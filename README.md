@@ -1,2 +1,3 @@
 # clube_analitico
 Dashboard do Clube Analítico
+[Clube Analítico](https://app.powerbi.com/view?r=eyJrIjoiZDA3NmU3YmItZWViNS00OGQ4LThhZDQtYWE1MGM0YmM4MTk1IiwidCI6IjhjYzJkZWQ2LWEzYjktNDk4My04ZDcxLTY3OGZjN2E2NjRiZSJ9)
