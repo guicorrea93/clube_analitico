@@ -50,6 +50,20 @@ REBAIXADOS_OFICIAIS = {
     2024: ["Atletico-GO", "Cuiaba", "Athletico-PR", "Criciuma"],
 }
 
+COMPLETUDE_MINIMA = [
+    ("Temporadas Serie A", "SELECT COUNT(*) FROM dim_temporada", 23),
+    ("Partidas Serie A", "SELECT COUNT(*) FROM fato_partida", 9000),
+    ("Snapshots de classificacao", "SELECT COUNT(*) FROM fato_classificacao_rodada", 18000),
+    ("Edicoes historicas nacionais", "SELECT COUNT(*) FROM dim_edicao_nacional", 70),
+    ("Classificacao final historica nacional",
+     "SELECT COUNT(*) FROM fato_classificacao_final_nacional",
+     1800),
+    ("Edicoes Copa do Brasil", "SELECT COUNT(*) FROM copa_brasil_edicao", 37),
+    ("Finais Copa do Brasil", "SELECT COUNT(*) FROM copa_brasil_final", 37),
+    ("Partidas finais Copa do Brasil", "SELECT COUNT(*) FROM copa_brasil_final_partida", 74),
+    ("Participantes Copa do Brasil", "SELECT COUNT(*) FROM copa_brasil_participante", 1000),
+]
+
 
 def main():
     if not DB.exists():
@@ -125,6 +139,16 @@ def main():
             falhas += 1
         marker = "✅" if ok else "❌"
         print(f"   {marker} {nome}: {n} (esperado {esperado})")
+
+    # ---- Completeness guards ----
+    print("\n🧱 Completude da base:")
+    for nome, sql, minimo in COMPLETUDE_MINIMA:
+        n = cur.execute(sql).fetchone()[0]
+        ok = n >= minimo
+        if not ok:
+            falhas += 1
+        marker = "✅" if ok else "❌"
+        print(f"   {marker} {nome}: {n} (mínimo {minimo})")
 
     # ---- Resumo final ----
     print(f"\n{'='*50}")
