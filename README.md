@@ -20,6 +20,7 @@ python -m pip install -r requirements.txt
 - `build.py`: executa o pipeline completo usando os scripts existentes.
 - `backup.py`: cria backup local dos artefatos criticos ou do projeto completo.
 - `status_db.py`: mostra um resumo rapido do banco e do dashboard.
+- `check_dashboard.py`: valida se o dashboard gerado contem o payload esperado.
 - `criar_banco_brasileirao.py`: recria o banco SQLite a partir dos CSVs em `data/`.
 - `validar_banco.py`: valida campeoes, rebaixados e consistencia basica do banco.
 - `importar_classificacao_historica_brasileirao.py`: importa classificacoes finais historicas para o banco.
@@ -40,6 +41,12 @@ Para inspecionar rapidamente o estado atual do banco:
 
 ```powershell
 python .\status_db.py
+```
+
+Para validar rapidamente o HTML gerado:
+
+```powershell
+python .\check_dashboard.py
 ```
 
 Para criar backup local antes de operacoes sensiveis:
@@ -83,6 +90,7 @@ Opcoes uteis:
 
 ```powershell
 python .\build.py --skip-dashboard
+python .\build.py --skip-dashboard-check
 python .\build.py --skip-validacao
 python .\build.py --rebuild-from-sources --skip-historico
 python .\build.py --rebuild-from-sources --from-year 2016 --to-year 2024

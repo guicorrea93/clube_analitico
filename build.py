@@ -64,6 +64,11 @@ def main() -> None:
         action="store_true",
         help="Nao gera dashboard.html.",
     )
+    parser.add_argument(
+        "--skip-dashboard-check",
+        action="store_true",
+        help="Nao valida o payload do dashboard apos a geracao.",
+    )
     args = parser.parse_args()
 
     if not args.rebuild_from_sources:
@@ -75,6 +80,8 @@ def main() -> None:
             run_step("Validando banco existente", ["validar_banco.py"])
         if not args.skip_dashboard:
             run_step("Gerando dashboard HTML", ["gerar_dashboard_html.py"])
+            if not args.skip_dashboard_check:
+                run_step("Validando dashboard HTML", ["check_dashboard.py"])
         print("\nPipeline concluido.")
         return
 
@@ -122,6 +129,8 @@ def main() -> None:
 
     if not args.skip_dashboard:
         run_step("Gerando dashboard HTML", ["gerar_dashboard_html.py"])
+        if not args.skip_dashboard_check:
+            run_step("Validando dashboard HTML", ["check_dashboard.py"])
 
     print("\nPipeline concluido.")
 
