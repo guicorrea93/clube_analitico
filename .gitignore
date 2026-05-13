@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary outputs
+*.log
+*.tmp
+*.temp
+backups/
+
+# Local reports generated during imports/validation
+relatorio_importacao_classificacao_final.xlsx
+db/*_before_*.db
+
+# Optional: uncomment if the repository should keep only source files.
+# dashboard.html
+# db/*.db
