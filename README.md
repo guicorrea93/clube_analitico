@@ -13,12 +13,15 @@ Instalacao:
 python -m pip install -r requirements.txt
 ```
 
+O projeto inclui `pyproject.toml` com configuracao basica para Black e Ruff.
+
 ## Arquivos principais
 
 - `dashboard.html`: dashboard pronto para abrir no navegador.
 - `gerar_dashboard_html.py`: recria o `dashboard.html` usando `db/brasileirao.db`.
 - `build.py`: executa o pipeline completo usando os scripts existentes.
 - `backup.py`: cria backup local dos artefatos criticos ou do projeto completo.
+- `restore_backup.py`: lista e restaura backups locais com confirmacao explicita.
 - `status_db.py`: mostra um resumo rapido do banco e do dashboard.
 - `check_dashboard.py`: valida se o dashboard gerado contem o payload esperado.
 - `criar_banco_brasileirao.py`: recria o banco SQLite a partir dos CSVs em `data/`.
@@ -59,6 +62,13 @@ Para backup quase completo do projeto:
 
 ```powershell
 python .\backup.py --full
+```
+
+Para listar ou restaurar backups locais:
+
+```powershell
+python .\restore_backup.py
+python .\restore_backup.py <nome_do_backup> --confirm
 ```
 
 Para recriar o banco a partir dos CSVs e wikitextos locais, use uma opcao
@@ -111,3 +121,8 @@ Para abrir o resultado, use o arquivo `dashboard.html` no navegador.
   seja manter apenas codigo-fonte no repositorio.
 - O dashboard usa Plotly via CDN, entao alguns graficos dependem de internet ao
   abrir o HTML.
+
+## Documentacao complementar
+
+- `docs/manutencao_dados.md`: manutencao, backup, restauracao e rebuild.
+- `docs/uso_dashboard.md`: uso, validacao e publicacao do dashboard.
