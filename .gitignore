@@ -19,6 +19,8 @@ env/
 *.tmp
 *.temp
 backups/
+data/cache/
+tmp_ogol/
 
 # Local reports generated during imports/validation
 relatorio_importacao_classificacao_final.xlsx
