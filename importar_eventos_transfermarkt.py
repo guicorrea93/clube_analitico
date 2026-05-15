@@ -123,7 +123,8 @@ def sprite_minute(fragment: str) -> int | None:
     x = int(match.group(1))
     y = int(match.group(2))
     step = 36 if "sb-sprite-uhr-klein" in fragment else 42
-    return (y // step) * 10 + (x // step)
+    minute = (y // step) * 10 + (x // step) + 1
+    return minute if minute <= 120 else None
 
 
 def clean_text(value: str) -> str:
@@ -183,7 +184,7 @@ def parse_goals(text: str, header: dict) -> list[dict]:
         player = re.search(r'<a title="([^"]+)" class="wichtig"', item)
         club = re.search(r'<div class="sb-aktion-wappen">.*?<a title="([^"]+)"', item, flags=re.S)
         score = re.search(r"<b>([0-9]+:[0-9]+)</b>", item)
-        if not player or not club:
+        if not player or not club or not score:
             continue
         desc = clean_text(re.search(r'<div class="sb-aktion-aktion">(.*?)</div>', item, flags=re.S).group(1))
         rows.append({
@@ -193,7 +194,7 @@ def parse_goals(text: str, header: dict) -> list[dict]:
             "jogador": html.unescape(player.group(1)).strip(),
             "tipo": goal_type(desc),
             "minuto": sprite_minute(item),
-            "placar_evento": score.group(1) if score else "",
+            "placar_evento": score.group(1),
             "num_camisa": "",
         })
     return rows
