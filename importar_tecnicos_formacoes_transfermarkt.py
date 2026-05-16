@@ -72,7 +72,9 @@ TEAM_ALIASES = {
 def normalize(value: str) -> str:
     text = unicodedata.normalize("NFKD", value or "")
     text = "".join(ch for ch in text if not unicodedata.combining(ch))
-    return " ".join(text.lower().replace("-", " ").split())
+    text = text.replace("ę", "e").replace("Ę", "E")
+    text = re.sub(r"[^a-zA-Z0-9]+", " ", text.lower())
+    return " ".join(text.split())
 
 
 def canonical_team(value: str, season: int) -> str:
