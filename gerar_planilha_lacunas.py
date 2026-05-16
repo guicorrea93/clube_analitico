@@ -12,12 +12,20 @@ from openpyxl.utils import get_column_letter
 
 DB_PATH = Path("db/brasileirao.db")
 OUTPUT_PATH = Path("docs/lacunas_para_pesquisa.xlsx")
+ADMIN_RESULTS_FILE = Path("data/partidas_resultado_administrativo.csv")
 ERROR_FILES = [
     Path("data/transfermarkt_eventos_2003_2006_erros.csv"),
     Path("data/transfermarkt_tecnicos_formacoes_2006_2013_erros.csv"),
     Path("data/espn_eventos_2006_2020_erros.csv"),
     Path("data/espn_cartoes_2025.csv"),
 ]
+
+
+def load_admin_result_ids() -> set[int]:
+    if not ADMIN_RESULTS_FILE.exists():
+        return set()
+    with ADMIN_RESULTS_FILE.open(encoding="utf-8-sig", newline="") as f:
+        return {int(row["partida_id"]) for row in csv.DictReader(f) if row.get("partida_id")}
 
 
 def add_sheet(wb: Workbook, title: str, headers: list[str], rows: list[dict]) -> None:
@@ -88,8 +96,11 @@ def tecnico_formacao_rows(matches: dict[int, dict]) -> list[dict]:
 
 def gols_rows(cur: sqlite3.Cursor, matches: dict[int, dict]) -> list[dict]:
     counts = dict(cur.execute("SELECT partida_id, COUNT(*) FROM fato_gol GROUP BY partida_id").fetchall())
+    admin_result_ids = load_admin_result_ids()
     rows = []
     for match in matches.values():
+        if match["partida_id"] in admin_result_ids:
+            continue
         esperado = match["gols_mandante"] + match["gols_visitante"]
         atual = counts.get(match["partida_id"], 0)
         if atual != esperado:

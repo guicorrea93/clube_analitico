@@ -16,6 +16,7 @@ from pathlib import Path
 DB_PATH = Path("db/brasileirao.db")
 CACHE_DIR = Path("data/cache/ogol")
 AUDIT_CSV = Path("data/ogol_gols_divergentes_auditoria.csv")
+ADMIN_RESULTS_FILE = Path("data/partidas_resultado_administrativo.csv")
 
 BASE = "https://www.ogol.com.br"
 HEADERS = {"User-Agent": "Mozilla/5.0 clube-analitico"}
@@ -57,6 +58,7 @@ TEAM_ALIASES = {
     "flamengo": "Flamengo",
     "fluminense": "Fluminense",
     "goias": "Goias",
+    "gremio barueri": "Gremio Prudente",
     "gremio": "Gremio",
     "gremio prudente": "Gremio Prudente",
     "guarani": "Guarani",
@@ -127,18 +129,35 @@ def fetch(url: str, cache_name: str, refresh: bool = False) -> str:
     path = CACHE_DIR / cache_name
     if path.exists() and not refresh:
         return path.read_text(encoding="utf-8", errors="ignore")
-    req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req, timeout=45) as response:
-        raw = response.read()
-        charset = response.headers.get_content_charset() or "utf-8"
-        text = raw.decode(charset, "ignore")
+    last_error: Exception | None = None
+    for attempt in range(3):
+        try:
+            req = urllib.request.Request(url, headers=HEADERS)
+            with urllib.request.urlopen(req, timeout=45) as response:
+                raw = response.read()
+                charset = response.headers.get_content_charset() or "utf-8"
+                text = raw.decode(charset, "ignore")
+            break
+        except Exception as exc:
+            last_error = exc
+            time.sleep(1.0 + attempt)
+    else:
+        raise RuntimeError(f"falha ao baixar {url}: {last_error}")
     path.write_text(text, encoding="utf-8")
     time.sleep(0.6)
     return text
 
 
+def load_admin_result_ids() -> set[int]:
+    if not ADMIN_RESULTS_FILE.exists():
+        return set()
+    with ADMIN_RESULTS_FILE.open(encoding="utf-8-sig", newline="") as f:
+        return {int(row["partida_id"]) for row in csv.DictReader(f) if row.get("partida_id")}
+
+
 def load_goal_mismatches(con: sqlite3.Connection) -> list[Match]:
     con.row_factory = sqlite3.Row
+    admin_result_ids = load_admin_result_ids()
     rows = con.execute(
         """
         SELECT p.partida_id, p.temporada_id, p.rodada, p.data,
@@ -154,7 +173,7 @@ def load_goal_mismatches(con: sqlite3.Connection) -> list[Match]:
         ORDER BY p.temporada_id, p.rodada, p.data, p.partida_id
         """
     ).fetchall()
-    return [Match(**dict(row)) for row in rows]
+    return [Match(**dict(row)) for row in rows if int(row["partida_id"]) not in admin_result_ids]
 
 
 def parse_calendar(season: int, refresh: bool = False) -> list[OgolGame]:
