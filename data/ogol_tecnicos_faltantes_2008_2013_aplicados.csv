@@ -1,0 +1,23 @@
+status,partida_id,temporada,rodada,data_banco,data_ogol,mandante,visitante,placar_banco,placar_ogol,match_method,source_id,source_url,tecnico_mandante,tecnico_visitante
+ok_mando_invertido_no_banco,2826,2009,12,2009-07-19,2009-07-19,Botafogo-RJ,Flamengo,2-2,2-2,same_game_home_away_inverted,711263,https://www.ogol.com.br/jogo/2009-07-19-flamengo-botafogo/711263,Ney Franco,Cuca
+ok,2862,2009,16,2009-08-02,2009-08-02,Athletico-PR,Fluminense,1-0,1-0,exact,711191,https://www.ogol.com.br/jogo/2009-08-02-atletico-paranaense-fluminense/711191,Riva Carli,Renato Gaúcho
+ok,3223,2010,14,2010-08-15,2010-08-15,Gremio Prudente,Vasco,1-2,1-2,exact,1201652,https://www.ogol.com.br/jogo/2010-08-15-gremio-barueri-vasco/1201652,Fábio Giuntini,PC Gusmão
+ok,3287,2010,21,2010-09-11,2010-09-11,Flamengo,Vitoria,2-2,2-2,exact,1201720,https://www.ogol.com.br/jogo/2010-09-11-flamengo-vitoria/1201720,Paulo Silas,Ricardo Silva
+ok,3326,2010,24,2010-09-23,2010-09-24,Vitoria,Avai,3-0,3-0,same_score,1201756,https://www.ogol.com.br/jogo/2010-09-24-vitoria-avai/1201756,Ricardo Silva,Edson Neguinho
+ok,3333,2010,25,2010-09-26,2010-09-26,Vitoria,Fluminense,1-2,1-2,exact,1201766,https://www.ogol.com.br/jogo/2010-09-26-vitoria-fluminense/1201766,Ricardo Silva,Muricy Ramalho
+ok,3340,2010,26,2010-09-29,2010-09-29,Gremio Prudente,Guarani,4-2,4-2,exact,1201772,https://www.ogol.com.br/jogo/2010-09-29-gremio-barueri-guarani/1201772,Fábio Giuntini,Vagner Mancini
+ok,3342,2010,26,2010-09-29,2010-09-29,Athletico-PR,Vitoria,1-0,1-0,exact,1201777,https://www.ogol.com.br/jogo/2010-09-29-atletico-paranaense-vitoria/1201777,Carpegiani,Ricardo Silva
+ok,3350,2010,27,2010-10-02,2010-10-02,Gremio Prudente,Fluminense,1-1,1-1,exact,1201782,https://www.ogol.com.br/jogo/2010-10-02-gremio-barueri-fluminense/1201782,Fábio Giuntini,Muricy Ramalho
+ok,3351,2010,27,2010-10-02,2010-10-02,Vitoria,Gremio,0-3,0-3,exact,1201786,https://www.ogol.com.br/jogo/2010-10-02-vitoria-gremio/1201786,Ricardo Silva,Renato Gaúcho
+ok,3355,2010,27,2010-10-02,2010-10-03,Avai,Sao Paulo,0-0,0-0,same_score,1201787,https://www.ogol.com.br/jogo/2010-10-03-avai-sao-paulo/1201787,Edson Neguinho,Sérgio Baresi
+ok,3362,2010,28,2010-10-06,2010-10-07,Sao Paulo,Vitoria,2-0,2-0,same_score,1201788,https://www.ogol.com.br/jogo/2010-10-07-sao-paulo-vitoria/1201788,Carpegiani,Ricardo Silva
+ok,3535,2011,7,2011-06-30,2011-07-01,Fluminense,Athletico-PR,3-1,3-1,same_score,1652425,https://www.ogol.com.br/jogo/2011-07-01-fluminense-atletico-paranaense/1652425,Abel Braga,Leandro Niehues
+ok,3548,2011,9,2011-07-09,2011-07-09,Sao Paulo,Cruzeiro,2-1,2-1,exact,1652443,https://www.ogol.com.br/jogo/2011-07-09-sao-paulo-cruzeiro/1652443,Milton Cruz,Joel Santana
+ok,3577,2011,11,2011-07-21,2011-07-21,Avai,Internacional,1-3,1-3,exact,1652468,https://www.ogol.com.br/jogo/2011-07-21-avai-internacional/1652468,Alexandre Gallo,Osmar Loss
+ok,3592,2011,13,2011-07-31,2011-07-31,Internacional,Atletico-GO,0-0,0-0,exact,1652486,https://www.ogol.com.br/jogo/2011-07-31-internacional-atletico-goianiense/1652486,Osmar Loss,Jairo Araújo
+ok,3614,2011,15,2011-08-07,2011-08-07,Bahia,Atletico-GO,2-1,2-1,exact,1652511,https://www.ogol.com.br/jogo/2011-08-07-bahia-atletico-goianiense/1652511,René Simões,Jairo Araújo
+ok,3618,2011,16,2011-08-13,2011-08-13,Atletico-GO,Santos,2-0,2-0,exact,1652520,https://www.ogol.com.br/jogo/2011-08-13-atletico-goianiense-santos/1652520,Jairo Araújo,Muricy Ramalho
+ok,3772,2011,31,2011-10-23,2011-10-23,Sao Paulo,Coritiba,0-0,0-0,exact,1652663,https://www.ogol.com.br/jogo/2011-10-23-sao-paulo-coritiba/1652663,Milton Cruz,Marcelo Oliveira
+ok,4223,2012,38,2012-12-02,2012-12-02,Coritiba,Figueirense,3-0,3-0,direct_team_calendar,2186481,https://www.ogol.com.br/jogo/2012-12-02-coritiba-figueirense/2186481,Marquinhos Santos,Fernando Gil
+ok,4508,2013,29,2013-10-16,2013-10-16,Santos,Internacional,0-0,0-0,exact,2790503,https://www.ogol.com.br/jogo/2013-10-16-santos-internacional/2790503,Claudinei Oliveira,Clemer
+ok,4509,2013,29,2013-10-16,2013-10-17,Criciuma,Portuguesa,1-3,1-3,same_score,2790508,https://www.ogol.com.br/jogo/2013-10-17-criciuma-portuguesa/2790508,Argel Fuchs,Guto Ferreira
