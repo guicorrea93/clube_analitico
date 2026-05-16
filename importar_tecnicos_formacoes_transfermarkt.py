@@ -109,6 +109,27 @@ def season_rounds(cur: sqlite3.Cursor, season: int) -> list[int]:
     return [int(r[0]) for r in rows]
 
 
+def missing_season_rounds(cur: sqlite3.Cursor, season: int) -> list[int]:
+    rows = cur.execute(
+        """
+        SELECT DISTINCT rodada
+        FROM fato_partida
+        WHERE temporada_id = ?
+          AND (
+            tecnico_mand_id IS NULL
+            OR tecnico_vis_id IS NULL
+            OR formacao_mandante IS NULL
+            OR formacao_mandante = ''
+            OR formacao_visitante IS NULL
+            OR formacao_visitante = ''
+          )
+        ORDER BY rodada
+        """,
+        (season,),
+    ).fetchall()
+    return [int(r[0]) for r in rows]
+
+
 def schedule_ids(season: int, round_: int) -> list[str]:
     sid = season - 1
     url = f"{BASE}/campeonato-brasileiro-serie-a/spieltagtabelle/wettbewerb/BRA1?saison_id={sid}&spieltag={round_}"
@@ -134,21 +155,19 @@ def parse_match(match_id: str, season: int, round_: int) -> tuple[dict | None, d
         team_matches = re.findall(r'class="sb-vereinslink" href="[^"]+"><img[^>]+title="([^"]+)"', text)
 
     formations = [html.unescape(x).strip() for x in re.findall(r"Onze inicial:\s*([^<]+)", text)]
-    trainers = [
-        html.unescape(x).strip()
-        for x in re.findall(
-            r'<div>Treinador:</div>\s*</td>\s*<td class="bench-table__td">\s*<a[^>]*>([^<]+)</a>',
-            text,
-        )
-    ]
-    if len(trainers) < 2:
-        trainers = [
-            html.unescape(x).strip()
-            for x in re.findall(
-                r"<td><b>Treinador</b></td>\s*<td><a[^>]*>([^<]+)</a></td>",
-                text,
-            )
-        ]
+    trainer_pattern = re.compile(
+        r"""
+        (?:<td[^>]*>\s*<b>Treinador</b>\s*</td>\s*<td[^>]*>\s*<a[^>]*>(?P<classic>[^<]+)</a>)
+        |
+        (?:<div>Treinador:</div>\s*</td>\s*<td[^>]*class="bench-table__td"[^>]*>\s*<a[^>]*>(?P<bench>[^<]+)</a>)
+        """,
+        re.S | re.X,
+    )
+    trainers = []
+    for match in trainer_pattern.finditer(text):
+        name = match.group("classic") or match.group("bench")
+        if name:
+            trainers.append(html.unescape(name).strip())
 
     if not date_match or not score_match or len(team_matches) < 2:
         return None, {"temporada": season, "rodada": round_, "match_id": match_id, "erro": "cabecalho incompleto"}
@@ -227,7 +246,11 @@ def write_csv(path: Path, rows: list[dict], fieldnames: list[str]) -> None:
         writer.writerows(rows)
 
 
-def apply_rows(cur: sqlite3.Cursor, rows: list[dict]) -> None:
+def is_missing(value: object) -> bool:
+    return value is None or str(value).strip() == ""
+
+
+def apply_rows(cur: sqlite3.Cursor, rows: list[dict], only_missing: bool = False) -> None:
     for row in rows:
         if row["tecnico_mandante"]:
             cur.execute("INSERT OR IGNORE INTO dim_tecnico (nome) VALUES (?)", (row["tecnico_mandante"],))
@@ -235,18 +258,31 @@ def apply_rows(cur: sqlite3.Cursor, rows: list[dict]) -> None:
             cur.execute("INSERT OR IGNORE INTO dim_tecnico (nome) VALUES (?)", (row["tecnico_visitante"],))
     tecnico_map = dict(cur.execute("SELECT nome, tecnico_id FROM dim_tecnico").fetchall())
     for row in rows:
+        current = None
+        if only_missing:
+            current = cur.execute(
+                """
+                SELECT tecnico_mand_id, tecnico_vis_id, formacao_mandante, formacao_visitante
+                FROM fato_partida
+                WHERE partida_id = ?
+                """,
+                (row["partida_id"],),
+            ).fetchone()
+            if current is None:
+                continue
+
         updates = []
         params = []
-        if row["tecnico_mandante"]:
+        if row["tecnico_mandante"] and (not only_missing or is_missing(current[0])):
             updates.append("tecnico_mand_id = ?")
             params.append(tecnico_map[row["tecnico_mandante"]])
-        if row["tecnico_visitante"]:
+        if row["tecnico_visitante"] and (not only_missing or is_missing(current[1])):
             updates.append("tecnico_vis_id = ?")
             params.append(tecnico_map[row["tecnico_visitante"]])
-        if row["formacao_mandante"]:
+        if row["formacao_mandante"] and (not only_missing or is_missing(current[2])):
             updates.append("formacao_mandante = ?")
             params.append(row["formacao_mandante"])
-        if row["formacao_visitante"]:
+        if row["formacao_visitante"] and (not only_missing or is_missing(current[3])):
             updates.append("formacao_visitante = ?")
             params.append(row["formacao_visitante"])
         if updates:
@@ -260,15 +296,21 @@ def main() -> int:
     parser.add_argument("--end", type=int, default=2013)
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--allow-partial", action="store_true", help="aplica linhas validas mesmo com erros auditados")
+    parser.add_argument("--only-missing", action="store_true", help="preenche apenas campos vazios no banco")
+    parser.add_argument("--audit-csv", type=Path, default=None)
+    parser.add_argument("--errors-csv", type=Path, default=None)
     parser.add_argument("--apply", action="store_true")
     args = parser.parse_args()
+    audit_csv = args.audit_csv or Path(f"data/transfermarkt_tecnicos_formacoes_{args.start}_{args.end}.csv")
+    errors_csv = args.errors_csv or Path(f"data/transfermarkt_tecnicos_formacoes_{args.start}_{args.end}_erros.csv")
 
     con = sqlite3.connect(DB_PATH)
     try:
         cur = con.cursor()
         jobs: list[tuple[int, int, str]] = []
         for season in range(args.start, args.end + 1):
-            for round_ in season_rounds(cur, season):
+            rounds = missing_season_rounds(cur, season) if args.only_missing else season_rounds(cur, season)
+            for round_ in rounds:
                 ids = schedule_ids(season, round_)
                 for match_id in ids:
                     jobs.append((season, round_, match_id))
@@ -282,7 +324,17 @@ def main() -> int:
                 for season, round_, match_id in jobs
             }
             for i, future in enumerate(as_completed(futures), start=1):
-                row, error = future.result()
+                season, round_, match_id = futures[future]
+                try:
+                    row, error = future.result()
+                except Exception as exc:  # pragma: no cover - network instability
+                    row = None
+                    error = {
+                        "temporada": season,
+                        "rodada": round_,
+                        "match_id": match_id,
+                        "erro": str(exc),
+                    }
                 if row:
                     parsed.append(row)
                 if error:
@@ -298,18 +350,18 @@ def main() -> int:
             "data", "mandante", "visitante", "gols_mandante", "gols_visitante",
             "formacao_mandante", "formacao_visitante", "tecnico_mandante", "tecnico_visitante",
         ]
-        write_csv(AUDIT_CSV, sorted(rows, key=lambda r: (r["temporada_id"], r["rodada"], r["partida_id"])), fields)
-        write_csv(ERRORS_CSV, errors, ["temporada", "rodada", "match_id", "erro"])
+        write_csv(audit_csv, sorted(rows, key=lambda r: (r["temporada_id"], r["rodada"], r["partida_id"])), fields)
+        write_csv(errors_csv, errors, ["temporada", "rodada", "match_id", "erro"])
 
         print(f"linhas_validas={len(rows)} erros={len(errors)}")
-        print(f"csv_auditoria={AUDIT_CSV}")
-        print(f"csv_erros={ERRORS_CSV}")
+        print(f"csv_auditoria={audit_csv}")
+        print(f"csv_erros={errors_csv}")
         if errors and not args.allow_partial:
             print("modo=erro_sem_aplicar")
             return 1
         if args.apply:
             with con:
-                apply_rows(cur, rows)
+                apply_rows(cur, rows, only_missing=args.only_missing)
             print("modo=aplicado")
         else:
             print("modo=dry-run")
