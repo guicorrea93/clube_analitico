@@ -210,10 +210,29 @@ def load_match_map(cur: sqlite3.Cursor, season: int) -> dict[tuple, int]:
     }
 
 
-def attach_partida_ids(cur: sqlite3.Cursor, rows: list[dict]) -> tuple[list[dict], list[dict]]:
+def load_relaxed_match_map(cur: sqlite3.Cursor, season: int) -> dict[tuple, list[int]]:
+    rows = cur.execute(
+        """
+        SELECT p.partida_id, p.rodada, hm.nome, aw.nome, p.gols_mandante, p.gols_visitante
+        FROM fato_partida p
+        JOIN dim_clube hm ON hm.clube_id = p.mandante_id
+        JOIN dim_clube aw ON aw.clube_id = p.visitante_id
+        WHERE p.temporada_id = ?
+        """,
+        (season,),
+    ).fetchall()
+    out: dict[tuple, list[int]] = {}
+    for partida_id, rodada, mandante, visitante, gm, gv in rows:
+        key = (rodada, mandante, visitante, gm, gv)
+        out.setdefault(key, []).append(partida_id)
+    return out
+
+
+def attach_partida_ids(cur: sqlite3.Cursor, rows: list[dict], relaxed_date: bool = False) -> tuple[list[dict], list[dict]]:
     ok: list[dict] = []
     errors: list[dict] = []
     maps: dict[int, dict[tuple, int]] = {}
+    relaxed_maps: dict[int, dict[tuple, list[int]]] = {}
     for row in rows:
         season = int(row["temporada_id"])
         maps.setdefault(season, load_match_map(cur, season))
@@ -225,6 +244,20 @@ def attach_partida_ids(cur: sqlite3.Cursor, rows: list[dict]) -> tuple[list[dict
             row["gols_visitante"],
         )
         partida_id = maps[season].get(key)
+        row["match_method"] = "exact"
+        if partida_id is None and relaxed_date:
+            relaxed_maps.setdefault(season, load_relaxed_match_map(cur, season))
+            relaxed_key = (
+                row["rodada"],
+                row["mandante"],
+                row["visitante"],
+                row["gols_mandante"],
+                row["gols_visitante"],
+            )
+            candidates = relaxed_maps[season].get(relaxed_key, [])
+            if len(candidates) == 1:
+                partida_id = candidates[0]
+                row["match_method"] = "round_teams_score"
         if partida_id is None:
             errors.append({
                 "temporada": season,
@@ -297,6 +330,7 @@ def main() -> int:
     parser.add_argument("--workers", type=int, default=8)
     parser.add_argument("--allow-partial", action="store_true", help="aplica linhas validas mesmo com erros auditados")
     parser.add_argument("--only-missing", action="store_true", help="preenche apenas campos vazios no banco")
+    parser.add_argument("--relaxed-date", action="store_true", help="quando data divergir, valida por rodada + times + placar")
     parser.add_argument("--audit-csv", type=Path, default=None)
     parser.add_argument("--errors-csv", type=Path, default=None)
     parser.add_argument("--apply", action="store_true")
@@ -342,12 +376,13 @@ def main() -> int:
                 if i % 250 == 0:
                     print(f"processadas={i}/{len(jobs)}")
 
-        rows, match_errors = attach_partida_ids(cur, parsed)
+        rows, match_errors = attach_partida_ids(cur, parsed, relaxed_date=args.relaxed_date)
         errors.extend(match_errors)
 
         fields = [
             "source", "source_match_id", "source_url", "partida_id", "temporada_id", "rodada",
             "data", "mandante", "visitante", "gols_mandante", "gols_visitante",
+            "match_method",
             "formacao_mandante", "formacao_visitante", "tecnico_mandante", "tecnico_visitante",
         ]
         write_csv(audit_csv, sorted(rows, key=lambda r: (r["temporada_id"], r["rodada"], r["partida_id"])), fields)
