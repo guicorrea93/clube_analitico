@@ -206,7 +206,7 @@ def parse_position_formations(text: str) -> list[str]:
     section_start = text.find("Sistema T")
     if section_start < 0:
         return []
-    section = text[section_start : section_start + 30000]
+    section = text[section_start : section_start + 90000]
     tables = re.findall(r"<table\b[^>]*>(.*?)</table>", section, flags=re.S | re.I)
     formations: list[str] = []
     for table in tables[:2]:
@@ -219,7 +219,7 @@ def parse_position_formations(text: str) -> list[str]:
                 counts["mid"] = len(re.findall(r"/profil/spieler/", cell))
             elif key in {"atacante", "ataque", "atacantes"}:
                 counts["att"] = len(re.findall(r"/profil/spieler/", cell))
-        if all(counts.get(key, 0) > 0 for key in ("def", "mid", "att")):
+        if {"def", "mid", "att"}.issubset(counts) and counts["def"] > 0 and counts["mid"] > 0 and sum(counts.values()) == 10:
             formations.append(f"{counts['def']}-{counts['mid']}-{counts['att']}")
     return formations
 
