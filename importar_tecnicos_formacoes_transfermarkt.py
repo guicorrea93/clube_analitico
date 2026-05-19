@@ -79,6 +79,11 @@ def normalize(value: str) -> str:
     return " ".join(text.split())
 
 
+def clean_text(value: str) -> str:
+    value = re.sub(r"<[^>]+>", " ", value)
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()
+
+
 def canonical_team(value: str, season: int) -> str:
     key = normalize(html.unescape(value))
     if season == 2007 and key == "america fc":
@@ -157,6 +162,8 @@ def parse_match(match_id: str, season: int, round_: int) -> tuple[dict | None, d
         team_matches = re.findall(r'class="sb-vereinslink" href="[^"]+"><img[^>]+title="([^"]+)"', text)
 
     formations = [html.unescape(x).strip() for x in re.findall(r"Onze inicial:\s*([^<]+)", text)]
+    if len(formations) < 2:
+        formations = parse_position_formations(text)
     trainer_pattern = re.compile(
         r"""
         (?:<td[^>]*>\s*<b>Treinador</b>\s*</td>\s*<td[^>]*>\s*<a[^>]*>(?P<classic>[^<]+)</a>)
@@ -193,6 +200,28 @@ def parse_match(match_id: str, season: int, round_: int) -> tuple[dict | None, d
         "tecnico_visitante": trainers[1] if len(trainers) >= 2 else "",
     }
     return row, None
+
+
+def parse_position_formations(text: str) -> list[str]:
+    section_start = text.find("Sistema T")
+    if section_start < 0:
+        return []
+    section = text[section_start : section_start + 30000]
+    tables = re.findall(r"<table\b[^>]*>(.*?)</table>", section, flags=re.S | re.I)
+    formations: list[str] = []
+    for table in tables[:2]:
+        counts: dict[str, int] = {}
+        for label, cell in re.findall(r"<tr[^>]*>.*?<td>\s*<b>(.*?)</b>\s*</td>\s*<td[^>]*>(.*?)</td>.*?</tr>", table, flags=re.S | re.I):
+            key = normalize(clean_text(label))
+            if key in {"defensor", "defesa", "defensores"}:
+                counts["def"] = len(re.findall(r"/profil/spieler/", cell))
+            elif key in {"meio campo", "meio campistas", "meias"}:
+                counts["mid"] = len(re.findall(r"/profil/spieler/", cell))
+            elif key in {"atacante", "ataque", "atacantes"}:
+                counts["att"] = len(re.findall(r"/profil/spieler/", cell))
+        if all(counts.get(key, 0) > 0 for key in ("def", "mid", "att")):
+            formations.append(f"{counts['def']}-{counts['mid']}-{counts['att']}")
+    return formations
 
 
 def load_match_map(cur: sqlite3.Cursor, season: int) -> dict[tuple, int]:
