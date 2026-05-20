@@ -162,8 +162,12 @@ def parse_match(match_id: str, season: int, round_: int) -> tuple[dict | None, d
         team_matches = re.findall(r'class="sb-vereinslink" href="[^"]+"><img[^>]+title="([^"]+)"', text)
 
     formations = [html.unescape(x).strip() for x in re.findall(r"Onze inicial:\s*([^<]+)", text)]
+    position_formations = parse_position_formations(text)
     if len(formations) < 2:
-        formations = parse_position_formations(text)
+        if len(formations) == 1 and len(position_formations) == 1:
+            formations = position_formations + formations
+        else:
+            formations = position_formations
     trainer_pattern = re.compile(
         r"""
         (?:<td[^>]*>\s*<b>Treinador</b>\s*</td>\s*<td[^>]*>\s*<a[^>]*>(?P<classic>[^<]+)</a>)
