@@ -809,10 +809,8 @@ main{padding:30px 36px;max-width:1540px;margin:0 auto}
 }
 .card h3{margin:0 0 10px;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 
-.hn-bracket-wrap{display:grid;grid-template-columns:minmax(320px,1.35fr) minmax(280px,1fr) minmax(280px,.9fr);gap:18px;align-items:start}
+.hn-bracket-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;align-items:start}
 .hn-bracket-col{display:grid;gap:14px}
-.hn-bracket-col.semi{padding-top:68px}
-.hn-bracket-col.final{padding-top:154px}
 .hn-phase-title{margin:0 0 10px;color:var(--accent2);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
 .hn-match{padding:13px 14px;border:1px solid var(--border);background:var(--panel2);border-radius:8px;box-shadow:var(--shadow-sm)}
 .hn-match.final{border-color:var(--accent);box-shadow:0 0 0 1px rgba(22,163,74,.35), var(--shadow)}
@@ -828,7 +826,7 @@ main{padding:30px 36px;max-width:1540px;margin:0 auto}
 .hn-champion small{display:block;margin-top:4px;color:var(--muted)}
 @media(max-width:1100px){
   .hn-bracket-wrap{grid-template-columns:1fr}
-  .hn-bracket-col.semi,.hn-bracket-col.final{padding-top:0}
+  .hn-bracket-col{padding-top:0!important}
 }
 
 /* ==== TABELAS ==== */
@@ -2370,7 +2368,8 @@ function renderBrasileiroAntigo() {
   selFase.value = state.hnFase;
   const participantes = data.participantes.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
   const partidasTodas = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
-  const primeiraFase = partidasTodas.filter(p => p.fase === "Primeira fase");
+  const faseLiga = fases.find(f => f.tipo === "liga")?.fase || "Primeira fase";
+  const primeiraFase = partidasTodas.filter(p => p.fase === faseLiga);
   const tabelaPrimeira = calcHNTable(primeiraFase);
   const classFinal = (DATA.class_final_hist || []).filter(r => r.edicao_id === ed.edicao_id).sort((a,b)=>a.pos-b.pos);
   const partidas = partidasTodas.filter(p => !state.hnFase || p.fase === state.hnFase);
@@ -2424,7 +2423,9 @@ function getHNRaceFrames() {
   const data = DATA.hist_nacional || {partidas:[]};
   const ed = getHNCurrentEdition();
   if (!ed) return [];
-  const primeira = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id && p.fase === "Primeira fase");
+  const fases = (data.fases || []).filter(f => f.edicao_nacional_id === ed.edicao_nacional_id).sort((a,b)=>a.ordem-b.ordem);
+  const faseLiga = fases.find(f => f.tipo === "liga")?.fase || "Primeira fase";
+  const primeira = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id && p.fase === faseLiga);
   const rounds = [...new Set(primeira.map(p => p.rodada).filter(Boolean))].sort((a,b)=>a-b);
   return rounds.map(r => ({rodada:r, tabela:calcHNTable(primeira.filter(p => p.rodada <= r))}));
 }
@@ -2486,20 +2487,22 @@ function renderHNRace() {
 }
 
 function renderHNBracket(partidasTodas) {
-  const fases = [
-    {fase:"Quartas de final", cls:"qf"},
-    {fase:"Semifinal", cls:"semi"},
-    {fase:"Final", cls:"final"},
-  ];
+  const fases = [...new Map(
+    partidasTodas
+      .filter(p => p.fase_tipo === "mata_mata")
+      .sort((a,b)=>a.fase_ordem-b.fase_ordem)
+      .map(p => [p.fase, {fase:p.fase, ordem:p.fase_ordem, cls:p.fase === "Final" ? "final" : ""}])
+  ).values()];
   const parsed = fases.map(meta => {
     const fase = meta.fase;
     const jogos = partidasTodas.filter(p => p.fase === fase).sort((a,b)=>(a.jogo||0)-(b.jogo||0) || a.data_iso.localeCompare(b.data_iso));
     const pares = [...new Set(jogos.map(p=>p.jogo))].map(j => jogos.filter(p=>p.jogo===j));
     const cards = pares.map(par => {
-      const a = par[0], b = par[1];
-      if (!a || !b) return null;
+      const a = par[0], b = par[1] || null;
+      if (!a) return null;
       const teamA = a.mandante, teamB = a.visitante;
-      const aggA = a.gm + b.gv, aggB = a.gv + b.gm;
+      const aggA = b ? a.gm + b.gv : a.gm;
+      const aggB = b ? a.gv + b.gm : a.gv;
       const winA = aggA > aggB;
       const winner = winA ? teamA : teamB;
       const outcome = meta.cls === "final" ? "foi campeão" : "avançou";
@@ -2510,17 +2513,18 @@ function renderHNBracket(partidasTodas) {
   const finalMatch = parsed.find(x => x.fase === "Final")?.cards?.[0];
   const champion = finalMatch?.winner || "";
   const finalAgg = finalMatch ? `${finalMatch.aggA}-${finalMatch.aggB}` : "";
-  const columnHtml = parsed.map(meta => {
+  const columnHtml = parsed.map((meta, idx) => {
     const cards = meta.cards.map(card => `
       <div class="hn-match ${meta.cls === "final" ? "final" : ""}">
         <div class="hn-team-line ${card.winA ? "winner" : ""}"><span>${card.teamA}</span><span>${card.aggA}</span></div>
         <div class="hn-team-line ${!card.winA ? "winner" : ""}"><span>${card.teamB}</span><span>${card.aggB}</span></div>
-        <div class="hn-leg"><span>Ida</span><span>${card.a.mandante}</span><span class="hn-leg-score">${card.a.gm}-${card.a.gv}</span><span>${card.a.visitante}</span></div>
-        <div class="hn-leg"><span>Volta</span><span>${card.b.mandante}</span><span class="hn-leg-score">${card.b.gm}-${card.b.gv}</span><span>${card.b.visitante}</span></div>
+        <div class="hn-leg"><span>${card.b ? "Ida" : "Jogo"}</span><span>${card.a.mandante}</span><span class="hn-leg-score">${card.a.gm}-${card.a.gv}</span><span>${card.a.visitante}</span></div>
+        ${card.b ? `<div class="hn-leg"><span>Volta</span><span>${card.b.mandante}</span><span class="hn-leg-score">${card.b.gm}-${card.b.gv}</span><span>${card.b.visitante}</span></div>` : ""}
         <div class="hn-agg">Agregado: <b>${card.winner}</b> ${card.outcome}, ${card.aggA}-${card.aggB}</div>
       </div>
     `).join("");
-    return `<div class="hn-bracket-col ${meta.cls}"><h3 class="hn-phase-title">${meta.fase}</h3>${cards}</div>`;
+    const pad = Math.min(132, idx * 52);
+    return `<div class="hn-bracket-col ${meta.cls}" style="padding-top:${pad}px"><h3 class="hn-phase-title">${meta.fase}</h3>${cards}</div>`;
   }).join("");
   const championHtml = champion ? `
     <div class="hn-champion">
