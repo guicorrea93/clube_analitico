@@ -2501,12 +2501,13 @@ function renderHNBracket(partidasTodas) {
       const a = par[0], b = par[1] || null;
       if (!a) return null;
       const teamA = a.mandante, teamB = a.visitante;
-      const aggA = b ? a.gm + b.gv : a.gm;
-      const aggB = b ? a.gv + b.gm : a.gv;
+      const scoreFor = (team, match) => match.mandante === team ? match.gm : match.gv;
+      const aggA = par.reduce((acc, match) => acc + scoreFor(teamA, match), 0);
+      const aggB = par.reduce((acc, match) => acc + scoreFor(teamB, match), 0);
       const winA = aggA > aggB;
       const winner = winA ? teamA : teamB;
       const outcome = meta.cls === "final" ? "foi campeão" : "avançou";
-      return {a,b,teamA,teamB,aggA,aggB,winner,winA,outcome};
+      return {partidas:par,teamA,teamB,aggA,aggB,winner,winA,outcome};
     }).filter(Boolean);
     return {...meta, cards};
   });
@@ -2518,8 +2519,7 @@ function renderHNBracket(partidasTodas) {
       <div class="hn-match ${meta.cls === "final" ? "final" : ""}">
         <div class="hn-team-line ${card.winA ? "winner" : ""}"><span>${card.teamA}</span><span>${card.aggA}</span></div>
         <div class="hn-team-line ${!card.winA ? "winner" : ""}"><span>${card.teamB}</span><span>${card.aggB}</span></div>
-        <div class="hn-leg"><span>${card.b ? "Ida" : "Jogo"}</span><span>${card.a.mandante}</span><span class="hn-leg-score">${card.a.gm}-${card.a.gv}</span><span>${card.a.visitante}</span></div>
-        ${card.b ? `<div class="hn-leg"><span>Volta</span><span>${card.b.mandante}</span><span class="hn-leg-score">${card.b.gm}-${card.b.gv}</span><span>${card.b.visitante}</span></div>` : ""}
+        ${card.partidas.map((p,i) => `<div class="hn-leg"><span>${card.partidas.length === 2 ? (i === 0 ? "Ida" : "Volta") : "Jogo " + (i+1)}</span><span>${p.mandante}</span><span class="hn-leg-score">${p.gm}-${p.gv}</span><span>${p.visitante}</span></div>`).join("")}
         <div class="hn-agg">Agregado: <b>${card.winner}</b> ${card.outcome}, ${card.aggA}-${card.aggB}</div>
       </div>
     `).join("");
