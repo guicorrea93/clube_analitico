@@ -809,6 +809,28 @@ main{padding:30px 36px;max-width:1540px;margin:0 auto}
 }
 .card h3{margin:0 0 10px;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 
+.hn-bracket-wrap{display:grid;grid-template-columns:minmax(320px,1.35fr) minmax(280px,1fr) minmax(280px,.9fr);gap:18px;align-items:start}
+.hn-bracket-col{display:grid;gap:14px}
+.hn-bracket-col.semi{padding-top:68px}
+.hn-bracket-col.final{padding-top:154px}
+.hn-phase-title{margin:0 0 10px;color:var(--accent2);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+.hn-match{padding:13px 14px;border:1px solid var(--border);background:var(--panel2);border-radius:8px;box-shadow:var(--shadow-sm)}
+.hn-match.final{border-color:var(--accent);box-shadow:0 0 0 1px rgba(22,163,74,.35), var(--shadow)}
+.hn-team-line{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:14px;font-weight:800}
+.hn-team-line + .hn-team-line{margin-top:5px}
+.hn-team-line.winner{color:var(--accent)}
+.hn-leg{margin-top:8px;padding-top:8px;border-top:1px solid var(--border);display:grid;grid-template-columns:52px 1fr auto 1fr;gap:8px;align-items:center;font-size:11px;color:var(--muted)}
+.hn-leg-score{font-size:13px;font-weight:900;color:var(--text);font-variant-numeric:tabular-nums}
+.hn-agg{margin-top:8px;color:var(--muted);font-size:11px}
+.hn-champion{margin-bottom:16px;padding:16px 18px;border:1px solid var(--accent);border-radius:8px;background:linear-gradient(135deg, rgba(34,197,94,.16), rgba(250,204,21,.08));box-shadow:var(--shadow-sm)}
+.hn-champion span{display:block;color:var(--muted);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+.hn-champion b{display:block;margin-top:4px;color:var(--accent);font-size:26px;line-height:1.1}
+.hn-champion small{display:block;margin-top:4px;color:var(--muted)}
+@media(max-width:1100px){
+  .hn-bracket-wrap{grid-template-columns:1fr}
+  .hn-bracket-col.semi,.hn-bracket-col.final{padding-top:0}
+}
+
 /* ==== TABELAS ==== */
 .tbl-wrap{max-height:520px;overflow:auto;border-radius:8px}
 .tbl-wrap.tall{max-height:700px}
@@ -2464,25 +2486,50 @@ function renderHNRace() {
 }
 
 function renderHNBracket(partidasTodas) {
-  const fases = ["Quartas de final", "Semifinal", "Final"];
-  const html = fases.map(fase => {
+  const fases = [
+    {fase:"Quartas de final", cls:"qf"},
+    {fase:"Semifinal", cls:"semi"},
+    {fase:"Final", cls:"final"},
+  ];
+  const parsed = fases.map(meta => {
+    const fase = meta.fase;
     const jogos = partidasTodas.filter(p => p.fase === fase).sort((a,b)=>(a.jogo||0)-(b.jogo||0) || a.data_iso.localeCompare(b.data_iso));
     const pares = [...new Set(jogos.map(p=>p.jogo))].map(j => jogos.filter(p=>p.jogo===j));
     const cards = pares.map(par => {
       const a = par[0], b = par[1];
-      if (!a || !b) return "";
+      if (!a || !b) return null;
       const teamA = a.mandante, teamB = a.visitante;
       const aggA = a.gm + b.gv, aggB = a.gv + b.gm;
       const winA = aggA > aggB;
-      return `<div style="margin:0;padding:12px;border-radius:6px;border:1px solid var(--border);background:var(--panel2)">
-        <div style="display:flex;justify-content:space-between;gap:10px"><b style="color:${winA?'var(--accent)':'var(--text)'}">${teamA}</b><span>${a.gm}-${a.gv}</span></div>
-        <div style="display:flex;justify-content:space-between;gap:10px"><b style="color:${!winA?'var(--accent)':'var(--text)'}">${teamB}</b><span>${b.gm}-${b.gv}</span></div>
-        <div style="margin-top:6px;color:var(--muted);font-size:11px">Agregado: ${teamA} ${aggA}-${aggB} ${teamB}</div>
-      </div>`;
-    }).join("");
-    return `<div><h3 style="margin:0 0 8px;color:var(--accent2)">${fase}</h3><div style="display:grid;gap:10px">${cards}</div></div>`;
+      const winner = winA ? teamA : teamB;
+      const outcome = meta.cls === "final" ? "foi campeão" : "avançou";
+      return {a,b,teamA,teamB,aggA,aggB,winner,winA,outcome};
+    }).filter(Boolean);
+    return {...meta, cards};
+  });
+  const finalMatch = parsed.find(x => x.fase === "Final")?.cards?.[0];
+  const champion = finalMatch?.winner || "";
+  const finalAgg = finalMatch ? `${finalMatch.aggA}-${finalMatch.aggB}` : "";
+  const columnHtml = parsed.map(meta => {
+    const cards = meta.cards.map(card => `
+      <div class="hn-match ${meta.cls === "final" ? "final" : ""}">
+        <div class="hn-team-line ${card.winA ? "winner" : ""}"><span>${card.teamA}</span><span>${card.aggA}</span></div>
+        <div class="hn-team-line ${!card.winA ? "winner" : ""}"><span>${card.teamB}</span><span>${card.aggB}</span></div>
+        <div class="hn-leg"><span>Ida</span><span>${card.a.mandante}</span><span class="hn-leg-score">${card.a.gm}-${card.a.gv}</span><span>${card.a.visitante}</span></div>
+        <div class="hn-leg"><span>Volta</span><span>${card.b.mandante}</span><span class="hn-leg-score">${card.b.gm}-${card.b.gv}</span><span>${card.b.visitante}</span></div>
+        <div class="hn-agg">Agregado: <b>${card.winner}</b> ${card.outcome}, ${card.aggA}-${card.aggB}</div>
+      </div>
+    `).join("");
+    return `<div class="hn-bracket-col ${meta.cls}"><h3 class="hn-phase-title">${meta.fase}</h3>${cards}</div>`;
   }).join("");
-  document.getElementById("hn-bracket").innerHTML = `<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px">${html}</div>`;
+  const championHtml = champion ? `
+    <div class="hn-champion">
+      <span>Campeão brasileiro de ${state.hnSeason}</span>
+      <b>${champion}</b>
+      <small>Final decidida no agregado: ${champion} ${finalAgg} ${champion === finalMatch.teamA ? finalMatch.teamB : finalMatch.teamA}</small>
+    </div>
+  ` : "";
+  document.getElementById("hn-bracket").innerHTML = `${championHtml}<div class="hn-bracket-wrap">${columnHtml}</div>`;
 }
 
 // RENDER POR ABA
