@@ -229,6 +229,80 @@ if con.execute("SELECT name FROM sqlite_master WHERE type='view' AND name='vw_co
             "terceira_fase": bool(r["entra_terceira_fase"]), "fonte": r["fonte_url"] or "",
         })
 
+# ----- Brasileiro antigo: fases, participantes e jogos -----
+hist_nacional_edicoes = []
+hist_nacional_fases = []
+hist_nacional_participantes = []
+hist_nacional_partidas = []
+if con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='fato_partida_nacional_historica'").fetchone():
+    for r in con.execute("""
+        SELECT e.edicao_nacional_id, e.temporada_id, e.edicao_id, e.competicao_nome,
+               e.tipo, e.fonte_principal, e.observacao, e.num_clubes,
+               COUNT(DISTINCT p.partida_hist_id) AS jogos,
+               COUNT(DISTINCT f.fase_nacional_id) AS fases,
+               camp.nome AS campeao
+        FROM dim_edicao_nacional e
+        JOIN fato_partida_nacional_historica p
+          ON p.edicao_nacional_id = e.edicao_nacional_id
+        LEFT JOIN dim_fase_nacional_historica f
+          ON f.fase_nacional_id = p.fase_nacional_id
+        LEFT JOIN fato_classificacao_final_nacional cf
+          ON cf.edicao_nacional_id = e.edicao_nacional_id AND cf.posicao = 1
+        LEFT JOIN dim_clube camp
+          ON camp.clube_id = cf.clube_id
+        GROUP BY e.edicao_nacional_id
+        ORDER BY e.temporada_id
+    """):
+        hist_nacional_edicoes.append({
+            "edicao_nacional_id": r["edicao_nacional_id"], "temporada": r["temporada_id"],
+            "edicao_id": r["edicao_id"], "competicao": r["competicao_nome"],
+            "tipo": r["tipo"] or "", "fonte": r["fonte_principal"] or "",
+            "obs": r["observacao"] or "", "num_clubes": r["num_clubes"] or 0,
+            "jogos": r["jogos"] or 0, "fases": r["fases"] or 0, "campeao": r["campeao"] or "",
+        })
+    for r in con.execute("""
+        SELECT fase_nacional_id, edicao_nacional_id, temporada_id, fase_ordem,
+               fase_nome, fase_tipo, observacao
+        FROM dim_fase_nacional_historica
+        ORDER BY temporada_id, fase_ordem
+    """):
+        hist_nacional_fases.append({
+            "fase_id": r["fase_nacional_id"], "edicao_nacional_id": r["edicao_nacional_id"],
+            "temporada": r["temporada_id"], "ordem": r["fase_ordem"],
+            "fase": r["fase_nome"], "tipo": r["fase_tipo"] or "", "obs": r["observacao"] or "",
+        })
+    for r in con.execute("""
+        SELECT p.edicao_nacional_id, p.temporada_id, c.nome AS clube, c.uf, p.fonte
+        FROM fato_participante_nacional_historico p
+        JOIN dim_clube c ON c.clube_id = p.clube_id
+        ORDER BY p.temporada_id, c.nome
+    """):
+        hist_nacional_participantes.append({
+            "edicao_nacional_id": r["edicao_nacional_id"], "temporada": r["temporada_id"],
+            "clube": r["clube"], "uf": r["uf"] or "", "fonte": r["fonte"] or "",
+        })
+    for r in con.execute("""
+        SELECT p.partida_hist_id, p.edicao_nacional_id, p.temporada_id,
+               f.fase_nome, f.fase_ordem, f.fase_tipo, p.rodada, p.jogo, p.data,
+               cm.nome AS mandante, cv.nome AS visitante,
+               p.gols_mandante, p.gols_visitante, p.fonte, p.observacao
+        FROM fato_partida_nacional_historica p
+        JOIN dim_fase_nacional_historica f ON f.fase_nacional_id = p.fase_nacional_id
+        JOIN dim_clube cm ON cm.clube_id = p.mandante_id
+        JOIN dim_clube cv ON cv.clube_id = p.visitante_id
+        ORDER BY p.temporada_id, f.fase_ordem, COALESCE(p.rodada, 999), COALESCE(p.jogo, 999), p.data
+    """):
+        iso = r["data"]
+        d_br = f"{iso[8:10]}/{iso[5:7]}/{iso[0:4]}" if iso else ""
+        hist_nacional_partidas.append({
+            "id": r["partida_hist_id"], "edicao_nacional_id": r["edicao_nacional_id"],
+            "temporada": r["temporada_id"], "fase": r["fase_nome"], "fase_ordem": r["fase_ordem"],
+            "fase_tipo": r["fase_tipo"] or "", "rodada": r["rodada"], "jogo": r["jogo"],
+            "data": d_br, "data_iso": iso or "", "mandante": r["mandante"], "visitante": r["visitante"],
+            "gm": r["gols_mandante"], "gv": r["gols_visitante"], "fonte": r["fonte"] or "",
+            "obs": r["observacao"] or "",
+        })
+
 # ----- meta por temporada -----
 clubes_por_temporada = {}
 rodada_range_por_temporada = {}
@@ -263,6 +337,12 @@ payload = {
         "partidas_finais": copa_partidas_finais,
         "edicoes": copa_edicoes,
         "participantes": copa_participantes,
+    },
+    "hist_nacional": {
+        "edicoes": hist_nacional_edicoes,
+        "fases": hist_nacional_fases,
+        "participantes": hist_nacional_participantes,
+        "partidas": hist_nacional_partidas,
     },
 }
 
@@ -879,6 +959,7 @@ tr:hover td{background:var(--row-hover)}
   <!-- 🌎 HISTÓRICO (cross-temporadas) -->
   <button data-tab="historico"  data-group="historico">🏆 Campeões & Rebaixados</button>
   <button data-tab="historico-final" data-group="historico">Classificação Histórica</button>
+  <button data-tab="brasileiro-antigo" data-group="historico">📜 Brasileiro Antigo</button>
   <button data-tab="campanhas"  data-group="historico">👑 Campanhas Marcantes</button>
   <button data-tab="perguntas" data-group="historico">Insights Históricos</button>
   <button data-tab="comparar"   data-group="historico">🆚 Comparar Temporadas</button>
@@ -1283,6 +1364,22 @@ tr:hover td{background:var(--row-hover)}
   </div>
 </div>
 
+<!-- ========= BRASILEIRO ANTIGO ========= -->
+<div class="tab-content" id="tab-brasileiro-antigo">
+  <div class="card" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px">
+    <div><label style="font-size:11px;color:var(--muted);text-transform:uppercase">Temporada</label><select id="hn-season" style="width:100%;padding:8px;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;margin-top:4px"></select></div>
+    <div><label style="font-size:11px;color:var(--muted);text-transform:uppercase">Fase</label><select id="hn-fase" style="width:100%;padding:8px;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;margin-top:4px"></select></div>
+  </div>
+  <div class="kpis" id="kpis-hn"></div>
+  <div class="row">
+    <div class="card"><h2>Participantes</h2><div class="tbl-wrap"><table id="tbl-hn-participantes"></table></div></div>
+    <div class="card"><h2>Fases da edição</h2><div class="tbl-wrap"><table id="tbl-hn-fases"></table></div></div>
+  </div>
+  <div class="row full">
+    <div class="card"><h2>Jogos e placares</h2><div class="tbl-wrap tall"><table id="tbl-hn-partidas"></table></div></div>
+  </div>
+</div>
+
 <!-- ========= CLASSIFICACAO FINAL HISTORICA ========= -->
 <div class="tab-content" id="tab-historico-final">
   <div class="card hf-filter-card" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px;margin-bottom:18px">
@@ -1478,6 +1575,7 @@ const state = {
   rodMax: DATA.rodada_range[DATA.ano_default][1],
   resultado: "", sortCol: "P", sortDir: "desc",
   hfInit: false, hfClube: "", hfEdicao: "", hfMin: null, hfMax: null, hfRankPos: 1, hfPartOffset: 0, hfRaceYear: null, hfRaceIdx: 0, hfRacePlaying: false,
+  hnInit: false, hnSeason: null, hnFase: "",
   tgPosClube: "", tgPosIdx: 0, tgPosPlaying: false,
   campRaceTemp: DATA.ano_default, campRaceIdx: 0, campRacePlaying: false,
   copaTab: "geral", copaAno: "", copaClube: "", copaRaceMetric: "titulos", copaRaceIdx: 0, copaRacePlaying: false,
@@ -2193,6 +2291,53 @@ function renderCopaBrasil() {
     partidas.slice().reverse().map(p => `<tr><td><b>${p.ano}</b></td><td class="num">${p.jogo}</td><td>${p.mandante}</td><td class="num"><b>${p.gm}-${p.gv}</b></td><td>${p.visitante}</td><td>${p.estadio}</td><td>${p.local}</td></tr>`).join("") + `</tbody>`;
 }
 
+function renderBrasileiroAntigo() {
+  const data = DATA.hist_nacional || {edicoes:[], fases:[], participantes:[], partidas:[]};
+  const edicoes = data.edicoes || [];
+  const selSeason = document.getElementById("hn-season");
+  const selFase = document.getElementById("hn-fase");
+  if (!edicoes.length) {
+    document.getElementById("kpis-hn").innerHTML = `<div class="kpi"><span>Dados históricos</span><b>0</b><small>Nenhuma edição antiga importada ainda</small></div>`;
+    document.getElementById("tbl-hn-participantes").innerHTML = "";
+    document.getElementById("tbl-hn-fases").innerHTML = "";
+    document.getElementById("tbl-hn-partidas").innerHTML = "";
+    return;
+  }
+  if (!state.hnInit) {
+    const years = edicoes.map(e => e.temporada).sort((a,b)=>a-b);
+    state.hnSeason = years[years.length - 1];
+    selSeason.innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join("");
+    selSeason.value = state.hnSeason;
+    selSeason.onchange = () => { state.hnSeason = +selSeason.value; state.hnFase = ""; renderBrasileiroAntigo(); };
+    selFase.onchange = () => { state.hnFase = selFase.value; renderBrasileiroAntigo(); };
+    state.hnInit = true;
+  }
+  const ed = edicoes.find(e => e.temporada === state.hnSeason) || edicoes[edicoes.length - 1];
+  const fases = data.fases.filter(f => f.edicao_nacional_id === ed.edicao_nacional_id).sort((a,b)=>a.ordem-b.ordem);
+  if (!state.hnFase) state.hnFase = fases[0]?.fase || "";
+  selFase.innerHTML = `<option value="">Todas as fases</option>` + fases.map(f => `<option value="${f.fase}">${f.fase}</option>`).join("");
+  selFase.value = state.hnFase;
+  const participantes = data.participantes.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
+  const partidasTodas = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
+  const partidas = partidasTodas.filter(p => !state.hnFase || p.fase === state.hnFase);
+  const gols = partidasTodas.reduce((acc,p) => acc + p.gm + p.gv, 0);
+  document.getElementById("kpis-hn").innerHTML = `
+    <div class="kpi"><span>Edição</span><b>${ed.temporada}</b><small>${ed.competicao}</small></div>
+    <div class="kpi"><span>Campeão</span><b>${ed.campeao || "-"}</b><small>${ed.tipo || "histórico"}</small></div>
+    <div class="kpi"><span>Participantes</span><b>${participantes.length || ed.num_clubes}</b><small>clubes mapeados</small></div>
+    <div class="kpi"><span>Jogos</span><b>${fmtInt.format(partidasTodas.length)}</b><small>${fmtInt.format(gols)} gols registrados</small></div>
+  `;
+  document.getElementById("tbl-hn-participantes").innerHTML = `<thead><tr><th>Clube</th><th>UF</th></tr></thead><tbody>` +
+    participantes.map(p => `<tr><td>${p.clube}</td><td>${p.uf || ""}</td></tr>`).join("") + `</tbody>`;
+  document.getElementById("tbl-hn-fases").innerHTML = `<thead><tr><th class="num">Ordem</th><th>Fase</th><th>Tipo</th><th class="num">Jogos</th></tr></thead><tbody>` +
+    fases.map(f => {
+      const qtd = partidasTodas.filter(p => p.fase === f.fase).length;
+      return `<tr><td class="num">${f.ordem}</td><td>${f.fase}</td><td>${f.tipo}</td><td class="num">${qtd}</td></tr>`;
+    }).join("") + `</tbody>`;
+  document.getElementById("tbl-hn-partidas").innerHTML = `<thead><tr><th>Data</th><th>Fase</th><th class="num">Rodada</th><th class="num">Jogo</th><th>Mandante</th><th class="num">Placar</th><th>Visitante</th><th>Obs.</th></tr></thead><tbody>` +
+    partidas.map(p => `<tr><td>${p.data}</td><td>${p.fase}</td><td class="num">${p.rodada || ""}</td><td class="num">${p.jogo || ""}</td><td>${p.mandante}</td><td class="num"><b>${p.gm}-${p.gv}</b></td><td>${p.visitante}</td><td>${p.obs || ""}</td></tr>`).join("") + `</tbody>`;
+}
+
 // RENDER POR ABA
 // ====================================================================
 function render() {
@@ -2218,6 +2363,7 @@ function render() {
   else if (state.tab === "indices") renderIndices();
   else if (state.tab === "perguntas") renderPerguntas();
   else if (state.tab === "historico-final") renderHistoricoFinal();
+  else if (state.tab === "brasileiro-antigo") renderBrasileiroAntigo();
   else if (state.tab === "historico") renderHistorico();
 }
 

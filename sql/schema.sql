@@ -215,6 +215,50 @@ CREATE INDEX idx_class_final_clube
 
 -- ---------- VIEWS DE CONVENIÊNCIA -----------------------------------
 
+CREATE TABLE fato_participante_nacional_historico (
+    edicao_nacional_id INTEGER NOT NULL REFERENCES dim_edicao_nacional(edicao_nacional_id),
+    temporada_id       INTEGER NOT NULL,
+    clube_id           INTEGER NOT NULL REFERENCES dim_clube(clube_id),
+    fonte              TEXT,
+    observacao         TEXT,
+    PRIMARY KEY (edicao_nacional_id, clube_id)
+);
+CREATE INDEX idx_participante_hist_temp
+    ON fato_participante_nacional_historico(temporada_id);
+
+CREATE TABLE dim_fase_nacional_historica (
+    fase_nacional_id   INTEGER PRIMARY KEY AUTOINCREMENT,
+    edicao_nacional_id INTEGER NOT NULL REFERENCES dim_edicao_nacional(edicao_nacional_id),
+    temporada_id       INTEGER NOT NULL,
+    fase_ordem         INTEGER NOT NULL,
+    fase_nome          TEXT NOT NULL,
+    fase_tipo          TEXT,
+    observacao         TEXT,
+    UNIQUE (edicao_nacional_id, fase_nome)
+);
+CREATE INDEX idx_fase_hist_temp
+    ON dim_fase_nacional_historica(temporada_id, fase_ordem);
+
+CREATE TABLE fato_partida_nacional_historica (
+    partida_hist_id    INTEGER PRIMARY KEY AUTOINCREMENT,
+    edicao_nacional_id INTEGER NOT NULL REFERENCES dim_edicao_nacional(edicao_nacional_id),
+    temporada_id       INTEGER NOT NULL,
+    fase_nacional_id   INTEGER NOT NULL REFERENCES dim_fase_nacional_historica(fase_nacional_id),
+    rodada             INTEGER,
+    jogo               INTEGER,
+    data               TEXT,
+    mandante_id        INTEGER NOT NULL REFERENCES dim_clube(clube_id),
+    visitante_id       INTEGER NOT NULL REFERENCES dim_clube(clube_id),
+    gols_mandante      INTEGER NOT NULL,
+    gols_visitante     INTEGER NOT NULL,
+    fonte              TEXT,
+    observacao         TEXT
+);
+CREATE INDEX idx_partida_hist_temp
+    ON fato_partida_nacional_historica(temporada_id, fase_nacional_id);
+CREATE INDEX idx_partida_hist_clubes
+    ON fato_partida_nacional_historica(mandante_id, visitante_id);
+
 CREATE VIEW vw_tabela_final AS
 SELECT
     cr.temporada_id,
