@@ -2487,6 +2487,8 @@ function renderHNRace() {
 }
 
 function renderHNBracket(partidasTodas) {
+  const ed = getHNCurrentEdition();
+  const officialChampion = ed ? ((DATA.class_final_hist || []).find(r => r.edicao_id === ed.edicao_id && r.pos === 1)?.clube || "") : "";
   const fases = [...new Map(
     partidasTodas
       .filter(p => p.fase_tipo === "mata_mata")
@@ -2504,7 +2506,8 @@ function renderHNBracket(partidasTodas) {
       const scoreFor = (team, match) => match.mandante === team ? match.gm : match.gv;
       const aggA = par.reduce((acc, match) => acc + scoreFor(teamA, match), 0);
       const aggB = par.reduce((acc, match) => acc + scoreFor(teamB, match), 0);
-      const winA = aggA > aggB;
+      const tiedFinalByCriterion = meta.cls === "final" && aggA === aggB && officialChampion;
+      const winA = aggA > aggB || (tiedFinalByCriterion && officialChampion === teamA);
       const winner = winA ? teamA : teamB;
       const outcome = meta.cls === "final" ? "foi campeão" : "avançou";
       return {partidas:par,teamA,teamB,aggA,aggB,winner,winA,outcome};
@@ -2512,8 +2515,12 @@ function renderHNBracket(partidasTodas) {
     return {...meta, cards};
   });
   const finalMatch = parsed.find(x => x.fase === "Final")?.cards?.[0];
-  const champion = finalMatch?.winner || "";
+  const champion = officialChampion || finalMatch?.winner || "";
   const finalAgg = finalMatch ? `${finalMatch.aggA}-${finalMatch.aggB}` : "";
+  const finalRival = finalMatch ? (champion === finalMatch.teamA ? finalMatch.teamB : finalMatch.teamA) : "";
+  const finalResumo = finalMatch && finalMatch.aggA === finalMatch.aggB
+    ? `Final empatada no agregado (${finalAgg}); campeao definido pelo criterio da edicao.`
+    : `Final decidida no agregado: ${champion} ${finalAgg} ${finalRival}`;
   const columnHtml = parsed.map((meta, idx) => {
     const cards = meta.cards.map(card => `
       <div class="hn-match ${meta.cls === "final" ? "final" : ""}">
@@ -2530,7 +2537,7 @@ function renderHNBracket(partidasTodas) {
     <div class="hn-champion">
       <span>Campeão brasileiro de ${state.hnSeason}</span>
       <b>${champion}</b>
-      <small>Final decidida no agregado: ${champion} ${finalAgg} ${champion === finalMatch.teamA ? finalMatch.teamB : finalMatch.teamA}</small>
+      <small>${finalResumo}</small>
     </div>
   ` : "";
   document.getElementById("hn-bracket").innerHTML = `${championHtml}<div class="hn-bracket-wrap">${columnHtml}</div>`;
