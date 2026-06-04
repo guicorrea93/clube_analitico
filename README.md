@@ -187,6 +187,36 @@ Os scripts chamam `create_tables(con)` de
 `importar_brasileirao_historico_2000_2001.py`, garantindo que as tabelas
 historicas existam antes da importacao.
 
+### Camada estrutural (grupos, criterios, pontos)
+
+Os importadores guardam corretamente placares e fases, mas o formato do
+RSSSF nao expoe grupos paralelos, criterio de titulo nem a regra de pontos da
+epoca. Essa camada e preenchida por dois arquivos, de forma idempotente e
+reproduzivel (auditada em 2026-06; veja `docs/auditoria_brasileiro_antigo_1992_2002.md`):
+
+- `regras_historicas.py`
+  - Metadados curados por ano/fase: `num_grupos`, `formato_serie`
+    (`pontos_corridos`/`grupos`/`jogo_unico`/`ida_volta`/`melhor_de_3`),
+    `criterio` (como a fase decide) e `pontos_vitoria` (2 ate 1994, 3 depois).
+
+- `enriquecer_historico.py`
+  - Migra o schema (ALTER TABLE idempotente), grava os metadados das fases e a
+    pontuacao da edicao, e **deriva o grupo de cada partida por componentes
+    conexos** dos confrontos da fase (os grupos sao disjuntos no calendario),
+    rotulando A, B, C... de forma estavel.
+  - Roda automaticamente dentro de `build.py` (passo "Enriquecendo Brasileiro
+    antigo"); pode ser desligado com `--skip-enriquecimento`.
+  - Pode rodar isolado: `python -u .\enriquecer_historico.py`.
+
+Colunas novas (ja no `sql/schema.sql` e no `create_tables`):
+
+- `dim_edicao_nacional.pontos_vitoria`
+- `dim_fase_nacional_historica.num_grupos`, `.formato_serie`, `.criterio`
+- `fato_partida_nacional_historica.grupo`
+
+Regra importante: sempre rode `enriquecer_historico.py` (ou `build.py`) depois
+de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
+
 ## Fontes Usadas
 
 ### Fonte principal para 1992-2002
@@ -465,8 +495,9 @@ python -u .\build.py
 Esse comando:
 
 1. Executa `validar_banco.py`.
-2. Executa `gerar_dashboard_html.py`.
-3. Executa `check_dashboard.py`.
+2. Executa `enriquecer_historico.py` (grupos/criterios/pontos do Brasileiro antigo).
+3. Executa `gerar_dashboard_html.py`.
+4. Executa `check_dashboard.py`.
 
 Para inspecionar rapidamente o estado atual:
 
@@ -553,31 +584,35 @@ O front-end usa o payload `DATA.hist_nacional`, gerado por
 
 Esse payload inclui:
 
-- `edicoes`;
+- `edicoes` (com `pontos_vitoria`);
 - `participantes`;
-- `fases`;
-- `partidas`;
+- `fases` (com `num_grupos`, `formato_serie`, `criterio`);
+- `partidas` (com `grupo` e os ids dos clubes);
 - classificacao final historica via `class_final_hist`.
 
-Funcionalidades visuais ja existentes:
+O render do "Brasileiro Antigo" e **dirigido pelo tipo de fase** (`liga`,
+`grupo`, `mata_mata`), em vez de assumir sempre liga + chaveamento:
 
-- seletor de temporada;
-- seletor de fase;
-- KPIs da edicao;
-- tabela de participantes;
-- tabela de jogos;
-- tabela de classificacao da primeira fase quando aplicavel;
-- classificacao final oficial;
-- chaveamento mata-mata;
-- destaque para campeao/final;
-- corrida dinamica de lideranca quando a fase permite.
+- banner do campeao no topo, com o criterio do titulo;
+- **stepper** com o caminho ate o titulo (uma etapa por fase, clicavel);
+- corrida de lideranca, apenas quando ha fase de pontos corridos;
+- container `#hn-phases` que renderiza cada fase com o componente certo:
+  - `liga`: **uma** tabela de classificacao (fases liga consecutivas, como os
+    dois turnos de 1995, sao combinadas) com a pontuacao da epoca (2 ou 3 pts);
+  - `grupo`: **uma mini-tabela por grupo** (quadrangulares, "Grupo semifinal",
+    etc.), com destaque para quem avanca;
+  - `mata_mata`: bracket em funil agrupando confrontos por par de clubes,
+    tratando jogo unico, ida/volta e melhor de 3, com coluna-trofeu do campeao;
+- classificacao final oficial, participantes e tabela de jogos (filtravel por fase).
 
 Detalhe importante:
 
+- Clubes que avancam de uma fase sao detectados por aparecerem em alguma fase
+  posterior (sem precisar codificar a regra de classificacao de cada ano).
 - Algumas finais antigas foram decididas por criterio de regulamento mesmo com
-  agregado empatado.
-- O dashboard foi ajustado para usar a classificacao oficial como desempate da
-  final quando necessario.
+  agregado empatado; o bracket usa a classificacao oficial (`class_final_hist`)
+  como desempate e, se nao houver campeao valido, marca "decidido por criterio"
+  em vez de eleger o visitante.
 - Exemplo: 1997, Vasco campeao por melhor campanha contra o Palmeiras.
 
 ## Cuidados Tecnicos

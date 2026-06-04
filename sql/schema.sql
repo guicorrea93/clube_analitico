@@ -175,7 +175,8 @@ CREATE TABLE dim_edicao_nacional (
     tipo               TEXT,
     fonte_principal    TEXT,
     observacao         TEXT,
-    num_clubes         INTEGER
+    num_clubes         INTEGER,
+    pontos_vitoria     INTEGER          -- 2 ate 1994, 3 a partir de 1995 (parametriza tabelas reconstruidas)
 );
 
 CREATE TABLE dim_clube_alias (
@@ -232,7 +233,10 @@ CREATE TABLE dim_fase_nacional_historica (
     temporada_id       INTEGER NOT NULL,
     fase_ordem         INTEGER NOT NULL,
     fase_nome          TEXT NOT NULL,
-    fase_tipo          TEXT,
+    fase_tipo          TEXT,                            -- liga | grupo | mata_mata
+    num_grupos         INTEGER,                         -- grupos paralelos (1 = fase unica; >1 = quadrangulares/etc)
+    formato_serie      TEXT,                            -- pontos_corridos | grupos | jogo_unico | ida_volta | melhor_de_3
+    criterio           TEXT,                            -- como a fase classifica / decide o titulo (desempate, melhor campanha, etc)
     observacao         TEXT,
     UNIQUE (edicao_nacional_id, fase_nome)
 );
@@ -246,6 +250,7 @@ CREATE TABLE fato_partida_nacional_historica (
     fase_nacional_id   INTEGER NOT NULL REFERENCES dim_fase_nacional_historica(fase_nacional_id),
     rodada             INTEGER,
     jogo               INTEGER,
+    grupo              TEXT,                            -- rotulo do grupo em fases de grupos paralelos (A, B, ...); NULL em liga/mata-mata
     data               TEXT,
     mandante_id        INTEGER NOT NULL REFERENCES dim_clube(clube_id),
     visitante_id       INTEGER NOT NULL REFERENCES dim_clube(clube_id),

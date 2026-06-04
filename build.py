@@ -60,6 +60,11 @@ def main() -> None:
         help="Nao executa validar_banco.py.",
     )
     parser.add_argument(
+        "--skip-enriquecimento",
+        action="store_true",
+        help="Nao executa enriquecer_historico.py (grupos/criterios/pontos do Brasileiro antigo).",
+    )
+    parser.add_argument(
         "--skip-dashboard",
         action="store_true",
         help="Nao gera dashboard.html.",
@@ -78,6 +83,8 @@ def main() -> None:
             raise SystemExit("Use --skip-historico/--skip-copa apenas com --rebuild-from-sources.")
         if not args.skip_validacao:
             run_step("Validando banco existente", ["validar_banco.py"])
+        if not args.skip_enriquecimento:
+            run_step("Enriquecendo Brasileiro antigo (grupos/criterios/pontos)", ["enriquecer_historico.py"])
         if not args.skip_dashboard:
             run_step("Gerando dashboard HTML", ["gerar_dashboard_html.py"])
             if not args.skip_dashboard_check:
@@ -126,6 +133,9 @@ def main() -> None:
 
     if not args.skip_validacao:
         run_step("Validando banco", ["validar_banco.py"])
+
+    if not args.skip_enriquecimento:
+        run_step("Enriquecendo Brasileiro antigo (grupos/criterios/pontos)", ["enriquecer_historico.py"])
 
     if not args.skip_dashboard:
         run_step("Gerando dashboard HTML", ["gerar_dashboard_html.py"])

@@ -171,6 +171,9 @@ def create_tables(con: sqlite3.Connection) -> None:
         fase_ordem INTEGER NOT NULL,
         fase_nome TEXT NOT NULL,
         fase_tipo TEXT,
+        num_grupos INTEGER,
+        formato_serie TEXT,
+        criterio TEXT,
         observacao TEXT,
         UNIQUE (edicao_nacional_id, fase_nome)
     );
@@ -181,6 +184,7 @@ def create_tables(con: sqlite3.Connection) -> None:
         fase_nacional_id INTEGER NOT NULL REFERENCES dim_fase_nacional_historica(fase_nacional_id),
         rodada INTEGER,
         jogo INTEGER,
+        grupo TEXT,
         data TEXT,
         mandante_id INTEGER NOT NULL REFERENCES dim_clube(clube_id),
         visitante_id INTEGER NOT NULL REFERENCES dim_clube(clube_id),

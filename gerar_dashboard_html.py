@@ -237,7 +237,7 @@ hist_nacional_partidas = []
 if con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='fato_partida_nacional_historica'").fetchone():
     for r in con.execute("""
         SELECT e.edicao_nacional_id, e.temporada_id, e.edicao_id, e.competicao_nome,
-               e.tipo, e.fonte_principal, e.observacao, e.num_clubes,
+               e.tipo, e.fonte_principal, e.observacao, e.num_clubes, e.pontos_vitoria,
                COUNT(DISTINCT p.partida_hist_id) AS jogos,
                COUNT(DISTINCT f.fase_nacional_id) AS fases,
                camp.nome AS campeao
@@ -258,18 +258,21 @@ if con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='fato
             "edicao_id": r["edicao_id"], "competicao": r["competicao_nome"],
             "tipo": r["tipo"] or "", "fonte": r["fonte_principal"] or "",
             "obs": r["observacao"] or "", "num_clubes": r["num_clubes"] or 0,
+            "pontos_vitoria": r["pontos_vitoria"] or (2 if r["temporada_id"] <= 1994 else 3),
             "jogos": r["jogos"] or 0, "fases": r["fases"] or 0, "campeao": r["campeao"] or "",
         })
     for r in con.execute("""
         SELECT fase_nacional_id, edicao_nacional_id, temporada_id, fase_ordem,
-               fase_nome, fase_tipo, observacao
+               fase_nome, fase_tipo, num_grupos, formato_serie, criterio, observacao
         FROM dim_fase_nacional_historica
         ORDER BY temporada_id, fase_ordem
     """):
         hist_nacional_fases.append({
             "fase_id": r["fase_nacional_id"], "edicao_nacional_id": r["edicao_nacional_id"],
             "temporada": r["temporada_id"], "ordem": r["fase_ordem"],
-            "fase": r["fase_nome"], "tipo": r["fase_tipo"] or "", "obs": r["observacao"] or "",
+            "fase": r["fase_nome"], "tipo": r["fase_tipo"] or "",
+            "num_grupos": r["num_grupos"] or 1, "formato_serie": r["formato_serie"] or "",
+            "criterio": r["criterio"] or "", "obs": r["observacao"] or "",
         })
     for r in con.execute("""
         SELECT p.edicao_nacional_id, p.temporada_id, c.nome AS clube, c.uf, p.fonte
@@ -283,7 +286,8 @@ if con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='fato
         })
     for r in con.execute("""
         SELECT p.partida_hist_id, p.edicao_nacional_id, p.temporada_id,
-               f.fase_nome, f.fase_ordem, f.fase_tipo, p.rodada, p.jogo, p.data,
+               f.fase_nome, f.fase_ordem, f.fase_tipo, p.rodada, p.jogo, p.grupo, p.data,
+               p.mandante_id, p.visitante_id,
                cm.nome AS mandante, cv.nome AS visitante,
                p.gols_mandante, p.gols_visitante, p.fonte, p.observacao
         FROM fato_partida_nacional_historica p
@@ -298,6 +302,7 @@ if con.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='fato
             "id": r["partida_hist_id"], "edicao_nacional_id": r["edicao_nacional_id"],
             "temporada": r["temporada_id"], "fase": r["fase_nome"], "fase_ordem": r["fase_ordem"],
             "fase_tipo": r["fase_tipo"] or "", "rodada": r["rodada"], "jogo": r["jogo"],
+            "grupo": r["grupo"] or "", "mand_id": r["mandante_id"], "vis_id": r["visitante_id"],
             "data": d_br, "data_iso": iso or "", "mandante": r["mandante"], "visitante": r["visitante"],
             "gm": r["gols_mandante"], "gv": r["gols_visitante"], "fonte": r["fonte"] or "",
             "obs": r["observacao"] or "",
@@ -809,24 +814,76 @@ main{padding:30px 36px;max-width:1540px;margin:0 auto}
 }
 .card h3{margin:0 0 10px;font-size:11px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
 
-.hn-bracket-wrap{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;align-items:start}
-.hn-bracket-col{display:grid;gap:14px}
-.hn-phase-title{margin:0 0 10px;color:var(--accent2);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
-.hn-match{padding:13px 14px;border:1px solid var(--border);background:var(--panel2);border-radius:8px;box-shadow:var(--shadow-sm)}
-.hn-match.final{border-color:var(--accent);box-shadow:0 0 0 1px rgba(22,163,74,.35), var(--shadow)}
+/* Stepper de fases */
+.hn-stepper{display:flex;flex-wrap:wrap;gap:8px;align-items:stretch}
+.hn-step{flex:1 1 130px;min-width:130px;position:relative;display:flex;flex-direction:column;gap:3px;padding:10px 12px 10px 15px;border:1px solid var(--border);border-radius:8px;background:var(--panel2);cursor:pointer;transition:transform .12s ease,box-shadow .12s ease,border-color .12s ease}
+.hn-step:hover{transform:translateY(-2px);box-shadow:var(--shadow-sm);border-color:var(--accent)}
+.hn-step .hn-step-k{font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.hn-step .hn-step-n{font-size:13px;font-weight:800;color:var(--text);line-height:1.15}
+.hn-step .hn-step-m{font-size:10px;color:var(--muted)}
+.hn-step.is-active{border-color:var(--accent);box-shadow:0 0 0 1px var(--accent) inset}
+.hn-step::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;border-radius:8px 0 0 8px}
+.hn-step.t-liga::before{background:var(--accent)}
+.hn-step.t-grupo::before{background:var(--accent2)}
+.hn-step.t-mata_mata::before{background:var(--accent3)}
+.hn-step.t-titulo::before{background:linear-gradient(180deg,var(--accent),var(--accent2))}
+.hn-step.t-titulo{background:linear-gradient(135deg,rgba(34,197,94,.16),rgba(250,204,21,.08));border-color:var(--accent)}
+
+/* Seções de fase */
+.hn-phase-section{margin-top:20px;padding-top:16px;border-top:1px dashed var(--border)}
+.hn-phase-section:first-child{margin-top:0;padding-top:0;border-top:none}
+.hn-phase-head{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:4px}
+.hn-phase-head h3{margin:0;font-size:13.5px;font-weight:800;color:var(--text);text-transform:none;letter-spacing:0}
+.hn-badge{font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;padding:3px 8px;border-radius:999px;border:1px solid var(--border);color:var(--muted)}
+.hn-badge.t-liga{color:var(--accent);border-color:var(--accent)}
+.hn-badge.t-grupo{color:var(--accent2);border-color:var(--accent2)}
+.hn-badge.t-mata_mata{color:var(--accent3);border-color:var(--accent3)}
+.hn-phase-crit{font-size:11.5px;color:var(--muted);margin:0 0 12px;max-width:90ch}
+
+/* Grid de grupos */
+.hn-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}
+.hn-group-card{border:1px solid var(--border);border-radius:8px;background:var(--panel2);overflow:hidden}
+.hn-group-head{display:flex;align-items:center;justify-content:space-between;padding:9px 12px;background:linear-gradient(180deg,var(--panel),var(--panel2));border-bottom:1px solid var(--border);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.06em;color:var(--accent2)}
+.hn-group-head small{color:var(--muted);font-weight:700;letter-spacing:0;text-transform:none}
+.hn-group-card table{font-size:12px;width:100%;border-collapse:collapse}
+.hn-group-card th{position:static;padding:7px 9px;font-size:9px}
+.hn-group-card td{padding:6px 9px;border-bottom:1px solid var(--border)}
+.hn-row-qualify td{background:linear-gradient(90deg,rgba(34,197,94,.14),transparent)}
+.hn-row-qualify td:first-child{box-shadow:inset 3px 0 0 var(--accent)}
+
+/* Tabela de liga (pontos corridos) */
+.hn-league-wrap{max-height:560px;overflow:auto;border-radius:8px}
+
+/* Bracket em funil */
+.hn-bracket-wrap{display:flex;gap:16px;align-items:stretch;overflow-x:auto;padding-bottom:6px}
+.hn-bracket-col{flex:1 1 235px;min-width:235px;display:flex;flex-direction:column;justify-content:space-around;gap:14px}
+.hn-phase-title{margin:0;color:var(--accent2);font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.08em;text-align:center}
+.hn-match{padding:12px 13px;border:1px solid var(--border);background:var(--panel2);border-radius:8px;box-shadow:var(--shadow-sm)}
+.hn-match.final{border-color:var(--accent);box-shadow:0 0 0 1px rgba(34,197,94,.35), var(--shadow-sm)}
 .hn-team-line{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:14px;font-weight:800}
 .hn-team-line + .hn-team-line{margin-top:5px}
 .hn-team-line.winner{color:var(--accent)}
-.hn-leg{margin-top:8px;padding-top:8px;border-top:1px solid var(--border);display:grid;grid-template-columns:52px 1fr auto 1fr;gap:8px;align-items:center;font-size:11px;color:var(--muted)}
-.hn-leg-score{font-size:13px;font-weight:900;color:var(--text);font-variant-numeric:tabular-nums}
+.hn-team-line.winner::after{content:"✓";margin-left:6px;font-size:11px}
+.hn-leg{margin-top:8px;padding-top:8px;border-top:1px solid var(--border);display:grid;grid-template-columns:44px 1fr auto 1fr;gap:8px;align-items:center;font-size:11px;color:var(--muted)}
+.hn-leg-score{font-size:13px;font-weight:900;color:var(--text);font-variant-numeric:tabular-nums;text-align:center}
 .hn-agg{margin-top:8px;color:var(--muted);font-size:11px}
-.hn-champion{margin-bottom:16px;padding:16px 18px;border:1px solid var(--accent);border-radius:8px;background:linear-gradient(135deg, rgba(34,197,94,.16), rgba(250,204,21,.08));box-shadow:var(--shadow-sm)}
-.hn-champion span{display:block;color:var(--muted);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
-.hn-champion b{display:block;margin-top:4px;color:var(--accent);font-size:26px;line-height:1.1}
-.hn-champion small{display:block;margin-top:4px;color:var(--muted)}
+.hn-champ-col{flex:0 0 205px;min-width:205px;display:flex;flex-direction:column;justify-content:center}
+.hn-trophy{padding:18px 16px;text-align:center;border:1px solid var(--accent);border-radius:10px;background:linear-gradient(135deg,rgba(34,197,94,.18),rgba(250,204,21,.10))}
+.hn-trophy .ic{font-size:30px}
+.hn-trophy b{display:block;margin-top:6px;color:var(--accent);font-size:18px;line-height:1.15}
+.hn-trophy span{display:block;margin-top:3px;color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.06em}
+
+/* Banner do campeão (topo) */
+.hn-champion{margin:0 0 18px;padding:16px 20px;border:1px solid var(--accent);border-radius:10px;background:linear-gradient(135deg, rgba(34,197,94,.16), rgba(250,204,21,.08));box-shadow:var(--shadow-sm);display:flex;align-items:center;gap:18px}
+.hn-champion .ic{font-size:38px;line-height:1}
+.hn-champion .tx span{display:block;color:var(--muted);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}
+.hn-champion .tx b{display:block;margin-top:2px;color:var(--accent);font-size:26px;line-height:1.1}
+.hn-champion .tx small{display:block;margin-top:4px;color:var(--muted);font-size:12px}
+
 @media(max-width:1100px){
-  .hn-bracket-wrap{grid-template-columns:1fr}
-  .hn-bracket-col{padding-top:0!important}
+  .hn-groups{grid-template-columns:1fr}
+  .hn-bracket-wrap{flex-direction:column}
+  .hn-bracket-col,.hn-champ-col{min-width:0}
 }
 
 /* ==== TABELAS ==== */
@@ -1391,29 +1448,29 @@ tr:hover td{background:var(--row-hover)}
     <div><label style="font-size:11px;color:var(--muted);text-transform:uppercase">Fase</label><select id="hn-fase" style="width:100%;padding:8px;background:var(--bg);color:var(--text);border:1px solid var(--border);border-radius:6px;margin-top:4px"></select></div>
   </div>
   <div class="kpis" id="kpis-hn"></div>
+  <div id="hn-champion-wrap"></div>
   <div class="row full">
+    <div class="card hn-stepper-card"><h2>Caminho até o título</h2><div id="hn-stepper" class="hn-stepper"></div></div>
+  </div>
+  <div class="row full" id="hn-race-card">
     <div class="card">
-      <h2>Corrida da liderança na primeira fase</h2>
+      <h2>Corrida da liderança nos pontos corridos</h2>
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap">
         <button id="hn-race-play" class="btn">Play</button>
         <button id="hn-race-prev" class="btn" title="Rodada anterior">‹</button>
-        <div id="hn-race-label" style="font-weight:900;color:var(--accent);min-width:90px"></div>
+        <div id="hn-race-label" style="font-weight:900;color:var(--accent);min-width:130px"></div>
         <button id="hn-race-next" class="btn" title="Próxima rodada">›</button>
         <input id="hn-race-range" type="range" min="0" max="1" value="0" style="flex:1;min-width:220px;accent-color:var(--accent)">
       </div>
       <div id="ch-hn-race" class="chart-tall"></div>
     </div>
   </div>
-  <div class="row">
-    <div class="card"><h2>Classificação da primeira fase</h2><div class="tbl-wrap tall"><table id="tbl-hn-class-primeira"></table></div></div>
-    <div class="card"><h2>Classificação final oficial</h2><div class="tbl-wrap tall"><table id="tbl-hn-class-final"></table></div></div>
-  </div>
   <div class="row full">
-    <div class="card"><h2>Chaveamento do mata-mata</h2><div id="hn-bracket"></div></div>
+    <div class="card"><h2>Fases da competição</h2><div id="hn-phases"></div></div>
   </div>
   <div class="row">
-    <div class="card"><h2>Participantes</h2><div class="tbl-wrap"><table id="tbl-hn-participantes"></table></div></div>
-    <div class="card"><h2>Fases da edição</h2><div class="tbl-wrap"><table id="tbl-hn-fases"></table></div></div>
+    <div class="card"><h2>Classificação final oficial</h2><div class="tbl-wrap tall"><table id="tbl-hn-class-final"></table></div></div>
+    <div class="card"><h2>Participantes</h2><div class="tbl-wrap tall"><table id="tbl-hn-participantes"></table></div></div>
   </div>
   <div class="row full">
     <div class="card"><h2>Jogos e placares</h2><div class="tbl-wrap tall"><table id="tbl-hn-partidas"></table></div></div>
@@ -2340,12 +2397,8 @@ function renderBrasileiroAntigo() {
   const selFase = document.getElementById("hn-fase");
   if (!edicoes.length) {
     document.getElementById("kpis-hn").innerHTML = `<div class="kpi"><span>Dados históricos</span><b>0</b><small>Nenhuma edição antiga importada ainda</small></div>`;
-    document.getElementById("tbl-hn-participantes").innerHTML = "";
-    document.getElementById("tbl-hn-fases").innerHTML = "";
-    document.getElementById("tbl-hn-partidas").innerHTML = "";
-    document.getElementById("tbl-hn-class-primeira").innerHTML = "";
-    document.getElementById("tbl-hn-class-final").innerHTML = "";
-    document.getElementById("hn-bracket").innerHTML = "";
+    ["hn-champion-wrap","hn-stepper","hn-phases","tbl-hn-participantes","tbl-hn-class-final","tbl-hn-partidas"].forEach(id => { const el = document.getElementById(id); if (el) el.innerHTML = ""; });
+    const rc = document.getElementById("hn-race-card"); if (rc) rc.style.display = "none";
     return;
   }
   if (!state.hnInit) {
@@ -2363,41 +2416,40 @@ function renderBrasileiroAntigo() {
   }
   const ed = edicoes.find(e => e.temporada === state.hnSeason) || edicoes[edicoes.length - 1];
   const fases = data.fases.filter(f => f.edicao_nacional_id === ed.edicao_nacional_id).sort((a,b)=>a.ordem-b.ordem);
-  if (!state.hnFase) state.hnFase = fases[0]?.fase || "";
-  selFase.innerHTML = `<option value="">Todas as fases</option>` + fases.map(f => `<option value="${f.fase}">${f.fase}</option>`).join("");
-  selFase.value = state.hnFase;
   const participantes = data.participantes.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
   const partidasTodas = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
-  const faseLiga = fases.find(f => f.tipo === "liga")?.fase || "Primeira fase";
-  const primeiraFase = partidasTodas.filter(p => p.fase === faseLiga);
-  const tabelaPrimeira = calcHNTable(primeiraFase);
+  const ptsVit = ed.pontos_vitoria || (ed.temporada <= 1994 ? 2 : 3);
+  selFase.innerHTML = `<option value="">Todas as fases</option>` + fases.map(f => `<option value="${f.fase}">${f.fase}</option>`).join("");
+  selFase.value = state.hnFase || "";
   const classFinal = (DATA.class_final_hist || []).filter(r => r.edicao_id === ed.edicao_id).sort((a,b)=>a.pos-b.pos);
-  const partidas = partidasTodas.filter(p => !state.hnFase || p.fase === state.hnFase);
+  const officialChampion = (classFinal.find(r => r.pos === 1)?.clube) || ed.campeao || "";
   const gols = partidasTodas.reduce((acc,p) => acc + p.gm + p.gv, 0);
   document.getElementById("kpis-hn").innerHTML = `
     <div class="kpi"><span>Edição</span><b>${ed.temporada}</b><small>${ed.competicao}</small></div>
-    <div class="kpi"><span>Campeão</span><b>${ed.campeao || "-"}</b><small>${ed.tipo || "histórico"}</small></div>
-    <div class="kpi"><span>Participantes</span><b>${participantes.length || ed.num_clubes}</b><small>clubes mapeados</small></div>
-    <div class="kpi"><span>Jogos</span><b>${fmtInt.format(partidasTodas.length)}</b><small>${fmtInt.format(gols)} gols registrados</small></div>
+    <div class="kpi"><span>Campeão</span><b>${officialChampion || "-"}</b><small>${ptsVit} pts por vitória</small></div>
+    <div class="kpi"><span>Participantes</span><b>${participantes.length || ed.num_clubes}</b><small>clubes</small></div>
+    <div class="kpi"><span>Jogos</span><b>${fmtInt.format(partidasTodas.length)}</b><small>${fmtInt.format(gols)} gols · ${fases.length} fases</small></div>
   `;
-  renderHNRace();
-  document.getElementById("tbl-hn-class-primeira").innerHTML = `<thead><tr><th class="num">#</th><th>Clube</th><th class="num">P</th><th class="num">J</th><th class="num">V</th><th class="num">E</th><th class="num">D</th><th class="num">GP</th><th class="num">GC</th><th class="num">SG</th></tr></thead><tbody>` +
-    tabelaPrimeira.map((r,i) => `<tr><td class="num">${i+1}</td><td><b>${r.clube}</b></td><td class="num"><b>${r.P}</b></td><td class="num">${r.J}</td><td class="num">${r.V}</td><td class="num">${r.E}</td><td class="num">${r.D}</td><td class="num">${r.GP}</td><td class="num">${r.GC}</td><td class="num">${r.SG}</td></tr>`).join("") + `</tbody>`;
-  document.getElementById("tbl-hn-class-final").innerHTML = `<thead><tr><th class="num">#</th><th>Clube</th><th>UF</th><th>Observação</th></tr></thead><tbody>` +
-    classFinal.map(r => `<tr><td class="num">${r.pos}</td><td><b>${r.clube}</b></td><td>${r.uf || ""}</td><td>${r.obs || ""}</td></tr>`).join("") + `</tbody>`;
-  renderHNBracket(partidasTodas);
+  renderHNChampion(ed, fases, officialChampion);
+  renderHNStepper(fases, partidasTodas);
+  const temLiga = fases.some(f => f.tipo === "liga");
+  const raceCard = document.getElementById("hn-race-card");
+  if (raceCard) raceCard.style.display = temLiga ? "" : "none";
+  if (temLiga) renderHNRace();
+  renderHNPhases(ed, fases, partidasTodas, ptsVit, officialChampion);
+  document.getElementById("tbl-hn-class-final").innerHTML = classFinal.length
+    ? `<thead><tr><th class="num">#</th><th>Clube</th><th>UF</th><th>Observação</th></tr></thead><tbody>` +
+      classFinal.map(r => `<tr><td class="num">${r.pos}</td><td><b>${r.clube}</b></td><td>${r.uf || ""}</td><td>${r.obs || ""}</td></tr>`).join("") + `</tbody>`
+    : `<tbody><tr><td style="color:var(--muted);padding:14px 12px">Sem classificação final oficial importada para esta edição.</td></tr></tbody>`;
   document.getElementById("tbl-hn-participantes").innerHTML = `<thead><tr><th>Clube</th><th>UF</th></tr></thead><tbody>` +
     participantes.map(p => `<tr><td>${p.clube}</td><td>${p.uf || ""}</td></tr>`).join("") + `</tbody>`;
-  document.getElementById("tbl-hn-fases").innerHTML = `<thead><tr><th class="num">Ordem</th><th>Fase</th><th>Tipo</th><th class="num">Jogos</th></tr></thead><tbody>` +
-    fases.map(f => {
-      const qtd = partidasTodas.filter(p => p.fase === f.fase).length;
-      return `<tr><td class="num">${f.ordem}</td><td>${f.fase}</td><td>${f.tipo}</td><td class="num">${qtd}</td></tr>`;
-    }).join("") + `</tbody>`;
-  document.getElementById("tbl-hn-partidas").innerHTML = `<thead><tr><th>Data</th><th>Fase</th><th class="num">Rodada</th><th class="num">Jogo</th><th>Mandante</th><th class="num">Placar</th><th>Visitante</th><th>Obs.</th></tr></thead><tbody>` +
-    partidas.map(p => `<tr><td>${p.data}</td><td>${p.fase}</td><td class="num">${p.rodada || ""}</td><td class="num">${p.jogo || ""}</td><td>${p.mandante}</td><td class="num"><b>${p.gm}-${p.gv}</b></td><td>${p.visitante}</td><td>${p.obs || ""}</td></tr>`).join("") + `</tbody>`;
+  const partidas = partidasTodas.filter(p => !state.hnFase || p.fase === state.hnFase);
+  document.getElementById("tbl-hn-partidas").innerHTML = `<thead><tr><th>Data</th><th>Fase</th><th>Grupo</th><th class="num">Rod.</th><th>Mandante</th><th class="num">Placar</th><th>Visitante</th><th>Obs.</th></tr></thead><tbody>` +
+    partidas.map(p => `<tr><td>${p.data}</td><td>${p.fase}</td><td>${p.grupo || ""}</td><td class="num">${p.rodada || ""}</td><td>${p.mandante}</td><td class="num"><b>${p.gm}-${p.gv}</b></td><td>${p.visitante}</td><td>${p.obs || ""}</td></tr>`).join("") + `</tbody>`;
 }
 
-function calcHNTable(partidas) {
+function calcHNTable(partidas, ptsVit) {
+  const win = ptsVit || 3;
   const t = {};
   const ensure = c => {
     if (!t[c]) t[c] = {clube:c,J:0,V:0,E:0,D:0,GP:0,GC:0,SG:0,P:0};
@@ -2406,13 +2458,23 @@ function calcHNTable(partidas) {
   partidas.forEach(m => {
     const a = ensure(m.mandante), b = ensure(m.visitante);
     a.J++; b.J++; a.GP += m.gm; a.GC += m.gv; b.GP += m.gv; b.GC += m.gm;
-    if (m.gm > m.gv) { a.V++; b.D++; a.P += 3; }
-    else if (m.gm < m.gv) { b.V++; a.D++; b.P += 3; }
+    if (m.gm > m.gv) { a.V++; b.D++; a.P += win; }
+    else if (m.gm < m.gv) { b.V++; a.D++; b.P += win; }
     else { a.E++; b.E++; a.P++; b.P++; }
   });
   Object.values(t).forEach(r => r.SG = r.GP - r.GC);
   return Object.values(t).sort((a,b)=>b.P-a.P || b.V-a.V || b.SG-a.SG || b.GP-a.GP || a.clube.localeCompare(b.clube));
 }
+
+// Clubes que avancam de uma fase = aparecem em qualquer fase de ordem maior.
+function hnAdvancingClubs(partidasTodas, ordem) {
+  const s = new Set();
+  partidasTodas.forEach(p => { if (p.fase_ordem > ordem) { s.add(p.mandante); s.add(p.visitante); } });
+  return s;
+}
+
+// id de ancora seguro a partir do nome da fase.
+function cssId(s) { return "f-" + String(s).normalize("NFD").replace(/[^a-zA-Z0-9]+/g, "-"); }
 
 function getHNCurrentEdition() {
   const data = DATA.hist_nacional || {edicoes:[]};
@@ -2423,11 +2485,22 @@ function getHNRaceFrames() {
   const data = DATA.hist_nacional || {partidas:[]};
   const ed = getHNCurrentEdition();
   if (!ed) return [];
-  const fases = (data.fases || []).filter(f => f.edicao_nacional_id === ed.edicao_nacional_id).sort((a,b)=>a.ordem-b.ordem);
-  const faseLiga = fases.find(f => f.tipo === "liga")?.fase || "Primeira fase";
-  const primeira = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id && p.fase === faseLiga);
-  const rounds = [...new Set(primeira.map(p => p.rodada).filter(Boolean))].sort((a,b)=>a-b);
-  return rounds.map(r => ({rodada:r, tabela:calcHNTable(primeira.filter(p => p.rodada <= r))}));
+  const ligaFases = (data.fases || []).filter(f => f.edicao_nacional_id === ed.edicao_nacional_id && f.tipo === "liga").sort((a,b)=>a.ordem-b.ordem);
+  if (!ligaFases.length) return [];
+  const ptsVit = ed.pontos_vitoria || (ed.temporada <= 1994 ? 2 : 3);
+  const multi = ligaFases.length > 1;
+  const nomes = new Set(ligaFases.map(f => f.fase));
+  const nomePorOrdem = {}; ligaFases.forEach(f => nomePorOrdem[f.ordem] = f.fase);
+  const matches = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id && nomes.has(p.fase));
+  // sequencia de passos = (fase_ordem, rodada) em ordem cronologica (cobre 1995 com 2 turnos)
+  const passos = [...new Set(matches.map(p => `${p.fase_ordem}|${p.rodada || 0}`))]
+    .map(s => s.split("|").map(Number))
+    .sort((a,b) => a[0]-b[0] || a[1]-b[1]);
+  return passos.map(([fo, rd]) => {
+    const upto = matches.filter(p => p.fase_ordem < fo || (p.fase_ordem === fo && (p.rodada || 0) <= rd));
+    const label = multi ? `${nomePorOrdem[fo]} · R${rd}` : `Rodada ${rd}`;
+    return {label, tabela: calcHNTable(upto, ptsVit)};
+  });
 }
 
 function stopHNRace() {
@@ -2474,7 +2547,7 @@ function renderHNRace() {
   state.hnRaceIdx = Math.max(0, Math.min(frames.length - 1, state.hnRaceIdx || 0));
   const frame = frames[state.hnRaceIdx];
   if (range) { range.min = 0; range.max = frames.length - 1; range.value = state.hnRaceIdx; }
-  if (label) label.textContent = `Rodada ${frame.rodada}`;
+  if (label) label.textContent = frame.label;
   const top = frame.tabela.slice(0, 12).reverse();
   Plotly.react("ch-hn-race", [{
     type:"bar", orientation:"h",
@@ -2486,61 +2559,178 @@ function renderHNRace() {
   }], plotLayout({margin:{l:135,r:45,t:8,b:35},xaxis:{title:"Pontos",gridcolor:c.grid,dtick:3}}), PCFG);
 }
 
-function renderHNBracket(partidasTodas) {
-  const ed = getHNCurrentEdition();
-  const officialChampion = ed ? ((DATA.class_final_hist || []).find(r => r.edicao_id === ed.edicao_id && r.pos === 1)?.clube || "") : "";
-  const fases = [...new Map(
-    partidasTodas
-      .filter(p => p.fase_tipo === "mata_mata")
-      .sort((a,b)=>a.fase_ordem-b.fase_ordem)
-      .map(p => [p.fase, {fase:p.fase, ordem:p.fase_ordem, cls:p.fase === "Final" ? "final" : ""}])
-  ).values()];
-  const parsed = fases.map(meta => {
-    const fase = meta.fase;
-    const jogos = partidasTodas.filter(p => p.fase === fase).sort((a,b)=>(a.jogo||0)-(b.jogo||0) || a.data_iso.localeCompare(b.data_iso));
-    const pares = [...new Set(jogos.map(p=>p.jogo))].map(j => jogos.filter(p=>p.jogo===j));
-    const cards = pares.map(par => {
-      const a = par[0], b = par[1] || null;
-      if (!a) return null;
-      const teamA = a.mandante, teamB = a.visitante;
-      const scoreFor = (team, match) => match.mandante === team ? match.gm : match.gv;
-      const aggA = par.reduce((acc, match) => acc + scoreFor(teamA, match), 0);
-      const aggB = par.reduce((acc, match) => acc + scoreFor(teamB, match), 0);
-      const tiedFinalByCriterion = meta.cls === "final" && aggA === aggB && officialChampion;
-      const winA = aggA > aggB || (tiedFinalByCriterion && officialChampion === teamA);
-      const winner = winA ? teamA : teamB;
-      const outcome = meta.cls === "final" ? "foi campeão" : "avançou";
-      return {partidas:par,teamA,teamB,aggA,aggB,winner,winA,outcome};
-    }).filter(Boolean);
-    return {...meta, cards};
-  });
-  const finalMatch = parsed.find(x => x.fase === "Final")?.cards?.[0];
-  const champion = officialChampion || finalMatch?.winner || "";
-  const finalAgg = finalMatch ? `${finalMatch.aggA}-${finalMatch.aggB}` : "";
-  const finalRival = finalMatch ? (champion === finalMatch.teamA ? finalMatch.teamB : finalMatch.teamA) : "";
-  const finalResumo = finalMatch && finalMatch.aggA === finalMatch.aggB
-    ? `Final empatada no agregado (${finalAgg}); campeao definido pelo criterio da edicao.`
-    : `Final decidida no agregado: ${champion} ${finalAgg} ${finalRival}`;
-  const columnHtml = parsed.map((meta, idx) => {
-    const cards = meta.cards.map(card => `
-      <div class="hn-match ${meta.cls === "final" ? "final" : ""}">
-        <div class="hn-team-line ${card.winA ? "winner" : ""}"><span>${card.teamA}</span><span>${card.aggA}</span></div>
-        <div class="hn-team-line ${!card.winA ? "winner" : ""}"><span>${card.teamB}</span><span>${card.aggB}</span></div>
-        ${card.partidas.map((p,i) => `<div class="hn-leg"><span>${card.partidas.length === 2 ? (i === 0 ? "Ida" : "Volta") : "Jogo " + (i+1)}</span><span>${p.mandante}</span><span class="hn-leg-score">${p.gm}-${p.gv}</span><span>${p.visitante}</span></div>`).join("")}
-        <div class="hn-agg">Agregado: <b>${card.winner}</b> ${card.outcome}, ${card.aggA}-${card.aggB}</div>
-      </div>
-    `).join("");
-    const pad = Math.min(132, idx * 52);
-    return `<div class="hn-bracket-col ${meta.cls}" style="padding-top:${pad}px"><h3 class="hn-phase-title">${meta.fase}</h3>${cards}</div>`;
+function renderHNChampion(ed, fases, champion) {
+  const wrap = document.getElementById("hn-champion-wrap");
+  if (!wrap) return;
+  if (!champion) { wrap.innerHTML = ""; return; }
+  const finalFase = fases.filter(f => f.tipo === "mata_mata").sort((a,b)=>b.ordem-a.ordem)[0]
+                 || fases.slice().sort((a,b)=>b.ordem-a.ordem)[0];
+  const crit = finalFase?.criterio || "";
+  wrap.innerHTML = `<div class="hn-champion"><div class="ic">🏆</div><div class="tx">
+      <span>Campeão Brasileiro de ${ed.temporada}</span><b>${champion}</b>
+      ${crit ? `<small>${crit}</small>` : ""}</div></div>`;
+}
+
+function renderHNStepper(fases, partidasTodas) {
+  const el = document.getElementById("hn-stepper");
+  if (!el) return;
+  const tipoLabel = {liga:"Pontos corridos", grupo:"Fase de grupos", mata_mata:"Mata-mata"};
+  el.innerHTML = fases.map(f => {
+    const n = partidasTodas.filter(p => p.fase === f.fase).length;
+    const meta = (f.num_grupos > 1) ? `${f.num_grupos} grupos · ${n} jogos` : `${n} jogos`;
+    const active = state.hnFase === f.fase ? "is-active" : "";
+    return `<div class="hn-step t-${f.tipo || "liga"} ${active}" data-fase="${f.fase.replace(/"/g,"&quot;")}">
+        <div class="hn-step-k">${tipoLabel[f.tipo] || f.tipo || ""}</div>
+        <div class="hn-step-n">${f.fase}</div>
+        <div class="hn-step-m">${meta}</div></div>`;
   }).join("");
-  const championHtml = champion ? `
-    <div class="hn-champion">
-      <span>Campeão brasileiro de ${state.hnSeason}</span>
-      <b>${champion}</b>
-      <small>${finalResumo}</small>
-    </div>
-  ` : "";
-  document.getElementById("hn-bracket").innerHTML = `${championHtml}<div class="hn-bracket-wrap">${columnHtml}</div>`;
+  el.querySelectorAll(".hn-step").forEach(s => s.onclick = () => {
+    const fase = s.getAttribute("data-fase");
+    state.hnFase = (state.hnFase === fase) ? "" : fase;
+    const selFase = document.getElementById("hn-fase"); if (selFase) selFase.value = state.hnFase;
+    renderBrasileiroAntigo();
+    if (state.hnFase) {
+      const host = document.getElementById("hn-phases");
+      const target = host && [...host.querySelectorAll(".hn-phase-section")].find(sec => (sec.dataset.fkeys || "").split("|").includes(cssId(fase)));
+      if (target) target.scrollIntoView({behavior:"smooth", block:"center"});
+    }
+  });
+}
+
+function renderHNPhases(ed, fases, partidasTodas, ptsVit, officialChampion) {
+  const host = document.getElementById("hn-phases");
+  if (!host) return;
+  const blocks = [];
+  let i = 0;
+  while (i < fases.length) {
+    if (fases[i].tipo === "liga") {
+      const run = [];
+      while (i < fases.length && fases[i].tipo === "liga") { run.push(fases[i]); i++; }
+      blocks.push(renderHNLeagueBlock(run, partidasTodas, ptsVit));
+    } else if (fases[i].tipo === "mata_mata") {
+      const run = [];
+      while (i < fases.length && fases[i].tipo === "mata_mata") { run.push(fases[i]); i++; }
+      blocks.push(renderHNKnockoutBlock(run, partidasTodas, officialChampion));
+    } else {
+      blocks.push(renderHNGroupBlock(fases[i], partidasTodas, ptsVit));
+      i++;
+    }
+  }
+  host.innerHTML = blocks.join("") || `<p style="color:var(--muted)">Sem fases importadas.</p>`;
+}
+
+function renderHNLeagueBlock(run, partidasTodas, ptsVit) {
+  const nomes = new Set(run.map(f => f.fase));
+  const matches = partidasTodas.filter(p => nomes.has(p.fase));
+  const maxOrdem = Math.max(...run.map(f => f.ordem));
+  const adv = hnAdvancingClubs(partidasTodas, maxOrdem);
+  const tabela = calcHNTable(matches, ptsVit);
+  const titulo = run.length > 1 ? run.map(f => f.fase).join(" + ") : run[0].fase;
+  const crit = run.map(f => f.criterio).filter(Boolean).join(" ");
+  const fkeys = run.map(f => cssId(f.fase)).join("|");
+  const rows = tabela.map((r, idx) => {
+    const q = adv.has(r.clube) ? "hn-row-qualify" : "";
+    return `<tr class="${q}"><td class="num">${idx+1}</td><td><b>${r.clube}</b></td><td class="num"><b>${r.P}</b></td><td class="num">${r.J}</td><td class="num">${r.V}</td><td class="num">${r.E}</td><td class="num">${r.D}</td><td class="num">${r.GP}</td><td class="num">${r.GC}</td><td class="num">${r.SG}</td></tr>`;
+  }).join("");
+  return `<div class="hn-phase-section" id="hn-phase-${cssId(run[0].fase)}" data-fkeys="${fkeys}">
+    <div class="hn-phase-head"><h3>${titulo}</h3><span class="hn-badge t-liga">Pontos corridos</span><span class="hn-badge">${ptsVit} pts/vitória</span></div>
+    ${crit ? `<p class="hn-phase-crit">${crit}</p>` : ""}
+    <div class="hn-league-wrap"><table><thead><tr><th class="num">#</th><th>Clube</th><th class="num">P</th><th class="num">J</th><th class="num">V</th><th class="num">E</th><th class="num">D</th><th class="num">GP</th><th class="num">GC</th><th class="num">SG</th></tr></thead><tbody>${rows}</tbody></table></div>
+    ${adv.size ? `<p class="hn-phase-crit" style="margin-top:10px">Clubes destacados avançam de fase.</p>` : ""}
+  </div>`;
+}
+
+function renderHNGroupBlock(f, partidasTodas, ptsVit) {
+  const matches = partidasTodas.filter(p => p.fase === f.fase);
+  const adv = hnAdvancingClubs(partidasTodas, f.ordem);
+  const groups = {};
+  matches.forEach(p => { const g = p.grupo || "—"; (groups[g] = groups[g] || []).push(p); });
+  const keys = Object.keys(groups).sort();
+  const single = keys.length <= 1;
+  const cards = keys.map(g => {
+    const tabela = calcHNTable(groups[g], ptsVit);
+    const rows = tabela.map((r, idx) => {
+      const q = adv.has(r.clube) ? "hn-row-qualify" : "";
+      return `<tr class="${q}"><td class="num">${idx+1}</td><td><b>${r.clube}</b></td><td class="num"><b>${r.P}</b></td><td class="num">${r.J}</td><td class="num">${r.V}</td><td class="num">${r.E}</td><td class="num">${r.D}</td><td class="num">${r.SG}</td></tr>`;
+    }).join("");
+    const head = single ? "Classificação do grupo" : `Grupo ${g}`;
+    return `<div class="hn-group-card"><div class="hn-group-head"><span>${head}</span><small>${tabela.length} clubes</small></div>
+      <table><thead><tr><th class="num">#</th><th>Clube</th><th class="num">P</th><th class="num">J</th><th class="num">V</th><th class="num">E</th><th class="num">D</th><th class="num">SG</th></tr></thead><tbody>${rows}</tbody></table></div>`;
+  }).join("");
+  const badge = single ? "Fase de grupo" : `${keys.length} grupos`;
+  return `<div class="hn-phase-section" id="hn-phase-${cssId(f.fase)}" data-fkeys="${cssId(f.fase)}">
+    <div class="hn-phase-head"><h3>${f.fase}</h3><span class="hn-badge t-grupo">${badge}</span><span class="hn-badge">${ptsVit} pts/vitória</span></div>
+    ${f.criterio ? `<p class="hn-phase-crit">${f.criterio}</p>` : ""}
+    <div class="hn-groups">${cards}</div>
+    ${adv.size ? `<p class="hn-phase-crit" style="margin-top:10px">Clubes destacados avançam de fase.</p>` : ""}
+  </div>`;
+}
+
+function renderHNKnockoutBlock(run, partidasTodas, officialChampion) {
+  const cols = run.map(f => {
+    const matches = partidasTodas.filter(p => p.fase === f.fase);
+    const ties = {};
+    matches.forEach(p => {
+      const k = [p.mand_id, p.vis_id].slice().sort((x,y)=>x-y).join("-");
+      (ties[k] = ties[k] || []).push(p);
+    });
+    const ordered = Object.values(ties).sort((A,B) => {
+      const da = A.map(p=>p.data_iso).sort()[0] || "", db = B.map(p=>p.data_iso).sort()[0] || "";
+      return da.localeCompare(db);
+    });
+    const cards = ordered.map(par => renderHNTie(f, par, officialChampion)).filter(Boolean).join("");
+    return `<div class="hn-bracket-col"><h4 class="hn-phase-title">${f.fase}</h4>${cards}</div>`;
+  }).join("");
+  const hasFinal = run.some(f => f.fase === "Final");
+  const trophy = (hasFinal && officialChampion)
+    ? `<div class="hn-champ-col"><div class="hn-trophy"><div class="ic">🏆</div><b>${officialChampion}</b><span>Campeão</span></div></div>`
+    : "";
+  const titulo = run.length > 1 ? "Fase final (mata-mata)" : run[0].fase;
+  const fkeys = run.map(f => cssId(f.fase)).join("|");
+  return `<div class="hn-phase-section" id="hn-phase-${cssId(run[0].fase)}" data-fkeys="${fkeys}">
+    <div class="hn-phase-head"><h3>${titulo}</h3><span class="hn-badge t-mata_mata">Eliminatória</span></div>
+    <div class="hn-bracket-wrap">${cols}${trophy}</div>
+  </div>`;
+}
+
+function renderHNTie(f, par, officialChampion) {
+  if (!par.length) return "";
+  par = par.slice().sort((a,b) => (a.data_iso || "").localeCompare(b.data_iso || "") || (a.jogo||0)-(b.jogo||0));
+  const teamA = par[0].mandante, teamB = par[0].visitante;
+  const scoreFor = (team, m) => m.mandante === team ? m.gm : m.gv;
+  let winsA = 0, winsB = 0, aggA = 0, aggB = 0;
+  par.forEach(m => {
+    const sa = scoreFor(teamA, m), sb = scoreFor(teamB, m);
+    aggA += sa; aggB += sb;
+    if (sa > sb) winsA++; else if (sb > sa) winsB++;
+  });
+  const isFinal = f.fase === "Final";
+  const bestOf3 = f.formato_serie === "melhor_de_3";
+  let winner, resumo;
+  if (bestOf3) {
+    if (winsA !== winsB) winner = winsA > winsB ? teamA : teamB;
+    else winner = (officialChampion === teamA || officialChampion === teamB) ? officialChampion : teamA;
+    resumo = `Série melhor de 3: <b>${winner}</b> ${isFinal ? "campeão" : "avançou"} (${Math.max(winsA,winsB)}-${Math.min(winsA,winsB)} em jogos).`;
+  } else if (aggA === aggB) {
+    winner = (officialChampion === teamA || officialChampion === teamB) ? officialChampion : null;
+    resumo = winner
+      ? `Agregado ${aggA}-${aggB}; <b>${winner}</b> ${isFinal ? "campeão" : "avançou"} por critério da edição (melhor campanha).`
+      : `Agregado ${aggA}-${aggB}; decidido por critério da edição.`;
+  } else {
+    winner = aggA > aggB ? teamA : teamB;
+    resumo = `Agregado: <b>${winner}</b> ${isFinal ? "foi campeão" : "avançou"} (${Math.max(aggA,aggB)}-${Math.min(aggA,aggB)}).`;
+  }
+  const valA = bestOf3 ? winsA : aggA, valB = bestOf3 ? winsB : aggB;
+  const legs = par.map((p, i) => {
+    const lbl = par.length === 1 ? "Jogo único" : (par.length === 2 ? (i === 0 ? "Ida" : "Volta") : "Jogo " + (i+1));
+    return `<div class="hn-leg"><span>${lbl}</span><span>${p.mandante}</span><span class="hn-leg-score">${p.gm}-${p.gv}</span><span>${p.visitante}</span></div>`;
+  }).join("");
+  return `<div class="hn-match ${isFinal ? "final" : ""}">
+    <div class="hn-team-line ${winner === teamA ? "winner" : ""}"><span>${teamA}</span><span>${valA}</span></div>
+    <div class="hn-team-line ${winner === teamB ? "winner" : ""}"><span>${teamB}</span><span>${valB}</span></div>
+    ${legs}
+    <div class="hn-agg">${resumo}</div>
+  </div>`;
 }
 
 // RENDER POR ABA
