@@ -14,6 +14,7 @@ from __future__ import annotations
 
 # Pontos por vitoria por epoca (2 pts ate 1994; 3 pts a partir de 1995).
 PONTOS_VITORIA: dict[int, int] = {
+    1987: 2,
     1988: 3,
     1989: 2,
     1990: 2, 1991: 2,
@@ -38,6 +39,16 @@ MELHOR_DE_3 = "melhor_de_3"           # mata-mata melhor de 3 jogos
 # Metadados por (ano, fase_nome). num_grupos > 1 dispara a derivacao de grupos.
 # criterio explica como a fase classifica/decide (vai para fase.criterio).
 FASE_META: dict[tuple[int, str], dict] = {
+    # ---------------- 1987 (Copa Uniao/Modulo Verde + final CBF) ----------------
+    (1987, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Modulo Verde/Copa Uniao: dois grupos de 8 em dois estagios. Vencedores dos grupos/estagios avancaram as semifinais. Mantido como liga unica no dashboard para preservar a corrida agregada do modulo."},
+    (1987, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Semifinais do Modulo Verde em ida e volta; Internacional decidiu na prorrogacao contra o Cruzeiro."},
+    (1987, "Final Copa Uniao"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Final do Modulo Verde/Copa Uniao; Flamengo venceu o Internacional."},
+    (1987, "Final CBF"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Cruzamento CBF nao disputado por Flamengo e Internacional. Sport e Guarani jogaram a decisao oficial; Sport campeao pela CBF."},
+
     # ---------------- 1988 (24 clubes, regra 3/2/1 em empates) ----------------
     (1988, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
         "criterio": "Fase inicial em dois estagios com grupos e cruzamentos. Vitoria valia 3 pontos; empate ia aos penaltis, com 2 pontos ao vencedor e 1 ao perdedor. Oito clubes avancaram ao mata-mata."},
