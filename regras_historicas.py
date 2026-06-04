@@ -14,6 +14,7 @@ from __future__ import annotations
 
 # Pontos por vitoria por epoca (2 pts ate 1994; 3 pts a partir de 1995).
 PONTOS_VITORIA: dict[int, int] = {
+    1991: 2,
     1992: 2, 1993: 2, 1994: 2,
     1995: 3, 1996: 3, 1997: 3, 1998: 3, 1999: 3,
     2000: 3, 2001: 3, 2002: 3,
@@ -35,6 +36,14 @@ MELHOR_DE_3 = "melhor_de_3"           # mata-mata melhor de 3 jogos
 # Metadados por (ano, fase_nome). num_grupos > 1 dispara a derivacao de grupos.
 # criterio explica como a fase classifica/decide (vai para fase.criterio).
 FASE_META: dict[tuple[int, str], dict] = {
+    # ---------------- 1991 (20 clubes, 2 pts) ----------------
+    (1991, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Turno unico de 20 clubes; 4 melhores as semifinais; 2 rebaixados (Gremio e Vitoria)."},
+    (1991, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta; vantagem do empate ao de melhor campanha. Sao Paulo avancou no agregado empatado (1-1)."},
+    (1991, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Sao Paulo campeao (agregado 1-0 sobre o Bragantino)."},
+
     # ---------------- 1992 (20 clubes, 2 pts) ----------------
     (1992, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
         "criterio": "Turno unico de 20 clubes; 8 melhores avancam. Sem rebaixamento nesta edicao."},
