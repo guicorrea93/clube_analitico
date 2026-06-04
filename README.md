@@ -37,12 +37,13 @@ O banco atual contem:
   classificacao final historica para o periodo moderno.
 - Copa do Brasil: campeoes, vices, finais, edicoes e participantes.
 - Historico do Campeonato Brasileiro antigo, antes dos pontos corridos, ja
-  importado de 1991 a 2002.
+  importado de 1990 a 2002.
 
 Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 | Ano | Participantes | Fases | Jogos |
 | --- | ---: | ---: | ---: |
+| 1990 | 20 | 4 | 204 |
 | 1991 | 20 | 3 | 196 |
 | 1992 | 20 | 3 | 216 |
 | 1993 | 32 | 4 | 254 |
@@ -58,9 +59,9 @@ Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 Totais do historico antigo importado:
 
-- 12 edicoes: 1991 a 2002.
-- 48 fases.
-- 3.501 partidas.
+- 13 edicoes: 1990 a 2002.
+- 52 fases.
+- 3.705 partidas.
 
 Ultimos anos importados antes desta atualizacao do README:
 
@@ -151,7 +152,7 @@ O projeto inclui `pyproject.toml` com configuracao basica para Black e Ruff.
   - Fluxo opcional: recria o banco a partir de fontes locais com
     `--rebuild-from-sources`.
   - Importante: o rebuild por fontes ainda nao reexecuta automaticamente os
-    importadores do historico antigo 1991-2002. Veja a secao "Rebuild completo".
+    importadores do historico antigo 1990-2002. Veja a secao "Rebuild completo".
 
 - `validar_banco.py`
   - Valida campeoes, rebaixados e sanidade basica do banco moderno.
@@ -199,6 +200,7 @@ do banco.
 
 Arquivos:
 
+- `importar_brasileirao_historico_1990.py`
 - `importar_brasileirao_historico_1991.py`
 - `importar_brasileirao_historico_1992.py`
 - `importar_brasileirao_historico_1993.py`
@@ -264,10 +266,11 @@ de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
 
 ## Fontes Usadas
 
-### Fonte principal para 1991-2002
+### Fonte principal para 1990-2002
 
 RSSSF Brasil:
 
+- `https://www.rsssf.org/tablesb/braz90.html`
 - `https://www.rsssf.org/tablesb/braz91.html`
 - `https://www.rsssf.org/tablesb/braz92.html`
 - `https://www.rsssf.org/tablesb/braz93.html`
@@ -283,6 +286,7 @@ RSSSF Brasil:
 
 Arquivos locais baixados dessas fontes:
 
+- `data/rsssf_braz90.html`
 - `data/rsssf_braz91.html`
 - `data/rsssf_braz92.html`
 - `data/rsssf_braz93.html`
@@ -339,6 +343,7 @@ servem para revisao humana e para comparar o que entrou no banco.
 
 Arquivos atuais:
 
+- `data/brasileirao_historico_1990_partidas.csv`
 - `data/brasileirao_historico_1991_partidas.csv`
 - `data/brasileirao_historico_1992_partidas.csv`
 - `data/brasileirao_historico_1993_partidas.csv`
@@ -369,6 +374,10 @@ Resumo por ano e fase:
 
 | Ano | Fase | Tipo | Jogos |
 | --- | --- | --- | ---: |
+| 1990 | Primeira fase | liga | 190 |
+| 1990 | Quartas de final | mata_mata | 8 |
+| 1990 | Semifinal | mata_mata | 4 |
+| 1990 | Final | mata_mata | 2 |
 | 1991 | Primeira fase | liga | 190 |
 | 1991 | Semifinal | mata_mata | 4 |
 | 1991 | Final | mata_mata | 2 |
@@ -422,7 +431,7 @@ Resumo por ano e fase:
 
 Proximo ano natural:
 
-- `1990`
+- `1989`
 
 Fluxo recomendado para cada novo ano:
 
@@ -435,13 +444,13 @@ python -u .\backup.py
 2. Baixar a pagina RSSSF:
 
 ```powershell
-curl.exe -L "https://www.rsssf.org/tablesb/braz90.html" -o data\rsssf_braz90.html
+curl.exe -L "https://www.rsssf.org/tablesb/braz89.html" -o data\rsssf_braz89.html
 ```
 
 3. Ler a pagina e mapear o regulamento:
 
 ```powershell
-python -u -c "from pathlib import Path; import re, html; raw=Path('data/rsssf_braz90.html').read_text(encoding='latin-1'); m=re.search(r'<pre>(.*?)</pre>', raw, re.S|re.I); t=html.unescape(m.group(1) if m else raw); print(t[:4000])"
+python -u -c "from pathlib import Path; import re, html; raw=Path('data/rsssf_braz89.html').read_text(encoding='latin-1'); m=re.search(r'<pre>(.*?)</pre>', raw, re.S|re.I); t=html.unescape(m.group(1) if m else raw); print(t[:4000])"
 ```
 
 4. Identificar marcadores:
@@ -459,13 +468,13 @@ python -u -c "from pathlib import Path; import re, html; raw=Path('data/rsssf_br
 Exemplo generico:
 
 ```powershell
-python -u -c "from pathlib import Path; import re, html; raw=Path('data/rsssf_braz90.html').read_text(encoding='latin-1'); t=html.unescape(re.search(r'<pre>(.*?)</pre>', raw, re.S|re.I).group(1)); pat=re.compile(r'^.+?\s+\d+\s+x\s+.+?\s+\d+\s*$', re.M|re.I); print(len(pat.findall(t)))"
+python -u -c "from pathlib import Path; import re, html; raw=Path('data/rsssf_braz89.html').read_text(encoding='latin-1'); t=html.unescape(re.search(r'<pre>(.*?)</pre>', raw, re.S|re.I).group(1)); pat=re.compile(r'^.+?\s+\d+\s+x\s+.+?\s+\d+\s*$', re.M|re.I); print(len(pat.findall(t)))"
 ```
 
 6. Criar um importador novo:
 
 ```text
-importar_brasileirao_historico_1990.py
+importar_brasileirao_historico_1989.py
 ```
 
 7. Reaproveitar padroes dos importadores existentes:
@@ -495,13 +504,13 @@ Exemplos recorrentes:
 9. Executar o importador:
 
 ```powershell
-python -u .\importar_brasileirao_historico_1990.py
+python -u .\importar_brasileirao_historico_1989.py
 ```
 
 10. Validar contagens diretamente no banco:
 
 ```powershell
-python -u -c "import sqlite3; con=sqlite3.connect('db/brasileirao.db'); print(con.execute('select f.temporada_id, f.fase_nome, f.fase_tipo, count(p.partida_hist_id) from dim_fase_nacional_historica f left join fato_partida_nacional_historica p on p.fase_nacional_id=f.fase_nacional_id where f.temporada_id=1990 group by f.fase_nacional_id order by f.fase_ordem').fetchall())"
+python -u -c "import sqlite3; con=sqlite3.connect('db/brasileirao.db'); print(con.execute('select f.temporada_id, f.fase_nome, f.fase_tipo, count(p.partida_hist_id) from dim_fase_nacional_historica f left join fato_partida_nacional_historica p on p.fase_nacional_id=f.fase_nacional_id where f.temporada_id=1989 group by f.fase_nacional_id order by f.fase_ordem').fetchall())"
 ```
 
 11. Regenerar e validar o dashboard:
@@ -526,13 +535,13 @@ git status --short
 14. Adicionar apenas os arquivos do ano novo e artefatos gerados:
 
 ```powershell
-git add dashboard.html db/brasileirao.db importar_brasileirao_historico_1990.py data\brasileirao_historico_1990_partidas.csv data\rsssf_braz90.html
+git add dashboard.html db/brasileirao.db importar_brasileirao_historico_1989.py data\brasileirao_historico_1989_partidas.csv data\rsssf_braz89.html
 ```
 
 15. Commit:
 
 ```powershell
-git commit -m "Adiciona historico do Brasileiro 1990"
+git commit -m "Adiciona historico do Brasileiro 1989"
 ```
 
 ## Fluxo Normal de Uso
@@ -589,7 +598,7 @@ python .\check_dashboard.py
 Atencao importante:
 
 - Hoje o `build.py --rebuild-from-sources` nao chama automaticamente os scripts
-  `importar_brasileirao_historico_1991.py` ate
+  `importar_brasileirao_historico_1990.py` ate
   `importar_brasileirao_historico_2002.py` (nem o `enriquecer_historico.py`,
   embora este rode no fluxo normal do `build.py`).
 - Se voce recriar o banco do zero, precisa reexecutar os importadores
@@ -602,6 +611,7 @@ Sequencia recomendada em caso de rebuild total:
 ```powershell
 python -u .\backup.py
 python -u .\build.py --rebuild-from-sources --skip-dashboard
+python -u .\importar_brasileirao_historico_1990.py
 python -u .\importar_brasileirao_historico_1991.py
 python -u .\importar_brasileirao_historico_1992.py
 python -u .\importar_brasileirao_historico_1993.py
@@ -722,19 +732,19 @@ git status --short
 python -u .\backup.py
 ```
 
-Para continuar 1990:
+Para continuar 1989:
 
 ```powershell
-curl.exe -L "https://www.rsssf.org/tablesb/braz90.html" -o data\rsssf_braz90.html
+curl.exe -L "https://www.rsssf.org/tablesb/braz89.html" -o data\rsssf_braz89.html
 ```
 
 Depois:
 
-1. Inspecionar `data/rsssf_braz90.html`.
+1. Inspecionar `data/rsssf_braz89.html`.
 2. Separar apenas a Serie A.
 3. Contar jogos por fase antes de importar.
-4. Criar `importar_brasileirao_historico_1990.py`.
-5. Gerar `data/brasileirao_historico_1990_partidas.csv`.
+4. Criar `importar_brasileirao_historico_1989.py`.
+5. Gerar `data/brasileirao_historico_1989_partidas.csv`.
 6. Rodar `python -u .\build.py`.
 7. Extrair JS para `c:/tmp/dashboard_check.js`.
 8. Rodar `node --check c:\tmp\dashboard_check.js`.
