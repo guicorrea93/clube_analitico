@@ -68,6 +68,49 @@ Ultimos anos importados antes desta atualizacao do README:
 - 1993: commit `572aec5 Adiciona historico do Brasileiro 1993`
 - 1992: commit `18017b2 Adiciona historico do Brasileiro 1992`
 
+## Revisao estrutural do Brasileiro antigo (2026-06)
+
+Uma auditoria multi-agente (verificacao ano a ano contra o RSSSF local +
+corroboracao independente; registro completo em
+`docs/auditoria_brasileiro_antigo_1992_2002.md`) mostrou que placares e campeoes
+estavam corretos, mas a ESTRUTURA de varias edicoes estava achatada na
+importacao. O que foi corrigido nesta revisao:
+
+Dados e modelagem:
+
+- Pontuacao por epoca: 2 pontos por vitoria ate 1994 e 3 a partir de 1995
+  (antes o dashboard reconstruia toda tabela com 3 pts).
+- Grupos paralelos viraram dado real (coluna `grupo`), derivados por
+  componentes conexos: 1992 (2 quadrangulares), 1993 (4 grupos + 2 grupos),
+  1994 (4 grupos) e 1997 (2 grupos do "Grupo semifinal").
+- 1995: os dois "turnos" formam um turno unico (todos contra todos); a tabela
+  passou a ser combinada (antes o dashboard mostrava so metade da temporada).
+- Metadados de fase estruturados: `num_grupos`, `formato_serie`
+  (`pontos_corridos`/`grupos`/`jogo_unico`/`ida_volta`/`melhor_de_3`) e
+  `criterio` (melhor campanha, melhor de 3, replays, W.O., etc.).
+- Confirmado que NAO ha mojibake nos nomes de clube de 1991-2002 (os acentos
+  estao integros; `?`/quadrado aparece so no console, nao no dado).
+
+Design e render (aba "Brasileiro Antigo"):
+
+- Render dirigido pelo TIPO de fase (`liga`/`grupo`/`mata_mata`), em vez de
+  assumir sempre "liga + chaveamento".
+- Classificacao POR GRUPO (uma mini-tabela por grupo) nas fases de grupos.
+- Stepper com o caminho ate o titulo; agora TODA fase aparece (antes fases de
+  grupo decisivas, como o "Grupo semifinal" de 1997, sumiam).
+- Bracket em funil agrupando confrontos por par de clubes, tratando jogo unico,
+  ida/volta e melhor de 3; coluna-trofeu do campeao.
+- Desempate de final empatada usa a classificacao oficial; nao elege o
+  visitante por engano.
+- Banner do campeao com o criterio do titulo; pontos por epoca nas tabelas.
+
+Limitacao conhecida: a 2a fase e a Repescagem de 1994 tem clubes que se cruzam
+entre subfases, entao ficaram como grupo unico (sem separacao A/B/E/F), com nota.
+
+A implementacao mora em `regras_historicas.py` + `enriquecer_historico.py`
+(camada de dados, abaixo) e nas funcoes `renderHN*` de `gerar_dashboard_html.py`
+(render). O ano de 1991 ja foi importado dentro desse padrao.
+
 ## Requisitos
 
 - Python 3.12+
@@ -108,7 +151,7 @@ O projeto inclui `pyproject.toml` com configuracao basica para Black e Ruff.
   - Fluxo opcional: recria o banco a partir de fontes locais com
     `--rebuild-from-sources`.
   - Importante: o rebuild por fontes ainda nao reexecuta automaticamente os
-    importadores do historico antigo 1992-2002. Veja a secao "Rebuild completo".
+    importadores do historico antigo 1991-2002. Veja a secao "Rebuild completo".
 
 - `validar_banco.py`
   - Valida campeoes, rebaixados e sanidade basica do banco moderno.
@@ -221,7 +264,7 @@ de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
 
 ## Fontes Usadas
 
-### Fonte principal para 1992-2002
+### Fonte principal para 1991-2002
 
 RSSSF Brasil:
 
@@ -546,8 +589,9 @@ python .\check_dashboard.py
 Atencao importante:
 
 - Hoje o `build.py --rebuild-from-sources` nao chama automaticamente os scripts
-  `importar_brasileirao_historico_1992.py` ate
-  `importar_brasileirao_historico_2002.py`.
+  `importar_brasileirao_historico_1991.py` ate
+  `importar_brasileirao_historico_2002.py` (nem o `enriquecer_historico.py`,
+  embora este rode no fluxo normal do `build.py`).
 - Se voce recriar o banco do zero, precisa reexecutar os importadores
   historicos antes de gerar/validar o dashboard final.
 - Se isso nao for feito, o bloco "Brasileiro Antigo" pode perder os jogos
