@@ -37,12 +37,14 @@ O banco atual contem:
   classificacao final historica para o periodo moderno.
 - Copa do Brasil: campeoes, vices, finais, edicoes e participantes.
 - Historico do Campeonato Brasileiro antigo, antes dos pontos corridos, ja
-  importado de 1990 a 2002.
+  importado de 1988 a 2002.
 
 Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 | Ano | Participantes | Fases | Jogos |
 | --- | ---: | ---: | ---: |
+| 1988 | 24 | 4 | 290 |
+| 1989 | 22 | 4 | 195 |
 | 1990 | 20 | 4 | 204 |
 | 1991 | 20 | 3 | 196 |
 | 1992 | 20 | 3 | 216 |
@@ -59,9 +61,9 @@ Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 Totais do historico antigo importado:
 
-- 13 edicoes: 1990 a 2002.
-- 52 fases.
-- 3.705 partidas.
+- 15 edicoes: 1988 a 2002.
+- 60 fases.
+- 4.190 partidas.
 
 Ultimos anos importados antes desta atualizacao do README:
 
@@ -110,7 +112,7 @@ entre subfases, entao ficaram como grupo unico (sem separacao A/B/E/F), com nota
 
 A implementacao mora em `regras_historicas.py` + `enriquecer_historico.py`
 (camada de dados, abaixo) e nas funcoes `renderHN*` de `gerar_dashboard_html.py`
-(render). O ano de 1991 ja foi importado dentro desse padrao.
+(render). Os anos de 1988, 1989, 1990 e 1991 ja foram importados dentro desse padrao.
 
 ## Requisitos
 
@@ -266,10 +268,14 @@ de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
 
 ## Fontes Usadas
 
-### Fonte principal para 1990-2002
+### Fonte principal para 1988-2002
 
 RSSSF Brasil:
 
+- `https://www.rsssf.org/tablesb/braz88.html`
+- `https://rsssfbrasil.com/tablesae/br1988.htm` (espelho/fonte auxiliar; 1988 tambem exigiu curadoria de um jogo ausente na RSSSF principal)
+- `https://www.rsssf.org/tablesb/braz89.html`
+- `https://rsssfbrasil.com/tablesae/br1989.htm` (fonte auxiliar para validar lacunas do torneio de rebaixamento de 1989)
 - `https://www.rsssf.org/tablesb/braz90.html`
 - `https://www.rsssf.org/tablesb/braz91.html`
 - `https://www.rsssf.org/tablesb/braz92.html`
@@ -598,9 +604,9 @@ python .\check_dashboard.py
 Atencao importante:
 
 - Hoje o `build.py --rebuild-from-sources` nao chama automaticamente os scripts
-  `importar_brasileirao_historico_1990.py` ate
-  `importar_brasileirao_historico_2002.py` (nem o `enriquecer_historico.py`,
-  embora este rode no fluxo normal do `build.py`).
+  `importar_brasileirao_historico_1988.py` ate
+  `importar_brasileirao_historico_2002.py`. O enriquecimento estrutural
+  (`enriquecer_historico.py`) roda no fluxo normal e tambem no rebuild.
 - Se voce recriar o banco do zero, precisa reexecutar os importadores
   historicos antes de gerar/validar o dashboard final.
 - Se isso nao for feito, o bloco "Brasileiro Antigo" pode perder os jogos

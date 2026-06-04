@@ -2451,6 +2451,7 @@ function renderBrasileiroAntigo() {
 function calcHNTable(partidas, ptsVit) {
   const win = ptsVit || 3;
   const t = {};
+  const penRe = /Penaltis:\s*(\d+)-(\d+)/i;
   const ensure = c => {
     if (!t[c]) t[c] = {clube:c,J:0,V:0,E:0,D:0,GP:0,GC:0,SG:0,P:0};
     return t[c];
@@ -2460,7 +2461,16 @@ function calcHNTable(partidas, ptsVit) {
     a.J++; b.J++; a.GP += m.gm; a.GC += m.gv; b.GP += m.gv; b.GC += m.gm;
     if (m.gm > m.gv) { a.V++; b.D++; a.P += win; }
     else if (m.gm < m.gv) { b.V++; a.D++; b.P += win; }
-    else { a.E++; b.E++; a.P++; b.P++; }
+    else {
+      a.E++; b.E++;
+      const pen = String(m.obs || "").match(penRe);
+      if (win === 3 && pen) {
+        const pa = Number(pen[1]), pb = Number(pen[2]);
+        if (pa > pb) { a.P += 2; b.P += 1; }
+        else if (pb > pa) { b.P += 2; a.P += 1; }
+        else { a.P++; b.P++; }
+      } else { a.P++; b.P++; }
+    }
   });
   Object.values(t).forEach(r => r.SG = r.GP - r.GC);
   return Object.values(t).sort((a,b)=>b.P-a.P || b.V-a.V || b.SG-a.SG || b.GP-a.GP || a.clube.localeCompare(b.clube));
@@ -2669,6 +2679,7 @@ function renderHNGroupBlock(f, partidasTodas, ptsVit) {
 function renderHNKnockoutBlock(run, partidasTodas, officialChampion) {
   const cols = run.map(f => {
     const matches = partidasTodas.filter(p => p.fase === f.fase);
+    const adv = hnAdvancingClubs(partidasTodas, f.ordem);
     const ties = {};
     matches.forEach(p => {
       const k = [p.mand_id, p.vis_id].slice().sort((x,y)=>x-y).join("-");
@@ -2678,7 +2689,7 @@ function renderHNKnockoutBlock(run, partidasTodas, officialChampion) {
       const da = A.map(p=>p.data_iso).sort()[0] || "", db = B.map(p=>p.data_iso).sort()[0] || "";
       return da.localeCompare(db);
     });
-    const cards = ordered.map(par => renderHNTie(f, par, officialChampion)).filter(Boolean).join("");
+    const cards = ordered.map(par => renderHNTie(f, par, officialChampion, adv)).filter(Boolean).join("");
     return `<div class="hn-bracket-col"><h4 class="hn-phase-title">${f.fase}</h4>${cards}</div>`;
   }).join("");
   const hasFinal = run.some(f => f.fase === "Final");
@@ -2693,7 +2704,7 @@ function renderHNKnockoutBlock(run, partidasTodas, officialChampion) {
   </div>`;
 }
 
-function renderHNTie(f, par, officialChampion) {
+function renderHNTie(f, par, officialChampion, advancingClubs) {
   if (!par.length) return "";
   par = par.slice().sort((a,b) => (a.data_iso || "").localeCompare(b.data_iso || "") || (a.jogo||0)-(b.jogo||0));
   const teamA = par[0].mandante, teamB = par[0].visitante;
@@ -2706,13 +2717,19 @@ function renderHNTie(f, par, officialChampion) {
   });
   const isFinal = f.fase === "Final";
   const bestOf3 = f.formato_serie === "melhor_de_3";
+  const tiebreakWinner = () => {
+    if (advancingClubs?.has(teamA) && !advancingClubs?.has(teamB)) return teamA;
+    if (advancingClubs?.has(teamB) && !advancingClubs?.has(teamA)) return teamB;
+    if (officialChampion === teamA || officialChampion === teamB) return officialChampion;
+    return null;
+  };
   let winner, resumo;
   if (bestOf3) {
     if (winsA !== winsB) winner = winsA > winsB ? teamA : teamB;
-    else winner = (officialChampion === teamA || officialChampion === teamB) ? officialChampion : teamA;
+    else winner = tiebreakWinner() || teamA;
     resumo = `Série melhor de 3: <b>${winner}</b> ${isFinal ? "campeão" : "avançou"} (${Math.max(winsA,winsB)}-${Math.min(winsA,winsB)} em jogos).`;
   } else if (aggA === aggB) {
-    winner = (officialChampion === teamA || officialChampion === teamB) ? officialChampion : null;
+    winner = tiebreakWinner();
     resumo = winner
       ? `Agregado ${aggA}-${aggB}; <b>${winner}</b> ${isFinal ? "campeão" : "avançou"} por critério da edição (melhor campanha).`
       : `Agregado ${aggA}-${aggB}; decidido por critério da edição.`;
@@ -5638,7 +5655,5 @@ out = ROOT / "dashboard.html"
 out.write_text(html, encoding="utf-8")
 print(f"\nOK -> {out}")
 print(f"  payload total: {len(matches)} jogos, {len(goals_data)} gols, {len(cards_data)} cartoes, {len(stats_data)} stats")
-
-
 
 

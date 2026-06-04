@@ -1,4 +1,4 @@
-"""Regras estruturais curadas do Campeonato Brasileiro 1992-2002.
+"""Regras estruturais curadas do Campeonato Brasileiro 1989-2002.
 
 Este modulo concentra os METADADOS de fase que o parser RSSSF nao captura:
 numero de grupos paralelos, formato da serie (mata-mata), criterio de
@@ -14,6 +14,8 @@ from __future__ import annotations
 
 # Pontos por vitoria por epoca (2 pts ate 1994; 3 pts a partir de 1995).
 PONTOS_VITORIA: dict[int, int] = {
+    1988: 3,
+    1989: 2,
     1990: 2, 1991: 2,
     1992: 2, 1993: 2, 1994: 2,
     1995: 3, 1996: 3, 1997: 3, 1998: 3, 1999: 3,
@@ -36,11 +38,33 @@ MELHOR_DE_3 = "melhor_de_3"           # mata-mata melhor de 3 jogos
 # Metadados por (ano, fase_nome). num_grupos > 1 dispara a derivacao de grupos.
 # criterio explica como a fase classifica/decide (vai para fase.criterio).
 FASE_META: dict[tuple[int, str], dict] = {
+    # ---------------- 1988 (24 clubes, regra 3/2/1 em empates) ----------------
+    (1988, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Fase inicial em dois estagios com grupos e cruzamentos. Vitoria valia 3 pontos; empate ia aos penaltis, com 2 pontos ao vencedor e 1 ao perdedor. Oito clubes avancaram ao mata-mata."},
+    (1988, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Mata-mata em ida e volta; a regra de penaltis da fase inicial nao se aplicava."},
+    (1988, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Mata-mata em ida e volta; a regra de penaltis da fase inicial nao se aplicava."},
+    (1988, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Bahia campeao (2-1 e 0-0 contra o Internacional)."},
+
+    # ---------------- 1989 (22 clubes, 2 pts) ----------------
+    (1989, "Primeira fase"): {"num_grupos": 2, "formato_serie": GRUPOS,
+        "criterio": "Dois grupos de 11; 8 melhores de cada grupo avancam. Coritiba foi eliminado por W.O. e perdeu 5 pontos."},
+    (1989, "Segunda fase"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Segunda fase com 16 clubes em dois grupos cruzados; vencedores de grupo vao a final. Mantida como grupo unico no dashboard porque os jogos cruzam clubes dos dois grupos."},
+    (1989, "Torneio de rebaixamento"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Torneio entre os remanescentes da primeira fase; Athletico-PR, Guarani e Sport foram rebaixados, alem do Coritiba eliminado."},
+    (1989, "Final"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Vasco entrou com ponto bonus pela melhor campanha e foi campeao ao vencer o Sao Paulo por 1-0; nao houve segundo jogo."},
+
     # ---------------- 1990 (20 clubes, 2 pts) ----------------
     (1990, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
         "criterio": "Turno unico em 2 estagios (1o contra o outro grupo de 10, 2o contra o proprio grupo). Vencedores de grupo de cada estagio + 4 melhores campanhas avancam; 2 rebaixados."},
-    (1990, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": ""},
-    (1990, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": ""},
+    (1990, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                                  "criterio": "Mata-mata em ida e volta; empate no agregado decidido pela melhor campanha."},
+    (1990, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                           "criterio": "Mata-mata em ida e volta; empate no agregado decidido pela melhor campanha."},
     (1990, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
         "criterio": "Corinthians campeao (agregado 2-0 sobre o Sao Paulo)."},
 
