@@ -37,12 +37,13 @@ O banco atual contem:
   classificacao final historica para o periodo moderno.
 - Copa do Brasil: campeoes, vices, finais, edicoes e participantes.
 - Historico do Campeonato Brasileiro antigo, antes dos pontos corridos, ja
-  importado de 1987 a 2002.
+  importado de 1986 a 2002.
 
 Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 | Ano | Participantes | Fases | Jogos |
 | --- | ---: | ---: | ---: |
+| 1986 | 48 | 6 | 538 |
 | 1987 | 18 | 4 | 128 |
 | 1988 | 24 | 4 | 290 |
 | 1989 | 22 | 4 | 195 |
@@ -62,9 +63,9 @@ Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 Totais do historico antigo importado:
 
-- 16 edicoes: 1987 a 2002.
-- 64 fases.
-- 4.318 partidas.
+- 17 edicoes: 1986 a 2002.
+- 70 fases.
+- 4.856 partidas.
 
 Ultimos anos importados antes desta atualizacao do README:
 
@@ -113,7 +114,13 @@ entre subfases, entao ficaram como grupo unico (sem separacao A/B/E/F), com nota
 
 A implementacao mora em `regras_historicas.py` + `enriquecer_historico.py`
 (camada de dados, abaixo) e nas funcoes `renderHN*` de `gerar_dashboard_html.py`
-(render). Os anos de 1987, 1988, 1989, 1990 e 1991 ja foram importados dentro desse padrao.
+(render). Os anos de 1986, 1987, 1988, 1989, 1990 e 1991 ja foram importados dentro desse padrao.
+
+Nota especifica de 1986: a RSSSF lista tambem grupos inferiores/regionais, mas
+o banco local e a classificacao final existente usam 48 clubes. O importador
+carrega os grupos A-D completos e os quatro vencedores dos grupos E-H que entram
+na segunda fase (Treze, Central, Internacional-SP e Criciuma), mantendo o mesmo
+recorte da classificacao final.
 
 Nota especifica de 1987: o banco segue a classificacao final oficial ja
 existente no projeto (Sport, Guarani, Flamengo, Internacional, ...). O importador
@@ -274,10 +281,11 @@ de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
 
 ## Fontes Usadas
 
-### Fonte principal para 1987-2002
+### Fonte principal para 1986-2002
 
 RSSSF Brasil:
 
+- `https://www.rsssf.org/tablesb/braz86.html`
 - `https://www.rsssf.org/tablesb/braz87.html`
 - `https://www.rsssf.org/tablesb/braz88.html`
 - `https://rsssfbrasil.com/tablesae/br1988.htm` (espelho/fonte auxiliar; 1988 tambem exigiu curadoria de um jogo ausente na RSSSF principal)
@@ -611,7 +619,7 @@ python .\check_dashboard.py
 Atencao importante:
 
 - Hoje o `build.py --rebuild-from-sources` nao chama automaticamente os scripts
-  `importar_brasileirao_historico_1987.py` ate
+  `importar_brasileirao_historico_1986.py` ate
   `importar_brasileirao_historico_2002.py`. O enriquecimento estrutural
   (`enriquecer_historico.py`) roda no fluxo normal e tambem no rebuild.
 - Se voce recriar o banco do zero, precisa reexecutar os importadores

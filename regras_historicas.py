@@ -14,6 +14,7 @@ from __future__ import annotations
 
 # Pontos por vitoria por epoca (2 pts ate 1994; 3 pts a partir de 1995).
 PONTOS_VITORIA: dict[int, int] = {
+    1986: 2,
     1987: 2,
     1988: 3,
     1989: 2,
@@ -39,6 +40,20 @@ MELHOR_DE_3 = "melhor_de_3"           # mata-mata melhor de 3 jogos
 # Metadados por (ano, fase_nome). num_grupos > 1 dispara a derivacao de grupos.
 # criterio explica como a fase classifica/decide (vai para fase.criterio).
 FASE_META: dict[tuple[int, str], dict] = {
+    # ---------------- 1986 (48 clubes no recorte oficial local) ----------------
+    (1986, "Primeira fase"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Recorte local de 48 clubes: grupos A-D completos e vencedores dos grupos E-H que entram depois. A RSSSF lista outros grupos inferiores, que nao sao misturados nesta edicao."},
+    (1986, "Segunda fase"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos em turno e returno; classificados avancam ao mata-mata."},
+    (1986, "Terceira fase"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Mata-mata em ida e volta; alguns empates foram decididos por melhor campanha da fase anterior."},
+    (1986, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Mata-mata em ida e volta; Atletico-MG avancou por melhor campanha no agregado empatado contra o Cruzeiro."},
+    (1986, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Mata-mata em ida e volta."},
+    (1986, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Sao Paulo e Guarani empataram no agregado; Sao Paulo campeao nos penaltis."},
+
     # ---------------- 1987 (Copa Uniao/Modulo Verde + final CBF) ----------------
     (1987, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
         "criterio": "Modulo Verde/Copa Uniao: dois grupos de 8 em dois estagios. Vencedores dos grupos/estagios avancaram as semifinais. Mantido como liga unica no dashboard para preservar a corrida agregada do modulo."},

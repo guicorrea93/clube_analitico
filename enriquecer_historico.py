@@ -81,7 +81,7 @@ def enriquecer() -> None:
             SELECT f.fase_nacional_id, f.edicao_nacional_id, f.temporada_id, f.fase_ordem,
                    f.fase_nome, f.fase_tipo
             FROM dim_fase_nacional_historica f
-            WHERE f.temporada_id BETWEEN 1987 AND 2002
+            WHERE f.temporada_id BETWEEN 1986 AND 2002
             ORDER BY f.temporada_id, f.fase_ordem
             """
         ).fetchall()
