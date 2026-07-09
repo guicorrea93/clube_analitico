@@ -22,6 +22,212 @@ Artefato visual principal:
 
 - `dashboard.html`
 
+Segundo dashboard independente:
+
+- `dashboard_copa_mundo.html`
+- Gerado por `gerar_dashboard_copa_mundo_html.py`
+- Usa somente a Wikipedia em portugues como fonte: pagina principal da Copa do
+  Mundo FIFA e a pagina de cada edicao de 1930 a 2026. Para os detalhes de
+  partida, usa tambem paginas de grupos, fase final e finais dedicadas quando
+  existem.
+- A Copa de **2026 esta em andamento**: entra em todos os cards e graficos, mas
+  sua classificacao final e parcial (so times ja eliminados). Por isso as
+  estatisticas por selecao de 2026 sao agregadas dos grupos + jogos de mata-mata
+  ja disputados, e quem segue vivo aparece como "Em andamento".
+- O gerador baixa/cacheia os HTMLs da Wikipedia, extrai tabelas de edicoes,
+  ranking, fase de grupos, mata-mata, classificacao final, premios e estadios,
+  e embute os dados + Plotly + bandeiras/cartazes/tacas (base64) no HTML final.
+- E **independente** de `db/brasileirao.db`: nao depende do banco nem do
+  `dashboard.html`. So precisa do cache em `data/worldcup_wikipedia/`.
+- Requer `lxml` (usado por `pandas.read_html` e tambem diretamente, para
+  escalacoes e infobox); ja consta em `requirements.txt`.
+
+Como regenerar o dashboard das Copas:
+
+```powershell
+python -u .\gerar_dashboard_copa_mundo_html.py
+# ou, junto do pipeline principal:
+python -u .\build.py --with-copa-mundo
+```
+
+Abas e recursos:
+
+- **Geral das Copas**: KPIs, linha do tempo, titulos e top 4, rankings de
+  vitorias/empates/derrotas (toggle total/%), gols e publico por edicao, maiores
+  artilheiros (carreira) e artilheiro por edicao, **melhor ataque e melhor
+  defesa por edicao** e maiores goleadas.
+- **Por Copa**: cartaz da edicao, resumo, classificacao final, grupos,
+  chaveamento e jogos clicaveis. Ao selecionar uma partida, o dashboard abre
+  diretamente um modal com placar, linha temporal dos gols, data, horario,
+  estadio, publico, arbitro (e pais), escalacoes quando a Wikipedia fornece
+  (numero/posicao/nome), quem entrou e treinadores. A ficha esta anexada em
+  64/64 jogos de 1998, 2002, 2006, 2010, 2014, 2018 e 2022.
+- **Por Selecao**: bandeira, trajetoria, vezes em cada posicao, gols por edicao,
+  distribuicao de resultados, adversarios, campanha e **"Quem fez os gols em
+  cada Copa"** — todos os jogadores que marcaram, edicao a edicao, com o
+  artilheiro destacado e uma nota quando a selecao teve **gol contra a favor**.
+
+Estrutura do payload embutido (`const DATA` no HTML):
+
+| Chave | Conteudo |
+| --- | --- |
+| `DATA.fonte` | URL da pagina principal e nota de acesso |
+| `DATA.geral` | Tabelas da pagina principal: `editions`, `podium`, `attendance`, `blowouts`, `totals` |
+| `DATA.copas[]` | Uma por edicao: `info`, `grupos`, `partidas`, `classificacao_final`, `premios`, `estadios` |
+| `DATA.copas[].partidas[].ficha` | Detalhe da partida para 1998, 2002, 2006, 2010, 2014, 2018 e 2022: data/hora, estadio, publico, arbitro, pais do arbitro e, quando disponivel na Wikipedia, escalacoes, substituicoes e treinadores |
+| `DATA.selecoes[]` | Agregado historico por selecao (J/V/E/D/GP/GC, titulos, aproveitamento) |
+| `DATA.artilheiros_selecao` | `{selecao: {ano: [[jogador, gols], ...]}}` |
+| `DATA.gols_contra_selecao` | `{selecao: {ano: [[autor, gols], ...]}}` — gols contra a favor |
+| `DATA.melhor_ataque_defesa` | `{ano: {ataque:{selecao,gp}, defesa:{selecao,gc,j}}}` |
+| `DATA.curados` | `artilheiros_historico`, `artilheiros_edicao`, `marcadores_grupos` |
+
+Alem de `__DATA_PAYLOAD__`, o template recebe `__PLOTLY_PAYLOAD__`,
+`__FLAGS_PAYLOAD__`, `__POSTERS_PAYLOAD__`, `__TROFEUS_PAYLOAD__` e
+`__FAVICON_PAYLOAD__`. Tudo vai embutido: o HTML final abre offline, sem CDN.
+
+Detalhes de implementacao relevantes:
+
+- **Selecao de tabelas por conteudo**: `parse_main()` localiza cada tabela da
+  pagina principal por assinatura de cabecalho (helpers `find_table` /
+  `has_header_cells` / `columns_text`), nao por indice fixo. Se a Wikipedia
+  reordenar/inserir tabelas, o gerador falha alto com mensagem clara em vez de
+  pegar a tabela errada silenciosamente.
+- **Overrides por edicao** (`apply_edition_overrides`): as paginas de 1930-1982
+  tem formatos irregulares (grupos de 3 times, **segunda fase de grupos** em
+  1974/1978/1982, jogos de desempate, mata-mata sem tabela padrao). Para 1930,
+  1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978 e 1982 os grupos e
+  as partidas sao literais Python, gerados a partir do cache e conferidos a mao.
+  O parser generico cuida so de 1986-2022.
+- **2026 tem parser proprio** (`parse_2026`): 48 selecoes, 12 grupos e a fase
+  "Dezesseis avos de final" (nao existia antes). As tabelas de grupo trazem a
+  coluna `Equipevde` e uma coluna `Classificado`. Cuidado com a infobox: o campo
+  de gols vem como "261 (2,9 por partida)", entao usa-se
+  `to_int(val.split("(")[0])`. Em `phaseRank` (JS), o teste de "avos" precisa vir
+  **antes** do teste de "final", porque "dezesseis avos de final" contem "final".
+- **Assets embutidos** (todos viram base64 no HTML): `ensure_plotly`,
+  `ensure_flags` (bandeiras em w320; codigos vindos de `collect_flag_codes`),
+  `ensure_posters` (cartaz de cada edicao), `ensure_trofeus` (Jules Rimet e Taca
+  FIFA) e `ensure_favicon`. O recorte das tacas (`_recortar_trofeu`) remove o
+  fundo com **rembg**, dependencia **opcional e pesada**, importada so quando o
+  PNG transparente ainda nao esta em cache:
+  `python -m pip install rembg onnxruntime`. Com os PNGs ja em
+  `data/worldcup_wikipedia/trofeus/`, o rembg nunca e chamado.
+- **Nomes de selecao** passam sempre por `clean_team`, que unifica aliases
+  historicos (ex.: "Zaire" e "RD Congo" -> "Republica Democratica do Congo";
+  "Checoslovaquia" -> "Tchecoslovaquia"). Isso evita a mesma nacao aparecer duas
+  vezes na base.
+- **Dados curados em um so lugar**: artilharia historica, artilheiro por edicao
+  e os marcadores das partidas de fase de grupos de 2022 NAO aparecem nas
+  tabelas extraidas (as paginas listam marcadores so no mata-mata). Ficam como
+  constantes Python (`ARTILHEIROS_HISTORICO`, `ARTILHEIROS_EDICAO`,
+  `MARCADORES_GRUPOS`) e sao injetadas no payload como `DATA.curados`; o template
+  apenas renderiza. Para adicionar marcadores de outra edicao, inclua chaves no
+  formato `"ano|Grupo X|Time1|placar|Time2": "marcadores"`.
+- **Gols por jogador / selecao / edicao** (`build_team_scorers`, helpers `_sc_*`):
+  parseia o campo `marcadores` de cada partida. Cobre prefixo por selecao
+  ("Brasil: Ronaldo 50'"), formato sem prefixo com lixo ("Publico:/Arbitro:"),
+  formato invertido ("67', 79' Ronaldo"), minutos "90+4'", typos da fonte
+  (`25'<`, `73''`, `(g. c.)`, "Substiuicoes") e mescla variantes de nome
+  ("Ronaldinho" -> "Ronaldinho Gaucho"). `enrich_scorers` passou a ser aplicado a
+  **todas** as edicoes: preenche os marcadores vazios do mata-mata moderno a
+  partir das caixas 2x5 do cache (antes so 1934/1950/1954).
+- **Gols contra nao viram artilheiro**: sao contados a parte e devolvidos em
+  `DATA.gols_contra_selecao`, exibidos como nota na aba Por Selecao. Ajustes
+  curados: `SCORERS_SUPPLEMENT` (gols dos jogos de desempate de 1934/1938, que
+  nem constam da lista de partidas, e o 2o gol de Valdivia em 1970),
+  `OWNGOALS_SUPPLEMENT` e `RECLASSIFY_OWNGOALS` (gols contra que a Wikipedia PT
+  listou sem o marcador "(g.c.)" e que por isso apareciam como gol do jogador,
+  ex.: Valladares/Yobo pela Franca em 2014). Com isso, jogadores + gols contra
+  fecham **100%** com o "gols pro" de cada dupla (selecao, edicao).
+- **Melhor ataque/defesa** (`build_best_atk_def`): ataque = selecao que mais
+  marcou. Defesa = menor media de gols sofridos por jogo **entre as que passaram
+  da fase de grupos** (4+ jogos) — o total cru premiava time eliminado na 1a
+  fase que jogou pouco (ex.: Tunisia 2022 com 1 gol sofrido em 3 jogos).
+- **Detalhes de partida** (`build_match_details`, helpers `_det_*`): cobre 1998,
+  2002, 2006, 2010, 2014, 2018 e 2022, com 64/64 jogos casados em cada edicao.
+  `_det_pages_for_year` define quais paginas da Wikipedia PT alimentam cada
+  ano. Para 2010-2022, o fluxo usa paginas de grupos (A-H), fase final e, quando
+  necessario, artigo dedicado da final. Para 1998/2002, a pagina principal da
+  edicao ja traz as 64 caixas de jogos; a final dedicada sobrescreve/complete os
+  dados quando tem escalação. Para 2006, usa a pagina principal, paginas de
+  grupos, a final dedicada e `Copa_do_Mundo_FIFA_de_2006_–_Fase_final`.
+  O parser extrai scorebox (data/hora/estadio/publico/arbitro+pais) e as
+  escalacoes quando o HTML traz tabelas de jogadores (titulares, quem entrou,
+  treinador). O casamento com a partida do payload e por `det_pair_key` (times
+  normalizados + placar), porque duas selecoes podem se enfrentar duas vezes na
+  mesma Copa. O resultado fica em `p.ficha`; o front so le esse campo.
+  Limitacao documentada: em 1998 e 2002, a maioria dos jogos na Wikipedia PT nao
+  traz escalacoes no mesmo formato das copas recentes; nesses casos a ficha abre
+  com os metadados disponiveis (data/hora, estadio, publico, arbitro) e sem
+  inventar escalação.
+
+Como validar uma mudanca no dashboard das Copas:
+
+1. Regerar com `python -u .\gerar_dashboard_copa_mundo_html.py`.
+2. Checar o JS embutido. **Nao pegue o maior `<script>`**: o do Plotly (~3,5 MB)
+   e maior que o da aplicacao (~1,9 MB). Selecione por um simbolo conhecido:
+
+```python
+import re
+html = open("dashboard_copa_mundo.html", encoding="utf-8").read()
+app = [s for s in re.findall(r"<script>(.*?)</script>", html, re.S) if "renderGeral" in s][0]
+open("check.js", "w", encoding="utf-8").write(app)
+# depois:  node --check check.js
+```
+
+3. Screenshot headless: as abas "Por Copa" e "Por Selecao" comecam ocultas. Faca
+   uma **copia** do HTML e injete isto antes de `</body>` para abrir a aba:
+
+```html
+<script>state.view="selecao";state.team="Brasil";switchView();</script>
+```
+
+   Trocar so `state.view` **nao** basta: e o `switchView()` que alterna as
+   classes `hidden`, chama o render e dispara o `resize` do Plotly (sem ele os
+   graficos de abas ocultas renderizam com largura errada).
+
+4. Conferencia de dados que pega quase tudo: para cada dupla (selecao, edicao), a
+   soma dos gols de jogadores + gols contra a favor tem que bater com o `gp` da
+   classificacao final. Hoje fecha **100%** nas edicoes concluidas.
+
+Proximos passos (Copa do Mundo):
+
+- **Detalhes de partida de 1994 para tras**. A base de fichas ja cobre
+  1998-2022, mas as edicoes anteriores tem formatos irregulares na Wikipedia PT.
+  Expandir ano a ano, sempre conferindo:
+  - se a pagina principal traz as caixas de jogos ou se existem subpaginas de
+    grupo/fase final;
+  - se ha artigo dedicado da final;
+  - se as tabelas de escalação aparecem no mesmo formato parseavel pelos helpers
+    `_det_*`;
+  - se jogos repetidos entre as mesmas selecoes exigem chave com placar, como ja
+    ocorre em `det_pair_key`;
+  - se a edicao nao tem mata-mata tradicional (ex.: 1950), para nao forcar
+    chaveamento artificial.
+- **Uniforme (kit)**: pedido, porem **nao implementado**. Nao esta nas
+  football-box do cache; aparece nos artigos dedicados de cada partida, como SVG.
+- **Padronizar codigos de posicao**: paginas de grupo/fase final usam abreviacao
+  em ingles (GK, CB, RB, CM, CF) e o artigo da final usa em portugues (G, Z, LD,
+  M, A). Falta um mapa para uniformizar o modal.
+- **Eventos na escalacao**: gols e cartoes ao lado do jogador (como na Wikipedia)
+  sao hoje descartados do nome via regex. Para reexibir, guarde as celulas extras
+  da linha do jogador em vez de recortar o texto do nome.
+- **Reservas nao utilizados nao aparecem** (a Wikipedia so lista quem entrou) e
+  **arbitros assistentes** nao constam das caixas de 2022.
+- **Pais do arbitro** as vezes vem em pt-PT ("Polonia" grafada diferente). Se for
+  exibir bandeira, normalize antes de bater com `FLAG_CODES`.
+- **`ARTILHEIROS_HISTORICO` esta parcial**: soma os 7 gols de 2026 a Messi (20) e
+  Mbappe (19), que passam Klose (16), mas **nao** soma outros ativos (Kane,
+  Haaland). Revisar quando a Copa de 2026 terminar. O card ja traz essa ressalva.
+- **Quando 2026 acabar**: apague os HTMLs de 2026 do cache para rebaixar a versao
+  final; com a `classificacao_final` completa, o ramo especial de 2026 em
+  `_cup_team_stats` / `aggregate_selection_stats` (que agrega dos grupos + jogos)
+  pode ser removido, e a trajetoria/posicoes passam a incluir a edicao.
+- **Lacunas residuais conhecidas** ja resolvidas por dados curados, mas que voltam
+  se o cache for refeito: os jogos de desempate de 1934/1938 **nao existem** na
+  lista de partidas da Wikipedia PT (so na classificacao), por isso seus gols
+  entram por `SCORERS_SUPPLEMENT` e nao aparecem em "Todos os jogos".
+
 Dashboard gerado por:
 
 - `gerar_dashboard_html.py`

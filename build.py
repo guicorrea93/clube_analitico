@@ -74,6 +74,14 @@ def main() -> None:
         action="store_true",
         help="Nao valida o payload do dashboard apos a geracao.",
     )
+    parser.add_argument(
+        "--with-copa-mundo",
+        action="store_true",
+        help=(
+            "Tambem regenera dashboard_copa_mundo.html a partir do cache local "
+            "da Wikipedia (data/worldcup_wikipedia). Independe de db/brasileirao.db."
+        ),
+    )
     args = parser.parse_args()
 
     if not args.rebuild_from_sources:
@@ -89,6 +97,11 @@ def main() -> None:
             run_step("Gerando dashboard HTML", ["gerar_dashboard_html.py"])
             if not args.skip_dashboard_check:
                 run_step("Validando dashboard HTML", ["check_dashboard.py"])
+        if args.with_copa_mundo:
+            run_step(
+                "Gerando dashboard das Copas do Mundo",
+                ["gerar_dashboard_copa_mundo_html.py"],
+            )
         print("\nPipeline concluido.")
         return
 
@@ -141,6 +154,12 @@ def main() -> None:
         run_step("Gerando dashboard HTML", ["gerar_dashboard_html.py"])
         if not args.skip_dashboard_check:
             run_step("Validando dashboard HTML", ["check_dashboard.py"])
+
+    if args.with_copa_mundo:
+        run_step(
+            "Gerando dashboard das Copas do Mundo",
+            ["gerar_dashboard_copa_mundo_html.py"],
+        )
 
     print("\nPipeline concluido.")
 
