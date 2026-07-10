@@ -61,7 +61,9 @@ Abas e recursos:
   diretamente um modal com placar, linha temporal dos gols, data, horario,
   estadio, publico, arbitro (e pais), escalacoes quando a Wikipedia fornece
   (numero/posicao/nome), quem entrou e treinadores. A ficha esta anexada em
-  64/64 jogos de 1998, 2002, 2006, 2010, 2014, 2018 e 2022.
+  todos os jogos de 1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970,
+  1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018 e
+  2022.
 - **Por Selecao**: bandeira, trajetoria, vezes em cada posicao, gols por edicao,
   distribuicao de resultados, adversarios, campanha e **"Quem fez os gols em
   cada Copa"** — todos os jogadores que marcaram, edicao a edicao, com o
@@ -74,7 +76,7 @@ Estrutura do payload embutido (`const DATA` no HTML):
 | `DATA.fonte` | URL da pagina principal e nota de acesso |
 | `DATA.geral` | Tabelas da pagina principal: `editions`, `podium`, `attendance`, `blowouts`, `totals` |
 | `DATA.copas[]` | Uma por edicao: `info`, `grupos`, `partidas`, `classificacao_final`, `premios`, `estadios` |
-| `DATA.copas[].partidas[].ficha` | Detalhe da partida para 1998, 2002, 2006, 2010, 2014, 2018 e 2022: data/hora, estadio, publico, arbitro, pais do arbitro e, quando disponivel na Wikipedia, escalacoes, substituicoes e treinadores |
+| `DATA.copas[].partidas[].ficha` | Detalhe da partida para 1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018 e 2022: data/hora, estadio, publico, arbitro, pais do arbitro e, quando disponivel na Wikipedia, escalacoes, substituicoes e treinadores |
 | `DATA.selecoes[]` | Agregado historico por selecao (J/V/E/D/GP/GC, titulos, aproveitamento) |
 | `DATA.artilheiros_selecao` | `{selecao: {ano: [[jogador, gols], ...]}}` |
 | `DATA.gols_contra_selecao` | `{selecao: {ano: [[autor, gols], ...]}}` — gols contra a favor |
@@ -143,23 +145,34 @@ Detalhes de implementacao relevantes:
   marcou. Defesa = menor media de gols sofridos por jogo **entre as que passaram
   da fase de grupos** (4+ jogos) — o total cru premiava time eliminado na 1a
   fase que jogou pouco (ex.: Tunisia 2022 com 1 gol sofrido em 3 jogos).
-- **Detalhes de partida** (`build_match_details`, helpers `_det_*`): cobre 1998,
-  2002, 2006, 2010, 2014, 2018 e 2022, com 64/64 jogos casados em cada edicao.
+- **Detalhes de partida** (`build_match_details`, helpers `_det_*`): cobre 1930,
+  1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990,
+  1994, 1998, 2002, 2006, 2010, 2014, 2018 e 2022, com todos os jogos casados
+  em cada edicao.
   `_det_pages_for_year` define quais paginas da Wikipedia PT alimentam cada
   ano. Para 2010-2022, o fluxo usa paginas de grupos (A-H), fase final e, quando
-  necessario, artigo dedicado da final. Para 1998/2002, a pagina principal da
-  edicao ja traz as 64 caixas de jogos; a final dedicada sobrescreve/complete os
-  dados quando tem escalação. Para 2006, usa a pagina principal, paginas de
+  necessario, artigo dedicado da final. Para 1950-2002, a pagina principal da
+  edicao ja traz as caixas de jogos; a final dedicada sobrescreve/completa os
+  dados quando tem escalação. Para 1930, usa as subpaginas existentes dos
+  grupos 1, 2 e 4, a pagina de fase final e a pagina principal; o Grupo 3 nao
+  tem artigo proprio na Wikipedia PT e por isso usa ficha basica da pagina da
+  edicao. Para 1938, o W.O. Suecia x Austria e o jogo Hungria x Indias Orientais
+  Neerlandesas tambem recebem ficha basica quando a caixa detalhada nao e
+  parseavel de forma confiavel. Para 2006, usa a pagina principal, paginas de
   grupos, a final dedicada e `Copa_do_Mundo_FIFA_de_2006_–_Fase_final`.
   O parser extrai scorebox (data/hora/estadio/publico/arbitro+pais) e as
   escalacoes quando o HTML traz tabelas de jogadores (titulares, quem entrou,
   treinador). O casamento com a partida do payload e por `det_pair_key` (times
   normalizados + placar), porque duas selecoes podem se enfrentar duas vezes na
   mesma Copa. O resultado fica em `p.ficha`; o front so le esse campo.
-  Limitacao documentada: em 1998 e 2002, a maioria dos jogos na Wikipedia PT nao
+  `_det_parse_page` tambem aceita tabelas `Footballbox` sem `Público:` quando o
+  `data-mw` identifica a predefinicao, necessario para alguns jogos de 1954.
+  Limitacao documentada: em 1930-2002, a maioria dos jogos na Wikipedia PT nao
   traz escalacoes no mesmo formato das copas recentes; nesses casos a ficha abre
   com os metadados disponiveis (data/hora, estadio, publico, arbitro) e sem
-  inventar escalação.
+  inventar escalação. Nesses anos, as finais dedicadas trazem escalações
+  completas e sao aproveitadas quando disponiveis; 1950 tem final dedicada com
+  metadados, mas sem escalação parseavel.
 
 Como validar uma mudanca no dashboard das Copas:
 
@@ -192,9 +205,9 @@ open("check.js", "w", encoding="utf-8").write(app)
 
 Proximos passos (Copa do Mundo):
 
-- **Detalhes de partida de 1994 para tras**. A base de fichas ja cobre
-  1998-2022, mas as edicoes anteriores tem formatos irregulares na Wikipedia PT.
-  Expandir ano a ano, sempre conferindo:
+- **Refinar detalhes das edicoes antigas**. A base de fichas ja cobre
+  1930-2022, mas as edicoes ate 2002 tem formatos irregulares na Wikipedia PT.
+  Refinar ano a ano, sempre conferindo:
   - se a pagina principal traz as caixas de jogos ou se existem subpaginas de
     grupo/fase final;
   - se ha artigo dedicado da final;

@@ -2117,8 +2117,19 @@ _DET_POS_RE = re.compile(r"^[A-Za-z]{1,3}$")
 
 
 def _det_pages_for_year(year: int) -> list[str]:
+    if year == 1930:
+        return [
+            "Copa_do_Mundo_FIFA_de_1930",
+            "Copa_do_Mundo_FIFA_de_1930_-_Grupo_1",
+            "Copa_do_Mundo_FIFA_de_1930_-_Grupo_2",
+            "Copa_do_Mundo_FIFA_de_1930_-_Grupo_4",
+            "Copa_do_Mundo_FIFA_de_1930_-_Fase_final",
+            "Final_da_Copa_do_Mundo_FIFA_de_1930",
+        ]
+    if year in {1934, 1938}:
+        return [f"Copa_do_Mundo_FIFA_de_{year}", f"Final_da_Copa_do_Mundo_FIFA_de_{year}"]
     sep = "-" if year <= 2006 else "–"
-    if year in {1998, 2002}:
+    if year in {1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002}:
         return [f"Copa_do_Mundo_FIFA_de_{year}", f"Final_da_Copa_do_Mundo_FIFA_de_{year}"]
     if year == 2006:
         return [
@@ -2213,9 +2224,10 @@ def _det_parse_page(path) -> list:
     seq = []
     for t in doc.iter("table"):
         pr = _det_count_player_rows(t)
+        data_mw = (t.get("data-mw") or "").lower()
         if pr >= 8:
             seq.append(("lineup", t))
-        elif "Público:" in t.text_content() and pr == 0 and re.search(r"\d{1,2}(?:º)?\s+de\s+\w+", t.text_content()):
+        elif pr == 0 and ("Público:" in t.text_content() or "footballbox" in data_mw) and re.search(r"\d{1,2}(?:º)?\s+de\s+\w+", t.text_content()):
             seq.append(("score", t))
     groups, cur = [], None
     for kind, t in seq:
@@ -2245,6 +2257,23 @@ def det_pair_key(a: str, b: str, score) -> str:
     return f"{tk}|{sk}"
 
 
+def _det_empty_team(name: str) -> dict:
+    return {"nome": clean_team(name), "tec": "", "xi": [], "res": []}
+
+
+def _det_entry_from_match(match: dict) -> dict:
+    return {
+        "data": match.get("data", ""),
+        "hora": "",
+        "estadio": match.get("estadio", ""),
+        "publico": "",
+        "arbitro": "",
+        "arbitro_pais": "",
+        "t1": _det_empty_team(match.get("time1", "")),
+        "t2": _det_empty_team(match.get("time2", "")),
+    }
+
+
 def _build_match_details_for_year(year: int) -> dict:
     det: dict = {}
     for title in _det_pages_for_year(year):
@@ -2268,6 +2297,9 @@ def _build_match_details_for_year(year: int) -> dict:
                         old[f] = entry[f]
                 continue
             det[k] = entry
+    for match in parse_worldcup_page(year)["partidas"]:
+        key = det_pair_key(match.get("time1"), match.get("time2"), score_goals(match.get("placar")))
+        det.setdefault(key, _det_entry_from_match(match))
     coach = {}
     for e in det.values():
         for side in ("t1", "t2"):
@@ -2282,7 +2314,7 @@ def _build_match_details_for_year(year: int) -> dict:
 
 def build_match_details() -> dict:
     """{ano: {pair_key: detalhe}} — escalacoes/tecnicos/arbitro/publico por partida."""
-    return {str(year): _build_match_details_for_year(year) for year in (1998, 2002, 2006, 2010, 2014, 2018, 2022)}
+    return {str(year): _build_match_details_for_year(year) for year in (1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022)}
 
 
 def build_payload() -> dict:
@@ -2355,7 +2387,7 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
 .modal-overlay{position:fixed;inset:0;z-index:100;background:rgba(3,8,6,.74);backdrop-filter:blur(4px);display:flex;align-items:flex-start;justify-content:center;padding:40px 16px;overflow-y:auto}.modal-overlay.hidden{display:none}.modal-box{position:relative;width:min(920px,100%);background:linear-gradient(180deg,#12241c,#0b1712);border:1px solid var(--line);border-radius:12px;box-shadow:0 30px 80px rgba(0,0,0,.6);padding:22px 24px 26px}.modal-close{position:absolute;top:10px;right:14px;background:none;border:none;color:#9eb8a8;font-size:30px;line-height:1;cursor:pointer;padding:0 6px}.modal-close:hover{color:#fff}
 .mm-head{text-align:center;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:16px}.mm-teams{display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:center}.mm-team{display:grid;gap:8px;justify-items:center}.mm-team b{font-size:18px}.mm-team .team-badge,.mm-team .flag-img{width:56px;height:38px}.mm-score{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;display:flex;gap:12px;align-items:center}.mm-score span{color:#9ca3af;font-size:24px}.mm-sub{color:var(--muted);font-size:13px;margin-top:10px}
 .mm-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:10px;margin-bottom:20px}.mm-meta-item{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:8px;padding:9px 12px}.mm-meta-item span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}.mm-meta-item b{font-size:14px}.mm-h3{margin:0 0 12px;font-size:15px;color:var(--gold)}
-.mm-lineups{display:grid;grid-template-columns:1fr 1fr;gap:18px}.lu-team{min-width:0}.lu-head{font-weight:800;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line)}.lu-head .inline-flag{width:26px;height:18px}.lu-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}.lu-list li{display:grid;grid-template-columns:26px 34px 1fr;gap:8px;align-items:center;padding:4px 6px;border-radius:4px;font-size:13px}.lu-list li:hover{background:rgba(255,255,255,.05)}.lu-num{text-align:right;color:var(--gold);font-variant-numeric:tabular-nums;font-weight:700}.lu-pos{color:var(--muted);font-size:11px;font-weight:700}.lu-res{opacity:.82}.lu-subhead{margin:11px 0 4px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}.lu-coach{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:13px}.lu-coach span{color:var(--muted)}
+.mm-lineups{display:grid;grid-template-columns:1fr 1fr;gap:18px}.lu-team{min-width:0}.lu-head{font-weight:800;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line)}.lu-head .inline-flag{width:26px;height:18px}.lu-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}.lu-list li{display:grid;grid-template-columns:26px 34px 1fr;gap:8px;align-items:center;padding:4px 6px;border-radius:4px;font-size:13px}.lu-list li:hover{background:rgba(255,255,255,.05)}.lu-num{text-align:right;color:var(--gold);font-variant-numeric:tabular-nums;font-weight:700}.lu-pos{color:var(--muted);font-size:11px;font-weight:700}.lu-name{display:inline;min-width:0}.goal-balls{display:inline-flex;gap:2px;align-items:center;margin-left:6px;vertical-align:-1px}.goal-ball{font-size:12px;line-height:1}.lu-res{opacity:.82}.lu-subhead{margin:11px 0 4px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}.lu-coach{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:13px}.lu-coach span{color:var(--muted)}
 @media(max-width:720px){.mm-lineups{grid-template-columns:1fr}.mm-teams{gap:8px}.mm-team b{font-size:15px}}
 .bracket-board{position:relative;overflow-x:auto;border:1px solid rgba(255,255,255,.15);border-radius:8px;padding:20px;background:radial-gradient(circle at 18% 72%,rgba(245,196,81,.18),transparent 24%),radial-gradient(circle at 82% 30%,rgba(34,197,94,.14),transparent 26%),linear-gradient(135deg,#123e8f,#162fa4 48%,#0d286e);box-shadow:inset 0 0 55px rgba(255,255,255,.06)}.bracket-head{text-align:center;margin-bottom:18px}.bracket-head b{display:block;font-size:clamp(28px,4vw,54px);line-height:.9;letter-spacing:.04em;text-transform:uppercase}.bracket-head span{display:block;margin-top:6px;color:#dbeafe;font-size:16px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.bracket-stage{display:grid;grid-template-columns:minmax(132px,1fr) minmax(132px,1fr) minmax(132px,1fr) minmax(150px,.86fr) minmax(132px,1fr) minmax(132px,1fr) minmax(132px,1fr);gap:18px;align-items:center;min-width:1080px}.bracket-col{display:grid;gap:16px}.bracket-col.r16{gap:9px}.bracket-col.qf{gap:54px}.bracket-col.sf{gap:126px}.bracket-col.right .bracket-match::before,.bracket-col.left .bracket-match::after{content:"";position:absolute;top:50%;width:18px;border-top:2px solid rgba(226,241,255,.72)}.bracket-col.left .bracket-match::after{right:-19px}.bracket-col.right .bracket-match::before{left:-19px}.bracket-center{display:grid;gap:14px;align-items:center;justify-items:center}.bracket-trophy{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);font-size:13px;font-weight:900;letter-spacing:.04em}.bracket-final-label{color:#dbeafe;font-size:11px;text-transform:uppercase;letter-spacing:.14em}.bracket-match{position:relative;border:1px solid rgba(255,255,255,.22);border-radius:7px;background:rgba(5,17,48,.76);padding:7px;display:grid;gap:5px;cursor:pointer;min-height:64px}.bracket-match.selected-match{border-color:var(--gold);box-shadow:0 0 0 2px rgba(245,196,81,.25);background:rgba(9,31,78,.92)}.bracket-team{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;align-items:center;font-size:12px;line-height:1.2}.bracket-team b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bracket-team span{color:var(--gold);font-weight:800;font-variant-numeric:tabular-nums}.bracket-team.winner b{color:#86efac}.bracket-meta{color:#dbeafe;font-size:10px;line-height:1.3;opacity:.82;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.bracket-third{width:100%;border-top:1px solid rgba(255,255,255,.14);padding-top:12px}.bracket-empty{min-height:28px}
 @media(max-width:1100px){.hero,.toolbar{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:repeat(3,1fr)}.span-3,.span-4,.span-5,.span-6,.span-7,.span-8{grid-column:span 12}.groups-grid,.legacy-groups,.knockout-grid{grid-template-columns:1fr}.format-grid,.detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bracket-board{padding:16px}.bracket-stage{min-width:980px}}@media(max-width:720px){.hero,.toolbar{grid-template-columns:1fr;padding-left:14px;padding-right:14px}.shell{padding:14px}.kpis{grid-template-columns:1fr 1fr}.chart{height:330px}.format-grid,.detail-grid{grid-template-columns:1fr}.scoreline{grid-template-columns:1fr;gap:5px}.scoreline .right{text-align:left}.game-top{grid-template-columns:1fr}.game-main{grid-template-columns:1fr;gap:14px}.game-score{justify-content:center;font-size:34px}.game-scorers{grid-template-columns:1fr}.scorer-list.right{text-align:left}.scorer-ball{display:none}.bracket-head b{font-size:30px}.bracket-head span{font-size:12px}.timeline{--row-h:218px;--line-y:104px;padding:0 16px}.timeline-path{left:16px;right:16px;width:calc(100% - 32px)}.timeline-row{grid-template-columns:repeat(2,minmax(126px,1fr));min-height:var(--row-h)}.cup-card{min-height:206px}.cup-card.above .event-box{bottom:132px}.cup-card.below .event-box{top:138px}.cup-card.above .event-stem{bottom:124px}.event-year,.event-winner{font-size:14px}}
@@ -2624,9 +2656,13 @@ function matchScoreboardHtml(c,p, showDetailsButton=true){
   return `<article class="game-scoreboard"><div class="game-top"><span>Copa do Mundo FIFA ${esc(c.ano)} · ${esc(p.data||"-")} · ${esc(p.estadio||"-")}</span><span class="game-status">${esc(matchStatus(p))}</span></div>${showDetailsButton&&p.ficha?`<div class="game-detailbar"><button class="game-details-btn" data-uid="${esc(matchUid(c,p))}">Detalhes da partida</button></div>`:""}<div class="game-main"><div class="game-team ${winner===p.time1?"winner":""}"><span class="team-badge">${teamFlagHtml(p.time1)}</span><b>${esc(p.time1)}</b></div><div class="game-score"><span>${esc(s[0])}</span><span>×</span><span>${esc(s[1])}</span></div><div class="game-team ${winner===p.time2?"winner":""}"><span class="team-badge">${teamFlagHtml(p.time2)}</span><b>${esc(p.time2)}</b></div></div><div class="game-phase">${esc(p.grupo||p.fase||"-")}</div>${goalTimelineHtml(events)}${detail?`<div class="game-extra">${esc(detail)}</div>`:""}</article>`;
 }
 function detNorm(s){return String(s||"").normalize("NFKD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z0-9]/g,"");}
-function lineupCol(team,flagName){
+function lineupCol(team,flagName,goalCounts={}){
   if(!team) return "";
-  const rows=arr=>arr.map(pl=>`<li><span class="lu-num">${esc(pl[0])}</span><span class="lu-pos">${esc(pl[1])}</span><span class="lu-name">${esc(pl[2])}</span></li>`).join("");
+  const goalBalls=name=>{
+    const n=goalsForPlayer(name,goalCounts);
+    return n ? `<span class="goal-balls" title="${n} ${n>1?"gols":"gol"}">${Array.from({length:n},()=>`<span class="goal-ball">⚽</span>`).join("")}</span>` : "";
+  };
+  const rows=arr=>arr.map(pl=>`<li><span class="lu-num">${esc(pl[0])}</span><span class="lu-pos">${esc(pl[1])}</span><span class="lu-name">${esc(pl[2])}${goalBalls(pl[2])}</span></li>`).join("");
   const res=(team.res&&team.res.length)?`<div class="lu-subhead">Entraram</div><ol class="lu-list lu-res">${rows(team.res)}</ol>`:"";
   return `<div class="lu-team"><div class="lu-head">${teamLabelHtml(flagName)}</div><ol class="lu-list">${rows(team.xi||[])}</ol>${res}<div class="lu-coach"><span>Treinador</span><b>${esc(team.tec||"—")}</b></div></div>`;
 }
@@ -2634,11 +2670,12 @@ function matchModalHtml(c,p, includeHead=true){
   const f=p.ficha, s=scoreParts(p.placar);
   let a=f.t1,b=f.t2;
   if(a&&b&&detNorm(a.nome)!==detNorm(p.time1)&&detNorm(b.nome)===detNorm(p.time1)){a=f.t2;b=f.t1;}
+  const goalCounts=lineupGoalCounts(c,p);
   const meta=[["Data",f.data],["Horário",f.hora],["Estádio",f.estadio],["Público",f.publico?f.publico+" torcedores":""],["Árbitro",f.arbitro?(f.arbitro+(f.arbitro_pais?" ("+f.arbitro_pais+")":"")):""],["Fase",p.grupo||p.fase]].filter(r=>r[1]);
   const head=includeHead ? `<div class="mm-head"><div class="mm-teams"><div class="mm-team">${teamFlagHtml(p.time1)}<b>${esc(p.time1)}</b></div><div class="mm-score">${esc(s[0])}<span>×</span>${esc(s[1])}</div><div class="mm-team">${teamFlagHtml(p.time2)}<b>${esc(p.time2)}</b></div></div><div class="mm-sub">Copa do Mundo FIFA ${esc(c.ano)} — ${esc(p.grupo||p.fase||"")}</div></div>` : "";
   return head+
     `<div class="mm-meta">${meta.map(r=>`<div class="mm-meta-item"><span>${esc(r[0])}</span><b>${esc(r[1])}</b></div>`).join("")}</div>`+
-    `<h3 class="mm-h3">Escalações</h3><div class="mm-lineups">${lineupCol(a,p.time1)}${lineupCol(b,p.time2)}</div>`;
+    `<h3 class="mm-h3">Escalações</h3><div class="mm-lineups">${lineupCol(a,p.time1,goalCounts.left)}${lineupCol(b,p.time2,goalCounts.right)}</div>`;
 }
 function combinedMatchModalHtml(c,p){
   const details=p.ficha ? `<section class="modal-details-section"><h3 class="mm-h3">Detalhes da partida</h3>${matchModalHtml(c,p,false)}</section>` : `<p class="note">Ficha detalhada ainda não disponível para esta partida.</p>`;
@@ -2692,6 +2729,34 @@ function goalEvents(raw,p){
   const left=splitGoalEvents(split.left).filter(x=>x!=="-").map(text=>({side:"left",team:p.time1,text,minute:goalMinute(text)}));
   const right=splitGoalEvents(split.right).filter(x=>x!=="-").map(text=>({side:"right",team:p.time2,text,minute:goalMinute(text)}));
   return [...left,...right].sort((a,b)=>a.minute-b.minute);
+}
+function lineupGoalCounts(c,p){
+  const out={left:{},right:{}};
+  goalEvents(rawScorersForMatch(c,p),p).forEach(e=>{
+    const name=goalScorerName(e.text);
+    if(!name) return;
+    const key=detNorm(name);
+    out[e.side][key]=(out[e.side][key]||0)+1;
+  });
+  return out;
+}
+function goalScorerName(text){
+  return String(text||"")
+    .replace(/\d+(?:\+\d+)?'.*$/,"")
+    .replace(/\([^)]*\)/g,"")
+    .replace(/\b(gol|gols|pen|pênalti|penalti)\b/gi,"")
+    .replace(/[,:;|]+$/g,"")
+    .trim();
+}
+function goalsForPlayer(player,counts){
+  const pn=detNorm(player);
+  if(!pn) return 0;
+  let total=0;
+  Object.entries(counts||{}).forEach(([scorer,n])=>{
+    if(!scorer) return;
+    if(pn===scorer || pn.endsWith(scorer) || scorer.endsWith(pn)) total+=n;
+  });
+  return total;
 }
 function goalMinute(text){const m=String(text||"").match(/(\d+)(?:\+(\d+))?'/); return m ? (+m[1])+(m[2]?+m[2]/100:0) : 999;}
 function goalTimelineHtml(events){
