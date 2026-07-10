@@ -1,0 +1,803 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Catalogo do Banco da Copa do Mundo</title>
+  <style>
+    :root {
+      --bg: #06150f;
+      --panel: #0d2a1d;
+      --panel2: #0a2118;
+      --line: #244f3b;
+      --text: #f4fff9;
+      --muted: #a9c8bb;
+      --accent: #25c76a;
+      --gold: #f6c64f;
+      --blue: #38bdf8;
+      --danger: #fb7185;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px),
+        var(--bg);
+      background-size: 96px 96px;
+      color: var(--text);
+    }
+    header {
+      padding: 28px 32px 22px;
+      border-bottom: 1px solid var(--line);
+      background: rgba(6, 21, 15, .92);
+      position: sticky;
+      top: 0;
+      z-index: 5;
+    }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { margin: 0; font-size: 22px; }
+    h3 { margin: 22px 0 10px; font-size: 16px; color: var(--gold); }
+    p { color: var(--muted); }
+    .tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px; }
+    .tabs a {
+      color: var(--text);
+      text-decoration: none;
+      border: 1px solid var(--line);
+      padding: 9px 12px;
+      border-radius: 6px;
+      background: #092016;
+      font-weight: 700;
+    }
+    main { padding: 24px 32px 48px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 12px;
+      margin-bottom: 24px;
+    }
+    .metric {
+      display: block;
+      min-height: 94px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel2);
+      text-decoration: none;
+      color: var(--text);
+    }
+    .metric span { display: block; color: var(--muted); font-size: 13px; }
+    .metric strong { display: block; margin-top: 8px; font-size: 26px; color: var(--accent); }
+    .metric small { color: var(--muted); }
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(13, 42, 29, .88);
+      padding: 18px;
+      margin-bottom: 20px;
+    }
+    .panel-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: flex-start;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 12px;
+      margin-bottom: 12px;
+    }
+    .eyebrow {
+      margin: 0 0 4px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-size: 11px;
+      color: var(--muted);
+    }
+    .badge {
+      border: 1px solid var(--line);
+      background: #092016;
+      color: var(--gold);
+      border-radius: 999px;
+      padding: 8px 12px;
+      white-space: nowrap;
+      font-weight: 700;
+    }
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      max-height: 420px;
+      background: #071b13;
+    }
+    .table-wrap.sample { max-height: 340px; }
+    table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(36, 79, 59, .75);
+      text-align: left;
+      vertical-align: top;
+      white-space: nowrap;
+    }
+    th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: #0d2a1d;
+      color: #bfe7d8;
+      text-transform: uppercase;
+      font-size: 11px;
+      letter-spacing: .06em;
+    }
+    td { color: #eefcf5; }
+    .null { color: var(--danger); font-style: italic; }
+    .empty { margin: 0; padding: 14px; border: 1px dashed var(--line); border-radius: 8px; }
+    pre {
+      overflow: auto;
+      background: #071b13;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      color: #dff8ee;
+      white-space: pre-wrap;
+    }
+    .relationship-map {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 10px;
+    }
+    .story-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 12px;
+      margin: 16px 0 24px;
+    }
+    .story-card {
+      border: 1px solid var(--line);
+      background: #071b13;
+      border-radius: 8px;
+      padding: 15px;
+    }
+    .story-card h3 {
+      margin-top: 0;
+      color: var(--text);
+      font-size: 17px;
+    }
+    .story-card p { margin-bottom: 0; line-height: 1.45; }
+    .flow {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 8px;
+      margin: 14px 0 18px;
+    }
+    .flow div {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      background: #092016;
+      color: var(--muted);
+    }
+    .flow strong { display: block; color: var(--gold); margin-bottom: 4px; }
+    .callout {
+      border-left: 4px solid var(--gold);
+      background: rgba(246, 198, 79, .08);
+      padding: 12px 14px;
+      border-radius: 0 8px 8px 0;
+      color: var(--muted);
+      margin: 14px 0;
+      line-height: 1.45;
+    }
+    code {
+      color: #d8fbe8;
+      background: rgba(255,255,255,.06);
+      border: 1px solid rgba(255,255,255,.08);
+      border-radius: 4px;
+      padding: 1px 5px;
+    }
+    .edge {
+      border: 1px solid var(--line);
+      background: #071b13;
+      border-radius: 8px;
+      padding: 12px;
+      color: var(--muted);
+    }
+    .edge strong { color: var(--blue); }
+    @media (max-width: 760px) {
+      header, main { padding-left: 16px; padding-right: 16px; }
+      .panel-head { display: block; }
+      .badge { display: inline-block; margin-top: 10px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Catalogo do Banco da Copa do Mundo</h1>
+    <p>Arquivo: <strong>copa_mundo.db</strong> · Tabelas: <strong>18</strong> · Views: <strong>3</strong> · Relacionamentos: <strong>49</strong></p>
+    <nav class="tabs">
+      <a href="#guia">Guia</a>
+      <a href="#perguntas">Perguntas</a>
+      <a href="#resumo">Resumo</a>
+      <a href="#relacionamentos">Relacionamentos</a>
+      <a href="#views">Views</a>
+      <a href="#tabelas">Tabelas</a>
+    </nav>
+  </header>
+  <main>
+    <section class="panel" id="guia">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Guia de leitura</p>
+          <h2>Como este banco esta organizado</h2>
+        </div>
+      </div>
+      <div class="story-grid">
+        <div class="story-card">
+          <h3>1. Competicao e edicoes</h3>
+          <p><code>competicao</code> define a Copa do Mundo; <code>edicao</code> guarda cada ano, sede, campeao, vice, top 4 e totais.</p>
+        </div>
+        <div class="story-card">
+          <h3>2. Selecoes e participacoes</h3>
+          <p><code>selecao</code> e a dimensao de pais/time; <code>participacao_edicao</code> registra campanha, grupo, posicao, pontos e gols.</p>
+        </div>
+        <div class="story-card">
+          <h3>3. Partidas e eventos</h3>
+          <p><code>partida</code> guarda o jogo; <code>gol</code> guarda cada gol. Em gol contra, ha selecao creditada e selecao autora.</p>
+        </div>
+        <div class="story-card">
+          <h3>4. Pessoas e identidade</h3>
+          <p><code>pessoa</code> e contextual por selecao; <code>identidade_pessoa</code> une casos globais sem perder a estatistica por selecao.</p>
+        </div>
+      </div>
+      <div class="flow">
+        <div><strong>edicao</strong> ano, sede, campeao</div>
+        <div><strong>fase / grupo</strong> estrutura do torneio</div>
+        <div><strong>partida</strong> placar, data, estadio</div>
+        <div><strong>gol</strong> autor, minuto, tipo</div>
+        <div><strong>escalacao</strong> titulares e reservas</div>
+      </div>
+      <div class="callout">
+        O banco foi desenhado para responder perguntas analiticas. Exemplo: "quem fez mais gols na historia das Copas?"
+        A resposta vem de <code>gol</code> + <code>pessoa</code> + <code>identidade_pessoa</code>, filtrando <code>gol_contra</code>.
+      </div>
+    </section>
+
+    <section class="panel" id="perguntas">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Consultas prontas</p>
+          <h2>Perguntas que o banco ja responde</h2>
+        </div>
+      </div>
+      <div class="story-grid">
+        <div class="story-card"><h3>Artilheiros historicos</h3><p>Soma gols por identidade global, evitando separar o mesmo jogador por alias.</p></div>
+        <div class="story-card"><h3>Campanha de uma selecao</h3><p>Junta participacao, grupos, partidas, gols e classificacao final.</p></div>
+        <div class="story-card"><h3>Detalhe de uma partida</h3><p>Combina placar, estadio, publico, arbitro, gols e escalacoes.</p></div>
+        <div class="story-card"><h3>Auditoria de nomes</h3><p>Mostra aliases que ainda precisam de revisao humana ou cruzamento externo.</p></div>
+      </div>
+      <h3>Top artilheiros historicos, recorte fechado 1930-2022</h3>
+      <div class="table-wrap "><table><thead><tr><th>Jogador</th><th>Selecao</th><th>Gols</th><th>Primeira copa com gol</th><th>Ultima copa com gol</th></tr></thead><tbody><tr><td>Klose</td><td>Alemanha</td><td>16</td><td>2002</td><td>2014</td></tr><tr><td>Ronaldo</td><td>Brasil</td><td>15</td><td>1998</td><td>2006</td></tr><tr><td>Gerd Müller</td><td>Alemanha</td><td>14</td><td>1970</td><td>1974</td></tr><tr><td>Fontaine</td><td>França</td><td>13</td><td>1958</td><td>1958</td></tr><tr><td>Messi</td><td>Argentina</td><td>13</td><td>2006</td><td>2022</td></tr><tr><td>Mbappé</td><td>França</td><td>12</td><td>2018</td><td>2022</td></tr><tr><td>Pelé</td><td>Brasil</td><td>12</td><td>1958</td><td>1970</td></tr><tr><td>Klinsmann</td><td>Alemanha</td><td>11</td><td>1990</td><td>1998</td></tr><tr><td>Kocsis</td><td>Hungria</td><td>11</td><td>1954</td><td>1954</td></tr><tr><td>Batistuta</td><td>Argentina</td><td>10</td><td>1994</td><td>2002</td></tr><tr><td>Cubillas</td><td>Peru</td><td>10</td><td>1970</td><td>1978</td></tr><tr><td>Gary Lineker</td><td>Inglaterra</td><td>10</td><td>1986</td><td>1990</td></tr><tr><td>Grzegorz Lato</td><td>Polônia</td><td>10</td><td>1974</td><td>1982</td></tr><tr><td>Rahn</td><td>Alemanha</td><td>10</td><td>1954</td><td>1958</td></tr><tr><td>Thomas Müller</td><td>Alemanha</td><td>10</td><td>2010</td><td>2014</td></tr><tr><td>Ademir</td><td>Brasil</td><td>9</td><td>1950</td><td>1950</td></tr><tr><td>Eusébio</td><td>Portugal</td><td>9</td><td>1966</td><td>1966</td></tr><tr><td>Jairzinho</td><td>Brasil</td><td>9</td><td>1970</td><td>1974</td></tr><tr><td>Paolo Rossi</td><td>Itália</td><td>9</td><td>1978</td><td>1982</td></tr><tr><td>Roberto Baggio</td><td>Itália</td><td>9</td><td>1990</td><td>1998</td></tr></tbody></table></div>
+      <div class="callout">
+        Este recorte e o mais adequado para comparar com rankings historicos fechados. Depois da correcao do parser da final de 2002,
+        o topo calculado pelo banco retorna Klose 16, Ronaldo 15, Gerd Muller 14, Fontaine 13, Messi 13, Mbappe 12 e Pele 12.
+      </div>
+      <h3>Top artilheiros incluindo 2026 em andamento</h3>
+      <div class="table-wrap "><table><thead><tr><th>Jogador</th><th>Selecao</th><th>Gols</th><th>Primeira copa com gol</th><th>Ultima copa com gol</th></tr></thead><tbody><tr><td>Messi</td><td>Argentina</td><td>20</td><td>2006</td><td>2026</td></tr><tr><td>Mbappé</td><td>França</td><td>19</td><td>2018</td><td>2026</td></tr><tr><td>Klose</td><td>Alemanha</td><td>16</td><td>2002</td><td>2014</td></tr><tr><td>Ronaldo</td><td>Brasil</td><td>15</td><td>1998</td><td>2006</td></tr><tr><td>Gerd Müller</td><td>Alemanha</td><td>14</td><td>1970</td><td>1974</td></tr><tr><td>Fontaine</td><td>França</td><td>13</td><td>1958</td><td>1958</td></tr><tr><td>Kane</td><td>Inglaterra</td><td>13</td><td>2018</td><td>2026</td></tr><tr><td>Pelé</td><td>Brasil</td><td>12</td><td>1958</td><td>1970</td></tr><tr><td>Cristiano Ronaldo</td><td>Portugal</td><td>11</td><td>2006</td><td>2026</td></tr><tr><td>Klinsmann</td><td>Alemanha</td><td>11</td><td>1990</td><td>1998</td></tr><tr><td>Kocsis</td><td>Hungria</td><td>11</td><td>1954</td><td>1954</td></tr><tr><td>Batistuta</td><td>Argentina</td><td>10</td><td>1994</td><td>2002</td></tr><tr><td>Cubillas</td><td>Peru</td><td>10</td><td>1970</td><td>1978</td></tr><tr><td>Gary Lineker</td><td>Inglaterra</td><td>10</td><td>1986</td><td>1990</td></tr><tr><td>Grzegorz Lato</td><td>Polônia</td><td>10</td><td>1974</td><td>1982</td></tr><tr><td>Rahn</td><td>Alemanha</td><td>10</td><td>1954</td><td>1958</td></tr><tr><td>Thomas Müller</td><td>Alemanha</td><td>10</td><td>2010</td><td>2014</td></tr><tr><td>Ademir</td><td>Brasil</td><td>9</td><td>1950</td><td>1950</td></tr><tr><td>Eusébio</td><td>Portugal</td><td>9</td><td>1966</td><td>1966</td></tr><tr><td>Jairzinho</td><td>Brasil</td><td>9</td><td>1970</td><td>1974</td></tr></tbody></table></div>
+      <div class="callout">
+        Como 2026 esta em andamento no payload deste projeto, este ranking e operacional e muda conforme o cache for atualizado.
+        Para comparacao historica consolidada, use o recorte ate 2022.
+      </div>
+    </section>
+
+    <section id="resumo">
+      <h2>Resumo das tabelas</h2>
+      <p>Cada card mostra a quantidade de linhas e leva ao detalhe da tabela.</p>
+      <div class="grid">
+            <a class="metric" href="#tbl-alias_pessoa">
+              <span>alias_pessoa</span>
+              <strong>5.540</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-alias_selecao">
+              <span>alias_selecao</span>
+              <strong>89</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-auditoria_identidade">
+              <span>auditoria_identidade</span>
+              <strong>86</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-comando_tecnico">
+              <span>comando_tecnico</span>
+              <strong>802</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-competicao">
+              <span>competicao</span>
+              <strong>1</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-edicao">
+              <span>edicao</span>
+              <strong>23</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-escalacao">
+              <span>escalacao</span>
+              <strong>9.273</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-estadio">
+              <span>estadio</span>
+              <strong>308</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-fase">
+              <span>fase</span>
+              <strong>113</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-fonte">
+              <span>fonte</span>
+              <strong>4</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-gol">
+              <span>gol</span>
+              <strong>2.983</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-grupo">
+              <span>grupo</span>
+              <strong>137</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-identidade_pessoa">
+              <span>identidade_pessoa</span>
+              <strong>5.034</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-participacao_edicao">
+              <span>participacao_edicao</span>
+              <strong>537</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-partida">
+              <span>partida</span>
+              <strong>1.060</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-pessoa">
+              <span>pessoa</span>
+              <strong>5.031</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-premiacao">
+              <span>premiacao</span>
+              <strong>0</strong>
+              <small>linhas</small>
+            </a>
+            
+            <a class="metric" href="#tbl-selecao">
+              <span>selecao</span>
+              <strong>89</strong>
+              <small>linhas</small>
+            </a>
+            </div>
+    </section>
+
+    <section class="panel" id="relacionamentos">
+      <div class="panel-head">
+        <div>
+          <p class="eyebrow">Modelo relacional</p>
+          <h2>Chaves estrangeiras</h2>
+        </div>
+        <div class="badge">49 relacoes</div>
+      </div>
+      <div class="table-wrap "><table><thead><tr><th>Tabela origem</th><th>Coluna</th><th>Tabela destino</th><th>Coluna destino</th></tr></thead><tbody><tr><td>alias_pessoa</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>alias_pessoa</td><td>selecao_contexto_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>alias_pessoa</td><td>pessoa_id</td><td>pessoa</td><td>pessoa_id</td></tr><tr><td>alias_selecao</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>alias_selecao</td><td>selecao_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>auditoria_identidade</td><td>fonte_cruzamento_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>auditoria_identidade</td><td>fonte_primaria_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>comando_tecnico</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>comando_tecnico</td><td>pessoa_id</td><td>pessoa</td><td>pessoa_id</td></tr><tr><td>comando_tecnico</td><td>selecao_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>comando_tecnico</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr><tr><td>comando_tecnico</td><td>partida_id</td><td>partida</td><td>partida_id</td></tr><tr><td>edicao</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>edicao</td><td>quarto_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>edicao</td><td>terceiro_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>edicao</td><td>vice_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>edicao</td><td>campeao_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>edicao</td><td>competicao_id</td><td>competicao</td><td>competicao_id</td></tr><tr><td>escalacao</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>escalacao</td><td>pessoa_id</td><td>pessoa</td><td>pessoa_id</td></tr><tr><td>escalacao</td><td>selecao_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>escalacao</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr><tr><td>escalacao</td><td>partida_id</td><td>partida</td><td>partida_id</td></tr><tr><td>fase</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr><tr><td>gol</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>gol</td><td>pessoa_id</td><td>pessoa</td><td>pessoa_id</td></tr><tr><td>gol</td><td>selecao_autor_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>gol</td><td>selecao_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>gol</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr><tr><td>gol</td><td>partida_id</td><td>partida</td><td>partida_id</td></tr><tr><td>grupo</td><td>fase_id</td><td>fase</td><td>fase_id</td></tr><tr><td>grupo</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr><tr><td>participacao_edicao</td><td>selecao_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>participacao_edicao</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr><tr><td>partida</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>partida</td><td>arbitro_id</td><td>pessoa</td><td>pessoa_id</td></tr><tr><td>partida</td><td>vencedor_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>partida</td><td>selecao_2_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>partida</td><td>selecao_1_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>partida</td><td>estadio_id</td><td>estadio</td><td>estadio_id</td></tr><tr><td>partida</td><td>grupo_id</td><td>grupo</td><td>grupo_id</td></tr><tr><td>partida</td><td>fase_id</td><td>fase</td><td>fase_id</td></tr><tr><td>partida</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr><tr><td>pessoa</td><td>selecao_principal_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>pessoa</td><td>identidade_pessoa_id</td><td>identidade_pessoa</td><td>identidade_pessoa_id</td></tr><tr><td>premiacao</td><td>fonte_id</td><td>fonte</td><td>fonte_id</td></tr><tr><td>premiacao</td><td>selecao_id</td><td>selecao</td><td>selecao_id</td></tr><tr><td>premiacao</td><td>pessoa_id</td><td>pessoa</td><td>pessoa_id</td></tr><tr><td>premiacao</td><td>edicao_id</td><td>edicao</td><td>edicao_id</td></tr></tbody></table></div>
+      <h3>Mapa rapido</h3>
+      <div class="relationship-map">
+        <div class="edge"><strong>alias_pessoa.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>alias_pessoa.selecao_contexto_id</strong> → selecao.selecao_id</div><div class="edge"><strong>alias_pessoa.pessoa_id</strong> → pessoa.pessoa_id</div><div class="edge"><strong>alias_selecao.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>alias_selecao.selecao_id</strong> → selecao.selecao_id</div><div class="edge"><strong>auditoria_identidade.fonte_cruzamento_id</strong> → fonte.fonte_id</div><div class="edge"><strong>auditoria_identidade.fonte_primaria_id</strong> → fonte.fonte_id</div><div class="edge"><strong>comando_tecnico.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>comando_tecnico.pessoa_id</strong> → pessoa.pessoa_id</div><div class="edge"><strong>comando_tecnico.selecao_id</strong> → selecao.selecao_id</div><div class="edge"><strong>comando_tecnico.edicao_id</strong> → edicao.edicao_id</div><div class="edge"><strong>comando_tecnico.partida_id</strong> → partida.partida_id</div><div class="edge"><strong>edicao.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>edicao.quarto_id</strong> → selecao.selecao_id</div><div class="edge"><strong>edicao.terceiro_id</strong> → selecao.selecao_id</div><div class="edge"><strong>edicao.vice_id</strong> → selecao.selecao_id</div><div class="edge"><strong>edicao.campeao_id</strong> → selecao.selecao_id</div><div class="edge"><strong>edicao.competicao_id</strong> → competicao.competicao_id</div><div class="edge"><strong>escalacao.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>escalacao.pessoa_id</strong> → pessoa.pessoa_id</div><div class="edge"><strong>escalacao.selecao_id</strong> → selecao.selecao_id</div><div class="edge"><strong>escalacao.edicao_id</strong> → edicao.edicao_id</div><div class="edge"><strong>escalacao.partida_id</strong> → partida.partida_id</div><div class="edge"><strong>fase.edicao_id</strong> → edicao.edicao_id</div><div class="edge"><strong>gol.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>gol.pessoa_id</strong> → pessoa.pessoa_id</div><div class="edge"><strong>gol.selecao_autor_id</strong> → selecao.selecao_id</div><div class="edge"><strong>gol.selecao_id</strong> → selecao.selecao_id</div><div class="edge"><strong>gol.edicao_id</strong> → edicao.edicao_id</div><div class="edge"><strong>gol.partida_id</strong> → partida.partida_id</div><div class="edge"><strong>grupo.fase_id</strong> → fase.fase_id</div><div class="edge"><strong>grupo.edicao_id</strong> → edicao.edicao_id</div><div class="edge"><strong>participacao_edicao.selecao_id</strong> → selecao.selecao_id</div><div class="edge"><strong>participacao_edicao.edicao_id</strong> → edicao.edicao_id</div><div class="edge"><strong>partida.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>partida.arbitro_id</strong> → pessoa.pessoa_id</div><div class="edge"><strong>partida.vencedor_id</strong> → selecao.selecao_id</div><div class="edge"><strong>partida.selecao_2_id</strong> → selecao.selecao_id</div><div class="edge"><strong>partida.selecao_1_id</strong> → selecao.selecao_id</div><div class="edge"><strong>partida.estadio_id</strong> → estadio.estadio_id</div><div class="edge"><strong>partida.grupo_id</strong> → grupo.grupo_id</div><div class="edge"><strong>partida.fase_id</strong> → fase.fase_id</div><div class="edge"><strong>partida.edicao_id</strong> → edicao.edicao_id</div><div class="edge"><strong>pessoa.selecao_principal_id</strong> → selecao.selecao_id</div><div class="edge"><strong>pessoa.identidade_pessoa_id</strong> → identidade_pessoa.identidade_pessoa_id</div><div class="edge"><strong>premiacao.fonte_id</strong> → fonte.fonte_id</div><div class="edge"><strong>premiacao.selecao_id</strong> → selecao.selecao_id</div><div class="edge"><strong>premiacao.pessoa_id</strong> → pessoa.pessoa_id</div><div class="edge"><strong>premiacao.edicao_id</strong> → edicao.edicao_id</div>
+      </div>
+    </section>
+
+    <section id="views">
+      <h2>Views</h2>
+      <p>Consultas prontas criadas no schema.</p>
+      
+            <section class="panel" id="view-vw_gols_por_jogador">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">View</p>
+                  <h2>vw_gols_por_jogador</h2>
+                </div>
+              </div>
+              <pre>CREATE VIEW vw_gols_por_jogador AS
+SELECT
+    p.pessoa_id,
+    p.nome AS jogador,
+    s.nome AS selecao,
+    e.ano,
+    COUNT(*) AS gols
+FROM gol g
+JOIN pessoa p ON p.pessoa_id = g.pessoa_id
+JOIN selecao s ON s.selecao_id = COALESCE(g.selecao_autor_id, g.selecao_id)
+JOIN edicao e ON e.edicao_id = g.edicao_id
+WHERE g.tipo &lt;&gt; &#x27;gol_contra&#x27;
+GROUP BY p.pessoa_id, p.nome, s.nome, e.ano</pre>
+              <h3>Amostra</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>pessoa_id</th><th>jogador</th><th>selecao</th><th>ano</th><th>gols</th></tr></thead><tbody><tr><td>2</td><td>L. Laurent</td><td>França</td><td>1930</td><td>1</td></tr><tr><td>3</td><td>Langiller</td><td>França</td><td>1930</td><td>1</td></tr><tr><td>4</td><td>Maschinot</td><td>França</td><td>1930</td><td>2</td></tr><tr><td>5</td><td>Carreño</td><td>México</td><td>1930</td><td>1</td></tr><tr><td>31</td><td>Monti</td><td>Argentina</td><td>1930</td><td>2</td></tr><tr><td>45</td><td>Carlos Vidal</td><td>Chile</td><td>1930</td><td>2</td></tr><tr><td>46</td><td>M. Rosas</td><td>México</td><td>1930</td><td>2</td></tr><tr><td>61</td><td>Subiabre</td><td>Chile</td><td>1930</td><td>2</td></tr><tr><td>68</td><td>Stábile</td><td>Argentina</td><td>1930</td><td>8</td></tr><tr><td>69</td><td>Zumelzú</td><td>Argentina</td><td>1930</td><td>2</td></tr><tr><td>70</td><td>Varallo</td><td>Argentina</td><td>1930</td><td>1</td></tr><tr><td>71</td><td>Gayón</td><td>México</td><td>1930</td><td>1</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="view-vw_gols_por_jogador_global">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">View</p>
+                  <h2>vw_gols_por_jogador_global</h2>
+                </div>
+              </div>
+              <pre>CREATE VIEW vw_gols_por_jogador_global AS
+SELECT
+    ip.identidade_pessoa_id,
+    ip.nome_canonico AS jogador,
+    s.nome AS selecao,
+    e.ano,
+    COUNT(*) AS gols
+FROM gol g
+JOIN pessoa p ON p.pessoa_id = g.pessoa_id
+JOIN identidade_pessoa ip ON ip.identidade_pessoa_id = p.identidade_pessoa_id
+JOIN selecao s ON s.selecao_id = COALESCE(g.selecao_autor_id, g.selecao_id)
+JOIN edicao e ON e.edicao_id = g.edicao_id
+WHERE g.tipo &lt;&gt; &#x27;gol_contra&#x27;
+GROUP BY ip.identidade_pessoa_id, ip.nome_canonico, s.nome, e.ano</pre>
+              <h3>Amostra</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>identidade_pessoa_id</th><th>jogador</th><th>selecao</th><th>ano</th><th>gols</th></tr></thead><tbody><tr><td>2</td><td>L. Laurent</td><td>França</td><td>1930</td><td>1</td></tr><tr><td>3</td><td>Langiller</td><td>França</td><td>1930</td><td>1</td></tr><tr><td>4</td><td>Maschinot</td><td>França</td><td>1930</td><td>2</td></tr><tr><td>5</td><td>Carreño</td><td>México</td><td>1930</td><td>1</td></tr><tr><td>31</td><td>Monti</td><td>Argentina</td><td>1930</td><td>2</td></tr><tr><td>45</td><td>Carlos Vidal</td><td>Chile</td><td>1930</td><td>2</td></tr><tr><td>46</td><td>M. Rosas</td><td>México</td><td>1930</td><td>2</td></tr><tr><td>61</td><td>Subiabre</td><td>Chile</td><td>1930</td><td>2</td></tr><tr><td>68</td><td>Stábile</td><td>Argentina</td><td>1930</td><td>8</td></tr><tr><td>69</td><td>Zumelzú</td><td>Argentina</td><td>1930</td><td>2</td></tr><tr><td>70</td><td>Varallo</td><td>Argentina</td><td>1930</td><td>1</td></tr><tr><td>71</td><td>Gayón</td><td>México</td><td>1930</td><td>1</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="view-vw_partidas_resumo">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">View</p>
+                  <h2>vw_partidas_resumo</h2>
+                </div>
+              </div>
+              <pre>CREATE VIEW vw_partidas_resumo AS
+SELECT
+    e.ano,
+    f.nome AS fase,
+    gr.nome AS grupo,
+    p.data_texto,
+    s1.nome AS selecao_1,
+    p.placar_texto,
+    s2.nome AS selecao_2,
+    est.nome AS estadio,
+    p.publico
+FROM partida p
+JOIN edicao e ON e.edicao_id = p.edicao_id
+LEFT JOIN fase f ON f.fase_id = p.fase_id
+LEFT JOIN grupo gr ON gr.grupo_id = p.grupo_id
+JOIN selecao s1 ON s1.selecao_id = p.selecao_1_id
+JOIN selecao s2 ON s2.selecao_id = p.selecao_2_id
+LEFT JOIN estadio est ON est.estadio_id = p.estadio_id</pre>
+              <h3>Amostra</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>ano</th><th>fase</th><th>grupo</th><th>data_texto</th><th>selecao_1</th><th>placar_texto</th><th>selecao_2</th><th>estadio</th><th>publico</th></tr></thead><tbody><tr><td>1930</td><td>Fase de grupos</td><td>Grupo A</td><td>13 de julho</td><td>França</td><td>4 - 1</td><td>México</td><td>Estádio Pocitos</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo A</td><td>15 de julho</td><td>Argentina</td><td>1 - 0</td><td>França</td><td>Estadio Parque Central</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo A</td><td>16 de julho</td><td>Chile</td><td>3 - 0</td><td>México</td><td>Estadio Parque Central</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo A</td><td>19 de julho</td><td>Chile</td><td>1 - 0</td><td>França</td><td>Estádio Centenário</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo A</td><td>19 de julho</td><td>Argentina</td><td>6 - 3</td><td>México</td><td>Estádio Centenário</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo A</td><td>22 de julho</td><td>Argentina</td><td>3 - 1</td><td>Chile</td><td>Estádio Centenário</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo B</td><td>14 de julho</td><td>Iugoslávia</td><td>2 - 1</td><td>Brasil</td><td>Estadio Parque Central</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo B</td><td>17 de julho</td><td>Iugoslávia</td><td>4 - 0</td><td>Bolívia</td><td>Estadio Parque Central</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo B</td><td>20 de julho</td><td>Brasil</td><td>4 - 0</td><td>Bolívia</td><td>Estádio Centenário</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo C</td><td>14 de julho</td><td>Romênia</td><td>3 - 1</td><td>Peru</td><td>Estádio Pocitos</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo C</td><td>18 de julho</td><td>Uruguai</td><td>1 - 0</td><td>Peru</td><td>Estádio Centenário</td><td><span class="null">NULL</span></td></tr><tr><td>1930</td><td>Fase de grupos</td><td>Grupo C</td><td>21 de julho</td><td>Uruguai</td><td>4 - 0</td><td>Romênia</td><td>Estádio Centenário</td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+    </section>
+
+    <section id="tabelas">
+      <h2>Tabelas, colunas e conteudo</h2>
+      <p>Amostras limitadas a 12 linhas por tabela para manter a pagina leve.</p>
+      
+            <section class="panel" id="tbl-alias_pessoa">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>alias_pessoa</h2>
+                </div>
+                <div class="badge">5.540 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>alias_pessoa_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>alias</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>alias_normalizado</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>pessoa_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>pessoa.pessoa_id</td></tr><tr><td>selecao_contexto_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>papel</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr><tr><td>confianca</td><td>TEXT</td><td>nao</td><td>sim</td><td>&#x27;media&#x27;</td><td></td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_alias_pessoa_1</td><td>sim</td><td>u</td><td>nao</td><td>alias_normalizado. pessoa_id. selecao_contexto_id. papel</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>alias_pessoa_id</th><th>alias</th><th>alias_normalizado</th><th>pessoa_id</th><th>selecao_contexto_id</th><th>papel</th><th>fonte_id</th><th>confianca</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>Domingo Lombardi</td><td>domingolombardi</td><td>1</td><td><span class="null">NULL</span></td><td>arbitro</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>2</td><td>L. Laurent</td><td>llaurent</td><td>2</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>3</td><td>Langiller</td><td>langiller</td><td>3</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>4</td><td>Maschinot</td><td>maschinot</td><td>4</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>6</td><td>Carreño</td><td>carreno</td><td>5</td><td>13</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>7</td><td>Alex Thépot</td><td>alexthepot</td><td>6</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>8</td><td>Étienne Mattler</td><td>etiennemattler</td><td>7</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>9</td><td>Marcel Capelle</td><td>marcelcapelle</td><td>8</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>10</td><td>Augustin Chantrel</td><td>augustinchantrel</td><td>9</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>11</td><td>Alexandre Villaplane</td><td>alexandrevillaplane</td><td>10</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>12</td><td>Edmond Delfour</td><td>edmonddelfour</td><td>11</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr><tr><td>13</td><td>Marcel Pinel</td><td>marcelpinel</td><td>12</td><td>7</td><td>jogador</td><td>1</td><td>media</td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-alias_selecao">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>alias_selecao</h2>
+                </div>
+                <div class="badge">89 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>alias</td><td>TEXT</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>alias_normalizado</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>selecao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>selecao.selecao_id</td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_alias_selecao_1</td><td>sim</td><td>pk</td><td>nao</td><td>alias</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>alias</th><th>alias_normalizado</th><th>selecao_id</th><th>fonte_id</th><th>observacao</th></tr></thead><tbody><tr><td>Uruguai</td><td>uruguai</td><td>1</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Argentina</td><td>argentina</td><td>2</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Estados Unidos</td><td>estadosunidos</td><td>3</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Iugoslávia</td><td>iugoslavia</td><td>4</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Chile</td><td>chile</td><td>5</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Brasil</td><td>brasil</td><td>6</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>França</td><td>franca</td><td>7</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Romênia</td><td>romenia</td><td>8</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Paraguai</td><td>paraguai</td><td>9</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Peru</td><td>peru</td><td>10</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Bélgica</td><td>belgica</td><td>11</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>Bolívia</td><td>bolivia</td><td>12</td><td>1</td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-auditoria_identidade">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>auditoria_identidade</h2>
+                </div>
+                <div class="badge">86 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>auditoria_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>tipo_entidade</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>chave</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>descricao</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>severidade</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>status</td><td>TEXT</td><td>nao</td><td>sim</td><td>&#x27;pendente&#x27;</td><td></td></tr><tr><td>fonte_primaria_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr><tr><td>fonte_cruzamento_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <p class="empty">Sem indices explicitos.</p>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>auditoria_id</th><th>tipo_entidade</th><th>chave</th><th>descricao</th><th>severidade</th><th>status</th><th>fonte_primaria_id</th><th>fonte_cruzamento_id</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>pessoa</td><td>abelaguilar</td><td>Mesmo alias normalizado aponta para 2 pessoas: Abel Aguilar</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>2</td><td>pessoa</td><td>aguero</td><td>Mesmo alias normalizado aponta para 2 pessoas: Aguero</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>3</td><td>pessoa</td><td>albert</td><td>Mesmo alias normalizado aponta para 2 pessoas: Albert</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>4</td><td>pessoa</td><td>alvarez</td><td>Mesmo alias normalizado aponta para 2 pessoas: Álvarez</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>5</td><td>pessoa</td><td>ayala</td><td>Mesmo alias normalizado aponta para 2 pessoas: Ayala</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>6</td><td>pessoa</td><td>bertvanmarwijk</td><td>Mesmo alias normalizado aponta para 2 pessoas: Bert van Marwijk</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>7</td><td>pessoa</td><td>brown</td><td>Mesmo alias normalizado aponta para 3 pessoas: Brown</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>8</td><td>pessoa</td><td>campbell</td><td>Mesmo alias normalizado aponta para 2 pessoas: Campbell</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>9</td><td>pessoa</td><td>campos</td><td>Mesmo alias normalizado aponta para 2 pessoas: Campos</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>10</td><td>pessoa</td><td>carlosalbertoparreira</td><td>Mesmo alias normalizado aponta para 2 pessoas: Carlos Alberto Parreira</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>11</td><td>pessoa</td><td>carlosqueiroz</td><td>Mesmo alias normalizado aponta para 2 pessoas: Carlos Queiroz</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr><tr><td>12</td><td>pessoa</td><td>carlossanchez</td><td>Mesmo alias normalizado aponta para 2 pessoas: Carlos Sánchez</td><td>media</td><td>revisar</td><td>1</td><td>4</td><td>Pode ser correto quando seleções/contextos diferentes usam o mesmo apelido. ex.: Ronaldo Brasil x Cristiano Ronaldo Portugal.</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-comando_tecnico">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>comando_tecnico</h2>
+                </div>
+                <div class="badge">802 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>comando_tecnico_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>partida_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>partida.partida_id</td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>selecao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>selecao.selecao_id</td></tr><tr><td>pessoa_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>pessoa.pessoa_id</td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_comando_tecnico_1</td><td>sim</td><td>u</td><td>nao</td><td>partida_id. selecao_id. pessoa_id</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>comando_tecnico_id</th><th>partida_id</th><th>edicao_id</th><th>selecao_id</th><th>pessoa_id</th><th>fonte_id</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>7</td><td>17</td><td>1</td></tr><tr><td>2</td><td>1</td><td>1</td><td>13</td><td>29</td><td>1</td></tr><tr><td>3</td><td>2</td><td>1</td><td>2</td><td>43</td><td>1</td></tr><tr><td>4</td><td>2</td><td>1</td><td>7</td><td>17</td><td>1</td></tr><tr><td>5</td><td>3</td><td>1</td><td>5</td><td>57</td><td>1</td></tr><tr><td>6</td><td>3</td><td>1</td><td>13</td><td>29</td><td>1</td></tr><tr><td>7</td><td>4</td><td>1</td><td>5</td><td>57</td><td>1</td></tr><tr><td>8</td><td>4</td><td>1</td><td>7</td><td>17</td><td>1</td></tr><tr><td>9</td><td>5</td><td>1</td><td>2</td><td>43</td><td>1</td></tr><tr><td>10</td><td>5</td><td>1</td><td>13</td><td>29</td><td>1</td></tr><tr><td>11</td><td>6</td><td>1</td><td>2</td><td>43</td><td>1</td></tr><tr><td>12</td><td>6</td><td>1</td><td>5</td><td>57</td><td>1</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-competicao">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>competicao</h2>
+                </div>
+                <div class="badge">1 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>competicao_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>nome</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>organizacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>tipo</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_competicao_1</td><td>sim</td><td>u</td><td>nao</td><td>nome</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>competicao_id</th><th>nome</th><th>organizacao</th><th>tipo</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>Copa do Mundo FIFA</td><td>FIFA</td><td>seleções</td><td>Banco relacional gerado a partir do dashboard das Copas.</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-edicao">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>edicao</h2>
+                </div>
+                <div class="badge">23 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>edicao_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>competicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>competicao.competicao_id</td></tr><tr><td>ano</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>sede</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>campeao_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>vice_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>terceiro_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>quarto_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>jogos</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>gols</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>publico_total</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>status</td><td>TEXT</td><td>nao</td><td>sim</td><td>&#x27;realizada&#x27;</td><td></td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr><tr><td>url</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_edicao_1</td><td>sim</td><td>u</td><td>nao</td><td>ano</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>edicao_id</th><th>competicao_id</th><th>ano</th><th>sede</th><th>campeao_id</th><th>vice_id</th><th>terceiro_id</th><th>quarto_id</th><th>jogos</th><th>gols</th><th>publico_total</th><th>status</th><th>fonte_id</th><th>url</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1930</td><td>Uruguai</td><td>1</td><td>2</td><td>3</td><td>4</td><td>18</td><td>70</td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1930</td></tr><tr><td>2</td><td>1</td><td>1934</td><td>Itália</td><td>14</td><td>15</td><td>16</td><td>17</td><td>16</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1934</td></tr><tr><td>3</td><td>1</td><td>1938</td><td>França</td><td>14</td><td>19</td><td>6</td><td>21</td><td>19</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1938</td></tr><tr><td>4</td><td>1</td><td>1950</td><td>Brasil</td><td>1</td><td>6</td><td>21</td><td>18</td><td>22</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1950</td></tr><tr><td>5</td><td>1</td><td>1954</td><td>Suíça</td><td>16</td><td>19</td><td>17</td><td>1</td><td>26</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1954</td></tr><tr><td>6</td><td>1</td><td>1958</td><td>Suécia</td><td>6</td><td>21</td><td>7</td><td>16</td><td>35</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1958</td></tr><tr><td>7</td><td>1</td><td>1962</td><td>Chile</td><td>6</td><td>15</td><td>5</td><td>4</td><td>32</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1962</td></tr><tr><td>8</td><td>1</td><td>1966</td><td>Inglaterra</td><td>28</td><td>16</td><td>37</td><td>33</td><td>32</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1966</td></tr><tr><td>9</td><td>1</td><td>1970</td><td>México</td><td>6</td><td>14</td><td>16</td><td>1</td><td>32</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1970</td></tr><tr><td>10</td><td>1</td><td>1974</td><td>Alemanha</td><td>16</td><td>22</td><td>25</td><td>6</td><td>38</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1974</td></tr><tr><td>11</td><td>1</td><td>1978</td><td>Argentina</td><td>2</td><td>22</td><td>6</td><td>14</td><td>38</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1978</td></tr><tr><td>12</td><td>1</td><td>1982</td><td>Espanha</td><td>14</td><td>16</td><td>25</td><td>7</td><td>52</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>realizada</td><td>1</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA_de_1982</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-escalacao">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>escalacao</h2>
+                </div>
+                <div class="badge">9.273 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>escalacao_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>partida_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>partida.partida_id</td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>selecao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>selecao.selecao_id</td></tr><tr><td>pessoa_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>pessoa.pessoa_id</td></tr><tr><td>numero</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>posicao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>situacao</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>ordem</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>idx_escalacao_pessoa</td><td>nao</td><td>c</td><td>nao</td><td>pessoa_id</td></tr><tr><td>idx_escalacao_partida</td><td>nao</td><td>c</td><td>nao</td><td>partida_id</td></tr><tr><td>sqlite_autoindex_escalacao_1</td><td>sim</td><td>u</td><td>nao</td><td>partida_id. selecao_id. pessoa_id. situacao. ordem</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>escalacao_id</th><th>partida_id</th><th>edicao_id</th><th>selecao_id</th><th>pessoa_id</th><th>numero</th><th>posicao</th><th>situacao</th><th>ordem</th><th>fonte_id</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>7</td><td>6</td><td>1</td><td>GK</td><td>titular</td><td>1</td><td>1</td></tr><tr><td>2</td><td>1</td><td>1</td><td>7</td><td>7</td><td>2</td><td>FB</td><td>titular</td><td>2</td><td>1</td></tr><tr><td>3</td><td>1</td><td>1</td><td>7</td><td>8</td><td>3</td><td>FB</td><td>titular</td><td>3</td><td>1</td></tr><tr><td>4</td><td>1</td><td>1</td><td>7</td><td>9</td><td>4</td><td>HB</td><td>titular</td><td>4</td><td>1</td></tr><tr><td>5</td><td>1</td><td>1</td><td>7</td><td>10</td><td>5</td><td>HB</td><td>titular</td><td>5</td><td>1</td></tr><tr><td>6</td><td>1</td><td>1</td><td>7</td><td>11</td><td>6</td><td>HB</td><td>titular</td><td>6</td><td>1</td></tr><tr><td>7</td><td>1</td><td>1</td><td>7</td><td>12</td><td>7</td><td>FW</td><td>titular</td><td>7</td><td>1</td></tr><tr><td>8</td><td>1</td><td>1</td><td>7</td><td>13</td><td>8</td><td>FW</td><td>titular</td><td>8</td><td>1</td></tr><tr><td>9</td><td>1</td><td>1</td><td>7</td><td>14</td><td>9</td><td>FW</td><td>titular</td><td>9</td><td>1</td></tr><tr><td>10</td><td>1</td><td>1</td><td>7</td><td>15</td><td>10</td><td>FW</td><td>titular</td><td>10</td><td>1</td></tr><tr><td>11</td><td>1</td><td>1</td><td>7</td><td>16</td><td>11</td><td>FW</td><td>titular</td><td>11</td><td>1</td></tr><tr><td>12</td><td>1</td><td>1</td><td>13</td><td>18</td><td>1</td><td>GK</td><td>titular</td><td>1</td><td>1</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-estadio">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>estadio</h2>
+                </div>
+                <div class="badge">308 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>estadio_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>nome</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>cidade</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>pais</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>nome_normalizado</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_estadio_1</td><td>sim</td><td>u</td><td>nao</td><td>nome_normalizado. cidade. pais</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>estadio_id</th><th>nome</th><th>cidade</th><th>pais</th><th>nome_normalizado</th></tr></thead><tbody><tr><td>1</td><td>Estádio Pocitos</td><td>Montevidéu</td><td><span class="null">NULL</span></td><td>estadiopocitos</td></tr><tr><td>2</td><td>Estadio Parque Central</td><td>Montevidéu</td><td><span class="null">NULL</span></td><td>estadioparquecentral</td></tr><tr><td>3</td><td>Estádio Centenário</td><td>Montevidéu</td><td><span class="null">NULL</span></td><td>estadiocentenario</td></tr><tr><td>4</td><td>Stadio Nazionale PNF</td><td>Roma</td><td><span class="null">NULL</span></td><td>stadionazionalepnf</td></tr><tr><td>5</td><td>Stadio Luigi Ferraris</td><td>Gênova</td><td><span class="null">NULL</span></td><td>stadioluigiferraris</td></tr><tr><td>6</td><td>Stadio Benito Mussolini</td><td>Turim</td><td><span class="null">NULL</span></td><td>stadiobenitomussolini</td></tr><tr><td>7</td><td>Estádio Giorgio Ascarelli</td><td>Nápoles</td><td><span class="null">NULL</span></td><td>estadiogiorgioascarelli</td></tr><tr><td>8</td><td>Stadio Littorio</td><td>Trieste</td><td><span class="null">NULL</span></td><td>stadiolittorio</td></tr><tr><td>9</td><td>Stadio San Siro</td><td>Milão</td><td><span class="null">NULL</span></td><td>stadiosansiro</td></tr><tr><td>10</td><td>Stadio Giovanni Berta</td><td>Florença</td><td><span class="null">NULL</span></td><td>stadiogiovanniberta</td></tr><tr><td>11</td><td>Stadio Littorale</td><td>Bolonha</td><td><span class="null">NULL</span></td><td>stadiolittorale</td></tr><tr><td>12</td><td>Estádio San Siro</td><td>Milão</td><td><span class="null">NULL</span></td><td>estadiosansiro</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-fase">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>fase</h2>
+                </div>
+                <div class="badge">113 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>fase_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>nome</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>ordem</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>tipo</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_fase_1</td><td>sim</td><td>u</td><td>nao</td><td>edicao_id. nome</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>fase_id</th><th>edicao_id</th><th>nome</th><th>ordem</th><th>tipo</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>Fase de grupos</td><td>10</td><td>grupos</td><td><span class="null">NULL</span></td></tr><tr><td>2</td><td>1</td><td>Semifinal</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>3</td><td>1</td><td>Final</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>4</td><td>2</td><td>Oitavas de final</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>5</td><td>2</td><td>Quartas de final</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>6</td><td>2</td><td>Semifinal</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>7</td><td>2</td><td>Terceiro lugar</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>8</td><td>2</td><td>Final</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>9</td><td>3</td><td>Oitavas de final</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>10</td><td>3</td><td>Quartas de final</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>11</td><td>3</td><td>Semifinal</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr><tr><td>12</td><td>3</td><td>Terceiro lugar</td><td>50</td><td>mata_mata</td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-fonte">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>fonte</h2>
+                </div>
+                <div class="badge">4 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>fonte_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>nome</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>url</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>tipo</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_fonte_1</td><td>sim</td><td>u</td><td>nao</td><td>nome</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>fonte_id</th><th>nome</th><th>url</th><th>tipo</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>Wikipedia PT</td><td>https://pt.wikipedia.org/wiki/Copa_do_Mundo_FIFA</td><td>primaria</td><td>Fonte usada pelo dashboard e cache local.</td></tr><tr><td>2</td><td>RSSSF</td><td>https://www.rsssf.org/tablesw/worldcup.html</td><td>cruzamento</td><td>Referência independente para placares. rankings. artilheiros e treinadores.</td></tr><tr><td>3</td><td>FIFA</td><td>https://www.fifa.com/en/tournaments/mens/worldcup</td><td>cruzamento</td><td>Fonte oficial da competição.</td></tr><tr><td>4</td><td>Wikidata</td><td>https://www.wikidata.org/</td><td>identidade</td><td>Identificadores estáveis de pessoas e entidades.</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-gol">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>gol</h2>
+                </div>
+                <div class="badge">2.983 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>gol_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>partida_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>partida.partida_id</td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>selecao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>selecao.selecao_id</td></tr><tr><td>selecao_autor_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>pessoa_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>pessoa.pessoa_id</td></tr><tr><td>minuto</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>acrescimo</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>minuto_texto</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>tipo</td><td>TEXT</td><td>nao</td><td>sim</td><td>&#x27;normal&#x27;</td><td></td></tr><tr><td>texto_original</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>idx_gol_selecao_autor</td><td>nao</td><td>c</td><td>nao</td><td>selecao_autor_id</td></tr><tr><td>idx_gol_selecao</td><td>nao</td><td>c</td><td>nao</td><td>selecao_id</td></tr><tr><td>idx_gol_pessoa</td><td>nao</td><td>c</td><td>nao</td><td>pessoa_id</td></tr><tr><td>idx_gol_partida</td><td>nao</td><td>c</td><td>nao</td><td>partida_id</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>gol_id</th><th>partida_id</th><th>edicao_id</th><th>selecao_id</th><th>selecao_autor_id</th><th>pessoa_id</th><th>minuto</th><th>acrescimo</th><th>minuto_texto</th><th>tipo</th><th>texto_original</th><th>fonte_id</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>7</td><td>7</td><td>2</td><td>19</td><td><span class="null">NULL</span></td><td>19&#x27;</td><td>normal</td><td>L. Laurent 19&#x27;</td><td>1</td></tr><tr><td>2</td><td>1</td><td>1</td><td>7</td><td>7</td><td>3</td><td>40</td><td><span class="null">NULL</span></td><td>40&#x27;</td><td>normal</td><td>Langiller 40&#x27;</td><td>1</td></tr><tr><td>3</td><td>1</td><td>1</td><td>7</td><td>7</td><td>4</td><td>43</td><td><span class="null">NULL</span></td><td>43&#x27;</td><td>normal</td><td>Maschinot 43&#x27;</td><td>1</td></tr><tr><td>4</td><td>1</td><td>1</td><td>7</td><td>7</td><td>4</td><td>87</td><td><span class="null">NULL</span></td><td>87&#x27;</td><td>normal</td><td>Maschinot 87&#x27;</td><td>1</td></tr><tr><td>5</td><td>1</td><td>1</td><td>13</td><td>13</td><td>5</td><td>70</td><td><span class="null">NULL</span></td><td>70&#x27;</td><td>normal</td><td>Carreño 70&#x27;</td><td>1</td></tr><tr><td>6</td><td>2</td><td>1</td><td>2</td><td>2</td><td>31</td><td>81</td><td><span class="null">NULL</span></td><td>81&#x27;</td><td>normal</td><td>Monti 81&#x27;</td><td>1</td></tr><tr><td>7</td><td>3</td><td>1</td><td>5</td><td>5</td><td>45</td><td>3</td><td><span class="null">NULL</span></td><td>3&#x27;</td><td>normal</td><td>Carlos Vidal 3&#x27;</td><td>1</td></tr><tr><td>8</td><td>3</td><td>1</td><td>5</td><td>5</td><td>45</td><td>65</td><td><span class="null">NULL</span></td><td>65&#x27;</td><td>normal</td><td>Carlos Vidal 65&#x27;</td><td>1</td></tr><tr><td>9</td><td>3</td><td>1</td><td>5</td><td>13</td><td>46</td><td>52</td><td><span class="null">NULL</span></td><td>52&#x27;</td><td>gol_contra</td><td>M. Rosas 52&#x27; (g.c.)</td><td>1</td></tr><tr><td>10</td><td>4</td><td>1</td><td>5</td><td>5</td><td>61</td><td>67</td><td><span class="null">NULL</span></td><td>67&#x27;</td><td>normal</td><td>Subiabre 67&#x27;</td><td>1</td></tr><tr><td>11</td><td>5</td><td>1</td><td>2</td><td>2</td><td>68</td><td>8</td><td><span class="null">NULL</span></td><td>8&#x27;</td><td>normal</td><td>Stábile 8&#x27;</td><td>1</td></tr><tr><td>12</td><td>5</td><td>1</td><td>2</td><td>2</td><td>68</td><td>17</td><td><span class="null">NULL</span></td><td>17&#x27;</td><td>normal</td><td>Stábile 17&#x27;</td><td>1</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-grupo">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>grupo</h2>
+                </div>
+                <div class="badge">137 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>grupo_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>fase_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fase.fase_id</td></tr><tr><td>nome</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_grupo_1</td><td>sim</td><td>u</td><td>nao</td><td>edicao_id. nome</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>grupo_id</th><th>edicao_id</th><th>fase_id</th><th>nome</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>Grupo A</td></tr><tr><td>2</td><td>1</td><td>1</td><td>Grupo B</td></tr><tr><td>3</td><td>1</td><td>1</td><td>Grupo C</td></tr><tr><td>4</td><td>1</td><td>1</td><td>Grupo D</td></tr><tr><td>5</td><td>4</td><td>14</td><td>Grupo A</td></tr><tr><td>6</td><td>4</td><td>14</td><td>Grupo B</td></tr><tr><td>7</td><td>4</td><td>14</td><td>Grupo C</td></tr><tr><td>8</td><td>4</td><td>14</td><td>Grupo D</td></tr><tr><td>9</td><td>4</td><td>14</td><td>Quadrangular final</td></tr><tr><td>10</td><td>5</td><td>16</td><td>Grupo A</td></tr><tr><td>11</td><td>5</td><td>16</td><td>Grupo B</td></tr><tr><td>12</td><td>5</td><td>16</td><td>Grupo C</td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-identidade_pessoa">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>identidade_pessoa</h2>
+                </div>
+                <div class="badge">5.034 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>identidade_pessoa_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>chave_identidade</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>nome_canonico</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>nome_normalizado</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>wikidata_id</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_identidade_pessoa_1</td><td>sim</td><td>u</td><td>nao</td><td>chave_identidade</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>identidade_pessoa_id</th><th>chave_identidade</th><th>nome_canonico</th><th>nome_normalizado</th><th>wikidata_id</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>contextual:semselecao:domingolombardi:1</td><td>Domingo Lombardi</td><td>domingolombardi</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>2</td><td>contextual:franca:llaurent:2</td><td>L. Laurent</td><td>llaurent</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>3</td><td>contextual:franca:langiller:3</td><td>Langiller</td><td>langiller</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>4</td><td>contextual:franca:maschinot:4</td><td>Maschinot</td><td>maschinot</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>5</td><td>contextual:mexico:carreno:5</td><td>Carreño</td><td>carreno</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>6</td><td>contextual:franca:alexthepot:6</td><td>Alex Thépot</td><td>alexthepot</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>7</td><td>contextual:franca:etiennemattler:7</td><td>Étienne Mattler</td><td>etiennemattler</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>8</td><td>contextual:franca:marcelcapelle:8</td><td>Marcel Capelle</td><td>marcelcapelle</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>9</td><td>contextual:franca:augustinchantrel:9</td><td>Augustin Chantrel</td><td>augustinchantrel</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>10</td><td>contextual:franca:alexandrevillaplane:10</td><td>Alexandre Villaplane</td><td>alexandrevillaplane</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>11</td><td>contextual:franca:edmonddelfour:11</td><td>Edmond Delfour</td><td>edmonddelfour</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>12</td><td>contextual:franca:marcelpinel:12</td><td>Marcel Pinel</td><td>marcelpinel</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-participacao_edicao">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>participacao_edicao</h2>
+                </div>
+                <div class="badge">537 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>participacao_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>selecao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>selecao.selecao_id</td></tr><tr><td>posicao_final</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>grupo</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>pontos</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>jogos</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>vitorias</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>empates</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>derrotas</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>gols_pro</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>gols_contra</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>saldo_gols</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>classificado</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_participacao_edicao_1</td><td>sim</td><td>u</td><td>nao</td><td>edicao_id. selecao_id</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>participacao_id</th><th>edicao_id</th><th>selecao_id</th><th>posicao_final</th><th>grupo</th><th>pontos</th><th>jogos</th><th>vitorias</th><th>empates</th><th>derrotas</th><th>gols_pro</th><th>gols_contra</th><th>saldo_gols</th><th>classificado</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>1</td><td></td><td>8</td><td>4</td><td>4</td><td>0</td><td>0</td><td>15</td><td>3</td><td>12</td><td><span class="null">NULL</span></td></tr><tr><td>2</td><td>1</td><td>2</td><td>2</td><td></td><td>8</td><td>5</td><td>4</td><td>0</td><td>1</td><td>18</td><td>9</td><td>9</td><td><span class="null">NULL</span></td></tr><tr><td>3</td><td>1</td><td>3</td><td>3</td><td></td><td>4</td><td>3</td><td>2</td><td>0</td><td>1</td><td>7</td><td>6</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>4</td><td>1</td><td>4</td><td>4</td><td></td><td>4</td><td>3</td><td>2</td><td>0</td><td>1</td><td>7</td><td>7</td><td>0</td><td><span class="null">NULL</span></td></tr><tr><td>5</td><td>1</td><td>5</td><td>5</td><td></td><td>4</td><td>3</td><td>2</td><td>0</td><td>1</td><td>5</td><td>3</td><td>2</td><td><span class="null">NULL</span></td></tr><tr><td>6</td><td>1</td><td>6</td><td>6</td><td></td><td>2</td><td>2</td><td>1</td><td>0</td><td>1</td><td>5</td><td>2</td><td>3</td><td><span class="null">NULL</span></td></tr><tr><td>7</td><td>1</td><td>7</td><td>7</td><td></td><td>2</td><td>3</td><td>1</td><td>0</td><td>2</td><td>4</td><td>3</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>8</td><td>1</td><td>8</td><td>8</td><td></td><td>2</td><td>2</td><td>1</td><td>0</td><td>1</td><td>3</td><td>5</td><td>-2</td><td><span class="null">NULL</span></td></tr><tr><td>9</td><td>1</td><td>9</td><td>9</td><td></td><td>2</td><td>2</td><td>1</td><td>0</td><td>1</td><td>1</td><td>3</td><td>-2</td><td><span class="null">NULL</span></td></tr><tr><td>10</td><td>1</td><td>10</td><td>10</td><td></td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>1</td><td>4</td><td>-3</td><td><span class="null">NULL</span></td></tr><tr><td>11</td><td>1</td><td>11</td><td>11</td><td></td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>4</td><td>-4</td><td><span class="null">NULL</span></td></tr><tr><td>12</td><td>1</td><td>12</td><td>12</td><td></td><td>0</td><td>2</td><td>0</td><td>0</td><td>2</td><td>0</td><td>8</td><td>-8</td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-partida">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>partida</h2>
+                </div>
+                <div class="badge">1.060 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>partida_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>fase_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fase.fase_id</td></tr><tr><td>grupo_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>grupo.grupo_id</td></tr><tr><td>data_texto</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>horario_texto</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>estadio_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>estadio.estadio_id</td></tr><tr><td>selecao_1_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>selecao.selecao_id</td></tr><tr><td>selecao_2_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>selecao.selecao_id</td></tr><tr><td>gols_selecao_1</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>gols_selecao_2</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>placar_texto</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>teve_prorrogacao</td><td>INTEGER</td><td>nao</td><td>sim</td><td>0</td><td></td></tr><tr><td>teve_penaltis</td><td>INTEGER</td><td>nao</td><td>sim</td><td>0</td><td></td></tr><tr><td>penaltis_selecao_1</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>penaltis_selecao_2</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>vencedor_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>publico</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>arbitro_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>pessoa.pessoa_id</td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>idx_partida_selecao_2</td><td>nao</td><td>c</td><td>nao</td><td>selecao_2_id</td></tr><tr><td>idx_partida_selecao_1</td><td>nao</td><td>c</td><td>nao</td><td>selecao_1_id</td></tr><tr><td>idx_partida_edicao</td><td>nao</td><td>c</td><td>nao</td><td>edicao_id</td></tr><tr><td>sqlite_autoindex_partida_1</td><td>sim</td><td>u</td><td>nao</td><td>edicao_id. fase_id. grupo_id. data_texto. selecao_1_id. selecao_2_id. placar_texto</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>partida_id</th><th>edicao_id</th><th>fase_id</th><th>grupo_id</th><th>data_texto</th><th>horario_texto</th><th>estadio_id</th><th>selecao_1_id</th><th>selecao_2_id</th><th>gols_selecao_1</th><th>gols_selecao_2</th><th>placar_texto</th><th>teve_prorrogacao</th><th>teve_penaltis</th><th>penaltis_selecao_1</th><th>penaltis_selecao_2</th><th>vencedor_id</th><th>publico</th><th>arbitro_id</th><th>fonte_id</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>1</td><td>1</td><td>13 de julho</td><td>15:00</td><td>1</td><td>7</td><td>13</td><td>4</td><td>1</td><td>4 - 1</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>1</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>2</td><td>1</td><td>1</td><td>1</td><td>15 de julho</td><td>16:00</td><td>2</td><td>2</td><td>7</td><td>1</td><td>0</td><td>1 - 0</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>30</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>3</td><td>1</td><td>1</td><td>1</td><td>16 de julho</td><td>14:45</td><td>2</td><td>5</td><td>13</td><td>3</td><td>0</td><td>3 - 0</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>44</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>4</td><td>1</td><td>1</td><td>1</td><td>19 de julho</td><td>12:50</td><td>3</td><td>5</td><td>7</td><td>1</td><td>0</td><td>1 - 0</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>60</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>5</td><td>1</td><td>1</td><td>1</td><td>19 de julho</td><td>15:00</td><td>3</td><td>2</td><td>13</td><td>6</td><td>3</td><td>6 - 3</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>67</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>6</td><td>1</td><td>1</td><td>1</td><td>22 de julho</td><td>14:45</td><td>3</td><td>2</td><td>5</td><td>3</td><td>1</td><td>3 - 1</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>83</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>7</td><td>1</td><td>1</td><td>2</td><td>14 de julho</td><td>12:45</td><td>2</td><td>4</td><td>6</td><td>2</td><td>1</td><td>2 - 1</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>60</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>8</td><td>1</td><td>1</td><td>2</td><td>17 de julho</td><td>12:45</td><td>2</td><td>4</td><td>12</td><td>4</td><td>0</td><td>4 - 0</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>114</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>9</td><td>1</td><td>1</td><td>2</td><td>20 de julho</td><td>13:00</td><td>3</td><td>6</td><td>12</td><td>4</td><td>0</td><td>4 - 0</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>130</td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>10</td><td>1</td><td>1</td><td>3</td><td>14 de julho</td><td></td><td>1</td><td>8</td><td>10</td><td>3</td><td>1</td><td>3 - 1</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>11</td><td>1</td><td>1</td><td>3</td><td>18 de julho</td><td></td><td>3</td><td>1</td><td>10</td><td>1</td><td>0</td><td>1 - 0</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>1</td><td><span class="null">NULL</span></td></tr><tr><td>12</td><td>1</td><td>1</td><td>3</td><td>21 de julho</td><td></td><td>3</td><td>1</td><td>8</td><td>4</td><td>0</td><td>4 - 0</td><td>0</td><td>0</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td>1</td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-pessoa">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>pessoa</h2>
+                </div>
+                <div class="badge">5.031 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>pessoa_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>identidade_pessoa_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>identidade_pessoa.identidade_pessoa_id</td></tr><tr><td>nome</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>nome_normalizado</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>selecao_principal_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>wikidata_id</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>idx_pessoa_identidade</td><td>nao</td><td>c</td><td>nao</td><td>identidade_pessoa_id</td></tr><tr><td>sqlite_autoindex_pessoa_1</td><td>sim</td><td>u</td><td>nao</td><td>nome_normalizado. selecao_principal_id</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>pessoa_id</th><th>identidade_pessoa_id</th><th>nome</th><th>nome_normalizado</th><th>selecao_principal_id</th><th>wikidata_id</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>1</td><td>Domingo Lombardi</td><td>domingolombardi</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>2</td><td>2</td><td>L. Laurent</td><td>llaurent</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>3</td><td>3</td><td>Langiller</td><td>langiller</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>4</td><td>4</td><td>Maschinot</td><td>maschinot</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>5</td><td>5</td><td>Carreño</td><td>carreno</td><td>13</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>6</td><td>6</td><td>Alex Thépot</td><td>alexthepot</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>7</td><td>7</td><td>Étienne Mattler</td><td>etiennemattler</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>8</td><td>8</td><td>Marcel Capelle</td><td>marcelcapelle</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>9</td><td>9</td><td>Augustin Chantrel</td><td>augustinchantrel</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>10</td><td>10</td><td>Alexandre Villaplane</td><td>alexandrevillaplane</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>11</td><td>11</td><td>Edmond Delfour</td><td>edmonddelfour</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>12</td><td>12</td><td>Marcel Pinel</td><td>marcelpinel</td><td>7</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+            <section class="panel" id="tbl-premiacao">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>premiacao</h2>
+                </div>
+                <div class="badge">0 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>premiacao_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>edicao_id</td><td>INTEGER</td><td>nao</td><td>sim</td><td></td><td>edicao.edicao_id</td></tr><tr><td>premio</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>pessoa_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>pessoa.pessoa_id</td></tr><tr><td>selecao_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>selecao.selecao_id</td></tr><tr><td>valor_texto</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>fonte_id</td><td>INTEGER</td><td>nao</td><td>nao</td><td></td><td>fonte.fonte_id</td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <p class="empty">Sem indices explicitos.</p>
+              <h3>Amostra de conteudo</h3>
+              <p class="empty">Tabela vazia.</p>
+            </section>
+            
+            <section class="panel" id="tbl-selecao">
+              <div class="panel-head">
+                <div>
+                  <p class="eyebrow">Tabela</p>
+                  <h2>selecao</h2>
+                </div>
+                <div class="badge">89 linhas</div>
+              </div>
+              <h3>Colunas</h3>
+              <div class="table-wrap "><table><thead><tr><th>Coluna</th><th>Tipo</th><th>PK</th><th>Obrigatoria</th><th>Padrao</th><th>Relacionamento</th></tr></thead><tbody><tr><td>selecao_id</td><td>INTEGER</td><td>sim</td><td>nao</td><td></td><td></td></tr><tr><td>nome</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>nome_normalizado</td><td>TEXT</td><td>nao</td><td>sim</td><td></td><td></td></tr><tr><td>codigo_bandeira</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>confederacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr><tr><td>observacao</td><td>TEXT</td><td>nao</td><td>nao</td><td></td><td></td></tr></tbody></table></div>
+              <h3>Indices</h3>
+              <div class="table-wrap "><table><thead><tr><th>Indice</th><th>Unico</th><th>Origem</th><th>Parcial</th><th>Colunas</th></tr></thead><tbody><tr><td>sqlite_autoindex_selecao_2</td><td>sim</td><td>u</td><td>nao</td><td>nome_normalizado</td></tr><tr><td>sqlite_autoindex_selecao_1</td><td>sim</td><td>u</td><td>nao</td><td>nome</td></tr></tbody></table></div>
+              <h3>Amostra de conteudo</h3>
+              <div class="table-wrap sample"><table><thead><tr><th>selecao_id</th><th>nome</th><th>nome_normalizado</th><th>codigo_bandeira</th><th>confederacao</th><th>observacao</th></tr></thead><tbody><tr><td>1</td><td>Uruguai</td><td>uruguai</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>2</td><td>Argentina</td><td>argentina</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>3</td><td>Estados Unidos</td><td>estadosunidos</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>4</td><td>Iugoslávia</td><td>iugoslavia</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>5</td><td>Chile</td><td>chile</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>6</td><td>Brasil</td><td>brasil</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>7</td><td>França</td><td>franca</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>8</td><td>Romênia</td><td>romenia</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>9</td><td>Paraguai</td><td>paraguai</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>10</td><td>Peru</td><td>peru</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>11</td><td>Bélgica</td><td>belgica</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr><tr><td>12</td><td>Bolívia</td><td>bolivia</td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td><td><span class="null">NULL</span></td></tr></tbody></table></div>
+            </section>
+            
+    </section>
+  </main>
+</body>
+</html>

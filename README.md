@@ -50,6 +50,68 @@ python -u .\gerar_dashboard_copa_mundo_html.py
 python -u .\build.py --with-copa-mundo
 ```
 
+Banco relacional das Copas:
+
+- `db/copa_mundo.db`
+- Schema versionado em `sql/schema_copa_mundo.sql`
+- Criado por `criar_banco_copa_mundo.py`
+- Validado por `validar_banco_copa_mundo.py`
+- Auditado contra RSSSF por `auditar_artilheiros_copa_mundo.py`
+- Catalogo didatico em `catalogo_banco_copa_mundo.html`, gerado por
+  `gerar_catalogo_banco_copa_mundo_html.py`
+- Planejamento e regra de identidade em `docs/plano_banco_copa_mundo.md`
+- Auditoria detalhada de jogadores em
+  `docs/auditoria_identidade_jogadores_copa_mundo.md`
+- Auditoria de artilheiros contra RSSSF em
+  `docs/auditoria_artilheiros_copa_mundo.md`
+
+Como recriar e validar:
+
+```powershell
+python .\criar_banco_copa_mundo.py
+python .\validar_banco_copa_mundo.py
+python .\auditar_artilheiros_copa_mundo.py
+python .\gerar_catalogo_banco_copa_mundo_html.py
+```
+
+O modelo usa nomes de tabelas e colunas em portugues e segue o padrao do banco
+do Brasileirao: schema separado, script criador e script de validacao. As
+tabelas principais sao `competicao`, `edicao`, `selecao`, `alias_selecao`,
+`identidade_pessoa`, `pessoa`, `alias_pessoa`, `estadio`, `fase`, `grupo`,
+`partida`, `gol`, `escalacao`, `comando_tecnico`, `premiacao` e
+`auditoria_identidade`.
+
+Fontes e identidade:
+
+- A fonte operacional continua sendo a Wikipedia PT/cache local usado pelo
+  dashboard.
+- RSSSF, FIFA e Wikidata entram como fontes de cruzamento em `fonte`.
+- Aliases de pessoas ficam em `alias_pessoa`; conflitos ou nomes parecidos ficam
+  em `auditoria_identidade`.
+- Caso ja tratado: `Portugal + Ronaldo + jogador` aponta para `Cristiano
+  Ronaldo` (`wikidata_id = Q11571`), enquanto `Brasil + Ronaldo + jogador`
+  permanece separado.
+
+Validacao atual do banco das Copas:
+
+- 23 edicoes.
+- 1.060 partidas.
+- 89 selecoes.
+- 5.031 pessoas.
+- 2.983 gols/eventos.
+- 9.273 registros de escalacao.
+- 0 partidas com soma de eventos de gol divergente do placar.
+- 86 auditorias de identidade pendentes para revisao humana/cruzamento futuro,
+  incluindo tecnicos/arbitros e aliases de jogadores mantidos separados de
+  forma intencional.
+- Auditoria RSSSF de artilheiros: 161 de 161 registros bateram com o banco; 0
+  divergencias e 0 sem correspondencia automatica. A revisao confirmou
+  Leônidas com 8 gols no total de Copas: 1 em 1934 e 7 em 1938.
+- Identidade global validada para jogadores que representaram duas selecoes ou
+  selecoes sucessoras: Dejan Stankovic, Nikola Zigic e Robert Prosinecki.
+  `Mazzola` foi revisado e mantido separado: Jose Altafini no Brasil e Sandro
+  Mazzola na Italia.
+
 Abas e recursos:
 
 - **Geral das Copas**: KPIs, linha do tempo, titulos e top 4, rankings de

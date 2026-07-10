@@ -669,10 +669,13 @@ def apply_edition_overrides(year: int, groups: list[dict], matches: list[dict]) 
             m("Oitavas de final", "5 de junho", "Tchecoslováquia", "3 - 0 (pro)", "Países Baixos", "Stade Municipal, Le Havre", "Tchecoslováquia", scorers="Tchecoslováquia: Košťálek 93'; Nejedlý 111'; Zeman 118'"),
             m("Oitavas de final", "5 de junho", "Hungria", "6 - 0", "Índias Orientais Neerlandesas", "Vélodrome Municipal, Reims", "Hungria", scorers="Hungria: Kohut 14'; Toldi 16'; Sárosi 25', 88'; Zsengellér 30', 67'"),
             m("Oitavas de final", "4 de junho", "Suíça", "1 - 1 (pro)", "Alemanha", "Parc des Princes, Paris", "Suíça", "Jogo-desempate em 9 de junho: Alemanha 2 - 4 Suíça", "Suíça: Abegglen 43' | Alemanha: Gauchel 29'"),
+            m("Oitavas de final", "9 de junho", "Alemanha", "2 - 4", "Suíça", "Parc des Princes, Paris", "Suíça", "Jogo-desempate", "Alemanha: Hahnemann 8'; Lörtscher 22' (g.c.) | Suíça: Walaschek 42'; Bickel 64'; Abegglen 75', 78'"),
             m("Oitavas de final", "5 de junho", "Suécia", "W.O.", "Áustria", "Stade de Gerland, Lyon", "Suécia", "A Suécia avançou por W.O. após a desistência da Áustria."),
             m("Oitavas de final", "5 de junho", "Cuba", "3 - 3 (pro)", "Romênia", "Stade Chapou, Toulouse", "Cuba", "Jogo-desempate em 9 de junho: Cuba 2 - 1 Romênia", "Cuba: Socorro 44', 103'; Magriñá 69' | Romênia: Bindea 35'; Barátky 88'; Dobay 105'"),
+            m("Oitavas de final", "9 de junho", "Cuba", "2 - 1", "Romênia", "Stade Chapou, Toulouse", "Cuba", "Jogo-desempate", "Cuba: Socorro 51'; Fernández 57' | Romênia: Dobay 35'"),
             m("Quartas de final", "12 de junho", "Itália", "3 - 1", "França", "Estádio Olímpico de Colombes, Paris", "Itália", scorers="Itália: Colaussi 9'; Piola 51', 72' | França: Heisserer 10'"),
             m("Quartas de final", "12 de junho", "Brasil", "1 - 1 (pro)", "Tchecoslováquia", "Parc Lescure, Bordeaux", "Brasil", "Jogo-desempate em 14 de junho: Brasil 2 - 1 Tchecoslováquia", "Brasil: Leônidas 30' | Tchecoslováquia: Nejedlý 65' (pen.)"),
+            m("Quartas de final", "14 de junho", "Brasil", "2 - 1", "Tchecoslováquia", "Parc Lescure, Bordeaux", "Brasil", "Jogo-desempate", "Brasil: Leônidas 57'; Roberto 62' | Tchecoslováquia: Kopecký 25'"),
             m("Quartas de final", "12 de junho", "Hungria", "2 - 0", "Suíça", "Stade Victor Boucquey, Lille", "Hungria", scorers="Hungria: Sárosi 40'; Zsengellér 89'"),
             m("Quartas de final", "12 de junho", "Suécia", "8 - 0", "Cuba", "Stade du Fort Carré, Antibes", "Suécia", scorers="Suécia: H. Andersson 9', 81', 90'; Wetterström 32', 37', 44'; Keller 80'; Nyberg 84'"),
             m("Semifinal", "16 de junho", "Itália", "2 - 1", "Brasil", "Stade Vélodrome, Marselha", "Itália", scorers="Itália: Colaussi 51'; Meazza 60' (pen.) | Brasil: Romeu 87'"),
@@ -1790,7 +1793,7 @@ def ensure_favicon() -> str:
 # Messi e Mbappe atualizados com a Copa de 2026 em andamento (+7 gols cada):
 # Messi 13->20 (novo maior artilheiro), Mbappe 12->19.
 ARTILHEIROS_HISTORICO = [["Lionel Messi",20],["Kylian Mbappé",19],["Miroslav Klose",16],["Ronaldo",15],["Gerd Müller",14],["Just Fontaine",13],["Pelé",12],["Sándor Kocsis",11],["Jürgen Klinsmann",11],["Helmut Rahn",10],["Gary Lineker",10],["Gabriel Batistuta",10],["Teófilo Cubillas",10],["Grzegorz Lato",10],["Thomas Müller",10]]
-ARTILHEIROS_EDICAO = [["1930","Guillermo Stábile",8,"Argentina"],["1934","Oldřich Nejedlý",5,"Tchecoslováquia"],["1938","Leônidas",7,"Brasil"],["1950","Ademir",8,"Brasil"],["1954","Sándor Kocsis",11,"Hungria"],["1958","Just Fontaine",13,"França"],["1962","Garrincha, Vavá, L. Sánchez, D. Jerković, F. Albert e V. Ivanov",4,"Brasil, Chile, Iugoslávia, Hungria e União Soviética"],["1966","Eusébio",9,"Portugal"],["1970","Gerd Müller",10,"Alemanha"],["1974","Grzegorz Lato",7,"Polônia"],["1978","Mario Kempes",6,"Argentina"],["1982","Paolo Rossi",6,"Itália"],["1986","Gary Lineker",6,"Inglaterra"],["1990","Salvatore Schillaci",6,"Itália"],["1994","Hristo Stoichkov e Oleg Salenko",6,"Bulgária e Rússia"],["1998","Davor Šuker",6,"Croácia"],["2002","Ronaldo",8,"Brasil"],["2006","Miroslav Klose",5,"Alemanha"],["2010","Thomas Müller",5,"Alemanha"],["2014","James Rodríguez",6,"Colômbia"],["2018","Harry Kane",6,"Inglaterra"],["2022","Kylian Mbappé",8,"França"],["2026","Lionel Messi e Kylian Mbappé",7,"Argentina e França"]]
+ARTILHEIROS_EDICAO = [["1930","Guillermo Stábile",8,"Argentina"],["1934","Oldřich Nejedlý",5,"Tchecoslováquia"],["1938","Leônidas",7,"Brasil"],["1950","Ademir",9,"Brasil"],["1954","Sándor Kocsis",11,"Hungria"],["1958","Just Fontaine",13,"França"],["1962","Garrincha, Vavá, L. Sánchez, D. Jerković, F. Albert e V. Ivanov",4,"Brasil, Chile, Iugoslávia, Hungria e União Soviética"],["1966","Eusébio",9,"Portugal"],["1970","Gerd Müller",10,"Alemanha"],["1974","Grzegorz Lato",7,"Polônia"],["1978","Mario Kempes",6,"Argentina"],["1982","Paolo Rossi",6,"Itália"],["1986","Gary Lineker",6,"Inglaterra"],["1990","Salvatore Schillaci",6,"Itália"],["1994","Hristo Stoichkov e Oleg Salenko",6,"Bulgária e Rússia"],["1998","Davor Šuker",6,"Croácia"],["2002","Ronaldo",8,"Brasil"],["2006","Miroslav Klose",5,"Alemanha"],["2010","Thomas Müller",5,"Alemanha"],["2014","James Rodríguez",6,"Colômbia"],["2018","Harry Kane",6,"Inglaterra"],["2022","Kylian Mbappé",8,"França"],["2026","Lionel Messi e Kylian Mbappé",7,"Argentina e França"]]
 MARCADORES_GRUPOS = {
   "2022|Grupo A|Catar|0 - 2|Equador":"Enner Valencia 16' (pên.), 31'",
   "2022|Grupo A|Senegal|0 - 2|Países Baixos":"Cody Gakpo 84'; Davy Klaassen 90+9'",
@@ -1977,16 +1980,6 @@ def _sc_merge_variants(d: dict) -> dict:
 # 1938, que nem constam na lista de jogos) e gols sem autor citado, complementados de
 # outras fontes (Wikipedia EN / RSSSF / FIFA). {(selecao, ano): [[jogador, gols], ...]}
 SCORERS_SUPPLEMENT: dict = {
-    # 1938 — replay Suíça 4-2 Alemanha (9 jun); Alemanha teve tb. 1 gol contra (abaixo)
-    ("Suíça", 1938): [["Walaschek", 1], ["Bickel", 1], ["Abegglen", 2]],
-    ("Alemanha", 1938): [["Hahnemann", 1]],
-    # 1938 — replay Brasil 2-1 Tchecoslováquia (14 jun); 2o gol do Brasil creditado a
-    # Roberto pela FIFA em 2006 (antes, Leônidas)
-    ("Brasil", 1938): [["Leônidas", 1], ["Roberto", 1]],
-    ("Tchecoslováquia", 1938): [["Kopecký", 1]],
-    # 1938 — replay Cuba 2-1 Romênia (9 jun)
-    ("Cuba", 1938): [["Socorro", 1], ["Fernández", 1]],
-    ("Romênia", 1938): [["Dobay", 1]],
     # 1934 — replay Itália 1-0 Espanha (1 jun): gol de Meazza
     ("Itália", 1934): [["Meazza", 1]],
     # 1970 — 2o gol de Valdivia (46') em México 4-0 El Salvador, ausente do marcador
@@ -1996,7 +1989,6 @@ SCORERS_SUPPLEMENT: dict = {
 # Gols contra a favor que a Wikipedia PT nao registrou de forma parseavel.
 # {(selecao, ano): [[autor_adversario, gols], ...]}
 OWNGOALS_SUPPLEMENT: dict = {
-    ("Alemanha", 1938): [["Lörtscher", 1]],   # Lörtscher (SUI), gol contra no replay 4-2
     ("Inglaterra", 2006): [["Gamarra", 1]],   # Gamarra (PAR); marcador malformado na fonte
 }
 
