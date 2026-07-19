@@ -2582,8 +2582,14 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
     <div class="grid">
       <article class="card span-6"><h2>Gols por edição</h2><div id="ch-goals-edicao" class="chart small"></div></article>
       <article class="card span-6"><h2>Gols por seleção</h2><div class="chart-scroll chart-scroll-x"><div id="ch-goals-teams" class="chart"></div></div></article>
+      <article class="card span-6"><h2>Gols por fase</h2><div id="ch-goals-phase" class="chart small"></div></article>
+      <article class="card span-6"><h2>Gols/jogo por fase</h2><div id="ch-goals-phase-rate" class="chart small"></div></article>
+      <article class="card span-6"><h2>Gols marcados, sofridos e saldo</h2><div class="chart-scroll"><div id="ch-goals-team-balance" class="chart"></div></div></article>
+      <article class="card span-6"><h2>Médias por seleção</h2><div class="chart-scroll"><div id="ch-goals-team-averages" class="chart"></div></div></article>
       <article class="card span-6"><h2>Maiores artilheiros</h2><div class="chart-scroll"><div id="ch-goals-players" class="goal-rank"></div></div><span class="note">Lista todos os jogadores com pelo menos um gol na base filtrada.</span></article>
       <article class="card span-6"><h2>Artilheiro por Copa</h2><div class="chart-scroll"><div id="ch-goals-topscorers-edicao" class="goal-rank"></div></div><span class="note">Quando houve empate na artilharia, a edição aparece com todos os nomes consolidados na mesma barra.</span></article>
+      <article class="card span-6"><h2>Gols em mata-mata por seleção</h2><div class="chart-scroll"><div id="ch-goals-ko-teams" class="goal-rank"></div></div></article>
+      <article class="card span-6"><h2>Gols em mata-mata por jogador</h2><div class="chart-scroll"><div id="ch-goals-ko-players" class="goal-rank"></div></div></article>
       <article class="card span-6"><h2>Gols por faixa de minuto</h2><div id="ch-goals-minute" class="chart small"></div></article>
       <article class="card span-6"><h2>Todos os gols</h2><div class="table-wrap goals-table"><table id="tbl-goals"></table></div></article>
     </div>
@@ -2799,12 +2805,27 @@ function renderGols(){
   ]);
   const minuteBins=["0-15","16-30","31-45","46-60","61-75","76-90","90+"];
   const minuteRows=minuteBins.map(b=>[b,rows.filter(g=>minuteBucket(g.minuto)===b).length]);
-  Plotly.react("ch-goals-minute",[{type:"bar",x:minuteRows.map(r=>r[0]),y:minuteRows.map(r=>r[1]),marker:{color:COLORS[1],cornerradius:4},hoverinfo:"skip"}],layout({hovermode:false,xaxis:{type:"category"},yaxis:{title:"Gols"}}),PCFG);
+  Plotly.react("ch-goals-minute",[{type:"bar",x:minuteRows.map(r=>r[0]),y:minuteRows.map(r=>r[1]),marker:{color:COLORS[1],cornerradius:4},hovertemplate:"<b>%{x}</b><br>Gols: %{y}<extra></extra>"}],layout({hovermode:"closest",xaxis:{type:"category"},yaxis:{title:"Gols"}}),PCFG);
   renderGoalEditionCombo(rows);
   renderGoalTeamCombo(rows);
+  renderGoalPhaseCharts(rows);
+  renderGoalTeamBalanceCharts();
   renderGoalPlayersAll(rows);
   renderGoalsTopScorers();
+  renderGoalKnockoutRankings(rows);
   table("tbl-goals",["Ano","Fase","Jogo","Min","Seleção","Jogador"],rows.slice().reverse().map(g=>[g.ano,g.fase,`${g.mandante} ${g.placar_mandante} x ${g.placar_visitante} ${g.visitante}`,goalMinuteText(g),g.selecao,g.jogador]),[0]);
+}
+function filteredGoalMatches(){
+  const out=[];
+  DATA.copas.forEach(c=>{
+    if(state.goalYear && String(c.ano)!==String(state.goalYear)) return;
+    c.partidas.forEach(p=>{
+      if(state.goalTeam && p.time1!==state.goalTeam && p.time2!==state.goalTeam) return;
+      if(!scoreParts(p.placar).join("")) return;
+      out.push({...p,ano:c.ano});
+    });
+  });
+  return out;
 }
 function goalGamesByEdition(){
   const out={};
@@ -2827,6 +2848,65 @@ function goalGamesByTeam(){
     });
   });
   return out;
+}
+function goalTeamMatchStats(){
+  const stats={};
+  filteredGoalMatches().forEach(p=>{
+    const s=scoreParts(p.placar);
+    if(s[0]==="" || s[1]==="") return;
+    const g1=num(s[0]), g2=num(s[1]);
+    [[p.time1,g1,g2],[p.time2,g2,g1]].forEach(([team,gp,gc])=>{
+      if(!team || (state.goalTeam && team!==state.goalTeam)) return;
+      const row=stats[team] ||= {team,jogos:0,gp:0,gc:0};
+      row.jogos+=1; row.gp+=gp; row.gc+=gc;
+    });
+  });
+  return Object.values(stats).map(r=>({...r,sg:r.gp-r.gc,gpj:r.jogos?+(r.gp/r.jogos).toFixed(2):0,gcj:r.jogos?+(r.gc/r.jogos).toFixed(2):0,sgj:r.jogos?+((r.gp-r.gc)/r.jogos).toFixed(2):0}));
+}
+function phaseLabel(phase){
+  const p=String(phase||"").trim();
+  if(!p) return "Não informado";
+  if(p.toLowerCase().includes("grupo")) return "Fase de grupos";
+  if(p.toLowerCase().includes("terceiro")) return "Terceiro lugar";
+  return p;
+}
+function phaseSort(a,b){
+  const order=phase=>phase==="Fase de grupos" ? 0 : phaseRank(phase)+1;
+  return order(a)-order(b) || a.localeCompare(b,"pt-BR");
+}
+function isKnockoutPhase(phase){
+  const p=String(phase||"").toLowerCase();
+  return p.includes("oitavas") || p.includes("quartas") || p.includes("semifinal") || p==="final" || p.includes("terceiro");
+}
+function goalPhaseRows(rows){
+  const goals=countBy(rows,g=>phaseLabel(g.fase));
+  const games=countBy(filteredGoalMatches(),p=>phaseLabel(p.fase));
+  return Object.keys({...games,...goals}).filter(k=>goals[k]||games[k]).sort(phaseSort).map(label=>({label,gols:goals[label]||0,jogos:games[label]||0,gpg:games[label]?+(goals[label]/games[label]).toFixed(2):0}));
+}
+function renderGoalPhaseCharts(rows){
+  const phaseRows=goalPhaseRows(rows);
+  Plotly.react("ch-goals-phase",[{type:"bar",x:phaseRows.map(r=>r.label),y:phaseRows.map(r=>r.gols),marker:{color:COLORS[0],cornerradius:4},text:phaseRows.map(r=>r.gols),textposition:"outside",cliponaxis:false,hovertemplate:"<b>%{x}</b><br>Gols: %{y}<extra></extra>"}],layout({hovermode:"closest",margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-20,automargin:true},yaxis:{title:"Gols"}}),PCFG);
+  Plotly.react("ch-goals-phase-rate",[{type:"bar",x:phaseRows.map(r=>r.label),y:phaseRows.map(r=>r.gpg),marker:{color:COLORS[1],cornerradius:4},text:phaseRows.map(r=>r.gpg.toFixed(2).replace(".",",")),textposition:"outside",cliponaxis:false,hovertemplate:"<b>%{x}</b><br>Gols/jogo: %{y:.2f}<extra></extra>"}],layout({hovermode:"closest",margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-20,automargin:true},yaxis:{title:"Gols/jogo",tickformat:".2f"}}),PCFG);
+}
+function renderGoalTeamBalanceCharts(){
+  const rows=goalTeamMatchStats().sort((a,b)=>b.gp-a.gp || a.team.localeCompare(b.team,"pt-BR"));
+  renderTeamMetricGrouped("ch-goals-team-balance", rows, [
+    {key:"gp",name:"Marcados",color:COLORS[0]},
+    {key:"gc",name:"Sofridos",color:COLORS[3]},
+    {key:"sg",name:"Saldo",color:COLORS[1]},
+  ], "Gols");
+  renderTeamMetricGrouped("ch-goals-team-averages", rows.sort((a,b)=>b.gpj-a.gpj || a.team.localeCompare(b.team,"pt-BR")), [
+    {key:"gpj",name:"Marcados/jogo",color:COLORS[0]},
+    {key:"gcj",name:"Sofridos/jogo",color:COLORS[3]},
+    {key:"sgj",name:"Saldo/jogo",color:COLORS[1]},
+  ], "Média");
+}
+function renderTeamMetricGrouped(id, rows, metrics, title){
+  const host=document.getElementById(id);
+  host.style.height=`${Math.max(260, rows.length*28+90)}px`;
+  const rev=rows.slice().reverse();
+  const traces=metrics.map(m=>({type:"bar",orientation:"h",name:m.name,y:rev.map(r=>r.team),x:rev.map(r=>r[m.key]),marker:{color:m.color,cornerradius:3},hovertemplate:"<b>%{y}</b><br>%{fullData.name}: %{x}<extra></extra>"}));
+  Plotly.react(id,traces,layout({barmode:"group",hovermode:"closest",margin:{l:118,r:28,t:10,b:58},xaxis:{title,zeroline:true,zerolinecolor:"rgba(255,255,255,.35)",automargin:true},yaxis:{automargin:true,tickfont:{size:11}},legend:{orientation:"h",y:-.16}}),PCFG);
 }
 function renderGoalEditionCombo(rows){
   const games=goalGamesByEdition();
@@ -2861,27 +2941,35 @@ function renderGoalsTopScorers(){
   }
   renderGoalRankList("ch-goals-topscorers-edicao", chartRows, COLORS[1]);
 }
+function renderGoalKnockoutRankings(rows){
+  const ko=rows.filter(g=>isKnockoutPhase(g.fase));
+  renderGoalRankList("ch-goals-ko-teams", countRows(ko,g=>g.selecao), COLORS[0]);
+  renderGoalRankList("ch-goals-ko-players", countRows(ko.filter(g=>g.jogador&&g.jogador!=="Não informado"&&g.jogador!=="Não identificado na fonte"),g=>g.jogador), COLORS[1]);
+}
 function renderGoalComboV(id, rows){
+  const isTeamChart=id==="ch-goals-teams";
+  const xaxis={type:"category",tickangle:-25,automargin:true};
+  if(isTeamChart) xaxis.range=[-.15, rows.length-.5];
   Plotly.react(id,[
-    {type:"bar",x:rows.map(r=>r.label),y:rows.map(r=>r.gols),name:"Gols",marker:{color:COLORS[0],cornerradius:4},text:rows.map(r=>r.gols),textposition:"outside",cliponaxis:false,hoverinfo:"skip"},
-    {type:"scatter",mode:"lines+markers",x:rows.map(r=>r.label),y:rows.map(r=>r.gpg),yaxis:"y2",name:"Gols/jogo",line:{color:COLORS[1],width:3},marker:{size:6},hoverinfo:"skip"}
-  ],layout({hovermode:false,margin:{l:44,r:52,t:10,b:70},xaxis:{type:"category",tickangle:-25,automargin:true},yaxis:{title:"Gols"},yaxis2:{title:"Gols/jogo",overlaying:"y",side:"right",gridcolor:"rgba(0,0,0,0)",tickformat:".2f"},legend:{orientation:"h",y:-.2}}),PCFG);
+    {type:"bar",x:rows.map(r=>r.label),y:rows.map(r=>r.gols),name:"Gols",marker:{color:COLORS[0],cornerradius:4},text:rows.map(r=>r.gols),textposition:"outside",cliponaxis:false,hovertemplate:"<b>%{x}</b><br>Gols: %{y}<extra></extra>"},
+    {type:"scatter",mode:"lines+markers",x:rows.map(r=>r.label),y:rows.map(r=>r.gpg),yaxis:"y2",name:"Gols/jogo",line:{color:COLORS[1],width:3},marker:{size:6},hovertemplate:"<b>%{x}</b><br>Gols/jogo: %{y:.2f}<extra></extra>"}
+  ],layout({hovermode:"closest",margin:{l:isTeamChart?12:44,r:52,t:10,b:70},bargap:.18,xaxis,yaxis:{title:isTeamChart?"":"Gols",showline:!isTeamChart},yaxis2:{title:"Gols/jogo",overlaying:"y",side:"right",gridcolor:"rgba(0,0,0,0)",tickformat:".2f"},legend:{orientation:"h",y:-.2}}),PCFG);
 }
 function renderGoalComboH(id, rows){
   const rev=rows.slice().reverse();
   Plotly.react(id,[
-    {type:"bar",orientation:"h",y:rev.map(r=>r.label),x:rev.map(r=>r.gols),name:"Gols",marker:{color:COLORS[0],cornerradius:4},text:rev.map(r=>r.gols),textposition:"outside",cliponaxis:false,hoverinfo:"skip"},
-    {type:"scatter",mode:"lines+markers",y:rev.map(r=>r.label),x:rev.map(r=>r.gpg),xaxis:"x2",name:"Gols/jogo",line:{color:COLORS[1],width:3},marker:{size:6},hoverinfo:"skip"}
-  ],layout({hovermode:false,margin:{l:124,r:44,t:10,b:55},xaxis:{title:"Gols",showspikes:false,automargin:true},xaxis2:{title:"Gols/jogo",overlaying:"x",side:"top",gridcolor:"rgba(0,0,0,0)",tickformat:".2f"},yaxis:{showspikes:false,automargin:true,tickfont:{size:11}},legend:{orientation:"h",y:-.15}}),PCFG);
+    {type:"bar",orientation:"h",y:rev.map(r=>r.label),x:rev.map(r=>r.gols),name:"Gols",marker:{color:COLORS[0],cornerradius:4},text:rev.map(r=>r.gols),textposition:"outside",cliponaxis:false,hovertemplate:"<b>%{y}</b><br>Gols: %{x}<extra></extra>"},
+    {type:"scatter",mode:"lines+markers",y:rev.map(r=>r.label),x:rev.map(r=>r.gpg),xaxis:"x2",name:"Gols/jogo",line:{color:COLORS[1],width:3},marker:{size:6},hovertemplate:"<b>%{y}</b><br>Gols/jogo: %{x:.2f}<extra></extra>"}
+  ],layout({hovermode:"closest",margin:{l:124,r:44,t:10,b:55},xaxis:{title:"Gols",showspikes:false,automargin:true},xaxis2:{title:"Gols/jogo",overlaying:"x",side:"top",gridcolor:"rgba(0,0,0,0)",tickformat:".2f"},yaxis:{showspikes:false,automargin:true,tickfont:{size:11}},legend:{orientation:"h",y:-.15}}),PCFG);
 }
 function renderGoalRankList(id, rows, color){
   const host=document.getElementById(id);
   if(!rows.length){host.innerHTML=`<p class="note">Nenhum registro encontrado para os filtros selecionados.</p>`;return;}
   const max=Math.max(...rows.map(r=>r[1]),1);
-  host.innerHTML=`<div class="rank-list">${rows.map(([label,val])=>`<div class="rank-row"><span class="rank-label" title="${esc(label)}">${esc(label)}</span><div class="rank-bar-wrap"><div class="rank-bar" style="width:${(val/max*100).toFixed(1)}%;background:${color}"></div></div><span class="rank-val">${esc(val)}</span></div>`).join("")}</div>`;
+  host.innerHTML=`<div class="rank-list">${rows.map(([label,val])=>`<div class="rank-row" title="${esc(label)}: ${esc(val)}"><span class="rank-label" title="${esc(label)}">${esc(label)}</span><div class="rank-bar-wrap"><div class="rank-bar" style="width:${(val/max*100).toFixed(1)}%;background:${color}"></div></div><span class="rank-val">${esc(val)}</span></div>`).join("")}</div>`;
 }
 function renderGoalBar(id, rows, title, color){
-  Plotly.react(id,[{type:"bar",x:rows.map(r=>r[0]),y:rows.map(r=>r[1]),marker:{color,cornerradius:4},text:rows.map(r=>r[1]),textposition:"outside",cliponaxis:false,hoverinfo:"skip"}],layout({hovermode:false,margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-25,automargin:true},yaxis:{title}}),PCFG);
+  Plotly.react(id,[{type:"bar",x:rows.map(r=>r[0]),y:rows.map(r=>r[1]),marker:{color,cornerradius:4},text:rows.map(r=>r[1]),textposition:"outside",cliponaxis:false,hovertemplate:`<b>%{x}</b><br>${title}: %{y}<extra></extra>`}],layout({hovermode:"closest",margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-25,automargin:true},yaxis:{title}}),PCFG);
 }
 function countBy(rows, fn){return rows.reduce((acc,row)=>{const k=fn(row)||"Não informado"; acc[k]=(acc[k]||0)+1; return acc;},{});}
 function countRows(rows, fn){return Object.entries(countBy(rows,fn)).sort((a,b)=>b[1]-a[1] || a[0].localeCompare(b[0],"pt-BR"));}
@@ -3332,7 +3420,7 @@ function renderTeamScorers(t,camp){
 }
 
 function kpis(rows){return rows.map(([l,v])=>`<div class="kpi"><b>${esc(v)}</b><span>${esc(l)}</span></div>`).join("")}
-function barH(id, rows, title, color){Plotly.react(id,[{type:"bar",orientation:"h",y:rows.map(r=>r[0]).reverse(),x:rows.map(r=>r[1]).reverse(),marker:{color,cornerradius:4},text:rows.map(r=>r[1]).reverse(),textposition:"outside",cliponaxis:false,hoverinfo:"skip"}],layout({hovermode:false,margin:{l:132,r:42,t:10,b:45},xaxis:{title,showspikes:false,automargin:true},yaxis:{showspikes:false,automargin:true,tickfont:{size:11}}}),PCFG)}
+function barH(id, rows, title, color){Plotly.react(id,[{type:"bar",orientation:"h",y:rows.map(r=>r[0]).reverse(),x:rows.map(r=>r[1]).reverse(),marker:{color,cornerradius:4},text:rows.map(r=>r[1]).reverse(),textposition:"outside",cliponaxis:false,hovertemplate:`<b>%{y}</b><br>${title}: %{x}<extra></extra>`}],layout({hovermode:"closest",margin:{l:132,r:42,t:10,b:45},xaxis:{title,showspikes:false,automargin:true},yaxis:{showspikes:false,automargin:true,tickfont:{size:11}}}),PCFG)}
 const RANKS=[{id:"vitorias",key:"v",color:COLORS[0],nome:"vitórias"},{id:"empates",key:"e",color:COLORS[2],nome:"empates"},{id:"derrotas",key:"d",color:COLORS[3],nome:"derrotas"}];
 function renderRankings(){
   const pct=state.rankMode==="pct";
