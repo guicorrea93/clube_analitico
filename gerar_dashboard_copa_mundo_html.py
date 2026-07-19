@@ -28,6 +28,8 @@ PLOTLY_FILE = DATA_DIR / "plotly-2.35.2.min.js"
 FLAGS_DIR = DATA_DIR / "flags"
 POSTERS_DIR = DATA_DIR / "posters"
 TROFEUS_DIR = DATA_DIR / "trofeus"
+GOLS_DETALHADOS_FILE = DATA_DIR / "gols_detalhados_statsbomb.json"
+GOLS_ANALITICOS_FILE = DATA_DIR / "gols_analiticos.json"
 
 YEARS = [1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2026]
 PAGE_TITLES = {
@@ -456,11 +458,17 @@ def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
 
     updates = [
         m("Oitavas de final", "5 de julho", "Brasil", "1 - 2", "Noruega", "MetLife Stadium, East Rutherford", "Noruega", "Brasil: Neymar 90+10' (pen) | Noruega: Haaland 79', 90'"),
-        m("Oitavas de final", "5 de julho", "México", "2 - 3", "Inglaterra", "Estádio Azteca, Cidade do México", "Inglaterra"),
+        m("Oitavas de final", "5 de julho", "México", "2 - 3", "Inglaterra", "Estádio Azteca, Cidade do México", "Inglaterra", "México: Julián Quiñones 42' (voleio); Raúl Jiménez 69' (pen) | Inglaterra: Jude Bellingham 36' (cab), 38'; Harry Kane 60' (pen)"),
         m("Oitavas de final", "6 de julho", "Portugal", "0 - 1", "Espanha", "AT&T Stadium, Arlington", "Espanha", "Espanha: Merino 90+1'"),
-        m("Oitavas de final", "6 de julho", "Estados Unidos", "1 - 4", "Bélgica", "Lumen Field, Seattle", "Bélgica"),
-        m("Oitavas de final", "7 de julho", "Argentina", "3 - 2", "Egito", "Mercedes-Benz Stadium, Atlanta", "Argentina"),
+        m("Oitavas de final", "6 de julho", "Estados Unidos", "1 - 4", "Bélgica", "Lumen Field, Seattle", "Bélgica", "Estados Unidos: Malik Tillman 31' (falta) | Bélgica: Charles De Ketelaere 9', 33' (cab); Hans Vanaken 57'; Romelu Lukaku 90+3'"),
+        m("Oitavas de final", "7 de julho", "Argentina", "3 - 2", "Egito", "Mercedes-Benz Stadium, Atlanta", "Argentina", "Argentina: Cristian Romero 79' (cab); Lionel Messi 83'; Enzo Fernández 90+2' (cab) | Egito: Yasser Ibrahim 15' (cab); Mostafa Ziko 67'"),
         m("Oitavas de final", "7 de julho", "Suíça", "0 - 0 (pen 4 - 3)", "Colômbia", "BC Place, Vancouver", "Suíça", details="Penalidades: Suíça 4 - 3 Colômbia"),
+        m("Quartas de final", "9 de julho", "França", "2 - 0", "Marrocos", "Estádio Boston, Foxborough", "França", "França: Kylian Mbappé 60'; Ousmane Dembélé 66'"),
+        m("Quartas de final", "10 de julho", "Espanha", "2 - 1", "Bélgica", "Los Angeles Stadium, Inglewood", "Espanha", "Espanha: Fabián Ruiz 30'; Mikel Merino 88' | Bélgica: Charles De Ketelaere 41' (cab)"),
+        m("Quartas de final", "11 de julho", "Noruega", "1 - 2 (pro)", "Inglaterra", "Estádio Boston, Foxborough", "Inglaterra", "Noruega: Andreas Schjelderup 36' | Inglaterra: Jude Bellingham 45+2', 93'"),
+        m("Quartas de final", "11 de julho", "Argentina", "3 - 1 (pro)", "Suíça", "Kansas City Stadium, Kansas City", "Argentina", "Argentina: Alexis Mac Allister 10' (cab); Julián Álvarez 112'; Lautaro Martínez 120+1' | Suíça: Dan Ndoye 67'"),
+        m("Semifinal", "14 de julho", "França", "0 - 2", "Espanha", "AT&T Stadium, Arlington", "Espanha", "Espanha: Mikel Oyarzabal 22' (pen); Pedro Porro 58'"),
+        m("Semifinal", "15 de julho", "Inglaterra", "1 - 2", "Argentina", "Mercedes-Benz Stadium, Atlanta", "Argentina", "Inglaterra: Anthony Gordon 55' | Argentina: Enzo Fernández 85'; Lautaro Martínez 90+2'"),
     ]
     seen = {(p.get("fase"), p.get("data"), p.get("time1"), p.get("placar"), p.get("time2")) for p in matches}
     for item in updates:
@@ -468,7 +476,11 @@ def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
         if key not in seen:
             matches.append(item)
             seen.add(key)
-    info.update({"jogos": max(to_int(info.get("jogos")), 96), "gols": max(to_int(info.get("gols")), 280)})
+    info.update({
+        "jogos": max(to_int(info.get("jogos")), 102),
+        "gols": max(to_int(info.get("gols")), 297),
+        "artilheiro": "8 gols: Lionel Messi Kylian Mbappé",
+    })
 
 
 def parse_2026(title: str, path: Path, tables: list[pd.DataFrame]) -> dict:
@@ -2309,6 +2321,26 @@ def build_match_details() -> dict:
     return {str(year): _build_match_details_for_year(year) for year in (1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022)}
 
 
+def load_detailed_goals() -> dict:
+    if GOLS_DETALHADOS_FILE.exists():
+        return json.loads(GOLS_DETALHADOS_FILE.read_text(encoding="utf-8"))
+    return {
+        "fonte": {
+            "nome": "StatsBomb Open Data",
+            "url": "https://github.com/statsbomb/open-data",
+            "observacao": "Execute gerar_gols_detalhados_statsbomb.py para gerar a base detalhada de gols.",
+        },
+        "cobertura": [],
+        "gols": [],
+    }
+
+
+def load_analytic_goals() -> dict:
+    if GOLS_ANALITICOS_FILE.exists():
+        return json.loads(GOLS_ANALITICOS_FILE.read_text(encoding="utf-8"))
+    return {"metadata": {"descricao": "Execute gerar_base_analitica_gols.py para gerar a base analitica de gols."}, "gols": [], "auditoria": []}
+
+
 def build_payload() -> dict:
     main = parse_main()
     cups = [parse_worldcup_page(year) for year in YEARS]
@@ -2342,6 +2374,8 @@ def build_payload() -> dict:
         "selecoes": selections,
         "artilheiros_selecao": scorers,
         "gols_contra_selecao": owngoals,
+        "gols_detalhados": load_detailed_goals(),
+        "gols_analiticos": load_analytic_goals(),
         "melhor_ataque_defesa": build_best_atk_def(cups),
         "curados": {
             "artilheiros_historico": ARTILHEIROS_HISTORICO,
@@ -2371,7 +2405,7 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
 .shell{max-width:1480px;margin:0 auto;padding:22px}.toolbar{display:grid;grid-template-columns:repeat(4,minmax(170px,1fr));gap:12px;margin-bottom:18px}label{display:grid;gap:6px;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.08em}select,input{width:100%;min-height:40px;color:var(--text);background:#0b1b15;border:1px solid var(--line);border-radius:8px;padding:0 10px;outline:none}
 .kpis{display:grid;grid-template-columns:repeat(6,minmax(130px,1fr));gap:12px;margin:0 0 14px}.kpi{background:linear-gradient(180deg,rgba(19,44,33,.98),rgba(11,27,21,.98));border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:var(--shadow)}.kpi b{display:block;font-size:27px;line-height:1.1}.kpi span{display:block;color:var(--muted);font-size:12px;margin-top:6px}
 .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.card{background:linear-gradient(180deg,rgba(19,44,33,.96),rgba(9,23,18,.96));border:1px solid var(--line);border-radius:8px;padding:14px;box-shadow:var(--shadow);min-width:0}.span-3{grid-column:span 3}.span-4{grid-column:span 4}.span-5{grid-column:span 5}.span-6{grid-column:span 6}.span-7{grid-column:span 7}.span-8{grid-column:span 8}.span-12{grid-column:span 12}.card h2,.card h3{margin:0 0 12px;font-size:16px;letter-spacing:0}.chart{width:100%;height:380px}.chart.small{height:295px}.chart.ranking-all{height:1480px}.chart-scroll{height:440px;overflow-y:auto;overflow-x:hidden;border:1px solid var(--line);border-radius:8px;background:rgba(7,19,15,.35)}.card-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 12px}.card-head h2{margin:0}.rank-toggle{color:var(--text);background:#10251c;border:1px solid var(--line);border-radius:6px;padding:5px 10px;font-size:11px;cursor:pointer;white-space:nowrap}.rank-toggle:hover{border-color:var(--grass)}.rank-list{display:grid;gap:6px;padding:6px 6px 6px 4px}.rank-row{display:grid;grid-template-columns:142px 1fr 48px;align-items:center;gap:9px;font-size:13px}.rank-label{min-width:0;overflow:hidden}.rank-label .inline-flag{width:26px;height:18px}.rank-bar-wrap{height:18px;background:rgba(255,255,255,.06);border-radius:4px;overflow:hidden}.rank-bar{height:100%;border-radius:4px;min-width:2px}.rank-val{text-align:right;font-variant-numeric:tabular-nums;color:var(--text)}.rank-row:hover{background:rgba(255,255,255,.05);border-radius:4px}.rank-tip{position:fixed;z-index:60;pointer-events:none;background:#0b1b15;border:1px solid var(--line);border-radius:6px;padding:6px 10px;font-size:12px;color:var(--text);box-shadow:var(--shadow);white-space:nowrap;opacity:0;transition:opacity .08s;left:0;top:0}.rank-tip.show{opacity:1}.podium-legend{display:flex;flex-wrap:wrap;gap:12px;margin:0 0 10px;font-size:11px;color:var(--muted)}.podium-legend span{display:inline-flex;align-items:center;gap:5px}.podium-legend i{width:11px;height:11px;border-radius:2px;display:inline-block}.podium-bar{display:flex;height:100%;border-radius:4px;overflow:hidden;min-width:2px}.podium-seg{height:100%}
-.timeline{--row-h:242px;--line-y:112px;position:relative;display:grid;gap:0;overflow:visible;padding:0 48px}.timeline-path{position:absolute;left:48px;right:48px;top:0;height:100%;width:calc(100% - 96px);z-index:1;overflow:visible;pointer-events:none}.timeline-path path{fill:none;stroke:var(--gold);stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.timeline-row{position:relative;display:grid;grid-template-columns:repeat(8,minmax(108px,1fr));min-height:var(--row-h);overflow:visible;z-index:2}.cup-card{position:relative;min-height:230px;padding:0 7px;cursor:pointer}.cup-card::before{content:"";position:absolute;left:50%;top:var(--line-y);width:13px;height:13px;transform:translate(-50%,-4px);border-radius:50%;background:var(--text);box-shadow:0 0 0 5px rgba(245,196,81,.24);z-index:4}.cup-card.active::before{background:var(--grass);box-shadow:0 0 0 6px rgba(34,197,94,.28)}.cup-card.active .event-box{border-color:var(--grass);background:rgba(34,197,94,.1)}.event-box{position:absolute;left:5px;right:5px;border:1px solid rgba(255,255,255,.11);background:rgba(11,27,21,.96);border-radius:8px;padding:8px 9px;min-height:58px;z-index:5}.cup-card.above .event-box{bottom:150px}.cup-card.below .event-box{top:154px}.event-year,.event-winner{display:block;font-size:14px;font-weight:400;color:var(--text);line-height:1.22}.event-host{display:block;color:var(--muted);font-size:11px;margin-top:3px;line-height:1.25}.event-stem{position:absolute;left:50%;top:calc(var(--line-y) + 8px);width:2px;height:34px;background:var(--gold);opacity:.78;z-index:3}.cup-card.above .event-stem{top:auto;bottom:142px;height:34px}
+.timeline{--row-h:242px;--line-y:112px;position:relative;display:grid;gap:0;overflow:visible;padding:0 48px}.timeline-desktop{position:relative}.timeline-mobile{display:none}.timeline-path{position:absolute;left:48px;right:48px;top:0;height:100%;width:calc(100% - 96px);z-index:1;overflow:visible;pointer-events:none}.timeline-path path{fill:none;stroke:var(--gold);stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.timeline-row{position:relative;display:grid;grid-template-columns:repeat(8,minmax(108px,1fr));min-height:var(--row-h);overflow:visible;z-index:2}.cup-card{position:relative;min-height:230px;padding:0 7px;cursor:pointer}.cup-card::before{content:"";position:absolute;left:50%;top:var(--line-y);width:13px;height:13px;transform:translate(-50%,-4px);border-radius:50%;background:var(--text);box-shadow:0 0 0 5px rgba(245,196,81,.24);z-index:4}.cup-card.active::before{background:var(--grass);box-shadow:0 0 0 6px rgba(34,197,94,.28)}.cup-card.active .event-box{border-color:var(--grass);background:rgba(34,197,94,.1)}.event-box{position:absolute;left:5px;right:5px;border:1px solid rgba(255,255,255,.11);background:rgba(11,27,21,.96);border-radius:8px;padding:8px 9px;min-height:58px;z-index:5}.cup-card.above .event-box{bottom:150px}.cup-card.below .event-box{top:154px}.event-year,.event-winner{display:block;font-size:14px;font-weight:400;color:var(--text);line-height:1.22}.event-host{display:block;color:var(--muted);font-size:11px;margin-top:3px;line-height:1.25}.event-stem{position:absolute;left:50%;top:calc(var(--line-y) + 8px);width:2px;height:34px;background:var(--gold);opacity:.78;z-index:3}.cup-card.above .event-stem{top:auto;bottom:142px;height:34px}
 .table-wrap{overflow:auto;max-height:360px;border:1px solid var(--line);border-radius:8px}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:9px 10px;border-bottom:1px solid rgba(255,255,255,.08);text-align:left;white-space:nowrap}th{position:sticky;top:0;z-index:1;background:#10251c;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.07em}td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}.hidden{display:none}.note{color:var(--muted);font-size:12px;line-height:1.45;margin-top:10px}.scorers-wrap{display:grid;gap:2px}.ts-cup{display:grid;grid-template-columns:154px 1fr;gap:14px;align-items:start;padding:11px 2px;border-top:1px solid var(--line)}.ts-cup:first-child{border-top:0}.ts-head{display:flex;flex-direction:column;gap:4px}.ts-year{font-size:19px;font-weight:800;line-height:1}.ts-fin{font-size:11px;font-weight:700;color:var(--muted)}.ts-fin.r1{color:var(--gold)}.ts-fin.r2{color:#cbd5e1}.ts-fin.r3{color:#cd7f32}.ts-total{font-size:11px;color:var(--muted);font-variant-numeric:tabular-nums}.ts-body{display:grid;gap:7px;min-width:0}.ts-players{display:flex;flex-wrap:wrap;gap:6px;padding-top:1px}.ts-chip{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:999px;padding:4px 11px;font-size:12.5px}.ts-chip b{color:var(--gold);font-variant-numeric:tabular-nums}.ts-chip.top{border-color:rgba(245,196,81,.55);background:rgba(245,196,81,.12)}.ts-none{color:var(--muted);font-style:italic;font-size:12.5px}.ts-og{font-size:11.5px;color:var(--muted);line-height:1.4;border-left:2px solid rgba(251,113,133,.5);padding-left:9px}.ts-og b{color:#fca5b5;font-weight:700}.ts-og span{opacity:.8}.ad-num{font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap;margin-left:5px}.ad-atk{color:var(--gold)}.ad-def{color:var(--blue)}#tbl-atkdef td{white-space:nowrap}.phase-stack{display:grid;gap:12px}.phase-title{display:flex;justify-content:space-between;gap:12px;color:var(--gold);font-weight:800}.groups-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.group-block{border:1px solid var(--line);border-radius:8px;padding:12px;background:rgba(7,19,15,.36);min-width:0}.group-block .table-wrap{max-height:none}.group-section-title{margin:12px 0 8px;color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.07em}.qualified-row{background:rgba(34,197,94,.13)}.qualified-row td:nth-child(2){color:var(--grass);font-weight:800}.knockout-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.match-card{border:1px solid var(--line);border-radius:8px;background:rgba(7,19,15,.42);padding:12px;display:grid;gap:9px;cursor:pointer}.match-meta{display:flex;justify-content:space-between;gap:10px;color:var(--muted);font-size:12px}.scoreline{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:10px;align-items:center}.scoreline strong{font-size:15px;line-height:1.25}.scoreline .right{text-align:right}.score{color:var(--gold);font-size:18px;font-weight:800;font-variant-numeric:tabular-nums}.winner{color:var(--grass)}.match-detail{color:var(--muted);font-size:12px;line-height:1.45;white-space:normal}.format-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.format-card{border:1px solid var(--line);border-radius:8px;padding:12px;background:rgba(7,19,15,.42)}.format-card strong{display:block;font-size:18px;margin-bottom:6px}.format-card span{display:block;color:var(--muted);font-size:12px;line-height:1.35}.format-note{border:1px solid rgba(245,196,81,.38);background:rgba(245,196,81,.08);border-radius:8px;padding:12px;color:#ffe49a;line-height:1.45}.legacy-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .match-card.selected-match{border-color:var(--gold);background:rgba(245,196,81,.1)}.match-row{cursor:pointer}.match-row.selected-match td{background:rgba(245,196,81,.11)}.match-detail-panel{display:grid;gap:14px}.detail-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.detail-card{border:1px solid var(--line);border-radius:8px;padding:12px;background:rgba(7,19,15,.42)}.detail-card b{display:block;font-size:20px}.detail-card span{display:block;color:var(--muted);font-size:12px;margin-top:5px}.selected-game{border:1px solid rgba(245,196,81,.42);border-radius:8px;padding:14px;background:rgba(245,196,81,.07)}.selected-game .scoreline{margin:8px 0}.scorers-box{border-top:1px solid rgba(255,255,255,.09);padding-top:10px;color:var(--muted);line-height:1.5;white-space:normal}
 .game-scoreboard{border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:18px 20px;background:linear-gradient(180deg,rgba(20,20,22,.96),rgba(16,16,18,.96));box-shadow:var(--shadow)}.game-top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:14px;color:#d1d5db;font-size:15px}.game-status{color:#f4fff8;font-weight:800}.game-main{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:28px;align-items:center;margin:22px 0 12px}.game-team{text-align:center;display:grid;gap:10px;justify-items:center}.team-badge{width:58px;height:40px;border:2px solid rgba(255,255,255,.72);border-radius:5px;display:grid;place-items:center;background:linear-gradient(90deg,rgba(255,255,255,.2),rgba(255,255,255,.06));font-weight:900;color:#fff;overflow:hidden}.flag-img{width:100%;height:100%;object-fit:cover;display:block}.team-label{display:inline-flex;align-items:center;gap:7px;min-width:0}.inline-flag{width:22px;height:15px;object-fit:cover;border:1px solid rgba(255,255,255,.35);border-radius:2px;flex:0 0 auto}.game-team b{font-size:19px}.game-score{display:grid;grid-template-columns:auto auto auto;gap:26px;align-items:center;font-size:42px;font-weight:800;font-variant-numeric:tabular-nums}.game-score span:nth-child(2){color:#9ca3af;font-size:30px}.game-phase{text-align:center;color:#aeb7c2;margin-bottom:20px}.goal-timeline{display:grid;gap:8px;color:#b8c2cc}.goal-event{display:grid;grid-template-columns:minmax(0,1fr) 66px minmax(0,1fr);gap:12px;align-items:center}.goal-event .minute{text-align:center;color:var(--gold);font-weight:800;font-variant-numeric:tabular-nums}.goal-event .left{text-align:left}.goal-event .right{text-align:right}.goal-event .blank{min-height:1px}.group-match-detail{margin-top:12px}.group-match-detail .game-scoreboard{box-shadow:none}.game-extra{border-top:1px solid rgba(255,255,255,.1);margin-top:16px;padding-top:10px;color:#9ca3af;font-size:12px;line-height:1.45}
@@ -2380,9 +2414,10 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
 .mm-head{text-align:center;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:16px}.mm-teams{display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:center}.mm-team{display:grid;gap:8px;justify-items:center}.mm-team b{font-size:18px}.mm-team .team-badge,.mm-team .flag-img{width:56px;height:38px}.mm-score{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;display:flex;gap:12px;align-items:center}.mm-score span{color:#9ca3af;font-size:24px}.mm-sub{color:var(--muted);font-size:13px;margin-top:10px}
 .mm-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:10px;margin-bottom:20px}.mm-meta-item{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:8px;padding:9px 12px}.mm-meta-item span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}.mm-meta-item b{font-size:14px}.mm-h3{margin:0 0 12px;font-size:15px;color:var(--gold)}
 .mm-lineups{display:grid;grid-template-columns:1fr 1fr;gap:18px}.lu-team{min-width:0}.lu-head{font-weight:800;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line)}.lu-head .inline-flag{width:26px;height:18px}.lu-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}.lu-list li{display:grid;grid-template-columns:26px 34px 1fr;gap:8px;align-items:center;padding:4px 6px;border-radius:4px;font-size:13px}.lu-list li:hover{background:rgba(255,255,255,.05)}.lu-num{text-align:right;color:var(--gold);font-variant-numeric:tabular-nums;font-weight:700}.lu-pos{color:var(--muted);font-size:11px;font-weight:700}.lu-name{display:inline;min-width:0}.goal-balls{display:inline-flex;gap:2px;align-items:center;margin-left:6px;vertical-align:-1px}.goal-ball{font-size:12px;line-height:1}.lu-res{opacity:.82}.lu-subhead{margin:11px 0 4px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}.lu-coach{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:13px}.lu-coach span{color:var(--muted)}
+.goals-toolbar{grid-template-columns:repeat(2,minmax(180px,260px))}.goals-table{max-height:520px}
 @media(max-width:720px){.mm-lineups{grid-template-columns:1fr}.mm-teams{gap:8px}.mm-team b{font-size:15px}}
 .bracket-board{position:relative;overflow-x:auto;border:1px solid rgba(255,255,255,.15);border-radius:8px;padding:20px;background:radial-gradient(circle at 18% 72%,rgba(245,196,81,.18),transparent 24%),radial-gradient(circle at 82% 30%,rgba(34,197,94,.14),transparent 26%),linear-gradient(135deg,#123e8f,#162fa4 48%,#0d286e);box-shadow:inset 0 0 55px rgba(255,255,255,.06)}.bracket-head{text-align:center;margin-bottom:18px}.bracket-head b{display:block;font-size:clamp(28px,4vw,54px);line-height:.9;letter-spacing:.04em;text-transform:uppercase}.bracket-head span{display:block;margin-top:6px;color:#dbeafe;font-size:16px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.bracket-stage{display:grid;grid-template-columns:minmax(132px,1fr) minmax(132px,1fr) minmax(132px,1fr) minmax(150px,.86fr) minmax(132px,1fr) minmax(132px,1fr) minmax(132px,1fr);gap:18px;align-items:center;min-width:1080px}.bracket-col{display:grid;gap:16px}.bracket-col.r16{gap:9px}.bracket-col.qf{gap:54px}.bracket-col.sf{gap:126px}.bracket-col.right .bracket-match::before,.bracket-col.left .bracket-match::after{content:"";position:absolute;top:50%;width:18px;border-top:2px solid rgba(226,241,255,.72)}.bracket-col.left .bracket-match::after{right:-19px}.bracket-col.right .bracket-match::before{left:-19px}.bracket-center{display:grid;gap:14px;align-items:center;justify-items:center}.bracket-trophy{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);font-size:13px;font-weight:900;letter-spacing:.04em}.bracket-final-label{color:#dbeafe;font-size:11px;text-transform:uppercase;letter-spacing:.14em}.bracket-match{position:relative;border:1px solid rgba(255,255,255,.22);border-radius:7px;background:rgba(5,17,48,.76);padding:7px;display:grid;gap:5px;cursor:pointer;min-height:64px}.bracket-match.selected-match{border-color:var(--gold);box-shadow:0 0 0 2px rgba(245,196,81,.25);background:rgba(9,31,78,.92)}.bracket-team{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;align-items:center;font-size:12px;line-height:1.2}.bracket-team b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bracket-team span{color:var(--gold);font-weight:800;font-variant-numeric:tabular-nums}.bracket-team.winner b{color:#86efac}.bracket-meta{color:#dbeafe;font-size:10px;line-height:1.3;opacity:.82;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.bracket-third{width:100%;border-top:1px solid rgba(255,255,255,.14);padding-top:12px}.bracket-empty{min-height:28px}
-@media(max-width:1100px){.hero,.toolbar{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:repeat(3,1fr)}.span-3,.span-4,.span-5,.span-6,.span-7,.span-8{grid-column:span 12}.groups-grid,.legacy-groups,.knockout-grid{grid-template-columns:1fr}.format-grid,.detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bracket-board{padding:16px}.bracket-stage{min-width:980px}}@media(max-width:720px){.hero,.toolbar{grid-template-columns:1fr;padding-left:14px;padding-right:14px}.shell{padding:14px}.kpis{grid-template-columns:1fr 1fr}.chart{height:330px}.format-grid,.detail-grid{grid-template-columns:1fr}.scoreline{grid-template-columns:1fr;gap:5px}.scoreline .right{text-align:left}.game-top{grid-template-columns:1fr}.game-main{grid-template-columns:1fr;gap:14px}.game-score{justify-content:center;font-size:34px}.game-scorers{grid-template-columns:1fr}.scorer-list.right{text-align:left}.scorer-ball{display:none}.bracket-head b{font-size:30px}.bracket-head span{font-size:12px}.timeline{--row-h:218px;--line-y:104px;padding:0 16px}.timeline-path{left:16px;right:16px;width:calc(100% - 32px)}.timeline-row{grid-template-columns:repeat(2,minmax(126px,1fr));min-height:var(--row-h)}.cup-card{min-height:206px}.cup-card.above .event-box{bottom:132px}.cup-card.below .event-box{top:138px}.cup-card.above .event-stem{bottom:124px}.event-year,.event-winner{font-size:14px}}
+@media(max-width:1100px){.hero,.toolbar{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:repeat(3,1fr)}.span-3,.span-4,.span-5,.span-6,.span-7,.span-8{grid-column:span 12}.groups-grid,.legacy-groups,.knockout-grid{grid-template-columns:1fr}.format-grid,.detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bracket-board{padding:16px}.bracket-stage{min-width:980px}}@media(max-width:720px){.hero,.toolbar{grid-template-columns:1fr;padding-left:14px;padding-right:14px}.shell{padding:14px}.kpis{grid-template-columns:1fr 1fr}.chart{height:330px}.format-grid,.detail-grid{grid-template-columns:1fr}.scoreline{grid-template-columns:1fr;gap:5px}.scoreline .right{text-align:left}.game-top{grid-template-columns:1fr}.game-main{grid-template-columns:1fr;gap:14px}.game-score{justify-content:center;font-size:34px}.game-scorers{grid-template-columns:1fr}.scorer-list.right{text-align:left}.scorer-ball{display:none}.bracket-head b{font-size:30px}.bracket-head span{font-size:12px}.timeline{--row-h:154px;--line-y:78px;padding:0 8px}.timeline-desktop{display:none}.timeline-mobile{display:block;position:relative;padding:8px 0 18px;overflow:visible}.timeline-mobile::before{display:none}.timeline-mobile-path{position:absolute;inset:8px 8px 18px 8px;width:calc(100% - 16px);height:calc(100% - 26px);z-index:1;overflow:visible;pointer-events:none}.timeline-mobile-path path{fill:none;stroke:var(--gold);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.timeline-mobile .timeline-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));min-height:var(--row-h);position:relative;z-index:2}.timeline-mobile .cup-card{min-height:var(--row-h);padding:0 5px}.timeline-mobile .cup-card::before{top:var(--line-y);left:50%;width:13px;height:13px;transform:translate(-50%,-50%)}.timeline-mobile .event-box{left:5px;right:5px;width:auto;min-height:48px;padding:7px 8px}.timeline-mobile .cup-card.above .event-box{bottom:96px}.timeline-mobile .cup-card.below .event-box{top:96px}.timeline-mobile .event-stem{left:50%;width:2px;height:16px;background:var(--gold);opacity:.9}.timeline-mobile .cup-card.above .event-stem{top:calc(var(--line-y) - 18px);bottom:auto}.timeline-mobile .cup-card.below .event-stem{top:calc(var(--line-y) + 8px)}.event-year,.event-winner{font-size:13px}.timeline-mobile .inline-flag{width:20px;height:14px}}
 </style>
 </head>
 <body>
@@ -2393,7 +2428,7 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
   </div>
   <aside class="hero-meta"><div id="hero-trofeus"></div><div id="hero-cartaz" class="hidden"><img id="cartaz-img" alt="Cartaz da edição" /></div><div id="hero-bandeira" class="hidden"></div></aside>
 </header>
-<nav class="nav" id="nav"><button data-view="geral" class="active">Geral das Copas</button><button data-view="copa">Por Copa</button><button data-view="selecao">Por Seleção</button></nav>
+<nav class="nav" id="nav"><button data-view="geral" class="active">Geral das Copas</button><button data-view="gols">Gols</button><button data-view="copa">Por Copa</button><button data-view="selecao">Por Seleção</button></nav>
 <main class="shell">
   <section id="view-geral">
     <div class="kpis" id="kpis-geral"></div>
@@ -2411,6 +2446,21 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
       <article class="card span-6"><h2>Maiores artilheiros em Copas</h2><div id="ch-artilheiros-historico" class="chart"></div><span class="note">Inclui a Copa de 2026 em andamento: Messi (13&rarr;20) e Mbappé (12&rarr;19) somam +7 gols cada. Lista parcial &mdash; outros jogadores ativos podem subir até o fim do torneio.</span></article>
       <article class="card span-6"><h2>Artilheiro por edição</h2><div id="ch-artilheiros-edicao" class="chart"></div></article>
       <article class="card span-12"><h2>Maiores goleadas</h2><div class="table-wrap"><table id="tbl-goleadas"></table></div></article>
+    </div>
+  </section>
+
+  <section id="view-gols" class="hidden">
+    <div class="toolbar goals-toolbar">
+      <label>Ano<select id="goal-year"></select></label>
+      <label>Seleção<select id="goal-team"></select></label>
+    </div>
+    <div class="kpis" id="kpis-gols"></div>
+    <div class="grid">
+      <article class="card span-6"><h2>Gols por faixa de minuto</h2><div id="ch-goals-minute" class="chart small"></div></article>
+      <article class="card span-6"><h2>Gols por edição</h2><div id="ch-goals-edicao" class="chart small"></div></article>
+      <article class="card span-6"><h2>Jogadores com mais gols</h2><div id="ch-goals-players" class="chart"></div></article>
+      <article class="card span-6"><h2>Seleções com mais gols</h2><div id="ch-goals-teams" class="chart"></div></article>
+      <article class="card span-12"><h2>Todos os gols</h2><div class="table-wrap goals-table"><table id="tbl-goals"></table></div></article>
     </div>
   </section>
 
@@ -2448,6 +2498,8 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
 <div id="match-modal" class="modal-overlay hidden"><div class="modal-box"><button class="modal-close" id="modal-close" aria-label="Fechar">&times;</button><div id="modal-content"></div></div></div>
 <script>
 const DATA = __DATA_PAYLOAD__;
+const GOLS_DET = ((DATA.gols_detalhados && DATA.gols_detalhados.gols) || []).filter(g=>g.periodo!==5);
+let ALL_GOALS = [];
 const nf = new Intl.NumberFormat("pt-BR");
 const num = v => Number(String(v ?? "0").replace(/[^\d.-]/g,"")) || 0;
 const fmt = v => nf.format(num(v));
@@ -2479,9 +2531,10 @@ const FORMATOS_EDICAO = {
   1978:"Primeira fase em grupos, segunda fase em grupos e finais.",
   1982:"Primeira fase em grupos, segunda fase em grupos e mata-mata final."
 };
-let state = {view:"geral", cup:2022, q:"", phase:"", cupTeam:"", selectedMatch:"", team:"Brasil", teamQ:"", teamSort:"titulos", teamLimit:25, rankMode:"total"};
+let state = {view:"geral", cup:2022, q:"", phase:"", cupTeam:"", selectedMatch:"", team:"Brasil", teamQ:"", teamSort:"titulos", teamLimit:25, rankMode:"total", goalYear:"", goalTeam:"", goalType:"", goalBody:"", goalZone:""};
 
 function init(){
+  ALL_GOALS = buildGoalDataset();
   document.getElementById("nav").onclick = e => { if(e.target.tagName!=="BUTTON") return; state.view=e.target.dataset.view; switchView(); };
   fillSelect("cup-select", DATA.copas.map(c=>[c.ano, `${c.ano} - ${editionHost(c.ano)}`]));
   document.getElementById("cup-select").value = state.cup;
@@ -2489,11 +2542,12 @@ function init(){
   fillSelect("team-select", DATA.selecoes.map(s=>s.selecao).sort((a,b)=>a.localeCompare(b,"pt-BR")).map(s=>[s,s]));
   document.getElementById("team-select").value = state.team;
   document.getElementById("team-select").onchange = e => { state.team=e.target.value; renderSelecao(); };
+  initGoalFilters();
   document.querySelectorAll("[data-rank-toggle]").forEach(b=>b.onclick=()=>{state.rankMode=state.rankMode==="pct"?"total":"pct"; renderRankings();});
   initRankTips();
-  renderTrofeus(); renderGeral(); renderCopa(); renderSelecao();
+  renderTrofeus(); renderGeral(); renderGols(); renderCopa(); renderSelecao();
 }
-function switchView(){document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===state.view));["geral","copa","selecao"].forEach(v=>document.getElementById("view-"+v).classList.toggle("hidden",v!==state.view)); document.getElementById("hero-trofeus").classList.toggle("hidden",state.view!=="geral"); document.getElementById("hero-cartaz").classList.toggle("hidden",state.view!=="copa"); document.getElementById("hero-bandeira").classList.toggle("hidden",state.view!=="selecao"); setTimeout(()=>{ if(state.view==="geral") renderGeral(); if(state.view==="copa") renderCopa(); if(state.view==="selecao") renderSelecao(); window.dispatchEvent(new Event("resize")); },20);}
+function switchView(){document.querySelectorAll(".nav button").forEach(b=>b.classList.toggle("active",b.dataset.view===state.view));["geral","gols","copa","selecao"].forEach(v=>document.getElementById("view-"+v).classList.toggle("hidden",v!==state.view)); document.getElementById("hero-trofeus").classList.toggle("hidden",state.view!=="geral"); document.getElementById("hero-cartaz").classList.toggle("hidden",state.view!=="copa"); document.getElementById("hero-bandeira").classList.toggle("hidden",state.view!=="selecao"); setTimeout(()=>{ if(state.view==="geral") renderGeral(); if(state.view==="gols") renderGols(); if(state.view==="copa") renderCopa(); if(state.view==="selecao") renderSelecao(); window.dispatchEvent(new Event("resize")); },20);}
 function renderTrofeus(){document.getElementById("hero-trofeus").innerHTML=`<div class="trofeus-grid">${TROFEUS.map(t=>`<figure><img src="${t.img}" alt="${esc(t.label)}"><figcaption><b>${esc(t.label)}</b>${esc(t.periodo)}</figcaption></figure>`).join("")}</div>`;}
 function updateHeroCartaz(c){const img=document.getElementById("cartaz-img"), src=POSTERS[c.ano]||""; img.alt=`Cartaz da Copa de ${c.ano}`; if(src){img.src=src; img.classList.remove("hidden");}else{img.removeAttribute("src"); img.classList.add("hidden");}}
 function updateHeroBandeira(){const host=document.getElementById("hero-bandeira"), t=state.team, src=t&&flagSrc(t); host.innerHTML= src ? `<img class="hero-flag-img" src="${src}" alt="${esc(t)}"><span class="note">${esc(t)}</span>` : `<span class="note">Escolha uma seleção acima para ver a bandeira.</span>`;}
@@ -2510,6 +2564,131 @@ function renderResumo(c,e){
   document.getElementById("tbl-copa-resumo").innerHTML=`<thead><tr><th>Item</th><th>Valor</th></tr></thead><tbody>${rows.map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v}</td></tr>`).join("")}</tbody>`;
 }
 function cup(){return DATA.copas.find(c=>c.ano===state.cup) || DATA.copas[DATA.copas.length-1];}
+
+function buildGoalDataset(){
+  const analytic=(DATA.gols_analiticos&&DATA.gols_analiticos.gols)||[];
+  if(analytic.length){
+    return analytic.map(g=>{
+      const s=scoreParts(g.placar||"");
+      const official=g.tipo_oficial==="penalti"?"Pênalti":(g.tipo_oficial==="gol_contra"?"Gol contra":(g.tipo_oficial==="indefinido"?"Não identificado":"Não detalhado"));
+      return {
+        ano:g.edicao,
+        fase:g.fase,
+        grupo:g.grupo,
+        mandante:g.time_1,
+        visitante:g.time_2,
+        placar_mandante:s[0],
+        placar_visitante:s[1],
+        data:g.data,
+        estadio:g.estadio,
+        selecao:g.selecao,
+        jogador:g.jogador,
+        minuto:g.minuto,
+        minuto_label:g.minuto_texto,
+        texto_original:g.texto_original,
+        situacao:g.situacao||"Não informado",
+        fonte_situacao:g.fonte_situacao||"",
+        tipo_chute_pt:g.tipo_tecnico&&g.tipo_tecnico!=="Não detalhado"?g.tipo_tecnico:official,
+        eh_penalti:!!g.eh_penalti,
+        fonte_tecnica:g.fonte_tecnica||g.fonte_oficial||"",
+      };
+    });
+  }
+  const techByKey={};
+  GOLS_DET.forEach(g=>{
+    const k=goalTechKey(g.ano,g.selecao,g.minuto);
+    (techByKey[k] ||= []).push(g);
+  });
+  const out=[];
+  DATA.copas.forEach(c=>{
+    c.partidas.forEach(p=>{
+      goalEvents(rawScorersForMatch(c,p),p).forEach(ev=>{
+        const minute=Math.floor(goalMinute(ev.text));
+        if(minute>=999) return;
+        const jogador=goalScorerName(ev.text) || "Não informado";
+        const own=/g\.?c\.?|contra|own goal/i.test(ev.text);
+        const pen=/pen|pênalti|penalti/i.test(ev.text);
+        const tech=(techByKey[goalTechKey(c.ano,ev.team,minute)]||[]).shift();
+        out.push({
+          ano:c.ano,
+          fase:p.fase||"",
+          grupo:p.grupo||"",
+          mandante:p.time1,
+          visitante:p.time2,
+          placar_mandante:scoreParts(p.placar)[0],
+          placar_visitante:scoreParts(p.placar)[1],
+          data:p.data||"",
+          estadio:p.estadio||"",
+          selecao:ev.team,
+          jogador,
+          minuto:minute,
+          minuto_label:goalMinuteLabel(ev.text),
+          texto_original:ev.text,
+          situacao: tech ? (tech.situacao||"Não informado") : (own ? "Gol contra" : (pen ? "Pênalti" : "Não informado")),
+          fonte_situacao: tech ? "StatsBomb Open Data" : "",
+          tipo_chute_pt: tech ? tech.tipo_chute_pt : (own ? "Gol contra" : (pen ? "Pênalti" : "Não detalhado")),
+          parte_corpo_pt: tech ? tech.parte_corpo_pt : "Não detalhado",
+          zona: tech ? tech.zona : "Não detalhado",
+          xg: tech ? tech.xg : null,
+          distancia_m: tech ? tech.distancia_m : null,
+          eh_penalti: tech ? tech.eh_penalti : pen,
+          eh_falta: tech ? tech.eh_falta : false,
+          eh_cabeca: tech ? tech.eh_cabeca : false,
+          fonte_tecnica: tech ? "StatsBomb" : "Wikipedia",
+        });
+      });
+    });
+  });
+  return out.sort((a,b)=>a.ano-b.ano || a.minuto-b.minuto);
+}
+function goalTechKey(year,team,minute){return `${year}|${detNorm(team)}|${Math.floor(num(minute))}`;}
+
+function initGoalFilters(){
+  fillGoalSelect("goal-year", [["","Todos os anos"], ...uniq(ALL_GOALS.map(g=>g.ano)).sort((a,b)=>b-a).map(y=>[y,y])], "goalYear");
+  fillGoalSelect("goal-team", [["","Todas as seleções"], ...uniq(ALL_GOALS.map(g=>g.selecao)).sort((a,b)=>a.localeCompare(b,"pt-BR")).map(t=>[t,t])], "goalTeam");
+}
+function fillGoalSelect(id, rows, key){
+  fillSelect(id, rows);
+  document.getElementById(id).value = state[key] || "";
+  document.getElementById(id).onchange = e => { state[key]=e.target.value; renderGols(); };
+}
+function filteredDetailedGoals(){
+  return ALL_GOALS.filter(g=>
+    (!state.goalYear || String(g.ano)===String(state.goalYear)) &&
+    (!state.goalTeam || g.selecao===state.goalTeam)
+  );
+}
+function renderGols(){
+  const rows=filteredDetailedGoals();
+  const total=rows.length;
+  const pen=rows.filter(g=>g.eh_penalti||g.situacao==="Pênalti").length;
+  const og=rows.filter(g=>g.situacao==="Gol contra").length;
+  const teams=uniq(rows.map(g=>g.selecao)).length;
+  const players=uniq(rows.map(g=>g.jogador).filter(j=>j&&j!=="Não informado"&&j!=="Não identificado na fonte")).length;
+  document.getElementById("kpis-gols").innerHTML=kpis([
+    ["Gols na visão", total],
+    ["Pênaltis", pen],
+    ["Gols contra", og],
+    ["Seleções", teams],
+    ["Jogadores", players]
+  ]);
+  const minuteBins=["0-15","16-30","31-45","46-60","61-75","76-90","90+"];
+  const minuteRows=minuteBins.map(b=>[b,rows.filter(g=>minuteBucket(g.minuto)===b).length]);
+  Plotly.react("ch-goals-minute",[{type:"bar",x:minuteRows.map(r=>r[0]),y:minuteRows.map(r=>r[1]),marker:{color:COLORS[1],cornerradius:4},hoverinfo:"skip"}],layout({hovermode:false,xaxis:{type:"category"},yaxis:{title:"Gols"}}),PCFG);
+  const edRows=uniq(rows.map(g=>g.ano)).sort((a,b)=>a-b).map(y=>[String(y),rows.filter(g=>g.ano===y).length]);
+  renderGoalBar("ch-goals-edicao", edRows, "Gols", COLORS[0]);
+  barH("ch-goals-players", countRows(rows.filter(g=>g.jogador&&g.jogador!=="Não informado"&&g.jogador!=="Não identificado na fonte"),g=>g.jogador).slice(0,15), "Gols", COLORS[1]);
+  barH("ch-goals-teams", countRows(rows,g=>g.selecao).slice(0,15), "Gols", COLORS[0]);
+  table("tbl-goals",["Ano","Fase","Jogo","Min","Seleção","Jogador"],rows.slice().reverse().map(g=>[g.ano,g.fase,`${g.mandante} ${g.placar_mandante} x ${g.placar_visitante} ${g.visitante}`,goalMinuteText(g),g.selecao,g.jogador]),[0]);
+}
+function renderGoalBar(id, rows, title, color){
+  Plotly.react(id,[{type:"bar",x:rows.map(r=>r[0]),y:rows.map(r=>r[1]),marker:{color,cornerradius:4},text:rows.map(r=>r[1]),textposition:"outside",cliponaxis:false,hoverinfo:"skip"}],layout({hovermode:false,margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-25,automargin:true},yaxis:{title}}),PCFG);
+}
+function countBy(rows, fn){return rows.reduce((acc,row)=>{const k=fn(row)||"Não informado"; acc[k]=(acc[k]||0)+1; return acc;},{});}
+function countRows(rows, fn){return Object.entries(countBy(rows,fn)).sort((a,b)=>b[1]-a[1] || a[0].localeCompare(b[0],"pt-BR"));}
+function uniq(rows){return [...new Set(rows.filter(v=>v!==undefined && v!==null && v!==""))];}
+function minuteBucket(m){m=num(m); if(m<=15)return"0-15"; if(m<=30)return"16-30"; if(m<=45)return"31-45"; if(m<=60)return"46-60"; if(m<=75)return"61-75"; if(m<=90)return"76-90"; return"90+";}
+function goalMinuteText(g){if(g.minuto_label) return g.minuto_label; const m=g.minuto ?? ""; const s=num(g.segundo); return `${m}'${s?` ${String(s).padStart(2,"0")}s`:""}`;}
 
 function renderGeral(){
   const ed=DATA.geral.editions, sel=DATA.selecoes, totalJogos=edSum("jogos"), totalGols=edSum("gols");
@@ -2779,12 +2958,15 @@ function teamFlagHtml(name){const src=flagSrc(name); return src ? `<img class="f
 function teamLabelHtml(name){const src=flagSrc(name); return src ? `<span class="team-label"><img class="inline-flag" src="${src}" alt="">${esc(name)}</span>` : esc(name);}
 function cellHtml(v){return FLAG_CODES[v] ? teamLabelHtml(v) : esc(v);}
 function renderTimeline(id, ed, selectable){
-  const counts = {}, items = [];
+  const counts = {}, items = [], mobileItems = [];
   ed.forEach((e, idx)=>{
     const isOpen = e.futuro || !e.campeao || e.campeao === "Em aberto";
     if(!isOpen) counts[e.campeao] = (counts[e.campeao] || 0) + 1;
     const winner = isOpen ? esc(e.campeao && e.campeao !== "Em aberto" ? e.campeao : "Em aberto") : `${teamLabelHtml(e.campeao)} (${counts[e.campeao]})`;
-    items.push(`<div class="cup-card ${idx%2===0?"above":"below"} ${selectable&&e.ano===state.cup?"active":""}" data-year="${e.ano}"><span class="event-stem"></span><div class="event-box"><span class="event-year">${e.ano}</span><span class="event-winner">${winner}</span>${selectable?`<span class="event-host">${esc(e.sede)}</span>`:""}</div></div>`);
+    const active = selectable&&e.ano===state.cup ? "active" : "";
+    const content = `<span class="event-stem"></span><div class="event-box"><span class="event-year">${e.ano}</span><span class="event-winner">${winner}</span>${selectable?`<span class="event-host">${esc(e.sede)}</span>`:""}</div>`;
+    items.push(`<div class="cup-card ${idx%2===0?"above":"below"} ${active}" data-year="${e.ano}">${content}</div>`);
+    mobileItems.push(`<div class="cup-card ${idx%2===0?"above":"below"} ${active}" data-year="${e.ano}">${content}</div>`);
   });
   const rows = [];
   const perRow = 8;
@@ -2793,8 +2975,16 @@ function renderTimeline(id, ed, selectable){
     const reverse = Math.floor(i/perRow)%2===1;
     rows.push(`<div class="timeline-row ${reverse?"reverse":""}">${(reverse?[...chunk].reverse():chunk).join("")}</div>`);
   }
+  const mobileRows = [];
+  const perMobileRow = 2;
+  for(let i=0;i<mobileItems.length;i+=perMobileRow){
+    const chunk = mobileItems.slice(i,i+perMobileRow);
+    const reverse = Math.floor(i/perMobileRow)%2===1;
+    mobileRows.push(`<div class="timeline-row ${reverse?"reverse":""}">${(reverse?[...chunk].reverse():chunk).join("")}</div>`);
+  }
   const rowCount = rows.length;
-  document.getElementById(id).innerHTML=`<svg class="timeline-path" viewBox="0 0 1000 ${rowCount*242}" preserveAspectRatio="none" aria-hidden="true"><path d="${timelinePath(rowCount)}"></path></svg>${rows.join("")}`;
+  const mobileRowCount = mobileRows.length;
+  document.getElementById(id).innerHTML=`<div class="timeline-desktop"><svg class="timeline-path" viewBox="0 0 1000 ${rowCount*242}" preserveAspectRatio="none" aria-hidden="true"><path d="${timelinePath(rowCount)}"></path></svg>${rows.join("")}</div><div class="timeline-mobile"><svg class="timeline-mobile-path" viewBox="0 0 1000 ${mobileRowCount*154}" preserveAspectRatio="none" aria-hidden="true"><path d="${timelineMobilePath(mobileRowCount)}"></path></svg>${mobileRows.join("")}</div>`;
   if(selectable){document.getElementById(id).onclick=e=>{const card=e.target.closest(".cup-card"); if(!card)return; state.cup=+card.dataset.year; state.selectedMatch=""; renderCopa();};}
 }
 function timelinePath(rowCount){
@@ -2808,6 +2998,21 @@ function timelinePath(rowCount){
     }else{
       d+=` H ${row===rowCount-1?0:r}`;
       if(row<rowCount-1) d+=` Q 0 ${y} 0 ${y+r} V ${nextY-r} Q 0 ${nextY} ${r} ${nextY}`;
+    }
+  }
+  return d;
+}
+function timelineMobilePath(rowCount){
+  const rowH=154, y0=78, left=250, right=750, edgePad=78, r=38;
+  let d=`M ${left} ${y0}`;
+  for(let row=0; row<rowCount; row++){
+    const y=y0+row*rowH, nextY=y+rowH, forward=row%2===0;
+    if(forward){
+      d+=` H ${right}`;
+      if(row<rowCount-1) d+=` Q ${1000-edgePad} ${y} ${1000-edgePad} ${y+r} V ${nextY-r} Q ${1000-edgePad} ${nextY} ${right} ${nextY}`;
+    }else{
+      d+=` H ${left}`;
+      if(row<rowCount-1) d+=` Q ${edgePad} ${y} ${edgePad} ${y+r} V ${nextY-r} Q ${edgePad} ${nextY} ${left} ${nextY}`;
     }
   }
   return d;

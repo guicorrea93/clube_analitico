@@ -114,10 +114,16 @@ Validacao atual do banco das Copas:
 
 Abas e recursos:
 
-- **Geral das Copas**: KPIs, linha do tempo, titulos e top 4, rankings de
-  vitorias/empates/derrotas (toggle total/%), gols e publico por edicao, maiores
-  artilheiros (carreira) e artilheiro por edicao, **melhor ataque e melhor
-  defesa por edicao** e maiores goleadas.
+- **Geral das Copas**: KPIs, linha do tempo responsiva em "S" (desktop e
+  mobile), titulos e top 4, rankings de vitorias/empates/derrotas (toggle
+  total/%), gols e publico por edicao, maiores artilheiros (carreira) e
+  artilheiro por edicao, **melhor ataque e melhor defesa por edicao** e maiores
+  goleadas.
+- **Gols**: base analitica de gols por partida/edicao/selecao/jogador, com
+  cruzamento tecnico quando existe detalhe da StatsBomb Open Data. A aba deve
+  evoluir para separar gols oficiais, gols contra, penalties, faltas, cabecadas,
+  finalizacoes de dentro/fora da area, periodo do jogo, placar no momento do gol
+  e curiosidades estatisticas.
 - **Por Copa**: cartaz da edicao, resumo, classificacao final, grupos,
   chaveamento e jogos clicaveis. Ao selecionar uma partida, o dashboard abre
   diretamente um modal com placar, linha temporal dos gols, data, horario,
@@ -142,6 +148,8 @@ Estrutura do payload embutido (`const DATA` no HTML):
 | `DATA.selecoes[]` | Agregado historico por selecao (J/V/E/D/GP/GC, titulos, aproveitamento) |
 | `DATA.artilheiros_selecao` | `{selecao: {ano: [[jogador, gols], ...]}}` |
 | `DATA.gols_contra_selecao` | `{selecao: {ano: [[autor, gols], ...]}}` — gols contra a favor |
+| `DATA.gols_analiticos` | Base granular de gols oficiais extraida do payload da Wikipedia/cache local, enriquecida com canonizacao de jogadores e auditoria de lacunas |
+| `DATA.gols_detalhados` | Detalhes tecnicos cruzados da StatsBomb Open Data quando a partida/evento existe nessa fonte |
 | `DATA.melhor_ataque_defesa` | `{ano: {ataque:{selecao,gp}, defesa:{selecao,gc,j}}}` |
 | `DATA.curados` | `artilheiros_historico`, `artilheiros_edicao`, `marcadores_grupos` |
 
@@ -265,7 +273,79 @@ open("check.js", "w", encoding="utf-8").write(app)
    soma dos gols de jogadores + gols contra a favor tem que bater com o `gp` da
    classificacao final. Hoje fecha **100%** nas edicoes concluidas.
 
-Proximos passos (Copa do Mundo):
+Base analitica de gols das Copas:
+
+- `gerar_gols_detalhados_statsbomb.py` cria
+  `data/worldcup_wikipedia/gols_detalhados_statsbomb.json` e `.csv` a partir da
+  StatsBomb Open Data. Essa fonte traz detalhe tecnico do chute, mas nao cobre
+  todas as Copas nem todos os jogos antigos.
+- `gerar_base_analitica_gols.py` cria
+  `data/worldcup_wikipedia/gols_analiticos.json`, `.csv` e
+  `gols_analiticos_auditoria.csv`.
+- A base atual tem **3.016 gols** considerando tambem 2026 como esta modelada no
+  cache local.
+- **383 gols** foram cruzados com detalhe tecnico StatsBomb.
+- **641 gols** tem algum detalhe tecnico/oficial/inferido aproveitavel:
+  StatsBomb, penalti/gol contra vindo do marcador, ou detalhe curado como falta,
+  cabecada, voleio e gol olimpico.
+- As edicoes historicas concluidas ate 2022 estao sem lacunas de autor de gol na
+  auditoria atual.
+- As lacunas de marcador dos jogos recentes de 2026 foram preenchidas, incluindo
+  oitavas, quartas de final e semifinais ja disputadas.
+- Ainda existem **2.375 gols sem detalhe fino** de finalizacao. Esses gols seguem
+  como `Nao detalhado` para tipo tecnico, parte do corpo, zona e/ou distancia
+  ate que haja fonte confiavel.
+- Regras de identidade ja aplicadas na base de gols: `Ronaldo` de Portugal ->
+  `Cristiano Ronaldo`; `Ronaldo` do Brasil -> `Ronaldo`; `Muller` alemao antes
+  de 1974 -> `Gerd Muller`; `Muller` alemao moderno -> `Thomas Muller`;
+  `Messi` -> `Lionel Messi`; `Mbappe` -> `Kylian Mbappe`.
+
+Como regenerar a base de gols e o dashboard:
+
+```powershell
+python -u .\gerar_gols_detalhados_statsbomb.py
+python -u .\gerar_base_analitica_gols.py
+python -u .\gerar_dashboard_copa_mundo_html.py
+```
+
+Proximos passos principais (Copa do Mundo):
+
+1. **Ampliar detalhes dos gols sem cobertura tecnica**: priorizar fontes
+   rastreaveis para parte do corpo, falta, cabecada, chute de fora da area,
+   assistencia e tipo de jogada. Nao converter ausencia de dado em negativa
+   estatistica.
+2. **Transformar a aba Gols em uma visao macro -> micro**: totais historicos,
+   gols por jogo, edicoes, selecoes, jogadores, fases, estadios, minutos e,
+   no menor nivel, cada gol com jogo, placar no momento, autor, adversario,
+   minuto, tipo, assistencia quando existir, tecnica, parte do corpo, distancia,
+   local no campo e fonte.
+3. **Separar estatisticas oficiais e tecnicas**: gols oficiais, gols contra,
+   penalties, artilheiros e gols por selecao/edicao/fase devem ficar separados
+   dos detalhes StatsBomb. Ausencia de detalhe tecnico deve aparecer como
+   `nao informado`, nunca como negativa estatistica.
+4. **Cruzar mais fontes confiaveis**: Wikipedia PT/cache local segue como fonte
+   operacional; StatsBomb entra para atributos tecnicos; RSSSF/FIFA/Wikidata
+   entram para auditoria de totais, nomes canonicos, selecoes, jogadores e
+   divergencias.
+5. **Criar a visao Curiosidades** depois da auditoria da base de gols: gols mais
+   cedo/tarde, viradas, gols em finais, artilheiros sem titulo, selecoes que mais
+   dependeram de poucos jogadores, gols de reservas, capitaes, continentes e
+   recortes por fase.
+6. **Levar gols ao banco relacional** com nomes em portugues: expandir `gol` e
+   avaliar tabelas `tipo_gol`, `detalhe_tecnico_gol`, `fonte_gol`,
+   `auditoria_gol`, `evento_partida` e `alias_pessoa`, mantendo schema
+   versionado, script criador, validacao e catalogo HTML.
+7. **Melhorar o modal de partida**: uniformes/kits ainda nao implementados;
+   padronizar codigos de posicao; avaliar cartoes, assistencias e substituicoes
+   ao lado dos jogadores usando a mesma logica das bolinhas de gol.
+8. **Finalizar 2026 quando a Copa acabar**: rebaixar o cache final da Wikipedia,
+   trocar o tratamento parcial por classificacao final completa e revisar a
+   artilharia historica com todos os ativos.
+9. **QA antes de commit**: rodar os scripts de gols/dashboard, checar o JS
+   embutido com `node --check`, conferir gols de jogadores + gols contra contra
+   `gp` por selecao/edicao e revisar `gols_analiticos_auditoria.csv`.
+
+Pendencias tecnicas adicionais (Copa do Mundo):
 
 - **Refinar detalhes das edicoes antigas**. A base de fichas ja cobre
   1930-2022, mas as edicoes ate 2002 tem formatos irregulares na Wikipedia PT.
@@ -284,9 +364,9 @@ Proximos passos (Copa do Mundo):
 - **Padronizar codigos de posicao**: paginas de grupo/fase final usam abreviacao
   em ingles (GK, CB, RB, CM, CF) e o artigo da final usa em portugues (G, Z, LD,
   M, A). Falta um mapa para uniformizar o modal.
-- **Eventos na escalacao**: gols e cartoes ao lado do jogador (como na Wikipedia)
-  sao hoje descartados do nome via regex. Para reexibir, guarde as celulas extras
-  da linha do jogador em vez de recortar o texto do nome.
+- **Eventos na escalacao**: gols ja aparecem com bolinhas de futebol ao lado do
+  jogador no modal. Cartoes, assistencias e substituicoes ainda podem ser
+  avaliados depois, desde que venham de fonte confiavel e cacheada.
 - **Reservas nao utilizados nao aparecem** (a Wikipedia so lista quem entrou) e
   **arbitros assistentes** nao constam das caixas de 2022.
 - **Pais do arbitro** as vezes vem em pt-PT ("Polonia" grafada diferente). Se for
