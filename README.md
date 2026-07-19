@@ -282,17 +282,18 @@ Base analitica de gols das Copas:
 - `gerar_base_analitica_gols.py` cria
   `data/worldcup_wikipedia/gols_analiticos.json`, `.csv` e
   `gols_analiticos_auditoria.csv`.
-- A base atual tem **3.016 gols** considerando tambem 2026 como esta modelada no
+- A base atual tem **3.026 gols** considerando tambem 2026 como esta modelada no
   cache local.
 - **383 gols** foram cruzados com detalhe tecnico StatsBomb.
-- **641 gols** tem algum detalhe tecnico/oficial/inferido aproveitavel:
+- **643 gols** tem algum detalhe tecnico/oficial/inferido aproveitavel:
   StatsBomb, penalti/gol contra vindo do marcador, ou detalhe curado como falta,
   cabecada, voleio e gol olimpico.
 - As edicoes historicas concluidas ate 2022 estao sem lacunas de autor de gol na
   auditoria atual.
 - As lacunas de marcador dos jogos recentes de 2026 foram preenchidas, incluindo
-  oitavas, quartas de final e semifinais ja disputadas.
-- Ainda existem **2.375 gols sem detalhe fino** de finalizacao. Esses gols seguem
+  oitavas, quartas de final, semifinais e a disputa de terceiro lugar ja
+  disputadas.
+- Ainda existem **2.383 gols sem detalhe fino** de finalizacao. Esses gols seguem
   como `Nao detalhado` para tipo tecnico, parte do corpo, zona e/ou distancia
   ate que haja fonte confiavel.
 - Regras de identidade ja aplicadas na base de gols: `Ronaldo` de Portugal ->
@@ -371,9 +372,9 @@ Pendencias tecnicas adicionais (Copa do Mundo):
   **arbitros assistentes** nao constam das caixas de 2022.
 - **Pais do arbitro** as vezes vem em pt-PT ("Polonia" grafada diferente). Se for
   exibir bandeira, normalize antes de bater com `FLAG_CODES`.
-- **`ARTILHEIROS_HISTORICO` esta parcial**: soma os 7 gols de 2026 a Messi (20) e
-  Mbappe (19), que passam Klose (16), mas **nao** soma outros ativos (Kane,
-  Haaland). Revisar quando a Copa de 2026 terminar. O card ja traz essa ressalva.
+- **`ARTILHEIROS_HISTORICO` esta parcial**: soma a Copa de 2026 em andamento ate
+  a disputa de terceiro lugar, com Mbappe em 22 gols historicos e Messi em 21.
+  Revisar quando a Copa de 2026 terminar. O card ja traz essa ressalva.
 - **Quando 2026 acabar**: apague os HTMLs de 2026 do cache para rebaixar a versao
   final; com a `classificacao_final` completa, o ramo especial de 2026 em
   `_cup_team_stats` / `aggregate_selection_stats` (que agrega dos grupos + jogos)

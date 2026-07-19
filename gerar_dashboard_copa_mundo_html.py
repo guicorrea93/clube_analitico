@@ -434,15 +434,74 @@ def parse_2026_info(path: Path) -> dict:
     return info
 
 
+def _ficha_2026_franca_inglaterra() -> dict:
+    return {
+        "data": "18 de julho",
+        "hora": "18:00",
+        "estadio": "Hard Rock Stadium, Miami",
+        "publico": "64 478",
+        "arbitro": "Jesús Valenzuela Sáez",
+        "arbitro_pais": "Venezuela",
+        "t1": {
+            "nome": "França",
+            "tec": "Didier Deschamps",
+            "xi": [
+                ["", "GOL", "Mike Maignan"],
+                ["", "LD", "Malo Gusto"],
+                ["", "ZAG", "Ibrahima Konaté"],
+                ["", "ZAG", "Maxence Lacroix"],
+                ["", "LE", "Theo Hernández"],
+                ["", "MC", "Warren Zaïre-Emery"],
+                ["", "MC", "Adrien Rabiot"],
+                ["", "MEI", "Michael Olise"],
+                ["", "MEI", "Rayan Cherki"],
+                ["", "MEI", "Désiré Doué"],
+                ["", "ATA", "Kylian Mbappé"],
+            ],
+            "res": [
+                ["", "46'", "Dayot Upamecano"],
+                ["", "46'", "Lucas Digne"],
+                ["", "46'", "Ousmane Dembélé"],
+                ["", "46'", "Bradley Barcola"],
+                ["", "90+1'", "Jules Koundé"],
+            ],
+        },
+        "t2": {
+            "nome": "Inglaterra",
+            "tec": "Thomas Tuchel",
+            "xi": [
+                ["", "GOL", "Dean Henderson"],
+                ["", "LD", "Jarell Quansah"],
+                ["", "ZAG", "Ezri Konsa"],
+                ["", "ZAG", "Marc Guéhi"],
+                ["", "LE", "Djed Spence"],
+                ["", "MC", "Declan Rice"],
+                ["", "MC", "Eberechi Eze"],
+                ["", "MEI", "Morgan Rogers"],
+                ["", "ATA", "Marcus Rashford"],
+                ["", "ATA", "Bukayo Saka"],
+                ["", "ATA", "Ivan Toney"],
+            ],
+            "res": [
+                ["", "46'", "Ollie Watkins"],
+                ["", "79'", "Jude Bellingham"],
+                ["", "79'", "Elliot Anderson"],
+                ["", "83'", "Reece James"],
+                ["", "90+2'", "Trevoh Chalobah"],
+            ],
+        },
+    }
+
+
 def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
     """Complementa jogos de 2026 concluídos após o cache local da Wikipedia.
 
     O cache evita downloads repetidos, mas a edição está em andamento. Esta
     camada mantém o dashboard coerente quando a página online avança.
     """
-    def m(phase: str, date: str, t1: str, score: str, t2: str, stadium: str, winner: str = "", scorers: str = "", details: str = "") -> dict:
+    def m(phase: str, date: str, t1: str, score: str, t2: str, stadium: str, winner: str = "", scorers: str = "", details: str = "", ficha: dict | None = None) -> dict:
         goals = score_goals(score)
-        return {
+        out = {
             "fase": phase,
             "grupo": "",
             "data": date,
@@ -455,6 +514,9 @@ def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
             "marcadores": scorers,
             "vencedor": winner,
         }
+        if ficha:
+            out["ficha"] = ficha
+        return out
 
     updates = [
         m("Oitavas de final", "5 de julho", "Brasil", "1 - 2", "Noruega", "MetLife Stadium, East Rutherford", "Noruega", "Brasil: Neymar 90+10' (pen) | Noruega: Haaland 79', 90'"),
@@ -469,6 +531,7 @@ def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
         m("Quartas de final", "11 de julho", "Argentina", "3 - 1 (pro)", "Suíça", "Kansas City Stadium, Kansas City", "Argentina", "Argentina: Alexis Mac Allister 10' (cab); Julián Álvarez 112'; Lautaro Martínez 120+1' | Suíça: Dan Ndoye 67'"),
         m("Semifinal", "14 de julho", "França", "0 - 2", "Espanha", "AT&T Stadium, Arlington", "Espanha", "Espanha: Mikel Oyarzabal 22' (pen); Pedro Porro 58'"),
         m("Semifinal", "15 de julho", "Inglaterra", "1 - 2", "Argentina", "Mercedes-Benz Stadium, Atlanta", "Argentina", "Inglaterra: Anthony Gordon 55' | Argentina: Enzo Fernández 85'; Lautaro Martínez 90+2'"),
+        m("Terceiro lugar", "18 de julho", "França", "4 - 6", "Inglaterra", "Hard Rock Stadium, Miami", "Inglaterra", "França: Kylian Mbappé 48', 66'; Bradley Barcola 54'; Ousmane Dembélé 90+6' | Inglaterra: Declan Rice 3'; Ezri Konsa 18' (cab); Bukayo Saka 37', 45+1', 87' (pen); Jude Bellingham 90+8'", ficha=_ficha_2026_franca_inglaterra()),
     ]
     seen = {(p.get("fase"), p.get("data"), p.get("time1"), p.get("placar"), p.get("time2")) for p in matches}
     for item in updates:
@@ -477,10 +540,69 @@ def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
             matches.append(item)
             seen.add(key)
     info.update({
-        "jogos": max(to_int(info.get("jogos")), 102),
-        "gols": max(to_int(info.get("gols")), 297),
-        "artilheiro": "8 gols: Lionel Messi Kylian Mbappé",
+        "jogos": max(to_int(info.get("jogos")), 103),
+        "gols": max(to_int(info.get("gols")), 307),
+        "artilheiro": "10 gols: Kylian Mbappé",
     })
+
+
+def apply_2026_ranking_updates(ranking: list[dict], groups: list[dict], matches: list[dict]) -> None:
+    """Atualiza posicoes ja definidas em 2026 enquanto a final nao foi jogada."""
+    stats: dict[str, dict] = {}
+    for gr in groups:
+        team = gr.get("selecao")
+        if not is_valid_team_name(team):
+            continue
+        stats[team] = {
+            "grupo": gr.get("grupo", ""),
+            "pts": to_int(gr.get("pts")),
+            "j": to_int(gr.get("j")),
+            "v": to_int(gr.get("v")),
+            "e": to_int(gr.get("e")),
+            "d": to_int(gr.get("d")),
+            "gp": to_int(gr.get("gp")),
+            "gc": to_int(gr.get("gc")),
+        }
+    for p in matches:
+        if p.get("fase") == "Fase de grupos":
+            continue
+        goals = score_goals(p.get("placar"))
+        if not goals:
+            continue
+        for team, gf, ga in ((p.get("time1"), goals[0], goals[1]), (p.get("time2"), goals[1], goals[0])):
+            if not is_valid_team_name(team):
+                continue
+            row = stats.setdefault(team, {"grupo": "", "pts": 0, "j": 0, "v": 0, "e": 0, "d": 0, "gp": 0, "gc": 0})
+            row["j"] += 1
+            row["gp"] += gf
+            row["gc"] += ga
+            if gf > ga:
+                row["v"] += 1
+            elif gf < ga:
+                row["d"] += 1
+            else:
+                row["e"] += 1
+    by_team = {r.get("selecao"): r for r in ranking if r.get("selecao")}
+    for pos, team in ((3, "Inglaterra"), (4, "França")):
+        row = by_team.get(team)
+        if not row:
+            row = {"selecao": team}
+            ranking.append(row)
+        s = stats.get(team, {})
+        row.update({
+            "pos": pos,
+            "selecao": team,
+            "grupo": s.get("grupo", ""),
+            "pts": s.get("pts", 0),
+            "j": s.get("j", 0),
+            "v": s.get("v", 0),
+            "e": s.get("e", 0),
+            "d": s.get("d", 0),
+            "gp": s.get("gp", 0),
+            "gc": s.get("gc", 0),
+            "sg": f"{s.get('gp', 0) - s.get('gc', 0):+d}",
+        })
+    ranking.sort(key=lambda r: to_int(r.get("pos")) or 999)
 
 
 def parse_2026(title: str, path: Path, tables: list[pd.DataFrame]) -> dict:
@@ -514,10 +636,12 @@ def parse_2026(title: str, path: Path, tables: list[pd.DataFrame]) -> dict:
     matches += parse_2026_knockout(path)
     info = parse_2026_info(path)
     apply_2026_completed_updates(matches, info)
+    final_ranking = parse_final_ranking(tables)
+    apply_2026_ranking_updates(final_ranking, groups, matches)
     return {
         "ano": 2026, "titulo_pagina": title.replace("_", " "), "url": BASE + title,
         "info": info, "grupos": groups, "partidas": matches,
-        "classificacao_final": parse_final_ranking(tables),
+        "classificacao_final": final_ranking,
         "premios": parse_awards(tables), "estadios": parse_stadiums(tables, info),
     }
 
@@ -1802,10 +1926,10 @@ def ensure_favicon() -> str:
 # dados, e sao injetadas no payload como DATA.curados — o template apenas
 # renderiza. Para estender marcadores de outras edicoes, some chaves no
 # formato "ano|Grupo X|Time1|placar|Time2": "marcadores".
-# Messi e Mbappe atualizados com a Copa de 2026 em andamento (+7 gols cada):
-# Messi 13->20 (novo maior artilheiro), Mbappe 12->19.
-ARTILHEIROS_HISTORICO = [["Lionel Messi",20],["Kylian Mbappé",19],["Miroslav Klose",16],["Ronaldo",15],["Gerd Müller",14],["Just Fontaine",13],["Pelé",12],["Sándor Kocsis",11],["Jürgen Klinsmann",11],["Helmut Rahn",10],["Gary Lineker",10],["Gabriel Batistuta",10],["Teófilo Cubillas",10],["Grzegorz Lato",10],["Thomas Müller",10]]
-ARTILHEIROS_EDICAO = [["1930","Guillermo Stábile",8,"Argentina"],["1934","Oldřich Nejedlý",5,"Tchecoslováquia"],["1938","Leônidas",7,"Brasil"],["1950","Ademir",9,"Brasil"],["1954","Sándor Kocsis",11,"Hungria"],["1958","Just Fontaine",13,"França"],["1962","Garrincha, Vavá, L. Sánchez, D. Jerković, F. Albert e V. Ivanov",4,"Brasil, Chile, Iugoslávia, Hungria e União Soviética"],["1966","Eusébio",9,"Portugal"],["1970","Gerd Müller",10,"Alemanha"],["1974","Grzegorz Lato",7,"Polônia"],["1978","Mario Kempes",6,"Argentina"],["1982","Paolo Rossi",6,"Itália"],["1986","Gary Lineker",6,"Inglaterra"],["1990","Salvatore Schillaci",6,"Itália"],["1994","Hristo Stoichkov e Oleg Salenko",6,"Bulgária e Rússia"],["1998","Davor Šuker",6,"Croácia"],["2002","Ronaldo",8,"Brasil"],["2006","Miroslav Klose",5,"Alemanha"],["2010","Thomas Müller",5,"Alemanha"],["2014","James Rodríguez",6,"Colômbia"],["2018","Harry Kane",6,"Inglaterra"],["2022","Kylian Mbappé",8,"França"],["2026","Lionel Messi e Kylian Mbappé",7,"Argentina e França"]]
+# Artilharia parcial de 2026 em andamento: Mbappe chegou a 10 gols na edicao
+# apos a disputa de terceiro lugar, passando a 22 no historico das Copas.
+ARTILHEIROS_HISTORICO = [["Kylian Mbappé",22],["Lionel Messi",21],["Miroslav Klose",16],["Ronaldo",15],["Gerd Müller",14],["Just Fontaine",13],["Pelé",12],["Sándor Kocsis",11],["Jürgen Klinsmann",11],["Helmut Rahn",10],["Gary Lineker",10],["Gabriel Batistuta",10],["Teófilo Cubillas",10],["Grzegorz Lato",10],["Thomas Müller",10]]
+ARTILHEIROS_EDICAO = [["1930","Guillermo Stábile",8,"Argentina"],["1934","Oldřich Nejedlý",5,"Tchecoslováquia"],["1938","Leônidas",7,"Brasil"],["1950","Ademir",9,"Brasil"],["1954","Sándor Kocsis",11,"Hungria"],["1958","Just Fontaine",13,"França"],["1962","Garrincha, Vavá, L. Sánchez, D. Jerković, F. Albert e V. Ivanov",4,"Brasil, Chile, Iugoslávia, Hungria e União Soviética"],["1966","Eusébio",9,"Portugal"],["1970","Gerd Müller",10,"Alemanha"],["1974","Grzegorz Lato",7,"Polônia"],["1978","Mario Kempes",6,"Argentina"],["1982","Paolo Rossi",6,"Itália"],["1986","Gary Lineker",6,"Inglaterra"],["1990","Salvatore Schillaci",6,"Itália"],["1994","Hristo Stoichkov e Oleg Salenko",6,"Bulgária e Rússia"],["1998","Davor Šuker",6,"Croácia"],["2002","Ronaldo",8,"Brasil"],["2006","Miroslav Klose",5,"Alemanha"],["2010","Thomas Müller",5,"Alemanha"],["2014","James Rodríguez",6,"Colômbia"],["2018","Harry Kane",6,"Inglaterra"],["2022","Kylian Mbappé",8,"França"],["2026","Kylian Mbappé",10,"França"]]
 MARCADORES_GRUPOS = {
   "2022|Grupo A|Catar|0 - 2|Equador":"Enner Valencia 16' (pên.), 31'",
   "2022|Grupo A|Senegal|0 - 2|Países Baixos":"Cody Gakpo 84'; Davy Klaassen 90+9'",
@@ -2443,7 +2567,7 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
       <article class="card span-6"><h2>Público por edição</h2><div id="ch-publico" class="chart"></div></article>
       <article class="card span-12"><h2>Todas as edições</h2><div class="table-wrap"><table id="tbl-edicoes"></table></div></article>
       <article class="card span-12"><h2>Melhor ataque e defesa por edição</h2><div class="table-wrap"><table id="tbl-atkdef"></table></div><span class="note">Melhor ataque = seleção que mais marcou na edição. Melhor defesa = menor média de gols sofridos por jogo, entre as que passaram da fase de grupos (4+ jogos).</span></article>
-      <article class="card span-6"><h2>Maiores artilheiros em Copas</h2><div id="ch-artilheiros-historico" class="chart"></div><span class="note">Inclui a Copa de 2026 em andamento: Messi (13&rarr;20) e Mbappé (12&rarr;19) somam +7 gols cada. Lista parcial &mdash; outros jogadores ativos podem subir até o fim do torneio.</span></article>
+      <article class="card span-6"><h2>Maiores artilheiros em Copas</h2><div id="ch-artilheiros-historico" class="chart"></div><span class="note">Inclui a Copa de 2026 em andamento: Mbappé (12&rarr;22) e Messi (13&rarr;21). Lista parcial &mdash; outros jogadores ativos podem subir até o fim do torneio.</span></article>
       <article class="card span-6"><h2>Artilheiro por edição</h2><div id="ch-artilheiros-edicao" class="chart"></div></article>
       <article class="card span-12"><h2>Maiores goleadas</h2><div class="table-wrap"><table id="tbl-goleadas"></table></div></article>
     </div>
