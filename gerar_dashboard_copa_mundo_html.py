@@ -2539,7 +2539,7 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
 .mm-head{text-align:center;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:16px}.mm-teams{display:grid;grid-template-columns:1fr auto 1fr;gap:20px;align-items:center}.mm-team{display:grid;gap:8px;justify-items:center}.mm-team b{font-size:18px}.mm-team .team-badge,.mm-team .flag-img{width:56px;height:38px}.mm-score{font-size:34px;font-weight:800;font-variant-numeric:tabular-nums;display:flex;gap:12px;align-items:center}.mm-score span{color:#9ca3af;font-size:24px}.mm-sub{color:var(--muted);font-size:13px;margin-top:10px}
 .mm-meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:10px;margin-bottom:20px}.mm-meta-item{background:rgba(255,255,255,.05);border:1px solid var(--line);border-radius:8px;padding:9px 12px}.mm-meta-item span{display:block;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:2px}.mm-meta-item b{font-size:14px}.mm-h3{margin:0 0 12px;font-size:15px;color:var(--gold)}
 .mm-lineups{display:grid;grid-template-columns:1fr 1fr;gap:18px}.lu-team{min-width:0}.lu-head{font-weight:800;margin-bottom:10px;padding-bottom:8px;border-bottom:1px solid var(--line)}.lu-head .inline-flag{width:26px;height:18px}.lu-list{list-style:none;margin:0;padding:0;display:grid;gap:2px}.lu-list li{display:grid;grid-template-columns:26px 34px 1fr;gap:8px;align-items:center;padding:4px 6px;border-radius:4px;font-size:13px}.lu-list li:hover{background:rgba(255,255,255,.05)}.lu-num{text-align:right;color:var(--gold);font-variant-numeric:tabular-nums;font-weight:700}.lu-pos{color:var(--muted);font-size:11px;font-weight:700}.lu-name{display:inline;min-width:0}.goal-balls{display:inline-flex;gap:2px;align-items:center;margin-left:6px;vertical-align:-1px}.goal-ball{font-size:12px;line-height:1}.lu-res{opacity:.82}.lu-subhead{margin:11px 0 4px;color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}.lu-coach{margin-top:12px;padding-top:10px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;font-size:13px}.lu-coach span{color:var(--muted)}
-.goals-toolbar{grid-template-columns:repeat(2,minmax(180px,260px))}.goals-table{max-height:520px}
+.goals-toolbar{grid-template-columns:repeat(2,minmax(180px,260px))}.goals-table{max-height:520px}.quality-summary{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.quality-item{border:1px solid var(--line);border-radius:8px;background:rgba(7,19,15,.42);padding:12px}.quality-item b{display:block;font-size:25px;line-height:1.05}.quality-item span{display:block;margin-top:5px;color:var(--muted);font-size:12px;line-height:1.35}
 @media(max-width:720px){.mm-lineups{grid-template-columns:1fr}.mm-teams{gap:8px}.mm-team b{font-size:15px}}
 .bracket-board{position:relative;overflow-x:auto;border:1px solid rgba(255,255,255,.15);border-radius:8px;padding:20px;background:radial-gradient(circle at 18% 72%,rgba(245,196,81,.18),transparent 24%),radial-gradient(circle at 82% 30%,rgba(34,197,94,.14),transparent 26%),linear-gradient(135deg,#123e8f,#162fa4 48%,#0d286e);box-shadow:inset 0 0 55px rgba(255,255,255,.06)}.bracket-head{text-align:center;margin-bottom:18px}.bracket-head b{display:block;font-size:clamp(28px,4vw,54px);line-height:.9;letter-spacing:.04em;text-transform:uppercase}.bracket-head span{display:block;margin-top:6px;color:#dbeafe;font-size:16px;font-weight:800;letter-spacing:.18em;text-transform:uppercase}.bracket-stage{display:grid;grid-template-columns:minmax(132px,1fr) minmax(132px,1fr) minmax(132px,1fr) minmax(150px,.86fr) minmax(132px,1fr) minmax(132px,1fr) minmax(132px,1fr);gap:18px;align-items:center;min-width:1080px}.bracket-col{display:grid;gap:16px}.bracket-col.r16{gap:9px}.bracket-col.qf{gap:54px}.bracket-col.sf{gap:126px}.bracket-col.right .bracket-match::before,.bracket-col.left .bracket-match::after{content:"";position:absolute;top:50%;width:18px;border-top:2px solid rgba(226,241,255,.72)}.bracket-col.left .bracket-match::after{right:-19px}.bracket-col.right .bracket-match::before{left:-19px}.bracket-center{display:grid;gap:14px;align-items:center;justify-items:center}.bracket-trophy{width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.25);font-size:13px;font-weight:900;letter-spacing:.04em}.bracket-final-label{color:#dbeafe;font-size:11px;text-transform:uppercase;letter-spacing:.14em}.bracket-match{position:relative;border:1px solid rgba(255,255,255,.22);border-radius:7px;background:rgba(5,17,48,.76);padding:7px;display:grid;gap:5px;cursor:pointer;min-height:64px}.bracket-match.selected-match{border-color:var(--gold);box-shadow:0 0 0 2px rgba(245,196,81,.25);background:rgba(9,31,78,.92)}.bracket-team{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:6px;align-items:center;font-size:12px;line-height:1.2}.bracket-team b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.bracket-team span{color:var(--gold);font-weight:800;font-variant-numeric:tabular-nums}.bracket-team.winner b{color:#86efac}.bracket-meta{color:#dbeafe;font-size:10px;line-height:1.3;opacity:.82;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.bracket-third{width:100%;border-top:1px solid rgba(255,255,255,.14);padding-top:12px}.bracket-empty{min-height:28px}
 @media(max-width:1100px){.hero,.toolbar{grid-template-columns:1fr 1fr}.kpis{grid-template-columns:repeat(3,1fr)}.span-3,.span-4,.span-5,.span-6,.span-7,.span-8{grid-column:span 12}.groups-grid,.legacy-groups,.knockout-grid{grid-template-columns:1fr}.format-grid,.detail-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.bracket-board{padding:16px}.bracket-stage{min-width:980px}}@media(max-width:720px){.hero,.toolbar{grid-template-columns:1fr;padding-left:14px;padding-right:14px}.shell{padding:14px}.kpis{grid-template-columns:1fr 1fr}.chart{height:330px}.format-grid,.detail-grid{grid-template-columns:1fr}.scoreline{grid-template-columns:1fr;gap:5px}.scoreline .right{text-align:left}.game-top{grid-template-columns:1fr}.game-main{grid-template-columns:1fr;gap:14px}.game-score{justify-content:center;font-size:34px}.game-scorers{grid-template-columns:1fr}.scorer-list.right{text-align:left}.scorer-ball{display:none}.bracket-head b{font-size:30px}.bracket-head span{font-size:12px}.timeline{--row-h:154px;--line-y:78px;padding:0 8px}.timeline-desktop{display:none}.timeline-mobile{display:block;position:relative;padding:8px 0 18px;overflow:visible}.timeline-mobile::before{display:none}.timeline-mobile-path{position:absolute;inset:8px 8px 18px 8px;width:calc(100% - 16px);height:calc(100% - 26px);z-index:1;overflow:visible;pointer-events:none}.timeline-mobile-path path{fill:none;stroke:var(--gold);stroke-width:7;stroke-linecap:round;stroke-linejoin:round}.timeline-mobile .timeline-row{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));min-height:var(--row-h);position:relative;z-index:2}.timeline-mobile .cup-card{min-height:var(--row-h);padding:0 5px}.timeline-mobile .cup-card::before{top:var(--line-y);left:50%;width:13px;height:13px;transform:translate(-50%,-50%)}.timeline-mobile .event-box{left:5px;right:5px;width:auto;min-height:48px;padding:7px 8px}.timeline-mobile .cup-card.above .event-box{bottom:96px}.timeline-mobile .cup-card.below .event-box{top:96px}.timeline-mobile .event-stem{left:50%;width:2px;height:16px;background:var(--gold);opacity:.9}.timeline-mobile .cup-card.above .event-stem{top:calc(var(--line-y) - 18px);bottom:auto}.timeline-mobile .cup-card.below .event-stem{top:calc(var(--line-y) + 8px)}.event-year,.event-winner{font-size:13px}.timeline-mobile .inline-flag{width:20px;height:14px}}
@@ -2585,6 +2585,8 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
       <button data-goal-sub="selecoes">Seleções</button>
       <button data-goal-sub="jogadores">Jogadores</button>
       <button data-goal-sub="contexto">Contexto</button>
+      <button data-goal-sub="curiosidades">Curiosidades</button>
+      <button data-goal-sub="qualidade">Qualidade</button>
       <button data-goal-sub="base">Base</button>
     </div>
     <div class="grid">
@@ -2604,7 +2606,23 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
       <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Gols em mata-mata por jogador</h2><div class="chart-scroll"><div id="ch-goals-ko-players" class="goal-rank"></div></div></article>
       <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Seleções que mais abriram o placar</h2><div class="chart-scroll"><div id="ch-goals-first-teams" class="goal-rank"></div></div></article>
       <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Gols finais e acréscimos</h2><div class="chart-scroll"><div id="ch-goals-late-teams" class="chart"></div></div></article>
+      <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Peso do gol por seleção</h2><div class="chart-scroll"><div id="ch-goals-impact-teams" class="chart"></div></div></article>
+      <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Jogadores com gols decisivos</h2><div class="chart-scroll"><div id="ch-goals-decisive-players" class="goal-rank"></div></div></article>
+      <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Tipos de impacto</h2><div id="ch-goals-impact-types" class="chart small"></div></article>
+      <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Gols decisivos por fase</h2><div id="ch-goals-decisive-phase" class="chart small"></div></article>
       <article class="card span-6 goal-pane goal-pane-contexto hidden"><h2>Gols por faixa de minuto</h2><div id="ch-goals-minute" class="chart small"></div></article>
+      <article class="card span-6 goal-pane goal-pane-curiosidades hidden"><h2>Mata-mata mais goleador</h2><div id="ch-goals-ko-editions" class="chart small"></div></article>
+      <article class="card span-6 goal-pane goal-pane-curiosidades hidden"><h2>Gols tardios por edição</h2><div id="ch-goals-late-editions" class="chart small"></div></article>
+      <article class="card span-6 goal-pane goal-pane-curiosidades hidden"><h2>Jogo com mais gols por edição</h2><div class="table-wrap goals-table"><table id="tbl-goals-record-matches"></table></div></article>
+      <article class="card span-6 goal-pane goal-pane-curiosidades hidden"><h2>Finais mais goleadoras</h2><div class="table-wrap goals-table"><table id="tbl-goals-finals"></table></div></article>
+      <article class="card span-6 goal-pane goal-pane-curiosidades hidden"><h2>Campeões mais econômicos</h2><div class="table-wrap goals-table"><table id="tbl-goals-champions"></table></div></article>
+      <article class="card span-6 goal-pane goal-pane-curiosidades hidden"><h2>Artilheiros que caíram mais cedo</h2><div class="table-wrap goals-table"><table id="tbl-goals-topscorer-exits"></table></div></article>
+      <article class="card span-6 goal-pane goal-pane-qualidade hidden"><h2>Cobertura dos gols por edição</h2><div id="ch-goals-coverage-editions" class="chart small"></div></article>
+      <article class="card span-6 goal-pane goal-pane-qualidade hidden"><h2>Lacunas por edição</h2><div id="ch-goals-missing-editions" class="chart small"></div></article>
+      <article class="card span-6 goal-pane goal-pane-qualidade hidden"><h2>Qualidade por edição</h2><div class="table-wrap goals-table"><table id="tbl-goals-quality-editions"></table></div></article>
+      <article class="card span-6 goal-pane goal-pane-qualidade hidden"><h2>Divergências placar x marcadores</h2><div class="table-wrap goals-table"><table id="tbl-goals-score-divergences"></table></div></article>
+      <article class="card span-6 goal-pane goal-pane-qualidade hidden"><h2>Jogadores não identificados</h2><div class="table-wrap goals-table"><table id="tbl-goals-unknown-players"></table></div></article>
+      <article class="card span-6 goal-pane goal-pane-qualidade hidden"><h2>Resumo de lacunas</h2><div id="goals-quality-summary" class="quality-summary"></div></article>
       <article class="card span-12 goal-pane goal-pane-base hidden"><h2>Todos os gols</h2><div class="table-wrap goals-table"><table id="tbl-goals"></table></div></article>
     </div>
   </section>
@@ -2845,6 +2863,8 @@ function renderGols(){
   renderGoalsTopScorers();
   renderGoalKnockoutRankings(rows);
   renderGoalContextCharts(rows);
+  renderGoalCuriosities(rows);
+  renderGoalQuality(rows);
   table("tbl-goals",["Ano","Fase","Jogo","Min","Seleção","Jogador"],rows.slice().reverse().map(g=>[g.ano,g.fase,`${g.mandante} ${g.placar_mandante} x ${g.placar_visitante} ${g.visitante}`,goalMinuteText(g),g.selecao,g.jogador]),[0]);
   renderGoalTabs();
 }
@@ -2959,6 +2979,176 @@ function renderGoalContextCharts(rows){
     {key:"apos75",name:"76 minutos em diante",color:COLORS[1]},
     {key:"acrescimos",name:"Acréscimos",color:COLORS[3]},
   ], "Gols");
+  renderGoalImpactCharts(classifiedGoalImpacts());
+}
+function classifiedGoalImpacts(){
+  const out=[];
+  Object.values(groupBy(goalsForFilteredMatches(),goalMatchKey)).forEach(list=>{
+    const ordered=list.slice().sort((a,b)=>goalMinute(a.texto_original||goalMinuteText(a))-goalMinute(b.texto_original||goalMinuteText(b)));
+    if(!ordered.length) return;
+    const first=ordered[0], home=first.mandante, away=first.visitante;
+    const finalHome=num(first.placar_mandante), finalAway=num(first.placar_visitante);
+    const winner=finalHome>finalAway?home:(finalAway>finalHome?away:"");
+    const loserGoals=winner===home?finalAway:(winner===away?finalHome:0);
+    let h=0, a=0, homeGoals=0, awayGoals=0, concededFirstBy="";
+    ordered.forEach((g,idx)=>{
+      const team=g.selecao;
+      if(team!==home && team!==away) return;
+      const beforeH=h, beforeA=a;
+      if(team===home){h+=1; homeGoals+=1;}else{a+=1; awayGoals+=1;}
+      if(idx===0) concededFirstBy=team===home?away:home;
+      const beforeDiff=team===home ? beforeH-beforeA : beforeA-beforeH;
+      const afterDiff=team===home ? h-a : a-h;
+      const ownGoal=String(g.situacao||"").toLowerCase().includes("contra");
+      out.push({
+        ...g,
+        abriuPlacar:idx===0,
+        empate:afterDiff===0 && beforeDiff<0,
+        lideranca:afterDiff>0 && beforeDiff<=0,
+        virada:afterDiff>0 && concededFirstBy===team && idx>0,
+        vitoria:winner===team && (team===home?homeGoals:awayGoals)===loserGoals+1,
+        alterouResultado:Math.sign(beforeH-beforeA)!==Math.sign(h-a),
+        golContra:ownGoal,
+      });
+    });
+  });
+  return out.filter(g=>!state.goalYear || String(g.ano)===String(state.goalYear)).filter(g=>!state.goalTeam || g.selecao===state.goalTeam);
+}
+function renderGoalImpactCharts(rows){
+  const byTeam=Object.entries(groupBy(rows,g=>g.selecao)).map(([team,list])=>({
+    team,
+    abriu:list.filter(g=>g.abriuPlacar).length,
+    empate:list.filter(g=>g.empate).length,
+    virada:list.filter(g=>g.virada).length,
+    vitoria:list.filter(g=>g.vitoria).length,
+    mudou:list.filter(g=>g.alterouResultado).length,
+  })).sort((a,b)=>b.vitoria-a.vitoria || b.abriu-a.abriu || a.team.localeCompare(b.team,"pt-BR"));
+  renderTeamMetricGrouped("ch-goals-impact-teams", byTeam, [
+    {key:"abriu",name:"Abriu placar",color:COLORS[1]},
+    {key:"empate",name:"Empate",color:COLORS[2]},
+    {key:"virada",name:"Virada",color:COLORS[5]},
+    {key:"vitoria",name:"Vitória",color:COLORS[0]},
+  ], "Gols");
+  renderGoalRankList("ch-goals-decisive-players", countRows(rows.filter(g=>g.vitoria && g.jogador && g.jogador!=="Não informado" && g.jogador!=="Não identificado na fonte"),g=>g.jogador), COLORS[0]);
+  const types=[
+    ["Abriu placar", rows.filter(g=>g.abriuPlacar).length],
+    ["Empate", rows.filter(g=>g.empate).length],
+    ["Virada", rows.filter(g=>g.virada).length],
+    ["Gol da vitória", rows.filter(g=>g.vitoria).length],
+    ["Mudou resultado", rows.filter(g=>g.alterouResultado).length],
+  ];
+  renderGoalBar("ch-goals-impact-types", types, "Gols", COLORS[1]);
+  const decisive=rows.filter(g=>g.vitoria);
+  renderGoalBar("ch-goals-decisive-phase", Object.entries(countBy(decisive,g=>phaseLabel(g.fase))).sort((a,b)=>phaseSort(a[0],b[0])), "Gols da vitória", COLORS[0]);
+}
+function renderGoalCuriosities(rows){
+  const matches=filteredGoalMatches();
+  const byEdition=Object.entries(groupBy(matches,p=>p.ano)).sort((a,b)=>+a[0]-+b[0]);
+  const koByEdition=byEdition.map(([ano,list])=>[ano, list.filter(p=>isKnockoutPhase(p.fase)).reduce((s,p)=>s+matchGoalsTotal(p),0)]).filter(r=>r[1]>0);
+  renderGoalBar("ch-goals-ko-editions", koByEdition, "Gols no mata-mata", COLORS[0]);
+  const lateByEdition=Object.entries(groupBy(rows,g=>g.ano)).map(([ano,list])=>({
+    ano,
+    apos75:list.filter(g=>num(g.minuto)>=76).length,
+    acrescimos:list.filter(g=>num(g.minuto)>90 || String(g.minuto_label||"").includes("+")).length,
+  })).sort((a,b)=>+a.ano-+b.ano);
+  Plotly.react("ch-goals-late-editions",[
+    {type:"bar",x:lateByEdition.map(r=>String(r.ano)),y:lateByEdition.map(r=>r.apos75),name:"76+ minutos",marker:{color:COLORS[1],cornerradius:4},hovertemplate:"<b>%{x}</b><br>76+ minutos: %{y}<extra></extra>"},
+    {type:"bar",x:lateByEdition.map(r=>String(r.ano)),y:lateByEdition.map(r=>r.acrescimos),name:"Acréscimos",marker:{color:COLORS[3],cornerradius:4},hovertemplate:"<b>%{x}</b><br>Acréscimos: %{y}<extra></extra>"},
+  ],layout({barmode:"group",hovermode:"closest",margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-25,automargin:true},yaxis:{title:"Gols"},legend:{orientation:"h",y:-.2}}),PCFG);
+  table("tbl-goals-record-matches",["Ano","Fase","Jogo","Placar","Gols"],byEdition.map(([ano,list])=>{
+    const p=list.slice().sort((a,b)=>matchGoalsTotal(b)-matchGoalsTotal(a))[0];
+    return [ano,phaseLabel(p.fase),`${p.time1} x ${p.time2}`,p.placar,matchGoalsTotal(p)];
+  }),[0,4]);
+  const finals=DATA.copas.filter(c=>!state.goalYear || String(c.ano)===String(state.goalYear)).map(c=>{
+    const p=c.partidas.find(x=>x.fase==="Final") || {};
+    return {ano:c.ano,jogo:p.time1&&p.time2?`${p.time1} x ${p.time2}`:"-",placar:p.placar||editionRow(c.ano).placar_final||"-",gols:matchGoalsTotal(p)};
+  }).filter(r=>!state.goalTeam || r.jogo.includes(state.goalTeam)).sort((a,b)=>b.gols-a.gols || +a.ano-+b.ano);
+  table("tbl-goals-finals",["Ano","Final","Placar","Gols"],finals.map(r=>[r.ano,r.jogo,r.placar,r.gols]),[0,3]);
+  const champions=DATA.copas.filter(c=>!state.goalYear || String(c.ano)===String(state.goalYear)).map(c=>{
+    const e=editionRow(c.ano), r=c.classificacao_final.find(x=>x.selecao===e.campeao) || {};
+    return {ano:c.ano,campeao:e.campeao,gp:num(r.gp),j:num(r.j),gpj:num(r.j)?+(num(r.gp)/num(r.j)).toFixed(2):0};
+  }).filter(r=>r.campeao && (!state.goalTeam || r.campeao===state.goalTeam)).sort((a,b)=>a.gp-b.gp || a.gpj-b.gpj);
+  table("tbl-goals-champions",["Ano","Campeão","Gols","Jogos","Gols/jogo"],champions.map(r=>[r.ano,r.campeao,r.gp,r.j,r.gpj.toFixed(2).replace(".",",")]),[0,2,3]);
+  const exits=ARTILHEIROS_EDICAO.filter(r=>!state.goalYear || String(r[0])===String(state.goalYear)).flatMap(r=>{
+    const c=DATA.copas.find(x=>+x.ano===+r[0]);
+    return String(r[3]||"").split(",").map(t=>t.trim()).filter(Boolean).map(team=>{
+      const pos=num((c?.classificacao_final||[]).find(x=>x.selecao===team)?.pos);
+      return {ano:+r[0],artilheiro:r[1],selecao:team,gols:+r[2],pos};
+    });
+  }).filter(r=>r.pos && (!state.goalTeam || r.selecao===state.goalTeam)).sort((a,b)=>b.pos-a.pos || b.gols-a.gols || +a.ano-+b.ano);
+  table("tbl-goals-topscorer-exits",["Ano","Artilheiro","Seleção","Gols","Posição final"],exits.map(r=>[r.ano,r.artilheiro,r.selecao,r.gols,`${r.pos}º`]),[0,3]);
+}
+function matchGoalsTotal(p){const s=scoreParts((p||{}).placar); return num(s[0])+num(s[1]);}
+function isUnknownPlayer(g){return !g.jogador || g.jogador==="Não informado" || g.jogador==="Não identificado na fonte";}
+function isMissingMinute(g){return !g.minuto || goalMinute(g.texto_original||goalMinuteText(g))>=999;}
+function isMissingTech(g){
+  const v=String(g.tipo_chute_pt||g.situacao||"").toLowerCase();
+  return !v || v.includes("não detalhado") || v.includes("não identificado") || v.includes("não informado");
+}
+function goalQualityRows(rows){
+  const matches=filteredGoalMatches();
+  const expected=Object.entries(groupBy(matches,p=>p.ano)).map(([ano,list])=>[ano,list.reduce((s,p)=>s+expectedGoalsForQuality(p),0)]);
+  const goalsByYear=groupBy(rows,g=>g.ano);
+  return expected.map(([ano,total])=>{
+    const list=goalsByYear[ano]||[];
+    const withPlayer=list.filter(g=>!isUnknownPlayer(g)).length;
+    const withMinute=list.filter(g=>!isMissingMinute(g)).length;
+    const withTech=list.filter(g=>!isMissingTech(g)).length;
+    return {
+      ano,
+      esperado:total,
+      base:list.length,
+      faltamGols:Math.max(total-list.length,0),
+      semJogador:list.filter(isUnknownPlayer).length,
+      semMinuto:list.filter(isMissingMinute).length,
+      semTecnico:list.filter(isMissingTech).length,
+      pctBase:total?+(list.length/total*100).toFixed(1):0,
+      pctJogador:list.length?+(withPlayer/list.length*100).toFixed(1):0,
+      pctMinuto:list.length?+(withMinute/list.length*100).toFixed(1):0,
+      pctTecnico:list.length?+(withTech/list.length*100).toFixed(1):0,
+    };
+  }).sort((a,b)=>+a.ano-+b.ano);
+}
+function expectedGoalsForQuality(p){
+  if(!state.goalTeam) return matchGoalsTotal(p);
+  const s=scoreParts(p.placar);
+  if(p.time1===state.goalTeam) return num(s[0]);
+  if(p.time2===state.goalTeam) return num(s[1]);
+  return 0;
+}
+function scorerDivergences(){
+  return filteredGoalMatches().map(p=>{
+    const c=DATA.copas.find(x=>+x.ano===+p.ano) || {ano:p.ano};
+    const expected=matchGoalsTotal(p);
+    const parsed=goalEvents(rawScorersForMatch(c,p),p).length;
+    return {ano:p.ano,fase:phaseLabel(p.fase),jogo:`${p.time1} x ${p.time2}`,placar:p.placar,esperado:expected,marcadores:parsed,dif:parsed-expected};
+  }).filter(r=>r.esperado!==r.marcadores).sort((a,b)=>+a.ano-+b.ano || Math.abs(b.dif)-Math.abs(a.dif));
+}
+function renderGoalQuality(rows){
+  const q=goalQualityRows(rows);
+  Plotly.react("ch-goals-coverage-editions",[
+    {type:"bar",x:q.map(r=>String(r.ano)),y:q.map(r=>r.pctBase),name:"Gols na base",marker:{color:COLORS[0],cornerradius:4},hovertemplate:"<b>%{x}</b><br>Gols na base: %{y:.1f}%<extra></extra>"},
+    {type:"bar",x:q.map(r=>String(r.ano)),y:q.map(r=>r.pctTecnico),name:"Tipo técnico",marker:{color:COLORS[2],cornerradius:4},hovertemplate:"<b>%{x}</b><br>Tipo técnico: %{y:.1f}%<extra></extra>"},
+  ],layout({barmode:"group",hovermode:"closest",margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-25,automargin:true},yaxis:{title:"Cobertura (%)",range:[0,105]},legend:{orientation:"h",y:-.2}}),PCFG);
+  Plotly.react("ch-goals-missing-editions",[
+    {type:"bar",x:q.map(r=>String(r.ano)),y:q.map(r=>r.semJogador),name:"Sem jogador",marker:{color:COLORS[3],cornerradius:4},hovertemplate:"<b>%{x}</b><br>Sem jogador: %{y}<extra></extra>"},
+    {type:"bar",x:q.map(r=>String(r.ano)),y:q.map(r=>r.semMinuto),name:"Sem minuto",marker:{color:COLORS[5],cornerradius:4},hovertemplate:"<b>%{x}</b><br>Sem minuto: %{y}<extra></extra>"},
+    {type:"bar",x:q.map(r=>String(r.ano)),y:q.map(r=>r.semTecnico),name:"Sem tipo técnico",marker:{color:COLORS[1],cornerradius:4},hovertemplate:"<b>%{x}</b><br>Sem tipo técnico: %{y}<extra></extra>"},
+  ],layout({barmode:"stack",hovermode:"closest",margin:{l:44,r:18,t:10,b:70},xaxis:{type:"category",tickangle:-25,automargin:true},yaxis:{title:"Gols"},legend:{orientation:"h",y:-.2}}),PCFG);
+  table("tbl-goals-quality-editions",["Ano","Gols placar","Gols base","Cobertura","Sem jogador","Sem minuto","Sem tipo técnico"],q.map(r=>[r.ano,r.esperado,r.base,r.pctBase.toFixed(1).replace(".",",")+"%",r.semJogador,r.semMinuto,r.semTecnico]),[0,1,2,4,5,6]);
+  const divs=scorerDivergences();
+  table("tbl-goals-score-divergences",["Ano","Fase","Jogo","Placar","Gols placar","Marcadores","Dif."],divs.map(r=>[r.ano,r.fase,r.jogo,r.placar,r.esperado,r.marcadores,r.dif]),[0,4,5,6]);
+  table("tbl-goals-unknown-players",["Ano","Fase","Jogo","Min","Seleção","Texto original"],rows.filter(isUnknownPlayer).slice().reverse().map(g=>[g.ano,phaseLabel(g.fase),`${g.mandante} x ${g.visitante}`,goalMinuteText(g),g.selecao,g.texto_original||"-"]),[0]);
+  const total=rows.length || 1;
+  const summary=[
+    ["Gols auditados", rows.length],
+    ["Sem jogador", rows.filter(isUnknownPlayer).length],
+    ["Sem minuto", rows.filter(isMissingMinute).length],
+    ["Sem tipo técnico", rows.filter(isMissingTech).length],
+    ["Cobertura média", (q.reduce((s,r)=>s+r.pctBase,0)/(q.length||1)).toFixed(1).replace(".",",")+"%"],
+    ["Divergências", divs.length],
+  ];
+  document.getElementById("goals-quality-summary").innerHTML=summary.map(([label,value])=>`<div class="quality-item"><b>${esc(value)}</b><span>${esc(label)}</span></div>`).join("");
 }
 function phaseLabel(phase){
   const p=String(phase||"").trim();
