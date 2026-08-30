@@ -229,7 +229,7 @@ def parse_editions_table(df: pd.DataFrame) -> list[dict]:
         if not year_match:
             continue
         year = int(year_match.group(0))
-        if year not in YEARS or year == 2026:  # 2026 em andamento: fora da tabela de campeoes
+        if year not in YEARS or year == 2026:  # 2026 entra pela camada curada ate a tabela principal consolidar
             continue
         rows.append({
             "ano": year,
@@ -353,7 +353,7 @@ def parse_melhor_jogador(path: Path, year: int) -> tuple[str, str]:
     return "", fallback
 
 
-# --- Copa de 2026 (48 selecoes, 12 grupos) — edicao em andamento ------
+# --- Copa de 2026 (48 selecoes, 12 grupos) -----------------------------
 # Formato novo que o parser generico nao cobre: extracao dedicada a partir
 # do cache. Os 12 grupos ficam em tabelas [12,19,...,89] (standings + 6 jogos
 # cada); o mata-mata vem por titulo de secao (Dezesseis avos, Oitavas, ...).
@@ -413,7 +413,7 @@ def parse_2026_knockout(path: Path) -> list[dict]:
 
 def parse_2026_info(path: Path) -> dict:
     doc = lxml_html.fromstring(path.read_text(encoding="utf-8"))
-    info = {"ano": 2026, "sede": "Canadá, EUA e México", "campeao": "Em andamento"}
+    info = {"ano": 2026, "sede": "Canadá, EUA e México", "campeao": "Espanha"}
     boxes = doc.xpath('//table[contains(@class,"infobox")]')
     if not boxes:
         return info
@@ -496,8 +496,8 @@ def _ficha_2026_franca_inglaterra() -> dict:
 def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
     """Complementa jogos de 2026 concluídos após o cache local da Wikipedia.
 
-    O cache evita downloads repetidos, mas a edição está em andamento. Esta
-    camada mantém o dashboard coerente quando a página online avança.
+    O cache evita downloads repetidos. Esta camada mantém o dashboard coerente
+    enquanto a página principal ainda não consolida todos os resultados.
     """
     def m(phase: str, date: str, t1: str, score: str, t2: str, stadium: str, winner: str = "", scorers: str = "", details: str = "", ficha: dict | None = None) -> dict:
         goals = score_goals(score)
@@ -532,6 +532,7 @@ def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
         m("Semifinal", "14 de julho", "França", "0 - 2", "Espanha", "AT&T Stadium, Arlington", "Espanha", "Espanha: Mikel Oyarzabal 22' (pen); Pedro Porro 58'"),
         m("Semifinal", "15 de julho", "Inglaterra", "1 - 2", "Argentina", "Mercedes-Benz Stadium, Atlanta", "Argentina", "Inglaterra: Anthony Gordon 55' | Argentina: Enzo Fernández 85'; Lautaro Martínez 90+2'"),
         m("Terceiro lugar", "18 de julho", "França", "4 - 6", "Inglaterra", "Hard Rock Stadium, Miami", "Inglaterra", "França: Kylian Mbappé 48', 66'; Bradley Barcola 54'; Ousmane Dembélé 90+6' | Inglaterra: Declan Rice 3'; Ezri Konsa 18' (cab); Bukayo Saka 37', 45+1', 87' (pen); Jude Bellingham 90+8'", ficha=_ficha_2026_franca_inglaterra()),
+        m("Final", "19 de julho", "Espanha", "1 - 0 (pro)", "Argentina", "New York New Jersey Stadium, East Rutherford", "Espanha", "Espanha: Ferran Torres 106'", details="Após prorrogação. Enzo Fernández foi expulso no fim do tempo normal."),
     ]
     seen = {(p.get("fase"), p.get("data"), p.get("time1"), p.get("placar"), p.get("time2")) for p in matches}
     for item in updates:
@@ -540,14 +541,19 @@ def apply_2026_completed_updates(matches: list[dict], info: dict) -> None:
             matches.append(item)
             seen.add(key)
     info.update({
-        "jogos": max(to_int(info.get("jogos")), 103),
-        "gols": max(to_int(info.get("gols")), 307),
+        "jogos": max(to_int(info.get("jogos")), 104),
+        "gols": max(to_int(info.get("gols")), 308),
+        "campeao": "Espanha",
+        "vice": "Argentina",
+        "terceiro": "Inglaterra",
+        "quarto": "França",
+        "placar_final": "1 - 0 (pro)",
         "artilheiro": "10 gols: Kylian Mbappé",
     })
 
 
 def apply_2026_ranking_updates(ranking: list[dict], groups: list[dict], matches: list[dict]) -> None:
-    """Atualiza posicoes ja definidas em 2026 enquanto a final nao foi jogada."""
+    """Atualiza as posicoes finais de 2026 a partir da camada curada."""
     stats: dict[str, dict] = {}
     for gr in groups:
         team = gr.get("selecao")
@@ -583,7 +589,7 @@ def apply_2026_ranking_updates(ranking: list[dict], groups: list[dict], matches:
             else:
                 row["e"] += 1
     by_team = {r.get("selecao"): r for r in ranking if r.get("selecao")}
-    for pos, team in ((3, "Inglaterra"), (4, "França")):
+    for pos, team in ((1, "Espanha"), (2, "Argentina"), (3, "Inglaterra"), (4, "França")):
         row = by_team.get(team)
         if not row:
             row = {"selecao": team}
@@ -644,6 +650,42 @@ def parse_2026(title: str, path: Path, tables: list[pd.DataFrame]) -> dict:
         "classificacao_final": final_ranking,
         "premios": parse_awards(tables), "estadios": parse_stadiums(tables, info),
     }
+
+
+def apply_2026_general_update(main: dict, cup_2026: dict) -> None:
+    """Atualiza a visao geral com o resultado final de 2026 enquanto o cache
+    principal da Wikipedia ainda nao consolida a edicao na tabela historica."""
+    info = cup_2026.get("info", {})
+    edition = {
+        "ano": 2026,
+        "sede": info.get("sede", "Canadá, EUA e México"),
+        "campeao": "Espanha",
+        "placar_final": "1 - 0 (pro)",
+        "vice": "Argentina",
+        "terceiro": "Inglaterra",
+        "placar_terceiro": "6 - 4",
+        "quarto": "França",
+        "url": BASE + PAGE_TITLES[2026],
+    }
+    editions = [e for e in main.get("editions", []) if to_int(e.get("ano")) != 2026]
+    editions.append(edition)
+    main["editions"] = sorted(editions, key=lambda e: to_int(e.get("ano")))
+
+    podium: dict[str, dict] = {}
+
+    def bump(team: str, key: str) -> None:
+        if not is_valid_team_name(team):
+            return
+        row = podium.setdefault(team, {"selecao": team, "titulos": 0, "vices": 0, "terceiros": 0, "quartos": 0})
+        row[key] = to_int(row.get(key)) + 1
+
+    for row in main["editions"]:
+        bump(row.get("campeao"), "titulos")
+        bump(row.get("vice"), "vices")
+        bump(row.get("terceiro"), "terceiros")
+        bump(row.get("quarto"), "quartos")
+
+    main["podium"] = sorted(podium.values(), key=lambda r: (-to_int(r.get("titulos")), -to_int(r.get("vices")), -to_int(r.get("terceiros")), -to_int(r.get("quartos")), str(r.get("selecao"))))
 
 
 def parse_worldcup_page(year: int) -> dict:
@@ -1926,8 +1968,8 @@ def ensure_favicon() -> str:
 # dados, e sao injetadas no payload como DATA.curados — o template apenas
 # renderiza. Para estender marcadores de outras edicoes, some chaves no
 # formato "ano|Grupo X|Time1|placar|Time2": "marcadores".
-# Artilharia parcial de 2026 em andamento: Mbappe chegou a 10 gols na edicao
-# apos a disputa de terceiro lugar, passando a 22 no historico das Copas.
+# Artilharia de 2026: Mbappe chegou a 10 gols na edicao, passando a 22 no
+# historico das Copas.
 ARTILHEIROS_HISTORICO = [["Kylian Mbappé",22],["Lionel Messi",21],["Miroslav Klose",16],["Ronaldo",15],["Gerd Müller",14],["Just Fontaine",13],["Pelé",12],["Sándor Kocsis",11],["Jürgen Klinsmann",11],["Helmut Rahn",10],["Gary Lineker",10],["Gabriel Batistuta",10],["Teófilo Cubillas",10],["Grzegorz Lato",10],["Thomas Müller",10]]
 ARTILHEIROS_EDICAO = [["1930","Guillermo Stábile",8,"Argentina"],["1934","Oldřich Nejedlý",5,"Tchecoslováquia"],["1938","Leônidas",7,"Brasil"],["1950","Ademir",9,"Brasil"],["1954","Sándor Kocsis",11,"Hungria"],["1958","Just Fontaine",13,"França"],["1962","Garrincha, Vavá, L. Sánchez, D. Jerković, F. Albert e V. Ivanov",4,"Brasil, Chile, Iugoslávia, Hungria e União Soviética"],["1966","Eusébio",9,"Portugal"],["1970","Gerd Müller",10,"Alemanha"],["1974","Grzegorz Lato",7,"Polônia"],["1978","Mario Kempes",6,"Argentina"],["1982","Paolo Rossi",6,"Itália"],["1986","Gary Lineker",6,"Inglaterra"],["1990","Salvatore Schillaci",6,"Itália"],["1994","Hristo Stoichkov e Oleg Salenko",6,"Bulgária e Rússia"],["1998","Davor Šuker",6,"Croácia"],["2002","Ronaldo",8,"Brasil"],["2006","Miroslav Klose",5,"Alemanha"],["2010","Thomas Müller",5,"Alemanha"],["2014","James Rodríguez",6,"Colômbia"],["2018","Harry Kane",6,"Inglaterra"],["2022","Kylian Mbappé",8,"França"],["2026","Kylian Mbappé",10,"França"]]
 MARCADORES_GRUPOS = {
@@ -2468,13 +2510,16 @@ def load_analytic_goals() -> dict:
 def build_payload() -> dict:
     main = parse_main()
     cups = [parse_worldcup_page(year) for year in YEARS]
+    cup_2026 = next((cup for cup in cups if cup.get("ano") == 2026), None)
+    if cup_2026:
+        apply_2026_general_update(main, cup_2026)
     total_matches = sum(len(cup["partidas"]) for cup in cups)
     total_goals = sum(sum(to_int(match.get("gols")) for match in cup["partidas"]) for cup in cups)
     main["totals"] = {
         "Total de jogos": f"{total_matches:,}".replace(",", "."),
         "Total de gols": f"{total_goals:,}".replace(",", "."),
         "Média": f"{(total_goals / total_matches):.2f}".replace(".", ",") + " gols por partida" if total_matches else "0",
-        "Observação": "Totais recalculados a partir das páginas das 22 edições realizadas (1930-2022).",
+        "Observação": "Totais recalculados a partir das páginas e camada curada das 23 edições realizadas (1930-2026).",
     }
     # detalhes de partidas (escalacoes etc.) anexados diretamente em cada partida
     detalhes = build_match_details()
@@ -2549,7 +2594,7 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
 <header class="hero">
   <div>
     <h1>Copas do Mundo FIFA</h1>
-    <p>Do primeiro apito em 1930 ao Catar 2022: quase um século de Copas do Mundo em um só lugar. Craques, gols e taças — mergulhe em cada edição, na história de cada seleção ou no panorama completo do maior espetáculo do futebol.</p>
+    <p>Do primeiro apito em 1930 à Copa de 2026: quase um século de Copas do Mundo em um só lugar. Craques, gols e taças — mergulhe em cada edição, na história de cada seleção ou no panorama completo do maior espetáculo do futebol.</p>
   </div>
   <aside class="hero-meta"><div id="hero-trofeus"></div><div id="hero-cartaz" class="hidden"><img id="cartaz-img" alt="Cartaz da edição" /></div><div id="hero-bandeira" class="hidden"></div></aside>
 </header>
@@ -2568,7 +2613,7 @@ a{color:var(--blue)} .hero{min-height:245px;border-bottom:1px solid rgba(255,255
       <article class="card span-6"><h2>Público por edição</h2><div id="ch-publico" class="chart"></div></article>
       <article class="card span-12"><h2>Todas as edições</h2><div class="table-wrap"><table id="tbl-edicoes"></table></div></article>
       <article class="card span-12"><h2>Melhor ataque e defesa por edição</h2><div class="table-wrap"><table id="tbl-atkdef"></table></div><span class="note">Melhor ataque = seleção que mais marcou na edição. Melhor defesa = menor média de gols sofridos por jogo, entre as que passaram da fase de grupos (4+ jogos).</span></article>
-      <article class="card span-6"><h2>Maiores artilheiros em Copas</h2><div id="ch-artilheiros-historico" class="chart"></div><span class="note">Inclui a Copa de 2026 em andamento: Mbappé (12&rarr;22) e Messi (13&rarr;21). Lista parcial &mdash; outros jogadores ativos podem subir até o fim do torneio.</span></article>
+      <article class="card span-6"><h2>Maiores artilheiros em Copas</h2><div id="ch-artilheiros-historico" class="chart"></div><span class="note">Atualizado até a Copa de 2026: Mbappé chegou a 22 gols no histórico e terminou a edição com 10.</span></article>
       <article class="card span-6"><h2>Artilheiro por edição</h2><div id="ch-artilheiros-edicao" class="chart"></div></article>
       <article class="card span-12"><h2>Maiores goleadas</h2><div class="table-wrap"><table id="tbl-goleadas"></table></div></article>
     </div>
@@ -2764,7 +2809,7 @@ function countryTag(pais){return pais && FLAG_CODES[pais] ? teamLabelHtml(pais) 
 function scorerCell(year){const row=ARTILHEIROS_EDICAO.find(r=>+r[0]===+year); if(!row) return "-"; const pais=row[3]; return `${esc(row[1])} (${esc(row[2])} gols)${pais?` · ${countryTag(pais)}`:""}`;}
 function playerCell(c){const nome=c.info.melhor_jogador||"-"; if(nome==="-") return "-"; const pais=c.info.melhor_jogador_selecao; return `${esc(nome)}${pais?` · ${countryTag(pais)}`:""}`;}
 function renderResumo(c,e){
-  const rows=[["Ano",esc(c.ano)],["Sede",cellHtml(e.sede||c.info.sede||"-")],["Campeão",cellHtml(e.campeao||c.info.campeao||"-")],["Vice",cellHtml(e.vice||c.info.vice||"-")],["Terceiro",cellHtml(e.terceiro||"-")],["Quarto",cellHtml(e.quarto||"-")],["Final",esc(e.placar_final||"-")],["Artilheiro",scorerCell(c.ano)],["Melhor jogador",playerCell(c)]];
+  const rows=[["Ano",esc(c.ano)],["Sede",cellHtml(e.sede||c.info.sede||"-")],["Campeão",cellHtml(e.campeao||c.info.campeao||"-")],["Vice",cellHtml(e.vice||c.info.vice||"-")],["Terceiro",cellHtml(e.terceiro||c.info.terceiro||"-")],["Quarto",cellHtml(e.quarto||c.info.quarto||"-")],["Final",esc(e.placar_final||c.info.placar_final||"-")],["Artilheiro",scorerCell(c.ano)],["Melhor jogador",playerCell(c)]];
   document.getElementById("tbl-copa-resumo").innerHTML=`<thead><tr><th>Item</th><th>Valor</th></tr></thead><tbody>${rows.map(([k,v])=>`<tr><td>${esc(k)}</td><td>${v}</td></tr>`).join("")}</tbody>`;
 }
 function cup(){return DATA.copas.find(c=>c.ano===state.cup) || DATA.copas[DATA.copas.length-1];}
@@ -3530,7 +3575,7 @@ function goalMinuteText(g){if(g.minuto_label) return g.minuto_label; const m=g.m
 function renderGeral(){
   const ed=DATA.geral.editions, sel=DATA.selecoes, totalJogos=edSum("jogos"), totalGols=edSum("gols");
   document.getElementById("kpis-geral").innerHTML = kpis([["Edições",DATA.copas.length],["Seleções campeãs",new Set(ed.map(e=>e.campeao)).size],["Jogos",totalJogos],["Gols",totalGols],["Gols/jogo",totalJogos?(totalGols/totalJogos).toFixed(2).replace(".",","):"-"],["Seleções na base",sel.length]]);
-  renderTimeline("timeline-geral", [...ed, {ano:2026, campeao:"Em andamento", sede:"Canadá, EUA e México", futuro:true}, {ano:2030, campeao:"Em aberto", futuro:true}], false);
+  renderTimeline("timeline-geral", [...ed, {ano:2030, campeao:"Em aberto", futuro:true}], false);
   renderTitulos();
   renderPodium();
   renderRankings();
@@ -3890,7 +3935,7 @@ function renderSelecao(){
   if(!sel){document.getElementById("kpis-selecao").innerHTML=kpis([["Seleção",t],["Sem dados","—"]]);return;}
   const camp=DATA.copas.map(c=>({ano:c.ano,...(c.classificacao_final.find(r=>r.selecao===t)||{})})).filter(r=>r.selecao).sort((a,b)=>a.ano-b.ano);
   const games=DATA.copas.flatMap(c=>c.partidas.filter(p=>p.time1===t||p.time2===t).map(p=>({ano:c.ano,...p})));
-  if(!camp.some(r=>+r.ano===2026)){ // 2026 em andamento: se o time segue vivo (fora da classificação), deriva dos jogos
+  if(!camp.some(r=>+r.ano===2026)){ // fallback para selecoes sem linha final consolidada em 2026
     const g26=games.filter(p=>+p.ano===2026);
     if(g26.length){
       const b={ano:2026,j:0,v:0,e:0,d:0,gp:0,gc:0,selecao:t};
@@ -3922,7 +3967,7 @@ function renderAtaqueDefesa(){
   host.innerHTML=`<thead><tr><th class="num">Ano</th><th>Melhor ataque</th><th>Melhor defesa</th></tr></thead><tbody>${body}</tbody>`;
 }
 function teamBest(sel){return num(sel.titulos)>0?"Campeão":num(sel.vices)>0?"Vice":num(sel.terceiros)>0?"3º lugar":num(sel.quartos)>0?"4º lugar":(sel.melhor_pos?num(sel.melhor_pos)+"º lugar":"—");}
-function teamFinish(ano,team){const e=editionRow(ano); if(e.campeao===team)return{label:"Campeão",rank:1}; if(e.vice===team)return{label:"Vice",rank:2}; if(e.terceiro===team)return{label:"3º lugar",rank:3}; if(e.quarto===team)return{label:"4º lugar",rank:4}; const c=DATA.copas.find(x=>x.ano===ano), r=c&&c.classificacao_final.find(x=>x.selecao===team); return r?{label:`${num(r.pos)}º lugar`,rank:num(r.pos)}:{label:(+ano===2026?"Em andamento":"Participou"),rank:null};}
+function teamFinish(ano,team){const e=editionRow(ano); if(e.campeao===team)return{label:"Campeão",rank:1}; if(e.vice===team)return{label:"Vice",rank:2}; if(e.terceiro===team)return{label:"3º lugar",rank:3}; if(e.quarto===team)return{label:"4º lugar",rank:4}; const c=DATA.copas.find(x=>x.ano===ano), r=c&&c.classificacao_final.find(x=>x.selecao===team); return r?{label:`${num(r.pos)}º lugar`,rank:num(r.pos)}:{label:"Participou",rank:null};}
 function trajColor(p){return p===1?COLORS[1]:p===2?"#cbd5e1":p===3?"#cd7f32":p===4?COLORS[3]:COLORS[2];}
 function renderTeamTraj(t,camp){
   const pts=camp.filter(r=>num(r.pos)>0);

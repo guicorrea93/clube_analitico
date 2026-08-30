@@ -1,7 +1,7 @@
 {
   "metadata": {
     "descricao": "Base analitica de gols das Copas do Mundo: camada oficial Wikipedia PT + camada tecnica StatsBomb quando disponivel.",
-    "total_gols": 3026,
+    "total_gols": 3027,
     "fontes": [
       "Wikipedia PT",
       "StatsBomb Open Data"
@@ -121047,6 +121047,46 @@
       "texto_original": "Jude Bellingham 90+8'",
       "gol_id": 3026,
       "partida_id_local": "2026-103"
+    },
+    {
+      "edicao": 2026,
+      "fase": "Final",
+      "grupo": "",
+      "data": "19 de julho",
+      "partida": "Espanha 1 - 0 (pro) Argentina",
+      "time_1": "Espanha",
+      "placar": "1 - 0 (pro)",
+      "time_2": "Argentina",
+      "estadio": "New York New Jersey Stadium, East Rutherford",
+      "selecao": "Espanha",
+      "adversario": "Argentina",
+      "jogador": "Ferran Torres",
+      "minuto": 106,
+      "acrescimo": null,
+      "minuto_texto": "106'",
+      "tipo_oficial": "normal",
+      "tipo_tecnico": "Não detalhado",
+      "parte_corpo": "Não detalhado",
+      "tecnica": "Não detalhado",
+      "zona": "Não detalhado",
+      "xg": null,
+      "distancia_m": null,
+      "coordenada_x": null,
+      "coordenada_y": null,
+      "eh_penalti": false,
+      "eh_gol_contra": false,
+      "eh_falta": false,
+      "eh_cabeca": false,
+      "eh_fora_area": false,
+      "situacao": "Não informado",
+      "fonte_situacao": "",
+      "frase_situacao": "",
+      "fonte_oficial": "Wikipedia PT",
+      "fonte_tecnica": "",
+      "nivel_confianca": "alta",
+      "texto_original": "Ferran Torres 106'",
+      "gol_id": 3027,
+      "partida_id_local": "2026-104"
     }
   ],
   "auditoria": []
