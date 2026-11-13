@@ -30,10 +30,10 @@ Segundo dashboard independente:
   Mundo FIFA e a pagina de cada edicao de 1930 a 2026. Para os detalhes de
   partida, usa tambem paginas de grupos, fase final e finais dedicadas quando
   existem.
-- A Copa de **2026 esta em andamento**: entra em todos os cards e graficos, mas
-  sua classificacao final e parcial (so times ja eliminados). Por isso as
-  estatisticas por selecao de 2026 sao agregadas dos grupos + jogos de mata-mata
-  ja disputados, e quem segue vivo aparece como "Em andamento".
+- A Copa de **2026 esta encerrada** (Espanha campea; cache da Wikipedia
+  baixado de novo em 13/11/2026). Ela e lida como as outras edicoes: grupos,
+  mata-mata, classificacao final das 48 selecoes e ficha dos 104 jogos (sem
+  escalacoes, como 1950-2002).
 - O gerador baixa/cacheia os HTMLs da Wikipedia, extrai tabelas de edicoes,
   ranking, fase de grupos, mata-mata, classificacao final, premios e estadios,
   e embute os dados + Plotly + bandeiras/cartazes/tacas (base64) no HTML final.
@@ -130,8 +130,8 @@ Abas e recursos:
   estadio, publico, arbitro (e pais), escalacoes quando a Wikipedia fornece
   (numero/posicao/nome), quem entrou e treinadores. A ficha esta anexada em
   todos os jogos de 1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970,
-  1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018 e
-  2022.
+  1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018,
+  2022 e 2026 (em 2026, sem escalacoes).
 - **Por Selecao**: bandeira, trajetoria, vezes em cada posicao, gols por edicao,
   distribuicao de resultados, adversarios, campanha e **"Quem fez os gols em
   cada Copa"** — todos os jogadores que marcaram, edicao a edicao, com o
@@ -144,7 +144,7 @@ Estrutura do payload embutido (`const DATA` no HTML):
 | `DATA.fonte` | URL da pagina principal e nota de acesso |
 | `DATA.geral` | Tabelas da pagina principal: `editions`, `podium`, `attendance`, `blowouts`, `totals` |
 | `DATA.copas[]` | Uma por edicao: `info`, `grupos`, `partidas`, `classificacao_final`, `premios`, `estadios` |
-| `DATA.copas[].partidas[].ficha` | Detalhe da partida para 1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018 e 2022: data/hora, estadio, publico, arbitro, pais do arbitro e, quando disponivel na Wikipedia, escalacoes, substituicoes e treinadores |
+| `DATA.copas[].partidas[].ficha` | Detalhe da partida para 1930, 1934, 1938, 1950, 1954, 1958, 1962, 1966, 1970, 1974, 1978, 1982, 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022 e 2026: data/hora, estadio, publico, arbitro, pais do arbitro e, quando disponivel na Wikipedia, escalacoes, substituicoes e treinadores |
 | `DATA.selecoes[]` | Agregado historico por selecao (J/V/E/D/GP/GC, titulos, aproveitamento) |
 | `DATA.artilheiros_selecao` | `{selecao: {ano: [[jogador, gols], ...]}}` |
 | `DATA.gols_contra_selecao` | `{selecao: {ano: [[autor, gols], ...]}}` — gols contra a favor |
@@ -172,10 +172,20 @@ Detalhes de implementacao relevantes:
   O parser generico cuida so de 1986-2022.
 - **2026 tem parser proprio** (`parse_2026`): 48 selecoes, 12 grupos e a fase
   "Dezesseis avos de final" (nao existia antes). As tabelas de grupo trazem a
-  coluna `Equipevde` e uma coluna `Classificado`. Cuidado com a infobox: o campo
-  de gols vem como "261 (2,9 por partida)", entao usa-se
-  `to_int(val.split("(")[0])`. Em `phaseRank` (JS), o teste de "avos" precisa vir
-  **antes** do teste de "final", porque "dezesseis avos de final" contem "final".
+  coluna `Equipevde` e uma coluna `Classificado`; `_group_tables_2026` acha as
+  12 pelo cabecalho, nao pela posicao (a posicao mudou entre julho e novembro
+  de 2026). Campeao, vice, 3o e 4o saem da classificacao final; a infobox
+  generica erra em 2026 (aponta a Argentina como campea). Cuidado com o campo
+  de gols da infobox: vem como "308 (2,96 por partida)", entao usa-se
+  `to_int(val.split("(")[0])`. "Disputa pelo terceiro lugar" vira "Terceiro
+  lugar", como nas outras edicoes. `MARCADORES_2026_CORRIGIDOS` guarda os
+  marcadores de 2 jogos do Grupo J que a Wikipedia perdeu depois de julho (o
+  cache antigo tinha a lista completa). Em `phaseRank` (JS), o teste de "avos"
+  precisa vir **antes** do teste de "final", porque "dezesseis avos de final"
+  contem "final".
+- **Top 4 historico** (`podium_from_editions`): montado da tabela de edicoes,
+  nao da tabela de podio da Wikipedia, que credita a Iugoslavia a Servia e a
+  Uniao Sovietica a Russia.
 - **Assets embutidos** (todos viram base64 no HTML): `ensure_plotly`,
   `ensure_flags` (bandeiras em w320; codigos vindos de `collect_flag_codes`),
   `ensure_posters` (cartaz de cada edicao), `ensure_trofeus` (Jules Rimet e Taca
@@ -282,18 +292,14 @@ Base analitica de gols das Copas:
 - `gerar_base_analitica_gols.py` cria
   `data/worldcup_wikipedia/gols_analiticos.json`, `.csv` e
   `gols_analiticos_auditoria.csv`.
-- A base atual tem **3.026 gols** considerando tambem 2026 como esta modelada no
-  cache local.
+- A base atual tem **3.027 gols**, com 2026 completa (308 gols).
 - **383 gols** foram cruzados com detalhe tecnico StatsBomb.
-- **643 gols** tem algum detalhe tecnico/oficial/inferido aproveitavel:
+- **633 gols** tem algum detalhe tecnico/oficial/inferido aproveitavel:
   StatsBomb, penalti/gol contra vindo do marcador, ou detalhe curado como falta,
   cabecada, voleio e gol olimpico.
-- As edicoes historicas concluidas ate 2022 estao sem lacunas de autor de gol na
-  auditoria atual.
-- As lacunas de marcador dos jogos recentes de 2026 foram preenchidas, incluindo
-  oitavas, quartas de final, semifinais e a disputa de terceiro lugar ja
-  disputadas.
-- Ainda existem **2.383 gols sem detalhe fino** de finalizacao. Esses gols seguem
+- As 23 edicoes, 2026 inclusive, estao sem lacunas de autor de gol na
+  auditoria atual (`gols_analiticos_auditoria.csv` so com o cabecalho).
+- Ainda existem **2.394 gols sem detalhe fino** de finalizacao. Esses gols seguem
   como `Nao detalhado` para tipo tecnico, parte do corpo, zona e/ou distancia
   ate que haja fonte confiavel.
 - Regras de identidade ja aplicadas na base de gols: `Ronaldo` de Portugal ->
@@ -339,17 +345,14 @@ Proximos passos principais (Copa do Mundo):
 7. **Melhorar o modal de partida**: uniformes/kits ainda nao implementados;
    padronizar codigos de posicao; avaliar cartoes, assistencias e substituicoes
    ao lado dos jogadores usando a mesma logica das bolinhas de gol.
-8. **Finalizar 2026 quando a Copa acabar**: rebaixar o cache final da Wikipedia,
-   trocar o tratamento parcial por classificacao final completa e revisar a
-   artilharia historica com todos os ativos.
-9. **QA antes de commit**: rodar os scripts de gols/dashboard, checar o JS
+8. **QA antes de commit**: rodar os scripts de gols/dashboard, checar o JS
    embutido com `node --check`, conferir gols de jogadores + gols contra contra
    `gp` por selecao/edicao e revisar `gols_analiticos_auditoria.csv`.
 
 Pendencias tecnicas adicionais (Copa do Mundo):
 
 - **Refinar detalhes das edicoes antigas**. A base de fichas ja cobre
-  1930-2022, mas as edicoes ate 2002 tem formatos irregulares na Wikipedia PT.
+  1930-2026, mas as edicoes ate 2002 tem formatos irregulares na Wikipedia PT.
   Refinar ano a ano, sempre conferindo:
   - se a pagina principal traz as caixas de jogos ou se existem subpaginas de
     grupo/fase final;
@@ -372,13 +375,12 @@ Pendencias tecnicas adicionais (Copa do Mundo):
   **arbitros assistentes** nao constam das caixas de 2022.
 - **Pais do arbitro** as vezes vem em pt-PT ("Polonia" grafada diferente). Se for
   exibir bandeira, normalize antes de bater com `FLAG_CODES`.
-- **`ARTILHEIROS_HISTORICO` esta parcial**: soma a Copa de 2026 em andamento ate
-  a disputa de terceiro lugar, com Mbappe em 22 gols historicos e Messi em 21.
-  Revisar quando a Copa de 2026 terminar. O card ja traz essa ressalva.
-- **Quando 2026 acabar**: apague os HTMLs de 2026 do cache para rebaixar a versao
-  final; com a `classificacao_final` completa, o ramo especial de 2026 em
-  `_cup_team_stats` / `aggregate_selection_stats` (que agrega dos grupos + jogos)
-  pode ser removido, e a trajetoria/posicoes passam a incluir a edicao.
+- **`ARTILHEIROS_HISTORICO` e curado**: revisado com a Copa de 2026 encerrada
+  (Mbappe 22, Messi 21, Kane 14, Cristiano Ronaldo 11). Na proxima Copa,
+  conferir os artilheiros em atividade contra `gols_analiticos.csv`.
+- **Fichas de 2026 sem escalacao**: a pagina da edicao so traz data, hora,
+  estadio, publico e arbitro. Escalacoes dependeriam das paginas de grupo ou
+  da final dedicada, quando existirem na Wikipedia PT.
 - **Lacunas residuais conhecidas** ja resolvidas por dados curados, mas que voltam
   se o cache for refeito: os jogos de desempate de 1934/1938 **nao existem** na
   lista de partidas da Wikipedia PT (so na classificacao), por isso seus gols

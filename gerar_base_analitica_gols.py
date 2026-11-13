@@ -472,7 +472,6 @@ def build() -> tuple[list[dict], list[dict]]:
             parsed = len(rows)
             if parsed != expected or any(r["nivel_confianca"] == "baixa" for r in rows):
                 low = sum(1 for r in rows if r["nivel_confianca"] == "baixa")
-                scope = "edicao_em_andamento" if year == 2026 else "historico"
                 audit.append({
                     "edicao": year,
                     "fase": partida.get("fase", ""),
@@ -480,8 +479,8 @@ def build() -> tuple[list[dict], list[dict]]:
                     "gols_placar": expected,
                     "gols_base": parsed,
                     "gols_sem_autor": low,
-                    "escopo": scope,
-                    "observacao": "Marcadores ainda não preenchidos na base local de 2026." if scope == "edicao_em_andamento" else "Revisar marcador histórico.",
+                    "escopo": "historico",
+                    "observacao": "Revisar marcador histórico.",
                     "marcadores": partida.get("marcadores", ""),
                 })
             for row in rows:
