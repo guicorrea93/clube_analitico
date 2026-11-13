@@ -401,12 +401,21 @@ O banco atual contem:
   classificacao final historica para o periodo moderno.
 - Copa do Brasil: campeoes, vices, finais, edicoes e participantes.
 - Historico do Campeonato Brasileiro antigo, antes dos pontos corridos, ja
-  importado de 1980 a 2002.
+  importado de 1971 (primeiro Campeonato Nacional) a 2002.
 
 Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 | Ano | Participantes | Fases | Jogos |
 | --- | ---: | ---: | ---: |
+| 1971 | 20 | 3 | 229 |
+| 1972 | 26 | 4 | 352 |
+| 1973 | 40 | 3 | 656 |
+| 1974 | 40 | 4 | 447 |
+| 1975 | 42 | 6 | 430 |
+| 1976 | 54 | 6 | 411 |
+| 1977 | 62 | 6 | 485 |
+| 1978 | 74 | 7 | 792 |
+| 1979 | 94 | 5 | 583 |
 | 1980 | 44 | 6 | 307 |
 | 1981 | 44 | 6 | 306 |
 | 1982 | 44 | 7 | 291 |
@@ -433,11 +442,11 @@ Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 Totais do historico antigo importado:
 
-- 23 edicoes: 1980 a 2002.
-- 107 fases.
-- 6.909 partidas.
+- 32 edicoes: 1971 a 2002.
+- 151 fases.
+- 11.294 partidas.
 
-1980 a 1985 (importados em 13/11/2026) usam a base comum
+1971 a 1985 (importados em 13/11/2026) usam a base comum
 `importar_brasileirao_historico_base.py`: cada ano so declara os cortes do
 texto da RSSSF (`Fase(nome, inicio, fim, tipo, jogos)`). A base confere a
 contagem de jogos de cada fase e exige que os participantes sejam exatamente
@@ -450,10 +459,40 @@ desempates que a fonte nao soma ficam fora dessa conta. Ajustes conhecidos
   e e corrigida.
 - 1980: o desempate Guarani 3-2 America-RJ (2o lugar do grupo I) fica numa
   fase propria, "Desempate", para nao entrar na tabela do grupo.
+- 1979: "Sao Paulo-RS 1-0 Goias" era contra o Goytacaz (erro de digitacao);
+  jogo do tribunal (Sao Paulo-RS x Operario-PR) e os dois W.O. do Atletico-MG
+  na terceira fase gravados como 1-0 para quem ganhou os pontos (a RSSSF os
+  conta sem gols, entao esses clubes ficam com 1 gol de diferenca).
+- 1978: volta Santa Cruz 1-2 Internacional (quartas) invertida na fonte;
+  "Juventude 1-1 America-SP" era contra o America-RJ; Operario de Campo
+  Grande escrito "-MT" vira Operario-MS.
+- 1977: Desportiva x Fluminense-BA, abandonado (suborno), contado 0-0 como
+  na RSSSF. A temporada vai a marco de 1978 (`VIRADA` no importador).
+- 1975 a 1978: vitoria por saldo grande valia 3 pontos (2 gols ou mais em
+  1975; 3 ou mais em 1976-1978); o dashboard conta 2 por vitoria (a regra
+  fica no criterio da fase).
+- 1976: dois jogos vem colados na linha dos autores ("[Cedenir]Palmeiras
+  1-0 Rio Branco"); a base separa.
+- 1975: a pagina nao tem "Final Table"; o importador passa `CORTE_FINAL`.
+  Os grupos A/B e C/D da primeira fase e 1/2 da segunda jogaram contra o
+  outro grupo, por isso aparecem juntos.
+- 1974: "America-GB" (Guanabara) e o America-RJ.
+- 1972: ABC 2-1 Botafogo teve os pontos dados ao Botafogo (sem "awd" na
+  fonte); gravado 0-1 em `AJUSTAR`.
+- 1971 e 1973: a fonte nao numera as rodadas da primeira fase (so datas),
+  entao a corrida da lideranca desses anos fica sem rodadas. 1972, 1973 e
+  1975 nao tem "Final Table"; 1971 numera as tabelas com ponto ("1.Time").
+  1973 vai a fevereiro de 1974 (`VIRADA`).
+- "XV de Novembro" sem cidade e "Operario" sem estado mudam de clube
+  conforme o ano: cada importador define no seu `CANONICAL` (XV: 1982 = Jau,
+  1977-1978 = Piracicaba; Operario: 1976-1977 = Operario-MS).
 
 Diferencas que sao da propria tabela final da RSSSF (os jogos batem com as
 tabelas de grupo dela): 1981, Ponte Preta com 1 gol a mais de cada lado;
-1982, Londrina com o 0-0 da repescagem somado so para ele. Jogos decididos
+1982, Londrina com o 0-0 da repescagem somado so para ele; 1979, River-PI e
+Uberlandia com V/E/D que nao fecham com os jogos, e Central 0-0 Vasco contado
+como vitoria do Vasco sem nota na fonte; 1977, Flamengo-PI (3 gols) e
+Vitoria-ES (1 jogo) a mais na tabela final. Jogos decididos
 no tribunal ("awd") usam o placar atribuido, com o original na observacao.
 
 ## Revisao estrutural do Brasileiro antigo (2026-06)
@@ -497,7 +536,7 @@ entre subfases, entao ficaram como grupo unico (sem separacao A/B/E/F), com nota
 
 A implementacao mora em `regras_historicas.py` + `enriquecer_historico.py`
 (camada de dados, abaixo) e nas funcoes `renderHN*` de `gerar_dashboard_html.py`
-(render). Os anos de 1980 a 1991 ja foram importados dentro desse padrao.
+(render). Os anos de 1971 a 1991 ja foram importados dentro desse padrao.
 
 Nota especifica de 1986: a RSSSF lista tambem grupos inferiores/regionais, mas
 o banco local e a classificacao final existente usam 48 clubes. O importador
@@ -664,10 +703,19 @@ de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
 
 ## Fontes Usadas
 
-### Fonte principal para 1980-2002
+### Fonte principal para 1971-2002
 
 RSSSF Brasil:
 
+- `https://www.rsssf.org/tablesb/braz71.html`
+- `https://www.rsssf.org/tablesb/braz72.html`
+- `https://www.rsssf.org/tablesb/braz73.html`
+- `https://www.rsssf.org/tablesb/braz74.html`
+- `https://www.rsssf.org/tablesb/braz75.html`
+- `https://www.rsssf.org/tablesb/braz76.html`
+- `https://www.rsssf.org/tablesb/braz77.html`
+- `https://www.rsssf.org/tablesb/braz78.html`
+- `https://www.rsssf.org/tablesb/braz79.html`
 - `https://www.rsssf.org/tablesb/braz80.html`
 - `https://www.rsssf.org/tablesb/braz81.html`
 - `https://www.rsssf.org/tablesb/braz82.html`
@@ -784,6 +832,50 @@ Resumo por ano e fase:
 
 | Ano | Fase | Tipo | Jogos |
 | --- | --- | --- | ---: |
+| 1971 | Primeira fase | liga | 190 |
+| 1971 | Segunda fase | grupo | 36 |
+| 1971 | Triangular final | grupo | 3 |
+| 1972 | Primeira fase | liga | 325 |
+| 1972 | Segunda fase | grupo | 24 |
+| 1972 | Semifinal | mata_mata | 2 |
+| 1972 | Final | mata_mata | 1 |
+| 1973 | Primeira fase | liga | 560 |
+| 1973 | Segunda fase | grupo | 90 |
+| 1973 | Quadrangular final | grupo | 6 |
+| 1974 | Primeira fase | grupo | 380 |
+| 1974 | Fase semifinal | grupo | 60 |
+| 1974 | Fase final | grupo | 6 |
+| 1974 | Final | mata_mata | 1 |
+| 1975 | Primeira fase | grupo | 221 |
+| 1975 | Segunda fase | grupo | 100 |
+| 1975 | Repescagem | grupo | 50 |
+| 1975 | Terceira fase | grupo | 56 |
+| 1975 | Semifinal | mata_mata | 2 |
+| 1975 | Final | mata_mata | 1 |
+| 1976 | Primeira fase | grupo | 216 |
+| 1976 | Segunda fase | grupo | 60 |
+| 1976 | Repescagem | grupo | 60 |
+| 1976 | Terceira fase | grupo | 72 |
+| 1976 | Semifinal | mata_mata | 2 |
+| 1976 | Final | mata_mata | 1 |
+| 1977 | Primeira fase | grupo | 290 |
+| 1977 | Segunda fase | grupo | 60 |
+| 1977 | Repescagem | grupo | 70 |
+| 1977 | Fase final | grupo | 60 |
+| 1977 | Semifinal | mata_mata | 4 |
+| 1977 | Final | mata_mata | 1 |
+| 1978 | Primeira fase | grupo | 420 |
+| 1978 | Segunda fase | grupo | 144 |
+| 1978 | Repescagem | grupo | 102 |
+| 1978 | Terceira fase | grupo | 112 |
+| 1978 | Quartas de final | mata_mata | 8 |
+| 1978 | Semifinal | mata_mata | 4 |
+| 1978 | Final | mata_mata | 2 |
+| 1979 | Primeira fase | grupo | 359 |
+| 1979 | Segunda fase | grupo | 194 |
+| 1979 | Terceira fase | grupo | 24 |
+| 1979 | Semifinal | mata_mata | 4 |
+| 1979 | Final | mata_mata | 2 |
 | 1980 | Primeira fase | grupo | 180 |
 | 1980 | Segunda fase | grupo | 96 |
 | 1980 | Desempate | mata_mata | 1 |
@@ -876,9 +968,10 @@ Resumo por ano e fase:
 
 ## Como Continuar a Expansao Historica
 
-Proximo ano natural (indo para tras, 3 anos por vez):
-
-- `1979`, depois `1978` e `1977`.
+A serie esta completa desde 1971, o primeiro Campeonato Nacional. Antes
+disso vem a Taca Brasil e o Robertao (1959-1970), outras competicoes, com
+outras paginas na RSSSF; se um dia entrarem, o fluxo abaixo continua
+valendo.
 
 Desde 1985 para tras, cada ano usa a base comum
 `importar_brasileirao_historico_base.py`. O importador do ano so declara as
@@ -891,7 +984,7 @@ Fluxo para cada novo ano:
 2. Baixar a pagina:
 
 ```powershell
-curl.exe -L "https://www.rsssf.org/tablesb/braz79.html" -o data\rsssf_braz79.html
+curl.exe -L "https://www.rsssf.org/tablesb/<pagina>.html" -o data\rsssf_<pagina>.html
 ```
 
 3. Ler a pagina (o texto fica dentro de `<pre>`, em latin-1) e anotar a
@@ -901,10 +994,11 @@ curl.exe -L "https://www.rsssf.org/tablesb/braz79.html" -o data\rsssf_braz79.htm
 4. Conferir quantos clubes a classificacao final do banco tem para o ano
    (`fato_classificacao_final_nacional`): os participantes lidos precisam ser
    exatamente esses.
-5. Criar `importar_brasileirao_historico_1979.py` com a lista `FASES`
+5. Criar `importar_brasileirao_historico_<ano>.py` com a lista `FASES`
    (`Fase(nome, inicio, fim, tipo, jogos, ida_volta=...)`) e o total de jogos.
    Nomes que nao batem com `dim_clube` entram no `CANONICAL.update` da base.
-   Erro de placar conhecido da fonte vai em `AJUSTAR` (ver 1983 e 1980).
+   Erro de placar conhecido da fonte vai em `AJUSTAR` (ver 1983, 1980 e 1979). Jogos "awd", "dns" e "abd" sem placar na
+   fonte barram o import ate o `AJUSTAR` dizer o placar.
 6. Antes de gravar, conferir clube a clube contra a "Final Table" da RSSSF
    (J/V/E/D/GP/GC somados dos jogos lidos). Fases que a fonte nao soma, como a
    repescagem de 1984, ficam fora dessa conta.
@@ -978,7 +1072,7 @@ python .\check_dashboard.py
 Atencao importante:
 
 - Hoje o `build.py --rebuild-from-sources` nao chama automaticamente os scripts
-  `importar_brasileirao_historico_1980.py` ate
+  `importar_brasileirao_historico_1971.py` ate
   `importar_brasileirao_historico_2002.py`. O enriquecimento estrutural
   (`enriquecer_historico.py`) roda no fluxo normal e tambem no rebuild.
 - Se voce recriar o banco do zero, precisa reexecutar os importadores
@@ -991,6 +1085,15 @@ Sequencia recomendada em caso de rebuild total:
 ```powershell
 python -u .\backup.py
 python -u .\build.py --rebuild-from-sources --skip-dashboard
+python -u .\importar_brasileirao_historico_1971.py
+python -u .\importar_brasileirao_historico_1972.py
+python -u .\importar_brasileirao_historico_1973.py
+python -u .\importar_brasileirao_historico_1974.py
+python -u .\importar_brasileirao_historico_1975.py
+python -u .\importar_brasileirao_historico_1976.py
+python -u .\importar_brasileirao_historico_1977.py
+python -u .\importar_brasileirao_historico_1978.py
+python -u .\importar_brasileirao_historico_1979.py
 python -u .\importar_brasileirao_historico_1980.py
 python -u .\importar_brasileirao_historico_1981.py
 python -u .\importar_brasileirao_historico_1982.py
@@ -1122,7 +1225,7 @@ git status --short
 python -u .\backup.py
 ```
 
-Para continuar em 1979, siga "Como Continuar a Expansao Historica": baixar
-`braz79.html`, criar `importar_brasileirao_historico_1979.py` sobre a base
+Para importar um ano novo, siga "Como Continuar a Expansao Historica": baixar
+a pagina, criar `importar_brasileirao_historico_<ano>.py` sobre a base
 comum, conferir contra a "Final Table", registrar as regras, rodar
 `build.py`, validar o JS, olhar o dashboard e so entao fazer o commit.

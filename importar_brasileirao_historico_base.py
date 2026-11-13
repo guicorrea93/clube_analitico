@@ -36,12 +36,15 @@ from importar_brasileirao_historico_2000_2001 import (
 # Nomes da RSSSF de 1983-1985 que nao batem direto com dim_clube.
 CANONICAL.update({
     "america rj": "America-RJ",
+    "america gb": "America-RJ",  # Guanabara (estado do Rio ate 1975)
     "atletico go": "Atletico-GO",
     "atletico pr": "Athletico-PR",
     "botafogo rj": "Botafogo-RJ",
     "botafogo pb": "Botafogo-PB",
     "botafogo sp": "Botafogo-SP",
     "corinthiians": "Corinthians",  # erro de digitacao na RSSSF de 1981
+    "chapecoenses": "Chapecoense",  # erros de digitacao na RSSSF de 1978
+    "flumienense": "Fluminense",
     "flamengo rj": "Flamengo",
     "flamengo pi": "Flamengo-PI",
     "fluminense rj": "Fluminense",
@@ -74,7 +77,18 @@ CANONICAL.update({
     "internacional sm": "Inter de Santa Maria",
     "internacional sp": "Inter de Limeira",
     "sao paulo sp": "Sao Paulo",
-    "xv de novembro": "XV de Jaú",  # 1982: EC XV de Novembro (Jau)
+    "comercial sp": "Comercial-RP",
+    "comercial mt": "Comercial-MS",  # Campo Grande, ainda Mato Grosso em 1978
+    "fast": "Fast-AM",
+    "avai": "Avai",
+    "dom bosco": "Dom Bosco-MT",
+    "itabuna": "Itabuna-BA",
+    "vitoria ba": "Vitoria",
+    "operario cg": "Operário-MS",
+    "xv de novembro j": "XV de Jaú",
+    "xv de novembro p": "XV de Piracicaba",
+    # "XV de Novembro" sem cidade muda de clube conforme o ano: cada
+    # importador define (1982 = Jau; 1977-1978 = Piracicaba)
     # em 1980-1985 so jogaram estes; conferir ao descer para anos anteriores
     "rio branco": "Rio Branco-ES",
     "vila nova": "Vila Nova-GO",
@@ -83,11 +97,13 @@ CANONICAL.update({
 MONTHS = {"Jan": 1, "Feb": 2, "Mar": 3, "Apr": 4, "May": 5, "Jun": 6,
           "Jul": 7, "Aug": 8, "Sep": 9, "Oct": 10, "Nov": 11, "Dec": 12}
 
-DATE_RE = re.compile(r"^\[(\w{3})\s+(\d{1,2})(?:\s+and\s+(?:(\w{3})\s+)?(\d{1,2}))?\]\s*$", re.I)
+# "[Jan 26]", "[Jul 24 and 28]", "[Jul 27, 30]", "[Feb 26 and Mar 1/78]" (ano opcional)
+DATE_RE = re.compile(r"^\[(\w{3})\s+(\d{1,2})(?:/(\d{2}))?(?:\s*(?:and|,)\s+(?:(\w{3})\s+)?(\d{1,2})(?:/(\d{2}))?)?\]\s*$", re.I)
 TABLE_RE = re.compile(r"^\d+\s*[-\]]")
 SINGLE_RE = re.compile(r"^(.+?)\s+(\d+)-(\d+)\s+(.+?)(?:\s+\[(.*?)\]?)?\s*$")
 TWO_LEG_RE = re.compile(r"^(.+?)\s+(\d+)-(\d+)\s+(\d+)-(\d+)\s+(.+?)(?:\s+\[(.*?)\]?)?\s*$")
-AWD_RE = re.compile(r"^(.+?)\s+awd\s+(.+?)\s+\[(.*)$", re.I)
+# "awd": resultado dado no tribunal; "dns": jogo nao disputado (W.O.); "abd": abandonado
+AWD_RE = re.compile(r"^(.+?)\s+(awd|dns|abd)\s+(.+?)\s+\[(.*)$", re.I)
 AWD_SCORE_RE = re.compile(r"awarded\s+(\d+)-(\d+)", re.I)
 AET_RE = re.compile(r"aet\s+(\d+)-(\d+)", re.I)
 PEN_RE = re.compile(r"pen\s+(\d+)-(\d+)", re.I)
@@ -115,20 +131,28 @@ def clean_team(value: str) -> str:
     return canonical_name(raw)
 
 
-def ymd(year: int, month: str, day) -> str:
-    return f"{year}-{MONTHS[month[:3].title()]:02d}-{int(day):02d}"
+def ymd(year: int, month: str, day, yy=None, virada: int | None = None) -> str:
+    """Data ISO. "/78" na fonte manda no ano; sem ele, meses antes de
+    `virada` sao do ano seguinte (temporada que atravessa o ano, ex.: 1977)."""
+    mes = MONTHS[month[:3].title()]
+    if yy:
+        year = 1900 + int(yy)
+    elif virada and mes < virada:
+        year += 1
+    return f"{year}-{mes:02d}-{int(day):02d}"
 
 
 def _linhas_de_jogo(block: str):
-    """Linhas nao vazias do bloco, sem espacos nas pontas."""
+    """Linhas nao vazias do bloco, sem espacos nas pontas. Um jogo colado na
+    linha dos autores ("[Cedenir]Palmeiras  1-0  Rio Branco", 1976) e separado."""
     for line in block.split("\n"):
-        s = line.strip()
+        s = re.sub(r"^\[[^\]]*\](?=\S)", "", line.strip())
         if not s:
             continue
         yield s
 
 
-def parse_single(block: str, year: int, fase: Fase, ordem: int, fonte: str) -> list[Game]:
+def parse_single(block: str, year: int, fase: Fase, ordem: int, fonte: str, virada: int | None = None) -> list[Game]:
     games: list[Game] = []
     data = None
     rodada = None
@@ -139,23 +163,26 @@ def parse_single(block: str, year: int, fase: Fase, ordem: int, fonte: str) -> l
             continue
         dm = DATE_RE.match(s)
         if dm:
-            data = ymd(year, dm.group(1), dm.group(2))
+            data = ymd(year, dm.group(1), dm.group(2), dm.group(3), virada)
             continue
         if s.startswith("[") or TABLE_RE.match(s) or s.startswith("-"):
             continue
         awd = AWD_RE.match(s)
         if awd:
             # resultado dado no tribunal: "A awd B [awarded 0-1, orginally 1-0, ..."
-            placar = AWD_SCORE_RE.search(awd.group(3))
-            if not placar:
-                raise SystemExit(f"{year} {fase.nome}: jogo 'awd' sem placar atribuido: {s}")
+            # Sem placar atribuido ("points awarded to ..."), o jogo fica com
+            # placar -1/-1 e o importador do ano decide em AJUSTAR (rodar barra
+            # se sobrar algum): a base nao inventa placar.
+            placar = AWD_SCORE_RE.search(awd.group(4))
+            gm, gv = (int(placar.group(1)), int(placar.group(2))) if placar else (-1, -1)
             games.append(Game(year, fase.nome, ordem, fase.tipo, rodada, len(games) + 1, data,
-                              clean_team(awd.group(1)), clean_team(awd.group(2)),
-                              int(placar.group(1)), int(placar.group(2)), fonte,
-                              f"Resultado atribuido no tribunal: {awd.group(3).strip().rstrip(']')}"))
+                              clean_team(awd.group(1)), clean_team(awd.group(3)), gm, gv, fonte,
+                              {"dns": "Jogo nao disputado (W.O.): ", "abd": "Jogo abandonado: "}.get(awd.group(2).lower(), "Resultado atribuido no tribunal: ")
+                              + awd.group(4).strip().rstrip(']')))
             continue
         m = SINGLE_RE.match(s)
-        if not m:
+        # linha de tabela sem numero de posicao ("Sampaio Correa 11 0/ 2 3 6 8-21 7")
+        if not m or m.group(4)[0].isdigit():
             continue
         gm, gv = int(m.group(2)), int(m.group(3))
         nota = m.group(5) or ""
@@ -171,15 +198,15 @@ def parse_single(block: str, year: int, fase: Fase, ordem: int, fonte: str) -> l
     return games
 
 
-def parse_two_legs(block: str, year: int, fase: Fase, ordem: int, fonte: str) -> list[Game]:
+def parse_two_legs(block: str, year: int, fase: Fase, ordem: int, fonte: str, virada: int | None = None) -> list[Game]:
     games: list[Game] = []
     datas: list[str] = []
     jogo = 0
     for s in _linhas_de_jogo(block):
         dm = DATE_RE.match(s)
         if dm:
-            m1, d1, m2, d2 = dm.group(1), dm.group(2), dm.group(3) or dm.group(1), dm.group(4)
-            datas = [ymd(year, m1, d1)] + ([ymd(year, m2, d2)] if d2 else [])
+            m1, d1, y1, m2, d2, y2 = dm.groups()
+            datas = [ymd(year, m1, d1, y1, virada)] + ([ymd(year, m2 or m1, d2, y2, virada)] if d2 else [])
             continue
         if s.startswith("[") or TABLE_RE.match(s):
             continue
@@ -204,7 +231,8 @@ def parse_two_legs(block: str, year: int, fase: Fase, ordem: int, fonte: str) ->
     return games
 
 
-def parse_ano(year: int, fonte: str, fases: list[Fase], corte_final: str = "Final Table") -> list[Game]:
+def parse_ano(year: int, fonte: str, fases: list[Fase], corte_final: str = "Final Table",
+              virada: int | None = None) -> list[Game]:
     """Le o texto da RSSSF do ano, corta cada fase e confere a contagem de jogos."""
     text = read_pre(ROOT / "data" / f"rsssf_braz{year % 100:02d}.html")
     text = text[: text.find(corte_final)] if corte_final in text else text
@@ -219,7 +247,7 @@ def parse_ano(year: int, fonte: str, fases: list[Fase], corte_final: str = "Fina
             raise SystemExit(f"{year} {fase.nome}: marcador de fim '{fase.fim}' nao encontrado")
         bloco = text[i + len(fase.inicio):j]
         parser = parse_two_legs if fase.ida_volta else parse_single
-        lidos = parser(bloco, year, fase, ordem, fonte)
+        lidos = parser(bloco, year, fase, ordem, fonte, virada)
         if len(lidos) != fase.jogos:
             raise SystemExit(f"{year} {fase.nome}: esperava {fase.jogos} jogos, encontrei {len(lidos)}")
         games += lidos
@@ -304,16 +332,48 @@ def write_audit(year: int, games: list[Game]) -> str:
     return str(path.relative_to(ROOT))
 
 
+def _mesmo(nome: str, lido: str) -> bool:
+    """Compara nomes de clube sem acentos, maiusculas nem pontuacao."""
+    return norm(clean_team(nome)) == norm(lido)
+
+
 def corrigir_placar(games: list[Game], fase: str, mandante: str, visitante: str,
                     gm: int, gv: int, observacao: str) -> list[Game]:
     """Troca o placar de um jogo lido errado da fonte (exatamente um jogo)."""
     alvo = [i for i, g in enumerate(games)
-            if g.fase == fase and clean_team(mandante) == g.mandante and clean_team(visitante) == g.visitante]
+            if g.fase == fase and _mesmo(mandante, g.mandante) and _mesmo(visitante, g.visitante)]
     if len(alvo) != 1:
         raise SystemExit(f"correcao {fase} {mandante} x {visitante}: achei {len(alvo)} jogos")
     i = alvo[0]
     games[i] = replace(games[i], gm=gm, gv=gv, observacao=observacao)
     return games
+
+
+def trocar_clube(games: list[Game], fase: str, mandante: str, placar: str, visitante: str,
+                 errado: str, certo: str, observacao: str) -> list[Game]:
+    """Corrige o nome de um clube digitado errado na fonte, num jogo so."""
+    gm, gv = (int(x) for x in placar.split("-"))
+    alvo = [i for i, g in enumerate(games)
+            if g.fase == fase and _mesmo(mandante, g.mandante) and _mesmo(visitante, g.visitante)
+            and (g.gm, g.gv) == (gm, gv)]
+    if len(alvo) != 1:
+        raise SystemExit(f"troca {fase} {mandante} x {visitante}: achei {len(alvo)} jogos")
+    g = games[alvo[0]]
+    novo = clean_team(certo)
+    games[alvo[0]] = replace(
+        g,
+        mandante=novo if _mesmo(errado, g.mandante) else g.mandante,
+        visitante=novo if _mesmo(errado, g.visitante) else g.visitante,
+        observacao=observacao,
+    )
+    return games
+
+
+def renomear_clube(games: list[Game], de: str, para: str) -> list[Game]:
+    """Troca o nome de um clube em todos os jogos do ano (nome que muda
+    conforme a epoca, ex.: Operario de Campo Grande ainda "-MT" em 1978)."""
+    return [replace(g, mandante=para if _mesmo(de, g.mandante) else g.mandante,
+                    visitante=para if _mesmo(de, g.visitante) else g.visitante) for g in games]
 
 
 def separar_jogo(games: list[Game], fase: str, mandante: str, placar: str, visitante: str,
@@ -323,7 +383,7 @@ def separar_jogo(games: list[Game], fase: str, mandante: str, placar: str, visit
     posicao na ordem. O placar ("3-2") diferencia jogos repetidos."""
     gm, gv = (int(x) for x in placar.split("-"))
     alvo = [i for i, g in enumerate(games)
-            if g.fase == fase and clean_team(mandante) == g.mandante and clean_team(visitante) == g.visitante
+            if g.fase == fase and _mesmo(mandante, g.mandante) and _mesmo(visitante, g.visitante)
             and (g.gm, g.gv) == (gm, gv)]
     if len(alvo) != 1:
         raise SystemExit(f"separar {fase} {mandante} x {visitante}: achei {len(alvo)} jogos")
@@ -340,10 +400,14 @@ def separar_jogo(games: list[Game], fase: str, mandante: str, placar: str, visit
     return out
 
 
-def rodar(year: int, fonte: str, fases: list[Fase], total: int, ajustar=None) -> None:
-    games = parse_ano(year, fonte, fases)
+def rodar(year: int, fonte: str, fases: list[Fase], total: int, ajustar=None, virada: int | None = None,
+          corte_final: str = "Final Table") -> None:
+    games = parse_ano(year, fonte, fases, corte_final=corte_final, virada=virada)
     if ajustar:
         games = ajustar(games)
+    pendentes = [f"{g.fase}: {g.mandante} x {g.visitante}" for g in games if g.gm < 0 or g.gv < 0]
+    if pendentes:
+        raise SystemExit(f"{year}: jogos decididos no tribunal sem placar definido em AJUSTAR: {pendentes}")
     if len(games) != total:
         raise SystemExit(f"{year}: esperava {total} jogos, encontrei {len(games)}")
     participants = import_year(year, fonte, games)

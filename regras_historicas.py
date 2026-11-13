@@ -1,4 +1,4 @@
-"""Regras estruturais curadas do Campeonato Brasileiro 1980-2002.
+"""Regras estruturais curadas do Campeonato Brasileiro 1971-2002.
 
 Este modulo concentra os METADADOS de fase que o parser RSSSF nao captura:
 numero de grupos paralelos, formato da serie (mata-mata), criterio de
@@ -14,6 +14,12 @@ from __future__ import annotations
 
 # Pontos por vitoria por epoca (2 pts ate 1994; 3 pts a partir de 1995).
 PONTOS_VITORIA: dict[int, int] = {
+    # 1977-1978: vitoria por 3 gols ou mais valia 3 pontos e as demais 2; o
+    # dashboard usa 2 (a regra de saldo fica no criterio das fases).
+    # 1975: o bonus era para vitoria por 2 gols ou mais; 1976: por 3 ou mais.
+    1971: 2, 1972: 2, 1973: 2,
+    1974: 2, 1975: 2, 1976: 2,
+    1977: 2, 1978: 2, 1979: 2,
     1980: 2, 1981: 2, 1982: 2,
     1983: 2, 1984: 2, 1985: 2,
     1986: 2,
@@ -42,6 +48,108 @@ MELHOR_DE_3 = "melhor_de_3"           # mata-mata melhor de 3 jogos
 # Metadados por (ano, fase_nome). num_grupos > 1 dispara a derivacao de grupos.
 # criterio explica como a fase classifica/decide (vai para fase.criterio).
 FASE_META: dict[tuple[int, str], dict] = {
+    # ---------------- 1971 (1o Campeonato Nacional, 20 clubes, 2 pts) ----------------
+    (1971, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Turno unico entre os 20 clubes; a classificacao era dividida em dois grupos (A e B) e os melhores de cada grupo avancavam."},
+    (1971, "Segunda fase"): {"num_grupos": 3, "formato_serie": GRUPOS,
+        "criterio": "Tres grupos de 4 (turno e returno); o 1o de cada grupo vai ao triangular final."},
+    (1971, "Triangular final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Triangular em turno unico; Atletico-MG campeao (1-0 no Sao Paulo e 1-0 no Botafogo, no Maracana)."},
+
+    # ---------------- 1972 (2o Campeonato Nacional, 26 clubes, 2 pts) ----------------
+    (1972, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Turno unico entre os 26 clubes, com a classificacao em quatro grupos (A a D). ABC 2-1 Botafogo teve os pontos dados ao Botafogo no tribunal (gravado 0-1)."},
+    (1972, "Segunda fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 4 (turno unico); o 1o de cada grupo vai as semifinais."},
+    (1972, "Semifinal"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico; empate classificava o de melhor campanha (Palmeiras 1-1 Internacional)."},
+    (1972, "Final"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico no Morumbi; 0-0 com o Botafogo e Palmeiras campeao pela melhor campanha."},
+
+    # ---------------- 1973 (3o Campeonato Nacional, 40 clubes, 2 pts) ----------------
+    (1973, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Dois estagios, 28 jogos por clube, com tabela unica de 40 clubes; os 20 melhores avancam."},
+    (1973, "Segunda fase"): {"num_grupos": 2, "formato_serie": GRUPOS,
+        "criterio": "Dois grupos de 10 (turno unico), em janeiro e fevereiro de 1974; os 2 primeiros vao ao quadrangular final."},
+    (1973, "Quadrangular final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quadrangular em turno unico; Palmeiras campeao invicto."},
+
+    # ---------------- 1974 (Campeonato Nacional, 40 clubes, 2 pts) ----------------
+    (1974, "Primeira fase"): {"num_grupos": 2, "formato_serie": GRUPOS,
+        "criterio": "Dois grupos de 20 (turno unico); os melhores de cada grupo vao a fase semifinal."},
+    (1974, "Fase semifinal"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 6 (turno unico); o 1o de cada grupo vai a fase final."},
+    (1974, "Fase final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quadrangular em turno unico; Cruzeiro e Vasco empataram em pontos e foram ao jogo extra."},
+    (1974, "Final"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo extra no Maracana (a CBD tirou o jogo do Mineirao); Vasco campeao, 2-1 no Cruzeiro."},
+
+    # ---------------- 1975 (Copa Brasil, 42 clubes) ----------------
+    (1975, "Primeira fase"): {"num_grupos": 2, "formato_serie": GRUPOS,
+        "criterio": "Grupos A e B (10 clubes cada) jogaram contra o outro grupo, assim como os grupos C e D (11 clubes cada); por isso cada par aparece junto. Vitoria por 2 gols ou mais valia 3 pontos; as demais, 2 (o dashboard conta 2)."},
+    (1975, "Segunda fase"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Grupos 1 e 2 (10 clubes cada) jogaram contra o outro grupo, por isso aparecem juntos; os 6 primeiros de cada grupo avancam."},
+    (1975, "Repescagem"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Grupos 3 a 6, com os eliminados da primeira fase; os vencedores voltam a disputa."},
+    (1975, "Terceira fase"): {"num_grupos": 2, "formato_serie": GRUPOS,
+        "criterio": "Dois grupos de 8 (turno unico); os 2 primeiros vao as semifinais."},
+    (1975, "Semifinal"): {"num_grupos": 1, "formato_serie": JOGO_UNICO, "criterio": "Jogo unico."},
+    (1975, "Final"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico no Beira-Rio; Internacional campeao (1-0 no Cruzeiro, gol de Figueroa)."},
+
+    # ---------------- 1976 (Copa Brasil, 54 clubes) ----------------
+    (1976, "Primeira fase"): {"num_grupos": 6, "formato_serie": GRUPOS,
+        "criterio": "Seis grupos (turno unico). Os 4 primeiros vao a segunda fase; os demais, a repescagem. Vitoria por 3 gols ou mais valia 3 pontos; as demais, 2 (o dashboard conta 2)."},
+    (1976, "Segunda fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 6 (G a J), turno unico."},
+    (1976, "Repescagem"): {"num_grupos": 6, "formato_serie": GRUPOS,
+        "criterio": "Seis grupos (K a P) com os eliminados da primeira fase; o 1o de cada grupo segue na disputa."},
+    (1976, "Terceira fase"): {"num_grupos": 2, "formato_serie": GRUPOS,
+        "criterio": "Dois grupos (Q e R), turno unico; os 2 primeiros vao as semifinais."},
+    (1976, "Semifinal"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico; o Corinthians eliminou o Fluminense nos penaltis (1-1, 4-1) no Maracana."},
+    (1976, "Final"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico no Beira-Rio; Internacional campeao (2-0 no Corinthians)."},
+
+    # ---------------- 1977 (Copa Brasil, 62 clubes) ----------------
+    (1977, "Primeira fase"): {"num_grupos": 6, "formato_serie": GRUPOS,
+        "criterio": "Seis grupos. Os 5 primeiros vao aos grupos de vencedores; os demais, aos de perdedores. Vitoria por 3 gols ou mais valia 3 pontos; as demais, 2 (o dashboard conta 2)."},
+    (1977, "Segunda fase"): {"num_grupos": 6, "formato_serie": GRUPOS,
+        "criterio": "Grupos de vencedores (G a L), turno unico; os melhores vao a fase final."},
+    (1977, "Repescagem"): {"num_grupos": 6, "formato_serie": GRUPOS,
+        "criterio": "Grupos de perdedores (M a R), turno unico, com vagas para a fase final. No grupo Q, o Fluminense-BA abandonou o jogo contra a Desportiva (suborno da federacao baiana; contado 0-0); o Vitoria-BA nao foi ao jogo extra e a vaga ficou com a Desportiva."},
+    (1977, "Fase final"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 6 (turno unico); o 1o de cada grupo vai a semifinal."},
+    (1977, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1977, "Final"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico no Mineirao em 05/03/1978; 0-0 e Sao Paulo campeao nos penaltis (3-2) contra o Atletico-MG, que terminou invicto."},
+
+    # ---------------- 1978 (Copa Brasil, 74 clubes) ----------------
+    (1978, "Primeira fase"): {"num_grupos": 6, "formato_serie": GRUPOS,
+        "criterio": "Seis grupos (turno unico). Os 6 primeiros vao a segunda fase; os demais, a repescagem. Vitoria por 3 gols ou mais valia 3 pontos; as demais, 2 (o dashboard conta 2)."},
+    (1978, "Segunda fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos (G a J), turno unico."},
+    (1978, "Repescagem"): {"num_grupos": 6, "formato_serie": GRUPOS,
+        "criterio": "Seis grupos (K a P) com os eliminados da primeira fase, em paralelo a segunda fase; o Gremio Maringa ganhou a vaga."},
+    (1978, "Terceira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 8 (Q a T), turno unico; os 2 primeiros vao as quartas."},
+    (1978, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta; Vasco avancou contra o Gremio pela melhor campanha (1-1 e 1-1)."},
+    (1978, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1978, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Guarani campeao (1-0 e 1-0 contra o Palmeiras)."},
+
+    # ---------------- 1979 (Copa Brasil, 94 clubes, 2 pts) ----------------
+    (1979, "Primeira fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos (A a H), turno unico; 14 clubes entraram direto na segunda fase. Sao Paulo-RS x Operario-PR teve os pontos dados ao Sao Paulo-RS no tribunal (gravado 1-0)."},
+    (1979, "Segunda fase"): {"num_grupos": 7, "formato_serie": GRUPOS,
+        "criterio": "Sete grupos (I a O), turno unico; Palmeiras e Guarani de folga."},
+    (1979, "Terceira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 4 (P a S), turno unico; o 1o vai a semifinal. O Atletico-MG abandonou a fase: W.O. para Goias e Internacional (gravados 1-0)."},
+    (1979, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1979, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Internacional campeao invicto (2-0 e 2-1 contra o Vasco)."},
+
     # ---------------- 1980 (Taca de Ouro, 44 clubes, 2 pts) ----------------
     (1980, "Primeira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
         "criterio": "Quatro grupos de 10 (turno unico); os 7 primeiros de cada grupo avancam."},

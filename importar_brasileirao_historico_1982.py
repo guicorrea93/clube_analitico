@@ -7,10 +7,12 @@ Prata (America-RJ, Athletico-PR, Corinthians e Sao Paulo-RS). Terceira e
 quarta fases, semifinais em ida e volta e final em melhor de 3 (Flamengo
 campeao no terceiro jogo, contra o Gremio).
 """
-from importar_brasileirao_historico_base import Fase, rodar
+from importar_brasileirao_historico_base import CANONICAL, Fase, rodar
 
 YEAR = 1982
 SOURCE = "https://www.rsssf.org/tablesb/braz82.html"
+
+CANONICAL["xv de novembro"] = "XV de Jaú"
 
 FASES = [
     Fase("Primeira fase", "First Phase", "Playoff (Repescagem)", "grupo", 160),
