@@ -18,6 +18,7 @@ Regras de leitura:
 from __future__ import annotations
 
 import csv
+import html
 import re
 import sqlite3
 from dataclasses import dataclass, replace
@@ -37,6 +38,17 @@ from importar_brasileirao_historico_2000_2001 import (
 CANONICAL.update({
     "america rj": "America-RJ",
     "america gb": "America-RJ",  # Guanabara (estado do Rio ate 1975)
+    # Taca Brasil (1959-1968)
+    "capelense": "Capelense-AL",
+    "cruzeiro do sul": "Cruzeiro do Sul-DF",
+    "defele": "Defelê-DF",
+    "olimpico": "Olímpico-AM",
+    "rabello": "Rabello-DF",
+    "estrela do mar": "Estrela do Mar-PB",
+    "fonseca": "Fonseca-RJ",
+    "paula ramos": "Paula Ramos-SC",
+    "santa cruz pe": "Santa Cruz",
+    "santo antonio": "Santo Antônio-ES",
     "atletico go": "Atletico-GO",
     "atletico pr": "Athletico-PR",
     "botafogo rj": "Botafogo-RJ",
@@ -105,6 +117,9 @@ TWO_LEG_RE = re.compile(r"^(.+?)\s+(\d+)-(\d+)\s+(\d+)-(\d+)\s+(.+?)(?:\s+\[(.*?
 # "awd": resultado dado no tribunal; "dns": jogo nao disputado (W.O.); "abd": abandonado
 AWD_RE = re.compile(r"^(.+?)\s+(awd|dns|abd)\s+(.+?)\s+\[(.*)$", re.I)
 AWD_SCORE_RE = re.compile(r"awarded\s+(\d+)-(\d+)", re.I)
+# RSSSF Brasil: "FLAMENGO 0 x 0 PORTUGUESA DE DESPORTOS" e datas "06.09.1969"
+X_RE = re.compile(r"^(.+?)\s+(\d+)\s+x\s+(\d+)\s+(.+?)\s*$")
+DATA_BR_RE = re.compile(r"^(\d{2})\.(\d{2})\.(\d{4})$")
 AET_RE = re.compile(r"aet\s+(\d+)-(\d+)", re.I)
 PEN_RE = re.compile(r"pen\s+(\d+)-(\d+)", re.I)
 
@@ -118,6 +133,7 @@ class Fase:
     tipo: str            # "grupo" | "liga" | "mata_mata"
     jogos: int           # jogos esperados
     ida_volta: bool = False
+    misto: bool = False  # ida e volta e jogos unicos/desempates no mesmo bloco (Taca Brasil)
 
 
 def clean_team(value: str) -> str:
@@ -126,7 +142,7 @@ def clean_team(value: str) -> str:
         return "Operário-MS"
     if raw.startswith("Oper") and raw.endswith(("-MT", " MT")):
         return "Operário-MT"
-    if "utico" in raw:
+    if "utico" in raw.lower():
         return "Nautico"
     return canonical_name(raw)
 
@@ -165,7 +181,17 @@ def parse_single(block: str, year: int, fase: Fase, ordem: int, fonte: str, vira
         if dm:
             data = ymd(year, dm.group(1), dm.group(2), dm.group(3), virada)
             continue
-        if s.startswith("[") or TABLE_RE.match(s) or s.startswith("-"):
+        dbr = DATA_BR_RE.match(s)
+        if dbr:
+            data = f"{dbr.group(3)}-{dbr.group(2)}-{dbr.group(1)}"
+            continue
+        if s.startswith(("[", "(")) or TABLE_RE.match(s) or s.startswith("-"):
+            continue
+        mx = X_RE.match(s)
+        if mx:
+            games.append(Game(year, fase.nome, ordem, fase.tipo, rodada, len(games) + 1, data,
+                              clean_team(mx.group(1)), clean_team(mx.group(4)),
+                              int(mx.group(2)), int(mx.group(3)), fonte, ""))
             continue
         awd = AWD_RE.match(s)
         if awd:
@@ -206,6 +232,7 @@ def parse_two_legs(block: str, year: int, fase: Fase, ordem: int, fonte: str, vi
         dm = DATE_RE.match(s)
         if dm:
             m1, d1, y1, m2, d2, y2 = dm.groups()
+            y1 = y1 or y2  # "[Feb 2 and 9/69]": o ano do fim vale para as duas
             datas = [ymd(year, m1, d1, y1, virada)] + ([ymd(year, m2 or m1, d2, y2, virada)] if d2 else [])
             continue
         if s.startswith("[") or TABLE_RE.match(s):
@@ -231,10 +258,93 @@ def parse_two_legs(block: str, year: int, fase: Fase, ordem: int, fonte: str, vi
     return games
 
 
+PLAYOFF_RE = re.compile(r"^\[(\w{3})\s+(\d{1,2})(?:/(\d{2}))?\]\s*-\s*playoff", re.I)
+
+
+def parse_misto(block: str, year: int, fase: Fase, ordem: int, fonte: str, virada: int | None = None) -> list[Game]:
+    """Taca Brasil: confrontos em ida e volta ("A 3-1 1-2 B") e jogos unicos no
+    mesmo bloco. Um jogo unico depois de "[Sep 13] - playoff" e o desempate
+    do confronto e fica com essa observacao; os outros jogos unicos (finais de
+    grupo ou de zona em jogo so) ficam sem observacao."""
+    games: list[Game] = []
+    datas: list[str] = []
+    desempate = False
+    ultimo_par: set[str] = set()
+    jogo = 0
+    for s in _linhas_de_jogo(block):
+        pm = PLAYOFF_RE.match(s)
+        if pm:
+            datas = [ymd(year, pm.group(1), pm.group(2), pm.group(3), virada)]
+            desempate = True
+            continue
+        dm = DATE_RE.match(s)
+        if dm:
+            m1, d1, y1, m2, d2, y2 = dm.groups()
+            y1 = y1 or y2  # "[Feb 2 and 9/69]": o ano do fim vale para as duas
+            datas = [ymd(year, m1, d1, y1, virada)] + ([ymd(year, m2 or m1, d2, y2, virada)] if d2 else [])
+            desempate = False
+            continue
+        if s.startswith(("[", "(")) or TABLE_RE.match(s):
+            continue
+        m2 = TWO_LEG_RE.match(s)
+        if m2 and not m2.group(6)[0].isdigit():
+            jogo += 1
+            a, b = clean_team(m2.group(1)), clean_team(m2.group(6))
+            a1, b1, a2, b2 = (int(m2.group(i)) for i in (2, 3, 4, 5))
+            nota = m2.group(7) or ""
+            obs2 = ""
+            aet, pen = AET_RE.search(nota), PEN_RE.search(nota)
+            if aet:
+                a2, b2 = a2 + int(aet.group(1)), b2 + int(aet.group(2))
+                obs2 = f"Prorrogacao: {aet.group(1)}-{aet.group(2)}."
+            if pen:
+                obs2 = (obs2 + " " if obs2 else "") + f"Penaltis: {pen.group(1)}-{pen.group(2)}."
+            games.append(Game(year, fase.nome, ordem, "mata_mata", None, jogo, datas[0] if datas else None,
+                              a, b, a1, b1, fonte, ""))
+            games.append(Game(year, fase.nome, ordem, "mata_mata", None, jogo, datas[1] if len(datas) > 1 else None,
+                              b, a, b2, a2, fonte, obs2))
+            ultimo_par = {a, b}
+            continue
+        m1 = SINGLE_RE.match(s)
+        if not m1 or m1.group(4)[0].isdigit():
+            continue
+        # terceiro jogo entre os mesmos clubes logo depois da ida e volta
+        if {clean_team(m1.group(1)), clean_team(m1.group(4))} == ultimo_par:
+            desempate = True
+        ultimo_par = set()
+        gm, gv = int(m1.group(2)), int(m1.group(3))
+        nota = m1.group(5) or ""
+        obs = "Jogo de desempate (playoff)." if desempate else ""
+        aet, pen = AET_RE.search(nota), PEN_RE.search(nota)
+        if aet:
+            obs = (obs + " " if obs else "") + f"Tempo normal {gm}-{gv}; prorrogacao {aet.group(1)}-{aet.group(2)}."
+            gm, gv = gm + int(aet.group(1)), gv + int(aet.group(2))
+        if pen:
+            obs = (obs + " " if obs else "") + f"Penaltis: {pen.group(1)}-{pen.group(2)}."
+        if not desempate:
+            jogo += 1
+        games.append(Game(year, fase.nome, ordem, "mata_mata", None, jogo, datas[0] if datas else None,
+                          clean_team(m1.group(1)), clean_team(m1.group(4)), gm, gv, fonte, obs))
+        desempate = False
+    return games
+
+
+def ler_blocos_pre(path, blocos: list[int]) -> str:
+    """Junta os blocos <pre> escolhidos (pagina com varios blocos, ex.: RSSSF
+    Brasil de 1967, onde um bloco repete o jogo do titulo)."""
+    raw = path.read_text(encoding="latin-1")
+    achados = re.findall(r"<pre>(.*?)</pre>", raw, flags=re.S | re.I)
+    return "\n".join(html.unescape(achados[i]).replace("\r\n", "\n") for i in blocos)
+
+
 def parse_ano(year: int, fonte: str, fases: list[Fase], corte_final: str = "Final Table",
-              virada: int | None = None) -> list[Game]:
-    """Le o texto da RSSSF do ano, corta cada fase e confere a contagem de jogos."""
-    text = read_pre(ROOT / "data" / f"rsssf_braz{year % 100:02d}.html")
+              virada: int | None = None, arquivo: str | None = None,
+              blocos_pre: list[int] | None = None) -> list[Game]:
+    """Le o texto da RSSSF do ano, corta cada fase e confere a contagem de jogos.
+    `arquivo` (em data/) troca a pagina padrao rsssf_brazAA.html; `blocos_pre`
+    escolhe quais blocos <pre> ler (padrao: so o primeiro)."""
+    caminho = ROOT / "data" / (arquivo or f"rsssf_braz{year % 100:02d}.html")
+    text = ler_blocos_pre(caminho, blocos_pre) if blocos_pre else read_pre(caminho)
     text = text[: text.find(corte_final)] if corte_final in text else text
     games: list[Game] = []
     pos = 0
@@ -246,7 +356,7 @@ def parse_ano(year: int, fonte: str, fases: list[Fase], corte_final: str = "Fina
         if j < 0:
             raise SystemExit(f"{year} {fase.nome}: marcador de fim '{fase.fim}' nao encontrado")
         bloco = text[i + len(fase.inicio):j]
-        parser = parse_two_legs if fase.ida_volta else parse_single
+        parser = parse_misto if fase.misto else parse_two_legs if fase.ida_volta else parse_single
         lidos = parser(bloco, year, fase, ordem, fonte, virada)
         if len(lidos) != fase.jogos:
             raise SystemExit(f"{year} {fase.nome}: esperava {fase.jogos} jogos, encontrei {len(lidos)}")
@@ -255,18 +365,26 @@ def parse_ano(year: int, fonte: str, fases: list[Fase], corte_final: str = "Fina
     return games
 
 
-def import_year(year: int, fonte: str, games: list[Game]) -> list[str]:
+def import_year(year: int, fonte: str, games: list[Game], edicao: str | None = None) -> list[str]:
     """Grava participantes, fases e partidas do ano. Os participantes tem de
-    ser exatamente os clubes da classificacao final ja existente no banco."""
+    ser exatamente os clubes da classificacao final ja existente no banco.
+    `edicao` (dim_edicao_nacional.edicao_id, ex.: "1967_robertao") escolhe a
+    edicao quando nao e o "Campeonato Brasileiro" do ano."""
     con = sqlite3.connect(DB)
     try:
         create_tables(con)
-        row = con.execute(
-            "SELECT edicao_nacional_id FROM dim_edicao_nacional WHERE temporada_id = ? AND competicao_nome = 'Campeonato Brasileiro'",
-            (year,),
-        ).fetchone()
+        if edicao:
+            row = con.execute(
+                "SELECT edicao_nacional_id FROM dim_edicao_nacional WHERE edicao_id = ? AND temporada_id = ?",
+                (edicao, year),
+            ).fetchone()
+        else:
+            row = con.execute(
+                "SELECT edicao_nacional_id FROM dim_edicao_nacional WHERE temporada_id = ? AND competicao_nome = 'Campeonato Brasileiro'",
+                (year,),
+            ).fetchone()
         if not row:
-            raise SystemExit(f"Edicao nacional {year} nao encontrada.")
+            raise SystemExit(f"Edicao nacional {edicao or year} nao encontrada.")
         edicao_id = row[0]
         rows = con.execute("SELECT clube_id, nome FROM dim_clube").fetchall()
         by_name = {name: cid for cid, name in rows}
@@ -321,8 +439,8 @@ def import_year(year: int, fonte: str, games: list[Game]) -> list[str]:
         con.close()
 
 
-def write_audit(year: int, games: list[Game]) -> str:
-    path = ROOT / "data" / f"brasileirao_historico_{year}_partidas.csv"
+def write_audit(year: int, games: list[Game], edicao: str | None = None) -> str:
+    path = ROOT / "data" / f"brasileirao_historico_{edicao or year}_partidas.csv"
     with path.open("w", newline="", encoding="utf-8-sig") as f:
         fields = ["temporada", "fase", "rodada", "jogo", "data", "mandante", "placar", "visitante", "observacao", "fonte"]
         writer = csv.DictWriter(f, fieldnames=fields, delimiter=";")
@@ -401,8 +519,10 @@ def separar_jogo(games: list[Game], fase: str, mandante: str, placar: str, visit
 
 
 def rodar(year: int, fonte: str, fases: list[Fase], total: int, ajustar=None, virada: int | None = None,
-          corte_final: str = "Final Table") -> None:
-    games = parse_ano(year, fonte, fases, corte_final=corte_final, virada=virada)
+          corte_final: str = "Final Table", arquivo: str | None = None, edicao: str | None = None,
+          blocos_pre: list[int] | None = None) -> None:
+    games = parse_ano(year, fonte, fases, corte_final=corte_final, virada=virada, arquivo=arquivo,
+                      blocos_pre=blocos_pre)
     if ajustar:
         games = ajustar(games)
     pendentes = [f"{g.fase}: {g.mandante} x {g.visitante}" for g in games if g.gm < 0 or g.gv < 0]
@@ -410,7 +530,7 @@ def rodar(year: int, fonte: str, fases: list[Fase], total: int, ajustar=None, vi
         raise SystemExit(f"{year}: jogos decididos no tribunal sem placar definido em AJUSTAR: {pendentes}")
     if len(games) != total:
         raise SystemExit(f"{year}: esperava {total} jogos, encontrei {len(games)}")
-    participants = import_year(year, fonte, games)
-    audit = write_audit(year, games)
+    participants = import_year(year, fonte, games, edicao)
+    audit = write_audit(year, games, edicao)
     print(f"{year}: {len(participants)} participantes, {len({g.fase for g in games})} fases, {len(games)} jogos")
     print(f"auditoria: {audit}")

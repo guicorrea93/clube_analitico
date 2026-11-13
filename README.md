@@ -401,12 +401,32 @@ O banco atual contem:
   classificacao final historica para o periodo moderno.
 - Copa do Brasil: campeoes, vices, finais, edicoes e participantes.
 - Historico do Campeonato Brasileiro antigo, antes dos pontos corridos, ja
-  importado de 1971 (primeiro Campeonato Nacional) a 2002.
+  importado de 1971 (primeiro Campeonato Nacional) a 2002, mais as edicoes
+  anteriores reconhecidas pela CBF: Copa dos Campeoes Estaduais 1937,
+  Taca Brasil 1959-1968 e Robertao
+  (Torneio Roberto Gomes Pedrosa) 1967-1970. Em 1967 e 1968 ha duas
+  edicoes no mesmo ano; o seletor da aba Brasileiro Antigo escolhe pela
+  edicao ("1967 · Taca Brasil", "1967 · Torneio Roberto Gomes Pedrosa").
 
 Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 | Ano | Participantes | Fases | Jogos |
 | --- | ---: | ---: | ---: |
+| 1937 | 6 | 2 | 14 |
+| 1959 | 16 | 4 | 35 |
+| 1960 | 17 | 4 | 37 |
+| 1961 | 18 | 4 | 38 |
+| 1962 | 18 | 4 | 39 |
+| 1963 | 20 | 4 | 45 |
+| 1964 | 22 | 4 | 49 |
+| 1965 | 22 | 5 | 48 |
+| 1966 | 22 | 4 | 47 |
+| 1967 (Taca Brasil) | 21 | 6 | 61 |
+| 1967 (Robertao) | 15 | 2 | 117 |
+| 1968 (Taca Brasil) | 21 | 6 | 53 |
+| 1968 (Robertao) | 17 | 2 | 142 |
+| 1969 | 17 | 2 | 142 |
+| 1970 | 17 | 2 | 142 |
 | 1971 | 20 | 3 | 229 |
 | 1972 | 26 | 4 | 352 |
 | 1973 | 40 | 3 | 656 |
@@ -442,11 +462,13 @@ Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 Totais do historico antigo importado:
 
-- 32 edicoes: 1971 a 2002.
-- 151 fases.
-- 11.294 partidas.
+- 47 edicoes: Copa dos Campeoes 1937, Taca Brasil 1959-1968, Robertao
+  1967-1970 e Campeonato Brasileiro 1971-2002 (todas as reconhecidas pela
+  CBF ate 2002).
+- 206 fases.
+- 12.303 partidas.
 
-1971 a 1985 (importados em 13/11/2026) usam a base comum
+1959 a 1985 (importados em 13/11/2026) usam a base comum
 `importar_brasileirao_historico_base.py`: cada ano so declara os cortes do
 texto da RSSSF (`Fase(nome, inicio, fim, tipo, jogos)`). A base confere a
 contagem de jogos de cada fase e exige que os participantes sejam exatamente
@@ -477,6 +499,36 @@ desempates que a fonte nao soma ficam fora dessa conta. Ajustes conhecidos
   Os grupos A/B e C/D da primeira fase e 1/2 da segunda jogaram contra o
   outro grupo, por isso aparecem juntos.
 - 1974: "America-GB" (Guanabara) e o America-RJ.
+- Taca Brasil (1959-1966, paginas `brazcupAA.html` da RSSSF): mata-mata em
+  ida e volta com jogo de desempate, lido pelo leitor misto (`Fase(...,
+  misto=True)`). Fases no painel: Zona Norte, Zona Sul (grupos regionais e
+  decisao da zona), Quartas (so 1965), Semifinal e Final. O desempate fica
+  com a observacao "Jogo de desempate (playoff)."; um terceiro jogo entre
+  os mesmos clubes logo depois da ida e volta tambem conta como desempate.
+  Sem tabela final na fonte: a conferencia e a lista de clubes contra a
+  classificacao do banco. 1962 e 1963 tem `VIRADA` (finais em 1963 e 1964).
+- 1967 e 1968: importadores `..._1967_taca_brasil.py`, `..._1967_robertao.py`
+  etc., com `EDICAO` = edicao_id; o CSV de auditoria leva o mesmo nome. As
+  regras de fase usam a chave (edicao_id, fase) em `regras_historicas.py`.
+  A Taca Brasil de 1967-1968 tem tambem a Zona Central; a de 1968 tem
+  triangulares regionais (turno e returno) que aparecem como confrontos e
+  terminou em outubro de 1969 (datas "/69"; o ano da 2a data de um par
+  vale para a 1a). O Robertao de 1967 vem de varios blocos <pre> em
+  portugues (`BLOCOS_PRE = [0, 2]`; o bloco do "Title match" repete o jogo
+  do titulo). No Robertao de 1968 a tabela da fonte tem 1 gol a menos no
+  Botafogo 4-2 Nautico, que tem os seis autores listados.
+- 1937: sem pagina na RSSSF nem no RSSSF Brasil ("o arquivo para este
+  torneio ainda nao foi criado"). Os 14 jogos estao escritos no proprio
+  importador, tirados da Wikipedia PT (mesma fonte da classificacao no
+  banco), que cita O Globo, Jornal do Brasil e Correio da Manha de 1937; eles
+  fecham exatamente com a tabela do quadrangular. A Wikipedia em ingles
+  diverge (datas e Rio Branco 3-1 Portuguesa) e nao fecha.
+- Robertao 1967-1970: jogos do RSSSF Brasil (`rsssfbrasil_rgpAAAA.htm`,
+  formato "TIME 1 x 0 TIME", datas 06.09.1969). A RSSSF nao tem os jogos de
+  1969, e a lista de 1970 dela tem placares que nao fecham com a tabela dela
+  mesma; a do RSSSF Brasil fecha em todos os clubes.
+- Edicoes que nao sao o "Campeonato Brasileiro" do ano sao escolhidas pelo
+  `EDICAO` (dim_edicao_nacional.edicao_id) no importador.
 - 1972: ABC 2-1 Botafogo teve os pontos dados ao Botafogo (sem "awd" na
   fonte); gravado 0-1 em `AJUSTAR`.
 - 1971 e 1973: a fonte nao numera as rodadas da primeira fase (so datas),
@@ -703,7 +755,14 @@ de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
 
 ## Fontes Usadas
 
-### Fonte principal para 1971-2002
+### Fonte principal para 1959-2002
+
+Taca Brasil: `https://www.rsssf.org/tablesb/brazcup59.html` a `brazcup68.html`.
+Robertao: `https://rsssfbrasil.com/tablesr/rgp1967.htm` a `rgp1970.htm`.
+
+Copa dos Campeoes 1937: `https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_1937`.
+
+Campeonato Brasileiro 1971-2002:
 
 RSSSF Brasil:
 
@@ -832,6 +891,45 @@ Resumo por ano e fase:
 
 | Ano | Fase | Tipo | Jogos |
 | --- | --- | --- | ---: |
+| 1937 | Fase preliminar | mata_mata | 2 |
+| 1937 | Quadrangular final | grupo | 12 |
+| 1959 | Zona Norte | mata_mata | 17 |
+| 1959 | Zona Sul | mata_mata | 10 |
+| 1959 | Semifinal | mata_mata | 5 |
+| 1959 | Final | mata_mata | 3 |
+| 1960 | Zona Norte | mata_mata | 16 |
+| 1960 | Zona Sul | mata_mata | 15 |
+| 1960 | Semifinal | mata_mata | 4 |
+| 1960 | Final | mata_mata | 2 |
+| 1961 | Zona Norte | mata_mata | 15 |
+| 1961 | Zona Sul | mata_mata | 16 |
+| 1961 | Semifinal | mata_mata | 5 |
+| 1961 | Final | mata_mata | 2 |
+| 1962 | Zona Norte | mata_mata | 21 |
+| 1962 | Zona Sul | mata_mata | 10 |
+| 1962 | Semifinal | mata_mata | 5 |
+| 1962 | Final | mata_mata | 3 |
+| 1963 | Zona Norte | mata_mata | 23 |
+| 1963 | Zona Sul | mata_mata | 16 |
+| 1963 | Semifinal | mata_mata | 4 |
+| 1963 | Final | mata_mata | 2 |
+| 1964 | Zona Norte | mata_mata | 23 |
+| 1964 | Zona Sul | mata_mata | 20 |
+| 1964 | Semifinal | mata_mata | 4 |
+| 1964 | Final | mata_mata | 2 |
+| 1965 | Zona Norte | mata_mata | 21 |
+| 1965 | Zona Sul | mata_mata | 16 |
+| 1965 | Quartas de final | mata_mata | 5 |
+| 1965 | Semifinal | mata_mata | 4 |
+| 1965 | Final | mata_mata | 2 |
+| 1966 | Zona Norte | mata_mata | 21 |
+| 1966 | Zona Sul | mata_mata | 19 |
+| 1966 | Semifinal | mata_mata | 5 |
+| 1966 | Final | mata_mata | 2 |
+| 1969 | Primeira fase | liga | 136 |
+| 1969 | Fase final | grupo | 6 |
+| 1970 | Primeira fase | liga | 136 |
+| 1970 | Fase final | grupo | 6 |
 | 1971 | Primeira fase | liga | 190 |
 | 1971 | Segunda fase | grupo | 36 |
 | 1971 | Triangular final | grupo | 3 |
@@ -968,10 +1066,9 @@ Resumo por ano e fase:
 
 ## Como Continuar a Expansao Historica
 
-A serie esta completa desde 1971, o primeiro Campeonato Nacional. Antes
-disso vem a Taca Brasil e o Robertao (1959-1970), outras competicoes, com
-outras paginas na RSSSF; se um dia entrarem, o fluxo abaixo continua
-valendo.
+Todas as edicoes reconhecidas pela CBF ate 2002 tem jogos no banco, de 1937
+(Copa dos Campeoes Estaduais) a 2002. Proximo passo natural, se houver:
+o Brasileirao de 2026, quando a temporada terminar.
 
 Desde 1985 para tras, cada ano usa a base comum
 `importar_brasileirao_historico_base.py`. O importador do ano so declara as

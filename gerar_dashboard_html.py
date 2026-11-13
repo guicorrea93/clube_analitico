@@ -2402,9 +2402,11 @@ function renderBrasileiroAntigo() {
     return;
   }
   if (!state.hnInit) {
-    const years = edicoes.map(e => e.temporada).sort((a,b)=>a-b);
-    state.hnSeason = years[years.length - 1];
-    selSeason.innerHTML = years.map(y => `<option value="${y}">${y}</option>`).join("");
+    // hnSeason guarda a edicao (edicao_nacional_id): 1967 e 1968 tem duas
+    // edicoes reconhecidas (Taca Brasil e Robertao) no mesmo ano.
+    const ordem = edicoes.slice().sort((a,b) => a.temporada - b.temporada || a.competicao.localeCompare(b.competicao, "pt-BR"));
+    state.hnSeason = ordem[ordem.length - 1].edicao_nacional_id;
+    selSeason.innerHTML = ordem.map(e => `<option value="${e.edicao_nacional_id}">${e.temporada}${e.competicao && e.competicao !== "Campeonato Brasileiro" ? " · " + e.competicao : ""}</option>`).join("");
     selSeason.value = state.hnSeason;
     selSeason.onchange = () => { state.hnSeason = +selSeason.value; state.hnFase = ""; state.hnRaceIdx = 0; stopHNRace(); renderBrasileiroAntigo(); };
     selFase.onchange = () => { state.hnFase = selFase.value; renderBrasileiroAntigo(); };
@@ -2414,7 +2416,7 @@ function renderBrasileiroAntigo() {
     document.getElementById("hn-race-range").oninput = e => { stopHNRace(); state.hnRaceIdx = +e.target.value; renderHNRace(); };
     state.hnInit = true;
   }
-  const ed = edicoes.find(e => e.temporada === state.hnSeason) || edicoes[edicoes.length - 1];
+  const ed = edicoes.find(e => e.edicao_nacional_id === state.hnSeason) || edicoes[edicoes.length - 1];
   const fases = data.fases.filter(f => f.edicao_nacional_id === ed.edicao_nacional_id).sort((a,b)=>a.ordem-b.ordem);
   const participantes = data.participantes.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
   const partidasTodas = data.partidas.filter(p => p.edicao_nacional_id === ed.edicao_nacional_id);
@@ -2488,7 +2490,7 @@ function cssId(s) { return "f-" + String(s).normalize("NFD").replace(/[^a-zA-Z0-
 
 function getHNCurrentEdition() {
   const data = DATA.hist_nacional || {edicoes:[]};
-  return (data.edicoes || []).find(e => e.temporada === state.hnSeason) || (data.edicoes || [])[0];
+  return (data.edicoes || []).find(e => e.edicao_nacional_id === state.hnSeason) || (data.edicoes || [])[0];
 }
 
 function getHNRaceFrames() {
@@ -2573,8 +2575,8 @@ function renderHNChampion(ed, fases, champion) {
   const wrap = document.getElementById("hn-champion-wrap");
   if (!wrap) return;
   if (!champion) { wrap.innerHTML = ""; return; }
-  const finalFase = fases.filter(f => f.tipo === "mata_mata").sort((a,b)=>b.ordem-a.ordem)[0]
-                 || fases.slice().sort((a,b)=>b.ordem-a.ordem)[0];
+  // a ultima fase decide o titulo (em 1937 o unico mata-mata e a fase preliminar)
+  const finalFase = fases.slice().sort((a,b)=>b.ordem-a.ordem)[0];
   const crit = finalFase?.criterio || "";
   wrap.innerHTML = `<div class="hn-champion"><div class="ic">🏆</div><div class="tx">
       <span>Campeão Brasileiro de ${ed.temporada}</span><b>${champion}</b>

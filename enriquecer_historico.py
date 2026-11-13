@@ -79,8 +79,9 @@ def enriquecer() -> None:
         fases = con.execute(
             """
             SELECT f.fase_nacional_id, f.edicao_nacional_id, f.temporada_id, f.fase_ordem,
-                   f.fase_nome, f.fase_tipo
+                   f.fase_nome, f.fase_tipo, e.edicao_id
             FROM dim_fase_nacional_historica f
+            JOIN dim_edicao_nacional e ON e.edicao_nacional_id = f.edicao_nacional_id
             WHERE f.temporada_id <= 2002
             ORDER BY f.temporada_id, f.fase_ordem
             """
@@ -93,7 +94,7 @@ def enriquecer() -> None:
                 (f["fase_nacional_id"],),
             ).fetchall()
             nodes = {p["mandante_id"] for p in partidas} | {p["visitante_id"] for p in partidas}
-            meta = regras.fase_meta(ano, f["fase_nome"], f["fase_tipo"] or "", len(nodes), len(partidas))
+            meta = regras.fase_meta(ano, f["fase_nome"], f["fase_tipo"] or "", len(nodes), len(partidas), f["edicao_id"])
 
             con.execute(
                 "UPDATE dim_fase_nacional_historica SET num_grupos = ?, formato_serie = ?, criterio = ? WHERE fase_nacional_id = ?",

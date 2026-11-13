@@ -1,4 +1,4 @@
-"""Regras estruturais curadas do Campeonato Brasileiro 1971-2002.
+"""Regras estruturais curadas do Campeonato Brasileiro 1937 e 1959-2002 (1967 e 1968 com duas edicoes).
 
 Este modulo concentra os METADADOS de fase que o parser RSSSF nao captura:
 numero de grupos paralelos, formato da serie (mata-mata), criterio de
@@ -17,6 +17,9 @@ PONTOS_VITORIA: dict[int, int] = {
     # 1977-1978: vitoria por 3 gols ou mais valia 3 pontos e as demais 2; o
     # dashboard usa 2 (a regra de saldo fica no criterio das fases).
     # 1975: o bonus era para vitoria por 2 gols ou mais; 1976: por 3 ou mais.
+    1937: 2,
+    1959: 2, 1960: 2, 1961: 2, 1962: 2, 1963: 2, 1964: 2, 1965: 2, 1966: 2,
+    1969: 2, 1970: 2,
     1971: 2, 1972: 2, 1973: 2,
     1974: 2, 1975: 2, 1976: 2,
     1977: 2, 1978: 2, 1979: 2,
@@ -48,6 +51,105 @@ MELHOR_DE_3 = "melhor_de_3"           # mata-mata melhor de 3 jogos
 # Metadados por (ano, fase_nome). num_grupos > 1 dispara a derivacao de grupos.
 # criterio explica como a fase classifica/decide (vai para fase.criterio).
 FASE_META: dict[tuple[int, str], dict] = {
+    # ---------------- 1937 (Copa dos Campeoes Estaduais, 6 clubes) ----------------
+    # Reconhecida pela CBF como Brasileiro em agosto de 2023.
+    (1937, "Fase preliminar"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Alianca, Liga de Sports da Marinha e Rio Branco (ES) disputaram a vaga no quadrangular; o Rio Branco venceu a Liga da Marinha na prorrogacao."},
+    (1937, "Quadrangular final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quadrangular em turno e returno; Atletico-MG campeao (5-1 no Rio Branco em 3 de fevereiro garantiu o titulo)."},
+
+    # ---------------- 1959-1961 (Taca Brasil, mata-mata) ----------------
+    # Reconhecida pela CBF como Brasileiro (2010). Ida e volta; se cada clube
+    # vencia uma vez (ou empate no agregado, conforme o ano), jogo de desempate.
+    (1959, "Zona Norte"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Grupos regionais (Nordeste e Norte) e decisao da zona, em ida e volta com jogo de desempate."},
+    (1959, "Zona Sul"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Grupos regionais (Sul e Leste) e decisao da zona, em ida e volta com jogo de desempate."},
+    (1959, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Os campeoes de zona contra Santos e Vasco, que entraram direto."},
+    (1959, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Bahia campeao: 3-2 e 0-2 contra o Santos, e 3-1 no jogo de desempate no Maracana, em marco de 1960."},
+    (1960, "Zona Norte"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Grupos regionais e decisao da zona, em ida e volta com jogo de desempate."},
+    (1960, "Zona Sul"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Grupos regionais e decisao da zona, em ida e volta com jogo de desempate."},
+    (1960, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Semifinais em ida e volta."},
+    (1960, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Palmeiras campeao (3-1 e 8-2 contra o Fortaleza)."},
+    (1961, "Zona Norte"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Grupos regionais e decisao da zona, em ida e volta com jogo de desempate."},
+    (1961, "Zona Sul"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Grupos regionais e decisao da zona, em ida e volta com jogo de desempate."},
+    (1961, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Semifinais em ida e volta, com jogo de desempate."},
+    (1961, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Santos campeao (1-1 em Salvador e 5-1 contra o Bahia)."},
+
+    # ---------------- 1962-1964 (Taca Brasil, mata-mata) ----------------
+    **{(ano, zona): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                     "criterio": "Grupos regionais e decisao da zona, em ida e volta com jogo de desempate."}
+       for ano in (1962, 1963, 1964) for zona in ("Zona Norte", "Zona Sul")},
+    **{(ano, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                            "criterio": "Semifinais em ida e volta, com jogo de desempate."}
+       for ano in (1962, 1963, 1964)},
+    (1962, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Santos campeao no terceiro jogo contra o Botafogo (4-3, 1-3 e 5-0), em abril de 1963."},
+    (1963, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Santos campeao (6-0 e 2-0 contra o Bahia), em janeiro de 1964."},
+    (1964, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Santos campeao (4-1 e 0-0 contra o Flamengo)."},
+
+    # ---------------- 1965-1966 (Taca Brasil, mata-mata) ----------------
+    **{(ano, zona): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                     "criterio": "Grupos regionais e decisao da zona, em ida e volta com jogo de desempate."}
+       for ano in (1965, 1966) for zona in ("Zona Norte", "Zona Sul")},
+    (1965, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta, com jogo de desempate (Palmeiras 2-0 Gremio no terceiro jogo)."},
+    (1965, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1965, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Santos campeao (5-1 e 1-0 contra o Vasco)."},
+    (1966, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Semifinais em ida e volta, com jogo de desempate."},
+    (1966, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Cruzeiro campeao (6-2 e 3-2 contra o Santos)."},
+
+    # ---------------- 1967-1968: duas edicoes por ano (chave = edicao_id) ----------------
+    **{(ed, zona): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                    "criterio": "Grupos regionais e decisao da zona, em ida e volta com jogo de desempate."}
+       for ed in ("1967_taca_brasil", "1968_taca_brasil") for zona in ("Zona Norte", "Zona Central", "Zona Sul")},
+    ("1968_taca_brasil", "Zona Norte"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Triangulares regionais em turno e returno (aparecem como confrontos) e mata-mata da zona; a decisao foi em fevereiro de 1969, com jogo de desempate."},
+    **{(ed, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                                 "criterio": "Ida e volta, com jogo de desempate."}
+       for ed in ("1967_taca_brasil", "1968_taca_brasil")},
+    **{(ed, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+                           "criterio": "Ida e volta, com jogo de desempate."}
+       for ed in ("1967_taca_brasil", "1968_taca_brasil")},
+    ("1967_taca_brasil", "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Palmeiras campeao no jogo de desempate contra o Nautico (3-1, 1-2 e 2-0)."},
+    ("1968_taca_brasil", "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Botafogo campeao contra o Fortaleza, em 1969."},
+    ("1967_robertao", "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Turno unico entre os 15 clubes, com a classificacao em dois grupos (A e B); os 2 primeiros de cada grupo vao ao quadrangular final."},
+    ("1967_robertao", "Quadrangular final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quadrangular em turno e returno; Palmeiras campeao (2-1 no Gremio no Pacaembu, no jogo do titulo)."},
+    ("1968_robertao", "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Turno unico entre os 17 clubes, com a classificacao em dois grupos (A e B); os 2 primeiros de cada grupo vao a fase final."},
+    ("1968_robertao", "Fase final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quadrangular em turno unico; Santos campeao com tres vitorias."},
+
+    # ---------------- 1969-1970 (Robertao, 17 clubes, 2 pts) ----------------
+    # Torneio Roberto Gomes Pedrosa, reconhecido pela CBF como Brasileiro (2010).
+    (1969, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Turno unico entre os 17 clubes, com a classificacao em dois grupos (A e B); os 2 primeiros de cada grupo vao a fase final."},
+    (1969, "Fase final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quadrangular em turno unico; Palmeiras campeao (3-1 no Botafogo no Morumbi, no ultimo jogo)."},
+    (1970, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
+        "criterio": "Turno unico entre os 17 clubes, com a classificacao em dois grupos (A e B); os 2 primeiros de cada grupo vao a fase final."},
+    (1970, "Fase final"): {"num_grupos": 1, "formato_serie": GRUPOS,
+        "criterio": "Quadrangular em turno unico; Fluminense campeao."},
+
     # ---------------- 1971 (1o Campeonato Nacional, 20 clubes, 2 pts) ----------------
     (1971, "Primeira fase"): {"num_grupos": 1, "formato_serie": PONTOS_CORRIDOS,
         "criterio": "Turno unico entre os 20 clubes; a classificacao era dividida em dois grupos (A e B) e os melhores de cada grupo avancavam."},
@@ -392,9 +494,13 @@ FASE_META: dict[tuple[int, str], dict] = {
 }
 
 
-def fase_meta(ano: int, fase_nome: str, fase_tipo: str, num_times: int, num_jogos: int) -> dict:
-    """Retorna metadados curados; cai para inferencia razoavel quando ausente."""
-    m = FASE_META.get((ano, fase_nome))
+def fase_meta(ano: int, fase_nome: str, fase_tipo: str, num_times: int, num_jogos: int,
+              edicao_id: str | None = None) -> dict:
+    """Retorna metadados curados; cai para inferencia razoavel quando ausente.
+    A chave (edicao_id, fase) vale antes de (ano, fase): em 1967 e 1968 ha duas
+    edicoes no mesmo ano (ex.: "1967_robertao")."""
+    m = FASE_META.get((edicao_id, fase_nome)) if edicao_id else None
+    m = m or FASE_META.get((ano, fase_nome))
     if m:
         return {"num_grupos": m["num_grupos"], "formato_serie": m["formato_serie"], "criterio": m.get("criterio", "")}
     # Inferencia de fallback (anos/fases nao curados).
