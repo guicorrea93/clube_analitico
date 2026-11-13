@@ -2706,7 +2706,8 @@ function renderHNKnockoutBlock(run, partidasTodas, officialChampion) {
 
 function renderHNTie(f, par, officialChampion, advancingClubs) {
   if (!par.length) return "";
-  par = par.slice().sort((a,b) => (a.data_iso || "").localeCompare(b.data_iso || "") || (a.jogo||0)-(b.jogo||0));
+  // jogo sem data (a RSSSF as vezes so da a data da ida) vai para o fim
+  par = par.slice().sort((a,b) => (a.data_iso || "9999").localeCompare(b.data_iso || "9999") || (a.jogo||0)-(b.jogo||0));
   const teamA = par[0].mandante, teamB = par[0].visitante;
   const scoreFor = (team, m) => m.mandante === team ? m.gm : m.gv;
   let winsA = 0, winsB = 0, aggA = 0, aggB = 0;
@@ -2730,9 +2731,13 @@ function renderHNTie(f, par, officialChampion, advancingClubs) {
     resumo = `Série melhor de 3: <b>${winner}</b> ${isFinal ? "campeão" : "avançou"} (${Math.max(winsA,winsB)}-${Math.min(winsA,winsB)} em jogos).`;
   } else if (aggA === aggB) {
     winner = tiebreakWinner();
+    // Penaltis anotados na observacao do jogo; o vencedor continua vindo da
+    // classificacao oficial, entao o placar sai como maior-menor.
+    const pen = par.map(m => String(m.obs || "").match(/Penaltis:\s*(\d+)-(\d+)/i)).find(Boolean);
+    const penTxt = pen ? `nos pênaltis (${Math.max(+pen[1], +pen[2])}-${Math.min(+pen[1], +pen[2])})` : "por critério da edição (melhor campanha)";
     resumo = winner
-      ? `Agregado ${aggA}-${aggB}; <b>${winner}</b> ${isFinal ? "campeão" : "avançou"} por critério da edição (melhor campanha).`
-      : `Agregado ${aggA}-${aggB}; decidido por critério da edição.`;
+      ? `Agregado ${aggA}-${aggB}; <b>${winner}</b> ${isFinal ? "campeão" : "avançou"} ${penTxt}.`
+      : `Agregado ${aggA}-${aggB}; decidido ${pen ? penTxt : "por critério da edição"}.`;
   } else {
     winner = aggA > aggB ? teamA : teamB;
     resumo = `Agregado: <b>${winner}</b> ${isFinal ? "foi campeão" : "avançou"} (${Math.max(aggA,aggB)}-${Math.min(aggA,aggB)}).`;

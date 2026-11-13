@@ -401,12 +401,18 @@ O banco atual contem:
   classificacao final historica para o periodo moderno.
 - Copa do Brasil: campeoes, vices, finais, edicoes e participantes.
 - Historico do Campeonato Brasileiro antigo, antes dos pontos corridos, ja
-  importado de 1986 a 2002.
+  importado de 1980 a 2002.
 
 Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 | Ano | Participantes | Fases | Jogos |
 | --- | ---: | ---: | ---: |
+| 1980 | 44 | 6 | 307 |
+| 1981 | 44 | 6 | 306 |
+| 1982 | 44 | 7 | 291 |
+| 1983 | 44 | 7 | 322 |
+| 1984 | 41 | 7 | 310 |
+| 1985 | 44 | 4 | 517 |
 | 1986 | 48 | 6 | 538 |
 | 1987 | 18 | 4 | 128 |
 | 1988 | 24 | 4 | 290 |
@@ -427,15 +433,28 @@ Historico nacional ja importado no bloco "Historico > Brasileiro Antigo":
 
 Totais do historico antigo importado:
 
-- 17 edicoes: 1986 a 2002.
-- 70 fases.
-- 4.856 partidas.
+- 23 edicoes: 1980 a 2002.
+- 107 fases.
+- 6.909 partidas.
 
-Ultimos anos importados antes desta atualizacao do README:
+1980 a 1985 (importados em 13/11/2026) usam a base comum
+`importar_brasileirao_historico_base.py`: cada ano so declara os cortes do
+texto da RSSSF (`Fase(nome, inicio, fim, tipo, jogos)`). A base confere a
+contagem de jogos de cada fase e exige que os participantes sejam exatamente
+os clubes da classificacao final ja existente no banco. Os tres anos batem
+clube a clube (J/V/E/D/GP/GC) com a "Final Table" da RSSSF; repescagens e
+desempates que a fonte nao soma ficam fora dessa conta. Ajustes conhecidos
+(funcao `AJUSTAR` de cada ano):
 
-- 1994: commit `08ef00d Adiciona historico do Brasileiro 1994`
-- 1993: commit `572aec5 Adiciona historico do Brasileiro 1993`
-- 1992: commit `18017b2 Adiciona historico do Brasileiro 1992`
+- 1983: a volta Sao Paulo 0-1 Athletico-PR (quartas) vem invertida na RSSSF
+  e e corrigida.
+- 1980: o desempate Guarani 3-2 America-RJ (2o lugar do grupo I) fica numa
+  fase propria, "Desempate", para nao entrar na tabela do grupo.
+
+Diferencas que sao da propria tabela final da RSSSF (os jogos batem com as
+tabelas de grupo dela): 1981, Ponte Preta com 1 gol a mais de cada lado;
+1982, Londrina com o 0-0 da repescagem somado so para ele. Jogos decididos
+no tribunal ("awd") usam o placar atribuido, com o original na observacao.
 
 ## Revisao estrutural do Brasileiro antigo (2026-06)
 
@@ -478,7 +497,7 @@ entre subfases, entao ficaram como grupo unico (sem separacao A/B/E/F), com nota
 
 A implementacao mora em `regras_historicas.py` + `enriquecer_historico.py`
 (camada de dados, abaixo) e nas funcoes `renderHN*` de `gerar_dashboard_html.py`
-(render). Os anos de 1986, 1987, 1988, 1989, 1990 e 1991 ja foram importados dentro desse padrao.
+(render). Os anos de 1980 a 1991 ja foram importados dentro desse padrao.
 
 Nota especifica de 1986: a RSSSF lista tambem grupos inferiores/regionais, mas
 o banco local e a classificacao final existente usam 48 clubes. O importador
@@ -645,10 +664,16 @@ de reimportar qualquer ano historico, senao os grupos/criterios ficam vazios.
 
 ## Fontes Usadas
 
-### Fonte principal para 1986-2002
+### Fonte principal para 1980-2002
 
 RSSSF Brasil:
 
+- `https://www.rsssf.org/tablesb/braz80.html`
+- `https://www.rsssf.org/tablesb/braz81.html`
+- `https://www.rsssf.org/tablesb/braz82.html`
+- `https://www.rsssf.org/tablesb/braz83.html`
+- `https://www.rsssf.org/tablesb/braz84.html`
+- `https://www.rsssf.org/tablesb/braz85.html`
 - `https://www.rsssf.org/tablesb/braz86.html`
 - `https://www.rsssf.org/tablesb/braz87.html`
 - `https://www.rsssf.org/tablesb/braz88.html`
@@ -759,6 +784,43 @@ Resumo por ano e fase:
 
 | Ano | Fase | Tipo | Jogos |
 | --- | --- | --- | ---: |
+| 1980 | Primeira fase | grupo | 180 |
+| 1980 | Segunda fase | grupo | 96 |
+| 1980 | Desempate | mata_mata | 1 |
+| 1980 | Terceira fase | grupo | 24 |
+| 1980 | Semifinal | mata_mata | 4 |
+| 1980 | Final | mata_mata | 2 |
+| 1981 | Primeira fase | grupo | 180 |
+| 1981 | Segunda fase | grupo | 96 |
+| 1981 | Oitavas de final | mata_mata | 16 |
+| 1981 | Quartas de final | mata_mata | 8 |
+| 1981 | Semifinal | mata_mata | 4 |
+| 1981 | Final | mata_mata | 2 |
+| 1982 | Primeira fase | grupo | 160 |
+| 1982 | Repescagem | mata_mata | 4 |
+| 1982 | Segunda fase | grupo | 96 |
+| 1982 | Terceira fase | mata_mata | 16 |
+| 1982 | Quarta fase | mata_mata | 8 |
+| 1982 | Semifinal | mata_mata | 4 |
+| 1982 | Final | mata_mata | 3 |
+| 1983 | Primeira fase | grupo | 160 |
+| 1983 | Playoff | mata_mata | 4 |
+| 1983 | Segunda fase | grupo | 96 |
+| 1983 | Terceira fase | grupo | 48 |
+| 1983 | Quartas de final | mata_mata | 8 |
+| 1983 | Semifinal | mata_mata | 4 |
+| 1983 | Final | mata_mata | 2 |
+| 1984 | Primeira fase | grupo | 160 |
+| 1984 | Repescagem | mata_mata | 4 |
+| 1984 | Segunda fase | grupo | 84 |
+| 1984 | Terceira fase | grupo | 48 |
+| 1984 | Quartas de final | mata_mata | 8 |
+| 1984 | Semifinal | mata_mata | 4 |
+| 1984 | Final | mata_mata | 2 |
+| 1985 | Primeira fase | grupo | 464 |
+| 1985 | Segunda fase | grupo | 48 |
+| 1985 | Semifinal | mata_mata | 4 |
+| 1985 | Final | mata_mata | 1 |
 | 1990 | Primeira fase | liga | 190 |
 | 1990 | Quartas de final | mata_mata | 8 |
 | 1990 | Semifinal | mata_mata | 4 |
@@ -814,120 +876,53 @@ Resumo por ano e fase:
 
 ## Como Continuar a Expansao Historica
 
-Proximo ano natural:
+Proximo ano natural (indo para tras, 3 anos por vez):
 
-- `1989`
+- `1979`, depois `1978` e `1977`.
 
-Fluxo recomendado para cada novo ano:
+Desde 1985 para tras, cada ano usa a base comum
+`importar_brasileirao_historico_base.py`. O importador do ano so declara as
+fases como cortes do texto da RSSSF; veja `importar_brasileirao_historico_1984.py`
+como modelo.
 
-1. Criar backup:
+Fluxo para cada novo ano:
 
-```powershell
-python -u .\backup.py
-```
-
-2. Baixar a pagina RSSSF:
-
-```powershell
-curl.exe -L "https://www.rsssf.org/tablesb/braz89.html" -o data\rsssf_braz89.html
-```
-
-3. Ler a pagina e mapear o regulamento:
+1. Backup: `python -u .\backup.py`.
+2. Baixar a pagina:
 
 ```powershell
-python -u -c "from pathlib import Path; import re, html; raw=Path('data/rsssf_braz89.html').read_text(encoding='latin-1'); m=re.search(r'<pre>(.*?)</pre>', raw, re.S|re.I); t=html.unescape(m.group(1) if m else raw); print(t[:4000])"
+curl.exe -L "https://www.rsssf.org/tablesb/braz79.html" -o data\rsssf_braz79.html
 ```
 
-4. Identificar marcadores:
-
-- participantes;
-- primeira fase;
-- segunda fase;
-- playoff/repescagem, quando existir;
-- quartas, semifinais e final, quando existirem;
-- ponto onde comeca Serie B, Copa do Brasil ou outro torneio, para nao importar
-  competicao errada.
-
-5. Contar jogos por bloco com regex antes de criar o importador.
-
-Exemplo generico:
-
-```powershell
-python -u -c "from pathlib import Path; import re, html; raw=Path('data/rsssf_braz89.html').read_text(encoding='latin-1'); t=html.unescape(re.search(r'<pre>(.*?)</pre>', raw, re.S|re.I).group(1)); pat=re.compile(r'^.+?\s+\d+\s+x\s+.+?\s+\d+\s*$', re.M|re.I); print(len(pat.findall(t)))"
-```
-
-6. Criar um importador novo:
-
-```text
-importar_brasileirao_historico_1989.py
-```
-
-7. Reaproveitar padroes dos importadores existentes:
-
-- `read_pre`
-- `Game`
-- `canonical_name`
-- `create_tables`
-- `norm`
-- `import_year`
-- `write_audit`
-
-8. Adicionar normalizacoes de nomes no `CANONICAL.update`.
-
-Exemplos recorrentes:
-
-- `atletico mg` -> `Atletico-MG`
-- `atletico pr` -> `Athletico-PR`
-- `botafogo` -> `Botafogo-RJ`
-- `sao paulo` -> `Sao Paulo`
-- `gremio` -> `Gremio`
-- `criciuma` -> `Criciuma`
-- `nautico` -> `Nautico`
-- `uniao sao joao` -> `Uniao Sao Joao`
-- `vitoria ba` -> `Vitoria`
-
-9. Executar o importador:
-
-```powershell
-python -u .\importar_brasileirao_historico_1989.py
-```
-
-10. Validar contagens diretamente no banco:
-
-```powershell
-python -u -c "import sqlite3; con=sqlite3.connect('db/brasileirao.db'); print(con.execute('select f.temporada_id, f.fase_nome, f.fase_tipo, count(p.partida_hist_id) from dim_fase_nacional_historica f left join fato_partida_nacional_historica p on p.fase_nacional_id=f.fase_nacional_id where f.temporada_id=1989 group by f.fase_nacional_id order by f.fase_ordem').fetchall())"
-```
-
-11. Regenerar e validar o dashboard:
-
-```powershell
-python -u .\build.py
-```
-
-12. Validar sintaxe do JavaScript embutido:
+3. Ler a pagina (o texto fica dentro de `<pre>`, em latin-1) e anotar a
+   estrutura: fases, grupos, jogos por fase, repescagens/playoffs e onde comeca
+   a segunda divisao (Taca de Prata/Taca CBF), que fica de fora; a leitura ja
+   para em "Final Table".
+4. Conferir quantos clubes a classificacao final do banco tem para o ano
+   (`fato_classificacao_final_nacional`): os participantes lidos precisam ser
+   exatamente esses.
+5. Criar `importar_brasileirao_historico_1979.py` com a lista `FASES`
+   (`Fase(nome, inicio, fim, tipo, jogos, ida_volta=...)`) e o total de jogos.
+   Nomes que nao batem com `dim_clube` entram no `CANONICAL.update` da base.
+   Erro de placar conhecido da fonte vai em `AJUSTAR` (ver 1983 e 1980).
+6. Antes de gravar, conferir clube a clube contra a "Final Table" da RSSSF
+   (J/V/E/D/GP/GC somados dos jogos lidos). Fases que a fonte nao soma, como a
+   repescagem de 1984, ficam fora dessa conta.
+7. Acrescentar o ano em `regras_historicas.py` (`PONTOS_VITORIA` e
+   `FASE_META`, com `num_grupos` de cada fase de grupos e o criterio).
+8. Rodar o importador e depois `python -u .\build.py` (o enriquecimento
+   avisa com `!!` se os grupos derivados nao baterem com `num_grupos`).
+9. Validar o JS embutido:
 
 ```powershell
 python -u -c "import pathlib,re; html=pathlib.Path('dashboard.html').read_text(encoding='utf-8'); js=re.search(r'<script>(.*)</script>', html, re.S).group(1); pathlib.Path('c:/tmp/dashboard_check.js').write_text(js, encoding='utf-8')"
 node --check c:\tmp\dashboard_check.js
 ```
 
-13. Conferir `git status`:
-
-```powershell
-git status --short
-```
-
-14. Adicionar apenas os arquivos do ano novo e artefatos gerados:
-
-```powershell
-git add dashboard.html db/brasileirao.db importar_brasileirao_historico_1989.py data\brasileirao_historico_1989_partidas.csv data\rsssf_braz89.html
-```
-
-15. Commit:
-
-```powershell
-git commit -m "Adiciona historico do Brasileiro 1989"
-```
+10. Abrir Historico > Brasileiro Antigo no ano novo e conferir grupos,
+    mata-mata e campeao.
+11. Commit com o importador, o CSV de auditoria, o HTML da RSSSF, o banco, o
+    dashboard, `regras_historicas.py` e o README.
 
 ## Fluxo Normal de Uso
 
@@ -983,7 +978,7 @@ python .\check_dashboard.py
 Atencao importante:
 
 - Hoje o `build.py --rebuild-from-sources` nao chama automaticamente os scripts
-  `importar_brasileirao_historico_1986.py` ate
+  `importar_brasileirao_historico_1980.py` ate
   `importar_brasileirao_historico_2002.py`. O enriquecimento estrutural
   (`enriquecer_historico.py`) roda no fluxo normal e tambem no rebuild.
 - Se voce recriar o banco do zero, precisa reexecutar os importadores
@@ -996,6 +991,16 @@ Sequencia recomendada em caso de rebuild total:
 ```powershell
 python -u .\backup.py
 python -u .\build.py --rebuild-from-sources --skip-dashboard
+python -u .\importar_brasileirao_historico_1980.py
+python -u .\importar_brasileirao_historico_1981.py
+python -u .\importar_brasileirao_historico_1982.py
+python -u .\importar_brasileirao_historico_1983.py
+python -u .\importar_brasileirao_historico_1984.py
+python -u .\importar_brasileirao_historico_1985.py
+python -u .\importar_brasileirao_historico_1986.py
+python -u .\importar_brasileirao_historico_1987.py
+python -u .\importar_brasileirao_historico_1988.py
+python -u .\importar_brasileirao_historico_1989.py
 python -u .\importar_brasileirao_historico_1990.py
 python -u .\importar_brasileirao_historico_1991.py
 python -u .\importar_brasileirao_historico_1992.py
@@ -1117,21 +1122,7 @@ git status --short
 python -u .\backup.py
 ```
 
-Para continuar 1989:
-
-```powershell
-curl.exe -L "https://www.rsssf.org/tablesb/braz89.html" -o data\rsssf_braz89.html
-```
-
-Depois:
-
-1. Inspecionar `data/rsssf_braz89.html`.
-2. Separar apenas a Serie A.
-3. Contar jogos por fase antes de importar.
-4. Criar `importar_brasileirao_historico_1989.py`.
-5. Gerar `data/brasileirao_historico_1989_partidas.csv`.
-6. Rodar `python -u .\build.py`.
-7. Extrair JS para `c:/tmp/dashboard_check.js`.
-8. Rodar `node --check c:\tmp\dashboard_check.js`.
-9. Conferir `git status --short`.
-10. Fazer commit somente depois de tudo passar.
+Para continuar em 1979, siga "Como Continuar a Expansao Historica": baixar
+`braz79.html`, criar `importar_brasileirao_historico_1979.py` sobre a base
+comum, conferir contra a "Final Table", registrar as regras, rodar
+`build.py`, validar o JS, olhar o dashboard e so entao fazer o commit.

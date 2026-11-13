@@ -1,4 +1,4 @@
-"""Regras estruturais curadas do Campeonato Brasileiro 1989-2002.
+"""Regras estruturais curadas do Campeonato Brasileiro 1980-2002.
 
 Este modulo concentra os METADADOS de fase que o parser RSSSF nao captura:
 numero de grupos paralelos, formato da serie (mata-mata), criterio de
@@ -14,6 +14,8 @@ from __future__ import annotations
 
 # Pontos por vitoria por epoca (2 pts ate 1994; 3 pts a partir de 1995).
 PONTOS_VITORIA: dict[int, int] = {
+    1980: 2, 1981: 2, 1982: 2,
+    1983: 2, 1984: 2, 1985: 2,
     1986: 2,
     1987: 2,
     1988: 3,
@@ -40,6 +42,85 @@ MELHOR_DE_3 = "melhor_de_3"           # mata-mata melhor de 3 jogos
 # Metadados por (ano, fase_nome). num_grupos > 1 dispara a derivacao de grupos.
 # criterio explica como a fase classifica/decide (vai para fase.criterio).
 FASE_META: dict[tuple[int, str], dict] = {
+    # ---------------- 1980 (Taca de Ouro, 44 clubes, 2 pts) ----------------
+    (1980, "Primeira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 10 (turno unico); os 7 primeiros de cada grupo avancam."},
+    (1980, "Segunda fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos de 4 (turno e returno), com America-SP, Americano, Bangu e Sport vindos da Taca de Prata; os 2 primeiros avancam."},
+    (1980, "Desempate"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo extra pelo 2o lugar do grupo I da segunda fase; Guarani venceu o America-RJ por 3-2. A RSSSF nao soma este jogo na tabela final."},
+    (1980, "Terceira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 4 (turno unico); so o 1o colocado vai a semifinal."},
+    (1980, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1980, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Agregado 3-3 com o Atletico-MG (0-1 e 3-2); Flamengo campeao pela melhor campanha na semifinal."},
+
+    # ---------------- 1981 (Taca de Ouro, 44 clubes, 2 pts) ----------------
+    (1981, "Primeira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 10 (turno unico); os 7 primeiros de cada grupo avancam."},
+    (1981, "Segunda fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos de 4 (turno e returno), com Nautico, Bahia, Palmeiras e Uberaba vindos da Taca de Prata; os 2 primeiros vao as oitavas."},
+    (1981, "Oitavas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1981, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta; Ponte Preta avancou contra o Vasco pela melhor campanha nas oitavas (0-0 e 0-0)."},
+    (1981, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta; Gremio e Sao Paulo avancaram pela melhor campanha nas quartas (agregados empatados)."},
+    (1981, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Gremio campeao (2-1 no Olimpico e 1-0 no Morumbi contra o Sao Paulo)."},
+
+    # ---------------- 1982 (Taca de Ouro, 44 clubes, 2 pts) ----------------
+    (1982, "Primeira fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos de 5 (turno e returno). Os 3 primeiros avancam; os quartos disputam a repescagem."},
+    (1982, "Repescagem"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico entre quartos colocados; Londrina avancou pela melhor campanha no 0-0 com o Goias. A RSSSF nao soma estes jogos na tabela final."},
+    (1982, "Segunda fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos de 4 (turno e returno), com America-RJ, Athletico-PR, Corinthians e Sao Paulo-RS vindos da Taca de Prata; os 2 primeiros avancam."},
+    (1982, "Terceira fase"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Mata-mata em ida e volta."},
+    (1982, "Quarta fase"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta; Corinthians avancou contra o Bangu pela melhor campanha na terceira fase (agregado 2-2)."},
+    (1982, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1982, "Final"): {"num_grupos": 1, "formato_serie": MELHOR_DE_3,
+        "criterio": "Melhor de 3 contra o Gremio: 1-1, 0-0 e 1-0 (gol de Nunes no Olimpico); Flamengo campeao."},
+
+    # ---------------- 1983 (Taca de Ouro, 44 clubes, 2 pts) ----------------
+    (1983, "Primeira fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos de 5 (turno e returno). Os 3 primeiros avancam; os quartos vao ao playoff e os quintos a Taca de Prata."},
+    (1983, "Playoff"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico entre quartos colocados; os pontos nao contam na tabela final. Os eliminados foram a Taca de Prata, de onde vieram Americano, Botafogo-SP, Guarani e Uberaba para a segunda fase."},
+    (1983, "Segunda fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos de 4 (turno e returno); os 2 primeiros avancam."},
+    (1983, "Terceira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 4 (turno e returno); os 2 primeiros vao as quartas."},
+    (1983, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta; Santos avancou contra o Goias por melhor campanha na terceira fase (0-0 e 2-2)."},
+    (1983, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Ida e volta; Santos avancou contra o Atletico-MG no agregado (2-1 e 0-0)."},
+    (1983, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Flamengo campeao (perdeu por 2-1 e venceu o Santos por 3-0 no Maracana)."},
+
+    # ---------------- 1984 (Copa Brasil, 41 clubes, 2 pts) ----------------
+    (1984, "Primeira fase"): {"num_grupos": 8, "formato_serie": GRUPOS,
+        "criterio": "Oito grupos de 5 (turno e returno). Os 3 primeiros avancam; os quartos disputam a repescagem."},
+    (1984, "Repescagem"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico entre quartos colocados; os vencedores entram na segunda fase. A RSSSF nao soma estes jogos na tabela final."},
+    (1984, "Segunda fase"): {"num_grupos": 7, "formato_serie": GRUPOS,
+        "criterio": "Sete grupos de 4 (turno e returno)."},
+    (1984, "Terceira fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 4 (turno e returno), com o Uberlandia vindo da Taca CBF; os 2 primeiros vao as quartas."},
+    (1984, "Quartas de final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1984, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1984, "Final"): {"num_grupos": 1, "formato_serie": IDA_VOLTA,
+        "criterio": "Fluminense campeao (1-0 e 0-0 contra o Vasco)."},
+
+    # ---------------- 1985 (Copa Brasil, 44 clubes, 2 pts) ----------------
+    (1985, "Primeira fase"): {"num_grupos": 3, "formato_serie": GRUPOS,
+        "criterio": "Grupos A e B (10 clubes cada) jogaram contra o outro grupo nos dois estagios, por isso aparecem juntos; grupos C e D (12 clubes) jogaram turno e returno no proprio grupo. Vencedores de cada estagio e melhores campanhas avancam."},
+    (1985, "Segunda fase"): {"num_grupos": 4, "formato_serie": GRUPOS,
+        "criterio": "Quatro grupos de 4 (turno e returno); so o 1o colocado vai a semifinal."},
+    (1985, "Semifinal"): {"num_grupos": 1, "formato_serie": IDA_VOLTA, "criterio": "Ida e volta."},
+    (1985, "Final"): {"num_grupos": 1, "formato_serie": JOGO_UNICO,
+        "criterio": "Jogo unico no Maracana; Coritiba campeao nos penaltis (1-1, 6-5) contra o Bangu."},
+
     # ---------------- 1986 (48 clubes no recorte oficial local) ----------------
     (1986, "Primeira fase"): {"num_grupos": 1, "formato_serie": GRUPOS,
         "criterio": "Recorte local de 48 clubes: grupos A-D completos e vencedores dos grupos E-H que entram depois. A RSSSF lista outros grupos inferiores, que nao sao misturados nesta edicao."},
