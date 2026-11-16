@@ -468,14 +468,19 @@ Totais do historico antigo importado:
 - 206 fases.
 - 12.303 partidas.
 
-1959 a 1985 (importados em 13/11/2026) usam a base comum
-`importar_brasileirao_historico_base.py`: cada ano so declara os cortes do
-texto da RSSSF (`Fase(nome, inicio, fim, tipo, jogos)`). A base confere a
+Todas as 47 edicoes (1937 a 2002) ficam na pasta `historico/`:
+`historico/edicoes.py` tem a configuracao de cada edicao (dicionario
+`EDICOES`) e o comando que importa; `historico/base.py` le, confere e grava.
+Cada edicao so declara os cortes do texto da fonte (`Fase(nome, inicio,
+fim, tipo, jogos)`), os nomes de clube daquele ano (`nomes`, que valem so
+enquanto a edicao roda) e os ajustes de erros da fonte. As paginas que fogem
+do desenho comum (1994-2002) tem um leitor proprio (`ler=_ler_<ano>`) no
+mesmo arquivo. A base confere a
 contagem de jogos de cada fase e exige que os participantes sejam exatamente
 os clubes da classificacao final ja existente no banco. Os tres anos batem
 clube a clube (J/V/E/D/GP/GC) com a "Final Table" da RSSSF; repescagens e
 desempates que a fonte nao soma ficam fora dessa conta. Ajustes conhecidos
-(funcao `AJUSTAR` de cada ano):
+(funcao `_ajustar_<edicao>` em `historico/edicoes.py`):
 
 - 1983: a volta Sao Paulo 0-1 Athletico-PR (quartas) vem invertida na RSSSF
   e e corrigida.
@@ -489,13 +494,13 @@ desempates que a fonte nao soma ficam fora dessa conta. Ajustes conhecidos
   "Juventude 1-1 America-SP" era contra o America-RJ; Operario de Campo
   Grande escrito "-MT" vira Operario-MS.
 - 1977: Desportiva x Fluminense-BA, abandonado (suborno), contado 0-0 como
-  na RSSSF. A temporada vai a marco de 1978 (`VIRADA` no importador).
+  na RSSSF. A temporada vai a marco de 1978 (campo `virada` da edicao).
 - 1975 a 1978: vitoria por saldo grande valia 3 pontos (2 gols ou mais em
   1975; 3 ou mais em 1976-1978); o dashboard conta 2 por vitoria (a regra
   fica no criterio da fase).
 - 1976: dois jogos vem colados na linha dos autores ("[Cedenir]Palmeiras
   1-0 Rio Branco"); a base separa.
-- 1975: a pagina nao tem "Final Table"; o importador passa `CORTE_FINAL`.
+- 1975: a pagina nao tem "Final Table"; a edicao passa `corte_final`.
   Os grupos A/B e C/D da primeira fase e 1/2 da segunda jogaram contra o
   outro grupo, por isso aparecem juntos.
 - 1974: "America-GB" (Guanabara) e o America-RJ.
@@ -506,20 +511,20 @@ desempates que a fonte nao soma ficam fora dessa conta. Ajustes conhecidos
   com a observacao "Jogo de desempate (playoff)."; um terceiro jogo entre
   os mesmos clubes logo depois da ida e volta tambem conta como desempate.
   Sem tabela final na fonte: a conferencia e a lista de clubes contra a
-  classificacao do banco. 1962 e 1963 tem `VIRADA` (finais em 1963 e 1964).
-- 1967 e 1968: importadores `..._1967_taca_brasil.py`, `..._1967_robertao.py`
-  etc., com `EDICAO` = edicao_id; o CSV de auditoria leva o mesmo nome. As
+  classificacao do banco. 1962 e 1963 tem `virada` (finais em 1963 e 1964).
+- 1967 e 1968: edicoes `1967_taca_brasil`, `1967_robertao` etc., com
+  `edicao` = edicao_id; o CSV de auditoria leva o mesmo nome. As
   regras de fase usam a chave (edicao_id, fase) em `regras_historicas.py`.
   A Taca Brasil de 1967-1968 tem tambem a Zona Central; a de 1968 tem
   triangulares regionais (turno e returno) que aparecem como confrontos e
   terminou em outubro de 1969 (datas "/69"; o ano da 2a data de um par
   vale para a 1a). O Robertao de 1967 vem de varios blocos <pre> em
-  portugues (`BLOCOS_PRE = [0, 2]`; o bloco do "Title match" repete o jogo
+  portugues (`blocos_pre=[0, 2]`; o bloco do "Title match" repete o jogo
   do titulo). No Robertao de 1968 a tabela da fonte tem 1 gol a menos no
   Botafogo 4-2 Nautico, que tem os seis autores listados.
 - 1937: sem pagina na RSSSF nem no RSSSF Brasil ("o arquivo para este
-  torneio ainda nao foi criado"). Os 14 jogos estao escritos no proprio
-  importador, tirados da Wikipedia PT (mesma fonte da classificacao no
+  torneio ainda nao foi criado"). Os 14 jogos estao escritos na propria
+  edicao (`JOGOS_1937`), tirados da Wikipedia PT (mesma fonte da classificacao no
   banco), que cita O Globo, Jornal do Brasil e Correio da Manha de 1937; eles
   fecham exatamente com a tabela do quadrangular. A Wikipedia em ingles
   diverge (datas e Rio Branco 3-1 Portuguesa) e nao fecha.
@@ -528,13 +533,13 @@ desempates que a fonte nao soma ficam fora dessa conta. Ajustes conhecidos
   1969, e a lista de 1970 dela tem placares que nao fecham com a tabela dela
   mesma; a do RSSSF Brasil fecha em todos os clubes.
 - Edicoes que nao sao o "Campeonato Brasileiro" do ano sao escolhidas pelo
-  `EDICAO` (dim_edicao_nacional.edicao_id) no importador.
+  `edicao` (dim_edicao_nacional.edicao_id) da configuracao.
 - 1972: ABC 2-1 Botafogo teve os pontos dados ao Botafogo (sem "awd" na
-  fonte); gravado 0-1 em `AJUSTAR`.
+  fonte); gravado 0-1 em `_ajustar_1972`.
 - 1971 e 1973: a fonte nao numera as rodadas da primeira fase (so datas),
   entao a corrida da lideranca desses anos fica sem rodadas. 1972, 1973 e
   1975 nao tem "Final Table"; 1971 numera as tabelas com ponto ("1.Time").
-  1973 vai a fevereiro de 1974 (`VIRADA`).
+  1973 vai a fevereiro de 1974 (`virada`).
 - "XV de Novembro" sem cidade e "Operario" sem estado mudam de clube
   conforme o ano: cada importador define no seu `CANONICAL` (XV: 1982 = Jau,
   1977-1978 = Piracicaba; Operario: 1976-1977 = Operario-MS).
@@ -683,33 +688,26 @@ python -u .\restore_backup.py <nome_do_backup> --confirm
 
 ### Importadores do Brasileiro Antigo
 
-Esses scripts foram criados para preencher o bloco historico nacional antes de
-2003. Eles importam participantes, fases e partidas para as tabelas historicas
-do banco.
+Preenchem o bloco historico nacional antes de 2003: participantes, fases e
+partidas de cada edicao nas tabelas historicas do banco. Desde 13/11/2026 sao
+dois arquivos so (antes era um script por ano):
 
-Arquivos:
+- `historico/edicoes.py` — configuracao das 47 edicoes e o comando:
+  `python historico/edicoes.py 1994` (uma ou varias; `1967` pega Taca Brasil
+  e Robertao), `--todos` (todas, em ordem) e `--lista`.
+- `historico/base.py` — leitura da RSSSF, nomes de clube (`CANONICAL`),
+  conferencias e gravacao.
 
-- `importar_brasileirao_historico_1990.py`
-- `importar_brasileirao_historico_1991.py`
-- `importar_brasileirao_historico_1992.py`
-- `importar_brasileirao_historico_1993.py`
-- `importar_brasileirao_historico_1994.py`
-- `importar_brasileirao_historico_1995.py`
-- `importar_brasileirao_historico_1996.py`
-- `importar_brasileirao_historico_1997.py`
-- `importar_brasileirao_historico_1998_1999.py`
-- `importar_brasileirao_historico_2000_2001.py`
-- `importar_brasileirao_historico_2002.py`
+Como funciona:
 
-Padrao desses importadores:
-
-- Leem HTML local em `data/rsssf_*.html`.
-- Parseiam participantes, fases e jogos.
-- Normalizam nomes de clubes com mapas `CANONICAL`.
-- Validam contagens esperadas por ano/fase.
-- Apagam e reinserem apenas os dados historicos daquela edicao.
-- Escrevem CSV de auditoria em `data/brasileirao_historico_*_partidas.csv`.
-- Nao baixam a fonte sozinhos; o HTML deve estar em `data/`.
+- Le HTML local em `data/rsssf_*.html` (nao baixa a fonte; o HTML deve estar
+  em `data/`).
+- Normaliza nomes de clubes com `CANONICAL` (comum) e `nomes` (da edicao).
+- Confere a contagem de jogos por fase e exige que os participantes sejam os
+  clubes da classificacao final ja existente no banco.
+- Apaga e reinsere apenas os dados historicos daquela edicao.
+- Escreve um CSV de auditoria por edicao em
+  `data/brasileirao_historico_<edicao>_partidas.csv`.
 
 Tabelas usadas pelos importadores historicos:
 
@@ -719,9 +717,8 @@ Tabelas usadas pelos importadores historicos:
 - `fato_partida_nacional_historica`
 - `dim_clube`
 
-Os scripts chamam `create_tables(con)` de
-`importar_brasileirao_historico_2000_2001.py`, garantindo que as tabelas
-historicas existam antes da importacao.
+A gravacao chama `create_tables(con)` de `historico/base.py`, garantindo que
+as tabelas historicas existam antes da importacao.
 
 ### Camada estrutural (grupos, criterios, pontos)
 
@@ -855,22 +852,13 @@ Para classificacoes historicas e Copa do Brasil:
 
 ## Arquivos de Auditoria Gerados
 
-Cada importador historico gera um CSV com os jogos importados. Esses arquivos
+Cada edicao importada gera um CSV com os jogos importados. Esses arquivos
 servem para revisao humana e para comparar o que entrou no banco.
 
-Arquivos atuais:
-
-- `data/brasileirao_historico_1990_partidas.csv`
-- `data/brasileirao_historico_1991_partidas.csv`
-- `data/brasileirao_historico_1992_partidas.csv`
-- `data/brasileirao_historico_1993_partidas.csv`
-- `data/brasileirao_historico_1994_partidas.csv`
-- `data/brasileirao_historico_1995_partidas.csv`
-- `data/brasileirao_historico_1996_partidas.csv`
-- `data/brasileirao_historico_1997_partidas.csv`
-- `data/brasileirao_historico_1998_1999_partidas.csv`
-- `data/brasileirao_historico_2000_2001_partidas.csv`
-- `data/brasileirao_historico_2002_partidas.csv`
+Arquivos atuais: `data/brasileirao_historico_<edicao>_partidas.csv`, um por
+edicao de 1937 a 2002 (ex.: `..._1994_partidas.csv`,
+`..._1967_robertao_partidas.csv`). 1998-1999 e 2000-2001, que antes saiam
+juntos num CSV so, agora tem um CSV por ano.
 
 Formato comum:
 
@@ -1070,10 +1058,9 @@ Todas as edicoes reconhecidas pela CBF ate 2002 tem jogos no banco, de 1937
 (Copa dos Campeoes Estaduais) a 2002. Proximo passo natural, se houver:
 o Brasileirao de 2026, quando a temporada terminar.
 
-Desde 1985 para tras, cada ano usa a base comum
-`importar_brasileirao_historico_base.py`. O importador do ano so declara as
-fases como cortes do texto da RSSSF; veja `importar_brasileirao_historico_1984.py`
-como modelo.
+Uma edicao nova vira uma entrada em `EDICOES` (`historico/edicoes.py`), com
+as fases como cortes do texto da fonte; veja `EDICOES["1984"]` como modelo.
+Importar: `python historico/edicoes.py 1984` (ou `--todos`, ou `--lista`).
 
 Fluxo para cada novo ano:
 
@@ -1091,11 +1078,12 @@ curl.exe -L "https://www.rsssf.org/tablesb/<pagina>.html" -o data\rsssf_<pagina>
 4. Conferir quantos clubes a classificacao final do banco tem para o ano
    (`fato_classificacao_final_nacional`): os participantes lidos precisam ser
    exatamente esses.
-5. Criar `importar_brasileirao_historico_<ano>.py` com a lista `FASES`
+5. Acrescentar a edicao em `EDICOES` (`historico/edicoes.py`) com a lista de fases
    (`Fase(nome, inicio, fim, tipo, jogos, ida_volta=...)`) e o total de jogos.
-   Nomes que nao batem com `dim_clube` entram no `CANONICAL.update` da base.
-   Erro de placar conhecido da fonte vai em `AJUSTAR` (ver 1983, 1980 e 1979). Jogos "awd", "dns" e "abd" sem placar na
-   fonte barram o import ate o `AJUSTAR` dizer o placar.
+   Nomes que nao batem com `dim_clube` entram em `nomes` (so aquele ano) ou
+   no `CANONICAL.update` de `historico/base.py` (todos os anos).
+   Erro de placar conhecido da fonte vai em `ajustar` (ver 1983, 1980 e 1979). Jogos "awd", "dns" e "abd" sem placar na
+   fonte barram o import ate o `ajustar` da edicao dizer o placar.
 6. Antes de gravar, conferir clube a clube contra a "Final Table" da RSSSF
    (J/V/E/D/GP/GC somados dos jogos lidos). Fases que a fonte nao soma, como a
    repescagem de 1984, ficam fora dessa conta.
@@ -1168,9 +1156,9 @@ python .\check_dashboard.py
 
 Atencao importante:
 
-- Hoje o `build.py --rebuild-from-sources` nao chama automaticamente os scripts
-  `importar_brasileirao_historico_1971.py` ate
-  `importar_brasileirao_historico_2002.py`. O enriquecimento estrutural
+- Hoje o `build.py --rebuild-from-sources` nao chama automaticamente o
+  `historico/edicoes.py --todos` (Brasileiro antigo, 1937-2002). O
+  enriquecimento estrutural
   (`enriquecer_historico.py`) roda no fluxo normal e tambem no rebuild.
 - Se voce recriar o banco do zero, precisa reexecutar os importadores
   historicos antes de gerar/validar o dashboard final.
@@ -1182,36 +1170,7 @@ Sequencia recomendada em caso de rebuild total:
 ```powershell
 python -u .\backup.py
 python -u .\build.py --rebuild-from-sources --skip-dashboard
-python -u .\importar_brasileirao_historico_1971.py
-python -u .\importar_brasileirao_historico_1972.py
-python -u .\importar_brasileirao_historico_1973.py
-python -u .\importar_brasileirao_historico_1974.py
-python -u .\importar_brasileirao_historico_1975.py
-python -u .\importar_brasileirao_historico_1976.py
-python -u .\importar_brasileirao_historico_1977.py
-python -u .\importar_brasileirao_historico_1978.py
-python -u .\importar_brasileirao_historico_1979.py
-python -u .\importar_brasileirao_historico_1980.py
-python -u .\importar_brasileirao_historico_1981.py
-python -u .\importar_brasileirao_historico_1982.py
-python -u .\importar_brasileirao_historico_1983.py
-python -u .\importar_brasileirao_historico_1984.py
-python -u .\importar_brasileirao_historico_1985.py
-python -u .\importar_brasileirao_historico_1986.py
-python -u .\importar_brasileirao_historico_1987.py
-python -u .\importar_brasileirao_historico_1988.py
-python -u .\importar_brasileirao_historico_1989.py
-python -u .\importar_brasileirao_historico_1990.py
-python -u .\importar_brasileirao_historico_1991.py
-python -u .\importar_brasileirao_historico_1992.py
-python -u .\importar_brasileirao_historico_1993.py
-python -u .\importar_brasileirao_historico_1994.py
-python -u .\importar_brasileirao_historico_1995.py
-python -u .\importar_brasileirao_historico_1996.py
-python -u .\importar_brasileirao_historico_1997.py
-python -u .\importar_brasileirao_historico_1998_1999.py
-python -u .\importar_brasileirao_historico_2000_2001.py
-python -u .\importar_brasileirao_historico_2002.py
+python -u historico\edicoes.py --todos
 python -u .\build.py
 ```
 
@@ -1323,6 +1282,6 @@ python -u .\backup.py
 ```
 
 Para importar um ano novo, siga "Como Continuar a Expansao Historica": baixar
-a pagina, criar `importar_brasileirao_historico_<ano>.py` sobre a base
+a pagina, acrescentar a edicao em `historico/edicoes.py`
 comum, conferir contra a "Final Table", registrar as regras, rodar
 `build.py`, validar o JS, olhar o dashboard e so entao fazer o commit.
