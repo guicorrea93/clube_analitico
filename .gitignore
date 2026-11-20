@@ -29,3 +29,6 @@ db/*_before_*.db
 # Optional: uncomment if the repository should keep only source files.
 # dashboard.html
 # db/*.db
+
+# Cache de paginas baixadas (refeito pelos coletores)
+data/cache/
