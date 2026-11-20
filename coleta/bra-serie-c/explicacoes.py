@@ -1,0 +1,70 @@
+"""Textos do relatório da Série C que não saem do código: introdução e explicações de cada edição
+(divergências que ficaram, depois de conferidas à mão)."""
+
+INTRO = [
+    "Gerado por `python coleta/bra-serie-c/importar.py`. Pacote em `data/coleta/bra-serie-c/pacote/`.",
+    "",
+    "**Edições:** 35 oficiais, de 1981 a 2025 (1981, 1988, 1990, 1992, 1994-1999 e 2001-2025), conferidas na RSSSF Brasil",
+    "(lista de campeões da 3ª divisão) e na Wikipédia em português (artigo da Série C). As duas trazem os mesmos anos e os mesmos",
+    "campeões. Ficam de fora 1987 (módulos Azul e Branco da Copa União: a CBF disse que nenhum módulo seria a 3ª divisão) e 2000",
+    "(Módulo Verde e Branco da Copa João Havelange, equivalente à 3ª divisão, mas sem título oficial). Nome oficial: Taça de Bronze",
+    "em 1981; Campeonato Brasileiro Série C nas outras.",
+    "",
+    "**Fontes:** RSSSF Brasil (`br{ano}l3.htm`, base de jogos, fases, grupos, datas e autores; as tabelas publicadas são a conferência);",
+    "ogol (calendário de todas as edições e o código de cada clube, que dá a identidade entre anos e mudanças de nome; completa os",
+    "jogos que faltam na RSSSF e é a base de 2019); ESPN (liga `bra.3`, 2017 em diante: hora e estádio; a ESPN não traz gols,",
+    "cartões nem público da Série C); Wikipédia (punições de pontos e lista de campeões).",
+    "",
+    "**Regras:** placar diferente entre RSSSF e ogol fica com a versão que fecha com a tabela publicada pela RSSSF; sem tabela,",
+    "fica a da RSSSF. Autores dos gols só entram quando a soma bate com o placar. Clube que já está no `futebol.db` usa o nome de lá.",
+]
+
+# ano -> explicações conferidas à mão (contexto das ocorrências listadas logo abaixo de cada ano)
+EXPLICACOES: dict[int, list[str]] = {
+    1981: ["o ogol liga o Matsubara (Cambará-PR) ao J. Malucelli, fundado em 1994; corrigido no código (CORRIGE_OGOL): fica a SE Matsubara, como na RSSSF"],
+    1988: ["a final (Esportivo-MG x União São João, 1-1 e 2-2) foi decidida pela campanha (número de vitórias): campeão pela lista oficial"],
+    1994: ["nas oitavas, o 'Vitória' sem estado da página é o Vitória-ES (o Vitória-PE caiu para o ABC na mesma fase); corrigido no texto da página",
+           "o ogol põe o Vitória-ES contra o ABC no jogo de volta das oitavas; a RSSSF e a classificação final mostram o Vitória-PE (fica a RSSSF)"],
+    1995: ["página com 108 clubes e a 2ª e a 3ª fases em confrontos colados uns nos outros; o leitor separa cada jogo (rsssf_c.py, _1995)",
+           "erros de digitação da página corrigidos no código: 'Coríntians 3x1 3x1 Santa Cruz-PB' (placar repetido) e 'Ypranga'"],
+    1996: ["a página traz 'GAS 2-3 GAS' no grupo 2; é GAS 2-3 Baré (ogol e tabela do grupo); corrigido no texto da página"],
+    1999: ["a página traz, antes da Série C, as seletivas estaduais (RS, PR, MG, PB, PE, PI); esse trecho fica de fora"],
+    2002: ["dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; "
+           "pode ser erro do ogol. Fica como está (decisão do agente principal, 20/11/2026)"],
+    2005: ["a página traz o público no fim da linha dos jogos das fases finais ('att: 18.865'); o leitor lê o público (12 jogos)"],
+    2011: ["o Rio Branco-AC foi eliminado pelo STJD depois de recorrer à Justiça comum; a RSSSF mantém 3 jogos dele na 2ª fase, que o ogol não tem (ficam, com a fonte RSSSF)"],
+    2013: ["o Rio Branco-AC entrou na competição por decisão judicial; a página da RSSSF não traz os 20 jogos dele no grupo A, que entram pelo ogol (a tabela do grupo fecha)"],
+    2015: ["a página da RSSSF trocou dia e mês em 37 datas ('06/jan/15' em vez de 02/06); vale a data do ogol"],
+    2017: ["Mogi Mirim x Ypiranga-RS (grupo B) foi W.O. ('0-WO' na página): entra 0-3, como conta a tabela do grupo"],
+    2019: ["a página da RSSSF parou na 1ª rodada (40 jogos): a base dos jogos é o ogol (194), sem autores de gols"],
+    2024: ["a página da RSSSF traz os autores dos gols sem dizer de que time é cada um ('18' (25-Pedro Henrique)'): ficam só no texto (gols_texto)"],
+}
+
+FIM = [
+    "## Identidade dos clubes",
+    "",
+    "- Cada clube é o código dele no ogol; nome, cidade e UF vêm da ficha do clube no ogol (`data/coleta/bra-serie-c/ogol/clubes.json`).",
+    "- 168 clubes já estavam no `futebol.db` e usam o nome de lá; os outros seguem o nome curto do ogol, com \"-UF\" só quando outro",
+    "  clube tem o mesmo nome. Clubes que mudaram de nome aparecem com o nome atual (Intercap = Paraíso; Santo Amaro = Manchete;",
+    "  Ituiutaba = Boa Esporte); os nomes de cada fonte e ano estão em `clubes.csv` (`nomes_fonte`).",
+    "- Decisões à mão (em `clubes_c.py` e `importar.py`, com o motivo): EC Corinthians de Presidente Prudente não é o Corinthians",
+    "  do banco (vira \"Corinthians Prudente\"); o Maringá FC de 2010 e o de 1995 não são o GE Maringá do banco; \"JMalucelli\" é o",
+    "  J.Malucelli do banco.",
+    "- Novorizontino separado em dois (decisão do Guilherme, 20/11/2026): \"GE Novorizontino\" (1973-1999, campeão da Série C de",
+    "  1994; Série C 1988 e 1994) e \"Novorizontino\" (Grêmio Novorizontino, fundado em 2010; Série C 2021). O banco ainda junta os",
+    "  dois; o pedido para separar está em `docs/coleta/pedidos.md`.",
+    "",
+    "## O que não deu para coletar",
+    "",
+    "- **Cartões:** nenhuma das fontes lidas traz cartões da Série C (a RSSSF não traz; a ESPN não tem lances da Série C).",
+    "  O ogol tem cartões e autores dos gols na página de cada jogo, mas seriam uns 8 mil pedidos (cerca de 3 horas);",
+    "  fica como próximo passo, se aprovado.",
+    "- **Autores dos gols:** só onde a RSSSF traz e a soma fecha com o placar. Faltam (quase) todos em 1994-2001, 2008, 2011,",
+    "  2012, 2019 e 2024.",
+    "- **Público:** a ESPN traz 0 na Série C e a RSSSF só em poucas fichas de final.",
+    "- **Hora e estádio:** RSSSF (2013-2015, 2020, 2023, 2024), ogol (hora) e ESPN (2017 em diante).",
+    "- **Classificação final:** a ordem oficial existe só quando a RSSSF publica a classificação geral (7 edições); nas outras ela é",
+    "  calculada (fase alcançada, pontos, vitórias, saldo, gols pró), com campeão e vice em cima.",
+    "- **Acesso:** marcado quando o clube jogou a Série B no ano seguinte (pelo `futebol.db`) ou está nos \"promovidos\" do infobox",
+    "  da Wikipédia. **Rebaixamento:** marcas \"Relegated\" das tabelas da RSSSF e \"rebaixados\" do infobox.",
+]
