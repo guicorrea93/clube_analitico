@@ -71,7 +71,7 @@ painel/            ── painel novo (index.html + dados/<competição>.js + es
 | `docs/serie_b_coleta.md` | Relatório da coleta da Série B, ano a ano: fontes, conferências e ocorrências. |
 | `docs/manutencao_dados.md` | Comandos de manutenção, backup e reconstrução. |
 | `dashboard.html`, `gerar_dashboard_html.py` | Painel v1 (antigo). Continua funcionando, mas não recebe mais novidades. |
-| `painel/` | Painel novo: `index.html`, `dados/<competição>.js` (carregado só quando a competição é escolhida) e `escudos/`. Abas: História, Por campeonato e Por clube. `dashboard_v2.html` só leva para ele. |
+| `painel/` | **No ar em https://clubeanalitico.pages.dev** (publicação em `docs/manutencao_dados.md`). Painel novo: `index.html`, `dados/<competição>.js` (carregado só quando a competição é escolhida) e `escudos/`. Abas: História, Por campeonato e Por clube. `dashboard_v2.html` só leva para ele. |
 
 ## 4. Regras da casa (valem para qualquer agente)
 
@@ -111,11 +111,11 @@ dele é `docs/agente-revisao-COMECE-AQUI.md`.
 
 ## 6. Estado e próximos passos (agente 1)
 
-- **20/11, sem commit:** painel com seletor A/B/C; Série C carregada do pacote; Novorizontino separado (GE Novorizontino até
-  1999); escudos da Série B corrigidos e dos clubes novos tirados do ogol (`baixar_escudos.py --ogol`); docs de passagem.
-- **Pendências:** escudos do Oeste e do União Bandeirante (Wikimedia deu 429, rodar `python baixar_escudos.py` depois);
-  no celular a página fica mais larga que a tela.
-- **Próximo:** cada competição num arquivo de dados separado, carregado quando escolhida (parte 2); painel online no
-  Cloudflare Pages (parte 3).
+- **20/11:** painel com Séries A, B, C, D e Copa do Brasil, dados por competição (`painel/`) e **online** em
+  https://clubeanalitico.pages.dev.
+- **Pendências:**
+  - escudos do Oeste e do União Bandeirante: a Wikimedia deu 429; rodar `python baixar_escudos.py` depois;
+  - temporadas "1992/93": o painel ainda mostra só o ano de início.
+- **Próximo:** competições que os agentes de coleta entregarem; achados do agente de revisão (`docs/revisao/pedidos-painel.md`).
 - **Dúvidas abertas:** "GE Maringá" x "Grêmio Maringá" (separados); Ferroviário-PE junta "Ferroviário Recife" (1971) e
   "Ferroviário do Cabo" (1972); Malutrom e J. Malucelli são o mesmo clube com outro nome (separados).

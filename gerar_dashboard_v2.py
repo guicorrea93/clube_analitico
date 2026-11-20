@@ -728,7 +728,8 @@ body{background-image:repeating-linear-gradient(90deg,transparent 0 90px,rgba(25
 .kpi span{display:block;margin-top:4px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#eafff2}
 .kpi small{display:block;font-size:11.5px;color:#b9d3c2;line-height:1.3}
 @media (max-width:1000px){.cartoes-topo{grid-template-columns:repeat(4,minmax(0,1fr))}}
-@media (max-width:640px){.cartoes-topo{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.kpi b{font-size:22px}}
+@media (max-width:640px){.cartoes-topo{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}.kpi{padding:9px 7px 9px 12px}
+  .kpi b{font-size:18px}.kpi span{font-size:9.5px;letter-spacing:.03em}.kpi small{font-size:10px}}
 /* barra de navegação lateral (no celular vira uma faixa no topo) */
 .lateral{position:fixed;left:0;top:0;bottom:0;width:224px;z-index:20;display:flex;flex-direction:column;gap:6px;padding:20px 14px;
   background:linear-gradient(180deg,#0b2215,#050b08);border-right:1px solid #2e4d39}
@@ -747,14 +748,15 @@ body{background-image:repeating-linear-gradient(90deg,transparent 0 90px,rgba(25
 .area{margin-left:224px;min-height:100vh}
 .em-breve{text-align:center;padding:60px 20px;color:var(--muted)}
 .em-breve b{display:block;margin-bottom:6px;font-size:20px;color:var(--champ)}
-@media (max-width:900px){
-  .lateral{position:sticky;bottom:auto;width:auto;flex-direction:row;align-items:center;gap:6px;padding:8px 10px;overflow-x:auto;border-right:0;border-bottom:1px solid #2e4d39}
+@media (max-width:900px){   /* celular: 1ª linha competição e tema; 2ª as três abas; 3ª as sub-abas da aba aberta */
+  .lateral{position:relative;bottom:auto;width:auto;flex-direction:row;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 12px;overflow:visible;border-right:0;border-bottom:1px solid #2e4d39}
   .lateral .marca{display:none}
-  .comp-escolha{margin:0;min-width:190px}
-  .nav{width:auto;white-space:nowrap;padding:8px 12px;font-size:13px}
-  .lateral .tema{margin:0 0 0 auto;width:auto;white-space:nowrap}
+  .comp-escolha{order:1;flex:1 1 calc(100% - 96px);margin:0;min-width:0}
+  .lateral .tema{order:2;flex:0 0 80px;margin:0;width:auto;white-space:nowrap}
+  .nav{order:3;flex:1 1 0;min-width:0;justify-content:center;white-space:nowrap;padding:9px 6px;font-size:13px}
   .area{margin-left:0}
 }
+@media (max-width:480px){.nav .ico{display:none}.nav{font-size:12.5px}}
 /* sub-abas: itens recuados na barra lateral, abaixo da aba (só aparecem com a aba aberta) */
 .subnav-lat{display:flex;flex-direction:column;gap:2px;margin:2px 0 8px 22px;padding-left:10px;border-left:2px solid #2e4d39}
 .subnav-lat[hidden]{display:none}
@@ -762,7 +764,9 @@ body{background-image:repeating-linear-gradient(90deg,transparent 0 90px,rgba(25
 .sub:hover{color:#f8fff8;background:rgba(30,203,116,.08)}
 .sub.ativo{color:#32d57f;font-weight:800;background:rgba(30,203,116,.10)}
 .sub.ativo::before{content:"";position:absolute;left:-12px;top:6px;bottom:6px;width:2px;background:#1ecb74;border-radius:2px}
-@media (max-width:900px){.subnav-lat{flex-direction:row;margin:0;padding:0 0 0 4px;border-left:1px solid #2e4d39}.sub{white-space:nowrap}.sub.ativo::before{display:none}}
+@media (max-width:900px){.subnav-lat{order:4;flex:1 1 100%;flex-direction:row;gap:6px;overflow-x:auto;margin:0;padding:0;border-left:0;scrollbar-width:none}
+  .subnav-lat::-webkit-scrollbar{display:none}
+  .sub{flex:none;white-space:nowrap;border:1px solid #2e4d39;border-radius:999px;padding:6px 12px}.sub.ativo{border-color:#1ecb74}.sub.ativo::before{display:none}}
 main{max-width:1240px;margin:0 auto;padding:26px 24px 70px}
 .painel{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:22px 22px 18px;box-shadow:var(--shadow-sm)}
 .titulo-bloco{margin:0 0 4px;font-size:22px;font-weight:800;color:var(--champ)}
@@ -883,6 +887,8 @@ span.cp-esc{display:inline-block}
 .cp-tab td.neg{color:#ef6b6b}
 .cpp-tab th:nth-child(n+3),.cpp-tab td:nth-child(n+3){width:auto;text-align:left;white-space:nowrap}
 .cpp-tab{margin-top:16px}
+.curto{display:none}
+.cpp-tab td b{font-weight:800}.cpp-tab .n-novo{color:#32d57f}.cpp-tab .n-vet{color:var(--champ)}
 .mv{font-size:12.5px;font-weight:700;color:var(--muted)}
 .mv.sobe{color:#32d57f}.mv.cai{color:#ef6b6b}.mv.fora{opacity:.6}
 .mv.novo,.mv.vet{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.03em}
@@ -1060,8 +1066,17 @@ span.cu-esc{display:inline-block}
   main{padding:16px 12px 60px} .painel{padding:16px 12px}
   .linha{grid-template-columns:1fr auto;gap:6px 10px} .trilhos{grid-column:1 / -1;grid-row:2} .total{font-size:19px} .total.v{font-size:16px} .total.r{font-size:15px} .totais{gap:10px}
   .bloco{width:42px}
-  #corrida,.grafico-corrida{min-width:760px}   /* no celular o gráfico rola de lado em vez de encolher */
-  .pt-tabela{min-width:900px}
+  #corrida,.grafico-corrida{min-width:760px}   /* no celular o gráfico rola de lado em vez de encolher (e acompanha o ano) */
+  .corrida-ctl{flex-wrap:wrap;gap:8px 10px}.corrida-ctl button{min-width:0}.corrida-ctl output{font-size:16px;min-width:0;text-align:left}
+  .corrida-ctl input[type=range]{order:5;flex:1 1 100%}.corrida-ctl .alterna{margin-left:auto}
+  .pt-tabela{min-width:760px}.pt-cab,.pt-linha{grid-template-columns:128px 1fr 40px;gap:8px}
+  .pt-linha .clube,.pt-cab>span:first-child{position:sticky;left:0;z-index:1;background:var(--panel)}   /* o nome fica e as edições rolam */
+  .cp-tab{min-width:0}.cp-tab .gpgc{display:none}.cp-tab th,.cp-tab td{padding:6px 4px;font-size:13px}
+  .cp-tab th:nth-child(n+3),.cp-tab td:nth-child(n+3){width:30px}.cp-tab td.pos{width:34px}.cp-tab .cp-esc{width:22px;height:22px}
+  .cpp-tab th:nth-child(n+3),.cpp-tab td:nth-child(n+3){width:auto;white-space:normal}
+  #cl-traj{overflow-x:auto}.cl-traj-svg{min-width:640px}
+  .cl-tab .comp{display:none}   /* campanhas: a competição sai (o ano leva à edição) */
+  .longo{display:none}.curto{display:inline}.cpp-tab .mv.novo,.cpp-tab .mv.vet{margin-left:3px;padding:1px 5px;font-size:10px}.cpp-tab td:nth-child(n+3){white-space:nowrap}
 }
 """
 
@@ -1093,6 +1108,10 @@ const claro = h => luz(h) > 150, escuro = h => luz(h) < 40;
 // 'São Paulo' -> 'sao-paulo' (vai no endereço da aba Por clube)
 // ⫽ no eixo onde a competição ficou 3 anos ou mais sem edição (a Série A pula de 1937 para 1959)
 const quebras = (anos, X, y) => anos.slice(1).map((a, i) => a - anos[i] >= 3 ? '<text class="cr-eixo" x="' + ((X(i) + X(i + 1)) / 2) + '" y="' + y + '" text-anchor="middle">⫽</text>' : '').join('');
+// no celular o gráfico rola de lado: mantém à vista a ponta das linhas (o ano que está passando)
+const seguir = (svg, x) => { const r = svg.parentElement, vb = svg.viewBox && svg.viewBox.baseVal;
+  if (!vb || !vb.width || r.scrollWidth <= r.clientWidth + 2) return;
+  r.scrollLeft = x * svg.clientWidth / vb.width - r.clientWidth * 0.55; };
 const slugClube = c => c.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');   // contorno do vice: cor quase preta some no fundo escuro, usa a segunda cor
 function desenhar() {
   // t = títulos, v = vices, r = 3º lugares
@@ -1202,7 +1221,7 @@ document.addEventListener('click', ev => {
       const v = val[c][fr > .5 && i + 1 < N ? i + 1 : i];
       e.txt.innerHTML = esc(c) + ' <tspan>' + v + '</tspan>';
     }
-    anoG.textContent = anos[i]; saida.textContent = anos[i]; barra.value = p;
+    anoG.textContent = anos[i]; saida.textContent = anos[i]; barra.value = p; seguir(svg, X(p));
   }
   function tique(t) {
     if (!tocando) return;
@@ -1253,6 +1272,7 @@ document.addEventListener('click', ev => {
     }).join('');
     box.innerHTML = '<div class="pt-rolar"><div class="pt-tabela"><div class="pt-cab"><span></span><div class="pt-eixo" style="--n:' + N + '">' + eixo + '</div><span></span></div>' + linhas + '</div></div>' +
       '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' que mais participaram' : 'Ver todos os ' + lista.length + ' clubes') + '</button>';
+    const pr = box.querySelector('.pt-rolar'); pr.scrollLeft = pr.scrollWidth;   // no celular rola de lado: começa nas edições mais novas
   }
   box.addEventListener('click', ev => { if (ev.target.closest('.pt-mais')) { todos = !todos; desenhar(); } });
   document.addEventListener('tema-mudou', desenhar);
@@ -1387,7 +1407,7 @@ function corridaPosicoes(id, medalhas) {
       if (dentro) { e.g.setAttribute('transform', 'translate(' + xp.toFixed(1) + ' ' + yp.toFixed(1) + ')');
         e.txt.innerHTML = esc(c) + ' <tspan>' + fmtN(val[fr > .5 && i + 1 < N ? i + 1 : i]) + '</tspan>'; }
     }
-    anoG.textContent = anos[i]; saida.textContent = nomear(anos[i]); barra.value = p;
+    anoG.textContent = anos[i]; saida.textContent = nomear(anos[i]); barra.value = p; seguir(svg, xp);
   }
   function tique(t) { if (!tocando) return; p = Math.min(N - 1, p + (tAnt ? t - tAnt : 16) * VEL); tAnt = t; quadro(); if (p >= N - 1) parar(); else requestAnimationFrame(tique); }
   function tocar() { if (p >= N - 1) p = 0; tocando = true; tAnt = 0; btn.textContent = '❚❚ Pausar'; requestAnimationFrame(tique); }
@@ -1707,10 +1727,10 @@ function corridaPosicoes(id, medalhas) {
     // classificação final
     const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos, J, V, E, D, GP, GC] = r, sg = GP - GC;
       return '<tr class="' + (pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
-        (e.mata ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td>' + GP + '</td><td>' + GC + '</td>' +
+        (e.mata ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
         '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td></tr>'; }).join('');
     document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (e.mata ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
-      '<th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead><tbody>' + linhas + '</tbody></table></div>' +
+      '<th>J</th><th>V</th><th>E</th><th>D</th><th class="gpgc">GP</th><th class="gpgc">GC</th><th>SG</th></tr></thead><tbody>' + linhas + '</tbody></table></div>' +
       (t.length > TOP ? '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' primeiros' : 'Ver todos os ' + t.length + ' clubes') + '</button>' : '');
     resumo(e); participantes(e); jogos(e); corrida(e); artilharia(e);
   }
@@ -1742,13 +1762,15 @@ function corridaPosicoes(id, medalhas) {
       grupo('Subiram para a ' + NV(N - 1), linhas.filter(x => x.foi && x.foi < N), null, 'no ano seguinte', x => ' (' + x.pos + 'º)'),
       grupo('Caíram para a ' + NV(N + 1), linhas.filter(x => x.foi && x.foi > N), null, 'no ano seguinte', x => ' (' + x.pos + 'º)'),
     ].join('') + '</div>';
+    // texto inteiro e, no celular, curto: '↓ caiu da Série A' vira '↓ Série A'; 'já estava' e 'ficou' viram '='
+    const dois = (longo, curto) => '<span class="longo">' + longo + '</span><span class="curto">' + curto + '</span>';
     const seta = (v, de) => v === null ? '' : v === 0 ? '<span class="mv fora" title="não jogou nenhuma série do banco em ' + (e.ano + (de ? -1 : 1)) + '">—</span>'
-      : v === N ? '<span class="mv">' + (de ? 'já estava' : 'ficou') + '</span>'
-      : (v < N) === de ? '<span class="mv cai">↓ ' + (de ? 'caiu da ' : 'caiu para a ') + NV(v) + '</span>'
-      : '<span class="mv sobe">↑ ' + (de ? 'subiu da ' : 'subiu para a ') + NV(v) + '</span>';
-    document.getElementById('cpp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab cpp-tab"><thead><tr><th></th><th>Clube</th><th>Participação</th><th>Chegou</th><th>No ano seguinte</th></tr></thead><tbody>' +
+      : v === N ? '<span class="mv">' + dois(de ? 'já estava' : 'ficou', '=') + '</span>'
+      : (v < N) === de ? '<span class="mv cai">' + dois('↓ ' + (de ? 'caiu da ' : 'caiu para a ') + NV(v), '↓ ' + NV(v)) + '</span>'
+      : '<span class="mv sobe">' + dois('↑ ' + (de ? 'subiu da ' : 'subiu para a ') + NV(v), '↑ ' + NV(v)) + '</span>';
+    document.getElementById('cpp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab cpp-tab"><thead><tr><th></th><th>Clube</th><th><span class="longo">Participação</span><span class="curto">Nº</span></th><th>Chegou</th><th><span class="longo">No ano seguinte</span><span class="curto">Depois</span></th></tr></thead><tbody>' +
       linhas.map(x => '<tr class="' + (x.pos <= 3 ? 'p' + x.pos : '') + '"><td class="pos">' + x.pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(x.c) + '">' + escudo(x.c) + esc(x.c) + '</a></td>' +
-        '<td>' + x.n + 'ª' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</td>' +
+        '<td><b class="' + (x.n === 1 ? 'n-novo' : x.n === maxN ? 'n-vet' : '') + '">' + x.n + 'ª</b><span class="longo">' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</span></td>' +
         '<td>' + seta(x.veio, true) + '</td><td>' + seta(x.foi, false) + '</td></tr>').join('') + '</tbody></table></div>';
   }
   // copa: em vez de subir e cair, a divisão em que cada clube jogava naquele ano
@@ -1760,9 +1782,9 @@ function corridaPosicoes(id, medalhas) {
       maxN > 1 ? grupo(vet.length === 1 ? 'Mais veterano' : 'Mais veteranos', vet, maxN + 'ª', 'participação') : '',
       ...niveis.map(v => grupo(v ? 'Da ' + NV(v) : 'Fora das séries', linhas.filter(x => x.veio === v), null, 'no ano de ' + e.ano)),
     ].join('') + '</div>';
-    document.getElementById('cpp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab cpp-tab"><thead><tr><th></th><th>Clube</th><th>Participação</th><th>Série no ano</th></tr></thead><tbody>' +
+    document.getElementById('cpp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab cpp-tab"><thead><tr><th></th><th>Clube</th><th><span class="longo">Participação</span><span class="curto">Nº</span></th><th>Série no ano</th></tr></thead><tbody>' +
       linhas.map(x => '<tr class="' + (x.pos <= 3 ? 'p' + x.pos : '') + '"><td class="pos">' + x.pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(x.c) + '">' + escudo(x.c) + esc(x.c) + '</a></td>' +
-        '<td>' + x.n + 'ª' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</td>' +
+        '<td><b class="' + (x.n === 1 ? 'n-novo' : x.n === maxN ? 'n-vet' : '') + '">' + x.n + 'ª</b><span class="longo">' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</span></td>' +
         '<td>' + div(x.veio) + '</td></tr>').join('') + '</tbody></table></div>';
   }
   function resumo(e) {
@@ -1909,7 +1931,9 @@ function corridaPosicoes(id, medalhas) {
     for (const [i, q, J, V, E, D] of cs) { const m = medalha(i, c);
       svg += '<circle class="cl-ponto ' + (m || '') + '" cx="' + X(i) + '" cy="' + Y(q) + '" r="' + (m ? 6 : 4) + '" style="--c:' + corDe(c) + '" data-dica="' +
         esc('<b>' + nomeEd(i) + '</b><br>' + q + 'º de ' + EDS[i].tab.length + (m ? ' · ' + MED[m] : '') + '<br>' + V + ' V · ' + E + ' E · ' + D + ' D') + '"/>'; }
-    document.getElementById('cl-traj').innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="cl-traj-svg" role="img" aria-label="Posição final em cada edição">' + svg + '</svg>';
+    const traj = document.getElementById('cl-traj');
+    traj.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="cl-traj-svg" role="img" aria-label="Posição final em cada edição">' + svg + '</svg>';
+    traj.scrollLeft = traj.scrollWidth;   // no celular rola de lado: começa nas edições mais novas
     // pódios: um selo por ano
     const pods = cs.filter(([i]) => medalha(i, c)).map(([i]) => '<span class="cl-pod ' + medalha(i, c) + '" data-dica="' + esc('<b>' + nomeEd(i) + '</b><br>' + MED[medalha(i, c)]) + '">' + EDS[i].ano + '</span>');
     document.getElementById('cl-podios').innerHTML = pods.length ? '<div class="cl-pods">' + pods.join('') + '</div>' : '<p class="cp-nota">Nenhum pódio ainda: a melhor colocação foi ' +
@@ -1945,10 +1969,10 @@ function corridaPosicoes(id, medalhas) {
   function tabela(c, cs) {
     const linhas = cs.slice().reverse().map(([i, q, J, V, E, D, GP, GC]) => { const e = EDS[i], m = medalha(i, c), sg = GP - GC;
       return '<tr class="cl-camp ' + (m ? 'p' + { ouro: 1, prata: 2, bronze: 3 }[m] : '') + '" data-ed="' + e.id + '" title="Ver a edição"><td class="pos">' + q + 'º</td><td class="clube">' + e.ano + '</td><td class="comp">' + esc(EDP[i].comp || CONF.curto) + '</td>' +
-        '<td class="pts">' + (e.mata ? '–' : e.pv * V + E) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td>' + GP + '</td><td>' + GC + '</td>' +
+        '<td class="pts">' + (e.mata ? '–' : e.pv * V + E) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
         '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td><td>' + pct((3 * V + E) / (3 * J)) + '</td></tr>'; }).join('');
-    document.getElementById('cl-campanhas').innerHTML = '<div class="cp-rolar"><table class="cp-tab cl-tab"><thead><tr><th>Pos</th><th>Ano</th><th>Competição</th><th>Pts</th><th>J</th><th>V</th><th>E</th><th>D</th>' +
-      '<th>GP</th><th>GC</th><th>SG</th><th title="vitória 3, empate 1">Aprov.</th></tr></thead><tbody>' + linhas + '</tbody></table></div>';
+    document.getElementById('cl-campanhas').innerHTML = '<div class="cp-rolar"><table class="cp-tab cl-tab"><thead><tr><th>Pos</th><th>Ano</th><th class="comp">Competição</th><th>Pts</th><th>J</th><th>V</th><th>E</th><th>D</th>' +
+      '<th class="gpgc">GP</th><th class="gpgc">GC</th><th>SG</th><th title="vitória 3, empate 1">Aprov.</th></tr></thead><tbody>' + linhas + '</tbody></table></div>';
   }
   document.getElementById('cl-campanhas').addEventListener('click', ev => { const tr = ev.target.closest('tr[data-ed]'); if (tr) location.hash = 'campeonato/classificacao/' + tr.dataset.ed; });
   // ---- Confrontos: retrospecto contra cada adversário
@@ -2099,6 +2123,8 @@ escolha(document.getElementById('clj-sel'), { busca: 'Buscar ano' });
     const novo = k + (sub ? '/' + sub : '') + (resto ? '/' + resto : '');
     if (location.hash.slice(1) !== novo) history.replaceState(null, '', '#' + novo);
     if (rolar) window.scrollTo(0, 0);
+    const ativa = subs.find(b => b.classList.contains('ativo'));   // no celular as sub-abas rolam de lado: a aberta fica à vista
+    if (ativa) ativa.parentElement.scrollLeft = ativa.offsetLeft - ativa.parentElement.offsetLeft - 24;
     document.dispatchEvent(new CustomEvent('aba-aberta', { detail: { k, sub, resto } }));
   };
   botoes.forEach(b => b.addEventListener('click', () => abrir(b.dataset.aba)));

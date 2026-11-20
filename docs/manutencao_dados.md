@@ -104,3 +104,10 @@ python .\gerar_dashboard_v2.py           # painel em painel/ (index.html, dados/
 ```
 
 Depois de mexer na Série A ou na Série B, ou de receber um pacote novo, rode o primeiro e o último.
+
+**Painel online:** https://clubeanalitico.pages.dev (Cloudflare Pages, projeto `clubeanalitico`, conta do Guilherme).
+Não publica sozinho com o push: depois de gerar o painel (e com o ok do Guilherme), envie a pasta `painel/`:
+
+```powershell
+npx wrangler pages deploy painel --project-name clubeanalitico --branch main --commit-dirty=true
+```
