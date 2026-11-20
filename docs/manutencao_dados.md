@@ -88,3 +88,19 @@ python .\serie_b\importar.py
 Conferências que ajudam a achar problema: `python .\serie_b\rsssf.py` (cada tabela publicada
 contra a soma dos jogos lidos), `python .\serie_b\clubes.py` (clubes identificados e nomes
 ambíguos) e `python .\serie_b\nomes.py` (nomes da ESPN, ogol e Wikipédia sem clube).
+
+## Banco genérico e painel
+
+`db/futebol.db` guarda todas as competições num formato só (país, competição, edição, fase,
+partida, gols, cartões, classificações; ver `futebol/esquema.sql`). Hoje ele é montado a partir
+do `brasileirao.db` (Séries A e B), que continua sendo onde os coletores dessas duas gravam, e dos
+pacotes do agente de coleta (`data/coleta/<slug>/pacote/`, Série C em diante):
+
+```powershell
+python .\futebol\migrar_brasileirao.py   # refaz db/futebol.db, confere com o brasileirao.db e carrega os pacotes
+python .\futebol\carregar_pacotes.py bra-serie-c   # só recarrega um pacote (sem refazer o resto)
+python .\baixar_escudos.py --ogol        # escudos dos clubes novos dos pacotes (calendários do ogol guardados)
+python .\gerar_dashboard_v2.py           # painel com o seletor de competição (dashboard_v2.html)
+```
+
+Depois de mexer na Série A ou na Série B, ou de receber um pacote novo, rode o primeiro e o último.

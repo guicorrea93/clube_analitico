@@ -1,5 +1,8 @@
 # Clube Analitico
 
+> **Comece por `docs/COMECE-AQUI.md`** (mapa atual do projeto, banco genérico `db/futebol.db` e painel v2).
+> Agente de coleta de competições novas: `docs/agente-coleta-COMECE-AQUI.md`.
+
 Dashboard local de futebol brasileiro em HTML, gerado a partir de um banco
 SQLite versionado no proprio repositorio.
 

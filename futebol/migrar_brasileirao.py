@@ -10,6 +10,9 @@ Cada clube aparece uma vez (pelo nome de exibição do dashboard, gerar_dashboar
 e guarda os nomes que tinha no banco antigo em clube_nome. O banco antigo não muda. No fim confere que
 nada se perdeu: jogos, gols e campeão de cada edição, contra o banco antigo.
 
+No fim separa os clubes de SEPARAR e carrega os pacotes do agente de coleta (futebol/carregar_pacotes.py:
+Série C em diante).
+
 Uso: python futebol/migrar_brasileirao.py
 """
 from __future__ import annotations
@@ -35,6 +38,8 @@ UF_MANUAL = {"Aliança": "RJ", "CEUB": "DF", "Corumbaense": "MS", "Francana": "S
 # mesmo clube com dois nomes de exibição no banco antigo -> nome que fica (o outro vai para clube_nome)
 MESCLAR = {"Comercial-SP": "Comercial-RP",   # Comercial de Ribeirão Preto (Série B o chama de Comercial-SP)
            "Grêmio Prudente": "Barueri"}      # Grêmio Barueri, que jogou como Grêmio Prudente em 2010-2011
+# um nome de exibição que junta dois clubes no banco antigo: (nome, nome do clube antigo, estado, último ano do antigo)
+SEPARAR = [("Novorizontino", "GE Novorizontino", "SP", 1999)]   # GE Novorizontino (1973-1999) x Grêmio Novorizontino (2010+)
 TIPO_GOL = {"gol contra": "contra", "penalti": "penalti", "penalty": "penalti", "falta": "falta", "normal": "normal"}
 
 
@@ -121,9 +126,10 @@ def migrar() -> None:
     for eid, chave_ed, ano, comp, tipo, fonte, obs, n, pv in a.execute(
             """SELECT edicao_nacional_id, edicao_id, temporada_id, competicao_nome, tipo, fonte_principal, observacao, num_clubes, pontos_vitoria
                FROM dim_edicao_nacional ORDER BY temporada_id, edicao_id"""):
-        novo = b.execute("""INSERT INTO edicao (competicao_id, temporada, ano_inicio, ano_fim, nome_oficial, chave, num_clubes, pontos_vitoria, fontes, observacao)
-                            VALUES (?,?,?,?,?,?,?,?,?,?)""",
-                         (serie_a, str(ano), ano, ano, None if comp == "Campeonato Brasileiro" else comp, chave_ed, n, pv, fonte, obs)).lastrowid
+        formato = "mata-mata" if tipo in ("taca_brasil", "torneio_dos_campeoes") else None
+        novo = b.execute("""INSERT INTO edicao (competicao_id, temporada, ano_inicio, ano_fim, nome_oficial, chave, num_clubes, pontos_vitoria, formato, fontes, observacao)
+                            VALUES (?,?,?,?,?,?,?,?,?,?,?)""",
+                         (serie_a, str(ano), ano, ano, None if comp == "Campeonato Brasileiro" else comp, chave_ed, n, pv, formato, fonte, obs)).lastrowid
         edicao_de[eid] = novo
         if ano >= 2003:
             ed_moderna[ano] = novo
@@ -211,8 +217,10 @@ def migrar() -> None:
             "SELECT edicao_serie_b_id, clube_id, posicao, jogos, vitorias, empates, derrotas, gols_pro, gols_contra, pontos, ajuste_pontos, fonte FROM fato_classificacao_final_serie_b"):
         b.execute("INSERT INTO classificacao_final (edicao_id, clube_id, posicao, jogos, vitorias, empates, derrotas, gols_pro, gols_contra, pontos, ajuste_pontos, fonte) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
                   (ed_b[ano], novo_id[c], pos, j, v, e, d, gp, gc, pts, aj, fonte))
+    # zona da posição na Série B de pontos corridos (2006+, 20 clubes): campeão, acesso (2º ao 4º) e rebaixamento (4 últimos)
+    zona_b = lambda pos: "titulo" if pos == 1 else "acesso" if pos <= 4 else "rebaixamento" if pos >= 17 else "meio"
     for ano, rodada, c, pos, pts, j, v, e, d, gp, gc in a.execute("SELECT * FROM fato_classificacao_rodada_serie_b"):
-        b.execute("INSERT INTO classificacao_rodada VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", (ed_b[ano], rodada, novo_id[c], pos, pts, j, v, e, d, gp, gc, None))
+        b.execute("INSERT INTO classificacao_rodada VALUES (?,?,?,?,?,?,?,?,?,?,?,?)", (ed_b[ano], rodada, novo_id[c], pos, pts, j, v, e, d, gp, gc, zona_b(pos)))
     for ano, fase_n, grupo, pos, c, nf, j, v, e, d, gp, gc, pts in a.execute("SELECT * FROM fato_tabela_fase_serie_b"):
         b.execute("INSERT INTO tabela_publicada VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                   (ed_b[ano], fase_n, grupo, pos, novo_id.get(c), nf, j, v, e, d, gp, gc, pts, "rsssf"))
@@ -235,8 +243,27 @@ def migrar() -> None:
                          WHERE edicao_id=? AND clube_id=?""", (j, v, e, d, gp, gc, pts, pts - pts_calc, ed, c))
         top = b.execute("SELECT clube_id FROM classificacao_final WHERE edicao_id = ? ORDER BY posicao LIMIT 2", (ed,)).fetchall()
         b.execute("UPDATE edicao SET campeao_id = ?, vice_id = ? WHERE edicao_id = ?", (top[0][0] if top else None, top[1][0] if len(top) > 1 else None, ed))
+    separar(b)
     b.commit()
     conferir(a, b, conflitos)
+    import carregar_pacotes
+    for slug in carregar_pacotes.pacotes():
+        carregar_pacotes.carregar(b, slug)
+
+
+def separar(b: sqlite3.Connection) -> None:
+    """Passa para um clube novo (o antigo) tudo o que o nome de SEPARAR tem até o último ano dele."""
+    for nome, antigo, uf, ate in SEPARAR:
+        (cid,) = b.execute("SELECT clube_id FROM clube WHERE nome = ?", (nome,)).fetchone()
+        novo = b.execute("INSERT INTO clube (nome, pais_id, regiao) VALUES (?, 1, ?)", (antigo, uf)).lastrowid
+        eds = f"SELECT edicao_id FROM edicao WHERE ano_inicio <= {int(ate)}"
+        pts = f"SELECT partida_id FROM partida WHERE edicao_id IN ({eds})"
+        for t, col, onde in [("partida", "mandante_id", eds), ("partida", "visitante_id", eds), ("gol", "clube_id", pts), ("cartao", "clube_id", pts),
+                             ("estatistica_partida", "clube_id", pts), ("classificacao_final", "clube_id", eds), ("classificacao_rodada", "clube_id", eds),
+                             ("tabela_publicada", "clube_id", eds), ("artilheiro", "clube_id", eds), ("edicao", "campeao_id", eds), ("edicao", "vice_id", eds)]:
+            chave_t = "partida_id" if onde is pts else "edicao_id"
+            b.execute(f"UPDATE {t} SET {col} = ? WHERE {col} = ? AND {chave_t} IN ({onde})", (novo, cid))
+        b.execute("UPDATE clube_nome SET clube_id = ? WHERE clube_id = ? AND ano_fim <= ?", (novo, cid, ate))
 
 
 def conferir(a: sqlite3.Connection, b: sqlite3.Connection, conflitos: list) -> None:
