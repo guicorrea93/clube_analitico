@@ -39,7 +39,7 @@ db/brasileirao.db  ── banco antigo, uma tabela por divisão (Série B em *_s
 db/futebol.db      ── banco genérico: qualquer competição, de qualquer país (futebol/esquema.sql)
    │  gerar_dashboard_v2.py
    ▼
-dashboard_v2.html  ── painel novo, com seletor de competição
+painel/            ── painel novo (index.html + dados/<competição>.js + escudos/), com seletor de competição
 ```
 
 - **Banco genérico** (`futebol/esquema.sql`): país, clube (com estado ou província),
@@ -71,7 +71,7 @@ dashboard_v2.html  ── painel novo, com seletor de competição
 | `docs/serie_b_coleta.md` | Relatório da coleta da Série B, ano a ano: fontes, conferências e ocorrências. |
 | `docs/manutencao_dados.md` | Comandos de manutenção, backup e reconstrução. |
 | `dashboard.html`, `gerar_dashboard_html.py` | Painel v1 (antigo). Continua funcionando, mas não recebe mais novidades. |
-| `dashboard_v2.html` | Painel novo. Abas: História, Por campeonato e Por clube. |
+| `painel/` | Painel novo: `index.html`, `dados/<competição>.js` (carregado só quando a competição é escolhida) e `escudos/`. Abas: História, Por campeonato e Por clube. `dashboard_v2.html` só leva para ele. |
 
 ## 4. Regras da casa (valem para qualquer agente)
 
@@ -105,6 +105,9 @@ O guia do agente 2 está em `docs/agente-coleta-COMECE-AQUI.md`.
 
 Há também dois agentes de coleta internacionais (Europa e América do Sul fora o Brasil). O guia deles, com as
 pastas de cada um, está em `docs/agentes-internacionais-COMECE-AQUI.md`.
+
+E um agente de revisão, que confere o que já está no painel e registra os achados (`docs/revisao/`). O guia
+dele é `docs/agente-revisao-COMECE-AQUI.md`.
 
 ## 6. Estado e próximos passos (agente 1)
 

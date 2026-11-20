@@ -19,7 +19,7 @@ São quatro agentes na mesma pasta, no ramo `main`. Ninguém troca de ramo e cad
 
 | Agente | Competições | Pastas suas | Pedidos ao agente 1 |
 |---|---|---|---|
-| Banco e painel (agente 1) | — | `futebol/`, `db/`, `gerar_dashboard_v2.py`, `dashboard_v2.html`, `baixar_escudos.py`, `data/escudos/` | — |
+| Banco e painel (agente 1) | — | `futebol/`, `db/`, `gerar_dashboard_v2.py`, `painel/`, `dashboard_v2.html`, `baixar_escudos.py`, `data/escudos/` | — |
 | Coleta Brasil | `bra-*` | `coleta/bra-*`, `coleta/comum/`, `data/coleta/bra-*` | `docs/coleta/pedidos.md` |
 | **Coleta Europa** | países da UEFA | `coleta/<slug>/`, `coleta/comum-europa/`, `data/coleta/<slug>/`, `data/cache/*-europa*/` | `docs/coleta/pedidos-europa.md` |
 | **Coleta América do Sul** | países da CONMEBOL fora o Brasil | `coleta/<slug>/`, `coleta/comum-sulamerica/`, `data/coleta/<slug>/`, `data/cache/*-sulamerica*/` | `docs/coleta/pedidos-sulamerica.md` |

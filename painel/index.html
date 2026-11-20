@@ -1,0 +1,1411 @@
+<!doctype html><html lang="pt-BR" data-theme="dark"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Clube Analítico v2</title><style>
+:root[data-theme="dark"]{
+  --bg:#06100b; --panel:#0e1b14; --panel-2:#132519; --border:#2e4d39; --pitch-line:rgba(241,255,245,.10);
+  --text:#f1f7f1; --muted:#9bb6a7; --accent:#1ecb74; --champ:#fbbf24; --trilho:#11241a;
+  --header-text:#f8fff8; --header-muted:#b9d3c2; --shadow-sm:0 8px 22px rgba(0,0,0,.28);
+}
+:root[data-theme="light"]{
+  --bg:#eef5eb; --panel:#ffffff; --panel-2:#f6faf3; --border:#cfdcc9; --pitch-line:rgba(20,80,40,.08);
+  --text:#15241c; --muted:#5b7568; --accent:#087c43; --champ:#b46f00; --trilho:#eef4ea;
+  --header-text:#f7fff7; --header-muted:#c5ddcf; --shadow-sm:0 8px 22px rgba(20,60,30,.10);
+}
+*{box-sizing:border-box}
+html,body{margin:0;font-family:'Inter','SF Pro Text',-apple-system,Segoe UI,Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+body{background-image:repeating-linear-gradient(90deg,transparent 0 90px,rgba(255,255,255,.012) 90px 180px)}
+/* cabeçalho: placar sobre o gramado, com a faixa verde-amarela embaixo */
+.topo{position:relative;overflow:hidden;padding:26px 28px 22px;color:var(--header-text);
+  background:radial-gradient(circle at 50% 120%,rgba(30,203,116,.18),transparent 55%),linear-gradient(180deg,#0d2a19,#06140c);
+  border-bottom:4px solid transparent;border-image:repeating-linear-gradient(90deg,#1ecb74 0 40px,#fbbf24 40px 52px,#1ecb74 52px 92px) 1}
+.topo::before{content:"";position:absolute;left:50%;top:-40px;width:180px;height:180px;margin-left:-90px;border:2px solid var(--pitch-line);border-radius:50%}
+.topo::after{content:"";position:absolute;left:50%;top:0;bottom:0;border-left:2px solid var(--pitch-line)}
+.topo .selo{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:5px 10px;border-radius:6px;
+  border:1.5px solid #1ecb74;color:#eafff2;background:rgba(5,11,8,.55)}
+.topo h1{position:relative;z-index:1;margin:12px 0 2px;font-size:28px;font-weight:900;letter-spacing:.01em;text-transform:uppercase}
+.topo p{position:relative;z-index:1;margin:0;color:var(--header-muted);font-size:13px;font-weight:600}
+.tema{position:absolute;z-index:2;right:24px;top:24px;font-family:inherit;font-size:13px;font-weight:600;color:var(--header-text);background:rgba(5,11,8,.55);
+  border:1px solid rgba(255,255,255,.18);border-radius:8px;padding:7px 12px;cursor:pointer}
+/* cartões do cabeçalho (como os do dashboard antigo: número, rótulo e a faixa verde-amarela na lateral) */
+.cartoes-topo{position:relative;z-index:1;display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:12px;margin-top:18px}
+.kpi{position:relative;overflow:hidden;background:linear-gradient(135deg,rgba(14,27,20,.92),rgba(5,11,8,.88));border:1px solid #2e4d39;border-radius:10px;padding:12px 14px 12px 18px}
+.kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:repeating-linear-gradient(180deg,#1ecb74 0 14px,#fbbf24 14px 20px)}
+.kpi b{display:block;font-size:26px;font-weight:900;line-height:1.1;color:#1ecb74;font-variant-numeric:tabular-nums}
+.kpi span{display:block;margin-top:4px;font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#eafff2}
+.kpi small{display:block;font-size:11.5px;color:#b9d3c2;line-height:1.3}
+@media (max-width:1000px){.cartoes-topo{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:640px){.cartoes-topo{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.kpi b{font-size:22px}}
+/* barra de navegação lateral (no celular vira uma faixa no topo) */
+.lateral{position:fixed;left:0;top:0;bottom:0;width:224px;z-index:20;display:flex;flex-direction:column;gap:6px;padding:20px 14px;
+  background:linear-gradient(180deg,#0b2215,#050b08);border-right:1px solid #2e4d39}
+.lateral .marca{display:flex;align-items:center;gap:8px;margin:0 6px 18px;font-size:15px;font-weight:900;letter-spacing:.04em;text-transform:uppercase;color:#f8fff8}
+.comp-escolha{margin:0 2px 14px}
+.comp-escolha .esc-box{width:100%}
+.comp-escolha .esc-btn{width:100%;min-width:0;font-size:13px;color:#f8fff8;background:rgba(5,11,8,.55);border:1px solid #2e4d39}
+.comp-escolha .esc-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.lateral .marca small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#9bb6a7}
+.nav{display:flex;align-items:center;gap:10px;width:100%;font-family:inherit;font-size:14px;font-weight:700;text-align:left;color:#b9d3c2;background:transparent;
+  border:1px solid transparent;border-radius:10px;padding:10px 12px;cursor:pointer;transition:background .12s,color .12s}
+.nav:hover{color:#f8fff8;background:rgba(30,203,116,.08)}
+.nav.ativo{color:#06100b;background:#1ecb74;box-shadow:0 6px 18px rgba(30,203,116,.25)}
+.nav .ico{width:20px;text-align:center}
+.lateral .tema{position:static;margin-top:auto;width:100%}
+.area{margin-left:224px;min-height:100vh}
+.em-breve{text-align:center;padding:60px 20px;color:var(--muted)}
+.em-breve b{display:block;margin-bottom:6px;font-size:20px;color:var(--champ)}
+@media (max-width:900px){
+  .lateral{position:sticky;bottom:auto;width:auto;flex-direction:row;align-items:center;gap:6px;padding:8px 10px;overflow-x:auto;border-right:0;border-bottom:1px solid #2e4d39}
+  .lateral .marca{display:none}
+  .comp-escolha{margin:0;min-width:190px}
+  .nav{width:auto;white-space:nowrap;padding:8px 12px;font-size:13px}
+  .lateral .tema{margin:0 0 0 auto;width:auto;white-space:nowrap}
+  .area{margin-left:0}
+}
+/* sub-abas: itens recuados na barra lateral, abaixo da aba (só aparecem com a aba aberta) */
+.subnav-lat{display:flex;flex-direction:column;gap:2px;margin:2px 0 8px 22px;padding-left:10px;border-left:2px solid #2e4d39}
+.subnav-lat[hidden]{display:none}
+.sub{font-family:inherit;font-size:13px;font-weight:600;text-align:left;color:#9bb6a7;background:transparent;border:0;border-radius:8px;padding:7px 10px;cursor:pointer;position:relative}
+.sub:hover{color:#f8fff8;background:rgba(30,203,116,.08)}
+.sub.ativo{color:#32d57f;font-weight:800;background:rgba(30,203,116,.10)}
+.sub.ativo::before{content:"";position:absolute;left:-12px;top:6px;bottom:6px;width:2px;background:#1ecb74;border-radius:2px}
+@media (max-width:900px){.subnav-lat{flex-direction:row;margin:0;padding:0 0 0 4px;border-left:1px solid #2e4d39}.sub{white-space:nowrap}.sub.ativo::before{display:none}}
+main{max-width:1240px;margin:0 auto;padding:26px 24px 70px}
+.painel{background:linear-gradient(180deg,var(--panel-2),var(--panel));border:1px solid var(--border);border-radius:14px;padding:22px 22px 18px;box-shadow:var(--shadow-sm)}
+.titulo-bloco{margin:0 0 4px;font-size:22px;font-weight:800;color:var(--champ)}
+.pergunta{margin:0 0 14px;color:var(--muted);max-width:860px}
+.legenda{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 16px;font-size:12.5px;color:var(--muted)}
+.legenda i{display:inline-block;width:22px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--muted)}
+.legenda i.listra{background:repeating-linear-gradient(135deg,var(--muted) 0 3px,transparent 3px 6px);box-shadow:inset 0 0 0 1px var(--muted)}
+/* gráfico: uma linha por clube */
+.linha{display:grid;grid-template-columns:150px 1fr 162px;align-items:center;gap:12px;padding:7px 0;border-top:1px solid var(--border)}
+.linha:first-of-type{border-top:0}
+.clube{display:flex;align-items:center;gap:8px;font-weight:700;font-size:14px;min-width:0}
+.clube .bola{width:14px;height:14px;border-radius:50%;flex:none;box-shadow:0 0 0 1px rgba(255,255,255,.25)}
+/* escudo sobre um disco claro: os escudos escuros não somem no tema escuro */
+.clube .escudo{width:40px;height:40px;flex:none;border-radius:50%;background:#eef4ee;padding:6px;object-fit:contain;box-shadow:0 0 0 2px var(--c1,transparent),0 2px 6px rgba(0,0,0,.3)}
+.clube span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.trilhos{display:grid;gap:4px}
+.trilho{display:flex;flex-wrap:wrap;gap:3px;padding:3px;border-radius:8px;background:var(--trilho);min-height:34px}
+.trilho.vices,.trilho.terc{min-height:26px;background:transparent;padding:0 3px}
+.bloco{position:relative;width:46px;height:28px;border-radius:5px;display:grid;place-items:center;font-size:11px;font-weight:800;letter-spacing:.01em;
+  font-variant-numeric:tabular-nums;color:var(--fg);background:var(--c1);box-shadow:inset 0 -3px 0 var(--c2);cursor:default;
+  transition:transform .12s;animation:entra .5s ease-out both}
+.bloco:hover{transform:translateY(-2px);outline:2px solid var(--champ);outline-offset:1px;z-index:1}
+.bloco.antigo{background-color:var(--c1);background-image:repeating-linear-gradient(135deg,var(--risca) 0 2px,transparent 2px 7px);text-shadow:0 0 3px var(--c1),0 0 2px var(--c1)}
+.totais{display:flex;justify-content:flex-end;gap:14px;text-align:right;font-variant-numeric:tabular-nums}
+.total{font-size:22px;font-weight:900;color:var(--champ);line-height:1.15}
+.total.v{color:var(--muted);font-size:18px}
+.total.r{color:var(--muted);font-size:16px;opacity:.8}
+.total small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+/* vice: só o contorno na cor do clube */
+.bloco.vice{height:22px;font-size:10.5px;color:var(--text);background:transparent;box-shadow:none;border:2px solid var(--borda);opacity:.85}
+.bloco.vice.antigo{background:transparent;border-style:dashed;text-shadow:none}
+/* 3º lugar: contorno pontilhado, mais discreto que o vice */
+.bloco.terc{height:20px;font-size:10px;color:var(--muted);background:transparent;box-shadow:none;border:2px dotted var(--borda);opacity:.75;text-shadow:none}
+.legenda i.ponto{background:transparent;box-shadow:none;border:2px dotted var(--muted)}
+.legenda i.contorno{background:transparent;box-shadow:inset 0 0 0 2px var(--muted)}
+.nota-rodape{margin:16px 0 0;font-size:12.5px;color:var(--muted)}
+.painel + .painel{margin-top:22px}
+/* corrida dos títulos */
+.corrida-ctl{display:flex;align-items:center;gap:12px;margin:0 0 8px}
+.titulo-bloco + .corrida-ctl,.titulo-bloco + #grafico{margin-top:14px}
+.corrida-ctl button{font-family:inherit;font-weight:800;font-size:13px;color:#06100b;background:var(--accent);border:0;border-radius:8px;padding:8px 14px;cursor:pointer;min-width:132px}
+.corrida-ctl input[type=range]{flex:1;accent-color:var(--accent);min-width:0}
+.corrida-ctl output{font-weight:900;font-size:18px;color:var(--champ);font-variant-numeric:tabular-nums;min-width:48px;text-align:right}
+#corrida,.grafico-corrida{width:100%;height:auto;max-height:calc(100vh - 150px);display:block}   /* cabe na tela junto com os botões */
+.corrida-rolar{overflow-x:auto}
+.cr-grade{stroke:var(--border);stroke-width:1}
+.cr-eixo{fill:var(--muted);font-size:12px;font-weight:600}
+#cr-anogrande,.cr-anogrande{fill:var(--text);opacity:.06;font-size:150px;font-weight:900}
+.cr-ponta{stroke:var(--panel);stroke-width:2}
+.cr-linha{fill:none;stroke-width:3.5;stroke-linejoin:round;stroke-linecap:round;transition:opacity .15s}
+.cr-rot{cursor:pointer;transition:opacity .15s}
+.cr-rot text{fill:var(--text);font-size:13px;font-weight:800;paint-order:stroke;stroke:var(--panel);stroke-width:3px}
+.cr-rot text tspan{fill:var(--champ)}
+svg.foco .cr-linha:not(.ativo),svg.foco .cr-rot:not(.ativo),svg.foco .cr-med:not(.ativo){opacity:.12}
+svg.foco .cr-linha.ativo{stroke-width:4.5}
+/* participações: uma faixa por clube, um quadradinho por edição */
+.pt-cab,.pt-linha{display:grid;grid-template-columns:190px 1fr 74px;align-items:center;gap:12px}
+.pt-cab{margin:0 0 4px}
+.pt-linha{padding:5px 0;border-top:1px solid var(--border)}
+.pt-eixo,.pt-faixa{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));gap:2px}
+.pt-eixo span{font-size:10.5px;font-weight:700;color:var(--muted);white-space:nowrap;overflow:visible;height:14px}
+.pt-faixa i{height:18px;border-radius:2px;background:var(--trilho)}
+.pt-faixa i.on{background:var(--c);cursor:default}
+.pt-faixa i.on:hover{outline:2px solid var(--text);outline-offset:1px}
+.pt-faixa i.tit{box-shadow:inset 0 0 0 2px var(--champ)}
+.pt-linha .clube .escudo{width:32px;height:32px;padding:5px}
+.pt-linha .total{font-size:19px;text-align:right}
+.pt-legenda{display:flex;flex-wrap:wrap;gap:16px;margin:0 0 14px;font-size:12.5px;color:var(--muted)}
+.pt-legenda i{display:inline-block;width:12px;height:14px;border-radius:2px;margin-right:6px;vertical-align:-2px;background:var(--muted)}
+.pt-legenda i.vazio{background:var(--trilho);box-shadow:inset 0 0 0 1px var(--border)}
+.pt-legenda i.tit{box-shadow:inset 0 0 0 2px var(--champ)}
+.pt-mais{margin-top:14px;font-family:inherit;font-size:13px;font-weight:700;color:var(--text);background:var(--panel);border:1px solid var(--border);border-radius:999px;padding:7px 14px;cursor:pointer}
+.pt-mais:hover{border-color:var(--accent)}
+.pt-rolar{overflow-x:auto}
+.cab-bloco{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.alterna{display:inline-flex;border:1px solid var(--border);border-radius:9px;overflow:hidden}
+.alterna button{font-family:inherit;font-size:13px;font-weight:800;color:var(--muted);background:transparent;border:0;padding:7px 16px;cursor:pointer}
+.alterna button+button{border-left:1px solid var(--border)}
+.alterna button.ativo{color:#06100b;background:var(--accent)}
+.cab-bloco .botoes{display:flex;gap:8px;flex-wrap:wrap}
+.jv-corrida[hidden],.alterna[hidden]{display:none}
+/* por campeonato */
+.cp-escolha{position:relative;z-index:1;display:flex;align-items:center;gap:8px;margin-top:14px;flex-wrap:wrap}
+.cp-escolha select{font-family:inherit;font-size:14px;font-weight:800;color:var(--header-text);background:rgba(5,11,8,.7);border:1px solid #2e4d39;border-radius:9px;padding:8px 12px;cursor:pointer;max-width:100%}
+.cp-escolha select option,.cp-escolha select optgroup{color:#111;background:#fff}
+.cp-seta{font-family:inherit;font-size:14px;font-weight:900;color:var(--header-text);background:rgba(5,11,8,.7);border:1px solid #2e4d39;border-radius:9px;width:38px;height:38px;cursor:pointer}
+.cp-seta:hover:not(:disabled),.cp-escolha select:hover{border-color:var(--accent)}
+.cp-seta:disabled{opacity:.35;cursor:default}
+.cp-nota{margin:10px 0 0;font-size:13px;color:var(--muted)}
+.podio{display:flex;align-items:flex-end;justify-content:center;gap:16px;margin-top:18px}
+.pd{display:flex;flex-direction:column;align-items:center;gap:6px;width:200px;min-width:0;text-align:center}
+.pd .cp-esc{width:72px;height:72px;padding:10px}
+.pd1 .cp-esc{width:100px;height:100px;padding:14px}
+.pd b{font-size:16px;font-weight:900;color:var(--text);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pd1 b{font-size:19px}
+.pd small{font-size:12px;color:var(--muted);font-weight:700}
+.degrau{width:100%;margin-top:6px;border-radius:10px 10px 0 0;display:flex;justify-content:center;padding-top:10px;font-size:26px;font-weight:900;color:#06100b}
+.pd1 .degrau{height:120px;background:linear-gradient(#f7d046,#c99a06)}
+.pd2 .degrau{height:86px;background:linear-gradient(#e7edf2,#9aa5b1)}
+.pd3 .degrau{height:62px;background:linear-gradient(#e6a96b,#a8652a)}
+/* escudo no círculo claro: margem interna de ~14% do diâmetro, para o escudo caber inteiro */
+.cp-esc{width:30px;height:30px;flex:none;border-radius:50%;background:#eef4ee;padding:4px;object-fit:contain;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+span.cp-esc{display:inline-block}
+.cp-rolar{overflow-x:auto;margin-top:12px}
+.cp-tab{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;min-width:640px}
+.cp-tab th{font-size:11px;font-weight:900;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:right;padding:6px 8px;border-bottom:1px solid var(--border)}
+.cp-tab th:nth-child(2){text-align:left}
+.cp-tab td{padding:6px 8px;text-align:right;font-size:14px;font-weight:700;color:var(--text);border-top:1px solid var(--border)}
+.cp-tab td.pos{font-weight:900;color:var(--muted);width:44px;border-left:4px solid transparent}
+.cp-tab tr.p1 td.pos{border-left-color:#f5c518;color:var(--champ)}
+.cp-tab tr.p2 td.pos{border-left-color:#c9d1d9}
+.cp-tab tr.p3 td.pos{border-left-color:#cd7f32}
+.cp-tab td.clube{text-align:left}
+.cp-tab th:nth-child(n+3),.cp-tab td:nth-child(n+3){width:60px}
+.cp-tab td.clube div,.cl-link{display:flex;align-items:center;gap:10px;font-weight:800}
+.cl-link{color:inherit;text-decoration:none}.cl-link:hover{color:var(--accent)}
+.cp-tab td.pts{font-weight:900;color:var(--champ);font-size:15px}
+.cp-tab td.neg{color:#ef6b6b}
+.cpp-tab th:nth-child(n+3),.cpp-tab td:nth-child(n+3){width:auto;text-align:left;white-space:nowrap}
+.cpp-tab{margin-top:16px}
+.mv{font-size:12.5px;font-weight:700;color:var(--muted)}
+.mv.sobe{color:#32d57f}.mv.cai{color:#ef6b6b}.mv.fora{opacity:.6}
+.mv.novo,.mv.vet{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.03em}
+.mv.novo{color:#0b2616;background:#32d57f}.mv.vet{color:#2a1d00;background:#f5c518}
+.cp-tab tbody tr:hover td{background:color-mix(in srgb,var(--accent) 8%,transparent)}
+@media (max-width:640px){.pd{width:110px}.pd .cp-esc{width:52px;height:52px;padding:7px}.pd1 .cp-esc{width:66px;height:66px;padding:9px}.pd b{font-size:13px}.pd1 b{font-size:14px}}
+.cr-faixa{opacity:.10}
+.cr-faixa.titulo{fill:#f5c518;opacity:.16}.cr-faixa.libertadores{fill:var(--accent)}.cr-faixa.sula{fill:#4aa3df}.cr-faixa.rebaixamento{fill:#ef4444;opacity:.12}.cr-faixa.acesso{fill:var(--accent)}
+.cp-legenda-faixa i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.cp-fases{list-style:none;counter-reset:f;margin:14px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:10px}
+.cp-fases li{counter-increment:f;flex:1 1 200px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:12px 14px 12px 46px;position:relative}
+.cp-fases li::before{content:counter(f);position:absolute;left:12px;top:12px;width:24px;height:24px;border-radius:50%;background:var(--accent);color:#06100b;font-weight:900;font-size:13px;display:grid;place-items:center}
+.cp-fases b{display:block;font-weight:900;color:var(--text)}
+.cp-fases span{font-size:12.5px;color:var(--muted)}
+.cp-nav{display:flex;align-items:center;gap:8px;margin:14px 0 6px}
+.cp-nav select{font-family:inherit;font-size:14px;font-weight:800;color:var(--text);background:var(--panel);border:1px solid var(--border);border-radius:9px;padding:8px 12px}
+.cp-nav .cp-seta{color:var(--text);background:var(--panel);border-color:var(--border)}
+.cp-subgrupo{margin:16px 0 6px;font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.cp-jogos{display:grid;grid-template-columns:repeat(auto-fill,minmax(380px,1fr));gap:6px 18px}
+.cp-jogo{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;padding:7px 10px;border-radius:9px;background:var(--panel);border:1px solid var(--border)}
+.cp-jogo span{display:flex;align-items:center;gap:8px;font-size:13.5px;font-weight:700;color:var(--muted);min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cp-jogo .m{justify-content:flex-end}
+.cp-jogo.vm .m,.cp-jogo.vv .v{color:var(--text);font-weight:900}
+.cp-jogo b{font-size:16px;font-weight:900;color:var(--champ);font-variant-numeric:tabular-nums;min-width:56px;text-align:center}
+.cp-art{display:grid;grid-template-columns:34px 260px 1fr 44px;align-items:center;gap:12px;padding:7px 0;border-top:1px solid var(--border)}
+.cp-art:first-child{border-top:0}
+.cp-art .n{font-weight:900;color:var(--muted)}
+.cp-art .quem b{display:block;font-weight:900;color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cp-art .quem span{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted)}
+.cp-art .trilho{height:20px;border-radius:5px;background:var(--trilho)}
+.cp-art .trilho i{display:block;height:100%;border-radius:5px;background:var(--c)}
+.cp-art .gols{font-size:20px;font-weight:900;color:var(--champ);text-align:right}
+@media (max-width:640px){.cp-art{grid-template-columns:28px 1fr 36px}.cp-art .trilho{grid-column:2 / -1;grid-row:2}.cp-jogos{grid-template-columns:1fr}}
+/* por clube */
+.cl-nome{position:relative;z-index:1;display:flex;align-items:center;gap:14px;margin-top:12px}
+.cl-nome .cu-esc{width:64px;height:64px;padding:9px}
+.cl-nome h1{margin:0}
+.cl-traj-svg{width:100%;height:auto;display:block;margin-top:10px}
+.cl-traj{fill:none;stroke-width:2.5;opacity:.85;stroke-linejoin:round}
+.cl-ponto{fill:var(--c);stroke:var(--panel);stroke-width:1.5}
+.cl-ponto.ouro{fill:#f5c518}.cl-ponto.prata{fill:#c9d1d9}.cl-ponto.bronze{fill:#cd7f32}
+.cl-ponto:hover{stroke:var(--text);stroke-width:2.5}
+.cl-pods{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.cl-pod{font-size:13px;font-weight:900;padding:5px 10px;border-radius:7px;color:#06100b;font-variant-numeric:tabular-nums}
+.cl-pod.ouro{background:linear-gradient(#f7d046,#c99a06)}.cl-pod.prata{background:linear-gradient(#e7edf2,#9aa5b1)}.cl-pod.bronze{background:linear-gradient(#e6a96b,#a8652a)}
+.cl-tab tbody tr{cursor:pointer}
+.cl-tab td.comp{text-align:left;color:var(--muted);font-weight:700}
+.cl-tab td.clube{font-weight:900}
+.cl-tab th:nth-child(3){text-align:left}
+.cl-tab th:nth-child(2),.cl-tab td:nth-child(2){width:70px;text-align:left}
+.cl-tab th:nth-child(3),.cl-tab td:nth-child(3){width:auto}
+.cl-conf{display:grid;grid-template-columns:220px 1fr 190px;align-items:center;gap:12px;padding:6px 0;border-top:1px solid var(--border)}
+.cl-conf .quem{display:flex;align-items:center;gap:8px;min-width:0;font-weight:800}
+.cl-conf .barra{display:flex;gap:2px;height:20px;border-radius:5px;overflow:hidden;min-width:6px}
+.cl-conf .barra i{display:block;height:100%}
+.cl-conf .num{text-align:right;font-size:13px;color:var(--muted)}
+.cl-conf .num b{font-size:17px;font-weight:900;color:var(--champ)}
+.cl-conf .num small{display:block;font-size:11.5px}
+.cl-conf .v,.cl-leg.v,.cl-res.v{background:var(--accent)}
+.cl-conf .e,.cl-leg.e,.cl-res.e{background:#8a9a90}
+.cl-conf .d,.cl-leg.d,.cl-res.d{background:#ef6b6b}
+.cl-leg{display:inline-block;width:14px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.cl-jogo{display:grid;grid-template-columns:110px 1fr 30px;align-items:center;gap:8px}
+.cl-jogo .rot{font-size:11.5px;font-weight:800;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.cl-res{font-style:normal;font-weight:900;font-size:12px;color:#06100b;border-radius:6px;height:26px;display:grid;place-items:center}
+@media (max-width:640px){.cl-conf{grid-template-columns:1fr auto}.cl-conf .barra{grid-column:1 / -1;grid-row:2}.cl-jogo{grid-template-columns:1fr 30px}.cl-jogo .rot{grid-column:1 / -1}}
+/* seletor próprio (lista no tema do painel) */
+.esc-oculto{display:none}
+.esc-box{position:relative;display:inline-flex;min-width:0;max-width:100%}
+.esc-btn{display:flex;align-items:center;gap:10px;font-family:inherit;font-size:14px;font-weight:800;cursor:pointer;border-radius:9px;padding:6px 12px;min-height:38px;min-width:240px;max-width:100%;text-align:left}
+.esc-txt{display:flex;align-items:center;gap:8px;flex:1;min-width:0}
+.esc-txt span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.esc-seta{font-style:normal;font-size:12px;opacity:.75;transition:transform .15s}
+.esc-box.aberto .esc-seta{transform:rotate(180deg)}
+.cp-escolha .esc-btn{color:var(--header-text);background:rgba(5,11,8,.7);border:1px solid #2e4d39}
+.cp-nav .esc-btn{color:var(--text);background:var(--panel);border:1px solid var(--border)}
+.esc-btn:hover,.esc-box.aberto .esc-btn{border-color:var(--accent)}
+.esc-painel{position:fixed;z-index:60;display:flex;flex-direction:column;gap:6px;padding:8px;background:var(--panel);border:1px solid var(--border);border-radius:12px;box-shadow:0 18px 44px rgba(0,0,0,.45)}
+.esc-painel[hidden]{display:none}
+.esc-busca{font-family:inherit;font-size:14px;font-weight:700;color:var(--text);background:var(--panel-2);border:1px solid var(--border);border-radius:8px;padding:8px 10px;outline:none}
+.esc-busca:focus{border-color:var(--accent)}
+.esc-lista{position:relative;overflow-y:auto;display:flex;flex-direction:column;gap:1px;scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.esc-grupo{font-size:10.5px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:10px 10px 4px}
+.esc-op{display:flex;align-items:center;gap:10px;flex:none;font-family:inherit;font-size:14px;font-weight:700;color:var(--text);background:transparent;border:0;border-radius:8px;padding:7px 10px;text-align:left;cursor:pointer}
+.esc-op:hover,.esc-op:focus-visible{background:color-mix(in srgb,var(--accent) 14%,transparent);outline:none}
+.esc-op.ativo{background:var(--accent);color:#06100b}
+.esc-op[hidden],.esc-grupo[hidden]{display:none}
+.esc-ico{width:22px;height:22px;object-fit:contain;flex:none;border-radius:50%;background:#eef4ee;padding:2px}
+/* estatísticas e curiosidades */
+.cu-cartoes{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-top:14px}
+.cu-card{display:flex;flex-direction:column;gap:8px;background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 16px;min-width:0}
+.cu-rot{font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.cu-card small{font-size:12.5px;color:var(--muted);line-height:1.4}
+.cu-card small b{color:var(--text)}
+.cu-esc{width:38px;height:38px;flex:none;border-radius:50%;background:#eef4ee;padding:5px;object-fit:contain;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+.cu-esc.p{width:26px;height:26px;padding:4px}
+span.cu-esc{display:inline-block}
+.cu-jogo,.cu-um{display:flex;align-items:center;gap:10px}
+.cu-jogo b,.cu-um b{font-size:28px;font-weight:900;color:var(--champ);font-variant-numeric:tabular-nums;white-space:nowrap}
+.cu-um span{font-size:13px;font-weight:700;color:var(--text);line-height:1.25}
+.cu-escudos{display:flex;flex-wrap:wrap;gap:6px}
+.cu-grade{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.cu-bloco{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:14px 16px;min-width:0}
+.cu-bloco.largo{grid-column:1 / -1}
+.cu-bloco h3{margin:0 0 10px;font-size:11px;font-weight:900;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+#cu-gols{width:100%;height:auto;display:block}
+.cu-barra-g{fill:var(--accent);opacity:.55}
+.cu-barra-g.max,.cu-barra-g.min{fill:var(--champ);opacity:1}
+.cu-barra-g:hover{opacity:1}
+.cu-media{stroke:var(--text);stroke-dasharray:4 4;opacity:.5}
+.cu-txt{fill:var(--text);font-size:12px;font-weight:800}
+.cu-mando{display:flex;height:40px;border-radius:8px;overflow:hidden;gap:2px}
+.cu-mando i{display:flex;align-items:center;justify-content:center;font-style:normal;font-weight:900;font-size:14px;color:#06100b}
+.cu-mando .m{background:var(--accent)}.cu-mando .e{background:color-mix(in srgb,var(--accent) 50%,transparent);color:var(--text)}.cu-mando .v{background:var(--champ)}
+.cu-mando-leg{display:flex;justify-content:space-between;margin-top:8px;font-size:12.5px;color:var(--muted)}
+.cu-placar{display:grid;grid-template-columns:28px repeat(6,1fr);gap:3px;font-variant-numeric:tabular-nums}
+.cu-placar span{font-size:11px;font-weight:800;color:var(--muted);display:flex;align-items:center;justify-content:center}
+.cu-placar i{font-style:normal;height:34px;border-radius:5px;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:12px;font-weight:900;color:var(--text);
+  background:color-mix(in srgb,var(--accent) var(--a),transparent);box-shadow:inset 0 0 0 1px var(--border)}
+.cu-placar i small{font-size:10px;font-weight:700;color:var(--text);opacity:.7}
+.cu-placar i.top{box-shadow:inset 0 0 0 2px var(--champ)}
+.cu-uf{display:grid;grid-template-columns:44px 1fr auto;align-items:center;gap:10px;padding:5px 0;border-top:1px solid var(--border)}
+.cu-uf:first-of-type{border-top:0}
+.cu-uf b{font-weight:900;color:var(--text)}
+.cu-uf .trilho-uf{height:22px;border-radius:5px;background:var(--accent);min-width:4px}
+.cu-uf .n{font-weight:900;font-size:17px;color:var(--champ);text-align:right}
+.cu-uf .meio{display:flex;align-items:center;gap:8px;min-width:0}
+.cu-uf .esc{display:flex;gap:4px;flex-wrap:wrap}
+.cu-par{display:flex;align-items:center;gap:6px;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+.cu-par b{color:var(--text)}
+.cu-um span small{display:block;font-size:11.5px;font-weight:600;color:var(--muted)}
+@media (max-width:760px){.cu-grade{grid-template-columns:1fr}}
+.grafico-corrida.alto{max-height:none}   /* todos os clubes: o gráfico cresce e a página rola */
+.corrida-ctl .alterna{flex:none}
+.corrida-ctl .alterna button{min-width:0;color:var(--muted);background:transparent;padding:7px 14px}
+.corrida-ctl .alterna button.ativo{color:#06100b;background:var(--accent)}
+.jv-corrida .corrida-ctl{position:sticky;top:0;z-index:3;background:var(--panel);padding:8px 0}   /* com todos os clubes, os controles acompanham a rolagem */
+.cr-med{transition:opacity .15s}
+.cr-med circle{stroke:#06100b;stroke-width:1.5}
+.cr-med .ouro{fill:#f5c518}.cr-med .prata{fill:#c9d1d9}.cr-med .bronze{fill:#cd7f32}
+.med{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:-1px;box-shadow:0 0 0 1px rgba(0,0,0,.45)}
+.med.ouro{background:#f5c518}.med.prata{background:#c9d1d9}.med.bronze{background:#cd7f32}
+.pt-faixa i{position:relative}
+.pt-faixa i.m-ouro::after,.pt-faixa i.m-prata::after,.pt-faixa i.m-bronze::after{content:'';position:absolute;left:50%;top:50%;width:6px;height:6px;margin:-3px 0 0 -3px;border-radius:50%;box-shadow:0 0 0 1.5px rgba(0,0,0,.55)}
+.pt-faixa i.m-ouro::after{background:#f5c518}.pt-faixa i.m-prata::after{background:#c9d1d9}.pt-faixa i.m-bronze::after{background:#cd7f32}
+/* jogos e vitórias: trilho do tamanho dos jogos (cor clara) preenchido pelas vitórias (cor cheia) */
+.jv-linha{display:grid;grid-template-columns:190px 1fr 230px;align-items:center;gap:12px;padding:6px 0;border-top:1px solid var(--border)}
+.jv-linha:first-child{border-top:0}
+.jv-linha .clube .escudo{width:32px;height:32px;padding:5px}
+.jv-area{height:24px}
+.jv-jogos{display:flex;gap:2px;height:100%;border-radius:6px;overflow:hidden;transform-origin:left;animation:cresce .6s ease-out both}
+.jv-jogos i{height:100%;box-shadow:inset 0 -3px 0 rgba(0,0,0,.18)}
+.jv-jogos .v{background:var(--c)}
+.jv-jogos .e{background:color-mix(in srgb,var(--c) 52%,transparent)}
+.jv-jogos .d{background:color-mix(in srgb,var(--c) 22%,transparent);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--c) 40%,transparent)}
+.jv-num{text-align:right;line-height:1.15;font-variant-numeric:tabular-nums}
+.jv-num b{font-size:18px;font-weight:900;color:var(--champ)}
+.jv-num span{font-size:13px;font-weight:700;color:var(--muted)}
+.jv-num small{display:block;font-size:11.5px;font-weight:700;color:var(--muted)}
+.legenda-jv{display:inline-flex;align-items:center;gap:6px;margin-right:14px}
+.legenda-jv i{display:inline-block;width:22px;height:12px;border-radius:3px;background:var(--muted)}
+.legenda-jv i.meio{background:color-mix(in srgb,var(--muted) 52%,transparent)}
+.legenda-jv i.claro{background:color-mix(in srgb,var(--muted) 22%,transparent);box-shadow:inset 0 0 0 1px var(--muted)}
+@media (max-width:640px){.jv-linha{grid-template-columns:1fr auto;gap:6px 10px}.jv-area{grid-column:1 / -1;grid-row:2}}
+@keyframes cresce{from{transform:scaleX(0)}to{transform:none}}
+@media (prefers-reduced-motion:reduce){.jv-jogos{animation:none}}
+@keyframes entra{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.bloco{animation:none}}
+/* dica ao passar o mouse */
+#dica{position:fixed;z-index:9;pointer-events:none;background:#050b08;color:#f1f7f1;border:1px solid #2e4d39;border-radius:8px;padding:7px 10px;font-size:12.5px;
+  box-shadow:0 8px 22px rgba(0,0,0,.35);max-width:280px}
+#dica b{color:#fbbf24}
+@media (max-width:640px){
+  .topo{padding:20px 16px 18px} .topo h1{font-size:21px} .tema{right:12px;top:12px}
+  main{padding:16px 12px 60px} .painel{padding:16px 12px}
+  .linha{grid-template-columns:1fr auto;gap:6px 10px} .trilhos{grid-column:1 / -1;grid-row:2} .total{font-size:19px} .total.v{font-size:16px} .total.r{font-size:15px} .totais{gap:10px}
+  .bloco{width:42px}
+  #corrida,.grafico-corrida{min-width:760px}   /* no celular o gráfico rola de lado em vez de encolher */
+  .pt-tabela{min-width:900px}
+}
+</style></head><body><nav class="lateral" aria-label="Seções"><div class="marca">⚽<span>Clube Analítico<small data-t="marca"></small></span></div><div class="comp-escolha"><select id="comp-sel" aria-label="Competição"></select></div><button class="nav ativo" data-aba="historia" type="button"><span class="ico">🏆</span>História</button><div class="subnav-lat" data-de="historia"><button class="sub ativo" data-aba="historia" data-sub="corrida" type="button">Corrida dos títulos</button><button class="sub" data-aba="historia" data-sub="podio" type="button">Pódio</button><button class="sub" data-aba="historia" data-sub="participacoes" type="button">Participações</button><button class="sub" data-aba="historia" data-sub="jogos" type="button">Jogos e vitórias</button><button class="sub" data-aba="historia" data-sub="gols" type="button">Gols</button><button class="sub" data-aba="historia" data-sub="pontos" type="button">Pontuação histórica</button><button class="sub" data-aba="historia" data-sub="curiosidades" type="button">Estatísticas e curiosidades</button></div><button class="nav" data-aba="campeonato" type="button"><span class="ico">📅</span>Por campeonato</button><div class="subnav-lat" data-de="campeonato" hidden><button class="sub" data-aba="campeonato" data-sub="resumo" type="button">Resumo</button><button class="sub" data-aba="campeonato" data-sub="classificacao" type="button">Classificação</button><button class="sub" data-aba="campeonato" data-sub="participantes" type="button">Participantes</button><button class="sub" data-aba="campeonato" data-sub="corrida" type="button">Corrida</button><button class="sub" data-aba="campeonato" data-sub="jogos" type="button">Jogos</button><button class="sub" data-aba="campeonato" data-sub="artilharia" type="button">Artilharia</button></div><button class="nav" data-aba="clube" type="button"><span class="ico">🛡️</span>Por clube</button><div class="subnav-lat" data-de="clube" hidden><button class="sub" data-aba="clube" data-sub="resumo" type="button">Resumo</button><button class="sub" data-aba="clube" data-sub="campanhas" type="button">Campanhas</button><button class="sub" data-aba="clube" data-sub="confrontos" type="button">Confrontos</button><button class="sub" data-aba="clube" data-sub="jogos" type="button">Jogos</button><button class="sub" data-aba="clube" data-sub="artilharia" type="button">Artilharia</button></div><button class="tema" type="button">☀ Claro</button></nav><div class="area"><div class="aba" id="aba-historia"><header class="topo"><span class="selo" data-t="selo"></span><h1 data-t="h1"></h1><div data-t="cartoes"></div></header><main><section class="painel" data-sub="corrida"><div class="cab-bloco"><h2 class="titulo-bloco" id="cr-titulo">Corrida dos títulos</h2><div class="alterna" id="cr-tipo" role="group" aria-label="Corrida de"><button type="button" data-tipo="campeao" class="ativo">Títulos</button><button type="button" data-tipo="vice">Vices</button><button type="button" data-tipo="terceiro">Terceiros</button></div></div><div class="corrida-ctl" style="margin-top:14px"><button id="cr-play" type="button">▶ Ver a corrida</button><input id="cr-ano" type="range" min="0" step="0.01" aria-label="Ano"><output id="cr-saida"></output></div><div class="corrida-rolar"><svg id="corrida" role="img"></svg></div></section><section class="painel" data-sub="podio" hidden><h2 class="titulo-bloco">Pódio por clube</h2><div id="grafico"></div></section><section class="painel" data-sub="participacoes" hidden><div class="cab-bloco"><h2 class="titulo-bloco">Participações</h2><div class="alterna" id="pt-vista" role="group" aria-label="Ver em"><button type="button" data-vista="quadro" class="ativo">Quadro</button><button type="button" data-vista="corrida">Corrida</button></div></div><div id="pt-quadro"><div class="pt-legenda" style="margin-top:8px"><span><i></i>jogou a edição</span><span><i class="vazio"></i>não jogou</span><span><b class="med ouro"></b>campeão</span><span><b class="med prata"></b>vice</span><span><b class="med bronze"></b>3º lugar</span><span data-t="pt-info"></span></div><div id="participacoes"></div></div><div id="pt-corrida" class="jv-corrida" hidden><div class="pt-legenda" style="margin:8px 0 0"><span><b class="med ouro"></b>campeão</span><span><b class="med prata"></b>vice</span><span><b class="med bronze"></b>3º lugar</span></div><div class="corrida-ctl" style="margin-top:14px"><button id="ptc-play" type="button">▶ Ver a corrida</button><input id="ptc-ano" type="range" min="0" step="0.01" aria-label="Ano"><output id="ptc-saida"></output><div class="alterna" id="ptc-quantos" role="group" aria-label="Clubes"><button type="button" data-q="top" class="ativo">Top 20</button><button type="button" data-q="todos">Todos</button></div></div><div class="corrida-rolar"><svg id="ptc" class="grafico-corrida" role="img" aria-label="Corrida das participações"></svg></div></div></section><section class="painel" data-sub="jogos" hidden><div class="cab-bloco"><h2 class="titulo-bloco">Jogos e vitórias</h2><div class="botoes"><div class="alterna" id="jv-vista" role="group" aria-label="Ver em"><button type="button" data-vista="barras" class="ativo">Barras</button><button type="button" data-vista="corrida">Corrida</button></div><div class="alterna" id="jv-ordem" role="group" aria-label="Ordenar por"><button type="button" data-modo="vitorias" class="ativo">Vitórias</button><button type="button" data-modo="jogos">Jogos</button><button type="button" data-modo="pct">%</button></div></div></div><div id="jv-barras"><div class="pt-legenda" style="margin-top:8px"><span><span class="legenda-jv"><i></i>vitórias</span><span class="legenda-jv"><i class="meio"></i>empates</span><span class="legenda-jv"><i class="claro"></i>derrotas</span><span data-t="jv-info"></span><span id="jv-nota"></span> · passe o mouse para ver os detalhes</span></div><div id="jogos-vitorias"></div></div><div id="jv-corrida" class="jv-corrida" hidden><div class="corrida-ctl" style="margin-top:14px"><button id="jvc-play" type="button">▶ Ver a corrida</button><input id="jvc-ano" type="range" min="0" step="0.01" aria-label="Ano"><output id="jvc-saida"></output><div class="alterna" id="jvc-quantos" role="group" aria-label="Clubes"><button type="button" data-q="top" class="ativo">Top 20</button><button type="button" data-q="todos">Todos</button></div></div><div class="corrida-rolar"><svg id="jvc" class="grafico-corrida" role="img" aria-label="Corrida de jogos e vitórias"></svg></div></div></section><section class="painel" data-sub="gols" hidden><div class="cab-bloco"><h2 class="titulo-bloco">Gols</h2><div class="botoes"><div class="alterna" id="gl-vista" role="group" aria-label="Ver em"><button type="button" data-vista="barras" class="ativo">Barras</button><button type="button" data-vista="corrida">Corrida</button></div><div class="alterna" id="gl-ordem" role="group" aria-label="Ordenar por"><button type="button" data-modo="feitos" class="ativo">Feitos</button><button type="button" data-modo="tomados">Tomados</button><button type="button" data-modo="saldo">Saldo</button><button type="button" data-modo="media">Por jogo</button></div></div></div><div id="gl-barras"><div class="pt-legenda" style="margin-top:8px"><span><span class="legenda-jv"><i></i>gols feitos</span><span class="legenda-jv"><i class="claro"></i>gols tomados</span><span data-t="gl-info"></span><span id="gl-nota"></span> · passe o mouse para ver os detalhes</span></div><div id="gols"></div></div><div id="gl-corrida" class="jv-corrida" hidden><div class="corrida-ctl" style="margin-top:14px"><button id="glc-play" type="button">▶ Ver a corrida</button><input id="glc-ano" type="range" min="0" step="0.01" aria-label="Ano"><output id="glc-saida"></output><div class="alterna" id="glc-quantos" role="group" aria-label="Clubes"><button type="button" data-q="top" class="ativo">Top 20</button><button type="button" data-q="todos">Todos</button></div></div><div class="corrida-rolar"><svg id="glc" class="grafico-corrida" role="img" aria-label="Corrida dos gols"></svg></div></div></section><section class="painel" data-sub="pontos" hidden><div class="cab-bloco"><h2 class="titulo-bloco">Pontuação histórica</h2><div class="botoes"><div class="alterna" id="pn-vista" role="group" aria-label="Ver em"><button type="button" data-vista="barras" class="ativo">Barras</button><button type="button" data-vista="corrida">Corrida</button></div><div class="alterna" id="pn-ordem" role="group" aria-label="Ordenar por"><button type="button" data-modo="pontos" class="ativo">Pontos</button><button type="button" data-modo="aprov">Aproveitamento</button></div></div></div><div id="pn-barras"><div class="pt-legenda" style="margin-top:8px"><span><span class="legenda-jv"><i></i>pontos das vitórias (3)</span><span class="legenda-jv"><i class="meio"></i>pontos dos empates (1)</span><span class="legenda-jv"><i class="claro"></i>pontos perdidos</span>barra do tamanho dos pontos possíveis (3 por jogo)<span id="pn-nota"></span> · passe o mouse para ver os detalhes</span></div><div id="pontos"></div></div><div id="pn-corrida" class="jv-corrida" hidden><div class="corrida-ctl" style="margin-top:14px"><button id="pnc-play" type="button">▶ Ver a corrida</button><input id="pnc-ano" type="range" min="0" step="0.01" aria-label="Ano"><output id="pnc-saida"></output><div class="alterna" id="pnc-quantos" role="group" aria-label="Clubes"><button type="button" data-q="top" class="ativo">Top 20</button><button type="button" data-q="todos">Todos</button></div></div><div class="corrida-rolar"><svg id="pnc" class="grafico-corrida" role="img" aria-label="Corrida da pontuação histórica"></svg></div></div></section><section class="painel" data-sub="curiosidades" hidden><div class="cab-bloco"><h2 class="titulo-bloco">Estatísticas e curiosidades</h2><div class="alterna" id="cu-parte" role="group" aria-label="Parte"><button type="button" data-parte="jogos" class="ativo">Jogos</button><button type="button" data-parte="clubes">Clubes</button><button type="button" data-parte="campeoes">Campeões</button><button type="button" data-parte="edicoes">Edições</button></div></div><div id="curiosidades"></div></section></main></div><div class="aba" id="aba-campeonato" hidden><header class="topo"><span class="selo">Por campeonato</span><div class="cp-escolha"><button type="button" class="cp-seta" id="cp-ant" aria-label="Edição anterior">◀</button><select id="cp-sel" aria-label="Edição"></select><button type="button" class="cp-seta" id="cp-prox" aria-label="Próxima edição">▶</button></div><h1 id="cp-titulo"></h1><div class="cartoes-topo" id="cp-cartoes"></div></header><main><section class="painel" data-sub="resumo"><h2 class="titulo-bloco">Pódio</h2><p class="cp-nota" id="cp-nota" hidden></p><div id="cp-podio"></div></section><section class="painel" data-sub="resumo"><h2 class="titulo-bloco">Destaques</h2><div id="cp-destaques"></div></section><section class="painel" data-sub="resumo"><h2 class="titulo-bloco">Como foi a disputa</h2><div id="cp-disputa"></div></section><section class="painel" data-sub="classificacao" hidden><h2 class="titulo-bloco">Classificação final</h2><div id="cp-tabela"></div></section><section class="painel" data-sub="participantes" hidden><h2 class="titulo-bloco">Participantes</h2><div id="cpp-cartoes"></div><div id="cpp-tabela"></div></section><section class="painel" data-sub="corrida" hidden><h2 class="titulo-bloco">Corrida rodada a rodada</h2><p class="cp-nota" id="cpc-sem" data-t="cpc-sem" hidden></p><div id="cpc-bloco" class="jv-corrida"><div class="pt-legenda cp-legenda-faixa" style="margin:10px 0 0" data-t="cpc-legenda"></div><div class="corrida-ctl" style="margin-top:14px"><button id="cpc-play" type="button">▶ Ver a corrida</button><input id="cpc-ano" type="range" min="0" step="0.01" aria-label="Ano"><output id="cpc-saida"></output><div class="alterna" id="cpc-quantos" role="group" aria-label="Clubes"><button type="button" data-q="top" class="ativo">Top 20</button><button type="button" data-q="todos">Todos</button></div></div><div class="corrida-rolar"><svg id="cpc" class="grafico-corrida" role="img" aria-label="Posição de cada clube rodada a rodada"></svg></div></div></section><section class="painel" data-sub="jogos" hidden><h2 class="titulo-bloco">Jogos</h2><div class="cp-nav"><button type="button" class="cp-seta" id="cpj-ant" aria-label="Anterior">◀</button><select id="cpj-sel" aria-label="Rodada ou fase"></select><button type="button" class="cp-seta" id="cpj-prox" aria-label="Próxima">▶</button></div><div id="cpj-lista"></div></section><section class="painel" data-sub="artilharia" hidden><h2 class="titulo-bloco">Artilharia</h2><p class="cp-nota" id="cpa-sem" data-t="cpa-sem" hidden></p><div id="cpa-lista" style="margin-top:12px"></div></section></main></div><div class="aba" id="aba-clube" hidden><header class="topo"><span class="selo">Por clube</span><div class="cp-escolha"><button type="button" class="cp-seta" id="cl-ant" aria-label="Clube anterior">◀</button><select id="cl-sel" aria-label="Clube"></select><button type="button" class="cp-seta" id="cl-prox" aria-label="Próximo clube">▶</button></div><div class="cl-nome"><span id="cl-escudo"></span><h1 id="cl-titulo"></h1></div><div class="cartoes-topo" id="cl-cartoes"></div></header><main><section class="painel" data-sub="resumo"><h2 class="titulo-bloco">Trajetória</h2><div id="cl-traj"></div><div id="cl-podios"></div></section><section class="painel" data-sub="resumo"><h2 class="titulo-bloco">Destaques</h2><div id="cl-destaques"></div></section><section class="painel" data-sub="campanhas" hidden><h2 class="titulo-bloco">Campanhas</h2><div id="cl-campanhas"></div></section><section class="painel" data-sub="confrontos" hidden><h2 class="titulo-bloco">Confrontos</h2><div id="cl-confrontos"></div></section><section class="painel" data-sub="jogos" hidden><h2 class="titulo-bloco">Jogos</h2><div class="cp-nav"><button type="button" class="cp-seta" id="clj-ant" aria-label="Edição anterior">◀</button><select id="clj-sel" aria-label="Edição"></select><button type="button" class="cp-seta" id="clj-prox" aria-label="Próxima edição">▶</button></div><div id="clj-lista"></div></section><section class="painel" data-sub="artilharia" hidden><h2 class="titulo-bloco">Artilharia</h2><p class="cp-nota" id="cla-sem" data-t="cla-sem" hidden></p><div id="cla-lista" style="margin-top:12px"></div></section></main></div></div><div id="dica" hidden></div><script>const CORES = {"15 de Novembro": ["#109050", "#f0d010"], "4 de Julho": ["#d01030", "#f0f0f0"], "7 de Setembro-MS": ["#111111", "#f5f5f5"], "AA Araguaia": ["#303090", "#f0f0f0"], "ABC": ["#111111", "#f5f5f5"], "ADESG": ["#f0f010", "#f0f0f0"], "ASA": ["#111111", "#f5f5f5"], "ASSU": ["#107030", "#f0f0f0"], "Abaeté": ["#f01010", "#f0f0f0"], "Afogados da Ingazeira": ["#303070", "#f0f0f0"], "Aimoré": ["#105090", "#f0f0f0"], "Alecrim": ["#111111", "#f5f5f5"], "Alegrense": ["#d03030", "#501070"], "Aliança": ["#f0f030", "#303030"], "Altos": ["#109050", "#f0f0f0"], "Alvorada-TO": ["#111111", "#f5f5f5"], "Amadense": ["#f5f5f5", "#111111"], "Amapá": ["#111111", "#f5f5f5"], "Amazonas": ["#111111", "#f5f5f5"], "Americana": ["#305090", "#f0f0f0"], "Americano-RJ": ["#f5f5f5", "#111111"], "América-AM": ["#d03030", "#f0f0f0"], "América-CE": ["#f01010", "#f0f0f0"], "América-PB": ["#70b090", "#f0f0f0"], "América-PE": ["#307030", "#f0f0f0"], "América-RN": ["#f01010", "#f0f0f0"], "América-SC": ["#d03010", "#f0f0f0"], "América-SE": ["#109010", "#f0f0f0"], "América-SP": ["#f01030", "#f0f0f0"], "Ananindeua": ["#3090d0", "#f0f0f0"], "Anapolina": ["#f01010", "#f0d0d0"], "Andirá-AC": ["#111111", "#f5f5f5"], "Anápolis": ["#111111", "#f5f5f5"], "Aparecidense": ["#f0d030", "#505050"], "Aquidauanense": ["#103090", "#f0f0f0"], "Aracruz": ["#111111", "#f5f5f5"], "Araguaia": ["#107030", "#f0f0f0"], "Araguaína": ["#1090d0", "#f0f0f0"], "Arapongas": ["#109050", "#f0f0f0"], "Araxá": ["#111111", "#f5f5f5"], "Araçatuba": ["#f0d010", "#105090"], "Ariquemes": ["#10b010", "#f0f0f0"], "At. Itapemirim": ["#111111", "#f5f5f5"], "Athletic Club": ["#111111", "#f5f5f5"], "Atl. Três Corações": ["#f07070", "#f0f0f0"], "Atlético Cearense": ["#111111", "#f5f5f5"], "Atlético Pernambucano": ["#1090d0", "#f0f0f0"], "Atlético Roraima": ["#901030", "#f0f0f0"], "Atlético Sorocaba": ["#f01030", "#f0f010"], "Atlético Tubarão": ["#1050d0", "#f0f0f0"], "Atlético-AC": ["#101070", "#f0f0f0"], "Atlético-BA": ["#111111", "#f5f5f5"], "Atlético-GO": ["#111111", "#f5f5f5"], "Atlético-PB": ["#301070", "#f0f0f0"], "Audax Rio": ["#103070", "#f09010"], "Auto Esporte": ["#d01010", "#f0f0f0"], "Auto Esporte-PI": ["#105010", "#f0f0f0"], "Avaí": ["#107090", "#f0f0f0"], "Avenida": ["#10b050", "#f0f0f0"], "Azuriz Futebol": ["#f0b070", "#5070b0"], "Ação": ["#f5f5f5", "#111111"], "Bacabal": ["#303090", "#f0f0f0"], "Bahia de Feira": ["#f03030", "#f0f0f0"], "Bandeirante-DF": ["#f0f010", "#f0f0f0"], "Baraúnas": ["#10b050", "#f0f0f0"], "Barbalha": ["#103070", "#901010"], "Barcelona de Ilhéus": ["#d01010", "#f0f0f0"], "Barcelona-RO": ["#f5f5f5", "#111111"], "Barra FC": ["#f5f5f5", "#111111"], "Barra Mansa": ["#101070", "#f0f0f0"], "Barra do Garças": ["#101090", "#f0f010"], "Barra-SC": ["#103090", "#f0f0f0"], "Barras": ["#d03010", "#f0f0f0"], "Barueri": ["#f0f050", "#f0f0f0"], "Baré": ["#d03030", "#f0f0f0"], "Batalhense": ["#305090", "#f0f0f0"], "Batel": ["#111111", "#f5f5f5"], "Bayer": ["#1090d0", "#f0f0f0"], "Belo Jardim": ["#109050", "#f0f0f0"], "Blumenau": ["#701010", "#107030"], "Boa Esporte": ["#f03030", "#109050"], "Boavista-RJ": ["#509010", "#f0f0f0"], "Bonsucesso": ["#1010b0", "#901030"], "Botafogo-BA": ["#b01010", "#f5f5f5"], "Botafogo-DF": ["#111111", "#f5f5f5"], "Botafogo-PB": ["#111111", "#f5f5f5"], "Botafogo-SP": ["#111111", "#f5f5f5"], "Bragantino-PA": ["#101070", "#f0f0f0"], "Brasiliense": ["#f0d010", "#f0f0f0"], "Brasília EC": ["#d03030", "#f0f0f0"], "Brusque": ["#f0f010", "#f03030"], "CA Patrocinense": ["#501010", "#f0f0f0"], "CA Votuporanguense": ["#111111", "#f5f5f5"], "CENE": ["#111111", "#f5f5f5"], "CEOV Operário": ["#107030", "#d01010"], "CEUB": ["#f0f010", "#1070b0"], "CFA": ["#1010d0", "#f0f0f0"], "CFZ-RJ": ["#105090", "#f0f0f0"], "CRAC": ["#1090d0", "#f0f0f0"], "CRB": ["#d03030", "#f0f0f0"], "CSE": ["#d03010", "#f0f0f0"], "CTE Colatina": ["#1030b0", "#f0d010"], "Cabofriense": ["#309030", "#f0f0f0"], "Cacerense": ["#1090f0", "#1010b0"], "Cachoeiro": ["#f01010", "#f0f0f0"], "Caiçara": ["#f07070", "#f0f0f0"], "Caldas": ["#30b0d0", "#f0f0f0"], "Caldense": ["#107050", "#f0f0f0"], "Calouros do Ar": ["#f05050", "#f0f0f0"], "Camaçari": ["#303070", "#f0f0f0"], "Camboriú": ["#903030", "#d05030"], "Cametá": ["#101070", "#f0f0f0"], "Campinense": ["#f01010", "#f0f0f0"], "Campo Grande-RJ": ["#111111", "#f5f5f5"], "Candango EC": ["#111111", "#f5f5f5"], "Canoas": ["#705010", "#f0f0f0"], "Capelense-AL": ["#d03010", "#f0f0f0"], "Capital CF": ["#50b0d0", "#101010"], "Capital FC": ["#111111", "#f5f5f5"], "Capivariano": ["#f01010", "#f0f0f0"], "Cascavel": ["#111111", "#f5f5f5"], "Castanhal": ["#f0d010", "#101010"], "Catanduvense": ["#103050", "#f0f0f0"], "Catuense": ["#f0b010", "#101010"], "Caucaia": ["#f01010", "#101010"], "Caxias": ["#901050", "#1070b0"], "Caxias-SC": ["#111111", "#f5f5f5"], "Caxiense": ["#111111", "#f5f5f5"], "Caçadorense": ["#111111", "#f5f5f5"], "Ceilandense": ["#90b0d0", "#f0f0f0"], "Ceilândia": ["#111111", "#f5f5f5"], "Central": ["#111111", "#f5f5f5"], "Centro Limoeirense": ["#d01010", "#f0f0f0"], "Cerâmica": ["#111111", "#f5f5f5"], "Chapadinha": ["#103070", "#f0f0f0"], "Chapecoense": ["#50b070", "#109030"], "Cianorte": ["#101050", "#9090b0"], "Colatina": ["#f5f5f5", "#111111"], "Colinas": ["#f07070", "#f0f0f0"], "Colo Colo-BA": ["#1050b0", "#f0f0f0"], "Colorado-PR": ["#f01010", "#f0f0f0"], "Comercial-MS": ["#d03030", "#f0f0f0"], "Comercial-PI": ["#1050b0", "#f0f0f0"], "Comercial-PR": ["#70d0f0", "#f0f0f0"], "Comercial-RP": ["#111111", "#f5f5f5"], "Concórdia": ["#105030", "#509070"], "Confiança": ["#1050b0", "#f0f0f0"], "Cordino": ["#f0f010", "#f0f0f0"], "Corinthians Prudente": ["#f01010", "#f0f0f0"], "Corinthians-AL": ["#f01010", "#f0f0f0"], "Corisabbá": ["#111111", "#f5f5f5"], "Coroatá": ["#f01010", "#f0f0f0"], "Corumbaense": ["#111111", "#f5f5f5"], "Coruripe": ["#107010", "#f0f0f0"], "Coríntians-RN": ["#f01010", "#f0f0f0"], "Costa Rica EC": ["#f0f010", "#f0f0f0"], "Coxim": ["#d01010", "#3070b0"], "Crato": ["#3030b0", "#b0b0d0"], "Criciúma": ["#f0d010", "#101010"], "Cristal": ["#f01030", "#f0f0f0"], "Cruzeiro do Sul-DF": ["#1050d0", "#7090d0"], "Cruzeiro-AL": ["#1070b0", "#f0f0f0"], "Cruzeiro-RS": ["#101070", "#f0f0f0"], "Cuiabá": ["#107030", "#f0d010"], "Defelê-DF": ["#f01010", "#f0f0f0"], "Democrata-GV": ["#111111", "#f5f5f5"], "Democrata-SL": ["#b01010", "#f0f0f0"], "Desportiva Guarabira": ["#301090", "#f0f0f0"], "Desportiva-ES": ["#1030b0", "#9090d0"], "Dom Bosco-MT": ["#1090d0", "#f0f0f0"], "Dom Pedro": ["#f09090", "#f0f0f0"], "Douradense": ["#f0f010", "#f0f0f0"], "Dourados AC": ["#1010f0", "#f0f0f0"], "Duque de Caxias": ["#3050b0", "#f09030"], "Duque de Caxias-MA": ["#f0f010", "#f0f0f0"], "EC São Gabriel": ["#f0f010", "#f0f0f0"], "EC Água Santa": ["#103050", "#f0f0f0"], "Eletrovapo-RJ": ["#1070b0", "#f0f0f0"], "Engenheiro Beltrão": ["#111111", "#f5f5f5"], "Espigão": ["#b0d0f0", "#f0f0f0"], "Esportivo-MG": ["#111111", "#f5f5f5"], "Esportivo-RS": ["#105090", "#f0f0f0"], "Estanciano": ["#d0d010", "#109030"], "Estrela do Mar-PB": ["#b03030", "#f0f0f0"], "Estrela do Norte": ["#111111", "#f5f5f5"], "Estudantes": ["#105090", "#f0f0f0"], "FC Cascavel": ["#f0f010", "#101010"], "Fabril": ["#111111", "#f5f5f5"], "Falcon FC": ["#301070", "#f0b070"], "Fast-AM": ["#305090", "#f0f0f0"], "Feirense": ["#109050", "#f07030"], "Ferroviária-SP": ["#501010", "#f0f0f0"], "Ferroviário-CE": ["#111111", "#f5f5f5"], "Ferroviário-MA": ["#f5f5f5", "#111111"], "Ferroviário-PR": ["#111111", "#f5f5f5"], "Flamengo-PE": ["#f03030", "#101010"], "Flamengo-PI": ["#f01010", "#101010"], "Floresta-CE": ["#70f030", "#107030"], "Fluminense-BA": ["#903030", "#105030"], "Fluminense-PI": ["#903030", "#f0f0f0"], "Fonseca-RJ": ["#111111", "#f5f5f5"], "Formosa": ["#f5f5f5", "#111111"], "Foz do Iguaçu": ["#305090", "#f0f0f0"], "Francana": ["#109050", "#f0f0f0"], "Frei Paulistano": ["#f0b010", "#101030"], "Friburguense": ["#111111", "#f5f5f5"], "GAS": ["#f01010", "#f0b010"], "GE Maringá": ["#111111", "#f5f5f5"], "GE Novorizontino": ["#111111", "#f5f5f5"], "Galo Maringá": ["#f5f5f5", "#111111"], "Galvez EC": ["#f0f010", "#107050"], "Galícia": ["#103090", "#f0f0f0"], "Gama": ["#107050", "#90b0b0"], "Gazin Porto Velho EC": ["#103050", "#f09090"], "Gaúcho": ["#107050", "#f0f0f0"], "Genus": ["#901010", "#b07030"], "Globo FC": ["#111111", "#f5f5f5"], "Glória": ["#10b0f0", "#f0f0f0"], "Goianésia": ["#f5f5f5", "#111111"], "Goiatuba": ["#f5f5f5", "#111111"], "Goiatuba EC": ["#f5f5f5", "#111111"], "Goiânia": ["#111111", "#f5f5f5"], "Goytacaz": ["#1070b0", "#f0f0f0"], "Grêmio Anápolis": ["#103050", "#d09030"], "Grêmio Coariense": ["#111111", "#f5f5f5"], "Grêmio Jaciara": ["#111111", "#f5f5f5"], "Grêmio Maringá": ["#111111", "#f5f5f5"], "Guajará": ["#d03010", "#f0f0f0"], "Guanabara-DF": ["#d03010", "#101010"], "Guarani V. Aires": ["#111111", "#f5f5f5"], "Guarani de Juazeiro": ["#111111", "#f5f5f5"], "Guarani-MG": ["#d01010", "#f0f0f0"], "Guarani-SC": ["#101090", "#5050b0"], "Guarany": ["#f5f5f5", "#111111"], "Guarany de Bagé": ["#f01010", "#f0f0f0"], "Guarany-RS": ["#f5f5f5", "#111111"], "Guarapari": ["#111111", "#f5f5f5"], "Guaratinguetá": ["#305090", "#f0f0f0"], "Guará": ["#111111", "#f5f5f5"], "Gurupi": ["#f0f010", "#f0f0f0"], "Hercílio Luz": ["#b01010", "#f0f0f0"], "Hermann Aichinger": ["#b03030", "#f0f0f0"], "Holanda-AM": ["#d05010", "#f0d0d0"], "Horizonte": ["#101070", "#f0f010"], "IAPE": ["#f0f010", "#303090"], "Ibiraçu": ["#10d050", "#f0f0f0"], "Icasa": ["#105010", "#f0f0f0"], "Iguatu": ["#1010d0", "#f0f0f0"], "Iguaçu": ["#f0d010", "#f0f0f0"], "Imperatriz": ["#b01010", "#f0f0f0"], "Independente Tucuruí": ["#101050", "#9090b0"], "Independente-AP": ["#105030", "#f0f0f0"], "Independência": ["#b03030", "#f0f0f0"], "Inter de Limeira": ["#111111", "#f5f5f5"], "Inter de Santa Maria": ["#901010", "#f0f0f0"], "Internacional-SC": ["#f03030", "#f5f5f5"], "Interporto": ["#f5f5f5", "#111111"], "Ipatinga": ["#f03030", "#f0f0f0"], "Ipitanga": ["#111111", "#f5f5f5"], "Iporá": ["#1090d0", "#f0f010"], "Iraty": ["#111111", "#f5f5f5"], "Itabaiana": ["#f01010", "#f0f0f0"], "Itabirito FC": ["#111111", "#f5f5f5"], "Itaboraí": ["#1070b0", "#f0f0f0"], "Itabuna-BA": ["#101090", "#f0f0f0"], "Itacuruba": ["#111111", "#f5f5f5"], "Itaperuna": ["#111111", "#f5f5f5"], "Itapipoca": ["#103090", "#f0f0f0"], "Itaporã": ["#111111", "#f5f5f5"], "Ituano": ["#111111", "#f5f5f5"], "Ituiutabana": ["#f05010", "#f0f0f0"], "Itumbiara": ["#105090", "#d01030"], "Ivinhema": ["#1090d0", "#d0d0d0"], "Izabelense": ["#f01010", "#f0f0f0"], "J.Malucelli": ["#f5f5f5", "#111111"], "JV Lideral": ["#d01010", "#f0f010"], "Jaciobá": ["#105090", "#f0f0f0"], "Jacobina": ["#f0d010", "#f0f0f0"], "Jacuipense": ["#701010", "#f0f0f0"], "Jaguaré": ["#d07070", "#f0f0f0"], "Jaraguá": ["#111111", "#f5f5f5"], "Jaruense": ["#903030", "#f0f0f0"], "Jataiense": ["#105010", "#f0f0f0"], "Jequié": ["#101070", "#f0f0f0"], "Ji-Paraná": ["#3070b0", "#f0f0f0"], "Joaçaba": ["#111111", "#f5f5f5"], "Joinville": ["#111111", "#f5f5f5"], "Juazeirense": ["#f03030", "#f0b030"], "Juazeiro": ["#111111", "#f5f5f5"], "Juventude-MA": ["#d01030", "#f0f0f0"], "Juventude-MT": ["#f01010", "#f0f0f0"], "Juventus Jaraguá": ["#501010", "#f0f0f0"], "Juventus-AC": ["#111111", "#f5f5f5"], "Juventus-SP": ["#701030", "#f0f0f0"], "Kaburé": ["#f09090", "#f0f0f0"], "Lagartense": ["#d01030", "#f0f0f0"], "Lagarto": ["#f01010", "#f0f0f0"], "Lages": ["#1070b0", "#f0f0f0"], "Lajeadense": ["#70b0d0", "#b0d0f0"], "Legião": ["#f07030", "#f0d0b0"], "Leônico-BA": ["#903030", "#f0f0f0"], "Liga da Marinha": ["#111111", "#f5f5f5"], "Limoeiro": ["#103090", "#f0f0f0"], "Linense": ["#d01010", "#f0f0f0"], "Linhares EC": ["#1070b0", "#303070"], "Linhares FC": ["#105090", "#10b0d0"], "Londrina": ["#1090d0", "#f0f0f0"], "Luminense": ["#111111", "#f5f5f5"], "Luverdense": ["#307030", "#f0f0f0"], "Luziânia": ["#1070d0", "#f0f0f0"], "Macapá": ["#101050", "#f0f0f0"], "Macaé": ["#f5f5f5", "#111111"], "Madureira": ["#101070", "#901010"], "Maguari": ["#f09030", "#d0b050"], "Malutrom": ["#f5f5f5", "#111111"], "Mamoré": ["#105010", "#f0f0f0"], "Manauara EC": ["#f05030", "#f0f0f0"], "Manaus FC": ["#107010", "#101010"], "Manchete": ["#f01010", "#f0f0f0"], "Manufatora": ["#d09090", "#f0f0f0"], "Maracanã": ["#301070", "#f0f0f0"], "Maranhão": ["#d03010", "#103090"], "Marcílio Dias": ["#d01010", "#f0f0f0"], "Maricá": ["#103070", "#f03030"], "Maringá": ["#111111", "#f5f5f5"], "Maringá FC 1995": ["#109030", "#f0f0f0"], "Maruinense": ["#111111", "#f5f5f5"], "Marília": ["#10b0f0", "#f0f0f0"], "Matonense": ["#1070b0", "#f0f0f0"], "Matsubara": ["#111111", "#f5f5f5"], "Metropol": ["#107030", "#f0f0f0"], "Metropolitano": ["#111111", "#f5f5f5"], "Mineiros": ["#f0f010", "#f0f0f0"], "Mirassol": ["#f0f030", "#107030"], "Misto": ["#f5f5f5", "#111111"], "Mixto": ["#111111", "#f5f5f5"], "Mogi Mirim": ["#f05050", "#f0f0f0"], "Monte Azul": ["#5070b0", "#f0f0f0"], "Montes Claros": ["#10b0d0", "#f0f0f0"], "Moto Club": ["#f01010", "#101010"], "Muniz Freire": ["#303090", "#f0f0f0"], "Murici": ["#105030", "#f0f0f0"], "Nacional-AM": ["#f0d010", "#b0b010"], "Nacional-GO": ["#f01010", "#f0f0f0"], "Nacional-MG": ["#3070b0", "#105090"], "Nacional-PB": ["#f5f5f5", "#111111"], "Nacional-PR": ["#101050", "#f0f0f0"], "Nacional-SP": ["#101070", "#f0f0f0"], "Naviraiense": ["#f09010", "#f0f0f0"], "Noroeste": ["#f01010", "#f0f0f0"], "Nova Iguaçu": ["#f09010", "#909090"], "Nova Mutum": ["#1030b0", "#f0d030"], "Nova Venécia FC": ["#309070", "#f0f0f0"], "Novo Hamburgo": ["#1090d0", "#f0f0f0"], "Novo Horizonte": ["#111111", "#f5f5f5"], "Novoperário": ["#111111", "#f5f5f5"], "Novorizontino": ["#111111", "#f5f5f5"], "Náuas": ["#107010", "#70b070"], "Náutico-RR": ["#b01010", "#f0f0f0"], "Olaria": ["#101070", "#f0f0f0"], "Olímpico-AM": ["#305090", "#f0f0f0"], "Operário-MT": ["#d01010", "#f0f0f0"], "Operário-PR": ["#111111", "#f5f5f5"], "Oratório": ["#105070", "#f0f0f0"], "Osasco Audax": ["#b01010", "#f0f0f0"], "PSTC": ["#f0d050", "#f0f0f0"], "Pacajus": ["#f5f5f5", "#111111"], "Palmares-RO": ["#f01010", "#f0f0f0"], "Palmas": ["#f09010", "#f0f0f0"], "Palmeiras Nordeste": ["#f5f5f5", "#111111"], "Paragominas": ["#111111", "#f5f5f5"], "Paranavaí": ["#b01030", "#f0b030"], "Paranoá": ["#d0b050", "#103070"], "Paraná": ["#f01030", "#f0f0f0"], "Parauapebas": ["#f0d010", "#f0f0f0"], "Paraíso": ["#109030", "#103070"], "Parnaíba": ["#103050", "#f0f0f0"], "Passo Fundo": ["#109050", "#d03010"], "Pauferrense": ["#f0d030", "#f0f0f0"], "Paula Ramos-SC": ["#f01010", "#101010"], "Paulista": ["#111111", "#f5f5f5"], "Paulistano-PE": ["#1090d0", "#f0f0f0"], "Pedrabranca": ["#103070", "#f0f0f0"], "Pelotas": ["#f0d010", "#1070b0"], "Penapolense": ["#d01010", "#d0d0d0"], "Penarol-AM": ["#101070", "#f0f0f0"], "Penedense": ["#b03030", "#f0f0f0"], "Perdigão": ["#f03030", "#f0f0f0"], "Petrolina": ["#b03010", "#f0f0f0"], "Piauí": ["#7070b0", "#f0f0f0"], "Picos": ["#105010", "#f0f010"], "Pinheiros-PR": ["#301070", "#f0f0f0"], "Pinheiros-RO": ["#301070", "#f0f0f0"], "Pirambu": ["#f0f010", "#f0f0f0"], "Planaltina": ["#111111", "#f5f5f5"], "Plácido de Castro": ["#f0f010", "#909010"], "Ponta Grossa": ["#f5f5f5", "#111111"], "Pontaporanense": ["#f5f5f5", "#111111"], "Porto Alegre-RJ": ["#111111", "#f5f5f5"], "Porto Vitória": ["#105010", "#b0b010"], "Porto-PE": ["#f5f5f5", "#111111"], "Portuguesa Santista": ["#107030", "#f0f0f0"], "Portuguesa-RJ": ["#109050", "#90d0b0"], "Potiguar": ["#111111", "#f5f5f5"], "Potyguar Seridoense": ["#101050", "#f0f0f0"], "Pouso Alegre": ["#f01030", "#101010"], "Poções": ["#303070", "#f0f0f0"], "Princesa": ["#d03030", "#f0f0f0"], "Progresso-RR": ["#109010", "#f0f0f0"], "Prudentópolis": ["#50d0b0", "#b0b0d0"], "Prudentópolis EC": ["#b07050", "#f0f0f0"], "Próspera": ["#105050", "#f0f0f0"], "Pérolas Negras": ["#111111", "#f5f5f5"], "Quixadá": ["#5050b0", "#f0f090"], "Rabello-DF": ["#f07070", "#f0f0f0"], "Real Ariquemes": ["#b01010", "#f0f0f0"], "Real Brasília": ["#103050", "#f0f0f0"], "Real Noroeste": ["#f01010", "#f0f0f0"], "Real-GO": ["#111111", "#f5f5f5"], "Real-RR": ["#f0d010", "#d0d0d0"], "Red Bull Bragantino II": ["#d01050", "#f0f0f0"], "Remo": ["#111111", "#f5f5f5"], "Resende": ["#f5f5f5", "#111111"], "Retrô FC": ["#111111", "#f5f5f5"], "Rio Branco de Venda Nova": ["#109010", "#f0f0f0"], "Rio Branco-AC": ["#d01010", "#f0f0f0"], "Rio Branco-MG": ["#1090f0", "#f0f0f0"], "Rio Branco-PR": ["#f01010", "#f0f0f0"], "Rio Branco-RJ": ["#f01090", "#f0f0f0"], "Rio Branco-SP": ["#111111", "#f5f5f5"], "Rio Claro": ["#303090", "#101070"], "Rio Negro-AM": ["#111111", "#f5f5f5"], "Rio Negro-RR": ["#111111", "#f5f5f5"], "Rio Pardo-ES": ["#f01030", "#f0f0f0"], "Rio Verde-GO": ["#105010", "#f0f0f0"], "Rioverdense": ["#f5f5f5", "#111111"], "Rive A.C.": ["#105070", "#f0f0f0"], "River Plate-SE": ["#f5f5f5", "#111111"], "River-PI": ["#111111", "#f5f5f5"], "Roma Apucarana": ["#111111", "#f5f5f5"], "Rondoniense": ["#103050", "#107070"], "Rondonópolis": ["#3050d0", "#1090d0"], "SC Humaitá": ["#f01030", "#10b050"], "SE Ariquemes": ["#f0d010", "#f0f0f0"], "SERC": ["#f0f010", "#f03030"], "Salgueiro": ["#105030", "#f0f0f0"], "Sampaio Corrêa": ["#105010", "#f0d010"], "Santa Cruz de Natal": ["#111111", "#f5f5f5"], "Santa Cruz-PB": ["#111111", "#f5f5f5"], "Santa Cruz-RN": ["#109050", "#f0f0f0"], "Santa Cruz-RS": ["#f5f5f5", "#111111"], "Santa Cruz-SE": ["#301070", "#f0f0f0"], "Santa Helena": ["#f01030", "#f0f0f0"], "Santa Inês": ["#f0f010", "#f0f0f0"], "Santa Rita": ["#f01010", "#f0f0f0"], "Santa Rosa": ["#d03030", "#101010"], "Santana": ["#f03010", "#f0f010"], "Santo André": ["#109050", "#f0f010"], "Santo Antônio-ES": ["#f01010", "#f0f0f0"], "Santos-AP": ["#111111", "#f5f5f5"], "Sapucaiense": ["#f01010", "#101010"], "Sergipe": ["#f07070", "#f0f0f0"], "Serra": ["#111111", "#f5f5f5"], "Serra Talhada": ["#111111", "#f5f5f5"], "Serrano-BA": ["#b01010", "#501010"], "Serrano-PB": ["#f03030", "#f0f0f0"], "Serrano-PE": ["#f0f010", "#f0f0f0"], "Sertãozinho": ["#901010", "#f0f0f0"], "Siderúrgica": ["#305090", "#f0f0f0"], "Sinop": ["#305090", "#f0f0f0"], "Sobradinho": ["#111111", "#f5f5f5"], "Social": ["#111111", "#f5f5f5"], "Sorriso EC": ["#111111", "#f5f5f5"], "Sousa": ["#10b050", "#f0f0f0"], "Sparta-TO": ["#111111", "#f5f5f5"], "Sport Belém": ["#111111", "#f5f5f5"], "Sporting FC": ["#305090", "#f0f0f0"], "Sul América": ["#f01010", "#f0f0f0"], "São Bento": ["#5090d0", "#f0f0f0"], "São Bernardo": ["#f0f010", "#101010"], "São Borja": ["#d01010", "#f0f0f0"], "São Domingos": ["#d01030", "#f0f0f0"], "São Domingos-SE": ["#f5f5f5", "#111111"], "São Francisco FC-AC": ["#103070", "#d01010"], "São Francisco-PA": ["#103050", "#f0f0f0"], "São Gabriel": ["#111111", "#f5f5f5"], "São Gonçalo-RN": ["#f01010", "#f0f0f0"], "São Joseense": ["#f0f010", "#f5f5f5"], "São José-AP": ["#111111", "#f5f5f5"], "São José-RS": ["#301070", "#f0f0f0"], "São José-SP": ["#105090", "#f0d010"], "São Luiz": ["#f01010", "#f0f0f0"], "São Mateus": ["#5070b0", "#f0f0f0"], "São Paulo Crystal": ["#d01010", "#f0f0f0"], "São Paulo-RS": ["#107050", "#d01010"], "São Raimundo": ["#103090", "#f0f0f0"], "São Raimundo-PA": ["#111111", "#f5f5f5"], "São Raimundo-RR": ["#1030b0", "#f0f0f0"], "Sãocarlense": ["#305090", "#f0f0f0"], "Taguatinga": ["#101070", "#b0b0d0"], "Taveirópolis": ["#111111", "#f5f5f5"], "Tigres do Brasil": ["#509010", "#101010"], "Tiradentes-CE": ["#f01010", "#f0f0f0"], "Tiradentes-DF": ["#111111", "#f5f5f5"], "Tiradentes-PA": ["#103090", "#f03030"], "Tiradentes-PI": ["#109030", "#f0f0f0"], "Tocantins Miracema": ["#107030", "#f0f0f0"], "Tocantins-MA": ["#109030", "#f0f0f0"], "Tocantins-TO": ["#303090", "#f0f0f0"], "Tocantinópolis": ["#109030", "#f0f0f0"], "Toledo": ["#101050", "#b01010"], "Tombense": ["#f01030", "#f0f0f0"], "Trem": ["#f01010", "#101010"], "Treze": ["#f5f5f5", "#111111"], "Tubarão FC": ["#111111", "#f5f5f5"], "Tuna Luso": ["#10b050", "#f0f0f0"], "Tuntum": ["#10b050", "#f0f0f0"], "Tupi": ["#111111", "#f5f5f5"], "Tupynambás": ["#f03030", "#f0f0f0"], "URT": ["#101070", "#f0f0f0"], "Uberaba": ["#d01010", "#f0f0f0"], "Uberlândia": ["#109050", "#f0f0f0"], "Ubiratan": ["#d0b070", "#101010"], "Ulbra-RO": ["#f5f5f5", "#111111"], "Unibol Pernambuco": ["#301070", "#f0f0f0"], "União Atlético": ["#111111", "#f5f5f5"], "União Barbarense": ["#111111", "#f5f5f5"], "União Cacoalense": ["#105010", "#1070b0"], "União São João": ["#f0b0b0", "#f0f0f0"], "União-MT": ["#f01010", "#f0f0f0"], "Valeriodoce": ["#d03010", "#f5f5f5"], "Vasco da Gama-AC": ["#111111", "#f5f5f5"], "Vera Cruz-PE": ["#111111", "#f5f5f5"], "Veranópolis": ["#109030", "#1070b0"], "Viana": ["#1070b0", "#f0f0f0"], "Vila Aurora": ["#111111", "#f5f5f5"], "Vila Nova-GO": ["#f01030", "#f0f0f0"], "Vilavelhense": ["#90d0f0", "#f03030"], "Vilhena": ["#f0f010", "#101050"], "Vilhenense": ["#111111", "#f5f5f5"], "Villa Nova-MG": ["#d01010", "#f0f0f0"], "Vitória da Conquista": ["#107010", "#f0f0f0"], "Vitória das Tabocas": ["#3050b0", "#d0f0f0"], "Vitória-ES": ["#1030b0", "#9090d0"], "Vitória-PE": ["#303070", "#f0f0f0"], "Volta Redonda": ["#111111", "#f5f5f5"], "Votoraty": ["#303070", "#d0b070"], "Vênus-PA": ["#101070", "#f0f0f0"], "XV de Jaú": ["#107050", "#b0b030"], "XV de Piracicaba": ["#111111", "#f5f5f5"], "Ypiranga-AP": ["#111111", "#f5f5f5"], "Ypiranga-PE": ["#7070b0", "#f0f0f0"], "Ypiranga-RS": ["#109030", "#f0f010"], "Água Verde": ["#301070", "#f0f0f0"], "Águia": ["#f01010", "#f0f0f0"], "Águia Negra": ["#f5f5f5", "#111111"], "América-RJ": ["#c8102e", "#f5f5f5"], "Brasil de Pelotas": ["#d50000", "#111111"], "Ceará": ["#111111", "#f5f5f5"], "Goiás": ["#00703c", "#f5f5f5"], "Operário-MS": ["#111111", "#f5f5f5"], "Ponte Preta": ["#111111", "#f5f5f5"], "Rio Branco-ES": ["#111111", "#f5f5f5"], "Paysandu": ["#00a1e4", "#f5f5f5"], "Santa Cruz": ["#e30613", "#111111"], "Juventude": ["#00843d", "#f5f5f5"], "América-MG": ["#00843d", "#111111"], "CSA": ["#0033a0", "#f5f5f5"], "Figueirense": ["#111111", "#f5f5f5"], "Athletico-PR": ["#c8102e", "#111111"], "Atlético-MG": ["#111111", "#f5f5f5"], "Bahia": ["#0067b1", "#e2001a"], "Bangu": ["#e30613", "#f5f5f5"], "Botafogo": ["#111111", "#f5f5f5"], "Bragantino": ["#f5f5f5", "#d50032"], "Corinthians": ["#111111", "#f5f5f5"], "Coritiba": ["#00544e", "#f5f5f5"], "Cruzeiro": ["#003da5", "#f5f5f5"], "Flamengo": ["#c4161c", "#111111"], "Fluminense": ["#7a1631", "#00613c"], "Fortaleza": ["#0a3a87", "#e30613"], "Grêmio": ["#0d80bf", "#111111"], "Guarani": ["#00843d", "#f5f5f5"], "Internacional": ["#e30613", "#f5f5f5"], "Náutico": ["#e30613", "#f5f5f5"], "Palmeiras": ["#006437", "#f5f5f5"], "Portuguesa": ["#e30613", "#006437"], "Santos": ["#f5f5f5", "#111111"], "São Caetano": ["#00529b", "#f5f5f5"], "São Paulo": ["#e30613", "#111111"], "Sport": ["#e30613", "#111111"], "Vasco": ["#111111", "#e30613"], "Vitória": ["#e30613", "#111111"]};
+const ESCUDOS = {"15 de Novembro": "escudos/15-de-novembro.webp", "4 de Julho": "escudos/4-de-julho.webp", "7 de Setembro-MS": "escudos/7-de-setembro-ms.webp", "AA Araguaia": "escudos/aa-araguaia.webp", "ABC": "escudos/abc.webp", "ADESG": "escudos/adesg.webp", "ASA": "escudos/asa.webp", "ASSU": "escudos/assu.webp", "Abaet\u00e9": "escudos/abaete.webp", "Afogados da Ingazeira": "escudos/afogados-da-ingazeira.webp", "Aimor\u00e9": "escudos/aimore.webp", "Alecrim": "escudos/alecrim.webp", "Alegrense": "escudos/alegrense.webp", "Alian\u00e7a": "escudos/alianca.webp", "Altos": "escudos/altos.webp", "Alvorada-TO": "escudos/alvorada-to.webp", "Amadense": "escudos/amadense.webp", "Amap\u00e1": "escudos/amapa.webp", "Amazonas": "escudos/amazonas.webp", "Americana": "escudos/americana.webp", "Americano-RJ": "escudos/americano-rj.webp", "Am\u00e9rica-AM": "escudos/america-am.webp", "Am\u00e9rica-CE": "escudos/america-ce.webp", "Am\u00e9rica-MG": "escudos/america-mg.webp", "Am\u00e9rica-PB": "escudos/america-pb.webp", "Am\u00e9rica-PE": "escudos/america-pe.webp", "Am\u00e9rica-RJ": "escudos/america-rj.webp", "Am\u00e9rica-RN": "escudos/america-rn.webp", "Am\u00e9rica-SC": "escudos/america-sc.webp", "Am\u00e9rica-SE": "escudos/america-se.webp", "Am\u00e9rica-SP": "escudos/america-sp.webp", "Ananindeua": "escudos/ananindeua.webp", "Anapolina": "escudos/anapolina.webp", "Andir\u00e1-AC": "escudos/andira-ac.webp", "An\u00e1polis": "escudos/anapolis.webp", "Aparecidense": "escudos/aparecidense.webp", "Aquidauanense": "escudos/aquidauanense.webp", "Aracruz": "escudos/aracruz.webp", "Araguaia": "escudos/araguaia.webp", "Aragua\u00edna": "escudos/araguaina.webp", "Arapongas": "escudos/arapongas.webp", "Arax\u00e1": "escudos/araxa.webp", "Ara\u00e7atuba": "escudos/aracatuba.webp", "Ariquemes": "escudos/ariquemes.webp", "At. Itapemirim": "escudos/at--itapemirim.webp", "Athletic Club": "escudos/athletic-club.webp", "Athletico-PR": "escudos/athletico-pr.webp", "Atl. Tr\u00eas Cora\u00e7\u00f5es": "escudos/atl--tres-coracoes.webp", "Atl\u00e9tico Cearense": "escudos/atletico-cearense.webp", "Atl\u00e9tico Pernambucano": "escudos/atletico-pernambucano.webp", "Atl\u00e9tico Roraima": "escudos/atletico-roraima.webp", "Atl\u00e9tico Sorocaba": "escudos/atletico-sorocaba.webp", "Atl\u00e9tico Tubar\u00e3o": "escudos/atletico-tubarao.webp", "Atl\u00e9tico-AC": "escudos/atletico-ac.webp", "Atl\u00e9tico-BA": "escudos/atletico-ba.webp", "Atl\u00e9tico-GO": "escudos/atletico-go.webp", "Atl\u00e9tico-MG": "escudos/atletico-mg.webp", "Atl\u00e9tico-PB": "escudos/atletico-pb.webp", "Audax Rio": "escudos/audax-rio.webp", "Auto Esporte": "escudos/auto-esporte.webp", "Auto Esporte-PI": "escudos/auto-esporte-pi.webp", "Ava\u00ed": "escudos/avai.webp", "Avenida": "escudos/avenida.webp", "Azuriz Futebol": "escudos/azuriz-futebol.webp", "A\u00e7\u00e3o": "escudos/acao.webp", "Bacabal": "escudos/bacabal.webp", "Bahia": "escudos/bahia.webp", "Bahia de Feira": "escudos/bahia-de-feira.webp", "Bandeirante-DF": "escudos/bandeirante-df.webp", "Bangu": "escudos/bangu.webp", "Bara\u00fanas": "escudos/baraunas.webp", "Barbalha": "escudos/barbalha.webp", "Barcelona de Ilh\u00e9us": "escudos/barcelona-de-ilheus.webp", "Barcelona-RO": "escudos/barcelona-ro.webp", "Barra FC": "escudos/barra-fc.webp", "Barra Mansa": "escudos/barra-mansa.webp", "Barra do Gar\u00e7as": "escudos/barra-do-garcas.webp", "Barra-SC": "escudos/barra-sc.webp", "Barras": "escudos/barras.webp", "Barueri": "escudos/barueri.webp", "Bar\u00e9": "escudos/bare.webp", "Batalhense": "escudos/batalhense.webp", "Batel": "escudos/batel.webp", "Bayer": "escudos/bayer.webp", "Belo Jardim": "escudos/belo-jardim.webp", "Blumenau": "escudos/blumenau.webp", "Boa Esporte": "escudos/boa-esporte.webp", "Boavista-RJ": "escudos/boavista-rj.webp", "Bonsucesso": "escudos/bonsucesso.webp", "Botafogo": "escudos/botafogo.webp", "Botafogo-BA": "escudos/botafogo-ba.webp", "Botafogo-DF": "escudos/botafogo-df.webp", "Botafogo-PB": "escudos/botafogo-pb.webp", "Botafogo-SP": "escudos/botafogo-sp.webp", "Bragantino": "escudos/bragantino.webp", "Bragantino-PA": "escudos/bragantino-pa.webp", "Brasil de Pelotas": "escudos/brasil-de-pelotas.webp", "Brasiliense": "escudos/brasiliense.webp", "Bras\u00edlia EC": "escudos/brasilia-ec.webp", "Brusque": "escudos/brusque.webp", "CA Patrocinense": "escudos/ca-patrocinense.webp", "CA Votuporanguense": "escudos/ca-votuporanguense.webp", "CENE": "escudos/cene.webp", "CEOV Oper\u00e1rio": "escudos/ceov-operario.webp", "CEUB": "escudos/ceub.webp", "CFA": "escudos/cfa.webp", "CFZ-RJ": "escudos/cfz-rj.webp", "CRAC": "escudos/crac.webp", "CRB": "escudos/crb.webp", "CSA": "escudos/csa.webp", "CSE": "escudos/cse.webp", "CTE Colatina": "escudos/cte-colatina.webp", "Cabofriense": "escudos/cabofriense.webp", "Cacerense": "escudos/cacerense.webp", "Cachoeiro": "escudos/cachoeiro.webp", "Cai\u00e7ara": "escudos/caicara.webp", "Caldas": "escudos/caldas.webp", "Caldense": "escudos/caldense.webp", "Calouros do Ar": "escudos/calouros-do-ar.webp", "Cama\u00e7ari": "escudos/camacari.webp", "Cambori\u00fa": "escudos/camboriu.webp", "Camet\u00e1": "escudos/cameta.webp", "Campinense": "escudos/campinense.webp", "Campo Grande-RJ": "escudos/campo-grande-rj.webp", "Candango EC": "escudos/candango-ec.webp", "Canoas": "escudos/canoas.webp", "Capelense-AL": "escudos/capelense-al.webp", "Capital CF": "escudos/capital-cf.webp", "Capital FC": "escudos/capital-fc.webp", "Capivariano": "escudos/capivariano.webp", "Cascavel": "escudos/cascavel.webp", "Castanhal": "escudos/castanhal.webp", "Catanduvense": "escudos/catanduvense.webp", "Catuense": "escudos/catuense.webp", "Caucaia": "escudos/caucaia.webp", "Caxias": "escudos/caxias.webp", "Caxias-SC": "escudos/caxias-sc.webp", "Caxiense": "escudos/caxiense.webp", "Ca\u00e7adorense": "escudos/cacadorense.webp", "Cear\u00e1": "escudos/ceara.webp", "Ceilandense": "escudos/ceilandense.webp", "Ceil\u00e2ndia": "escudos/ceilandia.webp", "Central": "escudos/central.webp", "Centro Limoeirense": "escudos/centro-limoeirense.webp", "Cer\u00e2mica": "escudos/ceramica.webp", "Chapadinha": "escudos/chapadinha.webp", "Chapecoense": "escudos/chapecoense.webp", "Cianorte": "escudos/cianorte.webp", "Colatina": "escudos/colatina.webp", "Colinas": "escudos/colinas.webp", "Colo Colo-BA": "escudos/colo-colo-ba.webp", "Colorado-PR": "escudos/colorado-pr.webp", "Comercial-MS": "escudos/comercial-ms.webp", "Comercial-PI": "escudos/comercial-pi.webp", "Comercial-PR": "escudos/comercial-pr.webp", "Comercial-RP": "escudos/comercial-rp.webp", "Conc\u00f3rdia": "escudos/concordia.webp", "Confian\u00e7a": "escudos/confianca.webp", "Cordino": "escudos/cordino.webp", "Corinthians": "escudos/corinthians.webp", "Corinthians Prudente": "escudos/corinthians-prudente.webp", "Corinthians-AL": "escudos/corinthians-al.webp", "Corisabb\u00e1": "escudos/corisabba.webp", "Coritiba": "escudos/coritiba.webp", "Coroat\u00e1": "escudos/coroata.webp", "Corumbaense": "escudos/corumbaense.webp", "Coruripe": "escudos/coruripe.webp", "Cor\u00edntians-RN": "escudos/corintians-rn.webp", "Costa Rica EC": "escudos/costa-rica-ec.webp", "Coxim": "escudos/coxim.webp", "Crato": "escudos/crato.webp", "Crici\u00fama": "escudos/criciuma.webp", "Cristal": "escudos/cristal.webp", "Cruzeiro": "escudos/cruzeiro.webp", "Cruzeiro do Sul-DF": "escudos/cruzeiro-do-sul-df.webp", "Cruzeiro-AL": "escudos/cruzeiro-al.webp", "Cruzeiro-RS": "escudos/cruzeiro-rs.webp", "Cuiab\u00e1": "escudos/cuiaba.webp", "Defel\u00ea-DF": "escudos/defele-df.webp", "Democrata-GV": "escudos/democrata-gv.webp", "Democrata-SL": "escudos/democrata-sl.webp", "Desportiva Guarabira": "escudos/desportiva-guarabira.webp", "Desportiva-ES": "escudos/desportiva-es.webp", "Dom Bosco-MT": "escudos/dom-bosco-mt.webp", "Dom Pedro": "escudos/dom-pedro.webp", "Douradense": "escudos/douradense.webp", "Dourados AC": "escudos/dourados-ac.webp", "Duque de Caxias": "escudos/duque-de-caxias.webp", "Duque de Caxias-MA": "escudos/duque-de-caxias-ma.webp", "EC S\u00e3o Gabriel": "escudos/ec-sao-gabriel.webp", "EC \u00c1gua Santa": "escudos/ec-agua-santa.webp", "Eletrovapo-RJ": "escudos/eletrovapo-rj.webp", "Engenheiro Beltr\u00e3o": "escudos/engenheiro-beltrao.webp", "Espig\u00e3o": "escudos/espigao.webp", "Esportivo-MG": "escudos/esportivo-mg.webp", "Esportivo-RS": "escudos/esportivo-rs.webp", "Estanciano": "escudos/estanciano.webp", "Estrela do Mar-PB": "escudos/estrela-do-mar-pb.webp", "Estrela do Norte": "escudos/estrela-do-norte.webp", "Estudantes": "escudos/estudantes.webp", "FC Cascavel": "escudos/fc-cascavel.webp", "Fabril": "escudos/fabril.webp", "Falcon FC": "escudos/falcon-fc.webp", "Fast-AM": "escudos/fast-am.webp", "Feirense": "escudos/feirense.webp", "Ferrovi\u00e1ria-SP": "escudos/ferroviaria-sp.webp", "Ferrovi\u00e1rio-CE": "escudos/ferroviario-ce.webp", "Ferrovi\u00e1rio-MA": "escudos/ferroviario-ma.webp", "Ferrovi\u00e1rio-PR": "escudos/ferroviario-pr.webp", "Figueirense": "escudos/figueirense.webp", "Flamengo": "escudos/flamengo.webp", "Flamengo-PE": "escudos/flamengo-pe.webp", "Flamengo-PI": "escudos/flamengo-pi.webp", "Floresta-CE": "escudos/floresta-ce.webp", "Fluminense": "escudos/fluminense.webp", "Fluminense-BA": "escudos/fluminense-ba.webp", "Fluminense-PI": "escudos/fluminense-pi.webp", "Fonseca-RJ": "escudos/fonseca-rj.webp", "Formosa": "escudos/formosa.webp", "Fortaleza": "escudos/fortaleza.webp", "Foz do Igua\u00e7u": "escudos/foz-do-iguacu.webp", "Francana": "escudos/francana.webp", "Frei Paulistano": "escudos/frei-paulistano.webp", "Friburguense": "escudos/friburguense.webp", "GAS": "escudos/gas.webp", "GE Maring\u00e1": "escudos/ge-maringa.webp", "GE Novorizontino": "escudos/ge-novorizontino.webp", "Galo Maring\u00e1": "escudos/galo-maringa.webp", "Galvez EC": "escudos/galvez-ec.webp", "Gal\u00edcia": "escudos/galicia.webp", "Gama": "escudos/gama.webp", "Gazin Porto Velho EC": "escudos/gazin-porto-velho-ec.webp", "Ga\u00facho": "escudos/gaucho.webp", "Genus": "escudos/genus.webp", "Globo FC": "escudos/globo-fc.webp", "Gl\u00f3ria": "escudos/gloria.webp", "Goian\u00e9sia": "escudos/goianesia.webp", "Goiatuba": "escudos/goiatuba.webp", "Goiatuba EC": "escudos/goiatuba-ec.webp", "Goi\u00e1s": "escudos/goias.webp", "Goi\u00e2nia": "escudos/goiania.webp", "Goytacaz": "escudos/goytacaz.webp", "Gr\u00eamio": "escudos/gremio.webp", "Gr\u00eamio An\u00e1polis": "escudos/gremio-anapolis.webp", "Gr\u00eamio Coariense": "escudos/gremio-coariense.webp", "Gr\u00eamio Jaciara": "escudos/gremio-jaciara.webp", "Gr\u00eamio Maring\u00e1": "escudos/gremio-maringa.webp", "Guajar\u00e1": "escudos/guajara.webp", "Guanabara-DF": "escudos/guanabara-df.webp", "Guarani": "escudos/guarani.webp", "Guarani V. Aires": "escudos/guarani-v--aires.webp", "Guarani de Juazeiro": "escudos/guarani-de-juazeiro.webp", "Guarani-MG": "escudos/guarani-mg.webp", "Guarani-SC": "escudos/guarani-sc.webp", "Guarany": "escudos/guarany.webp", "Guarany de Bag\u00e9": "escudos/guarany-de-bage.webp", "Guarany-RS": "escudos/guarany-rs.webp", "Guarapari": "escudos/guarapari.webp", "Guaratinguet\u00e1": "escudos/guaratingueta.webp", "Guar\u00e1": "escudos/guara.webp", "Gurupi": "escudos/gurupi.webp", "Herc\u00edlio Luz": "escudos/hercilio-luz.webp", "Hermann Aichinger": "escudos/hermann-aichinger.webp", "Holanda-AM": "escudos/holanda-am.webp", "Horizonte": "escudos/horizonte.webp", "IAPE": "escudos/iape.webp", "Ibira\u00e7u": "escudos/ibiracu.webp", "Icasa": "escudos/icasa.webp", "Iguatu": "escudos/iguatu.webp", "Igua\u00e7u": "escudos/iguacu.webp", "Imperatriz": "escudos/imperatriz.webp", "Independente Tucuru\u00ed": "escudos/independente-tucurui.webp", "Independente-AP": "escudos/independente-ap.webp", "Independ\u00eancia": "escudos/independencia.webp", "Inter de Limeira": "escudos/inter-de-limeira.webp", "Inter de Santa Maria": "escudos/inter-de-santa-maria.webp", "Internacional": "escudos/internacional.webp", "Internacional-SC": "escudos/internacional-sc.webp", "Interporto": "escudos/interporto.webp", "Ipatinga": "escudos/ipatinga.webp", "Ipitanga": "escudos/ipitanga.webp", "Ipor\u00e1": "escudos/ipora.webp", "Iraty": "escudos/iraty.webp", "Itabaiana": "escudos/itabaiana.webp", "Itabirito FC": "escudos/itabirito-fc.webp", "Itabora\u00ed": "escudos/itaborai.webp", "Itabuna-BA": "escudos/itabuna-ba.webp", "Itacuruba": "escudos/itacuruba.webp", "Itaperuna": "escudos/itaperuna.webp", "Itapipoca": "escudos/itapipoca.webp", "Itapor\u00e3": "escudos/itapora.webp", "Ituano": "escudos/ituano.webp", "Ituiutabana": "escudos/ituiutabana.webp", "Itumbiara": "escudos/itumbiara.webp", "Ivinhema": "escudos/ivinhema.webp", "Izabelense": "escudos/izabelense.webp", "J.Malucelli": "escudos/j-malucelli.webp", "JV Lideral": "escudos/jv-lideral.webp", "Jaciob\u00e1": "escudos/jacioba.webp", "Jacobina": "escudos/jacobina.webp", "Jacuipense": "escudos/jacuipense.webp", "Jaguar\u00e9": "escudos/jaguare.webp", "Jaragu\u00e1": "escudos/jaragua.webp", "Jaruense": "escudos/jaruense.webp", "Jataiense": "escudos/jataiense.webp", "Jequi\u00e9": "escudos/jequie.webp", "Ji-Paran\u00e1": "escudos/ji-parana.webp", "Joa\u00e7aba": "escudos/joacaba.webp", "Joinville": "escudos/joinville.webp", "Juazeirense": "escudos/juazeirense.webp", "Juazeiro": "escudos/juazeiro.webp", "Juventude": "escudos/juventude.webp", "Juventude-MA": "escudos/juventude-ma.webp", "Juventude-MT": "escudos/juventude-mt.webp", "Juventus Jaragu\u00e1": "escudos/juventus-jaragua.webp", "Juventus-AC": "escudos/juventus-ac.webp", "Juventus-SP": "escudos/juventus-sp.webp", "Kabur\u00e9": "escudos/kabure.webp", "Lagartense": "escudos/lagartense.webp", "Lagarto": "escudos/lagarto.webp", "Lages": "escudos/lages.webp", "Lajeadense": "escudos/lajeadense.webp", "Legi\u00e3o": "escudos/legiao.webp", "Le\u00f4nico-BA": "escudos/leonico-ba.webp", "Liga da Marinha": "escudos/liga-da-marinha.webp", "Limoeiro": "escudos/limoeiro.webp", "Linense": "escudos/linense.webp", "Linhares EC": "escudos/linhares-ec.webp", "Linhares FC": "escudos/linhares-fc.webp", "Londrina": "escudos/londrina.webp", "Luminense": "escudos/luminense.webp", "Luverdense": "escudos/luverdense.webp", "Luzi\u00e2nia": "escudos/luziania.webp", "Macap\u00e1": "escudos/macapa.webp", "Maca\u00e9": "escudos/macae.webp", "Madureira": "escudos/madureira.webp", "Maguari": "escudos/maguari.webp", "Malutrom": "escudos/malutrom.webp", "Mamor\u00e9": "escudos/mamore.webp", "Manauara EC": "escudos/manauara-ec.webp", "Manaus FC": "escudos/manaus-fc.webp", "Manchete": "escudos/manchete.webp", "Manufatora": "escudos/manufatora.webp", "Maracan\u00e3": "escudos/maracana.webp", "Maranh\u00e3o": "escudos/maranhao.webp", "Marc\u00edlio Dias": "escudos/marcilio-dias.webp", "Maric\u00e1": "escudos/marica.webp", "Maring\u00e1": "escudos/maringa.webp", "Maring\u00e1 FC 1995": "escudos/maringa-fc-1995.webp", "Maruinense": "escudos/maruinense.webp", "Mar\u00edlia": "escudos/marilia.webp", "Matonense": "escudos/matonense.webp", "Matsubara": "escudos/matsubara.webp", "Metropol": "escudos/metropol.webp", "Metropolitano": "escudos/metropolitano.webp", "Mineiros": "escudos/mineiros.webp", "Mirassol": "escudos/mirassol.webp", "Misto": "escudos/misto.webp", "Mixto": "escudos/mixto.webp", "Mogi Mirim": "escudos/mogi-mirim.webp", "Monte Azul": "escudos/monte-azul.webp", "Montes Claros": "escudos/montes-claros.webp", "Moto Club": "escudos/moto-club.webp", "Muniz Freire": "escudos/muniz-freire.webp", "Murici": "escudos/murici.webp", "Nacional-AM": "escudos/nacional-am.webp", "Nacional-GO": "escudos/nacional-go.webp", "Nacional-MG": "escudos/nacional-mg.webp", "Nacional-PB": "escudos/nacional-pb.webp", "Nacional-PR": "escudos/nacional-pr.webp", "Nacional-SP": "escudos/nacional-sp.webp", "Naviraiense": "escudos/naviraiense.webp", "Noroeste": "escudos/noroeste.webp", "Nova Igua\u00e7u": "escudos/nova-iguacu.webp", "Nova Mutum": "escudos/nova-mutum.webp", "Nova Ven\u00e9cia FC": "escudos/nova-venecia-fc.webp", "Novo Hamburgo": "escudos/novo-hamburgo.webp", "Novo Horizonte": "escudos/novo-horizonte.webp", "Novoper\u00e1rio": "escudos/novoperario.webp", "Novorizontino": "escudos/novorizontino.webp", "N\u00e1uas": "escudos/nauas.webp", "N\u00e1utico": "escudos/nautico.webp", "N\u00e1utico-RR": "escudos/nautico-rr.webp", "Olaria": "escudos/olaria.webp", "Ol\u00edmpico-AM": "escudos/olimpico-am.webp", "Oper\u00e1rio-MS": "escudos/operario-ms.webp", "Oper\u00e1rio-MT": "escudos/operario-mt.webp", "Oper\u00e1rio-PR": "escudos/operario-pr.webp", "Orat\u00f3rio": "escudos/oratorio.webp", "Osasco Audax": "escudos/osasco-audax.webp", "PSTC": "escudos/pstc.webp", "Pacajus": "escudos/pacajus.webp", "Palmares-RO": "escudos/palmares-ro.webp", "Palmas": "escudos/palmas.webp", "Palmeiras": "escudos/palmeiras.webp", "Palmeiras Nordeste": "escudos/palmeiras-nordeste.webp", "Paragominas": "escudos/paragominas.webp", "Paranava\u00ed": "escudos/paranavai.webp", "Parano\u00e1": "escudos/paranoa.webp", "Paran\u00e1": "escudos/parana.webp", "Parauapebas": "escudos/parauapebas.webp", "Para\u00edso": "escudos/paraiso.webp", "Parna\u00edba": "escudos/parnaiba.webp", "Passo Fundo": "escudos/passo-fundo.webp", "Pauferrense": "escudos/pauferrense.webp", "Paula Ramos-SC": "escudos/paula-ramos-sc.webp", "Paulista": "escudos/paulista.webp", "Paulistano-PE": "escudos/paulistano-pe.webp", "Paysandu": "escudos/paysandu.webp", "Pedrabranca": "escudos/pedrabranca.webp", "Pelotas": "escudos/pelotas.webp", "Penapolense": "escudos/penapolense.webp", "Penarol-AM": "escudos/penarol-am.webp", "Penedense": "escudos/penedense.webp", "Perdig\u00e3o": "escudos/perdigao.webp", "Petrolina": "escudos/petrolina.webp", "Piau\u00ed": "escudos/piaui.webp", "Picos": "escudos/picos.webp", "Pinheiros-PR": "escudos/pinheiros-pr.webp", "Pinheiros-RO": "escudos/pinheiros-ro.webp", "Pirambu": "escudos/pirambu.webp", "Planaltina": "escudos/planaltina.webp", "Pl\u00e1cido de Castro": "escudos/placido-de-castro.webp", "Ponta Grossa": "escudos/ponta-grossa.webp", "Pontaporanense": "escudos/pontaporanense.webp", "Ponte Preta": "escudos/ponte-preta.webp", "Porto Alegre-RJ": "escudos/porto-alegre-rj.webp", "Porto Vit\u00f3ria": "escudos/porto-vitoria.webp", "Porto-PE": "escudos/porto-pe.webp", "Portuguesa": "escudos/portuguesa.webp", "Portuguesa Santista": "escudos/portuguesa-santista.webp", "Portuguesa-RJ": "escudos/portuguesa-rj.webp", "Potiguar": "escudos/potiguar.webp", "Potyguar Seridoense": "escudos/potyguar-seridoense.webp", "Pouso Alegre": "escudos/pouso-alegre.webp", "Po\u00e7\u00f5es": "escudos/pocoes.webp", "Princesa": "escudos/princesa.webp", "Progresso-RR": "escudos/progresso-rr.webp", "Prudent\u00f3polis": "escudos/prudentopolis.webp", "Prudent\u00f3polis EC": "escudos/prudentopolis-ec.webp", "Pr\u00f3spera": "escudos/prospera.webp", "P\u00e9rolas Negras": "escudos/perolas-negras.webp", "Quixad\u00e1": "escudos/quixada.webp", "Rabello-DF": "escudos/rabello-df.webp", "Real Ariquemes": "escudos/real-ariquemes.webp", "Real Bras\u00edlia": "escudos/real-brasilia.webp", "Real Noroeste": "escudos/real-noroeste.webp", "Real-GO": "escudos/real-go.webp", "Real-RR": "escudos/real-rr.webp", "Red Bull Bragantino II": "escudos/red-bull-bragantino-ii.webp", "Remo": "escudos/remo.webp", "Resende": "escudos/resende.webp", "Retr\u00f4 FC": "escudos/retro-fc.webp", "Rio Branco de Venda Nova": "escudos/rio-branco-de-venda-nova.webp", "Rio Branco-AC": "escudos/rio-branco-ac.webp", "Rio Branco-ES": "escudos/rio-branco-es.webp", "Rio Branco-MG": "escudos/rio-branco-mg.webp", "Rio Branco-PR": "escudos/rio-branco-pr.webp", "Rio Branco-RJ": "escudos/rio-branco-rj.webp", "Rio Branco-SP": "escudos/rio-branco-sp.webp", "Rio Claro": "escudos/rio-claro.webp", "Rio Negro-AM": "escudos/rio-negro-am.webp", "Rio Negro-RR": "escudos/rio-negro-rr.webp", "Rio Pardo-ES": "escudos/rio-pardo-es.webp", "Rio Verde-GO": "escudos/rio-verde-go.webp", "Rioverdense": "escudos/rioverdense.webp", "Rive A.C.": "escudos/rive-a-c.webp", "River Plate-SE": "escudos/river-plate-se.webp", "River-PI": "escudos/river-pi.webp", "Roma Apucarana": "escudos/roma-apucarana.webp", "Rondoniense": "escudos/rondoniense.webp", "Rondon\u00f3polis": "escudos/rondonopolis.webp", "SC Humait\u00e1": "escudos/sc-humaita.webp", "SE Ariquemes": "escudos/se-ariquemes.webp", "SERC": "escudos/serc.webp", "Salgueiro": "escudos/salgueiro.webp", "Sampaio Corr\u00eaa": "escudos/sampaio-correa.webp", "Santa Cruz": "escudos/santa-cruz.webp", "Santa Cruz de Natal": "escudos/santa-cruz-de-natal.webp", "Santa Cruz-PB": "escudos/santa-cruz-pb.webp", "Santa Cruz-RN": "escudos/santa-cruz-rn.webp", "Santa Cruz-RS": "escudos/santa-cruz-rs.webp", "Santa Cruz-SE": "escudos/santa-cruz-se.webp", "Santa Helena": "escudos/santa-helena.webp", "Santa In\u00eas": "escudos/santa-ines.webp", "Santa Rita": "escudos/santa-rita.webp", "Santa Rosa": "escudos/santa-rosa.webp", "Santana": "escudos/santana.webp", "Santo Andr\u00e9": "escudos/santo-andre.webp", "Santo Ant\u00f4nio-ES": "escudos/santo-antonio-es.webp", "Santos": "escudos/santos.webp", "Santos-AP": "escudos/santos-ap.webp", "Sapucaiense": "escudos/sapucaiense.webp", "Sergipe": "escudos/sergipe.webp", "Serra": "escudos/serra.webp", "Serra Talhada": "escudos/serra-talhada.webp", "Serrano-BA": "escudos/serrano-ba.webp", "Serrano-PB": "escudos/serrano-pb.webp", "Serrano-PE": "escudos/serrano-pe.webp", "Sert\u00e3ozinho": "escudos/sertaozinho.webp", "Sider\u00fargica": "escudos/siderurgica.webp", "Sinop": "escudos/sinop.webp", "Sobradinho": "escudos/sobradinho.webp", "Social": "escudos/social.webp", "Sorriso EC": "escudos/sorriso-ec.webp", "Sousa": "escudos/sousa.webp", "Sparta-TO": "escudos/sparta-to.webp", "Sport": "escudos/sport.webp", "Sport Bel\u00e9m": "escudos/sport-belem.webp", "Sporting FC": "escudos/sporting-fc.webp", "Sul Am\u00e9rica": "escudos/sul-america.webp", "S\u00e3o Bento": "escudos/sao-bento.webp", "S\u00e3o Bernardo": "escudos/sao-bernardo.webp", "S\u00e3o Borja": "escudos/sao-borja.webp", "S\u00e3o Caetano": "escudos/sao-caetano.webp", "S\u00e3o Domingos": "escudos/sao-domingos.webp", "S\u00e3o Domingos-SE": "escudos/sao-domingos-se.webp", "S\u00e3o Francisco FC-AC": "escudos/sao-francisco-fc-ac.webp", "S\u00e3o Francisco-PA": "escudos/sao-francisco-pa.webp", "S\u00e3o Gabriel": "escudos/sao-gabriel.webp", "S\u00e3o Gon\u00e7alo-RN": "escudos/sao-goncalo-rn.webp", "S\u00e3o Joseense": "escudos/sao-joseense.webp", "S\u00e3o Jos\u00e9-AP": "escudos/sao-jose-ap.webp", "S\u00e3o Jos\u00e9-RS": "escudos/sao-jose-rs.webp", "S\u00e3o Jos\u00e9-SP": "escudos/sao-jose-sp.webp", "S\u00e3o Luiz": "escudos/sao-luiz.webp", "S\u00e3o Mateus": "escudos/sao-mateus.webp", "S\u00e3o Paulo": "escudos/sao-paulo.webp", "S\u00e3o Paulo Crystal": "escudos/sao-paulo-crystal.webp", "S\u00e3o Paulo-RS": "escudos/sao-paulo-rs.webp", "S\u00e3o Raimundo": "escudos/sao-raimundo.webp", "S\u00e3o Raimundo-PA": "escudos/sao-raimundo-pa.webp", "S\u00e3o Raimundo-RR": "escudos/sao-raimundo-rr.webp", "S\u00e3ocarlense": "escudos/saocarlense.webp", "Taguatinga": "escudos/taguatinga.webp", "Taveir\u00f3polis": "escudos/taveiropolis.webp", "Tigres do Brasil": "escudos/tigres-do-brasil.webp", "Tiradentes-CE": "escudos/tiradentes-ce.webp", "Tiradentes-DF": "escudos/tiradentes-df.webp", "Tiradentes-PA": "escudos/tiradentes-pa.webp", "Tiradentes-PI": "escudos/tiradentes-pi.webp", "Tocantins Miracema": "escudos/tocantins-miracema.webp", "Tocantins-MA": "escudos/tocantins-ma.webp", "Tocantins-TO": "escudos/tocantins-to.webp", "Tocantin\u00f3polis": "escudos/tocantinopolis.webp", "Toledo": "escudos/toledo.webp", "Tombense": "escudos/tombense.webp", "Trem": "escudos/trem.webp", "Treze": "escudos/treze.webp", "Tubar\u00e3o FC": "escudos/tubarao-fc.webp", "Tuna Luso": "escudos/tuna-luso.webp", "Tuntum": "escudos/tuntum.webp", "Tupi": "escudos/tupi.webp", "Tupynamb\u00e1s": "escudos/tupynambas.webp", "URT": "escudos/urt.webp", "Uberaba": "escudos/uberaba.webp", "Uberl\u00e2ndia": "escudos/uberlandia.webp", "Ubiratan": "escudos/ubiratan.webp", "Ulbra-RO": "escudos/ulbra-ro.webp", "Unibol Pernambuco": "escudos/unibol-pernambuco.webp", "Uni\u00e3o Atl\u00e9tico": "escudos/uniao-atletico.webp", "Uni\u00e3o Barbarense": "escudos/uniao-barbarense.webp", "Uni\u00e3o Cacoalense": "escudos/uniao-cacoalense.webp", "Uni\u00e3o S\u00e3o Jo\u00e3o": "escudos/uniao-sao-joao.webp", "Uni\u00e3o-MT": "escudos/uniao-mt.webp", "Valeriodoce": "escudos/valeriodoce.webp", "Vasco": "escudos/vasco.webp", "Vasco da Gama-AC": "escudos/vasco-da-gama-ac.webp", "Vera Cruz-PE": "escudos/vera-cruz-pe.webp", "Veran\u00f3polis": "escudos/veranopolis.webp", "Viana": "escudos/viana.webp", "Vila Aurora": "escudos/vila-aurora.webp", "Vila Nova-GO": "escudos/vila-nova-go.webp", "Vilavelhense": "escudos/vilavelhense.webp", "Vilhena": "escudos/vilhena.webp", "Vilhenense": "escudos/vilhenense.webp", "Villa Nova-MG": "escudos/villa-nova-mg.webp", "Vit\u00f3ria": "escudos/vitoria.webp", "Vit\u00f3ria da Conquista": "escudos/vitoria-da-conquista.webp", "Vit\u00f3ria das Tabocas": "escudos/vitoria-das-tabocas.webp", "Vit\u00f3ria-ES": "escudos/vitoria-es.webp", "Vit\u00f3ria-PE": "escudos/vitoria-pe.webp", "Volta Redonda": "escudos/volta-redonda.webp", "Votoraty": "escudos/votoraty.webp", "V\u00eanus-PA": "escudos/venus-pa.webp", "XV de Ja\u00fa": "escudos/xv-de-jau.webp", "XV de Piracicaba": "escudos/xv-de-piracicaba.webp", "Ypiranga-AP": "escudos/ypiranga-ap.webp", "Ypiranga-PE": "escudos/ypiranga-pe.webp", "Ypiranga-RS": "escudos/ypiranga-rs.webp", "\u00c1gua Verde": "escudos/agua-verde.webp", "\u00c1guia": "escudos/aguia.webp", "\u00c1guia Negra": "escudos/aguia-negra.webp"};
+const COMPS = [["bra-serie-a", "Brasileirão Série A"], ["bra-serie-b", "Brasileirão Série B"], ["bra-serie-c", "Brasileirão Série C"], ["bra-serie-d", "Brasileirão Série D"], ["bra-copa-do-brasil", "Copa do Brasil"]];
+const VERSAO = '44b56a78f8';
+
+const COMP = (() => { const q = new URLSearchParams(location.search).get('c'); let s = null;
+  try { s = localStorage.getItem('v2-comp'); } catch (e) {}
+  const tem = x => COMPS.some(c => c[0] === x);
+  return tem(q) ? q : tem(s) ? s : COMPS[0][0]; })();
+try { localStorage.setItem('v2-comp', COMP); } catch (e) {}
+document.write('<script src="dados/' + COMP + '.js?v=' + VERSAO + '"><\/script>');
+</script><script>
+const D = window.DADOS_COMP, EDP = D.EDP, PART = D.PART, VIT = D.VIT, CJV = D.CJV, CUR = D.CUR, EDS = D.EDS, ARTC = D.ARTC, CONF = D.CONF;
+document.querySelectorAll('[data-t]').forEach(n => { n.innerHTML = D.TX[n.dataset.t] ?? ''; });
+
+const ED = D.ED;
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const cor = n => CORES[n] || ['#1ecb74', '#0b2616'];
+// texto legível sobre a cor do clube
+const luz = h => { const n = parseInt(h.slice(1), 16); return ((n >> 16) * 299 + ((n >> 8) & 255) * 587 + (n & 255) * 114) / 1000; };
+const MEDALHA = { ouro: 'campeão', prata: 'vice', bronze: '3º lugar' };
+const medalha = (i, c) => !ED[i] ? '' : ED[i].campeao === c ? 'ouro' : ED[i].vice === c ? 'prata' : ED[i].terceiro === c ? 'bronze' : '';
+const claro = h => luz(h) > 150, escuro = h => luz(h) < 40;
+// 'São Paulo' -> 'sao-paulo' (vai no endereço da aba Por clube)
+// ⫽ no eixo onde a competição ficou 3 anos ou mais sem edição (a Série A pula de 1937 para 1959)
+const quebras = (anos, X, y) => anos.slice(1).map((a, i) => a - anos[i] >= 3 ? '<text class="cr-eixo" x="' + ((X(i) + X(i + 1)) / 2) + '" y="' + y + '" text-anchor="middle">⫽</text>' : '').join('');
+const slugClube = c => c.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');   // contorno do vice: cor quase preta some no fundo escuro, usa a segunda cor
+function desenhar() {
+  // t = títulos, v = vices, r = 3º lugares
+  const por = new Map(), ver = c => { if (!por.has(c)) por.set(c, { t: [], v: [], r: [] }); return por.get(c); };
+  for (const e of ED) { ver(e.campeao).t.push(e); if (e.vice) ver(e.vice).v.push(e); if (e.terceiro) ver(e.terceiro).r.push(e); }
+  // mais títulos; empate: mais vices; depois mais 3º; depois quem subiu ao pódio primeiro
+  const primeiro = x => Math.min(...x.t.map(e => e.ano), ...x.v.map(e => e.ano), ...x.r.map(e => e.ano));
+  const clubes = [...por].sort((a, b) => b[1].t.length - a[1].t.length || b[1].v.length - a[1].v.length || b[1].r.length - a[1].r.length
+    || primeiro(a[1]) - primeiro(b[1]) || a[0].localeCompare(b[0], 'pt-BR'));
+  let k = 0;
+  const QUEM = { t: (c, e) => c + ' campeão; vice: ' + (e.vice || '—'), v: (c, e) => c + ' vice; campeão: ' + e.campeao,
+                 r: (c, e) => c + ' 3º lugar; campeão: ' + e.campeao + ', vice: ' + (e.vice || '—') };
+  const bloco = (c, e, tipo) => { const [c1, c2] = cor(c), borda = claro(c1) || !escuro(c1) ? c1 : c2;
+    return '<span class="bloco' + (tipo === 'v' ? ' vice' : tipo === 'r' ? ' terc' : '') + (e.comp ? ' antigo' : '') + '" style="--c1:' + c1 + ';--c2:' + c2 + ';--borda:' + borda + ';--fg:' + (claro(c1) ? '#111' : '#fff') +
+      ';--risca:' + (claro(c1) ? 'rgba(0,0,0,.22)' : 'rgba(255,255,255,.22)') + ';animation-delay:' + Math.min(k++ * 3, 600) + 'ms"' +
+      ' data-dica="' + esc('<b>' + e.ano + (e.comp ? ' · ' + e.comp : '') + '</b><br>' + QUEM[tipo](c, e) + (e.nota ? '<br>' + e.nota : '')) + '">' + e.ano + '</span>'; };
+  const plural = (n, um, varios) => n + '<small>' + (n === 1 ? um : varios) + '</small>';
+  const faixa = (c, x, tipo, cls) => x[tipo].length ? '<div class="trilho' + cls + '">' + x[tipo].map(e => bloco(c, e, tipo)).join('') + '</div>' : '';
+  document.getElementById('grafico').innerHTML = clubes.map(([c, x]) => { const [c1, c2] = cor(c);
+    return '<div class="linha"><div class="clube">' + (ESCUDOS[c] ? '<img class="escudo" alt="" src="' + ESCUDOS[c] + '" style="--c1:' + c1 + '">'
+        : '<span class="bola" style="background:linear-gradient(90deg,' + c1 + ' 0 55%,' + c2 + ' 55%)"></span>') + '<span>' + esc(c) + '</span></div>' +
+      '<div class="trilhos"><div class="trilho">' + x.t.map(e => bloco(c, e, 't')).join('') + '</div>' + faixa(c, x, 'v', ' vices') + faixa(c, x, 'r', ' terc') + '</div>' +
+      '<div class="totais"><div class="total">' + plural(x.t.length, 'título', 'títulos') + '</div><div class="total v">' + plural(x.v.length, 'vice', 'vices') + '</div>' +
+      '<div class="total r">' + x.r.length + '<small>3º</small></div></div></div>'; }).join('');
+}
+const dica = document.getElementById('dica');
+document.addEventListener('mousemove', ev => {
+  const b = ev.target.closest('[data-dica]');
+  if (!b) { dica.hidden = true; return; }
+  dica.innerHTML = b.dataset.dica; dica.hidden = false;
+  dica.style.left = Math.min(ev.clientX + 14, innerWidth - dica.offsetWidth - 8) + 'px';
+  dica.style.top = (ev.clientY + 18 + dica.offsetHeight > innerHeight ? ev.clientY - dica.offsetHeight - 10 : ev.clientY + 18) + 'px';
+});
+document.addEventListener('click', ev => {
+  const t = ev.target.closest('.tema');
+  if (t) { const r = document.documentElement, novo = r.dataset.theme === 'dark' ? 'light' : 'dark'; r.dataset.theme = novo; t.textContent = novo === 'dark' ? '☀ Claro' : '☾ Escuro';
+    try { localStorage.setItem('v2-tema', novo); } catch (e) {} document.dispatchEvent(new Event('tema-mudou')); }
+});
+// ---- corrida dos títulos (ou dos vices, ou dos terceiros): posição de cada clube no ranking, ano a ano (1º no topo) ----
+(() => {
+  const svg = document.getElementById('corrida'); if (!svg) return;
+  const NS = 'http://www.w3.org/2000/svg', W = 1000, ML = 44, MR = 210, MT = 18, MB = 32, PASSO = 490 / 16;   // 17 linhas cabem em 540
+  const anos = [...new Set(ED.map(e => e.ano))].sort((a, b) => a - b), N = anos.length;
+  const X = i => ML + i * (W - ML - MR) / (N - 1), Y = r => MT + (r - 1) * PASSO;
+  const suave = t => t * t * (3 - 2 * t);
+  const NOME = { campeao: 'títulos', vice: 'vices', terceiro: 'terceiros lugares' };
+  // clube de cor quase preta: no tema escuro a linha usa a segunda cor (e no claro, cor clara usa a segunda)
+  const corLinha = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  const TRACOS = ['', '8 5', '2 5', '12 4 2 4', '4 3'];
+  let clubes = [], val = {}, pos = {}, inicio = {}, el = {}, anoG = null, fixo = null;
+  function montar(chave) {
+    clubes = [...new Set(ED.map(e => e[chave]).filter(Boolean))];
+    const R = clubes.length, H = MT + MB + (R - 1) * PASSO;
+    // val[c][i]: quantos até anos[i]; pos[c][i]: posição no ranking (só quem já tem algum).
+    // Empate: fica na frente quem chegou primeiro àquele número.
+    const cont = {}, quando = {}; val = {}; pos = {};
+    for (const c of clubes) { val[c] = []; pos[c] = []; cont[c] = 0; }
+    anos.forEach((a, i) => {
+      for (const e of ED) if (e.ano === a && e[chave]) { cont[e[chave]]++; quando[e[chave]] = i; }
+      for (const c of clubes) val[c][i] = cont[c];
+      clubes.filter(c => cont[c] > 0).sort((x, y) => cont[y] - cont[x] || quando[x] - quando[y] || x.localeCompare(y, 'pt-BR'))
+        .forEach((c, k) => { pos[c][i] = k + 1; });
+    });
+    inicio = Object.fromEntries(clubes.map(c => [c, val[c].findIndex(v => v > 0)]));
+    let eixos = '';
+    for (let r = 1; r <= R; r++) eixos += '<line class="cr-grade" x1="' + ML + '" x2="' + (W - MR) + '" y1="' + Y(r) + '" y2="' + Y(r) + '"/><text class="cr-eixo" x="' + (ML - 10) + '" y="' + (Y(r) + 4) + '" text-anchor="end">' + r + 'º</text>';
+    anos.forEach((a, i) => { if (i === 0 || (a % 10 === 0 && X(i) - X(0) > 44)) eixos += '<text class="cr-eixo" x="' + X(i) + '" y="' + (H - MB + 22) + '" text-anchor="middle">' + a + '</text>'; });
+    eixos += quebras(anos, X, H - MB + 6);
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H);
+    svg.setAttribute('aria-label', 'Posição de cada clube no ranking de ' + NOME[chave] + ', ano a ano');
+    svg.innerHTML = '<text id="cr-anogrande" x="' + ((ML + W - MR) / 2) + '" y="' + (H - MB - 24) + '" text-anchor="middle"></text>' + eixos + '<g id="cr-linhas"></g><g id="cr-rotulos"></g>';
+    const gL = svg.querySelector('#cr-linhas'), gR = svg.querySelector('#cr-rotulos'); anoG = svg.querySelector('#cr-anogrande');
+    el = {};
+    for (const c of clubes) {
+      const pth = document.createElementNS(NS, 'path'); pth.setAttribute('class', 'cr-linha'); pth.dataset.clube = c; gL.appendChild(pth);
+      const g = document.createElementNS(NS, 'g'); g.setAttribute('class', 'cr-rot'); g.dataset.clube = c;
+      g.innerHTML = '<circle class="cr-ponta" cx="0" cy="0" r="5"/>' + (ESCUDOS[c] ? '<image href="' + ESCUDOS[c] + '" x="10" y="-11" width="22" height="22"/>' : '') + '<text x="37" y="5"></text>';
+      gR.appendChild(g); el[c] = { pth, g, txt: g.querySelector('text'), ponta: g.querySelector('circle') };
+    }
+    pintar();
+    document.getElementById('cr-titulo').textContent = 'Corrida dos ' + NOME[chave];
+  }
+  function pintar() { const vistos = {};
+    for (const c of clubes) { const s = corLinha(c), k = vistos[s] = (vistos[s] ?? -1) + 1;
+      el[c].pth.setAttribute('stroke', s); el[c].pth.setAttribute('stroke-dasharray', TRACOS[k % TRACOS.length]); el[c].ponta.setAttribute('fill', s); } }
+  document.addEventListener('tema-mudou', pintar);
+  const btn = document.getElementById('cr-play'), barra = document.getElementById('cr-ano'), saida = document.getElementById('cr-saida');
+  barra.max = N - 1;
+  let p = N - 1, tocando = false, tAnt = 0;
+  const VEL = 0.0014;   // edições por milissegundo: ~50 s de 1937 a hoje
+  function quadro() {
+    const i = Math.min(N - 1, Math.floor(p + 1e-9)), fr = p - i, xp = X(p);
+    for (const c of clubes) {
+      const e = el[c], f = inicio[c];
+      if (f < 0 || f > i) { e.pth.setAttribute('d', ''); e.g.style.display = 'none'; continue; }
+      // curva suave entre uma posição e a seguinte; a ponta anda até p
+      let d = 'M' + X(f) + ' ' + Y(pos[c][f]);
+      for (let k = f + 1; k <= i; k++) { const xm = (X(k - 1) + X(k)) / 2; d += 'C' + xm + ' ' + Y(pos[c][k - 1]) + ' ' + xm + ' ' + Y(pos[c][k]) + ' ' + X(k) + ' ' + Y(pos[c][k]); }
+      let yp = Y(pos[c][i]);
+      if (fr > 0 && i + 1 < N) {
+        yp = Y(pos[c][i]) + (Y(pos[c][i + 1]) - Y(pos[c][i])) * suave(fr);
+        const xm = (X(i) + xp) / 2; d += 'C' + xm + ' ' + Y(pos[c][i]) + ' ' + xm + ' ' + yp + ' ' + xp + ' ' + yp;
+      }
+      e.pth.setAttribute('d', d);
+      e.g.style.display = ''; e.g.setAttribute('transform', 'translate(' + xp.toFixed(1) + ' ' + yp.toFixed(1) + ')');
+      const v = val[c][fr > .5 && i + 1 < N ? i + 1 : i];
+      e.txt.innerHTML = esc(c) + ' <tspan>' + v + '</tspan>';
+    }
+    anoG.textContent = anos[i]; saida.textContent = anos[i]; barra.value = p;
+  }
+  function tique(t) {
+    if (!tocando) return;
+    p = Math.min(N - 1, p + (tAnt ? t - tAnt : 16) * VEL); tAnt = t; quadro();
+    if (p >= N - 1) parar(); else requestAnimationFrame(tique);
+  }
+  function tocar() { if (p >= N - 1) p = 0; tocando = true; tAnt = 0; btn.textContent = '❚❚ Pausar'; requestAnimationFrame(tique); }
+  function parar() { tocando = false; btn.textContent = p >= N - 1 ? '↺ Ver de novo' : '▶ Continuar'; }
+  btn.onclick = () => tocando ? parar() : tocar();
+  barra.oninput = () => { if (tocando) parar(); p = +barra.value; quadro(); btn.textContent = p >= N - 1 ? '↺ Ver de novo' : '▶ Continuar'; };
+  // destaque: passar o mouse (ou tocar) num clube
+  const focar = c => { svg.classList.toggle('foco', !!c); for (const k of clubes) { el[k].pth.classList.toggle('ativo', k === c); el[k].g.classList.toggle('ativo', k === c); } };
+  svg.addEventListener('mouseover', ev => { const t = ev.target.closest('[data-clube]'); if (t) focar(t.dataset.clube); });
+  svg.addEventListener('mouseleave', () => focar(fixo));
+  svg.addEventListener('click', ev => { const t = ev.target.closest('[data-clube]'); fixo = t && fixo !== t.dataset.clube ? t.dataset.clube : null; focar(fixo); });
+  // Títulos | Vices | Terceiros
+  const tb = document.querySelectorAll('#cr-tipo button');
+  tb.forEach(b => b.addEventListener('click', () => {
+    tb.forEach(x => x.classList.toggle('ativo', x === b));
+    if (tocando) parar(); fixo = null; montar(b.dataset.tipo); focar(null); quadro();
+    btn.textContent = p >= N - 1 ? '▶ Ver a corrida' : '▶ Continuar';
+  }));
+  montar('campeao'); quadro();
+  btn.textContent = '▶ Ver a corrida';
+})();
+// ---- participações: uma faixa por clube, um quadradinho por edição (cheio = jogou; dourado = campeão) ----
+(() => {
+  const box = document.getElementById('participacoes'); if (!box) return;
+  const N = EDP.length, TOP = 30;
+  // mais participações; empate: quem estreou primeiro; depois o nome
+  const lista = Object.entries(PART).sort((a, b) => b[1].length - a[1].length || a[1][0][0] - b[1][0][0] || a[0].localeCompare(b[0], 'pt-BR'));
+  const corCel = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  // rótulos do eixo: a primeira edição e a primeira de cada década
+  const eixo = EDP.map((e, i) => '<span>' + (i === 0 || (Math.floor(e.ano / 10) !== Math.floor(EDP[i - 1].ano / 10) && i > 2) ? e.ano : '') + '</span>').join('');
+  let todos = false;
+  function desenhar() {
+    const linhas = (todos ? lista : lista.slice(0, TOP)).map(([c, ps]) => {
+      const onde = new Map(ps.map(([i, pos]) => [i, pos])), cc = corCel(c), [c1, c2] = cor(c);
+      const cel = Array.from({ length: N }, (_, i) => {
+        if (!onde.has(i)) return '<i></i>';
+        const e = EDP[i], m = medalha(i, c);
+        return '<i class="on' + (m ? ' m-' + m : '') + '" data-dica="' + esc('<b>' + e.ano + (e.comp ? ' · ' + e.comp : '') + '</b><br>' + c + ': ' + onde.get(i) + 'º de ' + e.n + (m ? ' · ' + MEDALHA[m] : '')) + '"></i>';
+      }).join('');
+      return '<div class="pt-linha"><div class="clube">' + (ESCUDOS[c] ? '<img class="escudo" alt="" src="' + ESCUDOS[c] + '" style="--c1:' + c1 + '">'
+        : '<span class="bola" style="background:linear-gradient(90deg,' + c1 + ' 0 55%,' + c2 + ' 55%)"></span>') + '<span>' + esc(c) + '</span></div>' +
+        '<div class="pt-faixa" style="--n:' + N + ';--c:' + cc + '">' + cel + '</div><div class="total">' + ps.length + '</div></div>';
+    }).join('');
+    box.innerHTML = '<div class="pt-rolar"><div class="pt-tabela"><div class="pt-cab"><span></span><div class="pt-eixo" style="--n:' + N + '">' + eixo + '</div><span></span></div>' + linhas + '</div></div>' +
+      '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' que mais participaram' : 'Ver todos os ' + lista.length + ' clubes') + '</button>';
+  }
+  box.addEventListener('click', ev => { if (ev.target.closest('.pt-mais')) { todos = !todos; desenhar(); } });
+  document.addEventListener('tema-mudou', desenhar);
+  desenhar();
+})();
+// ---- jogos e vitórias: barra do tamanho dos jogos, preenchida pelas vitórias ----
+(() => {
+  const box = document.getElementById('jogos-vitorias'); if (!box) return;
+  const TOP = 30, MIN = 100;   // no %, só clubes com MIN jogos ou mais (com poucos jogos o % engana)
+  const ORDEM = {
+    vitorias: [...VIT].sort((a, b) => b[2] - a[2] || a[1] - b[1] || a[0].localeCompare(b[0], 'pt-BR')),
+    jogos: [...VIT].sort((a, b) => b[1] - a[1] || b[2] - a[2] || a[0].localeCompare(b[0], 'pt-BR')),
+    pct: VIT.filter(x => x[1] >= MIN).sort((a, b) => b[2] / b[1] - a[2] / a[1] || b[2] - a[2]),
+  };
+  const maxJ = Math.max(...VIT.map(x => x[1]));
+  const corBarra = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  const fmtN = n => n.toLocaleString('pt-BR'), pct = (v, j) => (100 * v / j).toFixed(1).replace('.', ',') + '%';
+  let modo = 'vitorias', todos = false;
+  function desenhar() {
+    const lista = ORDEM[modo];
+    document.querySelectorAll('#jv-ordem button').forEach(b => b.classList.toggle('ativo', b.dataset.modo === modo));
+    document.getElementById('jv-nota').textContent = modo === 'pct' ? ' · no %, só clubes com ' + MIN + ' jogos ou mais (' + lista.length + ')' : '';
+    box.innerHTML = (todos ? lista : lista.slice(0, TOP)).map(([c, j, v, e, d, gp, gc], k) => { const [c1, c2] = cor(c), ed = (PART[c] || []).length;
+      const dica = '<b>' + esc(c) + '</b><br>' + fmtN(j) + ' jogos em ' + ed + (ed === 1 ? ' edição' : ' edições') + '<br>' + fmtN(v) + ' vitórias (' + pct(v, j) + '), ' +
+        fmtN(e) + ' empates (' + pct(e, j) + '), ' + fmtN(d) + ' derrotas (' + pct(d, j) + ')<br>gols: ' + fmtN(gp) + ' marcados, ' + fmtN(gc) + ' sofridos';
+      return '<div class="jv-linha"><div class="clube">' + (ESCUDOS[c] ? '<img class="escudo" alt="" src="' + ESCUDOS[c] + '" style="--c1:' + c1 + '">'
+        : '<span class="bola" style="background:linear-gradient(90deg,' + c1 + ' 0 55%,' + c2 + ' 55%)"></span>') + '<span>' + esc(c) + '</span></div>' +
+        '<div class="jv-area" data-dica="' + esc(dica) + '"><div class="jv-jogos" style="width:' + (100 * j / maxJ).toFixed(2) + '%;--c:' + corBarra(c) + ';animation-delay:' + Math.min(k * 15, 450) + 'ms">' +
+        '<i class="v" style="width:' + (100 * v / j).toFixed(2) + '%"></i><i class="e" style="width:' + (100 * e / j).toFixed(2) + '%"></i>' +
+        '<i class="d" style="width:' + (100 * d / j).toFixed(2) + '%"></i></div></div>' +
+        '<div class="jv-num"><b>' + fmtN(v) + '</b> <span>de ' + fmtN(j) + ' · ' + pct(v, j) + '</span><small>' + fmtN(e) + ' empates · ' + fmtN(d) + ' derrotas</small></div></div>'; }).join('') +
+      (lista.length > TOP ? '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' primeiros' : 'Ver todos os ' + lista.length + ' clubes') + '</button>' : '');
+  }
+  box.addEventListener('click', ev => { if (ev.target.closest('.pt-mais')) { todos = !todos; desenhar(); } });
+  document.querySelectorAll('#jv-ordem button').forEach(b => b.addEventListener('click', () => { modo = b.dataset.modo; todos = false; desenhar(); if (window.jvCorrida && modo !== 'pct') window.jvCorrida(modo); }));
+  // Barras | Corrida: na corrida o % não vale (sem sentido acumulado); a métrica é Vitórias ou Jogos
+  document.querySelectorAll('#jv-vista button').forEach(b => b.addEventListener('click', () => {
+    const corrida = b.dataset.vista === 'corrida';
+    document.querySelectorAll('#jv-vista button').forEach(x => x.classList.toggle('ativo', x === b));
+    document.getElementById('jv-barras').hidden = corrida; document.getElementById('jv-corrida').hidden = !corrida;
+    document.querySelector('#jv-ordem [data-modo=pct]').hidden = corrida;
+    if (corrida && modo === 'pct') { modo = 'vitorias'; desenhar(); }
+    if (corrida && window.jvCorrida) window.jvCorrida(modo);
+  }));
+  document.addEventListener('tema-mudou', desenhar);
+  desenhar();
+})();
+// ---- corridas de posições (jogos, vitórias, participações): ranking do acumulado, edição a edição; Top 20 ou Todos ----
+// valores por edição → acumulado → posição (empate: quem chegou antes àquele número; depois o nome)
+function ranking(inc, entrou = inc) {   // entrou: série que diz quando o clube aparece (acumulado > 0)
+  const N = EDP.length, clubes = Object.keys(inc), acum = {}, pos = {}, desde = {}, base = {};
+  for (const c of clubes) { let t = 0, u = 0; acum[c] = inc[c].map(x => t += x); base[c] = entrou[c].map(x => u += x); pos[c] = []; desde[c] = 0; }
+  for (let i = 0; i < N; i++) {
+    for (const c of clubes) if (i > 0 && acum[c][i] !== acum[c][i - 1]) desde[c] = i;
+    clubes.filter(c => base[c][i] > 0).sort((a, b) => acum[b][i] - acum[a][i] || desde[a] - desde[b] || (a < b ? -1 : 1)).forEach((c, k) => pos[c][i] = k + 1);
+    for (const c of clubes) if (pos[c][i] === undefined) pos[c][i] = 999;
+  }
+  return { clubes, acum, pos };
+}
+function corridaPosicoes(id, medalhas) {
+  const svg = document.getElementById(id); if (!svg) return null;
+  const NS = 'http://www.w3.org/2000/svg', W = 1000, ML = 44, MR = 230, MT = 18, MB = 32, TOP = 20, VEL = 0.0014;   // ~50 s de 1937 a hoje
+  // eixo: anos das edições (padrão) ou o que vier em usar(..., eixo) — rodadas, por exemplo
+  let anos = EDP.map(e => e.ano), N = anos.length, quebra = true, faixas = [], nomear = a => a;
+  const X = i => ML + i * (W - ML - MR) / (N - 1);
+  let marca = (a, i) => i === 0 || (a % 10 === 0 && X(i) - X(0) > 44);
+  const suave = t => t * t * (3 - 2 * t);
+  let fmtN = n => n.toLocaleString('pt-BR');
+  const corLinha = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  const TRACOS = ['', '8 5', '2 5', '12 4 2 4', '4 3'];
+  const btn = document.getElementById(id + '-play'), barra = document.getElementById(id + '-ano'), saida = document.getElementById(id + '-saida');
+  barra.max = N - 1;
+  let dados = null, todos = false, R = TOP, passo = 1, lista = [], el = {}, p = N - 1, tocando = false, tAnt = 0, fixo = null, anoG = null;
+  const Y = r => MT + (r - 1) * passo;
+  const yPos = (c, i) => { const r = dados.pos[c][i]; return Y(r <= R ? r : R + 1.6); };   // fora do top: some por baixo (cortado)
+  function montar() {
+    if (!dados) return;
+    lista = dados.clubes.filter(c => todos ? dados.pos[c][N - 1] < 999 : dados.pos[c].some(r => r <= TOP));
+    R = todos ? lista.length : TOP;
+    passo = todos ? 26 : (600 - MT - MB) / (TOP - 1);
+    const H = MT + MB + (R - 1) * passo, corte = todos ? H : Y(R) + passo * 0.6;
+    let eixos = '';
+    for (let r = 1; r <= R; r++) eixos += '<line class="cr-grade" x1="' + ML + '" x2="' + (W - MR) + '" y1="' + Y(r) + '" y2="' + Y(r) + '"/><text class="cr-eixo" x="' + (ML - 10) + '" y="' + (Y(r) + 4) + '" text-anchor="end">' + r + 'º</text>';
+    anos.forEach((a, i) => { if (marca(a, i)) eixos += '<text class="cr-eixo" x="' + X(i) + '" y="' + (H - MB + 22) + '" text-anchor="middle">' + a + '</text>'; });
+    if (quebra) eixos += quebras(anos, X, H - MB + 6);
+    // faixas da tabela (título, Libertadores, Sul-Americana, rebaixamento) atrás das linhas
+    eixos = faixas.filter(f => f[0] <= R).map(([r1, r2, z]) => '<rect class="cr-faixa ' + z + '" x="' + ML + '" width="' + (W - MR - ML) + '" y="' + (Y(r1) - passo / 2) +
+      '" height="' + ((Math.min(r2, R) - r1 + 1) * passo) + '"/>').join('') + eixos;
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + H); svg.classList.toggle('alto', todos);
+    svg.innerHTML = '<defs><clipPath id="' + id + '-corte"><rect x="0" y="0" width="' + W + '" height="' + corte + '"/></clipPath></defs>' +
+      '<text class="cr-anogrande" x="' + ((ML + W - MR) / 2) + '" y="' + (todos ? MT + 150 : H - MB - 24) + '" text-anchor="middle"></text>' + eixos +
+      '<g class="cr-linhas" clip-path="url(#' + id + '-corte)"></g><g class="cr-medalhas" clip-path="url(#' + id + '-corte)"></g><g class="cr-rotulos"></g>';
+    const gL = svg.querySelector('.cr-linhas'), gM = svg.querySelector('.cr-medalhas'), gR = svg.querySelector('.cr-rotulos');
+    anoG = svg.querySelector('.cr-anogrande'); el = {};
+    const vistos = {};
+    for (const c of lista) {
+      const pth = document.createElementNS(NS, 'path'); pth.setAttribute('class', 'cr-linha'); pth.dataset.clube = c; gL.appendChild(pth);
+      const g = document.createElementNS(NS, 'g'); g.setAttribute('class', 'cr-rot'); g.dataset.clube = c;
+      g.innerHTML = '<circle class="cr-ponta" cx="0" cy="0" r="5"/>' + (ESCUDOS[c] ? '<image href="' + ESCUDOS[c] + '" x="10" y="-11" width="22" height="22"/>' : '') + '<text x="37" y="5"></text>';
+      gR.appendChild(g);
+      const st = corLinha(c), k = vistos[st] = (vistos[st] ?? -1) + 1;
+      pth.setAttribute('stroke', st); pth.setAttribute('stroke-dasharray', TRACOS[k % TRACOS.length]); g.querySelector('circle').setAttribute('fill', st);
+      const meds = [], gm = document.createElementNS(NS, 'g');
+      if (medalhas) {   // pontinho no ano do pódio: ouro campeão, prata vice, bronze 3º
+        gm.setAttribute('class', 'cr-med'); gm.dataset.clube = c; gM.appendChild(gm);
+        for (let i = 0; i < N; i++) { const m = medalha(i, c); if (!m) continue;
+          const ci = document.createElementNS(NS, 'circle'); ci.setAttribute('class', m); ci.setAttribute('r', '4.5');
+          ci.setAttribute('cx', X(i)); ci.setAttribute('cy', yPos(c, i)); ci.dataset.dica = '<b>' + anos[i] + '</b><br>' + esc(c) + ': ' + MEDALHA[m];
+          gm.appendChild(ci); meds.push([i, ci]); }
+      }
+      el[c] = { pth, g, gm, meds, txt: g.querySelector('text') };
+    }
+    if (fixo && !el[fixo]) fixo = null;
+    focar(fixo);
+  }
+  function quadro() {
+    if (!dados) return;
+    const i = Math.min(N - 1, Math.floor(p + 1e-9)), fr = p - i, xp = X(p);
+    for (const c of lista) {
+      const e = el[c], val = dados.acum[c], f = dados.pos[c].findIndex(r => r < 999);
+      for (const [k, ci] of e.meds) ci.style.display = k <= p + 1e-9 ? '' : 'none';
+      if (f < 0 || f > i) { e.pth.setAttribute('d', ''); e.g.style.display = 'none'; continue; }
+      let d = 'M' + X(f) + ' ' + yPos(c, f);
+      for (let k = f + 1; k <= i; k++) { const xm = (X(k - 1) + X(k)) / 2; d += 'C' + xm + ' ' + yPos(c, k - 1) + ' ' + xm + ' ' + yPos(c, k) + ' ' + X(k) + ' ' + yPos(c, k); }
+      let yp = yPos(c, i);
+      if (fr > 0 && i + 1 < N) { yp = yPos(c, i) + (yPos(c, i + 1) - yPos(c, i)) * suave(fr); const xm = (X(i) + xp) / 2; d += 'C' + xm + ' ' + yPos(c, i) + ' ' + xm + ' ' + yp + ' ' + xp + ' ' + yp; }
+      e.pth.setAttribute('d', d);
+      const dentro = yp <= Y(R) + 1;
+      e.g.style.display = dentro ? '' : 'none';
+      if (dentro) { e.g.setAttribute('transform', 'translate(' + xp.toFixed(1) + ' ' + yp.toFixed(1) + ')');
+        e.txt.innerHTML = esc(c) + ' <tspan>' + fmtN(val[fr > .5 && i + 1 < N ? i + 1 : i]) + '</tspan>'; }
+    }
+    anoG.textContent = anos[i]; saida.textContent = nomear(anos[i]); barra.value = p;
+  }
+  function tique(t) { if (!tocando) return; p = Math.min(N - 1, p + (tAnt ? t - tAnt : 16) * VEL); tAnt = t; quadro(); if (p >= N - 1) parar(); else requestAnimationFrame(tique); }
+  function tocar() { if (p >= N - 1) p = 0; tocando = true; tAnt = 0; btn.textContent = '❚❚ Pausar'; requestAnimationFrame(tique); }
+  function parar() { tocando = false; btn.textContent = p >= N - 1 ? '↺ Ver de novo' : '▶ Continuar'; }
+  btn.onclick = () => tocando ? parar() : tocar();
+  barra.oninput = () => { if (tocando) parar(); p = +barra.value; quadro(); btn.textContent = p >= N - 1 ? '↺ Ver de novo' : '▶ Continuar'; };
+  function focar(c) { svg.classList.toggle('foco', !!c); for (const k in el) { const e = el[k]; e.pth.classList.toggle('ativo', k === c); e.g.classList.toggle('ativo', k === c); e.gm.classList.toggle('ativo', k === c); } }
+  svg.addEventListener('mouseover', ev => { const t = ev.target.closest('[data-clube]'); if (t) focar(t.dataset.clube); });
+  svg.addEventListener('mouseleave', () => focar(fixo));
+  svg.addEventListener('click', ev => { const t = ev.target.closest('[data-clube]'); fixo = t && fixo !== t.dataset.clube ? t.dataset.clube : null; focar(fixo); });
+  // Top 20 | Todos
+  const qb = document.querySelectorAll('#' + id + '-quantos button');
+  qb.forEach(b => b.addEventListener('click', () => { todos = b.dataset.q === 'todos'; qb.forEach(x => x.classList.toggle('ativo', x === b)); montar(); quadro(); }));
+  document.addEventListener('tema-mudou', () => { montar(); quadro(); });
+  btn.textContent = '▶ Ver a corrida';
+  return { usar(d, fmt, eixo) {
+    if (tocando) parar(); dados = d; if (fmt) fmtN = fmt; fixo = null;
+    if (eixo) { anos = eixo.rot; N = anos.length; marca = eixo.marca; quebra = !!eixo.quebra; nomear = eixo.nomear || (a => a); faixas = eixo.faixas || [];
+      barra.max = N - 1; p = N - 1; btn.textContent = '▶ Ver a corrida'; }
+    montar(); quadro(); } };
+}
+// jogos e vitórias: a métrica vem dos botões Vitórias / Jogos
+(() => {
+  const jvc = corridaPosicoes('jvc', false); if (!jvc) return;
+  const feito = {};
+  window.jvCorrida = m => { const k = m === 'jogos' ? 'j' : 'v'; jvc.usar(feito[k] = feito[k] || ranking(CJV[k])); };
+})();
+// gols: a métrica vem dos botões Feitos / Tomados / Saldo
+(() => {
+  const glc = corridaPosicoes('glc', false); if (!glc) return;
+  const feito = {}, num = n => n.toLocaleString('pt-BR'), saldo = n => (n > 0 ? '+' : n < 0 ? '−' : '') + num(Math.abs(n));
+  const serie = {
+    feitos: () => ranking(CJV.gp, CJV.j),
+    tomados: () => ranking(CJV.gc, CJV.j),
+    saldo: () => { const inc = {}; for (const c in CJV.gp) inc[c] = CJV.gp[c].map((g, i) => g - CJV.gc[c][i]); return ranking(inc, CJV.j); },
+  };
+  window.glCorrida = m => glc.usar(feito[m] = feito[m] || serie[m](), m === 'saldo' ? saldo : num);
+})();
+// pontuação histórica: pontos acumulados (3 por vitória, 1 por empate)
+(() => {
+  const pnc = corridaPosicoes('pnc', false); if (!pnc) return;
+  let feito = null;
+  window.pnCorrida = () => { if (!feito) { const inc = {}; for (const c in CJV.v) inc[c] = CJV.v[c].map((v, i) => 3 * v + CJV.e[c][i]); feito = ranking(inc, CJV.j); } pnc.usar(feito); };
+})();
+// participações: corrida das participações acumuladas, com as medalhas no caminho
+(() => {
+  const ptc = corridaPosicoes('ptc', true); if (!ptc) return;
+  let pronto = false;
+  const bs = document.querySelectorAll('#pt-vista button');
+  bs.forEach(b => b.addEventListener('click', () => {
+    const corrida = b.dataset.vista === 'corrida';
+    bs.forEach(x => x.classList.toggle('ativo', x === b));
+    document.getElementById('pt-quadro').hidden = corrida; document.getElementById('pt-corrida').hidden = !corrida;
+    if (corrida && !pronto) { const inc = {};
+      for (const [c, ps] of Object.entries(PART)) { const a = new Array(EDP.length).fill(0); ps.forEach(([i]) => a[i] = 1); inc[c] = a; }
+      ptc.usar(ranking(inc)); pronto = true; }
+  }));
+})();
+// ---- gols: barra com todos os gols dos jogos do clube, dividida em feitos e tomados ----
+(() => {
+  const box = document.getElementById('gols'); if (!box) return;
+  const TOP = 30, MIN = 100;   // na média por jogo, só clubes com MIN jogos ou mais
+  const nome = (a, b) => a[0].localeCompare(b[0], 'pt-BR');
+  const ORDEM = {
+    feitos: [...VIT].sort((a, b) => b[5] - a[5] || nome(a, b)),
+    tomados: [...VIT].sort((a, b) => b[6] - a[6] || nome(a, b)),
+    saldo: [...VIT].sort((a, b) => (b[5] - b[6]) - (a[5] - a[6]) || b[5] - a[5] || nome(a, b)),
+    media: VIT.filter(x => x[1] >= MIN).sort((a, b) => b[5] / b[1] - a[5] / a[1] || b[5] - a[5]),
+  };
+  const maxG = Math.max(...VIT.map(x => x[5] + x[6]));
+  const corBarra = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  const fmtN = n => n.toLocaleString('pt-BR'), med = (g, j) => (g / j).toFixed(2).replace('.', ',');
+  const saldo = n => (n > 0 ? '+' : n < 0 ? '−' : '') + fmtN(Math.abs(n));
+  let modo = 'feitos', todos = false;
+  // número em destaque = o critério da ordenação escolhida; os outros vão na linha de baixo
+  const numeros = (j, gp, gc) => ({
+    feitos: '<b>' + fmtN(gp) + '</b> <span>feitos</span><small>' + fmtN(gc) + ' tomados · saldo ' + saldo(gp - gc) + ' · ' + med(gp, j) + ' por jogo</small>',
+    tomados: '<b>' + fmtN(gc) + '</b> <span>tomados</span><small>' + fmtN(gp) + ' feitos · saldo ' + saldo(gp - gc) + ' · ' + med(gc, j) + ' tomados por jogo</small>',
+    saldo: '<b>' + saldo(gp - gc) + '</b> <span>de saldo</span><small>' + fmtN(gp) + ' feitos · ' + fmtN(gc) + ' tomados</small>',
+    media: '<b>' + med(gp, j) + '</b> <span>feitos por jogo</span><small>' + fmtN(gp) + ' feitos em ' + fmtN(j) + ' jogos</small>',
+  })[modo];
+  function desenhar() {
+    const lista = ORDEM[modo];
+    document.querySelectorAll('#gl-ordem button').forEach(b => b.classList.toggle('ativo', b.dataset.modo === modo));
+    document.getElementById('gl-nota').textContent = modo === 'media' ? ' · na média, só clubes com ' + MIN + ' jogos ou mais (' + lista.length + ')' : '';
+    box.innerHTML = (todos ? lista : lista.slice(0, TOP)).map(([c, j, v, e, d, gp, gc], k) => { const [c1, c2] = cor(c), t = gp + gc;
+      const dica = '<b>' + esc(c) + '</b><br>' + fmtN(j) + ' jogos<br>' + fmtN(gp) + ' gols feitos (' + med(gp, j) + ' por jogo)<br>' +
+        fmtN(gc) + ' gols tomados (' + med(gc, j) + ' por jogo)<br>saldo ' + saldo(gp - gc);
+      return '<div class="jv-linha"><div class="clube">' + (ESCUDOS[c] ? '<img class="escudo" alt="" src="' + ESCUDOS[c] + '" style="--c1:' + c1 + '">'
+        : '<span class="bola" style="background:linear-gradient(90deg,' + c1 + ' 0 55%,' + c2 + ' 55%)"></span>') + '<span>' + esc(c) + '</span></div>' +
+        '<div class="jv-area" data-dica="' + esc(dica) + '"><div class="jv-jogos" style="width:' + (100 * t / maxG).toFixed(2) + '%;--c:' + corBarra(c) + ';animation-delay:' + Math.min(k * 15, 450) + 'ms">' +
+        '<i class="v" style="width:' + (100 * gp / t).toFixed(2) + '%"></i><i class="d" style="width:' + (100 * gc / t).toFixed(2) + '%"></i></div></div>' +
+        '<div class="jv-num">' + numeros(j, gp, gc) + '</div></div>'; }).join('') +
+      (lista.length > TOP ? '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' primeiros' : 'Ver todos os ' + lista.length + ' clubes') + '</button>' : '');
+  }
+  box.addEventListener('click', ev => { if (ev.target.closest('.pt-mais')) { todos = !todos; desenhar(); } });
+  document.querySelectorAll('#gl-ordem button').forEach(b => b.addEventListener('click', () => { modo = b.dataset.modo; todos = false; desenhar(); if (window.glCorrida && modo !== 'media') window.glCorrida(modo); }));
+  // Barras | Corrida: na corrida a média por jogo não vale; a métrica é Feitos, Tomados ou Saldo
+  document.querySelectorAll('#gl-vista button').forEach(b => b.addEventListener('click', () => {
+    const corrida = b.dataset.vista === 'corrida';
+    document.querySelectorAll('#gl-vista button').forEach(x => x.classList.toggle('ativo', x === b));
+    document.getElementById('gl-barras').hidden = corrida; document.getElementById('gl-corrida').hidden = !corrida;
+    document.querySelector('#gl-ordem [data-modo=media]').hidden = corrida;
+    if (corrida && modo === 'media') { modo = 'feitos'; desenhar(); }
+    if (corrida && window.glCorrida) window.glCorrida(modo);
+  }));
+  document.addEventListener('tema-mudou', desenhar);
+  desenhar();
+})();
+// ---- pontuação histórica: vitória 3, empate 1; barra do tamanho dos pontos possíveis (3 por jogo) ----
+(() => {
+  const box = document.getElementById('pontos'); if (!box) return;
+  const TOP = 30, MIN = 100;   // no aproveitamento, só clubes com MIN jogos ou mais
+  const pts = x => 3 * x[2] + x[3], nome = (a, b) => a[0].localeCompare(b[0], 'pt-BR');
+  const ORDEM = {
+    pontos: [...VIT].sort((a, b) => pts(b) - pts(a) || a[1] - b[1] || nome(a, b)),
+    aprov: VIT.filter(x => x[1] >= MIN).sort((a, b) => pts(b) / b[1] - pts(a) / a[1] || pts(b) - pts(a)),
+  };
+  const maxP = Math.max(...VIT.map(x => 3 * x[1]));
+  const corBarra = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  const fmtN = n => n.toLocaleString('pt-BR'), aprov = (p, j) => (100 * p / (3 * j)).toFixed(1).replace('.', ',') + '%';
+  let modo = 'pontos', todos = false;
+  const numeros = (j, p) => modo === 'pontos'
+    ? '<b>' + fmtN(p) + '</b> <span>pontos</span><small>' + aprov(p, j) + ' de aproveitamento · ' + fmtN(j) + ' jogos</small>'
+    : '<b>' + aprov(p, j) + '</b> <span>de aproveitamento</span><small>' + fmtN(p) + ' de ' + fmtN(3 * j) + ' pontos possíveis</small>';
+  function desenhar() {
+    const lista = ORDEM[modo];
+    document.querySelectorAll('#pn-ordem button').forEach(b => b.classList.toggle('ativo', b.dataset.modo === modo));
+    document.getElementById('pn-nota').textContent = modo === 'aprov' ? ' · no aproveitamento, só clubes com ' + MIN + ' jogos ou mais (' + lista.length + ')' : '';
+    box.innerHTML = (todos ? lista : lista.slice(0, TOP)).map(([c, j, v, e, d], k) => { const [c1, c2] = cor(c), p = 3 * v + e, t = 3 * j;
+      const dica = '<b>' + esc(c) + '</b><br>' + fmtN(p) + ' pontos em ' + fmtN(j) + ' jogos (' + aprov(p, j) + ')<br>' +
+        fmtN(v) + ' vitórias × 3 = ' + fmtN(3 * v) + '<br>' + fmtN(e) + ' empates × 1 = ' + fmtN(e) + '<br>' + fmtN(t - p) + ' pontos perdidos';
+      return '<div class="jv-linha"><div class="clube">' + (ESCUDOS[c] ? '<img class="escudo" alt="" src="' + ESCUDOS[c] + '" style="--c1:' + c1 + '">'
+        : '<span class="bola" style="background:linear-gradient(90deg,' + c1 + ' 0 55%,' + c2 + ' 55%)"></span>') + '<span>' + esc(c) + '</span></div>' +
+        '<div class="jv-area" data-dica="' + esc(dica) + '"><div class="jv-jogos" style="width:' + (100 * t / maxP).toFixed(2) + '%;--c:' + corBarra(c) + ';animation-delay:' + Math.min(k * 15, 450) + 'ms">' +
+        '<i class="v" style="width:' + (100 * 3 * v / t).toFixed(2) + '%"></i><i class="e" style="width:' + (100 * e / t).toFixed(2) + '%"></i>' +
+        '<i class="d" style="width:' + (100 * (t - p) / t).toFixed(2) + '%"></i></div></div>' +
+        '<div class="jv-num">' + numeros(j, p) + '</div></div>'; }).join('') +
+      (lista.length > TOP ? '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' primeiros' : 'Ver todos os ' + lista.length + ' clubes') + '</button>' : '');
+  }
+  box.addEventListener('click', ev => { if (ev.target.closest('.pt-mais')) { todos = !todos; desenhar(); } });
+  document.querySelectorAll('#pn-ordem button').forEach(b => b.addEventListener('click', () => { modo = b.dataset.modo; todos = false; desenhar(); }));
+  // Barras | Corrida: na corrida o aproveitamento não vale; corre só o total de pontos
+  document.querySelectorAll('#pn-vista button').forEach(b => b.addEventListener('click', () => {
+    const corrida = b.dataset.vista === 'corrida';
+    document.querySelectorAll('#pn-vista button').forEach(x => x.classList.toggle('ativo', x === b));
+    document.getElementById('pn-barras').hidden = corrida; document.getElementById('pn-corrida').hidden = !corrida;
+    document.getElementById('pn-ordem').hidden = corrida;
+    if (corrida && window.pnCorrida) window.pnCorrida();
+  }));
+  document.addEventListener('tema-mudou', desenhar);
+  desenhar();
+})();
+// ---- estatísticas e curiosidades: recordes em cartões, em quatro partes (Jogos | Clubes | Campeões | Edições) ----
+(() => {
+  const box = document.getElementById('curiosidades'); if (!box) return;
+  const fmtN = n => n.toLocaleString('pt-BR'), pct = x => (100 * x).toFixed(1).replace('.', ',') + '%', dec = x => x.toFixed(2).replace('.', ',');
+  const pl = (n, um, varios) => fmtN(n) + ' ' + (n === 1 ? um : varios), sinal = n => (n > 0 ? '+' : n < 0 ? '−' : '') + fmtN(Math.abs(n));
+  const escudo = (c, p) => ESCUDOS[c] ? '<img class="cu-esc' + (p ? ' p' : '') + '" alt="" src="' + ESCUDOS[c] + '" data-dica="' + esc(esc(c)) + '">'
+    : '<span class="cu-esc' + (p ? ' p' : '') + '" style="background:' + cor(c)[0] + '" data-dica="' + esc(esc(c)) + '"></span>';
+  const cartao = (rot, corpo, det) => '<div class="cu-card"><span class="cu-rot">' + rot + '</span>' + corpo + '<small>' + det + '</small></div>';
+  const jogo = j => '<div class="cu-jogo">' + escudo(j.m) + '<b>' + j.gm + ' × ' + j.gv + '</b>' + escudo(j.v) + '</div>';
+  const um = (c, num, txt) => '<div class="cu-um">' + (c ? escudo(c) : '') + '<b>' + num + '</b><span>' + txt + '</span></div>';
+  const varios = (cs, num, txt) => '<div class="cu-um">' + cs.map(c => escudo(c)).join('') + '<b>' + num + '</b><span>' + txt + '</span></div>';
+  const nomeJogo = j => '<b>' + esc(j.m) + '</b> × <b>' + esc(j.v) + '</b> · ' + j.ano;
+  const B = c => '<b>' + esc(c) + '</b>';
+  const campanha = x => x.j + ' jogos: ' + pl(x.v, 'vitória', 'vitórias') + ', ' + pl(x.e, 'empate', 'empates') + ', ' + pl(x.d, 'derrota', 'derrotas');
+  const edicao = x => x.ano + (x.comp ? ' · ' + x.comp : '');
+  const cartoes = xs => '<div class="cu-cartoes">' + xs.filter(Boolean).join('') + '</div>';
+  const bloco = (titulo, html, largo) => '<div class="cu-bloco' + (largo ? ' largo' : '') + '"><h3>' + titulo + '</h3>' + html + '</div>';
+  // linhas com barra e escudos (títulos por estado, campeões por década)
+  const linhas = (rows, dica) => { const mx = Math.max(...rows.map(r => r[1]));
+    return rows.map(([rot, n, cs]) => '<div class="cu-uf"><b>' + rot + '</b><div class="meio"><div class="trilho-uf" style="width:' + (55 * n / mx) + '%"></div>' +
+      '<div class="esc">' + cs.map(([c, k]) => '<span data-dica="' + esc(dica(c, k)) + '">' + escudo(c, true).replace(/ data-dica="[^"]*"/, '') + '</span>').join('') + '</div></div>' +
+      '<span class="n">' + n + '</span></div>').join(''); };
+
+  const JG = CUR.jogos, CL = CUR.clubes, CP = CUR.campeoes, ED_ = CUR.edicoes;
+  function parteJogos() {
+    const g = JG.goleada, fr = JG.freguesia, nf = fr.v + fr.e + fr.d;
+    const cards = [
+      cartao('Maior goleada', jogo(g), nomeJogo(g) + (g.tb.length ? '<br>também por ' + Math.abs(g.gm - g.gv) + ' gols: ' +
+        g.tb.map(j => esc(j.m) + ' ' + j.gm + ' × ' + j.gv + ' ' + esc(j.v) + ' (' + j.ano + ')').join(', ') : '')),
+      cartao('Maior goleada fora de casa', jogo(JG.fora), nomeJogo(JG.fora)),
+      cartao('Jogo com mais gols', jogo(JG.mais_gols), nomeJogo(JG.mais_gols) + ' · <b>' + (JG.mais_gols.gm + JG.mais_gols.gv) + ' gols</b>'),
+      cartao('Empate com mais gols', jogo(JG.empates[0]), JG.empates.map(nomeJogo).join('<br>')),
+      cartao('Confronto mais repetido', '<div class="cu-um"><b>' + fmtN(JG.confrontos[0].va + JG.confrontos[0].e + JG.confrontos[0].vb) + '</b><span>jogos entre os mesmos dois clubes</span></div>' +
+        JG.confrontos.map(x => '<div class="cu-par">' + escudo(x.a, true) + '<b>' + x.va + '</b> × <b>' + x.vb + '</b>' + escudo(x.b, true) + pl(x.e, 'empate', 'empates') + '</div>').join(''),
+        JG.confrontos.map(x => B(x.a) + ' × ' + B(x.b)).join('<br>')),
+      cartao('Maior freguesia', '<div class="cu-jogo">' + escudo(fr.a) + '<b>' + fr.v + ' × ' + fr.d + '</b>' + escudo(fr.b) + '</div>',
+        B(fr.a) + ' venceu ' + fr.v + ' e perdeu ' + fr.d + ' dos ' + nf + ' jogos contra o ' + B(fr.b) + ' (' + pl(fr.e, 'empate', 'empates') + ') · entre confrontos com ' + fr.min + ' jogos ou mais'),
+    ];
+    const [m, e, v] = JG.mando;
+    const mando = '<div class="cu-mando"><i class="m" style="width:' + 100 * m + '%">' + pct(m) + '</i><i class="e" style="width:' + 100 * e + '%">' + pct(e) + '</i><i class="v" style="width:' + 100 * v + '%">' + pct(v) + '</i></div>' +
+      '<div class="cu-mando-leg"><span>vitória do mandante</span><span>empate</span><span>vitória do visitante</span></div>';
+    // placares: linha = gols do mandante, coluna = gols do visitante
+    const q = {}; let maxQ = 0; for (const [a, b, n] of JG.placar) { q[a + 'x' + b] = n; maxQ = Math.max(maxQ, n); }
+    const top3 = JG.placar.slice().sort((x, y) => y[2] - x[2]).slice(0, 3).map(([a, b]) => a + 'x' + b);
+    let placar = '<span></span>' + [0, 1, 2, 3, 4, 5].map(b => '<span>' + b + '</span>').join('');
+    for (let a = 0; a <= 5; a++) { placar += '<span>' + a + '</span>';
+      for (let b = 0; b <= 5; b++) { const n = q[a + 'x' + b] || 0;
+        placar += '<i class="' + (top3.includes(a + 'x' + b) ? 'top' : '') + '" style="--a:' + Math.round(85 * n / maxQ) + '%" data-dica="' + esc('<b>' + a + ' × ' + b + '</b><br>' + fmtN(n) + ' jogos (' + pct(n / JG.n) + ')') + '">' +
+          a + '×' + b + '<small>' + pct(n / JG.n) + '</small></i>'; } }
+    return cartoes(cards) + '<div class="cu-grade">' + bloco('Mando de campo · ' + fmtN(JG.n) + ' jogos', mando) +
+      bloco('Placares mais comuns · mandante × visitante', '<div class="cu-placar">' + placar + '</div>') + '</div>';
+  }
+  function parteClubes() {
+    const x = CL, lt = x.lanterna, ltTit = lt.c.filter(c => ED.some(e => e.campeao === c));
+    return cartoes([
+      cartao('Mais edições seguidas', um(x.seguidas.c, x.seguidas.n, 'edições sem faltar'), B(x.seguidas.c) + ' · de ' + x.seguidas.de + ' a ' + x.seguidas.ate),
+      cartao('Mais edições sem título', um(x.sem_titulo.c, x.sem_titulo.n, 'edições sem ser campeão'), B(x.sem_titulo.c)),
+      cartao('Mais vitórias numa edição', um(x.vit.c, x.vit.v, 'vitórias em ' + x.vit.j + ' jogos'), B(x.vit.c) + ' · ' + x.vit.ano),
+      cartao('Mais gols numa edição', um(x.gols.c, x.gols.gp, 'gols em ' + x.gols.j + ' jogos'), B(x.gols.c) + ' · ' + x.gols.ano),
+      cartao('Melhor saldo numa edição', um(x.saldo.c, sinal(x.saldo.gp - x.saldo.gc), 'de saldo'), B(x.saldo.c) + ' · ' + x.saldo.ano + ' · ' + x.saldo.gp + ' feitos, ' + x.saldo.gc + ' sofridos'),
+      cartao('Melhor defesa numa edição', um(x.defesa.c, x.defesa.gc, 'gols sofridos em ' + x.defesa.j + ' jogos'), B(x.defesa.c) + ' · ' + x.defesa.ano + ' · ' + dec(x.defesa.gc / x.defesa.j) + ' por jogo · entre campanhas de ' + x.defesa.min + ' jogos ou mais'),
+      cartao('Mais derrotas numa edição', um(x.der.c, x.der.d, 'derrotas em ' + x.der.j + ' jogos'), B(x.der.c) + ' · ' + x.der.ano),
+      cartao('Pior campanha', um(x.pior.c, pct(x.pior.ap), 'de aproveitamento'), B(x.pior.c) + ' · ' + x.pior.ano + ' · ' + campanha(x.pior)),
+      cartao('Mais vezes em último', varios(lt.c, lt.n, 'vezes lanterna'),
+        lt.c.map(c => B(c) + (ltTit.includes(c) ? ' · e também já foi campeão (' + ED.filter(e => e.campeao === c).map(e => e.ano).join(', ') + ')' : '')).join('<br>')),
+      cartao('Maior tempo fora', um(x.volta.c, x.volta.n, 'anos sem jogar'), B(x.volta.c) + ' · jogou em ' + x.volta.de + ' e só voltou em ' + x.volta.ate),
+      cartao('Uma vez e nunca mais', um(null, x.uma_vez, 'clubes jogaram uma só edição'), 'de ' + Object.keys(PART).length + ' clubes que já disputaram ' + CONF.o),
+    ]);
+  }
+  function parteCampeoes() {
+    const x = CP, inv = x.invictos;
+    return cartoes([
+      cartao('Mais títulos seguidos', um(x.seq.c, x.seq.n, 'títulos seguidos'), B(x.seq.c) + ' · de ' + x.seq.de + ' a ' + x.seq.ate),
+      cartao('Maior jejum entre títulos', um(x.jejum.c, x.jejum.n, 'anos de espera'), B(x.jejum.c) + ' · campeão em ' + x.jejum.de + ' e de novo só em ' + x.jejum.ate),
+      cartao(inv.length === 1 ? 'Campeão invicto' : 'Campeões invictos', varios(inv.map(i => i.c), inv.map(i => i.ano).join(', '), ''), inv.map(i => B(i.c) + ' · ' + campanha(i)).join('<br>')),
+      cartao('Melhor campanha de campeão', um(x.melhor.c, pct(x.melhor.ap), 'de aproveitamento'), B(x.melhor.c) + ' · ' + x.melhor.ano + ' · ' + campanha(x.melhor)),
+      cartao('Pior campanha de campeão', um(x.pior.c, pct(x.pior.ap), 'de aproveitamento'), B(x.pior.c) + ' · ' + x.pior.ano + ' · ' + campanha(x.pior)),
+      x.pontos && cartao('Campeão com mais pontos', um(x.pontos.c, x.pontos.pts, 'pontos em ' + x.pontos.j + ' jogos'), B(x.pontos.c) + ' · ' + x.pontos.ano + ' · pontos corridos'),
+      x.pontos20 && cartao('Mais pontos com 20 clubes', um(x.pontos20.c, x.pontos20.pts, 'pontos em ' + x.pontos20.j + ' jogos'), B(x.pontos20.c) + ' · ' + x.pontos20.ano + ' · desde ' + x.pc20_desde),
+      x.vantagem && cartao('Maior vantagem sobre o vice', um(x.vantagem.c, x.vantagem.vant, 'pontos à frente'), B(x.vantagem.c) + ' · ' + x.vantagem.ano + ' · vice: ' + B(x.vantagem.vice)),
+      x.apertados.length > 0 && cartao('Título mais apertado', varios(x.apertados.map(a => a.c), x.apertados[0].vant, x.apertados[0].vant === 1 ? 'ponto à frente' : 'pontos à frente'),
+        x.apertados.map(a => B(a.c) + ' · ' + a.ano + ' · vice: ' + B(a.vice)).join('<br>') + '<br>pontos corridos, desde ' + x.pc_desde),
+      cartao('Vices sem nenhum título', '<div class="cu-um"><b>' + x.vices_sem.length + '</b><span>clubes chegaram<br>perto e pararam</span></div>',
+        '<div class="cu-escudos">' + x.vices_sem.map(([c]) => escudo(c, true)).join('') + '</div>' + x.vices_sem.map(([c, q]) => esc(c) + (q > 1 ? ' (' + q + ')' : '')).join(', ')),
+    ]) + '<div class="cu-grade">' +
+      bloco('Títulos por estado', linhas(x.uf, (c, k) => '<b>' + esc(c) + '</b>: ' + pl(k, 'título', 'títulos'))) +
+      bloco('Campeões diferentes por década', linhas(x.decadas.map(([d, n, cs]) => [d + 's', n, cs]), c => '<b>' + esc(c) + '</b>')) + '</div>';
+  }
+  function parteEdicoes() {
+    const x = ED_;
+    const cards = [
+      cartao('Edição com mais clubes', um(null, x.mais_clubes.n, 'clubes'), edicao(x.mais_clubes)),
+      cartao('Edição com menos clubes', um(null, x.menos_clubes.n, 'clubes'), edicao(x.menos_clubes)),
+      cartao('Edição com mais jogos', um(null, fmtN(x.mais_jogos.j), 'jogos'), edicao(x.mais_jogos)),
+      cartao('Edição com mais gols', um(null, fmtN(x.mais_gols.g), 'gols'), edicao(x.mais_gols) + ' · ' + dec(x.mais_gols.g / x.mais_gols.j) + ' por jogo'),
+      cartao('Edição com menos jogos', um(null, fmtN(x.menos_jogos.j), 'jogos'), edicao(x.menos_jogos)),
+      cartao('Mais clubes estreando', um(null, x.estreantes.est, 'estreantes'), edicao(x.estreantes) + ' · de ' + x.estreantes.n + ' clubes'),
+      x.duplos.length > 0 && cartao('Anos com dois campeões', '<div class="cu-um"><b>' + x.duplos.length + '</b><span>anos tiveram duas<br>edições ao mesmo tempo</span></div>',
+        x.duplos.map(([a, cs]) => '<b>' + a + '</b>: ' + (new Set(cs).size === 1 ? esc(cs[0]) + ' ganhou as duas' : cs.map(c => esc(c)).join(' e '))).join('<br>')),
+      x.formatos.length > 1 && cartao('Formatos da disputa', '<div class="cu-um"><b>' + x.formatos.length + '</b><span>competições contam<br>como Brasileiro</span></div>',
+        x.formatos.map(([c, q]) => '<b>' + esc(c) + '</b>: ' + pl(q, 'edição', 'edições')).join('<br>')),
+    ];
+    // gols por jogo em cada edição (as duas pontas em dourado)
+    const E = x.por_ed.map(e => ({ ...e, m: e.g / e.j })), W = 1000, H = 230, ML = 34, MR = 10, MT = 26, MB = 26;
+    const maxM = Math.ceil(Math.max(...E.map(e => e.m))), bw = (W - ML - MR) / E.length;
+    const Yg = m => H - MB - m / maxM * (H - MT - MB);
+    const iMax = E.reduce((a, e, i) => e.m > E[a].m ? i : a, 0), iMin = E.reduce((a, e, i) => e.m < E[a].m ? i : a, 0);
+    const media = E.reduce((a, e) => a + e.g, 0) / E.reduce((a, e) => a + e.j, 0);
+    let svg = '';
+    for (let m = 0; m <= maxM; m++) svg += '<line class="cr-grade" x1="' + ML + '" x2="' + (W - MR) + '" y1="' + Yg(m) + '" y2="' + Yg(m) + '"/><text class="cr-eixo" x="' + (ML - 8) + '" y="' + (Yg(m) + 4) + '" text-anchor="end">' + m + '</text>';
+    E.forEach((e, i) => {
+      const cls = i === iMax ? ' max' : i === iMin ? ' min' : '';
+      svg += '<rect class="cu-barra-g' + cls + '" x="' + (ML + i * bw + 1) + '" y="' + Yg(e.m) + '" width="' + (bw - 2) + '" height="' + (H - MB - Yg(e.m)) + '" rx="2" data-dica="' +
+        esc('<b>' + edicao(e) + '</b><br>' + dec(e.m) + ' gols por jogo<br>' + fmtN(e.g) + ' gols em ' + fmtN(e.j) + ' jogos · ' + e.n + ' clubes') + '"/>';
+      if (i === 0 || (e.ano % 10 === 0 && E[i - 1].ano % 10 !== 0 && i > 3)) svg += '<text class="cr-eixo" x="' + (ML + i * bw + bw / 2) + '" y="' + (H - 6) + '" text-anchor="middle">' + e.ano + '</text>';
+      if (cls) svg += '<text class="cu-txt" x="' + (ML + i * bw + bw / 2) + '" y="' + (Yg(e.m) - 7) + '" text-anchor="' + (i < 3 ? 'start' : 'middle') + '">' + dec(e.m) + ' em ' + e.ano + '</text>';
+    });
+    svg += '<line class="cu-media" x1="' + ML + '" x2="' + (W - MR) + '" y1="' + Yg(media) + '" y2="' + Yg(media) + '"/><text class="cu-txt" x="' + (W - MR) + '" y="' + (Yg(media) - 6) + '" text-anchor="end">média ' + dec(media) + '</text>';
+    return cartoes(cards) + '<div class="cu-grade">' + bloco('Gols por jogo em cada edição', '<svg id="cu-gols" viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="Gols por jogo em cada edição">' + svg + '</svg>', true) + '</div>';
+  }
+  const PARTES = { jogos: parteJogos, clubes: parteClubes, campeoes: parteCampeoes, edicoes: parteEdicoes };
+  const bs = document.querySelectorAll('#cu-parte button');
+  const abrir = k => { bs.forEach(b => b.classList.toggle('ativo', b.dataset.parte === k)); box.innerHTML = PARTES[k](); };
+  bs.forEach(b => b.addEventListener('click', () => abrir(b.dataset.parte)));
+  abrir('jogos');
+})();
+// ---- por campeonato: escolhe a edição (lista ou setas) e vê números, pódio e classificação final ----
+(() => {
+  const sel = document.getElementById('cp-sel'); if (!sel) return;
+  const IDX = Object.fromEntries(EDS.map((e, i) => [e.id, i])), TOP = 20;
+  const fmtN = n => n.toLocaleString('pt-BR');
+  const sinal = n => (n > 0 ? '+' : n < 0 ? '−' : '') + fmtN(Math.abs(n));
+  const escudo = (c, cls) => ESCUDOS[c] ? '<img class="cp-esc' + (cls ? ' ' + cls : '') + '" alt="" src="' + ESCUDOS[c] + '">'
+    : '<span class="cp-esc' + (cls ? ' ' + cls : '') + '" style="background:linear-gradient(90deg,' + cor(c)[0] + ' 0 55%,' + cor(c)[1] + ' 55%)"></span>';
+  const MEDIA = EDS.reduce((a, e) => a + e.g, 0) / EDS.reduce((a, e) => a + e.j, 0);
+  // lista por década, da mais nova para a mais antiga
+  const dec10 = {}; EDS.forEach(e => (dec10[Math.floor(e.ano / 10) * 10] = dec10[Math.floor(e.ano / 10) * 10] || []).push(e));
+  sel.innerHTML = Object.keys(dec10).sort((a, b) => b - a).map(d => '<optgroup label="Anos ' + d + '">' +
+    dec10[d].slice().reverse().map(e => '<option value="' + e.id + '">' + e.ano + ' · ' + esc(e.nome) + '</option>').join('') + '</optgroup>').join('');
+  let atual = EDS[EDS.length - 1].id, todos = false;
+  const dec = x => x.toFixed(2).replace('.', ',');
+  const kpi = (v, rot, sub) => '<div class="kpi"><b>' + v + '</b><span>' + rot + '</span><small>' + sub + '</small></div>';
+  function mostrar(id) {
+    if (id !== atual) { todos = false; grupoJ = EDS[IDX[id]].grupos.length - 1; }
+    atual = id; sel.value = id; if (sel.sincronizar) sel.sincronizar();
+    const i = IDX[id], e = EDS[i], g = e.gol, t = e.tab, pts = r => e.pv * r[3] + r[4];
+    document.getElementById('cp-ant').disabled = i === 0; document.getElementById('cp-prox').disabled = i === EDS.length - 1;
+    document.getElementById('cp-titulo').textContent = e.ano + ' · ' + e.nome;
+    document.getElementById('cp-cartoes').innerHTML = [
+      kpi(t.length, 'Clubes', 'na classificação final'),
+      kpi(e.est, 'Estreantes', e.est === 1 ? 'clube pela 1ª vez' : 'clubes pela 1ª vez'),
+      kpi(fmtN(e.j), 'Jogos', 'partidas disputadas'),
+      kpi(fmtN(e.g), 'Gols', 'marcados na edição'),
+      kpi(dec(e.g / e.j), 'Gols por jogo', 'média da história: ' + dec(MEDIA)),
+      kpi(g.gm + ' × ' + g.gv, 'Maior goleada', esc(g.m) + ' × ' + esc(g.v)),
+      kpi(e.pv, 'Pontos por vitória', e.mata ? 'mata-mata' : 'empate vale 1'),
+    ].join('');
+    const nota = document.getElementById('cp-nota'); nota.textContent = e.nota; nota.hidden = !e.nota;
+    // pódio: 2º, 1º, 3º
+    const cl = (r, k) => r ? '<div class="pd pd' + k + '">' + escudo(r[0]) + '<b>' + esc(r[0]) + '</b><small>' + r[3] + ' V · ' + r[4] + ' E · ' + r[5] + ' D</small><div class="degrau">' + k + 'º</div></div>' : '';
+    document.getElementById('cp-podio').innerHTML = '<div class="podio">' + cl(t[1], 2) + cl(t[0], 1) + cl(t[2], 3) + '</div>';
+    // classificação final
+    const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos, J, V, E, D, GP, GC] = r, sg = GP - GC;
+      return '<tr class="' + (pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
+        (e.mata ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td>' + GP + '</td><td>' + GC + '</td>' +
+        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td></tr>'; }).join('');
+    document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (e.mata ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
+      '<th>J</th><th>V</th><th>E</th><th>D</th><th>GP</th><th>GC</th><th>SG</th></tr></thead><tbody>' + linhas + '</tbody></table></div>' +
+      (t.length > TOP ? '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' primeiros' : 'Ver todos os ' + t.length + ' clubes') + '</button>' : '');
+    resumo(e); participantes(e); jogos(e); corrida(e); artilharia(e);
+  }
+  // ---- Resumo: destaques e como foi a disputa
+  const escP = (c, p) => ESCUDOS[c] ? '<img class="cu-esc' + (p ? ' p' : '') + '" alt="" src="' + ESCUDOS[c] + '">'
+    : '<span class="cu-esc' + (p ? ' p' : '') + '" style="background:' + cor(c)[0] + '"></span>';
+  const cartao = (rot, corpo, det) => '<div class="cu-card"><span class="cu-rot">' + rot + '</span>' + corpo + '<small>' + det + '</small></div>';
+  const um = (c, num, txt) => '<div class="cu-um">' + (c ? escP(c) : '') + '<b>' + num + '</b><span>' + txt + '</span></div>';
+  const pct = x => (100 * x).toFixed(1).replace('.', ',') + '%';
+  const melhor = (t, f) => t.reduce((a, r) => f(r) > f(a) ? r : a);   // primeiro na classificação vence o empate
+  const TIPO = { liga: 'pontos corridos', grupo: 'grupos', grupos: 'grupos', mata_mata: 'mata-mata' };
+  const SERIE = { ida_volta: 'ida e volta', jogo_unico: 'jogo único', pontos_corridos: 'turno e returno', grupos: '' };
+  // ---- Participantes: estreantes, veteranos, de onde cada clube chegou e para onde foi
+  const NV = n => CONF.niveis[n] || ('divisão ' + n);
+  function participantes(e) {
+    const i = IDX[e.id], N = CONF.nivel, t = e.tab, mv = e.mv || t.map(() => [null, null]);
+    const vezes = c => (PART[c] || []).filter(([k]) => k <= i).length;
+    const linhas = t.map((r, k) => ({ c: r[0], pos: r[1], n: vezes(r[0]), veio: mv[k][0], foi: mv[k][1] }));
+    const lista = (xs, txt) => xs.length ? '<div class="cu-escudos">' + xs.map(x => escP(x.c, true)).join('') + '</div>' + xs.map(x => esc(x.c) + (txt ? txt(x) : '')).join(', ') : '';
+    const grupo = (rot, xs, num, det, txt) => xs.length ? cartao(rot, um(null, num ?? xs.length, det), lista(xs, txt)) : '';
+    const est = linhas.filter(x => x.n === 1), maxN = Math.max(...linhas.map(x => x.n));
+    const vet = linhas.filter(x => x.n === maxN);
+    if (N === null) return participantesCopa(e, linhas, est, vet, maxN, lista, grupo);
+    document.getElementById('cpp-cartoes').innerHTML = '<div class="cu-cartoes">' + [
+      grupo('Estreantes', est, null, est.length === 1 ? 'clube pela 1ª vez' : 'clubes pela 1ª vez'),
+      maxN > 1 ? grupo(vet.length === 1 ? 'Mais veterano' : 'Mais veteranos', vet, maxN + 'ª', 'participação') : '',
+      grupo('Caíram da ' + NV(N - 1), linhas.filter(x => x.veio && x.veio < N), null, 'rebaixados no ano anterior'),
+      grupo('Subiram da ' + NV(N + 1), linhas.filter(x => x.veio && x.veio > N), null, 'promovidos no ano anterior'),
+      grupo('Subiram para a ' + NV(N - 1), linhas.filter(x => x.foi && x.foi < N), null, 'no ano seguinte', x => ' (' + x.pos + 'º)'),
+      grupo('Caíram para a ' + NV(N + 1), linhas.filter(x => x.foi && x.foi > N), null, 'no ano seguinte', x => ' (' + x.pos + 'º)'),
+    ].join('') + '</div>';
+    const seta = (v, de) => v === null ? '' : v === 0 ? '<span class="mv fora" title="não jogou nenhuma série do banco em ' + (e.ano + (de ? -1 : 1)) + '">—</span>'
+      : v === N ? '<span class="mv">' + (de ? 'já estava' : 'ficou') + '</span>'
+      : (v < N) === de ? '<span class="mv cai">↓ ' + (de ? 'caiu da ' : 'caiu para a ') + NV(v) + '</span>'
+      : '<span class="mv sobe">↑ ' + (de ? 'subiu da ' : 'subiu para a ') + NV(v) + '</span>';
+    document.getElementById('cpp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab cpp-tab"><thead><tr><th></th><th>Clube</th><th>Participação</th><th>Chegou</th><th>No ano seguinte</th></tr></thead><tbody>' +
+      linhas.map(x => '<tr class="' + (x.pos <= 3 ? 'p' + x.pos : '') + '"><td class="pos">' + x.pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(x.c) + '">' + escudo(x.c) + esc(x.c) + '</a></td>' +
+        '<td>' + x.n + 'ª' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</td>' +
+        '<td>' + seta(x.veio, true) + '</td><td>' + seta(x.foi, false) + '</td></tr>').join('') + '</tbody></table></div>';
+  }
+  // copa: em vez de subir e cair, a divisão em que cada clube jogava naquele ano
+  function participantesCopa(e, linhas, est, vet, maxN, lista, grupo) {
+    const div = v => v === null ? '' : v === 0 ? '<span class="mv fora">fora das séries</span>' : '<span class="mv">' + NV(v) + '</span>';
+    const niveis = [...new Set(linhas.map(x => x.veio).filter(v => v !== null))].sort((a, b) => (a || 99) - (b || 99));
+    document.getElementById('cpp-cartoes').innerHTML = '<div class="cu-cartoes">' + [
+      grupo('Estreantes', est, null, est.length === 1 ? 'clube pela 1ª vez' : 'clubes pela 1ª vez'),
+      maxN > 1 ? grupo(vet.length === 1 ? 'Mais veterano' : 'Mais veteranos', vet, maxN + 'ª', 'participação') : '',
+      ...niveis.map(v => grupo(v ? 'Da ' + NV(v) : 'Fora das séries', linhas.filter(x => x.veio === v), null, 'no ano de ' + e.ano)),
+    ].join('') + '</div>';
+    document.getElementById('cpp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab cpp-tab"><thead><tr><th></th><th>Clube</th><th>Participação</th><th>Série no ano</th></tr></thead><tbody>' +
+      linhas.map(x => '<tr class="' + (x.pos <= 3 ? 'p' + x.pos : '') + '"><td class="pos">' + x.pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(x.c) + '">' + escudo(x.c) + esc(x.c) + '</a></td>' +
+        '<td>' + x.n + 'ª' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</td>' +
+        '<td>' + div(x.veio) + '</td></tr>').join('') + '</tbody></table></div>';
+  }
+  function resumo(e) {
+    const t = e.tab, J = e.jogos, maxJ = Math.max(...t.map(r => r[2]));
+    const ataque = melhor(t, r => r[6]), defesa = melhor(t.filter(r => r[2] >= maxJ / 2), r => -r[7] / r[2]);
+    const vit = melhor(t, r => r[3]), emp = melhor(t, r => r[4]), lant = t[t.length - 1];
+    const mais = J.reduce((a, x) => x[3] + x[4] > a[3] + a[4] ? x : a, J[0]);
+    const m = J.filter(x => x[3] > x[4]).length / J.length, em = J.filter(x => x[3] === x[4]).length / J.length;
+    const pts = r => e.pv * r[3] + r[4], art = e.art[0];
+    // melhor mandante e melhor visitante: maior aproveitamento jogando em casa / fora
+    // (só quem fez pelo menos metade dos jogos do que mais jogou ali; empate, mais pontos)
+    const lado = qual => { const c = t.map(() => [0, 0, 0]);   // jogos, vitórias, empates
+      for (const [, mi, vi, gm, gv] of J) { const k = qual === 'm' ? mi : vi, a = qual === 'm' ? gm : gv, b = qual === 'm' ? gv : gm;
+        c[k][0]++; if (a > b) c[k][1]++; else if (a === b) c[k][2]++; }
+      const mx = Math.max(...c.map(x => x[0])), pt = x => e.pv * x[1] + x[2];
+      let k = -1; c.forEach((x, i) => { if (x[0] < mx / 2) return;
+        if (k < 0 || pt(x) / x[0] > pt(c[k]) / c[k][0] || (pt(x) / x[0] === pt(c[k]) / c[k][0] && pt(x) > pt(c[k]))) k = i; });
+      const x = c[k]; return { c: t[k][0], j: x[0], v: x[1], e: x[2], d: x[0] - x[1] - x[2], pts: pt(x), ap: pt(x) / (e.pv * x[0]) }; };
+    const casa = lado('m'), fora = lado('v');
+    const ladoCard = (rot, x, onde) => cartao(rot, um(x.c, x.pts, 'pontos ' + onde + ' em ' + x.j + ' jogos'),
+      '<b>' + esc(x.c) + '</b> · ' + x.v + ' V · ' + x.e + ' E · ' + x.d + ' D · ' + pct(x.ap) + ' de aproveitamento');
+    const cards = [
+      cartao('Melhor ataque', um(ataque[0], ataque[6], 'gols em ' + ataque[2] + ' jogos'), '<b>' + esc(ataque[0]) + '</b> · ' + ataque[1] + 'º colocado'),
+      cartao('Melhor defesa', um(defesa[0], defesa[7], 'gols sofridos em ' + defesa[2] + ' jogos'), '<b>' + esc(defesa[0]) + '</b> · ' + dec(defesa[7] / defesa[2]) + ' por jogo'),
+      cartao('Mais vitórias', um(vit[0], vit[3], 'vitórias em ' + vit[2] + ' jogos'), '<b>' + esc(vit[0]) + '</b> · ' + vit[1] + 'º colocado'),
+      cartao('Mais empates', um(emp[0], emp[4], 'empates em ' + emp[2] + ' jogos'), '<b>' + esc(emp[0]) + '</b> · ' + emp[1] + 'º colocado'),
+      cartao('Jogo com mais gols', '<div class="cu-jogo">' + escP(t[mais[1]][0]) + '<b>' + mais[3] + ' × ' + mais[4] + '</b>' + escP(t[mais[2]][0]) + '</div>',
+        '<b>' + esc(t[mais[1]][0]) + '</b> × <b>' + esc(t[mais[2]][0]) + '</b> · ' + esc(e.grupos[mais[0]])),
+      cartao('Mando de campo', '<div class="cu-mando"><i class="m" style="width:' + 100 * m + '%">' + pct(m) + '</i><i class="e" style="width:' + 100 * em + '%"></i><i class="v" style="width:' + 100 * (1 - m - em) + '%"></i></div>',
+        'vitória do mandante · ' + pct(em) + ' de empates · ' + pct(1 - m - em) + ' vitória do visitante'),
+      ladoCard('Melhor mandante', casa, 'em casa'),
+      ladoCard('Melhor visitante', fora, 'fora'),
+    ];
+    if (e.cor) cards.push(cartao('Vantagem do campeão', um(t[0][0], pts(t[0]) - pts(t[1]), pts(t[0]) - pts(t[1]) === 1 ? 'ponto à frente' : 'pontos à frente'),
+      '<b>' + esc(t[0][0]) + '</b> ' + pts(t[0]) + ' × ' + pts(t[1]) + ' <b>' + esc(t[1][0]) + '</b>'));
+    if (art) cards.push(cartao('Artilheiro', um(art[1], art[2], 'gols'), '<b>' + esc(art[0]) + '</b> · ' + esc(art[1])));
+    cards.push(cartao('Lanterna', um(lant[0], lant[1] + 'º', 'e último lugar'), '<b>' + esc(lant[0]) + '</b> · ' + lant[3] + ' V · ' + lant[4] + ' E · ' + lant[5] + ' D'));
+    document.getElementById('cp-destaques').innerHTML = '<div class="cu-cartoes">' + cards.join('') + '</div>';
+    document.getElementById('cp-disputa').innerHTML = '<ol class="cp-fases">' + e.disputa.map(([n, tp, sr, ng, nj, nc]) =>
+      '<li><b>' + esc(n) + '</b><span>' + [TIPO[tp] || '', SERIE[sr] || '', ng > 1 ? ng + ' grupos' : '', nc + ' clubes', nj + (nj === 1 ? ' jogo' : ' jogos')].filter(Boolean).join(' · ') + '</span></li>').join('') + '</ol>';
+  }
+  // ---- Jogos: por rodada ou por fase
+  const jsel = document.getElementById('cpj-sel');
+  let grupoJ = 0;
+  function jogos(e) {
+    jsel.innerHTML = e.grupos.map((g, k) => '<option value="' + k + '">' + esc(g) + '</option>').join('');
+    jsel.value = grupoJ; document.getElementById('cpj-ant').disabled = grupoJ === 0; document.getElementById('cpj-prox').disabled = grupoJ === e.grupos.length - 1;
+    const t = e.tab, lado = (c, cls) => '<span class="' + cls + '">' + (cls === 'm' ? esc(c) + escP(c, true) : escP(c, true) + esc(c)) + '</span>';
+    let sub = null, html = '';
+    for (const [g, mi, vi, gm, gv, sg] of e.jogos) { if (g !== grupoJ) continue;
+      if (sg !== sub) { if (sub !== null) html += '</div>'; html += (sg ? '<h3 class="cp-subgrupo">Grupo ' + esc(sg) + '</h3>' : '') + '<div class="cp-jogos">'; sub = sg; }
+      html += '<div class="cp-jogo' + (gm > gv ? ' vm' : gm < gv ? ' vv' : '') + '">' + lado(t[mi][0], 'm') + '<b>' + gm + ' × ' + gv + '</b>' + lado(t[vi][0], 'v') + '</div>'; }
+    document.getElementById('cpj-lista').innerHTML = (html || '<p class="cp-nota">Sem jogos registrados.</p>') + (sub !== null ? '</div>' : '');
+  }
+  jsel.addEventListener('change', () => { grupoJ = +jsel.value; jogos(EDS[IDX[atual]]); });
+  document.getElementById('cpj-ant').addEventListener('click', () => { if (grupoJ > 0) { grupoJ--; jogos(EDS[IDX[atual]]); } });
+  document.getElementById('cpj-prox').addEventListener('click', () => { const e = EDS[IDX[atual]]; if (grupoJ < e.grupos.length - 1) { grupoJ++; jogos(e); } });
+  // ---- Corrida (desde 2003) e Artilharia
+  const cpc = corridaPosicoes('cpc', false);
+  function corrida(e) {
+    const tem = !!e.cor;
+    document.getElementById('cpc-bloco').hidden = !tem; document.getElementById('cpc-sem').hidden = tem;
+    if (!tem) return;
+    const cl = e.cor.cl.map(k => e.tab[k][0]), pos = {}, acum = {};
+    cl.forEach((c, k) => { pos[c] = e.cor.pos[k]; acum[c] = e.cor.pts[k]; });
+    cpc.usar({ clubes: cl, pos, acum }, null, { rot: e.grupos.map((_, k) => k + 1), marca: (a, i) => i === 0 || a % 5 === 0, quebra: false,
+      nomear: a => 'Rodada ' + a, faixas: e.cor.faixas });
+  }
+  function artilharia(e) {
+    document.getElementById('cpa-sem').hidden = e.art.length > 0;
+    const mx = e.art.length ? e.art[0][2] : 1;
+    document.getElementById('cpa-lista').innerHTML = e.art.map(([j, c, n], k) => '<div class="cp-art"><span class="n">' + (k + 1) + 'º</span>' +
+      '<div class="quem"><b>' + esc(j) + '</b><span>' + escP(c, true) + esc(c) + '</span></div><div class="trilho"><i style="width:' + (100 * n / mx) + '%;--c:' + corDe(c) + '"></i></div><b class="gols">' + n + '</b></div>').join('');
+  }
+  const corDe = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  document.addEventListener('tema-mudou', () => artilharia(EDS[IDX[atual]]));
+  let subAtual = 'resumo', feito = false;
+  const ir = id => { location.hash = 'campeonato/' + subAtual + '/' + id; };
+  sel.addEventListener('change', () => ir(sel.value));
+  document.getElementById('cp-ant').addEventListener('click', () => { const i = IDX[atual]; if (i > 0) ir(EDS[i - 1].id); });
+  document.getElementById('cp-prox').addEventListener('click', () => { const i = IDX[atual]; if (i < EDS.length - 1) ir(EDS[i + 1].id); });
+  document.getElementById('cp-tabela').addEventListener('click', ev => { if (ev.target.closest('.pt-mais')) { todos = !todos; mostrar(atual); } });
+  // a aba avisa quando abre; a edição vem do endereço (#campeonato/2019) ou fica a última vista
+  document.addEventListener('aba-aberta', ev => {
+    if (ev.detail.k !== 'campeonato') return;
+    subAtual = ev.detail.sub;
+    const id = ev.detail.resto in IDX ? ev.detail.resto : atual;
+    if (id !== atual || !feito) { feito = true; mostrar(id); }
+    if (ev.detail.resto !== id) history.replaceState(null, '', '#campeonato/' + subAtual + '/' + id);
+  });
+})();
+// ---- por clube: escolhe o clube e vê números, trajetória, campanhas, confrontos, jogos e artilharia ----
+(() => {
+  const sel = document.getElementById('cl-sel'); if (!sel) return;
+  const CLUBES = Object.keys(PART).sort((a, b) => a.localeCompare(b, 'pt-BR')), POR = Object.fromEntries(CLUBES.map(c => [slugClube(c), c]));
+  sel.innerHTML = CLUBES.map(c => '<option value="' + slugClube(c) + '">' + esc(c) + '</option>').join('');
+  const VITc = Object.fromEntries(VIT.map(x => [x[0], x])), TOP = 30;
+  const fmtN = n => n.toLocaleString('pt-BR'), pct = x => (100 * x).toFixed(1).replace('.', ',') + '%', dec = x => x.toFixed(2).replace('.', ',');
+  const sinal = n => (n > 0 ? '+' : n < 0 ? '−' : '') + fmtN(Math.abs(n));
+  const pl = (n, um, varios) => fmtN(n) + ' ' + (n === 1 ? um : varios);
+  const escP = (c, p) => ESCUDOS[c] ? '<img class="cu-esc' + (p ? ' p' : '') + '" alt="" src="' + ESCUDOS[c] + '">'
+    : '<span class="cu-esc' + (p ? ' p' : '') + '" style="background:' + cor(c)[0] + '"></span>';
+  const cartao = (rot, corpo, det) => '<div class="cu-card"><span class="cu-rot">' + rot + '</span>' + corpo + '<small>' + det + '</small></div>';
+  const um = (c, num, txt) => '<div class="cu-um">' + (c ? escP(c) : '') + '<b>' + num + '</b><span>' + txt + '</span></div>';
+  const kpi = (v, rot, sub) => '<div class="kpi"><b>' + v + '</b><span>' + rot + '</span><small>' + sub + '</small></div>';
+  const nomeEd = i => EDS[i].ano + (EDP[i].comp ? ' · ' + EDP[i].comp : '');
+  let atual = 'palmeiras', subAtual = 'resumo', feito = false, todosConf = false, edJ = null;
+  // jogos do clube: [edição, grupo, adversário, gols pró, gols contra, em casa?]
+  const cacheJ = {};
+  const jogosDe = c => cacheJ[c] = cacheJ[c] || EDS.flatMap((e, i) => { const k = e.tab.findIndex(r => r[0] === c); if (k < 0) return [];
+    return e.jogos.filter(x => x[1] === k || x[2] === k).map(([g, mi, vi, gm, gv]) => mi === k ? [i, g, e.tab[vi][0], gm, gv, true] : [i, g, e.tab[mi][0], gv, gm, false]); });
+  // campanhas: [edição, posição, J, V, E, D, GP, GC]
+  const campanhas = c => PART[c].map(([i, pos]) => { const r = EDS[i].tab.find(x => x[0] === c); return [i, pos, r[2], r[3], r[4], r[5], r[6], r[7]]; });
+  const MED = { ouro: 'campeão', prata: 'vice', bronze: '3º lugar' };
+
+  function cabecalho(c, cs) {
+    const x = VITc[c], tit = ED.map((e, i) => [e, i]).filter(([e]) => e.campeao === c), vic = ED.filter(e => e.vice === c), ter = ED.filter(e => e.terceiro === c);
+    document.getElementById('cl-escudo').innerHTML = escP(c);
+    document.getElementById('cl-titulo').textContent = c;
+    document.getElementById('cl-cartoes').innerHTML = [
+      kpi(cs.length, 'Participações', 'estreia em ' + EDS[cs[0][0]].ano),
+      kpi(tit.length, tit.length === 1 ? 'Título' : 'Títulos', tit.length ? 'último em ' + tit[tit.length - 1][0].ano : 'ainda sem título'),
+      kpi(vic.length, vic.length === 1 ? 'Vice' : 'Vices', vic.length ? 'último em ' + vic[vic.length - 1].ano : '—'),
+      kpi(ter.length, 'Terceiros', ter.length ? 'último em ' + ter[ter.length - 1].ano : '—'),
+      kpi(fmtN(x[1]), 'Jogos', x[2] + ' V · ' + x[3] + ' E · ' + x[4] + ' D'),
+      kpi(pct((3 * x[2] + x[3]) / (3 * x[1])), 'Aproveitamento', 'vitória 3, empate 1'),
+      kpi(fmtN(x[5]), 'Gols', 'sofreu ' + fmtN(x[6]) + ' · saldo ' + sinal(x[5] - x[6])),
+    ].join('');
+  }
+  // ---- Resumo: trajetória, pódios e destaques
+  function resumo(c, cs, js) {
+    const N = EDS.length, W = 1000, H = 250, ML = 40, MR = 16, MT = 16, MB = 28;
+    // escala raiz quadrada: abre o topo da tabela (onde está a briga) e comprime o fundo
+    const maxP = Math.max(20, ...cs.map(x => x[1])), X = i => ML + i * (W - ML - MR) / (N - 1),
+      Y = q => MT + (Math.sqrt(q) - 1) / (Math.sqrt(maxP) - 1) * (H - MT - MB);
+    let svg = '', ultY = -99;
+    for (const q of [1, 3, 5, 10, 20, 40, 60, 90].filter(q => q <= maxP)) { if (Y(q) - ultY < 16) continue; ultY = Y(q); svg += '<line class="cr-grade" x1="' + ML + '" x2="' + (W - MR) + '" y1="' + Y(q) + '" y2="' + Y(q) + '"/><text class="cr-eixo" x="' + (ML - 8) + '" y="' + (Y(q) + 4) + '" text-anchor="end">' + q + 'º</text>'; }
+    EDS.forEach((e, i) => { if (i === 0 || (e.ano % 10 === 0 && EDS[i - 1].ano % 10 !== 0 && i > 3)) svg += '<text class="cr-eixo" x="' + X(i) + '" y="' + (H - 6) + '" text-anchor="middle">' + e.ano + '</text>'; });
+    const onde = Object.fromEntries(cs.map(x => [x[0], x]));
+    let d = '';
+    cs.forEach(([i, q], k) => { d += (k && cs[k - 1][0] === i - 1 ? 'L' : 'M') + X(i).toFixed(1) + ' ' + Y(q).toFixed(1); });
+    svg += '<path class="cl-traj" d="' + d + '" stroke="' + corDe(c) + '"/>';
+    for (const [i, q, J, V, E, D] of cs) { const m = medalha(i, c);
+      svg += '<circle class="cl-ponto ' + (m || '') + '" cx="' + X(i) + '" cy="' + Y(q) + '" r="' + (m ? 6 : 4) + '" style="--c:' + corDe(c) + '" data-dica="' +
+        esc('<b>' + nomeEd(i) + '</b><br>' + q + 'º de ' + EDS[i].tab.length + (m ? ' · ' + MED[m] : '') + '<br>' + V + ' V · ' + E + ' E · ' + D + ' D') + '"/>'; }
+    document.getElementById('cl-traj').innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" class="cl-traj-svg" role="img" aria-label="Posição final em cada edição">' + svg + '</svg>';
+    // pódios: um selo por ano
+    const pods = cs.filter(([i]) => medalha(i, c)).map(([i]) => '<span class="cl-pod ' + medalha(i, c) + '" data-dica="' + esc('<b>' + nomeEd(i) + '</b><br>' + MED[medalha(i, c)]) + '">' + EDS[i].ano + '</span>');
+    document.getElementById('cl-podios').innerHTML = pods.length ? '<div class="cl-pods">' + pods.join('') + '</div>' : '<p class="cp-nota">Nenhum pódio ainda: a melhor colocação foi ' +
+      Math.min(...cs.map(x => x[1])) + 'º.</p>';
+    // destaques
+    const ap = x => (3 * x[3] + x[4]) / (3 * x[2]), com10 = cs.filter(x => x[2] >= 10);
+    const bom = com10.length ? com10.reduce((a, x) => ap(x) > ap(a) ? x : a) : null, ruim = com10.length ? com10.reduce((a, x) => ap(x) < ap(a) ? x : a) : null;
+    const gols = cs.reduce((a, x) => x[6] > a[6] ? x : a);
+    const dif = j => j[3] - j[4], aplicada = js.reduce((a, j) => dif(j) > dif(a) || (dif(j) === dif(a) && j[3] > a[3]) ? j : a, js[0]);
+    const sofrida = js.reduce((a, j) => dif(j) < dif(a) || (dif(j) === dif(a) && j[4] > a[4]) ? j : a, js[0]);
+    let seq = [0, 0, 0], ini = cs[0][0];
+    cs.forEach(([i], k) => { if (k && cs[k - 1][0] !== i - 1) ini = i; if (i - ini + 1 > seq[0]) seq = [i - ini + 1, ini, i]; });
+    const conf = confrontos(c, js), mais = conf[0], fregues = conf.slice().sort((a, b) => b.v - a.v || a.j - b.j)[0], carrasco = conf.slice().sort((a, b) => b.d - a.d || a.j - b.j)[0];
+    const placar = j => '<div class="cu-jogo">' + escP(j[5] ? c : j[2]) + '<b>' + (j[5] ? j[3] + ' × ' + j[4] : j[4] + ' × ' + j[3]) + '</b>' + escP(j[5] ? j[2] : c) + '</div>';
+    const art = (ARTC[c] || [])[0], primeira = cs[0], ultima = cs[cs.length - 1];
+    const cards = [
+      cartao('Estreia', um(c, EDS[primeira[0]].ano, nomeEd(primeira[0]).split(' · ')[1] || CONF.curto), primeira[1] + 'º colocado de ' + EDS[primeira[0]].tab.length),
+      cartao('Última participação', um(c, EDS[ultima[0]].ano, EDP[ultima[0]].comp || CONF.curto), ultima[1] + 'º colocado de ' + EDS[ultima[0]].tab.length),
+      cartao('Mais edições seguidas', um(c, seq[0], 'edições sem faltar'), 'de ' + EDS[seq[1]].ano + ' a ' + EDS[seq[2]].ano),
+      bom && cartao('Melhor campanha', um(c, pct(ap(bom)), 'de aproveitamento'), nomeEd(bom[0]) + ' · ' + bom[1] + 'º · ' + bom[3] + ' V · ' + bom[4] + ' E · ' + bom[5] + ' D'),
+      ruim && cartao('Pior campanha', um(c, pct(ap(ruim)), 'de aproveitamento'), nomeEd(ruim[0]) + ' · ' + ruim[1] + 'º · ' + ruim[3] + ' V · ' + ruim[4] + ' E · ' + ruim[5] + ' D'),
+      cartao('Mais gols numa edição', um(c, gols[6], 'gols em ' + gols[2] + ' jogos'), nomeEd(gols[0])),
+      js.length && cartao('Maior goleada aplicada', placar(aplicada), '<b>' + esc(c) + '</b> × <b>' + esc(aplicada[2]) + '</b> · ' + (aplicada[5] ? 'em casa' : 'fora') + ' · ' + EDS[aplicada[0]].ano),
+      js.length && cartao('Maior goleada sofrida', placar(sofrida), '<b>' + esc(c) + '</b> × <b>' + esc(sofrida[2]) + '</b> · ' + (sofrida[5] ? 'em casa' : 'fora') + ' · ' + EDS[sofrida[0]].ano),
+      mais && cartao('Adversário mais enfrentado', um(mais.c, mais.j, 'jogos'), '<b>' + esc(mais.c) + '</b> · ' + mais.v + ' V · ' + mais.e + ' E · ' + mais.d + ' D'),
+      fregues && fregues.v && cartao('Maior freguês', um(fregues.c, fregues.v, 'vitórias contra'), '<b>' + esc(fregues.c) + '</b> · ' + fregues.v + ' V · ' + fregues.e + ' E · ' + fregues.d + ' D em ' + fregues.j + ' jogos'),
+      carrasco && carrasco.d && cartao('Maior carrasco', um(carrasco.c, carrasco.d, 'derrotas para'), '<b>' + esc(carrasco.c) + '</b> · ' + carrasco.v + ' V · ' + carrasco.e + ' E · ' + carrasco.d + ' D em ' + carrasco.j + ' jogos'),
+      art && cartao('Artilheiro desde ' + CONF.art, um(c, art[1], 'gols'), '<b>' + esc(art[0]) + '</b> · ' + (art[2] === art[3] ? art[2] : art[2] + ' a ' + art[3])),
+    ].filter(Boolean);
+    document.getElementById('cl-destaques').innerHTML = '<div class="cu-cartoes">' + cards.join('') + '</div>';
+  }
+  // ---- Campanhas: uma linha por edição (a linha leva à edição)
+  function tabela(c, cs) {
+    const linhas = cs.slice().reverse().map(([i, q, J, V, E, D, GP, GC]) => { const e = EDS[i], m = medalha(i, c), sg = GP - GC;
+      return '<tr class="cl-camp ' + (m ? 'p' + { ouro: 1, prata: 2, bronze: 3 }[m] : '') + '" data-ed="' + e.id + '" title="Ver a edição"><td class="pos">' + q + 'º</td><td class="clube">' + e.ano + '</td><td class="comp">' + esc(EDP[i].comp || CONF.curto) + '</td>' +
+        '<td class="pts">' + (e.mata ? '–' : e.pv * V + E) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td>' + GP + '</td><td>' + GC + '</td>' +
+        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td><td>' + pct((3 * V + E) / (3 * J)) + '</td></tr>'; }).join('');
+    document.getElementById('cl-campanhas').innerHTML = '<div class="cp-rolar"><table class="cp-tab cl-tab"><thead><tr><th>Pos</th><th>Ano</th><th>Competição</th><th>Pts</th><th>J</th><th>V</th><th>E</th><th>D</th>' +
+      '<th>GP</th><th>GC</th><th>SG</th><th title="vitória 3, empate 1">Aprov.</th></tr></thead><tbody>' + linhas + '</tbody></table></div>';
+  }
+  document.getElementById('cl-campanhas').addEventListener('click', ev => { const tr = ev.target.closest('tr[data-ed]'); if (tr) location.hash = 'campeonato/classificacao/' + tr.dataset.ed; });
+  // ---- Confrontos: retrospecto contra cada adversário
+  function confrontos(c, js) {
+    const m = {};
+    for (const [, , adv, gp, gc] of js) { const x = m[adv] = m[adv] || { c: adv, j: 0, v: 0, e: 0, d: 0, gp: 0, gc: 0 };
+      x.j++; x.gp += gp; x.gc += gc; if (gp > gc) x.v++; else if (gp === gc) x.e++; else x.d++; }
+    return Object.values(m).sort((a, b) => b.j - a.j || b.v - a.v || a.c.localeCompare(b.c, 'pt-BR'));
+  }
+  function listaConf(c, js) {
+    const conf = confrontos(c, js), mx = conf.length ? conf[0].j : 1;
+    document.getElementById('cl-confrontos').innerHTML = '<div class="pt-legenda" style="margin:10px 0 6px"><span><span class="cl-leg v"></span>vitórias</span><span><span class="cl-leg e"></span>empates</span>' +
+      '<span><span class="cl-leg d"></span>derrotas</span><span>' + pl(conf.length, 'adversário', 'adversários') + ' diferentes</span></div>' +
+      (todosConf ? conf : conf.slice(0, TOP)).map(x => '<div class="cl-conf"><div class="quem">' + escP(x.c, true) + '<a class="cl-link" href="#clube/confrontos/' + slugClube(x.c) + '">' + esc(x.c) + '</a></div>' +
+        '<div class="barra" style="width:' + (100 * x.j / mx) + '%" data-dica="' + esc('<b>' + esc(c) + ' × ' + esc(x.c) + '</b><br>' + x.j + ' jogos: ' + x.v + ' V, ' + x.e + ' E, ' + x.d + ' D<br>gols: ' + x.gp + ' × ' + x.gc) + '">' +
+        '<i class="v" style="flex:' + x.v + '"></i><i class="e" style="flex:' + x.e + '"></i><i class="d" style="flex:' + x.d + '"></i></div>' +
+        '<div class="num"><b>' + x.j + '</b> jogos<small>' + x.v + ' V · ' + x.e + ' E · ' + x.d + ' D · saldo ' + sinal(x.gp - x.gc) + '</small></div></div>').join('') +
+      (conf.length > TOP ? '<button class="pt-mais" type="button">' + (todosConf ? 'Ver só os ' + TOP + ' mais enfrentados' : 'Ver todos os ' + conf.length + ' adversários') + '</button>' : '');
+  }
+  document.getElementById('cl-confrontos').addEventListener('click', ev => { if (ev.target.closest('.pt-mais')) { todosConf = !todosConf; listaConf(POR[atual], jogosDe(POR[atual])); } });
+  // ---- Jogos: os jogos do clube numa edição
+  const jsel = document.getElementById('clj-sel');
+  function jogos(c, cs, js) {
+    const eds = cs.map(x => x[0]).reverse();
+    if (!eds.includes(edJ)) edJ = eds[0];
+    jsel.innerHTML = eds.map(i => '<option value="' + i + '">' + esc(nomeEd(i)) + '</option>').join(''); jsel.value = edJ;
+    document.getElementById('clj-ant').disabled = edJ === eds[eds.length - 1]; document.getElementById('clj-prox').disabled = edJ === eds[0];
+    const e = EDS[edJ], lado = (n, cls) => '<span class="' + cls + '">' + (cls === 'm' ? esc(n) + escP(n, true) : escP(n, true) + esc(n)) + '</span>';
+    const meus = js.filter(j => j[0] === edJ);
+    document.getElementById('clj-lista').innerHTML = '<div class="cp-jogos">' + meus.map(([, g, adv, gp, gc, casa]) => { const r = gp > gc ? 'v' : gp === gc ? 'e' : 'd';
+      return '<div class="cl-jogo"><span class="rot">' + esc(e.grupos[g]) + '</span><div class="cp-jogo ' + (casa ? (gp > gc ? 'vm' : gp < gc ? 'vv' : '') : (gp > gc ? 'vv' : gp < gc ? 'vm' : '')) + '">' +
+        (casa ? lado(c, 'm') + '<b>' + gp + ' × ' + gc + '</b>' + lado(adv, 'v') : lado(adv, 'm') + '<b>' + gc + ' × ' + gp + '</b>' + lado(c, 'v')) + '</div><i class="cl-res ' + r + '">' + r.toUpperCase() + '</i></div>'; }).join('') + '</div>';
+  }
+  const passoJ = d => { const c = POR[atual], eds = PART[c].map(x => x[0]), k = eds.indexOf(edJ) + d; if (k >= 0 && k < eds.length) { edJ = eds[k]; jogos(c, campanhas(c), jogosDe(c)); } };
+  jsel.addEventListener('change', () => { edJ = +jsel.value; const c = POR[atual]; jogos(c, campanhas(c), jogosDe(c)); });
+  document.getElementById('clj-ant').addEventListener('click', () => passoJ(-1));
+  document.getElementById('clj-prox').addEventListener('click', () => passoJ(1));
+  // ---- Artilharia (desde 2003)
+  function artilharia(c) {
+    const a = ARTC[c] || [], mx = a.length ? a[0][1] : 1;
+    document.getElementById('cla-sem').hidden = a.length > 0;
+    document.getElementById('cla-lista').innerHTML = a.map(([j, n, a1, a2], k) => '<div class="cp-art"><span class="n">' + (k + 1) + 'º</span>' +
+      '<div class="quem"><b>' + esc(j) + '</b><span>' + (a1 === a2 ? a1 : a1 + ' a ' + a2) + '</span></div><div class="trilho"><i style="width:' + (100 * n / mx) + '%;--c:' + corDe(c) + '"></i></div><b class="gols">' + n + '</b></div>').join('');
+  }
+  const corDe = c => { const [c1, c2] = cor(c);
+    return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
+  function mostrar(sl) {
+    if (sl !== atual) { todosConf = false; edJ = null; }
+    atual = sl; sel.value = sl; if (sel.sincronizar) sel.sincronizar();
+    const c = POR[sl], cs = campanhas(c), js = jogosDe(c), k = CLUBES.indexOf(c);
+    document.getElementById('cl-ant').disabled = k === 0; document.getElementById('cl-prox').disabled = k === CLUBES.length - 1;
+    cabecalho(c, cs); resumo(c, cs, js); tabela(c, cs); listaConf(c, js); jogos(c, cs, js); artilharia(c);
+  }
+  document.addEventListener('tema-mudou', () => { if (feito) mostrar(atual); });
+  const ir = sl => { location.hash = 'clube/' + subAtual + '/' + sl; };
+  sel.addEventListener('change', () => ir(sel.value));
+  document.getElementById('cl-ant').addEventListener('click', () => { const k = CLUBES.indexOf(POR[atual]); if (k > 0) ir(slugClube(CLUBES[k - 1])); });
+  document.getElementById('cl-prox').addEventListener('click', () => { const k = CLUBES.indexOf(POR[atual]); if (k < CLUBES.length - 1) ir(slugClube(CLUBES[k + 1])); });
+  // a aba avisa quando abre; o clube vem do endereço (#clube/resumo/palmeiras) ou fica o último visto
+  document.addEventListener('aba-aberta', ev => {
+    if (ev.detail.k !== 'clube') return;
+    subAtual = ev.detail.sub;
+    // sem clube no endereço: o último visto; se ele não jogou esta competição, o de mais participações
+    const sl = ev.detail.resto in POR ? ev.detail.resto : atual in POR ? atual
+      : slugClube(Object.keys(PART).sort((x, y) => PART[y].length - PART[x].length)[0]);
+    if (sl !== atual || !feito) { feito = true; mostrar(sl); }
+    if (ev.detail.resto !== sl) history.replaceState(null, '', '#clube/' + subAtual + '/' + sl);
+  });
+})();
+// ---- seletor próprio no lugar do <select> nativo (que abre branco, fora do visual): busca, grupos e ícone ----
+// o <select> continua escondido como fonte do valor: quem usa lê sel.value e ouve 'change' como antes
+function escolha(sel, opc = {}) {
+  if (!sel) return;
+  const box = document.createElement('div'); box.className = 'esc-box';
+  box.innerHTML = '<button type="button" class="esc-btn" aria-haspopup="listbox"><span class="esc-txt"></span><i class="esc-seta">▾</i></button>';
+  sel.after(box); box.prepend(sel); sel.classList.add('esc-oculto'); sel.tabIndex = -1;
+  const painel = document.createElement('div'); painel.className = 'esc-painel'; painel.hidden = true;   // no body: o topo corta o que passa da borda
+  painel.innerHTML = (opc.busca ? '<input class="esc-busca" type="search" placeholder="' + opc.busca + '" aria-label="' + opc.busca + '">' : '') + '<div class="esc-lista" role="listbox"></div>';
+  document.body.appendChild(painel);
+  const btn = box.querySelector('.esc-btn'), txt = box.querySelector('.esc-txt'), lista = painel.querySelector('.esc-lista'), busca = painel.querySelector('.esc-busca');
+  const ic = o => opc.icone ? opc.icone(o) : '', norm = t => t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  const item = o => '<button type="button" class="esc-op" role="option" data-v="' + esc(o.value) + '" data-t="' + esc(norm(o.text)) + '">' + ic(o) + '<span>' + esc(o.text) + '</span></button>';
+  function montar() {
+    let h = '';
+    for (const n of sel.children) h += n.tagName === 'OPTGROUP' ? '<div class="esc-grupo">' + esc(n.label) + '</div>' + [...n.children].map(item).join('') : item(n);
+    lista.innerHTML = h; sync();
+  }
+  function sync() {
+    const o = sel.options[sel.selectedIndex];
+    txt.innerHTML = o ? ic(o) + '<span>' + esc(o.text) + '</span>' : '';
+    lista.querySelectorAll('.esc-op').forEach(b => b.classList.toggle('ativo', b.dataset.v === sel.value));
+  }
+  function filtrar() {
+    const q = busca ? norm(busca.value.trim()) : '';
+    lista.querySelectorAll('.esc-op').forEach(b => { b.hidden = !!q && !b.dataset.t.includes(q); });
+    lista.querySelectorAll('.esc-grupo').forEach(g => { let n = g.nextElementSibling, algum = false;
+      while (n && !n.classList.contains('esc-grupo')) { if (!n.hidden) algum = true; n = n.nextElementSibling; } g.hidden = !algum; });
+  }
+  function abrir() {
+    const r = btn.getBoundingClientRect(), larg = Math.max(r.width, 280);
+    painel.hidden = false; box.classList.add('aberto');
+    painel.style.left = Math.max(8, Math.min(r.left, innerWidth - larg - 8)) + 'px'; painel.style.top = (r.bottom + 6) + 'px';
+    painel.style.width = larg + 'px'; painel.style.maxHeight = Math.max(220, innerHeight - r.bottom - 20) + 'px';
+    if (busca) { busca.value = ''; busca.focus(); }
+    filtrar();
+    const a = lista.querySelector('.ativo'); if (a) lista.scrollTop = a.offsetTop - lista.clientHeight / 2;
+  }
+  function fechar() { if (painel.hidden) return; painel.hidden = true; box.classList.remove('aberto'); }
+  btn.addEventListener('click', () => painel.hidden ? abrir() : fechar());
+  lista.addEventListener('click', ev => { const b = ev.target.closest('.esc-op'); if (!b) return;
+    fechar(); if (b.dataset.v !== sel.value) { sel.value = b.dataset.v; sel.dispatchEvent(new Event('change')); } sync(); });
+  if (busca) { busca.addEventListener('input', filtrar);
+    busca.addEventListener('keydown', ev => { if (ev.key === 'Enter') { const b = [...lista.querySelectorAll('.esc-op')].find(x => !x.hidden); if (b) b.click(); } }); }
+  painel.addEventListener('keydown', ev => { if (ev.key === 'Escape') { fechar(); btn.focus(); } });
+  document.addEventListener('click', ev => { if (!box.contains(ev.target) && !painel.contains(ev.target)) fechar(); });
+  addEventListener('resize', fechar);
+  addEventListener('scroll', ev => { if (!painel.contains(ev.target)) fechar(); }, true);
+  new MutationObserver(montar).observe(sel, { childList: true, subtree: true });   // as opções mudam (rodadas, edições do clube)
+  sel.addEventListener('change', sync); sel.sincronizar = sync;   // quem troca sel.value por código chama sel.sincronizar()
+  montar();
+}
+escolha(document.getElementById('cp-sel'), { busca: 'Buscar ano ou competição' });
+escolha(document.getElementById('cpj-sel'));
+escolha(document.getElementById('cl-sel'), { busca: 'Buscar clube', icone: o => ESCUDOS[o.text] ? '<img class="esc-ico" alt="" src="' + ESCUDOS[o.text] + '">' : '' });
+escolha(document.getElementById('clj-sel'), { busca: 'Buscar ano' });
+// ---- competição: trocar recarrega a página com ?c= (mesma aba e sub-aba)
+(() => {
+  const sel = document.getElementById('comp-sel');
+  sel.innerHTML = COMPS.map(([v, n]) => '<option value="' + v + '">' + esc(n) + '</option>').join('');
+  sel.value = COMP;
+  escolha(sel);
+  sel.addEventListener('change', () => { try { localStorage.setItem('v2-comp', sel.value); } catch (e) {}
+    location.href = location.pathname + '?c=' + sel.value + '#' + location.hash.slice(1).split('/').slice(0, 2).join('/'); });
+})();
+// ---- abas (barra lateral) e sub-abas (História): guardadas no endereço (#historia/podio, #clube...) ----
+(() => {
+  const abas = [...document.querySelectorAll('.aba')], botoes = [...document.querySelectorAll('.nav')];
+  const ultimaSub = {};   // cada aba lembra a última sub-aba aberta
+  const abrir = (hash, rolar = true) => {
+    let [k, sub, ...resto] = (hash || '').split('/'); resto = resto.join('/');
+    if (!abas.some(a => a.id === 'aba-' + k)) k = 'historia';
+    const aba = document.getElementById('aba-' + k), subs = [...document.querySelectorAll('.sub[data-aba="' + k + '"]')];
+    document.querySelectorAll('.subnav-lat').forEach(g => { g.hidden = g.dataset.de !== k; });
+    if (subs.length) { if (!subs.some(b => b.dataset.sub === sub)) { if (sub && !resto) resto = sub; sub = ultimaSub[k] || subs[0].dataset.sub; } ultimaSub[k] = sub;
+      subs.forEach(b => b.classList.toggle('ativo', b.dataset.sub === sub));
+      aba.querySelectorAll('section[data-sub]').forEach(x => { x.hidden = x.dataset.sub !== sub; }); } else sub = sub || '';   // sem sub-abas: o resto do endereço é da aba (#campeonato/2019)
+    abas.forEach(a => { a.hidden = a !== aba; }); botoes.forEach(b => b.classList.toggle('ativo', b.dataset.aba === k));
+    const novo = k + (sub ? '/' + sub : '') + (resto ? '/' + resto : '');
+    if (location.hash.slice(1) !== novo) history.replaceState(null, '', '#' + novo);
+    if (rolar) window.scrollTo(0, 0);
+    document.dispatchEvent(new CustomEvent('aba-aberta', { detail: { k, sub, resto } }));
+  };
+  botoes.forEach(b => b.addEventListener('click', () => abrir(b.dataset.aba)));
+  document.querySelectorAll('.sub').forEach(b => b.addEventListener('click', () => abrir(b.dataset.aba + '/' + b.dataset.sub)));
+  window.addEventListener('hashchange', () => abrir(location.hash.slice(1)));
+  abrir(location.hash.slice(1) || 'historia');
+})();
+try { const t = localStorage.getItem('v2-tema'); if (t) { document.documentElement.dataset.theme = t; document.querySelector('.tema').textContent = t === 'dark' ? '☀ Claro' : '☾ Escuro'; document.dispatchEvent(new Event('tema-mudou')); } } catch (e) {}
+desenhar();
+</script></body></html>

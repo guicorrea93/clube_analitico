@@ -100,7 +100,7 @@ pacotes do agente de coleta (`data/coleta/<slug>/pacote/`, Série C em diante):
 python .\futebol\migrar_brasileirao.py   # refaz db/futebol.db, confere com o brasileirao.db e carrega os pacotes
 python .\futebol\carregar_pacotes.py bra-serie-c   # só recarrega um pacote (sem refazer o resto)
 python .\baixar_escudos.py --ogol        # escudos dos clubes novos dos pacotes (calendários do ogol guardados)
-python .\gerar_dashboard_v2.py           # painel com o seletor de competição (dashboard_v2.html)
+python .\gerar_dashboard_v2.py           # painel em painel/ (index.html, dados/<competição>.js, escudos/)
 ```
 
 Depois de mexer na Série A ou na Série B, ou de receber um pacote novo, rode o primeiro e o último.

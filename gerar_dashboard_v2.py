@@ -91,7 +91,8 @@ def competicoes_dos_pacotes() -> None:
             "do": c.get("do_painel") or f"da {rot}", "o": c.get("o_painel") or f"a {rot}"}))
     for _, slug, conf in sorted(achadas):   # Brasil primeiro; depois por país, ligas antes de copas, por divisão
         COMPETICOES[slug] = conf
-SAIDA = ROOT / "dashboard_v2.html"
+PAINEL = ROOT / "painel"   # index.html + dados/<competição>.js + escudos/ (abre com duplo clique e vai assim para a internet)
+ATALHO = ROOT / "dashboard_v2.html"   # só leva para painel/index.html
 ESCUDOS = ROOT / "data" / "escudos"   # baixados por baixar_escudos.py (Wikipédia)
 
 # nomes do banco (sem acento, com sufixo de estado) -> nome para exibir
@@ -237,26 +238,25 @@ def cores_do_escudo(f: Path) -> tuple[str, str] | None:
 
 
 def escudos(clubes: set[str]) -> dict[str, str]:
-    """Escudo de cada clube como data URI (até 160 px em WebP: nítido no pódio, página leve e sem internet)."""
+    """Escudo de cada clube em painel/escudos/ (até 160 px em WebP: nítido no pódio e leve); devolve clube -> caminho.
+    Só regrava o arquivo que mudou (o git não vê diferença à toa)."""
     from baixar_escudos import arquivo
-    try:
-        from PIL import Image
-    except ImportError:
-        Image = None
+    from PIL import Image
+    pasta = PAINEL / "escudos"
+    pasta.mkdir(parents=True, exist_ok=True)
     saida = {}
     for c in sorted(clubes):
         f = arquivo(c)
         if not f.exists():
             continue
-        dados = f.read_bytes()
-        if Image:
-            img = Image.open(io.BytesIO(dados)).convert("RGBA")
-            img.thumbnail((160, 160), Image.LANCZOS)
-            buf = io.BytesIO()
-            img.save(buf, "WEBP", quality=88, method=6)
-            saida[c] = "data:image/webp;base64," + base64.b64encode(buf.getvalue()).decode()
-            continue
-        saida[c] = "data:image/png;base64," + base64.b64encode(dados).decode()
+        img = Image.open(f).convert("RGBA")
+        img.thumbnail((160, 160), Image.LANCZOS)
+        buf = io.BytesIO()
+        img.save(buf, "WEBP", quality=88, method=6)
+        destino = pasta / (f.stem + ".webp")
+        if not destino.exists() or destino.read_bytes() != buf.getvalue():
+            destino.write_bytes(buf.getvalue())
+        saida[c] = "escudos/" + destino.name
     return saida
 
 
@@ -1065,13 +1065,20 @@ span.cu-esc{display:inline-block}
 }
 """
 
-# competição aberta: ?c= no endereço, senão a última vista, senão a primeira; preenche os [data-t] e expõe os dados dela
-SELECAO = """
+# competição aberta: ?c= no endereço, senão a última vista, senão a primeira. Os dados dela vêm de
+# dados/<competição>.js, posto na página enquanto ela carrega (uma <script src> funciona também aberta do disco,
+# onde o navegador não deixa ler arquivos com fetch). VERSAO evita o navegador usar dados velhos guardados.
+ESCOLHA = """
 const COMP = (() => { const q = new URLSearchParams(location.search).get('c'); let s = null;
   try { s = localStorage.getItem('v2-comp'); } catch (e) {}
-  return DADOS[q] ? q : DADOS[s] ? s : COMPS[0][0]; })();
+  const tem = x => COMPS.some(c => c[0] === x);
+  return tem(q) ? q : tem(s) ? s : COMPS[0][0]; })();
 try { localStorage.setItem('v2-comp', COMP); } catch (e) {}
-const D = DADOS[COMP], EDP = D.EDP, PART = D.PART, VIT = D.VIT, CJV = D.CJV, CUR = D.CUR, EDS = D.EDS, ARTC = D.ARTC, CONF = D.CONF;
+document.write('<script src="dados/' + COMP + '.js?v=' + VERSAO + '"><\\/script>');
+"""
+# preenche os [data-t] e expõe os dados da competição aberta
+SELECAO = """
+const D = window.DADOS_COMP, EDP = D.EDP, PART = D.PART, VIT = D.VIT, CJV = D.CJV, CUR = D.CUR, EDS = D.EDS, ARTC = D.ARTC, CONF = D.CONF;
 document.querySelectorAll('[data-t]').forEach(n => { n.innerHTML = D.TX[n.dataset.t] ?? ''; });
 """
 JS = """
@@ -2126,6 +2133,12 @@ def main() -> None:
         print(f"  {COMPETICOES[slug]['curto']}: {len(eds)} edições, {len(part)} clubes, {jogos} jogos")
     movimentos(dados)
     comps = [[slug, c["menu"]] for slug, c in COMPETICOES.items()]
+    (PAINEL / "dados").mkdir(parents=True, exist_ok=True)
+    for slug, d in dados.items():
+        (PAINEL / "dados" / f"{slug}.js").write_text(
+            "window.DADOS_COMP = " + json.dumps(d, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
+    import hashlib
+    versao = hashlib.sha1(b"".join((PAINEL / "dados" / f"{s}.js").read_bytes() for s in dados)).hexdigest()[:10]
     pagina = (
         '<!doctype html><html lang="pt-BR" data-theme="dark"><head><meta charset="utf-8">'
         '<meta name="viewport" content="width=device-width, initial-scale=1"><title>Clube Analítico v2</title>'
@@ -2244,11 +2257,17 @@ def main() -> None:
         f"<script>const CORES = {json.dumps({**cores_auto(todos_clubes), **{k: list(v) for k, v in CORES.items()}}, ensure_ascii=False)};\n"
         f"const ESCUDOS = {json.dumps(escudos(todos_clubes))};\n"
         f"const COMPS = {json.dumps(comps, ensure_ascii=False)};\n"
-        f"const DADOS = {json.dumps(dados, ensure_ascii=False, separators=(',', ':'))};\n{SELECAO}{JS}</script>"
+        f"const VERSAO = '{versao}';\n{ESCOLHA}</script>"
+        f"<script>{SELECAO}{JS}</script>"
         "</body></html>"
     )
-    SAIDA.write_text(pagina, encoding="utf-8")
-    print(f"OK: {SAIDA.name} ({len(dados)} competições, {len(todos_clubes)} clubes, {SAIDA.stat().st_size // 1024} KB)")
+    (PAINEL / "index.html").write_text(pagina, encoding="utf-8")
+    ATALHO.write_text('<!doctype html><meta charset="utf-8"><title>Clube Analítico</title>'
+                      '<meta http-equiv="refresh" content="0; url=painel/index.html">'
+                      '<a href="painel/index.html">Abrir o painel</a>', encoding="utf-8")
+    kb = lambda f: f.stat().st_size // 1024
+    print(f"OK: painel/index.html ({kb(PAINEL / 'index.html')} KB) + dados de {len(dados)} competições "
+          f"({', '.join(f'{s} {kb(PAINEL / "dados" / (s + ".js"))} KB' for s in dados)}), {len(todos_clubes)} clubes")
 
 
 if __name__ == "__main__":
