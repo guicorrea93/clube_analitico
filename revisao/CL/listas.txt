@@ -1,0 +1,43 @@
+Revisão CL (clubes e escudos), 20/11/2026: listas citadas nos achados. Gerado a partir de SCRATCH/CL/mestre.json
+(revisao/CL/mestre.py) e SCRATCH/CL/suspeitos.txt (revisao/CL/duplicados.py).
+
+[CL-026] Sufixo "-UF" sem homônimo no banco (cadastro do banco, Séries A/B; 25):
+Americano-RJ, Athletico-PR, Campo Grande-RJ, Capelense-AL, Colorado-PR, Cruzeiro do Sul-DF, Defelê-DF, Desportiva-ES,
+Dom Bosco-MT, Eletrovapo-RJ, Estrela do Mar-PB, Fast-AM, Ferroviária-SP, Fonseca-RJ, Guanabara-DF, Itabuna-BA,
+Leônico-BA, Olímpico-AM, Paula Ramos-SC, Rabello-DF, River-PI, Santo Antônio-ES, União-MT, Vila Nova-GO, Villa Nova-MG
+(Vila Nova-GO / Villa Nova-MG e Athletico-PR são uso consagrado; os outros não têm outro clube com o mesmo nome no banco.)
+
+[CL-027] Sufixo "-UF" sem homônimo no banco (clubes que vieram dos pacotes C/D/Copa; 30):
+7 de Setembro-MS, Alvorada-TO, Andirá-AC, Bandeirante-DF, Barcelona-RO, Barra-SC, Boavista-RJ, CFZ-RJ, Colo Colo-BA,
+Coríntians-RN, Floresta-CE, Holanda-AM, Independente-AP, Palmares-RO, Paulistano-PE, Penarol-AM, Porto-PE,
+Porto Alegre-RJ, Progresso-RR, Rio Pardo-ES, Rio Verde-GO, River Plate-SE, São Francisco-PA, São Francisco FC-AC,
+São Gonçalo-RN, Sparta-TO, Ulbra-RO, Vasco da Gama-AC, Vênus-PA, Vera Cruz-PE
+(Alguns têm quase-homônimo: Vasco/Vasco da Gama-AC, Corinthians/Coríntians-RN, Barcelona de Ilhéus/Barcelona-RO,
+Barra FC/Barra-SC, Independente Tucuruí/Independente-AP; o relatório da coleta diz que conferiu homônimos no ogol inteiro.)
+Nomes de exibição estranhos: "Maringá FC 1995" (ano no nome), "São Francisco FC-AC" (sigla + UF), "Rive A.C.",
+"Atl. Três Corações" e "At. Itapemirim" (abreviação), "Gazin Porto Velho EC", "CA Votuporanguense", "Azuriz Futebol",
+"Guarani V. Aires".
+
+[CL-029] Clubes sem cidade no banco (42, todos do cadastro das Séries A/B):
+Aliança, Americana, América-CE, América-SC, Auto Esporte-PI, Bonsucesso, Botafogo-BA, CEUB, Calouros do Ar, Catanduvense,
+Central-RJ, Comercial-PR, Cruzeiro do Sul-DF, Defelê-DF, Eletrovapo-RJ, Estrela do Mar-PB, Ferroviário-MA, Ferroviário-PE,
+Ferroviário-PR, Fonseca-RJ, GE Maringá, Guanabara-DF, Guarapari, Leônico-BA, Liga da Marinha, Maguari, Malutrom,
+Manufatora, Metropol, Nacional-GO, Olímpico-AM, Paula Ramos-SC, Perdigão, Rabello-DF, Rodoviária, Santa Cruz-SE,
+Santo Antônio-ES, Serrano, Siderúrgica, Sport Belém, São Domingos, Água Verde
+
+[E] Clubes cuja ficha do ogol (data/coleta/*/ogol/clubes.json) tem fundação DEPOIS do 1º ano em que o clube joga no painel:
+Ariquemes (1996; joga 1995) -> CL-004
+Atlético Tubarão (2005; joga 2002) -> CL-002
+Barra do Garças (Barra EC 1998; joga 1994) -> não é erro: Barra do Garças FC (1978) virou Barra EC em 1998 e voltou em 2005 (Wikipédia)
+Cabofriense (1997; joga 1988) -> CL-009
+Desportiva Guarabira (2004; joga 2001) -> CL-012
+EC São Gabriel (2013; joga 2002) -> CL-005
+Foz do Iguaçu (1995; joga 1989) -> CL-010
+Goiatuba (AA Goiatuba 2009; joga 1989) -> CL-006
+Joaçaba (1997; joga 1981) -> CL-012
+Lagarto (2009; joga 1988) -> CL-008
+Limoeiro (2001; joga 1998) -> CL-011
+Operário-MT (Várzea Grande EC 2002; joga 1968) -> CL-007
+Pedrabranca (2008; joga 2003 como "RS Futebol", mesma cidade de Alvorada) -> provável troca de nome; não registrado
+Rive A.C. (2025; joga 2016-2018 como "Espírito Santo FC") -> troca de nome; ver CL-023
+São Borja (2009; joga 1981) -> CL-012

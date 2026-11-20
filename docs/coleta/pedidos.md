@@ -114,3 +114,39 @@ A Copa do Brasil (`bra-copa-do-brasil`) está coletada e conferida. O pacote est
 - **Dúvida:** o ogol põe o "EC São Gabriel" (fundado em 2013, segundo a ficha) na Série C de 2002, quando a RSSSF escreve
   "SER São Gabriel". Pode ser erro do ogol; fica como está até alguém conferir.
 - **Commit:** ainda não foi feito.
+
+## Pedidos da revisão (20/11/2026): Séries C e D e Copa do Brasil
+
+O agente de revisão conferiu os pacotes contra a Wikipédia (pt e en). Os achados estão em `docs/revisao/achados.csv`
+(coluna `quem_corrige` = `coleta-brasil`; são 68 abertos). As provas estão em `docs/revisao/<slug>.md` e
+`docs/revisao/clubes-e-escudos.md`. O banco e o painel só repetem o pacote, então a correção é aqui.
+
+1. **Pódio errado, porque as fases estão mal gravadas (alta).** A ordem de 1º a 4º saiu da campanha inteira ou de uma
+   fase errada.
+   - Série C: SC-002 (vice errado em 8 edições) e SC-003 (3º errado em 13).
+   - Série D: SD-002 (2020, o vice é o Floresta-CE), SD-003 e SD-004 (2021) e SD-005 a SD-008 (fases e grupos).
+   - Copa do Brasil: CB-001 (vice errado em 9 edições), CB-002 (classificação fora de ordem) e CB-003 (fases com nome
+     em inglês, a final dentro de "Semifinal") e CB-014.
+2. **Rebaixamento, acesso e punições (alta e média):**
+   - SC-004: faltam os rebaixados de 2009 e de 2016 a 2021;
+   - SC-005 e SD-017: acesso marcado errado;
+   - SC-017, SD-014, SD-015 e SD-016: punições do STJD que faltam ou foram para o clube errado;
+   - SC-007: pontuação de 1988.
+3. **Edições de 2026, já terminadas (alta e média):** SC-001 e SD-001. Aguardam a decisão do Guilherme.
+4. **Clube errado em jogos (média):**
+   - SC-009 e CL-001 são o mesmo caso: na Série C 2007, os jogos do Imperatriz estão com o Tuna Luso;
+   - SC-008, SC-011 e SC-012;
+   - CL-002 (Tubarão 2002), CL-003 (Copa do Brasil 2007, que é do Operário de Várzea Grande) e CL-004 (Ariquemes 1995);
+   - cadastros a juntar ou separar: CL-005 a CL-011. Aguardam a decisão do Guilherme;
+   - nomes, UF e nomes de fonte: CL-012, CL-027, CL-028 e CL-031.
+5. **Jogos e placares (média e baixa):**
+   - placares: SC-014, SC-016, SD-010, CB-004 e CB-005;
+   - jogos duplicados, a mais ou a menos: SC-010 e CB-007;
+   - casos de tribunal e jogos anulados: SC-013, SC-015, SD-013 e CB-007 (2019);
+   - pênaltis fora dos campos próprios: CB-008;
+   - mando das finais trocado: CB-006;
+   - datas: SC-020, SD-011, SD-012, CB-010 e TL-004 (ida e volta na mesma data: Copa 2001 e Série C 1988);
+   - totais, fases e textos: SC-018, SC-019, SC-021, SD-009 e CB-015.
+6. **Artilheiros do pacote (média e baixa):** SC-022, SC-023, SD-018 e CB-011.
+
+Quando corrigir, cite os ids aqui. A revisão confere de novo.

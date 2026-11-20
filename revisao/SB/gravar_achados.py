@@ -1,0 +1,77 @@
+"""Grava os achados da revisão da Série B num CSV (uso: python -I revisao/SB/gravar_achados.py SAIDA.csv)."""
+import csv, sys
+W = "https://pt.wikipedia.org/wiki/"
+E = "https://en.wikipedia.org/wiki/"
+A = [
+ ("A vice/pódio", "1999", "Santa Cruz; Bahia", "Vice Bahia, 3º Santa Cruz (classificação calculada por pontos somados de todas as fases)",
+  "Vice Santa Cruz (CBF). Quadrangular final: Goiás 11, Santa Cruz 10, Bahia 7, Vila Nova 6",
+  E + "Campeonato_Brasileiro_Série_B (Official champions); " + E + "1999_Campeonato_Brasileiro_Série_B (Final stage); " + W + "Campeonato_Brasileiro_de_Futebol_de_1999_-_Série_B (Fase final)", "alta"),
+ ("A vice/pódio", "2001", "Figueirense; Caxias; Avaí", "Vice Caxias, 3º Avaí, 4º Figueirense; jogo Figueirense x Caxias (22/12/2001) sem placar (abd) e fora das contas",
+  "Vice Figueirense (CBF; subiu com o Paysandu). Grupo final: Paysandu 9, Figueirense 9, Caxias 6, Avaí 6. pt e en contam Figueirense 1-0 Caxias (pt: o STJD manteve a vitória)",
+  E + "Campeonato_Brasileiro_Série_B; " + W + "Campeonato_Brasileiro_de_Futebol_de_2001_-_Série_B (Grupo Final, Classificação Final e nota 1); " + E + "2001_Campeonato_Brasileiro_Série_B", "alta"),
+ ("B classificação", "2001", "Malutrom; Criciúma; Tuna Luso; Sergipe", "Os 4 clubes da repescagem do rebaixamento em 9º a 12º (a fase 'Relegation Playoffs', ordem 2, conta como fase mais avançada); Tuna Luso e Sergipe aparecem rebaixados em 11º e 12º",
+  "São os 4 últimos, 21º a 24º; Joinville 9º e Fortaleza 10º",
+  W + "Campeonato_Brasileiro_de_Futebol_de_2001_-_Série_B (Classificação Final); " + E + "2001_Campeonato_Brasileiro_Série_B", "alta"),
+ ("A vice/pódio", "2004", "Fortaleza; Bahia; Avaí", "Vice Bahia, 3º Fortaleza, 4º Avaí (pontos somados de todas as fases)",
+  "Vice Fortaleza (CBF; subiu com o Brasiliense). Quadrangular final: Brasiliense 12, Fortaleza 8, Avaí 8, Bahia 5 (Bahia 4º)",
+  E + "Campeonato_Brasileiro_Série_B; " + E + "2004_Campeonato_Brasileiro_Série_B; " + W + "Campeonato_Brasileiro_de_Futebol_de_2004_-_Série_B (Fase final, Classificação Final)", "alta"),
+ ("B classificação", "2009", "Juventude; América-RN", "Juventude 16º com 47 pts (ajuste +3 vindo da tabela da RSSSF) e América-RN também 16º: dois 16º e nenhum 17º; Juventude aparece 'caiu' em 16º",
+  "Juventude 17º com 44 pts (12 V, 8 E), sem bônus; América-RN 16º com 46",
+  W + "Campeonato_Brasileiro_de_Futebol_de_2009_-_Série_B (Classificação); " + E + "2009_Campeonato_Brasileiro_Série_B", "alta"),
+ ("C jogos duplicados", "1971; 1981; 1990; 1992; 1994", "", "7 jogos repetidos: 1971 final Remo 1-0 Villa Nova e Villa Nova 3-0 Remo (2x cada; 5 jogos na final); 1981 final Guarani 1-1 Anapolina (2x); 1990 final Athletico 1-1 Sport e Sport 0-0 Athletico (2x cada); 1992 final Paraná 2-1 Vitória (2x); 1994 Desportiva-ES 0-1 Americano-RJ (2x, 18/09). Os 13.100 jogos têm 7 a mais",
+  "Final de 1971 teve 3 jogos (15/12 1-0, 19/12 3-0, 22/12 2-1) e a de 1990 teve 2 (12/12 1-1, 16/12 0-0); pt 1971: 74 jogos e 178 gols (banco 78/183); tabelas pt/RSSSF: Paraná e Vitória 1992 com 30 J, Sport 1990 com 24 J, Guarani e Anapolina 1981 com 15 J, Desportiva e Americano 1994 com 18 J",
+  E + "1971_Campeonato_Brasileiro_Série_B (Finals); " + W + "Campeonato_Brasileiro_de_Futebol_de_1990_-_Série_B (Final); " + W + "Campeonato_Brasileiro_de_Futebol_de_1971_-_Série_B (infobox); lista: revisao/SB/duplicados.py", "media"),
+ ("C placar", "1998", "Santa Cruz; Volta Redonda", "Volta Redonda 2-0 Santa Cruz (06/10/1998, W.O.): vitória do mandante, embora a observação do jogo diga 'awarded 2-0 to Sta.Cruz'",
+  "Vitória dada ao Santa Cruz (0-2). Tabela geral pt: Santa Cruz 4 V e 17 pts; Volta Redonda 2 V, 8 D e 6 pts",
+  W + "Campeonato_Brasileiro_de_Futebol_de_1998_-_Série_B (Classificação geral); observação do jogo no banco", "media"),
+ ("C placar", "1994", "Desportiva-ES; CRB", "Desportiva-ES 0-1 CRB", "1-0 para a Desportiva (ogol, já anotado na coleta, e tabela final pt: Desportiva 10-5-3, CRB 2-2-6)",
+  W + "Campeonato_Brasileiro_de_Futebol_de_1994_-_Série_B (Classificação final); docs/serie_b_coleta.md (ocorrências 1994)", "media"),
+ ("C placar", "2006", "Ituano; Vila Nova-GO", "Ituano 1-0 Vila Nova-GO (painel: Ituano 13-13-12, 49-47; Vila Nova 11-8-19, 44-68)",
+  "1-1: tabela da RSSSF (Ituano 12-14-12, 49-48), ogol e tabela pt (1.090 gols na edição; banco 1.089)",
+  W + "Campeonato_Brasileiro_de_Futebol_de_2006_-_Série_B (Classificação e infobox); docs/serie_b_coleta.md (ocorrências 2006)", "media"),
+ ("C placar", "2008", "Fortaleza; Criciúma", "Fortaleza 1-0 Criciúma (painel: Fortaleza 55-55, Criciúma 39-53)",
+  "2-1: tabela pt (Fortaleza 56-56, Criciúma 40-54), tabela da RSSSF e ogol (a matriz pt diz 2-0, inconsistente com a própria tabela)",
+  W + "Campeonato_Brasileiro_de_Futebol_de_2008_-_Série_B (Classificação e Confrontos)", "media"),
+ ("D gol contra", "2013", "", "4 jogos com gol contra gravado como gol normal do time do autor (ESPN), do lado errado: Joinville 3-0 Bragantino (1 gol do Bragantino), ABC 3-0 Paysandu (1 do Paysandu), Palmeiras 3-2 Paysandu (3 do Paysandu), América-RN 2-2 Oeste (4 do Oeste). Infla a artilharia desses jogadores",
+  "Gols de cada lado = placar de cada lado (placares conferem com a matriz pt 2013)", "revisao/SB/gols_vs_placar.py; " + W + "Campeonato_Brasileiro_de_Futebol_de_2013_-_Série_B", "media"),
+ ("D artilheiro", "24 edições", "", "Cartão 'Artilheiro' do Resumo e sub-aba Artilharia contam só os gols com autor do banco (a tabela 'artilheiro' não é usada). Ex.: 1999 Uéslei 13, 2002 Vinícius 13, 2003 Valdomiro e Vágner Love 16, 2004 Kuki e Rinaldo 13, 2005 Reinaldo 15, 2006 Fumagalli e Vanderlei 19, 2016 Bill 14, 1971 Luizinho 3, 1980 Osmarzinho 3; 1972, 1981-83, 1991, 1994, 1996-98, 2001 e 2009 'sem gols por jogador'",
+  "Lista oficial: 1999 Uéslei 25, 2002 Vinícius 22, 2003 Vágner Love 19, 2004 Rinaldo 14, 2005 Reinaldo 16, 2006 Vanderlei 21, 2016 Bill 15, 1971 Robilotta 4, 1980 Osmarzinho 12 (lista completa no relatório)",
+  W + "Campeonato_Brasileiro_de_Futebol_-_Série_B (Artilheiros / Ano a ano); " + E + "Campeonato_Brasileiro_Série_B (Top scorers)", "media"),
+ ("D artilheiro (banco)", "1971; 1988; 1989; 1990; 2004; 2016", "", "Tabela 'artilheiro' do banco: sem 1971, 1988, 1989 e 1990; 2004 Rinaldo 13 e Kuki 13 (empate); 2016 'Bil'",
+  "1971 Robilotta (Remo) 4; en: 1988 Machado (Inter de Limeira) 11, 1989 Bugrão (Anapolina) 7, 1990 Rivelino (Catuense) 11 (pt: 'sem registro'); 2004 Rinaldo (Fortaleza) 14 sozinho (pt e en); 2016 'Bill'",
+  W + "Campeonato_Brasileiro_de_Futebol_-_Série_B (Artilheiros); " + E + "Campeonato_Brasileiro_Série_B (Top scorers)", "baixa"),
+ ("F aba Por campeonato/Classificação", "2003; 2006; 2007; 2011; 2014; 2020; 2021", "", "Coluna Pts calculada sem as punições do banco (ajuste_pontos): 2014 América-MG 67 em 5º (oficial 61), 2020 Cruzeiro 55 (49), 2006 Guarani, 2007 Marília, 2011 Salgueiro, 2021 Brusque, 2003 (4 clubes). A Corrida aplica a punição (2014 América-MG 61): as sub-abas não batem. Punições não explicadas no painel",
+  "Tabelas oficiais com as punições (ex.: 2014 América-MG 61 pts, -6; 2020 Cruzeiro 49, -6)",
+  W + "Predefinição:Tabela_do_Campeonato_Brasileiro_da_Série_B_-_2020; " + W + "Campeonato_Brasileiro_de_Futebol_de_2014_-_Série_B", "media"),
+ ("B classificação (banco)", "2007; 2008; 2009", "Ituano; Juventude; Duque de Caxias", "classificacao_final copiou erros da tabela da RSSSF: 2007 Ituano 8-9-20 (soma 37 em 38 J); 2008 Juventude 49-46 e 55 pts (ajuste -1 falso); 2009 Duque de Caxias GC 53. O painel calcula pelos jogos e mostra certo",
+  "2007 Ituano 8-9-21; 2008 Juventude 51-48 e 56 pts; 2009 Duque de Caxias GC 55 (pt e en)", W + "Campeonato_Brasileiro_de_Futebol_de_2008_-_Série_B; " + E + "2009_Campeonato_Brasileiro_Série_B", "baixa"),
+ ("B punição", "2021", "Brusque", "Brusque 45 pts (-3, da en.wikipedia)", "Tabela pt mostra 48 pts, sem punição. Conferir no STJD/CBF se os 3 pontos foram mantidos",
+  W + "Predefinição:Tabela_do_Campeonato_Brasileiro_da_Série_B_-_2021", "baixa"),
+ ("C datas", "1971; 1985; 1990; 1991; 1994; 1997; 1998", "", "1998: 87 jogos com a mesma data (19/08/1998); 1997: 54 jogos em 21/09/1997 (inclui fase final); 1971: 6 jogos da 2ª fase em 25/11/1971; sem data: 1991 (344 jogos), 1994 (26), 1985 (21), 1997 (15), 1990 (1)",
+  "Datas reais espalhadas pela temporada (ex.: 1998, 1ª fase de 2/8 a 6/10)", W + "Campeonato_Brasileiro_de_Futebol_de_1998_-_Série_B (Primeira fase)", "baixa"),
+ ("F aba Por campeonato/Resumo", "1985; 1995-2005; 1988; 2001; 2002", "", "'Como foi a disputa' chama de mata-mata os quadrangulares e o triangular finais em turno e returno (ex.: 1999 'Fase final · mata-mata · 4 clubes · 12 jogos'); nomes de fase estranhos: 2001 'Relegation Playoffs', 2002 'Semifinal -finals', 1988 'Final Match'",
+  "Fase final em grupo único, todos contra todos; nomes em português", W + "Campeonato_Brasileiro_de_Futebol_de_1999_-_Série_B (Fase final)", "baixa"),
+ ("F aba Por clube/Resumo", "", "", "Cartão 'Artilheiro desde 1971' (CONF.art = 1º ano com algum gol com autor); antes de 2003 há poucos gols por jogador (o gerador diz 'desde 2003')",
+  "O texto deveria dizer o período coberto", "painel/index.html (cartão 'Artilheiro desde'); gerar_dashboard_v2.py (artilharia_clubes)", "baixa"),
+ ("F aba Por campeonato/Participantes", "2010; 2011; 2012", "Guaratinguetá; Americana", "Guaratinguetá (15º em 2010) e Americana (8º em 2011) aparecem com '—' (não jogou nenhuma série) no ano seguinte; Guaratinguetá 2012 com '—' em 'Chegou'",
+  "O Guaratinguetá jogou 2011 em Americana com o nome Americana e voltou em 2012: mesmo clube, ficou na Série B. Decisão de identidade é do Guilherme (bloco E)",
+  W + "Campeonato_Brasileiro_de_Futebol_de_2011_-_Série_B (Participantes)", "baixa"),
+ ("F celular", "", "", "Em 420 px a página fica mais larga que a tela (tabela e abas cortadas à direita)", "Já conhecida (pendência do agente 1)", "SCRATCH/SB/telas/420_campeonato_classificacao_2025.png", "baixa"),
+]
+NE = [
+ ("A edições", "todas", "", "44 edições: 1971, 1972, 1980-85, 1988-92, 1994-99, 2001-25; 1980-84 como Taça de Prata", "Lista oficial da CBF (44); sem Série B oficial em 1973-79, 1986, 1987, 1993 e 2000 (1986 Torneio Paralelo, 1987 Módulos Azul/Branco, 2000 Módulo Amarelo e 1979 não reconhecidos)", E + "Campeonato_Brasileiro_Série_B (Official champions, Unofficial champions)", "baixa", "nao-e-erro"),
+ ("A pódio", "2022", "Bahia; Vasco", "3º Bahia, 4º Vasco (62 pts e 17 V cada; saldo 14 x 12)", "Tabelas pt e en de 2022 dão Bahia 3º; só a lista resumida da en.wikipedia põe Vasco 3º", W + "Predefinição:Tabela_do_Campeonato_Brasileiro_da_Série_B_-_2022", "baixa", "nao-e-erro"),
+ ("E Novorizontino", "1989; 1991; 1995; 2022-2025", "GE Novorizontino; Novorizontino", "GE Novorizontino em 1989, 1991 e 1995; Novorizontino (Grêmio) de 2022 a 2025", "pt 1995 liga a 'Grêmio Esportivo Novorizontino'; pt 2023 a 'Grêmio Novorizontino'", W + "Campeonato_Brasileiro_de_Futebol_de_1995_-_Série_B; " + W + "Campeonato_Brasileiro_de_Futebol_de_2023_-_Série_B", "baixa", "nao-e-erro"),
+ ("F aba História/Curiosidades", "2006", "Paulista; Paysandu", "Maior goleada: Paulista 9 x 0 Paysandu (2006)", "Igual: maior goleada da história da Série B (18/11/2006)", W + "Campeonato_Brasileiro_de_Futebol_-_Série_B (Maiores goleadas)", "baixa", "nao-e-erro"),
+]
+with open(sys.argv[1], "w", encoding="utf-8", newline="") as f:
+    w = csv.writer(f)
+    w.writerow("id,competicao,item,edicao,clube,o_que_esta_no_painel,o_que_a_fonte_diz,fonte,gravidade,quem_corrige,situacao".split(","))
+    n = 0
+    for it, ed, cl, p, s, fo, g in A:
+        n += 1
+        w.writerow([f"SB-{n:03d}", "bra-serie-b", it, ed, cl, p, s, fo, g, "banco-painel", "aberto"])
+    for it, ed, cl, p, s, fo, g, sit in NE:
+        n += 1
+        w.writerow([f"SB-{n:03d}", "bra-serie-b", it, ed, cl, p, s, fo, g, "banco-painel", sit])
+print(n, "achados")

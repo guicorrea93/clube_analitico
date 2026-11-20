@@ -1,0 +1,51 @@
+Copa do Brasil — jogos com placar, mando ou presença divergentes (revisão CB, 20/11/2026)
+Fontes: Wikipédia pt (chaves "Torneio 32 equipas", "Tabela Copa do Brasil", TwoLegResult/OneLegResult, Footballbox e infobox
+de jogos/gols de cada edição: https://pt.wikipedia.org/wiki/Copa_do_Brasil_de_Futebol_de_<ano>) e Wikipédia en
+(https://en.wikipedia.org/wiki/<ano>_Copa_do_Brasil). Saídas completas: revisao/CB/saida_confrontos.txt (pt) e
+saida_confrontos_en.txt (en). "ogol" = o que o próprio relatório de coleta diz que o ogol trazia.
+
+A. Placar que muda quem passou de fase (pacote incoerente com a fase seguinte do próprio pacote)
+- 2014 Treze x Vasco (2014-04-30): pacote Treze 2-1 Vasco; pt + ogol: Treze 1-2 Vasco. Com o placar do pacote o Vasco seria
+  eliminado, mas o pacote tem o Vasco na fase seguinte (contra o ABC).
+- 2015 Paysandu x Águia Negra (2015-04-01): pacote 0-2; pt + ogol: 2-0. Com o pacote o Paysandu cairia, mas joga as oitavas
+  (x Fluminense, também na en).
+- 2015 Tupi x Ceará (2015-07-22): pacote Tupi 2-1; pt + ogol: 1-2. Com o pacote o Tupi passaria, mas quem joga as oitavas é o
+  Ceará (x São Paulo).
+
+B. Outros placares em que o pacote ficou com a RSSSF e duas fontes discordam (e o total de gols da infobox pt bate com elas)
+- 1990 Santa Cruz x América-RN (ida): pacote 0-1; pt e en: 1-0 (Santa Cruz).
+- 1993 4 de Julho x Palmeiras (1993-03-02): pacote 0-3 (igual ao jogo de volta); pt, en e ogol: 0-2. Gols 1993: pacote 181,
+  infobox pt/en 180.
+- 1994 4 de Julho x Palmeiras (1994-02-08): pacote 2-5 (igual ao jogo de volta); pt, en e ogol: 1-3. Gols 1994: pacote 152,
+  infobox pt/en 149.
+- 2000 Fluminense x Santa Cruz (2000-04-27): pacote 3-2; pt e ogol: 3-1.
+- 2000 Nacional-AM x Rio Negro-AM (volta, 2000-03-30): pacote 1-1; pt e ogol: 2-2. Gols 2000: pacote 384, infobox pt 385.
+- 2007 Baré x América-RN (2007-02-14): pacote 0-1; pt, en e ogol: Baré 1-0.
+- 2013 ASA x Flamengo (2013-07-10): pacote 0-1; pt e ogol: 0-2. Gols 2013: pacote 363, infobox pt/en 364.
+- 2014 América-RN x Fluminense (2014-08-06): pacote 0-2; pt e ogol: 0-3. Gols 2014: pacote 434, infobox pt 435.
+- 2002 São Raimundo x América-RN (2002-02-20): pacote 0-4; pt e ogol 0-3; en 0-4 (fontes divididas, conferir).
+- 1991 Remo x Vitória (quartas): pacote 0-0 e Remo 2-0; pt 2-0 e 2-2; en igual ao pacote. A infobox pt e en dá 132 gols em
+  1991 (pacote 128): a diferença de 4 é exatamente esse 2-2. Conferir.
+
+C. Mando trocado entre ida e volta (placar certo, casa errada)
+- 2015 final: real Santos 1-0 Palmeiras (25/11) e Palmeiras 2-1 Santos (02/12, pênaltis 4-3). Pacote: Santos 1-2 Palmeiras
+  (26/11) e Palmeiras 0-1 Santos (03/12). Fontes: pt e en (Footballbox). Provavelmente o mesmo nas quartas e semifinais de
+  2015 (o relatório de coleta lista 12 jogos de 2015 com "placar diferente no ogol" em que ficou a RSSSF): conferir.
+- 2016 final: real Atlético-MG 1-3 Grêmio (23/11) e Grêmio 1-1 Atlético-MG (07/12). Pacote: Atlético-MG 1-1 Grêmio e
+  Grêmio 3-1 Atlético-MG. Fonte: pt (Footballbox) e en (chave).
+- Ordem/mando a conferir (só pt): 2001 Cachoeiro x Fluminense, 2001 Santos-AP x Remo, 2002 Remo x Náutico,
+  2005 Treze x Coritiba, 2008 Central x Remo, 2008 Imperatriz x Sport.
+
+D. Jogo a mais ou a menos
+- 1999: falta a partida preliminar Santa Cruz 1-0 Náutico (pt e en). Pacote 116 jogos e 64 clubes; pt/en 117 e 65.
+- 2007: sobra 2007-0074 Rio Branco-PR 3-0 Villa Nova-MG (14/03, só na RSSSF, sem código ogol). Na pt/en o Villa Nova
+  enfrentou o Avaí na 2ª fase (os dois jogos também estão no pacote). Pacote 116; pt/en 115.
+- 2019: 2019-0040 Aparecidense 1-0 Ponte Preta (12/02) foi anulado pelo STJD (a própria observação do pacote diz) e o jogo
+  valendo foi 2019-0065 (2-0). Pacote 121; pt/en 120.
+- 2021: 2021-0038 está como CRB 0-0 Cuiabá; pt e ogol: Sergipe 0-0 Cuiabá. O CRB jogou a 1ª fase contra o Goianésia (2021-0064,
+  também no pacote). Por isso o Sergipe some de 2021 (pacote 91 clubes; pt/en 92).
+
+E. Datas (1 dia depois)
+- 1990 Goiás x Flamengo: pacote 08/11; pt e en 07/11.
+- 2014 final: pacote 13/11 e 27/11; pt e en 12/11 e 26/11.
+- 2015 final: pacote 26/11 e 03/12; pt e en 25/11 e 02/12.
