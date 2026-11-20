@@ -601,28 +601,35 @@ def cartoes(eds: list[dict], edp: list[dict], part: dict, jogos: int, total_gols
 def movimentos(dados: dict) -> None:
     """Em cada edição, de onde cada clube chegou e para onde foi: a divisão (nível) dele no ano anterior e no
     seguinte, olhando todas as ligas do banco do mesmo país. Põe em EDS[i]["mv"] um [veio, foi] por linha da
-    classificação: o nível, 0 se não jogou nenhuma delas naquele ano e null se o banco não tem aquele ano."""
+    classificação: o nível, 0 se não jogou nenhuma delas naquele ano e null se o banco não tem aquele ano.
+    Numa copa (sem nível) é [divisão no próprio ano, null]."""
     con = sqlite3.connect(DB)
     try:
         nivel = {slug: n for slug, n in con.execute("SELECT slug, nivel FROM competicao")}
-        pais = {slug: p for slug, p in con.execute("SELECT slug, pais_id FROM competicao")}
-        onde: dict[tuple, int] = {}   # (país, clube, ano) -> menor nível jogado
-        anos: dict[int, set] = defaultdict(set)   # país -> anos com alguma liga no banco
-        for p_, c, ano, n in con.execute("""SELECT k.pais_id, cl.nome, e.ano_inicio, k.nivel FROM classificacao_final f
-                                            JOIN edicao e USING (edicao_id) JOIN competicao k USING (competicao_id)
-                                            JOIN clube cl USING (clube_id) WHERE k.tipo = 'liga' AND k.nivel IS NOT NULL"""):
-            k = (p_, nome(c), ano)
+        # sistema de divisões: as ligas nacionais do país, ou as divisões do estadual do mesmo estado (copa usa as ligas)
+        sistema = {slug: (p_, "estadual", r) if t == "estadual" else (p_, "liga", None)
+                   for slug, p_, t, r in con.execute("SELECT slug, pais_id, tipo, regiao FROM competicao")}
+        onde: dict[tuple, int] = {}   # (sistema, clube, ano) -> menor nível jogado
+        anos: dict[tuple, set] = defaultdict(set)   # sistema -> anos com alguma divisão no banco
+        for p_, t, r, c, ano, n in con.execute("""SELECT k.pais_id, k.tipo, k.regiao, cl.nome, e.ano_inicio, k.nivel FROM classificacao_final f
+                                                  JOIN edicao e USING (edicao_id) JOIN competicao k USING (competicao_id)
+                                                  JOIN clube cl USING (clube_id) WHERE k.tipo IN ('liga', 'estadual') AND k.nivel IS NOT NULL"""):
+            sis = (p_, t, r if t == "estadual" else None)
+            k = (sis, nome(c), ano)
             onde[k] = min(onde.get(k, n), n)
-            anos[p_].add(ano)
+            anos[sis].add(ano)
     finally:
         con.close()
     for slug, d in dados.items():
-        p_ = pais[slug]
+        sis = sistema[slug]
         d["CONF"]["nivel"] = nivel[slug]
         for e in d["EDS"]:
             ano = e["ano"]
-            lado = lambda a, c: onde.get((p_, c, a), 0) if a in anos[p_] else None
-            e["mv"] = [[lado(ano - 1, r[0]), lado(ano + 1, r[0])] for r in e["tab"]]
+            lado = lambda a, c: onde.get((sis, c, a), 0) if a in anos[sis] else None
+            if nivel[slug] is None:
+                e["mv"] = [[lado(ano, r[0]), None] for r in e["tab"]]
+            else:
+                e["mv"] = [[lado(ano - 1, r[0]), lado(ano + 1, r[0])] for r in e["tab"]]
 
 
 def textos(slug: str, eds: list[dict], edp: list[dict], part: dict, jogos: int, total_gols: int, det: list[dict], artc: dict) -> tuple[dict, dict]:
@@ -650,7 +657,9 @@ def textos(slug: str, eds: list[dict], edp: list[dict], part: dict, jogos: int, 
     }
     conf = {"curto": c["curto"], "o": c["o"], "art": art[0] if art else None,
             "niveis": {n: x for n, x in sqlite3.connect(DB).execute(
-                "SELECT nivel, nome_curto FROM competicao WHERE tipo = 'liga' AND pais_id = (SELECT pais_id FROM competicao WHERE slug = ?)", (slug,))}}
+                """SELECT nivel, nome_curto FROM competicao k WHERE nivel IS NOT NULL AND EXISTS (SELECT 1 FROM competicao x WHERE x.slug = ?
+                   AND x.pais_id = k.pais_id AND (CASE WHEN x.tipo = 'estadual' THEN k.tipo = 'estadual' AND k.regiao = x.regiao ELSE k.tipo = 'liga' END))""",
+                (slug,))}}
     return tx, conf
 
 
@@ -1717,6 +1726,7 @@ function corridaPosicoes(id, medalhas) {
     const grupo = (rot, xs, num, det, txt) => xs.length ? cartao(rot, um(null, num ?? xs.length, det), lista(xs, txt)) : '';
     const est = linhas.filter(x => x.n === 1), maxN = Math.max(...linhas.map(x => x.n));
     const vet = linhas.filter(x => x.n === maxN);
+    if (N === null) return participantesCopa(e, linhas, est, vet, maxN, lista, grupo);
     document.getElementById('cpp-cartoes').innerHTML = '<div class="cu-cartoes">' + [
       grupo('Estreantes', est, null, est.length === 1 ? 'clube pela 1ª vez' : 'clubes pela 1ª vez'),
       maxN > 1 ? grupo(vet.length === 1 ? 'Mais veterano' : 'Mais veteranos', vet, maxN + 'ª', 'participação') : '',
@@ -1733,6 +1743,20 @@ function corridaPosicoes(id, medalhas) {
       linhas.map(x => '<tr class="' + (x.pos <= 3 ? 'p' + x.pos : '') + '"><td class="pos">' + x.pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(x.c) + '">' + escudo(x.c) + esc(x.c) + '</a></td>' +
         '<td>' + x.n + 'ª' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</td>' +
         '<td>' + seta(x.veio, true) + '</td><td>' + seta(x.foi, false) + '</td></tr>').join('') + '</tbody></table></div>';
+  }
+  // copa: em vez de subir e cair, a divisão em que cada clube jogava naquele ano
+  function participantesCopa(e, linhas, est, vet, maxN, lista, grupo) {
+    const div = v => v === null ? '' : v === 0 ? '<span class="mv fora">fora das séries</span>' : '<span class="mv">' + NV(v) + '</span>';
+    const niveis = [...new Set(linhas.map(x => x.veio).filter(v => v !== null))].sort((a, b) => (a || 99) - (b || 99));
+    document.getElementById('cpp-cartoes').innerHTML = '<div class="cu-cartoes">' + [
+      grupo('Estreantes', est, null, est.length === 1 ? 'clube pela 1ª vez' : 'clubes pela 1ª vez'),
+      maxN > 1 ? grupo(vet.length === 1 ? 'Mais veterano' : 'Mais veteranos', vet, maxN + 'ª', 'participação') : '',
+      ...niveis.map(v => grupo(v ? 'Da ' + NV(v) : 'Fora das séries', linhas.filter(x => x.veio === v), null, 'no ano de ' + e.ano)),
+    ].join('') + '</div>';
+    document.getElementById('cpp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab cpp-tab"><thead><tr><th></th><th>Clube</th><th>Participação</th><th>Série no ano</th></tr></thead><tbody>' +
+      linhas.map(x => '<tr class="' + (x.pos <= 3 ? 'p' + x.pos : '') + '"><td class="pos">' + x.pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(x.c) + '">' + escudo(x.c) + esc(x.c) + '</a></td>' +
+        '<td>' + x.n + 'ª' + (x.n === 1 ? ' <span class="mv novo">estreia</span>' : x.n === maxN ? ' <span class="mv vet">mais veterano</span>' : '') + '</td>' +
+        '<td>' + div(x.veio) + '</td></tr>').join('') + '</tbody></table></div>';
   }
   function resumo(e) {
     const t = e.tab, J = e.jogos, maxJ = Math.max(...t.map(r => r[2]));

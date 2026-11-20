@@ -14,7 +14,7 @@ Ordem de prioridade (o Guilherme pode mudar):
 
 1. **Brasileirão Série C** (`bra-serie-c`)
 2. **Brasileirão Série D** (`bra-serie-d`)
-3. **Estaduais**, começando pelos maiores: Paulista, Carioca, Mineiro, Gaúcho (`bra-sp-paulista`, `bra-rj-carioca`...)
+3. **Estaduais**, começando pelos maiores: Paulista, Carioca, Mineiro, Gaúcho (`bra-sp-1`, `bra-rj-1`...; regras na seção 6b)
 4. **Ligas nacionais estrangeiras:** primeiro as principais da Europa e da América do Sul, depois
    África e Ásia (`eng-premier-league`, `esp-la-liga`, `arg-primera`...)
 
@@ -149,6 +149,23 @@ Junto do pacote vai o relatório `docs/coleta/<slug>.md`, com o mesmo modelo de 
 - **ESPN:** a Série B é a liga `bra.2`. Teste se `bra.3` responde e desde que ano.
 - **ogol:** cada edição tem um id; a lista da Série B está em `serie_b/ogol.py` (`EDICOES`). Monte a da C.
 - **Série D (2009+):** muitos clubes novos no banco; capriche na identidade e no estado de cada um.
+
+## 6b. Estaduais
+
+- **Slug:** `bra-<uf>-<divisão>`. Exemplos: `bra-sp-1` (1ª divisão paulista, de 1902 até hoje), depois `bra-sp-2` (A2).
+  O nome de cada época vai em `nome_oficial` (ex.: "Série A1").
+- **`competicao.json`:** `"tipo": "estadual"`, `"regiao": "SP"`, `"nivel": 1`, `"rotulo_painel": "Paulista"`,
+  `"menu_painel": "Paulista"`, `"do_painel": "do Paulistão"`, `"o_painel": "o Paulistão"`.
+  No painel, "subiu" e "caiu" são contados entre as divisões do **mesmo estado** (`bra-sp-1` ↔ `bra-sp-2`).
+- **Ano com dois campeões** (ligas rivais, como LPF e APEA em 1913–1916 e 1926–1929): uma edição por torneio que a
+  federação reconhece como título, com `temporada` única (ex.: "1913 LPF", "1913 APEA"). É a mesma regra do
+  guia internacional.
+- **Mesmo clube com outro nome** (Palestra Itália → Palmeiras): um clube só, com o nome atual, e os nomes antigos
+  no `nomes_fonte`.
+- **Clube antigo homônimo de um clube do banco** (ex.: um "Internacional" paulista dos anos 1900): **nunca** use
+  o nome exato de um clube do banco para outro clube, porque o carregador junta os dois. Diferencie: "Internacional-SP".
+- **Continuidade discutida** (ex.: São Paulo da Floresta, 1930–1935, e o São Paulo de hoje): não decida sozinho.
+  Escreva o caso em `docs/coleta/pedidos.md`, com as fontes, e pergunte ao Guilherme.
 
 ## 7. Como conversar com o Guilherme
 
