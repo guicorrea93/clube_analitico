@@ -35,3 +35,6 @@ data/cache/
 
 # Cloudflare (wrangler): arquivos temporários da publicação
 .wrangler/
+
+# banco genérico: grande demais para o GitHub; é refeito por python futebol/migrar_brasileirao.py
+db/futebol.db

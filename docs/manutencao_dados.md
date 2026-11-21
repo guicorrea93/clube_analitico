@@ -105,6 +105,9 @@ python .\gerar_dashboard_v2.py           # painel em painel/ (index.html, dados/
 
 Depois de mexer na Série A ou na Série B, ou de receber um pacote novo, rode o primeiro e o último.
 
+O `db/futebol.db` não vai para o GitHub (`.gitignore`): é refeito pelo primeiro comando, a partir do `brasileirao.db`
+e dos pacotes, que estão no GitHub.
+
 **Painel online:** https://clubeanalitico.pages.dev (Cloudflare Pages, projeto `clubeanalitico`, conta do Guilherme).
 Não publica sozinho com o push: depois de gerar o painel (e com o ok do Guilherme), envie a pasta `painel/`:
 

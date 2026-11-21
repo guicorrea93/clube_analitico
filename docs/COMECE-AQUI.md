@@ -92,7 +92,8 @@ painel/            ── painel novo (index.html + dados/<competição>.js + es
    Quando a fonte erra, a correção fica escrita no código, com o motivo.
 7. **Downloads educados:** espere entre pedidos, guarde a página baixada, não baixe de novo o que
    já tem e trate o erro 429 (esperar e tentar de novo).
-8. **Os arquivos `.db` e `.html` gerados são versionados de propósito.**
+8. **Os arquivos `.db` e `.html` gerados são versionados de propósito**, menos o `db/futebol.db` (grande demais para o
+   GitHub). Ele fica só no computador; num clone novo, monte com `python futebol/migrar_brasileirao.py`.
 
 ## 5. Quem faz o quê (dois agentes)
 
