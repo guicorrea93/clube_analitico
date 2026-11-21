@@ -115,9 +115,10 @@ def jogos_manuais(ano: int) -> list[Partida]:
 
 
 # placar oficial que as fontes de jogos trazem errado (revisão de 20/11/2026, docs/revisao/bra-serie-b.md):
-# (ano, mandante, visitante) -> (gols do mandante, gols do visitante, especial, observação)
+# (ano, mandante, visitante[, fase]) -> (gols do mandante, gols do visitante, especial, observação); com a fase quando o
+# mesmo confronto se repete na edição (RV-001: o 3-1 da 1ª fase de 2001 não é o jogo do STJD)
 CORRECOES = {
-    (2001, "Figueirense", "Caxias"): (1, 0, "awd", "Jogo encerrado aos 90' com 1-0 por invasão de campo; o STJD manteve a vitória do "
+    (2001, "Figueirense", "Caxias", "Fase final"): (1, 0, "awd", "Jogo encerrado aos 90' com 1-0 por invasão de campo; o STJD manteve a vitória do "
                                       "Figueirense, que foi vice e subiu (CBF; Wikipédia pt e en). Achado SB-002."),
     (1998, "Volta Redonda", "Santa Cruz"): (0, 2, "wo", "W.O.: vitória dada ao Santa Cruz por 2-0 (RSSSF 'awarded 2-0 to Sta.Cruz'; "
                                              "tabela da Wikipédia pt). Achado SB-007."),
@@ -137,7 +138,7 @@ def corrigir(ano: int, partidas: list[Partida], log: list[str]) -> list[Partida]
     """Aplica CORRECOES e tira o jogo repetido (mesma fase, mandante, visitante e placar: a página o lista duas
     vezes; fica o de data mais nova). Achado SB-006."""
     for p in partidas:
-        c = CORRECOES.get((ano, p.mandante, p.visitante))
+        c = CORRECOES.get((ano, p.mandante, p.visitante, p.fase)) or CORRECOES.get((ano, p.mandante, p.visitante))
         if c:
             antes = f"{p.gm}-{p.gv}"
             p.gm, p.gv, p.especial, p.obs = c[0], c[1], c[2], c[3]
@@ -173,15 +174,22 @@ def aplicar_ogol(ano: int, partidas: list[Partida], log: list[str]) -> list[Part
     for p in partidas:
         por_par[(p.mandante, p.visitante)].append(p)
     turno_unico = all(p.fase == "Fase única" for p in partidas)
-    mudou_rodada = placar_dif = 0
+    mudou_rodada = placar_dif = mudou_data = 0
+    data_ogol: dict[int, str] = {}
     novos = []
     dia = lambda d: datetime.strptime(d, "%Y-%m-%d").toordinal() if d else None
     encontros_og = Counter(frozenset((m, v)) for m, v, _ in og)
     encontros_aqui = Counter(frozenset((p.mandante, p.visitante)) for p in partidas)
     incluidos: Counter = Counter()
+    # mesmo confronto com o mesmo placar uma vez só nas duas fontes: é o mesmo jogo, seja qual for a data
+    placar_og = Counter((m, v, o["gols_mandante"], o["gols_visitante"]) for m, v, o in og)
+    placar_aqui = Counter((p.mandante, p.visitante, p.gm, p.gv) for p in partidas)
     for m, v, o in og:
         cands = por_par.get((m, v), [])
-        if not turno_unico:   # com fases o par pode se repetir: vale o jogo de data próxima (ou sem data)
+        k = (m, v, o["gols_mandante"], o["gols_visitante"])
+        if not turno_unico and placar_og[k] == 1 and placar_aqui[k] == 1:
+            cands = [p for p in cands if (p.gm, p.gv) == k[2:]]
+        elif not turno_unico:   # com fases o par pode se repetir: vale o jogo de data próxima (ou sem data)
             cands = [p for p in cands if p.data is None or abs(dia(p.data) - dia(o["data"])) <= 4]
         if len(cands) > 1:
             cands = [p for p in cands if p.data == o["data"]] or cands[:1]
@@ -210,11 +218,22 @@ def aplicar_ogol(ano: int, partidas: list[Partida], log: list[str]) -> list[Part
             placar_dif += 1
             if placar_dif <= 15:
                 log.append(f"{ano}: placar diferente no ogol — {m} x {v}: aqui {p.gm}-{p.gv}, ogol {o['gols_mandante']}-{o['gols_visitante']}")
+        # data do jogo: a RSSSF muitas vezes põe a da rodada em todos; o ogol traz a de cada jogo (a ESPN, quando há, vale mais).
+        # Só troca onde há conflito (abaixo): fora disso a data do ogol às vezes é a pior (RV-003)
+        elif o["data"] and p.data != o["data"] and not p.espn_id:
+            data_ogol[id(p)] = o["data"]
         if turno_unico and o["rodada"] and p.rodada != o["rodada"]:
             mudou_rodada += p.rodada is not None
             p.rodada = o["rodada"]
+    no_dia = Counter((p.data, c) for p in partidas if p.data for c in (p.mandante, p.visitante))
+    for p in partidas:
+        if id(p) in data_ogol and (no_dia[(p.data, p.mandante)] > 1 or no_dia[(p.data, p.visitante)] > 1):
+            p.data = data_ogol[id(p)]
+            mudou_data += 1
     if mudou_rodada:
         log.append(f"{ano}: rodada do ogol diferente da RSSSF em {mudou_rodada} jogos (fica a do ogol, a oficial)")
+    if mudou_data:
+        log.append(f"{ano}: data do ogol diferente em {mudou_data} jogos (fica a do ogol, jogo a jogo)")
     if placar_dif > 15:
         log.append(f"{ano}: ... {placar_dif} placares diferentes no ogol no total")
     return partidas + novos
@@ -532,7 +551,7 @@ def classificacao_final(ano: int, partidas: list[Partida], tabelas: list[rsssf.T
             aj = 0 if (ano, c) in AJUSTE_FALSO else r["ajuste"]
             saida.append({"pos": r["pos"], "clube": c, "j": j, "v": r["v"], "e": r["e"], "d": r["d"], "gp": r["gp"], "gc": r["gc"],
                           "pts": pv * r["v"] + r["e"] + aj, "ajuste": aj, "fonte": "Wikipédia (tabela oficial)"})
-        if any((ano, s["clube"]) in AJUSTE_FALSO for s in saida):   # punição desfeita: a ordem segue os pontos
+        if any((ano, s["clube"]) in AJUSTE_FALSO or s["ajuste"] for s in saida):   # punição (ou punição desfeita): a ordem segue os pontos (RV-002)
             saida.sort(key=lambda s: (-s["pts"], -s["v"], -(s["gp"] - s["gc"]), -s["gp"]))
             for i, s in enumerate(saida, 1):
                 s["pos"] = i
@@ -599,7 +618,7 @@ def classificacao_final(ano: int, partidas: list[Partida], tabelas: list[rsssf.T
     na_final = campanha(final)   # quem chegou à última fase fica na ordem dela (grupo final; achados SB-001, SB-002, SB-004)
     def chave(c):
         x, f = camp[c], na_final.get(c, [0] * 6)
-        return (c != campeao, -alcance[c], -(pv * f[1] + f[2]), -f[1], -(f[4] - f[5]), -(pv * x[1] + x[2] + ajuste.get(c, 0)),
+        return (c != campeao, -alcance[c], -(pv * f[1] + f[2] + ajuste.get(c, 0)), -f[1], -(f[4] - f[5]), -(pv * x[1] + x[2] + ajuste.get(c, 0)),
                 -x[1], -(x[4] - x[5]), -x[4], c)
     saida = []
     for i, c in enumerate(sorted(camp, key=chave), 1):

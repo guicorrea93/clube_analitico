@@ -76,8 +76,46 @@ COMPETICOES = {
 }
 
 
+# bandeiras (data/worldcup_wikipedia/flags/<iso>.png, da parte da Copa do Mundo): código FIFA -> arquivo
+BANDEIRA = {"BRA": "br", "ARG": "ar", "URU": "uy", "CHI": "cl", "COL": "co", "PAR": "py", "PER": "pe", "ECU": "ec", "BOL": "bo",
+            "ENG": "gb-eng", "SCO": "gb-sct", "WAL": "gb-wls", "NIR": "gb-nir", "ESP": "es", "ITA": "it", "GER": "de", "FRA": "fr",
+            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us"}
+CONTINENTE = {"CONMEBOL": "América do Sul", "UEFA": "Europa", "CONCACAF": "América do Norte e Central", "CAF": "África",
+              "AFC": "Ásia", "OFC": "Oceania"}
+GRUPO = {"liga": "Ligas", "copa": "Copas", "estadual": "Estaduais"}
+
+
+def catalogo(dados: dict) -> list[dict]:
+    """Uma entrada por competição do seletor: slug, nome, rótulo dentro do país ("Série A", "1ª divisão", "Paulista"),
+    país, bandeira, continente, grupo (Ligas, Copas, Estaduais) e período. Copia as bandeiras para painel/bandeiras/."""
+    import shutil
+    pasta = PAINEL / "bandeiras"
+    pasta.mkdir(parents=True, exist_ok=True)
+    con = sqlite3.connect(DB)
+    saida = []
+    for slug, c in COMPETICOES.items():
+        tipo, nivel, curto, pcod, pnome, conf = con.execute(
+            """SELECT k.tipo, k.nivel, k.nome_curto, pa.codigo, pa.nome, coalesce(k.confederacao, pa.confederacao)
+               FROM competicao k LEFT JOIN pais pa USING (pais_id) WHERE k.slug = ?""", (slug,)).fetchone()
+        band = ""
+        if BANDEIRA.get(pcod):
+            origem = ROOT / "data" / "worldcup_wikipedia" / "flags" / f"{BANDEIRA[pcod]}.png"
+            if origem.exists():
+                destino = pasta / origem.name
+                if not destino.exists() or destino.read_bytes() != origem.read_bytes():
+                    shutil.copyfile(origem, destino)
+                band = "bandeiras/" + origem.name
+        eds = dados[slug]["EDP"]
+        rot = (curto if pcod == "BRA" else f"{nivel}ª divisão") if tipo == "liga" and nivel else c["curto"]
+        saida.append({"s": slug, "nome": c["nome"], "curto": rot, "pais": pcod or "", "pn": pnome or "", "band": band,
+                      "cont": CONTINENTE.get(conf, "Outros"), "grupo": GRUPO.get(tipo, "Outras"),
+                      "per": f"{eds[0].get('t') or eds[0]['ano']} a {eds[-1].get('t') or eds[-1]['ano']}"})
+    con.close()
+    return saida
+
+
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1"}
 
 
 def competicoes_dos_pacotes() -> None:
@@ -147,6 +185,8 @@ COMPETICAO_CURTA = {
 }
 NOTAS = {   # competição -> edição -> nota
     "bra-serie-a": {
+        "2005": "11 jogos foram anulados e disputados de novo (escândalo da Máfia do Apito); o banco tem os jogos refeitos.",
+        "2016": "Chapecoense x Atlético-MG, da última rodada, não foi disputado, por causa do acidente aéreo da Chapecoense.",
         "1987": "A CBF reconhece o Sport. O Flamengo venceu a Copa União (Módulo Verde) e não disputou o quadrangular final com Sport e Guarani.",
     },
 }
@@ -175,7 +215,7 @@ def abrir(slug: str) -> sqlite3.Connection:
                       WHEN instr(e.temporada, ' ') > 0 THEN substr(e.temporada, instr(e.temporada, ' ') + 1)
                       ELSE (SELECT padrao FROM rotulo) END AS competicao_nome,
                  CASE WHEN e.formato = 'mata-mata' THEN 'mata' ELSE '' END AS tipo,
-                 e.pontos_vitoria, e.ano_inicio AS temporada_id, e.temporada,
+                 e.pontos_vitoria, e.ano_inicio AS temporada_id, e.temporada, e.campeao_id IS NOT NULL AS tem_campeao, e.observacao, e.nome_oficial,
                  -- pontos corridos: tabela rodada a rodada, fase única e todo jogo com rodada (senão fica por fase)
                  EXISTS (SELECT 1 FROM f.classificacao_rodada r WHERE r.edicao_id = e.edicao_id)
                  AND (SELECT count(*) FROM f.fase x WHERE x.edicao_id = e.edicao_id) = 1
@@ -195,7 +235,7 @@ def abrir(slug: str) -> sqlite3.Connection:
           FROM f.partida p JOIN dim_edicao_nacional d ON d.edicao_nacional_id = p.edicao_id WHERE d.moderna;
         CREATE TABLE fato_classificacao_final_nacional AS
           SELECT c.edicao_id AS edicao_nacional_id, c.clube_id, c.posicao,
-                 c.jogos, c.vitorias, c.empates, c.derrotas, c.gols_pro, c.gols_contra, c.ajuste_pontos, c.situacao
+                 c.jogos, c.vitorias, c.empates, c.derrotas, c.gols_pro, c.gols_contra, c.ajuste_pontos, c.situacao, c.pontos
           FROM f.classificacao_final c JOIN dim_edicao_nacional d ON d.edicao_nacional_id = c.edicao_id;
         CREATE TABLE fato_classificacao_rodada AS
           SELECT d.temporada_id, r.rodada, r.clube_id, r.posicao, r.pontos, r.zona
@@ -293,10 +333,11 @@ def escudos(clubes: set[str]) -> dict[str, str]:
 
 def participacoes(con: sqlite3.Connection) -> tuple[list[dict], dict[str, list[list[int]]]]:
     """Edições em ordem (ano, competição, nº de clubes, se foi de pontos corridos) e, por clube, [índice da edição, posição final]."""
-    eds = con.execute("SELECT edicao_nacional_id, temporada_id, competicao_nome, moderna, temporada FROM dim_edicao_nacional "
+    eds = con.execute("SELECT edicao_nacional_id, temporada_id, competicao_nome, moderna, temporada, pontos_vitoria FROM dim_edicao_nacional "
                       "ORDER BY temporada_id, edicao_id").fetchall()
     idx = {eid: i for i, (eid, *_) in enumerate(eds)}
-    lista = [{"ano": ano, "comp": rotulo_ed(con, comp), "n": 0, "pc": bool(pc), "t": temporada_texto(t)} for _, ano, comp, pc, t in eds]
+    lista = [{"ano": ano, "comp": rotulo_ed(con, comp), "n": 0, "pc": bool(pc), "t": temporada_texto(t), "pv": pv or 3}
+             for _, ano, comp, pc, t, pv in eds]
     part: dict[str, list[list[int]]] = {}
     for eid, clube, pos in con.execute(
         "SELECT f.edicao_nacional_id, cl.nome, f.posicao FROM fato_classificacao_final_nacional f JOIN dim_clube cl USING (clube_id)"
@@ -413,14 +454,15 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     def campanha(c: str, i: int) -> dict:
         jj, vv, ee = j[c][i], v[c][i], e_[c][i]
         return {"c": c, "ano": edp[i]["ano"], "t": edp[i]["t"], "j": jj, "v": vv, "e": ee, "d": jj - vv - ee, "gp": gp[c][i], "gc": gc[c][i],
-                "pts": 3 * vv + ee, "ap": (3 * vv + ee) / (3 * jj)}
+                "pts": edp[i]["pv"] * vv + ee, "ap": (edp[i]["pv"] * vv + ee) / (edp[i]["pv"] * jj)}   # pontos da época
 
     maior = max(max(xs) for xs in j.values())   # mais jogos de um clube numa edição (na Série D, menos de 30)
     min_camp, min_def = min(20, maior // 2), min(30, maior)
     camps = [campanha(c, i) for c in j for i in range(len(edp)) if j[c][i] >= min_camp]
     anos_tit = defaultdict(list)
     for x in ed:
-        anos_tit[x["campeao"]].append(x["ano"])
+        if x["campeao"]:
+            anos_tit[x["campeao"]].append(x["ano"])
     seguidas = (0, "", 0, 0)   # temporadas seguidas: anos em que a competição houve, sem faltar a nenhum
     anos_comp = sorted({x["ano"] for x in edp})
     k_ano = {a: k for k, a in enumerate(anos_comp)}
@@ -458,7 +500,7 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     seq, i = (0, "", 0, 0), 0
     while i < len(ed):
         k = i
-        while k + 1 < len(ed) and ed[k + 1]["campeao"] == ed[i]["campeao"]:
+        while ed[i]["campeao"] and k + 1 < len(ed) and ed[k + 1]["campeao"] == ed[i]["campeao"]:
             k += 1
         if k - i + 1 > seq[0]:
             seq = (k - i + 1, ed[i]["campeao"], ed[i]["ano"], ed[k]["ano"])
@@ -466,9 +508,9 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     camp = [campanha(x["campeao"], i) for i, x in enumerate(ed) if x["campeao"] in j and j[x["campeao"]][i] >= min_camp]
     pc = []   # pontos corridos: pontos do campeão e vantagem sobre o vice
     for i, x in enumerate(ed):
-        if edp[i]["pc"]:
+        if edp[i]["pc"] and x["campeao"] and x.get("vice"):
             k, vc = campanha(x["campeao"], i), x["vice"]
-            pc.append({**k, "vice": vc, "vant": k["pts"] - (3 * v[vc][i] + e_[vc][i]), "n": edp[i]["n"]})
+            pc.append({**k, "vice": vc, "vant": k["pts"] - (edp[i]["pv"] * v[vc][i] + e_[vc][i]), "n": edp[i]["n"]})
     menor_vant = min((x["vant"] for x in pc), default=0)
     pc20 = [x for x in pc if x["n"] == 20]
     vices = Counter(x["vice"] for x in ed if x.get("vice"))
@@ -476,8 +518,10 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     por_uf: dict[str, Counter] = defaultdict(Counter)
     decadas: dict[int, set] = defaultdict(set)
     for x in ed:
-        por_uf[uf.get(x["campeao"]) or "?"][x["campeao"]] += 1
-        decadas[x["ano"] // 10 * 10].add(x["campeao"])
+        if x["campeao"]:
+            if uf.get(x["campeao"]):   # clube sem estado (liga estrangeira) fica de fora (ES-010, EN-012)
+                por_uf[uf[x["campeao"]]][x["campeao"]] += 1
+            decadas[x["ano"] // 10 * 10].add(x["campeao"])
     campeoes = {
         "seq": quatro(seq),
         "jejum": quatro(max((b - a, c, a, b) for c, xs in anos_tit.items() for a, b in zip(xs, xs[1:]))),
@@ -503,7 +547,7 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
         "mais_clubes": max(por_ed, key=lambda x: x["n"]), "menos_clubes": min(por_ed, key=lambda x: x["n"]),
         "mais_jogos": max(por_ed, key=lambda x: x["j"]), "menos_jogos": min((x for x in por_ed if x["j"]), key=lambda x: x["j"]),   # edição só com a tabela final não conta
         "mais_gols": max(por_ed, key=lambda x: x["g"]),
-        "duplos": [[a, [x["campeao"] for x in ed if x["ano"] == a]] for a, q in sorted(Counter(x["ano"] for x in ed).items()) if q > 1],
+        "duplos": [[a, [x["campeao"] for x in ed if x["ano"] == a and x["campeao"]]] for a, q in sorted(Counter(x["ano"] for x in ed).items()) if q > 1],
         "formatos": [[c or con.execute("SELECT padrao FROM rotulo").fetchone()[0], q] for c, q in Counter(x["comp"] for x in edp).most_common()],
         "estreantes": {**por_ed[i_est], "est": estreias[i_est]},
         "por_ed": por_ed,
@@ -516,6 +560,7 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
     (estreantes, jogos, gols, maior goleada), classificação final [clube, posição, J, V, E, D, GP, GC],
     fases, jogos [grupo, mandante, visitante, gols, gols, subgrupo] (clubes pelo índice na classificação;
     grupo = rodada desde 2003 ou fase antes) e, desde 2003, a corrida rodada a rodada e os artilheiros."""
+    nome_of = {eid: n for eid, n in con.execute("SELECT edicao_nacional_id, nome_oficial FROM dim_edicao_nacional")}
     eds = con.execute("SELECT edicao_nacional_id, edicao_id, competicao_nome, tipo, pontos_vitoria, temporada_id, moderna FROM dim_edicao_nacional "
                       "ORDER BY temporada_id, edicao_id").fetchall()
     idx = {eid: i for i, (eid, *_) in enumerate(eds)}
@@ -562,6 +607,8 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
     j, v, e_, gp, gc = cjv["j"], cjv["v"], cjv["e"], cjv["gp"], cjv["gc"]
     publicada = {(idx[eid], nomes[c]): x for eid, c, *x in con.execute(
         "SELECT edicao_nacional_id, clube_id, jogos, vitorias, empates, derrotas, gols_pro, gols_contra FROM fato_classificacao_final_nacional")}
+    pontos_pub = {(idx[eid], nomes[c]): pt for eid, c, pt in con.execute(
+        "SELECT edicao_nacional_id, clube_id, pontos FROM fato_classificacao_final_nacional WHERE pontos IS NOT NULL")}
     ajuste = {(idx[eid], nomes[c]): aj for eid, c, aj in con.execute(
         "SELECT edicao_nacional_id, clube_id, ajuste_pontos FROM fato_classificacao_final_nacional WHERE ajuste_pontos <> 0")}
     oficiais = defaultdict(list)   # artilheiros da lista oficial (a tabela artilheiro do banco)
@@ -575,9 +622,15 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
         tem_acesso |= sit == "acesso"
         if sit in ("acesso", "campeao"):
             subiu[idx[eid]].add(nomes[c])
+    sem_tit = {idx[eid]: obs or "título não atribuído" for eid, tem, obs in con.execute(
+        "SELECT edicao_nacional_id, tem_campeao, observacao FROM dim_edicao_nacional") if not tem}
     saida = []
     for i, (_, chave, comp, tipo, pv, ano, _) in enumerate(eds):
-        if jogos[i]:
+        do_i = [c for c, ps in part.items() for k, _ in ps if k == i]
+        if jogos[i] and do_i and all(publicada.get((i, c), [None])[0] is not None for c in do_i):
+            # o pacote traz a tabela oficial (pontos de W.O. sem os gols, jogos anulados etc.): vale ela
+            tab = sorted(([c, pos, *[n or 0 for n in publicada[(i, c)]]] for c, ps in part.items() for k, pos in ps if k == i), key=lambda r: r[1])
+        elif jogos[i]:
             q = lambda d, c: d[c][i] if c in d else 0   # clube só com jogos sem placar (W.O.) não está nas somas
             tab = sorted(([c, pos, q(j, c), q(v, c), q(e_, c), q(j, c) - q(v, c) - q(e_, c), q(gp, c), q(gc, c)]
                           for c, ps in part.items() for k, pos in ps if k == i), key=lambda r: r[1])
@@ -586,6 +639,10 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
                          key=lambda r: r[1])
         for r in tab:
             r.append(ajuste.get((i, r[0]), 0))   # r[8]: pontos ganhos ou perdidos no tribunal
+        if not jogos[i]:   # tabela parcial da fonte (só posição e pontos, ou só campeão e vice): r[9] pontos publicados, r[10] = 1
+            for r in tab:
+                if (publicada.get((i, r[0])) or [None])[0] is None:
+                    r += [pontos_pub.get((i, r[0])), 1]
         ci = {r[0]: k for k, r in enumerate(tab)}
         js = sorted(jogos[i])
         if i in rodadas:
@@ -613,8 +670,9 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
                 jk = [x for x in js if x[1] == k]
                 disputa.append([fn, ft, fsr, ng or 1, len(jk), len({x[2] for x in jk} | {x[3] for x in jk})])
             corrida = None
-        saida.append({"id": chave, "ano": edp[i]["ano"], "t": edp[i]["t"], "nome": comp, "mata": tipo == "mata" or tipo_comp == "copa",
-                      "pv": pv, "nota": notas(con).get(chave, ""), "est": estreia.get(i, 0), "j": len(js),
+        nof = nome_of.get(eds[i][0])   # nome oficial da época ("Premier League", "First Division"), quando não tem o ano no meio (EN-015)
+        saida.append({"id": chave, "ano": edp[i]["ano"], "t": edp[i]["t"], "nome": nof if nof and not any(ch.isdigit() for ch in nof) else comp, "mata": tipo == "mata" or tipo_comp == "copa",
+                      "pv": pv, "nota": notas(con).get(chave, "") or ("" if sem_tit.get(i) is None else "Sem campeão: " + sem_tit[i] + "."), "est": estreia.get(i, 0), "j": len(js),
                       "g": sum(x[4] + x[5] for x in js), "gol": goleada.get(i, (None, None))[1], "tab": tab,
                       "grupos": grupos, "disputa": disputa, "jogos": [[g, ci[m], ci[vv], a, b, sg] + ([pen[(i, o)]] if (i, o) in pen else []) for o, g, m, vv, a, b, sg in js],
                       "cor": corrida, "art": sorted(artilheiros[i], key=lambda x: (-x[2], x[0]))[:10], "artof": oficiais[i][:10], "ac": sorted(subiu[i]) if tem_acesso else None,
@@ -622,14 +680,14 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
     return saida
 
 
-def artilharia_clubes(con: sqlite3.Connection) -> dict[str, list]:
+def artilharia_clubes(con: sqlite3.Connection, todos: bool = False) -> dict[str, list]:
     """Os 10 maiores artilheiros de cada clube desde 2003: [jogador, gols, primeiro ano, último ano]."""
     por: dict[str, list] = defaultdict(list)
     for c, jog, n, a1, a2 in con.execute(
             """SELECT cl.nome, g.jogador, count(*), min(g.temporada_id), max(g.temporada_id) FROM fato_gol g
                JOIN dim_clube cl ON cl.clube_id = g.clube_id WHERE coalesce(g.tipo, '') <> 'contra' GROUP BY 1, 2"""):
         por[nome(c)].append([jog, n, a1, a2])
-    return {c: sorted(xs, key=lambda x: (-x[1], x[0]))[:10] for c, xs in por.items()}
+    return {c: sorted(xs, key=lambda x: (-x[1], x[0]))[:None if todos else 10] for c, xs in por.items()}
 
 
 def milhar(n: float, casas: int = 0) -> str:
@@ -645,16 +703,17 @@ def controles_corrida(id_: str, rotulo: str) -> str:
             f'<div class="corrida-rolar"><svg id="{id_}" class="grafico-corrida" role="img" aria-label="{rotulo}"></svg></div>')
 
 
-def cartoes(eds: list[dict], edp: list[dict], part: dict, jogos: int, total_gols: int) -> str:
+def cartoes(eds: list[dict], edp: list[dict], part: dict, jogos: int, total_gols: int, com_jogos: int = 0) -> str:
     """Números do cabeçalho: edições, campeões, vices, terceiros, clubes participantes, jogos e gols."""
     dif = lambda k: len({e[k] for e in eds if e.get(k)})
+    com_jogos = com_jogos or len(eds)
     itens = [
-        (milhar(len(eds)), "Edições", f"de {eds[0]['ano']} a {eds[-1]['ano']}"),
+        (milhar(len(eds)), "Edições", f"de {eds[0].get('t') or eds[0]['ano']} a {eds[-1].get('t') or eds[-1]['ano']}"),
         (dif("campeao"), "Campeões", "clubes diferentes"),
         (dif("vice"), "Vices", "clubes diferentes"),
         (dif("terceiro"), "Terceiros", "clubes diferentes"),
         (milhar(len(part)), "Participantes", "clubes diferentes"),
-        (milhar(jogos), "Jogos", f"em {len(eds)} edições"),
+        (milhar(jogos), "Jogos", f"em {com_jogos} edições" + ("" if com_jogos == len(eds) else " com jogos")),
         (milhar(total_gols), "Gols", f"{milhar(total_gols / jogos, 2)} por jogo"),
     ]
     return '<div class="cartoes-topo">' + "".join(
@@ -689,10 +748,12 @@ def movimentos(dados: dict) -> None:
         for e in d["EDS"]:
             ano = e["ano"]
             lado = lambda a, c: onde.get((sis, c, a), 0) if a in anos[sis] else None
+            ant = max((a for a in anos[sis] if a < ano), default=None)   # a temporada anterior que houve (guerras, paradas)
+            seg = min((a for a in anos[sis] if a > ano), default=None)
             if nivel[slug] is None:
                 e["mv"] = [[lado(ano, r[0]), None] for r in e["tab"]]
             else:
-                e["mv"] = [[lado(ano - 1, r[0]), lado(ano + 1, r[0])] for r in e["tab"]]
+                e["mv"] = [[lado(ant, r[0]) if ant else None, lado(seg, r[0]) if seg else None] for r in e["tab"]]
 
 
 def textos(slug: str, eds: list[dict], edp: list[dict], part: dict, jogos: int, total_gols: int, det: list[dict], artc: dict) -> tuple[dict, dict]:
@@ -708,7 +769,7 @@ def textos(slug: str, eds: list[dict], edp: list[dict], part: dict, jogos: int, 
         "marca": c["curto"],
         "selo": f"{c['nome']} · {ano0} a hoje",
         "h1": f"História {c['do']} — Clube Analítico",
-        "cartoes": cartoes(eds, edp, part, jogos, total_gols),
+        "cartoes": cartoes(eds, edp, part, jogos, total_gols, sum(1 for e in det if e["j"])),
         "pt-info": f"{len(edp)} edições, de {ano0} a hoje · passe o mouse para ver a posição final",
         "jv-info": f"barra do tamanho dos jogos · todas as partidas, de {ano0} a hoje ({milhar(jogos)} jogos)",
         "gl-info": f"barra com todos os gols dos jogos do clube · {milhar(total_gols)} gols, de {ano0} a hoje",
@@ -719,6 +780,7 @@ def textos(slug: str, eds: list[dict], edp: list[dict], part: dict, jogos: int, 
         "cla-sem": "Sem gols por jogador registrados para este clube.",
     }
     conf = {"curto": c["curto"], "o": c["o"], "art": art[0] if art else None,
+            "tipo": sqlite3.connect(DB).execute("SELECT tipo FROM competicao WHERE slug = ?", (slug,)).fetchone()[0],
             "niveis": {n: x for n, x in sqlite3.connect(DB).execute(
                 """SELECT nivel, nome_curto FROM competicao k WHERE nivel IS NOT NULL AND EXISTS (SELECT 1 FROM competicao x WHERE x.slug = ?
                    AND x.pais_id = k.pais_id AND (CASE WHEN x.tipo = 'estadual' THEN k.tipo = 'estadual' AND k.regiao = x.regiao ELSE k.tipo = 'liga' END))""",
@@ -742,7 +804,7 @@ def campeoes(con: sqlite3.Connection) -> list[dict]:
     """Uma linha por edição: ano, competição, campeão, vice e 3º colocado."""
     linhas = con.execute(
         """
-        SELECT e.temporada_id, e.edicao_id, e.competicao_nome, f.posicao, cl.nome, e.temporada
+        SELECT e.temporada_id, e.edicao_id, e.competicao_nome, f.posicao, cl.nome, e.temporada, e.tem_campeao, e.observacao
         FROM fato_classificacao_final_nacional f
         JOIN dim_edicao_nacional e USING (edicao_nacional_id)
         JOIN dim_clube cl USING (clube_id)
@@ -751,9 +813,10 @@ def campeoes(con: sqlite3.Connection) -> list[dict]:
         """
     ).fetchall()
     edicoes: dict[str, dict] = {}
-    for ano, edicao, comp, pos, clube, temporada in linhas:
-        e = edicoes.setdefault(edicao, {"ano": ano, "t": temporada_texto(temporada), "comp": rotulo_ed(con, comp), "nota": notas(con).get(edicao, "")})
-        e[{1: "campeao", 2: "vice", 3: "terceiro"}[pos]] = nome(clube)
+    for ano, edicao, comp, pos, clube, temporada, tem_campeao, obs in linhas:
+        e = edicoes.setdefault(edicao, {"ano": ano, "t": temporada_texto(temporada), "comp": rotulo_ed(con, comp),
+                                        "nota": notas(con).get(edicao, "") or ("" if tem_campeao else "Sem campeão: " + (obs or "título não atribuído") + ".")})
+        e[{1: "campeao", 2: "vice", 3: "terceiro"}[pos]] = nome(clube) if pos > 1 or tem_campeao else None   # título tirado ou não disputado
     return list(edicoes.values())
 
 
@@ -798,9 +861,61 @@ body{background-image:repeating-linear-gradient(90deg,transparent 0 90px,rgba(25
   background:linear-gradient(180deg,#0b2215,#050b08);border-right:1px solid #2e4d39}
 .lateral .marca{display:flex;align-items:center;gap:8px;margin:0 6px 18px;font-size:15px;font-weight:900;letter-spacing:.04em;text-transform:uppercase;color:#f8fff8}
 .comp-escolha{margin:0 2px 14px}
-.comp-escolha .esc-box{width:100%}
-.comp-escolha .esc-btn{width:100%;min-width:0;font-size:13px;color:#f8fff8;background:rgba(5,11,8,.55);border:1px solid #2e4d39}
-.comp-escolha .esc-txt{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.comp-btn{display:flex;align-items:center;gap:10px;width:100%;font-family:inherit;text-align:left;color:#f8fff8;cursor:pointer;
+  background:rgba(5,11,8,.55);border:1px solid #2e4d39;border-radius:10px;padding:8px 10px}
+.comp-btn:hover{border-color:var(--accent)}
+.comp-btn .cb-txt{display:flex;flex-direction:column;flex:1;min-width:0}
+.comp-btn b{font-size:13.5px;font-weight:900;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.comp-btn small{font-size:11px;font-weight:700;color:#9bb6a7}
+.cpn-band{width:26px;height:18px;flex:none;object-fit:cover;border-radius:3px;box-shadow:0 0 0 1px rgba(255,255,255,.18)}
+.cpn-band.vazio{display:inline-block;background:#2e4d39}
+/* cabeçalho da competição: bandeira, país/divisão/período e o nome */
+.comp-cab{position:relative;z-index:1;display:flex;align-items:center;gap:16px}
+.comp-band{width:64px;height:44px;object-fit:cover;border-radius:6px;box-shadow:0 0 0 2px rgba(255,255,255,.22),0 6px 16px rgba(0,0,0,.35)}
+.comp-cab-txt{min-width:0}
+.comp-sobre{display:block;font-size:12px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#9fe7bf}
+.comp-cab h1{margin:4px 0 0}
+/* painel de competições */
+.comp-painel{position:fixed;inset:0;z-index:60;display:flex;align-items:flex-start;justify-content:center;padding:6vh 16px;background:rgba(2,8,5,.72)}
+.comp-painel[hidden]{display:none}
+body.sem-rolar{overflow:hidden}
+.cpn-caixa{width:min(860px,100%);max-height:84vh;display:flex;flex-direction:column;background:#0c1d14;border:1px solid #2e4d39;border-radius:16px;
+  box-shadow:0 24px 60px rgba(0,0,0,.55);overflow:hidden;color:#eafff2}
+.cpn-topo{display:flex;gap:10px;padding:14px;border-bottom:1px solid #2e4d39}
+.cpn-topo input{flex:1;font:inherit;font-size:14px;color:#eafff2;background:rgba(5,11,8,.7);border:1px solid #2e4d39;border-radius:10px;padding:10px 12px}
+.cpn-topo input:focus{outline:none;border-color:var(--accent)}
+.cpn-fechar{font:inherit;font-weight:900;color:#9bb6a7;background:transparent;border:1px solid #2e4d39;border-radius:10px;padding:0 14px;cursor:pointer}
+.cpn-corpo{display:grid;grid-template-columns:240px 1fr;min-height:0;flex:1}
+.cpn-paises{overflow-y:auto;padding:10px;border-right:1px solid #2e4d39}
+.cpn-cont{font-size:10.5px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#6f8f7d;margin:10px 8px 6px}
+.cpn-cont:first-child{margin-top:2px}
+.cpn-pais{display:flex;align-items:center;gap:10px;width:100%;font:inherit;font-size:13.5px;font-weight:700;color:#cfe4d6;background:transparent;
+  border:0;border-radius:9px;padding:8px;cursor:pointer;text-align:left}
+.cpn-pais span{flex:1}
+.cpn-pais small{font-size:11px;color:#6f8f7d}
+.cpn-pais:hover{background:rgba(30,203,116,.08)}
+.cpn-pais.ativo{background:rgba(30,203,116,.14);color:#32d57f}
+.cpn-lista{overflow-y:auto;padding:14px}
+.cpn-titulo{display:flex;align-items:center;gap:10px;font-size:18px;font-weight:900;margin:2px 4px 8px}
+.cpn-grupo{font-size:10.5px;font-weight:900;letter-spacing:.1em;text-transform:uppercase;color:#fbbf24;margin:14px 4px 6px}
+.cpn-comp{display:flex;align-items:center;gap:10px;width:100%;font:inherit;text-align:left;color:#eafff2;background:rgba(255,255,255,.02);
+  border:1px solid #1d3528;border-radius:10px;padding:10px 12px;margin-bottom:6px;cursor:pointer}
+.cpn-comp span{display:flex;flex-direction:column;min-width:0}
+.cpn-comp b{font-size:14px;font-weight:800}
+.cpn-comp small{font-size:11.5px;color:#9bb6a7}
+.cpn-comp:hover{border-color:var(--accent)}
+.cpn-comp.ativo{border-color:var(--accent);background:rgba(30,203,116,.1)}
+.cpn-nada{color:#9bb6a7;margin:8px 4px}
+@media (max-width:700px){
+  .comp-painel{padding:0}
+  .cpn-caixa{max-height:100vh;height:100%;border-radius:0}
+  .cpn-corpo{grid-template-columns:1fr;grid-template-rows:auto 1fr}
+  .cpn-paises{display:flex;gap:6px;overflow-x:auto;overflow-y:hidden;border-right:0;border-bottom:1px solid #2e4d39;padding:10px}
+  .cpn-cont{display:none}
+  .cpn-pais{width:auto;flex:none;white-space:nowrap;border:1px solid #2e4d39;border-radius:999px;padding:6px 10px}
+  .comp-band{width:48px;height:33px}
+  .comp-cab{gap:12px}
+}
 .lateral .marca small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#9bb6a7}
 .nav{display:flex;align-items:center;gap:10px;width:100%;font-family:inherit;font-size:14px;font-weight:700;text-align:left;color:#b9d3c2;background:transparent;
   border:1px solid transparent;border-radius:10px;padding:10px 12px;cursor:pointer;transition:background .12s,color .12s}
@@ -883,6 +998,12 @@ main{max-width:1240px;margin:0 auto;padding:26px 24px 70px}
 .cr-rot{cursor:pointer;transition:opacity .15s}
 .cr-rot text{fill:var(--text);font-size:13px;font-weight:800;paint-order:stroke;stroke:var(--panel);stroke-width:3px}
 .cr-rot text tspan{fill:var(--champ)}
+/* quem pontuou no ano da corrida: nome dourado com brilho e ponta que cresce e volta */
+.cr-rot.pulsa text{fill:var(--champ);animation:pulsar-nome 1s ease-in-out infinite}
+.cr-rot.pulsa .cr-ponta{transform-box:fill-box;transform-origin:center;animation:pulsar-ponta 1s ease-in-out infinite}
+@keyframes pulsar-nome{0%,100%{filter:none}50%{filter:drop-shadow(0 0 5px rgba(251,191,36,.95))}}
+@keyframes pulsar-ponta{0%,100%{transform:scale(1)}50%{transform:scale(1.9)}}
+@media (prefers-reduced-motion:reduce){.cr-rot.pulsa text,.cr-rot.pulsa .cr-ponta{animation:none}}
 svg.foco .cr-linha:not(.ativo),svg.foco .cr-rot:not(.ativo),svg.foco .cr-med:not(.ativo){opacity:.12}
 svg.foco .cr-linha.ativo{stroke-width:4.5}
 /* participações: uma faixa por clube, um quadradinho por edição */
@@ -977,6 +1098,23 @@ span.cp-esc{display:inline-block}
 .cp-jogo .m{justify-content:flex-end}
 .cp-jogo.vm .m,.cp-jogo.vv .v{color:var(--text);font-weight:900}
 .cp-jogo b{font-size:16px;font-weight:900;color:var(--champ);font-variant-numeric:tabular-nums;min-width:56px;text-align:center}
+.dl-escolha{flex-wrap:wrap}.dl-escolha select{min-width:0;max-width:calc(50% - 30px)}
+.dl-placar{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;margin:10px 0 2px;font-size:15px}
+.dl-placar .dl-num{font-size:26px;font-weight:900;font-variant-numeric:tabular-nums}
+.dl-q{display:flex;align-items:center;gap:6px;font-weight:800;min-width:0}
+.dl-linha{display:grid;grid-template-columns:1fr minmax(130px,220px) 1fr;align-items:center;gap:10px;padding:5px 0;border-top:1px solid var(--border)}
+.dl-cab{border-top:0;padding-bottom:8px}.dl-cab .dl-q.a{justify-content:flex-end}
+.dl-entre{background:color-mix(in srgb,var(--accent) 8%,transparent);border-radius:8px}
+.dl-entre .dl-adv{justify-content:center;text-transform:uppercase;letter-spacing:.08em;font-size:12px}
+.dl-adv{display:flex;align-items:center;gap:6px;min-width:0;font-size:13px}
+.dl-adv b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dl-adv .n{color:var(--muted);font-size:12px;width:28px;text-align:right;flex:none;font-variant-numeric:tabular-nums}
+.dl-barra{display:flex;align-items:center;gap:6px;height:18px;min-width:0}
+.dl-barra.a{flex-direction:row-reverse}
+.dl-barra i{display:block;height:100%;border-radius:3px;min-width:3px}
+.dl-barra b{font-size:13px;font-variant-numeric:tabular-nums}
+.dl-barra.vazio span{font-size:11px;color:var(--muted)}
+@media (max-width:640px){.dl-linha{grid-template-columns:1fr 1fr;row-gap:3px}.dl-adv{grid-column:1 / -1;order:-1}.dl-cab .dl-adv{display:none}}
 .cp-art{display:grid;grid-template-columns:34px 260px 1fr 44px;align-items:center;gap:12px;padding:7px 0;border-top:1px solid var(--border)}
 .cp-art:first-child{border-top:0}
 .cp-art .n{font-weight:900;color:var(--muted)}
@@ -1150,8 +1288,8 @@ span.cu-esc{display:inline-block}
 ESCOLHA = """
 const COMP = (() => { const q = new URLSearchParams(location.search).get('c'); let s = null;
   try { s = localStorage.getItem('v2-comp'); } catch (e) {}
-  const tem = x => COMPS.some(c => c[0] === x);
-  return tem(q) ? q : tem(s) ? s : COMPS[0][0]; })();
+  const tem = x => COMPS.some(c => c.s === x);
+  return tem(q) ? q : tem(s) ? s : COMPS[0].s; })();
 try { localStorage.setItem('v2-comp', COMP); } catch (e) {}
 document.write('<script src="dados/' + COMP + '.js?v=' + VERSAO + '"><\\/script>');
 """
@@ -1184,7 +1322,7 @@ const slugClube = c => c.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowe
 function desenhar() {
   // t = títulos, v = vices, r = 3º lugares
   const por = new Map(), ver = c => { if (!por.has(c)) por.set(c, { t: [], v: [], r: [] }); return por.get(c); };
-  for (const e of ED) { ver(e.campeao).t.push(e); if (e.vice) ver(e.vice).v.push(e); if (e.terceiro) ver(e.terceiro).r.push(e); }
+  for (const e of ED) { if (e.campeao) ver(e.campeao).t.push(e); if (e.vice) ver(e.vice).v.push(e); if (e.terceiro) ver(e.terceiro).r.push(e); }
   // mais títulos; empate: mais vices; depois mais 3º; depois quem subiu ao pódio primeiro
   const primeiro = x => Math.min(...x.t.map(e => e.ano), ...x.v.map(e => e.ano), ...x.r.map(e => e.ano));
   const clubes = [...por].sort((a, b) => b[1].t.length - a[1].t.length || b[1].v.length - a[1].v.length || b[1].r.length - a[1].r.length
@@ -1195,7 +1333,7 @@ function desenhar() {
   const bloco = (c, e, tipo) => { const [c1, c2] = cor(c), borda = claro(c1) || !escuro(c1) ? c1 : c2;
     return '<span class="bloco' + (tipo === 'v' ? ' vice' : tipo === 'r' ? ' terc' : '') + (e.comp ? ' antigo' : '') + '" style="--c1:' + c1 + ';--c2:' + c2 + ';--borda:' + borda + ';--fg:' + (claro(c1) ? '#111' : '#fff') +
       ';--risca:' + (claro(c1) ? 'rgba(0,0,0,.22)' : 'rgba(255,255,255,.22)') + ';animation-delay:' + Math.min(k++ * 3, 600) + 'ms"' +
-      ' data-dica="' + esc('<b>' + anoT(e) + (e.comp ? ' · ' + e.comp : '') + '</b><br>' + QUEM[tipo](c, e) + (e.nota ? '<br>' + e.nota : '')) + '">' + e.ano + '</span>'; };
+      ' data-dica="' + esc('<b>' + anoT(e) + (e.comp ? ' · ' + e.comp : '') + '</b><br>' + QUEM[tipo](c, e) + (e.nota ? '<br>' + e.nota : '')) + '">' + (e.t ? e.t.slice(2) : e.ano) + '</span>'; };   // "2016/17" vira "16/17"
   const plural = (n, um, varios) => n + '<small>' + (n === 1 ? um : varios) + '</small>';
   const faixa = (c, x, tipo, cls) => x[tipo].length ? '<div class="trilho' + cls + '">' + x[tipo].map(e => bloco(c, e, tipo)).join('') + '</div>' : '';
   document.getElementById('grafico').innerHTML = clubes.map(([c, x]) => { const [c1, c2] = cor(c);
@@ -1230,8 +1368,9 @@ document.addEventListener('click', ev => {
   const corLinha = c => { const [c1, c2] = cor(c);
     return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
   const TRACOS = ['', '8 5', '2 5', '12 4 2 4', '4 3'];
-  let clubes = [], val = {}, pos = {}, inicio = {}, el = {}, anoG = null, fixo = null;
+  let clubes = [], val = {}, pos = {}, inicio = {}, el = {}, anoG = null, fixo = null, chaveAtual = 'campeao';
   function montar(chave) {
+    chaveAtual = chave;
     clubes = [...new Set(ED.map(e => e[chave]).filter(Boolean))];
     const R = clubes.length, H = MT + MB + (R - 1) * PASSO;
     // val[c][i]: quantos até anos[i]; pos[c][i]: posição no ranking (só quem já tem algum).
@@ -1290,6 +1429,9 @@ document.addEventListener('click', ev => {
       e.txt.innerHTML = esc(c) + ' <tspan>' + v + '</tspan>';
     }
     anoG.textContent = anos[i]; saida.textContent = anos[i]; barra.value = p; seguir(svg, X(p));
+    // quem foi campeão (ou vice, ou 3º) no ano em que a corrida está pulsa
+    const pontuou = new Set(ED.filter(e => e.ano === anos[i] && e[chaveAtual]).map(e => e[chaveAtual]));
+    for (const c of clubes) el[c].g.classList.toggle('pulsa', pontuou.has(c));
   }
   function tique(t) {
     if (!tocando) return;
@@ -1711,12 +1853,12 @@ function corridaPosicoes(id, medalhas) {
       x.pontos && cartao('Campeão com mais pontos', um(x.pontos.c, x.pontos.pts, 'pontos em ' + x.pontos.j + ' jogos'), B(x.pontos.c) + ' · ' + x.pontos.ano + ' · pontos corridos'),
       x.pontos20 && cartao('Mais pontos com 20 clubes', um(x.pontos20.c, x.pontos20.pts, 'pontos em ' + x.pontos20.j + ' jogos'), B(x.pontos20.c) + ' · ' + x.pontos20.ano + ' · desde ' + x.pc20_desde),
       x.vantagem && cartao('Maior vantagem sobre o vice', um(x.vantagem.c, x.vantagem.vant, 'pontos à frente'), B(x.vantagem.c) + ' · ' + x.vantagem.ano + ' · vice: ' + B(x.vantagem.vice)),
-      x.apertados.length > 0 && cartao('Título mais apertado', varios(x.apertados.map(a => a.c), x.apertados[0].vant, x.apertados[0].vant === 1 ? 'ponto à frente' : 'pontos à frente'),
+      x.apertados.length > 0 && cartao('Título mais apertado', varios(x.apertados.map(a => a.c), x.apertados[0].vant, x.apertados[0].vant === 0 ? 'empate em pontos' : x.apertados[0].vant === 1 ? 'ponto à frente' : 'pontos à frente'),
         x.apertados.map(a => B(a.c) + ' · ' + a.ano + ' · vice: ' + B(a.vice)).join('<br>') + '<br>pontos corridos, desde ' + x.pc_desde),
       cartao('Vices sem nenhum título', '<div class="cu-um"><b>' + x.vices_sem.length + '</b><span>clubes chegaram<br>perto e pararam</span></div>',
         '<div class="cu-escudos">' + x.vices_sem.map(([c]) => escudo(c, true)).join('') + '</div>' + x.vices_sem.map(([c, q]) => esc(c) + (q > 1 ? ' (' + q + ')' : '')).join(', ')),
     ]) + '<div class="cu-grade">' +
-      bloco('Títulos por estado', linhas(x.uf, (c, k) => '<b>' + esc(c) + '</b>: ' + pl(k, 'título', 'títulos'))) +
+      (x.uf.length ? bloco('Títulos por estado', linhas(x.uf, (c, k) => '<b>' + esc(c) + '</b>: ' + pl(k, 'título', 'títulos'))) : '') +
       bloco('Campeões diferentes por década', linhas(x.decadas.map(([d, n, cs]) => [d + 's', n, cs]), c => '<b>' + esc(c) + '</b>')) + '</div>';
   }
   function parteEdicoes() {
@@ -1777,31 +1919,31 @@ function corridaPosicoes(id, medalhas) {
   function mostrar(id) {
     if (id !== atual) { todos = false; grupoJ = EDS[IDX[id]].grupos.length - 1; }
     atual = id; sel.value = id; if (sel.sincronizar) sel.sincronizar();
-    const i = IDX[id], e = EDS[i], g = e.gol, t = e.tab, pts = r => e.pv * r[3] + r[4] + (r[8] || 0);   // r[8]: punição/bônus
+    const i = IDX[id], e = EDS[i], g = e.gol, t = e.tab, pts = r => r[10] ? (r[9] ?? '—') : e.pv * r[3] + r[4] + (r[8] || 0);   // r[8]: punição/bônus; r[10]: linha parcial da fonte
     document.getElementById('cp-ant').disabled = i === 0; document.getElementById('cp-prox').disabled = i === EDS.length - 1;
     document.getElementById('cp-titulo').textContent = anoT(e) + ' · ' + e.nome;
     document.getElementById('cp-cartoes').innerHTML = [
       kpi(t.length, 'Clubes', 'na classificação final'),
       kpi(e.est, 'Estreantes', e.est === 1 ? 'clube pela 1ª vez' : 'clubes pela 1ª vez'),
-      kpi(fmtN(e.j), 'Jogos', 'partidas disputadas'),
-      kpi(fmtN(e.g), 'Gols', 'marcados na edição'),
+      e.j ? kpi(fmtN(e.j), 'Jogos', 'partidas disputadas') : kpi('—', 'Jogos', 'só a tabela final desta edição'),
+      kpi(e.j ? fmtN(e.g) : '—', 'Gols', 'marcados na edição'),
       kpi(e.j ? dec(e.g / e.j) : '—', 'Gols por jogo', 'média da história: ' + dec(MEDIA)),
       g ? kpi(g.gm + ' × ' + g.gv, 'Maior goleada', esc(g.m) + ' × ' + esc(g.v)) : kpi('—', 'Maior goleada', 'sem jogos nesta edição'),
       e.mata ? kpi(e.disputa.length, e.disputa.length === 1 ? 'Fase' : 'Fases', 'na edição') : kpi(e.pv, 'Pontos por vitória', 'empate vale 1'),
     ].join('');
     const nota = document.getElementById('cp-nota'); nota.textContent = e.nota; nota.hidden = !e.nota;
     // pódio: 2º, 1º, 3º
-    const cl = (r, k) => r ? '<div class="pd pd' + k + '">' + escudo(r[0]) + '<b>' + esc(r[0]) + '</b><small>' + r[3] + ' V · ' + r[4] + ' E · ' + r[5] + ' D</small><div class="degrau">' + k + 'º</div></div>' : '';
+    const cl = (r, k) => r ? '<div class="pd pd' + k + '">' + escudo(r[0]) + '<b>' + esc(r[0]) + '</b><small>' + (r[10] ? (r[9] != null ? r[9] + ' pontos' : '') : r[3] + ' V · ' + r[4] + ' E · ' + r[5] + ' D') + '</small><div class="degrau">' + k + 'º</div></div>' : '';
     document.getElementById('cp-podio').innerHTML = '<div class="podio">' + cl(t[1], 2) + cl(t[0], 1) + cl(t[2], 3) + '</div>';
     // classificação final
-    const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos, J, V, E, D, GP, GC] = r, sg = GP - GC;
+    const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos] = r, [J, V, E, D, GP, GC] = r[10] ? Array(6).fill('—') : r.slice(2, 8), sg = r[10] ? NaN : GP - GC;
       return '<tr class="' + (pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
         (semPts(e) ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
-        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td></tr>'; }).join('');
+        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + (isNaN(sg) ? '—' : sinal(sg)) + '</td></tr>'; }).join('');
     document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (semPts(e) ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
       '<th>J</th><th>V</th><th>E</th><th>D</th><th class="gpgc">GP</th><th class="gpgc">GC</th><th>SG</th></tr></thead><tbody>' + linhas + '</tbody></table></div>' +
       (t.length > TOP ? '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' primeiros' : 'Ver todos os ' + t.length + ' clubes') + '</button>' : '');
-    resumo(e); participantes(e); jogos(e); corrida(e); artilharia(e);
+    resumo(e); participantes(e); jogos(e); duelo(e); corrida(e); artilharia(e);
   }
   // ---- Resumo: destaques e como foi a disputa
   const escP = (c, p) => ESCUDOS[c] ? '<img class="cu-esc' + (p ? ' p' : '') + '" alt="" src="' + ESCUDOS[c] + '">'
@@ -1863,7 +2005,7 @@ function corridaPosicoes(id, medalhas) {
     const vit = melhor(t, r => r[3]), emp = melhor(t, r => r[4]), lant = t[t.length - 1];
     const mais = J.length ? J.reduce((a, x) => x[3] + x[4] > a[3] + a[4] ? x : a, J[0]) : null;   // edição sem jogos: tabela anual
     const m = J.filter(x => x[3] > x[4]).length / J.length, em = J.filter(x => x[3] === x[4]).length / J.length;
-    const pts = r => e.pv * r[3] + r[4] + (r[8] || 0), art = (e.artof && e.artof[0]) || e.art[0];   // a lista oficial vale mais
+    const pts = r => e.pv * r[3] + r[4] + (r[8] || 0), art = (e.artof && e.artof[0]) || (e.cob >= 0.9 ? e.art[0] : null);   // oficial; senão, só se quase todos os gols têm autor
     // melhor mandante e melhor visitante: maior aproveitamento jogando em casa / fora
     // (só quem fez pelo menos metade dos jogos do que mais jogou ali; empate, mais pontos)
     const lado = qual => { const c = t.map(() => [0, 0, 0]);   // jogos, vitórias, empates
@@ -1914,6 +2056,54 @@ function corridaPosicoes(id, medalhas) {
   jsel.addEventListener('change', () => { grupoJ = +jsel.value; jogos(EDS[IDX[atual]]); });
   document.getElementById('cpj-ant').addEventListener('click', () => { if (grupoJ > 0) { grupoJ--; jogos(EDS[IDX[atual]]); } });
   document.getElementById('cpj-prox').addEventListener('click', () => { const e = EDS[IDX[atual]]; if (grupoJ < e.grupos.length - 1) { grupoJ++; jogos(e); } });
+  // ---- Duelo: dois clubes, pontos de cada um contra cada adversário (na ordem da classificação final)
+  const dlA = document.getElementById('dl-a'), dlB = document.getElementById('dl-b');
+  let duA = null, duB = null;
+  function duelo(e) {
+    const t = e.tab, nomes = t.map(r => r[0]);
+    const opts = t.map((r, k) => '<option value="' + k + '">' + r[1] + 'º · ' + esc(r[0]) + '</option>').join('');
+    dlA.innerHTML = opts; dlB.innerHTML = opts;
+    if (!nomes.includes(duA)) duA = nomes[0];
+    if (!nomes.includes(duB) || duB === duA) duB = nomes.find(c => c !== duA);
+    const ia = nomes.indexOf(duA), ib = nomes.indexOf(duB);
+    dlA.value = ia; dlB.value = ib;
+    const res = document.getElementById('dl-resumo'), graf = document.getElementById('dl-grafico');
+    if (!e.jogos.length || nomes.length < 2) { res.innerHTML = '<p class="cp-nota">Esta edição não tem jogos registrados, só a tabela final.</p>'; graf.innerHTML = ''; return; }
+    const contra = eu => { const pts = {}, js = {};   // adversário -> pontos e a lista dos jogos
+      for (const [g, mi, vi, gm, gv, sg, pen] of e.jogos) {
+        if (gm == null || (mi !== eu && vi !== eu)) continue;
+        const casa = mi === eu, adv = casa ? vi : mi, meus = casa ? gm : gv, deles = casa ? gv : gm;
+        pts[adv] = (pts[adv] || 0) + (meus > deles ? e.pv : meus === deles ? 1 : 0);
+        (js[adv] = js[adv] || []).push(meus + ' × ' + deles + (casa ? ' em casa' : ' fora') + (pen ? ' (pênaltis)' : '') + ' · ' + e.grupos[g]);
+      }
+      return [pts, js]; };
+    const [pa, ja] = contra(ia), [pb, jb] = contra(ib);
+    const advs = t.map((_, k) => k).filter(k => k !== ia && k !== ib && (ja[k] || jb[k]));
+    const max = Math.max(1, ...advs.map(k => Math.max(pa[k] || 0, pb[k] || 0)), pa[ib] || 0, pb[ia] || 0);
+    let cA = corDe(duA), cB = corDe(duB); if (cA === cB) cB = '#8a8f8a';
+    const barra = (lado, quem, adv, pts, js, c) => js
+      ? '<div class="dl-barra ' + lado + '" data-dica="' + esc('<b>' + quem + ' × ' + adv + '</b><br>' + js.join('<br>') + '<br><b>' + pts + (pts === 1 ? ' ponto' : ' pontos') + '</b>') + '">' +
+        '<i style="width:' + (100 * pts / max) + '%;background:' + c + '"></i><b>' + pts + '</b></div>'
+      : '<div class="dl-barra ' + lado + ' vazio"><span>não jogaram</span></div>';
+    const linha = (k, rotulo) => { const kb = rotulo ? ia : k;   // "Entre eles": o lado de B é contra A
+      return '<div class="dl-linha' + (rotulo ? ' dl-entre' : '') + '">' + barra('a', duA, rotulo ? duB : t[k][0], pa[k] || 0, ja[k], cA) +
+      '<div class="dl-adv">' + (rotulo ? '<b>' + rotulo + '</b>' : '<span class="n">' + t[k][1] + 'º</span>' + escP(t[k][0], true) + '<b>' + esc(t[k][0]) + '</b>') + '</div>' +
+      barra('b', duB, rotulo ? duA : t[k][0], pb[kb] || 0, jb[kb], cB) + '</div>'; };
+    const comuns = advs.filter(k => ja[k] && jb[k]);
+    const tA = comuns.reduce((s, k) => s + (pa[k] || 0), 0), tB = comuns.reduce((s, k) => s + (pb[k] || 0), 0);
+    const mA = comuns.filter(k => (pa[k] || 0) > (pb[k] || 0)).length, mB = comuns.filter(k => (pb[k] || 0) > (pa[k] || 0)).length;
+    const q = n => n + (n === 1 ? ' adversário' : ' adversários');
+    res.innerHTML = '<div class="dl-placar"><span class="dl-q">' + escP(duA, true) + '<b>' + esc(duA) + '</b></span><b class="dl-num">' + tA + ' × ' + tB + '</b>' +
+      '<span class="dl-q">' + escP(duB, true) + '<b>' + esc(duB) + '</b></span></div>' +
+      '<p class="cp-nota">Pontos contra os ' + q(comuns.length) + ' que os dois enfrentaram. ' + esc(duA) + ' fez mais pontos contra ' + q(mA) + ', ' +
+      esc(duB) + ' contra ' + q(mB) + (comuns.length - mA - mB ? ', e empataram em ' + (comuns.length - mA - mB) : '') + '.</p>';
+    graf.innerHTML = '<div class="dl-linha dl-cab"><div class="dl-q a">' + esc(duA) + escP(duA, true) + '</div><div class="dl-adv"></div><div class="dl-q b">' + escP(duB, true) + esc(duB) + '</div></div>' +
+      ((ja[ib] || jb[ia]) ? linha(ib, 'Entre eles') : '') + advs.map(k => linha(k)).join('');
+  }
+  const trocarDuelo = () => duelo(EDS[IDX[atual]]);
+  dlA.addEventListener('change', () => { const n = EDS[IDX[atual]].tab[+dlA.value][0]; if (n === duB) duB = duA; duA = n; trocarDuelo(); });
+  dlB.addEventListener('change', () => { const n = EDS[IDX[atual]].tab[+dlB.value][0]; if (n === duA) duA = duB; duB = n; trocarDuelo(); });
+  document.getElementById('dl-troca').addEventListener('click', () => { [duA, duB] = [duB, duA]; trocarDuelo(); });
   // ---- Corrida (desde 2003) e Artilharia
   const cpc = corridaPosicoes('cpc', false);
   function corrida(e) {
@@ -1927,16 +2117,17 @@ function corridaPosicoes(id, medalhas) {
   }
   function artilharia(e) {
     // lista oficial quando o banco tem; senão, os gols com autor registrados jogo a jogo (avisa quando cobrem só parte)
-    const of = e.artof && e.artof.length, lista = of ? e.artof : e.art, aviso = document.getElementById('cpa-sem');
+    const of = e.artof && e.artof.length, lista = of ? e.artof.concat(e.art.length ? [['__', '', 0]] : [], e.art) : e.art, aviso = document.getElementById('cpa-sem');
     aviso.textContent = !lista.length ? D.TX['cpa-sem'] : !of && e.cob < 0.9 ? 'Parcial: só ' + Math.round(100 * e.cob) + '% dos gols desta edição têm autor registrado.' : '';
     aviso.hidden = !aviso.textContent;
     const mx = lista.length ? lista[0][2] : 1;
-    document.getElementById('cpa-lista').innerHTML = lista.map(([j, c, n], k) => '<div class="cp-art"><span class="n">' + (k + 1) + 'º</span>' +
-      '<div class="quem"><b>' + esc(j) + '</b><span>' + escP(c, true) + esc(c) + '</span></div><div class="trilho"><i style="width:' + (100 * n / mx) + '%;--c:' + corDe(c) + '"></i></div><b class="gols">' + n + '</b></div>').join('');
+    let pos = 0;
+    document.getElementById('cpa-lista').innerHTML = lista.map(([j, c, n]) => j === '__' ? (pos = 0, '<h3 class="cp-subgrupo">Gols registrados jogo a jogo' + (e.cob < 0.9 ? ' (' + Math.round(100 * e.cob) + '% dos gols)' : '') + '</h3>') : (k =>  '<div class="cp-art"><span class="n">' + (k + 1) + 'º</span>' +
+      '<div class="quem"><b>' + esc(j) + '</b><span>' + escP(c, true) + esc(c) + '</span></div><div class="trilho"><i style="width:' + (100 * n / mx) + '%;--c:' + corDe(c) + '"></i></div><b class="gols">' + n + '</b></div>')(pos++)).join('');
   }
   const corDe = c => { const [c1, c2] = cor(c);
     return document.documentElement.dataset.theme === 'dark' ? (escuro(c1) ? c2 : c1) : (claro(c1) ? (claro(c2) ? '#8a8f8a' : c2) : c1); };
-  document.addEventListener('tema-mudou', () => artilharia(EDS[IDX[atual]]));
+  document.addEventListener('tema-mudou', () => { artilharia(EDS[IDX[atual]]); duelo(EDS[IDX[atual]]); });
   let subAtual = 'resumo', feito = false;
   const ir = id => { location.hash = 'campeonato/' + subAtual + '/' + id; };
   sel.addEventListener('change', () => ir(sel.value));
@@ -2040,7 +2231,7 @@ function corridaPosicoes(id, medalhas) {
       mais && cartao('Adversário mais enfrentado', um(mais.c, mais.j, 'jogos'), '<b>' + esc(mais.c) + '</b> · ' + mais.v + ' V · ' + mais.e + ' E · ' + mais.d + ' D'),
       fregues && fregues.v && cartao('Maior freguês', um(fregues.c, fregues.v, 'vitórias contra'), '<b>' + esc(fregues.c) + '</b> · ' + fregues.v + ' V · ' + fregues.e + ' E · ' + fregues.d + ' D em ' + fregues.j + ' jogos'),
       carrasco && carrasco.d && cartao('Maior carrasco', um(carrasco.c, carrasco.d, 'derrotas para'), '<b>' + esc(carrasco.c) + '</b> · ' + carrasco.v + ' V · ' + carrasco.e + ' E · ' + carrasco.d + ' D em ' + carrasco.j + ' jogos'),
-      art && cartao('Maior artilheiro', um(c, art[1], 'gols'), '<b>' + esc(art[0]) + '</b> · ' + (art[2] === art[3] ? art[2] : art[2] + ' a ' + art[3])),
+      art && (D.ARTCOB || {})[c] >= 0.8 && cartao('Maior artilheiro', um(c, art[1], 'gols'), '<b>' + esc(art[0]) + '</b> · ' + (art[2] === art[3] ? art[2] : art[2] + ' a ' + art[3])),
     ].filter(Boolean);
     document.getElementById('cl-destaques').innerHTML = '<div class="cu-cartoes">' + cards.join('') + '</div>';
   }
@@ -2049,7 +2240,7 @@ function corridaPosicoes(id, medalhas) {
     const linhas = cs.slice().reverse().map(([i, q, J, V, E, D, GP, GC, AJ]) => { const e = EDS[i], m = medalha(i, c), sg = GP - GC;
       return '<tr class="cl-camp ' + (m ? 'p' + { ouro: 1, prata: 2, bronze: 3 }[m] : '') + '" data-ed="' + e.id + '" title="Ver a edição"><td class="pos">' + q + 'º</td><td class="clube">' + anoT(e) + '</td><td class="comp">' + esc(EDP[i].comp || CONF.curto) + '</td>' +
         '<td class="pts">' + (semPts(e) ? '–' : e.pv * V + E + AJ) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
-        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td><td>' + pct((3 * V + E) / (3 * J)) + '</td></tr>'; }).join('');
+        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td><td>' + pct((e.pv * V + E) / (e.pv * J)) + '</td></tr>'; }).join('');
     document.getElementById('cl-campanhas').innerHTML = '<div class="cp-rolar"><table class="cp-tab cl-tab"><thead><tr><th>Pos</th><th>Ano</th><th class="comp">Competição</th><th>Pts</th><th>J</th><th>V</th><th>E</th><th>D</th>' +
       '<th class="gpgc">GP</th><th class="gpgc">GC</th><th>SG</th><th title="vitória 3, empate 1">Aprov.</th></tr></thead><tbody>' + linhas + '</tbody></table></div>';
   }
@@ -2076,7 +2267,7 @@ function corridaPosicoes(id, medalhas) {
   const jsel = document.getElementById('clj-sel');
   function jogos(c, cs, js) {
     const eds = cs.map(x => x[0]).reverse();
-    if (!eds.includes(edJ)) edJ = eds[0];
+    if (!eds.includes(edJ)) edJ = eds.find(i => EDS[i].j > 0) ?? eds[0];   // abre numa edição que tem jogos
     jsel.innerHTML = eds.map(i => '<option value="' + i + '">' + esc(nomeEd(i)) + '</option>').join(''); jsel.value = edJ;
     document.getElementById('clj-ant').disabled = edJ === eds[eds.length - 1]; document.getElementById('clj-prox').disabled = edJ === eds[0];
     const e = EDS[edJ], lado = (n, cls) => '<span class="' + cls + '">' + (cls === 'm' ? esc(n) + escP(n, true) : escP(n, true) + esc(n)) + '</span>';
@@ -2179,13 +2370,47 @@ escolha(document.getElementById('cpj-sel'));
 escolha(document.getElementById('cl-sel'), { busca: 'Buscar clube', icone: o => ESCUDOS[o.text] ? '<img class="esc-ico" alt="" src="' + ESCUDOS[o.text] + '">' : '' });
 escolha(document.getElementById('clj-sel'), { busca: 'Buscar ano' });
 // ---- competição: trocar recarrega a página com ?c= (mesma aba e sub-aba)
+// painel de competições: países por continente à esquerda; as competições do país à direita (Ligas, Copas, Estaduais); busca
 (() => {
-  const sel = document.getElementById('comp-sel');
-  sel.innerHTML = COMPS.map(([v, n]) => '<option value="' + v + '">' + esc(n) + '</option>').join('');
-  sel.value = COMP;
-  escolha(sel);
-  sel.addEventListener('change', () => { try { localStorage.setItem('v2-comp', sel.value); } catch (e) {}
-    location.href = location.pathname + '?c=' + sel.value + '#' + location.hash.slice(1).split('/').slice(0, 2).join('/'); });
+  const btn = document.getElementById('comp-btn'), painel = document.getElementById('comp-painel');
+  const busca = document.getElementById('comp-busca'), lPaises = document.getElementById('comp-paises'), lista = document.getElementById('comp-lista');
+  const atual = COMPS.find(c => c.s === COMP);
+  const band = c => c.band ? '<img class="cpn-band" alt="" src="' + c.band + '">' : '<span class="cpn-band vazio"></span>';
+  btn.innerHTML = band(atual) + '<span class="cb-txt"><b>' + esc(atual.curto) + '</b><small>' + esc(atual.pn) + '</small></span><i class="esc-seta">▾</i>';
+  const paises = [...new Map(COMPS.map(c => [c.pais, c])).values()];   // na ordem do seletor (Brasil primeiro)
+  const conts = [...new Set(paises.map(c => c.cont))];
+  let pais = atual.pais;
+  const ir = s => { try { localStorage.setItem('v2-comp', s); } catch (e) {}
+    location.href = location.pathname + '?c=' + s + '#' + location.hash.slice(1).split('/').slice(0, 2).join('/'); };
+  const item = (c, comPais) => '<button type="button" class="cpn-comp' + (c.s === COMP ? ' ativo' : '') + '" data-s="' + c.s + '">' +
+    (comPais ? band(c) : '') + '<span><b>' + esc(comPais ? c.curto + ' · ' + c.pn : c.curto) + '</b><small>' + esc(c.nome) + ' · ' + esc(c.per) + '</small></span></button>';
+  const norm = t => t.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+  function desenhar() {
+    const q = norm(busca.value.trim());
+    lPaises.innerHTML = conts.map(ct => '<div class="cpn-cont">' + esc(ct) + '</div>' + paises.filter(p => p.cont === ct).map(p =>
+      '<button type="button" class="cpn-pais' + (p.pais === pais && !q ? ' ativo' : '') + '" data-p="' + p.pais + '">' + band(p) + '<span>' + esc(p.pn) +
+      '</span><small>' + COMPS.filter(c => c.pais === p.pais).length + '</small></button>').join('')).join('');
+    if (q) {   // busca: todas as competições cujo nome, rótulo ou país têm o texto
+      const achadas = COMPS.filter(c => norm(c.nome + ' ' + c.curto + ' ' + c.pn).includes(q));
+      lista.innerHTML = achadas.length ? achadas.map(c => item(c, true)).join('') : '<p class="cpn-nada">Nenhuma competição com esse nome.</p>';
+      return;
+    }
+    const ORDEM = ['Ligas', 'Copas', 'Estaduais'], doPais = COMPS.filter(c => c.pais === pais);
+    const grupos = [...new Set(doPais.map(c => c.grupo))].sort((a, b) => (ORDEM.indexOf(a) + 1 || 9) - (ORDEM.indexOf(b) + 1 || 9));
+    lista.innerHTML = '<div class="cpn-titulo">' + band(doPais[0]) + esc(doPais[0].pn) + '</div>' +
+      grupos.map(g => '<div class="cpn-grupo">' + esc(g) + '</div>' + doPais.filter(c => c.grupo === g).map(c => item(c, false)).join('')).join('');
+  }
+  const abrir = () => { pais = atual.pais; busca.value = ''; desenhar(); painel.hidden = false; document.body.classList.add('sem-rolar');
+    if (matchMedia('(min-width:901px)').matches) busca.focus(); };
+  const fechar = () => { painel.hidden = true; document.body.classList.remove('sem-rolar'); };
+  btn.addEventListener('click', abrir);
+  painel.addEventListener('click', ev => {
+    if (ev.target === painel || ev.target.closest('.cpn-fechar')) return fechar();
+    const p = ev.target.closest('.cpn-pais'); if (p) { pais = p.dataset.p; busca.value = ''; desenhar(); return; }
+    const c = ev.target.closest('.cpn-comp'); if (c) { if (c.dataset.s === COMP) fechar(); else ir(c.dataset.s); }
+  });
+  busca.addEventListener('input', desenhar);
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !painel.hidden) fechar(); });
 })();
 // ---- abas (barra lateral) e sub-abas (História): guardadas no endereço (#historia/podio, #clube...) ----
 (() => {
@@ -2204,6 +2429,7 @@ escolha(document.getElementById('clj-sel'), { busca: 'Buscar ano' });
     if (location.hash.slice(1) !== novo) history.replaceState(null, '', '#' + novo);
     if (rolar) window.scrollTo(0, 0);
     if (k === 'campeonato' && !EDS.some(x => x.cor)) document.querySelector('.sub[data-aba="campeonato"][data-sub="corrida"]').hidden = true;
+    if (CONF.tipo === 'copa') document.querySelector('.sub[data-aba="historia"][data-sub="pontos"]').hidden = true;   // copa não tem pontos (CB-013)
     const ativa = subs.find(b => b.classList.contains('ativo'));   // no celular as sub-abas rolam de lado: a aberta fica à vista
     if (ativa) ativa.parentElement.scrollLeft = ativa.offsetLeft - ativa.parentElement.offsetLeft - 24;
     document.dispatchEvent(new CustomEvent('aba-aberta', { detail: { k, sub, resto } }));
@@ -2232,14 +2458,23 @@ def main() -> None:
             cur = curiosidades(con, eds, edp, part, cjv)
             det = edicoes_detalhe(con, edp, part, cjv)
             artc = artilharia_clubes(con)
+            todos_art = artilharia_clubes(con, todos=True)
         finally:
             con.close()
         tx, conf = textos(slug, eds, edp, part, jogos, total_gols, det, artc)
-        dados[slug] = {"ED": eds, "EDP": edp, "PART": part, "VIT": vit, "CJV": cjv, "CUR": cur, "EDS": det, "ARTC": artc, "TX": tx, "CONF": conf}
+        # quanto dos gols de cada clube tem autor registrado (o cartão "Maior artilheiro" só aparece com 80% ou mais)
+        artcob = {c: round(sum(n for _, n, *_ in todos_art.get(c, [])) / max(1, sum(cjv["gp"].get(c, []))), 2) for c in part}
+        dados[slug] = {"ED": eds, "EDP": edp, "PART": part, "VIT": vit, "CJV": cjv, "CUR": cur, "EDS": det, "ARTC": artc, "TX": tx,
+                       "CONF": conf, "ARTCOB": artcob}
         todos_clubes |= set(part)
         print(f"  {COMPETICOES[slug]['curto']}: {len(eds)} edições, {len(part)} clubes, {jogos} jogos")
     movimentos(dados)
-    comps = [[slug, c["menu"]] for slug, c in COMPETICOES.items()]
+    comps = catalogo(dados)
+    for x in comps:   # cabeçalho da competição: bandeira, "Inglaterra · 1ª divisão · 1888/89 a 2024/25" e o nome
+        tx = dados[x["s"]]["TX"]
+        tx["bandeira"] = f'<img class="comp-band" alt="" src="{x["band"]}">' if x["band"] else ""
+        tx["selo"] = " · ".join(filter(None, (x["pn"], x["curto"] if x["curto"] != x["nome"] else "", x["per"])))
+        tx["h1"] = x["nome"]
     (PAINEL / "dados").mkdir(parents=True, exist_ok=True)
     for slug, d in dados.items():
         (PAINEL / "dados" / f"{slug}.js").write_text(
@@ -2251,7 +2486,7 @@ def main() -> None:
         '<meta name="viewport" content="width=device-width, initial-scale=1"><title>Clube Analítico v2</title>'
         f"<style>{CSS}</style></head><body>"
         '<nav class="lateral" aria-label="Seções"><div class="marca">⚽<span>Clube Analítico<small data-t="marca"></small></span></div>'
-        '<div class="comp-escolha"><select id="comp-sel" aria-label="Competição"></select></div>'
+        '<div class="comp-escolha"><button type="button" id="comp-btn" class="comp-btn" aria-haspopup="dialog" aria-label="Trocar competição"></button></div>'
         '<button class="nav ativo" data-aba="historia" type="button"><span class="ico">🏆</span>História</button>'
         '<div class="subnav-lat" data-de="historia"><button class="sub ativo" data-aba="historia" data-sub="corrida" type="button">Corrida dos títulos</button>'
         '<button class="sub" data-aba="historia" data-sub="podio" type="button">Pódio</button>'
@@ -2266,6 +2501,7 @@ def main() -> None:
         '<button class="sub" data-aba="campeonato" data-sub="participantes" type="button">Participantes</button>'
         '<button class="sub" data-aba="campeonato" data-sub="corrida" type="button">Corrida</button>'
         '<button class="sub" data-aba="campeonato" data-sub="jogos" type="button">Jogos</button>'
+        '<button class="sub" data-aba="campeonato" data-sub="duelo" type="button">Duelo</button>'
         '<button class="sub" data-aba="campeonato" data-sub="artilharia" type="button">Artilharia</button></div>'
         '<button class="nav" data-aba="clube" type="button"><span class="ico">🛡️</span>Por clube</button>'
         '<div class="subnav-lat" data-de="clube" hidden><button class="sub" data-aba="clube" data-sub="resumo" type="button">Resumo</button>'
@@ -2275,8 +2511,8 @@ def main() -> None:
         '<button class="sub" data-aba="clube" data-sub="artilharia" type="button">Artilharia</button></div>'
         '<button class="tema" type="button">☀ Claro</button></nav>'
         '<div class="area"><div class="aba" id="aba-historia">'
-        '<header class="topo"><span class="selo" data-t="selo"></span>'
-        '<h1 data-t="h1"></h1><div data-t="cartoes"></div>'
+        '<header class="topo"><div class="comp-cab"><span data-t="bandeira"></span><div class="comp-cab-txt">'
+        '<span class="comp-sobre" data-t="selo"></span><h1 data-t="h1"></h1></div></div><div data-t="cartoes"></div>'
         '</header>'
         '<main><section class="painel" data-sub="corrida"><div class="cab-bloco"><h2 class="titulo-bloco" id="cr-titulo">Corrida dos títulos</h2>'
         '<div class="alterna" id="cr-tipo" role="group" aria-label="Corrida de"><button type="button" data-tipo="campeao" class="ativo">Títulos</button>'
@@ -2345,6 +2581,11 @@ def main() -> None:
         '<section class="painel" data-sub="jogos" hidden><h2 class="titulo-bloco">Jogos</h2>'
         '<div class="cp-nav"><button type="button" class="cp-seta" id="cpj-ant" aria-label="Anterior">◀</button><select id="cpj-sel" aria-label="Rodada ou fase"></select>'
         '<button type="button" class="cp-seta" id="cpj-prox" aria-label="Próxima">▶</button></div><div id="cpj-lista"></div></section>'
+        '<section class="painel" data-sub="duelo" hidden><h2 class="titulo-bloco">Duelo</h2>'
+        '<p class="cp-nota">Escolha dois clubes: o gráfico mostra quantos pontos cada um fez contra cada adversário, na ordem da classificação final. Passe o mouse numa barra para ver os jogos.</p>'
+        '<div class="cp-nav dl-escolha"><select id="dl-a" aria-label="Primeiro clube"></select>'
+        '<button type="button" class="cp-seta" id="dl-troca" aria-label="Trocar os lados">⇄</button>'
+        '<select id="dl-b" aria-label="Segundo clube"></select></div><div id="dl-resumo"></div><div id="dl-grafico"></div></section>'
         '<section class="painel" data-sub="artilharia" hidden><h2 class="titulo-bloco">Artilharia</h2>'
         '<p class="cp-nota" id="cpa-sem" data-t="cpa-sem" hidden></p><div id="cpa-lista" style="margin-top:12px"></div></section></main></div>'
         '<div class="aba" id="aba-clube" hidden><header class="topo"><span class="selo">Por clube</span>'
@@ -2361,6 +2602,10 @@ def main() -> None:
         '<section class="painel" data-sub="artilharia" hidden><h2 class="titulo-bloco">Artilharia</h2>'
         '<p class="cp-nota" id="cla-sem" data-t="cla-sem" hidden></p><div id="cla-lista" style="margin-top:12px"></div></section></main></div>'
         + '</div><div id="dica" hidden></div>'
+        '<div id="comp-painel" class="comp-painel" hidden role="dialog" aria-label="Escolher competição"><div class="cpn-caixa">'
+        '<div class="cpn-topo"><input id="comp-busca" type="search" placeholder="Buscar competição ou país" aria-label="Buscar competição ou país">'
+        '<button type="button" class="cpn-fechar" aria-label="Fechar">✕</button></div>'
+        '<div class="cpn-corpo"><nav class="cpn-paises" id="comp-paises" aria-label="Países"></nav><div class="cpn-lista" id="comp-lista"></div></div></div></div>'
         f"<script>const CORES = {json.dumps({**cores_auto(todos_clubes), **{k: list(v) for k, v in CORES.items()}}, ensure_ascii=False)};\n"
         f"const ESCUDOS = {json.dumps(escudos(todos_clubes))};\n"
         f"const COMPS = {json.dumps(comps, ensure_ascii=False)};\n"

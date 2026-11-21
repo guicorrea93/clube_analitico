@@ -25,7 +25,7 @@ em diante, punições de pontos e matriz de resultados).
 | 1997 | RSSSF Brasil + ogol + Wikipédia | 25 | 159 | 391 | 0 | 36 | América-MG | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
 | 1998 | RSSSF Brasil + ogol | 24 | 179 | 420 | 0 | 156 | Gama | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
 | 1999 | RSSSF Brasil + ogol | 22 | 254 | 652 | 257 | 211 | Goiás | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
-| 2001 | RSSSF Brasil + ogol + Wikipédia | 28 | 388 | 1128 | 0 | 12 | Paysandu | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
+| 2001 | RSSSF Brasil + ogol + Wikipédia | 28 | 388 | 1131 | 0 | 12 | Paysandu | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
 | 2002 | RSSSF Brasil + ogol | 26 | 339 | 970 | 316 | 322 | Criciúma | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
 | 2003 | RSSSF Brasil + ogol + Wikipédia | 24 | 312 | 930 | 897 | 303 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
 | 2004 | RSSSF Brasil + ogol + Wikipédia | 24 | 312 | 842 | 838 | 312 | Brasiliense | calculada (fase alcançada, pontos, vitórias, saldo, gols) |
@@ -55,11 +55,10 @@ em diante, punições de pontos e matriz de resultados).
 
 - 1971: placar diferente no ogol — Itabaiana x Remo: aqui 0-0, ogol 0-2
 - 1971: placar diferente no ogol — Villa Nova-MG x Ponte Preta: aqui 1-1, ogol 0-0
-- 1971: data do ogol diferente em 8 jogos (fica a do ogol, jogo a jogo)
+- 1971: data do ogol diferente em 6 jogos (fica a do ogol, jogo a jogo)
 - 1971: jogo repetido retirado: Final Remo 1-0 Villa Nova-MG (1971-12-15)
 - 1971: jogo repetido retirado: Final Villa Nova-MG 3-0 Remo (1971-12-15)
 - 1972: placar diferente no ogol — Atlético-BA x Central: aqui 0-0, ogol 3-1
-- 1972: data do ogol diferente em 1 jogos (fica a do ogol, jogo a jogo)
 - 1980: jogo só no ogol, sem fase conhecida (fora): Operário-MT 0-0 Vila Nova-GO (1980-02-23, D)
 - 1980: jogo só no ogol, incluído em Primeira fase / Grupo F: Inter de Limeira 0-1 Noroeste (1980-02-24)
 - 1980: jogo só no ogol, sem fase conhecida (fora): Itumbiara 2-1 Vila Nova-GO (1980-03-02, D)
@@ -68,22 +67,18 @@ em diante, punições de pontos e matriz de resultados).
 - 1980: jogo só no ogol, sem fase conhecida (fora): Vila Nova-GO 1-1 Anapolina (1980-03-13, D)
 - 1980: jogo só no ogol, sem fase conhecida (fora): Vila Nova-GO 0-1 Brasília EC (1980-03-16, D)
 - 1980: jogo só no ogol, sem fase conhecida (fora): Uberaba 0-0 Vila Nova-GO (1980-03-23, D)
-- 1980: data do ogol diferente em 5 jogos (fica a do ogol, jogo a jogo)
 - 1981: jogo só no ogol, incluído em Primeira fase / Grupo E: América-RJ 1-1 Comercial-SP (1981-02-02)
 - 1981: jogo repetido retirado: Final Guarani 1-1 Anapolina (1981-03-21)
 - 1982: placar diferente no ogol — América-MG x Uberaba: aqui None-None, ogol 0-1
 - 1982: placar diferente no ogol — Criciúma x Athletico-PR: aqui None-None, ogol 0-1
 - 1982: placar diferente no ogol — Palmeiras x Operário-MT: aqui 1-0, ogol 2-0
-- 1982: data do ogol diferente em 2 jogos (fica a do ogol, jogo a jogo)
+- 1982: data do ogol diferente em 1 jogos (fica a do ogol, jogo a jogo)
 - 1983: placar diferente no ogol — Londrina x Ferroviário-CE: aqui 3-1, ogol 1-3
 - 1983: placar diferente no ogol — Joinville x Moto Club: aqui 4-2, ogol 2-4
 - 1983: placar diferente no ogol — Central x Paysandu: aqui 2-1, ogol 1-2
 - 1983: placar diferente no ogol — Brasília EC x Treze: aqui 3-0, ogol 0-3
 - 1983: placar diferente no ogol — Fortaleza x Galícia: aqui 1-0, ogol 0-1
 - 1983: placar diferente no ogol — Mixto x Rio Branco-ES: aqui 2-1, ogol 1-2
-- 1983: data do ogol diferente em 5 jogos (fica a do ogol, jogo a jogo)
-- 1984: data do ogol diferente em 1 jogos (fica a do ogol, jogo a jogo)
-- 1985: data do ogol diferente em 21 jogos (fica a do ogol, jogo a jogo)
 - 1985: classificação calculada; última fase com 3 clubes (posições abaixo do campeão são aproximadas)
 - 1988: data do ogol diferente em 1 jogos (fica a do ogol, jogo a jogo)
 - 1989: jogo só no ogol, sem fase conhecida (fora): Santo André 2-0 Esportivo-MT (1989-09-09, J)
@@ -106,52 +101,41 @@ em diante, punições de pontos e matriz de resultados).
 - 1989: jogo só no ogol, sem fase conhecida (fora): Esportivo-MT 1-2 Brusque (1989-10-25, O)
 - 1989: jogo só no ogol, sem fase conhecida (fora): Novorizontino 0-0 Esportivo-MT (1989-10-28, J)
 - 1989: jogo só no ogol, sem fase conhecida (fora): Glória 2-0 Esportivo-MT (1989-10-28, O)
-- 1989: data do ogol diferente em 10 jogos (fica a do ogol, jogo a jogo)
-- 1990: data do ogol diferente em 91 jogos (fica a do ogol, jogo a jogo)
+- 1989: data do ogol diferente em 9 jogos (fica a do ogol, jogo a jogo)
+- 1990: data do ogol diferente em 69 jogos (fica a do ogol, jogo a jogo)
 - 1990: jogo repetido retirado: Final Athletico-PR 1-1 Sport (1990-12-12)
 - 1990: jogo repetido retirado: Final Sport 0-0 Athletico-PR (1990-12-12)
 - 1991: placar diferente no ogol — Independência x Paysandu: aqui 0-3, ogol 3-0
-- 1991: data do ogol diferente em 437 jogos (fica a do ogol, jogo a jogo)
+- 1991: data do ogol diferente em 38 jogos (fica a do ogol, jogo a jogo)
 - 1991: tabela final da RSSSF x jogos — Central: tabela [14, 4, 8, 2, 10, 6] jogos [14, 4, 8, 2, 10, 7]
-- 1992: data do ogol diferente em 4 jogos (fica a do ogol, jogo a jogo)
 - 1992: jogo repetido retirado: Final Paraná 2-1 Vitória (1992-07-05)
 - 1992: tabela final da RSSSF x jogos — Itaperuna: tabela [14, 4, 5, 5, 18, 23] jogos [14, 4, 5, 5, 17, 22]
 - 1994: placar diferente no ogol — Democrata-GV x Sergipe: aqui 1-1, ogol 0-0
 - 1994: placar diferente no ogol — Desportiva-ES x CRB: aqui 0-1, ogol 1-0
-- 1994: data do ogol diferente em 32 jogos (fica a do ogol, jogo a jogo)
 - 1994: placar corrigido Desportiva-ES 0-1 -> 1-0 CRB
 - 1994: jogo repetido retirado: Primeira fase Desportiva-ES 0-1 Americano-RJ (1994-09-18)
-- 1995: data do ogol diferente em 8 jogos (fica a do ogol, jogo a jogo)
 - 1995: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
-- 1996: data do ogol diferente em 6 jogos (fica a do ogol, jogo a jogo)
 - 1996: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
-- 1997: data do ogol diferente em 58 jogos (fica a do ogol, jogo a jogo)
+- 1997: data do ogol diferente em 43 jogos (fica a do ogol, jogo a jogo)
 - 1997: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
-- 1998: data do ogol diferente em 98 jogos (fica a do ogol, jogo a jogo)
+- 1998: data do ogol diferente em 88 jogos (fica a do ogol, jogo a jogo)
 - 1998: placar corrigido Volta Redonda 2-0 -> 0-2 Santa Cruz
 - 1998: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
-- 1999: data do ogol diferente em 8 jogos (fica a do ogol, jogo a jogo)
+- 1999: data do ogol diferente em 4 jogos (fica a do ogol, jogo a jogo)
 - 1999: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
 - 2001: placar diferente no ogol — Figueirense x Caxias: aqui None-None, ogol 1-0
-- 2001: data do ogol diferente em 1 jogos (fica a do ogol, jogo a jogo)
-- 2001: placar corrigido Figueirense 3-1 -> 1-0 Caxias
 - 2001: placar corrigido Figueirense None-None -> 1-0 Caxias
 - 2001: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
 - 2003: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
-- 2004: data do ogol diferente em 3 jogos (fica a do ogol, jogo a jogo)
 - 2004: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
-- 2005: data do ogol diferente em 1 jogos (fica a do ogol, jogo a jogo)
 - 2005: classificação calculada; última fase com 4 clubes (posições abaixo do campeão são aproximadas)
 - 2006: placar diferente no ogol — Ituano x Vila Nova-GO: aqui 1-0, ogol 1-1
-- 2006: data do ogol diferente em 6 jogos (fica a do ogol, jogo a jogo)
 - 2006: placar corrigido Ituano 1-0 -> 1-1 Vila Nova-GO
-- 2007: data do ogol diferente em 60 jogos (fica a do ogol, jogo a jogo)
 - 2007: tabela final da RSSSF x jogos — Ituano: tabela [38, 8, 9, 20, 41, 74] jogos [38, 8, 9, 21, 41, 74]
 - 2008: placar diferente no ogol — Fortaleza x Criciúma: aqui 1-0, ogol 2-1
-- 2008: data do ogol diferente em 202 jogos (fica a do ogol, jogo a jogo)
 - 2008: placar corrigido Fortaleza 1-0 -> 2-1 Criciúma
 - 2008: tabela final da RSSSF x jogos — Juventude: tabela [38, 16, 8, 14, 49, 46] jogos [38, 16, 8, 14, 51, 48]
-- 2009: data do ogol diferente em 222 jogos (fica a do ogol, jogo a jogo)
+- 2009: data do ogol diferente em 73 jogos (fica a do ogol, jogo a jogo)
 - 2009: tabela final da RSSSF x jogos — Duque de Caxias: tabela [38, 15, 9, 14, 55, 53] jogos [38, 15, 9, 14, 55, 55]
 - 2010: Santo André x Bragantino — RSSSF 1-3, ESPN 1-4, Wikipédia 1-3 → fica RSSSF
 - 2010: ASA x Ipatinga — RSSSF 2-1, ESPN 2-0, Wikipédia 2-1 → fica RSSSF

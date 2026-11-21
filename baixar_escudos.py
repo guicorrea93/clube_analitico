@@ -36,6 +36,7 @@ ROOT = Path(__file__).parent
 PASTA = ROOT / "data" / "escudos"
 AUTO = PASTA / "paginas_auto.json"
 OGOL_AUTO = PASTA / "ogol_auto.json"   # clube -> escudo no ogol, achado por --ogol
+ESPN_AUTO = PASTA / "espn_auto.json"   # clube -> escudo na ESPN, achado por --ogol quando o ogol não tem o clube
 OGOL_IMG = "https://cdn-img.staticzz.com/img/"
 # escudo achado que não é do clube na época em que jogou (revisão CL-023): o --ogol não volta a pô-lo
 ERRADOS = {"Rive A.C."}
@@ -278,12 +279,52 @@ def descobrir_ogol() -> None:
     print(f"ogol: {len(auto)} clubes com escudo achado")
 
 
+def descobrir_espn() -> None:
+    """Escudo da ESPN para os clubes dos pacotes que seguem sem escudo, pelos nomes "espn:" do nomes_fonte e pelos
+    placares diários guardados em data/cache/espn-*/ (a Colômbia não está no ogol; os ids vêm da ESPN)."""
+    import csv
+    espn: dict[str, list] = {}
+    for f in sorted((ROOT / "data" / "coleta").glob("*/pacote/clubes.csv")):
+        for r in csv.DictReader(f.open(encoding="utf-8")):
+            for item in filter(None, (r.get("nomes_fonte") or "").split("|")):
+                fonte, _, resto = item.partition(":")
+                if fonte == "espn" and ":" in resto:
+                    nome_e, anos = resto.rsplit(":", 1)
+                    ns = re.findall(r"\d{4}", anos)
+                    if ns:
+                        espn.setdefault(nome_e, []).append((int(ns[0]), int(ns[-1]), r["clube"]))
+    achados: dict[str, dict] = {}
+    for f in sorted((ROOT / "data" / "cache").glob("espn-*/*/*.json")):
+        ano = int(f.stem[:4]) if f.stem[:4].isdigit() else 0
+        try:
+            eventos = json.loads(f.read_text(encoding="utf-8")).get("events", [])
+        except (ValueError, AttributeError):
+            continue
+        for ev in eventos:
+            for comp in ev.get("competitions", []):
+                for t in comp.get("competitors", []):
+                    time_ = t.get("team", {})
+                    donos = {c for a1, a2, c in espn.get(time_.get("displayName", ""), []) if a1 <= ano <= a2}
+                    if len(donos) == 1 and time_.get("logo"):
+                        cont = achados.setdefault(donos.pop(), {})
+                        cont[time_["logo"]] = cont.get(time_["logo"], 0) + 1
+    auto = json.loads(ESPN_AUTO.read_text(encoding="utf-8")) if ESPN_AUTO.exists() else {}
+    ogol_auto = json.loads(OGOL_AUTO.read_text(encoding="utf-8")) if OGOL_AUTO.exists() else {}
+    for c, imgs in sorted(achados.items()):
+        if c in paginas() or c in OUTRAS_FONTES or c in ogol_auto or c in auto or arquivo(c).exists() or c in ERRADOS:
+            continue
+        auto[c] = max(imgs, key=imgs.get)
+    ESPN_AUTO.write_text(json.dumps(auto, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")
+    print(f"espn: {len(auto)} clubes com escudo achado")
+
+
 def main() -> None:
     PASTA.mkdir(parents=True, exist_ok=True)
     if "--descobrir" in sys.argv:
         descobrir()
     if "--ogol" in sys.argv:
         descobrir_ogol()
+        descobrir_espn()
     todos, pequenos = "--todos" in sys.argv, "--pequenos" in sys.argv
 
     def pular(destino: Path) -> bool:
@@ -309,11 +350,16 @@ def main() -> None:
             print(f"ERRO {e.code}: {clube} (fica o escudo que já tinha; rode de novo depois)")
         time.sleep(5)   # a Wikipédia limita o ritmo (429)
     ogol_auto = json.loads(OGOL_AUTO.read_text(encoding="utf-8")) if OGOL_AUTO.exists() else {}
-    for clube, url in {**ogol_auto, **OUTRAS_FONTES}.items():
+    espn_auto = json.loads(ESPN_AUTO.read_text(encoding="utf-8")) if ESPN_AUTO.exists() else {}
+    for clube, url in {**espn_auto, **ogol_auto, **OUTRAS_FONTES}.items():
         destino = arquivo(clube)
         if pular(destino):
             continue
-        dados = pegar(url)
+        try:
+            dados = pegar(url)
+        except urllib.error.HTTPError as e:
+            print(f"ERRO {e.code}: {clube} (rode de novo depois)")
+            continue
         try:   # jpg/gif viram png (o dashboard lê .png)
             import io
             from PIL import Image

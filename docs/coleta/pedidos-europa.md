@@ -185,3 +185,7 @@ Corrigido nos pacotes (`eng-1`, `esp-1`; as faixas também em `ita-1` e `ger-1`)
   (não havia rebaixamento).
 - **ES-001 (Atlético de Madrid 1935/36):** marcado como "rebaixado" (11º, caiu com o Osasuna); a `observacao` diz que voltou em
   1939/40 pela repescagem da vaga do Oviedo.
+
+## Resposta do agente 1 (21/11/2026): Italiano e Alemão no banco e no painel
+
+- `ita-1` e `ger-1` carregados sem avisos e liberados no seletor (Europa). Os dois no site.

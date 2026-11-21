@@ -42,12 +42,18 @@ MESCLAR = {"Comercial-SP": "Comercial-RP",   # Comercial de Ribeirão Preto (Sé
            "Americana": "Guaratinguetá",      # Guaratinguetá, que jogou 2011 em Americana com esse nome (decisão de 20/11/2026; CL-013)
            "Malutrom": "J.Malucelli",         # o Malutrom (1994) passou a se chamar J.Malucelli em 2005 (decisão de 21/11/2026; CL-014)
            "GE Maringá": "Grêmio Maringá",    # a Federação Paranaense une os títulos do GE Maringá (1961-71) e do Grêmio (1974) (21/11/2026; CL-015)
-           "Ferroviário-PE": "Ferroviário do Recife"}   # o Clube Ferroviário do Recife, Série B 1971 e 1972 (21/11/2026; CL-016)
+           "Ferroviário-PE": "Ferroviário do Recife",   # o Clube Ferroviário do Recife, Série B 1971 e 1972 (21/11/2026; CL-016)
+           # identidade pesquisada pela coleta e decidida pelo Guilherme (21/11/2026; CL-005 a CL-012, docs/coleta/pedidos.md):
+           "Operário-MT": "CEOV Operário",    # o Operário de Várzea Grande da Série A 1968-86 e B 1980-92
+           "Lagarto": "Lagarto EC", "Cabofriense": "AA Cabofriense", "Foz do Iguaçu": "Foz do Iguaçu EC",   # Série B 1989
+           "Goiatuba": "Goiatuba EC"}
 # nome de fonte que está errado (a fonte deu outro clube) e cidade que faltava; achado CL-016
 NOME_ERRADO = {("Ferroviário do Recife", "Ferroviário do Cabo")}
 # nome de fase que veio em inglês da RSSSF (achados SB-018 e varredura da revisão)
 FASES_PT = {"Playoff": "Repescagem", "Final Match": "Jogo final", "Relegation Playoffs": "Repescagem do rebaixamento",
-            'Losers qualified to third phase of "Taça de Prata"': "Repescagem da Taça de Prata"}
+            'Losers qualified to third phase of "Taça de Prata"': "Repescagem da Taça de Prata", "Semifinal -finals": "Semifinal"}
+# grupo com nome em inglês (SB-018)
+GRUPOS_PT = {"North-Northeastern Group": "Grupo Norte-Nordeste", "South-Southeastern Group": "Grupo Sul-Sudeste"}
 CIDADES = {"Ferroviário do Recife": "Recife"}
 # um nome de exibição que junta dois clubes no banco antigo: (nome, nome do clube antigo, estado, último ano do antigo)
 SEPARAR = [("Novorizontino", "GE Novorizontino", "SP", 1999)]   # GE Novorizontino (1973-1999) x Grêmio Novorizontino (2010+)
@@ -240,6 +246,7 @@ def migrar() -> None:
 
     corrigir_serie_a(b, serie_a)
     datas_serie_a(b, serie_a)
+    artilheiros_serie_a(b, serie_a)
     # ---- números da classificação final da Série A (somados dos jogos; pontos da última rodada quando há)
     for (ed,) in b.execute("SELECT edicao_id FROM edicao WHERE competicao_id = ?", (serie_a,)).fetchall():
         pv = b.execute("SELECT pontos_vitoria FROM edicao WHERE edicao_id = ?", (ed,)).fetchone()[0] or 2
@@ -264,6 +271,8 @@ def migrar() -> None:
         b.execute("UPDATE clube SET cidade = ? WHERE nome = ?", (cidade, clube))
     for ingles, pt in FASES_PT.items():
         b.execute("UPDATE fase SET nome = ? WHERE nome = ?", (pt, ingles))
+    for ingles, pt in GRUPOS_PT.items():
+        b.execute("UPDATE partida SET grupo = ? WHERE grupo = ?", (pt, ingles))
     tipos_de_fase(b, serie_b)
     b.commit()
     conferir(a, b, conflitos)
@@ -311,6 +320,25 @@ def corrigir_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
     # SA-027: 2000 foi a Copa João Havelange; SA-028: acento no nome da fase de 1987
     b.execute("UPDATE edicao SET nome_oficial = 'Copa João Havelange' WHERE competicao_id = ? AND ano_inicio = 2000", (serie_a,))
     b.execute("UPDATE fase SET nome = replace(nome, 'Copa Uniao', 'Copa União') WHERE nome LIKE '%Copa Uniao%'")
+
+
+def artilheiros_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
+    """Lista oficial de artilheiros da Série A (data/coleta/bra-serie-a-artilheiros/artilheiros.csv, da coleta Brasil;
+    revisão SA-019 a SA-023): temporada = chave da edição, clube = nome no banco."""
+    import csv
+    f = RAIZ / "data" / "coleta" / "bra-serie-a-artilheiros" / "artilheiros.csv"
+    if not f.exists():
+        return
+    sem = []
+    for r in csv.DictReader(f.open(encoding="utf-8")):
+        ed = b.execute("SELECT edicao_id FROM edicao WHERE competicao_id = ? AND chave = ?", (serie_a, r["temporada"])).fetchone()
+        cid = b.execute("SELECT clube_id FROM clube WHERE nome = ?", (MESCLAR.get(r["clube"], r["clube"]),)).fetchone()
+        if not ed:
+            sem.append(r["temporada"])
+            continue
+        b.execute("INSERT INTO artilheiro VALUES (?,?,?,?,?)", (ed[0], r["jogador"], cid[0] if cid else None, int(r["gols"]), r.get("fonte") or None))
+    if sem:
+        print("  artilheiros da Série A sem edição:", sem)
 
 
 def datas_serie_a(b: sqlite3.Connection, serie_a: int) -> None:

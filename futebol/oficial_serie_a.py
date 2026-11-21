@@ -54,7 +54,8 @@ def tabela(ano: int) -> list[dict]:
             ordem = [(str(k + 1), s.strip()) for k, s in enumerate(m.group(1).split(",")) if s.strip()]
         if ordem:
             nm = {s: wiki._nome(v) for s, v in re.findall(r"\|\s*name_(\w+)\s*=\s*(.+?)(?=\s*\|\s*name_|\n|$)", bloco)}
-            num = lambda chave, s: int(m.group(1)) if (m := re.search(rf"\|\s*{chave}_{s}\s*=\s*(-?\d+)", bloco)) else 0
+            # bônus vem com "+" ("+3", SA-003)
+            num = lambda chave, s: int(m.group(1)) if (m := re.search(rf"\|\s*{chave}_{s}\s*=\s*([+-]?\d+)", bloco)) else 0
             return [{"pos": int(p), "sigla": s, "nome": nm.get(s, s), "v": num("win", s), "e": num("draw", s), "d": num("loss", s),
                      "gp": num("gf", s), "gc": num("ga", s), "ajuste": num("adjust_points", s)} for p, s in sorted((int(p), s) for p, s in ordem)]
         i = baixo.find("{{#invoke:sports table", i + 1)

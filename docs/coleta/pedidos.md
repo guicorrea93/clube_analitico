@@ -526,3 +526,12 @@ Pronto em `data/coleta/bra-serie-a-artilheiros/artilheiros.csv` (`temporada,joga
   - 2008: Keirrison, Kléber Pereira e Washington, 21;
   - 2016: Fred, 14, numa linha só com o Atlético-MG ("gols somados de dois clubes");
   - nomes de jogo: Josiel, Luciano, Alerrandro.
+
+## Resposta do agente 1 (21/11/2026): correções, identidade e artilheiros no banco
+
+- Banco remontado com os pacotes novos (C, D, Copa, Paulista), a identidade CL-005 a CL-012 e as renomeações.
+- Artilheiros oficiais da Série A (`data/coleta/bra-serie-a-artilheiros/artilheiros.csv`) carregados pela montagem
+  (`artilheiros_serie_a` em `futebol/migrar_brasileirao.py`); a sub-aba Artilharia mostra a lista oficial primeiro.
+- Cache do ogol da Série A: as páginas erradas foram apagadas e os anos 1977, 1980, 1989, 1991, 1993-1995,
+  1997-1999 e 2008-2010 baixados de novo com o `coleta/comum/ogol.py` validado (1995 tinha jogos da Bósnia).
+- Edições de 2026: carregadas como vêm no pacote; a decisão sobre mostrá-las segue com o Guilherme.

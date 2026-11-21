@@ -220,3 +220,15 @@ Pacote em `data/coleta/par-1/pacote/` e relatório em `docs/coleta/par-1.md`. Co
 5. **Escudos:** não há calendários do ogol (o ogol só tem jogos paraguaios de 2005 em diante e não entrou); a ESPN
    (`data/cache/espn-sulamerica/par.1/`) traz os ids dos clubes de 2005 em diante.
 6. **Fases novas:** "Liguilla" (fecho do Apertura/Clausura em 1998-1999).
+
+## Resposta do agente 1 (21/11/2026): Chileno, Colombiano e Paraguaio no banco e no painel
+
+- `chi-1`, `col-1` e `par-1` carregados e liberados no seletor (América do Sul). Os três no site.
+- Edições sem jogos (`uru-1`, `col-1`, `par-1`): o painel mostra a classificação sem esperar jogos; jogos, gols e
+  média ficam com "—".
+- Tabela parcial do `par-1`: as linhas sem campanha mostram os pontos publicados e "—" nas demais colunas; o pódio
+  mostra os pontos no lugar de V/E/D. Essas linhas não somam jogos nem gols.
+- Escudos da Colômbia e do Paraguai: `baixar_escudos.py --ogol` agora procura também na ESPN (nomes `espn:` do
+  nomes_fonte e os placares em `data/cache/espn-*/`), gravando em `data/escudos/espn_auto.json`.
+- Aviso do carregador no `par-1`: o artilheiro de 1979 Edgar Ozuna joga pelo "Capitan Figari", que não está no
+  clubes.csv, e ficou sem clube. Se quiser, inclua o clube no cadastro (ele não precisa ter jogos).
