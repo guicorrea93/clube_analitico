@@ -1,0 +1,10610 @@
+[
+{
+"id": "189180",
+"data_hora": "2005-07-15T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Antonio González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Monje"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Toloza"
+]
+}
+]
+},
+{
+"id": "189182",
+"data_hora": "2005-07-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Alvarez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eros Pérez"
+]
+}
+]
+},
+{
+"id": "189181",
+"data_hora": "2005-07-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+}
+]
+},
+{
+"id": "189187",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Vergara"
+]
+}
+]
+},
+{
+"id": "189185",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Romero"
+]
+}
+]
+},
+{
+"id": "189183",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Ignacio Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel González"
+]
+}
+]
+},
+{
+"id": "189186",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Armando Alam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Javier Comas"
+]
+}
+]
+},
+{
+"id": "189184",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Laffatigue"
+]
+}
+]
+},
+{
+"id": "189190",
+"data_hora": "2005-07-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Javier Aldea"
+]
+}
+]
+},
+{
+"id": "189194",
+"data_hora": "2005-07-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Norambuena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Barrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonatan Cisternas"
+]
+}
+]
+},
+{
+"id": "189192",
+"data_hora": "2005-07-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Mena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+}
+]
+},
+{
+"id": "189193",
+"data_hora": "2005-07-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189191",
+"data_hora": "2005-07-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+}
+]
+},
+{
+"id": "189196",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Figueroa"
+]
+}
+]
+},
+{
+"id": "189198",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Baeza"
+]
+}
+]
+},
+{
+"id": "189195",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Núñez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Robledo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+}
+]
+},
+{
+"id": "189197",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Viveros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leo Drugovich"
+]
+}
+]
+},
+{
+"id": "189199",
+"data_hora": "2005-07-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Estay"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Estay"
+]
+}
+]
+},
+{
+"id": "189200",
+"data_hora": "2005-07-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Ignacio Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": null,
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": []
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "91'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Ramírez"
+]
+}
+]
+},
+{
+"id": "189201",
+"data_hora": "2005-07-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Luis González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Monje"
+]
+}
+]
+},
+{
+"id": "189202",
+"data_hora": "2005-07-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angelo Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Olivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Droguett"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank Lobos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Olivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Olea"
+]
+}
+]
+},
+{
+"id": "189208",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Rey"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Rojas"
+]
+}
+]
+},
+{
+"id": "189204",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+}
+]
+},
+{
+"id": "189203",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Viveros"
+]
+}
+]
+},
+{
+"id": "189205",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Orellana"
+]
+}
+]
+},
+{
+"id": "189206",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Conca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Rubio"
+]
+}
+]
+},
+{
+"id": "189207",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Videla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leo Drugovich"
+]
+}
+]
+},
+{
+"id": "189214",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+}
+]
+},
+{
+"id": "189212",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Henríquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro"
+]
+}
+]
+},
+{
+"id": "189213",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Carmona"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Ramírez"
+]
+}
+]
+},
+{
+"id": "189215",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+}
+]
+},
+{
+"id": "189210",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Moya"
+]
+}
+]
+},
+{
+"id": "189217",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Martínez"
+]
+}
+]
+},
+{
+"id": "189209",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Avendaño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Núñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Waldo Ponce"
+]
+}
+]
+},
+{
+"id": "189211",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Conca"
+]
+}
+]
+},
+{
+"id": "189218",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sierra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sierra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Barrera"
+]
+}
+]
+},
+{
+"id": "189216",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Toloza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Robledo"
+]
+}
+]
+},
+{
+"id": "189224",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189221",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Roco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Quiroga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Viveros"
+]
+}
+]
+},
+{
+"id": "189228",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Barrios"
+]
+}
+]
+},
+{
+"id": "189223",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189226",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Reyes"
+]
+}
+]
+},
+{
+"id": "189227",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Alvarez"
+]
+}
+]
+},
+{
+"id": "189222",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Armando Alam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Herrera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mas"
+]
+}
+]
+},
+{
+"id": "189225",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Osorio"
+]
+}
+]
+},
+{
+"id": "189220",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189219",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Ignacio Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Rivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+}
+]
+},
+{
+"id": "189231",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Conca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Rubio"
+]
+}
+]
+},
+{
+"id": "189233",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+}
+]
+},
+{
+"id": "189238",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Ramírez"
+]
+}
+]
+},
+{
+"id": "189229",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+}
+]
+},
+{
+"id": "189236",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Ulises Carrasco"
+]
+}
+]
+},
+{
+"id": "189234",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Reynero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Cañete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Millar"
+]
+}
+]
+},
+{
+"id": "189237",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Laffatigue"
+]
+}
+]
+},
+{
+"id": "189235",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Arancibia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Celedón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "94'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Yánez"
+]
+}
+]
+},
+{
+"id": "189232",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Lemos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villanueva"
+]
+}
+]
+},
+{
+"id": "189230",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leo Drugovich"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Jerez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sierra"
+]
+}
+]
+},
+{
+"id": "189240",
+"data_hora": "2005-08-27T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+}
+]
+},
+{
+"id": "189239",
+"data_hora": "2005-08-27T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Olivares"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank Lobos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Vega"
+]
+}
+]
+},
+{
+"id": "189241",
+"data_hora": "2005-08-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Barrios"
+]
+}
+]
+},
+{
+"id": "189242",
+"data_hora": "2005-08-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Brito"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Reynero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Salazar"
+]
+}
+]
+},
+{
+"id": "189243",
+"data_hora": "2005-09-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189188",
+"data_hora": "2005-09-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Sanhueza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+}
+]
+},
+{
+"id": "189189",
+"data_hora": "2005-09-04T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Jerez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Jara"
+]
+}
+]
+},
+{
+"id": "189244",
+"data_hora": "2005-09-08T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+}
+]
+},
+{
+"id": "189249",
+"data_hora": "2005-09-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189250",
+"data_hora": "2005-09-10T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sierra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elthon Troncoso"
+]
+}
+]
+},
+{
+"id": "189251",
+"data_hora": "2005-09-10T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Guajardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Almendra"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Rivera"
+]
+}
+]
+},
+{
+"id": "189252",
+"data_hora": "2005-09-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Rolón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sixto Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Lira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Mauvezin"
+]
+}
+]
+},
+{
+"id": "189254",
+"data_hora": "2005-09-11T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Vásquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+}
+]
+},
+{
+"id": "189253",
+"data_hora": "2005-09-11T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonny Chaparro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Avalos"
+]
+}
+]
+},
+{
+"id": "189255",
+"data_hora": "2005-09-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Campos"
+]
+}
+]
+},
+{
+"id": "189256",
+"data_hora": "2005-09-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Arenas"
+]
+}
+]
+},
+{
+"id": "189257",
+"data_hora": "2005-09-11T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Olivera"
+]
+}
+]
+},
+{
+"id": "189258",
+"data_hora": "2005-09-14T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Santiago 2Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Nanía"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Villarroel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+}
+]
+},
+{
+"id": "189263",
+"data_hora": "2005-09-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elthon Troncoso"
+]
+}
+]
+},
+{
+"id": "189268",
+"data_hora": "2005-09-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Droguett"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Arenas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Rojas"
+]
+}
+]
+},
+{
+"id": "189260",
+"data_hora": "2005-09-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Guidi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Aravena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pérez"
+]
+}
+]
+},
+{
+"id": "189267",
+"data_hora": "2005-09-17T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Bolados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Alvarez"
+]
+}
+]
+},
+{
+"id": "189259",
+"data_hora": "2005-09-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Santiago 2Tapia"
+]
+}
+]
+},
+{
+"id": "189264",
+"data_hora": "2005-09-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Rolón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Viveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Javier Comas"
+]
+}
+]
+},
+{
+"id": "189262",
+"data_hora": "2005-09-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Rieloff"
+]
+}
+]
+},
+{
+"id": "189266",
+"data_hora": "2005-09-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Núñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Monje"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+}
+]
+},
+{
+"id": "189261",
+"data_hora": "2005-09-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Soto"
+]
+}
+]
+},
+{
+"id": "189245",
+"data_hora": "2005-09-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Lemos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Yánez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Inostroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Lemos"
+]
+}
+]
+},
+{
+"id": "189270",
+"data_hora": "2005-09-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Morán"
+]
+}
+]
+},
+{
+"id": "189278",
+"data_hora": "2005-09-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+}
+]
+},
+{
+"id": "189269",
+"data_hora": "2005-09-24T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Toloza"
+]
+}
+]
+},
+{
+"id": "189276",
+"data_hora": "2005-09-25T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189277",
+"data_hora": "2005-09-25T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Bolados"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Soto"
+]
+}
+]
+},
+{
+"id": "189275",
+"data_hora": "2005-09-25T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Henríquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Bentos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Inostroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Vásquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Baeza"
+]
+}
+]
+},
+{
+"id": "189272",
+"data_hora": "2005-09-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Miranda"
+]
+}
+]
+},
+{
+"id": "189273",
+"data_hora": "2005-09-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Millar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Ubeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Reynero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Salazar"
+]
+}
+]
+},
+{
+"id": "189274",
+"data_hora": "2005-09-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Ahumada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+}
+]
+},
+{
+"id": "189271",
+"data_hora": "2005-09-25T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189280",
+"data_hora": "2005-09-28T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+}
+]
+},
+{
+"id": "189288",
+"data_hora": "2005-09-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Silva"
+]
+}
+]
+},
+{
+"id": "189279",
+"data_hora": "2005-09-28T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Santiago 2Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+}
+]
+},
+{
+"id": "189285",
+"data_hora": "2005-09-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189281",
+"data_hora": "2005-09-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Videla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Madrid"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Verdugo"
+]
+}
+]
+},
+{
+"id": "189286",
+"data_hora": "2005-09-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Contreras"
+]
+}
+]
+},
+{
+"id": "189284",
+"data_hora": "2005-09-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Robledo"
+]
+}
+]
+},
+{
+"id": "189283",
+"data_hora": "2005-09-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Donoso"
+]
+}
+]
+},
+{
+"id": "189282",
+"data_hora": "2005-09-29T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adolfo Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Olea"
+]
+}
+]
+},
+{
+"id": "189287",
+"data_hora": "2005-09-30T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eros Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Conca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+}
+]
+},
+{
+"id": "189292",
+"data_hora": "2005-10-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Sánchez"
+]
+}
+]
+},
+{
+"id": "189289",
+"data_hora": "2005-10-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adolfo Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Millar"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+}
+]
+},
+{
+"id": "189298",
+"data_hora": "2005-10-01T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Ulises Carrasco"
+]
+}
+]
+},
+{
+"id": "189295",
+"data_hora": "2005-10-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Javier Comas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Javier Comas"
+]
+}
+]
+},
+{
+"id": "189296",
+"data_hora": "2005-10-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Olivares"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Celedón"
+]
+}
+]
+},
+{
+"id": "189290",
+"data_hora": "2005-10-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+}
+]
+},
+{
+"id": "189294",
+"data_hora": "2005-10-02T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Corrales"
+]
+}
+]
+},
+{
+"id": "189297",
+"data_hora": "2005-10-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christián Gálvez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank Carilao"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Donoso"
+]
+}
+]
+},
+{
+"id": "189293",
+"data_hora": "2005-10-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "5",
+"gols_visitante": "3",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "93'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Salas"
+]
+}
+]
+},
+{
+"id": "189291",
+"data_hora": "2005-10-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Toloza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Toloza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Villagra"
+]
+}
+]
+},
+{
+"id": "189411",
+"data_hora": "2005-10-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Ubeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Reyes"
+]
+}
+]
+},
+{
+"id": "189246",
+"data_hora": "2005-10-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Videla"
+]
+}
+]
+},
+{
+"id": "189247",
+"data_hora": "2005-10-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Clarence Williams Acuña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Nanía"
+]
+}
+]
+},
+{
+"id": "189248",
+"data_hora": "2005-10-09T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Villalobos"
+]
+}
+]
+},
+{
+"id": "189265",
+"data_hora": "2005-10-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Conca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+}
+]
+},
+{
+"id": "189302",
+"data_hora": "2005-10-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Ruiz"
+]
+}
+]
+},
+{
+"id": "189305",
+"data_hora": "2005-10-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+}
+]
+},
+{
+"id": "189308",
+"data_hora": "2005-10-15T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189303",
+"data_hora": "2005-10-16T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Viveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Ubeda"
+]
+}
+]
+},
+{
+"id": "189300",
+"data_hora": "2005-10-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Fuentes"
+]
+}
+]
+},
+{
+"id": "189304",
+"data_hora": "2005-10-16T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Estay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Bascuqán"
+]
+}
+]
+},
+{
+"id": "189301",
+"data_hora": "2005-10-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Verdugo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+}
+]
+},
+{
+"id": "189306",
+"data_hora": "2005-10-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Corrales"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Caro"
+]
+}
+]
+},
+{
+"id": "189307",
+"data_hora": "2005-10-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Santiago 2Tapia"
+]
+}
+]
+},
+{
+"id": "189318",
+"data_hora": "2005-10-22T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel 2Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Millar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dagoberto Currimilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mancilla"
+]
+}
+]
+},
+{
+"id": "189309",
+"data_hora": "2005-10-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Santiago 2Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Serna"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Villarroel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro"
+]
+}
+]
+},
+{
+"id": "189313",
+"data_hora": "2005-10-22T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Salazar"
+]
+}
+]
+},
+{
+"id": "189312",
+"data_hora": "2005-10-22T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+}
+]
+},
+{
+"id": "189316",
+"data_hora": "2005-10-22T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Núñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Yánez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Suazo"
+]
+}
+]
+},
+{
+"id": "189315",
+"data_hora": "2005-10-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Palacios"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Palacios"
+]
+}
+]
+},
+{
+"id": "189310",
+"data_hora": "2005-10-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Díaz"
+]
+}
+]
+},
+{
+"id": "189314",
+"data_hora": "2005-10-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leo Drugovich"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Carmona"
+]
+}
+]
+},
+{
+"id": "189311",
+"data_hora": "2005-10-23T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Albert Acevedo"
+]
+}
+]
+},
+{
+"id": "189317",
+"data_hora": "2005-10-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Waldo Ponce"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Díaz"
+]
+}
+]
+},
+{
+"id": "189325",
+"data_hora": "2005-10-25T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Santiago 2Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+}
+]
+},
+{
+"id": "189321",
+"data_hora": "2005-10-26T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luis Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Núñez"
+]
+}
+]
+},
+{
+"id": "189323",
+"data_hora": "2005-10-26T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189319",
+"data_hora": "2005-10-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Rojas"
+]
+}
+]
+},
+{
+"id": "189320",
+"data_hora": "2005-10-26T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cisternas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico José Bongioanni"
+]
+}
+]
+},
+{
+"id": "189326",
+"data_hora": "2005-10-26T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Suazo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Rubina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Suazo"
+]
+}
+]
+},
+{
+"id": "189327",
+"data_hora": "2005-10-26T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Vrsalovic"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Arenas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Abrigo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Arancibia"
+]
+}
+]
+},
+{
+"id": "189328",
+"data_hora": "2005-10-26T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ormeño"
+]
+}
+]
+},
+{
+"id": "189322",
+"data_hora": "2005-10-27T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Soto"
+]
+}
+]
+},
+{
+"id": "189324",
+"data_hora": "2005-10-27T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Bautista"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+}
+]
+},
+{
+"id": "189329",
+"data_hora": "2005-10-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Droguett"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Salazar"
+]
+}
+]
+},
+{
+"id": "189334",
+"data_hora": "2005-10-29T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Rieloff"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Bolados"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Pérez"
+]
+}
+]
+},
+{
+"id": "189330",
+"data_hora": "2005-10-30T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+}
+]
+},
+{
+"id": "189337",
+"data_hora": "2005-10-30T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Rain"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Solís"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico José Bongioanni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+}
+]
+},
+{
+"id": "189331",
+"data_hora": "2005-10-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renato Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Vásquez"
+]
+}
+]
+},
+{
+"id": "189336",
+"data_hora": "2005-10-30T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+}
+]
+},
+{
+"id": "189338",
+"data_hora": "2005-10-30T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Celedón"
+]
+}
+]
+},
+{
+"id": "189335",
+"data_hora": "2005-10-30T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+}
+]
+},
+{
+"id": "189332",
+"data_hora": "2005-10-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdivia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Javier Aldea"
+]
+}
+]
+},
+{
+"id": "189333",
+"data_hora": "2005-10-30T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Millar"
+]
+}
+]
+},
+{
+"id": "189346",
+"data_hora": "2005-11-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Donoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+}
+]
+},
+{
+"id": "189341",
+"data_hora": "2005-11-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Lemos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Quiroga"
+]
+}
+]
+},
+{
+"id": "189347",
+"data_hora": "2005-11-02T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Arrué"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonny Chaparro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Cortés"
+]
+}
+]
+},
+{
+"id": "189343",
+"data_hora": "2005-11-02T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Ortiz"
+]
+}
+]
+},
+{
+"id": "189339",
+"data_hora": "2005-11-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro"
+]
+}
+]
+},
+{
+"id": "189342",
+"data_hora": "2005-11-03T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mancilla"
+]
+}
+]
+},
+{
+"id": "189358",
+"data_hora": "2005-11-05T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Coquimbo Unido",
+"mandante_id": "4131",
+"visitante": "Deportes Melipilla",
+"visitante_id": "4788",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco S. Rumoroso",
+"cidade": "Coquimbo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Corrales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Vrsalovic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Calderón"
+]
+}
+]
+},
+{
+"id": "189351",
+"data_hora": "2005-11-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Española",
+"mandante_id": "4132",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Santa Laura",
+"cidade": "Santiago",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189349",
+"data_hora": "2005-11-06T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Droguett"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Pizarro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Canío"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Castillo"
+]
+}
+]
+},
+{
+"id": "189353",
+"data_hora": "2005-11-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Santiago Wanderers",
+"visitante_id": "3552",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Contreras"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Ruiz"
+]
+}
+]
+},
+{
+"id": "189354",
+"data_hora": "2005-11-06T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Temuco",
+"mandante_id": "4128",
+"visitante": "Puerto Montt",
+"visitante_id": "4423",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Germán Becker",
+"cidade": "Temuco",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Olivares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Marchesini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Vega"
+]
+}
+]
+},
+{
+"id": "189352",
+"data_hora": "2005-11-06T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión San Felipe",
+"mandante_id": "4130",
+"visitante": "Audax Italiano",
+"visitante_id": "4138",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Felipe",
+"cidade": "San Felipe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Ferrero"
+]
+}
+]
+},
+{
+"id": "189355",
+"data_hora": "2005-11-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Everton CD",
+"mandante_id": "4129",
+"visitante": "Palestino",
+"visitante_id": "4422",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Sausalito",
+"cidade": "Vina del Mar",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189356",
+"data_hora": "2005-11-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Solís"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Solís"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Videla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Rivera"
+]
+}
+]
+},
+{
+"id": "189357",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Vergara"
+]
+}
+]
+},
+{
+"id": "189350",
+"data_hora": "2005-11-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rangers de Talca",
+"mandante_id": "4135",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Fiscal",
+"cidade": "Talca",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Hernández"
+]
+}
+]
+},
+{
+"id": "189345",
+"data_hora": "2005-11-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Clarence Williams Acuña"
+]
+}
+]
+},
+{
+"id": "189348",
+"data_hora": "2005-11-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189340",
+"data_hora": "2005-11-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cisternas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Monsálvez"
+]
+}
+]
+},
+{
+"id": "189344",
+"data_hora": "2005-11-13T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Bolados"
+]
+}
+]
+},
+{
+"id": "189299",
+"data_hora": "2005-11-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Olivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+}
+]
+},
+{
+"id": "189367",
+"data_hora": "2005-11-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Conca"
+]
+}
+]
+},
+{
+"id": "189364",
+"data_hora": "2005-11-19T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Concepción",
+"mandante_id": "5354",
+"visitante": "Deportes Temuco",
+"visitante_id": "4128",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Antonio Montecinos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Uribe"
+]
+}
+]
+},
+{
+"id": "189365",
+"data_hora": "2005-11-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Puerto Montt",
+"mandante_id": "4423",
+"visitante": "Everton CD",
+"visitante_id": "4129",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Chinquihue",
+"cidade": "Puerto Montt",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Donoso"
+]
+}
+]
+},
+{
+"id": "189366",
+"data_hora": "2005-11-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Santiago Wanderers",
+"mandante_id": "3552",
+"visitante": "Unión San Felipe",
+"visitante_id": "4130",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Playa Ancha",
+"cidade": "Valparaíso",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Enrique Mallea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Robledo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Pérez"
+]
+}
+]
+},
+{
+"id": "189361",
+"data_hora": "2005-11-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pérez"
+]
+}
+]
+},
+{
+"id": "189368",
+"data_hora": "2005-11-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Rangers de Talca",
+"visitante_id": "4135",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Contreras"
+]
+}
+]
+},
+{
+"id": "189359",
+"data_hora": "2005-11-20T14:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Melipilla",
+"mandante_id": "4788",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Roberto Bravo Santibáñez",
+"cidade": "Melipilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Santiago 2Tapia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Arenas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Gonzalo Lorca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Ulises Carrasco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Ángel Aceval"
+]
+}
+]
+},
+{
+"id": "189362",
+"data_hora": "2005-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Audax Italiano",
+"mandante_id": "4138",
+"visitante": "Unión Española",
+"visitante_id": "4132",
+"gols_mandante": "4",
+"gols_visitante": "5",
+"estadio": "Municipal de la Florida",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Ubeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Neira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Ubeda"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Orellana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Suazo"
+]
+}
+]
+},
+{
+"id": "189360",
+"data_hora": "2005-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Palestino",
+"mandante_id": "4422",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio La Cisterna",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cisternas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Nanía"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Verdugo"
+]
+}
+]
+},
+{
+"id": "189363",
+"data_hora": "2005-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Coquimbo Unido",
+"visitante_id": "4131",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Olivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+}
+]
+},
+{
+"id": "191370",
+"data_hora": "2005-11-23T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Deportes Concepción",
+"visitante_id": "5354",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Pérez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pérez"
+]
+}
+]
+},
+{
+"id": "191388",
+"data_hora": "2005-11-26T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Colo Colo",
+"visitante_id": "2688",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Javier Comas"
+]
+}
+]
+},
+{
+"id": "191389",
+"data_hora": "2005-11-26T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Huachipato",
+"visitante_id": "4134",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renzo Yáñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mancilla"
+]
+}
+]
+},
+{
+"id": "191390",
+"data_hora": "2005-11-27T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobreloa",
+"mandante_id": "2678",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de Calama",
+"cidade": "Calama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Hernández"
+]
+}
+]
+},
+{
+"id": "191391",
+"data_hora": "2005-11-27T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Concepción",
+"mandante_id": "5362",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Municipal de Concepción",
+"cidade": "Concepción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Olivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Viveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Valencia"
+]
+}
+]
+},
+{
+"id": "191393",
+"data_hora": "2005-12-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Huachipato",
+"mandante_id": "4134",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Las Higueras",
+"cidade": "Talcahuano",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+}
+]
+},
+{
+"id": "191392",
+"data_hora": "2005-12-03T23:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Colo Colo",
+"mandante_id": "2688",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Alejandro Madrid"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Sanhueza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Rubina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fierro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Palacios"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matías Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yerson Opazo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Tejas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Pizarro"
+]
+}
+]
+},
+{
+"id": "191395",
+"data_hora": "2005-12-04T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Universidad de Concepción",
+"visitante_id": "5362",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "191394",
+"data_hora": "2005-12-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Cobreloa",
+"visitante_id": "2678",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Fuentes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+}
+]
+},
+{
+"id": "192108",
+"data_hora": "2005-12-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobresal",
+"mandante_id": "4133",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio El Cobre",
+"cidade": "El Salvador",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Quiroga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Salas"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Lira"
+]
+}
+]
+},
+{
+"id": "192109",
+"data_hora": "2005-12-08T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Serena",
+"mandante_id": "4137",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio La Portada",
+"cidade": "Estadio La Portada",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Javier Comas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eros Pérez"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eros Pérez"
+]
+}
+]
+},
+{
+"id": "192110",
+"data_hora": "2005-12-14T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Cobresal",
+"visitante_id": "4133",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Acosta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Salas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Salas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Waldo Ponce"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Olivera"
+]
+}
+]
+},
+{
+"id": "192111",
+"data_hora": "2005-12-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "La Serena",
+"visitante_id": "4137",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "San Carlos de Apoquindo",
+"cidade": "Santiago",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+}
+]
+},
+{
+"id": "189381",
+"data_hora": "2005-12-18T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad de Chile",
+"mandante_id": "4139",
+"visitante": "Universidad Católica",
+"visitante_id": "885",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Rubio"
+]
+}
+]
+},
+{
+"id": "189382",
+"data_hora": "2005-12-22T22:00Z",
+"situacao": "STATUS_FINAL_PEN",
+"mandante": "Universidad Católica",
+"mandante_id": "885",
+"visitante": "Universidad de Chile",
+"visitante_id": "4139",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Salas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Salas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Conca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Valencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Arrué"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Quinteros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Droguett"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Pedro Fuenzalida"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Gabriel Rivarola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "120'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodolfo Damián Quinteros"
+]
+}
+]
+}
+]

@@ -94,3 +94,24 @@ Pacote em `data/coleta/uru-1/pacote/` e relatório em `docs/coleta/uru-1.md`. Co
 - **Escudos:** os clubes de 2005 em diante têm escudo. Faltam 47 clubes da era amadora, que o ogol não cobre.
 - **Lista do painel:** o painel só mostra a competição que está em `LIBERADAS` (`gerar_dashboard_v2.py`), com o ok do
   Guilherme.
+
+## 21/11/2026 — Campeonato Chileno, 1ª divisão (`chi-1`)
+
+Pacote em `data/coleta/chi-1/pacote/` e relatório em `docs/coleta/chi-1.md`. Commit ainda não feito: aguarda o ok do Guilherme.
+
+1. **Conteúdo:** 109 edições (1933 a 2025), uma por torneio que deu título: anuais até 1996, 1998-2001, 2010 e 2018-2025;
+   "1997 Apertura" e "1997 Clausura"; "2002 Apertura" a "2012 Clausura" (sem 2010); "2013 Transición"; "2013/14 Apertura" a
+   "2016/17 Clausura"; "2017 Transición". "2020" vai até fevereiro de 2021 (`ano_fim` 2021). Como no `arg-1`, o torneio aparece
+   depois do primeiro espaço da `temporada`. 22.601 jogos, 53 clubes.
+2. **Fontes dos jogos:** RSSSF (1933-1983, 1996-2024); ogol (1984-1995 e 2025, `fonte` "ogol", `fonte_id` "ogol:<id>");
+   ESPN (fase de pontos corridos do Clausura 2011 e de 2012, `fonte` "ESPN", `fonte_id` "espn:<id>"). Gols com minuto e
+   cartões da ESPN de 2005 a 2025.
+3. **País:** `pais` "CHI" e `pais_nome` "Chile" no `competicao.json`; todos os clubes são `CHI`.
+4. **Nomes:** nenhuma colisão com o banco ou com outro pacote. Homônimos levam a cidade: "Everton de Viña del Mar" (o Everton
+   do eng-1), "Rangers de Talca", "Naval de Talcahuano", "Metropolitano de Santiago". Green Cross (Santiago), Green Cross-Temuco
+   e Deportes Temuco são um cadastro só ("Deportes Temuco"), como a RSSSF conta o título de 1945.
+5. **Escudos:** calendários do ogol em `data/cache/ogol-chi-1/calendario_<ano>_<id>_p<n>.html` (1933-2001, 2010, 2018-2025;
+   o ogol não tem Apertura e Clausura de 2002-2017 no menu da liga), conferidos pelo link canônico.
+6. **Fases novas:** "Metropolitano", "Provincial", "Promocional" e "Nacional" (1968-1970), "Segunda fase", "Terceira fase",
+   "Repechaje", "Fase final", "Grupo do rebaixamento". Zonas de 1984 em `grupo` ("Norte", "Sul").
+7. **`resultado_especial`:** como no `arg-1` e no `uru-1`.
