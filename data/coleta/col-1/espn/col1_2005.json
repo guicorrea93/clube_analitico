@@ -1,0 +1,9003 @@
+[
+{
+"id": "189680",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+}
+]
+},
+{
+"id": "189686",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gian Carlos Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Gómez"
+]
+}
+]
+},
+{
+"id": "189682",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Acuña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Silvera"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Fernández"
+]
+}
+]
+},
+{
+"id": "189688",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189687",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Novoa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mina Polo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Valencia"
+]
+}
+]
+},
+{
+"id": "189684",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jersson González"
+]
+}
+]
+},
+{
+"id": "189683",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernando Patiño"
+]
+}
+]
+},
+{
+"id": "189685",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Carpintero"
+]
+}
+]
+},
+{
+"id": "189681",
+"data_hora": "2005-07-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+}
+]
+},
+{
+"id": "189689",
+"data_hora": "2005-07-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Domínguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Acuña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Domínguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Habynson Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ciciliano"
+]
+}
+]
+},
+{
+"id": "189691",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Vicente Preciado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Tellez"
+]
+}
+]
+},
+{
+"id": "189696",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+}
+]
+},
+{
+"id": "189692",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín García"
+]
+}
+]
+},
+{
+"id": "189695",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bélmer Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mina Polo"
+]
+}
+]
+},
+{
+"id": "189697",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Restrepo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hermes Orejuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Darío Cardona"
+]
+}
+]
+},
+{
+"id": "189693",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Cortés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Yánez"
+]
+}
+]
+},
+{
+"id": "189694",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Velásquez"
+]
+}
+]
+},
+{
+"id": "189690",
+"data_hora": "2005-07-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Villa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Carrillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yovanny Arrechea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Darío Bustos"
+]
+}
+]
+},
+{
+"id": "189698",
+"data_hora": "2005-07-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Fernández"
+]
+}
+]
+},
+{
+"id": "189703",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189701",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Jairo Valencia"
+]
+}
+]
+},
+{
+"id": "189699",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mina Polo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Léider Preciado"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bélmer Aguilar"
+]
+}
+]
+},
+{
+"id": "189700",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189705",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Salazar Paz"
+]
+}
+]
+},
+{
+"id": "189704",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Restrepo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jackson Martínez"
+]
+}
+]
+},
+{
+"id": "189702",
+"data_hora": "2005-07-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mackenzie"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Manuel Ortega"
+]
+}
+]
+},
+{
+"id": "189706",
+"data_hora": "2005-07-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Eliecer Banguero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+}
+]
+},
+{
+"id": "189752",
+"data_hora": "2005-07-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Vera"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Bedoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Carlos Cortés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Alexander Valencia"
+]
+}
+]
+},
+{
+"id": "189707",
+"data_hora": "2005-07-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189712",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Harrison Otálvaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+}
+]
+},
+{
+"id": "189709",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Giraldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge López Caballero"
+]
+}
+]
+},
+{
+"id": "189715",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luciano Vera"
+]
+}
+]
+},
+{
+"id": "189710",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anuar Guerrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róbinson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+}
+]
+},
+{
+"id": "189713",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank Pacheco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+}
+]
+},
+{
+"id": "189711",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Ballesteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo Andrés Giraldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Guzmán"
+]
+}
+]
+},
+{
+"id": "189708",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Carpintero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Carpintero"
+]
+}
+]
+},
+{
+"id": "189714",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Hidalgo"
+]
+}
+]
+},
+{
+"id": "189721",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yovanny Arrechea"
+]
+}
+]
+},
+{
+"id": "189722",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mathias Espíndola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Barraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Quijano"
+]
+}
+]
+},
+{
+"id": "189719",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Omar Santacruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ciciliano"
+]
+}
+]
+},
+{
+"id": "189716",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Bonilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Briceño"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnulfo Valentierra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaider Arboleda"
+]
+}
+]
+},
+{
+"id": "189718",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Arregocés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Arregocés"
+]
+}
+]
+},
+{
+"id": "189724",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Pérez"
+]
+}
+]
+},
+{
+"id": "189723",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Botero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yair Arrechea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lewis Ochoa"
+]
+}
+]
+},
+{
+"id": "189717",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Léider Preciado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Fabio Moreno"
+]
+}
+]
+},
+{
+"id": "189720",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Preciado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+}
+]
+},
+{
+"id": "189725",
+"data_hora": "2005-08-06T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Pérez"
+]
+}
+]
+},
+{
+"id": "189729",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Rivas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+}
+]
+},
+{
+"id": "189726",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wílmer Saldaqa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Enrique Arzuaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Barraza"
+]
+}
+]
+},
+{
+"id": "189732",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Marino Etcheverry"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Soto"
+]
+}
+]
+},
+{
+"id": "189727",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Hurtado"
+]
+}
+]
+},
+{
+"id": "189730",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Araujo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Darío Restrepo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Járol Herrera"
+]
+}
+]
+},
+{
+"id": "189733",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harnol Palacio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Salazar Paz"
+]
+}
+]
+},
+{
+"id": "189728",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Domínguez"
+]
+}
+]
+},
+{
+"id": "189731",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mackenzie"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Yánez"
+]
+}
+]
+},
+{
+"id": "189734",
+"data_hora": "2005-08-13T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Bedoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emir González"
+]
+}
+]
+},
+{
+"id": "189740",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yovanny Arrechea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Eliecer Banguero"
+]
+}
+]
+},
+{
+"id": "189741",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Zapata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Zapata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Bustamante"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Enrique Arzuaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Arrieta"
+]
+}
+]
+},
+{
+"id": "189738",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Hidalgo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Omar Santacruz"
+]
+}
+]
+},
+{
+"id": "189737",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Humberto Agudelo"
+]
+}
+]
+},
+{
+"id": "189742",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Castrillón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Castrillón"
+]
+}
+]
+},
+{
+"id": "189736",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ciciliano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Yánez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bréiner Belalcázar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Habynson Escobar"
+]
+}
+]
+},
+{
+"id": "189735",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Felipe Casaña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Espiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Espiga"
+]
+}
+]
+},
+{
+"id": "189739",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anuar Guerrero"
+]
+}
+]
+},
+{
+"id": "189743",
+"data_hora": "2005-08-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+}
+]
+},
+{
+"id": "189751",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Chamorro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Leao Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+}
+]
+},
+{
+"id": "189748",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank Pacheco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Hernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Gómez"
+]
+}
+]
+},
+{
+"id": "189749",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Omar Santacruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Enrique Gutiérrez"
+]
+}
+]
+},
+{
+"id": "189746",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Enrique Arzuaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Darío Cardona"
+]
+}
+]
+},
+{
+"id": "189750",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hermes Orejuela"
+]
+}
+]
+},
+{
+"id": "189745",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mina Polo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mina Polo"
+]
+}
+]
+},
+{
+"id": "189747",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+}
+]
+},
+{
+"id": "189744",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Hurtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Betancourt"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubiel Quintana"
+]
+}
+]
+},
+{
+"id": "189753",
+"data_hora": "2005-08-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Nájera"
+]
+}
+]
+},
+{
+"id": "189756",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Rivas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Rivas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Galarcio"
+]
+}
+]
+},
+{
+"id": "189759",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mina Polo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+}
+]
+},
+{
+"id": "189758",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Valencia"
+]
+}
+]
+},
+{
+"id": "189755",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+}
+]
+},
+{
+"id": "189757",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Iván Vélez"
+]
+}
+]
+},
+{
+"id": "189760",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Espiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Darío Cardona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jersson González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Casierra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Sánchez"
+]
+}
+]
+},
+{
+"id": "189754",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hayder Guillermo Palacio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefrey José Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Enrique Arzuaga"
+]
+}
+]
+},
+{
+"id": "189761",
+"data_hora": "2005-09-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+}
+]
+},
+{
+"id": "189769",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Carlos Cortés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hayder Guillermo Palacio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Castrillón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Castrillón"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "92'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hayder Guillermo Palacio"
+]
+}
+]
+},
+{
+"id": "189763",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Bedoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+}
+]
+},
+{
+"id": "189767",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+}
+]
+},
+{
+"id": "189762",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Fuentes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yulian Anchico"
+]
+}
+]
+},
+{
+"id": "189766",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anuar Guerrero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Novoa"
+]
+}
+]
+},
+{
+"id": "189765",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189764",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189768",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Valencia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Preciado"
+]
+}
+]
+},
+{
+"id": "189777",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sherman Cárdenas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexánder Orrego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Mosquera"
+]
+}
+]
+},
+{
+"id": "189774",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Valdés"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Humberto Agudelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Novoa"
+]
+}
+]
+},
+{
+"id": "189770",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Acuña"
+]
+}
+]
+},
+{
+"id": "189775",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gamarra"
+]
+}
+]
+},
+{
+"id": "189778",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Carrillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Quandt"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Giovanni García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Járol Herrera"
+]
+}
+]
+},
+{
+"id": "189772",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+}
+]
+},
+{
+"id": "189776",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Espiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnatan Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gamadiel García"
+]
+}
+]
+},
+{
+"id": "189771",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Pino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Raphael Estay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Augusto Valoyes"
+]
+}
+]
+},
+{
+"id": "189773",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Hernández"
+]
+}
+]
+},
+{
+"id": "189779",
+"data_hora": "2005-09-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Pino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Castrillón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Carlos Cortés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Castillo"
+]
+}
+]
+},
+{
+"id": "189787",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Flórez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+}
+]
+},
+{
+"id": "189782",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Bedoya"
+]
+}
+]
+},
+{
+"id": "189786",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Enrique Parra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jersson González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Hidalgo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marquinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Sánchez"
+]
+}
+]
+},
+{
+"id": "189780",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Bonilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bélmer Aguilar"
+]
+}
+]
+},
+{
+"id": "189785",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Novoa"
+]
+}
+]
+},
+{
+"id": "189784",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Alejandro Benítez"
+]
+}
+]
+},
+{
+"id": "189783",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Helmer Emidio Caviche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gamadiel García"
+]
+}
+]
+},
+{
+"id": "189781",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier González"
+]
+}
+]
+},
+{
+"id": "189788",
+"data_hora": "2005-10-01T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Yánez"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harry Castillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Olveira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "92'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Suárez"
+]
+}
+]
+},
+{
+"id": "189789",
+"data_hora": "2005-10-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mayer Candelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Bonilla"
+]
+}
+]
+},
+{
+"id": "189795",
+"data_hora": "2005-10-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+}
+]
+},
+{
+"id": "189792",
+"data_hora": "2005-10-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gian Carlos Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Espiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wílmer Saldaqa"
+]
+}
+]
+},
+{
+"id": "189793",
+"data_hora": "2005-10-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189791",
+"data_hora": "2005-10-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "5",
+"gols_visitante": "3",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge López Caballero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Hernán Dinamarca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Humberto Agudelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jersson González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jersson González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Arlex Castillo"
+]
+}
+]
+},
+{
+"id": "189794",
+"data_hora": "2005-10-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Ballesteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Fernández"
+]
+}
+]
+},
+{
+"id": "189790",
+"data_hora": "2005-10-02T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Sebastian Riep"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+}
+]
+},
+{
+"id": "189796",
+"data_hora": "2005-10-02T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189805",
+"data_hora": "2005-10-16T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dubier Riascos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Castillo"
+]
+}
+]
+},
+{
+"id": "189800",
+"data_hora": "2005-10-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Andrés Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Mendoza"
+]
+}
+]
+},
+{
+"id": "189804",
+"data_hora": "2005-10-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcio Rodrigues Cruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Silvera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Jairo Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Hidalgo"
+]
+}
+]
+},
+{
+"id": "189797",
+"data_hora": "2005-10-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Bonilla"
+]
+}
+]
+},
+{
+"id": "189798",
+"data_hora": "2005-10-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Ballesteros"
+]
+}
+]
+},
+{
+"id": "189803",
+"data_hora": "2005-10-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Sebastian Riep"
+]
+}
+]
+},
+{
+"id": "189801",
+"data_hora": "2005-10-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harry Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnulfo Valentierra"
+]
+}
+]
+},
+{
+"id": "189799",
+"data_hora": "2005-10-16T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Mario Ramírez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Fuentes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Fernando Zuleta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Palacios"
+]
+}
+]
+},
+{
+"id": "189802",
+"data_hora": "2005-10-16T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Alejandro Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Olveira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Alejandro Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Arlex Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Arlex Castillo"
+]
+}
+]
+},
+{
+"id": "189807",
+"data_hora": "2005-10-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189812",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Fernando Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Villa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Enrique Parra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "91'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Enrique Gutiérrez"
+]
+}
+]
+},
+{
+"id": "189808",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189813",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Haider Guillermo Palacio"
+]
+}
+]
+},
+{
+"id": "189809",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189806",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael Espiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+}
+]
+},
+{
+"id": "189810",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Chamorro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Adolfo Davila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor David Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+}
+]
+},
+{
+"id": "189814",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Sebastian Riep"
+]
+}
+]
+},
+{
+"id": "189811",
+"data_hora": "2005-10-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Manuel Ortega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dúmar Rueda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+}
+]
+},
+{
+"id": "189821",
+"data_hora": "2005-10-23T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Yánez"
+]
+}
+]
+},
+{
+"id": "189816",
+"data_hora": "2005-10-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adelmo Vallecilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Rivas"
+]
+}
+]
+},
+{
+"id": "189823",
+"data_hora": "2005-10-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Efraín Cortés"
+]
+}
+]
+},
+{
+"id": "189815",
+"data_hora": "2005-10-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emir González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Mina Polo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Bonilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor David Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Bonilla"
+]
+}
+]
+},
+{
+"id": "189817",
+"data_hora": "2005-10-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Domínguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+}
+]
+},
+{
+"id": "189822",
+"data_hora": "2005-10-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Humberto Agudelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Humberto Agudelo"
+]
+}
+]
+},
+{
+"id": "189820",
+"data_hora": "2005-10-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnulfo Valentierra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan David Restrepo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan David Restrepo"
+]
+}
+]
+},
+{
+"id": "189818",
+"data_hora": "2005-10-23T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harry Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Fernando Zuleta"
+]
+}
+]
+},
+{
+"id": "189819",
+"data_hora": "2005-10-23T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189826",
+"data_hora": "2005-10-30T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Darío Bustos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Harrison Otálvaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Fernando Montoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gamarra"
+]
+}
+]
+},
+{
+"id": "189831",
+"data_hora": "2005-10-30T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Huila",
+"mandante_id": "5482",
+"visitante": "Atlético Bucaramanga",
+"visitante_id": "5447",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Guillermo Plazas Alcid",
+"cidade": "Neiva",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexánder Orrego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sherman Cárdenas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Rivas"
+]
+}
+]
+},
+{
+"id": "189827",
+"data_hora": "2005-10-30T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Deivis Barone"
+]
+}
+]
+},
+{
+"id": "189832",
+"data_hora": "2005-10-30T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Boyacá Chicó FC",
+"mandante_id": "5480",
+"visitante": "Envigado FC",
+"visitante_id": "5481",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "La Independencia",
+"cidade": "Tunja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Pino"
+]
+}
+]
+},
+{
+"id": "189824",
+"data_hora": "2005-10-30T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Quindío",
+"mandante_id": "5487",
+"visitante": "Deportes Tolima",
+"visitante_id": "5489",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Armenia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Perlaza"
+]
+}
+]
+},
+{
+"id": "189829",
+"data_hora": "2005-10-30T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Unión Magdalena",
+"visitante_id": "5483",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Velasco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Bogado"
+]
+}
+]
+},
+{
+"id": "189830",
+"data_hora": "2005-10-30T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Millonarios",
+"mandante_id": "5484",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Domínguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ciciliano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Carpintero"
+]
+}
+]
+},
+{
+"id": "189828",
+"data_hora": "2005-10-30T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Atlético Nacional",
+"visitante_id": "5264",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Aristizabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heriberto José Velandia"
+]
+}
+]
+},
+{
+"id": "189825",
+"data_hora": "2005-11-01T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Deportivo Pasto",
+"visitante_id": "5485",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Manuel Ortega"
+]
+}
+]
+},
+{
+"id": "189839",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Bucaramanga",
+"mandante_id": "5447",
+"visitante": "Millonarios",
+"visitante_id": "5484",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Alfonso López",
+"cidade": "Bucaramanga",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Jiménez"
+]
+}
+]
+},
+{
+"id": "189834",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Nacional",
+"mandante_id": "5264",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Cassiani"
+]
+}
+]
+},
+{
+"id": "189837",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Tolima",
+"mandante_id": "5489",
+"visitante": "Boyacá Chicó FC",
+"visitante_id": "5480",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Murillo Toro",
+"cidade": "Ibagué",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Bonilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Orley Cano"
+]
+}
+]
+},
+{
+"id": "189840",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Macea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Habynson Escobar"
+]
+}
+]
+},
+{
+"id": "189836",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pasto",
+"mandante_id": "5485",
+"visitante": "Deportes Quindío",
+"visitante_id": "5487",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio La Libertad",
+"cidade": "Pasto",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Hernán Dinamarca"
+]
+}
+]
+},
+{
+"id": "189838",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Envigado FC",
+"mandante_id": "5481",
+"visitante": "Atlético Huila",
+"visitante_id": "5482",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Polideportivo Sur",
+"cidade": "Envigado",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Ballesteros"
+]
+}
+]
+},
+{
+"id": "189835",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Fernando Montoya"
+]
+}
+]
+},
+{
+"id": "189833",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnulfo Valentierra"
+]
+}
+]
+},
+{
+"id": "189841",
+"data_hora": "2005-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Magdalena",
+"mandante_id": "5483",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Eduardo Santos",
+"cidade": "Santa Marta",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jair Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jackson Martínez"
+]
+}
+]
+},
+{
+"id": "190623",
+"data_hora": "2005-11-12T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Hernán Bermúdez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Cassiani"
+]
+}
+]
+},
+{
+"id": "190624",
+"data_hora": "2005-11-13T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Carlos Cortés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Rodríguez"
+]
+}
+]
+},
+{
+"id": "190625",
+"data_hora": "2005-11-13T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Valencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Olveira"
+]
+}
+]
+},
+{
+"id": "190622",
+"data_hora": "2005-11-13T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ciciliano"
+]
+}
+]
+},
+{
+"id": "191293",
+"data_hora": "2005-11-17T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Salazar Paz"
+]
+}
+]
+},
+{
+"id": "191292",
+"data_hora": "2005-11-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Enrique Arzuaga"
+]
+}
+]
+},
+{
+"id": "191294",
+"data_hora": "2005-11-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Galarcio"
+]
+}
+]
+},
+{
+"id": "191299",
+"data_hora": "2005-11-18T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": []
+},
+{
+"id": "191300",
+"data_hora": "2005-11-20T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Alexander Jaramillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Yánez"
+]
+}
+]
+},
+{
+"id": "191307",
+"data_hora": "2005-11-20T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+}
+]
+},
+{
+"id": "191301",
+"data_hora": "2005-11-20T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Felipe Casaña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Raphael Estay"
+]
+}
+]
+},
+{
+"id": "191302",
+"data_hora": "2005-11-20T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+}
+]
+},
+{
+"id": "191295",
+"data_hora": "2005-11-27T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Acuña"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Haider Guillermo Palacio"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Domínguez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Rivas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald De la Cruz"
+]
+}
+]
+},
+{
+"id": "191297",
+"data_hora": "2005-11-27T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Yánez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Sebastian Riep"
+]
+}
+]
+},
+{
+"id": "191298",
+"data_hora": "2005-11-27T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harnol Palacio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ervin González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamerson Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Hernández"
+]
+}
+]
+},
+{
+"id": "191296",
+"data_hora": "2005-11-27T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Hernán Bermúdez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alejandro Arango"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Ramos"
+]
+}
+]
+},
+{
+"id": "191303",
+"data_hora": "2005-12-04T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "América de Cali",
+"mandante_id": "2679",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alcides Moreno"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+}
+]
+},
+{
+"id": "191304",
+"data_hora": "2005-12-04T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Once Caldas",
+"mandante_id": "2919",
+"visitante": "Atlético Junior",
+"visitante_id": "4815",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Palogrande",
+"cidade": "Manizales",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Zapata"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnulfo Valentierra"
+]
+}
+]
+},
+{
+"id": "191309",
+"data_hora": "2005-12-04T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Medellín",
+"mandante_id": "2690",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Atanasio Girardot",
+"cidade": "Medellín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lewis Ochoa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jackson Martínez"
+]
+}
+]
+},
+{
+"id": "191308",
+"data_hora": "2005-12-04T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Santa Fe",
+"mandante_id": "5488",
+"visitante": "Deportivo Pereira",
+"visitante_id": "5486",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nemesio Camacho",
+"cidade": "Bogotá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Fernando Montoya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Largacha"
+]
+}
+]
+},
+{
+"id": "191310",
+"data_hora": "2005-12-11T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Pereira",
+"mandante_id": "5486",
+"visitante": "Independiente Medellín",
+"visitante_id": "2690",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Hernan Ramirez Villegas",
+"cidade": "Pereira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jersson González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heriberto José Velandia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Salazar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jair Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jackson Martínez"
+]
+}
+]
+},
+{
+"id": "191311",
+"data_hora": "2005-12-11T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Independiente Santa Fe",
+"visitante_id": "5488",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank Pacheco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Hernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Valencia"
+]
+}
+]
+},
+{
+"id": "191306",
+"data_hora": "2005-12-11T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Junior",
+"mandante_id": "4815",
+"visitante": "América de Cali",
+"visitante_id": "2679",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Meléndez",
+"cidade": "Barranquilla",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Enrique Arzuaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson Acuña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Quiñones"
+]
+}
+]
+},
+{
+"id": "191305",
+"data_hora": "2005-12-11T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Once Caldas",
+"visitante_id": "2919",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Domínguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+}
+]
+},
+{
+"id": "193013",
+"data_hora": "2005-12-15T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Cartagena",
+"mandante_id": "5479",
+"visitante": "Deportivo Cali",
+"visitante_id": "2672",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Olimpico Pedro de Heredia",
+"cidade": "Cartagena",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Rodallega"
+]
+}
+]
+},
+{
+"id": "193014",
+"data_hora": "2005-12-18T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cali",
+"mandante_id": "2672",
+"visitante": "Real Cartagena",
+"visitante_id": "5479",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Pascual Guerrero",
+"cidade": "Cali",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Eduardo Riveros"
+]
+}
+]
+}
+]

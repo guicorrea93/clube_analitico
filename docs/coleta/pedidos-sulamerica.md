@@ -115,3 +115,88 @@ Pacote em `data/coleta/chi-1/pacote/` e relatório em `docs/coleta/chi-1.md`. Co
 6. **Fases novas:** "Metropolitano", "Provincial", "Promocional" e "Nacional" (1968-1970), "Segunda fase", "Terceira fase",
    "Repechaje", "Fase final", "Grupo do rebaixamento". Zonas de 1984 em `grupo` ("Norte", "Sul").
 7. **`resultado_especial`:** como no `arg-1` e no `uru-1`.
+
+## Pedidos da revisão (21/11/2026): Uruguaio (`uru-1`)
+
+A revisão conferiu o pacote contra a Wikipédia (es e en), a RSSSF e a ESPN. Os achados estão em `docs/revisao/achados.csv`
+(prefixo UY, `quem_corrige` = `coleta-sulamerica`) e as provas em `docs/revisao/uru-1.md`.
+
+1. **Classificação final de 1994 a 2025 (alta):** UY-006. Em 28 edições, a classificação é só a tabela do Apertura, com o campeão
+   puxado para o 1º lugar. Exemplos: em 2025 o Peñarol, finalista, aparece em 4º; em 2023 o Racing aparece em 14º e foi 6º na
+   tabela anual. Por isso o vice está errado em 14 edições (UY-004) e o 3º em 19 (UY-005).
+2. **1948 (média):** UY-003. A edição não tem campeão, mas tem o Peñarol como vice.
+3. **Jogos e datas (média):**
+   - UY-013: 8 jogos da Supercopa AUF (2018 a 2025) entraram como "Final" do campeonato;
+   - UY-014: as decisões herdam a data do jogo anterior (a final de 2025 aparece em 16/11, mas foi jogada em 23/11 e 30/11);
+   - UY-015: em 2020, o Apertura e o Intermedio estão em 2021;
+   - UY-010: o W.O. de 1908 foi dado ao Intrépido;
+   - UY-011 (1951) e UY-016 (31 placares).
+4. **Vices e tabelas antigas:** UY-007 (1954, aguarda decisão), UY-008 (1947) e UY-012.
+5. **Artilheiros:** UY-017 (de 2013/14 a 2025 vêm só dos gols com autor), UY-018 e UY-019.
+6. **Aguardam decisão do Guilherme:**
+   - UY-001: 1923 FUF, 1924 FUF e 1926 contam como título? A AUF não os reconhece;
+   - UY-020: o "Atlético Wanderers" da FUF é o Montevideo Wanderers? A mesma pergunta vale para Lito e Charley;
+   - UY-007: o vice de 1954.
+7. **Nome:** UY-023, um nome de clube com texto de jogador grudado ("Peñarol (59' Juan Martín Parodi...").
+
+Quando corrigir, cite os ids aqui. A revisão confere de novo.
+
+## Pedidos da revisão (21/11/2026): Argentino (`arg-1`)
+
+A revisão conferiu o pacote contra a Wikipédia (es e en). Os achados estão em `docs/revisao/achados.csv` (prefixo AR,
+`quem_corrige` = `coleta-sulamerica`) e as provas em `docs/revisao/arg-1.md`.
+
+1. **Campeão errado no painel (alta):** AR-001. Em 1913 Federación, os jogos do Estudiantes de La Plata estão gravados como
+   Estudiantes de Buenos Aires. O clube errado sai campeão, o cartão diz "29 campeões" (são 28) e o Estudiantes de La Plata fica
+   com 6 títulos (são 7).
+2. **Vice errado em 12 edições (alta):** AR-002 a AR-013. Casos:
+   - 1976 Nacional: aparece o Talleres; foi o River, que jogou a final;
+   - 1987/88: San Lorenzo, não Racing;
+   - 1989/90: Independiente, não Rosario Central (faltam punições);
+   - 2008/09 Apertura: Tigre, não San Lorenzo;
+   - amadorismo, em tabelas calculadas sem os W.O., com jogos anulados ou faltando: 1895, 1896, 1912, 1913 Federación, 1919 (as
+     duas ligas) e 1926 (as duas). O 1926 Amateurs tem só 43 dos 325 jogos.
+3. **Classificação e jogos (alta e média):**
+   - AR-016: em 1949 há um jogo "Gimnasia La Plata 1-0 Gimnasia La Plata";
+   - AR-014 e AR-018: jogos que faltam (1997/98 Apertura; 2016/17, onde há 446 de 450);
+   - AR-015, AR-017 (1988/89 com 3 pontos por vitória), AR-019, AR-020 e AR-021 (rebaixados que faltam).
+4. **Datas (média):**
+   - AR-022: cerca de 3.920 jogos de 26 edições estão com o ano errado. O 2018/19 vai de 10/08/2019 a 10/12/2020, mas foi
+     jogado de agosto de 2018 a abril de 2019; o 1931 Liga cai em 1932; metade de 1937 cai em 1939. A lista está em
+     `revisao/AR/datas_ano_lista.txt`;
+   - AR-023: data copiada de outro jogo, com ida e volta no mesmo dia;
+   - AR-024: datas que não existem (2005-09-31 e 2021-02-29).
+5. **Fases (média):** AR-025 ("Desempate do título" errado) e AR-026 ("Final" com jogos de outra disputa).
+6. **Artilheiros:** AR-027 a AR-030.
+7. **Clubes:** AR-031 (Atlético Cipolletti duplicado com o Cipolletti) e AR-034 (nomes colados no `nomes_fonte`).
+8. **Aguardam decisão do Guilherme:**
+   - AR-044: o título de 1891 (só o Saint Andrew's ou dividido com o Old Caledonians);
+   - AR-043: o Apertura 2026;
+   - AR-032: o Quilmes de 1893 a 1895;
+   - AR-033: as fusões de 1934;
+   - a Copa de Oro de 1936.
+
+Quando corrigir, cite os ids aqui. A revisão confere de novo.
+
+## 21/11/2026 — Campeonato Colombiano, 1ª divisão (`col-1`)
+
+Pacote em `data/coleta/col-1/pacote/` e relatório em `docs/coleta/col-1.md`. Commit ainda não feito: aguarda o ok do Guilherme.
+
+1. **Conteúdo:** 101 edições (1948 a 2025): anuais até 2001 ("1995/96" e "1996/97" no calendário europeu; "1989" sem
+   campeão, fase final suspensa), depois "2002 Apertura" e "2002 Finalización" até "2025 Finalización" (em 2020 só o
+   Apertura). 22.788 jogos, 42 clubes. Até 2001 o Apertura, o Finalización, os quadrangulares e os hexagonais/octogonais
+   finais são fases da edição anual.
+2. **6 edições sem jogos** (1987, 1991-1995), como no `uru-1`: só `edicoes.csv`, `classificacao_final.csv` e
+   `tabelas_publicadas.csv`.
+3. **Fontes:** RSSSF (1995/96 em diante, menos 2011, 2012 e 2025); Wikipédia em espanhol (1948-1986, 1988-1990, 2011, 2012
+   e 2025: `fonte` "Wikipédia (es)", `fonte_id` "wikipedia:es_<chave>:<linha>"); ESPN (gols com minuto e cartões, 2005 em
+   diante).
+4. **País:** `pais` "COL" e `pais_nome` "Colômbia" no `competicao.json`; todos os clubes são `COL`.
+5. **Nomes:** nenhuma colisão. Homônimos levam a cidade: "Libertad de Barranquilla", "Universidad Nacional de Bogotá",
+   "Boca Juniors de Cali", "Huracán de Medellín". Deportes Caldas (campeão de 1950) entra como "Once Caldas", como a RSSSF;
+   Atlético Municipal = "Atlético Nacional"; Cristal Caldas = "Once Caldas"; Itagüí = "Águilas Doradas"; La Equidad =
+   "Internacional de Bogotá"; Alianza Petrolera = "Alianza FC".
+6. **Escudos:** o ogol tem as edições colombianas vazias (sem calendário de jogos): não há páginas de calendário para os
+   escudos. A ESPN (`data/cache/espn-sulamerica/col.1/`) traz os ids dos clubes de 2005 em diante.
+7. **Fases novas:** "Quadrangulares semifinais" (grupos A e B), "Quadrangular final", "Hexagonal final", "Octogonal final",
+   "Pentagonais", "Triangulares", "Finalísima", "Copa Mustang I/II", "Torneo Mustang I/II", "Copa de la Paz", "Torneo Nacional".
