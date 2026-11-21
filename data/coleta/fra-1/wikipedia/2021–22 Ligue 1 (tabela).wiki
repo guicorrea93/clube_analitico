@@ -1,0 +1,91 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.ligue1.com/ranking?seasonId=2021-2022&matchDay=38 Ligue 1]
+
+<!--Update team positions here-->
+|team_order=PSG, OM, ASM, REN, NIC, STR, LEN, OL, FCN, LIL, BRE, SDR, MON, ANG, TRO, LOR, CLE, STE, MET, BOR
+
+<!--Update team qualifications here (defined below) -->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=ECLPO |result9=ELGScup |result18=RPO |result19=RELN1 |result20=RELN1
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ANG=10|draw_ANG=11|loss_ANG=17|gf_ANG=44|ga_ANG=55<!--Angers-->
+|win_BOR=6 |draw_BOR=13|loss_BOR=19|gf_BOR=52|ga_BOR=91<!--Bordeaux-->
+|win_BRE=13|draw_BRE=9 |loss_BRE=16|gf_BRE=49|ga_BRE=57<!--Brest-->
+|win_CLE=9 |draw_CLE=9 |loss_CLE=20|gf_CLE=38|ga_CLE=69<!--Clermont-->
+|win_LEN=17|draw_LEN=11|loss_LEN=10|gf_LEN=62|ga_LEN=48<!--Lens-->
+|win_LIL=14|draw_LIL=13|loss_LIL=11|gf_LIL=48|ga_LIL=48<!--Lille--> 
+|win_LOR=8 |draw_LOR=12|loss_LOR=18|gf_LOR=35|ga_LOR=63<!--Lorient-->
+|win_OL=17 |draw_OL=11 |loss_OL=10 |gf_OL=66 |ga_OL=51 <!--Lyon-->
+|win_OM=21 |draw_OM=8  |loss_OM=9  |gf_OM=63 |ga_OM=38 <!--Marseille-->
+|win_MET=6 |draw_MET=13|loss_MET=19|gf_MET=35|ga_MET=69<!--Metz-->
+|win_ASM=20|draw_ASM=9 |loss_ASM=9 |gf_ASM=65|ga_ASM=40<!--Monaco-->
+|win_MON=12|draw_MON=7 |loss_MON=19|gf_MON=49|ga_MON=61<!--Montpellier-->
+|win_FCN=15|draw_FCN=10|loss_FCN=13|gf_FCN=55|ga_FCN=48<!--Nantes-->
+|win_NIC=20|draw_NIC=7 |loss_NIC=11|gf_NIC=52|ga_NIC=36<!--Nice-->
+|win_PSG=26|draw_PSG=8 |loss_PSG=4 |gf_PSG=90|ga_PSG=36<!--Paris Saint-Germain-->
+|win_SDR=11|draw_SDR=13|loss_SDR=14|gf_SDR=43|ga_SDR=44<!--Reims-->
+|win_REN=20|draw_REN=6 |loss_REN=12|gf_REN=82|ga_REN=40<!--Rennes-->
+|win_STE=7 |draw_STE=11|loss_STE=20|gf_STE=42|ga_STE=77<!--Saint-Étienne-->
+|win_STR=17|draw_STR=12|loss_STR=9 |gf_STR=60|ga_STR=43<!--Strasbourg-->
+|win_TRO=9 |draw_TRO=11|loss_TRO=18|gf_TRO=37|ga_TRO=53<!--Troyes-->
+
+<!-- Status -->
+|status_PSG=C
+|status_STE=R
+|status_MET=R
+|status_BOR=R
+
+<!--Points deductions-->
+|adjust_points_NIC=-1
+|adjust_points_OL=-1
+
+|hth_NIC=Nice were deducted one point for uncontrolled crowd trouble that caused the abandonment of their match against Marseille.<ref>{{cite news|url=https://www.ligue1.com/Articles/NEWS/2021/09/09/discipline-nice-om-to-be-replayed|title=Discipline: Nice-OM to be replayed|date=9 September 2021|access-date=9 September 2021|website=Ligue1.com}}</ref>
+|hth_OL=Lyon were deducted one point for uncontrolled crowd trouble that caused the abandonment of their match against Marseille.<ref>{{cite news|url=https://www.bbc.com/sport/football/59587822|title=Lyon deducted point for crowd trouble against Marseille & Dimitri Payet|date=8 December 2021|access-date=8 December 2021|publisher=BBC Sport}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|note_res_ELGScup = Nantes qualified for the Europa League group stage as the [[2021–22 Coupe de France]] winners.
+|note_res_RELN1 = Bordeaux were initially relegated to Ligue 2. However, on 14 June it was decided by the DNCG to relegate Bordeaux administratively to the [[Championnat National]] for financial issues.<ref>{{cite web |last1=Lemaître |first1=Clément |title=Bordeaux rétrogradé en National : La DNCG a officialisé sa décision ce mardi 14 juin 2022 |url=https://www.eurosport.fr/football/ligue-2/2021-2022/bordeaux-la-dncg-prononce-la-retrogradation-administrative-des-girondins-en-national_sto8992354/story.shtml |website=[[Eurosport]] |access-date=14 June 2022 |language=fr |date=14 June 2022 }}</ref> On 27 July 2022, Bordeaux won its appeal and was officially maintained in Ligue 2 for the 2022–23 season.<ref>{{cite web |url=https://www.girondins.com/fr/news/34672/le-club-maintenu-en-l2-la-fff-accepte-la-conciliation-du-cnosf |title=Le Club maintenu en L2 : la FFF accepte la conciliation du CNOSF |publisher=FC Girondins de Bordeaux |language=fr |date=27 July 2022 |access-date=27 July 2022}}</ref><ref>{{cite web |url=https://www.lequipe.fr/Football/Actualites/La-fff-donne-son-accord-pour-le-maintien-de-bordeaux-en-ligue-2/1345582 |title=La FFF donne son accord pour le maintien de Bordeaux en Ligue 2 |publisher=L'Équipe |language=fr |date=27 July 2022 |access-date=27 July 2022}}</ref>
+
+<!--Team definitions (wikilinks in table)-->
+|name_ANG=[[Angers SCO|Angers]]
+|name_BOR=[[FC Girondins de Bordeaux|Bordeaux]]
+|name_BRE=[[Stade Brestois 29|Brest]]
+|name_CLE=[[Clermont Foot 63|Clermont]]
+|name_LEN=[[RC Lens|Lens]]
+|name_LIL=[[Lille OSC|Lille]]
+|name_LOR=[[FC Lorient|Lorient]]
+|name_OL=[[Olympique Lyonnais|Lyon]]
+|name_OM=[[Olympique de Marseille|Marseille]]
+|name_MET=[[FC Metz|Metz]]
+|name_ASM=[[AS Monaco FC|Monaco]]
+|name_MON=[[Montpellier HSC|Montpellier]]
+|name_FCN=[[FC Nantes|Nantes]]
+|name_NIC=[[OGC Nice|Nice]]
+|name_PSG=[[Paris Saint-Germain FC|Paris Saint-Germain]]
+|name_SDR=[[Stade de Reims|Reims]]
+|name_REN=[[Stade Rennais FC|Rennes]]
+|name_STE=[[AS Saint-Étienne|Saint-Étienne]]
+|name_STR=[[RC Strasbourg Alsace|Strasbourg]]
+|name_TRO=[[ES Troyes AC|Troyes]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Goal difference; 3) Head-to-head points; 4) Head-to-head goal difference; 5) Head-to-head goals scored; 6) Head-to-head away goals scored; 7) Goals scored; 8) Away goals scored; 9) Fair-play points (Note: Head-to-head record is used only after all the matches between the teams in question have been played).<ref>{{cite web|url=https://www.lfp.fr/-/media/Project/LFP/LFP/Documents/R%C3%A8glements/21_22_Reglement_Championnats_France_06_05.pdf?la=fr-FR&hash=3E6D34F4417090D990DB4C6F8F5F1033|title=League Rules|website=www.lfp.fr|access-date=22 May 2022}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2022–23 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2   |text_CL3Q=Qualification for the [[2022–23 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGScup=blue1   |text_ELGScup=Qualification for the [[2022–23 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ELGS=blue1   |text_ELGS=Qualification for the [[2022–23 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|Qualification for the [[2022–23 UEFA Europa Conference League#Play-off round|Europa Conference League play-off round]]}}
+|col_RPO=red2      |text_RPO=Qualification for the [[2021–22 Ligue 1#Relegation play-offs|relegation play-offs]]
+|col_RELN1=red1    |text_RELN1=Relegation to [[2022–23 Ligue 2|Ligue 2]]
+}}<noinclude>
+{{Template reference list}}
+[[Category:2021–22 association football standings in Europe templates|France]]
+[[Category:France football standings templates]]
+[[Category:2021–22 in French men's football leagues|Template]]
+</noinclude>

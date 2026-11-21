@@ -1,0 +1,84 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.ligue1.com/ranking?seasonId=2016-2017&matchDay=38 Ligue 1], [https://www.soccerway.com/france/ligue-1-2016-2017/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=ASM |team2=PSG |team3=NIC |team4=OL |team5=OM |team6=BOR |team7=FCN |team8=STE |team9=REN |team10=GUI |team11=LIL |team12=ANG |team13=TFC |team14=MET |team15=MON |team16=DIJ |team17=CAE |team18=LOR |team19=NAN |team20=BAS
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=EL3Q |result6=EL3Q |result18=RPO|result19=REL |result20=REN
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter on the line immediately below this one.)-->
+|update=complete
+|win_ANG=13|draw_ANG=7 |loss_ANG=18|gf_ANG=40|ga_ANG=49<!-- Angers -->
+|win_BAS=8 |draw_BAS=10|loss_BAS=20|gf_BAS=29|ga_BAS=54<!-- Bastia -->
+|win_BOR=15|draw_BOR=14|loss_BOR=9 |gf_BOR=53|ga_BOR=43<!-- Bordeaux -->
+|win_CAE=10|draw_CAE=7 |loss_CAE=21|gf_CAE=36|ga_CAE=65<!-- Caen -->
+|win_DIJ=8 |draw_DIJ=13|loss_DIJ=17|gf_DIJ=46|ga_DIJ=58<!-- Dijon -->
+|win_GUI=14|draw_GUI=8 |loss_GUI=16|gf_GUI=46|ga_GUI=53<!-- Guingamp -->
+|win_LIL=13|draw_LIL=7 |loss_LIL=18|gf_LIL=40|ga_LIL=47<!-- Lille -->
+|win_LOR=10|draw_LOR=6 |loss_LOR=22|gf_LOR=44|ga_LOR=70<!-- Lorient -->
+|win_OL =21|draw_OL =4 |loss_OL =13|gf_OL =77|ga_OL =48<!-- Lyon -->
+|win_OM =17|draw_OM =11|loss_OM =10|gf_OM =57|ga_OM =41<!-- Marseille -->
+|win_MET=11|draw_MET=10|loss_MET=17|gf_MET=39|ga_MET=72<!-- Metz -->
+|win_ASM=30|draw_ASM=5 |loss_ASM=3 |gf_ASM=107|ga_ASM=31<!-- Monaco -->
+|win_MON=10|draw_MON=9 |loss_MON=19|gf_MON=48|ga_MON=66<!-- Montpellier -->
+|win_NAN=9 |draw_NAN=8 |loss_NAN=21|gf_NAN=29|ga_NAN=52<!-- Nancy -->
+|win_FCN=14|draw_FCN=9 |loss_FCN=15|gf_FCN=40|ga_FCN=54<!-- Nantes -->
+|win_NIC=22|draw_NIC=12|loss_NIC=4 |gf_NIC=63|ga_NIC=36<!-- Nice -->
+|win_PSG=27|draw_PSG=6 |loss_PSG=5 |gf_PSG=83|ga_PSG=27<!-- Paris Saint-Germain -->
+|win_REN=12|draw_REN=14|loss_REN=12|gf_REN=36|ga_REN=42<!-- Rennes -->
+|win_STE=12|draw_STE=14|loss_STE=12|gf_STE=41|ga_STE=42<!-- Saint-Étienne -->
+|win_TFC=10|draw_TFC=14|loss_TFC=14|gf_TFC=37|ga_TFC=41<!-- Toulouse -->
+ 
+<!--Team definitions (wikilinks in table)-->
+|name_ANG=[[Angers SCO|Angers]]
+|name_BAS=[[SC Bastia|Bastia]]
+|name_BOR=[[FC Girondins de Bordeaux|Bordeaux]]
+|name_CAE=[[Stade Malherbe Caen|Caen]]
+|name_DIJ=[[Dijon FCO|Dijon]]
+|name_GUI=[[En Avant Guingamp|Guingamp]]
+|name_LIL=[[Lille OSC|Lille]]
+|name_LOR=[[FC Lorient|Lorient]]
+|name_OL =[[Olympique Lyonnais|Lyon]]
+|name_OM =[[Olympique de Marseille|Marseille]]
+|name_MET=[[FC Metz|Metz]]
+|name_ASM=[[AS Monaco FC|Monaco]]
+|name_MON=[[Montpellier HSC|Montpellier]]
+|name_NAN=[[AS Nancy Lorraine|Nancy]]
+|name_FCN=[[FC Nantes|Nantes]]
+|name_NIC=[[OGC Nice|Nice]]
+|name_PSG=[[Paris Saint-Germain FC|Paris Saint-Germain]]
+|name_REN=[[Stade Rennais FC|Rennes]]
+|name_STE=[[AS Saint-Étienne|Saint-Étienne]]
+|name_TFC=[[Toulouse FC|Toulouse]]
+
+<!--Status-->
+|status_ASM=C
+|status_LOR=R
+|status_NAN=R
+|status_BAS=DR
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Head-to-head goal difference; 5) Fairplay ranking.<ref>{{cite web|url=http://www.ligue1.com/ligue1/classement?cat=Gen|title=League Table|publisher=Ligue1.com|access-date=12 August 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2017–18 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2017–18 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2017–18 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2017–18 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_RPO =red2   |text_RPO=Qualification for the [[2016–17 Ligue 1#Relegation play-offs|relegation play-offs]]
+|col_REL =red1   |text_REL =Relegation to [[2017–18 Ligue 2|Ligue 2]]
+|col_REN =red1   |text_REN =Relegation to [[2017–18 Championnat National 3|National 3]]
+
+|note_res_ELGS=Since the winners of the [[2016–17 Coupe de France]] and the [[2016–17 Coupe de la Ligue]], [[Paris Saint-Germain FC|Paris Saint-Germain]], qualified for European competition based on league position, the spot awarded to the Coupe de France winners ([[2017–18 UEFA Europa League#Group stage|Europa League group stage]]) was passed to the fourth-placed team and the spot awarded to the Coupe de la Ligue winners ([[2017–18 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]) was passed to the sixth-placed team. The fifth-placed team received the spot in Europa League third qualifying round originally designated to the fourth-placed team. |note_res_EL3Q=ELGS
+
+|note_res_REN=After being relegated to Ligue 2, Bastia was initially further relegated to National due to financial difficulties.<ref>{{cite web|url=http://sport24.lefigaro.fr/football/ligue-2/actualites/fin-d-un-long-feuilleton-bastia-en-national-1-et-le-paris-fc-repeche-en-l2-869704|title=FIN D'UN LONG FEUILLETON, BASTIA EN NATIONAL 1 ET LE PARIS FC REPÊCHÉ EN L2|language=French}}</ref> On 10 August 2017, the FFF announced that Bastia was denied entry to National. The club therefore took the place of its reserve team in Championnat National 3.<ref>{{cite web|url=http://www.eurosport.fr/football/ligue-2/2017-2018/le-groupe-de-repreneurs-jette-l-eponge-bastia-evoluera-en-national-3_sto6283958/story.shtml|title=Le groupe de repreneurs jette l'éponge, Bastia évoluera en National 3|publisher=eurosport.fr|language=fr|date=10 August 2017}}</ref>
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:France football standings templates]]
+</noinclude>

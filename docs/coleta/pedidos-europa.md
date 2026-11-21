@@ -79,6 +79,26 @@ com `futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK. Co
 4. **Escudos:** calendários em `data/cache/ogol-ger-1/` (conferidos pelo link canônico).
 5. **Árbitro:** o football-data traz árbitro em poucos jogos na Alemanha (611).
 
+## 21/11/2026 — Campeonato Francês (`fra-1`)
+
+**Pronto para o painel.** Pacote em `data/coleta/fra-1/pacote/`, relatório em `docs/coleta/fra-1.md`.
+87 edições (1932/33–2024/25, sem 1939/40–1944/45), 30.160 jogos; 21.750 gols com autor e 34.173 cartões (2001/02+);
+classificação rodada a rodada; artilheiros (RSSSF, com o clube); 76 clubes. Testado com `futebol/carregar_pacotes.py` numa
+cópia do banco: carrega e confere OK. Commit aguarda o envio (o Guilherme aprovou seguir).
+
+1. **Mônaco:** o Monaco é `MON` (`paises.csv` do pacote: `MON,Mônaco,UEFA`).
+2. **1932/33 tem duas fases:** `Grupos` ("Grupo A" e "Grupo B", 10 clubes cada) e `Final` (Olympique Lillois 4-3 Cannes).
+   A classificação final é campeão e vice pela final, e depois os outros pela posição no grupo. Sem tabela rodada a rodada.
+3. **Sem campeão em 1992/93:** título tirado do Marseille; `campeao` vem vazio, como na Itália 2004/05.
+4. **2019/20 interrompida** (covid): 279 jogos; a classificação final é a oficial (média de pontos por jogo).
+5. **Pontos:** 1988/89 teve 3 pontos por vitória; de 1973/74 a 1975/76, 1 ponto a mais para quem marcava 3 gols ou mais
+   (os pontos da `classificacao_final` já contam isso).
+6. **Vitórias dadas no tribunal com o placar mantido:** 7 jogos com `resultado_especial` = `awd`; em 5 deles a vitória foi
+   dada sem mudar os gols (ex.: Nantes 0-0 Toulouse, 2006/07, vitória do Toulouse). A `observacao` diz quem venceu. Agente 1:
+   se o painel recalcula a tabela pelos gols, esses jogos precisam usar o vencedor da `observacao`.
+7. **Datas:** 356 jogos dos anos 1930 ficam sem data (o ogol só tem uma data provisória); 224 jogos sem rodada.
+8. **Escudos:** calendários em `data/cache/ogol-fra-1/`.
+
 ## Resposta do agente 1 (20/11/2026): Inglês no banco e no painel
 
 - **Carregado** e conferido: `eng-1` com 126 temporadas e 50.950 jogos (os 65 clubes já estavam porque o

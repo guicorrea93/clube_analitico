@@ -1,0 +1,84 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[https://www.ligue1.com/ranking?seasonId=2020-2021&matchDay=38 Ligue 1]
+
+<!--Update team positions here-->
+|team_order=LIL, PSG, ASM, OL, OM, REN, LEN, MON, NIC, MET, STE, BOR, ANG, SDR, STR, LOR, BRE, FCN, NIM, DIJ
+
+<!--Status-->
+|status_LIL=C
+|status_FCN=O
+|status_NIM=R
+|status_DIJ=R
+|status_text_X=Assured of at least Europa League, but may still qualify for Champions League
+|status_text_Y=Assured of at least Europa Conference League, but may still qualify for Europa League
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=ELGS |result6=ECLPR|result18=RPO |result19=REL |result20=REL 
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|win_ANG=12|draw_ANG=8 |loss_ANG=18|gf_ANG=40|ga_ANG=58<!-- Angers --> 
+|win_BOR=13|draw_BOR=6 |loss_BOR=19|gf_BOR=42|ga_BOR=56<!-- Bordeaux --> 
+|win_BRE=11|draw_BRE=8 |loss_BRE=19|gf_BRE=50|ga_BRE=66<!-- Brest --> 
+|win_DIJ=4 |draw_DIJ=9 |loss_DIJ=25|gf_DIJ=25|ga_DIJ=73<!-- Dijon --> 
+|win_LEN=15|draw_LEN=12|loss_LEN=11|gf_LEN=55|ga_LEN=54<!-- Lens -->
+|win_LIL=24|draw_LIL=11|loss_LIL=3 |gf_LIL=64|ga_LIL=23<!-- Lille --> 
+|win_LOR=11|draw_LOR=9 |loss_LOR=18|gf_LOR=50|ga_LOR=68<!-- Lorient -->
+|win_OL=22 |draw_OL=10 |loss_OL=6  |gf_OL=81 |ga_OL=43 <!-- Lyon --> 
+|win_OM=16 |draw_OM=12 |loss_OM=10 |gf_OM=54 |ga_OM=47 <!-- Marseille -->
+|win_MET=12|draw_MET=11|loss_MET=15|gf_MET=44|ga_MET=48<!-- Metz --> 
+|win_ASM=24|draw_ASM=6 |loss_ASM=8 |gf_ASM=76|ga_ASM=42<!-- Monaco --> 
+|win_MON=14|draw_MON=12|loss_MON=12|gf_MON=60|ga_MON=62<!-- Montpellier --> 
+|win_FCN=9 |draw_FCN=13|loss_FCN=16|gf_FCN=47|ga_FCN=55<!-- Nantes --> 
+|win_NIC=15|draw_NIC=7 |loss_NIC=16|gf_NIC=50|ga_NIC=53<!-- Nice -->
+|win_NIM=9 |draw_NIM=8 |loss_NIM=21|gf_NIM=40|ga_NIM=71<!-- Nîmes --> 
+|win_PSG=26|draw_PSG=4 |loss_PSG=8 |gf_PSG=86|ga_PSG=28<!-- PSG --> 
+|win_SDR=9 |draw_SDR=15|loss_SDR=14|gf_SDR=42|ga_SDR=50<!-- Reims --> 
+|win_REN=16|draw_REN=10|loss_REN=12|gf_REN=52|ga_REN=40<!-- Rennes --> 
+|win_STE=12|draw_STE=10|loss_STE=16|gf_STE=42|ga_STE=54<!-- Saint_Etienne --> 
+|win_STR=11|draw_STR=9 |loss_STR=18|gf_STR=49|ga_STR=58<!-- Strasbourg --> 
+
+<!--Team definitions (wikilinks in table)-->
+|name_ANG = [[Angers SCO|Angers]]
+|name_BOR = [[FC Girondins de Bordeaux|Bordeaux]]
+|name_BRE = [[Stade Brestois 29|Brest]]
+|name_DIJ = [[Dijon FCO|Dijon]]
+|name_LEN = [[RC Lens|Lens]]
+|name_LIL = [[Lille OSC|Lille]]
+|name_LOR = [[FC Lorient|Lorient]]
+|name_OL  = [[Olympique Lyonnais|Lyon]]
+|name_OM  = [[Olympique de Marseille|Marseille]]
+|name_MET = [[FC Metz|Metz]]
+|name_ASM = [[AS Monaco FC|Monaco]]
+|name_MON = [[Montpellier HSC|Montpellier]]
+|name_FCN = [[FC Nantes|Nantes]]
+|name_NIC = [[OGC Nice|Nice]]
+|name_NIM = [[Nîmes Olympique|Nîmes]]
+|name_PSG = [[Paris Saint-Germain FC|Paris Saint-Germain]]
+|name_SDR = [[Stade de Reims|Reims]]
+|name_REN = [[Stade Rennais FC|Rennes]]
+|name_STE = [[AS Saint-Étienne|Saint-Étienne]]
+|name_STR = [[RC Strasbourg Alsace|Strasbourg]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Head-to-head goal difference; 5) Fairplay ranking.<ref>{{cite web|url=http://www.ligue1.com/ligue1/classement?cat=Gen|title=League Table|publisher=Ligue1.com|access-date=12 August 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1  |text_CLGS=Qualification for the [[2021–22 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2  |text_CL3Q=Qualification for the [[2021–22 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1   |text_ELGS=Qualification for the [[2021–22 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECLPR=yellow1|text_ECLPR={{nowrap|Qualification for the [[2021–22 UEFA Europa Conference League#Play-off round|Europa Conference League play-off round]]}}
+|col_RPO=red2    |text_RPO=Qualification for the [[2020–21 Ligue 1#Relegation play-offs|Relegation play-offs]]
+|col_REL=red1|text_REL=Relegation to the [[2021–22 Ligue 2|Ligue 2]]
+|note_res_ELGS=Since the [[2021 Coupe de France Final|winners]] of the [[2020–21 Coupe de France]], Paris Saint-Germain, qualified for European competition based on league position, the Europa League group stage spot reserved for the cup winners was passed to the fifth-placed team, and the Europa Conference League play-off round spot was passed to the sixth-placed team.
+|note_res_ECLPR=ELGS
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2020–21 association football standings in Europe templates|France]]
+[[Category:France football standings templates]]
+[[Category:2020–21 in French men's football leagues|Template]]
+</noinclude>

@@ -1,0 +1,85 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[https://www.ligue1.com/ranking?seasonId=2018-2019&matchDay=38 Ligue 1] and [https://www.soccerway.com/france/ligue-1-2018-2019/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=PSG |team2=LIL |team3=OL |team4=STE |team5=OM |team6=MON |team7=NIC |team8=SDR |team9=NIM |team10=REN |team11=STR |team12=FCN |team13=ANG |team14=BOR |team15=AMI |team16=TFC |team17=ASM |team18=DIJ |team19=CAE |team20=GUI 
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=ELGS |result10=ELGScup|result11=EL2Q |result18=RPO |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|win_AMI=9 |draw_AMI=11|loss_AMI=18|gf_AMI=31|ga_AMI=52<!-- Amiens -->
+|win_ANG=10|draw_ANG=16|loss_ANG=12|gf_ANG=44|ga_ANG=49<!-- Angers -->
+|win_BOR=10|draw_BOR=11|loss_BOR=17|gf_BOR=34|ga_BOR=42<!-- Bordeaux -->
+|win_CAE=7 |draw_CAE=12|loss_CAE=19|gf_CAE=29|ga_CAE=54<!-- Caen -->
+|win_DIJ=9 |draw_DIJ=7 |loss_DIJ=22|gf_DIJ=31|ga_DIJ=60<!-- Dijon -->
+|win_GUI=5 |draw_GUI=12|loss_GUI=21|gf_GUI=28|ga_GUI=68<!-- Guingamp -->
+|win_LIL=22|draw_LIL=9 |loss_LIL=7 |gf_LIL=68|ga_LIL=33<!-- Lille -->
+|win_OL=21 |draw_OL=9  |loss_OL=8  |gf_OL=70 |ga_OL=47 <!-- Lyon -->
+|win_OM=18 |draw_OM=7  |loss_OM=13 |gf_OM=60 |ga_OM=52 <!-- Marseille -->
+|win_ASM=8 |draw_ASM=12|loss_ASM=18|gf_ASM=38|ga_ASM=57<!-- Monaco -->
+|win_MON=15|draw_MON=14|loss_MON=9 |gf_MON=53|ga_MON=42<!-- Montpellier -->
+|win_FCN=13|draw_FCN=9 |loss_FCN=16|gf_FCN=48|ga_FCN=48<!-- Nantes -->
+|win_NIC=15|draw_NIC=11|loss_NIC=12|gf_NIC=30|ga_NIC=35<!-- Nice -->
+|win_NIM=15|draw_NIM=8 |loss_NIM=15|gf_NIM=57|ga_NIM=58<!-- Nîmes -->
+|win_PSG=29|draw_PSG=4 |loss_PSG=5 |gf_PSG=105|ga_PSG=35<!-- Paris Saint-Germain -->
+|win_SDR=13|draw_SDR=16|loss_SDR=9 |gf_SDR=39|ga_SDR=42<!-- Reims -->
+|win_REN=13|draw_REN=13|loss_REN=12|gf_REN=55|ga_REN=52<!-- Rennes -->
+|win_STE=19|draw_STE=9|loss_STE=10 |gf_STE=59|ga_STE=41<!-- Saint-Étienne -->
+|win_STR=11|draw_STR=16|loss_STR=11 |gf_STR=58|ga_STR=48<!-- Strasbourg -->
+|win_TFC=8 |draw_TFC=14|loss_TFC=16|gf_TFC=35|ga_TFC=57<!-- Toulouse -->
+
+<!--Status-->
+|status_PSG=C
+|status_DIJ=O
+|status_CAE=R
+|status_GUI=R
+|status_text_X=Assured of at least Europa League, but may still qualify for Champions League
+|status_text_T=Qualified, but not yet to the particular phase indicated
+|status_text_Y=May at best reach relegation play-offs
+<!--Team definitions (wikilinks in table)-->
+|name_AMI = [[Amiens SC|Amiens]]
+|name_BOR = [[FC Girondins de Bordeaux|Bordeaux]]
+|name_CAE = [[Stade Malherbe Caen|Caen]]
+|name_DIJ = [[Dijon FCO|Dijon]]
+|name_GUI = [[En Avant Guingamp|Guingamp]]
+|name_OL  = [[Olympique Lyonnais|Lyon]]
+|name_OM  = [[Olympique de Marseille|Marseille]]
+|name_ASM = [[AS Monaco FC|Monaco]]
+|name_MON = [[Montpellier HSC|Montpellier]]
+|name_FCN = [[FC Nantes|Nantes]]
+|name_NIC = [[OGC Nice|Nice]]
+|name_NIM = [[Nîmes Olympique|Nîmes]]
+|name_PSG = [[Paris Saint-Germain FC|Paris Saint-Germain]]
+|name_SDR = [[Stade de Reims|Reims]]
+|name_REN = [[Stade Rennais FC|Rennes]]
+|name_STE = [[AS Saint-Étienne|Saint-Étienne]]
+|name_ANG = [[Angers SCO|Angers]]
+|name_LIL = [[Lille OSC|Lille]]
+|name_STR = [[RC Strasbourg Alsace|Strasbourg]]
+|name_TFC = [[Toulouse FC|Toulouse]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Head-to-head points; 4) Head-to-head goal difference; 5) Head-to-head goals scored; 6) Head-to-head away goals scored; 7) Goals scored; 8) Away goals scored; 9) Most goals scored in single league match; 10) Fairplay ranking.<ref>{{cite web|url=http://www.ligue1.com/ligue1/classement?cat=Gen|title=League Table|publisher=Ligue1.com|access-date=12 August 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification to [[2019–20 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1  |text_ELGS=Qualification to [[2019–20 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ELGScup=blue1  |text_ELGScup=Qualification to [[2019–20 UEFA Europa League#Group stage|Europa League group stage]]
+|note_res_ELGScup = [[Stade Rennais FC|Rennes]] qualified for the [[2019–20 UEFA Europa League#Group stage|Europa League group stage]] by winning the [[2018–19 Coupe de France]].
+|col_EL2Q=blue2  |text_EL2Q=Qualification to [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|note_res_EL2Q = [[RC Strasbourg Alsace|Strasbourg]] qualified for the [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]] by winning the [[2018–19 Coupe de la Ligue]].
+|col_RPO =red2   |text_RPO=Qualification to [[2018–19 Ligue 1#Relegation play-offs|Relegation play-offs]]
+|col_REL =red1   |text_REL =Relegation to [[2019–20 Ligue 2|Ligue 2]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2018–19 association football standings in Europe templates|France]]
+[[Category:France football standings templates]]
+[[Category:2018–19 in French men's football leagues|Template]]
+</noinclude>

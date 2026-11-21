@@ -1,0 +1,81 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.ligue1.com/ranking Ligue 1]
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=ECLPO |result13=ELGScup |result17=REL |result18=REL |result19=REL |result20=REL 
+
+<!--Update team positions here-->
+|team_order= PSG, LEN, OM, REN, LIL, ASM, OL, CLE, NIC, LOR, REI, MON, TFC, BRE, STR, FCN, AUX, AJA, TRO, ANG
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_AJA=7 |draw_AJA=5 |loss_AJA=26|gf_AJA=23|ga_AJA=74<!--Ajaccio -->
+|win_ANG=4 |draw_ANG=6 |loss_ANG=28|gf_ANG=33|ga_ANG=81<!--Angers-->
+|win_AUX=8 |draw_AUX=11|loss_AUX=19|gf_AUX=35|ga_AUX=63<!--Auxerre -->
+|win_BRE=11|draw_BRE=11|loss_BRE=16|gf_BRE=44|ga_BRE=54<!--Brest-->
+|win_CLE=17|draw_CLE=8 |loss_CLE=13|gf_CLE=45|ga_CLE=49<!--Clermont-->
+|win_LEN=25|draw_LEN=9 |loss_LEN=4 |gf_LEN=68|ga_LEN=29<!--Lens-->
+|win_LIL=19|draw_LIL=10|loss_LIL=9 |gf_LIL=65|ga_LIL=44<!--Lille--> 
+|win_LOR=15|draw_LOR=10|loss_LOR=13|gf_LOR=52|ga_LOR=53<!--Lorient-->
+|win_OL=18 |draw_OL=8  |loss_OL=12 |gf_OL=65 |ga_OL=47 <!--Lyon-->
+|win_OM=22 |draw_OM=7  |loss_OM=9  |gf_OM=67 |ga_OM=40 <!--Marseille-->
+|win_ASM=19|draw_ASM=8 |loss_ASM=11|gf_ASM=70|ga_ASM=58<!--Monaco-->
+|win_MON=15|draw_MON=5 |loss_MON=18|gf_MON=65|ga_MON=62<!--Montpellier-->
+|win_FCN=7 |draw_FCN=15|loss_FCN=16|gf_FCN=37|ga_FCN=55<!--Nantes-->
+|win_NIC=15|draw_NIC=13|loss_NIC=10|gf_NIC=48|ga_NIC=37<!--Nice-->
+|win_PSG=27|draw_PSG=4 |loss_PSG=7 |gf_PSG=89|ga_PSG=40<!--Paris Saint-Germain-->
+|win_REI=12|draw_REI=15|loss_REI=11|gf_REI=45|ga_REI=45<!--Reims-->
+|win_REN=21|draw_REN=5 |loss_REN=12|gf_REN=69|ga_REN=39<!--Rennes-->
+|win_STR=9 |draw_STR=13|loss_STR=16|gf_STR=51|ga_STR=59<!--Strasbourg-->
+|win_TFC=13|draw_TFC=9 |loss_TFC=16|gf_TFC=51|ga_TFC=57<!--Toulouse-->
+|win_TRO=4 |draw_TRO=12|loss_TRO=22|gf_TRO=45|ga_TRO=81<!--Troyes-->
+
+<!--Team definitions (wikilinks in table)-->
+|name_AJA = [[AC Ajaccio|Ajaccio]]
+|name_ANG = [[Angers SCO|Angers]]
+|name_AUX = [[AJ Auxerre|Auxerre]]
+|name_BRE = [[Stade Brestois 29|Brest]]
+|name_CLE = [[Clermont Foot 63|Clermont]]
+|name_LEN = [[RC Lens|Lens]]
+|name_LIL = [[Lille OSC|Lille]]
+|name_LOR = [[FC Lorient|Lorient]]
+|name_OL  = [[Olympique Lyonnais|Lyon]]
+|name_OM  = [[Olympique de Marseille|Marseille]]
+|name_ASM = [[AS Monaco FC|Monaco]]
+|name_MON = [[Montpellier HSC|Montpellier]]
+|name_FCN = [[FC Nantes|Nantes]]
+|name_NIC = [[OGC Nice|Nice]]
+|name_PSG = [[Paris Saint-Germain FC|Paris Saint-Germain]]
+|name_REI = [[Stade de Reims|Reims]]
+|name_REN = [[Stade Rennais FC|Rennes]]
+|name_STR = [[RC Strasbourg Alsace|Strasbourg]]
+|name_TFC = [[Toulouse FC|Toulouse]]
+|name_TRO = [[ES Troyes AC|Troyes]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Goal difference; 3) Head-to-head points; 4) Head-to-head goal difference; 5) Head-to-head goals scored; 6) Head-to-head away goals scored; 7) Goals scored; 8) Away goals scored; 9) Fair-play points (Note: Head-to-head record is used only after all the matches between the teams in question have been played).<ref>{{cite web|url=https://www.lfp.fr/-/media/Project/LFP/LFP/Documents/R%C3%A8glements/22-23-Reglement-Championnats-France-04-07.pdf?la=fr-FR&hash=1C727C835DCAE265D2A3182B45CAE2EE|title=League Rules|website=www.lfp.fr|access-date=1 September 2022}}</ref>
+
+<!-- Status -->
+|status_PSG=C
+|status_ANG=R
+|status_AJA=R
+|status_TRO=R
+|status_AUX=R
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|note_res_ELGScup = Toulouse qualified for the Europa League group stage as the [[2022–23 Coupe de France]] winners.
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2023–24 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2   |text_CL3Q=Qualification for the [[2023–24 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1    |text_ELGS=Qualification for the [[2023–24 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ELGScup=blue1    |text_ELGScup=Qualification for the [[2023–24 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|Qualification for the [[2023–24 UEFA Europa Conference League#Play-off round|Europa Conference League play-off round]]}}
+|col_REL=red1      |text_REL=Relegation to [[2023–24 Ligue 2|Ligue 2]]
+}}<noinclude>
+{{Template reference list}}
+[[Category:2022–23 association football standings in Europe templates|France]]
+[[Category:France football standings templates]]
+[[Category:2022–23 in French men's football leagues|Template]]
+</noinclude>

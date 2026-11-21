@@ -1,0 +1,85 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[https://www.ligue1.com/Articles/NEWS/2020/04/30/psg-champions-season-ended-ligue-1 Ligue 1]
+|ranking_style=ppgpts
+
+<!--Update team positions here-->
+|team1=PSG  |team2=OM |team3=REN |team4=LIL |team5=NIC |team6=SDR |team7=OL |team8=MON |team9=ASM |team10=STR |team11=ANG |team12=BOR |team13=FCN |team14=BRE |team15=MET |team16=DIJ |team17=STE |team18=NIM |team19=AMI |team20=TFC
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=ELGS |result5=ELGS |result6=EL2Q  |result19=REL |result20=REL 
+
+|note_res_EL2Q=Since the winners of the [[2019–20 Coupe de France|Coupe de France]] and the [[2019–20 Coupe de la Ligue|Coupe de la Ligue]], Paris Saint-Germain, qualified for the Champions League, the spot given to the Coupe de France winners (Europa League group stage) was passed to the fifth-placed team and the spot given to the Coupe de la Ligue winners (Europa League second qualifying round) was passed to the sixth-placed team.
+|note_res_ELGS=EL2Q
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|win_AMI=4|draw_AMI=11|loss_AMI=13|gf_AMI=31|ga_AMI=50<!-- Amiens --> 
+|win_ANG=11|draw_ANG=6 |loss_ANG=11|gf_ANG=28|ga_ANG=33<!-- Angers --> 
+|win_BOR=9|draw_BOR=10|loss_BOR=9 |gf_BOR=40|ga_BOR=34<!-- Bordeaux --> 
+|win_BRE=8|draw_BRE=10|loss_BRE=10|gf_BRE=34|ga_BRE=37<!-- Brest --> 
+|win_DIJ=7|draw_DIJ=9 |loss_DIJ=12|gf_DIJ=27|ga_DIJ=37<!-- Dijon --> 
+|win_LIL=15|draw_LIL=4 |loss_LIL=9 |gf_LIL=35|ga_LIL=27<!-- Lille --> 
+|win_OL=11|draw_OL=7  |loss_OL=10 |gf_OL=42|ga_OL=27<!-- Lyon --> 
+|win_OM=16|draw_OM=8  |loss_OM=4  |gf_OM=41|ga_OM=29<!-- Marseille --> 
+|win_MET=8|draw_MET=10|loss_MET=10|gf_MET=27|ga_MET=35<!-- Metz --> 
+|win_ASM=11|draw_ASM=7 |loss_ASM=10|gf_ASM=44|ga_ASM=44<!-- Monaco --> 
+|win_MON=11|draw_MON=7 |loss_MON=10|gf_MON=35|ga_MON=34<!-- Montpellier --> 
+|win_FCN=11|draw_FCN=4 |loss_FCN=13|gf_FCN=28|ga_FCN=31<!-- Nantes --> 
+|win_NIC=11|draw_NIC=8 |loss_NIC=9 |gf_NIC=41|ga_NIC=38<!-- Nice --> 
+|win_NIM=7|draw_NIM=6 |loss_NIM=15|gf_NIM=29|ga_NIM=44<!-- Nîmes --> 
+|win_PSG=22|draw_PSG=2 |loss_PSG=3 |gf_PSG=75|ga_PSG=24<!-- PSG --> 
+|win_SDR=10|draw_SDR=11|loss_SDR=7 |gf_SDR=26|ga_SDR=21<!-- Reims --> 
+|win_REN=15|draw_REN=5 |loss_REN=8 |gf_REN=38|ga_REN=24<!-- Rennes --> 
+|win_STE=8|draw_STE=6 |loss_STE=14|gf_STE=29|ga_STE=45<!-- Saint-Étienne --> 
+|win_STR=11|draw_STR=5 |loss_STR=11|gf_STR=32|ga_STR=32<!-- Strasbourg --> 
+|win_TFC=3|draw_TFC=4 |loss_TFC=21|gf_TFC=22|ga_TFC=58<!-- Toulouse --> 
+
+<!--Status-->
+|status_PSG=C
+|status_TFC=R
+|status_AMI=R
+|hth_NIC=Nice finished ahead of Reims on head-to-head points: Nice 2–0 Reims, Reims 1–1 Nice.
+|hth_SDR=NIC
+|hth_BOR=Bordeaux finished ahead of Nantes on head-to-head points: Bordeaux 2–0 Nantes, Nantes 0–1 Bordeaux.
+|hth_FCN=BOR
+
+<!--Team definitions (wikilinks in table)-->
+|name_AMI = [[Amiens SC|Amiens]]
+|name_ANG = [[Angers SCO|Angers]]
+|name_BOR = [[FC Girondins de Bordeaux|Bordeaux]]
+|name_BRE = [[Stade Brestois 29|Brest]]
+|name_DIJ = [[Dijon FCO|Dijon]]
+|name_LIL = [[Lille OSC|Lille]]
+|name_OL  = [[Olympique Lyonnais|Lyon]]
+|name_OM  = [[Olympique de Marseille|Marseille]]
+|name_MET = [[FC Metz|Metz]]
+|name_ASM = [[AS Monaco FC|Monaco]]
+|name_MON = [[Montpellier HSC|Montpellier]]
+|name_FCN = [[FC Nantes|Nantes]]
+|name_NIC = [[OGC Nice|Nice]]
+|name_NIM = [[Nîmes Olympique|Nîmes]] |note_NIM = Originally, the 18th-placed Ligue 1 team would play in [[2019–20 Ligue 2#Promotion play-offs|promotion-relegation play-offs]] at the end of the season with a team from [[2019–20 Ligue 2|Ligue 2]] to decide whether they would remain in Ligue 1 for the 2020–21 season, but the play-offs were cancelled and the 18th-placed team remained in Ligue 1.
+|name_PSG = [[Paris Saint-Germain FC|Paris Saint-Germain]]
+|name_SDR = [[Stade de Reims|Reims]]
+|name_REN = [[Stade Rennais FC|Rennes]]
+|name_STE = [[AS Saint-Étienne|Saint-Étienne]]
+|name_STR = [[RC Strasbourg Alsace|Strasbourg]]
+|name_TFC = [[Toulouse FC|Toulouse]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points per game; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Fairplay ranking.<ref>{{cite web|url=http://www.ligue1.com/ligue1/classement?cat=Gen|title=League Table|publisher=Ligue1.com|access-date=12 August 2016}}</ref><ref>{{cite web|url=https://www.ligue1.com/Articles/NEWS/2020/04/30/psg-champions-season-ended-ligue-1|title=PSG champions as season ended|date=30 April 2020|access-date=30 April 2020|publisher=Ligue1.com}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2020–21 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2020–21 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL2Q=blue2  |text_EL2Q=Qualification for the [[2020–21 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL =red1   |text_REL =Relegation to [[2020–21 Ligue 2|Ligue 2]]
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2019–20 association football standings in Europe templates|France]]
+[[Category:France football standings templates]]
+[[Category:2019–20 in French men's football leagues|Template]]
+</noinclude>
