@@ -157,6 +157,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 ### 1935/36
 
 - Real Oviedo não está na temporada seguinte, mas não caiu: 3º colocado em 1935/36, teve dispensa de 1939/40 por ter o estádio destruído na guerra e voltou em 1940/41 (Wikipédia es, 1935-36 e 1939-40)
+- Atlético de Madrid está na temporada seguinte, mas caiu em campo: 11º em 1935/36, caiu com o Osasuna; voltou à 1ª divisão em 1939/40 ao vencer a repescagem pela vaga do Oviedo (Athletic de Madrid 3-1 Osasuna, Valência, 26/11/1939; Wikipédia es)
 - artilheiro: a RSSSF dá Lángara com 27 gols
 
 ### 1939/40

@@ -76,6 +76,13 @@ DATAS = {
     (2015, "Manchester United", "AFC Bournemouth"): "2016-05-17",
 }
 
+# fora da temporada seguinte sem rebaixamento: antes de 1892/93 não havia 2ª divisão; os últimos colocados pediam
+# reeleição aos outros clubes (revisão EN-018; o Guilherme decidiu ficar com o que a história aponta)
+NAO_REELEITOS = {
+    (1889, "Stoke City"): "não foi reeleito para a Football League (foi para a Football Alliance); não havia rebaixamento",
+    (1891, "Darwen"): "não foi reeleito para a 1ª divisão e foi posto na nova 2ª divisão; não havia rebaixamento",
+}
+
 # gols do artilheiro corrigidos: (ano, jogador) -> (gols, motivo) (revisão EN-002 e EN-003)
 GOLS_ARTILHEIRO = {
     (1937, "Tommy Lawton"): (28, "a página da temporada 1937-38 da liga e a do Everton e a ficha de Lawton na Wikipédia dão 28 na "
@@ -283,6 +290,7 @@ def main() -> None:
     tab = defaultdict(list)
     linhas_rel = []
     seq_rodada_faltando = []
+    sem_rodada_real = []
 
     for a in TEMPORADAS:
         T = temporada(a)
@@ -341,6 +349,20 @@ def main() -> None:
         if sem_rodada:
             ocorr[a].append(f"{len(sem_rodada)} jogos sem rodada do ogol (ex.: {sem_rodada[0]['m']} x {sem_rodada[0]['v']})")
             seq_rodada_faltando.append(a)
+        # a rodada do ogol só vale se for rodada de verdade: cada clube uma vez por rodada (revisão EN-007). Antes de 1992/93
+        # (e em 1994/95) a liga inglesa não tinha rodadas fixas, e o número do ogol junta jogos de datas diferentes: a
+        # rodada fica vazia e não há tabela rodada a rodada (o Guilherme decidiu ficar com o que é fiel ao campeonato)
+        por_rodada = defaultdict(list)
+        for j in jogos:
+            if (j.get("ogol") or {}).get("rodada"):
+                por_rodada[j["ogol"]["rodada"]] += [j["m"], j["v"]]
+        rodada_ok = not sem_rodada and all(len(cl) == len(set(cl)) for cl in por_rodada.values())
+        if not sem_rodada and not rodada_ok:
+            sem_rodada_real.append(a)
+            ocorr[a].append("sem rodadas fixas nesta temporada (no ogol há clubes com mais de um jogo na mesma \"rodada\"): "
+                            "a rodada fica vazia e não há tabela rodada a rodada")
+        for j in jogos:
+            j["rodada"] = j["ogol"]["rodada"] if rodada_ok else None
         datas_dif = [j for j in jogos if j.get("ogol") and j["ogol"]["data"] != j["data"]]
         if datas_dif:
             x = datas_dif[0]
@@ -497,6 +519,12 @@ def main() -> None:
         else:
             textos = {k[5:]: limpar(v) for k, v in w["params"].items() if k.startswith("text_")}
             rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()}
+        obs_final = {}
+        for (ano, c), motivo in NAO_REELEITOS.items():
+            if ano == a and c in rebaixados:
+                rebaixados.discard(c)
+                obs_final[c] = motivo
+                ocorr[a].append(f"{clubes_eng.exibicao(c)} não está na temporada seguinte, mas não foi rebaixado: {motivo}")
         campeao, vice = ordem[0], ordem[1]
         if camp_wiki.get(a) and camp_wiki[a] != campeao:
             ocorr[a].append(f"campeão diferente na lista de campeões da Wikipédia: {camp_wiki[a]} (tabela: {campeao})")
@@ -506,10 +534,11 @@ def main() -> None:
                 "temporada": T, "posicao": pos, "clube": clubes_eng.exibicao(c), "jogos": j_, "vitorias": v_, "empates": e_,
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 else "rebaixado" if c in rebaixados else None, "fonte": fonte_ordem,
-                "observacao": (w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None)) or None})
+                "observacao": obs_final.get(c) or (w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None))
+                or None})
 
         # ---- partidas, gols, cartões, estatísticas
-        jogos.sort(key=lambda j: (j["data"], ((j.get("ogol") or {}).get("rodada") or 0), j["m"]))
+        jogos.sort(key=lambda j: (j["data"], j["rodada"] or 0, j["m"]))
         gols_ano = autor_ano = 0
         for i, j in enumerate(jogos, 1):
             pid = f"{a}-{i:04d}"
@@ -524,7 +553,7 @@ def main() -> None:
                 ids.append(f"espn:{e['id']}")
             fontes = [j["fonte"]] + (["ogol"] if o else []) + (["football-data"] if x else []) + (["ESPN"] if e else [])
             tab["partidas"].append({
-                "id": pid, "temporada": T, "fase": "Liga", "grupo": None, "rodada": (o or {}).get("rodada"), "data": j["data"],
+                "id": pid, "temporada": T, "fase": "Liga", "grupo": None, "rodada": j["rodada"], "data": j["data"],
                 "hora": hora, "mandante": clubes_eng.exibicao(j["m"]), "visitante": clubes_eng.exibicao(j["v"]),
                 "gols_mandante": j["gm"], "gols_visitante": j["gv"], "penaltis_mandante": None, "penaltis_visitante": None,
                 "resultado_especial": None, "estadio": (e or {}).get("estadio"), "cidade": (e or {}).get("cidade"),
@@ -562,11 +591,11 @@ def main() -> None:
                                                 "amarelos": num(f"{s}Y"), "vermelhos": num(f"{s}R"), "fonte": "football-data.co.uk"})
 
         # ---- classificação rodada a rodada (pela rodada do ogol)
-        if not sem_rodada:
-            rodadas = sorted({j["ogol"]["rodada"] for j in jogos})
+        if rodada_ok:
+            rodadas = sorted({j["rodada"] for j in jogos})
             pos_reb = {p for p, c in enumerate(ordem, 1) if c in rebaixados}   # faixa: as posições finais de quem caiu
             for r in rodadas:
-                parcial = calcular([j for j in jogos if j["ogol"]["rodada"] <= r], pv)
+                parcial = calcular([j for j in jogos if j["rodada"] <= r], pv)
                 for pos, c in enumerate(ordenar(parcial, ajuste, a), 1):
                     jj, v_, e_, d_, gp, gc, p = parcial[c]
                     tab["classificacao_rodada"].append({
@@ -605,7 +634,7 @@ def main() -> None:
     tab["paises"] = [{"codigo": "WAL", "nome": "País de Gales", "confederacao": "UEFA"}]
     tab["artilheiros"] = artilheiros()
     gravar(PACOTE, COMPETICAO, tab)
-    relatorio(linhas_rel, ocorr, tab, mapa_ogol, mapa_espn)
+    relatorio(linhas_rel, ocorr, tab, mapa_ogol, mapa_espn, sem_rodada_real)
 
 
 def artilheiros() -> list[dict]:
@@ -643,7 +672,7 @@ def artilheiros() -> list[dict]:
     return res
 
 
-def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn) -> None:
+def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, sem_rodada_real) -> None:
     jogos = len(tab["partidas"])
     gols = sum(int(x["gols_mandante"]) + int(x["gols_visitante"]) for x in tab["partidas"])
     out = [
@@ -658,7 +687,8 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn) -> None:
         "- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1888/89-2024/25, menos 2022/23;",
         "- football-data.co.uk: base de 2022/23 e 2025/26; de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time "
         "(chutes, faltas, escanteios, cartões; 2000/01+);",
-        "- ogol: rodada oficial de cada jogo e conferência de placar; calendários guardados em `data/cache/ogol-eng-1/` para os escudos;",
+        "- ogol: rodada de cada jogo (só nas temporadas com rodadas fixas: 1992/93, 1993/94 e de 1995/96 em diante) e conferência de "
+        "placar; calendários guardados em `data/cache/ogol-eng-1/` para os escudos;",
         "- ESPN (liga `eng.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;",
         "- RSSSF (engpaul/FLA, Paul Felton e Barry Spencer): tabela final publicada até 2006/07 e matriz de resultados (1888/89-1938/39, "
         "menos 1925/26) — conferência jogo a jogo;",
@@ -695,6 +725,9 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn) -> None:
         "- **Público e estádio antes de 2001/02:** idem.",
         "- **Test matches (1892/93-1897/98) e play-offs (1986/87-1987/88):** jogos entre clubes da 1ª e da 2ª divisão, que "
         "decidiam o rebaixamento; ficam de fora (entram quando a 2ª divisão for coletada).",
+        f"- **Rodadas antes de 1992/93 (e em 1994/95):** a liga inglesa não tinha rodadas fixas, e o número de rodada do ogol junta "
+        f"jogos de datas diferentes (clubes com 2 ou 3 jogos na mesma rodada). Nessas {len(sem_rodada_real)} temporadas a rodada fica "
+        "vazia e não há tabela rodada a rodada; a ordem dos jogos é a das datas.",
         "- **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.",
     ]
     RELATORIO.parent.mkdir(parents=True, exist_ok=True)

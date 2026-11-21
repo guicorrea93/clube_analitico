@@ -79,6 +79,13 @@ NAO_REBAIXADOS = {
                            "1940/41 (Wikipédia es, 1935-36 e 1939-40)",
 }
 
+# caiu em campo, mas está na temporada seguinte: (ano, clube) -> motivo (revisão ES-001; o Guilherme decidiu ficar com o
+# que a história aponta)
+REBAIXADOS_EXTRA = {
+    (1935, "Atletico Madrid"): "11º em 1935/36, caiu com o Osasuna; voltou à 1ª divisão em 1939/40 ao vencer a repescagem pela vaga "
+                               "do Oviedo (Athletic de Madrid 3-1 Osasuna, Valência, 26/11/1939; Wikipédia es)",
+}
+
 LIGUILLA = ("1986/87: com a ampliação para 20 clubes, os três últimos do grupo de rebaixamento jogaram uma liguilla em turno "
             "único, que mandou um só para a 2ª divisão: Racing 1-1 Cádiz (24/06/1987; Racing 4-3 nos pênaltis), Cádiz 1-1 Osasuna "
             "(28/06; Cádiz 4-3 nos pênaltis) e Osasuna 2-0 Racing (30/06). Osasuna 3 pontos, Cádiz 2, Racing 1: caiu o Racing "
@@ -633,10 +640,17 @@ def main() -> None:
         else:
             textos = {k[5:]: limpar(v) for k, v in w["params"].items() if k.startswith("text_")}
             rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()}
+        obs_final = {}
         for (ano, c), motivo in NAO_REBAIXADOS.items():
             if ano == a and c in rebaixados:
                 rebaixados.discard(c)
+                obs_final[c] = motivo
                 ocorr[a].append(f"{clubes.exibicao(c)} não está na temporada seguinte, mas não caiu: {motivo}")
+        for (ano, c), motivo in REBAIXADOS_EXTRA.items():
+            if ano == a:
+                rebaixados.add(c)
+                obs_final[c] = motivo
+                ocorr[a].append(f"{clubes.exibicao(c)} está na temporada seguinte, mas caiu em campo: {motivo}")
         campeao, vice = ordem[0], ordem[1]
         if camp_wiki.get(a) and camp_wiki[a] != campeao:
             ocorr[a].append(f"campeão diferente na lista de campeões da Wikipédia: {camp_wiki[a]} (tabela: {campeao})")
@@ -646,7 +660,8 @@ def main() -> None:
                 "temporada": T, "posicao": pos, "clube": clubes.exibicao(c), "jogos": j_, "vitorias": v_, "empates": e_,
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 else "rebaixado" if c in rebaixados else None, "fonte": fonte_ordem,
-                "observacao": (w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None)) or None})
+                "observacao": obs_final.get(c) or (w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None))
+                or None})
 
         # ---- partidas, gols, cartões, estatísticas
         jogos.sort(key=lambda j: (j["data"], j["rodada"] or 0, j["m"]))

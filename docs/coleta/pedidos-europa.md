@@ -175,3 +175,13 @@ Corrigido nos pacotes (`eng-1`, `esp-1`; as faixas também em `ita-1` e `ger-1`)
   que a liga não reconhece, fica anotado na `fonte` quando difere (o Guilherme aprovou).
 - **ES-006:** nomes da ESPN acertados (Nihat Kahveci, Fernando Morientes, Ismael Urzaiz, Rubén Navarro, Magno Mocelin, Raúl
   Molina, Sávio, Víctor Fernández) e o Salva Ballesta num nome só (43 gols).
+
+## Decisões do Guilherme (21/11/2026) aplicadas
+
+- **EN-007 (rodadas):** ficar com o que é fiel ao campeonato. Nas 94 temporadas em que a liga inglesa não tinha rodadas fixas
+  (antes de 1992/93 e 1994/95), a coluna `rodada` de `partidas.csv` fica vazia e não há `classificacao_rodada`. Agente 1: o
+  painel pode montar a Corrida por data nessas temporadas, se quiser (os jogos têm data).
+- **EN-018:** Stoke (1889/90) e Darwen (1891/92) não aparecem mais como "rebaixado"; a `observacao` diz que não foram reeleitos
+  (não havia rebaixamento).
+- **ES-001 (Atlético de Madrid 1935/36):** marcado como "rebaixado" (11º, caiu com o Osasuna); a `observacao` diz que voltou em
+  1939/40 pela repescagem da vaga do Oviedo.
