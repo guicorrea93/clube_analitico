@@ -126,7 +126,9 @@ CORRECOES = {
     (2008, "Fortaleza", "Criciúma"): (2, 1, "", "Placar 2-1 (tabela da Wikipédia pt, tabela da RSSSF e ogol). Achado SB-010."),
 }
 # pontos na tabela da RSSSF que não são punição (erro de soma da página): (ano, clube); achados SB-005 e SB-015
-AJUSTE_FALSO = {(2008, "Juventude"), (2009, "Juventude")}
+AJUSTE_FALSO = {(2008, "Juventude"), (2009, "Juventude"),
+                # o Pleno do STJD devolveu os 3 pontos do Brusque em 18/11/2021 (a Wikipédia en mantém a punição); SB-016
+                (2021, "Brusque")}
 # fase que não leva o clube adiante (repescagem para não cair): não conta como "fase alcançada"; achado SB-003
 FASE_DE_BAIXO = re.compile(r"relega|rebaix|repescagem|descenso", re.I)
 
@@ -527,8 +529,13 @@ def classificacao_final(ano: int, partidas: list[Partida], tabelas: list[rsssf.T
         for r in tw:
             c = nomes.casar(r["nome"], ano) or r["nome"]
             j = r["v"] + r["e"] + r["d"]
+            aj = 0 if (ano, c) in AJUSTE_FALSO else r["ajuste"]
             saida.append({"pos": r["pos"], "clube": c, "j": j, "v": r["v"], "e": r["e"], "d": r["d"], "gp": r["gp"], "gc": r["gc"],
-                          "pts": pv * r["v"] + r["e"] + r["ajuste"], "ajuste": r["ajuste"], "fonte": "Wikipédia (tabela oficial)"})
+                          "pts": pv * r["v"] + r["e"] + aj, "ajuste": aj, "fonte": "Wikipédia (tabela oficial)"})
+        if any((ano, s["clube"]) in AJUSTE_FALSO for s in saida):   # punição desfeita: a ordem segue os pontos
+            saida.sort(key=lambda s: (-s["pts"], -s["v"], -(s["gp"] - s["gc"]), -s["gp"]))
+            for i, s in enumerate(saida, 1):
+                s["pos"] = i
         for s in saida:
             x = camp.get(s["clube"])
             if x and x != [s["j"], s["v"], s["e"], s["d"], s["gp"], s["gc"]]:

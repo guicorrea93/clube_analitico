@@ -48,8 +48,9 @@ painel/            ── painel novo (index.html + dados/<competição>.js + es
   nível), edição, fase, partida, gol, cartão, estatística, `classificacao_final`,
   `classificacao_rodada`, `tabela_publicada` e artilheiro. Toda linha guarda a `fonte`.
 - **Cada clube existe uma vez só.** Quem jogou A e B tem um cadastro só. O nome de exibição segue
-  o padrão do painel: "Botafogo", "Atlético-MG", "Brasil de Pelotas". O sufixo "-UF" aparece só
-  quando há clubes com o mesmo nome. A tabela `clube_nome` guarda os outros nomes, para reconhecer
+  o padrão do painel: "Botafogo", "Atlético-MG", "Brasil de Pelotas". Clube novo leva o sufixo "-UF"
+  quando há outro com o mesmo nome; os que já têm o sufixo sem precisar ("Americano-RJ", "Ferroviária-SP")
+  ficam como estão (decisão de 21/11/2026), porque mudar nome confunde as fontes e as coletas. A tabela `clube_nome` guarda os outros nomes, para reconhecer
   o clube em fontes novas.
 - **Competições novas** (Série C em diante) não passam pelo `brasileirao.db`. Elas chegam como
   pacotes de arquivos, descritos em `docs/agente-coleta-COMECE-AQUI.md`, e o banco genérico

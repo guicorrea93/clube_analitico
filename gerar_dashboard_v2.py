@@ -1174,6 +1174,8 @@ const seguir = (svg, x) => { const r = svg.parentElement, vb = svg.viewBox && sv
   r.scrollLeft = x * svg.clientWidth / vb.width - r.clientWidth * 0.55; };
 // ano para mostrar: a temporada quando ela cruza o ano ("1992/93"); nas contas (décadas, eixos) vale o número
 const anoT = x => x.t || x.ano;
+// sem coluna de pontos: mata-mata e edição de várias fases (a soma de todos os jogos não é a pontuação oficial; decisão de 20/11/2026)
+const semPts = e => e.mata || e.disputa.length > 1;
 const slugClube = c => c.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');   // contorno do vice: cor quase preta some no fundo escuro, usa a segunda cor
 function desenhar() {
   // t = títulos, v = vices, r = 3º lugares
@@ -1789,9 +1791,9 @@ function corridaPosicoes(id, medalhas) {
     // classificação final
     const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos, J, V, E, D, GP, GC] = r, sg = GP - GC;
       return '<tr class="' + (pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
-        (e.mata ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
+        (semPts(e) ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
         '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td></tr>'; }).join('');
-    document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (e.mata ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
+    document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (semPts(e) ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
       '<th>J</th><th>V</th><th>E</th><th>D</th><th class="gpgc">GP</th><th class="gpgc">GC</th><th>SG</th></tr></thead><tbody>' + linhas + '</tbody></table></div>' +
       (t.length > TOP ? '<button class="pt-mais" type="button">' + (todos ? 'Ver só os ' + TOP + ' primeiros' : 'Ver todos os ' + t.length + ' clubes') + '</button>' : '');
     resumo(e); participantes(e); jogos(e); corrida(e); artilharia(e);
@@ -2041,7 +2043,7 @@ function corridaPosicoes(id, medalhas) {
   function tabela(c, cs) {
     const linhas = cs.slice().reverse().map(([i, q, J, V, E, D, GP, GC, AJ]) => { const e = EDS[i], m = medalha(i, c), sg = GP - GC;
       return '<tr class="cl-camp ' + (m ? 'p' + { ouro: 1, prata: 2, bronze: 3 }[m] : '') + '" data-ed="' + e.id + '" title="Ver a edição"><td class="pos">' + q + 'º</td><td class="clube">' + anoT(e) + '</td><td class="comp">' + esc(EDP[i].comp || CONF.curto) + '</td>' +
-        '<td class="pts">' + (e.mata ? '–' : e.pv * V + E + AJ) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
+        '<td class="pts">' + (semPts(e) ? '–' : e.pv * V + E + AJ) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
         '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td><td>' + pct((3 * V + E) / (3 * J)) + '</td></tr>'; }).join('');
     document.getElementById('cl-campanhas').innerHTML = '<div class="cp-rolar"><table class="cp-tab cl-tab"><thead><tr><th>Pos</th><th>Ano</th><th class="comp">Competição</th><th>Pts</th><th>J</th><th>V</th><th>E</th><th>D</th>' +
       '<th class="gpgc">GP</th><th class="gpgc">GC</th><th>SG</th><th title="vitória 3, empate 1">Aprov.</th></tr></thead><tbody>' + linhas + '</tbody></table></div>';
@@ -2185,7 +2187,7 @@ escolha(document.getElementById('clj-sel'), { busca: 'Buscar ano' });
   const abas = [...document.querySelectorAll('.aba')], botoes = [...document.querySelectorAll('.nav')];
   const ultimaSub = {};   // cada aba lembra a última sub-aba aberta
   const abrir = (hash, rolar = true) => {
-    let [k, sub, ...resto] = (hash || '').split('/'); resto = resto.join('/');
+    let [k, sub, ...resto] = decodeURIComponent(hash || '').split('/'); resto = resto.join('/');   // "2025%20Apertura" -> "2025 Apertura"
     if (!abas.some(a => a.id === 'aba-' + k)) k = 'historia';
     const aba = document.getElementById('aba-' + k), subs = [...document.querySelectorAll('.sub[data-aba="' + k + '"]')];
     document.querySelectorAll('.subnav-lat').forEach(g => { g.hidden = g.dataset.de !== k; });

@@ -143,6 +143,7 @@ PAGINAS = {
     "Tupi": "Tupi Football Club",
     "Ubiratan": "Ubiratan Esporte Clube",
     "Valeriodoce": "Valeriodoce Esporte Clube",
+    "Ferroviário do Recife": "Clube Ferroviário do Recife",   # era "Ferroviário-PE" (CL-016)
 }
 # sem página (ou sem escudo) na Wikipédia: a busca automática não procura (o escudo vem de OUTRAS_FONTES)
 SEM_ESCUDO = {"Eletrovapo-RJ", "Guanabara-DF", "Perdigão", "Rio Branco-RJ", "Liga da Marinha", "CEUB", "Colatina", "Inter de Santa Maria", "Manufatora",

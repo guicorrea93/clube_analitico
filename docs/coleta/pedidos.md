@@ -221,3 +221,64 @@ Os 68 achados da revisão sobre C, D e Copa ficam para depois: o Guilherme pediu
   Se quiser, mande uma tabela por fase com a fase numa coluna própria.
 - **Escudos:** faltam "LAF" e "Oeste". O do Oeste espera a Wikimedia.
 - **São Paulo da Floresta:** está com o Guilherme.
+
+## Decisão do Guilherme (20/11/2026): São Paulo da Floresta
+
+**Um clube só.** O São Paulo de 1930–1935 e o de hoje ficam no mesmo cadastro, "São Paulo", e o título paulista de 1931
+é dele, como dizem RSSSF, ogol, Wikipédia e o próprio clube. O pacote `bra-sp-1` já está assim: não precisa mudar nada.
+
+## Agente 2 (21/11/2026): revisão da Copa do Brasil, parte 1 (CB-001, CB-002, CB-003, CB-006, CB-014)
+
+Pacote `bra-copa-do-brasil` refeito (sem commit). Recarregar no banco e no painel.
+
+- **CB-003 e CB-014 (fases e grupos):** as fases agora saem da própria chave do mata-mata, e não dos títulos das páginas:
+  - a final é o último confronto, e a fase anterior são os confrontos anteriores de cada clube;
+  - nomes: Fase preliminar, Primeira a Quarta fase, Oitavas e Quartas de final, Semifinal e Final;
+  - nenhum jogo tem grupo.
+- **CB-001 (vice):** os 9 vices da revisão estão certos (Sport 1989, Grêmio 1993, Ceará 1994, Grêmio 1995, Palmeiras 1996,
+  Flamengo 1997, Coritiba 2012, Cruzeiro 2014, Vasco 2025).
+- **CB-002 (classificação):** os 4 semifinalistas ficam nas 4 primeiras posições nas 37 edições.
+- **CB-006 (mando):** quando RSSSF e ogol têm o mesmo jogo com o mando invertido e o placar espelhado, vale o ogol.
+  Mudaram 18 jogos: finais de 2015 e 2016, quartas e semifinais de 2015, e confrontos de 2001 e 2002 em que ida e volta
+  estavam com os placares trocados. Os totais não mudam: 4.011 jogos, 5.726 gols com autor.
+
+Os outros achados da Copa (CB-004, CB-005, CB-007, CB-008, CB-010, CB-011, CB-015) vêm nas próximas partes.
+
+## Agente 2 (21/11/2026): revisão da Série C, parte 2 (SC-002, SC-003, SC-004, SC-005)
+
+Pacote `bra-serie-c` refeito (sem commit). Recarregar no banco e no painel. Jogos e placares não mudaram (7.912).
+
+- **SC-002 e SC-003 (pódio):** a classificação agora vai assim:
+  - campeão e vice em cima, depois a fase alcançada;
+  - na mesma fase, a posição no grupo dela (ou no quadrangular/octogonal final) e depois a campanha toda;
+  - a ordem geral da RSSSF só desempata dentro da mesma fase.
+
+  Também mudaram fases:
+  - 2009: as últimas fases viraram Quartas, Semifinal e Final;
+  - 2023: a "Terceira fase" virou Final;
+  - 2020: a final Vila Nova x Remo saiu do Grupo D e virou a Final;
+  - 2003: a "Fifth Phase" virou Quinta fase;
+  - 1992: dois jogos do grupo B voltaram da Final para a 2ª fase.
+
+  Vices e terceiros batem com a revisão em 12 dos 14 anos. Em 1992 (3º Nacional-AM) e 2011 (3º Ipatinga) a Wikipédia usa
+  outro critério que nenhuma regra única reproduz; ficou a regra, com a divergência anotada no relatório.
+- **SC-004 (rebaixados):** desde 2009, quem jogou a Série D do ano seguinte, além de Guaratinguetá (2016) e Luverdense (2019).
+  Os 8 anos da revisão estão certos.
+- **SC-005 (acesso):** em 1981 só o Olaria, em 1988, 1990 e 1992 ninguém, e em 1999 Fluminense e São Raimundo.
+
+## Agente 2 (21/11/2026): revisão da Série D, parte 3 (SD-002 a SD-009, SD-017)
+
+Pacote `bra-serie-d` refeito (sem commit). Recarregar no banco e no painel. Jogos e placares não mudaram (5.422); a
+conferência das tabelas segue 432 / 3.
+
+- **SD-004 a SD-008 (fases e grupos):** fase e grupo de cada jogo vêm agora do código do ogol, que tem a estrutura
+  completa da D. Ficou assim:
+  - 17 grupos em 2016-2019 e 8 grupos em 2020-2025, com os jogos do 4 de Julho e do 7 de Setembro nos seus grupos;
+  - mata-mata como Fase preliminar, Segunda fase, Oitavas, Quartas, Semifinal e Final;
+  - 2011: semifinal e final separadas; 2013: a final deixou de ser "5a Fase"; 2021: os jogos de quartas e semifinal
+    saíram do Grupo A03.
+- **SD-009:** sem nomes de fase em inglês.
+- **SD-002 e SD-003 (classificação):** a mesma regra da Série C.
+  - 2020: Mirassol, Floresta-CE, Novorizontino, Altos, América-RN, Aparecidense;
+  - 2021: 3º ABC, 4º Atlético Cearense, 5º Ferroviária-SP, 6º América-RN.
+- **SD-017 (acesso):** em 2025 o acesso é do Santa Cruz (PE), e não do Santa Cruz de Natal; em 2020 o Floresta-CE é o 2º.

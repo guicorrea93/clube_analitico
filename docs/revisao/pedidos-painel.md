@@ -105,3 +105,28 @@ Banco refeito (`futebol/migrar_brasileirao.py`) e painel gerado de novo; ainda n
 - SA-008, SA-014, SA-015 a SA-018 e SB-016;
 - CL-013 a CL-016;
 - CL-026.
+
+### Decisões do Guilherme (20/11/2026)
+
+- **SA-008, 3º lugar de 1992:** fica o Bragantino em 3º e o Vasco em 4º, como já está e como diz a Wikipédia pt. Só muda
+  se aparecer uma fonte oficial dizendo o contrário. Pode marcar como `nao-e-erro`.
+- **SA-014, caso Sandro Hiroshi (1999):** vale a decisão do STJD. São Paulo x Botafogo e São Paulo x Internacional ficam
+  0-1 com `resultado_especial` `awd`, e o placar de campo (6-1 e 2-2) fica na observação (`corrigir_serie_a`).
+  Números: São Paulo 13V 1E 12D 45-35, Botafogo 8V 2E 11D 23-37, Internacional 7V 3E 11D 18-26.
+- **SA-015 a SA-018, classificação antiga:** fica a soma de todos os jogos da edição (o que os jogos do banco dizem), com a
+  posição final oficial. Nas edições de várias fases (e no mata-mata) a coluna Pts sai, porque essa soma não é a
+  pontuação oficial. Pode marcar como `nao-e-erro`. SA-016 (1986, jogos que faltam nos grupos E a H) e SA-017
+  (placares de 1979 e 1984) continuam como erro de dado.
+- **SB-016, Brusque 2021:** sem punição. O Pleno do STJD devolveu os 3 pontos em 18/11/2021 (O Povo, NSC Total, Correio
+  Braziliense). O Brusque fica com 48 pontos, em 13º (`AJUSTE_FALSO` em `serie_b/importar.py`).
+- **CL-013 (e SB-020), Americana e Guaratinguetá:** um clube só, "Guaratinguetá", com "Americana" no `clube_nome`
+  (`MESCLAR` em `futebol/migrar_brasileirao.py`). Agora a Série B fica 2010 a 2013 seguida.
+- **CL-014, Malutrom e J.Malucelli:** um clube só, "J.Malucelli", com "Malutrom" no `clube_nome` (`MESCLAR`).
+- **CL-015, GE Maringá e Grêmio Maringá:** um clube só, "Grêmio Maringá", como a Federação Paranaense e o ogol
+  (`MESCLAR`). O "Maringá" (Maringá FC, 2010) continua à parte.
+- **CL-016, Ferroviário-PE:** um clube só, renomeado "Ferroviário do Recife", com cidade Recife e escudo da Wikipédia. O
+  nome de fonte "Ferroviário do Cabo" (1972), que está errado, saiu do `clube_nome` (`NOME_ERRADO` e `CIDADES` no migrar).
+- **CL-024:** Ferroviário do Recife já tem escudo. Oeste e União Bandeirante ainda esperam a Wikimedia, que limita os pedidos.
+- **CL-026, sufixo "-UF":** fica como está. Os 25 nomes não mudam, e a regra dos guias passou a dizer que o sufixo
+  só é exigido para clube novo com homônimo (`docs/COMECE-AQUI.md`, `docs/agente-coleta-COMECE-AQUI.md`). Pode marcar
+  como `nao-e-erro`.

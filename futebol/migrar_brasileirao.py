@@ -37,7 +37,14 @@ UF_MANUAL = {"Aliança": "RJ", "CEUB": "DF", "Corumbaense": "MS", "Francana": "S
              "Potiguar": "RN", "Siderúrgica": "MG", "XV de Jaú": "SP", "Água Verde": "PR"}
 # mesmo clube com dois nomes de exibição no banco antigo -> nome que fica (o outro vai para clube_nome)
 MESCLAR = {"Comercial-SP": "Comercial-RP",   # Comercial de Ribeirão Preto (Série B o chama de Comercial-SP)
-           "Grêmio Prudente": "Barueri"}      # Grêmio Barueri, que jogou como Grêmio Prudente em 2010-2011
+           "Grêmio Prudente": "Barueri",      # Grêmio Barueri, que jogou como Grêmio Prudente em 2010-2011
+           "Americana": "Guaratinguetá",      # Guaratinguetá, que jogou 2011 em Americana com esse nome (decisão de 20/11/2026; CL-013)
+           "Malutrom": "J.Malucelli",         # o Malutrom (1994) passou a se chamar J.Malucelli em 2005 (decisão de 21/11/2026; CL-014)
+           "GE Maringá": "Grêmio Maringá",    # a Federação Paranaense une os títulos do GE Maringá (1961-71) e do Grêmio (1974) (21/11/2026; CL-015)
+           "Ferroviário-PE": "Ferroviário do Recife"}   # o Clube Ferroviário do Recife, Série B 1971 e 1972 (21/11/2026; CL-016)
+# nome de fonte que está errado (a fonte deu outro clube) e cidade que faltava; achado CL-016
+NOME_ERRADO = {("Ferroviário do Recife", "Ferroviário do Cabo")}
+CIDADES = {"Ferroviário do Recife": "Recife"}
 # um nome de exibição que junta dois clubes no banco antigo: (nome, nome do clube antigo, estado, último ano do antigo)
 SEPARAR = [("Novorizontino", "GE Novorizontino", "SP", 1999)]   # GE Novorizontino (1973-1999) x Grêmio Novorizontino (2010+)
 TIPO_GOL = {"gol contra": "contra", "penalti": "penalti", "penalty": "penalti", "falta": "falta", "normal": "normal"}
@@ -246,6 +253,10 @@ def migrar() -> None:
         b.execute("UPDATE edicao SET campeao_id = ?, vice_id = ? WHERE edicao_id = ?", (top[0][0] if top else None, top[1][0] if len(top) > 1 else None, ed))
     oficial_serie_a(b, serie_a)
     separar(b)
+    for clube, errado in NOME_ERRADO:
+        b.execute("DELETE FROM clube_nome WHERE nome = ? AND clube_id = (SELECT clube_id FROM clube WHERE nome = ?)", (errado, clube))
+    for clube, cidade in CIDADES.items():
+        b.execute("UPDATE clube SET cidade = ? WHERE nome = ?", (cidade, clube))
     b.commit()
     conferir(a, b, conflitos)
     import carregar_pacotes
@@ -283,6 +294,12 @@ def corrigir_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
     (ed,) = b.execute("SELECT edicao_id FROM edicao WHERE competicao_id = ? AND chave = '1968_robertao'", (serie_a,)).fetchone()
     for pos, clube in ((2, "Internacional"), (3, "Vasco"), (4, "Palmeiras")):
         b.execute("UPDATE classificacao_final SET posicao = ? WHERE edicao_id = ? AND clube_id = ?", (pos, ed, cid(clube)))
+    # SA-014 (decisão do Guilherme, 20/11/2026): caso Sandro Hiroshi, 1999. O STJD deu a vitória aos adversários do São Paulo
+    # em dois jogos (o placar de campo fica na observação), como na tabela oficial da CBF
+    for adv, campo in (("Botafogo", "6-1"), ("Internacional", "2-2")):
+        b.execute("""UPDATE partida SET gols_mandante = 0, gols_visitante = 1, resultado_especial = 'awd', observacao = ? WHERE partida_id = ?""",
+                  (f"Em campo, São Paulo {campo} {adv}. O STJD deu a vitória ao {adv} (Sandro Hiroshi jogou com documento irregular).",
+                   jogo("1999", "São Paulo", adv)))
     # SA-027: 2000 foi a Copa João Havelange; SA-028: acento no nome da fase de 1987
     b.execute("UPDATE edicao SET nome_oficial = 'Copa João Havelange' WHERE competicao_id = ? AND ano_inicio = 2000", (serie_a,))
     b.execute("UPDATE fase SET nome = replace(nome, 'Copa Uniao', 'Copa União') WHERE nome LIKE '%Copa Uniao%'")
@@ -350,9 +367,10 @@ def conferir(a: sqlite3.Connection, b: sqlite3.Connection, conflitos: list) -> N
                     a.execute("SELECT sum(coalesce(gols_mandante,0) + coalesce(gols_visitante,0)) FROM fato_partida_serie_b").fetchone()[0],
                     a.execute("SELECT count(*) FROM fato_gol_serie_b").fetchone()[0], a.execute("SELECT count(*) FROM fato_classificacao_final_serie_b").fetchone()[0]),
     }
-    # corrigir_serie_a: +1 jogo (desempate de 1959), +6 gols (3 do desempate, 2 da final de 1987, 1 da prorrogação de 2001), +3 autores
+    # corrigir_serie_a: +1 jogo (desempate de 1959), +6 gols (3 do desempate, 2 da final de 1987, 1 da prorrogação de 2001),
+    # -9 gols (Sandro Hiroshi: 6-1 e 2-2 viram 0-1 e 0-1), +3 autores
     j, g, au, f = origem["Série A"]
-    origem["Série A"] = (j + 1, g + 6, au + 3, f)
+    origem["Série A"] = (j + 1, g + 6 - 9, au + 3, f)
     for nome_c, (jogos, gols, autores, final) in origem.items():
         n = b.execute("""SELECT count(*), sum(coalesce(gols_mandante,0) + coalesce(gols_visitante,0)) FROM partida p JOIN edicao e USING (edicao_id)
                          JOIN competicao c USING (competicao_id) WHERE c.nome_curto = ?""", (nome_c,)).fetchone()

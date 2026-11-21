@@ -87,7 +87,8 @@ lê esses campos sozinho.
 **`clubes.csv`**: `clube,regiao,cidade,pais,nomes_fonte`
 - `clube`: o nome de exibição. **Se o clube já existe no `futebol.db`, use exatamente o
   `clube.nome` de lá.** Confira em `clube` e `clube_nome`; ex.: "Botafogo-PB", "Brasil de Pelotas".
-  Clube novo segue o mesmo padrão: nome curto, com "-UF" só quando há outro com o mesmo nome.
+  Clube novo segue o mesmo padrão: nome curto, com "-UF" quando há outro com o mesmo nome. Nunca renomeie um clube
+  que já está no banco, mesmo que o sufixo pareça sobrar (decisão de 21/11/2026).
 - `nomes_fonte`: todas as grafias vistas, com fonte e anos, separadas por `|`.
   Ex.: `rsssf:Botafogo/PB:1981-1999|espn:Botafogo-PB:2010-2025`.
 
