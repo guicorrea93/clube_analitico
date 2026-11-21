@@ -1988,7 +1988,7 @@ como na RSSSF.
 
 ### 1996
 
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Palmeiras
+- sem ocorrências
 
 ### 1997
 

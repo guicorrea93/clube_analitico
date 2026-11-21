@@ -15,7 +15,7 @@ PASTA_DADOS = RAIZ / "data" / "coleta" / SLUG
 PACOTE = PASTA_DADOS / "pacote"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
 
-ANOS = [1981, 1988, 1990, 1992] + list(range(1994, 2000)) + list(range(2001, 2026))
+ANOS = [1981, 1988, 1990, 1992] + list(range(1994, 2000)) + list(range(2001, 2027))
 
 # nome oficial de cada edição (Wikipédia pt / CBF)
 NOME_OFICIAL = {1981: "Taça de Bronze"}

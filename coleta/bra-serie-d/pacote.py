@@ -12,6 +12,7 @@ from collections import Counter, defaultdict
 import clubes_d
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
 from importar import FONTE_RSSSF, ORDEM, nome, pontos_vitoria
+from observacao import obs_pt
 from rsssf_d import rsssf
 
 
@@ -105,7 +106,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
             usados |= {p.mandante, p.visitante}
             linhas_p.append([pid, str(ano), p.fase, p.grupo, p.rodada, p.data, p.hora, nome(p.mandante), nome(p.visitante), p.gm, p.gv,
                              p.pen_m, p.pen_v, normalizar_especial(p.especial), p.estadio, p.cidade, p.publico, fonte_curta(p.fonte),
-                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", p.obs.strip("; ")])
+                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", obs_pt(p.obs)])
             for g in p.gols:
                 linhas_g.append([pid, nome(p.mandante if g["lado"] == "mandante" else p.visitante), g["jogador"], g["minuto"],
                                  g["acrescimo"], g["tipo"], g["fonte"]])
@@ -134,7 +135,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         lista = artilheiros_rsssf.get(ano)
         if lista:
             for jog, clube_txt, n in lista:
-                linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "RSSSF (br4tops.htm)"])
+                linhas_art.append([str(ano), jog.lstrip("- ").strip(), casar_clube_texto(clube_txt, ps, e["mapa"]), n, "RSSSF (br4tops.htm)"])
         elif ib["artilheiros"]:
             for jog, clube_txt, n in ib["artilheiros"]:
                 linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "Wikipédia (infobox da edição)"])
@@ -262,7 +263,8 @@ def casar_clube_texto(txt: str, ps: list, mapa: dict | None = None) -> str:
     def nota(i):
         nomes = {nome(i), *fs.get(i, {}).get("nomes_ogol", []), fs.get(i, {}).get("nome_completo") or "", *outros[i]}
         s = max(_sim(base, x) for x in nomes if x)
-        return s + (0.2 if uf and clubes_d.exibicao().get(i, {}).get("uf") == uf else 0)
+        # o nome de exibição igual desempata ("Santa Cruz" é o de Recife; o de Natal é "Santa Cruz de Natal", revisão SD-017)
+        return s + (0.2 if uf and clubes_d.exibicao().get(i, {}).get("uf") == uf else 0) + (0.05 if nome(i) == base else 0)
     cands = sorted(((nota(i), i) for i in ids), reverse=True)
     return nome(cands[0][1]) if cands and cands[0][0] >= 0.8 else txt
 

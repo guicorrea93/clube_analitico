@@ -26,7 +26,12 @@ def _nome(valor: str) -> str:
     valor = re.sub(r"<ref[^>]*/>|<ref[^>]*>.*?</ref>", "", valor)
     valor = re.sub(r"\{\{\s*nowrap\s*\|(.*)\}\}", r"\1", valor)
     m = re.search(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", valor)
-    return (m.group(1) if m else valor).strip(" '")
+    valor = m.group(1) if m else valor
+    # "{{flagicon|Paraíba}} Nacional/PB (Patos)" -> "Nacional-PB"
+    valor = re.sub(r"\{\{[^}]*\}\}", "", valor)
+    valor = re.sub(r"\s*\([^)]*\)\s*$", "", valor.strip())
+    valor = re.sub(r"/([A-Z]{2})\b", r"-\1", valor)
+    return valor.strip(" '")
 
 
 def nomes(ano: int) -> dict[str, str]:
@@ -58,10 +63,16 @@ def tabela(ano: int) -> list[dict]:
 def ajustes(ano: int) -> dict[str, int]:
     """Punições (e bônus) de pontos: nome -> ajuste (adjust_points_SIGLA), mesmo sem a tabela completa."""
     t = _texto(ano) or ""
-    nm = nomes(ano)
+    # a mesma sigla pode ser de clubes diferentes em tabelas diferentes ("NAC": Nacional-AM num grupo, Nacional-PB em
+    # outro): vale o name_ da sigla definido mais perto, antes da punição (o da mesma tabela)
+    defs = [(m.start(), m.group(1), _nome(m.group(2)))
+            for m in re.finditer(r"\|\s*name_([A-Za-z0-9]+)\s*=\s*(.+?)(?=\s*\|\s*name_|\n|$)", t)]
     saida: dict[str, int] = {}
-    for s, v in re.findall(r"\|\s*adjust_points_([A-Za-z0-9]+)\s*=\s*(-?\d+)", t):
-        saida[nm.get(s, s)] = int(v)   # a sigla repetida (página com duas tabelas) vale uma vez
+    for m in re.finditer(r"\|\s*adjust_points_([A-Za-z0-9]+)\s*=\s*(-?\d+)", t):
+        s = m.group(1)
+        antes = [n for pos, sig, n in defs if sig == s and pos < m.start()]
+        nome_s = antes[-1] if antes else next((n for _, sig, n in defs if sig == s), s)
+        saida[nome_s] = int(m.group(2))   # o mesmo clube em duas tabelas (fase e geral) vale uma vez
     return saida
 
 

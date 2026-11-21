@@ -1,4 +1,12 @@
 {
+ "101733": {
+  "clube": "Betim Futebol",
+  "uf": "MG",
+  "cidade": "Betim",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
  "102019": {
   "clube": "Porto Vitória",
   "uf": "ES",
@@ -417,6 +425,14 @@
   "cidade": "Guarabira",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "15642": {
+  "clube": "Serra Branca-PB",
+  "uf": "PB",
+  "cidade": "Serra Branca",
+  "competicoes": [
+   "bra-serie-d"
   ]
  },
  "15648": {
@@ -844,7 +860,8 @@
   "uf": "RO",
   "cidade": "Ariquemes",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-c"
   ]
  },
  "214050": {
@@ -859,6 +876,14 @@
   "clube": "São Paulo Crystal",
   "uf": "PB",
   "cidade": "Cruz Do Espírito Santo",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
+ "215573": {
+  "clube": "Agro EC",
+  "uf": "GO",
+  "cidade": "Ouvidor",
   "competicoes": [
    "bra-serie-d"
   ]
@@ -1051,6 +1076,14 @@
    "bra-sp-1"
   ]
  },
+ "228854": {
+  "clube": "Tirol",
+  "uf": "CE",
+  "cidade": "Fortaleza",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
  "23003": {
   "clube": "Itaporã",
   "uf": "MS",
@@ -1064,7 +1097,8 @@
   "uf": "MA",
   "cidade": "São Luís",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-d"
   ]
  },
  "23153": {
@@ -1101,6 +1135,14 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "237494": {
+  "clube": "Guaporé",
+  "uf": "RO",
+  "cidade": "Rolim De Moura",
+  "competicoes": [
+   "bra-serie-d"
   ]
  },
  "237932": {
@@ -1185,6 +1227,14 @@
   "cidade": "Maringá",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "242601": {
+  "clube": "Maguary-PE",
+  "uf": "PE",
+  "cidade": "Bonito",
+  "competicoes": [
+   "bra-serie-d"
   ]
  },
  "244128": {
@@ -1420,10 +1470,34 @@
    "bra-copa-do-brasil"
   ]
  },
+ "26607": {
+  "clube": "Santa Catarina",
+  "uf": "SC",
+  "cidade": "Rio do Sul",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
+ "271099": {
+  "clube": "Primavera AC",
+  "uf": "MT",
+  "cidade": "Primavera do Leste",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
  "272125": {
   "clube": "Itabirito FC",
   "uf": "MG",
   "cidade": "Itabirito",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
+ "274175": {
+  "clube": "Laguna",
+  "uf": "RN",
+  "cidade": "Tibau do Sul",
   "competicoes": [
    "bra-serie-d"
   ]
@@ -1638,6 +1712,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "310788": {
+  "clube": "Monte Roraima",
+  "uf": "RR",
+  "cidade": "Boa Vista",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
  "3108": {
   "clube": "Anápolis",
   "uf": "GO",
@@ -1817,7 +1899,8 @@
   "cidade": "Blumenau",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-d"
   ]
  },
  "3153": {
@@ -2232,6 +2315,14 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil"
+  ]
+ },
+ "321363": {
+  "clube": "Porto-BA",
+  "uf": "BA",
+  "cidade": "Porto Seguro",
+  "competicoes": [
+   "bra-serie-d"
   ]
  },
  "3214": {
@@ -2711,7 +2802,8 @@
   "uf": "AP",
   "cidade": "Macapá",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-d"
   ]
  },
  "3301": {
@@ -2783,7 +2875,8 @@
   "uf": "MS",
   "cidade": "Ivinhema",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-d"
   ]
  },
  "3310": {
@@ -3329,7 +3422,8 @@
   "cidade": "Teresina",
   "competicoes": [
    "bra-serie-c",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-d"
   ]
  },
  "3395": {
@@ -4208,6 +4302,14 @@
    "bra-serie-d"
   ]
  },
+ "36316": {
+  "clube": "Inhumas",
+  "uf": "GO",
+  "cidade": "Inhumas",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
  "36613": {
   "clube": "CEOV Operário",
   "uf": "MT",
@@ -4292,6 +4394,14 @@
   "cidade": "Barra Mansa",
   "competicoes": [
    "bra-serie-c"
+  ]
+ },
+ "39453": {
+  "clube": "Sampaio Corrêa-RJ",
+  "uf": "RJ",
+  "cidade": "Saquarema",
+  "competicoes": [
+   "bra-serie-d"
   ]
  },
  "39622": {
@@ -4781,7 +4891,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-serie-d"
   ]
  },
  "76884": {
@@ -5162,7 +5273,8 @@
   "uf": "SP",
   "cidade": "Rio Claro",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-serie-d"
   ]
  },
  "86295": {
@@ -5243,7 +5355,8 @@
   "uf": "SC",
   "cidade": "Balneário Camboriú",
   "competicoes": [
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-serie-c"
   ]
  },
  "94274": {
@@ -5275,6 +5388,14 @@
   "clube": "Jacobina",
   "uf": "BA",
   "cidade": "Jacobina",
+  "competicoes": [
+   "bra-serie-d"
+  ]
+ },
+ "96110": {
+  "clube": "Decisão",
+  "uf": "PE",
+  "cidade": "Goiana",
   "competicoes": [
    "bra-serie-d"
   ]

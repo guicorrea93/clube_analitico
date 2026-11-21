@@ -3,7 +3,7 @@
 Gerado por `python coleta/bra-serie-d/importar.py`. Pacote em `data/coleta/bra-serie-d/pacote/`. Método e código iguais aos
 da Série C (`docs/coleta/bra-serie-c.md`).
 
-**Edições:** 17, de 2009 a 2025, conferidas na RSSSF Brasil (lista de campeões da 4ª divisão, até 2023) e na Wikipédia em
+**Edições:** 18, de 2009 a 2026, conferidas na RSSSF Brasil (lista de campeões da 4ª divisão, até 2023) e na Wikipédia em
 português (artigo da Série D, até 2025). Os campeões de 2009 a 2023 são os mesmos nas duas. Nome oficial: Campeonato
 Brasileiro Série D.
 
@@ -14,6 +14,13 @@ na RSSSF); Wikipédia (punições de pontos, lista de campeões, promovidos e ar
 **Regras:** placar diferente entre RSSSF e ogol fica com a versão que fecha com a tabela publicada pela RSSSF; sem tabela,
 fica a da RSSSF. Autores dos gols só entram quando a soma bate com o placar. Clube que já está no `futebol.db` usa o nome de lá;
 clube que já apareceu na Série C usa o mesmo nome do pacote da Série C (cadastro comum `data/coleta/comum/clubes_ogol.json`).
+
+**Fases e grupos (revisão SD-004 a SD-009):** saem do código de cada jogo no ogol, que tem a estrutura completa da Série D
+(grupos numerados; FP, 2F, 3F, 1/8, QF, SF e F para o mata-mata). As páginas da RSSSF perdem grupos (2018, 2020, 2022),
+juntam fases (2011) e põem jogos de mata-mata em grupos (2021). O nome do grupo é o da RSSSF quando ela o dá certo.
+
+**Classificação final (revisão SD-002, SD-003):** campeão e vice em cima; depois a fase alcançada; na mesma fase, a
+posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe, só desempata dentro da mesma fase.
 
 | Ano | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|---|
@@ -32,8 +39,9 @@ clube que já apareceu na Série C usa o mesmo nome do pacote da Série C (cadas
 | 2021 | RSSSF + ogol | 68 | 518 (518) | 1259 | 271 | 0 / 0 | Aparecidense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2022 | RSSSF + ogol | 64 | 510 (510) | 1154 | 1131 | 39 / 0 | América-RN | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2023 | RSSSF + ogol | 64 | 510 (510) | 1191 | 1117 | 0 / 0 | Ferroviário-CE | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2024 | RSSSF + ogol | 64 | 510 (510) | 1138 | 1131 | 39 / 0 | Retrô FC | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2024 | RSSSF + ogol | 64 | 510 (510) | 1143 | 1130 | 38 / 1 | Retrô FC | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2025 | RSSSF + ogol | 64 | 510 (510) | 1148 | 1134 | 39 / 0 | Barra-SC | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2026 | ogol | 96 | 610 (610) | 1389 | 0 | 0 / 0 | Uberlândia | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 
 ## Conferência e correções, ano a ano
 
@@ -41,54 +49,60 @@ clube que já apareceu na Série C usa o mesmo nome do pacote da Série C (cadas
 
 - tabela publicada x jogos — Primeira fase / Grupo 1: Genus tabela [4, 2, 0, 2, 6, 5] jogos [4, 2, 0, 2, 7, 5] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo 1: Atlético Roraima tabela [4, 1, 0, 3, 3, 6] jogos [4, 1, 0, 3, 3, 7] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase final / -: Genus tabela [6, 2, 1, 3, 7, 8] jogos [6, 2, 1, 3, 8, 8] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase final / -: Atlético Roraima tabela [4, 1, 0, 3, 3, 6] jogos [4, 1, 0, 3, 3, 7] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Segunda fase / -: Genus tabela [6, 2, 1, 3, 7, 8] jogos [6, 2, 1, 3, 8, 8] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Segunda fase / -: Atlético Roraima tabela [4, 1, 0, 3, 3, 6] jogos [4, 1, 0, 3, 3, 7] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, São Raimundo-PA
 
 ### 2010
 
-- tabela publicada x jogos — Final / -: Metropolitano tabela [8, 3, 3, 2, 11, 8] jogos [8, 3, 2, 3, 11, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Segunda fase / -: Metropolitano tabela [8, 3, 3, 2, 11, 8] jogos [8, 3, 2, 3, 11, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 
 ### 2011
 
 - dois jogos da página foram anulados e ficam de fora (motivo abaixo); com isso, jogos e tabelas batem com o ogol
 - jogo anulado fica de fora (1): Anapolina 4-1 Tocantinópolis — 1ª fase: anulado pelo STJD (o Tocantinópolis terminou com 6 jogadores); o jogo foi refeito em 17/10 (6-1), e a tabela do grupo A5 conta só o novo jogo
 - jogo anulado fica de fora (1): Itumbiara 3-1 Villa Nova — 2ª fase: jogado em 25/09 e anulado depois que o jogo Anapolina x Tocantinópolis da 1ª fase foi refeito (nota da página da RSSSF)
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Tupi
+- fases e grupos pelo ogol em 18 jogos: Segunda fase/- → Oitavas de final/- (16); Semifinal/- → Final/- (2)
 
 ### 2012
 
 - a página da RSSSF não traz os autores dos gols
+- fases e grupos pelo ogol em 16 jogos: Segunda fase/- → Oitavas de final/- (16)
 
 ### 2013
 
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Botafogo-PB x Salgueiro, ogol 2013-09-06); fica a do ogol
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Botafogo-PB
+- fases e grupos pelo ogol em 30 jogos: Terceira fase/Grupo C1 → Quartas de final/- (4); Segunda fase/Grupo B1 → Oitavas de final/- (2); Segunda fase/Grupo B2 → Oitavas de final/- (2); Segunda fase/Grupo B3 → Oitavas de final/- (2); Segunda fase/Grupo B4 → Oitavas de final/- (2); Segunda fase/Grupo B5 → Oitavas de final/- (2); Segunda fase/Grupo B6 → Oitavas de final/- (2); Segunda fase/Grupo B7 → Oitavas de final/- (2) ...
 
 ### 2014
 
-- sem ocorrências
+- jogo corrigido à mão — Itaporã x Villa Nova-MG: W.O.: o Itaporã abandonou a competição (revisão SD-013)
+- jogo corrigido à mão — Anapolina x Itaporã: W.O.: o Itaporã abandonou a competição (revisão SD-013)
+- jogo corrigido à mão — Barueri x CEOV Operário: W.O. (revisão SD-013)
+- fases e grupos pelo ogol em 30 jogos: Segunda fase/Grupo B1 → Oitavas de final/- (2); Segunda fase/Grupo B2 → Oitavas de final/- (2); Segunda fase/Grupo B3 → Oitavas de final/- (2); Segunda fase/Grupo B4 → Oitavas de final/- (2); Segunda fase/Grupo B5 → Oitavas de final/- (2); Segunda fase/Grupo B6 → Oitavas de final/- (2); Segunda fase/Grupo B7 → Oitavas de final/- (2); Segunda fase/Grupo B8 → Oitavas de final/- (2) ...
 
 ### 2015
 
-- sem ocorrências
+- fases e grupos pelo ogol em 30 jogos: Segunda fase/Grupo B1 → Oitavas de final/- (2); Segunda fase/Grupo B2 → Oitavas de final/- (2); Segunda fase/Grupo B3 → Oitavas de final/- (2); Segunda fase/Grupo B4 → Oitavas de final/- (2); Segunda fase/Grupo B5 → Oitavas de final/- (2); Segunda fase/Grupo B6 → Oitavas de final/- (2); Segunda fase/Grupo B7 → Oitavas de final/- (2); Segunda fase/Grupo B8 → Oitavas de final/- (2) ...
 
 ### 2016
 
 - as tabelas desta página (e de 2017 a 2019) têm uma coluna a mais ('PTS J PE V E D'); o leitor reconhece essa ordem
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: CSA x Volta Redonda, ogol 2016-09-29); fica a do ogol
+- jogo corrigido à mão — CSA x Volta Redonda: a ida da final foi em 25/09 (borderô da CBF; revisão SD-012)
+- fases e grupos pelo ogol em 62 jogos: Primeira fase/- → Primeira fase/Grupo A11 (6); Segunda fase/Grupo B09 → Segunda fase/- (2); Segunda fase/Grupo B14 → Segunda fase/- (2); Segunda fase/Grupo B13 → Segunda fase/- (2); Segunda fase/Grupo B15 → Segunda fase/- (2); Segunda fase/Grupo B07 → Segunda fase/- (2); Segunda fase/Grupo B12 → Segunda fase/- (2); Segunda fase/Grupo B11 → Segunda fase/- (2) ...
 
 ### 2017
 
-- sem ocorrências
+- fases e grupos pelo ogol em 66 jogos: Primeira fase/- → Primeira fase/Grupo A11 (6); Terceira fase/- → Oitavas de final/- (4); Segunda fase/Grupo B14 → Segunda fase/- (2); Segunda fase/Grupo B09 → Segunda fase/- (2); Segunda fase/Grupo B12 → Segunda fase/- (2); Segunda fase/Grupo B15 → Segunda fase/- (2); Segunda fase/Grupo B10 → Segunda fase/- (2); Segunda fase/Grupo B03 → Segunda fase/- (2) ...
 
 ### 2018
 
-- sem ocorrências
+- fases e grupos pelo ogol em 266 jogos: Segunda fase/Grupo B0 → Segunda fase/- (18); Terceira fase/Grupo C0 → Oitavas de final/- (16); Segunda fase/Grupo B1 → Segunda fase/- (14); Primeira fase/Grupo A1 → Primeira fase/Grupo A14 (12); Primeira fase/Grupo A1 → Primeira fase/Grupo A10 (12); Primeira fase/Grupo A1 → Primeira fase/Grupo A11 (12); Primeira fase/Grupo A0 → Primeira fase/Grupo A07 (12); Primeira fase/Grupo A1 → Primeira fase/Grupo A17 (12) ...
 
 ### 2019
 
-- sem ocorrências
+- fases e grupos pelo ogol em 60 jogos: Segunda fase/Grupo B07 → Segunda fase/- (2); Segunda fase/Grupo B12 → Segunda fase/- (2); Segunda fase/Grupo B06 → Segunda fase/- (2); Segunda fase/Grupo B10 → Segunda fase/- (2); Segunda fase/Grupo B15 → Segunda fase/- (2); Segunda fase/Grupo B04 → Segunda fase/- (2); Segunda fase/Grupo B13 → Segunda fase/- (2); Segunda fase/Grupo B08 → Segunda fase/- (2) ...
 
 ### 2020
 
@@ -140,7 +154,7 @@ clube que já apareceu na Série C usa o mesmo nome do pacote da Série C (cadas
 - jogo só no ogol, incluído em Second Phase: Altos 0-1 Mirassol (2021-01-24)
 - jogo só no ogol, incluído em Second Phase: Floresta-CE 0-1 Mirassol (2021-01-30)
 - jogo só no ogol, incluído em Second Phase: Mirassol 1-0 Floresta-CE (2021-02-06)
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Mirassol
+- fases e grupos pelo ogol em 486 jogos: Primeira fase/Grupo A → Primeira fase/Grupo A6 (56); Primeira fase/Grupo A → Primeira fase/Grupo A5 (56); Primeira fase/Grupo A → Primeira fase/Grupo A8 (56); Primeira fase/Grupo A → Primeira fase/Grupo A1 (56); Primeira fase/Grupo A → Primeira fase/Grupo A3 (56); Primeira fase/Grupo A → Primeira fase/Grupo A7 (56); Primeira fase/Grupo A → Primeira fase/Grupo A2 (56); Primeira fase/Grupo A → Primeira fase/Grupo A4 (56) ...
 
 ### 2021
 
@@ -561,10 +575,11 @@ clube que já apareceu na Série C usa o mesmo nome do pacote da Série C (cadas
 - jogo só no ogol, incluído em Semifinal: ABC 1-0 Aparecidense (2021-10-31)
 - jogo só no ogol, incluído em Final: Campinense 0-1 Aparecidense (2021-11-06)
 - jogo só no ogol, incluído em Final: Aparecidense 1-1 Campinense (2021-11-13)
+- fases e grupos pelo ogol em 12 jogos: PRELIMINARY STAGE/- → Fase preliminar/- (8); Primeira fase/Grupo A03 → Quartas de final/- (2); Primeira fase/Grupo A03 → Semifinal/- (2)
 
 ### 2022
 
-- sem ocorrências
+- fases e grupos pelo ogol em 510 jogos: Primeira fase/Grupo A → Primeira fase/Grupo A7 (56); Primeira fase/Grupo A → Primeira fase/Grupo A8 (56); Primeira fase/Grupo A → Primeira fase/Grupo A6 (56); Primeira fase/Grupo A → Primeira fase/Grupo A5 (56); Primeira fase/Grupo A → Primeira fase/Grupo A4 (56); Primeira fase/Grupo A → Primeira fase/Grupo A3 (56); Primeira fase/Grupo A → Primeira fase/Grupo A2 (56); Primeira fase/Grupo A → Primeira fase/Grupo A1 (56) ...
 
 ### 2023
 
@@ -601,14 +616,25 @@ clube que já apareceu na Série C usa o mesmo nome do pacote da Série C (cadas
 - jogo só no ogol, incluído em Segunda fase: Anápolis 3-1 Democrata-GV (2023-08-06)
 - jogo só no ogol, incluído em Segunda fase: Retrô FC 2-1 Pacajus (2023-08-06)
 - jogo só no ogol, incluído em Segunda fase: Maringá 1-1 Camboriú (2023-08-06)
+- fases e grupos pelo ogol em 30 jogos: Quartas de final/Grupo D03 → Quartas de final/- (4); Oitavas de final/Grupo C1 → Oitavas de final/- (2); Oitavas de final/Grupo C2 → Oitavas de final/- (2); Oitavas de final/Grupo C3 → Oitavas de final/- (2); Oitavas de final/Grupo C4 → Oitavas de final/- (2); Oitavas de final/Grupo C5 → Oitavas de final/- (2); Oitavas de final/Grupo C6 → Oitavas de final/- (2); Oitavas de final/Grupo C7 → Oitavas de final/- (2) ...
 
 ### 2024
 
+- tabela publicada x jogos — Primeira fase / Grupo A1: Manaus FC tabela [14, 8, 2, 4, 19, 15] jogos [14, 7, 3, 4, 21, 18] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Primeira fase / Grupo A1: Princesa tabela [14, 7, 3, 4, 20, 14] jogos [14, 7, 4, 3, 23, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - placar diferente no ogol — Princesa x Manaus FC (2024-05-11): RSSSF 0-1, ogol 3-3; fica o da RSSSF
+- jogo corrigido à mão — Princesa x Manaus FC: ogol e Wikipédia: 3-3 (revisão SD-010)
+- fases e grupos pelo ogol em 62 jogos: Segunda fase/Grupo B08 → Segunda fase/- (2); Segunda fase/Grupo B13 → Segunda fase/- (2); Segunda fase/Grupo B09 → Segunda fase/- (2); Segunda fase/Grupo B01 → Segunda fase/- (2); Segunda fase/Grupo B02 → Segunda fase/- (2); Segunda fase/Grupo B10 → Segunda fase/- (2); Segunda fase/Grupo B03 → Segunda fase/- (2); Segunda fase/Grupo B14 → Segunda fase/- (2) ...
 
 ### 2025
 
-- sem ocorrências
+- fases e grupos pelo ogol em 60 jogos: Segunda fase/Grupo B12 → Segunda fase/- (2); Segunda fase/Grupo B15 → Segunda fase/- (2); Segunda fase/Grupo B01 → Segunda fase/- (2); Segunda fase/Grupo B09 → Segunda fase/- (2); Segunda fase/Grupo B07 → Segunda fase/- (2); Segunda fase/Grupo B11 → Segunda fase/- (2); Segunda fase/Grupo B10 → Segunda fase/- (2); Segunda fase/Grupo B14 → Segunda fase/- (2) ...
+
+### 2026
+
+- a RSSSF ainda não tem a página de 2026: os jogos, as fases e os grupos vêm do ogol (revisão SD-001). Os perdedores das quartas jogaram uma repescagem pelas duas últimas vagas de acesso (Nacional-AM e Goiatuba subiram). Sem autores de gols
+- a RSSSF ainda não tem a página de 2026: a base dos jogos é o ogol (revisão SD-001)
+- fases e grupos pelo ogol em 4 jogos: Primeira fase/- → Repescagem/- (4)
 
 ## Identidade dos clubes
 

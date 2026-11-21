@@ -76,8 +76,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-0026,Colatina,Nilmar,,,normal,RSSSF
 1990-0027,América-RJ,Luis Fernando,76,,normal,RSSSF
 1990-0039,União-MT,Carlinhos,,,normal,RSSSF
-1990-0039,Atlético-GO,Julio César,,,normal,RSSSF
-1990-0039,Atlético-GO,Julio César,,,normal,RSSSF
+1990-0039,Atlético-GO,Júlio César,,,normal,RSSSF
+1990-0039,Atlético-GO,Júlio César,,,normal,RSSSF
 1990-0040,Gama,Zoca,49,,normal,RSSSF
 1990-0045,Bangu,Gilson fh,,,normal,RSSSF
 1990-0045,Bangu,Adaílton,,,contra,RSSSF
@@ -123,10 +123,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1992-0114,Nacional-AM,Zedivan,90,,normal,RSSSF
 1992-0114,Tuna Luso,Ageu,19,,normal,RSSSF
 1992-0114,Tuna Luso,Ageu,86,,normal,RSSSF
-1992-0120,Tuna Luso,Ageu,15,,normal,RSSSF
-1992-0120,Tuna Luso,Manelão,90,,normal,RSSSF
-1992-0120,Tuna Luso,Juninho,90,4,normal,RSSSF
-1992-0120,Fluminense-BA,Ronaldo,87,,normal,RSSSF
+1992-0122,Tuna Luso,Ageu,15,,normal,RSSSF
+1992-0122,Tuna Luso,Manelão,90,,normal,RSSSF
+1992-0122,Tuna Luso,Juninho,90,4,normal,RSSSF
+1992-0122,Fluminense-BA,Ronaldo,87,,normal,RSSSF
 1999-0002,Rio Negro-AM,Bezerra,,,normal,RSSSF
 1999-0005,Rio Negro-AM,Gláucio,35,,normal,RSSSF
 1999-0005,Rio Negro-AM,Marquito,55,,normal,RSSSF
@@ -329,175 +329,175 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0217,Ipatinga,Cristian,,,normal,RSSSF
 2002-0221,Brasiliense,Wellington Dias,,,normal,RSSSF
 2002-0221,Brasiliense,Diano,,,normal,RSSSF
-2003-0010,CFA,Klebert,,,normal,RSSSF
-2003-0013,Nacional-AM,Joca,,,normal,RSSSF
-2003-0013,Nacional-AM,Paulão,,,normal,RSSSF
-2003-0013,Nacional-AM,Cisco,,,normal,RSSSF
-2003-0013,Nacional-AM,Fred,,,normal,RSSSF
-2003-0013,CFA,Souza,,,normal,RSSSF
-2003-0013,CFA,Souza,,,normal,RSSSF
-2003-0015,Rio Negro-AM,Thiago Regis,,,normal,RSSSF
-2003-0015,Rio Negro-AM,Rodrigo Anderson,,,normal,RSSSF
-2003-0015,Rio Negro-AM,Rodrigo Anderson,,,normal,RSSSF
-2003-0015,Rio Branco-AC,Marcão,,,normal,RSSSF
-2003-0015,Rio Branco-AC,Juliano César,,,normal,RSSSF
-2003-0015,Rio Branco-AC,Juliano César,,,normal,RSSSF
-2003-0015,Rio Branco-AC,Rozier,,,normal,RSSSF
-2003-0057,Palmas,Arismar,,,normal,RSSSF
-2003-0057,Palmas,Neuran,,,normal,RSSSF
-2003-0057,Anápolis,Leandro Matera,,,normal,RSSSF
-2003-0059,Anápolis,Márcio Assis,,,normal,RSSSF
-2003-0059,Anápolis,Emerson,62,,normal,RSSSF
-2003-0059,Anápolis,André Duarte,75,,normal,RSSSF
-2003-0059,Tocantinópolis,Claudinho,20,,normal,RSSSF
-2003-0059,Tocantinópolis,Evaldo,23,,normal,RSSSF
-2003-0059,Tocantinópolis,Juca,40,,normal,RSSSF
-2003-0060,Tocantinópolis,Juca,,,normal,RSSSF
-2003-0060,Tocantinópolis,Gilmar,,,normal,RSSSF
-2003-0063,Candango EC,Jaques,,,normal,RSSSF
-2003-0063,Candango EC,Jaques,,,normal,RSSSF
-2003-0069,Uberlândia,Divanir,68,,normal,RSSSF
-2003-0069,Francana,Deivid,40,,normal,RSSSF
-2003-0070,Ituiutabana,Deílton,59,,normal,RSSSF
-2003-0071,Francana,César Mendes,54,,normal,RSSSF
-2003-0071,Francana,Roberto Alves,57,,normal,RSSSF
-2003-0071,Francana,Mauro,73,,normal,RSSSF
-2003-0071,Ituiutabana,Elias,88,,normal,RSSSF
-2003-0072,Ituiutabana,Rolete,76,,normal,RSSSF
-2003-0075,Rio Branco-MG,André Roza,30,,normal,RSSSF
-2003-0075,Rio Branco-MG,Maradona,57,,normal,RSSSF
-2003-0075,Rio Branco-MG,Gil,88,,normal,RSSSF
-2003-0075,Bragantino,Reginaldo,33,,normal,RSSSF
-2003-0076,Bragantino,Daniel,10,,normal,RSSSF
-2003-0077,Uberaba,Palhinha,63,,normal,RSSSF
-2003-0078,Rio Branco-MG,Maradona,43,,normal,RSSSF
-2003-0078,Rio Branco-MG,Gil,89,,normal,RSSSF
-2003-0082,Ipatinga,Wellington Amorim,11,,normal,RSSSF
-2003-0082,Ipatinga,Wellington Amorim,45,,normal,RSSSF
-2003-0082,Ipatinga,Wellington Amorim,90,,normal,RSSSF
-2003-0082,Ipatinga,Paulo César,76,,normal,RSSSF
-2003-0083,Ipatinga,Nenê Miranda,89,,normal,RSSSF
-2003-0084,Desportiva-ES,Léo Oliveira,8,,normal,RSSSF
-2003-0084,Estrela do Norte,Eraldo,13,,normal,RSSSF
-2003-0084,Estrela do Norte,Eraldo,18,,normal,RSSSF
-2003-0085,Desportiva-ES,Kesley,78,,normal,RSSSF
-2003-0086,Estrela do Norte,Eraldo,78,,normal,RSSSF
-2003-0087,Villa Nova-MG,Didi,17,,normal,RSSSF
-2003-0087,Desportiva-ES,Morelato,11,,normal,RSSSF
-2003-0087,Desportiva-ES,Kill,16,,normal,RSSSF
-2003-0087,Desportiva-ES,Kill,62,,normal,RSSSF
-2003-0087,Desportiva-ES,Kill,76,,normal,RSSSF
-2003-0087,Desportiva-ES,Léo Oliveira,69,,normal,RSSSF
-2003-0087,Desportiva-ES,Agnaldo,74,,normal,RSSSF
-2003-0088,Ipatinga,Valter Minhoca,54,,normal,RSSSF
-2003-0088,Ipatinga,Edmundo,56,,normal,RSSSF
-2003-0088,Ipatinga,Edmundo,76,,normal,RSSSF
-2003-0090,Estrela do Norte,Eraldo,,,normal,RSSSF
-2003-0094,Goytacaz,Leandro,30,,normal,RSSSF
-2003-0094,Goytacaz,Leandro,82,,normal,RSSSF
-2003-0094,Goytacaz,Toca,44,,normal,RSSSF
-2003-0095,Tupi,Marinho,66,,normal,RSSSF
-2003-0095,Tupi,Alex Rossi,67,,normal,RSSSF
-2003-0097,Serra,Ailson,30,,normal,RSSSF
-2003-0097,Goytacaz,Maciel,32,,normal,RSSSF
-2003-0098,Rio Branco-ES,Jorge,4,,normal,RSSSF
-2003-0098,Rio Branco-ES,Rodrigo Calixto,26,,normal,RSSSF
-2003-0099,Goytacaz,Leandro,13,,normal,RSSSF
-2003-0100,Tupi,Marinho,16,,normal,RSSSF
-2003-0100,Tupi,Alex Rossi,48,,normal,RSSSF
-2003-0100,Tupi,Chem,,,normal,RSSSF
-2003-0102,Serra,Sharley,,,normal,RSSSF
-2003-0102,Rio Branco-ES,Rodrigo Calixto,,,normal,RSSSF
-2003-0102,Rio Branco-ES,Rodrigo Calixto,,,normal,RSSSF
-2003-0102,Rio Branco-ES,Hércules,,,normal,RSSSF
-2003-0102,Rio Branco-ES,Jorge Júnior,,,normal,RSSSF
-2003-0111,Macaé,Samu,,,normal,RSSSF
-2003-0111,Macaé,Nilberto,,,normal,RSSSF
-2003-0112,Americano-RJ,Vitinho,,,normal,RSSSF
-2003-0113,Macaé,Samu,,,normal,RSSSF
-2003-0114,Americano-RJ,Wéderson,,,normal,RSSSF
-2003-0114,Americano-RJ,Oliveira,,,normal,RSSSF
-2003-0114,Rio Branco-RJ,Rodolfo,,,normal,RSSSF
-2003-0115,Rio Branco-RJ,Cosme,,,normal,RSSSF
-2003-0115,Rio Branco-RJ,Cosme,,,normal,RSSSF
-2003-0115,Portuguesa-RJ,Marcelão,,,normal,RSSSF
-2003-0115,Portuguesa-RJ,Marcelão,,,normal,RSSSF
-2003-0115,Portuguesa-RJ,Marcinho,,,normal,RSSSF
-2003-0116,Americano-RJ,Wéderson,,,normal,RSSSF
-2003-0116,Americano-RJ,Laerte,,,normal,RSSSF
-2003-0124,Olaria,Bil,,,normal,RSSSF
-2003-0124,Olaria,Carlos Eduardo,,,normal,RSSSF
-2003-0125,Cabofriense,Gil Bala,,,normal,RSSSF
-2003-0125,Cabofriense,Everton,,,normal,RSSSF
-2003-0125,Cabofriense,Guto,,,normal,RSSSF
-2003-0125,Olaria,Daniel,,,normal,RSSSF
-2003-0125,Olaria,Rafael,,,normal,RSSSF
-2003-0135,Volta Redonda,Anderson Luiz,,,normal,RSSSF
-2003-0135,Friburguense,Jack Jones,,,normal,RSSSF
-2003-0136,Friburguense,Chiquinho,,,normal,RSSSF
-2003-0136,Friburguense,Marcinho,,,normal,RSSSF
-2003-0189,Chapadinha,Serginho,90,2,normal,RSSSF
-2003-0190,Viana,Edinho,,,normal,RSSSF
-2003-0191,Viana,Oswaldo,80,,normal,RSSSF
-2003-0192,Viana,Sebastião Gomes,54,,normal,RSSSF
-2003-0194,Chapadinha,Serginho,12,,normal,RSSSF
-2003-0194,Chapadinha,Toinho Cortês,87,,normal,RSSSF
-2003-0194,Maranhão,Catê,8,,normal,RSSSF
-2003-0195,Imperatriz,Leivinha,23,,normal,RSSSF
-2003-0196,Sampaio Corrêa,Carabina,30,,penalti,RSSSF
-2003-0196,Sampaio Corrêa,Silva,74,,normal,RSSSF
-2003-0197,Santa Inês,Hilderlando,10,,normal,RSSSF
-2003-0197,Santa Inês,Hilderlando,17,,normal,RSSSF
-2003-0197,Santa Inês,Hilderlando,67,,normal,RSSSF
-2003-0197,Imperatriz,Clayff,9,,normal,RSSSF
-2003-0198,Imperatriz,Fabinho Paulista,19,,penalti,RSSSF
-2003-0198,Imperatriz,Zé Eduardo,65,,normal,RSSSF
-2003-0199,Santa Inês,Kelson,41,,normal,RSSSF
-2003-0199,Sampaio Corrêa,Vanvan,23,,normal,RSSSF
-2003-0200,Imperatriz,Tupan,87,,normal,RSSSF
-2003-0200,Imperatriz,Tupan,90,2,normal,RSSSF
-2003-0201,River-PI,Sílvio,,,normal,RSSSF
-2003-0201,River-PI,Sílvio,,,normal,RSSSF
-2003-0201,River-PI,Ivair,,,normal,RSSSF
-2003-0202,Flamengo-PI,Luciano,,,normal,RSSSF
-2003-0202,Flamengo-PI,Niel,,,normal,RSSSF
-2003-0202,Flamengo-PI,Joniel,,,normal,RSSSF
-2003-0202,Flamengo-PI,Cléber Paulista,,,normal,RSSSF
-2003-0203,Flamengo-PI,Joniel,49,,normal,RSSSF
-2003-0204,River-PI,Sílvio,61,,normal,RSSSF
-2003-0204,Flamengo-PI,Joniel,45,,normal,RSSSF
-2003-0204,Flamengo-PI,Bambam,85,,normal,RSSSF
-2003-0205,Caxiense,Edcarlos,85,,normal,RSSSF
-2003-0206,River-PI,Sílvio,60,,normal,RSSSF
-2003-0208,Itapipoca,César Baiano,57,,penalti,RSSSF
-2003-0208,Itapipoca,Dema,61,,normal,RSSSF
-2003-0208,Ferroviário-CE,Januário,8,,normal,RSSSF
-2003-0209,Guarany,Marciano,38,,normal,RSSSF
-2003-0209,Guarany,Dorgival,60,,normal,RSSSF
-2003-0209,Guarany,Paulinho,85,,normal,RSSSF
-2003-0211,Ferroviário-CE,Gilson Maratá,32,,normal,RSSSF
-2003-0211,Ferroviário-CE,Pastor,57,,normal,RSSSF
-2003-0211,Itapipoca,Nissinho,31,,normal,RSSSF
-2003-0211,Itapipoca,Nissinho,90,1,normal,RSSSF
-2003-0211,Itapipoca,Dema,49,,normal,RSSSF
-2003-0212,Guarany,Marciano,39,,normal,RSSSF
-2003-0212,Ferroviário-CE,Adailton,73,,normal,RSSSF
-2003-0213,Campinense,Neto,,,normal,RSSSF
-2003-0215,Campinense,Neto,,,normal,RSSSF
-2003-0215,Campinense,?,,,normal,RSSSF
-2003-0216,Campinense,Neto,,,normal,RSSSF
-2003-0216,ABC,Cris,,,normal,RSSSF
-2003-0216,ABC,Cris,,,normal,RSSSF
-2003-0217,ABC,Reinaldo Aleluia,,,normal,RSSSF
-2003-0217,ABC,Cris,,,normal,RSSSF
-2003-0217,São Gonçalo-RN,Ivan,,,normal,RSSSF
-2003-0218,São Gonçalo-RN,Ivan,,,normal,RSSSF
-2003-0218,São Gonçalo-RN,Renato Peixe,,,normal,RSSSF
-2003-0218,São Gonçalo-RN,Paulinho Macaiba,,,normal,RSSSF
-2003-0218,Campinense,Neto,,,normal,RSSSF
-2003-0218,Campinense,Rodrigo Tabata,,,normal,RSSSF
-2003-0271,Juazeiro,Janilson,,,normal,RSSSF
-2003-0271,Juazeiro,Lelé] -,,,normal,RSSSF
+2003-0002,CFA,Klebert,,,normal,RSSSF
+2003-0005,Nacional-AM,Joca,,,normal,RSSSF
+2003-0005,Nacional-AM,Paulão,,,normal,RSSSF
+2003-0005,Nacional-AM,Cisco,,,normal,RSSSF
+2003-0005,Nacional-AM,Fred,,,normal,RSSSF
+2003-0005,CFA,Souza,,,normal,RSSSF
+2003-0005,CFA,Souza,,,normal,RSSSF
+2003-0007,Rio Negro-AM,Thiago Regis,,,normal,RSSSF
+2003-0007,Rio Negro-AM,Rodrigo Anderson,,,normal,RSSSF
+2003-0007,Rio Negro-AM,Rodrigo Anderson,,,normal,RSSSF
+2003-0007,Rio Branco-AC,Marcão,,,normal,RSSSF
+2003-0007,Rio Branco-AC,Juliano César,,,normal,RSSSF
+2003-0007,Rio Branco-AC,Juliano César,,,normal,RSSSF
+2003-0007,Rio Branco-AC,Rozier,,,normal,RSSSF
+2003-0049,Palmas,Arismar,,,normal,RSSSF
+2003-0049,Palmas,Neuran,,,normal,RSSSF
+2003-0049,Anápolis,Leandro Matera,,,normal,RSSSF
+2003-0051,Anápolis,Márcio Assis,,,normal,RSSSF
+2003-0051,Anápolis,Emerson,62,,normal,RSSSF
+2003-0051,Anápolis,André Duarte,75,,normal,RSSSF
+2003-0051,Tocantinópolis,Claudinho,20,,normal,RSSSF
+2003-0051,Tocantinópolis,Evaldo,23,,normal,RSSSF
+2003-0051,Tocantinópolis,Juca,40,,normal,RSSSF
+2003-0052,Tocantinópolis,Juca,,,normal,RSSSF
+2003-0052,Tocantinópolis,Gilmar,,,normal,RSSSF
+2003-0055,Candango EC,Jaques,,,normal,RSSSF
+2003-0055,Candango EC,Jaques,,,normal,RSSSF
+2003-0061,Uberlândia,Divanir,68,,normal,RSSSF
+2003-0061,Francana,Deivid,40,,normal,RSSSF
+2003-0062,Boa Esporte,Deílton,59,,normal,RSSSF
+2003-0063,Francana,César Mendes,54,,normal,RSSSF
+2003-0063,Francana,Roberto Alves,57,,normal,RSSSF
+2003-0063,Francana,Mauro,73,,normal,RSSSF
+2003-0063,Boa Esporte,Elias,88,,normal,RSSSF
+2003-0064,Boa Esporte,Rolete,76,,normal,RSSSF
+2003-0067,Rio Branco-MG,André Roza,30,,normal,RSSSF
+2003-0067,Rio Branco-MG,Maradona,57,,normal,RSSSF
+2003-0067,Rio Branco-MG,Gil,88,,normal,RSSSF
+2003-0067,Bragantino,Reginaldo,33,,normal,RSSSF
+2003-0068,Bragantino,Daniel,10,,normal,RSSSF
+2003-0069,Uberaba,Palhinha,63,,normal,RSSSF
+2003-0070,Rio Branco-MG,Maradona,43,,normal,RSSSF
+2003-0070,Rio Branco-MG,Gil,89,,normal,RSSSF
+2003-0074,Ipatinga,Wellington Amorim,11,,normal,RSSSF
+2003-0074,Ipatinga,Wellington Amorim,45,,normal,RSSSF
+2003-0074,Ipatinga,Wellington Amorim,90,,normal,RSSSF
+2003-0074,Ipatinga,Paulo César,76,,normal,RSSSF
+2003-0075,Ipatinga,Nenê Miranda,89,,normal,RSSSF
+2003-0076,Desportiva-ES,Léo Oliveira,8,,normal,RSSSF
+2003-0076,Estrela do Norte,Eraldo,13,,normal,RSSSF
+2003-0076,Estrela do Norte,Eraldo,18,,normal,RSSSF
+2003-0077,Desportiva-ES,Kesley,78,,normal,RSSSF
+2003-0078,Estrela do Norte,Eraldo,78,,normal,RSSSF
+2003-0079,Villa Nova-MG,Didi,17,,normal,RSSSF
+2003-0079,Desportiva-ES,Morelato,11,,normal,RSSSF
+2003-0079,Desportiva-ES,Kill,16,,normal,RSSSF
+2003-0079,Desportiva-ES,Kill,62,,normal,RSSSF
+2003-0079,Desportiva-ES,Kill,76,,normal,RSSSF
+2003-0079,Desportiva-ES,Léo Oliveira,69,,normal,RSSSF
+2003-0079,Desportiva-ES,Agnaldo,74,,normal,RSSSF
+2003-0080,Ipatinga,Valter Minhoca,54,,normal,RSSSF
+2003-0080,Ipatinga,Edmundo,56,,normal,RSSSF
+2003-0080,Ipatinga,Edmundo,76,,normal,RSSSF
+2003-0082,Estrela do Norte,Eraldo,,,normal,RSSSF
+2003-0086,Goytacaz,Leandro,30,,normal,RSSSF
+2003-0086,Goytacaz,Leandro,82,,normal,RSSSF
+2003-0086,Goytacaz,Toca,44,,normal,RSSSF
+2003-0087,Tupi,Marinho,66,,normal,RSSSF
+2003-0087,Tupi,Alex Rossi,67,,normal,RSSSF
+2003-0089,Serra,Ailson,30,,normal,RSSSF
+2003-0089,Goytacaz,Maciel,32,,normal,RSSSF
+2003-0090,Rio Branco-ES,Jorge,4,,normal,RSSSF
+2003-0090,Rio Branco-ES,Rodrigo Calixto,26,,normal,RSSSF
+2003-0091,Goytacaz,Leandro,13,,normal,RSSSF
+2003-0092,Tupi,Marinho,16,,normal,RSSSF
+2003-0092,Tupi,Alex Rossi,48,,normal,RSSSF
+2003-0092,Tupi,Chem,,,normal,RSSSF
+2003-0094,Serra,Sharley,,,normal,RSSSF
+2003-0094,Rio Branco-ES,Rodrigo Calixto,,,normal,RSSSF
+2003-0094,Rio Branco-ES,Rodrigo Calixto,,,normal,RSSSF
+2003-0094,Rio Branco-ES,Hércules,,,normal,RSSSF
+2003-0094,Rio Branco-ES,Jorge Júnior,,,normal,RSSSF
+2003-0103,Macaé,Samu,,,normal,RSSSF
+2003-0103,Macaé,Nilberto,,,normal,RSSSF
+2003-0104,Americano-RJ,Vitinho,,,normal,RSSSF
+2003-0105,Macaé,Samu,,,normal,RSSSF
+2003-0106,Americano-RJ,Wéderson,,,normal,RSSSF
+2003-0106,Americano-RJ,Oliveira,,,normal,RSSSF
+2003-0106,Rio Branco-RJ,Rodolfo,,,normal,RSSSF
+2003-0107,Rio Branco-RJ,Cosme,,,normal,RSSSF
+2003-0107,Rio Branco-RJ,Cosme,,,normal,RSSSF
+2003-0107,Portuguesa-RJ,Marcelão,,,normal,RSSSF
+2003-0107,Portuguesa-RJ,Marcelão,,,normal,RSSSF
+2003-0107,Portuguesa-RJ,Marcinho,,,normal,RSSSF
+2003-0108,Americano-RJ,Wéderson,,,normal,RSSSF
+2003-0108,Americano-RJ,Laerte,,,normal,RSSSF
+2003-0116,Olaria,Bil,,,normal,RSSSF
+2003-0116,Olaria,Carlos Eduardo,,,normal,RSSSF
+2003-0117,Cabofriense,Gil Bala,,,normal,RSSSF
+2003-0117,Cabofriense,Everton,,,normal,RSSSF
+2003-0117,Cabofriense,Guto,,,normal,RSSSF
+2003-0117,Olaria,Daniel,,,normal,RSSSF
+2003-0117,Olaria,Rafael,,,normal,RSSSF
+2003-0127,Volta Redonda,Anderson Luiz,,,normal,RSSSF
+2003-0127,Friburguense,Jack Jones,,,normal,RSSSF
+2003-0128,Friburguense,Chiquinho,,,normal,RSSSF
+2003-0128,Friburguense,Marcinho,,,normal,RSSSF
+2003-0181,Chapadinha,Serginho,90,2,normal,RSSSF
+2003-0182,Viana,Edinho,,,normal,RSSSF
+2003-0183,Viana,Oswaldo,80,,normal,RSSSF
+2003-0184,Viana,Sebastião Gomes,54,,normal,RSSSF
+2003-0186,Chapadinha,Serginho,12,,normal,RSSSF
+2003-0186,Chapadinha,Toinho Cortês,87,,normal,RSSSF
+2003-0186,Maranhão,Catê,8,,normal,RSSSF
+2003-0187,Imperatriz,Leivinha,23,,normal,RSSSF
+2003-0188,Sampaio Corrêa,Carabina,30,,penalti,RSSSF
+2003-0188,Sampaio Corrêa,Silva,74,,normal,RSSSF
+2003-0189,Santa Inês,Hilderlando,10,,normal,RSSSF
+2003-0189,Santa Inês,Hilderlando,17,,normal,RSSSF
+2003-0189,Santa Inês,Hilderlando,67,,normal,RSSSF
+2003-0189,Imperatriz,Clayff,9,,normal,RSSSF
+2003-0190,Imperatriz,Fabinho Paulista,19,,penalti,RSSSF
+2003-0190,Imperatriz,Zé Eduardo,65,,normal,RSSSF
+2003-0191,Santa Inês,Kelson,41,,normal,RSSSF
+2003-0191,Sampaio Corrêa,Vanvan,23,,normal,RSSSF
+2003-0192,Imperatriz,Tupan,87,,normal,RSSSF
+2003-0192,Imperatriz,Tupan,90,2,normal,RSSSF
+2003-0193,River-PI,Sílvio,,,normal,RSSSF
+2003-0193,River-PI,Sílvio,,,normal,RSSSF
+2003-0193,River-PI,Ivair,,,normal,RSSSF
+2003-0194,Flamengo-PI,Luciano,,,normal,RSSSF
+2003-0194,Flamengo-PI,Niel,,,normal,RSSSF
+2003-0194,Flamengo-PI,Joniel,,,normal,RSSSF
+2003-0194,Flamengo-PI,Cléber Paulista,,,normal,RSSSF
+2003-0195,Flamengo-PI,Joniel,49,,normal,RSSSF
+2003-0196,River-PI,Sílvio,61,,normal,RSSSF
+2003-0196,Flamengo-PI,Joniel,45,,normal,RSSSF
+2003-0196,Flamengo-PI,Bambam,85,,normal,RSSSF
+2003-0197,Caxiense,Edcarlos,85,,normal,RSSSF
+2003-0198,River-PI,Sílvio,60,,normal,RSSSF
+2003-0200,Itapipoca,César Baiano,57,,penalti,RSSSF
+2003-0200,Itapipoca,Dema,61,,normal,RSSSF
+2003-0200,Ferroviário-CE,Januário,8,,normal,RSSSF
+2003-0201,Guarany,Marciano,38,,normal,RSSSF
+2003-0201,Guarany,Dorgival,60,,normal,RSSSF
+2003-0201,Guarany,Paulinho,85,,normal,RSSSF
+2003-0203,Ferroviário-CE,Gilson Maratá,32,,normal,RSSSF
+2003-0203,Ferroviário-CE,Pastor,57,,normal,RSSSF
+2003-0203,Itapipoca,Nissinho,31,,normal,RSSSF
+2003-0203,Itapipoca,Nissinho,90,1,normal,RSSSF
+2003-0203,Itapipoca,Dema,49,,normal,RSSSF
+2003-0204,Guarany,Marciano,39,,normal,RSSSF
+2003-0204,Ferroviário-CE,Adailton,73,,normal,RSSSF
+2003-0205,Campinense,Neto,,,normal,RSSSF
+2003-0207,Campinense,Neto,,,normal,RSSSF
+2003-0207,Campinense,?,,,normal,RSSSF
+2003-0208,Campinense,Neto,,,normal,RSSSF
+2003-0208,ABC,Cris,,,normal,RSSSF
+2003-0208,ABC,Cris,,,normal,RSSSF
+2003-0209,ABC,Reinaldo Aleluia,,,normal,RSSSF
+2003-0209,ABC,Cris,,,normal,RSSSF
+2003-0209,São Gonçalo-RN,Ivan,,,normal,RSSSF
+2003-0210,São Gonçalo-RN,Ivan,,,normal,RSSSF
+2003-0210,São Gonçalo-RN,Renato Peixe,,,normal,RSSSF
+2003-0210,São Gonçalo-RN,Paulinho Macaiba,,,normal,RSSSF
+2003-0210,Campinense,Neto,,,normal,RSSSF
+2003-0210,Campinense,Rodrigo Tabata,,,normal,RSSSF
+2003-0262,Juazeiro,Janilson,,,normal,RSSSF
+2003-0262,Juazeiro,Lelé] -,,,normal,RSSSF
 2004-0016,Estrela do Norte,Hércules,,,normal,RSSSF
 2004-0016,Estrela do Norte,Paulinho,,,normal,RSSSF
 2004-0016,Serra,Índio,,,normal,RSSSF
@@ -1120,8 +1120,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2012-0194,Oeste,Wanderson,10,,normal,RSSSF
 2012-0194,Oeste,Dezinho,65,,normal,RSSSF
 2013-0001,Baraúnas,Paulinho Mossoró,87,,normal,RSSSF
-2013-0001,Fortaleza,Assinzinho,4,,normal,RSSSF
-2013-0001,Fortaleza,Assinzinho,33,,normal,RSSSF
+2013-0001,Fortaleza,Assisinho,4,,normal,RSSSF
+2013-0001,Fortaleza,Assisinho,33,,normal,RSSSF
 2013-0001,Fortaleza,Jailson,45,,normal,RSSSF
 2013-0001,Fortaleza,Jailson,66,,normal,RSSSF
 2013-0002,Águia,Flamel,41,,normal,RSSSF
@@ -1137,7 +1137,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0005,Cuiabá,Fernando,81,,normal,RSSSF
 2013-0005,Cuiabá,Igor,84,,normal,RSSSF
 2013-0005,Cuiabá,Fernando,89,,normal,RSSSF
-2013-0006,Fortaleza,Assinzinho,17,,normal,RSSSF
+2013-0006,Fortaleza,Assisinho,17,,normal,RSSSF
 2013-0006,Fortaleza,Charles,81,,normal,RSSSF
 2013-0006,Águia,Flamel,39,,normal,RSSSF
 2013-0006,Águia,Danillo,58,,normal,RSSSF
@@ -1149,7 +1149,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0010,CRB,Ze Paulo,88,,normal,RSSSF
 2013-0010,Santa Cruz,Luciano Sorriso,15,,normal,RSSSF
 2013-0013,Fortaleza,Guaru,19,,normal,RSSSF
-2013-0013,Fortaleza,Assinzinho,76,,normal,RSSSF
+2013-0013,Fortaleza,Assisinho,76,,normal,RSSSF
 2013-0013,Fortaleza,Lucio,90,,normal,RSSSF
 2013-0015,Sampaio Corrêa,Luis,4,,normal,RSSSF
 2013-0015,Sampaio Corrêa,Pimentinha,44,,normal,RSSSF
@@ -1159,7 +1159,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0018,Treze,Birungueta,90,,normal,RSSSF
 2013-0020,Santa Cruz,Raul,45,1,normal,RSSSF
 2013-0020,Santa Cruz,Raul,79,,normal,RSSSF
-2013-0020,Fortaleza,Assinzinho,22,,normal,RSSSF
+2013-0020,Fortaleza,Assisinho,22,,normal,RSSSF
 2013-0021,Sampaio Corrêa,Tiago Cavalcanti,48,,normal,RSSSF
 2013-0021,Sampaio Corrêa,Eloir,61,,normal,RSSSF
 2013-0021,Sampaio Corrêa,Pimentinha,87,,normal,RSSSF
@@ -1187,8 +1187,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0030,CRB,Danilo,28,,normal,RSSSF
 2013-0031,Sampaio Corrêa,Luis,38,,normal,RSSSF
 2013-0031,Luverdense,Washington,25,,normal,RSSSF
-2013-0033,Fortaleza,Assinzinho,59,,normal,RSSSF
-2013-0033,Fortaleza,Assinzinho,72,,normal,RSSSF
+2013-0033,Fortaleza,Assisinho,59,,normal,RSSSF
+2013-0033,Fortaleza,Assisinho,72,,normal,RSSSF
 2013-0033,Fortaleza,Wal,74,,normal,RSSSF
 2013-0033,Treze,Rodrigo Celeste,53,,normal,RSSSF
 2013-0033,Treze,Anderson Paim,62,,normal,RSSSF
@@ -1213,7 +1213,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0044,Treze,Hudson,34,,normal,RSSSF
 2013-0044,Brasiliense,Gleidson,26,,normal,RSSSF
 2013-0046,Fortaleza,Wal,1,,normal,RSSSF
-2013-0046,Fortaleza,Assinzinho,46,,normal,RSSSF
+2013-0046,Fortaleza,Assisinho,46,,normal,RSSSF
 2013-0046,Fortaleza,Guaru,59,,normal,RSSSF
 2013-0047,CRB,Diego Aragao,90,,normal,RSSSF
 2013-0048,Treze,Sapé,5,,normal,RSSSF
@@ -1240,7 +1240,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0054,Sampaio Corrêa,Celio,28,,normal,RSSSF
 2013-0054,Sampaio Corrêa,Pimentinha,57,,normal,RSSSF
 2013-0054,Fortaleza,Ruan,90,2,normal,RSSSF
-2013-0056,Fortaleza,Assinzinho,28,,normal,RSSSF
+2013-0056,Fortaleza,Assisinho,28,,normal,RSSSF
 2013-0056,Fortaleza,Fabricio,53,,normal,RSSSF
 2013-0056,Fortaleza,Ruan,90,1,normal,RSSSF
 2013-0057,CRB,Reinaldo Alagoano,23,,normal,RSSSF
@@ -1257,7 +1257,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0060,Brasiliense,Moises,90,5,normal,RSSSF
 2013-0060,Sampaio Corrêa,Tiago Cavalcanti,53,,normal,RSSSF
 2013-0063,Águia,Genison,22,,normal,RSSSF
-2013-0063,Fortaleza,Assinzinho,10,,normal,RSSSF
+2013-0063,Fortaleza,Assisinho,10,,normal,RSSSF
 2013-0064,Brasiliense,Laecio,30,,normal,RSSSF
 2013-0065,Cuiabá,Magrao,71,,normal,RSSSF
 2013-0065,Luverdense,Samuel,22,,normal,RSSSF
@@ -1310,7 +1310,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0092,Luverdense,Ze Roberto,59,,normal,RSSSF
 2013-0092,CRB,Reinaldo Alagoano,5,,normal,RSSSF
 2013-0092,CRB,Denilson,62,,normal,RSSSF
-2013-0094,Fortaleza,Assinzinho,60,,normal,RSSSF
+2013-0094,Fortaleza,Assisinho,60,,normal,RSSSF
 2013-0094,Fortaleza,Eduardo,90,1,normal,RSSSF
 2013-0094,Luverdense,Tozim,36,,normal,RSSSF
 2013-0095,Brasiliense,Valber,2,,normal,RSSSF
@@ -2246,7 +2246,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0101,Portuguesa,Guilherme Queiroz,64,,normal,RSSSF
 2015-0102,Tombense,Valdo Bacabal,90,3,normal,RSSSF
 2015-0104,Brasil de Pelotas,Washington,37,,normal,RSSSF
-2015-0104,Brasil de Pelotas,Leandrao,79,,normal,RSSSF
+2015-0104,Brasil de Pelotas,Leandrão,79,,normal,RSSSF
 2015-0105,Guarani,Malaquias,15,,normal,RSSSF
 2015-0105,Tupi,Fabricio,86,,normal,RSSSF
 2015-0106,Juventude,Jonatas Obina,54,,normal,RSSSF
@@ -2275,9 +2275,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0112,Juventude,Diogo Borges,84,,normal,RSSSF
 2015-0112,Juventude,Lucas,90,2,normal,RSSSF
 2015-0113,Tupi,Daniel,83,,normal,RSSSF
-2015-0115,Brasil de Pelotas,Leandrao,87,,normal,RSSSF
-2015-0115,Brasil de Pelotas,Leandrao,88,,normal,RSSSF
-2015-0115,Brasil de Pelotas,Leandrao,90,3,normal,RSSSF
+2015-0115,Brasil de Pelotas,Leandrão,87,,normal,RSSSF
+2015-0115,Brasil de Pelotas,Leandrão,88,,normal,RSSSF
+2015-0115,Brasil de Pelotas,Leandrão,90,3,normal,RSSSF
 2015-0115,Londrina,Patrick,48,,normal,RSSSF
 2015-0116,Juventude,Vacaria,4,,normal,RSSSF
 2015-0116,Juventude,Duda,65,,normal,RSSSF
@@ -2290,7 +2290,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0122,Tombense,Adeilson,58,,normal,RSSSF
 2015-0122,Tombense,Betinho,61,,normal,RSSSF
 2015-0123,Brasil de Pelotas,Alex,10,,normal,RSSSF
-2015-0123,Brasil de Pelotas,Leandrao,42,,normal,RSSSF
+2015-0123,Brasil de Pelotas,Leandrão,42,,normal,RSSSF
 2015-0123,Brasil de Pelotas,Galiardo,81,,normal,RSSSF
 2015-0123,Madureira,Maranhao,72,,normal,RSSSF
 2015-0124,Portuguesa,Hugo Almeida,30,,normal,RSSSF
@@ -2305,8 +2305,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0129,Juventude,Wallacer,90,1,normal,RSSSF
 2015-0130,Guarani,Diego,5,,normal,RSSSF
 2015-0130,Guarani,Fumagalli,64,,normal,RSSSF
-2015-0130,Brasil de Pelotas,Leandrao,48,,normal,RSSSF
-2015-0130,Brasil de Pelotas,Leandrao,84,,normal,RSSSF
+2015-0130,Brasil de Pelotas,Leandrão,48,,normal,RSSSF
+2015-0130,Brasil de Pelotas,Leandrão,84,,normal,RSSSF
 2015-0131,Guarani,Diego,70,,normal,RSSSF
 2015-0131,Guarani,Anderson Cavalo,83,,normal,RSSSF
 2015-0133,Guaratinguetá,Henrique,32,,normal,RSSSF
@@ -2328,9 +2328,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0138,Tombense,Gedeilson,10,,normal,RSSSF
 2015-0139,Juventude,Mailson,17,,normal,RSSSF
 2015-0139,Juventude,Wallacer,45,,normal,RSSSF
-2015-0139,Brasil de Pelotas,Leandrao,24,,normal,RSSSF
+2015-0139,Brasil de Pelotas,Leandrão,24,,normal,RSSSF
 2015-0139,Brasil de Pelotas,Alex,45,1,normal,RSSSF
-2015-0139,Brasil de Pelotas,Leandrao,47,,normal,RSSSF
+2015-0139,Brasil de Pelotas,Leandrão,47,,normal,RSSSF
 2015-0140,Guarani,Anderson Cavalo,66,,normal,RSSSF
 2015-0141,Londrina,Bruno Batata,4,,normal,RSSSF
 2015-0141,Londrina,Allan,19,,normal,RSSSF
@@ -2341,7 +2341,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0144,Madureira,Léo Guerreiro,75,,normal,RSSSF
 2015-0145,Brasil de Pelotas,E. Brock,18,,normal,RSSSF
 2015-0145,Brasil de Pelotas,Washington,45,1,normal,RSSSF
-2015-0145,Brasil de Pelotas,Leandrao,46,,normal,RSSSF
+2015-0145,Brasil de Pelotas,Leandrão,46,,normal,RSSSF
 2015-0145,Brasil de Pelotas,Leandro Camilo,54,,normal,RSSSF
 2015-0145,Portuguesa,Guilherme Queiroz,50,,normal,RSSSF
 2015-0146,Tupi,Ramon,72,,normal,RSSSF
@@ -2369,7 +2369,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0154,Portuguesa,Hugo Almeida,30,,normal,RSSSF
 2015-0154,Portuguesa,Diego,65,,normal,RSSSF
 2015-0154,Guaratinguetá,Juninho,75,,normal,RSSSF
-2015-0155,Brasil de Pelotas,Leandrao,23,,normal,RSSSF
+2015-0155,Brasil de Pelotas,Leandrão,23,,normal,RSSSF
 2015-0155,Caxias,Edson,12,,normal,RSSSF
 2015-0156,Juventude,Diogo Borges,9,,normal,RSSSF
 2015-0156,Juventude,Diogo Borges,22,,normal,RSSSF
@@ -5253,7 +5253,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2023-0037,Paysandu,Mario Sergio,7,,normal,RSSSF
 2023-0038,Volta Redonda,Marcos Silva,5,,normal,RSSSF
 2023-0038,Volta Redonda,Skilo,39,,normal,RSSSF
-2023-0038,Volta Redonda,Julio César,52,,normal,RSSSF
+2023-0038,Volta Redonda,Júlio César,52,,normal,RSSSF
 2023-0039,São José-RS,José Welinton,12,,normal,RSSSF
 2023-0039,São José-RS,Thiago Santos,90,4,normal,RSSSF
 2023-0039,Remo,Muriqui,62,,normal,RSSSF

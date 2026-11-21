@@ -547,10 +547,55 @@ def ajustes_wiki(ano: int, ids_do_ano: set[str]) -> dict[str, int]:
     saida = {}
     fs = clubes_d.exibicao()
     for nome_w, v in wiki.ajustes(ano).items():
+        if (ano, nome_w) in AJUSTE_FORA:
+            continue
         cands = sorted(((_sim(nome_w, fs[i]["clube"]), i) for i in ids_do_ano if i in fs), reverse=True)
         if cands and cands[0][0] >= 0.75 and v:
             saida[cands[0][1]] = v
+    for nome_c, v in AJUSTE_MANUAL.get(ano, {}).items():
+        saida.update({i: v for i in ids_do_ano if fs.get(i, {}).get("clube") == nome_c})
     return saida
+
+
+# punições do STJD que a Wikipédia em inglês não traz (ou traz para o clube errado), pela revisão SD-014 a SD-016
+# (Wikipédia pt e en conferidas pelo agente de revisão): ano -> {nome de exibição: ajuste}
+AJUSTE_MANUAL: dict[int, dict[str, int]] = {
+    2009: {"Araguaia": -6, "Naviraiense": -6},
+    2010: {"América-AM": -10},   # -6 e os 4 pontos dos jogos com o Joinville
+    2012: {"Comercial-PI": -3, "Santos-AP": -3},
+    2013: {"Paragominas": -6},
+    2014: {"River-PI": -4, "Villa Nova-MG": -14},
+    2015: {"Náutico-RR": -4, "Santos-AP": -3},
+    2017: {"São Raimundo-PA": -3},
+    2019: {"Bahia de Feira": -3},
+    2025: {"Maracanã": -3},   # cantos homofóbicos no jogo com o Iguatu
+}
+# nomes da Wikipédia que o casamento ligaria ao clube errado (o manual acima dá o certo)
+AJUSTE_FORA: dict[tuple[int, str], str] = {(2017, "São Raimundo"): "é o São Raimundo-PA, e não o -RR (revisão SD-015)",
+                                           (2025, "Maracanã"): "é o Maracanã (CE), e não o Maricá (revisão SD-016)"}
+# correções de jogos já juntados (nomes de exibição e data do pacote): -> campos novos e motivo
+CORRECAO_JOGO: dict[tuple, dict] = {
+    (2024, "Princesa", "Manaus FC", "2024-05-11"): {"gm": 3, "gv": 3, "motivo": "ogol e Wikipédia: 3-3 (revisão SD-010)"},
+    (2016, "CSA", "Volta Redonda", "2016-09-29"): {"data": "2016-09-25", "motivo": "a ida da final foi em 25/09 (borderô da CBF; revisão SD-012)"},
+    (2014, "Itaporã", "Villa Nova-MG", "2014-09-07"): {"especial": "w.o.", "motivo": "W.O.: o Itaporã abandonou a competição (revisão SD-013)"},
+    (2014, "Anapolina", "Itaporã", "2014-09-21"): {"especial": "w.o.", "motivo": "W.O.: o Itaporã abandonou a competição (revisão SD-013)"},
+    (2014, "Barueri", "CEOV Operário", "2014-08-15"): {"especial": "w.o.", "motivo": "W.O. (revisão SD-013)"},
+}
+
+
+def corrigir_jogos(ano, partidas: list, log: list[str]) -> None:
+    for p in partidas:
+        c = CORRECAO_JOGO.get((ano, nome(p.mandante), nome(p.visitante), p.data))
+        if not c:
+            continue
+        if "gm" in c:
+            p.gm, p.gv = c["gm"], c["gv"]
+            if p.gols and len(p.gols) != p.gm + p.gv:
+                p.gols = []
+        p.data = c.get("data", p.data)
+        p.especial = c.get("especial", p.especial)
+        p.obs = (p.obs + "; " if p.obs else "") + c["motivo"]
+        log.append(f"{ano}: jogo corrigido à mão — {nome(p.mandante)} x {nome(p.visitante)}: {c['motivo']}")
 
 
 def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes: dict[str, int], campeao: str | None,
@@ -566,6 +611,20 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     for p in partidas:
         for c in (p.mandante, p.visitante):
             alcance[c] = max(alcance[c], ordem_fase[p.fase])
+    # repescagem (2026): quem venceu o confronto (gols, depois pênaltis) fica à frente de quem perdeu
+    rep = defaultdict(list)
+    for p in partidas:
+        if p.fase == "Repescagem":
+            rep[frozenset((p.mandante, p.visitante))].append(p)
+    for par, ps in rep.items():
+        g, pen = Counter(), Counter()
+        for p in ps:
+            g[p.mandante] += p.gm or 0; g[p.visitante] += p.gv or 0
+            pen[p.mandante] += p.pen_m or 0; pen[p.visitante] += p.pen_v or 0
+        a, b = sorted(par)
+        venc = max((a, b), key=lambda c: (g[c], pen[c]))
+        if (g[a], pen[a]) != (g[b], pen[b]):
+            alcance[venc] += 0.1
     final = [p for p in partidas if p.fase == "Final"]
     vice = None
     if campeao and final:
@@ -574,9 +633,28 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     def pts(c):
         x = camp[c]
         return pv * x[1] + x[2] + ajustes.get(c, 0)
+    # na fase alcançada: a posição no grupo (ou no quadrangular/octogonal final) e os pontos nela
+    fase_de = {}
+    for c in camp:
+        fs = [p for p in partidas if c in (p.mandante, p.visitante) and ordem_fase[p.fase] == alcance[c]]
+        g = Counter((p.fase, p.grupo) for p in fs).most_common(1)[0][0] if fs else None
+        fase_de[c] = g
+    no_grupo = defaultdict(list)
+    for c, g in fase_de.items():
+        no_grupo[g].append(c)
+    pos_grupo, pts_fase = {}, {}
+    for (f, g), cs in ((k, v) for k, v in no_grupo.items() if k):
+        bl = [p for p in partidas if (p.fase, p.grupo) == (f, g)]
+        cg = campanha(bl)
+        mata = all(n == 1 for n in Counter(x for par in {frozenset((p.mandante, p.visitante)) for p in bl} for x in par).values())
+        chave_g = lambda c: (-(pv * cg[c][1] + cg[c][2] + ajustes.get(c, 0)), -cg[c][1], -(cg[c][4] - cg[c][5]), -cg[c][4])
+        for i, c in enumerate(sorted(cs, key=chave_g), 1):
+            pos_grupo[c] = 0 if mata else i   # mata-mata: sem posição de grupo
+            pts_fase[c] = pv * cg[c][1] + cg[c][2]
     def chave(c):
         x = camp[c]
-        return (c != campeao, c != vice, -alcance[c], -pts(c), -x[1], -(x[4] - x[5]), -x[4], nome(c))
+        # mesma posição no grupo (os 2º dos grupos da 2ª fase): a campanha toda, como na Wikipédia (2023: Operário-PR 3º)
+        return (c != campeao, c != vice, -alcance[c], pos_grupo.get(c, 0), -pts(c), -x[1], -(x[4] - x[5]), -x[4], nome(c))
     # classificação geral publicada pela RSSSF (todos os clubes da edição)
     geral = [(tb, linhas) for tb, linhas, _ in tabs if len(linhas) >= len(camp) and len(tb.linhas) >= len(camp)]
     fonte = "calculada (fase alcançada, pontos, vitórias, saldo, gols pró)"
@@ -584,8 +662,9 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     if geral:
         tb, linhas = geral[-1]
         bate = sum(camp.get(c) == v for c, v in linhas.items())
-        if bate >= 0.9 * len(camp):   # a ordem das linhas é a ordem da tabela
-            ordem = list(linhas) + [c for c in ordem if c not in linhas]
+        if bate >= 0.9 * len(camp):   # a ordem das linhas desempata dentro da mesma fase alcançada (campeão e vice em cima)
+            rank = {c: i for i, c in enumerate(linhas)}
+            ordem = sorted(camp, key=lambda c: (c != campeao, c != vice, -alcance[c], rank.get(c, 999), chave(c)))
             fonte = "RSSSF (classificação geral publicada)"
     saida = []
     for i, c in enumerate(ordem, 1):
@@ -595,7 +674,7 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     return saida
 
 
-ORDEM = {"Primeira fase": 1, "Segunda fase": 2, "Terceira fase": 3, "Quarta fase": 4, "Mata-mata": 5, "Primeira fase eliminatória": 5,
+ORDEM = {"Repescagem": 7.5, "Fase preliminar": 0.5, "Primeira fase": 1, "Segunda fase": 2, "Terceira fase": 3, "Quarta fase": 4, "Mata-mata": 5, "Primeira fase eliminatória": 5,
          "Oitavas de final": 6, "Quartas de final": 7, "Semifinal": 8, "Fase final": 9, "Final": 10}
 
 
@@ -621,7 +700,12 @@ def campeoes() -> tuple[dict[int, str], dict[int, str]]:
 
 
 def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict) -> dict:
-    rs, tabelas = rsssf_d.ler(ano)
+    try:
+        rs, tabelas = rsssf_d.ler(ano)
+    except FileNotFoundError:   # sem a página da RSSSF (2026): o ogol é a base (BASE_OGOL)
+        if ano not in BASE_OGOL:
+            raise
+        rs, tabelas = [], []
     for (a, n), motivo in RSSSF_FORA.items():
         if a == ano:
             fora = [j for j in rs if n in (j.mandante, j.visitante)]
@@ -655,6 +739,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     tabs = tabelas_por_clube(tabelas, mapa, rs_usado)
     partidas = juntar_ogol(ano, partidas, og, tabs, rs_ok, log)
     juntar_espn(ano, partidas, log)   # sem arquivo da ESPN, não faz nada
+    corrigir_jogos(ano, partidas, log)
     # fases em português, nos jogos e nas tabelas (as tabelas já estão ligadas aos códigos dos clubes)
     for p in partidas:
         p.fase = fase_pt(p.fase) if rs_ok else fase_pt(OGOL_FASE.get(p.ogol_fase, p.fase))
@@ -664,6 +749,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     if len({p.fase for p in partidas}) == 1 and not any(p.grupo for p in partidas):
         for x in [*partidas, *tabelas]:
             x.fase = "Fase única"
+    fases_do_ogol(ano, partidas, og, tabs, log)
     # autores: só quando fecham com o placar
     for p in partidas:
         if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv:
@@ -685,6 +771,54 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
             "mapa": mapa, "campeao": campeao, "ajustes": ajustes}
 
 
+OGOL_FASE_D = {"FP": "Fase preliminar", "2F": "Segunda fase", "3F": "Terceira fase", "1/8": "Oitavas de final",
+               "QF": "Quartas de final", "SF": "Semifinal", "F": "Final",
+               "": "Repescagem"}   # 2026: os perdedores das quartas jogam pelas duas últimas vagas de acesso (sem código no ogol)
+
+
+def fases_do_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tuple], log: list[str]) -> None:
+    """Fase e grupo de cada jogo pelo código do ogol, que tem a estrutura completa da Série D (revisão SD-004 a SD-008):
+    grupo numerado ("1" a "17", "A1" a "A8") -> Primeira fase e o grupo; "FP", "2F", "3F", "1/8", "QF", "SF", "F" -> a fase
+    do mata-mata. As páginas da RSSSF perdem grupos (2020 e 2022 num grupo só; 2018 em "A0" e "A1"), juntam semifinal e
+    final (2011), põem jogos de mata-mata num grupo (2021) e dão à final o nome "5a Fase" (2013). O nome do grupo fica o da
+    RSSSF quando cada grupo do ogol tem um nome só na página (e nomes diferentes entre si); senão, "Grupo A1"... ("A01"...
+    com 10 grupos ou mais)."""
+    fase_og = {o["id"]: o["fase"] for o in og}
+    cod = {id(p): fase_og.get(m.group(1)) for p in partidas if (m := re.search(r"ogol:(\d+)", p.fonte_id))}
+    num = lambda f: (m.group(1) if (m := re.fullmatch(r"A?(\d+)", f or "")) else None)
+    grupos = sorted({int(num(f)) for f in cod.values() if num(f)})
+    rotulos = defaultdict(Counter)
+    for p in partidas:
+        n = num(cod.get(id(p)))
+        if n:
+            rotulos[int(n)][p.grupo] += 1
+    dom = {n: c.most_common(1)[0][0] for n, c in rotulos.items()}
+    usa_rsssf = all(dom[n] and rotulos[n][dom[n]] == sum(rotulos[n].values()) for n in dom) and len(set(dom.values())) == len(dom)
+    nome_g = lambda n: dom[n] if usa_rsssf else (f"Grupo A{n:02d}" if len(grupos) >= 10 else f"Grupo A{n}")
+    mudou = Counter()
+    for p in partidas:
+        f = cod.get(id(p))
+        if f is None:
+            continue
+        if num(f):
+            novo = ("Primeira fase", nome_g(int(num(f))))
+        elif f in OGOL_FASE_D:
+            novo = (OGOL_FASE_D[f], "")
+        else:
+            continue
+        if novo != (p.fase, p.grupo):
+            mudou[(p.fase, p.grupo or "-", novo[0], novo[1] or "-")] += 1
+            p.fase, p.grupo = novo
+    for tb, linhas, *_ in tabs:   # tabelas da RSSSF: a fase e o grupo dos jogos entre os clubes dela
+        fg = Counter((p.fase, p.grupo) for p in partidas if p.mandante in linhas and p.visitante in linhas)
+        if fg:
+            tb.fase, tb.grupo = fg.most_common(1)[0][0]
+    if mudou:
+        log.append(f"{ano}: fases e grupos pelo ogol em {sum(mudou.values())} jogos: "
+                   + "; ".join(f"{a}/{b} → {c}/{d} ({n})" for (a, b, c, d), n in mudou.most_common(8))
+                   + (" ..." if len(mudou) > 8 else ""))
+
+
 def campeao_oficial(ano: int, partidas: list[Partida], rs_c: dict, wk_c: dict) -> str | None:
     """O clube da edição cujo nome bate com o campeão da lista da Wikipédia (ou, sem ela, da RSSSF)."""
     alvo = wk_c.get(ano) or rs_c.get(ano)
@@ -701,7 +835,7 @@ def campeao_oficial(ano: int, partidas: list[Partida], rs_c: dict, wk_c: dict) -
 
 
 # edições em que a RSSSF não serve de base (o ogol é a base dos jogos)
-BASE_OGOL: dict[int, str] = {}
+BASE_OGOL: dict[int, str] = {2026: "a RSSSF ainda não tem a página de 2026: a base dos jogos é o ogol (revisão SD-001)"}
 # edições em que as tabelas publicadas pela RSSSF são parciais (a página parou no meio): não servem de conferência
 TABELAS_PARCIAIS = {2021: "a página da RSSSF parou na 3ª rodada da 1ª fase (103 dos 518 jogos); as tabelas dela são parciais e não "
                           "servem de conferência; os jogos que faltam vêm do ogol"}

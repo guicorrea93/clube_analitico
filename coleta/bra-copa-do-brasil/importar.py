@@ -30,6 +30,7 @@ sys.path.insert(0, str(AQUI.parent / "comum"))
 sys.path.insert(0, str(AQUI))
 import clubes_cb  # noqa: E402
 import gols as gols_rsssf  # noqa: E402
+from observacao import penaltis_da_nota  # noqa: E402
 import rsssf_cb  # noqa: E402
 import wiki  # noqa: E402
 from edicoes import ANOS, NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RELATORIO, SLUG  # noqa: E402
@@ -105,7 +106,10 @@ def _sim(a: str, b: str) -> float:
 
 
 # código de clube errado no calendário do ogol: (ano, código errado) -> (código certo, motivo)
-CORRIGE_OGOL: dict[tuple[int, str], tuple[str, str]] = {}
+CORRIGE_OGOL: dict[tuple[int, str], tuple[str, str]] = {
+    (2007, "3374"): ("36613", "o Operário de 2007 é o Operário de Várzea Grande (CEOV), campeão mato-grossense de 2006; o ogol "
+                              "põe o Operário-MS (revisão CL-003)"),
+}
 
 
 def ler_ogol(ano: int) -> list[dict]:
@@ -144,13 +148,31 @@ NOME_MANUAL: dict[tuple[int, str], tuple[str, str]] = {
     (2017, "Sete de Setembro"): ("15589", "7 de Setembro de Dourados (MS), como no ogol"),
     (2018, "Tubarão"): ("15723", "Atlético Tubarão (SC), como no ogol"),
     (2023, "Mutum-MT"): ("240425", "Nova Mutum (MT), como no ogol"),
+    (2007, "Operário(MT)"): ("36613", "CE Operário Várzea-grandense, como nos participantes da RSSSF (revisão CL-003)"),
 }
 # jogos do calendário do ogol que estão errados (a RSSSF e a tabela publicada mostram outro jogo): código do jogo -> motivo
 OGOL_IGNORAR: dict[str, str] = {}
 # jogos da RSSSF que ficam de fora: (ano, nome do clube) -> motivo
 RSSSF_FORA: dict[tuple[int, str], str] = {}
 # jogos da RSSSF anulados: (ano, mandante, visitante, gols, gols) como na página -> motivo
-JOGOS_ANULADOS: dict[tuple, str] = {}
+JOGOS_ANULADOS: dict[tuple, str] = {
+    (2007, "Rio Branco(PR)", "Villa Nova(MG)", 3, 0): "erro da página: na 2ª fase o Villa Nova enfrentou o Avaí (revisão CB-007)",
+    (2019, "Aparecidense/GO", "Ponte Preta/SP", 1, 0): "jogo anulado pelo STJD; vale o 2-0 de 03/04 (revisão CB-007)",
+}
+# jogo da página com clube ou placar errado: (ano, mandante, visitante, data da página) -> (mandante, visitante, gols, gols, motivo)
+PLACAR_MANUAL: dict[tuple, tuple] = {
+    (2021, "CRB-AL", "Cuiabá-MT", "2021-03-16"): ("Sergipe-SE", "Cuiabá-MT", 0, 0, "o jogo foi Sergipe 0-0 Cuiabá, como no ogol; o "
+                                                   "CRB jogou a 1ª fase com o Goianésia (revisão CB-007)"),
+}
+# correções de jogos já juntados (nomes de exibição e data do pacote) -> campos novos e motivo
+_UM_DIA = "o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)"
+CORRECAO_JOGO: dict[tuple, dict] = {
+    (1990, "Goiás", "Flamengo", "1990-11-08"): {"data": "1990-11-07", "motivo": _UM_DIA},
+    (2014, "Atlético-MG", "Cruzeiro", "2014-11-13"): {"data": "2014-11-12", "motivo": _UM_DIA},
+    (2014, "Cruzeiro", "Atlético-MG", "2014-11-27"): {"data": "2014-11-26", "motivo": _UM_DIA},
+    (2015, "Santos", "Palmeiras", "2015-11-26"): {"data": "2015-11-25", "motivo": _UM_DIA},
+    (2015, "Palmeiras", "Santos", "2015-12-03"): {"data": "2015-12-02", "motivo": _UM_DIA},
+}
 
 
 def mapear_nomes(ano: int, rs: list, og: list[dict], log: list[str]) -> dict:
@@ -342,7 +364,32 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
     por_par: dict[tuple, list[dict]] = defaultdict(list)
     for o in og:
         por_par[(o.get("mandante_id"), o.get("visitante_id"))].append(o)
+    # antes: o mesmo jogo com o mando invertido, no mesmo dia (±1) e com o placar espelhado. A RSSSF da Copa escreve o
+    # confronto do ponto de vista de um dos clubes, nem sempre o mandante (finais de 2015 e 2016): vale o mando do ogol
+    for p in partidas:
+        if p.gm is None or not _dia(p.data):
+            continue
+        if any(_dist(o["data"], p.data) <= 1 and (o["gols_mandante"], o["gols_visitante"]) == (p.gm, p.gv)
+               for o in por_par.get((p.mandante, p.visitante), []) if o["id"] not in usados):
+            continue
+        inv = [o for o in por_par.get((p.visitante, p.mandante), []) if o["id"] not in usados and _dia(o["data"])
+               and _dist(o["data"], p.data) <= 1 and (o["gols_mandante"], o["gols_visitante"]) == (p.gv, p.gm)]
+        if len(inv) != 1:
+            continue
+        o = inv[0]
+        usados.add(o["id"])
+        log.append(f"{ano}: mando da RSSSF trocado pelo do ogol (mesmo jogo, mesmo dia, placar espelhado) — RSSSF "
+                   f"{nome(p.mandante)} {p.gm}-{p.gv} {nome(p.visitante)}, ogol {nome(o['mandante_id'])} "
+                   f"{o['gols_mandante']}-{o['gols_visitante']} {nome(o['visitante_id'])} ({o['data']})")
+        p.mandante, p.visitante, p.gm, p.gv = p.visitante, p.mandante, p.gv, p.gm
+        p.pen_m, p.pen_v = p.pen_v, p.pen_m
+        p.gols = [{**g, "lado": "visitante" if g.get("lado") == "mandante" else "mandante"} for g in p.gols]
+        p.fonte_id, p.ogol_fase, p.data = f"ogol:{o['id']}", o["fase"], o["data"]
+        p.hora = p.hora or o.get("hora")
+        p.rodada = p.rodada or o.get("rodada")
     for p in sorted(partidas, key=lambda p: (p.data is None, p.data or "")):
+        if p.fonte_id:
+            continue
         cands = [o for o in por_par.get((p.mandante, p.visitante), []) if o["id"] not in usados]
         if not cands:
             continue
@@ -378,8 +425,15 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
                 if p.gols and len(p.gols) != p.gm + p.gv:
                     p.gols = []
             else:
+                # Copa (mata-mata, sem tabela que desempate): fica o do ogol. A revisão (CB-004, CB-005) conferiu 10 desses
+                # casos na Wikipédia, e em todos o certo era o do ogol; vários placares da página repetem o do outro jogo
                 log.append(f"{ano}: placar diferente no ogol — {nome(p.mandante)} x {nome(p.visitante)} ({p.data}): "
-                           f"RSSSF {p.gm}-{p.gv}, ogol {alt[0]}-{alt[1]}; fica o da RSSSF")
+                           f"RSSSF {p.gm}-{p.gv}, ogol {alt[0]}-{alt[1]}; fica o do ogol")
+                p.obs = (p.obs + "; " if p.obs else "") + f"placar da RSSSF {p.gm}-{p.gv}; vale o do ogol"
+                p.gm, p.gv = alt
+                lados = (sum(g["lado"] == "mandante" for g in p.gols), sum(g["lado"] == "visitante" for g in p.gols))
+                if p.gols and lados != (p.gm, p.gv):   # os autores da página são do placar antigo
+                    p.gols = []
         elif p.gm is None and alt[0] is not None:
             p.gm, p.gv = alt
     if datas_trocadas:
@@ -397,7 +451,8 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
             continue
         m, v, gm, gv = o.get("mandante_id"), o.get("visitante_id"), o["gols_mandante"], o["gols_visitante"]
         perto = lambda p: _dia(p.data) and _dia(o["data"]) and _dist(p.data, o["data"]) <= 4
-        inv = [p for p in sobra if (p.mandante, p.visitante) == (v, m) and (p.gm, p.gv) == (gv, gm) and _dist(p.data, o["data"]) <= 3]
+        # mando invertido com o placar espelhado: até 10 dias (2016: a RSSSF dá a volta da final em 30/11, o ogol em 07/12)
+        inv = [p for p in sobra if (p.mandante, p.visitante) == (v, m) and (p.gm, p.gv) == (gv, gm) and _dist(p.data, o["data"]) <= 10]
         inv_placar = [p for p in sobra if (p.mandante, p.visitante) == (v, m) and perto(p)]
         mesmo_par = [p for p in sobra if (p.mandante, p.visitante) == (m, v) and perto(p)]
         outro = [p for p in sobra if perto(p) and (p.gm, p.gv) == (gm, gv) and (p.mandante == m) != (p.visitante == v)]
@@ -408,6 +463,13 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
                 usados.add(o["id"]); sobra.remove(p)
                 p.fonte_id = f"ogol:{o['id']}"
                 p.hora = p.hora or o.get("hora")
+                if texto == "mando invertido":   # o mesmo jogo: vale o mando e a data do ogol (a RSSSF da Copa não marca o mandante)
+                    log.append(f"{ano}: {texto} no ogol — RSSSF {nome(p.mandante)} {p.gm}-{p.gv} {nome(p.visitante)} ({p.data}), ogol "
+                               f"{nome(m)} {gm}-{gv} {nome(v)} ({o['data']}); fica o ogol")
+                    p.mandante, p.visitante, p.gm, p.gv, p.pen_m, p.pen_v = m, v, gm, gv, p.pen_v, p.pen_m
+                    p.gols = [{**g, "lado": "visitante" if g.get("lado") == "mandante" else "mandante"} for g in p.gols]
+                    p.data = o["data"]
+                    break
                 log.append(f"{ano}: {texto} no ogol — RSSSF {nome(p.mandante)} {p.gm}-{p.gv} {nome(p.visitante)}, ogol {nome(m)} {gm}-{gv} "
                            f"{nome(v)} ({o['data']}); fica a RSSSF")
                 break
@@ -605,8 +667,141 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     return saida
 
 
-ORDEM = {"Primeira fase": 1, "Segunda fase": 2, "Terceira fase": 3, "Quarta fase": 4, "Mata-mata": 5, "Primeira fase eliminatória": 5,
-         "Oitavas de final": 6, "Quartas de final": 7, "Semifinal": 8, "Fase final": 9, "Final": 10}
+ORDEM = {"Fase preliminar": 0.5, "Primeira fase": 1, "Segunda fase": 2, "Terceira fase": 3, "Quarta fase": 4, "Quinta fase": 4.5,
+         "Mata-mata": 5, "Primeira fase eliminatória": 5, "Oitavas de final": 6, "Quartas de final": 7, "Semifinal": 8,
+         "Fase final": 9, "Final": 10}
+NUMERAIS = ["Primeira", "Segunda", "Terceira", "Quarta", "Quinta"]
+
+
+def datas_do_confronto(ano, partidas: list[Partida], og: list[dict], data_rs: dict, log: list[str]) -> None:
+    """Ida e volta do mesmo confronto com a mesma data (revisão TL-004: 2001, a página dá aos dois jogos a data do título
+    da rodada): vale a fonte que separa as duas datas, o ogol, senão a página."""
+    data_og = {o["id"]: o["data"] for o in og}
+    grupos = defaultdict(list)
+    for p in partidas:
+        grupos[(frozenset((p.mandante, p.visitante)), p.data)].append(p)
+    for (par, d), ps in grupos.items():
+        if len(ps) < 2 or not d:
+            continue
+        og_d = [data_og.get(p.fonte_id.split("ogol:")[-1].split(";")[0]) if "ogol:" in p.fonte_id else None for p in ps]
+        rs_d = [data_rs.get(id(p)) for p in ps]
+        novas = og_d if all(og_d) and len(set(og_d)) == len(ps) else rs_d if all(rs_d) and len(set(rs_d)) == len(ps) else None
+        if novas:
+            for p, n in zip(ps, novas):
+                p.data = n
+            log.append(f"{ano}: ida e volta de {nome(ps[0].mandante)} x {nome(ps[0].visitante)} vinham com a mesma data ({d}); "
+                       f"ficam {', '.join(novas)} ({'do ogol' if novas == og_d else 'da página'})")
+
+
+def penaltis_faltando(ano, partidas: list[Partida], og: list[dict], log: list[str]) -> None:
+    """Disputa de pênaltis que não está nos campos (revisão CB-008): do placar do ogol ("2-1 (4-3 Pen.)", na ordem do jogo
+    do ogol) ou da nota da página ("Rio Negro 4-3 on pen", "3-5pen")."""
+    og_por_id = {o["id"]: o for o in og}
+    n = 0
+    for p in partidas:
+        if p.pen_m is not None or p.gm is None:
+            continue
+        pen = None
+        o = og_por_id.get(p.fonte_id.split("ogol:")[-1].split(";")[0]) if "ogol:" in p.fonte_id else None
+        m = re.search(r"\((\d+)\s*-\s*(\d+)\s*Pen", (o or {}).get("resultado") or "")
+        if m:
+            a, b = int(m[1]), int(m[2])
+            pen = (a, b) if o.get("mandante_id") == p.mandante else (b, a)
+        if pen is None:
+            pen = penaltis_da_nota(p.obs, nome(p.mandante), nome(p.visitante))
+        if pen:
+            p.pen_m, p.pen_v = pen
+            n += 1
+    if n:
+        log.append(f"{ano}: {n} disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)")
+
+
+def corrigir_jogos(ano, partidas: list[Partida], log: list[str]) -> None:
+    for p in partidas:
+        c = CORRECAO_JOGO.get((ano, nome(p.mandante), nome(p.visitante), p.data))
+        if not c:
+            continue
+        p.data = c.get("data", p.data)
+        p.obs = (p.obs + "; " if p.obs else "") + c["motivo"]
+        log.append(f"{ano}: jogo corrigido à mão — {nome(p.mandante)} x {nome(p.visitante)}: {c['motivo']}")
+
+
+def fases_da_chave(ano: int, partidas: list[Partida], tabs: list[tuple], log: list[str]) -> None:
+    """A Copa é mata-mata: as fases saem da própria chave, e não dos títulos das páginas (em inglês, fora de ordem e às
+    vezes trocados). Confronto = o mesmo par de clubes (ida e volta a até 200 dias). A final é o último confronto; a fase
+    anterior a uma fase são os confrontos anteriores de cada clube dela; e assim até o começo. Nomes de trás para frente:
+    Final, Semifinal, Quartas e Oitavas de final; as fases antes delas contam do começo (Primeira fase, Segunda fase...),
+    e a primeira, quando tem até um quarto dos confrontos da seguinte, é a Fase preliminar. Mata-mata não tem grupos."""
+    pares: dict[frozenset, list[Partida]] = defaultdict(list)
+    for p in partidas:
+        pares[frozenset((p.mandante, p.visitante))].append(p)
+    confrontos: list[list[Partida]] = []
+    for ps in pares.values():
+        ps.sort(key=lambda p: p.data or "9999")
+        cur = [ps[0]]
+        for q in ps[1:]:
+            if cur[-1].data and q.data and _dist(cur[-1].data, q.data) > 200:   # 2020: ida em março e volta em agosto (pandemia)
+                confrontos.append(cur); cur = [q]
+            else:
+                cur.append(q)
+        confrontos.append(cur)
+    datados = [c for c in confrontos if any(p.data for p in c)]
+    inicio = lambda c: min(p.data for p in c if p.data)
+    fim = lambda c: max(p.data for p in c if p.data)
+    clubes = lambda c: {c[0].mandante, c[0].visitante}
+    if not datados:
+        return
+    rodadas = [[max(datados, key=fim)]]
+    vistos = {id(rodadas[0][0])}
+    while True:
+        ant = []
+        for c in rodadas[-1]:
+            for clube in clubes(c):
+                prev = [x for x in datados if id(x) not in vistos and clube in clubes(x) and inicio(x) < inicio(c)]
+                if prev:
+                    x = max(prev, key=inicio)
+                    vistos.add(id(x)); ant.append(x)
+        if not ant:
+            break
+        rodadas.append(ant)
+    rodadas.reverse()   # do começo para a final
+    finais = ["Oitavas de final", "Quartas de final", "Semifinal", "Final"][-len(rodadas):]
+    antes = len(rodadas) - len(finais)
+    nomes = []
+    for k in range(antes):
+        nomes.append(f"{NUMERAIS[k]} fase" if k < len(NUMERAIS) else f"{k + 1}ª fase")
+    if antes >= 2 and len(rodadas[0]) * 4 <= len(rodadas[1]):
+        nomes = ["Fase preliminar"] + [f"{NUMERAIS[k]} fase" for k in range(antes - 1)]
+    nomes += finais
+    fase_de = {}
+    for nome_f, cs in zip(nomes, rodadas):
+        for c in cs:
+            for p in c:
+                fase_de[id(p)] = nome_f
+    # confronto fora da chave (sem data, ou clube que não seguiu): a fase em que o clube jogou mais perto daquela data
+    sobra = [c for c in confrontos if id(c) not in vistos]
+    for c in sobra:
+        perto = sorted((abs(_dia(inicio(c)) - _dia(inicio(x))) if c in datados and _dia(inicio(c)) and _dia(inicio(x)) else 999,
+                       fase_de[id(x[0])]) for x in datados if id(x) in vistos and clubes(x) & clubes(c))
+        f = perto[0][1] if perto else c[0].fase
+        for p in c:
+            fase_de[id(p)] = f
+        log.append(f"{ano}: confronto fora da chave ({nome(c[0].mandante)} x {nome(c[0].visitante)}, {inicio(c) if c in datados else 'sem data'}): "
+                   f"fica na {f}")
+    mudou = Counter()
+    for p in partidas:
+        novo = fase_de.get(id(p), p.fase)
+        if novo != p.fase:
+            mudou[(p.fase, novo)] += 1
+        p.fase, p.grupo = novo, ""
+    for tb, linhas, *_ in tabs:   # tabelinhas de confronto da RSSSF: a fase dos jogos entre os clubes dela
+        fs = Counter(p.fase for p in partidas if p.mandante in linhas and p.visitante in linhas)
+        if fs:
+            tb.fase = fs.most_common(1)[0][0]
+        tb.grupo = ""
+    if mudou:
+        log.append(f"{ano}: fases pela chave do mata-mata ({' / '.join(f'{n} {len(c)}' for n, c in zip(nomes, rodadas))} confrontos); "
+                   f"mudaram: " + "; ".join(f"{a or '—'} → {b} ({n})" for (a, b), n in mudou.most_common()))
 
 
 # --------------------------------------------------------------------------------------------- uma edição
@@ -642,6 +837,13 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
             fora = [j for j in rs if (j.mandante, j.visitante, j.gm, j.gv) == (m, v, gm, gv)]
             rs = [j for j in rs if j not in fora]
             log.append(f"{ano}: jogo anulado fica de fora ({len(fora)}): {m} {gm}-{gv} {v} — {motivo}")
+    for j in rs:
+        corr = PLACAR_MANUAL.get((ano, j.mandante, j.visitante, j.data))
+        if corr:
+            m, v, gm, gv, motivo = corr
+            log.append(f"{ano}: jogo da página corrigido — {j.mandante} {j.gm}-{j.gv} {j.visitante} ({j.data}) vira {m} {gm}-{gv} {v}: {motivo}")
+            j.mandante, j.visitante, j.gm, j.gv = m, v, gm, gv
+            j.gols = ""
     for i, motivo in OGOL_IGNORAR.items():
         if motivo.startswith(str(ano)):
             log.append(f"{ano}: jogo do ogol ignorado — {motivo[6:]}")
@@ -663,17 +865,19 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     partidas = ler_rsssf(ano, mapa, rs_usado)
     partidas = [p for p in partidas if p.gm is not None or p.especial]
     tabs = tabelas_por_clube(tabelas, mapa, rs_usado)
+    data_rs = {id(p): p.data for p in partidas}
     partidas = juntar_ogol(ano, partidas, og, tabs, rs_ok, log)
     juntar_espn(ano, partidas, log)   # sem arquivo da ESPN, não faz nada
+    datas_do_confronto(ano, partidas, og, data_rs, log)
+    penaltis_faltando(ano, partidas, og, log)
+    corrigir_jogos(ano, partidas, log)
     # fases em português, nos jogos e nas tabelas (as tabelas já estão ligadas aos códigos dos clubes)
     for p in partidas:
         p.fase = fase_pt(p.fase) if rs_ok else fase_pt(OGOL_FASE.get(p.ogol_fase, p.fase))
         p.grupo = p.grupo if not p.grupo.lower().startswith(("grupo único", "grupo unico")) else ""
     for tb in tabelas:
         tb.fase = fase_pt(tb.fase)
-    if len({p.fase for p in partidas}) == 1 and not any(p.grupo for p in partidas):
-        for x in [*partidas, *tabelas]:
-            x.fase = "Fase única"
+    fases_da_chave(ano, partidas, tabs, log)
     # autores: só quando fecham com o placar
     for p in partidas:
         if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv:

@@ -282,3 +282,151 @@ conferência das tabelas segue 432 / 3.
   - 2020: Mirassol, Floresta-CE, Novorizontino, Altos, América-RN, Aparecidense;
   - 2021: 3º ABC, 4º Atlético Cearense, 5º Ferroviária-SP, 6º América-RN.
 - **SD-017 (acesso):** em 2025 o acesso é do Santa Cruz (PE), e não do Santa Cruz de Natal; em 2020 o Floresta-CE é o 2º.
+
+## Agente 2 (21/11/2026): revisão da Série C, parte 4 (o resto da Série C)
+
+Pacote `bra-serie-c` refeito (sem commit). Recarregar no banco e no painel. Agora são 7.907 jogos (eram 7.910) e 369 clubes.
+
+**Corrigidos:**
+- **Clube trocado nos jogos:**
+  - SC-008 (1988, grupo 18): Ferroviária-SP no lugar da Desportiva; o erro é do próprio ogol, corrigido jogo a jogo;
+  - SC-009 e CL-001 (2007, grupo 17): os 6 jogos do Imperatriz;
+  - SC-011 (2004): Atlético Sorocaba;
+  - SC-012 (2003): Ituiutaba EC = Boa Esporte, 8 jogos;
+  - CL-002 (2002): Tubarão FC, e não o CA Tubarão;
+  - CL-004 (1995): SE Ariquemes, e não o Ariquemes FC.
+- **Jogos de fora:**
+  - SC-010 (2008): 2 jogos repetidos do grupo 15;
+  - SC-013 (2011): os 3 jogos do Rio Branco-AC na 2ª fase. Com isso o 3º de 2011 é o Ipatinga, e o SC-003 fecha também
+    em 2011.
+- **SC-014 (placares):** 1988 Inter-SM 2x0 Figueirense; em 1992, 4 jogos (com Macapá 0x2 Nacional-AM); 2003 Atlético
+  Roraima 1x2 Rio Branco-AC. Com isso o 3º de 1992 é o Nacional-AM, e o SC-003 fecha também em 1992. As tabelas da RSSSF
+  de 1992 seguem os placares antigos e passam a divergir, com o motivo explicado no relatório.
+- **SC-015 (1995):** Itumbiara x Gama fica como resultado do tribunal, 1x0 para o Itumbiara (`resultado_especial` = awd).
+- **SC-007 (1988):** vitória vale 3; empate vale 2 para quem ganhou nos pênaltis e 1 para quem perdeu. O `pontos` da
+  `classificacao_final` já sai assim, e `pontos_vitoria` de 1988 = 3. **Atenção:** se o painel recalcula pontos por
+  3·V + E, em 1988 dá outro número; vale o do pacote. Marcílio Dias fica em 4º e Tiradentes-PI em 5º.
+- **SC-017 (punições):**
+  - 2005: Nacional-PB −6;
+  - 2006: Ulbra-RO, Ypiranga-PE, Ceilândia e Ananindeua −6, Estrela do Norte −18;
+  - 2007: Imperatriz −12 e Nacional-PB −6.
+
+  A causa era a sigla repetida em grupos diferentes na Wikipédia em inglês: "NAC" era o Nacional-AM num grupo e o
+  Nacional-PB em outro. Corrigi no leitor comum (`coleta/comum/wiki.py`), e isso vale também para a Série D. Em 2006 o −6
+  é do Ananindeua, e não da Anapolina: o "Anapolina −6" do painel vinha desse erro. A perda de 12 pontos do Araguaína em
+  2007 foi revertida e não entra.
+- **SC-020 (datas):** ida e volta com a mesma data passam a usar a data do ogol (ou a da página, quando só ela separa os
+  dois jogos), em 1994, 1998 e 2003.
+- **Artilheiros:** SC-022 (1998: Kléber Pereira, Moto Club, 25) e SC-023 (Jones Carioca, Assisinho, Leandrão, Júlio César).
+- **CL-031:** saiu o "ogol:JMalucelli" do Matsubara.
+
+**Ficam como estão, anotados:**
+- SC-016: placares em que só a Wikipédia diverge (RSSSF e ogol concordam);
+- SC-018: a ordem do meio da tabela na Wikipédia segue outro critério;
+- SC-021: totais em dúvida (1995 384 x 383, 1999 226 x 224 com os jogos-desempate, 2011 106 x 105, 2012 194 x 195);
+- CL-012 (Joaçaba e São Borja 1981, Guarabira 2001): nome e ficha de clube fundado depois. Precisa de decisão: manter
+  o clube do ogol ou criar um cadastro com o nome da RSSSF.
+
+## Agente 2 (21/11/2026): revisão da Série D, parte 4 (o resto da Série D)
+
+Pacote `bra-serie-d` refeito (sem commit). Recarregar no banco e no painel.
+
+**Corrigidos:**
+- **SD-014 a SD-016 (punições):**
+  - 2009: Araguaia e Naviraiense −6;
+  - 2010: América-AM −10;
+  - 2012: Comercial-PI e Santos-AP −3;
+  - 2013: Paragominas −6;
+  - 2014: River-PI −4 e Villa Nova-MG −14;
+  - 2015: Náutico-RR −4 e Santos-AP −3;
+  - 2017: o −3 é do São Raimundo-PA, e não do -RR;
+  - 2019: Bahia de Feira −3;
+  - 2025: o −3 é do Maracanã, e não do Maricá.
+
+  Os pontos batem com a revisão. Continuam as punições que a Wikipédia já dava (Colo Colo-BA 2015, Baré 2016,
+  Itabaiana 2017).
+- **SD-010:** Princesa 3x3 Manaus FC (2024); o total de gols de 2024 fica em 1.143, como na Wikipédia.
+- **SD-012:** a ida da final de 2016 foi em 25/09.
+- **SD-013:** os 3 W.O. de 2014 ficam com `resultado_especial` = awd, mantendo o 3x0. Se o painel não deve contar esses
+  gols nos totais, o filtro é por esse campo.
+- **SD-009:** observações em português (pênaltis só nos campos próprios; sem números soltos). Fiz um leitor comum em
+  `coleta/comum/observacao.py`.
+- **SD-018:** nomes de artilheiro sem o "- " na frente.
+
+**Ficam como estão:**
+- SD-011 (datas da semifinal de 2013): ogol e RSSSF dão 06/09 e 29/09, e a revisão diz "data exata a confirmar";
+- SD-021: a própria revisão diz que está igual à fonte.
+
+## Agente 2 (21/11/2026): revisão da Copa do Brasil, parte 4 (o resto da Copa)
+
+Pacote `bra-copa-do-brasil` refeito (sem commit), e também `bra-serie-c` e `bra-serie-d` (observações e pênaltis).
+Recarregar os três no banco e no painel.
+
+**Corrigidos:**
+- **CB-004 e CB-005 (placares):** placar diferente entre RSSSF e ogol agora fica com o do ogol. A revisão conferiu 10
+  desses casos e o ogol estava certo em todos; são 15 jogos ao todo, e os 5 não conferidos seguem a mesma regra (1991
+  Remo x Vasco, 1995 Nacional-AM x Cristal, 1998 Bahia x Botafogo-PB, 2002 América-RN x São Raimundo). O 1990 Santa
+  Cruz x América-RN já tinha sido resolvido pela regra de mando da parte 1.
+- **CB-007:**
+  - 2007: saiu o "Rio Branco-PR 3x0 Villa Nova-MG", e a edição fica com 115 jogos;
+  - 2019: saiu o Aparecidense 1x0 Ponte Preta anulado, e a edição fica com 120;
+  - 2021: Sergipe 0x0 Cuiabá no lugar do "CRB", e a edição fica com 92 clubes;
+  - 1999: a preliminar Santa Cruz 1x0 Náutico **não entrou**: não está nem na RSSSF nem no ogol, e falta a data.
+- **CL-003:** em 2007 é o CEOV Operário (Várzea Grande), e não o Operário-MS. O ogol também errava; corrigido.
+- **CB-008 (pênaltis):** os pênaltis vêm do placar do ogol ("2-1 (4-3 Pen.)") ou da nota da página. Agora são 218 disputas
+  nos campos, com as finais de 2015 (Palmeiras 4x3) e 2017 (Cruzeiro 5x3). Fiz o mesmo na Série C (117) e na D (64).
+- **CB-010 (datas):** as finais de 2014 e 2015 e Goiás x Flamengo (1990) ficam com as datas da Wikipédia. O ogol dá o dia
+  seguinte em jogos à noite; isso pode acontecer em outros jogos cuja data veio do ogol.
+- **TL-004:** ida e volta com a mesma data na Copa (2001) seguem a mesma regra da Série C.
+- **CB-011 (artilheiros):** Dênis Marques no Athletico-PR (2007), Pipico no Santa Cruz (2019), Rômulo (2018) e Lorran
+  (2023) entram, e os nomes em maiúsculas da RSSSF viram nome próprio ("Dênis Marques").
+- **CB-015 e SD-009 (observações):** em português, sem datas soltas ("Feb 3"), sem a nota de campeonato de 1996 e sem
+  pênaltis repetidos. Vale para a Série C, a D e a Copa.
+
+## Agente 2 (21/11/2026): Paulista, classificação por rodada com a fase (resposta ao agente 1)
+
+Pacote `bra-sp-1` refeito (sem commit). Recarregar no banco e no painel.
+
+- `classificacao_rodada.csv` agora tem a coluna `fase`, depois de `temporada`:
+  `temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,zona`. Na seção 4 do guia
+  a coluna não existe; para os outros pacotes, ela é opcional.
+- Uma tabela por fase de pontos corridos. Em 1996 e 1997 há mais de uma; nenhum clube repete rodada dentro da fase.
+- Fica de fora a fase em que algum clube joga duas vezes na mesma rodada (rodada do ogol fora de ordem nos anos antigos,
+  como 1926 APEA, que antes saía errado).
+- Zona: "titulo" só na última fase; "rebaixamento" só na fase que reúne todos os clubes da edição.
+- 1996: a 1ª fase (120 jogos) se chamava "Final", porque a página põe os jogos sob o título da tabela final. Agora é
+  "Primeira fase".
+- Ficam 24 temporadas com tabela rodada a rodada.
+
+## Agente 2 (21/11/2026): edições de 2026 (SC-001, SD-001), sufixo (CL-027) e um aviso sobre a Série A
+
+Pacotes `bra-serie-c` e `bra-serie-d` refeitos (sem commit). Recarregar no banco e no painel.
+
+- **SC-001 (Série C 2026):** entra, com 216 jogos e 20 clubes, com os jogos do ogol, porque a RSSSF ainda não tem a página.
+  - Maringá campeão e Ferroviária-SP vice;
+  - acesso de Ferroviária, Inter de Limeira e Santa Cruz, além do Maringá;
+  - rebaixados Confiança e Itabaiana (a Wikipédia lista só esses dois).
+- **SD-001 (Série D 2026):** entra, com 610 jogos e 96 clubes em 16 grupos, também pelo ogol.
+  - Uberlândia campeão e ASA vice;
+  - os 6 acessos: Uberlândia, ASA, Gama, ABC, Nacional-AM e Goiatuba;
+  - fase nova "Repescagem", entre as quartas e a semifinal: os perdedores das quartas jogaram pelas duas últimas vagas;
+  - 14 clubes novos, que ainda não estão no banco.
+- **CL-027 (sufixo "-UF"):** nada muda, pela decisão registrada em `docs/revisao/pedidos-painel.md`; os nomes dos
+  pacotes ficam como estão.
+- **`coleta/comum/ogol.py`:** a página do calendário agora só vale se o endereço canônico for o calendário daquela edição.
+  Antes bastava ter um link para ela, e o ogol, quando limita os pedidos, devolve o calendário de outra competição com
+  esse link no menu. Uma página do meio que falha não devolve mais o calendário pela metade. Conferi os caches da C, da D,
+  da Copa, do Paulista e da Série B: todos limpos.
+- **Aviso, Série A (área sua):** o cache `data/cache/ogol_serie_a/` tem 12 páginas que são de outras competições, e
+  a validação antiga deixou passar. São estas:
+  - 1991, páginas 1 e 2: Coca-Cola Cup 1996/97 (Escócia) e um campeonato de futsal de Portugal;
+  - 1993, página 1: Liga da Guiné Equatorial 2003;
+  - 1994, páginas 3 e 5: Eliminatórias da CAF 2006 e um campeonato juvenil de Braga;
+  - 1995, páginas 1 e 4: Premier Liga 2009/10 (Bósnia) e um campeonato juvenil do Algarve;
+  - 1997, página 4: Taça dos Campeões da CONCACAF 1994;
+  - 1998, página 2: III Divisão de Portugal 1995/96;
+  - 2008, página 3: Torneio Rio-São Paulo 1955;
+  - 2009, página 4, e 2010, página 3: campeonatos juvenis de Coimbra e de Lisboa.
+
+  Se a Série A usou o ogol desses anos, pode haver jogo de outra competição no banco. A conferência que usei foi:
+  `rel="canonical"` com `/edicao/<slug>/<código da edição>/calendario`.

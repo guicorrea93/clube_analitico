@@ -12,7 +12,20 @@ from collections import Counter, defaultdict
 import clubes_cb
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
 from importar import FONTE_RSSSF, ORDEM, nome, pontos_vitoria
+from observacao import obs_pt
 from rsssf_cb import rsssf
+
+# artilheiros (revisão CB-011): clube certo quando o nome da fonte casa com outro; e os que o infobox não traz
+ART_CLUBE: dict[tuple[int, str], str] = {(2007, "Dênis Marques"): "Athletico-PR", (2019, "Pipico"): "Santa Cruz"}
+ART_EXTRA: dict[int, list[tuple[str, str, int]]] = {2018: [("Rômulo", "Avaí", 4)], 2023: [("Lorran", "Nova Mutum", 5)]}
+MINUSCULAS = {"de", "da", "do", "das", "dos", "e"}
+
+
+def jogador(nome_j: str) -> str:
+    """'DÊNIS MARQUES' (a RSSSF escreve em maiúsculas até 2011) -> 'Dênis Marques'."""
+    if not nome_j.isupper():
+        return nome_j
+    return " ".join(w.lower() if w.lower() in MINUSCULAS and i else w.capitalize() for i, w in enumerate(nome_j.split()))
 
 
 def _csv(arquivo: str, cabecalho: list[str], linhas: list[list]) -> None:
@@ -105,7 +118,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
             usados |= {p.mandante, p.visitante}
             linhas_p.append([pid, str(ano), p.fase, p.grupo, p.rodada, p.data, p.hora, nome(p.mandante), nome(p.visitante), p.gm, p.gv,
                              p.pen_m, p.pen_v, normalizar_especial(p.especial), p.estadio, p.cidade, p.publico, fonte_curta(p.fonte),
-                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", p.obs.strip("; ")])
+                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", obs_pt(p.obs)])
             for g in p.gols:
                 linhas_g.append([pid, nome(p.mandante if g["lado"] == "mandante" else p.visitante), g["jogador"], g["minuto"],
                                  g["acrescimo"], g["tipo"], g["fonte"]])
@@ -132,10 +145,15 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         lista = artilheiros_rsssf.get(ano)
         if lista:
             for jog, clube_txt, n in lista:
-                linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "RSSSF (cbrtops.htm)"])
+                jog = jogador(jog)
+                linhas_art.append([str(ano), jog, ART_CLUBE.get((ano, jog)) or casar_clube_texto(clube_txt, ps, e["mapa"]), n,
+                                   "RSSSF (cbrtops.htm)"])
         elif ib["artilheiros"]:
             for jog, clube_txt, n in ib["artilheiros"]:
-                linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "Wikipédia (infobox da edição)"])
+                linhas_art.append([str(ano), jog, ART_CLUBE.get((ano, jog)) or casar_clube_texto(clube_txt, ps, e["mapa"]), n,
+                                   "Wikipédia (infobox da edição)"])
+            for jog, clube, n in ART_EXTRA.get(ano, []):
+                linhas_art.append([str(ano), jog, clube, n, "Wikipédia (artigo da edição)"])
         else:
             cont = Counter((g["jogador"], p.mandante if g["lado"] == "mandante" else p.visitante) for p in ps for g in p.gols if g["tipo"] != "contra")
             total = sum((p.gm or 0) + (p.gv or 0) for p in ps)

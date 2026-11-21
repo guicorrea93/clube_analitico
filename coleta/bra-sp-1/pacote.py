@@ -102,7 +102,8 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
                     p.grupo = ""
             linhas_f.append([str(ano), i, f, tipo, ng, serie, ""])
             if tipo == "liga" and serie == "pontos_corridos":
-                linhas_rod += classificacao_rodada(str(ano), por_fase[f], e)
+                todos = {x for q in ps for x in (q.mandante, q.visitante)}
+                linhas_rod += classificacao_rodada(str(ano), f, por_fase[f], e, ultima=(i == len(fases)), todos=todos)
             desenho.append({"grupos": f"{ng} grupos", "liga": "pontos corridos", "mata_mata": "mata-mata"}[tipo])
         ordem_jogo = sorted(ps, key=lambda p: (fases.index(p.fase), p.grupo, p.data or "9999", p.hora or "", p.linha))
         for k, p in enumerate(ordem_jogo, 1):
@@ -193,7 +194,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     _csv("tabelas_publicadas.csv", ["temporada", "fase", "grupo", "posicao", "nome_fonte", "clube", "jogos", "vitorias", "empates", "derrotas",
                                     "gols_pro", "gols_contra", "pontos", "fonte"], linhas_tp)
     _csv("artilheiros.csv", ["temporada", "jogador", "clube", "gols", "fonte"], linhas_art)
-    _csv("classificacao_rodada.csv", ["temporada", "rodada", "clube", "posicao", "pontos", "jogos", "vitorias", "empates", "derrotas",
+    _csv("classificacao_rodada.csv", ["temporada", "fase", "rodada", "clube", "posicao", "pontos", "jogos", "vitorias", "empates", "derrotas",
                                       "gols_pro", "gols_contra", "zona"], linhas_rod)
     _csv("conferencia.csv", ["temporada", "jogos", "jogos_esperados", "tabelas_conferidas", "tabelas_divergentes", "gols", "gols_com_autor",
                              "observacao"], linhas_conf)
@@ -202,15 +203,20 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     relatorio(edicoes, log, rs_c, wk_c)
 
 
-def classificacao_rodada(temporada: str, ps: list, e: dict) -> list[list]:
-    """Pontos corridos: a classificação depois de cada rodada (pontos, vitórias, saldo, gols pró). Só sai quando todos os
-    jogos da fase têm a rodada. Zona: "titulo" para o 1º; "rebaixamento" para as últimas posições, tantas quantos foram os
-    rebaixados da edição; "meio" para o resto."""
+def classificacao_rodada(temporada: str, fase: str, ps: list, e: dict, ultima: bool, todos: set) -> list[list]:
+    """Pontos corridos: a classificação de uma fase depois de cada rodada (pontos, vitórias, saldo, gols pró), com a fase
+    numa coluna própria (pedido do agente 1: em 1979, 1996 e 1997 há mais de uma fase de pontos corridos). Só sai quando
+    todos os jogos da fase têm a rodada e nenhum clube joga duas vezes na mesma rodada (rodada do ogol fora de ordem nos
+    anos antigos). Zona: "titulo" para o 1º só na última fase; "rebaixamento" para as últimas posições, tantas quantos
+    foram os rebaixados, só na fase que reúne todos os clubes da edição; "meio" para o resto."""
     if not ps or any(not p.rodada or p.gm is None for p in ps):
+        return []
+    por_rodada = Counter((p.rodada, x) for p in ps for x in (p.mandante, p.visitante))
+    if any(n > 1 for n in por_rodada.values()):
         return []
     pv = pontos_vitoria(temporada)
     clubes = sorted({x for p in ps for x in (p.mandante, p.visitante)})
-    caidos = len(rebaixados_rsssf(e) & set(clubes))
+    caidos = len(rebaixados_rsssf(e) & set(clubes)) if set(clubes) >= todos else 0
     saida = []
     for r in range(1, max(p.rodada for p in ps) + 1):
         camp = {c: [0] * 6 for c in clubes}
@@ -223,8 +229,8 @@ def classificacao_rodada(temporada: str, ps: list, e: dict) -> list[list]:
         pts = {c: pv * x[1] + x[2] for c, x in camp.items()}
         ordem = sorted(clubes, key=lambda c: (-pts[c], -camp[c][1], -(camp[c][4] - camp[c][5]), -camp[c][4], nome(c)))
         for pos, c in enumerate(ordem, 1):
-            zona = "titulo" if pos == 1 else "rebaixamento" if caidos and pos > len(ordem) - caidos else "meio"
-            saida.append([temporada, r, nome(c), pos, pts[c], *camp[c], zona])
+            zona = "titulo" if pos == 1 and ultima else "rebaixamento" if caidos and pos > len(ordem) - caidos else "meio"
+            saida.append([temporada, fase, r, nome(c), pos, pts[c], *camp[c], zona])
     return saida
 
 

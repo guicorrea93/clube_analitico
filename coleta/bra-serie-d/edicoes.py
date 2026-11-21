@@ -13,7 +13,7 @@ PASTA_DADOS = RAIZ / "data" / "coleta" / SLUG
 PACOTE = PASTA_DADOS / "pacote"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
 
-ANOS = list(range(2009, 2026))
+ANOS = list(range(2009, 2027))
 
 NOME_OFICIAL: dict[int, str] = {}
 NOME_PADRAO = "Campeonato Brasileiro Série D"

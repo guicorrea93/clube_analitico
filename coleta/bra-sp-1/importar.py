@@ -586,6 +586,7 @@ def juntar_espn(ano: int, partidas: list[Partida], log: list[str]) -> None:
 
 FASES_PT = [
     # Paulista: turnos (com as grafias das páginas) e fases com outro nome
+    (r"^final table", "Primeira fase"),   # 1996: os jogos do 1º turno vêm sob o título da tabela final
     (r"^(1º|1o\.?|1ª|primeiro)\s*turno\s*-\s*qualifying", "1º Turno - Classificatória"),
     (r"^(2º|2o\.?|segundo)\s*turno\s*-\s*qualifying", "2º Turno - Classificatória"),
     (r"^(2º|2o\.?|segundo)\s*turno\s*-\s*1st phase", "2º Turno - 1ª fase"),

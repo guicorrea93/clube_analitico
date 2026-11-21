@@ -26,7 +26,9 @@ if __name__ == "__main__":
             for lado in ("mandante", "visitante"):
                 if j.get(f"{lado}_id"):
                     ids.setdefault(j[f"{lado}_id"], set()).add(j[lado])
-    saida = {}
+    # fichas que já estão no arquivo e não vêm dos calendários (copiadas à mão de outra coleta: SE Ariquemes na Série C) ficam
+    antigo = json.loads((PASTA / "clubes.json").read_text(encoding="utf-8")) if (PASTA / "clubes.json").exists() else {}
+    saida = {i: f for i, f in antigo.items() if i not in ids}
     for i, (id_ogol, nomes) in enumerate(sorted(ids.items(), key=lambda x: (not x[0].isdigit(), int(x[0]) if x[0].isdigit() else 0, x[0]))):
         ficha = equipe(id_ogol, CACHE)
         ficha["nomes_ogol"] = sorted(nomes)

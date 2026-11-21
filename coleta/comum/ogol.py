@@ -34,18 +34,20 @@ def calendario(ed: int, cache: Path, prefixo: str, titulo: str = "") -> list[dic
     jogos, vistos = [], set()
     for pagina in range(1, 60):
         destino = cache / f"{prefixo}_{ed}_p{pagina}.html"
-        for tentativa in range(4):
+        for tentativa in range(6):
             t = (pegar(f"{BASE}/edicao/-/{ed}/calendario?page={pagina}", destino, espera=ESPERA,
                        de_novo=tentativa > 0) or b"").decode("utf-8", "ignore")
             # tem de ser o calendário desta edição: o ogol, quando limita os pedidos, devolve outra página (até o
-            # calendário de outra competição)
+            # calendário de outra competição, que pode ter link para esta edição no menu): vale o endereço canônico
             tit = re.search(r"<title>\s*(Calend[^<]*)", t)
-            if tit and titulo.lower() in tit.group(1).lower() and re.search(rf'/edicao/[^"/]+/{ed}\b', t):
+            can = re.search(r'rel="canonical"\s+href="[^"]*/edicao/[^"/]+/(\d+)/calendario', t)
+            if tit and titulo.lower() in tit.group(1).lower() and can and can.group(1) == str(ed):
                 break
             # o ogol, quando limita os pedidos, devolve outra página (lista de competições...): não fica no cache
             destino.unlink(missing_ok=True)
-            # a edição abre e o calendário não, já depois de uma espera: a edição não tem (mais) calendário no ogol
-            if tentativa >= 1 and _edicao_abre(ed):
+            # só a 1ª página diz se a edição tem calendário: a edição abre e o calendário não, já depois de uma espera.
+            # Nas outras, a falha é o limite de pedidos: espera e tenta de novo (nada de devolver o calendário pela metade)
+            if pagina == 1 and tentativa >= 1 and _edicao_abre(ed):
                 return jogos
             time.sleep(60 * (tentativa + 1))
         else:

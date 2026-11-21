@@ -4,7 +4,7 @@
 INTRO = [
     "Gerado por `python coleta/bra-serie-c/importar.py`. Pacote em `data/coleta/bra-serie-c/pacote/`.",
     "",
-    "**Edições:** 35 oficiais, de 1981 a 2025 (1981, 1988, 1990, 1992, 1994-1999 e 2001-2025), conferidas na RSSSF Brasil",
+    "**Edições:** 36 oficiais, de 1981 a 2026 (1981, 1988, 1990, 1992, 1994-1999 e 2001-2026), conferidas na RSSSF Brasil",
     "(lista de campeões da 3ª divisão) e na Wikipédia em português (artigo da Série C). As duas trazem os mesmos anos e os mesmos",
     "campeões. Ficam de fora 1987 (módulos Azul e Branco da Copa União: a CBF disse que nenhum módulo seria a 3ª divisão) e 2000",
     "(Módulo Verde e Branco da Copa João Havelange, equivalente à 3ª divisão, mas sem título oficial). Nome oficial: Taça de Bronze",
@@ -17,12 +17,26 @@ INTRO = [
     "",
     "**Regras:** placar diferente entre RSSSF e ogol fica com a versão que fecha com a tabela publicada pela RSSSF; sem tabela,",
     "fica a da RSSSF. Autores dos gols só entram quando a soma bate com o placar. Clube que já está no `futebol.db` usa o nome de lá.",
+    "",
+    "**Classificação final (revisão SC-002, SC-003):** campeão e vice em cima; depois a fase alcançada; na mesma fase, a posição",
+    "no grupo dela (ou no quadrangular/octogonal final) e a campanha toda (pontos, vitórias, saldo, gols pró). A ordem geral da RSSSF,",
+    "quando existe, só desempata dentro da mesma fase. As últimas fases de mata-mata levam o nome pelo número de confrontos",
+    "(1 = Final, 2 = Semifinal, 4 = Quartas de final).",
+    "",
+    "**Acesso e rebaixamento (revisão SC-004, SC-005):** acesso = promovidos da Wikipédia e quem jogou a Série B do ano seguinte",
+    "(em 1981 só o Olaria; em 1988, 1990 e 1992 ninguém, porque a Série B seguinte foi por convite; em 1999 Fluminense e São",
+    "Raimundo). Rebaixado = rebaixados da RSSSF e da Wikipédia e, desde 2009, quem jogou a Série D do ano seguinte (mais",
+    "Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).",
 ]
 
 # ano -> explicações conferidas à mão (contexto das ocorrências listadas logo abaixo de cada ano)
 EXPLICACOES: dict[int, list[str]] = {
+    2026: ["a RSSSF ainda não tem a página de 2026: os jogos, as fases e os grupos vêm do ogol, e o campeão, os acessos e os "
+           "rebaixados da Wikipédia (revisão SC-001). Sem autores de gols"],
     1981: ["o ogol liga o Matsubara (Cambará-PR) ao J. Malucelli, fundado em 1994; corrigido no código (CORRIGE_OGOL): fica a SE Matsubara, como na RSSSF"],
-    1988: ["a final (Esportivo-MG x União São João, 1-1 e 2-2) foi decidida pela campanha (número de vitórias): campeão pela lista oficial"],
+    1988: ["a final (Esportivo-MG x União São João, 1-1 e 2-2) foi decidida pela campanha (número de vitórias): campeão pela lista oficial",
+           "vitória valia 3 pontos e o empate ia para os pênaltis: 2 para quem vencia, 1 para quem perdia (revisão SC-007). "
+           "No grupo 18 da 2ª fase o ogol põe a Desportiva Ferroviária no lugar da Ferroviária-SP; corrigido (revisão SC-008)"],
     1994: ["nas oitavas, o 'Vitória' sem estado da página é o Vitória-ES (o Vitória-PE caiu para o ABC na mesma fase); corrigido no texto da página",
            "o ogol põe o Vitória-ES contra o ABC no jogo de volta das oitavas; a RSSSF e a classificação final mostram o Vitória-PE (fica a RSSSF)"],
     1995: ["página com 108 clubes e a 2ª e a 3ª fases em confrontos colados uns nos outros; o leitor separa cada jogo (rsssf_c.py, _1995)",
@@ -32,7 +46,14 @@ EXPLICACOES: dict[int, list[str]] = {
     2002: ["dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; "
            "pode ser erro do ogol. Fica como está (decisão do agente principal, 20/11/2026)"],
     2005: ["a página traz o público no fim da linha dos jogos das fases finais ('att: 18.865'); o leitor lê o público (12 jogos)"],
-    2011: ["o Rio Branco-AC foi eliminado pelo STJD depois de recorrer à Justiça comum; a RSSSF mantém 3 jogos dele na 2ª fase, que o ogol não tem (ficam, com a fonte RSSSF)"],
+    2011: ["o Rio Branco-AC foi eliminado pelo STJD depois de recorrer à Justiça comum; a RSSSF mantém 3 jogos dele na 2ª fase, que o ogol não tem (ficam, com a fonte RSSSF)",
+           "sem os 3 jogos do Rio Branco-AC na 2ª fase (eliminado pelo STJD; o grupo E recomeçou com o Luverdense), o 3º é o "
+           "Ipatinga, como na Wikipédia (revisão SC-003, SC-013). A edição fica com 106 jogos; o infobox da Wikipédia diz 105 "
+           "(diferença não achada, revisão SC-021)"],
+    1992: ["5 placares da página trocados pelos do ogol e da Wikipédia (revisão SC-014); as tabelas publicadas pela RSSSF "
+           "seguem os placares antigos da página e por isso não fecham nos grupos 1 e 6 e no grupo A da 2ª fase. Com os placares "
+           "novos o 3º é o Nacional-AM, como na Wikipédia. Dois jogos do grupo B vêm na página depois do título da final e voltam "
+           "para a 2ª fase"],
     2013: ["o Rio Branco-AC entrou na competição por decisão judicial; a página da RSSSF não traz os 20 jogos dele no grupo A, que entram pelo ogol (a tabela do grupo fecha)"],
     2015: ["a página da RSSSF trocou dia e mês em 37 datas ('06/jan/15' em vez de 02/06); vale a data do ogol"],
     2017: ["Mogi Mirim x Ypiranga-RS (grupo B) foi W.O. ('0-WO' na página): entra 0-3, como conta a tabela do grupo"],

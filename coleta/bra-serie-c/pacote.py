@@ -9,6 +9,7 @@ import re
 import sqlite3
 from collections import Counter, defaultdict
 
+from observacao import obs_pt
 import clubes_c
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
 from importar import FONTE_RSSSF, ORDEM, nome, pontos_vitoria
@@ -24,15 +25,24 @@ def _csv(arquivo: str, cabecalho: list[str], linhas: list[list]) -> None:
             w.writerow(["" if x is None else x for x in l])
 
 
-def serie_b_por_ano() -> dict[int, set[str]]:
-    """Clubes (nome de exibição do futebol.db) que jogaram a Série B em cada ano: marca o acesso da Série C."""
+def serie_b_por_ano(slug: str = "bra-serie-b") -> dict[int, set[str]]:
+    """Clubes (nome de exibição do futebol.db) que jogaram a competição em cada ano: a Série B do ano seguinte marca o
+    acesso da Série C; a Série D do ano seguinte, o rebaixamento."""
     con = sqlite3.connect(f"file:{RAIZ / 'db' / 'futebol.db'}?mode=ro", uri=True)
     saida: dict[int, set[str]] = defaultdict(set)
     for ano, n in con.execute("""SELECT e.ano_inicio, c.nome FROM classificacao_final f JOIN edicao e USING (edicao_id)
-                                 JOIN competicao k USING (competicao_id) JOIN clube c USING (clube_id) WHERE k.slug = 'bra-serie-b'"""):
+                                 JOIN competicao k USING (competicao_id) JOIN clube c USING (clube_id) WHERE k.slug = ?""", (slug,)):
         saida[int(ano)].add(n)
     con.close()
     return saida
+
+
+# anos em que a Série B seguinte não foi por acesso (convite ou estaduais): só sobe quem está aqui (revisão SC-005)
+ACESSO_SO_ESTES: dict[int, set[str]] = {1981: {"Olaria"}, 1988: set(), 1990: set(), 1992: set()}
+# acesso que nem o infobox nem a Série B seguinte mostram (a Série B de 2000 foi o Módulo Amarelo da Copa João Havelange)
+ACESSO_MANUAL: dict[int, set[str]] = {1999: {"Fluminense", "São Raimundo"}}
+# rebaixados que não jogaram a Série D seguinte (licenciados ou desistentes), pela Wikipédia (revisão SC-004)
+REBAIXADO_MANUAL: dict[int, set[str]] = {2016: {"Guaratinguetá"}, 2019: {"Luverdense"}}
 
 
 def infobox(ano: int) -> dict:
@@ -66,6 +76,7 @@ def tipo_fase(ps: list) -> tuple[str, int | None, str]:
 def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     ex = clubes_c.exibicao()
     serie_b = serie_b_por_ano()
+    serie_d = serie_b_por_ano("bra-serie-d")
     # ------------------------------------------------------------------ competicao.json
     PACOTE.mkdir(parents=True, exist_ok=True)
     (PACOTE / "competicao.json").write_text(json.dumps({
@@ -85,7 +96,8 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
             nomes_fonte[cid][f"rsssf:{n[0] if isinstance(n, tuple) else n}"].append(ano)
         for o in e["og"]:
             for lado in ("mandante", "visitante"):
-                if o.get(f"{lado}_id"):
+                # código trocado à mão (CORRIGE_OGOL): o nome do ogol é do outro clube e não entra (revisão CL-031)
+                if o.get(f"{lado}_id") and not o.get(f"{lado}_corrigido"):
                     nomes_fonte[o[f"{lado}_id"]][f"ogol:{o[lado]}"].append(ano)
         # fases na ordem da competição
         por_fase = defaultdict(list)
@@ -106,9 +118,9 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
             usados |= {p.mandante, p.visitante}
             linhas_p.append([pid, str(ano), p.fase, p.grupo, p.rodada, p.data, p.hora, nome(p.mandante), nome(p.visitante), p.gm, p.gv,
                              p.pen_m, p.pen_v, normalizar_especial(p.especial), p.estadio, p.cidade, p.publico, fonte_curta(p.fonte),
-                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", p.obs.strip("; ")])
+                             p.fonte_id, p.gols_texto.strip() if p.gols_texto and not p.gols else "", obs_pt(p.obs)])
             for g in p.gols:
-                linhas_g.append([pid, nome(p.mandante if g["lado"] == "mandante" else p.visitante), g["jogador"], g["minuto"],
+                linhas_g.append([pid, nome(p.mandante if g["lado"] == "mandante" else p.visitante), grafia(g["jogador"]), g["minuto"],
                                  g["acrescimo"], g["tipo"], g["fonte"]])
         # classificação final
         final = e["final"]
@@ -116,8 +128,16 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         rebaixados = rebaixados_rsssf(e)
         ib = infobox(ano)
         subiram = {casar_clube_texto(x, ps, e["mapa"]) for x in ib["promovidos"]} | serie_b.get(ano + 1, set())
+        if ano in ACESSO_SO_ESTES:
+            subiram = ACESSO_SO_ESTES[ano]
+        subiram |= ACESSO_MANUAL.get(ano, set())
         rebaixados |= {c for c in {x for p in ps for x in (p.mandante, p.visitante)}
                        if nome(c) in {casar_clube_texto(x, ps, e["mapa"]) for x in ib["rebaixados"]}}
+        # quem jogou a Série D do ano seguinte caiu (revisão SC-004; a Série D existe desde 2009: em 2008 a Série C foi
+        # reduzida a 20 clubes, e os outros foram para a nova Série D ou para os estaduais)
+        if ano >= 2009:
+            rebaixados |= {c for c in {x for p in ps for x in (p.mandante, p.visitante)} if nome(c) in serie_d.get(ano + 1, set())}
+        rebaixados |= {c for c in {x for p in ps for x in (p.mandante, p.visitante)} if nome(c) in REBAIXADO_MANUAL.get(ano, set())}
         for f in final:
             c = f["clube"]
             sit = "campeao" if c == campeao else "acesso" if nome(c) in subiram else "rebaixado" if c in rebaixados else ""
@@ -135,7 +155,10 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         lista = artilheiros_rsssf.get(ano)
         if lista:
             for jog, clube_txt, n in lista:
-                linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "RSSSF (br3tops.htm)"])
+                linhas_art.append([str(ano), grafia(jog), casar_clube_texto(clube_txt, ps, e["mapa"]), n, "RSSSF (br3tops.htm)"])
+        elif ano in ARTILHEIRO_MANUAL:
+            for jog, clube, n, fonte in ARTILHEIRO_MANUAL[ano]:
+                linhas_art.append([str(ano), jog, clube, n, fonte])
         elif ib["artilheiros"]:
             for jog, clube_txt, n in ib["artilheiros"]:
                 linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "Wikipédia (infobox da edição)"])
@@ -227,6 +250,17 @@ def rebaixados_rsssf(e: dict) -> set[str]:
                 if r["nome"] in nome_id:
                     saida.add(nome_id[r["nome"]])
     return saida
+
+
+# artilheiro que a RSSSF (br3tops.htm) e o infobox não trazem (revisão SC-022)
+ARTILHEIRO_MANUAL: dict[int, list[tuple[str, str, int, str]]] = {
+    1998: [("Kléber Pereira", "Moto Club", 25, "Wikipédia (artigo da edição)")]}
+# grafia certa de nomes de jogador que a RSSSF escreve errado (revisão SC-023)
+GRAFIA = {"Jonas Carioca": "Jones Carioca", "Assinzinho": "Assisinho", "Leandrao": "Leandrão", "Julio César": "Júlio César"}
+
+
+def grafia(jogador: str) -> str:
+    return GRAFIA.get(jogador, jogador)
 
 
 def artilheiros() -> dict[int, list[tuple[str, str, int]]]:
