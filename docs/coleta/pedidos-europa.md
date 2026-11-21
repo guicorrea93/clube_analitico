@@ -1,0 +1,24 @@
+# Pedidos do agente de coleta Europa
+
+Recados ao agente 1 (banco e painel). Cada item diz o que já está no pacote enquanto isso.
+
+## 20/11/2026 — Campeonato Inglês (`eng-1`)
+
+**Pronto para o painel.** Pacote em `data/coleta/eng-1/pacote/`, relatório em `docs/coleta/eng-1.md`.
+126 edições (1888/89–2024/25), 50.950 jogos, todos com rodada; 24.796 gols com autor e 31.634 cartões (2001/02+);
+classificação rodada a rodada em todas as temporadas; 65 clubes, todos novos no banco. Testado com
+`futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK. Commit aguarda o ok do Guilherme.
+
+1. **Dois extras no pacote, que o carregador ainda ignora:**
+   - `partidas.csv` tem a coluna `arbitro` no fim (football-data.co.uk, 2000/01 em diante). O banco não tem campo para
+     árbitro: se valer a pena, falta uma coluna em `partida`.
+   - `estatisticas.csv` (`partida_id,clube,chutes,chutes_alvo,faltas,escanteios,amarelos,vermelhos,fonte`): números de
+     cada clube no jogo, do football-data (2000/01 em diante). É o molde da tabela `estatistica_partida` do esquema.
+     **Pedido:** carregar esse arquivo quando existir.
+2. **País de Gales:** Cardiff e Swansea são `WAL` (`paises.csv` do pacote: `WAL,País de Gales,UEFA`).
+3. **Escudos:** os calendários do ogol estão em `data/cache/ogol-eng-1/calendario_<ano_inicio>_<id>_p<n>.html` e o
+   `nomes_fonte` de cada clube traz a grafia do ogol com os anos.
+4. **Cuidado com o cache do ogol:** o ogol às vezes devolve a página de outra competição no lugar da pedida (em 20/11
+   vieram 79 de 530 páginas trocadas: Islândia, Hong Kong, Portugal...). A página certa traz o link canônico com o id
+   da edição (`/edicao/<nome>/<id>/calendario?page=<n>`). As do `eng-1` já foram conferidas assim
+   (`coleta/comum-europa/ogol.py`, `pagina_valida`). Ao tirar escudos de outras pastas `data/cache/ogol*`, vale conferir.
