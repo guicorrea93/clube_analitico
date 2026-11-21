@@ -35,6 +35,13 @@ MANUAL_DB: dict[str, tuple[str, str]] = {
 }
 # código do ogol -> nome de exibição de clube novo (quando o nome curto do ogol não serve ou confunde), com o motivo
 MANUAL_NOVO: dict[str, tuple[str, str]] = {
+    "238972": ("Joaçaba EC", "Joaçaba Esporte Clube (1977): não é o Joaçaba AC de 1997 (revisão CL-012)"),
+    "241325": ("SE São Borja", "Sociedade Esportiva São Borja (1977): não é o EC São Borja de 2009 (revisão CL-012)"),
+    "89206": ("Guarabira EC", "Guarabira Esporte Clube (1936-2004): não é a AD Guarabira (revisão CL-012)"),
+    "241324": ("Lagarto EC", "Lagarto Esporte Clube (1955-1990): não é o Lagarto FC de 2009 (revisão CL-008)"),
+    "71868": ("AA Cabofriense", "Associação Atlética Cabofriense (1955): não é a AD Cabofriense de 1997 (revisão CL-009)"),
+    "115862": ("EC Limoeiro", "Esporte Clube Limoeiro (1942): não é a AD Limoeiro de 2001 (revisão CL-011)"),
+    "ec-operario-mt": ("EC Operário-MT", "Esporte Clube Operário (1996-2001), de Várzea Grande; sem ficha no ogol (revisão CL-007)"),
     "68358": ("Corinthians Prudente", "EC Corinthians de Presidente Prudente (1996): não é o Corinthians paulistano do banco"),
     "45210": ("Maringá", "Maringá FC fundado em 2010 (Série C 2025): não é o GE Maringá do banco"),
     "241210": ("Maringá FC 1995", "Maringá FC fundado em 1995 (Série C 1997): outro clube, nome como no ogol"),

@@ -86,7 +86,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 ### 1990
 
-- data diferente entre RSSSF e ogol (mais de 3 dias) em 39 jogos (ex.: Lagarto x América-MG, ogol 1990-09-30); fica a do ogol
+- data diferente entre RSSSF e ogol (mais de 3 dias) em 39 jogos (ex.: Lagarto EC x América-MG, ogol 1990-09-30); fica a do ogol
 - a fase "Mata-mata" é mata-mata com 4 confronto(s): vira "Quartas de final"
 
 ### 1992
@@ -182,7 +182,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 - 3 jogos do Itumbiara ficam de fora: eliminado por não pagar a taxa de arbitragem; todos os seus jogos foram anulados (nota da RSSSF; o ogol e a tabela do grupo 5 não os trazem)
 - jogo do ogol ignorado — grupo 10: o ogol tem União Bandeirante 5-0 Figueirense em 27/09; a RSSSF traz União Bandeirante 3-0 São José-RS, e as tabelas de Figueirense e São José só fecham com a RSSSF
-- placar diferente no ogol — Icasa x Limoeiro (1998-08-26): RSSSF 2-1, ogol 1-2; fica o da RSSSF
+- placar diferente no ogol — Icasa x EC Limoeiro (1998-08-26): RSSSF 2-1, ogol 1-2; fica o da RSSSF
 - placar diferente no ogol — Rio Branco-SP x Villa Nova-MG (1998-10-07): RSSSF 3-0, ogol 3-1; fica o da RSSSF
 - placar diferente no ogol — Santo André x Tupi (1998-10-11): RSSSF 1-0, ogol 0-0; fica o da RSSSF
 - placar diferente no ogol — América-SP x Anápolis (1998-10-07): RSSSF 0-0, ogol 2-0; fica o da RSSSF

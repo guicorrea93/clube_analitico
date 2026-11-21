@@ -60,6 +60,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "115862": {
+  "clube": "EC Limoeiro",
+  "uf": "CE",
+  "cidade": "Limoeiro Do Norte",
+  "competicoes": [
+   "bra-serie-c"
+  ]
+ },
  "11647": {
   "clube": "Ariquemes",
   "uf": "RO",
@@ -417,14 +425,6 @@
   "cidade": "Três Lagoas",
   "competicoes": [
    "bra-copa-do-brasil"
-  ]
- },
- "15641": {
-  "clube": "Desportiva Guarabira",
-  "uf": "PB",
-  "cidade": "Guarabira",
-  "competicoes": [
-   "bra-serie-c"
   ]
  },
  "15642": {
@@ -1145,10 +1145,10 @@
    "bra-serie-d"
   ]
  },
- "237932": {
-  "clube": "EC São Gabriel",
-  "uf": "RS",
-  "cidade": "São Gabriel",
+ "238972": {
+  "clube": "Joaçaba EC",
+  "uf": "SC",
+  "cidade": "Joaçaba",
   "competicoes": [
    "bra-serie-c"
   ]
@@ -1201,6 +1201,22 @@
   "clube": "Maringá FC 1995",
   "uf": "PR",
   "cidade": "Maringá",
+  "competicoes": [
+   "bra-serie-c"
+  ]
+ },
+ "241324": {
+  "clube": "Lagarto EC",
+  "uf": "SE",
+  "cidade": "Lagarto",
+  "competicoes": [
+   "bra-serie-c"
+  ]
+ },
+ "241325": {
+  "clube": "SE São Borja",
+  "uf": "RS",
+  "cidade": "São Borja",
   "competicoes": [
    "bra-serie-c"
   ]
@@ -2585,7 +2601,8 @@
   "cidade": "Goiatuba",
   "competicoes": [
    "bra-serie-d",
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-c"
   ]
  },
  "3261": {
@@ -3746,7 +3763,8 @@
   "uf": "RS",
   "cidade": "São Gabriel",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-serie-c"
   ]
  },
  "3462": {
@@ -4421,14 +4439,6 @@
    "bra-copa-do-brasil"
   ]
  },
- "41237": {
-  "clube": "Goiatuba",
-  "uf": "GO",
-  "cidade": "Goiatuba",
-  "competicoes": [
-   "bra-serie-c"
-  ]
- },
  "41583": {
   "clube": "Jaraguá",
   "uf": "GO",
@@ -4481,14 +4491,6 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
-  ]
- },
- "43721": {
-  "clube": "Joaçaba",
-  "uf": "SC",
-  "cidade": "Joaçaba",
-  "competicoes": [
-   "bra-serie-c"
   ]
  },
  "44011": {
@@ -4849,14 +4851,6 @@
    "bra-serie-c"
   ]
  },
- "70071": {
-  "clube": "São Borja",
-  "uf": "RS",
-  "cidade": "São Borja",
-  "competicoes": [
-   "bra-serie-c"
-  ]
- },
  "71236": {
   "clube": "EC Água Santa",
   "uf": "SP",
@@ -4880,6 +4874,14 @@
   "clube": "Porto Alegre-RJ",
   "uf": "RJ",
   "cidade": "Itaperuna",
+  "competicoes": [
+   "bra-serie-c"
+  ]
+ },
+ "71868": {
+  "clube": "AA Cabofriense",
+  "uf": "RJ",
+  "cidade": "Cabo Frio",
   "competicoes": [
    "bra-serie-c"
   ]
@@ -5304,6 +5306,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "89206": {
+  "clube": "Guarabira EC",
+  "uf": "PB",
+  "cidade": "Guarabira",
+  "competicoes": [
+   "bra-serie-c"
+  ]
+ },
  "8988": {
   "clube": "Galícia",
   "uf": "BA",
@@ -5556,6 +5566,15 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
+   "bra-copa-do-brasil"
+  ]
+ },
+ "ec-operario-mt": {
+  "clube": "EC Operário-MT",
+  "uf": "MT",
+  "cidade": "Várzea Grande",
+  "competicoes": [
+   "bra-serie-c",
    "bra-copa-do-brasil"
   ]
  },

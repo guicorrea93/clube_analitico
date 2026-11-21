@@ -430,3 +430,85 @@ Pacotes `bra-serie-c` e `bra-serie-d` refeitos (sem commit). Recarregar no banco
 
   Se a Série A usou o ogol desses anos, pode haver jogo de outra competição no banco. A conferência que usei foi:
   `rel="canonical"` com `/edicao/<slug>/<código da edição>/calendario`.
+
+## Agente 2 (21/11/2026): identidade de clubes, CL-005 a CL-011 (decisão do Guilherme)
+
+Pesquisei cada caso: Wikipédia, sites dos clubes, federações, RSSSF, ogol, imprensa e, quando deu, o CNPJ. O
+Guilherme decidiu seguir as recomendações. Pacotes `bra-serie-c` e `bra-copa-do-brasil` refeitos (sem commit); a
+Série D já estava certa.
+
+| Caso | Decisão | Nos pacotes |
+|---|---|---|
+| CL-005 São Gabriel (RS) | um clube só, o São Gabriel FC (2000-2013); o EC São Gabriel é de 2013 e não tem jogos nacionais | Série C 2002 passa de "EC São Gabriel" para "São Gabriel" (o da Copa 2004) |
+| CL-006 Goiatuba (GO) | um clube só, o Goiatuba EC (1970; mesmo CNPJ, licenciado de 2009 a 2019); a AA Goiatuba é de 2009 | Série C 2003 passa de "Goiatuba" para "Goiatuba EC" |
+| CL-007 Operário (Várzea Grande, MT) | três clubes: CEOV (1949), EC Operário (1996-2001) e Operário FC Ltda (2002, hoje Várzea Grande EC) | Copa 1995 e 1996 → "CEOV Operário"; Série C 1997 e Copa 1998 → "EC Operário-MT" (novo, sem ficha no ogol); Série C 2006 e Copa 2003, 2006 e 2007 → "Operário-MT" (o Operário FC Ltda) |
+| CL-008 Lagarto (SE) | dois clubes: Lagarto EC (1955-1990) e Lagarto FC (2009) | Série C 1988 e 1990 → "Lagarto EC" (novo) |
+| CL-009 Cabofriense (RJ) | dois clubes: AA Cabofriense (1955) e AD Cabofriense (1997) | Série C 1988 → "AA Cabofriense" (novo) |
+| CL-010 Foz do Iguaçu (PR) | dois clubes: Foz do Iguaçu EC (1988-1999) e Foz do Iguaçu FC (1995) | nada nos meus pacotes; só a Série B 1989 muda |
+| CL-011 Limoeiro (CE) | dois clubes: EC Limoeiro (1942) e AD Limoeiro (2001) | Série C 1998 → "EC Limoeiro" (novo) |
+
+Corrigi também o CL-003 (Copa do Brasil 2007). Pela pesquisa, o Operário de 2007 é o Operário FC Ltda, campeão
+mato-grossense de 2006, e não o CEOV, como eu tinha posto hoje.
+
+**Para o banco e o painel (área sua):**
+- **Série A 1968-1986 e Série B 1980-1992:** o "Operário-MT" desses anos é o CEOV e deve ir para "CEOV Operário". O nome
+  "Operário-MT" fica para o Operário FC Ltda, com o escudo do Várzea Grande EC (hoje ele tem o do CEOV).
+- **Série B 1989:**
+  - "Lagarto" → "Lagarto EC";
+  - "Cabofriense" → "AA Cabofriense";
+  - "Foz do Iguaçu" → um novo "Foz do Iguaçu EC".
+- **Série B 1989-1997, "Goiatuba":** é o Goiatuba EC; juntar com "Goiatuba EC" (os pacotes usam esse nome).
+- **"EC São Gabriel"** não aparece mais em nenhum pacote. Juntar com "São Gabriel" ou tirar.
+- **Clubes novos sem escudo:** Lagarto EC, AA Cabofriense, EC Limoeiro e EC Operário-MT. A AA Cabofriense e o EC
+  Limoeiro existem até hoje e talvez tenham escudo na Wikimedia.
+- **Fontes da pesquisa:** Wikipédia pt e en de cada clube, sites oficiais (lagartofc.com.br, fozfutebolclube.com.br,
+  limoeirofc.com), FGF-GO, Federação Paranaense, RSSSF, ogol e CNPJ (Goiatuba EC 02.364.479/0001-70; Foz EC
+  78.097.102/0001-64, baixado em 2008).
+
+## Pedidos da revisão (21/11/2026): Paulista (`bra-sp-1`)
+
+A revisão conferiu o pacote contra a Wikipédia (pt e en). Os achados estão em `docs/revisao/achados.csv` (SP-001 a SP-027,
+com `quem_corrige` = `coleta-brasil`) e as provas em `docs/revisao/bra-sp-1.md`.
+
+1. **Jogo falso (alta):** SP-011. Em 1928 LAF entrou um "Paulista 127 x 0 LAF", com data 0000-00-00 e contra um clube "LAF" que
+   não existe. Ele vira o recorde de maior goleada do painel e entra na classificação.
+2. **Vice e ordem final (alta):**
+   - SP-002: vice errado em 14 edições;
+   - SP-007: repescagem e torneio de rebaixamento contam como fase final (1951, 1998, 1999 e 2003; em 2003 o Botafogo-SP aparece como vice);
+   - SP-008: a fase final verdadeira não decide a ordem (1957, 1976, 1978, 1997, 2024 e 2025; em 2025 o mata-mata está dentro de "Fase única");
+   - SP-003: 3º lugar diferente da fonte em 29 edições.
+3. **Dados que mudam o vice (alta):**
+   - SP-009: em 1927 APEA, jogos do Corinthians de Santo André estão gravados como do Corinthians;
+   - SP-010: 1927 LAF tem 15 clubes no banco, contra 10 na fonte;
+   - SP-012: falta o jogo Corinthians x Palmeiras de 1942;
+   - SP-013: falta a punição de 2 pontos do Palestra Itália em 1930;
+   - SP-014: em 1988, o Juventus está no lugar de outro clube.
+4. **Rebaixamento (alta):** SP-015. Falta a marca de rebaixado em 2014, 2015, 2017 a 2020 e 2022 a 2024, e há marca errada em 1994,
+   1998, 1999 e 2002.
+5. **Jogos, datas e totais (média e baixa):** SP-016 (W.O. sem placar fora da classificação), SP-017, SP-018, SP-019, SP-020,
+   SP-021 (72 casos de clube com 2 jogos no mesmo dia) e SP-022 (observações em inglês).
+6. **Artilheiros (média):** SP-023 e SP-024. Só 13 edições têm artilheiro no banco, e 8 delas vêm da contagem dos gols com autor.
+7. **Aguardam decisão do Guilherme:**
+   - SP-001: título de 1973 dividido entre Santos e Portuguesa;
+   - SP-004: edição de 2026;
+   - SP-005: amadores da FPF em 1933 e 1934;
+   - SP-006: "Paulistinha" de 1970 e de 1972 a 1974;
+   - SP-026: juntar AA São Bento e São Bento de São Paulo;
+   - SP-027: juntar CA Paulista e ECPaulista.
+
+Quando corrigir, cite os ids aqui. A revisão confere de novo.
+
+## Agente 2 (21/11/2026): identidade de clubes, CL-012 (decisão do Guilherme)
+
+Pesquisados como os anteriores. Nos três casos, quem jogou foi um clube antigo, diferente do clube do cadastro.
+Pacote `bra-serie-c` refeito.
+
+| Ano | Antes | Agora (ficha do ogol) | Por quê |
+|---|---|---|---|
+| 1981 | "Joaçaba" (Joaçaba AC, 1997) | "Joaçaba EC" (238972; 1977, extinto nos anos 1980) | o Joaçaba AC vem da AD Joaçaba (1989), não do EC |
+| 1981 | "São Borja" (EC São Borja, 2009) | "SE São Borja" (241325; 1977) | outra pessoa jurídica; o EC de 2009 só herdou escudo, cores e estádio |
+| 2001 | "Desportiva Guarabira" (AD Guarabira) | "Guarabira EC" (89206; 1936, extinto em 2004) | a AD Guarabira vem do Juventus EC, não do Guarabira EC |
+
+**Para o banco (área sua):** "Joaçaba", "São Borja" e "Desportiva Guarabira" só existiam por causa desses anos da
+Série C. Viram os clubes novos (ou saem). Os escudos atuais são dos clubes de hoje; os novos ficam sem escudo
+(Wikimedia, se houver).

@@ -35,6 +35,7 @@ MANUAL_DB: dict[str, tuple[str, str]] = {
 }
 # código do ogol -> nome de exibição de clube novo (quando o nome curto do ogol não serve ou confunde), com o motivo
 MANUAL_NOVO: dict[str, tuple[str, str]] = {
+    "ec-operario-mt": ("EC Operário-MT", "Esporte Clube Operário (1996-2001), de Várzea Grande; sem ficha no ogol (revisão CL-007)"),
     "68358": ("Corinthians Prudente", "EC Corinthians de Presidente Prudente (1996): não é o Corinthians paulistano do banco"),
     "45210": ("Maringá", "Maringá FC fundado em 2010 (Copa do Brasil 2025): não é o GE Maringá do banco"),
     "241210": ("Maringá FC 1995", "Maringá FC fundado em 1995 (Copa do Brasil 1997): outro clube, nome como no ogol"),

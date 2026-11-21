@@ -32,7 +32,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 | 1995 | RSSSF + ogol | 36 | 69 (70) | 168 | 0 | 0 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1996 | RSSSF + ogol | 40 | 70 (78) | 187 | 0 | 0 / 0 | Cruzeiro | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1997 | RSSSF + ogol | 44 | 78 (86) | 267 | 0 | 0 / 0 | Grêmio | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1998 | RSSSF + ogol | 42 | 75 (82) | 233 | 0 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1998 | RSSSF + ogol | 41 | 75 (82) | 233 | 0 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1999 | RSSSF + ogol | 64 | 116 (126) | 370 | 0 | 0 / 0 | Juventude | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2000 | RSSSF + ogol | 69 | 129 (136) | 385 | 0 | 0 / 0 | Cruzeiro | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2001 | RSSSF + ogol | 64 | 117 (126) | 371 | 0 | 0 / 0 | Grêmio | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -153,7 +153,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo só no ogol, incluído em Primeira fase / Grupo 1PE: Democrata-GV 2-0 Goiás (1995-02-17)
 - jogo só no ogol, incluído em Primeira fase: Kaburé 2-0 Maranhão (1995-02-21)
 - jogo só no ogol, incluído em Primeira fase / Grupo 1PE: Goiás 1-0 Democrata-GV (1995-03-03)
-- jogo só no ogol, incluído em Primeira fase: Operário-MT 1-1 Corinthians (1995-03-03)
+- jogo só no ogol, incluído em Primeira fase: CEOV Operário 1-1 Corinthians (1995-03-03)
 - jogo só no ogol, incluído em Primeira fase: Democrata-GV 3-2 Vitória (1995-03-10)
 - jogo só no ogol, incluído em Primeira fase: Flamengo-PI 1-2 Vasco (1995-03-10)
 - jogo só no ogol, incluído em Primeira fase: Atlético-MG 1-0 Sport (1995-03-17)
@@ -161,7 +161,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo só no ogol, incluído em Primeira fase: Internacional 5-0 Pontaporanense (1995-03-24)
 - jogo só no ogol, incluído em Primeira fase: Grêmio 2-1 Desportiva-ES (1995-03-28)
 - jogo só no ogol, incluído em Primeira fase: Sport 2-2 Atlético-MG (1995-03-28)
-- jogo só no ogol, incluído em Primeira fase: Corinthians 4-0 Operário-MT (1995-03-28)
+- jogo só no ogol, incluído em Primeira fase: Corinthians 4-0 CEOV Operário (1995-03-28)
 - jogo só no ogol, incluído em Primeira fase: Vitória 2-0 Democrata-GV (1995-03-28)
 - jogo só no ogol, incluído em Primeira fase: Vasco 4-1 Flamengo-PI (1995-03-30)
 - jogo só no ogol, incluído em Semi-Finals: Corinthians 2-1 Grêmio (1995-06-14)
@@ -187,7 +187,9 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 ### 1998
 
 - placar diferente no ogol — Bahia x Botafogo-PB (1998-02-18): RSSSF 1-2, ogol 2-1; fica o do ogol
-- data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Operário-MT x Vitória, ogol 1998-02-04); fica a do ogol
+- data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: EC Operário-MT x Vitória, ogol 1998-02-04); fica a do ogol
+- adversário diferente no ogol — RSSSF EC Operário-MT 0-0 Flamengo, ogol Operário-MS 0-0 Flamengo (1998-01-20); fica a RSSSF
+- adversário diferente no ogol — RSSSF Flamengo 4-0 EC Operário-MT, ogol Flamengo 4-0 Operário-MS (1998-02-06); fica a RSSSF
 - 1 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 10 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Segunda fase (26); Preliminary Round → Primeira fase (19); Segunda fase → Oitavas de final (16)
 

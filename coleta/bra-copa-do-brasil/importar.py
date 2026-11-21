@@ -107,8 +107,11 @@ def _sim(a: str, b: str) -> float:
 
 # código de clube errado no calendário do ogol: (ano, código errado) -> (código certo, motivo)
 CORRIGE_OGOL: dict[tuple[int, str], tuple[str, str]] = {
-    (2007, "3374"): ("36613", "o Operário de 2007 é o Operário de Várzea Grande (CEOV), campeão mato-grossense de 2006; o ogol "
-                              "põe o Operário-MS (revisão CL-003)"),
+    (2007, "3374"): ("3373", "o Operário de 2007 é o Operário FC Ltda (2002, hoje Várzea Grande EC), campeão mato-grossense de "
+                             "2006; o ogol põe o Operário-MS (revisão CL-003; pesquisa de 21/11/2026)"),
+    (1995, "3373"): ("36613", "em 1995 o Operário de Várzea Grande era o CEOV (revisão CL-007)"),
+    (1996, "3373"): ("36613", "em 1996 o Operário de Várzea Grande era o CEOV (revisão CL-007)"),
+    (1998, "3373"): ("ec-operario-mt", "EC Operário (1996-2001), que substituiu o CEOV (revisão CL-007)"),
 }
 
 
@@ -148,7 +151,9 @@ NOME_MANUAL: dict[tuple[int, str], tuple[str, str]] = {
     (2017, "Sete de Setembro"): ("15589", "7 de Setembro de Dourados (MS), como no ogol"),
     (2018, "Tubarão"): ("15723", "Atlético Tubarão (SC), como no ogol"),
     (2023, "Mutum-MT"): ("240425", "Nova Mutum (MT), como no ogol"),
-    (2007, "Operário(MT)"): ("36613", "CE Operário Várzea-grandense, como nos participantes da RSSSF (revisão CL-003)"),
+    (2007, "Operário(MT)"): ("3373", "Operário FC Ltda (2002), campeão mato-grossense de 2006 (revisão CL-003; pesquisa de 21/11/2026)"),
+    (1996, "Operario-MT"): ("36613", "CEOV (revisão CL-007)"),
+    (1998, "Operario(MT)"): ("ec-operario-mt", "EC Operário (revisão CL-007)"),
 }
 # jogos do calendário do ogol que estão errados (a RSSSF e a tabela publicada mostram outro jogo): código do jogo -> motivo
 OGOL_IGNORAR: dict[str, str] = {}

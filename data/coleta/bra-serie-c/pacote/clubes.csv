@@ -1,6 +1,7 @@
 clube,regiao,cidade,pais,nomes_fonte
 15 de Novembro,RS,Campo Bom,BRA,ogol:15 de Novembro:1997-1998|rsssf:15 de Novembro:1998|rsssf:15 de Novembro(RS):1997
 4 de Julho,PI,Piripiri,BRA,ogol:4 de Julho:1997|rsssf:4 de Julho(PI):1997
+AA Cabofriense,RJ,Cabo Frio,BRA,rsssf:Cabofriense:1988
 ABC,RN,Natal,BRA,ogol:ABC:1988-2025|rsssf:ABC:1988-2024|rsssf:ABC(RN):1995|rsssf:ABC-RN:1995-2022|rsssf:ABC/RN:2016-2025
 ADESG,AC,Senador Guiomard,BRA,ogol:ADESG:2006|rsssf:ADESG:2006
 ASA,AL,Arapiraca,BRA,ogol:ASA:1992-2017|rsssf:A.S.A.(AL):1997|rsssf:ASA:1992-2009|rsssf:ASA/AL:2009-2017|rsssf:Asa-AL:2014-2015
@@ -68,7 +69,7 @@ CFZ-RJ,RJ,Rio de Janeiro,BRA,ogol:CFZ-RJ:1998|rsssf:CFZ do Rio:1998
 CRAC,GO,Catalão,BRA,ogol:CRAC:2004-2014|rsssf:C.r.a.c.-GO:2013|rsssf:CRAC:2004-2007|rsssf:CRAC-GO:2014
 CRB,AL,Maceió,BRA,ogol:CRB:1992-2014|rsssf:CRB:1992-2011|rsssf:Crb-AL:2013-2014
 CSA,AL,Maceió,BRA,ogol:CSA:1990-2025|rsssf:C.S.A.(AL):1997|rsssf:CSA:1990-2024|rsssf:CSA(AL):1995|rsssf:CSA-AL:2023|rsssf:CSA/AL:2017-2025
-Cabofriense,RJ,Cabo Frio,BRA,ogol:Cabofriense:1988-2006|rsssf:Cabofriense:1988-2006
+Cabofriense,RJ,Cabo Frio,BRA,ogol:Cabofriense:2003-2006|rsssf:Cabofriense:2003-2006
 Cacerense,MT,Cáceres,BRA,ogol:Cacerense:2007|rsssf:Cacerense:2007
 Cachoeiro,ES,Cachoeiro de Itapemirim,BRA,ogol:Cachoeiro:2001|rsssf:Cachoeiro:2001
 Caldas,GO,Caldas Novas,BRA,ogol:Caldas:1994-1995|rsssf:CALDAS(GO):1995|rsssf:Caldas:1994-1995
@@ -111,14 +112,14 @@ Cristal,AP,Macapá,BRA,ogol:Cristal:2008|rsssf:Cristal:2008
 Cuiabá,MT,Cuiabá,BRA,ogol:Cuiabá:2003-2018|rsssf:Cuiabá:2003-2012|rsssf:Cuiabá-MT:2013-2015|rsssf:Cuiabá/MT:2016-2018
 Democrata-GV,MG,Governador Valadares,BRA,ogol:Democrata-GV:2007|rsssf:Democrata:2007
 Democrata-SL,MG,Sete Lagoas,BRA,ogol:Democrata-SL:1995|rsssf:Democrata/SL:1995
-Desportiva Guarabira,PB,Guarabira,BRA,ogol:Desportiva Guarabira:2001|rsssf:Guarabira:2001
 Desportiva-ES,ES,Cariacica,BRA,ogol:Desportiva Capixaba:2003|ogol:Desportiva Ferroviária:1988|rsssf:Desportiva:1988-2003
 Dom Bosco-MT,MT,Cuiabá,BRA,ogol:Dom Bosco:1981|rsssf:Dom Bosco:1981
 Dom Pedro,DF,Núcleo Bandeirante,BRA,ogol:Dom Pedro:1999-2008|rsssf:Dom Pedro II:1999-2008
 Douradense,MS,Dourados,BRA,ogol:Douradense:1988|rsssf:Douradense:1988
 Duque de Caxias,RJ,Duque de Caxias,BRA,ogol:Duque de Caxias:2008-2014|rsssf:Duque de Caxias:2008-2012|rsssf:Duque de Caxias-RJ:2013-2014
 Duque de Caxias-MA,MA,Caxias,BRA,ogol:Duque de Caxias-MA:1995|rsssf:Duque de Caxias:1995
-EC São Gabriel,RS,São Gabriel,BRA,ogol:EC São Gabriel:2002|rsssf:São Gabriel:2002
+EC Limoeiro,CE,Limoeiro Do Norte,BRA,rsssf:Limoeiro:1998
+EC Operário-MT,MT,Várzea Grande,BRA,rsssf:Operário(MT):1997
 Engenheiro Beltrão,PR,Engenheiro Beltrão,BRA,ogol:Engenheiro Beltrão:2008|rsssf:Eng. Beltrão:2008|rsssf:Engenheiro Beltrão:2008
 Esportivo-MG,MG,Passos,BRA,ogol:Esportivo-MG:1988-1994|rsssf:Esportivo:1988-1990|rsssf:Esportivo-MG:1988-1994
 Esportivo-RS,RS,Bento Gonçalves,BRA,ogol:Esportivo:1988-2007|rsssf:Esportivo:1988-2007|rsssf:Esportivo Guará:2007
@@ -147,13 +148,14 @@ Gaúcho,RS,Passo Fundo,BRA,ogol:Gaúcho:2005|rsssf:Gaúcho:2005
 Genus,RO,Porto Velho,BRA,ogol:Genus:2001|rsssf:Genus Rondoniense:2001
 Globo FC,RN,Ceará-Mirim,BRA,ogol:Globo FC:2018-2019|rsssf:Globo/RN:2018
 Glória,RS,Vacaria,BRA,ogol:Glória:2005|rsssf:Glória:2005
-Goiatuba,GO,Goiatuba,BRA,ogol:AA Goiatuba:2003|rsssf:Goiatuba:2003
+Goiatuba EC,GO,Goiatuba,BRA,rsssf:Goiatuba:2003
 Goiânia,GO,Goiânia,BRA,ogol:Goiânia:1997-2002|rsssf:Goiânia:1998-2002|rsssf:Goiânia(GO):1997
 Goytacaz,RJ,Campos dos Goytacazes,BRA,ogol:Goytacaz:2003|rsssf:Goytacaz:2003
 Grêmio Anápolis,GO,Anápolis,BRA,ogol:Grêmio Inhumense:2002-2005|rsssf:Grêmio Inhumense:2002-2005
 Grêmio Coariense,AM,Coari,BRA,ogol:Grêmio Coariense:2004-2005|rsssf:Grêmio Coariense:2004-2005
 Grêmio Jaciara,MT,Jaciara,BRA,ogol:Grêmio Jaciara:2003-2007|rsssf:Jaciara:2003-2007
 Grêmio Maringá,PR,Maringá,BRA,ogol:Grêmio Maringá:1992-2003|rsssf:Grêmio Maringá:1992-2003
+Guarabira EC,PB,Guarabira,BRA,rsssf:Guarabira:2001
 Guarani,SP,Campinas,BRA,ogol:Guarani:2007-2026|rsssf:Guarani:2007-2008|rsssf:Guarani-SP:2013-2015|rsssf:Guarani/SP:2016-2025
 Guarani-MG,MG,Divinopolis,BRA,ogol:Guarani-MG:1981|rsssf:Guarani:1981|rsssf:Guarani MG:1981
 Guarany,CE,Sobral,BRA,ogol:Guarany de Sobral:2001-2012|rsssf:Guarany:2001-2012|rsssf:Guarany-CE:2003
@@ -187,7 +189,7 @@ Jaguaré,ES,Jaguaré,BRA,ogol:Jaguaré:2007|rsssf:Jaguaré:2007
 Jaruense,RO,Jaru,BRA,ogol:Jaruense:2007|rsssf:Jaruense:2007
 Jataiense,GO,Jataí,BRA,ogol:Jataiense:2004-2006|rsssf:Jataiense:2004-2006
 Ji-Paraná,RO,Ji-Paraná,BRA,ogol:Ji-Paraná:1992-2005|rsssf:JI-PARANA(RO):1995|rsssf:Ji Paraná(RO):1997|rsssf:Ji-Parana(RO):1995|rsssf:Ji-Paraná:1992-2005|rsssf:Ji-Paraná-RO:1995
-Joaçaba,SC,Joaçaba,BRA,ogol:Joaçaba:1981|rsssf:Joaçaba:1981
+Joaçaba EC,SC,Joaçaba,BRA,rsssf:Joaçaba:1981
 Joinville,SC,Joinville,BRA,ogol:Joinville:1994-2018|rsssf:JOINVILLE(SC):1995|rsssf:Joinville:1994-2011|rsssf:Joinville(SC):1995|rsssf:Joinville-SC:1995|rsssf:Joinville/SC:2017-2018
 Juazeirense,BA,Juazeiro,BRA,ogol:Juazeirense:2018|rsssf:Juazeirense/BA:2018
 Juazeiro,BA,Juazeiro,BRA,ogol:Juazeiro:1997-2005|rsssf:Juazeiro:1998-2005|rsssf:Juazeiro(BA):1997
@@ -197,10 +199,10 @@ Juventus Jaraguá,SC,Jaraguá do Sul,BRA,ogol:Juventus Jaraguá:1995-1996|rsssf:
 Juventus-SP,SP,São Paulo,BRA,ogol:Juventus-SP:1994-2007|rsssf:Juventus:1994-2007|rsssf:Juventus(SP):1997|rsssf:Juventus-SP:1994
 Kaburé,TO,Colinas do Tocantins,BRA,ogol:Kaburé:1995-1996|rsssf:Kaburé:1995-1996
 Lagartense,SE,Lagarto,BRA,ogol:Lagartense:2003|rsssf:Lagartense:2003
-Lagarto,SE,Lagarto,BRA,ogol:Lagarto-SE:1988-1990|rsssf:Lagarto:1988-1990
+Lagarto EC,SE,Lagarto,BRA,rsssf:Lagarto:1988-1990
 Lages,SC,Lages,BRA,ogol:Lages:2004|rsssf:Lages:2004
 Legião,DF,Brasília,BRA,ogol:Legião:2008|rsssf:Legião:2008
-Limoeiro,CE,Limoeiro do Norte,BRA,ogol:Limoeiro:1998-2004|rsssf:Limoeiro:1998-2004
+Limoeiro,CE,Limoeiro do Norte,BRA,ogol:Limoeiro:2004|rsssf:Limoeiro:2004
 Linense,SP,Lins,BRA,ogol:Linense:2008|rsssf:Linense:2008
 Linhares EC,ES,Linhares,BRA,ogol:Linhares EC:1995|rsssf:LINHARES(ES):1995|rsssf:Linhares:1995|rsssf:Linhares(ES):1995|rsssf:Linhares-ES:1995
 Linhares FC,ES,Linhares,BRA,ogol:Linhares FC:2007-2008|rsssf:Linhares:2007-2008
@@ -240,7 +242,7 @@ Náutico,PE,Recife,BRA,ogol:Náutico:1999-2025|rsssf:Náutico:1999-2024|rsssf:N�
 Oeste,SP,Osasco,BRA,ogol:Oeste:2012-2021|rsssf:Oeste:2012-2021
 Olaria,RJ,Rio de Janeiro,BRA,ogol:Olaria:1981-2003|rsssf:Olaria:1981-2003
 Operário-MS,MS,Campo Grande,BRA,ogol:Operário-MS:1994-2008|rsssf:Operário:1996-2008|rsssf:Operário(MS):1997|rsssf:Operário-MS:1994
-Operário-MT,MT,Várzea Grande,BRA,ogol:Operário-MT:1997-2006|rsssf:Operário:2006|rsssf:Operário(MT):1997
+Operário-MT,MT,Várzea Grande,BRA,ogol:Operário-MT:2006|rsssf:Operário:2006
 Operário-PR,PR,Ponta Grossa,BRA,ogol:Operário Ferroviário:1992-2023|rsssf:Operário-PR:1992-2023|rsssf:Operário/PR:2018
 Palmas,TO,Palmas,BRA,ogol:Palmas:1997-2008|rsssf:Palmas:1998-2008|rsssf:Palmas(TO):1997
 Palmeiras Nordeste,BA,Feira de Santana,BRA,ogol:Palmeiras Nordeste:2002|rsssf:Palmeiras:2002
@@ -291,6 +293,7 @@ Rioverdense,GO,Rio Verde,BRA,ogol:Rioverdense:1998|rsssf:Rioverdense:1998
 River-PI,PI,Teresina,BRA,ogol:River-PI:1996-2016|rsssf:River:1996-2004|rsssf:River(PI):1997|rsssf:River/PI:2016|rsssf:Ríver:2002-2007
 Roma Apucarana,PR,Apucarana,BRA,ogol:Roma Apucarana:2007|rsssf:Roma:2007
 SE Ariquemes,RO,Ariquemes,BRA,rsssf:ARIQUEMES(RO):1995|rsssf:Ariquemes:1995
+SE São Borja,RS,São Borja,BRA,rsssf:São Borja:1981
 SERC,MS,Chapadão do Sul,BRA,ogol:SERC:2003-2006|rsssf:Chapadão:2003-2006
 Salgueiro,PE,Salgueiro,BRA,ogol:Salgueiro:2008-2018|rsssf:Salgueiro:2008-2012|rsssf:Salgueiro-PE:2014-2015|rsssf:Salgueiro/PE:2016-2018
 Sampaio Corrêa,MA,São Luís,BRA,ogol:Sampaio Corrêa:1992-2024|rsssf:SAMPAIO CORREA(MA):1995|rsssf:Sampaio Correa-MA:2013|rsssf:Sampaio Corrêa:1992-2024|rsssf:Sampaio Corrêa(MA):1997|rsssf:Sampaio Corrêa/MA:2017
@@ -311,9 +314,9 @@ Sousa,PB,Sousa,BRA,ogol:Sousa:1994-2003|rsssf:SOUSA(PB):1995|rsssf:Sousa:1994-20
 Sporting FC,AL,Teotônio Vilela,BRA,ogol:Sete de Setembro-AL:1995|rsssf:7 de Setembro:1995
 São Bento,SP,Sorocaba,BRA,ogol:São Bento:1992-2020|rsssf:São Bento:1992|rsssf:São Bento-SP:2020|rsssf:São Bento/SP:2017
 São Bernardo,SP,São Bernardo do Campo,BRA,ogol:São Bernardo:2023-2025|rsssf:Sao Bernardo-SP:2023|rsssf:São Bernardo:2024|rsssf:São Bernardo/SP:2025
-São Borja,RS,São Borja,BRA,ogol:São Borja:1981|rsssf:São Borja:1981
 São Caetano,SP,São Caetano do Sul,BRA,ogol:São Caetano:1998-2014|rsssf:São Caetano:1998|rsssf:São Caetano-SP:2014
 São Francisco-PA,PA,Santarém,BRA,ogol:São Francisco-PA:1998|rsssf:São Francisco:1998
+São Gabriel,RS,São Gabriel,BRA,rsssf:São Gabriel:2002
 São Gonçalo-RN,RN,São Gonçalo do Amarante,BRA,ogol:São Gonçalo-RN:2001-2003|rsssf:São Gonçalo:2001-2003
 São José-AP,AP,Macapá,BRA,ogol:São José-AP:2005|rsssf:São José:2005
 São José-RS,RS,Porto Alegre,BRA,ogol:São José-RS:1997-2024|rsssf:SãO José(RS):1997|rsssf:São José:1998-2024|rsssf:São José(RS):1997|rsssf:São José-RS:1998-2023
