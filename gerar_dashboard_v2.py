@@ -76,6 +76,10 @@ COMPETICOES = {
 }
 
 
+# pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1"}
+
+
 def competicoes_dos_pacotes() -> None:
     """Acrescenta a COMPETICOES as competições dos pacotes do agente de coleta que já estão no banco
     (data/coleta/<slug>/pacote/competicao.json: menu_painel, rotulo_painel, do_painel, o_painel)."""
@@ -83,7 +87,7 @@ def competicoes_dos_pacotes() -> None:
     achadas = []
     for f in sorted((ROOT / "data" / "coleta").glob("*/pacote/competicao.json")):
         c = json.loads(f.read_text(encoding="utf-8"))
-        if c["slug"] in COMPETICOES or c["slug"] not in no_banco:
+        if c["slug"] in COMPETICOES or c["slug"] not in no_banco or c["slug"] not in LIBERADAS:
             continue
         rot = c.get("rotulo_painel") or c.get("nome_curto") or c["nome"]
         achadas.append(((c.get("pais") != "BRA", c.get("pais") or "", c.get("tipo") != "liga", c.get("nivel") or 99, c["slug"]), c["slug"], {
@@ -497,10 +501,10 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     i_est = max(estreias, key=lambda i: (estreias[i], -i))
     edicoes = {
         "mais_clubes": max(por_ed, key=lambda x: x["n"]), "menos_clubes": min(por_ed, key=lambda x: x["n"]),
-        "mais_jogos": max(por_ed, key=lambda x: x["j"]), "menos_jogos": min(por_ed, key=lambda x: x["j"]),
+        "mais_jogos": max(por_ed, key=lambda x: x["j"]), "menos_jogos": min((x for x in por_ed if x["j"]), key=lambda x: x["j"]),   # edição só com a tabela final não conta
         "mais_gols": max(por_ed, key=lambda x: x["g"]),
         "duplos": [[a, [x["campeao"] for x in ed if x["ano"] == a]] for a, q in sorted(Counter(x["ano"] for x in ed).items()) if q > 1],
-        "formatos": [[c or "Campeonato Brasileiro", q] for c, q in Counter(x["comp"] for x in edp).most_common()],
+        "formatos": [[c or con.execute("SELECT padrao FROM rotulo").fetchone()[0], q] for c, q in Counter(x["comp"] for x in edp).most_common()],
         "estreantes": {**por_ed[i_est], "est": estreias[i_est]},
         "por_ed": por_ed,
     }
@@ -1726,11 +1730,12 @@ function corridaPosicoes(id, medalhas) {
       cartao('Mais clubes estreando', um(null, x.estreantes.est, 'estreantes'), edicao(x.estreantes) + ' · de ' + x.estreantes.n + ' clubes'),
       x.duplos.length > 0 && cartao('Anos com dois campeões', '<div class="cu-um"><b>' + x.duplos.length + '</b><span>anos tiveram duas<br>edições ao mesmo tempo</span></div>',
         x.duplos.map(([a, cs]) => '<b>' + a + '</b>: ' + (new Set(cs).size === 1 ? esc(cs[0]) + ' ganhou as duas' : cs.map(c => esc(c)).join(' e '))).join('<br>')),
-      x.formatos.length > 1 && cartao('Formatos da disputa', '<div class="cu-um"><b>' + x.formatos.length + '</b><span>competições contam<br>como Brasileiro</span></div>',
+      x.formatos.length > 1 && cartao('Formatos da disputa', '<div class="cu-um"><b>' + x.formatos.length + '</b><span>nomes de torneio<br>na história</span></div>',
         x.formatos.map(([c, q]) => '<b>' + esc(c) + '</b>: ' + pl(q, 'edição', 'edições')).join('<br>')),
     ];
     // gols por jogo em cada edição (as duas pontas em dourado)
-    const E = x.por_ed.map(e => ({ ...e, m: e.g / e.j })), W = 1000, H = 230, ML = 34, MR = 10, MT = 26, MB = 26;
+    // edição só com a tabela final (sem jogos) fica de fora do gráfico
+    const E = x.por_ed.filter(e => e.j > 0).map(e => ({ ...e, m: e.g / e.j })), W = 1000, H = 230, ML = 34, MR = 10, MT = 26, MB = 26;
     const maxM = Math.ceil(Math.max(...E.map(e => e.m))), bw = (W - ML - MR) / E.length;
     const Yg = m => H - MB - m / maxM * (H - MT - MB);
     const iMax = E.reduce((a, e, i) => e.m > E[a].m ? i : a, 0), iMin = E.reduce((a, e, i) => e.m < E[a].m ? i : a, 0);

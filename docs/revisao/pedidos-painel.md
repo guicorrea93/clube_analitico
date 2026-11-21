@@ -130,3 +130,20 @@ Banco refeito (`futebol/migrar_brasileirao.py`) e painel gerado de novo; ainda n
 - **CL-026, sufixo "-UF":** fica como está. Os 25 nomes não mudam, e a regra dos guias passou a dizer que o sufixo
   só é exigido para clube novo com homônimo (`docs/COMECE-AQUI.md`, `docs/agente-coleta-COMECE-AQUI.md`). Pode marcar
   como `nao-e-erro`.
+
+### Terceira leva (21/11/2026)
+
+- **Datas impossíveis** (TL-002, TL-003, SB-017, SA-025). Quando o mesmo clube tem dois jogos no mesmo dia, a data vem
+  do calendário do ogol, jogo a jogo:
+  - Série B: em `aplicar_ogol` (`serie_b/importar.py`), também nos anos de várias fases, casando pelo confronto com o
+    mesmo placar. Caiu de mais de 450 jogos para 36;
+  - Série A: em `datas_serie_a` (`futebol/migrar_brasileirao.py`), com os calendários em `data/serie_a/ogol/`. Zerou
+    2009 e 2010, e 1997, 1998 e 1999 caíram bastante.
+
+  O que sobrou não tem segunda fonte, ou é possível. Exemplos: 1998, W.O. Volta Redonda x Santa Cruz; 1981, um
+  América-RJ 1-1 "Comercial" que veio só do ogol e pode ser o mesmo jogo do Comercial-MS. Ficou sem mudança.
+- **Faixas da tabela por ano** (SA-026): vêm da tabela oficial (Wikipédia en, `result`/`text`), com as vagas de cada
+  ano, inclusive as de campeão de copa.
+- **Fases em inglês e tipo de fase** (SB-018): "Playoff" passou a "Repescagem", e o mesmo vale para "Final Match" e os
+  outros nomes. O tipo da fase da Série B sai dos jogos: quem enfrenta um só adversário está em mata-mata; quem
+  enfrenta vários, em grupos. Os quadrangulares finais deixaram de ser mata-mata.

@@ -61,6 +61,25 @@ def tabela(ano: int) -> list[dict]:
     return []
 
 
+def zonas(ano: int) -> dict[int, str]:
+    """Posição -> faixa da tabela naquele ano (titulo, libertadores, sula, rebaixamento), pelos result{pos}=CÓDIGO e
+    text_CÓDIGO do módulo (achado SA-026: as faixas mudam de ano para ano)."""
+    f = PASTA / f"en_{ano}.txt"
+    if not f.exists():
+        return {}
+    t = f.read_text(encoding="utf-8")
+    textos = dict(re.findall(r"\|\s*text_([\w-]+)\s*=\s*(.+?)(?=\s*\|\s*(?:col|text|result)_|\n|$)", t))
+    saida = {}
+    for pos, cod in re.findall(r"\|\s*result(\d+)\s*=\s*([\w-]+)", t):
+        txt = textos.get(cod, "")
+        z = "libertadores" if "Libertadores" in txt else "sula" if "Sudamericana" in txt else "rebaixamento" if "elegat" in txt else None
+        if z:
+            saida[int(pos)] = z
+    if saida:
+        saida[1] = "titulo"
+    return saida
+
+
 def oficial(ano: int, achar) -> dict[int, tuple[int, int]] | None:
     tb = tabela(ano)
     if not tb:

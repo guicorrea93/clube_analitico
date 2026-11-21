@@ -17,10 +17,11 @@ Uso: python futebol/migrar_brasileirao.py
 """
 from __future__ import annotations
 
+import json
 import sqlite3
 import sys
 import unicodedata
-from collections import defaultdict
+from collections import Counter, defaultdict
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -44,6 +45,9 @@ MESCLAR = {"Comercial-SP": "Comercial-RP",   # Comercial de Ribeirão Preto (Sé
            "Ferroviário-PE": "Ferroviário do Recife"}   # o Clube Ferroviário do Recife, Série B 1971 e 1972 (21/11/2026; CL-016)
 # nome de fonte que está errado (a fonte deu outro clube) e cidade que faltava; achado CL-016
 NOME_ERRADO = {("Ferroviário do Recife", "Ferroviário do Cabo")}
+# nome de fase que veio em inglês da RSSSF (achados SB-018 e varredura da revisão)
+FASES_PT = {"Playoff": "Repescagem", "Final Match": "Jogo final", "Relegation Playoffs": "Repescagem do rebaixamento",
+            'Losers qualified to third phase of "Taça de Prata"': "Repescagem da Taça de Prata"}
 CIDADES = {"Ferroviário do Recife": "Recife"}
 # um nome de exibição que junta dois clubes no banco antigo: (nome, nome do clube antigo, estado, último ano do antigo)
 SEPARAR = [("Novorizontino", "GE Novorizontino", "SP", 1999)]   # GE Novorizontino (1973-1999) x Grêmio Novorizontino (2010+)
@@ -235,6 +239,7 @@ def migrar() -> None:
         b.execute("INSERT INTO artilheiro VALUES (?,?,?,?,?)", (ed_b[ano], jog, novo_id.get(c), n, fonte))
 
     corrigir_serie_a(b, serie_a)
+    datas_serie_a(b, serie_a)
     # ---- números da classificação final da Série A (somados dos jogos; pontos da última rodada quando há)
     for (ed,) in b.execute("SELECT edicao_id FROM edicao WHERE competicao_id = ?", (serie_a,)).fetchall():
         pv = b.execute("SELECT pontos_vitoria FROM edicao WHERE edicao_id = ?", (ed,)).fetchone()[0] or 2
@@ -257,6 +262,9 @@ def migrar() -> None:
         b.execute("DELETE FROM clube_nome WHERE nome = ? AND clube_id = (SELECT clube_id FROM clube WHERE nome = ?)", (errado, clube))
     for clube, cidade in CIDADES.items():
         b.execute("UPDATE clube SET cidade = ? WHERE nome = ?", (cidade, clube))
+    for ingles, pt in FASES_PT.items():
+        b.execute("UPDATE fase SET nome = ? WHERE nome = ?", (pt, ingles))
+    tipos_de_fase(b, serie_b)
     b.commit()
     conferir(a, b, conflitos)
     import carregar_pacotes
@@ -305,6 +313,38 @@ def corrigir_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
     b.execute("UPDATE fase SET nome = replace(nome, 'Copa Uniao', 'Copa União') WHERE nome LIKE '%Copa Uniao%'")
 
 
+def datas_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
+    """Datas impossíveis (o mesmo clube com dois jogos no mesmo dia; achados TL-002 e SA-025): a fonte antiga põe às vezes a
+    data da rodada ou a marcada antes do adiamento. Quando o calendário do ogol (data/serie_a/ogol/serie_a_{ano}.json) tem
+    esse jogo uma vez só, com o mesmo mando e placar, em outra data, vale a do ogol. Jogo sem conflito não muda."""
+    pasta = RAIZ / "data" / "serie_a" / "ogol"
+    mudou = 0
+    for f in sorted(pasta.glob("serie_a_*.json")):
+        ano = int(f.stem.split("_")[-1])
+        jogos = b.execute("""SELECT p.partida_id, p.data, p.mandante_id, p.visitante_id, p.gols_mandante, p.gols_visitante
+                             FROM partida p JOIN edicao e USING (edicao_id) WHERE e.competicao_id = ? AND e.ano_inicio = ?""",
+                          (serie_a, ano)).fetchall()
+        chaves: dict[str, set] = defaultdict(set)
+        for cid in {c for _, _, m, v, _, _ in jogos for c in (m, v)}:
+            for (n,) in b.execute("SELECT nome FROM clube WHERE clube_id = ? UNION SELECT nome FROM clube_nome WHERE clube_id = ?", (cid, cid)):
+                chaves[chave(n)].add(cid)
+        achar = lambda n: next(iter(chaves[chave(n)])) if len(chaves.get(chave(n), ())) == 1 else None
+        og: dict[tuple, list] = defaultdict(list)
+        for o in json.loads(f.read_text(encoding="utf-8")):
+            m, v = achar(o["mandante"]), achar(o["visitante"])
+            if m and v and o["gols_mandante"] is not None and o["data"]:
+                og[(m, v, o["gols_mandante"], o["gols_visitante"])].append(o["data"])
+        aqui = Counter((m, v, gm, gv) for _, _, m, v, gm, gv in jogos)
+        no_dia = Counter((d, c) for _, d, m, v, _, _ in jogos if d for c in (m, v))
+        for pid, d, m, v, gm, gv in jogos:
+            ds = og.get((m, v, gm, gv), [])
+            if d and (no_dia[(d, m)] > 1 or no_dia[(d, v)] > 1) and len(ds) == 1 and aqui[(m, v, gm, gv)] == 1 and ds[0] != d:
+                b.execute("UPDATE partida SET data = ? WHERE partida_id = ?", (ds[0], pid))
+                mudou += 1
+    if mudou:
+        print(f"  Série A: {mudou} datas trocadas pela do ogol (o mesmo clube tinha dois jogos no mesmo dia)")
+
+
 def oficial_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
     """Série A de pontos corridos: ordem final e punições do STJD da tabela oficial (futebol/oficial_serie_a.py).
     Os pontos ficam = vitória x pontos + empates + ajuste; vitórias, empates e gols continuam os dos jogos."""
@@ -331,6 +371,27 @@ def oficial_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
             print(f"  Série A {ano}: V/E/D da tabela oficial diferente dos jogos do banco:", dif[:6])
         top = b.execute("SELECT clube_id FROM classificacao_final WHERE edicao_id = ? ORDER BY posicao LIMIT 2", (ed,)).fetchall()
         b.execute("UPDATE edicao SET campeao_id = ?, vice_id = ? WHERE edicao_id = ?", (top[0][0], top[1][0], ed))
+        # faixas da tabela daquele ano na última rodada (o painel desenha as faixas por posição; achado SA-026)
+        zs = of.zonas(ano)
+        if zs:
+            (ult,) = b.execute("SELECT max(rodada) FROM classificacao_rodada WHERE edicao_id = ?", (ed,)).fetchone()
+            for pos in range(1, len(tab) + 1):
+                b.execute("UPDATE classificacao_rodada SET zona = ? WHERE edicao_id = ? AND rodada = ? AND posicao = ?", (zs.get(pos, "meio"), ed, ult, pos))
+
+
+def tipos_de_fase(b: sqlite3.Connection, competicao_id: int) -> None:
+    """Tipo de cada fase pelos jogos (achado SB-018): cada clube contra um adversário só = mata-mata; contra vários = grupos
+    (ou liga, quando é a única fase). A Série B vinha chamando de mata-mata os quadrangulares finais."""
+    for fid, ed, n_fases in b.execute("""SELECT f.fase_id, f.edicao_id, (SELECT count(*) FROM fase x WHERE x.edicao_id = f.edicao_id)
+                                         FROM fase f JOIN edicao e USING (edicao_id) WHERE e.competicao_id = ?""", (competicao_id,)).fetchall():
+        rivais: dict[int, set] = defaultdict(set)
+        for m, v in b.execute("SELECT mandante_id, visitante_id FROM partida WHERE fase_id = ?", (fid,)):
+            rivais[m].add(v); rivais[v].add(m)
+        if not rivais:
+            continue
+        grupos = b.execute("SELECT count(DISTINCT coalesce(grupo, '')) FROM partida WHERE fase_id = ?", (fid,)).fetchone()[0]
+        tipo = "mata_mata" if all(len(r) == 1 for r in rivais.values()) else "liga" if n_fases == 1 and grupos == 1 else "grupos"
+        b.execute("UPDATE fase SET tipo = ?, num_grupos = coalesce(num_grupos, ?) WHERE fase_id = ?", (tipo, grupos if tipo == "grupos" else None, fid))
 
 
 def separar(b: sqlite3.Connection) -> None:

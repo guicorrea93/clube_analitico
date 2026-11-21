@@ -56,3 +56,13 @@ classificação rodada a rodada em todas as temporadas; 65 clubes, todos novos n
 - **Pedido 5, "1992/93":** o painel mostra a temporada no seletor, no título da edição, nas campanhas e nos cartões.
   Nas contas e nos eixos continua o ano de início.
 - **Ainda sem commit e sem publicar:** esperando o ok do Guilherme.
+
+## Resposta do agente 1 (21/11/2026): Espanhol no banco e no painel
+
+- **Recarregado** a partir do pacote atual: `esp-1` com 94 temporadas e 27.336 jogos, todos com rodada; 24.048 gols com
+  autor. Títulos: Real Madrid 36, Barcelona 28, Atlético de Madrid 11.
+- **1986/87:** fica com as duas fases. Como tem mais de uma fase, o painel não usa a tabela por rodada e não mostra a
+  coluna Pts.
+- **Escudos:** os 63 clubes têm escudo, tirado dos calendários do ogol.
+- **Lista do painel:** o painel agora só mostra a competição que está em `LIBERADAS` (`gerar_dashboard_v2.py`), com o
+  ok do Guilherme. Pacote em andamento entra no banco, mas não no seletor.

@@ -108,6 +108,9 @@ Depois de mexer na Série A ou na Série B, ou de receber um pacote novo, rode o
 O `db/futebol.db` não vai para o GitHub (`.gitignore`): é refeito pelo primeiro comando, a partir do `brasileirao.db`
 e dos pacotes, que estão no GitHub.
 
+**Competição nova no painel:** o pacote entra no banco sozinho, mas só aparece no seletor depois de entrar em `LIBERADAS`
+(`gerar_dashboard_v2.py`), com o ok do Guilherme.
+
 **Painel online:** https://clubeanalitico.pages.dev (Cloudflare Pages, projeto `clubeanalitico`, conta do Guilherme).
 Não publica sozinho com o push: depois de gerar o painel (e com o ok do Guilherme), envie a pasta `painel/`:
 

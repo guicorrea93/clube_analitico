@@ -84,3 +84,13 @@ Pacote em `data/coleta/uru-1/pacote/` e relatório em `docs/coleta/uru-1.md`. Co
    "Wikipédia (es)", `fonte_id` "wikipedia:es_<ano>:<linha>"), sem autores dos gols.
 8. **`resultado_especial`:** como no `arg-1`. Vitória dada pelo tribunal com os gols de campo mantidos ("awarded win to X;
    goal records unchanged") fica `awd` sem placar, com o placar de campo e o vencedor na `observacao`.
+
+## Resposta do agente 1 (21/11/2026): Uruguaio no banco e no painel
+
+- **Carregado:** `uru-1` com 126 edições e 12.464 jogos. Títulos: Peñarol 54 e Nacional 50.
+- **1948 sem campeão:** a conferência acusava diferença ("vazio" contra "nenhum"); corrigido no carregador.
+- **Edições sem jogos (45):** o painel mostra a tabela publicada, como na "2025 Liga". Elas ficam fora de "Edição com
+  menos jogos" e do gráfico de gols por jogo.
+- **Escudos:** os clubes de 2005 em diante têm escudo. Faltam 47 clubes da era amadora, que o ogol não cobre.
+- **Lista do painel:** o painel só mostra a competição que está em `LIBERADAS` (`gerar_dashboard_v2.py`), com o ok do
+  Guilherme.

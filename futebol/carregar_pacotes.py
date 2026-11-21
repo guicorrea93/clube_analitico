@@ -226,7 +226,7 @@ def conferir(b: sqlite3.Connection, slug: str, pasta: Path, novos: int, sem_club
                                         LEFT JOIN clube cl ON cl.clube_id = e.campeao_id WHERE c.slug = ?""", (slug,)).fetchall():
         j, g = b.execute("SELECT count(*), sum(coalesce(gols_mandante,0) + coalesce(gols_visitante,0)) FROM partida WHERE edicao_id = ?", (eid,)).fetchone()
         a = b.execute("SELECT count(*) FROM gol JOIN partida USING (partida_id) WHERE edicao_id = ?", (eid,)).fetchone()[0]
-        if [j, g or 0, a] != esperado.get(temp, [0, 0, 0]) or camp != campeao.get(temp):
+        if [j, g or 0, a] != esperado.get(temp, [0, 0, 0]) or camp != (campeao.get(temp) or None):   # edição sem campeão: vazio
             erros.append((temp, [j, g, a], esperado.get(temp), camp, campeao.get(temp)))
     sys.stdout.reconfigure(encoding="utf-8")
     n_ed, n_j = b.execute("""SELECT count(DISTINCT e.edicao_id), count(p.partida_id) FROM edicao e JOIN competicao c USING (competicao_id)
