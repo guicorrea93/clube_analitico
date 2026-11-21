@@ -1,0 +1,90 @@
+<noinclude>{{main|2024–25 Serie A}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL|source=[https://www.legaseriea.it/en/serie-a/classifica Serie A]
+
+<!--Update team positions here-->
+|team_order=NAP, INT, ATA, JUV, ROM, FIO, LAZ, MIL, BOL, COM, TOR, UDI, GEN, VER, CAG, PAR, LEC, EMP, VEN, MON
+
+<!--Head-to-head-->
+|hth_FIO=Fiorentina finished ahead of Lazio on head-to-head points: Fiorentina 2–1 Lazio, Lazio 1–2 Fiorentina.
+|hth_LAZ=FIO
+|hth_TOR=Torino finished ahead of Udinese on head-to-head points: Udinese 2–2 Torino, Torino 2–0 Udinese.
+|hth_UDI=TOR
+|hth_CAG=Cagliari finished ahead of Parma on head-to-head points: Parma 2–3 Cagliari, Cagliari 2–1 Parma.
+|hth_PAR=CAG
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CLLS |result5=ELLS |result6=ECLPO |result9=ELLScup |result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete 
+|win_ATA=22|draw_ATA=8 |loss_ATA=8 |gf_ATA=78|ga_ATA=37 <!-- Atalanta -->
+|win_BOL=16|draw_BOL=14|loss_BOL=8 |gf_BOL=57|ga_BOL=47 <!-- Bologna -->
+|win_CAG=9 |draw_CAG=9 |loss_CAG=20|gf_CAG=40|ga_CAG=56 <!-- Cagliari -->
+|win_COM=13|draw_COM=10|loss_COM=15|gf_COM=49|ga_COM=52 <!-- Como -->
+|win_EMP=6 |draw_EMP=13|loss_EMP=19|gf_EMP=33|ga_EMP=59 <!-- Empoli -->
+|win_FIO=19|draw_FIO=8 |loss_FIO=11|gf_FIO=60|ga_FIO=41 <!-- Fiorentina -->
+|win_GEN=10|draw_GEN=13|loss_GEN=15|gf_GEN=37|ga_GEN=49 <!-- Genoa -->
+|win_VER=10|draw_VER=7 |loss_VER=21|gf_VER=34|ga_VER=66 <!-- Hellas Verona -->
+|win_INT=24|draw_INT=9 |loss_INT=5 |gf_INT=79|ga_INT=35 <!-- Inter Milan -->
+|win_JUV=18|draw_JUV=16|loss_JUV=4 |gf_JUV=58|ga_JUV=35 <!-- Juventus -->
+|win_LAZ=18|draw_LAZ=11|loss_LAZ=9 |gf_LAZ=61|ga_LAZ=49 <!-- Lazio -->
+|win_LEC=8 |draw_LEC=10|loss_LEC=20|gf_LEC=27|ga_LEC=58 <!-- Lecce -->
+|win_MIL=18|draw_MIL=9 |loss_MIL=11|gf_MIL=61|ga_MIL=43 <!-- AC Milan -->
+|win_MON=3 |draw_MON=9 |loss_MON=26|gf_MON=28|ga_MON=69 <!-- Monza -->
+|win_NAP=24|draw_NAP=10|loss_NAP=4 |gf_NAP=59|ga_NAP=27 <!-- Napoli -->
+|win_PAR=7 |draw_PAR=15|loss_PAR=16|gf_PAR=44|ga_PAR=58 <!-- Parma -->
+|win_ROM=20|draw_ROM=9 |loss_ROM=9 |gf_ROM=56|ga_ROM=35 <!-- Roma -->
+|win_TOR=10|draw_TOR=14|loss_TOR=14|gf_TOR=39|ga_TOR=45 <!-- Torino -->
+|win_UDI=12|draw_UDI=8 |loss_UDI=18|gf_UDI=41|ga_UDI=56 <!-- Udinese -->
+|win_VEN=5 |draw_VEN=14|loss_VEN=19|gf_VEN=32|ga_VEN=56 <!-- Venezia -->
+
+<!--status-->
+|status_text_Y=Assured of the Conference League, but may still qualify for the Champions League or Europa League
+|status_text_X=Assured of the Europa League, but may still qualify for the Champions League
+|status_NAP=C
+|status_EMP=R
+|status_VEN=R
+|status_MON=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta BC|Atalanta]]
+|name_BOL=[[Bologna FC 1909|Bologna]]
+|name_CAG=[[Cagliari Calcio|Cagliari]]
+|name_COM=[[Como 1907|Como]]
+|name_EMP=[[Empoli FC|Empoli]]
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_GEN=[[Genoa CFC|Genoa]]
+|name_VER=[[Hellas Verona FC|Hellas Verona]]
+|name_INT=[[Inter Milan]]
+|name_JUV=[[Juventus FC|Juventus]]
+|name_LAZ=[[SS Lazio|Lazio]]
+|name_LEC=[[US Lecce|Lecce]]
+|name_MIL=[[AC Milan|Milan]]
+|name_MON=[[AC Monza|Monza]]
+|name_NAP=[[SSC Napoli|Napoli]]
+|name_PAR=[[Parma Calcio 1913|Parma]]
+|name_ROM=[[AS Roma|Roma]]
+|name_TOR=[[Torino FC|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+|name_VEN=[[Venezia FC|Venezia]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Tiebreaker for Champions team and third relegated team; 3) Head-to-head points; 4) Head-to-head goal difference; 5) Goal difference; 6) Goals scored; 7) Draw.<br>(Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web|url=https://www.figc.it/media/173115/304-deroga-art-51-noif-determinazione-classifica-campionato-serie-a-ss-2022-2023.pdf|title=Comunicato Ufficiale N. 304/A|publisher=Federazione Italiana Giuoco Calcio|website=figc.it|language=it}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS=[[2025–26 UEFA Champions League#League phase|Champions League league phase]]
+|col_ELLS=blue1    |text_ELLS=[[2025–26 UEFA Europa League#League phase|Europa League league phase]]
+|col_ELLScup=blue1 |text_ELLScup=[[2025–26 UEFA Europa League#League phase|Europa League league phase]]
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|[[2025–26 UEFA Conference League#Play-off round|Conference League play-off round]]}}
+|col_REL=red1      |text_REL=Relegation to [[2025–26 Serie B|Serie B]]
+
+<!--Qualification notes-->
+|note_res_ELLScup=Bologna qualified for the Europa League league stage as the winners of the [[2024–25 Coppa Italia]]. 
+}}<noinclude>
+{{Template reference list}}
+[[Category:Italy football standings templates]]
+[[Category:2024–25 in Italian football|Template]]
+</noinclude>

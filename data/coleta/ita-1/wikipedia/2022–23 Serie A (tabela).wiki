@@ -1,0 +1,90 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL|source=[https://www.legaseriea.it/en/serie-a/classifica Serie A]
+
+<!--Update team positions here-->
+|team_order=NAP, LAZ, INT, MIL, ATA, ROM, JUV, FIO, BOL, TOR, MON, UDI, SAS, EMP, SAL, LEC, VER, SPE, CRE, SAM
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=ELGS |result8=ECLPO |result17=RTBW |result18=RTB |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ATA=19|draw_ATA=7 |loss_ATA=12|gf_ATA=66|ga_ATA=48 <!--Atalanta-->
+|win_BOL=14|draw_BOL=12|loss_BOL=12|gf_BOL=53|ga_BOL=49 <!--Bologna-->
+|win_CRE=5 |draw_CRE=12|loss_CRE=21|gf_CRE=36|ga_CRE=69 <!--Cremonese-->
+|win_EMP=10|draw_EMP=13|loss_EMP=15|gf_EMP=37|ga_EMP=49 <!--Empoli-->
+|win_FIO=15|draw_FIO=11|loss_FIO=12|gf_FIO=53|ga_FIO=43 <!--Fiorentina-->
+|win_VER=7 |draw_VER=10|loss_VER=21|gf_VER=31|ga_VER=59 <!--Hellas Verona-->
+|win_INT=23|draw_INT=3 |loss_INT=12|gf_INT=71|ga_INT=42 <!--Inter Milan-->
+|win_JUV=22|draw_JUV=6 |loss_JUV=10|gf_JUV=56|ga_JUV=33 <!--Juventus-->
+|win_LAZ=22|draw_LAZ=8 |loss_LAZ=8 |gf_LAZ=60|ga_LAZ=30 <!--Lazio-->
+|win_LEC=8 |draw_LEC=12|loss_LEC=18|gf_LEC=33|ga_LEC=46 <!--Lecce--> 
+|win_MIL=20|draw_MIL=10|loss_MIL=8 |gf_MIL=64|ga_MIL=43 <!--Milan-->
+|win_MON=14|draw_MON=10|loss_MON=14|gf_MON=48|ga_MON=52 <!--Monza-->
+|win_NAP=28|draw_NAP=6 |loss_NAP=4 |gf_NAP=77|ga_NAP=28 <!--Napoli-->
+|win_ROM=18|draw_ROM=9 |loss_ROM=11|gf_ROM=50|ga_ROM=38 <!--Roma-->
+|win_SAL=9 |draw_SAL=15|loss_SAL=14|gf_SAL=48|ga_SAL=62 <!--Salernitana-->
+|win_SAM=3 |draw_SAM=10|loss_SAM=25|gf_SAM=24|ga_SAM=71 <!--Sampdoria-->
+|win_SAS=12|draw_SAS=9 |loss_SAS=17|gf_SAS=47|ga_SAS=61 <!--Sassuolo-->
+|win_SPE=6 |draw_SPE=13|loss_SPE=19|gf_SPE=31|ga_SPE=62 <!--Spezia-->
+|win_TOR=14|draw_TOR=11|loss_TOR=13|gf_TOR=42|ga_TOR=41 <!--Torino-->
+|win_UDI=11|draw_UDI=13|loss_UDI=14|gf_UDI=47|ga_UDI=48 <!--Udinese-->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta BC|Atalanta]]
+|name_BOL=[[Bologna FC 1909|Bologna]]
+|name_CRE=[[US Cremonese|Cremonese]]
+|name_EMP=[[Empoli FC|Empoli]]
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_INT=[[Inter Milan]]
+|name_JUV=[[Juventus FC|Juventus]]
+|name_LAZ=[[SS Lazio|Lazio]]
+|name_LEC=[[US Lecce|Lecce]]
+|name_MON=[[AC Monza|Monza]]
+|name_MIL=[[AC Milan|Milan]]
+|name_NAP=[[SSC Napoli|Napoli]]
+|name_ROM=[[AS Roma|Roma]]
+|name_SAL=[[US Salernitana 1919|Salernitana]]
+|name_SAM=[[UC Sampdoria|Sampdoria]]
+|name_SAS=[[US Sassuolo Calcio|Sassuolo]]
+|name_SPE=[[Spezia Calcio|Spezia]]
+|name_TOR=[[Torino FC|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+|name_VER=[[Hellas Verona FC|Hellas Verona]]
+
+<!--Points deductions-->
+|adjust_points_JUV=-10
+|hth_JUV=Juventus were deducted 10 points as punishment for capital gain violations.<ref>{{cite news|url=https://www.figc.it/it/federazione/news/caso-plusvalenze-dieci-punti-di-penalizzazione-per-la-juventus-da-scontare-nella-corrente-stagione-sportiva/|title=Caso plusvalenze, dieci punti di penalizzazione per la Juventus da scontare nella corrente stagione sportiva|trans-title=In the case of capital gains, ten penalty points for Juventus to be served in the current football season|date=22 May 2023|access-date=22 May 2023|publisher=Italian Football Federation|language=it}}</ref>
+|text_ban=Excluded from European competitions
+
+<!--Status-->
+|status_NAP=C
+|status_SPE=R
+|status_CRE=R
+|status_SAM=R
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points;  2) Tiebreaker for Champions team and third relegated team;{{r|note|r=Should the first and second, or 17th and 18th-placed teams at the end of the season be tied on points, a play-off tiebreaker match was held at a neutral site to determine the title and final team relegated respectively.}}  3) Head-to-head points; 4) Head-to-head goal difference; 5) Goal difference; 6) Goals scored; 7) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web|url=https://www.figc.it/media/173115/304-deroga-art-51-noif-determinazione-classifica-campionato-serie-a-ss-2022-2023.pdf|title=Comunicato Ufficiale N. 304/A|format=PDF|publisher=Italian Football Federation|language=it}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2023–24 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1    |text_ELGS={{nowrap|Qualification for the [[2023–24 UEFA Europa League#Group stage|Europa League group stage]]}}
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|Qualification for the [[2023–24 UEFA Europa Conference League#Play-off round|Εuropa Conference League play-off round]]}}
+|col_RTBW=white      |text_RTBW={{nowrap|Qualification for the [[2022–23 Serie A#Relegation tie-breaker|Relegation tie-breaker]]}}
+|col_RTB=red1      |text_RTB={{nowrap|Qualification for the [[2022–23 Serie A#Relegation tie-breaker|Relegation tie-breaker]]}}
+|col_REL=red1      |text_REL=Relegation to [[2023–24 Serie B|Serie B]]
+
+|note_res_ELGS=Since the winners of the [[2022–23 Coppa Italia]], Inter Milan, qualified for the Champions League, the Europa League berth awarded to the Coppa Italia winners was passed to the sixth-placed team, and the Europa Conference League berth awarded to the sixth-placed team was passed to the seventh-placed team.
+|note_res_CLGS=RTB
+|note_JUV=Juventus were excluded from UEFA competitions due to violation of UEFA's financial regulations.<ref>{{cite news|url=https://www.uefa.com/insideuefa/mediaservices/mediareleases/news/0283-1899ede31dd4-3e4a12d922fd-1000--the-cfcb-concludes-its-proceedings-against-juventus-and-/|title=The CFCB concludes its proceedings against Juventus and Chelsea FC|date=28 July 2023|access-date=28 July 2023|publisher=UEFA}}</ref>
+|note_res_RTB=Should the first and second, or 17th and 18th-placed teams at the end of the season be tied on points, a play-off tiebreaker match was held at a neutral site to determine the title and final team relegated respectively.
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2022–23 association football standings in Europe templates|Italy]]
+[[Category:Italy football standings templates]]
+[[Category:2022–23 in Italian football|Template]]
+</noinclude>

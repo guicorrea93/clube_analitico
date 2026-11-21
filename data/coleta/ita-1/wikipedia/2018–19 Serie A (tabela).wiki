@@ -1,0 +1,87 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.legaseriea.it/en/serie-a/league-table Serie A], [https://www.soccerway.com/italy/serie-a-2018-2019/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=JUV |team2=NAP |team3=ATA |team4=INT |team5=MIL |team6=ROM |team7=TOR |team8=LAZ |team9=SAM |team10=BOL |team11=SAS |team12=UDI |team13=SPA |team14=PAR |team15=CAG |team16=FIO |team17=GEN |team18=EMP|team19=FRO |team20=CHI
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result6=ELGS |result7=EL2Q |result8=ELGScup |result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above.-->
+|win_ATA=20|draw_ATA=9 |loss_ATA=9 |gf_ATA=77|ga_ATA=46<!-- Atalanta -->
+|win_BOL=11|draw_BOL=11|loss_BOL=16|gf_BOL=48|ga_BOL=56<!-- Bologna -->
+|win_CAG=10|draw_CAG=11|loss_CAG=17|gf_CAG=36|ga_CAG=54<!-- Cagliari -->
+|win_CHI=2 |draw_CHI=14|loss_CHI=22|gf_CHI=25|ga_CHI=75|status_CHI=R<!-- Chievo -->
+|win_EMP=10|draw_EMP=8 |loss_EMP=20|gf_EMP=51|ga_EMP=70|status_EMP=R<!-- Empoli -->
+|win_FIO=8 |draw_FIO=17|loss_FIO=13|gf_FIO=47|ga_FIO=45<!-- Fiorentina -->
+|win_FRO=5 |draw_FRO=10|loss_FRO=23|gf_FRO=29|ga_FRO=69|status_FRO=R<!-- Frosinone -->
+|win_GEN=8 |draw_GEN=14|loss_GEN=16|gf_GEN=39|ga_GEN=57<!-- Genoa -->
+|win_INT=20|draw_INT=9 |loss_INT=9 |gf_INT=57|ga_INT=33<!-- Inter Milan-->
+|win_JUV=28|draw_JUV=6 |loss_JUV=4 |gf_JUV=70|ga_JUV=30|status_JUV=C,<!-- Juventus -->
+|win_LAZ=17|draw_LAZ=8 |loss_LAZ=13|gf_LAZ=56|ga_LAZ=46<!-- Lazio -->
+|win_MIL=19|draw_MIL=11|loss_MIL=8 |gf_MIL=55|ga_MIL=36<!-- Milan -->
+|win_NAP=24|draw_NAP=7 |loss_NAP=7 |gf_NAP=74|ga_NAP=36<!-- Napoli-->
+|win_PAR=10|draw_PAR=11|loss_PAR=17|gf_PAR=41|ga_PAR=61<!-- Parma -->
+|win_ROM=18|draw_ROM=12|loss_ROM=8 |gf_ROM=66|ga_ROM=48<!-- Roma-->
+|win_SAM=15|draw_SAM=8 |loss_SAM=15|gf_SAM=60|ga_SAM=51<!-- Sampdoria -->
+|win_SAS=9 |draw_SAS=16|loss_SAS=13|gf_SAS=53|ga_SAS=60<!-- Sassuolo -->
+|win_SPA=11|draw_SPA=9 |loss_SPA=18|gf_SPA=44|ga_SPA=56<!-- SPAL -->
+|win_TOR=16|draw_TOR=15|loss_TOR=7 |gf_TOR=52|ga_TOR=37|<!-- Torino -->
+|win_UDI=11|draw_UDI=10|loss_UDI=17|gf_UDI=39|ga_UDI=53<!-- Udinese -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta B.C.|Atalanta]]
+|name_BOL=[[Bologna F.C. 1909|Bologna]]
+|name_CAG=[[Cagliari Calcio|Cagliari]]
+|name_CHI=[[A.C. ChievoVerona|Chievo]]
+|name_EMP=[[Empoli F.C.|Empoli]]
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_FRO=[[Frosinone Calcio|Frosinone]]
+|name_GEN=[[Genoa C.F.C.|Genoa]]
+|name_INT=[[Inter Milan|Inter Milan]]
+|name_JUV=[[Juventus F.C.|Juventus]]
+|name_LAZ=[[S.S. Lazio|Lazio]]
+|name_MIL=[[A.C. Milan|Milan]]
+|name_NAP=[[S.S.C. Napoli|Napoli]]
+|name_PAR=[[Parma Calcio 1913|Parma]]
+|name_ROM=[[A.S. Roma|Roma]]
+|name_SAM=[[UC Sampdoria|Sampdoria]]
+|name_SAS=[[US Sassuolo Calcio|Sassuolo]]
+|name_SPA=[[S.P.A.L.|SPAL]]
+|name_TOR=[[Torino F.C.|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+
+<!--Status-->
+|update=complete
+|adjust_points_CHI=-3
+|hth_ATA=Atalanta finished ahead of Internazionale on head-to-head points: Atalanta 4–1 Internazionale, Internazionale 0–0 Atalanta.
+|hth_INT=ATA
+|hth_PAR=Positions determined by head-to-head points: Parma: 9 pts; Cagliari: 7 pts; Fiorentina: 1 pt.
+|hth_CAG=PAR
+|hth_FIO=PAR
+|hth_GEN=Genoa finished ahead of Empoli on head-to-head points: Genoa 2–1 Empoli, Empoli 1–3 Genoa.
+|hth_EMP=GEN
+|text_ban=Ineligible for UEFA competitions
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played).<ref>{{cite web |url=https://www.figc.it/media/55325/tit3_noif_art_da47a70_23-06-2017__________12-09-2018.pdf|title=Norme organizzative interne della F.I.G.C. - Art. 51.6|publisher=[[Italian Football Federation]]|format=PDF|language=italian|date=12 September 2018|access-date=11 November 2018}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2019–20 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2019–20 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ELGScup=blue1 |text_ELGScup={{nowrap|Qualification for the [[2019–20 UEFA Europa League#Group stage|Europa League group stage]]}}
+|col_EL2Q=blue2  |text_EL2Q={{nowrap|Qualification for the [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]}}
+|col_REL=red1    |text_REL=Relegation to [[2019–20 Serie B|Serie B]]
+
+|note_MIL=Milan were excluded from UEFA competitions over [[UEFA Financial Fair Play Regulations|financial fair play]] violation.<ref>{{cite news|url=https://www.bbc.com/sport/football/48801681|title=AC Milan banned from Europa League next season over Financial Fair Play breaches|date=28 June 2019|publisher=BBC Sport}}</ref>
+|note_res_ELGScup=Lazio qualified for the Europa League group stage by winning the [[2018–19 Coppa Italia]]
+|hth_CHI=Chievo were deducted 3 points after being found guilty of false accounting.<ref>{{cite web|url=https://www.football-italia.net/127901/chievo-get-three-point-deduction|title=Chievo get three point deduction|publisher=Football Italia|date=13 September 2018}}</ref>
+}}<noinclude>
+{{Template reference list}}
+[[Category:2018–19 association football standings in Italy templates|A]]
+[[Category:Serie A table templates]]
+[[Category:2018–19 in Italian football leagues|1]]
+</noinclude>

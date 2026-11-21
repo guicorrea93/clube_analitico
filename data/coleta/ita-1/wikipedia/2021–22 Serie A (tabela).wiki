@@ -1,0 +1,79 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL|source=[http://www.legaseriea.it/en/serie-a/league-table Serie A]
+
+<!--Update team positions here-->
+|team_order=MIL, INT, NAP, JUV, LAZ, ROM, FIO, ATA, VER, TOR, SAS, UDI, BOL, EMP, SAM, SPE, SAL, CAG, GEN, VEN
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=ELGS |result7=ECLPO |result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ATA=16|draw_ATA=11|loss_ATA=11|gf_ATA=65|ga_ATA=48<!--Atalanta-->
+|win_BOL=12|draw_BOL=10|loss_BOL=16|gf_BOL=44|ga_BOL=55<!--Bologna--> 
+|win_CAG=6 |draw_CAG=12|loss_CAG=20|gf_CAG=34|ga_CAG=68<!--Cagliari--> |status_CAG=R
+|win_EMP=10|draw_EMP=11|loss_EMP=17|gf_EMP=50|ga_EMP=70<!--Empoli-->
+|win_FIO=19|draw_FIO=5 |loss_FIO=14|gf_FIO=59|ga_FIO=51<!--Fiorentina-->      
+|win_GEN=4 |draw_GEN=16|loss_GEN=18|gf_GEN=27|ga_GEN=60<!--Genoa--> |status_GEN=R
+|win_VER=14|draw_VER=11|loss_VER=13|gf_VER=65|ga_VER=59<!--Hellas Verona-->
+|win_INT=25|draw_INT=9 |loss_INT=4 |gf_INT=84|ga_INT=32<!--Inter Milan-->
+|win_JUV=20|draw_JUV=10|loss_JUV=8 |gf_JUV=57|ga_JUV=37<!--Juventus-->
+|win_LAZ=18|draw_LAZ=10|loss_LAZ=10|gf_LAZ=77|ga_LAZ=58<!--Lazio-->
+|win_MIL=26|draw_MIL=8 |loss_MIL=4 |gf_MIL=69|ga_MIL=31<!--AC Milan--> |status_MIL=C
+|win_NAP=24|draw_NAP=7 |loss_NAP=7 |gf_NAP=74|ga_NAP=31<!--Napoli-->
+|win_ROM=18|draw_ROM=9 |loss_ROM=11|gf_ROM=59|ga_ROM=43<!--Roma-->           
+|win_SAL=7 |draw_SAL=10|loss_SAL=21|gf_SAL=33|ga_SAL=78<!--Salernitana-->
+|win_SAM=10|draw_SAM=6 |loss_SAM=22|gf_SAM=46|ga_SAM=63<!--Sampdoria-->
+|win_SPE=10|draw_SPE=6 |loss_SPE=22|gf_SPE=41|ga_SPE=71<!--Spezia-->
+|win_SAS=13|draw_SAS=11|loss_SAS=14|gf_SAS=64|ga_SAS=66<!--Sassuolo-->
+|win_TOR=13|draw_TOR=11|loss_TOR=14|gf_TOR=46|ga_TOR=41<!--Torino-->
+|win_UDI=11|draw_UDI=14|loss_UDI=13|gf_UDI=61|ga_UDI=58<!--Udinese-->
+|win_VEN=6 |draw_VEN=9 |loss_VEN=23|gf_VEN=34|ga_VEN=69<!--Venezia--> |status_VEN=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta BC|Atalanta]]
+|name_BOL=[[Bologna FC 1909|Bologna]]
+|name_CAG=[[Cagliari Calcio|Cagliari]]
+|name_EMP=[[Empoli FC|Empoli]]
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_GEN=[[Genoa CFC|Genoa]]
+|name_INT=[[Inter Milan]]
+|name_JUV=[[Juventus FC|Juventus]]
+|name_LAZ=[[SS Lazio|Lazio]]
+|name_MIL=[[AC Milan|Milan]]
+|name_NAP=[[SSC Napoli|Napoli]]
+|name_ROM=[[AS Roma|Roma]]
+|name_SAL=[[US Salernitana 1919|Salernitana]]
+|name_SAM=[[UC Sampdoria|Sampdoria]]
+|name_SAS=[[US Sassuolo Calcio|Sassuolo]]
+|name_SPE=[[Spezia Calcio|Spezia]]
+|name_TOR=[[Torino FC|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+|name_VEN=[[Venezia FC|Venezia]]
+|name_VER=[[Hellas Verona FC|Hellas Verona]]
+
+<!--Head-to-head-->
+|hth_TOR=Torino finished ahead of Sassuolo on head-to-head points: Sassuolo 0–1 Torino, Torino 1–1 Sassuolo.
+|hth_SAS=TOR
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played)
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2022–23 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1    |text_ELGS={{0}}Qualification for the [[2022–23 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECLPO=yellow1 |text_ECLPO={{0}}Qualification for the [[2022–23 UEFA Europa Conference League#Play-off round|Conference League play-off round]]
+|col_REL=red1      |text_REL=Relegation to [[2022–23 Serie B|Serie B]]
+
+|note_res_ELGS=Since the winners of the [[2021–22 Coppa Italia]], Inter Milan, qualified for the Champions League, the Europa League berth awarded to the Coppa Italia winners was passed to the sixth-placed team, and the Europa Conference League berth awarded to the sixth-placed team was passed to the seventh-placed team.
+|note_res_ECLPO=ELGS
+
+}} <noinclude>
+
+{{Template reference list}}
+[[Category:2021–22 association football standings in Europe templates|Italy]]
+[[Category:Italy football standings templates]]
+[[Category:2021–22 in Italian football|Template]]
+</noinclude>

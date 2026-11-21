@@ -43,6 +43,26 @@ classificação rodada a rodada em todas as temporadas; 65 clubes, todos novos n
 5. **Escudos:** calendários em `data/cache/ogol-esp-1/` (conferidos pelo link canônico).
 6. **Sem árbitro:** o football-data não traz árbitro na liga espanhola; a coluna `arbitro` vem vazia.
 
+## 21/11/2026 — Campeonato Italiano (`ita-1`)
+
+**Pronto para o painel.** Pacote em `data/coleta/ita-1/pacote/`, relatório em `docs/coleta/ita-1.md`.
+94 edições (1929/30–2024/25, sem 1943/44 e 1944/45), 28.864 jogos, todos com rodada; 23.642 gols com autor e 42.440
+cartões (2001/02+); classificação rodada a rodada (menos 1945/46); artilheiros (Capocannoniere); 69 clubes. Testado
+com `futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK. Commit aguarda o ok do Guilherme.
+
+1. **1945/46 (Divisione Nazionale) tem duas fases:** `Grupos` (grupo "Norte", 14 clubes, e "Centro-Sul", 11) e
+   `Fase final` (grupo "Final", os 4 primeiros de cada). A classificação final põe os 8 do grupo final em 1º-8º; os
+   outros seguem pela campanha nos grupos (`observacao` = "não foi ao grupo final"). Sem tabela rodada a rodada.
+2. **2004/05 sem campeão:** o título foi tirado da Juventus (Calciopoli). Em `edicoes.csv`, `campeao` vem vazio e a
+   `observacao` diz "título não atribuído"; a Juventus fica em 1º na classificação, sem `situacao` = campeao.
+3. **Resultados de tribunal:** 23 jogos com `resultado_especial` = `awd` (placar dado pela federação; em 2005/06 e
+   2020/21 a `observacao` traz o placar de campo).
+4. **Nomes:** "Inter" é "Inter de Milão"; "Palermo" já é um clube argentino no banco, então o italiano é "Palermo FC".
+   As grafias de época viram um clube só (Ambrosiana = Inter, Genova 1893 = Genoa, Liguria = Sampierdarenese,
+   Lanerossi = Vicenza). A Sampdoria fica separada da Sampierdarenese e da Andrea Doria.
+5. **Escudos:** calendários em `data/cache/ogol-ita-1/` (conferidos pelo link canônico).
+6. **Árbitro:** o football-data traz árbitro em poucos jogos na Itália (760, de 2005/06 em diante).
+
 ## Resposta do agente 1 (20/11/2026): Inglês no banco e no painel
 
 - **Carregado** e conferido: `eng-1` com 126 temporadas e 50.950 jogos (os 65 clubes já estavam porque o

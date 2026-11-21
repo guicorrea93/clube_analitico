@@ -1,0 +1,90 @@
+<noinclude>{{main|2023–24 Serie A}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL|source=[https://www.legaseriea.it/en/serie-a/classifica Serie A]
+
+<!--Update team positions here-->
+|team_order= INT, MIL, JUV, ATA, BOL, ROM, LAZ, FIO, TOR, NAP, GEN, MON, VER, LEC, UDI, CAG, EMP, FRO, SAS, SAL
+
+<!--Head-to-head-->
+|hth_VER=Hellas Verona finished ahead of Lecce on head-to-head points: Hellas Verona 2–2 Lecce, Lecce 0–1 Hellas Verona.
+|hth_LEC=VER
+|hth_TOR=Torino finished ahead of Napoli on head-to-head points: Torino 3–0 Napoli, Napoli 1–1 Torino.
+|hth_NAP=TOR
+|hth_CAG=Cagliari finished ahead of Empoli on head-to-head points: Cagliari 0–0 Empoli, Empoli 0–1 Cagliari.
+|hth_EMP=CAG
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CLLS |result5=CLLS |result6=ELLS |result7=ELLS |result8=ECLPO|result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ATA=21|draw_ATA=6 |loss_ATA=11|gf_ATA=72|ga_ATA=42 <!-- Atalanta -->
+|win_BOL=18|draw_BOL=14|loss_BOL=6 |gf_BOL=54|ga_BOL=32 <!-- Bologna -->
+|win_CAG=8 |draw_CAG=12|loss_CAG=18|gf_CAG=42|ga_CAG=68 <!-- Cagliari -->
+|win_EMP=9 |draw_EMP=9 |loss_EMP=20|gf_EMP=29|ga_EMP=54 <!-- Empoli -->
+|win_FIO=17|draw_FIO=9 |loss_FIO=12|gf_FIO=61|ga_FIO=46 <!-- Fiorentina -->
+|win_FRO=8 |draw_FRO=11|loss_FRO=19|gf_FRO=44|ga_FRO=69  <!-- Frosinone -->
+|win_GEN=12|draw_GEN=13|loss_GEN=13|gf_GEN=45|ga_GEN=45 <!-- Genoa -->
+|win_VER=9 |draw_VER=11|loss_VER=18|gf_VER=38|ga_VER=51 <!-- Verona -->
+|win_INT=29|draw_INT=7 |loss_INT=2 |gf_INT=89|ga_INT=22 <!-- Inter -->
+|win_JUV=19|draw_JUV=14|loss_JUV=5 |gf_JUV=54|ga_JUV=31 <!-- Juventus -->
+|win_LAZ=18|draw_LAZ=7 |loss_LAZ=13|gf_LAZ=49|ga_LAZ=39 <!-- Lazio -->
+|win_LEC=8 |draw_LEC=14|loss_LEC=16|gf_LEC=32|ga_LEC=54 <!-- Lecce -->
+|win_MIL=22|draw_MIL=9 |loss_MIL=7 |gf_MIL=76|ga_MIL=49 <!-- Milan -->
+|win_MON=11|draw_MON=12|loss_MON=15|gf_MON=39|ga_MON=51 <!-- Monza -->
+|win_NAP=13|draw_NAP=14|loss_NAP=11|gf_NAP=55|ga_NAP=48 <!-- Napoli -->
+|win_ROM=18|draw_ROM=9 |loss_ROM=11|gf_ROM=65|ga_ROM=46 <!-- Roma -->
+|win_SAL=2 |draw_SAL=11|loss_SAL=25|gf_SAL=32|ga_SAL=81 <!-- Salernitana -->
+|win_SAS=7 |draw_SAS=9 |loss_SAS=22|gf_SAS=43|ga_SAS=75 <!-- Sassuolo -->
+|win_TOR=13|draw_TOR=14|loss_TOR=11|gf_TOR=36|ga_TOR=36 <!-- Torino -->
+|win_UDI=6 |draw_UDI=19|loss_UDI=13|gf_UDI=37|ga_UDI=53 <!-- Udinese -->
+
+<!--Team status-->
+|status_INT=C
+|status_FRO=R
+|status_SAS=R
+|status_SAL=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta BC|Atalanta]]
+|name_BOL=[[Bologna FC 1909|Bologna]]
+|name_CAG=[[Cagliari Calcio|Cagliari]]
+|name_EMP=[[Empoli FC|Empoli]] 
+|name_FRO=[[Frosinone Calcio|Frosinone]] 
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_GEN=[[Genoa CFC|Genoa]]
+|name_VER=[[Hellas Verona FC|Hellas Verona]]
+|name_INT=[[Inter Milan]]
+|name_JUV=[[Juventus FC|Juventus]]
+|name_LAZ=[[SS Lazio|Lazio]]
+|name_LEC=[[US Lecce|Lecce]]
+|name_MIL=[[AC Milan|Milan]]
+|name_MON=[[AC Monza|Monza]]
+|name_NAP=[[SSC Napoli|Napoli]]
+|name_ROM=[[AS Roma|Roma]]
+|name_SAL=[[US Salernitana 1919|Salernitana]]
+|name_SAS=[[US Sassuolo Calcio|Sassuolo]]
+|name_TOR=[[Torino FC|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points;  2) Tiebreaker for Champions team and third relegated team; 3) Head-to-head points; 4) Head-to-head goal difference; 5) Goal difference; 6) Goals scored; 7) Draw.<br>(Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web|url=https://www.figc.it/media/173115/304-deroga-art-51-noif-determinazione-classifica-campionato-serie-a-ss-2022-2023.pdf|title=Comunicato Ufficiale N. 304/A|publisher=Federazione Italiana Giuoco Calcio|website=figc.it|language=it}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS=Qualification for the [[2024–25 UEFA Champions League#League phase|Champions League league phase]]
+|col_ELLS=blue1    |text_ELLS=Qualification for the [[2024–25 UEFA Europa League#League phase|Europa League league phase]]
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|Qualification for the [[2024–25 UEFA Conference League#Play-off round|Conference League play-off round]]}}
+|col_REL=red1      |text_REL=Relegation to [[2024–25 Serie B|Serie B]]
+
+<!--Qualification notes-->
+
+|note_res_CLLS=Serie A gained an additional Champions League place as a result of Italy finishing as one of the two associations with the highest coefficient points in 2023–24.
+|note_res_ELLS=Since the winners of the [[2023–24 Coppa Italia]], Juventus, qualified for the Champions League, the Europa League berth awarded to the Coppa Italia winners was passed to the seventh-placed team, and the Conference League berth was passed to the eighth-placed team.
+}}<noinclude>
+{{Template reference list}}
+[[Category:2023–24 association football standings in Europe templates|Italy]]
+[[Category:Italy football standings templates]]
+[[Category:2023–24 in Italian football|Template]]
+</noinclude>

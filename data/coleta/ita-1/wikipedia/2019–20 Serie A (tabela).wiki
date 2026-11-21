@@ -1,0 +1,89 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.legaseriea.it/en/serie-a/league-table Serie A], [https://www.soccerway.com/italy/serie-a-2019-2020/results/ Soccerway]
+
+<!--Update team positions here-->
+|team_order=JUV, INT, ATA, LAZ, ROM, MIL, NAP, SAS, HEL, FIO, PAR, BOL, UDI, CAG, SAM, TOR, GEN, LEC, BRE, SPA
+
+<!--Head-to-head-->
+|hth_ATA=Atalanta finished ahead of Lazio on head-to-head points: Lazio 3–3 Atalanta, Atalanta 3–2 Lazio.
+|hth_LAZ=ATA
+|hth_UDI=Udinese finished ahead of Cagliari on head-to-head points: Udinese 2–1 Cagliari, Cagliari 0–1 Udinese.
+|hth_CAG=UDI
+|hth_HEL=Positions determined by head-to-head points: Hellas Verona: 10 pts; Fiorentina: 5 pts; Parma: 1 pt.
+|hth_FIO=HEL
+|hth_PAR=HEL
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=EL2Q |result7=ELGScup |result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ATA=23|draw_ATA=9 |loss_ATA=6 |gf_ATA=98|ga_ATA=48 <!-- Atalanta -->
+|win_BOL=12|draw_BOL=11|loss_BOL=15|gf_BOL=52|ga_BOL=65 <!-- Bologna -->
+|win_BRE=6 |draw_BRE=7 |loss_BRE=25|gf_BRE=35|ga_BRE=79 <!-- Brescia -->
+|win_CAG=11|draw_CAG=12|loss_CAG=15|gf_CAG=52|ga_CAG=56 <!-- Cagliari -->
+|win_FIO=12|draw_FIO=13|loss_FIO=13|gf_FIO=51|ga_FIO=48 <!-- Fiorentina -->
+|win_GEN=10 |draw_GEN=9 |loss_GEN=19|gf_GEN=47|ga_GEN=73 <!-- Genoa -->
+|win_HEL=12|draw_HEL=13|loss_HEL=13|gf_HEL=47|ga_HEL=51 <!-- Hellas Verona -->
+|win_INT=24|draw_INT=10|loss_INT=4 |gf_INT=81|ga_INT=36 <!-- Inter Milan -->
+|win_JUV=26|draw_JUV=5 |loss_JUV=7 |gf_JUV=76|ga_JUV=43 <!-- Juventus -->
+|win_LAZ=24|draw_LAZ=6 |loss_LAZ=8 |gf_LAZ=79|ga_LAZ=42 <!-- Lazio -->
+|win_LEC=9 |draw_LEC=8 |loss_LEC=21|gf_LEC=52|ga_LEC=85 <!-- Lecce -->
+|win_MIL=19|draw_MIL=9 |loss_MIL=10|gf_MIL=63|ga_MIL=46 <!-- Milan -->
+|win_NAP=18|draw_NAP=8 |loss_NAP=12|gf_NAP=61|ga_NAP=50 <!-- Napoli -->
+|win_PAR=14|draw_PAR=7 |loss_PAR=17|gf_PAR=56|ga_PAR=57 <!-- Parma -->
+|win_ROM=21|draw_ROM=7 |loss_ROM=10|gf_ROM=77|ga_ROM=51 <!-- Roma -->
+|win_SAM=12|draw_SAM=6 |loss_SAM=20|gf_SAM=48|ga_SAM=65 <!-- Sampdoria -->
+|win_SAS=14|draw_SAS=9 |loss_SAS=15|gf_SAS=69|ga_SAS=63 <!-- Sassuolo -->
+|win_SPA=5 |draw_SPA=5 |loss_SPA=28|gf_SPA=27|ga_SPA=77 <!-- SPAL -->
+|win_TOR=11|draw_TOR=7 |loss_TOR=20|gf_TOR=46|ga_TOR=68 <!-- Torino -->
+|win_UDI=12|draw_UDI=9 |loss_UDI=17|gf_UDI=37|ga_UDI=51 <!-- Udinese -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta BC|Atalanta]]
+|name_BOL=[[Bologna FC 1909|Bologna]]
+|name_BRE=[[Brescia Calcio|Brescia]]
+|name_CAG=[[Cagliari Calcio|Cagliari]]
+|name_GEN=[[Genoa CFC|Genoa]]
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_HEL=[[Hellas Verona FC|Hellas Verona]]
+|name_INT=[[Inter Milan|Internazionale]]
+|name_JUV=[[Juventus FC|Juventus]]
+|name_LAZ=[[SS Lazio|Lazio]]
+|name_LEC=[[US Lecce|Lecce]]
+|name_MIL=[[AC Milan|Milan]]
+|name_NAP=[[SSC Napoli|Napoli]]
+|name_PAR=[[Parma Calcio 1913|Parma]]
+|name_ROM=[[AS Roma|Roma]]
+|name_SAM=[[UC Sampdoria|Sampdoria]]
+|name_SAS=[[US Sassuolo Calcio|Sassuolo]]
+|name_SPA=[[SPAL]]
+|name_TOR=[[Torino FC|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played)
+
+<!--Status-->
+|status_JUV=C
+|status_SPA=R
+|status_BRE=R
+|status_LEC=R
+
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2020–21 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2020–21 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ELGScup=blue1 |text_ELGScup=Qualification for the [[2020–21 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL2Q=blue2  |text_EL2Q=Qualification for the [[2020–21 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2020–21 Serie B|Serie B]]
+
+|note_res_ELGScup = Napoli qualified for the Europa League group stage by winning the [[2019–20 Coppa Italia]].
+}}<noinclude>
+{{Template reference list}}
+[[Category:Serie A table templates]]
+[[Category:2019–20 association football standings in Italy templates|A]]
+</noinclude>

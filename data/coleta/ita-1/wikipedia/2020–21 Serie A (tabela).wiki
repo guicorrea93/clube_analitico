@@ -1,0 +1,86 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[http://www.legaseriea.it/en/serie-a/league-table Serie A], [https://www.soccerway.com/italy/serie-a-2020-2021/standings/ Soccerway]
+
+<!--Update team positions here-->
+|team_order=INT, MIL, ATA, JUV, NAP, LAZ, ROM, SAS, SAM, VER, GEN, BOL, FIO, UDI, SPE, CAG, TOR, BEN, CRO, PAR
+
+<!--Head-to-head-->
+|hth_ATA=Atalanta finished ahead of Juventus on head-to-head points: Juventus 1–1 Atalanta, Atalanta 1–0 Juventus.
+|hth_JUV=ATA
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=ELGS |result7=ECLPO |result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|win_ATA=23|draw_ATA=9 |loss_ATA=6 |gf_ATA=90|ga_ATA=47<!--Atalanta--> 
+|win_BEN=7 |draw_BEN=12|loss_BEN=19|gf_BEN=40|ga_BEN=75<!--Benevento-->
+|win_BOL=10|draw_BOL=11|loss_BOL=17|gf_BOL=51|ga_BOL=65<!--Bologna-->
+|win_CAG=9 |draw_CAG=10|loss_CAG=19|gf_CAG=43|ga_CAG=59<!--Cagliari-->
+|win_CRO=6 |draw_CRO=5 |loss_CRO=27|gf_CRO=45|ga_CRO=92<!--Crotone-->
+|win_FIO=9 |draw_FIO=13|loss_FIO=16|gf_FIO=47|ga_FIO=59<!--Fiorentina-->
+|win_GEN=10|draw_GEN=12|loss_GEN=16|gf_GEN=47|ga_GEN=58<!--Genoa-->
+|win_VER=11|draw_VER=12|loss_VER=15|gf_VER=46|ga_VER=48<!--Hellas Verona-->
+|win_INT=28|draw_INT=7 |loss_INT=3 |gf_INT=89|ga_INT=35<!--Internazionale-->
+|win_JUV=23|draw_JUV=9 |loss_JUV=6 |gf_JUV=77|ga_JUV=38<!--Juventus-->
+|win_LAZ=21|draw_LAZ=5 |loss_LAZ=12|gf_LAZ=61|ga_LAZ=55<!--Lazio-->
+|win_MIL=24|draw_MIL=7 |loss_MIL=7 |gf_MIL=74|ga_MIL=41<!--Milan-->
+|win_NAP=24|draw_NAP=5 |loss_NAP=9 |gf_NAP=86|ga_NAP=41<!--Napoli-->
+|win_PAR=3 |draw_PAR=11|loss_PAR=24|gf_PAR=39|ga_PAR=83<!--Parma-->
+|win_ROM=18|draw_ROM=8 |loss_ROM=12|gf_ROM=68|ga_ROM=58<!--Roma-->
+|win_SAM=15|draw_SAM=7 |loss_SAM=16|gf_SAM=52|ga_SAM=54<!--Sampdoria-->
+|win_SAS=17|draw_SAS=11|loss_SAS=10|gf_SAS=64|ga_SAS=56<!--Sassuolo-->
+|win_SPE=9 |draw_SPE=12|loss_SPE=17|gf_SPE=52|ga_SPE=72<!--Spezia-->
+|win_TOR=7 |draw_TOR=16|loss_TOR=15|gf_TOR=50|ga_TOR=69<!--Torino-->
+|win_UDI=10|draw_UDI=10|loss_UDI=18|gf_UDI=42|ga_UDI=58<!--Udinese-->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta B.C.|Atalanta]]
+|name_BEN=[[Benevento Calcio|Benevento]]
+|name_BOL=[[Bologna F.C. 1909|Bologna]]
+|name_CAG=[[Cagliari Calcio|Cagliari]]
+|name_CRO=[[F.C. Crotone|Crotone]]
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_GEN=[[Genoa C.F.C.|Genoa]]
+|name_VER=[[Hellas Verona F.C.|Hellas Verona]]
+|name_INT=[[Inter Milan|Inter Milan]]
+|name_JUV=[[Juventus F.C.|Juventus]]
+|name_LAZ=[[S.S. Lazio|Lazio]]
+|name_MIL=[[A.C. Milan|Milan]]
+|name_NAP=[[S.S.C. Napoli|Napoli]]
+|name_PAR=[[Parma Calcio 1913|Parma]]
+|name_ROM=[[A.S. Roma|Roma]]
+|name_SAM=[[UC Sampdoria|Sampdoria]]
+|name_SAS=[[US Sassuolo Calcio|Sassuolo]]
+|name_SPE=[[Spezia Calcio|Spezia]]
+|name_TOR=[[Torino F.C.|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+
+<!--Status-->
+|status_INT=C
+|status_BEN=R
+|status_CRO=R
+|status_PAR=R
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Draw. (Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web|url=http://www.figc.it/Assets/contentresources_2/ContenutoGenerico/36.$plit/C_2_ContenutoGenerico_29302_StrilloComunicatoUfficiale_lstAllegati_Allegato_0_upfAllegato.pdf|archive-url=https://web.archive.org/web/20120619123015/http://www.figc.it/Assets/contentresources_2/ContenutoGenerico/36.$plit/C_2_ContenutoGenerico_29302_StrilloComunicatoUfficiale_lstAllegati_Allegato_0_upfAllegato.pdf|url-status=dead|archive-date=2012-06-19|title=RCOMUNICATO UFFICIALE N. 52/A|format=PDF|publisher=Lega Nazionale Professionisti Serie A|website=legaseriea.it|language=it|date=19 June 2012|access-date=17 May 2021}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for  [[2021–22 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1    |text_ELGS={{0}}Qualification for [[2021–22 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECLPO=yellow1 |text_ECLPO={{0}}Qualification for [[2021–22 UEFA Europa Conference League#Play-off round|Conference League play-off round]]
+|col_REL=red1      |text_REL=Relegation to [[2021–22 Serie B|Serie B]]
+
+|note_res_ELGS=Since the [[2021 Coppa Italia Final|winners]] of the [[2020–21 Coppa Italia]], Juventus, qualified for the Champions League, the Europa League berth awarded to the Coppa Italia winners was passed to the sixth-placed team, and the Europa Conference League berth awarded to the sixth-placed team was passed to the seventh-placed team.
+|note_res_ECLPO=ELGS
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2020–21 association football standings in Italy templates|A]]
+[[Category:Italy football standings templates]]
+[[Category:2020–21 in Italian football|Template]]
+</noinclude>

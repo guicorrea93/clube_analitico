@@ -1,0 +1,85 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.legaseriea.it/en/serie-a-tim/league-table Serie A], [https://www.soccerway.com/italy/serie-a-2017-2018/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=JUV |team2=NAP|team3=ROM |team4=INT |team5=LAZ |team6=MIL |team7=ATA |team8=FIO |team9=TOR |team10=SAM |team11=SAS |team12=GEN |team13=CHV |team14=UDI |team15=BOL |team16=CAG |team17=SPA |team18=CRO |team19=HEL |team20=BEN
+
+<!--Override equal team positions here if and only if Pts, GD & GF are all equal. Remove when no longer needed. Example: "|pos_XXX=21", where XXX is the team ID from the previous section.-->
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=ELGS |result7=EL2Q |result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ATA=16|draw_ATA=12|loss_ATA=10|gf_ATA=57|ga_ATA=39<!-- Atalanta -->
+|win_BEN=6 |draw_BEN=3 |loss_BEN=29|gf_BEN=33|ga_BEN=84<!-- Benevento -->
+|win_BOL=11|draw_BOL=6 |loss_BOL=21|gf_BOL=40|ga_BOL=52<!-- Bologna -->
+|win_CAG=11|draw_CAG=6 |loss_CAG=21|gf_CAG=33|ga_CAG=61<!-- Cagliari -->
+|win_CHV=10|draw_CHV=10|loss_CHV=18|gf_CHV=36|ga_CHV=59<!-- Chievo -->
+|win_CRO=9 |draw_CRO=8 |loss_CRO=21|gf_CRO=40|ga_CRO=66<!-- Crotone -->
+|win_FIO=16|draw_FIO=9 |loss_FIO=13|gf_FIO=54|ga_FIO=46<!-- Fiorentina -->
+|win_GEN=11|draw_GEN=8 |loss_GEN=19|gf_GEN=33|ga_GEN=43<!-- Genoa -->
+|win_HEL=7 |draw_HEL=4 |loss_HEL=27|gf_HEL=30|ga_HEL=78<!-- Hellas Verona -->
+|win_INT=20|draw_INT=12|loss_INT=6 |gf_INT=66|ga_INT=30<!-- Internazionale -->
+|win_JUV=30|draw_JUV=5 |loss_JUV=3 |gf_JUV=86|ga_JUV=24<!-- Juventus -->
+|win_LAZ=21|draw_LAZ=9 |loss_LAZ=8 |gf_LAZ=89|ga_LAZ=49<!-- Lazio -->
+|win_MIL=18|draw_MIL=10|loss_MIL=10|gf_MIL=56|ga_MIL=42<!-- Milan -->
+|win_NAP=28|draw_NAP=7 |loss_NAP=3 |gf_NAP=77|ga_NAP=29<!-- Napoli -->
+|win_ROM=23|draw_ROM=8 |loss_ROM=7 |gf_ROM=61|ga_ROM=28<!-- Roma -->
+|win_SAM=16|draw_SAM=6 |loss_SAM=16|gf_SAM=56|ga_SAM=60<!-- Sampdoria -->
+|win_SAS=11|draw_SAS=10|loss_SAS=17|gf_SAS=29|ga_SAS=59<!-- Sassuolo -->
+|win_SPA=8 |draw_SPA=14|loss_SPA=16|gf_SPA=39|ga_SPA=59<!-- SPAL -->
+|win_TOR=13|draw_TOR=15|loss_TOR=10|gf_TOR=54|ga_TOR=46<!-- Torino -->
+|win_UDI=12|draw_UDI=4 |loss_UDI=22|gf_UDI=48|ga_UDI=63<!-- Udinese -->
+
+<!--Status-->
+|status_JUV=C
+|status_BEN=R
+|status_HEL=R
+|status_CRO=R
+|hth_LAZ=Internazionale finished ahead of Lazio on head-to-head: Internazionale 0–0 Lazio, Lazio 2–3 Internazionale
+|hth_CHV=Chievo finished ahead of Udinese on head-to-head points: Chievo 1–1 Udinese, Udinese 1–2 Chievo.
+|hth_UDI=CHV
+|note_MIL=Milan was originally banned from European competition due to violations against [[UEFA Financial Fair Play Regulations|Financial Fair Play regulations]].<ref>{{cite web|url=https://www.uefa.com/insideuefa/about-uefa/news/newsid=2563654.html#/2563654|title=CFCB Adjudicatory Chamber renders AC Milan decision|publisher=[[UEFA]]|date=27 June 2018}}</ref> They appealed to the [[Court of Arbitration for Sport]], and the ban was overturned on {{dts|format=dmy|2018|7|20}}.<ref>{{cite web|url=https://www.corrieredellosport.it/news/calcio/serie-a/milan/2018/07/20-45556632/milan_in_europa_league_accolto_il_ricorso_al_tas/|title=Ufficiale, Milan in Europa League: accolto il ricorso al Tas|publisher=[[Corriere dello Sport – Stadio|Corriere dello Sport]]|language=it|date=20 July 2018}}</ref><ref>{{cite web|url=http://www.tas-cas.org/fileadmin/user_upload/Media_Release_5808__ENGLISH_.pdf|title=AC Milan v. UEFA: CAS annuls the sanction and refers the case back to UEFA to issue a proportionate disciplinary measure|publisher=[[Court of Arbitration for Sport]]|format=PDF|date=20 July 2018}}</ref>
+
+<!--Team definitions (wikilinks in table)-->
+|name_ATA=[[Atalanta B.C.|Atalanta]]
+|name_BEN=[[Benevento Calcio|Benevento]]
+|name_BOL=[[Bologna F.C. 1909|Bologna]]
+|name_CAG=[[Cagliari Calcio|Cagliari]]
+|name_CHV=[[A.C. ChievoVerona|Chievo]]
+|name_CRO=[[F.C. Crotone|Crotone]]
+|name_FIO=[[ACF Fiorentina|Fiorentina]]
+|name_GEN=[[Genoa C.F.C.|Genoa]]
+|name_HEL=[[Hellas Verona F.C.|Hellas Verona]]
+|name_INT=[[Inter Milan|Internazionale]]
+|name_JUV=[[Juventus F.C.|Juventus]]
+|name_LAZ=[[S.S. Lazio|Lazio]]
+|name_MIL=[[A.C. Milan|Milan]]
+|name_NAP=[[S.S.C. Napoli|Napoli]]
+|name_ROM=[[A.S. Roma|Roma]]
+|name_SAM=[[UC Sampdoria|Sampdoria]]
+|name_SAS=[[US Sassuolo Calcio|Sassuolo]]
+|name_SPA=[[S.P.A.L.|SPAL]]
+|name_TOR=[[Torino F.C.|Torino]]
+|name_UDI=[[Udinese Calcio|Udinese]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Draw.<ref>{{cite web |url=http://www.figc.it/Assets/contentresources_2/ContenutoGenerico/20.$plit/C_2_ContenutoGenerico_3817_Sezioni_lstSezioni_1_lstCapitoli_2_upfFileUpload_it.pdf|title=Norme organizzative interne della F.I.G.C. - Art. 51.6|publisher=[[Italian Football Federation]]|format=PDF|language=it|date=14 August 2015|access-date=19 May 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification to [[2018–19 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1  |text_ELGS=Qualification to [[2018–19 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL2Q=blue2  |text_EL2Q=Qualification to [[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2018–19 Serie B|Serie B]]
+
+|note_res_ELGS=Since the winners of the [[2017–18 Coppa Italia]], Juventus, qualified for European competition based on league position, the spot awarded to the cup winners (Europa League group stage) was passed to the sixth-placed team and the spot awarded to the sixth-placed team (Europa League second qualifying round) was passed to the seventh-placed team.
+|note_res_EL2Q=ELGS
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Italy football league templates]]
+[[Category:Serie A table templates]]</noinclude>
