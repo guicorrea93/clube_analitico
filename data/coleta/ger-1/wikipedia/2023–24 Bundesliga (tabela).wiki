@@ -1,0 +1,80 @@
+<noinclude>{{main|2023–24 Bundesliga}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.dfb.de/bundesliga/spieltagtabelle/?spieledb_path=%2Fdatencenter%2Fbundesliga%2F2023-24%2Fcurrent DFB]
+
+<!--Update team positions here-->
+|team_order=LEV, STU, MUN, LEI, DOR, FRA, HOF, HEI, BRE, FRE, AUG, WOL, MAI, MÖN, UNB, BOC, KÖL, DAR
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CLLS |result5=CLLS |result6=ELLS |result7=ELLS| result8=ECLPO |result16=RPO |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_AUG=10|draw_AUG=9 |loss_AUG=15|gf_AUG=50|ga_AUG=60<!-- FC Augsburg -->
+|win_UNB=9 |draw_UNB=6 |loss_UNB=19|gf_UNB=33|ga_UNB=58<!-- Union Berlin -->
+|win_BOC=7 |draw_BOC=12|loss_BOC=15|gf_BOC=42|ga_BOC=74<!-- VfL Bochum -->
+|win_BRE=11|draw_BRE=9 |loss_BRE=14|gf_BRE=48|ga_BRE=54<!-- Werder Bremen -->
+|win_DAR=3 |draw_DAR=8 |loss_DAR=23|gf_DAR=30|ga_DAR=86<!-- SV Darmstadt -->
+|win_DOR=18|draw_DOR=9 |loss_DOR=7 |gf_DOR=68|ga_DOR=43<!-- Borussia Dortmund -->
+|win_FRA=11|draw_FRA=14|loss_FRA=9 |gf_FRA=51|ga_FRA=50<!-- Eintracht Frankfurt -->
+|win_FRE=11|draw_FRE=9 |loss_FRE=14|gf_FRE=45|ga_FRE=58<!-- SC Freiburg -->
+|win_HEI=10|draw_HEI=12|loss_HEI=12|gf_HEI=50|ga_HEI=55<!-- 1. FC Heidenheim -->
+|win_HOF=13|draw_HOF=7 |loss_HOF=14|gf_HOF=66|ga_HOF=66<!-- 1899 Hoffenheim -->
+|win_KÖL=5 |draw_KÖL=12|loss_KÖL=17|gf_KÖL=28|ga_KÖL=60<!-- 1. FC Köln -->
+|win_LEI=19|draw_LEI=8 |loss_LEI=7 |gf_LEI=77|ga_LEI=39<!-- RB Leipzig -->
+|win_LEV=28|draw_LEV=6 |loss_LEV=0 |gf_LEV=89|ga_LEV=24<!-- Bayer Leverkusen -->
+|win_MAI=7 |draw_MAI=14|loss_MAI=13|gf_MAI=39|ga_MAI=51<!-- Mainz 05 -->
+|win_MÖN=7 |draw_MÖN=13|loss_MÖN=14|gf_MÖN=56|ga_MÖN=67<!-- Borussia Mönchengladbach -->
+|win_MUN=23|draw_MUN=3 |loss_MUN=8 |gf_MUN=94|ga_MUN=45<!-- Bayern Munich -->
+|win_STU=23|draw_STU=4 |loss_STU=7 |gf_STU=78|ga_STU=39<!-- VfB Stuttgart -->
+|win_WOL=10|draw_WOL=7 |loss_WOL=17|gf_WOL=41|ga_WOL=56<!-- VfL Wolfsburg -->
+
+<!--Team status-->
+|status_LEV=C
+|status_BOC=O
+|status_KÖL=R
+|status_DAR=R
+
+
+<!--Team definitions (wikilinks in table)-->
+|name_AUG=[[FC Augsburg]]
+|name_UNB=[[1. FC Union Berlin|Union Berlin]]
+|name_BOC=[[VfL Bochum]]
+|name_BRE=[[SV Werder Bremen|Werder Bremen]]
+|name_DAR=[[SV Darmstadt 98|Darmstadt 98]]
+|name_DOR=[[Borussia Dortmund]]
+|name_FRA=[[Eintracht Frankfurt]]
+|name_FRE=[[SC Freiburg]]
+|name_HEI=[[1. FC Heidenheim]]
+|name_HOF=[[TSG 1899 Hoffenheim|TSG Hoffenheim]]
+|name_KÖL=[[1. FC Köln]]
+|name_LEI=[[RB Leipzig]]
+|name_LEV=[[Bayer 04 Leverkusen|Bayer Leverkusen]]
+|name_MAI=[[1. FSV Mainz 05|Mainz 05]]
+|name_MÖN=[[Borussia Mönchengladbach]]
+|name_MUN=[[FC Bayern Munich|Bayern Munich]]
+|name_STU=[[VfB Stuttgart]]
+|name_WOL=[[VfL Wolfsburg]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Head-to-head results; 5) Head-to-head away goals scored; 6) Away goals scored; 7) Play-off.<ref>{{cite web |url=https://media.dfl.de/sites/2/2023/03/Spielordnung-SpOL-2023-03-04-Stand.pdf |title=Spielordnung (SpOL) |trans-title=Match rules |publisher=[[Deutsche Fußball Liga]] |language=de |format=PDF |page=3 |access-date=4 March 2023}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS={{nowrap|Qualification for the [[2024–25 UEFA Champions League#League phase|Champions League league phase]]}}
+|col_ELLS=blue1    |text_ELLS={{nowrap|Qualification for the [[2024–25 UEFA Europa League#League phase|Europa League league phase]]}}
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|Qualification for the [[2024–25 UEFA Conference League#Play-off round|Conference League play-off round]]}}
+|col_RPO=red2      |text_RPO={{nowrap|Qualification for the [[2023–24 Bundesliga#Relegation play-offs|relegation play-offs]]}}
+|col_REL=red1      |text_REL=Relegation to [[2024–25 2. Bundesliga|2. Bundesliga]]
+
+<!--Qualification notes-->
+|note_res_ELLS=Since the [[2023–24 DFB-Pokal]] winners, Bayer Leverkusen, qualified for the Champions League via league position, the spot reserved for the DFB-Pokal winners (Europa League league phase) was passed to the seventh-placed team, and the Conference League play-off round spot was passed to the eighth-placed team.
+|note_res_ECLPO=ELLS
+|note_res_CLLS=The Bundesliga gained an additional Champions League place as a result of Germany finishing as one of the two associations with the highest [[UEFA coefficient#Men's association coefficient|UEFA coefficient]] points in 2023–24. 
+}}<noinclude>
+{{Template reference list}}
+[[Category:Bundesliga table templates]]
+[[Category:2023–24 association football standings in Europe templates|Germany]]
+</noinclude>

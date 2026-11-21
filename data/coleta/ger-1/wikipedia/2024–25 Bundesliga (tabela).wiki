@@ -1,0 +1,77 @@
+<noinclude>{{main|2024–25 Bundesliga}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.bundesliga.com/en/bundesliga/table/2024-2025 Bundesliga]
+
+<!--Update team positions here-->
+|team_order = MUN, LEV, FRA, DOR, FRE, MAI, LEI, BRE, STU, MÖN, WOL, AUG, UNB, STP, HOF, HEI, KIE, BOC
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CLLS |result5=ELLS |result6=ECLPO |result9=ELLScup |result16=RPO |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_AUG=11|draw_AUG=10|loss_AUG=13|gf_AUG=35|ga_AUG=51<!-- FC Augsburg -->
+|win_UNB=10|draw_UNB=10|loss_UNB=14|gf_UNB=35|ga_UNB=51<!-- Union Berlin -->
+|win_BOC=6 |draw_BOC=7 |loss_BOC=21|gf_BOC=33|ga_BOC=67<!-- VfL Bochum -->
+|win_BRE=14|draw_BRE=9 |loss_BRE=11|gf_BRE=54|ga_BRE=57<!-- Werder Bremen -->
+|win_DOR=17|draw_DOR=6 |loss_DOR=11|gf_DOR=71|ga_DOR=51<!-- Borussia Dortmund -->
+|win_FRA=17|draw_FRA=9 |loss_FRA=8 |gf_FRA=68|ga_FRA=46<!-- Eintracht Frankfurt -->
+|win_FRE=16|draw_FRE=7 |loss_FRE=11|gf_FRE=49|ga_FRE=53<!-- SC Freiburg -->
+|win_HEI=8 |draw_HEI=5 |loss_HEI=21|gf_HEI=37|ga_HEI=64<!-- 1. FC Heidenheim -->
+|win_HOF=7 |draw_HOF=11|loss_HOF=16|gf_HOF=46|ga_HOF=68<!-- 1899 Hoffenheim -->
+|win_KIE=6 |draw_KIE=7 |loss_KIE=21|gf_KIE=49|ga_KIE=80<!-- Holstein Kiel -->
+|win_LEI=13|draw_LEI=12|loss_LEI=9 |gf_LEI=53|ga_LEI=48<!-- RB Leipzig -->
+|win_LEV=19|draw_LEV=12|loss_LEV=3 |gf_LEV=72|ga_LEV=43<!-- Bayer Leverkusen -->
+|win_MAI=14|draw_MAI=10|loss_MAI=10|gf_MAI=55|ga_MAI=43<!-- Mainz 05 -->
+|win_MÖN=13|draw_MÖN=6 |loss_MÖN=15|gf_MÖN=55|ga_MÖN=57<!-- Borussia Mönchengladbach -->
+|win_MUN=25|draw_MUN=7 |loss_MUN=2 |gf_MUN=99|ga_MUN=32<!-- Bayern Munich --> 
+|win_STP=8 |draw_STP=8 |loss_STP=18|gf_STP=28|ga_STP=41<!-- FC St. Pauli -->
+|win_STU=14|draw_STU=8 |loss_STU=12|gf_STU=64|ga_STU=53<!-- VfB Stuttgart -->
+|win_WOL=11|draw_WOL=10|loss_WOL=13|gf_WOL=56|ga_WOL=54<!-- VfL Wolfsburg -->
+
+<!--Status-->
+|status_MUN=C
+|status_HEI=O
+|status_KIE=R
+|status_BOC=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_AUG=[[FC Augsburg]]
+|name_UNB=[[1. FC Union Berlin|Union Berlin]]
+|name_BOC=[[VfL Bochum]]
+|name_BRE=[[SV Werder Bremen|Werder Bremen]]
+|name_DOR=[[Borussia Dortmund]]
+|name_FRA=[[Eintracht Frankfurt]]
+|name_FRE=[[SC Freiburg]]
+|name_HEI=[[1. FC Heidenheim]]
+|name_HOF=[[TSG 1899 Hoffenheim|TSG Hoffenheim]]
+|name_KIE=[[Holstein Kiel]]
+|name_LEI=[[RB Leipzig]]
+|name_LEV=[[Bayer 04 Leverkusen|Bayer Leverkusen]]
+|name_MAI=[[1. FSV Mainz 05|Mainz 05]]
+|name_MÖN=[[Borussia Mönchengladbach]]
+|name_MUN=[[FC Bayern Munich|Bayern Munich]]
+|name_STP=[[FC St. Pauli]]
+|name_STU=[[VfB Stuttgart]]
+|name_WOL=[[VfL Wolfsburg]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Head-to-head results; 5) Head-to-head away goals scored; 6) Away goals scored; 7) Play-off.<ref>{{cite web |url=https://media.dfl.de/sites/2/2024/07/Spielordnung-SpOL-2024-06-07-Stand.pdf |title=DFL–Spielordnung (SpOL) |trans-title=Match rules |publisher=[[Deutsche Fußball Liga]] |language=de |format=PDF |page=3 |access-date=10 September 2024 |date=7 June 2024}}</ref><br>(Rules 4–6 only apply after home and away matches have been played between the tied teams.)
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS=Qualification for the [[2025–26 UEFA Champions League#League phase|Champions League league phase]]
+|col_ELLS=blue1    |text_ELLS=Qualification for the [[2025–26 UEFA Europa League#League phase|Europa League league phase]]
+|col_ELLScup=blue1 |text_ELLScup=Qualification for the [[2025–26 UEFA Europa League#League phase|Europa League league phase]]
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|Qualification for the [[2025–26 UEFA Conference League#Play-off round|Conference League play-off round]]}}
+|col_RPO=red2      |text_RPO=Qualification for the [[2024–25 Bundesliga#Relegation play-offs|relegation play-offs]]
+|col_REL=red1      |text_REL=Relegation to [[2025–26 2. Bundesliga|2. Bundesliga]]
+
+<!--Qualification notes-->
+|note_res_ELLScup=VfB Stuttgart qualified for the Europa League league phase by winning the [[2024–25 DFB-Pokal]].
+}}<noinclude>
+{{Template reference list}}
+[[Category:Bundesliga table templates]]
+</noinclude>

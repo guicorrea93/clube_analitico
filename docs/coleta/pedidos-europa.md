@@ -63,6 +63,22 @@ com `futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK. Co
 5. **Escudos:** calendários em `data/cache/ogol-ita-1/` (conferidos pelo link canônico).
 6. **Árbitro:** o football-data traz árbitro em poucos jogos na Itália (760, de 2005/06 em diante).
 
+## 21/11/2026 — Campeonato Alemão (`ger-1`)
+
+**Pronto para o painel.** Pacote em `data/coleta/ger-1/pacote/`, relatório em `docs/coleta/ger-1.md`.
+62 edições (Bundesliga, 1963/64–2024/25), 18.914 jogos, todos com rodada; 21.522 gols com autor e 29.022 cartões
+(2001/02+); classificação rodada a rodada em todas as temporadas; artilheiros (RSSSF, com o clube); 58 clubes. Testado
+com `futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK. Commit aguarda o ok do Guilherme.
+
+1. **Só a Bundesliga:** os campeonatos alemães de 1902/03 a 1962/63 (ligas regionais e fase final) e a Alemanha Oriental
+   ficam para depois. A `observacao` do `competicao.json` diz isso.
+2. **Nomes:** "Bayern de Munique", "Colônia", "Hamburgo", "1860 Munique", "Nuremberg". Meidericher SV = Duisburg,
+   Frankfurter SG Eintracht = Eintracht Frankfurt, SV Bayer 04 = Bayer Leverkusen.
+3. **1991/92:** a base parava em 25/04/1992; os 40 jogos das últimas rodadas vêm do ogol (`fonte` = `ogol`), e as tabelas
+   da RSSSF e da Wikipédia fecham com eles.
+4. **Escudos:** calendários em `data/cache/ogol-ger-1/` (conferidos pelo link canônico).
+5. **Árbitro:** o football-data traz árbitro em poucos jogos na Alemanha (611).
+
 ## Resposta do agente 1 (20/11/2026): Inglês no banco e no painel
 
 - **Carregado** e conferido: `eng-1` com 126 temporadas e 50.950 jogos (os 65 clubes já estavam porque o
@@ -86,3 +102,43 @@ com `futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK. Co
 - **Escudos:** os 63 clubes têm escudo, tirado dos calendários do ogol.
 - **Lista do painel:** o painel agora só mostra a competição que está em `LIBERADAS` (`gerar_dashboard_v2.py`), com o
   ok do Guilherme. Pacote em andamento entra no banco, mas não no seletor.
+
+## Pedidos da revisão (21/11/2026): Espanhol (`esp-1`)
+
+A revisão conferiu o pacote contra a Wikipédia es e o football-data, fontes que a coleta não usou. Os achados estão em
+`docs/revisao/achados.csv` (prefixo ES, `quem_corrige` = `coleta-europa`) e as provas em `docs/revisao/esp-1.md`. O pacote está quase
+todo certo: 94 de 94 pódios e 27.320 de 27.336 placares batem.
+
+1. **ES-002 (alta), 1986/87:** faltam os 3 jogos do triangular de rebaixamento (Osasuna, Cádiz e Racing). O Racing, que caiu,
+   aparece em 17º, acima do Cádiz em 18º, que ficou na 1ª divisão. A ordem final certa é Osasuna, Cádiz e Racing. Incluir o
+   triangular como fase aguarda decisão do Guilherme.
+2. **ES-001 (média), 1935/36:** o Real Oviedo (3º) está marcado como rebaixado. Ele ficou fora de 1939/40 por dispensa, com o
+   estádio destruído na guerra. O caso do Atlético de Madrid nessa temporada aguarda decisão do Guilherme.
+3. **ES-004 (baixa):** a situação de rebaixado não bate com a faixa nas temporadas 1965/66, 1989/90, 1993/94, 1997/98 e 2014/15.
+4. **ES-005 (baixa):** os gols do artilheiro diferem da Wikipédia es em 1929/30, 1934/35, 1935/36, 1954/55 e 2003/04. A
+   contagem que vale, do Marca ou da LFP, aguarda decisão do Guilherme.
+5. **ES-006 (baixa):** nomes da ESPN fora de ordem de 2001/02 a 2008/09 ("Kahveci Nihat"), e o Salva Ballesta aparece partido em
+   dois nomes.
+
+Quando corrigir, cite os ids aqui. A revisão confere de novo.
+
+## Pedidos da revisão (21/11/2026): Inglês (`eng-1`)
+
+A revisão conferiu o pacote contra o 11v11, a RSSSF e a Wikipédia en. Os achados estão em `docs/revisao/achados.csv` (prefixo EN,
+`quem_corrige` = `coleta-europa`) e as provas em `docs/revisao/eng-1.md`. O pacote está muito bom: 2.579 de 2.583 linhas de
+classificação e 50.949 de 50.950 placares batem, e os rebaixados estão certos nas 126 temporadas.
+
+1. **EN-001 (alta):** falta a temporada 2025/26, que terminou em 24/05/2026. Incluir aguarda decisão do Guilherme.
+2. **EN-005 (média):** 33 jogos estão com data errada, e o 11v11 concorda com o ogol. Exemplos: a última rodada de 1995/96 está em
+   04/05/1996, mas foi em 05/05; em 1899/00, 9 jogos estão em 29/12/1899, mas foram em 30/12. A lista está em
+   `revisao/EN/datas_11v11_saida.txt`.
+3. **EN-007 (média):** em 94 temporadas, a "rodada" do ogol não é rodada de verdade: há clubes com 2 ou 3 jogos na mesma rodada.
+   Isso aparece na sub-aba Jogos e na Corrida. A lista está em `revisao/EN/rodadas_saida.txt`.
+4. **EN-002 (média):** o artilheiro de 1937/38 tem Lawton com 34 gols; foram 28. Também EN-003 (1889/90) e EN-004 (1905/06).
+5. **EN-006 (média):** Wolverhampton x Everton de 1888/89 está 4-0; várias fontes dão 5-0. Aguarda decisão do Guilherme.
+6. **EN-016 (baixa):** 12 jogos sem nenhum gol com autor (2002/03 a 2016/17).
+7. **EN-017 (baixa):** falta "Newton Heath" no `clube_nome` do Manchester United.
+8. **EN-018 (baixa):** Stoke (1889/90) e Darwen (1891/92) não foram reeleitos para a liga, mas estão marcados como "rebaixado".
+   Aguarda decisão do Guilherme.
+
+Quando corrigir, cite os ids aqui. A revisão confere de novo.

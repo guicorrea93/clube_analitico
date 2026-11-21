@@ -1,0 +1,77 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.dfb.de/bundesliga/spieltagtabelle/?spieledb_path=%2Fcompetitions%2F12%2Fseasons%2F17820%2Fmatchday%2F34 DFB]
+
+<!--Update team positions here-->
+|team1=MUN |team2=DOR |team3=LEI |team4=LEV |team5=MÖN |team6=WOL |team7=FRA |team8=BRE |team9=HOF |team10=DÜS |team11=BSC |team12=MAI |team13=FRE |team14=SCH |team15=AUG |team16=STU |team17=HAN |team18=NÜR
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=ELGS |result7=EL2Q
+|result16=RPO |result17=REL |result18=REL
+
+|note_res_ELGS=Since the winners of the [[2018–19 DFB-Pokal]], Bayern Munich, qualified for the Champions League based on league position, the Europa League group stage spot was passed to the sixth-placed team, and the Europa League second qualifying round spot was passed to the seventh-placed team.
+|note_res_EL2Q=ELGS
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_AUG=8 |draw_AUG=8 |loss_AUG=18|gf_AUG=51|ga_AUG=71<!-- FC Augsburg -->
+|win_BSC=11|draw_BSC=10|loss_BSC=13|gf_BSC=49|ga_BSC=57<!-- Hertha BSC -->
+|win_BRE=14|draw_BRE=11|loss_BRE=9 |gf_BRE=58|ga_BRE=49<!-- Werder Bremen -->
+|win_DOR=23|draw_DOR=7 |loss_DOR=4 |gf_DOR=81|ga_DOR=44<!-- Borussia Dortmund -->
+|win_DÜS=13|draw_DÜS=5 |loss_DÜS=16|gf_DÜS=49|ga_DÜS=65<!-- Fortuna Düsseldorf -->
+|win_FRA=15|draw_FRA=9 |loss_FRA=10|gf_FRA=60|ga_FRA=48<!-- Eintracht Frankfurt -->
+|win_FRE=8 |draw_FRE=12|loss_FRE=14|gf_FRE=46|ga_FRE=61<!-- SC Freiburg -->
+|win_HAN=5 |draw_HAN=6 |loss_HAN=23|gf_HAN=31|ga_HAN=71<!-- Hannover 96 -->
+|win_HOF=13|draw_HOF=12|loss_HOF=9 |gf_HOF=70|ga_HOF=52<!-- 1899 Hoffenheim -->
+|win_LEI=19|draw_LEI=9 |loss_LEI=6 |gf_LEI=63|ga_LEI=29<!-- RB Leipzig -->
+|win_LEV=18|draw_LEV=4 |loss_LEV=12|gf_LEV=69|ga_LEV=52<!-- Bayer Leverkusen -->
+|win_MAI=12|draw_MAI=7 |loss_MAI=15|gf_MAI=46|ga_MAI=57<!-- Mainz 05 -->
+|win_MÖN=16|draw_MÖN=7 |loss_MÖN=11|gf_MÖN=55|ga_MÖN=42<!-- Borussia Mönchengladbach -->
+|win_MUN=24|draw_MUN=6 |loss_MUN=4 |gf_MUN=88|ga_MUN=32<!-- Bayern Munich -->
+|win_NÜR=3 |draw_NÜR=10|loss_NÜR=21|gf_NÜR=26|ga_NÜR=68<!-- 1. FC Nürnberg -->
+|win_SCH=8 |draw_SCH=9 |loss_SCH=17|gf_SCH=37|ga_SCH=55<!-- Schalke 04 -->
+|win_STU=7 |draw_STU=7 |loss_STU=20|gf_STU=32|ga_STU=70<!-- VfB Stuttgart -->
+|win_WOL=16|draw_WOL=7 |loss_WOL=11|gf_WOL=62|ga_WOL=50<!-- VfL Wolfsburg -->
+
+<!--Status-->
+|status_HAN=R
+|status_MUN=C
+|status_NÜR=R
+|status_STU=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_AUG=[[FC Augsburg]]
+|name_BSC=[[Hertha BSC]]
+|name_BRE=[[SV Werder Bremen|Werder Bremen]]
+|name_DOR=[[Borussia Dortmund]]
+|name_DÜS=[[Fortuna Düsseldorf]]
+|name_FRA=[[Eintracht Frankfurt]]
+|name_FRE=[[SC Freiburg]]
+|name_HAN=[[Hannover 96]]
+|name_HOF=[[TSG 1899 Hoffenheim|1899 Hoffenheim]]
+|name_LEI=[[RB Leipzig]]
+|name_LEV=[[Bayer 04 Leverkusen|Bayer Leverkusen]]
+|name_MAI=[[1. FSV Mainz 05|Mainz 05]]
+|name_MÖN=[[Borussia Mönchengladbach]]
+|name_MUN=[[FC Bayern Munich|Bayern Munich]]
+|name_NÜR=[[1. FC Nürnberg]]
+|name_SCH=[[FC Schalke 04|Schalke 04]]
+|name_STU=[[VfB Stuttgart]]
+|name_WOL=[[VfL Wolfsburg]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Head-to-head results; 5) Head-to-head away goals scored; 6) Away goals scored; 7) Play-off<ref>{{cite web |url=http://www.dfb.de/fileadmin/_dfbdam/15_Ligaverband_Ligastatut-3.pdf |archive-url=https://web.archive.org/web/20180401145547/https://www.dfb.de/fileadmin/_dfbdam/15_Ligaverband_Ligastatut-3.pdf|title=Ligaverband: Ligastatut |trans-title=League Association: League Regulations |publisher=[[German Football Association]] (DFB) |format=PDF |page=222 |archive-date=1 April 2018 |url-status=dead}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2019–20 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2019–20 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL2Q=blue2  |text_EL2Q=Qualification for the [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_RPO=red2    |text_RPO=Qualification for the [[2018–19 Bundesliga#Relegation play-offs|relegation play-offs]]
+|col_REL=red1    |text_REL=Relegation to [[2019–20 2. Bundesliga|2. Bundesliga]]
+}}<noinclude>
+{{Template reference list}}
+[[Category:Bundesliga table templates]]
+[[Category:2018–19 association football standings in Europe templates|Germany]]
+</noinclude>

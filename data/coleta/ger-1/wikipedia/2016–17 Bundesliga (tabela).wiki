@@ -1,0 +1,78 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.dfb.de/bundesliga/spieltagtabelle/?spieledb_path=%2Fcompetitions%2F12%2Fseasons%2F17444%2Fmatchday%2F34 DFB]
+
+<!--Update team positions here-->
+|team1=MUN |team2=RBL |team3=DOR |team4=HOF |team5=KÖL |team6=BSC |team7=FRE |team8=BRE |team9=MGL |team10=S04 |team11=FRA |team12=LEV |team13=AUG |team14=HAM |team15=MAI |team16=WOL |team17=ING |team18=DAR
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLPO |result5=ELGS |result6=ELGS |result7=ELQ3
+|result16=RPO |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AUG=9 |draw_AUG=11|loss_AUG=14|gf_AUG=35|ga_AUG=51<!-- FC Augsburg -->
+|win_LEV=11|draw_LEV=8 |loss_LEV=15|gf_LEV=53|ga_LEV=55<!-- Bayer Leverkusen -->
+|win_MUN=25|draw_MUN=7 |loss_MUN=2 |gf_MUN=89|ga_MUN=22<!-- Bayern Munich -->
+|win_DOR=18|draw_DOR=10|loss_DOR=6 |gf_DOR=72|ga_DOR=40<!-- Borussia Dortmund -->
+|win_MGL=12|draw_MGL=9 |loss_MGL=13|gf_MGL=45|ga_MGL=49<!-- Borussia Mönchengladbach -->
+|win_DAR=7 |draw_DAR=4 |loss_DAR=23|gf_DAR=28|ga_DAR=63<!-- Darmstadt 98 -->
+|win_FRA=11|draw_FRA=9 |loss_FRA=14|gf_FRA=36|ga_FRA=43<!-- Eintracht Frankfurt-->
+|win_FRE=14|draw_FRE=6 |loss_FRE=14|gf_FRE=42|ga_FRE=60<!-- SC Freiburg -->
+|win_HAM=10|draw_HAM=8 |loss_HAM=16|gf_HAM=33|ga_HAM=61<!-- Hamburger SV -->
+|win_BSC=15|draw_BSC=4 |loss_BSC=15|gf_BSC=43|ga_BSC=47<!-- Hertha BSC -->
+|win_HOF=16|draw_HOF=14|loss_HOF=4 |gf_HOF=64|ga_HOF=37<!-- TSG Hoffenheim -->
+|win_ING=8 |draw_ING=8 |loss_ING=18|gf_ING=36|ga_ING=57<!-- FC Ingolstadt -->
+|win_KÖL=12|draw_KÖL=13|loss_KÖL=9 |gf_KÖL=51|ga_KÖL=42<!-- 1. FC Köln -->
+|win_MAI=10|draw_MAI=7 |loss_MAI=17|gf_MAI=44|ga_MAI=55<!-- Mainz 05 -->
+|win_RBL=20|draw_RBL=7 |loss_RBL=7 |gf_RBL=66|ga_RBL=39<!-- RB Leipzig -->
+|win_S04=11|draw_S04=10|loss_S04=13|gf_S04=45|ga_S04=40<!-- Schalke 04 -->
+|win_BRE=13|draw_BRE=6 |loss_BRE=15|gf_BRE=61|ga_BRE=64<!-- Werder Bremen -->
+|win_WOL=10|draw_WOL=7 |loss_WOL=17|gf_WOL=34|ga_WOL=52<!-- VfL Wolfsburg -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_AUG=[[FC Augsburg]]
+|name_LEV=[[Bayer 04 Leverkusen|Bayer Leverkusen]]
+|name_MUN=[[FC Bayern Munich|Bayern Munich]]
+|name_DOR=[[Borussia Dortmund]]
+|name_MGL=[[Borussia Mönchengladbach]]
+|name_DAR=[[SV Darmstadt 98|Darmstadt 98]]
+|name_FRA=[[Eintracht Frankfurt]]
+|name_FRE=[[SC Freiburg]]
+|name_HAM=[[Hamburger SV]]
+|name_BSC=[[Hertha BSC]]
+|name_HOF=[[TSG 1899 Hoffenheim|1899 Hoffenheim]]
+|name_ING=[[FC Ingolstadt 04|FC Ingolstadt]]
+|name_KÖL=[[1. FC Köln]]
+|name_MAI=[[1. FSV Mainz 05|Mainz 05]]
+|name_RBL=[[RB Leipzig]]
+|name_S04=[[FC Schalke 04|Schalke 04]]
+|name_BRE=[[SV Werder Bremen|Werder Bremen]]
+|name_WOL=[[VfL Wolfsburg]]
+
+<!--Status-->
+|status_MUN=C
+|status_ING=R
+|status_DAR=R
+|status_WOL=O
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Head-to-head points; 5) Head-to-head goal difference; 6) Head-to-head away goals scored; 7) Away goals scored; 8) Play-off.<ref>{{cite web |url=http://www.dfb.de/fileadmin/_dfbdam/15_Ligaverband_Ligastatut-3.pdf |title=Ligaverband: Ligastatut |trans-title=League Association: League Regulations |website=DFB.de |publisher=[[German Football Association]] |format=PDF |page=214 |access-date=16 August 2016 |language=German}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2017–18 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CLPO=green2 |text_CLPO=Qualification for the [[2017–18 UEFA Champions League#Play-off round|Champions League play-off round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2017–18 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ELQ3=blue2  |text_ELQ3={{nowrap|Qualification for the [[2017–18 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]}}
+|col_RPO=red2    |text_RPO=Qualification for the [[2016–17 Bundesliga#Relegation play-offs|relegation play-offs]]
+|col_REL=red1    |text_REL=Relegation to [[2017–18 2. Bundesliga|2. Bundesliga]]
+
+|note_res_ELGS=Since the winners of the [[2016–17 DFB-Pokal]], Borussia Dortmund, qualified for the Champions League based on league position, the Europa League group stage spot was passed to the sixth-placed team, Hertha BSC; and the Europa League third qualifying round spot was passed to the seventh-placed team, SC Freiburg.
+|note_res_EL3Q=ELGS
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Bundesliga table templates]]
+</noinclude>
