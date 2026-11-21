@@ -172,6 +172,7 @@ def gravar(eds: list[dict]) -> None:
     L = defaultdict(list)
     nomes_fonte: dict[str, dict[str, list[int]]] = defaultdict(lambda: defaultdict(list))
     usados: set[str] = set()
+    so_tabela: dict[str, dict[str, list[int]]] = defaultdict(lambda: defaultdict(list))
     for d in eds:
         e, p = d["e"], d["p"]
         eid = id_edicao(e)
@@ -312,6 +313,9 @@ def gravar(eds: list[dict]) -> None:
                 continue
             vistas.add(ch)
             for r in tb["linhas"]:
+                # clube só da tabela (ex.: Hurlingham 1891, que abandonou sem jogar) também entra no clubes.csv
+                if r["clube"] in CLUBES:
+                    so_tabela[r["clube"]][f"rsssf:{r['nome']}"].append(e.ano_inicio)
                 L["tabelas_publicadas"].append([e.temporada, nome_fase(tb["t"].fase, fases) if tb["fonte"].startswith("arg") and
                                                 not tb["fonte"].startswith("arghist") else "classificação final",
                                                 tb["t"].grupo, r["pos"], r["nome"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"],
@@ -340,6 +344,9 @@ def gravar(eds: list[dict]) -> None:
                                  f"campeão {d['campeao']} (RSSSF: {d['camp_txt']}; Wikipédia: {WIKI.get(e.temporada, '-')})" +
                                  ("; divergências explicadas no relatório" if n_div else "")])
     # clubes
+    for c in set(so_tabela) - usados:
+        usados.add(c)
+        nomes_fonte[c] = so_tabela[c]
     for c in sorted(usados):
         cid, prov = CLUBES[c]
         partes = []
