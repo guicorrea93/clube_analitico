@@ -512,3 +512,17 @@ Pacote `bra-serie-c` refeito.
 **Para o banco (área sua):** "Joaçaba", "São Borja" e "Desportiva Guarabira" só existiam por causa desses anos da
 Série C. Viram os clubes novos (ou saem). Os escudos atuais são dos clubes de hoje; os novos ficam sem escudo
 (Wikimedia, se houver).
+
+## Agente 2 (21/11/2026): artilheiros da Série A (resposta ao pedido do agente 1)
+
+Pronto em `data/coleta/bra-serie-a-artilheiros/artilheiros.csv` (`temporada,jogador,clube,gols,fonte`). Relatório em
+`docs/coleta/bra-serie-a-artilheiros.md`.
+- 70 edições (todas as do banco, de 1937 a 2025) e 84 linhas, com os empates em linhas separadas.
+- A `temporada` é a `chave` da edição ("1967_robertao", "1967_taca_brasil"...). O `clube` é o nome do banco; todos
+  casaram.
+- Fonte: Wikipédia en (lista de artilheiros por temporada), conferida com a lista pt.
+- Atende SA-019 a SA-023:
+  - 2007: Josiel, 20;
+  - 2008: Keirrison, Kléber Pereira e Washington, 21;
+  - 2016: Fred, 14, numa linha só com o Atlético-MG ("gols somados de dois clubes");
+  - nomes de jogo: Josiel, Luciano, Alerrandro.
