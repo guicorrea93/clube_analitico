@@ -7,7 +7,8 @@ returno), com:
   ESPN           2001/02+: hora, estádio, público, gols e cartões com minuto (clubes casados pelo código da ESPN);
   RSSSF          tabela final de todas as temporadas, matriz de resultados até 1999/2000 (conferência jogo a jogo)
                  e artilheiros até 1999/2000;
-  Wikipédia      tabela final de cada temporada (ordem oficial, punições), campeões e Troféu Pichichi.
+  Wikipédia      tabela final de cada temporada (ordem oficial, punições), campeões, artilheiros pela contagem oficial
+                 da liga e Troféu Pichichi (do jornal Marca, só para conferir).
 
 1986/87 teve duas fases: 34 rodadas e depois três grupos de seis (títulos, 7º-12º e rebaixamento), com os pontos
 da 1ª fase somados.
@@ -59,6 +60,29 @@ CORRECOES = {
 }
 
 # explicação de cada divergência que sobra entre fontes (vai para o relatório, antes das ocorrências da temporada)
+# nomes da ESPN com o sobrenome na frente ou partidos em dois (2001/02 a 2008/09; revisão ES-006)
+NOMES_ESPN = {
+    "Kahveci Nihat": "Nihat Kahveci", "Fernando Sanchez Morientes": "Fernando Morientes", "Ismael Aranda Urzaiz": "Ismael Urzaiz",
+    "Mendez Ruben Navarro": "Rubén Navarro", "Mocelin Magno": "Magno Mocelin", "Alsocer Raul Molina": "Raúl Molina",
+    "Bortolini Pimentel Savio": "Sávio", "Fernandez Manuel Gutierrez Victor": "Víctor Fernández", "Víctor -": "Víctor Fernández",
+    "Ballesta Salva": "Salva Ballesta", "Salvador Ballesta Vialcho": "Salva Ballesta",
+}
+
+
+def nome_espn(nome: str | None) -> str | None:
+    return NOMES_ESPN.get(nome, nome)
+
+
+# fora da temporada seguinte sem ter caído: (ano, clube) -> motivo (revisão ES-001)
+NAO_REBAIXADOS = {
+    (1935, "Real Oviedo"): "3º colocado em 1935/36, teve dispensa de 1939/40 por ter o estádio destruído na guerra e voltou em "
+                           "1940/41 (Wikipédia es, 1935-36 e 1939-40)",
+}
+
+LIGUILLA = ("1986/87: com a ampliação para 20 clubes, os três últimos do grupo de rebaixamento jogaram uma liguilla em turno "
+            "único, que mandou um só para a 2ª divisão: Racing 1-1 Cádiz (24/06/1987; Racing 4-3 nos pênaltis), Cádiz 1-1 Osasuna "
+            "(28/06; Cádiz 4-3 nos pênaltis) e Osasuna 2-0 Racing (30/06). Osasuna 3 pontos, Cádiz 2, Racing 1: caiu o Racing "
+            "(cadizcf.com, racinguismo.com, RSSSF)")
 WIKI_TROCADA = ("a tabela da Wikipédia põe os números de um clube na linha de outro (clubes com os mesmos pontos); a da "
                 "RSSSF fecha com os jogos e dá a ordem")
 EXPLICACOES: dict[int, list[str]] = {
@@ -78,7 +102,9 @@ EXPLICACOES: dict[int, list[str]] = {
            "a menos para o Málaga (RSSSF e Wikipédia). Nas tabelas, o W.O. conta a vitória mas não os gols"],
     1980: [WIKI_TROCADA + " (Atlético de Madrid e Valencia)"],
     1986: ["Real Valladolid x Las Palmas (17/12/1986): o ogol traz 0-0; a base, a matriz e a tabela da RSSSF e a da Wikipédia "
-           "fecham com 2-1: erro do ogol"],
+           "fecham com 2-1: erro do ogol",
+           LIGUILLA + ". Esses jogos não contam como Primera División (Wikipédia es), e a classificação oficial continua a do "
+           "grupo de rebaixamento: 16º Osasuna, 17º Racing (rebaixado) e 18º Cádiz (Wikipédia es e RSSSF)"],
     1993: ["Real Madrid x Real Sociedad: o football-data traz 0-1; a base, a matriz da RSSSF e as tabelas fecham com 0-2: "
            "erro do football-data"],
     1999: ["Valencia x Mallorca (20/06/2000): o ogol traz 2-0; a base, o football-data, a matriz da RSSSF e as tabelas "
@@ -607,6 +633,10 @@ def main() -> None:
         else:
             textos = {k[5:]: limpar(v) for k, v in w["params"].items() if k.startswith("text_")}
             rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()}
+        for (ano, c), motivo in NAO_REBAIXADOS.items():
+            if ano == a and c in rebaixados:
+                rebaixados.discard(c)
+                ocorr[a].append(f"{clubes.exibicao(c)} não está na temporada seguinte, mas não caiu: {motivo}")
         campeao, vice = ordem[0], ordem[1]
         if camp_wiki.get(a) and camp_wiki[a] != campeao:
             ocorr[a].append(f"campeão diferente na lista de campeões da Wikipédia: {camp_wiki[a]} (tabela: {campeao})")
@@ -658,7 +688,7 @@ def main() -> None:
                     for l in gl:
                         mi, ac = minuto(l["minuto"])
                         tab["gols"].append({"partida_id": pid, "clube": clubes.exibicao(lado[l["lado"]]),
-                                            "jogador": (l["jogadores"] or [None])[0], "minuto": mi, "acrescimo": ac,
+                                            "jogador": nome_espn((l["jogadores"] or [None])[0]), "minuto": mi, "acrescimo": ac,
                                             "tipo": "contra" if l["contra"] else "penalti" if l["penalti"] else
                                             "falta" if "free-kick" in (l["tipo"] or "").lower() else "normal", "fonte": "ESPN"})
                     autor_ano += len(gl)
@@ -670,7 +700,7 @@ def main() -> None:
                     if (l["amarelo"] or l["vermelho"]) and l["lado"] in lado:
                         mi, ac = minuto(l["minuto"])
                         tab["cartoes"].append({"partida_id": pid, "clube": clubes.exibicao(lado[l["lado"]]),
-                                               "jogador": (l["jogadores"] or [None])[0], "minuto": mi, "acrescimo": ac,
+                                               "jogador": nome_espn((l["jogadores"] or [None])[0]), "minuto": mi, "acrescimo": ac,
                                                "cor": "vermelho" if l["vermelho"] else "amarelo", "fonte": "ESPN"})
             if x and x.get("HS"):
                 def num(k):
@@ -683,7 +713,7 @@ def main() -> None:
 
         # ---- classificação rodada a rodada
         if not sem_rodada:
-            n_reb = len(rebaixados)
+            pos_reb = {p for p, c in enumerate(ordem, 1) if c in rebaixados}   # faixa: as posições finais de quem caiu
             for r in sorted({j["rodada"] for j in jogos}):
                 ate = [j for j in jogos if j["rodada"] <= r]
                 parcial = calcular(ate, pv)
@@ -700,7 +730,7 @@ def main() -> None:
                     tab["classificacao_rodada"].append({
                         "temporada": T, "rodada": r, "clube": clubes.exibicao(c), "posicao": pos, "pontos": p + ajuste.get(c, 0),
                         "jogos": jj, "vitorias": v_, "empates": e_, "derrotas": d_, "gols_pro": gp, "gols_contra": gc,
-                        "zona": "titulo" if pos == 1 else "rebaixamento" if pos > n - n_reb else "meio"})
+                        "zona": "titulo" if pos == 1 else "rebaixamento" if pos in pos_reb else "meio"})
 
         fontes_ed = ["engsoccerdata", "ogol"] + (["football-data"] if a in fd else []) \
             + (["ESPN"] if a in espn else []) + ["RSSSF"] + (["Wikipédia"] if w else [])
@@ -710,7 +740,9 @@ def main() -> None:
                                "formato": "pontos corridos (turno e returno)" if a != FASE2 else
                                "pontos corridos (34 rodadas) e fase final em três grupos de seis, com os pontos somados",
                                "campeao": clubes.exibicao(campeao), "vice": clubes.exibicao(vice),
-                               "fontes": " + ".join(fontes_ed), "observacao": f"punições: {pun}" if pun else None})
+                               "fontes": " + ".join(fontes_ed),
+                               "observacao": "; ".join(x for x in (f"punições: {pun}" if pun else "",
+                                                                    LIGUILLA[9:] if a == FASE2 else "") if x) or None})
         crit_txt = {"confronto": "pontos, confronto direto, saldo de gols, gols pró", "saldo": "pontos, saldo de gols, gols pró",
                     "media": "pontos, média de gols (goal average)"}[criterio]
         tab["fases"].append({"temporada": T, "ordem": 1, "fase": "Liga", "tipo": "liga", "num_grupos": None,
@@ -744,8 +776,57 @@ def main() -> None:
 
 
 def artilheiros(rs_cache: dict, ocorr) -> list[dict]:
-    """Troféu Pichichi (Wikipédia, "Pichichi Trophy": o artilheiro pela contagem do jornal Marca), conferido com o 1º da
-    lista de artilheiros da RSSSF (até 1999/2000). Empate: várias linhas na mesma temporada."""
+    """Artilheiro(s) de cada temporada pela contagem oficial da liga (súmulas dos delegados da LFP; Wikipédia, "List of
+    La Liga top scorers", seção "Top scorers by season"). O Troféu Pichichi é do jornal Marca, que tem regras próprias, e
+    a liga não o reconhece: quando ele difere, fica anotado na `fonte`. Conferido também com o 1º da RSSSF (até 1999/2000).
+    Empate: várias linhas na mesma temporada."""
+    txt = (DADOS / "wikipedia" / "List of La Liga top scorers.wiki").read_text(encoding="utf-8")
+    txt = txt[txt.index("==Top scorers by season=="):]
+    txt = txt[txt.index('{| class="wikitable sortable"'):]
+    txt = txt[:txt.index("\n|}")]
+    res, ano = [], None
+    for bloco in txt.split("\n|-")[1:]:
+        cel = [c.strip() for c in re.findall(r"^\|(?!-)(.*)$", bloco, re.M)]
+        cab = re.search(r"\[\[(\d{4})(?:[–-]\d{2,4})? La Liga", cel[0]) if cel else None
+        if cab:   # "[[1929 La Liga|1929]]" é 1928/29
+            ano = int(cab.group(1)) - (1 if cab.group(1) == "1929" and "1929–" not in cel[0] else 0)
+            cel = cel[1:]
+        if ano not in TEMPORADAS or len(cel) < 3:
+            continue
+        # atributos de célula ("bgcolor=#FFD700|", "bgcolor=mistyrose| '''50'''") saem
+        cel = [re.sub(r"^\s*(?:(?:bgcolor|style|align|rowspan|valign)\s*=[^|]*\|)+", "", c).strip(" '") for c in cel]
+        sn = re.search(r"\{\{sortname\|([^|}]*)\|([^|}]*)", cel[0])
+        jogador = f"{sn.group(1)} {sn.group(2)}".strip() if sn else (links(cel[0]) or [limpar(cel[0])])[0]
+        c = clube_link(cel[1], ano)
+        gols = int(re.match(r"\d+", cel[2]).group())
+        res.append({"temporada": temporada(ano), "jogador": jogador, "clube": clubes.exibicao(c) if c else None, "gols": gols,
+                    "fonte": "LaLiga, contagem oficial das súmulas (Wikipédia, List of La Liga top scorers)"})
+        if c is None:
+            ocorr[ano].append(f"artilheiro com clube sem cadastro: {jogador} ({cel[1]})")
+    pich = defaultdict(list)
+    for x in pichichi(ocorr):
+        pich[int(x["temporada"][:4])].append(x)
+    por_ano = defaultdict(list)
+    for x in res:
+        por_ano[int(x["temporada"][:4])].append(x)
+    for a in TEMPORADAS:
+        if a not in por_ano:
+            ocorr[a].append("artilheiro: a lista oficial da Wikipédia não traz esta temporada")
+            continue
+        p = pich.get(a, [])
+        if p and (len(p) != len(por_ano[a]) or p[0]["gols"] != por_ano[a][0]["gols"]):
+            txt_p = f"{', '.join(x['jogador'] for x in p)} com {p[0]['gols']} gols"
+            ocorr[a].append(f"artilheiro: contagem oficial da liga {', '.join(x['jogador'] for x in por_ano[a])} com "
+                            f"{por_ano[a][0]['gols']} gols; o Pichichi (Marca) deu {txt_p}. Fica a contagem oficial")
+            for x in por_ano[a]:
+                x["fonte"] += f"; Pichichi (Marca): {txt_p}"
+    conferir_artilheiros_rsssf(res, pich, rs_cache, ocorr)
+    return res
+
+
+def pichichi(ocorr) -> list[dict]:
+    """Troféu Pichichi (Wikipédia, "Pichichi Trophy": o artilheiro pela contagem do jornal Marca). Empate: várias linhas na
+    mesma temporada."""
     txt = (DADOS / "wikipedia" / "Pichichi Trophy.wiki").read_text(encoding="utf-8")
     txt = txt[txt.index('{| class="wikitable sortable"'):]
     txt = txt[:txt.index("\n|}")]
@@ -764,26 +845,28 @@ def artilheiros(rs_cache: dict, ocorr) -> list[dict]:
         res.append({"temporada": temporada(ano), "jogador": jogador, "clube": clubes.exibicao(c) if c else None, "gols": gols,
                     "fonte": "Wikipédia (Pichichi Trophy)"})
         if c is None:
-            ocorr[ano].append(f"artilheiro com clube sem cadastro: {jogador} ({cel[1]})")
-    # conferência com a RSSSF (1º da lista de artilheiros, até 1999/2000)
+            ocorr[ano].append(f"artilheiro (Pichichi) com clube sem cadastro: {jogador} ({cel[1]})")
+    return res
+
+
+def conferir_artilheiros_rsssf(res: list[dict], pich: dict, rs_cache: dict, ocorr) -> None:
+    """1º da lista de artilheiros da RSSSF (até 1999/2000): anotado quando difere da contagem oficial e do Pichichi."""
     por_ano = defaultdict(list)
     for x in res:
         por_ano[int(x["temporada"][:4])].append(x)
     for a in TEMPORADAS:
-        if a > 1999:
+        if a > 1999 or a not in por_ano:
             continue
         rs = rs_cache.get(rsssf_url(a).rsplit("/", 1)[1], {}).get(a)
         top = (rs or {}).get("artilheiros") or []
-        if not top or a not in por_ano:
-            ocorr[a].append("artilheiro: sem a lista da RSSSF para conferir" if a in por_ano else "artilheiro: sem o Pichichi")
+        if not top:
+            ocorr[a].append("artilheiro: sem a lista da RSSSF para conferir")
             continue
         g = top[0]["gols"]
         lideres = [t for t in top if t["gols"] == g]
-        pich = por_ano[a]
-        if g != pich[0]["gols"] or len(lideres) != len(pich):
-            ocorr[a].append(f"artilheiro: Pichichi {', '.join(p['jogador'] for p in pich)} ({pich[0]['gols']} gols); RSSSF "
-                            f"{', '.join(t['jogador'] for t in lideres)} ({g} gols). Fica o Pichichi (contagem do Marca)")
-    return res
+        if (g, len(lideres)) not in {(por_ano[a][0]["gols"], len(por_ano[a])),
+                                     (pich[a][0]["gols"], len(pich[a])) if pich.get(a) else None}:
+            ocorr[a].append(f"artilheiro: a RSSSF dá {', '.join(t['jogador'] for t in lideres)} com {g} gols")
 
 
 def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
@@ -804,7 +887,9 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         "- ESPN (liga `esp.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;",
         "- RSSSF (José Vicente Tejedor Carnicero e outros): tabela final de todas as temporadas e matriz de resultados até "
         "1999/2000 (conferência jogo a jogo); artilheiros até 1999/2000;",
-        "- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e Troféu Pichichi.", "",
+        "- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões, artilheiros pela contagem "
+        "oficial da liga (súmulas da LFP; \"List of La Liga top scorers\") e Troféu Pichichi (do jornal Marca, que a liga não "
+        "reconhece; anotado quando difere).", "",
         "**Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols "
         "pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando "
         "a soma bate com o placar. Hora local (Madri; Canárias nos jogos em casa do Las Palmas e do Tenerife). Rebaixado = clube "

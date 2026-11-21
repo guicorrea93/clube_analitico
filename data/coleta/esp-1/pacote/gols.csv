@@ -3,7 +3,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0002,Celta,Henrique Catanha,30,,normal,ESPN
 2001-0002,Celta,Sergio,55,,normal,ESPN
 2001-0002,Celta,Jesuli,71,,normal,ESPN
-2001-0003,Alavés,Mendez Ruben Navarro,39,,normal,ESPN
+2001-0003,Alavés,Rubén Navarro,39,,normal,ESPN
 2001-0003,Alavés,Martin Astudillo,83,,normal,ESPN
 2001-0004,Deportivo La Coruña,Sanchez Victor,45,,normal,ESPN
 2001-0004,Deportivo La Coruña,Juan Carlos Valerón,62,,normal,ESPN
@@ -23,10 +23,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0008,Villarreal,Jorge López,17,,normal,ESPN
 2001-0008,Villarreal,Gheorghe Craioveanu,38,,normal,ESPN
 2001-0008,Rayo Vallecano,Moises Arteaga,43,,normal,ESPN
-2001-0009,Athletic Bilbao,Ismael Aranda Urzaiz,15,,normal,ESPN
+2001-0009,Athletic Bilbao,Ismael Urzaiz,15,,normal,ESPN
 2001-0009,Real Sociedad,Dmitri Khokhlov,18,,normal,ESPN
 2001-0009,Athletic Bilbao,Tiko,75,,normal,ESPN
-2001-0009,Athletic Bilbao,Ismael Aranda Urzaiz,81,,normal,ESPN
+2001-0009,Athletic Bilbao,Ismael Urzaiz,81,,normal,ESPN
 2001-0010,Barcelona,Patrick Kluivert,41,,normal,ESPN
 2001-0010,Sevilla,Andrés Olivera,48,,penalti,ESPN
 2001-0010,Barcelona,Patrick Kluivert,75,,normal,ESPN
@@ -34,10 +34,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0012,Real Madrid,Julio Dely Valdes,14,,contra,ESPN
 2001-0012,Málaga,Duran Fernando Sanz,75,,normal,ESPN
 2001-0013,Deportivo La Coruña,Gonzalez Fran,88,,normal,ESPN
-2001-0014,Villarreal,Fernandez Manuel Gutierrez Victor,5,,penalti,ESPN
+2001-0014,Villarreal,Víctor Fernández,5,,penalti,ESPN
 2001-0014,Villarreal,Jorge López,51,,normal,ESPN
 2001-0014,Villarreal,Martín Palermo,90,,normal,ESPN
-2001-0015,Alavés,Mocelin Magno,31,,normal,ESPN
+2001-0015,Alavés,Magno Mocelin,31,,normal,ESPN
 2001-0015,Alavés,Bellvís,79,,penalti,ESPN
 2001-0016,Celta,Henrique Catanha,32,,penalti,ESPN
 2001-0016,Celta,Alexandr Mostovoi,37,,normal,ESPN
@@ -47,11 +47,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0018,Betis,Joaquín,10,,normal,ESPN
 2001-0018,Betis,Gaston Angel Jorge Casas,24,,penalti,ESPN
 2001-0019,Valladolid,Jose Caminero,30,,normal,ESPN
-2001-0019,Valencia,Ballesta Salva,88,,normal,ESPN
+2001-0019,Valencia,Salva Ballesta,88,,normal,ESPN
 2001-0020,Zaragoza,Jose Esquerdinha,61,,normal,ESPN
 2001-0020,Sevilla,Moisés Xavier García,80,,normal,ESPN
 2001-0022,Athletic Bilbao,Julen Guerrero,35,,normal,ESPN
-2001-0022,Athletic Bilbao,Ismael Aranda Urzaiz,52,,normal,ESPN
+2001-0022,Athletic Bilbao,Ismael Urzaiz,52,,normal,ESPN
 2001-0022,Deportivo La Coruña,Diego Tristán,61,,normal,ESPN
 2001-0024,Betis,Gaston Angel Jorge Casas,12,,normal,ESPN
 2001-0024,Real Madrid,Zinedine Zidane,13,,normal,ESPN
@@ -136,7 +136,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0058,Real Madrid,Zinedine Zidane,41,,normal,ESPN
 2001-0058,Las Palmas,Rubén Castro,74,,normal,ESPN
 2001-0058,Las Palmas,Rubén Castro,90,,normal,ESPN
-2001-0059,Villarreal,Fernandez Manuel Gutierrez Victor,3,,normal,ESPN
+2001-0059,Villarreal,Víctor Fernández,3,,normal,ESPN
 2001-0059,Deportivo La Coruña,Gama Donato,65,,normal,ESPN
 2001-0060,Valencia,Juan Sanchez,6,,normal,ESPN
 2001-0060,Celta,Florian Maurice,48,,normal,ESPN
@@ -172,7 +172,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0073,Sevilla,Andrés Olivera,32,,penalti,ESPN
 2001-0074,Valladolid,Jorge Tote,36,,normal,ESPN
 2001-0074,Valladolid,Jorge Tote,43,,normal,ESPN
-2001-0074,Athletic Bilbao,Ismael Aranda Urzaiz,55,,normal,ESPN
+2001-0074,Athletic Bilbao,Ismael Urzaiz,55,,normal,ESPN
 2001-0074,Valladolid,Cuauhtemoc Blanco,70,,normal,ESPN
 2001-0074,Valladolid,Jorge Tote,76,,normal,ESPN
 2001-0075,Tenerife,Ariel Pablo Paz,67,,normal,ESPN
@@ -196,7 +196,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0088,Celta,Henrique Catanha,8,,normal,ESPN
 2001-0088,Real Madrid,Gutí,25,,normal,ESPN
 2001-0089,Alavés,Fabricio Coloccini,19,,normal,ESPN
-2001-0089,Alavés,Mendez Ruben Navarro,21,,normal,ESPN
+2001-0089,Alavés,Rubén Navarro,21,,normal,ESPN
 2001-0089,Alavés,Fabricio Coloccini,49,,normal,ESPN
 2001-0089,Valladolid,Sanz Luis Garcia,56,,penalti,ESPN
 2001-0090,Valencia,Kily Gonzalez,29,,normal,ESPN
@@ -212,7 +212,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0094,Rayo Vallecano,Elvir Bolic,48,,normal,ESPN
 2001-0094,Deportivo La Coruña,Walter Pandiani,65,,normal,ESPN
 2001-0094,Rayo Vallecano,de Jesus Glaucio,71,,normal,ESPN
-2001-0095,Villarreal,Fernandez Manuel Gutierrez Victor,30,,normal,ESPN
+2001-0095,Villarreal,Víctor Fernández,30,,normal,ESPN
 2001-0095,Real Madrid,Luis Figo,63,,penalti,ESPN
 2001-0095,Villarreal,Javier Calleja,66,,normal,ESPN
 2001-0095,Real Madrid,Pedro Munitis,83,,normal,ESPN
@@ -227,8 +227,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0100,Valencia,David Albelda,19,,normal,ESPN
 2001-0100,Sevilla,Moisés Xavier García,46,,normal,ESPN
 2001-0101,Athletic Bilbao,Tiko,16,,normal,ESPN
-2001-0101,Athletic Bilbao,Ismael Aranda Urzaiz,22,,normal,ESPN
-2001-0101,Alavés,Mocelin Magno,57,,normal,ESPN
+2001-0101,Athletic Bilbao,Ismael Urzaiz,22,,normal,ESPN
+2001-0101,Alavés,Magno Mocelin,57,,normal,ESPN
 2001-0102,Osasuna,John Aloisi,8,,normal,ESPN
 2001-0102,Deportivo La Coruña,Diego Tristán,18,,normal,ESPN
 2001-0102,Deportivo La Coruña,Diego Tristán,26,,normal,ESPN
@@ -245,7 +245,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0105,Mallorca,Samuel Eto'o,34,,penalti,ESPN
 2001-0105,Mallorca,Sarasols Miguel Soler,90,,normal,ESPN
 2001-0106,Zaragoza,Xavier Aguado,60,,normal,ESPN
-2001-0107,Real Madrid,Fernando Sanchez Morientes,24,,normal,ESPN
+2001-0107,Real Madrid,Fernando Morientes,24,,normal,ESPN
 2001-0107,Real Madrid,Luis Figo,89,,normal,ESPN
 2001-0108,Valladolid,Jorge Tote,19,,normal,ESPN
 2001-0109,Las Palmas,Gabriel Schurrer,1,,normal,ESPN
@@ -254,7 +254,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0109,Las Palmas,Rubén Castro,38,,normal,ESPN
 2001-0109,Celta,Alexandr Mostovoi,59,,penalti,ESPN
 2001-0109,Las Palmas,Rubén Castro,90,,normal,ESPN
-2001-0110,Valencia,Ballesta Salva,23,,normal,ESPN
+2001-0110,Valencia,Salva Ballesta,23,,normal,ESPN
 2001-0110,Rayo Vallecano,Roberto Peragon,39,,penalti,ESPN
 2001-0110,Valencia,Juan Sanchez,88,,normal,ESPN
 2001-0113,Espanyol,Tamudo,21,,penalti,ESPN
@@ -288,8 +288,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0121,Deportivo La Coruña,Roy Makaay,35,,normal,ESPN
 2001-0121,Deportivo La Coruña,Roy Makaay,57,,normal,ESPN
 2001-0121,Deportivo La Coruña,Roy Makaay,74,,normal,ESPN
-2001-0122,Real Madrid,Fernando Sanchez Morientes,41,,normal,ESPN
-2001-0122,Real Madrid,Fernando Sanchez Morientes,53,,normal,ESPN
+2001-0122,Real Madrid,Fernando Morientes,41,,normal,ESPN
+2001-0122,Real Madrid,Fernando Morientes,53,,normal,ESPN
 2001-0122,Sevilla,Moisés Xavier García,75,,normal,ESPN
 2001-0125,Alavés,Gomez Pablo,6,,normal,ESPN
 2001-0126,Espanyol,Sanchez Alex Fernandez,21,,normal,ESPN
@@ -302,7 +302,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0128,Betis,Gabriel Amato,59,,penalti,ESPN
 2001-0129,Valladolid,Cuauhtemoc Blanco,21,,penalti,ESPN
 2001-0129,Valladolid,Fernando Fernandez,70,,normal,ESPN
-2001-0131,Athletic Bilbao,Ismael Aranda Urzaiz,10,,normal,ESPN
+2001-0131,Athletic Bilbao,Ismael Urzaiz,10,,normal,ESPN
 2001-0131,Barcelona,Rivaldo,58,,normal,ESPN
 2001-0131,Athletic Bilbao,Santiago Ezquerro,80,,normal,ESPN
 2001-0132,Betis,Mariano Armentano,55,,contra,ESPN
@@ -320,8 +320,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0135,Mallorca,Veljko Paunovic,51,,normal,ESPN
 2001-0135,Mallorca,Alejandro Campano,79,,normal,ESPN
 2001-0136,Real Madrid,Raúl,1,,normal,ESPN
-2001-0136,Real Madrid,Fernando Sanchez Morientes,27,,normal,ESPN
-2001-0136,Real Madrid,Fernando Sanchez Morientes,68,,normal,ESPN
+2001-0136,Real Madrid,Fernando Morientes,27,,normal,ESPN
+2001-0136,Real Madrid,Fernando Morientes,68,,normal,ESPN
 2001-0137,Real Sociedad,Edgaras Jankauskas,37,,normal,ESPN
 2001-0137,Real Sociedad,Edgaras Jankauskas,65,,penalti,ESPN
 2001-0138,Zaragoza,Yordi,12,,normal,ESPN
@@ -331,17 +331,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0139,Sevilla,José Antonio Reyes,54,,normal,ESPN
 2001-0139,Sevilla,Francisco Casquero,69,,normal,ESPN
 2001-0139,Sevilla,Francisco Casquero,80,,normal,ESPN
-2001-0140,Villarreal,Fernandez Manuel Gutierrez Victor,38,,normal,ESPN
+2001-0140,Villarreal,Víctor Fernández,38,,normal,ESPN
 2001-0141,Alavés,Bellvís,22,,penalti,ESPN
 2001-0141,Alavés,Zubiaurre Ibon Begona,62,,normal,ESPN
 2001-0142,Espanyol,Tamudo,49,,normal,ESPN
-2001-0143,Real Madrid,Fernando Sanchez Morientes,12,,normal,ESPN
+2001-0143,Real Madrid,Fernando Morientes,12,,normal,ESPN
 2001-0143,Real Madrid,Raúl,15,,normal,ESPN
 2001-0143,Osasuna,John Aloisi,84,,normal,ESPN
 2001-0144,Mallorca,Albert Luque,12,,normal,ESPN
 2001-0144,Valencia,Mista,80,,normal,ESPN
-2001-0145,Athletic Bilbao,Ismael Aranda Urzaiz,4,,normal,ESPN
-2001-0145,Athletic Bilbao,Ismael Aranda Urzaiz,60,,normal,ESPN
+2001-0145,Athletic Bilbao,Ismael Urzaiz,4,,normal,ESPN
+2001-0145,Athletic Bilbao,Ismael Urzaiz,60,,normal,ESPN
 2001-0145,Zaragoza,Yordi,70,,normal,ESPN
 2001-0146,Celta,Jesuli,7,,normal,ESPN
 2001-0146,Celta,Edu,49,,normal,ESPN
@@ -359,7 +359,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0152,Sevilla,Moisés Xavier García,49,,normal,ESPN
 2001-0152,Athletic Bilbao,Joseba Etxeberría,54,,normal,ESPN
 2001-0152,Sevilla,José Antonio Reyes,56,,normal,ESPN
-2001-0152,Athletic Bilbao,Ismael Aranda Urzaiz,66,,normal,ESPN
+2001-0152,Athletic Bilbao,Ismael Urzaiz,66,,normal,ESPN
 2001-0152,Sevilla,José Antonio Reyes,70,,normal,ESPN
 2001-0152,Athletic Bilbao,Santiago Ezquerro,90,,normal,ESPN
 2001-0153,Osasuna,Mariano Armentano,83,,normal,ESPN
@@ -370,8 +370,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0155,Celta,Edu,84,,normal,ESPN
 2001-0156,Málaga,Alvaro Novo,30,,contra,ESPN
 2001-0156,Mallorca,Miguel Angel Nadal,33,,normal,ESPN
-2001-0159,Alavés,Mendez Ruben Navarro,33,,normal,ESPN
-2001-0159,Alavés,Mendez Ruben Navarro,47,,normal,ESPN
+2001-0159,Alavés,Rubén Navarro,33,,normal,ESPN
+2001-0159,Alavés,Rubén Navarro,47,,normal,ESPN
 2001-0160,Espanyol,Tamudo,3,,normal,ESPN
 2001-0160,Villarreal,Javier Calleja,24,,normal,ESPN
 2001-0161,Espanyol,Juan Francisco Palencia,25,,normal,ESPN
@@ -386,7 +386,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0163,Osasuna,Mariano Armentano,27,,normal,ESPN
 2001-0163,Las Palmas,Rubén Castro,86,,normal,ESPN
 2001-0164,Rayo Vallecano,Sanchez Michel,72,,normal,ESPN
-2001-0164,Athletic Bilbao,Ismael Aranda Urzaiz,79,,normal,ESPN
+2001-0164,Athletic Bilbao,Ismael Urzaiz,79,,normal,ESPN
 2001-0165,Sevilla,Francisco Casquero,84,,normal,ESPN
 2001-0166,Celta,Henrique Catanha,5,,normal,ESPN
 2001-0166,Celta,Gustavo Lopez,76,,normal,ESPN
@@ -417,14 +417,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0178,Mallorca,Albert Luque,69,,normal,ESPN
 2001-0179,Zaragoza,Carlos Chainho,22,,normal,ESPN
 2001-0179,Zaragoza,Martin Vellisca,28,,normal,ESPN
-2001-0179,Villarreal,Fernandez Manuel Gutierrez Victor,54,,normal,ESPN
+2001-0179,Villarreal,Víctor Fernández,54,,normal,ESPN
 2001-0179,Villarreal,Jorge López,70,,normal,ESPN
 2001-0179,Zaragoza,Roberto Acuña,80,,penalti,ESPN
 2001-0180,Rayo Vallecano,Juan Antonio Bolo,37,,normal,ESPN
 2001-0180,Celta,Henrique Catanha,53,,normal,ESPN
 2001-0180,Celta,Edu,68,,normal,ESPN
 2001-0180,Rayo Vallecano,Elvir Bolic,90,,normal,ESPN
-2001-0181,Real Madrid,Fernando Sanchez Morientes,6,,normal,ESPN
+2001-0181,Real Madrid,Fernando Morientes,6,,normal,ESPN
 2001-0181,Deportivo La Coruña,Roy Makaay,6,,penalti,ESPN
 2001-0181,Real Madrid,Zinedine Zidane,8,,normal,ESPN
 2001-0181,Real Madrid,Raúl,63,,normal,ESPN
@@ -439,7 +439,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0186,Barcelona,Javier Saviola,54,,normal,ESPN
 2001-0187,Málaga,Sergio Barbosa Duda,33,,normal,ESPN
 2001-0187,Málaga,Dario Silva,84,,penalti,ESPN
-2001-0188,Valencia,Ballesta Salva,8,,normal,ESPN
+2001-0188,Valencia,Salva Ballesta,8,,normal,ESPN
 2001-0188,Valencia,Adrian Ilie,16,,normal,ESPN
 2001-0188,Betis,Capi,43,,normal,ESPN
 2001-0188,Valencia,Rubén Baraja,79,,penalti,ESPN
@@ -449,9 +449,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0190,Athletic Bilbao,Tiko,39,,normal,ESPN
 2001-0190,Real Sociedad,Javier De Pedro,45,,normal,ESPN
 2001-0190,Athletic Bilbao,Tiko,59,,normal,ESPN
-2001-0191,Villarreal,Fernandez Manuel Gutierrez Victor,64,,penalti,ESPN
+2001-0191,Villarreal,Víctor Fernández,64,,penalti,ESPN
 2001-0191,Rayo Vallecano,Jose Maria Quevedo,90,,normal,ESPN
-2001-0192,Alavés,Mocelin Magno,11,,normal,ESPN
+2001-0192,Alavés,Magno Mocelin,11,,normal,ESPN
 2001-0193,Celta,Rogerio Vagner,24,,normal,ESPN
 2001-0193,Osasuna,Cesar Cruchaga,63,,normal,ESPN
 2001-0194,Sevilla,Alberto Tomas,4,,normal,ESPN
@@ -460,7 +460,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0194,Barcelona,Rivaldo,60,,normal,ESPN
 2001-0195,Betis,Juanito,46,,normal,ESPN
 2001-0195,Málaga,Carlos Litos,66,,normal,ESPN
-2001-0196,Real Madrid,Fernando Sanchez Morientes,70,,normal,ESPN
+2001-0196,Real Madrid,Fernando Morientes,70,,normal,ESPN
 2001-0197,Valladolid,Alberto Marcos,30,,normal,ESPN
 2001-0197,Valladolid,Fernando Fernandez,31,,normal,ESPN
 2001-0197,Valladolid,Fernando Fernandez,56,,normal,ESPN
@@ -469,10 +469,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0199,Las Palmas,Gabriel Schurrer,90,,normal,ESPN
 2001-0199,Las Palmas,Ignacio Nacho Gonzalez,90,,penalti,ESPN
 2001-0200,Málaga,Julio Dely Valdes,25,,normal,ESPN
-2001-0200,Real Madrid,Fernando Sanchez Morientes,68,,normal,ESPN
+2001-0200,Real Madrid,Fernando Morientes,68,,normal,ESPN
 2001-0201,Real Sociedad,Darko Kovacevic,7,,normal,ESPN
 2001-0201,Alavés,Jordi Cruyff,78,,normal,ESPN
-2001-0201,Alavés,Mocelin Magno,86,,normal,ESPN
+2001-0201,Alavés,Magno Mocelin,86,,normal,ESPN
 2001-0202,Osasuna,John Aloisi,2,,normal,ESPN
 2001-0202,Villarreal,Antonio Guayre,24,,normal,ESPN
 2001-0202,Osasuna,Francisco Jusue,43,,normal,ESPN
@@ -565,13 +565,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0235,Espanyol,Antonio Pacheco,55,,normal,ESPN
 2001-0235,Espanyol,Boniek García,90,,normal,ESPN
 2001-0236,Valladolid,Fernando Fernandez,59,,normal,ESPN
-2001-0236,Real Madrid,Fernando Sanchez Morientes,72,,normal,ESPN
+2001-0236,Real Madrid,Fernando Morientes,72,,normal,ESPN
 2001-0236,Valladolid,Jesús Sánchez,88,,normal,ESPN
 2001-0237,Tenerife,Cadavieco Ivan Ania,39,,normal,ESPN
 2001-0237,Zaragoza,Luciano Galletti,78,,normal,ESPN
 2001-0240,Villarreal,Jorge López,28,,normal,ESPN
 2001-0240,Mallorca,Roberto Losada,68,,normal,ESPN
-2001-0240,Villarreal,Fernandez Manuel Gutierrez Victor,71,,normal,ESPN
+2001-0240,Villarreal,Víctor Fernández,71,,normal,ESPN
 2001-0243,Osasuna,Sanchez Sabino,65,,normal,ESPN
 2001-0244,Sevilla,Moisés Xavier García,14,,penalti,ESPN
 2001-0244,Tenerife,Jordi Figueras Montel,90,,normal,ESPN
@@ -579,20 +579,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0247,Málaga,Julio Dely Valdes,90,,normal,ESPN
 2001-0248,Athletic Bilbao,Francisco Javier Yeste,3,,normal,ESPN
 2001-0248,Betis,Dani,20,,normal,ESPN
-2001-0249,Real Madrid,Fernando Sanchez Morientes,20,,normal,ESPN
+2001-0249,Real Madrid,Fernando Morientes,20,,normal,ESPN
 2001-0249,Real Madrid,Zinedine Zidane,33,,normal,ESPN
-2001-0249,Real Madrid,Fernando Sanchez Morientes,35,,normal,ESPN
-2001-0249,Real Madrid,Fernando Sanchez Morientes,52,,normal,ESPN
+2001-0249,Real Madrid,Fernando Morientes,35,,normal,ESPN
+2001-0249,Real Madrid,Fernando Morientes,52,,normal,ESPN
 2001-0249,Real Madrid,Armas Angel Sanchez,71,,contra,ESPN
-2001-0249,Real Madrid,Fernando Sanchez Morientes,72,,normal,ESPN
-2001-0249,Real Madrid,Fernando Sanchez Morientes,78,,normal,ESPN
+2001-0249,Real Madrid,Fernando Morientes,72,,normal,ESPN
+2001-0249,Real Madrid,Fernando Morientes,78,,normal,ESPN
 2001-0250,Real Sociedad,Darko Kovacevic,1,,normal,ESPN
 2001-0250,Real Sociedad,Javier De Pedro,44,,normal,ESPN
 2001-0250,Zaragoza,Savo Milosevic,55,,normal,ESPN
 2001-0250,Real Sociedad,Oscar De Paula,83,,normal,ESPN
 2001-0251,Athletic Bilbao,Tiko,29,,normal,ESPN
 2001-0251,Athletic Bilbao,Asier Del Horno,45,,normal,ESPN
-2001-0251,Real Madrid,Fernando Sanchez Morientes,54,,normal,ESPN
+2001-0251,Real Madrid,Fernando Morientes,54,,normal,ESPN
 2001-0252,Deportivo La Coruña,Diego Tristán,9,,normal,ESPN
 2001-0252,Barcelona,Luis Martínez,15,,normal,ESPN
 2001-0252,Deportivo La Coruña,Sergio González Soriano,67,,normal,ESPN
@@ -636,7 +636,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0268,Betis,Antonio Ito,53,,normal,ESPN
 2001-0268,Celta,Edu,66,,normal,ESPN
 2001-0268,Betis,Gabriel Amato,89,,penalti,ESPN
-2001-0269,Real Sociedad,Kahveci Nihat,3,,normal,ESPN
+2001-0269,Real Sociedad,Nihat Kahveci,3,,normal,ESPN
 2001-0269,Real Sociedad,Da Silva Luiz Alberto,48,,normal,ESPN
 2001-0269,Rayo Vallecano,Iniesta Pablo Sanz,60,,normal,ESPN
 2001-0269,Rayo Vallecano,Juan Antonio Bolo,70,,normal,ESPN
@@ -653,7 +653,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0275,Osasuna,Sanchez Fernando,51,,normal,ESPN
 2001-0275,Real Sociedad,Da Silva Luiz Alberto,71,,normal,ESPN
 2001-0276,Valladolid,Fernando Fernandez,8,,normal,ESPN
-2001-0276,Alavés,Mocelin Magno,38,,normal,ESPN
+2001-0276,Alavés,Magno Mocelin,38,,normal,ESPN
 2001-0276,Alavés,Delfi Geli,54,,normal,ESPN
 2001-0276,Alavés,Delfi Geli,65,,normal,ESPN
 2001-0277,Tenerife,Esteban Fuertes,2,,normal,ESPN
@@ -708,7 +708,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0293,Alavés,Jordi Cruyff,4,,normal,ESPN
 2001-0293,Alavés,Jordi Cruyff,12,,normal,ESPN
 2001-0293,Athletic Bilbao,Tiko,43,,normal,ESPN
-2001-0293,Athletic Bilbao,Ismael Aranda Urzaiz,45,,normal,ESPN
+2001-0293,Athletic Bilbao,Ismael Urzaiz,45,,normal,ESPN
 2001-0293,Athletic Bilbao,Aitor Larrazabal,73,,penalti,ESPN
 2001-0295,Celta,Henrique Catanha,21,,normal,ESPN
 2001-0295,Celta,Alexandr Mostovoi,37,,normal,ESPN
@@ -727,14 +727,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0300,Valladolid,Sanz Luis Garcia,14,,normal,ESPN
 2001-0300,Villarreal,Javier Calleja,81,,normal,ESPN
 2001-0300,Villarreal,Rodolfo Arruabarrena,86,,normal,ESPN
-2001-0303,Villarreal,Fernandez Manuel Gutierrez Victor,2,,penalti,ESPN
+2001-0303,Villarreal,Víctor Fernández,2,,penalti,ESPN
 2001-0303,Las Palmas,Larena Jorge,31,,penalti,ESPN
 2001-0303,Las Palmas,Vincent Samways,32,,normal,ESPN
 2001-0303,Villarreal,Vergara Unai,36,,normal,ESPN
 2001-0303,Las Palmas,Pablo Ballesteros,75,,normal,ESPN
 2001-0304,Celta,Henrique Catanha,15,,normal,ESPN
 2001-0304,Celta,Rogerio Vagner,18,,normal,ESPN
-2001-0304,Athletic Bilbao,Ismael Aranda Urzaiz,40,,normal,ESPN
+2001-0304,Athletic Bilbao,Ismael Urzaiz,40,,normal,ESPN
 2001-0304,Celta,Peter Luccin,63,,normal,ESPN
 2001-0304,Celta,Valeri Karpin,69,,normal,ESPN
 2001-0304,Celta,Jesuli,75,,normal,ESPN
@@ -773,13 +773,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0317,Mallorca,Samuel Eto'o,27,,normal,ESPN
 2001-0317,Espanyol,Tamudo,40,,normal,ESPN
 2001-0317,Mallorca,Albert Luque,65,,normal,ESPN
-2001-0320,Villarreal,Fernandez Manuel Gutierrez Victor,6,,normal,ESPN
+2001-0320,Villarreal,Víctor Fernández,6,,normal,ESPN
 2001-0320,Villarreal,Enrique Alvarez Sanjuan,11,,normal,ESPN
 2001-0320,Villarreal,Jorge López,17,,normal,ESPN
-2001-0320,Villarreal,Fernandez Manuel Gutierrez Victor,31,,normal,ESPN
+2001-0320,Villarreal,Víctor Fernández,31,,normal,ESPN
 2001-0320,Villarreal,Antonio Guayre,41,,normal,ESPN
 2001-0320,Athletic Bilbao,Carlos Garcia,65,,normal,ESPN
-2001-0320,Athletic Bilbao,Ismael Aranda Urzaiz,89,,penalti,ESPN
+2001-0320,Athletic Bilbao,Ismael Urzaiz,89,,penalti,ESPN
 2001-0321,Barcelona,Javier Saviola,16,,normal,ESPN
 2001-0321,Barcelona,Javier Saviola,76,,normal,ESPN
 2001-0322,Deportivo La Coruña,Diego Tristán,20,,normal,ESPN
@@ -788,7 +788,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0322,Deportivo La Coruña,Sanchez Victor,39,,normal,ESPN
 2001-0322,Deportivo La Coruña,Sergio González Soriano,62,,normal,ESPN
 2001-0323,Real Madrid,Imanol Etxeberria,9,,contra,ESPN
-2001-0323,Real Madrid,Fernando Sanchez Morientes,38,,normal,ESPN
+2001-0323,Real Madrid,Fernando Morientes,38,,normal,ESPN
 2001-0323,Real Madrid,Luis Figo,78,,penalti,ESPN
 2001-0323,Rayo Vallecano,Jean-Francois Hernandez,87,,normal,ESPN
 2001-0324,Las Palmas,Larena Jorge,48,,penalti,ESPN
@@ -810,7 +810,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0331,Valencia,Rubén Baraja,63,,normal,ESPN
 2001-0332,Osasuna,Sanchez Fernando,31,,normal,ESPN
 2001-0332,Osasuna,Sanchez Alfredo,38,,normal,ESPN
-2001-0332,Real Madrid,Fernando Sanchez Morientes,49,,normal,ESPN
+2001-0332,Real Madrid,Fernando Morientes,49,,normal,ESPN
 2001-0332,Osasuna,Mojarro Ivan Rosado,74,,normal,ESPN
 2001-0333,Betis,De Oliveira Denilson,4,,normal,ESPN
 2001-0333,Tenerife,Manuel Bino,57,,normal,ESPN
@@ -821,7 +821,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0334,Espanyol,Pablo Rotchen,68,,normal,ESPN
 2001-0335,Barcelona,Javier Saviola,14,,normal,ESPN
 2001-0335,Barcelona,Fabio Rochemback,65,,normal,ESPN
-2001-0335,Alavés,Mocelin Magno,70,,normal,ESPN
+2001-0335,Alavés,Magno Mocelin,70,,normal,ESPN
 2001-0335,Barcelona,Javier Saviola,89,,normal,ESPN
 2001-0335,Alavés,Daniel Ivan Alonso,90,,normal,ESPN
 2001-0336,Rayo Vallecano,Jean-Francois Hernandez,45,,normal,ESPN
@@ -829,14 +829,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0337,Real Sociedad,Xabi Alonso,41,,normal,ESPN
 2001-0337,Real Sociedad,Da Silva Luiz Alberto,69,,normal,ESPN
 2001-0338,Zaragoza,Santiago Aragon,10,,normal,ESPN
-2001-0338,Athletic Bilbao,Ismael Aranda Urzaiz,33,,normal,ESPN
+2001-0338,Athletic Bilbao,Ismael Urzaiz,33,,normal,ESPN
 2001-0338,Athletic Bilbao,Aitor Larrazabal,73,,penalti,ESPN
 2001-0338,Zaragoza,Savo Milosevic,90,,penalti,ESPN
 2001-0339,Sevilla,Mariano Toedtli,33,,normal,ESPN
 2001-0339,Las Palmas,Suarez Orlando,52,,normal,ESPN
 2001-0340,Celta,Jesuli,62,,normal,ESPN
-2001-0340,Villarreal,Fernandez Manuel Gutierrez Victor,71,,normal,ESPN
-2001-0340,Villarreal,Fernandez Manuel Gutierrez Victor,77,,penalti,ESPN
+2001-0340,Villarreal,Víctor Fernández,71,,normal,ESPN
+2001-0340,Villarreal,Víctor Fernández,77,,penalti,ESPN
 2001-0341,Celta,Alexandr Mostovoi,24,,normal,ESPN
 2001-0341,Celta,Gustavo Lopez,61,,normal,ESPN
 2001-0341,Barcelona,Rivaldo,90,,normal,ESPN
@@ -860,7 +860,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0348,Betis,Benjamín,59,,penalti,ESPN
 2001-0349,Valladolid,Jorge Tote,64,,normal,ESPN
 2001-0350,Valencia,Aldo Duscher,69,,contra,ESPN
-2001-0351,Villarreal,Fernandez Manuel Gutierrez Victor,16,,normal,ESPN
+2001-0351,Villarreal,Víctor Fernández,16,,normal,ESPN
 2001-0351,Barcelona,Luis Martínez,55,,normal,ESPN
 2001-0351,Barcelona,Thiago Motta,56,,normal,ESPN
 2001-0351,Barcelona,Patrick Kluivert,68,,normal,ESPN
@@ -924,10 +924,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0371,Deportivo La Coruña,Gonzalez Fran,73,,normal,ESPN
 2001-0371,Deportivo La Coruña,Walter Pandiani,90,,normal,ESPN
 2001-0372,Alavés,Antonio Karmona,36,,normal,ESPN
-2001-0373,Athletic Bilbao,Ismael Aranda Urzaiz,9,,normal,ESPN
+2001-0373,Athletic Bilbao,Ismael Urzaiz,9,,normal,ESPN
 2001-0373,Tenerife,Sanchez Jaime,16,,normal,ESPN
 2001-0373,Tenerife,Esteban Fuertes,45,,penalti,ESPN
-2001-0373,Athletic Bilbao,Ismael Aranda Urzaiz,62,,normal,ESPN
+2001-0373,Athletic Bilbao,Ismael Urzaiz,62,,normal,ESPN
 2001-0373,Athletic Bilbao,Julen Guerrero,77,,normal,ESPN
 2001-0374,Málaga,Carlos Litos,11,,normal,ESPN
 2001-0374,Málaga,Kizito Musampa,40,,normal,ESPN
@@ -959,21 +959,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0005,Rayo Vallecano,Mosquera Julio Alvarez,21,,normal,ESPN
 2002-0005,Alavés,Daniel Ivan Alonso,38,,normal,ESPN
 2002-0005,Rayo Vallecano,Mosquera Julio Alvarez,63,,penalti,ESPN
-2002-0005,Alavés,Mocelin Magno,71,,normal,ESPN
+2002-0005,Alavés,Magno Mocelin,71,,normal,ESPN
 2002-0006,Real Sociedad,Valeri Karpin,27,,normal,ESPN
 2002-0006,Athletic Bilbao,Carlos Gurpegi,29,,normal,ESPN
-2002-0006,Real Sociedad,Kahveci Nihat,33,,normal,ESPN
-2002-0006,Real Sociedad,Kahveci Nihat,62,,normal,ESPN
+2002-0006,Real Sociedad,Nihat Kahveci,33,,normal,ESPN
+2002-0006,Real Sociedad,Nihat Kahveci,62,,normal,ESPN
 2002-0006,Athletic Bilbao,Carlos Gurpegi,74,,normal,ESPN
 2002-0006,Real Sociedad,Darko Kovacevic,76,,normal,ESPN
-2002-0007,Recreativo Huelva,Alsocer Raul Molina,18,,normal,ESPN
+2002-0007,Recreativo Huelva,Raúl Molina,18,,normal,ESPN
 2002-0007,Recreativo Huelva,Emilio Viqueira,35,,normal,ESPN
 2002-0007,Málaga,Kizito Musampa,38,,normal,ESPN
 2002-0007,Málaga,Kizito Musampa,47,,normal,ESPN
 2002-0007,Málaga,Kizito Musampa,59,,normal,ESPN
 2002-0008,Celta,Gustavo Lopez,39,,normal,ESPN
-2002-0009,Villarreal,Fernandez Manuel Gutierrez Victor,10,,normal,ESPN
-2002-0009,Villarreal,Fernandez Manuel Gutierrez Victor,14,,normal,ESPN
+2002-0009,Villarreal,Víctor Fernández,10,,normal,ESPN
+2002-0009,Villarreal,Víctor Fernández,14,,normal,ESPN
 2002-0009,Osasuna,Antonio López,67,,normal,ESPN
 2002-0009,Osasuna,Pablo García,81,,normal,ESPN
 2002-0010,Real Madrid,Ivan Helguera,34,,normal,ESPN
@@ -1043,9 +1043,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0032,Valladolid,Andrés Olivera,58,,penalti,ESPN
 2002-0033,Mallorca,Julian Robles,31,,normal,ESPN
 2002-0033,Mallorca,Inigo Larrainzar,73,,contra,ESPN
-2002-0034,Recreativo Huelva,Alsocer Raul Molina,27,,normal,ESPN
+2002-0034,Recreativo Huelva,Raúl Molina,27,,normal,ESPN
 2002-0034,Atlético de Madrid,Luis García,34,,normal,ESPN
-2002-0035,Real Sociedad,Kahveci Nihat,12,,normal,ESPN
+2002-0035,Real Sociedad,Nihat Kahveci,12,,normal,ESPN
 2002-0035,Osasuna,Francisco Puñal,20,,penalti,ESPN
 2002-0035,Osasuna,Gerardo Damian Rivero,47,,normal,ESPN
 2002-0035,Real Sociedad,Igor Jáuregui,49,,normal,ESPN
@@ -1080,12 +1080,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0045,Rayo Vallecano,Mosquera Julio Alvarez,57,,penalti,ESPN
 2002-0046,Real Madrid,Zinedine Zidane,1,,normal,ESPN
 2002-0046,Real Madrid,Luis Figo,31,,penalti,ESPN
-2002-0046,Alavés,Mocelin Magno,36,,normal,ESPN
+2002-0046,Alavés,Magno Mocelin,36,,normal,ESPN
 2002-0046,Real Madrid,Ronaldo,65,,normal,ESPN
 2002-0046,Real Madrid,Luis Figo,72,,normal,ESPN
 2002-0046,Real Madrid,Ronaldo,78,,normal,ESPN
 2002-0046,Alavés,Daniel Ivan Alonso,84,,normal,ESPN
-2002-0047,Real Sociedad,Kahveci Nihat,65,,normal,ESPN
+2002-0047,Real Sociedad,Nihat Kahveci,65,,normal,ESPN
 2002-0047,Real Sociedad,Valeri Karpin,68,,normal,ESPN
 2002-0047,Valladolid,Gonzalo Colsa,71,,normal,ESPN
 2002-0048,Betis,Joaquín,17,,normal,ESPN
@@ -1099,7 +1099,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0052,Racing Santander,Pedro Munitis,50,,normal,ESPN
 2002-0053,Deportivo La Coruña,Sanchez Victor,7,,normal,ESPN
 2002-0053,Villarreal,Martin Cesar,47,,contra,ESPN
-2002-0053,Villarreal,Fernandez Manuel Gutierrez Victor,62,,penalti,ESPN
+2002-0053,Villarreal,Víctor Fernández,62,,penalti,ESPN
 2002-0053,Villarreal,Juliano Belletti,87,,normal,ESPN
 2002-0054,Athletic Bilbao,Santiago Ezquerro,6,,normal,ESPN
 2002-0054,Málaga,Mikel Roteta,80,,normal,ESPN
@@ -1107,9 +1107,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0055,Sevilla,Armengot Pablo Alfaro,39,,normal,ESPN
 2002-0055,Osasuna,John Aloisi,44,,normal,ESPN
 2002-0056,Alavés,Martin Astudillo,5,,normal,ESPN
-2002-0056,Real Sociedad,Kahveci Nihat,33,,normal,ESPN
+2002-0056,Real Sociedad,Nihat Kahveci,33,,normal,ESPN
 2002-0056,Real Sociedad,Valeri Karpin,68,,normal,ESPN
-2002-0056,Alavés,Mendez Ruben Navarro,87,,normal,ESPN
+2002-0056,Alavés,Rubén Navarro,87,,normal,ESPN
 2002-0057,Rayo Vallecano,Juan Antonio Bolo,6,,normal,ESPN
 2002-0058,Espanyol,Garcia Roger,61,,normal,ESPN
 2002-0058,Espanyol,Garcia Roger,72,,normal,ESPN
@@ -1160,16 +1160,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0073,Mallorca,Walter Pandiani,68,,normal,ESPN
 2002-0074,Celta,Edu,33,,normal,ESPN
 2002-0074,Athletic Bilbao,Joseba Etxeberría,81,,normal,ESPN
-2002-0074,Athletic Bilbao,Ismael Aranda Urzaiz,90,,normal,ESPN
+2002-0074,Athletic Bilbao,Ismael Urzaiz,90,,normal,ESPN
 2002-0075,Recreativo Huelva,David Cubillo,84,,penalti,ESPN
-2002-0076,Alavés,Mendez Ruben Navarro,90,,normal,ESPN
+2002-0076,Alavés,Rubén Navarro,90,,normal,ESPN
 2002-0077,Valencia,Fabio Aurelio,74,,normal,ESPN
 2002-0078,Racing Santander,Francisco Javier Garcia Guerrero,1,,normal,ESPN
 2002-0078,Barcelona,Fernando Navarro,82,,normal,ESPN
 2002-0079,Betis,Arzu,49,,normal,ESPN
 2002-0079,Betis,Fernando Fernandez,57,,normal,ESPN
 2002-0079,Betis,Fernando Fernandez,76,,penalti,ESPN
-2002-0080,Real Sociedad,Kahveci Nihat,36,,normal,ESPN
+2002-0080,Real Sociedad,Nihat Kahveci,36,,normal,ESPN
 2002-0081,Barcelona,Juan Román Riquelme,74,,penalti,ESPN
 2002-0082,Málaga,Dario Silva,68,,normal,ESPN
 2002-0083,Real Madrid,Ronaldo,15,,normal,ESPN
@@ -1182,10 +1182,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0085,Betis,Marcos Assuncao,70,,normal,ESPN
 2002-0085,Valencia,Pablo Aimar,81,,normal,ESPN
 2002-0086,Atlético de Madrid,José Marí,23,,normal,ESPN
-2002-0086,Athletic Bilbao,Ismael Aranda Urzaiz,49,,normal,ESPN
-2002-0086,Athletic Bilbao,Ismael Aranda Urzaiz,53,,normal,ESPN
+2002-0086,Athletic Bilbao,Ismael Urzaiz,49,,normal,ESPN
+2002-0086,Athletic Bilbao,Ismael Urzaiz,53,,normal,ESPN
 2002-0086,Atlético de Madrid,José Marí,75,,normal,ESPN
-2002-0086,Athletic Bilbao,Ismael Aranda Urzaiz,82,,normal,ESPN
+2002-0086,Athletic Bilbao,Ismael Urzaiz,82,,normal,ESPN
 2002-0086,Atlético de Madrid,José Marí,90,,normal,ESPN
 2002-0087,Celta,Saenz Jose Ignacio,17,,normal,ESPN
 2002-0088,Mallorca,Walter Pandiani,30,,normal,ESPN
@@ -1201,11 +1201,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0091,Deportivo La Coruña,Albert Luque,85,,normal,ESPN
 2002-0092,Villarreal,Juliano Belletti,88,,normal,ESPN
 2002-0093,Rayo Vallecano,Juan Antonio Bolo,44,,normal,ESPN
-2002-0093,Athletic Bilbao,Ismael Aranda Urzaiz,77,,normal,ESPN
+2002-0093,Athletic Bilbao,Ismael Urzaiz,77,,normal,ESPN
 2002-0093,Athletic Bilbao,Aitor Larrazabal,80,,penalti,ESPN
 2002-0094,Osasuna,Mojarro Ivan Rosado,6,,normal,ESPN
-2002-0095,Alavés,Mendez Ruben Navarro,10,,normal,ESPN
-2002-0095,Alavés,Mocelin Magno,20,,normal,ESPN
+2002-0095,Alavés,Rubén Navarro,10,,normal,ESPN
+2002-0095,Alavés,Magno Mocelin,20,,normal,ESPN
 2002-0095,Alavés,Adrian Ilie,56,,normal,ESPN
 2002-0096,Espanyol,Maxi Rodríguez,48,,normal,ESPN
 2002-0096,Atlético de Madrid,Luis García,75,,normal,ESPN
@@ -1221,14 +1221,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0104,Espanyol,Maxi Rodríguez,15,,normal,ESPN
 2002-0104,Athletic Bilbao,Aitor Larrazabal,20,,penalti,ESPN
 2002-0104,Athletic Bilbao,Carlos Gurpegi,49,,normal,ESPN
-2002-0104,Athletic Bilbao,Ismael Aranda Urzaiz,71,,normal,ESPN
+2002-0104,Athletic Bilbao,Ismael Urzaiz,71,,normal,ESPN
 2002-0104,Athletic Bilbao,Joseba Etxeberría,77,,normal,ESPN
 2002-0105,Atlético de Madrid,Fernando Torres,13,,normal,ESPN
 2002-0108,Villarreal,Martín Palermo,22,,normal,ESPN
 2002-0108,Mallorca,Walter Pandiani,55,,normal,ESPN
 2002-0109,Racing Santander,Madrazo Pablo Sierra,2,,normal,ESPN
-2002-0109,Recreativo Huelva,Alsocer Raul Molina,86,,normal,ESPN
-2002-0109,Recreativo Huelva,Alsocer Raul Molina,90,,normal,ESPN
+2002-0109,Recreativo Huelva,Raúl Molina,86,,normal,ESPN
+2002-0109,Recreativo Huelva,Raúl Molina,90,,normal,ESPN
 2002-0110,Valencia,Mista,10,,normal,ESPN
 2002-0110,Valencia,Mista,30,,normal,ESPN
 2002-0111,Osasuna,Gerardo Damian Rivero,62,,normal,ESPN
@@ -1247,17 +1247,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0117,Real Sociedad,Darko Kovacevic,52,,normal,ESPN
 2002-0118,Celta,Henrique Catanha,10,,normal,ESPN
 2002-0118,Celta,Edu,52,,normal,ESPN
-2002-0119,Villarreal,Fernandez Manuel Gutierrez Victor,64,,normal,ESPN
+2002-0119,Villarreal,Víctor Fernández,64,,normal,ESPN
 2002-0120,Villarreal,Martín Palermo,58,,normal,ESPN
 2002-0120,Málaga,Dario Silva,75,,normal,ESPN
 2002-0121,Rayo Vallecano,Jorge Azkoitia,65,,normal,ESPN
-2002-0122,Recreativo Huelva,Alsocer Raul Molina,21,,normal,ESPN
+2002-0122,Recreativo Huelva,Raúl Molina,21,,normal,ESPN
 2002-0122,Deportivo La Coruña,Diego Tristán,26,,normal,ESPN
 2002-0123,Real Sociedad,Valeri Karpin,70,,normal,ESPN
 2002-0124,Valencia,Miguel Angel Angulo,41,,normal,ESPN
 2002-0124,Valencia,John Carew,48,,normal,ESPN
 2002-0125,Osasuna,John Aloisi,7,,penalti,ESPN
-2002-0125,Athletic Bilbao,Ismael Aranda Urzaiz,9,,normal,ESPN
+2002-0125,Athletic Bilbao,Ismael Urzaiz,9,,normal,ESPN
 2002-0125,Osasuna,Iñaki Muñoz,15,,normal,ESPN
 2002-0125,Osasuna,Mojarro Ivan Rosado,42,,normal,ESPN
 2002-0126,Atlético de Madrid,Fernando Torres,61,,normal,ESPN
@@ -1276,7 +1276,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0129,Real Madrid,Raúl,62,,normal,ESPN
 2002-0129,Real Madrid,Raúl,65,,normal,ESPN
 2002-0129,Real Madrid,Gutí,90,,normal,ESPN
-2002-0130,Alavés,Mendez Ruben Navarro,12,,normal,ESPN
+2002-0130,Alavés,Rubén Navarro,12,,normal,ESPN
 2002-0130,Alavés,Adrian Ilie,31,,normal,ESPN
 2002-0131,Valencia,John Carew,52,,normal,ESPN
 2002-0131,Valencia,John Carew,63,,normal,ESPN
@@ -1300,7 +1300,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0138,Real Sociedad,Mikel Aranburu,57,,normal,ESPN
 2002-0139,Valladolid,David Aganzo,61,,normal,ESPN
 2002-0139,Valladolid,David Aganzo,71,,normal,ESPN
-2002-0140,Athletic Bilbao,Ismael Aranda Urzaiz,17,,normal,ESPN
+2002-0140,Athletic Bilbao,Ismael Urzaiz,17,,normal,ESPN
 2002-0140,Athletic Bilbao,Joseba Etxeberría,74,,normal,ESPN
 2002-0141,Racing Santander,Pedro Munitis,43,,normal,ESPN
 2002-0141,Atlético de Madrid,Moises Emerson,51,,normal,ESPN
@@ -1323,9 +1323,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0147,Betis,Perez Alfonso,17,,normal,ESPN
 2002-0147,Osasuna,Mojarro Ivan Rosado,84,,normal,ESPN
 2002-0147,Betis,Marcos Assuncao,90,,normal,ESPN
-2002-0148,Recreativo Huelva,Alsocer Raul Molina,40,,normal,ESPN
-2002-0148,Real Sociedad,Kahveci Nihat,42,,normal,ESPN
-2002-0148,Real Sociedad,Kahveci Nihat,56,,normal,ESPN
+2002-0148,Recreativo Huelva,Raúl Molina,40,,normal,ESPN
+2002-0148,Real Sociedad,Nihat Kahveci,42,,normal,ESPN
+2002-0148,Real Sociedad,Nihat Kahveci,56,,normal,ESPN
 2002-0148,Real Sociedad,Joseba Llorente,90,,normal,ESPN
 2002-0149,Deportivo La Coruña,Roy Makaay,20,,normal,ESPN
 2002-0150,Real Madrid,Raúl,9,,normal,ESPN
@@ -1339,7 +1339,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0153,Racing Santander,Francisco Javier Garcia Guerrero,18,,penalti,ESPN
 2002-0153,Athletic Bilbao,Jose Moraton Taeno,41,,contra,ESPN
 2002-0153,Racing Santander,Mario Regueiro,44,,normal,ESPN
-2002-0153,Athletic Bilbao,Ismael Aranda Urzaiz,52,,penalti,ESPN
+2002-0153,Athletic Bilbao,Ismael Urzaiz,52,,penalti,ESPN
 2002-0153,Athletic Bilbao,Joseba Etxeberría,62,,normal,ESPN
 2002-0153,Athletic Bilbao,Joseba Etxeberría,88,,normal,ESPN
 2002-0154,Valladolid,Fernando Sales,48,,normal,ESPN
@@ -1356,7 +1356,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0157,Real Madrid,Zinedine Zidane,68,,normal,ESPN
 2002-0157,Real Madrid,Gutí,86,,normal,ESPN
 2002-0157,Real Madrid,Javier Portillo,90,,normal,ESPN
-2002-0158,Real Sociedad,Kahveci Nihat,7,,normal,ESPN
+2002-0158,Real Sociedad,Nihat Kahveci,7,,normal,ESPN
 2002-0158,Málaga,Kizito Musampa,19,,normal,ESPN
 2002-0158,Real Sociedad,Dmitri Khokhlov,23,,normal,ESPN
 2002-0158,Málaga,Dario Silva,56,,normal,ESPN
@@ -1367,14 +1367,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0160,Villarreal,Martín Palermo,28,,normal,ESPN
 2002-0160,Atlético de Madrid,Fernando Torres,31,,normal,ESPN
 2002-0160,Atlético de Madrid,Santiago Santi,42,,normal,ESPN
-2002-0160,Villarreal,Fernandez Manuel Gutierrez Victor,44,,normal,ESPN
+2002-0160,Villarreal,Víctor Fernández,44,,normal,ESPN
 2002-0160,Villarreal,Martín Palermo,90,,normal,ESPN
 2002-0160,Atlético de Madrid,Fernando Torres,90,,normal,ESPN
 2002-0161,Real Madrid,Ronaldo,6,,normal,ESPN
 2002-0162,Valencia,Fabio Aurelio,17,,normal,ESPN
 2002-0162,Valencia,Agustin Aranzabal,60,,contra,ESPN
 2002-0162,Real Sociedad,Darko Kovacevic,68,,normal,ESPN
-2002-0162,Real Sociedad,Kahveci Nihat,78,,normal,ESPN
+2002-0162,Real Sociedad,Nihat Kahveci,78,,normal,ESPN
 2002-0163,Villarreal,Francisco Farinos,4,,normal,ESPN
 2002-0164,Atlético de Madrid,José Marí,1,,normal,ESPN
 2002-0164,Deportivo La Coruña,Roy Makaay,5,,normal,ESPN
@@ -1389,7 +1389,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0168,Mallorca,Walter Pandiani,71,,normal,ESPN
 2002-0168,Mallorca,Dominguez Carlitos,84,,normal,ESPN
 2002-0169,Betis,Fernando Fernandez,44,,normal,ESPN
-2002-0169,Alavés,Mocelin Magno,57,,normal,ESPN
+2002-0169,Alavés,Magno Mocelin,57,,normal,ESPN
 2002-0169,Betis,Joaquín,90,,normal,ESPN
 2002-0169,Alavés,Jesus Turiel,90,,normal,ESPN
 2002-0171,Valencia,Pablo Aimar,12,,normal,ESPN
@@ -1404,7 +1404,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0174,Athletic Bilbao,Santiago Ezquerro,48,,normal,ESPN
 2002-0174,Deportivo La Coruña,Gama Donato,50,,normal,ESPN
 2002-0174,Deportivo La Coruña,Albert Luque,84,,normal,ESPN
-2002-0175,Recreativo Huelva,Alsocer Raul Molina,55,,normal,ESPN
+2002-0175,Recreativo Huelva,Raúl Molina,55,,normal,ESPN
 2002-0175,Mallorca,Walter Pandiani,80,,penalti,ESPN
 2002-0176,Betis,Joaquín,90,,normal,ESPN
 2002-0177,Valladolid,Óscar,9,,normal,ESPN
@@ -1431,8 +1431,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0187,Betis,De Oliveira Denilson,18,,normal,ESPN
 2002-0187,Betis,De Oliveira Denilson,77,,normal,ESPN
 2002-0187,Villarreal,Carlos Reina Aranda,83,,normal,ESPN
-2002-0188,Alavés,Mendez Ruben Navarro,19,,normal,ESPN
-2002-0188,Alavés,Mendez Ruben Navarro,78,,normal,ESPN
+2002-0188,Alavés,Rubén Navarro,19,,normal,ESPN
+2002-0188,Alavés,Rubén Navarro,78,,normal,ESPN
 2002-0188,Valladolid,Dragan Ciric,86,,normal,ESPN
 2002-0188,Alavés,Fernandez Abelardo,90,,normal,ESPN
 2002-0189,Rayo Vallecano,Ramon De Quintana,2,,normal,ESPN
@@ -1482,7 +1482,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0207,Rayo Vallecano,Sanchez Michel,4,,normal,ESPN
 2002-0207,Rayo Vallecano,Roberto Peragon,80,,normal,ESPN
 2002-0207,Málaga,Dario Silva,85,,normal,ESPN
-2002-0209,Recreativo Huelva,Alsocer Raul Molina,32,,normal,ESPN
+2002-0209,Recreativo Huelva,Raúl Molina,32,,normal,ESPN
 2002-0209,Valencia,Fabio Aurelio,85,,normal,ESPN
 2002-0210,Atlético de Madrid,Varela Javi Moreno,49,,normal,ESPN
 2002-0210,Sevilla,Lobeiras Fredy,53,,normal,ESPN
@@ -1506,8 +1506,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0219,Racing Santander,Francisco Javier Garcia Guerrero,17,,normal,ESPN
 2002-0219,Racing Santander,Yossi Benayoun,30,,normal,ESPN
 2002-0220,Betis,Fernando Fernandez,12,,normal,ESPN
-2002-0220,Real Sociedad,Kahveci Nihat,73,,normal,ESPN
-2002-0220,Real Sociedad,Kahveci Nihat,77,,normal,ESPN
+2002-0220,Real Sociedad,Nihat Kahveci,73,,normal,ESPN
+2002-0220,Real Sociedad,Nihat Kahveci,77,,normal,ESPN
 2002-0220,Betis,Iulian Filipescu,86,,normal,ESPN
 2002-0220,Betis,Fernando Fernandez,90,,penalti,ESPN
 2002-0221,Deportivo La Coruña,Diego Tristán,15,,normal,ESPN
@@ -1592,15 +1592,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0246,Mallorca,Harold Lozano,50,,normal,ESPN
 2002-0247,Rayo Vallecano,Ramon De Quintana,87,,normal,ESPN
 2002-0248,Real Sociedad,Darko Kovacevic,16,,normal,ESPN
-2002-0248,Real Sociedad,Kahveci Nihat,38,,normal,ESPN
+2002-0248,Real Sociedad,Nihat Kahveci,38,,normal,ESPN
 2002-0248,Real Sociedad,Valeri Karpin,43,,normal,ESPN
-2002-0248,Alavés,Mendez Ruben Navarro,83,,penalti,ESPN
+2002-0248,Alavés,Rubén Navarro,83,,penalti,ESPN
 2002-0250,Sevilla,Antonio Ramiro Perez,19,,normal,ESPN
 2002-0250,Sevilla,José Antonio Reyes,38,,penalti,ESPN
 2002-0251,Deportivo La Coruña,Roy Makaay,16,,penalti,ESPN
 2002-0251,Deportivo La Coruña,Noureddine Naybet,85,,normal,ESPN
 2002-0252,Racing Santander,Yossi Benayoun,5,,normal,ESPN
-2002-0252,Real Sociedad,Kahveci Nihat,22,,normal,ESPN
+2002-0252,Real Sociedad,Nihat Kahveci,22,,normal,ESPN
 2002-0252,Real Sociedad,Valeri Karpin,60,,normal,ESPN
 2002-0253,Real Madrid,Ivan Helguera,89,,normal,ESPN
 2002-0254,Athletic Bilbao,Joseba Etxeberría,38,,normal,ESPN
@@ -1627,12 +1627,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0266,Real Madrid,Ronaldo,49,,normal,ESPN
 2002-0267,Real Sociedad,Darko Kovacevic,25,,normal,ESPN
 2002-0267,Real Sociedad,Darko Kovacevic,73,,penalti,ESPN
-2002-0267,Villarreal,Fernandez Manuel Gutierrez Victor,90,,normal,ESPN
+2002-0267,Villarreal,Víctor Fernández,90,,normal,ESPN
 2002-0267,Villarreal,Jorge López,90,,normal,ESPN
 2002-0268,Osasuna,John Aloisi,50,,normal,ESPN
 2002-0268,Recreativo Huelva,Mariano Pernía,85,,normal,ESPN
 2002-0269,Sevilla,Francisco Casquero,20,,normal,ESPN
-2002-0269,Alavés,Mendez Ruben Navarro,59,,normal,ESPN
+2002-0269,Alavés,Rubén Navarro,59,,normal,ESPN
 2002-0269,Alavés,Martin Astudillo,78,,normal,ESPN
 2002-0269,Sevilla,José Antonio Reyes,83,,penalti,ESPN
 2002-0269,Sevilla,Antonio Karmona,90,,contra,ESPN
@@ -1641,18 +1641,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0272,Betis,Fernando Fernandez,35,,normal,ESPN
 2002-0272,Betis,Arzu,65,,normal,ESPN
 2002-0273,Rayo Vallecano,Luis Cembranos,8,,normal,ESPN
-2002-0273,Real Madrid,Fernando Sanchez Morientes,85,,normal,ESPN
+2002-0273,Real Madrid,Fernando Morientes,85,,normal,ESPN
 2002-0273,Real Madrid,Javier Portillo,90,,normal,ESPN
-2002-0273,Real Madrid,Fernando Sanchez Morientes,90,,normal,ESPN
+2002-0273,Real Madrid,Fernando Morientes,90,,normal,ESPN
 2002-0274,Villarreal,Jorge López,56,,penalti,ESPN
 2002-0274,Villarreal,Javier Calleja,90,,penalti,ESPN
 2002-0275,Athletic Bilbao,Santiago Ezquerro,83,,normal,ESPN
 2002-0276,Málaga,Marcelo Romero,58,,normal,ESPN
-2002-0278,Real Sociedad,Kahveci Nihat,15,,normal,ESPN
+2002-0278,Real Sociedad,Nihat Kahveci,15,,normal,ESPN
 2002-0278,Deportivo La Coruña,Joan Capdevila,43,,normal,ESPN
 2002-0278,Deportivo La Coruña,Gonzalez Fran,82,,normal,ESPN
 2002-0279,Racing Santander,Francisco Javier Garcia Guerrero,43,,penalti,ESPN
-2002-0280,Recreativo Huelva,Alsocer Raul Molina,21,,normal,ESPN
+2002-0280,Recreativo Huelva,Raúl Molina,21,,normal,ESPN
 2002-0281,Barcelona,Javier Saviola,2,,normal,ESPN
 2002-0281,Deportivo La Coruña,Lionel Scaloni,16,,normal,ESPN
 2002-0281,Barcelona,Thiago Motta,24,,normal,ESPN
@@ -1677,11 +1677,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0286,Racing Santander,Rodolfo Bodipo,43,,normal,ESPN
 2002-0286,Mallorca,Samuel Eto'o,53,,normal,ESPN
 2002-0286,Mallorca,Samuel Eto'o,80,,normal,ESPN
-2002-0287,Athletic Bilbao,Ismael Aranda Urzaiz,75,,normal,ESPN
+2002-0287,Athletic Bilbao,Ismael Urzaiz,75,,normal,ESPN
 2002-0287,Rayo Vallecano,Elvir Bolic,84,,normal,ESPN
 2002-0288,Real Sociedad,Darko Kovacevic,2,,normal,ESPN
 2002-0288,Real Sociedad,Darko Kovacevic,19,,normal,ESPN
-2002-0288,Real Sociedad,Kahveci Nihat,31,,normal,ESPN
+2002-0288,Real Sociedad,Nihat Kahveci,31,,normal,ESPN
 2002-0288,Real Madrid,Ronaldo,32,,normal,ESPN
 2002-0288,Real Sociedad,Xabi Alonso,34,,normal,ESPN
 2002-0288,Real Madrid,Javier Portillo,84,,normal,ESPN
@@ -1712,17 +1712,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0299,Betis,Arzu,84,,normal,ESPN
 2002-0300,Real Sociedad,Javier De Pedro,45,,penalti,ESPN
 2002-0300,Real Sociedad,Valeri Karpin,50,,penalti,ESPN
-2002-0300,Real Sociedad,Kahveci Nihat,58,,normal,ESPN
-2002-0300,Real Sociedad,Kahveci Nihat,87,,normal,ESPN
+2002-0300,Real Sociedad,Nihat Kahveci,58,,normal,ESPN
+2002-0300,Real Sociedad,Nihat Kahveci,87,,normal,ESPN
 2002-0300,Real Sociedad,Tayfun Korkut,90,,normal,ESPN
 2002-0301,Betis,Fernando Fernandez,26,,normal,ESPN
 2002-0301,Athletic Bilbao,Joseba Etxeberría,36,,normal,ESPN
-2002-0301,Athletic Bilbao,Ismael Aranda Urzaiz,42,,normal,ESPN
+2002-0301,Athletic Bilbao,Ismael Urzaiz,42,,normal,ESPN
 2002-0301,Athletic Bilbao,Santiago Ezquerro,45,,normal,ESPN
 2002-0302,Osasuna,Mojarro Ivan Rosado,43,,normal,ESPN
 2002-0304,Barcelona,Javier Saviola,13,,normal,ESPN
 2002-0304,Barcelona,Patrick Kluivert,24,,normal,ESPN
-2002-0304,Real Sociedad,Kahveci Nihat,81,,normal,ESPN
+2002-0304,Real Sociedad,Nihat Kahveci,81,,normal,ESPN
 2002-0305,Racing Santander,Francisco Javier Garcia Guerrero,58,,normal,ESPN
 2002-0305,Málaga,Julio Dely Valdes,60,,normal,ESPN
 2002-0305,Málaga,Julio Dely Valdes,71,,normal,ESPN
@@ -1733,7 +1733,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0307,Espanyol,Savo Milosevic,37,,normal,ESPN
 2002-0307,Espanyol,Savo Milosevic,47,,normal,ESPN
 2002-0307,Espanyol,Garcia Roger,56,,normal,ESPN
-2002-0308,Recreativo Huelva,Alsocer Raul Molina,35,,penalti,ESPN
+2002-0308,Recreativo Huelva,Raúl Molina,35,,penalti,ESPN
 2002-0308,Recreativo Huelva,Emilio Viqueira,47,,normal,ESPN
 2002-0308,Recreativo Huelva,Emilio Viqueira,70,,normal,ESPN
 2002-0308,Recreativo Huelva,Mariano Pernía,82,,normal,ESPN
@@ -1741,7 +1741,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0309,Real Madrid,Ivan Helguera,24,,normal,ESPN
 2002-0309,Sevilla,Francisco Gallardo,39,,normal,ESPN
 2002-0309,Real Madrid,Zinedine Zidane,53,,normal,ESPN
-2002-0309,Real Madrid,Fernando Sanchez Morientes,87,,normal,ESPN
+2002-0309,Real Madrid,Fernando Morientes,87,,normal,ESPN
 2002-0310,Valencia,Anthony Reveillere,30,,normal,ESPN
 2002-0310,Valencia,Francisco Rufete,56,,normal,ESPN
 2002-0310,Valencia,Pablo Aimar,67,,normal,ESPN
@@ -1800,21 +1800,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0333,Osasuna,Moha,30,,normal,ESPN
 2002-0333,Osasuna,Francisco Puñal,39,,penalti,ESPN
 2002-0334,Athletic Bilbao,Francisco Javier Yeste,20,,normal,ESPN
-2002-0334,Alavés,Mocelin Magno,27,,normal,ESPN
+2002-0334,Alavés,Magno Mocelin,27,,normal,ESPN
 2002-0334,Alavés,Martin Astudillo,29,,normal,ESPN
-2002-0334,Athletic Bilbao,Ismael Aranda Urzaiz,57,,normal,ESPN
+2002-0334,Athletic Bilbao,Ismael Urzaiz,57,,normal,ESPN
 2002-0334,Athletic Bilbao,Joseba Etxeberría,75,,normal,ESPN
 2002-0334,Athletic Bilbao,Joseba Etxeberría,88,,normal,ESPN
 2002-0335,Mallorca,Patrick Kluivert,23,,contra,ESPN
 2002-0335,Barcelona,Patrick Kluivert,72,,normal,ESPN
 2002-0335,Mallorca,Dominguez Carlitos,87,,normal,ESPN
-2002-0336,Real Madrid,Fernando Sanchez Morientes,4,,normal,ESPN
+2002-0336,Real Madrid,Fernando Morientes,4,,normal,ESPN
 2002-0336,Real Madrid,Raúl,14,,normal,ESPN
 2002-0336,Real Madrid,Roberto Carlos,18,,normal,ESPN
-2002-0336,Real Madrid,Fernando Sanchez Morientes,54,,normal,ESPN
+2002-0336,Real Madrid,Fernando Morientes,54,,normal,ESPN
 2002-0336,Málaga,Sanchez Manu,62,,normal,ESPN
 2002-0336,Real Madrid,Raúl,83,,normal,ESPN
-2002-0337,Real Sociedad,Kahveci Nihat,7,,normal,ESPN
+2002-0337,Real Sociedad,Nihat Kahveci,7,,normal,ESPN
 2002-0338,Valladolid,Fernando Sales,13,,normal,ESPN
 2002-0338,Espanyol,Garcia Roger,16,,normal,ESPN
 2002-0339,Sevilla,Francisco Casquero,44,,normal,ESPN
@@ -1825,7 +1825,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0339,Rayo Vallecano,Roberto Peragon,86,,normal,ESPN
 2002-0341,Racing Santander,Pedro Munitis,47,,normal,ESPN
 2002-0341,Athletic Bilbao,Aitor Karanka,56,,normal,ESPN
-2002-0341,Athletic Bilbao,Ismael Aranda Urzaiz,90,,penalti,ESPN
+2002-0341,Athletic Bilbao,Ismael Urzaiz,90,,penalti,ESPN
 2002-0342,Villarreal,Javier Calleja,23,,normal,ESPN
 2002-0342,Atlético de Madrid,Enrique Alvarez Sanjuan,30,,contra,ESPN
 2002-0342,Villarreal,Josico,41,,normal,ESPN
@@ -1880,7 +1880,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0358,Osasuna,César Palacios,10,,normal,ESPN
 2002-0358,Osasuna,Valdo,43,,normal,ESPN
 2002-0359,Sevilla,Illanes Marcos Vales,50,,normal,ESPN
-2002-0360,Villarreal,Fernandez Manuel Gutierrez Victor,3,,normal,ESPN
+2002-0360,Villarreal,Víctor Fernández,3,,normal,ESPN
 2002-0360,Athletic Bilbao,Joseba Etxeberría,29,,normal,ESPN
 2002-0361,Valladolid,David Aganzo,52,,normal,ESPN
 2002-0361,Valladolid,Alvarez Antonio Lopez,81,,penalti,ESPN
@@ -1888,22 +1888,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0362,Athletic Bilbao,Francisco Javier Yeste,44,,normal,ESPN
 2002-0362,Deportivo La Coruña,Joan Capdevila,65,,normal,ESPN
 2002-0362,Deportivo La Coruña,Sergio González Soriano,68,,normal,ESPN
-2002-0362,Athletic Bilbao,Ismael Aranda Urzaiz,71,,normal,ESPN
+2002-0362,Athletic Bilbao,Ismael Urzaiz,71,,normal,ESPN
 2002-0363,Real Madrid,Ronaldo,6,,normal,ESPN
 2002-0363,Real Madrid,Raúl,18,,normal,ESPN
 2002-0363,Real Madrid,Ronaldo,31,,normal,ESPN
 2002-0363,Real Madrid,Raúl,70,,normal,ESPN
 2002-0364,Osasuna,John Aloisi,24,,penalti,ESPN
-2002-0364,Alavés,Mendez Ruben Navarro,35,,normal,ESPN
+2002-0364,Alavés,Rubén Navarro,35,,normal,ESPN
 2002-0364,Osasuna,Moha,67,,normal,ESPN
 2002-0364,Osasuna,John Aloisi,78,,normal,ESPN
-2002-0364,Alavés,Mendez Ruben Navarro,83,,normal,ESPN
+2002-0364,Alavés,Rubén Navarro,83,,normal,ESPN
 2002-0364,Osasuna,Moha,86,,normal,ESPN
 2002-0365,Celta,Alexandr Mostovoi,10,,normal,ESPN
 2002-0365,Celta,Alexandr Mostovoi,49,,normal,ESPN
-2002-0365,Real Sociedad,Kahveci Nihat,65,,normal,ESPN
+2002-0365,Real Sociedad,Nihat Kahveci,65,,normal,ESPN
 2002-0365,Celta,Ahmed Hossam Mido,70,,normal,ESPN
-2002-0365,Real Sociedad,Kahveci Nihat,82,,normal,ESPN
+2002-0365,Real Sociedad,Nihat Kahveci,82,,normal,ESPN
 2002-0366,Espanyol,Maxi Rodríguez,23,,normal,ESPN
 2002-0366,Villarreal,Antonio De Nigris,53,,normal,ESPN
 2002-0366,Espanyol,Toni Velamazán,73,,normal,ESPN
@@ -1947,7 +1947,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0378,Real Madrid,Ronaldo,61,,normal,ESPN
 2002-0379,Real Sociedad,Darko Kovacevic,50,,normal,ESPN
 2002-0379,Real Sociedad,Javier De Pedro,55,,normal,ESPN
-2002-0379,Real Sociedad,Kahveci Nihat,73,,normal,ESPN
+2002-0379,Real Sociedad,Nihat Kahveci,73,,normal,ESPN
 2002-0380,Villarreal,Antonio Guayre,14,,normal,ESPN
 2002-0380,Betis,Martin Dani,24,,normal,ESPN
 2002-0380,Betis,Joaquín,36,,normal,ESPN
@@ -1984,7 +1984,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0017,Mallorca,Samuel Eto'o,52,,penalti,ESPN
 2003-0018,Betis,Joaquín,30,,normal,ESPN
 2003-0018,Betis,Martín Palermo,38,,normal,ESPN
-2003-0018,Espanyol,Alsocer Raul Molina,68,,normal,ESPN
+2003-0018,Espanyol,Raúl Molina,68,,normal,ESPN
 2003-0018,Espanyol,Alberto Lopo,90,,normal,ESPN
 2003-0019,Murcia,Ricardo Perez Zabalza Richi,7,,normal,ESPN
 2003-0019,Racing Santander,Francisco Javier Garcia Guerrero,44,,normal,ESPN
@@ -2007,15 +2007,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0025,Barcelona,Phillip Cocu,2,,normal,ESPN
 2003-0025,Barcelona,Luis Martínez,66,,normal,ESPN
 2003-0025,Albacete,Pablo Ibáñez,90,,normal,ESPN
-2003-0026,Athletic Bilbao,Ismael Aranda Urzaiz,38,,normal,ESPN
-2003-0026,Athletic Bilbao,Ismael Aranda Urzaiz,43,,normal,ESPN
+2003-0026,Athletic Bilbao,Ismael Urzaiz,38,,normal,ESPN
+2003-0026,Athletic Bilbao,Ismael Urzaiz,43,,normal,ESPN
 2003-0026,Athletic Bilbao,Joseba Etxeberría,75,,normal,ESPN
 2003-0026,Athletic Bilbao,Joseba Etxeberría,88,,penalti,ESPN
 2003-0027,Osasuna,Pablo García,36,,normal,ESPN
 2003-0028,Espanyol,Maxi Rodríguez,13,,normal,ESPN
-2003-0028,Villarreal,Fernandez Manuel Gutierrez Victor,22,,normal,ESPN
+2003-0028,Villarreal,Víctor Fernández,22,,normal,ESPN
 2003-0028,Villarreal,Juan Román Riquelme,90,,penalti,ESPN
-2003-0029,Zaragoza,Bortolini Pimentel Savio,1,,normal,ESPN
+2003-0029,Zaragoza,Sávio,1,,normal,ESPN
 2003-0029,Zaragoza,David Villa,8,,penalti,ESPN
 2003-0029,Zaragoza,Luciano Galletti,31,,normal,ESPN
 2003-0030,Valencia,Carlos Marchena,43,,normal,ESPN
@@ -2037,7 +2037,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0037,Athletic Bilbao,Joseba Etxeberría,40,,normal,ESPN
 2003-0037,Athletic Bilbao,Tiko,61,,normal,ESPN
 2003-0037,Murcia,Luis Garcia,67,,penalti,ESPN
-2003-0038,Real Sociedad,Kahveci Nihat,56,,normal,ESPN
+2003-0038,Real Sociedad,Nihat Kahveci,56,,normal,ESPN
 2003-0038,Real Sociedad,Oscar De Paula,83,,normal,ESPN
 2003-0038,Real Sociedad,Oscar De Paula,86,,normal,ESPN
 2003-0039,Valladolid,Víctor Zapata,3,,normal,ESPN
@@ -2063,7 +2063,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0045,Albacete,Aguirregomezcorta Mikel,79,,normal,ESPN
 2003-0047,Málaga,Marcelo Romero,36,,normal,ESPN
 2003-0047,Espanyol,Tamudo,56,,normal,ESPN
-2003-0047,Málaga,Ballesta Salva,84,,normal,ESPN
+2003-0047,Málaga,Salva Ballesta,84,,normal,ESPN
 2003-0048,Villarreal,Sonny Anderson,67,,normal,ESPN
 2003-0048,Villarreal,Juan Román Riquelme,88,,normal,ESPN
 2003-0049,Betis,Marcos Assuncao,81,,normal,ESPN
@@ -2076,7 +2076,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0051,Deportivo La Coruña,Lionel Scaloni,90,,normal,ESPN
 2003-0052,Athletic Bilbao,Tiko,46,,normal,ESPN
 2003-0052,Betis,Marcos Assuncao,89,,normal,ESPN
-2003-0053,Villarreal,Fernandez Manuel Gutierrez Victor,4,,normal,ESPN
+2003-0053,Villarreal,Víctor Fernández,4,,normal,ESPN
 2003-0053,Zaragoza,David Villa,22,,normal,ESPN
 2003-0054,Valencia,Ricardo Oliveira,14,,normal,ESPN
 2003-0055,Málaga,Duran Fernando Sanz,12,,normal,ESPN
@@ -2095,14 +2095,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0060,Racing Santander,Rodolfo Bodipo,83,,normal,ESPN
 2003-0060,Racing Santander,Mehdi Nafti,84,,normal,ESPN
 2003-0061,Albacete,Ludovic Delporte,67,,normal,ESPN
-2003-0061,Real Sociedad,Kahveci Nihat,71,,normal,ESPN
+2003-0061,Real Sociedad,Nihat Kahveci,71,,normal,ESPN
 2003-0061,Albacete,David Sánchez,75,,normal,ESPN
 2003-0061,Albacete,Carlos Reina Aranda,77,,normal,ESPN
 2003-0062,Real Madrid,Ronaldo,23,,normal,ESPN
 2003-0062,Real Madrid,Roberto Carlos,64,,normal,ESPN
 2003-0063,Deportivo La Coruña,Albert Luque,40,,normal,ESPN
 2003-0063,Deportivo La Coruña,Sergio González Soriano,70,,normal,ESPN
-2003-0064,Athletic Bilbao,Ismael Aranda Urzaiz,51,,normal,ESPN
+2003-0064,Athletic Bilbao,Ismael Urzaiz,51,,normal,ESPN
 2003-0064,Athletic Bilbao,Joseba Etxeberría,82,,normal,ESPN
 2003-0065,Atlético de Madrid,Fernando Torres,26,,normal,ESPN
 2003-0065,Mallorca,Samuel Eto'o,37,,normal,ESPN
@@ -2110,13 +2110,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0066,Osasuna,Ibrahima Bakayoko,11,,normal,ESPN
 2003-0066,Murcia,Luis Garcia,18,,normal,ESPN
 2003-0066,Osasuna,Ibrahima Bakayoko,83,,normal,ESPN
-2003-0067,Málaga,Ballesta Salva,18,,normal,ESPN
+2003-0067,Málaga,Salva Ballesta,18,,normal,ESPN
 2003-0067,Racing Santander,Fernando Mora,55,,normal,ESPN
 2003-0067,Racing Santander,Yossi Benayoun,58,,normal,ESPN
 2003-0067,Racing Santander,Jonathan Valle,68,,normal,ESPN
 2003-0067,Racing Santander,Rodolfo Bodipo,80,,normal,ESPN
 2003-0067,Málaga,Ivan Leko,89,,normal,ESPN
-2003-0068,Zaragoza,Bortolini Pimentel Savio,15,,normal,ESPN
+2003-0068,Zaragoza,Sávio,15,,normal,ESPN
 2003-0069,Sevilla,José Antonio Reyes,49,,normal,ESPN
 2003-0069,Betis,De Oliveira Denilson,51,,normal,ESPN
 2003-0069,Betis,Jorge Tote,59,,normal,ESPN
@@ -2129,7 +2129,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0071,Valencia,Mista,73,,normal,ESPN
 2003-0071,Deportivo La Coruña,Diego Tristán,80,,normal,ESPN
 2003-0072,Málaga,Carlos Litos,27,,normal,ESPN
-2003-0072,Málaga,Ballesta Salva,45,,penalti,ESPN
+2003-0072,Málaga,Salva Ballesta,45,,penalti,ESPN
 2003-0072,Zaragoza,Goran Drulic,87,,normal,ESPN
 2003-0073,Racing Santander,Yossi Benayoun,15,,normal,ESPN
 2003-0073,Real Madrid,Zinedine Zidane,25,,normal,ESPN
@@ -2164,7 +2164,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0082,Albacete,Libero Romero Parri,68,,normal,ESPN
 2003-0082,Albacete,Sebastian Basti,71,,normal,ESPN
 2003-0083,Málaga,Diego Alonso,3,,normal,ESPN
-2003-0083,Athletic Bilbao,Ismael Aranda Urzaiz,63,,normal,ESPN
+2003-0083,Athletic Bilbao,Ismael Urzaiz,63,,normal,ESPN
 2003-0083,Athletic Bilbao,Tiko,73,,normal,ESPN
 2003-0084,Osasuna,Moha,50,,normal,ESPN
 2003-0084,Osasuna,Iñaki Muñoz,81,,normal,ESPN
@@ -2191,7 +2191,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0094,Zaragoza,Luciano Galletti,10,,normal,ESPN
 2003-0094,Zaragoza,Alvaro,24,,normal,ESPN
 2003-0095,Málaga,Duda,1,,normal,ESPN
-2003-0095,Málaga,Ballesta Salva,20,,penalti,ESPN
+2003-0095,Málaga,Salva Ballesta,20,,penalti,ESPN
 2003-0096,Valencia,Jorge López,3,,penalti,ESPN
 2003-0096,Valencia,Ricardo Oliveira,7,,normal,ESPN
 2003-0096,Valencia,Ricardo Oliveira,45,,normal,ESPN
@@ -2210,12 +2210,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0099,Valladolid,Roberto Losada,90,,penalti,ESPN
 2003-0100,Villarreal,Antonio Guayre,23,,normal,ESPN
 2003-0101,Athletic Bilbao,Andoni Iraola,13,,normal,ESPN
-2003-0102,Real Sociedad,Kahveci Nihat,29,,normal,ESPN
+2003-0102,Real Sociedad,Nihat Kahveci,29,,normal,ESPN
 2003-0102,Deportivo La Coruña,Igor Jáuregui,72,,contra,ESPN
 2003-0102,Deportivo La Coruña,Walter Pandiani,88,,normal,ESPN
 2003-0103,Celta,Saenz Jose Ignacio,4,,normal,ESPN
 2003-0103,Zaragoza,Leonardo Ponzio,7,,normal,ESPN
-2003-0104,Málaga,Ballesta Salva,63,,normal,ESPN
+2003-0104,Málaga,Salva Ballesta,63,,normal,ESPN
 2003-0105,Atlético de Madrid,Alvaro Novo,55,,normal,ESPN
 2003-0106,Valladolid,Fernando Sales,29,,normal,ESPN
 2003-0106,Osasuna,Valdo,45,,normal,ESPN
@@ -2285,9 +2285,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0132,Albacete,Carlos Reina Aranda,51,,normal,ESPN
 2003-0132,Celta,Pablo Contreras,59,,normal,ESPN
 2003-0133,Osasuna,Pierre Webó,87,,normal,ESPN
-2003-0134,Málaga,Ballesta Salva,8,,normal,ESPN
-2003-0134,Málaga,Ballesta Salva,14,,normal,ESPN
-2003-0134,Málaga,Ballesta Salva,70,,normal,ESPN
+2003-0134,Málaga,Salva Ballesta,8,,normal,ESPN
+2003-0134,Málaga,Salva Ballesta,14,,normal,ESPN
+2003-0134,Málaga,Salva Ballesta,70,,normal,ESPN
 2003-0134,Málaga,Diego Alonso,74,,normal,ESPN
 2003-0134,Barcelona,Duran Fernando Sanz,79,,contra,ESPN
 2003-0134,Málaga,Manuel Canabal,86,,normal,ESPN
@@ -2348,12 +2348,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0153,Villarreal,Juan Román Riquelme,12,,normal,ESPN
 2003-0153,Villarreal,Sonny Anderson,33,,normal,ESPN
 2003-0154,Sevilla,Júlio Baptista,1,,normal,ESPN
-2003-0154,Athletic Bilbao,Ismael Aranda Urzaiz,6,,normal,ESPN
+2003-0154,Athletic Bilbao,Ismael Urzaiz,6,,normal,ESPN
 2003-0154,Athletic Bilbao,Francisco Javier Yeste,23,,normal,ESPN
 2003-0155,Málaga,Duran Fernando Sanz,11,,normal,ESPN
 2003-0155,Mallorca,Samuel Eto'o,30,,normal,ESPN
 2003-0155,Málaga,Duda,71,,normal,ESPN
-2003-0155,Málaga,Ballesta Salva,90,,penalti,ESPN
+2003-0155,Málaga,Salva Ballesta,90,,penalti,ESPN
 2003-0157,Valencia,Juanito,17,,contra,ESPN
 2003-0158,Real Madrid,Ronaldo,45,,normal,ESPN
 2003-0158,Deportivo La Coruña,Walter Pandiani,63,,normal,ESPN
@@ -2363,7 +2363,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0161,Atlético de Madrid,Veljko Paunovic,62,,normal,ESPN
 2003-0161,Atlético de Madrid,Kizito Musampa,69,,normal,ESPN
 2003-0161,Racing Santander,Jonathan Valle,79,,penalti,ESPN
-2003-0162,Real Sociedad,Kahveci Nihat,6,,normal,ESPN
+2003-0162,Real Sociedad,Nihat Kahveci,6,,normal,ESPN
 2003-0162,Valladolid,Ariza Makukula,29,,normal,ESPN
 2003-0162,Valladolid,Óscar,71,,normal,ESPN
 2003-0162,Valladolid,Roberto Losada,85,,normal,ESPN
@@ -2399,7 +2399,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0175,Espanyol,Tamudo,75,,normal,ESPN
 2003-0176,Málaga,Carlos Litos,25,,normal,ESPN
 2003-0176,Real Sociedad,Valeri Karpin,36,,normal,ESPN
-2003-0176,Real Sociedad,Kahveci Nihat,45,,normal,ESPN
+2003-0176,Real Sociedad,Nihat Kahveci,45,,normal,ESPN
 2003-0177,Racing Santander,Delgado Juanma,51,,normal,ESPN
 2003-0177,Racing Santander,Mario Regueiro,80,,normal,ESPN
 2003-0177,Racing Santander,Francisco Javier Garcia Guerrero,84,,normal,ESPN
@@ -2435,7 +2435,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0189,Espanyol,Maxi Rodríguez,10,,normal,ESPN
 2003-0190,Villarreal,José Marí,39,,normal,ESPN
 2003-0190,Valladolid,Ariza Makukula,65,,normal,ESPN
-2003-0190,Villarreal,Fernandez Manuel Gutierrez Victor,73,,normal,ESPN
+2003-0190,Villarreal,Víctor Fernández,73,,normal,ESPN
 2003-0190,Villarreal,Garcia Roger,84,,normal,ESPN
 2003-0191,Barcelona,Patrick Kluivert,63,,normal,ESPN
 2003-0191,Athletic Bilbao,Carlos Gurpegi,85,,normal,ESPN
@@ -2459,7 +2459,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0198,Real Madrid,Ronaldo,59,,normal,ESPN
 2003-0199,Real Sociedad,Valeri Karpin,6,,penalti,ESPN
 2003-0199,Real Sociedad,Igor Gabilondo,84,,normal,ESPN
-2003-0199,Real Sociedad,Kahveci Nihat,88,,normal,ESPN
+2003-0199,Real Sociedad,Nihat Kahveci,88,,normal,ESPN
 2003-0199,Espanyol,Jordi Cruyff,90,,normal,ESPN
 2003-0200,Villarreal,Rodolfo Arruabarrena,67,,normal,ESPN
 2003-0200,Villarreal,Sonny Anderson,82,,normal,ESPN
@@ -2474,16 +2474,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0204,Real Sociedad,Savo Milosevic,42,,contra,ESPN
 2003-0204,Celta,Peter Luccin,50,,penalti,ESPN
 2003-0204,Real Sociedad,Xabi Alonso,59,,normal,ESPN
-2003-0204,Real Sociedad,Kahveci Nihat,70,,normal,ESPN
-2003-0204,Real Sociedad,Kahveci Nihat,72,,normal,ESPN
+2003-0204,Real Sociedad,Nihat Kahveci,70,,normal,ESPN
+2003-0204,Real Sociedad,Nihat Kahveci,72,,normal,ESPN
 2003-0205,Betis,Carles Mingo,8,,normal,ESPN
 2003-0205,Betis,Fernando Fernandez,29,,penalti,ESPN
 2003-0205,Espanyol,Tamudo,63,,penalti,ESPN
-2003-0206,Málaga,Ballesta Salva,23,,normal,ESPN
+2003-0206,Málaga,Salva Ballesta,23,,normal,ESPN
 2003-0206,Valladolid,Óscar,41,,normal,ESPN
 2003-0206,Valladolid,Óscar,67,,normal,ESPN
 2003-0206,Valladolid,Julio Cesar,78,,normal,ESPN
-2003-0206,Málaga,Ballesta Salva,79,,normal,ESPN
+2003-0206,Málaga,Salva Ballesta,79,,normal,ESPN
 2003-0207,Racing Santander,Francisco Javier Garcia Guerrero,32,,normal,ESPN
 2003-0207,Murcia,Juan Esnaider,43,,normal,ESPN
 2003-0207,Racing Santander,Francisco Javier Garcia Guerrero,72,,normal,ESPN
@@ -2503,7 +2503,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0212,Valencia,Ricardo Oliveira,58,,normal,ESPN
 2003-0212,Valencia,Ricardo Oliveira,65,,normal,ESPN
 2003-0212,Valencia,David Albelda,72,,normal,ESPN
-2003-0212,Málaga,Ballesta Salva,75,,normal,ESPN
+2003-0212,Málaga,Salva Ballesta,75,,normal,ESPN
 2003-0213,Betis,Alejandro Lembo,35,,normal,ESPN
 2003-0214,Deportivo La Coruña,Diego Tristán,27,,penalti,ESPN
 2003-0215,Barcelona,Xavi,15,,normal,ESPN
@@ -2531,7 +2531,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0222,Valencia,Mista,70,,normal,ESPN
 2003-0223,Deportivo La Coruña,Lionel Scaloni,60,,normal,ESPN
 2003-0223,Deportivo La Coruña,Albert Luque,60,,normal,ESPN
-2003-0224,Athletic Bilbao,Ismael Aranda Urzaiz,12,,normal,ESPN
+2003-0224,Athletic Bilbao,Ismael Urzaiz,12,,normal,ESPN
 2003-0224,Murcia,Luis Garcia,15,,normal,ESPN
 2003-0224,Athletic Bilbao,Francisco Javier Yeste,43,,penalti,ESPN
 2003-0225,Barcelona,Javier Saviola,42,,normal,ESPN
@@ -2556,7 +2556,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0231,Murcia,Luis Garcia,90,,penalti,ESPN
 2003-0231,Sevilla,Júlio Baptista,90,,normal,ESPN
 2003-0232,Athletic Bilbao,Francisco Javier Yeste,15,,normal,ESPN
-2003-0232,Real Sociedad,Kahveci Nihat,39,,normal,ESPN
+2003-0232,Real Sociedad,Nihat Kahveci,39,,normal,ESPN
 2003-0233,Deportivo La Coruña,Sanchez Victor,22,,normal,ESPN
 2003-0233,Deportivo La Coruña,Sanchez Victor,36,,normal,ESPN
 2003-0234,Barcelona,Javier Saviola,9,,normal,ESPN
@@ -2567,7 +2567,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0235,Málaga,Sanchez Manu,40,,normal,ESPN
 2003-0235,Espanyol,Alberto Lopo,45,,normal,ESPN
 2003-0235,Málaga,Juan Jesus Gutierrez,45,,normal,ESPN
-2003-0235,Málaga,Ballesta Salva,61,,normal,ESPN
+2003-0235,Málaga,Salva Ballesta,61,,normal,ESPN
 2003-0235,Espanyol,Tamudo,76,,normal,ESPN
 2003-0235,Málaga,Federico Insúa,83,,normal,ESPN
 2003-0237,Zaragoza,Cani,2,,normal,ESPN
@@ -2586,7 +2586,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0240,Villarreal,Sonny Anderson,72,,normal,ESPN
 2003-0240,Racing Santander,Yossi Benayoun,83,,normal,ESPN
 2003-0240,Villarreal,Bustillo Pablo Casar,90,,contra,ESPN
-2003-0242,Málaga,Ballesta Salva,12,,penalti,ESPN
+2003-0242,Málaga,Salva Ballesta,12,,penalti,ESPN
 2003-0242,Málaga,Diego Alonso,90,,normal,ESPN
 2003-0243,Real Madrid,Ronaldo,25,,penalti,ESPN
 2003-0243,Espanyol,Tamudo,30,,penalti,ESPN
@@ -2620,7 +2620,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0254,Espanyol,Tamudo,38,,normal,ESPN
 2003-0254,Espanyol,Tamudo,75,,normal,ESPN
 2003-0254,Valencia,Mista,77,,normal,ESPN
-2003-0255,Málaga,Ballesta Salva,38,,normal,ESPN
+2003-0255,Málaga,Salva Ballesta,38,,normal,ESPN
 2003-0256,Atlético de Madrid,Fernando Torres,90,,normal,ESPN
 2003-0257,Celta,Sasa Ilic,17,,normal,ESPN
 2003-0257,Real Madrid,Ronaldo,54,,normal,ESPN
@@ -2670,7 +2670,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0274,Racing Santander,Fernando Mora,56,,normal,ESPN
 2003-0275,Athletic Bilbao,Aitor Larrazabal,38,,penalti,ESPN
 2003-0275,Málaga,Jose Juan Luque,47,,normal,ESPN
-2003-0275,Málaga,Ballesta Salva,90,,normal,ESPN
+2003-0275,Málaga,Salva Ballesta,90,,normal,ESPN
 2003-0276,Mallorca,Fernando Correa,6,,normal,ESPN
 2003-0276,Deportivo La Coruña,Pedro Munitis,22,,normal,ESPN
 2003-0276,Mallorca,Iván Ramis,35,,normal,ESPN
@@ -2687,7 +2687,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0280,Villarreal,Fabricio Coloccini,49,,normal,ESPN
 2003-0280,Villarreal,Sonny Anderson,57,,normal,ESPN
 2003-0281,Athletic Bilbao,Francisco Javier Yeste,40,,normal,ESPN
-2003-0281,Athletic Bilbao,Ismael Aranda Urzaiz,44,,normal,ESPN
+2003-0281,Athletic Bilbao,Ismael Urzaiz,44,,normal,ESPN
 2003-0281,Real Madrid,Raúl,46,,normal,ESPN
 2003-0281,Real Madrid,Raúl,71,,normal,ESPN
 2003-0281,Athletic Bilbao,Asier Del Horno,74,,normal,ESPN
@@ -2712,7 +2712,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0287,Racing Santander,Francisco Javier Garcia Guerrero,85,,normal,ESPN
 2003-0288,Zaragoza,David Villa,21,,normal,ESPN
 2003-0288,Espanyol,Fredson,29,,normal,ESPN
-2003-0289,Málaga,Ballesta Salva,78,,penalti,ESPN
+2003-0289,Málaga,Salva Ballesta,78,,penalti,ESPN
 2003-0290,Valencia,Mista,44,,normal,ESPN
 2003-0290,Valencia,Rubén Baraja,56,,normal,ESPN
 2003-0290,Valencia,Miguel Angel Angulo,60,,normal,ESPN
@@ -2723,7 +2723,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0291,Espanyol,Tamudo,83,,penalti,ESPN
 2003-0291,Athletic Bilbao,Mauricio Pochettino,90,,contra,ESPN
 2003-0292,Deportivo La Coruña,Walter Pandiani,10,,normal,ESPN
-2003-0292,Real Sociedad,Kahveci Nihat,43,,normal,ESPN
+2003-0292,Real Sociedad,Nihat Kahveci,43,,normal,ESPN
 2003-0292,Deportivo La Coruña,Aitor López Rekarte,90,,contra,ESPN
 2003-0293,Zaragoza,Alvaro,75,,normal,ESPN
 2003-0293,Zaragoza,Yordi,90,,normal,ESPN
@@ -2781,8 +2781,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0316,Osasuna,Valdo,2,,normal,ESPN
 2003-0316,Osasuna,Pablo García,43,,normal,ESPN
 2003-0316,Osasuna,Moha,61,,normal,ESPN
-2003-0317,Real Sociedad,Kahveci Nihat,64,,normal,ESPN
-2003-0317,Real Sociedad,Kahveci Nihat,87,,normal,ESPN
+2003-0317,Real Sociedad,Nihat Kahveci,64,,normal,ESPN
+2003-0317,Real Sociedad,Nihat Kahveci,87,,normal,ESPN
 2003-0318,Valencia,Miguel Angel Angulo,69,,normal,ESPN
 2003-0319,Deportivo La Coruña,Walter Pandiani,38,,normal,ESPN
 2003-0319,Deportivo La Coruña,Diego Tristán,90,,normal,ESPN
@@ -2834,7 +2834,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0335,Albacete,Pablo Redondo,55,,normal,ESPN
 2003-0336,Betis,Benjamín,15,,normal,ESPN
 2003-0336,Betis,Martin Dani,20,,normal,ESPN
-2003-0336,Real Sociedad,Kahveci Nihat,45,,normal,ESPN
+2003-0336,Real Sociedad,Nihat Kahveci,45,,normal,ESPN
 2003-0337,Real Madrid,Santiago Solari,54,,normal,ESPN
 2003-0337,Barcelona,Patrick Kluivert,58,,normal,ESPN
 2003-0337,Barcelona,Xavi,86,,normal,ESPN
@@ -2901,7 +2901,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0356,Racing Santander,Omri Afek,90,,normal,ESPN
 2003-0357,Real Sociedad,Igor Gabilondo,18,,normal,ESPN
 2003-0357,Valladolid,Fernando Sales,22,,normal,ESPN
-2003-0357,Real Sociedad,Kahveci Nihat,42,,normal,ESPN
+2003-0357,Real Sociedad,Nihat Kahveci,42,,normal,ESPN
 2003-0357,Valladolid,Fernando Sales,71,,normal,ESPN
 2003-0358,Zaragoza,Alvaro,90,,normal,ESPN
 2003-0359,Valencia,Vicente Rodriguez Guillen,12,,normal,ESPN
@@ -2923,7 +2923,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0365,Zaragoza,Delio Toledo,90,,normal,ESPN
 2003-0365,Zaragoza,Delio Toledo,90,,normal,ESPN
 2003-0366,Athletic Bilbao,Francisco Javier Yeste,46,,normal,ESPN
-2003-0366,Athletic Bilbao,Ismael Aranda Urzaiz,61,,normal,ESPN
+2003-0366,Athletic Bilbao,Ismael Urzaiz,61,,normal,ESPN
 2003-0366,Osasuna,Valdo,86,,normal,ESPN
 2003-0367,Barcelona,Ronaldinho,15,,penalti,ESPN
 2003-0368,Espanyol,Tamudo,5,,penalti,ESPN
@@ -2949,7 +2949,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-0372,Celta,Castro Jandro,90,,normal,ESPN
 2003-0373,Espanyol,Tamudo,66,,normal,ESPN
 2003-0373,Espanyol,Alberto Lopo,79,,normal,ESPN
-2003-0374,Málaga,Ballesta Salva,20,,normal,ESPN
+2003-0374,Málaga,Salva Ballesta,20,,normal,ESPN
 2003-0374,Málaga,Manuel Canabal,45,,normal,ESPN
 2003-0374,Betis,Martin Dani,62,,normal,ESPN
 2003-0374,Betis,Juanito,69,,normal,ESPN
@@ -2980,16 +2980,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0006,Barcelona,Ludovic Giuly,68,,normal,ESPN
 2004-0006,Barcelona,Samuel Eto'o,74,,penalti,ESPN
 2004-0007,Levante,Ian Harte,42,,normal,ESPN
-2004-0007,Real Sociedad,Kahveci Nihat,47,,normal,ESPN
+2004-0007,Real Sociedad,Nihat Kahveci,47,,normal,ESPN
 2004-0008,Getafe,Serrano Ramos Jose Antonio,16,,normal,ESPN
 2004-0008,Zaragoza,Alvaro,22,,normal,ESPN
-2004-0008,Zaragoza,Bortolini Pimentel Savio,62,,normal,ESPN
+2004-0008,Zaragoza,Sávio,62,,normal,ESPN
 2004-0008,Zaragoza,Alvaro,79,,normal,ESPN
 2004-0009,Sevilla,Renato ,47,,normal,ESPN
 2004-0010,Valencia,Carlos Marchena,26,,normal,ESPN
 2004-0010,Valencia,Rubén Baraja,38,,normal,ESPN
 2004-0010,Villarreal,Diego Forlán,77,,normal,ESPN
-2004-0011,Athletic Bilbao,Ismael Aranda Urzaiz,14,,normal,ESPN
+2004-0011,Athletic Bilbao,Ismael Urzaiz,14,,normal,ESPN
 2004-0011,Athletic Bilbao,Andoni Iraola,20,,penalti,ESPN
 2004-0011,Valencia,Marco Di Vaio,65,,normal,ESPN
 2004-0011,Valencia,Miguel Angel Angulo,76,,normal,ESPN
@@ -3039,7 +3039,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0029,Albacete,Antonio Pacheco,33,,normal,ESPN
 2004-0029,Albacete,Pablo Redondo,40,,normal,ESPN
 2004-0029,Zaragoza,Varela Javi Moreno,52,,normal,ESPN
-2004-0029,Zaragoza,Bortolini Pimentel Savio,57,,normal,ESPN
+2004-0029,Zaragoza,Sávio,57,,normal,ESPN
 2004-0029,Zaragoza,David Villa,69,,normal,ESPN
 2004-0029,Albacete,Rubén Castro,89,,normal,ESPN
 2004-0030,Sevilla,Renato ,20,,normal,ESPN
@@ -3060,7 +3060,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0036,Numancia,Juan Ochoa,67,,normal,ESPN
 2004-0036,Málaga,Jose Juan Luque,90,,normal,ESPN
 2004-0037,Betis,Juanito,37,,normal,ESPN
-2004-0037,Athletic Bilbao,Ismael Aranda Urzaiz,38,,normal,ESPN
+2004-0037,Athletic Bilbao,Ismael Urzaiz,38,,normal,ESPN
 2004-0037,Betis,Fernando Fernandez,58,,normal,ESPN
 2004-0038,Racing Santander,Mario Regueiro,43,,normal,ESPN
 2004-0040,Zaragoza,David Villa,14,,normal,ESPN
@@ -3068,10 +3068,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0040,Barcelona,Samuel Eto'o,46,,normal,ESPN
 2004-0040,Barcelona,Xavi,67,,normal,ESPN
 2004-0040,Barcelona,Giovanni van Bronckhorst,78,,normal,ESPN
-2004-0041,Athletic Bilbao,Ismael Aranda Urzaiz,11,,normal,ESPN
+2004-0041,Athletic Bilbao,Ismael Urzaiz,11,,normal,ESPN
 2004-0041,Athletic Bilbao,Santiago Ezquerro,45,,normal,ESPN
 2004-0041,Real Madrid,Raúl Bravo,50,,normal,ESPN
-2004-0042,Atlético de Madrid,Ballesta Salva,41,,normal,ESPN
+2004-0042,Atlético de Madrid,Salva Ballesta,41,,normal,ESPN
 2004-0043,Betis,Ricardo Oliveira,67,,normal,ESPN
 2004-0043,Deportivo La Coruña,Sanchez Victor,76,,normal,ESPN
 2004-0044,Osasuna,Moha,21,,normal,ESPN
@@ -3086,7 +3086,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0048,Zaragoza,David Villa,36,,penalti,ESPN
 2004-0048,Levante,Vladimir Manchev,45,,normal,ESPN
 2004-0048,Zaragoza,Varela Javi Moreno,46,,normal,ESPN
-2004-0048,Zaragoza,Bortolini Pimentel Savio,51,,normal,ESPN
+2004-0048,Zaragoza,Sávio,51,,normal,ESPN
 2004-0048,Zaragoza,Varela Javi Moreno,74,,normal,ESPN
 2004-0048,Levante,Fabio Celestini,75,,normal,ESPN
 2004-0049,Real Sociedad,Adriano Rossato,33,,normal,ESPN
@@ -3116,7 +3116,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0062,Barcelona,Deco,9,,normal,ESPN
 2004-0063,Betis,Ricardo Oliveira,30,,normal,ESPN
 2004-0063,Real Madrid,Ronaldo,65,,normal,ESPN
-2004-0064,Athletic Bilbao,Ismael Aranda Urzaiz,33,,normal,ESPN
+2004-0064,Athletic Bilbao,Ismael Urzaiz,33,,normal,ESPN
 2004-0065,Atlético de Madrid,Fernando Torres,7,,normal,ESPN
 2004-0066,Osasuna,Francisco Puñal,19,,normal,ESPN
 2004-0066,Osasuna,Valdo,40,,normal,ESPN
@@ -3131,7 +3131,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0068,Villarreal,Diego Forlán,21,,normal,ESPN
 2004-0069,Zaragoza,David Villa,30,,penalti,ESPN
 2004-0069,Real Sociedad,Valeri Karpin,35,,penalti,ESPN
-2004-0069,Zaragoza,Bortolini Pimentel Savio,65,,normal,ESPN
+2004-0069,Zaragoza,Sávio,65,,normal,ESPN
 2004-0070,Valencia,Aitor Ocio,58,,contra,ESPN
 2004-0070,Sevilla,Júlio Baptista,65,,normal,ESPN
 2004-0070,Sevilla,Carlos Reina Aranda,82,,normal,ESPN
@@ -3177,8 +3177,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0092,Deportivo La Coruña,Gonzalez Fran,6,,normal,ESPN
 2004-0092,Barcelona,Xavi,23,,normal,ESPN
 2004-0092,Barcelona,Samuel Eto'o,34,,normal,ESPN
-2004-0093,Zaragoza,Bortolini Pimentel Savio,2,,normal,ESPN
-2004-0093,Atlético de Madrid,Ballesta Salva,83,,normal,ESPN
+2004-0093,Zaragoza,Sávio,2,,normal,ESPN
+2004-0093,Atlético de Madrid,Salva Ballesta,83,,normal,ESPN
 2004-0094,Getafe,Miguel Angel Carrilero González,17,,normal,ESPN
 2004-0095,Levante,Barbadilla Jesule,67,,normal,ESPN
 2004-0096,Real Madrid,Luis Figo,23,,penalti,ESPN
@@ -3192,8 +3192,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0100,Villarreal,Juan Román Riquelme,37,,penalti,ESPN
 2004-0100,Villarreal,Gonzalo Rodríguez,39,,normal,ESPN
 2004-0100,Villarreal,Juan Román Riquelme,65,,normal,ESPN
-2004-0101,Athletic Bilbao,Ismael Aranda Urzaiz,46,,normal,ESPN
-2004-0101,Athletic Bilbao,Ismael Aranda Urzaiz,51,,normal,ESPN
+2004-0101,Athletic Bilbao,Ismael Urzaiz,46,,normal,ESPN
+2004-0101,Athletic Bilbao,Ismael Urzaiz,51,,normal,ESPN
 2004-0101,Villarreal,José Marí,59,,normal,ESPN
 2004-0102,Osasuna,Richard Morales,71,,normal,ESPN
 2004-0103,Sevilla,Antonio Puerta,63,,normal,ESPN
@@ -3233,15 +3233,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0117,Osasuna,Richard Morales,20,,normal,ESPN
 2004-0117,Racing Santander,Francisco Javier Garcia Guerrero,48,,normal,ESPN
 2004-0118,Athletic Bilbao,Santiago Ezquerro,39,,normal,ESPN
-2004-0118,Athletic Bilbao,Ismael Aranda Urzaiz,42,,normal,ESPN
-2004-0118,Real Sociedad,Kahveci Nihat,56,,normal,ESPN
-2004-0118,Real Sociedad,Kahveci Nihat,66,,normal,ESPN
+2004-0118,Athletic Bilbao,Ismael Urzaiz,42,,normal,ESPN
+2004-0118,Real Sociedad,Nihat Kahveci,56,,normal,ESPN
+2004-0118,Real Sociedad,Nihat Kahveci,66,,normal,ESPN
 2004-0118,Real Sociedad,Igor Gabilondo,73,,normal,ESPN
 2004-0119,Mallorca,Luis Garcia,20,,normal,ESPN
 2004-0120,Sevilla,Júlio Baptista,39,,normal,ESPN
 2004-0121,Athletic Bilbao,Santiago Ezquerro,7,,normal,ESPN
 2004-0121,Athletic Bilbao,Carlos Gurpegi,26,,normal,ESPN
-2004-0121,Athletic Bilbao,Ismael Aranda Urzaiz,63,,normal,ESPN
+2004-0121,Athletic Bilbao,Ismael Urzaiz,63,,normal,ESPN
 2004-0122,Espanyol,Dani García,52,,penalti,ESPN
 2004-0122,Atlético de Madrid,Fernando Nano,55,,normal,ESPN
 2004-0122,Espanyol,Dani García,74,,normal,ESPN
@@ -3258,7 +3258,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0125,Zaragoza,Gabriel Milito,36,,normal,ESPN
 2004-0126,Deportivo La Coruña,Albert Luque,15,,normal,ESPN
 2004-0126,Deportivo La Coruña,Pedro Munitis,29,,normal,ESPN
-2004-0126,Real Sociedad,Kahveci Nihat,32,,normal,ESPN
+2004-0126,Real Sociedad,Nihat Kahveci,32,,normal,ESPN
 2004-0126,Real Sociedad,Darko Kovacevic,50,,normal,ESPN
 2004-0127,Albacete,Laurent Viaud,8,,normal,ESPN
 2004-0127,Albacete,Momo,46,,normal,ESPN
@@ -3279,7 +3279,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0132,Barcelona,Samuel Eto'o,90,,normal,ESPN
 2004-0133,Real Sociedad,Darko Kovacevic,35,,normal,ESPN
 2004-0134,Atlético de Madrid,Fernando Torres,15,,normal,ESPN
-2004-0134,Atlético de Madrid,Ballesta Salva,30,,normal,ESPN
+2004-0134,Atlético de Madrid,Salva Ballesta,30,,normal,ESPN
 2004-0134,Osasuna,Valdo,44,,normal,ESPN
 2004-0134,Atlético de Madrid,Gonzalo Colsa,54,,normal,ESPN
 2004-0134,Osasuna,Richard Morales,74,,normal,ESPN
@@ -3331,7 +3331,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0155,Osasuna,Valdo,32,,normal,ESPN
 2004-0155,Osasuna,Valdo,40,,normal,ESPN
 2004-0155,Mallorca,Jesus Lopez,80,,normal,ESPN
-2004-0156,Real Sociedad,Kahveci Nihat,70,,normal,ESPN
+2004-0156,Real Sociedad,Nihat Kahveci,70,,normal,ESPN
 2004-0156,Getafe,Mariano Pernía,80,,normal,ESPN
 2004-0157,Athletic Bilbao,Santiago Ezquerro,53,,normal,ESPN
 2004-0157,Athletic Bilbao,Santiago Ezquerro,78,,normal,ESPN
@@ -3366,14 +3366,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0167,Málaga,Vicente Valcarce,41,,normal,ESPN
 2004-0167,Real Sociedad,Darko Kovacevic,51,,normal,ESPN
 2004-0167,Real Sociedad,Mikel Labaka,59,,normal,ESPN
-2004-0167,Real Sociedad,Kahveci Nihat,70,,normal,ESPN
-2004-0167,Real Sociedad,Kahveci Nihat,81,,normal,ESPN
+2004-0167,Real Sociedad,Nihat Kahveci,70,,normal,ESPN
+2004-0167,Real Sociedad,Nihat Kahveci,81,,normal,ESPN
 2004-0168,Sevilla,Júlio Baptista,20,,normal,ESPN
 2004-0169,Valencia,Rubén Baraja,12,,normal,ESPN
 2004-0169,Valencia,Mista,83,,normal,ESPN
 2004-0169,Valencia,Mista,88,,normal,ESPN
 2004-0170,Real Madrid,Ronaldo,41,,normal,ESPN
-2004-0170,Real Sociedad,Kahveci Nihat,72,,normal,ESPN
+2004-0170,Real Sociedad,Nihat Kahveci,72,,normal,ESPN
 2004-0170,Real Madrid,Zinedine Zidane,90,,penalti,ESPN
 2004-0171,Athletic Bilbao,Asier Del Horno,46,,normal,ESPN
 2004-0171,Numancia,Luis Tevenet,65,,normal,ESPN
@@ -3397,7 +3397,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0177,Málaga,César Navas,85,,normal,ESPN
 2004-0178,Albacete,Antonio Pacheco,6,,normal,ESPN
 2004-0178,Albacete,Antonio Pacheco,48,,normal,ESPN
-2004-0179,Zaragoza,Bortolini Pimentel Savio,43,,normal,ESPN
+2004-0179,Zaragoza,Sávio,43,,normal,ESPN
 2004-0180,Villarreal,Diego Forlán,30,,normal,ESPN
 2004-0180,Villarreal,Gonzalo Rodríguez,47,,normal,ESPN
 2004-0180,Villarreal,Diego Forlán,85,,normal,ESPN
@@ -3443,7 +3443,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0195,Getafe,Mario Cotelo,35,,normal,ESPN
 2004-0196,Levante,Ignacio Pérez Santamaría,4,,normal,ESPN
 2004-0196,Levante,Edwin Congo,47,,normal,ESPN
-2004-0196,Real Sociedad,Kahveci Nihat,53,,normal,ESPN
+2004-0196,Real Sociedad,Nihat Kahveci,53,,normal,ESPN
 2004-0197,Málaga,Juan Rodríguez,81,,normal,ESPN
 2004-0198,Betis,Juanito,15,,normal,ESPN
 2004-0198,Betis,Marcos Assuncao,24,,normal,ESPN
@@ -3496,11 +3496,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0211,Real Madrid,Raúl,75,,normal,ESPN
 2004-0211,Real Madrid,Thomas Gravesen,84,,normal,ESPN
 2004-0212,Valencia,Marco Di Vaio,8,,normal,ESPN
-2004-0212,Real Sociedad,Kahveci Nihat,45,,normal,ESPN
+2004-0212,Real Sociedad,Nihat Kahveci,45,,normal,ESPN
 2004-0212,Real Sociedad,Mikel Aranburu,79,,normal,ESPN
 2004-0212,Valencia,Rubén Baraja,83,,normal,ESPN
 2004-0212,Valencia,Francisco Munoz Xisco,89,,normal,ESPN
-2004-0212,Real Sociedad,Kahveci Nihat,90,,normal,ESPN
+2004-0212,Real Sociedad,Nihat Kahveci,90,,normal,ESPN
 2004-0213,Zaragoza,Óscar,14,,normal,ESPN
 2004-0213,Albacete,Antonio Pacheco,48,,penalti,ESPN
 2004-0213,Albacete,Antonio Pacheco,84,,penalti,ESPN
@@ -3530,8 +3530,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0223,Betis,Ricardo Oliveira,4,,normal,ESPN
 2004-0223,Betis,Joaquín,11,,normal,ESPN
 2004-0223,Betis,Ricardo Oliveira,24,,normal,ESPN
-2004-0223,Athletic Bilbao,Ismael Aranda Urzaiz,31,,normal,ESPN
-2004-0223,Athletic Bilbao,Ismael Aranda Urzaiz,34,,normal,ESPN
+2004-0223,Athletic Bilbao,Ismael Urzaiz,31,,normal,ESPN
+2004-0223,Athletic Bilbao,Ismael Urzaiz,34,,normal,ESPN
 2004-0223,Athletic Bilbao,Carlos Gurpegi,47,,normal,ESPN
 2004-0223,Athletic Bilbao,Francisco Javier Yeste,69,,normal,ESPN
 2004-0223,Betis,Ricardo Oliveira,80,,normal,ESPN
@@ -3545,8 +3545,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0228,Mallorca,Antoni Lluis Adrover Colombo,52,,normal,ESPN
 2004-0228,Mallorca,Luis Garcia,72,,penalti,ESPN
 2004-0229,Real Sociedad,Mikel Aranburu,8,,normal,ESPN
-2004-0229,Real Sociedad,Kahveci Nihat,10,,normal,ESPN
-2004-0229,Real Sociedad,Kahveci Nihat,35,,normal,ESPN
+2004-0229,Real Sociedad,Nihat Kahveci,10,,normal,ESPN
+2004-0229,Real Sociedad,Nihat Kahveci,35,,normal,ESPN
 2004-0229,Racing Santander,Anderson Silva de Franca,57,,normal,ESPN
 2004-0230,Sevilla,Júlio Baptista,36,,normal,ESPN
 2004-0230,Sevilla,Júlio Baptista,82,,penalti,ESPN
@@ -3617,7 +3617,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0259,Mallorca,Javi Venta,16,,contra,ESPN
 2004-0259,Villarreal,Luciano Figueroa,62,,normal,ESPN
 2004-0259,Villarreal,Diego Forlán,84,,normal,ESPN
-2004-0260,Atlético de Madrid,Ballesta Salva,16,,normal,ESPN
+2004-0260,Atlético de Madrid,Salva Ballesta,16,,normal,ESPN
 2004-0260,Atlético de Madrid,Fernando Torres,37,,normal,ESPN
 2004-0260,Atlético de Madrid,Antonio López,42,,normal,ESPN
 2004-0261,Barcelona,Samuel Eto'o,40,,normal,ESPN
@@ -3683,7 +3683,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0284,Athletic Bilbao,Fernando Llorente,12,,normal,ESPN
 2004-0284,Athletic Bilbao,Fernando Llorente,52,,normal,ESPN
 2004-0284,Levante,Juanma Gómez,73,,normal,ESPN
-2004-0284,Athletic Bilbao,Ismael Aranda Urzaiz,87,,normal,ESPN
+2004-0284,Athletic Bilbao,Ismael Urzaiz,87,,normal,ESPN
 2004-0285,Numancia,Iniesta Pablo Sanz,5,,normal,ESPN
 2004-0285,Racing Santander,Mario Regueiro,24,,normal,ESPN
 2004-0285,Numancia,Francisco Tarantino,40,,normal,ESPN
@@ -3710,8 +3710,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0293,Real Madrid,Michael Owen,45,,normal,ESPN
 2004-0294,Atlético de Madrid,Gonzalo Colsa,26,,normal,ESPN
 2004-0294,Atlético de Madrid,Fernando Torres,60,,normal,ESPN
-2004-0294,Atlético de Madrid,Ballesta Salva,85,,normal,ESPN
-2004-0294,Atlético de Madrid,Ballesta Salva,88,,normal,ESPN
+2004-0294,Atlético de Madrid,Salva Ballesta,85,,normal,ESPN
+2004-0294,Atlético de Madrid,Salva Ballesta,88,,normal,ESPN
 2004-0295,Betis,Joaquín,12,,normal,ESPN
 2004-0295,Barcelona,Samuel Eto'o,16,,normal,ESPN
 2004-0295,Betis,Ricardo Oliveira,39,,normal,ESPN
@@ -3733,7 +3733,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0303,Deportivo La Coruña,Albert Luque,63,,normal,ESPN
 2004-0303,Villarreal,César Arzo,85,,normal,ESPN
 2004-0305,Getafe,Ángel Vivar Dorado,65,,normal,ESPN
-2004-0306,Zaragoza,Bortolini Pimentel Savio,56,,normal,ESPN
+2004-0306,Zaragoza,Sávio,56,,normal,ESPN
 2004-0306,Zaragoza,David Villa,86,,normal,ESPN
 2004-0307,Betis,Edu,11,,normal,ESPN
 2004-0307,Levante,Alberto Rivera,25,,normal,ESPN
@@ -3761,7 +3761,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0318,Numancia,Cani,67,,contra,ESPN
 2004-0318,Zaragoza,David Villa,70,,normal,ESPN
 2004-0318,Zaragoza,Leonardo Ponzio,79,,normal,ESPN
-2004-0318,Zaragoza,Bortolini Pimentel Savio,82,,normal,ESPN
+2004-0318,Zaragoza,Sávio,82,,normal,ESPN
 2004-0320,Osasuna,John Aloisi,4,,normal,ESPN
 2004-0321,Villarreal,Juan Román Riquelme,39,,normal,ESPN
 2004-0321,Real Madrid,Ronaldo,69,,normal,ESPN
@@ -3816,14 +3816,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0337,Racing Santander,Yossi Benayoun,62,,normal,ESPN
 2004-0337,Betis,Martin Dani,80,,normal,ESPN
 2004-0338,Zaragoza,David Villa,11,,normal,ESPN
-2004-0338,Zaragoza,Bortolini Pimentel Savio,39,,normal,ESPN
+2004-0338,Zaragoza,Sávio,39,,normal,ESPN
 2004-0338,Zaragoza,Óscar,60,,normal,ESPN
 2004-0338,Zaragoza,Generelo,64,,normal,ESPN
 2004-0338,Osasuna,Moha,66,,normal,ESPN
 2004-0338,Zaragoza,David Villa,86,,normal,ESPN
 2004-0339,Sevilla,Adriano,13,,normal,ESPN
 2004-0339,Sevilla,Jesús Navas,20,,normal,ESPN
-2004-0341,Athletic Bilbao,Ismael Aranda Urzaiz,54,,normal,ESPN
+2004-0341,Athletic Bilbao,Ismael Urzaiz,54,,normal,ESPN
 2004-0341,Athletic Bilbao,Jesus Lacruz,84,,normal,ESPN
 2004-0342,Mallorca,Francisco Farinos,34,,normal,ESPN
 2004-0342,Osasuna,Savo Milosevic,83,,normal,ESPN
@@ -3876,7 +3876,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0359,Zaragoza,Generelo,58,,normal,ESPN
 2004-0359,Zaragoza,Generelo,65,,normal,ESPN
 2004-0360,Villarreal,Juan Román Riquelme,68,,normal,ESPN
-2004-0361,Zaragoza,Bortolini Pimentel Savio,36,,normal,ESPN
+2004-0361,Zaragoza,Sávio,36,,normal,ESPN
 2004-0361,Betis,Juanito,58,,normal,ESPN
 2004-0361,Betis,Ricardo Oliveira,69,,normal,ESPN
 2004-0361,Betis,Fernando Fernandez,82,,normal,ESPN
@@ -3999,11 +3999,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0036,Atlético de Madrid,Fernando Torres,10,,normal,ESPN
 2005-0036,Atlético de Madrid,Mateja Kezman,19,,normal,ESPN
 2005-0036,Real Sociedad,Darko Kovacevic,56,,normal,ESPN
-2005-0036,Real Sociedad,Kahveci Nihat,83,,normal,ESPN
+2005-0036,Real Sociedad,Nihat Kahveci,83,,normal,ESPN
 2005-0036,Real Sociedad,Darko Kovacevic,90,,normal,ESPN
 2005-0037,Zaragoza,Diego Milito,51,,normal,ESPN
 2005-0037,Zaragoza,Cani,81,,normal,ESPN
-2005-0037,Zaragoza,Bortolini Pimentel Savio,83,,normal,ESPN
+2005-0037,Zaragoza,Sávio,83,,normal,ESPN
 2005-0037,Osasuna,Ludovic Delporte,85,,normal,ESPN
 2005-0039,Celta,Fernando Baiano,27,,normal,ESPN
 2005-0039,Celta,Fernando Baiano,46,,normal,ESPN
@@ -4025,7 +4025,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0044,Deportivo La Coruña,Diego Tristán,45,,normal,ESPN
 2005-0045,Valencia,Pablo Aimar,34,,normal,ESPN
 2005-0045,Valencia,David Villa,48,,normal,ESPN
-2005-0045,Real Sociedad,Kahveci Nihat,62,,normal,ESPN
+2005-0045,Real Sociedad,Nihat Kahveci,62,,normal,ESPN
 2005-0047,Osasuna,David López,27,,normal,ESPN
 2005-0047,Osasuna,Moha,88,,normal,ESPN
 2005-0048,Real Madrid,Ronaldo,60,,normal,ESPN
@@ -4034,7 +4034,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0049,Celta,Fernando Baiano,1,,normal,ESPN
 2005-0049,Celta,Borja Oubina,15,,normal,ESPN
 2005-0049,Sevilla,Enzo Maresca,54,,normal,ESPN
-2005-0050,Málaga,Salvador Ballesta Vialcho,29,,normal,ESPN
+2005-0050,Málaga,Salva Ballesta,29,,normal,ESPN
 2005-0050,Málaga,Duda,31,,normal,ESPN
 2005-0050,Málaga,Duda,57,,normal,ESPN
 2005-0050,Málaga,Patricio Carvalho Pacheco Edgar,59,,normal,ESPN
@@ -4086,7 +4086,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0069,Real Sociedad,Xabi Prieto,13,,normal,ESPN
 2005-0070,Valencia,Roberto Ayala,10,,normal,ESPN
 2005-0070,Valencia,Vicente Rodriguez Guillen,67,,normal,ESPN
-2005-0070,Málaga,Salvador Ballesta Vialcho,75,,normal,ESPN
+2005-0070,Málaga,Salva Ballesta,75,,normal,ESPN
 2005-0071,Barcelona,Samuel Eto'o,46,,normal,ESPN
 2005-0071,Barcelona,Samuel Eto'o,53,,normal,ESPN
 2005-0071,Barcelona,Ludovic Giuly,88,,normal,ESPN
@@ -4101,8 +4101,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0075,Zaragoza,José María Movilla,49,,normal,ESPN
 2005-0075,Zaragoza,Rubén Pulido,58,,contra,ESPN
 2005-0075,Getafe,Pablo Redondo,86,,normal,ESPN
-2005-0076,Málaga,Salvador Ballesta Vialcho,8,,normal,ESPN
-2005-0076,Málaga,Salvador Ballesta Vialcho,30,,normal,ESPN
+2005-0076,Málaga,Salva Ballesta,8,,normal,ESPN
+2005-0076,Málaga,Salva Ballesta,30,,normal,ESPN
 2005-0076,Málaga,Duran Fernando Sanz,51,,normal,ESPN
 2005-0076,Málaga,Pablo Counago,63,,normal,ESPN
 2005-0076,Málaga,Pablo Counago,74,,normal,ESPN
@@ -4138,7 +4138,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0087,Alavés,Josu Sarriegi,13,,normal,ESPN
 2005-0087,Espanyol,Luis Garcia,15,,normal,ESPN
 2005-0088,Real Sociedad,Mikel Aranburu,4,,normal,ESPN
-2005-0088,Real Sociedad,Kahveci Nihat,17,,normal,ESPN
+2005-0088,Real Sociedad,Nihat Kahveci,17,,normal,ESPN
 2005-0088,Real Sociedad,Xabi Prieto,40,,normal,ESPN
 2005-0089,Zaragoza,Diego Milito,37,,normal,ESPN
 2005-0089,Racing Santander,David Aganzo,70,,normal,ESPN
@@ -4180,7 +4180,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0106,Barcelona,Ludovic Giuly,62,,normal,ESPN
 2005-0106,Barcelona,Thiago Motta,71,,normal,ESPN
 2005-0106,Getafe,Mariano Pernía,89,,normal,ESPN
-2005-0107,Málaga,Salvador Ballesta Vialcho,52,,normal,ESPN
+2005-0107,Málaga,Salva Ballesta,52,,normal,ESPN
 2005-0107,Deportivo La Coruña,Juan Carlos Valerón,76,,normal,ESPN
 2005-0108,Betis,Martin Dani,23,,normal,ESPN
 2005-0108,Racing Santander,Antonio Ramiro Perez,74,,normal,ESPN
@@ -4261,7 +4261,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0139,Deportivo La Coruña,Sanchez Victor,42,,normal,ESPN
 2005-0140,Barcelona,Juan Pena,24,,contra,ESPN
 2005-0140,Barcelona,Deco,63,,normal,ESPN
-2005-0141,Real Sociedad,Kahveci Nihat,5,,normal,ESPN
+2005-0141,Real Sociedad,Nihat Kahveci,5,,normal,ESPN
 2005-0141,Villarreal,Antonio Guayre,36,,normal,ESPN
 2005-0141,Villarreal,Antonio Guayre,55,,normal,ESPN
 2005-0141,Villarreal,Juan Román Riquelme,72,,normal,ESPN
@@ -4280,7 +4280,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0148,Real Madrid,Sergio Ramos,34,,normal,ESPN
 2005-0148,Real Madrid,Robinho,38,,normal,ESPN
 2005-0150,Zaragoza,Eugen Anghel Ewerthon,76,,normal,ESPN
-2005-0151,Athletic Bilbao,Ismael Aranda Urzaiz,22,,normal,ESPN
+2005-0151,Athletic Bilbao,Ismael Urzaiz,22,,normal,ESPN
 2005-0151,Athletic Bilbao,Mikel Dañobeitia Martin,29,,normal,ESPN
 2005-0152,Barcelona,Ludovic Giuly,32,,normal,ESPN
 2005-0152,Barcelona,Samuel Eto'o,45,3,normal,ESPN
@@ -4336,7 +4336,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0170,Osasuna,Raúl García,29,,normal,ESPN
 2005-0170,Osasuna,Bernardo Romeo,34,,normal,ESPN
 2005-0171,Deportivo La Coruña,Jesus Lacruz,25,,contra,ESPN
-2005-0171,Athletic Bilbao,Ismael Aranda Urzaiz,58,,normal,ESPN
+2005-0171,Athletic Bilbao,Ismael Urzaiz,58,,normal,ESPN
 2005-0171,Deportivo La Coruña,Javier Arizmendi,64,,normal,ESPN
 2005-0172,Barcelona,Deco,44,,normal,ESPN
 2005-0172,Barcelona,Samuel Eto'o,47,,normal,ESPN
@@ -4350,7 +4350,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0178,Mallorca,Jonás Gutiérrez,29,,normal,ESPN
 2005-0178,Betis,Robert Pinho,36,,normal,ESPN
 2005-0179,Sevilla,Enzo Maresca,33,,normal,ESPN
-2005-0179,Málaga,Salvador Ballesta Vialcho,49,,normal,ESPN
+2005-0179,Málaga,Salva Ballesta,49,,normal,ESPN
 2005-0179,Sevilla,Adriano,66,,normal,ESPN
 2005-0179,Sevilla,Ivica Dragutinovic,70,,normal,ESPN
 2005-0181,Betis,Capi,30,,normal,ESPN
@@ -4403,8 +4403,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0197,Racing Santander,Felipe Melo,85,,normal,ESPN
 2005-0198,Valencia,David Villa,35,,normal,ESPN
 2005-0198,Valencia,David Villa,78,,normal,ESPN
-2005-0199,Real Sociedad,Kahveci Nihat,7,,normal,ESPN
-2005-0199,Real Sociedad,Kahveci Nihat,38,,normal,ESPN
+2005-0199,Real Sociedad,Nihat Kahveci,7,,normal,ESPN
+2005-0199,Real Sociedad,Nihat Kahveci,38,,normal,ESPN
 2005-0199,Athletic Bilbao,Aritz Aduriz,48,,normal,ESPN
 2005-0199,Athletic Bilbao,Aritz Aduriz,68,,normal,ESPN
 2005-0199,Real Sociedad,Morten Skoubo,69,,normal,ESPN
@@ -4445,7 +4445,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0211,Valencia,David Villa,22,,normal,ESPN
 2005-0212,Málaga,Carlos Litos,31,,normal,ESPN
 2005-0212,Athletic Bilbao,Aritz Aduriz,40,,normal,ESPN
-2005-0212,Málaga,Salvador Ballesta Vialcho,73,,normal,ESPN
+2005-0212,Málaga,Salva Ballesta,73,,normal,ESPN
 2005-0213,Real Madrid,Gutí,14,,normal,ESPN
 2005-0213,Real Madrid,Zinedine Zidane,43,,normal,ESPN
 2005-0213,Real Madrid,Ronaldo,45,1,normal,ESPN
@@ -4518,7 +4518,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0237,Atlético de Madrid,Fernando Torres,64,,normal,ESPN
 2005-0238,Mallorca,Leonardo Pisculichi,55,,normal,ESPN
 2005-0238,Mallorca,Alejandro Campano,90,5,normal,ESPN
-2005-0239,Athletic Bilbao,Ismael Aranda Urzaiz,86,,normal,ESPN
+2005-0239,Athletic Bilbao,Ismael Urzaiz,86,,normal,ESPN
 2005-0240,Real Sociedad,Morten Skoubo,1,,normal,ESPN
 2005-0240,Valencia,Mario Regueiro,69,,normal,ESPN
 2005-0240,Valencia,Mario Regueiro,78,,normal,ESPN
@@ -4570,7 +4570,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0255,Celta,Fernando Baiano,5,,normal,ESPN
 2005-0255,Celta,Fabián Canobbio,72,,normal,ESPN
 2005-0256,Getafe,Veljko Paunovic,14,,normal,ESPN
-2005-0259,Real Sociedad,Kahveci Nihat,9,,normal,ESPN
+2005-0259,Real Sociedad,Nihat Kahveci,9,,normal,ESPN
 2005-0259,Zaragoza,Eugen Anghel Ewerthon,55,,normal,ESPN
 2005-0259,Zaragoza,Igor Jáuregui,62,,contra,ESPN
 2005-0259,Zaragoza,Eugen Anghel Ewerthon,70,,normal,ESPN
@@ -4710,7 +4710,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0327,Getafe,Tena,84,,normal,ESPN
 2005-0328,Celta,Larena Jorge,18,,normal,ESPN
 2005-0328,Celta,Jesus Lopez,88,,normal,ESPN
-2005-0329,Zaragoza,Bortolini Pimentel Savio,20,,normal,ESPN
+2005-0329,Zaragoza,Sávio,20,,normal,ESPN
 2005-0329,Cádiz,Lucas Lobos,43,,penalti,ESPN
 2005-0329,Cádiz,Matías Pavoni,48,,normal,ESPN
 2005-0330,Valencia,David Villa,39,,penalti,ESPN
@@ -4817,7 +4817,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0368,Celta,Fernando Baiano,45,4,penalti,ESPN
 2005-0368,Celta,Fernando Baiano,56,,normal,ESPN
 2005-0369,Zaragoza,Diego Milito,59,,normal,ESPN
-2005-0369,Zaragoza,Bortolini Pimentel Savio,69,,penalti,ESPN
+2005-0369,Zaragoza,Sávio,69,,penalti,ESPN
 2005-0369,Zaragoza,Óscar,75,,normal,ESPN
 2005-0370,Sevilla,Dani Alves,22,,normal,ESPN
 2005-0370,Sevilla,Aitor Ocio,25,,penalti,ESPN
@@ -4835,7 +4835,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0374,Celta,Pablo Contreras,24,,normal,ESPN
 2005-0375,Espanyol,Coro,90,2,normal,ESPN
 2005-0376,Mallorca,Juan Arango,20,,normal,ESPN
-2005-0376,Zaragoza,Bortolini Pimentel Savio,37,,normal,ESPN
+2005-0376,Zaragoza,Sávio,37,,normal,ESPN
 2005-0376,Mallorca,Francisco Farinos,67,,normal,ESPN
 2005-0376,Mallorca,Yordi,86,,normal,ESPN
 2005-0377,Villarreal,Juan Román Riquelme,31,,penalti,ESPN
@@ -4854,7 +4854,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0380,Athletic Bilbao,Andoni Iraola,57,,normal,ESPN
 2005-0380,Athletic Bilbao,Gurendez Felipe,80,,normal,ESPN
 2005-0380,Athletic Bilbao,Oleguer Presas Renom,82,,contra,ESPN
-2006-0001,Valencia,Fernando Sanchez Morientes,33,,normal,ESPN
+2006-0001,Valencia,Fernando Morientes,33,,normal,ESPN
 2006-0001,Betis,Francisco Munoz Xisco,53,,normal,ESPN
 2006-0001,Valencia,Raúl Albiol,61,,normal,ESPN
 2006-0002,Athletic Bilbao,Aritz Aduriz,38,,penalti,ESPN
@@ -4915,7 +4915,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0027,Zaragoza,Eugen Anghel Ewerthon,58,,normal,ESPN
 2006-0027,Zaragoza,Sergio García,79,,normal,ESPN
 2006-0028,Levante,José Alejandro Suárez Martín,85,,normal,ESPN
-2006-0030,Valencia,Fernando Sanchez Morientes,45,2,normal,ESPN
+2006-0030,Valencia,Fernando Morientes,45,2,normal,ESPN
 2006-0030,Valencia,Vicente Rodriguez Guillen,66,,penalti,ESPN
 2006-0031,Real Madrid,Mahamadou Diarra,7,,normal,ESPN
 2006-0033,Osasuna,Valdo,35,,normal,ESPN
@@ -4958,7 +4958,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0047,Zaragoza,Diego Milito,80,,normal,ESPN
 2006-0048,Recreativo Huelva,Florent Sinama-Pongolle,84,,normal,ESPN
 2006-0048,Recreativo Huelva,Francisco Javier Garcia Guerrero,88,,normal,ESPN
-2006-0050,Valencia,Fernando Sanchez Morientes,14,,normal,ESPN
+2006-0050,Valencia,Fernando Morientes,14,,normal,ESPN
 2006-0050,Valencia,David Villa,54,,normal,ESPN
 2006-0050,Valencia,David Villa,79,,normal,ESPN
 2006-0050,Valencia,Miguel Angel Angulo,84,,normal,ESPN
@@ -4971,7 +4971,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0054,Celta,Fernando Baiano,45,,normal,ESPN
 2006-0054,Celta,Iriney Santos Da Silva,52,,normal,ESPN
 2006-0054,Celta,Fabián Canobbio,56,,normal,ESPN
-2006-0054,Valencia,Fernando Sanchez Morientes,63,,normal,ESPN
+2006-0054,Valencia,Fernando Morientes,63,,normal,ESPN
 2006-0056,Athletic Bilbao,Francisco Javier Yeste,11,,penalti,ESPN
 2006-0056,Athletic Bilbao,Andoni Iraola,29,,normal,ESPN
 2006-0056,Athletic Bilbao,Francisco Javier Yeste,50,,normal,ESPN
@@ -5046,7 +5046,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0091,Atlético de Madrid,Zé Castro,37,,normal,ESPN
 2006-0091,Atlético de Madrid,Fernando Torres,45,3,penalti,ESPN
 2006-0091,Atlético de Madrid,Sergio Agüero,64,,normal,ESPN
-2006-0092,Valencia,Fernando Sanchez Morientes,44,,normal,ESPN
+2006-0092,Valencia,Fernando Morientes,44,,normal,ESPN
 2006-0092,Athletic Bilbao,Fernando Llorente,90,,normal,ESPN
 2006-0093,Real Madrid,Ruud van Nistelrooy,12,,normal,ESPN
 2006-0093,Real Madrid,Ruud van Nistelrooy,27,,normal,ESPN
@@ -5150,8 +5150,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0132,Sevilla,Frédéric Kanouté,17,,normal,ESPN
 2006-0132,Sevilla,Javier Chevantón,77,,normal,ESPN
 2006-0133,Athletic Bilbao,Dani Bautista,6,,contra,ESPN
-2006-0133,Athletic Bilbao,Ismael Aranda Urzaiz,27,,normal,ESPN
-2006-0133,Athletic Bilbao,Ismael Aranda Urzaiz,41,,normal,ESPN
+2006-0133,Athletic Bilbao,Ismael Urzaiz,27,,normal,ESPN
+2006-0133,Athletic Bilbao,Ismael Urzaiz,41,,normal,ESPN
 2006-0133,Recreativo Huelva,Ikechukwu Uche,55,,normal,ESPN
 2006-0133,Athletic Bilbao,Joseba Garmendia,59,,normal,ESPN
 2006-0133,Recreativo Huelva,Josu Sarriegi,88,,contra,ESPN
@@ -5200,7 +5200,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0149,Osasuna,Juanfran,70,,normal,ESPN
 2006-0151,Valencia,Vicente Rodriguez Guillen,39,,normal,ESPN
 2006-0151,Valencia,David Villa,57,,normal,ESPN
-2006-0151,Valencia,Fernando Sanchez Morientes,82,,normal,ESPN
+2006-0151,Valencia,Fernando Morientes,82,,normal,ESPN
 2006-0151,Mallorca,Jonás Gutiérrez,87,,penalti,ESPN
 2006-0152,Osasuna,Cesar Cruchaga,57,,normal,ESPN
 2006-0152,Osasuna,Roberto Soldado,69,,normal,ESPN
@@ -5232,8 +5232,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0165,Barcelona,Xavi,70,,falta,ESPN
 2006-0166,Levante,Diego Camacho,62,,normal,ESPN
 2006-0166,Levante,Olivier Kapo,76,,normal,ESPN
-2006-0167,Athletic Bilbao,Ismael Aranda Urzaiz,30,,normal,ESPN
-2006-0167,Athletic Bilbao,Ismael Aranda Urzaiz,53,,normal,ESPN
+2006-0167,Athletic Bilbao,Ismael Urzaiz,30,,normal,ESPN
+2006-0167,Athletic Bilbao,Ismael Urzaiz,53,,normal,ESPN
 2006-0167,Mallorca,Juan Arango,82,,normal,ESPN
 2006-0167,Athletic Bilbao,Joseba Etxeberría,84,,normal,ESPN
 2006-0168,Betis,Rafael Sobis,60,,normal,ESPN
@@ -5243,7 +5243,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0170,Espanyol,Tamudo,65,,normal,ESPN
 2006-0170,Espanyol,Francisco Rufete,90,1,normal,ESPN
 2006-0171,Valencia,Hugo Miguel Ferreira Viana,52,,normal,ESPN
-2006-0171,Valencia,Fernando Sanchez Morientes,56,,normal,ESPN
+2006-0171,Valencia,Fernando Morientes,56,,normal,ESPN
 2006-0171,Valencia,Roberto Ayala,79,,normal,ESPN
 2006-0172,Villarreal,Diego Forlán,71,,normal,ESPN
 2006-0173,Osasuna,Roberto Soldado,17,,normal,ESPN
@@ -5312,16 +5312,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0202,Espanyol,Luis Garcia,86,,normal,ESPN
 2006-0202,Zaragoza,Sergio García,87,,normal,ESPN
 2006-0203,Valencia,Roberto Ayala,15,,normal,ESPN
-2006-0203,Valencia,Fernando Sanchez Morientes,54,,normal,ESPN
+2006-0203,Valencia,Fernando Morientes,54,,normal,ESPN
 2006-0203,Atlético de Madrid,Mista,56,,normal,ESPN
-2006-0203,Valencia,Fernando Sanchez Morientes,69,,normal,ESPN
+2006-0203,Valencia,Fernando Morientes,69,,normal,ESPN
 2006-0204,Betis,Robert,18,,normal,ESPN
 2006-0204,Betis,Fabrice Pancrate,76,,normal,ESPN
-2006-0204,Athletic Bilbao,Ismael Aranda Urzaiz,90,1,penalti,ESPN
+2006-0204,Athletic Bilbao,Ismael Urzaiz,90,1,penalti,ESPN
 2006-0206,Celta,Borja Oubina,50,,normal,ESPN
 2006-0206,Gimnàstic,Javier Portillo,77,,normal,ESPN
 2006-0207,Racing Santander,Ezequiel Garay,7,,normal,ESPN
-2006-0208,Levante,Salvador Ballesta Vialcho,11,,penalti,ESPN
+2006-0208,Levante,Salva Ballesta,11,,penalti,ESPN
 2006-0209,Recreativo Huelva,Juanma Gómez,13,,normal,ESPN
 2006-0209,Recreativo Huelva,Florent Sinama-Pongolle,46,,normal,ESPN
 2006-0209,Villarreal,Jon Dahl Tomasson,78,,normal,ESPN
@@ -5341,8 +5341,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0217,Gimnàstic,César Navas,59,,normal,ESPN
 2006-0217,Osasuna,Roberto Soldado,71,,normal,ESPN
 2006-0217,Osasuna,Roberto Soldado,75,,normal,ESPN
-2006-0218,Levante,Salvador Ballesta Vialcho,17,,normal,ESPN
-2006-0218,Levante,Salvador Ballesta Vialcho,42,,normal,ESPN
+2006-0218,Levante,Salva Ballesta,17,,normal,ESPN
+2006-0218,Levante,Salva Ballesta,42,,normal,ESPN
 2006-0218,Recreativo Huelva,Florent Sinama-Pongolle,55,,penalti,ESPN
 2006-0219,Zaragoza,Diego Milito,55,,normal,ESPN
 2006-0219,Mallorca,Jose Carlos de Araujo Nunes,57,,normal,ESPN
@@ -5390,7 +5390,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0241,Barcelona,Ronaldinho,14,,normal,ESPN
 2006-0241,Sevilla,Alexander Kerzhakov,39,,normal,ESPN
 2006-0241,Sevilla,Dani Alves,61,,falta,ESPN
-2006-0242,Valencia,Fernando Sanchez Morientes,67,,normal,ESPN
+2006-0242,Valencia,Fernando Morientes,67,,normal,ESPN
 2006-0243,Gimnàstic,Javier Portillo,37,,normal,ESPN
 2006-0243,Gimnàstic,Antoni Pinilla,72,,normal,ESPN
 2006-0244,Betis,Fernando Fernandez,80,,normal,ESPN
@@ -5420,7 +5420,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0253,Atlético de Madrid,Luciano Galletti,1,,normal,ESPN
 2006-0253,Atlético de Madrid,Mista,84,,normal,ESPN
 2006-0254,Osasuna,Francisco Puñal,35,,penalti,ESPN
-2006-0254,Valencia,Fernando Sanchez Morientes,90,2,normal,ESPN
+2006-0254,Valencia,Fernando Morientes,90,2,normal,ESPN
 2006-0255,Celta,Ángel López,36,,normal,ESPN
 2006-0255,Athletic Bilbao,Aritz Aduriz,70,,normal,ESPN
 2006-0256,Recreativo Huelva,Ikechukwu Uche,4,,normal,ESPN
@@ -5430,7 +5430,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0258,Racing Santander,Ezequiel Garay,10,,penalti,ESPN
 2006-0259,Zaragoza,Diego Milito,23,,normal,ESPN
 2006-0259,Betis,Marcos Assuncao,45,1,penalti,ESPN
-2006-0260,Real Sociedad,Bortolini Pimentel Savio,27,,normal,ESPN
+2006-0260,Real Sociedad,Sávio,27,,normal,ESPN
 2006-0260,Mallorca,Ariel Ibagaza,39,,normal,ESPN
 2006-0260,Real Sociedad,Darko Kovacevic,45,,normal,ESPN
 2006-0260,Real Sociedad,Xabi Prieto,90,6,normal,ESPN
@@ -5453,7 +5453,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0268,Zaragoza,Diego Milito,20,,normal,ESPN
 2006-0269,Sevilla,Frédéric Kanouté,52,,penalti,ESPN
 2006-0269,Sevilla,Alexander Kerzhakov,90,3,normal,ESPN
-2006-0270,Real Sociedad,Bortolini Pimentel Savio,40,,normal,ESPN
+2006-0270,Real Sociedad,Sávio,40,,normal,ESPN
 2006-0270,Villarreal,Josico,59,,normal,ESPN
 2006-0271,Barcelona,Lionel Messi,45,,normal,ESPN
 2006-0271,Barcelona,Samuel Eto'o,51,,normal,ESPN
@@ -5512,8 +5512,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0291,Racing Santander,Ezequiel Garay,90,,penalti,ESPN
 2006-0292,Real Sociedad,Javier Garrido,33,,falta,ESPN
 2006-0293,Espanyol,Jonatas Domingos,4,,normal,ESPN
-2006-0293,Athletic Bilbao,Ismael Aranda Urzaiz,62,,normal,ESPN
-2006-0293,Athletic Bilbao,Ismael Aranda Urzaiz,78,,normal,ESPN
+2006-0293,Athletic Bilbao,Ismael Urzaiz,62,,normal,ESPN
+2006-0293,Athletic Bilbao,Ismael Urzaiz,78,,normal,ESPN
 2006-0294,Atlético de Madrid,Fernando Torres,60,,normal,ESPN
 2006-0295,Recreativo Huelva,Florent Sinama-Pongolle,52,,normal,ESPN
 2006-0295,Osasuna,Cesar Cruchaga,56,,normal,ESPN
@@ -5526,10 +5526,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0300,Valencia,David Villa,27,,normal,ESPN
 2006-0300,Valencia,David Villa,50,,penalti,ESPN
 2006-0301,Real Madrid,Ruud van Nistelrooy,18,,normal,ESPN
-2006-0301,Valencia,Fernando Sanchez Morientes,52,,normal,ESPN
+2006-0301,Valencia,Fernando Morientes,52,,normal,ESPN
 2006-0301,Real Madrid,Sergio Ramos,73,,normal,ESPN
 2006-0302,Real Sociedad,Darko Kovacevic,7,,normal,ESPN
-2006-0302,Real Sociedad,Bortolini Pimentel Savio,84,,normal,ESPN
+2006-0302,Real Sociedad,Sávio,84,,normal,ESPN
 2006-0303,Deportivo La Coruña,Alberto Lopo,90,2,normal,ESPN
 2006-0304,Espanyol,Albert Riera,9,,normal,ESPN
 2006-0304,Betis,Edu,45,,normal,ESPN
@@ -5626,7 +5626,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0337,Atlético de Madrid,Fernando Torres,64,,normal,ESPN
 2006-0337,Atlético de Madrid,Luciano Galletti,88,,penalti,ESPN
 2006-0338,Real Sociedad,Gaizka Garitano,11,,normal,ESPN
-2006-0338,Real Sociedad,Bortolini Pimentel Savio,23,,normal,ESPN
+2006-0338,Real Sociedad,Sávio,23,,normal,ESPN
 2006-0338,Gimnàstic,Javier Portillo,31,,normal,ESPN
 2006-0338,Real Sociedad,Ion Ansotegui,72,,normal,ESPN
 2006-0339,Mallorca,Fernando Navarro,53,,normal,ESPN
@@ -5665,7 +5665,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0347,Osasuna,Roberto Soldado,64,,normal,ESPN
 2006-0348,Celta,Gustavo Lopez,20,,normal,ESPN
 2006-0348,Real Sociedad,Darko Kovacevic,46,,normal,ESPN
-2006-0348,Real Sociedad,Bortolini Pimentel Savio,51,,normal,ESPN
+2006-0348,Real Sociedad,Sávio,51,,normal,ESPN
 2006-0348,Real Sociedad,Xabi Prieto,77,,normal,ESPN
 2006-0349,Real Madrid,Robinho,9,,normal,ESPN
 2006-0349,Real Madrid,Ruud van Nistelrooy,54,,penalti,ESPN
@@ -5680,7 +5680,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0352,Deportivo La Coruña,Joan Capdevila,55,,normal,ESPN
 2006-0352,Real Madrid,Raúl,58,,normal,ESPN
 2006-0352,Real Madrid,Ruud van Nistelrooy,75,,normal,ESPN
-2006-0354,Athletic Bilbao,Ismael Aranda Urzaiz,64,,penalti,ESPN
+2006-0354,Athletic Bilbao,Ismael Urzaiz,64,,penalti,ESPN
 2006-0355,Osasuna,David López,26,,normal,ESPN
 2006-0355,Osasuna,Javad Nekounam,33,,normal,ESPN
 2006-0356,Betis,Robert,30,,normal,ESPN
@@ -5708,7 +5708,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0362,Barcelona,Lionel Messi,57,,normal,ESPN
 2006-0362,Espanyol,Tamudo,90,,normal,ESPN
 2006-0363,Levante,Riga Mustapha,3,,normal,ESPN
-2006-0363,Levante,Salvador Ballesta Vialcho,11,,normal,ESPN
+2006-0363,Levante,Salva Ballesta,11,,normal,ESPN
 2006-0363,Valencia,Joaquín,16,,normal,ESPN
 2006-0363,Levante,Riga Mustapha,50,,normal,ESPN
 2006-0363,Levante,Laurent Courtois,75,,normal,ESPN
@@ -5805,7 +5805,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0017,Deportivo La Coruña,Sebastián Taborda,54,,normal,ESPN
 2007-0017,Valladolid,Sisinio Martínez,72,,normal,ESPN
 2007-0017,Deportivo La Coruña,Riki,78,,normal,ESPN
-2007-0018,Valencia,Fernando Sanchez Morientes,47,,normal,ESPN
+2007-0018,Valencia,Fernando Morientes,47,,normal,ESPN
 2007-0018,Almería,Álvaro Negredo,63,,normal,ESPN
 2007-0018,Valencia,Emiliano Moretti,81,,normal,ESPN
 2007-0019,Real Madrid,Raúl,39,,normal,ESPN
@@ -5820,11 +5820,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0021,Almería,Kalu Uche,73,,normal,ESPN
 2007-0021,Real Madrid,Gonzalo Higuaín,88,,normal,ESPN
 2007-0022,Valladolid,Daniel Ngom Kome,10,,normal,ESPN
-2007-0022,Valencia,Fernando Sanchez Morientes,24,,normal,ESPN
+2007-0022,Valencia,Fernando Morientes,24,,normal,ESPN
 2007-0022,Valencia,David Silva,90,,normal,ESPN
 2007-0024,Deportivo La Coruña,Andrés Guardado,8,,normal,ESPN
 2007-0025,Espanyol,Jonatan Soriano,88,,normal,ESPN
-2007-0026,Villarreal,Kahveci Nihat,83,,falta,ESPN
+2007-0026,Villarreal,Nihat Kahveci,83,,falta,ESPN
 2007-0027,Racing Santander,Pedro Munitis,28,,normal,ESPN
 2007-0028,Atlético de Madrid,Sergio Agüero,14,,normal,ESPN
 2007-0028,Murcia,Francisco Gallardo,81,,normal,ESPN
@@ -5878,12 +5878,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0044,Barcelona,Andrés Iniesta,22,,normal,ESPN
 2007-0044,Barcelona,Rafael Márquez,45,2,normal,ESPN
 2007-0045,Valladolid,Bartholomew Ogbeche,6,,normal,ESPN
-2007-0045,Valladolid,Víctor -,26,,normal,ESPN
+2007-0045,Valladolid,Víctor Fernández,26,,normal,ESPN
 2007-0045,Mallorca,Jose Carlos de Araujo Nunes,50,,normal,ESPN
 2007-0045,Mallorca,Juan Arango,53,,normal,ESPN
 2007-0045,Mallorca,Víctor,83,,normal,ESPN
 2007-0045,Mallorca,Juan Arango,88,,normal,ESPN
-2007-0046,Villarreal,Kahveci Nihat,40,,normal,ESPN
+2007-0046,Villarreal,Nihat Kahveci,40,,normal,ESPN
 2007-0046,Villarreal,Giuseppe Rossi,77,,normal,ESPN
 2007-0047,Almería,Felipe Melo,42,,normal,ESPN
 2007-0048,Valencia,David Silva,16,,normal,ESPN
@@ -5943,8 +5943,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0070,Valencia,Joaquín,9,,penalti,ESPN
 2007-0070,Valencia,Rubén Baraja,16,,normal,ESPN
 2007-0070,Deportivo La Coruña,Xisco,29,,normal,ESPN
-2007-0070,Valencia,Fernando Sanchez Morientes,38,,normal,ESPN
-2007-0070,Valencia,Fernando Sanchez Morientes,74,,normal,ESPN
+2007-0070,Valencia,Fernando Morientes,38,,normal,ESPN
+2007-0070,Valencia,Fernando Morientes,74,,normal,ESPN
 2007-0070,Deportivo La Coruña,Rodolfo Bodipo,88,,normal,ESPN
 2007-0071,Espanyol,Albert Riera,2,,normal,ESPN
 2007-0071,Espanyol,Tamudo,53,,normal,ESPN
@@ -5965,7 +5965,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0076,Racing Santander,Jorge López,87,,normal,ESPN
 2007-0077,Athletic Bilbao,Aritz Aduriz,9,,normal,ESPN
 2007-0077,Athletic Bilbao,Aritz Aduriz,32,,normal,ESPN
-2007-0077,Valladolid,Víctor -,70,,penalti,ESPN
+2007-0077,Valladolid,Víctor Fernández,70,,penalti,ESPN
 2007-0078,Mallorca,Daniel Güiza,3,,normal,ESPN
 2007-0078,Mallorca,Antoni Lluis Adrover Colombo,79,,normal,ESPN
 2007-0079,Almería,Felipe Melo,52,,penalti,ESPN
@@ -6022,8 +6022,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0097,Villarreal,Pascal Cygan,38,,normal,ESPN
 2007-0099,Valladolid,Joseba Llorente,16,,normal,ESPN
 2007-0099,Barcelona,Ronaldinho,42,,normal,ESPN
-2007-0100,Valencia,Fernando Sanchez Morientes,45,1,normal,ESPN
-2007-0100,Valencia,Fernando Sanchez Morientes,62,,normal,ESPN
+2007-0100,Valencia,Fernando Morientes,45,1,normal,ESPN
+2007-0100,Valencia,Fernando Morientes,62,,normal,ESPN
 2007-0101,Sevilla,Seydou Keita,19,,normal,ESPN
 2007-0101,Sevilla,Luis Fabiano,21,,normal,ESPN
 2007-0102,Athletic Bilbao,Joseba Etxeberría,52,,normal,ESPN
@@ -6033,8 +6033,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0103,Villarreal,Giuseppe Rossi,31,,normal,ESPN
 2007-0103,Villarreal,Fabricio Fuentes,42,,normal,ESPN
 2007-0103,Atlético de Madrid,Sergio Agüero,62,,normal,ESPN
-2007-0103,Villarreal,Kahveci Nihat,70,,normal,ESPN
-2007-0103,Villarreal,Kahveci Nihat,90,,normal,ESPN
+2007-0103,Villarreal,Nihat Kahveci,70,,normal,ESPN
+2007-0103,Villarreal,Nihat Kahveci,90,,normal,ESPN
 2007-0104,Getafe,Pablo Hernández,80,,penalti,ESPN
 2007-0104,Getafe,Esteban Granero,82,,normal,ESPN
 2007-0105,Barcelona,Thierry Henry,33,,normal,ESPN
@@ -6048,8 +6048,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0108,Deportivo La Coruña,Xisco,57,,normal,ESPN
 2007-0108,Deportivo La Coruña,Andrés Guardado,73,,normal,ESPN
 2007-0109,Zaragoza,José García Calvo,14,,contra,ESPN
-2007-0109,Valladolid,Víctor -,28,,normal,ESPN
-2007-0109,Valladolid,Víctor -,31,,normal,ESPN
+2007-0109,Valladolid,Víctor Fernández,28,,normal,ESPN
+2007-0109,Valladolid,Víctor Fernández,31,,normal,ESPN
 2007-0109,Valladolid,Álvaro Rubio,33,,normal,ESPN
 2007-0109,Zaragoza,Diego Milito,90,1,normal,ESPN
 2007-0110,Getafe,Manu,27,,normal,ESPN
@@ -6091,7 +6091,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0123,Deportivo La Coruña,Riki,63,,normal,ESPN
 2007-0123,Deportivo La Coruña,Sebastián Taborda,90,,normal,ESPN
 2007-0124,Atlético de Madrid,Maniche,3,,normal,ESPN
-2007-0124,Valladolid,Víctor -,40,,normal,ESPN
+2007-0124,Valladolid,Víctor Fernández,40,,normal,ESPN
 2007-0124,Valladolid,Sisinio Martínez,48,,normal,ESPN
 2007-0124,Atlético de Madrid,Maxi Rodríguez,50,,normal,ESPN
 2007-0124,Valladolid,Joseba Llorente,54,,normal,ESPN
@@ -6110,7 +6110,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0127,Racing Santander,Jorge López,70,,normal,ESPN
 2007-0128,Getafe,Francisco Sousa,65,,normal,ESPN
 2007-0128,Zaragoza,Andres Nicolas D'Alessandro,81,,falta,ESPN
-2007-0129,Villarreal,Kahveci Nihat,14,,normal,ESPN
+2007-0129,Villarreal,Nihat Kahveci,14,,normal,ESPN
 2007-0129,Almería,Álvaro Negredo,53,,normal,ESPN
 2007-0130,Barcelona,Andrés Iniesta,6,,normal,ESPN
 2007-0130,Espanyol,Coro,69,,normal,ESPN
@@ -6130,7 +6130,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0136,Atlético de Madrid,Diego Forlán,34,,normal,ESPN
 2007-0136,Atlético de Madrid,Raúl García,90,3,normal,ESPN
 2007-0137,Valladolid,Joseba Llorente,19,,normal,ESPN
-2007-0137,Valladolid,Víctor -,57,,normal,ESPN
+2007-0137,Valladolid,Víctor Fernández,57,,normal,ESPN
 2007-0138,Zaragoza,Diego Milito,22,,normal,ESPN
 2007-0138,Recreativo Huelva,Carlos Martins,26,,normal,ESPN
 2007-0138,Recreativo Huelva,Carlos Martins,41,,normal,ESPN
@@ -6168,8 +6168,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0152,Barcelona,Eidur Gudjohnsen,62,,normal,ESPN
 2007-0153,Zaragoza,Diego Milito,17,,normal,ESPN
 2007-0153,Deportivo La Coruña,Fabricio Coloccini,53,,normal,ESPN
-2007-0154,Villarreal,Kahveci Nihat,16,,normal,ESPN
-2007-0154,Villarreal,Kahveci Nihat,79,,normal,ESPN
+2007-0154,Villarreal,Nihat Kahveci,16,,normal,ESPN
+2007-0154,Villarreal,Nihat Kahveci,79,,normal,ESPN
 2007-0154,Villarreal,Santi Cazorla,84,,normal,ESPN
 2007-0154,Getafe,Kepa,86,,normal,ESPN
 2007-0156,Almería,Álvaro Negredo,10,,penalti,ESPN
@@ -6204,7 +6204,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0167,Real Madrid,Júlio Baptista,36,,normal,ESPN
 2007-0168,Deportivo La Coruña,Sergio González Soriano,85,,penalti,ESPN
 2007-0170,Recreativo Huelva,Javier Camuñas,37,,normal,ESPN
-2007-0170,Villarreal,Kahveci Nihat,39,,normal,ESPN
+2007-0170,Villarreal,Nihat Kahveci,39,,normal,ESPN
 2007-0171,Espanyol,Tamudo,9,,normal,ESPN
 2007-0171,Espanyol,Valdo,14,,normal,ESPN
 2007-0171,Espanyol,Tamudo,36,,normal,ESPN
@@ -6254,8 +6254,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0190,Deportivo La Coruña,Sergio González Soriano,27,,penalti,ESPN
 2007-0190,Villarreal,Giuseppe Rossi,30,,penalti,ESPN
 2007-0190,Deportivo La Coruña,Pablo Amo,58,,normal,ESPN
-2007-0190,Villarreal,Kahveci Nihat,65,,normal,ESPN
-2007-0190,Villarreal,Kahveci Nihat,68,,normal,ESPN
+2007-0190,Villarreal,Nihat Kahveci,65,,normal,ESPN
+2007-0190,Villarreal,Nihat Kahveci,68,,normal,ESPN
 2007-0190,Villarreal,Jon Dahl Tomasson,80,,penalti,ESPN
 2007-0190,Deportivo La Coruña,Andrés Guardado,90,1,normal,ESPN
 2007-0191,Sevilla,Luis Fabiano,16,,normal,ESPN
@@ -6265,7 +6265,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0191,Getafe,Cosmin Contra,90,2,normal,ESPN
 2007-0192,Villarreal,Robert Pires,6,,normal,ESPN
 2007-0192,Villarreal,Joan Capdevila,63,,normal,ESPN
-2007-0192,Villarreal,Kahveci Nihat,70,,normal,ESPN
+2007-0192,Villarreal,Nihat Kahveci,70,,normal,ESPN
 2007-0193,Real Madrid,Raúl,1,,normal,ESPN
 2007-0193,Real Madrid,Ruud van Nistelrooy,42,,normal,ESPN
 2007-0194,Osasuna,Dady,67,,falta,ESPN
@@ -6293,7 +6293,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0203,Deportivo La Coruña,Alberto Lopo,8,,normal,ESPN
 2007-0203,Deportivo La Coruña,Xisco,46,,normal,ESPN
 2007-0203,Deportivo La Coruña,Andrés Guardado,72,,normal,ESPN
-2007-0203,Valladolid,Víctor -,83,,normal,ESPN
+2007-0203,Valladolid,Víctor Fernández,83,,normal,ESPN
 2007-0204,Betis,Alberto Rivera,45,1,normal,ESPN
 2007-0204,Espanyol,Luis Garcia,52,,falta,ESPN
 2007-0204,Betis,Edu,90,,normal,ESPN
@@ -6500,7 +6500,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0279,Almería,Rubén Pulido,33,,normal,ESPN
 2007-0279,Barcelona,Samuel Eto'o,57,,normal,ESPN
 2007-0279,Almería,Kalu Uche,85,,normal,ESPN
-2007-0280,Villarreal,Kahveci Nihat,11,,normal,ESPN
+2007-0280,Villarreal,Nihat Kahveci,11,,normal,ESPN
 2007-0280,Villarreal,Giuseppe Rossi,65,,penalti,ESPN
 2007-0281,Mallorca,Juan Arango,22,,falta,ESPN
 2007-0282,Atlético de Madrid,Maxi Rodríguez,19,,normal,ESPN
@@ -6535,8 +6535,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0291,Betis,Juanito,76,,normal,ESPN
 2007-0291,Betis,Edu,78,,normal,ESPN
 2007-0292,Villarreal,Santi Cazorla,39,,normal,ESPN
-2007-0292,Villarreal,Kahveci Nihat,43,,normal,ESPN
-2007-0292,Villarreal,Kahveci Nihat,66,,normal,ESPN
+2007-0292,Villarreal,Nihat Kahveci,43,,normal,ESPN
+2007-0292,Villarreal,Nihat Kahveci,66,,normal,ESPN
 2007-0293,Murcia,Enrique De Lucas,2,,normal,ESPN
 2007-0293,Deportivo La Coruña,Xisco,23,,normal,ESPN
 2007-0293,Deportivo La Coruña,Xisco,46,,normal,ESPN
@@ -6551,7 +6551,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0296,Real Madrid,Raúl,39,,normal,ESPN
 2007-0296,Real Madrid,Gonzalo Higuaín,65,,normal,ESPN
 2007-0297,Zaragoza,Alberto Zapater,29,,normal,ESPN
-2007-0297,Valladolid,Víctor -,52,,penalti,ESPN
+2007-0297,Valladolid,Víctor Fernández,52,,penalti,ESPN
 2007-0297,Valladolid,Joseba Llorente,75,,normal,ESPN
 2007-0298,Recreativo Huelva,Fernando Amorebieta,14,,contra,ESPN
 2007-0298,Athletic Bilbao,Aritz Aduriz,82,,normal,ESPN
@@ -6575,7 +6575,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0304,Atlético de Madrid,Sergio Agüero,54,,normal,ESPN
 2007-0304,Atlético de Madrid,Sergio Agüero,70,,normal,ESPN
 2007-0306,Valladolid,Joseba Llorente,24,,normal,ESPN
-2007-0306,Valladolid,Víctor -,59,,normal,ESPN
+2007-0306,Valladolid,Víctor Fernández,59,,normal,ESPN
 2007-0306,Valladolid,Borja,88,,normal,ESPN
 2007-0307,Deportivo La Coruña,Xisco,2,,normal,ESPN
 2007-0307,Deportivo La Coruña,Fabricio Coloccini,25,,normal,ESPN
@@ -6638,7 +6638,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0329,Mallorca,Daniel Güiza,47,,normal,ESPN
 2007-0329,Mallorca,Daniel Güiza,86,,normal,ESPN
 2007-0329,Murcia,Fernando Baiano,90,,normal,ESPN
-2007-0330,Villarreal,Kahveci Nihat,16,,normal,ESPN
+2007-0330,Villarreal,Nihat Kahveci,16,,normal,ESPN
 2007-0330,Villarreal,Santi Cazorla,46,,normal,ESPN
 2007-0331,Deportivo La Coruña,Juan Rodríguez,54,,normal,ESPN
 2007-0331,Deportivo La Coruña,Pablo Amo,76,,normal,ESPN
@@ -6687,8 +6687,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0348,Sevilla,Renato ,40,,normal,ESPN
 2007-0349,Betis,David Odonkor,44,,normal,ESPN
 2007-0349,Almería,Rubén Pulido,47,,normal,ESPN
-2007-0350,Villarreal,Kahveci Nihat,37,,normal,ESPN
-2007-0350,Villarreal,Kahveci Nihat,44,,normal,ESPN
+2007-0350,Villarreal,Nihat Kahveci,37,,normal,ESPN
+2007-0350,Villarreal,Nihat Kahveci,44,,normal,ESPN
 2007-0351,Deportivo La Coruña,Riki,87,,normal,ESPN
 2007-0352,Almería,Albert Crusat,4,,normal,ESPN
 2007-0352,Almería,Veljko Paunovic,11,,normal,ESPN
@@ -6703,7 +6703,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0354,Sevilla,Federico Fazio,65,,normal,ESPN
 2007-0354,Sevilla,Renato ,90,2,normal,ESPN
 2007-0355,Betis,Mark González,51,,penalti,ESPN
-2007-0355,Valladolid,Víctor -,63,,normal,ESPN
+2007-0355,Valladolid,Víctor Fernández,63,,normal,ESPN
 2007-0356,Real Madrid,Raúl,13,,normal,ESPN
 2007-0356,Real Madrid,Arjen Robben,21,,normal,ESPN
 2007-0356,Real Madrid,Gonzalo Higuaín,63,,normal,ESPN
@@ -6712,7 +6712,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-0357,Murcia,Iván Alonso,18,,normal,ESPN
 2007-0357,Athletic Bilbao,Fernando Llorente,31,,normal,ESPN
 2007-0357,Athletic Bilbao,Igor Gabilondo,83,,normal,ESPN
-2007-0358,Villarreal,Kahveci Nihat,54,,falta,ESPN
+2007-0358,Villarreal,Nihat Kahveci,54,,falta,ESPN
 2007-0358,Villarreal,Guillermo Franco,82,,normal,ESPN
 2007-0359,Valencia,David Silva,20,,normal,ESPN
 2007-0360,Atlético de Madrid,Sergio Agüero,27,,normal,ESPN
@@ -6947,7 +6947,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0066,Betis,Mariano Pavone,43,,normal,ESPN
 2008-0066,Betis,Achille Emaná,84,,normal,ESPN
 2008-0067,Recreativo Huelva,Marco Ruben,45,,normal,ESPN
-2008-0067,Valladolid,Víctor -,90,1,normal,ESPN
+2008-0067,Valladolid,Víctor Fernández,90,1,normal,ESPN
 2008-0068,Sporting de Gijón,Carmelo González,12,,normal,ESPN
 2008-0068,Osasuna,Santiago Ezquerro,15,,normal,ESPN
 2008-0068,Sporting de Gijón,Mate Bilic,41,,penalti,ESPN
@@ -7312,7 +7312,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0182,Sevilla,Renato ,82,,normal,ESPN
 2008-0183,Valencia,David Villa,2,,normal,ESPN
 2008-0183,Athletic Bilbao,Igor Gabilondo,18,,normal,ESPN
-2008-0183,Valencia,Fernando Sanchez Morientes,30,,normal,ESPN
+2008-0183,Valencia,Fernando Morientes,30,,normal,ESPN
 2008-0183,Athletic Bilbao,Javi Martínez,42,,normal,ESPN
 2008-0183,Athletic Bilbao,Fernando Llorente,90,1,penalti,ESPN
 2008-0184,Racing Santander,Nikola Zigic,24,,normal,ESPN
@@ -7371,7 +7371,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0202,Real Madrid,Arjen Robben,56,,normal,ESPN
 2008-0203,Valladolid,Luis Prieto,50,,normal,ESPN
 2008-0203,Atlético de Madrid,José García Calvo,54,,contra,ESPN
-2008-0203,Valladolid,Víctor -,78,,penalti,ESPN
+2008-0203,Valladolid,Víctor Fernández,78,,penalti,ESPN
 2008-0204,Osasuna,Walter Pandiani,3,,normal,ESPN
 2008-0205,Deportivo La Coruña,Ángel Lafita,2,,normal,ESPN
 2008-0205,Deportivo La Coruña,Ángel Lafita,62,,normal,ESPN
@@ -7405,12 +7405,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0216,Almería,Kalu Uche,25,,normal,ESPN
 2008-0216,Almería,Álvaro Negredo,45,,normal,ESPN
 2008-0216,Málaga,Albert Luque,48,,normal,ESPN
-2008-0216,Málaga,Salvador Ballesta Vialcho,64,,normal,ESPN
-2008-0216,Málaga,Salvador Ballesta Vialcho,75,,normal,ESPN
+2008-0216,Málaga,Salva Ballesta,64,,normal,ESPN
+2008-0216,Málaga,Salva Ballesta,75,,normal,ESPN
 2008-0217,Mallorca,Aritz Aduriz,56,,normal,ESPN
 2008-0217,Deportivo La Coruña,Joan Verdú,77,,penalti,ESPN
-2008-0218,Valladolid,Víctor -,39,,penalti,ESPN
-2008-0218,Valladolid,Víctor -,58,,normal,ESPN
+2008-0218,Valladolid,Víctor Fernández,39,,penalti,ESPN
+2008-0218,Valladolid,Víctor Fernández,58,,normal,ESPN
 2008-0218,Athletic Bilbao,Pablo Orbáiz,64,,normal,ESPN
 2008-0219,Atlético de Madrid,Sergio Agüero,3,,normal,ESPN
 2008-0219,Atlético de Madrid,Diego Forlán,28,,normal,ESPN
@@ -7553,8 +7553,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0264,Mallorca,José Manuel Jurado,71,,normal,ESPN
 2008-0264,Espanyol,Iván De La Peña,72,,normal,ESPN
 2008-0264,Espanyol,Nenê,83,,normal,ESPN
-2008-0265,Málaga,Salvador Ballesta Vialcho,19,,normal,ESPN
-2008-0265,Málaga,Salvador Ballesta Vialcho,32,,normal,ESPN
+2008-0265,Málaga,Salva Ballesta,19,,normal,ESPN
+2008-0265,Málaga,Salva Ballesta,32,,normal,ESPN
 2008-0265,Sevilla,Frédéric Kanouté,74,,normal,ESPN
 2008-0265,Sevilla,Luis Fabiano,84,,normal,ESPN
 2008-0266,Racing Santander,Óscar Serrano,16,,normal,ESPN
@@ -7682,7 +7682,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0313,Osasuna,Jaroslav Plasil,18,,normal,ESPN
 2008-0313,Osasuna,Javad Nekounam,33,,falta,ESPN
 2008-0313,Málaga,Lolo,72,,normal,ESPN
-2008-0313,Málaga,Salvador Ballesta Vialcho,77,,normal,ESPN
+2008-0313,Málaga,Salva Ballesta,77,,normal,ESPN
 2008-0314,Deportivo La Coruña,Joan Verdú,49,,normal,ESPN
 2008-0314,Deportivo La Coruña,Lassad Nouioui,68,,normal,ESPN
 2008-0315,Barcelona,Andrés Iniesta,3,,normal,ESPN
@@ -7805,7 +7805,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0357,Mallorca,Juan Arango,73,,falta,ESPN
 2008-0357,Mallorca,Cléber Santana,78,,normal,ESPN
 2008-0358,Racing Santander,Óscar Serrano,4,,normal,ESPN
-2008-0358,Valladolid,Víctor -,13,,normal,ESPN
+2008-0358,Valladolid,Víctor Fernández,13,,normal,ESPN
 2008-0358,Valladolid,Henok Goitom,20,,normal,ESPN
 2008-0358,Racing Santander,Jonathan,60,,normal,ESPN
 2008-0358,Racing Santander,Nikola Zigic,86,,normal,ESPN

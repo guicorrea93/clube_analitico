@@ -227,10 +227,10 @@ temporada,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_pro,g
 1888/89,19,Stoke City,12,10,18,3,4,11,23,43,meio
 1888/89,20,Preston,1,34,19,15,4,0,64,15,titulo
 1888/89,20,Aston Villa,2,29,20,12,5,3,59,36,meio
-1888/89,20,Wolverhampton,3,24,20,10,4,6,46,35,meio
+1888/89,20,Wolverhampton,3,24,20,10,4,6,47,35,meio
 1888/89,20,Blackburn,4,22,18,8,6,4,57,38,meio
 1888/89,20,West Bromwich,5,20,20,9,2,9,39,41,meio
-1888/89,20,Everton,6,18,19,8,2,9,31,42,meio
+1888/89,20,Everton,6,18,19,8,2,9,31,43,meio
 1888/89,20,Burnley,7,17,19,7,3,9,39,52,meio
 1888/89,20,Bolton,8,16,19,7,2,10,49,54,meio
 1888/89,20,Accrington,9,16,19,4,8,7,39,44,meio
@@ -239,10 +239,10 @@ temporada,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_pro,g
 1888/89,20,Stoke City,12,10,19,3,4,12,24,45,meio
 1888/89,21,Preston,1,36,20,16,4,0,66,15,titulo
 1888/89,21,Aston Villa,2,29,21,12,5,4,59,38,meio
-1888/89,21,Wolverhampton,3,28,22,12,4,6,50,37,meio
+1888/89,21,Wolverhampton,3,28,22,12,4,6,51,37,meio
 1888/89,21,Blackburn,4,24,19,9,6,4,61,40,meio
 1888/89,21,West Bromwich,5,22,21,10,2,9,40,41,meio
-1888/89,21,Everton,6,18,21,8,2,11,32,45,meio
+1888/89,21,Everton,6,18,21,8,2,11,32,46,meio
 1888/89,21,Burnley,7,17,20,7,3,10,41,56,meio
 1888/89,21,Bolton,8,16,19,7,2,10,49,54,meio
 1888/89,21,Accrington,9,16,19,4,8,7,39,44,meio
@@ -251,12 +251,12 @@ temporada,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_pro,g
 1888/89,21,Stoke City,12,10,19,3,4,12,24,45,meio
 1888/89,22,Preston,1,40,22,18,4,0,74,15,titulo
 1888/89,22,Aston Villa,2,29,22,12,5,5,61,43,meio
-1888/89,22,Wolverhampton,3,28,22,12,4,6,50,37,meio
+1888/89,22,Wolverhampton,3,28,22,12,4,6,51,37,meio
 1888/89,22,Blackburn,4,26,22,10,6,6,66,45,meio
 1888/89,22,Bolton,5,22,22,10,2,10,63,59,meio
 1888/89,22,West Bromwich,6,22,22,10,2,10,40,46,meio
 1888/89,22,Accrington,7,20,22,6,8,8,48,48,meio
-1888/89,22,Everton,8,20,22,9,2,11,35,46,meio
+1888/89,22,Everton,8,20,22,9,2,11,35,47,meio
 1888/89,22,Burnley,9,17,22,7,3,12,42,62,meio
 1888/89,22,Derby County,10,16,22,7,2,13,41,61,meio
 1888/89,22,Notts County,11,12,22,5,2,15,40,73,meio
@@ -101834,3 +101834,763 @@ temporada,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_pro,g
 2024/25,38,Leicester,18,25,38,6,7,25,33,80,rebaixamento
 2024/25,38,Ipswich,19,22,38,4,10,24,36,82,rebaixamento
 2024/25,38,Southampton,20,12,38,2,6,30,26,86,rebaixamento
+2025/26,1,Manchester City,1,3,1,1,0,0,4,0,titulo
+2025/26,1,Sunderland,2,3,1,1,0,0,3,0,meio
+2025/26,1,Tottenham,3,3,1,1,0,0,3,0,meio
+2025/26,1,Liverpool,4,3,1,1,0,0,4,2,meio
+2025/26,1,Nottingham Forest,5,3,1,1,0,0,3,1,meio
+2025/26,1,Arsenal,6,3,1,1,0,0,1,0,meio
+2025/26,1,Leeds,7,3,1,1,0,0,1,0,meio
+2025/26,1,Brighton,8,1,1,0,1,0,1,1,meio
+2025/26,1,Fulham,9,1,1,0,1,0,1,1,meio
+2025/26,1,Aston Villa,10,1,1,0,1,0,0,0,meio
+2025/26,1,Newcastle,11,1,1,0,1,0,0,0,meio
+2025/26,1,Chelsea,12,1,1,0,1,0,0,0,meio
+2025/26,1,Crystal Palace,13,1,1,0,1,0,0,0,meio
+2025/26,1,Manchester United,14,0,1,0,0,1,0,1,meio
+2025/26,1,Everton,15,0,1,0,0,1,0,1,meio
+2025/26,1,Bournemouth,16,0,1,0,0,1,2,4,meio
+2025/26,1,Brentford,17,0,1,0,0,1,1,3,meio
+2025/26,1,West Ham,18,0,1,0,0,1,0,3,rebaixamento
+2025/26,1,Burnley,19,0,1,0,0,1,0,3,rebaixamento
+2025/26,1,Wolverhampton,20,0,1,0,0,1,0,4,rebaixamento
+2025/26,2,Arsenal,1,6,2,2,0,0,6,0,titulo
+2025/26,2,Tottenham,2,6,2,2,0,0,5,0,meio
+2025/26,2,Liverpool,3,6,2,2,0,0,7,4,meio
+2025/26,2,Chelsea,4,4,2,1,1,0,5,1,meio
+2025/26,2,Nottingham Forest,5,4,2,1,1,0,4,2,meio
+2025/26,2,Manchester City,6,3,2,1,0,1,4,2,meio
+2025/26,2,Sunderland,7,3,2,1,0,1,3,2,meio
+2025/26,2,Everton,8,3,2,1,0,1,2,1,meio
+2025/26,2,Bournemouth,9,3,2,1,0,1,3,4,meio
+2025/26,2,Burnley,10,3,2,1,0,1,2,3,meio
+2025/26,2,Brentford,11,3,2,1,0,1,2,3,meio
+2025/26,2,Leeds,12,3,2,1,0,1,1,5,meio
+2025/26,2,Fulham,13,2,2,0,2,0,2,2,meio
+2025/26,2,Crystal Palace,14,2,2,0,2,0,1,1,meio
+2025/26,2,Newcastle,15,1,2,0,1,1,2,3,meio
+2025/26,2,Manchester United,16,1,2,0,1,1,1,2,meio
+2025/26,2,Aston Villa,17,1,2,0,1,1,0,1,meio
+2025/26,2,Brighton,18,1,2,0,1,1,1,3,rebaixamento
+2025/26,2,Wolverhampton,19,0,2,0,0,2,0,5,rebaixamento
+2025/26,2,West Ham,20,0,2,0,0,2,1,8,rebaixamento
+2025/26,3,Liverpool,1,9,3,3,0,0,8,4,titulo
+2025/26,3,Chelsea,2,7,3,2,1,0,7,1,meio
+2025/26,3,Arsenal,3,6,3,2,0,1,6,1,meio
+2025/26,3,Tottenham,4,6,3,2,0,1,5,1,meio
+2025/26,3,Sunderland,5,6,3,2,0,1,5,3,meio
+2025/26,3,Everton,6,6,3,2,0,1,5,3,meio
+2025/26,3,Bournemouth,7,6,3,2,0,1,4,4,meio
+2025/26,3,Crystal Palace,8,5,3,1,2,0,4,1,meio
+2025/26,3,Manchester United,9,4,3,1,1,1,4,4,meio
+2025/26,3,Nottingham Forest,10,4,3,1,1,1,4,5,meio
+2025/26,3,Brighton,11,4,3,1,1,1,3,4,meio
+2025/26,3,Leeds,12,4,3,1,1,1,1,5,meio
+2025/26,3,Manchester City,13,3,3,1,0,2,5,4,meio
+2025/26,3,Burnley,14,3,3,1,0,2,4,6,meio
+2025/26,3,Brentford,15,3,3,1,0,2,3,5,meio
+2025/26,3,West Ham,16,3,3,1,0,2,4,8,meio
+2025/26,3,Newcastle,17,2,3,0,2,1,2,3,meio
+2025/26,3,Fulham,18,2,3,0,2,1,2,4,rebaixamento
+2025/26,3,Aston Villa,19,1,3,0,1,2,0,4,rebaixamento
+2025/26,3,Wolverhampton,20,0,3,0,0,3,2,8,rebaixamento
+2025/26,4,Liverpool,1,12,4,4,0,0,9,4,titulo
+2025/26,4,Arsenal,2,9,4,3,0,1,9,1,meio
+2025/26,4,Tottenham,3,9,4,3,0,1,8,1,meio
+2025/26,4,Bournemouth,4,9,4,3,0,1,6,5,meio
+2025/26,4,Chelsea,5,8,4,2,2,0,9,3,meio
+2025/26,4,Sunderland,6,7,4,2,1,1,5,3,meio
+2025/26,4,Everton,7,7,4,2,1,1,5,3,meio
+2025/26,4,Manchester City,8,6,4,2,0,2,8,4,meio
+2025/26,4,Crystal Palace,9,6,4,1,3,0,4,1,meio
+2025/26,4,Newcastle,10,5,4,1,2,1,3,3,meio
+2025/26,4,Fulham,11,5,4,1,2,1,3,4,meio
+2025/26,4,Brentford,12,4,4,1,1,2,5,7,meio
+2025/26,4,Brighton,13,4,4,1,1,2,4,6,meio
+2025/26,4,Manchester United,14,4,4,1,1,2,4,7,meio
+2025/26,4,Nottingham Forest,15,4,4,1,1,2,4,8,meio
+2025/26,4,Leeds,16,4,4,1,1,2,1,6,meio
+2025/26,4,Burnley,17,3,4,1,0,3,4,7,meio
+2025/26,4,West Ham,18,3,4,1,0,3,4,11,rebaixamento
+2025/26,4,Aston Villa,19,2,4,0,2,2,0,4,rebaixamento
+2025/26,4,Wolverhampton,20,0,4,0,0,4,2,9,rebaixamento
+2025/26,5,Liverpool,1,15,5,5,0,0,11,5,titulo
+2025/26,5,Arsenal,2,10,5,3,1,1,10,2,meio
+2025/26,5,Tottenham,3,10,5,3,1,1,10,3,meio
+2025/26,5,Bournemouth,4,10,5,3,1,1,6,5,meio
+2025/26,5,Crystal Palace,5,9,5,2,3,0,6,2,meio
+2025/26,5,Chelsea,6,8,5,2,2,1,10,5,meio
+2025/26,5,Sunderland,7,8,5,2,2,1,6,4,meio
+2025/26,5,Fulham,8,8,5,2,2,1,6,5,meio
+2025/26,5,Manchester City,9,7,5,2,1,2,9,5,meio
+2025/26,5,Everton,10,7,5,2,1,2,6,5,meio
+2025/26,5,Manchester United,11,7,5,2,1,2,6,8,meio
+2025/26,5,Leeds,12,7,5,2,1,2,4,7,meio
+2025/26,5,Newcastle,13,6,5,1,3,1,3,3,meio
+2025/26,5,Brighton,14,5,5,1,2,2,6,8,meio
+2025/26,5,Nottingham Forest,15,5,5,1,2,2,5,9,meio
+2025/26,5,Burnley,16,4,5,1,1,3,5,8,meio
+2025/26,5,Brentford,17,4,5,1,1,3,6,10,meio
+2025/26,5,Aston Villa,18,3,5,0,3,2,1,5,rebaixamento
+2025/26,5,West Ham,19,3,5,1,0,4,5,13,rebaixamento
+2025/26,5,Wolverhampton,20,0,5,0,0,5,3,12,rebaixamento
+2025/26,6,Liverpool,1,15,6,5,0,1,12,7,titulo
+2025/26,6,Arsenal,2,13,6,4,1,1,12,3,meio
+2025/26,6,Crystal Palace,3,12,6,3,3,0,8,3,meio
+2025/26,6,Tottenham,4,11,6,3,2,1,11,4,meio
+2025/26,6,Sunderland,5,11,6,3,2,1,7,4,meio
+2025/26,6,Bournemouth,6,11,6,3,2,1,8,7,meio
+2025/26,6,Manchester City,7,10,6,3,1,2,14,6,meio
+2025/26,6,Chelsea,8,8,6,2,2,2,11,8,meio
+2025/26,6,Everton,9,8,6,2,2,2,7,6,meio
+2025/26,6,Brighton,10,8,6,2,2,2,9,9,meio
+2025/26,6,Fulham,11,8,6,2,2,2,7,8,meio
+2025/26,6,Leeds,12,8,6,2,2,2,6,9,meio
+2025/26,6,Brentford,13,7,6,2,1,3,9,11,meio
+2025/26,6,Manchester United,14,7,6,2,1,3,7,11,meio
+2025/26,6,Newcastle,15,6,6,1,3,2,4,5,meio
+2025/26,6,Aston Villa,16,6,6,1,3,2,4,6,meio
+2025/26,6,Nottingham Forest,17,5,6,1,2,3,5,10,meio
+2025/26,6,Burnley,18,4,6,1,1,4,6,13,rebaixamento
+2025/26,6,West Ham,19,4,6,1,1,4,6,14,rebaixamento
+2025/26,6,Wolverhampton,20,1,6,0,1,5,4,13,rebaixamento
+2025/26,7,Arsenal,1,16,7,5,1,1,14,3,titulo
+2025/26,7,Liverpool,2,15,7,5,0,2,13,9,meio
+2025/26,7,Tottenham,3,14,7,4,2,1,13,5,meio
+2025/26,7,Bournemouth,4,14,7,4,2,1,11,8,meio
+2025/26,7,Manchester City,5,13,7,4,1,2,15,6,meio
+2025/26,7,Crystal Palace,6,12,7,3,3,1,9,5,meio
+2025/26,7,Chelsea,7,11,7,3,2,2,13,9,meio
+2025/26,7,Everton,8,11,7,3,2,2,9,7,meio
+2025/26,7,Sunderland,9,11,7,3,2,2,7,6,meio
+2025/26,7,Manchester United,10,10,7,3,1,3,9,11,meio
+2025/26,7,Newcastle,11,9,7,2,3,2,6,5,meio
+2025/26,7,Brighton,12,9,7,2,3,2,10,10,meio
+2025/26,7,Aston Villa,13,9,7,2,3,2,6,7,meio
+2025/26,7,Fulham,14,8,7,2,2,3,8,11,meio
+2025/26,7,Leeds,15,8,7,2,2,3,7,11,meio
+2025/26,7,Brentford,16,7,7,2,1,4,9,12,meio
+2025/26,7,Nottingham Forest,17,5,7,1,2,4,5,12,meio
+2025/26,7,Burnley,18,4,7,1,1,5,7,15,rebaixamento
+2025/26,7,West Ham,19,4,7,1,1,5,6,16,rebaixamento
+2025/26,7,Wolverhampton,20,2,7,0,2,5,5,14,rebaixamento
+2025/26,8,Arsenal,1,19,8,6,1,1,15,3,titulo
+2025/26,8,Manchester City,2,16,8,5,1,2,17,6,meio
+2025/26,8,Liverpool,3,15,8,5,0,3,14,11,meio
+2025/26,8,Bournemouth,4,15,8,4,3,1,14,11,meio
+2025/26,8,Chelsea,5,14,8,4,2,2,16,9,meio
+2025/26,8,Tottenham,6,14,8,4,2,2,14,7,meio
+2025/26,8,Sunderland,7,14,8,4,2,2,9,6,meio
+2025/26,8,Crystal Palace,8,13,8,3,4,1,12,8,meio
+2025/26,8,Manchester United,9,13,8,4,1,3,11,12,meio
+2025/26,8,Brighton,10,12,8,3,3,2,12,11,meio
+2025/26,8,Aston Villa,11,12,8,3,3,2,8,8,meio
+2025/26,8,Everton,12,11,8,3,2,3,9,9,meio
+2025/26,8,Brentford,13,10,8,3,1,4,11,12,meio
+2025/26,8,Newcastle,14,9,8,2,3,3,7,7,meio
+2025/26,8,Fulham,15,8,8,2,2,4,8,12,meio
+2025/26,8,Leeds,16,8,8,2,2,4,7,13,meio
+2025/26,8,Burnley,17,7,8,2,1,5,9,15,meio
+2025/26,8,Nottingham Forest,18,5,8,1,2,5,5,15,rebaixamento
+2025/26,8,West Ham,19,4,8,1,1,6,6,18,rebaixamento
+2025/26,8,Wolverhampton,20,2,8,0,2,6,5,16,rebaixamento
+2025/26,9,Arsenal,1,22,9,7,1,1,16,3,titulo
+2025/26,9,Bournemouth,2,18,9,5,3,1,16,11,meio
+2025/26,9,Tottenham,3,17,9,5,2,2,17,7,meio
+2025/26,9,Sunderland,4,17,9,5,2,2,11,7,meio
+2025/26,9,Manchester City,5,16,9,5,1,3,17,7,meio
+2025/26,9,Manchester United,6,16,9,5,1,3,15,14,meio
+2025/26,9,Liverpool,7,15,9,5,0,4,16,14,meio
+2025/26,9,Aston Villa,8,15,9,4,3,2,9,8,meio
+2025/26,9,Chelsea,9,14,9,4,2,3,17,11,meio
+2025/26,9,Crystal Palace,10,13,9,3,4,2,12,9,meio
+2025/26,9,Brentford,11,13,9,4,1,4,14,14,meio
+2025/26,9,Newcastle,12,12,9,3,3,3,9,8,meio
+2025/26,9,Brighton,13,12,9,3,3,3,14,15,meio
+2025/26,9,Everton,14,11,9,3,2,4,9,12,meio
+2025/26,9,Leeds,15,11,9,3,2,4,9,14,meio
+2025/26,9,Burnley,16,10,9,3,1,5,12,17,meio
+2025/26,9,Fulham,17,8,9,2,2,5,9,14,meio
+2025/26,9,Nottingham Forest,18,5,9,1,2,6,5,17,rebaixamento
+2025/26,9,West Ham,19,4,9,1,1,7,7,20,rebaixamento
+2025/26,9,Wolverhampton,20,2,9,0,2,7,7,19,rebaixamento
+2025/26,10,Arsenal,1,25,10,8,1,1,18,3,titulo
+2025/26,10,Manchester City,2,19,10,6,1,3,20,8,meio
+2025/26,10,Liverpool,3,18,10,6,0,4,18,14,meio
+2025/26,10,Sunderland,4,18,10,5,3,2,12,8,meio
+2025/26,10,Bournemouth,5,18,10,5,3,2,17,14,meio
+2025/26,10,Tottenham,6,17,10,5,2,3,17,8,meio
+2025/26,10,Chelsea,7,17,10,5,2,3,18,11,meio
+2025/26,10,Manchester United,8,17,10,5,2,3,17,16,meio
+2025/26,10,Crystal Palace,9,16,10,4,4,2,14,9,meio
+2025/26,10,Brighton,10,15,10,4,3,3,17,15,meio
+2025/26,10,Aston Villa,11,15,10,4,3,3,9,10,meio
+2025/26,10,Brentford,12,13,10,4,1,5,14,16,meio
+2025/26,10,Newcastle,13,12,10,3,3,4,10,11,meio
+2025/26,10,Everton,14,12,10,3,3,4,10,13,meio
+2025/26,10,Fulham,15,11,10,3,2,5,12,14,meio
+2025/26,10,Leeds,16,11,10,3,2,5,9,17,meio
+2025/26,10,Burnley,17,10,10,3,1,6,12,19,meio
+2025/26,10,West Ham,18,7,10,2,1,7,10,21,rebaixamento
+2025/26,10,Nottingham Forest,19,6,10,1,3,6,7,19,rebaixamento
+2025/26,10,Wolverhampton,20,2,10,0,2,8,7,22,rebaixamento
+2025/26,11,Arsenal,1,26,11,8,2,1,20,5,titulo
+2025/26,11,Manchester City,2,22,11,7,1,3,23,8,meio
+2025/26,11,Chelsea,3,20,11,6,2,3,21,11,meio
+2025/26,11,Sunderland,4,19,11,5,4,2,14,10,meio
+2025/26,11,Tottenham,5,18,11,5,3,3,19,10,meio
+2025/26,11,Aston Villa,6,18,11,5,3,3,13,10,meio
+2025/26,11,Manchester United,7,18,11,5,3,3,19,18,meio
+2025/26,11,Liverpool,8,18,11,6,0,5,18,17,meio
+2025/26,11,Bournemouth,9,18,11,5,3,3,17,18,meio
+2025/26,11,Crystal Palace,10,17,11,4,5,2,14,9,meio
+2025/26,11,Brighton,11,16,11,4,4,3,17,15,meio
+2025/26,11,Brentford,12,16,11,5,1,5,17,17,meio
+2025/26,11,Everton,13,15,11,4,3,4,12,13,meio
+2025/26,11,Newcastle,14,12,11,3,3,5,11,14,meio
+2025/26,11,Fulham,15,11,11,3,2,6,12,16,meio
+2025/26,11,Leeds,16,11,11,3,2,6,10,20,meio
+2025/26,11,Burnley,17,10,11,3,1,7,14,22,meio
+2025/26,11,West Ham,18,10,11,3,1,7,13,23,rebaixamento
+2025/26,11,Nottingham Forest,19,9,11,2,3,6,10,20,rebaixamento
+2025/26,11,Wolverhampton,20,2,11,0,2,9,7,25,rebaixamento
+2025/26,12,Arsenal,1,29,12,9,2,1,24,6,titulo
+2025/26,12,Chelsea,2,23,12,7,2,3,23,11,meio
+2025/26,12,Manchester City,3,22,12,7,1,4,24,10,meio
+2025/26,12,Aston Villa,4,21,12,6,3,3,15,11,meio
+2025/26,12,Crystal Palace,5,20,12,5,5,2,16,9,meio
+2025/26,12,Brighton,6,19,12,5,4,3,19,16,meio
+2025/26,12,Sunderland,7,19,12,5,4,3,14,11,meio
+2025/26,12,Bournemouth,8,19,12,5,4,3,19,20,meio
+2025/26,12,Tottenham,9,18,12,5,3,4,20,14,meio
+2025/26,12,Manchester United,10,18,12,5,3,4,19,19,meio
+2025/26,12,Everton,11,18,12,5,3,4,13,13,meio
+2025/26,12,Liverpool,12,18,12,6,0,6,18,20,meio
+2025/26,12,Brentford,13,16,12,5,1,6,18,19,meio
+2025/26,12,Newcastle,14,15,12,4,3,5,13,15,meio
+2025/26,12,Fulham,15,14,12,4,2,6,13,16,meio
+2025/26,12,Nottingham Forest,16,12,12,3,3,6,13,20,meio
+2025/26,12,West Ham,17,11,12,3,2,7,15,25,meio
+2025/26,12,Leeds,18,11,12,3,2,7,11,22,rebaixamento
+2025/26,12,Burnley,19,10,12,3,1,8,14,24,rebaixamento
+2025/26,12,Wolverhampton,20,2,12,0,2,10,7,27,rebaixamento
+2025/26,13,Arsenal,1,30,13,9,3,1,25,7,titulo
+2025/26,13,Manchester City,2,25,13,8,1,4,27,12,meio
+2025/26,13,Chelsea,3,24,13,7,3,3,24,12,meio
+2025/26,13,Aston Villa,4,24,13,7,3,3,16,11,meio
+2025/26,13,Brighton,5,22,13,6,4,3,21,16,meio
+2025/26,13,Sunderland,6,22,13,6,4,3,17,13,meio
+2025/26,13,Manchester United,7,21,13,6,3,4,21,20,meio
+2025/26,13,Liverpool,8,21,13,7,0,6,20,20,meio
+2025/26,13,Crystal Palace,9,20,13,5,5,3,17,11,meio
+2025/26,13,Brentford,10,19,13,6,1,6,21,20,meio
+2025/26,13,Bournemouth,11,19,13,5,4,4,21,23,meio
+2025/26,13,Tottenham,12,18,13,5,3,5,21,16,meio
+2025/26,13,Newcastle,13,18,13,5,3,5,17,16,meio
+2025/26,13,Everton,14,18,13,5,3,5,14,17,meio
+2025/26,13,Fulham,15,17,13,5,2,6,15,17,meio
+2025/26,13,Nottingham Forest,16,12,13,3,3,7,13,22,meio
+2025/26,13,West Ham,17,11,13,3,2,8,15,27,meio
+2025/26,13,Leeds,18,11,13,3,2,8,13,25,rebaixamento
+2025/26,13,Burnley,19,10,13,3,1,9,15,27,rebaixamento
+2025/26,13,Wolverhampton,20,2,13,0,2,11,7,28,rebaixamento
+2025/26,14,Arsenal,1,33,14,10,3,1,27,7,titulo
+2025/26,14,Manchester City,2,28,14,9,1,4,32,16,meio
+2025/26,14,Aston Villa,3,27,14,8,3,3,20,14,meio
+2025/26,14,Chelsea,4,24,14,7,3,4,25,15,meio
+2025/26,14,Crystal Palace,5,23,14,6,5,3,18,11,meio
+2025/26,14,Sunderland,6,23,14,6,5,3,18,14,meio
+2025/26,14,Brighton,7,22,14,6,4,4,24,20,meio
+2025/26,14,Manchester United,8,22,14,6,4,4,22,21,meio
+2025/26,14,Liverpool,9,22,14,7,1,6,21,21,meio
+2025/26,14,Everton,10,21,14,6,3,5,15,17,meio
+2025/26,14,Tottenham,11,19,14,5,4,5,23,18,meio
+2025/26,14,Newcastle,12,19,14,5,4,5,19,18,meio
+2025/26,14,Brentford,13,19,14,6,1,7,21,22,meio
+2025/26,14,Bournemouth,14,19,14,5,4,5,21,24,meio
+2025/26,14,Fulham,15,17,14,5,2,7,19,22,meio
+2025/26,14,Nottingham Forest,16,15,14,4,3,7,14,22,meio
+2025/26,14,Leeds,17,14,14,4,2,8,16,26,meio
+2025/26,14,West Ham,18,12,14,3,3,8,16,28,rebaixamento
+2025/26,14,Burnley,19,10,14,3,1,10,15,28,rebaixamento
+2025/26,14,Wolverhampton,20,2,14,0,2,12,7,29,rebaixamento
+2025/26,15,Arsenal,1,33,15,10,3,2,28,9,titulo
+2025/26,15,Manchester City,2,31,15,10,1,4,35,16,meio
+2025/26,15,Aston Villa,3,30,15,9,3,3,22,15,meio
+2025/26,15,Crystal Palace,4,26,15,7,5,3,20,12,meio
+2025/26,15,Chelsea,5,25,15,7,4,4,25,15,meio
+2025/26,15,Manchester United,6,25,15,7,4,4,26,22,meio
+2025/26,15,Everton,7,24,15,7,3,5,18,17,meio
+2025/26,15,Brighton,8,23,15,6,5,4,25,21,meio
+2025/26,15,Sunderland,9,23,15,6,5,4,18,17,meio
+2025/26,15,Liverpool,10,23,15,7,2,6,24,24,meio
+2025/26,15,Tottenham,11,22,15,6,4,5,25,18,meio
+2025/26,15,Newcastle,12,22,15,6,4,5,21,19,meio
+2025/26,15,Bournemouth,13,20,15,5,5,5,21,24,meio
+2025/26,15,Brentford,14,19,15,6,1,8,21,24,meio
+2025/26,15,Fulham,15,17,15,5,2,8,20,24,meio
+2025/26,15,Leeds,16,15,15,4,3,8,19,29,meio
+2025/26,15,Nottingham Forest,17,15,15,4,3,8,14,25,meio
+2025/26,15,West Ham,18,13,15,3,4,8,17,29,rebaixamento
+2025/26,15,Burnley,19,10,15,3,1,11,16,30,rebaixamento
+2025/26,15,Wolverhampton,20,2,15,0,2,13,8,33,rebaixamento
+2025/26,16,Arsenal,1,36,16,11,3,2,30,10,titulo
+2025/26,16,Manchester City,2,34,16,11,1,4,38,16,meio
+2025/26,16,Aston Villa,3,33,16,10,3,3,25,17,meio
+2025/26,16,Chelsea,4,28,16,8,4,4,27,15,meio
+2025/26,16,Crystal Palace,5,26,16,7,5,4,20,15,meio
+2025/26,16,Manchester United,6,26,16,7,5,4,30,26,meio
+2025/26,16,Liverpool,7,26,16,8,2,6,26,24,meio
+2025/26,16,Sunderland,8,26,16,7,5,4,19,17,meio
+2025/26,16,Everton,9,24,16,7,3,6,18,19,meio
+2025/26,16,Brighton,10,23,16,6,5,5,25,23,meio
+2025/26,16,Tottenham,11,22,16,6,4,6,25,21,meio
+2025/26,16,Newcastle,12,22,16,6,4,6,21,20,meio
+2025/26,16,Bournemouth,13,21,16,5,6,5,25,28,meio
+2025/26,16,Fulham,14,20,16,6,2,8,23,26,meio
+2025/26,16,Brentford,15,20,16,6,2,8,22,25,meio
+2025/26,16,Nottingham Forest,16,18,16,5,3,8,17,25,meio
+2025/26,16,Leeds,17,16,16,4,4,8,20,30,meio
+2025/26,16,West Ham,18,13,16,3,4,9,19,32,rebaixamento
+2025/26,16,Burnley,19,10,16,3,1,12,18,33,rebaixamento
+2025/26,16,Wolverhampton,20,2,16,0,2,14,9,35,rebaixamento
+2025/26,17,Arsenal,1,39,17,12,3,2,31,10,titulo
+2025/26,17,Manchester City,2,37,17,12,1,4,41,16,meio
+2025/26,17,Aston Villa,3,36,17,11,3,3,27,18,meio
+2025/26,17,Chelsea,4,29,17,8,5,4,29,17,meio
+2025/26,17,Liverpool,5,29,17,9,2,6,28,25,meio
+2025/26,17,Sunderland,6,27,17,7,6,4,19,17,meio
+2025/26,17,Manchester United,7,26,17,7,5,5,31,28,meio
+2025/26,17,Crystal Palace,8,26,17,7,5,5,21,19,meio
+2025/26,17,Brighton,9,24,17,6,6,5,25,23,meio
+2025/26,17,Everton,10,24,17,7,3,7,18,20,meio
+2025/26,17,Newcastle,11,23,17,6,5,6,23,22,meio
+2025/26,17,Brentford,12,23,17,7,2,8,24,25,meio
+2025/26,17,Fulham,13,23,17,7,2,8,24,26,meio
+2025/26,17,Tottenham,14,22,17,6,4,7,26,23,meio
+2025/26,17,Bournemouth,15,22,17,5,7,5,26,29,meio
+2025/26,17,Leeds,16,19,17,5,4,8,24,31,meio
+2025/26,17,Nottingham Forest,17,18,17,5,3,9,17,26,meio
+2025/26,17,West Ham,18,13,17,3,4,10,19,35,rebaixamento
+2025/26,17,Burnley,19,11,17,3,2,12,19,34,rebaixamento
+2025/26,17,Wolverhampton,20,2,17,0,2,15,9,37,rebaixamento
+2025/26,18,Arsenal,1,42,18,13,3,2,33,11,titulo
+2025/26,18,Manchester City,2,40,18,13,1,4,43,17,meio
+2025/26,18,Aston Villa,3,39,18,12,3,3,29,19,meio
+2025/26,18,Liverpool,4,32,18,10,2,6,30,26,meio
+2025/26,18,Chelsea,5,29,18,8,5,5,30,19,meio
+2025/26,18,Manchester United,6,29,18,8,5,5,32,28,meio
+2025/26,18,Sunderland,7,28,18,7,7,4,20,18,meio
+2025/26,18,Brentford,8,26,18,8,2,8,28,26,meio
+2025/26,18,Crystal Palace,9,26,18,7,5,6,21,20,meio
+2025/26,18,Fulham,10,26,18,8,2,8,25,26,meio
+2025/26,18,Tottenham,11,25,18,7,4,7,27,23,meio
+2025/26,18,Everton,12,25,18,7,4,7,18,20,meio
+2025/26,18,Brighton,13,24,18,6,6,6,26,25,meio
+2025/26,18,Newcastle,14,23,18,6,5,7,23,23,meio
+2025/26,18,Bournemouth,15,22,18,5,7,6,27,33,meio
+2025/26,18,Leeds,16,20,18,5,5,8,25,32,meio
+2025/26,18,Nottingham Forest,17,18,18,5,3,10,18,28,meio
+2025/26,18,West Ham,18,13,18,3,4,11,19,36,rebaixamento
+2025/26,18,Burnley,19,12,18,3,3,12,19,34,rebaixamento
+2025/26,18,Wolverhampton,20,2,18,0,2,16,10,39,rebaixamento
+2025/26,19,Arsenal,1,45,19,14,3,2,37,12,titulo
+2025/26,19,Manchester City,2,41,19,13,2,4,43,17,meio
+2025/26,19,Aston Villa,3,39,19,12,3,4,30,23,meio
+2025/26,19,Liverpool,4,33,19,10,3,6,30,26,meio
+2025/26,19,Chelsea,5,30,19,8,6,5,32,21,meio
+2025/26,19,Manchester United,6,30,19,8,6,5,33,29,meio
+2025/26,19,Sunderland,7,29,19,7,8,4,20,18,meio
+2025/26,19,Everton,8,28,19,8,4,7,20,20,meio
+2025/26,19,Brentford,9,27,19,8,3,8,28,26,meio
+2025/26,19,Crystal Palace,10,27,19,7,6,6,22,21,meio
+2025/26,19,Fulham,11,27,19,8,3,8,26,27,meio
+2025/26,19,Tottenham,12,26,19,7,5,7,27,23,meio
+2025/26,19,Newcastle,13,26,19,7,5,7,26,24,meio
+2025/26,19,Brighton,14,25,19,6,7,6,28,27,meio
+2025/26,19,Bournemouth,15,23,19,5,8,6,29,35,meio
+2025/26,19,Leeds,16,21,19,5,6,8,25,32,meio
+2025/26,19,Nottingham Forest,17,18,19,5,3,11,18,30,meio
+2025/26,19,West Ham,18,14,19,3,5,11,21,38,rebaixamento
+2025/26,19,Burnley,19,12,19,3,3,13,20,37,rebaixamento
+2025/26,19,Wolverhampton,20,3,19,0,3,16,11,40,rebaixamento
+2025/26,20,Arsenal,1,48,20,15,3,2,40,14,titulo
+2025/26,20,Manchester City,2,42,20,13,3,4,44,18,meio
+2025/26,20,Aston Villa,3,42,20,13,3,4,33,24,meio
+2025/26,20,Liverpool,4,34,20,10,4,6,32,28,meio
+2025/26,20,Chelsea,5,31,20,8,7,5,33,22,meio
+2025/26,20,Manchester United,6,31,20,8,7,5,34,30,meio
+2025/26,20,Brentford,7,30,20,9,3,8,32,28,meio
+2025/26,20,Sunderland,8,30,20,7,9,4,21,19,meio
+2025/26,20,Newcastle,9,29,20,8,5,7,28,24,meio
+2025/26,20,Brighton,10,28,20,7,7,6,30,27,meio
+2025/26,20,Fulham,11,28,20,8,4,8,28,29,meio
+2025/26,20,Everton,12,28,20,8,4,8,22,24,meio
+2025/26,20,Tottenham,13,27,20,7,6,7,28,24,meio
+2025/26,20,Crystal Palace,14,27,20,7,6,7,22,23,meio
+2025/26,20,Bournemouth,15,23,20,5,8,7,31,38,meio
+2025/26,20,Leeds,16,22,20,5,7,8,26,33,meio
+2025/26,20,Nottingham Forest,17,18,20,5,3,12,19,33,meio
+2025/26,20,West Ham,18,14,20,3,5,12,21,41,rebaixamento
+2025/26,20,Burnley,19,12,20,3,3,14,20,39,rebaixamento
+2025/26,20,Wolverhampton,20,6,20,1,3,16,14,40,rebaixamento
+2025/26,21,Arsenal,1,49,21,15,4,2,40,14,titulo
+2025/26,21,Manchester City,2,43,21,13,4,4,45,19,meio
+2025/26,21,Aston Villa,3,43,21,13,4,4,33,24,meio
+2025/26,21,Liverpool,4,35,21,10,5,6,32,28,meio
+2025/26,21,Brentford,5,33,21,10,3,8,35,28,meio
+2025/26,21,Newcastle,6,32,21,9,5,7,32,27,meio
+2025/26,21,Manchester United,7,32,21,8,8,5,36,32,meio
+2025/26,21,Chelsea,8,31,21,8,7,6,34,24,meio
+2025/26,21,Fulham,9,31,21,9,4,8,30,30,meio
+2025/26,21,Sunderland,10,30,21,7,9,5,21,22,meio
+2025/26,21,Brighton,11,29,21,7,8,6,31,28,meio
+2025/26,21,Everton,12,29,21,8,5,8,23,25,meio
+2025/26,21,Crystal Palace,13,28,21,7,7,7,22,23,meio
+2025/26,21,Tottenham,14,27,21,7,6,8,30,27,meio
+2025/26,21,Bournemouth,15,26,21,6,8,7,34,40,meio
+2025/26,21,Leeds,16,22,21,5,7,9,29,37,meio
+2025/26,21,Nottingham Forest,17,21,21,6,3,12,21,34,meio
+2025/26,21,West Ham,18,14,21,3,5,13,22,43,rebaixamento
+2025/26,21,Burnley,19,13,21,3,4,14,22,41,rebaixamento
+2025/26,21,Wolverhampton,20,7,21,1,4,16,15,41,rebaixamento
+2025/26,22,Arsenal,1,50,22,15,5,2,40,14,titulo
+2025/26,22,Manchester City,2,43,22,13,4,5,45,21,meio
+2025/26,22,Aston Villa,3,43,22,13,4,5,33,25,meio
+2025/26,22,Liverpool,4,36,22,10,6,6,33,29,meio
+2025/26,22,Manchester United,5,35,22,9,8,5,38,32,meio
+2025/26,22,Chelsea,6,34,22,9,7,6,36,24,meio
+2025/26,22,Brentford,7,33,22,10,3,9,35,30,meio
+2025/26,22,Newcastle,8,33,22,9,6,7,32,27,meio
+2025/26,22,Sunderland,9,33,22,8,9,5,23,23,meio
+2025/26,22,Everton,10,32,22,9,5,8,24,25,meio
+2025/26,22,Fulham,11,31,22,9,4,9,30,31,meio
+2025/26,22,Brighton,12,30,22,7,9,6,32,29,meio
+2025/26,22,Crystal Palace,13,28,22,7,7,8,23,25,meio
+2025/26,22,Tottenham,14,27,22,7,6,9,31,29,meio
+2025/26,22,Bournemouth,15,27,22,6,9,7,35,41,meio
+2025/26,22,Leeds,16,25,22,6,7,9,30,37,meio
+2025/26,22,Nottingham Forest,17,22,22,6,4,12,21,34,meio
+2025/26,22,West Ham,18,17,22,4,5,13,24,44,rebaixamento
+2025/26,22,Burnley,19,14,22,3,5,14,23,42,rebaixamento
+2025/26,22,Wolverhampton,20,8,22,1,5,16,15,41,rebaixamento
+2025/26,23,Arsenal,1,50,23,15,5,3,42,17,titulo
+2025/26,23,Manchester City,2,46,23,14,4,5,47,21,meio
+2025/26,23,Aston Villa,3,46,23,14,4,5,35,25,meio
+2025/26,23,Manchester United,4,38,23,10,8,5,41,34,meio
+2025/26,23,Chelsea,5,37,23,10,7,6,39,25,meio
+2025/26,23,Liverpool,6,36,23,10,6,7,35,32,meio
+2025/26,23,Fulham,7,34,23,10,4,9,32,32,meio
+2025/26,23,Brentford,8,33,23,10,3,10,35,32,meio
+2025/26,23,Newcastle,9,33,23,9,6,8,32,29,meio
+2025/26,23,Everton,10,33,23,9,6,8,25,26,meio
+2025/26,23,Sunderland,11,33,23,8,9,6,24,26,meio
+2025/26,23,Brighton,12,30,23,7,9,7,33,31,meio
+2025/26,23,Bournemouth,13,30,23,7,9,7,38,43,meio
+2025/26,23,Tottenham,14,28,23,7,7,9,33,31,meio
+2025/26,23,Crystal Palace,15,28,23,7,7,9,24,28,meio
+2025/26,23,Leeds,16,26,23,6,8,9,31,38,meio
+2025/26,23,Nottingham Forest,17,25,23,7,4,12,23,34,meio
+2025/26,23,West Ham,18,20,23,5,5,13,27,45,rebaixamento
+2025/26,23,Burnley,19,15,23,3,6,14,25,44,rebaixamento
+2025/26,23,Wolverhampton,20,8,23,1,5,17,15,43,rebaixamento
+2025/26,24,Arsenal,1,53,24,16,5,3,46,17,titulo
+2025/26,24,Manchester City,2,47,24,14,5,5,49,23,meio
+2025/26,24,Aston Villa,3,46,24,14,4,6,35,26,meio
+2025/26,24,Manchester United,4,41,24,11,8,5,44,36,meio
+2025/26,24,Chelsea,5,40,24,11,7,6,42,27,meio
+2025/26,24,Liverpool,6,39,24,11,6,7,39,33,meio
+2025/26,24,Brentford,7,36,24,11,3,10,36,32,meio
+2025/26,24,Sunderland,8,36,24,9,9,6,27,26,meio
+2025/26,24,Fulham,9,34,24,10,4,10,34,35,meio
+2025/26,24,Everton,10,34,24,9,7,8,26,27,meio
+2025/26,24,Newcastle,11,33,24,9,6,9,33,33,meio
+2025/26,24,Bournemouth,12,33,24,8,9,7,40,43,meio
+2025/26,24,Brighton,13,31,24,7,10,7,34,32,meio
+2025/26,24,Tottenham,14,29,24,7,8,9,35,33,meio
+2025/26,24,Crystal Palace,15,29,24,7,8,9,25,29,meio
+2025/26,24,Leeds,16,26,24,6,8,10,31,42,meio
+2025/26,24,Nottingham Forest,17,26,24,7,5,12,24,35,meio
+2025/26,24,West Ham,18,20,24,5,5,14,29,48,rebaixamento
+2025/26,24,Burnley,19,15,24,3,6,15,25,47,rebaixamento
+2025/26,24,Wolverhampton,20,8,24,1,5,18,15,45,rebaixamento
+2025/26,25,Arsenal,1,56,25,17,5,3,49,17,titulo
+2025/26,25,Manchester City,2,50,25,15,5,5,51,24,meio
+2025/26,25,Aston Villa,3,47,25,14,5,6,36,27,meio
+2025/26,25,Manchester United,4,44,25,12,8,5,46,36,meio
+2025/26,25,Chelsea,5,43,25,12,7,6,45,28,meio
+2025/26,25,Liverpool,6,39,25,11,6,8,40,35,meio
+2025/26,25,Brentford,7,39,25,12,3,10,39,34,meio
+2025/26,25,Everton,8,37,25,10,7,8,28,28,meio
+2025/26,25,Sunderland,9,36,25,9,9,7,27,29,meio
+2025/26,25,Fulham,10,34,25,10,4,11,35,37,meio
+2025/26,25,Bournemouth,11,34,25,8,10,7,41,44,meio
+2025/26,25,Newcastle,12,33,25,9,6,10,35,36,meio
+2025/26,25,Crystal Palace,13,32,25,8,8,9,26,29,meio
+2025/26,25,Brighton,14,31,25,7,10,8,34,33,meio
+2025/26,25,Tottenham,15,29,25,7,8,10,35,35,meio
+2025/26,25,Leeds,16,29,25,7,8,10,34,43,meio
+2025/26,25,Nottingham Forest,17,26,25,7,5,13,25,38,meio
+2025/26,25,West Ham,18,23,25,6,5,14,31,48,rebaixamento
+2025/26,25,Burnley,19,15,25,3,6,16,25,49,rebaixamento
+2025/26,25,Wolverhampton,20,8,25,1,5,19,16,48,rebaixamento
+2025/26,26,Arsenal,1,57,26,17,6,3,50,18,titulo
+2025/26,26,Manchester City,2,53,26,16,5,5,54,24,meio
+2025/26,26,Aston Villa,3,50,26,15,5,6,37,27,meio
+2025/26,26,Manchester United,4,45,26,12,9,5,47,37,meio
+2025/26,26,Chelsea,5,44,26,12,8,6,47,30,meio
+2025/26,26,Liverpool,6,42,26,12,6,8,41,35,meio
+2025/26,26,Brentford,7,40,26,12,4,10,40,35,meio
+2025/26,26,Everton,8,37,26,10,7,9,29,30,meio
+2025/26,26,Bournemouth,9,37,26,9,10,7,43,45,meio
+2025/26,26,Newcastle,10,36,26,10,6,10,37,37,meio
+2025/26,26,Sunderland,11,36,26,9,9,8,27,30,meio
+2025/26,26,Fulham,12,34,26,10,4,12,35,40,meio
+2025/26,26,Crystal Palace,13,32,26,8,8,10,28,32,meio
+2025/26,26,Brighton,14,31,26,7,10,9,34,34,meio
+2025/26,26,Leeds,15,30,26,7,9,10,36,45,meio
+2025/26,26,Tottenham,16,29,26,7,8,11,36,37,meio
+2025/26,26,Nottingham Forest,17,27,26,7,6,13,25,38,meio
+2025/26,26,West Ham,18,24,26,6,6,14,32,49,rebaixamento
+2025/26,26,Burnley,19,18,26,4,6,16,28,51,rebaixamento
+2025/26,26,Wolverhampton,20,9,26,1,6,19,16,48,rebaixamento
+2025/26,27,Arsenal,1,60,27,18,6,3,54,19,titulo
+2025/26,27,Manchester City,2,56,27,17,5,5,56,25,meio
+2025/26,27,Aston Villa,3,51,27,15,6,6,38,28,meio
+2025/26,27,Manchester United,4,48,27,13,9,5,48,37,meio
+2025/26,27,Chelsea,5,45,27,12,9,6,48,31,meio
+2025/26,27,Liverpool,6,45,27,13,6,8,42,35,meio
+2025/26,27,Brentford,7,40,27,12,4,11,40,37,meio
+2025/26,27,Bournemouth,8,38,27,9,11,7,43,45,meio
+2025/26,27,Everton,9,37,27,10,7,10,29,31,meio
+2025/26,27,Fulham,10,37,27,11,4,12,38,41,meio
+2025/26,27,Newcastle,11,36,27,10,6,11,38,39,meio
+2025/26,27,Sunderland,12,36,27,9,9,9,28,33,meio
+2025/26,27,Crystal Palace,13,35,27,9,8,10,29,32,meio
+2025/26,27,Brighton,14,34,27,8,10,9,36,34,meio
+2025/26,27,Leeds,15,31,27,7,10,10,37,46,meio
+2025/26,27,Tottenham,16,29,27,7,8,12,37,41,meio
+2025/26,27,Nottingham Forest,17,27,27,7,6,14,25,39,meio
+2025/26,27,West Ham,18,25,27,6,7,14,32,49,rebaixamento
+2025/26,27,Burnley,19,19,27,4,7,16,29,52,rebaixamento
+2025/26,27,Wolverhampton,20,9,27,1,6,20,16,49,rebaixamento
+2025/26,28,Arsenal,1,63,28,19,6,3,56,20,titulo
+2025/26,28,Manchester City,2,59,28,18,5,5,57,25,meio
+2025/26,28,Manchester United,3,51,28,14,9,5,50,38,meio
+2025/26,28,Aston Villa,4,51,28,15,6,7,38,30,meio
+2025/26,28,Liverpool,5,48,28,14,6,8,47,37,meio
+2025/26,28,Chelsea,6,45,28,12,9,7,49,33,meio
+2025/26,28,Brentford,7,43,28,13,4,11,44,40,meio
+2025/26,28,Everton,8,40,28,11,7,10,32,33,meio
+2025/26,28,Fulham,9,40,28,12,4,12,40,42,meio
+2025/26,28,Bournemouth,10,39,28,9,12,7,44,46,meio
+2025/26,28,Brighton,11,37,28,9,10,9,38,35,meio
+2025/26,28,Sunderland,12,37,28,9,10,9,29,34,meio
+2025/26,28,Newcastle,13,36,28,10,6,12,40,42,meio
+2025/26,28,Crystal Palace,14,35,28,9,8,11,30,34,meio
+2025/26,28,Leeds,15,31,28,7,10,11,37,47,meio
+2025/26,28,Tottenham,16,29,28,7,8,13,38,43,meio
+2025/26,28,Nottingham Forest,17,27,28,7,6,15,26,41,meio
+2025/26,28,West Ham,18,25,28,6,7,15,34,54,rebaixamento
+2025/26,28,Burnley,19,19,28,4,7,17,32,56,rebaixamento
+2025/26,28,Wolverhampton,20,12,28,2,6,20,18,49,rebaixamento
+2025/26,29,Arsenal,1,66,29,20,6,3,57,20,titulo
+2025/26,29,Manchester City,2,60,29,18,6,5,59,27,meio
+2025/26,29,Manchester United,3,51,29,14,9,6,51,40,meio
+2025/26,29,Aston Villa,4,51,29,15,6,8,39,34,meio
+2025/26,29,Chelsea,5,48,29,13,9,7,53,34,meio
+2025/26,29,Liverpool,6,48,29,14,6,9,48,39,meio
+2025/26,29,Brentford,7,44,29,13,5,11,44,40,meio
+2025/26,29,Everton,8,43,29,12,7,10,34,33,meio
+2025/26,29,Bournemouth,9,40,29,9,13,7,44,46,meio
+2025/26,29,Fulham,10,40,29,12,4,13,40,43,meio
+2025/26,29,Sunderland,11,40,29,10,10,9,30,34,meio
+2025/26,29,Newcastle,12,39,29,11,6,12,42,43,meio
+2025/26,29,Crystal Palace,13,38,29,10,8,11,33,35,meio
+2025/26,29,Brighton,14,37,29,9,10,10,38,36,meio
+2025/26,29,Leeds,15,31,29,7,10,12,37,48,meio
+2025/26,29,Tottenham,16,29,29,7,8,14,39,46,meio
+2025/26,29,Nottingham Forest,17,28,29,7,7,15,28,43,meio
+2025/26,29,West Ham,18,28,29,7,7,15,35,54,rebaixamento
+2025/26,29,Burnley,19,19,29,4,7,18,32,58,rebaixamento
+2025/26,29,Wolverhampton,20,15,29,3,6,20,20,50,rebaixamento
+2025/26,30,Arsenal,1,69,30,21,6,3,59,20,titulo
+2025/26,30,Manchester City,2,61,30,18,7,5,60,28,meio
+2025/26,30,Manchester United,3,54,30,15,9,6,54,41,meio
+2025/26,30,Aston Villa,4,51,30,15,6,9,40,37,meio
+2025/26,30,Liverpool,5,49,30,14,7,9,49,40,meio
+2025/26,30,Chelsea,6,48,30,13,9,8,53,35,meio
+2025/26,30,Brentford,7,45,30,13,6,11,46,42,meio
+2025/26,30,Everton,8,43,30,12,7,11,34,35,meio
+2025/26,30,Newcastle,9,42,30,12,6,12,43,43,meio
+2025/26,30,Bournemouth,10,41,30,9,14,7,44,46,meio
+2025/26,30,Fulham,11,41,30,12,5,13,40,43,meio
+2025/26,30,Brighton,12,40,30,10,10,10,39,36,meio
+2025/26,30,Sunderland,13,40,30,10,10,10,30,35,meio
+2025/26,30,Crystal Palace,14,39,30,10,9,11,33,35,meio
+2025/26,30,Leeds,15,32,30,7,11,12,37,48,meio
+2025/26,30,Tottenham,16,30,30,7,9,14,40,47,meio
+2025/26,30,Nottingham Forest,17,29,30,7,8,15,28,43,meio
+2025/26,30,West Ham,18,29,30,7,8,15,36,55,rebaixamento
+2025/26,30,Burnley,19,20,30,4,8,18,32,58,rebaixamento
+2025/26,30,Wolverhampton,20,16,30,3,7,20,22,52,rebaixamento
+2025/26,31,Arsenal,1,70,31,21,7,3,61,22,titulo
+2025/26,31,Manchester City,2,64,31,19,7,5,63,28,meio
+2025/26,31,Manchester United,3,55,31,15,10,6,56,43,meio
+2025/26,31,Aston Villa,4,54,31,16,6,9,42,37,meio
+2025/26,31,Liverpool,5,49,31,14,7,10,50,42,meio
+2025/26,31,Chelsea,6,48,31,13,9,9,53,38,meio
+2025/26,31,Brentford,7,46,31,13,7,11,46,42,meio
+2025/26,31,Everton,8,46,31,13,7,11,37,35,meio
+2025/26,31,Fulham,9,44,31,13,5,13,43,44,meio
+2025/26,31,Brighton,10,43,31,11,10,10,41,37,meio
+2025/26,31,Sunderland,11,43,31,11,10,10,32,36,meio
+2025/26,31,Newcastle,12,42,31,12,6,13,44,45,meio
+2025/26,31,Bournemouth,13,42,31,9,15,7,46,48,meio
+2025/26,31,Crystal Palace,14,39,31,10,9,12,33,38,meio
+2025/26,31,Leeds,15,33,31,7,12,12,37,48,meio
+2025/26,31,Nottingham Forest,16,32,31,8,8,15,31,43,meio
+2025/26,31,Tottenham,17,30,31,7,9,15,40,50,meio
+2025/26,31,West Ham,18,29,31,7,8,16,36,57,rebaixamento
+2025/26,31,Burnley,19,20,31,4,8,19,33,61,rebaixamento
+2025/26,31,Wolverhampton,20,17,31,3,8,20,24,54,rebaixamento
+2025/26,32,Arsenal,1,70,32,21,7,4,62,24,titulo
+2025/26,32,Manchester City,2,67,32,20,7,5,66,28,meio
+2025/26,32,Manchester United,3,55,32,15,10,7,57,45,meio
+2025/26,32,Aston Villa,4,55,32,16,7,9,43,38,meio
+2025/26,32,Liverpool,5,52,32,15,7,10,52,42,meio
+2025/26,32,Chelsea,6,48,32,13,9,10,53,41,meio
+2025/26,32,Brentford,7,47,32,13,8,11,48,44,meio
+2025/26,32,Everton,8,47,32,13,8,11,39,37,meio
+2025/26,32,Brighton,9,46,32,12,10,10,43,37,meio
+2025/26,32,Sunderland,10,46,32,12,10,10,33,36,meio
+2025/26,32,Bournemouth,11,45,32,10,15,7,48,49,meio
+2025/26,32,Fulham,12,44,32,13,5,14,43,46,meio
+2025/26,32,Newcastle,13,42,32,12,6,14,45,47,meio
+2025/26,32,Crystal Palace,14,42,32,11,9,12,35,39,meio
+2025/26,32,Leeds,15,36,32,8,12,12,39,49,meio
+2025/26,32,Nottingham Forest,16,33,32,8,9,15,32,44,meio
+2025/26,32,West Ham,17,32,32,8,8,16,40,57,meio
+2025/26,32,Tottenham,18,30,32,7,9,16,40,51,rebaixamento
+2025/26,32,Burnley,19,20,32,4,8,20,33,63,rebaixamento
+2025/26,32,Wolverhampton,20,17,32,3,8,21,24,58,rebaixamento
+2025/26,33,Manchester City,1,70,33,21,7,5,68,29,titulo
+2025/26,33,Arsenal,2,70,33,21,7,5,63,26,meio
+2025/26,33,Manchester United,3,58,33,16,10,7,58,45,meio
+2025/26,33,Aston Villa,4,58,33,17,7,9,47,41,meio
+2025/26,33,Liverpool,5,55,33,16,7,10,54,43,meio
+2025/26,33,Chelsea,6,48,33,13,9,11,53,42,meio
+2025/26,33,Brentford,7,48,33,13,9,11,48,44,meio
+2025/26,33,Bournemouth,8,48,33,11,15,7,50,50,meio
+2025/26,33,Brighton,9,47,33,12,11,10,45,39,meio
+2025/26,33,Everton,10,47,33,13,8,12,40,39,meio
+2025/26,33,Sunderland,11,46,33,12,10,11,36,40,meio
+2025/26,33,Fulham,12,45,33,13,6,14,43,46,meio
+2025/26,33,Crystal Palace,13,43,33,11,10,12,35,39,meio
+2025/26,33,Newcastle,14,42,33,12,6,15,46,49,meio
+2025/26,33,Leeds,15,39,33,9,12,12,42,49,meio
+2025/26,33,Nottingham Forest,16,36,33,9,9,15,36,45,meio
+2025/26,33,West Ham,17,33,33,8,9,16,40,57,meio
+2025/26,33,Tottenham,18,31,33,7,10,16,42,53,rebaixamento
+2025/26,33,Burnley,19,20,33,4,8,21,34,67,rebaixamento
+2025/26,33,Wolverhampton,20,17,33,3,8,22,24,61,rebaixamento
+2025/26,34,Manchester City,1,73,34,22,7,5,69,29,titulo
+2025/26,34,Arsenal,2,73,34,22,7,5,64,26,meio
+2025/26,34,Manchester United,3,61,34,17,10,7,60,46,meio
+2025/26,34,Liverpool,4,58,34,17,7,10,57,44,meio
+2025/26,34,Aston Villa,5,58,34,17,7,10,47,42,meio
+2025/26,34,Brighton,6,50,34,13,11,10,48,39,meio
+2025/26,34,Bournemouth,7,49,34,11,16,7,52,52,meio
+2025/26,34,Chelsea,8,48,34,13,9,12,53,45,meio
+2025/26,34,Brentford,9,48,34,13,9,12,49,46,meio
+2025/26,34,Fulham,10,48,34,14,6,14,44,46,meio
+2025/26,34,Everton,11,47,34,13,8,13,41,41,meio
+2025/26,34,Sunderland,12,46,34,12,10,12,36,45,meio
+2025/26,34,Crystal Palace,13,43,34,11,10,13,36,42,meio
+2025/26,34,Newcastle,14,42,34,12,6,16,46,50,meio
+2025/26,34,Leeds,15,40,34,9,13,12,44,51,meio
+2025/26,34,Nottingham Forest,16,39,34,10,9,15,41,45,meio
+2025/26,34,West Ham,17,36,34,9,9,16,42,58,meio
+2025/26,34,Tottenham,18,34,34,8,10,16,43,53,rebaixamento
+2025/26,34,Burnley,19,20,34,4,8,22,34,68,rebaixamento
+2025/26,34,Wolverhampton,20,17,34,3,8,23,24,62,rebaixamento
+2025/26,35,Arsenal,1,76,35,23,7,5,67,26,titulo
+2025/26,35,Manchester City,2,74,35,22,8,5,72,32,meio
+2025/26,35,Manchester United,3,64,35,18,10,7,63,48,meio
+2025/26,35,Liverpool,4,58,35,17,7,11,59,47,meio
+2025/26,35,Aston Villa,5,58,35,17,7,11,48,44,meio
+2025/26,35,Bournemouth,6,52,35,12,16,7,55,52,meio
+2025/26,35,Brentford,7,51,35,14,9,12,52,46,meio
+2025/26,35,Brighton,8,50,35,13,11,11,49,42,meio
+2025/26,35,Chelsea,9,48,35,13,9,13,54,48,meio
+2025/26,35,Everton,10,48,35,13,9,13,44,44,meio
+2025/26,35,Fulham,11,48,35,14,6,15,44,49,meio
+2025/26,35,Sunderland,12,47,35,12,11,12,37,46,meio
+2025/26,35,Newcastle,13,45,35,13,6,16,49,51,meio
+2025/26,35,Leeds,14,43,35,10,13,12,47,52,meio
+2025/26,35,Crystal Palace,15,43,35,11,10,14,36,45,meio
+2025/26,35,Nottingham Forest,16,42,35,11,9,15,44,46,meio
+2025/26,35,Tottenham,17,37,35,9,10,16,45,54,meio
+2025/26,35,West Ham,18,36,35,9,9,17,42,61,rebaixamento
+2025/26,35,Burnley,19,20,35,4,8,23,35,71,rebaixamento
+2025/26,35,Wolverhampton,20,18,35,3,9,23,25,63,rebaixamento
+2025/26,36,Arsenal,1,79,36,24,7,5,68,26,titulo
+2025/26,36,Manchester City,2,77,36,23,8,5,75,32,meio
+2025/26,36,Manchester United,3,65,36,18,11,7,63,48,meio
+2025/26,36,Liverpool,4,59,36,17,8,11,60,48,meio
+2025/26,36,Aston Villa,5,59,36,17,8,11,50,46,meio
+2025/26,36,Bournemouth,6,55,36,13,16,7,56,52,meio
+2025/26,36,Brighton,7,53,36,14,11,11,52,42,meio
+2025/26,36,Brentford,8,51,36,14,9,13,52,49,meio
+2025/26,36,Chelsea,9,49,36,13,10,13,55,49,meio
+2025/26,36,Everton,10,49,36,13,10,13,46,46,meio
+2025/26,36,Fulham,11,48,36,14,6,16,44,50,meio
+2025/26,36,Sunderland,12,48,36,12,12,12,37,46,meio
+2025/26,36,Newcastle,13,46,36,13,7,16,50,52,meio
+2025/26,36,Leeds,14,44,36,10,14,12,48,53,meio
+2025/26,36,Crystal Palace,15,44,36,11,11,14,38,47,meio
+2025/26,36,Nottingham Forest,16,43,36,11,10,15,45,47,meio
+2025/26,36,Tottenham,17,38,36,9,11,16,46,55,meio
+2025/26,36,West Ham,18,36,36,9,9,18,42,62,rebaixamento
+2025/26,36,Burnley,19,21,36,4,9,23,37,73,rebaixamento
+2025/26,36,Wolverhampton,20,18,36,3,9,24,25,66,rebaixamento
+2025/26,37,Arsenal,1,82,37,25,7,5,69,26,titulo
+2025/26,37,Manchester City,2,78,37,23,9,5,76,33,meio
+2025/26,37,Manchester United,3,68,37,19,11,7,66,50,meio
+2025/26,37,Aston Villa,4,62,37,18,8,11,54,48,meio
+2025/26,37,Liverpool,5,59,37,17,8,12,62,52,meio
+2025/26,37,Bournemouth,6,56,37,13,17,7,57,53,meio
+2025/26,37,Brighton,7,53,37,14,11,12,52,43,meio
+2025/26,37,Chelsea,8,52,37,14,10,13,57,50,meio
+2025/26,37,Brentford,9,52,37,14,10,13,54,51,meio
+2025/26,37,Sunderland,10,51,37,13,12,12,40,47,meio
+2025/26,37,Newcastle,11,49,37,14,7,16,53,53,meio
+2025/26,37,Everton,12,49,37,13,10,14,47,49,meio
+2025/26,37,Fulham,13,49,37,14,7,16,45,51,meio
+2025/26,37,Leeds,14,47,37,11,14,12,49,53,meio
+2025/26,37,Crystal Palace,15,45,37,11,12,14,40,49,meio
+2025/26,37,Nottingham Forest,16,43,37,11,10,16,47,50,meio
+2025/26,37,Tottenham,17,38,37,9,11,17,47,57,meio
+2025/26,37,West Ham,18,36,37,9,9,19,43,65,rebaixamento
+2025/26,37,Burnley,19,21,37,4,9,24,37,74,rebaixamento
+2025/26,37,Wolverhampton,20,19,37,3,10,24,26,67,rebaixamento
+2025/26,38,Arsenal,1,85,38,26,7,5,71,27,titulo
+2025/26,38,Manchester City,2,78,38,23,9,6,77,35,meio
+2025/26,38,Manchester United,3,71,38,20,11,7,69,50,meio
+2025/26,38,Aston Villa,4,65,38,19,8,11,56,49,meio
+2025/26,38,Liverpool,5,60,38,17,9,12,63,53,meio
+2025/26,38,Bournemouth,6,57,38,13,18,7,58,54,meio
+2025/26,38,Sunderland,7,54,38,14,12,12,42,48,meio
+2025/26,38,Brighton,8,53,38,14,11,13,52,46,meio
+2025/26,38,Brentford,9,53,38,14,11,13,55,52,meio
+2025/26,38,Chelsea,10,52,38,14,10,14,58,52,meio
+2025/26,38,Fulham,11,52,38,15,7,16,47,51,meio
+2025/26,38,Newcastle,12,49,38,14,7,17,53,55,meio
+2025/26,38,Everton,13,49,38,13,10,15,47,50,meio
+2025/26,38,Leeds,14,47,38,11,14,13,49,56,meio
+2025/26,38,Crystal Palace,15,45,38,11,12,15,41,51,meio
+2025/26,38,Nottingham Forest,16,44,38,11,11,16,48,51,meio
+2025/26,38,Tottenham,17,41,38,10,11,17,48,57,meio
+2025/26,38,West Ham,18,39,38,10,9,19,46,65,rebaixamento
+2025/26,38,Burnley,19,22,38,4,10,24,38,75,rebaixamento
+2025/26,38,Wolverhampton,20,20,38,3,11,24,27,68,rebaixamento

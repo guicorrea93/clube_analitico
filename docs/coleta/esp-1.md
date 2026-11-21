@@ -12,7 +12,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 - ogol: rodada oficial de cada jogo e conferência de placar; calendários guardados em `data/cache/ogol-esp-1/` para os escudos;
 - ESPN (liga `esp.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
 - RSSSF (José Vicente Tejedor Carnicero e outros): tabela final de todas as temporadas e matriz de resultados até 1999/2000 (conferência jogo a jogo); artilheiros até 1999/2000;
-- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e Troféu Pichichi.
+- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões, artilheiros pela contagem oficial da liga (súmulas da LFP; "List of La Liga top scorers") e Troféu Pichichi (do jornal Marca, que a liga não reconhece; anotado quando difere).
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Madri; Canárias nos jogos em casa do Las Palmas e do Tenerife). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96.
 
@@ -123,12 +123,14 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 - tabela publicada x jogos (Wikipédia) — Athletic Bilbao tabela [18, 8, 4, 6, 47, 34, 20] jogos [18, 8, 4, 6, 43, 33, 20]
 - tabela publicada x jogos (Wikipédia) — Arenas de Getxo tabela [18, 8, 3, 7, 33, 43, 19] jogos [18, 8, 3, 7, 32, 39, 19]
 - a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
+- artilheiro: contagem oficial da liga Paco Bienzobas com 17 gols; o Pichichi (Marca) deu Paco Bienzobas com 14 gols. Fica a contagem oficial
 
 ### 1929/30
 
 - a matriz da RSSSF traz 2-1 nos dois jogos de Espanyol x Europa; a base e o ogol trazem 1-2 nos dois (as tabelas não distinguem, porque cada clube fica com uma vitória e uma derrota). Fica a base
 - placar diferente na matriz da RSSSF — Espanyol Barcelona x CE Europa: base 1-2, RSSSF 2-1
 - placar diferente na matriz da RSSSF — CE Europa x Espanyol Barcelona: base 1-2, RSSSF 2-1
+- artilheiro: contagem oficial da liga Guillermo Gorostiza com 20 gols; o Pichichi (Marca) deu Guillermo Gorostiza com 19 gols. Fica a contagem oficial
 
 ### 1930/31
 
@@ -138,7 +140,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1931/32
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Bata com 13 gols; o Pichichi (Marca) deu Guillermo Gorostiza com 12 gols. Fica a contagem oficial
 
 ### 1932/33
 
@@ -146,15 +148,16 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1933/34
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Isidro Lángara com 26 gols; o Pichichi (Marca) deu Isidro Lángara com 27 gols. Fica a contagem oficial
 
 ### 1934/35
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Isidro Lángara com 27 gols; o Pichichi (Marca) deu Isidro Lángara com 26 gols. Fica a contagem oficial
 
 ### 1935/36
 
-- artilheiro: Pichichi Isidro Lángara (28 gols); RSSSF Lángara (27 gols). Fica o Pichichi (contagem do Marca)
+- Real Oviedo não está na temporada seguinte, mas não caiu: 3º colocado em 1935/36, teve dispensa de 1939/40 por ter o estádio destruído na guerra e voltou em 1940/41 (Wikipédia es, 1935-36 e 1939-40)
+- artilheiro: a RSSSF dá Lángara com 27 gols
 
 ### 1939/40
 
@@ -166,6 +169,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 - placar diferente na matriz da RSSSF — Valencia CF x Hercules CF: base 6-0, RSSSF 6-1
 - tabela publicada x jogos (RSSSF) — Valencia CF tabela [22, 11, 5, 6, 60, 53, 27] jogos [22, 11, 5, 6, 60, 52, 27]
 - tabela publicada x jogos (RSSSF) — Hercules CF tabela [22, 7, 2, 13, 29, 67, 16] jogos [22, 7, 2, 13, 28, 67, 16]
+- artilheiro: contagem oficial da liga Pruden com 33 gols; o Pichichi (Marca) deu Pruden com 30 gols. Fica a contagem oficial
 
 ### 1941/42
 
@@ -173,15 +177,15 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1942/43
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Mariano Martín com 30 gols; o Pichichi (Marca) deu Mariano Martín com 32 gols. Fica a contagem oficial
 
 ### 1943/44
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Mundo com 28 gols; o Pichichi (Marca) deu Mundo com 27 gols. Fica a contagem oficial
 
 ### 1944/45
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Telmo Zarra com 20 gols; o Pichichi (Marca) deu Telmo Zarra com 19 gols. Fica a contagem oficial
 
 ### 1945/46
 
@@ -189,23 +193,23 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1946/47
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Telmo Zarra com 33 gols; o Pichichi (Marca) deu Telmo Zarra com 34 gols. Fica a contagem oficial
 
 ### 1947/48
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Pahiño com 20 gols; o Pichichi (Marca) deu Pahiño com 23 gols. Fica a contagem oficial
 
 ### 1948/49
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga César com 27 gols; o Pichichi (Marca) deu César com 28 gols. Fica a contagem oficial
 
 ### 1949/50
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Telmo Zarra com 24 gols; o Pichichi (Marca) deu Telmo Zarra com 25 gols. Fica a contagem oficial
 
 ### 1950/51
 
-- artilheiro: Pichichi Telmo Zarra (38 gols); RSSSF Zarra (36 gols). Fica o Pichichi (contagem do Marca)
+- artilheiro: a RSSSF dá Zarra com 36 gols
 
 ### 1951/52
 
@@ -217,7 +221,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1953/54
 
-- artilheiro: Pichichi Alfredo Di Stéfano (27 gols); RSSSF Di Stéfano (29 gols). Fica o Pichichi (contagem do Marca)
+- artilheiro: a RSSSF dá Di Stéfano com 29 gols
 
 ### 1954/55
 
@@ -241,11 +245,12 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1959/60
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Ferenc Puskás com 25 gols; o Pichichi (Marca) deu Ferenc Puskás com 26 gols. Fica a contagem oficial
 
 ### 1960/61
 
 - ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Athletic Bilbao, Wikipédia Real Betis); fica a da Wikipédia
+- artilheiro: contagem oficial da liga Ferenc Puskás com 28 gols; o Pichichi (Marca) deu Ferenc Puskás com 27 gols. Fica a contagem oficial
 
 ### 1961/62
 
@@ -261,15 +266,15 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1963/64
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Ferenc Puskás com 21 gols; o Pichichi (Marca) deu Ferenc Puskás com 20 gols. Fica a contagem oficial
 
 ### 1964/65
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Cayetano Ré com 26 gols; o Pichichi (Marca) deu Cayetano Ré com 25 gols. Fica a contagem oficial
 
 ### 1965/66
 
-- sem ocorrências
+- artilheiro: contagem oficial da liga Luis Aragonés com 18 gols; o Pichichi (Marca) deu Vavá II com 19 gols. Fica a contagem oficial
 
 ### 1966/67
 
@@ -285,12 +290,12 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1968/69
 
-- artilheiro: Pichichi Amancio, José Eulogio Gárate (14 gols); RSSSF Amancio Amaro (14 gols). Fica o Pichichi (contagem do Marca)
+- artilheiro: a RSSSF dá Amancio Amaro com 14 gols
 
 ### 1969/70
 
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Valencia CF', 'Real Madrid'])
-- artilheiro: Pichichi Amancio, Luis Aragonés, José Eulogio Gárate (16 gols); RSSSF Amancio Amaro, Luis Aragonés (16 gols). Fica o Pichichi (contagem do Marca)
+- artilheiro: a RSSSF dá Amancio Amaro, Luis Aragonés com 16 gols
 
 ### 1970/71
 
@@ -325,7 +330,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1975/76
 
-- artilheiro: Pichichi Quini (18 gols); RSSSF Enrique Castro "Quini" (21 gols). Fica o Pichichi (contagem do Marca)
+- artilheiro: contagem oficial da liga Quini com 21 gols; o Pichichi (Marca) deu Quini com 18 gols. Fica a contagem oficial
 
 ### 1976/77
 
@@ -357,6 +362,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 ### 1981/82
 
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['CA Osasuna', 'Real Zaragoza'])
+- artilheiro: contagem oficial da liga Quini com 27 gols; o Pichichi (Marca) deu Quini com 26 gols. Fica a contagem oficial
 
 ### 1982/83
 
@@ -377,6 +383,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 ### 1986/87
 
 - Real Valladolid x Las Palmas (17/12/1986): o ogol traz 0-0; a base, a matriz e a tabela da RSSSF e a da Wikipédia fecham com 2-1: erro do ogol
+- 1986/87: com a ampliação para 20 clubes, os três últimos do grupo de rebaixamento jogaram uma liguilla em turno único, que mandou um só para a 2ª divisão: Racing 1-1 Cádiz (24/06/1987; Racing 4-3 nos pênaltis), Cádiz 1-1 Osasuna (28/06; Cádiz 4-3 nos pênaltis) e Osasuna 2-0 Racing (30/06). Osasuna 3 pontos, Cádiz 2, Racing 1: caiu o Racing (cadizcf.com, racinguismo.com, RSSSF). Esses jogos não contam como Primera División (Wikipédia es), e a classificação oficial continua a do grupo de rebaixamento: 16º Osasuna, 17º Racing (rebaixado) e 18º Cádiz (Wikipédia es e RSSSF)
 - placar diferente no ogol — Real Valladolid x UD Las Palmas (1986-12-17): base 2-1, ogol 0-0
 
 ### 1987/88
@@ -443,6 +450,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 - ESPN com 375 de 380 jogos (ex. sem ESPN: UD Las Palmas x Espanyol Barcelona, 2001-10-14)
 - ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Athletic Bilbao, Wikipédia Sevilla FC); fica a da Wikipédia
+- artilheiro: contagem oficial da liga Diego Tristán com 20 gols; o Pichichi (Marca) deu Diego Tristán com 21 gols. Fica a contagem oficial
 
 ### 2002/03
 
@@ -455,6 +463,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 ### 2003/04
 
 - data diferente no ogol em 29 jogos (ex.: Racing Santander x RCD Mallorca: base 2003-08-31, ogol 2003-08-30); fica a da base
+- artilheiro: contagem oficial da liga Ronaldo com 24 gols; o Pichichi (Marca) deu Ronaldo com 25 gols. Fica a contagem oficial
 
 ### 2004/05
 
@@ -466,6 +475,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 - gols da ESPN não batem com o placar — Villarreal CF 4-0 Getafe CF: ESPN 5-0 (descartados)
 - gols da ESPN não batem com o placar — Albacete 3-1 Levante UD: ESPN 3-2 (descartados)
 - gols da ESPN não batem com o placar — CD Numancia 2-2 CA Osasuna: ESPN 3-2 (descartados)
+- artilheiro: contagem oficial da liga Diego Forlán, Samuel Eto'o com 25 gols; o Pichichi (Marca) deu Diego Forlán com 25 gols. Fica a contagem oficial
 
 ### 2005/06
 

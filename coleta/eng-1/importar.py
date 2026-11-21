@@ -1,6 +1,6 @@
-"""Monta o pacote da 1ª divisão inglesa (eng-1), 1888/89 a 2024/25, e o relatório docs/coleta/eng-1.md.
+"""Monta o pacote da 1ª divisão inglesa (eng-1), 1888/89 a 2025/26, e o relatório docs/coleta/eng-1.md.
 
-Base dos jogos: engsoccerdata (2022/23 vem do football-data, que o engsoccerdata não tem). Cada jogo é casado pelo
+Base dos jogos: engsoccerdata (2022/23 e 2025/26 vêm do football-data, que o engsoccerdata não tem). Cada jogo é casado pelo
 par mandante x visitante, que é único na temporada (turno e returno), com:
   ogol           rodada oficial e conferência de placar (clubes casados pelo código do ogol, por votação);
   football-data  1993/94+: hora (2019/20+), árbitro e estatísticas por time (2000/01+); conferência de placar;
@@ -35,17 +35,58 @@ from rsssf_eng import ler as ler_rsssf  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
 
 LONDRES = ZoneInfo("Europe/London")
+SO_FD = (2022, 2025)   # temporadas que o engsoccerdata não tem: base pelo football-data
 PACOTE = DADOS / "pacote"
 RELATORIO = RAIZ / "docs" / "coleta" / "eng-1.md"
 
 # placar corrigido na base: (ano, mandante, visitante) -> (gols, gols, motivo). Nomes do engsoccerdata.
-CORRECOES: dict[tuple, tuple] = {}
+CORRECOES: dict[tuple, tuple] = {
+    (1888, "Wolverhampton Wanderers", "Everton"): (
+        5, 0, "três jornais da época trazem 5-0 (Cricket and Football Field, Liverpool Courier e Athletic News, transcritos em "
+              "bluecorrespondent.co.uk/1888-89/january1889.html); também o ogol, o 11v11, a página da temporada do Wolverhampton "
+              "na Wikipédia e a tabela final da Wikipédia (Wolverhampton 51 gols pró, Everton 47 contra). O 4-0 vem da RSSSF e de "
+              "quem a copia (um gol de Knight foi anulado por impedimento)"),
+}
+
+# data corrigida na base: (ano, mandante, visitante) -> data. Jogos em que o 11v11 e o ogol concordam contra a base
+# (conferência da revisão, EN-005: revisao/EN/datas_11v11_saida.txt)
+DATAS = {
+    (1895, "Burnley", "Sheffield United"): "1896-02-04",
+    **{(1899, m, v): "1899-12-30" for m, v in (
+        ("Preston North End", "Nottingham Forest"), ("Aston Villa", "Sunderland"), ("Manchester City", "Blackburn Rovers"),
+        ("Newcastle United", "West Bromwich Albion"), ("Burnley", "Glossop North End"), ("Notts County", "Derby County"),
+        ("Sheffield United", "Everton"), ("Wolverhampton Wanderers", "Bury"), ("Liverpool", "Stoke City"))},
+    (1934, "Blackburn Rovers", "Chelsea"): "1934-11-17",
+    (1936, "West Bromwich Albion", "Bolton Wanderers"): "1936-11-14",
+    (1936, "Derby County", "Brentford"): "1936-10-03",
+    (1938, "Charlton Athletic", "Arsenal"): "1938-12-27",
+    (1938, "Leicester City", "Portsmouth"): "1938-11-12",
+    (1993, "Ipswich Town", "Sheffield United"): "1994-02-22",
+    (1993, "Newcastle United", "Ipswich Town"): "1994-03-23",
+    (1993, "Wimbledon", "Leeds United"): "1994-03-26",
+    (1994, "Blackburn Rovers", "Crystal Palace"): "1995-04-20",
+    (1994, "Everton", "Leeds United"): "1994-12-05",
+    (1995, "West Ham United", "Manchester United"): "1996-01-22",
+    **{(1995, m, v): "1996-05-05" for m, v in (
+        ("Everton", "Aston Villa"), ("Chelsea", "Blackburn Rovers"), ("Arsenal", "Bolton Wanderers"),
+        ("Nottingham Forest", "Queens Park Rangers"), ("West Ham United", "Sheffield Wednesday"), ("Manchester City", "Liverpool"),
+        ("Newcastle United", "Tottenham Hotspur"), ("Middlesbrough", "Manchester United"), ("Coventry City", "Leeds United"),
+        ("Southampton", "Wimbledon"))},
+    (1998, "Manchester United", "Derby County"): "1999-02-03",
+    (2015, "Manchester United", "AFC Bournemouth"): "2016-05-17",
+}
+
+# gols do artilheiro corrigidos: (ano, jogador) -> (gols, motivo) (revisão EN-002 e EN-003)
+GOLS_ARTILHEIRO = {
+    (1937, "Tommy Lawton"): (28, "a página da temporada 1937-38 da liga e a do Everton e a ficha de Lawton na Wikipédia dão 28 na "
+                                 "liga (a RSSSF traz 38, erro de digitação)"),
+    (1889, "Jimmy Ross"): (24, "a RSSSF (engtops) e a página da temporada 1889-90 da liga na Wikipédia dão 24"),
+}
 
 # explicação de cada divergência que sobra entre fontes (vai para o relatório, antes das ocorrências da temporada)
 EXPLICACOES = {
-    1888: ["Wolverhampton x Everton (26/01/1889): o ogol traz 5-0 e a tabela da Wikipédia conta 51 gols pró do Wolverhampton e "
-           "47 contra do Everton, como se fosse 5-0; o engsoccerdata, a matriz e a tabela da RSSSF e a matriz da própria Wikipédia "
-           "trazem 4-0. Fica o 4-0 (três fontes, e a tabela da RSSSF fecha com ele)"],
+    1888: ["Wolverhampton x Everton (26/01/1889) fica 5-0 (ver a correção abaixo); a matriz e a tabela da RSSSF, feitas com "
+           "4-0, ficam com 1 gol a menos para o Wolverhampton e para o Everton"],
     1900: ["a matriz da RSSSF traz Newcastle 4-0 Sheffield United; a tabela da RSSSF e a da Wikipédia fecham com o 3-0 da base: "
            "erro de digitação da matriz"],
     1903: ["a matriz da RSSSF troca os placares de Stoke x West Bromwich (5-0) e Stoke x Wolverhampton (5-1); as tabelas da RSSSF "
@@ -97,15 +138,18 @@ def carregar_base() -> dict[int, list[dict]]:
     for x in ler_csv(DADOS / "engsoccerdata" / "england_tier1.csv"):
         base[int(x["Season"])].append({"data": x["Date"], "m": x["home"], "v": x["visitor"],
                                        "gm": int(x["hgoal"]), "gv": int(x["vgoal"]), "fonte": "engsoccerdata"})
-    for x in ler_csv(DADOS / "football-data" / "E0_2223.csv"):   # o engsoccerdata não tem 2022/23
-        base[2022].append({"data": data_fd(x["Date"]), "m": clubes_eng.esd(x["HomeTeam"]), "v": clubes_eng.esd(x["AwayTeam"]),
-                           "gm": int(x["FTHG"]), "gv": int(x["FTAG"]), "fonte": "football-data"})
+    for a in SO_FD:   # temporadas que o engsoccerdata não tem
+        for x in ler_csv(DADOS / "football-data" / f"E0_{str(a)[-2:]}{str(a + 1)[-2:]}.csv"):
+            if not x.get("HomeTeam"):
+                continue
+            base[a].append({"data": data_fd(x["Date"]), "m": clubes_eng.esd(x["HomeTeam"]), "v": clubes_eng.esd(x["AwayTeam"]),
+                            "gm": int(x["FTHG"]), "gv": int(x["FTAG"]), "fonte": "football-data"})
     return base
 
 
 def carregar_fd() -> dict[int, dict]:
     res = {}
-    for a in range(1993, 2025):
+    for a in range(1993, 2026):
         cod = f"{str(a)[-2:]}{str(a + 1)[-2:]}"
         jogos = {}
         for x in ler_csv(DADOS / "football-data" / f"E0_{cod}.csv"):
@@ -148,7 +192,7 @@ def carregar_ogol() -> dict[int, list[dict]]:
 
 def carregar_espn() -> dict[int, list[dict]]:
     res = {}
-    for a in range(2001, 2025):
+    for a in range(2001, 2026):
         arq = DADOS / "espn" / f"eng1_{a}.json"
         if not arq.exists():
             continue
@@ -247,13 +291,20 @@ def main() -> None:
         pares = Counter((j["m"], j["v"]) for j in jogos)
         assert all(n == 1 for n in pares.values()), (a, [p for p, n in pares.items() if n > 1])
         por_par = {(j["m"], j["v"]): j for j in jogos}
+        datas_corr = []
         for j in jogos:
-            if j["fonte"] == "engsoccerdata":   # 2022/23 vem do football-data, cujos nomes entram abaixo
+            if j["fonte"] == "engsoccerdata":   # 2022/23 e 2025/26 vêm do football-data, cujos nomes entram abaixo
                 nomes[j["m"]][f"engsoccerdata:{j['m']}"].add(a)
             if (a, j["m"], j["v"]) in CORRECOES:
                 gm, gv, motivo = CORRECOES[(a, j["m"], j["v"])]
                 ocorr[a].append(f"placar corrigido: {j['m']} x {j['v']} de {j['gm']}-{j['gv']} para {gm}-{gv} — {motivo}")
                 j["gm"], j["gv"] = gm, gv
+            if (a, j["m"], j["v"]) in DATAS:
+                datas_corr.append(f"{j['m']} x {j['v']} ({j['data']} -> {DATAS[(a, j['m'], j['v'])]})")
+                j["data"] = DATAS[(a, j["m"], j["v"])]
+        if datas_corr:
+            ocorr[a].append(f"{len(datas_corr)} datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, "
+                            f"EN-005): {'; '.join(datas_corr[:4])}" + (" ..." if len(datas_corr) > 4 else ""))
         clubes = sorted({j["m"] for j in jogos} | {j["v"] for j in jogos})
         n = len(clubes)
         assert len(jogos) == n * (n - 1), (a, len(jogos), n)
@@ -348,6 +399,10 @@ def main() -> None:
         arq_rs = DADOS / "rsssf" / f"{a}-{str(a + 1)[-2:]}.html"
         if arq_rs.exists():
             rs = ler_rsssf(arq_rs)
+            for x in rs["tabela"]:   # nomes de época da RSSSF ("Newton Heath", "Small Heath", "Woolwich Arsenal") no nomes_fonte
+                c = clubes_eng.esd(x["nome"].title() if x["maiusculas"] else x["nome"])
+                if c:
+                    nomes[c][f"rsssf:{x['nome'].title() if x['maiusculas'] else x['nome']}"].add(a)
             dif_m = 0
             for (nm, nv), (g1, g2) in rs["matriz"].items():
                 m, v = clubes_eng.esd(nm), clubes_eng.esd(nv)
@@ -432,7 +487,7 @@ def main() -> None:
             dif = [c for c, d in zip(ordem, calc_ordem) if c != d]
             ocorr[a].append(f"a ordem oficial não é a do critério calculado em {len(dif)} posições (ex.: {dif[:2]})")
 
-        # rebaixados: quem não está na 1ª divisão no ano seguinte (2024/25: marca da Wikipédia)
+        # rebaixados: quem não está na 1ª divisão no ano seguinte (última temporada: marca da Wikipédia)
         prox = next((b for b in TEMPORADAS if b > a), None)
         if prox is not None:
             prox_clubes = {j["m"] for j in base[prox]}
@@ -509,7 +564,7 @@ def main() -> None:
         # ---- classificação rodada a rodada (pela rodada do ogol)
         if not sem_rodada:
             rodadas = sorted({j["ogol"]["rodada"] for j in jogos})
-            n_reb = len(rebaixados)
+            pos_reb = {p for p, c in enumerate(ordem, 1) if c in rebaixados}   # faixa: as posições finais de quem caiu
             for r in rodadas:
                 parcial = calcular([j for j in jogos if j["ogol"]["rodada"] <= r], pv)
                 for pos, c in enumerate(ordenar(parcial, ajuste, a), 1):
@@ -517,9 +572,9 @@ def main() -> None:
                     tab["classificacao_rodada"].append({
                         "temporada": T, "rodada": r, "clube": clubes_eng.exibicao(c), "posicao": pos, "pontos": p + ajuste.get(c, 0),
                         "jogos": jj, "vitorias": v_, "empates": e_, "derrotas": d_, "gols_pro": gp, "gols_contra": gc,
-                        "zona": "titulo" if pos == 1 else "rebaixamento" if pos > n - n_reb else "meio"})
+                        "zona": "titulo" if pos == 1 else "rebaixamento" if pos in pos_reb else "meio"})
 
-        fontes_ed = ["engsoccerdata" if a != 2022 else "football-data", "ogol"] + (["football-data"] if a in fd and a != 2022 else []) \
+        fontes_ed = ["engsoccerdata" if a not in SO_FD else "football-data", "ogol"] + (["football-data"] if a in fd and a not in SO_FD else []) \
             + (["ESPN"] if a in espn else []) + (["RSSSF"] if rs else []) + (["Wikipédia"] if w else [])
         pun = "; ".join(f"{clubes_eng.exibicao(c)} {v:+d} pontos" for c, v in ajuste.items())
         tab["edicoes"].append({"temporada": T, "ano_inicio": a, "ano_fim": a + 1, "nome_oficial": nome_oficial(a), "num_clubes": n,
@@ -578,9 +633,13 @@ def artilheiros() -> list[dict]:
         clubes = [x for x in re.findall(r"\[\[([^|\]]+)(?:\|[^\]]*)?\]\]", cel[2])]
         c = clubes_eng.esd(re.sub(r"\s*(?:F\.C\.|A\.F\.C\.)$", "", clubes[-1]).strip()) if clubes else None
         antes = [clubes_eng.esd(re.sub(r"\s*(?:F\.C\.|A\.F\.C\.)$", "", x).strip()) for x in clubes[:-1]]
+        fonte = "Wikipédia (List of English football first tier top scorers)" \
+            + (f"; gols somados com {', '.join(clubes_eng.exibicao(x) for x in antes)}" if antes else "")
+        if (ano, jogador) in GOLS_ARTILHEIRO:
+            gols_lista, (gols, motivo) = gols, GOLS_ARTILHEIRO[(ano, jogador)]
+            fonte += f"; a lista dá {gols_lista}, corrigido para {gols}: {motivo}"
         res.append({"temporada": temporada(ano), "jogador": jogador, "clube": clubes_eng.exibicao(c) if c else None, "gols": gols,
-                    "fonte": "Wikipédia (List of English football first tier top scorers)"
-                             + (f"; gols somados com {', '.join(clubes_eng.exibicao(x) for x in antes)}" if antes else "")})
+                    "fonte": fonte})
     return res
 
 
@@ -590,14 +649,14 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn) -> None:
     out = [
         "# Campeonato Inglês (1ª divisão) — coleta de dados", "",
         "Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1888/89 a 2024/25: Football League (1888/89-1891/92), First Division (1892/93-1991/92), "
+        f"**Edições:** {len(linhas)}, de 1888/89 a 2025/26: Football League (1888/89-1891/92), First Division (1892/93-1991/92), "
         "FA Premier League (1992/93-2006/07) e Premier League (2007/08 em diante). Sem liga em 1915/16-1918/19 e 1939/40-1945/46 "
         "(guerras; a temporada 1939/40 parou na 3ª rodada e foi anulada).", "",
         f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
         f"{len(tab['clubes'])} clubes.", "",
         "**Fontes:**",
         "- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1888/89-2024/25, menos 2022/23;",
-        "- football-data.co.uk: base de 2022/23; de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time "
+        "- football-data.co.uk: base de 2022/23 e 2025/26; de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time "
         "(chutes, faltas, escanteios, cartões; 2000/01+);",
         "- ogol: rodada oficial de cada jogo e conferência de placar; calendários guardados em `data/cache/ogol-eng-1/` para os escudos;",
         "- ESPN (liga `eng.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;",

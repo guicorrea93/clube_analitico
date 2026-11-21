@@ -12,10 +12,10 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0002,Osasuna,Mojarro Ivan Rosado,43,,amarelo,ESPN
 2001-0002,Celta,Rogerio Vagner,60,,amarelo,ESPN
 2001-0003,Alavés,Fabricio Coloccini,25,,amarelo,ESPN
-2001-0003,Alavés,Mendez Ruben Navarro,52,,amarelo,ESPN
+2001-0003,Alavés,Rubén Navarro,52,,amarelo,ESPN
 2001-0003,Alavés,Bellvís,62,,amarelo,ESPN
-2001-0003,Alavés,Mocelin Magno,68,,amarelo,ESPN
-2001-0003,Alavés,Mendez Ruben Navarro,81,,vermelho,ESPN
+2001-0003,Alavés,Magno Mocelin,68,,amarelo,ESPN
+2001-0003,Alavés,Rubén Navarro,81,,vermelho,ESPN
 2001-0003,Tenerife,José Martí,85,,amarelo,ESPN
 2001-0003,Tenerife,Federico Lussenhoff,90,,amarelo,ESPN
 2001-0004,Valladolid,Pablo Javier Richetti,10,,amarelo,ESPN
@@ -159,7 +159,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0031,Deportivo La Coruña,Gomes Mauro Silva,20,,amarelo,ESPN
 2001-0031,Alavés,Martin Astudillo,29,,amarelo,ESPN
 2001-0031,Deportivo La Coruña,Juan Carlos Valerón,38,,amarelo,ESPN
-2001-0031,Alavés,Mocelin Magno,41,,amarelo,ESPN
+2001-0031,Alavés,Magno Mocelin,41,,amarelo,ESPN
 2001-0031,Alavés,Bellvís,43,,amarelo,ESPN
 2001-0031,Alavés,Gomez Pablo,62,,amarelo,ESPN
 2001-0031,Alavés,Daniel Ivan Alonso,63,,amarelo,ESPN
@@ -185,11 +185,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0035,Villarreal,Constantin Galca,45,,amarelo,ESPN
 2001-0035,Villarreal,Vergara Unai,60,,amarelo,ESPN
 2001-0035,Villarreal,Guillermo Amor,64,,amarelo,ESPN
-2001-0035,Villarreal,Fernandez Manuel Gutierrez Victor,89,,amarelo,ESPN
+2001-0035,Villarreal,Víctor Fernández,89,,amarelo,ESPN
 2001-0036,Valencia,Vicente Rodriguez Guillen,35,,amarelo,ESPN
 2001-0036,Valencia,Miguel Angel Angulo,41,,amarelo,ESPN
 2001-0036,Valencia,John Carew,74,,amarelo,ESPN
-2001-0036,Athletic Bilbao,Ismael Aranda Urzaiz,90,,amarelo,ESPN
+2001-0036,Athletic Bilbao,Ismael Urzaiz,90,,amarelo,ESPN
 2001-0037,Mallorca,Atencia Paco Soler,35,,amarelo,ESPN
 2001-0037,Mallorca,Marco Martin,65,,amarelo,ESPN
 2001-0037,Celta,Alexandr Mostovoi,72,,amarelo,ESPN
@@ -277,7 +277,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0051,Betis,Fernando Varela,33,,amarelo,ESPN
 2001-0051,Athletic Bilbao,Gomez Javi Gonzalez,41,,amarelo,ESPN
 2001-0051,Athletic Bilbao,Jose Mari Lacruz,47,,amarelo,ESPN
-2001-0051,Athletic Bilbao,Ismael Aranda Urzaiz,69,,amarelo,ESPN
+2001-0051,Athletic Bilbao,Ismael Urzaiz,69,,amarelo,ESPN
 2001-0052,Alavés,Zubiaurre Ibon Begona,32,,amarelo,ESPN
 2001-0052,Málaga,Miguel Angel Lozano Ayala,46,,amarelo,ESPN
 2001-0052,Alavés,Jurica Vucko,56,,amarelo,ESPN
@@ -326,7 +326,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0059,Villarreal,Jose Roca,88,,amarelo,ESPN
 2001-0060,Valencia,David Albelda,10,,amarelo,ESPN
 2001-0060,Celta,Henrique Catanha,30,,amarelo,ESPN
-2001-0060,Valencia,Ballesta Salva,39,,amarelo,ESPN
+2001-0060,Valencia,Salva Ballesta,39,,amarelo,ESPN
 2001-0060,Celta,Peter Luccin,41,,amarelo,ESPN
 2001-0060,Celta,Everton Giovanella,51,,amarelo,ESPN
 2001-0060,Valencia,Santiago Cañizares,72,,amarelo,ESPN
@@ -512,7 +512,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0100,Sevilla,Torres Luis Gil,90,,amarelo,ESPN
 2001-0100,Valencia,Miguel Angel Angulo,90,,amarelo,ESPN
 2001-0101,Athletic Bilbao,Aitor Larrazabal,12,,amarelo,ESPN
-2001-0101,Alavés,Mocelin Magno,25,,amarelo,ESPN
+2001-0101,Alavés,Magno Mocelin,25,,amarelo,ESPN
 2001-0101,Athletic Bilbao,Josu Urrutia,29,,amarelo,ESPN
 2001-0101,Athletic Bilbao,Francisco Javier Yeste,37,,amarelo,ESPN
 2001-0101,Athletic Bilbao,Gurendez Felipe,43,,amarelo,ESPN
@@ -551,7 +551,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0108,Villarreal,Enrique Alvarez Sanjuan,50,,amarelo,ESPN
 2001-0108,Valladolid,Sanz Luis Garcia,52,,amarelo,ESPN
 2001-0108,Villarreal,Constantin Galca,55,,amarelo,ESPN
-2001-0108,Villarreal,Fernandez Manuel Gutierrez Victor,90,,amarelo,ESPN
+2001-0108,Villarreal,Víctor Fernández,90,,amarelo,ESPN
 2001-0109,Celta,Pablo Cavallero,33,,amarelo,ESPN
 2001-0109,Celta,Sergio,40,,vermelho,ESPN
 2001-0109,Las Palmas,Tomas Olias,45,,amarelo,ESPN
@@ -581,7 +581,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0112,Valencia,Andrés Palop,42,,amarelo,ESPN
 2001-0112,Valencia,Cristobal Emilio Torres Ruiz,45,,amarelo,ESPN
 2001-0113,Espanyol,Sanchez Alex Fernandez,14,,amarelo,ESPN
-2001-0113,Alavés,Mocelin Magno,25,,amarelo,ESPN
+2001-0113,Alavés,Magno Mocelin,25,,amarelo,ESPN
 2001-0113,Espanyol,Ricardo Cavas,31,,amarelo,ESPN
 2001-0113,Espanyol,Alfredo Argenso,45,,vermelho,ESPN
 2001-0113,Espanyol,Tamudo,45,,amarelo,ESPN
@@ -739,7 +739,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0141,Barcelona,Patrik Andersson,21,,amarelo,ESPN
 2001-0141,Barcelona,Patrick Kluivert,26,,amarelo,ESPN
 2001-0141,Barcelona,Phillip Cocu,31,,amarelo,ESPN
-2001-0141,Alavés,Mocelin Magno,35,,amarelo,ESPN
+2001-0141,Alavés,Magno Mocelin,35,,amarelo,ESPN
 2001-0141,Alavés,Oscar Tellez,56,,amarelo,ESPN
 2001-0141,Barcelona,Carles Puyol,75,,amarelo,ESPN
 2001-0141,Barcelona,Gerard Lopez,78,,amarelo,ESPN
@@ -844,7 +844,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0158,Real Sociedad,Igor Gabilondo,65,,amarelo,ESPN
 2001-0158,Betis,Luis Fernández,78,,amarelo,ESPN
 2001-0159,Alavés,Oscar Tellez,20,,amarelo,ESPN
-2001-0159,Alavés,Mendez Ruben Navarro,52,,amarelo,ESPN
+2001-0159,Alavés,Rubén Navarro,52,,amarelo,ESPN
 2001-0159,Alavés,Christopher Kanu,69,,amarelo,ESPN
 2001-0159,Alavés,Gomez Pablo,75,,amarelo,ESPN
 2001-0160,Espanyol,Sanchez Alex Fernandez,31,,amarelo,ESPN
@@ -943,7 +943,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0177,Athletic Bilbao,Varela Oscar Vales,58,,amarelo,ESPN
 2001-0177,Osasuna,Fernando Pipa Gancedo,60,,amarelo,ESPN
 2001-0177,Osasuna,Pablo Contreras,62,,amarelo,ESPN
-2001-0177,Athletic Bilbao,Ismael Aranda Urzaiz,77,,amarelo,ESPN
+2001-0177,Athletic Bilbao,Ismael Urzaiz,77,,amarelo,ESPN
 2001-0177,Osasuna,Juan Carlos Unzue,82,,amarelo,ESPN
 2001-0177,Osasuna,Pablo Contreras,90,,vermelho,ESPN
 2001-0177,Athletic Bilbao,Inaki Lafuente,90,,amarelo,ESPN
@@ -960,7 +960,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0180,Rayo Vallecano,Sergio Corino,81,,amarelo,ESPN
 2001-0180,Celta,Henrique Catanha,83,,amarelo,ESPN
 2001-0181,Deportivo La Coruña,Gama Donato,25,,amarelo,ESPN
-2001-0181,Real Madrid,Fernando Sanchez Morientes,26,,amarelo,ESPN
+2001-0181,Real Madrid,Fernando Morientes,26,,amarelo,ESPN
 2001-0181,Deportivo La Coruña,Héctor,45,,amarelo,ESPN
 2001-0181,Real Madrid,Fernando Hierro,85,,amarelo,ESPN
 2001-0181,Deportivo La Coruña,Djalma Feitosa Djalminha,89,,amarelo,ESPN
@@ -1000,12 +1000,12 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0188,Betis,David Belenguer,20,,amarelo,ESPN
 2001-0188,Valencia,Carlos Marchena,26,,amarelo,ESPN
 2001-0188,Betis,Iulian Filipescu,27,,amarelo,ESPN
-2001-0188,Valencia,Ballesta Salva,34,,amarelo,ESPN
+2001-0188,Valencia,Salva Ballesta,34,,amarelo,ESPN
 2001-0188,Betis,Luis Fernández,40,,vermelho,ESPN
 2001-0188,Betis,Luis Fernández,40,,amarelo,ESPN
 2001-0188,Betis,Luis Fernández,40,,vermelho,ESPN
 2001-0188,Valencia,Amedeo Carboni,54,,amarelo,ESPN
-2001-0188,Valencia,Ballesta Salva,57,,vermelho,ESPN
+2001-0188,Valencia,Salva Ballesta,57,,vermelho,ESPN
 2001-0188,Valencia,Vicente Rodriguez Guillen,77,,amarelo,ESPN
 2001-0188,Valencia,Kily Gonzalez,83,,amarelo,ESPN
 2001-0189,Valladolid,Jose Santa,27,,amarelo,ESPN
@@ -1018,7 +1018,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0190,Real Sociedad,Inigo Barkaiztegi Idiakez,67,,amarelo,ESPN
 2001-0190,Real Sociedad,Mikel Aranburu,87,,amarelo,ESPN
 2001-0190,Real Sociedad,Joseba Llorente,89,,amarelo,ESPN
-2001-0190,Athletic Bilbao,Ismael Aranda Urzaiz,90,,amarelo,ESPN
+2001-0190,Athletic Bilbao,Ismael Urzaiz,90,,amarelo,ESPN
 2001-0191,Rayo Vallecano,Patricio Graff,1,,amarelo,ESPN
 2001-0191,Villarreal,Sergio Ballesteros,36,,amarelo,ESPN
 2001-0191,Rayo Vallecano,Sanchez Michel,46,,amarelo,ESPN
@@ -1063,7 +1063,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0200,Málaga,Mikel Roteta,41,,amarelo,ESPN
 2001-0200,Málaga,Marcelo Romero,44,,amarelo,ESPN
 2001-0200,Real Madrid,Míchel Salgado,64,,amarelo,ESPN
-2001-0200,Real Madrid,Fernando Sanchez Morientes,90,,amarelo,ESPN
+2001-0200,Real Madrid,Fernando Morientes,90,,amarelo,ESPN
 2001-0201,Alavés,Jesus Turiel,33,,amarelo,ESPN
 2001-0201,Real Sociedad,Xabi Alonso,61,,amarelo,ESPN
 2001-0201,Real Sociedad,Mikel Aranburu,90,,amarelo,ESPN
@@ -1322,7 +1322,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0247,Alavés,Jesus Turiel,47,,amarelo,ESPN
 2001-0247,Alavés,Fabricio Coloccini,65,,amarelo,ESPN
 2001-0247,Málaga,Josemi,79,,amarelo,ESPN
-2001-0247,Alavés,Mendez Ruben Navarro,82,,amarelo,ESPN
+2001-0247,Alavés,Rubén Navarro,82,,amarelo,ESPN
 2001-0248,Athletic Bilbao,Varela Oscar Vales,19,,amarelo,ESPN
 2001-0248,Athletic Bilbao,Ander Murillo,21,,amarelo,ESPN
 2001-0248,Athletic Bilbao,Aitor Ocio,22,,amarelo,ESPN
@@ -1345,8 +1345,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0253,Valencia,Mauricio Pellegrino,5,,amarelo,ESPN
 2001-0253,Valencia,Amedeo Carboni,24,,amarelo,ESPN
 2001-0253,Villarreal,Sergio Ballesteros,49,,amarelo,ESPN
-2001-0253,Villarreal,Fernandez Manuel Gutierrez Victor,55,,amarelo,ESPN
-2001-0253,Villarreal,Fernandez Manuel Gutierrez Victor,57,,vermelho,ESPN
+2001-0253,Villarreal,Víctor Fernández,55,,amarelo,ESPN
+2001-0253,Villarreal,Víctor Fernández,57,,vermelho,ESPN
 2001-0253,Villarreal,Javier Calleja,67,,amarelo,ESPN
 2001-0253,Villarreal,Diego Cagna,80,,amarelo,ESPN
 2001-0253,Villarreal,Constantin Galca,85,,amarelo,ESPN
@@ -1457,7 +1457,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0273,Villarreal,Sergio Ballesteros,69,,amarelo,ESPN
 2001-0273,Villarreal,Gheorghe Craioveanu,89,,amarelo,ESPN
 2001-0274,Las Palmas,Josico,33,,amarelo,ESPN
-2001-0274,Athletic Bilbao,Ismael Aranda Urzaiz,48,,amarelo,ESPN
+2001-0274,Athletic Bilbao,Ismael Urzaiz,48,,amarelo,ESPN
 2001-0274,Athletic Bilbao,Joseba Etxeberría,77,,amarelo,ESPN
 2001-0275,Osasuna,Fernando Pipa Gancedo,74,,amarelo,ESPN
 2001-0275,Real Sociedad,Igor Jáuregui,74,,amarelo,ESPN
@@ -1561,11 +1561,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0293,Alavés,Zubiaurre Ibon Begona,13,,amarelo,ESPN
 2001-0293,Athletic Bilbao,Jesus Lacruz,16,,amarelo,ESPN
 2001-0293,Athletic Bilbao,Aitor Ocio,19,,amarelo,ESPN
-2001-0293,Alavés,Mendez Ruben Navarro,28,,amarelo,ESPN
+2001-0293,Alavés,Rubén Navarro,28,,amarelo,ESPN
 2001-0293,Alavés,Oscar Tellez,34,,amarelo,ESPN
 2001-0293,Alavés,Delfi Geli,38,,amarelo,ESPN
-2001-0293,Alavés,Mocelin Magno,40,,vermelho,ESPN
-2001-0293,Alavés,Mendez Ruben Navarro,45,,vermelho,ESPN
+2001-0293,Alavés,Magno Mocelin,40,,vermelho,ESPN
+2001-0293,Alavés,Rubén Navarro,45,,vermelho,ESPN
 2001-0293,Alavés,Gomez Pablo,65,,amarelo,ESPN
 2001-0293,Alavés,Oscar Tellez,73,,vermelho,ESPN
 2001-0293,Alavés,Martin Astudillo,83,,amarelo,ESPN
@@ -1638,7 +1638,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0303,Villarreal,Rodolfo Arruabarrena,86,,amarelo,ESPN
 2001-0303,Las Palmas,Alvarez Edu Alonso,87,,amarelo,ESPN
 2001-0303,Villarreal,Javier Calleja,89,,amarelo,ESPN
-2001-0304,Athletic Bilbao,Ismael Aranda Urzaiz,62,,amarelo,ESPN
+2001-0304,Athletic Bilbao,Ismael Urzaiz,62,,amarelo,ESPN
 2001-0304,Athletic Bilbao,Tiko,88,,amarelo,ESPN
 2001-0305,Deportivo La Coruña,Diego Tristán,29,,amarelo,ESPN
 2001-0305,Deportivo La Coruña,Lionel Scaloni,32,,amarelo,ESPN
@@ -1649,7 +1649,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0305,Tenerife,Julio Iglesias,90,,amarelo,ESPN
 2001-0306,Alavés,Zubiaurre Ibon Begona,7,,amarelo,ESPN
 2001-0306,Espanyol,Ricardo Cavas,51,,amarelo,ESPN
-2001-0306,Alavés,Mocelin Magno,61,,amarelo,ESPN
+2001-0306,Alavés,Magno Mocelin,61,,amarelo,ESPN
 2001-0306,Espanyol,Antonio Soldevilla,63,,amarelo,ESPN
 2001-0307,Real Sociedad,Xabi Alonso,28,,amarelo,ESPN
 2001-0307,Mallorca,Javier Olaizola,80,,amarelo,ESPN
@@ -1812,7 +1812,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0337,Málaga,Dario Silva,92,,vermelho,ESPN
 2001-0338,Zaragoza,Javier Diaz Pablo,55,,amarelo,ESPN
 2001-0338,Zaragoza,Francisco Paco,72,,amarelo,ESPN
-2001-0338,Athletic Bilbao,Ismael Aranda Urzaiz,82,,amarelo,ESPN
+2001-0338,Athletic Bilbao,Ismael Urzaiz,82,,amarelo,ESPN
 2001-0338,Athletic Bilbao,Carlos Garcia,85,,amarelo,ESPN
 2001-0338,Athletic Bilbao,Asier Del Horno,88,,amarelo,ESPN
 2001-0338,Athletic Bilbao,Daniel Aranzubía,92,,amarelo,ESPN
@@ -1942,7 +1942,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2001-0358,Rayo Vallecano,Elvir Bolic,35,,amarelo,ESPN
 2001-0358,Rayo Vallecano,Ramon De Quintana,44,,amarelo,ESPN
 2001-0358,Rayo Vallecano,Jean-Francois Hernandez,65,,vermelho,ESPN
-2001-0358,Athletic Bilbao,Ismael Aranda Urzaiz,65,,vermelho,ESPN
+2001-0358,Athletic Bilbao,Ismael Urzaiz,65,,vermelho,ESPN
 2001-0358,Athletic Bilbao,Tiko,65,,amarelo,ESPN
 2001-0359,Celta,Pablo Cavallero,45,,amarelo,ESPN
 2001-0359,Zaragoza,Francisco Paco,59,,amarelo,ESPN
@@ -2075,7 +2075,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0005,Alavés,Antonio Karmona,60,,amarelo,ESPN
 2002-0006,Athletic Bilbao,Pablo Orbáiz,20,,amarelo,ESPN
 2002-0006,Athletic Bilbao,Ander Murillo,31,,amarelo,ESPN
-2002-0006,Athletic Bilbao,Ismael Aranda Urzaiz,48,,amarelo,ESPN
+2002-0006,Athletic Bilbao,Ismael Urzaiz,48,,amarelo,ESPN
 2002-0006,Real Sociedad,Xabi Alonso,53,,amarelo,ESPN
 2002-0006,Athletic Bilbao,Joseba Arriaga,65,,amarelo,ESPN
 2002-0006,Athletic Bilbao,Aitor Karanka,69,,amarelo,ESPN
@@ -2214,7 +2214,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0033,Mallorca,Julian Robles,76,,amarelo,ESPN
 2002-0034,Atlético de Madrid,German Burgos,16,,amarelo,ESPN
 2002-0034,Atlético de Madrid,Jorge Otero,42,,vermelho,ESPN
-2002-0034,Recreativo Huelva,Alsocer Raul Molina,45,,amarelo,ESPN
+2002-0034,Recreativo Huelva,Raúl Molina,45,,amarelo,ESPN
 2002-0034,Recreativo Huelva,Enrique Romero,47,,amarelo,ESPN
 2002-0034,Atlético de Madrid,Fernando Torres,62,,amarelo,ESPN
 2002-0034,Recreativo Huelva,Garcia Jose Mari,64,,amarelo,ESPN
@@ -2340,7 +2340,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0055,Osasuna,Sanchez Alfredo,87,,amarelo,ESPN
 2002-0055,Osasuna,Ricardo Sanzol,90,,amarelo,ESPN
 2002-0055,Sevilla,Antonio Ramiro Perez,90,,amarelo,ESPN
-2002-0056,Alavés,Mocelin Magno,30,,amarelo,ESPN
+2002-0056,Alavés,Magno Mocelin,30,,amarelo,ESPN
 2002-0056,Real Sociedad,Igor Gabilondo,34,,amarelo,ESPN
 2002-0056,Alavés,Gomez Pablo,41,,vermelho,ESPN
 2002-0056,Alavés,Fernandez Abelardo,69,,amarelo,ESPN
@@ -2478,7 +2478,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0083,Real Madrid,Esteban Cambiasso,45,,amarelo,ESPN
 2002-0083,Rayo Vallecano,Diego Mainz,51,,amarelo,ESPN
 2002-0083,Rayo Vallecano,Roberto Peragon,54,,amarelo,ESPN
-2002-0084,Real Sociedad,Kahveci Nihat,35,,amarelo,ESPN
+2002-0084,Real Sociedad,Nihat Kahveci,35,,amarelo,ESPN
 2002-0084,Real Sociedad,Xabi Alonso,79,,amarelo,ESPN
 2002-0084,Deportivo La Coruña,Gomes Mauro Silva,84,,amarelo,ESPN
 2002-0085,Betis,Fernando Varela,20,,amarelo,ESPN
@@ -2499,7 +2499,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0089,Recreativo Huelva,Lorenzo Loren,40,,amarelo,ESPN
 2002-0089,Recreativo Huelva,Diego Camacho,42,,amarelo,ESPN
 2002-0089,Recreativo Huelva,Miguel Espinola,75,,amarelo,ESPN
-2002-0089,Recreativo Huelva,Alsocer Raul Molina,90,,amarelo,ESPN
+2002-0089,Recreativo Huelva,Raúl Molina,90,,amarelo,ESPN
 2002-0089,Recreativo Huelva,Francisco Munoz Xisco,90,,amarelo,ESPN
 2002-0089,Valladolid,Javier Muñoz Mustafá,90,,amarelo,ESPN
 2002-0090,Racing Santander,Delgado Juanma,31,,amarelo,ESPN
@@ -2525,7 +2525,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0092,Sevilla,Banos Victor Salas,86,,amarelo,ESPN
 2002-0092,Villarreal,Sergio Ballesteros,86,,vermelho,ESPN
 2002-0093,Athletic Bilbao,Jesus Lacruz,16,,amarelo,ESPN
-2002-0093,Athletic Bilbao,Ismael Aranda Urzaiz,26,,amarelo,ESPN
+2002-0093,Athletic Bilbao,Ismael Urzaiz,26,,amarelo,ESPN
 2002-0093,Rayo Vallecano,Roberto Peragon,48,,amarelo,ESPN
 2002-0093,Rayo Vallecano,Jorge Azkoitia,58,,amarelo,ESPN
 2002-0093,Rayo Vallecano,Sergio Mora,59,,amarelo,ESPN
@@ -2609,7 +2609,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0112,Alavés,Jordi Cruyff,76,,amarelo,ESPN
 2002-0112,Alavés,Adrian Ilie,83,,amarelo,ESPN
 2002-0112,Alavés,Antonio Karmona,86,,amarelo,ESPN
-2002-0112,Alavés,Mocelin Magno,88,,amarelo,ESPN
+2002-0112,Alavés,Magno Mocelin,88,,amarelo,ESPN
 2002-0113,Deportivo La Coruña,Joan Capdevila,8,,amarelo,ESPN
 2002-0113,Mallorca,Ariel Ibagaza,21,,vermelho,ESPN
 2002-0113,Mallorca,Harold Lozano,21,,amarelo,ESPN
@@ -2657,11 +2657,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0119,Villarreal,Jose Berruet,73,,amarelo,ESPN
 2002-0119,Villarreal,Antonio Guayre,82,,amarelo,ESPN
 2002-0119,Recreativo Huelva,Álex Pereira,84,,amarelo,ESPN
-2002-0119,Recreativo Huelva,Alsocer Raul Molina,89,,amarelo,ESPN
+2002-0119,Recreativo Huelva,Raúl Molina,89,,amarelo,ESPN
 2002-0120,Villarreal,Sergio Ballesteros,20,,amarelo,ESPN
 2002-0120,Málaga,Roberto Rojas,28,,amarelo,ESPN
 2002-0120,Málaga,Mikel Roteta,33,,amarelo,ESPN
-2002-0120,Villarreal,Fernandez Manuel Gutierrez Victor,55,,amarelo,ESPN
+2002-0120,Villarreal,Víctor Fernández,55,,amarelo,ESPN
 2002-0120,Villarreal,Javier Gracia,62,,amarelo,ESPN
 2002-0120,Málaga,Roberto Rojas,73,,vermelho,ESPN
 2002-0121,Rayo Vallecano,Diego Mainz,23,,amarelo,ESPN
@@ -2673,7 +2673,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0122,Recreativo Huelva,Miguel Espinola,80,,amarelo,ESPN
 2002-0122,Recreativo Huelva,Francisco Munoz Xisco,82,,vermelho,ESPN
 2002-0123,Real Sociedad,Igor Jáuregui,42,,amarelo,ESPN
-2002-0123,Real Sociedad,Kahveci Nihat,48,,amarelo,ESPN
+2002-0123,Real Sociedad,Nihat Kahveci,48,,amarelo,ESPN
 2002-0123,Real Sociedad,Gabriel Schurrer,72,,amarelo,ESPN
 2002-0123,Real Sociedad,Agustin Aranzabal,90,,amarelo,ESPN
 2002-0124,Racing Santander,Mehdi Nafti,21,,amarelo,ESPN
@@ -2878,7 +2878,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0162,Real Sociedad,Igor Gabilondo,19,,amarelo,ESPN
 2002-0162,Real Sociedad,Igor Jáuregui,42,,amarelo,ESPN
 2002-0162,Valencia,Roberto Ayala,47,,amarelo,ESPN
-2002-0162,Real Sociedad,Kahveci Nihat,52,,amarelo,ESPN
+2002-0162,Real Sociedad,Nihat Kahveci,52,,amarelo,ESPN
 2002-0162,Valencia,Mista,73,,amarelo,ESPN
 2002-0162,Valencia,Vicente Rodriguez Guillen,85,,amarelo,ESPN
 2002-0163,Villarreal,Rodolfo Arruabarrena,7,,amarelo,ESPN
@@ -2887,10 +2887,10 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0163,Athletic Bilbao,Asier Del Horno,54,,amarelo,ESPN
 2002-0163,Villarreal,Antonio Guayre,60,,amarelo,ESPN
 2002-0163,Villarreal,Francisco Farinos,75,,amarelo,ESPN
-2002-0163,Athletic Bilbao,Ismael Aranda Urzaiz,79,,amarelo,ESPN
+2002-0163,Athletic Bilbao,Ismael Urzaiz,79,,amarelo,ESPN
 2002-0163,Villarreal,Antonio Guayre,81,,vermelho,ESPN
-2002-0163,Athletic Bilbao,Ismael Aranda Urzaiz,90,,amarelo,ESPN
-2002-0163,Athletic Bilbao,Ismael Aranda Urzaiz,90,,vermelho,ESPN
+2002-0163,Athletic Bilbao,Ismael Urzaiz,90,,amarelo,ESPN
+2002-0163,Athletic Bilbao,Ismael Urzaiz,90,,vermelho,ESPN
 2002-0164,Atlético de Madrid,Demetrio Albertini,12,,amarelo,ESPN
 2002-0164,Atlético de Madrid,Barjuan Sergi,24,,amarelo,ESPN
 2002-0164,Deportivo La Coruña,Sergio González Soriano,31,,amarelo,ESPN
@@ -2934,7 +2934,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0173,Osasuna,Francisco Puñal,76,,amarelo,ESPN
 2002-0173,Osasuna,Jose Manuel Mateo,76,,amarelo,ESPN
 2002-0173,Osasuna,Antonio López,86,,amarelo,ESPN
-2002-0173,Alavés,Mocelin Magno,87,,amarelo,ESPN
+2002-0173,Alavés,Magno Mocelin,87,,amarelo,ESPN
 2002-0173,Alavés,Zubiaurre Ibon Begona,90,,amarelo,ESPN
 2002-0174,Deportivo La Coruña,Gama Donato,10,,amarelo,ESPN
 2002-0174,Athletic Bilbao,Carlos Gurpegi,32,,amarelo,ESPN
@@ -3008,11 +3008,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0188,Alavés,Oscar Tellez,30,,amarelo,ESPN
 2002-0188,Alavés,Jesus Turiel,43,,amarelo,ESPN
 2002-0188,Alavés,Antonio Karmona,45,,amarelo,ESPN
-2002-0188,Alavés,Mendez Ruben Navarro,45,,amarelo,ESPN
+2002-0188,Alavés,Rubén Navarro,45,,amarelo,ESPN
 2002-0188,Valladolid,Albano Bizzarri,78,,amarelo,ESPN
 2002-0189,Recreativo Huelva,Zubiaurre Iker Begona,33,,amarelo,ESPN
 2002-0189,Rayo Vallecano,Patricio Graff,45,,amarelo,ESPN
-2002-0189,Recreativo Huelva,Alsocer Raul Molina,55,,amarelo,ESPN
+2002-0189,Recreativo Huelva,Raúl Molina,55,,amarelo,ESPN
 2002-0189,Rayo Vallecano,Elvir Bolic,75,,amarelo,ESPN
 2002-0190,Valencia,Roberto Ayala,70,,amarelo,ESPN
 2002-0190,Sevilla,Vincent Samways,79,,amarelo,ESPN
@@ -3029,8 +3029,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0192,Real Sociedad,Agustin Aranzabal,27,,amarelo,ESPN
 2002-0192,Real Sociedad,Valeri Karpin,57,,amarelo,ESPN
 2002-0192,Real Sociedad,Aitor López Rekarte,64,,amarelo,ESPN
-2002-0192,Athletic Bilbao,Ismael Aranda Urzaiz,67,,amarelo,ESPN
-2002-0192,Real Sociedad,Kahveci Nihat,85,,vermelho,ESPN
+2002-0192,Athletic Bilbao,Ismael Urzaiz,67,,amarelo,ESPN
+2002-0192,Real Sociedad,Nihat Kahveci,85,,vermelho,ESPN
 2002-0193,Osasuna,Jose Manuel Mateo,90,,amarelo,ESPN
 2002-0194,Alavés,Bellvís,24,,amarelo,ESPN
 2002-0194,Rayo Vallecano,Ramon De Quintana,29,,amarelo,ESPN
@@ -3196,7 +3196,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0227,Real Sociedad,Darko Kovacevic,46,,amarelo,ESPN
 2002-0227,Real Sociedad,Mikel Aranburu,51,,amarelo,ESPN
 2002-0227,Osasuna,Christian Manfredini,59,,amarelo,ESPN
-2002-0227,Real Sociedad,Kahveci Nihat,81,,amarelo,ESPN
+2002-0227,Real Sociedad,Nihat Kahveci,81,,amarelo,ESPN
 2002-0227,Osasuna,Antonio López,87,,amarelo,ESPN
 2002-0228,Recreativo Huelva,Mariano Pernía,12,,amarelo,ESPN
 2002-0228,Atlético de Madrid,Larena Jorge,34,,amarelo,ESPN
@@ -3204,7 +3204,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0228,Atlético de Madrid,Txomin Nagore,59,,amarelo,ESPN
 2002-0228,Atlético de Madrid,Txomin Nagore,63,,vermelho,ESPN
 2002-0228,Atlético de Madrid,Fabricio Coloccini,64,,amarelo,ESPN
-2002-0228,Recreativo Huelva,Alsocer Raul Molina,77,,vermelho,ESPN
+2002-0228,Recreativo Huelva,Raúl Molina,77,,vermelho,ESPN
 2002-0228,Recreativo Huelva,Francisco Munoz Xisco,90,,amarelo,ESPN
 2002-0228,Recreativo Huelva,Juan Merino,90,,amarelo,ESPN
 2002-0229,Espanyol,Angel Morales,21,,amarelo,ESPN
@@ -3222,7 +3222,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0230,Villarreal,Enrique Alvarez Sanjuan,63,,amarelo,ESPN
 2002-0230,Villarreal,Rodolfo Arruabarrena,76,,amarelo,ESPN
 2002-0230,Racing Santander,Neru,81,,amarelo,ESPN
-2002-0230,Villarreal,Fernandez Manuel Gutierrez Victor,81,,amarelo,ESPN
+2002-0230,Villarreal,Víctor Fernández,81,,amarelo,ESPN
 2002-0231,Recreativo Huelva,Enrique Romero,40,,amarelo,ESPN
 2002-0231,Recreativo Huelva,Mariano Pernía,60,,amarelo,ESPN
 2002-0231,Recreativo Huelva,Emilio Viqueira,67,,amarelo,ESPN
@@ -3281,7 +3281,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0241,Deportivo La Coruña,Aldo Duscher,35,,amarelo,ESPN
 2002-0241,Deportivo La Coruña,Sanchez Victor,37,,amarelo,ESPN
 2002-0241,Villarreal,Sergio Ballesteros,51,,amarelo,ESPN
-2002-0241,Villarreal,Fernandez Manuel Gutierrez Victor,65,,amarelo,ESPN
+2002-0241,Villarreal,Víctor Fernández,65,,amarelo,ESPN
 2002-0241,Deportivo La Coruña,Sergio González Soriano,86,,amarelo,ESPN
 2002-0241,Deportivo La Coruña,Martin Cesar,87,,vermelho,ESPN
 2002-0242,Valladolid,Valentin Pachon,25,,amarelo,ESPN
@@ -3325,7 +3325,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0247,Rayo Vallecano,Roberto Peragon,71,,amarelo,ESPN
 2002-0248,Alavés,Oscar Tellez,5,,amarelo,ESPN
 2002-0248,Alavés,Delfi Geli,17,,amarelo,ESPN
-2002-0248,Alavés,Mocelin Magno,45,,amarelo,ESPN
+2002-0248,Alavés,Magno Mocelin,45,,amarelo,ESPN
 2002-0248,Real Sociedad,Igor Jáuregui,62,,amarelo,ESPN
 2002-0248,Alavés,Juan Ochoa,70,,amarelo,ESPN
 2002-0248,Real Sociedad,Gabriel Schurrer,85,,amarelo,ESPN
@@ -3359,7 +3359,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0254,Valencia,Mista,42,,amarelo,ESPN
 2002-0254,Valencia,Mista,54,,vermelho,ESPN
 2002-0254,Athletic Bilbao,Santiago Ezquerro,54,,amarelo,ESPN
-2002-0254,Athletic Bilbao,Ismael Aranda Urzaiz,66,,amarelo,ESPN
+2002-0254,Athletic Bilbao,Ismael Urzaiz,66,,amarelo,ESPN
 2002-0254,Athletic Bilbao,Luis Prieto,87,,amarelo,ESPN
 2002-0254,Athletic Bilbao,Bittor Alkiza,90,,amarelo,ESPN
 2002-0255,Celta,Juanfran,15,,amarelo,ESPN
@@ -3484,7 +3484,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0276,Osasuna,Gerardo Damian Rivero,86,,amarelo,ESPN
 2002-0276,Málaga,Miguel Angel Lozano Ayala,87,,amarelo,ESPN
 2002-0276,Málaga,Pedro Contreras,92,,amarelo,ESPN
-2002-0277,Alavés,Mendez Ruben Navarro,71,,amarelo,ESPN
+2002-0277,Alavés,Rubén Navarro,71,,amarelo,ESPN
 2002-0278,Deportivo La Coruña,Gonzalez Fran,26,,amarelo,ESPN
 2002-0278,Real Sociedad,Zuhaitz Gurrutxaga,55,,amarelo,ESPN
 2002-0279,Racing Santander,Alustiza Diego Mateo,38,,amarelo,ESPN
@@ -3531,7 +3531,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0287,Rayo Vallecano,Jorge Azkoitia,62,,amarelo,ESPN
 2002-0287,Athletic Bilbao,Aitor Karanka,65,,amarelo,ESPN
 2002-0287,Rayo Vallecano,Ramon De Quintana,73,,amarelo,ESPN
-2002-0287,Athletic Bilbao,Ismael Aranda Urzaiz,74,,amarelo,ESPN
+2002-0287,Athletic Bilbao,Ismael Urzaiz,74,,amarelo,ESPN
 2002-0287,Athletic Bilbao,Gurendez Felipe,90,,amarelo,ESPN
 2002-0288,Real Madrid,Flavio Conceicao,29,,amarelo,ESPN
 2002-0288,Real Madrid,Ivan Helguera,51,,amarelo,ESPN
@@ -3644,7 +3644,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0308,Recreativo Huelva,Mariano Pernía,25,,amarelo,ESPN
 2002-0308,Villarreal,Rodolfo Arruabarrena,35,,vermelho,ESPN
 2002-0308,Villarreal,Juliano Belletti,41,,vermelho,ESPN
-2002-0308,Recreativo Huelva,Alsocer Raul Molina,41,,amarelo,ESPN
+2002-0308,Recreativo Huelva,Raúl Molina,41,,amarelo,ESPN
 2002-0309,Sevilla,Juan Miguel Juanmi,6,,amarelo,ESPN
 2002-0309,Sevilla,Lobeiras Fredy,33,,amarelo,ESPN
 2002-0309,Real Madrid,Gutí,35,,amarelo,ESPN
@@ -3784,11 +3784,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2002-0333,Osasuna,Cesar Cruchaga,81,,amarelo,ESPN
 2002-0333,Osasuna,John Aloisi,90,,amarelo,ESPN
 2002-0334,Athletic Bilbao,Joseba Etxeberría,13,,amarelo,ESPN
-2002-0334,Alavés,Mocelin Magno,18,,amarelo,ESPN
+2002-0334,Alavés,Magno Mocelin,18,,amarelo,ESPN
 2002-0334,Athletic Bilbao,Aitor Karanka,31,,amarelo,ESPN
 2002-0334,Athletic Bilbao,Daniel Aranzubía,40,,amarelo,ESPN
 2002-0334,Athletic Bilbao,Bittor Alkiza,47,,amarelo,ESPN
-2002-0334,Alavés,Mocelin Magno,61,,vermelho,ESPN
+2002-0334,Alavés,Magno Mocelin,61,,vermelho,ESPN
 2002-0334,Alavés,Jesus Turiel,76,,amarelo,ESPN
 2002-0334,Alavés,Luis Helguera,83,,amarelo,ESPN
 2002-0335,Barcelona,Garcia de la Torre Gabri,21,,amarelo,ESPN
@@ -4079,7 +4079,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0018,Betis,Arzu,36,,amarelo,ESPN
 2003-0018,Espanyol,Pierre Wome,53,,amarelo,ESPN
 2003-0018,Betis,Joaquín,53,,amarelo,ESPN
-2003-0018,Espanyol,Alsocer Raul Molina,80,,amarelo,ESPN
+2003-0018,Espanyol,Raúl Molina,80,,amarelo,ESPN
 2003-0018,Espanyol,Alberto Lopo,88,,amarelo,ESPN
 2003-0018,Betis,Joaquín,90,,vermelho,ESPN
 2003-0019,Racing Santander,Sergio Matabuena,58,,amarelo,ESPN
@@ -4151,7 +4151,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0033,Albacete,Laurent Viaud,60,,amarelo,ESPN
 2003-0034,Málaga,Ivan Leko,5,,amarelo,ESPN
 2003-0034,Real Madrid,Roberto Carlos,41,,amarelo,ESPN
-2003-0034,Málaga,Ballesta Salva,55,,amarelo,ESPN
+2003-0034,Málaga,Salva Ballesta,55,,amarelo,ESPN
 2003-0034,Real Madrid,Santiago Solari,86,,amarelo,ESPN
 2003-0035,Mallorca,David Cortés,32,,amarelo,ESPN
 2003-0035,Mallorca,Federico Lussenhoff,60,,amarelo,ESPN
@@ -4185,10 +4185,10 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0040,Villarreal,José Marí,74,,amarelo,ESPN
 2003-0040,Villarreal,Juan Román Riquelme,86,,amarelo,ESPN
 2003-0041,Athletic Bilbao,Carlos Gurpegi,12,,amarelo,ESPN
-2003-0041,Real Sociedad,Kahveci Nihat,16,,amarelo,ESPN
+2003-0041,Real Sociedad,Nihat Kahveci,16,,amarelo,ESPN
 2003-0041,Athletic Bilbao,Andoni Iraola,24,,amarelo,ESPN
 2003-0041,Real Sociedad,Gabriel Schurrer,25,,amarelo,ESPN
-2003-0041,Athletic Bilbao,Ismael Aranda Urzaiz,31,,amarelo,ESPN
+2003-0041,Athletic Bilbao,Ismael Urzaiz,31,,amarelo,ESPN
 2003-0041,Real Sociedad,Xabi Alonso,39,,amarelo,ESPN
 2003-0041,Athletic Bilbao,Tiko,45,,amarelo,ESPN
 2003-0041,Real Sociedad,Darko Kovacevic,55,,amarelo,ESPN
@@ -4306,7 +4306,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0064,Villarreal,Josico,24,,amarelo,ESPN
 2003-0064,Villarreal,Pere Marti,37,,amarelo,ESPN
 2003-0064,Villarreal,Sergio Ballesteros,74,,amarelo,ESPN
-2003-0064,Athletic Bilbao,Ismael Aranda Urzaiz,78,,amarelo,ESPN
+2003-0064,Athletic Bilbao,Ismael Urzaiz,78,,amarelo,ESPN
 2003-0064,Athletic Bilbao,Asier Del Horno,90,,amarelo,ESPN
 2003-0065,Atlético de Madrid,Barjuan Sergi,7,,amarelo,ESPN
 2003-0065,Mallorca,Miguel Angel Nadal,32,,amarelo,ESPN
@@ -4501,7 +4501,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0097,Betis,Arzu,90,,amarelo,ESPN
 2003-0098,Real Sociedad,Xabi Alonso,37,,amarelo,ESPN
 2003-0098,Barcelona,Xavi,42,,amarelo,ESPN
-2003-0098,Real Sociedad,Kahveci Nihat,45,,amarelo,ESPN
+2003-0098,Real Sociedad,Nihat Kahveci,45,,amarelo,ESPN
 2003-0098,Barcelona,Garcia de la Torre Gabri,50,,amarelo,ESPN
 2003-0098,Barcelona,Thiago Motta,75,,vermelho,ESPN
 2003-0098,Real Sociedad,Bittor Alkiza,89,,amarelo,ESPN
@@ -4518,7 +4518,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0100,Villarreal,Josico,84,,amarelo,ESPN
 2003-0100,Villarreal,José Marí,87,,amarelo,ESPN
 2003-0100,Villarreal,Juliano Belletti,90,,amarelo,ESPN
-2003-0101,Athletic Bilbao,Ismael Aranda Urzaiz,44,,amarelo,ESPN
+2003-0101,Athletic Bilbao,Ismael Urzaiz,44,,amarelo,ESPN
 2003-0101,Espanyol,Alberto Lopo,45,,amarelo,ESPN
 2003-0101,Espanyol,Adrián Bastía,83,,amarelo,ESPN
 2003-0101,Athletic Bilbao,Joseba Etxeberría,84,,amarelo,ESPN
@@ -4863,7 +4863,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0154,Athletic Bilbao,Aitor Larrazabal,41,,amarelo,ESPN
 2003-0154,Sevilla,Armengot Pablo Alfaro,45,,amarelo,ESPN
 2003-0154,Athletic Bilbao,Asier Del Horno,50,,amarelo,ESPN
-2003-0154,Athletic Bilbao,Ismael Aranda Urzaiz,58,,amarelo,ESPN
+2003-0154,Athletic Bilbao,Ismael Urzaiz,58,,amarelo,ESPN
 2003-0154,Athletic Bilbao,Santiago Ezquerro,73,,amarelo,ESPN
 2003-0154,Athletic Bilbao,Carlos Gurpegi,83,,amarelo,ESPN
 2003-0154,Athletic Bilbao,Asier Del Horno,85,,vermelho,ESPN
@@ -4904,7 +4904,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0161,Atlético de Madrid,Ariel Ibagaza,80,,amarelo,ESPN
 2003-0161,Atlético de Madrid,Santiago Santi,83,,amarelo,ESPN
 2003-0162,Valladolid,Alberto Marcos,8,,amarelo,ESPN
-2003-0162,Real Sociedad,Kahveci Nihat,23,,amarelo,ESPN
+2003-0162,Real Sociedad,Nihat Kahveci,23,,amarelo,ESPN
 2003-0162,Valladolid,Pablo Javier Richetti,25,,amarelo,ESPN
 2003-0162,Valladolid,Martin Jonathan,36,,amarelo,ESPN
 2003-0162,Real Sociedad,Gabriel Schurrer,37,,amarelo,ESPN
@@ -4977,7 +4977,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0176,Real Sociedad,Aitor López Rekarte,29,,amarelo,ESPN
 2003-0176,Real Sociedad,Bjorn Tore Kvarme,32,,amarelo,ESPN
 2003-0176,Málaga,Marcelo Romero,45,,amarelo,ESPN
-2003-0176,Málaga,Ballesta Salva,57,,amarelo,ESPN
+2003-0176,Málaga,Salva Ballesta,57,,amarelo,ESPN
 2003-0176,Málaga,Miguel Angel Lozano Ayala,66,,amarelo,ESPN
 2003-0176,Málaga,Josemi,89,,amarelo,ESPN
 2003-0177,Racing Santander,Fernando Mora,67,,amarelo,ESPN
@@ -5038,7 +5038,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0187,Zaragoza,Leonardo Ponzio,45,,amarelo,ESPN
 2003-0187,Zaragoza,Goran Drulic,86,,amarelo,ESPN
 2003-0188,Betis,Jorge Tote,39,,amarelo,ESPN
-2003-0188,Málaga,Ballesta Salva,41,,amarelo,ESPN
+2003-0188,Málaga,Salva Ballesta,41,,amarelo,ESPN
 2003-0188,Málaga,Josemi,45,,amarelo,ESPN
 2003-0188,Málaga,Gerard Garcia,74,,amarelo,ESPN
 2003-0189,Espanyol,Fredson,16,,amarelo,ESPN
@@ -5059,7 +5059,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0191,Athletic Bilbao,Carlos Gurpegi,68,,amarelo,ESPN
 2003-0191,Athletic Bilbao,Luis Prieto,90,,amarelo,ESPN
 2003-0191,Barcelona,Edgar Davids,90,,amarelo,ESPN
-2003-0191,Athletic Bilbao,Ismael Aranda Urzaiz,90,,amarelo,ESPN
+2003-0191,Athletic Bilbao,Ismael Urzaiz,90,,amarelo,ESPN
 2003-0192,Celta,Peter Luccin,62,,vermelho,ESPN
 2003-0192,Celta,Sebastian Mendez,62,,amarelo,ESPN
 2003-0192,Celta,Jesuli,65,,amarelo,ESPN
@@ -5287,7 +5287,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0232,Athletic Bilbao,Carlos Gurpegi,32,,amarelo,ESPN
 2003-0232,Real Sociedad,Xabi Alonso,44,,amarelo,ESPN
 2003-0232,Athletic Bilbao,Carlos Gurpegi,52,,vermelho,ESPN
-2003-0232,Real Sociedad,Kahveci Nihat,55,,amarelo,ESPN
+2003-0232,Real Sociedad,Nihat Kahveci,55,,amarelo,ESPN
 2003-0232,Real Sociedad,Bittor Alkiza,64,,amarelo,ESPN
 2003-0232,Athletic Bilbao,Luis Prieto,66,,amarelo,ESPN
 2003-0232,Athletic Bilbao,Jesus Lacruz,78,,amarelo,ESPN
@@ -5373,7 +5373,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0247,Betis,Benjamín,45,,amarelo,ESPN
 2003-0247,Athletic Bilbao,Asier Del Horno,61,,amarelo,ESPN
 2003-0247,Athletic Bilbao,Tiko,69,,amarelo,ESPN
-2003-0247,Athletic Bilbao,Ismael Aranda Urzaiz,83,,amarelo,ESPN
+2003-0247,Athletic Bilbao,Ismael Urzaiz,83,,amarelo,ESPN
 2003-0247,Betis,Joaquín,90,,amarelo,ESPN
 2003-0248,Mallorca,Miguel Angel Nadal,24,,amarelo,ESPN
 2003-0248,Osasuna,Francisco Puñal,26,,amarelo,ESPN
@@ -5498,7 +5498,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0269,Málaga,Duda,44,,vermelho,ESPN
 2003-0269,Zaragoza,Juan Castano Juanele,75,,amarelo,ESPN
 2003-0269,Málaga,Marcelo Romero,80,,amarelo,ESPN
-2003-0269,Málaga,Ballesta Salva,80,,amarelo,ESPN
+2003-0269,Málaga,Salva Ballesta,80,,amarelo,ESPN
 2003-0269,Zaragoza,José María Movilla,83,,amarelo,ESPN
 2003-0269,Málaga,Carlos Litos,86,,amarelo,ESPN
 2003-0269,Zaragoza,Generelo,90,,amarelo,ESPN
@@ -5557,7 +5557,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0281,Real Madrid,Luis Figo,24,,amarelo,ESPN
 2003-0281,Athletic Bilbao,Santiago Ezquerro,66,,amarelo,ESPN
 2003-0281,Real Madrid,Gutí,68,,amarelo,ESPN
-2003-0281,Athletic Bilbao,Ismael Aranda Urzaiz,78,,amarelo,ESPN
+2003-0281,Athletic Bilbao,Ismael Urzaiz,78,,amarelo,ESPN
 2003-0282,Betis,Fernando Varela,11,,amarelo,ESPN
 2003-0282,Atlético de Madrid,Galvez Gaspar,14,,amarelo,ESPN
 2003-0282,Betis,Alejandro Lembo,27,,amarelo,ESPN
@@ -5737,7 +5737,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0319,Villarreal,Marcos Senna,41,,amarelo,ESPN
 2003-0319,Deportivo La Coruña,Pedro Munitis,48,,amarelo,ESPN
 2003-0319,Deportivo La Coruña,Sergio González Soriano,53,,amarelo,ESPN
-2003-0319,Villarreal,Fernandez Manuel Gutierrez Victor,90,,amarelo,ESPN
+2003-0319,Villarreal,Víctor Fernández,90,,amarelo,ESPN
 2003-0320,Barcelona,Giovanni van Bronckhorst,29,,amarelo,ESPN
 2003-0320,Barcelona,Víctor Valdés,34,,vermelho,ESPN
 2003-0320,Barcelona,Gerard Lopez,51,,amarelo,ESPN
@@ -5751,7 +5751,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0321,Zaragoza,Luciano Galletti,54,,amarelo,ESPN
 2003-0321,Zaragoza,Gabriel Milito,58,,vermelho,ESPN
 2003-0321,Zaragoza,David Pirri,58,,amarelo,ESPN
-2003-0321,Zaragoza,Bortolini Pimentel Savio,59,,amarelo,ESPN
+2003-0321,Zaragoza,Sávio,59,,amarelo,ESPN
 2003-0321,Zaragoza,Alvaro,63,,vermelho,ESPN
 2003-0322,Real Madrid,Francisco Pavón,27,,amarelo,ESPN
 2003-0322,Real Madrid,Francisco Pavón,47,,vermelho,ESPN
@@ -5932,7 +5932,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2003-0357,Valladolid,Fernando Sales,43,,amarelo,ESPN
 2003-0357,Valladolid,Pablo Javier Richetti,45,,amarelo,ESPN
 2003-0357,Real Sociedad,Xabi Prieto,52,,amarelo,ESPN
-2003-0357,Real Sociedad,Kahveci Nihat,59,,amarelo,ESPN
+2003-0357,Real Sociedad,Nihat Kahveci,59,,amarelo,ESPN
 2003-0357,Real Sociedad,Mikel Aranburu,72,,amarelo,ESPN
 2003-0357,Valladolid,Jose Manuel Chema,81,,vermelho,ESPN
 2003-0357,Valladolid,Francisco Sousa,84,,amarelo,ESPN
@@ -6038,7 +6038,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0001,Málaga,Ivan Leko,30,,amarelo,ESPN
 2004-0001,Málaga,Duran Fernando Sanz,36,,amarelo,ESPN
 2004-0001,Málaga,Duda,52,,amarelo,ESPN
-2004-0001,Atlético de Madrid,Ballesta Salva,67,,amarelo,ESPN
+2004-0001,Atlético de Madrid,Salva Ballesta,67,,amarelo,ESPN
 2004-0002,Betis,Marcos Assuncao,22,,amarelo,ESPN
 2004-0002,Numancia,Aracil Miguel Perez,41,,amarelo,ESPN
 2004-0002,Betis,Lopez Ismael,60,,amarelo,ESPN
@@ -6069,7 +6069,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0007,Levante,Diego Camacho,40,,amarelo,ESPN
 2004-0007,Real Sociedad,Bittor Alkiza,41,,amarelo,ESPN
 2004-0007,Real Sociedad,Igor Jáuregui,55,,amarelo,ESPN
-2004-0007,Real Sociedad,Kahveci Nihat,59,,amarelo,ESPN
+2004-0007,Real Sociedad,Nihat Kahveci,59,,amarelo,ESPN
 2004-0007,Levante,Ignacio Pérez Santamaría,71,,amarelo,ESPN
 2004-0007,Levante,Pablo Pinillos,76,,amarelo,ESPN
 2004-0008,Getafe,Diego Rivas Gutiérrez,18,,amarelo,ESPN
@@ -6228,7 +6228,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0040,Zaragoza,Delio Toledo,16,,amarelo,ESPN
 2004-0040,Zaragoza,Cani,49,,amarelo,ESPN
 2004-0041,Athletic Bilbao,Luis Prieto,29,,amarelo,ESPN
-2004-0041,Athletic Bilbao,Ismael Aranda Urzaiz,33,,amarelo,ESPN
+2004-0041,Athletic Bilbao,Ismael Urzaiz,33,,amarelo,ESPN
 2004-0041,Real Madrid,Iker Casillas,55,,amarelo,ESPN
 2004-0041,Real Madrid,Albert Celades,56,,amarelo,ESPN
 2004-0041,Real Madrid,Luis Figo,67,,amarelo,ESPN
@@ -6377,7 +6377,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0069,Zaragoza,Varela Javi Moreno,38,,amarelo,ESPN
 2004-0069,Zaragoza,Agustin Aranzabal,40,,amarelo,ESPN
 2004-0069,Real Sociedad,Igor Jáuregui,51,,amarelo,ESPN
-2004-0069,Real Sociedad,Kahveci Nihat,75,,amarelo,ESPN
+2004-0069,Real Sociedad,Nihat Kahveci,75,,amarelo,ESPN
 2004-0069,Zaragoza,Cani,88,,amarelo,ESPN
 2004-0070,Valencia,Carlos Marchena,39,,amarelo,ESPN
 2004-0070,Sevilla,Alvarez Antonio Lopez,39,,amarelo,ESPN
@@ -6634,7 +6634,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0118,Real Sociedad,Bittor Alkiza,20,,amarelo,ESPN
 2004-0118,Athletic Bilbao,Aitor Karanka,52,,amarelo,ESPN
 2004-0118,Athletic Bilbao,Daniel Aranzubía,61,,vermelho,ESPN
-2004-0118,Real Sociedad,Kahveci Nihat,69,,amarelo,ESPN
+2004-0118,Real Sociedad,Nihat Kahveci,69,,amarelo,ESPN
 2004-0118,Athletic Bilbao,Asier Del Horno,78,,amarelo,ESPN
 2004-0118,Real Sociedad,Mikel Labaka,85,,amarelo,ESPN
 2004-0118,Real Sociedad,Mikel Arteta,90,,amarelo,ESPN
@@ -6658,7 +6658,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0122,Atlético de Madrid,Peter Luccin,59,,amarelo,ESPN
 2004-0122,Espanyol,Iván De La Peña,64,,amarelo,ESPN
 2004-0122,Atlético de Madrid,Fernando Nano,68,,amarelo,ESPN
-2004-0122,Atlético de Madrid,Ballesta Salva,83,,amarelo,ESPN
+2004-0122,Atlético de Madrid,Salva Ballesta,83,,amarelo,ESPN
 2004-0123,Barcelona,Juliano Belletti,29,,amarelo,ESPN
 2004-0123,Barcelona,Rafael Márquez,39,,amarelo,ESPN
 2004-0123,Getafe,Gabi,44,,amarelo,ESPN
@@ -6715,7 +6715,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0132,Málaga,Alexis,40,,amarelo,ESPN
 2004-0132,Barcelona,Andrés Iniesta,77,,amarelo,ESPN
 2004-0133,Betis,Juanito,64,,amarelo,ESPN
-2004-0133,Real Sociedad,Kahveci Nihat,89,,amarelo,ESPN
+2004-0133,Real Sociedad,Nihat Kahveci,89,,amarelo,ESPN
 2004-0134,Atlético de Madrid,Peter Luccin,31,,amarelo,ESPN
 2004-0134,Osasuna,Cesar Cruchaga,43,,amarelo,ESPN
 2004-0134,Osasuna,Elia,45,,amarelo,ESPN
@@ -6758,7 +6758,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0142,Atlético de Madrid,Gonzalo Colsa,36,,amarelo,ESPN
 2004-0142,Atlético de Madrid,Barjuan Sergi,79,,amarelo,ESPN
 2004-0142,Athletic Bilbao,Pablo Orbáiz,90,,amarelo,ESPN
-2004-0142,Atlético de Madrid,Ballesta Salva,90,,amarelo,ESPN
+2004-0142,Atlético de Madrid,Salva Ballesta,90,,amarelo,ESPN
 2004-0143,Zaragoza,Cani,28,,amarelo,ESPN
 2004-0143,Zaragoza,Delio Toledo,41,,amarelo,ESPN
 2004-0143,Osasuna,Enrique Corrales,53,,amarelo,ESPN
@@ -6832,7 +6832,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0157,Zaragoza,Leonardo Ponzio,48,,amarelo,ESPN
 2004-0157,Athletic Bilbao,Pablo Orbáiz,54,,amarelo,ESPN
 2004-0157,Zaragoza,Alvaro,78,,amarelo,ESPN
-2004-0157,Zaragoza,Bortolini Pimentel Savio,90,,amarelo,ESPN
+2004-0157,Zaragoza,Sávio,90,,amarelo,ESPN
 2004-0158,Sevilla,Jesuli,4,,amarelo,ESPN
 2004-0158,Betis,Marcos Assuncao,40,,amarelo,ESPN
 2004-0158,Betis,Washington Tais,43,,amarelo,ESPN
@@ -7032,7 +7032,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0195,Getafe,Gabi,45,,amarelo,ESPN
 2004-0195,Zaragoza,Juan Garcia,58,,amarelo,ESPN
 2004-0195,Getafe,Raúl Albiol,76,,amarelo,ESPN
-2004-0196,Real Sociedad,Kahveci Nihat,79,,amarelo,ESPN
+2004-0196,Real Sociedad,Nihat Kahveci,79,,amarelo,ESPN
 2004-0197,Atlético de Madrid,Marcelo Sosa,17,,amarelo,ESPN
 2004-0197,Málaga,Gerard Garcia,31,,amarelo,ESPN
 2004-0197,Atlético de Madrid,Jesper Gronkjaer,40,,amarelo,ESPN
@@ -7116,7 +7116,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0213,Zaragoza,David Villa,54,,amarelo,ESPN
 2004-0213,Zaragoza,Conde Luis Garcia,83,,vermelho,ESPN
 2004-0213,Zaragoza,Delio Toledo,89,,amarelo,ESPN
-2004-0213,Zaragoza,Bortolini Pimentel Savio,90,,amarelo,ESPN
+2004-0213,Zaragoza,Sávio,90,,amarelo,ESPN
 2004-0213,Albacete,Sanchez Jaime,90,,amarelo,ESPN
 2004-0214,Deportivo La Coruña,João Paulo,10,,amarelo,ESPN
 2004-0214,Athletic Bilbao,Luis Prieto,20,,amarelo,ESPN
@@ -7163,7 +7163,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0220,Racing Santander,Jose Moraton Taeno,64,,amarelo,ESPN
 2004-0220,Villarreal,José Marí,72,,amarelo,ESPN
 2004-0221,Barcelona,Juliano Belletti,67,,amarelo,ESPN
-2004-0221,Zaragoza,Bortolini Pimentel Savio,67,,amarelo,ESPN
+2004-0221,Zaragoza,Sávio,67,,amarelo,ESPN
 2004-0221,Zaragoza,Delio Toledo,69,,amarelo,ESPN
 2004-0221,Zaragoza,José María Movilla,73,,amarelo,ESPN
 2004-0221,Barcelona,Carles Puyol,89,,amarelo,ESPN
@@ -7179,7 +7179,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0223,Athletic Bilbao,Tiko,58,,amarelo,ESPN
 2004-0223,Betis,Alejandro Lembo,65,,amarelo,ESPN
 2004-0223,Betis,Alejandro Lembo,74,,vermelho,ESPN
-2004-0223,Athletic Bilbao,Ismael Aranda Urzaiz,77,,amarelo,ESPN
+2004-0223,Athletic Bilbao,Ismael Urzaiz,77,,amarelo,ESPN
 2004-0223,Betis,Edu,88,,amarelo,ESPN
 2004-0224,Levante,José Antonio Culebras,4,,amarelo,ESPN
 2004-0224,Levante,José Antonio Culebras,17,,vermelho,ESPN
@@ -7252,7 +7252,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0235,Osasuna,Iñaki Muñoz,87,,amarelo,ESPN
 2004-0236,Zaragoza,Generelo,27,,amarelo,ESPN
 2004-0236,Zaragoza,Gabriel Milito,60,,amarelo,ESPN
-2004-0236,Zaragoza,Bortolini Pimentel Savio,61,,amarelo,ESPN
+2004-0236,Zaragoza,Sávio,61,,amarelo,ESPN
 2004-0236,Zaragoza,Alberto Zapater,85,,amarelo,ESPN
 2004-0237,Espanyol,Sanchez Alex Fernandez,10,,amarelo,ESPN
 2004-0237,Espanyol,Sanchez Alex Fernandez,34,,vermelho,ESPN
@@ -7292,7 +7292,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0245,Real Sociedad,Adriano Rossato,19,,amarelo,ESPN
 2004-0245,Atlético de Madrid,Sergi Sergi,28,,amarelo,ESPN
 2004-0245,Real Sociedad,Darko Kovacevic,35,,amarelo,ESPN
-2004-0245,Atlético de Madrid,Ballesta Salva,53,,amarelo,ESPN
+2004-0245,Atlético de Madrid,Salva Ballesta,53,,amarelo,ESPN
 2004-0245,Atlético de Madrid,Molinero,83,,amarelo,ESPN
 2004-0245,Real Sociedad,Adriano Rossato,90,,vermelho,ESPN
 2004-0245,Atlético de Madrid,Jesper Gronkjaer,90,,amarelo,ESPN
@@ -7365,8 +7365,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0260,Atlético de Madrid,José García Calvo,54,,amarelo,ESPN
 2004-0260,Sevilla,Jordi Lopez,57,,amarelo,ESPN
 2004-0260,Atlético de Madrid,Jesper Gronkjaer,69,,amarelo,ESPN
-2004-0260,Atlético de Madrid,Ballesta Salva,77,,amarelo,ESPN
-2004-0260,Atlético de Madrid,Ballesta Salva,78,,vermelho,ESPN
+2004-0260,Atlético de Madrid,Salva Ballesta,77,,amarelo,ESPN
+2004-0260,Atlético de Madrid,Salva Ballesta,78,,vermelho,ESPN
 2004-0260,Sevilla,Sergio Ramos,79,,amarelo,ESPN
 2004-0260,Atlético de Madrid,Sergi Sergi,84,,amarelo,ESPN
 2004-0261,Osasuna,Ludovic Delporte,18,,amarelo,ESPN
@@ -7521,7 +7521,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0292,Villarreal,Gonzalo Rodríguez,25,,amarelo,ESPN
 2004-0292,Villarreal,Josico,59,,amarelo,ESPN
 2004-0292,Athletic Bilbao,Francisco Javier Yeste,61,,amarelo,ESPN
-2004-0292,Athletic Bilbao,Ismael Aranda Urzaiz,68,,amarelo,ESPN
+2004-0292,Athletic Bilbao,Ismael Urzaiz,68,,amarelo,ESPN
 2004-0293,Real Madrid,Gutí,26,,amarelo,ESPN
 2004-0293,Real Madrid,Walter Samuel,31,,amarelo,ESPN
 2004-0293,Albacete,Laurent Viaud,48,,amarelo,ESPN
@@ -7846,8 +7846,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2004-0356,Mallorca,Yoshito Okubo,16,,amarelo,ESPN
 2004-0356,Mallorca,Mark Iuliano,53,,amarelo,ESPN
 2004-0356,Athletic Bilbao,Pablo Orbáiz,75,,amarelo,ESPN
-2004-0356,Athletic Bilbao,Ismael Aranda Urzaiz,81,,amarelo,ESPN
-2004-0356,Athletic Bilbao,Ismael Aranda Urzaiz,81,,amarelo,ESPN
+2004-0356,Athletic Bilbao,Ismael Urzaiz,81,,amarelo,ESPN
+2004-0356,Athletic Bilbao,Ismael Urzaiz,81,,amarelo,ESPN
 2004-0356,Mallorca,Víctor,88,,amarelo,ESPN
 2004-0357,Getafe,Gabi,27,,amarelo,ESPN
 2004-0357,Racing Santander,Bustillo Pablo Casar,30,,amarelo,ESPN
@@ -8440,7 +8440,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0082,Real Madrid,Roberto Carlos,61,,amarelo,ESPN
 2005-0082,Real Madrid,Ivan Helguera,70,,amarelo,ESPN
 2005-0082,Deportivo La Coruña,Martin Cesar,75,,amarelo,ESPN
-2005-0083,Málaga,Salvador Ballesta Vialcho,28,,amarelo,ESPN
+2005-0083,Málaga,Salva Ballesta,28,,amarelo,ESPN
 2005-0083,Málaga,Pablo Counago,34,,amarelo,ESPN
 2005-0083,Málaga,Juan Rodríguez,63,,amarelo,ESPN
 2005-0083,Málaga,Alexis,80,,amarelo,ESPN
@@ -8573,7 +8573,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0109,Real Madrid,David Beckham,66,,amarelo,ESPN
 2005-0109,Zaragoza,Delio Toledo,75,,amarelo,ESPN
 2005-0109,Zaragoza,Leonardo Ponzio,78,,amarelo,ESPN
-2005-0109,Zaragoza,Bortolini Pimentel Savio,79,,amarelo,ESPN
+2005-0109,Zaragoza,Sávio,79,,amarelo,ESPN
 2005-0110,Atlético de Madrid,José Ignacio Zahinos,35,,amarelo,ESPN
 2005-0110,Atlético de Madrid,Pablo Ibáñez,37,,amarelo,ESPN
 2005-0110,Atlético de Madrid,Gabi,90,,amarelo,ESPN
@@ -8607,7 +8607,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0114,Villarreal,Jan Kromkamp,66,,amarelo,ESPN
 2005-0115,Athletic Bilbao,Francisco Javier Yeste,15,,amarelo,ESPN
 2005-0115,Athletic Bilbao,Carlos Gurpegi,16,,amarelo,ESPN
-2005-0115,Alavés,Mendez Ruben Navarro,16,,amarelo,ESPN
+2005-0115,Alavés,Rubén Navarro,16,,amarelo,ESPN
 2005-0115,Alavés,Martin Astudillo,44,,amarelo,ESPN
 2005-0115,Athletic Bilbao,Tiko,71,,amarelo,ESPN
 2005-0115,Alavés,Juan Jesus Gutierrez,80,,amarelo,ESPN
@@ -8668,7 +8668,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0126,Racing Santander,Ayoze Diaz Diaz,26,,amarelo,ESPN
 2005-0126,Racing Santander,David Aganzo,74,,vermelho,ESPN
 2005-0127,Málaga,Gerard Garcia,35,,amarelo,ESPN
-2005-0127,Málaga,Salvador Ballesta Vialcho,80,,amarelo,ESPN
+2005-0127,Málaga,Salva Ballesta,80,,amarelo,ESPN
 2005-0128,Betis,Alberto Rivera,16,,amarelo,ESPN
 2005-0128,Betis,Oscar Hernandez,30,,amarelo,ESPN
 2005-0128,Cádiz,Iván Iván Ania,53,,amarelo,ESPN
@@ -8713,7 +8713,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0133,Getafe,Fabio Celestini,61,,amarelo,ESPN
 2005-0133,Real Madrid,Míchel Salgado,64,,amarelo,ESPN
 2005-0133,Getafe,Diego Rivas Gutiérrez,78,,amarelo,ESPN
-2005-0134,Alavés,Mendez Ruben Navarro,27,,amarelo,ESPN
+2005-0134,Alavés,Rubén Navarro,27,,amarelo,ESPN
 2005-0134,Mallorca,Guillermo Pereyra,27,,amarelo,ESPN
 2005-0134,Mallorca,Francisco Farinos,31,,amarelo,ESPN
 2005-0134,Mallorca,Jonás Gutiérrez,35,,amarelo,ESPN
@@ -8738,7 +8738,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0137,Málaga,Gerard Garcia,73,,amarelo,ESPN
 2005-0138,Real Sociedad,Javier Garrido,12,,amarelo,ESPN
 2005-0138,Racing Santander,Jose Moraton Taeno,24,,amarelo,ESPN
-2005-0138,Real Sociedad,Kahveci Nihat,43,,amarelo,ESPN
+2005-0138,Real Sociedad,Nihat Kahveci,43,,amarelo,ESPN
 2005-0138,Real Sociedad,Igor Jáuregui,56,,amarelo,ESPN
 2005-0138,Racing Santander,Oriol Lozano Farrán,62,,amarelo,ESPN
 2005-0138,Racing Santander,Jonathan Valle,77,,amarelo,ESPN
@@ -8799,7 +8799,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0147,Getafe,Cosmin Contra,65,,amarelo,ESPN
 2005-0147,Racing Santander,David Aganzo,90,4,amarelo,ESPN
 2005-0148,Málaga,César Navas,9,,amarelo,ESPN
-2005-0148,Málaga,Salvador Ballesta Vialcho,19,,amarelo,ESPN
+2005-0148,Málaga,Salva Ballesta,19,,amarelo,ESPN
 2005-0148,Real Madrid,Sergio Ramos,26,,amarelo,ESPN
 2005-0148,Málaga,Anderson Silva de Franca,29,,amarelo,ESPN
 2005-0148,Málaga,Duran Fernando Sanz,47,,amarelo,ESPN
@@ -8851,7 +8851,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0157,Racing Santander,Jose Moraton Taeno,61,,amarelo,ESPN
 2005-0157,Málaga,Gerard Garcia,63,,amarelo,ESPN
 2005-0157,Racing Santander,Victor Vitolo,64,,vermelho,ESPN
-2005-0157,Málaga,Salvador Ballesta Vialcho,65,,amarelo,ESPN
+2005-0157,Málaga,Salva Ballesta,65,,amarelo,ESPN
 2005-0157,Racing Santander,Jonathan Valle,67,,amarelo,ESPN
 2005-0157,Racing Santander,Pablo Pinillos,71,,vermelho,ESPN
 2005-0157,Racing Santander,Felipe Melo,74,,amarelo,ESPN
@@ -8904,7 +8904,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0164,Villarreal,Santi Cazorla,6,,amarelo,ESPN
 2005-0164,Málaga,Fernando Usero,42,,amarelo,ESPN
 2005-0164,Málaga,Jesús Gámez,45,3,amarelo,ESPN
-2005-0164,Málaga,Salvador Ballesta Vialcho,59,,amarelo,ESPN
+2005-0164,Málaga,Salva Ballesta,59,,amarelo,ESPN
 2005-0164,Málaga,Alexis,83,,amarelo,ESPN
 2005-0164,Villarreal,Carlos Alcántara,89,,amarelo,ESPN
 2005-0165,Betis,Juanito,23,,amarelo,ESPN
@@ -9158,7 +9158,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0212,Málaga,Ignacio Pérez Santamaría,69,,vermelho,ESPN
 2005-0212,Athletic Bilbao,Francisco Javier Yeste,81,,amarelo,ESPN
 2005-0212,Málaga,Francesc Arnau,81,,amarelo,ESPN
-2005-0212,Málaga,Salvador Ballesta Vialcho,82,,amarelo,ESPN
+2005-0212,Málaga,Salva Ballesta,82,,amarelo,ESPN
 2005-0212,Athletic Bilbao,Jesus Lacruz,83,,amarelo,ESPN
 2005-0213,Real Madrid,Thomas Gravesen,36,,amarelo,ESPN
 2005-0213,Espanyol,Armando Sa,45,1,amarelo,ESPN
@@ -9613,7 +9613,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0285,Málaga,Ricardo,47,,amarelo,ESPN
 2005-0285,Málaga,Juan Rodríguez,57,,amarelo,ESPN
 2005-0285,Málaga,Ignacio Pérez Santamaría,68,,amarelo,ESPN
-2005-0285,Málaga,Salvador Ballesta Vialcho,75,,amarelo,ESPN
+2005-0285,Málaga,Salva Ballesta,75,,amarelo,ESPN
 2005-0285,Deportivo La Coruña,Héctor,75,,amarelo,ESPN
 2005-0285,Málaga,Chengue Morales,90,3,amarelo,ESPN
 2005-0285,Málaga,Antonio Hidalgo,90,5,amarelo,ESPN
@@ -9673,7 +9673,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0291,Osasuna,Pierre Webó,71,,amarelo,ESPN
 2005-0291,Osasuna,Ludovic Delporte,76,,amarelo,ESPN
 2005-0291,Athletic Bilbao,Luis Prieto,90,1,amarelo,ESPN
-2005-0291,Athletic Bilbao,Ismael Aranda Urzaiz,90,3,vermelho,ESPN
+2005-0291,Athletic Bilbao,Ismael Urzaiz,90,3,vermelho,ESPN
 2005-0291,Osasuna,Ludovic Delporte,90,3,vermelho,ESPN
 2005-0292,Málaga,Alvarez Antonio Lopez,38,,amarelo,ESPN
 2005-0292,Málaga,Duda,70,,amarelo,ESPN
@@ -9694,7 +9694,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0296,Alavés,Martin Astudillo,60,,amarelo,ESPN
 2005-0296,Espanyol,Sergio Sánchez,74,,amarelo,ESPN
 2005-0297,Real Sociedad,Alvaro Novo,17,,amarelo,ESPN
-2005-0297,Real Sociedad,Kahveci Nihat,21,,amarelo,ESPN
+2005-0297,Real Sociedad,Nihat Kahveci,21,,amarelo,ESPN
 2005-0297,Real Sociedad,Javier Garrido,27,,amarelo,ESPN
 2005-0297,Real Sociedad,Aitor López Rekarte,42,,amarelo,ESPN
 2005-0297,Real Sociedad,John Viafara,42,,amarelo,ESPN
@@ -9726,7 +9726,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0302,Málaga,Juan Rodríguez,35,,amarelo,ESPN
 2005-0302,Málaga,Alvarez Antonio Lopez,41,,amarelo,ESPN
 2005-0302,Málaga,Jesús Gámez,45,1,amarelo,ESPN
-2005-0302,Real Sociedad,Kahveci Nihat,62,,amarelo,ESPN
+2005-0302,Real Sociedad,Nihat Kahveci,62,,amarelo,ESPN
 2005-0302,Málaga,Juan Rodríguez,67,,vermelho,ESPN
 2005-0302,Málaga,Pablo Counago,84,,amarelo,ESPN
 2005-0302,Málaga,Chengue Morales,86,,vermelho,ESPN
@@ -9854,11 +9854,11 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0324,Racing Santander,Felipe Melo,80,,amarelo,ESPN
 2005-0325,Atlético de Madrid,Luis Perea,45,2,amarelo,ESPN
 2005-0325,Athletic Bilbao,Fernando Amorebieta,49,,amarelo,ESPN
-2005-0325,Athletic Bilbao,Ismael Aranda Urzaiz,58,,amarelo,ESPN
+2005-0325,Athletic Bilbao,Ismael Urzaiz,58,,amarelo,ESPN
 2005-0325,Atlético de Madrid,Fernando Torres,88,,amarelo,ESPN
 2005-0326,Málaga,César Navas,57,,amarelo,ESPN
-2005-0326,Málaga,Salvador Ballesta Vialcho,89,,amarelo,ESPN
-2005-0326,Málaga,Salvador Ballesta Vialcho,89,,vermelho,ESPN
+2005-0326,Málaga,Salva Ballesta,89,,amarelo,ESPN
+2005-0326,Málaga,Salva Ballesta,89,,vermelho,ESPN
 2005-0326,Osasuna,Cesar Cruchaga,90,,amarelo,ESPN
 2005-0326,Málaga,Alexis,90,2,amarelo,ESPN
 2005-0327,Getafe,Diego Rivas Gutiérrez,37,,amarelo,ESPN
@@ -9972,14 +9972,14 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2005-0346,Málaga,Duran Fernando Sanz,79,,amarelo,ESPN
 2005-0346,Racing Santander,Antonio Ramiro Perez,88,,amarelo,ESPN
 2005-0346,Málaga,Antonio Hidalgo,88,,amarelo,ESPN
-2005-0346,Málaga,Salvador Ballesta Vialcho,90,1,amarelo,ESPN
+2005-0346,Málaga,Salva Ballesta,90,1,amarelo,ESPN
 2005-0347,Sevilla,Fernando Sales,14,,amarelo,ESPN
 2005-0347,Real Sociedad,Aitor López Rekarte,39,,amarelo,ESPN
 2005-0347,Real Sociedad,Dalibor Stevanovic,40,,amarelo,ESPN
 2005-0347,Real Sociedad,Xabi Prieto,45,1,amarelo,ESPN
 2005-0347,Real Sociedad,Aitor López Rekarte,68,,vermelho,ESPN
 2005-0347,Sevilla,Antonio Puerta,71,,amarelo,ESPN
-2005-0347,Real Sociedad,Kahveci Nihat,84,,vermelho,ESPN
+2005-0347,Real Sociedad,Nihat Kahveci,84,,vermelho,ESPN
 2005-0348,Zaragoza,Alberto Zapater,18,,amarelo,ESPN
 2005-0348,Zaragoza,Albert Celades,30,,amarelo,ESPN
 2005-0348,Espanyol,Daniel Jarque,33,,amarelo,ESPN
@@ -10180,7 +10180,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0007,Real Madrid,Míchel Salgado,15,,amarelo,ESPN
 2006-0007,Villarreal,Juan Pena,20,,amarelo,ESPN
 2006-0007,Real Madrid,Roberto Carlos,22,,amarelo,ESPN
-2006-0007,Villarreal,Kahveci Nihat,38,,amarelo,ESPN
+2006-0007,Villarreal,Nihat Kahveci,38,,amarelo,ESPN
 2006-0007,Villarreal,Enrique Alvarez Sanjuan,90,1,amarelo,ESPN
 2006-0008,Recreativo Huelva,Emilio Viqueira,16,,amarelo,ESPN
 2006-0008,Recreativo Huelva,César Arzo,21,,amarelo,ESPN
@@ -10682,7 +10682,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0091,Atlético de Madrid,Mariano Pernía,30,,amarelo,ESPN
 2006-0091,Atlético de Madrid,Sergio Agüero,35,,amarelo,ESPN
 2006-0091,Villarreal,Cani,45,2,amarelo,ESPN
-2006-0091,Villarreal,Kahveci Nihat,66,,amarelo,ESPN
+2006-0091,Villarreal,Nihat Kahveci,66,,amarelo,ESPN
 2006-0091,Villarreal,José Marí,73,,vermelho,ESPN
 2006-0092,Valencia,David Cerrajería,26,,amarelo,ESPN
 2006-0092,Athletic Bilbao,Ustaritz,32,,amarelo,ESPN
@@ -11109,7 +11109,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0167,Mallorca,Jonás Gutiérrez,22,,amarelo,ESPN
 2006-0167,Mallorca,Toni Prats,35,,amarelo,ESPN
 2006-0167,Athletic Bilbao,Francisco Javier Yeste,41,,amarelo,ESPN
-2006-0167,Athletic Bilbao,Ismael Aranda Urzaiz,44,,amarelo,ESPN
+2006-0167,Athletic Bilbao,Ismael Urzaiz,44,,amarelo,ESPN
 2006-0167,Mallorca,Iván Ramis,63,,amarelo,ESPN
 2006-0167,Athletic Bilbao,Luis Prieto,74,,amarelo,ESPN
 2006-0168,Celta,Nenê,13,,amarelo,ESPN
@@ -11369,7 +11369,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0212,Real Sociedad,Diego Rivas Gutiérrez,64,,amarelo,ESPN
 2006-0212,Real Madrid,Fernando Gago,69,,amarelo,ESPN
 2006-0212,Real Madrid,Ivan Helguera,74,,amarelo,ESPN
-2006-0212,Real Sociedad,Bortolini Pimentel Savio,74,,amarelo,ESPN
+2006-0212,Real Sociedad,Sávio,74,,amarelo,ESPN
 2006-0212,Real Madrid,David Beckham,75,,amarelo,ESPN
 2006-0213,Atlético de Madrid,Luis Perea,14,,amarelo,ESPN
 2006-0213,Athletic Bilbao,Javi González,37,,amarelo,ESPN
@@ -11396,7 +11396,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0217,Gimnàstic,Anibal Matellan,85,,amarelo,ESPN
 2006-0218,Levante,Frederic Dehu,6,,amarelo,ESPN
 2006-0218,Levante,Frederic Dehu,51,,vermelho,ESPN
-2006-0218,Levante,Salvador Ballesta Vialcho,52,,amarelo,ESPN
+2006-0218,Levante,Salva Ballesta,52,,amarelo,ESPN
 2006-0218,Levante,José Alejandro Suárez Martín,53,,amarelo,ESPN
 2006-0218,Levante,Mathieu Berson,88,,amarelo,ESPN
 2006-0218,Levante,Manuel Gaspar Haro,90,3,amarelo,ESPN
@@ -11430,7 +11430,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0222,Zaragoza,Carlos Diogo,27,,amarelo,ESPN
 2006-0222,Zaragoza,Juanfran,70,,amarelo,ESPN
 2006-0222,Zaragoza,Gustavo Nery,88,,amarelo,ESPN
-2006-0223,Athletic Bilbao,Ismael Aranda Urzaiz,12,,amarelo,ESPN
+2006-0223,Athletic Bilbao,Ismael Urzaiz,12,,amarelo,ESPN
 2006-0223,Athletic Bilbao,Fernando Amorebieta,22,,amarelo,ESPN
 2006-0223,Getafe,Fabio Celestini,28,,amarelo,ESPN
 2006-0223,Athletic Bilbao,Aritz Aduriz,36,,amarelo,ESPN
@@ -11444,7 +11444,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0224,Osasuna,Hector Font,82,,amarelo,ESPN
 2006-0225,Levante,Manuel Gaspar Haro,4,,amarelo,ESPN
 2006-0225,Levante,Damiano Tommasi,36,,amarelo,ESPN
-2006-0225,Levante,Salvador Ballesta Vialcho,53,,amarelo,ESPN
+2006-0225,Levante,Salva Ballesta,53,,amarelo,ESPN
 2006-0225,Levante,Luis Manuel Rubiales,65,,amarelo,ESPN
 2006-0225,Deportivo La Coruña,Adrián,75,,amarelo,ESPN
 2006-0226,Mallorca,Fernando Varela,34,,amarelo,ESPN
@@ -11599,7 +11599,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0251,Real Madrid,Mahamadou Diarra,66,,amarelo,ESPN
 2006-0251,Real Madrid,Míchel Salgado,71,,amarelo,ESPN
 2006-0251,Real Madrid,Fernando Gago,90,3,amarelo,ESPN
-2006-0252,Levante,Salvador Ballesta Vialcho,51,,amarelo,ESPN
+2006-0252,Levante,Salva Ballesta,51,,amarelo,ESPN
 2006-0252,Villarreal,Sebastian Viera,67,,amarelo,ESPN
 2006-0252,Levante,Olivier Kapo,78,,amarelo,ESPN
 2006-0252,Villarreal,Guillermo Franco,78,,amarelo,ESPN
@@ -11703,7 +11703,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0272,Villarreal,Josico,24,,amarelo,ESPN
 2006-0272,Betis,Toni Doblas,78,,amarelo,ESPN
 2006-0272,Betis,Francisco Maldonado,89,,amarelo,ESPN
-2006-0273,Real Sociedad,Bortolini Pimentel Savio,37,,amarelo,ESPN
+2006-0273,Real Sociedad,Sávio,37,,amarelo,ESPN
 2006-0273,Levante,Riga Mustapha,43,,amarelo,ESPN
 2006-0273,Levante,Riga Mustapha,53,,vermelho,ESPN
 2006-0273,Levante,Laurent Courtois,58,,amarelo,ESPN
@@ -11799,7 +11799,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0284,Real Sociedad,Aitor López Rekarte,87,,amarelo,ESPN
 2006-0285,Levante,Luis Manuel Rubiales,64,,amarelo,ESPN
 2006-0285,Betis,Miguel Angel Lozano Ayala,69,,amarelo,ESPN
-2006-0285,Levante,Salvador Ballesta Vialcho,90,3,amarelo,ESPN
+2006-0285,Levante,Salva Ballesta,90,3,amarelo,ESPN
 2006-0286,Getafe,David Belenguer,19,,amarelo,ESPN
 2006-0286,Getafe,Cosmin Contra,50,,amarelo,ESPN
 2006-0286,Mallorca,Miguel Ángel Moyà,88,,amarelo,ESPN
@@ -11843,12 +11843,12 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0292,Real Sociedad,Darko Kovacevic,73,,amarelo,ESPN
 2006-0292,Betis,Capi,86,,amarelo,ESPN
 2006-0293,Espanyol,David García,11,,amarelo,ESPN
-2006-0293,Athletic Bilbao,Ismael Aranda Urzaiz,53,,amarelo,ESPN
+2006-0293,Athletic Bilbao,Ismael Urzaiz,53,,amarelo,ESPN
 2006-0293,Athletic Bilbao,Joseba Etxeberría,84,,amarelo,ESPN
 2006-0293,Espanyol,Juan Velasco,87,,amarelo,ESPN
 2006-0294,Levante,Alvaro,40,,amarelo,ESPN
 2006-0294,Atlético de Madrid,Sergio Agüero,59,,amarelo,ESPN
-2006-0294,Levante,Salvador Ballesta Vialcho,62,,amarelo,ESPN
+2006-0294,Levante,Salva Ballesta,62,,amarelo,ESPN
 2006-0294,Levante,José Alejandro Suárez Martín,86,,amarelo,ESPN
 2006-0295,Recreativo Huelva,Rafael Barber,30,,amarelo,ESPN
 2006-0295,Osasuna,Cesar Cruchaga,46,,amarelo,ESPN
@@ -11949,7 +11949,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0312,Valencia,Hugo Miguel Ferreira Viana,85,,amarelo,ESPN
 2006-0313,Real Madrid,Fabio Cannavaro,11,,amarelo,ESPN
 2006-0313,Athletic Bilbao,Ander Murillo,17,,amarelo,ESPN
-2006-0313,Athletic Bilbao,Ismael Aranda Urzaiz,69,,amarelo,ESPN
+2006-0313,Athletic Bilbao,Ismael Urzaiz,69,,amarelo,ESPN
 2006-0314,Osasuna,Bernardo Romeo,37,,amarelo,ESPN
 2006-0314,Zaragoza,Andres Nicolas D'Alessandro,45,,amarelo,ESPN
 2006-0314,Zaragoza,Gabriel Milito,70,,amarelo,ESPN
@@ -12031,7 +12031,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0328,Zaragoza,Carlos Diogo,69,,amarelo,ESPN
 2006-0329,Athletic Bilbao,Javi Martínez,29,,amarelo,ESPN
 2006-0329,Athletic Bilbao,Ander Murillo,43,,amarelo,ESPN
-2006-0329,Athletic Bilbao,Ismael Aranda Urzaiz,55,,amarelo,ESPN
+2006-0329,Athletic Bilbao,Ismael Urzaiz,55,,amarelo,ESPN
 2006-0329,Athletic Bilbao,Josu Sarriegi,57,,amarelo,ESPN
 2006-0329,Athletic Bilbao,Fernando Amorebieta,68,,vermelho,ESPN
 2006-0329,Recreativo Huelva,Santi Cazorla,69,,amarelo,ESPN
@@ -12208,7 +12208,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2006-0357,Gimnàstic,Antonio Marco,65,,amarelo,ESPN
 2006-0357,Atlético de Madrid,Leo Franco,72,,amarelo,ESPN
 2006-0357,Gimnàstic,Ariza Makukula,90,2,vermelho,ESPN
-2006-0358,Levante,Salvador Ballesta Vialcho,27,,amarelo,ESPN
+2006-0358,Levante,Salva Ballesta,27,,amarelo,ESPN
 2006-0358,Racing Santander,Christian Fernández,29,,amarelo,ESPN
 2006-0358,Levante,Damiano Tommasi,56,,amarelo,ESPN
 2006-0358,Racing Santander,Nikola Zigic,81,,amarelo,ESPN
@@ -12375,7 +12375,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0006,Espanyol,Pablo Zabaleta,68,,amarelo,ESPN
 2007-0006,Espanyol,Javier Chica,81,,amarelo,ESPN
 2007-0006,Valladolid,Bartholomew Ogbeche,83,,amarelo,ESPN
-2007-0007,Levante,Bortolini Pimentel Savio,19,,amarelo,ESPN
+2007-0007,Levante,Sávio,19,,amarelo,ESPN
 2007-0007,Levante,Bruno Cirillo,24,,amarelo,ESPN
 2007-0007,Levante,Juanma Gómez,75,,amarelo,ESPN
 2007-0008,Racing Santander,Luis Fernández,14,,amarelo,ESPN
@@ -12428,7 +12428,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0018,Almería,Fernando Soriano,33,,amarelo,ESPN
 2007-0018,Valencia,Rubén Baraja,48,,amarelo,ESPN
 2007-0018,Valencia,David Albelda,57,,amarelo,ESPN
-2007-0018,Valencia,Fernando Sanchez Morientes,70,,amarelo,ESPN
+2007-0018,Valencia,Fernando Morientes,70,,amarelo,ESPN
 2007-0018,Almería,Albert Crusat,77,,amarelo,ESPN
 2007-0018,Almería,Felipe Melo,88,,amarelo,ESPN
 2007-0019,Villarreal,Giuseppe Rossi,12,,amarelo,ESPN
@@ -12564,7 +12564,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0044,Zaragoza,Gabi,73,,amarelo,ESPN
 2007-0045,Valladolid,Borja,36,,amarelo,ESPN
 2007-0045,Valladolid,Alberto Marcos,59,,amarelo,ESPN
-2007-0045,Valladolid,Víctor -,83,,amarelo,ESPN
+2007-0045,Valladolid,Víctor Fernández,83,,amarelo,ESPN
 2007-0045,Mallorca,Víctor,84,,amarelo,ESPN
 2007-0046,Villarreal,Marcos Senna,31,,amarelo,ESPN
 2007-0046,Villarreal,Cani,50,,amarelo,ESPN
@@ -12631,7 +12631,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0057,Valencia,Emiliano Moretti,64,,amarelo,ESPN
 2007-0057,Valencia,Ivan Helguera,75,,amarelo,ESPN
 2007-0057,Recreativo Huelva,Carlos Martins,84,,vermelho,ESPN
-2007-0057,Valencia,Fernando Sanchez Morientes,88,,amarelo,ESPN
+2007-0057,Valencia,Fernando Morientes,88,,amarelo,ESPN
 2007-0057,Valencia,David Silva,90,3,amarelo,ESPN
 2007-0058,Almería,Carlos Garcia,38,,amarelo,ESPN
 2007-0058,Almería,Fernando Soriano,50,,amarelo,ESPN
@@ -12824,7 +12824,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0089,Valencia,Joaquín,53,,amarelo,ESPN
 2007-0089,Valencia,Carlos Marchena,60,,amarelo,ESPN
 2007-0089,Sevilla,Luis Fabiano,66,,amarelo,ESPN
-2007-0089,Valencia,Fernando Sanchez Morientes,80,,amarelo,ESPN
+2007-0089,Valencia,Fernando Morientes,80,,amarelo,ESPN
 2007-0089,Valencia,Vicente Rodriguez Guillen,84,,amarelo,ESPN
 2007-0090,Sevilla,Khalid Boulahrouz,31,,amarelo,ESPN
 2007-0090,Atlético de Madrid,Luis Perea,46,,amarelo,ESPN
@@ -13101,7 +13101,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0134,Getafe,Juan Albín,30,,amarelo,ESPN
 2007-0134,Getafe,Cata Díaz,52,,amarelo,ESPN
 2007-0134,Levante,Damiano Tommasi,54,,amarelo,ESPN
-2007-0134,Levante,Bortolini Pimentel Savio,70,,amarelo,ESPN
+2007-0134,Levante,Sávio,70,,amarelo,ESPN
 2007-0134,Levante,Alvaro,71,,amarelo,ESPN
 2007-0134,Levante,Marco Storari,89,,amarelo,ESPN
 2007-0134,Getafe,Pablo Hernández,90,5,amarelo,ESPN
@@ -13122,7 +13122,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0136,Atlético de Madrid,Pablo Ibáñez,69,,amarelo,ESPN
 2007-0136,Atlético de Madrid,Thiago Motta,77,,amarelo,ESPN
 2007-0137,Villarreal,Bruno,24,,amarelo,ESPN
-2007-0137,Villarreal,Kahveci Nihat,45,1,amarelo,ESPN
+2007-0137,Villarreal,Nihat Kahveci,45,1,amarelo,ESPN
 2007-0137,Valladolid,Alberto Marcos,88,,amarelo,ESPN
 2007-0138,Zaragoza,Javier Paredes,33,,amarelo,ESPN
 2007-0138,Zaragoza,Peter Luccin,47,,amarelo,ESPN
@@ -13249,7 +13249,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0158,Racing Santander,Jose Moraton Taeno,82,,amarelo,ESPN
 2007-0158,Racing Santander,Pablo Pinillos,90,3,amarelo,ESPN
 2007-0159,Valladolid,Alberto Marcos,25,,amarelo,ESPN
-2007-0159,Valladolid,Víctor -,26,,amarelo,ESPN
+2007-0159,Valladolid,Víctor Fernández,26,,amarelo,ESPN
 2007-0159,Sevilla,Seydou Keita,27,,amarelo,ESPN
 2007-0159,Sevilla,Federico Fazio,41,,amarelo,ESPN
 2007-0159,Sevilla,Federico Fazio,52,,vermelho,ESPN
@@ -13336,7 +13336,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0170,Recreativo Huelva,Iago Bouzón,78,,amarelo,ESPN
 2007-0170,Villarreal,Joan Capdevila,89,,amarelo,ESPN
 2007-0170,Villarreal,Jon Dahl Tomasson,90,2,amarelo,ESPN
-2007-0170,Villarreal,Kahveci Nihat,90,3,amarelo,ESPN
+2007-0170,Villarreal,Nihat Kahveci,90,3,amarelo,ESPN
 2007-0171,Villarreal,Cani,43,,amarelo,ESPN
 2007-0171,Espanyol,Iván De La Peña,45,1,amarelo,ESPN
 2007-0171,Villarreal,Joan Capdevila,66,,amarelo,ESPN
@@ -13415,7 +13415,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0189,Espanyol,Jesus Lacruz,79,,amarelo,ESPN
 2007-0189,Espanyol,Moises Hurtado,90,,amarelo,ESPN
 2007-0190,Deportivo La Coruña,Adrián,29,,amarelo,ESPN
-2007-0190,Villarreal,Kahveci Nihat,44,,amarelo,ESPN
+2007-0190,Villarreal,Nihat Kahveci,44,,amarelo,ESPN
 2007-0190,Villarreal,Santi Cazorla,77,,amarelo,ESPN
 2007-0190,Deportivo La Coruña,Pablo Amo,79,,vermelho,ESPN
 2007-0191,Sevilla,Christian Poulsen,68,,amarelo,ESPN
@@ -13997,7 +13997,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0296,Real Madrid,Mahamadou Diarra,80,,amarelo,ESPN
 2007-0297,Zaragoza,Javier Paredes,52,,amarelo,ESPN
 2007-0297,Valladolid,Sisinio Martínez,59,,amarelo,ESPN
-2007-0297,Valladolid,Víctor -,67,,amarelo,ESPN
+2007-0297,Valladolid,Víctor Fernández,67,,amarelo,ESPN
 2007-0297,Zaragoza,Juanfran,88,,amarelo,ESPN
 2007-0297,Valladolid,Javier Baraja,88,,amarelo,ESPN
 2007-0297,Zaragoza,Juanfran,90,5,vermelho,ESPN
@@ -14082,7 +14082,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2007-0310,Sevilla,Seydou Keita,71,,amarelo,ESPN
 2007-0310,Villarreal,Joan Capdevila,80,,amarelo,ESPN
 2007-0310,Villarreal,Cani,83,,amarelo,ESPN
-2007-0310,Villarreal,Kahveci Nihat,84,,amarelo,ESPN
+2007-0310,Villarreal,Nihat Kahveci,84,,amarelo,ESPN
 2007-0310,Villarreal,Marcos Senna,84,,amarelo,ESPN
 2007-0310,Villarreal,Diego López,87,,amarelo,ESPN
 2007-0310,Villarreal,Joan Capdevila,90,1,vermelho,ESPN
@@ -14667,7 +14667,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0037,Valencia,Asier Del Horno,31,,amarelo,ESPN
 2008-0037,Valencia,Alexis,45,1,amarelo,ESPN
 2008-0037,Málaga,Weligton,79,,amarelo,ESPN
-2008-0037,Málaga,Salvador Ballesta Vialcho,88,,vermelho,ESPN
+2008-0037,Málaga,Salva Ballesta,88,,vermelho,ESPN
 2008-0037,Valencia,Edu,90,,amarelo,ESPN
 2008-0038,Numancia,José Barkero,53,,amarelo,ESPN
 2008-0038,Mallorca,Iván Ramis,71,,amarelo,ESPN
@@ -14850,7 +14850,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0066,Betis,Mariano Pavone,62,,amarelo,ESPN
 2008-0066,Mallorca,Josemi,82,,amarelo,ESPN
 2008-0067,Recreativo Huelva,Poli -,11,,amarelo,ESPN
-2008-0067,Valladolid,Víctor -,18,,amarelo,ESPN
+2008-0067,Valladolid,Víctor Fernández,18,,amarelo,ESPN
 2008-0067,Recreativo Huelva,Antonio Jesus Vázquez,68,,amarelo,ESPN
 2008-0068,Sporting de Gijón,Rafael Sastre,18,,amarelo,ESPN
 2008-0068,Sporting de Gijón,Gerard Autet Serrabasa,29,,amarelo,ESPN
@@ -15530,7 +15530,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0182,Sevilla,Aquivaldo Mosquera,89,,amarelo,ESPN
 2008-0183,Athletic Bilbao,Igor Gabilondo,21,,amarelo,ESPN
 2008-0183,Valencia,Juan Mata,33,,amarelo,ESPN
-2008-0183,Valencia,Fernando Sanchez Morientes,36,,amarelo,ESPN
+2008-0183,Valencia,Fernando Morientes,36,,amarelo,ESPN
 2008-0183,Athletic Bilbao,Javi Martínez,69,,amarelo,ESPN
 2008-0183,Valencia,Manuel Fernandes,80,,amarelo,ESPN
 2008-0183,Athletic Bilbao,Aitor Ocio,80,,amarelo,ESPN
@@ -15888,7 +15888,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0239,Valladolid,Pedro León,25,,amarelo,ESPN
 2008-0239,Málaga,Weligton,40,,amarelo,ESPN
 2008-0239,Málaga,Javier Calleja,57,,amarelo,ESPN
-2008-0239,Valladolid,Víctor -,71,,amarelo,ESPN
+2008-0239,Valladolid,Víctor Fernández,71,,amarelo,ESPN
 2008-0239,Valladolid,Marcos Aguirre,79,,amarelo,ESPN
 2008-0239,Málaga,Eliseu,90,5,amarelo,ESPN
 2008-0240,Almería,Carlos Garcia,15,,amarelo,ESPN
@@ -16000,7 +16000,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0256,Racing Santander,Jonathan,34,,amarelo,ESPN
 2008-0256,Deportivo La Coruña,Sergio González Soriano,65,,amarelo,ESPN
 2008-0257,Getafe,David Cortés,13,,amarelo,ESPN
-2008-0257,Málaga,Salvador Ballesta Vialcho,35,,amarelo,ESPN
+2008-0257,Málaga,Salva Ballesta,35,,amarelo,ESPN
 2008-0257,Getafe,Cata Díaz,35,,amarelo,ESPN
 2008-0257,Getafe,Cosmin Contra,36,,amarelo,ESPN
 2008-0257,Málaga,Ivan Cuadrado,36,,amarelo,ESPN
@@ -16354,7 +16354,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0310,Valencia,David Silva,85,,amarelo,ESPN
 2008-0310,Valencia,Carlos Marchena,89,,amarelo,ESPN
 2008-0310,Sevilla,Luis Fabiano,90,1,amarelo,ESPN
-2008-0310,Valencia,Fernando Sanchez Morientes,90,3,amarelo,ESPN
+2008-0310,Valencia,Fernando Morientes,90,3,amarelo,ESPN
 2008-0310,Valencia,Pablo Hernández,90,4,amarelo,ESPN
 2008-0310,Sevilla,Frédéric Kanouté,90,5,amarelo,ESPN
 2008-0311,Athletic Bilbao,Aitor Ocio,17,,amarelo,ESPN
@@ -16414,8 +16414,8 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0320,Recreativo Huelva,Andrés Lamas,68,,amarelo,ESPN
 2008-0320,Recreativo Huelva,Rafael Barber,68,,amarelo,ESPN
 2008-0320,Recreativo Huelva,Asier Riesgo,68,,amarelo,ESPN
-2008-0320,Villarreal,Kahveci Nihat,72,,amarelo,ESPN
-2008-0321,Málaga,Salvador Ballesta Vialcho,28,,amarelo,ESPN
+2008-0320,Villarreal,Nihat Kahveci,72,,amarelo,ESPN
+2008-0321,Málaga,Salva Ballesta,28,,amarelo,ESPN
 2008-0321,Málaga,Manuel Gaspar Haro,39,,amarelo,ESPN
 2008-0321,Deportivo La Coruña,Zé Castro,42,,amarelo,ESPN
 2008-0321,Málaga,Duda,67,,amarelo,ESPN
@@ -16754,7 +16754,7 @@ partida_id,clube,jogador,minuto,acrescimo,cor,fonte
 2008-0369,Valencia,Hedwiges Maduro,49,,amarelo,ESPN
 2008-0369,Valencia,Alexis,51,,amarelo,ESPN
 2008-0369,Villarreal,Guillermo Franco,87,,amarelo,ESPN
-2008-0369,Valencia,Fernando Sanchez Morientes,87,,amarelo,ESPN
+2008-0369,Valencia,Fernando Morientes,87,,amarelo,ESPN
 2008-0369,Valencia,Juan Mata,90,1,amarelo,ESPN
 2008-0370,Mallorca,Juan Arango,5,,amarelo,ESPN
 2008-0370,Real Madrid,Rafael van der Vaart,45,,amarelo,ESPN

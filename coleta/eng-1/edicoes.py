@@ -8,7 +8,7 @@ DADOS = RAIZ / "data" / "coleta" / "eng-1"
 CACHE = RAIZ / "data" / "cache"
 # sem liga: 1915/16-1918/19 (1ª Guerra) e 1939/40-1945/46 (2ª Guerra; 1939/40 parou na 3ª rodada e foi anulada)
 GUERRA = set(range(1915, 1919)) | set(range(1939, 1946))
-TEMPORADAS = [a for a in range(1888, 2025) if a not in GUERRA]
+TEMPORADAS = [a for a in range(1888, 2026) if a not in GUERRA]
 
 
 def temporada(a: int) -> str:

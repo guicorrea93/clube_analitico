@@ -765,7 +765,7 @@ def main() -> None:
 
         # ---- classificação rodada a rodada (não em 1945/46, que teve grupos)
         if not sem_rodada and a != DIVISIONE:
-            n_reb = len(rebaixados)
+            pos_reb = {p for p, c in enumerate(ordem_final, 1) if c in rebaixados}   # faixa: as posições finais de quem caiu
             for r in sorted({j["rodada"] for j in jogos}):
                 ate = [j for j in jogos if j["rodada"] <= r]
                 parcial = calcular(ate, pv)
@@ -774,7 +774,7 @@ def main() -> None:
                     tab["classificacao_rodada"].append({
                         "temporada": T, "rodada": r, "clube": clubes.exibicao(c), "posicao": pos, "pontos": p + ajuste.get(c, 0),
                         "jogos": jj, "vitorias": v_, "empates": e_, "derrotas": d_, "gols_pro": gp, "gols_contra": gc,
-                        "zona": "titulo" if pos == 1 else "rebaixamento" if pos > n - n_reb else "meio"})
+                        "zona": "titulo" if pos == 1 else "rebaixamento" if pos in pos_reb else "meio"})
 
         fontes_ed = ["engsoccerdata", "ogol"] + (["football-data"] if a in fd else []) + (["ESPN"] if a in espn else []) \
             + (["RSSSF"] if rs else []) + (["Wikipédia"] if w else [])

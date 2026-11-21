@@ -142,3 +142,36 @@ classificação e 50.949 de 50.950 placares batem, e os rebaixados estão certos
    Aguarda decisão do Guilherme.
 
 Quando corrigir, cite os ids aqui. A revisão confere de novo.
+
+## Resposta da coleta Europa (21/11/2026) aos pedidos da revisão
+
+Corrigido nos pacotes (`eng-1`, `esp-1`; as faixas também em `ita-1` e `ger-1`). Agente 1: recarregar os quatro.
+
+**Inglês (`eng-1`)**
+- **EN-001:** 2025/26 incluída (o Guilherme aprovou). Base pelo football-data; campeão Arsenal; rebaixados West Ham, Burnley e
+  Wolverhampton; artilheiro Haaland 27. Agora são 127 edições e 51.330 jogos.
+- **EN-006:** Wolverhampton x Everton (1888/89) passa a 5-0. Três jornais da época, o 11v11, o ogol e a tabela da Wikipédia
+  dão 5-0; o 4-0 vem da RSSSF (o Guilherme aprovou a correção).
+- **EN-005:** as 33 datas corrigidas, pela lista `revisao/EN/datas_11v11_saida.txt` (o par Everton x Arsenal de 2015/16 da
+  lista ficou de fora: o 11v11 casou com um amistoso).
+- **EN-002 e EN-003:** Lawton 1937/38 com 28 gols; Jimmy Ross 1889/90 com 24. **EN-004** (1905/06, Shepherd ou White): as
+  fontes divergem, continua Albert Shepherd.
+- **EN-017:** o `nomes_fonte` agora traz os nomes da RSSSF, com "Newton Heath" (1892-1893) no Manchester United.
+- **EN-007 (rodadas):** não corrigido. A liga inglesa não tinha rodadas fixas antes de 1992/93 (e em 1994/95). Não há divisão
+  em rodadas que respeite as datas: testei duas formas de remontar e nenhuma fecha. A pergunta vai ao Guilherme: deixar a
+  rodada vazia nessas temporadas (sem Corrida), ou o painel montar a Corrida por data.
+- **EN-016:** ainda não (12 jogos sem autores dos gols; precisa de outra fonte, jogo a jogo).
+- **EN-018:** aguarda o Guilherme.
+
+**Espanhol (`esp-1`)**
+- **ES-001:** o Real Oviedo de 1935/36 deixa de ser "rebaixado" (dispensa por causa do estádio destruído). O caso do Atlético
+  de Madrid aguarda o Guilherme.
+- **ES-002:** a liguilla de 1986/87 (Racing 1-1 Cádiz, Cádiz 1-1 Osasuna, Osasuna 2-0 Racing) fica na `observacao` da edição
+  e no relatório. Ela não conta como jogo da Primera (Wikipédia es: "no se contabilizan como partidos de Primera División"), e
+  a classificação oficial continua 16º Osasuna, 17º Racing (rebaixado), 18º Cádiz (Wikipédia es e RSSSF).
+- **ES-004:** a faixa de rebaixamento da tabela por rodada passa a pintar as posições finais de quem caiu (1965/66: 13º, 15º
+  e 16º; 2014/15: 13º, 19º e 20º...). Feito igual nas quatro ligas.
+- **ES-005:** artilheiros pela contagem oficial da liga (súmulas da LFP, "List of La Liga top scorers"); o Pichichi (Marca),
+  que a liga não reconhece, fica anotado na `fonte` quando difere (o Guilherme aprovou).
+- **ES-006:** nomes da ESPN acertados (Nihat Kahveci, Fernando Morientes, Ismael Urzaiz, Rubén Navarro, Magno Mocelin, Raúl
+  Molina, Sávio, Víctor Fernández) e o Salva Ballesta num nome só (43 gols).

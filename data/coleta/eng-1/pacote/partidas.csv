@@ -115,7 +115,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1888-0114,1888/89,Liga,,20,1889-01-26,,Bolton,Blackburn,3,2,,,,,,,engsoccerdata + ogol,ogol:378356,,,
 1888-0115,1888/89,Liga,,20,1889-01-26,,Derby County,Stoke City,2,1,,,,,,,engsoccerdata + ogol,ogol:378358,,,
 1888-0116,1888/89,Liga,,20,1889-01-26,,West Bromwich,Aston Villa,3,3,,,,,,,engsoccerdata + ogol,ogol:378359,,,
-1888-0117,1888/89,Liga,,20,1889-01-26,,Wolverhampton,Everton,4,0,,,,,,,engsoccerdata + ogol,ogol:378357,,,
+1888-0117,1888/89,Liga,,20,1889-01-26,,Wolverhampton,Everton,5,0,,,,,,,engsoccerdata + ogol,ogol:378357,,,
 1888-0118,1888/89,Liga,,21,1889-02-04,,Blackburn,Burnley,4,2,,,,,,,engsoccerdata + ogol,ogol:378360,,,
 1888-0119,1888/89,Liga,,21,1889-02-09,,Aston Villa,Preston,0,2,,,,,,,engsoccerdata + ogol,ogol:378361,,,
 1888-0120,1888/89,Liga,,21,1889-02-09,,Everton,Wolverhampton,1,2,,,,,,,engsoccerdata + ogol,ogol:378362,,,
@@ -1466,8 +1466,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1895-0167,1895/96,Liga,,22,1896-01-25,,Preston,Everton,1,1,,,,,,,engsoccerdata + ogol,ogol:164616,,,
 1895-0168,1895/96,Liga,,22,1896-01-25,,Sunderland,West Bromwich,7,1,,,,,,,engsoccerdata + ogol,ogol:164698,,,
 1895-0169,1895/96,Liga,,23,1896-01-25,,Aston Villa,Nottingham Forest,3,1,,,,,,,engsoccerdata + ogol,ogol:164496,,,
-1895-0170,1895/96,Liga,,22,1896-02-03,,Burnley,Sheffield United,5,0,,,,,,,engsoccerdata + ogol,ogol:164543,,,
-1895-0171,1895/96,Liga,,23,1896-02-03,,Everton,Birmingham,3,0,,,,,,,engsoccerdata + ogol,ogol:164590,,,
+1895-0170,1895/96,Liga,,23,1896-02-03,,Everton,Birmingham,3,0,,,,,,,engsoccerdata + ogol,ogol:164590,,,
+1895-0171,1895/96,Liga,,22,1896-02-04,,Burnley,Sheffield United,5,0,,,,,,,engsoccerdata + ogol,ogol:164543,,,
 1895-0172,1895/96,Liga,,22,1896-02-08,,Birmingham,Sheffield Wednesday,1,1,,,,,,,engsoccerdata + ogol,ogol:164665,,,
 1895-0173,1895/96,Liga,,23,1896-02-08,,Sheffield United,Wolverhampton,2,1,,,,,,,engsoccerdata + ogol,ogol:164639,,,
 1895-0174,1895/96,Liga,,23,1896-02-08,,Sunderland,Nottingham Forest,1,1,,,,,,,engsoccerdata + ogol,ogol:164692,,,
@@ -2482,15 +2482,15 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1899-0157,1899/00,Liga,,18,1899-12-26,,West Bromwich,Everton,0,0,,,,,,,engsoccerdata + ogol,ogol:163675,,,
 1899-0158,1899/00,Liga,,20,1899-12-26,,Stoke City,Burnley,3,0,,,,,,,engsoccerdata + ogol,ogol:163638,,,
 1899-0159,1899/00,Liga,,18,1899-12-27,,Nottingham Forest,Manchester City,2,0,,,,,,,engsoccerdata + ogol,ogol:163576,,,
-1899-0160,1899/00,Liga,,16,1899-12-29,,Manchester City,Blackburn,1,1,,,,,,,engsoccerdata + ogol,ogol:163535,,,
-1899-0161,1899/00,Liga,,17,1899-12-29,,Burnley,Glossop,3,1,,,,,,,engsoccerdata + ogol,ogol:163437,,,
-1899-0162,1899/00,Liga,,18,1899-12-29,,Aston Villa,Sunderland,4,2,,,,,,,engsoccerdata + ogol,ogol:163412,,,
-1899-0163,1899/00,Liga,,18,1899-12-29,,Notts County,Derby County,0,0,,,,,,,engsoccerdata + ogol,ogol:163589,,,
-1899-0164,1899/00,Liga,,18,1899-12-29,,Wolverhampton,Bury,1,0,,,,,,,engsoccerdata + ogol,ogol:163690,,,
-1899-0165,1899/00,Liga,,19,1899-12-29,,Newcastle,West Bromwich,4,2,,,,,,,engsoccerdata + ogol,ogol:163566,,,
-1899-0166,1899/00,Liga,,19,1899-12-29,,Preston,Nottingham Forest,3,0,,,,,,,engsoccerdata + ogol,ogol:163612,,,
-1899-0167,1899/00,Liga,,19,1899-12-29,,Sheffield United,Everton,5,0,,,,,,,engsoccerdata + ogol,ogol:163624,,,
-1899-0168,1899/00,Liga,,21,1899-12-29,,Liverpool,Stoke City,0,0,,,,,,,engsoccerdata + ogol,ogol:163530,,,
+1899-0160,1899/00,Liga,,16,1899-12-30,,Manchester City,Blackburn,1,1,,,,,,,engsoccerdata + ogol,ogol:163535,,,
+1899-0161,1899/00,Liga,,17,1899-12-30,,Burnley,Glossop,3,1,,,,,,,engsoccerdata + ogol,ogol:163437,,,
+1899-0162,1899/00,Liga,,18,1899-12-30,,Aston Villa,Sunderland,4,2,,,,,,,engsoccerdata + ogol,ogol:163412,,,
+1899-0163,1899/00,Liga,,18,1899-12-30,,Notts County,Derby County,0,0,,,,,,,engsoccerdata + ogol,ogol:163589,,,
+1899-0164,1899/00,Liga,,18,1899-12-30,,Wolverhampton,Bury,1,0,,,,,,,engsoccerdata + ogol,ogol:163690,,,
+1899-0165,1899/00,Liga,,19,1899-12-30,,Newcastle,West Bromwich,4,2,,,,,,,engsoccerdata + ogol,ogol:163566,,,
+1899-0166,1899/00,Liga,,19,1899-12-30,,Preston,Nottingham Forest,3,0,,,,,,,engsoccerdata + ogol,ogol:163612,,,
+1899-0167,1899/00,Liga,,19,1899-12-30,,Sheffield United,Everton,5,0,,,,,,,engsoccerdata + ogol,ogol:163624,,,
+1899-0168,1899/00,Liga,,21,1899-12-30,,Liverpool,Stoke City,0,0,,,,,,,engsoccerdata + ogol,ogol:163530,,,
 1899-0169,1899/00,Liga,,17,1900-01-01,,Blackburn,Burnley,2,0,,,,,,,engsoccerdata + ogol,ogol:163416,,,
 1899-0170,1899/00,Liga,,19,1900-01-01,,Bury,Aston Villa,2,0,,,,,,,engsoccerdata + ogol,ogol:163449,,,
 1899-0171,1899/00,Liga,,19,1900-01-01,,Sunderland,Wolverhampton,1,2,,,,,,,engsoccerdata + ogol,ogol:163669,,,
@@ -15043,9 +15043,9 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1934-0152,1934/35,Liga,,14,1934-11-10,,Sunderland,Manchester City,3,2,,,,,,,engsoccerdata + ogol,ogol:406177,,,
 1934-0153,1934/35,Liga,,14,1934-11-10,,Tottenham,Middlesbrough,3,1,,,,,,,engsoccerdata + ogol,ogol:406176,,,
 1934-0154,1934/35,Liga,,14,1934-11-10,,Wolverhampton,Leeds,1,2,,,,,,,engsoccerdata + ogol,ogol:406185,,,
-1934-0155,1934/35,Liga,,15,1934-11-12,,Blackburn,Chelsea,1,2,,,,,,,engsoccerdata + ogol,ogol:406186,,,
-1934-0156,1934/35,Liga,,15,1934-11-17,,Arsenal,Aston Villa,1,2,,,,,,,engsoccerdata + ogol,ogol:406195,,,
-1934-0157,1934/35,Liga,,15,1934-11-17,,Birmingham,Grimsby,3,2,,,,,,,engsoccerdata + ogol,ogol:406194,,,
+1934-0155,1934/35,Liga,,15,1934-11-17,,Arsenal,Aston Villa,1,2,,,,,,,engsoccerdata + ogol,ogol:406195,,,
+1934-0156,1934/35,Liga,,15,1934-11-17,,Birmingham,Grimsby,3,2,,,,,,,engsoccerdata + ogol,ogol:406194,,,
+1934-0157,1934/35,Liga,,15,1934-11-17,,Blackburn,Chelsea,1,2,,,,,,,engsoccerdata + ogol,ogol:406186,,,
 1934-0158,1934/35,Liga,,15,1934-11-17,,Leeds,Sunderland,2,4,,,,,,,engsoccerdata + ogol,ogol:406193,,,
 1934-0159,1934/35,Liga,,15,1934-11-17,,Liverpool,Leicester,5,1,,,,,,,engsoccerdata + ogol,ogol:406192,,,
 1934-0160,1934/35,Liga,,15,1934-11-17,,Manchester City,Huddersfield,0,0,,,,,,,engsoccerdata + ogol,ogol:406191,,,
@@ -15902,34 +15902,34 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1936-0087,1936/37,Liga,,8,1936-10-03,,Sheffield Wednesday,Preston,0,1,,,,,,,engsoccerdata + ogol,ogol:150125,,,
 1936-0088,1936/37,Liga,,8,1936-10-03,,Sunderland,Everton,3,1,,,,,,,engsoccerdata + ogol,ogol:150158,,,
 1936-0089,1936/37,Liga,,9,1936-10-03,,Chelsea,Portsmouth,1,1,,,,,,,engsoccerdata + ogol,ogol:149871,,,
-1936-0090,1936/37,Liga,,9,1936-10-03,,Grimsby,Middlesbrough,5,1,,,,,,,engsoccerdata + ogol,ogol:149933,,,
-1936-0091,1936/37,Liga,,9,1936-10-03,,Huddersfield,Leeds,3,0,,,,,,,engsoccerdata + ogol,ogol:149950,,,
-1936-0092,1936/37,Liga,,9,1936-10-03,,Liverpool,Birmingham,2,0,,,,,,,engsoccerdata + ogol,ogol:149984,,,
-1936-0093,1936/37,Liga,,9,1936-10-03,,Stoke City,Manchester City,2,2,,,,,,,engsoccerdata + ogol,ogol:150142,,,
-1936-0094,1936/37,Liga,,9,1936-10-03,,Wolverhampton,Bolton,2,3,,,,,,,engsoccerdata + ogol,ogol:150195,,,
-1936-0095,1936/37,Liga,,9,1936-10-10,,Arsenal,Sheffield Wednesday,1,1,,,,,,,engsoccerdata + ogol,ogol:149768,,,
-1936-0096,1936/37,Liga,,9,1936-10-10,,Bolton,Derby County,1,3,,,,,,,engsoccerdata + ogol,ogol:149799,,,
-1936-0097,1936/37,Liga,,9,1936-10-10,,Preston,Chelsea,1,0,,,,,,,engsoccerdata + ogol,ogol:150093,,,
-1936-0098,1936/37,Liga,,10,1936-10-10,,Birmingham,Leeds,2,1,,,,,,,engsoccerdata + ogol,ogol:149782,,,
-1936-0099,1936/37,Liga,,10,1936-10-10,,Brentford,Manchester United,4,0,,,,,,,engsoccerdata + ogol,ogol:149827,,,
-1936-0100,1936/37,Liga,,10,1936-10-10,,Everton,Wolverhampton,1,0,,,,,,,engsoccerdata + ogol,ogol:149919,,,
-1936-0101,1936/37,Liga,,10,1936-10-10,,Huddersfield,Sunderland,2,1,,,,,,,engsoccerdata + ogol,ogol:149959,,,
-1936-0102,1936/37,Liga,,10,1936-10-10,,Manchester City,Charlton,1,1,,,,,,,engsoccerdata + ogol,ogol:150008,,,
-1936-0103,1936/37,Liga,,10,1936-10-10,,Middlesbrough,Liverpool,3,3,,,,,,,engsoccerdata + ogol,ogol:150057,,,
-1936-0104,1936/37,Liga,,10,1936-10-10,,Portsmouth,Stoke City,1,0,,,,,,,engsoccerdata + ogol,ogol:150084,,,
-1936-0105,1936/37,Liga,,10,1936-10-10,,West Bromwich,Grimsby,4,2,,,,,,,engsoccerdata + ogol,ogol:150180,,,
-1936-0106,1936/37,Liga,,10,1936-10-17,,Charlton,Arsenal,0,2,,,,,,,engsoccerdata + ogol,ogol:149836,,,
-1936-0107,1936/37,Liga,,10,1936-10-17,,Middlesbrough,Sunderland,5,5,,,,,,,engsoccerdata + ogol,ogol:150064,,,
-1936-0108,1936/37,Liga,,10,1936-10-17,,Portsmouth,Manchester United,2,1,,,,,,,engsoccerdata + ogol,ogol:150080,,,
-1936-0109,1936/37,Liga,,10,1936-10-17,,Stoke City,Preston,0,2,,,,,,,engsoccerdata + ogol,ogol:150146,,,
-1936-0110,1936/37,Liga,,10,1936-10-17,,West Bromwich,Wolverhampton,2,1,,,,,,,engsoccerdata + ogol,ogol:150192,,,
-1936-0111,1936/37,Liga,,11,1936-10-17,,Birmingham,Huddersfield,4,2,,,,,,,engsoccerdata + ogol,ogol:149781,,,
-1936-0112,1936/37,Liga,,11,1936-10-17,,Chelsea,Sheffield Wednesday,1,1,,,,,,,engsoccerdata + ogol,ogol:149873,,,
-1936-0113,1936/37,Liga,,11,1936-10-17,,Grimsby,Brentford,2,0,,,,,,,engsoccerdata + ogol,ogol:149923,,,
-1936-0114,1936/37,Liga,,11,1936-10-17,,Leeds,Everton,3,0,,,,,,,engsoccerdata + ogol,ogol:149969,,,
-1936-0115,1936/37,Liga,,11,1936-10-17,,Liverpool,Bolton,0,0,,,,,,,engsoccerdata + ogol,ogol:149985,,,
-1936-0116,1936/37,Liga,,11,1936-10-17,,Manchester City,Derby County,3,2,,,,,,,engsoccerdata + ogol,ogol:150010,,,
-1936-0117,1936/37,Liga,,9,1936-10-23,,Derby County,Brentford,2,3,,,,,,,engsoccerdata + ogol,ogol:149881,,,
+1936-0090,1936/37,Liga,,9,1936-10-03,,Derby County,Brentford,2,3,,,,,,,engsoccerdata + ogol,ogol:149881,,,
+1936-0091,1936/37,Liga,,9,1936-10-03,,Grimsby,Middlesbrough,5,1,,,,,,,engsoccerdata + ogol,ogol:149933,,,
+1936-0092,1936/37,Liga,,9,1936-10-03,,Huddersfield,Leeds,3,0,,,,,,,engsoccerdata + ogol,ogol:149950,,,
+1936-0093,1936/37,Liga,,9,1936-10-03,,Liverpool,Birmingham,2,0,,,,,,,engsoccerdata + ogol,ogol:149984,,,
+1936-0094,1936/37,Liga,,9,1936-10-03,,Stoke City,Manchester City,2,2,,,,,,,engsoccerdata + ogol,ogol:150142,,,
+1936-0095,1936/37,Liga,,9,1936-10-03,,Wolverhampton,Bolton,2,3,,,,,,,engsoccerdata + ogol,ogol:150195,,,
+1936-0096,1936/37,Liga,,9,1936-10-10,,Arsenal,Sheffield Wednesday,1,1,,,,,,,engsoccerdata + ogol,ogol:149768,,,
+1936-0097,1936/37,Liga,,9,1936-10-10,,Bolton,Derby County,1,3,,,,,,,engsoccerdata + ogol,ogol:149799,,,
+1936-0098,1936/37,Liga,,9,1936-10-10,,Preston,Chelsea,1,0,,,,,,,engsoccerdata + ogol,ogol:150093,,,
+1936-0099,1936/37,Liga,,10,1936-10-10,,Birmingham,Leeds,2,1,,,,,,,engsoccerdata + ogol,ogol:149782,,,
+1936-0100,1936/37,Liga,,10,1936-10-10,,Brentford,Manchester United,4,0,,,,,,,engsoccerdata + ogol,ogol:149827,,,
+1936-0101,1936/37,Liga,,10,1936-10-10,,Everton,Wolverhampton,1,0,,,,,,,engsoccerdata + ogol,ogol:149919,,,
+1936-0102,1936/37,Liga,,10,1936-10-10,,Huddersfield,Sunderland,2,1,,,,,,,engsoccerdata + ogol,ogol:149959,,,
+1936-0103,1936/37,Liga,,10,1936-10-10,,Manchester City,Charlton,1,1,,,,,,,engsoccerdata + ogol,ogol:150008,,,
+1936-0104,1936/37,Liga,,10,1936-10-10,,Middlesbrough,Liverpool,3,3,,,,,,,engsoccerdata + ogol,ogol:150057,,,
+1936-0105,1936/37,Liga,,10,1936-10-10,,Portsmouth,Stoke City,1,0,,,,,,,engsoccerdata + ogol,ogol:150084,,,
+1936-0106,1936/37,Liga,,10,1936-10-10,,West Bromwich,Grimsby,4,2,,,,,,,engsoccerdata + ogol,ogol:150180,,,
+1936-0107,1936/37,Liga,,10,1936-10-17,,Charlton,Arsenal,0,2,,,,,,,engsoccerdata + ogol,ogol:149836,,,
+1936-0108,1936/37,Liga,,10,1936-10-17,,Middlesbrough,Sunderland,5,5,,,,,,,engsoccerdata + ogol,ogol:150064,,,
+1936-0109,1936/37,Liga,,10,1936-10-17,,Portsmouth,Manchester United,2,1,,,,,,,engsoccerdata + ogol,ogol:150080,,,
+1936-0110,1936/37,Liga,,10,1936-10-17,,Stoke City,Preston,0,2,,,,,,,engsoccerdata + ogol,ogol:150146,,,
+1936-0111,1936/37,Liga,,10,1936-10-17,,West Bromwich,Wolverhampton,2,1,,,,,,,engsoccerdata + ogol,ogol:150192,,,
+1936-0112,1936/37,Liga,,11,1936-10-17,,Birmingham,Huddersfield,4,2,,,,,,,engsoccerdata + ogol,ogol:149781,,,
+1936-0113,1936/37,Liga,,11,1936-10-17,,Chelsea,Sheffield Wednesday,1,1,,,,,,,engsoccerdata + ogol,ogol:149873,,,
+1936-0114,1936/37,Liga,,11,1936-10-17,,Grimsby,Brentford,2,0,,,,,,,engsoccerdata + ogol,ogol:149923,,,
+1936-0115,1936/37,Liga,,11,1936-10-17,,Leeds,Everton,3,0,,,,,,,engsoccerdata + ogol,ogol:149969,,,
+1936-0116,1936/37,Liga,,11,1936-10-17,,Liverpool,Bolton,0,0,,,,,,,engsoccerdata + ogol,ogol:149985,,,
+1936-0117,1936/37,Liga,,11,1936-10-17,,Manchester City,Derby County,3,2,,,,,,,engsoccerdata + ogol,ogol:150010,,,
 1936-0118,1936/37,Liga,,11,1936-10-24,,Arsenal,Grimsby,0,0,,,,,,,engsoccerdata + ogol,ogol:149759,,,
 1936-0119,1936/37,Liga,,11,1936-10-24,,Huddersfield,Middlesbrough,2,0,,,,,,,engsoccerdata + ogol,ogol:149954,,,
 1936-0120,1936/37,Liga,,11,1936-10-24,,Manchester United,Chelsea,0,0,,,,,,,engsoccerdata + ogol,ogol:150030,,,
@@ -15952,20 +15952,20 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1936-0137,1936/37,Liga,,13,1936-10-31,,Leeds,Brentford,3,1,,,,,,,engsoccerdata + ogol,ogol:149965,,,
 1936-0138,1936/37,Liga,,13,1936-10-31,,Manchester City,Sunderland,2,4,,,,,,,engsoccerdata + ogol,ogol:150022,,,
 1936-0139,1936/37,Liga,,13,1936-10-31,,Portsmouth,Wolverhampton,1,1,,,,,,,engsoccerdata + ogol,ogol:150087,,,
-1936-0140,1936/37,Liga,,14,1936-11-03,,West Bromwich,Bolton,0,2,,,,,,,engsoccerdata + ogol,ogol:150174,,,
-1936-0141,1936/37,Liga,,13,1936-11-07,,Arsenal,Leeds,4,1,,,,,,,engsoccerdata + ogol,ogol:149761,,,
-1936-0142,1936/37,Liga,,13,1936-11-07,,Bolton,Middlesbrough,1,3,,,,,,,engsoccerdata + ogol,ogol:149807,,,
-1936-0143,1936/37,Liga,,13,1936-11-07,,Everton,West Bromwich,4,2,,,,,,,engsoccerdata + ogol,ogol:149918,,,
-1936-0144,1936/37,Liga,,13,1936-11-07,,Manchester United,Charlton,0,0,,,,,,,engsoccerdata + ogol,ogol:150029,,,
-1936-0145,1936/37,Liga,,14,1936-11-07,,Brentford,Birmingham,2,1,,,,,,,engsoccerdata + ogol,ogol:149816,,,
-1936-0146,1936/37,Liga,,14,1936-11-07,,Derby County,Stoke City,2,2,,,,,,,engsoccerdata + ogol,ogol:149895,,,
-1936-0147,1936/37,Liga,,14,1936-11-07,,Huddersfield,Manchester City,1,1,,,,,,,engsoccerdata + ogol,ogol:149952,,,
-1936-0148,1936/37,Liga,,14,1936-11-07,,Preston,Liverpool,3,1,,,,,,,engsoccerdata + ogol,ogol:150099,,,
-1936-0149,1936/37,Liga,,14,1936-11-07,,Sheffield Wednesday,Grimsby,2,1,,,,,,,engsoccerdata + ogol,ogol:150117,,,
-1936-0150,1936/37,Liga,,14,1936-11-07,,Sunderland,Portsmouth,3,2,,,,,,,engsoccerdata + ogol,ogol:150166,,,
-1936-0151,1936/37,Liga,,14,1936-11-07,,Wolverhampton,Chelsea,1,2,,,,,,,engsoccerdata + ogol,ogol:150198,,,
-1936-0152,1936/37,Liga,,14,1936-11-14,,Birmingham,Arsenal,1,3,,,,,,,engsoccerdata + ogol,ogol:149773,,,
-1936-0153,1936/37,Liga,,14,1936-11-14,,Manchester City,Everton,4,1,,,,,,,engsoccerdata + ogol,ogol:150011,,,
+1936-0140,1936/37,Liga,,13,1936-11-07,,Arsenal,Leeds,4,1,,,,,,,engsoccerdata + ogol,ogol:149761,,,
+1936-0141,1936/37,Liga,,13,1936-11-07,,Bolton,Middlesbrough,1,3,,,,,,,engsoccerdata + ogol,ogol:149807,,,
+1936-0142,1936/37,Liga,,13,1936-11-07,,Everton,West Bromwich,4,2,,,,,,,engsoccerdata + ogol,ogol:149918,,,
+1936-0143,1936/37,Liga,,13,1936-11-07,,Manchester United,Charlton,0,0,,,,,,,engsoccerdata + ogol,ogol:150029,,,
+1936-0144,1936/37,Liga,,14,1936-11-07,,Brentford,Birmingham,2,1,,,,,,,engsoccerdata + ogol,ogol:149816,,,
+1936-0145,1936/37,Liga,,14,1936-11-07,,Derby County,Stoke City,2,2,,,,,,,engsoccerdata + ogol,ogol:149895,,,
+1936-0146,1936/37,Liga,,14,1936-11-07,,Huddersfield,Manchester City,1,1,,,,,,,engsoccerdata + ogol,ogol:149952,,,
+1936-0147,1936/37,Liga,,14,1936-11-07,,Preston,Liverpool,3,1,,,,,,,engsoccerdata + ogol,ogol:150099,,,
+1936-0148,1936/37,Liga,,14,1936-11-07,,Sheffield Wednesday,Grimsby,2,1,,,,,,,engsoccerdata + ogol,ogol:150117,,,
+1936-0149,1936/37,Liga,,14,1936-11-07,,Sunderland,Portsmouth,3,2,,,,,,,engsoccerdata + ogol,ogol:150166,,,
+1936-0150,1936/37,Liga,,14,1936-11-07,,Wolverhampton,Chelsea,1,2,,,,,,,engsoccerdata + ogol,ogol:150198,,,
+1936-0151,1936/37,Liga,,14,1936-11-14,,Birmingham,Arsenal,1,3,,,,,,,engsoccerdata + ogol,ogol:149773,,,
+1936-0152,1936/37,Liga,,14,1936-11-14,,Manchester City,Everton,4,1,,,,,,,engsoccerdata + ogol,ogol:150011,,,
+1936-0153,1936/37,Liga,,14,1936-11-14,,West Bromwich,Bolton,0,2,,,,,,,engsoccerdata + ogol,ogol:150174,,,
 1936-0154,1936/37,Liga,,15,1936-11-14,,Charlton,Derby County,2,0,,,,,,,engsoccerdata + ogol,ogol:149841,,,
 1936-0155,1936/37,Liga,,15,1936-11-14,,Chelsea,Sunderland,1,3,,,,,,,engsoccerdata + ogol,ogol:149875,,,
 1936-0156,1936/37,Liga,,15,1936-11-14,,Grimsby,Manchester United,6,2,,,,,,,engsoccerdata + ogol,ogol:149932,,,
@@ -16892,18 +16892,18 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1938-0153,1938/39,Liga,,14,1938-11-12,,Stoke City,Aston Villa,3,1,,,,,,,engsoccerdata + ogol,ogol:403412,,,
 1938-0154,1938/39,Liga,,15,1938-11-12,,Birmingham,Everton,1,0,,,,,,,engsoccerdata + ogol,ogol:403413,,,
 1938-0155,1938/39,Liga,,15,1938-11-12,,Charlton,Derby County,1,0,,,,,,,engsoccerdata + ogol,ogol:403414,,,
-1938-0156,1938/39,Liga,,15,1938-11-19,,Arsenal,Leicester,0,0,,,,,,,engsoccerdata + ogol,ogol:403424,,,
-1938-0157,1938/39,Liga,,15,1938-11-19,,Aston Villa,Chelsea,6,2,,,,,,,engsoccerdata + ogol,ogol:403423,,,
-1938-0158,1938/39,Liga,,15,1938-11-19,,Blackpool,Leeds,1,2,,,,,,,engsoccerdata + ogol,ogol:403422,,,
-1938-0159,1938/39,Liga,,15,1938-11-19,,Brentford,Liverpool,2,1,,,,,,,engsoccerdata + ogol,ogol:403421,,,
-1938-0160,1938/39,Liga,,15,1938-11-19,,Derby County,Bolton,3,0,,,,,,,engsoccerdata + ogol,ogol:403420,,,
-1938-0161,1938/39,Liga,,15,1938-11-19,,Everton,Manchester United,3,0,,,,,,,engsoccerdata + ogol,ogol:403419,,,
-1938-0162,1938/39,Liga,,15,1938-11-19,,Grimsby,Charlton,1,1,,,,,,,engsoccerdata + ogol,ogol:403418,,,
-1938-0163,1938/39,Liga,,15,1938-11-19,,Portsmouth,Middlesbrough,1,1,,,,,,,engsoccerdata + ogol,ogol:403417,,,
-1938-0164,1938/39,Liga,,15,1938-11-19,,Sunderland,Preston,1,2,,,,,,,engsoccerdata + ogol,ogol:403416,,,
-1938-0165,1938/39,Liga,,15,1938-11-19,,Wolverhampton,Stoke City,3,0,,,,,,,engsoccerdata + ogol,ogol:403425,,,
-1938-0166,1938/39,Liga,,16,1938-11-19,,Huddersfield,Birmingham,3,1,,,,,,,engsoccerdata + ogol,ogol:403426,,,
-1938-0167,1938/39,Liga,,15,1938-11-21,,Leicester,Portsmouth,5,0,,,,,,,engsoccerdata + ogol,ogol:403415,,,
+1938-0156,1938/39,Liga,,15,1938-11-12,,Leicester,Portsmouth,5,0,,,,,,,engsoccerdata + ogol,ogol:403415,,,
+1938-0157,1938/39,Liga,,15,1938-11-19,,Arsenal,Leicester,0,0,,,,,,,engsoccerdata + ogol,ogol:403424,,,
+1938-0158,1938/39,Liga,,15,1938-11-19,,Aston Villa,Chelsea,6,2,,,,,,,engsoccerdata + ogol,ogol:403423,,,
+1938-0159,1938/39,Liga,,15,1938-11-19,,Blackpool,Leeds,1,2,,,,,,,engsoccerdata + ogol,ogol:403422,,,
+1938-0160,1938/39,Liga,,15,1938-11-19,,Brentford,Liverpool,2,1,,,,,,,engsoccerdata + ogol,ogol:403421,,,
+1938-0161,1938/39,Liga,,15,1938-11-19,,Derby County,Bolton,3,0,,,,,,,engsoccerdata + ogol,ogol:403420,,,
+1938-0162,1938/39,Liga,,15,1938-11-19,,Everton,Manchester United,3,0,,,,,,,engsoccerdata + ogol,ogol:403419,,,
+1938-0163,1938/39,Liga,,15,1938-11-19,,Grimsby,Charlton,1,1,,,,,,,engsoccerdata + ogol,ogol:403418,,,
+1938-0164,1938/39,Liga,,15,1938-11-19,,Portsmouth,Middlesbrough,1,1,,,,,,,engsoccerdata + ogol,ogol:403417,,,
+1938-0165,1938/39,Liga,,15,1938-11-19,,Sunderland,Preston,1,2,,,,,,,engsoccerdata + ogol,ogol:403416,,,
+1938-0166,1938/39,Liga,,15,1938-11-19,,Wolverhampton,Stoke City,3,0,,,,,,,engsoccerdata + ogol,ogol:403425,,,
+1938-0167,1938/39,Liga,,16,1938-11-19,,Huddersfield,Birmingham,3,1,,,,,,,engsoccerdata + ogol,ogol:403426,,,
 1938-0168,1938/39,Liga,,16,1938-11-26,,Bolton,Grimsby,1,1,,,,,,,engsoccerdata + ogol,ogol:403434,,,
 1938-0169,1938/39,Liga,,16,1938-11-26,,Charlton,Sunderland,3,0,,,,,,,engsoccerdata + ogol,ogol:403433,,,
 1938-0170,1938/39,Liga,,16,1938-11-26,,Chelsea,Wolverhampton,1,3,,,,,,,engsoccerdata + ogol,ogol:403432,,,
@@ -16960,14 +16960,14 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1938-0221,1938/39,Liga,,21,1938-12-24,,Sunderland,Birmingham,1,0,,,,,,,engsoccerdata + ogol,ogol:403480,,,
 1938-0222,1938/39,Liga,,21,1938-12-24,,Wolverhampton,Derby County,0,0,,,,,,,engsoccerdata + ogol,ogol:403481,,,
 1938-0223,1938/39,Liga,,21,1938-12-26,,Blackpool,Huddersfield,1,1,,,,,,,engsoccerdata + ogol,ogol:403487,,,
-1938-0224,1938/39,Liga,,21,1938-12-26,,Charlton,Arsenal,1,0,,,,,,,engsoccerdata + ogol,ogol:403486,,,
-1938-0225,1938/39,Liga,,21,1938-12-26,,Grimsby,Wolverhampton,2,4,,,,,,,engsoccerdata + ogol,ogol:403485,,,
-1938-0226,1938/39,Liga,,21,1938-12-26,,Leeds,Chelsea,1,1,,,,,,,engsoccerdata + ogol,ogol:403484,,,
-1938-0227,1938/39,Liga,,21,1938-12-26,,Stoke City,Liverpool,3,1,,,,,,,engsoccerdata + ogol,ogol:403483,,,
-1938-0228,1938/39,Liga,,21,1938-12-26,,Sunderland,Aston Villa,1,5,,,,,,,engsoccerdata + ogol,ogol:403482,,,
-1938-0229,1938/39,Liga,,22,1938-12-26,,Birmingham,Middlesbrough,2,1,,,,,,,engsoccerdata + ogol,ogol:403490,,,
-1938-0230,1938/39,Liga,,22,1938-12-26,,Everton,Derby County,2,2,,,,,,,engsoccerdata + ogol,ogol:403491,,,
-1938-0231,1938/39,Liga,,22,1938-12-26,,Manchester United,Leicester,3,0,,,,,,,engsoccerdata + ogol,ogol:403492,,,
+1938-0224,1938/39,Liga,,21,1938-12-26,,Grimsby,Wolverhampton,2,4,,,,,,,engsoccerdata + ogol,ogol:403485,,,
+1938-0225,1938/39,Liga,,21,1938-12-26,,Leeds,Chelsea,1,1,,,,,,,engsoccerdata + ogol,ogol:403484,,,
+1938-0226,1938/39,Liga,,21,1938-12-26,,Stoke City,Liverpool,3,1,,,,,,,engsoccerdata + ogol,ogol:403483,,,
+1938-0227,1938/39,Liga,,21,1938-12-26,,Sunderland,Aston Villa,1,5,,,,,,,engsoccerdata + ogol,ogol:403482,,,
+1938-0228,1938/39,Liga,,22,1938-12-26,,Birmingham,Middlesbrough,2,1,,,,,,,engsoccerdata + ogol,ogol:403490,,,
+1938-0229,1938/39,Liga,,22,1938-12-26,,Everton,Derby County,2,2,,,,,,,engsoccerdata + ogol,ogol:403491,,,
+1938-0230,1938/39,Liga,,22,1938-12-26,,Manchester United,Leicester,3,0,,,,,,,engsoccerdata + ogol,ogol:403492,,,
+1938-0231,1938/39,Liga,,21,1938-12-27,,Charlton,Arsenal,1,0,,,,,,,engsoccerdata + ogol,ogol:403486,,,
 1938-0232,1938/39,Liga,,21,1938-12-27,,Portsmouth,Brentford,2,2,,,,,,,engsoccerdata + ogol,ogol:403488,,,
 1938-0233,1938/39,Liga,,21,1938-12-27,,Preston,Bolton,2,2,,,,,,,engsoccerdata + ogol,ogol:403489,,,
 1938-0234,1938/39,Liga,,22,1938-12-27,,Aston Villa,Sunderland,1,1,,,,,,,engsoccerdata + ogol,ogol:403497,,,
@@ -38937,8 +38937,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1993-0310,1993/94,Liga,,30,1994-02-19,,Swindon,Norwich,3,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108278,,,
 1993-0311,1993/94,Liga,,19,1994-02-22,,Norwich,Blackburn,2,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108058,,,
 1993-0312,1993/94,Liga,,22,1994-02-22,,Aston Villa,Manchester City,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108029,,,
-1993-0313,1993/94,Liga,,19,1994-02-23,,Newcastle,Coventry,4,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107877,,,
-1993-0314,1993/94,Liga,,30,1994-02-26,,Ipswich,Sheffield United,3,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108222,,,
+1993-0313,1993/94,Liga,,30,1994-02-22,,Ipswich,Sheffield United,3,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108222,,,
+1993-0314,1993/94,Liga,,19,1994-02-23,,Newcastle,Coventry,4,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107877,,,
 1993-0315,1993/94,Liga,,31,1994-02-26,,Arsenal,Blackburn,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107890,,,
 1993-0316,1993/94,Liga,,31,1994-02-26,,Liverpool,Coventry,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107982,,,
 1993-0317,1993/94,Liga,,31,1994-02-26,,Manchester City,Swindon,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108161,,,
@@ -38981,8 +38981,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1993-0354,1993/94,Liga,,34,1994-03-19,,West Ham,Newcastle,2,4,,,,,,,engsoccerdata + ogol + football-data,ogol:108080,,,
 1993-0355,1993/94,Liga,,34,1994-03-20,,Sheffield Wednesday,Blackburn,1,2,,,,,,,engsoccerdata + ogol + football-data,ogol:107953,,,
 1993-0356,1993/94,Liga,,34,1994-03-21,,Norwich,Everton,3,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108072,,,
-1993-0357,1993/94,Liga,,31,1994-03-22,,Newcastle,Ipswich,2,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107885,,,
-1993-0358,1993/94,Liga,,33,1994-03-22,,Arsenal,Manchester United,2,2,,,,,,,engsoccerdata + ogol + football-data,ogol:107889,,,
+1993-0357,1993/94,Liga,,33,1994-03-22,,Arsenal,Manchester United,2,2,,,,,,,engsoccerdata + ogol + football-data,ogol:107889,,,
+1993-0358,1993/94,Liga,,31,1994-03-23,,Newcastle,Ipswich,2,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107885,,,
 1993-0359,1993/94,Liga,,35,1994-03-26,,Arsenal,Liverpool,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107895,,,
 1993-0360,1993/94,Liga,,35,1994-03-26,,Blackburn,Swindon,3,1,,,,,,,engsoccerdata + ogol + football-data,ogol:107867,,,
 1993-0361,1993/94,Liga,,35,1994-03-26,,Chelsea,West Ham,2,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108111,,,
@@ -38991,7 +38991,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1993-0364,1993/94,Liga,,35,1994-03-26,,Ipswich,QPR,1,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108212,,,
 1993-0365,1993/94,Liga,,35,1994-03-26,,Oldham,Manchester City,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108261,,,
 1993-0366,1993/94,Liga,,35,1994-03-26,,Sheffield United,Southampton,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108242,,,
-1993-0367,1993/94,Liga,,35,1994-03-27,,Wimbledon,Leeds,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107935,,,
+1993-0367,1993/94,Liga,,35,1994-03-26,,Wimbledon,Leeds,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:107935,,,
 1993-0368,1993/94,Liga,,28,1994-03-28,,Sheffield United,West Ham,3,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108237,,,
 1993-0369,1993/94,Liga,,25,1994-03-29,,Ipswich,Manchester City,2,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108219,,,
 1993-0370,1993/94,Liga,,25,1994-03-29,,Wimbledon,Blackburn,4,1,,,,,,,engsoccerdata + ogol + football-data,ogol:107932,,,
@@ -39272,8 +39272,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1994-0183,1994/95,Liga,,17,1994-12-03,,Southampton,Chelsea,0,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108486,,,
 1994-0184,1994/95,Liga,,17,1994-12-03,,Tottenham,Newcastle,4,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108419,,,
 1994-0185,1994/95,Liga,,17,1994-12-03,,Wimbledon,Blackburn,0,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108456,,,
-1994-0186,1994/95,Liga,,17,1994-12-04,,Everton,Leeds,3,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108586,,,
-1994-0187,1994/95,Liga,,17,1994-12-04,,QPR,West Ham,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108447,,,
+1994-0186,1994/95,Liga,,17,1994-12-04,,QPR,West Ham,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108447,,,
+1994-0187,1994/95,Liga,,17,1994-12-05,,Everton,Leeds,3,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108586,,,
 1994-0188,1994/95,Liga,,18,1994-12-10,,Aston Villa,Everton,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108659,,,
 1994-0189,1994/95,Liga,,18,1994-12-10,,Blackburn,Southampton,3,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108296,,,
 1994-0190,1994/95,Liga,,18,1994-12-10,,Leeds,West Ham,2,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108384,,,
@@ -39504,7 +39504,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1994-0415,1994/95,Liga,,38,1995-04-17,,QPR,Crystal Palace,0,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108452,,,
 1994-0416,1994/95,Liga,,38,1995-04-17,,Sheffield Wednesday,Everton,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108553,,,
 1994-0417,1994/95,Liga,,38,1995-04-17,,Tottenham,Norwich,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108432,,,
-1994-0418,1994/95,Liga,,38,1995-04-19,,Blackburn,Crystal Palace,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108305,,,
+1994-0418,1994/95,Liga,,38,1995-04-20,,Blackburn,Crystal Palace,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108305,,,
 1994-0419,1994/95,Liga,,39,1995-04-29,,Arsenal,Tottenham,1,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108525,,,
 1994-0420,1994/95,Liga,,39,1995-04-29,,Chelsea,QPR,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108505,,,
 1994-0421,1994/95,Liga,,39,1995-04-29,,Crystal Palace,Nottingham Forest,1,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108668,,,
@@ -39782,7 +39782,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-0231,1995/96,Liga,,24,1996-01-20,,Southampton,Middlesbrough,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:109065,,,
 1995-0232,1995/96,Liga,,24,1996-01-20,,Wimbledon,QPR,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:109014,,,
 1995-0233,1995/96,Liga,,24,1996-01-21,,Aston Villa,Tottenham,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108813,,,
-1995-0234,1995/96,Liga,,24,1996-01-23,,West Ham,Manchester United,0,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108921,,,
+1995-0234,1995/96,Liga,,24,1996-01-22,,West Ham,Manchester United,0,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108921,,,
 1995-0235,1995/96,Liga,,14,1996-01-31,,Nottingham Forest,Leeds,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108913,,,
 1995-0236,1995/96,Liga,,20,1996-01-31,,Aston Villa,Liverpool,0,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108809,,,
 1995-0237,1995/96,Liga,,20,1996-01-31,,West Ham,Coventry,3,2,,,,,,,engsoccerdata + ogol + football-data,ogol:108935,,,
@@ -39919,16 +39919,16 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-0368,1995/96,Liga,,30,1996-05-01,,Arsenal,Liverpool,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108828,,,
 1995-0369,1995/96,Liga,,27,1996-05-02,,Leeds,Tottenham,1,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108985,,,
 1995-0370,1995/96,Liga,,30,1996-05-02,,Nottingham Forest,Newcastle,1,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108903,,,
-1995-0371,1995/96,Liga,,38,1996-05-04,,Arsenal,Bolton,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108844,,,
-1995-0372,1995/96,Liga,,38,1996-05-04,,Chelsea,Blackburn,2,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108946,,,
-1995-0373,1995/96,Liga,,38,1996-05-04,,Coventry,Leeds,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109047,,,
-1995-0374,1995/96,Liga,,38,1996-05-04,,Everton,Aston Villa,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108848,,,
-1995-0375,1995/96,Liga,,38,1996-05-04,,Manchester City,Liverpool,2,2,,,,,,,engsoccerdata + ogol + football-data,ogol:109075,,,
-1995-0376,1995/96,Liga,,38,1996-05-04,,Middlesbrough,Manchester United,0,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108959,,,
-1995-0377,1995/96,Liga,,38,1996-05-04,,Newcastle,Tottenham,1,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108775,,,
-1995-0378,1995/96,Liga,,38,1996-05-04,,Nottingham Forest,QPR,3,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108919,,,
-1995-0379,1995/96,Liga,,38,1996-05-04,,Southampton,Wimbledon,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109067,,,
-1995-0380,1995/96,Liga,,38,1996-05-04,,West Ham,Sheffield Wednesday,1,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108934,,,
+1995-0371,1995/96,Liga,,38,1996-05-05,,Arsenal,Bolton,2,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108844,,,
+1995-0372,1995/96,Liga,,38,1996-05-05,,Chelsea,Blackburn,2,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108946,,,
+1995-0373,1995/96,Liga,,38,1996-05-05,,Coventry,Leeds,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109047,,,
+1995-0374,1995/96,Liga,,38,1996-05-05,,Everton,Aston Villa,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108848,,,
+1995-0375,1995/96,Liga,,38,1996-05-05,,Manchester City,Liverpool,2,2,,,,,,,engsoccerdata + ogol + football-data,ogol:109075,,,
+1995-0376,1995/96,Liga,,38,1996-05-05,,Middlesbrough,Manchester United,0,3,,,,,,,engsoccerdata + ogol + football-data,ogol:108959,,,
+1995-0377,1995/96,Liga,,38,1996-05-05,,Newcastle,Tottenham,1,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108775,,,
+1995-0378,1995/96,Liga,,38,1996-05-05,,Nottingham Forest,QPR,3,0,,,,,,,engsoccerdata + ogol + football-data,ogol:108919,,,
+1995-0379,1995/96,Liga,,38,1996-05-05,,Southampton,Wimbledon,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109067,,,
+1995-0380,1995/96,Liga,,38,1996-05-05,,West Ham,Sheffield Wednesday,1,1,,,,,,,engsoccerdata + ogol + football-data,ogol:108934,,,
 1996-0001,1996/97,Liga,,1,1996-08-17,,Arsenal,West Ham,2,0,,,,,,,engsoccerdata + ogol + football-data,ogol:458083,,,
 1996-0002,1996/97,Liga,,1,1996-08-17,,Blackburn,Tottenham,0,2,,,,,,,engsoccerdata + ogol + football-data,ogol:458084,,,
 1996-0003,1996/97,Liga,,1,1996-08-17,,Coventry,Nottingham Forest,0,3,,,,,,,engsoccerdata + ogol + football-data,ogol:458085,,,
@@ -40919,7 +40919,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1998-0228,1998/99,Liga,,23,1999-01-30,,Wimbledon,West Ham,0,0,,,,,,,engsoccerdata + ogol + football-data,ogol:377320,,,
 1998-0229,1998/99,Liga,,23,1999-01-31,,Arsenal,Chelsea,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109910,,,
 1998-0230,1998/99,Liga,,23,1999-01-31,,Charlton,Manchester United,0,1,,,,,,,engsoccerdata + ogol + football-data,ogol:110213,,,
-1998-0231,1998/99,Liga,,32,1999-02-02,,Manchester United,Derby County,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109896,,,
+1998-0231,1998/99,Liga,,32,1999-02-03,,Manchester United,Derby County,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109896,,,
 1998-0232,1998/99,Liga,,24,1999-02-06,,Aston Villa,Blackburn,1,3,,,,,,,engsoccerdata + ogol + football-data,ogol:110002,,,
 1998-0233,1998/99,Liga,,24,1999-02-06,,Chelsea,Southampton,1,0,,,,,,,engsoccerdata + ogol + football-data,ogol:109943,,,
 1998-0234,1998/99,Liga,,24,1999-02-06,,Leeds,Newcastle,0,1,,,,,,,engsoccerdata + ogol + football-data,ogol:109958,,,
@@ -47528,7 +47528,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2015-0377,2015/16,Liga,,38,2016-05-15,15:00,Swansea,Manchester City,1,1,,,,Swansea.com Stadium,Swansea,20934,engsoccerdata + ogol + football-data + ESPN,ogol:4497704|espn:422290,,,M Dean
 2015-0378,2015/16,Liga,,38,2016-05-15,15:00,Watford,Sunderland,2,2,,,,Vicarage Road,Watford,21012,engsoccerdata + ogol + football-data + ESPN,ogol:4497705|espn:422292,,,K Friend
 2015-0379,2015/16,Liga,,38,2016-05-15,15:00,West Bromwich,Liverpool,1,1,,,,The Hawthorns,West Bromwich,26196,engsoccerdata + ogol + football-data + ESPN,ogol:4497706|espn:422289,,,R Madley
-2015-0380,2015/16,Liga,,38,2016-05-16,,Manchester United,Bournemouth,3,1,,,,Old Trafford,Manchester,74363,engsoccerdata + ogol + football-data + ESPN,ogol:4497700|espn:422286,,,J Moss
+2015-0380,2015/16,Liga,,38,2016-05-17,15:00,Manchester United,Bournemouth,3,1,,,,Old Trafford,Manchester,74363,engsoccerdata + ogol + football-data + ESPN,ogol:4497700|espn:422286,,,J Moss
 2016-0001,2016/17,Liga,,1,2016-08-13,15:00,Burnley,Swansea,0,1,,,,Turf Moor,Burnley,19126,engsoccerdata + ogol + football-data + ESPN,ogol:4969309|espn:451003,,,J Moss
 2016-0002,2016/17,Liga,,1,2016-08-13,15:00,Crystal Palace,West Bromwich,0,1,,,,Selhurst Park,London,24490,engsoccerdata + ogol + football-data + ESPN,ogol:4969311|espn:451006,,,C Pawson
 2016-0003,2016/17,Liga,,1,2016-08-13,15:00,Everton,Tottenham,1,1,,,,Goodison Park,Liverpool,39494,engsoccerdata + ogol + football-data + ESPN,ogol:4969312|espn:451004,,,M Atkinson
@@ -50949,3 +50949,383 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2024-0378,2024/25,Liga,,38,2025-05-25,16:00,Southampton,Arsenal,1,2,,,,St. Mary's Stadium,Southampton,31289,engsoccerdata + ogol + football-data + ESPN,ogol:10185596|espn:704656,,,D Bond
 2024-0379,2024/25,Liga,,38,2025-05-25,16:00,Tottenham,Brighton,1,4,,,,Tottenham Hotspur Stadium,London,61449,engsoccerdata + ogol + football-data + ESPN,ogol:10185595|espn:704657,,,R Jones
 2024-0380,2024/25,Liga,,38,2025-05-25,16:00,Wolverhampton,Brentford,1,1,,,,Molineux Stadium,Wolverhampton,31382,engsoccerdata + ogol + football-data + ESPN,ogol:10185594|espn:704654,,,C Pawson
+2025-0001,2025/26,Liga,,1,2025-08-15,20:00,Liverpool,Bournemouth,4,2,,,,Anfield,Liverpool,60315,football-data + ogol + football-data + ESPN,ogol:11047504|espn:740596,,,A Taylor
+2025-0002,2025/26,Liga,,1,2025-08-16,12:30,Aston Villa,Newcastle,0,0,,,,Villa Park,Birmingham,42526,football-data + ogol + football-data + ESPN,ogol:11047505|espn:740597,,,C Pawson
+2025-0003,2025/26,Liga,,1,2025-08-16,15:00,Brighton,Fulham,1,1,,,,American Express Stadium,Falmer,31478,football-data + ogol + football-data + ESPN,ogol:11047506|espn:740598,,,S Barrott
+2025-0004,2025/26,Liga,,1,2025-08-16,15:00,Sunderland,West Ham,3,0,,,,Stadium of Light,Sunderland,46233,football-data + ogol + football-data + ESPN,ogol:11047508|espn:740600,,,R Jones
+2025-0005,2025/26,Liga,,1,2025-08-16,15:00,Tottenham,Burnley,3,0,,,,Tottenham Hotspur Stadium,London,61077,football-data + ogol + football-data + ESPN,ogol:11047509|espn:740601,,,M Oliver
+2025-0006,2025/26,Liga,,1,2025-08-16,17:30,Wolverhampton,Manchester City,0,4,,,,Molineux Stadium,Wolverhampton,31118,football-data + ogol + football-data + ESPN,ogol:11047510|espn:740602,,,J Gillett
+2025-0007,2025/26,Liga,,1,2025-08-17,14:00,Chelsea,Crystal Palace,0,0,,,,Stamford Bridge,London,39678,football-data + ogol + football-data + ESPN,ogol:11047511|espn:740603,,,D England
+2025-0008,2025/26,Liga,,1,2025-08-17,16:30,Manchester United,Arsenal,0,1,,,,Old Trafford,Manchester,73475,football-data + ogol + football-data + ESPN,ogol:11047512|espn:740604,,,S Hooper
+2025-0009,2025/26,Liga,,1,2025-08-17,14:00,Nottingham Forest,Brentford,3,1,,,,The City Ground,Nottingham,29949,football-data + ogol + football-data + ESPN,ogol:11047507|espn:740599,,,P Bankes
+2025-0010,2025/26,Liga,,1,2025-08-18,20:00,Leeds,Everton,1,0,,,,Elland Road,Leeds,36820,football-data + ogol + football-data + ESPN,ogol:11047513|espn:740605,,,C Kavanagh
+2025-0011,2025/26,Liga,,2,2025-08-22,20:00,West Ham,Chelsea,1,5,,,,London Stadium,London,62462,football-data + ogol + football-data + ESPN,ogol:11047533|espn:740615,,,M Oliver
+2025-0012,2025/26,Liga,,2,2025-08-23,15:00,Bournemouth,Wolverhampton,1,0,,,,Vitality Stadium,Bournemouth,11070,football-data + ogol + football-data + ESPN,ogol:11047524|espn:740607,,,T Bramall
+2025-0013,2025/26,Liga,,2,2025-08-23,17:30,Arsenal,Leeds,5,0,,,,Emirates Stadium,London,60110,football-data + ogol + football-data + ESPN,ogol:11047525|espn:740606,,,J Gillett
+2025-0014,2025/26,Liga,,2,2025-08-23,15:00,Brentford,Aston Villa,1,0,,,,Gtech Community Stadium,London,16838,football-data + ogol + football-data + ESPN,ogol:11047526|espn:740608,,,T Harrington
+2025-0015,2025/26,Liga,,2,2025-08-23,15:00,Burnley,Sunderland,2,0,,,,Turf Moor,Burnley,21285,football-data + ogol + football-data + ESPN,ogol:11047527|espn:740609,,,M Salisbury
+2025-0016,2025/26,Liga,,2,2025-08-23,12:30,Manchester City,Tottenham,0,2,,,,Etihad Stadium,Manchester,52491,football-data + ogol + football-data + ESPN,ogol:11047531|espn:740613,,,P Bankes
+2025-0017,2025/26,Liga,,2,2025-08-24,14:00,Crystal Palace,Nottingham Forest,1,1,,,,Selhurst Park,London,24876,football-data + ogol + football-data + ESPN,ogol:11047528|espn:740610,,,A Taylor
+2025-0018,2025/26,Liga,,2,2025-08-24,14:00,Everton,Brighton,2,0,,,,Hill Dickinson Stadium,Liverpool,51759,football-data + ogol + football-data + ESPN,ogol:11047529|espn:740611,,,S Attwell
+2025-0019,2025/26,Liga,,2,2025-08-24,16:30,Fulham,Manchester United,1,1,,,,Craven Cottage,London,27512,football-data + ogol + football-data + ESPN,ogol:11047530|espn:740612,,,C Kavanagh
+2025-0020,2025/26,Liga,,2,2025-08-25,20:00,Newcastle,Liverpool,2,3,,,,St. James' Park,Newcastle-upon-Tyne,52230,football-data + ogol + football-data + ESPN,ogol:11047532|espn:740614,,,S Hooper
+2025-0021,2025/26,Liga,,3,2025-08-30,12:30,Chelsea,Fulham,2,0,,,,Stamford Bridge,London,39745,football-data + ogol + football-data + ESPN,ogol:11047516|espn:740618,,,R Jones
+2025-0022,2025/26,Liga,,3,2025-08-30,17:30,Leeds,Newcastle,0,0,,,,Elland Road,Leeds,36727,football-data + ogol + football-data + ESPN,ogol:11047517|espn:740619,,,P Bankes
+2025-0023,2025/26,Liga,,3,2025-08-30,15:00,Manchester United,Burnley,3,2,,,,Old Trafford,Manchester,74257,football-data + ogol + football-data + ESPN,ogol:11047519|espn:740621,,,S Barrott
+2025-0024,2025/26,Liga,,3,2025-08-30,15:00,Sunderland,Brentford,2,1,,,,Stadium of Light,Sunderland,46267,football-data + ogol + football-data + ESPN,ogol:11047521|espn:740623,,,A Taylor
+2025-0025,2025/26,Liga,,3,2025-08-30,15:00,Tottenham,Bournemouth,0,1,,,,Tottenham Hotspur Stadium,London,61250,football-data + ogol + football-data + ESPN,ogol:11047522|espn:740620,,,S Hooper
+2025-0026,2025/26,Liga,,3,2025-08-30,15:00,Wolverhampton,Everton,2,3,,,,Molineux Stadium,Wolverhampton,30271,football-data + ogol + football-data + ESPN,ogol:11047523|espn:740624,,,M Oliver
+2025-0027,2025/26,Liga,,3,2025-08-31,19:00,Aston Villa,Crystal Palace,0,3,,,,Villa Park,Birmingham,41036,football-data + ogol + football-data + ESPN,ogol:11047514|espn:740616,,,S Attwell
+2025-0028,2025/26,Liga,,3,2025-08-31,14:00,Brighton,Manchester City,2,1,,,,American Express Stadium,Falmer,31485,football-data + ogol + football-data + ESPN,ogol:11047515|espn:740617,,,D England
+2025-0029,2025/26,Liga,,3,2025-08-31,16:30,Liverpool,Arsenal,1,0,,,,Anfield,Liverpool,60455,football-data + ogol + football-data + ESPN,ogol:11047518|espn:740625,,,C Kavanagh
+2025-0030,2025/26,Liga,,3,2025-08-31,14:00,Nottingham Forest,West Ham,0,3,,,,The City Ground,Nottingham,30215,football-data + ogol + football-data + ESPN,ogol:11047520|espn:740622,,,C Pawson
+2025-0031,2025/26,Liga,,4,2025-09-13,15:00,Bournemouth,Brighton,2,1,,,,Vitality Stadium,Bournemouth,11167,football-data + ogol + football-data + ESPN,ogol:11047534|espn:740635,,,P Bankes
+2025-0032,2025/26,Liga,,4,2025-09-13,12:30,Arsenal,Nottingham Forest,3,0,,,,Emirates Stadium,London,60167,football-data + ogol + football-data + ESPN,ogol:11047535|espn:740627,,,D England
+2025-0033,2025/26,Liga,,4,2025-09-13,20:00,Brentford,Chelsea,2,2,,,,Gtech Community Stadium,London,16795,football-data + ogol + football-data + ESPN,ogol:11047536|espn:740634,,,S Attwell
+2025-0034,2025/26,Liga,,4,2025-09-13,15:00,Crystal Palace,Sunderland,0,0,,,,Selhurst Park,London,25154,football-data + ogol + football-data + ESPN,ogol:11047538|espn:740628,,,T Bramall
+2025-0035,2025/26,Liga,,4,2025-09-13,15:00,Everton,Aston Villa,0,0,,,,Hill Dickinson Stadium,Liverpool,52114,football-data + ogol + football-data + ESPN,ogol:11047539|espn:740632,,,S Hooper
+2025-0036,2025/26,Liga,,4,2025-09-13,15:00,Fulham,Leeds,1,0,,,,Craven Cottage,London,27327,football-data + ogol + football-data + ESPN,ogol:11047540|espn:740631,,,C Pawson
+2025-0037,2025/26,Liga,,4,2025-09-13,15:00,Newcastle,Wolverhampton,1,0,,,,St. James' Park,Newcastle-upon-Tyne,52145,football-data + ogol + football-data + ESPN,ogol:11047542|espn:740629,,,C Kavanagh
+2025-0038,2025/26,Liga,,4,2025-09-13,17:30,West Ham,Tottenham,0,3,,,,London Stadium,London,62459,football-data + ogol + football-data + ESPN,ogol:11047543|espn:740626,,,J Gillett
+2025-0039,2025/26,Liga,,4,2025-09-14,14:00,Burnley,Liverpool,0,1,,,,Turf Moor,Burnley,21678,football-data + ogol + football-data + ESPN,ogol:11047537|espn:740633,,,M Oliver
+2025-0040,2025/26,Liga,,4,2025-09-14,16:30,Manchester City,Manchester United,3,0,,,,Etihad Stadium,Manchester,52534,football-data + ogol + football-data + ESPN,ogol:11047541|espn:740630,,,A Taylor
+2025-0041,2025/26,Liga,,5,2025-09-20,15:00,Brighton,Tottenham,2,2,,,,American Express Stadium,Falmer,31488,football-data + ogol + football-data + ESPN,ogol:11047546|espn:740636,,,C Kavanagh
+2025-0042,2025/26,Liga,,5,2025-09-20,15:00,Burnley,Nottingham Forest,1,1,,,,Turf Moor,Burnley,21475,football-data + ogol + football-data + ESPN,ogol:11047547|espn:740637,,,T Bramall
+2025-0043,2025/26,Liga,,5,2025-09-20,20:00,Fulham,Brentford,3,1,,,,Craven Cottage,London,26113,football-data + ogol + football-data + ESPN,ogol:11047548|espn:740642,,,M Oliver
+2025-0044,2025/26,Liga,,5,2025-09-20,12:30,Liverpool,Everton,2,1,,,,Anfield,Liverpool,60342,football-data + ogol + football-data + ESPN,ogol:11047549|espn:740641,,,D England
+2025-0045,2025/26,Liga,,5,2025-09-20,17:30,Manchester United,Chelsea,2,1,,,,Old Trafford,Manchester,74124,football-data + ogol + football-data + ESPN,ogol:11047550|espn:740645,,,P Bankes
+2025-0046,2025/26,Liga,,5,2025-09-20,15:00,West Ham,Crystal Palace,1,2,,,,London Stadium,London,62455,football-data + ogol + football-data + ESPN,ogol:11047552|espn:740638,,,T Harrington
+2025-0047,2025/26,Liga,,5,2025-09-20,15:00,Wolverhampton,Leeds,1,3,,,,Molineux Stadium,Wolverhampton,30807,football-data + ogol + football-data + ESPN,ogol:11047553|espn:740640,,,A Taylor
+2025-0048,2025/26,Liga,,5,2025-09-21,14:00,Bournemouth,Newcastle,0,0,,,,Vitality Stadium,Bournemouth,11212,football-data + ogol + football-data + ESPN,ogol:11047544|espn:740644,,,R Jones
+2025-0049,2025/26,Liga,,5,2025-09-21,16:30,Arsenal,Manchester City,1,1,,,,Emirates Stadium,London,60161,football-data + ogol + football-data + ESPN,ogol:11047545|espn:740643,,,S Attwell
+2025-0050,2025/26,Liga,,5,2025-09-21,14:00,Sunderland,Aston Villa,1,1,,,,Stadium of Light,Sunderland,46261,football-data + ogol + football-data + ESPN,ogol:11047551|espn:740639,,,S Barrott
+2025-0051,2025/26,Liga,,6,2025-09-27,12:30,Brentford,Manchester United,3,1,,,,Gtech Community Stadium,London,17193,football-data + ogol + football-data + ESPN,ogol:11047555|espn:740649,,,C Pawson
+2025-0052,2025/26,Liga,,6,2025-09-27,15:00,Chelsea,Brighton,1,3,,,,Stamford Bridge,London,39597,football-data + ogol + football-data + ESPN,ogol:11047556|espn:740648,,,S Hooper
+2025-0053,2025/26,Liga,,6,2025-09-27,15:00,Crystal Palace,Liverpool,2,1,,,,Selhurst Park,London,25118,football-data + ogol + football-data + ESPN,ogol:11047557|espn:740647,,,C Kavanagh
+2025-0054,2025/26,Liga,,6,2025-09-27,15:00,Leeds,Bournemouth,2,2,,,,Elland Road,Leeds,36574,football-data + ogol + football-data + ESPN,ogol:11047559|espn:740655,,,M Oliver
+2025-0055,2025/26,Liga,,6,2025-09-27,15:00,Manchester City,Burnley,5,1,,,,Etihad Stadium,Manchester,52427,football-data + ogol + football-data + ESPN,ogol:11047560|espn:740654,,,R Jones
+2025-0056,2025/26,Liga,,6,2025-09-27,17:30,Nottingham Forest,Sunderland,0,1,,,,The City Ground,Nottingham,30226,football-data + ogol + football-data + ESPN,ogol:11047562|espn:740651,,,T Harrington
+2025-0057,2025/26,Liga,,6,2025-09-27,20:00,Tottenham,Wolverhampton,1,1,,,,Tottenham Hotspur Stadium,London,60537,football-data + ogol + football-data + ESPN,ogol:11047563|espn:740646,,,M Salisbury
+2025-0058,2025/26,Liga,,6,2025-09-28,14:00,Aston Villa,Fulham,3,1,,,,Villa Park,Birmingham,40350,football-data + ogol + football-data + ESPN,ogol:11047554|espn:740650,,,A Madley
+2025-0059,2025/26,Liga,,6,2025-09-28,16:30,Newcastle,Arsenal,1,2,,,,St. James' Park,Newcastle-upon-Tyne,52199,football-data + ogol + football-data + ESPN,ogol:11047561|espn:740653,,,J Gillett
+2025-0060,2025/26,Liga,,6,2025-09-29,20:00,Everton,West Ham,1,1,,,,Hill Dickinson Stadium,Liverpool,51890,football-data + ogol + football-data + ESPN,ogol:11047558|espn:740652,,,S Barrott
+2025-0061,2025/26,Liga,,7,2025-10-03,20:00,Bournemouth,Fulham,3,1,,,,Vitality Stadium,Bournemouth,11165,football-data + ogol + football-data + ESPN,ogol:11047564|espn:740658,,,S Hooper
+2025-0062,2025/26,Liga,,7,2025-10-04,15:00,Arsenal,West Ham,2,0,,,,Emirates Stadium,London,60181,football-data + ogol + football-data + ESPN,ogol:11047565|espn:740656,,,J Brooks
+2025-0063,2025/26,Liga,,7,2025-10-04,17:30,Chelsea,Liverpool,2,1,,,,Stamford Bridge,London,39767,football-data + ogol + football-data + ESPN,ogol:11047568|espn:740660,,,A Taylor
+2025-0064,2025/26,Liga,,7,2025-10-04,12:30,Leeds,Tottenham,1,2,,,,Elland Road,Leeds,36703,football-data + ogol + football-data + ESPN,ogol:11047570|espn:740662,,,T Bramall
+2025-0065,2025/26,Liga,,7,2025-10-04,15:00,Manchester United,Sunderland,2,0,,,,Old Trafford,Manchester,74004,football-data + ogol + football-data + ESPN,ogol:11047571|espn:740663,,,S Attwell
+2025-0066,2025/26,Liga,,7,2025-10-05,14:00,Aston Villa,Burnley,2,1,,,,Villa Park,Birmingham,40308,football-data + ogol + football-data + ESPN,ogol:11047566|espn:740657,,,A Kitchen
+2025-0067,2025/26,Liga,,7,2025-10-05,16:30,Brentford,Manchester City,0,1,,,,Gtech Community Stadium,Brentford,17140,football-data + ogol + football-data + ESPN,ogol:11047567|espn:740659,,,D England
+2025-0068,2025/26,Liga,,7,2025-10-05,14:00,Everton,Crystal Palace,2,1,,,,Hill Dickinson Stadium,Liverpool,51770,football-data + ogol + football-data + ESPN,ogol:11047569|espn:740661,,,M Salisbury
+2025-0069,2025/26,Liga,,7,2025-10-05,14:00,Newcastle,Nottingham Forest,2,0,,,,St. James' Park,Newcastle-upon-Tyne,52189,football-data + ogol + football-data + ESPN,ogol:11047572|espn:740664,,,P Bankes
+2025-0070,2025/26,Liga,,7,2025-10-05,14:00,Wolverhampton,Brighton,1,1,,,,Molineux Stadium,Wolverhampton,29504,football-data + ogol + football-data + ESPN,ogol:11047573|espn:740665,,,J Gillett
+2025-0071,2025/26,Liga,,8,2025-10-18,15:00,Brighton,Newcastle,2,1,,,,American Express Stadium,Falmer,31620,football-data + ogol + football-data + ESPN,ogol:11047574|espn:740666,,,C Pawson
+2025-0072,2025/26,Liga,,8,2025-10-18,15:00,Burnley,Leeds,2,0,,,,Turf Moor,Burnley,21646,football-data + ogol + football-data + ESPN,ogol:11047575|espn:740667,,,T Robinson
+2025-0073,2025/26,Liga,,8,2025-10-18,15:00,Crystal Palace,Bournemouth,3,3,,,,Selhurst Park,London,25125,football-data + ogol + football-data + ESPN,ogol:11047576|espn:740668,,,J Gillett
+2025-0074,2025/26,Liga,,8,2025-10-18,17:30,Fulham,Arsenal,0,1,,,,Craven Cottage,London,27736,football-data + ogol + football-data + ESPN,ogol:11047577|espn:740669,,,A Taylor
+2025-0075,2025/26,Liga,,8,2025-10-18,15:00,Manchester City,Everton,2,0,,,,Etihad Stadium,Manchester,52498,football-data + ogol + football-data + ESPN,ogol:11047579|espn:740671,,,T Harrington
+2025-0076,2025/26,Liga,,8,2025-10-18,12:30,Nottingham Forest,Chelsea,0,3,,,,The City Ground,Nottingham,30495,football-data + ogol + football-data + ESPN,ogol:11047580|espn:740672,,,C Kavanagh
+2025-0077,2025/26,Liga,,8,2025-10-18,15:00,Sunderland,Wolverhampton,2,0,,,,Stadium of Light,Sunderland,46578,football-data + ogol + football-data + ESPN,ogol:11047581|espn:740673,,,R Jones
+2025-0078,2025/26,Liga,,8,2025-10-19,16:30,Liverpool,Manchester United,1,2,,,,Anfield,Liverpool,60337,football-data + ogol + football-data + ESPN,ogol:11047578|espn:740670,,,M Oliver
+2025-0079,2025/26,Liga,,8,2025-10-19,14:00,Tottenham,Aston Villa,1,2,,,,Tottenham Hotspur Stadium,London,61291,football-data + ogol + football-data + ESPN,ogol:11047582|espn:740674,,,S Hooper
+2025-0080,2025/26,Liga,,8,2025-10-20,20:00,West Ham,Brentford,0,2,,,,London Stadium,London,62452,football-data + ogol + football-data + ESPN,ogol:11047583|espn:740675,,,A Madley
+2025-0081,2025/26,Liga,,9,2025-10-24,20:00,Leeds,West Ham,2,1,,,,Elland Road,Leeds,36788,football-data + ogol + football-data + ESPN,ogol:11047600|espn:740682,,,S Attwell
+2025-0082,2025/26,Liga,,9,2025-10-25,20:00,Brentford,Liverpool,3,2,,,,Gtech Community Stadium,London,17214,football-data + ogol + football-data + ESPN,ogol:11047597|espn:740679,,,S Hooper
+2025-0083,2025/26,Liga,,9,2025-10-25,15:00,Chelsea,Sunderland,1,2,,,,Stamford Bridge,London,39489,football-data + ogol + football-data + ESPN,ogol:11047598|espn:740685,,,A Madley
+2025-0084,2025/26,Liga,,9,2025-10-25,17:30,Manchester United,Brighton,4,2,,,,Old Trafford,Manchester,73987,football-data + ogol + football-data + ESPN,ogol:11047601|espn:740683,,,A Taylor
+2025-0085,2025/26,Liga,,9,2025-10-25,15:00,Newcastle,Fulham,2,1,,,,St. James' Park,Newcastle-upon-Tyne,52152,football-data + ogol + football-data + ESPN,ogol:11047602|espn:740680,,,P Bankes
+2025-0086,2025/26,Liga,,9,2025-10-26,14:00,Bournemouth,Nottingham Forest,2,0,,,,Vitality Stadium,Bournemouth,11204,football-data + ogol + football-data + ESPN,ogol:11047594|espn:740678,,,S Barrott
+2025-0087,2025/26,Liga,,9,2025-10-26,14:00,Arsenal,Crystal Palace,1,0,,,,Emirates Stadium,London,60103,football-data + ogol + football-data + ESPN,ogol:11047595|espn:740676,,,T Bramall
+2025-0088,2025/26,Liga,,9,2025-10-26,14:00,Aston Villa,Manchester City,1,0,,,,Villa Park,Birmingham,41988,football-data + ogol + football-data + ESPN,ogol:11047596|espn:740677,,,M Oliver
+2025-0089,2025/26,Liga,,9,2025-10-26,16:30,Everton,Tottenham,0,3,,,,Hill Dickinson Stadium,Liverpool,52501,football-data + ogol + football-data + ESPN,ogol:11047599|espn:740681,,,C Pawson
+2025-0090,2025/26,Liga,,9,2025-10-26,14:00,Wolverhampton,Burnley,2,3,,,,Molineux Stadium,Wolverhampton,29116,football-data + ogol + football-data + ESPN,ogol:11047603|espn:740684,,,T Harrington
+2025-0091,2025/26,Liga,,10,2025-11-01,15:00,Brighton,Leeds,3,0,,,,American Express Stadium,Falmer,31512,football-data + ogol + football-data + ESPN,ogol:11047604|espn:740686,,,M Oliver
+2025-0092,2025/26,Liga,,10,2025-11-01,15:00,Burnley,Arsenal,0,2,,,,Turf Moor,Burnley,21538,football-data + ogol + football-data + ESPN,ogol:11047605|espn:740687,,,C Kavanagh
+2025-0093,2025/26,Liga,,10,2025-11-01,15:00,Crystal Palace,Brentford,2,0,,,,Selhurst Park,London,25083,football-data + ogol + football-data + ESPN,ogol:11047606|espn:740688,,,P Bankes
+2025-0094,2025/26,Liga,,10,2025-11-01,15:00,Fulham,Wolverhampton,3,0,,,,Craven Cottage,London,26413,football-data + ogol + football-data + ESPN,ogol:11047607|espn:740689,,,J Brooks
+2025-0095,2025/26,Liga,,10,2025-11-01,20:00,Liverpool,Aston Villa,2,0,,,,Anfield,Liverpool,60407,football-data + ogol + football-data + ESPN,ogol:11047608|espn:740694,,,S Attwell
+2025-0096,2025/26,Liga,,10,2025-11-01,15:00,Nottingham Forest,Manchester United,2,2,,,,The City Ground,Nottingham,30778,football-data + ogol + football-data + ESPN,ogol:11047610|espn:740692,,,D England
+2025-0097,2025/26,Liga,,10,2025-11-01,17:30,Tottenham,Chelsea,0,1,,,,Tottenham Hotspur Stadium,London,61202,football-data + ogol + football-data + ESPN,ogol:11047612|espn:740690,,,J Gillett
+2025-0098,2025/26,Liga,,10,2025-11-02,16:30,Manchester City,Bournemouth,3,1,,,,Etihad Stadium,Manchester,52387,football-data + ogol + football-data + ESPN,ogol:11047609|espn:740691,,,A Taylor
+2025-0099,2025/26,Liga,,10,2025-11-02,14:00,West Ham,Newcastle,3,1,,,,London Stadium,London,62441,football-data + ogol + football-data + ESPN,ogol:11047613|espn:740695,,,R Jones
+2025-0100,2025/26,Liga,,10,2025-11-03,20:00,Sunderland,Everton,1,1,,,,Stadium of Light,Sunderland,41476,football-data + ogol + football-data + ESPN,ogol:11047611|espn:740693,,,T Bramall
+2025-0101,2025/26,Liga,,11,2025-11-08,20:00,Chelsea,Wolverhampton,3,0,,,,Stamford Bridge,London,39467,football-data + ogol + football-data + ESPN,ogol:11047616|espn:740699,,,A Kitchen
+2025-0102,2025/26,Liga,,11,2025-11-08,15:00,Everton,Fulham,2,0,,,,Hill Dickinson Stadium,Liverpool,52491,football-data + ogol + football-data + ESPN,ogol:11047618|espn:740701,,,A Madley
+2025-0103,2025/26,Liga,,11,2025-11-08,17:30,Sunderland,Arsenal,2,2,,,,Stadium of Light,Sunderland,46799,football-data + ogol + football-data + ESPN,ogol:11047621|espn:740704,,,C Pawson
+2025-0104,2025/26,Liga,,11,2025-11-08,12:30,Tottenham,Manchester United,2,2,,,,Tottenham Hotspur Stadium,London,61210,football-data + ogol + football-data + ESPN,ogol:11047622|espn:740705,,,S Barrott
+2025-0105,2025/26,Liga,,11,2025-11-08,15:00,West Ham,Burnley,3,2,,,,London Stadium,London,62449,football-data + ogol + football-data + ESPN,ogol:11047623|espn:740696,,,M Salisbury
+2025-0106,2025/26,Liga,,11,2025-11-09,14:00,Aston Villa,Bournemouth,4,0,,,,Villa Park,Birmingham,40792,football-data + ogol + football-data + ESPN,ogol:11047614|espn:740697,,,J Brooks
+2025-0107,2025/26,Liga,,11,2025-11-09,14:00,Brentford,Newcastle,3,1,,,,Gtech Community Stadium,London,17207,football-data + ogol + football-data + ESPN,ogol:11047615|espn:740698,,,S Attwell
+2025-0108,2025/26,Liga,,11,2025-11-09,14:00,Crystal Palace,Brighton,0,0,,,,Selhurst Park,London,24326,football-data + ogol + football-data + ESPN,ogol:11047617|espn:740700,,,T Robinson
+2025-0109,2025/26,Liga,,11,2025-11-09,16:30,Manchester City,Liverpool,3,0,,,,Etihad Stadium,Manchester,52511,football-data + ogol + football-data + ESPN,ogol:11047619|espn:740702,,,C Kavanagh
+2025-0110,2025/26,Liga,,11,2025-11-09,14:00,Nottingham Forest,Leeds,3,1,,,,The City Ground,Nottingham,30708,football-data + ogol + football-data + ESPN,ogol:11047620|espn:740703,,,J Gillett
+2025-0111,2025/26,Liga,,12,2025-11-22,15:00,Bournemouth,West Ham,2,2,,,,Vitality Stadium,Bournemouth,11216,football-data + ogol + football-data + ESPN,ogol:11047624|espn:740715,,,T Bramall
+2025-0112,2025/26,Liga,,12,2025-11-22,15:00,Brighton,Brentford,2,1,,,,American Express Stadium,Falmer,31358,football-data + ogol + football-data + ESPN,ogol:11047626|espn:740706,,,C Kavanagh
+2025-0113,2025/26,Liga,,12,2025-11-22,12:30,Burnley,Chelsea,0,2,,,,Turf Moor,Burnley,21499,football-data + ogol + football-data + ESPN,ogol:11047627|espn:740707,,,P Bankes
+2025-0114,2025/26,Liga,,12,2025-11-22,15:00,Fulham,Sunderland,1,0,,,,Craven Cottage,London,27560,football-data + ogol + football-data + ESPN,ogol:11047628|espn:740708,,,D England
+2025-0115,2025/26,Liga,,12,2025-11-22,15:00,Liverpool,Nottingham Forest,0,3,,,,Anfield,Liverpool,60419,football-data + ogol + football-data + ESPN,ogol:11047630|espn:740710,,,A Madley
+2025-0116,2025/26,Liga,,12,2025-11-22,17:30,Newcastle,Manchester City,2,1,,,,St. James' Park,Newcastle-upon-Tyne,52181,football-data + ogol + football-data + ESPN,ogol:11047632|espn:740712,,,S Barrott
+2025-0117,2025/26,Liga,,12,2025-11-22,15:00,Wolverhampton,Crystal Palace,0,2,,,,Molineux Stadium,Wolverhampton,29976,football-data + ogol + football-data + ESPN,ogol:11047633|espn:740713,,,A Taylor
+2025-0118,2025/26,Liga,,12,2025-11-23,16:30,Arsenal,Tottenham,4,1,,,,Emirates Stadium,London,60345,football-data + ogol + football-data + ESPN,ogol:11047625|espn:740714,,,M Oliver
+2025-0119,2025/26,Liga,,12,2025-11-23,14:00,Leeds,Aston Villa,1,2,,,,Elland Road,Leeds,36819,football-data + ogol + football-data + ESPN,ogol:11047629|espn:740709,,,R Jones
+2025-0120,2025/26,Liga,,12,2025-11-24,20:00,Manchester United,Everton,0,1,,,,Old Trafford,Manchester,74158,football-data + ogol + football-data + ESPN,ogol:11047631|espn:740711,,,T Harrington
+2025-0121,2025/26,Liga,,13,2025-11-29,15:00,Brentford,Burnley,3,1,,,,Gtech Community Stadium,Brentford,17176,football-data + ogol + football-data + ESPN,ogol:11047635|espn:740718,,,S Barrott
+2025-0122,2025/26,Liga,,13,2025-11-29,17:30,Everton,Newcastle,1,4,,,,Hill Dickinson Stadium,Liverpool,52244,football-data + ogol + football-data + ESPN,ogol:11047638|espn:740721,,,C Pawson
+2025-0123,2025/26,Liga,,13,2025-11-29,15:00,Manchester City,Leeds,3,2,,,,Etihad Stadium,Manchester,52483,football-data + ogol + football-data + ESPN,ogol:11047639|espn:740717,,,P Bankes
+2025-0124,2025/26,Liga,,13,2025-11-29,15:00,Sunderland,Bournemouth,3,2,,,,Stadium of Light,Sunderland,46973,football-data + ogol + football-data + ESPN,ogol:11047641|espn:740724,,,T Robinson
+2025-0125,2025/26,Liga,,13,2025-11-29,20:00,Tottenham,Fulham,1,2,,,,Tottenham Hotspur Stadium,London,60546,football-data + ogol + football-data + ESPN,ogol:11047642|espn:740720,,,S Attwell
+2025-0126,2025/26,Liga,,13,2025-11-30,14:05,Aston Villa,Wolverhampton,1,0,,,,Villa Park,Birmingham,42139,football-data + ogol + football-data + ESPN,ogol:11047634|espn:740716,,,C Kavanagh
+2025-0127,2025/26,Liga,,13,2025-11-30,16:30,Chelsea,Arsenal,1,1,,,,Stamford Bridge,London,39820,football-data + ogol + football-data + ESPN,ogol:11047636|espn:740719,,,A Taylor
+2025-0128,2025/26,Liga,,13,2025-11-30,12:00,Crystal Palace,Manchester United,1,2,,,,Selhurst Park,London,25189,football-data + ogol + football-data + ESPN,ogol:11047637|espn:740725,,,R Jones
+2025-0129,2025/26,Liga,,13,2025-11-30,14:05,Nottingham Forest,Brighton,0,2,,,,The City Ground,Nottingham,30522,football-data + ogol + football-data + ESPN,ogol:11047640|espn:740723,,,M Oliver
+2025-0130,2025/26,Liga,,13,2025-11-30,14:05,West Ham,Liverpool,0,2,,,,London Stadium,London,62469,football-data + ogol + football-data + ESPN,ogol:11048092|espn:740722,,,D England
+2025-0131,2025/26,Liga,,14,2025-12-02,19:30,Bournemouth,Everton,0,1,,,,Vitality Stadium,Bournemouth,11161,football-data + ogol + football-data + ESPN,ogol:11047592|espn:740733,,,M Salisbury
+2025-0132,2025/26,Liga,,14,2025-12-02,19:30,Fulham,Manchester City,4,5,,,,Craven Cottage,London,26700,football-data + ogol + football-data + ESPN,ogol:11047588|espn:740730,,,C Pawson
+2025-0133,2025/26,Liga,,14,2025-12-02,20:15,Newcastle,Tottenham,2,2,,,,St. James' Park,Newcastle-upon-Tyne,52007,football-data + ogol + football-data + ESPN,ogol:11047591|espn:740729,,,T Bramall
+2025-0134,2025/26,Liga,,14,2025-12-03,19:30,Arsenal,Brentford,2,0,,,,Emirates Stadium,London,60110,football-data + ogol + football-data + ESPN,ogol:11047585|espn:740734,,,T Harrington
+2025-0135,2025/26,Liga,,14,2025-12-03,19:30,Brighton,Aston Villa,3,4,,,,American Express Stadium,Falmer,31180,football-data + ogol + football-data + ESPN,ogol:11047586|espn:740727,,,A Madley
+2025-0136,2025/26,Liga,,14,2025-12-03,19:30,Burnley,Crystal Palace,0,1,,,,Turf Moor,Burnley,19365,football-data + ogol + football-data + ESPN,ogol:11047589|espn:740726,,,T Kirk
+2025-0137,2025/26,Liga,,14,2025-12-03,20:15,Leeds,Chelsea,3,1,,,,Elland Road,Leeds,36767,football-data + ogol + football-data + ESPN,ogol:11047584|espn:740732,,,D England
+2025-0138,2025/26,Liga,,14,2025-12-03,20:15,Liverpool,Sunderland,1,1,,,,Anfield,Liverpool,60414,football-data + ogol + football-data + ESPN,ogol:11047587|espn:740731,,,S Attwell
+2025-0139,2025/26,Liga,,14,2025-12-03,19:30,Wolverhampton,Nottingham Forest,0,1,,,,Molineux Stadium,Wolverhampton,28646,football-data + ogol + football-data + ESPN,ogol:11047593|espn:740728,,,T Robinson
+2025-0140,2025/26,Liga,,14,2025-12-04,20:00,Manchester United,West Ham,1,1,,,,Old Trafford,Manchester,73938,football-data + ogol + football-data + ESPN,ogol:11047590|espn:740735,,,A Kitchen
+2025-0141,2025/26,Liga,,15,2025-12-06,15:00,Bournemouth,Chelsea,0,0,,,,Vitality Stadium,Bournemouth,11240,football-data + ogol + football-data + ESPN,ogol:11047643|espn:740743,,,M Oliver
+2025-0142,2025/26,Liga,,15,2025-12-06,12:30,Aston Villa,Arsenal,2,1,,,,Villa Park,Birmingham,42888,football-data + ogol + football-data + ESPN,ogol:11047644|espn:740745,,,P Bankes
+2025-0143,2025/26,Liga,,15,2025-12-06,15:00,Everton,Nottingham Forest,3,0,,,,Hill Dickinson Stadium,Liverpool,52501,football-data + ogol + football-data + ESPN,ogol:11047646|espn:740739,,,C Kavanagh
+2025-0144,2025/26,Liga,,15,2025-12-06,17:30,Leeds,Liverpool,3,3,,,,Elland Road,Leeds,36842,football-data + ogol + football-data + ESPN,ogol:11047648|espn:740742,,,A Taylor
+2025-0145,2025/26,Liga,,15,2025-12-06,15:00,Manchester City,Sunderland,3,0,,,,Etihad Stadium,Manchester,52436,football-data + ogol + football-data + ESPN,ogol:11047649|espn:740736,,,A Madley
+2025-0146,2025/26,Liga,,15,2025-12-06,15:00,Newcastle,Burnley,2,1,,,,St. James' Park,Newcastle-upon-Tyne,52041,football-data + ogol + football-data + ESPN,ogol:11047650|espn:740741,,,S Attwell
+2025-0147,2025/26,Liga,,15,2025-12-06,15:00,Tottenham,Brentford,2,0,,,,Tottenham Hotspur Stadium,London,60759,football-data + ogol + football-data + ESPN,ogol:11047651|espn:740744,,,R Jones
+2025-0148,2025/26,Liga,,15,2025-12-07,14:00,Brighton,West Ham,1,1,,,,American Express Stadium,Falmer,31293,football-data + ogol + football-data + ESPN,ogol:11047645|espn:740740,,,S Hooper
+2025-0149,2025/26,Liga,,15,2025-12-07,16:30,Fulham,Crystal Palace,1,2,,,,Craven Cottage,London,27283,football-data + ogol + football-data + ESPN,ogol:11047647|espn:740738,,,S Barrott
+2025-0150,2025/26,Liga,,15,2025-12-08,20:00,Wolverhampton,Manchester United,1,4,,,,Molineux Stadium,Wolverhampton,30338,football-data + ogol + football-data + ESPN,ogol:11047652|espn:740737,,,M Salisbury
+2025-0151,2025/26,Liga,,16,2025-12-13,20:00,Arsenal,Wolverhampton,2,1,,,,Emirates Stadium,London,60242,football-data + ogol + football-data + ESPN,ogol:11047653|espn:740746,,,R Jones
+2025-0152,2025/26,Liga,,16,2025-12-13,17:30,Burnley,Fulham,2,3,,,,Turf Moor,Burnley,19739,football-data + ogol + football-data + ESPN,ogol:11047655|espn:740754,,,M Oliver
+2025-0153,2025/26,Liga,,16,2025-12-13,15:00,Chelsea,Everton,2,0,,,,Stamford Bridge,London,39552,football-data + ogol + football-data + ESPN,ogol:11047656|espn:740750,,,T Bramall
+2025-0154,2025/26,Liga,,16,2025-12-13,15:00,Liverpool,Brighton,2,0,,,,Anfield,Liverpool,60429,football-data + ogol + football-data + ESPN,ogol:11047658|espn:740752,,,C Pawson
+2025-0155,2025/26,Liga,,16,2025-12-14,16:30,Brentford,Leeds,1,1,,,,Gtech Community Stadium,Brentford,17159,football-data + ogol + football-data + ESPN,ogol:11047654|espn:740753,,,J Brooks
+2025-0156,2025/26,Liga,,16,2025-12-14,14:00,Crystal Palace,Manchester City,0,3,,,,Selhurst Park,London,25166,football-data + ogol + football-data + ESPN,ogol:11047657|espn:740747,,,D England
+2025-0157,2025/26,Liga,,16,2025-12-14,14:00,Nottingham Forest,Tottenham,3,0,,,,The City Ground,Nottingham,30579,football-data + ogol + football-data + ESPN,ogol:11047660|espn:740755,,,S Barrott
+2025-0158,2025/26,Liga,,16,2025-12-14,14:00,Sunderland,Newcastle,1,0,,,,Stadium of Light,Sunderland,47158,football-data + ogol + football-data + ESPN,ogol:11047661|espn:740749,,,P Bankes
+2025-0159,2025/26,Liga,,16,2025-12-14,14:00,West Ham,Aston Villa,2,3,,,,London Stadium,London,62447,football-data + ogol + football-data + ESPN,ogol:11047662|espn:740748,,,A Taylor
+2025-0160,2025/26,Liga,,16,2025-12-15,20:00,Manchester United,Bournemouth,4,4,,,,Old Trafford,Manchester,73951,football-data + ogol + football-data + ESPN,ogol:11047659|espn:740751,,,S Hooper
+2025-0161,2025/26,Liga,,17,2025-12-20,15:00,Bournemouth,Burnley,1,1,,,,Vitality Stadium,Bournemouth,10762,football-data + ogol + football-data + ESPN,ogol:11047663|espn:740764,,,C Kavanagh
+2025-0162,2025/26,Liga,,17,2025-12-20,15:00,Brighton,Sunderland,0,0,,,,American Express Stadium,Falmer,31426,football-data + ogol + football-data + ESPN,ogol:11047665|espn:740756,,,D England
+2025-0163,2025/26,Liga,,17,2025-12-20,20:00,Everton,Arsenal,0,1,,,,Hill Dickinson Stadium,Liverpool,52513,football-data + ogol + football-data + ESPN,ogol:11047666|espn:740757,,,S Barrott
+2025-0164,2025/26,Liga,,17,2025-12-20,20:00,Leeds,Crystal Palace,4,1,,,,Elland Road,Leeds,36334,football-data + ogol + football-data + ESPN,ogol:11047668|espn:740759,,,T Bramall
+2025-0165,2025/26,Liga,,17,2025-12-20,15:00,Manchester City,West Ham,3,0,,,,Etihad Stadium,Manchester,52454,football-data + ogol + football-data + ESPN,ogol:11047669|espn:740760,,,P Tierney
+2025-0166,2025/26,Liga,,17,2025-12-20,12:30,Newcastle,Chelsea,2,2,,,,St. James' Park,Newcastle-upon-Tyne,52226,football-data + ogol + football-data + ESPN,ogol:11047670|espn:740763,,,A Madley
+2025-0167,2025/26,Liga,,17,2025-12-20,17:30,Tottenham,Liverpool,1,2,,,,Tottenham Hotspur Stadium,London,61138,football-data + ogol + football-data + ESPN,ogol:11047671|espn:740762,,,J Brooks
+2025-0168,2025/26,Liga,,17,2025-12-20,15:00,Wolverhampton,Brentford,0,2,,,,Molineux Stadium,Wolverhampton,27662,football-data + ogol + football-data + ESPN,ogol:11047672|espn:740761,,,M Donohue
+2025-0169,2025/26,Liga,,17,2025-12-21,16:30,Aston Villa,Manchester United,2,1,,,,Villa Park,Birmingham,43157,football-data + ogol + football-data + ESPN,ogol:11047664|espn:740765,,,M Oliver
+2025-0170,2025/26,Liga,,17,2025-12-22,20:00,Fulham,Nottingham Forest,1,0,,,,Craven Cottage,London,27136,football-data + ogol + football-data + ESPN,ogol:11047667|espn:740758,,,A Taylor
+2025-0171,2025/26,Liga,,18,2025-12-26,20:00,Manchester United,Newcastle,1,0,,,,Old Trafford,Manchester,73996,football-data + ogol + football-data + ESPN,ogol:11047679|espn:740769,,,A Taylor
+2025-0172,2025/26,Liga,,18,2025-12-27,15:00,Arsenal,Brighton,2,1,,,,Emirates Stadium,London,60209,football-data + ogol + football-data + ESPN,ogol:11047673|espn:740772,,,J Brooks
+2025-0173,2025/26,Liga,,18,2025-12-27,15:00,Brentford,Bournemouth,4,1,,,,Gtech Community Stadium,London,17152,football-data + ogol + football-data + ESPN,ogol:11047674|espn:740774,,,P Bankes
+2025-0174,2025/26,Liga,,18,2025-12-27,15:00,Burnley,Everton,0,0,,,,Turf Moor,Burnley,21637,football-data + ogol + football-data + ESPN,ogol:11047675|espn:740773,,,C Pawson
+2025-0175,2025/26,Liga,,18,2025-12-27,17:30,Chelsea,Aston Villa,1,2,,,,Stamford Bridge,London,39765,football-data + ogol + football-data + ESPN,ogol:11047676|espn:740766,,,S Attwell
+2025-0176,2025/26,Liga,,18,2025-12-27,15:00,Liverpool,Wolverhampton,2,1,,,,Anfield,Liverpool,60466,football-data + ogol + football-data + ESPN,ogol:11047678|espn:740775,,,S Hooper
+2025-0177,2025/26,Liga,,18,2025-12-27,12:30,Nottingham Forest,Manchester City,1,2,,,,The City Ground,Nottingham,30778,football-data + ogol + football-data + ESPN,ogol:11047680|espn:740770,,,R Jones
+2025-0178,2025/26,Liga,,18,2025-12-27,15:00,West Ham,Fulham,0,1,,,,London Stadium,London,62464,football-data + ogol + football-data + ESPN,ogol:11047682|espn:740768,,,C Kavanagh
+2025-0179,2025/26,Liga,,18,2025-12-28,16:30,Crystal Palace,Tottenham,0,1,,,,Selhurst Park,London,25186,football-data + ogol + football-data + ESPN,ogol:11047677|espn:740771,,,J Gillett
+2025-0180,2025/26,Liga,,18,2025-12-28,14:00,Sunderland,Leeds,1,1,,,,Stadium of Light,Sunderland,46675,football-data + ogol + football-data + ESPN,ogol:11047681|espn:740767,,,T Harrington
+2025-0181,2025/26,Liga,,19,2025-12-30,20:15,Arsenal,Aston Villa,4,1,,,,Emirates Stadium,London,60279,football-data + ogol + football-data + ESPN,ogol:11047877|espn:740776,,,D England
+2025-0182,2025/26,Liga,,19,2025-12-30,19:30,Burnley,Newcastle,1,3,,,,Turf Moor,Burnley,21020,football-data + ogol + football-data + ESPN,ogol:11047879|espn:740778,,,R Jones
+2025-0183,2025/26,Liga,,19,2025-12-30,19:30,Chelsea,Bournemouth,2,2,,,,Stamford Bridge,London,39622,football-data + ogol + football-data + ESPN,ogol:11047880|espn:740779,,,S Barrott
+2025-0184,2025/26,Liga,,19,2025-12-30,20:15,Manchester United,Wolverhampton,1,1,,,,Old Trafford,Manchester,73941,football-data + ogol + football-data + ESPN,ogol:11047883|espn:740782,,,T Bramall
+2025-0185,2025/26,Liga,,19,2025-12-30,19:30,Nottingham Forest,Everton,0,2,,,,The City Ground,Nottingham,30617,football-data + ogol + football-data + ESPN,ogol:11047884|espn:740783,,,M Oliver
+2025-0186,2025/26,Liga,,19,2025-12-30,19:30,West Ham,Brighton,2,2,,,,London Stadium,London,62438,football-data + ogol + football-data + ESPN,ogol:11047886|espn:740785,,,M Salisbury
+2025-0187,2025/26,Liga,,19,2026-01-01,20:00,Brentford,Tottenham,0,0,,,,Gtech Community Stadium,Brentford,17141,football-data + ogol + football-data + ESPN,ogol:11047878|espn:740777,,,A Madley
+2025-0188,2025/26,Liga,,19,2026-01-01,17:30,Crystal Palace,Fulham,1,1,,,,Selhurst Park,London,25111,football-data + ogol + football-data + ESPN,ogol:11047881|espn:740780,,,T Harrington
+2025-0189,2025/26,Liga,,19,2026-01-01,17:30,Liverpool,Leeds,0,0,,,,Anfield,Liverpool,60343,football-data + ogol + football-data + ESPN,ogol:11047882|espn:740781,,,C Kavanagh
+2025-0190,2025/26,Liga,,19,2026-01-01,20:00,Sunderland,Manchester City,0,0,,,,Stadium of Light,Sunderland,46920,football-data + ogol + football-data + ESPN,ogol:11047885|espn:740784,,,J Gillett
+2025-0191,2025/26,Liga,,20,2026-01-03,17:30,Bournemouth,Arsenal,2,3,,,,Vitality Stadium,Bournemouth,11240,football-data + ogol + football-data + ESPN,ogol:11047683|espn:740788,,,C Kavanagh
+2025-0192,2025/26,Liga,,20,2026-01-03,12:30,Aston Villa,Nottingham Forest,3,1,,,,Villa Park,Birmingham,43039,football-data + ogol + football-data + ESPN,ogol:11047684|espn:740789,,,S Hooper
+2025-0193,2025/26,Liga,,20,2026-01-03,15:00,Brighton,Burnley,2,0,,,,American Express Stadium,Falmer,31373,football-data + ogol + football-data + ESPN,ogol:11047685|espn:740795,,,T Robinson
+2025-0194,2025/26,Liga,,20,2026-01-03,15:00,Wolverhampton,West Ham,3,0,,,,Molineux Stadium,Wolverhampton,29874,football-data + ogol + football-data + ESPN,ogol:11047692|espn:740787,,,P Bankes
+2025-0195,2025/26,Liga,,20,2026-01-04,15:00,Everton,Brentford,2,4,,,,Hill Dickinson Stadium,Liverpool,52514,football-data + ogol + football-data + ESPN,ogol:11047686|espn:740794,,,A Taylor
+2025-0196,2025/26,Liga,,20,2026-01-04,15:15,Fulham,Liverpool,2,2,,,,Craven Cottage,London,27547,football-data + ogol + football-data + ESPN,ogol:11047687|espn:740790,,,C Pawson
+2025-0197,2025/26,Liga,,20,2026-01-04,12:30,Leeds,Manchester United,1,1,,,,Elland Road,Leeds,36909,football-data + ogol + football-data + ESPN,ogol:11047688|espn:740791,,,J Gillett
+2025-0198,2025/26,Liga,,20,2026-01-04,17:30,Manchester City,Chelsea,1,1,,,,Etihad Stadium,Manchester,52503,football-data + ogol + football-data + ESPN,ogol:11047689|espn:740792,,,M Oliver
+2025-0199,2025/26,Liga,,20,2026-01-04,15:00,Newcastle,Crystal Palace,2,0,,,,St. James' Park,Newcastle-upon-Tyne,51979,football-data + ogol + football-data + ESPN,ogol:11047690|espn:740793,,,J Brooks
+2025-0200,2025/26,Liga,,20,2026-01-04,15:00,Tottenham,Sunderland,1,1,,,,Tottenham Hotspur Stadium,London,60877,football-data + ogol + football-data + ESPN,ogol:11047691|espn:740786,,,S Attwell
+2025-0201,2025/26,Liga,,21,2026-01-06,20:00,West Ham,Nottingham Forest,1,2,,,,London Stadium,London,62429,football-data + ogol + football-data + ESPN,ogol:11047872|espn:740801,,,T Harrington
+2025-0202,2025/26,Liga,,21,2026-01-07,19:30,Bournemouth,Tottenham,3,2,,,,Vitality Stadium,Bournemouth,11212,football-data + ogol + football-data + ESPN,ogol:11047863|espn:740797,,,D England
+2025-0203,2025/26,Liga,,21,2026-01-07,19:30,Brentford,Sunderland,3,0,,,,Gtech Community Stadium,Brentford,17016,football-data + ogol + football-data + ESPN,ogol:11047865|espn:740798,,,M Donohue
+2025-0204,2025/26,Liga,,21,2026-01-07,20:15,Burnley,Manchester United,2,2,,,,Turf Moor,Burnley,21047,football-data + ogol + football-data + ESPN,ogol:11047866|espn:740799,,,S Attwell
+2025-0205,2025/26,Liga,,21,2026-01-07,19:30,Crystal Palace,Aston Villa,0,0,,,,Selhurst Park,London,24841,football-data + ogol + football-data + ESPN,ogol:11047867|espn:740805,,,A Madley
+2025-0206,2025/26,Liga,,21,2026-01-07,19:30,Everton,Wolverhampton,1,1,,,,Hill Dickinson Stadium,Liverpool,51768,football-data + ogol + football-data + ESPN,ogol:11047868|espn:740800,,,T Kirk
+2025-0207,2025/26,Liga,,21,2026-01-07,19:30,Fulham,Chelsea,2,1,,,,Craven Cottage,London,26990,football-data + ogol + football-data + ESPN,ogol:11047869|espn:740802,,,P Bankes
+2025-0208,2025/26,Liga,,21,2026-01-07,19:30,Manchester City,Brighton,1,1,,,,Etihad Stadium,Manchester,51728,football-data + ogol + football-data + ESPN,ogol:11047870|espn:740803,,,T Bramall
+2025-0209,2025/26,Liga,,21,2026-01-07,20:15,Newcastle,Leeds,4,3,,,,St. James' Park,Newcastle-upon-Tyne,52176,football-data + ogol + football-data + ESPN,ogol:11047871|espn:740804,,,M Salisbury
+2025-0210,2025/26,Liga,,21,2026-01-08,20:00,Arsenal,Liverpool,0,0,,,,Emirates Stadium,London,60258,football-data + ogol + football-data + ESPN,ogol:11047864|espn:740796,,,A Taylor
+2025-0211,2025/26,Liga,,22,2026-01-17,15:00,Chelsea,Brentford,2,0,,,,Stamford Bridge,London,39704,football-data + ogol + football-data + ESPN,ogol:11047695|espn:740808,,,J Brooks
+2025-0212,2025/26,Liga,,22,2026-01-17,15:00,Leeds,Fulham,1,0,,,,Elland Road,Leeds,36300,football-data + ogol + football-data + ESPN,ogol:11047696|espn:740809,,,C Kavanagh
+2025-0213,2025/26,Liga,,22,2026-01-17,15:00,Liverpool,Burnley,1,1,,,,Anfield,Liverpool,60431,football-data + ogol + football-data + ESPN,ogol:11047697|espn:740810,,,A Madley
+2025-0214,2025/26,Liga,,22,2026-01-17,12:30,Manchester United,Manchester City,2,0,,,,Old Trafford,Manchester,74004,football-data + ogol + football-data + ESPN,ogol:11047698|espn:740811,,,A Taylor
+2025-0215,2025/26,Liga,,22,2026-01-17,17:30,Nottingham Forest,Arsenal,0,0,,,,The City Ground,Nottingham,30729,football-data + ogol + football-data + ESPN,ogol:11047699|espn:740812,,,M Oliver
+2025-0216,2025/26,Liga,,22,2026-01-17,15:00,Sunderland,Crystal Palace,2,1,,,,Stadium of Light,Sunderland,47257,football-data + ogol + football-data + ESPN,ogol:11047700|espn:740813,,,R Jones
+2025-0217,2025/26,Liga,,22,2026-01-17,15:00,Tottenham,West Ham,1,2,,,,Tottenham Hotspur Stadium,London,60857,football-data + ogol + football-data + ESPN,ogol:11047701|espn:740814,,,J Gillett
+2025-0218,2025/26,Liga,,22,2026-01-18,16:30,Aston Villa,Everton,0,1,,,,Villa Park,Birmingham,42770,football-data + ogol + football-data + ESPN,ogol:11047693|espn:740806,,,T Harrington
+2025-0219,2025/26,Liga,,22,2026-01-18,14:00,Wolverhampton,Newcastle,0,0,,,,Molineux Stadium,Wolverhampton,29751,football-data + ogol + football-data + ESPN,ogol:11047702|espn:740815,,,S Barrott
+2025-0220,2025/26,Liga,,22,2026-01-19,20:00,Brighton,Bournemouth,1,1,,,,American Express Stadium,Falmer,30172,football-data + ogol + football-data + ESPN,ogol:11047694|espn:740807,,,P Tierney
+2025-0221,2025/26,Liga,,23,2026-01-24,17:30,Bournemouth,Liverpool,3,2,,,,Vitality Stadium,Bournemouth,11260,football-data + ogol + football-data + ESPN,ogol:11047703|espn:740817,,,M Salisbury
+2025-0222,2025/26,Liga,,23,2026-01-24,15:00,Burnley,Tottenham,2,2,,,,Turf Moor,Burnley,21618,football-data + ogol + football-data + ESPN,ogol:11047706|espn:740819,,,P Bankes
+2025-0223,2025/26,Liga,,23,2026-01-24,15:00,Fulham,Brighton,2,1,,,,Craven Cottage,London,27239,football-data + ogol + football-data + ESPN,ogol:11047709|espn:740822,,,M Oliver
+2025-0224,2025/26,Liga,,23,2026-01-24,15:00,Manchester City,Wolverhampton,2,0,,,,Etihad Stadium,Manchester,52469,football-data + ogol + football-data + ESPN,ogol:11047710|espn:740823,,,F Hallam
+2025-0225,2025/26,Liga,,23,2026-01-24,12:30,West Ham,Sunderland,3,1,,,,London Stadium,London,62456,football-data + ogol + football-data + ESPN,ogol:11047712|espn:740825,,,T Bramall
+2025-0226,2025/26,Liga,,23,2026-01-25,16:30,Arsenal,Manchester United,2,3,,,,Emirates Stadium,London,60296,football-data + ogol + football-data + ESPN,ogol:11047704|espn:740816,,,C Pawson
+2025-0227,2025/26,Liga,,23,2026-01-25,14:00,Brentford,Nottingham Forest,0,2,,,,Gtech Community Stadium,Brentford,17134,football-data + ogol + football-data + ESPN,ogol:11047705|espn:740818,,,S Barrott
+2025-0228,2025/26,Liga,,23,2026-01-25,14:00,Crystal Palace,Chelsea,1,3,,,,Selhurst Park,London,25163,football-data + ogol + football-data + ESPN,ogol:11047707|espn:740820,,,D England
+2025-0229,2025/26,Liga,,23,2026-01-25,14:00,Newcastle,Aston Villa,0,2,,,,St. James' Park,Newcastle-upon-Tyne,52134,football-data + ogol + football-data + ESPN,ogol:11047711|espn:740824,,,J Gillett
+2025-0230,2025/26,Liga,,23,2026-01-26,20:00,Everton,Leeds,1,1,,,,Hill Dickinson Stadium,Liverpool,51979,football-data + ogol + football-data + ESPN,ogol:11047708|espn:740821,,,S Hooper
+2025-0231,2025/26,Liga,,24,2026-01-31,15:00,Brighton,Everton,1,1,,,,American Express Stadium,Falmer,31419,football-data + ogol + football-data + ESPN,ogol:11047714|espn:740831,,,C Kavanagh
+2025-0232,2025/26,Liga,,24,2026-01-31,17:30,Chelsea,West Ham,3,2,,,,Stamford Bridge,London,39430,football-data + ogol + football-data + ESPN,ogol:11047715|espn:740835,,,A Taylor
+2025-0233,2025/26,Liga,,24,2026-01-31,15:00,Leeds,Arsenal,0,4,,,,Elland Road,Leeds,36858,football-data + ogol + football-data + ESPN,ogol:11047716|espn:740829,,,S Attwell
+2025-0234,2025/26,Liga,,24,2026-01-31,20:00,Liverpool,Newcastle,4,1,,,,Anfield,Liverpool,60416,football-data + ogol + football-data + ESPN,ogol:11047717|espn:740834,,,S Hooper
+2025-0235,2025/26,Liga,,24,2026-01-31,15:00,Wolverhampton,Bournemouth,0,2,,,,Molineux Stadium,Wolverhampton,30161,football-data + ogol + football-data + ESPN,ogol:11047722|espn:740827,,,M Oliver
+2025-0236,2025/26,Liga,,24,2026-02-01,14:00,Aston Villa,Brentford,0,1,,,,Villa Park,Birmingham,41415,football-data + ogol + football-data + ESPN,ogol:11047713|espn:740826,,,T Robinson
+2025-0237,2025/26,Liga,,24,2026-02-01,14:00,Manchester United,Fulham,3,2,,,,Old Trafford,Manchester,73932,football-data + ogol + football-data + ESPN,ogol:11047718|espn:740833,,,J Brooks
+2025-0238,2025/26,Liga,,24,2026-02-01,14:00,Nottingham Forest,Crystal Palace,1,1,,,,The City Ground,Nottingham,30334,football-data + ogol + football-data + ESPN,ogol:11047719|espn:740832,,,M Salisbury
+2025-0239,2025/26,Liga,,24,2026-02-01,16:30,Tottenham,Manchester City,2,2,,,,Tottenham Hotspur Stadium,London,61337,football-data + ogol + football-data + ESPN,ogol:11047721|espn:740828,,,R Jones
+2025-0240,2025/26,Liga,,24,2026-02-02,20:00,Sunderland,Burnley,3,0,,,,Stadium of Light,Sunderland,46370,football-data + ogol + football-data + ESPN,ogol:11047720|espn:740830,,,P Tierney
+2025-0241,2025/26,Liga,,25,2026-02-06,20:00,Leeds,Nottingham Forest,3,1,,,,Elland Road,Leeds,36835,football-data + ogol + football-data + ESPN,ogol:11047728|espn:740841,,,P Bankes
+2025-0242,2025/26,Liga,,25,2026-02-07,15:00,Bournemouth,Aston Villa,1,1,,,,Vitality Stadium,Bournemouth,11248,football-data + ogol + football-data + ESPN,ogol:11047723|espn:740837,,,A Taylor
+2025-0243,2025/26,Liga,,25,2026-02-07,15:00,Arsenal,Sunderland,3,0,,,,Emirates Stadium,London,60312,football-data + ogol + football-data + ESPN,ogol:11047724|espn:740836,,,S Barrott
+2025-0244,2025/26,Liga,,25,2026-02-07,15:00,Burnley,West Ham,0,2,,,,Turf Moor,Burnley,21273,football-data + ogol + football-data + ESPN,ogol:11047726|espn:740839,,,D England
+2025-0245,2025/26,Liga,,25,2026-02-07,15:00,Fulham,Everton,1,2,,,,Craven Cottage,London,27155,football-data + ogol + football-data + ESPN,ogol:11047727|espn:740842,,,S Attwell
+2025-0246,2025/26,Liga,,25,2026-02-07,12:30,Manchester United,Tottenham,2,0,,,,Old Trafford,Manchester,73985,football-data + ogol + football-data + ESPN,ogol:11047730|espn:740843,,,M Oliver
+2025-0247,2025/26,Liga,,25,2026-02-07,17:30,Newcastle,Brentford,2,3,,,,St. James' Park,Newcastle-upon-Tyne,52032,football-data + ogol + football-data + ESPN,ogol:11047731|espn:740844,,,A Madley
+2025-0248,2025/26,Liga,,25,2026-02-07,15:00,Wolverhampton,Chelsea,1,3,,,,Molineux Stadium,Wolverhampton,29762,football-data + ogol + football-data + ESPN,ogol:11047732|espn:740840,,,J Gillett
+2025-0249,2025/26,Liga,,25,2026-02-08,14:00,Brighton,Crystal Palace,0,1,,,,American Express Stadium,Falmer,31179,football-data + ogol + football-data + ESPN,ogol:11047725|espn:740838,,,T Bramall
+2025-0250,2025/26,Liga,,25,2026-02-08,16:30,Liverpool,Manchester City,1,2,,,,Anfield,Liverpool,60336,football-data + ogol + football-data + ESPN,ogol:11047729|espn:740845,,,C Pawson
+2025-0251,2025/26,Liga,,26,2026-02-10,19:30,Chelsea,Leeds,2,2,,,,Stamford Bridge,London,39253,football-data + ogol + football-data + ESPN,ogol:11047855|espn:740848,,,R Jones
+2025-0252,2025/26,Liga,,26,2026-02-10,19:30,Everton,Bournemouth,1,2,,,,Hill Dickinson Stadium,Liverpool,50196,football-data + ogol + football-data + ESPN,ogol:11047857|espn:740852,,,A Madley
+2025-0253,2025/26,Liga,,26,2026-02-10,19:30,Tottenham,Newcastle,1,2,,,,Tottenham Hotspur Stadium,London,59773,football-data + ogol + football-data + ESPN,ogol:11047861|espn:740854,,,A Taylor
+2025-0254,2025/26,Liga,,26,2026-02-10,20:15,West Ham,Manchester United,1,1,,,,London Stadium,London,62473,football-data + ogol + football-data + ESPN,ogol:11047862|espn:740855,,,S Hooper
+2025-0255,2025/26,Liga,,26,2026-02-11,19:30,Aston Villa,Brighton,1,0,,,,Villa Park,Birmingham,39495,football-data + ogol + football-data + ESPN,ogol:11047853|espn:740846,,,P Bankes
+2025-0256,2025/26,Liga,,26,2026-02-11,19:30,Crystal Palace,Burnley,2,3,,,,Selhurst Park,London,,football-data + ogol + football-data + ESPN,ogol:11047856|espn:740851,,,F Hallam
+2025-0257,2025/26,Liga,,26,2026-02-11,19:30,Manchester City,Fulham,3,0,,,,Etihad Stadium,Manchester,50717,football-data + ogol + football-data + ESPN,ogol:11047858|espn:740849,,,P Tierney
+2025-0258,2025/26,Liga,,26,2026-02-11,19:30,Nottingham Forest,Wolverhampton,0,0,,,,The City Ground,Nottingham,29921,football-data + ogol + football-data + ESPN,ogol:11047859|espn:740850,,,T Robinson
+2025-0259,2025/26,Liga,,26,2026-02-11,20:15,Sunderland,Liverpool,0,1,,,,Stadium of Light,Sunderland,,football-data + ogol + football-data + ESPN,ogol:11047860|espn:740853,,,C Kavanagh
+2025-0260,2025/26,Liga,,26,2026-02-12,20:00,Brentford,Arsenal,1,1,,,,Gtech Community Stadium,Brentford,17224,football-data + ogol + football-data + ESPN,ogol:11047854|espn:740847,,,J Brooks
+2025-0261,2025/26,Liga,,31,2026-02-18,20:00,Wolverhampton,Arsenal,2,2,,,,Molineux Stadium,Wolverhampton,29843,football-data + ogol + football-data + ESPN,ogol:11047772|espn:740901,,,P Tierney
+2025-0262,2025/26,Liga,,27,2026-02-21,15:00,Aston Villa,Leeds,1,1,,,,Villa Park,Birmingham,43048,football-data + ogol + football-data + ESPN,ogol:11047733|espn:740862,,,M Oliver
+2025-0263,2025/26,Liga,,27,2026-02-21,15:00,Brentford,Brighton,0,2,,,,Gtech Community Stadium,Brentford,17163,football-data + ogol + football-data + ESPN,ogol:11047734|espn:740858,,,J Gillett
+2025-0264,2025/26,Liga,,27,2026-02-21,15:00,Chelsea,Burnley,1,1,,,,Stamford Bridge,London,39603,football-data + ogol + football-data + ESPN,ogol:11047735|espn:740864,,,L Smith
+2025-0265,2025/26,Liga,,27,2026-02-21,20:00,Manchester City,Newcastle,2,1,,,,Etihad Stadium,Manchester,52187,football-data + ogol + football-data + ESPN,ogol:11047738|espn:740857,,,T Bramall
+2025-0266,2025/26,Liga,,27,2026-02-21,17:30,West Ham,Bournemouth,0,0,,,,London Stadium,London,62437,football-data + ogol + football-data + ESPN,ogol:11047742|espn:740861,,,S Barrott
+2025-0267,2025/26,Liga,,27,2026-02-22,14:00,Crystal Palace,Wolverhampton,1,0,,,,Selhurst Park,London,24547,football-data + ogol + football-data + ESPN,ogol:11047736|espn:740860,,,T Kirk
+2025-0268,2025/26,Liga,,27,2026-02-22,14:00,Nottingham Forest,Liverpool,0,1,,,,The City Ground,Nottingham,30737,football-data + ogol + football-data + ESPN,ogol:11047739|espn:740863,,,A Taylor
+2025-0269,2025/26,Liga,,27,2026-02-22,14:00,Sunderland,Fulham,1,3,,,,Stadium of Light,Sunderland,47222,football-data + ogol + football-data + ESPN,ogol:11047740|espn:740859,,,C Pawson
+2025-0270,2025/26,Liga,,27,2026-02-22,16:30,Tottenham,Arsenal,1,4,,,,Tottenham Hotspur Stadium,London,61439,football-data + ogol + football-data + ESPN,ogol:11047741|espn:740865,,,P Bankes
+2025-0271,2025/26,Liga,,27,2026-02-23,20:00,Everton,Manchester United,0,1,,,,Hill Dickinson Stadium,Liverpool,52326,football-data + ogol + football-data + ESPN,ogol:11047737|espn:740856,,,D England
+2025-0272,2025/26,Liga,,28,2026-02-27,20:00,Wolverhampton,Aston Villa,2,0,,,,Molineux Stadium,Wolverhampton,30197,football-data + ogol + football-data + ESPN,ogol:11047752|espn:740868,,,C Pawson
+2025-0273,2025/26,Liga,,28,2026-02-28,12:30,Bournemouth,Sunderland,1,1,,,,Vitality Stadium,Bournemouth,11240,football-data + ogol + football-data + ESPN,ogol:11047743|espn:740873,,,J Gillett
+2025-0274,2025/26,Liga,,28,2026-02-28,15:00,Burnley,Brentford,3,4,,,,Turf Moor,Burnley,20069,football-data + ogol + football-data + ESPN,ogol:11047746|espn:740867,,,S Barrott
+2025-0275,2025/26,Liga,,28,2026-02-28,17:30,Leeds,Manchester City,0,1,,,,Elland Road,Leeds,36838,football-data + ogol + football-data + ESPN,ogol:11047748|espn:740869,,,P Bankes
+2025-0276,2025/26,Liga,,28,2026-02-28,15:00,Liverpool,West Ham,5,2,,,,Anfield,Liverpool,60425,football-data + ogol + football-data + ESPN,ogol:11047749|espn:740872,,,T Robinson
+2025-0277,2025/26,Liga,,28,2026-02-28,15:00,Newcastle,Everton,2,3,,,,St. James' Park,Newcastle-upon-Tyne,52514,football-data + ogol + football-data + ESPN,ogol:11047751|espn:740874,,,S Attwell
+2025-0278,2025/26,Liga,,28,2026-03-01,16:30,Arsenal,Chelsea,2,1,,,,Emirates Stadium,London,60296,football-data + ogol + football-data + ESPN,ogol:11047744|espn:740871,,,D England
+2025-0279,2025/26,Liga,,28,2026-03-01,14:00,Brighton,Nottingham Forest,2,1,,,,American Express Stadium,Falmer,31427,football-data + ogol + football-data + ESPN,ogol:11047745|espn:740866,,,A Madley
+2025-0280,2025/26,Liga,,28,2026-03-01,14:00,Fulham,Tottenham,2,1,,,,Craven Cottage,London,27439,football-data + ogol + football-data + ESPN,ogol:11047747|espn:740870,,,T Bramall
+2025-0281,2025/26,Liga,,28,2026-03-01,14:00,Manchester United,Crystal Palace,2,1,,,,Old Trafford,Manchester,73934,football-data + ogol + football-data + ESPN,ogol:11047750|espn:740875,,,C Kavanagh
+2025-0282,2025/26,Liga,,29,2026-03-03,19:30,Bournemouth,Brentford,0,0,,,,Vitality Stadium,Bournemouth,11108,football-data + ogol + football-data + ESPN,ogol:11047843|espn:740877,,,C Pawson
+2025-0283,2025/26,Liga,,29,2026-03-03,19:30,Everton,Burnley,2,0,,,,Hill Dickinson Stadium,Liverpool,51959,football-data + ogol + football-data + ESPN,ogol:11047846|espn:740879,,,T Robinson
+2025-0284,2025/26,Liga,,29,2026-03-03,19:30,Leeds,Sunderland,0,1,,,,Elland Road,Leeds,36713,football-data + ogol + football-data + ESPN,ogol:11047848|espn:740881,,,S Attwell
+2025-0285,2025/26,Liga,,29,2026-03-03,20:15,Wolverhampton,Liverpool,2,1,,,,Molineux Stadium,Wolverhampton,30247,football-data + ogol + football-data + ESPN,ogol:11047852|espn:740885,,,T Bramall
+2025-0286,2025/26,Liga,,29,2026-03-04,19:30,Aston Villa,Chelsea,1,4,,,,Villa Park,Birmingham,42084,football-data + ogol + football-data + ESPN,ogol:11047844|espn:740876,,,J Gillett
+2025-0287,2025/26,Liga,,29,2026-03-04,19:30,Brighton,Arsenal,0,1,,,,American Express Stadium,Falmer,31575,football-data + ogol + football-data + ESPN,ogol:11047845|espn:740878,,,C Kavanagh
+2025-0288,2025/26,Liga,,29,2026-03-04,19:30,Fulham,West Ham,0,1,,,,Craven Cottage,London,27191,football-data + ogol + football-data + ESPN,ogol:11047847|espn:740880,,,M Donohue
+2025-0289,2025/26,Liga,,29,2026-03-04,19:30,Manchester City,Nottingham Forest,2,2,,,,Etihad Stadium,Manchester,51965,football-data + ogol + football-data + ESPN,ogol:11047849|espn:740882,,,D England
+2025-0290,2025/26,Liga,,29,2026-03-04,20:15,Newcastle,Manchester United,2,1,,,,St. James' Park,Newcastle-upon-Tyne,52184,football-data + ogol + football-data + ESPN,ogol:11047850|espn:740883,,,P Bankes
+2025-0291,2025/26,Liga,,29,2026-03-05,20:00,Tottenham,Crystal Palace,1,3,,,,Tottenham Hotspur Stadium,London,60213,football-data + ogol + football-data + ESPN,ogol:11047851|espn:740884,,,A Madley
+2025-0292,2025/26,Liga,,30,2026-03-14,17:30,Arsenal,Everton,2,0,,,,Emirates Stadium,London,60176,football-data + ogol + football-data + ESPN,ogol:11047753|espn:740886,,,A Madley
+2025-0293,2025/26,Liga,,30,2026-03-14,15:00,Burnley,Bournemouth,0,0,,,,Turf Moor,Burnley,20281,football-data + ogol + football-data + ESPN,ogol:11047755|espn:740888,,,P Bankes
+2025-0294,2025/26,Liga,,30,2026-03-14,17:30,Chelsea,Newcastle,0,1,,,,Stamford Bridge,London,39587,football-data + ogol + football-data + ESPN,ogol:11047756|espn:740889,,,P Tierney
+2025-0295,2025/26,Liga,,30,2026-03-14,15:00,Sunderland,Brighton,0,1,,,,Stadium of Light,Sunderland,47197,football-data + ogol + football-data + ESPN,ogol:11047761|espn:740894,,,T Kirk
+2025-0296,2025/26,Liga,,30,2026-03-14,20:00,West Ham,Manchester City,1,1,,,,London Stadium,London,62459,football-data + ogol + football-data + ESPN,ogol:11047762|espn:740895,,,M Oliver
+2025-0297,2025/26,Liga,,30,2026-03-15,14:00,Crystal Palace,Leeds,0,0,,,,Selhurst Park,London,25155,football-data + ogol + football-data + ESPN,ogol:11047757|espn:740890,,,T Bramall
+2025-0298,2025/26,Liga,,30,2026-03-15,16:30,Liverpool,Tottenham,1,1,,,,Anfield,Liverpool,60386,football-data + ogol + football-data + ESPN,ogol:11047758|espn:740891,,,C Kavanagh
+2025-0299,2025/26,Liga,,30,2026-03-15,14:00,Manchester United,Aston Villa,3,1,,,,Old Trafford,Manchester,73997,football-data + ogol + football-data + ESPN,ogol:11047759|espn:740892,,,A Taylor
+2025-0300,2025/26,Liga,,30,2026-03-15,14:00,Nottingham Forest,Fulham,0,0,,,,The City Ground,Nottingham,30013,football-data + ogol + football-data + ESPN,ogol:11047760|espn:740893,,,S Barrott
+2025-0301,2025/26,Liga,,30,2026-03-16,20:00,Brentford,Wolverhampton,2,2,,,,Gtech Community Stadium,Brentford,17155,football-data + ogol + football-data + ESPN,ogol:11047754|espn:740887,,,S Attwell
+2025-0302,2025/26,Liga,,31,2026-03-20,20:00,Bournemouth,Manchester United,2,2,,,,Vitality Stadium,Bournemouth,11250,football-data + ogol + football-data + ESPN,ogol:11047763|espn:740897,,,S Attwell
+2025-0303,2025/26,Liga,,31,2026-03-21,12:30,Brighton,Liverpool,2,1,,,,American Express Stadium,Falmer,31680,football-data + ogol + football-data + ESPN,ogol:11047765|espn:740898,,,D England
+2025-0304,2025/26,Liga,,31,2026-03-21,17:30,Everton,Chelsea,3,0,,,,Hill Dickinson Stadium,Liverpool,52547,football-data + ogol + football-data + ESPN,ogol:11047766|espn:740899,,,S Barrott
+2025-0305,2025/26,Liga,,31,2026-03-21,15:00,Fulham,Burnley,3,1,,,,Craven Cottage,London,27323,football-data + ogol + football-data + ESPN,ogol:11047767|espn:740905,,,C Kavanagh
+2025-0306,2025/26,Liga,,31,2026-03-21,20:00,Leeds,Brentford,0,0,,,,Elland Road,Leeds,36386,football-data + ogol + football-data + ESPN,ogol:11047768|espn:740900,,,J Gillett
+2025-0307,2025/26,Liga,,31,2026-03-22,14:15,Aston Villa,West Ham,2,0,,,,Villa Park,Birmingham,42130,football-data + ogol + football-data + ESPN,ogol:11047764|espn:740896,,,P Tierney
+2025-0308,2025/26,Liga,,31,2026-03-22,12:00,Newcastle,Sunderland,1,2,,,,St. James' Park,Newcastle-upon-Tyne,52253,football-data + ogol + football-data + ESPN,ogol:11047770|espn:740903,,,A Taylor
+2025-0309,2025/26,Liga,,31,2026-03-22,14:15,Tottenham,Nottingham Forest,0,3,,,,Tottenham Hotspur Stadium,London,61519,football-data + ogol + football-data + ESPN,ogol:11047771|espn:740904,,,M Oliver
+2025-0310,2025/26,Liga,,32,2026-04-10,20:00,West Ham,Wolverhampton,4,0,,,,London Stadium,London,62457,football-data + ogol + football-data + ESPN,ogol:11047782|espn:740913,,,J Gillett
+2025-0311,2025/26,Liga,,32,2026-04-11,12:30,Arsenal,Bournemouth,1,2,,,,Emirates Stadium,London,60210,football-data + ogol + football-data + ESPN,ogol:11047773|espn:740908,,,M Oliver
+2025-0312,2025/26,Liga,,32,2026-04-11,15:00,Brentford,Everton,2,2,,,,Gtech Community Stadium,Brentford,17220,football-data + ogol + football-data + ESPN,ogol:11047774|espn:740906,,,F Hallam
+2025-0313,2025/26,Liga,,32,2026-04-11,15:00,Burnley,Brighton,0,2,,,,Turf Moor,Burnley,20408,football-data + ogol + football-data + ESPN,ogol:11047775|espn:740907,,,T Bramall
+2025-0314,2025/26,Liga,,32,2026-04-11,17:30,Liverpool,Fulham,2,0,,,,Anfield,Liverpool,60401,football-data + ogol + football-data + ESPN,ogol:11047778|espn:740911,,,A Taylor
+2025-0315,2025/26,Liga,,32,2026-04-12,16:30,Chelsea,Manchester City,0,3,,,,Stamford Bridge,London,39552,football-data + ogol + football-data + ESPN,ogol:11047776|espn:740909,,,C Kavanagh
+2025-0316,2025/26,Liga,,32,2026-04-12,14:00,Crystal Palace,Newcastle,2,1,,,,Selhurst Park,London,25141,football-data + ogol + football-data + ESPN,ogol:11047777|espn:740910,,,A Madley
+2025-0317,2025/26,Liga,,32,2026-04-12,14:00,Nottingham Forest,Aston Villa,1,1,,,,The City Ground,Nottingham,30591,football-data + ogol + football-data + ESPN,ogol:11047780|espn:740914,,,M Salisbury
+2025-0318,2025/26,Liga,,32,2026-04-12,14:00,Sunderland,Tottenham,1,0,,,,Stadium of Light,Sunderland,47010,football-data + ogol + football-data + ESPN,ogol:11047781|espn:740915,,,R Jones
+2025-0319,2025/26,Liga,,32,2026-04-13,20:00,Manchester United,Leeds,1,2,,,,Old Trafford,Manchester,74018,football-data + ogol + football-data + ESPN,ogol:11047779|espn:740912,,,P Tierney
+2025-0320,2025/26,Liga,,33,2026-04-18,12:30,Brentford,Fulham,0,0,,,,Gtech Community Stadium,Brentford,17171,football-data + ogol + football-data + ESPN,ogol:11047784|espn:740921,,,P Tierney
+2025-0321,2025/26,Liga,,33,2026-04-18,20:00,Chelsea,Manchester United,0,1,,,,Stamford Bridge,London,39733,football-data + ogol + football-data + ESPN,ogol:11047785|espn:740922,,,M Oliver
+2025-0322,2025/26,Liga,,33,2026-04-18,15:00,Leeds,Wolverhampton,3,0,,,,Elland Road,Leeds,36840,football-data + ogol + football-data + ESPN,ogol:11047788|espn:740924,,,F Hallam
+2025-0323,2025/26,Liga,,33,2026-04-18,15:00,Newcastle,Bournemouth,1,2,,,,St. James' Park,Newcastle-upon-Tyne,52109,football-data + ogol + football-data + ESPN,ogol:11047790|espn:740918,,,T Bramall
+2025-0324,2025/26,Liga,,33,2026-04-18,17:30,Tottenham,Brighton,2,2,,,,Tottenham Hotspur Stadium,London,61167,football-data + ogol + football-data + ESPN,ogol:11047792|espn:740920,,,S Attwell
+2025-0325,2025/26,Liga,,33,2026-04-19,14:00,Aston Villa,Sunderland,4,3,,,,Villa Park,Birmingham,42599,football-data + ogol + football-data + ESPN,ogol:11047783|espn:740919,,,S Barrott
+2025-0326,2025/26,Liga,,33,2026-04-19,14:00,Everton,Liverpool,1,2,,,,Hill Dickinson Stadium,Liverpool,52585,football-data + ogol + football-data + ESPN,ogol:11047787|espn:740925,,,C Kavanagh
+2025-0327,2025/26,Liga,,33,2026-04-19,16:30,Manchester City,Arsenal,2,1,,,,Etihad Stadium,Manchester,52523,football-data + ogol + football-data + ESPN,ogol:11047789|espn:740916,,,A Taylor
+2025-0328,2025/26,Liga,,33,2026-04-19,14:00,Nottingham Forest,Burnley,4,1,,,,The City Ground,Nottingham,29458,football-data + ogol + football-data + ESPN,ogol:11047791|espn:740917,,,T Kirk
+2025-0329,2025/26,Liga,,33,2026-04-20,20:00,Crystal Palace,West Ham,0,0,,,,Selhurst Park,London,24974,football-data + ogol + football-data + ESPN,ogol:11047786|espn:740923,,,D England
+2025-0330,2025/26,Liga,,34,2026-04-21,20:00,Brighton,Chelsea,3,0,,,,American Express Stadium,Falmer,31220,football-data + ogol + football-data + ESPN,ogol:11047795|espn:740928,,,C Pawson
+2025-0331,2025/26,Liga,,34,2026-04-22,20:00,Bournemouth,Leeds,2,2,,,,Vitality Stadium,Bournemouth,11226,football-data + ogol + football-data + ESPN,ogol:11047793|espn:740926,,,M Salisbury
+2025-0332,2025/26,Liga,,34,2026-04-22,20:00,Burnley,Manchester City,0,1,,,,Turf Moor,Burnley,21259,football-data + ogol + football-data + ESPN,ogol:11047796|espn:740929,,,A Madley
+2025-0333,2025/26,Liga,,34,2026-04-24,20:00,Sunderland,Nottingham Forest,0,5,,,,Stadium of Light,Sunderland,47047,football-data + ogol + football-data + ESPN,ogol:11047800|espn:740933,,,D England
+2025-0334,2025/26,Liga,,34,2026-04-25,17:30,Arsenal,Newcastle,1,0,,,,Emirates Stadium,London,60204,football-data + ogol + football-data + ESPN,ogol:11047794|espn:740931,,,S Barrott
+2025-0335,2025/26,Liga,,34,2026-04-25,12:30,Fulham,Aston Villa,1,0,,,,Craven Cottage,London,27606,football-data + ogol + football-data + ESPN,ogol:11047797|espn:740935,,,M Oliver
+2025-0336,2025/26,Liga,,34,2026-04-25,15:00,Liverpool,Crystal Palace,3,1,,,,Anfield,Liverpool,60314,football-data + ogol + football-data + ESPN,ogol:11047798|espn:740927,,,A Madley
+2025-0337,2025/26,Liga,,34,2026-04-25,15:00,West Ham,Everton,2,1,,,,London Stadium,London,62454,football-data + ogol + football-data + ESPN,ogol:11047801|espn:740930,,,S Attwell
+2025-0338,2025/26,Liga,,34,2026-04-25,15:00,Wolverhampton,Tottenham,0,1,,,,Molineux Stadium,Wolverhampton,31253,football-data + ogol + football-data + ESPN,ogol:11047802|espn:740934,,,A Taylor
+2025-0339,2025/26,Liga,,34,2026-04-27,20:00,Manchester United,Brentford,2,1,,,,Old Trafford,Manchester,73773,football-data + ogol + football-data + ESPN,ogol:11047799|espn:740932,,,C Kavanagh
+2025-0340,2025/26,Liga,,35,2026-05-01,20:00,Leeds,Burnley,3,1,,,,Elland Road,Leeds,36265,football-data + ogol + football-data + ESPN,ogol:11047809|espn:740942,,,T Bramall
+2025-0341,2025/26,Liga,,35,2026-05-02,17:30,Arsenal,Fulham,3,0,,,,Emirates Stadium,London,60196,football-data + ogol + football-data + ESPN,ogol:11047804|espn:740936,,,J Gillett
+2025-0342,2025/26,Liga,,35,2026-05-02,15:00,Brentford,West Ham,3,0,,,,Gtech Community Stadium,Brentford,17194,football-data + ogol + football-data + ESPN,ogol:11047806|espn:740939,,,C Pawson
+2025-0343,2025/26,Liga,,35,2026-05-02,15:00,Newcastle,Brighton,3,1,,,,St. James' Park,Newcastle-upon-Tyne,52099,football-data + ogol + football-data + ESPN,ogol:11047811|espn:740944,,,C Kavanagh
+2025-0344,2025/26,Liga,,35,2026-05-02,15:00,Wolverhampton,Sunderland,1,1,,,,Molineux Stadium,Wolverhampton,29632,football-data + ogol + football-data + ESPN,ogol:11047812|espn:740945,,,P Tierney
+2025-0345,2025/26,Liga,,35,2026-05-03,14:00,Bournemouth,Crystal Palace,3,0,,,,Vitality Stadium,Bournemouth,11122,football-data + ogol + football-data + ESPN,ogol:11047803|espn:740938,,,R Jones
+2025-0346,2025/26,Liga,,35,2026-05-03,19:00,Aston Villa,Tottenham,1,2,,,,Villa Park,Birmingham,42767,football-data + ogol + football-data + ESPN,ogol:11047805|espn:740937,,,S Barrott
+2025-0347,2025/26,Liga,,35,2026-05-03,15:30,Manchester United,Liverpool,3,2,,,,Old Trafford,Manchester,74027,football-data + ogol + football-data + ESPN,ogol:11047810|espn:740943,,,D England
+2025-0348,2025/26,Liga,,35,2026-05-04,15:00,Chelsea,Nottingham Forest,1,3,,,,Stamford Bridge,London,39605,football-data + ogol + football-data + ESPN,ogol:11047807|espn:740940,,,A Taylor
+2025-0349,2025/26,Liga,,35,2026-05-04,20:00,Everton,Manchester City,3,3,,,,Hill Dickinson Stadium,Liverpool,52257,football-data + ogol + football-data + ESPN,ogol:11047808|espn:740941,,,M Oliver
+2025-0350,2025/26,Liga,,36,2026-05-09,15:00,Brighton,Wolverhampton,3,0,,,,American Express Stadium,Falmer,31587,football-data + ogol + football-data + ESPN,ogol:11047813|espn:740946,,,J Brooks
+2025-0351,2025/26,Liga,,36,2026-05-09,15:00,Fulham,Bournemouth,0,1,,,,Craven Cottage,London,27626,football-data + ogol + football-data + ESPN,ogol:11047816|espn:740949,,,A Madley
+2025-0352,2025/26,Liga,,36,2026-05-09,12:30,Liverpool,Chelsea,1,1,,,,Anfield,Liverpool,60429,football-data + ogol + football-data + ESPN,ogol:11047817|espn:740950,,,C Pawson
+2025-0353,2025/26,Liga,,36,2026-05-09,17:30,Manchester City,Brentford,3,0,,,,Etihad Stadium,Manchester,52489,football-data + ogol + football-data + ESPN,ogol:11047818|espn:740951,,,M Salisbury
+2025-0354,2025/26,Liga,,36,2026-05-09,15:00,Sunderland,Manchester United,0,0,,,,Stadium of Light,Sunderland,47233,football-data + ogol + football-data + ESPN,ogol:11047820|espn:740953,,,S Attwell
+2025-0355,2025/26,Liga,,36,2026-05-10,14:00,Burnley,Aston Villa,2,2,,,,Turf Moor,Burnley,21196,football-data + ogol + football-data + ESPN,ogol:11047814|espn:740947,,,A Taylor
+2025-0356,2025/26,Liga,,36,2026-05-10,14:00,Crystal Palace,Everton,2,2,,,,Selhurst Park,London,24958,football-data + ogol + football-data + ESPN,ogol:11047815|espn:740948,,,T Bramall
+2025-0357,2025/26,Liga,,36,2026-05-10,14:00,Nottingham Forest,Newcastle,1,1,,,,The City Ground,Nottingham,30691,football-data + ogol + football-data + ESPN,ogol:11047819|espn:740952,,,P Tierney
+2025-0358,2025/26,Liga,,36,2026-05-10,16:30,West Ham,Arsenal,0,1,,,,London Stadium,London,60429,football-data + ogol + football-data + ESPN,ogol:11047822|espn:740955,,,C Kavanagh
+2025-0359,2025/26,Liga,,36,2026-05-11,20:00,Tottenham,Leeds,1,1,,,,Tottenham Hotspur Stadium,London,61048,football-data + ogol + football-data + ESPN,ogol:11047821|espn:740954,,,J Gillett
+2025-0360,2025/26,Liga,,31,2026-05-13,20:00,Manchester City,Crystal Palace,3,0,,,,Etihad Stadium,Manchester,,football-data + ogol + football-data + ESPN,ogol:11047769|espn:740902,,,S Attwell
+2025-0361,2025/26,Liga,,37,2026-05-15,20:00,Aston Villa,Liverpool,4,2,,,,Villa Park,Birmingham,43033,football-data + ogol + football-data + ESPN,ogol:11047825|espn:740957,,,C Kavanagh
+2025-0362,2025/26,Liga,,37,2026-05-17,15:00,Brentford,Crystal Palace,2,2,,,,Gtech Community Stadium,Brentford,17213,football-data + ogol + football-data + ESPN,ogol:11047826|espn:740959,,,S Barrott
+2025-0363,2025/26,Liga,,37,2026-05-17,15:00,Everton,Sunderland,1,3,,,,Hill Dickinson Stadium,Liverpool,52590,football-data + ogol + football-data + ESPN,ogol:11047828|espn:740961,,,J Brooks
+2025-0364,2025/26,Liga,,37,2026-05-17,15:00,Leeds,Brighton,1,0,,,,Elland Road,Leeds,36880,football-data + ogol + football-data + ESPN,ogol:11047829|espn:740962,,,M Oliver
+2025-0365,2025/26,Liga,,37,2026-05-17,12:30,Manchester United,Nottingham Forest,3,2,,,,Old Trafford,Manchester,74015,football-data + ogol + football-data + ESPN,ogol:11047830|espn:740963,,,M Salisbury
+2025-0366,2025/26,Liga,,37,2026-05-17,17:30,Newcastle,West Ham,3,1,,,,St. James' Park,Newcastle-upon-Tyne,52206,football-data + ogol + football-data + ESPN,ogol:11047831|espn:740964,,,J Gillett
+2025-0367,2025/26,Liga,,37,2026-05-17,15:00,Wolverhampton,Fulham,1,1,,,,Molineux Stadium,Wolverhampton,28709,football-data + ogol + football-data + ESPN,ogol:11047832|espn:740965,,,T Kirk
+2025-0368,2025/26,Liga,,37,2026-05-18,20:00,Arsenal,Burnley,1,0,,,,Emirates Stadium,London,60274,football-data + ogol + football-data + ESPN,ogol:11047824|espn:740956,,,P Tierney
+2025-0369,2025/26,Liga,,37,2026-05-19,19:30,Bournemouth,Manchester City,1,1,,,,Vitality Stadium,Bournemouth,11218,football-data + ogol + football-data + ESPN,ogol:11047823|espn:740958,,,A Taylor
+2025-0370,2025/26,Liga,,37,2026-05-19,20:15,Chelsea,Tottenham,2,1,,,,Stamford Bridge,London,39463,football-data + ogol + football-data + ESPN,ogol:11047827|espn:740960,,,S Attwell
+2025-0371,2025/26,Liga,,38,2026-05-24,16:00,Brighton,Manchester United,0,3,,,,American Express Stadium,Falmer,31729,football-data + ogol + football-data + ESPN,ogol:11047833|espn:740966,,,S Barrott
+2025-0372,2025/26,Liga,,38,2026-05-24,16:00,Burnley,Wolverhampton,1,1,,,,Turf Moor,Burnley,21057,football-data + ogol + football-data + ESPN,ogol:11047834|espn:740967,,,A Kitchen
+2025-0373,2025/26,Liga,,38,2026-05-24,16:00,Crystal Palace,Arsenal,1,2,,,,Selhurst Park,London,,football-data + ogol + football-data + ESPN,ogol:11047835|espn:740968,,,F Hallam
+2025-0374,2025/26,Liga,,38,2026-05-24,16:00,Fulham,Newcastle,2,0,,,,Craven Cottage,London,27442,football-data + ogol + football-data + ESPN,ogol:11047836|espn:740969,,,R Jones
+2025-0375,2025/26,Liga,,38,2026-05-24,16:00,Liverpool,Brentford,1,1,,,,Anfield,Liverpool,60325,football-data + ogol + football-data + ESPN,ogol:11047837|espn:740975,,,D England
+2025-0376,2025/26,Liga,,38,2026-05-24,16:00,Manchester City,Aston Villa,1,2,,,,Etihad Stadium,Manchester,60332,football-data + ogol + football-data + ESPN,ogol:11047838|espn:740970,,,A Madley
+2025-0377,2025/26,Liga,,38,2026-05-24,16:00,Nottingham Forest,Bournemouth,1,1,,,,The City Ground,Nottingham,30741,football-data + ogol + football-data + ESPN,ogol:11047839|espn:740972,,,C Pawson
+2025-0378,2025/26,Liga,,38,2026-05-24,16:00,Sunderland,Chelsea,2,1,,,,Stadium of Light,Sunderland,,football-data + ogol + football-data + ESPN,ogol:11047840|espn:740973,,,C Kavanagh
+2025-0379,2025/26,Liga,,38,2026-05-24,16:00,Tottenham,Everton,1,0,,,,Tottenham Hotspur Stadium,London,,football-data + ogol + football-data + ESPN,ogol:11047841|espn:740974,,,M Oliver
+2025-0380,2025/26,Liga,,38,2026-05-24,16:00,West Ham,Leeds,3,0,,,,London Stadium,London,62471,football-data + ogol + football-data + ESPN,ogol:11047842|espn:740971,,,A Taylor

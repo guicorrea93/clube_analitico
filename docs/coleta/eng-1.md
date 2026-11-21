@@ -2,13 +2,13 @@
 
 Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacote/`.
 
-**Edições:** 126, de 1888/89 a 2024/25: Football League (1888/89-1891/92), First Division (1892/93-1991/92), FA Premier League (1992/93-2006/07) e Premier League (2007/08 em diante). Sem liga em 1915/16-1918/19 e 1939/40-1945/46 (guerras; a temporada 1939/40 parou na 3ª rodada e foi anulada).
+**Edições:** 127, de 1888/89 a 2025/26: Football League (1888/89-1891/92), First Division (1892/93-1991/92), FA Premier League (1992/93-2006/07) e Premier League (2007/08 em diante). Sem liga em 1915/16-1918/19 e 1939/40-1945/46 (guerras; a temporada 1939/40 parou na 3ª rodada e foi anulada).
 
-**Total:** 50950 jogos, 151493 gols, 24796 gols com autor (ESPN), 31634 cartões, 65 clubes.
+**Total:** 51330 jogos, 152539 gols, 25841 gols com autor (ESPN), 33166 cartões, 65 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1888/89-2024/25, menos 2022/23;
-- football-data.co.uk: base de 2022/23; de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time (chutes, faltas, escanteios, cartões; 2000/01+);
+- football-data.co.uk: base de 2022/23 e 2025/26; de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time (chutes, faltas, escanteios, cartões; 2000/01+);
 - ogol: rodada oficial de cada jogo e conferência de placar; calendários guardados em `data/cache/ogol-eng-1/` para os escudos;
 - ESPN (liga `eng.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
 - RSSSF (engpaul/FLA, Paul Felton e Barry Spencer): tabela final publicada até 2006/07 e matriz de resultados (1888/89-1938/39, menos 1925/26) — conferência jogo a jogo;
@@ -18,7 +18,7 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
-| 1888/89 | engsoccerdata + ogol + RSSSF + Wikipédia | 12 | 132 (132) | 586 | 0 | 1 / 1 | Preston | — |
+| 1888/89 | engsoccerdata + ogol + RSSSF + Wikipédia | 12 | 132 (132) | 587 | 0 | 1 / 1 | Preston | — |
 | 1889/90 | engsoccerdata + ogol + RSSSF + Wikipédia | 12 | 132 (132) | 611 | 0 | 2 / 0 | Preston | — |
 | 1890/91 | engsoccerdata + ogol + RSSSF + Wikipédia | 12 | 132 (132) | 554 | 0 | 2 / 0 | Everton | Sunderland -2 pontos |
 | 1891/92 | engsoccerdata + ogol + RSSSF + Wikipédia | 14 | 182 (182) | 777 | 0 | 2 / 0 | Sunderland | — |
@@ -144,15 +144,17 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 | 2022/23 | football-data + ogol + ESPN + Wikipédia | 20 | 380 (380) | 1084 | 1084 | 1 / 0 | Manchester City | — |
 | 2023/24 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1246 | 1246 | 1 / 0 | Manchester City | Everton -8 pontos; Nottingham Forest -4 pontos |
 | 2024/25 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1115 | 1115 | 1 / 0 | Liverpool | — |
+| 2025/26 | football-data + ogol + ESPN + Wikipédia | 20 | 380 (380) | 1045 | 1045 | 1 / 0 | Arsenal | — |
 
 ## Conferência e ocorrências, temporada a temporada
 
 ### 1888/89
 
-- Wolverhampton x Everton (26/01/1889): o ogol traz 5-0 e a tabela da Wikipédia conta 51 gols pró do Wolverhampton e 47 contra do Everton, como se fosse 5-0; o engsoccerdata, a matriz e a tabela da RSSSF e a matriz da própria Wikipédia trazem 4-0. Fica o 4-0 (três fontes, e a tabela da RSSSF fecha com ele)
-- placar diferente no ogol — Wolverhampton Wanderers x Everton (1889-01-26): base 4-0, ogol 5-0
-- tabela publicada x jogos (Wikipédia) — Wolverhampton Wanderers tabela [22, 12, 4, 6, 51, 37, 28] jogos [22, 12, 4, 6, 50, 37, 28]
-- tabela publicada x jogos (Wikipédia) — Everton tabela [22, 9, 2, 11, 35, 47, 20] jogos [22, 9, 2, 11, 35, 46, 20]
+- Wolverhampton x Everton (26/01/1889) fica 5-0 (ver a correção abaixo); a matriz e a tabela da RSSSF, feitas com 4-0, ficam com 1 gol a menos para o Wolverhampton e para o Everton
+- placar corrigido: Wolverhampton Wanderers x Everton de 4-0 para 5-0 — três jornais da época trazem 5-0 (Cricket and Football Field, Liverpool Courier e Athletic News, transcritos em bluecorrespondent.co.uk/1888-89/january1889.html); também o ogol, o 11v11, a página da temporada do Wolverhampton na Wikipédia e a tabela final da Wikipédia (Wolverhampton 51 gols pró, Everton 47 contra). O 4-0 vem da RSSSF e de quem a copia (um gol de Knight foi anulado por impedimento)
+- placar diferente na matriz da RSSSF — Wolverhampton Wanderers x Everton: base 5-0, RSSSF 4-0
+- tabela publicada x jogos (RSSSF) — Wolverhampton Wanderers tabela [22, 12, 4, 6, 50, 37, 28] jogos [22, 12, 4, 6, 51, 37, 28]
+- tabela publicada x jogos (RSSSF) — Everton tabela [22, 9, 2, 11, 35, 46, 20] jogos [22, 9, 2, 11, 35, 47, 20]
 
 ### 1889/90
 
@@ -180,8 +182,9 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1895/96
 
+- 1 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Burnley x Sheffield United (1896-02-03 -> 1896-02-04)
 - 8 test matches no calendário do ogol (decisão de acesso e rebaixamento contra clubes da 2ª divisão; ex.: Liverpool 4-0 Small Heath): ficam de fora
-- data diferente no ogol em 2 jogos (ex.: Burnley x Sheffield United: base 1896-02-03, ogol 1896-02-04); fica a da base
+- data diferente no ogol em 1 jogos (ex.: Burnley x Blackburn Rovers: base 1896-04-18, ogol 1896-04-13); fica a da base
 
 ### 1896/97
 
@@ -197,7 +200,7 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1899/00
 
-- data diferente no ogol em 9 jogos (ex.: Aston Villa x Sunderland: base 1899-12-29, ogol 1899-12-30); fica a da base
+- 9 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Aston Villa x Sunderland (1899-12-29 -> 1899-12-30); Burnley x Glossop North End (1899-12-29 -> 1899-12-30); Liverpool x Stoke City (1899-12-29 -> 1899-12-30); Manchester City x Blackburn Rovers (1899-12-29 -> 1899-12-30) ...
 
 ### 1900/01
 
@@ -327,7 +330,8 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1934/35
 
-- data diferente no ogol em 2 jogos (ex.: Blackburn Rovers x Chelsea: base 1934-11-12, ogol 1934-11-17); fica a da base
+- 1 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Blackburn Rovers x Chelsea (1934-11-12 -> 1934-11-17)
+- data diferente no ogol em 1 jogos (ex.: Tottenham Hotspur x Chelsea: base 1935-01-30, ogol 1935-01-29); fica a da base
 
 ### 1935/36
 
@@ -335,7 +339,7 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1936/37
 
-- data diferente no ogol em 2 jogos (ex.: Derby County x Brentford: base 1936-10-23, ogol 1936-10-03); fica a da base
+- 2 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Derby County x Brentford (1936-10-23 -> 1936-10-03); West Bromwich Albion x Bolton Wanderers (1936-11-03 -> 1936-11-14)
 
 ### 1937/38
 
@@ -343,7 +347,7 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1938/39
 
-- data diferente no ogol em 2 jogos (ex.: Leicester City x Portsmouth: base 1938-11-21, ogol 1938-11-12); fica a da base
+- 2 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Leicester City x Portsmouth (1938-11-21 -> 1938-11-12); Charlton Athletic x Arsenal (1938-12-26 -> 1938-12-27)
 
 ### 1946/47
 
@@ -536,15 +540,16 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1993/94
 
-- data diferente no ogol em 3 jogos (ex.: Ipswich Town x Sheffield United: base 1994-02-26, ogol 1994-02-22); fica a da base
+- 3 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Ipswich Town x Sheffield United (1994-02-26 -> 1994-02-22); Newcastle United x Ipswich Town (1994-03-22 -> 1994-03-23); Wimbledon x Leeds United (1994-03-27 -> 1994-03-26)
 
 ### 1994/95
 
-- data diferente no ogol em 2 jogos (ex.: Everton x Leeds United: base 1994-12-04, ogol 1994-12-05); fica a da base
+- 2 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Everton x Leeds United (1994-12-04 -> 1994-12-05); Blackburn Rovers x Crystal Palace (1995-04-19 -> 1995-04-20)
 
 ### 1995/96
 
-- data diferente no ogol em 12 jogos (ex.: West Ham United x Manchester United: base 1996-01-23, ogol 1996-01-22); fica a da base
+- 11 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): West Ham United x Manchester United (1996-01-23 -> 1996-01-22); Arsenal x Bolton Wanderers (1996-05-04 -> 1996-05-05); Chelsea x Blackburn Rovers (1996-05-04 -> 1996-05-05); Coventry City x Leeds United (1996-05-04 -> 1996-05-05) ...
+- data diferente no ogol em 1 jogos (ex.: Leeds United x Southampton: base 1996-04-03, ogol 1996-04-30); fica a da base
 
 ### 1996/97
 
@@ -556,7 +561,8 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1998/99
 
-- data diferente no ogol em 2 jogos (ex.: Manchester United x Derby County: base 1999-02-02, ogol 1999-02-03); fica a da base
+- 1 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Manchester United x Derby County (1999-02-02 -> 1999-02-03)
+- data diferente no ogol em 1 jogos (ex.: Chelsea x Leeds United: base 1999-05-05, ogol 1999-05-04); fica a da base
 
 ### 1999/00
 
@@ -627,7 +633,7 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 2015/16
 
-- data diferente no ogol em 1 jogos (ex.: Manchester United x AFC Bournemouth: base 2016-05-16, ogol 2016-05-17); fica a da base
+- 1 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Manchester United x AFC Bournemouth (2016-05-16 -> 2016-05-17)
 
 ### 2016/17
 
@@ -663,6 +669,10 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 - sem ocorrências
 
 ### 2024/25
+
+- sem ocorrências
+
+### 2025/26
 
 - sem ocorrências
 

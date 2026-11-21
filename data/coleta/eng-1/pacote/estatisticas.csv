@@ -18999,3 +18999,763 @@ partida_id,clube,chutes,chutes_alvo,faltas,escanteios,amarelos,vermelhos,fonte
 2024-0379,Brighton,23,8,8,11,1,0,football-data.co.uk
 2024-0380,Wolverhampton,18,6,7,8,2,0,football-data.co.uk
 2024-0380,Brentford,13,7,9,3,1,0,football-data.co.uk
+2025-0001,Liverpool,19,10,7,6,1,0,football-data.co.uk
+2025-0001,Bournemouth,10,3,10,7,2,0,football-data.co.uk
+2025-0002,Aston Villa,3,3,13,3,1,1,football-data.co.uk
+2025-0002,Newcastle,16,3,11,6,1,0,football-data.co.uk
+2025-0003,Brighton,10,4,16,4,3,0,football-data.co.uk
+2025-0003,Fulham,7,2,15,3,3,0,football-data.co.uk
+2025-0004,Sunderland,10,5,8,5,0,0,football-data.co.uk
+2025-0004,West Ham,12,4,10,7,1,0,football-data.co.uk
+2025-0005,Tottenham,16,6,14,6,0,0,football-data.co.uk
+2025-0005,Burnley,14,4,8,5,0,0,football-data.co.uk
+2025-0006,Wolverhampton,9,3,13,4,1,0,football-data.co.uk
+2025-0006,Manchester City,15,4,7,6,2,0,football-data.co.uk
+2025-0007,Chelsea,19,3,10,11,2,0,football-data.co.uk
+2025-0007,Crystal Palace,12,4,12,2,3,0,football-data.co.uk
+2025-0008,Manchester United,22,7,10,3,1,0,football-data.co.uk
+2025-0008,Arsenal,9,3,19,4,4,0,football-data.co.uk
+2025-0009,Nottingham Forest,11,5,7,5,1,0,football-data.co.uk
+2025-0009,Brentford,10,3,15,5,2,0,football-data.co.uk
+2025-0010,Leeds,21,3,6,7,0,0,football-data.co.uk
+2025-0010,Everton,7,1,8,2,2,0,football-data.co.uk
+2025-0011,West Ham,12,4,7,7,0,0,football-data.co.uk
+2025-0011,Chelsea,12,7,10,5,1,0,football-data.co.uk
+2025-0012,Bournemouth,14,4,13,8,2,0,football-data.co.uk
+2025-0012,Wolverhampton,6,1,16,3,4,1,football-data.co.uk
+2025-0013,Arsenal,18,5,8,2,0,0,football-data.co.uk
+2025-0013,Leeds,3,1,11,2,2,0,football-data.co.uk
+2025-0014,Brentford,9,2,11,2,1,0,football-data.co.uk
+2025-0014,Aston Villa,17,2,9,9,2,0,football-data.co.uk
+2025-0015,Burnley,7,2,9,4,0,0,football-data.co.uk
+2025-0015,Sunderland,9,1,5,3,1,0,football-data.co.uk
+2025-0016,Manchester City,10,4,7,7,1,0,football-data.co.uk
+2025-0016,Tottenham,12,5,12,2,4,0,football-data.co.uk
+2025-0017,Crystal Palace,8,4,11,1,3,0,football-data.co.uk
+2025-0017,Nottingham Forest,9,1,11,3,3,0,football-data.co.uk
+2025-0018,Everton,11,3,7,2,4,0,football-data.co.uk
+2025-0018,Brighton,13,4,15,2,3,0,football-data.co.uk
+2025-0019,Fulham,13,4,12,9,1,0,football-data.co.uk
+2025-0019,Manchester United,10,3,10,6,1,0,football-data.co.uk
+2025-0020,Newcastle,10,3,17,7,2,1,football-data.co.uk
+2025-0020,Liverpool,5,4,15,1,3,0,football-data.co.uk
+2025-0021,Chelsea,13,6,11,6,2,0,football-data.co.uk
+2025-0021,Fulham,11,3,17,4,2,0,football-data.co.uk
+2025-0022,Leeds,10,1,10,5,1,0,football-data.co.uk
+2025-0022,Newcastle,8,2,15,5,1,0,football-data.co.uk
+2025-0023,Manchester United,26,6,9,7,1,0,football-data.co.uk
+2025-0023,Burnley,6,3,9,1,5,0,football-data.co.uk
+2025-0024,Sunderland,12,3,11,3,3,0,football-data.co.uk
+2025-0024,Brentford,7,4,12,4,2,0,football-data.co.uk
+2025-0025,Tottenham,5,1,17,0,2,0,football-data.co.uk
+2025-0025,Bournemouth,20,6,13,8,4,0,football-data.co.uk
+2025-0026,Wolverhampton,12,4,15,2,0,0,football-data.co.uk
+2025-0026,Everton,10,4,10,2,1,0,football-data.co.uk
+2025-0027,Aston Villa,13,4,7,10,2,0,football-data.co.uk
+2025-0027,Crystal Palace,6,4,14,1,3,0,football-data.co.uk
+2025-0028,Brighton,12,7,16,3,2,0,football-data.co.uk
+2025-0028,Manchester City,12,3,14,2,2,0,football-data.co.uk
+2025-0029,Liverpool,9,3,7,3,2,0,football-data.co.uk
+2025-0029,Arsenal,11,1,10,8,2,0,football-data.co.uk
+2025-0030,Nottingham Forest,11,3,14,9,0,0,football-data.co.uk
+2025-0030,West Ham,12,8,6,7,0,0,football-data.co.uk
+2025-0031,Bournemouth,13,5,16,4,4,0,football-data.co.uk
+2025-0031,Brighton,6,2,10,4,4,0,football-data.co.uk
+2025-0032,Arsenal,16,5,8,8,1,0,football-data.co.uk
+2025-0032,Nottingham Forest,5,1,11,4,1,0,football-data.co.uk
+2025-0033,Brentford,7,4,13,5,3,0,football-data.co.uk
+2025-0033,Chelsea,16,6,9,6,2,0,football-data.co.uk
+2025-0034,Crystal Palace,14,6,10,5,1,0,football-data.co.uk
+2025-0034,Sunderland,6,0,8,3,1,0,football-data.co.uk
+2025-0035,Everton,20,2,17,10,3,0,football-data.co.uk
+2025-0035,Aston Villa,7,1,15,3,3,0,football-data.co.uk
+2025-0036,Fulham,5,3,20,3,1,0,football-data.co.uk
+2025-0036,Leeds,10,3,15,3,2,0,football-data.co.uk
+2025-0037,Newcastle,16,4,10,10,1,0,football-data.co.uk
+2025-0037,Wolverhampton,8,3,17,4,4,0,football-data.co.uk
+2025-0038,West Ham,7,4,8,2,0,1,football-data.co.uk
+2025-0038,Tottenham,14,5,7,13,1,0,football-data.co.uk
+2025-0039,Burnley,3,0,9,1,0,0,football-data.co.uk
+2025-0039,Liverpool,27,4,9,13,2,0,football-data.co.uk
+2025-0040,Manchester City,13,6,8,2,0,0,football-data.co.uk
+2025-0040,Manchester United,12,2,8,4,0,0,football-data.co.uk
+2025-0041,Brighton,12,4,10,2,1,0,football-data.co.uk
+2025-0041,Tottenham,11,3,13,10,2,0,football-data.co.uk
+2025-0042,Burnley,12,5,12,4,1,0,football-data.co.uk
+2025-0042,Nottingham Forest,17,8,11,5,1,0,football-data.co.uk
+2025-0043,Fulham,14,3,11,2,4,0,football-data.co.uk
+2025-0043,Brentford,8,3,13,10,1,0,football-data.co.uk
+2025-0044,Liverpool,11,3,11,5,2,0,football-data.co.uk
+2025-0044,Everton,9,2,10,4,3,0,football-data.co.uk
+2025-0045,Manchester United,11,4,13,5,0,1,football-data.co.uk
+2025-0045,Chelsea,5,1,14,5,5,1,football-data.co.uk
+2025-0046,West Ham,8,3,15,8,3,0,football-data.co.uk
+2025-0046,Crystal Palace,18,3,5,8,3,0,football-data.co.uk
+2025-0047,Wolverhampton,16,6,11,4,1,0,football-data.co.uk
+2025-0047,Leeds,6,4,9,0,1,0,football-data.co.uk
+2025-0048,Bournemouth,11,2,7,5,2,0,football-data.co.uk
+2025-0048,Newcastle,4,1,10,2,1,0,football-data.co.uk
+2025-0049,Arsenal,12,3,11,11,1,0,football-data.co.uk
+2025-0049,Manchester City,5,3,10,2,2,0,football-data.co.uk
+2025-0050,Sunderland,14,4,14,6,2,1,football-data.co.uk
+2025-0050,Aston Villa,12,2,8,5,1,0,football-data.co.uk
+2025-0051,Brentford,10,8,14,4,2,0,football-data.co.uk
+2025-0051,Manchester United,14,6,10,2,2,0,football-data.co.uk
+2025-0052,Chelsea,13,3,9,5,3,1,football-data.co.uk
+2025-0052,Brighton,12,3,16,7,5,0,football-data.co.uk
+2025-0053,Crystal Palace,16,7,10,2,1,0,football-data.co.uk
+2025-0053,Liverpool,20,4,8,6,3,0,football-data.co.uk
+2025-0054,Leeds,19,8,12,7,2,0,football-data.co.uk
+2025-0054,Bournemouth,12,5,13,4,2,0,football-data.co.uk
+2025-0055,Manchester City,21,8,5,10,1,0,football-data.co.uk
+2025-0055,Burnley,9,2,7,2,3,0,football-data.co.uk
+2025-0056,Nottingham Forest,22,6,11,7,4,0,football-data.co.uk
+2025-0056,Sunderland,11,3,6,4,2,0,football-data.co.uk
+2025-0057,Tottenham,10,3,9,10,3,0,football-data.co.uk
+2025-0057,Wolverhampton,9,3,11,9,2,0,football-data.co.uk
+2025-0058,Aston Villa,9,4,10,2,1,0,football-data.co.uk
+2025-0058,Fulham,11,4,13,8,4,0,football-data.co.uk
+2025-0059,Newcastle,8,3,8,7,2,0,football-data.co.uk
+2025-0059,Arsenal,20,7,9,12,1,0,football-data.co.uk
+2025-0060,Everton,12,6,7,3,3,0,football-data.co.uk
+2025-0060,West Ham,14,3,16,5,4,0,football-data.co.uk
+2025-0061,Bournemouth,11,6,8,4,0,0,football-data.co.uk
+2025-0061,Fulham,12,4,10,3,1,0,football-data.co.uk
+2025-0062,Arsenal,21,5,14,8,0,0,football-data.co.uk
+2025-0062,West Ham,4,0,14,3,2,0,football-data.co.uk
+2025-0063,Chelsea,12,6,9,7,0,0,football-data.co.uk
+2025-0063,Liverpool,12,2,8,2,2,0,football-data.co.uk
+2025-0064,Leeds,16,4,10,4,2,0,football-data.co.uk
+2025-0064,Tottenham,9,3,12,1,3,0,football-data.co.uk
+2025-0065,Manchester United,15,6,10,2,1,0,football-data.co.uk
+2025-0065,Sunderland,8,3,12,3,4,0,football-data.co.uk
+2025-0066,Aston Villa,15,7,9,6,3,0,football-data.co.uk
+2025-0066,Burnley,5,2,15,4,1,0,football-data.co.uk
+2025-0067,Brentford,6,1,10,3,3,0,football-data.co.uk
+2025-0067,Manchester City,10,4,6,2,2,0,football-data.co.uk
+2025-0068,Everton,14,7,13,2,2,0,football-data.co.uk
+2025-0068,Crystal Palace,15,8,16,4,3,0,football-data.co.uk
+2025-0069,Newcastle,18,9,16,8,0,0,football-data.co.uk
+2025-0069,Nottingham Forest,5,4,15,1,4,0,football-data.co.uk
+2025-0070,Wolverhampton,6,3,13,2,2,0,football-data.co.uk
+2025-0070,Brighton,17,6,9,8,4,0,football-data.co.uk
+2025-0071,Brighton,13,5,9,8,0,0,football-data.co.uk
+2025-0071,Newcastle,16,3,9,4,1,0,football-data.co.uk
+2025-0072,Burnley,4,3,10,1,2,0,football-data.co.uk
+2025-0072,Leeds,19,4,7,5,1,0,football-data.co.uk
+2025-0073,Crystal Palace,20,7,8,6,1,0,football-data.co.uk
+2025-0073,Bournemouth,8,5,16,5,4,0,football-data.co.uk
+2025-0074,Fulham,9,0,11,6,0,0,football-data.co.uk
+2025-0074,Arsenal,16,5,4,10,0,0,football-data.co.uk
+2025-0075,Manchester City,19,7,8,11,0,0,football-data.co.uk
+2025-0075,Everton,5,1,14,3,2,0,football-data.co.uk
+2025-0076,Nottingham Forest,12,2,13,5,2,0,football-data.co.uk
+2025-0076,Chelsea,17,6,16,2,2,1,football-data.co.uk
+2025-0077,Sunderland,8,2,5,3,0,0,football-data.co.uk
+2025-0077,Wolverhampton,16,3,12,2,0,0,football-data.co.uk
+2025-0078,Liverpool,19,6,8,9,0,0,football-data.co.uk
+2025-0078,Manchester United,12,4,14,4,2,0,football-data.co.uk
+2025-0079,Tottenham,9,3,11,6,2,0,football-data.co.uk
+2025-0079,Aston Villa,8,2,7,6,0,0,football-data.co.uk
+2025-0080,West Ham,7,1,10,6,1,0,football-data.co.uk
+2025-0080,Brentford,22,7,10,10,1,0,football-data.co.uk
+2025-0081,Leeds,13,5,12,3,3,0,football-data.co.uk
+2025-0081,West Ham,9,3,11,4,3,0,football-data.co.uk
+2025-0082,Brentford,17,8,7,5,3,0,football-data.co.uk
+2025-0082,Liverpool,18,5,10,4,2,0,football-data.co.uk
+2025-0083,Chelsea,16,7,15,9,1,0,football-data.co.uk
+2025-0083,Sunderland,10,4,13,1,1,0,football-data.co.uk
+2025-0084,Manchester United,13,9,4,1,2,0,football-data.co.uk
+2025-0084,Brighton,17,5,13,6,2,0,football-data.co.uk
+2025-0085,Newcastle,18,7,11,4,0,0,football-data.co.uk
+2025-0085,Fulham,12,5,18,3,2,0,football-data.co.uk
+2025-0086,Bournemouth,13,5,17,6,3,0,football-data.co.uk
+2025-0086,Nottingham Forest,8,4,7,4,1,0,football-data.co.uk
+2025-0087,Arsenal,10,3,6,4,0,0,football-data.co.uk
+2025-0087,Crystal Palace,7,1,11,3,0,0,football-data.co.uk
+2025-0088,Aston Villa,9,3,8,5,1,0,football-data.co.uk
+2025-0088,Manchester City,18,4,16,6,4,0,football-data.co.uk
+2025-0089,Everton,12,2,9,9,2,0,football-data.co.uk
+2025-0089,Tottenham,7,4,8,8,0,0,football-data.co.uk
+2025-0090,Wolverhampton,15,7,12,5,1,0,football-data.co.uk
+2025-0090,Burnley,11,7,7,3,0,0,football-data.co.uk
+2025-0091,Brighton,14,7,10,4,0,0,football-data.co.uk
+2025-0091,Leeds,5,2,7,7,1,0,football-data.co.uk
+2025-0092,Burnley,3,0,10,1,2,0,football-data.co.uk
+2025-0092,Arsenal,12,8,13,6,1,0,football-data.co.uk
+2025-0093,Crystal Palace,9,2,7,6,0,0,football-data.co.uk
+2025-0093,Brentford,6,2,11,5,3,0,football-data.co.uk
+2025-0094,Fulham,19,6,13,10,1,0,football-data.co.uk
+2025-0094,Wolverhampton,5,2,14,1,3,1,football-data.co.uk
+2025-0095,Liverpool,16,4,13,1,2,0,football-data.co.uk
+2025-0095,Aston Villa,10,3,11,4,3,0,football-data.co.uk
+2025-0096,Nottingham Forest,17,3,10,8,1,0,football-data.co.uk
+2025-0096,Manchester United,18,7,7,5,1,0,football-data.co.uk
+2025-0097,Tottenham,3,1,14,6,4,0,football-data.co.uk
+2025-0097,Chelsea,15,9,12,5,2,0,football-data.co.uk
+2025-0098,Manchester City,15,8,8,10,2,0,football-data.co.uk
+2025-0098,Bournemouth,8,5,11,4,2,0,football-data.co.uk
+2025-0099,West Ham,15,9,5,7,1,0,football-data.co.uk
+2025-0099,Newcastle,12,4,10,6,2,0,football-data.co.uk
+2025-0100,Sunderland,17,3,10,4,3,0,football-data.co.uk
+2025-0100,Everton,8,2,12,1,2,0,football-data.co.uk
+2025-0101,Chelsea,20,8,12,10,1,0,football-data.co.uk
+2025-0101,Wolverhampton,3,0,14,1,2,0,football-data.co.uk
+2025-0102,Everton,14,5,11,7,2,0,football-data.co.uk
+2025-0102,Fulham,8,4,14,5,2,0,football-data.co.uk
+2025-0103,Sunderland,6,2,13,2,2,0,football-data.co.uk
+2025-0103,Arsenal,17,7,13,2,1,0,football-data.co.uk
+2025-0104,Tottenham,10,4,10,5,5,0,football-data.co.uk
+2025-0104,Manchester United,5,2,8,3,1,0,football-data.co.uk
+2025-0105,West Ham,15,6,15,7,2,0,football-data.co.uk
+2025-0105,Burnley,16,7,13,4,2,0,football-data.co.uk
+2025-0106,Aston Villa,16,8,8,6,2,0,football-data.co.uk
+2025-0106,Bournemouth,13,4,20,9,2,0,football-data.co.uk
+2025-0107,Brentford,15,7,10,6,2,0,football-data.co.uk
+2025-0107,Newcastle,5,1,13,2,1,0,football-data.co.uk
+2025-0108,Crystal Palace,10,2,10,4,1,0,football-data.co.uk
+2025-0108,Brighton,7,3,12,8,4,0,football-data.co.uk
+2025-0109,Manchester City,14,6,14,7,2,0,football-data.co.uk
+2025-0109,Liverpool,7,1,15,7,4,0,football-data.co.uk
+2025-0110,Nottingham Forest,14,6,10,6,2,0,football-data.co.uk
+2025-0110,Leeds,10,3,11,4,1,0,football-data.co.uk
+2025-0111,Bournemouth,28,10,9,9,3,0,football-data.co.uk
+2025-0111,West Ham,5,2,10,2,2,0,football-data.co.uk
+2025-0112,Brighton,14,5,10,7,4,0,football-data.co.uk
+2025-0112,Brentford,10,4,9,4,2,0,football-data.co.uk
+2025-0113,Burnley,8,2,13,1,2,0,football-data.co.uk
+2025-0113,Chelsea,15,5,8,9,3,0,football-data.co.uk
+2025-0114,Fulham,24,6,5,7,3,0,football-data.co.uk
+2025-0114,Sunderland,4,2,13,4,3,0,football-data.co.uk
+2025-0115,Liverpool,21,4,11,8,2,0,football-data.co.uk
+2025-0115,Nottingham Forest,15,7,8,6,0,0,football-data.co.uk
+2025-0116,Newcastle,9,5,13,5,1,0,football-data.co.uk
+2025-0116,Manchester City,17,4,8,9,3,0,football-data.co.uk
+2025-0117,Wolverhampton,8,1,13,1,2,0,football-data.co.uk
+2025-0117,Crystal Palace,10,4,9,4,3,0,football-data.co.uk
+2025-0118,Arsenal,17,8,11,4,1,0,football-data.co.uk
+2025-0118,Tottenham,3,2,15,1,3,0,football-data.co.uk
+2025-0119,Leeds,14,5,18,3,5,0,football-data.co.uk
+2025-0119,Aston Villa,14,3,16,3,1,0,football-data.co.uk
+2025-0120,Manchester United,25,6,12,9,2,0,football-data.co.uk
+2025-0120,Everton,3,1,9,1,0,1,football-data.co.uk
+2025-0121,Brentford,14,4,7,5,0,0,football-data.co.uk
+2025-0121,Burnley,6,2,7,6,2,0,football-data.co.uk
+2025-0122,Everton,10,2,4,8,0,0,football-data.co.uk
+2025-0122,Newcastle,13,8,6,7,0,0,football-data.co.uk
+2025-0123,Manchester City,18,9,17,8,4,0,football-data.co.uk
+2025-0123,Leeds,9,4,11,1,1,0,football-data.co.uk
+2025-0124,Sunderland,12,6,14,6,5,0,football-data.co.uk
+2025-0124,Bournemouth,18,6,13,3,5,1,football-data.co.uk
+2025-0125,Tottenham,14,2,11,8,3,0,football-data.co.uk
+2025-0125,Fulham,7,3,7,2,2,0,football-data.co.uk
+2025-0126,Aston Villa,16,6,13,7,0,0,football-data.co.uk
+2025-0126,Wolverhampton,9,4,21,3,4,0,football-data.co.uk
+2025-0127,Chelsea,11,4,12,3,1,1,football-data.co.uk
+2025-0127,Arsenal,8,4,13,3,6,0,football-data.co.uk
+2025-0128,Crystal Palace,14,3,14,4,3,0,football-data.co.uk
+2025-0128,Manchester United,14,6,14,4,2,0,football-data.co.uk
+2025-0129,Nottingham Forest,19,3,11,9,0,0,football-data.co.uk
+2025-0129,Brighton,17,6,10,2,1,0,football-data.co.uk
+2025-0130,West Ham,7,0,12,7,1,1,football-data.co.uk
+2025-0130,Liverpool,9,5,14,2,0,0,football-data.co.uk
+2025-0131,Bournemouth,5,2,14,1,3,0,football-data.co.uk
+2025-0131,Everton,13,3,14,6,3,0,football-data.co.uk
+2025-0132,Fulham,12,6,9,7,0,0,football-data.co.uk
+2025-0132,Manchester City,11,4,7,2,1,0,football-data.co.uk
+2025-0133,Newcastle,19,7,5,11,0,0,football-data.co.uk
+2025-0133,Tottenham,8,2,12,8,3,0,football-data.co.uk
+2025-0134,Arsenal,15,7,7,4,0,0,football-data.co.uk
+2025-0134,Brentford,6,1,9,8,1,0,football-data.co.uk
+2025-0135,Brighton,16,7,10,5,2,0,football-data.co.uk
+2025-0135,Aston Villa,14,10,9,6,2,0,football-data.co.uk
+2025-0136,Burnley,11,4,9,3,0,0,football-data.co.uk
+2025-0136,Crystal Palace,3,3,8,4,0,0,football-data.co.uk
+2025-0137,Leeds,17,5,10,4,1,0,football-data.co.uk
+2025-0137,Chelsea,14,2,13,2,1,0,football-data.co.uk
+2025-0138,Liverpool,23,4,10,7,1,0,football-data.co.uk
+2025-0138,Sunderland,9,6,5,3,1,0,football-data.co.uk
+2025-0139,Wolverhampton,5,1,19,3,2,0,football-data.co.uk
+2025-0139,Nottingham Forest,10,3,11,9,2,0,football-data.co.uk
+2025-0140,Manchester United,17,4,13,6,2,0,football-data.co.uk
+2025-0140,West Ham,11,3,9,6,2,0,football-data.co.uk
+2025-0141,Bournemouth,13,5,15,5,0,0,football-data.co.uk
+2025-0141,Chelsea,11,4,13,0,2,0,football-data.co.uk
+2025-0142,Aston Villa,15,6,10,3,0,0,football-data.co.uk
+2025-0142,Arsenal,15,9,8,3,2,0,football-data.co.uk
+2025-0143,Everton,11,5,17,6,4,0,football-data.co.uk
+2025-0143,Nottingham Forest,7,3,15,3,3,0,football-data.co.uk
+2025-0144,Leeds,12,5,14,5,3,0,football-data.co.uk
+2025-0144,Liverpool,16,7,14,4,3,0,football-data.co.uk
+2025-0145,Manchester City,18,6,9,6,1,0,football-data.co.uk
+2025-0145,Sunderland,8,1,10,5,0,1,football-data.co.uk
+2025-0146,Newcastle,17,7,9,9,2,0,football-data.co.uk
+2025-0146,Burnley,9,3,11,9,2,1,football-data.co.uk
+2025-0147,Tottenham,15,7,8,7,3,0,football-data.co.uk
+2025-0147,Brentford,4,1,9,6,4,0,football-data.co.uk
+2025-0148,Brighton,22,4,12,10,2,0,football-data.co.uk
+2025-0148,West Ham,14,5,8,6,2,0,football-data.co.uk
+2025-0149,Fulham,12,4,5,6,0,0,football-data.co.uk
+2025-0149,Crystal Palace,11,5,8,4,0,0,football-data.co.uk
+2025-0150,Wolverhampton,8,2,17,1,3,0,football-data.co.uk
+2025-0150,Manchester United,27,10,12,9,2,0,football-data.co.uk
+2025-0151,Arsenal,16,2,7,8,0,0,football-data.co.uk
+2025-0151,Wolverhampton,3,2,15,0,4,0,football-data.co.uk
+2025-0152,Burnley,16,8,8,10,1,0,football-data.co.uk
+2025-0152,Fulham,6,4,8,4,2,0,football-data.co.uk
+2025-0153,Chelsea,17,5,13,4,1,0,football-data.co.uk
+2025-0153,Everton,11,2,11,7,0,0,football-data.co.uk
+2025-0154,Liverpool,18,4,8,2,1,0,football-data.co.uk
+2025-0154,Brighton,14,1,15,2,2,0,football-data.co.uk
+2025-0155,Brentford,7,2,8,0,0,0,football-data.co.uk
+2025-0155,Leeds,18,4,9,3,0,0,football-data.co.uk
+2025-0156,Crystal Palace,16,4,9,2,2,0,football-data.co.uk
+2025-0156,Manchester City,7,6,6,2,0,0,football-data.co.uk
+2025-0157,Nottingham Forest,15,6,9,3,1,0,football-data.co.uk
+2025-0157,Tottenham,6,1,13,3,3,0,football-data.co.uk
+2025-0158,Sunderland,5,1,10,3,5,0,football-data.co.uk
+2025-0158,Newcastle,6,2,10,6,4,0,football-data.co.uk
+2025-0159,West Ham,10,3,18,5,1,0,football-data.co.uk
+2025-0159,Aston Villa,7,4,13,3,2,0,football-data.co.uk
+2025-0160,Manchester United,25,9,15,5,2,0,football-data.co.uk
+2025-0160,Bournemouth,14,9,12,4,3,0,football-data.co.uk
+2025-0161,Bournemouth,16,1,11,5,1,0,football-data.co.uk
+2025-0161,Burnley,4,1,11,3,1,0,football-data.co.uk
+2025-0162,Brighton,16,4,11,3,2,0,football-data.co.uk
+2025-0162,Sunderland,14,6,15,4,2,0,football-data.co.uk
+2025-0163,Everton,5,1,4,2,2,0,football-data.co.uk
+2025-0163,Arsenal,13,2,5,3,2,0,football-data.co.uk
+2025-0164,Leeds,20,8,5,9,1,0,football-data.co.uk
+2025-0164,Crystal Palace,9,3,10,5,3,0,football-data.co.uk
+2025-0165,Manchester City,17,8,16,6,1,0,football-data.co.uk
+2025-0165,West Ham,7,3,10,0,1,0,football-data.co.uk
+2025-0166,Newcastle,11,5,13,6,3,0,football-data.co.uk
+2025-0166,Chelsea,13,4,14,4,6,0,football-data.co.uk
+2025-0167,Tottenham,15,4,9,2,3,2,football-data.co.uk
+2025-0167,Liverpool,8,4,7,6,3,0,football-data.co.uk
+2025-0168,Wolverhampton,9,2,12,3,2,0,football-data.co.uk
+2025-0168,Brentford,7,6,15,4,4,0,football-data.co.uk
+2025-0169,Aston Villa,12,4,11,5,1,0,football-data.co.uk
+2025-0169,Manchester United,15,6,14,5,2,0,football-data.co.uk
+2025-0170,Fulham,11,1,5,1,5,0,football-data.co.uk
+2025-0170,Nottingham Forest,12,2,9,5,4,0,football-data.co.uk
+2025-0171,Manchester United,10,4,9,2,2,0,football-data.co.uk
+2025-0171,Newcastle,16,3,5,11,1,0,football-data.co.uk
+2025-0172,Arsenal,24,6,7,7,2,0,football-data.co.uk
+2025-0172,Brighton,8,3,13,2,3,0,football-data.co.uk
+2025-0173,Brentford,15,7,9,2,2,0,football-data.co.uk
+2025-0173,Bournemouth,20,10,8,15,2,0,football-data.co.uk
+2025-0174,Burnley,16,0,8,6,0,0,football-data.co.uk
+2025-0174,Everton,15,6,8,5,2,0,football-data.co.uk
+2025-0175,Chelsea,14,3,16,6,5,0,football-data.co.uk
+2025-0175,Aston Villa,11,8,8,7,3,0,football-data.co.uk
+2025-0176,Liverpool,14,4,5,6,0,0,football-data.co.uk
+2025-0176,Wolverhampton,9,4,13,4,1,0,football-data.co.uk
+2025-0177,Nottingham Forest,7,2,5,5,1,0,football-data.co.uk
+2025-0177,Manchester City,16,5,13,5,2,0,football-data.co.uk
+2025-0178,West Ham,11,2,8,5,1,0,football-data.co.uk
+2025-0178,Fulham,15,4,8,4,3,0,football-data.co.uk
+2025-0179,Crystal Palace,15,2,7,3,3,0,football-data.co.uk
+2025-0179,Tottenham,8,4,5,2,2,0,football-data.co.uk
+2025-0180,Sunderland,8,3,7,3,1,0,football-data.co.uk
+2025-0180,Leeds,17,6,9,9,0,0,football-data.co.uk
+2025-0181,Arsenal,22,7,18,3,2,0,football-data.co.uk
+2025-0181,Aston Villa,11,3,9,3,3,0,football-data.co.uk
+2025-0182,Burnley,15,4,9,3,2,0,football-data.co.uk
+2025-0182,Newcastle,20,9,3,4,1,0,football-data.co.uk
+2025-0183,Chelsea,17,3,5,12,1,0,football-data.co.uk
+2025-0183,Bournemouth,17,6,12,3,1,0,football-data.co.uk
+2025-0184,Manchester United,15,6,9,8,0,0,football-data.co.uk
+2025-0184,Wolverhampton,11,4,12,4,2,0,football-data.co.uk
+2025-0185,Nottingham Forest,21,6,11,9,1,0,football-data.co.uk
+2025-0185,Everton,11,3,9,2,0,0,football-data.co.uk
+2025-0186,West Ham,10,4,11,5,3,0,football-data.co.uk
+2025-0186,Brighton,16,6,18,5,5,0,football-data.co.uk
+2025-0187,Brentford,7,2,8,3,1,0,football-data.co.uk
+2025-0187,Tottenham,9,3,10,1,2,0,football-data.co.uk
+2025-0188,Crystal Palace,11,2,7,6,0,0,football-data.co.uk
+2025-0188,Fulham,17,5,10,3,5,0,football-data.co.uk
+2025-0189,Liverpool,19,4,10,8,0,0,football-data.co.uk
+2025-0189,Leeds,4,2,8,3,2,0,football-data.co.uk
+2025-0190,Sunderland,10,4,9,3,1,0,football-data.co.uk
+2025-0190,Manchester City,14,4,6,5,1,0,football-data.co.uk
+2025-0191,Bournemouth,15,3,13,7,3,0,football-data.co.uk
+2025-0191,Arsenal,12,5,8,5,1,0,football-data.co.uk
+2025-0192,Aston Villa,11,4,10,4,1,0,football-data.co.uk
+2025-0192,Nottingham Forest,10,5,20,4,2,0,football-data.co.uk
+2025-0193,Brighton,15,4,7,4,0,0,football-data.co.uk
+2025-0193,Burnley,5,3,17,4,4,0,football-data.co.uk
+2025-0194,Wolverhampton,11,8,11,6,1,0,football-data.co.uk
+2025-0194,West Ham,6,0,10,7,0,0,football-data.co.uk
+2025-0195,Everton,14,6,9,4,0,0,football-data.co.uk
+2025-0195,Brentford,11,7,8,5,2,0,football-data.co.uk
+2025-0196,Fulham,8,2,11,3,1,0,football-data.co.uk
+2025-0196,Liverpool,10,2,4,8,1,0,football-data.co.uk
+2025-0197,Leeds,11,3,9,6,0,0,football-data.co.uk
+2025-0197,Manchester United,15,2,9,4,1,0,football-data.co.uk
+2025-0198,Manchester City,14,3,12,8,3,0,football-data.co.uk
+2025-0198,Chelsea,8,3,14,2,3,0,football-data.co.uk
+2025-0199,Newcastle,12,7,5,8,1,0,football-data.co.uk
+2025-0199,Crystal Palace,11,1,12,6,3,0,football-data.co.uk
+2025-0200,Tottenham,13,5,10,3,2,0,football-data.co.uk
+2025-0200,Sunderland,10,3,6,5,3,0,football-data.co.uk
+2025-0201,West Ham,14,3,15,6,3,0,football-data.co.uk
+2025-0201,Nottingham Forest,13,5,9,5,0,0,football-data.co.uk
+2025-0202,Bournemouth,11,3,19,3,3,0,football-data.co.uk
+2025-0202,Tottenham,16,4,10,7,3,0,football-data.co.uk
+2025-0203,Brentford,18,6,13,7,2,0,football-data.co.uk
+2025-0203,Sunderland,11,3,13,4,1,0,football-data.co.uk
+2025-0204,Burnley,7,1,9,2,2,0,football-data.co.uk
+2025-0204,Manchester United,30,10,8,6,0,0,football-data.co.uk
+2025-0205,Crystal Palace,11,5,8,3,2,0,football-data.co.uk
+2025-0205,Aston Villa,15,3,3,5,0,0,football-data.co.uk
+2025-0206,Everton,13,2,13,2,1,2,football-data.co.uk
+2025-0206,Wolverhampton,13,4,15,7,3,0,football-data.co.uk
+2025-0207,Fulham,16,5,11,2,3,0,football-data.co.uk
+2025-0207,Chelsea,14,6,6,11,3,1,football-data.co.uk
+2025-0208,Manchester City,22,6,6,6,1,0,football-data.co.uk
+2025-0208,Brighton,6,3,16,2,6,0,football-data.co.uk
+2025-0209,Newcastle,18,8,11,8,3,0,football-data.co.uk
+2025-0209,Leeds,14,6,10,4,2,0,football-data.co.uk
+2025-0210,Arsenal,9,4,10,3,2,0,football-data.co.uk
+2025-0210,Liverpool,8,0,9,0,2,0,football-data.co.uk
+2025-0211,Chelsea,6,2,7,3,3,0,football-data.co.uk
+2025-0211,Brentford,15,5,10,9,2,0,football-data.co.uk
+2025-0212,Leeds,14,5,6,7,1,0,football-data.co.uk
+2025-0212,Fulham,8,1,11,3,5,0,football-data.co.uk
+2025-0213,Liverpool,32,11,8,9,1,0,football-data.co.uk
+2025-0213,Burnley,7,1,10,1,2,0,football-data.co.uk
+2025-0214,Manchester United,11,7,13,1,2,0,football-data.co.uk
+2025-0214,Manchester City,7,1,8,6,3,0,football-data.co.uk
+2025-0215,Nottingham Forest,6,0,8,4,1,0,football-data.co.uk
+2025-0215,Arsenal,15,3,14,9,1,0,football-data.co.uk
+2025-0216,Sunderland,13,7,8,3,3,0,football-data.co.uk
+2025-0216,Crystal Palace,6,2,15,4,3,0,football-data.co.uk
+2025-0217,Tottenham,21,6,12,11,5,0,football-data.co.uk
+2025-0217,West Ham,17,4,17,5,3,0,football-data.co.uk
+2025-0218,Aston Villa,18,5,15,6,1,0,football-data.co.uk
+2025-0218,Everton,9,3,13,4,2,0,football-data.co.uk
+2025-0219,Wolverhampton,6,2,14,4,2,0,football-data.co.uk
+2025-0219,Newcastle,12,2,8,7,2,0,football-data.co.uk
+2025-0220,Brighton,17,5,7,11,2,0,football-data.co.uk
+2025-0220,Bournemouth,11,2,6,6,3,0,football-data.co.uk
+2025-0221,Bournemouth,12,5,7,3,1,0,football-data.co.uk
+2025-0221,Liverpool,14,4,7,11,1,0,football-data.co.uk
+2025-0222,Burnley,9,4,8,1,1,0,football-data.co.uk
+2025-0222,Tottenham,18,11,9,3,0,0,football-data.co.uk
+2025-0223,Fulham,12,4,10,6,1,0,football-data.co.uk
+2025-0223,Brighton,13,5,6,6,1,0,football-data.co.uk
+2025-0224,Manchester City,11,4,16,4,1,0,football-data.co.uk
+2025-0224,Wolverhampton,11,1,14,6,3,0,football-data.co.uk
+2025-0225,West Ham,13,5,9,3,2,0,football-data.co.uk
+2025-0225,Sunderland,7,2,16,3,4,0,football-data.co.uk
+2025-0226,Arsenal,15,4,11,9,2,0,football-data.co.uk
+2025-0226,Manchester United,10,3,9,2,0,0,football-data.co.uk
+2025-0227,Brentford,10,1,11,6,1,0,football-data.co.uk
+2025-0227,Nottingham Forest,7,2,10,5,0,0,football-data.co.uk
+2025-0228,Crystal Palace,13,7,11,4,2,1,football-data.co.uk
+2025-0228,Chelsea,10,6,10,5,2,0,football-data.co.uk
+2025-0229,Newcastle,15,4,7,6,1,0,football-data.co.uk
+2025-0229,Aston Villa,14,8,12,5,2,0,football-data.co.uk
+2025-0230,Everton,10,3,9,4,0,0,football-data.co.uk
+2025-0230,Leeds,14,4,13,4,3,0,football-data.co.uk
+2025-0231,Brighton,11,2,13,5,1,0,football-data.co.uk
+2025-0231,Everton,7,4,14,2,2,0,football-data.co.uk
+2025-0232,Chelsea,14,6,11,9,3,0,football-data.co.uk
+2025-0232,West Ham,11,6,13,3,2,1,football-data.co.uk
+2025-0233,Leeds,3,1,10,4,1,0,football-data.co.uk
+2025-0233,Arsenal,14,8,7,12,1,0,football-data.co.uk
+2025-0234,Liverpool,17,7,11,7,1,0,football-data.co.uk
+2025-0234,Newcastle,8,2,7,11,3,0,football-data.co.uk
+2025-0235,Wolverhampton,17,7,11,5,3,0,football-data.co.uk
+2025-0235,Bournemouth,9,4,15,6,3,0,football-data.co.uk
+2025-0236,Aston Villa,27,5,8,12,0,0,football-data.co.uk
+2025-0236,Brentford,6,2,8,1,3,0,football-data.co.uk
+2025-0237,Manchester United,13,6,6,3,2,0,football-data.co.uk
+2025-0237,Fulham,14,6,9,7,1,0,football-data.co.uk
+2025-0238,Nottingham Forest,9,1,4,5,1,0,football-data.co.uk
+2025-0238,Crystal Palace,14,3,12,7,3,0,football-data.co.uk
+2025-0239,Tottenham,12,6,15,3,3,0,football-data.co.uk
+2025-0239,Manchester City,15,3,12,4,3,0,football-data.co.uk
+2025-0240,Sunderland,14,5,12,1,1,0,football-data.co.uk
+2025-0240,Burnley,5,0,10,2,4,0,football-data.co.uk
+2025-0241,Leeds,14,5,9,5,1,0,football-data.co.uk
+2025-0241,Nottingham Forest,16,6,12,10,1,0,football-data.co.uk
+2025-0242,Bournemouth,20,9,4,11,1,0,football-data.co.uk
+2025-0242,Aston Villa,7,4,11,4,1,0,football-data.co.uk
+2025-0243,Arsenal,16,5,11,5,1,0,football-data.co.uk
+2025-0243,Sunderland,5,3,8,2,2,0,football-data.co.uk
+2025-0244,Burnley,18,5,11,5,3,0,football-data.co.uk
+2025-0244,West Ham,6,4,10,2,1,0,football-data.co.uk
+2025-0245,Fulham,13,3,11,6,1,0,football-data.co.uk
+2025-0245,Everton,16,3,12,6,5,0,football-data.co.uk
+2025-0246,Manchester United,23,10,12,7,1,0,football-data.co.uk
+2025-0246,Tottenham,7,1,11,0,2,1,football-data.co.uk
+2025-0247,Newcastle,16,4,14,9,2,0,football-data.co.uk
+2025-0247,Brentford,11,5,18,3,2,0,football-data.co.uk
+2025-0248,Wolverhampton,11,3,9,3,1,0,football-data.co.uk
+2025-0248,Chelsea,15,6,10,4,1,0,football-data.co.uk
+2025-0249,Brighton,7,2,12,3,1,0,football-data.co.uk
+2025-0249,Crystal Palace,7,4,9,4,3,0,football-data.co.uk
+2025-0250,Liverpool,15,4,13,5,2,1,football-data.co.uk
+2025-0250,Manchester City,17,7,16,4,4,0,football-data.co.uk
+2025-0251,Chelsea,19,4,9,4,4,0,football-data.co.uk
+2025-0251,Leeds,4,2,13,1,4,0,football-data.co.uk
+2025-0252,Everton,16,6,14,7,1,1,football-data.co.uk
+2025-0252,Bournemouth,11,4,15,2,3,0,football-data.co.uk
+2025-0253,Tottenham,16,2,15,2,3,0,football-data.co.uk
+2025-0253,Newcastle,21,5,11,12,2,0,football-data.co.uk
+2025-0254,West Ham,7,3,10,5,1,0,football-data.co.uk
+2025-0254,Manchester United,9,3,4,3,1,0,football-data.co.uk
+2025-0255,Aston Villa,15,1,9,7,2,0,football-data.co.uk
+2025-0255,Brighton,9,3,15,5,3,0,football-data.co.uk
+2025-0256,Crystal Palace,21,3,11,8,2,0,football-data.co.uk
+2025-0256,Burnley,8,3,8,2,1,0,football-data.co.uk
+2025-0257,Manchester City,13,5,8,4,3,0,football-data.co.uk
+2025-0257,Fulham,14,3,10,4,1,0,football-data.co.uk
+2025-0258,Nottingham Forest,35,10,12,8,0,0,football-data.co.uk
+2025-0258,Wolverhampton,7,3,13,2,2,0,football-data.co.uk
+2025-0259,Sunderland,11,2,8,3,1,0,football-data.co.uk
+2025-0259,Liverpool,23,3,10,11,0,0,football-data.co.uk
+2025-0260,Brentford,12,3,12,6,3,0,football-data.co.uk
+2025-0260,Arsenal,7,2,11,4,2,0,football-data.co.uk
+2025-0261,Wolverhampton,5,2,6,1,2,0,football-data.co.uk
+2025-0261,Arsenal,10,4,8,3,1,0,football-data.co.uk
+2025-0262,Aston Villa,16,4,11,7,1,0,football-data.co.uk
+2025-0262,Leeds,14,4,16,2,4,0,football-data.co.uk
+2025-0263,Brentford,13,3,9,6,1,0,football-data.co.uk
+2025-0263,Brighton,11,7,14,4,2,0,football-data.co.uk
+2025-0264,Chelsea,12,2,13,9,2,1,football-data.co.uk
+2025-0264,Burnley,12,4,11,5,2,0,football-data.co.uk
+2025-0265,Manchester City,15,7,12,5,2,0,football-data.co.uk
+2025-0265,Newcastle,13,7,13,5,5,0,football-data.co.uk
+2025-0266,West Ham,20,3,10,9,1,0,football-data.co.uk
+2025-0266,Bournemouth,10,5,11,5,1,0,football-data.co.uk
+2025-0267,Crystal Palace,14,3,19,7,5,0,football-data.co.uk
+2025-0267,Wolverhampton,12,7,13,3,1,1,football-data.co.uk
+2025-0268,Nottingham Forest,18,2,13,7,2,0,football-data.co.uk
+2025-0268,Liverpool,10,4,9,2,0,0,football-data.co.uk
+2025-0269,Sunderland,12,2,6,6,1,0,football-data.co.uk
+2025-0269,Fulham,12,4,13,4,1,0,football-data.co.uk
+2025-0270,Tottenham,6,5,17,2,2,0,football-data.co.uk
+2025-0270,Arsenal,20,7,11,5,1,0,football-data.co.uk
+2025-0271,Everton,12,4,12,10,2,0,football-data.co.uk
+2025-0271,Manchester United,11,3,7,1,3,0,football-data.co.uk
+2025-0272,Wolverhampton,9,2,13,0,3,0,football-data.co.uk
+2025-0272,Aston Villa,14,5,19,5,3,0,football-data.co.uk
+2025-0273,Bournemouth,21,5,15,7,4,0,football-data.co.uk
+2025-0273,Sunderland,8,4,12,3,2,0,football-data.co.uk
+2025-0274,Burnley,12,3,9,4,2,0,football-data.co.uk
+2025-0274,Brentford,16,7,9,8,2,0,football-data.co.uk
+2025-0275,Leeds,14,2,10,5,0,0,football-data.co.uk
+2025-0275,Manchester City,14,5,8,3,3,0,football-data.co.uk
+2025-0276,Liverpool,18,7,12,10,2,0,football-data.co.uk
+2025-0276,West Ham,11,4,11,5,2,0,football-data.co.uk
+2025-0277,Newcastle,17,7,15,7,2,0,football-data.co.uk
+2025-0277,Everton,9,5,7,2,3,0,football-data.co.uk
+2025-0278,Arsenal,12,5,11,5,1,0,football-data.co.uk
+2025-0278,Chelsea,9,3,14,10,3,1,football-data.co.uk
+2025-0279,Brighton,14,7,12,4,3,0,football-data.co.uk
+2025-0279,Nottingham Forest,13,4,13,4,1,0,football-data.co.uk
+2025-0280,Fulham,18,4,11,5,3,0,football-data.co.uk
+2025-0280,Tottenham,13,1,14,8,3,0,football-data.co.uk
+2025-0281,Manchester United,20,11,13,7,2,0,football-data.co.uk
+2025-0281,Crystal Palace,8,3,12,1,2,1,football-data.co.uk
+2025-0282,Bournemouth,13,2,9,4,2,0,football-data.co.uk
+2025-0282,Brentford,5,2,10,3,1,0,football-data.co.uk
+2025-0283,Everton,14,5,10,6,0,0,football-data.co.uk
+2025-0283,Burnley,5,2,12,3,1,0,football-data.co.uk
+2025-0284,Leeds,18,4,15,9,1,0,football-data.co.uk
+2025-0284,Sunderland,3,1,19,2,3,0,football-data.co.uk
+2025-0285,Wolverhampton,4,3,10,2,2,0,football-data.co.uk
+2025-0285,Liverpool,19,7,13,11,1,0,football-data.co.uk
+2025-0286,Aston Villa,9,4,10,3,3,0,football-data.co.uk
+2025-0286,Chelsea,15,8,9,8,2,0,football-data.co.uk
+2025-0287,Brighton,11,3,14,4,4,0,football-data.co.uk
+2025-0287,Arsenal,7,2,12,3,1,0,football-data.co.uk
+2025-0288,Fulham,13,5,14,7,2,0,football-data.co.uk
+2025-0288,West Ham,9,3,12,5,4,0,football-data.co.uk
+2025-0289,Manchester City,21,7,10,6,0,0,football-data.co.uk
+2025-0289,Nottingham Forest,9,4,6,1,4,0,football-data.co.uk
+2025-0290,Newcastle,12,5,15,2,2,1,football-data.co.uk
+2025-0290,Manchester United,14,5,16,4,3,0,football-data.co.uk
+2025-0291,Tottenham,12,4,14,6,3,0,football-data.co.uk
+2025-0291,Crystal Palace,9,4,14,3,2,0,football-data.co.uk
+2025-0292,Arsenal,25,7,11,8,0,0,football-data.co.uk
+2025-0292,Everton,9,3,12,3,0,0,football-data.co.uk
+2025-0293,Burnley,15,2,11,5,1,0,football-data.co.uk
+2025-0293,Bournemouth,22,3,5,8,0,0,football-data.co.uk
+2025-0294,Chelsea,22,3,9,8,2,0,football-data.co.uk
+2025-0294,Newcastle,7,5,10,1,2,0,football-data.co.uk
+2025-0295,Sunderland,14,4,7,7,1,0,football-data.co.uk
+2025-0295,Brighton,12,4,12,3,2,0,football-data.co.uk
+2025-0296,West Ham,1,1,14,1,2,0,football-data.co.uk
+2025-0296,Manchester City,24,6,5,15,2,0,football-data.co.uk
+2025-0297,Crystal Palace,12,0,12,8,2,0,football-data.co.uk
+2025-0297,Leeds,10,3,11,3,1,1,football-data.co.uk
+2025-0298,Liverpool,17,4,8,3,0,0,football-data.co.uk
+2025-0298,Tottenham,13,7,13,4,0,0,football-data.co.uk
+2025-0299,Manchester United,16,6,10,6,3,0,football-data.co.uk
+2025-0299,Aston Villa,9,2,5,6,2,0,football-data.co.uk
+2025-0300,Nottingham Forest,11,2,8,5,2,0,football-data.co.uk
+2025-0300,Fulham,5,0,10,4,3,0,football-data.co.uk
+2025-0301,Brentford,10,3,12,1,2,0,football-data.co.uk
+2025-0301,Wolverhampton,13,4,10,5,4,0,football-data.co.uk
+2025-0302,Bournemouth,16,5,10,6,2,0,football-data.co.uk
+2025-0302,Manchester United,14,5,9,8,2,1,football-data.co.uk
+2025-0303,Brighton,16,7,11,4,5,0,football-data.co.uk
+2025-0303,Liverpool,12,5,11,8,5,0,football-data.co.uk
+2025-0304,Everton,10,9,6,3,0,0,football-data.co.uk
+2025-0304,Chelsea,12,4,7,9,2,0,football-data.co.uk
+2025-0305,Fulham,22,6,6,6,2,0,football-data.co.uk
+2025-0305,Burnley,9,5,9,6,2,1,football-data.co.uk
+2025-0306,Leeds,14,4,6,6,2,0,football-data.co.uk
+2025-0306,Brentford,6,2,9,2,0,0,football-data.co.uk
+2025-0307,Aston Villa,23,7,3,6,0,0,football-data.co.uk
+2025-0307,West Ham,9,1,7,6,1,0,football-data.co.uk
+2025-0308,Newcastle,16,4,8,9,1,0,football-data.co.uk
+2025-0308,Sunderland,17,7,19,5,6,0,football-data.co.uk
+2025-0309,Tottenham,14,3,13,13,1,0,football-data.co.uk
+2025-0309,Nottingham Forest,8,7,13,3,2,0,football-data.co.uk
+2025-0310,West Ham,18,7,11,5,2,0,football-data.co.uk
+2025-0310,Wolverhampton,14,3,7,2,2,0,football-data.co.uk
+2025-0311,Arsenal,15,3,12,10,1,0,football-data.co.uk
+2025-0311,Bournemouth,8,3,18,1,3,0,football-data.co.uk
+2025-0312,Brentford,17,4,6,2,0,0,football-data.co.uk
+2025-0312,Everton,14,7,7,3,2,0,football-data.co.uk
+2025-0313,Burnley,10,5,7,8,2,0,football-data.co.uk
+2025-0313,Brighton,13,6,11,2,1,0,football-data.co.uk
+2025-0314,Liverpool,18,5,10,6,0,0,football-data.co.uk
+2025-0314,Fulham,19,4,4,9,0,0,football-data.co.uk
+2025-0315,Chelsea,12,3,10,4,3,0,football-data.co.uk
+2025-0315,Manchester City,18,8,14,12,1,0,football-data.co.uk
+2025-0316,Crystal Palace,11,5,17,2,0,0,football-data.co.uk
+2025-0316,Newcastle,7,3,12,4,3,0,football-data.co.uk
+2025-0317,Nottingham Forest,15,4,15,7,2,0,football-data.co.uk
+2025-0317,Aston Villa,12,5,10,3,2,0,football-data.co.uk
+2025-0318,Sunderland,13,2,14,2,3,0,football-data.co.uk
+2025-0318,Tottenham,11,7,15,6,3,0,football-data.co.uk
+2025-0319,Manchester United,20,9,12,11,3,1,football-data.co.uk
+2025-0319,Leeds,15,6,15,4,2,0,football-data.co.uk
+2025-0320,Brentford,13,4,8,9,0,0,football-data.co.uk
+2025-0320,Fulham,11,0,13,3,1,0,football-data.co.uk
+2025-0321,Chelsea,21,3,12,7,1,0,football-data.co.uk
+2025-0321,Manchester United,4,1,13,1,3,0,football-data.co.uk
+2025-0322,Leeds,17,6,9,5,2,0,football-data.co.uk
+2025-0322,Wolverhampton,7,2,17,6,1,0,football-data.co.uk
+2025-0323,Newcastle,12,3,11,2,2,0,football-data.co.uk
+2025-0323,Bournemouth,12,3,12,3,4,0,football-data.co.uk
+2025-0324,Tottenham,13,6,14,7,3,0,football-data.co.uk
+2025-0324,Brighton,10,3,14,5,1,0,football-data.co.uk
+2025-0325,Aston Villa,15,7,11,4,1,0,football-data.co.uk
+2025-0325,Sunderland,10,7,11,5,3,0,football-data.co.uk
+2025-0326,Everton,10,4,8,1,2,0,football-data.co.uk
+2025-0326,Liverpool,14,6,12,6,0,0,football-data.co.uk
+2025-0327,Manchester City,15,5,5,8,2,0,football-data.co.uk
+2025-0327,Arsenal,9,3,12,5,2,0,football-data.co.uk
+2025-0328,Nottingham Forest,10,4,8,4,0,0,football-data.co.uk
+2025-0328,Burnley,4,3,12,4,2,0,football-data.co.uk
+2025-0329,Crystal Palace,9,1,13,4,2,0,football-data.co.uk
+2025-0329,West Ham,9,4,12,6,1,0,football-data.co.uk
+2025-0330,Brighton,15,9,15,6,1,0,football-data.co.uk
+2025-0330,Chelsea,6,0,6,5,1,0,football-data.co.uk
+2025-0331,Bournemouth,17,7,6,12,3,0,football-data.co.uk
+2025-0331,Leeds,10,3,10,1,0,0,football-data.co.uk
+2025-0332,Burnley,9,1,10,3,0,0,football-data.co.uk
+2025-0332,Manchester City,28,9,12,11,0,0,football-data.co.uk
+2025-0333,Sunderland,14,4,13,3,2,0,football-data.co.uk
+2025-0333,Nottingham Forest,10,6,15,6,5,0,football-data.co.uk
+2025-0334,Arsenal,11,4,13,7,2,0,football-data.co.uk
+2025-0334,Newcastle,13,3,10,2,2,0,football-data.co.uk
+2025-0335,Fulham,13,6,14,2,2,0,football-data.co.uk
+2025-0335,Aston Villa,10,1,12,5,2,0,football-data.co.uk
+2025-0336,Liverpool,9,3,10,5,1,0,football-data.co.uk
+2025-0336,Crystal Palace,14,7,10,8,3,0,football-data.co.uk
+2025-0337,West Ham,10,3,9,3,3,0,football-data.co.uk
+2025-0337,Everton,11,3,11,4,4,0,football-data.co.uk
+2025-0338,Wolverhampton,11,2,8,5,3,0,football-data.co.uk
+2025-0338,Tottenham,11,2,14,5,4,0,football-data.co.uk
+2025-0339,Manchester United,11,6,6,7,2,0,football-data.co.uk
+2025-0339,Brentford,12,4,9,8,4,0,football-data.co.uk
+2025-0340,Leeds,18,8,12,5,4,0,football-data.co.uk
+2025-0340,Burnley,9,3,11,0,3,0,football-data.co.uk
+2025-0341,Arsenal,18,9,7,3,0,0,football-data.co.uk
+2025-0341,Fulham,10,1,12,4,1,0,football-data.co.uk
+2025-0342,Brentford,14,6,8,2,1,0,football-data.co.uk
+2025-0342,West Ham,13,4,12,6,3,0,football-data.co.uk
+2025-0343,Newcastle,13,6,10,2,3,0,football-data.co.uk
+2025-0343,Brighton,13,4,12,10,3,0,football-data.co.uk
+2025-0344,Wolverhampton,20,7,11,6,0,0,football-data.co.uk
+2025-0344,Sunderland,10,2,11,3,4,1,football-data.co.uk
+2025-0345,Bournemouth,16,5,10,7,0,0,football-data.co.uk
+2025-0345,Crystal Palace,7,1,11,1,2,0,football-data.co.uk
+2025-0346,Aston Villa,5,1,12,5,2,0,football-data.co.uk
+2025-0346,Tottenham,10,5,12,5,5,0,football-data.co.uk
+2025-0347,Manchester United,18,6,12,3,2,0,football-data.co.uk
+2025-0347,Liverpool,13,5,11,2,2,0,football-data.co.uk
+2025-0348,Chelsea,21,5,12,10,3,0,football-data.co.uk
+2025-0348,Nottingham Forest,6,4,10,1,1,0,football-data.co.uk
+2025-0349,Everton,14,6,15,5,4,0,football-data.co.uk
+2025-0349,Manchester City,21,4,5,9,1,0,football-data.co.uk
+2025-0350,Brighton,14,6,9,7,1,0,football-data.co.uk
+2025-0350,Wolverhampton,5,1,11,1,2,0,football-data.co.uk
+2025-0351,Fulham,14,2,12,11,4,1,football-data.co.uk
+2025-0351,Bournemouth,10,5,21,2,2,1,football-data.co.uk
+2025-0352,Liverpool,8,3,17,5,2,0,football-data.co.uk
+2025-0352,Chelsea,6,3,17,2,4,0,football-data.co.uk
+2025-0353,Manchester City,25,10,8,10,4,0,football-data.co.uk
+2025-0353,Brentford,4,2,14,2,2,0,football-data.co.uk
+2025-0354,Sunderland,15,4,12,7,0,0,football-data.co.uk
+2025-0354,Manchester United,11,1,12,8,3,0,football-data.co.uk
+2025-0355,Burnley,15,6,18,2,1,0,football-data.co.uk
+2025-0355,Aston Villa,18,7,8,8,1,0,football-data.co.uk
+2025-0356,Crystal Palace,21,8,5,5,0,0,football-data.co.uk
+2025-0356,Everton,13,6,13,10,2,0,football-data.co.uk
+2025-0357,Nottingham Forest,17,6,16,2,2,0,football-data.co.uk
+2025-0357,Newcastle,16,6,11,1,0,0,football-data.co.uk
+2025-0358,West Ham,9,3,14,4,3,0,football-data.co.uk
+2025-0358,Arsenal,15,4,12,3,4,0,football-data.co.uk
+2025-0359,Tottenham,16,3,12,14,3,0,football-data.co.uk
+2025-0359,Leeds,11,4,7,2,1,0,football-data.co.uk
+2025-0360,Manchester City,15,4,10,9,0,0,football-data.co.uk
+2025-0360,Crystal Palace,6,2,7,4,2,0,football-data.co.uk
+2025-0361,Aston Villa,14,9,12,4,3,0,football-data.co.uk
+2025-0361,Liverpool,16,5,9,9,1,0,football-data.co.uk
+2025-0362,Brentford,14,3,7,9,1,0,football-data.co.uk
+2025-0362,Crystal Palace,16,5,5,4,3,0,football-data.co.uk
+2025-0363,Everton,10,4,14,3,3,0,football-data.co.uk
+2025-0363,Sunderland,7,3,9,2,0,0,football-data.co.uk
+2025-0364,Leeds,7,1,9,7,1,0,football-data.co.uk
+2025-0364,Brighton,19,8,7,8,0,0,football-data.co.uk
+2025-0365,Manchester United,29,8,11,7,2,0,football-data.co.uk
+2025-0365,Nottingham Forest,11,4,5,6,1,0,football-data.co.uk
+2025-0366,Newcastle,15,7,8,9,1,0,football-data.co.uk
+2025-0366,West Ham,15,8,11,1,3,0,football-data.co.uk
+2025-0367,Wolverhampton,11,3,20,3,1,0,football-data.co.uk
+2025-0367,Fulham,13,5,8,6,0,0,football-data.co.uk
+2025-0368,Arsenal,13,3,7,3,1,0,football-data.co.uk
+2025-0368,Burnley,5,0,16,3,3,0,football-data.co.uk
+2025-0369,Bournemouth,10,2,16,7,4,0,football-data.co.uk
+2025-0369,Manchester City,14,5,7,6,2,0,football-data.co.uk
+2025-0370,Chelsea,9,4,11,3,4,0,football-data.co.uk
+2025-0370,Tottenham,9,3,18,4,3,0,football-data.co.uk
+2025-0371,Brighton,13,2,11,0,0,0,football-data.co.uk
+2025-0371,Manchester United,11,7,8,3,1,0,football-data.co.uk
+2025-0372,Burnley,16,8,10,7,2,0,football-data.co.uk
+2025-0372,Wolverhampton,16,4,11,7,2,0,football-data.co.uk
+2025-0373,Crystal Palace,8,3,9,3,0,0,football-data.co.uk
+2025-0373,Arsenal,17,7,12,4,1,0,football-data.co.uk
+2025-0374,Fulham,21,6,13,6,2,0,football-data.co.uk
+2025-0374,Newcastle,7,2,6,6,2,0,football-data.co.uk
+2025-0375,Liverpool,24,8,9,14,2,0,football-data.co.uk
+2025-0375,Brentford,11,2,9,2,3,0,football-data.co.uk
+2025-0376,Manchester City,16,3,8,9,1,0,football-data.co.uk
+2025-0376,Aston Villa,12,5,4,4,0,0,football-data.co.uk
+2025-0377,Nottingham Forest,15,5,11,6,1,0,football-data.co.uk
+2025-0377,Bournemouth,17,4,7,3,1,0,football-data.co.uk
+2025-0378,Sunderland,20,2,15,7,3,0,football-data.co.uk
+2025-0378,Chelsea,10,1,18,7,2,0,football-data.co.uk
+2025-0379,Tottenham,21,6,15,6,5,0,football-data.co.uk
+2025-0379,Everton,8,3,12,2,3,1,football-data.co.uk
+2025-0380,West Ham,16,9,11,6,0,0,football-data.co.uk
+2025-0380,Leeds,13,3,14,4,3,0,football-data.co.uk
