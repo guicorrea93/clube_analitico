@@ -29,6 +29,9 @@ MESES = {m: i for i, m in enumerate(["jan", "feb", "mar", "apr", "may", "jun", "
 MESES.update({"fev": 2, "abr": 4, "mai": 5, "ago": 8, "set": 9, "out": 10, "dez": 12})
 
 # jogo: "Mandante  2-1  Visitante  [nota]"; o placar fica entre espaços (ou tabulação)
+# placar "2 x 2" (com espaços) e data na frente do jogo ("26/05/1940 A 2 x 2 B"), como nas páginas do Paulista;
+# desligado por padrão (nas outras páginas um "2 x 1" pode estar numa nota de rodapé)
+PLACAR_X_ESPACADO = False
 JOGO = re.compile(r"^\s*(?P<m>\S.*?)\s+(?P<gm>\d{1,2})(?:\s*-\s*|x)(?P<gv>\d{1,2})\s+(?P<v>\S.*?)\s*(?:\[(?P<nota>.*?)\]?)?\s*$")
 # W.O., não jogado, abandonado: "A  awd  B [awarded 1-0]", "A  n/p  B"
 ESPECIAL = re.compile(r"^\s*(?P<m>\S.*?)\s+(?P<tipo>awd|dns|w\.o\.|wo-\d|\d-wo|wo|n/p|abd|canc)\s+(?P<v>\S.*?)\s*(?:\[(?P<nota>.*?)\]?)?\s*$", re.I)
@@ -320,6 +323,12 @@ def ler(ano: int, arquivo: str | None = None) -> tuple[list[Jogo], list[Tabela]]
         if md and ler_data(md["d"]):
             bruta, ficha = " " + md["resto"], False
             s = bruta.strip()
+        if PLACAR_X_ESPACADO:   # Paulista: "26/05/1940 Palestra Itália 2 x 2 Comercial (SP)"
+            mn = re.match(r"^\s*(?P<d>\d{1,2}/\d{1,2}/\d{2,4})\s+(?P<resto>\S.*\d\s*[x-]\s*\d.*)$", bruta)
+            if mn and ler_data(mn["d"]):
+                bruta, ficha = " " + mn["resto"], False
+                s = bruta.strip()
+            bruta = re.sub(r"(?<=\s)(\d{1,2}) x (\d{1,2})(?=\s)", r"\1-\2", bruta)
         if s.startswith("[") and ultimo is not None:   # autores dos gols (podem ocupar mais de uma linha)
             ultimo.gols = (ultimo.gols + " " + s).strip()
             continue
@@ -406,7 +415,8 @@ def ler(ano: int, arquivo: str | None = None) -> tuple[list[Jogo], list[Tabela]]
                 rodada = int(r.group(1) or r.group(2)); iniciou = True
                 continue
             if GRUPO.search(s):
-                grupo, rodada, data = s, None, None; iniciou = True
+                # "Table:" seguido do título do grupo: a tabela aberta (ainda vazia ou do grupo anterior) fecha aqui
+                grupo, rodada, data, tab = s, None, None, None; iniciou = True
                 continue
             if (FASE.search(s) or RODADA_COPA.search(s)) and not re.search(r"\(.*-[A-Z]{2}\)", s):
                 fase, grupo, rodada, ficha, data = s, "", None, False, None; iniciou = True

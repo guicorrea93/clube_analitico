@@ -115,6 +115,23 @@ A Copa do Brasil (`bra-copa-do-brasil`) está coletada e conferida. O pacote est
   "SER São Gabriel". Pode ser erro do ogol; fica como está até alguém conferir.
 - **Commit:** ainda não foi feito.
 
+## Pedido do agente 2 (20/11/2026): São Paulo da Floresta (Paulista 1930–1935), para decisão
+
+O São Paulo Futebol Clube de 1930–1935 (depois apelidado de "São Paulo da Floresta", pelo estádio da Chácara da Floresta)
+fechou o departamento de futebol em 1935; o São Paulo de hoje foi fundado em dezembro de 1935. As fontes da coleta tratam
+os dois como **o mesmo clube**:
+
+- **RSSSF Brasil** (`tablessz/spcamp.htm`): "1931 - São Paulo Futebol Clube (São Paulo)", na mesma linha dos títulos de
+  1943 em diante, sem separar os clubes.
+- **ogol**: o mesmo código de clube ("sao-paulo") no calendário de 1931 e no de hoje.
+- **Wikipédia (pt)**, artigo do Campeonato Paulista: dá o título de 1931 ao São Paulo Futebol Clube, com nota dizendo que
+  o clube foi "posteriormente apelidado de São Paulo da Floresta". O próprio clube conta o título de 1931 (página
+  "Genealogia" do site do São Paulo FC, citada pela Wikipédia).
+
+**Enquanto você não decide**, o pacote `bra-sp-1` segue as fontes: um clube só, "São Paulo" (o nome do banco), com o
+nome antigo no `nomes_fonte`. Se preferir separar, o pacote passa a ter um clube "São Paulo da Floresta" nas temporadas
+de 1930 a 1935, e o título de 1931 vai para ele. É uma linha em `coleta/bra-sp-1/clubes_sp1.py`.
+
 ## Pedidos da revisão (20/11/2026): Séries C e D e Copa do Brasil
 
 O agente de revisão conferiu os pacotes contra a Wikipédia (pt e en). Os achados estão em `docs/revisao/achados.csv`
@@ -150,3 +167,46 @@ O agente de revisão conferiu os pacotes contra a Wikipédia (pt e en). Os achad
 6. **Artilheiros do pacote (média e baixa):** SC-022, SC-023, SD-018 e CB-011.
 
 Quando corrigir, cite os ids aqui. A revisão confere de novo.
+
+## Pedido do agente 1 (20/11/2026): artilheiros da Série A
+
+A revisão (SA-019 a SA-023) pede a lista oficial de artilheiros da Série A em todas as edições, de 1937 a 2025.
+O banco não tem essa lista para a Série A (as outras competições têm a tabela `artilheiro`). Pode montar um pacote só
+com isso? Por exemplo, `data/coleta/bra-serie-a-artilheiros/artilheiros.csv` (`temporada,jogador,clube,gols,fonte`,
+com a `temporada` como a chave da edição: "1967_robertao", "2019"...). Eu carrego no banco. Use os nomes de jogo:
+Josiel, Fernandão, André Felipe; Fred com 14 em 2016, somando os dois clubes.
+
+## Recado ao agente 1 (20/11/2026): Paulista (1ª divisão) pronto para o painel
+
+O pacote `bra-sp-1` está em `data/coleta/bra-sp-1/pacote/`, com o relatório em `docs/coleta/bra-sp-1.md`.
+
+- **134 temporadas, de 1902 a 2025.** Nos anos de duas ligas cada liga é uma temporada própria: "1913 LPF", "1913 APEA",
+  1926-1929 APEA/LAF e 1935-1936 LPF/APEA. O `competicao.json` segue a seção 6b: estadual, SP, nível 1.
+- **Números:**
+  - 21.855 jogos e 115 clubes, todos de SP; 53 clubes já têm nome exato no banco;
+  - 6.405 gols com autor;
+  - 207 tabelas publicadas fecham e 135 divergem, todas explicadas no relatório. A maioria é erro da própria tabela,
+    porque RSSSF e ogol trazem os mesmos placares;
+  - campeão conferido com a RSSSF e a Wikipédia nas 134 temporadas;
+  - `classificacao_rodada.csv` em 25 temporadas (as de pontos corridos em que todos os jogos têm rodada).
+- **Fica de fora**, por não ser o campeonato:
+  - a seletiva de 1910 e os 2º e 3º níveis de 1985;
+  - o Troféu do Interior (2007-2013 e 2017-2022) e a Taça Independência (2023). O ogol os mistura na mesma edição; tirei
+    os jogos que batem com a página da RSSSF;
+  - o Supercampeonato de 2002 (o campeão de 2002 é o Ituano).
+  - As repescagens contra clubes da 2ª divisão (1951, 1979, 2003) entram, como na RSSSF.
+- **Identidade:**
+  - Palestra Itália = Palmeiras.
+  - Os homônimos antigos levam "-SP": SC Internacional-SP, CA Internacional-SP, Paulistano-SP e outros.
+  - O AA São Bento (campeão de 1914 APEA e 1925) é o da capital, e não o de Sorocaba.
+  - São Paulo da Floresta: segue o pedido acima, ainda à espera da sua decisão.
+- **Mexi no que é comum:**
+  - `coleta/comum/rsssf.py`: o título de grupo logo depois de "Table:" agora fecha a tabela aberta. Conferi que a leitura
+    da Série C, da D e da Copa não muda nada.
+  - `coleta/comum/ogol.py`: confere se a ficha do clube é mesmo daquele código, pelo endereço canônico da página. Com o
+    limite de pedidos, o ogol devolvia a ficha de outro clube. As fichas da C, da D e da Copa estavam certas; no Paulista
+    eram 117 erradas, e baixei de novo. Também só dá a edição como "sem calendário" depois de uma espera. Serve a quem
+    usa esse módulo (a Argentina também baixa do ogol).
+  - `data/coleta/comum/clubes_ogol.json`: 63 clubes novos do Paulista.
+
+Os 68 achados da revisão sobre C, D e Copa ficam para depois: o Guilherme pediu para terminar só o Paulista por enquanto.

@@ -9,22 +9,47 @@ from __future__ import annotations
 
 import html
 import re
+import time
 from pathlib import Path
 
 from baixar import pegar
 
 BASE = "https://www.ogol.com.br"
+ESPERA = 1.2   # segundos entre pedidos (cada coleta pode aumentar)
 
 
 def _texto(v: str) -> str:
     return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", v))).strip()
 
 
-def calendario(ed: int, cache: Path, prefixo: str) -> list[dict]:
+def _edicao_abre(ed: int) -> bool:
+    """A página da própria edição abre (e não a lista de competições)? Distingue edição sem calendário de limite de pedidos."""
+    t = (pegar(f"{BASE}/edicao/-/{ed}", None, espera=ESPERA) or b"").decode("utf-8", "ignore")
+    tit = re.search(r"<title>\s*([^<]*)", t)
+    return bool(tit) and not tit.group(1).startswith("Competi")
+
+
+def calendario(ed: int, cache: Path, prefixo: str, titulo: str = "") -> list[dict]:
+    """`titulo`: palavra que o título da página tem de ter ("Paulista"), contra a página trocada que o ogol devolve."""
     jogos, vistos = [], set()
     for pagina in range(1, 60):
-        t = pegar(f"{BASE}/edicao/-/{ed}/calendario?page={pagina}", cache / f"{prefixo}_{ed}_p{pagina}.html", espera=1.2)
-        t = (t or b"").decode("utf-8", "ignore")
+        destino = cache / f"{prefixo}_{ed}_p{pagina}.html"
+        for tentativa in range(4):
+            t = (pegar(f"{BASE}/edicao/-/{ed}/calendario?page={pagina}", destino, espera=ESPERA,
+                       de_novo=tentativa > 0) or b"").decode("utf-8", "ignore")
+            # tem de ser o calendário desta edição: o ogol, quando limita os pedidos, devolve outra página (até o
+            # calendário de outra competição)
+            tit = re.search(r"<title>\s*(Calend[^<]*)", t)
+            if tit and titulo.lower() in tit.group(1).lower() and re.search(rf'/edicao/[^"/]+/{ed}\b', t):
+                break
+            # o ogol, quando limita os pedidos, devolve outra página (lista de competições...): não fica no cache
+            destino.unlink(missing_ok=True)
+            # a edição abre e o calendário não, já depois de uma espera: a edição não tem (mais) calendário no ogol
+            if tentativa >= 1 and _edicao_abre(ed):
+                return jogos
+            time.sleep(60 * (tentativa + 1))
+        else:
+            raise RuntimeError(f"ogol não devolveu o calendário da edição {ed}, página {pagina}")
         antes = len(vistos)
         for linha in re.findall(r"<tr\b.*?</tr>", t, flags=re.S | re.I):
             link = re.search(r'href="(/jogo/(\d{4}-\d{2}-\d{2})-[^"]+/(\d+))"', linha)
@@ -56,10 +81,26 @@ def calendario(ed: int, cache: Path, prefixo: str) -> list[dict]:
     return jogos
 
 
+def ficha_certa(t: str, id_ogol: str) -> bool:
+    """A página é a ficha deste clube? O endereço canônico tem de ser o do código ("/equipe/aa-sao-bento/39622"; os
+    grandes, "/equipe/fortaleza"): o ogol, quando limita os pedidos, devolve a ficha de outro clube."""
+    can = re.search(r'rel="canonical"\s+href="[^"]*/equipe/([^"/?]+)(?:/(\d+))?/?"', t)
+    return bool(can) and id_ogol in (can.group(2), can.group(1))
+
+
 def equipe(id_ogol: str, cache: Path) -> dict:
     """Ficha do clube no ogol: nome completo, cidade e UF ("Cidade: Alagoinhas (BA)"), ano de fundação."""
     url = f"{BASE}/equipe/-/{id_ogol}" if id_ogol.isdigit() else f"{BASE}/equipe/{id_ogol}"
-    t = (pegar(url, cache / f"equipe_{id_ogol}.html", espera=1.2) or b"").decode("utf-8", "ignore")
+    destino = cache / f"equipe_{id_ogol}.html"
+    for tentativa in range(4):
+        t = (pegar(url, destino, espera=ESPERA, de_novo=tentativa > 0) or b"").decode("utf-8", "ignore")
+        if ficha_certa(t, id_ogol):
+            break
+        # página de limite de pedidos do ogol (lista de competições, de clubes ou a ficha de outro clube): não fica no cache
+        destino.unlink(missing_ok=True)
+        time.sleep(60 * (tentativa + 1))
+    else:
+        t = ""
     linhas = [l.strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", t)).split("\n") if l.strip()]
     def depois(rotulo):
         for i, l in enumerate(linhas[:-1]):
