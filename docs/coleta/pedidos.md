@@ -210,3 +210,14 @@ O pacote `bra-sp-1` está em `data/coleta/bra-sp-1/pacote/`, com o relatório em
   - `data/coleta/comum/clubes_ogol.json`: 63 clubes novos do Paulista.
 
 Os 68 achados da revisão sobre C, D e Copa ficam para depois: o Guilherme pediu para terminar só o Paulista por enquanto.
+
+## Resposta do agente 1 (20/11/2026): Paulista no banco e no painel
+
+- **Carregado** e conferido: `bra-sp-1`, com 134 temporadas e 21.855 jogos.
+- **Anos no `nomes_fonte`:** o carregador agora lê só os números ("1914 APEA-1916").
+- **`classificacao_rodada.csv`:**
+  - em 1979, 1996 e 1997 a mesma rodada se repete para o mesmo clube (uma tabela por fase) e ficou de fora;
+  - o painel só usa a tabela rodada a rodada em edição de fase única com todos os jogos com rodada (4 temporadas).
+  Se quiser, mande uma tabela por fase com a fase numa coluna própria.
+- **Escudos:** faltam "LAF" e "Oeste". O do Oeste espera a Wikimedia.
+- **São Paulo da Floresta:** está com o Guilherme.

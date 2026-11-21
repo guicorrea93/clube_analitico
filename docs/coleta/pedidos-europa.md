@@ -22,3 +22,17 @@ classificação rodada a rodada em todas as temporadas; 65 clubes, todos novos n
    vieram 79 de 530 páginas trocadas: Islândia, Hong Kong, Portugal...). A página certa traz o link canônico com o id
    da edição (`/edicao/<nome>/<id>/calendario?page=<n>`). As do `eng-1` já foram conferidas assim
    (`coleta/comum-europa/ogol.py`, `pagina_valida`). Ao tirar escudos de outras pastas `data/cache/ogol*`, vale conferir.
+
+## Resposta do agente 1 (20/11/2026): Inglês no banco e no painel
+
+- **Carregado** e conferido: `eng-1` com 126 temporadas e 50.950 jogos (os 65 clubes já estavam porque o
+  `migrar_brasileirao.py` carrega todos os pacotes da pasta).
+- **Pedido 1, estatísticas:** o `estatisticas.csv` entra em `estatistica_partida` (18.665 jogos). O carregador lê as
+  colunas da tabela que vierem no CSV.
+- **Pedido 2, árbitro:** nova coluna `partida.arbitro` (`futebol/esquema.sql`), lida da coluna `arbitro` do `partidas.csv`.
+- **Pedido 3, escudos:** os 65 vieram dos calendários do ogol (`baixar_escudos.py --ogol`).
+- **Pedido 4, cache trocado:** o `--ogol` casa o clube pelo nome do ogol e pelo ano do `nomes_fonte`, e fica com o
+  escudo que mais aparece. Uma página trocada não pesa sozinha. Fica anotado para casar também pelo código do clube.
+- **Pedido 5, "1992/93":** o painel mostra a temporada no seletor, no título da edição, nas campanhas e nos cartões.
+  Nas contas e nos eixos continua o ano de início.
+- **Ainda sem commit e sem publicar:** esperando o ok do Guilherme.

@@ -37,6 +37,8 @@ PASTA = ROOT / "data" / "escudos"
 AUTO = PASTA / "paginas_auto.json"
 OGOL_AUTO = PASTA / "ogol_auto.json"   # clube -> escudo no ogol, achado por --ogol
 OGOL_IMG = "https://cdn-img.staticzz.com/img/"
+# escudo achado que não é do clube na época em que jogou (revisão CL-023): o --ogol não volta a pô-lo
+ERRADOS = {"Rive A.C."}
 DB = ROOT / "db" / "futebol.db"   # todas as competições do banco genérico
 API = "https://pt.wikipedia.org/w/api.php"
 UA = {"User-Agent": "clube-analitico/1.0 (projeto pessoal; dashboard de futebol)"}
@@ -118,7 +120,6 @@ PAGINAS = {
     "Tuna Luso": "Tuna Luso Brasileira",
     "Villa Nova-MG": "Villa Nova Atlético Clube",
     "XV de Piracicaba": "Esporte Clube XV de Novembro (Piracicaba)",
-    "Água Verde": "Esporte Clube Água Verde",
     # Série B (20/11/2026): a busca automática tinha achado o clube errado
     "Amazonas": "Amazonas Futebol Clube",
     "Americana": "Guaratinguetá Futebol Ltda.",
@@ -146,6 +147,8 @@ PAGINAS = {
 # sem página (ou sem escudo) na Wikipédia: a busca automática não procura (o escudo vem de OUTRAS_FONTES)
 SEM_ESCUDO = {"Eletrovapo-RJ", "Guanabara-DF", "Perdigão", "Rio Branco-RJ", "Liga da Marinha", "CEUB", "Colatina", "Inter de Santa Maria", "Manufatora",
               # Série B: escudo do ogol (abaixo) ou nenhuma fonte segura (ficam com a bolinha de cor)
+              # revisão de 20/11/2026 (CL-017 a CL-023): a busca automática tinha posto o escudo de outro clube
+              "Potiguar", "América-CE", "Desportiva-ES", "Estrela do Mar-PB", "Tiradentes-PI", "Água Verde", "Rive A.C.",
               "Atlético-BA", "Estudantes", "Maguari", "Nacional-GO", "Nacional-PB", "Santa Cruz-RS", "São Domingos", "Tiradentes-CE", "Oeste", "Central-RJ", "Douradense", "Esportivo-MG", "Ferroviário-PE", "Rio Branco-MG", "Rodoviária", "Serrano", "Tiradentes-DF"}
 # escudo achado fora da Wikipédia (conferido em 19/11/2026): ogol.com.br, Wikimedia Commons e SeekLogo
 OUTRAS_FONTES = {
@@ -252,8 +255,9 @@ def descobrir_ogol() -> None:
                 fonte, resto = item.split(":", 1)
                 if fonte == "ogol":
                     nome_o, anos = resto.rsplit(":", 1)
-                    a1, _, a2 = anos.partition("-")
-                    ogol.setdefault(nome_o, []).append((int(a1), int(a2 or a1), r["clube"]))
+                    ns = re.findall(r"\d{4}", anos)   # "1997-1998", "1914 APEA-1916": só os anos
+                    if ns:
+                        ogol.setdefault(nome_o, []).append((int(ns[0]), int(ns[-1]), r["clube"]))
     achados: dict[str, dict] = {}
     for f in sorted((ROOT / "data" / "cache").glob("ogol*/calendario_*.html")):
         ano = int(f.name.split("_")[1])
@@ -266,7 +270,7 @@ def descobrir_ogol() -> None:
                 cont[img] = cont.get(img, 0) + 1
     auto = json.loads(OGOL_AUTO.read_text(encoding="utf-8")) if OGOL_AUTO.exists() else {}
     for c, imgs in sorted(achados.items()):
-        if c in paginas() or c in OUTRAS_FONTES or c in auto or arquivo(c).exists():
+        if c in paginas() or c in OUTRAS_FONTES or c in auto or arquivo(c).exists() or c in ERRADOS:
             continue
         auto[c] = OGOL_IMG + max(imgs, key=imgs.get)   # o escudo que mais aparece (o clube pode ter trocado de escudo)
     OGOL_AUTO.write_text(json.dumps(auto, ensure_ascii=False, indent=1, sort_keys=True) + "\n", encoding="utf-8")

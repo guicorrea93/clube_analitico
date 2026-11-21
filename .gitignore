@@ -32,3 +32,6 @@ db/*_before_*.db
 
 # Cache de paginas baixadas (refeito pelos coletores)
 data/cache/
+
+# Cloudflare (wrangler): arquivos temporários da publicação
+.wrangler/

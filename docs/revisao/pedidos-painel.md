@@ -40,3 +40,68 @@ São 80 achados abertos para você. Abaixo, agrupados pela causa provável.
    - página mais larga que a tela no celular (já conhecido): SA-030, SB-021, SC-026, SD-020 e CB-016.
 
 Quando corrigir, avise aqui citando os ids. A revisão confere de novo e muda a `situacao` no CSV.
+
+## Resposta do agente 1 (20/11/2026): primeira leva corrigida
+
+Banco refeito (`futebol/migrar_brasileirao.py`) e painel gerado de novo; ainda não publicado no site.
+
+- **Punições e ordem oficial da Série A, 2003-2025:** SA-001 a SA-006. A tabela oficial com `adjust_points` vem da
+  Wikipédia en, em `futebol/oficial_serie_a.py`, com as páginas em `data/serie_a/wikipedia/`. A coluna Pts desconta a
+  punição em todas as competições (SB-014).
+- **Série B, em `serie_b/importar.py`:**
+  - vices de 1999, 2001 e 2004 pela pontuação do grupo final (SB-001, SB-002, SB-004);
+  - repescagem de 2001 nas 4 últimas posições (SB-003);
+  - 2009, Juventude em 17º (SB-005);
+  - 7 jogos repetidos retirados (SB-006);
+  - placares corrigidos em `CORRECOES` (SB-007 a SB-010; SB-002: Figueirense 1-0 Caxias pelo STJD);
+  - gol contra sem time atribuído ao lado certo, e autores descartados quando os lados não fecham (SB-011);
+  - números da tabela final pelos jogos nas edições de turno único (SB-015).
+- **Artilharia:** o cartão e a sub-aba usam a tabela `artilheiro` quando existe; sem ela, a sub-aba avisa quando os gols
+  com autor cobrem menos de 90% (SB-012, SC-024, SD-019, CB-012). O cartão do clube virou "Maior artilheiro" (SB-019).
+  A Série A não tem lista oficial no banco; isso foi pedido à coleta (SA-019).
+- **"Grupo Grupo A":** corrigido (TL-001, CB-014).
+- **Copa do Brasil** (CB-013):
+  - classificação sem Pts;
+  - cartão "Fases" no lugar de "Pontos por vitória";
+  - sem lanterna nem melhor mandante e visitante;
+  - sub-aba Corrida escondida quando nenhuma edição tem rodada.
+- **Pênaltis:** aparecem no placar, nos Jogos da edição e do clube (CB-009).
+- **Campeões invictos:** contam campanhas de 10 jogos ou mais (SC-025).
+- **Temporadas seguidas:** contadas por ano, e não por edição (SA-029).
+- **Subiram para a divisão de cima:** só com acesso oficial, quando o pacote traz `situacao` (SC-006).
+- **Celular:** já resolvido antes (SA-030, SB-021, SC-026, SD-020, CB-016).
+
+### Segunda leva (20/11/2026)
+
+- **Série A, em `corrigir_serie_a` (`futebol/migrar_brasileirao.py`):**
+  - SA-007: Robertão 1968 com vice Internacional, 3º Vasco e 4º Palmeiras;
+  - SA-010: mando de Flamengo 2-2 Botafogo em 2009;
+  - SA-011: ida da final de 1987, 1-1 em 30/01/1988;
+  - SA-012: prorrogação de 2001, 2-1;
+  - SA-013: desempate de 1959, Ceará 2-1 ABC, com os autores;
+  - SA-027: Copa João Havelange 2000;
+  - SA-028: "Copa União" com acento.
+- **Escudos:**
+  - CL-017, CL-019 e CL-021: Potiguar, Desportiva e Tiradentes-PI agora com o escudo do ogol;
+  - CL-018, CL-020 e CL-022: América-CE, Estrela do Mar e Água Verde ficam sem escudo, porque não há fonte segura;
+  - CL-023: Rive A.C. sem escudo. O nome do clube fica com a coleta.
+- **Nomes de fonte do Novorizontino** divididos no ano da separação (CL-030).
+- **Varreduras rodadas:** `varredura.py` e `datas_repetidas.py`.
+
+**Ainda abertos comigo** (próxima leva):
+- datas impossíveis: TL-002, TL-003, SB-017 e SA-025. Os jogos "repetidos" de 1997 na Série B que a varredura acha são ida e volta com a mesma data;
+- jogos especiais: SA-024;
+- faixas da tabela por ano: SA-026;
+- fases em inglês e quadrangular chamado de mata-mata: SB-018;
+- artilheiros da Série B que faltam: SB-013;
+- escudos que faltam: CL-024. O do Oeste espera a Wikimedia liberar;
+- cidades: CL-029.
+
+**Com a coleta Brasil:**
+- artilheiros da Série A: SA-019 a SA-023 (pedido em `docs/coleta/pedidos.md`);
+- nomes: CL-023 e CL-025.
+
+**Esperando decisão do Guilherme:**
+- SA-008, SA-014, SA-015 a SA-018 e SB-016;
+- CL-013 a CL-016;
+- CL-026.

@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import csv
 import json
+import re
 import sqlite3
 import sys
 import unicodedata
@@ -111,9 +112,9 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
         for item in filter(None, (r.get("nomes_fonte") or "").split("|")):
             fonte, resto = item.split(":", 1)
             nome_fonte, anos = resto.rsplit(":", 1) if ":" in resto else (resto, "")
-            a1, _, a2 = anos.partition("-")
+            ns = re.findall(r"\d{4}", anos)   # "1997-1998", "1914 APEA-1916": só os anos
             b.execute("INSERT OR IGNORE INTO clube_nome VALUES (?,?,?,?,?,?)",
-                      (clube[r["clube"]], nome_fonte, chave(nome_fonte), fonte, num(a1), num(a2 or a1)))
+                      (clube[r["clube"]], nome_fonte, chave(nome_fonte), fonte, int(ns[0]) if ns else None, int(ns[-1]) if ns else None))
     if repetidos:
         b.rollback()
         raise NomeRepetido(f"{slug}: nome de clube que já existe em outro país (use um nome que diferencie, "
@@ -155,12 +156,12 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
         partida[r["id"]] = b.execute(
             """INSERT INTO partida (edicao_id, fase_id, grupo, rodada, data, hora, mandante_id, visitante_id, gols_mandante, gols_visitante,
                                     penaltis_mandante, penaltis_visitante, resultado_especial, estadio, cidade, publico, gols_texto, fonte,
-                                    fonte_id, observacao) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                                    fonte_id, observacao, arbitro) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (ed[r["temporada"]], fase[(r["temporada"], r["fase"])], r.get("grupo") or None, num(r.get("rodada")), r.get("data") or None,
              r.get("hora") or None, cl(r["mandante"]), cl(r["visitante"]), num(r["gols_mandante"]), num(r["gols_visitante"]),
              num(r.get("penaltis_mandante")), num(r.get("penaltis_visitante")), r.get("resultado_especial") or None, r.get("estadio") or None,
              r.get("cidade") or None, num(r.get("publico")), r.get("gols_texto") or None, r.get("fonte") or None, r.get("fonte_id") or None,
-             r.get("observacao") or None)).lastrowid
+             r.get("observacao") or None, r.get("arbitro") or None)).lastrowid
     for r in ler(pasta, "gols.csv"):
         b.execute("INSERT INTO gol (partida_id, clube_id, jogador, minuto, acrescimo, tipo, fonte) VALUES (?,?,?,?,?,?,?)",
                   (partida[r["partida_id"]], cl(r["clube"]), r.get("jogador") or None, num(r.get("minuto")), num(r.get("acrescimo")),
@@ -170,13 +171,29 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
                   (partida[r["partida_id"]], cl(r["clube"]), r.get("jogador") or None, num(r.get("minuto")), num(r.get("acrescimo")),
                    r.get("cor") or None, r.get("fonte") or None))
 
+    # estatísticas de cada clube no jogo (estatisticas.csv: partida_id, clube e as colunas de estatistica_partida que tiver)
+    colunas = ("chutes", "chutes_alvo", "posse", "passes", "precisao_passes", "faltas", "amarelos", "vermelhos", "impedimentos", "escanteios")
+    for r in ler(pasta, "estatisticas.csv"):
+        b.execute(f"INSERT OR REPLACE INTO estatistica_partida (partida_id, clube_id, {', '.join(colunas)}, fonte) VALUES ({','.join('?' * (len(colunas) + 3))})",
+                  (partida[r["partida_id"]], cl(r["clube"]), *[float(r[c]) if c in ("posse", "precisao_passes") and r.get(c) else num(r.get(c)) for c in colunas],
+                   r.get("fonte") or None))
+
     # ---- classificações, tabelas publicadas e artilheiros
     for r in ler(pasta, "classificacao_final.csv"):
         b.execute("INSERT INTO classificacao_final VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
                   (ed[r["temporada"]], cl(r["clube"]), num(r["posicao"]), num(r.get("jogos")), num(r.get("vitorias")), num(r.get("empates")),
                    num(r.get("derrotas")), num(r.get("gols_pro")), num(r.get("gols_contra")), num(r.get("pontos")), num(r.get("ajuste_pontos")),
                    r.get("situacao") or None, r.get("fonte") or None, r.get("observacao") or None))
-    for r in ler(pasta, "classificacao_rodada.csv"):
+    # tabela rodada a rodada: uma por edição (pontos corridos). Temporada com a mesma rodada repetida para o mesmo clube
+    # (uma tabela por fase) fica de fora, senão o painel a trataria como turno único
+    rodadas = ler(pasta, "classificacao_rodada.csv")
+    vezes = Counter((r["temporada"], r["rodada"], r["clube"]) for r in rodadas)
+    por_fase = sorted({t for (t, _, _), n in vezes.items() if n > 1})
+    if por_fase:
+        print(f"   {slug}: tabela por rodada ignorada em {len(por_fase)} temporadas com mais de uma fase: {', '.join(por_fase[:8])}")
+    for r in rodadas:
+        if r["temporada"] in por_fase:
+            continue
         b.execute("INSERT INTO classificacao_rodada VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
                   (ed[r["temporada"]], num(r["rodada"]), cl(r["clube"]), num(r.get("posicao")), num(r.get("pontos")), num(r.get("jogos")),
                    num(r.get("vitorias")), num(r.get("empates")), num(r.get("derrotas")), num(r.get("gols_pro")), num(r.get("gols_contra")),

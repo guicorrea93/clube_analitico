@@ -100,6 +100,7 @@ CREATE TABLE partida (
     cidade              TEXT,
     publico             INTEGER,
     arrecadacao         REAL,
+    arbitro             TEXT,
     tecnico_mandante    TEXT,
     tecnico_visitante   TEXT,
     formacao_mandante   TEXT,

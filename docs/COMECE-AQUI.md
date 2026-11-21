@@ -23,8 +23,9 @@ Nas palavras dele: "estou apenas começando".
 | Brasileirão Série A (com Taça Brasil, Robertão e 1937) | 70 (1937–2025) | 21.468 | `db/futebol.db` (`bra-serie-a`) |
 | Brasileirão Série B (com Taça de Prata) | 44 (1971–2025) | 13.100 | `db/futebol.db` (`bra-serie-b`) |
 | Brasileirão Série C (com Taça de Bronze) | 35 (1981–2025) | 7.912 | `db/futebol.db` (`bra-serie-c`), via pacote do agente de coleta |
+| Copa do Brasil | 37 (1989–2025) | 4.011 | `db/futebol.db` (`bra-copa-do-brasil`), via pacote |
+| Campeonato Argentino (1ª divisão) | 196 torneios (1891–2025) | 43.235 | `db/futebol.db` (`arg-1`), via pacote do agente América do Sul |
 | Copa do Mundo | 23 | 1.060 | `db/copa_mundo.db` (banco e painel à parte) |
-| Copa do Brasil | só finais e participantes | — | `db/brasileirao.db` (fora do banco novo) |
 
 ## 2. Como os dados andam
 

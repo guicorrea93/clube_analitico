@@ -114,6 +114,46 @@ def jogos_manuais(ano: int) -> list[Partida]:
     return []
 
 
+# placar oficial que as fontes de jogos trazem errado (revisão de 20/11/2026, docs/revisao/bra-serie-b.md):
+# (ano, mandante, visitante) -> (gols do mandante, gols do visitante, especial, observação)
+CORRECOES = {
+    (2001, "Figueirense", "Caxias"): (1, 0, "awd", "Jogo encerrado aos 90' com 1-0 por invasão de campo; o STJD manteve a vitória do "
+                                      "Figueirense, que foi vice e subiu (CBF; Wikipédia pt e en). Achado SB-002."),
+    (1998, "Volta Redonda", "Santa Cruz"): (0, 2, "wo", "W.O.: vitória dada ao Santa Cruz por 2-0 (RSSSF 'awarded 2-0 to Sta.Cruz'; "
+                                             "tabela da Wikipédia pt). Achado SB-007."),
+    (1994, "Desportiva-ES", "CRB"): (1, 0, "", "Placar 1-0 (ogol e tabela final da Wikipédia pt). Achado SB-008."),
+    (2006, "Ituano", "Vila Nova-GO"): (1, 1, "", "Placar 1-1 (tabela da RSSSF, ogol e Wikipédia pt). Achado SB-009."),
+    (2008, "Fortaleza", "Criciúma"): (2, 1, "", "Placar 2-1 (tabela da Wikipédia pt, tabela da RSSSF e ogol). Achado SB-010."),
+}
+# pontos na tabela da RSSSF que não são punição (erro de soma da página): (ano, clube); achados SB-005 e SB-015
+AJUSTE_FALSO = {(2008, "Juventude"), (2009, "Juventude")}
+# fase que não leva o clube adiante (repescagem para não cair): não conta como "fase alcançada"; achado SB-003
+FASE_DE_BAIXO = re.compile(r"relega|rebaix|repescagem|descenso", re.I)
+
+
+def corrigir(ano: int, partidas: list[Partida], log: list[str]) -> list[Partida]:
+    """Aplica CORRECOES e tira o jogo repetido (mesma fase, mandante, visitante e placar: a página o lista duas
+    vezes; fica o de data mais nova). Achado SB-006."""
+    for p in partidas:
+        c = CORRECOES.get((ano, p.mandante, p.visitante))
+        if c:
+            antes = f"{p.gm}-{p.gv}"
+            p.gm, p.gv, p.especial, p.obs = c[0], c[1], c[2], c[3]
+            if p.gols and len(p.gols) != p.gm + p.gv:
+                p.gols = []
+            log.append(f"{ano}: placar corrigido {p.mandante} {antes} -> {p.gm}-{p.gv} {p.visitante}")
+    vistos: dict[tuple, Partida] = {}
+    saida = []
+    for p in sorted(partidas, key=lambda x: x.data or "", reverse=True):
+        k = (p.fase, p.mandante, p.visitante, p.gm, p.gv)
+        if p.gm is not None and k in vistos and (p.fase.lower().startswith("final") or p.data == vistos[k].data):
+            log.append(f"{ano}: jogo repetido retirado: {p.fase} {p.mandante} {p.gm}-{p.gv} {p.visitante} ({p.data})")
+            continue
+        vistos[k] = p
+        saida.append(p)
+    return sorted(saida, key=lambda x: partidas.index(x))
+
+
 def aplicar_ogol(ano: int, partidas: list[Partida], log: list[str]) -> list[Partida]:
     """ogol: rodada oficial dos jogos de turno único (vale sobre a da RSSSF, que às vezes põe o jogo adiado
     na rodada em que foi jogado) e jogo que faltou nas outras fontes. Nas edições com fases, só confere placar."""
@@ -507,8 +547,9 @@ def classificacao_final(ano: int, partidas: list[Partida], tabelas: list[rsssf.T
             c = can[(ano, bruto)]["clube"] if bruto and (ano, bruto) in can else None
             if not c:
                 break
+            aj = 0 if ano == 1988 or (ano, c) in AJUSTE_FALSO else r["pts"] - (pv * r["v"] + r["e"])
             saida.append({"pos": r["pos"], "clube": c, "j": r["j"], "v": r["v"], "e": r["e"], "d": r["d"], "gp": r["gp"], "gc": r["gc"],
-                          "pts": r["pts"], "ajuste": r["pts"] - (pv * r["v"] + r["e"]) if ano != 1988 else 0, "fonte": "RSSSF (tabela final)"})
+                          "pts": pv * r["v"] + r["e"] + aj, "ajuste": aj, "fonte": "RSSSF (tabela final)"})
         else:
             # só vale a tabela que traz a campanha inteira de cada clube (não a de uma fase só); no turno único,
             # a tabela publicada vale mesmo que falte jogo na página (fica anotado)
@@ -519,15 +560,25 @@ def classificacao_final(ano: int, partidas: list[Partida], tabelas: list[rsssf.T
                     x = camp.get(s["clube"])
                     if x != [s["j"], s["v"], s["e"], s["d"], s["gp"], s["gc"]]:
                         log.append(f"{ano}: tabela final da RSSSF x jogos — {s['clube']}: tabela {[s['j'], s['v'], s['e'], s['d'], s['gp'], s['gc']]} jogos {x}")
+                        if x and turno_unico:   # turno único: vale o que os jogos somam (a página erra a soma; achado SB-015)
+                            s.update(zip(("j", "v", "e", "d", "gp", "gc"), x))
+                            s["pts"] = pv * s["v"] + s["e"] + s["ajuste"]
+                if turno_unico:   # pontos acertados podem mudar a ordem (achado SB-005)
+                    saida.sort(key=lambda s: (s["pos"] != 1, -s["pts"], -s["v"], -(s["gp"] - s["gc"]), -s["gp"]))
+                    for i, s in enumerate(saida, 1):
+                        s["pos"] = i
                 return saida
     # 3. calculada: fase alcançada, pontos, vitórias, saldo, gols pró (o campeão da lista oficial em primeiro)
     ordem_fase = {}
     for p in partidas:
-        ordem_fase.setdefault(p.fase, len(ordem_fase))
+        ordem_fase.setdefault(p.fase, 0 if FASE_DE_BAIXO.search(p.fase) else len(ordem_fase))
     alcance = defaultdict(int)
     for p in partidas:
         for c in (p.mandante, p.visitante):
             alcance[c] = max(alcance[c], ordem_fase[p.fase])
+    for p in partidas:   # quem foi para a repescagem fica abaixo de todos os que não precisaram dela
+        if FASE_DE_BAIXO.search(p.fase):
+            alcance[p.mandante] = alcance[p.visitante] = -1
     # punições de pontos (Wikipédia), nas edições de pontos corridos
     ajuste = {}
     if ano >= 2003:
@@ -538,9 +589,11 @@ def classificacao_final(ano: int, partidas: list[Partida], tabelas: list[rsssf.T
     campeao = CAMPEOES.get(ano)
     final = [p for p in partidas if ordem_fase[p.fase] == max(ordem_fase.values())]
     finalistas = {p.mandante for p in final} | {p.visitante for p in final}
+    na_final = campanha(final)   # quem chegou à última fase fica na ordem dela (grupo final; achados SB-001, SB-002, SB-004)
     def chave(c):
-        x = camp[c]
-        return (c != campeao, -alcance[c], -(pv * x[1] + x[2] + ajuste.get(c, 0)), -x[1], -(x[4] - x[5]), -x[4], c)
+        x, f = camp[c], na_final.get(c, [0] * 6)
+        return (c != campeao, -alcance[c], -(pv * f[1] + f[2]), -f[1], -(f[4] - f[5]), -(pv * x[1] + x[2] + ajuste.get(c, 0)),
+                -x[1], -(x[4] - x[5]), -x[4], c)
     saida = []
     for i, c in enumerate(sorted(camp, key=chave), 1):
         x = camp[c]
@@ -683,9 +736,21 @@ def montar() -> tuple[dict, list[str]]:
             if not any((p.mandante, p.visitante) == (jm.mandante, jm.visitante) for p in partidas):
                 partidas.append(jm)
                 log.append(f"{ano}: jogo incluído à mão (resultado do tribunal): {jm.mandante} {jm.gm}-{jm.gv} {jm.visitante}")
+        partidas = corrigir(ano, partidas, log)
         inferir_rodadas(partidas, log)
-        # autores só quando fecham com o placar (a ESPN às vezes repete ou deixa de fora um lance)
-        sem_fechar = [p for p in partidas if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv]
+        # autores só quando fecham com o placar, lado a lado (a ESPN às vezes repete ou deixa de fora um lance, ou grava o
+        # gol contra como gol do time de quem chutou; achado SB-011)
+        lado = lambda p, l: sum(1 for g in p.gols if g.get("lado") == l)
+        for p in partidas:   # gol sem time (a ESPN deixa assim o gol contra): vai para o lado que falta, se só um lado falta
+            sem = [g for g in p.gols if not g.get("lado")]
+            if sem and p.gm is not None:
+                falta = {"mandante": p.gm - lado(p, "mandante"), "visitante": p.gv - lado(p, "visitante")}
+                if sorted(falta.values()) == [0, len(sem)]:
+                    quem = max(falta, key=falta.get)
+                    for g in sem:
+                        g["lado"], g["tipo"] = quem, "contra"
+        sem_fechar = [p for p in partidas if p.gols and p.gm is not None and (len(p.gols) != p.gm + p.gv
+                      or not all(g.get("lado") for g in p.gols) or (lado(p, "mandante"), lado(p, "visitante")) != (p.gm, p.gv))]
         for p in sem_fechar:
             p.gols = []
         if sem_fechar:

@@ -227,6 +227,7 @@ def migrar() -> None:
     for ano, jog, c, cf, n, fonte in a.execute("SELECT * FROM fato_artilheiro_serie_b"):
         b.execute("INSERT INTO artilheiro VALUES (?,?,?,?,?)", (ed_b[ano], jog, novo_id.get(c), n, fonte))
 
+    corrigir_serie_a(b, serie_a)
     # ---- números da classificação final da Série A (somados dos jogos; pontos da última rodada quando há)
     for (ed,) in b.execute("SELECT edicao_id FROM edicao WHERE competicao_id = ?", (serie_a,)).fetchall():
         pv = b.execute("SELECT pontos_vitoria FROM edicao WHERE edicao_id = ?", (ed,)).fetchone()[0] or 2
@@ -243,12 +244,76 @@ def migrar() -> None:
                          WHERE edicao_id=? AND clube_id=?""", (j, v, e, d, gp, gc, pts, pts - pts_calc, ed, c))
         top = b.execute("SELECT clube_id FROM classificacao_final WHERE edicao_id = ? ORDER BY posicao LIMIT 2", (ed,)).fetchall()
         b.execute("UPDATE edicao SET campeao_id = ?, vice_id = ? WHERE edicao_id = ?", (top[0][0] if top else None, top[1][0] if len(top) > 1 else None, ed))
+    oficial_serie_a(b, serie_a)
     separar(b)
     b.commit()
     conferir(a, b, conflitos)
     import carregar_pacotes
     for slug in carregar_pacotes.pacotes():
         carregar_pacotes.carregar(b, slug)
+
+
+def corrigir_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
+    """Erros do banco antigo achados pela revisão (docs/revisao/bra-serie-a.md), com a fonte de cada um."""
+    def jogo(chave_ed: str, mandante: str, visitante: str, extra: str = "", *args) -> int:
+        (pid,) = b.execute(f"""SELECT p.partida_id FROM partida p JOIN edicao e USING (edicao_id) JOIN clube m ON m.clube_id = p.mandante_id
+                               JOIN clube v ON v.clube_id = p.visitante_id JOIN fase f USING (fase_id)
+                               WHERE e.competicao_id = ? AND e.chave = ? AND m.nome = ? AND v.nome = ? {extra}""",
+                           (serie_a, chave_ed, mandante, visitante, *args)).fetchone()
+        return pid
+    cid = lambda nome: b.execute("SELECT clube_id FROM clube WHERE nome = ?", (nome,)).fetchone()[0]
+    # SA-010: rodada 12 de 2009 foi Flamengo 2-2 Botafogo (mando do Flamengo); o returno, Botafogo 0-1 Flamengo
+    b.execute("UPDATE partida SET mandante_id = visitante_id, visitante_id = mandante_id WHERE partida_id = ?",
+              (jogo("2009", "Botafogo", "Flamengo", "AND p.rodada = 12"),))
+    # SA-011: final da CBF de 1987, ida Guarani 1-1 Sport em 30/01/1988 e volta Sport 1-0 Guarani em 07/02/1988 (Wikipédia en e pt)
+    b.execute("UPDATE partida SET gols_mandante = 1, gols_visitante = 1, data = '1988-01-30', observacao = ? WHERE partida_id = ?",
+              ("Final da CBF, ida: 1-1 (Catatau; Betão, de pênalti). Wikipédia en e pt.", jogo("1987", "Guarani", "Sport")))
+    b.execute("UPDATE partida SET data = '1988-02-07' WHERE partida_id = ?", (jogo("1987", "Sport", "Guarani"),))
+    # SA-012: quartas de 2001, Fluminense 2-1 Ponte Preta na prorrogação (o placar guarda a prorrogação)
+    b.execute("UPDATE partida SET gols_mandante = 2, gols_visitante = 1 WHERE partida_id = ?",
+              (jogo("2001", "Fluminense", "Ponte Preta", "AND f.nome = 'Quartas de final'"),))
+    # SA-013: Taça Brasil 1959, desempate da Zona Norte, Ceará 2-1 ABC no Presidente Vargas (Wikipédia pt)
+    ed, fase, grupo = b.execute("SELECT edicao_id, fase_id, grupo FROM partida WHERE partida_id = ?", (jogo("1959", "ABC", "Ceará"),)).fetchone()
+    pid = b.execute("""INSERT INTO partida (edicao_id, fase_id, grupo, mandante_id, visitante_id, gols_mandante, gols_visitante, estadio, fonte, observacao)
+                       VALUES (?,?,?,?,?,2,1,'Presidente Vargas','Wikipédia pt','Jogo de desempate da Zona Norte.')""",
+                    (ed, fase, grupo, cid("Ceará"), cid("ABC"))).lastrowid
+    for clube, jog in (("Ceará", "Claudinho"), ("Ceará", "Doca"), ("ABC", "Tiquinho")):
+        b.execute("INSERT INTO gol (partida_id, clube_id, jogador, tipo, fonte) VALUES (?,?,?,'normal','Wikipédia pt')", (pid, cid(clube), jog))
+    # SA-007: Robertão 1968, quadrangular final com os três em 2 pontos: vice Internacional (saldo +1), 3º Vasco, 4º Palmeiras
+    (ed,) = b.execute("SELECT edicao_id FROM edicao WHERE competicao_id = ? AND chave = '1968_robertao'", (serie_a,)).fetchone()
+    for pos, clube in ((2, "Internacional"), (3, "Vasco"), (4, "Palmeiras")):
+        b.execute("UPDATE classificacao_final SET posicao = ? WHERE edicao_id = ? AND clube_id = ?", (pos, ed, cid(clube)))
+    # SA-027: 2000 foi a Copa João Havelange; SA-028: acento no nome da fase de 1987
+    b.execute("UPDATE edicao SET nome_oficial = 'Copa João Havelange' WHERE competicao_id = ? AND ano_inicio = 2000", (serie_a,))
+    b.execute("UPDATE fase SET nome = replace(nome, 'Copa Uniao', 'Copa União') WHERE nome LIKE '%Copa Uniao%'")
+
+
+def oficial_serie_a(b: sqlite3.Connection, serie_a: int) -> None:
+    """Série A de pontos corridos: ordem final e punições do STJD da tabela oficial (futebol/oficial_serie_a.py).
+    Os pontos ficam = vitória x pontos + empates + ajuste; vitórias, empates e gols continuam os dos jogos."""
+    import oficial_serie_a as of
+    for ed, ano, pv in b.execute("SELECT edicao_id, ano_inicio, pontos_vitoria FROM edicao WHERE competicao_id = ? AND ano_inicio >= 2003",
+                                 (serie_a,)).fetchall():
+        do_ano = {cid: (nm, ) for cid, nm in b.execute("SELECT c.clube_id, c.nome FROM classificacao_final f JOIN clube c USING (clube_id) WHERE f.edicao_id = ?", (ed,))}
+        chaves: dict[str, set] = defaultdict(set)
+        for cid, (nm,) in do_ano.items():
+            chaves[chave(nm)].add(cid)
+            for (n,) in b.execute("SELECT nome_chave FROM clube_nome WHERE clube_id = ?", (cid,)):
+                chaves[n].add(cid)
+        achar = lambda nome: next(iter(chaves[chave(nome)])) if len(chaves.get(chave(nome), ())) == 1 else None
+        tab = of.oficial(ano, achar)
+        if not tab or set(tab) != set(do_ano):
+            print(f"  Série A {ano}: tabela oficial não casou com os clubes do banco; fica a classificação antiga")
+            continue
+        for cid, (pos, aj) in tab.items():
+            b.execute("""UPDATE classificacao_final SET posicao = ?, ajuste_pontos = ?, pontos = ? * vitorias + empates + ?,
+                         fonte = 'Wikipédia en (tabela oficial, com punições)' WHERE edicao_id = ? AND clube_id = ?""", (pos, aj, pv or 3, aj, ed, cid))
+        dif = [(do_ano[cid][0], r["v"], r["e"], r["d"]) for r in of.tabela(ano) for cid in [achar(r["nome"])]
+               if b.execute("SELECT vitorias, empates, derrotas FROM classificacao_final WHERE edicao_id = ? AND clube_id = ?", (ed, cid)).fetchone() != (r["v"], r["e"], r["d"])]
+        if dif:
+            print(f"  Série A {ano}: V/E/D da tabela oficial diferente dos jogos do banco:", dif[:6])
+        top = b.execute("SELECT clube_id FROM classificacao_final WHERE edicao_id = ? ORDER BY posicao LIMIT 2", (ed,)).fetchall()
+        b.execute("UPDATE edicao SET campeao_id = ?, vice_id = ? WHERE edicao_id = ?", (top[0][0], top[1][0], ed))
 
 
 def separar(b: sqlite3.Connection) -> None:
@@ -264,6 +329,13 @@ def separar(b: sqlite3.Connection) -> None:
             chave_t = "partida_id" if onde is pts else "edicao_id"
             b.execute(f"UPDATE {t} SET {col} = ? WHERE {col} = ? AND {chave_t} IN ({onde})", (novo, cid))
         b.execute("UPDATE clube_nome SET clube_id = ? WHERE clube_id = ? AND ano_fim <= ?", (novo, cid, ate))
+        # nome que cobre os dois períodos (ex.: rsssf "Novorizontino" 1989-2024): parte do antigo até `ate`, o resto fica (CL-030)
+        for nm, k, fonte, a1, a2 in b.execute("SELECT nome, nome_chave, fonte, ano_inicio, ano_fim FROM clube_nome WHERE clube_id = ? AND ano_inicio <= ? AND ano_fim > ?",
+                                              (cid, ate, ate)).fetchall():
+            b.execute("INSERT OR IGNORE INTO clube_nome VALUES (?,?,?,?,?,?)", (novo, nm, k, fonte, a1, ate))
+            depois = b.execute("SELECT min(e.ano_inicio) FROM classificacao_final f JOIN edicao e USING (edicao_id) WHERE f.clube_id = ? AND e.ano_inicio > ?",
+                               (cid, ate)).fetchone()[0]
+            b.execute("UPDATE clube_nome SET ano_inicio = ? WHERE clube_id = ? AND nome_chave = ? AND fonte = ?", (depois or ate + 1, cid, k, fonte))
 
 
 def conferir(a: sqlite3.Connection, b: sqlite3.Connection, conflitos: list) -> None:
@@ -278,6 +350,9 @@ def conferir(a: sqlite3.Connection, b: sqlite3.Connection, conflitos: list) -> N
                     a.execute("SELECT sum(coalesce(gols_mandante,0) + coalesce(gols_visitante,0)) FROM fato_partida_serie_b").fetchone()[0],
                     a.execute("SELECT count(*) FROM fato_gol_serie_b").fetchone()[0], a.execute("SELECT count(*) FROM fato_classificacao_final_serie_b").fetchone()[0]),
     }
+    # corrigir_serie_a: +1 jogo (desempate de 1959), +6 gols (3 do desempate, 2 da final de 1987, 1 da prorrogação de 2001), +3 autores
+    j, g, au, f = origem["Série A"]
+    origem["Série A"] = (j + 1, g + 6, au + 3, f)
     for nome_c, (jogos, gols, autores, final) in origem.items():
         n = b.execute("""SELECT count(*), sum(coalesce(gols_mandante,0) + coalesce(gols_visitante,0)) FROM partida p JOIN edicao e USING (edicao_id)
                          JOIN competicao c USING (competicao_id) WHERE c.nome_curto = ?""", (nome_c,)).fetchone()
