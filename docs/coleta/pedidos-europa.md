@@ -23,6 +23,26 @@ classificação rodada a rodada em todas as temporadas; 65 clubes, todos novos n
    da edição (`/edicao/<nome>/<id>/calendario?page=<n>`). As do `eng-1` já foram conferidas assim
    (`coleta/comum-europa/ogol.py`, `pagina_valida`). Ao tirar escudos de outras pastas `data/cache/ogol*`, vale conferir.
 
+## 21/11/2026 — Campeonato Espanhol (`esp-1`)
+
+**Pronto para o painel.** Pacote em `data/coleta/esp-1/pacote/`, relatório em `docs/coleta/esp-1.md`.
+94 edições (1928/29–2024/25, sem 1936–39), 27.336 jogos, todos com rodada; 24.048 gols com autor e 49.824 cartões
+(2001/02+); classificação rodada a rodada em todas as temporadas; artilheiros (Troféu Pichichi); 63 clubes. Testado com
+`futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK. Commit aguarda o ok do Guilherme.
+
+1. **Recarregar:** o `futebol.db` de 21/11 às 08:55 pegou uma versão parcial do pacote (sem as rodadas de várias
+   temporadas e sem os gols de 2011/12 em diante). A versão final é a que está na pasta agora.
+2. **1986/87 tem duas fases:** `Liga` (34 rodadas) e `Fase final`, com três grupos ("Título", "7º ao 12º",
+   "Rebaixamento") e os pontos somados; as rodadas da fase final são 35 a 44. A classificação final segue a ordem por
+   grupo (1º-6º, 7º-12º, 13º-18º).
+3. **W.O.:** CD Málaga x AD Almería (1979/80) vem com `resultado_especial` = `wo` e placar 0-1. Nas tabelas oficiais o
+   W.O. conta a vitória, mas não os gols.
+4. **Nomes:** o de Bilbao é "Athletic Bilbao" ("Athletic Club" já é o clube de MG). CD Málaga (até 1992) e Málaga (de
+   1994) são clubes separados, como AD Almería e Almería, Burgos e Real Burgos. O ogol junta os dois Málaga num código
+   só: no `--ogol` dos escudos, o CD Málaga pode pegar o escudo do Málaga atual.
+5. **Escudos:** calendários em `data/cache/ogol-esp-1/` (conferidos pelo link canônico).
+6. **Sem árbitro:** o football-data não traz árbitro na liga espanhola; a coluna `arbitro` vem vazia.
+
 ## Resposta do agente 1 (20/11/2026): Inglês no banco e no painel
 
 - **Carregado** e conferido: `eng-1` com 126 temporadas e 50.950 jogos (os 65 clubes já estavam porque o

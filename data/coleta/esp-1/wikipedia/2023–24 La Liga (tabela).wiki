@@ -1,0 +1,98 @@
+<noinclude>{{main|2023–24 La Liga}}
+<!--'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.-->
+<onlyinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.laliga.com/en-GB/laliga-easports/standing LaLiga EA Sports]
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CLLS |result5=ELLS |result6=ELLS |result7=ECLPO |result18=REL |result19=REL |result20=REL
+
+<!--Update team positions here-->
+|team_order=RMA, BAR, GIR, ATM, ATH, RSO, BET, VIL, VAL, ALA, OSA, GET, CEL, SEV, MLL, LPA, RAY, CAD, ALM, GRA
+
+<!--Head-to-head-->
+|hth_CEL=Celta Vigo finished ahead of Sevilla on head-to-head points: Celta Vigo 1–1 Sevilla, Sevilla 1–2 Celta Vigo.
+|hth_SEV=CEL
+|hth_MLL=Mallorca finished ahead of Las Palmas on head-to-head points: Las Palmas 1–1 Mallorca, Mallorca 1–0 Las Palmas.
+|hth_LPA=MLL
+|hth_ALM=Tied on head-to-head points. Almería finished ahead of Granada on overall goal difference.
+|hth_GRA=ALM
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ALA=12|draw_ALA=10|loss_ALA=16|gf_ALA=36|ga_ALA=46<!--Alavés--> 
+|win_ALM=3 |draw_ALM=12|loss_ALM=23|gf_ALM=43|ga_ALM=75<!--Almería--> 
+|win_ATH=19|draw_ATH=11|loss_ATH=8 |gf_ATH=61|ga_ATH=37<!--Athletic Bilbao-->
+|win_ATM=24|draw_ATM=4 |loss_ATM=10|gf_ATM=70|ga_ATM=43<!--Atlético Madrid-->
+|win_BAR=26|draw_BAR=7 |loss_BAR=5 |gf_BAR=79|ga_BAR=44<!--Barcelona--> 
+|win_CAD=6 |draw_CAD=15|loss_CAD=17|gf_CAD=26|ga_CAD=55<!--Cádiz--> 
+|win_CEL=10|draw_CEL=11|loss_CEL=17|gf_CEL=46|ga_CEL=57<!--Celta Vigo--> 
+|win_GET=10|draw_GET=13|loss_GET=15|gf_GET=42|ga_GET=54<!--Getafe--> 
+|win_GIR=25|draw_GIR=6 |loss_GIR=7 |gf_GIR=85|ga_GIR=46<!--Girona -->
+|win_GRA=4 |draw_GRA=9 |loss_GRA=25|gf_GRA=38|ga_GRA=79<!--Granada -->
+|win_LPA=10|draw_LPA=10|loss_LPA=18|gf_LPA=33|ga_LPA=47<!--Las Palmas -->
+|win_MLL=8 |draw_MLL=16|loss_MLL=14|gf_MLL=33|ga_MLL=44<!--Mallorca -->
+|win_OSA=12|draw_OSA=9 |loss_OSA=17|gf_OSA=45|ga_OSA=56<!--Osasuna-->
+|win_RAY=8 |draw_RAY=14|loss_RAY=16|gf_RAY=29|ga_RAY=48<!--Rayo Vallecano-->
+|win_BET=14|draw_BET=15|loss_BET=9 |gf_BET=48|ga_BET=45<!--Real Betis-->
+|win_RMA=29|draw_RMA=8 |loss_RMA=1 |gf_RMA=87|ga_RMA=26<!--Real Madrid-->
+|win_RSO=16|draw_RSO=12|loss_RSO=10|gf_RSO=51|ga_RSO=39<!--Real Sociedad-->
+|win_SEV=10|draw_SEV=11|loss_SEV=17|gf_SEV=48|ga_SEV=54<!--Sevilla-->
+|win_VAL=13|draw_VAL=10|loss_VAL=15|gf_VAL=40|ga_VAL=45<!--Valencia--> 
+|win_VIL=14|draw_VIL=11|loss_VIL=13|gf_VIL=65|ga_VIL=65<!--Villarreal-->
+
+<!--Status-->
+|status_RMA=C
+|status_CAD=R
+|status_GRA=R
+|status_ALM=R
+|status_text_Q=Qualified for the phase indicated
+|status_text_X=Assured of at least Europa League league phase
+|status_text_Y=Assured of at least Conference League play-off round
+|status_text_R=Relegation
+
+<!--Team definitions (wikilinks in table)-->
+|name_ALA=[[Deportivo Alavés|Alavés]]
+|name_ALM=[[UD Almería|Almería]]
+|name_ATH=[[Athletic Bilbao]]
+|name_ATM=[[Atlético Madrid]]
+|name_BAR=[[FC Barcelona|Barcelona]]
+|name_CAD=[[Cádiz CF|Cádiz]]
+|name_CEL=[[RC Celta de Vigo|Celta Vigo]]
+|name_GET=[[Getafe CF|Getafe]]
+|name_GIR=[[Girona FC|Girona]]
+|name_GRA=[[Granada CF|Granada]]
+|name_LPA=[[UD Las Palmas|Las Palmas]]
+|name_MLL=[[RCD Mallorca|Mallorca]]
+|name_OSA=[[CA Osasuna|Osasuna]]
+|name_RAY=[[Rayo Vallecano]]
+|name_BET=[[Real Betis]]
+|name_RMA=[[Real Madrid CF|Real Madrid]]
+|name_RSO=[[Real Sociedad]]
+|name_SEV=[[Sevilla FC|Sevilla]]
+|name_VAL=[[Valencia CF|Valencia]]
+|name_VIL=[[Villarreal CF|Villarreal]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Fair-play points<br>(Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web |url=https://cdn1.sefutbol.com/sites/default/files/pdf/reglamento_general_junio_2019.pdf |title=Reglamento General – Art. 201 |trans-title=General Regulations – Art. 201|publisher=[[Royal Spanish Football Federation]] |language=Spanish |access-date=3 March 2021 |archive-date=17 August 2019 |archive-url=https://web.archive.org/web/20190817174947/https://cdn1.sefutbol.com/sites/default/files/pdf/reglamento_general_junio_2019.pdf |url-status=dead }}</ref>
+
+<!--Qualification definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS=Qualification for the [[2024–25 UEFA Champions League#League phase|Champions League league phase]]
+|col_ELLS=blue1    |text_ELLS=Qualification for the [[2024–25 UEFA Europa League#League phase|Europa League league phase]]
+|col_ECLPO=yellow1 |text_ECLPO=Qualification for the [[2024–25 UEFA Conference League#Play-off round|Conference League play-off round]]
+|col_REL=red1      |text_REL=Relegation to [[2024–25 Segunda División|Segunda División]]
+
+<!--Qualification notes-->
+|note_res_ELLS=Since the winners of the [[2023–24 Copa del Rey]], Athletic Bilbao, qualified for European competition based on league position, the Europa League berth awarded to the Copa del Rey winners was passed to the sixth-placed team, and the Conference League berth awarded to the sixth-placed team was passed to the seventh-placed team.
+|note_res_ECLPO=ELLS
+}}</onlyinclude>
+<!---->
+
+==References==
+{{reflist}}
+
+[[Category:2023–24 association football standings in Europe templates|Spain]]
+[[Category:Spain football standings templates]]
+[[Category:2023–24 in Spanish men's football|Template]]
+[[Category:2023–24 in Spanish football leagues|Template]]

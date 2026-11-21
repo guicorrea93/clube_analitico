@@ -1,0 +1,93 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+<onlyinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.laliga.com/en-GB/laliga-santander/classification LaLiga Santander]
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=ELGS |result7=ECLPO |result12=ELTH |result18=REL |result19=REL |result20=REL
+
+<!--Head-to-head-->
+|hth_GIR=Head-to-head points: Girona 8, Rayo Vallecano 6, Sevilla 1.
+|hth_RAY=GIR
+|hth_SEV=GIR
+
+|hth_CAD=Head-to-head points: Cádiz 8, Getafe 5, Valencia 3.
+|hth_GET=CAD
+|hth_VAL=CAD
+
+
+<!--Update team positions here-->
+|team_order= BAR, RMA, ATM, RSO, VIL, BET, OSA, ATH, MLL, GIR, RAY, SEV, CEL, CAD, GET, VAL, ALM, VLL, ESP, ELC 
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ALM=11|draw_ALM=8 |loss_ALM=19|gf_ALM=49|ga_ALM=65<!--Almería-->
+|win_ATH=14|draw_ATH=9 |loss_ATH=15|gf_ATH=47|ga_ATH=43<!--Athletic Bilbao-->
+|win_ATM=23|draw_ATM=8 |loss_ATM=7 |gf_ATM=70|ga_ATM=33<!--Atlético Madrid-->
+|win_BAR=28|draw_BAR=4 |loss_BAR=6 |gf_BAR=70|ga_BAR=20<!--Barcelona--> 
+|win_CAD=10|draw_CAD=12|loss_CAD=16|gf_CAD=30|ga_CAD=53<!--Cádiz-->
+|win_CEL=11|draw_CEL=10|loss_CEL=17|gf_CEL=43|ga_CEL=53<!--Celta Vigo-->
+|win_ELC=5 |draw_ELC=10|loss_ELC=23|gf_ELC=30|ga_ELC=67<!--Elche-->
+|win_ESP=8 |draw_ESP=13|loss_ESP=17|gf_ESP=52|ga_ESP=69<!--Espanyol-->
+|win_GET=10|draw_GET=12|loss_GET=16|gf_GET=34|ga_GET=45<!--Getafe -->
+|win_GIR=13|draw_GIR=10|loss_GIR=15|gf_GIR=58|ga_GIR=55<!--Girona -->
+|win_MLL=14|draw_MLL=8 |loss_MLL=16|gf_MLL=37|ga_MLL=43<!--Mallorca-->
+|win_OSA=15|draw_OSA=8 |loss_OSA=15|gf_OSA=37|ga_OSA=42<!--Osasuna-->
+|win_RAY=13|draw_RAY=10|loss_RAY=15|gf_RAY=45|ga_RAY=53<!--Rayo Vallecano-->
+|win_BET=17|draw_BET=9 |loss_BET=12|gf_BET=46|ga_BET=41<!--Real Betis-->
+|win_RMA=24|draw_RMA=6 |loss_RMA=8 |gf_RMA=75|ga_RMA=36<!--Real Madrid-->
+|win_RSO=21|draw_RSO=8 |loss_RSO=9 |gf_RSO=51|ga_RSO=35<!--Real Sociedad-->
+|win_SEV=13|draw_SEV=10|loss_SEV=15|gf_SEV=47|ga_SEV=54<!--Sevilla-->
+|win_VAL=11|draw_VAL=9 |loss_VAL=18|gf_VAL=42|ga_VAL=45<!--Valencia-->
+|win_VLL=11|draw_VLL=7 |loss_VLL=20|gf_VLL=33|ga_VLL=63<!--Valladolid-->
+|win_VIL=19|draw_VIL=7 |loss_VIL=12|gf_VIL=59|ga_VIL=40<!--Villarreal-->
+
+<!--Status-->
+|status_text_R=Relegated
+|status_BAR=C
+|status_VLL=R
+|status_ESP=R
+|status_ELC=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ALM=[[UD Almería|Almería]]
+|name_ATH=[[Athletic Bilbao]]
+|name_ATM=[[Atlético Madrid]]
+|name_BAR=[[FC Barcelona|Barcelona]]
+|name_BET=[[Real Betis]]
+|name_CAD=[[Cádiz CF|Cádiz]]
+|name_CEL=[[RC Celta de Vigo|Celta Vigo]]
+|name_ELC=[[Elche CF|Elche]]
+|name_ESP=[[RCD Espanyol|Espanyol]]
+|name_GET=[[Getafe CF|Getafe]]
+|name_GIR=[[Girona FC|Girona]]
+|name_MLL=[[RCD Mallorca|Mallorca]]
+|name_OSA=[[CA Osasuna|Osasuna]]
+|name_RAY=[[Rayo Vallecano]]
+|name_RMA=[[Real Madrid CF|Real Madrid]]
+|name_RSO=[[Real Sociedad]]
+|name_SEV=[[Sevilla FC|Sevilla]]
+|name_VAL=[[Valencia CF|Valencia]]
+|name_VIL=[[Villarreal CF|Villarreal]]
+|name_VLL=[[Real Valladolid|Valladolid]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Fair-play points (Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web |url=https://cdn1.sefutbol.com/sites/default/files/pdf/reglamento_general_junio_2019.pdf |title=Reglamento General – Art. 201 |trans-title=General Regulations – Art. 201 |publisher=[[Royal Spanish Football Federation]] |language=es |access-date=3 March 2021}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2023–24 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELTH=green1 |text_ELTH=Qualification for the [[2023–24 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1    |text_ELGS=Qualification for the [[2023–24 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECLPO=yellow1 |text_ECLPO=Qualification for the [[2023–24 UEFA Europa Conference League#Play-off round|Europa Conference League play-off round]]
+|col_REL=red1      |text_REL=Relegation to [[2023–24 Segunda División|Segunda División]]
+|note_res_ELTH=Sevilla qualified for the [[2023–24 UEFA Champions League]] by winning the [[2022–23 UEFA Europa League]].
+|note_res_ECLPO=Osasuna were initially disqualified from the [[2023–24 UEFA Europa Conference League]] due to historic match-fixing.<ref>{{cite news |url=https://www.reuters.com/sports/soccer/osasuna-barred-uefa-conference-league-over-historic-match-fixing-scandal-club-2023-07-04/ |title=Osasuna barred from UEFA Conference League over historic match-fixing scandal |publisher=Reuters |date=4 July 2023 |access-date=5 July 2023}}</ref> However, the club became later eligible to participate after an evidence of innocence had been provided.<ref>{{cite web |url=https://www.uefa.com/insideuefa/news/0283-1893b9339442-562cf8597287-1000--uefa-statement-on-ca-osasuna/ |title=UEFA statement on CA Osasuna |publisher=UEFA |date=25 July 2023 }}</ref>
+}}</onlyinclude>
+
+{{Template reference list}}
+[[Category:2022–23 association football standings in Europe templates|Spain]]
+[[Category:Spain football standings templates]]
+[[Category:2022–23 in Spanish men's football|Template]]
+[[Category:2022–23 in Spanish football leagues|Template]]
+</noinclude>

@@ -1,0 +1,91 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.laliga.com/en-GB/laliga-santander/classification LaLiga Santander]
+
+<!--Update team positions here-->
+|team_order=RMA, BAR, ATM, SEV, BET, RSO, VIL, ATH, VAL, OSA, CEL, RAY, ELC, ESP, GET, MLL, CAD, GRA, LEV, ALA
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CLGS |result4=CLGS |result5=ELGS |result6=ELGS|result7=ECLPO |result18=REL |result19=REL |result20=REL
+
+<!--Head-to-head-->
+|hth_RAY=Head-to-head points: Rayo Vallecano 9, Elche 7, Espanyol 1.
+|hth_ELC=RAY
+|hth_ESP=RAY
+|hth_GET=Head-to-head points: Getafe 8, Mallorca 5, Cádiz 2.
+|hth_MLL=GET
+|hth_CAD=GET
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ALA=8 |draw_ALA=7 |loss_ALA=23|gf_ALA=31|ga_ALA=65<!--Alavés--> 
+|win_ATH=14|draw_ATH=13|loss_ATH=11|gf_ATH=43|ga_ATH=36<!--Athletic Bilbao-->
+|win_ATM=21|draw_ATM=8 |loss_ATM=9 |gf_ATM=65|ga_ATM=43<!--Atlético Madrid-->
+|win_BAR=21|draw_BAR=10|loss_BAR=7 |gf_BAR=68|ga_BAR=38<!--Barcelona-->
+|win_CAD=8 |draw_CAD=15|loss_CAD=15|gf_CAD=35|ga_CAD=51<!--Cádiz-->
+|win_CEL=12|draw_CEL=10|loss_CEL=16|gf_CEL=43|ga_CEL=43<!--Celta Vigo-->
+|win_ELC=11|draw_ELC=9 |loss_ELC=18|gf_ELC=40|ga_ELC=52<!--Elche-->
+|win_ESP=10|draw_ESP=12|loss_ESP=16|gf_ESP=40|ga_ESP=53<!--Espanyol-->
+|win_GET=8 |draw_GET=15|loss_GET=15|gf_GET=33|ga_GET=41<!--Getafe-->
+|win_GRA=8 |draw_GRA=14|loss_GRA=16|gf_GRA=44|ga_GRA=61<!--Granada-->
+|win_LEV=8 |draw_LEV=11|loss_LEV=19|gf_LEV=51|ga_LEV=76<!--Levante-->
+|win_MLL=10|draw_MLL=9 |loss_MLL=19|gf_MLL=36|ga_MLL=63<!--Mallorca-->
+|win_OSA=12|draw_OSA=11|loss_OSA=15|gf_OSA=37|ga_OSA=51<!--Osasuna-->
+|win_RAY=11|draw_RAY=9 |loss_RAY=18|gf_RAY=39|ga_RAY=50<!--Rayo Vallecano-->
+|win_BET=19|draw_BET=8 |loss_BET=11|gf_BET=62|ga_BET=40<!--Real Betis-->
+|win_RMA=26|draw_RMA=8 |loss_RMA=4 |gf_RMA=80|ga_RMA=31<!--Real Madrid -->
+|win_RSO=17|draw_RSO=11|loss_RSO=10|gf_RSO=40|ga_RSO=37<!--Real Sociedad-->
+|win_SEV=18|draw_SEV=16|loss_SEV=4 |gf_SEV=53|ga_SEV=30<!--Sevilla-->
+|win_VAL=11|draw_VAL=15|loss_VAL=12|gf_VAL=48|ga_VAL=53<!--Valencia-->
+|win_VIL=16|draw_VIL=11|loss_VIL=11|gf_VIL=63|ga_VIL=37<!--Villarreal-->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ALA=[[Deportivo Alavés|Alavés]]
+|name_ATH=[[Athletic Bilbao]]
+|name_ATM=[[Atlético Madrid]]
+|name_BAR=[[FC Barcelona|Barcelona]]
+|name_CAD=[[Cádiz CF|Cádiz]]
+|name_CEL=[[RC Celta de Vigo|Celta Vigo]]
+|name_ELC=[[Elche CF|Elche]]
+|name_ESP=[[RCD Espanyol|Espanyol]]
+|name_GET=[[Getafe CF|Getafe]]
+|name_GRA=[[Granada CF|Granada]]
+|name_LEV=[[Levante UD|Levante]]
+|name_MLL=[[RCD Mallorca|Mallorca]]
+|name_OSA=[[CA Osasuna|Osasuna]]
+|name_RAY=[[Rayo Vallecano]]
+|name_BET=[[Real Betis]]
+|name_RMA=[[Real Madrid CF|Real Madrid]]
+|name_RSO=[[Real Sociedad]]
+|name_SEV=[[Sevilla FC|Sevilla]]
+|name_VAL=[[Valencia CF|Valencia]]
+|name_VIL=[[Villarreal CF|Villarreal]]
+
+<!--Status-->
+|status_RMA=C
+|status_GRA=R
+|status_LEV=R
+|status_ALA=R
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Fair-play points (Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web |url=https://cdn1.sefutbol.com/sites/default/files/pdf/reglamento_general_junio_2019.pdf |title=Reglamento General – Art. 201 |publisher=[[Royal Spanish Football Federation]] |language=Spanish |access-date=3 March 2021}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2022–23 UEFA Champions League#Group stage|Champions League group stage]]
+|col_ELGS=blue1    |text_ELGS=Qualification for the [[2022–23 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECLPO=yellow1 |text_ECLPO=Qualification for the [[2022–23 UEFA Europa Conference League#Play-off round|Europa Conference League play-off round]]
+|col_REL=red1      |text_REL=Relegation to [[2022–23 Segunda División|Segunda División]]
+
+|note_res_ELGS=Since the winners of the [[2021–22 Copa del Rey]], Real Betis, qualified for European competition based on league position, the Europa League berth awarded to the Copa del Rey winners was passed to the sixth-placed team, and the Europa Conference League berth awarded to the sixth-placed team was passed to the seventh-placed team.
+|note_res_ECLPO=ELGS
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2021–22 association football standings in Europe templates|Spain]]
+[[Category:Spain football standings templates]]
+[[Category:2021–22 in Spanish men's football|Template]]
+[[Category:2021–22 in Spanish football leagues|Template]]
+</noinclude>
