@@ -83,6 +83,9 @@ _PLACAR = r"(?P<gm>\d{1,2})\s*[-:]\s*(?P<gv>\d{1,2})"
 _ESPECIAL = r"(?P<esp>wp\s*[-:]\s*[l1]p|[l1]p\s*[-:]\s*wp|lw\s*[-:]\s*wp|wp\s*[-:]\s*lw|void|frib|w\s*[-:]\s*l|l\s*[-:]\s*w|\+\s*[-:]\s*-|-\s*[-:]\s*\+|w/o|awd\.?|n/p|abd\.?|susp\.?|ann\.?|canc\.?|p\s*[-:]\s*p|\?\s*[-:]\s*\?)"
 # "Atlanta   3-3  San Lorenzo  [at Boca]"; "Racing Club 1:1 Belgrano"; "Estudiantes  wp-lp  Reformer"
 _JOGO = re.compile(rf"^(?P<a>\S.*?)(?:\s+|(?<=\)))(?:(?P<wl1>(?-i:wp|lp))\s+(?=\d))?(?:\[(?P<pk_m>\d{{1,2}})\]\s*)?(?:{_PLACAR}|{_ESPECIAL})(?:\s*\[(?P<pk_v>\d{{1,2}})\])?(?:\s+(?P<wl2>(?-i:wp|lp))\b)?(?P<x>\s*\(?(?:aet|a\.e\.t\.|et|pror\.?)\)?(?:\s*,?\s*(?:PK|pen\.?)\s*\d{{1,2}}\s*[-:]\s*\d{{1,2}})?)?(?:\s+awd\.?\s+(?P<awd_m>\d{{1,2}})\s*[-:]\s*(?P<awd_v>\d{{1,2}}))?(?:\s+(?P<b>\S.*?))?\s*$", re.I)
+_JOGO_FIM = re.compile(r"^(?P<a>[^\d\s\[(].*?)\s{2,}(?:v\s+)?(?P<b>[^\d\s\[(].*?)\s+"
+                       r"(?P<p>\d{1,2}\s*[-:]\s*\d{1,2}(?:\s*\(?(?:aet|a\.e\.t\.)\)?)?|(?:w/o|awd\.?|n/p|abd\.?|susp\.?|canc\.?))"
+                       r"(?P<resto>\s+[\[(].*)?\s*$", re.I)
 _LINHA_TAB = re.compile(r"^\s*(?:(?P<pos>\d{1,3})\s*[\.\)]\s*|(?P<sp>\s*))(?P<nome>[^\d\s\[\(\-=][^\[]*?)\s+"
                         r"(?P<nums>\d{1,3}(?:\s*[-:]?\s*\d{1,3}){5,16})(?P<resto>\s*(?:\D.*)?)$")
 
@@ -107,7 +110,8 @@ def linha_tabela(l: str) -> dict | None:
     if v + e + d != j:
         return None
     nome = re.sub(r"\s+", " ", m.group("nome")).strip(" .")
-    if not re.search(r"[A-Za-zÀ-ÿ]{2}", nome) or re.match(r"^(no|team|pos)\b", nome, re.I):
+    sigla = re.fullmatch(r"(?:[A-Z]\.){3,}[A-Z]?", nome + ".")   # "C.U.R.C.C."
+    if (not re.search(r"[A-Za-zÀ-ÿ]{2}", nome) and not sigla) or re.match(r"^(no|team|pos)\b", nome, re.I):
         return None
     resto = (m.group("resto") or "").strip()
     cidade = mc.group(1) if (mc := re.search(r"\(([^)]+)\)", resto)) else None
@@ -193,6 +197,14 @@ def _jogo(l: str) -> dict | None:
         return None
     if linha_tabela(l):
         return None
+    r = _jogo_base(s)
+    if r is None and (mf := _JOGO_FIM.match(s)):
+        # placar no fim ("Basanez   Rampla Juniors   2-5", "Penarol   v Liverpool   2-0"): volta ao formato de sempre
+        r = _jogo_base(f"{mf.group('a')}  {mf.group('p')}  {mf.group('b')}{mf.group('resto') or ''}")
+    return r
+
+
+def _jogo_base(s: str) -> dict | None:
     m = _JOGO.match(s)
     if not m or not m.group("b"):
         return None

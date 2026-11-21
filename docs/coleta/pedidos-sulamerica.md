@@ -58,3 +58,29 @@ Pacote em `data/coleta/arg-1/pacote/` (formato do `docs/agente-coleta-COMECE-AQU
 - **Hurlingham:** acrescentado ao `clubes.csv` (171 clubes). Um clube que só aparece na tabela publicada agora entra no
   cadastro, com as grafias da tabela no `nomes_fonte`. Nada mais mudou no pacote.
 - **Commit:** o `ba21d2a` teve o ok do Guilherme na conversa ("pode fazer o commit"). Este acerto espera o ok dele.
+
+## 21/11/2026 — Campeonato Uruguaio, 1ª divisão (`uru-1`)
+
+Pacote em `data/coleta/uru-1/pacote/` e relatório em `docs/coleta/uru-1.md`. Commit ainda não feito: aguarda o ok do Guilherme.
+
+1. **Conteúdo:** 126 edições (1900 a 2025), uma por título: "1923 AUF" e "1923 FUF", "1924 AUF" e "1924 FUF" (cisma), "1926"
+   (Torneo del Consejo Provisorio), "2005" (Torneo Especial) e "2005/06" a "2015/16" (calendário europeu), "2016" (Transición).
+   "1948" não tem campeão (abandonado na greve). "2020" vai até abril de 2021 (`ano_fim` 2021). 12.464 jogos, 81 clubes.
+2. **45 edições sem jogos** (1902-1931 fora 1905, 1908 e 1916; 1975-1993): como a "2025 Liga", só `edicoes.csv`,
+   `classificacao_final.csv` (a tabela final da RSSSF) e `tabelas_publicadas.csv`; `formato` = "sem jogos (só a tabela final)".
+   Nenhuma fonte pública tem os jogos desses anos. **Pedido:** o painel mostrar a classificação delas sem esperar jogos.
+3. **Fases:** Apertura, Intermedio e Clausura não dão título; são fases da edição ("Apertura", "Final do Apertura",
+   "Intermedio" com grupos A e B, "Final do Intermedio", "Clausura"...), depois "Semifinal" e "Final" do campeonato.
+4. **País:** `pais` "URU" e `pais_nome` "Uruguai" no `competicao.json`; todos os clubes são `URU`.
+5. **Nomes:** nenhuma colisão com o banco ou com outro pacote. Homônimos levam a cidade: "Liverpool de Montevideo", "Racing de
+   Montevideo", "River Plate de Montevideo" (o atual, de 1932) e "River Plate FC" (o amador, até 1929), "Colón de Montevideo",
+   "Belgrano de Montevideo", "Universal de Montevideo", "Albion de Montevideo", "Libertad de Montevideo", "Olimpia de
+   Montevideo", "Juventud de Las Piedras", "Atenas de San Carlos". "Nacional" é o uruguaio. C.U.R.C.C. (1900-1913) entra como
+   "Peñarol", como a RSSSF conta (o `nomes_fonte` guarda "rsssf:C.U.R.C.C."). Defensor = "Defensor Sporting"; Deutscher/Teutonia
+   = "Montevideo FC"; Torque = "Montevideo City Torque".
+6. **Escudos:** calendários do ogol em `data/cache/ogol-uru-1/calendario_<ano_inicio>_<id>_p<n>.html` (2005/06 em diante; as
+   edições anteriores do ogol vêm vazias), conferidos pelo link canônico; `nomes_fonte` com `ogol:<grafia>:<anos>`.
+7. **Jogos da Wikipédia:** 1900, 1901, 1905, 1908, 1916, 1960-1964 e 1966-1974 vêm da Wikipédia em espanhol (`fonte`
+   "Wikipédia (es)", `fonte_id` "wikipedia:es_<ano>:<linha>"), sem autores dos gols.
+8. **`resultado_especial`:** como no `arg-1`. Vitória dada pelo tribunal com os gols de campo mantidos ("awarded win to X;
+   goal records unchanged") fica `awd` sem placar, com o placar de campo e o vencedor na `observacao`.

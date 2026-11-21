@@ -1,0 +1,7635 @@
+[
+{
+"id": "189845",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Alberto Amorin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Alberto Amorin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego De Souza"
+]
+}
+]
+},
+{
+"id": "189846",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Fernández"
+]
+}
+]
+},
+{
+"id": "189850",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Vigneri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquín Boghossian"
+]
+}
+]
+},
+{
+"id": "189851",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vázquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Casimiro Carini"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Jaume"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Álvez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Romero"
+]
+}
+]
+},
+{
+"id": "189844",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Washington Bruschi"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Enrique Techera"
+]
+}
+]
+},
+{
+"id": "189852",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189849",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "3",
+"gols_visitante": "5",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Camilo Fraga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Latronico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fontana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ignacio Wynsker"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ignacio Wynsker"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Fabián Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Latronico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Enrique Weber"
+]
+}
+]
+},
+{
+"id": "189847",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonnhy Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcio Galli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Bruno Fernández"
+]
+}
+]
+},
+{
+"id": "189848",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Gustavo Silvani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Darío Rodríguez"
+]
+}
+]
+},
+{
+"id": "189855",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Larrosa"
+]
+}
+]
+},
+{
+"id": "189853",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Miguel Campomar",
+"cidade": "Juan Lacaze",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189857",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Marcelo Duran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Vigneri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Simón Pagua"
+]
+}
+]
+},
+{
+"id": "189858",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Pezzolano Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gutiérrez"
+]
+}
+]
+},
+{
+"id": "189859",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Parque \"Luis Méndez Piana\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189856",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Álvez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Planchon"
+]
+}
+]
+},
+{
+"id": "189860",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Marcelo Melgarejo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Junior Aliberti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Casimiro Carini"
+]
+}
+]
+},
+{
+"id": "189854",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Rodríguez"
+]
+}
+]
+},
+{
+"id": "189861",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Ing. Raúl Goyenola\"",
+"cidade": "Tacuarembó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Abreu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Daniel Cardozo"
+]
+}
+]
+},
+{
+"id": "189869",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio \"Luis Tróccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fontana"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Godín"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Mauro Parlacino"
+]
+}
+]
+},
+{
+"id": "189868",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo De Souza"
+]
+}
+]
+},
+{
+"id": "189864",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Gustavo Gutiérrez"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Bernardo Aguiar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Damián Navarro"
+]
+}
+]
+},
+{
+"id": "189867",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montevideo Wanderers",
+"mandante_id": "5501",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Martin Dadomo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Junior Aliberti"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Junior Aliberti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Simón Pagua"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+}
+]
+},
+{
+"id": "189863",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vázquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castro"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Basualdo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Gastón Zermatten"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Suárez"
+]
+}
+]
+},
+{
+"id": "189865",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": null,
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Fernando Guglielmone"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Cedrés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Speranza"
+]
+}
+]
+},
+{
+"id": "189870",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Complejo de C.A. Rentistas",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Ibarra"
+]
+}
+]
+},
+{
+"id": "189866",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ignacio Wynsker"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richar Aníbal Porta"
+]
+}
+]
+},
+{
+"id": "189862",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "Fénix ",
+"visitante_id": "2689",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio \"Ing. Raúl Goyenola\"",
+"cidade": "Tacuarembó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Luís Ledesma"
+]
+}
+]
+},
+{
+"id": "189874",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189876",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio \"Luis Tróccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189878",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189875",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Miguel Campomar",
+"cidade": "Juan Lacaze",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Fabián Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonnhy Woodly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Speranza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luigi Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Freire"
+]
+}
+]
+},
+{
+"id": "189879",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Javier Pellejero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Salgueiro"
+]
+}
+]
+},
+{
+"id": "189877",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Bobadilla"
+]
+}
+]
+},
+{
+"id": "189872",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189873",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nasa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Aguiar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Fabián González"
+]
+}
+]
+},
+{
+"id": "189871",
+"data_hora": "2005-09-17T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Alejandro Magureguy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Mello"
+]
+}
+]
+},
+{
+"id": "189882",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Daniel Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Victorino"
+]
+}
+]
+},
+{
+"id": "189881",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio \"Luis Tróccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Fernando Cañarte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Serafín Fabricio García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valentín Villazán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Andrés Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+}
+]
+},
+{
+"id": "189884",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Damián Navarro"
+]
+}
+]
+},
+{
+"id": "189887",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Miguel Campomar",
+"cidade": "Juan Lacaze",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luigi Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Dastes"
+]
+}
+]
+},
+{
+"id": "189886",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Washington Bruschi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Gustavo Silvani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Macchi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gutiérrez"
+]
+}
+]
+},
+{
+"id": "189880",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Parque \"Luis Méndez Piana\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Vázquez"
+]
+}
+]
+},
+{
+"id": "189888",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Fénix ",
+"visitante_id": "2689",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Beto Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Amarilla"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Mieres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Beto Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Giménez"
+]
+}
+]
+},
+{
+"id": "189885",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Esteban Chiffone"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Aguiar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nasa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Fontana"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Junior Aliberti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Andrés Nicolay Aznarez"
+]
+}
+]
+},
+{
+"id": "189883",
+"data_hora": "2005-09-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Complejo de C.A. Rentistas",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Canobbio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Flavio Córdoba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zinho"
+]
+}
+]
+},
+{
+"id": "189890",
+"data_hora": "2005-09-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montevideo Wanderers",
+"mandante_id": "5501",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189889",
+"data_hora": "2005-09-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189891",
+"data_hora": "2005-09-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189894",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189893",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189897",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189896",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189895",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189892",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "189899",
+"data_hora": "2005-10-01T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Canobbio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Peter Javier Vera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+}
+]
+},
+{
+"id": "189898",
+"data_hora": "2005-10-01T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio \"Ing. Raúl Goyenola\"",
+"cidade": "Tacuarembó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Albín"
+]
+}
+]
+},
+{
+"id": "189900",
+"data_hora": "2005-10-01T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Fabián González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nasa"
+]
+}
+]
+},
+{
+"id": "189901",
+"data_hora": "2005-10-02T13:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Dastes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Marcelo Duran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Migliónico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Freire"
+]
+}
+]
+},
+{
+"id": "189905",
+"data_hora": "2005-10-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rino Fabricio Lucas"
+]
+}
+]
+},
+{
+"id": "189902",
+"data_hora": "2005-10-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martiñonez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquín Boghossian"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Planchon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valentín Villazán"
+]
+}
+]
+},
+{
+"id": "189903",
+"data_hora": "2005-10-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Andrés García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Andrés Medina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Andrés Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Roberto Pazos"
+]
+}
+]
+},
+{
+"id": "189904",
+"data_hora": "2005-10-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Parque \"Luis Méndez Piana\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert López"
+]
+}
+]
+},
+{
+"id": "189906",
+"data_hora": "2005-10-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Williams Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Cedrés"
+]
+}
+]
+},
+{
+"id": "189907",
+"data_hora": "2005-10-15T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Luis Tróccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquín Boghossian"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Nicolás Piano"
+]
+}
+]
+},
+{
+"id": "189910",
+"data_hora": "2005-10-15T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Beto Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Cedrés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Brown"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Fernando Guglielmone"
+]
+}
+]
+},
+{
+"id": "189909",
+"data_hora": "2005-10-16T12:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Bernardo Aguiar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Aguiar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Aguiar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Macchi"
+]
+}
+]
+},
+{
+"id": "189915",
+"data_hora": "2005-10-16T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+}
+]
+},
+{
+"id": "189912",
+"data_hora": "2005-10-16T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Alberto Amorin"
+]
+}
+]
+},
+{
+"id": "189908",
+"data_hora": "2005-10-16T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montevideo Wanderers",
+"mandante_id": "5501",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Bruno Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+}
+]
+},
+{
+"id": "189911",
+"data_hora": "2005-10-16T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189913",
+"data_hora": "2005-10-16T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio \"Ing. Raúl Goyenola\"",
+"cidade": "Tacuarembó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Guillermo Almada"
+]
+}
+]
+},
+{
+"id": "189914",
+"data_hora": "2005-10-16T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vázquez"
+]
+}
+]
+},
+{
+"id": "189922",
+"data_hora": "2005-10-22T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Aguiar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubens Martin Colombo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Rivero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Aguiar"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Badell"
+]
+}
+]
+},
+{
+"id": "189919",
+"data_hora": "2005-10-22T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189920",
+"data_hora": "2005-10-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Gabriel Tejerias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valentín Villazán"
+]
+}
+]
+},
+{
+"id": "189917",
+"data_hora": "2005-10-23T12:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Parque \"Luis Méndez Piana\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Martín Crossa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Speranza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martiñonez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Javier Grosnile"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Bruno Fernández"
+]
+}
+]
+},
+{
+"id": "189921",
+"data_hora": "2005-10-23T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Fénix ",
+"visitante_id": "2689",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Peinado"
+]
+}
+]
+},
+{
+"id": "189918",
+"data_hora": "2005-10-23T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Miguel Campomar",
+"cidade": "Juan Lacaze",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Serafín Fabricio García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Dastes"
+]
+}
+]
+},
+{
+"id": "189916",
+"data_hora": "2005-10-23T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Complejo de C.A. Rentistas",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Abreu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Abreu"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zinho"
+]
+}
+]
+},
+{
+"id": "189923",
+"data_hora": "2005-10-23T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+}
+]
+},
+{
+"id": "189924",
+"data_hora": "2005-10-23T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Bernardo Aguiar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Beto Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Gaglianone"
+]
+}
+]
+},
+{
+"id": "189930",
+"data_hora": "2005-10-29T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio \"Luis Troccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Mauro Parlacino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Godín"
+]
+}
+]
+},
+{
+"id": "189932",
+"data_hora": "2005-10-29T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Alejandro Magureguy"
+]
+}
+]
+},
+{
+"id": "189925",
+"data_hora": "2005-10-29T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189926",
+"data_hora": "2005-10-30T12:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montevideo Wanderers",
+"mandante_id": "5501",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Alfredo Víctor Viera",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Malrrechaufe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+}
+]
+},
+{
+"id": "189927",
+"data_hora": "2005-10-30T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Duran"
+]
+}
+]
+},
+{
+"id": "189931",
+"data_hora": "2005-10-30T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Parque \"Luis Méndez Piana\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189928",
+"data_hora": "2005-10-30T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mateo Figoli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Flavio Córdoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Damián Alonso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Damián Alonso"
+]
+}
+]
+},
+{
+"id": "189933",
+"data_hora": "2005-10-30T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio \"Ing. Raúl Goyenola\"",
+"cidade": "Tacuarembó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Sosa"
+]
+}
+]
+},
+{
+"id": "189929",
+"data_hora": "2005-10-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert López"
+]
+}
+]
+},
+{
+"id": "189936",
+"data_hora": "2005-11-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Albín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vázquez"
+]
+}
+]
+},
+{
+"id": "189935",
+"data_hora": "2005-11-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Martín Crossa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Alberto Amorin"
+]
+}
+]
+},
+{
+"id": "189937",
+"data_hora": "2005-11-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo De Souza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Salgueiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martiñonez"
+]
+}
+]
+},
+{
+"id": "189941",
+"data_hora": "2005-11-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio1 Silva Cerón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Olivera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Maximiliano Pereira"
+]
+}
+]
+},
+{
+"id": "189942",
+"data_hora": "2005-11-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Godín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elias Figueroa"
+]
+}
+]
+},
+{
+"id": "189939",
+"data_hora": "2005-11-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Fénix ",
+"visitante_id": "2689",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Vigneri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Migliónico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Fabián Callejas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Washington Bruschi"
+]
+}
+]
+},
+{
+"id": "189934",
+"data_hora": "2005-11-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Dalocco"
+]
+}
+]
+},
+{
+"id": "189938",
+"data_hora": "2005-11-02T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189940",
+"data_hora": "2005-11-02T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Cedrés"
+]
+}
+]
+},
+{
+"id": "189948",
+"data_hora": "2005-11-05T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Miguel Campomar",
+"cidade": "Juan Lacaze",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189947",
+"data_hora": "2005-11-05T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Andrés Nicolay Aznarez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Olivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nathaniel Revetria"
+]
+}
+]
+},
+{
+"id": "189949",
+"data_hora": "2005-11-05T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Complejo de C.A. Rentistas",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Adrián Sum"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubens Martin Colombo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Daniel Pérez"
+]
+}
+]
+},
+{
+"id": "189945",
+"data_hora": "2005-11-05T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "2",
+"gols_visitante": "7",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Cedrés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Salgueiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo De Souza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Ricardo Stuani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martiñonez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Ortiz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Javier Grosnile"
+]
+}
+]
+},
+{
+"id": "189946",
+"data_hora": "2005-11-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189944",
+"data_hora": "2005-11-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Parque \"Luis Méndez Piana\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Bruno Fernández"
+]
+}
+]
+},
+{
+"id": "189950",
+"data_hora": "2005-11-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paolo Patritti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Matías González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Silva"
+]
+}
+]
+},
+{
+"id": "189951",
+"data_hora": "2005-11-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Fénix ",
+"visitante_id": "2689",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Guevgeoziam"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richar Aníbal Porta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Canobbio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Flavio Córdoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martin Rariz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richar Aníbal Porta"
+]
+}
+]
+},
+{
+"id": "189943",
+"data_hora": "2005-11-06T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Albín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Albín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Albín"
+]
+}
+]
+},
+{
+"id": "189955",
+"data_hora": "2005-11-19T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luigi Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubens Martin Colombo"
+]
+}
+]
+},
+{
+"id": "189959",
+"data_hora": "2005-11-19T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ferreri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Fabián González"
+]
+}
+]
+},
+{
+"id": "189956",
+"data_hora": "2005-11-19T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Martin Dadomo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hebert Alejandro Caro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+}
+]
+},
+{
+"id": "189960",
+"data_hora": "2005-11-19T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Ricardo Stuani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Ricardo Stuani"
+]
+}
+]
+},
+{
+"id": "189957",
+"data_hora": "2005-11-20T12:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rino Fabricio Lucas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rino Fabricio Lucas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Martierena"
+]
+}
+]
+},
+{
+"id": "189952",
+"data_hora": "2005-11-20T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio \"Luis Troccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Mauro Parlacino"
+]
+}
+]
+},
+{
+"id": "189958",
+"data_hora": "2005-11-20T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Peinado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Peinado"
+]
+}
+]
+},
+{
+"id": "189953",
+"data_hora": "2005-11-20T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Ferreira"
+]
+}
+]
+},
+{
+"id": "189954",
+"data_hora": "2005-11-20T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189962",
+"data_hora": "2005-11-26T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Maximiliano Pereira"
+]
+}
+]
+},
+{
+"id": "189969",
+"data_hora": "2005-11-26T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Fénix ",
+"visitante_id": "2689",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Aguilera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Alejandro Magureguy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Larrosa"
+]
+}
+]
+},
+{
+"id": "189965",
+"data_hora": "2005-11-27T12:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Landaida"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Salgueiro"
+]
+}
+]
+},
+{
+"id": "189966",
+"data_hora": "2005-11-27T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio \"Luis Troccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás López"
+]
+}
+]
+},
+{
+"id": "189967",
+"data_hora": "2005-11-27T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montevideo Wanderers",
+"mandante_id": "5501",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Alfredo Víctor Viera",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Andrés Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nasa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Andrés Nicolay Aznarez"
+]
+}
+]
+},
+{
+"id": "189961",
+"data_hora": "2005-11-27T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Washington Bruschi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Ezquerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richar Aníbal Porta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Damián Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Silva"
+]
+}
+]
+},
+{
+"id": "189968",
+"data_hora": "2005-11-27T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Junior Aliberti"
+]
+}
+]
+},
+{
+"id": "189964",
+"data_hora": "2005-11-27T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio \"Ing. Raúl Goyenola\"",
+"cidade": "Tacuarembó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luigi Rodríguez"
+]
+}
+]
+},
+{
+"id": "189963",
+"data_hora": "2005-11-27T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189971",
+"data_hora": "2005-12-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Miguel Campomar",
+"cidade": "Juan Lacaze",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Godín"
+]
+}
+]
+},
+{
+"id": "189978",
+"data_hora": "2005-12-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Elías"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Marcelo Segales"
+]
+}
+]
+},
+{
+"id": "189977",
+"data_hora": "2005-12-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189970",
+"data_hora": "2005-12-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rampla Juniors",
+"mandante_id": "5496",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio \"Olímpico\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Andrés Nicolay Aznarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Andrés Nicolay Aznarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nasa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Vicente Candia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celestino Francisco Tejera"
+]
+}
+]
+},
+{
+"id": "189975",
+"data_hora": "2005-12-04T12:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Parque \"Luis Méndez Piana\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hebert Alejandro Caro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Speranza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Vázquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonnhy Woodly"
+]
+}
+]
+},
+{
+"id": "189976",
+"data_hora": "2005-12-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Ricardo Stuani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Silva"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Washington Bruschi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valery Sone"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ribair Rodríguez"
+]
+}
+]
+},
+{
+"id": "189973",
+"data_hora": "2005-12-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "River Plate",
+"visitante_id": "5498",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Andrés Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Damián Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gutiérrez"
+]
+}
+]
+},
+{
+"id": "189974",
+"data_hora": "2005-12-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional",
+"mandante_id": "2684",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Gran Parque Central",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Olivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Maximiliano Pereira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Emilio Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Suárez"
+]
+}
+]
+},
+{
+"id": "189972",
+"data_hora": "2005-12-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "Montevideo Wanderers",
+"visitante_id": "5501",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Complejo de C.A. Rentistas",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Blanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Bonilla"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Zinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aníbal Alcoba"
+]
+}
+]
+},
+{
+"id": "189986",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerrito",
+"mandante_id": "4726",
+"visitante": "Paysandú",
+"visitante_id": "5494",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio \"Obdulio Jacinto Varela\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Daniel Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alberto Javier Ortega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Porley"
+]
+}
+]
+},
+{
+"id": "189980",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Defensor Sporting",
+"mandante_id": "1007",
+"visitante": "Cerro",
+"visitante_id": "5490",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Nuevo Estadio Luis Franzini",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Maximiliano Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Planchon"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valentín Villazán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Godín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Damián Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nathaniel Revetria"
+]
+}
+]
+},
+{
+"id": "189979",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Colonia",
+"mandante_id": "5491",
+"visitante": "Liverpool",
+"visitante_id": "5492",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Miguel Campomar",
+"cidade": "Juan Lacaze",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189982",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Miramar Misiones",
+"mandante_id": "5493",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Bruno Fernández"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castro"
+]
+}
+]
+},
+{
+"id": "189983",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montevideo Wanderers",
+"mandante_id": "5501",
+"visitante": "Peñarol",
+"visitante_id": "2683",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Alfredo Víctor Viera",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Javier Schneider"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Fernando Guglielmone"
+]
+}
+]
+},
+{
+"id": "189987",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rentistas",
+"mandante_id": "5497",
+"visitante": "Fénix ",
+"visitante_id": "2689",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Complejo de C.A. Rentistas",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ignacio1 Silva Cerón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Migliónico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Migliónico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Bobadilla"
+]
+}
+]
+},
+{
+"id": "189984",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Plaza Colonia",
+"visitante_id": "5495",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Damián Alonso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rino Fabricio Lucas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Ignacio Medina"
+]
+}
+]
+},
+{
+"id": "189985",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Rocha FC",
+"mandante_id": "5499",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio \"Dr. Mario Sobrero\"",
+"cidade": "Rocha",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Alejandro Magureguy"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Alejandro Magureguy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nasa"
+]
+}
+]
+},
+{
+"id": "189981",
+"data_hora": "2005-12-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuarembó FC",
+"mandante_id": "5500",
+"visitante": "Danubio",
+"visitante_id": "4817",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio \"Ing. Raúl Goyenola\"",
+"cidade": "Tacuarembó",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Ximenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Ximenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Bica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Willington Tejera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Ximenez"
+]
+}
+]
+},
+{
+"id": "189995",
+"data_hora": "2005-12-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro",
+"mandante_id": "5490",
+"visitante": "Rentistas",
+"visitante_id": "5497",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio \"Luis Troccoli\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ismael González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Planchon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo David Trecco"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Nicolás Piano"
+]
+}
+]
+},
+{
+"id": "189994",
+"data_hora": "2005-12-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fénix ",
+"mandante_id": "2689",
+"visitante": "Rampla Juniors",
+"visitante_id": "5496",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Parque Capurro",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Ben"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nasa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Fabián González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Guevgeoziam"
+]
+}
+]
+},
+{
+"id": "189991",
+"data_hora": "2005-12-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Paysandú",
+"mandante_id": "5494",
+"visitante": "Deportivo Colonia",
+"visitante_id": "5491",
+"gols_mandante": "1",
+"gols_visitante": "5",
+"estadio": "Estadio \"Parque Artigas\"",
+"cidade": "Paysandú",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luigi Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luigi Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Fabián Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Fabián Díaz"
+]
+}
+]
+},
+{
+"id": "189989",
+"data_hora": "2005-12-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Plaza Colonia",
+"mandante_id": "5495",
+"visitante": "Miramar Misiones",
+"visitante_id": "5493",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio \"Prof. Alberto Suppici\"",
+"cidade": "Colonia",
+"publico": 0,
+"lances": []
+},
+{
+"id": "189993",
+"data_hora": "2005-12-11T12:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liverpool",
+"mandante_id": "5492",
+"visitante": "Cerrito",
+"visitante_id": "4726",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio \"Belvedere\"",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Rivero"
+]
+}
+]
+},
+{
+"id": "189988",
+"data_hora": "2005-12-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montevideo Wanderers",
+"mandante_id": "5501",
+"visitante": "Tacuarembó FC",
+"visitante_id": "5500",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Alfredo Víctor Viera",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Manuel Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Pendola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mathias Riquero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Javier Schneider"
+]
+}
+]
+},
+{
+"id": "189996",
+"data_hora": "2005-12-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Peñarol",
+"mandante_id": "2683",
+"visitante": "Rocha FC",
+"visitante_id": "5499",
+"gols_mandante": "4",
+"gols_visitante": "4",
+"estadio": "Centenario",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Cedrés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Esteban Aldave"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Pedro Cardoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Beto Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Maz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Beto Acosta"
+]
+}
+]
+},
+{
+"id": "189992",
+"data_hora": "2005-12-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate",
+"mandante_id": "5498",
+"visitante": "Defensor Sporting",
+"visitante_id": "1007",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Antonio Vespucio Liberti",
+"cidade": "Ipira",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Amado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Maximiliano Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richar Aníbal Porta"
+]
+}
+]
+},
+{
+"id": "189990",
+"data_hora": "2005-12-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Danubio",
+"mandante_id": "4817",
+"visitante": "Nacional",
+"visitante_id": "2684",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Jardines del Hipódromo",
+"cidade": "Montevideo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio María González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Jaume"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martiñonez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Castro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Lima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Rariz"
+]
+}
+]
+}
+]
