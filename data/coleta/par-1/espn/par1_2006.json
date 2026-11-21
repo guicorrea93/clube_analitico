@@ -1,0 +1,11710 @@
+[
+{
+"id": "194406",
+"data_hora": "2006-01-27T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Irala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "194407",
+"data_hora": "2006-01-28T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Río Parapití",
+"cidade": "Pedro Juan Caballero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "194408",
+"data_hora": "2006-01-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Daniel Ormos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ruiz Peralta"
+]
+}
+]
+},
+{
+"id": "194409",
+"data_hora": "2006-01-28T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "194410",
+"data_hora": "2006-01-29T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Miranda"
+]
+}
+]
+},
+{
+"id": "194414",
+"data_hora": "2006-02-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Simovic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Montiel"
+]
+}
+]
+},
+{
+"id": "194412",
+"data_hora": "2006-02-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Cesar Irrazabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "194415",
+"data_hora": "2006-02-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herná Barcos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Rene Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herná Barcos"
+]
+}
+]
+},
+{
+"id": "194411",
+"data_hora": "2006-02-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ramón Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Ramón López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Rodas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso González"
+]
+}
+]
+},
+{
+"id": "194413",
+"data_hora": "2006-02-05T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Darío Grana"
+]
+}
+]
+},
+{
+"id": "194417",
+"data_hora": "2006-02-10T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Daniel Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "194418",
+"data_hora": "2006-02-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Leite"
+]
+}
+]
+},
+{
+"id": "194419",
+"data_hora": "2006-02-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Glaucineis Inca"
+]
+}
+]
+},
+{
+"id": "194420",
+"data_hora": "2006-02-11T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Leonardo Caballero"
+]
+}
+]
+},
+{
+"id": "194416",
+"data_hora": "2006-02-12T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Montiel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Julían Chavez"
+]
+}
+]
+},
+{
+"id": "194421",
+"data_hora": "2006-02-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+}
+]
+},
+{
+"id": "194422",
+"data_hora": "2006-02-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "194425",
+"data_hora": "2006-02-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ribonetto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mackenzy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Biancucchi"
+]
+}
+]
+},
+{
+"id": "194424",
+"data_hora": "2006-02-19T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herná Barcos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "194423",
+"data_hora": "2006-02-19T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+}
+]
+},
+{
+"id": "194428",
+"data_hora": "2006-02-25T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrocinio Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrocinio Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+}
+]
+},
+{
+"id": "194429",
+"data_hora": "2006-02-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Cardozo"
+]
+}
+]
+},
+{
+"id": "194430",
+"data_hora": "2006-02-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fabián Cantero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fabián Cantero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neri Quintana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neri Quintana"
+]
+}
+]
+},
+{
+"id": "194427",
+"data_hora": "2006-02-26T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Hernán Damiani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Humberto Balbuena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Almiron"
+]
+}
+]
+},
+{
+"id": "194426",
+"data_hora": "2006-02-27T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+}
+]
+},
+{
+"id": "194433",
+"data_hora": "2006-03-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Lider Mármol"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Rodas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Ariel Velásquez"
+]
+}
+]
+},
+{
+"id": "194432",
+"data_hora": "2006-03-04T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Hermosilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Oliveira De Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ferreira"
+]
+}
+]
+},
+{
+"id": "194431",
+"data_hora": "2006-03-04T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Pérez"
+]
+}
+]
+},
+{
+"id": "194435",
+"data_hora": "2006-03-05T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "194434",
+"data_hora": "2006-03-05T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Fernando Talavera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Denis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Robles"
+]
+}
+]
+},
+{
+"id": "194440",
+"data_hora": "2006-03-08T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Hobecken"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Noguera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Giménez"
+]
+}
+]
+},
+{
+"id": "194438",
+"data_hora": "2006-03-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Javier Florentín Nogueira"
+]
+}
+]
+},
+{
+"id": "194436",
+"data_hora": "2006-03-08T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mackenzy"
+]
+}
+]
+},
+{
+"id": "194437",
+"data_hora": "2006-03-08T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Caneza"
+]
+}
+]
+},
+{
+"id": "194439",
+"data_hora": "2006-03-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salustino Candía"
+]
+}
+]
+},
+{
+"id": "194441",
+"data_hora": "2006-03-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "5",
+"gols_visitante": "6",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Larroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Gamarra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "194442",
+"data_hora": "2006-03-11T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Leonardo Caballero"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Lider Mármol"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Acosta"
+]
+}
+]
+},
+{
+"id": "194445",
+"data_hora": "2006-03-11T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Júnior Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "194443",
+"data_hora": "2006-03-12T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Javier Florentín Nogueira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Biancucchi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Daniel Ormos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Gabriel Vitola"
+]
+}
+]
+},
+{
+"id": "194444",
+"data_hora": "2006-03-12T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Rodas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Virgilio Alvarenga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ralf Escher"
+]
+}
+]
+},
+{
+"id": "194450",
+"data_hora": "2006-03-18T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+}
+]
+},
+{
+"id": "194449",
+"data_hora": "2006-03-18T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "5",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fábio Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Humberto Balbuena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Burgos"
+]
+}
+]
+},
+{
+"id": "194446",
+"data_hora": "2006-03-19T00:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso González"
+]
+}
+]
+},
+{
+"id": "194448",
+"data_hora": "2006-03-19T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Leonardo Caballero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Biancucchi"
+]
+}
+]
+},
+{
+"id": "194447",
+"data_hora": "2006-03-19T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Simovic"
+]
+}
+]
+},
+{
+"id": "194451",
+"data_hora": "2006-03-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Hobecken"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Julían Chavez"
+]
+}
+]
+},
+{
+"id": "194452",
+"data_hora": "2006-03-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "194453",
+"data_hora": "2006-03-25T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ribonetto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Armando Ovelar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Montiel"
+]
+}
+]
+},
+{
+"id": "194455",
+"data_hora": "2006-03-26T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Hernán Damiani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Silva"
+]
+}
+]
+},
+{
+"id": "194454",
+"data_hora": "2006-03-28T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Daniel Ormos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Devaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Martínez"
+]
+}
+]
+},
+{
+"id": "194457",
+"data_hora": "2006-04-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Ovelar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Cabrera"
+]
+}
+]
+},
+{
+"id": "194459",
+"data_hora": "2006-04-02T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Hobecken"
+]
+}
+]
+},
+{
+"id": "194460",
+"data_hora": "2006-04-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Miguel Pisani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+}
+]
+},
+{
+"id": "194458",
+"data_hora": "2006-04-02T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Troadio Duarte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Cáceres Cañete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+}
+]
+},
+{
+"id": "194456",
+"data_hora": "2006-04-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "194463",
+"data_hora": "2006-04-07T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+}
+]
+},
+{
+"id": "194464",
+"data_hora": "2006-04-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Ramón Romero"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Ramón Romero"
+]
+}
+]
+},
+{
+"id": "194465",
+"data_hora": "2006-04-08T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+}
+]
+},
+{
+"id": "194461",
+"data_hora": "2006-04-09T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Biancucchi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+}
+]
+},
+{
+"id": "194462",
+"data_hora": "2006-04-09T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Gabriel Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Glaucineis Inca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+}
+]
+},
+{
+"id": "194469",
+"data_hora": "2006-04-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+}
+]
+},
+{
+"id": "194466",
+"data_hora": "2006-04-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fidencio Oviedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Leonardo Caballero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+}
+]
+},
+{
+"id": "194470",
+"data_hora": "2006-04-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Hinterleitner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Javier Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Centurión"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hamilton Alveniz Herrera"
+]
+}
+]
+},
+{
+"id": "194467",
+"data_hora": "2006-04-16T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Bonet"
+]
+}
+]
+},
+{
+"id": "194468",
+"data_hora": "2006-04-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elvis Marecos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sixto Rojas"
+]
+}
+]
+},
+{
+"id": "194474",
+"data_hora": "2006-04-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+}
+]
+},
+{
+"id": "194471",
+"data_hora": "2006-04-22T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Humberto Balbuena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Simovic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+}
+]
+},
+{
+"id": "194475",
+"data_hora": "2006-04-23T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Benítez"
+]
+}
+]
+},
+{
+"id": "194472",
+"data_hora": "2006-04-23T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "194473",
+"data_hora": "2006-04-23T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Aquino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adalberto Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Snaider"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+}
+]
+},
+{
+"id": "194695",
+"data_hora": "2006-04-26T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elvis Marecos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Snaider"
+]
+}
+]
+},
+{
+"id": "194691",
+"data_hora": "2006-04-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Rodas"
+]
+}
+]
+},
+{
+"id": "194694",
+"data_hora": "2006-04-26T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Humberto Balbuena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+}
+]
+},
+{
+"id": "194692",
+"data_hora": "2006-04-26T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Simovic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Hermosilla"
+]
+}
+]
+},
+{
+"id": "194693",
+"data_hora": "2006-04-26T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Noguera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Noguera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Biancucchi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abel Valdez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Armando Ovelar"
+]
+}
+]
+},
+{
+"id": "194476",
+"data_hora": "2006-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fabián Cantero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "194479",
+"data_hora": "2006-04-29T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+}
+]
+},
+{
+"id": "194477",
+"data_hora": "2006-04-30T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elvis Marecos"
+]
+}
+]
+},
+{
+"id": "194480",
+"data_hora": "2006-04-30T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+}
+]
+},
+{
+"id": "194484",
+"data_hora": "2006-05-05T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Abente"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+}
+]
+},
+{
+"id": "194483",
+"data_hora": "2006-05-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrocinio Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gregor Aguayo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Adolfo Leite"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+}
+]
+},
+{
+"id": "194485",
+"data_hora": "2006-05-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+}
+]
+},
+{
+"id": "194482",
+"data_hora": "2006-05-07T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adalberto Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Javier Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Valentín Filippini"
+]
+}
+]
+},
+{
+"id": "194481",
+"data_hora": "2006-05-07T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+}
+]
+},
+{
+"id": "194487",
+"data_hora": "2006-05-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Abente"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Abente"
+]
+}
+]
+},
+{
+"id": "194488",
+"data_hora": "2006-05-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Esteche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Javier Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso González"
+]
+}
+]
+},
+{
+"id": "194490",
+"data_hora": "2006-05-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "194486",
+"data_hora": "2006-05-14T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sixto Rojas"
+]
+}
+]
+},
+{
+"id": "194489",
+"data_hora": "2006-05-14T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Meza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Sarabia"
+]
+}
+]
+},
+{
+"id": "194478",
+"data_hora": "2006-05-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "194493",
+"data_hora": "2006-05-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+}
+]
+},
+{
+"id": "194492",
+"data_hora": "2006-05-20T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+}
+]
+},
+{
+"id": "194495",
+"data_hora": "2006-05-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+}
+]
+},
+{
+"id": "194494",
+"data_hora": "2006-05-21T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Armando Ovelar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+}
+]
+},
+{
+"id": "194491",
+"data_hora": "2006-05-21T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Simovic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Villarreal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "194688",
+"data_hora": "2006-05-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Ramón Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Aguilar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+}
+]
+},
+{
+"id": "194689",
+"data_hora": "2006-05-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Cáceres Cañete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Rodas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Hugo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Ledesma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+}
+]
+},
+{
+"id": "194687",
+"data_hora": "2006-05-24T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Hugo Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Paniagua"
+]
+}
+]
+},
+{
+"id": "194690",
+"data_hora": "2006-05-24T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "194686",
+"data_hora": "2006-05-26T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "194698",
+"data_hora": "2006-05-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Adalberto Cañete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Armando Ovelar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Ledesma"
+]
+}
+]
+},
+{
+"id": "194699",
+"data_hora": "2006-05-27T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+}
+]
+},
+{
+"id": "194696",
+"data_hora": "2006-05-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Francisco Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herná Barcos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Esteche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herná Barcos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sixto Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+}
+]
+},
+{
+"id": "194700",
+"data_hora": "2006-05-28T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Romero"
+]
+}
+]
+},
+{
+"id": "194697",
+"data_hora": "2006-05-29T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Cesar Irrazabal"
+]
+}
+]
+},
+{
+"id": "194704",
+"data_hora": "2006-06-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Badayco Maciel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Gabriel Vitola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Cesar Enciso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Notario"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+}
+]
+},
+{
+"id": "194703",
+"data_hora": "2006-06-02T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "194705",
+"data_hora": "2006-06-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Larroza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Aguilera"
+]
+}
+]
+},
+{
+"id": "194702",
+"data_hora": "2006-06-03T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Armando Ovelar"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Devaca"
+]
+}
+]
+},
+{
+"id": "194701",
+"data_hora": "2006-06-03T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "200449",
+"data_hora": "2006-07-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sixto Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Americo Luzardi"
+]
+}
+]
+},
+{
+"id": "200450",
+"data_hora": "2006-07-15T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200451",
+"data_hora": "2006-07-16T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Francisco Soto"
+]
+}
+]
+},
+{
+"id": "200452",
+"data_hora": "2006-07-16T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "200458",
+"data_hora": "2006-07-21T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fábio Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Ramón López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+}
+]
+},
+{
+"id": "200457",
+"data_hora": "2006-07-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Lazaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Ibarra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+}
+]
+},
+{
+"id": "200454",
+"data_hora": "2006-07-22T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Badayco Maciel"
+]
+}
+]
+},
+{
+"id": "200455",
+"data_hora": "2006-07-22T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Cáceres"
+]
+}
+]
+},
+{
+"id": "200456",
+"data_hora": "2006-07-23T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Glaucineis Inca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Glaucineis Inca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hebert Arriola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernandez"
+]
+}
+]
+},
+{
+"id": "200460",
+"data_hora": "2006-07-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Cardozo"
+]
+}
+]
+},
+{
+"id": "200461",
+"data_hora": "2006-07-28T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Lazaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Lazaga"
+]
+}
+]
+},
+{
+"id": "200459",
+"data_hora": "2006-07-29T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Lider Mármol"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+}
+]
+},
+{
+"id": "200463",
+"data_hora": "2006-07-30T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200462",
+"data_hora": "2006-07-30T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hebert Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hebert Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+}
+]
+},
+{
+"id": "200468",
+"data_hora": "2006-08-05T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Mario Núñez"
+]
+}
+]
+},
+{
+"id": "200465",
+"data_hora": "2006-08-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Esteche"
+]
+}
+]
+},
+{
+"id": "200466",
+"data_hora": "2006-08-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+}
+]
+},
+{
+"id": "200464",
+"data_hora": "2006-08-05T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+}
+]
+},
+{
+"id": "200467",
+"data_hora": "2006-08-06T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Glaucineis Inca"
+]
+}
+]
+},
+{
+"id": "200453",
+"data_hora": "2006-08-09T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200472",
+"data_hora": "2006-08-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso González"
+]
+}
+]
+},
+{
+"id": "200473",
+"data_hora": "2006-08-12T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Aníbal Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Fernando Andersen"
+]
+}
+]
+},
+{
+"id": "200471",
+"data_hora": "2006-08-13T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+}
+]
+},
+{
+"id": "200469",
+"data_hora": "2006-08-13T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Alejandro Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "200470",
+"data_hora": "2006-08-13T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+}
+]
+},
+{
+"id": "200476",
+"data_hora": "2006-08-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Francisco Soto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+}
+]
+},
+{
+"id": "200475",
+"data_hora": "2006-08-19T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+}
+]
+},
+{
+"id": "200477",
+"data_hora": "2006-08-19T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Olivera"
+]
+}
+]
+},
+{
+"id": "200478",
+"data_hora": "2006-08-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herminio Miranda"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Alejandro Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Maria Estigarribia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+}
+]
+},
+{
+"id": "200474",
+"data_hora": "2006-08-20T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+}
+]
+},
+{
+"id": "200482",
+"data_hora": "2006-08-26T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Ramón López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "200483",
+"data_hora": "2006-08-26T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+}
+]
+},
+{
+"id": "200479",
+"data_hora": "2006-08-26T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Báez"
+]
+}
+]
+},
+{
+"id": "200481",
+"data_hora": "2006-08-27T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Francisco Soto"
+]
+}
+]
+},
+{
+"id": "200480",
+"data_hora": "2006-08-27T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Hobecken"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+}
+]
+},
+{
+"id": "200487",
+"data_hora": "2006-09-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vicente Rodrigo Paciello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "200488",
+"data_hora": "2006-09-02T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herminio Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hebert Arriola"
+]
+}
+]
+},
+{
+"id": "200485",
+"data_hora": "2006-09-03T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+}
+]
+},
+{
+"id": "200486",
+"data_hora": "2006-09-03T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Gabriel Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fábio Escobar"
+]
+}
+]
+},
+{
+"id": "200484",
+"data_hora": "2006-09-03T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+}
+]
+},
+{
+"id": "200491",
+"data_hora": "2006-09-08T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200490",
+"data_hora": "2006-09-09T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+}
+]
+},
+{
+"id": "200492",
+"data_hora": "2006-09-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200493",
+"data_hora": "2006-09-09T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fábio Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fábio Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrocinio Samudio"
+]
+}
+]
+},
+{
+"id": "200489",
+"data_hora": "2006-09-10T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Báez"
+]
+}
+]
+},
+{
+"id": "200497",
+"data_hora": "2006-09-13T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Alcides Añazco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Javier Díaz"
+]
+}
+]
+},
+{
+"id": "200496",
+"data_hora": "2006-09-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Barreiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Barreiro"
+]
+}
+]
+},
+{
+"id": "200495",
+"data_hora": "2006-09-13T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Bonet"
+]
+}
+]
+},
+{
+"id": "200494",
+"data_hora": "2006-09-13T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200498",
+"data_hora": "2006-09-13T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+}
+]
+},
+{
+"id": "200502",
+"data_hora": "2006-09-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Irala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sixto Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+}
+]
+},
+{
+"id": "200501",
+"data_hora": "2006-09-16T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Larroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Lazaga"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salustino Candía"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "200503",
+"data_hora": "2006-09-17T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Figueredo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+}
+]
+},
+{
+"id": "200499",
+"data_hora": "2006-09-17T20:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Americo Luzardi"
+]
+}
+]
+},
+{
+"id": "200500",
+"data_hora": "2006-09-17T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Alcides Añazco"
+]
+}
+]
+},
+{
+"id": "200506",
+"data_hora": "2006-09-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lidio Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Fernando Andersen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+}
+]
+},
+{
+"id": "200505",
+"data_hora": "2006-09-23T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Americo Luzardi"
+]
+}
+]
+},
+{
+"id": "200507",
+"data_hora": "2006-09-23T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "200508",
+"data_hora": "2006-09-24T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Francisco Soto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Armando Ovelar"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Rene Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Armando Ovelar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aureliano Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Pérez"
+]
+}
+]
+},
+{
+"id": "200504",
+"data_hora": "2006-09-24T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+}
+]
+},
+{
+"id": "200513",
+"data_hora": "2006-09-29T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Ramón López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+}
+]
+},
+{
+"id": "200510",
+"data_hora": "2006-09-29T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Aquino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "200512",
+"data_hora": "2006-09-30T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+}
+]
+},
+{
+"id": "200509",
+"data_hora": "2006-09-30T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+}
+]
+},
+{
+"id": "200511",
+"data_hora": "2006-10-01T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Benítez"
+]
+}
+]
+},
+{
+"id": "200515",
+"data_hora": "2006-10-06T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Maria Estigarribia"
+]
+}
+]
+},
+{
+"id": "200516",
+"data_hora": "2006-10-07T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200518",
+"data_hora": "2006-10-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neri Quintana"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Aníbal Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neri Quintana"
+]
+}
+]
+},
+{
+"id": "200517",
+"data_hora": "2006-10-08T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+}
+]
+},
+{
+"id": "200520",
+"data_hora": "2006-10-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Servín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"2"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Servín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Abente"
+]
+}
+]
+},
+{
+"id": "200523",
+"data_hora": "2006-10-14T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Nahuel Ayr"
+]
+}
+]
+},
+{
+"id": "200521",
+"data_hora": "2006-10-14T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+}
+]
+},
+{
+"id": "200522",
+"data_hora": "2006-10-14T22:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+}
+]
+},
+{
+"id": "200519",
+"data_hora": "2006-10-15T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+}
+]
+},
+{
+"id": "200528",
+"data_hora": "2006-10-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "200527",
+"data_hora": "2006-10-21T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Ariel Mendieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+}
+]
+},
+{
+"id": "200524",
+"data_hora": "2006-10-21T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+}
+]
+},
+{
+"id": "200526",
+"data_hora": "2006-10-22T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Cesar Irrazabal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Blas Ramón López"
+]
+}
+]
+},
+{
+"id": "200525",
+"data_hora": "2006-10-22T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Gamarra"
+]
+}
+]
+},
+{
+"id": "200514",
+"data_hora": "2006-10-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Aquino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Esteche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "200532",
+"data_hora": "2006-10-27T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Hugo Bogado Vaceque",
+"cidade": "Zeballos Cue",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200533",
+"data_hora": "2006-10-27T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Vera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salustino Candía"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Martínez"
+]
+}
+]
+},
+{
+"id": "200530",
+"data_hora": "2006-10-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "200531",
+"data_hora": "2006-10-28T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Gabriel Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+}
+]
+},
+{
+"id": "200529",
+"data_hora": "2006-10-29T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+}
+]
+},
+{
+"id": "200537",
+"data_hora": "2006-11-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Bonet"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fábio Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Cáceres"
+]
+}
+]
+},
+{
+"id": "200538",
+"data_hora": "2006-11-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200534",
+"data_hora": "2006-11-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Miranda"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Aquino"
+]
+}
+]
+},
+{
+"id": "200536",
+"data_hora": "2006-11-05T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aureliano Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Larrea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aureliano Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Barreiro"
+]
+}
+]
+},
+{
+"id": "200535",
+"data_hora": "2006-11-05T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Hobecken"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Meza"
+]
+}
+]
+},
+{
+"id": "200542",
+"data_hora": "2006-11-10T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Guiñazú"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "200541",
+"data_hora": "2006-11-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "200543",
+"data_hora": "2006-11-11T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Lazaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salustino Candía"
+]
+}
+]
+},
+{
+"id": "200540",
+"data_hora": "2006-11-12T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Notario"
+]
+}
+]
+},
+{
+"id": "200539",
+"data_hora": "2006-11-12T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Velázquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Ariel Mendieta"
+]
+}
+]
+},
+{
+"id": "200547",
+"data_hora": "2006-11-17T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Romero"
+]
+}
+]
+},
+{
+"id": "200545",
+"data_hora": "2006-11-18T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lidio Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Lazaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+}
+]
+},
+{
+"id": "200546",
+"data_hora": "2006-11-18T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Ariel Mendieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Adalberto Cañete"
+]
+}
+]
+},
+{
+"id": "200548",
+"data_hora": "2006-11-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+}
+]
+},
+{
+"id": "200544",
+"data_hora": "2006-11-18T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "200551",
+"data_hora": "2006-11-24T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Fernando de la Mora",
+"mandante_id": "6098",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Emilio Ghezzi",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Villa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Silva"
+]
+}
+]
+},
+{
+"id": "200553",
+"data_hora": "2006-11-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Ledesma"
+]
+}
+]
+},
+{
+"id": "200552",
+"data_hora": "2006-11-24T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "2 de Mayo",
+"mandante_id": "6097",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Río Parapití",
+"cidade": "Caballero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+}
+]
+},
+{
+"id": "200550",
+"data_hora": "2006-11-25T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Bonet"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ferreira"
+]
+}
+]
+},
+{
+"id": "200549",
+"data_hora": "2006-11-26T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Aníbal Cardozo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+}
+]
+},
+{
+"id": "200556",
+"data_hora": "2006-12-01T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "2 de Mayo",
+"visitante_id": "6097",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edison Giménez"
+]
+}
+]
+},
+{
+"id": "200554",
+"data_hora": "2006-12-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "200555",
+"data_hora": "2006-12-02T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "200558",
+"data_hora": "2006-12-03T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Fernando de la Mora",
+"visitante_id": "6098",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Noguera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fábio Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Burgos"
+]
+}
+]
+},
+{
+"id": "200557",
+"data_hora": "2006-12-03T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paredes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Núñez"
+]
+}
+]
+}
+]

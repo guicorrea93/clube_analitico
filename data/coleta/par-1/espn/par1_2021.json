@@ -1,0 +1,11827 @@
+[
+{
+"id": "592664",
+"data_hora": "2021-02-05T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Bartoméus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Duré"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Estivel Moreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Borja"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Duré"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Viera"
+]
+}
+]
+},
+{
+"id": "592666",
+"data_hora": "2021-02-05T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Maciel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Fleitas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Farid Díaz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Antonio Marín"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nicolás Maná"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Claudio Núñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+}
+]
+},
+{
+"id": "592667",
+"data_hora": "2021-02-06T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Velázquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Zeballos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Miño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo da Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darío Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Orlando Gallardo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+}
+]
+},
+{
+"id": "592663",
+"data_hora": "2021-02-06T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Cazal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Cazal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enzo Giménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Velázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Jiménez"
+]
+}
+]
+},
+{
+"id": "592665",
+"data_hora": "2021-02-07T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Vangioni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Ortíz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Mejía"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Antonio Bareiro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Colmán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cáceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pedro Delvalle"
+]
+}
+]
+},
+{
+"id": "593257",
+"data_hora": "2021-02-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Orlando Gallardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdez"
+]
+}
+]
+},
+{
+"id": "593258",
+"data_hora": "2021-02-09T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Fleitas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Danilo Ortiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brahian Ayala"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Brahian Ayala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Martínez"
+]
+}
+]
+},
+{
+"id": "593259",
+"data_hora": "2021-02-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Duarte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dante Campisi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mateus"
+]
+}
+]
+},
+{
+"id": "593260",
+"data_hora": "2021-02-10T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Benítez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Paiva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Victor Cáceres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Torres"
+]
+}
+]
+},
+{
+"id": "593262",
+"data_hora": "2021-02-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darío Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Morel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Maciel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Villa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Marín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Montiel"
+]
+}
+]
+},
+{
+"id": "593263",
+"data_hora": "2021-02-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Pintos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Beltrán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Borja"
+]
+}
+]
+},
+{
+"id": "593264",
+"data_hora": "2021-02-14T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramón Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rosalino Toledo"
+]
+}
+]
+},
+{
+"id": "593265",
+"data_hora": "2021-02-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Orlando Gallardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Ferreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Noguera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Jiménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+10'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Villagra"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Joel Jiménez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+13'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Zeballos"
+]
+}
+]
+},
+{
+"id": "593266",
+"data_hora": "2021-02-15T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Federico Carrizo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Báez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Bareiro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Mejía"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Duarte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Vangioni"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bogarín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Espínola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adrián Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Blas Caceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Silva"
+]
+}
+]
+},
+{
+"id": "593184",
+"data_hora": "2021-02-19T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio Miño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cabral"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo González"
+]
+}
+]
+},
+{
+"id": "593180",
+"data_hora": "2021-02-20T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Cazal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nildo Viera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Shuartzman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Junior Marabel"
+]
+}
+]
+},
+{
+"id": "593182",
+"data_hora": "2021-02-20T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roque Santa Cruz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Rolón"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Milton Maciel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Morel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Ortíz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Braian Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Ojeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Sosa"
+]
+}
+]
+},
+{
+"id": "593181",
+"data_hora": "2021-02-21T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mathías Villasanti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Duarte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Duarte"
+]
+}
+]
+},
+{
+"id": "593183",
+"data_hora": "2021-02-21T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enciso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edgardo Orzuza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Bocanegra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Delvalle"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+}
+]
+},
+{
+"id": "593261",
+"data_hora": "2021-02-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramón Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ayrton Cougo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eduardo Aranda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Franco"
+]
+}
+]
+},
+{
+"id": "593189",
+"data_hora": "2021-02-26T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Estivel Moreira"
+]
+}
+]
+},
+{
+"id": "593188",
+"data_hora": "2021-02-27T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Maná"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Villa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Marín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nildo Viera"
+]
+}
+]
+},
+{
+"id": "593187",
+"data_hora": "2021-02-28T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Carrizo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Otálvaro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Rolón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Delvalle"
+]
+}
+]
+},
+{
+"id": "593185",
+"data_hora": "2021-03-01T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Alborno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Alborno"
+]
+}
+]
+},
+{
+"id": "593186",
+"data_hora": "2021-03-01T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolas Dure"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nicolas Dure"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alberto Contrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Montiel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+}
+]
+},
+{
+"id": "593190",
+"data_hora": "2021-03-05T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Bartoméus"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Tomás Bartoméus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Feliciano Brizuela"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Acosta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Contrera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gustavo Navarro"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Lucas González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+}
+]
+},
+{
+"id": "593193",
+"data_hora": "2021-03-05T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Báez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bautista Merlini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Victor Barrios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Bocanegra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Blas Caceres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Velázquez"
+]
+}
+]
+},
+{
+"id": "593191",
+"data_hora": "2021-03-06T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Maíz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Adorno"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Aldo Maíz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Édgar Zaracho"
+]
+}
+]
+},
+{
+"id": "593194",
+"data_hora": "2021-03-06T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roque Santa Cruz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edgar Ferreira"
+]
+}
+]
+},
+{
+"id": "593192",
+"data_hora": "2021-03-07T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Tegue"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Cabral"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cabral"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Morel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Beltrán"
+]
+}
+]
+},
+{
+"id": "593197",
+"data_hora": "2021-03-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Victor Barrios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Alborno"
+]
+}
+]
+},
+{
+"id": "593198",
+"data_hora": "2021-03-09T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Saldivar"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mario Saldivar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Espínola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osmar Molinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Carrizo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mathías Villasanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Contrera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alberto Contrera"
+]
+}
+]
+},
+{
+"id": "593195",
+"data_hora": "2021-03-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Espinola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Édgar Zaracho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Gaona Lugo"
+]
+}
+]
+},
+{
+"id": "593199",
+"data_hora": "2021-03-10T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Borja"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Franco Costa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Estivel Moreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Meza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matias Pardo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nildo Viera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Aldo Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Beltrán"
+]
+}
+]
+},
+{
+"id": "593200",
+"data_hora": "2021-03-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Espínola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Vargas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mathías Villasanti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramón Coronel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Carrizo"
+]
+}
+]
+},
+{
+"id": "593202",
+"data_hora": "2021-03-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Montiel"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "13'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Carlos Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Garay"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Silvio Torales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brahian Ayala"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Brahian Ayala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Argüello"
+]
+}
+]
+},
+{
+"id": "593203",
+"data_hora": "2021-03-13T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Bocanegra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miliciades Portillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Martínez"
+]
+}
+]
+},
+{
+"id": "593201",
+"data_hora": "2021-03-14T20:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Benítez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Salustiano Candía"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Villa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Verdún"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Bobadilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodney Pedrozo"
+]
+}
+]
+},
+{
+"id": "593204",
+"data_hora": "2021-03-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Ortíz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Otálvaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Beltrán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Estigarribia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ángel Martínez"
+]
+}
+]
+},
+{
+"id": "593208",
+"data_hora": "2021-03-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"César Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edgardo Orzuza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Junior Marabel"
+]
+}
+]
+},
+{
+"id": "593205",
+"data_hora": "2021-03-21T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Franco"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Juan Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Patiño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Bobadilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Morales"
+]
+}
+]
+},
+{
+"id": "593209",
+"data_hora": "2021-03-21T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emiliano Agüero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Saldivar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Zeballos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jordán Santacruz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Otálvaro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Rojas"
+]
+}
+]
+},
+{
+"id": "593206",
+"data_hora": "2021-03-22T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nildo Viera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Ortiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Salustiano Candía"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Velázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valdes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Jiménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rosalino Toledo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+}
+]
+},
+{
+"id": "593207",
+"data_hora": "2021-03-22T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bautista Merlini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bautista Merlini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Vera"
+]
+}
+]
+},
+{
+"id": "593196",
+"data_hora": "2021-03-28T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Villa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Benitez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Bocanegra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Bobadilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Glory Williams"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Glory Williams"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+}
+]
+},
+{
+"id": "593214",
+"data_hora": "2021-04-01T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Mendieta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alex Garcete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Velázquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Contrera"
+]
+}
+]
+},
+{
+"id": "593213",
+"data_hora": "2021-04-02T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Benítez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+}
+]
+},
+{
+"id": "593210",
+"data_hora": "2021-04-03T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Salustiano Candía"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Paniagua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Miguel Ortega Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Paniagua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomás Bartoméus"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Vera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Beltrán"
+]
+}
+]
+},
+{
+"id": "593212",
+"data_hora": "2021-04-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Héctor Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+}
+]
+},
+{
+"id": "593211",
+"data_hora": "2021-04-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Jiménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Úbeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mathías Villasanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Morales"
+]
+}
+]
+},
+{
+"id": "593218",
+"data_hora": "2021-04-10T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valdes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Gaona Lugo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Jiménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nildo Viera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Sebastian Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yeiber Murillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Núñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Cazal"
+]
+}
+]
+},
+{
+"id": "593217",
+"data_hora": "2021-04-11T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Estigarribia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Antolin Alcaraz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Olveira"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Antolin Alcaraz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+10'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jordán Santacruz"
+]
+}
+]
+},
+{
+"id": "593219",
+"data_hora": "2021-04-11T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Cabral"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Duré"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Arzamendia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Cabral"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Duré"
+]
+}
+]
+},
+{
+"id": "593216",
+"data_hora": "2021-04-12T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Parra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enciso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Facundo Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ayrton Cougo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Salustiano Candía"
+]
+}
+]
+},
+{
+"id": "593215",
+"data_hora": "2021-04-12T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Zeballos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Maciel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+7'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+}
+]
+},
+{
+"id": "593222",
+"data_hora": "2021-04-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Albino Cáceres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Saúl Salcedo"
+]
+}
+]
+},
+{
+"id": "593221",
+"data_hora": "2021-04-17T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Villa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Mendieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Colman"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Glory Williams"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Jacquet"
+]
+}
+]
+},
+{
+"id": "593224",
+"data_hora": "2021-04-17T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cabral"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Vera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+9'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+}
+]
+},
+{
+"id": "593223",
+"data_hora": "2021-04-18T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Ortigoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Úbeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Noguera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Quiñónez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Meza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Navarro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Montiel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Castellano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osmar Molinas"
+]
+}
+]
+},
+{
+"id": "593220",
+"data_hora": "2021-04-18T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Blas Caceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Arzamendia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enzo Giménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ayrton Cougo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Bareiro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Patiño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enciso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Ferreira"
+]
+}
+]
+},
+{
+"id": "593228",
+"data_hora": "2021-04-23T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Cáceres"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Velázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Mendieta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Salinas"
+]
+}
+]
+},
+{
+"id": "593227",
+"data_hora": "2021-04-25T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Ortíz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Franco"
+]
+}
+]
+},
+{
+"id": "593225",
+"data_hora": "2021-04-25T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rosalino Toledo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Arzamendia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Paniagua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Núñez"
+]
+}
+]
+},
+{
+"id": "593226",
+"data_hora": "2021-04-26T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Espinola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Édgar Zaracho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Núñez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Claudio Núñez"
+]
+}
+]
+},
+{
+"id": "593229",
+"data_hora": "2021-04-26T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Beltrán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Estivel Moreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dionicio Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juanito Alfonso"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Zeballos"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cristian Sosa"
+]
+}
+]
+},
+{
+"id": "593232",
+"data_hora": "2021-04-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Facundo Parra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aquilino Giménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Núñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Fleitas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Albino Cáceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Feliciano Brizuela"
+]
+}
+]
+},
+{
+"id": "593230",
+"data_hora": "2021-05-01T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Cáceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Duré"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Aguilar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Jacquet"
+]
+}
+]
+},
+{
+"id": "593231",
+"data_hora": "2021-05-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Otálvaro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Estigarribia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Braian Ojeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Polenta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Aquino"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Braian Ojeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Patiño"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Arzamendia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+}
+]
+},
+{
+"id": "593233",
+"data_hora": "2021-05-02T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edgar Ferreira"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Edgar Ferreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Jiménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Morel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+}
+]
+},
+{
+"id": "593234",
+"data_hora": "2021-05-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ayrton Cougo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osmar Molinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Saldivar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Bareiro"
+]
+}
+]
+},
+{
+"id": "593239",
+"data_hora": "2021-05-08T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'+4'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Valdez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Morel"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Borja"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Benítez"
+]
+}
+]
+},
+{
+"id": "593236",
+"data_hora": "2021-05-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Boselli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brahian Ayala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ángel Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Espinola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brahian Ayala"
+]
+}
+]
+},
+{
+"id": "593238",
+"data_hora": "2021-05-09T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Cazal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Velázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Úbeda"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saúl Salcedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Ortíz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jorge Recalde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Néstor Camacho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Ayala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Meza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gustavo Velázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valdes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+10'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Valdes"
+]
+}
+]
+},
+{
+"id": "593237",
+"data_hora": "2021-05-09T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Canale"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Jacquet"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Marabel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bautista Merlini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darío Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Piris"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bogarín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Servin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Báez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Báez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Juan Ojeda"
+]
+}
+]
+},
+{
+"id": "593235",
+"data_hora": "2021-05-10T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Salustiano Candía"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Giménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rosalino Toledo"
+]
+}
+]
+},
+{
+"id": "593243",
+"data_hora": "2021-05-15T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Benítez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Úbeda"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Cain Fara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Ortiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Walter Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rubén Escobar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valdes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dante Campisi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Palau"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gustavo Pintos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos González"
+]
+}
+]
+},
+{
+"id": "593241",
+"data_hora": "2021-05-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Núñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rosalino Toledo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Mendoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Aguilar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Velázquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Velázquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alex Albino Cáceres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Paniagua"
+]
+}
+]
+},
+{
+"id": "593244",
+"data_hora": "2021-05-16T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Otazú"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Rivas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+10'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Osmar Molinas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+11'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronaldo Martínez"
+]
+}
+]
+},
+{
+"id": "593240",
+"data_hora": "2021-05-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "6",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ayrton Cougo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Glory Williams"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaspar Servio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bogarín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enciso"
+]
+}
+]
+},
+{
+"id": "593242",
+"data_hora": "2021-05-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Camacho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nicolás Domingo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Olveira"
+]
+}
+]
+},
+{
+"id": "593246",
+"data_hora": "2021-05-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Guillermo Benitez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cesar Alonso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Morel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+}
+]
+},
+{
+"id": "593248",
+"data_hora": "2021-05-22T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Tigo La Huerta",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Báez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adrián Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Valdes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ivan Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luís Leal"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+}
+]
+},
+{
+"id": "593245",
+"data_hora": "2021-05-23T12:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mathías Villasanti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabián Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilder Viera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Mendieta"
+]
+}
+]
+},
+{
+"id": "593249",
+"data_hora": "2021-05-23T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Camacho"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Silva"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis de la Cruz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis González"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jordán Santacruz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+8'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isidro Pitta"
+]
+}
+]
+},
+{
+"id": "593247",
+"data_hora": "2021-05-24T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Arrua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Montiel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dionicio Pérez"
+]
+}
+]
+},
+{
+"id": "593250",
+"data_hora": "2021-05-28T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valdes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Mendoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Esparza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rosalino Toledo"
+]
+}
+]
+},
+{
+"id": "593253",
+"data_hora": "2021-05-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Pereira"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alexis Duarte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Pereira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Morel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Rentería"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Quintero"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Nestor Esteche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Florentín"
+]
+}
+]
+},
+{
+"id": "593251",
+"data_hora": "2021-05-29T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Mejía"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramón Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bogarín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Ferreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Ferreira"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sebastián Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ortiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexander Barboza"
+]
+}
+]
+},
+{
+"id": "593254",
+"data_hora": "2021-05-30T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isidro Pitta"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis de la Cruz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Zeballos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jordán Santacruz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Contrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Rolón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Candia"
+]
+}
+]
+},
+{
+"id": "593252",
+"data_hora": "2021-05-31T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edgardo Orzuza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Barrios"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Brahian Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Núñez"
+]
+}
+]
+},
+{
+"id": "593642",
+"data_hora": "2021-07-16T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": []
+},
+{
+"id": "593640",
+"data_hora": "2021-07-17T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": []
+},
+{
+"id": "593641",
+"data_hora": "2021-07-17T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "593643",
+"data_hora": "2021-07-18T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "593644",
+"data_hora": "2021-07-18T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612251",
+"data_hora": "2021-07-23T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612252",
+"data_hora": "2021-07-24T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Arsenio Erico",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612253",
+"data_hora": "2021-07-25T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612254",
+"data_hora": "2021-07-25T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612255",
+"data_hora": "2021-07-26T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Luis Alberto Salinas Tanasio",
+"cidade": "Itagua",
+"publico": 0,
+"lances": []
+},
+{
+"id": "616328",
+"data_hora": "2021-07-30T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616329",
+"data_hora": "2021-07-31T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616330",
+"data_hora": "2021-07-31T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "616331",
+"data_hora": "2021-08-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616332",
+"data_hora": "2021-08-01T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616333",
+"data_hora": "2021-08-06T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616334",
+"data_hora": "2021-08-07T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616335",
+"data_hora": "2021-08-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616336",
+"data_hora": "2021-08-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "616337",
+"data_hora": "2021-08-08T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618068",
+"data_hora": "2021-08-13T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618069",
+"data_hora": "2021-08-13T23:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618070",
+"data_hora": "2021-08-14T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618071",
+"data_hora": "2021-08-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618072",
+"data_hora": "2021-08-15T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618073",
+"data_hora": "2021-08-20T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618074",
+"data_hora": "2021-08-21T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618075",
+"data_hora": "2021-08-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618076",
+"data_hora": "2021-08-22T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618077",
+"data_hora": "2021-08-23T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618611",
+"data_hora": "2021-08-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618612",
+"data_hora": "2021-08-29T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618613",
+"data_hora": "2021-08-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618614",
+"data_hora": "2021-08-29T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "5",
+"estadio": "Estadio River Plate (Asunción)",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "618615",
+"data_hora": "2021-08-30T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618616",
+"data_hora": "2021-09-10T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618617",
+"data_hora": "2021-09-11T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618618",
+"data_hora": "2021-09-12T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "618619",
+"data_hora": "2021-09-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "618620",
+"data_hora": "2021-09-12T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619274",
+"data_hora": "2021-09-18T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619275",
+"data_hora": "2021-09-19T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619276",
+"data_hora": "2021-09-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619277",
+"data_hora": "2021-09-20T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619278",
+"data_hora": "2021-09-21T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619279",
+"data_hora": "2021-09-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619280",
+"data_hora": "2021-09-26T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619281",
+"data_hora": "2021-09-26T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619282",
+"data_hora": "2021-09-27T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619283",
+"data_hora": "2021-09-27T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619991",
+"data_hora": "2021-10-01T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619992",
+"data_hora": "2021-10-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619993",
+"data_hora": "2021-10-03T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619994",
+"data_hora": "2021-10-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619995",
+"data_hora": "2021-10-03T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619996",
+"data_hora": "2021-10-16T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619997",
+"data_hora": "2021-10-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619998",
+"data_hora": "2021-10-17T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619999",
+"data_hora": "2021-10-18T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620000",
+"data_hora": "2021-10-18T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620933",
+"data_hora": "2021-10-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620934",
+"data_hora": "2021-10-23T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620935",
+"data_hora": "2021-10-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620936",
+"data_hora": "2021-10-24T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620937",
+"data_hora": "2021-10-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620938",
+"data_hora": "2021-10-29T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620939",
+"data_hora": "2021-10-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620940",
+"data_hora": "2021-10-30T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620941",
+"data_hora": "2021-10-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620942",
+"data_hora": "2021-10-31T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "621346",
+"data_hora": "2021-11-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "621347",
+"data_hora": "2021-11-07T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621349",
+"data_hora": "2021-11-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio ueno La Nueva Olla",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621348",
+"data_hora": "2021-11-08T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "621350",
+"data_hora": "2021-11-08T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Parque del Guairá",
+"cidade": "Villarrica",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621351",
+"data_hora": "2021-11-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621353",
+"data_hora": "2021-11-20T22:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Rogelio Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621352",
+"data_hora": "2021-11-20T22:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621354",
+"data_hora": "2021-11-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "621355",
+"data_hora": "2021-11-21T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "5",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621987",
+"data_hora": "2021-11-26T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio UENO Osvaldo Domínguez Dibb",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621988",
+"data_hora": "2021-11-26T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "River Plate (Asunción)",
+"mandante_id": "18136",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621986",
+"data_hora": "2021-11-26T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sol de América",
+"mandante_id": "7465",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Luis Alfonso Giagni",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "621990",
+"data_hora": "2021-11-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "621989",
+"data_hora": "2021-11-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaireña",
+"mandante_id": "20292",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "622408",
+"data_hora": "2021-12-03T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "River Plate (Asunción)",
+"visitante_id": "18136",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "622409",
+"data_hora": "2021-12-04T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Sol de América",
+"visitante_id": "7465",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "622410",
+"data_hora": "2021-12-04T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Guaireña",
+"visitante_id": "20292",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "622411",
+"data_hora": "2021-12-04T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "622412",
+"data_hora": "2021-12-05T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+}
+]

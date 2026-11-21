@@ -1,0 +1,4711 @@
+[
+{
+"id": "190662",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": []
+},
+{
+"id": "190663",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Del Rosario Amarilla"
+]
+}
+]
+},
+{
+"id": "190659",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Villalba"
+]
+}
+]
+},
+{
+"id": "190660",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Hidalgo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+}
+]
+},
+{
+"id": "190661",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "190668",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+}
+]
+},
+{
+"id": "190667",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Garnier"
+]
+}
+]
+},
+{
+"id": "190664",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Troadio Duarte"
+]
+}
+]
+},
+{
+"id": "190665",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aristides Nicolás Masi"
+]
+}
+]
+},
+{
+"id": "190666",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ribonetto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Britez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+}
+]
+},
+{
+"id": "190669",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Julían Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Humberto Balbuena"
+]
+}
+]
+},
+{
+"id": "190670",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+}
+]
+},
+{
+"id": "190673",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Virgilio Alvarenga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Daniel Isasi"
+]
+}
+]
+},
+{
+"id": "190672",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Britez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrocinio Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Britez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Caneza"
+]
+}
+]
+},
+{
+"id": "190671",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derlis Gómez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Luís Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Cesar Yegros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "190681",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Paniagua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Cupla"
+]
+}
+]
+},
+{
+"id": "190679",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Irala"
+]
+}
+]
+},
+{
+"id": "190680",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Daniel Dos Santos"
+]
+}
+]
+},
+{
+"id": "190683",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ribonetto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Angel Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Montiel"
+]
+}
+]
+},
+{
+"id": "190682",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "190685",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Angel Jiménez"
+]
+}
+]
+},
+{
+"id": "190684",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+}
+]
+},
+{
+"id": "190686",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Troadio Duarte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Daniel Ormos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Maria Estigarribia"
+]
+}
+]
+},
+{
+"id": "190688",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Luís Campos"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Horacio Sanabria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Cáceres Cañete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Horacio Sanabria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Irala"
+]
+}
+]
+},
+{
+"id": "190687",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "5",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Adolfo Leite"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gregor Aguayo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "190692",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Galván"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ribonetto"
+]
+}
+]
+},
+{
+"id": "190689",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Alejandro Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Robles"
+]
+}
+]
+},
+{
+"id": "190691",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+}
+]
+},
+{
+"id": "190690",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alberto Garay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Irala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Britez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Irala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+}
+]
+},
+{
+"id": "190693",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "190696",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Andrés Espínola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+}
+]
+},
+{
+"id": "190695",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Caneza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomas González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Norberto Coria"
+]
+}
+]
+},
+{
+"id": "190694",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Americo Luzardi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Morinigo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Benítez"
+]
+}
+]
+},
+{
+"id": "190697",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Irala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+}
+]
+},
+{
+"id": "190698",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Britez"
+]
+}
+]
+},
+{
+"id": "190703",
+"data_hora": "2005-10-09T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+}
+]
+},
+{
+"id": "190699",
+"data_hora": "2005-10-09T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Adalberto Cañete"
+]
+}
+]
+},
+{
+"id": "190702",
+"data_hora": "2005-10-09T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herminio Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+}
+]
+},
+{
+"id": "190701",
+"data_hora": "2005-10-09T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Virgilio Alvarenga"
+]
+}
+]
+},
+{
+"id": "190700",
+"data_hora": "2005-10-09T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Bogado"
+]
+}
+]
+},
+{
+"id": "190707",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Americo Luzardi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silva Da Coicençao Thiago"
+]
+}
+]
+},
+{
+"id": "190705",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Andrés Vera"
+]
+}
+]
+},
+{
+"id": "190704",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomas González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Esteban Godoy"
+]
+}
+]
+},
+{
+"id": "190708",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": []
+},
+{
+"id": "190706",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "190713",
+"data_hora": "2005-10-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Daniel Dos Santos"
+]
+}
+]
+},
+{
+"id": "190709",
+"data_hora": "2005-10-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Marcelo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+}
+]
+},
+{
+"id": "190711",
+"data_hora": "2005-10-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Adrian García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Luís Belloso"
+]
+}
+]
+},
+{
+"id": "190710",
+"data_hora": "2005-10-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Alejandro Fernández"
+]
+}
+]
+},
+{
+"id": "190712",
+"data_hora": "2005-10-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Martin Centurion"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Riveros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Romero"
+]
+}
+]
+},
+{
+"id": "190715",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Darío Grana"
+]
+}
+]
+},
+{
+"id": "190714",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "190718",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Angel Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Bogado"
+]
+}
+]
+},
+{
+"id": "190716",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Alejandro Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+}
+]
+},
+{
+"id": "190717",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Rojas"
+]
+}
+]
+},
+{
+"id": "190678",
+"data_hora": "2005-10-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Robles"
+]
+}
+]
+},
+{
+"id": "190675",
+"data_hora": "2005-10-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Lamberti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ariel Recalde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Báez"
+]
+}
+]
+},
+{
+"id": "190676",
+"data_hora": "2005-10-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Bogado"
+]
+}
+]
+},
+{
+"id": "190677",
+"data_hora": "2005-10-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Horacio Sanabria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elvis Marecos"
+]
+}
+]
+},
+{
+"id": "190674",
+"data_hora": "2005-10-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": []
+},
+{
+"id": "190722",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Leite"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Cáceres Cañete"
+]
+}
+]
+},
+{
+"id": "190723",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+}
+]
+},
+{
+"id": "190720",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+}
+]
+},
+{
+"id": "190721",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "190719",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Garnier"
+]
+}
+]
+},
+{
+"id": "190724",
+"data_hora": "2005-11-04T23:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Angel Jiménez"
+]
+}
+]
+},
+{
+"id": "190725",
+"data_hora": "2005-11-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+}
+]
+},
+{
+"id": "190726",
+"data_hora": "2005-11-06T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+}
+]
+},
+{
+"id": "190727",
+"data_hora": "2005-11-06T19:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Ibarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Leite"
+]
+}
+]
+},
+{
+"id": "190728",
+"data_hora": "2005-11-06T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Achucarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Hugo Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Mercedes González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Antonio Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Da Silva"
+]
+}
+]
+},
+{
+"id": "190733",
+"data_hora": "2005-11-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ferreira"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Centurión"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Cáceres Cañete"
+]
+}
+]
+},
+{
+"id": "190729",
+"data_hora": "2005-11-19T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Esteban Godoy"
+]
+}
+]
+},
+{
+"id": "190732",
+"data_hora": "2005-11-19T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "General Pablo Rojas",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Salcedo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Daniel Dos Santos"
+]
+}
+]
+},
+{
+"id": "190731",
+"data_hora": "2005-11-20T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Heber Arriola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Justo Rolando Meza"
+]
+}
+]
+},
+{
+"id": "190730",
+"data_hora": "2005-11-20T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guido Virgilio Alvarenga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "190735",
+"data_hora": "2005-11-26T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ruiz Peralta"
+]
+}
+]
+},
+{
+"id": "190738",
+"data_hora": "2005-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oliveira Neto Fernando"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oliveira Neto Fernando"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+}
+]
+},
+{
+"id": "190737",
+"data_hora": "2005-11-26T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Aquino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Alonso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Angel Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dante López"
+]
+}
+]
+},
+{
+"id": "190734",
+"data_hora": "2005-11-27T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Robles"
+]
+}
+]
+},
+{
+"id": "190736",
+"data_hora": "2005-11-27T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Daniel Dos Santos"
+]
+}
+]
+},
+{
+"id": "190740",
+"data_hora": "2005-12-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "12 de Octubre",
+"mandante_id": "2677",
+"visitante": "General Caballero",
+"visitante_id": "5582",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Daniel Ormos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Alonso"
+]
+}
+]
+},
+{
+"id": "190743",
+"data_hora": "2005-12-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sportivo Luqueño",
+"mandante_id": "5583",
+"visitante": "Tacuary",
+"visitante_id": "4820",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Feliciano Cáceres",
+"cidade": "Luque",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Núñez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Alejandro Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Hugo Ortiz"
+]
+}
+]
+},
+{
+"id": "190739",
+"data_hora": "2005-12-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "3 de Febrero",
+"mandante_id": "5581",
+"visitante": "Libertad",
+"visitante_id": "2670",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Ciudad del Este",
+"cidade": "Ciudad del Este",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Gamarra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silva Da Coicençao Thiago"
+]
+}
+]
+},
+{
+"id": "190742",
+"data_hora": "2005-12-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guaraní",
+"mandante_id": "7385",
+"visitante": "Nacional Asunción",
+"visitante_id": "5584",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Rogelio Lorenzo Livieres",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Cabral"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Glaucineis Inca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "190741",
+"data_hora": "2005-12-04T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerro Porteño",
+"mandante_id": "2671",
+"visitante": "Club Olimpia",
+"visitante_id": "2675",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Galván"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Milcíades Fretes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Daniel Dos Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+}
+]
+},
+{
+"id": "190746",
+"data_hora": "2005-12-10T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Olimpia",
+"mandante_id": "2675",
+"visitante": "Guaraní",
+"visitante_id": "7385",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Manuel Ferreira",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herná Barcos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julián Benítez"
+]
+}
+]
+},
+{
+"id": "190747",
+"data_hora": "2005-12-10T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "General Caballero",
+"mandante_id": "5582",
+"visitante": "Cerro Porteño",
+"visitante_id": "2671",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio ueno Defensores del Chaco",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Josias Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorenzo Avalos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Daniel Dos Santos"
+]
+}
+]
+},
+{
+"id": "190748",
+"data_hora": "2005-12-10T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Libertad",
+"mandante_id": "2670",
+"visitante": "12 de Octubre",
+"visitante_id": "2677",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Dr. Nicolás Leoz",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Samudio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Daniel Ormos"
+]
+}
+]
+},
+{
+"id": "190745",
+"data_hora": "2005-12-10T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Asunción",
+"mandante_id": "5584",
+"visitante": "Sportivo Luqueño",
+"visitante_id": "5583",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Fabián Cantero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Rene Cardozo"
+]
+}
+]
+},
+{
+"id": "190744",
+"data_hora": "2005-12-10T21:10Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Tacuary",
+"mandante_id": "4820",
+"visitante": "3 de Febrero",
+"visitante_id": "5581",
+"gols_mandante": "6",
+"gols_visitante": "3",
+"estadio": "Roberto Béttega",
+"cidade": "Asunción",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Román"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Britez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arturo Aquino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eder Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Adolfo Leite"
+]
+}
+]
+}
+]

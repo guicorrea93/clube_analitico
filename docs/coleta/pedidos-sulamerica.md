@@ -200,3 +200,23 @@ Pacote em `data/coleta/col-1/pacote/` e relatório em `docs/coleta/col-1.md`. Co
    escudos. A ESPN (`data/cache/espn-sulamerica/col.1/`) traz os ids dos clubes de 2005 em diante.
 7. **Fases novas:** "Quadrangulares semifinais" (grupos A e B), "Quadrangular final", "Hexagonal final", "Octogonal final",
    "Pentagonais", "Triangulares", "Finalísima", "Copa Mustang I/II", "Torneo Mustang I/II", "Copa de la Paz", "Torneo Nacional".
+
+## 21/11/2026 — Campeonato Paraguaio, 1ª divisão (`par-1`)
+
+Pacote em `data/coleta/par-1/pacote/` e relatório em `docs/coleta/par-1.md`. Commit ainda não feito: aguarda o ok do Guilherme.
+
+1. **Conteúdo:** 133 edições (1906 a 2025): anuais até 2007 (sem 1908, 1922, 1932-1934; de 1996 a 2007 Apertura e Clausura
+   são fases), depois "2008 Apertura" e "2008 Clausura" até "2025 Clausura". 7.810 jogos, 41 clubes.
+2. **76 edições sem jogos** (1906-1959, 1968-1980, 1982-1995): nenhuma fonte pública tem os jogos. Decisão do Guilherme:
+   entram só com campeão, vice e tabela quando há. **Novidade para o painel:** a `classificacao_final.csv` dessas edições
+   pode ser **parcial**: só `posicao`, `clube` e `pontos` (às vezes parte da campanha), com `fonte` "RSSSF (parahist, tabela
+   parcial)"; sem tabela nenhuma (19 edições), só o campeão (1º) e o vice (2º), com `fonte` "lista de campeões e vices da
+   RSSSF (parachamp.html)" e as colunas numéricas vazias. `num_clubes` nessas edições é o número de linhas conhecidas.
+   **Pedido:** o painel aceitar colunas vazias na classificação e não somar essas edições nos totais de jogos e gols.
+3. **País:** `pais` "PAR" e `pais_nome` "Paraguai"; todos os clubes são `PAR`.
+4. **Nomes:** nenhuma colisão (conferido também sem acentos). "Nacional de Asunción" (o Nacional é o uruguaio), "River
+   Plate de Asunción", "Sportivo San Lorenzo", "Independiente de Campo Grande", "Universal de Encarnación" e "Guaraní de
+   Asunción" (para não se confundir com o Guarani de Campinas). "Olimpia" fica sem cidade.
+5. **Escudos:** não há calendários do ogol (o ogol só tem jogos paraguaios de 2005 em diante e não entrou); a ESPN
+   (`data/cache/espn-sulamerica/par.1/`) traz os ids dos clubes de 2005 em diante.
+6. **Fases novas:** "Liguilla" (fecho do Apertura/Clausura em 1998-1999).
