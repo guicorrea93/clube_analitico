@@ -115,7 +115,7 @@ def catalogo(dados: dict) -> list[dict]:
 
 
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1"}
 
 
 def competicoes_dos_pacotes() -> None:
@@ -221,7 +221,11 @@ def abrir(slug: str) -> sqlite3.Connection:
                  EXISTS (SELECT 1 FROM f.classificacao_rodada r WHERE r.edicao_id = e.edicao_id)
                  AND (SELECT count(*) FROM f.fase x WHERE x.edicao_id = e.edicao_id) = 1
                  AND NOT EXISTS (SELECT 1 FROM f.partida x WHERE x.edicao_id = e.edicao_id AND x.rodada IS NULL) AS moderna
-          FROM f.edicao e WHERE e.competicao_id = {cid};
+          FROM f.edicao e WHERE e.competicao_id = {cid}
+            -- edição vazia (ano sem campeonato, ou sem tabela e sem jogos na fonte) fica fora do painel
+            AND (EXISTS (SELECT 1 FROM f.classificacao_final x WHERE x.edicao_id = e.edicao_id)
+                 OR EXISTS (SELECT 1 FROM f.partida x WHERE x.edicao_id = e.edicao_id)
+                 OR EXISTS (SELECT 1 FROM f.tabela_publicada x WHERE x.edicao_id = e.edicao_id));
         CREATE TABLE dim_fase_nacional_historica AS
           SELECT x.fase_id AS fase_nacional_id, x.edicao_id AS edicao_nacional_id, x.ordem AS fase_ordem, x.nome AS fase_nome,
                  x.tipo AS fase_tipo, x.num_grupos, x.formato_serie
@@ -509,7 +513,7 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     camp = [campanha(x["campeao"], i) for i, x in enumerate(ed) if x["campeao"] in j and j[x["campeao"]][i] >= min_camp]
     pc = []   # pontos corridos: pontos do campeão e vantagem sobre o vice
     for i, x in enumerate(ed):
-        if edp[i]["pc"] and x["campeao"] and x.get("vice"):
+        if edp[i]["pc"] and x["campeao"] and x.get("vice") and x["campeao"] in j and j[x["campeao"]][i]:   # edição sem jogos fica de fora
             k, vc = campanha(x["campeao"], i), x["vice"]
             pc.append({**k, "vice": vc, "vant": k["pts"] - (edp[i]["pv"] * v[vc][i] + e_[vc][i]), "n": edp[i]["n"]})
     menor_vant = min((x["vant"] for x in pc), default=0)
