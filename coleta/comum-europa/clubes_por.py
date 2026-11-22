@@ -2,7 +2,8 @@
 
 Chave: o nome de exibição no painel (como o clube é conhecido no Brasil), com cidade e país. O nome é único no mundo,
 conferido no banco e nos outros pacotes: "Nacional da Madeira" (há o Nacional do Uruguai), "Oriental de Lisboa" (há o
-Oriental do Uruguai), "CD Feirense" (há o Feirense da Bahia), "Caldas SC" (há o Caldas de Goiás).
+Oriental do Uruguai), "CD Feirense" (há o Feirense da Bahia), "Caldas SC" (há o Caldas de Goiás), "AD Sanjoanense" (há o Sanjoanense
+de São João da Boa Vista, no Paulista A2).
 
 Clubes separados, como no ogol e na RSSSF:
 - Belenenses (CF Os Belenenses, até 2017/18) e Belenenses SAD (a sociedade que se separou do clube em 2018 e jogou a
@@ -49,7 +50,7 @@ CLUBES = {
     "SL Elvas": ("Elvas", "POR"),
     "O Elvas": ("Elvas", "POR"),
     "Famalicão": ("Vila Nova de Famalicão", "POR"),
-    "Sanjoanense": ("São João da Madeira", "POR"),
+    "AD Sanjoanense": ("São João da Madeira", "POR"),
     "Braga": ("Braga", "POR"),
     "Lusitano VRSA": ("Vila Real de Santo António", "POR"),
     "Lusitano de Évora": ("Évora", "POR"),
@@ -102,7 +103,7 @@ OGOL = {
     "19": "Académica", "2189": "Académico do Porto", "2198": "União de Lisboa", "2187": "Carcavelinhos", "5": "Boavista",
     "1727": "Leixões", "2171": "Barreirense", "2412": "Casa Pia", "58100": "Unidos de Lisboa", "vitoria-sc": "Vitória de Guimarães",
     "2172": "Olhanense", "24": "Leça", "3585": "CUF", "2170": "Atlético CP", "14": "Salgueiros", "1734": "Estoril",
-    "2199": "Oliveirense", "2190": "SL Elvas", "2175": "Famalicão", "2185": "Sanjoanense", "sc-braga": "Braga", "2180": "O Elvas",
+    "2199": "Oliveirense", "2190": "SL Elvas", "2175": "Famalicão", "2185": "AD Sanjoanense", "sc-braga": "Braga", "2180": "O Elvas",
     "2186": "Lusitano VRSA", "23": "Sporting da Covilhã", "2176": "Oriental de Lisboa", "2173": "Lusitano de Évora",
     "2178": "Torreense", "2182": "Caldas SC", "2": "Beira-Mar", "1728": "CD Feirense", "36": "Varzim", "2192": "Seixal",
     "2174": "Tirsense", "2179": "União de Tomar", "10": "Farense", "2184": "Montijo", "208772": "União de Coimbra",
@@ -122,7 +123,7 @@ ALIASES = {
     "VSC Vitória Guimarães": "Vitória de Guimarães", "AAC Académica": "Académica", "CAF Viseu": "Académico de Viseu",
     "Leixões SC": "Leixões", "FC Barreirense": "Barreirense", "Casa Pia AC": "Casa Pia", "SC Olhanense": "Olhanense",
     "Leça FC": "Leça", "GD CUF": "CUF", "SC Salgueiros": "Salgueiros", "GD Estoril-Praia": "Estoril",
-    "UD Oliveirense": "Oliveirense", "FC Famalicão": "Famalicão", "AD Sanjoanense": "Sanjoanense", "SC Braga": "Braga",
+    "UD Oliveirense": "Oliveirense", "FC Famalicão": "Famalicão", "Sanjoanense": "AD Sanjoanense", "SC Braga": "Braga",
     "O Elvas CAD": "O Elvas", "Lusitano Évora": "Lusitano de Évora", "SC Covilhã": "Sporting da Covilhã",
     "Oriental": "Oriental de Lisboa", "SCU Torreense": "Torreense", "SC Caldas": "Caldas SC", "SC Beira Mar": "Beira-Mar",
     "Varzim SC": "Varzim", "Seixal FC": "Seixal", "FC Tirsense": "Tirsense", "SC Farense": "Farense", "CD Montijo": "Montijo",

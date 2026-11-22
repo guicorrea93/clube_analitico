@@ -1,7 +1,7 @@
 """Lê tabelas finais do módulo "Sports table" da Wikipédia ({{#invoke:Sports table|main|style=WDL ...}}).
 
 De cada tabela: a ordem oficial (team_order), o nome de cada time, vitórias, empates, derrotas, gols pró e contra,
-ajuste de pontos (adjust_points; punição negativa), pontos por vitória (win_points), a marca de resultado
+ajuste de pontos (adjust_points ou startpoints; punição negativa), pontos por vitória (win_points), a marca de resultado
 (result<n> = C, R, Q...) e as notas (note_XXX, hth_XXX).
 
 Uso como biblioteca: tabelas(wikitexto) -> [tabela, ...]; cada tabela = {"params", "times": [{codigo, nome, ...}]}
@@ -81,7 +81,7 @@ def tabelas(texto: str) -> list[dict]:
                           "nome_wiki": params.get(f"name_{c}", c),
                           "vitorias": _num(params.get(f"win_{c}")), "empates": _num(params.get(f"draw_{c}")),
                           "derrotas": _num(params.get(f"loss_{c}")), "gols_pro": _num(params.get(f"gf_{c}")),
-                          "gols_contra": _num(params.get(f"ga_{c}")), "ajuste": _num(params.get(f"adjust_points_{c}")) or 0,
+                          "gols_contra": _num(params.get(f"ga_{c}")), "ajuste": _num(params.get(f"adjust_points_{c}")) or _num(params.get(f"startpoints_{c}")) or 0,
                           "resultado": params.get(f"result{pos}", "").strip(), "status": params.get(f"status_{c}", "").strip(),
                           "nota": limpar(params.get(f"note_{c}", "")), "hth": limpar(params.get(f"hth_{c}", ""))})
         res.append({"params": params, "times": times, "pontos_vitoria": _num(params.get("winpoints") or params.get("win_points")) or 3,

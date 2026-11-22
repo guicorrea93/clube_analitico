@@ -881,7 +881,8 @@ def relatorio(linhas, ocorr, tab, mapa_espn, criterios) -> None:
         "## Identidade dos clubes", "",
         "- Cadastro em `coleta/comum-europa/clubes_por.py` (serve para todas as divisões portuguesas): nome de exibição como o "
         "clube é conhecido no Brasil, cidade e país. Nomes únicos no mundo: \"Nacional da Madeira\", \"Oriental de Lisboa\", "
-        "\"CD Feirense\" e \"Caldas SC\" (há Nacional e Oriental no Uruguai, Feirense e Caldas no Brasil).",
+        "\"CD Feirense\", \"Caldas SC\" e \"AD Sanjoanense\" (há Nacional e Oriental no Uruguai, Feirense, Caldas e "
+        "Sanjoanense no Brasil).",
         "- Clubes à parte: Belenenses (CF Os Belenenses, até 2017/18) e Belenenses SAD (2018/19 a 2021/22); AVS (2024/25 em "
         "diante) e Desportivo das Aves; SL Elvas e O Elvas. O Estrela da Amadora de hoje fica com a história do antigo, como no ogol.",
         f"- O ogol entra pelo código do clube (tabela `OGOL` do cadastro); a ESPN é casada por votação jogo a jogo (mesma data e "

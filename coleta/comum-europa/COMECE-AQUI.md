@@ -49,6 +49,29 @@ depois de toda importação e mantenha à mão só a lista `PENDENCIAS`, no come
 - **Fale com ele em português, curto e por partes.** Ele gosta de receber o recado ao agente principal num bloco de código,
   para copiar.
 
+## 1.1 Prioridade e recado de fim de coleta (decisão do Guilherme, 22/11/2026)
+
+- **Prioridade agora é coletar ligas novas, na ordem:** `ned-1` (Holanda), `sco-1` (Escócia), `bel-1` (Bélgica) e
+  `tur-1` (Turquia). O ok para a `ned-1` está dado.
+- **Não trate agora achados da revisão nem pendências antigas.** O agente de revisão está fazendo uma revisão profunda e
+  vai deixar um plano em `docs/revisao/plano-coleta-europa.md`. Siga esse plano quando o Guilherme disser que é hora.
+- **A qualidade das ligas novas não muda:**
+  - conferência com as tabelas publicadas;
+  - `testar_carga.py`;
+  - `documentar.py` e este guia atualizados no mesmo commit;
+  - commit e envio com o ok do Guilherme.
+- **Ao terminar cada liga, escreva o recado de fim de coleta.** Ele vai no fim de `docs/coleta/pedidos-europa.md`, numa
+  seção "Recado de fim de coleta — <slug> — <data>", para o agente 1 e o agente de revisão. Entregue o mesmo texto ao
+  Guilherme. Conteúdo:
+  1. o que foi feito: temporadas, jogos, clubes, gols com autor, cartões e fontes;
+  2. commit(s);
+  3. teste de carga;
+  4. pedidos ao banco e ao painel;
+  5. decisões tomadas (com o motivo) e as que esperam o Guilherme;
+  6. o que não deu para coletar e as pendências, com a fonte que poderia resolver;
+  7. onde a revisão deve olhar primeiro;
+  8. próxima liga.
+
 ## 2. O que está pronto
 
 Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm relatório em `docs/coleta/<slug>.md`.
@@ -61,6 +84,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `ger-1` Alemão (Bundesliga) | 63 (1963/64–2025/26) | 19.220 | 22.512 | 30.251 | 58 | 62a8693 |
 | `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
+| `ned-1` Holandês (Eredivisie) | 70 (1956/57–2025/26) | 21.082 | 23.019 | 24.431 | 54 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -85,13 +109,9 @@ Alemão e Francês (com 2025/26) e carregar o Português já estão lá.
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
    `coleta-europa`).
-2. **Próxima liga: `ned-1` (Holanda), só quando o Guilherme mandar.** Depois Escócia, Bélgica e Turquia (guia geral).
-   Fontes já vistas para a Holanda:
-   - engsoccerdata `holland.csv`, 1ª divisão de 1956/57 a 2024/25 sem buracos;
-   - football-data `N1.csv`;
-   - ESPN `ned.1`.
-
-   Falta achar o código da competição no ogol (veja a seção 4).
+2. **Próxima liga: `sco-1` (Escócia)**, depois `bel-1` (Bélgica) e `tur-1` (Turquia), na ordem da seção 1.1;
+   confirme o ok do Guilherme antes de começar cada uma. Fontes a ver: engsoccerdata (`scotland.csv`?), football-data (`SC0.csv`), ESPN (`sco.1`), RSSSF e o código da
+   competição no ogol (seção 4).
 3. **Ficar de olho em `docs/coleta/pedidos-europa.md`:** respostas do agente 1 e pedidos novos da revisão.
 
 ## 4. Como fazer uma liga nova
@@ -123,7 +143,7 @@ Código comum em `coleta/comum-europa/`:
 | `testar_carga.py` | teste de carga numa cópia do banco |
 
 Códigos das competições no ogol: `premier-league` (Inglaterra, desde 1888), `campeonato-espanhol`, `campeonato-italiano`,
-`bundesliga`, `campeonato-frances`, `campeonato-portugues`. Para achar um novo, teste
+`bundesliga`, `campeonato-frances`, `campeonato-portugues`, `campeonato-holandes` (desde 1888/89). Para achar um novo, teste
 `ogol.edicoes("<slug>", cache)` com nomes prováveis e fique com o que lista todas as temporadas.
 
 Passos de uma liga:
@@ -184,6 +204,16 @@ Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`.
 - **Marcas:** a de play-off (`RPO`, "Qualification for the relegation play-offs") não é rebaixamento.
 - **Temporadas recentes:** a tabela fica num modelo à parte ("{{2024–25 Ligue 1 table}}"); o `baixar.py` guarda como
   "<título> (tabela).wiki".
+
+**ogol, mais armadilhas (Holanda):**
+- A mesma edição traz play-offs (vaga europeia, nacompetitie): fique só com os jogos de rodada ("R12").
+- Em temporada cancelada traz jogos adiados ("ADI") e anulados ("ANU"), sem placar: descarte.
+- Às vezes põe o antecessor de um clube formado por fusão na ficha do sucessor (Rapid JC no Roda JC, Alkmaar '54 no AZ):
+  o `OGOL` do cadastro aceita uma faixa de anos por código (`clubes_ned.py`).
+
+**Wikipédia, rebaixados:** a caixa de resumo do artigo ("| relegated = ...") traz a lista oficial e explica fusões e
+falências. É melhor que as cores da tabela; o Holandês confere com ela. A punição às vezes vem em `startpoints_X`, e não
+em `adjust_points_X` (o leitor comum lê os dois).
 
 **football-data:** a hora é a do Reino Unido; converta para a local (o Santa Clara joga nos Açores).
 

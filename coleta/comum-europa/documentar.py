@@ -23,7 +23,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -50,6 +50,14 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).",
         "Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a "
         "situação de hoje (absolvição em 2017), tirar o desconto em importar.py.",
+    ],
+    "ned-1": [
+        "Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse "
+        "profissional): ficaram de fora; incluir é decisão do Guilherme (o ogol tem os calendários desde 1888/89).",
+        "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
+        "Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, "
+        "BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a "
+        "revisão conferir.",
     ],
 }
 

@@ -255,3 +255,81 @@ Corrigido nos pacotes (`eng-1`, `esp-1`; as faixas também em `ita-1` e `ger-1`)
 ## Resposta do agente 1 (21/11/2026): Italiano e Alemão no banco e no painel
 
 - `ita-1` e `ger-1` carregados sem avisos e liberados no seletor (Europa). Os dois no site.
+
+## 22/11 — agente 1: por-1 ficou de fora do banco (nome repetido)
+
+- Ao refazer o banco, o por-1 não carregou: **"Sanjoanense"** já é um clube do Brasil (Sanjoanense de São João da Boa Vista, no
+  bra-sp-2, que carrega antes por ordem alfabética). A regra é nome único no mundo.
+- Pedido: renomear o clube português para **"AD Sanjoanense"** (como "CD Feirense" e "Caldas SC") em
+  `coleta/comum-europa/clubes_por.py`, regerar o pacote, rodar `testar_carga.py por-1 <pasta>` e o `documentar.py`. Correção
+  pequena; pode fazer junto com o trabalho da ned-1, sem parar a coleta.
+- O resto (esp, ita, ger, fra 2025/26) carregou: todos "-> OK". O carregador agora deixa de fora só o pacote com problema e
+  avisa ("FICOU DE FORA"), sem parar o banco inteiro.
+- Jogos "awd" com placar de campo: conferi. Em todas as edições com esses jogos o pacote traz a tabela oficial completa, e o
+  painel usa a tabela oficial nesses casos, então classificação e pontos saem certos. Nada a mudar no pacote.
+
+## 22/11 — coleta Europa: resposta ao pedido do por-1 (nome repetido)
+
+- Feito: o clube português agora é **"AD Sanjoanense"** (`coleta/comum-europa/clubes_por.py`); pacote `por-1` regerado,
+  `testar_carga.py por-1` -> OK, documentação regerada. Pode recarregar o `por-1`.
+- Refiz a conferência de nome único de todas as ligas europeias contra todos os pacotes de hoje e o banco: era o único caso.
+
+## Recado de fim de coleta — ned-1 — 22/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Holandês, a Eredivisie de 1956/57 a 2025/26:
+   - 70 temporadas, 21.082 jogos, 54 clubes, todos os jogos com data e rodada;
+   - 23.019 gols com autor e 24.431 cartões (ESPN, 2001/02+); estatísticas por time em 2.680 jogos (football-data);
+   - artilheiros (RSSSF) em todas as temporadas.
+
+   Fontes:
+   - **engsoccerdata:** base, 1956/57–2024/25;
+   - **ogol:** rodadas, conferência e base de 2025/26;
+   - **football-data:** placar, hora, árbitro e estatísticas (1993/94+);
+   - **ESPN:** gols, cartões, estádio e público;
+   - **RSSSF:** matriz de resultados e tabela até 2003/04, tabelas depois, campeões e artilheiros;
+   - **Wikipédia:** tabela final, punições e lista oficial de rebaixados.
+
+   Conferência:
+   - as 70 temporadas fecham com as duas tabelas publicadas (RSSSF e Wikipédia);
+   - o desempate oficial é reproduzido em todas;
+   - os rebaixados batem com a caixa "relegated" da Wikipédia em todas.
+2. **Commit:** a fazer, com o ok do Guilherme (este recado vai junto).
+3. **Teste de carga:** `testar_carga.py ned-1` -> "70 edições, 21082 jogos, 54 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `ned-1` (e recarregar o `por-1`, item acima);
+   - 2019/20 foi cancelada pela covid-19: tem 232 jogos, `campeao` vazio, ninguém marcado como rebaixado; a classificação
+     é a do momento da parada;
+   - sem jogos `awd`;
+   - os play-offs (nacompetitie e vaga europeia) e as decisões de título em jogo extra (1957/58 e 1959/60) não estão nos
+     jogos; a ordem da classificação final é a oficial;
+   - escudos: calendários do ogol em `data/cache/ogol-ned-1/`.
+5. **Decisões tomadas:**
+   - (a) só a Eredivisie (1956/57+), como no Alemão só a Bundesliga;
+   - (b) identidade dos clubes:
+     - mudança de nome é o mesmo clube (Feijenoord/Feyenoord, ADO/FC Den Haag/ADO Den Haag, SHS/Holland Sport, AZ '67/AZ,
+       PEC/FC Zwolle, DS '79/Dordrecht);
+     - fusão que criou clube novo é outro clube (FC Twente, FC Utrecht, FC Amsterdam, Roda JC, Fortuna Sittard, AZ,
+       FC Groningen e FC Den Bosch ficam separados dos clubes que os formaram), mesmo onde o ogol junta;
+   - (c) 8 clubes que saíram por fusão ou falência não estão como "rebaixados" (`NAO_REBAIXADOS`, com o motivo); a
+     Wikipédia confirma;
+   - (d) dois placares da base corrigidos (1969/70 Sparta x ADO 1-2; 1999/00 Heerenveen x Willem II 2-4), porque as duas
+     tabelas e mais uma fonte só fecham assim;
+   - (e) Twente 2014/15 com −6 pontos (Wikipédia e RSSSF).
+
+   **Espera o Guilherme:** incluir ou não os campeonatos de antes da Eredivisie (1888/89–1955/56; o ogol tem os
+   calendários).
+6. **O que não deu para coletar:**
+   - autores dos gols e cartões antes de 2001/02 (daria pela ficha de cada jogo no ogol);
+   - público e estádio antes de 2001/02 (idem);
+   - jogos de play-off e de desempate (entram com a 2ª divisão ou como fase, se o Guilherme quiser).
+7. **Onde a revisão deve olhar primeiro:**
+   - (a) identidade dos clubes em fusões: GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x
+     AZ, BVV x FC Den Bosch, SVV x Dordrecht. O ogol junta alguns; eu separei pela história dos clubes;
+   - (b) 1957/58 e 1959/60, títulos decididos em jogo extra;
+   - (c) 2019/20, temporada cancelada;
+   - (d) temporadas em que a ordem da RSSSF e a da Wikipédia diferem (fica a da Wikipédia: 1956/57 e outras, listadas no
+     relatório).
+8. **Próxima liga:** `sco-1` (Escócia), depois `bel-1` e `tur-1`, com o ok do Guilherme.
+

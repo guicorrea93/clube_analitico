@@ -12,6 +12,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Alemão | 63 (1963/64–2025/26) | 19220 | 22512 | 30251 | 58 | 123 / 3 | 1 | [ger-1](ger-1.md) |
 | Campeonato Francês | 88 (1932/33–2025/26) | 30466 | 22613 | 35434 | 76 | 156 / 18 | 2 | [fra-1](fra-1.md) |
 | Campeonato Português | 92 (1934/35–2025/26) | 20978 | 13874 | 30915 | 73 | 175 / 9 | 2 | [por-1](por-1.md) |
+| Campeonato Holandês | 70 (1956/57–2025/26) | 21082 | 23019 | 24431 | 54 | 140 / 0 | 3 | [ned-1](ned-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -24,6 +25,9 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 - **fra-1:** Datas dos 356 jogos dos anos 1930 que nenhuma fonte tem.
 - **por-1:** Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).
 - **por-1:** Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a situação de hoje (absolvição em 2017), tirar o desconto em importar.py.
+- **ned-1:** Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse profissional): ficaram de fora; incluir é decisão do Guilherme (o ogol tem os calendários desde 1888/89).
+- **ned-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
+- **ned-1:** Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a revisão conferir.
 
 ## Próximas ligas
 
