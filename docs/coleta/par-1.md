@@ -740,11 +740,11 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 2016 Apertura
 
-- sem ocorrências
+- ESPN: 132 jogos casados
 
 ### 2016 Clausura
 
-- sem ocorrências
+- ESPN: 132 jogos casados
 
 ### 2017 Apertura
 
@@ -819,9 +819,9 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 2025 Apertura
 
-- sem ocorrências
+- ESPN: 132 jogos casados
 
 ### 2025 Clausura
 
-- sem ocorrências
+- ESPN: 131 jogos casados
 

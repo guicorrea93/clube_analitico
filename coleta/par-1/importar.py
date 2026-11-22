@@ -335,6 +335,8 @@ def gravar(eds: list[dict]) -> None:
         if tops:
             for jog, ctxt, ng in tops:
                 L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, "RSSSF (paratops.html)"])
+                if (ca := clube(ctxt, e.ano_inicio)) in CLUBES:   # clube só da lista de artilheiros também entra no clubes.csv
+                    so_tabela[ca][f"rsssf:{ctxt}"].append(e.ano_inicio)
         elif gols_ed and autor_ed >= 0.95 * gols_ed:
             cont = Counter((r[2], r[1]) for r in L["gols"] if r[0].startswith(eid + "-") and r[5] != "contra")
             if cont:

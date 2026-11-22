@@ -220,7 +220,9 @@ def _jogo_base(s: str) -> dict | None:
         return None   # "Goal: 0-1 58' Kempes."
     if "," in a or re.match(r"^(then|and|but|the match|match)\b", a, re.I) or a[:1].islower():
         return None
-    if not a or not b or len(a) > 60 or len(b) > 90 or not re.search(r"[A-Za-zÀ-ÿ]{2}", a) or not re.search(r"[A-Za-zÀ-ÿ]{2}", b):
+    sigla = lambda x: re.fullmatch(r"(?:[A-Z]\.){2,}[A-Z]?\.?", x.strip())   # "U.T.C.", "A.D.T"
+    if not a or not b or len(a) > 60 or len(b) > 90 or not (re.search(r"[A-Za-zÀ-ÿ]{2}", a) or sigla(a)) or \
+            not (re.search(r"[A-Za-zÀ-ÿ]{2}", b) or sigla(b)):
         return None
     if re.match(r"^(round|fecha|matchday|jornada|group|zona|zone|grupo|first|second|final|semi|quarter)\b", a, re.I) and not m.group("gm"):
         return None

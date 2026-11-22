@@ -232,3 +232,37 @@ Pacote em `data/coleta/par-1/pacote/` e relatório em `docs/coleta/par-1.md`. Co
   nomes_fonte e os placares em `data/cache/espn-*/`), gravando em `data/escudos/espn_auto.json`.
 - Aviso do carregador no `par-1`: o artilheiro de 1979 Edgar Ozuna joga pelo "Capitan Figari", que não está no
   clubes.csv, e ficou sem clube. Se quiser, inclua o clube no cadastro (ele não precisa ter jogos).
+
+## 21/11/2026 — Campeonato Peruano, 1ª divisão (`per-1`)
+
+- Pacote em `data/coleta/per-1/pacote/`, relatório em `docs/coleta/per-1.md`, código em `coleta/per-1/`.
+- **109 edições**, uma por título, de 1912 a 2025 (sem campeonato de 1922 a 1925 e em 1936). Apertura, Clausura,
+  Torneo de Verano, Regional, liguillas e finais são fases da edição anual. 17.316 jogos, 147 clubes, 20.222 gols com
+  autor, 20.999 cartões, 100 artilheiros, 2.551 linhas de tabelas publicadas.
+- **Decisão para o agente 1: 1912-1921 (Liga Peruana de Football).** A RSSSF lista esses campeões à parte e não os soma;
+  a Wikipédia em inglês os conta como títulos nacionais (numera a partir de 1912). Entraram como 10 edições só com campeão
+  e vice (da Wikipédia). Se preferir a contagem da RSSSF, basta tirar essas edições.
+- **Sem jogos (18 edições):** 1912-1921, 1970-1974, 1976, 1977 e 1979. De 1970 em diante entram com a tabela final da
+  RSSSF (`peruhist.html`), marcada como sem conferência (como no `uru-1`).
+- **Jogos incompletos** (dito na observação da edição): 1926 (torneio suspenso), 1982, 1984, 1986, 1988-1991 (anos de
+  Regional + Descentralizado, a RSSSF tem só tabelas de parte das fases) e 2003 (rodadas 16 e 17 do Clausura, jogadas
+  com sub-20 na greve, anuladas como nas tabelas).
+- **Fontes:** RSSSF é a base (1930-1942, 1968-1969, 1975, 1978, 1980-1981, 1983-1984 e 1986 em diante); Wikipédia em
+  espanhol dá os jogos de 1926-1929, 1943-1967, 1982 e 1985 (fonte `Wikipédia (es)`, `fonte_id` `wikipedia:es_<ano>:<linha>`;
+  quase sempre tabela de confrontos, sem rodada nem data); ESPN (`per.1`, 2005 em diante) casou 6.418 jogos (hora,
+  estádio, gols com minuto, cartões). O ogol não tem jogos peruanos.
+- **Conferência:** 52 edições batem com as tabelas publicadas, 38 têm divergência explicada no relatório (quase sempre
+  placar ou gols que a própria página não fecha) e 19 não têm com o que conferir. Campeões e vices batem com a
+  Wikipédia em inglês nas 109 edições.
+- **Clubes:** sem homônimos no banco nem nos outros pacotes. Mesmo clube com nome antigo fica com o atual: Federación
+  Universitaria = Universitario, Sport Alianza = Alianza Lima, Real Garcilaso = Cusco FC, Inti Gas = Ayacucho, Total Clean =
+  Total Chalaco, Grau-Estudiantes (2004) = Estudiantes de Medicina. Aurich-Cañaña (fusão 1994-1996) é clube à parte.
+  Deportivo Bancos (1991, um jogo) está sem cidade: a fonte não diz.
+- **Pontos:** 2 por vitória até 1994, 3 depois; de 1931 a 1942 era 3-2-1 (vitória, empate, derrota) e de 1931 a 1934 a
+  tabela soma bônus da liga de reservas. `pontos_vitoria` no edicoes.csv fica 2 nesses anos; a classificação traz os
+  pontos publicados.
+- **Mudança no leitor comum** (`coleta/comum-sulamerica/rsssf_sul.py`): jogo com sigla no nome ("U.T.C.", "A.D.T") era
+  descartado; agora entra. Reimportei Argentina, Uruguai, Chile e Colômbia: pacotes idênticos.
+- **Paraguai (`par-1`) atualizado:** (1) o pacote do commit anterior saiu antes de a ESPN de 2016 e 2025 terminar de
+  baixar; agora 527 jogos ganham hora, estádio e cidade (nenhum placar muda); (2) o clube do artilheiro de 1979 (Capitán
+  Figari, Lambaré) entrou no clubes.csv, como pedido.

@@ -37,7 +37,7 @@ CLUBES: dict[str, tuple[str, str]] = {
     "Guaireña": ("Villarrica", "Guairá"), "Sportivo Carapeguá": ("Carapeguá", "Paraguarí"), "Universal de Encarnación": ("Encarnación", "Itapúa"),
     "Deportivo Humaitá": ("Mariano Roque Alonso", CEN), "Ovetense": ("Coronel Oviedo", "Caaguazú"),
     "Guaraní de Coronel Oviedo": ("Coronel Oviedo", "Caaguazú"), "Cerro Porteño de Ciudad del Este": ("Ciudad del Este", "Alto Paraná"),
-    "Deportivo Boquerón": ("Ciudad del Este", "Alto Paraná"),
+    "Deportivo Boquerón": ("Ciudad del Este", "Alto Paraná"), "Capitán Figari": ("Lambaré", CEN),
 }
 
 REGRAS: list[tuple[str, str, int, int]] = [
@@ -82,6 +82,7 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"universal( encarnacion)?", "Universal de Encarnación", 1990, 2100),
     (r"(dep |deportivo )?humaita", "Deportivo Humaitá", 1980, 2100),
     (r"ovetense", "Ovetense", 1950, 2100),
+    (r"(cap |capitan )figari", "Capitán Figari", 1950, 2100),
 ]
 
 _LIXO = re.compile(r"\s*\((?:asunci[oó]n|\d-\d pen)\)\s*$|\s+asuncion$|\s+as$|\s*-\s*-\s*$", re.I)
