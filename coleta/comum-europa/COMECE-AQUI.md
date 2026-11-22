@@ -56,9 +56,9 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | Liga | Temporadas | Jogos | Gols c/ autor | Cartões | Clubes | Último commit |
 |---|---|---|---|---|---|---|
 | `eng-1` Inglês | 127 (1888/89–2025/26) | 51.330 | 25.841 | 33.166 | 65 | 103ccf1 |
-| `esp-1` Espanhol | 95 (1928/29–2025/26) | 27.716 | 25.072 | 51.662 | 63 | (2025/26: ver git log) |
-| `ita-1` Italiano | 95 (1929/30–2025/26) | 29.244 | 24.564 | 43.962 | 69 | (2025/26: ver git log) |
-| `ger-1` Alemão (Bundesliga) | 63 (1963/64–2025/26) | 19.220 | 22.512 | 30.251 | 58 | (2025/26: ver git log) |
+| `esp-1` Espanhol | 95 (1928/29–2025/26) | 27.716 | 25.072 | 51.662 | 63 | 62a8693 |
+| `ita-1` Italiano | 95 (1929/30–2025/26) | 29.244 | 24.564 | 43.962 | 69 | 62a8693 |
+| `ger-1` Alemão (Bundesliga) | 63 (1963/64–2025/26) | 19.220 | 22.512 | 30.251 | 58 | 62a8693 |
 | `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
 
