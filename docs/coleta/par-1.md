@@ -99,56 +99,56 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 | 1991 | 8 | 0 (0) | 0 | 0 | 0 / 0 | Sol de América | RSSSF (para91, tabela parcial) |
 | 1992 | 12 | 0 (0) | 0 | 0 | 0 / 0 | Cerro Porteño | RSSSF (para92) |
 | 1993 | 12 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | RSSSF (para93) |
-| 1994 | 18 | 0 (0) | 0 | 0 | 0 / 0 | Cerro Porteño | RSSSF (para94) |
+| 1994 | 20 | 0 (0) | 0 | 0 | 0 / 0 | Cerro Porteño | RSSSF (para94) |
 | 1995 | 13 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | RSSSF (para95) |
 | 1996 | 13 | 182 (182) | 519 | 0 | 0 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997 | 13 | 190 (190) | 528 | 7 | 0 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1998 | 12 | 170 (170) | 472 | 0 | 5 / 10 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1999 | 11 | 145 (145) | 398 | 7 | 4 / 11 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 | 10 | 172 (172) | 485 | 123 | 6 / 2 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2001 | 10 | 104 (104) | 295 | 183 | 3 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2002 | 10 | 151 (151) | 418 | 288 | 4 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 | 10 | 153 (153) | 398 | 239 | 4 / 3 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2004 | 10 | 186 (186) | 489 | 284 | 4 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 | 12 | 184 (184) | 478 | 318 | 3 / 5 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006 | 11 | 210 (210) | 603 | 573 | 6 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2007 | 12 | 255 (255) | 645 | 273 | 5 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2008 Apertura | 12 | 126 (126) | 376 | 350 | 4 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2008 Clausura | 12 | 127 (127) | 325 | 257 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2009 Apertura | 12 | 129 (129) | 311 | 311 | 0 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2009 Clausura | 12 | 126 (126) | 299 | 222 | 3 / 0 | Nacional de Asunción | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2010 Apertura | 12 | 132 (132) | 342 | 325 | 2 / 0 | Guaraní de Asunción | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2010 Clausura | 12 | 132 (132) | 325 | 318 | 2 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2011 Apertura | 12 | 132 (132) | 319 | 319 | 2 / 0 | Nacional de Asunción | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2011 Clausura | 12 | 132 (132) | 369 | 369 | 2 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1998 | 12 | 170 (170) | 472 | 0 | 3 / 7 | Olimpia | RSSSF (para98) |
+| 1999 | 11 | 145 (145) | 398 | 7 | 2 / 7 | Olimpia | RSSSF (para99) |
+| 2000 | 10 | 172 (172) | 485 | 123 | 3 / 2 | Olimpia | RSSSF (para00) |
+| 2001 | 10 | 104 (104) | 295 | 183 | 2 / 0 | Cerro Porteño | RSSSF (para01) |
+| 2002 | 10 | 151 (151) | 418 | 288 | 3 / 0 | Libertad | RSSSF (para02) |
+| 2003 | 10 | 153 (152) | 398 | 239 | 2 / 3 | Libertad | RSSSF (para03) |
+| 2004 | 10 | 186 (186) | 489 | 284 | 2 / 0 | Cerro Porteño | RSSSF (para04) |
+| 2005 | 12 | 188 (188) | 485 | 424 | 1 / 2 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006 | 11 | 222 (222) | 634 | 634 | 2 / 0 | Libertad | RSSSF (para06) |
+| 2007 | 12 | 267 (266) | 676 | 652 | 2 / 0 | Libertad | RSSSF (para07) |
+| 2008 Apertura | 12 | 132 (132) | 391 | 375 | 1 / 0 | Libertad | RSSSF (para08) |
+| 2008 Clausura | 12 | 133 (133) | 341 | 333 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2009 Apertura | 12 | 134 (134) | 326 | 326 | 0 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2009 Clausura | 12 | 132 (132) | 314 | 314 | 1 / 0 | Nacional de Asunción | RSSSF (para09) |
+| 2010 Apertura | 12 | 132 (132) | 342 | 325 | 1 / 0 | Guaraní de Asunción | RSSSF (para2010) |
+| 2010 Clausura | 12 | 132 (132) | 325 | 318 | 1 / 0 | Libertad | RSSSF (para2010) |
+| 2011 Apertura | 12 | 132 (132) | 319 | 319 | 1 / 0 | Nacional de Asunción | RSSSF (para2011) |
+| 2011 Clausura | 12 | 132 (132) | 369 | 369 | 1 / 0 | Olimpia | RSSSF (para2011) |
 | 2012 Apertura | 12 | 132 (132) | 355 | 355 | 1 / 0 | Cerro Porteño | RSSSF (para2012) |
 | 2012 Clausura | 12 | 132 (132) | 339 | 339 | 1 / 0 | Libertad | RSSSF (para2012) |
 | 2013 Apertura | 12 | 132 (132) | 351 | 351 | 1 / 0 | Nacional de Asunción | RSSSF (para2013) |
 | 2013 Clausura | 12 | 132 (132) | 362 | 362 | 1 / 0 | Cerro Porteño | RSSSF (para2013) |
-| 2014 Apertura | 12 | 130 (130) | 378 | 217 | 1 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2014 Clausura | 12 | 130 (130) | 337 | 201 | 2 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2014 Apertura | 12 | 132 (132) | 385 | 219 | 1 / 0 | Libertad | RSSSF (para2014) |
+| 2014 Clausura | 12 | 132 (132) | 341 | 208 | 1 / 0 | Libertad | RSSSF (para2014) |
 | 2015 Apertura | 12 | 132 (132) | 372 | 206 | 1 / 0 | Cerro Porteño | RSSSF (para2015) |
 | 2015 Clausura | 12 | 133 (133) | 386 | 230 | 1 / 0 | Olimpia | RSSSF (para2015) |
 | 2016 Apertura | 12 | 132 (132) | 433 | 206 | 1 / 0 | Libertad | RSSSF (para2016) |
 | 2016 Clausura | 12 | 132 (132) | 354 | 226 | 1 / 0 | Guaraní de Asunción | RSSSF (para2016) |
 | 2017 Apertura | 12 | 133 (133) | 340 | 329 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2017 Clausura | 12 | 132 (132) | 329 | 222 | 1 / 0 | Cerro Porteño | RSSSF (para2017) |
-| 2018 Apertura | 12 | 132 (132) | 381 | 378 | 1 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2018 Clausura | 12 | 132 (132) | 355 | 224 | 2 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2018 Apertura | 12 | 132 (132) | 381 | 378 | 1 / 0 | Olimpia | RSSSF (para2018) |
+| 2018 Clausura | 12 | 132 (132) | 355 | 224 | 1 / 0 | Olimpia | RSSSF (para2018) |
 | 2019 Apertura | 12 | 132 (132) | 381 | 378 | 1 / 0 | Olimpia | RSSSF (para2019) |
 | 2019 Clausura | 12 | 132 (132) | 339 | 213 | 1 / 0 | Olimpia | RSSSF (para2019) |
-| 2020 Apertura | 12 | 132 (132) | 347 | 344 | 2 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2020 Clausura | 12 | 73 (73) | 198 | 111 | 1 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2021 Apertura | 10 | 90 (90) | 234 | 234 | 2 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2021 Clausura | 10 | 90 (90) | 222 | 143 | 2 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2022 Apertura | 12 | 132 (132) | 336 | 336 | 1 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2020 Apertura | 12 | 132 (132) | 347 | 344 | 1 / 0 | Cerro Porteño | RSSSF (para2020) |
+| 2020 Clausura | 12 | 73 (73) | 198 | 111 | 1 / 0 | Olimpia | RSSSF (para2020) |
+| 2021 Apertura | 10 | 90 (90) | 234 | 234 | 1 / 0 | Libertad | RSSSF (para2021) |
+| 2021 Clausura | 10 | 90 (90) | 222 | 143 | 1 / 0 | Cerro Porteño | RSSSF (para2021) |
+| 2022 Apertura | 12 | 132 (132) | 336 | 336 | 1 / 0 | Libertad | RSSSF (para2022) |
 | 2022 Clausura | 12 | 133 (133) | 323 | 323 | 0 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2023 Apertura | 12 | 132 (132) | 317 | 317 | 1 / 0 | Libertad | RSSSF (para2023) |
 | 2023 Clausura | 12 | 133 (133) | 348 | 348 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2024 Apertura | 12 | 132 (132) | 339 | 336 | 2 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2024 Clausura | 12 | 132 (132) | 277 | 238 | 2 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2025 Apertura | 12 | 132 (132) | 288 | 220 | 2 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2025 Clausura | 12 | 132 (132) | 341 | 192 | 2 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2024 Apertura | 12 | 132 (132) | 339 | 336 | 1 / 0 | Libertad | RSSSF (para2024) |
+| 2024 Clausura | 12 | 132 (132) | 277 | 238 | 1 / 0 | Olimpia | RSSSF (para2024) |
+| 2025 Apertura | 12 | 132 (132) | 288 | 220 | 1 / 0 | Libertad | RSSSF (para2025) |
+| 2025 Clausura | 12 | 132 (132) | 341 | 192 | 1 / 0 | Cerro Porteño | RSSSF (para2025) |
 
 ## Conferência e correções, edição a edição
 
@@ -573,61 +573,66 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 - tabela publicada x jogos — para98:139: Guaraní de Asunción tabela [2, 1, 1, 0, 5, 4] jogos [4, 1, 1, 2, 6, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:139: Sportivo Luqueño tabela [2, 0, 1, 1, 2, 6] jogos [3, 0, 1, 2, 3, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:139: Sol de América tabela [2, 1, 0, 1, 4, 4] jogos [3, 2, 0, 1, 6, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:146: Cerro Porteño tabela [2, 2, 0, 0, 6, 2] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:148: Presidente Hayes tabela [2, 0, 0, 2, 2, 6] jogos [1, 0, 0, 1, 0, 1] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:148: Cerro Corá tabela [2, 0, 1, 1, 2, 4] jogos [1, 1, 0, 0, 1, 0] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:146: Cerro Porteño tabela [2, 2, 0, 0, 6, 2] jogos [3, 3, 0, 0, 10, 2] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:146: 12 de Octubre tabela [2, 1, 1, 0, 4, 2] jogos [4, 1, 1, 2, 5, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:146: Presidente Hayes tabela [2, 0, 0, 2, 2, 6] jogos [3, 0, 0, 3, 2, 7] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:146: Cerro Corá tabela [2, 0, 1, 1, 2, 4] jogos [4, 2, 1, 1, 5, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:173: Olimpia tabela [3, 2, 0, 1, 7, 2] jogos [4, 3, 0, 1, 9, 3] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:173: Guaraní de Asunción tabela [3, 1, 1, 1, 5, 6] jogos [4, 1, 1, 2, 6, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:180: Cerro Porteño tabela [3, 3, 0, 0, 10, 2] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:182: Cerro Corá tabela [3, 1, 1, 1, 3, 4] jogos [6, 2, 3, 1, 9, 9] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:216: Nacional de Asunción tabela [11, 3, 6, 2, 17, 22] jogos [11, 2, 7, 2, 17, 23] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:342: Olimpia tabela [3, 2, 1, 0, 7, 4] jogos [3, 2, 1, 0, 6, 3] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:342: Cerro Corá tabela [3, 1, 2, 0, 6, 5] jogos [2, 0, 2, 0, 4, 4] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:342: Guaraní de Asunción tabela [3, 1, 1, 1, 4, 4] jogos [3, 0, 1, 2, 3, 6] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:419: Cerro Porteño tabela [22, 16, 3, 3, 52, 19] jogos [2, 0, 1, 1, 3, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:419: Guaraní de Asunción tabela [22, 10, 6, 6, 31, 28] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:419: Olimpia tabela [22, 9, 5, 8, 28, 19] jogos [2, 1, 1, 0, 5, 3] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:419: Sportivo Luqueño tabela [22, 8, 8, 6, 25, 29] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:419: Cerro Corá tabela [22, 8, 6, 8, 33, 34] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:425: Atlético Colegiales tabela [22, 8, 4, 10, 24, 29] jogos [25, 9, 5, 11, 28, 32] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:425: Sol de América tabela [22, 5, 11, 6, 24, 25] jogos [28, 7, 12, 9, 34, 38] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:425: Presidente Hayes tabela [22, 5, 9, 8, 23, 28] jogos [25, 5, 9, 11, 25, 35] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:425: Sportivo San Lorenzo tabela [22, 5, 8, 9, 25, 33] jogos [25, 6, 8, 11, 31, 40] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:180: 12 de Octubre tabela [3, 1, 1, 1, 4, 6] jogos [4, 1, 1, 2, 5, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:180: Cerro Corá tabela [3, 1, 1, 1, 3, 4] jogos [4, 2, 1, 1, 5, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:211: Nacional de Asunción tabela [11, 3, 6, 2, 17, 22] jogos [11, 2, 7, 2, 17, 23] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:342: Olimpia tabela [3, 2, 1, 0, 7, 4] jogos [3, 1, 0, 2, 1, 2] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:342: Cerro Corá tabela [3, 1, 2, 0, 6, 5] jogos [3, 2, 0, 1, 6, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:342: 12 de Octubre tabela [3, 0, 0, 3, 2, 6] jogos [3, 1, 1, 1, 4, 4] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Cerro Porteño tabela [22, 16, 3, 3, 52, 19] jogos [28, 22, 3, 3, 70, 25] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Guaraní de Asunción tabela [22, 10, 6, 6, 31, 28] jogos [28, 12, 8, 8, 40, 38] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Olimpia tabela [22, 9, 5, 8, 28, 19] jogos [28, 13, 6, 9, 42, 25] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Sportivo Luqueño tabela [22, 8, 8, 6, 25, 29] jogos [25, 8, 9, 8, 28, 37] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Cerro Corá tabela [22, 8, 6, 8, 33, 34] jogos [28, 10, 9, 9, 42, 43] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: 12 de Octubre tabela [22, 8, 5, 9, 32, 35] jogos [28, 9, 6, 13, 38, 47] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Atlético Colegiales tabela [22, 8, 4, 10, 24, 29] jogos [25, 9, 5, 11, 28, 32] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Sol de América tabela [22, 5, 11, 6, 24, 25] jogos [28, 7, 12, 9, 34, 38] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Presidente Hayes tabela [22, 5, 9, 8, 23, 28] jogos [25, 5, 9, 11, 25, 35] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:419: Sportivo San Lorenzo tabela [22, 5, 8, 9, 25, 33] jogos [25, 6, 8, 11, 31, 40] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - linha lida como jogo e descartada (clube não reconhecido): para98:432 «Promoted: Resistencia (won final versus Sportivo Iteño x on penalties)»
 
 ### 1999
 
-- tabela publicada x jogos — para99:158: Olimpia tabela [3, 2, 1, 0, 9, 5] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:160: Sportivo San Lorenzo tabela [3, 0, 1, 2, 3, 6] jogos [6, 1, 1, 4, 7, 13] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:158: Olimpia tabela [3, 2, 1, 0, 9, 5] jogos [4, 3, 1, 0, 10, 5] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:158: 12 de Octubre tabela [3, 2, 0, 1, 5, 3] jogos [4, 2, 0, 2, 5, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:165: Atlético Colegiales tabela [3, 3, 0, 0, 9, 1] jogos [4, 4, 0, 0, 11, 2] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:165: Cerro Porteño tabela [3, 2, 0, 1, 4, 5] jogos [4, 3, 0, 1, 5, 5] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:165: Guaraní de Asunción tabela [3, 1, 0, 2, 3, 5] jogos [4, 1, 0, 3, 3, 6] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:165: Sportivo Luqueño tabela [3, 0, 0, 3, 0, 5] jogos [4, 0, 0, 4, 1, 7] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:189: Cerro Porteño tabela [10, 7, 1, 2, 25, 8] jogos [12, 9, 1, 2, 30, 9] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:194: Atlético Colegiales tabela [10, 2, 3, 5, 9, 12] jogos [11, 3, 3, 5, 11, 13] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:194: Cerro Corá tabela [10, 2, 3, 5, 10, 16] jogos [13, 2, 3, 8, 12, 23] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:189: Atlético Colegiales tabela [10, 2, 3, 5, 9, 12] jogos [11, 3, 3, 5, 11, 13] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:189: Cerro Corá tabela [10, 2, 3, 5, 10, 16] jogos [13, 2, 3, 8, 12, 23] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:321: Cerro Porteño tabela [2, 1, 1, 0, 5, 2] jogos [4, 3, 1, 0, 8, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:321: Sportivo San Lorenzo tabela [2, 1, 0, 1, 3, 5] jogos [3, 1, 0, 2, 4, 7] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:321: Cerro Corá tabela [2, 1, 1, 0, 4, 2] jogos [3, 2, 1, 0, 6, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:321: Guaraní de Asunción tabela [2, 0, 0, 2, 2, 5] jogos [4, 0, 0, 4, 3, 8] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:328: Sportivo Luqueño tabela [2, 1, 1, 0, 4, 2] jogos [1, 1, 0, 0, 3, 1] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:328: Olimpia tabela [2, 1, 0, 1, 4, 3] jogos [1, 0, 0, 1, 1, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:331: Atlético Colegiales tabela [2, 0, 0, 2, 0, 4] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: Sportivo Luqueño tabela [2, 1, 1, 0, 4, 2] jogos [4, 1, 1, 2, 5, 6] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: Olimpia tabela [2, 1, 0, 1, 4, 3] jogos [4, 3, 0, 1, 7, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: 12 de Octubre tabela [2, 1, 1, 0, 2, 1] jogos [4, 1, 1, 2, 3, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: Atlético Colegiales tabela [2, 0, 0, 2, 0, 4] jogos [4, 2, 0, 2, 4, 5] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:359: Cerro Porteño tabela [3, 2, 1, 0, 6, 2] jogos [4, 3, 1, 0, 8, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:359: Guaraní de Asunción tabela [3, 0, 0, 3, 2, 6] jogos [4, 0, 0, 4, 3, 8] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Olimpia tabela [20, 12, 7, 1, 39, 17] jogos [2, 2, 0, 0, 4, 2] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Cerro Porteño tabela [20, 12, 5, 3, 46, 20] jogos [2, 0, 0, 2, 2, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Sportivo Luqueño tabela [20, 11, 6, 3, 44, 27] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Sportivo San Lorenzo tabela [20, 6, 11, 3, 26, 22] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Guaraní de Asunción tabela [20, 6, 10, 4, 29, 27] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:414: Atlético Colegiales tabela [20, 6, 4, 10, 25, 31] jogos [27, 11, 4, 12, 38, 38] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:414: Sol de América tabela [20, 5, 6, 9, 18, 22] jogos [23, 6, 6, 11, 22, 29] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:414: Cerro Corá tabela [20, 4, 6, 10, 27, 39] jogos [26, 6, 7, 13, 35, 49] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Olimpia tabela [20, 12, 7, 1, 39, 17] jogos [26, 16, 8, 2, 53, 25] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Cerro Porteño tabela [20, 12, 5, 3, 46, 20] jogos [28, 18, 6, 4, 61, 28] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Sportivo Luqueño tabela [20, 11, 6, 3, 44, 27] jogos [26, 12, 7, 7, 49, 36] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Sportivo San Lorenzo tabela [20, 6, 11, 3, 26, 22] jogos [26, 7, 12, 7, 33, 35] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Guaraní de Asunción tabela [20, 6, 10, 4, 29, 27] jogos [26, 7, 10, 9, 34, 38] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: 12 de Octubre tabela [20, 5, 12, 3, 27, 22] jogos [26, 8, 13, 5, 34, 27] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Atlético Colegiales tabela [20, 6, 4, 10, 25, 31] jogos [27, 11, 4, 12, 38, 38] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Sol de América tabela [20, 5, 6, 9, 18, 22] jogos [23, 6, 6, 11, 22, 29] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Cerro Corá tabela [20, 4, 6, 10, 27, 39] jogos [26, 6, 7, 13, 35, 49] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 
 ### 2000
 
-- tabela publicada x jogos — para00:282: Cerro Porteño tabela [9, 3, 5, 1, 16, 10] jogos [9, 3, 5, 1, 15, 9] — a outra tabela publicada (para00) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para00:526: Cerro Porteño tabela [3, 2, 0, 1, 8, 6] jogos [4, 3, 0, 1, 12, 8] — a outra tabela publicada (para00) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para00:280: Cerro Porteño tabela [9, 3, 5, 1, 16, 10] jogos [9, 3, 5, 1, 15, 9] — a outra tabela publicada (para00) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para00:525: 12 de Octubre tabela [3, 2, 0, 1, 12, 8] jogos [4, 2, 0, 2, 14, 12] — a outra tabela publicada (para00) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para00:525: Cerro Porteño tabela [3, 2, 0, 1, 8, 6] jogos [4, 3, 0, 1, 12, 8] — a outra tabela publicada (para00) fecha com os jogos: o erro é desta tabela
 
 ### 2001
 
@@ -653,42 +658,43 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 2005
 
+- ESPN: 84 jogos casados
 - tabela publicada x jogos — para05:334: Libertad tabela [18, 9, 5, 4, 30, 23] jogos [19, 9, 5, 5, 34, 24] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para05:338: Guaraní de Asunción tabela [18, 6, 2, 10, 18, 25] jogos [20, 7, 2, 11, 21, 30] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para05:343: General Caballero tabela [18, 3, 1, 14, 15, 29] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para05:649: Libertad tabela [36, 13, 12, 11, 51, 46] jogos [37, 13, 12, 12, 55, 47] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para05:649: Guaraní de Asunción tabela [36, 15, 6, 15, 39, 43] jogos [38, 16, 6, 16, 42, 48] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para05:655: General Caballero tabela [36, 5, 8, 23, 31, 57] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
-- abandonado/suspenso, sem valer — General Caballero Olimpia (2006-05-21): abandoned at 1-0 in 32'
-- decidido fora de campo — General Caballero Libertad (2006-11-26): awarded to Libertad; originally
+- tabela publicada x jogos — para05:334: Guaraní de Asunción tabela [18, 6, 2, 10, 18, 25] jogos [20, 7, 2, 11, 21, 30] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para05:334: General Caballero tabela [18, 3, 1, 14, 15, 29] jogos [17, 3, 1, 13, 13, 28] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para05:646: Libertad tabela [36, 13, 12, 11, 51, 46] jogos [37, 13, 12, 12, 55, 47] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para05:646: Guaraní de Asunción tabela [36, 15, 6, 15, 39, 43] jogos [38, 16, 6, 16, 42, 48] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para05:646: General Caballero tabela [36, 5, 8, 23, 31, 57] jogos [35, 5, 8, 22, 29, 56] — a outra tabela publicada (para05) fecha com os jogos: o erro é desta tabela
+- abandonado/suspenso, sem valer — General Caballero Olimpia (2005-05-21): abandoned at 1-0 in 32'
+- decidido fora de campo — General Caballero Libertad (2005-11-26): awarded to Libertad; originally
 
 ### 2006
 
-- ESPN: 186 jogos casados
+- ESPN: 216 jogos casados
 
 ### 2007
 
-- ESPN: 1 jogos casados
-- abandonado/suspenso, sem valer — 2 de Mayo Sol de América (2008-05-18): abandoned at 1-1 in 68'
+- ESPN: 264 jogos casados
+- abandonado/suspenso, sem valer — 2 de Mayo Sol de América (2007-05-18): abandoned at 1-1 in 68'
 
 ### 2008 Apertura
 
-- ESPN: 121 jogos casados
+- ESPN: 131 jogos casados
 
 ### 2008 Clausura
 
-- ESPN: 86 jogos casados
+- ESPN: 130 jogos casados
 - abandonado/suspenso, sem valer — Guaraní de Asunción Libertad (2008-10-25): abandoned at 1-1 at half-time
 
 ### 2009 Apertura
 
-- ESPN: 123 jogos casados
+- ESPN: 132 jogos casados
 - abandonado/suspenso, sem valer — Tacuary Cerro Porteño (2009-04-04): abandoned at 0-1 at
 - abandonado/suspenso, sem valer — 2 de Mayo 3 de Febrero (2009-05-29): abandoned at 0-1 in 32'
 
 ### 2009 Clausura
 
-- ESPN: 70 jogos casados
+- ESPN: 132 jogos casados
 
 ### 2010 Apertura
 
@@ -724,11 +730,11 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 2014 Apertura
 
-- ESPN: 127 jogos casados
+- ESPN: 132 jogos casados
 
 ### 2014 Clausura
 
-- ESPN: 80 jogos casados
+- ESPN: 132 jogos casados
 
 ### 2015 Apertura
 

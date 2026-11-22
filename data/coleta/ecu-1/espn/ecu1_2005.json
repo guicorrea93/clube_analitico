@@ -1,0 +1,6356 @@
+[
+{
+"id": "192652",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192656",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192654",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Corozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neider Morantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfrido Vinces"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Delgado"
+]
+}
+]
+},
+{
+"id": "192653",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segundo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Aurelio Vernaza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Guagua"
+]
+}
+]
+},
+{
+"id": "192655",
+"data_hora": "2005-07-31T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Candelario"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ladines Garces"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Mafredy Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ladines Garces"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Candelario"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Alberto Cuero"
+]
+}
+]
+},
+{
+"id": "192659",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ayoví"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pavel Cipriano Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danny Alejandro Vera Carpio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Soledispa"
+]
+}
+]
+},
+{
+"id": "192658",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192660",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Segura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+}
+]
+},
+{
+"id": "192657",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Álex Aguinaga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+}
+]
+},
+{
+"id": "192661",
+"data_hora": "2005-08-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Manuel Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Ledesma"
+]
+}
+]
+},
+{
+"id": "192663",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+}
+]
+},
+{
+"id": "192666",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192664",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+}
+]
+},
+{
+"id": "192665",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Alberto Capurro"
+]
+}
+]
+},
+{
+"id": "192662",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néicer Reasco Yano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Andrade"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Francisco Araujo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Mafredy Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Agustín Salas"
+]
+}
+]
+},
+{
+"id": "192669",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danny Alejandro Vera Carpio"
+]
+}
+]
+},
+{
+"id": "192667",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Eduardo Gavica Peñafiel"
+]
+}
+]
+},
+{
+"id": "192668",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Andres Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+}
+]
+},
+{
+"id": "192671",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+}
+]
+},
+{
+"id": "192670",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Estiguar Hurtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Augusto González"
+]
+}
+]
+},
+{
+"id": "192676",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Byron Eduardo Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Xavier Arévalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lidio Benítez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Velazco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+}
+]
+},
+{
+"id": "192674",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Guagua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Saritama"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario David Quiroz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Guagua"
+]
+}
+]
+},
+{
+"id": "192675",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Pinto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Caicedo"
+]
+}
+]
+},
+{
+"id": "192672",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Bravo"
+]
+}
+]
+},
+{
+"id": "192673",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Antonio Murillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+}
+]
+},
+{
+"id": "192677",
+"data_hora": "2005-08-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Saritama"
+]
+}
+]
+},
+{
+"id": "192678",
+"data_hora": "2005-08-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192679",
+"data_hora": "2005-08-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neider Morantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Candelario"
+]
+}
+]
+},
+{
+"id": "192680",
+"data_hora": "2005-08-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Alberto Capurro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Antonio García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Urrutia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Garcés"
+]
+}
+]
+},
+{
+"id": "192681",
+"data_hora": "2005-08-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Nápoles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Estiguar Hurtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+}
+]
+},
+{
+"id": "192684",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Barijho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Manuel Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Barijho"
+]
+}
+]
+},
+{
+"id": "192685",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abel Lobatón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mendes Da Rocha Cassiano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mendes Da Rocha Cassiano"
+]
+}
+]
+},
+{
+"id": "192686",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Ayoví"
+]
+}
+]
+},
+{
+"id": "192682",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Oribe Maciel"
+]
+}
+]
+},
+{
+"id": "192683",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Urrutia"
+]
+}
+]
+},
+{
+"id": "192687",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Lavayen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giovanny Espinoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Lavayen"
+]
+}
+]
+},
+{
+"id": "192689",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Estuardo Quiñónez Montaño"
+]
+}
+]
+},
+{
+"id": "192688",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arlin Ayoví"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+}
+]
+},
+{
+"id": "192690",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo David Hurtado"
+]
+}
+]
+},
+{
+"id": "192691",
+"data_hora": "2005-09-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Segura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neider Morantes"
+]
+}
+]
+},
+{
+"id": "192694",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Aquiles Paredes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Grisales"
+]
+}
+]
+},
+{
+"id": "192695",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Augusto González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfrido Vinces"
+]
+}
+]
+},
+{
+"id": "192692",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Oribe Maciel"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lara"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+}
+]
+},
+{
+"id": "192693",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192696",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Alberto Capurro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Alberto Capurro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Andrián Gómez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Perlaza"
+]
+}
+]
+},
+{
+"id": "192697",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+}
+]
+},
+{
+"id": "192698",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfrido Vinces"
+]
+}
+]
+},
+{
+"id": "192699",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario David Quiroz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Conselino Cabezas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segundo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Francisco Araujo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry León"
+]
+}
+]
+},
+{
+"id": "192701",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Figueroa"
+]
+}
+]
+},
+{
+"id": "192700",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Efren Mera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Segura"
+]
+}
+]
+},
+{
+"id": "192706",
+"data_hora": "2005-09-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neider Morantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fricson George"
+]
+}
+]
+},
+{
+"id": "192705",
+"data_hora": "2005-09-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mendes Da Rocha Cassiano"
+]
+}
+]
+},
+{
+"id": "192703",
+"data_hora": "2005-09-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Conselino Cabezas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Conselino Cabezas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Francisco Araujo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Conselino Cabezas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+}
+]
+},
+{
+"id": "192702",
+"data_hora": "2005-09-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huidobro Vilson Rosero"
+]
+}
+]
+},
+{
+"id": "192704",
+"data_hora": "2005-09-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Manuel Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Alberto Petrovelli"
+]
+}
+]
+},
+{
+"id": "192708",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huidobro Vilson Rosero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Augusto González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Guerrón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gregorio Quiñonez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+}
+]
+},
+{
+"id": "192707",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Guagua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Espínola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Guagua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Antonio Murillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Garcés"
+]
+}
+]
+},
+{
+"id": "192711",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Triviño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Pinto"
+]
+}
+]
+},
+{
+"id": "192710",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Segura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Segura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+}
+]
+},
+{
+"id": "192709",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Alberto Petrovelli"
+]
+}
+]
+},
+{
+"id": "192716",
+"data_hora": "2005-10-19T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Antonio Quiñónez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Barijho"
+]
+}
+]
+},
+{
+"id": "192715",
+"data_hora": "2005-10-19T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Fleitas"
+]
+}
+]
+},
+{
+"id": "192712",
+"data_hora": "2005-10-19T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+}
+]
+},
+{
+"id": "192714",
+"data_hora": "2005-10-19T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Manuel Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Perlaza"
+]
+}
+]
+},
+{
+"id": "192713",
+"data_hora": "2005-10-19T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Édison Vicente Méndez"
+]
+}
+]
+},
+{
+"id": "192718",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Germán Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+}
+]
+},
+{
+"id": "192721",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Nápoles"
+]
+}
+]
+},
+{
+"id": "192717",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lizandro Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Alejandro Baldeón Parreño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario David Quiroz"
+]
+}
+]
+},
+{
+"id": "192720",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Alberto Capurro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Segura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gregorio Quiñonez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Alfredo Noriega"
+]
+}
+]
+},
+{
+"id": "192719",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Antonio Murillo"
+]
+}
+]
+},
+{
+"id": "192722",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+}
+]
+},
+{
+"id": "192725",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"De Souza Luiz Fabiano"
+]
+}
+]
+},
+{
+"id": "192724",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Ayoví"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Efren Mera"
+]
+}
+]
+},
+{
+"id": "192726",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192723",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néicer Reasco Yano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Urrutia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Urrutia"
+]
+}
+]
+},
+{
+"id": "192731",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gregorio Quiñonez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fricson George"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neider Morantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neider Morantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Grisales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustín Delgado"
+]
+}
+]
+},
+{
+"id": "192728",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segundo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Huidobro Vilson Rosero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abel Lobatón"
+]
+}
+]
+},
+{
+"id": "192727",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Mina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+}
+]
+},
+{
+"id": "192730",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Segura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Alberto Capurro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Alberto Capurro"
+]
+}
+]
+},
+{
+"id": "192729",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Alejandro Baldeón Parreño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celso Cuero Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Alejandro Baldeón Parreño"
+]
+}
+]
+},
+{
+"id": "192732",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Liga de Loja",
+"visitante_id": "6018",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+}
+]
+},
+{
+"id": "192735",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Espoli",
+"visitante_id": "6126",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Roberto Lastra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Roberto Lastra"
+]
+}
+]
+},
+{
+"id": "192734",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Quito",
+"mandante_id": "2089",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Estuardo Quiñónez Montaño"
+]
+}
+]
+},
+{
+"id": "192733",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segundo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Neider Morantes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+}
+]
+},
+{
+"id": "192736",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Emelec",
+"mandante_id": "2668",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "George Capwell",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moisés Candelario"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Andrián Gómez"
+]
+}
+]
+},
+{
+"id": "192741",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Deportivo Quito",
+"visitante_id": "2089",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Grisales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Grisales"
+]
+}
+]
+},
+{
+"id": "192737",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Espoli",
+"mandante_id": "6126",
+"visitante": "Emelec",
+"visitante_id": "2668",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Gilberto Rueda Bedoya de Cayambe",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaac Mina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Germán Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Fernando De Jesús"
+]
+}
+]
+},
+{
+"id": "192740",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Loja",
+"mandante_id": "6018",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "1",
+"gols_visitante": "7",
+"estadio": "Federativo de Loja",
+"cidade": "Loja",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario David Quiroz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segundo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segundo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Efren Mera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robinson Sánchez"
+]
+}
+]
+},
+{
+"id": "192738",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+}
+]
+},
+{
+"id": "192739",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+}
+]
+},
+{
+"id": "192743",
+"data_hora": "2005-11-17T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Andrián Gómez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abel Lobatón"
+]
+}
+]
+},
+{
+"id": "192742",
+"data_hora": "2005-11-17T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192744",
+"data_hora": "2005-11-17T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192746",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Damián Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick De Jesús"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Andrés De Jesús"
+]
+}
+]
+},
+{
+"id": "192745",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Soledispa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paul Ambrosi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Espínola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Urrutia"
+]
+}
+]
+},
+{
+"id": "192747",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Roberto Lastra"
+]
+}
+]
+},
+{
+"id": "192748",
+"data_hora": "2005-11-23T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Édison Vicente Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Garcés"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+}
+]
+},
+{
+"id": "192749",
+"data_hora": "2005-11-24T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Estiguar Hurtado"
+]
+}
+]
+},
+{
+"id": "192750",
+"data_hora": "2005-11-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Cotera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Velazco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+}
+]
+},
+{
+"id": "192752",
+"data_hora": "2005-11-27T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Garcés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+}
+]
+},
+{
+"id": "192751",
+"data_hora": "2005-11-27T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gregorio Quiñonez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+}
+]
+},
+{
+"id": "192753",
+"data_hora": "2005-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Borja"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Damián Morales"
+]
+}
+]
+},
+{
+"id": "192754",
+"data_hora": "2005-12-01T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Simón Ali Quiñónez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Soledispa"
+]
+}
+]
+},
+{
+"id": "192755",
+"data_hora": "2005-12-01T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Damián Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+}
+]
+},
+{
+"id": "192756",
+"data_hora": "2005-12-01T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Alberto Petrovelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Antonio Murillo"
+]
+}
+]
+},
+{
+"id": "192757",
+"data_hora": "2005-12-04T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo David Hurtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gregorio Quiñonez"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Guagua"
+]
+}
+]
+},
+{
+"id": "192758",
+"data_hora": "2005-12-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Quiñónez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Néstor Daniel Rodríguez Perez"
+]
+}
+]
+},
+{
+"id": "192759",
+"data_hora": "2005-12-04T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ezequiel Alberto Petrovelli"
+]
+}
+]
+},
+{
+"id": "192760",
+"data_hora": "2005-12-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Atahualpa",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cléber Manuel Chalá"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Caicedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Damián Morales"
+]
+}
+]
+},
+{
+"id": "192761",
+"data_hora": "2005-12-10T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giovanny Espinoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel García Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Espínola"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Antonio Murillo"
+]
+}
+]
+},
+{
+"id": "192762",
+"data_hora": "2005-12-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Fleitas"
+]
+}
+]
+},
+{
+"id": "192763",
+"data_hora": "2005-12-14T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Estiguar Hurtado"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Wilmer Corozo"
+]
+}
+]
+},
+{
+"id": "192764",
+"data_hora": "2005-12-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Hidalgo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Cotera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+}
+]
+},
+{
+"id": "192765",
+"data_hora": "2005-12-15T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Urrutia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario David Quiroz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Benitez"
+]
+}
+]
+},
+{
+"id": "192767",
+"data_hora": "2005-12-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aucas",
+"mandante_id": "6017",
+"visitante": "El Nacional",
+"visitante_id": "882",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "La Caldera del Sur",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Alfredo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario David Quiroz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario David Quiroz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pavel Cipriano Caicedo"
+]
+}
+]
+},
+{
+"id": "192766",
+"data_hora": "2005-12-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Barcelona SC",
+"mandante_id": "2686",
+"visitante": "Liga de Quito",
+"visitante_id": "4816",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Monumental Isidro Romero Carbo",
+"cidade": "Guayaquil",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": null,
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": []
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Palacios"
+]
+}
+]
+},
+{
+"id": "192768",
+"data_hora": "2005-12-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Cuenca",
+"mandante_id": "4812",
+"visitante": "Olmedo",
+"visitante_id": "4819",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Alejandro Serrano Aguilar",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wálter Calderón"
+]
+}
+]
+},
+{
+"id": "192769",
+"data_hora": "2005-12-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "El Nacional",
+"mandante_id": "882",
+"visitante": "Barcelona SC",
+"visitante_id": "2686",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192771",
+"data_hora": "2005-12-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Liga de Quito",
+"mandante_id": "4816",
+"visitante": "Deportivo Cuenca",
+"visitante_id": "4812",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "La Casa Blanca",
+"cidade": "Quito",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Édison Vicente Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Gamez Quintero"
+]
+}
+]
+},
+{
+"id": "192770",
+"data_hora": "2005-12-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Olmedo",
+"mandante_id": "4819",
+"visitante": "Aucas",
+"visitante_id": "6017",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Olímpico Riobamba",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Mina Quiñones"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco David Tenorio"
+]
+}
+]
+}
+]

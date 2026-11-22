@@ -91,7 +91,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 1985 | 30 | 528 (528) | 1199 | 0 | 2 / 4 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1986 | 18 | 106 (106) | 260 | 0 | 1 / 6 | Deportivo San Agustín | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1987 | 30 | 542 (542) | 1300 | 0 | 3 / 4 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1988 | 37 | 425 (425) | 984 | 0 | 4 / 6 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1988 | 37 | 425 (425) | 984 | 0 | 4 / 5 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 14 | 148 (148) | 328 | 0 | 3 / 5 | Unión Huaral | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1990 | 13 | 70 (70) | 185 | 0 | 1 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991 | 15 | 28 (28) | 75 | 0 | 0 / 3 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -636,9 +636,8 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 - tabela publicada x jogos — peru88:17: Universitario tabela [12, 7, 2, 3, 19, 7] jogos [17, 10, 4, 3, 29, 8] — sobram 5 jogo(s) do clube na página
 - tabela publicada x jogos — peru88:17: Deportivo San Agustín tabela [12, 6, 4, 2, 16, 13] jogos [17, 7, 5, 5, 22, 22] — sobram 5 jogo(s) do clube na página
-- tabela publicada x jogos — peru88:170: Alianza Atlético tabela [16, 9, 6, 1, 21, 9] jogos [21, 10, 9, 2, 26, 14] — sobram 5 jogo(s) do clube na página
 - tabela publicada x jogos — peru88:553: Cienciano tabela [5, 1, 1, 3, 5, 10] jogos [19, 11, 3, 5, 35, 19] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru88:673: Deportivo Cañaña tabela [3, 2, 0, 1, 3, 3] jogos [1, 0, 0, 1, 0, 2] — faltam 2 jogo(s) do clube na página
+- tabela publicada x jogos — peru88:673: Deportivo Cañaña tabela [3, 2, 0, 1, 3, 3] jogos [1, 0, 0, 1, 0, 2] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:673: Alfonso Ugarte tabela [3, 1, 0, 2, 1, 3] jogos [2, 1, 0, 1, 1, 2] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:673: Defensor ANDA tabela [3, 0, 0, 3, 1, 5] jogos [2, 0, 0, 2, 0, 3] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:699: Deportivo San Agustín tabela [22, 5, 8, 9, 19, 33] jogos [22, 5, 8, 9, 19, 34] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)

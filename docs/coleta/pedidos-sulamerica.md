@@ -1,5 +1,8 @@
 # Pedidos do agente de coleta América do Sul
 
+**Para saber o que temos, o que falta e por onde continuar:** `coleta/comum-sulamerica/COMECE-AQUI.md` (guia) e
+`coleta/comum-sulamerica/documentacao/` (índice `README.md` e uma ficha por competição, gerada por `documentar.py`).
+
 Recados ao agente 1 (banco e painel). Cada item diz o que já está no pacote enquanto isso.
 
 ## 20/11/2026 — Campeonato Argentino, 1ª divisão (`arg-1`)
@@ -266,3 +269,39 @@ Pacote em `data/coleta/par-1/pacote/` e relatório em `docs/coleta/par-1.md`. Co
 - **Paraguai (`par-1`) atualizado:** (1) o pacote do commit anterior saiu antes de a ESPN de 2016 e 2025 terminar de
   baixar; agora 527 jogos ganham hora, estádio e cidade (nenhum placar muda); (2) o clube do artilheiro de 1979 (Capitán
   Figari, Lambaré) entrou no clubes.csv, como pedido.
+
+## 21/11/2026 — Campeonato Equatoriano, 1ª divisão (`ecu-1`)
+
+- Pacote em `data/coleta/ecu-1/pacote/`, relatório em `docs/coleta/ecu-1.md`, código em `coleta/ecu-1/`.
+- **68 edições**, uma por título, de 1957 a 2025 (sem campeonato em 1958 e 1959; em 2005, Apertura e Clausura, uma
+  edição cada: `2005 Apertura`, `2005 Clausura`). 14.195 jogos, 63 clubes, 9.240 gols com autor, 15.824 cartões,
+  72 artilheiros, 2.069 linhas de tabelas publicadas. Nenhuma edição sem jogos.
+- **Até 1967** o nacional era um torneio curto entre os melhores dos regionais (Interandino e Guayaquil); os regionais
+  ficaram de fora, como a Serie B, a Copa Ecuador e a Supercopa de 1969.
+- **Fontes:** RSSSF é a base de todos os anos (de 1960 a 1974 parte das fases vem em tabela de confrontos, sem rodada nem
+  data); ESPN (`ecu.1`) dá os jogos de 2011, 2012 e 2025 (a RSSSF só tem as tabelas e as finais; fonte `ESPN`,
+  `fonte_id` `espn:<id>`) e casou 5.145 jogos ao todo (hora, estádio, gols com minuto, cartões; de 2014 a 2020 a ESPN
+  quase não tem lances).
+- **Conferência:** 47 edições batem com todas as tabelas publicadas; 21 têm divergência, quase sempre de um gol ou de um
+  resultado que a própria página não fecha (explicado no relatório). Jogos lidos = jogos esperados nas 68. Campeões e
+  vices batem com a Wikipédia em inglês (LigaPro Serie A) nas 68.
+- **Clubes:** sem homônimos no banco nem nos outros pacotes. Com cidade: Barcelona de Guayaquil, Universidad Católica de
+  Quito, River Plate de Manta (1963, 1966) e River Plate de Riobamba (1987, 1988), que são dois clubes, Libertad de Loja,
+  Santos de El Guabo, Juventus de Esmeraldas, Santa Rita de Vinces, América de Quito/Ambato/Manta. Nome atual para o mesmo
+  clube: Independiente José Terán = Independiente del Valle, River Ecuador = Guayaquil City, Cuniburo = Vinotinto.
+- **Pontos:** 2 por vitória até 1994, 3 depois. As liguillas finais começam com pontos de bônus (`ajuste_pontos`). Em 1998
+  o empate ia para os pênaltis (2 pontos para quem ganhava, 1 para quem perdia); a tabela soma os dois tipos de empate.
+- **Mudança no leitor comum** (`coleta/comum-sulamerica/rsssf_sul.py`), dois erros antigos: (1) linha de tabela de clube
+  com nome que começa por número ("9 de Octubre", "3 de Febrero", "12 de Octubre") não era lida; (2) jogo entre dois
+  clubes com nome de data ("3 de Febrero 2-0 12 de Octubre") era lido como linha de data e sumia.
+- **Paraguai (`par-1`) e Peru (`per-1`) reimportados por causa disso.** Paraguai: +55 jogos (2005-2014, os jogos entre
+  3 de Febrero, 12 de Octubre e 2 de Mayo) e as tabelas publicadas agora trazem esses clubes; as 36 edições que fechavam
+  continuam fechando. Os `id` das partidas do par-1 mudaram a partir dos jogos novos (se já estiver no banco, reimportar
+  o pacote inteiro). Peru: mesmos jogos (8 jogos de 1991 trocaram de ordem e de `id`) e 1988 com uma divergência a menos.
+  Argentina, Uruguai, Chile e Colômbia: pacotes idênticos.
+- **Teste de carga (22/11), numa cópia do banco, com `coleta/comum-sulamerica/testar_carga.py`:** os sete pacotes dão
+  "-> OK". Ele achou dois erros, já corrigidos:
+  - no `per-1`, os clubes das edições de 1912-1921, que só estão na classificação, faltavam no `clubes.csv`. Agora são 153
+    clubes;
+  - no `par-1`, o "8 de Diciembre" (Caacupé), de 1994, que só aparece em tabela, não tinha cadastro e ficava sem clube.
+- **Documentação nova:** `coleta/comum-sulamerica/COMECE-AQUI.md` e `coleta/comum-sulamerica/documentacao/`.

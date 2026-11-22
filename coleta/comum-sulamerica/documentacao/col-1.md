@@ -1,0 +1,504 @@
+# Campeonato Colombiano (`col-1`) — documentação
+
+Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `data/coleta/col-1/pacote/`, do código `coleta/col-1/` e do relatório `docs/coleta/col-1.md` (que tem o detalhe edição a edição).
+
+## 1. O que temos
+
+- **Edições:** 101, de 1948 a 2025 Finalización; 6 sem jogos.
+- **Jogos:** 22788 (22782 com placar); **gols:** 60619; **gols com autor:** 22020 (36%); **cartões:** 40449.
+- **Clubes:** 42; **artilheiros:** 88 edições com artilheiro (105 linhas, com empates).
+- **Classificação final:** 101 edições; **tabelas publicadas guardadas para conferência:** 2283 linhas.
+- **No banco:** sim; **último commit do pacote:** 3f5c1d0.
+- **Observação da competição:** 1ª divisão colombiana de 1948 a 2025: um campeão por ano até 2001 (1989 sem campeão; 1995/96 e 1996/97 no calendário europeu) e uma edição por torneio (Apertura e Finalización) de 2002 em diante. Jogos de 1948-1986, 1988-1990 e 1995/96 em diante; 1987 e 1991-1995 só com a tabela final e o campeão.
+
+## 2. Edições, fontes e regras
+
+**Como as edições foram definidas** (docstring de `edicoes.py`):
+
+```
+Edições da 1ª divisão colombiana (col-1): uma por torneio que deu título de campeão colombiano.
+
+Lista de títulos: RSSSF (colchamp.html), conferida com a Wikipédia. De 1948 a 2001 um campeão por ano (Apertura e
+Finalización, de 1968 em diante, são fases da edição anual, com os quadrangulares, hexagonais e octogonais finais); 1989
+não teve campeão (a fase final não foi jogada); 1995 foi a temporada de transição e 1995/96 e 1996/97 seguiram o calendário
+europeu. De 2002 em diante, Apertura e Finalización dão título cada um: uma edição por torneio (em 2020 só houve o Apertura;
+o Finalización foi cancelado). Ficam de fora a Copa Colombia, a Superliga, as liguillas e os jogos de promoção.
+
+Fontes dos jogos por edição:
+- trechos: [(página da RSSSF, linha inicial, linha final)], com as linhas do texto puro (rsssf_sul.texto); linha final None: até
+  o primeiro título de outra competição (FIM_PADRAO). 1995/96 em diante.
+- wiki: chave da página da Wikipédia em espanhol (wikipedia_jogos.py): 1948-1986, 1988-1990, 2011, 2012 e 2025.
+- tabelas: trechos da RSSSF lidos só pelas tabelas (conferência e classificação dos anos da Wikipédia e dos anos sem jogos).
+- sem jogos: 1987 e 1991-1995 (nenhuma fonte pública tem os jogos): tabela final e campeão.
+```
+
+**Edições:** 101, uma por título de campeão colombiano da 1ª divisão, de 1948 a 2025, como na lista de campeões da RSSSF (`colchamp.html`) e na Wikipédia em inglês. Até 2001 um campeão por ano: de 1968 em diante, Apertura e Finalización (e os quadrangulares, hexagonais e octogonais finais) são fases da edição anual. 1989 entra sem campeão (a fase final foi suspensa depois do assassinato do árbitro Álvaro Ortega); 1995 foi o torneio de transição e 1995/96 e 1996/97 seguiram o calendário europeu. De 2002 em diante, Apertura e Finalización dão título cada um: uma edição por torneio (em 2020 só houve o Apertura).
+
+**Fontes:** RSSSF (uma página por temporada, `data/coleta/col-1/rsssf/`: base de jogos de 1995/96 em diante, menos 2011, 2012 e 2025, com fases, grupos, rodadas, datas e autores dos gols; as tabelas das páginas de todos os anos são a conferência); Wikipédia em espanhol (páginas "Campeonato colombiano <ano>" e "Torneo Apertura <ano> (Colombia)": jogos de 1948-1986, 1988-1990, 2011, 2012 e 2025, por rodada ou em tabela de confrontos, sem autores dos gols, e as finais com data e estádio); ESPN (liga `col.1`, 2005 em diante: hora, estádio, público, gols com minuto e cartões); Wikipédia em inglês (lista de campeões, segunda fonte do campeão). O ogol não tem os jogos da liga colombiana.
+
+**Clubes:** Deportes Caldas (campeão em 1950) entra como Once Caldas, como a RSSSF e o próprio clube contam; Atlético Municipal é o Atlético Nacional; Cristal Caldas, o Once Caldas; Itagüí, o Águilas Doradas; La Equidad, o Internacional de Bogotá (2025); Alianza Petrolera, o Alianza FC (2024). Homônimos de outros países levam a cidade: Libertad de Barranquilla, Universidad Nacional de Bogotá, Boca Juniors de Cali, Huracán de Medellín.
+
+**Regras:** o placar é o da RSSSF (ou da Wikipédia, nos anos dela). Jogo decidido no tribunal leva o placar dado (`awd`). Autores dos gols só entram quando a soma bate com o placar (senão ficam em `gols_texto`). Com a ESPN, os gols levam o minuto. Pontos por vitória: 2 até 1994 e 3 a partir de 1995 (as tabelas de vários anos têm pontos de bônus, que vão em `ajuste_pontos`).
+
+## 3. Conferência
+
+Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
+
+- **Edições em que todas as tabelas fecham com os jogos:** 48.
+- **Edições com alguma tabela divergente** (38; motivo no relatório, na edição): 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1957, 1962, 1964, 1965, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1988, 1990, 1995/96, 1999, 2003 Apertura, 2005 Finalización, 2006 Finalización, 2012 Finalización.
+- **Edições sem tabela para conferir** (15): 1955, 1958, 1959, 1960, 1961, 1963, 1966, 1987, 1989, 1991, 1992, 1993, 1994, 1995, 1998.
+- **Edições com menos jogos que o esperado:** 1952 (209 de 210), 1953 (131 de 132), 1964 (467 de 312), 1969 (373 de 555), 1970 (376 de 558), 1971 (379 de 561), 1972 (376 de 558), 1974 (361 de 543), 1976 (351 de 533), 1977 (359 de 541), 1978 (365 de 547), 1979 (367 de 514), 1981 (329 de 511), 1982 (387 de 569), 1983 (336 de 518), 1984 (378 de 560), 1985 (336 de 518), 1988 (222 de 432), 1990 (335 de 425), 1996/97 (380 de 636), 2005 Finalización (187 de 188), 2006 Finalización (188 de 179), 2007 Finalización (189 de 188), 2009 Apertura (189 de 188), 2009 Finalización (189 de 188), 2010 Finalización (189 de 188).
+
+## 4. Cobertura de cada campo, por década
+
+Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos gols). Década pelo ano de início da edição.
+
+| Década | Edições | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
+|---|---|---|---|---|---|---|---|---|---|---|
+| 1940s | 2 | 274 | 100% | 0% | 97% | 0% | 0% | 0% | 0% | 0.0 |
+| 1950s | 10 | 1649 | 37% | 0% | 47% | 0% | 0% | 0% | 0% | 0.0 |
+| 1960s | 10 | 2918 | 54% | 0% | 55% | 0% | 0% | 0% | 0% | 0.0 |
+| 1970s | 10 | 3636 | 3% | 0% | 41% | 0% | 0% | 0% | 0% | 0.0 |
+| 1980s | 10 | 2374 | 6% | 0% | 67% | 0% | 0% | 0% | 0% | 0.0 |
+| 1990s | 10 | 1729 | 90% | 0% | 97% | 0% | 0% | 0% | 2% | 0.0 |
+| 2000s | 18 | 3825 | 100% | 44% | 100% | 44% | 44% | 0% | 89% | 1.2 |
+| 2010s | 20 | 3970 | 100% | 97% | 98% | 97% | 97% | 49% | 86% | 5.5 |
+| 2020s | 11 | 2413 | 100% | 100% | 98% | 100% | 100% | 70% | 99% | 5.7 |
+
+Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
+
+## 5. Formato do campeonato ao longo do tempo
+
+**Número de clubes:**
+
+- 1948: 10 clubes
+- 1949: 14 clubes
+- 1950: 16 clubes
+- 1951: 18 clubes
+- 1952: 15 clubes
+- 1953: 12 clubes
+- 1954 a 1955: 10 clubes
+- 1956: 13 clubes
+- 1957: 12 clubes
+- 1958: 10 clubes
+- 1959 a 1962: 12 clubes
+- 1963 a 1965: 13 clubes
+- 1966 a 1985: 14 clubes
+- 1986: 8 clubes
+- 1987: 14 clubes
+- 1988: 15 clubes
+- 1989: 8 clubes
+- 1990 a 1991: 15 clubes
+- 1992 a 1994: 16 clubes
+- 1995: 19 clubes
+- 1995/96 a 2001: 16 clubes
+- 2002 Apertura a 2014 Finalización: 18 clubes
+- 2015 Apertura a 2020 Apertura: 20 clubes
+- 2021 Apertura: 19 clubes
+- 2021 Finalización a 2025 Finalización: 20 clubes
+
+**Pontos por vitória:**
+
+- 1948 a 1994: 2
+- 1995 a 2025 Finalización: 3
+
+**Nome oficial:**
+
+- 1948 a 1995: Campeonato Profesional Colombiano <ano>
+- 1995/96 a 1996/97: Campeonato Profesional Colombiano <ano> (Copa Mustang)
+- 1998 a 2001: Campeonato Profesional Colombiano <ano>
+- 2002 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2002 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2003 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2003 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2004 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2004 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2005 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2005 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2006 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2006 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2007 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2007 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2008 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2008 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2009 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2009 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2010 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2010 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2011 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2011 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2012 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2012 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2013 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2013 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2014 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2014 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2015 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2015 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2016 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2016 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2017 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2017 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2018 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2018 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2019 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2019 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2020 Apertura a 2021 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2021 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2022 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2022 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2023 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2023 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2024 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2024 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+- 2025 Apertura: Campeonato Profesional Colombiano <ano> – Apertura
+- 2025 Finalización: Campeonato Profesional Colombiano <ano> – Finalización
+
+**Formato** (fases na ordem, do edicoes.csv):
+
+- 1948: pontos corridos
+- 1949: pontos corridos + mata-mata
+- 1950 a 1956: pontos corridos
+- 1957: pontos corridos + mata-mata + desempate + mata-mata
+- 1958 a 1967: pontos corridos
+- 1968: pontos corridos + mata-mata + pontos corridos + mata-mata
+- 1969: pontos corridos + mata-mata + desempate
+- 1970: pontos corridos + mata-mata
+- 1971: pontos corridos + mata-mata + desempate
+- 1972 a 1973: pontos corridos + mata-mata
+- 1974: pontos corridos + mata-mata + desempate
+- 1975: pontos corridos + mata-mata
+- 1976: pontos corridos + mata-mata + desempate
+- 1977 a 1978: pontos corridos + mata-mata
+- 1979: pontos corridos + mata-mata + desempate + mata-mata
+- 1980: pontos corridos + mata-mata + desempate
+- 1981: pontos corridos + mata-mata
+- 1982: pontos corridos + mata-mata + desempate
+- 1983 a 1985: pontos corridos + mata-mata
+- 1986: mata-mata
+- 1987: sem jogos (só a tabela final)
+- 1988: pontos corridos + mata-mata
+- 1989: mata-mata
+- 1990: pontos corridos + mata-mata
+- 1991 a 1995: sem jogos (só a tabela final)
+- 1995/96: pontos corridos + mata-mata
+- 1996/97 a 1998: pontos corridos + 2 grupos + mata-mata
+- 1999 a 2001: pontos corridos + mata-mata
+- 2002 Apertura a 2009 Finalización: 2 grupos + mata-mata
+- 2010 Apertura: pontos corridos + mata-mata
+- 2010 Finalización: 2 grupos + mata-mata
+- 2011 Apertura a 2011 Finalización: pontos corridos + mata-mata
+- 2012 Apertura a 2013 Finalización: 2 grupos + mata-mata
+- 2014 Apertura: pontos corridos + mata-mata
+- 2014 Finalización: 2 grupos + mata-mata
+- 2015 Apertura a 2018 Finalización: pontos corridos + mata-mata
+- 2019 Apertura a 2019 Finalización: 2 grupos + mata-mata
+- 2020 Apertura a 2021 Apertura: pontos corridos + mata-mata
+- 2021 Finalización a 2025 Finalización: 2 grupos + mata-mata
+
+**Fases e grupos de cada edição com mais de uma fase:**
+
+- 1949: Primeira fase (liga); Final (mata_mata, ida_volta)
+- 1957: Primeira fase (liga); Octogonal final (mata_mata, jogo_unico); Hexagonal final (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 1968: Primeira fase (liga); Finalización (mata_mata, ida_volta); Tercer lugar (liga); Final (mata_mata, ida_volta)
+- 1969: Apertura (liga); Finalización (mata_mata, ida_volta); Triangulares (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
+- 1970: Apertura (liga); Finalización (mata_mata, ida_volta); Quadrangular final (mata_mata, ida_volta)
+- 1971: Apertura (liga); Finalización (mata_mata, ida_volta); Quadrangular final (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
+- 1972: Apertura (liga); Finalización (mata_mata, ida_volta); Triangulares (mata_mata, ida_volta)
+- 1973: Apertura (liga); Finalización (mata_mata, ida_volta); Triangulares (mata_mata, ida_volta)
+- 1974: Apertura (liga); Finalización (mata_mata, ida_volta); Hexagonal final (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
+- 1975: Apertura (liga); Finalización (mata_mata, ida_volta); Hexagonal final (mata_mata, ida_volta)
+- 1976: Apertura (liga); Finalización (mata_mata, ida_volta); Hexagonal final (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
+- 1977: Apertura (liga); Finalización (mata_mata, ida_volta); Hexagonal final (mata_mata, ida_volta)
+- 1978: Apertura (liga); Finalización (mata_mata, ida_volta); Quadrangulares semifinais (mata_mata, ida_volta); Quadrangular final (mata_mata, ida_volta)
+- 1979: Apertura (liga); Finalización (mata_mata, ida_volta); Quadrangulares semifinais (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta); Quadrangular final (mata_mata, ida_volta)
+- 1980: Apertura (liga); Finalización (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
+- 1981: Apertura (liga); Finalización (mata_mata, ida_volta)
+- 1982: Apertura (liga); Finalización (mata_mata, ida_volta); Octogonal final (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
+- 1983: Copa de la Paz (liga); Torneo Nacional (liga); Octogonal final (mata_mata, ida_volta)
+- 1984: Copa de la Paz (liga); Torneo Nacional (liga); Octogonal final (mata_mata, ida_volta)
+- 1985: Copa de la Paz (liga); Torneo Nacional (liga); Octogonal final (mata_mata, ida_volta)
+- 1988: Apertura (liga); Finalización (mata_mata, ida_volta); Octogonal final (mata_mata, ida_volta)
+- 1990: Apertura (liga); Finalización (mata_mata, ida_volta); Quadrangulares semifinais (mata_mata, ida_volta); Quadrangular final (mata_mata, ida_volta)
+- 1995/96: Copa Mustang I (liga); Quadrangulares semifinais (mata_mata, ida_volta)
+- 1996/97: Copa Mustang I (liga); Copa Mustang II (grupos, 2 grupos); Quadrangular final (mata_mata, ida_volta)
+- 1998: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Octogonal final (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 1999: Apertura (liga); Finalización (mata_mata, ida_volta); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2000: Torneo Mustang I (liga); Torneo Mustang II (liga); Finalísima (mata_mata, ida_volta)
+- 2001: Torneo Mustang I (liga); Torneo Mustang II (liga); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2002 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2002 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2003 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2003 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2004 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2004 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2005 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2005 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2006 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2006 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2007 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2007 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2008 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2008 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2009 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2009 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2010 Apertura: Primeira fase (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2010 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2011 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2011 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2012 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2012 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2013 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2013 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2014 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2014 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2015 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2015 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2016 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2016 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2017 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2017 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2018 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2018 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2019 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2019 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2020 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2021 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2021 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2022 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2022 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2023 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2023 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2024 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2024 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2025 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2025 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+
+**Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
+
+- calculada: 51 edições
+- RSSSF: 50 edições
+
+**Observações das edições:**
+
+- 1989: título não concedido: a fase final foi suspensa depois do assassinato do árbitro Álvaro Ortega (RSSSF)
+- 1995: torneio de transição para o calendário europeu (Torneo Nivelación)
+- 2011 Apertura: jogos da Wikipédia em espanhol: a página da RSSSF só traz os mata-matas
+- 2011 Finalización: jogos da Wikipédia em espanhol: a página da RSSSF só traz os mata-matas
+- 2012 Apertura: jogos da Wikipédia em espanhol: a página da RSSSF só traz os mata-matas
+- 2012 Finalización: jogos da Wikipédia em espanhol: a página da RSSSF só traz os mata-matas
+- 2025 Apertura: jogos da Wikipédia em espanhol: a página da RSSSF só traz as tabelas
+- 2025 Finalización: jogos da Wikipédia em espanhol: a página da RSSSF só traz as tabelas
+
+## 6. Campeões, rebaixados e ajustes de pontos
+
+**Títulos:**
+
+- Atlético Nacional: 18
+- Millonarios: 16
+- América de Cali: 15
+- Junior de Barranquilla: 11
+- Independiente Santa Fe: 10
+- Deportivo Cali: 10
+- Independiente Medellín: 6
+- Once Caldas: 4
+- Deportes Tolima: 3
+- Deportes Quindío: 1
+- Unión Magdalena: 1
+- Deportivo Pasto: 1
+- Cúcuta Deportivo: 1
+- Boyacá Chicó: 1
+- Deportivo Pereira: 1
+- Atlético Bucaramanga: 1
+- Sem campeão: 1989
+
+**Campeão e vice de cada edição:**
+
+| Edição | Campeão | Vice |
+|---|---|---|
+| 1948 | Independiente Santa Fe | Junior de Barranquilla |
+| 1949 | Millonarios | Deportivo Cali |
+| 1950 | Once Caldas | Millonarios |
+| 1951 | Millonarios | Boca Juniors de Cali |
+| 1952 | Millonarios | Boca Juniors de Cali |
+| 1953 | Millonarios | Deportes Quindío |
+| 1954 | Atlético Nacional | Deportes Quindío |
+| 1955 | Independiente Medellín | Deportes Quindío |
+| 1956 | Deportes Quindío | Millonarios |
+| 1957 | Independiente Medellín | Deportivo Pereira |
+| 1958 | Independiente Santa Fe | Deportivo Pereira |
+| 1959 | Millonarios | Independiente Santa Fe |
+| 1960 | Independiente Santa Fe | América de Cali |
+| 1961 | Millonarios | Independiente Santa Fe |
+| 1962 | Millonarios | Deportivo Cali |
+| 1963 | Millonarios | Independiente Santa Fe |
+| 1964 | Millonarios | Cúcuta Deportivo |
+| 1965 | Deportivo Cali | Atlético Nacional |
+| 1966 | Independiente Santa Fe | Independiente Medellín |
+| 1967 | Deportivo Cali | Millonarios |
+| 1968 | Unión Magdalena | Deportivo Cali |
+| 1969 | Deportivo Cali | Millonarios |
+| 1970 | Deportivo Cali | Independiente Santa Fe |
+| 1971 | Independiente Santa Fe | Atlético Nacional |
+| 1972 | Millonarios | Deportivo Cali |
+| 1973 | Atlético Nacional | Millonarios |
+| 1974 | Deportivo Cali | Atlético Nacional |
+| 1975 | Independiente Santa Fe | Millonarios |
+| 1976 | Atlético Nacional | Millonarios |
+| 1977 | Junior de Barranquilla | Deportivo Cali |
+| 1978 | Millonarios | Atlético Nacional |
+| 1979 | América de Cali | Deportivo Cali |
+| 1980 | Junior de Barranquilla | Deportivo Cali |
+| 1981 | Atlético Nacional | América de Cali |
+| 1982 | América de Cali | Deportivo Cali |
+| 1983 | América de Cali | Junior de Barranquilla |
+| 1984 | América de Cali | Junior de Barranquilla |
+| 1985 | América de Cali | Deportivo Cali |
+| 1986 | América de Cali | Deportivo Cali |
+| 1987 | Millonarios | América de Cali |
+| 1988 | Millonarios | Atlético Nacional |
+| 1989 | — | Atlético Nacional |
+| 1990 | América de Cali | Atlético Nacional |
+| 1991 | Atlético Nacional | América de Cali |
+| 1992 | América de Cali | Atlético Bucaramanga |
+| 1993 | Junior de Barranquilla | América de Cali |
+| 1994 | Atlético Nacional | América de Cali |
+| 1995 | Junior de Barranquilla | América de Cali |
+| 1995/96 | Deportivo Cali | Atlético Nacional |
+| 1996/97 | América de Cali | Atlético Nacional |
+| 1998 | Deportivo Cali | Once Caldas |
+| 1999 | Atlético Nacional | América de Cali |
+| 2000 | América de Cali | Deportivo Cali |
+| 2001 | América de Cali | Cortuluá |
+| 2002 Apertura | América de Cali | Deportivo Cali |
+| 2002 Finalización | Independiente Medellín | Deportivo Cali |
+| 2003 Apertura | Once Caldas | Junior de Barranquilla |
+| 2003 Finalización | Deportes Tolima | Deportivo Cali |
+| 2004 Apertura | Independiente Medellín | América de Cali |
+| 2004 Finalización | Junior de Barranquilla | América de Cali |
+| 2005 Apertura | Atlético Nacional | Independiente Santa Fe |
+| 2005 Finalización | Deportivo Cali | Real Cartagena |
+| 2006 Apertura | Deportivo Pasto | Once Caldas |
+| 2006 Finalización | Cúcuta Deportivo | Deportes Tolima |
+| 2007 Apertura | Atlético Nacional | Deportivo Cali |
+| 2007 Finalización | Atlético Nacional | Internacional de Bogotá |
+| 2008 Apertura | Boyacá Chicó | Internacional de Bogotá |
+| 2008 Finalización | América de Cali | Deportes Tolima |
+| 2009 Apertura | Once Caldas | Deportes Tolima |
+| 2009 Finalización | Independiente Medellín | Independiente Santa Fe |
+| 2010 Apertura | Junior de Barranquilla | Deportes Tolima |
+| 2010 Finalización | Once Caldas | Deportes Tolima |
+| 2011 Apertura | Atlético Nacional | Once Caldas |
+| 2011 Finalización | Junior de Barranquilla | Águilas Doradas |
+| 2012 Apertura | Independiente Santa Fe | Deportes Tolima |
+| 2012 Finalización | Millonarios | Independiente Medellín |
+| 2013 Apertura | Atlético Nacional | Independiente Santa Fe |
+| 2013 Finalización | Atlético Nacional | Millonarios |
+| 2014 Apertura | Atlético Nacional | Millonarios |
+| 2014 Finalización | Independiente Santa Fe | Independiente Medellín |
+| 2015 Apertura | Deportivo Cali | Atlético Huila |
+| 2015 Finalización | Atlético Nacional | Junior de Barranquilla |
+| 2016 Apertura | Independiente Medellín | Atlético Nacional |
+| 2016 Finalización | Independiente Santa Fe | Atlético Nacional |
+| 2017 Apertura | Atlético Nacional | Independiente Medellín |
+| 2017 Finalización | Millonarios | Junior de Barranquilla |
+| 2018 Apertura | Deportes Tolima | Atlético Nacional |
+| 2018 Finalización | Junior de Barranquilla | Deportes Tolima |
+| 2019 Apertura | Junior de Barranquilla | Millonarios |
+| 2019 Finalización | América de Cali | Atlético Nacional |
+| 2020 Apertura | América de Cali | Independiente Santa Fe |
+| 2021 Apertura | Deportes Tolima | Atlético Nacional |
+| 2021 Finalización | Deportivo Cali | Atlético Nacional |
+| 2022 Apertura | Atlético Nacional | Millonarios |
+| 2022 Finalización | Deportivo Pereira | Independiente Santa Fe |
+| 2023 Apertura | Millonarios | Águilas Doradas |
+| 2023 Finalización | Junior de Barranquilla | Águilas Doradas |
+| 2024 Apertura | Atlético Bucaramanga | Deportes Tolima |
+| 2024 Finalización | Atlético Nacional | Independiente Santa Fe |
+| 2025 Apertura | Independiente Santa Fe | América de Cali |
+| 2025 Finalización | Junior de Barranquilla | Independiente Medellín |
+
+**Rebaixados marcados na classificação:** 1 em 1 edições (só onde a tabela publicada marca a queda); quem mais caiu: Boyacá Chicó (1).
+
+**Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
+
+- 1996/97: América de Cali +2
+- 1996/97: Atlético Nacional +1
+- 2011 Finalización: Deportes Quindío -3
+
+## 7. Correções e decisões (com o motivo)
+
+Registradas em `coleta/col-1/explicacoes.py`; cada uma também aparece no relatório, na edição.
+
+### Identidade dos clubes
+
+Regras em `coleta/col-1/clubes_col.py` (docstring abaixo; os nomes de cada fonte estão na coluna `nomes_fonte` do clubes.csv).
+
+```
+Identidade dos clubes colombianos: cada grafia de cada fonte -> nome de exibição único no mundo.
+
+Regras do guia internacional (docs/agentes-internacionais-COMECE-AQUI.md, seção 4):
+- nome pelo qual o clube é conhecido no Brasil ("Millonarios", "Atlético Nacional", "América de Cali", "Junior de
+  Barranquilla", "Independiente Santa Fe", "Independiente Medellín");
+- homônimo de clube do banco ou de outro pacote leva a cidade ("Libertad de Barranquilla", "Universidad Nacional de Bogotá");
+- o mesmo clube com outro nome é um só, com o nome atual; os nomes antigos ficam no nomes_fonte: Atlético Municipal ->
+  Atlético Nacional; Atlético Quindío -> Deportes Quindío; Cristal Caldas -> Once Caldas; Itagüí (Ditaires) -> Águilas
+  Doradas (mudou para Pereira em 2015 e para Rionegro em 2016); La Equidad -> Internacional de Bogotá (2025); Alianza
+  Petrolera -> Alianza FC (Valledupar, 2024); Chicó -> Boyacá Chicó; Corporación Tuluá -> Cortuluá;
+- Deportes Caldas (campeão em 1950) entra como Once Caldas, como a RSSSF e o próprio Once Caldas contam (o Once Caldas
+  nasceu em 1961 da fusão do Deportes Caldas com o Once Deportivo); o Once Deportivo fica separado.
+
+As tabelas da RSSSF põem os pontos de bônus no nome ("América Cali (1 BP)") e a de 1995 abre a linha com "- ": saem antes da
+regra. REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último ano), a primeira que casa vale.
+```
+
+## 8. O que não deu para coletar
+
+- **Edições sem jogos (6):** 1987 e 1991-1995. Nenhuma fonte pública que achamos tem os jogos desses anos (a RSSSF e a Wikipédia trazem só as tabelas; o ogol tem as edições vazias). Elas entram com a tabela final da RSSSF como classificação e o campeão. Em 1986 a Wikipédia traz só parte do octogonal final.
+- **Fora do pacote:** a Copa Colombia, a Superliga, as liguillas, o Torneo Adecuación 1997 e os jogos de promoção.
+- **Edições sem jogos** (6): 1987, 1991, 1992, 1993, 1994, 1995.
+- **Décadas com menos da metade dos gols com autor:** 1940s, 1950s, 1960s, 1970s, 1980s, 1990s.
+- **Décadas sem cartões** (a ESPN só cobre do meio dos anos 2000 em diante): 1940s, 1950s, 1960s, 1970s, 1980s, 1990s.
+- Árbitro e estatísticas de jogo: nenhuma fonte em lote.
+
+## 9. Pendências e próximos passos
+
+- 1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).
+
+## 10. Arquivos e comandos
+
+Código em `coleta/col-1/`:
+
+| Arquivo | O que faz |
+|---|---|
+| `autores.py` | Autores dos gols como a RSSSF escreve -> lista de gols por lado. |
+| `baixar_espn.py` | Baixa o placar diário da ESPN (liga col.1) de 2001 a 2025 para data/coleta/col-1/espn/col1_<ano>.json. |
+| `baixar_ogol.py` | Baixa o calendário de cada edição da 1ª divisão colombiana no ogol para data/coleta/col-1/ogol/<id>.json. |
+| `baixar_rsssf.py` | Baixa as páginas da RSSSF da 1ª divisão colombiana para data/coleta/col-1/rsssf/. |
+| `baixar_wikipedia.py` | Baixa da Wikipédia em espanhol o texto-fonte das páginas das temporadas colombianas de 1948 a 1995 |
+| `campeoes_wiki.py` | Lista de campeões da Wikipédia em inglês (página "Categoría Primera A", seção "Champions by seasons"), segunda fonte |
+| `clubes_col.py` | Identidade dos clubes colombianos: cada grafia de cada fonte -> nome de exibição único no mundo. |
+| `conferir.py` | Conferência de cada edição: nomes reconhecidos e soma dos jogos x tabelas publicadas pela RSSSF. |
+| `edicoes.py` | Edições da 1ª divisão colombiana (col-1): uma por torneio que deu título de campeão colombiano. |
+| `explicacoes.py` | Correções e explicações da coleta da 1ª divisão colombiana, edição a edição (entram no relatório). |
+| `importar.py` | Junta as fontes da 1ª divisão colombiana e grava o pacote em data/coleta/col-1/pacote/ e o relatório em docs/coleta/col-1.md. |
+| `ler_rsssf.py` | Lê os jogos de cada edição: trechos das páginas da RSSSF (data/coleta/col-1/rsssf/) com o leitor comum (rsssf_sul) e, |
+| `outras_fontes.py` | Casa os jogos da RSSSF com o ogol e com a ESPN. |
+| `ver.py` | Ajuda da conferência: mostra os jogos entre dois clubes numa edição, com a linha da página e o texto em volta. |
+| `wikipedia_jogos.py` | Jogos da Wikipédia em espanhol (data/coleta/col-1/wikipedia/es_<chave>.txt), para os anos que a RSSSF não tem. |
+
+- Fontes baixadas: `data/coleta/col-1/` (uma pasta por fonte: `rsssf/`, `espn/`, `ogol/`, `wikipedia/`); cache da ESPN em `data/cache/espn-sulamerica/`, do ogol em `data/cache/ogol-col-1/`.
+- Pacote: `data/coleta/col-1/pacote/`; relatório: `docs/coleta/col-1.md`.
+- Refazer do zero (da raiz do clube_analitico, logs no scratchpad):
+
+```
+python coleta/col-1/baixar_espn.py
+python coleta/col-1/baixar_ogol.py
+python coleta/col-1/baixar_rsssf.py
+python coleta/col-1/baixar_wikipedia.py
+python coleta/col-1/importar.py
+python coleta/col-1/conferir.py [-v temporada]   # divergências
+python coleta/comum-sulamerica/testar_carga.py col-1 <scratchpad>
+python coleta/comum-sulamerica/documentar.py
+```
+

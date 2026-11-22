@@ -328,6 +328,8 @@ def gravar(eds: list[dict]) -> None:
             L["classificacao_final"].append([e.temporada, r["pos"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"], r["gc"],
                                              r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"]), r["fonte"],
                                              "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
+            if r["clube"] in CLUBES and r["fonte"].startswith("lista de campeões"):   # clube só da lista de campeões (1912-1921)
+                so_tabela[r["clube"]][f"wikipedia:{r['clube']}"].append(e.ano_inicio)
         # tabelas publicadas (as que entraram na conferência)
         vistas = set()
         for tb in p["tabelas"]:

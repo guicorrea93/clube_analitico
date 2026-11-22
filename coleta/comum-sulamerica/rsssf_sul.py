@@ -86,7 +86,8 @@ _JOGO = re.compile(rf"^(?P<a>\S.*?)(?:\s+|(?<=\)))(?:(?P<wl1>(?-i:wp|lp))\s+(?=\
 _JOGO_FIM = re.compile(r"^(?P<a>[^\d\s\[(].*?)\s{2,}(?:v\s+)?(?P<b>[^\d\s\[(].*?)\s+"
                        r"(?P<p>\d{1,2}\s*[-:]\s*\d{1,2}(?:\s*\(?(?:aet|a\.e\.t\.)\)?)?|(?:w/o|awd\.?|n/p|abd\.?|susp\.?|canc\.?))"
                        r"(?P<resto>\s+[\[(].*)?\s*$", re.I)
-_LINHA_TAB = re.compile(r"^\s*(?:(?P<pos>\d{1,3})\s*[\.\)]\s*|(?P<sp>\s*))(?P<nome>[^\d\s\[\(\-=][^\[]*?)\s+"
+# nome que começa por número só com data ("9 de Octubre", "3 de Febrero", "12 de Octubre")
+_LINHA_TAB = re.compile(r"^\s*(?:(?P<pos>\d{1,3})\s*[\.\)]\s*|(?P<sp>\s*))(?P<nome>(?:\d{1,2} de [A-Z]|[^\d\s\[\(\-=])[^\[]*?)\s+"
                         r"(?P<nums>\d{1,3}(?:\s*[-:]?\s*\d{1,3}){5,16})(?P<resto>\s*(?:\D.*)?)$")
 
 
@@ -148,6 +149,8 @@ def _linha_de_data(l: str) -> bool:
         return False
     if not achar_data(s):
         return False
+    if re.search(r"\d\s*-\s*\d{1,2}\s+\S", s) and _jogo(l):
+        return False   # jogo entre clubes com nome de data: "3 de Febrero  2-0  12 de Octubre"
     resto = re.sub(r"\b(mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?|\b\d{1,4}\b|[,\./\-]|\b(de|of)\b", " ", s, flags=re.I)
     resto = re.sub(r"\b(" + "|".join(MESES) + r")[a-z]*\.?", " ", resto, flags=re.I)
     return not resto.strip()
