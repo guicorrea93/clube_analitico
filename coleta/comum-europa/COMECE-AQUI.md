@@ -6,6 +6,21 @@ identidade dos clubes. Este arquivo diz o que já foi feito, como foi feito e de
 
 Última atualização: 22/11/2026.
 
+**Documentação completa:** `coleta/comum-europa/documentacao/`. Tem o índice (`README.md`) e uma ficha por liga, com:
+- tudo o que o pacote tem;
+- fontes e regras;
+- conferência com as tabelas publicadas;
+- cobertura de cada campo década a década;
+- formato do campeonato ao longo do tempo;
+- campeões, rebaixados e punições;
+- todas as correções e decisões, com o motivo;
+- o que não deu para coletar;
+- pendências.
+
+A documentação é gerada por `python coleta/comum-europa/documentar.py` a partir dos pacotes e dos importadores. Rode
+depois de toda importação e mantenha à mão só a lista `PENDENCIAS`, no começo do script. Os relatórios
+`docs/coleta/<slug>.md` continuam com o detalhe temporada a temporada.
+
 ## 1. Regras da casa (combinadas com o Guilherme)
 
 - **Uma liga por vez, e só com o ok dele.** Ao fim de cada liga: resumo curto, pedido de ok para o commit, e recado ao
@@ -127,7 +142,9 @@ Passos de uma liga:
    - toda divergência vira correção com motivo ou explicação em `EXPLICACOES`;
    - o critério de desempate é testado por temporada;
    - rebaixado = quem não está na temporada seguinte, com as exceções explicadas.
-6. Testar a carga, escrever o recado em `pedidos-europa.md`, atualizar este arquivo e pedir o ok do commit.
+6. Testar a carga e escrever o recado em `pedidos-europa.md`.
+7. Pôr a liga em `LIGAS` e `PENDENCIAS` no `documentar.py`, rodá-lo e atualizar este arquivo.
+8. Pedir o ok do commit. A documentação vai no mesmo commit da liga.
 
 ## 5. Teste de carga
 

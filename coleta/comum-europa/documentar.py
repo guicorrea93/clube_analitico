@@ -1,0 +1,336 @@
+"""Gera a documentação completa da coleta Europa em coleta/comum-europa/documentacao/.
+
+Uma ficha por liga (<slug>.md) e o índice (README.md). Tudo sai do que existe de fato:
+- do pacote (data/coleta/<slug>/pacote/): o que cada campo cobre, década a década; formato do campeonato ao longo do
+  tempo; campeões; punições; rebaixados; artilheiros; conferência com as tabelas publicadas;
+- do importador (coleta/<slug>/importar.py): todas as correções e decisões tomadas, com o motivo (CORRECOES, TRIBUNAL,
+  ACRESCIMOS, NAO_REBAIXADOS, EXPLICACOES...);
+- do relatório (docs/coleta/<slug>.md): o que não deu para coletar;
+- de PENDENCIAS, abaixo: o que falta, mantido à mão.
+
+Rode depois de cada importação: python coleta/comum-europa/documentar.py
+"""
+from __future__ import annotations
+
+import csv
+import importlib
+import json
+import re
+import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+
+AQUI = Path(__file__).resolve().parent
+RAIZ = AQUI.parent.parent
+SAIDA = AQUI / "documentacao"
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1"]
+
+# o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
+PENDENCIAS: dict[str, list[str]] = {
+    "eng-1": [
+        "EN-016 (revisão, baixa): 12 jogos de 2002/03 a 2016/17 sem nenhum gol com autor (a soma dos gols da ESPN não bate "
+        "com o placar). Precisa de outra fonte jogo a jogo (ficha do ogol ou 11v11).",
+        "Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).",
+    ],
+    "esp-1": [
+        "Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).",
+        "Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).",
+    ],
+    "ita-1": [
+        "Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).",
+        "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
+    ],
+    "ger-1": [
+        "Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).",
+        "Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): ficou de fora; seria outra "
+        "competição ou uma decisão do Guilherme.",
+    ],
+    "fra-1": [
+        "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
+        "Datas dos 356 jogos dos anos 1930 que nenhuma fonte tem.",
+    ],
+    "por-1": [
+        "Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).",
+        "Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a "
+        "situação de hoje (absolvição em 2017), tirar o desconto em importar.py.",
+    ],
+}
+
+# rótulo de cada dicionário de decisões dos importadores
+DICIONARIOS = {
+    "CORRECOES": "Placares corrigidos",
+    "TRIBUNAL": "Resultados decididos fora de campo",
+    "CAMPO": "Jogos sem placar na base em que valeu o placar de campo",
+    "ACRESCIMOS": "Jogos que faltavam na base e foram acrescentados",
+    "INVERTIDOS": "Mando de campo corrigido",
+    "DATAS": "Datas corrigidas",
+    "GOLS_ARTILHEIRO": "Gols de artilheiro corrigidos",
+    "NAO_REBAIXADOS": "Fora da temporada seguinte sem ter sido rebaixado",
+    "NAO_REELEITOS": "Não reeleitos (sem rebaixamento na época)",
+    "REBAIXADOS_EXTRA": "Rebaixados que a regra geral não pega",
+    "FORCAR_OGOL": "Temporadas montadas pelo calendário do ogol",
+    "INTERROMPIDAS": "Temporadas interrompidas",
+    "SEM_REBAIXAMENTO": "Temporadas sem rebaixamento",
+    "LIGUILLA": "Liguilla / jogos extras fora da tabela",
+    "WIKI_TROCADA": "Wikipédia com linhas trocadas",
+    "OGOL_WIKI": "Ogol x Wikipédia",
+    "WIKI_GOLS": "Gols da Wikipédia",
+    "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
+    "EXPLICACOES": "Divergências entre fontes já explicadas",
+}
+
+CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("publico", "público"),
+                    ("arbitro", "árbitro")]
+
+
+def ler(slug: str, nome: str) -> list[dict]:
+    arq = RAIZ / "data" / "coleta" / slug / "pacote" / f"{nome}.csv"
+    if not arq.exists():
+        return []
+    with arq.open(encoding="utf-8") as f:
+        return list(csv.DictReader(f))
+
+
+def importador(slug: str):
+    """Carrega coleta/<slug>/importar.py sem rodar (os importadores têm o mesmo nome de módulo: limpa entre um e outro)."""
+    for m in [m for m in sys.modules if m in ("importar", "edicoes") or m.startswith("rsssf_")]:
+        del sys.modules[m]
+    sys.path[:] = [p for p in sys.path if not p.replace("\\", "/").rstrip("/").split("/")[-1] in LIGAS]
+    sys.path.insert(0, str(RAIZ / "coleta" / slug))
+    sys.path.insert(1, str(AQUI))
+    return importlib.import_module("importar")
+
+
+def pct(a: int, b: int) -> str:
+    return "—" if not b else f"{100 * a / b:.0f}%"
+
+
+def texto_valor(v) -> str:
+    """Valor de um dicionário de decisões: o motivo (texto mais longo) e os números/rótulos curtos antes."""
+    if isinstance(v, str):
+        return v
+    if isinstance(v, (tuple, list)):
+        textos = [x for x in v if isinstance(x, str)]
+        motivo = max(textos, key=len) if textos else ""
+        outros = [str(x) for x in v if x is not None and not (isinstance(x, str) and x == motivo)]
+        return (f"[{', '.join(outros)}] " if outros else "") + motivo
+    if isinstance(v, list):
+        return "; ".join(map(str, v))
+    return str(v)
+
+
+def texto_chave(k) -> str:
+    """(1994, "Benfica", "Sporting") -> "1994/95 · Benfica · Sporting": o ano de início vira a temporada."""
+    partes = list(k) if isinstance(k, tuple) else [k]
+    if partes and isinstance(partes[0], int) and 1850 < partes[0] < 2100:
+        partes[0] = f"{partes[0]}/{str(partes[0] + 1)[-2:]}"
+    return " · ".join(str(x) for x in partes)
+
+
+def decada(t: str) -> str:
+    return f"{t[:3]}0s"
+
+
+def ficha(slug: str) -> tuple[str, dict]:
+    imp = importador(slug)
+    comp = json.loads((RAIZ / "data" / "coleta" / slug / "pacote" / "competicao.json").read_text(encoding="utf-8"))
+    ed, part, gols, cart = ler(slug, "edicoes"), ler(slug, "partidas"), ler(slug, "gols"), ler(slug, "cartoes")
+    clf, fases, art, conf = ler(slug, "classificacao_final"), ler(slug, "fases"), ler(slug, "artilheiros"), ler(slug, "conferencia")
+    est, clubes, pub = ler(slug, "estatisticas"), ler(slug, "clubes"), ler(slug, "tabelas_publicadas")
+    rod = ler(slug, "classificacao_rodada")
+    temporada_de = {p["id"]: p["temporada"] for p in part}
+    gols_por_t = Counter(temporada_de.get(g["partida_id"]) for g in gols)
+    cart_por_t = Counter(temporada_de.get(c["partida_id"]) for c in cart)
+    est_jogos = {e["partida_id"] for e in est}
+    total_gols = sum(int(p["gols_mandante"]) + int(p["gols_visitante"]) for p in part)
+
+    out = [f"# {comp['nome']} (`{slug}`) — documentação", "",
+           f"Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/coleta/{slug}/pacote/` e do "
+           f"importador `coleta/{slug}/importar.py`. O relatório da importação, com as ocorrências temporada a temporada, "
+           f"está em `docs/coleta/{slug}.md`.", ""]
+
+    # ---- 1. visão geral
+    out += ["## 1. O que temos", "",
+            f"- **Edições:** {len(ed)}, de {ed[0]['temporada']} a {ed[-1]['temporada']}.",
+            f"- **Jogos:** {len(part)}; **gols:** {total_gols}; **gols com autor:** {len(gols)} ({pct(len(gols), total_gols)}); "
+            f"**cartões:** {len(cart)}; **jogos com estatísticas** (chutes, faltas, escanteios): {len(est_jogos)}.",
+            f"- **Clubes:** {len(clubes)}; **artilheiros:** {len({a['temporada'] for a in art})} temporadas com artilheiro "
+            f"({len(art)} linhas, com empates).",
+            f"- **Classificação final:** {len({c['temporada'] for c in clf})} temporadas; **rodada a rodada:** "
+            f"{len({r['temporada'] for r in rod})} temporadas.",
+            f"- **Tabelas publicadas guardadas para conferência:** {len(pub)} linhas, de "
+            f"{len({(p['temporada'], p['fonte']) for p in pub})} tabelas.",
+            f"- **Observação da competição:** {comp.get('observacao') or '—'}", ""]
+
+    # ---- 2. fontes e regras (do relatório da importação)
+    rel = (RAIZ / "docs" / "coleta" / f"{slug}.md").read_text(encoding="utf-8")
+    fontes = re.search(r"\*\*Fontes:\*\*\s*\n(.*?)\n\s*\n", rel, re.S)
+    regras = re.search(r"\*\*Regras:\*\*\s*(.*?)\n\s*\n", rel, re.S)
+    desempate = re.search(r"\*\*Desempate:\*\*\s*(.*?)\n\s*\n", rel, re.S)
+    out += ["## 2. Fontes e regras", "", "**Fontes:**", "", fontes.group(1).strip() if fontes else "- (ver relatório)", "",
+            "**Regras da importação:** " + (regras.group(1).strip() if regras else "(ver relatório)"), ""]
+    if desempate:
+        out += ["**Desempate:** " + desempate.group(1).strip(), ""]
+
+    # ---- 3. conferência
+    ok = sum(int(c["tabelas_conferidas"] or 0) for c in conf)
+    div = sum(int(c["tabelas_divergentes"] or 0) for c in conf)
+    sem_ok = [c["temporada"] for c in conf if int(c["tabelas_conferidas"] or 0) == 0]
+    com_div = [c["temporada"] for c in conf if int(c["tabelas_divergentes"] or 0) > 0]
+    incompletas = [f"{c['temporada']} ({c['jogos']} de {c['jogos_esperados']})" for c in conf
+                   if c["jogos_esperados"] and c["jogos"] != c["jogos_esperados"]]
+    out += ["## 3. Conferência", "",
+            f"- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): {ok} tabelas fecham com os jogos e {div} "
+            f"divergem (divergência sempre explicada no relatório).",
+            f"- Temporadas em que nenhuma tabela publicada fecha: {', '.join(sem_ok) or 'nenhuma'}.",
+            f"- Temporadas com alguma tabela divergente: {', '.join(com_div) or 'nenhuma'}.",
+            f"- Temporadas com número de jogos diferente do turno e returno completo: {', '.join(incompletas) or 'nenhuma'}.", ""]
+
+    # ---- 4. cobertura por década
+    por_dec = defaultdict(list)
+    for p in part:
+        por_dec[decada(p["temporada"])].append(p)
+    gols_dec, cart_dec, golsaut_dec, est_dec = Counter(), Counter(), Counter(), Counter()
+    for p in part:
+        gols_dec[decada(p["temporada"])] += int(p["gols_mandante"]) + int(p["gols_visitante"])
+        if p["id"] in est_jogos:
+            est_dec[decada(p["temporada"])] += 1
+    for t, n in gols_por_t.items():
+        if t:
+            golsaut_dec[decada(t)] += n
+    for t, n in cart_por_t.items():
+        if t:
+            cart_dec[decada(t)] += n
+    cab = "| Década | Jogos | " + " | ".join(r for _, r in CAMPOS_COBERTURA) + " | estatísticas | gols c/ autor | cartões/jogo |"
+    out += ["## 4. Cobertura de cada campo, por década", "",
+            "Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos gols).", "", cab,
+            "|" + "---|" * (len(CAMPOS_COBERTURA) + 5)]
+    for d in sorted(por_dec):
+        ps = por_dec[d]
+        cel = [pct(sum(1 for p in ps if p[c]), len(ps)) for c, _ in CAMPOS_COBERTURA]
+        out.append(f"| {d} | {len(ps)} | " + " | ".join(cel) + f" | {pct(est_dec[d], len(ps))} | {pct(golsaut_dec[d], gols_dec[d])} | "
+                   f"{cart_dec[d] / len(ps):.1f} |")
+    out.append("")
+
+    # ---- 5. formato ao longo do tempo
+    def faixas(chave_fn):
+        res, atual = [], None
+        for e in ed:
+            v = chave_fn(e)
+            if atual and atual[0] == v:
+                atual[2] = e["temporada"]
+            else:
+                atual = [v, e["temporada"], e["temporada"]]
+                res.append(atual)
+        return res
+    out += ["## 5. Formato do campeonato ao longo do tempo", "", "**Número de clubes:**", ""]
+    out += [f"- {a if a == b else a + ' a ' + b}: {v} clubes" for v, a, b in faixas(lambda e: e["num_clubes"])]
+    out += ["", "**Pontos por vitória:**", ""]
+    out += [f"- {a if a == b else a + ' a ' + b}: {v}" for v, a, b in faixas(lambda e: e["pontos_vitoria"])]
+    out += ["", "**Nome oficial:**", ""]
+    out += [f"- {a if a == b else a + ' a ' + b}: {v}" for v, a, b in faixas(lambda e: e["nome_oficial"])]
+    multi = defaultdict(list)
+    for f in fases:
+        multi[f["temporada"]].append(f)
+    especiais = {t: fs for t, fs in multi.items() if len(fs) > 1 or fs[0]["tipo"] != "liga"}
+    out += ["", "**Temporadas com mais de uma fase ou fora dos pontos corridos:**", ""]
+    out += [f"- {t}: " + "; ".join(f"{f['fase']} ({f['tipo']}, {f['formato_serie']})" for f in fs) for t, fs in especiais.items()] \
+        or ["- nenhuma"]
+    crit = Counter(f["criterio"] for f in fases if f["criterio"])
+    out += ["", "**Critério de desempate** (o que reproduz a ordem oficial em cada temporada):", ""]
+    out += [f"- {c}: {n} temporadas" for c, n in crit.most_common()]
+    obs = [(e["temporada"], e["observacao"]) for e in ed if e["observacao"]]
+    out += ["", "**Observações das edições** (formato, punições, casos especiais):", ""]
+    out += [f"- {t}: {o}" for t, o in obs] or ["- nenhuma"]
+    out.append("")
+
+    # ---- 6. campeões e rebaixados
+    camp = Counter(e["campeao"] for e in ed if e["campeao"])
+    sem_campeao = [e["temporada"] for e in ed if not e["campeao"]]
+    reb = Counter(c["clube"] for c in clf if c["situacao"] == "rebaixado")
+    puni = [(c["temporada"], c["clube"], c["ajuste_pontos"]) for c in clf if c["ajuste_pontos"] not in ("", "0")]
+    out += ["## 6. Campeões, rebaixados e punições", "", "**Títulos:**", ""]
+    out += [f"- {c}: {n}" for c, n in camp.most_common()]
+    if sem_campeao:
+        out += [f"- Sem campeão: {', '.join(sem_campeao)}"]
+    out += ["", f"**Rebaixamentos:** {sum(reb.values())} no total; quem mais caiu: "
+            + ", ".join(f"{c} ({n})" for c, n in reb.most_common(5)) + ".", "",
+            "**Punições em pontos:**", ""]
+    out += [f"- {t}: {c} {a}" for t, c, a in puni] or ["- nenhuma"]
+    out.append("")
+
+    # ---- 7. correções e decisões
+    out += ["## 7. Correções e decisões (com o motivo)", "",
+            f"Registradas em `coleta/{slug}/importar.py`; cada uma também aparece no relatório, na temporada.", ""]
+    achou = False
+    for nome, rotulo in DICIONARIOS.items():
+        v = getattr(imp, nome, None)
+        if not v:
+            continue
+        achou = True
+        out += [f"### {rotulo} (`{nome}`)", ""]
+        if isinstance(v, dict):
+            for k, x in v.items():
+                if isinstance(x, list) and all(isinstance(i, str) for i in x):
+                    out += [f"- **{texto_chave(k)}:** " + " / ".join(x)]
+                else:
+                    out += [f"- **{texto_chave(k)}:** {texto_valor(x)}"]
+        elif isinstance(v, (set, frozenset, list, tuple, range)):
+            out += [f"- {', '.join(map(str, sorted(v)))}"]
+        else:
+            out += [f"- {v}"]
+        out.append("")
+    if not achou:
+        out += ["- nenhuma", ""]
+
+    # ---- 8. limites e pendências
+    m = re.search(r"## O que não deu para coletar\s*\n(.*?)(?:\n## |\Z)", rel, re.S)
+    out += ["## 8. O que não deu para coletar", "", (m.group(1).strip() if m else "- (ver relatório)"), "",
+            "## 9. Pendências e próximos passos", ""]
+    out += [f"- {p}" for p in PENDENCIAS.get(slug, [])] or ["- nenhuma"]
+    out += ["", "## 10. Arquivos", "",
+            f"- Código: `coleta/{slug}/` (`edicoes.py`, `baixar.py`, `importar.py`" + (", leitor da RSSSF" if list((RAIZ / 'coleta' / slug).glob('rsssf_*.py')) else "")
+            + f"); cadastro dos clubes em `coleta/comum-europa/clubes_{slug[:3]}.py`.",
+            f"- Fontes baixadas: `data/coleta/{slug}/` (uma pasta por fonte); calendários do ogol (escudos) em `data/cache/ogol-{slug}/`.",
+            f"- Pacote: `data/coleta/{slug}/pacote/`; relatório: `docs/coleta/{slug}.md`.",
+            f"- Refazer do zero: `python coleta/{slug}/baixar.py ...` (ver o docstring), `python coleta/{slug}/importar.py`, "
+            f"`python coleta/comum-europa/testar_carga.py {slug} <pasta temporária>` e `python coleta/comum-europa/documentar.py`.", ""]
+    resumo = {"slug": slug, "nome": comp["nome"], "edicoes": len(ed), "de": ed[0]["temporada"], "ate": ed[-1]["temporada"],
+              "jogos": len(part), "gols_autor": len(gols), "cartoes": len(cart), "clubes": len(clubes), "tabelas_ok": ok,
+              "tabelas_div": div, "pendencias": len(PENDENCIAS.get(slug, []))}
+    return "\n".join(out) + "\n", resumo
+
+
+def main() -> None:
+    sys.stdout.reconfigure(encoding="utf-8")
+    SAIDA.mkdir(exist_ok=True)
+    resumos = []
+    for slug in LIGAS:
+        txt, r = ficha(slug)
+        (SAIDA / f"{slug}.md").write_text(txt, encoding="utf-8")
+        resumos.append(r)
+        print(f"{slug}: {r['edicoes']} edições, {r['jogos']} jogos", flush=True)
+    idx = ["# Coleta Europa — documentação", "",
+           "Gerado por `python coleta/comum-europa/documentar.py`. Uma ficha por liga, com tudo o que o pacote tem, a "
+           "cobertura de cada campo década a década, o formato do campeonato ao longo do tempo, campeões, punições, todas "
+           "as correções e decisões com o motivo, o que não deu para coletar e as pendências.", "",
+           "Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/comum-europa/COMECE-AQUI.md`. "
+           "Recados ao agente do banco e respostas dele: `docs/coleta/pedidos-europa.md`. Achados da revisão: "
+           "`docs/revisao/achados.csv` (`quem_corrige` = `coleta-europa`).", "",
+           "| Liga | Temporadas | Jogos | Gols c/ autor | Cartões | Clubes | Tabelas ok / div. | Pendências | Ficha |",
+           "|---|---|---|---|---|---|---|---|---|"]
+    for r in resumos:
+        idx.append(f"| {r['nome']} | {r['edicoes']} ({r['de']}–{r['ate']}) | {r['jogos']} | {r['gols_autor']} | {r['cartoes']} | "
+                   f"{r['clubes']} | {r['tabelas_ok']} / {r['tabelas_div']} | {r['pendencias']} | [{r['slug']}]({r['slug']}.md) |")
+    idx += ["", "## Pendências de todas as ligas", ""]
+    for slug in LIGAS:
+        for p in PENDENCIAS.get(slug, []):
+            idx.append(f"- **{slug}:** {p}")
+    idx += ["", "## Próximas ligas", "",
+            "- `ned-1` (Holanda), depois Escócia, Bélgica e Turquia (guia geral `docs/agentes-internacionais-COMECE-AQUI.md`), "
+            "uma por vez e só com o ok do Guilherme.", ""]
+    (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
+
+
+if __name__ == "__main__":
+    main()
