@@ -1,4 +1,7 @@
-"""Monta o pacote da 1ª divisão alemã (ger-1), 1963/64 a 2025/26, e o relatório docs/coleta/ger-1.md.
+"""Monta o pacote da 1ª divisão alemã (ger-1), 1902/03 a 2025/26, e o relatório docs/coleta/ger-1.md.
+
+Até 1962/63 (antes da Bundesliga), a fase final do campeonato alemão entre os campeões regionais: ver antigo.py.
+Daqui para baixo, a Bundesliga (1963/64 em diante).
 
 Base dos jogos: engsoccerdata. Cada jogo é casado pelo par mandante x visitante, que é único na fase (turno e
 returno), com:
@@ -72,9 +75,10 @@ COMPETICAO = {
     "pais": "GER", "pais_nome": "Alemanha", "regiao": None, "confederacao": "UEFA",
     "rotulo_painel": "Alemão", "menu_painel": "Alemanha · 1ª divisão",
     "do_painel": "do Campeonato Alemão", "o_painel": "o Campeonato Alemão",
-    "observacao": "Bundesliga, desde a criação (1963/64). Não inclui os campeonatos alemães de antes (1902/03-1962/63: "
-                  "ligas regionais e fase final), os da Alemanha Oriental (DDR-Oberliga) nem os play-offs de "
-                  "rebaixamento (Relegation) contra clubes da 2. Bundesliga.",
+    "observacao": "Campeonato alemão desde 1902/03: até 1962/63, ligas regionais e fase final (mata-mata e/ou grupos) entre "
+                  "os campeões regionais (no pacote, a fase final e o campeão oficial); desde 1963/64, a Bundesliga. Não "
+                  "inclui a Alemanha Oriental (DDR-Oberliga) nem os play-offs de rebaixamento (Relegation) contra clubes "
+                  "da 2. Bundesliga.",
 }
 
 
@@ -826,6 +830,10 @@ def main() -> None:
               f"({autor_ano} c/ autor), critério {criterio}{'' if criterios[a][1] else ' (aprox.)'}, campeão "
               f"{'—' if sem_titulo else clubes.exibicao(campeao)}", flush=True)
 
+    # era antiga (1902/03-1962/63): fase final e campeão oficial (coleta/ger-1/antigo.py)
+    import antigo
+    linhas_rel = antigo.montar(tab, nomes, ocorr) + linhas_rel
+
     # ---- clubes
     for c, (exib, cidade, pais) in sorted(clubes.CLUBES.items()):
         if c not in nomes:
@@ -874,13 +882,17 @@ def artilheiros(ocorr) -> list[dict]:
 
 def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
     jogos = len(tab["partidas"])
-    gols = sum(int(x["gols_mandante"]) + int(x["gols_visitante"]) for x in tab["partidas"])
+    gols = sum(int(x["gols_mandante"] or 0) + int(x["gols_visitante"] or 0) for x in tab["partidas"])
     cr = Counter(c for c, _ in criterios.values())
     out = [
         "# Campeonato Alemão (Bundesliga) — coleta de dados", "",
         "Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1963/64 a 2025/26 (Bundesliga). Os campeonatos alemães de antes (ligas regionais e "
-        "fase final) ficam para depois.", "",
+        f"**Edições:** {len(linhas)}, de 1902/03 a 2025/26. Até 1962/63, o campeonato tinha ligas regionais e uma fase final "
+        "entre os campeões regionais (e, de 1947/48 em diante, também os vices): entram a fase final (jogos da RSSSF, com data e "
+        "cidade; estádio, público, árbitro e gols das partidas com ficha na Wikipédia, quase sempre a final), as tabelas dos "
+        "grupos e o campeão oficial (lista da RSSSF). A classificação final é o campeão em 1º e depois a fase alcançada. Sem "
+        "campeonato em 1914/15-1918/19 e 1944/45-1946/47; sem campeão em 1903/04 e 1921/22. Desde 1963/64, a Bundesliga "
+        "completa.", "",
         f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
         f"{len(tab['clubes'])} clubes.", "",
         "**Fontes:**",
@@ -889,8 +901,10 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         "- ogol: rodada oficial de cada jogo e conferência de placar; completa as temporadas em que a base falha; calendários "
         "guardados em `data/cache/ogol-ger-1/` para os escudos;",
         "- ESPN (liga `ger.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;",
-        "- RSSSF: tabela final de cada temporada e lista de artilheiros de cada temporada (com o clube);",
-        "- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições) e lista de campeões (com os gols do artilheiro).", "",
+        "- RSSSF: tabela final de cada temporada e lista de artilheiros de cada temporada (com o clube); até 1962/63, os jogos "
+        "da fase final (tablesd/duit1903.html ... duit1944.html e duithist4763.html) e a lista de campeões (duitchamp.html);",
+        "- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições) e lista de campeões (com os gols do artilheiro); "
+        "até 1962/63, a ficha das partidas com \"football box\" (estádio, público, árbitro, gols com minuto).", "",
         "**Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols "
         "pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando "
         "a soma bate com o placar. Hora local (Berlim). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. "
@@ -928,7 +942,8 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         "- **Autores dos gols e cartões antes de 2001/02:** nenhuma fonte em lote traz.",
         "- **Público e estádio antes de 2001/02:** nenhuma fonte em lote.",
         "- **Play-offs de rebaixamento (Relegation) contra clubes da 2. Bundesliga:** ficam de fora (entram com a 2ª divisão).",
-        "- **Campeonatos alemães de 1902/03 a 1962/63** (ligas regionais e fase final) e a **DDR-Oberliga**: ficam para depois.",
+        "- **Ligas regionais de 1902/03 a 1962/63** (só a fase final entra) e a **DDR-Oberliga**: ficam para depois.",
+        "- **Era antiga, além da fase final:** artilheiros, e gols com autor fora das partidas com ficha na Wikipédia.",
         "- **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.",
     ]
     RELATORIO.parent.mkdir(parents=True, exist_ok=True)

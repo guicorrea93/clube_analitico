@@ -132,6 +132,27 @@ def espn() -> None:
         print(f"espn {temporada(a)}: {len(js)} jogos, {sum(1 for j in js if j['lances'])} com lances", flush=True)
 
 
+
+def antigo() -> None:
+    """Era antiga (1888/89-1955/56, antes da Eredivisie): página da RSSSF de cada temporada (tablesn/ned1889.html ...
+    ned1956.html, pelo ano final: fase final do título e ligas regionais, com matriz de resultados e tabela) e o artigo da
+    Wikipédia em inglês ("1924–25 Netherlands Football League Championship"). Em data/coleta/ned-1/rsssf/ e wikipedia/."""
+    from wikipedia import wikitexto
+    for f in range(1889, 1957):
+        nome = f"ned{f}.html"
+        d = pegar(f"https://www.rsssf.org/tablesn/{nome}", DADOS / "rsssf" / nome, espera=2.0)
+        print(f"rsssf {nome}: {len(d or b'')} bytes", flush=True)
+    pasta = DADOS / "wikipedia"
+    for a in range(1888, 1956):
+        t = f"{a}–{str(a + 1)[-2:] if (a + 1) % 100 else a + 1} Netherlands Football League Championship"
+        arq = pasta / (t + ".wiki")
+        if arq.exists():
+            continue
+        txt = wikitexto("en", t, espera=1.5)
+        if txt:
+            arq.write_text(txt, encoding="utf-8")
+        print(f"wiki {t}: {len(txt or '')}", flush=True)
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1956-1990" passa a faixa de temporadas

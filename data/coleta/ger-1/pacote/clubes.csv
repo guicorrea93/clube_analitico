@@ -1,59 +1,195 @@
 clube,regiao,cidade,pais,nomes_fonte
 Heidenheim,,Heidenheim,GER,engsoccerdata:1. FC Heidenheim:2023-2024|espn:1. FC Heidenheim 1846:2023-2025|football-data:Heidenheim:2023-2025|ogol:1. FC Heidenheim 1846:2023-2025
-Kaiserslautern,,Kaiserslautern,GER,engsoccerdata:1. FC Kaiserslautern:1963-2011|espn:Kaiserslautern:2001-2011|football-data:Kaiserslautern:1993-2011|ogol:Kaiserslautern:1963-2011
-Colônia,,Colônia,GER,engsoccerdata:1. FC Koln:1963-2023|espn:FC Cologne:2001-2025|football-data:FC Koln:1993-2025|ogol:FC Köln:1963-2025
-Nuremberg,,Nuremberg,GER,engsoccerdata:1. FC Nurnberg:1963-2018|espn:1. FC Nürnberg:2001-2018|football-data:Nurnberg:1993-2018|ogol:FC Nürnberg:1963-2018
-Saarbrücken,,Saarbrücken,GER,engsoccerdata:1. FC Saarbrucken:1963-1992|ogol:1. FC Saarbrücken:1963-1992
-Union Berlin,,Berlim,GER,engsoccerdata:1. FC Union Berlin:2019-2024|espn:1. FC Union Berlin:2019-2025|football-data:Union Berlin:2019-2025|ogol:1. FC Union Berlin:2019-2025
+Kaiserslautern,,Kaiserslautern,GER,engsoccerdata:1. FC Kaiserslautern:1963-2011|espn:Kaiserslautern:2001-2011|football-data:Kaiserslautern:1993-2011|ogol:Kaiserslautern:1963-2011|rsssf:1. FC Kaiserslautern:1952-1962|rsssf:1.FC Kaiserslautern:1947-1962
+Colônia,,Colônia,GER,engsoccerdata:1. FC Koln:1963-2023|espn:FC Cologne:2001-2025|football-data:FC Koln:1993-2025|ogol:FC Köln:1963-2025|rsssf:1. FC Köln:1952-1962|rsssf:1.FC Köln:1952-1962
+Nuremberg,,Nuremberg,GER,engsoccerdata:1. FC Nurnberg:1963-2018|espn:1. FC Nürnberg:2001-2018|football-data:Nurnberg:1993-2018|ogol:FC Nürnberg:1963-2018|rsssf:1. FC Nürnberg:1951-1962|rsssf:1.FC Nürnberg:1919-1962
+Saarbrücken,,Saarbrücken,GER,engsoccerdata:1. FC Saarbrucken:1963-1992|ogol:1. FC Saarbrücken:1963-1992|rsssf:1. FC Saarbrücken:1951-1960|rsssf:1.FC Saarbrücken:1951-1960|rsssf:FV Saarbrücken:1942|rsssf:FV/Altenk. Saarbrücken:1943
+Union Berlin,,Berlim,GER,engsoccerdata:1. FC Union Berlin:2019-2024|espn:1. FC Union Berlin:2019-2025|football-data:Union Berlin:2019-2025|ogol:1. FC Union Berlin:2019-2025|rsssf:SC Union Oberschöneweide:1919-1939|rsssf:Union Oberschönweide:1947
 Mainz 05,,Mainz,GER,engsoccerdata:1. FSV Mainz 05:2004-2024|espn:Mainz:2004-2025|football-data:Mainz:2004-2025|ogol:Mainz:2004-2025
 Hoffenheim,,Sinsheim,GER,engsoccerdata:1899 Hoffenheim:2008-2024|espn:TSG Hoffenheim:2008-2025|football-data:Hoffenheim:2008-2025|ogol:TSG Hoffenheim:2008-2025
-Alemannia Aachen,,Aachen,GER,engsoccerdata:Alemannia Aachen:1967-2006|espn:Alemannia Aachen:2006|football-data:Aachen:2006|ogol:Alemannia Aachen:1967-2006
-Arminia Bielefeld,,Bielefeld,GER,engsoccerdata:Arminia Bielefeld:1970-2021|espn:Arminia Bielefeld:2002-2021|football-data:Bielefeld:1996-2021|ogol:Arminia Bielefeld:1970-2021
+ABRV Hannover,,Hannover,GER,rsssf:ABRV 1898 Hannover:1903
+ATV Liegnitz,,Liegnitz,GER,rsssf:ATV Liegnitz:1911
+Admira Wacker,,Viena,AUT,rsssf:SK Admira Wien:1938
+Alemannia 90 Berlin,,Berlim,GER,rsssf:BTuFC Alemannia 1890:1923-1924
+Alemannia Aachen,,Aachen,GER,engsoccerdata:Alemannia Aachen:1967-2006|espn:Alemannia Aachen:2006|football-data:Aachen:2006|ogol:Alemannia Aachen:1967-2006|rsssf:TSV Alemannia Aachen:1937
+Alemannia Cottbus,,Cottbus,GER,rsssf:SC Alemannia Cottbus:1908
+Altona 93,,Hamburgo,GER,rsssf:FC Altona 93:1902-1924
+Arminia Bielefeld,,Bielefeld,GER,engsoccerdata:Arminia Bielefeld:1970-2021|espn:Arminia Bielefeld:2002-2021|football-data:Bielefeld:1996-2021|ogol:Arminia Bielefeld:1970-2021|rsssf:1.FC Arminia Bielefeld:1922|rsssf:TG Arminia Bielefeld:1921
+Arminia Hannover,,Hannover,GER,rsssf:SV Arminia Hannover:1919-1932
+Askania Forst,,Forst,GER,rsssf:FC Askania 1901 Forst:1910-1913
+BC Hartha,,Hartha,GER,rsssf:BC 01 Hartha:1936-1937
+BV Altenessen,,Essen,GER,rsssf:BV Altenessen 06:1925
 Uerdingen,,Krefeld,GER,engsoccerdata:Bayer 05 Uerdingen:1975-1995|football-data:Uerdingen:1994-1995|ogol:Bayer Uerdingen:1975-1994|ogol:KFC Uerdingen 05:1995
 Bayer Leverkusen,,Leverkusen,GER,engsoccerdata:Bayer Leverkusen:1984-2024|engsoccerdata:SV Bayer 04 Leverkusen:1979-1983|espn:Bayer Leverkusen:2001-2025|football-data:Leverkusen:1993-2025|ogol:Bayer Leverkusen:1979-2025
-Bayern de Munique,,Munique,GER,engsoccerdata:Bayern Munchen:1965-2024|espn:Bayern Munich:2001-2025|football-data:Bayern Munich:1993-2025|ogol:Bayern München:1965-2025
-Blau-Weiß 90 Berlin,,Berlim,GER,engsoccerdata:Blau-Weiss 90 Berlin:1986|ogol:Blau-Weiß 1890 Berlin:1986
+Bayern de Munique,,Munique,GER,engsoccerdata:Bayern Munchen:1965-2024|espn:Bayern Munich:2001-2025|football-data:Bayern Munich:1993-2025|ogol:Bayern München:1965-2025|rsssf:FC Bayern München:1925-1948
+Berliner BC 03,,Berlim,GER,rsssf:Berliner BC 1903:1913
+Berliner SV 92,,Berlim,GER,rsssf:BSV 92 Berlin:1935|rsssf:BTuFC Britannia 1892:1902-1903|rsssf:Berliner SV 92:1937-1953
+Beuthen 09,,Beuthen,GER,rsssf:Beuthener SuSV 09:1929-1936
+Blau-Weiß 90 Berlin,,Berlim,GER,engsoccerdata:Blau-Weiss 90 Berlin:1986|ogol:Blau-Weiß 1890 Berlin:1986|rsssf:Blau-Weiß 90 Berlin:1938|rsssf:SV Blau-Weiß 90 Berlin:1941
 Borussia Mönchengladbach,,Mönchengladbach,GER,engsoccerdata:Bor. Monchengladbach:1965-2024|espn:Borussia Mönchengladbach:2001-2025|football-data:M'Gladbach:1993|football-data:M'gladbach:1994-2025|ogol:Borussia M´gladbach:1965-2025
-Borussia Dortmund,,Dortmund,GER,engsoccerdata:Borussia Dortmund:1963-2024|espn:Borussia Dortmund:2001-2025|football-data:Dortmund:1993-2025|ogol:Borussia Dortmund:1963-2025
-Borussia Neunkirchen,,Neunkirchen,GER,engsoccerdata:Borussia Neunkirchen:1964-1967|ogol:Borussia Neunkirchen:1964-1967
+Borussia Dortmund,,Dortmund,GER,engsoccerdata:Borussia Dortmund:1963-2024|espn:Borussia Dortmund:2001-2025|football-data:Dortmund:1993-2025|ogol:Borussia Dortmund:1963-2025|rsssf:Borussia Dortmund:1947-1962
+Borussia Fulda,,Fulda,GER,rsssf:1.SV Borussia 04 Fulda:1931-1940|rsssf:Reichsb./Borussia Fulda:1943
+Borussia Neunkirchen,,Neunkirchen,GER,engsoccerdata:Borussia Neunkirchen:1964-1967|ogol:Borussia Neunkirchen:1964-1967|rsssf:Bor. Neunkirchen:1959-1962|rsssf:Borussia Neunkirchen:1958-1962
+Bremerhaven 93,,Bremerhaven,GER,rsssf:Bremerhaven 93:1954|rsssf:SV Bremerhaven 93:1954|rsssf:TuS Bremerhaven:1954
+Breslauer SC 08,,Breslau,GER,rsssf:Breslauer SC 08:1927-1931|rsssf:Breslauer SC 1908:1924-1925
+BuEV Danzig,,Danzig,GER,rsssf:BUeV 1903 Danzig:1911
+CSC 03 Kassel,,Kassel,GER,rsssf:CSC 03 Kassel:1939|rsssf:CSC Kassel 03:1938
+Carl Zeiss Jena,,Jena,GER,rsssf:1.SV Jena 03:1924-1940
+CfR Köln,,Colônia,GER,rsssf:CfR 1899 Köln:1935
+Chemnitzer BC,,Chemnitz,GER,rsssf:Chemnitzer BC 1899:1926
+DFC Praga,,Praga,CZE,rsssf:DFC 1892 Prag:1902
+DWM Posen,,Poznań,POL,rsssf:BSG DWM Posen:1942
+Dessau 05,,Dessau,GER,rsssf:SV Dessau 05:1936-1943
+Dresdner SC,,Dresden,GER,rsssf:Dresdner SC:1904-1943
+Duisburger SpV,,Duisburg,GER,rsssf:Duisburger SpV:1956|rsssf:Duisburger SpV 1900:1903-1926
 Dynamo Dresden,,Dresden,GER,engsoccerdata:Dynamo Dresden:1991-1994|football-data:Dresden:1993-1994|ogol:Dynamo Dresden:1991-1994
-Eintracht Braunschweig,,Braunschweig,GER,engsoccerdata:Eintracht Braunschweig:1963-2013|espn:TSV Eintracht Braunschweig:2013|football-data:Braunschweig:2013|ogol:Eintracht Braunschweig:1963-2013
-Eintracht Frankfurt,,Frankfurt,GER,engsoccerdata:Eintracht Frankfurt:1968-2024|engsoccerdata:Frankfurter SG Eintracht:1963-1967|espn:Eintracht Frankfurt:2003-2025|football-data:Ein Frankfurt:1993-2025|ogol:Eintracht Frankfurt:1963-2025
+Düsseldorfer FC 99,,Düsseldorf,GER,rsssf:Düsseldorfer FC 1899:1906
+Eimsbütteler TV,,Hamburgo,GER,rsssf:Eimsbutteler TV:1934|rsssf:Eimsbütteler TV:1933-1939
+Eintracht Braunschweig,,Braunschweig,GER,engsoccerdata:Eintracht Braunschweig:1963-2013|espn:TSV Eintracht Braunschweig:2013|football-data:Braunschweig:2013|ogol:Eintracht Braunschweig:1963-2013|rsssf:Eintr. Braunschweig:1957|rsssf:Eintracht Braunschweig:1904-1957
+Eintracht Frankfurt,,Frankfurt,GER,engsoccerdata:Eintracht Frankfurt:1968-2024|engsoccerdata:Frankfurter SG Eintracht:1963-1967|espn:Eintracht Frankfurt:2003-2025|football-data:Ein Frankfurt:1993-2025|ogol:Eintracht Frankfurt:1963-2025|rsssf:Eintr. Frankfurt:1958-1961|rsssf:Eintracht Frankfurt:1927-1961
 Energie Cottbus,,Cottbus,GER,engsoccerdata:Energie Cottbus:2000-2008|espn:Energie Cottbus:2001-2008|football-data:Cottbus:2000-2008|ogol:Energie Cottbus:2000-2008
 Homburg,,Homburg,GER,engsoccerdata:FC 08 Homburg:1986-1989|ogol:FC 08 Homburg:1986-1989
 Augsburg,,Augsburg,GER,engsoccerdata:FC Augsburg:2011-2024|espn:FC Augsburg:2011-2025|football-data:Augsburg:2011-2025|ogol:FC Augsburg:2011-2025
 Ingolstadt,,Ingolstadt,GER,engsoccerdata:FC Ingolstadt 04:2015-2016|espn:FC Ingolstadt 04:2015-2016|football-data:Ingolstadt:2015-2016|ogol:FC Ingolstadt 04:2015-2016
-Schalke 04,,Gelsenkirchen,GER,engsoccerdata:FC Schalke 04:1963-2022|espn:Schalke 04:2001-2022|football-data:Schalke 04:1993-2022|ogol:Schalke 04:1963-2022
-St. Pauli,,Hamburgo,GER,engsoccerdata:FC St. Pauli:1977-2024|espn:St. Pauli:2001-2025|football-data:St Pauli:1995-2025|ogol:FC St. Pauli:1977-2025
-Fortuna Düsseldorf,,Düsseldorf,GER,engsoccerdata:Fortuna Dusseldorf:1966-2019|espn:Fortuna Düsseldorf:2012-2019|football-data:Dusseldorf:1995-1996|football-data:Fortuna Dusseldorf:2012-2019|ogol:Fortuna Düsseldorf:1966-2019
+Mulhouse,,Mulhouse,FRA,rsssf:FC Mühlhausen 93:1940-1943
+Schalke 04,,Gelsenkirchen,GER,engsoccerdata:FC Schalke 04:1963-2022|espn:Schalke 04:2001-2022|football-data:Schalke 04:1993-2022|ogol:Schalke 04:1963-2022|rsssf:FC Schalke 04:1926-1961|rsssf:Schalke 04:1955-1961
+St. Pauli,,Hamburgo,GER,engsoccerdata:FC St. Pauli:1977-2024|espn:St. Pauli:2001-2025|football-data:St Pauli:1995-2025|ogol:FC St. Pauli:1977-2025|rsssf:FC St Pauli:1947-1950
+Pirmasens,,Pirmasens,GER,rsssf:FK Pirmasens:1957-1961
+FSV Frankfurt,,Frankfurt,GER,rsssf:FSV Frankfurt:1924-1932
+First Vienna,,Viena,AUT,rsssf:First Vienna FC Wien:1941-1943
+Fortuna Düsseldorf,,Düsseldorf,GER,engsoccerdata:Fortuna Dusseldorf:1966-2019|espn:Fortuna Düsseldorf:2012-2019|football-data:Dusseldorf:1995-1996|football-data:Fortuna Dusseldorf:2012-2019|ogol:Fortuna Düsseldorf:1966-2019|rsssf:Fortuna Düsseldorf:1926|rsssf:TSV Fortuna Düsseldorf:1928-1939
 Fortuna Köln,,Colônia,GER,engsoccerdata:Fortuna Koln:1973|ogol:SC Fortuna Köln:1973
-Hamburgo,,Hamburgo,GER,engsoccerdata:Hamburger SV:1963-2017|espn:Hamburg SV:2001-2025|football-data:Hamburg:1993-2025|ogol:Hamburger SV:1963-2025
-Hannover 96,,Hannover,GER,engsoccerdata:Hannover 96:1964-2018|espn:Hannover 96:2002-2018|football-data:Hannover:2002-2018|ogol:Hannover 96:1964-2018
+Fortuna Leipzig,,Leipzig,GER,rsssf:SV Fortuna 1902 Leipzig:1925
+Freiburger FC,,Freiburg,GER,rsssf:Freiburger FC:1906-1907
+Germania Hamburg,,Hamburgo,GER,rsssf:SC Germania Hamburg:1903
+Germania Königshütte,,Königshütte,GER,rsssf:Germania Königshütte:1942-1943
+Guts Muts Dresden,,Dresden,GER,rsssf:SV Guts Muts Dresden:1922
+HSV Groß Born,,Groß Born,GER,rsssf:Heeres SV Groß Born:1943
+Hamborn 07,,Duisburg,GER,rsssf:Sportfreunde Hamborn 07:1947
+Hamburgo,,Hamburgo,GER,engsoccerdata:Hamburger SV:1963-2017|espn:Hamburg SV:2001-2025|football-data:Hamburg:1993-2025|ogol:Hamburger SV:1963-2025|rsssf:Hamburger SV:1920-1962
+Hanau 93,,Hanau,GER,rsssf:1.FC Hanau 93:1934-1937|rsssf:FC Hanau 93:1935
+Hannover 96,,Hannover,GER,engsoccerdata:Hannover 96:1964-2018|espn:Hannover 96:2002-2018|football-data:Hannover:2002-2018|ogol:Hannover 96:1964-2018|rsssf:Hannover 96:1953-1955|rsssf:SV Hannover 96:1934-1940
 Hansa Rostock,,Rostock,GER,engsoccerdata:Hansa Rostock:1991-2007|espn:Hansa Rostock:2001-2007|football-data:Hansa Rostock:1995-2007|ogol:Hansa Rostock:1991-2007
-Hertha Berlin,,Berlim,GER,engsoccerdata:Hertha BSC:1963-2022|espn:Hertha Berlin:2001-2022|football-data:Hertha:1997-2022|ogol:Hertha BSC:1963-2022
-Holstein Kiel,,Kiel,GER,engsoccerdata:Holstein Kiel:2024|espn:Holstein Kiel:2024|football-data:Holstein Kiel:2024|ogol:Holstein Kiel:2024
-Karlsruhe,,Karlsruhe,GER,engsoccerdata:Karlsruher SC:1963-2008|espn:Karlsruher SC:2007-2008|football-data:Karlsruhe:1993-2008|ogol:Karlsruher SC:1963-2008
-Kickers Offenbach,,Offenbach,GER,engsoccerdata:Kickers Offenbach:1968-1983|ogol:Kickers Offenbach:1968-1983
-Duisburg,,Duisburg,GER,engsoccerdata:MSV Duisburg:1967-2007|engsoccerdata:Meidericher SV:1963-1966|espn:MSV Duisburg:2005-2007|football-data:Duisburg:1993-2007|ogol:MSV Duisburg:1967-2007|ogol:Meidericher SV:1963-1966
-Preußen Münster,,Münster,GER,engsoccerdata:Preussen Munster:1963|ogol:Preussen Munster:1963
+Helene Altenessen,,Essen,GER,rsssf:TuS Helene Altenessen:1940
+Hertha Berlin,,Berlim,GER,engsoccerdata:Hertha BSC:1963-2022|espn:Hertha Berlin:2001-2022|football-data:Hertha:1997-2022|ogol:Hertha BSC:1963-2022|rsssf:BFC Hertha 1892:1905|rsssf:Hertha BSC Berlin:1924-1962
+Hindenburg Allenstein,,Allenstein,GER,rsssf:Hindenburg Allenstein:1935-1938|rsssf:SV Hindenburg Allenstein:1931-1932
+Holstein Kiel,,Kiel,GER,engsoccerdata:Holstein Kiel:2024|espn:Holstein Kiel:2024|football-data:Holstein Kiel:2024|ogol:Holstein Kiel:2024|rsssf:FV Holstein Kiel:1925-1943|rsssf:FV Holstein Kiel 1902:1909-1912|rsssf:Holstein Kiel:1952-1956
+Karlsruher FV,,Karlsruhe,GER,rsssf:Karlsruher FV:1902-1911
+Karlsruhe,,Karlsruhe,GER,engsoccerdata:Karlsruher SC:1963-2008|espn:Karlsruher SC:2007-2008|football-data:Karlsruhe:1993-2008|ogol:Karlsruher SC:1963-2008|rsssf:Karlsruher SC:1955-1959
+Kassel-Rothenditmold,,Kassel,GER,rsssf:SV 06 Kassel-Rothenditm.:1942|rsssf:SV Kassel-Rothenditmold:1936
+Kasseler FV,,Kassel,GER,rsssf:Kasseler FV 1895:1903
+Kickers Offenbach,,Offenbach,GER,engsoccerdata:Kickers Offenbach:1968-1983|ogol:Kickers Offenbach:1968-1983|rsssf:Kickers Offenbach:1948-1959|rsssf:OFC Kickers Offenbach:1933-1943
+Kölner BC,,Colônia,GER,rsssf:Kölner BC 01:1911
+Kölner FC 99,,Colônia,GER,rsssf:Kölner FC 1899:1905
+LSV Danzig,,Danzig,GER,rsssf:LSV Danzig:1943
+LSV Hamburg,,Hamburgo,GER,rsssf:LSV Groß Hamburg:1943
+LSV Mölders Krakau,,Cracóvia,POL,rsssf:LSV Mölders Krakau:1943
+LSV Pütnitz,,Ribnitz-Damgarten,GER,rsssf:Luftwaffen SV Pütnitz:1942
+LSV Reinecke Brieg,,Brieg,GER,rsssf:LSV Reinecke Brieg:1942
+LSV Rerick,,Rerik,GER,rsssf:Luftwaffen SV Rerick:1943
+LSV Stettin,,Stettin,GER,rsssf:Luftwaffen SV Stettin:1940
+Lituania Tilsit,,Tilsit,GER,rsssf:SC Lituania Tilsit:1910
+MSV Brünn,,Brno,CZE,rsssf:Militär SV Brünn:1942-1943
+Duisburg,,Duisburg,GER,engsoccerdata:MSV Duisburg:1967-2007|engsoccerdata:Meidericher SV:1963-1966|espn:MSV Duisburg:2005-2007|football-data:Duisburg:1993-2007|ogol:MSV Duisburg:1967-2007|ogol:Meidericher SV:1963-1966|rsssf:Meidericher SV 02:1930|rsssf:Meidericher SV 1902:1928
+Minerva 93 Berlin,,Berlim,GER,rsssf:SC Minerva Berlin:1931
+Mülheimer SV 06,,Colônia,GER,rsssf:Mühlheimer SV 06:1939|rsssf:Mülheimer SV 06:1933
+FC München-Gladbach,,Mönchengladbach,GER,rsssf:FC 1894 München-Gladbach:1908
+NSTG Brüx,,Most,CZE,rsssf:NSTG Brüx:1943
+NSTG Graslitz,,Kraslice,CZE,rsssf:NSTG Graslitz:1939
+NSTG Praga,,Praga,CZE,rsssf:NTSG Prag:1940
+SV Neufahrwasser,,Danzig,GER,rsssf:SV 1919 Neufahrwasser:1942
+Norden-Nordwest Berlin,,Berlim,GER,rsssf:BFC Norden-Nordwest 98:1905|rsssf:BSV Norden-Nordwest 98:1925|rsssf:SV Norden-Nordwest:1921|rsssf:SV Norden-Nordwest Berlin:1921
+Ordnungspolizei Warschau,,Varsóvia,POL,rsssf:SG Ordnungspolizei W.:1942|rsssf:SG Ordnungspolizei Warschau:1942
+Pforzheim,,Pforzheim,GER,rsssf:1.FC Pforzheim:1905
+Phönix Karlsruhe,,Karlsruhe,GER,rsssf:FC Phönix Karlsruhe:1908-1909
+Phönix Ludwigshafen,,Ludwigshafen,GER,rsssf:FC Phönix Ludwigshafen:1934
+Planitzer SC,,Zwickau,GER,rsssf:Planitz:1947|rsssf:Planitzer SC 1912:1941
+Plauener SuBC,,Plauen,GER,rsssf:Plauener SuBC:1931
+Polizei Chemnitz,,Chemnitz,GER,rsssf:Polizei SV Chemnitz:1931-1935
+Preußen Münster,,Münster,GER,engsoccerdata:Preussen Munster:1963|ogol:Preussen Munster:1963|rsssf:Preußen Münster:1950
+Preußen Berlin,,Berlim,GER,rsssf:BFC Preußen 1894:1909-1911
+Preußen Danzig,,Danzig,GER,rsssf:SC Preußen 09 Danzig:1933-1940
+Preußen Dellbrück,,Colônia,GER,rsssf:Preußen Dellbrück:1949
+Preußen Krefeld,,Krefeld,GER,rsssf:FC Preußen 1895 Krefeld:1927
+Preußen Stettin,,Stettin,GER,rsssf:SC Preußen 01 Stettin:1927
+Preußen Zaborze,,Zaborze,GER,rsssf:SC Preußen Zaborze:1928
+Prussia-Samland,,Königsberg,GER,rsssf:SV Prussia-Samland:1909-1932
+Rapid Viena,,Viena,AUT,rsssf:SK Rapid Wien:1939-1940
 RB Leipzig,,Leipzig,GER,engsoccerdata:RasenBallsport Leipzig:2016-2024|espn:RB Leipzig:2016-2025|football-data:RB Leipzig:2016-2025|ogol:RB Leipzig:2016-2025
-Rot-Weiss Essen,,Essen,GER,engsoccerdata:Rot-Weiss Essen:1966-1976|ogol:Rot-Weiss Essen:1966-1976
+Rot-Weiss Essen,,Essen,GER,engsoccerdata:Rot-Weiss Essen:1966-1976|ogol:Rot-Weiss Essen:1966-1976|rsssf:Rot-Weiß Essen:1948-1954
 Rot-Weiß Oberhausen,,Oberhausen,GER,engsoccerdata:Rot-Weiss Oberhausen:1969-1972|ogol:RW Oberhausen:1969-1972
+SC Erfurt 1895,,Erfurt,GER,rsssf:SC 95 Erfurt:1908
 Freiburg,,Freiburg,GER,engsoccerdata:SC Freiburg:1993-2024|espn:SC Freiburg:2001-2025|football-data:Freiburg:1993-2025|ogol:SC Freiburg:1993-2025
 Paderborn,,Paderborn,GER,engsoccerdata:SC Paderborn 07:2014-2019|espn:SC Paderborn 07:2014-2019|football-data:Paderborn:2014-2019|ogol:SC Paderborn 07:2014-2019
+SDW Posen,,Poznań,POL,rsssf:BSG SDW Posen:1943
+SG SS Straßburg,,Estrasburgo,FRA,rsssf:SG SS Straßburg:1941
 Wattenscheid 09,,Bochum,GER,engsoccerdata:SG Wattenscheid 09:1990-1993|football-data:Wattenscheid:1993|ogol:SG Wattenscheid 09:1990-1993
+SSV Reutlingen,,Reutlingen,GER,rsssf:SSV Reutlingen:1949-1954
 Ulm,,Ulm,GER,engsoccerdata:SSV Ulm 1846:1999|football-data:Ulm:1999|ogol:SSV Ulm 1846:1999
+STC Hirschberg,,Hirschberg,GER,rsssf:STC Hirschberg 1919:1943
+STV Horst-Emscher,,Gelsenkirchen,GER,rsssf:Horst Emscher:1949|rsssf:STV Horst-Emscher:1947
 Darmstadt 98,,Darmstadt,GER,engsoccerdata:SV Darmstadt 98:1978-2023|espn:SV Darmstadt 98:2015-2023|football-data:Darmstadt:2015-2023|ogol:Darmstadt 98:1978-2023
-Greuther Fürth,,Fürth,GER,engsoccerdata:SpVgg Greuther Furth:2012-2021|espn:SpVgg Greuther Fürth:2012-2021|football-data:Greuther Furth:2012-2021|ogol:SpVgg Greuther Fürth:2012-2021
+SV Göppingen,,Göppingen,GER,rsssf:SV Göppingen:1943
+SV Sodingen,,Herne,GER,rsssf:SV Sodingen:1954
+Schlesien Breslau,,Breslau,GER,rsssf:SC Schlesien 01 Breslau:1905-1906
+Schwarz-Weiß Essen,,Essen,GER,rsssf:SK Schwarz-Weiß Essen:1924
+Schweinfurt 05,,Schweinfurt,GER,rsssf:1.FC Schweinfurt 05:1938
+Schöneberger Kickers,,Berlim,GER,rsssf:BFC Schöneberger Kickers:1926
+KSG SpV/48/99 Duisburg,,Duisburg,GER,rsssf:KSG SpV/48/99 Duisburg:1943
+Greuther Fürth,,Fürth,GER,engsoccerdata:SpVgg Greuther Furth:2012-2021|espn:SpVgg Greuther Fürth:2012-2021|football-data:Greuther Furth:2012-2021|ogol:SpVgg Greuther Fürth:2012-2021|rsssf:SpVgg Fürth:1913-1950
+SpVgg Leipzig,,Leipzig,GER,rsssf:SpVgg 1899 Leipzig:1923|rsssf:SpVgg Leipzig-Lindenau:1911-1930
 Unterhaching,,Unterhaching,GER,engsoccerdata:SpVgg Unterhaching:1999-2000|football-data:Unterhaching:1999-2000|ogol:SpVgg Unterhaching:1999-2000
-Stuttgarter Kickers,,Stuttgart,GER,engsoccerdata:Stuttgarter Kickers:1988-1991|ogol:Stuttgarter Kickers:1988-1991
-1860 Munique,,Munique,GER,engsoccerdata:TSV 1860 Munchen:1963-2003|espn:TSV 1860 Munich:2001-2003|football-data:Munich 1860:1994-2003|ogol:TSV 1860 München:1963-2003
-Tasmania Berlin,,Berlim,GER,engsoccerdata:Tasmania 1900 Berlin:1965|ogol:Tasmania Berlin:1965
-Tennis Borussia Berlin,,Berlim,GER,engsoccerdata:TeBe Berlin:1974-1976|ogol:Tennis Berlin:1974-1976
-VfB Leipzig,,Leipzig,GER,engsoccerdata:VfB Leipzig:1993|football-data:Leipzig:1993|ogol:VfB Leipzig (1991):1993
-Stuttgart,,Stuttgart,GER,engsoccerdata:VfB Stuttgart:1963-2024|espn:VfB Stuttgart:2001-2025|football-data:Stuttgart:1993-2025|ogol:Stuttgart:1963-2025
+Sportfreunde Breslau,,Breslau,GER,rsssf:FV Sportfreunde Breslau:1919-1929
+Sportfreunde Katernberg,,Essen,GER,rsssf:Sportfreunde Katernberg:1947
+Stern Breslau,,Breslau,GER,rsssf:Breslauer FV Stern 1906:1926
+Stettiner SC,,Stettin,GER,rsssf:Stettiner SC:1920-1937
+Stuttgarter Kickers,,Stuttgart,GER,engsoccerdata:Stuttgarter Kickers:1988-1991|ogol:Stuttgarter Kickers:1988-1991|rsssf:Stuttgarter FC Kickers:1912|rsssf:Stuttgarter Kickers:1907-1940
+Sülz 07,,Colônia,GER,rsssf:SpVgg Sülz 07:1927-1938
+TSG Rostock,,Rostock,GER,rsssf:TSG Rostock:1942
+1860 Munique,,Munique,GER,engsoccerdata:TSV 1860 Munchen:1963-2003|espn:TSV 1860 Munich:2001-2003|football-data:Munich 1860:1994-2003|ogol:TSV 1860 München:1963-2003|rsssf:1860 München:1947-1962|rsssf:TSV 1860 München:1926-1942|rsssf:TSV München 1860:1932
+Tasmania Berlin,,Berlim,GER,engsoccerdata:Tasmania 1900 Berlin:1965|ogol:Tasmania Berlin:1965|rsssf:Tasmania 1900 Berlin:1958-1961|rsssf:Tasmania Berlin:1958-1961|rsssf:TuFC Tasmania Rixdorf:1909-1910|rsssf:TuFC Tasmania Rixdorf Berlin:1908
+Tennis Borussia Berlin,,Berlim,GER,engsoccerdata:TeBe Berlin:1974-1976|ogol:Tennis Berlin:1974-1976|rsssf:Tennis Bor. Berlin:1951-1957|rsssf:Tennis Borussia Berlin:1927-1957
+Titania Stettin,,Stettin,GER,rsssf:FC Titania 02 Stettin:1919-1929
+TuRU Düsseldorf,,Düsseldorf,GER,rsssf:TuRU 1880 Düsseldorf:1924
+TuS Koblenz,,Koblenz,GER,rsssf:SpVgg Neuendorf:1947|rsssf:TuS Neuendorf:1942-1955
+Union 06 Berlin,,Berlim,GER,rsssf:Union 06 Berlin:1949-1952|rsssf:Union Berlin:1952
+Union 92 Berlin,,Berlim,GER,rsssf:BTuFC Union 1892:1904|rsssf:BTuFC Union 1892 Berlin:1905
+Union Böckingen,,Heilbronn,GER,rsssf:FV Union 08 Böckingen:1933
+VfB Bielefeld,,Bielefeld,GER,rsssf:VfB 1903 Bielefeld:1930
+VfB Königsberg,,Königsberg,GER,rsssf:VfB Königsberg:1907-1943
+VfB Leipzig,,Leipzig,GER,engsoccerdata:VfB Leipzig:1993|football-data:Leipzig:1993|ogol:VfB Leipzig (1991):1993|rsssf:VfB Leipzig:1902-1929
+VfB Liegnitz,,Liegnitz,GER,rsssf:VfB Liegnitz:1930
+Stuttgart,,Stuttgart,GER,engsoccerdata:VfB Stuttgart:1963-2024|espn:VfB Stuttgart:2001-2025|football-data:Stuttgart:1993-2025|ogol:Stuttgart:1963-2025|rsssf:VfB Stuttgart:1934-1955
+KSG VfL 99/Sülz 07 Köln,,Colônia,GER,rsssf:KSG VfL 99 Köln/Sülz 07:1943
+VfL Benrath,,Düsseldorf,GER,rsssf:VfL 06 Benrath:1929-1934|rsssf:VfL Benrath:1931-1932
 Bochum,,Bochum,GER,engsoccerdata:VfL Bochum:1971-2024|espn:VfL Bochum:2002-2024|football-data:Bochum:1994-2024|ogol:VfL Bochum:1971-2024
+VfL Köln 99,,Colônia,GER,rsssf:VfL Köln 99:1940
+VfL Neckarau,,Mannheim,GER,rsssf:VfL 1884 Neckarau:1940
+VfL Osnabrück,,Osnabrück,GER,rsssf:VfL Osnabrück:1938-1951
+VfL Stettin,,Stettin,GER,rsssf:VfL Stettin:1939
 Wolfsburg,,Wolfsburg,GER,engsoccerdata:VfL Wolfsburg:1997-2024|espn:VfL Wolfsburg:2001-2025|football-data:Wolfsburg:1997-2025|ogol:Wolfsburg:1997-2025
-Waldhof Mannheim,,Mannheim,GER,engsoccerdata:Waldhof Mannheim:1983-1989|ogol:SV Waldhof Mannheim 07:1983-1989
-Werder Bremen,,Bremen,GER,engsoccerdata:Werder Bremen:1963-2024|espn:Werder Bremen:2001-2025|football-data:Werder Bremen:1993-2025|ogol:Werder Bremen:1963-2025
+VfR Breslau,,Breslau,GER,rsssf:VfR 1897 Breslau:1907-1909
+VfR Köln,,Colônia,GER,rsssf:VfR 04 Köln:1934-1936|rsssf:VfR 1904 Köln:1925
+VfR Mannheim,,Mannheim,GER,rsssf:VfR Mannheim:1948-1949|rsssf:VfR Mannheim 1896:1924-1943
+VfTuR München-Gladbach,,Mönchengladbach,GER,rsssf:VfTuR München-Gladbach:1919
+Victoria Hamburg,,Hamburgo,GER,rsssf:FC Victoria Hamburg:1904-1906|rsssf:SC Victoria Hamburg:1942
+Victoria Köln 1911,,Colônia,GER,rsssf:SV Victoria 11 Köln:1942
+Viktoria Berlin,,Berlim,GER,rsssf:Berliner FC Viktoria 89:1906-1933|rsssf:Viktoria 89 Berlin:1955|rsssf:Viktoria Berlin:1954
+Viktoria Forst,,Forst,GER,rsssf:FC Viktoria 1901 Forst:1921-1925
+Viktoria Magdeburg,,Magdeburg,GER,rsssf:Magdeburger FC Viktoria:1903|rsssf:SV Viktoria Magdeburg 96:1902
+Viktoria Stolp,,Stolp,GER,rsssf:SV Viktoria 09 Stolp:1933-1938|rsssf:SV Viktoria Stolp:1931
+Vorwärts 1890 Berlin,,Berlim,GER,rsssf:BFC Vorwärts 1890:1920
+Vorwärts-Rasensport Gleiwitz,,Gleiwitz,GER,rsssf:SpVgg Vorwärts Gleiwitz:1932-1940|rsssf:SpVgg Vorwärts Rasensport Gleiwitz:1940|rsssf:Vorwärts Rasensport Gl.:1940
+WSV Celle,,Celle,GER,rsssf:Wehrmacht SV Celle:1943
+Wacker Halle,,Halle,GER,rsssf:FC Wacker Halle:1920-1933
+Wacker Leipzig,,Leipzig,GER,rsssf:FC Wacker 95 Leipzig:1928|rsssf:SC Wacker 95 Leipzig:1907
+Wacker München,,Munique,GER,rsssf:FC Wacker München:1921-1927
+Waldhof Mannheim,,Mannheim,GER,engsoccerdata:Waldhof Mannheim:1983-1989|ogol:SV Waldhof Mannheim 07:1983-1989|rsssf:SV Waldhof Mannheim:1933-1939
+Warnsdorfer FK,,Varnsdorf,CZE,rsssf:Warnsdorfer FK:1938
+Werder Bremen,,Bremen,GER,engsoccerdata:Werder Bremen:1963-2024|espn:Werder Bremen:2001-2025|football-data:Werder Bremen:1993-2025|ogol:Werder Bremen:1963-2025|rsssf:SV Werder Bremen:1933-1962|rsssf:Werder Bremen:1958-1960
+Westende Hamborn,,Duisburg,GER,rsssf:BSG Westende Hamborn:1942
+Westfalia Herne,,Herne,GER,rsssf:Westfalia Herne:1958-1959
+Wilhelmshaven 05,,Wilhelmshaven,GER,rsssf:SpVgg Wilhelmshaven 05:1942-1943
+Wormatia Worms,,Worms,GER,rsssf:VfR Wormatia Worms:1954|rsssf:Wormatia Worms:1935-1954
 Wuppertal,,Wuppertal,GER,engsoccerdata:Wuppertaler SV:1972-1974|ogol:Wuppertaler SV:1972-1974
+Yorck-Boyen Insterburg,,Insterburg,GER,rsssf:MSV Yorck-Boyen Insterb.:1937|rsssf:MSV York-Boyen Insterb.:1934

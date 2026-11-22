@@ -39,8 +39,14 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
     ],
     "ger-1": [
-        "Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): o Guilherme decidiu incluir "
-        "no mesmo ger-1 (22/11), depois da sco-1.",
+        "Era antiga (1902/03-1962/63, em antigo.py): entra só a fase final; as ligas regionais (Oberligen, Gauligen e as "
+        "ligas de antes) ficam de fora. Pendência se o painel quiser mostrar as regionais.",
+        "Era antiga: gols com autor só nas partidas com ficha (football box) na Wikipédia, quase sempre a final; artilheiros da "
+        "fase final não coletados (a infobox da Wikipédia tem o artilheiro de cada temporada).",
+        "Era antiga: 1947/48, três placares diferentes entre RSSSF e Wikipédia (en) nas quartas e na semifinal; ficou a RSSSF. "
+        "Conferir numa terceira fonte (kicker, Wikipédia em alemão).",
+        "Era antiga: a classificação final é o campeão, o vice e depois a fase alcançada (na mesma fase, posição no grupo e "
+        "campanha); não existe classificação oficial além do campeão e do vice.",
     ],
     "fra-1": [
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
@@ -58,8 +64,11 @@ PENDENCIAS: dict[str, list[str]] = {
         "revisão pode conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).",
     ],
     "ned-1": [
-        "Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse "
-        "profissional): o Guilherme decidiu incluir no mesmo ned-1 (22/11), depois da sco-1 (o ogol tem os calendários).",
+        "Era antiga (1888/89-1955/56, em antigo.py): de 1888/89 a 1896/97 e nas temporadas sem a fase final legível na "
+        "RSSSF, só o campeão e a tabela da Eerste Klasse, sem jogos; os jogos da fase final vêm da matriz da RSSSF, sem data "
+        "(datados só em 1954/55 e 1955/56). As ligas regionais ficam de fora.",
+        "Era antiga: tabelas da fase final que não fecham com os jogos por erro de digitação da RSSSF (1906/07, 1922/23, "
+        "1923/24); ficam anotadas no relatório, sem explicação escrita.",
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
         "Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, "
         "BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a "
@@ -153,7 +162,7 @@ def ficha(slug: str) -> tuple[str, dict]:
     gols_por_t = Counter(temporada_de.get(g["partida_id"]) for g in gols)
     cart_por_t = Counter(temporada_de.get(c["partida_id"]) for c in cart)
     est_jogos = {e["partida_id"] for e in est}
-    total_gols = sum(int(p["gols_mandante"]) + int(p["gols_visitante"]) for p in part)
+    total_gols = sum(int(p["gols_mandante"] or 0) + int(p["gols_visitante"] or 0) for p in part)
 
     out = [f"# {comp['nome']} (`{slug}`) — documentação", "",
            f"Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/coleta/{slug}/pacote/` e do "
@@ -203,7 +212,7 @@ def ficha(slug: str) -> tuple[str, dict]:
         por_dec[decada(p["temporada"])].append(p)
     gols_dec, cart_dec, golsaut_dec, est_dec = Counter(), Counter(), Counter(), Counter()
     for p in part:
-        gols_dec[decada(p["temporada"])] += int(p["gols_mandante"]) + int(p["gols_visitante"])
+        gols_dec[decada(p["temporada"])] += int(p["gols_mandante"] or 0) + int(p["gols_visitante"] or 0)
         if p["id"] in est_jogos:
             est_dec[decada(p["temporada"])] += 1
     for t, n in gols_por_t.items():

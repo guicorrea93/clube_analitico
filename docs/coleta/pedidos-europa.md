@@ -430,3 +430,121 @@ O Guilherme respondeu às decisões D-01 a D-25 de `docs/revisao/decisoes-guilhe
 - **As outras:** vale a recomendação de cada uma.
 
 Os ids que esperavam essas decisões estão liberados no seu plano. As correções continuam esperando a largada do Guilherme.
+
+## Recado de fim de coleta — ned-1 (era antiga) — 22/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Holandês de antes da Eredivisie, 1888/89 a 1955/56, no mesmo `ned-1` (decisão do
+   Guilherme). O pacote agora vai de 1888/89 a 2025/26:
+   - era antiga: 68 edições, 796 jogos (24 com data), 66 clubes;
+   - títulos da era antiga: HVV Den Haag 10, Ajax 8, Sparta e Feyenoord 5; no total, Ajax 36, PSV 27, Feyenoord 16.
+
+   Fontes e regras:
+   - **RSSSF:** uma página por temporada e a lista de campeões (`nedchamp.html`);
+   - **o que entra:** a fase final entre os campeões regionais, em pontos corridos. Os jogos vêm da matriz de resultados
+     (sem data); em 1954/55 e 1955/56, jogos datados. Entram também a tabela da RSSSF (conferida com os jogos) e o campeão
+     oficial em 1º;
+   - **sem jogos:** de 1888/89 a 1899/00 e onde a página não traz a fase final legível, só o campeão e a tabela da Eerste
+     Klasse;
+   - **conferência:** 51 tabelas fecham com os jogos e 3 não (erro de digitação da RSSSF).
+   - Código em `coleta/ned-1/antigo.py` e `rsssf_antigo.py`; clubes antigos em `clubes_ned.py`.
+2. **Commit:** a fazer, junto com o ger-1, com o ok do Guilherme.
+3. **Teste de carga:** "ned-1: 138 edições, 21878 jogos, 39 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - recarregar o `ned-1`. Fases novas: "Fase final" e "Eerste Klasse", ambas de tipo liga;
+   - **jogos sem data** em quase toda a era antiga (`data` vazia);
+   - **edições sem jogos** (1888/89–1899/00 e 1914/15), só com a tabela publicada e a classificação;
+   - **1914/15 e 1939/40:** títulos não oficiais na época, contados hoje (motivo na `observacao`);
+   - **sem campeonato:** 1944/45 (guerra);
+   - **sem campeão:** 1892/93 e 1896/97. A lista da RSSSF começa em 1890/91, então 1888/89 e 1889/90 também ficam sem
+     campeão.
+5. **Decisões tomadas, com o motivo:**
+   - (a) entra só a fase final; as ligas regionais ficam de fora (o título era decidido nela);
+   - (b) o campeão é o da lista oficial e fica em 1º mesmo quando a tabela da RSSSF o põe empatado: o título era decidido em
+     jogo de desempate, que fica fora dos jogos e é citado no relatório;
+   - (c) punição tirada da tabela da RSSSF quando a linha fecha com os jogos, menos nos pontos.
+
+   Nada espera o Guilherme.
+6. **O que não deu para coletar:**
+   - datas dos jogos antes de 1954/55;
+   - jogos de 1888/89 a 1899/00;
+   - autores dos gols;
+   - ligas regionais.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 3 tabelas que não fecham (1906/07, 1922/23, 1923/24);
+   - a identidade dos clubes antigos que mudaram de nome (BVV/Den Bosch, SVV, DWS, GVAV, Fortuna '54).
+8. **Próxima tarefa:** `bel-1`.
+
+## Recado de fim de coleta — ger-1 (era antiga) — 22/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Alemão de antes da Bundesliga, 1902/03 a 1962/63, no mesmo `ger-1` (decisão do
+   Guilherme). O pacote agora vai de 1902/03 a 2025/26:
+   - era antiga: 61 edições, 1.083 jogos (670 com data, 53 com estádio e público), 188 gols com autor, 170 clubes;
+   - títulos da era antiga: Nuremberg 8, Schalke 7, VfB Leipzig, Greuther Fürth, Hamburgo e Dortmund 3.
+
+   Fontes e regras:
+   - **RSSSF:** uma página por temporada até 1943/44 (`duit1903.html`...), a `duithist4763.html` de 1947/48 a 1962/63 e a
+     lista de campeões (`duitchamp.html`);
+   - **Wikipédia (en):** ficha das partidas com football box (estádio, público, árbitro, gols com minuto), quase sempre a
+     final;
+   - **o que entra:** a fase final:
+     - até 1932/33, mata-mata;
+     - de 1933/34 a 1940/41, grupos e mata-mata;
+     - de 1941/42 a 1949/50, mata-mata;
+     - de 1950/51 a 1962/63, dois grupos e final.
+   - Código em `coleta/ger-1/antigo.py` e `rsssf_antigo.py`; clubes antigos em `clubes_ger.py`.
+2. **Commit:** a fazer, junto com o ned-1, com o ok do Guilherme.
+3. **Teste de carga:** "ger-1: 124 edições, 20303 jogos, 135 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - recarregar o `ger-1`. Fases novas, de tipo `mata_mata` (jogo único) e `grupos`:
+     - Fase preliminar, eliminatórias, Primeira a Quinta fase;
+     - Fase de grupos, com grupos "Grupo 1", "Grupo 2A"...;
+     - "Final de grupo", ida e volta, que junta os grupos A e B em 1938/39–1940/41;
+     - Oitavas, Quartas, Fase intermediária, Semifinal, Disputa de 3º lugar e Final;
+   - **jogos de desempate** (replay) ficam na mesma fase, com "jogo de desempate" na `observacao`;
+   - **resultados especiais:**
+     - 5 `wo` (sem placar; o vencedor está na `observacao`);
+     - 2 `n/p` (não jogados: o 1º jogo de 1902/03 e a final de 1903/04);
+     - 1 `abd` (final de 1921/22, interrompida em 1-1);
+   - **sem campeonato:** 1914/15–1918/19 e 1944/45–1946/47, com `campeao` vazio e o motivo na `observacao`;
+   - **sem campeão:** 1903/04 (final anulada) e 1921/22 (título não atribuído);
+   - **clubes de fora da Alemanha de hoje:**
+     - Viena 1938–44 (Rapid Viena, Admira Wacker, First Vienna): `AUT`;
+     - Praga e Sudetos: `CZE`;
+     - Cracóvia, Varsóvia e Posen: `POL`;
+     - Estrasburgo: `FRA`;
+     - **Mulhouse:** o mesmo clube do `fra-1` (FC Mühlhausen 93 na anexação);
+   - **pontos na classificação final:** 2 por vitória, só como resumo da campanha (o título não era por pontos).
+5. **Decisões tomadas, com o motivo:**
+   - (a) entra só a fase final, onde o título era decidido;
+   - (b) a classificação final é o campeão oficial em 1º, o vice em 2º e depois a fase alcançada. Na mesma fase, contam a
+     posição no grupo e a campanha. Não existe classificação oficial além de campeão e vice;
+   - (c) clube que existe até hoje fica com o nome atual:
+     - SpVgg Fürth = Greuther Fürth;
+     - 1. SV Jena = Carl Zeiss Jena;
+     - TuS Neuendorf = TuS Koblenz;
+     - FV Saarbrücken = Saarbrücken;
+     - Union Oberschöneweide = Union Berlin;
+     - Britannia 1892 = Berliner SV 92;
+     - Tasmania Rixdorf = Tasmania Berlin.
+
+     Clube extinto fica com o nome e a cidade da época. O "Union Berlin" de 1952/53 é o Union 06 (Berlim Ocidental);
+   - (d) data: onde a Wikipédia tem a ficha da partida, vale a dela. A RSSSF erra em casos conferidos (final de 1941 em
+     22/06; Kaiserslautern com dois jogos em 03/07/1949). A diferença fica anotada no relatório;
+   - (e) placar: fica o da RSSSF. As diferenças da Wikipédia ficam anotadas no relatório.
+
+   Nada espera o Guilherme.
+6. **O que não deu para coletar:**
+   - ligas regionais (Oberligen, Gauligen e as de antes);
+   - artilheiros da era antiga;
+   - gols com autor fora das partidas com ficha na Wikipédia;
+   - datas dos jogos de grupo de 1933/34 a 1940/41 (a RSSSF dá só a matriz).
+7. **Onde a revisão deve olhar primeiro:**
+   - 1947/48: três placares diferentes entre RSSSF e Wikipédia (en). Ficou a RSSSF; conferir no kicker ou na Wikipédia em
+     alemão;
+   - as duas tabelas de grupo com erro de digitação da RSSSF (1956/57 e 1962/63, explicadas no relatório);
+   - a identidade dos clubes que mudaram de nome (lista no item 5c) e o país dos clubes das regiões anexadas.
+8. **Próxima tarefa:** `bel-1`.

@@ -130,6 +130,27 @@ def espn() -> None:
         print(f"espn {temporada(a)}: {len(js)} jogos, {sum(1 for j in js if j['lances'])} com lances", flush=True)
 
 
+
+def antigo() -> None:
+    """Era antiga (1902/03-1962/63, antes da Bundesliga): página da RSSSF de cada temporada (tablesd/duit1903.html ...
+    duit1963.html, pelo ano final: fase final do campeonato alemão e ligas regionais) e o artigo da Wikipédia em inglês
+    ("1902–03 German football championship"). Em data/coleta/ger-1/rsssf/ e wikipedia/."""
+    from wikipedia import wikitexto
+    for f in range(1903, 1964):
+        nome = f"duit{f}.html"
+        d = pegar(f"https://www.rsssf.org/tablesd/{nome}", DADOS / "rsssf" / nome, espera=2.0)
+        print(f"rsssf {nome}: {len(d or b'')} bytes", flush=True)
+    pasta = DADOS / "wikipedia"
+    for a in range(1902, 1963):
+        t = f"{a}–{str(a + 1)[-2:] if (a + 1) % 100 else a + 1} German football championship"
+        arq = pasta / (t + ".wiki")
+        if arq.exists():
+            continue
+        txt = wikitexto("en", t, espera=1.5)
+        if txt:
+            arq.write_text(txt, encoding="utf-8")
+        print(f"wiki {t}: {len(txt or '')}", flush=True)
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1963-1990" passa a faixa de temporadas

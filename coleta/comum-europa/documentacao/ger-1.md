@@ -4,12 +4,12 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 63, de 1963/64 a 2025/26.
-- **Jogos:** 19220; **gols:** 58983; **gols com autor:** 22512 (38%); **cartões:** 30251; **jogos com estatísticas** (chutes, faltas, escanteios): 7649.
-- **Clubes:** 58; **artilheiros:** 63 temporadas com artilheiro (74 linhas, com empates).
-- **Classificação final:** 63 temporadas; **rodada a rodada:** 63 temporadas.
-- **Tabelas publicadas guardadas para conferência:** 2264 linhas, de 126 tabelas.
-- **Observação da competição:** Bundesliga, desde a criação (1963/64). Não inclui os campeonatos alemães de antes (1902/03-1962/63: ligas regionais e fase final), os da Alemanha Oriental (DDR-Oberliga) nem os play-offs de rebaixamento (Relegation) contra clubes da 2. Bundesliga.
+- **Edições:** 124, de 1963/64 a 1962/63.
+- **Jogos:** 20303; **gols:** 63752; **gols com autor:** 22700 (36%); **cartões:** 30251; **jogos com estatísticas** (chutes, faltas, escanteios): 7649.
+- **Clubes:** 194; **artilheiros:** 63 temporadas com artilheiro (74 linhas, com empates).
+- **Classificação final:** 116 temporadas; **rodada a rodada:** 63 temporadas.
+- **Tabelas publicadas guardadas para conferência:** 2502 linhas, de 147 tabelas.
+- **Observação da competição:** Campeonato alemão desde 1902/03: até 1962/63, ligas regionais e fase final (mata-mata e/ou grupos) entre os campeões regionais (no pacote, a fase final e o campeão oficial); desde 1963/64, a Bundesliga. Não inclui a Alemanha Oriental (DDR-Oberliga) nem os play-offs de rebaixamento (Relegation) contra clubes da 2. Bundesliga.
 
 ## 2. Fontes e regras
 
@@ -19,8 +19,8 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 - football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time;
 - ogol: rodada oficial de cada jogo e conferência de placar; completa as temporadas em que a base falha; calendários guardados em `data/cache/ogol-ger-1/` para os escudos;
 - ESPN (liga `ger.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
-- RSSSF: tabela final de cada temporada e lista de artilheiros de cada temporada (com o clube);
-- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições) e lista de campeões (com os gols do artilheiro).
+- RSSSF: tabela final de cada temporada e lista de artilheiros de cada temporada (com o clube); até 1962/63, os jogos da fase final (tablesd/duit1903.html ... duit1944.html e duithist4763.html) e a lista de campeões (duitchamp.html);
+- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições) e lista de campeões (com os gols do artilheiro); até 1962/63, a ficha das partidas com "football box" (estádio, público, árbitro, gols com minuto).
 
 **Regras da importação:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Berlim). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96. Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
@@ -28,9 +28,9 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 123 tabelas fecham com os jogos e 3 divergem (divergência sempre explicada no relatório).
-- Temporadas em que nenhuma tabela publicada fecha: nenhuma.
-- Temporadas com alguma tabela divergente: 1969/70, 1979/80, 1993/94.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 183 tabelas fecham com os jogos e 5 divergem (divergência sempre explicada no relatório).
+- Temporadas em que nenhuma tabela publicada fecha: 1902/03, 1903/04, 1904/05, 1905/06, 1906/07, 1907/08, 1908/09, 1909/10, 1910/11, 1911/12, 1912/13, 1913/14, 1919/20, 1920/21, 1921/22, 1922/23, 1923/24, 1924/25, 1925/26, 1926/27, 1927/28, 1928/29, 1929/30, 1930/31, 1931/32, 1932/33, 1941/42, 1942/43, 1943/44, 1947/48, 1948/49, 1949/50.
+- Temporadas com alguma tabela divergente: 1969/70, 1979/80, 1993/94, 1956/57, 1962/63.
 - Temporadas com número de jogos diferente do turno e returno completo: nenhuma.
 
 ## 4. Cobertura de cada campo, por década
@@ -39,7 +39,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Jogos | data | hora | rodada | estádio | público | árbitro | estatísticas | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1960s | 2010 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1900s | 54 | 98% | 0% | 0% | 19% | 4% | 28% | 0% | 10% | 0.0 |
+| 1910s | 34 | 100% | 0% | 0% | 6% | 6% | 6% | 0% | 1% | 0.0 |
+| 1920s | 119 | 100% | 0% | 0% | 7% | 7% | 7% | 0% | 5% | 0.0 |
+| 1930s | 415 | 19% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1940s | 174 | 66% | 0% | 0% | 14% | 14% | 14% | 0% | 12% | 0.0 |
+| 1950s | 221 | 94% | 0% | 0% | 3% | 3% | 3% | 0% | 3% | 0.0 |
+| 1960s | 2076 | 100% | 0% | 97% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
@@ -55,23 +61,108 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1965/66 a 1990/91: 18 clubes
 - 1991/92: 20 clubes
 - 1992/93 a 2025/26: 18 clubes
+- 1902/03: 6 clubes
+- 1903/04: 8 clubes
+- 1904/05: 7 clubes
+- 1905/06: 8 clubes
+- 1906/07: 6 clubes
+- 1907/08 a 1908/09: 8 clubes
+- 1909/10: 9 clubes
+- 1910/11 a 1911/12: 8 clubes
+- 1912/13: 7 clubes
+- 1913/14: 8 clubes
+- 1914/15 a 1918/19:  clubes
+- 1919/20: 8 clubes
+- 1920/21: 7 clubes
+- 1921/22: 8 clubes
+- 1922/23: 6 clubes
+- 1923/24: 7 clubes
+- 1924/25 a 1937/38: 16 clubes
+- 1938/39 a 1939/40: 18 clubes
+- 1940/41: 20 clubes
+- 1941/42: 8 clubes
+- 1942/43: 29 clubes
+- 1943/44: 31 clubes
+- 1944/45 a 1946/47:  clubes
+- 1947/48: 14 clubes
+- 1948/49: 10 clubes
+- 1949/50: 16 clubes
+- 1950/51 a 1952/53: 8 clubes
+- 1953/54: 6 clubes
+- 1954/55 a 1962/63: 9 clubes
 
 **Pontos por vitória:**
 
 - 1963/64 a 1994/95: 2
 - 1995/96 a 2025/26: 3
+- 1902/03 a 1962/63: 2
 
 **Nome oficial:**
 
 - 1963/64 a 2025/26: Bundesliga
+- 1902/03 a 1962/63: Campeonato Alemão
 
 **Temporadas com mais de uma fase ou fora dos pontos corridos:**
 
-- nenhuma
+- 1902/03: Primeira fase (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1903/04: Primeira fase (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1904/05: Quartas de final (mata_mata, jogo_unico); Fase intermediária (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1905/06: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1906/07: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1907/08: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1908/09: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1909/10: Fase preliminar (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1910/11: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1911/12: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1912/13: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1913/14: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1919/20: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1920/21: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1921/22: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1922/23: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1923/24: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1924/25: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1925/26: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1926/27: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1927/28: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1928/29: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1929/30: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1930/31: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1931/32: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1932/33: Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1933/34: Fase de grupos (grupos, pontos_corridos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1934/35: Fase de grupos (grupos, pontos_corridos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1935/36: Fase de grupos (grupos, pontos_corridos); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1936/37: Fase de grupos (grupos, pontos_corridos); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1937/38: Fase de grupos (grupos, pontos_corridos); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1938/39: Fase de grupos (grupos, pontos_corridos); Final de grupo (mata_mata, ida_volta); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1939/40: Fase de grupos (grupos, pontos_corridos); Final de grupo (mata_mata, ida_volta); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1940/41: Fase de grupos (grupos, pontos_corridos); Final de grupo (mata_mata, ida_volta); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1941/42: Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1942/43: Fase preliminar (mata_mata, jogo_unico); Eliminatória (mata_mata, jogo_unico); Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1943/44: Fase preliminar (mata_mata, jogo_unico); Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1947/48: 1ª eliminatória (mata_mata, jogo_unico); 2ª eliminatória (mata_mata, jogo_unico); 3ª eliminatória (mata_mata, jogo_unico); Primeira fase (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1948/49: Eliminatória (mata_mata, jogo_unico); 2ª eliminatória (mata_mata, jogo_unico); Primeira fase (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1949/50: Primeira fase (mata_mata, jogo_unico); Segunda fase (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1950/51: Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1951/52: Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1952/53: Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1953/54: Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1954/55: 1ª eliminatória (mata_mata, jogo_unico); 2ª eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1955/56: 1ª eliminatória (mata_mata, jogo_unico); 2ª eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1956/57: Eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1957/58: Eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1958/59: Eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1959/60: Eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1960/61: Eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1961/62: Eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
+- 1962/63: Eliminatória (mata_mata, jogo_unico); Fase de grupos (grupos, pontos_corridos); Final (mata_mata, jogo_unico)
 
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
+- jogo único; empate com prorrogação e novo jogo: 171 temporadas
 - pontos, saldo de gols, gols pró: 47 temporadas
+- pontos (2 por vitória), depois média de gols: 21 temporadas
 - pontos, confronto direto, saldo de gols, gols pró: 13 temporadas
 - pontos, média de gols (goal average): 3 temporadas
 
@@ -80,24 +171,52 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1993/94: punições: Dynamo Dresden -4 pontos
 - 1999/00: punições: Eintracht Frankfurt -2 pontos
 - 2003/04: punições: Kaiserslautern -3 pontos
+- 1903/04: final não jogada: a federação anulou a fase final depois do protesto do Karlsruher FV; sem campeão
+- 1914/15: sem campeonato (Primeira Guerra Mundial)
+- 1915/16: sem campeonato (Primeira Guerra Mundial)
+- 1916/17: sem campeonato (Primeira Guerra Mundial)
+- 1917/18: sem campeonato (Primeira Guerra Mundial)
+- 1918/19: sem campeonato (Primeira Guerra Mundial)
+- 1921/22: título não atribuído: a final entre Hamburger SV e Nürnberg teve dois jogos sem vencedor (2-2 e o segundo interrompido em 1-1); a federação deu o título ao Hamburgo, que renunciou a ele
+- 1944/45: sem campeonato (Segunda Guerra Mundial)
+- 1945/46: sem campeonato (pós-guerra: só as ligas regionais das zonas de ocupação)
+- 1946/47: sem campeonato (pós-guerra: só as ligas regionais das zonas de ocupação)
 
 ## 6. Campeões, rebaixados e punições
 
 **Títulos:**
 
-- Bayern de Munique: 34
+- Bayern de Munique: 35
+- Nuremberg: 9
+- Borussia Dortmund: 8
+- Schalke 04: 7
+- Hamburgo: 6
 - Borussia Mönchengladbach: 5
-- Borussia Dortmund: 5
+- Stuttgart: 5
 - Werder Bremen: 4
-- Hamburgo: 3
-- Stuttgart: 3
-- Colônia: 2
-- Kaiserslautern: 2
+- Kaiserslautern: 4
+- Colônia: 3
+- VfB Leipzig: 3
+- Greuther Fürth: 3
+- Viktoria Berlin: 2
+- Hertha Berlin: 2
+- Hannover 96: 2
+- Dresdner SC: 2
 - 1860 Munique: 1
 - Eintracht Braunschweig: 1
-- Nuremberg: 1
 - Wolfsburg: 1
 - Bayer Leverkusen: 1
+- Union 92 Berlin: 1
+- Freiburger FC: 1
+- Phönix Karlsruhe: 1
+- Karlsruher FV: 1
+- Holstein Kiel: 1
+- Fortuna Düsseldorf: 1
+- Rapid Viena: 1
+- VfR Mannheim: 1
+- Rot-Weiss Essen: 1
+- Eintracht Frankfurt: 1
+- Sem campeão: 1903/04, 1914/15, 1915/16, 1916/17, 1917/18, 1918/19, 1921/22, 1944/45, 1945/46, 1946/47
 
 **Rebaixamentos:** 157 no total; quem mais caiu: Nuremberg (9), Arminia Bielefeld (8), Hertha Berlin (7), Bochum (7), Colônia (7).
 
@@ -124,16 +243,20 @@ Registradas em `coleta/ger-1/importar.py`; cada uma também aparece no relatóri
 - **Autores dos gols e cartões antes de 2001/02:** nenhuma fonte em lote traz.
 - **Público e estádio antes de 2001/02:** nenhuma fonte em lote.
 - **Play-offs de rebaixamento (Relegation) contra clubes da 2. Bundesliga:** ficam de fora (entram com a 2ª divisão).
-- **Campeonatos alemães de 1902/03 a 1962/63** (ligas regionais e fase final) e a **DDR-Oberliga**: ficam para depois.
+- **Ligas regionais de 1902/03 a 1962/63** (só a fase final entra) e a **DDR-Oberliga**: ficam para depois.
+- **Era antiga, além da fase final:** artilheiros, e gols com autor fora das partidas com ficha na Wikipédia.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.
 
 ## 9. Pendências e próximos passos
 
-- Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): o Guilherme decidiu incluir no mesmo ger-1 (22/11), depois da sco-1.
+- Era antiga (1902/03-1962/63, em antigo.py): entra só a fase final; as ligas regionais (Oberligen, Gauligen e as ligas de antes) ficam de fora. Pendência se o painel quiser mostrar as regionais.
+- Era antiga: gols com autor só nas partidas com ficha (football box) na Wikipédia, quase sempre a final; artilheiros da fase final não coletados (a infobox da Wikipédia tem o artilheiro de cada temporada).
+- Era antiga: 1947/48, três placares diferentes entre RSSSF e Wikipédia (en) nas quartas e na semifinal; ficou a RSSSF. Conferir numa terceira fonte (kicker, Wikipédia em alemão).
+- Era antiga: a classificação final é o campeão, o vice e depois a fase alcançada (na mesma fase, posição no grupo e campanha); não existe classificação oficial além do campeão e do vice.
 
 ## 10. Arquivos
 
-- Código: `coleta/ger-1/` (`edicoes.py`, `baixar.py`, `importar.py`); cadastro dos clubes em `coleta/comum-europa/clubes_ger.py`.
+- Código: `coleta/ger-1/` (`edicoes.py`, `baixar.py`, `importar.py`, leitor da RSSSF); cadastro dos clubes em `coleta/comum-europa/clubes_ger.py`.
 - Fontes baixadas: `data/coleta/ger-1/` (uma pasta por fonte); calendários do ogol (escudos) em `data/cache/ogol-ger-1/`.
 - Pacote: `data/coleta/ger-1/pacote/`; relatório: `docs/coleta/ger-1.md`.
 - Refazer do zero: `python coleta/ger-1/baixar.py ...` (ver o docstring), `python coleta/ger-1/importar.py`, `python coleta/comum-europa/testar_carga.py ger-1 <pasta temporária>` e `python coleta/comum-europa/documentar.py`.

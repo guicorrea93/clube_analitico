@@ -2,9 +2,9 @@
 
 Gerado por `python coleta/ned-1/importar.py`. Pacote em `data/coleta/ned-1/pacote/`.
 
-**Edições:** 70, de 1956/57 a 2025/26 (Eredivisie). Os campeonatos holandeses de antes (ligas regionais com fase final, 1888/89-1953/54, e a Hoofdklasse profissional de 1954/55 e 1955/56) ficam de fora.
+**Edições:** 138, de 1888/89 a 2025/26. Até 1955/56, o campeonato tinha ligas regionais e uma fase final entre os campeões regionais: entram a fase final (jogos da matriz da RSSSF, sem data; datados em 1954/55 e 1955/56) e o campeão oficial (lista da RSSSF), com os participantes da fase final na classificação. De 1888/89 a 1896/97 e onde a página não traz a fase final legível, só o campeão e a tabela da Eerste Klasse, sem jogos. 1944/45 sem campeonato. Desde 1956/57, a Eredivisie completa.
 
-**Total:** 21082 jogos, 64928 gols, 23019 gols com autor (ESPN), 24431 cartões, 54 clubes.
+**Total:** 21878 jogos, 68087 gols, 23019 gols com autor (ESPN), 24431 cartões, 93 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1956/57-2024/25;
@@ -20,6 +20,74 @@ Gerado por `python coleta/ned-1/importar.py`. Pacote em `data/coleta/ned-1/pacot
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
+| 1888/89 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1889/90 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1890/91 | RSSSF | 5 | 0 (0) | 0 | 0 | 0 / 0 | HVV Den Haag | — |
+| 1891/92 | RSSSF | 5 | 0 (0) | 0 | 0 | 0 / 0 | RAP Amsterdam | — |
+| 1892/93 | RSSSF | 4 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1893/94 | RSSSF | 6 | 0 (0) | 0 | 0 | 0 / 0 | RAP Amsterdam | — |
+| 1894/95 | RSSSF | 6 | 0 (0) | 0 | 0 | 0 / 0 | Koninklijke HFC | — |
+| 1895/96 | RSSSF | 7 | 0 (0) | 0 | 0 | 0 / 0 | HVV Den Haag | — |
+| 1896/97 | RSSSF | 7 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1897/98 | RSSSF | 7 | 0 (0) | 0 | 0 | 0 / 0 | RAP Amsterdam | — |
+| 1898/99 | RSSSF | 7 | 0 (0) | 0 | 0 | 0 / 0 | RAP Amsterdam | — |
+| 1899/00 | RSSSF | 7 | 0 (0) | 0 | 0 | 0 / 0 | HVV Den Haag | — |
+| 1900/01 | RSSSF | 2 | 2 (0) | 4 | 0 | 1 / 0 | HVV Den Haag | — |
+| 1901/02 | RSSSF | 2 | 2 (0) | 8 | 0 | 1 / 0 | HVV Den Haag | — |
+| 1902/03 | RSSSF | 3 | 6 (0) | 24 | 0 | 1 / 0 | HVV Den Haag | — |
+| 1903/04 | RSSSF | 3 | 6 (0) | 24 | 0 | 1 / 0 | HBS Den Haag | — |
+| 1904/05 | RSSSF | 2 | 2 (0) | 11 | 0 | 1 / 0 | HVV Den Haag | — |
+| 1905/06 | RSSSF | 2 | 2 (0) | 11 | 0 | 1 / 0 | HBS Den Haag | — |
+| 1906/07 | RSSSF | 2 | 2 (0) | 13 | 0 | 0 / 1 | HVV Den Haag | — |
+| 1907/08 | RSSSF | 2 | 2 (0) | 8 | 0 | 1 / 0 | Quick Den Haag | — |
+| 1908/09 | RSSSF | 2 | 2 (0) | 13 | 0 | 1 / 0 | Sparta Rotterdam | — |
+| 1909/10 | RSSSF | 2 | 2 (0) | 7 | 0 | 1 / 0 | HVV Den Haag | — |
+| 1910/11 | RSSSF | 2 | 2 (0) | 7 | 0 | 1 / 0 | Sparta Rotterdam | — |
+| 1911/12 | RSSSF | 2 | 2 (0) | 9 | 0 | 1 / 0 | Sparta Rotterdam | — |
+| 1912/13 | RSSSF | 2 | 2 (0) | 6 | 0 | 1 / 0 | Sparta Rotterdam | — |
+| 1913/14 | RSSSF | 3 | 6 (0) | 27 | 0 | 1 / 0 | HVV Den Haag | — |
+| 1914/15 | RSSSF | 2 | 0 (0) | 0 | 0 | 0 / 0 | Sparta Rotterdam | — |
+| 1915/16 | RSSSF | 3 | 6 (0) | 19 | 0 | 1 / 0 | Willem II | — |
+| 1916/17 | RSSSF | 4 | 12 (0) | 46 | 0 | 1 / 0 | Go Ahead Eagles | — |
+| 1917/18 | RSSSF | 5 | 20 (0) | 53 | 0 | 1 / 0 | Ajax | — |
+| 1918/19 | RSSSF | 5 | 20 (0) | 58 | 0 | 1 / 0 | Ajax | — |
+| 1919/20 | RSSSF | 4 | 12 (0) | 55 | 0 | 1 / 0 | Be Quick Groningen | — |
+| 1920/21 | RSSSF | 4 | 12 (0) | 46 | 0 | 1 / 0 | NAC Breda | — |
+| 1921/22 | RSSSF | 4 | 12 (0) | 31 | 0 | 1 / 0 | Go Ahead Eagles | — |
+| 1922/23 | RSSSF | 4 | 12 (0) | 41 | 0 | 0 / 1 | RCH Heemstede | — |
+| 1923/24 | RSSSF | 5 | 20 (0) | 69 | 0 | 0 / 1 | Feyenoord | — |
+| 1924/25 | RSSSF | 5 | 20 (0) | 84 | 0 | 1 / 0 | HBS Den Haag | — |
+| 1925/26 | RSSSF | 5 | 20 (0) | 91 | 0 | 1 / 0 | SC Enschede | — |
+| 1926/27 | RSSSF | 5 | 20 (0) | 58 | 0 | 1 / 0 | Heracles Almelo | — |
+| 1927/28 | RSSSF | 5 | 20 (0) | 79 | 0 | 1 / 0 | Feyenoord | — |
+| 1928/29 | RSSSF | 5 | 20 (0) | 78 | 0 | 1 / 0 | PSV | — |
+| 1929/30 | RSSSF | 5 | 20 (0) | 73 | 0 | 1 / 0 | Go Ahead Eagles | — |
+| 1930/31 | RSSSF | 5 | 20 (0) | 99 | 0 | 1 / 0 | Ajax | — |
+| 1931/32 | RSSSF | 5 | 20 (0) | 94 | 0 | 1 / 0 | Ajax | — |
+| 1932/33 | RSSSF | 5 | 20 (0) | 95 | 0 | 1 / 0 | Go Ahead Eagles | — |
+| 1933/34 | RSSSF | 5 | 20 (0) | 74 | 0 | 1 / 0 | Ajax | — |
+| 1934/35 | RSSSF | 5 | 20 (0) | 67 | 0 | 1 / 0 | PSV | — |
+| 1935/36 | RSSSF | 5 | 20 (0) | 99 | 0 | 1 / 0 | Feyenoord | — |
+| 1936/37 | RSSSF | 5 | 20 (0) | 76 | 0 | 1 / 0 | Ajax | — |
+| 1937/38 | RSSSF | 5 | 20 (0) | 73 | 0 | 1 / 0 | Feyenoord | — |
+| 1938/39 | RSSSF | 5 | 20 (0) | 86 | 0 | 1 / 0 | Ajax | — |
+| 1939/40 | RSSSF | 5 | 20 (0) | 87 | 0 | 1 / 0 | Feyenoord | — |
+| 1940/41 | RSSSF | 5 | 20 (0) | 73 | 0 | 1 / 0 | Heracles Almelo | — |
+| 1941/42 | RSSSF | 5 | 20 (0) | 63 | 0 | 1 / 0 | ADO Den Haag | — |
+| 1942/43 | RSSSF | 5 | 20 (0) | 78 | 0 | 1 / 0 | ADO Den Haag | — |
+| 1943/44 | RSSSF | 5 | 20 (0) | 92 | 0 | 1 / 0 | De Volewijckers | — |
+| 1944/45 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1945/46 | RSSSF | 6 | 30 (0) | 137 | 0 | 1 / 0 | Haarlem | — |
+| 1946/47 | RSSSF | 6 | 30 (0) | 138 | 0 | 1 / 0 | Ajax | — |
+| 1947/48 | RSSSF | 6 | 30 (0) | 114 | 0 | 1 / 0 | BVV | — |
+| 1948/49 | RSSSF | 6 | 30 (0) | 98 | 0 | 1 / 0 | SVV Schiedam | — |
+| 1949/50 | RSSSF | 6 | 30 (0) | 144 | 0 | 1 / 0 | Limburgia | — |
+| 1950/51 | RSSSF | 5 | 20 (0) | 86 | 0 | 1 / 0 | PSV | — |
+| 1951/52 | RSSSF | 4 | 12 (0) | 51 | 0 | 1 / 0 | Willem II | — |
+| 1952/53 | RSSSF | 4 | 12 (0) | 42 | 0 | 1 / 0 | RCH Heemstede | — |
+| 1953/54 | RSSSF | 4 | 12 (0) | 48 | 0 | 1 / 0 | SC Eindhoven | — |
+| 1954/55 | RSSSF | 4 | 12 (0) | 47 | 0 | 1 / 0 | Willem II | — |
+| 1955/56 | RSSSF | 4 | 12 (0) | 45 | 0 | 1 / 0 | Rapid JC Heerlen | — |
 | 1956/57 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1139 | 0 | 2 / 0 | Ajax | — |
 | 1957/58 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1135 | 0 | 2 / 0 | DOS Utrecht | — |
 | 1958/59 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1188 | 0 | 2 / 0 | Sparta Rotterdam | — |
@@ -92,6 +160,292 @@ Gerado por `python coleta/ned-1/importar.py`. Pacote em `data/coleta/ned-1/pacot
 | 2025/26 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 972 | 970 | 2 / 0 | PSV | — |
 
 ## Conferência e ocorrências, temporada a temporada
+
+### 1888/89
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+- a lista de campeões da RSSSF não traz esta temporada
+
+### 1889/90
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+- a lista de campeões da RSSSF não traz esta temporada
+
+### 1890/91
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1891/92
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1892/93
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1893/94
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1894/95
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1895/96
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1896/97
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1897/98
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1898/99
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1899/00
+
+- a página da RSSSF não tem a fase final em formato legível: entram o campeão oficial e a tabela publicada da Eerste Klasse, sem os jogos
+
+### 1900/01
+
+- nota da RSSSF: [*] Playoff: HVV - Victoria W.  2-1.
+- título decidido em jogo de desempate: HVV 2-1 Victoria W. (fica de fora dos jogos da fase final)
+
+### 1901/02
+
+- sem ocorrências
+
+### 1902/03
+
+- sem ocorrências
+
+### 1903/04
+
+- sem ocorrências
+
+### 1904/05
+
+- sem ocorrências
+
+### 1905/06
+
+- sem ocorrências
+
+### 1906/07
+
+- tabela publicada x jogos (RSSSF) — HVV Den Haag tabela [2, 2, 0, 0, 9, 3, 4] jogos [2, 2, 0, 0, 9, 4, 4]
+- tabela publicada x jogos (RSSSF) — PW Enschede tabela [2, 0, 0, 2, 3, 9, 0] jogos [2, 0, 0, 2, 4, 9, 0]
+
+### 1907/08
+
+- nota da RSSSF: [*] Playoff: Quick H. - UD  4-1.
+- título decidido em jogo de desempate: Quick H. 4-1 UD (fica de fora dos jogos da fase final)
+
+### 1908/09
+
+- sem ocorrências
+
+### 1909/10
+
+- sem ocorrências
+
+### 1910/11
+
+- sem ocorrências
+
+### 1911/12
+
+- sem ocorrências
+
+### 1912/13
+
+- sem ocorrências
+
+### 1913/14
+
+- sem ocorrências
+
+### 1914/15
+
+- nota da RSSSF: NB: at the time, this edition was not official and no national title
+- nota da RSSSF: [*] Playoff: Sparta - Vitesse  3-0.
+- título decidido em jogo de desempate: Sparta 3-0 Vitesse (fica de fora dos jogos da fase final)
+
+### 1915/16
+
+- sem ocorrências
+
+### 1916/17
+
+- sem ocorrências
+
+### 1917/18
+
+- sem ocorrências
+
+### 1918/19
+
+- sem ocorrências
+
+### 1919/20
+
+- sem ocorrências
+
+### 1920/21
+
+- sem ocorrências
+
+### 1921/22
+
+- nota da RSSSF: [*] Playoff: Go Ahead - Blauw-Wit  1-0 aet
+- título decidido em jogo de desempate: Go Ahead 1-0 Blauw-Wit (fica de fora dos jogos da fase final)
+
+### 1922/23
+
+- nota da RSSSF: [*] Willem II 2 points deducted.
+- punição tirada da tabela da RSSSF: Willem II -2 pontos
+- tabela publicada x jogos (RSSSF) — Go Ahead Eagles tabela [6, 2, 1, 5, 4, 8, 5] jogos [6, 2, 1, 3, 4, 8, 5]
+
+### 1923/24
+
+- tabela publicada x jogos (RSSSF) — NAC Breda tabela [8, 3, 1, 2, 11, 15, 7] jogos [8, 3, 1, 4, 11, 15, 7]
+- tabela publicada x jogos (RSSSF) — SC Enschede tabela [8, 2, 0, 4, 11, 17, 4] jogos [8, 2, 0, 6, 11, 17, 4]
+- tabela publicada x jogos (RSSSF) — Be Quick Groningen tabela [8, 2, 0, 4, 10, 17, 4] jogos [8, 2, 0, 6, 10, 17, 4]
+
+### 1924/25
+
+- sem ocorrências
+
+### 1925/26
+
+- sem ocorrências
+
+### 1926/27
+
+- sem ocorrências
+
+### 1927/28
+
+- sem ocorrências
+
+### 1928/29
+
+- sem ocorrências
+
+### 1929/30
+
+- sem ocorrências
+
+### 1930/31
+
+- sem ocorrências
+
+### 1931/32
+
+- sem ocorrências
+
+### 1932/33
+
+- sem ocorrências
+
+### 1933/34
+
+- nota da RSSSF: [*] Playoff:
+- nota da RSSSF: NB: Ajax champions on better goal average in regular stage championship playoff (2.61 vs. 2.29).
+
+### 1934/35
+
+- sem ocorrências
+
+### 1935/36
+
+- sem ocorrências
+
+### 1936/37
+
+- sem ocorrências
+
+### 1937/38
+
+- sem ocorrências
+
+### 1938/39
+
+- sem ocorrências
+
+### 1939/40
+
+- nota da RSSSF: NB: Feyenoord hosted GVAV, Juliana and Heracles on Sparta's ground
+
+### 1940/41
+
+- sem ocorrências
+
+### 1941/42
+
+- sem ocorrências
+
+### 1942/43
+
+- nota da RSSSF: NB: Feyenoord hosted Heerenveen in Amsterdam (Ajax-stadion)
+
+### 1943/44
+
+- sem ocorrências
+
+### 1944/45
+
+- sem campeonato (Segunda Guerra Mundial)
+
+### 1945/46
+
+- sem ocorrências
+
+### 1946/47
+
+- sem ocorrências
+
+### 1947/48
+
+- sem ocorrências
+
+### 1948/49
+
+- sem ocorrências
+
+### 1949/50
+
+- sem ocorrências
+
+### 1950/51
+
+- sem ocorrências
+
+### 1951/52
+
+- sem ocorrências
+
+### 1952/53
+
+- nota da RSSSF: [*] Playoff: RCH - Eindhoven  2-1 aet (2 periods of 7½ minutes extra time).
+- título decidido em jogo de desempate: RCH 2-1 Eindhoven (fica de fora dos jogos da fase final)
+
+### 1953/54
+
+- sem ocorrências
+
+### 1954/55
+
+- sem ocorrências
+
+### 1955/56
+
+- título decidido em jogo de desempate: Rapid J.C. 3-0 N.A.C. (fica de fora dos jogos da fase final)
 
 ### 1956/57
 

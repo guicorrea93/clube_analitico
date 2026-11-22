@@ -92,8 +92,8 @@ COMPETICAO = {
     "pais": "NED", "pais_nome": "Holanda", "regiao": None, "confederacao": "UEFA",
     "rotulo_painel": "Holandês", "menu_painel": "Holanda · 1ª divisão",
     "do_painel": "do Campeonato Holandês", "o_painel": "o Campeonato Holandês",
-    "observacao": "Eredivisie, desde a criação (1956/57). Não inclui os campeonatos holandeses de antes (ligas regionais com "
-                  "fase final, 1888/89-1953/54, e a Hoofdklasse profissional de 1954/55 e 1955/56) nem os play-offs de "
+    "observacao": "Campeonato holandês desde 1888/89: até 1955/56, ligas regionais e fase final entre os campeões regionais "
+                  "(no pacote, a fase final e o campeão oficial); desde 1956/57, a Eredivisie. Não inclui os play-offs de "
                   "vaga europeia e de rebaixamento (nacompetitie). 2019/20 foi cancelada pela covid-19, sem campeão.",
 }
 
@@ -908,6 +908,11 @@ def main() -> None:
               f"({autor_ano} c/ autor), critério {criterio}{'' if criterios[a][1] else ' (aprox.)'}, campeão "
               f"{'—' if sem_titulo else clubes.exibicao(campeao)}", flush=True)
 
+    # era antiga (1888/89-1955/56): fase final e campeão oficial (coleta/ned-1/antigo.py)
+    import antigo
+    linhas_rel = [(T, f, n, j, 0, g, au, ok, dv, camp, pun) for T, f, n, j, g, au, ok, dv, camp, pun
+                  in antigo.montar(tab, nomes, ocorr)] + linhas_rel
+
     # ---- clubes
     for c, (cidade, pais) in sorted(clubes.CLUBES.items()):
         exib = clubes.exibicao(c)
@@ -959,8 +964,11 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
     out = [
         "# Campeonato Holandês (Eredivisie) — coleta de dados", "",
         "Gerado por `python coleta/ned-1/importar.py`. Pacote em `data/coleta/ned-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1956/57 a 2025/26 (Eredivisie). Os campeonatos holandeses de antes (ligas regionais "
-        "com fase final, 1888/89-1953/54, e a Hoofdklasse profissional de 1954/55 e 1955/56) ficam de fora.", "",
+        f"**Edições:** {len(linhas)}, de 1888/89 a 2025/26. Até 1955/56, o campeonato tinha ligas regionais e uma fase final "
+        "entre os campeões regionais: entram a fase final (jogos da matriz da RSSSF, sem data; datados em 1954/55 e 1955/56) e "
+        "o campeão oficial (lista da RSSSF), com os participantes da fase final na classificação. De 1888/89 a 1896/97 e onde a "
+        "página não traz a fase final legível, só o campeão e a tabela da Eerste Klasse, sem jogos. 1944/45 sem campeonato. "
+        "Desde 1956/57, a Eredivisie completa.", "",
         f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
         f"{len(tab['clubes'])} clubes.", "",
         "**Fontes:**",

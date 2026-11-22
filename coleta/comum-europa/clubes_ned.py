@@ -78,6 +78,20 @@ CLUBES = {
     "SC Eindhoven": ("Eindhoven", "NED"),
     "Xerxes": ("Roterdã", "NED"),
     "Wageningen": ("Wageningen", "NED"),
+    # clubes da era antiga (1888/89-1955/56), só da fase final do título
+    "HVV Den Haag": ("Haia", "NED"), "HBS Den Haag": ("Haia", "NED"), "Koninklijke HFC": ("Haarlem", "NED"),
+    "RAP Amsterdam": ("Amsterdã", "NED"), "RC&VV Rotterdam": ("Roterdã", "NED"), "Victoria Rotterdam": ("Roterdã", "NED"),
+    "Victoria Wageningen": ("Wageningen", "NED"), "Olympia (1890)": (None, "NED"), "Concordia (1890)": (None, "NED"),
+    "Rapiditas (1894)": (None, "NED"), "Celeritas": (None, "NED"), "PW Enschede": ("Enschede", "NED"),
+    "Volharding": (None, "NED"), "Velocitas": (None, "NED"), "Quick Den Haag": ("Haia", "NED"),
+    "Quick Nijmegen": ("Nijmegen", "NED"), "UD Deventer": ("Deventer", "NED"), "GVC Wageningen": ("Wageningen", "NED"),
+    "Wilhelmina": ("'s-Hertogenbosch", "NED"), "UVV Utrecht": ("Utrecht", "NED"), "Be Quick Groningen": ("Groningen", "NED"),
+    "AFC Amsterdam": ("Amsterdã", "NED"), "VOC Rotterdam": ("Roterdã", "NED"), "Stormvogels": ("IJmuiden", "NED"),
+    "Frisia": ("Leeuwarden", "NED"), "ZAC Zwolle": ("Zwolle", "NED"), "KFC Koog aan de Zaan": ("Koog aan de Zaan", "NED"),
+    "Achilles": (None, "NED"), "Juliana": ("Spekholzerheide", "NED"), "VSV Velsen": ("Velsen", "NED"), "AGOVV": ("Apeldoorn", "NED"),
+    "LONGA": ("Lichtenvoorde", "NED"), "VUC Den Haag": ("Haia", "NED"), "RCH Heemstede": ("Heemstede", "NED"),
+    "EDO Haarlem": ("Haarlem", "NED"), "Hermes DVS": ("Schiedam", "NED"), "Maurits": ("Geleen", "NED"),
+    "Limburgia": ("Brunssum", "NED"), "Enschedese Boys": ("Enschede", "NED"),
 }
 
 OGOL: dict[str, str | list[tuple[int, int, str]]] = {
@@ -101,6 +115,17 @@ OGOL: dict[str, str | list[tuple[int, int, str]]] = {
 }
 
 ALIASES = {
+    # RSSSF, era antiga
+    "H.V.V.": "HVV Den Haag", "HVV": "HVV Den Haag", "H.B.S.": "HBS Den Haag", "HBS": "HBS Den Haag",
+    "H.F.C.": "Koninklijke HFC", "R.A.P.": "RAP Amsterdam", "R.C. en V.V.": "RC&VV Rotterdam", "Victoria": "Victoria Rotterdam",
+    "Victoria W.": "Victoria Wageningen", "Olympia": "Olympia (1890)", "Concordia": "Concordia (1890)",
+    "Rapiditas": "Rapiditas (1894)", "PW": "PW Enschede", "Quick H.": "Quick Den Haag", "Quick N.": "Quick Nijmegen",
+    "Quick": "Quick Den Haag", "UD": "UD Deventer", "GVC": "GVC Wageningen", "UVV": "UVV Utrecht", "Be Quick G.": "Be Quick Groningen",
+    "Be Quick": "Be Quick Groningen", "AFC": "AFC Amsterdam", "VOC": "VOC Rotterdam", "ZAC": "ZAC Zwolle",
+    "KFC": "KFC Koog aan de Zaan", "K.F.C.": "KFC Koog aan de Zaan", "VSV": "VSV Velsen", "V.S.V.": "VSV Velsen",
+    "A.G.O.V.V.": "AGOVV", "L.O.N.G.A.": "LONGA", "VUC": "VUC Den Haag", "RCH": "RCH Heemstede", "R.C.H.": "RCH Heemstede",
+    "EDO": "EDO Haarlem", "E.D.O.": "EDO Haarlem", "Hermes D.V.S.": "Hermes DVS", "Enschedese B.": "Enschedese Boys",
+
     # engsoccerdata
     "AFC Ajax": "Ajax", "PSV Eindhoven": "PSV", "Feijenoord": "Feyenoord", "AZ '67 Alkmaar": "AZ Alkmaar",
     "VV Alkmaar '54": "Alkmaar '54", "FC Twente": "Twente", "Sportclub Enschede": "SC Enschede", "FC Utrecht": "Utrecht",
@@ -141,18 +166,18 @@ ALIASES = {
 POR_ANO = {
     # o engsoccerdata chama de "Fortuna Sittard" também o Fortuna '54 (1956/57-1966/67)
     # (a fusão com o Sittardia foi em 1968: em 1967/68 os dois ainda jogaram, como na tabela da RSSSF e da Wikipédia)
-    "Fortuna Sittard": [(1956, 1967, "Fortuna '54"), (1968, 9999, "Fortuna Sittard")],
-    "Fortuna": [(1956, 1967, "Fortuna '54"), (1968, 9999, "Fortuna Sittard")],
+    "Fortuna Sittard": [(1888, 1967, "Fortuna '54"), (1968, 9999, "Fortuna Sittard")],
+    "Fortuna": [(1888, 1967, "Fortuna '54"), (1968, 9999, "Fortuna Sittard")],
     # "Amsterdam" na RSSSF: o BVC Amsterdam (DWS) de 1956-1958 ou o FC Amsterdam de 1972-1978
-    "Amsterdam": [(1956, 1958, "DWS Amsterdam"), (1972, 9999, "FC Amsterdam")],
+    "Amsterdam": [(1888, 1958, "DWS Amsterdam"), (1972, 9999, "FC Amsterdam")],
     # "BVV" de 1956/57 e 1957/58 é o clube antigo; o "BVV Den Bosch" de 1988-1990 é o FC Den Bosch
-    "BVV": [(1956, 1964, "BVV"), (1965, 9999, "Den Bosch")], "B.V.V.": [(1956, 1964, "BVV"), (1965, 9999, "Den Bosch")],
+    "BVV": [(1888, 1964, "BVV"), (1965, 9999, "Den Bosch")], "B.V.V.": [(1888, 1964, "BVV"), (1965, 9999, "Den Bosch")],
     # "Groningen" na Wikipédia e na RSSSF: GVAV até 1970/71, FC Groningen depois
-    "Groningen": [(1956, 1970, "GVAV"), (1971, 9999, "Groningen")],
+    "Groningen": [(1888, 1970, "GVAV"), (1971, 9999, "Groningen")],
     # SVV: o de Schiedam até 1990/91; "SVV" depois da fusão com o Dordrecht '90 (1991/92) é o Dordrecht
-    "SVV": [(1956, 1990, "SVV Schiedam"), (1991, 9999, "Dordrecht")], "S.V.V.": [(1956, 1990, "SVV Schiedam"),
+    "SVV": [(1888, 1990, "SVV Schiedam"), (1991, 9999, "Dordrecht")], "S.V.V.": [(1888, 1990, "SVV Schiedam"),
                                                                               (1991, 9999, "Dordrecht")],
-    "SVV Schiedam": [(1956, 1990, "SVV Schiedam"), (1991, 9999, "Dordrecht")],
+    "SVV Schiedam": [(1888, 1990, "SVV Schiedam"), (1991, 9999, "Dordrecht")],
 }
 
 

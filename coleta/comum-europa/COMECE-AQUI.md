@@ -59,6 +59,8 @@ depois de toda importação e mantenha à mão só a lista `PENDENCIAS`, no come
      oficiais;
   3. `bel-1` (Bélgica);
   4. `tur-1` (Turquia).
+- **Situação (22/11/2026):** `sco-1` no GitHub (2fef629); eras antigas da Holanda e da Alemanha prontas (ver git log).
+  Próxima: `bel-1`.
 - **Como fazer as eras antigas:**
   - o painel aceita fases regionais + fase final, edição sem jogos e tabela parcial (colunas vazias, posição repetida,
     como no `bra-sp-2` e no `par-1`);
@@ -93,11 +95,11 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `eng-1` Inglês | 127 (1888/89–2025/26) | 51.330 | 25.841 | 33.166 | 65 | 103ccf1 |
 | `esp-1` Espanhol | 95 (1928/29–2025/26) | 27.716 | 25.072 | 51.662 | 63 | 62a8693 |
 | `ita-1` Italiano | 95 (1929/30–2025/26) | 29.244 | 24.564 | 43.962 | 69 | 62a8693 |
-| `ger-1` Alemão (Bundesliga) | 63 (1963/64–2025/26) | 19.220 | 22.512 | 30.251 | 58 | 62a8693 |
+| `ger-1` Alemão (fase final até 1962/63; Bundesliga) | 124 (1902/03–2025/26) | 20.303 | 22.700 | 30.251 | 194 | (ver git log) |
 | `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
-| `ned-1` Holandês (Eredivisie) | 70 (1956/57–2025/26) | 21.082 | 23.019 | 24.431 | 54 | c5947df |
-| `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | (ver git log) |
+| `ned-1` Holandês (fase final até 1955/56; Eredivisie) | 138 (1888/89–2025/26) | 21.878 | 23.019 | 24.431 | 93 | (ver git log) |
+| `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | 2fef629 |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -122,8 +124,10 @@ Alemão e Francês (com 2025/26) e carregar o Português já estão lá.
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
    `coleta-europa`).
-2. **Próximas, na ordem da seção 1.1:** eras antigas da Holanda (1888/89–1955/56) e da Alemanha (1902/03–1962/63); `bel-1`;
-   `tur-1`. A RSSSF e a Wikipédia das eras antigas já foram baixadas (`baixar.py antigo`, em `ned-1` e `ger-1`).
+2. **Próximas, na ordem da seção 1.1:** `bel-1` e depois `tur-1`. As eras antigas da Holanda (1888/89–1955/56) e da
+   Alemanha (1902/03–1962/63) estão prontas (22/11), cada uma no `antigo.py` do seu slug (leitura da RSSSF em
+   `rsssf_antigo.py`), chamado pelo `importar.py` antes do cadastro de clubes. O que ficou de fora está nas pendências de
+   cada liga (`documentacao/ned-1.md` e `documentacao/ger-1.md`).
 3. **Ficar de olho em `docs/coleta/pedidos-europa.md`:** respostas do agente 1 e pedidos novos da revisão.
 
 ## 4. Como fazer uma liga nova
@@ -254,6 +258,21 @@ em `adjust_points_X` (o leitor comum lê os dois).
 **Rodada:**
 - A liga inglesa não tinha rodadas fixas antes de 1992/93: a rodada fica vazia (decisão do Guilherme, EN-007).
 - Na Alemanha, a fase "C" do ogol tem a rodada inferida pela data.
+
+**Eras antigas (fase final entre campeões regionais):**
+- A RSSSF repete o título da seção no índice do topo da página ("Deutsche Meisterschaft", "Championship Playoff"): leia a
+  partir da segunda ocorrência.
+- Nas páginas alemãs, a seção da fase final acaba em duas linhas em branco; depois vêm as ligas regionais, com jogos no
+  mesmo formato (não deixe o leitor continuar).
+- Nota entre colchetes que continua nas linhas de baixo, à direita de outros jogos ("[Königsberg disqualified for
+  fielding / ineligible goal keeper..."): o nome do visitante acaba em dois espaços; o resto é nota.
+- O minuto do gol na duithist4763 vem com apóstrofo cp1252 ("17\x92").
+- Clube que existe até hoje fica com o nome atual (SpVgg Fürth = Greuther Fürth, 1. SV Jena = Carl Zeiss Jena); clube
+  extinto, com o nome e a cidade da época. "FSV Frankfurt" caía no Eintracht pela busca reduzida: cadastre o nome exato.
+- Data: onde a Wikipédia tem a ficha da partida (football box), vale a data dela. A RSSSF erra em casos conferidos (final
+  de 1941 em 22/06; Kaiserslautern com dois jogos em 03/07/1949).
+- Classificação de mata-mata: campeão oficial em 1º, vice em 2º, depois a fase alcançada; na mesma fase, a posição no
+  grupo e a campanha.
 
 ## 7. Decisões do Guilherme já tomadas
 

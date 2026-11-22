@@ -2,17 +2,17 @@
 
 Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacote/`.
 
-**Edições:** 63, de 1963/64 a 2025/26 (Bundesliga). Os campeonatos alemães de antes (ligas regionais e fase final) ficam para depois.
+**Edições:** 124, de 1902/03 a 2025/26. Até 1962/63, o campeonato tinha ligas regionais e uma fase final entre os campeões regionais (e, de 1947/48 em diante, também os vices): entram a fase final (jogos da RSSSF, com data e cidade; estádio, público, árbitro e gols das partidas com ficha na Wikipédia, quase sempre a final), as tabelas dos grupos e o campeão oficial (lista da RSSSF). A classificação final é o campeão em 1º e depois a fase alcançada. Sem campeonato em 1914/15-1918/19 e 1944/45-1946/47; sem campeão em 1903/04 e 1921/22. Desde 1963/64, a Bundesliga completa.
 
-**Total:** 19220 jogos, 58983 gols, 22512 gols com autor (ESPN), 30251 cartões, 58 clubes.
+**Total:** 20303 jogos, 63752 gols, 22700 gols com autor (ESPN), 30251 cartões, 194 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1963/64-2024/25;
 - football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time;
 - ogol: rodada oficial de cada jogo e conferência de placar; completa as temporadas em que a base falha; calendários guardados em `data/cache/ogol-ger-1/` para os escudos;
 - ESPN (liga `ger.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
-- RSSSF: tabela final de cada temporada e lista de artilheiros de cada temporada (com o clube);
-- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições) e lista de campeões (com os gols do artilheiro).
+- RSSSF: tabela final de cada temporada e lista de artilheiros de cada temporada (com o clube); até 1962/63, os jogos da fase final (tablesd/duit1903.html ... duit1944.html e duithist4763.html) e a lista de campeões (duitchamp.html);
+- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições) e lista de campeões (com os gols do artilheiro); até 1962/63, a ficha das partidas com "football box" (estádio, público, árbitro, gols com minuto).
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Berlim). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96. Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
@@ -20,6 +20,67 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
+| 1902/03 | RSSSF + Wikipédia | 6 | 4 (0) | 31 | 4 | 0 / 0 | VfB Leipzig | — |
+| 1903/04 | RSSSF + Wikipédia | 8 | 6 (0) | 36 | 13 | 0 / 0 | — | — |
+| 1904/05 | RSSSF + Wikipédia | 7 | 5 (0) | 23 | 9 | 0 / 0 | Union 92 Berlin | — |
+| 1905/06 | RSSSF + Wikipédia | 8 | 7 (0) | 40 | 0 | 0 / 0 | VfB Leipzig | — |
+| 1906/07 | RSSSF | 6 | 5 (0) | 26 | 0 | 0 / 0 | Freiburger FC | — |
+| 1907/08 | RSSSF | 8 | 8 (0) | 34 | 0 | 0 / 0 | Viktoria Berlin | — |
+| 1908/09 | RSSSF | 8 | 7 (0) | 54 | 0 | 0 / 0 | Phönix Karlsruhe | — |
+| 1909/10 | RSSSF | 9 | 8 (0) | 28 | 0 | 0 / 0 | Karlsruher FV | — |
+| 1910/11 | RSSSF | 8 | 6 (0) | 23 | 0 | 0 / 0 | Viktoria Berlin | — |
+| 1911/12 | RSSSF | 8 | 7 (0) | 32 | 0 | 0 / 0 | Holstein Kiel | — |
+| 1912/13 | RSSSF | 7 | 6 (0) | 26 | 0 | 0 / 0 | VfB Leipzig | — |
+| 1913/14 | RSSSF + Wikipédia | 8 | 7 (0) | 30 | 0 | 0 / 0 | Greuther Fürth | — |
+| 1914/15 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1915/16 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1916/17 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1917/18 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1918/19 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1919/20 | RSSSF + Wikipédia | 8 | 7 (0) | 26 | 2 | 0 / 0 | Nuremberg | — |
+| 1920/21 | RSSSF + Wikipédia | 7 | 6 (0) | 23 | 5 | 0 / 0 | Nuremberg | — |
+| 1921/22 | RSSSF + Wikipédia | 8 | 8 (0) | 25 | 6 | 0 / 0 | — | — |
+| 1922/23 | RSSSF + Wikipédia | 6 | 7 (0) | 20 | 3 | 0 / 0 | Hamburgo | — |
+| 1923/24 | RSSSF + Wikipédia | 7 | 6 (0) | 24 | 2 | 0 / 0 | Nuremberg | — |
+| 1924/25 | RSSSF + Wikipédia | 16 | 15 (0) | 51 | 1 | 0 / 0 | Nuremberg | — |
+| 1925/26 | RSSSF + Wikipédia | 16 | 15 (0) | 73 | 5 | 0 / 0 | Greuther Fürth | — |
+| 1926/27 | RSSSF | 16 | 15 (0) | 75 | 0 | 0 / 0 | Nuremberg | — |
+| 1927/28 | RSSSF | 16 | 15 (0) | 75 | 0 | 0 / 0 | Hamburgo | — |
+| 1928/29 | RSSSF + Wikipédia | 16 | 16 (0) | 79 | 5 | 0 / 0 | Greuther Fürth | — |
+| 1929/30 | RSSSF | 16 | 16 (0) | 102 | 0 | 0 / 0 | Hertha Berlin | — |
+| 1930/31 | RSSSF | 16 | 15 (0) | 69 | 0 | 0 / 0 | Hertha Berlin | — |
+| 1931/32 | RSSSF | 16 | 15 (0) | 72 | 0 | 0 / 0 | Bayern de Munique | — |
+| 1932/33 | RSSSF | 16 | 15 (0) | 76 | 0 | 0 / 0 | Fortuna Düsseldorf | — |
+| 1933/34 | RSSSF | 16 | 51 (0) | 219 | 0 | 4 / 0 | Schalke 04 | — |
+| 1934/35 | RSSSF | 16 | 51 (0) | 237 | 0 | 4 / 0 | Schalke 04 | — |
+| 1935/36 | RSSSF | 16 | 52 (0) | 211 | 0 | 4 / 0 | Nuremberg | — |
+| 1936/37 | RSSSF | 16 | 52 (0) | 213 | 0 | 4 / 0 | Schalke 04 | — |
+| 1937/38 | RSSSF | 16 | 54 (0) | 226 | 0 | 4 / 0 | Hannover 96 | — |
+| 1938/39 | RSSSF | 18 | 55 (0) | 224 | 0 | 5 / 0 | Schalke 04 | — |
+| 1939/40 | RSSSF + Wikipédia | 18 | 55 (0) | 253 | 1 | 5 / 0 | Schalke 04 | — |
+| 1940/41 | RSSSF + Wikipédia | 20 | 56 (0) | 248 | 7 | 6 / 0 | Rapid Viena | — |
+| 1941/42 | RSSSF + Wikipédia | 8 | 8 (0) | 38 | 6 | 0 / 0 | Schalke 04 | — |
+| 1942/43 | RSSSF + Wikipédia | 29 | 31 (0) | 144 | 28 | 0 / 0 | Dresdner SC | — |
+| 1943/44 | RSSSF + Wikipédia | 31 | 32 (0) | 185 | 13 | 0 / 0 | Dresdner SC | — |
+| 1944/45 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1945/46 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1946/47 | RSSSF | 0 | 0 (0) | 0 | 0 | 0 / 0 | — | — |
+| 1947/48 | RSSSF | 14 | 14 (0) | 60 | 0 | 0 / 0 | Nuremberg | — |
+| 1948/49 | RSSSF + Wikipédia | 10 | 14 (0) | 48 | 39 | 0 / 0 | VfR Mannheim | — |
+| 1949/50 | RSSSF + Wikipédia | 16 | 17 (0) | 66 | 3 | 0 / 0 | Stuttgart | — |
+| 1950/51 | RSSSF + Wikipédia | 8 | 25 (0) | 99 | 3 | 2 / 0 | Kaiserslautern | — |
+| 1951/52 | RSSSF + Wikipédia | 8 | 25 (0) | 113 | 5 | 2 / 0 | Stuttgart | — |
+| 1952/53 | RSSSF + Wikipédia | 8 | 25 (0) | 93 | 5 | 2 / 0 | Kaiserslautern | — |
+| 1953/54 | RSSSF + Wikipédia | 6 | 7 (0) | 29 | 6 | 2 / 0 | Hannover 96 | — |
+| 1954/55 | RSSSF + Wikipédia | 9 | 29 (0) | 107 | 7 | 2 / 0 | Rot-Weiss Essen | — |
+| 1955/56 | RSSSF + Wikipédia | 9 | 29 (0) | 124 | 6 | 2 / 0 | Borussia Dortmund | — |
+| 1956/57 | RSSSF | 9 | 14 (0) | 65 | 0 | 1 / 1 | Borussia Dortmund | — |
+| 1957/58 | RSSSF | 9 | 15 (0) | 68 | 0 | 2 / 0 | Schalke 04 | — |
+| 1958/59 | RSSSF | 9 | 26 (0) | 122 | 0 | 2 / 0 | Eintracht Frankfurt | — |
+| 1959/60 | RSSSF | 9 | 26 (0) | 118 | 0 | 2 / 0 | Hamburgo | — |
+| 1960/61 | RSSSF | 9 | 26 (0) | 111 | 0 | 2 / 0 | Nuremberg | — |
+| 1961/62 | RSSSF | 9 | 14 (0) | 65 | 0 | 2 / 0 | Colônia | — |
+| 1962/63 | RSSSF + Wikipédia | 9 | 26 (0) | 110 | 4 | 1 / 1 | Borussia Dortmund | — |
 | 1963/64 | engsoccerdata + ogol + RSSSF + Wikipédia | 16 | 240 (240) | 857 | 0 | 2 / 0 | Colônia | — |
 | 1964/65 | engsoccerdata + ogol + RSSSF + Wikipédia | 16 | 240 (240) | 796 | 0 | 2 / 0 | Werder Bremen | — |
 | 1965/66 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 987 | 0 | 2 / 0 | 1860 Munique | — |
@@ -85,6 +146,267 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 | 2025/26 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 990 | 990 | 2 / 0 | Bayern de Munique | — |
 
 ## Conferência e ocorrências, temporada a temporada
+
+### 1902/03
+
+- sem ocorrências
+
+### 1903/04
+
+- partida da Wikipédia sem par na RSSSF: Germania Hamburg 11-0 Hannover 96 (None)
+- partida da Wikipédia sem par na RSSSF: Germania Hamburg 1-3 Britannia Berlin (None)
+- final não jogada: a federação anulou a fase final depois do protesto do Karlsruher FV; sem campeão
+
+### 1904/05
+
+- partida da Wikipédia sem par na RSSSF: Schlesien Breslau 5-1 Alemannia Cottbus (None)
+- partida da Wikipédia sem par na RSSSF: Eintracht Braunschweig 3-2 Hannover 96 (None)
+- partida da Wikipédia sem par na RSSSF: Eintracht Braunschweig 2-1 SV Victoria 96 Magdeburg (None)
+
+### 1905/06
+
+- Schlesien Breslau x Hertha (quartas de final): 1-7 na RSSSF, 0-7 na Wikipédia; fica a RSSSF
+- placar diferente na Wikipédia — Schlesien Breslau x Hertha Berlin: RSSSF 1-7, Wikipédia Schlesien Breslau 0-7 Berliner FC Hertha 92
+- partida da Wikipédia sem par na RSSSF: 1. FC Pforzheim 4-2 SC Koln 99 (None)
+
+### 1906/07
+
+- sem ocorrências
+
+### 1907/08
+
+- sem ocorrências
+
+### 1908/09
+
+- sem ocorrências
+
+### 1909/10
+
+- sem ocorrências
+
+### 1910/11
+
+- sem ocorrências
+
+### 1911/12
+
+- sem ocorrências
+
+### 1912/13
+
+- sem ocorrências
+
+### 1913/14
+
+- gols da Wikipédia não batem com o placar — Greuther Fürth 3-2 VfB Leipzig: 2 e 2
+
+### 1914/15
+
+- sem campeonato (Primeira Guerra Mundial)
+
+### 1915/16
+
+- sem campeonato (Primeira Guerra Mundial)
+
+### 1916/17
+
+- sem campeonato (Primeira Guerra Mundial)
+
+### 1917/18
+
+- sem campeonato (Primeira Guerra Mundial)
+
+### 1918/19
+
+- sem campeonato (Primeira Guerra Mundial)
+
+### 1919/20
+
+- sem ocorrências
+
+### 1920/21
+
+- sem ocorrências
+
+### 1921/22
+
+- título não atribuído: a final entre Hamburger SV e Nürnberg teve dois jogos sem vencedor (2-2 e o segundo interrompido em 1-1); a federação deu o título ao Hamburgo, que renunciou a ele
+
+### 1922/23
+
+- sem ocorrências
+
+### 1923/24
+
+- sem ocorrências
+
+### 1924/25
+
+- sem ocorrências
+
+### 1925/26
+
+- sem ocorrências
+
+### 1926/27
+
+- sem ocorrências
+
+### 1927/28
+
+- sem ocorrências
+
+### 1928/29
+
+- sem ocorrências
+
+### 1929/30
+
+- sem ocorrências
+
+### 1930/31
+
+- sem ocorrências
+
+### 1931/32
+
+- sem ocorrências
+
+### 1932/33
+
+- sem ocorrências
+
+### 1933/34
+
+- sem ocorrências
+
+### 1934/35
+
+- sem ocorrências
+
+### 1935/36
+
+- sem ocorrências
+
+### 1936/37
+
+- sem ocorrências
+
+### 1937/38
+
+- sem ocorrências
+
+### 1938/39
+
+- sem ocorrências
+
+### 1939/40
+
+- sem ocorrências
+
+### 1940/41
+
+- data diferente — Rapid Viena x Schalke 04: RSSSF 1941-07-22, Wikipédia 1941-06-22; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+
+### 1941/42
+
+- data diferente — Schalke 04 x First Vienna: RSSSF 1942-07-04, Wikipédia 1942-07-05; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+
+### 1942/43
+
+- sem ocorrências
+
+### 1943/44
+
+- sem ocorrências
+
+### 1944/45
+
+- sem campeonato (Segunda Guerra Mundial)
+
+### 1945/46
+
+- sem campeonato (pós-guerra: só as ligas regionais das zonas de ocupação)
+
+### 1946/47
+
+- sem campeonato (pós-guerra: só as ligas regionais das zonas de ocupação)
+
+### 1947/48
+
+- a Wikipédia (en) traz Kaiserslautern 1-0 1860 Munique e Union Oberschöneweide 0-4 St. Pauli nas quartas e Kaiserslautern 2-0 Neuendorf na semifinal; a RSSSF traz 5-1, 0-7 e 5-1. Fica a RSSSF, fonte principal (pendência: conferir numa terceira fonte, como o kicker ou a Wikipédia em alemão)
+- placar diferente na Wikipédia — Kaiserslautern x 1860 Munique: RSSSF 5-1, Wikipédia 1. FC Kaiserslautern 1-0 TSV 1860 Munich
+- placar diferente na Wikipédia — Union Berlin x St. Pauli: RSSSF 0-7, Wikipédia SG Oberschöneweide 0-4 FC St. Pauli
+- placar diferente na Wikipédia — Kaiserslautern x TuS Koblenz: RSSSF 5-1, Wikipédia 1. FC Kaiserslautern 2-0 TuS Neuendorf
+
+### 1948/49
+
+- data diferente — Berliner SV 92 x Borussia Dortmund: RSSSF 1949-06-06, Wikipédia 1949-06-12; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+- data diferente — Kaiserslautern x St. Pauli: RSSSF 1949-06-06, Wikipédia 1949-06-12; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+- data diferente — Kickers Offenbach x Wormatia Worms: RSSSF 1949-06-06, Wikipédia 1949-06-12; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+- data diferente — VfR Mannheim x Hamburgo: RSSSF 1949-06-06, Wikipédia 1949-06-12; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+- data diferente — Kaiserslautern x St. Pauli: RSSSF 1949-06-16, Wikipédia 1949-06-19; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+- data diferente — Kickers Offenbach x Wormatia Worms: RSSSF 1949-06-16, Wikipédia 1949-06-19; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+- data diferente — Kaiserslautern x Kickers Offenbach: RSSSF 1949-07-03, Wikipédia 1949-07-09; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+
+### 1949/50
+
+- sem ocorrências
+
+### 1950/51
+
+- data diferente — Kaiserslautern x Preußen Münster: RSSSF 1951-07-01, Wikipédia 1951-06-30; fica a da Wikipédia, que traz a ficha da partida (a RSSSF erra em casos conferidos: final de 1941 em 22/06, Kaiserslautern com dois jogos em 03/07/1949)
+
+### 1951/52
+
+- sem ocorrências
+
+### 1952/53
+
+- sem ocorrências
+
+### 1953/54
+
+- sem ocorrências
+
+### 1954/55
+
+- sem ocorrências
+
+### 1955/56
+
+- sem ocorrências
+
+### 1956/57
+
+- tabela do Grupo 2 na RSSSF: Kickers Offenbach com 2 vitórias, 1 empate e 0 derrota e 4 pontos (a conta não fecha); os jogos dão 2 vitórias e 1 derrota (3-1 Hertha, 4-1 Kaiserslautern, 1-2 Dortmund) e os mesmos 4 pontos: erro de digitação da RSSSF
+- tabela do Grupo 2 (RSSSF) x jogos — Kickers Offenbach tabela [3, 2, 1, 0, 8, 4, 4] jogos [3, 2, 0, 1, 8, 4, 4]
+
+### 1957/58
+
+- sem ocorrências
+
+### 1958/59
+
+- sem ocorrências
+
+### 1959/60
+
+- sem ocorrências
+
+### 1960/61
+
+- sem ocorrências
+
+### 1961/62
+
+- sem ocorrências
+
+### 1962/63
+
+- tabela do Grupo 2 na RSSSF: Borussia Neunkirchen com 6 gols pró; os jogos dão 8 (3-0 e 1-1 com o Hamburgo, 0-0 e 2-5 com o Dortmund, 0-4 e 2-1 com o 1860), e só com 8 os gols pró do grupo fecham com os contra (40): erro de digitação da RSSSF
+- tabela do Grupo 2 (RSSSF) x jogos — Borussia Neunkirchen tabela [6, 2, 2, 2, 6, 11, 6] jogos [6, 2, 2, 2, 8, 11, 6]
 
 ### 1963/64
 
@@ -389,5 +711,6 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 - **Autores dos gols e cartões antes de 2001/02:** nenhuma fonte em lote traz.
 - **Público e estádio antes de 2001/02:** nenhuma fonte em lote.
 - **Play-offs de rebaixamento (Relegation) contra clubes da 2. Bundesliga:** ficam de fora (entram com a 2ª divisão).
-- **Campeonatos alemães de 1902/03 a 1962/63** (ligas regionais e fase final) e a **DDR-Oberliga**: ficam para depois.
+- **Ligas regionais de 1902/03 a 1962/63** (só a fase final entra) e a **DDR-Oberliga**: ficam para depois.
+- **Era antiga, além da fase final:** artilheiros, e gols com autor fora das partidas com ficha na Wikipédia.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.

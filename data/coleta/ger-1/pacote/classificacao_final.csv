@@ -1131,3 +1131,629 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2025/26,16,Wolfsburg,34,7,8,19,45,69,29,0,rebaixado,Wikipédia (ordem oficial),
 2025/26,17,Heidenheim,34,6,8,20,41,72,26,0,rebaixado,Wikipédia (ordem oficial),
 2025/26,18,St. Pauli,34,6,8,20,29,60,26,0,rebaixado,Wikipédia (ordem oficial),
+1902/03,1,VfB Leipzig,3,3,0,0,16,6,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1902/03,2,DFC Praga,1,0,0,1,2,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1902/03,3,Altona 93,2,1,0,1,11,7,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1902/03,4,Karlsruher FV,0,0,0,0,0,0,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1902/03,5,Berliner SV 92,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1902/03,6,Viktoria Magdeburg,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1903/04,1,Berliner SV 92,2,2,0,0,9,2,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final
+1903/04,2,VfB Leipzig,2,2,0,0,4,2,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final
+1903/04,3,Germania Hamburg,2,1,0,1,12,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1903/04,4,Duisburger SpV,2,1,0,1,7,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1903/04,5,Viktoria Magdeburg,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1903/04,6,Kasseler FV,1,0,0,1,3,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1903/04,7,Karlsruher FV,1,0,0,1,1,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1903/04,8,ABRV Hannover,1,0,0,1,0,11,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1904/05,1,Union 92 Berlin,3,3,0,0,11,3,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1904/05,2,Karlsruher FV,2,1,0,1,1,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1904/05,3,Dresdner SC,2,1,0,1,7,8,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1904/05,4,Eintracht Braunschweig,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase intermediária
+1904/05,5,VfB Leipzig,0,0,0,0,0,0,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1904/05,6,Duisburger SpV,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1904/05,7,Victoria Hamburg,1,0,0,1,3,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1905/06,1,VfB Leipzig,3,3,0,0,14,4,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1905/06,2,Pforzheim,3,2,0,1,9,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1905/06,3,Hertha Berlin,2,1,0,1,9,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1905/06,4,Union 92 Berlin,2,1,0,1,3,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1905/06,5,Kölner FC 99,1,0,0,1,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1905/06,6,Victoria Hamburg,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1905/06,7,Schlesien Breslau,1,0,0,1,1,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1905/06,8,Norden-Nordwest Berlin,1,0,0,1,1,9,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1906/07,1,Freiburger FC,2,2,0,0,6,3,4,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1906/07,2,Viktoria Berlin,3,2,0,1,7,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1906/07,3,Victoria Hamburg,2,1,0,1,9,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1906/07,4,VfB Leipzig,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1906/07,5,Schlesien Breslau,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1906/07,6,Düsseldorfer FC 99,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1907/08,1,Viktoria Berlin,3,3,0,0,14,1,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1907/08,2,Stuttgarter Kickers,4,2,0,2,11,7,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1907/08,3,Wacker Leipzig,2,1,0,1,3,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1907/08,4,Duisburger SpV,2,1,0,1,2,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1907/08,5,Freiburger FC,2,1,0,1,3,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1907/08,6,Eintracht Braunschweig,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1907/08,7,VfR Breslau,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1907/08,8,VfB Königsberg,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1908/09,1,Phönix Karlsruhe,3,3,0,0,18,3,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1908/09,2,Viktoria Berlin,3,2,0,1,21,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1908/09,3,Altona 93,2,1,0,1,4,9,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1908/09,4,SC Erfurt 1895,2,1,0,1,5,12,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1908/09,5,Alemannia Cottbus,1,0,0,1,3,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1908/09,6,Tasmania Berlin,1,0,0,1,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1908/09,7,FC München-Gladbach,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1908/09,8,VfB Königsberg,1,0,0,1,1,12,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1909/10,1,Karlsruher FV,3,3,0,0,4,1,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1909/10,2,Holstein Kiel,3,2,0,1,10,2,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1909/10,3,Tasmania Berlin,3,2,0,1,7,8,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1909/10,4,Phönix Karlsruhe,2,1,0,1,3,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1909/10,5,VfB Leipzig,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1909/10,6,VfR Breslau,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1909/10,7,Duisburger SpV,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1909/10,8,Preußen Berlin,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1909/10,9,Prussia-Samland,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1910/11,1,Viktoria Berlin,2,2,0,0,7,1,4,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1910/11,2,VfB Leipzig,3,2,0,1,6,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1910/11,3,Karlsruher FV,2,1,0,1,4,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1910/11,4,Holstein Kiel,2,1,0,1,3,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1910/11,5,Lituania Tilsit,0,0,0,0,0,0,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1910/11,6,Askania Forst,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1910/11,7,Duisburger SpV,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1910/11,8,Tasmania Berlin,1,0,0,1,0,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1911/12,1,Holstein Kiel,3,3,0,0,5,2,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1911/12,2,Karlsruher FV,3,2,0,1,11,3,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1911/12,3,Viktoria Berlin,2,1,0,1,8,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1911/12,4,SpVgg Leipzig,2,1,0,1,4,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1911/12,5,ATV Liegnitz,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1911/12,6,Preußen Berlin,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1911/12,7,Kölner BC,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1911/12,8,BuEV Danzig,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1912/13,1,VfB Leipzig,3,3,0,0,11,2,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1912/13,2,Duisburger SpV,3,2,0,1,5,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1912/13,3,Viktoria Berlin,2,1,0,1,7,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1912/13,4,Holstein Kiel,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1912/13,5,Stuttgarter Kickers,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1912/13,6,Prussia-Samland,1,0,0,1,1,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1912/13,7,Askania Forst,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1913/14,1,Greuther Fürth,3,3,0,0,9,6,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1913/14,2,VfB Leipzig,3,2,0,1,7,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1913/14,3,Berliner BC 03,2,1,0,1,7,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1913/14,4,Duisburger SpV,2,1,0,1,4,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1913/14,5,SpVgg Leipzig,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1913/14,6,Altona 93,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1913/14,7,Prussia-Samland,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1913/14,8,Askania Forst,1,0,0,1,0,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1919/20,1,Nuremberg,3,3,0,0,7,0,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1919/20,2,Greuther Fürth,3,2,0,1,11,2,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1919/20,3,Titania Stettin,2,1,0,1,2,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1919/20,4,Sportfreunde Breslau,2,1,0,1,3,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1919/20,5,Union Berlin,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1919/20,6,Arminia Hannover,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1919/20,7,VfB Leipzig,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1919/20,8,VfTuR München-Gladbach,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1920/21,1,Nuremberg,2,2,0,0,10,1,4,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1920/21,2,Vorwärts 1890 Berlin,3,2,0,1,4,7,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1920/21,3,Duisburger SpV,2,1,0,1,3,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1920/21,4,Wacker Halle,2,1,0,1,3,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1920/21,5,Hamburgo,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1920/21,6,Sportfreunde Breslau,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1920/21,7,Stettiner SC,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1921/22,1,Hamburgo,3,2,1,0,11,2,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final
+1921/22,2,Nuremberg,3,2,1,0,6,2,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final
+1921/22,3,Wacker München,2,1,0,1,5,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1921/22,4,Norden-Nordwest Berlin,2,1,0,1,1,1,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1921/22,5,Viktoria Forst,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1921/22,6,SpVgg Leipzig,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1921/22,7,Arminia Bielefeld,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1921/22,8,Titania Stettin,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1922/23,1,Hamburgo,3,3,0,0,8,2,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1922/23,2,Union Berlin,4,2,1,1,4,5,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1922/23,3,Greuther Fürth,3,1,0,2,7,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1922/23,4,Arminia Bielefeld,2,0,1,1,1,2,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1922/23,5,Guts Muts Dresden,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1922/23,6,Sportfreunde Breslau,1,0,0,1,0,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1923/24,1,Nuremberg,3,3,0,0,11,2,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1923/24,2,Hamburgo,3,2,0,1,4,2,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1923/24,3,SpVgg Leipzig,2,1,0,1,6,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1923/24,4,Duisburger SpV,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1923/24,5,Sportfreunde Breslau,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1923/24,6,Alemannia 90 Berlin,1,0,0,1,1,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1923/24,7,VfB Königsberg,1,0,0,1,1,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1924/25,1,Nuremberg,4,4,0,0,10,1,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1924/25,2,FSV Frankfurt,4,3,0,1,6,3,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1924/25,3,Hertha Berlin,3,2,0,1,7,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1924/25,4,Duisburger SpV,3,2,0,1,4,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1924/25,5,TuRU Düsseldorf,2,1,0,1,5,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1924/25,6,Altona 93,2,1,0,1,4,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1924/25,7,Schwarz-Weiß Essen,2,1,0,1,3,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1924/25,8,Breslauer SC 08,2,1,0,1,3,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1924/25,9,VfB Königsberg,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1924/25,10,Alemannia 90 Berlin,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1924/25,11,Hamburgo,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1924/25,12,VfB Leipzig,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1924/25,13,Viktoria Forst,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1924/25,14,Titania Stettin,1,0,0,1,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1924/25,15,Carl Zeiss Jena,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1924/25,16,VfR Mannheim,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,1,Greuther Fürth,4,4,0,0,16,2,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1925/26,2,Hertha Berlin,4,3,0,1,17,8,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1925/26,3,Holstein Kiel,3,2,0,1,13,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1925/26,4,Hamburgo,3,2,0,1,11,7,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1925/26,5,Fortuna Leipzig,2,1,0,1,4,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1925/26,6,Norden-Nordwest Berlin,2,1,0,1,2,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1925/26,7,Breslauer SC 08,2,1,0,1,1,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1925/26,8,FSV Frankfurt,2,1,0,1,4,9,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1925/26,9,BV Altenessen,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,10,VfR Köln,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,11,Dresdner SC,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,12,Duisburger SpV,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,13,Bayern de Munique,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,14,VfB Königsberg,1,0,0,1,0,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,15,Viktoria Forst,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1925/26,16,Stettiner SC,1,0,0,1,2,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,1,Nuremberg,4,4,0,0,13,3,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1926/27,2,Hertha Berlin,4,3,0,1,8,6,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1926/27,3,Greuther Fürth,3,2,0,1,13,3,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1926/27,4,1860 Munique,3,2,0,1,7,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1926/27,5,Holstein Kiel,2,1,0,1,11,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1926/27,6,Hamburgo,2,1,0,1,5,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1926/27,7,VfB Leipzig,2,1,0,1,3,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1926/27,8,Schöneberger Kickers,2,1,0,1,5,13,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1926/27,9,Duisburger SpV,1,0,0,1,4,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,10,VfB Königsberg,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,11,Schalke 04,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,12,Sportfreunde Breslau,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,13,Fortuna Düsseldorf,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,14,Stern Breslau,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,15,Chemnitzer BC,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1926/27,16,Titania Stettin,1,0,0,1,1,9,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,1,Hamburgo,4,4,0,0,21,6,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1927/28,2,Hertha Berlin,4,3,0,1,15,6,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1927/28,3,Wacker München,3,2,0,1,6,3,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1927/28,4,Bayern de Munique,3,2,0,1,10,10,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1927/28,5,Sülz 07,2,1,0,1,5,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1927/28,6,Holstein Kiel,2,1,0,1,4,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1927/28,7,Tennis Borussia Berlin,2,1,0,1,4,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1927/28,8,VfB Königsberg,2,1,0,1,3,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1927/28,9,Breslauer SC 08,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,10,Dresdner SC,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,11,Schalke 04,1,0,0,1,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,12,Eintracht Frankfurt,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,13,Preußen Krefeld,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,14,Preußen Stettin,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,15,Wacker Halle,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1927/28,16,Sportfreunde Breslau,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,1,Greuther Fürth,4,4,0,0,16,4,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1928/29,2,Hertha Berlin,5,3,1,1,17,7,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1928/29,3,Nuremberg,4,2,1,1,11,5,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1928/29,4,Breslauer SC 08,3,2,0,1,7,10,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1928/29,5,Bayern de Munique,2,1,0,1,6,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1928/29,6,Schalke 04,2,1,0,1,6,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1928/29,7,Tennis Borussia Berlin,2,1,0,1,4,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1928/29,8,Hamburgo,2,1,0,1,3,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1928/29,9,Duisburg,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,10,Titania Stettin,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,11,VfB Königsberg,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,12,Dresdner SC,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,13,Fortuna Düsseldorf,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,14,Wacker Leipzig,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,15,Holstein Kiel,1,0,0,1,1,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1928/29,16,Preußen Zaborze,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,1,Hertha Berlin,5,4,1,0,23,11,9,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1929/30,2,Holstein Kiel,4,3,0,1,14,10,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1929/30,3,Nuremberg,3,2,0,1,16,8,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1929/30,4,Dresdner SC,3,2,0,1,13,7,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1929/30,5,Sülz 07,3,1,1,1,6,11,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1929/30,6,Greuther Fürth,2,1,0,1,8,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1929/30,7,Schalke 04,2,1,0,1,8,8,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1929/30,8,Eintracht Frankfurt,2,1,0,1,3,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1929/30,9,VfB Leipzig,1,0,0,1,3,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,10,Beuthen 09,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,11,VfL Benrath,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,12,Titania Stettin,1,0,0,1,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,13,Tennis Borussia Berlin,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,14,Arminia Hannover,1,0,0,1,2,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,15,VfB Königsberg,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1929/30,16,Sportfreunde Breslau,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,1,Hertha Berlin,4,4,0,0,14,7,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1930/31,2,1860 Munique,4,3,0,1,9,4,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1930/31,3,Hamburgo,3,2,0,1,6,3,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1930/31,4,Holstein Kiel,3,2,0,1,7,7,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1930/31,5,Dresdner SC,2,1,0,1,11,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1930/31,6,Tennis Borussia Berlin,2,1,0,1,6,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1930/31,7,Greuther Fürth,2,1,0,1,4,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1930/31,8,Eintracht Frankfurt,2,1,0,1,3,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1930/31,9,Fortuna Düsseldorf,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,10,Prussia-Samland,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,11,Beuthen 09,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,12,VfB Bielefeld,1,0,0,1,2,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,13,Duisburg,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,14,SpVgg Leipzig,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,15,VfB Liegnitz,1,0,0,1,1,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1930/31,16,VfB Königsberg,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,1,Bayern de Munique,4,4,0,0,11,4,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1931/32,2,Eintracht Frankfurt,4,3,0,1,11,4,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1931/32,3,Nuremberg,3,2,0,1,9,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1931/32,4,Schalke 04,3,2,0,1,10,8,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1931/32,5,Polizei Chemnitz,2,1,0,1,7,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1931/32,6,Tennis Borussia Berlin,2,1,0,1,4,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1931/32,7,Hamburgo,2,1,0,1,5,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1931/32,8,Holstein Kiel,2,1,0,1,4,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1931/32,9,Plauener SuBC,1,0,0,1,4,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,10,Minerva 93 Berlin,1,0,0,1,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,11,VfL Benrath,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,12,Borussia Fulda,1,0,0,1,2,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,13,Breslauer SC 08,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,14,Viktoria Stolp,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,15,Beuthen 09,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1931/32,16,Hindenburg Allenstein,1,0,0,1,0,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,1,Fortuna Düsseldorf,4,4,0,0,19,0,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1932/33,2,Schalke 04,4,3,0,1,9,4,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1932/33,3,Eintracht Frankfurt,3,2,0,1,16,7,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1932/33,4,1860 Munique,3,2,0,1,5,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1932/33,5,FSV Frankfurt,2,1,0,1,6,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1932/33,6,Beuthen 09,2,1,0,1,7,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1932/33,7,Arminia Hannover,2,1,0,1,2,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1932/33,8,Hindenburg Allenstein,2,1,0,1,6,13,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1932/33,9,Dresdner SC,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,10,VfL Benrath,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,11,Hamburgo,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,12,Hertha Berlin,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,13,Viktoria Berlin,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,14,Polizei Chemnitz,1,0,0,1,1,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,15,Prussia-Samland,1,0,0,1,1,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1932/33,16,Vorwärts-Rasensport Gleiwitz,1,0,0,1,0,9,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1933/34,1,Schalke 04,8,6,0,2,23,10,12,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1933/34,2,Nuremberg,8,5,1,2,13,7,11,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1933/34,3,Viktoria Berlin,7,6,0,1,25,11,12,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1933/34,4,Waldhof Mannheim,7,3,3,1,21,11,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1933/34,5,Dresdner SC,6,4,1,1,16,7,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,6,VfL Benrath,6,3,1,2,12,11,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,7,Beuthen 09,6,3,1,2,12,13,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,8,Mülheimer SV 06,6,2,2,2,13,18,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,9,Kickers Offenbach,6,1,3,2,14,16,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,10,Werder Bremen,6,2,1,3,11,17,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,11,Viktoria Stolp,6,1,2,3,10,12,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,12,Borussia Fulda,6,1,2,3,7,10,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,13,Eimsbütteler TV,6,2,0,4,13,17,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,14,Union Böckingen,6,2,0,4,15,21,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,15,Wacker Halle,6,1,0,5,8,20,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1933/34,16,Preußen Danzig,6,0,1,5,6,18,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,1,Schalke 04,8,7,0,1,36,12,14,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1934/35,2,Stuttgart,8,5,0,3,21,19,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1934/35,3,VfL Benrath,7,5,1,1,19,9,11,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1934/35,4,Polizei Chemnitz,7,5,0,2,24,10,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1934/35,5,Phönix Ludwigshafen,6,4,1,1,19,3,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,6,Hertha Berlin,6,4,0,2,22,8,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,7,Hannover 96,6,4,0,2,24,12,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,8,Greuther Fürth,6,3,0,3,11,9,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,9,Hanau 93,6,3,0,3,8,8,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,10,Vorwärts-Rasensport Gleiwitz,6,2,1,3,9,11,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,11,Eimsbütteler TV,6,2,1,3,11,20,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,12,VfR Mannheim,6,1,0,5,9,21,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,13,Carl Zeiss Jena,6,2,0,4,5,9,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,14,VfR Köln,6,1,0,5,6,22,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,15,Stettiner SC,6,0,1,5,5,29,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1934/35,16,Yorck-Boyen Insterburg,6,0,1,5,8,35,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,1,Nuremberg,8,7,1,0,23,5,15,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1935/36,2,Fortuna Düsseldorf,8,6,0,2,20,10,12,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1935/36,3,Schalke 04,8,6,0,2,30,10,12,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1935/36,4,Vorwärts-Rasensport Gleiwitz,8,5,0,3,23,20,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1935/36,5,Polizei Chemnitz,6,5,0,1,19,9,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,6,Werder Bremen,6,4,0,2,22,11,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,7,Hanau 93,6,2,1,3,9,6,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,8,Wormatia Worms,6,2,1,3,15,13,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,9,Waldhof Mannheim,6,2,1,3,6,10,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,10,Carl Zeiss Jena,6,2,0,4,7,13,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,11,Berliner SV 92,6,2,0,4,10,17,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,12,Eimsbütteler TV,6,2,0,4,7,14,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,13,CfR Köln,6,2,0,4,4,12,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,14,Stuttgarter Kickers,6,2,0,4,6,17,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,15,Viktoria Stolp,6,1,0,5,4,20,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1935/36,16,Hindenburg Allenstein,6,0,0,6,6,24,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,1,Schalke 04,8,7,1,0,37,7,15,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1936/37,2,Nuremberg,8,6,1,1,21,8,13,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1936/37,3,Stuttgart,8,5,1,2,15,7,11,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1936/37,4,Hamburgo,8,6,0,2,29,8,12,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1936/37,5,Werder Bremen,6,4,1,1,20,10,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,6,Wormatia Worms,6,4,1,1,11,3,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,7,Fortuna Düsseldorf,6,2,2,2,9,8,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,8,BC Hartha,6,2,1,3,13,17,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,9,Waldhof Mannheim,6,2,1,3,6,14,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,10,Hertha Berlin,6,2,0,4,12,13,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,11,Dessau 05,6,2,0,4,6,12,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,12,Hindenburg Allenstein,6,1,2,3,10,21,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,13,Beuthen 09,6,1,1,4,12,20,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,14,VfR Köln,6,1,0,5,4,11,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,15,Kassel-Rothenditmold,6,1,0,5,7,18,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1936/37,16,Viktoria Stolp,6,0,0,6,1,36,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,1,Hannover 96,9,8,1,0,26,13,17,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1937/38,2,Schalke 04,9,4,3,2,26,13,11,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1937/38,3,Fortuna Düsseldorf,9,5,3,1,18,7,13,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1937/38,4,Hamburgo,9,5,1,3,25,12,11,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1937/38,5,Eintracht Frankfurt,6,5,0,1,24,13,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,6,Nuremberg,6,4,0,2,15,9,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,7,VfR Mannheim,6,3,2,1,15,10,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,8,BC Hartha,6,1,4,1,8,12,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,9,Stuttgart,6,2,1,3,14,9,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,10,Berliner SV 92,6,1,2,3,8,11,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,11,Stettiner SC,6,2,0,4,12,18,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,12,Alemannia Aachen,6,2,0,4,11,17,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,13,Dessau 05,6,1,2,3,6,21,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,14,Vorwärts-Rasensport Gleiwitz,6,1,1,4,9,20,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,15,Hanau 93,6,0,0,6,5,16,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1937/38,16,Yorck-Boyen Insterburg,6,0,0,6,4,25,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,1,Schalke 04,9,7,1,1,31,8,15,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1938/39,2,Admira Wacker,8,4,1,3,24,21,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1938/39,3,Dresdner SC,9,5,2,2,22,14,12,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1938/39,4,Hamburgo,8,4,1,3,25,18,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1938/39,5,Fortuna Düsseldorf,6,3,1,2,11,11,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final de grupo
+1938/39,6,Vorwärts-Rasensport Gleiwitz,6,4,0,2,12,11,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,7,Stuttgarter Kickers,6,3,1,2,13,13,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,8,Schweinfurt 05,4,3,0,1,9,4,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,9,VfL Osnabrück,6,2,2,2,10,12,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,10,Sülz 07,4,2,0,2,10,6,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,11,Wormatia Worms,6,3,0,3,12,10,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,12,Hindenburg Allenstein,6,2,1,3,10,12,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,13,VfR Mannheim,6,2,1,3,12,16,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,14,Viktoria Stolp,4,1,0,3,1,8,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,15,Warnsdorfer FK,4,0,0,4,5,16,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,16,Dessau 05,6,2,1,3,6,11,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,17,Blau-Weiß 90 Berlin,6,1,2,3,7,14,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1938/39,18,CSC 03 Kassel,6,0,0,6,4,19,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,1,Schalke 04,8,6,2,0,39,6,14,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1939/40,2,Dresdner SC,8,5,2,1,11,2,12,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1939/40,3,Rapid Viena,9,6,2,1,35,15,14,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1939/40,4,Waldhof Mannheim,9,3,3,3,21,17,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1939/40,5,Union Berlin,6,3,0,3,16,14,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final de grupo
+1939/40,6,Fortuna Düsseldorf,6,3,2,1,21,4,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,7,Eimsbütteler TV,6,3,1,2,10,10,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,8,Nuremberg,6,2,2,2,10,4,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,9,VfB Königsberg,4,3,0,1,13,10,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,10,Vorwärts-Rasensport Gleiwitz,4,1,2,1,11,11,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,11,Stuttgarter Kickers,6,3,0,3,9,9,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,12,VfL Osnabrück,6,1,2,3,11,14,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,13,Mülheimer SV 06,6,2,0,4,14,29,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,14,NSTG Graslitz,4,0,1,3,7,22,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,15,VfL Stettin,4,0,0,4,5,13,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,16,Kickers Offenbach,6,2,0,4,3,18,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,17,Carl Zeiss Jena,6,1,1,4,7,13,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1939/40,18,CSC 03 Kassel,6,1,0,5,10,42,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,1,Rapid Viena,8,6,1,1,30,9,13,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1940/41,2,Schalke 04,8,6,0,2,26,8,12,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1940/41,3,Dresdner SC,8,7,0,1,22,7,14,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1940/41,4,VfL Köln 99,8,4,1,3,21,20,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1940/41,5,Hamburgo,6,4,1,1,10,8,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final de grupo
+1940/41,6,Vorwärts-Rasensport Gleiwitz,6,2,1,3,9,11,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Final de grupo
+1940/41,7,Kickers Offenbach,6,3,2,1,19,9,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,8,1860 Munique,6,3,1,2,14,11,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,9,LSV Stettin,4,1,2,1,8,9,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,10,Carl Zeiss Jena,4,1,1,2,9,8,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,11,Tennis Borussia Berlin,4,1,1,2,5,7,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,12,Hannover 96,4,1,0,3,10,15,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,13,Helene Altenessen,6,2,2,2,15,13,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,14,Stuttgarter Kickers,6,1,2,3,11,16,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,15,Preußen Danzig,4,0,3,1,5,8,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,16,VfB Königsberg,4,1,0,3,6,11,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,17,Borussia Fulda,4,1,0,3,6,15,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,18,NSTG Praga,4,0,1,3,3,8,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,19,VfL Neckarau,6,2,0,4,10,27,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1940/41,20,Mulhouse,6,0,1,5,9,28,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1941/42,1,Schalke 04,3,3,0,0,14,0,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1941/42,2,First Vienna,3,2,0,1,6,6,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1941/42,3,Blau-Weiß 90 Berlin,3,2,0,1,8,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1941/42,4,Kickers Offenbach,3,1,0,2,4,13,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1941/42,5,Werder Bremen,1,0,0,1,3,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1941/42,6,Planitzer SC,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1941/42,7,VfB Königsberg,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1941/42,8,SG SS Straßburg,1,0,0,1,0,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1942/43,1,Dresdner SC,5,5,0,0,16,2,10,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1942/43,2,Saarbrücken,5,4,0,1,15,7,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1942/43,3,Holstein Kiel,6,4,1,1,16,6,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1942/43,4,First Vienna,5,3,0,2,17,8,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1942/43,5,VfR Mannheim,3,2,0,1,13,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1942/43,6,Schalke 04,3,2,0,1,13,6,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1942/43,7,1860 Munique,3,2,0,1,5,2,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1942/43,8,SV Neufahrwasser,2,0,0,2,1,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1942/43,9,VfB Königsberg,2,2,0,0,8,2,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,10,Berliner SV 92,3,1,1,1,6,7,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,11,Eintracht Braunschweig,2,1,0,1,5,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,12,Ordnungspolizei Warschau,2,1,0,1,4,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,13,Victoria Köln 1911,2,1,0,1,2,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,14,LSV Reinecke Brieg,2,1,0,1,4,11,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,15,Kickers Offenbach,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,16,Wilhelmshaven 05,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,17,Westende Hamborn,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1942/43,18,TSG Rostock,2,0,1,1,1,5,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1942/43,19,LSV Pütnitz,2,0,1,1,5,6,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,20,Germania Königshütte,1,0,0,1,3,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,21,Dessau 05,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,22,DWM Posen,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,23,Nuremberg,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,24,TuS Koblenz,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,25,MSV Brünn,1,0,0,1,2,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,26,Stuttgart,1,0,0,1,0,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,27,Mulhouse,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,28,Victoria Hamburg,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1942/43,29,Kassel-Rothenditmold,1,0,0,1,1,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,1,Dresdner SC,5,5,0,0,28,7,10,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1943/44,2,LSV Hamburg,6,4,1,1,15,9,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1943/44,3,Nuremberg,4,3,0,1,17,6,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1943/44,4,HSV Groß Born,4,3,0,1,21,12,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1943/44,5,Hertha Berlin,4,2,1,1,13,6,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1943/44,6,First Vienna,3,2,0,1,13,6,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1943/44,7,Saarbrücken,3,2,0,1,11,11,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1943/44,8,KSG SpV/48/99 Duisburg,3,2,0,1,4,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Quartas de final
+1943/44,9,Wilhelmshaven 05,3,1,1,1,5,6,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,10,Schalke 04,2,1,0,1,6,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,11,STC Hirschberg,2,1,0,1,7,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,12,Mulhouse,2,1,0,1,7,7,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,13,VfR Mannheim,2,1,0,1,4,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,14,Holstein Kiel,2,1,0,1,5,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,15,VfB Königsberg,2,1,0,1,7,11,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,16,Borussia Fulda,1,0,0,1,2,9,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Oitavas de final
+1943/44,17,LSV Danzig,2,0,1,1,1,7,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,18,Dessau 05,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,19,Bayern de Munique,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,20,Eintracht Braunschweig,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,21,LSV Rerick,1,0,0,1,4,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,22,SV Göppingen,1,0,0,1,3,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,23,Kickers Offenbach,1,0,0,1,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,24,KSG VfL 99/Sülz 07 Köln,1,0,0,1,0,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,25,MSV Brünn,1,0,0,1,3,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,26,LSV Mölders Krakau,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,27,WSV Celle,1,0,0,1,0,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,28,TuS Koblenz,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,29,Germania Königshütte,1,0,0,1,2,9,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,30,SDW Posen,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1943/44,31,NSTG Brüx,1,0,0,1,0,8,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase preliminar
+1947/48,1,Nuremberg,2,2,0,0,5,3,4,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1947/48,2,Kaiserslautern,3,2,0,1,11,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1947/48,3,St. Pauli,6,3,1,2,16,12,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1947/48,4,TuS Koblenz,2,1,0,1,3,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1947/48,5,Hamburgo,4,3,0,1,11,5,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1947/48,6,Planitzer SC,0,0,0,0,0,0,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1947/48,7,1860 Munique,1,0,0,1,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1947/48,8,Union Berlin,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1947/48,9,Borussia Dortmund,3,1,1,1,5,5,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 2ª eliminatória
+1947/48,10,Eintracht Braunschweig,2,1,0,1,4,4,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 2ª eliminatória
+1947/48,11,Werder Bremen,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 1ª eliminatória
+1947/48,12,Sportfreunde Katernberg,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 1ª eliminatória
+1947/48,13,Hamborn 07,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 1ª eliminatória
+1947/48,14,STV Horst-Emscher,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 1ª eliminatória
+1948/49,1,VfR Mannheim,3,3,0,0,10,3,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1948/49,2,Borussia Dortmund,4,2,1,1,11,4,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1948/49,3,Kaiserslautern,5,2,2,1,8,7,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1948/49,4,Kickers Offenbach,4,1,1,2,6,6,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1948/49,5,St. Pauli,5,2,2,1,9,7,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1948/49,6,Wormatia Worms,2,0,1,1,2,4,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1948/49,7,Berliner SV 92,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1948/49,8,Hamburgo,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1948/49,9,Bayern de Munique,2,0,1,1,1,3,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 2ª eliminatória
+1948/49,10,Rot-Weiss Essen,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1949/50,1,Stuttgart,4,4,0,0,13,5,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1949/50,2,Kickers Offenbach,5,3,1,1,10,5,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1949/50,3,Preußen Dellbrück,4,2,1,1,3,4,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1949/50,4,Greuther Fürth,3,2,0,1,6,7,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Semifinal
+1949/50,5,Kaiserslautern,3,1,1,1,7,9,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Segunda fase
+1949/50,6,Hamburgo,2,1,0,1,9,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Segunda fase
+1949/50,7,St. Pauli,2,1,0,1,5,2,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Segunda fase
+1949/50,8,VfR Mannheim,2,1,0,1,4,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Segunda fase
+1949/50,9,Rot-Weiss Essen,2,0,1,1,4,5,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1949/50,10,STV Horst-Emscher,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1949/50,11,VfL Osnabrück,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1949/50,12,SSV Reutlingen,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1949/50,13,Borussia Dortmund,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1949/50,14,Tennis Borussia Berlin,1,0,0,1,1,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1949/50,15,TuS Koblenz,1,0,0,1,0,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1949/50,16,Union 06 Berlin,1,0,0,1,0,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Primeira fase
+1950/51,1,Kaiserslautern,7,5,1,1,16,9,11,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1950/51,2,Preußen Münster,7,4,0,3,23,18,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1950/51,3,Nuremberg,6,4,0,2,17,13,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1950/51,4,Schalke 04,6,3,1,2,7,6,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1950/51,5,Hamburgo,6,3,0,3,12,12,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1950/51,6,Greuther Fürth,6,1,2,3,8,9,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1950/51,7,St. Pauli,6,2,0,4,6,12,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1950/51,8,Tennis Borussia Berlin,6,1,0,5,10,20,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1951/52,1,Stuttgart,7,4,2,1,17,10,10,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1951/52,2,Saarbrücken,7,4,0,3,19,16,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1951/52,3,Nuremberg,6,3,1,2,18,13,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1951/52,4,Rot-Weiss Essen,6,3,0,3,14,15,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1951/52,5,Hamburgo,6,3,0,3,16,15,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1951/52,6,VfL Osnabrück,6,2,1,3,9,9,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1951/52,7,Tennis Borussia Berlin,6,2,1,3,8,13,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1951/52,8,Schalke 04,6,1,1,4,12,22,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1952/53,1,Kaiserslautern,7,6,1,0,20,8,13,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1952/53,2,Stuttgart,7,5,0,2,17,10,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1952/53,3,Borussia Dortmund,6,5,0,1,17,7,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1952/53,4,Eintracht Frankfurt,6,3,1,2,8,7,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1952/53,5,Colônia,6,1,3,2,8,10,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1952/53,6,Hamburgo,6,1,1,4,11,15,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1952/53,7,Holstein Kiel,6,0,1,5,8,16,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1952/53,8,Union 06 Berlin,6,0,1,5,4,20,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1953/54,1,Hannover 96,3,3,0,0,10,3,6,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1953/54,2,Kaiserslautern,3,2,0,1,6,8,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1953/54,3,Stuttgart,2,1,0,1,4,3,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1953/54,4,Colônia,2,1,0,1,6,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1953/54,5,Eintracht Frankfurt,2,0,0,2,2,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1953/54,6,Berliner SV 92,2,0,0,2,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1954/55,1,Rot-Weiss Essen,7,5,2,0,20,8,12,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1954/55,2,Kaiserslautern,7,3,3,1,23,12,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1954/55,3,Bremerhaven 93,8,3,3,2,11,15,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1954/55,4,Hamburgo,6,3,2,1,8,5,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1954/55,5,SV Sodingen,7,3,3,1,16,9,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1954/55,6,Kickers Offenbach,6,2,0,4,11,12,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1954/55,7,Wormatia Worms,9,2,3,4,13,18,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1954/55,8,Viktoria Berlin,6,0,0,6,4,23,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1954/55,9,SSV Reutlingen,2,0,0,2,1,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 2ª eliminatória
+1955/56,1,Borussia Dortmund,7,5,1,1,23,6,11,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1955/56,2,Karlsruhe,7,3,1,3,9,9,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1955/56,3,Schalke 04,7,4,1,2,18,13,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1955/56,4,Hamburgo,6,4,1,1,14,10,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1955/56,5,Kaiserslautern,6,3,1,2,16,13,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1955/56,6,Stuttgart,7,2,2,3,17,14,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1955/56,7,Hannover 96,9,2,2,5,15,24,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1955/56,8,Viktoria Berlin,6,0,2,4,7,21,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1955/56,9,TuS Koblenz,3,0,1,2,5,14,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: 2ª eliminatória
+1956/57,1,Borussia Dortmund,4,4,0,0,11,5,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1956/57,2,Hamburgo,4,2,1,1,6,7,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1956/57,3,Kickers Offenbach,4,3,0,1,11,6,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1956/57,4,Duisburger SpV,3,1,2,0,6,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1956/57,5,Kaiserslautern,3,1,0,2,17,8,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1956/57,6,Nuremberg,3,0,2,1,5,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1956/57,7,Saarbrücken,3,0,1,2,4,7,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1956/57,8,Hertha Berlin,3,0,0,3,3,19,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1956/57,9,Holstein Kiel,1,0,0,1,2,3,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1957/58,1,Schalke 04,4,4,0,0,19,1,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1957/58,2,Hamburgo,4,3,0,1,8,6,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1957/58,3,Karlsruhe,3,2,0,1,3,4,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1957/58,4,Nuremberg,3,1,1,1,7,8,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1957/58,5,Eintracht Braunschweig,3,1,0,2,10,9,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1957/58,6,Pirmasens,3,0,2,1,4,5,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1957/58,7,Colônia,5,1,2,2,11,11,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1957/58,8,Tennis Borussia Berlin,3,0,0,3,3,18,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1957/58,9,Kaiserslautern,2,0,1,1,3,6,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1958/59,1,Eintracht Frankfurt,7,7,0,0,31,14,14,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1958/59,2,Kickers Offenbach,7,4,1,2,17,14,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1958/59,3,Hamburgo,6,4,0,2,13,8,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1958/59,4,Colônia,6,2,1,3,10,14,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1958/59,5,Pirmasens,6,2,0,4,16,18,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1958/59,6,Westfalia Herne,6,2,0,4,8,13,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1958/59,7,Werder Bremen,7,2,1,4,18,24,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1958/59,8,Tasmania Berlin,6,1,1,4,6,11,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1958/59,9,Borussia Neunkirchen,1,0,0,1,3,6,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1959/60,1,Hamburgo,7,5,1,1,25,13,11,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1959/60,2,Colônia,7,4,1,2,16,11,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1959/60,3,Werder Bremen,6,4,0,2,18,12,8,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1959/60,4,Karlsruhe,6,2,2,2,16,18,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1959/60,5,Tasmania Berlin,6,3,0,3,11,11,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1959/60,6,Borussia Neunkirchen,6,3,0,3,9,15,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1959/60,7,Westfalia Herne,7,2,1,4,14,16,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1959/60,8,Pirmasens,6,0,1,5,9,21,1,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1959/60,9,Kickers Offenbach,1,0,0,1,0,1,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1960/61,1,Nuremberg,7,5,2,0,21,9,12,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1960/61,2,Borussia Dortmund,7,3,1,3,19,15,7,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1960/61,3,Eintracht Frankfurt,7,4,1,2,18,9,9,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1960/61,4,Werder Bremen,6,2,2,2,8,11,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1960/61,5,Hamburgo,6,3,0,3,14,19,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1960/61,6,Colônia,6,1,3,2,11,12,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1960/61,7,Saarbrücken,6,1,2,3,11,17,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1960/61,8,Hertha Berlin,6,1,1,4,9,14,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1960/61,9,Borussia Neunkirchen,1,0,0,1,0,5,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1961/62,1,Colônia,4,4,0,0,18,1,8,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1961/62,2,Nuremberg,4,3,0,1,8,8,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1961/62,3,Eintracht Frankfurt,3,2,0,1,11,5,4,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1961/62,4,Tasmania Berlin,3,1,1,1,3,3,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1961/62,5,Schalke 04,4,2,1,1,9,7,5,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1961/62,6,Hamburgo,3,1,0,2,7,6,2,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1961/62,7,Borussia Neunkirchen,3,0,0,3,4,7,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1961/62,8,Pirmasens,3,0,0,3,4,24,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1961/62,9,Werder Bremen,1,0,0,1,1,4,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
+1962/63,1,Borussia Dortmund,7,5,1,1,18,8,11,0,campeao,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1962/63,2,Colônia,7,4,2,1,30,15,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",
+1962/63,3,Nuremberg,7,4,2,1,21,13,10,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1962/63,4,1860 Munique,6,3,0,3,10,12,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1962/63,5,Borussia Neunkirchen,6,2,2,2,8,11,6,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1962/63,6,Hertha Berlin,6,1,1,4,8,19,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1962/63,7,Hamburgo,6,1,1,4,7,10,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1962/63,8,Kaiserslautern,6,0,3,3,7,20,3,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Fase de grupos
+1962/63,9,Werder Bremen,1,0,0,1,1,2,0,0,,"RSSSF (fase final; campeão oficial em 1º, depois a fase alcançada)",parou em: Eliminatória
