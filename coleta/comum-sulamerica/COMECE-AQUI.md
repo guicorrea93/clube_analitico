@@ -77,20 +77,24 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.464 | 81 | 0ead727 | sim |
 | `chi-1` Chileno | 109 (1933–2025) | 22.601 | 53 | 36e0690 | sim |
 | `col-1` Colombiano | 101 (1948–2025) | 22.788 | 42 | 3f5c1d0 | sim |
-| `par-1` Paraguaio | 133 (1906–2025) | 7.865 | 43 | dc2b360, 9d1ca3b, 0b793ba | sim (versão antiga: recarregar) |
-| `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | não |
-| `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | não |
-| `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | não |
+| `par-1` Paraguaio | 133 (1906–2025) | 7.865 | 43 | dc2b360, 9d1ca3b, 0b793ba | sim (recarregado 22/11) |
+| `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | sim |
+| `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | sim |
+| `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
+| `ven-1` Venezuelano | 106 (1921–2025) | 13.582 | 108 | (commit da Venezuela) | não |
 
-Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Tudo está no GitHub (push de 22/11).
+Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
+da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
 
 ## 3. De onde continuar (pendências, em ordem)
 
-1. **Agente 1 carregar `ecu-1` e `per-1` e recarregar o `par-1`** (no GitHub desde o `0b793ba`, 22/11; recado no fim de
-   `docs/coleta/pedidos-sulamerica.md`). Só acompanhar a resposta dele.
-2. **Bolívia (`bol-1`):** no GitHub desde o `9ed3dcd` (22/11); falta o agente 1 carregar (recado de fim de coleta no fim
-   de `docs/coleta/pedidos-sulamerica.md`).
-3. **Próxima competição: `ven-1` (Venezuela)**, depois da Bolívia (prioridade dada pelo Guilherme em 22/11). Siga a seção 4.
+1. **Venezuela (`ven-1`):** falta o agente 1 carregar (recado de fim de coleta no fim de `docs/coleta/pedidos-sulamerica.md`).
+   Decisão pedida ao Guilherme: Atlético Zulia = Universidad de Los Andes (lista de campeões da RSSSF) ou Unicol (página
+   de 1996/97)?
+2. **Pedido do agente 1 para o `bol-1` (22/11, "quando o Guilherme mandar revisar; não para agora"):** a classificação
+   final de 1960, 1976, 1990, 1993 e 1994 deve trazer todos os clubes com jogos (eliminados com a posição da fase em que
+   caíram), como no `bra-sp-2`. O mesmo pode valer para as edições incompletas do `ven-1`.
+3. **Próximas competições: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7).
 4. **Revisão (espera):** por decisão do Guilherme (22/11), os 55 achados abertos do Argentino (AR) e do Uruguaio (UY) e as
    decisões pedidas (UY-001, UY-007, UY-020, AR-032, AR-033, AR-043, AR-044, Copa de Oro 1936) **esperam**. O agente de
    revisão vai deixar um plano em `docs/revisao/plano-coleta-sulamerica.md`; quando o Guilherme disser que é hora, siga o
@@ -109,7 +113,8 @@ Os números de gols, cartões, conferência e cobertura estão no `README.md` da
 
 ## 4. Como fazer uma competição nova
 
-Copie a pasta da competição mais parecida e adapte. A mais recente e completa é `coleta/ecu-1/`, que tem:
+Copie a pasta da competição mais parecida e adapte. A mais recente é `coleta/ven-1/` (ESPN com fase por data e sem corte por data, tabelas cruzadas com a diagonal
+em branco, era amadora com a liga antes das copas). A mais completa em módulos é `coleta/ecu-1/`, que tem:
 - tabela de confrontos;
 - jogos da ESPN com fase por data;
 - `espn_fases`;
@@ -137,7 +142,7 @@ Código comum em `coleta/comum-sulamerica/`:
 
 | Arquivo | O que faz |
 |---|---|
-| `rsssf_sul.py` | leitor genérico das páginas da RSSSF: `texto`, `ler`, `linha_tabela`, `_jogo`, `chave`. **Mudou? Reimporte as sete competições e compare os pacotes (`git diff --stat`)** |
+| `rsssf_sul.py` | leitor genérico das páginas da RSSSF: `texto`, `ler`, `linha_tabela`, `_jogo`, `chave`. **Mudou? Reimporte as nove competições e compare os pacotes (`git diff --stat`)** |
 | `baixar.py` | `pegar(url, destino, espera)`: download educado, com cache |
 | `espn.py` | URL do placar diário e `resumir(evento)` |
 | `ogol.py`, `wikipedia.py` | calendário do ogol; wikitexto pela API |
@@ -237,6 +242,23 @@ siga o redirecionamento.
 - edição que já é um torneio ("2004 Clausura"): o título do torneio na página não vira fase (`tor = {}` em `ler`);
 - "Liguilla" não pode encerrar o torneio (em 2024 era o mata-mata do Apertura); "Final" sozinho encerra (final do ano).
 
+**Venezuela (22/11):**
+- era amadora: a página traz a liga (às vezes só o campeão) e depois copas (Copa Venezuela, Copa IND, Copa del Distrito
+  Federal); o trecho da liga acaba no primeiro título "Copa ..." mesmo sem jogo antes (`ler` do `ven-1`);
+- "bt" / "lt" = venceu / perdeu sem placar (viram W.O.); "drw" = empate sem placar (fica de fora); "1-0 awd X" (1967) =
+  placar dado antes do "awd";
+- "Championship Playoff" é grupo final quando vem com "Final Table" (1968-1984, 1999/00, 2022, 2023) e final quando não;
+  "Championhip" (sem s) é erro de digitação da página;
+- "Liguilla (Cuadrangulares)" seguida de "Grupo A": o leitor comum volta à fase de grupos depois de "Fase final"; use
+  "Liguillas" como nome da fase;
+- tabela cruzada sem "xxx" (diagonal em branco, 1995/96): `linhas()` põe o "xxx";
+- o mesmo nome em duas fases do ano é clube diferente ("Monagas" na Copa Venezuela 2000 = Atlético Monagas; no Torneo
+  Nacional 2001 = Monagas SC): troque o nome na página, em `linhas()`;
+- ESPN com placar absurdo (2011, "15-0"): a tabela final da RSSSF mostra o certo; corrija em `CORRIGE`;
+- jogos da ESPN somados aos da página: em vez do corte por data, sai da ESPN só o jogo que a página já tem (mesmo par
+  até 3 dias de diferença);
+- artilheiro com dois clubes ("Estudiantes/Carabobo FC"): fica o último, os dois na fonte (o teste de carga pegou).
+
 **Python no Windows:** editar arquivo por heredoc com `python - <<'EOF'` estraga `\b` (vira backspace) e às vezes `\n`. Para
 regex, use o Edit e confira com `grep -c $'\x08'`. Em f-string com `rf"..."`, `\d{1,2}` vira tupla: use `{{1,2}}`.
 
@@ -249,4 +271,5 @@ regex, use o Edit e confira com `grep -c $'\x08'`. Em f-string com `rf"..."`, `\
   jogos soltos ("Known Results") ficam de fora.
 - Peruano: 1912-1921 como edições só com campeão e vice (escolha recomendada aprovada em 21/11).
 - 22/11: prioridade é coletar (Bolívia, depois Venezuela); a revisão do Argentino e do Uruguaio espera o plano da revisão.
+- 22/11: depois da Venezuela, as 2ªs divisões, na ordem do guia geral, quando ele pedir.
 - Não começar outra competição sem ele pedir.

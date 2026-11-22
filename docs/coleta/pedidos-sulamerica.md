@@ -348,3 +348,80 @@ Para o agente 1 (banco e painel) e o agente de revisão.
 8. **Próxima competição:** `ven-1` (Venezuela).
 
 Documentação: `coleta/comum-sulamerica/documentacao/bol-1.md`; relatório: `docs/coleta/bol-1.md`. O leitor comum não mudou.
+
+## 22/11 — agente 1: per-1, ecu-1, par-1 e bol-1 no banco e no painel
+
+- Carregados: per-1, ecu-1, par-1 (recarregado inteiro) e bol-1. Todos "-> OK". Os quatro liberados no seletor (vão ao site
+  com o ok do Guilherme). per-1 1912-1921 entrou como está no pacote (decisão do Guilherme ainda em aberto).
+- Edições com só parte dos jogos: o painel agora usa a tabela da fonte sempre que ela traz números para algum clube; as
+  linhas sem números mostram "—" (só posição e, se houver, pontos). Vale para o bol-1 (1976, 1978, 1979, 1986) e para o
+  bra-sp-2.
+- Jogos "awd": conferi. Todas as edições com eles trazem a tabela oficial completa, que é a que o painel usa. Nada a mudar.
+- **Pedido (bol-1, quando o Guilherme mandar revisar; não para agora):** em 5 edições há clubes com jogos que não estão
+  na classificacao_final: 1960 (6 clubes: Internacional de La Paz, San José, Always Ready, Municipal de La Paz, Bolívar,
+  Chaco Petrolero), 1976 (Guabirá, Jorge Wilstermann, The Strongest), 1990 (7), 1993 (8) e 1994 (San José, Always Ready,
+  Independiente Petrolero). O painel põe esses clubes no fim da tabela, sem posição ("—") e sem números. Melhor seria a
+  classificação trazer todos os participantes, como no bra-sp-2 (eliminados com a posição repetida da fase em que caíram).
+  O gerador avisa esses casos no log ("aviso: ... fora da classificação final").
+
+## Recado de fim de coleta — ven-1 — 22/11
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** 1ª divisão venezuelana completa, `ven-1`.
+   - **Edições:** 106, uma por título de 1921 (temporada 1920/21) a 2025, como na lista de campeões da RSSSF
+     (`venezchamp.html`). O Torneo de Adecuación 2015 entra (a RSSSF conta; a Wikipédia em inglês não).
+   - **Pacote:** 13.582 jogos, 108 clubes, 34.193 gols (6.390 com autor), 6.729 cartões e 74 artilheiros.
+   - **Fontes:** RSSSF como base; ESPN para hora, estádio, público e lances de 2005 em diante, e para os jogos do
+     Clausura 2011, de 2011/12 e de 2025.
+   - **Conferência:** 48 edições fecham com as tabelas publicadas; 23 divergem, com explicação no relatório; 35 não têm
+     o que conferir (7 sem jogos e 28 incompletas).
+   - Os 106 campeões batem com a Wikipédia. Os vices também, menos 1966 e 1975 (ficou o da RSSSF).
+   - **Documentação:** `coleta/comum-sulamerica/documentacao/ven-1.md` e o README atualizados; COMECE-AQUI atualizado
+     (inclui as armadilhas da Venezuela); relatório em `docs/coleta/ven-1.md`.
+2. **Commits:** o commit da Venezuela (hash no próximo recado, depois do ok do Guilherme).
+   - O leitor comum (`rsssf_sul.py`) **não mudou**: nenhuma outra liga muda e nenhum id de partida muda.
+   - No `documentar.py`, só saíram das pendências as linhas "ainda não carregado" (per-1, ecu-1, bol-1) e o "recarregar"
+     do par-1, como no recado do agente 1 de 22/11.
+3. **Teste de carga:** `ven-1: 106 edições, 13582 jogos, 108 clubes novos -> OK`. Na primeira rodada, dois artilheiros com
+   dois clubes ("Estudiantes/Carabobo FC") ficaram sem clube; agora fica o último clube e os dois vão na fonte.
+4. **Pedidos ao banco e ao painel:**
+   - Carregar o `ven-1`.
+   - **Edições incompletas:** a era amadora e 1993/94 e 1994/95. Na era amadora, a classificação costuma ser só campeão e
+     vice; em 1993/94 e 1994/95, é a tabela da liga. Há clubes com jogos fora da classificação (o mesmo caso do pedido
+     de 22/11 para o `bol-1`); trato junto quando o Guilherme mandar.
+   - **Nomes com o ano entre parênteses:** "Anzoátegui FC (1967)" e "Aragua FC (1966)". São clubes extintos com o mesmo
+     nome de clubes atuais.
+5. **Decisões:**
+   - **Tomadas por mim (explicadas no relatório e em `clubes_ven.py`):**
+     - Adecuación 2015 conta como edição.
+     - Clube que muda de cidade fica separado, salvo quando a lista de campeões da RSSSF junta. Por isso Nacional Táchira
+       e UD Lara são clubes diferentes, e Atlético Monagas e Monagas SC também.
+     - Mesmo clube: Unión Atlético Táchira = Deportivo Táchira; ItalChacao e Deportivo Petare = Deportivo Italia;
+       Internacional de Lara (1998/99) = Trujillanos.
+     - 1940: um quarto Español x Loyola foi descartado (a tabela fecha sem ele).
+     - Dois placares da ESPN corrigidos pela tabela da RSSSF: o "15-0" de 2011 vira 3-0, e um 0-0 vira W.O. de 3-0.
+   - **Para o Guilherme:** o Atlético Zulia (1996/97 e 1997/98) entrou como **Universidad de Los Andes**, como na lista de
+     campeões da RSSSF. A página da temporada 1996/97 diz que ele era o **Unicol**. A escolha muda de dono o título de
+     1997/98.
+6. **O que não deu para coletar:**
+   - **Era amadora:** 7 anos sem página (1922, 1924, 1931, 1938, 1939, 1949 e 1950) e 26 com jogos parciais ou só o
+     campeão. Fontes que resolveriam: jornais de Caracas (El Universal, La Esfera) ou o livro de Eliézer Pérez, autor das
+     páginas da RSSSF.
+   - **1993/94 e 1994/95:** o Apertura (Copa Venezuela) de 1993/94 e o Torneo Iniciación de 1994/95 só têm tabelas. Faltam
+     ainda 8 placares da liga de 1993/94 e 5 "drw" (empate sem placar) de 1994/95.
+   - **Quatro jogos que nenhuma fonte traz:** 1992/93 Lara x Zamora; Clausura 2011 Caroní x Zulia; Apertura 2011 Mineros x
+     Zamora e Carabobo x Aragua. A tabela final da RSSSF dá o resultado de cada um; as páginas das temporadas na
+     Wikipédia em espanhol podem confirmar.
+   - **Artilheiro de 2015:** a lista da RSSSF vai até 2007/08, e a Wikipédia não tem a linha da Adecuación.
+7. **Onde a revisão deve olhar primeiro:**
+   - a identidade dos clubes em `clubes_ven.py`: Atlético Zulia, as três "Lara", as quatro "Anzoátegui", Monagas;
+   - 2000/01: "Monagas" trocado por "Atl Monagas" só na 1ª fase, em `linhas()`;
+   - as fases de 1994/95 (Apertura, Iniciación, Torneo Nacional e Finalización);
+   - "Championship Playoff", que vira grupo final ou final conforme tenha "Final Table";
+   - as temporadas da ESPN (2010/11, 2011/12 e 2025): fase por data, em `espn_fases`;
+   - o corte da era amadora no primeiro título "Copa ...".
+8. **Próxima competição:** as 1ªs divisões da América do Sul acabaram. Depois vêm as 2ªs divisões, na ordem do guia geral,
+   quando o Guilherme pedir.
+
+Documentação: `coleta/comum-sulamerica/documentacao/ven-1.md`; relatório: `docs/coleta/ven-1.md`.

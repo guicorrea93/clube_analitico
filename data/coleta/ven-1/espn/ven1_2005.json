@@ -1,0 +1,4278 @@
+[
+{
+"id": "192826",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Cachamay Gino Scarigella",
+"cidade": "Cachamay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Javier Caraballo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfredo Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Arismendi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Foronda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfredo Moreno"
+]
+}
+]
+},
+{
+"id": "192844",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192824",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+}
+]
+},
+{
+"id": "192827",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David McIntosh"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Fabián Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Maita"
+]
+}
+]
+},
+{
+"id": "192825",
+"data_hora": "2005-08-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Maldonado"
+]
+}
+]
+},
+{
+"id": "192830",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Javier De Pablos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonny González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Armando Chacón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Pedro Bidoglio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Fernando Pérez"
+]
+}
+]
+},
+{
+"id": "192829",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gustavo Noriega"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Acuña"
+]
+}
+]
+},
+{
+"id": "192828",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César González"
+]
+}
+]
+},
+{
+"id": "192831",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192890",
+"data_hora": "2005-08-14T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Alexander \"Comanche\" Botinni",
+"cidade": "Maturín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Brignani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Andrés López"
+]
+}
+]
+},
+{
+"id": "192902",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192832",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Mea Vitali"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Luís Bravo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Souza Chad"
+]
+}
+]
+},
+{
+"id": "192835",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Rondón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesús Marquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wuiswell Isea"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Acuña"
+]
+}
+]
+},
+{
+"id": "192834",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César González"
+]
+}
+]
+},
+{
+"id": "192833",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Alfonso Casseres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Foronda"
+]
+}
+]
+},
+{
+"id": "192903",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192838",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192837",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Alfonso Casseres"
+]
+}
+]
+},
+{
+"id": "192839",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Baloges"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Alexander Varrone"
+]
+}
+]
+},
+{
+"id": "192836",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernández"
+]
+}
+]
+},
+{
+"id": "192840",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Souza Chad"
+]
+}
+]
+},
+{
+"id": "192843",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Gustavo Noriega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Rondón"
+]
+}
+]
+},
+{
+"id": "192842",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Alexander \"Comanche\" Botinni",
+"cidade": "Maturín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evelio Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Alexander Varrone"
+]
+}
+]
+},
+{
+"id": "192891",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos1 González"
+]
+}
+]
+},
+{
+"id": "192841",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mackenzie"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elvis Martínez"
+]
+}
+]
+},
+{
+"id": "192904",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192845",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evelio Hernández"
+]
+}
+]
+},
+{
+"id": "192847",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Maita"
+]
+}
+]
+},
+{
+"id": "192848",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jarrín García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Fernández"
+]
+}
+]
+},
+{
+"id": "192846",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Mackenzie"
+]
+}
+]
+},
+{
+"id": "192850",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Giraldo"
+]
+}
+]
+},
+{
+"id": "192853",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos1 González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Maita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anyelo Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Espinoza"
+]
+}
+]
+},
+{
+"id": "192851",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Alexander \"Comanche\" Botinni",
+"cidade": "Maturín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Salazar"
+]
+}
+]
+},
+{
+"id": "192849",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Santo"
+]
+}
+]
+},
+{
+"id": "192852",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Damián Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Maldonado"
+]
+}
+]
+},
+{
+"id": "192887",
+"data_hora": "2005-10-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cachamay Gino Scarigella",
+"cidade": "Cachamay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Aníbal Risso"
+]
+}
+]
+},
+{
+"id": "192889",
+"data_hora": "2005-10-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos1 González"
+]
+}
+]
+},
+{
+"id": "192885",
+"data_hora": "2005-10-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Rondón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Santo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+}
+]
+},
+{
+"id": "192888",
+"data_hora": "2005-10-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dickson Ruberth Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dickson Ruberth Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Fabián Zelaya"
+]
+}
+]
+},
+{
+"id": "192886",
+"data_hora": "2005-10-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Alfonso Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Castellín"
+]
+}
+]
+},
+{
+"id": "192858",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Antonio Carlos Steimbach"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dos Santos Kleber"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos1 González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lainderson Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lainderson Díaz"
+]
+}
+]
+},
+{
+"id": "192856",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Armando Chacón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Arismendi"
+]
+}
+]
+},
+{
+"id": "192855",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Manuel Rey"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Aníbal Risso"
+]
+}
+]
+},
+{
+"id": "192857",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Alexander \"Comanche\" Botinni",
+"cidade": "Maturín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Galavis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesús Marquez"
+]
+}
+]
+},
+{
+"id": "192859",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Brignani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Damián Figueroa"
+]
+}
+]
+},
+{
+"id": "192861",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mario Vilarete Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo López"
+]
+}
+]
+},
+{
+"id": "192862",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Delfino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David McIntosh"
+]
+}
+]
+},
+{
+"id": "192863",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Manuel Rey"
+]
+}
+]
+},
+{
+"id": "192860",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Alexander \"Comanche\" Botinni",
+"cidade": "Maturín",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192864",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orlando Cordero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Brignani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Eduardo Valdez"
+]
+}
+]
+},
+{
+"id": "192905",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192867",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Villafraz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Souza Chad"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dos Santos Kleber"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Souza Chad"
+]
+}
+]
+},
+{
+"id": "192868",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Jairo Ospina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Armando Chacón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonny González"
+]
+}
+]
+},
+{
+"id": "192869",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Murillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Brignani"
+]
+}
+]
+},
+{
+"id": "192865",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Maldonado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Vera"
+]
+}
+]
+},
+{
+"id": "192870",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giancarlo Maldonado"
+]
+}
+]
+},
+{
+"id": "192872",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Delfino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Rondón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+}
+]
+},
+{
+"id": "192873",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Rodrigo Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martínez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Espinoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Alberto Rojas"
+]
+}
+]
+},
+{
+"id": "192871",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Javier Caraballo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernández"
+]
+}
+]
+},
+{
+"id": "192906",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192876",
+"data_hora": "2005-11-13T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Javier Caraballo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Javier Caraballo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Ximenez"
+]
+}
+]
+},
+{
+"id": "192877",
+"data_hora": "2005-11-13T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Boada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Rondón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernández"
+]
+}
+]
+},
+{
+"id": "192874",
+"data_hora": "2005-11-13T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Rodrigo Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Espinoza"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonny Carneiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César González"
+]
+}
+]
+},
+{
+"id": "192892",
+"data_hora": "2005-11-13T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Vielma"
+]
+}
+]
+},
+{
+"id": "192875",
+"data_hora": "2005-11-13T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Fuenmayor"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Moncada"
+]
+}
+]
+},
+{
+"id": "192907",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "192881",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Armando Chacón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Baloges"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Baloges"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Ocoro"
+]
+}
+]
+},
+{
+"id": "192878",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Delfino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Delfino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Andrade"
+]
+}
+]
+},
+{
+"id": "192879",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Mea Vitali"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Mea Vitali"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Rodrigo Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Jiménez"
+]
+}
+]
+},
+{
+"id": "192880",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+}
+]
+},
+{
+"id": "192819",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+}
+]
+},
+{
+"id": "192822",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Rodrigo Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Giraldo"
+]
+}
+]
+},
+{
+"id": "192821",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Alexander \"Comanche\" Botinni",
+"cidade": "Maturín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wuiswell Isea"
+]
+}
+]
+},
+{
+"id": "192823",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Andrade"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Santo"
+]
+}
+]
+},
+{
+"id": "192820",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Yori"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis José García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Damián Figueroa"
+]
+}
+]
+},
+{
+"id": "192884",
+"data_hora": "2005-12-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Rodrigo Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Alberto Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Alberto Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Maita"
+]
+}
+]
+},
+{
+"id": "192883",
+"data_hora": "2005-12-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bremer Piñango"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Baloges"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesús Acosta"
+]
+}
+]
+},
+{
+"id": "192854",
+"data_hora": "2005-12-01T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Cachamay Gino Scarigella",
+"cidade": "Cachamay",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Zapata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ely Valderrey"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis José Vallenilla"
+]
+}
+]
+},
+{
+"id": "192882",
+"data_hora": "2005-12-01T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Souza Chad"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Armando Chacón"
+]
+}
+]
+},
+{
+"id": "192866",
+"data_hora": "2005-12-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andree Aníbal González"
+]
+}
+]
+},
+{
+"id": "192897",
+"data_hora": "2005-12-10T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Monagas SC",
+"mandante_id": "6041",
+"visitante": "A.C. Mineros",
+"visitante_id": "4810",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Alexander \"Comanche\" Botinni",
+"cidade": "Maturín",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jansee Joel Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo López"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jansee Joel Pérez"
+]
+}
+]
+},
+{
+"id": "192895",
+"data_hora": "2005-12-11T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Caracas FC",
+"mandante_id": "4811",
+"visitante": "Estudiantes de Mérida",
+"visitante_id": "6038",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Orlando Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Rodrigo Trujillo"
+]
+}
+]
+},
+{
+"id": "192896",
+"data_hora": "2005-12-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aragua",
+"mandante_id": "6036",
+"visitante": "U.A. Maracaibo",
+"visitante_id": "6040",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Hermanos Ghersi Páez",
+"cidade": "Maracay",
+"publico": 0,
+"lances": []
+},
+{
+"id": "192893",
+"data_hora": "2005-12-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D. Italmaracaibo",
+"mandante_id": "6039",
+"visitante": "Carabobo",
+"visitante_id": "6037",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Arismendi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Arismendi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Maita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos1 González"
+]
+}
+]
+},
+{
+"id": "192894",
+"data_hora": "2005-12-11T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Trujillanos",
+"mandante_id": "5268",
+"visitante": "Deportivo Táchira",
+"visitante_id": "4818",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Luis Loreto Lira",
+"cidade": "Valera",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ridenson Morillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jarrín García"
+]
+}
+]
+},
+{
+"id": "192898",
+"data_hora": "2005-12-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportivo Táchira",
+"mandante_id": "4818",
+"visitante": "Monagas SC",
+"visitante_id": "6041",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Olímpico de la U. Central de Venezuela",
+"cidade": "Caracas",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Enrique García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Ocoro"
+]
+}
+]
+},
+{
+"id": "192899",
+"data_hora": "2005-12-18T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "A.C. Mineros",
+"mandante_id": "4810",
+"visitante": "Caracas FC",
+"visitante_id": "4811",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Juan Canuto Pettengil",
+"cidade": "Itauguá",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jansee Joel Pérez"
+]
+}
+]
+},
+{
+"id": "192900",
+"data_hora": "2005-12-18T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Estudiantes de Mérida",
+"mandante_id": "6038",
+"visitante": "C.D. Italmaracaibo",
+"visitante_id": "6039",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Guillermo Soto Rosa",
+"cidade": "Mérida",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emilio Rentería"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Giraldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evelio Hernández"
+]
+}
+]
+},
+{
+"id": "192901",
+"data_hora": "2005-12-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carabobo",
+"mandante_id": "6037",
+"visitante": "Aragua",
+"visitante_id": "6036",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Misael Delgado",
+"cidade": "Valencia",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Carlos1 González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wuiswell Isea"
+]
+}
+]
+},
+{
+"id": "192908",
+"data_hora": "2005-12-18T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "U.A. Maracaibo",
+"mandante_id": "6040",
+"visitante": "Trujillanos",
+"visitante_id": "5268",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "José Pachencho Romero",
+"cidade": "Maracaibo",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Fabián Beraza"
+]
+}
+]
+}
+]

@@ -26,8 +26,9 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["arg-1", "uru-1", "chi-1", "col-1", "par-1", "per-1", "ecu-1", "bol-1"]
-PAIS = {"arg-1": "arg", "uru-1": "uru", "chi-1": "chi", "col-1": "col", "par-1": "par", "per-1": "per", "ecu-1": "ecu", "bol-1": "bol"}
+LIGAS = ["arg-1", "uru-1", "chi-1", "col-1", "par-1", "per-1", "ecu-1", "bol-1", "ven-1"]
+PAIS = {"arg-1": "arg", "uru-1": "uru", "chi-1": "chi", "col-1": "col", "par-1": "par", "per-1": "per", "ecu-1": "ecu", "bol-1": "bol",
+        "ven-1": "ven"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -52,22 +53,19 @@ PENDENCIAS: dict[str, list[str]] = {
     ],
     "par-1": [
         "76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.",
-        "Pacote reimportado em 21/11 (leitor comum: clubes com nome de data): +55 jogos de 2005-2014 e ids das partidas "
-        "mudados; o agente 1 precisa recarregar o pacote inteiro (recado de 21/11, seção do ecu-1).",
     ],
     "per-1": [
         "Decisão para o agente 1/Guilherme: 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice (conta "
         "da Wikipédia); se valer a conta da RSSSF, tirar essas edições.",
         "18 edições sem jogos (1912-1921, 1970-1974, 1976, 1977, 1979) e jogos incompletos em 1926, 1982, 1984, 1986, "
         "1988-1991 e 2003: nenhuma fonte pública tem o resto.",
-        "Ainda não carregado no banco.",
     ],
     "ecu-1": [
-        "Ainda não carregado no banco (no GitHub desde o 0b793ba).",
         "ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).",
     ],
     "bol-1": [
-        "Ainda não carregado no banco (no GitHub desde o 9ed3dcd).",
+        "Pedido do agente 1 (22/11, para quando o Guilherme mandar revisar): a classificação final de 1960, 1976, 1990, 1993 "
+        "e 1994 deve trazer todos os clubes com jogos (eliminados com a posição da fase em que caíram), como no bra-sp-2.",
         "22 edições sem jogos (1952, 1954-1959 com o 1957 Mixto, 1961, 1963-1965, 1967, 1969, 1970, 1972-1975, 1980, 1981, "
         "1984): nenhuma fonte pública tem; o nacional de 1960-1964 não tem nem tabela (só campeão e vice). Fonte que "
         "resolveria: jornais da época ou um almanaque boliviano (ex.: historiadelfutbolboliviano.com, de Carlos Mesa).",
@@ -78,6 +76,21 @@ PENDENCIAS: dict[str, list[str]] = {
         "no relatório). Conferir numa terceira fonte.",
         "Nomes que dependem do ano, a conferir: 'Universitario' sozinho de 1971 a 1994 = Universitario de Potosí; 'Litoral' "
         "de 1992 (a tabela da RSSSF diz [Oruro]) = Litoral de La Paz.",
+    ],
+    "ven-1": [
+        "Ainda não carregado no banco.",
+        "Decisão do Guilherme: o Atlético Zulia (1996/97 e 1997/98, campeão de 1997/98) entrou como Universidad de Los Andes, "
+        "como na lista de campeões da RSSSF; a página de 1996/97 diz que era o Unicol. Se valer a página, o título vai para "
+        "o Unicol (ou para um 'Atlético Zulia' separado).",
+        "Era amadora (1921-1956): só 1940, 1955 e 1956 têm todos os jogos; 7 anos sem página (1922, 1924, 1931, 1938, 1939, "
+        "1949, 1950) e 26 com jogos parciais ou só a classificação. Fonte que resolveria: jornais de Caracas da época (El "
+        "Universal, La Esfera) ou o livro de Eliézer Pérez, autor das páginas da RSSSF.",
+        "1993/94 e 1994/95: a Copa Venezuela (Apertura de 1993/94) e o Torneo Iniciación (1994/95) só têm tabelas; 8 jogos "
+        "da liga de 1993/94 sem placar e 5 'drw' (empate sem placar) em 1994/95.",
+        "Jogos que nenhuma fonte tem: Lara x Zamora (1992/93), Caroní x Zulia (Clausura 2011), Mineros x Zamora e "
+        "Carabobo x Aragua (Apertura 2011); a tabela final dá o resultado de cada um (explicado no relatório).",
+        "Vice de 1966 e 1975: RSSSF e Wikipédia em inglês divergem; ficou o da RSSSF.",
+        "Artilheiros de 1974 e depois de 2007/08 só pela Wikipédia em inglês (a lista da RSSSF não tem).",
     ],
 }
 
@@ -410,7 +423,7 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- `ven-1` (Venezuela), só com o ok do Guilherme. Como fazer: "
+            "- 2ªs divisões, na ordem do guia geral, só quando o Guilherme pedir. Como fazer: "
             "`COMECE-AQUI.md`, seção 4.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
