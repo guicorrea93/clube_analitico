@@ -806,22 +806,22 @@ coluna, como "Estudiantes de La Plata Atlanta, Buenos Aires") não atrapalha: a 
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/arg-1.md`):
 
-- AR-001 (alta) A campeão — 1913 Federación: Campeão FAF 1913: Estudiantes de La Plata, 31 pts (18 j, 14-3-1, 64-16); vice GEBA 28; 3º Argentino de Quilmes 27.
-- AR-002 (alta) A vice — 1976 Nacional: Final Boca 1-0 River (22/12/1976): vice River Plate. A fase 'Desempate do título' (14/12) são desempates de grupo (Boca x Quilmes, Talleres x Newell's), antes das quartas.
-- AR-003 (alta) A vice — 1987/88: San Lorenzo 2º com 49 (38 j, 16-17-5, 49-28); Racing 3º 48; Instituto 15º com 33 (38 j).
-- AR-004 (alta) A vice — 1989/90: Independiente 2º 46; Boca 3º 43; Rosario Central 4º 43 (16-13-9, 45-36, com -2); Talleres e Newell's 36 (-2 cada).
-- AR-005 (alta) A vice — 2008/09 Apertura: Triangular: Tigre 1-2 San Lorenzo, San Lorenzo 1-3 Boca, Boca 0-1 Tigre: Boca 1º, Tigre 2º, San Lorenzo 3º. Arsenal 6º, Estudiantes 7º; Argentinos 11º, Godoy 12º, Banfield 13º.
-- AR-006 (alta) A vice — 1926 Amateurs: 26 clubes, 25 jogos cada: Independiente 46, San Lorenzo 45, Platense 37, Racing 34...
-- AR-007 (alta) A vice — 1926 Asociación: 18 clubes, 17 jogos cada: Boca 32, Argentinos Juniors 28, Huracán 24, Sportivo Balcarce 23...
-- AR-008 (alta) A vice — 1919 Asociación: Torneio final de 6 clubes: Boca 16 (8 j), Estudiantes (LP) 7, Huracán 4, Eureka 3, Sportivo Almagro 3, Porteño 3. Independiente, Racing, River... saíram para a AAm.
-- AR-009 (alta) A vice — 1919 Amateurs: Racing 26, Vélez 20 (13 j, 9-2-2), River 16, Defensores de Belgrano 16, Atlanta 14...
-- AR-010 (alta) A vice — 1912 Asociación: 6 clubes, 10 j: Quilmes 15, San Isidro 11, Racing 10, Estudiantes (BA) 8, Belgrano Athletic 7, River 7.
-- AR-011 (alta) A vice — 1913 Federación: GEBA (Gimnasia y Esgrima BA) 2º 28; Argentino de Quilmes 3º 27 (18 j, 12-3-3).
-- AR-012 (alta) A vice — 1895: Lomas Academy 2º 13 (10 j, com os W.O.); Flores 3º 12.
-- AR-013 (alta) A vice — 1896: 8 jogos por clube, 20 no total: Lomas Academy 12, Flores Athletic 10, Lomas Athletic 9 (4-1-3), Belgrano Athletic 8.
+- AR-001 (alta) A campeão — 1913 Federación: Campeão FAF 1913: Estudiantes de La Plata, 31 pts (18 j, 14-3-1, 64-16); vice GEBA 28; 3º Argentino de Quilmes 27. | SUGESTÃO: 1913 Federación: campeão Estudiantes (La Plata) 31 pts (18 j, 14-3-1, 64-16), vice GEBA 28, 3
+- AR-002 (alta) A vice — 1976 Nacional: Final Boca 1-0 River (22/12/1976): vice River Plate. A fase 'Desempate do título' (14/12) são desempates de grupo (Boca x Quilmes, Talleres x Newell's), antes das quartas. | SUGESTÃO: 1976 Nacional: vice River Plate (fin
+- AR-003 (alta) A vice — 1987/88: San Lorenzo 2º com 49 (38 j, 16-17-5, 49-28); Racing 3º 48; Instituto 15º com 33 (38 j). | SUGESTÃO: 1987/88: incluir Instituto x San Lorenzo de 08/05/1988 (gravado como suspenso sem valer); San Lorenzo 2º com 49 (38 j, 
+- AR-004 (alta) A vice — 1989/90: Independiente 2º 46; Boca 3º 43; Rosario Central 4º 43 (16-13-9, 45-36, com -2); Talleres e Newell's 36 (-2 cada). | SUGESTÃO: 1989/90: punições de -2 em Rosario Central, Talleres e Newell's; Independiente 2º 46, Boca 3º
+- AR-005 (alta) A vice — 2008/09 Apertura: Triangular: Tigre 1-2 San Lorenzo, San Lorenzo 1-3 Boca, Boca 0-1 Tigre: Boca 1º, Tigre 2º, San Lorenzo 3º. Arsenal 6º, Estudiantes 7º; Argentinos 11º, Godoy 12º, Banfield 13º. | SUGESTÃO: 2008/09 Apertura: triangular fi
+- AR-006 (alta) A vice — 1926 Amateurs: 26 clubes, 25 jogos cada: Independiente 46, San Lorenzo 45, Platense 37, Racing 34... | SUGESTÃO: 1926 Amateurs: 26 clubes, 25 jogos cada: Independiente 46, San Lorenzo 45, Platense 37, Racing 34. A RSSSF tem só 43 jogos
+- AR-007 (alta) A vice — 1926 Asociación: 18 clubes, 17 jogos cada: Boca 32, Argentinos Juniors 28, Huracán 24, Sportivo Balcarce 23... | SUGESTÃO: 1926 Asociación: 18 clubes, 17 jogos: Boca 32, Argentinos Juniors 28, Huracán 24, Sportivo Balcarce 23. Fonte: htt
+- AR-008 (alta) A vice — 1919 Asociación: Torneio final de 6 clubes: Boca 16 (8 j), Estudiantes (LP) 7, Huracán 4, Eureka 3, Sportivo Almagro 3, Porteño 3. Independiente, Racing, River... saíram para a AAm. | SUGESTÃO: 1919 Asociación: classificação do torneio f
+- AR-009 (alta) A vice — 1919 Amateurs: Racing 26, Vélez 20 (13 j, 9-2-2), River 16, Defensores de Belgrano 16, Atlanta 14... | SUGESTÃO: 1919 Amateurs: Racing 26, Vélez 20 (13 j, 9-2-2), River 16, Defensores de Belgrano 16, Atlanta 14. Fonte: https://es.wikip
+- AR-010 (alta) A vice — 1912 Asociación: 6 clubes, 10 j: Quilmes 15, San Isidro 11, Racing 10, Estudiantes (BA) 8, Belgrano Athletic 7, River 7. | SUGESTÃO: 1912 Asociación: 6 clubes, 10 jogos: Quilmes 15, San Isidro 11, Racing 10, Estudiantes (BA) 8, Belgrano 
+- AR-011 (alta) A vice — 1913 Federación: GEBA (Gimnasia y Esgrima BA) 2º 28; Argentino de Quilmes 3º 27 (18 j, 12-3-3). | SUGESTÃO: 1913 Federación: GEBA 2º 28, Argentino de Quilmes 3º 27 (18 j, 12-3-3; hoje 19 j, um jogo a mais). Fonte: https://es.wikipedia.or
+- AR-012 (alta) A vice — 1895: Lomas Academy 2º 13 (10 j, com os W.O.); Flores 3º 12. | SUGESTÃO: 1895: Lomas Academy 2º 13 (10 j, com os W.O.), Flores 3º 12. Fonte: https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1895_(Argentina). M
+- AR-013 (alta) A vice — 1896: 8 jogos por clube, 20 no total: Lomas Academy 12, Flores Athletic 10, Lomas Athletic 9 (4-1-3), Belgrano Athletic 8. | SUGESTÃO: 1896: 8 jogos por clube, 20 no total; tirar um dos dois Belgrano Athletic x Lomas Athletic 
 - AR-014 (media) A 3º lugar — 1997/98 Apertura: River 1-3 Rosario Central (31/08/1997). Rosario Central 3º (35); San Lorenzo 5º (9-5-5); Huracán 3-3-13.
 - AR-015 (media) A 3º lugar — 1974 Nacional; 1929: 1974 Nacional: 3º Vélez Sarsfield (grupo final: San Lorenzo 11, Rosario Central 10, Vélez 8). 1929: 3º River Plate.
-- AR-016 (alta) B classificação — 1949: O jogo é Gimnasia y Esgrima 1:0 Estudiantes de La Plata (RSSSF arg49, rodada 20). Tabela de 34 j: Boca 15º, Tigre 16º, Huracán 17º, Lanús 18º (rebaixado após o desempate).
+- AR-016 (alta) B classificação — 1949: O jogo é Gimnasia y Esgrima 1:0 Estudiantes de La Plata (RSSSF arg49, rodada 20). Tabela de 34 j: Boca 15º, Tigre 16º, Huracán 17º, Lanús 18º (rebaixado após o desempate). | SUGESTÃO: 1949: o jogo de 04/09/1949 é Gimnasi
 - AR-017 (media) B classificação — 1988/89: 1988/89: 3 pela vitória, 2 pelo empate ganho nos pênaltis e 1 pelo perdido: Independiente 84, Boca 76, Deportivo Español 68.
 - AR-018 (media) B classificação — 2016/17: Lanús 1-0 Atlético Tucumán (19/11), Lanús 1-0 Gimnasia (05/12), Tigre 0-0 Atlético Tucumán (19/12), Tigre 0-1 Gimnasia (18/03). Todos com 30 j; Lanús 8º.
 - AR-019 (media) B classificação — 1975 Metropolitano: River 72-38, Huracán 73-46, Estudiantes 68-51, Banfield 57-73 (dois placares com 1 gol a menos no banco).

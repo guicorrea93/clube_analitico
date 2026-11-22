@@ -305,3 +305,46 @@ Pacote em `data/coleta/par-1/pacote/` e relatório em `docs/coleta/par-1.md`. Co
     clubes;
   - no `par-1`, o "8 de Diciembre" (Caacupé), de 1994, que só aparece em tabela, não tinha cadastro e ficava sem clube.
 - **Documentação nova:** `coleta/comum-sulamerica/COMECE-AQUI.md` e `coleta/comum-sulamerica/documentacao/`.
+
+## Recado de fim de coleta — bol-1 — 22/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:**
+   - 94 edições (1950-2025): os 93 títulos e o Clausura 2022, abandonado e sem campeão;
+   - 8.563 jogos, 77 clubes, 13.666 gols com autor, 4.970 cartões, 91 artilheiros;
+   - fontes:
+     - RSSSF: páginas por ano de 1971, 1977 e 1990 em diante, mais a lista de tabelas finais `bolhist.html` de 1950-1990;
+     - Wikipédia em espanhol: 542 jogos de 1950, 1953, 1990, 1991 e das fases finais de outros anos;
+     - ESPN `bol.1`: 4.814 jogos casados, de 2005 em diante;
+     - Wikipédia em inglês: lista de campeões, vices de 1977 em diante e artilheiros.
+   - O ogol não tem jogos bolivianos antigos.
+2. **Commit:** pendente do ok do Guilherme.
+3. **Teste de carga:** `bol-1: 94 edições, 8563 jogos, 77 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `bol-1` (país BOL, Bolívia);
+   - temporadas com torneio: "2003 Apertura", "2011/12 Adecuación", "2016/17 Clausura"... e "1957 Mixto" (o Certamen Nacional Mixto 1957/58, título à parte do Torneo Integrado 1957);
+   - 22 edições sem jogos e 19 com jogos incompletos:
+     - a classificação delas é a tabela da RSSSF;
+     - nelas, campeão e vice da lista podem entrar no topo sem campanha (colunas vazias, fonte "lista de campeões");
+     - de 1960 a 1964 só há campeão e vice;
+   - "2022 Clausura" não tem campeão nem vice;
+   - 10 jogos decididos fora de campo (`awd`), 2 não disputados e 1 abandonado.
+5. **Decisões:**
+   - **escopo de 1950 em diante**, como a Wikipédia (Bolívar com 31 títulos) e os 93 campeonatos da RSSSF. A contagem "84 títulos desde 1958" da RSSSF tiraria 1950-1957. Fica para o Guilherme confirmar;
+   - **vice de 1961, 1963, 1964 e 1968:** RSSSF e Wikipédia divergem; ficou o da RSSSF, e em 1968 a tabela dela confirma;
+   - **ida e volta numa linha só (1992, 1994):** vira dois jogos, com o mando da volta presumido;
+   - **"awarded to X (originally 0-0)":** vira vitória dada a X, com os gols do campo.
+6. **O que não deu para coletar:**
+   - jogos de 22 anos (1952, 1954-1959, 1961, 1963-1965, 1967, 1969, 1970, 1972-1975, 1980, 1981, 1984): nenhuma fonte pública tem. Poderiam vir de jornais da época ou de um almanaque boliviano (historiadelfutbolboliviano.com);
+   - tabela do nacional de 1960-1964;
+   - a tabela de confrontos parcial de 1992, que tem células vazias e precisaria de leitura por coluna;
+   - lances da ESPN: quase nenhum de 2014 a 2020 e de 2022 a 2025 (nesses anos, os autores dos gols vêm do texto da RSSSF).
+7. **Onde a revisão deve olhar primeiro:**
+   - a classificação das edições incompletas (1951-1994);
+   - os nomes que dependem do ano: "Universitario" sozinho de 1971 a 1994 = Universitario de Potosí; "Litoral" de 1992 (a RSSSF diz [Oruro]) = Litoral de La Paz; "Internacional" de Oruro (1957) e de La Paz (1958-1960);
+   - as 10 edições com tabela divergente (1950, 1953, 1977, 1995-1999, 2001, 2002), cada uma explicada no relatório;
+   - o vice de 1961, 1963, 1964 e 1968.
+8. **Próxima competição:** `ven-1` (Venezuela).
+
+Documentação: `coleta/comum-sulamerica/documentacao/bol-1.md`; relatório: `docs/coleta/bol-1.md`. O leitor comum não mudou.

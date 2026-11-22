@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["arg-1", "uru-1", "chi-1", "col-1", "par-1", "per-1", "ecu-1"]
-PAIS = {"arg-1": "arg", "uru-1": "uru", "chi-1": "chi", "col-1": "col", "par-1": "par", "per-1": "per", "ecu-1": "ecu"}
+LIGAS = ["arg-1", "uru-1", "chi-1", "col-1", "par-1", "per-1", "ecu-1", "bol-1"]
+PAIS = {"arg-1": "arg", "uru-1": "uru", "chi-1": "chi", "col-1": "col", "par-1": "par", "per-1": "per", "ecu-1": "ecu", "bol-1": "bol"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -63,8 +63,21 @@ PENDENCIAS: dict[str, list[str]] = {
         "Ainda não carregado no banco.",
     ],
     "ecu-1": [
-        "Ainda não carregado no banco (commit pendente do ok do Guilherme).",
+        "Ainda não carregado no banco (no GitHub desde o 0b793ba).",
         "ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).",
+    ],
+    "bol-1": [
+        "Ainda não carregado no banco.",
+        "22 edições sem jogos (1952, 1954-1959 com o 1957 Mixto, 1961, 1963-1965, 1967, 1969, 1970, 1972-1975, 1980, 1981, "
+        "1984): nenhuma fonte pública tem; o nacional de 1960-1964 não tem nem tabela (só campeão e vice). Fonte que "
+        "resolveria: jornais da época ou um almanaque boliviano (ex.: historiadelfutbolboliviano.com, de Carlos Mesa).",
+        "Jogos incompletos em 1951, 1960, 1966, 1968, 1971, 1976, 1978, 1979, 1982, 1983, 1985-1994: só as fases finais (ou "
+        "jogos sem a divisão em fases, em 1990-1991). A tabela de confrontos parcial de 1992 ('Partial results', com células "
+        "vazias) não foi lida: precisaria de leitura por coluna.",
+        "Vice de 1961, 1963, 1964 e 1968: RSSSF e Wikipédia em inglês divergem; ficou o da RSSSF (decisão do agente, explicada "
+        "no relatório). Conferir numa terceira fonte.",
+        "Nomes que dependem do ano, a conferir: 'Universitario' sozinho de 1971 a 1994 = Universitario de Potosí; 'Litoral' "
+        "de 1992 (a tabela da RSSSF diz [Oruro]) = Litoral de La Paz.",
     ],
 }
 
@@ -397,7 +410,7 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- `bol-1` (Bolívia), depois `ven-1` (Venezuela), uma por vez e só com o ok do Guilherme. Como fazer: "
+            "- `ven-1` (Venezuela), só com o ok do Guilherme. Como fazer: "
             "`COMECE-AQUI.md`, seção 4.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 

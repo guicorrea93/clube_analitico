@@ -496,7 +496,7 @@ da edição; por isso as mais específicas vêm antes.
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/uru-1.md`):
 
-- UY-001 (alta) A títulos FUF e Consejo Provisorio — 1923 FUF; 1924 FUF; 1926: A AUF não reconhece os títulos da FUF nem o torneio do Consejo Provisorio: 122 campeonatos; Peñarol 52 (com os 5 do CURCC) ou 47, Nacional 50, Wanderers 3. A RSSSF (base da coleta) conta as três
+- UY-001 (alta) A títulos FUF e Consejo Provisorio — 1923 FUF; 1924 FUF; 1926: A AUF não reconhece os títulos da FUF nem o torneio do Consejo Provisorio: 122 campeonatos; Peñarol 52 (com os 5 do CURCC) ou 47, Nacional 50, Wanderers 3. A RSSSF (base da coleta) conta as três | SUGESTÃO: Decisão do Gu
 - UY-003 (media) A 1948 vice sem campeão — 1948: Edição abandonada na 10ª rodada: não há campeão nem vice
 - UY-004 (alta) A vice — 1995; 1996; 1998; 2000; 2001; 2002; 2004; 2007/08; 2008/09; 2011/12; 2013/14; 2014/15; 2021; 2025: Wikipédia es (AUF) e en concordam: 1995 Nacional; 1996 Nacional; 1998 Peñarol; 2000 Peñarol; 2001 Danubio; 2002 Danubio; 2004 Nacional; 2007/08 Peñarol; 2008/09 Defensor; 2011/12 Peñarol; 2013/14 Montevideo Wanderers; 20
 - UY-005 (media) A 3º lugar — 1911; 1994; 1995; 1996; 1997; 1998; 2001; 2002; 2004; 2007/08; 2008/09; 2010/11; 2011/12; 2014/15; 2019; 2020; 2021; 2024; 2025: Wikipédia en (lista de campeões, coluna Third place): 1911 Nacional; 1994 Nacional; 1995 Liverpool; 1996 Defensor; 1997 River Plate de Montevideo; 1998 Bella Vista; 2001 Peñarol; 2002 Peñarol; 2004 Defensor; 2007/08 Rive

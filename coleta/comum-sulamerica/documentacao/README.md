@@ -11,8 +11,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22601 | 18878 | 25361 | 53 | 65 / 43 | sim | 36e0690 | 0 | [chi-1](chi-1.md) |
 | Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22788 | 22020 | 40449 | 42 | 48 / 38 | sim | 3f5c1d0 | 0 | [col-1](col-1.md) |
 | Campeonato Paraguaio | 133 (1906–2025 Clausura) | 76 | 7865 | 13108 | 14270 | 43 | 36 / 12 | sim | 0b793ba | 0 | [par-1](par-1.md) |
-| Campeonato Peruano | 109 (1912–2025) | 18 | 17316 | 20222 | 20999 | 153 | 52 / 38 | não | 0b793ba | 0 | [per-1](per-1.md) |
-| Campeonato Equatoriano | 68 (1957–2025) | 0 | 14195 | 9240 | 15824 | 63 | 47 / 21 | não | 0b793ba | 0 | [ecu-1](ecu-1.md) |
+| Campeonato Peruano | 109 (1912–2025) | 18 | 17316 | 20222 | 20999 | 153 | 52 / 38 | sim | 0b793ba | 0 | [per-1](per-1.md) |
+| Campeonato Equatoriano | 68 (1957–2025) | 0 | 14195 | 9240 | 15824 | 63 | 47 / 21 | sim | 0b793ba | 0 | [ecu-1](ecu-1.md) |
+| Campeonato Boliviano | 94 (1950–2025) | 22 | 8563 | 13666 | 4970 | 77 | 42 / 10 | não | — | 0 | [bol-1](bol-1.md) |
 
 ## Pendências de todas as competições
 
@@ -26,9 +27,14 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **per-1:** Decisão para o agente 1/Guilherme: 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice (conta da Wikipédia); se valer a conta da RSSSF, tirar essas edições.
 - **per-1:** 18 edições sem jogos (1912-1921, 1970-1974, 1976, 1977, 1979) e jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003: nenhuma fonte pública tem o resto.
 - **per-1:** Ainda não carregado no banco.
-- **ecu-1:** Ainda não carregado no banco (commit pendente do ok do Guilherme).
+- **ecu-1:** Ainda não carregado no banco (no GitHub desde o 0b793ba).
 - **ecu-1:** ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).
+- **bol-1:** Ainda não carregado no banco.
+- **bol-1:** 22 edições sem jogos (1952, 1954-1959 com o 1957 Mixto, 1961, 1963-1965, 1967, 1969, 1970, 1972-1975, 1980, 1981, 1984): nenhuma fonte pública tem; o nacional de 1960-1964 não tem nem tabela (só campeão e vice). Fonte que resolveria: jornais da época ou um almanaque boliviano (ex.: historiadelfutbolboliviano.com, de Carlos Mesa).
+- **bol-1:** Jogos incompletos em 1951, 1960, 1966, 1968, 1971, 1976, 1978, 1979, 1982, 1983, 1985-1994: só as fases finais (ou jogos sem a divisão em fases, em 1990-1991). A tabela de confrontos parcial de 1992 ('Partial results', com células vazias) não foi lida: precisaria de leitura por coluna.
+- **bol-1:** Vice de 1961, 1963, 1964 e 1968: RSSSF e Wikipédia em inglês divergem; ficou o da RSSSF (decisão do agente, explicada no relatório). Conferir numa terceira fonte.
+- **bol-1:** Nomes que dependem do ano, a conferir: 'Universitario' sozinho de 1971 a 1994 = Universitario de Potosí; 'Litoral' de 1992 (a tabela da RSSSF diz [Oruro]) = Litoral de La Paz.
 
 ## Próximas competições
 
-- `bol-1` (Bolívia), depois `ven-1` (Venezuela), uma por vez e só com o ok do Guilherme. Como fazer: `COMECE-AQUI.md`, seção 4.
+- `ven-1` (Venezuela), só com o ok do Guilherme. Como fazer: `COMECE-AQUI.md`, seção 4.

@@ -1,0 +1,10781 @@
+[
+{
+"id": "595558",
+"data_hora": "2021-03-09T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wálter Quispe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Villavicencio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Guaqui"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Guaqui"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denilson Espinoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerel Buezo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Ortiz Velarde"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eyber Massi"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Wálter Quispe"
+]
+}
+]
+},
+{
+"id": "595554",
+"data_hora": "2021-03-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "0",
+"gols_visitante": "8",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Brau"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edgar Ferrufino"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tonino Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mirko Tomianovic"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Vera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tonino Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Siles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tonino Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tonino Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tonino Melgar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Tavares"
+]
+}
+]
+},
+{
+"id": "595553",
+"data_hora": "2021-03-12T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Ramallo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Zamora"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Isita"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gallardo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Isita"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Camilo Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Harold Cummings"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Francisco Isita"
+]
+}
+]
+},
+{
+"id": "595551",
+"data_hora": "2021-03-13T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Menacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Galain"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Mina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Menacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Viglioti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Domínguez"
+]
+}
+]
+},
+{
+"id": "595550",
+"data_hora": "2021-03-13T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Cuellar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Giménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edenilson Michels"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Cuellar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Chávez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Cuellar"
+]
+}
+]
+},
+{
+"id": "595549",
+"data_hora": "2021-03-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Velasco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Checa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Vidaurre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Salvatierra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bismark Ubah"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Marcelo Velasco"
+]
+}
+]
+},
+{
+"id": "595548",
+"data_hora": "2021-03-14T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Algarañaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Ovejero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Sanguinetti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Algarañaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Hernández"
+]
+}
+]
+},
+{
+"id": "595547",
+"data_hora": "2021-03-14T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Saúl Torres"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Aponte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ribera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Willie"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "46'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Henry Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafinha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Willie"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Willie"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafinha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Montenegro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Arrascaita"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilfredo Soleto"
+]
+}
+]
+},
+{
+"id": "595546",
+"data_hora": "2021-03-14T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Barros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mijaíl Avilés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Erwin Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Denilson Valda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio César Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érik Correa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Érik Correa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Latorre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Richard Spenhay"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mijaíl Avilés"
+]
+}
+]
+},
+{
+"id": "595545",
+"data_hora": "2021-03-15T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Siles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tonino Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mirko Tomianovic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eber Vera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Omar Siles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wálter Veizaga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Ribera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Maldonado Presa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Villamil"
+]
+}
+]
+},
+{
+"id": "595544",
+"data_hora": "2021-03-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Sarmiento"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Trujillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Vargas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lázaro Céspedes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Gallardo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Bekamenga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darío Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jose Laguna"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Um Lee"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Caleb Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Yecerotte"
+]
+}
+]
+},
+{
+"id": "595556",
+"data_hora": "2021-03-20T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"William Velasco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Delgadillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Bilbao"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Deymar Céspedes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Enrique Blanco Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vladimir Castellón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Moreno Rojas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Vidaurre"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Enrique Blanco Mancilla"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jasson Mollo"
+]
+}
+]
+},
+{
+"id": "595555",
+"data_hora": "2021-03-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Chiatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Prost"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elkin Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mijaíl Avilés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Franco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Diaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brian Hinojosa"
+]
+}
+]
+},
+{
+"id": "595557",
+"data_hora": "2021-03-21T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mateo Abastoflor"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Ribera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jefferson Ibañez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fran Supayabe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Domínguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Mercado"
+]
+}
+]
+},
+{
+"id": "595552",
+"data_hora": "2021-03-21T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "18'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roberto Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ramos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Trujillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Yecerotte"
+]
+}
+]
+},
+{
+"id": "595559",
+"data_hora": "2021-03-28T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Ángel Becerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Moises Villarroel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damián Lizio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Coimbra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Humberto Osorio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Añez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Osorio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vargas"
+]
+}
+]
+},
+{
+"id": "595543",
+"data_hora": "2021-03-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vargas Touchard"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Olguin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gularte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Óscar Añez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Noir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Enrique Blanco Mancilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Abastoflor"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edwin Rivera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pedro Azogue"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Enrique Blanco Mancilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Quiroga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Cuellar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jimmy Leandro Roca Salazar"
+]
+}
+]
+},
+{
+"id": "595542",
+"data_hora": "2021-04-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Léiner Escalante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Borda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Maldonado Presa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Trujillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Villamil"
+]
+}
+]
+},
+{
+"id": "595541",
+"data_hora": "2021-04-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Mina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kevin Mina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Huayhuata"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Amilcar Sanchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Peredo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Bruno Pascua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Huayhuata"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fran Supayabe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Mercado"
+]
+}
+]
+},
+{
+"id": "595540",
+"data_hora": "2021-04-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Ursino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Orfano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Juarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Tavares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Amoroso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Molina"
+]
+}
+]
+},
+{
+"id": "595539",
+"data_hora": "2021-04-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Samuel Guzman"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edemir Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Navas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Rios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Samuel Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Ovejero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcel Roman"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samuel Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Rios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Camilo Vela"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristhian Machado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Rios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alan Loras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Algarañaz"
+]
+}
+]
+},
+{
+"id": "595538",
+"data_hora": "2021-04-03T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Gutiérrez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Ribera"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Saavedra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Julio César Pérez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hernán Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Villamil"
+]
+}
+]
+},
+{
+"id": "595537",
+"data_hora": "2021-04-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilfredo Soleto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alaín Niño De Guzmán Montero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elkin Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Cristian Coimbra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Serginho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dayro Moreno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Arnaldo Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Castillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Osorio"
+]
+}
+]
+},
+{
+"id": "595536",
+"data_hora": "2021-04-04T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mijaíl Avilés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Castro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érik Correa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sagredo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Prost"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Bejarano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jair Reynoso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Sagredo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mijaíl Avilés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafinha"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Medina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Diaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jesús Sagredo"
+]
+}
+]
+},
+{
+"id": "598149",
+"data_hora": "2021-04-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edarlyn Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Amoroso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "46'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brahian Egüez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edarlyn Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Saulo Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esteban Orfano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilden Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Amoroso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Tavares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jefferson Tavares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcel Roman"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Miguel Rios"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Omar Siles"
+]
+}
+]
+},
+{
+"id": "598150",
+"data_hora": "2021-04-10T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jhonatan Huaygua"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Caleb Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Germán Montoya"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edward Zenteno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Erwin Sánchez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Pinto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Omar Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Ribera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Ribera"
+]
+}
+]
+},
+{
+"id": "598151",
+"data_hora": "2021-04-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gularte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Samuel Galindo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "46'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jimmy Leandro Roca Salazar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Sanguinetti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vander Vieira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carmelo Algarañaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Quiroga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Harold Reina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Harold Cummings"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Navarro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Cuellar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+8'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Hinestroza"
+]
+}
+]
+},
+{
+"id": "598152",
+"data_hora": "2021-04-10T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Vaca"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilfredo Soleto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Saucedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adalid Terrazas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pedro Azogue"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Enrique Blanco Mancilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Iván Vidaurre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Castillo"
+]
+}
+]
+},
+{
+"id": "598154",
+"data_hora": "2021-04-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rai Lima"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wálter Veizaga"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Mercado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Villamil"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Camilo Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Heber Leaños"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jefferson Ibañez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nilton"
+]
+}
+]
+},
+{
+"id": "598153",
+"data_hora": "2021-04-11T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Morales"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jair Reynoso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Serginho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Marteli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeyson Chura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sebastián Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Ortiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Maximiliano Ortiz"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sebastián Reyes"
+]
+}
+]
+},
+{
+"id": "598155",
+"data_hora": "2021-04-11T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Léiner Escalante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Borda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Delgadillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Eguino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Gallardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Borda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Delgadillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Molina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lázaro Céspedes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Erlan Condori"
+]
+}
+]
+},
+{
+"id": "598156",
+"data_hora": "2021-04-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Chiatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jairo Quinteros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Menacho"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mijaíl Avilés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Bejarano"
+]
+}
+]
+},
+{
+"id": "598158",
+"data_hora": "2021-04-23T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Araúz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Brau"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ismael Benegas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gularte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+8'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gularte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jefferson Tavares"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jimmy Leandro Roca Salazar"
+]
+}
+]
+},
+{
+"id": "598159",
+"data_hora": "2021-04-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elkin Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Samuel Galindo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marc Enoumba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Sergio Adrián"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ribera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edemir Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Vander Vieira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilfredo Soleto"
+]
+}
+]
+},
+{
+"id": "598164",
+"data_hora": "2021-04-24T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Lenar Torrez Ordoñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Domínguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Hoyos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pedro Moreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Delgadillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mateo Abastoflor"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Hurtado"
+]
+}
+]
+},
+{
+"id": "598162",
+"data_hora": "2021-04-25T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Erwin Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Hugo Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Maldonado Presa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Robles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rai Lima"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Camilo Ríos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marco Vaca"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Christian Latorre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Cárdenas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilian Garay"
+]
+}
+]
+},
+{
+"id": "598161",
+"data_hora": "2021-04-25T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "5",
+"gols_visitante": "4",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Bejarano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Meleán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Lizio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Chiatti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Prost"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Prost"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Humberto Osorio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Banegas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Prost"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martín Prost"
+]
+}
+]
+},
+{
+"id": "598160",
+"data_hora": "2021-04-26T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Sagredo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jair Reynoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Wayar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Noir"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Noir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeyson Chura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Vaca"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Olguin"
+]
+}
+]
+},
+{
+"id": "598163",
+"data_hora": "2021-04-26T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Menacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Carvalho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"César Menacho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hernán Rodríguez"
+]
+}
+]
+},
+{
+"id": "601027",
+"data_hora": "2021-04-30T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Dorrego"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Henry Vaca"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Amoroso"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+9'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elkin Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Wilfredo Soleto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luciano Ursino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Esteban Orfano"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Wilfredo Soleto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jefferson Tavares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Vaca"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Franco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cabrera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Joel Amoroso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Montenegro"
+]
+}
+]
+},
+{
+"id": "601028",
+"data_hora": "2021-05-01T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Bejarano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Emerson Velásquez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jenry Alaca"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Moruno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Medina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elías Alderete"
+]
+}
+]
+},
+{
+"id": "601029",
+"data_hora": "2021-05-01T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Martín Galain"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Hoyos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Rivero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Heber Leaños"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Suarez Antelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Hoyos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Ovando"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Hurtado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Saulo Guerra"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Heber Leaños"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Navas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Saidt Mustafá"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Argüello"
+]
+}
+]
+},
+{
+"id": "601032",
+"data_hora": "2021-05-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Serginho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "34'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Noir"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Meleán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Deymar Céspedes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gustavo Olguin"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ramiro Ballivian"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vladimir Castellón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Saldías"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oswaldo Enrique Blanco Mancilla"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alejandro Meleán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Andía"
+]
+}
+]
+},
+{
+"id": "601030",
+"data_hora": "2021-05-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Léiner Escalante"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos López"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Harold Reina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Yecerotte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Fernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Navarro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Eguino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felipe Guaqui"
+]
+}
+]
+},
+{
+"id": "601031",
+"data_hora": "2021-05-02T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ramos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"William Ferreira"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Luis Cárdenas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ramos"
+]
+}
+]
+},
+{
+"id": "601033",
+"data_hora": "2021-05-04T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Latorre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Delgadillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Luis Anangono"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Lenar Torrez Ordoñez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Sánchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Vaca"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Erlan Condori"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Delgadillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Samuel Garzón"
+]
+}
+]
+},
+{
+"id": "601034",
+"data_hora": "2021-05-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Hugo Rojas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Samuel Guzman"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Lino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Suarez Antelo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Rivero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jesús Flores"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Saulo Guerra"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Velasco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Argüello"
+]
+}
+]
+},
+{
+"id": "601035",
+"data_hora": "2021-05-08T19:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jair Reynoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeyson Chura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Willie"
+]
+}
+]
+},
+{
+"id": "601036",
+"data_hora": "2021-05-08T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Sadiku"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ramos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Rey"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Armando Sadiku"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Lenar Torrez Ordoñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Abrego"
+]
+}
+]
+},
+{
+"id": "601037",
+"data_hora": "2021-05-08T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elder Arauz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Bejarano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adalid Terrazas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Diaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joaquín Lencinas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Joaquín Lencinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Deymar Céspedes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Godoy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Bejarano"
+]
+}
+]
+},
+{
+"id": "601038",
+"data_hora": "2021-05-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Cabrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fran Supayabe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alexis Hinestroza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelson Amarilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Anderson Góngora"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Gularte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Hoyos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brayan Sosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Víctor Cuellar"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Fran Supayabe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Federico Domínguez"
+]
+}
+]
+},
+{
+"id": "601039",
+"data_hora": "2021-05-09T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Añez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristián Arano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Lizio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vargas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "50'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edemir Rodriguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santiago Echeverría"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carmelo Algarañaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robert Hernández"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marc Enoumba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilbert Alvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gilbert Alvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"John Mosquera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"John Mosquera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Patricio Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Rodríguez"
+]
+}
+]
+},
+{
+"id": "601040",
+"data_hora": "2021-05-09T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Ribera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Elkin Blanco"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Yecerotte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joel Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Montenegro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aldo Gallardo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Wilson Quiñónez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lázaro Céspedes"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jordy Candia"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+7'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Joel Fernández"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+7'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Robin Ramos"
+]
+}
+]
+},
+{
+"id": "601041",
+"data_hora": "2021-05-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darío Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gallardo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Barboza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Paolo Alcocer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amilcar Sanchez"
+]
+}
+]
+},
+{
+"id": "598157",
+"data_hora": "2021-05-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Suarez Antelo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'+3'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jhasmani Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Rios"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "50'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ricardo Suarez Antelo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edarlyn Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Lovera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Yecerotte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edarlyn Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jesús Flores"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Morales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lázaro Céspedes"
+]
+}
+]
+},
+{
+"id": "601042",
+"data_hora": "2021-07-09T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601045",
+"data_hora": "2021-07-10T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601043",
+"data_hora": "2021-07-10T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601044",
+"data_hora": "2021-07-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601046",
+"data_hora": "2021-07-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601047",
+"data_hora": "2021-07-11T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601048",
+"data_hora": "2021-07-11T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601049",
+"data_hora": "2021-07-12T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601057",
+"data_hora": "2021-07-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601052",
+"data_hora": "2021-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601050",
+"data_hora": "2021-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601051",
+"data_hora": "2021-07-17T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601053",
+"data_hora": "2021-07-18T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601054",
+"data_hora": "2021-07-18T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601055",
+"data_hora": "2021-07-18T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612273",
+"data_hora": "2021-07-20T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612274",
+"data_hora": "2021-07-20T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612275",
+"data_hora": "2021-07-21T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612276",
+"data_hora": "2021-07-21T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "1",
+"gols_visitante": "5",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612277",
+"data_hora": "2021-07-22T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612278",
+"data_hora": "2021-07-22T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612280",
+"data_hora": "2021-07-22T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612279",
+"data_hora": "2021-07-22T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612281",
+"data_hora": "2021-07-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612282",
+"data_hora": "2021-07-24T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612285",
+"data_hora": "2021-07-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612283",
+"data_hora": "2021-07-25T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612284",
+"data_hora": "2021-07-25T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612286",
+"data_hora": "2021-07-26T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612287",
+"data_hora": "2021-07-26T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612288",
+"data_hora": "2021-07-27T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612289",
+"data_hora": "2021-07-30T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612290",
+"data_hora": "2021-07-30T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612291",
+"data_hora": "2021-07-31T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612293",
+"data_hora": "2021-07-31T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612292",
+"data_hora": "2021-07-31T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612294",
+"data_hora": "2021-07-31T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612295",
+"data_hora": "2021-08-01T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612296",
+"data_hora": "2021-08-01T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612297",
+"data_hora": "2021-08-03T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612299",
+"data_hora": "2021-08-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612300",
+"data_hora": "2021-08-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612298",
+"data_hora": "2021-08-04T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612301",
+"data_hora": "2021-08-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612302",
+"data_hora": "2021-08-04T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612303",
+"data_hora": "2021-08-05T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612304",
+"data_hora": "2021-08-05T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612305",
+"data_hora": "2021-08-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612306",
+"data_hora": "2021-08-07T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612307",
+"data_hora": "2021-08-07T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612308",
+"data_hora": "2021-08-08T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612309",
+"data_hora": "2021-08-08T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612310",
+"data_hora": "2021-08-08T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612311",
+"data_hora": "2021-08-09T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612312",
+"data_hora": "2021-08-10T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "601026",
+"data_hora": "2021-08-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "601056",
+"data_hora": "2021-08-11T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612313",
+"data_hora": "2021-08-13T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612314",
+"data_hora": "2021-08-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612315",
+"data_hora": "2021-08-14T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612316",
+"data_hora": "2021-08-14T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612317",
+"data_hora": "2021-08-14T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612318",
+"data_hora": "2021-08-15T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612319",
+"data_hora": "2021-08-15T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612320",
+"data_hora": "2021-08-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612321",
+"data_hora": "2021-08-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612322",
+"data_hora": "2021-08-17T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612323",
+"data_hora": "2021-08-18T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "7",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612324",
+"data_hora": "2021-08-18T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612325",
+"data_hora": "2021-08-19T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612326",
+"data_hora": "2021-08-19T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612327",
+"data_hora": "2021-08-19T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612328",
+"data_hora": "2021-08-20T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612329",
+"data_hora": "2021-08-21T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612330",
+"data_hora": "2021-08-21T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612331",
+"data_hora": "2021-08-21T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612332",
+"data_hora": "2021-08-22T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612334",
+"data_hora": "2021-08-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": []
+},
+{
+"id": "612333",
+"data_hora": "2021-08-22T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612335",
+"data_hora": "2021-08-23T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "612336",
+"data_hora": "2021-08-23T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619075",
+"data_hora": "2021-09-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619076",
+"data_hora": "2021-09-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619077",
+"data_hora": "2021-09-12T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619078",
+"data_hora": "2021-09-12T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619079",
+"data_hora": "2021-09-13T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619080",
+"data_hora": "2021-09-13T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619081",
+"data_hora": "2021-09-14T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619082",
+"data_hora": "2021-09-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619083",
+"data_hora": "2021-09-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619084",
+"data_hora": "2021-09-17T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619085",
+"data_hora": "2021-09-18T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619086",
+"data_hora": "2021-09-18T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619087",
+"data_hora": "2021-09-18T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619088",
+"data_hora": "2021-09-19T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619089",
+"data_hora": "2021-09-19T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619090",
+"data_hora": "2021-09-19T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619091",
+"data_hora": "2021-09-21T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619092",
+"data_hora": "2021-09-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619093",
+"data_hora": "2021-09-22T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619094",
+"data_hora": "2021-09-22T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619095",
+"data_hora": "2021-09-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619096",
+"data_hora": "2021-09-23T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619097",
+"data_hora": "2021-09-23T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619098",
+"data_hora": "2021-09-23T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619099",
+"data_hora": "2021-09-25T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619100",
+"data_hora": "2021-09-26T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619101",
+"data_hora": "2021-09-26T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": []
+},
+{
+"id": "619102",
+"data_hora": "2021-09-26T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619103",
+"data_hora": "2021-09-27T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619104",
+"data_hora": "2021-09-27T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619105",
+"data_hora": "2021-09-28T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "619106",
+"data_hora": "2021-09-28T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "620083",
+"data_hora": "2021-10-17T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620085",
+"data_hora": "2021-10-17T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620082",
+"data_hora": "2021-10-18T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620081",
+"data_hora": "2021-10-19T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620088",
+"data_hora": "2021-10-19T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620084",
+"data_hora": "2021-10-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620087",
+"data_hora": "2021-10-20T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620086",
+"data_hora": "2021-10-20T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620094",
+"data_hora": "2021-10-22T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620090",
+"data_hora": "2021-10-22T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620096",
+"data_hora": "2021-10-23T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620092",
+"data_hora": "2021-10-23T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620091",
+"data_hora": "2021-10-23T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620093",
+"data_hora": "2021-10-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620095",
+"data_hora": "2021-10-24T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620089",
+"data_hora": "2021-10-24T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620102",
+"data_hora": "2021-10-26T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620101",
+"data_hora": "2021-10-26T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620097",
+"data_hora": "2021-10-27T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620100",
+"data_hora": "2021-10-27T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620098",
+"data_hora": "2021-10-28T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620099",
+"data_hora": "2021-10-28T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620104",
+"data_hora": "2021-10-28T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620112",
+"data_hora": "2021-10-30T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620109",
+"data_hora": "2021-10-30T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620105",
+"data_hora": "2021-10-31T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620108",
+"data_hora": "2021-10-31T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620107",
+"data_hora": "2021-10-31T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620106",
+"data_hora": "2021-11-01T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620110",
+"data_hora": "2021-11-01T23:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620111",
+"data_hora": "2021-11-02T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620103",
+"data_hora": "2021-11-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620117",
+"data_hora": "2021-11-20T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620113",
+"data_hora": "2021-11-20T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620120",
+"data_hora": "2021-11-20T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620118",
+"data_hora": "2021-11-21T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620114",
+"data_hora": "2021-11-21T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620115",
+"data_hora": "2021-11-21T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620116",
+"data_hora": "2021-11-22T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620119",
+"data_hora": "2021-11-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620128",
+"data_hora": "2021-11-26T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "7",
+"gols_visitante": "1",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620125",
+"data_hora": "2021-11-26T22:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620127",
+"data_hora": "2021-11-27T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620123",
+"data_hora": "2021-11-27T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620122",
+"data_hora": "2021-11-27T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620121",
+"data_hora": "2021-11-27T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620126",
+"data_hora": "2021-11-28T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620124",
+"data_hora": "2021-11-28T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620135",
+"data_hora": "2021-11-30T19:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620129",
+"data_hora": "2021-12-01T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620132",
+"data_hora": "2021-12-01T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620131",
+"data_hora": "2021-12-01T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620130",
+"data_hora": "2021-12-01T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620134",
+"data_hora": "2021-12-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620133",
+"data_hora": "2021-12-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620136",
+"data_hora": "2021-12-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620138",
+"data_hora": "2021-12-04T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Palmaflor",
+"mandante_id": "20654",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620142",
+"data_hora": "2021-12-05T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Real Santa Cruz",
+"visitante_id": "20655",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620137",
+"data_hora": "2021-12-05T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Always Ready",
+"mandante_id": "19425",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal Villa Ingenio",
+"cidade": "El Alto, La Paz.",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620144",
+"data_hora": "2021-12-05T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Independiente Petrolero",
+"mandante_id": "20889",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Patria",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620141",
+"data_hora": "2021-12-05T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620140",
+"data_hora": "2021-12-05T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Royal Pari",
+"mandante_id": "18984",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620139",
+"data_hora": "2021-12-05T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620143",
+"data_hora": "2021-12-06T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Real Tomayapo",
+"visitante_id": "20890",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620147",
+"data_hora": "2021-12-10T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620151",
+"data_hora": "2021-12-10T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Royal Pari",
+"visitante_id": "18984",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620152",
+"data_hora": "2021-12-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Tomayapo",
+"mandante_id": "20890",
+"visitante": "Atlético Palmaflor",
+"visitante_id": "20654",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620149",
+"data_hora": "2021-12-11T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620145",
+"data_hora": "2021-12-11T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Ramón Tahuichi",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620150",
+"data_hora": "2021-12-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Always Ready",
+"visitante_id": "19425",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Estadio Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620148",
+"data_hora": "2021-12-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Independiente Petrolero",
+"visitante_id": "20889",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "620146",
+"data_hora": "2021-12-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Santa Cruz",
+"mandante_id": "20655",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Real Santa Cruz",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+}
+]

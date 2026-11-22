@@ -1,0 +1,10197 @@
+[
+{
+"id": "337330",
+"data_hora": "2012-01-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Ricaldi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Tordoya"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Carlos Cortez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Galvis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bravo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Javier Diaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Florentín"
+]
+}
+]
+},
+{
+"id": "337332",
+"data_hora": "2012-01-29T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Segovia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sacha Lima"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nelvin Soliz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar Olivetti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jair Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Gonzáles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Escalante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+}
+]
+},
+{
+"id": "337331",
+"data_hora": "2012-01-29T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Andrada"
+]
+}
+]
+},
+{
+"id": "337333",
+"data_hora": "2012-01-29T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Belmonte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Zerda"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Miguel Hoyos"
+]
+}
+]
+},
+{
+"id": "337334",
+"data_hora": "2012-01-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Ledesma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Valdés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ignacio García"
+]
+}
+]
+},
+{
+"id": "337384",
+"data_hora": "2012-02-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Obregón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Pinto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Pinto"
+]
+}
+]
+},
+{
+"id": "337385",
+"data_hora": "2012-02-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Méndez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mariano Sebastián Brau"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Delio Ojeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Ramallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luís Méndez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Emmanuel González"
+]
+}
+]
+},
+{
+"id": "337386",
+"data_hora": "2012-02-02T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": null,
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Barrera"
+]
+}
+]
+},
+{
+"id": "337387",
+"data_hora": "2012-02-02T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Belmonte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Baroni"
+]
+}
+]
+},
+{
+"id": "337388",
+"data_hora": "2012-02-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Luís Mendoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "46'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edward Zenteno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Ledesma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Robles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darwin Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abdón Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edhemir Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Rodriguez"
+]
+}
+]
+},
+{
+"id": "337336",
+"data_hora": "2012-02-04T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santos Amador"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhosimar Prado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Gary Paz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Gonzáles"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Galvis"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Ayala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Carrizales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jordán"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Galvis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+}
+]
+},
+{
+"id": "337337",
+"data_hora": "2012-02-05T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Andrada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rony Jiménez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Michelena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tobías Albarracín"
+]
+}
+]
+},
+{
+"id": "337338",
+"data_hora": "2012-02-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorgio Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valdés"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorgio Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Antonio Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jhasmany Campos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+}
+]
+},
+{
+"id": "337339",
+"data_hora": "2012-02-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Bejarano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Jiménez"
+]
+}
+]
+},
+{
+"id": "337340",
+"data_hora": "2012-02-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelvin Soliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franz Oni"
+]
+}
+]
+},
+{
+"id": "337341",
+"data_hora": "2012-02-05T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gallegos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Hoyos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Arguello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Galindo"
+]
+}
+]
+},
+{
+"id": "337354",
+"data_hora": "2012-02-08T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Arguello"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronny Montero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mauricio Carrizales"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Ayala"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Luís Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hugo Suárez"
+]
+}
+]
+},
+{
+"id": "337356",
+"data_hora": "2012-02-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Michelena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Escalante"
+]
+}
+]
+},
+{
+"id": "337355",
+"data_hora": "2012-02-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gallegos"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Pablo Escobar Olivetti"
+]
+}
+]
+},
+{
+"id": "337357",
+"data_hora": "2012-02-09T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+}
+]
+},
+{
+"id": "337358",
+"data_hora": "2012-02-10T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renan Yoriel Addles Daniels"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Pinto"
+]
+}
+]
+},
+{
+"id": "337342",
+"data_hora": "2012-02-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sacha Lima"
+]
+}
+]
+},
+{
+"id": "337344",
+"data_hora": "2012-02-12T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Barba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carmelo Angulo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Moruno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brandán Fernando"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhosimar Prado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santos Amador"
+]
+}
+]
+},
+{
+"id": "337345",
+"data_hora": "2012-02-12T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ever Cantero"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ariel Ribera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jhasmany Campos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Aragon"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Rivero"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ever Cantero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Doyle Vaca"
+]
+}
+]
+},
+{
+"id": "337346",
+"data_hora": "2012-02-12T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Belmonte"
+]
+}
+]
+},
+{
+"id": "337347",
+"data_hora": "2012-02-12T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Britez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronny Montero"
+]
+}
+]
+},
+{
+"id": "337343",
+"data_hora": "2012-02-14T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Chávez"
+]
+}
+]
+},
+{
+"id": "337335",
+"data_hora": "2012-02-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Britez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Juárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Justiniano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Aníbal Torrico"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Ferreira"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Alfredo Castillo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Ovando"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Paul"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Alfredo Castillo"
+]
+}
+]
+},
+{
+"id": "337348",
+"data_hora": "2012-02-25T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Zerda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Arce"
+]
+}
+]
+},
+{
+"id": "337349",
+"data_hora": "2012-02-26T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jordán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Díaz"
+]
+}
+]
+},
+{
+"id": "337350",
+"data_hora": "2012-02-26T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alvaro Delgadillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gómes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Luís Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Juan Marcelo Robledo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Faustino Lopes Jeferson"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Molina"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Barrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Liendo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Luís Arias"
+]
+}
+]
+},
+{
+"id": "337351",
+"data_hora": "2012-02-26T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Emmanuel González"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Paul"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Paul"
+]
+}
+]
+},
+{
+"id": "337353",
+"data_hora": "2012-02-26T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Arguello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edson Zenteno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Meleán"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alejandro Meleán"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "83'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edward Zenteno"
+]
+}
+]
+},
+{
+"id": "337352",
+"data_hora": "2012-02-26T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Cantero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Palacios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Eguino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Alfredo Castillo"
+]
+}
+]
+},
+{
+"id": "337361",
+"data_hora": "2012-03-04T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Cantero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Vildoso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Valverde"
+]
+}
+]
+},
+{
+"id": "337360",
+"data_hora": "2012-03-04T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "6",
+"gols_visitante": "2",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Rios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tobías Albarracín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bravo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Andrada"
+]
+}
+]
+},
+{
+"id": "337364",
+"data_hora": "2012-03-04T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Galvis"
+]
+}
+]
+},
+{
+"id": "337362",
+"data_hora": "2012-03-04T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Emmanuel González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Vaca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Peña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jair Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jose Luís Mendoza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Henrique"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+}
+]
+},
+{
+"id": "337363",
+"data_hora": "2012-03-04T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Ovejero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Faustino Lopes Jeferson"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gómes"
+]
+}
+]
+},
+{
+"id": "337365",
+"data_hora": "2012-03-04T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Díaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Arguello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Sebastián Brau"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mariano Sebastián Brau"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jorge Antonio Ortiz"
+]
+}
+]
+},
+{
+"id": "337366",
+"data_hora": "2012-03-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Faustino Lopes Jeferson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Alfaro"
+]
+}
+]
+},
+{
+"id": "337367",
+"data_hora": "2012-03-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgardo Britez"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Molina"
+]
+}
+]
+},
+{
+"id": "337368",
+"data_hora": "2012-03-08T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Vieira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Pinto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Vieira"
+]
+}
+]
+},
+{
+"id": "337369",
+"data_hora": "2012-03-09T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Gonzáles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Aragon"
+]
+}
+]
+},
+{
+"id": "337370",
+"data_hora": "2012-03-09T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Torrico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Díaz"
+]
+}
+]
+},
+{
+"id": "337372",
+"data_hora": "2012-03-10T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Chavez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edward Zenteno"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Méndez"
+]
+}
+]
+},
+{
+"id": "337373",
+"data_hora": "2012-03-11T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Andrada"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Escalante"
+]
+}
+]
+},
+{
+"id": "337376",
+"data_hora": "2012-03-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Belmonte"
+]
+}
+]
+},
+{
+"id": "337375",
+"data_hora": "2012-03-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Frontini"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edhemir Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Marchesini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Reyes"
+]
+}
+]
+},
+{
+"id": "337374",
+"data_hora": "2012-03-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Díaz"
+]
+}
+]
+},
+{
+"id": "337377",
+"data_hora": "2012-03-11T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+}
+]
+},
+{
+"id": "337371",
+"data_hora": "2012-03-15T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "10'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jhasmany Campos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rudy Cardozo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Arguello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edhemir Rodríguez"
+]
+}
+]
+},
+{
+"id": "337378",
+"data_hora": "2012-03-17T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Zerda"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Loras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brandán Fernando"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Gonzáles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joe Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Belmonte"
+]
+}
+]
+},
+{
+"id": "337379",
+"data_hora": "2012-03-18T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Molina"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Antonio Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Obregón"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Díaz"
+]
+}
+]
+},
+{
+"id": "337380",
+"data_hora": "2012-03-18T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "337382",
+"data_hora": "2012-03-18T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Peña"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vladimir Castellón"
+]
+}
+]
+},
+{
+"id": "337381",
+"data_hora": "2012-03-18T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "13'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Milton Erick Melgar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Oscar Añez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Barrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Romel Quiñones"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damir Miranda"
+]
+}
+]
+},
+{
+"id": "337389",
+"data_hora": "2012-03-23T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "6",
+"gols_visitante": "2",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roly Sejas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daner Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bravo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Michelena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Michelena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pastor Tórrez"
+]
+}
+]
+},
+{
+"id": "337390",
+"data_hora": "2012-03-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Andrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jair Torrico"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Emmanuel González"
+]
+}
+]
+},
+{
+"id": "337391",
+"data_hora": "2012-03-25T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Galarza"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pastor Tórrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Enrique Díaz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Verduguez"
+]
+}
+]
+},
+{
+"id": "337393",
+"data_hora": "2012-03-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lucas Scaglia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Frontini"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "22'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Daniel Mansilla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Álvaro Ricaldi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edhemir Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhasmany Campos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Luís Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Martelli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fabían Cuellar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Lorgio Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Obregón"
+]
+}
+]
+},
+{
+"id": "337392",
+"data_hora": "2012-03-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renan Yoriel Addles Daniels"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Arce"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Peña"
+]
+}
+]
+},
+{
+"id": "337394",
+"data_hora": "2012-03-25T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gallegos"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Doyle Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Liendo"
+]
+}
+]
+},
+{
+"id": "337395",
+"data_hora": "2012-03-25T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Escalante"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Bejarano"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Francisco Arguello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+}
+]
+},
+{
+"id": "337396",
+"data_hora": "2012-03-28T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Andrés Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Luís Arias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Obregón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Carlos Cortez"
+]
+}
+]
+},
+{
+"id": "337401",
+"data_hora": "2012-03-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Diego Valdés"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Felix Candia"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Antonio Ortiz"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Robles"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felix Candia"
+]
+}
+]
+},
+{
+"id": "337399",
+"data_hora": "2012-03-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Reyes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Rios"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+}
+]
+},
+{
+"id": "337398",
+"data_hora": "2012-03-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Alfaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Erick Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+}
+]
+},
+{
+"id": "337400",
+"data_hora": "2012-03-29T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Gaitán"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cespedes"
+]
+}
+]
+},
+{
+"id": "337397",
+"data_hora": "2012-03-30T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcos Arguello"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Frontini"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "29'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Pablo Frontini"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Claudio Centurión"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Walter Flores"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rosauro Rivero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Roly Sejas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alberto Alarcón"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daner Pachi"
+]
+}
+]
+},
+{
+"id": "337402",
+"data_hora": "2012-03-31T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Martelli"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mario Parrado"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Antonio Rocha"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Palacios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Luís Arias"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franklin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Luis Vieira"
+]
+}
+]
+},
+{
+"id": "337404",
+"data_hora": "2012-04-01T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Erick Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gómes"
+]
+}
+]
+},
+{
+"id": "337406",
+"data_hora": "2012-04-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edhemir Rodríguez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Valverde"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sergio Moruno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Eguino"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Limbert Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Peña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Darwin Peña"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Barba"
+]
+}
+]
+},
+{
+"id": "337407",
+"data_hora": "2012-04-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Angola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alberto Alarcón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bravo"
+]
+}
+]
+},
+{
+"id": "337405",
+"data_hora": "2012-04-01T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+}
+]
+},
+{
+"id": "337403",
+"data_hora": "2012-04-01T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelvin Soliz"
+]
+}
+]
+},
+{
+"id": "337359",
+"data_hora": "2012-04-05T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorgio Alvarez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franz Oni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorgio Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhasmany Campos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damir Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lorgio Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Lizio"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gabriel Valverde"
+]
+}
+]
+},
+{
+"id": "337411",
+"data_hora": "2012-04-08T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Oswaldo Camacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Renan Yoriel Addles Daniels"
+]
+}
+]
+},
+{
+"id": "337412",
+"data_hora": "2012-04-08T15:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastián Emmanuel González"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Matías Marchesini"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Héctor Gaitán"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+}
+]
+},
+{
+"id": "337408",
+"data_hora": "2012-04-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Escalante"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Joe Escobar"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Rafael Segovia"
+]
+}
+]
+},
+{
+"id": "337409",
+"data_hora": "2012-04-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Angola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Palacios"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Angola"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Roly Sejas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tobías Albarracín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Juárez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "89'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Tobías Albarracín"
+]
+}
+]
+},
+{
+"id": "337413",
+"data_hora": "2012-04-08T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edson Pérez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Hugo Suárez"
+]
+}
+]
+},
+{
+"id": "337410",
+"data_hora": "2012-04-08T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Chávez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ronald Eguino"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+}
+]
+},
+{
+"id": "337417",
+"data_hora": "2012-04-12T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": []
+},
+{
+"id": "337414",
+"data_hora": "2012-04-12T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vargas"
+]
+}
+]
+},
+{
+"id": "337418",
+"data_hora": "2012-04-12T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franklin Herrera"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "25'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Franklin Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Edson Zenteno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"José Barba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jaime Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Robles"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+}
+]
+},
+{
+"id": "337416",
+"data_hora": "2012-04-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brandán Fernando"
+]
+}
+]
+},
+{
+"id": "337415",
+"data_hora": "2012-04-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gallegos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelvin Soliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+}
+]
+},
+{
+"id": "337423",
+"data_hora": "2012-04-14T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ariel Aragon"
+]
+}
+]
+},
+{
+"id": "337421",
+"data_hora": "2012-04-15T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ricardo Verduguez"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ricardo Verduguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+}
+]
+},
+{
+"id": "337420",
+"data_hora": "2012-04-15T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jair Torrico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Wayar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Melgar"
+]
+}
+]
+},
+{
+"id": "337425",
+"data_hora": "2012-04-15T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pastor Tórrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Centurión"
+]
+}
+]
+},
+{
+"id": "337424",
+"data_hora": "2012-04-15T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Arce"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gómes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gómes"
+]
+}
+]
+},
+{
+"id": "337422",
+"data_hora": "2012-04-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"F Sanjurjo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edson Zenteno"
+]
+}
+]
+},
+{
+"id": "337428",
+"data_hora": "2012-04-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gallegos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Flores"
+]
+}
+]
+},
+{
+"id": "337427",
+"data_hora": "2012-04-22T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Escalante"
+]
+}
+]
+},
+{
+"id": "337429",
+"data_hora": "2012-04-22T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+}
+]
+},
+{
+"id": "337426",
+"data_hora": "2012-04-22T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": []
+},
+{
+"id": "337430",
+"data_hora": "2012-04-22T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Paul"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Pachi"
+]
+}
+]
+},
+{
+"id": "337431",
+"data_hora": "2012-04-22T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Santiago Raymonda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+}
+]
+},
+{
+"id": "337383",
+"data_hora": "2012-04-27T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bravo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+}
+]
+},
+{
+"id": "337419",
+"data_hora": "2012-04-27T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Méndez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Arce"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+}
+]
+},
+{
+"id": "337433",
+"data_hora": "2012-04-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Escalante"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Eguino"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "34'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Romel Quiñones"
+]
+},
+{
+"tipo": "Goal - Free-kick",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orlando Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cuéllar"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Segovia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cuéllar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damir Miranda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Brandán Fernando"
+]
+}
+]
+},
+{
+"id": "337436",
+"data_hora": "2012-04-29T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Martelli"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Chavez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Chavez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Obregón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Obregón"
+]
+}
+]
+},
+{
+"id": "337435",
+"data_hora": "2012-04-29T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Paul"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Luis Liendo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fierro"
+]
+}
+]
+},
+{
+"id": "337434",
+"data_hora": "2012-04-29T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edward Zenteno"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Ramallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+}
+]
+},
+{
+"id": "337432",
+"data_hora": "2012-04-29T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Header",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Jaime"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ariel Aragon"
+]
+}
+]
+},
+{
+"id": "337437",
+"data_hora": "2012-04-29T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Aguirre"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+}
+]
+},
+{
+"id": "337439",
+"data_hora": "2012-05-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldair Berrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastian Paul"
+]
+}
+]
+},
+{
+"id": "337441",
+"data_hora": "2012-05-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Paz García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Araúz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+}
+]
+},
+{
+"id": "337442",
+"data_hora": "2012-05-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Ramallo"
+]
+}
+]
+},
+{
+"id": "337440",
+"data_hora": "2012-05-03T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franklin Herrera"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Franz Oni"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Palacios"
+]
+}
+]
+},
+{
+"id": "337443",
+"data_hora": "2012-05-04T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cuéllar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Hoyos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fernando Saucedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcelo Aguirre"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Méndez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alejandro Méndez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alex Arancibia"
+]
+}
+]
+},
+{
+"id": "337438",
+"data_hora": "2012-05-04T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"F Sanjurjo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fierro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Faustino Lopes Jeferson"
+]
+}
+]
+},
+{
+"id": "337446",
+"data_hora": "2012-05-06T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Melgar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jorge Cuéllar"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jorge Cuéllar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ever Cantero"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Damir Miranda"
+]
+}
+]
+},
+{
+"id": "337449",
+"data_hora": "2012-05-06T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roly Sejas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roly Sejas"
+]
+}
+]
+},
+{
+"id": "337448",
+"data_hora": "2012-05-06T19:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tobías Albarracín"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Santos Amador"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Maximiliano Andrada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Raúl Gonzáles"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jhosimar Prado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rafael Segovia"
+]
+}
+]
+},
+{
+"id": "337444",
+"data_hora": "2012-05-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Molina"
+]
+}
+]
+},
+{
+"id": "337445",
+"data_hora": "2012-05-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Eduardo Fierro"
+]
+}
+]
+},
+{
+"id": "337447",
+"data_hora": "2012-05-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+}
+]
+},
+{
+"id": "337452",
+"data_hora": "2012-05-10T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Piero Alva"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Saucedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Piero Alva"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "66'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Luis Palacios"
+]
+}
+]
+},
+{
+"id": "337450",
+"data_hora": "2012-05-10T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Chávez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Díaz"
+]
+}
+]
+},
+{
+"id": "337451",
+"data_hora": "2012-05-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Mamoré",
+"mandante_id": "7544",
+"visitante": "Nacional Potosí",
+"visitante_id": "10311",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Gran Mamoré",
+"cidade": "Trinidad",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Gonzáles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gastón Mealla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Héctor Gaitán"
+]
+}
+]
+},
+{
+"id": "337454",
+"data_hora": "2012-05-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Cesar Yecerotte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aquilino Villalba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldair Berrios"
+]
+}
+]
+},
+{
+"id": "337455",
+"data_hora": "2012-05-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Guabirá",
+"visitante_id": "9497",
+"gols_mandante": "8",
+"gols_visitante": "1",
+"estadio": "Rafael Mendoza Castellón",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Chumacero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sacha Lima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Ramallo"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Bravo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Wayar"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Ramallo"
+]
+}
+]
+},
+{
+"id": "337453",
+"data_hora": "2012-05-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universitario de Sucre",
+"mandante_id": "6149",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Patria",
+"cidade": "Sucre",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Gómes"
+]
+}
+]
+},
+{
+"id": "337457",
+"data_hora": "2012-05-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Real Mamoré",
+"visitante_id": "7544",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+}
+]
+},
+{
+"id": "337458",
+"data_hora": "2012-05-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernán Boyero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Valdés"
+]
+}
+]
+},
+{
+"id": "337459",
+"data_hora": "2012-05-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ever Cantero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damián Lizio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhasmany Campos"
+]
+}
+]
+},
+{
+"id": "337460",
+"data_hora": "2012-05-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Guabirá",
+"mandante_id": "9497",
+"visitante": "Universitario de Sucre",
+"visitante_id": "6149",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Gilberto Parada",
+"cidade": "Montero",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boris Alfaro"
+]
+}
+]
+},
+{
+"id": "337461",
+"data_hora": "2012-05-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nacional Potosí",
+"mandante_id": "10311",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Víctor Agustín Ugarte",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Garabano"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alcides Peña"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raúl Gonzáles"
+]
+}
+]
+},
+{
+"id": "337456",
+"data_hora": "2012-05-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leonel Reyes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Puma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ronald Puma"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Melgar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Palacios"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jair Torrico"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matías Marchesini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Melgar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daniel Vaca"
+]
+}
+]
+}
+]

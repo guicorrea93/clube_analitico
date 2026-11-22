@@ -27,8 +27,18 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 - **Uma competição por vez, e só quando ele pedir.** Ao fim de cada uma:
   - resumo curto;
   - pedido de ok para o commit;
-  - recado ao agente do banco no fim de `docs/coleta/pedidos-sulamerica.md`. Ele gosta de recebê-lo também num bloco de
-    código, para copiar.
+  - **recado de fim de coleta** (regra de 22/11): seção "Recado de fim de coleta — <slug> — <data>" no fim de
+    `docs/coleta/pedidos-sulamerica.md`, para o agente 1 (banco e painel) e para o agente de revisão, e o mesmo texto ao
+    Guilherme, num bloco de código. Conteúdo:
+    1. o que foi feito: edições, jogos, clubes, gols com autor, cartões e fontes;
+    2. commits;
+    3. resultado do teste de carga;
+    4. pedidos ao banco e ao painel: o que carregar, formatos novos, colunas vazias, casos especiais;
+    5. decisões tomadas (com o motivo) e as que esperam o Guilherme;
+    6. o que não deu para coletar e as pendências, com a fonte que poderia resolver;
+    7. onde a revisão deve olhar primeiro;
+    8. próxima competição.
+- **Mexeu no leitor comum?** Diga no recado quais competições mudaram e se ids de partidas mudaram.
 - **Mexa só nas suas pastas:**
   - `coleta/<slug>/` e `coleta/comum-sulamerica/`;
   - `data/coleta/<slug>/`, `data/cache/*-sulamerica*/` e `data/cache/ogol-<slug>/`;
@@ -70,6 +80,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `par-1` Paraguaio | 133 (1906–2025) | 7.865 | 43 | dc2b360, 9d1ca3b, 0b793ba | sim (versão antiga: recarregar) |
 | `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | não |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | não |
+| `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | sem commit (22/11) | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Tudo está no GitHub (push de 22/11).
 
@@ -77,25 +88,24 @@ Os números de gols, cartões, conferência e cobertura estão no `README.md` da
 
 1. **Agente 1 carregar `ecu-1` e `per-1` e recarregar o `par-1`** (no GitHub desde o `0b793ba`, 22/11; recado no fim de
    `docs/coleta/pedidos-sulamerica.md`). Só acompanhar a resposta dele.
-2. **Achados da revisão em aberto (o maior trabalho que falta):** 36 do Argentino (prefixo AR) e 19 do Uruguaio (UY), em
-   `docs/revisao/achados.csv` (`quem_corrige` = `coleta-sulamerica`), com as provas em `docs/revisao/arg-1.md` e
-   `uru-1.md`. O resumo está em `docs/coleta/pedidos-sulamerica.md`, seções "Pedidos da revisão". Os mais graves:
+2. **Bolívia (`bol-1`):** pronta em 22/11, esperando o ok do commit; recado de fim de coleta no fim de
+   `docs/coleta/pedidos-sulamerica.md`.
+3. **Próxima competição: `ven-1` (Venezuela)**, depois da Bolívia (prioridade dada pelo Guilherme em 22/11). Siga a seção 4.
+4. **Revisão (espera):** por decisão do Guilherme (22/11), os 55 achados abertos do Argentino (AR) e do Uruguaio (UY) e as
+   decisões pedidas (UY-001, UY-007, UY-020, AR-032, AR-033, AR-043, AR-044, Copa de Oro 1936) **esperam**. O agente de
+   revisão vai deixar um plano em `docs/revisao/plano-coleta-sulamerica.md`; quando o Guilherme disser que é hora, siga o
+   plano. Os mais graves, para referência:
    - **Uruguai, UY-006:** de 1994 a 2025 a classificação final é a tabela do Apertura, com o campeão puxado para o 1º
-     lugar. Por isso o vice sai errado em 14 edições (UY-004) e o 3º em 19 (UY-005). A classificação deve ser a tabla
-     anual.
-   - **Argentina, AR-001:** em 1913 Federación, os jogos do Estudiantes de La Plata estão gravados como Estudiantes de
-     Buenos Aires.
-   - **Argentina, AR-002 a AR-013:** vices errados em 12 edições.
-   - **Argentina, AR-022:** cerca de 3.920 jogos com o ano errado nas temporadas que cruzam o ano.
+     lugar (vice errado em 14 edições, UY-004; 3º em 19, UY-005);
+   - **Argentina, AR-001:** em 1913 Federación, os jogos do Estudiantes de La Plata estão como Estudiantes de Buenos Aires;
+   - **Argentina, AR-002 a AR-013:** vices errados em 12 edições; **AR-022:** ~3.920 jogos com o ano errado;
    - **Uruguai, UY-013:** a Supercopa AUF entrou como "Final".
-
-   Corrija, reimporte, cite os ids no `pedidos-sulamerica.md` e rode o `documentar.py`. As decisões que são do Guilherme
-   estão listadas nas pendências de cada ficha: pergunte antes.
-3. **Decisões em aberto:**
+5. **Decisões em aberto:**
    - **Peru:** 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice, a escolha recomendada que ele
      aprovou. O agente 1 pode preferir a contagem da RSSSF.
-4. **Próxima competição: `bol-1` (Bolívia), só quando o Guilherme pedir.** Depois `ven-1` (Venezuela). Siga a seção 4.
-5. **Ficar de olho em `docs/coleta/pedidos-sulamerica.md`:** respostas do agente 1 e pedidos novos da revisão.
+   - **Bolívia:** escopo de 1950 em diante (liga de La Paz semiprofissional, Integrado, Mixto), como a Wikipédia e a
+     contagem de 93 campeonatos da RSSSF; a contagem "84 títulos desde 1958" da RSSSF deixaria de fora 1950-1957.
+6. **Ficar de olho em `docs/coleta/pedidos-sulamerica.md`:** respostas do agente 1 e pedidos novos da revisão.
 
 ## 4. Como fazer uma competição nova
 
@@ -217,6 +227,16 @@ vem vazio.
 **Wikipédia:** a lista de campeões muda de página (o Equador está em "LigaPro Serie A", não em "List of ... champions");
 siga o redirecionamento.
 
+**Bolívia (22/11):**
+- página de 2011/12 da RSSSF em UTF-16 (um caractere nulo entre as letras): `linhas()` tira os nulos;
+- `bolhist.html` escreve os gols entre parênteses ("(40-32)");
+- ida e volta numa linha só ("Oriente Petrolero  1-0 0-4 Bolívar"): `_IDA_VOLTA` em `ler_rsssf` vira dois jogos;
+- tabela de confrontos com as siglas na mesma linha do título ("Crosstable  Bol Des Wil") e "XXX" maiúsculo;
+- "awarded to X (originally 0-0)" é vitória dada; "points awarded to X" a RSSSF às vezes não conta na tabela (2007);
+- a página "Copa Simón Bolívar <ano>" da Wikipédia em espanhol é de outro torneio (Colômbia x Venezuela);
+- edição que já é um torneio ("2004 Clausura"): o título do torneio na página não vira fase (`tor = {}` em `ler`);
+- "Liguilla" não pode encerrar o torneio (em 2024 era o mata-mata do Apertura); "Final" sozinho encerra (final do ano).
+
 **Python no Windows:** editar arquivo por heredoc com `python - <<'EOF'` estraga `\b` (vira backspace) e às vezes `\n`. Para
 regex, use o Edit e confira com `grep -c $'\x08'`. Em f-string com `rf"..."`, `\d{1,2}` vira tupla: use `{{1,2}}`.
 
@@ -228,4 +248,5 @@ regex, use o Edit e confira com `grep -c $'\x08'`. Em f-string com `rf"..."`, `\
 - Paraguaio: anos sem jogos entram como edição com campeão, vice e tabela parcial (posição e pontos) quando houver; os
   jogos soltos ("Known Results") ficam de fora.
 - Peruano: 1912-1921 como edições só com campeão e vice (escolha recomendada aprovada em 21/11).
+- 22/11: prioridade é coletar (Bolívia, depois Venezuela); a revisão do Argentino e do Uruguaio espera o plano da revisão.
 - Não começar outra competição sem ele pedir.

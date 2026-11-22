@@ -1,0 +1,5954 @@
+[
+{
+"id": "193041",
+"data_hora": "2005-08-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Unión Central",
+"visitante_id": "6053",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Edgar Solíz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+}
+]
+},
+{
+"id": "193046",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Aníbal Torrico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Miguel Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Carmelo Sánchez"
+]
+}
+]
+},
+{
+"id": "193044",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberoamericana",
+"mandante_id": "6049",
+"visitante": "Destroyers",
+"visitante_id": "6048",
+"gols_mandante": "0",
+"gols_visitante": "6",
+"estadio": "Libertador Simón Bolivar",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cabello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mainor Schwartz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Araoz"
+]
+}
+]
+},
+{
+"id": "193045",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erland Urgel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Andrés Espínola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luís Algarañaz"
+]
+}
+]
+},
+{
+"id": "193042",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Pinilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Bejarano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Corazini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Pinilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Fernando Mozorongo"
+]
+}
+]
+},
+{
+"id": "193043",
+"data_hora": "2005-08-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "193047",
+"data_hora": "2005-08-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aldo Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Angulo Mendoza"
+]
+}
+]
+},
+{
+"id": "193050",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Antonio Sandy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diomedes Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diomedes Peña"
+]
+}
+]
+},
+{
+"id": "193049",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Fanari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Líder Paz"
+]
+}
+]
+},
+{
+"id": "193051",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Central",
+"mandante_id": "6053",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Hoyos"
+]
+}
+]
+},
+{
+"id": "193048",
+"data_hora": "2005-08-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Destroyers",
+"visitante_id": "6048",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Hernán Sillero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaias Virhuez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Hernán Sillero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Andrés Cohener"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Hernán Sillero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Rodrigo Gorosso"
+]
+}
+]
+},
+{
+"id": "193052",
+"data_hora": "2005-08-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Iberoamericana",
+"visitante_id": "6049",
+"gols_mandante": "10",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raimundo Barboza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernman Soliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Gonzalo Real"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Gonzalo Real"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+}
+]
+},
+{
+"id": "193053",
+"data_hora": "2005-09-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberoamericana",
+"mandante_id": "6049",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Libertador Simón Bolivar",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Sosa"
+]
+}
+]
+},
+{
+"id": "193057",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Unión Central",
+"visitante_id": "6053",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Ariel Juárez"
+]
+}
+]
+},
+{
+"id": "193056",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Cristino Jara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Carmelo Sánchez"
+]
+}
+]
+},
+{
+"id": "193055",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Destroyers",
+"mandante_id": "6048",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Chispas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+}
+]
+},
+{
+"id": "193058",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Erick Melgar"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "45'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Gois De Lira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diomedes Peña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villagra"
+]
+}
+]
+},
+{
+"id": "193054",
+"data_hora": "2005-09-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Hernán Sillero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+}
+]
+},
+{
+"id": "193061",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Miguel Giménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Hernán Sillero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Andrés Cohener"
+]
+}
+]
+},
+{
+"id": "193063",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Límberg Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Angulo"
+]
+}
+]
+},
+{
+"id": "193062",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Destroyers",
+"mandante_id": "6048",
+"visitante": "Unión Central",
+"visitante_id": "6053",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaias Virhuez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesús Leal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesús Leal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cabello"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesús Leal"
+]
+}
+]
+},
+{
+"id": "193059",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberoamericana",
+"mandante_id": "6049",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Libertador Simón Bolivar",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Gustavo Núñez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Sabino Castillo"
+]
+}
+]
+},
+{
+"id": "193064",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Flavio Zapata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Arce"
+]
+}
+]
+},
+{
+"id": "193060",
+"data_hora": "2005-09-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Mercado Vaca Guzmán",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Angulo Mendoza"
+]
+}
+]
+},
+{
+"id": "193065",
+"data_hora": "2005-09-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+}
+]
+},
+{
+"id": "193066",
+"data_hora": "2005-09-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Iberoamericana",
+"visitante_id": "6049",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osvaldo Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Alejandro Guzmán"
+]
+}
+]
+},
+{
+"id": "193068",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Galindo"
+]
+}
+]
+},
+{
+"id": "193070",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villagra"
+]
+}
+]
+},
+{
+"id": "193067",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Destroyers",
+"visitante_id": "6048",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Damir Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Pinilla"
+]
+}
+]
+},
+{
+"id": "193069",
+"data_hora": "2005-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Central",
+"mandante_id": "6053",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Hugo Moraga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Ariel Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Ramírez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Hugo Moraga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Gareca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Nazareno Godoy"
+]
+}
+]
+},
+{
+"id": "193071",
+"data_hora": "2005-09-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Baldivieso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Hernán Sillero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Gonzalo Real"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Flavio Zapata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Hernán Sillero"
+]
+}
+]
+},
+{
+"id": "193072",
+"data_hora": "2005-09-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberoamericana",
+"mandante_id": "6049",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Libertador Simón Bolivar",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Heredia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Pinilla"
+]
+}
+]
+},
+{
+"id": "193073",
+"data_hora": "2005-10-01T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Unión Central",
+"visitante_id": "6053",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Gatty Ribeiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Carmelo Sánchez"
+]
+}
+]
+},
+{
+"id": "193075",
+"data_hora": "2005-10-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olivier Christian Fernández"
+]
+}
+]
+},
+{
+"id": "193074",
+"data_hora": "2005-10-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Mercado Vaca Guzmán",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Cristino Jara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Víctor Nazareno Godoy"
+]
+}
+]
+},
+{
+"id": "193076",
+"data_hora": "2005-10-03T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Destroyers",
+"mandante_id": "6048",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaias Virhuez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isaias Virhuez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Berdugo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+}
+]
+},
+{
+"id": "193077",
+"data_hora": "2005-10-15T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberoamericana",
+"mandante_id": "6049",
+"visitante": "Destroyers",
+"visitante_id": "6048",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Libertador Simón Bolivar",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abraham Faustino García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilberto Ayala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Cabello"
+]
+}
+]
+},
+{
+"id": "193082",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Augusto Andaveris"
+]
+}
+]
+},
+{
+"id": "193078",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Gonzalo Real"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+}
+]
+},
+{
+"id": "193081",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Mercado Vaca Guzmán",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Cristino Jara"
+]
+}
+]
+},
+{
+"id": "193079",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+}
+]
+},
+{
+"id": "193080",
+"data_hora": "2005-10-16T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Central",
+"mandante_id": "6053",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Hurtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Hugo Moraga"
+]
+}
+]
+},
+{
+"id": "193083",
+"data_hora": "2005-10-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Iberoamericana",
+"visitante_id": "6049",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Gustavo Núñez"
+]
+}
+]
+},
+{
+"id": "193088",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Arce"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+}
+]
+},
+{
+"id": "193084",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+}
+]
+},
+{
+"id": "193086",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Líder Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Doile Vaca"
+]
+}
+]
+},
+{
+"id": "193087",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Central",
+"mandante_id": "6053",
+"visitante": "Destroyers",
+"visitante_id": "6048",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Zabala"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ernesto Ariel Juárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Torrez"
+]
+}
+]
+},
+{
+"id": "193085",
+"data_hora": "2005-10-23T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olivier Christian Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Olivares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olivier Christian Fernández"
+]
+}
+]
+},
+{
+"id": "193089",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Mercado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+}
+]
+},
+{
+"id": "193090",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Destroyers",
+"mandante_id": "6048",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "193091",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberoamericana",
+"mandante_id": "6049",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "1",
+"gols_visitante": "7",
+"estadio": "Libertador Simón Bolivar",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Ariel Berrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Gonzalo Real"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Gonzalo Real"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Germán Gonzalo Real"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+}
+]
+},
+{
+"id": "193092",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Mercado Vaca Guzmán",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olivier Christian Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rixson Santos Santana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Adolfo Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Gutiérrez"
+]
+}
+]
+},
+{
+"id": "193093",
+"data_hora": "2005-10-26T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Rojas"
+]
+}
+]
+},
+{
+"id": "193094",
+"data_hora": "2005-10-27T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Unión Central",
+"visitante_id": "6053",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Uriona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Hugo Moraga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Arce"
+]
+}
+]
+},
+{
+"id": "193095",
+"data_hora": "2005-10-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Iberoamericana",
+"visitante_id": "6049",
+"gols_mandante": "6",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gutiérrez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Damián Mena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Líder Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Líder Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+}
+]
+},
+{
+"id": "193097",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Destroyers",
+"visitante_id": "6048",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raimundo Barboza"
+]
+}
+]
+},
+{
+"id": "193099",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+}
+]
+},
+{
+"id": "193098",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Mercado Vaca Guzmán",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Grass"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Angulo Mendoza"
+]
+}
+]
+},
+{
+"id": "193100",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Central",
+"mandante_id": "6053",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olivier Christian Fernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrián Alberto Cucaro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Sosa"
+]
+}
+]
+},
+{
+"id": "193096",
+"data_hora": "2005-10-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+}
+]
+},
+{
+"id": "193101",
+"data_hora": "2005-11-02T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Destroyers",
+"mandante_id": "6048",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo Monteiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivo Luís Mercado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luís Ortiz"
+]
+}
+]
+},
+{
+"id": "193102",
+"data_hora": "2005-11-02T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Potosí",
+"mandante_id": "6051",
+"visitante": "Unión Central",
+"visitante_id": "6053",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Mario Mercado Vaca Guzmán",
+"cidade": "Potosí",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Pablo Grass"
+]
+},
+{
+"tipo": "Goal - Header",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Cristino Jara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Oswaldo Loayza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolás Suárez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Cristino Jara"
+]
+}
+]
+},
+{
+"id": "193105",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Aurora",
+"mandante_id": "6046",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": []
+},
+{
+"id": "193103",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": []
+},
+{
+"id": "193106",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Percy Colque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Carmelo Sánchez"
+]
+}
+]
+},
+{
+"id": "193104",
+"data_hora": "2005-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Iberoamericana",
+"mandante_id": "6049",
+"visitante": "Wilstermann",
+"visitante_id": "6054",
+"gols_mandante": "0",
+"gols_visitante": "6",
+"estadio": "Libertador Simón Bolivar",
+"cidade": "La Paz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Baldivieso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Antonio Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Baldivieso"
+]
+}
+]
+},
+{
+"id": "193107",
+"data_hora": "2005-11-05T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Iberoamericana",
+"visitante_id": "6049",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Gary Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Gary Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Parada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Bejarano"
+]
+}
+]
+},
+{
+"id": "193111",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Real Potosí",
+"visitante_id": "6051",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "193112",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Aurora",
+"visitante_id": "6046",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Arce"
+]
+}
+]
+},
+{
+"id": "193108",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Destroyers",
+"visitante_id": "6048",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Fabián Zermatten"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Héctor Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Fabián Zermatten"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Bernardo Aguirre"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Pizarro"
+]
+}
+]
+},
+{
+"id": "193110",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Unión Central",
+"mandante_id": "6053",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio IV Centenário",
+"cidade": "Tarija",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Armando Puña"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Mercado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Zabala"
+]
+}
+]
+},
+{
+"id": "193109",
+"data_hora": "2005-11-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Wilstermann",
+"mandante_id": "6054",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Félix Capriles",
+"cidade": "Cochabamba",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raimundo Barboza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Romero"
+]
+}
+]
+},
+{
+"id": "193114",
+"data_hora": "2005-11-13T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villagra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Carmelo Sánchez"
+]
+}
+]
+},
+{
+"id": "193115",
+"data_hora": "2005-11-13T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hugo Sosa"
+]
+}
+]
+},
+{
+"id": "193116",
+"data_hora": "2005-11-16T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vanderlei Dos Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+}
+]
+},
+{
+"id": "193117",
+"data_hora": "2005-11-16T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcio Araujo Rodrigues"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diomedes Peña"
+]
+}
+]
+},
+{
+"id": "193118",
+"data_hora": "2005-11-17T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Límberg Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+}
+]
+},
+{
+"id": "193119",
+"data_hora": "2005-11-19T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Líder Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Gutiérrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+}
+]
+},
+{
+"id": "193120",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+}
+]
+},
+{
+"id": "193121",
+"data_hora": "2005-11-20T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Hurtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Mercado"
+]
+}
+]
+},
+{
+"id": "193123",
+"data_hora": "2005-11-23T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carmelo Angulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+}
+]
+},
+{
+"id": "193122",
+"data_hora": "2005-11-23T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Líder Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Palavicini"
+]
+}
+]
+},
+{
+"id": "193124",
+"data_hora": "2005-11-24T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Parada"
+]
+}
+]
+},
+{
+"id": "193127",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Da Silva"
+]
+}
+]
+},
+{
+"id": "193125",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Arana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luís Aguilera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Luís Ortiz"
+]
+}
+]
+},
+{
+"id": "193126",
+"data_hora": "2005-11-27T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Héctor Cristaldo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Mercado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Percy Colque"
+]
+}
+]
+},
+{
+"id": "193128",
+"data_hora": "2005-11-30T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+}
+]
+},
+{
+"id": "193129",
+"data_hora": "2005-11-30T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubén Darío Tufiño"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Galindo"
+]
+}
+]
+},
+{
+"id": "193130",
+"data_hora": "2005-12-01T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Mercado"
+]
+}
+]
+},
+{
+"id": "193133",
+"data_hora": "2005-12-04T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rosauro Rivero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Mercado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Mercado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardinho"
+]
+}
+]
+},
+{
+"id": "193131",
+"data_hora": "2005-12-04T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luiz Sampaio Murilo Casagrande"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joselito Vaca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Erick Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Durán"
+]
+}
+]
+},
+{
+"id": "193132",
+"data_hora": "2005-12-04T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Rocabado"
+]
+}
+]
+},
+{
+"id": "193135",
+"data_hora": "2005-12-07T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": []
+},
+{
+"id": "193134",
+"data_hora": "2005-12-07T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Oriente Petrolero",
+"visitante_id": "2682",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sandro Coelho"
+]
+}
+]
+},
+{
+"id": "193136",
+"data_hora": "2005-12-08T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Blooming",
+"mandante_id": "6047",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Matías Fischer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Corazini"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+}
+]
+},
+{
+"id": "193137",
+"data_hora": "2005-12-10T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "La Paz",
+"mandante_id": "6050",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal - Free-kick",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Robles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dayson De Jesús Gualé"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Sabino Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iván Sabino Castillo"
+]
+}
+]
+},
+{
+"id": "193139",
+"data_hora": "2005-12-11T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Bolívar",
+"mandante_id": "2681",
+"visitante": "The Strongest",
+"visitante_id": "2687",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daner Jesús Pachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Aníbal Torrico"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Damián Mena"
+]
+}
+]
+},
+{
+"id": "193138",
+"data_hora": "2005-12-11T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "San José",
+"visitante_id": "6052",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcio Araujo Rodrigues"
+]
+}
+]
+},
+{
+"id": "193142",
+"data_hora": "2005-12-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Oriente Petrolero",
+"mandante_id": "2682",
+"visitante": "La Paz",
+"visitante_id": "6050",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Ramón Tahuichi Aguilera",
+"cidade": "Santa Cruz",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcio Araujo Rodrigues"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Arce"
+]
+}
+]
+},
+{
+"id": "193141",
+"data_hora": "2005-12-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "San José",
+"mandante_id": "6052",
+"visitante": "Bolívar",
+"visitante_id": "2681",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Jesús Bermúdez",
+"cidade": "Oruro",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Alejandro Vigliantti"
+]
+}
+]
+},
+{
+"id": "193140",
+"data_hora": "2005-12-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "The Strongest",
+"mandante_id": "2687",
+"visitante": "Blooming",
+"visitante_id": "6047",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Hernando Siles",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Líder Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gualberto Mojica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sandro Coelho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Sacripanti"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Da Silva Dimas"
+]
+}
+]
+}
+]

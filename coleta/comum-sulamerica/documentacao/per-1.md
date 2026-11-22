@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 17316 (17269 com placar); **gols:** 47450; **gols com autor:** 20222 (43%); **cartões:** 20999.
 - **Clubes:** 153; **artilheiros:** 97 edições com artilheiro (100 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2552 linhas.
-- **No banco:** ainda não; **último commit do pacote:** 0b793ba.
+- **No banco:** sim; **último commit do pacote:** 0b793ba.
 - **Observação da competição:** 1ª divisão peruana de 1912 a 2025, um campeão por ano (sem campeonato em 1922-1925 e 1936). 1912-1921: Liga Peruana de Football, só com campeão e vice. Sem jogos em 1970-1974, 1976, 1977 e 1979 (só a tabela final); jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003.
 
 ## 2. Edições, fontes e regras
