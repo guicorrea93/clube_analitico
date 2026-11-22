@@ -916,6 +916,7 @@ body.sem-rolar{overflow:hidden}
   .comp-band{width:48px;height:33px}
   .comp-cab{gap:12px}
 }
+.lateral .marca img{flex:none;display:block;filter:drop-shadow(0 3px 6px rgba(0,0,0,.35))}
 .lateral .marca small{display:block;font-size:10.5px;font-weight:700;letter-spacing:.08em;color:#9bb6a7}
 .nav{display:flex;align-items:center;gap:10px;width:100%;font-family:inherit;font-size:14px;font-weight:700;text-align:left;color:#b9d3c2;background:transparent;
   border:1px solid transparent;border-radius:10px;padding:10px 12px;cursor:pointer;transition:background .12s,color .12s}
@@ -928,8 +929,8 @@ body.sem-rolar{overflow:hidden}
 .em-breve b{display:block;margin-bottom:6px;font-size:20px;color:var(--champ)}
 @media (max-width:900px){   /* celular: 1ª linha competição e tema; 2ª as três abas; 3ª as sub-abas da aba aberta */
   .lateral{position:relative;bottom:auto;width:auto;flex-direction:row;flex-wrap:wrap;align-items:center;gap:8px;padding:10px 12px;overflow:visible;border-right:0;border-bottom:1px solid #2e4d39}
-  .lateral .marca{display:none}
-  .comp-escolha{order:1;flex:1 1 calc(100% - 96px);margin:0;min-width:0}
+  .lateral .marca{order:0;flex:none;margin:0}.lateral .marca span{display:none}.lateral .marca img{width:36px;height:auto}
+  .comp-escolha{order:1;flex:1 1 calc(100% - 140px);margin:0;min-width:0}
   .lateral .tema{order:2;flex:0 0 80px;margin:0;width:auto;white-space:nowrap}
   .nav{order:3;flex:1 1 0;min-width:0;justify-content:center;white-space:nowrap;padding:9px 6px;font-size:13px}
   .area{margin-left:0}
@@ -2483,9 +2484,11 @@ def main() -> None:
     versao = hashlib.sha1(b"".join((PAINEL / "dados" / f"{s}.js").read_bytes() for s in dados)).hexdigest()[:10]
     pagina = (
         '<!doctype html><html lang="pt-BR" data-theme="dark"><head><meta charset="utf-8">'
-        '<meta name="viewport" content="width=device-width, initial-scale=1"><title>Clube Analítico v2</title>'
+        '<meta name="viewport" content="width=device-width, initial-scale=1"><title>Clube Analítico</title>'
+        '<link rel="icon" href="marca/icone.svg" type="image/svg+xml"><link rel="icon" href="marca/favicon-32.png" sizes="32x32">'
+        '<link rel="apple-touch-icon" href="marca/apple-touch-icon.png"><meta name="theme-color" content="#06140c">'
         f"<style>{CSS}</style></head><body>"
-        '<nav class="lateral" aria-label="Seções"><div class="marca">⚽<span>Clube Analítico<small data-t="marca"></small></span></div>'
+        '<nav class="lateral" aria-label="Seções"><div class="marca"><img src="marca/escudo.svg" alt="" width="52" height="56"><span>Clube Analítico<small data-t="marca"></small></span></div>'
         '<div class="comp-escolha"><button type="button" id="comp-btn" class="comp-btn" aria-haspopup="dialog" aria-label="Trocar competição"></button></div>'
         '<button class="nav ativo" data-aba="historia" type="button"><span class="ico">🏆</span>História</button>'
         '<div class="subnav-lat" data-de="historia"><button class="sub ativo" data-aba="historia" data-sub="corrida" type="button">Corrida dos títulos</button>'
