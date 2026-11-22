@@ -4,6 +4,19 @@ Recados ao agente 1 (banco e painel). Cada item diz o que já está no pacote en
 
 Estado da coleta Europa, pendências e como continuar: `coleta/comum-europa/COMECE-AQUI.md`.
 
+## 22/11/2026 — Espanhol, Italiano e Alemão com 2025/26: recarregar
+
+Agora todas as ligas europeias vão até 2025/26, a última temporada terminada. Os três testes de carga deram OK, numa
+cópia do banco.
+
+- **`esp-1`:** 95 edições, 27.716 jogos. Campeão Barcelona. Rebaixados: Mallorca, Girona e Real Oviedo. Artilheiro:
+  Mbappé, 25 gols.
+- **`ita-1`:** 95 edições, 29.244 jogos. Campeão Inter. Rebaixados: Cremonese, Verona e Pisa. Artilheiro: Lautaro
+  Martínez, 17 gols.
+- **`ger-1`:** 63 edições, 19.220 jogos. Campeão Bayern. Rebaixados: St. Pauli, Heidenheim e Wolfsburg (16º, perdeu o
+  play-off para o Paderborn). Artilheiro: Kane, 36 gols.
+  - **Correção em 2024/25:** o Heidenheim (16º) deixa de ser "rebaixado". Ele ganhou o play-off e ficou.
+
 ## 22/11/2026 — Francês e Português: recarregar
 
 - **`fra-1`:** 2025/26 incluída (88 edições, 30.466 jogos). Detalhes no item 9 da seção do Francês, abaixo.

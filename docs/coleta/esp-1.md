@@ -2,9 +2,9 @@
 
 Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacote/`.
 
-**Edições:** 94, de 1928/29 a 2024/25 (Primera División). Sem liga em 1936/37-1938/39 (Guerra Civil).
+**Edições:** 95, de 1928/29 a 2025/26 (Primera División). Sem liga em 1936/37-1938/39 (Guerra Civil).
 
-**Total:** 27336 jogos, 77368 gols, 24048 gols com autor (ESPN), 49824 cartões, 63 clubes.
+**Total:** 27716 jogos, 78392 gols, 25072 gols com autor (ESPN), 51662 cartões, 63 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1928/29-2024/25;
@@ -16,7 +16,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Madri; Canárias nos jogos em casa do Las Palmas e do Tenerife). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96.
 
-**Desempate:** para cada temporada, o critério que reproduz a ordem oficial (confronto direto em 93, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério que reproduz a ordem oficial (confronto direto em 94, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
@@ -114,6 +114,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 | 2022/23 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 955 | 936 | 2 / 0 | Barcelona | — |
 | 2023/24 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1005 | 1005 | 2 / 0 | Real Madrid | — |
 | 2024/25 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 995 | 995 | 2 / 0 | Barcelona | — |
+| 2025/26 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1024 | 1024 | 2 / 0 | Barcelona | — |
 
 ## Conferência e ocorrências, temporada a temporada
 
@@ -594,11 +595,16 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 - sem ocorrências
 
+### 2025/26
+
+- nota da RSSSF: NB: CD Arenteiro demoted to fifth level
+- nota da RSSSF: NB: SD Tarazona demoted to fifth level
+
 ## Identidade dos clubes
 
 - Cadastro em `coleta/comum-europa/clubes_esp.py` (serve para todas as divisões espanholas): nome de exibição como o clube é conhecido no Brasil, cidade e país. "Athletic Club" já é o clube de São João del-Rei (MG): o de Bilbao fica "Athletic Bilbao".
 - Clubes que o engsoccerdata separa ficam separados: CD Málaga (até 1992) e Málaga (de 1994); AD Almería (1971-1982) e Almería (UD, de 1989); Burgos (CF, 1946-1983) e Real Burgos (1983-1995).
-- ogol e ESPN são casados pelo código do clube, por votação jogo a jogo (mesma data e placar): 61 códigos do ogol e 41 da ESPN.
+- ogol e ESPN são casados pelo código do clube, por votação jogo a jogo (mesma data e placar): 61 códigos do ogol e 42 da ESPN.
 - Os nomes de cada fonte, com os anos, estão em `nomes_fonte` do `clubes.csv` (ex.: `ogol:Atlético Aviación`).
 
 ## O que não deu para coletar

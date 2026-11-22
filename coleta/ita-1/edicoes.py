@@ -8,7 +8,7 @@ DADOS = RAIZ / "data" / "coleta" / "ita-1"
 CACHE = RAIZ / "data" / "cache"
 # sem campeonato oficial: 1943/44 (Campionato Alta Italia, não reconhecido) e 1944/45 (Segunda Guerra)
 GUERRA = {1943, 1944}
-TEMPORADAS = [a for a in range(1929, 2025) if a not in GUERRA]
+TEMPORADAS = [a for a in range(1929, 2026) if a not in GUERRA]
 DIVISIONE = 1945   # 1945/46: Divisione Nazionale (grupos Norte e Centro-Sul e grupo final)
 
 

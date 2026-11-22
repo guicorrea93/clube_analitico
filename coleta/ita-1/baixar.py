@@ -1,9 +1,9 @@
-"""Baixa as fontes da 1ª divisão italiana (ita-1), 1929/30 a 2024/25.
+"""Baixa as fontes da 1ª divisão italiana (ita-1), 1929/30 a 2025/26.
 
 Fontes (cada uma numa pasta de data/coleta/ita-1/):
   esd    engsoccerdata (GitHub jalapic/engsoccerdata, GPL >= 2): todos os jogos da 1ª divisão, 1929/30-2024/25.
          Bruto em data/cache/engsoccerdata-europa/.
-  fd     football-data.co.uk, I1.csv de 1993/94 a 2024/25: placar, hora, árbitro, estatísticas e cartões por time.
+  fd     football-data.co.uk, I1.csv de 1993/94 a 2025/26: placar, hora, árbitro, estatísticas e cartões por time.
   rsssf  RSSSF (Maurizio Mariani e outros): uma página por temporada, com as rodadas e a tabela final.
   wiki   Wikipédia em inglês: artigo de cada temporada (tabela final, punições), lista de campeões e Capocannoniere.
   ogol   ogol: calendário de cada edição (rodada oficial e código de cada clube). Páginas em data/cache/ogol-ita-1/.
@@ -45,7 +45,7 @@ def esd() -> None:
 
 
 def fd() -> None:
-    for a in range(1993, 2025):
+    for a in range(1993, 2026):
         cod = f"{str(a)[-2:]}{str(a + 1)[-2:]}"
         d = pegar(f"https://www.football-data.co.uk/mmz4281/{cod}/I1.csv", DADOS / "football-data" / f"I1_{cod}.csv", espera=1.5)
         print(f"football-data {cod}: {len((d or b'').splitlines()) - 1} linhas", flush=True)
@@ -111,7 +111,7 @@ def espn() -> None:
     pasta = DADOS / "espn"
     pasta.mkdir(parents=True, exist_ok=True)
     # dias de jogo pelos CSV do football-data, mais o dia seguinte (jogo à noite pode cair no dia seguinte em UTC)
-    for a in range(2001, 2025):
+    for a in range(2001, 2026):
         arq = pasta / f"ita1_{a}.json"
         if arq.exists():
             continue

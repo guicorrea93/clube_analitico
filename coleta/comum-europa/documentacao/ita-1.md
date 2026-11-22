@@ -4,11 +4,11 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 94, de 1929/30 a 2024/25.
-- **Jogos:** 28864; **gols:** 74076; **gols com autor:** 23642 (32%); **cartões:** 42440; **jogos com estatísticas** (chutes, faltas, escanteios): 7585.
-- **Clubes:** 69; **artilheiros:** 94 temporadas com artilheiro (105 linhas, com empates).
-- **Classificação final:** 94 temporadas; **rodada a rodada:** 93 temporadas.
-- **Tabelas publicadas guardadas para conferência:** 2051 linhas, de 113 tabelas.
+- **Edições:** 95, de 1929/30 a 2025/26.
+- **Jogos:** 29244; **gols:** 74998; **gols com autor:** 24564 (33%); **cartões:** 43962; **jogos com estatísticas** (chutes, faltas, escanteios): 7965.
+- **Clubes:** 69; **artilheiros:** 95 temporadas com artilheiro (106 linhas, com empates).
+- **Classificação final:** 95 temporadas; **rodada a rodada:** 94 temporadas.
+- **Tabelas publicadas guardadas para conferência:** 2091 linhas, de 115 tabelas.
 - **Observação da competição:** Serie A desde a criação do grupo único (1929/30). Sem 1943/44 e 1944/45 (Segunda Guerra). 1945/46 foi a Divisione Nazionale: grupos Norte e Centro-Sul e grupo final. Não inclui os desempates (spareggi) de título e de rebaixamento nem os campeonatos de antes de 1929/30 (grupos regionais e finais).
 
 ## 2. Fontes e regras
@@ -24,11 +24,11 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 **Regras da importação:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Roma). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1993/94, 3 a partir de 1994/95. Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 50, saldo de gols em 33, média de gols em 11); é ele que ordena a classificação rodada a rodada. Até 2004/05, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio), que não está no pacote.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 51, saldo de gols em 33, média de gols em 11); é ele que ordena a classificação rodada a rodada. Até 2004/05, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio), que não está no pacote.
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 161 tabelas fecham com os jogos e 9 divergem (divergência sempre explicada no relatório).
+- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 163 tabelas fecham com os jogos e 9 divergem (divergência sempre explicada no relatório).
 - Temporadas em que nenhuma tabela publicada fecha: 1930/31.
 - Temporadas com alguma tabela divergente: 1929/30, 1930/31, 1948/49, 1952/53, 1959/60, 1962/63, 1963/64, 1993/94.
 - Temporadas com número de jogos diferente do turno e returno completo: nenhuma.
@@ -49,7 +49,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1990s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 3504 | 100% | 91% | 100% | 89% | 73% | 22% | 54% | 90% | 4.2 |
 | 2010s | 3800 | 100% | 100% | 100% | 100% | 92% | 0% | 100% | 100% | 5.0 |
-| 2020s | 1900 | 100% | 100% | 100% | 100% | 80% | 0% | 100% | 100% | 4.6 |
+| 2020s | 2280 | 100% | 100% | 100% | 100% | 83% | 0% | 100% | 100% | 4.5 |
 
 ## 5. Formato do campeonato ao longo do tempo
 
@@ -64,18 +64,18 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1952/53 a 1966/67: 18 clubes
 - 1967/68 a 1987/88: 16 clubes
 - 1988/89 a 2003/04: 18 clubes
-- 2004/05 a 2024/25: 20 clubes
+- 2004/05 a 2025/26: 20 clubes
 
 **Pontos por vitória:**
 
 - 1929/30 a 1993/94: 2
-- 1994/95 a 2024/25: 3
+- 1994/95 a 2025/26: 3
 
 **Nome oficial:**
 
 - 1929/30 a 1942/43: Serie A
 - 1945/46: Divisione Nazionale
-- 1946/47 a 2024/25: Serie A
+- 1946/47 a 2025/26: Serie A
 
 **Temporadas com mais de uma fase ou fora dos pontos corridos:**
 
@@ -83,7 +83,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
-- pontos, confronto direto, saldo de gols, gols pró: 49 temporadas
+- pontos, confronto direto, saldo de gols, gols pró: 50 temporadas
 - pontos, saldo de gols, gols pró: 33 temporadas
 - pontos, média de gols (goal average): 11 temporadas
 - pontos: 2 temporadas
@@ -112,7 +112,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Títulos:**
 
 - Juventus: 34
-- Inter de Milão: 18
+- Inter de Milão: 19
 - Milan: 16
 - Torino: 6
 - Bologna: 5
@@ -125,7 +125,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Sampdoria: 1
 - Sem campeão: 2004/05
 
-**Rebaixamentos:** 277 no total; quem mais caiu: Brescia (13), Bari (11), Atalanta (11), Palermo FC (10), Genoa (9).
+**Rebaixamentos:** 280 no total; quem mais caiu: Brescia (13), Bari (11), Atalanta (11), Palermo FC (10), Verona (10).
 
 **Punições em pontos:**
 
@@ -213,7 +213,6 @@ Registradas em `coleta/ita-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
-- Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).
 - Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
 
 ## 10. Arquivos

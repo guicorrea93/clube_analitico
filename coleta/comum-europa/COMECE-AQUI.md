@@ -56,41 +56,43 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | Liga | Temporadas | Jogos | Gols c/ autor | Cartões | Clubes | Último commit |
 |---|---|---|---|---|---|---|
 | `eng-1` Inglês | 127 (1888/89–2025/26) | 51.330 | 25.841 | 33.166 | 65 | 103ccf1 |
-| `esp-1` Espanhol | 94 (1928/29–2024/25) | 27.336 | 24.048 | 49.824 | 63 | ea09cc6 / 103ccf1 |
-| `ita-1` Italiano | 94 (1929/30–2024/25) | 28.864 | 23.642 | 42.440 | 69 | aae4d9f / ea09cc6 |
-| `ger-1` Alemão (Bundesliga) | 62 (1963/64–2024/25) | 18.914 | 21.522 | 29.022 | 58 | 1710618 / ea09cc6 |
+| `esp-1` Espanhol | 95 (1928/29–2025/26) | 27.716 | 25.072 | 51.662 | 63 | (2025/26: ver git log) |
+| `ita-1` Italiano | 95 (1929/30–2025/26) | 29.244 | 24.564 | 43.962 | 69 | (2025/26: ver git log) |
+| `ger-1` Alemão (Bundesliga) | 63 (1963/64–2025/26) | 19.220 | 22.512 | 30.251 | 58 | (2025/26: ver git log) |
 | `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
 
-O agente 1 já carregou e publicou Inglês, Espanhol, Italiano e Alemão (`docs/coleta/pedidos-europa.md`, respostas dele).
-Francês e Português ficam esperando ele carregar; os recados já estão lá.
+Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
+e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
+Alemão e Francês (com 2025/26) e carregar o Português já estão lá.
+
+**Quando terminar uma temporada nova** (2026/27 termina em maio de 2027), estenda cada liga:
+- a) mude `TEMPORADAS` em `edicoes.py` e os `range(..., 2026)` de `baixar.py` e `importar.py`;
+- b) baixe com `python coleta/<slug>/baixar.py fd ogol=<ano>-<ano> wiki rsssf espn`; apague antes as listas de campeões
+  e de artilheiros já baixadas, para virem atualizadas;
+- c) ponha o ano em `SO_FD` do importador, porque o engsoccerdata demora a trazer a temporada nova e a base vem do
+  football-data (no Francês a temporada sai do ogol, pelo `reparar`; no Português o ogol já é a base);
+- d) importe, teste a carga e rode o `documentar.py`.
+
+**Rebaixamento na última temporada:** como não há temporada seguinte para comparar, vale a marca da Wikipédia.
+- A marca de play-off não é rebaixamento.
+- Confira o resultado do play-off e ponha quem perdeu à mão (`PLAYOFF_PERDIDO` no Alemão; no Português, o importador
+  baixa a temporada seguinte do ogol).
 
 ## 3. De onde continuar (pendências, em ordem)
 
-1. **2025/26 no Espanhol, no Italiano e no Alemão.** O guia pede até a última temporada terminada, e 2025/26 terminou em
-   maio de 2026. Inglês, Francês e Português já têm. Para cada liga:
-   - a) estender `TEMPORADAS` em `edicoes.py` e os `range(..., 2025)` de `baixar.py` e `importar.py` para 2026;
-   - b) baixar a temporada: `python coleta/<slug>/baixar.py fd ogol=2025-2025 wiki rsssf espn`;
-   - c) rodar o `importar.py`.
-
-   O engsoccerdata não traz 2025/26: veja como o Francês monta a temporada pelo ogol (`reparar`) e como o Inglês usa o
-   football-data (`SO_FD`). Atenção a dois casos:
-   - **clube recém-promovido sem voto na ESPN:** use o nome como alternativa, como fiz no Francês;
-   - **marca de play-off da Wikipédia:** não é rebaixamento. Confira o resultado do play-off.
-
-   Peça o ok do Guilherme.
-2. **EN-016 (revisão, baixa):** 12 jogos do Inglês (2002/03 a 2016/17) sem nenhum gol com autor; a ESPN não fecha nesses
+1. **EN-016 (revisão, baixa):** 12 jogos do Inglês (2002/03 a 2016/17) sem nenhum gol com autor; a ESPN não fecha nesses
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
    `coleta-europa`).
-3. **Próxima liga: `ned-1` (Holanda), só quando o Guilherme mandar.** Depois Escócia, Bélgica e Turquia (guia geral).
+2. **Próxima liga: `ned-1` (Holanda), só quando o Guilherme mandar.** Depois Escócia, Bélgica e Turquia (guia geral).
    Fontes já vistas para a Holanda:
    - engsoccerdata `holland.csv`, 1ª divisão de 1956/57 a 2024/25 sem buracos;
    - football-data `N1.csv`;
    - ESPN `ned.1`.
 
    Falta achar o código da competição no ogol (veja a seção 4).
-4. **Ficar de olho em `docs/coleta/pedidos-europa.md`:** respostas do agente 1 e pedidos novos da revisão.
+3. **Ficar de olho em `docs/coleta/pedidos-europa.md`:** respostas do agente 1 e pedidos novos da revisão.
 
 ## 4. Como fazer uma liga nova
 

@@ -2,9 +2,9 @@
 
 Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacote/`.
 
-**Edições:** 62, de 1963/64 a 2024/25 (Bundesliga). Os campeonatos alemães de antes (ligas regionais e fase final) ficam para depois.
+**Edições:** 63, de 1963/64 a 2025/26 (Bundesliga). Os campeonatos alemães de antes (ligas regionais e fase final) ficam para depois.
 
-**Total:** 18914 jogos, 57993 gols, 21522 gols com autor (ESPN), 29022 cartões, 58 clubes.
+**Total:** 19220 jogos, 58983 gols, 22512 gols com autor (ESPN), 30251 cartões, 58 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1963/64-2024/25;
@@ -16,7 +16,7 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Berlim). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96. Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 12, saldo de gols em 47, média de gols em 3); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 13, saldo de gols em 47, média de gols em 3); é ele que ordena a classificação rodada a rodada.
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
@@ -82,6 +82,7 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 | 2022/23 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 971 | 971 | 2 / 0 | Bayern de Munique | — |
 | 2023/24 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 985 | 985 | 2 / 0 | Bayer Leverkusen | — |
 | 2024/25 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 959 | 957 | 2 / 0 | Bayern de Munique | — |
+| 2025/26 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 990 | 990 | 2 / 0 | Bayern de Munique | — |
 
 ## Conferência e ocorrências, temporada a temporada
 
@@ -372,6 +373,10 @@ Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacot
 ### 2024/25
 
 - gols da ESPN não batem com o placar — 1. FC Union Berlin 0-2 VfL Bochum: ESPN 1-1 (descartados)
+
+### 2025/26
+
+- VfL Wolfsburg rebaixado: 16º, perdeu o play-off para o SC Paderborn (0-0 em Wolfsburg, 1-2 em Paderborn; Wikipédia)
 
 ## Identidade dos clubes
 

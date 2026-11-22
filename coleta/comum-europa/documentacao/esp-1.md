@@ -4,11 +4,11 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 94, de 1928/29 a 2024/25.
-- **Jogos:** 27336; **gols:** 77368; **gols com autor:** 24048 (31%); **cartões:** 49824; **jogos com estatísticas** (chutes, faltas, escanteios): 7600.
-- **Clubes:** 63; **artilheiros:** 94 temporadas com artilheiro (102 linhas, com empates).
-- **Classificação final:** 94 temporadas; **rodada a rodada:** 94 temporadas.
-- **Tabelas publicadas guardadas para conferência:** 3262 linhas, de 189 tabelas.
+- **Edições:** 95, de 1928/29 a 2025/26.
+- **Jogos:** 27716; **gols:** 78392; **gols com autor:** 25072 (32%); **cartões:** 51662; **jogos com estatísticas** (chutes, faltas, escanteios): 7980.
+- **Clubes:** 63; **artilheiros:** 95 temporadas com artilheiro (103 linhas, com empates).
+- **Classificação final:** 95 temporadas; **rodada a rodada:** 95 temporadas.
+- **Tabelas publicadas guardadas para conferência:** 3302 linhas, de 191 tabelas.
 - **Observação da competição:** 1ª divisão espanhola (Primera División, "La Liga") desde a criação, em 1929. Sem 1936/37-1938/39 (Guerra Civil). Em 1986/87, depois das 34 rodadas, três grupos de seis (título, 7º-12º e rebaixamento), com os pontos somados. Não inclui as promoções (jogos de acesso e rebaixamento contra clubes da 2ª divisão).
 
 ## 2. Fontes e regras
@@ -24,11 +24,11 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 **Regras da importação:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Madri; Canárias nos jogos em casa do Las Palmas e do Tenerife). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96.
 
-**Desempate:** para cada temporada, o critério que reproduz a ordem oficial (confronto direto em 93, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério que reproduz a ordem oficial (confronto direto em 94, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 178 tabelas fecham com os jogos e 11 divergem (divergência sempre explicada no relatório).
+- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 180 tabelas fecham com os jogos e 11 divergem (divergência sempre explicada no relatório).
 - Temporadas em que nenhuma tabela publicada fecha: nenhuma.
 - Temporadas com alguma tabela divergente: 1928/29, 1930/31, 1940/41, 1961/62, 1967/68, 1971/72, 1973/74, 1980/81, 2000/01, 2006/07, 2014/15.
 - Temporadas com número de jogos diferente do turno e returno completo: nenhuma.
@@ -49,7 +49,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1990s | 3964 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 3800 | 100% | 90% | 100% | 89% | 58% | 0% | 50% | 88% | 5.0 |
 | 2010s | 3800 | 100% | 100% | 100% | 100% | 97% | 0% | 100% | 100% | 5.6 |
-| 2020s | 1900 | 100% | 100% | 100% | 100% | 80% | 0% | 100% | 100% | 5.1 |
+| 2020s | 2280 | 100% | 100% | 100% | 100% | 83% | 0% | 100% | 100% | 5.0 |
 
 ## 5. Formato do campeonato ao longo do tempo
 
@@ -62,16 +62,16 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1971/72 a 1986/87: 18 clubes
 - 1987/88 a 1994/95: 20 clubes
 - 1995/96 a 1996/97: 22 clubes
-- 1997/98 a 2024/25: 20 clubes
+- 1997/98 a 2025/26: 20 clubes
 
 **Pontos por vitória:**
 
 - 1928/29 a 1994/95: 2
-- 1995/96 a 2024/25: 3
+- 1995/96 a 2025/26: 3
 
 **Nome oficial:**
 
-- 1928/29 a 2024/25: Primera División
+- 1928/29 a 2025/26: Primera División
 
 **Temporadas com mais de uma fase ou fora dos pontos corridos:**
 
@@ -79,7 +79,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
-- pontos, confronto direto, saldo de gols, gols pró: 93 temporadas
+- pontos, confronto direto, saldo de gols, gols pró: 94 temporadas
 - pontos, média de gols (goal average): 1 temporadas
 - pontos somados aos da 1ª fase; pontos, confronto direto, saldo de gols, gols pró: 1 temporadas
 
@@ -95,7 +95,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Títulos:**
 
 - Real Madrid: 36
-- Barcelona: 28
+- Barcelona: 29
 - Atlético de Madrid: 11
 - Athletic Bilbao: 8
 - Valencia: 6
@@ -104,7 +104,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Sevilla: 1
 - Deportivo La Coruña: 1
 
-**Rebaixamentos:** 250 no total; quem mais caiu: Betis (11), Murcia (11), Deportivo La Coruña (11), CD Málaga (11), Celta (10).
+**Rebaixamentos:** 253 no total; quem mais caiu: Betis (11), Murcia (11), Deportivo La Coruña (11), CD Málaga (11), Celta (10).
 
 **Punições em pontos:**
 
@@ -184,7 +184,6 @@ Registradas em `coleta/esp-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
-- Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).
 - Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).
 
 ## 10. Arquivos

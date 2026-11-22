@@ -1,4 +1,4 @@
-"""Monta o pacote da 1ª divisão italiana (ita-1), 1929/30 a 2024/25, e o relatório docs/coleta/ita-1.md.
+"""Monta o pacote da 1ª divisão italiana (ita-1), 1929/30 a 2025/26, e o relatório docs/coleta/ita-1.md.
 
 Base dos jogos: engsoccerdata. Cada jogo é casado pelo par mandante x visitante, que é único na fase (turno e
 returno), com:
@@ -39,6 +39,7 @@ from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
 LONDRES = ZoneInfo("Europe/London")
 ROMA = ZoneInfo("Europe/Rome")
 PACOTE = DADOS / "pacote"
+SO_FD = (2025,)   # temporadas que o engsoccerdata não tem: base pelo football-data
 RELATORIO = RAIZ / "docs" / "coleta" / "ita-1.md"
 
 # placar corrigido na base: (ano, mandante, visitante) -> (gols, gols, motivo). Chaves de clubes_ita.
@@ -142,6 +143,13 @@ def carregar_base() -> dict[int, list[dict]]:
         base[a].append({"data": x["Date"], "m": chave(x["home"], a, "engsoccerdata"), "v": chave(x["visitor"], a, "engsoccerdata"),
                         "nm": x["home"], "gm": int(x["hgoal"]), "gv": int(x["vgoal"]), "fase": "Liga", "grupo": None,
                         "fonte": "engsoccerdata"})
+    for a in SO_FD:   # temporadas que o engsoccerdata não tem: base pelo football-data
+        for x in ler_csv(DADOS / "football-data" / f"I1_{str(a)[-2:]}{str(a + 1)[-2:]}.csv"):
+            if not x.get("HomeTeam"):
+                continue
+            base[a].append({"data": data_fd(x["Date"]), "m": chave(x["HomeTeam"], a, "football-data"),
+                            "v": chave(x["AwayTeam"], a, "football-data"), "nm": x["HomeTeam"], "gm": int(x["FTHG"]),
+                            "gv": int(x["FTAG"]), "fase": "Liga", "grupo": None, "fonte": "football-data"})
     for (a, d, m, v), motivo in INVERTIDOS.items():
         j = next(j for j in base[a] if (j["data"], j["m"], j["v"]) == (d, m, v))
         j.update(m=v, v=m, gm=j["gv"], gv=j["gm"], invertido=motivo)
@@ -150,7 +158,7 @@ def carregar_base() -> dict[int, list[dict]]:
 
 def carregar_fd() -> dict[int, dict]:
     res = {}
-    for a in range(1993, 2025):
+    for a in range(1993, 2026):
         cod = f"{str(a)[-2:]}{str(a + 1)[-2:]}"
         jogos = {}
         for x in ler_csv(DADOS / "football-data" / f"I1_{cod}.csv"):
@@ -204,7 +212,7 @@ def carregar_ogol() -> dict[int, list[dict]]:
 
 def carregar_espn() -> dict[int, list[dict]]:
     res = {}
-    for a in range(2001, 2025):
+    for a in range(2001, 2026):
         arq = DADOS / "espn" / f"ita1_{a}.json"
         if not arq.exists():
             continue
@@ -691,7 +699,7 @@ def main() -> None:
         else:
             ordem_final, calc_final = ordem, ref
 
-        # rebaixados: quem não está na 1ª divisão no ano seguinte (2024/25: marca da Wikipédia)
+        # rebaixados: quem não está na 1ª divisão no ano seguinte (última temporada: marca da Wikipédia)
         prox = next((b for b in TEMPORADAS if b > a), None)
         if prox is not None:
             prox_clubes = {j["m"] for j in base[prox]} | {j["v"] for j in base[prox]}
@@ -877,7 +885,7 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
     out = [
         "# Campeonato Italiano (1ª divisão) — coleta de dados", "",
         "Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1929/30 a 2024/25 (Serie A; 1945/46 foi a Divisione Nazionale). Sem 1943/44 e 1944/45 "
+        f"**Edições:** {len(linhas)}, de 1929/30 a 2025/26 (Serie A; 1945/46 foi a Divisione Nazionale). Sem 1943/44 e 1944/45 "
         "(Segunda Guerra).", "",
         f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
         f"{len(tab['clubes'])} clubes.", "",

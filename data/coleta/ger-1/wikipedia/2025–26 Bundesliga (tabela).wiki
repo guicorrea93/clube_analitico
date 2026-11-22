@@ -1,0 +1,79 @@
+<noinclude>{{main|2025–26 Bundesliga}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.bundesliga.com/en/bundesliga/table/2025-2026 Bundesliga]
+
+<!--Update team positions here-->
+|team_order=MUN, DOR, LEI, STU, HOF, LEV, FRE, FRA, AUG, MAI, UNB, MÖN, HAM, KÖL, BRE, WOL, HEI, STP
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CLLS |result5=ELLS |result6=ELLS |result7=ECLPO |result16=RPO |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_AUG=12|draw_AUG=7 |loss_AUG=15|gf_AUG=45|ga_AUG=61<!-- FC Augsburg -->
+|win_UNB=10|draw_UNB=9 |loss_UNB=15|gf_UNB=44|ga_UNB=58<!-- Union Berlin -->
+|win_BRE=8 |draw_BRE=8 |loss_BRE=18|gf_BRE=37|ga_BRE=60<!-- Werder Bremen -->
+|win_DOR=22|draw_DOR=7 |loss_DOR=5 |gf_DOR=70|ga_DOR=34<!-- Borussia Dortmund -->
+|win_FRA=11|draw_FRA=11|loss_FRA=12|gf_FRA=61|ga_FRA=65<!-- Eintracht Frankfurt -->
+|win_FRE=13|draw_FRE=8 |loss_FRE=13|gf_FRE=51|ga_FRE=57<!-- SC Freiburg -->
+|win_HAM=9 |draw_HAM=11|loss_HAM=14|gf_HAM=40|ga_HAM=54<!-- Hamburger SV -->
+|win_HEI=6 |draw_HEI=8 |loss_HEI=20|gf_HEI=41|ga_HEI=72<!-- 1. FC Heidenheim -->
+|win_HOF=18|draw_HOF=7 |loss_HOF=9 |gf_HOF=65|ga_HOF=52<!-- TSG Hoffenheim -->
+|win_KÖL=7 |draw_KÖL=11|loss_KÖL=16|gf_KÖL=49|ga_KÖL=63<!-- 1. FC Köln -->
+|win_LEI=20|draw_LEI=5 |loss_LEI=9 |gf_LEI=66|ga_LEI=47<!-- RB Leipzig -->
+|win_LEV=17|draw_LEV=8 |loss_LEV=9 |gf_LEV=68|ga_LEV=47<!-- Bayer Leverkusen -->
+|win_MAI=10|draw_MAI=10|loss_MAI=14|gf_MAI=44|ga_MAI=53<!-- Mainz 05 -->
+|win_MÖN=9 |draw_MÖN=11|loss_MÖN=14|gf_MÖN=42|ga_MÖN=53<!-- Borussia Mönchengladbach -->
+|win_MUN=28|draw_MUN=5 |loss_MUN=1 |gf_MUN=122|ga_MUN=36<!-- Bayern Munich -->
+|win_STP=6 |draw_STP=8 |loss_STP=20|gf_STP=29|ga_STP=60<!-- FC St. Pauli -->
+|win_STU=18|draw_STU=8 |loss_STU=8 |gf_STU=71|ga_STU=49<!-- VfB Stuttgart -->
+|win_WOL=7 |draw_WOL=8 |loss_WOL=19|gf_WOL=45|ga_WOL=69<!-- VfL Wolfsburg -->
+
+<!--Status-->
+|status_MUN=C
+|status_WOL=R
+|status_STP=R
+|status_HEI=R
+|status_text_X=Assured of the [[2026–27 UEFA Europa League#League phase|Europa League]], but may still qualify for the [[2026–27 UEFA Champions League#League phase|Champions League]]
+|status_text_Y=Assured of the [[2026–27 UEFA Conference League#Play-off round|Conference League play-off round]], but may still qualify for the [[2026–27 UEFA Champions League#League phase|Champions League]] or [[2026–27 UEFA Europa League#League phase|Europa League]].
+|status_text_Z=Can at best reach promotion/relegation play-off.
+
+<!--Team definitions (wikilinks in table)-->
+|name_AUG=[[FC Augsburg]]
+|name_UNB=[[1. FC Union Berlin|Union Berlin]]
+|name_BRE=[[SV Werder Bremen|Werder Bremen]]
+|name_DOR=[[Borussia Dortmund]]
+|name_FRA=[[Eintracht Frankfurt]]
+|name_FRE=[[SC Freiburg]]
+|name_HAM=[[Hamburger SV]]
+|name_HEI=[[1. FC Heidenheim]]
+|name_HOF=[[TSG 1899 Hoffenheim|TSG Hoffenheim]]
+|name_KÖL=[[1. FC Köln]]
+|name_LEI=[[RB Leipzig]]
+|name_LEV=[[Bayer 04 Leverkusen|Bayer Leverkusen]]
+|name_MAI=[[1. FSV Mainz 05|Mainz 05]]
+|name_MÖN=[[Borussia Mönchengladbach]]
+|name_MUN=[[FC Bayern Munich|Bayern Munich]]
+|name_STP=[[FC St. Pauli]]
+|name_STU=[[VfB Stuttgart]]
+|name_WOL=[[VfL Wolfsburg]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Head-to-head results; 5) Head-to-head away goals scored; 6) Away goals scored; 7) Play-off.<ref>{{cite web |url=https://media.dfl.de/sites/2/2025/06/Spielordnung-SpOL-2025-05-29-Stand.pdf |title=DFL–Spielordnung (SpOL) |trans-title=Match rules |publisher=[[Deutsche Fußball Liga]] |language=de |format=PDF |page=3 |access-date=21 June 2025 |date=29 May 2025}}</ref><br>(Rules 4–6 only apply after home and away matches have been played between the tied teams.)
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS=Qualification for the {{nowrap|[[2026–27 UEFA Champions League#League phase|Champions League league phase]]}}
+|col_ELLS=blue1    |text_ELLS=Qualification for the {{nowrap|[[2026–27 UEFA Europa League#League phase|Europa League league phase]]}}
+|col_ECLPO=yellow1 |text_ECLPO=Qualification for the {{nowrap|[[2026–27 UEFA Conference League#Play-off round|Conference League play-off round]]}}
+|col_RPO=red2      |text_RPO=Qualification for the {{nowrap|[[2025–26 Bundesliga#Relegation play-offs|relegation play-offs]]}}
+|col_REL=red1      |text_REL=Relegation to {{nowrap|[[2026–27 2. Bundesliga|2. Bundesliga]]}}
+
+<!--Qualification notes-->
+|note_res_ELLS=The [[2025–26 DFB-Pokal]] winners qualified for the Europa League league phase. Since the DFB-Pokal winners, Bayern Munich, qualified for the Champions League, the Europa League spot passed to the sixth-placed team, and the Conference League spot passed to the seventh-placed team.
+}}<noinclude>
+{{Template reference list}}
+[[Category:Bundesliga table templates]]
+</noinclude>

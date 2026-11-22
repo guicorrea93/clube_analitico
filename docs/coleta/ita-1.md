@@ -2,9 +2,9 @@
 
 Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacote/`.
 
-**Edições:** 94, de 1929/30 a 2024/25 (Serie A; 1945/46 foi a Divisione Nazionale). Sem 1943/44 e 1944/45 (Segunda Guerra).
+**Edições:** 95, de 1929/30 a 2025/26 (Serie A; 1945/46 foi a Divisione Nazionale). Sem 1943/44 e 1944/45 (Segunda Guerra).
 
-**Total:** 28864 jogos, 74076 gols, 23642 gols com autor (ESPN), 42440 cartões, 69 clubes.
+**Total:** 29244 jogos, 74998 gols, 24564 gols com autor (ESPN), 43962 cartões, 69 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1929/30-2024/25;
@@ -16,7 +16,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Roma). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1993/94, 3 a partir de 1994/95. Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 50, saldo de gols em 33, média de gols em 11); é ele que ordena a classificação rodada a rodada. Até 2004/05, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio), que não está no pacote.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 51, saldo de gols em 33, média de gols em 11); é ele que ordena a classificação rodada a rodada. Até 2004/05, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio), que não está no pacote.
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
@@ -114,6 +114,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 | 2022/23 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 974 | 974 | 2 / 0 | Napoli | Juventus -10 pontos |
 | 2023/24 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 992 | 992 | 2 / 0 | Inter de Milão | — |
 | 2024/25 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 973 | 973 | 2 / 0 | Napoli | — |
+| 2025/26 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 922 | 922 | 2 / 0 | Inter de Milão | — |
 
 ## Conferência e ocorrências, temporada a temporada
 
@@ -578,12 +579,16 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 - sem ocorrências
 
+### 2025/26
+
+- sem ocorrências
+
 ## Identidade dos clubes
 
 - Cadastro em `coleta/comum-europa/clubes_ita.py` (serve para todas as divisões italianas): nome de exibição como o clube é conhecido no Brasil, cidade e país. As grafias de época do engsoccerdata viram um clube só (Genova 1893 e Genoa; AC Liguria e Sampierdarenese; Lanerossi Vicenza e Vicenza; US e AS Livorno; Parma AC e Parma FC; US Anconitana e Ancona).
 - A Sampdoria (fusão de 1946) fica separada da Sampierdarenese e da Andrea Doria. "Inter" fica "Inter de Milão".
 - "Palermo" já é um clube argentino no banco: o italiano fica "Palermo FC".
-- ogol e ESPN são casados pelo código do clube, por votação jogo a jogo (mesma data e placar): 69 códigos do ogol e 49 da ESPN.
+- ogol e ESPN são casados pelo código do clube, por votação jogo a jogo (mesma data e placar): 69 códigos do ogol e 50 da ESPN.
 - Os nomes de cada fonte, com os anos, estão em `nomes_fonte` do `clubes.csv`.
 
 ## O que não deu para coletar

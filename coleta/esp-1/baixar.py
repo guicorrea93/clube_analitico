@@ -1,9 +1,9 @@
-"""Baixa as fontes da 1ª divisão espanhola (esp-1), 1928/29 a 2024/25.
+"""Baixa as fontes da 1ª divisão espanhola (esp-1), 1928/29 a 2025/26.
 
 Fontes (cada uma numa pasta de data/coleta/esp-1/):
   esd    engsoccerdata (GitHub jalapic/engsoccerdata, GPL >= 2): todos os jogos da 1ª divisão, 1928/29-2024/25.
          Bruto em data/cache/engsoccerdata-europa/.
-  fd     football-data.co.uk, SP1.csv de 1993/94 a 2024/25: placar, hora, árbitro, estatísticas e cartões por time.
+  fd     football-data.co.uk, SP1.csv de 1993/94 a 2025/26: placar, hora, árbitro, estatísticas e cartões por time.
   rsssf  RSSSF (José Vicente Tejedor Carnicero e outros): tabela final e matriz de resultados de cada temporada.
   wiki   Wikipédia em inglês: artigo de cada temporada (tabela final, punições), lista de campeões e Troféu Pichichi.
   ogol   ogol: calendário de cada edição (rodada oficial e código de cada clube). Páginas em data/cache/ogol-esp-1/.
@@ -44,7 +44,7 @@ def esd() -> None:
 
 
 def fd() -> None:
-    for a in range(1993, 2025):
+    for a in range(1993, 2026):
         cod = f"{str(a)[-2:]}{str(a + 1)[-2:]}"
         d = pegar(f"https://www.football-data.co.uk/mmz4281/{cod}/SP1.csv", DADOS / "football-data" / f"SP1_{cod}.csv", espera=1.5)
         print(f"football-data {cod}: {len((d or b'').splitlines()) - 1} linhas", flush=True)
@@ -61,7 +61,8 @@ def wiki() -> None:
     from wikipedia import wikitexto
     pasta = DADOS / "wikipedia"
     pasta.mkdir(parents=True, exist_ok=True)
-    titulos = [wiki_titulo(a) for a in TEMPORADAS] + ["List of Spanish football champions", "Pichichi Trophy"]
+    titulos = [wiki_titulo(a) for a in TEMPORADAS] + ["List of Spanish football champions", "Pichichi Trophy",
+                                                 "List of La Liga top scorers"]
     for t in titulos:
         arq = pasta / (t.replace("/", "_") + ".wiki")
         if arq.exists():
@@ -109,7 +110,7 @@ def espn() -> None:
     pasta = DADOS / "espn"
     pasta.mkdir(parents=True, exist_ok=True)
     # dias de jogo pelos CSV do football-data, mais o dia seguinte (jogo à noite pode cair no dia seguinte em UTC)
-    for a in range(2001, 2025):
+    for a in range(2001, 2026):
         arq = pasta / f"esp1_{a}.json"
         if arq.exists():
             continue

@@ -33,15 +33,12 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).",
     ],
     "esp-1": [
-        "Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).",
         "Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).",
     ],
     "ita-1": [
-        "Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).",
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
     ],
     "ger-1": [
-        "Incluir 2025/26 (o guia pede até a última temporada terminada; pedir o ok do Guilherme).",
         "Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): ficou de fora; seria outra "
         "competição ou uma decisão do Guilherme.",
     ],

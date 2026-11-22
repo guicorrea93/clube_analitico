@@ -8,7 +8,7 @@ DADOS = RAIZ / "data" / "coleta" / "esp-1"
 CACHE = RAIZ / "data" / "cache"
 # sem liga: 1936/37-1938/39 (Guerra Civil)
 GUERRA = {1936, 1937, 1938}
-TEMPORADAS = [a for a in range(1928, 2025) if a not in GUERRA]
+TEMPORADAS = [a for a in range(1928, 2026) if a not in GUERRA]
 
 
 def temporada(a: int) -> str:

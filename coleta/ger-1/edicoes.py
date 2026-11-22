@@ -6,7 +6,7 @@ from pathlib import Path
 RAIZ = Path(__file__).resolve().parent.parent.parent
 DADOS = RAIZ / "data" / "coleta" / "ger-1"
 CACHE = RAIZ / "data" / "cache"
-TEMPORADAS = list(range(1963, 2025))
+TEMPORADAS = list(range(1963, 2026))
 
 
 def temporada(a: int) -> str:

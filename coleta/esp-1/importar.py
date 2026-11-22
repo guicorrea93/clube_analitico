@@ -1,4 +1,4 @@
-"""Monta o pacote da 1ª divisão espanhola (esp-1), 1928/29 a 2024/25, e o relatório docs/coleta/esp-1.md.
+"""Monta o pacote da 1ª divisão espanhola (esp-1), 1928/29 a 2025/26, e o relatório docs/coleta/esp-1.md.
 
 Base dos jogos: engsoccerdata. Cada jogo é casado pelo par mandante x visitante, que é único na fase (turno e
 returno), com:
@@ -42,6 +42,7 @@ LONDRES = ZoneInfo("Europe/London")
 MADRI = ZoneInfo("Europe/Madrid")
 CANARIAS = ZoneInfo("Atlantic/Canary")
 PACOTE = DADOS / "pacote"
+SO_FD = (2025,)   # temporadas que o engsoccerdata não tem: base pelo football-data
 RELATORIO = RAIZ / "docs" / "coleta" / "esp-1.md"
 FASE2 = 1986   # 1986/87: segunda fase em grupos
 
@@ -179,6 +180,14 @@ def carregar_base() -> dict[int, list[dict]]:
         base[a].append({"data": x["Date"], "m": x["home"], "v": x["visitor"], "gm": int(x["hgoal"]), "gv": int(x["vgoal"]),
                         "fase": "Fase final" if fase2 else "Liga", "grupo": x["group"] if fase2 else None,
                         "nota": None if x["notes"] in ("NA", "") else x["notes"], "fonte": "engsoccerdata"})
+    for a in SO_FD:   # temporadas que o engsoccerdata não tem: base pelo football-data
+        for x in ler_csv(DADOS / "football-data" / f"SP1_{str(a)[-2:]}{str(a + 1)[-2:]}.csv"):
+            if not x.get("HomeTeam"):
+                continue
+            m, v = clubes.esd(x["HomeTeam"], a), clubes.esd(x["AwayTeam"], a)
+            assert m and v, (a, x["HomeTeam"], x["AwayTeam"])
+            base[a].append({"data": data_fd(x["Date"]), "m": m, "v": v, "nm": x["HomeTeam"], "gm": int(x["FTHG"]), "gv": int(x["FTAG"]),
+                            "fase": "Liga", "grupo": None, "nota": None, "fonte": "football-data"})
     for (a, m, v), (d, gm, gv, motivo) in ACRESCIMOS.items():
         base[a].append({"data": d, "m": m, "v": v, "gm": gm, "gv": gv, "fase": "Liga", "grupo": None, "nota": None,
                         "fonte": "RSSSF", "acrescimo": motivo})
@@ -187,7 +196,7 @@ def carregar_base() -> dict[int, list[dict]]:
 
 def carregar_fd() -> dict[int, dict]:
     res = {}
-    for a in range(1993, 2025):
+    for a in range(1993, 2026):
         cod = f"{str(a)[-2:]}{str(a + 1)[-2:]}"
         jogos = {}
         for x in ler_csv(DADOS / "football-data" / f"SP1_{cod}.csv"):
@@ -245,7 +254,7 @@ def carregar_ogol() -> dict[int, list[dict]]:
 
 def carregar_espn() -> dict[int, list[dict]]:
     res = {}
-    for a in range(2001, 2025):
+    for a in range(2001, 2026):
         arq = DADOS / "espn" / f"esp1_{a}.json"
         if not arq.exists():
             continue
@@ -397,7 +406,7 @@ def main() -> None:
         por_par = {(j["fase"], j["m"], j["v"]): j for j in jogos}
         liga = [j for j in jogos if j["fase"] == "Liga"]
         for j in jogos:
-            nomes[j["m"]][f"engsoccerdata:{j['m']}"].add(a)
+            nomes[j["m"]][f"{j['fonte']}:{j.get('nm', j['m'])}"].add(a)
             if (a, j["m"], j["v"]) in CORRECOES and j["fase"] == "Liga":
                 gm, gv, motivo = CORRECOES[(a, j["m"], j["v"])]
                 ocorr[a].append(f"placar corrigido: {j['m']} x {j['v']} de {j['gm']}-{j['gv']} para {gm}-{gv} — {motivo}")
@@ -632,7 +641,7 @@ def main() -> None:
             criterio = "confronto"
         criterios[a] = (criterio, bool(a == FASE2 or ok))
 
-        # rebaixados: quem não está na 1ª divisão no ano seguinte (2024/25: marca da Wikipédia)
+        # rebaixados: quem não está na 1ª divisão no ano seguinte (última temporada: marca da Wikipédia)
         prox = next((b for b in TEMPORADAS if b > a), None)
         if prox is not None:
             prox_clubes = {j["m"] for j in base[prox]}
@@ -891,7 +900,7 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
     out = [
         "# Campeonato Espanhol (1ª divisão) — coleta de dados", "",
         "Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1928/29 a 2024/25 (Primera División). Sem liga em 1936/37-1938/39 (Guerra Civil).", "",
+        f"**Edições:** {len(linhas)}, de 1928/29 a 2025/26 (Primera División). Sem liga em 1936/37-1938/39 (Guerra Civil).", "",
         f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
         f"{len(tab['clubes'])} clubes.", "",
         "**Fontes:**",

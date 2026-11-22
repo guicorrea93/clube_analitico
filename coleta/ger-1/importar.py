@@ -1,4 +1,4 @@
-"""Monta o pacote da 1ª divisão alemã (ger-1), 1963/64 a 2024/25, e o relatório docs/coleta/ger-1.md.
+"""Monta o pacote da 1ª divisão alemã (ger-1), 1963/64 a 2025/26, e o relatório docs/coleta/ger-1.md.
 
 Base dos jogos: engsoccerdata. Cada jogo é casado pelo par mandante x visitante, que é único na fase (turno e
 returno), com:
@@ -37,6 +37,11 @@ LONDRES = ZoneInfo("Europe/London")
 BERLIM = ZoneInfo("Europe/Berlin")   # hora local alemã
 DIVISIONE = None   # (só na Itália: temporada com grupos)
 PACOTE = DADOS / "pacote"
+SO_FD = (2025,)   # temporadas que o engsoccerdata não tem: base pelo football-data
+# última temporada (sem a seguinte para comparar): quem perdeu o play-off contra o 3º da 2. Bundesliga
+PLAYOFF_PERDIDO = {
+    2025: {"VfL Wolfsburg": "16º, perdeu o play-off para o SC Paderborn (0-0 em Wolfsburg, 1-2 em Paderborn; Wikipédia)"},
+}
 RELATORIO = RAIZ / "docs" / "coleta" / "ger-1.md"
 
 # placar corrigido na base: (ano, mandante, visitante) -> (gols, gols, motivo). Chaves de clubes_ger.
@@ -109,6 +114,13 @@ def carregar_base() -> dict[int, list[dict]]:
         base[a].append({"data": x["Date"], "m": chave(x["home"], a, "engsoccerdata"), "v": chave(x["visitor"], a, "engsoccerdata"),
                         "nm": x["home"], "gm": int(x["hgoal"]), "gv": int(x["vgoal"]), "fase": "Liga", "grupo": None,
                         "fonte": "engsoccerdata"})
+    for a in SO_FD:   # temporadas que o engsoccerdata não tem: base pelo football-data
+        for x in ler_csv(DADOS / "football-data" / f"D1_{str(a)[-2:]}{str(a + 1)[-2:]}.csv"):
+            if not x.get("HomeTeam"):
+                continue
+            base[a].append({"data": data_fd(x["Date"]), "m": chave(x["HomeTeam"], a, "football-data"),
+                            "v": chave(x["AwayTeam"], a, "football-data"), "nm": x["HomeTeam"], "gm": int(x["FTHG"]),
+                            "gv": int(x["FTAG"]), "fase": "Liga", "grupo": None, "fonte": "football-data"})
     for (a, d, m, v), motivo in INVERTIDOS.items():
         j = next(j for j in base[a] if (j["data"], j["m"], j["v"]) == (d, m, v))
         j.update(m=v, v=m, gm=j["gv"], gv=j["gm"], invertido=motivo)
@@ -117,7 +129,7 @@ def carregar_base() -> dict[int, list[dict]]:
 
 def carregar_fd() -> dict[int, dict]:
     res = {}
-    for a in range(1993, 2025):
+    for a in range(1993, 2026):
         cod = f"{str(a)[-2:]}{str(a + 1)[-2:]}"
         jogos = {}
         for x in ler_csv(DADOS / "football-data" / f"D1_{cod}.csv"):
@@ -171,7 +183,7 @@ def carregar_ogol() -> dict[int, list[dict]]:
 
 def carregar_espn() -> dict[int, list[dict]]:
     res = {}
-    for a in range(2001, 2025):
+    for a in range(2001, 2026):
         arq = DADOS / "espn" / f"ger1_{a}.json"
         if not arq.exists():
             continue
@@ -675,14 +687,18 @@ def main() -> None:
         else:
             ordem_final, calc_final = ordem, ref
 
-        # rebaixados: quem não está na 1ª divisão no ano seguinte (2024/25: marca da Wikipédia)
+        # rebaixados: quem não está na 1ª divisão no ano seguinte (última temporada: marca da Wikipédia)
         prox = next((b for b in TEMPORADAS if b > a), None)
         if prox is not None:
             prox_clubes = {j["m"] for j in base[prox]} | {j["v"] for j in base[prox]}
             rebaixados = {c for c in clubes_ano if c not in prox_clubes}
         else:
             textos = {k[5:]: limpar(v) for k, v in w["params"].items() if k.startswith("text_")}
-            rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()}
+            rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()
+                          and "play-off" not in textos.get(x["resultado"], "").lower()}
+            for c, motivo in PLAYOFF_PERDIDO.get(a, {}).items():
+                rebaixados.add(c)
+                ocorr[a].append(f"{c} rebaixado: {motivo}")
         campeao, vice = ordem_final[0], ordem_final[1]
         sem_titulo = a in camp_wiki and camp_wiki[a] is None
         if sem_titulo:
@@ -863,7 +879,7 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
     out = [
         "# Campeonato Alemão (Bundesliga) — coleta de dados", "",
         "Gerado por `python coleta/ger-1/importar.py`. Pacote em `data/coleta/ger-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1963/64 a 2024/25 (Bundesliga). Os campeonatos alemães de antes (ligas regionais e "
+        f"**Edições:** {len(linhas)}, de 1963/64 a 2025/26 (Bundesliga). Os campeonatos alemães de antes (ligas regionais e "
         "fase final) ficam para depois.", "",
         f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
         f"{len(tab['clubes'])} clubes.", "",

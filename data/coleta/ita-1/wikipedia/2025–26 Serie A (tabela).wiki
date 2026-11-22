@@ -1,0 +1,85 @@
+<noinclude>{{main|2025–26 Serie A}}
+<!--'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.-->
+</noinclude>{{#invoke:Sports table|main|style=WDL|source=[https://www.legaseriea.it/en/serie-a/classifica Serie A]
+
+<!--Update team positions here-->
+|team_order = INT, NAP, ROM, COM, MIL, JUV, ATA, BOL, LAZ, UDI, SAS, TOR, PAR, CAG, FIO, GEN, LEC, CRE, VER, PIS
+
+<!--Head-to-head-->
+|hth_TOR=Torino finished ahead of Parma on head-to-head goal difference: Parma 2–1 Torino, Torino 4–1 Parma.
+|hth_PAR=TOR
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CLLS |result5=ELLS |result6=ELLS |result7=ECLPO |result18=REL |result19=REL |result20=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete
+|win_ATA=15|draw_ATA=14|loss_ATA=9 |gf_ATA=51|ga_ATA=36 <!-- Atalanta -->
+|win_BOL=16|draw_BOL=8 |loss_BOL=14|gf_BOL=49|ga_BOL=46 <!-- Bologna -->
+|win_CAG=11|draw_CAG=10|loss_CAG=17|gf_CAG=40|ga_CAG=53 <!-- Cagliari -->
+|win_COM=20|draw_COM=11|loss_COM=7 |gf_COM=65|ga_COM=29 <!-- Como -->
+|win_CRE=8 |draw_CRE=10|loss_CRE=20|gf_CRE=32|ga_CRE=57 <!-- Cremonese -->
+|win_FIO=9 |draw_FIO=15|loss_FIO=14|gf_FIO=41|ga_FIO=50 <!-- Fiorentina -->
+|win_GEN=10|draw_GEN=11|loss_GEN=17|gf_GEN=41|ga_GEN=51 <!-- Genoa -->
+|win_VER=3 |draw_VER=12|loss_VER=23|gf_VER=25|ga_VER=61 <!-- Hellas Verona -->
+|win_INT=27|draw_INT=6 |loss_INT=5 |gf_INT=89|ga_INT=35 <!-- Inter Milan -->
+|win_JUV=19|draw_JUV=12|loss_JUV=7 |gf_JUV=61|ga_JUV=34 <!-- Juventus -->
+|win_LAZ=14|draw_LAZ=12|loss_LAZ=12|gf_LAZ=41|ga_LAZ=40 <!-- Lazio -->
+|win_LEC=10|draw_LEC=8 |loss_LEC=20|gf_LEC=28|ga_LEC=50 <!-- Lecce -->
+|win_MIL=20|draw_MIL=10|loss_MIL=8 |gf_MIL=53|ga_MIL=35 <!-- AC Milan -->
+|win_NAP=23|draw_NAP=7 |loss_NAP=8 |gf_NAP=58|ga_NAP=36 <!-- Napoli -->
+|win_PAR=11|draw_PAR=12|loss_PAR=15|gf_PAR=28|ga_PAR=46 <!-- Parma -->
+|win_PIS=2 |draw_PIS=12|loss_PIS=24|gf_PIS=26|ga_PIS=71 <!-- Pisa -->
+|win_ROM=23|draw_ROM=4 |loss_ROM=11|gf_ROM=59|ga_ROM=31 <!-- Roma -->
+|win_SAS=14|draw_SAS=7 |loss_SAS=17|gf_SAS=46|ga_SAS=50 <!-- Sassuolo -->
+|win_TOR=12|draw_TOR=9 |loss_TOR=17|gf_TOR=44|ga_TOR=63 <!-- Torino -->
+|win_UDI=14|draw_UDI=8 |loss_UDI=16|gf_UDI=45|ga_UDI=48 <!-- Udinese -->
+
+<!--Status-->
+|status_INT=C
+|status_CRE=R
+|status_VER=R
+|status_PIS=R
+
+<!--Team definitions (wikilinks in table)-->
+
+|name_ATA =[[Atalanta BC|Atalanta]]
+|name_BOL =[[Bologna FC 1909|Bologna]]
+|name_CAG =[[Cagliari Calcio|Cagliari]]
+|name_COM =[[Como 1907|Como]]
+|name_CRE =[[US Cremonese|Cremonese]]
+|name_FIO =[[ACF Fiorentina|Fiorentina]]
+|name_GEN =[[Genoa CFC|Genoa]]
+|name_VER =[[Hellas Verona FC|Hellas Verona]]
+|name_INT =[[Inter Milan]]
+|name_JUV =[[Juventus FC|Juventus]]
+|name_LAZ =[[SS Lazio|Lazio]]
+|name_LEC =[[US Lecce|Lecce]]
+|name_MIL =[[AC Milan]]
+|name_NAP =[[SSC Napoli|Napoli]]
+|name_PAR =[[Parma Calcio 1913|Parma]]
+|name_PIS =[[Pisa SC|Pisa]]
+|name_ROM =[[AS Roma|Roma]]
+|name_SAS =[[US Sassuolo Calcio|Sassuolo]]
+|name_TOR =[[Torino FC|Torino]]
+|name_UDI =[[Udinese Calcio|Udinese]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points;  2) Tiebreaker for Champions team and third relegated team; 3) Head-to-head points; 4) Head-to-head goal difference; 5) Goal difference; 6) Goals scored; 7) Draw.<br>(Note: Head-to-head record is used only after all the matches between the teams in question have been played)<ref>{{cite web|url=https://www.figc.it/media/173115/304-deroga-art-51-noif-determinazione-classifica-campionato-serie-a-ss-2022-2023.pdf|title=Comunicato Ufficiale N. 304/A|publisher=Federazione Italiana Giuoco Calcio|language=it}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS= [[2026–27 UEFA Champions League#League phase|Qualification for the UEFA Champions League league phase]]
+|col_ELLS=blue1    |text_ELLS= [[2026–27 UEFA Europa League#League phase|Qualification for the UEFA Europa League league phase]]
+|col_ECLPO=yellow1 |text_ECLPO= {{nowrap|[[2026–27 UEFA Conference League#Play-off round|Qualification for the UEFA Conference League play-off round]]}}
+|col_REL=red1      |text_REL=Relegation to {{season link|2026–27|Serie B}}
+
+<!--Qualification notes-->
+|note_res_ELLS=Since the [[2025–26 Coppa Italia]] winners, Inter Milan, qualified for the Champions League via league position, the Europa League spot awarded to the cup winners was passed to the sixth-placed team, and the Conference League spot was moved down one league position.
+|note_res_ECLPO=ELLS
+ 
+}}<noinclude>
+{{Template reference list}}
+[[Category:Italy football standings templates]]
+[[Category:2025–26 in Italian football|Template]]
