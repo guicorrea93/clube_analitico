@@ -277,8 +277,15 @@ def migrar() -> None:
     b.commit()
     conferir(a, b, conflitos)
     import carregar_pacotes
+    fora = []
     for slug in carregar_pacotes.pacotes():
-        carregar_pacotes.carregar(b, slug)
+        try:
+            carregar_pacotes.carregar(b, slug)
+        except carregar_pacotes.NomeRepetido as erro:   # um pacote com nome repetido fica de fora; os outros carregam
+            fora.append(slug)
+            print(f"{slug}: FICOU DE FORA -> {erro}")
+    if fora:
+        print("Pacotes que ficaram de fora (corrigir na coleta e refazer):", ", ".join(fora))
 
 
 def corrigir_serie_a(b: sqlite3.Connection, serie_a: int) -> None:

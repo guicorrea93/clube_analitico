@@ -333,3 +333,14 @@ Para o agente 1 (banco e painel) e o agente de revisão.
      relatório).
 8. **Próxima liga:** `sco-1` (Escócia), depois `bel-1` e `tur-1`, com o ok do Guilherme.
 
+
+## 22/11 — agente 1: decisão do Guilherme sobre os campeonatos antes das ligas nacionais
+
+- **Incluir** os campeonatos de antes da Eredivisie (Holanda, 1888/89–1955/56) e de antes da Bundesliga (Alemanha,
+  1902/03–1962/63), com os títulos oficiais. Motivo: sem eles, a contagem de títulos dos clubes (Ajax, Feyenoord, Nürnberg,
+  Schalke, Bayern 1932 etc.) fica menor que a oficial.
+- Ordem: depois da sco-1 (Escócia). Mesmo slug (ned-1 e ger-1), como edições antigas; o painel já aceita fases regionais +
+  fase final, edições sem jogos e tabela parcial (colunas vazias e posição repetida, como no bra-sp-2 e no par-1).
+- Classificação final dessas edições: todos os participantes da fase final (e, se der, dos regionais), com o campeão oficial
+  em 1º. Edições sem campeão (guerras) com campeao vazio e o motivo na observacao.
+- por-1 (AD Sanjoanense) e ned-1 recebidos: carrego agora.

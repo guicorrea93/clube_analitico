@@ -115,7 +115,7 @@ def catalogo(dados: dict) -> list[dict]:
 
 
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1"}
 
 
 def competicoes_dos_pacotes() -> None:
@@ -216,6 +216,7 @@ def abrir(slug: str) -> sqlite3.Connection:
                       ELSE (SELECT padrao FROM rotulo) END AS competicao_nome,
                  CASE WHEN e.formato = 'mata-mata' THEN 'mata' ELSE '' END AS tipo,
                  e.pontos_vitoria, e.ano_inicio AS temporada_id, e.temporada, e.campeao_id IS NOT NULL AS tem_campeao, e.observacao, e.nome_oficial,
+                 coalesce(e.formato, '') LIKE 'jogos incompletos%' AS incompleta,   -- só parte dos jogos (ex.: Paulista A2 antiga)
                  -- pontos corridos: tabela rodada a rodada, fase única e todo jogo com rodada (senão fica por fase)
                  EXISTS (SELECT 1 FROM f.classificacao_rodada r WHERE r.edicao_id = e.edicao_id)
                  AND (SELECT count(*) FROM f.fase x WHERE x.edicao_id = e.edicao_id) = 1
@@ -624,13 +625,21 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
             subiu[idx[eid]].add(nomes[c])
     sem_tit = {idx[eid]: obs or "título não atribuído" for eid, tem, obs in con.execute(
         "SELECT edicao_nacional_id, tem_campeao, observacao FROM dim_edicao_nacional") if not tem}
+    # edição com só parte dos jogos: a tabela é a da fonte (como nas edições sem jogos), não a soma dos jogos que temos
+    incompletas = {idx[eid] for eid, inc in con.execute("SELECT edicao_nacional_id, incompleta FROM dim_edicao_nacional") if inc}
     saida = []
     for i, (_, chave, comp, tipo, pv, ano, _) in enumerate(eds):
         do_i = [c for c, ps in part.items() for k, _ in ps if k == i]
-        if jogos[i] and do_i and all(publicada.get((i, c), [None])[0] is not None for c in do_i):
+        da_fonte = True   # a tabela vem da fonte (linhas sem números ficam parciais), não da soma dos jogos
+        if i in incompletas:
+            tab = sorted(([c, pos, *[n or 0 for n in publicada.get((i, c), [0] * 6)]] for c, ps in part.items() for k, pos in ps if k == i),
+                         key=lambda r: r[1])
+        elif jogos[i] and do_i and any(publicada.get((i, c), [None])[0] is not None for c in do_i):
+            # (com "any": edição com só parte dos jogos em que a fonte publica a tabela de quase todos, ex.: Bolívia 1978)
             # o pacote traz a tabela oficial (pontos de W.O. sem os gols, jogos anulados etc.): vale ela
-            tab = sorted(([c, pos, *[n or 0 for n in publicada[(i, c)]]] for c, ps in part.items() for k, pos in ps if k == i), key=lambda r: r[1])
+            tab = sorted(([c, pos, *[n or 0 for n in publicada.get((i, c), [0] * 6)]] for c, ps in part.items() for k, pos in ps if k == i), key=lambda r: r[1])
         elif jogos[i]:
+            da_fonte = False
             q = lambda d, c: d[c][i] if c in d else 0   # clube só com jogos sem placar (W.O.) não está nas somas
             tab = sorted(([c, pos, q(j, c), q(v, c), q(e_, c), q(j, c) - q(v, c) - q(e_, c), q(gp, c), q(gc, c)]
                           for c, ps in part.items() for k, pos in ps if k == i), key=lambda r: r[1])
@@ -639,11 +648,17 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
                          key=lambda r: r[1])
         for r in tab:
             r.append(ajuste.get((i, r[0]), 0))   # r[8]: pontos ganhos ou perdidos no tribunal
-        if not jogos[i]:   # tabela parcial da fonte (só posição e pontos, ou só campeão e vice): r[9] pontos publicados, r[10] = 1
+        if da_fonte:   # tabela parcial da fonte (só posição e pontos, ou só campeão e vice): r[9] pontos publicados, r[10] = 1
             for r in tab:
                 if (publicada.get((i, r[0])) or [None])[0] is None:
                     r += [pontos_pub.get((i, r[0])), 1]
         ci = {r[0]: k for k, r in enumerate(tab)}
+        fora = sorted({x for _, _, m, vv, *_ in jogos[i] for x in (m, vv)} - ci.keys())
+        if fora:   # jogou e não está na classificação final do pacote: entra no fim, sem posição nem números
+            print(f"  aviso: {chave}: clubes com jogos e fora da classificação final: {', '.join(fora)}")
+            for c in fora:
+                ci[c] = len(tab)
+                tab.append([c, None, 0, 0, 0, 0, 0, 0, 0, None, 1])
         js = sorted(jogos[i])
         if i in rodadas:
             n_rod = max(max(rs) for rs in rodadas[i].values())
@@ -676,7 +691,8 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
                       "g": sum(x[4] + x[5] for x in js), "gol": goleada.get(i, (None, None))[1], "tab": tab,
                       "grupos": grupos, "disputa": disputa, "jogos": [[g, ci[m], ci[vv], a, b, sg] + ([pen[(i, o)]] if (i, o) in pen else []) for o, g, m, vv, a, b, sg in js],
                       "cor": corrida, "art": sorted(artilheiros[i], key=lambda x: (-x[2], x[0]))[:10], "artof": oficiais[i][:10], "ac": sorted(subiu[i]) if tem_acesso else None,
-                      "cob": round(sum(x[2] for x in artilheiros[i]) / max(1, sum(x[4] + x[5] for x in js)), 2)})
+                      "cob": round(sum(x[2] for x in artilheiros[i]) / max(1, sum(x[4] + x[5] for x in js)), 2)}
+                     | ({"inc": 1} if i in incompletas else {}))
     return saida
 
 
@@ -1920,14 +1936,14 @@ function corridaPosicoes(id, medalhas) {
   function mostrar(id) {
     if (id !== atual) { todos = false; grupoJ = EDS[IDX[id]].grupos.length - 1; }
     atual = id; sel.value = id; if (sel.sincronizar) sel.sincronizar();
-    const i = IDX[id], e = EDS[i], g = e.gol, t = e.tab, pts = r => r[10] ? (r[9] ?? '—') : e.pv * r[3] + r[4] + (r[8] || 0);   // r[8]: punição/bônus; r[10]: linha parcial da fonte
+    const i = IDX[id], e = EDS[i], g = e.gol, t = e.tab, tp = t.filter(r => r[1] != null), pts = r => r[10] ? (r[9] ?? '—') : e.pv * r[3] + r[4] + (r[8] || 0);   // r[8]: punição/bônus; r[10]: linha parcial da fonte; tp: sem quem jogou e ficou fora da classificação
     document.getElementById('cp-ant').disabled = i === 0; document.getElementById('cp-prox').disabled = i === EDS.length - 1;
     document.getElementById('cp-titulo').textContent = anoT(e) + ' · ' + e.nome;
     document.getElementById('cp-cartoes').innerHTML = [
-      kpi(t.length, 'Clubes', 'na classificação final'),
+      kpi(t.length, 'Clubes', t.length > tp.length ? (t.length - tp.length) + ' sem posição na fonte' : 'na classificação final'),
       kpi(e.est, 'Estreantes', e.est === 1 ? 'clube pela 1ª vez' : 'clubes pela 1ª vez'),
-      e.j ? kpi(fmtN(e.j), 'Jogos', 'partidas disputadas') : kpi('—', 'Jogos', 'só a tabela final desta edição'),
-      kpi(e.j ? fmtN(e.g) : '—', 'Gols', 'marcados na edição'),
+      e.j ? kpi(fmtN(e.j), 'Jogos', e.inc ? 'registrados (a fonte não tem todos)' : 'partidas disputadas') : kpi('—', 'Jogos', 'só a tabela final desta edição'),
+      kpi(e.j ? fmtN(e.g) : '—', 'Gols', e.inc ? 'nos jogos registrados' : 'marcados na edição'),
       kpi(e.j ? dec(e.g / e.j) : '—', 'Gols por jogo', 'média da história: ' + dec(MEDIA)),
       g ? kpi(g.gm + ' × ' + g.gv, 'Maior goleada', esc(g.m) + ' × ' + esc(g.v)) : kpi('—', 'Maior goleada', 'sem jogos nesta edição'),
       e.mata ? kpi(e.disputa.length, e.disputa.length === 1 ? 'Fase' : 'Fases', 'na edição') : kpi(e.pv, 'Pontos por vitória', 'empate vale 1'),
@@ -1935,10 +1951,10 @@ function corridaPosicoes(id, medalhas) {
     const nota = document.getElementById('cp-nota'); nota.textContent = e.nota; nota.hidden = !e.nota;
     // pódio: 2º, 1º, 3º
     const cl = (r, k) => r ? '<div class="pd pd' + k + '">' + escudo(r[0]) + '<b>' + esc(r[0]) + '</b><small>' + (r[10] ? (r[9] != null ? r[9] + ' pontos' : '') : r[3] + ' V · ' + r[4] + ' E · ' + r[5] + ' D') + '</small><div class="degrau">' + k + 'º</div></div>' : '';
-    document.getElementById('cp-podio').innerHTML = '<div class="podio">' + cl(t[1], 2) + cl(t[0], 1) + cl(t[2], 3) + '</div>';
+    document.getElementById('cp-podio').innerHTML = '<div class="podio">' + cl(tp[1], 2) + cl(tp[0], 1) + cl(tp[2], 3) + '</div>';
     // classificação final
     const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos] = r, [J, V, E, D, GP, GC] = r[10] ? Array(6).fill('—') : r.slice(2, 8), sg = r[10] ? NaN : GP - GC;
-      return '<tr class="' + (pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + pos + 'º</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
+      return '<tr class="' + (pos != null && pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + (pos == null ? '—' : pos + 'º') + '</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
         (semPts(e) ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
         '<td class="' + (sg < 0 ? 'neg' : '') + '">' + (isNaN(sg) ? '—' : sinal(sg)) + '</td></tr>'; }).join('');
     document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (semPts(e) ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
@@ -2062,7 +2078,7 @@ function corridaPosicoes(id, medalhas) {
   let duA = null, duB = null;
   function duelo(e) {
     const t = e.tab, nomes = t.map(r => r[0]);
-    const opts = t.map((r, k) => '<option value="' + k + '">' + r[1] + 'º · ' + esc(r[0]) + '</option>').join('');
+    const opts = t.map((r, k) => '<option value="' + k + '">' + (r[1] == null ? '—' : r[1] + 'º') + ' · ' + esc(r[0]) + '</option>').join('');
     dlA.innerHTML = opts; dlB.innerHTML = opts;
     if (!nomes.includes(duA)) duA = nomes[0];
     if (!nomes.includes(duB) || duB === duA) duB = nomes.find(c => c !== duA);
@@ -2088,7 +2104,7 @@ function corridaPosicoes(id, medalhas) {
       : '<div class="dl-barra ' + lado + ' vazio"><span>não jogaram</span></div>';
     const linha = (k, rotulo) => { const kb = rotulo ? ia : k;   // "Entre eles": o lado de B é contra A
       return '<div class="dl-linha' + (rotulo ? ' dl-entre' : '') + '">' + barra('a', duA, rotulo ? duB : t[k][0], pa[k] || 0, ja[k], cA) +
-      '<div class="dl-adv">' + (rotulo ? '<b>' + rotulo + '</b>' : '<span class="n">' + t[k][1] + 'º</span>' + escP(t[k][0], true) + '<b>' + esc(t[k][0]) + '</b>') + '</div>' +
+      '<div class="dl-adv">' + (rotulo ? '<b>' + rotulo + '</b>' : '<span class="n">' + (t[k][1] == null ? '—' : t[k][1] + 'º') + '</span>' + escP(t[k][0], true) + '<b>' + esc(t[k][0]) + '</b>') + '</div>' +
       barra('b', duB, rotulo ? duA : t[k][0], pb[kb] || 0, jb[kb], cB) + '</div>'; };
     const comuns = advs.filter(k => ja[k] && jb[k]);
     const tA = comuns.reduce((s, k) => s + (pa[k] || 0), 0), tB = comuns.reduce((s, k) => s + (pb[k] || 0), 0);
