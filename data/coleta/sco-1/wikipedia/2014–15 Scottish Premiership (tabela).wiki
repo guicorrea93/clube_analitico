@@ -1,0 +1,54 @@
+{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[https://spfl.co.uk/league/premiership/archive/257 SPFL]
+
+|team1=CEL |team2=ABE |team3=INV |team4=STJ |team5=DUN |team6=DND |team7=HAM |team8=PAR |team9=ROS |team10=KIL |team11=MOT |team12=STM
+|result1=CL2Q |result2=EL1Q |result3=EL2Q |result4=EL1Q |result11=RPO |result12=rel
+
+|win_ABE=23 |draw_ABE=6  |loss_ABE=9  |gf_ABE=57 |ga_ABE=33
+|win_CEL=29 |draw_CEL=5  |loss_CEL=4  |gf_CEL=84 |ga_CEL=17
+|win_DND=11 |draw_DND=12 |loss_DND=15 |gf_DND=46 |ga_DND=57
+|win_DUN=17 |draw_DUN=5  |loss_DUN=16 |gf_DUN=58 |ga_DUN=56
+|win_HAM=15 |draw_HAM=8  |loss_HAM=15 |gf_HAM=50 |ga_HAM=53
+|win_INV=19 |draw_INV=8  |loss_INV=11 |gf_INV=52 |ga_INV=42
+|win_KIL=11 |draw_KIL=8  |loss_KIL=19 |gf_KIL=44 |ga_KIL=59
+|win_MOT=10 |draw_MOT=6  |loss_MOT=22 |gf_MOT=38 |ga_MOT=63
+|win_PAR=12 |draw_PAR=10  |loss_PAR=16 |gf_PAR=48 |ga_PAR=44
+|win_ROS=12 |draw_ROS=8  |loss_ROS=18 |gf_ROS=46 |ga_ROS=63
+|win_STJ=16 |draw_STJ=9  |loss_STJ=13 |gf_STJ=34 |ga_STJ=34
+|win_STM=9  |draw_STM=3  |loss_STM=26 |gf_STM=30 |ga_STM=66
+
+|name_ABE=[[Aberdeen F.C.|Aberdeen]]
+|name_CEL=[[Celtic F.C.|Celtic]]
+|name_DND=[[Dundee F.C.|Dundee]]
+|name_DUN=[[Dundee United F.C.|Dundee United]]
+|name_HAM=[[Hamilton Academical F.C.|Hamilton Academical]]
+|name_INV=[[Inverness Caledonian Thistle F.C.|Inverness Caledonian Thistle]]
+|name_KIL=[[Kilmarnock F.C.|Kilmarnock]]
+|name_MOT=[[Motherwell F.C.|Motherwell]]
+|name_PAR=[[Partick Thistle F.C.|Partick Thistle]]
+|name_ROS=[[Ross County F.C.|Ross County]]
+|name_STJ=[[St Johnstone F.C.|St Johnstone]]
+|name_STM=[[St Mirren F.C.|St Mirren]]
+
+<!-- Status -->
+|status_CEL=C
+|status_MOT=O
+|status_STM=R
+
+<!-- Split --->
+|split6=yes
+|note_DND=Teams in the bottom six at the time of the split (33 games) cannot pass teams in the top six
+
+|show_limit=5
+|class_rules = 1) points; 2) goal difference; 3) number of goals scored
+|res_col_header=QR
+|col_CL2Q=green1 |text_CL2Q=Qualification for the [[2015–16 UEFA Champions League#Second qualifying round|Champions League second qualifying round]]
+|col_EL2Q=blue1   |text_EL2Q=Qualification for the [[2015–16 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|note_res_EL2Q=Inverness Caledonian Thistle qualified for the second qualifying round of the UEFA Europa League by winning the [[2014–15 Scottish Cup]].
+|col_EL1Q=blue2   |text_EL1Q=Qualification for the [[2015–16 UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+|col_RPO=red2   |text_RPO=Qualification for the [[2014–15 Scottish Premiership#Premiership play-offs|Premiership play-off final]]
+|col_rel=red1   |text_rel=Relegation to the [[2015–16 Scottish Championship|Championship]]
+}}<noinclude>
+{{documentation}}
+</noinclude>

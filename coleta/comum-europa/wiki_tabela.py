@@ -88,3 +88,36 @@ def tabelas(texto: str) -> list[dict]:
                     "secao": limpar(params.get("section", "")),
                     "inicio": m.start()})
     return res
+
+
+def resultados(texto: str) -> list[dict]:
+    """Matrizes de resultados do módulo "Sports results" ({{#invoke:sports results|main ... |match_ABE_AIR=4–1 ...}}).
+
+    Cada matriz: {"nomes": {código: nome visível}, "jogos": {(código mandante, código visitante): [(g, g), ...]}}. Uma
+    célula pode trazer mais de um placar (ligas em que o par se enfrenta 3 ou 4 vezes); células vazias ou sem placar ficam
+    de fora.
+    """
+    res = []
+    for m in re.finditer(r"\{\{\s*#invoke:\s*sports results\s*\|", texto, flags=re.I):
+        fim = _fecha(texto, m.start())
+        corpo = re.sub(r"<!--.*?-->", "", texto[m.start() + 2:fim - 2], flags=re.S)
+        params: dict[str, str] = {}
+        for p in _partes(corpo)[1:]:
+            if "=" in p:
+                k, v = p.split("=", 1)
+                params[k.strip()] = v.strip()
+        nomes = {k[5:]: limpar(v) for k, v in params.items() if k.startswith("name_")}
+        for k, v in params.items():
+            if re.match(r"^team\d+$", k) and v.strip() not in nomes:
+                nomes[v.strip()] = v.strip()
+        jogos: dict[tuple, list] = {}
+        for k, v in params.items():
+            mm = re.match(r"^match_([^_]+)_([^_]+)$", k)
+            if not mm:
+                continue
+            placares = [(int(a), int(b)) for a, b in re.findall(r"(\d+)\s*[–-]\s*(\d+)", re.sub(r"<ref.*?(?:/>|</ref>)", "", v))]
+            if placares:
+                jogos[(mm.group(1), mm.group(2))] = placares
+        if jogos:
+            res.append({"nomes": nomes, "jogos": jogos})
+    return res

@@ -344,3 +344,79 @@ Para o agente 1 (banco e painel) e o agente de revisão.
 - Classificação final dessas edições: todos os participantes da fase final (e, se der, dos regionais), com o campeão oficial
   em 1º. Edições sem campeão (guerras) com campeao vazio e o motivo na observacao.
 - por-1 (AD Sanjoanense) e ned-1 recebidos: carrego agora.
+
+## Recado de fim de coleta — sco-1 — 22/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Escocês, a 1ª divisão de 1890/91 a 2025/26, sem 1939/40–1945/46 (guerra):
+   - 129 temporadas, 33.076 jogos, 46 clubes;
+   - 14.565 gols com autor e 19.812 cartões (ESPN, 2001/02+); estatísticas por time (football-data);
+   - artilheiros (RSSSF) em todas as temporadas;
+   - títulos: Celtic 56, Rangers 55 (54 + o dividido de 1890/91).
+
+   Fontes:
+   - **ogol:** base dos jogos e rodadas;
+   - **matriz de resultados da Wikipédia:** conferência jogo a jogo;
+   - **RSSSF:** tabelas finais (`scothist.html` até 1998/99, uma página por temporada depois), campeões e artilheiros;
+   - **engsoccerdata e football-data:** 1994/95+;
+   - **ESPN;**
+   - **Wikipédia:** tabela final e lista oficial de rebaixados.
+
+   Conferência:
+   - em 80 temporadas as duas tabelas publicadas fecham com os jogos;
+   - em 36, uma fecha e a outra tem erro de digitação;
+   - em 12, cada tabela erra em clubes diferentes e, em cada clube, a outra fecha;
+   - em 1, só há uma tabela, e ela fecha.
+2. **Commit:** a fazer, com o ok do Guilherme.
+3. **Teste de carga:** "129 edições, 33076 jogos, 46 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `sco-1`. País novo: Escócia, `SCO` (`paises.csv` do pacote);
+   - **título dividido em 1890/91:** Dumbarton e Rangers empataram no jogo de desempate (2-2). Na `classificacao_final` os
+     dois estão em 1º, com `situacao` = `campeao`; em `edicoes` o `campeao` é o Dumbarton e o `vice` o Rangers. Se o painel
+     conta títulos por `edicoes`, o Rangers fica com um a menos (54 em vez de 55): conte pela `classificacao_final` ou
+     trate essa edição;
+   - **o mesmo par joga 2, 3 ou 4 vezes por temporada;**
+   - **divisão em dois grupos depois da 33ª rodada (2000/01+):** é a mesma fase "Liga"; as rodadas 34 a 38 ficam só entre
+     os 6 de cima e os 6 de baixo. Na classificação rodada a rodada, o grupo de cima fica nas 6 primeiras posições;
+   - **rodada vazia em 7.583 jogos** (temporadas antigas sem rodadas fixas, como no Inglês): sem Corrida nesses anos;
+   - **2019/20 interrompida:** 179 jogos, ordem pela média de pontos por jogo;
+   - **1 jogo `awd`:** Aberdeen x Dunfermline, 1996/97, 3-0 administrativo;
+   - escudos: calendários do ogol em `data/cache/ogol-sco-1/`.
+5. **Decisões tomadas, com o motivo:**
+   - (a) sem as ligas de guerra (1939/40–1945/46), como no Inglês;
+   - (b) até 1920/21 ninguém é "rebaixado": os últimos pediam reeleição à liga. Quem saiu tem "não foi reeleito" na
+     observação, como no Stoke e no Darwen do Inglês;
+   - (c) o Rangers é um clube só, também depois de 2012;
+   - (d) o Clydebank de 1914–1931 e o de 1965–2002 são clubes diferentes;
+   - (e) correções do ogol:
+     - 10 placares trocados pelo da matriz da Wikipédia quando as tabelas fecham melhor (lista no relatório, com o motivo);
+     - 4 mandos invertidos;
+     - Airdrieonians 11-1 Falkirk (28/04/1951): o ogol e a matriz trazem 1-1, mas as duas tabelas e o próprio Falkirk
+       (maior derrota da sua história) dão 11-1;
+     - 1 jogo acrescentado em 2015/16;
+   - (f) os jogos de desempate pelo título (1890/91, 1904/05) e os play-offs de rebaixamento ficam de fora.
+
+   Nada espera o Guilherme.
+6. **O que não deu para coletar:**
+   - autores dos gols antes da ESPN (2001/02): jogo a jogo, pela ficha do ogol;
+   - rodada nas temporadas antigas sem rodadas fixas.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 12 temporadas em que as duas tabelas erram em clubes diferentes (1903/04, 1904/05, 1907/08, 1919/20, 1920/21,
+     1925/26, 1926/27, 1928/29, 1933/34, 1947/48, 1961/62 e 1970/71), com uma terceira fonte (fitbastats.com,
+     statto.com);
+   - os 10 placares corrigidos pela matriz da Wikipédia;
+   - o título dividido de 1890/91;
+   - a identidade Rangers/Clydebank.
+8. **Próxima tarefa:** eras antigas no mesmo slug, Holanda (1888/89–1955/56) e Alemanha (1902/03–1962/63); depois `bel-1` e
+   `tur-1`.
+
+
+## Revisão profunda (22/11/2026)
+
+- **80 ids abertos** para a coleta Europa; **11 altos**; **2 no ar** (IT-002 no Italiano e QE-002 no Espanhol).
+- Competições: Francês 22, Português 19, Italiano 15, Alemão 14, Inglês 5, Espanhol 4, e 1 que vale para Inglês e
+  Espanhol.
+- Plano pronto, em ordem e por arquivo do código: `docs/revisao/plano-coleta-europa.md`. Começar só quando o Guilherme
+  mandar.
+- Decisões que esperam o Guilherme: `docs/revisao/decisoes-guilherme.md`. Fontes: `docs/revisao/fontes.md`.

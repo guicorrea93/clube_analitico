@@ -13,6 +13,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Francês | 88 (1932/33–2025/26) | 30466 | 22613 | 35434 | 76 | 156 / 18 | 2 | [fra-1](fra-1.md) |
 | Campeonato Português | 92 (1934/35–2025/26) | 20978 | 13874 | 30915 | 73 | 175 / 9 | 2 | [por-1](por-1.md) |
 | Campeonato Holandês | 70 (1956/57–2025/26) | 21082 | 23019 | 24431 | 54 | 140 / 0 | 3 | [ned-1](ned-1.md) |
+| Campeonato Escocês | 129 (1890/91–2025/26) | 33076 | 14565 | 19812 | 46 | 197 / 60 | 3 | [sco-1](sco-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -20,14 +21,17 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 - **eng-1:** Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).
 - **esp-1:** Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).
 - **ita-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
-- **ger-1:** Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): ficou de fora; seria outra competição ou uma decisão do Guilherme.
+- **ger-1:** Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): o Guilherme decidiu incluir no mesmo ger-1 (22/11), depois da sco-1.
 - **fra-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
 - **fra-1:** Datas dos 356 jogos dos anos 1930 que nenhuma fonte tem.
 - **por-1:** Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).
 - **por-1:** Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a situação de hoje (absolvição em 2017), tirar o desconto em importar.py.
-- **ned-1:** Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse profissional): ficaram de fora; incluir é decisão do Guilherme (o ogol tem os calendários desde 1888/89).
+- **ned-1:** Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse profissional): o Guilherme decidiu incluir no mesmo ned-1 (22/11), depois da sco-1 (o ogol tem os calendários).
 - **ned-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
 - **ned-1:** Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a revisão conferir.
+- **sco-1:** Autores dos gols e cartões antes da ESPN (2001/02): jogo a jogo (ficha do ogol).
+- **sco-1:** Rodada vazia até os anos 1930 em várias temporadas: não havia rodadas fixas (como no Inglês) e o ogol não traz.
+- **sco-1:** Temporadas em que as duas tabelas publicadas erram em clubes diferentes: o ogol fecha com uma delas em cada clube; a revisão pode conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).
 
 ## Próximas ligas
 

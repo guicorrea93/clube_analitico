@@ -53,6 +53,18 @@ depois de toda importação e mantenha à mão só a lista `PENDENCIAS`, no come
 
 - **Prioridade agora é coletar ligas novas, na ordem:** `ned-1` (Holanda), `sco-1` (Escócia), `bel-1` (Bélgica) e
   `tur-1` (Turquia). O ok para a `ned-1` está dado.
+- **Ordem atualizada (decisão do Guilherme, 22/11/2026):**
+  1. `sco-1` (Escócia);
+  2. eras antigas no mesmo slug: Holanda 1888/89–1955/56 (`ned-1`) e Alemanha 1902/03–1962/63 (`ger-1`), com os títulos
+     oficiais;
+  3. `bel-1` (Bélgica);
+  4. `tur-1` (Turquia).
+- **Como fazer as eras antigas:**
+  - o painel aceita fases regionais + fase final, edição sem jogos e tabela parcial (colunas vazias, posição repetida,
+    como no `bra-sp-2` e no `par-1`);
+  - a classificação final traz todos os participantes da fase final (e, se der, dos regionais), com o campeão oficial em
+    1º;
+  - edição sem campeão (guerra) fica com `campeao` vazio e o motivo na `observacao`.
 - **Não trate agora achados da revisão nem pendências antigas.** O agente de revisão está fazendo uma revisão profunda e
   vai deixar um plano em `docs/revisao/plano-coleta-europa.md`. Siga esse plano quando o Guilherme disser que é hora.
 - **A qualidade das ligas novas não muda:**
@@ -85,6 +97,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
 | `ned-1` Holandês (Eredivisie) | 70 (1956/57–2025/26) | 21.082 | 23.019 | 24.431 | 54 | c5947df |
+| `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -109,9 +122,8 @@ Alemão e Francês (com 2025/26) e carregar o Português já estão lá.
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
    `coleta-europa`).
-2. **Próxima liga: `sco-1` (Escócia)**, depois `bel-1` (Bélgica) e `tur-1` (Turquia), na ordem da seção 1.1;
-   confirme o ok do Guilherme antes de começar cada uma. Fontes a ver: engsoccerdata (`scotland.csv`?), football-data (`SC0.csv`), ESPN (`sco.1`), RSSSF e o código da
-   competição no ogol (seção 4).
+2. **Próximas, na ordem da seção 1.1:** eras antigas da Holanda (1888/89–1955/56) e da Alemanha (1902/03–1962/63); `bel-1`;
+   `tur-1`. A RSSSF e a Wikipédia das eras antigas já foram baixadas (`baixar.py antigo`, em `ned-1` e `ger-1`).
 3. **Ficar de olho em `docs/coleta/pedidos-europa.md`:** respostas do agente 1 e pedidos novos da revisão.
 
 ## 4. Como fazer uma liga nova
@@ -143,7 +155,7 @@ Código comum em `coleta/comum-europa/`:
 | `testar_carga.py` | teste de carga numa cópia do banco |
 
 Códigos das competições no ogol: `premier-league` (Inglaterra, desde 1888), `campeonato-espanhol`, `campeonato-italiano`,
-`bundesliga`, `campeonato-frances`, `campeonato-portugues`, `campeonato-holandes` (desde 1888/89). Para achar um novo, teste
+`bundesliga`, `campeonato-frances`, `campeonato-portugues`, `campeonato-holandes` (desde 1888/89), `liga-escocesa` (desde 1890/91). Para achar um novo, teste
 `ogol.edicoes("<slug>", cache)` com nomes prováveis e fique com o que lista todas as temporadas.
 
 Passos de uma liga:
@@ -210,6 +222,19 @@ Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`.
 - Em temporada cancelada traz jogos adiados ("ADI") e anulados ("ANU"), sem placar: descarte.
 - Às vezes põe o antecessor de um clube formado por fusão na ficha do sucessor (Rapid JC no Roda JC, Alkmaar '54 no AZ):
   o `OGOL` do cadastro aceita uma faixa de anos por código (`clubes_ned.py`).
+
+**Escócia, o que serve para outras ligas:**
+- **Par que se repete:** o mesmo par joga 2, 3 ou 4 vezes por temporada. As outras fontes são casadas pelo par e pela data
+  mais próxima (`casar` em `coleta/sco-1/importar.py`); se só sobra um jogo do par, aceita a data diferente (jogo adiado).
+- **Mando invertido no ogol:** quando outra fonte traz o par ao contrário na mesma data e com o mesmo placar, o mando é
+  corrigido (`inverter`).
+- **Matriz de resultados da Wikipédia** (`wiki_tabela.resultados`): conferência jogo a jogo. Um placar do ogol só é trocado
+  pelo da matriz quando as tabelas publicadas fecham melhor com ele (um por um e, se preciso, em combinação de até 4).
+- **Divisão em dois grupos depois da 33ª rodada** (2000/01+): na classificação rodada a rodada, o grupo de cima fica nas 6
+  primeiras posições; o desempate é testado dentro de cada grupo.
+- **RSSSF com erros de leitura óptica** ("l8", "lo", "Z,"): normalizados no leitor (`rsssf_sco.texto`).
+- **Velocidade do ogol:** com várias frentes em faixas sem sobreposição, de ~5 para ~50 páginas por minuto (recado ao
+  agente do Brasil).
 
 **Wikipédia, rebaixados:** a caixa de resumo do artigo ("| relegated = ...") traz a lista oficial e explica fusões e
 falências. É melhor que as cores da tabela; o Holandês confere com ela. A punição às vezes vem em `startpoints_X`, e não

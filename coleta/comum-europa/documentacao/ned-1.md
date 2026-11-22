@@ -144,7 +144,7 @@ Registradas em `coleta/ned-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
-- Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse profissional): ficaram de fora; incluir é decisão do Guilherme (o ogol tem os calendários desde 1888/89).
+- Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse profissional): o Guilherme decidiu incluir no mesmo ned-1 (22/11), depois da sco-1 (o ogol tem os calendários).
 - Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
 - Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a revisão conferir.
 

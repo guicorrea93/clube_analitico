@@ -1,0 +1,65 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[http://spfl.co.uk/premiership/table Scottish Premiership], [https://www.soccerway.com/scotland/premiership-2016-2017/results/ Soccerway]
+
+<!--Update team positions here-->
+|team1=CEL |team2=ABE |team3=RAN |team4=STJ |team5=HOM |team6=PAR |team7=ROS |team8=KIL |team9=MOT |team10=DND |team11=HAM |team12=INV
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL2Q |result2=EL2Q |result3=EL1Q |result4=EL1Q |result11=RPO |result12=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|win_ABE=24|draw_ABE=4 |loss_ABE=10|gf_ABE=74|ga_ABE=35<!-- Aberdeen -->
+|win_CEL=34|draw_CEL=4 |loss_CEL=0 |gf_CEL=106|ga_CEL=25<!-- Celtic -->
+|win_DND=10|draw_DND=7 |loss_DND=21|gf_DND=38|ga_DND=62<!-- Dundee -->
+|win_HAM=7 |draw_HAM=14|loss_HAM=17|gf_HAM=37|ga_HAM=56<!-- Hamilton Academical -->
+|win_HOM=12|draw_HOM=10|loss_HOM=16|gf_HOM=55|ga_HOM=52<!-- Heart of Midlothian -->
+|win_INV=7 |draw_INV=13|loss_INV=18|gf_INV=44|ga_INV=71<!-- Inverness CT -->
+|win_KIL=9 |draw_KIL=14|loss_KIL=15|gf_KIL=36|ga_KIL=56<!-- Kilmarnock -->
+|win_MOT=10|draw_MOT=8 |loss_MOT=20|gf_MOT=46|ga_MOT=69<!-- Motherwell -->
+|win_PAR=10|draw_PAR=12|loss_PAR=16|gf_PAR=38|ga_PAR=54<!-- Partick Thistle -->
+|win_RAN=19|draw_RAN=10|loss_RAN=9 |gf_RAN=56|ga_RAN=44<!-- Rangers -->
+|win_ROS=11|draw_ROS=13|loss_ROS=14|gf_ROS=48|ga_ROS=58<!-- Ross County -->
+|win_STJ=17|draw_STJ=7 |loss_STJ=14|gf_STJ=50|ga_STJ=46<!-- St Johnstone -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ABE=[[Aberdeen F.C.|Aberdeen]]
+|name_CEL=[[Celtic F.C.|Celtic]]
+|name_DND=[[Dundee F.C.|Dundee]]
+|name_HAM=[[Hamilton Academical F.C.|Hamilton Academical]]
+|name_HOM=[[Heart of Midlothian F.C.|Heart of Midlothian]]
+|name_INV=[[Inverness Caledonian Thistle F.C.|Inverness Caledonian Thistle]]
+|name_KIL=[[Kilmarnock F.C.|Kilmarnock]]
+|name_MOT=[[Motherwell F.C.|Motherwell]]
+|name_PAR=[[Partick Thistle F.C.|Partick Thistle]]
+|name_RAN=[[Rangers F.C.|Rangers]]
+|name_ROS=[[Ross County F.C.|Ross County]]
+|name_STJ=[[St Johnstone F.C.|St Johnstone]]
+
+<!-- Split --->
+|split6=yes
+|note_header_res=Teams played each other three times (33 matches), before the league split into two groups (the top six and the bottom six) for the last five matches.
+
+<!--Team status-->
+|status_CEL=C
+|status_HAM=O
+|status_INV=R
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Play-off (only if deciding champion, UEFA competitions qualification and second stage group allocation).<ref>{{cite web |url=http://www.scoresway.com/?sport=soccer&page=season&id=12610&view=rules |title=Premiership 2016/2017 - Season rules |publisher=Scoresway |access-date=1 September 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CL2Q=green1 |text_CL2Q={{nowrap|Qualification for the [[2017–18 UEFA Champions League#Second qualifying round|Champions League second qualifying round]]}}
+|col_EL2Q=blue1  |text_EL2Q=Qualification for the [[2017–18 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_EL1Q=blue2  |text_EL1Q=Qualification for the [[2017–18 UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+|col_RPO=red2    |text_RPO=Qualification for the [[2016–17 Scottish Premiership#Premiership play-offs|Premiership play-off final]]
+|col_REL=red1    |text_REL=Relegation to the [[2017–18 Scottish Championship|Scottish Championship]]
+
+|note_res_CL2Q=Since the winners of the [[2016–17 Scottish Cup]], [[Celtic F.C.|Celtic]], qualified for European competition based on league position, the spot awarded to the Scottish cup winners ([[2017–18 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]) was passed to the second-placed team and the spot awarded to the second-placed team ([[2017–18 UEFA Europa League#First qualifying round|Europa League first qualifying round]]) was passed to the fourth-placed team.
+}}<noinclude>
+{{Template reference list}}
+[[Category:Scotland football league tables]]
+</noinclude>

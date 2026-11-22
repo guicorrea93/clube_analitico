@@ -129,7 +129,7 @@ Registradas em `coleta/ger-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
-- Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): ficou de fora; seria outra competição ou uma decisão do Guilherme.
+- Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): o Guilherme decidiu incluir no mesmo ger-1 (22/11), depois da sco-1.
 
 ## 10. Arquivos
 

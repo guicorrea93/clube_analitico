@@ -1,0 +1,66 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[https://www.soccerway.com/scotland/premiership-2017-2018/results/ Soccerway] [https://www.bbc.co.uk/sport/football/scottish-premiership/table BBC] 
+
+<!--Update team positions here-->
+|team1=CEL |team2=ABE |team3=RAN |team4=HIB |team5=KIL |team6=HOM |team7=MOT |team8=STJ |team9=DND |team10=HAM |team11=PAR |team12=ROS
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL2Q |result2=EL2Q |result3=EL1Q |result4=EL1Q |result11=RPO |result12=REL
+
+<!--Update team results here and then (if needed) positions above. Dont forget to update the date (update parameter)-->
+|win_ABE=22 |draw_ABE=7  |loss_ABE=9  |gf_ABE=56 |ga_ABE=37 <!--Aberdeen-->
+|win_CEL=24 |draw_CEL=10 |loss_CEL=4  |gf_CEL=73 |ga_CEL=25 <!--Celtic-->
+|win_DND=11 |draw_DND=6  |loss_DND=21 |gf_DND=36 |ga_DND=57 <!--Dundee-->
+|win_HAM=9  |draw_HAM=6  |loss_HAM=23 |gf_HAM=47 |ga_HAM=68 <!--Hamilton Academical-->
+|win_HOM=12 |draw_HOM=13 |loss_HOM=13 |gf_HOM=39 |ga_HOM=39 <!--Hearts-->
+|win_HIB=18 |draw_HIB=13 |loss_HIB=7  |gf_HIB=62 |ga_HIB=46 <!--Hibernian-->
+|win_KIL=16 |draw_KIL=11 |loss_KIL=11 |gf_KIL=49 |ga_KIL=47 <!--Kilmarnock-->
+|win_MOT=13 |draw_MOT=9  |loss_MOT=16 |gf_MOT=43 |ga_MOT=49 <!--Motherwell-->
+|win_PAR=8  |draw_PAR=9  |loss_PAR=21 |gf_PAR=31 |ga_PAR=61 <!--Partick Thistle-->
+|win_RAN=21 |draw_RAN=7  |loss_RAN=10 |gf_RAN=76 |ga_RAN=50 <!--Rangers-->
+|win_ROS=6  |draw_ROS=11 |loss_ROS=21 |gf_ROS=40 |ga_ROS=62 <!--Ross County-->
+|win_STJ=12 |draw_STJ=10 |loss_STJ=16 |gf_STJ=42 |ga_STJ=53 <!--St Johnstone -->
+
+<!--Status-->
+|status_CEL=C
+|status_PAR=R
+|status_ROS=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ABE=[[Aberdeen F.C.|Aberdeen]]
+|name_CEL=[[Celtic F.C.|Celtic]]
+|name_DND=[[Dundee F.C.|Dundee]]
+|name_HAM=[[Hamilton Academical F.C.|Hamilton Academical]]
+|name_HOM=[[Heart of Midlothian F.C.|Heart of Midlothian]]
+|name_HIB=[[Hibernian F.C.|Hibernian]]
+|name_KIL=[[Kilmarnock F.C.|Kilmarnock]]
+|name_MOT=[[Motherwell F.C.|Motherwell]]
+|name_PAR=[[Partick Thistle F.C.|Partick Thistle]]
+|name_RAN=[[Rangers F.C.|Rangers]]
+|name_ROS=[[Ross County F.C.|Ross County]]
+|name_STJ=[[St Johnstone F.C.|St Johnstone]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Goal difference; 3) Goals scored; 4) Play-off (only if deciding champion, UEFA competitions qualification and second-stage group allocation).<ref>{{cite web |url=http://www.scoresway.com/?sport=soccer&page=season&id=14016&view=rules |title=Premiership 2017/2018 - Season rules |publisher=Scoresway |access-date=1 June 2017}}</ref>
+
+<!-- Split --->
+|split6=yes
+|note_header_res=Teams play each other three times (33 matches) before the league is split into two groups (the top six and the bottom six).
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CL2Q=green1 |text_CL2Q=Qualification for the [[2018–19 UEFA Champions League#First qualifying round|Champions League first qualifying round]]
+|col_EL2Q=blue1  |text_EL2Q=Qualification for the [[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_EL1Q=blue2  |text_EL1Q=Qualification for the [[2018–19 UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+|col_RPO=red2    |text_RPO=Qualification for the [[2017–18 Scottish Premiership#Premiership play-offs|Premiership play-off final]]
+|col_REL=red1    |text_REL=Relegation to the [[2018–19 Scottish Championship|Championship]]
+
+|note_res_CL2Q=Since the winners of the [[2017–18 Scottish Cup]], [[Celtic F.C.|Celtic]], qualified for European competition based on league position, the spot awarded to the Scottish Cup winners ([[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]) was passed to the second-placed team and the spot awarded to the second-placed team ([[2018–19 UEFA Europa League#First qualifying round|Europa League first qualifying round]]) was passed to the fourth-placed team.
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Scotland football league tables]]
+</noinclude>

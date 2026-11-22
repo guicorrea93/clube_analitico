@@ -23,7 +23,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -39,8 +39,8 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
     ],
     "ger-1": [
-        "Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): ficou de fora; seria outra "
-        "competição ou uma decisão do Guilherme.",
+        "Campeonato alemão antes da Bundesliga (1902/03 a 1962/63: ligas regionais e fase final): o Guilherme decidiu incluir "
+        "no mesmo ger-1 (22/11), depois da sco-1.",
     ],
     "fra-1": [
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
@@ -51,9 +51,15 @@ PENDENCIAS: dict[str, list[str]] = {
         "Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a "
         "situação de hoje (absolvição em 2017), tirar o desconto em importar.py.",
     ],
+    "sco-1": [
+        "Autores dos gols e cartões antes da ESPN (2001/02): jogo a jogo (ficha do ogol).",
+        "Rodada vazia até os anos 1930 em várias temporadas: não havia rodadas fixas (como no Inglês) e o ogol não traz.",
+        "Temporadas em que as duas tabelas publicadas erram em clubes diferentes: o ogol fecha com uma delas em cada clube; a "
+        "revisão pode conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).",
+    ],
     "ned-1": [
         "Campeonatos holandeses de antes da Eredivisie (1888/89-1955/56: ligas regionais com fase final e a Hoofdklasse "
-        "profissional): ficaram de fora; incluir é decisão do Guilherme (o ogol tem os calendários desde 1888/89).",
+        "profissional): o Guilherme decidiu incluir no mesmo ned-1 (22/11), depois da sco-1 (o ogol tem os calendários).",
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
         "Identidade de clubes em fusões (GVAV x FC Groningen, SC Enschede x FC Twente, Rapid JC x Roda JC, Alkmaar '54 x AZ, "
         "BVV x FC Den Bosch): separados como clubes diferentes, contra o ogol, que junta alguns na ficha do sucessor; vale a "
