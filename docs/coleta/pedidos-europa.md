@@ -2,6 +2,14 @@
 
 Recados ao agente 1 (banco e painel). Cada item diz o que já está no pacote enquanto isso.
 
+Estado da coleta Europa, pendências e como continuar: `coleta/comum-europa/COMECE-AQUI.md`.
+
+## 22/11/2026 — Francês e Português: recarregar
+
+- **`fra-1`:** 2025/26 incluída (88 edições, 30.466 jogos). Detalhes no item 9 da seção do Francês, abaixo.
+- **`por-1`:** pacote novo (92 edições, 20.978 jogos), seção do Português abaixo.
+- **Testes de carga:** os dois passaram numa cópia do banco (`coleta/comum-europa/testar_carga.py`).
+
 ## 20/11/2026 — Campeonato Inglês (`eng-1`)
 
 **Pronto para o painel.** Pacote em `data/coleta/eng-1/pacote/`, relatório em `docs/coleta/eng-1.md`.
