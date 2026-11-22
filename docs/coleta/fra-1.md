@@ -2,12 +2,12 @@
 
 Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacote/`.
 
-**Edições:** 87, de 1932/33 a 2024/25 (Division 1 até 2001/02, Ligue 1 depois). Sem 1939/40-1944/45 (campeonatos de guerra, não reconhecidos).
+**Edições:** 88, de 1932/33 a 2025/26 (Division 1 até 2001/02, Ligue 1 depois). Sem 1939/40-1944/45 (campeonatos de guerra, não reconhecidos).
 
-**Total:** 30160 jogos, 83960 gols, 21750 gols com autor (ESPN), 34173 cartões, 76 clubes.
+**Total:** 30466 jogos, 84823 gols, 22613 gols com autor (ESPN), 35434 cartões, 76 clubes.
 
 **Fontes:**
-- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1932/33-2024/25, menos 1937/38 e 1994/95 (que vêm do ogol) e 1932/33 (errada);
+- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1932/33-2024/25, menos 1937/38, 1994/95 e 2025/26 (que vêm do ogol) e 1932/33 (errada);
 - football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time;
 - ogol: rodada oficial de cada jogo e conferência de placar; completa as temporadas em que a base falha; calendários guardados em `data/cache/ogol-fra-1/` para os escudos;
 - ESPN (liga `fra.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
@@ -16,7 +16,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Paris). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1993/94 (menos 1988/89, que teve 3), 3 a partir de 1994/95 (de 1973/74 a 1975/76, 1 ponto a mais para quem marcava 3 gols ou mais no jogo). Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 8, saldo de gols em 72, média de gols em 7); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 9, saldo de gols em 72, média de gols em 7); é ele que ordena a classificação rodada a rodada.
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
@@ -107,6 +107,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 | 2022/23 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1067 | 1067 | 2 / 0 | PSG | — |
 | 2023/24 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 826 | 824 | 2 / 0 | PSG | Montpellier -1 pontos |
 | 2024/25 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 911 | 911 | 2 / 0 | PSG | — |
+| 2025/26 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 (306) | 863 | 863 | 2 / 0 | PSG | — |
 
 ## Conferência e ocorrências, temporada a temporada
 
@@ -1350,6 +1351,13 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 ### 2024/25
 
 - sem ocorrências
+
+### 2025/26
+
+- o engsoccerdata não traz esta temporada
+- a base não fecha nesta temporada (0 jogos): montada pelo calendário do ogol (306 jogos), com 0 jogos da base
+- 306 jogos só no ogol, que entram com o placar do ogol: Stade Rennes 1-0 Olympique Marseille (2025-08-15); RC Lens 0-1 Olympique Lyon (2025-08-16); AS Monaco 3-1 Le Havre AC (2025-08-16); OGC Nice 0-1 Toulouse FC (2025-08-16); Stade Brest 3-3 Lille OSC (2025-08-17); AJ Auxerre 1-0 FC Lorient (2025-08-17) ...
+- ESPN com 305 de 306 jogos (ex. sem ESPN: FC Nantes x Toulouse FC, 2026-05-17)
 
 ## Identidade dos clubes
 

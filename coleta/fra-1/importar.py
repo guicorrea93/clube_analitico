@@ -1,4 +1,4 @@
-"""Monta o pacote da 1ª divisão francesa (fra-1), 1932/33 a 2024/25, e o relatório docs/coleta/fra-1.md.
+"""Monta o pacote da 1ª divisão francesa (fra-1), 1932/33 a 2025/26, e o relatório docs/coleta/fra-1.md.
 
 Base dos jogos: engsoccerdata. Cada jogo é casado pelo par mandante x visitante, que é único na fase (turno e
 returno), com:
@@ -179,7 +179,7 @@ def carregar_base() -> dict[int, list[dict]]:
 
 def carregar_fd() -> dict[int, dict]:
     res = {}
-    for a in range(1993, 2025):
+    for a in range(1993, 2026):
         cod = f"{str(a)[-2:]}{str(a + 1)[-2:]}"
         jogos = {}
         for x in ler_csv(DADOS / "football-data" / f"F1_{cod}.csv"):
@@ -233,7 +233,7 @@ def carregar_ogol() -> dict[int, list[dict]]:
 
 def carregar_espn() -> dict[int, list[dict]]:
     res = {}
-    for a in range(2001, 2025):
+    for a in range(2001, 2026):
         arq = DADOS / "espn" / f"fra1_{a}.json"
         if not arq.exists():
             continue
@@ -648,7 +648,9 @@ def main() -> None:
         es_ok = 0
         cand = defaultdict(list)
         for e in espn.get(a, []):
-            m, v = mapa_espn.get(e["mandante_id"], a), mapa_espn.get(e["visitante_id"], a)
+            # clube sem voto (temporada montada pelo ogol, como o Paris FC em 2025/26): pelo nome da ESPN
+            m = mapa_espn.get(e["mandante_id"], a) or clubes.esd(e["mandante"], a)
+            v = mapa_espn.get(e["visitante_id"], a) or clubes.esd(e["visitante"], a)
             if ("Liga", m, v) not in por_par:
                 ocorr[a].append(f"jogo da ESPN sem par na base: {e['mandante']} {e['gm']}-{e['gv']} {e['visitante']} ({e['data']})")
                 continue
@@ -826,7 +828,7 @@ def main() -> None:
         else:
             ordem_final, calc_final = ordem, ref
 
-        # rebaixados: quem não está na 1ª divisão no ano seguinte (2024/25: marca da Wikipédia)
+        # rebaixados: quem não está na 1ª divisão no ano seguinte (última temporada: marca da Wikipédia)
         prox = next((b for b in TEMPORADAS if b > a), None)
         if prox is not None:
             prox_clubes = {j["m"] for j in base[prox]} | {j["v"] for j in base[prox]}
@@ -835,7 +837,10 @@ def main() -> None:
             rebaixados = {c for c in clubes_ano if c not in prox_clubes}
         else:
             textos = {k[5:]: limpar(v) for k, v in w["params"].items() if k.startswith("text_")}
-            rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()}
+            # a marca do play-off ("Qualification for the relegation play-offs") não é rebaixamento: em 2025/26 o Nice, 16º,
+            # venceu o Saint-Étienne (0-0 e 4-1) e ficou
+            rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()
+                          and "play-off" not in textos.get(x["resultado"], "").lower()}
         campeao, vice = ordem_final[0], ordem_final[1]
         sem_titulo = a in camp_wiki and camp_wiki[a] is None
         if sem_titulo:
@@ -1028,12 +1033,12 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
     out = [
         "# Campeonato Francês (1ª divisão) — coleta de dados", "",
         "Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacote/`.", "",
-        f"**Edições:** {len(linhas)}, de 1932/33 a 2024/25 (Division 1 até 2001/02, Ligue 1 depois). Sem 1939/40-1944/45 "
+        f"**Edições:** {len(linhas)}, de 1932/33 a 2025/26 (Division 1 até 2001/02, Ligue 1 depois). Sem 1939/40-1944/45 "
         "(campeonatos de guerra, não reconhecidos).", "",
         f"**Total:** {jogos} jogos, {gols} gols, {len(tab['gols'])} gols com autor (ESPN), {len(tab['cartoes'])} cartões, "
         f"{len(tab['clubes'])} clubes.", "",
         "**Fontes:**",
-        "- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1932/33-2024/25, menos 1937/38 e 1994/95 (que vêm do ogol) e 1932/33 (errada);",
+        "- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1932/33-2024/25, menos 1937/38, 1994/95 e 2025/26 (que vêm do ogol) e 1932/33 (errada);",
         "- football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time;",
         "- ogol: rodada oficial de cada jogo e conferência de placar; completa as temporadas em que a base falha; calendários "
         "guardados em `data/cache/ogol-fra-1/` para os escudos;",

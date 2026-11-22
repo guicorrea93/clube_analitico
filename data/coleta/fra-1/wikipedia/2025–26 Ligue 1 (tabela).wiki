@@ -1,0 +1,78 @@
+<noinclude>{{main|2025–26 Ligue 1}}'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://ligue1.com/en/competitions/ligue1mcdonalds/standings Ligue 1]
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLLS |result2=CLLS |result3=CLLS |result4=CL3Q |result5=ELLS |result6=ELLS |result7=ECLPO |result16=RPO |result17=REL |result18=REL 
+
+<!--Update team positions here-->
+|team_order= PSG, LEN, LIL, OL, OM, REN, ASM, STR, TFC, LOR, PFC, BRE, ANG, LEH, AUX, NIC, NAN, MET
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter).-->
+|update=complete 
+|win_ANG=9 |draw_ANG=9 |loss_ANG=16|gf_ANG=29|ga_ANG=48 <!--Angers-->
+|win_AUX=8 |draw_AUX=10|loss_AUX=16|gf_AUX=34|ga_AUX=44 <!--Auxerre-->
+|win_BRE=10|draw_BRE=9 |loss_BRE=15|gf_BRE=43|ga_BRE=55 <!--Brest-->
+|win_LEH=7 |draw_LEH=14|loss_LEH=13|gf_LEH=32|ga_LEH=44 <!--Le Havre-->
+|win_LEN=22|draw_LEN=4 |loss_LEN=8 |gf_LEN=66|ga_LEN=35 <!--Lens-->
+|win_LIL=18|draw_LIL=7 |loss_LIL=9 |gf_LIL=52|ga_LIL=37 <!--Lille-->
+|win_LOR=11|draw_LOR=12|loss_LOR=11|gf_LOR=48|ga_LOR=51 <!--Lorient-->
+|win_OL=18 |draw_OL=6  |loss_OL=10 |gf_OL=53 |ga_OL=40  <!--Lyon-->
+|win_OM=18 |draw_OM=5  |loss_OM=11 |gf_OM=63 |ga_OM=45  <!--Marseille-->
+|win_MET=3 |draw_MET=8 |loss_MET=23|gf_MET=32|ga_MET=76 <!--Metz-->
+|win_ASM=16|draw_ASM=6 |loss_ASM=12|gf_ASM=60|ga_ASM=54 <!--Monaco-->
+|win_NAN=5 |draw_NAN=9 |loss_NAN=20|gf_NAN=29|ga_NAN=52 <!--Nantes-->
+|win_NIC=7 |draw_NIC=11|loss_NIC=16|gf_NIC=37|ga_NIC=60 <!--Nice-->
+|win_PFC=11|draw_PFC=11|loss_PFC=12|gf_PFC=47|ga_PFC=50 <!--Paris FC-->
+|win_PSG=24|draw_PSG=4 |loss_PSG=6 |gf_PSG=74|ga_PSG=29 <!--Paris Saint-Germain-->
+|win_REN=17|draw_REN=8 |loss_REN=9 |gf_REN=59|ga_REN=50 <!--Rennes-->
+|win_STR=15|draw_STR=8 |loss_STR=11|gf_STR=58|ga_STR=47 <!--Strasbourg-->
+|win_TFC=12|draw_TFC=9 |loss_TFC=13|gf_TFC=47|ga_TFC=46 <!--Toulouse-->
+
+<!--Status-->
+|status_PSG=C
+|status_NIC=O
+|status_NAN=R
+|status_MET=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ANG = [[Angers SCO|Angers]]
+|name_AUX = [[AJ Auxerre|Auxerre]]
+|name_BRE = [[Stade Brestois 29|Brest]]
+|name_LEH = [[Le Havre AC|Le Havre]]
+|name_LEN = [[RC Lens|Lens]]
+|name_LIL = [[Lille OSC|Lille]]
+|name_LOR = [[FC Lorient|Lorient]]
+|name_OL  = [[Olympique Lyonnais|Lyon]]
+|name_OM  = [[Olympique de Marseille|Marseille]]
+|name_MET = [[FC Metz|Metz]]
+|name_ASM = [[AS Monaco FC|Monaco]]
+|name_NAN = [[FC Nantes|Nantes]]
+|name_NIC = [[OGC Nice|Nice]]
+|name_PFC = [[Paris FC]]
+|name_PSG = [[Paris Saint-Germain FC|Paris Saint-Germain]]
+|name_REN = [[Stade Rennais FC|Rennes]]
+|name_STR = [[RC Strasbourg Alsace|Strasbourg]]
+|name_TFC = [[Toulouse FC|Toulouse]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Goal difference; 3) Head-to-head points; 4) Head-to-head goal difference; 5) Head-to-head goals scored; 6) Head-to-head away goals scored; 7) Goals scored; 8) Away goals scored; 9) Fair-play points (Note: Head-to-head record is used only after all the matches between the teams in question have been played).<ref>{{cite web|url=https://www.lfp.fr/-/media/Project/LFP/LFP/Documents/R%C3%A8glements/22-23-Reglement-Championnats-France-04-07.pdf?la=fr-FR&hash=1C727C835DCAE265D2A3182B45CAE2EE|title=League Rules|website=www.lfp.fr|access-date=1 September 2022}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLLS=green1   |text_CLLS=Qualification for the [[2026–27 UEFA Champions League#League phase|Champions League league phase]]
+|col_CL3Q=green2   |text_CL3Q=Qualification for the [[2026–27 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELLS=blue1    |text_ELLS=Qualification for the [[2026–27 UEFA Europa League#League phase|Europa League league phase]]
+|col_ECLPO=yellow1 |text_ECLPO={{nowrap|Qualification for the [[2026–27 UEFA Conference League#Play-off round|Conference League play-off round]]}}
+|col_RPO=red2      |text_RPO=Qualification for the [[2025–26 Ligue 1#Relegation play-offs|relegation play-offs]]
+|col_REL=red1      |text_REL=Relegation to {{nowrap|[[2026–27 Ligue 2|Ligue 2]]}}
+
+<!--Qualification notes-->
+|note_res_ELLS=Since the [[2025–26 Coupe de France]] winners, Lens, qualified for the Champions League via league position, the Europa League spot awarded to the cup winners was passed to the sixth-placed team, and the Conference League spot was passed to the seventh-placed team.
+|note_res_ECLPO=ELLS
+}}<noinclude>
+{{Template reference list}}
+[[Category:2025–26 association football standings in Europe templates|France]]
+[[Category:France football standings templates]]
+</noinclude>

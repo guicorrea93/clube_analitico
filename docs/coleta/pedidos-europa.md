@@ -98,6 +98,9 @@ cópia do banco: carrega e confere OK. Commit aguarda o envio (o Guilherme aprov
    se o painel recalcula a tabela pelos gols, esses jogos precisam usar o vencedor da `observacao`.
 7. **Datas:** 356 jogos dos anos 1930 ficam sem data (o ogol só tem uma data provisória); 224 jogos sem rodada.
 8. **Escudos:** calendários em `data/cache/ogol-fra-1/`.
+9. **22/11/2026: 2025/26 incluída** (última temporada terminada): 88 edições, 30.466 jogos, 22.613 gols com autor e 35.434
+   cartões. Campeão PSG; caíram Nantes e Metz (o Nice, 16º, ganhou o play-off do Saint-Étienne e ficou). Recarregar o
+   `fra-1`; o Paris FC volta à 1ª divisão nesta temporada.
 
 ## 21/11/2026 — Campeonato Português (`por-1`)
 

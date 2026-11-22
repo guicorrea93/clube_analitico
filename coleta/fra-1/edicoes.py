@@ -8,7 +8,7 @@ DADOS = RAIZ / "data" / "coleta" / "fra-1"
 CACHE = RAIZ / "data" / "cache"
 # sem campeonato oficial: 1939/40 a 1944/45 (campeonatos de guerra, não reconhecidos)
 GUERRA = set(range(1939, 1945))
-TEMPORADAS = [a for a in range(1932, 2025) if a not in GUERRA]
+TEMPORADAS = [a for a in range(1932, 2026) if a not in GUERRA]
 
 
 def temporada(a: int) -> str:

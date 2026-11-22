@@ -14697,3 +14697,615 @@ partida_id,clube,chutes,chutes_alvo,faltas,escanteios,amarelos,vermelhos,fonte
 2024-0305,Monaco,6,4,9,4,1,1,football-data.co.uk
 2024-0306,Strasbourg,6,4,18,4,2,1,football-data.co.uk
 2024-0306,Le Havre,10,5,8,3,0,0,football-data.co.uk
+2025-0001,Rennes,12,5,8,1,2,1,football-data.co.uk
+2025-0001,Olympique de Marseille,24,2,11,12,3,0,football-data.co.uk
+2025-0002,Monaco,13,3,5,5,0,0,football-data.co.uk
+2025-0002,Le Havre,9,4,14,4,1,0,football-data.co.uk
+2025-0003,Nice,13,2,12,9,2,0,football-data.co.uk
+2025-0003,Toulouse,10,2,13,4,3,0,football-data.co.uk
+2025-0004,Lens,18,5,13,13,2,0,football-data.co.uk
+2025-0004,Lyon,11,3,20,8,3,0,football-data.co.uk
+2025-0005,Auxerre,7,3,18,4,3,0,football-data.co.uk
+2025-0005,Lorient,14,3,14,5,2,0,football-data.co.uk
+2025-0006,Angers,8,2,14,3,2,1,football-data.co.uk
+2025-0006,Paris FC,17,7,10,7,1,0,football-data.co.uk
+2025-0007,Metz,2,0,16,3,2,0,football-data.co.uk
+2025-0007,Strasbourg,9,4,13,3,2,0,football-data.co.uk
+2025-0008,Nantes,6,0,6,2,1,0,football-data.co.uk
+2025-0008,PSG,18,4,6,7,1,0,football-data.co.uk
+2025-0009,Brest,18,5,11,2,2,0,football-data.co.uk
+2025-0009,Lille,10,6,13,2,1,0,football-data.co.uk
+2025-0010,PSG,21,4,3,12,0,0,football-data.co.uk
+2025-0010,Angers,3,0,9,0,0,0,football-data.co.uk
+2025-0011,Nice,16,6,10,5,2,0,football-data.co.uk
+2025-0011,Auxerre,12,8,15,4,2,1,football-data.co.uk
+2025-0012,Lyon,13,8,13,4,0,0,football-data.co.uk
+2025-0012,Metz,11,2,15,3,2,0,football-data.co.uk
+2025-0013,Olympique de Marseille,12,7,9,5,1,0,football-data.co.uk
+2025-0013,Paris FC,8,4,12,2,0,0,football-data.co.uk
+2025-0014,Lorient,22,7,18,3,6,0,football-data.co.uk
+2025-0014,Rennes,5,1,7,2,0,2,football-data.co.uk
+2025-0015,Le Havre,18,6,17,7,3,0,football-data.co.uk
+2025-0015,Lens,6,3,16,0,1,0,football-data.co.uk
+2025-0016,Lille,18,1,7,8,1,0,football-data.co.uk
+2025-0016,Monaco,6,1,14,3,2,0,football-data.co.uk
+2025-0017,Strasbourg,15,4,11,7,2,0,football-data.co.uk
+2025-0017,Nantes,9,2,9,6,2,0,football-data.co.uk
+2025-0018,Toulouse,6,3,14,3,0,0,football-data.co.uk
+2025-0018,Brest,16,2,10,9,1,0,football-data.co.uk
+2025-0019,Lens,30,10,7,15,1,0,football-data.co.uk
+2025-0019,Brest,9,2,12,1,3,1,football-data.co.uk
+2025-0020,Lorient,6,2,14,3,3,0,football-data.co.uk
+2025-0020,Lille,20,11,18,8,3,0,football-data.co.uk
+2025-0021,Nantes,4,3,13,3,1,0,football-data.co.uk
+2025-0021,Auxerre,14,4,11,9,3,0,football-data.co.uk
+2025-0022,Toulouse,14,6,7,5,1,0,football-data.co.uk
+2025-0022,PSG,13,8,11,7,0,0,football-data.co.uk
+2025-0023,Monaco,12,4,13,6,2,0,football-data.co.uk
+2025-0023,Strasbourg,12,4,12,5,1,1,football-data.co.uk
+2025-0024,Angers,10,7,9,1,2,0,football-data.co.uk
+2025-0024,Rennes,15,7,11,7,2,0,football-data.co.uk
+2025-0025,Le Havre,12,8,13,0,1,0,football-data.co.uk
+2025-0025,Nice,7,3,16,5,4,0,football-data.co.uk
+2025-0026,Lyon,17,5,16,9,2,0,football-data.co.uk
+2025-0026,Olympique de Marseille,5,2,11,4,2,1,football-data.co.uk
+2025-0027,Paris FC,24,9,4,14,1,0,football-data.co.uk
+2025-0027,Metz,14,2,8,6,1,1,football-data.co.uk
+2025-0028,Olympique de Marseille,15,8,18,10,3,0,football-data.co.uk
+2025-0028,Lorient,4,1,5,0,2,1,football-data.co.uk
+2025-0029,Auxerre,9,2,12,5,3,1,football-data.co.uk
+2025-0029,Monaco,13,3,19,8,6,0,football-data.co.uk
+2025-0030,Nice,19,8,16,7,2,0,football-data.co.uk
+2025-0030,Nantes,14,3,13,4,0,0,football-data.co.uk
+2025-0031,Metz,9,5,10,4,0,0,football-data.co.uk
+2025-0031,Angers,11,4,7,3,1,0,football-data.co.uk
+2025-0032,Lille,20,5,12,7,2,0,football-data.co.uk
+2025-0032,Toulouse,9,4,10,6,3,1,football-data.co.uk
+2025-0033,PSG,14,6,10,4,1,0,football-data.co.uk
+2025-0033,Lens,11,3,8,3,2,0,football-data.co.uk
+2025-0034,Strasbourg,9,7,8,4,2,1,football-data.co.uk
+2025-0034,Le Havre,10,1,16,3,2,0,football-data.co.uk
+2025-0035,Brest,23,8,11,6,0,0,football-data.co.uk
+2025-0035,Paris FC,7,4,10,1,2,1,football-data.co.uk
+2025-0036,Rennes,23,5,18,5,2,0,football-data.co.uk
+2025-0036,Lyon,8,5,13,4,2,1,football-data.co.uk
+2025-0037,Lyon,16,5,16,7,2,0,football-data.co.uk
+2025-0037,Angers,10,2,10,4,2,0,football-data.co.uk
+2025-0038,Nantes,16,4,14,4,3,0,football-data.co.uk
+2025-0038,Rennes,8,4,18,4,1,0,football-data.co.uk
+2025-0039,Lens,15,6,17,4,1,0,football-data.co.uk
+2025-0039,Lille,17,3,11,10,3,0,football-data.co.uk
+2025-0040,Brest,11,5,17,2,1,0,football-data.co.uk
+2025-0040,Nice,21,4,11,7,3,0,football-data.co.uk
+2025-0041,Auxerre,6,1,12,3,1,1,football-data.co.uk
+2025-0041,Toulouse,13,3,20,4,6,0,football-data.co.uk
+2025-0042,Monaco,16,6,15,4,1,0,football-data.co.uk
+2025-0042,Metz,8,3,6,5,0,0,football-data.co.uk
+2025-0043,Le Havre,13,2,20,6,3,0,football-data.co.uk
+2025-0043,Lorient,8,4,15,2,6,0,football-data.co.uk
+2025-0044,Paris FC,18,6,11,4,1,0,football-data.co.uk
+2025-0044,Strasbourg,8,4,10,2,5,0,football-data.co.uk
+2025-0045,Olympique de Marseille,9,2,16,5,3,0,football-data.co.uk
+2025-0045,PSG,12,5,7,3,0,0,football-data.co.uk
+2025-0046,Strasbourg,9,1,13,5,2,0,football-data.co.uk
+2025-0046,Olympique de Marseille,16,9,15,4,4,0,football-data.co.uk
+2025-0047,Lorient,19,8,10,2,2,0,football-data.co.uk
+2025-0047,Monaco,5,2,11,4,3,1,football-data.co.uk
+2025-0048,PSG,15,8,17,5,1,0,football-data.co.uk
+2025-0048,Auxerre,12,3,10,5,2,0,football-data.co.uk
+2025-0049,Toulouse,20,7,18,1,2,0,football-data.co.uk
+2025-0049,Nantes,12,2,12,4,3,0,football-data.co.uk
+2025-0050,Angers,11,2,13,11,1,0,football-data.co.uk
+2025-0050,Brest,7,3,13,4,1,0,football-data.co.uk
+2025-0051,Metz,7,0,16,4,2,0,football-data.co.uk
+2025-0051,Le Havre,11,2,16,6,2,0,football-data.co.uk
+2025-0052,Lille,14,3,20,3,4,1,football-data.co.uk
+2025-0052,Lyon,5,2,24,4,4,0,football-data.co.uk
+2025-0053,Nice,11,5,14,5,1,0,football-data.co.uk
+2025-0053,Paris FC,13,3,14,5,1,0,football-data.co.uk
+2025-0054,Rennes,14,2,16,8,3,0,football-data.co.uk
+2025-0054,Lens,13,2,9,4,2,1,football-data.co.uk
+2025-0055,Paris FC,10,2,19,1,0,0,football-data.co.uk
+2025-0055,Lorient,8,3,10,5,2,0,football-data.co.uk
+2025-0056,Auxerre,18,2,10,2,3,0,football-data.co.uk
+2025-0056,Lens,7,4,21,2,7,1,football-data.co.uk
+2025-0057,Metz,4,1,8,4,0,0,football-data.co.uk
+2025-0057,Olympique de Marseille,21,9,7,4,0,0,football-data.co.uk
+2025-0058,Brest,17,5,11,12,2,0,football-data.co.uk
+2025-0058,Nantes,6,0,12,3,1,0,football-data.co.uk
+2025-0059,Monaco,20,6,10,6,1,0,football-data.co.uk
+2025-0059,Nice,9,2,9,7,3,1,football-data.co.uk
+2025-0060,Le Havre,10,2,13,3,1,0,football-data.co.uk
+2025-0060,Rennes,9,3,9,4,2,0,football-data.co.uk
+2025-0061,Lille,9,3,11,3,1,0,football-data.co.uk
+2025-0061,PSG,17,5,12,5,1,0,football-data.co.uk
+2025-0062,Lyon,13,3,13,8,1,0,football-data.co.uk
+2025-0062,Toulouse,14,4,17,5,3,0,football-data.co.uk
+2025-0063,Strasbourg,18,12,12,2,2,0,football-data.co.uk
+2025-0063,Angers,5,1,11,5,2,0,football-data.co.uk
+2025-0064,PSG,21,9,12,4,2,0,football-data.co.uk
+2025-0064,Strasbourg,12,7,15,1,1,0,football-data.co.uk
+2025-0065,Angers,16,3,15,10,2,0,football-data.co.uk
+2025-0065,Monaco,11,4,14,3,2,0,football-data.co.uk
+2025-0066,Nice,5,4,10,1,1,0,football-data.co.uk
+2025-0066,Lyon,29,7,11,16,2,0,football-data.co.uk
+2025-0067,Olympique de Marseille,18,11,17,2,2,0,football-data.co.uk
+2025-0067,Le Havre,8,3,13,1,1,1,football-data.co.uk
+2025-0068,Lorient,12,7,13,5,3,0,football-data.co.uk
+2025-0068,Brest,8,4,16,2,2,0,football-data.co.uk
+2025-0069,Nantes,8,3,12,5,1,0,football-data.co.uk
+2025-0069,Lille,23,5,15,9,4,0,football-data.co.uk
+2025-0070,Lens,11,3,11,11,2,0,football-data.co.uk
+2025-0070,Paris FC,9,3,8,3,2,0,football-data.co.uk
+2025-0071,Rennes,19,7,11,6,1,0,football-data.co.uk
+2025-0071,Auxerre,7,4,15,2,3,0,football-data.co.uk
+2025-0072,Toulouse,16,7,14,5,2,0,football-data.co.uk
+2025-0072,Metz,2,2,11,1,1,1,football-data.co.uk
+2025-0073,Paris FC,14,3,10,8,3,0,football-data.co.uk
+2025-0073,Nantes,11,3,13,2,2,0,football-data.co.uk
+2025-0074,Monaco,14,5,15,2,3,0,football-data.co.uk
+2025-0074,Toulouse,10,2,18,5,4,0,football-data.co.uk
+2025-0075,Lens,8,5,12,4,3,0,football-data.co.uk
+2025-0075,Olympique de Marseille,17,3,9,8,2,0,football-data.co.uk
+2025-0076,Brest,8,2,10,2,1,0,football-data.co.uk
+2025-0076,PSG,18,8,10,7,1,0,football-data.co.uk
+2025-0077,Auxerre,14,3,21,13,2,0,football-data.co.uk
+2025-0077,Le Havre,9,4,12,5,2,0,football-data.co.uk
+2025-0078,Angers,7,4,14,1,1,0,football-data.co.uk
+2025-0078,Lorient,23,4,6,6,0,0,football-data.co.uk
+2025-0079,Lille,23,12,18,7,3,0,football-data.co.uk
+2025-0079,Metz,10,4,12,8,2,0,football-data.co.uk
+2025-0080,Lyon,8,3,15,4,0,0,football-data.co.uk
+2025-0080,Strasbourg,7,2,19,2,4,1,football-data.co.uk
+2025-0081,Rennes,19,7,13,7,5,0,football-data.co.uk
+2025-0081,Nice,8,3,22,3,2,0,football-data.co.uk
+2025-0082,Lorient,5,2,5,0,0,0,football-data.co.uk
+2025-0082,PSG,15,8,13,8,2,0,football-data.co.uk
+2025-0083,Metz,16,7,15,2,3,1,football-data.co.uk
+2025-0083,Lens,10,2,15,5,2,0,football-data.co.uk
+2025-0084,Nantes,18,5,13,1,3,0,football-data.co.uk
+2025-0084,Monaco,19,9,17,3,5,0,football-data.co.uk
+2025-0085,Le Havre,13,3,12,5,1,0,football-data.co.uk
+2025-0085,Brest,8,2,11,1,3,0,football-data.co.uk
+2025-0086,Nice,8,4,11,2,3,0,football-data.co.uk
+2025-0086,Lille,21,4,10,13,3,0,football-data.co.uk
+2025-0087,Olympique de Marseille,11,6,11,1,2,0,football-data.co.uk
+2025-0087,Angers,12,6,7,5,1,0,football-data.co.uk
+2025-0088,Paris FC,11,3,18,4,6,1,football-data.co.uk
+2025-0088,Lyon,7,4,16,2,2,1,football-data.co.uk
+2025-0089,Strasbourg,18,9,11,4,1,0,football-data.co.uk
+2025-0089,Auxerre,6,1,16,3,1,0,football-data.co.uk
+2025-0090,Toulouse,15,4,9,5,2,0,football-data.co.uk
+2025-0090,Rennes,11,5,12,8,3,0,football-data.co.uk
+2025-0091,Auxerre,9,4,12,3,3,1,football-data.co.uk
+2025-0091,Olympique de Marseille,6,2,14,3,4,1,football-data.co.uk
+2025-0092,Monaco,10,1,10,3,3,0,football-data.co.uk
+2025-0092,Paris FC,9,1,12,2,2,0,football-data.co.uk
+2025-0093,PSG,28,8,12,11,3,0,football-data.co.uk
+2025-0093,Nice,5,2,5,1,1,0,football-data.co.uk
+2025-0094,Nantes,16,4,8,8,1,0,football-data.co.uk
+2025-0094,Metz,14,7,8,5,3,0,football-data.co.uk
+2025-0095,Lille,15,4,10,9,1,0,football-data.co.uk
+2025-0095,Angers,6,1,10,2,0,0,football-data.co.uk
+2025-0096,Lens,9,6,8,7,2,0,football-data.co.uk
+2025-0096,Lorient,12,3,10,6,2,0,football-data.co.uk
+2025-0097,Brest,13,3,19,12,1,0,football-data.co.uk
+2025-0097,Lyon,4,2,6,2,0,1,football-data.co.uk
+2025-0098,Rennes,13,6,15,6,1,0,football-data.co.uk
+2025-0098,Strasbourg,20,2,9,5,1,0,football-data.co.uk
+2025-0099,Toulouse,18,2,12,10,1,0,football-data.co.uk
+2025-0099,Le Havre,9,3,14,2,2,0,football-data.co.uk
+2025-0100,Paris FC,19,4,9,8,4,0,football-data.co.uk
+2025-0100,Rennes,10,3,13,9,2,0,football-data.co.uk
+2025-0101,Monaco,16,6,15,5,1,1,football-data.co.uk
+2025-0101,Lens,20,12,19,4,2,0,football-data.co.uk
+2025-0102,Le Havre,17,4,15,8,3,0,football-data.co.uk
+2025-0102,Nantes,5,2,13,3,3,0,football-data.co.uk
+2025-0103,Olympique de Marseille,19,7,12,6,0,0,football-data.co.uk
+2025-0103,Brest,4,2,10,2,1,0,football-data.co.uk
+2025-0104,Angers,9,5,19,3,2,0,football-data.co.uk
+2025-0104,Auxerre,12,5,14,3,2,0,football-data.co.uk
+2025-0105,Lorient,10,2,6,6,0,0,football-data.co.uk
+2025-0105,Toulouse,6,2,18,4,4,0,football-data.co.uk
+2025-0106,Metz,9,2,12,6,2,0,football-data.co.uk
+2025-0106,Nice,11,4,19,3,4,0,football-data.co.uk
+2025-0107,Lyon,9,2,10,5,5,1,football-data.co.uk
+2025-0107,PSG,9,4,8,5,2,0,football-data.co.uk
+2025-0108,Strasbourg,5,2,9,1,4,0,football-data.co.uk
+2025-0108,Lille,7,4,20,4,3,1,football-data.co.uk
+2025-0109,Nice,15,7,9,8,2,0,football-data.co.uk
+2025-0109,Olympique de Marseille,13,11,10,6,2,0,football-data.co.uk
+2025-0110,PSG,31,11,10,6,2,0,football-data.co.uk
+2025-0110,Le Havre,12,4,8,4,1,0,football-data.co.uk
+2025-0111,Lens,13,5,13,3,2,1,football-data.co.uk
+2025-0111,Strasbourg,7,1,13,1,3,1,football-data.co.uk
+2025-0112,Rennes,17,9,3,4,0,0,football-data.co.uk
+2025-0112,Monaco,13,3,13,6,1,1,football-data.co.uk
+2025-0113,Auxerre,12,5,10,7,1,0,football-data.co.uk
+2025-0113,Lyon,16,7,11,11,3,0,football-data.co.uk
+2025-0114,Nantes,9,1,17,1,1,0,football-data.co.uk
+2025-0114,Lorient,7,1,17,1,1,0,football-data.co.uk
+2025-0115,Lille,17,10,9,9,1,0,football-data.co.uk
+2025-0115,Paris FC,6,3,12,4,2,0,football-data.co.uk
+2025-0116,Brest,20,7,11,6,2,0,football-data.co.uk
+2025-0116,Metz,7,3,8,2,3,0,football-data.co.uk
+2025-0117,Toulouse,25,6,15,11,1,0,football-data.co.uk
+2025-0117,Angers,6,2,15,1,3,0,football-data.co.uk
+2025-0118,Metz,16,5,9,6,0,0,football-data.co.uk
+2025-0118,Rennes,9,2,8,3,0,0,football-data.co.uk
+2025-0119,Monaco,10,5,10,4,3,1,football-data.co.uk
+2025-0119,PSG,17,4,13,4,1,0,football-data.co.uk
+2025-0120,Olympique de Marseille,20,5,7,9,2,0,football-data.co.uk
+2025-0120,Toulouse,6,4,10,1,1,0,football-data.co.uk
+2025-0121,Paris FC,11,2,11,4,2,0,football-data.co.uk
+2025-0121,Auxerre,11,3,17,3,1,0,football-data.co.uk
+2025-0122,Angers,7,5,7,2,1,0,football-data.co.uk
+2025-0122,Lens,17,6,11,8,1,0,football-data.co.uk
+2025-0123,Lorient,18,7,7,3,1,0,football-data.co.uk
+2025-0123,Nice,9,2,11,7,2,0,football-data.co.uk
+2025-0124,Le Havre,14,7,15,6,1,0,football-data.co.uk
+2025-0124,Lille,8,2,13,2,3,1,football-data.co.uk
+2025-0125,Lyon,20,8,14,7,1,0,football-data.co.uk
+2025-0125,Nantes,6,2,9,0,2,1,football-data.co.uk
+2025-0126,Strasbourg,14,6,12,5,0,0,football-data.co.uk
+2025-0126,Brest,7,4,14,0,3,0,football-data.co.uk
+2025-0127,Lille,5,2,9,2,1,0,football-data.co.uk
+2025-0127,Olympique de Marseille,6,2,11,5,1,0,football-data.co.uk
+2025-0128,Brest,12,4,17,2,2,1,football-data.co.uk
+2025-0128,Monaco,10,2,15,3,4,0,football-data.co.uk
+2025-0129,Nantes,10,4,8,1,2,0,football-data.co.uk
+2025-0129,Lens,20,6,13,12,0,0,football-data.co.uk
+2025-0130,PSG,20,9,9,8,0,0,football-data.co.uk
+2025-0130,Rennes,6,2,5,6,3,1,football-data.co.uk
+2025-0131,Toulouse,6,3,21,1,3,0,football-data.co.uk
+2025-0131,Strasbourg,3,0,13,2,3,0,football-data.co.uk
+2025-0132,Auxerre,14,7,10,5,2,0,football-data.co.uk
+2025-0132,Metz,5,3,12,3,1,0,football-data.co.uk
+2025-0133,Lorient,14,6,12,1,2,0,football-data.co.uk
+2025-0133,Lyon,7,4,21,7,2,1,football-data.co.uk
+2025-0134,Le Havre,13,2,10,7,0,0,football-data.co.uk
+2025-0134,Paris FC,13,2,13,2,2,0,football-data.co.uk
+2025-0135,Nice,13,3,11,4,1,1,football-data.co.uk
+2025-0135,Angers,8,4,9,1,1,0,football-data.co.uk
+2025-0136,Angers,20,9,17,6,1,0,football-data.co.uk
+2025-0136,Nantes,7,4,13,3,2,0,football-data.co.uk
+2025-0137,Metz,9,5,10,4,2,0,football-data.co.uk
+2025-0137,PSG,14,9,10,4,1,0,football-data.co.uk
+2025-0138,Paris FC,9,2,12,7,3,0,football-data.co.uk
+2025-0138,Toulouse,7,4,14,4,1,0,football-data.co.uk
+2025-0139,Rennes,9,5,16,5,2,0,football-data.co.uk
+2025-0139,Brest,14,7,22,7,3,0,football-data.co.uk
+2025-0140,Auxerre,18,8,21,10,5,2,football-data.co.uk
+2025-0140,Lille,8,5,10,3,2,2,football-data.co.uk
+2025-0141,Lyon,18,4,14,5,2,0,football-data.co.uk
+2025-0141,Le Havre,10,4,18,4,4,0,football-data.co.uk
+2025-0142,Olympique de Marseille,18,8,11,3,2,0,football-data.co.uk
+2025-0142,Monaco,18,7,11,7,1,0,football-data.co.uk
+2025-0143,Lens,15,5,17,2,0,0,football-data.co.uk
+2025-0143,Nice,8,4,13,5,2,0,football-data.co.uk
+2025-0144,Strasbourg,12,2,6,11,1,0,football-data.co.uk
+2025-0144,Lorient,10,2,3,3,0,0,football-data.co.uk
+2025-0145,Toulouse,8,2,16,2,2,1,football-data.co.uk
+2025-0145,Lens,16,7,16,8,3,0,football-data.co.uk
+2025-0146,Monaco,6,2,14,7,2,1,football-data.co.uk
+2025-0146,Lyon,13,9,12,2,3,0,football-data.co.uk
+2025-0147,Lille,13,3,4,4,1,1,football-data.co.uk
+2025-0147,Rennes,18,4,14,7,1,0,football-data.co.uk
+2025-0148,Nice,19,6,12,5,1,0,football-data.co.uk
+2025-0148,Strasbourg,8,5,12,7,2,0,football-data.co.uk
+2025-0149,Lorient,16,5,9,4,1,0,football-data.co.uk
+2025-0149,Metz,8,2,8,4,2,0,football-data.co.uk
+2025-0150,Le Havre,11,6,15,6,1,0,football-data.co.uk
+2025-0150,Angers,9,3,8,6,1,0,football-data.co.uk
+2025-0151,Olympique de Marseille,11,4,17,6,2,2,football-data.co.uk
+2025-0151,Nantes,15,9,20,3,3,0,football-data.co.uk
+2025-0152,PSG,20,6,7,7,1,0,football-data.co.uk
+2025-0152,Paris FC,6,3,4,1,0,0,football-data.co.uk
+2025-0153,Brest,11,4,16,7,3,0,football-data.co.uk
+2025-0153,Auxerre,10,1,9,6,2,0,football-data.co.uk
+2025-0154,Monaco,14,7,16,4,1,0,football-data.co.uk
+2025-0154,Lorient,14,4,9,3,0,0,football-data.co.uk
+2025-0155,PSG,13,7,14,4,0,0,football-data.co.uk
+2025-0155,Lille,7,4,6,2,1,0,football-data.co.uk
+2025-0156,Angers,7,3,9,6,1,0,football-data.co.uk
+2025-0156,Olympique de Marseille,23,11,8,2,1,0,football-data.co.uk
+2025-0157,Lens,19,7,19,1,2,0,football-data.co.uk
+2025-0157,Auxerre,5,0,20,5,5,0,football-data.co.uk
+2025-0158,Toulouse,22,10,12,6,1,0,football-data.co.uk
+2025-0158,Nice,15,6,17,7,2,0,football-data.co.uk
+2025-0159,Nantes,5,1,16,1,1,0,football-data.co.uk
+2025-0159,Paris FC,10,3,14,2,3,0,football-data.co.uk
+2025-0160,Lyon,19,6,18,5,2,0,football-data.co.uk
+2025-0160,Brest,5,2,9,0,0,1,football-data.co.uk
+2025-0161,Strasbourg,14,6,12,4,2,0,football-data.co.uk
+2025-0161,Metz,9,2,12,1,3,0,football-data.co.uk
+2025-0162,Rennes,19,7,18,10,1,0,football-data.co.uk
+2025-0162,Le Havre,7,4,14,6,4,0,football-data.co.uk
+2025-0163,Auxerre,8,0,10,2,0,0,football-data.co.uk
+2025-0163,PSG,16,8,12,7,1,0,football-data.co.uk
+2025-0164,Le Havre,7,1,9,5,0,0,football-data.co.uk
+2025-0164,Monaco,10,2,20,6,3,0,football-data.co.uk
+2025-0165,Olympique de Marseille,10,5,18,2,0,0,football-data.co.uk
+2025-0165,Lens,7,2,16,2,3,0,football-data.co.uk
+2025-0166,Rennes,22,5,18,9,2,0,football-data.co.uk
+2025-0166,Lorient,6,4,7,3,0,0,football-data.co.uk
+2025-0167,Metz,15,6,10,6,1,0,football-data.co.uk
+2025-0167,Lyon,13,10,5,4,0,0,football-data.co.uk
+2025-0168,Nantes,20,5,11,4,2,0,football-data.co.uk
+2025-0168,Nice,7,4,15,2,3,0,football-data.co.uk
+2025-0169,Lille,20,6,11,8,2,0,football-data.co.uk
+2025-0169,Strasbourg,15,6,13,1,2,0,football-data.co.uk
+2025-0170,Paris FC,8,1,14,2,1,0,football-data.co.uk
+2025-0170,Angers,7,1,7,1,1,0,football-data.co.uk
+2025-0171,Brest,13,5,16,3,2,0,football-data.co.uk
+2025-0171,Toulouse,8,5,16,2,3,0,football-data.co.uk
+2025-0172,Lens,15,3,20,4,1,0,football-data.co.uk
+2025-0172,Le Havre,8,2,10,3,2,0,football-data.co.uk
+2025-0173,Monaco,14,6,15,5,1,0,football-data.co.uk
+2025-0173,Rennes,8,4,9,2,2,0,football-data.co.uk
+2025-0174,Lorient,5,4,12,1,4,0,football-data.co.uk
+2025-0174,Nantes,10,2,18,4,5,0,football-data.co.uk
+2025-0175,Paris FC,9,4,12,4,1,0,football-data.co.uk
+2025-0175,Olympique de Marseille,18,4,15,4,4,0,football-data.co.uk
+2025-0176,Angers,17,7,11,4,2,0,football-data.co.uk
+2025-0176,Metz,5,0,11,3,2,1,football-data.co.uk
+2025-0177,Nice,15,7,15,6,5,0,football-data.co.uk
+2025-0177,Brest,12,2,21,5,3,0,football-data.co.uk
+2025-0178,Lyon,4,2,15,2,1,0,football-data.co.uk
+2025-0178,Lille,11,4,11,7,4,0,football-data.co.uk
+2025-0179,Strasbourg,9,4,8,5,1,0,football-data.co.uk
+2025-0179,PSG,13,4,6,6,0,1,football-data.co.uk
+2025-0180,Toulouse,12,4,12,5,1,0,football-data.co.uk
+2025-0180,Auxerre,8,2,13,4,2,0,football-data.co.uk
+2025-0181,Metz,6,2,12,1,1,0,football-data.co.uk
+2025-0181,Lille,16,1,9,6,1,0,football-data.co.uk
+2025-0182,Nantes,13,2,13,5,4,0,football-data.co.uk
+2025-0182,Lyon,10,3,11,4,2,1,football-data.co.uk
+2025-0183,Lens,10,3,13,4,4,1,football-data.co.uk
+2025-0183,Rennes,14,1,17,4,2,0,football-data.co.uk
+2025-0184,Brest,11,5,11,7,2,0,football-data.co.uk
+2025-0184,Lorient,13,2,10,7,0,0,football-data.co.uk
+2025-0185,Auxerre,12,2,8,7,1,0,football-data.co.uk
+2025-0185,Paris FC,8,4,12,4,4,0,football-data.co.uk
+2025-0186,Angers,12,4,11,3,3,0,football-data.co.uk
+2025-0186,Toulouse,12,5,16,5,2,0,football-data.co.uk
+2025-0187,Le Havre,15,7,15,9,2,0,football-data.co.uk
+2025-0187,Strasbourg,10,3,12,3,1,1,football-data.co.uk
+2025-0188,Nice,13,3,10,8,2,0,football-data.co.uk
+2025-0188,Monaco,10,2,11,6,2,0,football-data.co.uk
+2025-0189,PSG,22,7,11,5,2,0,football-data.co.uk
+2025-0189,Olympique de Marseille,9,3,18,2,2,0,football-data.co.uk
+2025-0190,Monaco,12,6,15,9,5,1,football-data.co.uk
+2025-0190,Nantes,13,2,8,3,2,0,football-data.co.uk
+2025-0191,Rennes,13,4,10,5,0,0,football-data.co.uk
+2025-0191,PSG,22,7,9,8,0,0,football-data.co.uk
+2025-0192,Lille,20,5,6,13,0,0,football-data.co.uk
+2025-0192,Brest,11,4,12,1,1,0,football-data.co.uk
+2025-0193,Olympique de Marseille,10,6,11,5,4,0,football-data.co.uk
+2025-0193,Strasbourg,12,4,10,5,2,0,football-data.co.uk
+2025-0194,Paris FC,11,6,13,3,2,0,football-data.co.uk
+2025-0194,Lens,17,6,9,5,1,0,football-data.co.uk
+2025-0195,Lorient,8,2,7,3,0,0,football-data.co.uk
+2025-0195,Angers,10,3,8,2,0,0,football-data.co.uk
+2025-0196,Metz,13,4,13,4,2,0,football-data.co.uk
+2025-0196,Auxerre,14,3,12,3,3,0,football-data.co.uk
+2025-0197,Le Havre,5,2,7,1,1,1,football-data.co.uk
+2025-0197,Toulouse,25,9,16,10,4,0,football-data.co.uk
+2025-0198,Lyon,9,2,16,8,3,0,football-data.co.uk
+2025-0198,Nice,10,3,12,5,1,0,football-data.co.uk
+2025-0199,Brest,12,4,10,3,1,0,football-data.co.uk
+2025-0199,Olympique de Marseille,17,4,17,2,4,0,football-data.co.uk
+2025-0200,PSG,17,7,9,4,0,0,football-data.co.uk
+2025-0200,Metz,3,0,15,1,2,0,football-data.co.uk
+2025-0201,Lens,18,7,13,7,2,0,football-data.co.uk
+2025-0201,Monaco,10,5,12,2,1,0,football-data.co.uk
+2025-0202,Toulouse,23,10,13,12,1,0,football-data.co.uk
+2025-0202,Paris FC,5,2,7,3,5,0,football-data.co.uk
+2025-0203,Auxerre,11,2,17,4,1,0,football-data.co.uk
+2025-0203,Rennes,12,7,22,5,4,0,football-data.co.uk
+2025-0204,Angers,6,2,14,1,3,0,football-data.co.uk
+2025-0204,Lille,14,5,11,7,1,0,football-data.co.uk
+2025-0205,Nantes,9,2,17,5,4,0,football-data.co.uk
+2025-0205,Le Havre,6,1,13,6,3,0,football-data.co.uk
+2025-0206,Nice,8,4,15,3,2,0,football-data.co.uk
+2025-0206,Lorient,17,5,4,7,3,0,football-data.co.uk
+2025-0207,Strasbourg,13,7,11,4,1,0,football-data.co.uk
+2025-0207,Lyon,4,2,12,2,2,0,football-data.co.uk
+2025-0208,Strasbourg,8,5,9,2,2,0,football-data.co.uk
+2025-0208,Lens,25,5,8,8,2,0,football-data.co.uk
+2025-0209,Monaco,10,4,9,5,0,0,football-data.co.uk
+2025-0209,Angers,6,2,10,2,3,0,football-data.co.uk
+2025-0210,Le Havre,10,2,12,3,3,0,football-data.co.uk
+2025-0210,PSG,22,9,10,3,0,0,football-data.co.uk
+2025-0211,Rennes,10,2,9,6,1,0,football-data.co.uk
+2025-0211,Toulouse,9,2,13,1,3,0,football-data.co.uk
+2025-0212,Lorient,15,5,11,3,1,0,football-data.co.uk
+2025-0212,Auxerre,10,3,10,7,3,0,football-data.co.uk
+2025-0213,Metz,24,6,14,12,2,0,football-data.co.uk
+2025-0213,Brest,6,1,11,4,1,1,football-data.co.uk
+2025-0214,Lille,9,3,11,4,3,0,football-data.co.uk
+2025-0214,Nantes,3,1,15,1,1,0,football-data.co.uk
+2025-0215,Olympique de Marseille,18,7,16,8,3,0,football-data.co.uk
+2025-0215,Lyon,12,6,8,1,2,0,football-data.co.uk
+2025-0216,Paris FC,16,6,7,8,6,1,football-data.co.uk
+2025-0216,Nice,11,3,8,6,3,0,football-data.co.uk
+2025-0217,PSG,20,6,12,7,1,0,football-data.co.uk
+2025-0217,Monaco,11,6,6,3,3,0,football-data.co.uk
+2025-0218,Auxerre,10,4,10,5,1,0,football-data.co.uk
+2025-0218,Strasbourg,13,5,11,4,2,0,football-data.co.uk
+2025-0219,Nantes,13,3,14,3,1,0,football-data.co.uk
+2025-0219,Angers,11,4,19,4,1,0,football-data.co.uk
+2025-0220,Toulouse,12,2,15,4,2,0,football-data.co.uk
+2025-0220,Olympique de Marseille,10,3,14,2,3,0,football-data.co.uk
+2025-0221,Lille,12,2,14,5,4,0,football-data.co.uk
+2025-0221,Lorient,9,5,13,1,1,0,football-data.co.uk
+2025-0222,Nice,14,2,9,7,2,0,football-data.co.uk
+2025-0222,Rennes,12,6,8,1,1,0,football-data.co.uk
+2025-0223,Lyon,14,4,7,8,2,0,football-data.co.uk
+2025-0223,Paris FC,14,4,9,2,0,0,football-data.co.uk
+2025-0224,Lens,24,7,12,6,0,0,football-data.co.uk
+2025-0224,Metz,5,0,17,4,3,0,football-data.co.uk
+2025-0225,Brest,11,2,15,1,3,0,football-data.co.uk
+2025-0225,Le Havre,14,0,17,3,1,0,football-data.co.uk
+2025-0226,Olympique de Marseille,16,3,12,9,4,0,football-data.co.uk
+2025-0226,Auxerre,8,3,17,2,2,0,football-data.co.uk
+2025-0227,Monaco,10,4,9,3,2,0,football-data.co.uk
+2025-0227,Brest,13,1,8,8,1,0,football-data.co.uk
+2025-0228,Angers,11,1,10,7,1,0,football-data.co.uk
+2025-0228,Nice,12,8,13,6,3,0,football-data.co.uk
+2025-0229,Lorient,6,3,6,1,2,0,football-data.co.uk
+2025-0229,Lens,20,6,11,10,3,0,football-data.co.uk
+2025-0230,Metz,17,8,10,4,0,0,football-data.co.uk
+2025-0230,Toulouse,19,6,13,4,3,0,football-data.co.uk
+2025-0231,Le Havre,12,4,7,2,1,1,football-data.co.uk
+2025-0231,Lyon,13,4,16,2,3,0,football-data.co.uk
+2025-0232,Strasbourg,12,3,11,12,1,0,football-data.co.uk
+2025-0232,Paris FC,11,2,17,4,0,0,football-data.co.uk
+2025-0233,Rennes,12,4,16,5,2,0,football-data.co.uk
+2025-0233,Lille,8,3,7,2,5,0,football-data.co.uk
+2025-0234,Lens,26,9,7,7,0,0,football-data.co.uk
+2025-0234,Angers,16,5,5,3,0,0,football-data.co.uk
+2025-0235,Auxerre,11,7,10,6,0,1,football-data.co.uk
+2025-0235,Brest,9,2,14,3,4,0,football-data.co.uk
+2025-0236,Nice,6,1,12,2,0,1,football-data.co.uk
+2025-0236,PSG,17,10,5,5,1,0,football-data.co.uk
+2025-0237,Toulouse,12,4,9,1,2,0,football-data.co.uk
+2025-0237,Lorient,7,2,10,4,3,0,football-data.co.uk
+2025-0238,Nantes,14,9,15,3,3,0,football-data.co.uk
+2025-0238,Strasbourg,13,9,17,6,3,0,football-data.co.uk
+2025-0239,Lyon,15,4,11,2,1,1,football-data.co.uk
+2025-0239,Monaco,21,7,19,6,3,0,football-data.co.uk
+2025-0240,Olympique de Marseille,14,3,8,6,1,0,football-data.co.uk
+2025-0240,Lille,11,4,6,4,3,0,football-data.co.uk
+2025-0241,Paris FC,15,4,9,9,0,1,football-data.co.uk
+2025-0241,Le Havre,20,6,13,5,1,0,football-data.co.uk
+2025-0242,Rennes,25,8,13,8,1,0,football-data.co.uk
+2025-0242,Metz,7,2,13,2,3,0,football-data.co.uk
+2025-0243,PSG,17,7,4,5,0,0,football-data.co.uk
+2025-0243,Toulouse,5,1,13,2,1,0,football-data.co.uk
+2025-0244,Lille,13,7,9,3,3,0,football-data.co.uk
+2025-0244,Lens,5,1,13,3,2,0,football-data.co.uk
+2025-0245,Strasbourg,16,6,7,4,0,0,football-data.co.uk
+2025-0245,Nice,8,3,15,10,2,0,football-data.co.uk
+2025-0246,Brest,10,4,13,3,2,0,football-data.co.uk
+2025-0246,Rennes,15,7,11,7,4,0,football-data.co.uk
+2025-0247,Monaco,7,3,14,0,2,0,football-data.co.uk
+2025-0247,Olympique de Marseille,19,9,9,8,2,0,football-data.co.uk
+2025-0248,Angers,7,1,14,3,3,0,football-data.co.uk
+2025-0248,Lyon,11,2,13,7,0,0,football-data.co.uk
+2025-0249,Lorient,10,3,8,5,1,0,football-data.co.uk
+2025-0249,Paris FC,7,5,6,6,2,0,football-data.co.uk
+2025-0250,Metz,19,5,14,6,2,0,football-data.co.uk
+2025-0250,Nantes,6,2,10,3,1,1,football-data.co.uk
+2025-0251,Le Havre,10,3,16,5,2,0,football-data.co.uk
+2025-0251,Auxerre,12,2,21,5,2,0,football-data.co.uk
+2025-0252,Olympique de Marseille,18,9,12,7,1,0,football-data.co.uk
+2025-0252,Metz,6,2,8,4,2,0,football-data.co.uk
+2025-0253,Paris FC,12,6,5,1,1,0,football-data.co.uk
+2025-0253,Monaco,19,5,6,11,0,0,football-data.co.uk
+2025-0254,Auxerre,5,0,20,3,0,0,football-data.co.uk
+2025-0254,Nantes,13,4,15,2,4,0,football-data.co.uk
+2025-0255,Rennes,15,7,9,11,0,0,football-data.co.uk
+2025-0255,Angers,6,4,15,3,2,0,football-data.co.uk
+2025-0256,Nice,15,5,20,5,1,0,football-data.co.uk
+2025-0256,Le Havre,11,6,14,2,1,0,football-data.co.uk
+2025-0257,Lyon,11,5,17,4,4,0,football-data.co.uk
+2025-0257,Lorient,12,6,14,6,1,0,football-data.co.uk
+2025-0258,Toulouse,9,1,13,4,2,1,football-data.co.uk
+2025-0258,Lille,15,9,12,2,0,0,football-data.co.uk
+2025-0259,Lens,41,13,9,14,1,0,football-data.co.uk
+2025-0259,Toulouse,5,2,15,1,1,1,football-data.co.uk
+2025-0260,Angers,11,5,15,4,1,0,football-data.co.uk
+2025-0260,Le Havre,16,8,20,3,3,1,football-data.co.uk
+2025-0261,Lorient,11,4,6,1,0,0,football-data.co.uk
+2025-0261,Olympique de Marseille,16,2,10,7,3,0,football-data.co.uk
+2025-0262,Lille,9,2,9,5,3,0,football-data.co.uk
+2025-0262,Nice,5,1,10,3,1,0,football-data.co.uk
+2025-0263,Monaco,15,6,19,11,2,0,football-data.co.uk
+2025-0263,Auxerre,12,7,8,3,3,0,football-data.co.uk
+2025-0264,Metz,13,6,9,6,2,0,football-data.co.uk
+2025-0264,Paris FC,15,7,8,5,2,0,football-data.co.uk
+2025-0265,Nantes,17,4,13,11,2,1,football-data.co.uk
+2025-0265,Brest,4,2,17,0,2,0,football-data.co.uk
+2025-0266,PSG,23,6,10,13,5,0,football-data.co.uk
+2025-0266,Lyon,6,5,8,5,1,0,football-data.co.uk
+2025-0267,Strasbourg,9,1,10,2,0,0,football-data.co.uk
+2025-0267,Rennes,26,9,12,9,1,0,football-data.co.uk
+2025-0268,PSG,14,6,11,7,2,0,football-data.co.uk
+2025-0268,Nantes,11,4,8,6,1,0,football-data.co.uk
+2025-0269,Brest,6,3,7,0,3,0,football-data.co.uk
+2025-0269,Lens,25,7,11,6,3,0,football-data.co.uk
+2025-0270,Angers,6,1,9,5,0,0,football-data.co.uk
+2025-0270,PSG,17,10,3,4,2,1,football-data.co.uk
+2025-0271,Lyon,12,6,11,6,1,0,football-data.co.uk
+2025-0271,Auxerre,9,2,15,3,2,0,football-data.co.uk
+2025-0272,Toulouse,18,5,17,4,3,0,football-data.co.uk
+2025-0272,Monaco,8,5,10,2,2,0,football-data.co.uk
+2025-0273,Lorient,14,6,9,9,1,0,football-data.co.uk
+2025-0273,Strasbourg,11,5,16,7,2,0,football-data.co.uk
+2025-0274,Le Havre,14,5,12,6,3,0,football-data.co.uk
+2025-0274,Metz,12,5,12,4,1,0,football-data.co.uk
+2025-0275,Olympique de Marseille,24,6,14,7,4,0,football-data.co.uk
+2025-0275,Nice,5,2,7,1,1,0,football-data.co.uk
+2025-0276,Paris FC,7,2,12,7,6,1,football-data.co.uk
+2025-0276,Lille,10,4,10,3,3,0,football-data.co.uk
+2025-0277,Rennes,14,5,15,6,3,0,football-data.co.uk
+2025-0277,Nantes,24,8,15,8,2,0,football-data.co.uk
+2025-0278,Metz,13,1,10,5,0,0,football-data.co.uk
+2025-0278,Monaco,15,3,15,9,2,0,football-data.co.uk
+2025-0279,Nantes,17,6,12,7,1,0,football-data.co.uk
+2025-0279,Olympique de Marseille,16,8,11,8,3,0,football-data.co.uk
+2025-0280,Nice,9,2,11,7,2,0,football-data.co.uk
+2025-0280,Lens,16,4,10,8,3,1,football-data.co.uk
+2025-0281,PSG,24,6,9,12,1,0,football-data.co.uk
+2025-0281,Lorient,5,3,7,2,1,0,football-data.co.uk
+2025-0282,Auxerre,19,10,12,4,2,0,football-data.co.uk
+2025-0282,Angers,9,3,2,6,4,1,football-data.co.uk
+2025-0283,Lille,22,10,9,14,2,0,football-data.co.uk
+2025-0283,Le Havre,2,2,15,5,3,0,football-data.co.uk
+2025-0284,Lyon,16,9,10,7,0,0,football-data.co.uk
+2025-0284,Rennes,8,5,14,5,3,0,football-data.co.uk
+2025-0285,Paris FC,17,8,10,7,2,0,football-data.co.uk
+2025-0285,Brest,10,1,8,3,1,0,football-data.co.uk
+2025-0286,Strasbourg,9,4,7,8,1,0,football-data.co.uk
+2025-0286,Toulouse,16,6,15,3,3,0,football-data.co.uk
+2025-0287,Lens,14,5,15,8,2,0,football-data.co.uk
+2025-0287,Nantes,15,3,15,3,1,0,football-data.co.uk
+2025-0288,Auxerre,12,4,15,10,1,0,football-data.co.uk
+2025-0288,Nice,10,6,9,1,0,0,football-data.co.uk
+2025-0289,Monaco,7,3,13,5,1,0,football-data.co.uk
+2025-0289,Lille,7,2,10,2,3,0,football-data.co.uk
+2025-0290,Angers,11,4,16,0,2,0,football-data.co.uk
+2025-0290,Strasbourg,15,6,13,2,2,0,football-data.co.uk
+2025-0291,Metz,8,2,8,7,2,0,football-data.co.uk
+2025-0291,Lorient,14,7,8,4,2,0,football-data.co.uk
+2025-0292,Le Havre,10,2,20,3,4,0,football-data.co.uk
+2025-0292,Olympique de Marseille,8,3,22,0,2,0,football-data.co.uk
+2025-0293,PSG,23,6,5,13,0,0,football-data.co.uk
+2025-0293,Brest,3,2,12,2,0,0,football-data.co.uk
+2025-0294,Rennes,14,5,13,8,0,0,football-data.co.uk
+2025-0294,Paris FC,11,1,11,2,2,0,football-data.co.uk
+2025-0295,Toulouse,14,6,20,7,6,1,football-data.co.uk
+2025-0295,Lyon,18,3,9,8,2,0,football-data.co.uk
+2025-0296,Lens,25,10,9,6,0,0,football-data.co.uk
+2025-0296,PSG,10,3,3,3,1,0,football-data.co.uk
+2025-0297,Brest,21,6,10,5,0,0,football-data.co.uk
+2025-0297,Strasbourg,10,5,11,4,1,0,football-data.co.uk
+2025-0298,Lorient,12,2,11,5,2,0,football-data.co.uk
+2025-0298,Le Havre,7,4,11,1,1,0,football-data.co.uk
+2025-0299,Nantes,2,1,3,2,0,0,football-data.co.uk
+2025-0299,Toulouse,2,1,5,2,0,0,football-data.co.uk
+2025-0300,Lille,12,3,9,4,3,0,football-data.co.uk
+2025-0300,Auxerre,7,4,16,2,2,0,football-data.co.uk
+2025-0301,Nice,22,4,11,10,2,0,football-data.co.uk
+2025-0301,Metz,16,4,15,4,1,0,football-data.co.uk
+2025-0302,Lyon,16,4,10,20,1,0,football-data.co.uk
+2025-0302,Lens,14,4,11,8,4,0,football-data.co.uk
+2025-0303,Olympique de Marseille,27,11,11,4,3,0,football-data.co.uk
+2025-0303,Rennes,27,6,10,11,1,0,football-data.co.uk
+2025-0304,Paris FC,17,9,8,3,2,0,football-data.co.uk
+2025-0304,PSG,9,2,9,3,1,0,football-data.co.uk
+2025-0305,Strasbourg,15,7,7,4,1,0,football-data.co.uk
+2025-0305,Monaco,21,8,11,6,2,0,football-data.co.uk
+2025-0306,Brest,18,5,9,6,1,0,football-data.co.uk
+2025-0306,Angers,8,2,8,3,1,0,football-data.co.uk
