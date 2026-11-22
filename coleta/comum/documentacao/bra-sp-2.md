@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 167; **artilheiros:** 53 temporadas com artilheiro (61 linhas, com empates).
 - **Classificação final:** 63 temporadas; **rodada a rodada:** 23 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 1989 linhas.
-- **No banco (`db/futebol.db`):** não.
+- **No banco (`db/futebol.db`):** sim (63 edições, 9142 jogos).
 - **Observação da competição:** 2ª divisão paulista (Série A2 desde 1994; antes Segunda Divisão, Primeira Divisão, Divisão Intermediária, Divisão Especial, conforme a época), edições de 1947 a 2026. As edições sem os jogos em nenhuma fonte (1947-1966, 1992-1994) entram só com as tabelas, o campeão e o vice; 1989 e 1991 têm parte dos jogos. Fica de fora a fase amadora (1916-1946).
 
 ## 2. Fontes e regras
@@ -473,6 +473,26 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 - **39622:** cidade → São Paulo; uf → SP
 - **59514:** cidade → São Paulo; uf → SP; estado → São Paulo; nome_completo → None; fundacao → None
+
+### Letras trocadas na página da RSSSF (`rsssf_sp2.LETRAS`)
+
+- **S�o:** São
+- **Jos�:** José
+- **S�ocarlense:** Sãocarlense
+- **Paragua�uense:** Paraguaçuense
+- **Jundia�:** Jundiaí
+- **Andr�:** André
+- **Am�rica:** América
+- **Ara�atuba:** Araçatuba
+- **Atl�tico:** Atlético
+- **Mar�lia:** Marília
+- **S�rie:** Série
+- **It�polis:** Itápolis
+- **Bragan�a:** Bragança
+- **Ribeir�o:** Ribeirão
+- **Paragua�u:** Paraguaçu
+- **Birig�i:** Birigüi
+- **Mat�o:** Matão
 
 ### Páginas da RSSSF corrigidas na leitura (`rsssf.CORRECOES`, registradas em `coleta/bra-sp-2/rsssf_*.py`)
 

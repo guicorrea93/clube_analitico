@@ -262,6 +262,47 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 - **39622:** cidade → São Paulo; uf → SP
 - **59514:** cidade → São Paulo; uf → SP; estado → São Paulo; nome_completo → None; fundacao → None
 
+### Anos com torneio à parte na página (fica fora) (`rsssf_sp1.ANOS_A_PARTE`)
+
+- 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2017, 2018, 2019, 2020, 2021, 2022, 2023
+
+### Letras trocadas na página da RSSSF (`rsssf_sp1.LETRAS`)
+
+- **S�o:** São
+- **s�o:** são
+- **Jundia�:** Jundiaí
+- **It�lia:** Itália
+- **Guaratinguet�:** Guaratinguetá
+- **Germ�nia:** Germânia
+- **S�rio:** Sírio
+- **Independ�ncia:** Independência
+- **Mar�lia:** Marília
+- **Sert�ozinho:** Sertãozinho
+- **Am�rica:** América
+- **S�rie:** Série
+- **Liban�s:** Libanês
+- **Trof�u:** Troféu
+- **TROF�U:** TROFÉU
+- **Campe�o:** Campeão
+- **CAMPE�O:** CAMPEÃO
+- **Jos�:** José
+- **El�seos:** Elíseos
+- **Atl�tico:** Atlético
+- **Divis�o:** Divisão
+- **Andr�:** André
+- **In�cio:** Início
+- **Ribeir�o:** Ribeirão
+- **Uni�o:** União
+- **Ant�rtica:** Antártica
+- **Ferrovi�ria:** Ferroviária
+- **Maranh�o:** Maranhão
+- **S�lex:** Sílex
+- **Brit�nia:** Britânia
+- **Ja�:** Jaú
+- **Taubat�:** Taubaté
+- **Bragan�a:** Bragança
+- **�talo:** Ítalo
+
 ### Páginas da RSSSF corrigidas na leitura (`rsssf.CORRECOES`, registradas em `coleta/bra-sp-1/rsssf_*.py`)
 
 - **sp1902.htm:** letras trocadas por "�" na página

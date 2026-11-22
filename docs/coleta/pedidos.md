@@ -626,3 +626,47 @@ O Guilherme respondeu às decisões D-01 a D-25 de `docs/revisao/decisoes-guilhe
 - **As outras:** vale a recomendação de cada uma.
 
 Os ids que esperavam essas decisões estão liberados no seu plano. As correções continuam esperando a largada do Guilherme.
+
+## Recado de fim de coleta — bra-rj-1 — 22/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Ficha completa: `coleta/comum/documentacao/bra-rj-1.md`;
+relatório ano a ano: `docs/coleta/bra-rj-1.md`.
+
+1. **O que foi feito:** Campeonato Carioca (1ª divisão).
+   - 128 edições, de 1906 a 2026. As ligas rivais têm uma edição cada: 1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF). 1979 tem o campeonato normal e o Especial.
+   - 14.118 jogos, 83 clubes (29 já no banco), 3.383 gols com autor (quase todos de 2010 em diante) e nenhum cartão.
+   - Tabelas publicadas: 222 fecham com os jogos e 128 divergem.
+   - Fontes:
+     - RSSSF Brasil (`tablesr/rj{ano}.htm`; não há página de 2025 nem de 2026);
+     - ogol, competição 893, de 1906 a 2026, que dá a identidade dos clubes e completa os jogos;
+     - Wikipédia em português: campeões e vices de cada ano, como segunda fonte.
+   - O campeão bate com a RSSSF e com a Wikipédia em todas as edições.
+2. **Commit:** o deste recado (Carioca, documentação e a opção nova do leitor comum).
+3. **Teste de carga:** `bra-rj-1: 128 edições, 14118 jogos, 54 clubes novos -> OK`. O carregador avisa que ignora a tabela por rodada em 1997, 1999, 2000, 2017 e 2021, que têm mais de uma fase.
+4. **Pedidos ao banco e ao painel:**
+   - **Carregar `bra-rj-1`.** `competicao.json`: `tipo` estadual, `nivel` 1, `regiao` RJ, `rotulo_painel` "Carioca".
+   - **Ligas rivais:** a `temporada` leva a liga ("1933 AMEA"), como no Paulista.
+   - **W.O. sem placar:** `resultado_especial` "awd", sem gols, com o vencedor na `observacao`. Vêm do ogol (1908-1935), e o vencedor saiu da tabela publicada.
+   - **Desempate de 1921:** fica 2-1 na prorrogação.
+   - **Nomes:** nenhum nome que já existia no cadastro comum mudou e nenhum se repete. Bonsucesso e Serrano são os mesmos clubes do banco (Série B).
+5. **Decisões:**
+   - **Que eu tomei:**
+     - os torneios de consolação entre os turnos (2009-2012) e as finais das séries de subúrbio (1928-1930) ficam fora;
+     - na classificação, os turnos (Taça Guanabara e Taça Rio) contam como a 1ª fase, e do 3º em diante vale a soma dos pontos, como a classificação final publicada;
+     - o torneio de rebaixamento e a Taça Rio dos clubes de baixo (2016) não contam como avanço;
+     - o artilheiro de 1979 segue a RSSSF (a Wikipédia inverte o normal e o Especial).
+   - **Que esperam o Guilherme:**
+     - **1907, título dividido entre Fluminense e Botafogo:** hoje só o Fluminense. Pela D-07 (Paulista 1973 com dois campeões), deve ter os dois, no formato que o agente 1 definir para dois campeões.
+     - **1937:** a Wikipédia conta o São Cristóvão campeão pela FMD; a RSSSF diz que o torneio ficou inacabado. Hoje só a LFRJ (Fluminense).
+6. **O que não deu e pendências:**
+   - **Autores dos gols** fora dos anos 2010: as páginas antigas trazem "Gols: ..." numa linha à parte, que o leitor ainda não junta ao jogo.
+   - **Artilheiros de 2015 em diante:** a lista da RSSSF parou em 2014. A Wikipédia em português tem a tabela ano a ano (`pt_lista.txt`).
+   - **W.O. que a tabela não decide** (ex.: 1910): ficam fora.
+   - **Cartões:** só jogo a jogo, pela ficha do ogol.
+   - **No Paulista:** a mesma leitura de artilheiros nunca usava a lista da RSSSF (a chave era o ano em número), o que deve explicar o SP-024.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 128 tabelas divergentes, concentradas nos anos dos turnos (2008-2013) e nos anos 1910;
+   - a identidade dos clubes antigos que só a RSSSF tem (Petropolitano, Miguel Couto, Paduano, União Nacional, Olympico, Saquarema) e dos casados à mão (`NOME_MANUAL`);
+   - os W.O. decididos pela tabela;
+   - os jogos avulsos do fim das páginas que ficaram (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976).
+8. **Próximo campeonato:** Mineiro (`bra-mg-1`), com o ok do Guilherme. A RSSSF Brasil ficou fora do ar em 22/11; se voltar, começo por ela.

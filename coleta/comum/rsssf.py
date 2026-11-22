@@ -32,6 +32,9 @@ MESES.update({"fev": 2, "abr": 4, "mai": 5, "ago": 8, "set": 9, "out": 10, "dez"
 # placar "2 x 2" (com espaços) e data na frente do jogo ("26/05/1940 A 2 x 2 B"), como nas páginas do Paulista;
 # desligado por padrão (nas outras páginas um "2 x 1" pode estar numa nota de rodapé)
 PLACAR_X_ESPACADO = False
+# as tags de bloco (<p>, <pre>, <h2>...) quebram a linha; desligado por padrão (ligado no Carioca, cujas páginas põem o
+# título de cada liga e o primeiro jogo dentro de <P>/<PRE> sem <br>). Ligar muda a leitura das outras coletas
+QUEBRA_BLOCOS = False
 JOGO = re.compile(r"^\s*(?P<m>\S.*?)\s+(?P<gm>\d{1,2})(?:\s*-\s*|x)(?P<gv>\d{1,2})\s+(?P<v>\S.*?)\s*(?:\[(?P<nota>.*?)\]?)?\s*$")
 # W.O., não jogado, abandonado: "A  awd  B [awarded 1-0]", "A  n/p  B"
 ESPECIAL = re.compile(r"^\s*(?P<m>\S.*?)\s+(?P<tipo>awd|dns|w\.o\.|wo-\d|\d-wo|wo|n/p|abd|canc)\s+(?P<v>\S.*?)\s*(?:\[(?P<nota>.*?)\]?)?\s*$", re.I)
@@ -173,6 +176,8 @@ def texto(ano: int, arquivo: str | None = None) -> str:
     t = re.sub(r"(?i)<br\b[^>]*>", "\n", t)   # também "<br\r\n style=...>" (A2 2021)
     t = re.sub(r"(?i)</t[dh]>", "  ", t)   # tabela HTML (2016 em diante): a célula vira espaço e a linha vira quebra
     t = re.sub(r"(?i)</tr>", "\n", t)
+    if QUEBRA_BLOCOS:
+        t = re.sub(r"(?i)</?(?:p|pre|h[1-6]|div|center)\b[^>]*>", "\n", t)
     t = html.unescape(re.sub(r"<[^>]+>", "", t)).replace("\xa0", " ").replace("\r", "").replace("﻿", "")
     t = t.expandtabs(8)
     for padrao, troca, _motivo in CORRECOES.get(arquivo, []):

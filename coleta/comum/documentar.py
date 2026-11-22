@@ -27,7 +27,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2"]
+COMPETICOES = ["bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "bra-sp-2", "bra-rj-1"]
 
 # o que falta em cada competição (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
@@ -65,6 +65,18 @@ PENDENCIAS: dict[str, list[str]] = {
         "Os mesmos achados de vice e ordem final do Paulista (SP-002, SP-007, SP-008) podem valer na A2: conferir quando "
         "tratar o bra-sp-1 (o importador é cópia do dele).",
     ],
+    "bra-rj-1": [
+        "Decisões do Guilherme: 1907 (título dividido entre Fluminense e Botafogo; o pacote tem só o Fluminense) e 1937 (a "
+        "Wikipédia conta o São Cristóvão campeão pela FMD; a RSSSF diz que o torneio ficou inacabado).",
+        "Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz "
+        "num formato que o leitor ainda não junta ao jogo (\"Gols: ...\" na linha de baixo, nos anos 1900).",
+        "128 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem "
+        "par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.",
+        "Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela "
+        "ano a ano (pt_lista.txt), ainda não lida.",
+        "Mesma correção dos artilheiros no Paulista: lá a lista da RSSSF nunca era usada (chave pelo ano em número), o que deve "
+        "explicar o SP-024.",
+    ],
 }
 
 # dicionários de decisões dos módulos de cada competição -> rótulo da seção
@@ -101,6 +113,9 @@ DICIONARIOS = {
     "MANUAL_DB": "Clube do ogol casado à mão com o nome do banco",
     "MANUAL_NOVO": "Nome de exibição de clube novo, dado à mão",
     "FICHA_CORRIGIDA": "Fichas do ogol com cidade ou estado errados",
+    "ANOS_A_PARTE": "Anos com torneio à parte na página (fica fora)",
+    "TURNOS": "Anos com turnos (Taça Guanabara, Taça Rio) nos títulos das fases",
+    "LETRAS": "Letras trocadas na página da RSSSF",
 }
 
 CAMPOS_COBERTURA = [("data", "data"), ("hora", "hora"), ("rodada", "rodada"), ("estadio", "estádio"), ("cidade", "cidade"),
@@ -417,8 +432,8 @@ def main() -> None:
         for p in PENDENCIAS.get(slug, []):
             idx.append(f"- **{slug}:** {p}")
     idx += ["", "## Próximas competições", "",
-            "- Nenhuma em andamento. Não começar outra sem o Guilherme pedir (decisão de 20/11/2026). Candidatas, se ele "
-            "pedir: Paulista A3 (`bra-sp-3`, RSSSF `sp{ano}l3.htm`) e outros estaduais (Carioca, Mineiro, Gaúcho).", ""]
+            "- Ordem dada pelo Guilherme (22/11/2026): Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`), Paulista A3 (`bra-sp-3`). "
+            "Cada uma com o ok dele.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

@@ -9,7 +9,7 @@ Para o agente de coleta Brasil (agente 2) que for continuar este trabalho. Leia 
 
 Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 22/11/2026.
+Última atualização: 22/11/2026 (Carioca).
 
 **Documentação completa:** `coleta/comum/documentacao/`. Tem o índice (`README.md`) e uma ficha por competição, com:
 - tudo o que o pacote tem;
@@ -73,16 +73,23 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
 | `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.855 | ecafa9e | sim | OK |
-| `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 3edb5a8 (37 edições); as antigas e esta documentação estão sem commit | não | OK (101 clubes novos) |
+| `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 2342f9b | não | OK (101 clubes novos) |
+| `bra-rj-1` Carioca | 128 (1906–2026; ligas rivais em 1912, 1924, 1933-1936; 1979 e 1979 Especial) | 14.118 | este commit (22/11) | não | OK (54 clubes novos) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
 
 ## 3. De onde continuar (pendências, em ordem)
 
-1. **Commit da A2 com as edições antigas e desta documentação.** Peça o ok do Guilherme. Depois, o agente 1 carrega a A2
-   no banco; os recados estão no fim de `docs/coleta/pedidos.md`.
-2. **Paulista (`bra-sp-1`): achados da revisão SP-001 a SP-032, ainda NÃO tratados.**
+**Prioridade dada pelo Guilherme em 22/11/2026 (recado do agente 1):** coletar os próximos campeonatos, nesta ordem:
+Carioca (`bra-rj-1`, feito), Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`) e Paulista A3 (`bra-sp-3`), cada um com o ok dele.
+**Não tratar agora** os achados SP-001 a SP-032 nem as outras pendências (autores pela ficha do ogol, jornais da A2): a
+revisão vai deixar um plano em `docs/revisao/plano-coleta-brasil.md`, e você segue esse plano quando o Guilherme mandar.
+Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <data>" no fim de `docs/coleta/pedidos.md`.
+
+1. **Mineiro (`bra-mg-1`)**, depois Gaúcho e A3 (seção 4). A RSSSF Brasil ficou fora do ar em 22/11 (tempo esgotado);
+   tente de novo. Pendências do Carioca: `coleta/comum/documentacao/bra-rj-1.md`, seção 9.
+2. **Paulista (`bra-sp-1`): achados da revisão SP-001 a SP-032 (esperam o plano da revisão).**
    - Os pedidos estão em `docs/coleta/pedidos.md`, seção "Pedidos da revisão (21/11/2026): Paulista"; as provas, em
      `docs/revisao/bra-sp-1.md`; a lista, em `docs/revisao/achados.csv`.
    - Ordem sugerida pela própria revisão:
@@ -101,9 +108,8 @@ Números por competição, sempre atualizados: `coleta/comum/documentacao/README
    pedir de novo, responda pelo id.
 4. **Autores dos gols e cartões pelas fichas de jogo do ogol:** cerca de 8 mil pedidos (~3 h) só na Série C. Prioridade
    baixa, e cartões mais baixa ainda (decisão de 20/11). Só se ele pedir.
-5. **Próxima competição: só quando o Guilherme mandar.** Candidatas: Paulista A3 (`sp{ano}l3.htm` na RSSSF), Carioca,
-   Mineiro, Gaúcho. Seção 4.
-6. **Fique de olho em `docs/coleta/pedidos.md`:** respostas do agente 1 e pedidos novos da revisão.
+
+5. **Fique de olho em `docs/coleta/pedidos.md`:** respostas do agente 1 e pedidos novos da revisão.
 
 ## 4. Como fazer uma competição nova
 
@@ -204,6 +210,20 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - Os jogos transcritos estão em `data/coleta/bra-sp-2/wikipedia/jogos_pt.csv`, cada um conferido no código da página
   (`pt_<ano>.wiki`).
 
+**Carioca (o que valeu aprender)**
+- **Tags de bloco:** as páginas do Rio põem o título de cada liga e o primeiro jogo dentro de `<P>`/`<PRE>` sem `<br>`;
+  `rsssf.QUEBRA_BLOCOS = True` (opção do leitor comum, desligada nas outras coletas) quebra a linha nessas tags.
+- **Súmulas em caixa alta** ("BOTAFOGO 4 x 2 FLUMINENSE", com "Data - / Local - / Árbitro -"): repetem o jogo decisivo da
+  lista e saíam em dobro; `rsssf_rj1.sem_sumulas` tira a súmula quando há o mesmo jogo em letra normal.
+- **Local do jogo entre parênteses** no fim da linha ("Bangu 0 x 5 América (Rua Ferrer).") entrava no nome do visitante e
+  criava clubes falsos; `_linha_de_jogo` vira nota. "Fluminense (Nova Friburgo)" perdia a cidade e virava o Fluminense.
+- **W.O. sem vencedor no ogol** (anos antigos): o vencedor sai da tabela publicada (`importar.wo_do_ogol`).
+- **ogol lento:** com uma frente só, ~4 min por edição. Rode várias frentes em paralelo, cada uma com as suas temporadas e
+  sem sobreposição (`baixar_ogol.py <temporadas> --sem-fichas`), e as fichas dos clubes numa rodada só no fim
+  (`baixar_ogol.py clubes`). 8 frentes baixaram ~65 edições em ~30 min. Temporada que volta vazia: rode de novo.
+- **Cadastro comum durante os testes:** cada importação grava os nomes novos em `clubes_ogol.json`; limpe as entradas da
+  competição antes da rodada final (tirar as que só têm o slug dela) para não fixar nome errado.
+
 **Identidade**
 - **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,
   Assis), "São Bento" (Sorocaba ou Marília), "Paulista" (Jundiaí ou Araraquara). Use a cidade; sem ela, casamento à mão
@@ -224,6 +244,8 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **Identidade CL-005 a CL-012:** seguir as recomendações da pesquisa; clube refundado é outro cadastro (21/11).
 - **Sufixo "-UF" (CL-027):** os nomes ficam como estão (21/11).
 - **Edições de 2026 da C, da D e da A2:** entram, pelo ogol (21/11).
+- **Prioridade (22/11, pelo agente 1):** coletar Carioca, Mineiro, Gaúcho e A3; revisão só quando ele mandar, seguindo o
+  plano da revisão.
 - **Paulista A2:** incluir tudo o que existir, inclusive as edições sem jogos e as incompletas (21/11). O que só existe em
   jornal escaneado fica de fora.
 
