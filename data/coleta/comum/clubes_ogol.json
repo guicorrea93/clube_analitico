@@ -224,7 +224,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "13690": {
@@ -354,6 +355,14 @@
   "cidade": "Rondonopólis",
   "competicoes": [
    "bra-copa-do-brasil"
+  ]
+ },
+ "15430": {
+  "clube": "Primavera-SP",
+  "uf": "SP",
+  "cidade": "Indaiatuba",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "15431": {
@@ -536,7 +545,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "15767": {
@@ -544,7 +554,16 @@
   "uf": "SP",
   "cidade": "Catanduva",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
+  ]
+ },
+ "15768": {
+  "clube": "Osvaldo Cruz",
+  "uf": "SP",
+  "cidade": "Osvaldo Cruz",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "15769": {
@@ -553,7 +572,16 @@
   "cidade": "Penápolis",
   "competicoes": [
    "bra-serie-d",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
+  ]
+ },
+ "15770": {
+  "clube": "Itapirense",
+  "uf": "SP",
+  "cidade": "Itapira",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "15771": {
@@ -564,7 +592,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "15853": {
@@ -590,7 +619,8 @@
   "cidade": "Monte Azul Paulista",
   "competicoes": [
    "bra-serie-d",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "16131": {
@@ -599,7 +629,8 @@
   "cidade": "Jaú",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "16211": {
@@ -641,6 +672,14 @@
   "cidade": "Santa Helena de Goiás",
   "competicoes": [
    "bra-copa-do-brasil"
+  ]
+ },
+ "17156": {
+  "clube": "Santacruzense",
+  "uf": "SP",
+  "cidade": "Santa Cruz do Rio Pardo",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "17224": {
@@ -685,6 +724,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "18622": {
+  "clube": "São Carlos",
+  "uf": "SP",
+  "cidade": "São Carlos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "18691": {
   "clube": "Vitória das Tabocas",
   "uf": "PE",
@@ -725,7 +772,8 @@
   "cidade": "Araçatuba",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "19455": {
@@ -801,7 +849,8 @@
   "uf": "SP",
   "cidade": "Votorantim",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sp-2"
   ]
  },
  "20699": {
@@ -903,7 +952,8 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "2228": {
@@ -1014,7 +1064,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "2252": {
@@ -1025,7 +1076,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "2253": {
@@ -1046,7 +1098,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "2257": {
@@ -1073,7 +1126,8 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "228854": {
@@ -1108,6 +1162,30 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "23231": {
+  "clube": "Palmeiras (B)",
+  "uf": "SP",
+  "cidade": "São Paulo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "23232": {
+  "clube": "Grêmio Osasco",
+  "uf": "SP",
+  "cidade": "Osasco",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "23233": {
+  "clube": "Batatais",
+  "uf": "SP",
+  "cidade": "Batatais",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "233382": {
@@ -1279,12 +1357,21 @@
    "bra-serie-d"
   ]
  },
+ "24576": {
+  "clube": "Barretos",
+  "uf": "SP",
+  "cidade": "Barretos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "24581": {
   "clube": "Radium",
   "uf": "SP",
   "cidade": "Mococa",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "24583": {
@@ -1292,7 +1379,16 @@
   "uf": "SP",
   "cidade": "Limeira",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
+  ]
+ },
+ "24586": {
+  "clube": "Lemense",
+  "uf": "SP",
+  "cidade": "Leme",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "24587": {
@@ -1301,7 +1397,8 @@
   "cidade": "Capivari",
   "competicoes": [
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "24618": {
@@ -1329,7 +1426,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "24900": {
@@ -1374,7 +1472,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "255062": {
@@ -1588,7 +1687,8 @@
   "cidade": "São Carlos",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3083": {
@@ -1716,7 +1816,8 @@
   "cidade": "São José do Rio Preto",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3107": {
@@ -1801,7 +1902,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3127": {
@@ -1880,7 +1982,8 @@
   "uf": "SP",
   "cidade": "Birigui",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3138": {
@@ -1937,7 +2040,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3155": {
@@ -2238,7 +2342,8 @@
   "cidade": "Ribeirão Preto",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3203": {
@@ -2483,6 +2588,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "3245": {
+  "clube": "Flamengo-SP",
+  "uf": "SP",
+  "cidade": "Guarulhos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "3247": {
   "clube": "Fluminense-BA",
   "uf": "BA",
@@ -2525,7 +2638,8 @@
   "cidade": "Franca",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3253": {
@@ -2758,7 +2872,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3292": {
@@ -2984,7 +3099,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3323": {
@@ -3106,7 +3222,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3341": {
@@ -3123,7 +3240,8 @@
   "cidade": "Matão",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3344": {
@@ -3143,7 +3261,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3349": {
@@ -3163,7 +3282,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-serie-d",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3353": {
@@ -3210,7 +3330,8 @@
   "cidade": "São Paulo",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3362": {
@@ -3258,7 +3379,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3369": {
@@ -3275,7 +3397,8 @@
   "uf": "SP",
   "cidade": "Olímpia",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3373": {
@@ -3402,7 +3525,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3390": {
@@ -3503,7 +3627,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3408": {
@@ -3628,7 +3753,8 @@
   "cidade": "Americana",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3432": {
@@ -3645,7 +3771,8 @@
   "uf": "SP",
   "cidade": "São José do Rio Preto",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3436": {
@@ -3693,6 +3820,14 @@
    "bra-copa-do-brasil"
   ]
  },
+ "34451": {
+  "clube": "EC São Bernardo",
+  "uf": "SP",
+  "cidade": "São Bernardo Do Campo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "3446": {
   "clube": "Santa Cruz-RS",
   "uf": "RS",
@@ -3725,7 +3860,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3454": {
@@ -3746,7 +3882,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3460": {
@@ -3928,7 +4065,8 @@
   "uf": "SP",
   "cidade": "Taquaritinga",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3487": {
@@ -4111,7 +4249,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3514": {
@@ -4145,7 +4284,8 @@
   "cidade": "Araras",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "3519": {
@@ -4576,7 +4716,8 @@
   "uf": "SP",
   "cidade": "Votuporanga",
   "competicoes": [
-   "bra-copa-do-brasil"
+   "bra-copa-do-brasil",
+   "bra-sp-2"
   ]
  },
  "46823": {
@@ -4620,7 +4761,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "5161": {
@@ -4640,7 +4782,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "52741": {
@@ -4756,7 +4899,8 @@
   "cidade": "Novo Horizonte",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "61587": {
@@ -4823,7 +4967,8 @@
   "cidade": "Presidente Prudente",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "68360": {
@@ -4831,7 +4976,8 @@
   "uf": "SP",
   "cidade": "Guaratinguetá",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "68401": {
@@ -4851,6 +4997,14 @@
    "bra-serie-c"
   ]
  },
+ "70976": {
+  "clube": "Grêmio Prudente",
+  "uf": "SP",
+  "cidade": "Presidente Prudente",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "71236": {
   "clube": "EC Água Santa",
   "uf": "SP",
@@ -4858,7 +5012,8 @@
   "competicoes": [
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "71792": {
@@ -4894,7 +5049,8 @@
    "bra-serie-c",
    "bra-copa-do-brasil",
    "bra-sp-1",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sp-2"
   ]
  },
  "76884": {
@@ -4910,7 +5066,8 @@
   "uf": "SP",
   "cidade": "São Caetano do Sul",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "77537": {
@@ -4951,7 +5108,8 @@
   "uf": "SP",
   "cidade": "São Paulo",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "77896": {
@@ -5186,7 +5344,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "8240": {
@@ -5194,7 +5353,8 @@
   "uf": "SP",
   "cidade": "Taubaté",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "8329": {
@@ -5219,7 +5379,8 @@
   "cidade": "Sertãozinho",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "8514": {
@@ -5228,7 +5389,8 @@
   "cidade": "Rio Claro",
   "competicoes": [
    "bra-serie-c",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "8516": {
@@ -5276,7 +5438,8 @@
   "cidade": "Rio Claro",
   "competicoes": [
    "bra-sp-1",
-   "bra-serie-d"
+   "bra-serie-d",
+   "bra-sp-2"
   ]
  },
  "86295": {
@@ -5287,6 +5450,14 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil"
+  ]
+ },
+ "8738": {
+  "clube": "Paraguaçuense",
+  "uf": "SP",
+  "cidade": "Paraguaçu Paulista",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "88581": {
@@ -5418,7 +5589,8 @@
    "bra-serie-c",
    "bra-serie-d",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "9780": {
@@ -5619,7 +5791,8 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "internacional": {
@@ -5646,7 +5819,200 @@
   "competicoes": [
    "bra-serie-c",
    "bra-copa-do-brasil",
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
+  ]
+ },
+ "rs-alianca-sao-bernardo-do-campo": {
+  "clube": "Aliança-SP",
+  "uf": "SP",
+  "cidade": "São Bernardo do Campo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-aparecida-aparecida-do-norte": {
+  "clube": "Aparecida",
+  "uf": "SP",
+  "cidade": "Aparecida do Norte",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-candidomotense-candido-mota": {
+  "clube": "Candidomotense",
+  "uf": "SP",
+  "cidade": "Cândido Mota",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-cruzeiro": {
+  "clube": "Cruzeiro-SP",
+  "uf": "SP",
+  "cidade": "Cruzeiro",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-derac-itapetininga": {
+  "clube": "DERAC",
+  "uf": "SP",
+  "cidade": "Itapetininga",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-dracena": {
+  "clube": "Dracena",
+  "uf": "SP",
+  "cidade": "Dracena",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-fernandopolis": {
+  "clube": "Fernandópolis",
+  "uf": "SP",
+  "cidade": "Fernandópolis",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-garca": {
+  "clube": "Garça",
+  "uf": "SP",
+  "cidade": "Garça",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-ginasio-pinhalense-espirito-santo-do-pinhal": {
+  "clube": "Ginásio Pinhalense",
+  "uf": "SP",
+  "cidade": "Espírito Santo do Pinhal",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-guacuano-mogi-guacu": {
+  "clube": "Guaçuano",
+  "uf": "SP",
+  "cidade": "Mogi Guaçu",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-internacional-bebedouro": {
+  "clube": "Internacional de Bebedouro",
+  "uf": "SP",
+  "cidade": "Bebedouro",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-jaboticabal": {
+  "clube": "Jaboticabal",
+  "uf": "SP",
+  "cidade": "Jaboticabal",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-jalesense-jales": {
+  "clube": "Jalesense",
+  "uf": "SP",
+  "cidade": "Jales",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-lemense-leme": {
+  "clube": "EC Lemense",
+  "uf": "SP",
+  "cidade": "Leme",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-lencoense-lencois-paulista": {
+  "clube": "Lençoense",
+  "uf": "SP",
+  "cidade": "Lençóis Paulista",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-mauaense-maua": {
+  "clube": "Mauaense",
+  "uf": "SP",
+  "cidade": "Mauá",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-orlandia": {
+  "clube": "Orlândia",
+  "uf": "SP",
+  "cidade": null,
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-palmeiras-sao-joao-da-boa-vista": {
+  "clube": "Palmeiras (São João da Boa Vista)",
+  "uf": "SP",
+  "cidade": "São João da Boa Vista",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-saltense-salto": {
+  "clube": "Saltense",
+  "uf": "SP",
+  "cidade": "Salto",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-santa-fe-santa-fe-do-sul": {
+  "clube": "Santa Fé",
+  "uf": "SP",
+  "cidade": "Santa Fé do Sul",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-tanabi": {
+  "clube": "Tanabi",
+  "uf": "SP",
+  "cidade": "Tanabi",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-uniao-mogi-das-cruzes": {
+  "clube": "União Mogi",
+  "uf": "SP",
+  "cidade": "Mogi das Cruzes",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-vocem-assis": {
+  "clube": "VOCEM",
+  "uf": "SP",
+  "cidade": "Assis",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-votuporanguense-votuporanga": {
+  "clube": "Votuporanguense",
+  "uf": "SP",
+  "cidade": "Votuporanga",
+  "competicoes": [
+   "bra-sp-2"
   ]
  },
  "santos": {

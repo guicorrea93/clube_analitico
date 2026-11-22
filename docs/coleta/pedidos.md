@@ -535,3 +535,36 @@ Pronto em `data/coleta/bra-serie-a-artilheiros/artilheiros.csv` (`temporada,joga
 - Cache do ogol da Série A: as páginas erradas foram apagadas e os anos 1977, 1980, 1989, 1991, 1993-1995,
   1997-1999 e 2008-2010 baixados de novo com o `coleta/comum/ogol.py` validado (1995 tinha jogos da Bósnia).
 - Edições de 2026: carregadas como vêm no pacote; a decisão sobre mostrá-las segue com o Guilherme.
+
+## Agente 2 (21/11/2026): Paulista Série A2 (`bra-sp-2`) pronto
+
+Pacote em `data/coleta/bra-sp-2/pacote/` (mesmo formato do `bra-sp-1`); relatório em `docs/coleta/bra-sp-2.md`.
+Código em `coleta/bra-sp-2/` (cópia do importador do Paulista, com as fontes da A2).
+
+- **37 edições com os jogos:** 1979, 1985-1988 e 1995-2026. 8.649 jogos, 20.887 gols (4.526 com autor, de 2013 em diante),
+  99 clubes (61 já no banco), 124 tabelas conferidas e 30 divergentes (explicadas no relatório).
+- `competicao.json`: `tipo` estadual, `nivel` 2, `regiao` SP, `rotulo_painel` "Paulista A2", `do_painel` "da Série A2".
+  O `nome_oficial` muda por época (Segunda Divisão, Divisão Intermediária, Divisão Especial, Série A2).
+- **Acesso** (`situacao` = "acesso"): o clube que joga a 1ª divisão do ano seguinte no pacote `bra-sp-1`.
+- **2026:** só pelo ogol (a RSSSF ainda não tem a página); campeão Juventus-SP.
+- **Fontes:** RSSSF de 1979 a 2025; ogol de 1998 em diante (antes disso o ogol não tem os jogos).
+
+**Identidade antes de 1998 (sem ogol):** o nome da página foi casado com as fichas do ogol (A2 e A1) pela cidade da
+lista de participantes. Não vale ficha de clube fundado depois da edição. Casos que mudam o que já existe:
+- "Votuporanguense" dos anos 1980 é a AA Votuporanguense, clube novo; não é o "CA Votuporanguense" do banco (de 2009).
+- "EC Lemense" (anos 1980) é clube novo; não é o "Lemense" (Lemense FC, 2005).
+- Clubes novos que levam a cidade no nome, para não repetir o nome de outro clube:
+  - "Palmeiras (São João da Boa Vista)";
+  - "Internacional de Bebedouro";
+  - "União Mogi".
+- "Ferroviário Ituano" = Ituano; "Catanduva" (1995) = Catanduvense; "Etti Jundiaí" (campeão de 2001) = Paulista.
+
+**Mudança em `coleta/comum/rsssf.py`:** `<br>` com atributos em outra linha (`<br\r\n style=...>`) agora quebra a
+linha (a página da A2 de 2021 vinha inteira numa linha só). Conferido: nenhuma página da C, D e Copa tem isso. A
+única do Paulista é a de 2014, que dá o mesmo resultado antes e depois (155 jogos, 0 divergências).
+
+**Fora do pacote (decisão pendente com o Guilherme):** edições sem os jogos em nenhuma fonte:
+- 1947-1966: só a classificação em pontos e os jogos do campeão;
+- 1989: só a 1ª fase;
+- 1991: só a 2ª fase;
+- 1992-1994: só a classificação.

@@ -170,7 +170,7 @@ def texto(ano: int, arquivo: str | None = None) -> str:
     except UnicodeDecodeError:
         t = bruto.decode("latin-1")
     t = re.sub(r"(?is)<(script|style)\b.*?</\1>", "", t)
-    t = re.sub(r"(?i)<br\s*/?>", "\n", t)
+    t = re.sub(r"(?i)<br\b[^>]*>", "\n", t)   # também "<br\r\n style=...>" (A2 2021)
     t = re.sub(r"(?i)</t[dh]>", "  ", t)   # tabela HTML (2016 em diante): a célula vira espaço e a linha vira quebra
     t = re.sub(r"(?i)</tr>", "\n", t)
     t = html.unescape(re.sub(r"<[^>]+>", "", t)).replace("\xa0", " ").replace("\r", "").replace("﻿", "")
