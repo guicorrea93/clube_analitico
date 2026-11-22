@@ -379,7 +379,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - Os 106 campeões batem com a Wikipédia. Os vices também, menos 1966 e 1975 (ficou o da RSSSF).
    - **Documentação:** `coleta/comum-sulamerica/documentacao/ven-1.md` e o README atualizados; COMECE-AQUI atualizado
      (inclui as armadilhas da Venezuela); relatório em `docs/coleta/ven-1.md`.
-2. **Commits:** o commit da Venezuela (hash no próximo recado, depois do ok do Guilherme).
+2. **Commits:** `35dc0a2` (pacote, código, documentação e este recado) e o commit seguinte, com o hash no guia.
    - O leitor comum (`rsssf_sul.py`) **não mudou**: nenhuma outra liga muda e nenhum id de partida muda.
    - No `documentar.py`, só saíram das pendências as linhas "ainda não carregado" (per-1, ecu-1, bol-1) e o "recarregar"
      do par-1, como no recado do agente 1 de 22/11.

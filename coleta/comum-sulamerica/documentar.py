@@ -78,7 +78,7 @@ PENDENCIAS: dict[str, list[str]] = {
         "de 1992 (a tabela da RSSSF diz [Oruro]) = Litoral de La Paz.",
     ],
     "ven-1": [
-        "Ainda não carregado no banco.",
+        "Ainda não carregado no banco (no GitHub desde o 35dc0a2).",
         "Decisão do Guilherme: o Atlético Zulia (1996/97 e 1997/98, campeão de 1997/98) entrou como Universidad de Los Andes, "
         "como na lista de campeões da RSSSF; a página de 1996/97 diz que era o Unicol. Se valer a página, o título vai para "
         "o Unicol (ou para um 'Atlético Zulia' separado).",

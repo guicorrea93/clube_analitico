@@ -81,7 +81,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | sim |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | sim |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
-| `ven-1` Venezuelano | 106 (1921–2025) | 13.582 | 108 | (commit da Venezuela) | não |
+| `ven-1` Venezuelano | 106 (1921–2025) | 13.582 | 108 | 35dc0a2 | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).

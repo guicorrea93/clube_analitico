@@ -8,13 +8,13 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Argentino | 196 (1891–2025 Liga) | 1 | 43235 | 34264 | 37037 | 171 | 136 / 54 | sim | 665fe93 | 36 | [arg-1](arg-1.md) |
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12464 | 14309 | 9396 | 81 | 59 / 22 | sim | 0ead727 | 19 | [uru-1](uru-1.md) |
-| Campeonato Chileno | 109 (1933–2025) | 0 | 22601 | 18878 | 25361 | 53 | 65 / 43 | sim | 36e0690 | 0 | [chi-1](chi-1.md) |
+| Campeonato Chileno | 109 (1933–2025) | 0 | 22601 | 18878 | 25361 | 53 | 65 / 43 | sim | 36e0690 | 26 | [chi-1](chi-1.md) |
 | Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22788 | 22020 | 40449 | 42 | 48 / 38 | sim | 3f5c1d0 | 22 | [col-1](col-1.md) |
 | Campeonato Paraguaio | 133 (1906–2025 Clausura) | 76 | 7865 | 13108 | 14270 | 43 | 36 / 12 | sim | 0b793ba | 24 | [par-1](par-1.md) |
 | Campeonato Peruano | 109 (1912–2025) | 18 | 17316 | 20222 | 20999 | 153 | 52 / 38 | sim | 0b793ba | 22 | [per-1](per-1.md) |
 | Campeonato Equatoriano | 68 (1957–2025) | 0 | 14195 | 9240 | 15824 | 63 | 47 / 21 | sim | 0b793ba | 18 | [ecu-1](ecu-1.md) |
 | Campeonato Boliviano | 94 (1950–2025) | 22 | 8563 | 13666 | 4970 | 77 | 42 / 10 | sim | 9ed3dcd | 0 | [bol-1](bol-1.md) |
-| Campeonato Venezuelano | 106 (1921–2025) | 25 | 13582 | 6390 | 6729 | 108 | 48 / 23 | não | — | 0 | [ven-1](ven-1.md) |
+| Campeonato Venezuelano | 106 (1921–2025) | 25 | 13582 | 6390 | 6729 | 108 | 48 / 23 | não | 35dc0a2 | 0 | [ven-1](ven-1.md) |
 
 ## Pendências de todas as competições
 
@@ -32,7 +32,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **bol-1:** Jogos incompletos em 1951, 1960, 1966, 1968, 1971, 1976, 1978, 1979, 1982, 1983, 1985-1994: só as fases finais (ou jogos sem a divisão em fases, em 1990-1991). A tabela de confrontos parcial de 1992 ('Partial results', com células vazias) não foi lida: precisaria de leitura por coluna.
 - **bol-1:** Vice de 1961, 1963, 1964 e 1968: RSSSF e Wikipédia em inglês divergem; ficou o da RSSSF (decisão do agente, explicada no relatório). Conferir numa terceira fonte.
 - **bol-1:** Nomes que dependem do ano, a conferir: 'Universitario' sozinho de 1971 a 1994 = Universitario de Potosí; 'Litoral' de 1992 (a tabela da RSSSF diz [Oruro]) = Litoral de La Paz.
-- **ven-1:** Ainda não carregado no banco.
+- **ven-1:** Ainda não carregado no banco (no GitHub desde o 35dc0a2).
 - **ven-1:** Decisão do Guilherme: o Atlético Zulia (1996/97 e 1997/98, campeão de 1997/98) entrou como Universidad de Los Andes, como na lista de campeões da RSSSF; a página de 1996/97 diz que era o Unicol. Se valer a página, o título vai para o Unicol (ou para um 'Atlético Zulia' separado).
 - **ven-1:** Era amadora (1921-1956): só 1940, 1955 e 1956 têm todos os jogos; 7 anos sem página (1922, 1924, 1931, 1938, 1939, 1949, 1950) e 26 com jogos parciais ou só a classificação. Fonte que resolveria: jornais de Caracas da época (El Universal, La Esfera) ou o livro de Eliézer Pérez, autor das páginas da RSSSF.
 - **ven-1:** 1993/94 e 1994/95: a Copa Venezuela (Apertura de 1993/94) e o Torneo Iniciación (1994/95) só têm tabelas; 8 jogos da liga de 1993/94 sem placar e 5 'drw' (empate sem placar) em 1994/95.
