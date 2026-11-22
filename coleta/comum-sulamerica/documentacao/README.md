@@ -10,9 +10,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12464 | 14309 | 9396 | 81 | 59 / 22 | sim | 0ead727 | 19 | [uru-1](uru-1.md) |
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22601 | 18878 | 25361 | 53 | 65 / 43 | sim | 36e0690 | 0 | [chi-1](chi-1.md) |
 | Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22788 | 22020 | 40449 | 42 | 48 / 38 | sim | 3f5c1d0 | 0 | [col-1](col-1.md) |
-| Campeonato Paraguaio | 133 (1906–2025 Clausura) | 76 | 7865 | 13108 | 14270 | 43 | 36 / 12 | sim | 9d1ca3b | 0 | [par-1](par-1.md) |
-| Campeonato Peruano | 109 (1912–2025) | 18 | 17316 | 20222 | 20999 | 153 | 52 / 38 | não | 9d1ca3b | 0 | [per-1](per-1.md) |
-| Campeonato Equatoriano | 68 (1957–2025) | 0 | 14195 | 9240 | 15824 | 63 | 47 / 21 | não | — | 0 | [ecu-1](ecu-1.md) |
+| Campeonato Paraguaio | 133 (1906–2025 Clausura) | 76 | 7865 | 13108 | 14270 | 43 | 36 / 12 | sim | 0b793ba | 0 | [par-1](par-1.md) |
+| Campeonato Peruano | 109 (1912–2025) | 18 | 17316 | 20222 | 20999 | 153 | 52 / 38 | não | 0b793ba | 0 | [per-1](per-1.md) |
+| Campeonato Equatoriano | 68 (1957–2025) | 0 | 14195 | 9240 | 15824 | 63 | 47 / 21 | não | 0b793ba | 0 | [ecu-1](ecu-1.md) |
 
 ## Pendências de todas as competições
 

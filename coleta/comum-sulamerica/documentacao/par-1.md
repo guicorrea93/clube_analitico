@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 7865 (7849 com placar); **gols:** 21240; **gols com autor:** 13108 (62%); **cartões:** 14270.
 - **Clubes:** 43; **artilheiros:** 95 edições com artilheiro (112 linhas, com empates).
 - **Classificação final:** 133 edições; **tabelas publicadas guardadas para conferência:** 1319 linhas.
-- **No banco:** sim; **último commit do pacote:** 9d1ca3b.
+- **No banco:** sim; **último commit do pacote:** 0b793ba.
 - **Observação da competição:** 1ª divisão paraguaia de 1906 a 2025: um campeão por ano até 2007 e uma edição por torneio (Apertura e Clausura) de 2008 em diante. Jogos de 1960-1967, 1981 e 1996 em diante; nos outros anos, só o campeão, o vice e a tabela parcial quando há (nenhuma fonte pública tem os jogos).
 
 ## 2. Edições, fontes e regras

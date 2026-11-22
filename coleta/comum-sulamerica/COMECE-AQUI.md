@@ -67,22 +67,16 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.464 | 81 | 0ead727 | sim |
 | `chi-1` Chileno | 109 (1933–2025) | 22.601 | 53 | 36e0690 | sim |
 | `col-1` Colombiano | 101 (1948–2025) | 22.788 | 42 | 3f5c1d0 | sim |
-| `par-1` Paraguaio | 133 (1906–2025) | 7.865 | 43 | dc2b360, 9d1ca3b; reimportado em 22/11, sem commit | sim (versão antiga) |
-| `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b; corrigido em 22/11, sem commit | não |
-| `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | sem commit (22/11) | não |
+| `par-1` Paraguaio | 133 (1906–2025) | 7.865 | 43 | dc2b360, 9d1ca3b, 0b793ba | sim (versão antiga: recarregar) |
+| `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | não |
+| `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | não |
 
-Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Nada foi enviado (push) desde o
-`ba21d2a`: os commits ficam na fila, à espera de o Guilherme mandar enviar.
+Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Tudo está no GitHub (push de 22/11).
 
 ## 3. De onde continuar (pendências, em ordem)
 
-1. **Commit pendente (22/11), com o ok do Guilherme.** Entram:
-   - Equador: `coleta/ecu-1`, `data/coleta/ecu-1`, `docs/coleta/ecu-1.md`;
-   - código e documentação comuns: `coleta/comum-sulamerica/` (`rsssf_sul.py`, `documentar.py`, `testar_carga.py`,
-     `COMECE-AQUI.md`, `documentacao/`);
-   - Paraguai e Peru reimportados: `coleta/par-1/clubes_par.py`, `data/coleta/par-1/pacote`, `docs/coleta/par-1.md`,
-     `coleta/per-1/importar.py`, `data/coleta/per-1/pacote`, `docs/coleta/per-1.md`;
-   - os recados: `docs/coleta/pedidos-sulamerica.md`.
+1. **Agente 1 carregar `ecu-1` e `per-1` e recarregar o `par-1`** (no GitHub desde o `0b793ba`, 22/11; recado no fim de
+   `docs/coleta/pedidos-sulamerica.md`). Só acompanhar a resposta dele.
 2. **Achados da revisão em aberto (o maior trabalho que falta):** 36 do Argentino (prefixo AR) e 19 do Uruguaio (UY), em
    `docs/revisao/achados.csv` (`quem_corrige` = `coleta-sulamerica`), com as provas em `docs/revisao/arg-1.md` e
    `uru-1.md`. O resumo está em `docs/coleta/pedidos-sulamerica.md`, seções "Pedidos da revisão". Os mais graves:
