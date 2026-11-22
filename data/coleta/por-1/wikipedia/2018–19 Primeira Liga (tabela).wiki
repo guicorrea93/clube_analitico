@@ -1,0 +1,88 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.ligaportugal.pt/en/liga/classificacao/20182019/liganos Liga Portugal]
+
+<!--Update team positions here-->
+|team1=BEN |team2=POR |team3=SCP |team4=BRA |team5=VGU |team6=MOR |team7=RAV |team8=BOA |team9=BEL |team10=STC |team11=MAR |team12=PRT |team13=VSE |team14=DAV |team15=TON |team16=CHA |team17=NAC |team18=FEI
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CL3Q |result3=ELGS |result4=EL3Q |result5=EL2Q |result16=REL |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+
+|win_BEL=10 |draw_BEL=13|loss_BEL=11 |gf_BEL=42 |ga_BEL=51 <!-- Belenenses SAD -->
+|win_BEN=28 |draw_BEN=3 |loss_BEN=3  |gf_BEN=103|ga_BEN=31 <!-- Benfica -->
+|win_BOA=13 |draw_BOA=5 |loss_BOA=16 |gf_BOA=34 |ga_BOA=40 <!-- Boavista -->
+|win_BRA=21 |draw_BRA=4 |loss_BRA=9  |gf_BRA=56 |ga_BRA=37 <!-- Braga -->
+|win_CHA=8  |draw_CHA=8 |loss_CHA=18 |gf_CHA=34 |ga_CHA=57 <!-- Chaves -->
+|win_DAV=10 |draw_DAV=6 |loss_DAV=18 |gf_DAV=35 |ga_DAV=49 <!-- Desportivo das Aves -->
+|win_FEI=3  |draw_FEI=11|loss_FEI=20 |gf_FEI=27 |ga_FEI=64 <!-- Feirense -->
+|win_MAR=12 |draw_MAR=3 |loss_MAR=19 |gf_MAR=26 |ga_MAR=44 <!-- Marítimo -->
+|win_MOR=16 |draw_MOR=4 |loss_MOR=14 |gf_MOR=39 |ga_MOR=44 <!-- Moreirense-->
+|win_NAC=7  |draw_NAC=7 |loss_NAC=20 |gf_NAC=33 |ga_NAC=73 <!-- Nacional -->
+|win_PRT=11 |draw_PRT=6 |loss_PRT=17 |gf_PRT=44 |ga_PRT=59 <!-- Portimonense -->
+|win_POR=27 |draw_POR=4 |loss_POR=3  |gf_POR=74 |ga_POR=20 <!-- Porto -->
+|win_RAV=12 |draw_RAV=9 |loss_RAV=13 |gf_RAV=50 |ga_RAV=52 <!-- Rio Ave -->
+|win_STC=11 |draw_STC=9 |loss_STC=14 |gf_STC=43 |ga_STC=45 <!-- Santa Clara -->
+|win_SCP=23 |draw_SCP=5 |loss_SCP=6  |gf_SCP=72 |ga_SCP=33 <!-- Sporting CP -->
+|win_TON=9  |draw_TON=8 |loss_TON=17 |gf_TON=40 |ga_TON=54 <!-- Tondela -->
+|win_VGU=15 |draw_VGU=7 |loss_VGU=12 |gf_VGU=46 |ga_VGU=34 <!-- Vitória de Guimarães -->
+|win_VSE=8  |draw_VSE=12|loss_VSE=14 |gf_VSE=28 |ga_VSE=39 <!-- Vitória de Setúbal-->
+
+<!--Team definitions (wikilinks in table)-->
+|name_BEL=[[Belenenses SAD]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_CHA=[[G.D. Chaves|Chaves]]
+|name_DAV=[[C.D. Aves|Desportivo das Aves]]
+|name_FEI=[[C.D. Feirense|Feirense]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_MOR=[[Moreirense F.C.|Moreirense]]
+|name_NAC=[[C.D. Nacional|Nacional]]
+|name_POR=[[FC Porto|Porto]]
+|name_PRT=[[Portimonense S.C.|Portimonense]]
+|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|name_STC=[[C.D. Santa Clara|Santa Clara]]
+|name_SCP=[[Sporting CP]]
+|name_TON=[[C.D. Tondela|Tondela]]
+|name_VGU=[[Vitória S.C.|Vitória de Guimarães]]
+|name_VSE=[[Vitória F.C.|Vitória de Setúbal]]
+
+<!--Status-->
+|status_BEN=C
+|status_CHA=R
+|status_NAC=R
+|status_FEI=R
+|hth_VGU=Vitória de Guimarães finished ahead of Moreirense on head-to-head points: Vitória de Guimarães 1–0 Moreirense, Moreirense 1–3 Vitória de Guimarães.
+|hth_MOR=VGU
+|hth_MAR=Marítimo finished ahead of Portimonense on head-to-head away goals: Marítimo 2–1 Portimonense, Portimonense 3–2 Marítimo.
+|hth_PRT=MAR
+|hth_VSE=Vitória de Setúbal finished ahead of Desportivo das Aves on head-to-head goal difference: Vitória de Setúbal 2–0 Desportivo das Aves, Desportivo das Aves 2–1 Vitória de Setúbal.
+|hth_DAV=VSE
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2019–20 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2019–20 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2019–20 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2019–20 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue3  |text_EL2Q=Qualification for the [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_INEG=  |text_INEG=Ineligible to qualify, failed to obtain UEFA licence.
+|col_REL=red1    |text_REL=Relegation to [[2019–20 LigaPro|LigaPro]]
+|note_res_ELGS=Since the winners of the [[2018–19 Taça de Portugal]], [[Sporting CP]], qualified for European competition based on league position, the spot awarded to the third-placed team (Europa League third qualifying round) was passed to the fourth-placed team, and the spot awarded to the fourth-placed team (Europa League second qualifying round) was passed to the fifth-placed team.
+|note_res_EL3Q=ELGS
+|note_res_EL2Q=ELGS
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2018–19 association football standings in Europe templates|Portugal]]
+[[Category:Portugal football standings templates]]
+[[Category:2018–19 in Portuguese football leagues|Template]]
+</noinclude>

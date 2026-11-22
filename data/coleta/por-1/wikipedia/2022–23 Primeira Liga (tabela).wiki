@@ -1,0 +1,75 @@
+<onlyinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.ligaportugal.pt/pt/liga/classificacao/20222023/ligaportugalbwin Liga Portugal]
+
+<!--Update team positions here-->
+|team_order=BEN, POR, BRA, SPO, ARO, VSC, CHA, FAM, BOA, CAS, VIZ, RAV, GIL, EST, PTM, MAR, PAC, STA
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q <!--|result4=ELGS--> |result4=ELGS |result5=ECL3Q |result6=ECL2Q |result16=RPO |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ARO=15|draw_ARO=9 |loss_ARO=10|gf_ARO=36|ga_ARO=37<!-- Arouca -->
+|win_BEN=28|draw_BEN=3 |loss_BEN=3 |gf_BEN=82|ga_BEN=20<!-- Benfica -->
+|win_BOA=12|draw_BOA=8 |loss_BOA=14|gf_BOA=43|ga_BOA=54<!-- Boavista -->
+|win_BRA=25|draw_BRA=3 |loss_BRA=6 |gf_BRA=75|ga_BRA=30<!-- Braga -->
+|win_CAS=11|draw_CAS=8 |loss_CAS=15|gf_CAS=31|ga_CAS=40<!-- Casa Pia -->
+|win_CHA=12|draw_CHA=10|loss_CHA=12|gf_CHA=35|ga_CHA=40<!-- Chaves -->
+|win_EST=10|draw_EST=5 |loss_EST=19|gf_EST=33|ga_EST=49<!-- Estoril -->
+|win_FAM=13|draw_FAM=5 |loss_FAM=16|gf_FAM=39|ga_FAM=47<!-- Famalicão -->
+|win_GIL=10|draw_GIL=7 |loss_GIL=17|gf_GIL=32|ga_GIL=41<!-- Gil Vicente -->
+|win_MAR=7 |draw_MAR=5 |loss_MAR=22|gf_MAR=32|ga_MAR=63<!-- Marítimo -->
+|win_PAC=6 |draw_PAC=5 |loss_PAC=23|gf_PAC=26|ga_PAC=62<!-- Paços de Ferreira -->
+|win_PTM=10|draw_PTM=4 |loss_PTM=20|gf_PTM=25|ga_PTM=48<!-- Portimonense -->
+|win_POR=27|draw_POR=4 |loss_POR=3 |gf_POR=73|ga_POR=22<!-- Porto -->
+|win_RAV=10|draw_RAV=10|loss_RAV=14|gf_RAV=36|ga_RAV=43<!-- Rio Ave -->
+|win_STA=5 |draw_STA=7 |loss_STA=22|gf_STA=26|ga_STA=58<!-- Santa Clara -->
+|win_SPO=23|draw_SPO=5 |loss_SPO=6 |gf_SPO=71|ga_SPO=32<!-- Sporting CP -->
+|win_VSC=16|draw_VSC=5 |loss_VSC=13|gf_VSC=34|ga_VSC=39<!-- Vitória de Guimarães -->
+|win_VIZ=11|draw_VIZ=7 |loss_VIZ=16|gf_VIZ=34|ga_VIZ=38<!-- Vizela -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_ARO=[[F.C. Arouca|Arouca]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_CAS=[[Casa Pia A.C.|Casa Pia]]
+|name_CHA=[[G.D. Chaves|Chaves]]
+|name_EST=[[G.D. Estoril Praia|Estoril]]
+|name_FAM=[[F.C. Famalicão|Famalicão]]
+|name_GIL=[[Gil Vicente F.C.|Gil Vicente]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_PAC=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_POR=[[FC Porto|Porto]]
+|name_PTM=[[Portimonense S.C.|Portimonense]]
+|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|name_STA=[[C.D. Santa Clara|Santa Clara]]
+|name_SPO=[[Sporting CP]]
+|name_VSC=[[Vitória S.C.|Vitória de Guimarães]]
+|name_VIZ=[[F.C. Vizela|Vizela]]
+
+|status_BEN=C
+|status_MAR=R
+|status_PAC=R |status_STA=R
+
+<!--Head-to-head-->
+|hth_VIZ=Vizela finished ahead of Rio Ave on head-to-head points: Rio Ave 0–1 Vizela, Vizela 3–1 Rio Ave.
+|hth_RAV=VIZ
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Matches won; 6) Goals scored; 7) Play-off.
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1   |text_CLGS=Qualification for the [[2023–24 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2   |text_CL3Q=Qualification for the [[2023–24 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1    |text_ELGS=Qualification for the [[2023–24 UEFA Europa League#Group stage|Europa League group stage]]
+|col_ECL3Q=yellow1 |text_ECL3Q=Qualification for the [[2023–24 UEFA Europa Conference League#Third qualifying round|Europa Conference League third qualifying round]]
+|col_ECL2Q=yellow2 |text_ECL2Q=Qualification for the [[2023–24 UEFA Europa Conference League#Second qualifying round|Europa Conference League second qualifying round]]
+|col_RPO=red2      |text_RPO=Qualification for the [[2022–23 Primeira Liga#Relegation play-offs|relegation play-offs]]
+|col_REL=red1      |text_REL=Relegation to [[2023–24 Liga Portugal 2|Liga Portugal 2]]
+
+}}</onlyinclude>
+
+[[Category:2022–23 association football standings in Europe templates|Portugal]]

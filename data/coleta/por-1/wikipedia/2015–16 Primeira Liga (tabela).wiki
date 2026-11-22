@@ -1,0 +1,74 @@
+{{#invoke:Sports table|main|style=WDL
+|source=[http://www.ligaportugal.pt/oou/classificacao/20152016/primeiraliga Liga Portugal], [https://www.soccerway.com/portugal/liga-portugal-2015-2016/results/ Soccerway]
+
+|team1=BEN |team2=SCP |team3=POR |team4=BRA |team5=ARO |team6=RAV |team7=PAÇ |team8=EST |team9=BEL |team10=VGU |team11=NAC |team12=MOR |team13=MAR |team14=BOA |team15=VSE |team16=TON |team17=UNI |team18=ACA
+
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=EL3Q |result6=EL3Q |result17=REL |result18=REL
+
+|update=complete
+|win_ACA=5 |draw_ACA=10|loss_ACA=19|gf_ACA=32|ga_ACA=60<!-- Académica -->
+|win_ARO=13|draw_ARO=15|loss_ARO=6 |gf_ARO=47|ga_ARO=38<!-- Arouca -->
+|win_BEL=10|draw_BEL=11|loss_BEL=13|gf_BEL=44|ga_BEL=66<!-- Belenenses-->
+|win_BEN=29|draw_BEN=1 |loss_BEN=4 |gf_BEN=88|ga_BEN=22<!-- Benfica -->
+|win_BOA=8 |draw_BOA=9 |loss_BOA=17|gf_BOA=24|ga_BOA=41<!-- Boavista -->
+|win_BRA=16|draw_BRA=10|loss_BRA=8 |gf_BRA=54|ga_BRA=35<!-- Braga-->
+|win_EST=13|draw_EST=8 |loss_EST=13|gf_EST=40|ga_EST=41<!-- Estoril -->
+|win_MAR=10|draw_MAR=5 |loss_MAR=19|gf_MAR=45|ga_MAR=63<!-- Marítimo -->
+|win_MOR=9 |draw_MOR=9 |loss_MOR=16|gf_MOR=38|ga_MOR=54<!-- Moreirense -->
+|win_NAC=10|draw_NAC=8 |loss_NAC=16|gf_NAC=40|ga_NAC=56<!-- Nacional -->
+|win_PAÇ=13|draw_PAÇ=10|loss_PAÇ=11|gf_PAÇ=43|ga_PAÇ=42<!-- Paços de Ferreira -->
+|win_POR=23|draw_POR=4 |loss_POR=7 |gf_POR=67|ga_POR=30<!-- Porto -->
+|win_RAV=14|draw_RAV=8 |loss_RAV=12|gf_RAV=44|ga_RAV=44<!-- Rio Ave -->
+|win_SCP=27|draw_SCP=5 |loss_SCP=2 |gf_SCP=79|ga_SCP=21<!-- Sporting CP -->
+|win_TON=8 |draw_TON=6 |loss_TON=20|gf_TON=34|ga_TON=54<!-- Tondela -->
+|win_UNI=7 |draw_UNI=8 |loss_UNI=19|gf_UNI=27|ga_UNI=50<!-- União da Madeira -->
+|win_VGU=9 |draw_VGU=13|loss_VGU=12|gf_VGU=45|ga_VGU=53<!-- Vitória de Guimarães -->
+|win_VSE=6 |draw_VSE=12|loss_VSE=16|gf_VSE=40|ga_VSE=61<!-- Vitória de Setúbal -->
+
+<!--Head-to-head record-->
+|hth_VSE=Vitória de Setúbal ahead of Tondela on head-to-head record; Tondela–Vitória de Setúbal 1–3, Vitória de Setúbal–Tondela 0–1
+|hth_TON=VSE
+
+<!--Status-->
+|status_BEN=C
+|status_UNI=R
+|status_ACA=R
+
+<!--Team definitions (wikilinks in table)-->
+|name_ACA=[[Associação Académica de Coimbra – O.A.F.|Académica]]
+|name_ARO=[[F.C. Arouca|Arouca]]
+|name_BEL=[[C.F. Os Belenenses|Belenenses]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_EST=[[G.D. Estoril Praia|Estoril]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_MOR=[[Moreirense F.C.|Moreirense]]
+|name_NAC=[[C.D. Nacional|Nacional]]
+|name_PAÇ=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_POR=[[FC Porto|Porto]]
+|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|name_SCP=[[Sporting Clube de Portugal|Sporting CP]]
+|name_TON=[[C.D. Tondela|Tondela]]
+|name_UNI=[[C.F. União|União da Madeira]]
+|name_VGU=[[Vitória S.C.|Vitória de Guimarães]]
+|name_VSE=[[Vitória F.C.|Vitória de Setúbal]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.<br />(Note: [[Portuguese League for Professional Football|LPFP]] decided that only criteria 1, 5, 6 and 7 would be applied to establish the classification during the competition.)<ref>{{cite web|url=http://www.ligaportugal.pt/media/91359/regulamento-competicoes-2015-2016.pdf |title=Regulamento de Competições 2015-16 |publisher= [[Portuguese League for Professional Football|LPFP]] |format=pdf |page=10 |access-date=2 May 2016 |language=pt |trans-title=Regulation of Competitions}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2016–17 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2016–17 UEFA Champions League#Play-off round|Champions League play-off round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2016–17 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2016–17 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2016–17 LigaPro|LigaPro]]
+
+|note_res_ELGS=[[S.C. Braga|Braga]] qualified for the [[2016–17 UEFA Europa League#Group stage|Europa League group stage]] by winning the [[2015–16 Taça de Portugal]].
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Portugal football standings templates]]
+</noinclude>

@@ -1,0 +1,58 @@
+{{#invoke:sports table|main|style=WDL
+|res_col_header=QR
+|show_limit=5
+|team1=POR|name_POR=[[FC Porto|Porto]]
+|team2=BEN|name_BEN=[[S.L. Benfica|Benfica]]
+|team3=PAÇ|name_PAÇ=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|team4=BRA|name_BRA=[[S.C. Braga|Braga]]
+|team5=EST|name_EST=[[G.D. Estoril Praia|Estoril]]
+|team6=RAV|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|team7=SCP|name_SCP=[[Sporting Clube de Portugal|Sporting CP]]
+|team8=NAC|name_NAC=[[C.D. Nacional|Nacional]]
+|team9=VGU|name_VGU=[[Vitória S.C.|Vitória de Guimarães]]
+|team10=MAR|name_MAR=[[C.S. Marítimo|Marítimo]]
+|team11=ACA|name_ACA=[[Associação Académica de Coimbra – O.A.F.|Académica]]
+|team12=VSE|name_VSE=[[Vitória F.C.|Vitória de Setúbal]]
+|team13=GVI|name_GVI=[[Gil Vicente F.C.|Gil Vicente]]
+|team14=OLH|name_OLH=[[S.C. Olhanense|Olhanense]]
+|team15=MOR|name_MOR=[[Moreirense F.C.|Moreirense]]
+|team16=BEM|name_BEM=[[S.C. Beira-Mar|Beira-Mar]]
+|win_POR=24|draw_POR=6|loss_POR=0|gf_POR=70|ga_POR=14|status_POR=C
+|win_BEN=24|draw_BEN=5|loss_BEN=1|gf_BEN=77|ga_BEN=20
+|win_PAÇ=14|draw_PAÇ=12|loss_PAÇ=4|gf_PAÇ=42|ga_PAÇ=29
+|win_BRA=16|draw_BRA=4|loss_BRA=10|gf_BRA=60|ga_BRA=44
+|win_EST=13|draw_EST=6|loss_EST=11|gf_EST=47|ga_EST=37
+|win_RAV=12|draw_RAV=6|loss_RAV=12|gf_RAV=35|ga_RAV=42
+|win_SCP=11|draw_SCP=9|loss_SCP=10|gf_SCP=36|ga_SCP=36
+|win_NAC=11|draw_NAC=7|loss_NAC=12|gf_NAC=45|ga_NAC=51
+|win_VGU=11|draw_VGU=7|loss_VGU=12|gf_VGU=36|ga_VGU=47
+|win_MAR=9|draw_MAR=11|loss_MAR=10|gf_MAR=34|ga_MAR=45
+|win_ACA=6|draw_ACA=10|loss_ACA=14|gf_ACA=33|ga_ACA=45
+|win_VSE=7|draw_VSE=5|loss_VSE=18|gf_VSE=30|ga_VSE=55
+|win_GVI=6|draw_GVI=7|loss_GVI=17|gf_GVI=31|ga_GVI=54
+|win_OLH=5|draw_OLH=10|loss_OLH=15|gf_OLH=26|ga_OLH=42
+|win_MOR=5|draw_MOR=9|loss_MOR=16|gf_MOR=30|ga_MOR=51|status_MOR=R
+|win_BEM=5|draw_BEM=8|loss_BEM=17|gf_BEM=35|ga_BEM=55|status_BEM=R
+|hth_RAV=Rio Ave ahead of Sporting CP on head-to-head record; Rio Ave–Sporting CP 2–1, Sporting CP–Rio Ave 0–1 |hth_SCP=RAV
+|hth_NAC=Nacional ahead of Vitória de Guimarães on head-to-head record; Nacional–Vitória de Guimarães 2–1, Vitória de Guimarães–Nacional 1–3 |hth_VGU=NAC
+|hth_GVI=Gil Vicente ahead of Olhanense on head-to-head record; Gil Vicente–Olhanense 2–0, Olhanense–Gil Vicente 2–2 |hth_OLH=GVI
+|col_CLGS=green1|text_CLGS=Qualification for the [[2013–14 UEFA Champions League#Group stage|Champions League group stage]]
+|result1=CLGS|result2=CLGS
+|col_CLPO=green2|text_CLPO=Qualification for the [[2013–14 UEFA Champions League#Play-off round|Champions League play-off round]]
+|result3=CLPO
+|col_ELGS=blue1|text_ELGS=Qualification for the [[2013–14 UEFA Europa League#Group stage|Europa League group stage]] 
+|result9=ELGS
+|col_ELPO=blue2|text_ELPO=Qualification for the [[2013–14 UEFA Europa League#Play-off round|Europa League play-off round]]
+|result4=ELPO
+|col_EL3Q=blue3|text_EL3Q=Qualification for the [[2013–14 UEFA Europa League#Third qualifying round|Europa League third qualifying round]] 
+|result5=EL3Q
+|note_res_ELGS=Vitória de Guimarães qualified for the group stage of [[2013–14 UEFA Europa League]] after winning the [[2012–13 Taça de Portugal]].
+|col_R=red1|text_R=Relegation to [[2013–14 Segunda Liga|Segunda Liga]]
+|result15=R|result16=R
+|update=complete
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.<br />(Note: [[Portuguese League for Professional Football|LPFP]] decided that only criteria 1, 5, 6 and 7 would be applied to establish the classification during the competition.)<ref>http://www.lpfp.pt/liga_zon_sagres/pages/classificacao_resultados.aspx</ref>
+|source=[http://www.lpfp.pt/liga_zon_sagres/pages/classificacao_resultados.aspx LPFP] {{in lang|pt}}
+}}<noinclude>
+{{template-reflist}}
+[[Category:Portugal football standings templates]]
+</noinclude>

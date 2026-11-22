@@ -1,0 +1,85 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.ligaportugal.pt/en/liga/classificacao/20162017/liganos Liga Portugal]
+
+<!--Update team positions here-->
+|team1=BEN |team2=POR |team3=SCP |team4=VGU |team5=BRA |team6=MAR |team7=RAV |team8=FEI |team9=BOA |team10=EST |team11=CHA|team12=VSE |team13=PAÇ |team14=BEL |team15=MOR |team16=TON |team17=ARO |team18=NAC
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CLGS |result3=CL3Q |result4=ELGS |result5=EL3Q |result6=EL3Q |result17=REL |result18=REL
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_ARO=9 |draw_ARO=5 |loss_ARO=20|gf_ARO=33|ga_ARO=57 <!-- Arouca -->
+|win_BEL=9 |draw_BEL=9 |loss_BEL=16|gf_BEL=27|ga_BEL=45 <!-- Belenenses -->
+|win_BEN=25|draw_BEN=7 |loss_BEN=2 |gf_BEN=72|ga_BEN=18 <!-- Benfica -->
+|win_BOA=10|draw_BOA=13|loss_BOA=11|gf_BOA=33|ga_BOA=36 <!-- Boavista -->
+|win_BRA=15|draw_BRA=9 |loss_BRA=10|gf_BRA=51|ga_BRA=36 <!-- Braga -->
+|win_CHA=8 |draw_CHA=14|loss_CHA=12|gf_CHA=35|ga_CHA=42 <!-- Chaves -->
+|win_EST=10|draw_EST=8 |loss_EST=16|gf_EST=36|ga_EST=42 <!-- Estoril -->
+|win_FEI=14|draw_FEI=6 |loss_FEI=14|gf_FEI=31|ga_FEI=45 <!-- Feirense -->
+|win_MAR=13|draw_MAR=11|loss_MAR=10|gf_MAR=34|ga_MAR=32 <!-- Marítimo -->
+|win_MOR=8 |draw_MOR=9 |loss_MOR=17|gf_MOR=33|ga_MOR=48 <!-- Moreirense -->
+|win_NAC=4 |draw_NAC=9 |loss_NAC=21|gf_NAC=22|ga_NAC=58 <!-- Nacional -->
+|win_PAÇ=8 |draw_PAÇ=12|loss_PAÇ=14|gf_PAÇ=32|ga_PAÇ=45 <!-- Paços de Ferreira -->
+|win_POR=22|draw_POR=10|loss_POR=2 |gf_POR=71|ga_POR=19 <!-- Porto -->
+|win_RAV=14|draw_RAV=7 |loss_RAV=13|gf_RAV=41|ga_RAV=39 <!-- Rio Ave -->
+|win_SCP=21|draw_SCP=7 |loss_SCP=6 |gf_SCP=68|ga_SCP=36 <!-- Sporting CP -->
+|win_TON=8 |draw_TON=8 |loss_TON=18|gf_TON=29|ga_TON=52 <!-- Tondela -->
+|win_VGU=18|draw_VGU=8 |loss_VGU=8 |gf_VGU=50|ga_VGU=39 <!-- Vitória de Guimarães -->
+|win_VSE=10|draw_VSE=8 |loss_VSE=16|gf_VSE=30|ga_VSE=39 <!-- Vitória de Setúbal -->
+
+|hth_EST=Estoril is ahead of Chaves and Vitória de Setúbal on head-to-head points: Estoril 6 pts, Chaves 5 pts, Vitória de Setúbal 5 pts. Chaves is ahead of Vitória de Setúbal on head-to-head goal difference. |hth_CHA=EST |hth_VSE=EST
+|hth_PAÇ=Paços de Ferreira is ahead of Belenenses on head-to-head points: Paços de Ferreira 1–0 Belenenses, Belenenses 1–2 Paços de Ferreira. |hth_BEL=PAÇ 
+|hth_TON=Tondela is ahead of Arouca on overall goal difference. |hth_ARO=TON
+
+<!--Team definitions (wikilinks in table)-->
+|name_ARO=[[F.C. Arouca|Arouca]]
+|name_BEL=[[C.F. Os Belenenses|Belenenses]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_CHA=[[G.D. Chaves|Chaves]]
+|name_EST=[[G.D. Estoril Praia|Estoril]]
+|name_FEI=[[C.D. Feirense|Feirense]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_MOR=[[Moreirense F.C.|Moreirense]]
+|name_NAC=[[C.D. Nacional|Nacional]]
+|name_PAÇ=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_POR=[[FC Porto|Porto]]
+|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|name_SCP=[[Sporting CP]]
+|name_TON=[[C.D. Tondela|Tondela]]
+|name_VGU=[[Vitória S.C.|Vitória de Guimarães]]
+|name_VSE=[[Vitória F.C.|Vitória de Setúbal]]
+
+<!--Status-->
+|status_BEN=C
+|status_POR=
+|status_SCP=
+|status_VGU=
+|status_BRA=
+|status_MAR=
+|status_ARO=R
+|status_NAC=R
+|status_text_X=Assured of at least Europa League, but may still qualify for Champions League
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.<br />(Note: The [[Liga Portuguesa de Futebol Profissional|LPFP]] decided that only criteria 1, 5, 6 and 7 would be applied to establish the classification during the competition.)<ref>{{cite web|url=http://www.ligaportugal.pt/media/2203/regulamentodascompeticoes20162017.pdf#10|title=Regulamento das Competições Organizadas pela Liga Portuguesa de Futebol Profissional|date=28 June 2016|website=[[Liga Portuguesa de Futebol Profissional|LPFP]]|page=10|language=Portuguese|trans-title=Regulation for the competitions organised by the Portuguese Professional Football League|format=PDF|access-date=2 September 2016}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2017–18 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2017–18 UEFA Champions League#Play-off round|Champions League play-off round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2017–18 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2017–18 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2017–18 LigaPro|LigaPro]]
+
+|note_res_ELGS=Since [[S.L. Benfica|Benfica]] won the [[2016–17 Taça de Portugal]], the spot awarded to the cup winner (Europa League group stage) was passed to the fourth-placed team and the spot originally meant for the fourth-placed team (Europa League third qualifying round) was given to the sixth-placed team.
+|note_res_EL3Q=ELGS
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Portugal football standings templates]]
+</noinclude>

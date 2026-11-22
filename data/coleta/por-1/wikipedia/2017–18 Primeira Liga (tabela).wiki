@@ -1,0 +1,87 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[http://www.ligaportugal.pt/en/liga/classificacao/20172018/liganos Liga Portugal]
+
+<!--Update team positions here-->
+|team1=POR |team2=BEN |team3=SCP |team4=BRA |team5=RAV |team6=CHA |team7=MAR |team8=BOA |team9=VGU |team10=PRT |team11=TON |team12=BEL |team13=DAV |team14=VSE |team15=MOR |team16=FEI |team17=PAÇ |team18=EST 
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CL3Q |result3=ELGS |result4=EL3Q |result5=EL2Q |result12=BEL |result17=REL |result18=REL
+
+|update=complete
+|win_BEL=9 |draw_BEL=10|loss_BEL=15|gf_BEL=33|ga_BEL=46 <!-- Belenenses -->
+|win_BEN=25|draw_BEN=6 |loss_BEN=3 |gf_BEN=80|ga_BEN=22 <!-- Benfica -->
+|win_BOA=13|draw_BOA=6 |loss_BOA=15|gf_BOA=35|ga_BOA=44 <!-- Boavista -->
+|win_BRA=24|draw_BRA=3 |loss_BRA=7 |gf_BRA=74|ga_BRA=29 <!-- Braga -->
+|win_CHA=13|draw_CHA=8 |loss_CHA=13|gf_CHA=47|ga_CHA=55 <!-- Chaves -->
+|win_DAV=9 |draw_DAV=7 |loss_DAV=18|gf_DAV=36|ga_DAV=51 <!-- Desportivos das Aves -->
+|win_EST=8 |draw_EST=6 |loss_EST=20|gf_EST=29|ga_EST=61 <!-- Estoril -->
+|win_FEI=9 |draw_FEI=4 |loss_FEI=21|gf_FEI=32|ga_FEI=48 <!-- Feirense -->
+|win_MAR=13|draw_MAR=8 |loss_MAR=13|gf_MAR=36|ga_MAR=49 <!-- Marítimo -->
+|win_MOR=8 |draw_MOR=8 |loss_MOR=18|gf_MOR=29|ga_MOR=50 <!-- Moreirense -->
+|win_PAÇ=7 |draw_PAÇ=9 |loss_PAÇ=18|gf_PAÇ=33|ga_PAÇ=59 <!-- Paços de Ferreira -->
+|win_PRT=10|draw_PRT=8 |loss_PRT=16|gf_PRT=52|ga_PRT=60 <!-- Portimonense -->
+|win_POR=28|draw_POR=4 |loss_POR=2 |gf_POR=82|ga_POR=18 <!-- Porto -->
+|win_RAV=15|draw_RAV=6 |loss_RAV=13|gf_RAV=40|ga_RAV=42 <!-- Rio Ave -->
+|win_SCP=24|draw_SCP=6 |loss_SCP=4 |gf_SCP=63|ga_SCP=24 <!-- Sporting CP -->
+|win_TON=10|draw_TON=8 |loss_TON=16|gf_TON=41|ga_TON=50 <!-- Tondela -->
+|win_VGU=13|draw_VGU=4 |loss_VGU=17|gf_VGU=45|ga_VGU=56 <!-- Vitória de Guimarães -->
+|win_VSE=7 |draw_VSE=11|loss_VSE=16|gf_VSE=39|ga_VSE=62 <!-- Vitória de Setúbal -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_BEL=[[C.F. Os Belenenses|Belenenses]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_CHA=[[G.D. Chaves|Chaves]]
+|name_DAV=[[C.D. Aves|Desportivo das Aves]]
+|name_EST=[[G.D. Estoril Praia|Estoril]]
+|name_FEI=[[C.D. Feirense|Feirense]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_MOR=[[Moreirense F.C.|Moreirense]]
+|name_PAÇ=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_POR=[[FC Porto|Porto]]
+|name_PRT=[[Portimonense S.C.|Portimonense]]
+|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|name_SCP=[[Sporting CP]]
+|name_TON=[[C.D. Tondela|Tondela]]
+|name_VGU=[[Vitória S.C.|Vitória de Guimarães]]
+|name_VSE=[[Vitória F.C.|Vitória de Setúbal]]
+
+<!--Status-->
+|status_POR=C
+|status_BEL=DR
+|status_PAÇ=R
+|status_EST=R
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off. (Note: only criteria 1, 5, 6 and 7 are applied to establish the classification during the competition.)
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2018–19 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q={{nowrap|Qualification for the [[2018–19 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]}}
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2018–19 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2018–19 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue3  |text_EL2Q=Qualification for the [[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2018–19 LigaPro|LigaPro]]
+|col_BEL=red1    |text_BEL=Transferred with [[B-SAD]] after the season
+|note_res_BEL=[[C.F. Os Belenenses|Belenenses SAD]] split with [[B-SAD]] after the season, meaning they had to restart from the lowest league in Portugal.
+
+|note_res_ELGS=[[C.D. Aves|Desportivo das Aves]] qualified for the Europa league group stage by winning the [[2017–18 Taça de Portugal]]. However, since they failed to obtain a license for European competitions, the spot awarded to the cup winners (Europa League group stage) was passed to the third-placed team, the spot awarded to the third-placed team (Europa League third qualifying round) was passed to the fourth-placed team, and the spot awarded to the fourth-placed team was passed to the fifth-placed team (Europa league second qualifying round).
+|note_res_EL3Q=ELGS
+|note_res_EL2Q=ELGS
+|hth_CHA=Chaves finished ahead of Marítimo on head-to-head points: Chaves 4–1 Marítimo, Marítimo 1–2 Chaves.
+|hth_MAR=CHA
+|hth_PRT=Portimonense finished ahead of Tondela on head-to-head points: Portimonense 2–0 Tondela, Tondela 2–2 Portimonense.
+|hth_TON=PRT
+|hth_VSE=Vitória de Setúbal finished ahead of Moreirense on head-to-head away goals scored: Vitória de Setúbal 1–1 Moreirense, Moreirense 2–2 Vitória de Setúbal.
+|hth_MOR=VSE
+|hth_PAÇ=Paços de Ferreira finished ahead of Estoril on head-to-head points: Paços de Ferreira 1–0 Estoril, Estoril 1–1 Paços de Ferreira.
+|hth_EST=PAÇ
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:Portugal football standings templates]]
+</noinclude>

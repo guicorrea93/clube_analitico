@@ -1,0 +1,96 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.ligaportugal.pt/en/liga/classificacao/20192020/liganos Liga Portugal]
+
+<!--Update team positions here-->
+|team1=POR |team2=BEN |team3=BRA |team4=SPO |team5=RAV |team6=FAM |team7=GUI |team8=MOR |team9=STC |team10=GIL |team11=MAR |team12=BOA |team13=PFE |team14=TON |team15=BEL |team16=SET |team17=PTM |team18=AVE
+
+<!--Head-to-head-->
+|hth_BRA=Head-to-head away goals: Braga 1, Sporting 0
+|hth_SPO=BRA 
+|hth_MOR=Head-to-head points: Moreirense 9, Santa Clara 7, Gil Vicente 1
+|hth_STC=MOR
+|hth_GIL=MOR
+|hth_MAR=Head-to-head points: Marítimo 12, Boavista 4, Paços de Ferreira 1
+|hth_BOA=MAR
+|hth_PFE=MAR
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=CL3Q |result3=ELGS |result4=EL3Q |result5=EL2Q |result16=REL |result18=REL2
+
+|note_res_ELGS=Since the winners of the [[2019–20 Taça de Portugal]], [[FC Porto|Porto]], qualified for the Champions League based on league position, the spot awarded to the third-placed team (Europa League third qualifying round) was passed to the fourth-placed team, and the spot awarded to the fourth-placed team (Europa League second qualifying round) was passed to the fifth-placed team.
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_BEL=9 |draw_BEL=8 |loss_BEL=17|gf_BEL=27|ga_BEL=54<!-- Belenenses SAD-->
+|win_BEN=24|draw_BEN=5 |loss_BEN=5 |gf_BEN=71|ga_BEN=26<!-- Benfica -->
+|win_BOA=10|draw_BOA=9 |loss_BOA=15|gf_BOA=28|ga_BOA=39<!-- Boavista -->
+|win_BRA=18|draw_BRA=6 |loss_BRA=10|gf_BRA=61|ga_BRA=40<!-- Braga -->
+|win_AVE=5 |draw_AVE=2 |loss_AVE=27|gf_AVE=24|ga_AVE=68<!-- Aves -->
+|win_FAM=14|draw_FAM=12|loss_FAM=8 |gf_FAM=53|ga_FAM=51<!-- Famalicão -->
+|win_GIL=11|draw_GIL=10|loss_GIL=13|gf_GIL=39|ga_GIL=43<!-- Gil Vicente -->
+|win_MAR=9 |draw_MAR=12|loss_MAR=13|gf_MAR=34|ga_MAR=42<!-- Marítimo -->
+|win_MOR=10|draw_MOR=13|loss_MOR=11|gf_MOR=42|ga_MOR=44<!-- Moreirense-->
+|win_PFE=11|draw_PFE=6 |loss_PFE=17|gf_PFE=35|ga_PFE=51<!-- Paços de Ferreira -->
+|win_PTM=7 |draw_PTM=12|loss_PTM=15|gf_PTM=30|ga_PTM=45<!-- Portimonense -->
+|win_POR=26|draw_POR=4 |loss_POR=4 |gf_POR=74|ga_POR=22<!-- Porto -->
+|win_RAV=15|draw_RAV=10|loss_RAV=9 |gf_RAV=48|ga_RAV=36<!-- Rio Ave -->
+|win_STC=11|draw_STC=10|loss_STC=13|gf_STC=36|ga_STC=41<!-- Santa Clara -->
+|win_SET=7 |draw_SET=13|loss_SET=14|gf_SET=27|ga_SET=43<!-- Vitória de Setúbal -->
+|win_SPO=18|draw_SPO=6 |loss_SPO=10|gf_SPO=49|ga_SPO=34<!-- Sporting CP -->
+|win_TON=9 |draw_TON=9 |loss_TON=16|gf_TON=30|ga_TON=44<!-- Tondela -->
+|win_GUI=13|draw_GUI=11|loss_GUI=10|gf_GUI=53|ga_GUI=38<!-- Vitória de Guimarães -->
+
+<!--Status-->
+|status_text_R=Relegated
+
+<!--Team definitions (wikilinks in table)-->
+|name_BEL=[[Belenenses SAD]]
+|name_BEN=[[S.L. Benfica|Benfica]]
+|name_BRA=[[S.C. Braga|Braga]]
+|name_MOR=[[Moreirense F.C.|Moreirense]]
+|name_POR=[[FC Porto|Porto]]
+|name_RAV=[[Rio Ave F.C.|Rio Ave]]
+|name_SPO=[[Sporting CP]]
+|name_GUI=[[Vitória S.C.|Vitória de Guimarães]]
+|name_PFE=[[F.C. Paços de Ferreira|Paços de Ferreira]]
+|name_FAM=[[F.C. Famalicão|Famalicão]]
+|name_GIL=[[Gil Vicente F.C.|Gil Vicente]]
+|name_AVE=[[C.D. Aves|Aves]]
+|name_MAR=[[C.S. Marítimo|Marítimo]]
+|name_STC=[[C.D. Santa Clara|Santa Clara]]
+|name_PTM=[[Portimonense S.C.|Portimonense]]
+|name_BOA=[[Boavista F.C.|Boavista]]
+|name_SET=[[Vitória F.C.|Vitória de Setúbal]]
+|name_TON=[[C.D. Tondela|Tondela]]
+
+<!--Status-->
+|status_POR=C
+|status_SET=R
+|status_AVE=R
+
+<!--Notes-->
+|note_res_REL=[[Vitória F.C.|Vitória de Setúbal]] and [[C.D. Aves|Aves]] failed to produce valid licensing documentation to compete in the 2020–21 seasons of the [[2020–21 Primeira Liga|Primeira Liga]] and [[2020–21 LigaPro|LigaPro]], respectively, so they were punished by the [[Liga Portuguesa de Futebol Profissional|Portuguese Professional Football League]] with direct relegation to the [[2020–21 Campeonato de Portugal|Campeonato de Portugal]]. As a result, [[Portimonense S.C.|Portimonense]] (17th place) were invited to remain in the top tier for the 2020–21 season.<ref>{{Cite web|title=Aves e V. Setúbal falham licenciamento e descem ao Campeonato de Portugal|url=https://www.abola.pt/nnh/2020-07-29/liga-aves-e-v-setubal-falham-licenciamento-e-descem-ao-campeonato-de-portugal/855184|website=A BOLA|language=pt|date=29 July 2020}}</ref>
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Head-to-head away goals scored; 5) Goal difference; 6) Matches won; 7) Goals scored; 8) Play-off.
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2020–21 UEFA Champions League#Group stage|Champions League group stage]]
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2020–21 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2020–21 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2020–21 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue3  |text_EL2Q=Qualification for the [[2020–21 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2020–21 Campeonato de Portugal|Campeonato de Portugal]]
+|col_REL2=black1 |text_REL2=Left the league system in May 2023
+|note_res_EL3Q=ELGS
+|note_res_EL2Q=ELGS
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2019–20 association football standings in Europe templates|Portugal]]
+[[Category:Portugal football standings templates]]
+[[Category:2019–20 in Portuguese football leagues|Template]]
+</noinclude>

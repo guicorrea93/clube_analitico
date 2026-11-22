@@ -99,6 +99,28 @@ cópia do banco: carrega e confere OK. Commit aguarda o envio (o Guilherme aprov
 7. **Datas:** 356 jogos dos anos 1930 ficam sem data (o ogol só tem uma data provisória); 224 jogos sem rodada.
 8. **Escudos:** calendários em `data/cache/ogol-fra-1/`.
 
+## 21/11/2026 — Campeonato Português (`por-1`)
+
+**Pronto para o painel.** Pacote em `data/coleta/por-1/pacote/`, relatório em `docs/coleta/por-1.md`.
+92 edições (1934/35–2025/26), 20.978 jogos, todos com data e rodada; 13.874 gols com autor e 30.915 cartões (ESPN,
+2006/07+); classificação rodada a rodada; artilheiros (RSSSF, com o clube, todas as temporadas); 73 clubes. Testado com
+`futebol/carregar_pacotes.py` numa cópia do banco: carrega e confere OK.
+
+1. **Base é o ogol** (não há engsoccerdata antes de 1994/95). Conferido jogo a jogo com a matriz da RSSSF até 2004/05 e com
+   as tabelas da RSSSF e da Wikipédia em todas as temporadas.
+2. **1934/35 a 1937/38 = Campeonato da Liga** (experimental). Os títulos contam entre os da 1ª divisão (RSSSF: 92 títulos
+   desde 1934/35). Até 1944/45 não havia rebaixamento (participantes dos campeonatos regionais): `situacao` vazia.
+3. **Nomes únicos:** "Nacional da Madeira", "Oriental de Lisboa", "CD Feirense", "Caldas SC" (há Nacional e Oriental no
+   Uruguai, Feirense e Caldas no Brasil). Belenenses e Belenenses SAD (2018/19–2021/22) são clubes diferentes, assim como
+   AVS e Desportivo das Aves. Santa Clara (Açores): hora local dos Açores.
+4. **Decididos fora de campo:** 6 jogos com `resultado_especial` = `awd`. Em 2 deles (1960/61 Atlético x Leixões, 1974/75
+   CUF x Vitória de Setúbal) a vitória foi dada com o placar mantido; quem venceu está na `observacao`. Agente 1: se o
+   painel recalcula a tabela pelos gols, esses jogos precisam usar o vencedor da `observacao`.
+5. **Punições:** 2007/08 Porto −6 e União de Leiria −3 (Apito Final, como no fim da temporada e na RSSSF; o Porto foi
+   absolvido em 2017 e a Wikipédia de hoje não desconta) e Belenenses −3.
+6. **Pontos:** 2 por vitória até 1994/95, 3 a partir de 1995/96.
+7. **Escudos:** calendários em `data/cache/ogol-por-1/` (inclui 2026/27, baixado só para saber quem caiu em 2025/26).
+
 ## Resposta do agente 1 (20/11/2026): Inglês no banco e no painel
 
 - **Carregado** e conferido: `eng-1` com 126 temporadas e 50.950 jogos (os 65 clubes já estavam porque o
