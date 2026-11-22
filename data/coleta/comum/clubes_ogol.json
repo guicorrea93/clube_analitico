@@ -781,7 +781,8 @@
   "uf": "SP",
   "cidade": "Santos",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "19473": {
@@ -4807,7 +4808,8 @@
   "uf": "SP",
   "cidade": "Presidente Prudente",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "56556": {
@@ -5084,7 +5086,8 @@
   "uf": "SP",
   "cidade": "São Paulo",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "77757": {
@@ -5165,7 +5168,8 @@
   "uf": "SP",
   "cidade": "São Caetano",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "80978": {
@@ -5309,7 +5313,8 @@
   "uf": "SP",
   "cidade": "Santo André",
   "competicoes": [
-   "bra-sp-1"
+   "bra-sp-1",
+   "bra-sp-2"
   ]
  },
  "81208": {
@@ -5823,10 +5828,26 @@
    "bra-sp-2"
   ]
  },
+ "rs-adamantina": {
+  "clube": "Adamantina",
+  "uf": "SP",
+  "cidade": "Adamantina",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-alianca-sao-bernardo-do-campo": {
   "clube": "Aliança-SP",
   "uf": "SP",
   "cidade": "São Bernardo do Campo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-amparo": {
+  "clube": "Amparo",
+  "uf": "SP",
+  "cidade": "Amparo",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5839,6 +5860,78 @@
    "bra-sp-2"
   ]
  },
+ "rs-aracatuba": {
+  "clube": "Araçatuba FC",
+  "uf": "SP",
+  "cidade": "Araçatuba",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-araraquara": {
+  "clube": "Araraquara",
+  "uf": "SP",
+  "cidade": "Araraquara",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-ararense-araras": {
+  "clube": "Ararense",
+  "uf": "SP",
+  "cidade": "Araras",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-atletico-brasil-clube-paraguacu-paulista": {
+  "clube": "Atlético Brasil",
+  "uf": "SP",
+  "cidade": "Paraguaçu Paulista",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-avenida-salto": {
+  "clube": "Avenida (Salto)",
+  "uf": "SP",
+  "cidade": "Salto",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-bandeirantes-sao-carlos": {
+  "clube": "Bandeirantes",
+  "uf": "SP",
+  "cidade": "São Carlos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-barretos": {
+  "clube": "Barretos FC",
+  "uf": "SP",
+  "cidade": "Barretos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-bauru": {
+  "clube": "Bauru AC",
+  "uf": "SP",
+  "cidade": "Bauru",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-botucatuense-botucatu": {
+  "clube": "Botucatuense",
+  "uf": "SP",
+  "cidade": "Botucatu",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-candidomotense-candido-mota": {
   "clube": "Candidomotense",
   "uf": "SP",
@@ -5847,10 +5940,74 @@
    "bra-sp-2"
   ]
  },
+ "rs-catanduva": {
+  "clube": "Catanduva EC",
+  "uf": "SP",
+  "cidade": "Catanduva",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-central-brasileira-cotia": {
+  "clube": "Central Brasileira",
+  "uf": "SP",
+  "cidade": "Cotia",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-comercial-araras": {
+  "clube": "Comercial (Araras)",
+  "uf": "SP",
+  "cidade": "Araras",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-comercial-limeira": {
+  "clube": "Comercial (Limeira)",
+  "uf": "SP",
+  "cidade": "Limeira",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-comercial-lins": {
+  "clube": "Comercial (Lins)",
+  "uf": "SP",
+  "cidade": "Lins",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-comercial-mogi-das-cruzes": {
+  "clube": "Comercial (Mogi das Cruzes)",
+  "uf": "SP",
+  "cidade": "Mogi das Cruzes",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-cruzeiro": {
   "clube": "Cruzeiro-SP",
   "uf": "SP",
   "cidade": "Cruzeiro",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-cti-clube-taubate": {
+  "clube": "CTI Clube",
+  "uf": "SP",
+  "cidade": "Taubaté",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-derac-araraquara": {
+  "clube": "Derac (Araraquara)",
+  "uf": "SP",
+  "cidade": "Araraquara",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5871,10 +6028,74 @@
    "bra-sp-2"
   ]
  },
+ "rs-elvira-jacarei": {
+  "clube": "Elvira",
+  "uf": "SP",
+  "cidade": "Jacareí",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-estrada-de-ferro-sorocaba": {
+  "clube": "Estrada de Ferro Sorocabana",
+  "uf": "SP",
+  "cidade": "Sorocaba",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-estrela-da-saude-sao-paulo": {
+  "clube": "Estrela da Saúde",
+  "uf": "SP",
+  "cidade": "São Paulo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-estrela-piquete": {
+  "clube": "Estrela (Piquete)",
+  "uf": "SP",
+  "cidade": "Piquete",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-fernandopolis": {
   "clube": "Fernandópolis",
   "uf": "SP",
   "cidade": "Fernandópolis",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-ferroviaria-assis": {
+  "clube": "Ferroviária (Assis)",
+  "uf": "SP",
+  "cidade": "Assis",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-ferroviaria-botucatu": {
+  "clube": "Ferroviária (Botucatu)",
+  "uf": "SP",
+  "cidade": "Botucatu",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-ferroviaria-pindamonhangaba": {
+  "clube": "Ferroviária (Pindamonhangaba)",
+  "uf": "SP",
+  "cidade": "Pindamonhangaba",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-fortaleza-barretos": {
+  "clube": "Fortaleza (Barretos)",
+  "uf": "SP",
+  "cidade": "Barretos",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5895,10 +6116,26 @@
    "bra-sp-2"
   ]
  },
+ "rs-granja-sao-joao-limeira": {
+  "clube": "Granja São João",
+  "uf": "SP",
+  "cidade": "Limeira",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-guacuano-mogi-guacu": {
   "clube": "Guaçuano",
   "uf": "SP",
   "cidade": "Mogi Guaçu",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-hepacare-lorena": {
+  "clube": "Hepacaré",
+  "uf": "SP",
+  "cidade": "Lorena",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5911,10 +6148,34 @@
    "bra-sp-2"
   ]
  },
+ "rs-irmaos-romano-sao-bernardo-do-campo": {
+  "clube": "Irmãos Romano",
+  "uf": "SP",
+  "cidade": "São Bernardo do Campo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-ix-de-julho-getulina": {
+  "clube": "IX de Julho",
+  "uf": "SP",
+  "cidade": "Getulina",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-jaboticabal": {
   "clube": "Jaboticabal",
   "uf": "SP",
   "cidade": "Jaboticabal",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-jacarei": {
+  "clube": "Jacareí",
+  "uf": "SP",
+  "cidade": "Jacareí",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5943,10 +6204,50 @@
    "bra-sp-2"
   ]
  },
+ "rs-lucelia": {
+  "clube": "Lucélia",
+  "uf": "SP",
+  "cidade": "Lucélia",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-mauaense-maua": {
   "clube": "Mauaense",
   "uf": "SP",
   "cidade": "Mauá",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-mogiana-campinas": {
+  "clube": "Mogiana",
+  "uf": "SP",
+  "cidade": "Campinas",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-monte-aprazivel": {
+  "clube": "Monte Aprazível",
+  "uf": "SP",
+  "cidade": "Monte Aprazível",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-motoristas-barretos": {
+  "clube": "Motoristas",
+  "uf": "SP",
+  "cidade": "Barretos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-nevense-neves-paulista": {
+  "clube": "Nevense",
+  "uf": "SP",
+  "cidade": "Neves Paulista",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5959,10 +6260,106 @@
    "bra-sp-2"
   ]
  },
+ "rs-osvaldo-cruz": {
+  "clube": "AA Osvaldo Cruz",
+  "uf": "SP",
+  "cidade": "Osvaldo Cruz",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-ourinhense-ourinhos": {
+  "clube": "Ourinhense",
+  "uf": "SP",
+  "cidade": "Ourinhos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-palestra-sao-bernardo-do-campo": {
+  "clube": "Palestra São Bernardo",
+  "uf": "SP",
+  "cidade": "São Bernardo do Campo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-palmeiras-franca": {
+  "clube": "Palmeiras (Franca)",
+  "uf": "SP",
+  "cidade": "Franca",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-palmeiras-jau": {
+  "clube": "Palmeiras (Jaú)",
+  "uf": "SP",
+  "cidade": "Jaú",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-palmeiras-sao-joao-da-boa-vista": {
   "clube": "Palmeiras (São João da Boa Vista)",
   "uf": "SP",
   "cidade": "São João da Boa Vista",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-paulista-araraquara": {
+  "clube": "Paulista (Araraquara)",
+  "uf": "SP",
+  "cidade": "Araraquara",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-pindorama": {
+  "clube": "Pindorama",
+  "uf": "SP",
+  "cidade": "Pindorama",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-piracicabano-piracicaba": {
+  "clube": "Piracicabano",
+  "uf": "SP",
+  "cidade": "Piracicaba",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-pirassununguense-pirassununga": {
+  "clube": "Pirassununguense",
+  "uf": "SP",
+  "cidade": "Pirassununga",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-portofelicense-porto-feliz": {
+  "clube": "Portofelicense",
+  "uf": "SP",
+  "cidade": "Porto Feliz",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-rio-pardo-sao-jose-do-rio-pardo": {
+  "clube": "Rio Pardo FC",
+  "uf": "SP",
+  "cidade": "São José do Rio Pardo",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-riopardense-sao-jose-do-rio-pardo": {
+  "clube": "Riopardense",
+  "uf": "SP",
+  "cidade": "São José do Rio Pardo",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5975,10 +6372,74 @@
    "bra-sp-2"
   ]
  },
+ "rs-sanjoanense-sao-joao-da-boa-vista": {
+  "clube": "Sanjoanense",
+  "uf": "SP",
+  "cidade": "São João da Boa Vista",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-santa-fe-santa-fe-do-sul": {
   "clube": "Santa Fé",
   "uf": "SP",
   "cidade": "Santa Fé do Sul",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-sao-bento-marilia": {
+  "clube": "São Bento (Marília)",
+  "uf": "SP",
+  "cidade": "Marília",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-sao-joao-jundiai": {
+  "clube": "São João (Jundiaí)",
+  "uf": "SP",
+  "cidade": "Jundiaí",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-sao-joaquim-sao-joaquim-da-barra": {
+  "clube": "São Joaquim",
+  "uf": "SP",
+  "cidade": "São Joaquim da Barra",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-sao-manuelense-sao-manuel": {
+  "clube": "São Manuelense",
+  "uf": "SP",
+  "cidade": "São Manuel",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-sao-paulo-aracatuba": {
+  "clube": "São Paulo (Araçatuba)",
+  "uf": "SP",
+  "cidade": "Araçatuba",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-sao-paulo-araraquara": {
+  "clube": "São Paulo (Araraquara)",
+  "uf": "SP",
+  "cidade": "Araraquara",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-socorrense-socorro": {
+  "clube": "Socorrense",
+  "uf": "SP",
+  "cidade": "Socorro",
   "competicoes": [
    "bra-sp-2"
   ]
@@ -5991,8 +6452,40 @@
    "bra-sp-2"
   ]
  },
+ "rs-tupa": {
+  "clube": "Tupã",
+  "uf": "SP",
+  "cidade": "Tupã",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-uchoa": {
+  "clube": "Uchoa",
+  "uf": "SP",
+  "cidade": "Uchoa",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-uniao-mogi-das-cruzes": {
   "clube": "União Mogi",
+  "uf": "SP",
+  "cidade": "Mogi das Cruzes",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-valinhense-valinhos": {
+  "clube": "Valinhense",
+  "uf": "SP",
+  "cidade": "Valinhos",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-vila-santista-mogi-das-cruzes": {
+  "clube": "Vila Santista",
   "uf": "SP",
   "cidade": "Mogi das Cruzes",
   "competicoes": [
@@ -6007,10 +6500,26 @@
    "bra-sp-2"
   ]
  },
+ "rs-votorantim": {
+  "clube": "Votorantim",
+  "uf": "SP",
+  "cidade": "Votorantim",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
  "rs-votuporanguense-votuporanga": {
   "clube": "Votuporanguense",
   "uf": "SP",
   "cidade": "Votuporanga",
+  "competicoes": [
+   "bra-sp-2"
+  ]
+ },
+ "rs-xi-de-agosto-tatui": {
+  "clube": "XI de Agosto",
+  "uf": "SP",
+  "cidade": "Tatuí",
   "competicoes": [
    "bra-sp-2"
   ]

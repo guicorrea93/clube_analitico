@@ -707,9 +707,10 @@ def fundado_depois(k: str, ano, fs: dict) -> bool:
     return f.isdigit() and int(f) > int(str(ano)[:4])
 
 
-def pela_cidade(ano, n: str, fs: dict, log: list[str]) -> str | None:
-    """O clube das fichas do ogol (A2 e A1) da cidade do participante e de nome parecido, quando é um só (e já existia)."""
-    cidade = cidade_na_pagina(ano, n)
+def pela_cidade(ano, n: str, fs: dict, log: list[str], cidade: str | None = None) -> str | None:
+    """O clube das fichas do ogol (A2 e A1) da cidade do participante e de nome parecido, quando é um só (e já existia).
+    A cidade vem da lista de participantes da página ou, nas edições sem os jogos, da própria tabela."""
+    cidade = cidade or cidade_na_pagina(ano, n)
     if not cidade:
         return None
     fs = {k: f for k, f in fs.items() if not fundado_depois(k, ano, fs)}
@@ -835,7 +836,7 @@ ORDEM = {"Primeira fase": 1, "Segunda fase": 2, "Terceira fase": 3, "Quarta fase
          "Oitavas de final": 6, "Quartas de final": 7, "Semifinal": 8, "Fase final": 9, "Final": 10,
          # A2: fases paralelas ou intermediárias
          "Primeira fase - Semifinal": 1.3, "Primeira fase - Final": 1.6, "1º Turno": 1, "2º Turno": 2, "3º Turno": 3,
-         "Torneio de rebaixamento": 2.5, "Repescagem": 11}
+         "Torneio de rebaixamento": 2.5, "Repescagem": 11, "Primeira fase - Desempate": 1.5}
 
 
 # --------------------------------------------------------------------------------------------- uma edição
@@ -898,6 +899,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
                             {c for j in tj for c in (cod(j.mandante), cod(j.visitante)) if c})
     partidas = juntar_ogol(ano, partidas, og, tabs, rs_ok, log)
     juntar_espn(ano, partidas, log)   # sem arquivo da ESPN, não faz nada
+    juntar_wikipedia(ano, partidas, mapa, log)
     # fases em português, nos jogos e nas tabelas (as tabelas já estão ligadas aos códigos dos clubes)
     for p in partidas:
         p.fase = fase_pt(p.fase) if rs_ok else fase_pt(OGOL_FASE.get(p.ogol_fase, p.fase))
@@ -942,7 +944,30 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
             "mapa": mapa, "campeao": campeao, "ajustes": ajustes}
 
 
-def campeao_oficial(ano: int, partidas: list[Partida], rs_c: dict, wk_c: dict) -> str | None:
+# temporadas com jogos na RSSSF ou no ogol que a Wikipédia completa (1989: as semifinais; a final já vem do ogol)
+WIKI_JUNTAR = {"1989"}
+
+
+def juntar_wikipedia(ano, partidas: list[Partida], mapa: dict, log: list[str]) -> None:
+    """Jogos da Wikipédia em português que nem a RSSSF nem o ogol têm (o mesmo par de clubes em até 3 dias é o mesmo jogo)."""
+    if str(ano) not in WIKI_JUNTAR:
+        return
+    import wikipedia_sp2
+    cod = lambda n: mapa.get(n) or JA_CASADOS.get(clubes_sp2.norm(n))
+    for j in wikipedia_sp2.jogos(str(ano)):
+        m, v = cod(j["mandante"]), cod(j["visitante"])
+        if not (m and v):
+            log.append(f"{ano}: jogo da Wikipédia sem clube conhecido, fica de fora: {j['mandante']} x {j['visitante']}")
+            continue
+        if any({p.mandante, p.visitante} == {m, v} and p.data and j["data"] and abs(_dia(p.data) - _dia(j["data"])) <= 3
+               for p in partidas):
+            continue
+        partidas.append(Partida(ano, j["fase"], j["grupo"], None, j["data"], m, v, j["gm"], j["gv"], fonte="Wikipédia (pt)",
+                                fonte_id=f"wikipedia:pt_{ano}:{j['linha']}", linha=j["linha"]))
+        log.append(f"{ano}: jogo só na Wikipédia, incluído em {j['fase']}: {nome(m)} {j['gm']}-{j['gv']} {nome(v)} ({j['data']})")
+
+
+def campeao_oficial(ano: int, partidas: list[Partida], rs_c: dict, wk_c: dict, ids: set | None = None) -> str | None:
     """O clube da edição cujo nome bate com o campeão da lista da RSSSF ("Esporte Clube XV de Novembro (Piracicaba)"): o
     nome sem as siglas por extenso, e a cidade entre parênteses desempata os homônimos (XV de Piracicaba x XV de Jaú)."""
     alvo = rs_c.get(ano) or (wk_c.get(str(ano)) or wk_c.get(str(ano)[:4], "")).split(" / ")[0]
@@ -952,7 +977,7 @@ def campeao_oficial(ano: int, partidas: list[Partida], rs_c: dict, wk_c: dict) -
     cidade = clubes_sp2.norm(mc.group(1)) if mc else ""
     alvo = alvo[:mc.start()].strip() if mc else alvo
     fs = clubes_sp2.fichas()
-    ids = {x for p in partidas for x in (p.mandante, p.visitante)}
+    ids = ids or {x for p in partidas for x in (p.mandante, p.visitante)}   # edições sem os jogos: os clubes das tabelas
     nomes_rs: dict[str, set] = defaultdict(set)   # nomes da página ligados a cada clube ("XV Piracicaba")
     for p in partidas:
         nomes_rs[p.mandante].add(nome(p.mandante)); nomes_rs[p.visitante].add(nome(p.visitante))
@@ -977,10 +1002,31 @@ BASE_OGOL: dict[str, str] = {
 }
 # edições em que as tabelas publicadas pela RSSSF são parciais (a página parou no meio): não servem de conferência
 TABELAS_PARCIAIS: dict[str, str] = {}
-# temporadas sem os jogos em nenhuma fonte (a RSSSF traz só a classificação final e, às vezes, os jogos do campeão; o ogol,
-# nada): ficam fora do pacote por enquanto (decisão pendente com o Guilherme)
-# 1989: só os jogos da 1ª fase (e a final, no ogol); 1991: só os da 2ª fase
-SO_CLASSIFICACAO = {str(a) for a in (*range(1947, 1967), 1989, 1991, 1992, 1993, 1994)}
+# temporadas sem os jogos em nenhuma fonte: a RSSSF traz só os pontos de cada fase (1947-1966), a ordem final (1992, 1993) ou
+# a tabela final (1994). Entram só com as tabelas, o campeão e o vice (decisão do Guilherme, 21/11/2026: "inclui tudo o que
+# tiver"), como as edições sem jogos do uru-1 e do par-1. Não há página de 1965
+# 1965 e 1990 (sem página da RSSSF) vêm da Wikipédia em português, que também traz parte dos jogos de vários anos
+# (wikipedia_sp2.py)
+SO_CLASSIFICACAO = {str(a) for a in (*range(1947, 1967), 1990, 1992, 1993, 1994)}
+# observação da edição (vai para edicoes.csv)
+OBS_EDICAO: dict[str, list[str]] = {
+    "1948": ["Sanjoanense licenciado (não jogou)"],
+    "1954": ["2ª fase: a página traz também uma tabela calculada dos jogos (Taubaté 16 e Comercial 11 pontos); vale a "
+             "classificação oficial (14 e 13)"],
+    "1957": ["AD Araraquara abandonou na 10ª rodada; os jogos dele foram anulados"],
+    "1988": ["69 jogos da 1ª fase vêm na fonte sem placar (só quem venceu) e ficam fora"],
+    "1951": ["a repescagem XV de Jaú x Jabaquara (o último da 1ª divisão, três jogos) não é jogo da 2ª divisão e fica fora"],
+    "1965": ["sem página da RSSSF: as tabelas dos dois grupos e a final vêm da Wikipédia em português"],
+    "1989": ["jogos incompletos: a 1ª fase (RSSSF), as semifinais (Wikipédia) e a final (ogol); faltam a 2ª e a 3ª fase"],
+    "1990": ["sem página da RSSSF: a Wikipédia em português traz a lista de participantes e só a 4ª fase (jogos e tabela); "
+             "a ordem dos eliminados antes dela não é conhecida"],
+    "1991": ["jogos incompletos: só a 2ª fase e o quadrangular final (a 1ª fase não está em nenhuma fonte); campeão o "
+             "Araçatuba, pelo saldo de gols (a página da RSSSF diz \"Campeão: Lemense\" por engano; a lista de campeões, a "
+             "Wikipédia e o Futebol Interior dão o Araçatuba)"],
+    "1992": ["Capivariano inscrito, não disputou"],
+    "1993": ["com a mudança das divisões da FPF, os clubes foram redistribuídos em 1994 (Série A2, A3 e B1)"],
+}
+FORMATO_INCOMPLETO = {"1989", "1991"}
 
 
 def temporadas_com_jogos() -> list[str]:
@@ -1075,12 +1121,366 @@ def conferir(ano: int, partidas: list[Partida], tabs: list[tuple]) -> dict:
 
 # --------------------------------------------------------------------------------------------- saída
 
+# --------------------------------------------------------------------------------------------- edições sem os jogos
+
+# grafias abreviadas das cidades nas tabelas antigas
+CIDADES = {
+    "Ara.": "Araraquara", "Bot.": "Botucatu", "B. Paulista": "Bragança Paulista", "Br. Paulista": "Bragança Paulista",
+    "Birigüi": "Birigui", "E.S. do Pinhal": "Espírito Santo do Pinhal", "E.S.Pinhal": "Espírito Santo do Pinhal",
+    "Esp.Sto.do Pinhal": "Espírito Santo do Pinhal", "Guará": "Guaratinguetá", "Jau": "Jaú", "Jundiai": "Jundiaí",
+    "Monte Azul": "Monte Azul Paulista", "P. Prudente": "Presidente Prudente", "P.Prudente": "Presidente Prudente",
+    "Pres. Prudente": "Presidente Prudente", "Pres.Prudente": "Presidente Prudente", "Pindamonhagaba": "Pindamonhangaba",
+    "Rib. Preto": "Ribeirão Preto", "S. B. do Campo": "São Bernardo do Campo", "São Bernardo Campo": "São Bernardo do Campo",
+    "S. Caetano do Sul": "São Caetano do Sul", "S.Caetano do Sul": "São Caetano do Sul", "São Caetano Sul": "São Caetano do Sul",
+    "S. Carlos": "São Carlos", "S. J. da Barra": "São Joaquim da Barra", "S. J. da Boa Vista": "São João da Boa Vista",
+    "S. João da Boa Vista": "São João da Boa Vista", "São J. da Boa Vista": "São João da Boa Vista",
+    "S. J. do Rio Preto": "São José do Rio Preto", "S. José do R. Preto": "São José do Rio Preto",
+    "S. José do Rio Preto": "São José do Rio Preto", "S.José do R.Preto": "São José do Rio Preto",
+    "São J. do Rio Preto": "São José do Rio Preto", "São José Rio Preto": "São José do Rio Preto",
+    "S. José do R Pardo": "São José do Rio Pardo", "S. José do R. Pardo": "São José do Rio Pardo",
+    "S.José do R.Pardo": "São José do Rio Pardo", "S. José dos Campos": "São José dos Campos", "S. Paulo": "São Paulo",
+    "S.Manuel": "São Manuel", "Sta. Cruz do Rio Pardo": "Santa Cruz do Rio Pardo", "Uchôa": "Uchoa", "Votuporan.": "Votuporanga",
+}
+# (nome sem siglas, cidade da página) -> cidade certa: o CA Votorantim é de Votorantim (distrito de Sorocaba até 1963); o
+# Catanduva EC de 1956 está "(Araçatuba)" por engano; a SE Irmãos Romano é de São Bernardo do Campo (1961-1966; em 1960,
+# "Santo André")
+CIDADE_DO_CLUBE = {("votorantim", "Sorocaba"): "Votorantim", ("catanduva", "Araçatuba"): "Catanduva",
+                   ("irmaos romano", "Santo André"): "São Bernardo do Campo"}
+# (temporada, grupo, nome) -> cidade certa de uma linha: em 1948 a Série Branca tem a Internacional de Bebedouro (Wikipédia);
+# a página repete "(Limeira)", que é a da Série Preta
+CIDADE_DA_LINHA = {("1948", "Série Branca", "AA Internacional"): "Bebedouro"}
+# grafias erradas da página
+NOME_CORRIGIDO = {"AA Riopardende": "AA Riopardense", "AA Rio Pardense": "AA Riopardense", "AA Potofelicense": "AA Portofelicense",
+                  "São Joanense": "Sanjoanense", "SE Sãojoanense": "SE Sanjoanense", "EC Sâo Bento": "EC São Bento",
+                  "S. Bento": "São Bento", "A.Brasil Clube": "Atlético Brasil Clube"}
+# nome da página -> código, quando a cidade não separa (dois clubes da cidade com o mesmo nome) ou a ficha não tem cidade
+MANUAL_ANTIGO = {"AD São Caetano": "2255",   # AD São Caetano (1989); o EC São Caetano (1914) é o 80977
+                 "CA Bragantino": "red-bull-bragantino", "Bragantino": "red-bull-bragantino",   # a ficha não tem cidade
+                 ("1994", "Catanduva"): "15767",   # "Catanduva EC is the new name of GE Catanduvense" (página de 1994)
+                 ("1947", "XV Piracicaba"): "8229",   # 1947: a tabela não traz as cidades
+                 ("1994", "São Caetano"): "2255"}   # AD São Caetano (lista de participantes da página)
+_SIGLA_INI = re.compile(r"^(?:(?:A|AA|AE|AD|EC|FC|CA|SE|GE|AC|SC|EA)\.?\s+|(?:A\.A\.|E\.C\.|C\.A\.|S\.E\.|A\.E\.|F\.C\.|A\.)\s*)")
+_SIGLA_FIM = re.compile(r"\s+(?:FC|EC|AC|F\.C|E\.C|A\.C|de Esp\.? Atl[^\s]*|de E\.? ?A|Esp\. Atl[^\s]*|E\. Atl[^\s]*|de Esp\.?)\.?$")
+
+
+def curto_antigo(n: str) -> str:
+    """"EC XV de Novembro" -> "XV de Novembro"; "A Prudentina de Esp. Atl" -> "Prudentina"; "C.A.Linense" -> "Linense"."""
+    for _ in range(2):
+        n = _SIGLA_FIM.sub("", _SIGLA_INI.sub("", n.strip())).strip(" .")
+    return n
+
+
+def cidade_antiga(n: str, cidade: str | None) -> str | None:
+    if not cidade:
+        return None
+    cidade = CIDADES.get(cidade, cidade)
+    return CIDADE_DO_CLUBE.get((clubes_sp2.norm(curto_antigo(n)), cidade), cidade)
+
+
+_LISTA: dict[str, list[tuple[str, str]]] = {}
+
+
+def lista_participantes(ano: str) -> list[tuple[str, str]]:
+    """[(nome, cidade)] do ano na lista de participantes da 2ª divisão da RSSSF (sp2list.htm: o ano numa linha, depois
+    "Associação Atlética FRANCANA (Franca)", com o nome curto em maiúsculas)."""
+    if not _LISTA:
+        atual = None
+        for l in rsssf.texto(0, "sp2list.htm").splitlines():
+            if re.fullmatch(r"\s*(\d{4})\s*", l):
+                atual = l.strip()
+                _LISTA[atual] = []
+            elif atual and (m := re.match(r"^\s*([^()]+?)\s*\(([^()]+)\)\s*$", l)):
+                _LISTA[atual].append((m.group(1).strip(), m.group(2).strip()))
+    return _LISTA.get(ano, [])
+
+
+def cidade_na_lista(ano: str, n: str) -> str | None:
+    """Cidade do clube na lista de participantes do ano (1947 e 1994: a tabela não traz a cidade)."""
+    base = clubes_sp2.norm(curto_antigo(n))
+    melhor = (0.0, None)
+    for nome_l, cidade in lista_participantes(ano):
+        caps = clubes_sp2.norm(" ".join(re.findall(r"\b[A-ZÀ-Ý][A-ZÀ-Ý\-]{1,}\b", nome_l)))
+        s = max(_sim(base, caps) if caps else 0, _sim(base, clubes_sp2.norm(curto_antigo(nome_l))))
+        if s > melhor[0]:
+            melhor = (s, cidade)
+    return melhor[1] if melhor[0] >= 0.75 else None
+
+
+# (temporada, nome na página) -> nome da 1ª fase da mesma página, quando o nome curto das fases seguintes não basta
+NOME_ANTIGO: dict[tuple[str, str], str] = {
+    ("1963", "Port. Santista"): "AA Portuguesa", ("1963", "Corinthians-PP"): "EC Corinthians", ("1963", "São Bento-M"): "AA São Bento",
+    ("1963", "Estrada"): "Estrada de Ferro Sorocabana FC", ("1964", "Estrada"): "Estrada de Ferro Sorocabana FC",
+}
+
+
+def ficha_antiga(ano: str, base: str, cidade: str | None) -> str | None:
+    """A ficha do ogol (A2 e A1) da mesma cidade, de clube que já existia, com nome igual ou quase (sem as siglas) ou que
+    contém o nome da página ("XV de Novembro" em "Esporte Clube XV de Novembro"); só quando é uma."""
+    fs = clubes_sp2.fichas()
+    c, nb = clubes_sp2.norm(cidade or ""), clubes_sp2.norm(base)
+    if not c or not nb:
+        return None
+    cands = []
+    for k, f in fs.items():
+        if k.startswith("rs-") or not f.get("cidade") or fundado_depois(k, ano, fs) or re.search(r"\s(?:II|B|Sub-?\d+)$", f.get("curto") or ""):
+            continue
+        cf = clubes_sp2.norm(f["cidade"])
+        if not (cf == c or cf.startswith(c + " ") or c.startswith(cf + " ")):
+            continue
+        nomes = [clubes_sp2.norm(x) for x in (f.get("curto"), *f.get("nomes_ogol", []), f.get("nome_completo")) if x]
+        nomes += [clubes_sp2.norm(curto_antigo(x)) for x in (f.get("curto"), *f.get("nomes_ogol", []), f.get("nome_completo")) if x]
+        s = max(_sim(nb, x) for x in nomes)
+        if len(nb) >= 4 and any(re.search(rf"\b{re.escape(nb)}\b", x) for x in nomes):
+            s = max(s, 0.85)
+        if s >= 0.8:
+            cands.append((s, k))
+    cands.sort(reverse=True)
+    return cands[0][1] if cands and (len(cands) == 1 or cands[1][0] < cands[0][0]) else None
+
+
+def casar_antigo(ano: str, n: str, cidade: str | None, log: list[str]) -> str:
+    """Clube de uma linha de tabela com a cidade (1ª fase das edições sem os jogos): a ficha do ogol da mesma cidade
+    (ficha_antiga); senão o clube só da RSSSF da mesma cidade e nome parecido (deste pacote ou do cadastro comum); senão um
+    clube novo "rs-<nome>-<cidade>"."""
+    if (ano, n) in MANUAL_ANTIGO or n in MANUAL_ANTIGO:
+        return MANUAL_ANTIGO.get((ano, n)) or MANUAL_ANTIGO[n]
+    base = curto_antigo(n)
+    i = ficha_antiga(ano, base, cidade)
+    if i:
+        return i
+    if not cidade:   # sem a cidade (1947, 1994): a ficha de nome curto igual ao da página, quando é uma só e já existia
+        fs = clubes_sp2.fichas()
+        iguais = [k for k, f in fs.items() if not k.startswith("rs-") and clubes_sp2.norm(f.get("curto") or "") == clubes_sp2.norm(base)
+                  and not fundado_depois(k, ano, fs)]
+        if len(iguais) == 1:
+            return iguais[0]
+    c = clubes_sp2.norm(cidade or "")
+    import registro
+    ja = {**{k: {"curto": r["clube"], "cidade": r.get("cidade")} for k, r in registro.ler().items() if k.startswith("rs-")},
+          **clubes_sp2.SEM_OGOL}
+    parecido = lambda x: (_sim(base, x) >= 0.8 or clubes_sp2.norm(base) in clubes_sp2.norm(x) or clubes_sp2.norm(x) in clubes_sp2.norm(base))
+    iguais = sorted({k for k, f in ja.items() if c and clubes_sp2.norm(f.get("cidade") or "") == c and parecido(f["curto"])})
+    if len(iguais) == 1:
+        if iguais[0] not in clubes_sp2.SEM_OGOL:   # clube do cadastro comum: volta a ser conhecido nesta coleta
+            clubes_sp2.SEM_OGOL[iguais[0]] = {"id": iguais[0], "curto": ja[iguais[0]]["curto"], "nomes_ogol": [], "uf": "SP",
+                                              "cidade": ja[iguais[0]]["cidade"], "nome_completo": None}
+            clubes_sp2.fichas.cache_clear()
+            clubes_sp2.exibicao.cache_clear()
+        return iguais[0]
+    i = clubes_sp2.sem_ogol(base, cidade)
+    log.append(f"{ano}: {n} ({cidade}) — clube que o ogol não tem; entra só pela RSSSF")
+    return i
+
+
+def casar_fase_seguinte(ano: str, n: str, cidade: str | None, anteriores: list[tuple[str, str, bool]]) -> str | None:
+    """Nome curto das fases seguintes ("Linense", "Ferroviária (Bot.)", "São Bento (Marília)") -> clube da 1ª fase:
+    o de nome mais parecido (da mesma cidade, quando a página dá), comparando também com o nome de exibição ("XV de Jaú"),
+    de preferência um classificado."""
+    alvo = NOME_ANTIGO.get((ano, n))
+    melhor = (0.0, None)
+    b = clubes_sp2.norm(curto_antigo(n))
+    for nome_1, cid, classificado in anteriores:
+        ex = clubes_sp2.exibicao().get(cid, {})
+        if alvo:
+            s = 2.0 if nome_1 == alvo else 0
+        else:
+            if cidade and clubes_sp2.norm(ex.get("cidade") or clubes_sp2.fichas().get(cid, {}).get("cidade") or "") != clubes_sp2.norm(cidade):
+                continue
+            s = 0.0
+            for x in (curto_antigo(nome_1), ex.get("clube") or ""):
+                b1 = clubes_sp2.norm(x)
+                s = max(s, _sim(b, b1), 0.9 if b and b1 and (b1.startswith(b) or b.startswith(b1)) else 0)
+            s += 0.05 if classificado else 0
+        if s > melhor[0]:
+            melhor = (s, cid)
+    return melhor[1] if melhor[0] >= 0.6 else None
+
+
+def montar_antiga(ano: str, log: list[str], rs_c: dict, wk_c: dict) -> dict:
+    """Edição sem os jogos: tabelas publicadas, clubes e classificação final (campeão, vice, depois a fase alcançada e os
+    pontos da última fase). Mesmo dicionário de montar_edicao, sem partidas. Cada linha guarda o código do clube em
+    "clube_id" (a mesma tabela pode ter dois "AA Ferroviária", de Botucatu e de Assis)."""
+    import antigas_sp2
+    tbs = antigas_sp2.tabelas(ano)
+    anteriores: list[tuple[str, str, bool]] = []
+    tabs = []
+    for tb in tbs:
+        nome_id = {}
+        for r in tb.linhas:
+            nome_pag = NOME_CORRIGIDO.get(r["nome"], r["nome"])
+            cidade = cidade_antiga(nome_pag, CIDADE_DA_LINHA.get((ano, tb.grupo, r["nome"]), r["cidade"]))
+            primeira = tb.fase in ("Primeira fase", "Classificação final")
+            if primeira and not cidade:
+                cidade = cidade_antiga(nome_pag, cidade_na_lista(ano, nome_pag) or cidade_na_pagina(ano, nome_pag))
+            cid = (casar_antigo(ano, nome_pag, cidade, log) if primeira or not anteriores
+                   else casar_fase_seguinte(ano, nome_pag, cidade, anteriores))
+            if not cid:
+                log.append(f"{ano}: {r['nome']} ({tb.fase} {tb.grupo}) — sem clube da 1ª fase com esse nome")
+                cid = casar_antigo(ano, nome_pag, cidade, log)
+            r["clube_id"] = cid
+            nome_id.setdefault(r["nome"], cid)
+            r.setdefault("obs", r.get("nota") or "")
+            for k in ("j", "v", "e", "d", "gp", "gc"):
+                r.setdefault(k, None)
+            if primeira:
+                anteriores.append((nome_pag, cid, bool(re.search(r"qualif|classif", r.get("nota") or ""))))
+        tabs.append((tb, {r["clube_id"]: r for r in tb.linhas}, nome_id))
+    final, campeao = classificacao_antiga(ano, tbs, rs_c, wk_c, log)
+    mapa = {(r["nome"], tb.fase, tb.grupo): r["clube_id"] for tb in tbs for r in tb.linhas}
+    todos = [(NOME_CORRIGIDO.get(r["nome"], r["nome"]), r["clube_id"], bool(re.search(r"qualif|classif", r.get("nota") or "")))
+             for tb in tbs for r in tb.linhas]
+    partidas = jogos_wikipedia_antiga(ano, todos, log)
+    import wikipedia_sp2
+    so_ordem = tbs and tbs[0].fase == "Classificação final"
+    tabela = ("a ordem final" if so_ordem else "a tabela final" if len([tb for tb in tbs if tb.publicada]) == 1
+              else "os pontos de cada fase")
+    obs = list(OBS_EDICAO.get(ano, []))
+    if partidas:
+        fases = ", ".join(f.lower() for f in sorted({p.fase for p in partidas}, key=lambda f: ORDEM.get(f, 0)))
+        formato = f"jogos incompletos ({tabela} e {len(partidas)} {'jogo' if len(partidas) == 1 else 'jogos'}: {fases})"
+        n_sem = wikipedia_sp2.sem_placar(ano)
+        obs.append(f"{len(partidas)} {'jogo' if len(partidas) == 1 else 'jogos'} da Wikipédia em português ({fases})"
+                   + (f"; outros {n_sem} vêm lá só com o resultado e ficam fora" if n_sem else ""))
+    else:
+        formato = f"sem jogos (só {tabela})"
+    da_wiki = all(tb.fonte.startswith("Wikipédia") for tb in tbs)
+    return {"tabs_antigas": tbs, "tabs": tabs, "partidas": partidas, "mapa": mapa, "og": [], "rs": [] if da_wiki else tbs,
+            "final": final, "campeao": campeao, "conf": conferir_antiga(ano, tbs, partidas), "ajustes": {}, "formato": formato,
+            "num_clubes": len(final), "obs": obs, "sem_rodada": True}
+
+
+# fase da tabela -> ordem (fase alcançada)
+ORDEM_ANTIGA = {"Primeira fase": 1, "Segunda fase": 2, "Quarta fase": 4, "Fase final": 9, "Classificação final": 1}
+# (temporada, nome na Wikipédia) -> código, quando o nome não separa dois clubes da edição
+NOME_WIKI = {("1959", "AA São Bento"): "rs-sao-bento-marilia", ("1959", "São Bento"): "3457", ("1962", "São Bento"): "3457",
+             ("1963", "AA São Bento"): "rs-sao-bento-marilia", ("1966", "Ferroviária"): "15766"}
+
+
+def jogos_wikipedia_antiga(ano: str, todos: list[tuple[str, str, bool]], log: list[str]) -> list[Partida]:
+    """Jogos da Wikipédia de uma edição sem os jogos na RSSSF, com os clubes casados aos das tabelas."""
+    import wikipedia_sp2
+    saida = []
+    for j in wikipedia_sp2.jogos(ano):
+        m = NOME_WIKI.get((ano, j["mandante"])) or casar_fase_seguinte(ano, j["mandante"], None, todos)
+        v = NOME_WIKI.get((ano, j["visitante"])) or casar_fase_seguinte(ano, j["visitante"], None, todos)
+        if not (m and v) or m == v:
+            log.append(f"{ano}: jogo da Wikipédia sem os clubes nas tabelas, fica de fora: {j['mandante']} {j['gm']}-{j['gv']} {j['visitante']}")
+            continue
+        saida.append(Partida(ano, j["fase"], j["grupo"], None, j["data"], m, v, j["gm"], j["gv"], fonte="Wikipédia (pt)",
+                             fonte_id=f"wikipedia:pt_{ano}:{j['linha']}", obs=j["nota"], linha=j["linha"]))
+    return saida
+
+
+def conferir_antiga(ano: str, tbs: list, partidas: list[Partida]) -> dict:
+    """Tabela publicada x jogos da Wikipédia, só nas fases e grupos com todos os jogos (turno e returno, ou turno único):
+    os pontos de cada clube (2 por vitória)."""
+    conf = {"ok": 0, "dif": 0, "linhas": []}
+    for tb in tbs:
+        if not tb.publicada:
+            continue
+        ids = {r["clube_id"] for r in tb.linhas}
+        ps = [p for p in partidas if p.fase == tb.fase and {p.mandante, p.visitante} <= ids]
+        n = len(ids)
+        if not ps or len(ps) not in (n * (n - 1), n * (n - 1) // 2):
+            continue
+        camp = campanha(ps)
+        pts = lambda c: 2 * camp[c][1] + camp[c][2]
+        difs = [f"{nome(r['clube_id'])}: tabela {r['pts']} pts, jogos {pts(r['clube_id'])}"
+                for r in tb.linhas if r["pts"] is not None and r["pts"] != pts(r["clube_id"])]
+        if difs:
+            conf["dif"] += 1
+            conf["linhas"].append(f"{tb.fase}{' ' + tb.grupo if tb.grupo else ''} — " + "; ".join(difs))
+        else:
+            conf["ok"] += 1
+    return conf
+# temporada -> o vice, quando a regra (o outro finalista) não basta
+VICE_ANTIGO: dict[str, str] = {}
+
+
+def classificacao_antiga(ano: str, tbs: list, rs_c: dict, wk_c: dict, log: list[str]) -> tuple[list[dict], str | None]:
+    """Classificação final de uma edição sem os jogos. O campeão é o da lista da RSSSF; o vice é o outro finalista: o 1º de
+    outro grupo da última fase (quando ela tem grupos) ou o melhor da tabela única da última fase. Depois, a fase alcançada
+    e, dentro dela, a posição no grupo e os pontos da última fase. Os pontos de cada fase vão na observação; a linha só tem
+    os pontos (e V/E/D) quando a edição tem uma tabela só. 1992 e 1993: a ordem da página, com as faixas empatadas."""
+    linhas_de: dict[str, list[tuple[object, dict]]] = defaultdict(list)
+    for tb in tbs:
+        for r in tb.linhas:
+            if r.get("nota") == "licensed":   # licenciado: não jogou
+                continue
+            linhas_de[r["clube_id"]].append((tb, r))
+    ids = set(linhas_de)
+    campeao = campeao_oficial(ano, [], rs_c, wk_c, ids=ids)
+    if not campeao:
+        log.append(f"{ano}: campeão da RSSSF ({rs_c.get(ano, '-')}) sem clube nas tabelas")
+    def ultima(c):
+        return max(linhas_de[c], key=lambda x: ORDEM_ANTIGA.get(x[0].fase, 0))
+    ordem_max = max(ORDEM_ANTIGA.get(tb.fase, 0) for tb in tbs)
+    ult = [tb for tb in tbs if ORDEM_ANTIGA.get(tb.fase, 0) == ordem_max]
+    vice = VICE_ANTIGO.get(ano)
+    if not vice and ult[0].fase != "Classificação final":
+        if len(ult) > 1:
+            lideres = [min(tb.linhas, key=lambda r: r["pos"])["clube_id"] for tb in ult]
+            outros = [c for c in lideres if c != campeao]
+            vice = outros[0] if len(outros) == 1 else None
+        else:
+            outros = sorted((r for r in ult[0].linhas if r["clube_id"] != campeao), key=lambda r: (r["pos"], -(r["pts"] or 0)))
+            vice = outros[0]["clube_id"] if outros else None
+    def chave(c):
+        tb, r = ultima(c)
+        abandonou = r.get("nota") == "abandoned"
+        return (c != campeao, c != vice, abandonou, -ORDEM_ANTIGA.get(tb.fase, 0), r["pos"] or 99, -(r["pts"] or 0), nome(c))
+    ordem = sorted(ids, key=chave)
+    so_ordem = ult[0].fase == "Classificação final"
+    uma_tabela = len(tbs) == 1
+    fase_pt = {"Primeira fase": "1ª fase", "Segunda fase": "2ª fase", "Quarta fase": "4ª fase", "Fase final": "fase final"}
+    saida = []
+    for i, c in enumerate(ordem, 1):
+        tb, r = ultima(c)
+        partes = []
+        if so_ordem:
+            pos = r["pos"]
+            if r.get("faixa"):
+                fim = r["pos"] + sum(1 for x in tb.linhas if x["pos"] == r["pos"]) - 1
+                partes.append(f"entre o {r['pos']}º e o {fim}º lugar (a página não dá a ordem dentro da faixa)")
+            if r.get("nota"):
+                partes.append(r["nota"])
+        elif r["pos"] is None:   # 1990: a página só lista os participantes eliminados antes da última fase
+            pos = sum(1 for x in ordem if ultima(x)[1]["pos"] is not None) + 1
+            partes.append(f"eliminado antes da {fase_pt.get(ult[0].fase, ult[0].fase.lower())}; a página não dá a ordem")
+        else:
+            pos = i
+            if not uma_tabela:
+                for tb2, r2 in sorted(linhas_de[c], key=lambda x: ORDEM_ANTIGA.get(x[0].fase, 0)):
+                    if r2["pos"] is None:
+                        continue
+                    rotulo = fase_pt.get(tb2.fase, tb2.fase) + (f" ({tb2.grupo})" if tb2.grupo else "")
+                    partes.append(f"{rotulo}: {r2['pos']}º" + (f", {r2['pts']} pts" if r2["pts"] is not None else ""))
+            if r.get("nota") == "abandoned":
+                partes.append("abandonou o campeonato (jogos anulados)")
+        cheia = uma_tabela and not so_ordem
+        saida.append({"pos": pos, "clube": c, "j": r.get("j") if cheia else None, "v": r.get("v") if cheia else None,
+                      "e": r.get("e") if cheia else None, "d": r.get("d") if cheia else None, "gp": r.get("gp") if cheia else None,
+                      "gc": r.get("gc") if cheia else None, "pts": r["pts"] if cheia else None, "ajuste": 0,
+                      "fonte": f"{tb.fonte} (" + ("ordem final publicada" if so_ordem else "tabela final publicada" if uma_tabela
+                                                    else "tabelas de pontos: fase alcançada, posição e pontos da última fase") + ")",
+                      "obs": "; ".join(partes), "rebaixado": bool(re.search(r"relegat|rebaixad", r.get("nota") or "", re.I))})
+    return saida, campeao
+
+
 def main(anos: list[int], gravar: bool) -> None:
     log: list[str] = []
     rs_c, wk_c = campeoes()
     edicoes = {}
     for ano in anos:
+        if ano in SO_CLASSIFICACAO:
+            e = montar_antiga(ano, log, rs_c, wk_c)
+            edicoes[ano] = e
+            print(f"{ano}: {len(e['partidas'])} jogos (Wikipédia), {len(e['final'])} clubes, {len(e['tabs'])} tabelas (ok {e['conf']['ok']} / div. {e['conf']['dif']}), campeão "
+                  f"{nome(e['campeao']) if e['campeao'] else '?'}, vice {next((nome(f['clube']) for f in e['final'] if f['pos'] == 2), '-')} "
+                  f"(RSSSF: {rs_c.get(ano, '-')})", flush=True)
+            continue
         e = montar_edicao(ano, log, rs_c, wk_c)
+        e.setdefault("obs", []).extend(OBS_EDICAO.get(ano, []))
         edicoes[ano] = e
         ps = e["partidas"]
         print(f"{ano}: {len(ps)} jogos (RSSSF {len(e['rs'])}, ogol {len(e['og'])}), tabelas ok {e['conf']['ok']} / divergentes "
@@ -1100,4 +1500,4 @@ def main(anos: list[int], gravar: bool) -> None:
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     anos = [a for a in sys.argv[1:] if a[:4].isdigit()]
-    main(anos or temporadas_com_jogos(), gravar=not anos)
+    main(anos or sorted(set(temporadas_com_jogos()) | SO_CLASSIFICACAO), gravar=not anos)

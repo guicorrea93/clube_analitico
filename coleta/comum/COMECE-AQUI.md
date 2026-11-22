@@ -1,0 +1,230 @@
+# Coleta Brasil — comece aqui
+
+Para o agente de coleta Brasil (agente 2) que for continuar este trabalho. Leia antes o guia geral
+`docs/agente-coleta-COMECE-AQUI.md`. Ele traz:
+- a missão;
+- onde você pode mexer;
+- o formato do pacote (seção 4);
+- a regra 6b dos nomes de clube.
+
+Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
+
+Última atualização: 22/11/2026.
+
+**Documentação completa:** `coleta/comum/documentacao/`. Tem o índice (`README.md`) e uma ficha por competição, com:
+- tudo o que o pacote tem;
+- fontes e regras;
+- conferência com as tabelas publicadas;
+- cobertura de cada campo década a década;
+- formato ao longo do tempo;
+- campeões, acessos, rebaixados e punições;
+- todas as correções e decisões, com o motivo;
+- o que não deu para coletar;
+- pendências;
+- arquivos e comandos para refazer do zero.
+
+A documentação é gerada por `python coleta/comum/documentar.py` a partir dos pacotes, dos módulos de cada competição e do
+banco (só leitura). Rode depois de toda importação ou correção e mantenha à mão só a lista `PENDENCIAS`, no começo do
+script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada a temporada.
+
+## 1. Regras da casa (combinadas com o Guilherme)
+
+- **Uma competição por vez, e só com o ok dele.** Ele decidiu em 20/11/2026: não começar outro campeonato sem ele pedir.
+  Ao fim de cada competição:
+  - resumo curto;
+  - pedido de ok para o commit;
+  - recado ao agente do banco (agente 1) no fim de `docs/coleta/pedidos.md`.
+- **Mexa só nas suas pastas:**
+  - `coleta/<slug>/`, `coleta/comum/` e `data/coleta/<slug>/`;
+  - `data/coleta/comum/` (o cadastro comum de nomes de clube);
+  - `docs/coleta/<slug>.md` e `docs/coleta/pedidos.md`.
+
+  Nunca toque em `db/`, `futebol/`, `serie_b/`, `historico/`, `gerar_dashboard_v2.py`, `painel/`, `marca/`, nem nas pastas
+  dos outros agentes de coleta: `coleta/comum-europa/`, `coleta/comum-sulamerica/` e as ligas deles (`eng-1`, `arg-1`, ...).
+- **Mudou `coleta/comum/`?** Rode de novo todas as coletas que usam o arquivo (C, D, Copa, Paulista, A2) e compare os
+  totais antes e depois. O leitor da RSSSF e o `ogol.py` servem a todas.
+- **Banco só para leitura:** `sqlite3.connect("file:db/futebol.db?mode=ro", uri=True)`. O teste de carga usa uma cópia
+  (seção 5).
+- **Git:**
+  - nunca `git add -A` nem `git add .`;
+  - faça o commit com os caminhos na linha de comando: `git commit -F msg -- <caminho> <caminho> ...`. Outro agente
+    trabalha na mesma pasta e pode estar preparando os arquivos dele ao mesmo tempo. Em 21/11 um commit meu levou os
+    arquivos do Peru e do Paraguai e teve de ser refeito. Confira com `git show --stat HEAD` depois de cada commit;
+  - commit e push só com o ok do Guilherme;
+  - não troque de ramo;
+  - a conta é a pessoal (`guicorrea93`, e-mail noreply), já configurada no repositório;
+  - a mensagem de commit termina com `Co-Authored-By: Claude Opus 5.5 (1M context) <noreply@anthropic.com>`.
+- **Logs e conferências vão para o scratchpad**, nunca soltos no repositório.
+- **Nome de clube único (regra 6b):** nunca o nome exato de outro clube, seja do banco, do cadastro comum
+  `data/coleta/comum/clubes_ogol.json` ou dos outros pacotes. Homônimo leva a cidade: "Palmeiras (São João da Boa Vista)",
+  "Ferroviária (Botucatu)". **Nome já dado não muda mais:** o `registro.py` guarda o nome de cada código no cadastro
+  comum, na primeira vez que ele é usado.
+- **Clube refundado ou substituto é outro cadastro.** Pesquise caso a caso (Wikipédia, site do clube, federação, CNPJ) e
+  use a data de fundação da ficha do ogol: uma ficha fundada depois da edição não vale (CL-005 a CL-012).
+- **Critério nas dúvidas:** o mais fiel à história do campeonato. Pesquise na internet quando as fontes divergem e
+  registre a decisão com o motivo no código e no relatório.
+- **Fale com ele em português, curto e por partes.** O recado ao agente principal vai num bloco, pronto para copiar.
+
+## 2. O que está pronto
+
+| Competição | Temporadas | Jogos | Último commit | No banco | Teste de carga (22/11) |
+|---|---|---|---|---|---|
+| `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be | sim | OK |
+| `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
+| `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
+| `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.855 | ecafa9e | sim | OK |
+| `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 3edb5a8 (37 edições); as antigas e esta documentação estão sem commit | não | OK (101 clubes novos) |
+| `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
+
+Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
+
+## 3. De onde continuar (pendências, em ordem)
+
+1. **Commit da A2 com as edições antigas e desta documentação.** Peça o ok do Guilherme. Depois, o agente 1 carrega a A2
+   no banco; os recados estão no fim de `docs/coleta/pedidos.md`.
+2. **Paulista (`bra-sp-1`): achados da revisão SP-001 a SP-032, ainda NÃO tratados.**
+   - Os pedidos estão em `docs/coleta/pedidos.md`, seção "Pedidos da revisão (21/11/2026): Paulista"; as provas, em
+     `docs/revisao/bra-sp-1.md`; a lista, em `docs/revisao/achados.csv`.
+   - Ordem sugerida pela própria revisão:
+     1. o jogo falso de 1928 LAF (SP-011);
+     2. o vice e a ordem final (SP-002, SP-003, SP-007, SP-008). O importador põe repescagem e torneio de rebaixamento
+        como fase final e não usa a fase final verdadeira para ordenar;
+     3. os dados que mudam o vice (SP-009, SP-010, SP-012, SP-013, SP-014);
+     4. os rebaixados (SP-015);
+     5. os médios e baixos (SP-016 a SP-022) e os artilheiros (SP-023, SP-024; a lista da Wikipédia pt tem 125 edições).
+   - Esperam a decisão do Guilherme: SP-001 (título de 1973 dividido), SP-004 (edição de 2026), SP-005 (amadores da FPF
+     em 1933-1934), SP-006 ("Paulistinha"), SP-026 e SP-027 (juntar clubes).
+   - O importador da A2 é cópia do Paulista: o que mudar lá no vice e na ordem final provavelmente vale na A2.
+   - Ao corrigir, cite os ids em `docs/coleta/pedidos.md`; a revisão confere de novo.
+3. **Séries C e D e Copa:** os achados SC, SD, CB e CL foram tratados (seções "revisão ... parte 1 a 4" de
+   `docs/coleta/pedidos.md`), mas `docs/revisao/achados.csv` ainda marca "aberto". Quem atualiza é a revisão; se ela
+   pedir de novo, responda pelo id.
+4. **Autores dos gols e cartões pelas fichas de jogo do ogol:** cerca de 8 mil pedidos (~3 h) só na Série C. Prioridade
+   baixa, e cartões mais baixa ainda (decisão de 20/11). Só se ele pedir.
+5. **Próxima competição: só quando o Guilherme mandar.** Candidatas: Paulista A3 (`sp{ano}l3.htm` na RSSSF), Carioca,
+   Mineiro, Gaúcho. Seção 4.
+6. **Fique de olho em `docs/coleta/pedidos.md`:** respostas do agente 1 e pedidos novos da revisão.
+
+## 4. Como fazer uma competição nova
+
+Copie a competição mais parecida e adapte:
+- **estadual com página da RSSSF por ano:** `bra-sp-2`, o mais completo, com edições antigas sem jogos e Wikipédia, ou
+  `bra-sp-1`;
+- **nacional por grupos:** `bra-serie-c` ou `bra-serie-d`;
+- **copa em mata-mata:** `bra-copa-do-brasil`.
+
+Arquivos de cada competição, em `coleta/<slug>/`:
+
+| Arquivo | O que faz |
+|---|---|
+| `edicoes.py` | `SLUG`, `PASTA_DADOS`, `PACOTE`, `RELATORIO`, `TEMPORADAS`/`ANOS` e o nome oficial de cada época |
+| `baixar_rsssf.py`, `baixar_ogol.py`, `baixar_ogol_clubes.py`, `baixar_espn_wiki.py` | uma fonte cada; gravam em `data/coleta/<slug>/<fonte>/`. Educados: espera entre pedidos e cache, sem baixar de novo |
+| `rsssf_<x>.py` | configura o leitor comum (`rsssf.PASTA`, `rsssf.MODELO = "sp{ano}l2.htm"`) e registra as correções de cada página em `rsssf.CORRECOES[arquivo]` (regex ou função, com o motivo) |
+| `clubes_<x>.py` | identidade: ficha do ogol -> nome de exibição (do banco, do cadastro comum ou novo); `MANUAL_DB`, `MANUAL_NOVO`, `FICHA_CORRIGIDA`, `sem_ogol()` para os clubes que só a RSSSF tem |
+| `importar.py` | junta RSSSF e ogol (e ESPN e Wikipédia, quando há), casa os nomes, confere com as tabelas publicadas, monta a classificação e grava o pacote e o relatório. Os dicionários de decisões ficam no topo |
+| `pacote.py` | grava os CSV do pacote (formato do guia geral, seção 4) e o relatório |
+| `explicacoes.py` | textos do relatório: `INTRO` (temporadas, fontes, regras), `EXPLICACOES` por temporada, `FIM` (identidade e o que não deu) |
+
+Código comum em `coleta/comum/`:
+
+| Arquivo | O que faz |
+|---|---|
+| `rsssf.py` | leitor das páginas da RSSSF Brasil: jogos, fases, grupos, tabelas e conferência; `texto()` aplica as `CORRECOES` |
+| `ogol.py` | `calendario()`, `edicoes()` e fichas de clube; valida o link canônico e espera quando o ogol limita os pedidos |
+| `gols.py` | lê os autores dos gols da RSSSF; só entram quando a soma bate com o placar |
+| `registro.py` | cadastro comum `data/coleta/comum/clubes_ogol.json`: código -> nome, que não muda mais |
+| `observacao.py` | `obs_pt`: tradução das notas da RSSSF |
+| `wiki.py`, `wikipedia.py`, `espn.py`, `baixar.py` | Wikipédia (infobox, punições), ESPN e download educado |
+| `documentar.py`, `testar_carga.py` | documentação e teste de carga |
+
+Passos:
+
+1. **Ver as fontes:** a lista de campeões e de participantes da RSSSF, as páginas por ano, a competição no ogol (o código
+   e desde quando há calendário) e a Wikipédia pt de cada edição.
+2. **Escrever** `edicoes.py` e os `baixar_*.py` e baixar tudo, com os logs no scratchpad.
+3. **Escrever `rsssf_<x>.py`** e rodar `python coleta/<slug>/rsssf_<x>.py` até cada página dar os jogos certos e "0
+   divergências". As correções vão em `CORRECOES`, com o motivo.
+4. **Identidade:** pelo ogol, quando há calendário. Sem ele, pela cidade da lista de participantes e pela fundação da
+   ficha. Confira a unicidade dos nomes (regra 6b).
+5. **`importar.py`:** comece com `python coleta/<slug>/importar.py <ano>` (só mostra) e depois rode sem ano (grava).
+   - Toda divergência com a tabela publicada vira correção ou explicação.
+   - O campeão é conferido com a lista oficial.
+6. **Teste de carga** (seção 5) e recado em `docs/coleta/pedidos.md`.
+7. **Documentação:** ponha a competição em `COMPETICOES` e `PENDENCIAS` no `documentar.py`, rode e atualize este arquivo.
+8. **Commit:** peça o ok. A documentação vai no mesmo commit da competição.
+
+## 5. Teste de carga
+
+```
+python coleta/comum/testar_carga.py <slug> <pasta temporária (o scratchpad)>
+```
+
+Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`. O aviso "tabela por rodada ignorada em ... com
+mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já é conhecido.
+
+## 6. Armadilhas já encontradas
+
+**ogol**
+- **Limite de pedidos:** quando o ogol limita, devolve a página de outra competição ou de outro clube, com cara de certa.
+  O `ogol.py` só aceita a página cujo `rel="canonical"` é o calendário daquela edição (ou a ficha daquele clube) e espera
+  60 s, 120 s... antes de tentar de novo. Calendário com 0 jogos, baixe de novo.
+- **Jogo à noite:** às vezes o ogol dá o dia seguinte; vale a data da RSSSF.
+- **Mesmo código para clubes diferentes:** o ogol liga um clube antigo ao novo do mesmo nome (Matsubara de 1981 no J.
+  Malucelli) ou troca um clube num jogo. Corrija em `CORRIGE_OGOL` e `CORRIGE_OGOL_JOGO`.
+- **Fichas:** algumas têm a cidade errada (`FICHA_CORRIGIDA`) ou a fundação de outro clube.
+- **Paulista A2:** só tem jogos de 1998 em diante (1948, 1950, 1988 e 1989 têm 1 a 4 jogos soltos).
+
+**RSSSF Brasil**
+- **Formatos que variam de página para página:**
+  - duas colunas (1998-1999 na A2, jogos do campeão nos anos 1950);
+  - jogos em quadros (1997);
+  - a data na frente do jogo;
+  - nomes quebrados em duas linhas (2014, 2022-2024);
+  - letras trocadas por "�" (2000-2003);
+  - `<br>` com atributos em outra linha (A2 2021).
+
+  Tudo isso é corrigido em `rsssf_<x>.py`.
+- **Páginas que param no meio:** Série C 2019, Série D 2021, Paulista 2025. Use `BASE_OGOL` (o ogol vira a base) ou
+  `TABELAS_PARCIAIS` (a tabela não serve de conferência).
+- **Erros da própria página:**
+  - "Campeão: Lemense" na A2 1991 (o campeão é o Araçatuba);
+  - a cidade da Internacional na A2 1948;
+  - a tabela calculada dos jogos ao lado da oficial (A2 1954).
+
+  Confira o campeão na lista `*camp.htm` e, na dúvida, na Wikipédia pt.
+- **Jogos sem placar:** às vezes vêm só com quem venceu ("venceu", "empatou"): A2 1988, 69 jogos. Ficam fora.
+- **Anos com duas ligas:** Paulista 1913-1926, LPF e APEA. São duas edições (`rsssf_sp1.LIGAS`).
+- **Edições antigas da A2 (1947-1966):** só os pontos por grupo. A cidade de cada clube vem da própria tabela ou da
+  lista de participantes (`sp2list.htm`).
+
+**Wikipédia pt**
+- Tem as finais e as fases finais de muitas edições antigas e as edições que a RSSSF não tem (A2 1965 e 1990).
+- Jogos só com "V/E/D" ficam fora.
+- Data sem ano: é o ano da edição.
+- Os jogos transcritos estão em `data/coleta/bra-sp-2/wikipedia/jogos_pt.csv`, cada um conferido no código da página
+  (`pt_<ano>.wiki`).
+
+**Identidade**
+- **Nomes curtos ambíguos:** "Corinthians" (Presidente Prudente ou Santo André), "Ferroviária" (Araraquara, Botucatu,
+  Assis), "São Bento" (Sorocaba ou Marília), "Paulista" (Jundiaí ou Araraquara). Use a cidade; sem ela, casamento à mão
+  (`NOME_MANUAL`, `NOME_WIKI`).
+- **Times B e II:** ficam fora do casamento pela cidade.
+- **Clubes que o ogol não tem:** viram `rs-<nome>-<cidade>`. Um clube novo homônimo de outro também criado na mesma
+  rodada pode ficar com o nome sem cidade: confira os novos no cadastro comum depois de cada rodada e ponha o nome em
+  `MANUAL_NOVO`.
+- **Sobras no cadastro comum:** rodadas intermediárias podem deixar entradas sem uso em `clubes_ogol.json`. Antes do
+  commit, compare com o `clubes.csv` do pacote e tire as que sobraram; nenhum nome já existente pode mudar.
+
+## 7. Decisões do Guilherme já tomadas
+
+- **Novorizontino:** separado. "GE Novorizontino" (1973-1999) e "Novorizontino" (Grêmio Novorizontino, 2010) (20/11).
+- **São Paulo da Floresta:** um clube só com o São Paulo de hoje; o título de 1931 é dele (20/11).
+- **Prioridades:** autores dos gols com prioridade baixa; cartões, mais baixa ainda (20/11).
+- **Não começar outra competição sem ele pedir** (20/11).
+- **Identidade CL-005 a CL-012:** seguir as recomendações da pesquisa; clube refundado é outro cadastro (21/11).
+- **Sufixo "-UF" (CL-027):** os nomes ficam como estão (21/11).
+- **Edições de 2026 da C, da D e da A2:** entram, pelo ogol (21/11).
+- **Paulista A2:** incluir tudo o que existir, inclusive as edições sem jogos e as incompletas (21/11). O que só existe em
+  jornal escaneado fica de fora.
+
+Detalhes e respostas do agente 1 em `docs/coleta/pedidos.md`.

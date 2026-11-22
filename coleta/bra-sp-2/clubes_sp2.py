@@ -49,6 +49,30 @@ MANUAL_NOVO: dict[str, tuple[str, str]] = {
     "rs-lemense-leme": ("EC Lemense", "Esporte Clube Lemense (anos 1980): não é o Lemense FC, fundado em 2005 (ogol 24586)"),
     "rs-palmeiras-sao-joao-da-boa-vista": ("Palmeiras (São João da Boa Vista)", "Palmeiras FC de São João da Boa Vista: "
                                            "nunca o nome exato do Palmeiras do banco (regra 6b)"),
+    # A2 de 1947 a 1966 (edições sem os jogos): clubes antigos homônimos de outros, com a cidade ou o nome completo
+    "rs-barretos": ("Barretos FC", "Barretos Futebol Clube (até 1960); o Barretos EC, fundado em 1960, é o 24576 do ogol"),
+    "rs-aracatuba": ("Araçatuba FC", "Araçatuba Futebol Clube (1954-1955); a AE Araçatuba (ogol 19365) é de 1972"),
+    "rs-sao-paulo-aracatuba": ("São Paulo (Araçatuba)", "São Paulo FC de Araçatuba; \"São Paulo-SP\" seria o tricolor"),
+    "rs-ferroviaria-botucatu": ("Ferroviária (Botucatu)", "AA Ferroviária de Botucatu; a Ferroviária do banco é a de Araraquara"),
+    "rs-comercial-limeira": ("Comercial (Limeira)", "Comercial FC de Limeira"),
+    "rs-comercial-lins": ("Comercial (Lins)", "Comercial FC de Lins"),
+    "rs-fortaleza-barretos": ("Fortaleza (Barretos)", "Fortaleza EC de Barretos"),
+    "rs-avenida-salto": ("Avenida (Salto)", "AA Avenida de Salto"),
+    "rs-rio-pardo-sao-jose-do-rio-pardo": ("Rio Pardo FC", "Rio Pardo FC de São José do Rio Pardo"),
+    "rs-osvaldo-cruz": ("AA Osvaldo Cruz", "AA Osvaldo Cruz (1959-1966); o Osvaldo Cruz FC (ogol 15768) é de 2004"),
+    "rs-estrada-de-ferro-sorocaba": ("Estrada de Ferro Sorocabana", "Estrada de Ferro Sorocabana FC, de Sorocaba"),
+    "rs-estrela-piquete": ("Estrela (Piquete)", "EC Estrela de Piquete"),
+    "rs-derac-araraquara": ("Derac (Araraquara)", "EC D.E.R. de Araraquara; o \"DERAC\" dos anos 1980 é o de Itapetininga"),
+    "rs-palestra-sao-bernardo-do-campo": ("Palestra São Bernardo", "Palestra FC de São Bernardo do Campo"),
+    "rs-catanduva": ("Catanduva EC", "Catanduva EC (1955-1963); o GE Catanduvense (ogol 15767) é de 1970"),
+    "rs-atletico-brasil-clube-paraguacu-paulista": ("Atlético Brasil", "Atlético Brasil Clube de Paraguaçu Paulista"),
+    "rs-sao-joao-jundiai": ("São João (Jundiaí)", "São João FC de Jundiaí"),
+    "rs-bauru": ("Bauru AC", "Bauru Atlético Clube"),
+    "rs-ferroviaria-assis": ("Ferroviária (Assis)", "AA Ferroviária de Assis; a Ferroviária do banco é a de Araraquara"),
+    "rs-comercial-araras": ("Comercial (Araras)", "Comercial FC de Araras"),
+    "rs-comercial-mogi-das-cruzes": ("Comercial (Mogi das Cruzes)", "Comercial FC de Mogi das Cruzes"),
+    "rs-ferroviaria-pindamonhangaba": ("Ferroviária (Pindamonhangaba)", "AA Ferroviária de Pindamonhangaba"),
+    "rs-sao-paulo-araraquara": ("São Paulo (Araraquara)", "São Paulo FC de Araraquara; \"São Paulo-SP\" seria o tricolor"),
 }
 # grafias do mesmo clube (chave -> chave), como em serie_b/clubes.py
 ALIAS = {

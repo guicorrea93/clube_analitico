@@ -293,10 +293,38 @@ def _grupos_pelas_tabelas(jogos: list, tabelas: list) -> None:
             x.grupo = ""
 
 
+# 1989 e 1991 (páginas incompletas): os jogos vêm só sob "1º Turno" / "2º Turno" (e "Fase Final"), sem o nome da fase nem
+# do grupo. 1989 tem só a 1ª fase: a Série A joga contra a B (Grupo 1) e a C contra a D (Grupo 2). 1991 tem só a 2ª fase
+# (Séries E e F, turno e returno) e o quadrangular final
+FASE_ANO = {"1989": {"1º Turno": "First Phase", "2º Turno": "First Phase"},
+            "1991": {"1º Turno": "Second Phase", "2º Turno": "Second Phase", "Fase Final": "Final Phase"}}
+GRUPO_ANO = {
+    "1989": {**dict.fromkeys(["Capivariano", "Jacareí", "Nacional", "Rio Branco", "São Bernardo", "Taubaté", "União", "Ituano",
+                              "Independente", "Lemense", "Palmeiras", "Paulista", "Ponte Preta"], "Grupo 1"),
+             **dict.fromkeys(["Bandeirante", "Corinthians", "Marília", "Mirassol", "Tanabi", "Taquaritinga", "VOCEM", "Comercial",
+                              "Fernandópolis", "Francana", "Linense", "Olímpia", "Rio Preto", "Votuporanguense"], "Grupo 2")},
+    "1991": {**dict.fromkeys(["Araçatuba", "Independente", "Jaboticabal", "Mirassol", "Radium", "Taubaté"], "Série E"),
+             **dict.fromkeys(["Barretos", "Francana", "Lemense", "Nacional", "Paulista", "Tanabi"], "Série F")},
+}
+
+
+def _fase_e_grupo_do_ano(temporada: str, jogos) -> None:
+    fases, grupos = FASE_ANO.get(temporada), GRUPO_ANO.get(temporada, {})
+    if not fases:
+        return
+    for j in jogos:
+        if j.fase in fases:
+            j.fase = fases[j.fase]
+            if j.fase != "Final Phase":
+                gm, gv = grupos.get(j.mandante), grupos.get(j.visitante)
+                j.grupo = gm if gm and gm == gv else ""
+
+
 def ler(temporada: str):
     jogos, tabelas = rsssf.ler(ano_de(temporada))
     for x in [*jogos, *tabelas]:
         x.grupo = _grupo_limpo(x.grupo)
+    _fase_e_grupo_do_ano(temporada, jogos)
     _grupos_pelas_tabelas(jogos, tabelas)
     return jogos, tabelas
 

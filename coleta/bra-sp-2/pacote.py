@@ -12,7 +12,7 @@ from collections import Counter, defaultdict
 
 import clubes_sp2
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
-from importar import FONTE_RSSSF, ORDEM, nome, pontos_vitoria
+from importar import FONTE_RSSSF, FORMATO_INCOMPLETO, ORDEM, nome, pontos_vitoria
 from observacao import obs_pt
 from rsssf_sp2 import rsssf
 
@@ -99,9 +99,10 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
     (PACOTE / "competicao.json").write_text(json.dumps({
         "slug": SLUG, "nome": "Campeonato Paulista Série A2", "nome_curto": "Paulista A2", "tipo": "estadual", "nivel": 2, "pais": "BRA",
         "regiao": "SP", "confederacao": "CONMEBOL",
-        "observacao": f"2ª divisão paulista (Série A2 desde 1994; antes Segunda Divisão, Divisão Intermediária, Divisão Especial, "
-                      f"conforme a época), edições de {anos[0]} a {anos[-1]} com os jogos. Ficam de fora as edições sem os jogos "
-                      f"em nenhuma fonte (1947-1966, 1991-1994: só a classificação final) e a fase amadora (1916-1946).",
+        "observacao": f"2ª divisão paulista (Série A2 desde 1994; antes Segunda Divisão, Primeira Divisão, Divisão Intermediária, "
+                      f"Divisão Especial, conforme a época), edições de {anos[0]} a {anos[-1]}. As edições sem os jogos em nenhuma "
+                      f"fonte (1947-1966, 1992-1994) entram só com as tabelas, o campeão e o vice; 1989 e 1991 têm parte dos jogos. "
+                      f"Fica de fora a fase amadora (1916-1946).",
         "rotulo_painel": "Paulista A2", "menu_painel": "Paulista A2", "do_painel": "da Série A2", "o_painel": "a Série A2"},
         ensure_ascii=False, indent=1), encoding="utf-8")
     na_a1 = clubes_a1_por_ano()
@@ -131,7 +132,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
                 for p in por_fase[f]:
                     p.grupo = ""
             linhas_f.append([str(ano), i, f, tipo, ng, serie, ""])
-            if tipo == "liga" and serie == "pontos_corridos":
+            if tipo == "liga" and serie == "pontos_corridos" and not e.get("sem_rodada"):   # edições antigas: jogos incompletos
                 todos = {x for q in ps for x in (q.mandante, q.visitante)}
                 linhas_rod += classificacao_rodada(str(ano), f, por_fase[f], e, ultima=(i == len(fases)), todos=todos)
             desenho.append({"grupos": f"{ng} grupos", "liga": "pontos corridos", "mata_mata": "mata-mata"}[tipo])
@@ -149,27 +150,33 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         final = e["final"]
         campeao = e["campeao"]
         rebaixados = rebaixados_rsssf(e)   # marcas "Relegated" das tabelas da RSSSF
+        usados |= {f["clube"] for f in final}   # edições sem os jogos: os clubes vêm das tabelas
         ib = infobox(ano)
         # acesso: o clube que joga a 1ª divisão no ano seguinte (pacote bra-sp-1), sem ter jogado a 1ª deste ano
         subiram = na_a1.get(int(str(ano)[:4]) + 1, set()) - na_a1.get(int(str(ano)[:4]), set())
         for f in final:
             c = f["clube"]
-            sit = "campeao" if c == campeao else "acesso" if nome(c) in subiram else "rebaixado" if c in rebaixados else ""
+            sit = ("campeao" if c == campeao else "acesso" if nome(c) in subiram
+                   else "rebaixado" if c in rebaixados or f.get("rebaixado") else "")
             if f["pos"] == 2 and sit == "" and len(final) > 1 and campeao:
                 sit = "vice"
             linhas_cf.append([str(ano), f["pos"], nome(c), f["j"], f["v"], f["e"], f["d"], f["gp"], f["gc"], f["pts"], f["ajuste"] or 0, sit,
-                              f["fonte"], "punição de pontos (Wikipédia)" if f["ajuste"] else ""])
+                              f["fonte"], f.get("obs") or ("punição de pontos (Wikipédia)" if f["ajuste"] else "")])
         # tabelas publicadas
         for tb, linhas, nome_id in e["tabs"]:
+            if not getattr(tb, "publicada", True):   # 1990: só a lista de participantes
+                continue
+            fonte_tb = WIKI_PT.format(ano=ano) if getattr(tb, "fonte", "").startswith("Wikipédia") else FONTE_RSSSF.format(ano=ano)
             for r in tb.linhas:
-                c = nome_id.get(r["nome"], "")
+                c = r.get("clube_id") or nome_id.get(r["nome"], "")
                 linhas_tp.append([str(ano), tb.fase, tb.grupo, r["pos"], r["nome"], nome(c) if c else "", r["j"], r["v"], r["e"], r["d"],
-                                  r["gp"], r["gc"], r["pts"], FONTE_RSSSF.format(ano=ano)])
+                                  r["gp"], r["gc"], r["pts"], fonte_tb])
         # artilheiros
         lista = artilheiros_rsssf.get(ano)
         if lista:
             for jog, clube_txt, n in lista:
-                linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "RSSSF (sp2tops.htm)"])
+                linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"], {f["clube"] for f in final}), n,
+                                   "RSSSF (sp2tops.htm)"])
         elif ib["artilheiros"]:
             for jog, clube_txt, n in ib["artilheiros"]:
                 linhas_art.append([str(ano), jog, casar_clube_texto(clube_txt, ps, e["mapa"]), n, "Wikipédia (infobox da edição)"])
@@ -182,13 +189,16 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
                     if n == topo:
                         linhas_art.append([str(ano), jog, nome(c), n, "contagem dos gols com autor"])
         # edição
-        num_clubes = len({x for p in ps for x in (p.mandante, p.visitante)})
+        num_clubes = e.get("num_clubes") or len({x for p in ps for x in (p.mandante, p.visitante)})
         vice = next((nome(f["clube"]) for f in final if f["pos"] == 2), "") if campeao else ""
         fontes = " + ".join(x for x, ok in (("RSSSF Brasil", bool(e["rs"])), ("ogol", bool(e["og"])),
-                                               ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"]))) if ok)
-        obs = []
+                                               ("ESPN", any("espn:" in p.fonte_id for p in ps)),
+                                               ("Wikipédia", bool(e["ajustes"]) or any(p.fonte.startswith("Wikipédia") for p in ps)
+                                                or any(getattr(tb, "fonte", "").startswith("Wikipédia") for tb, _, _ in e["tabs"]))) if ok)
+        obs = e.get("obs", [])
+        fmt = e.get("formato") or formato(desenho) + (" (jogos incompletos)" if str(ano) in FORMATO_INCOMPLETO else "")
         linhas_e.append([str(ano), int(str(ano)[:4]), int(str(ano)[:4]), NOME_OFICIAL.get(ano, NOME_PADRAO), num_clubes, pontos_vitoria(ano),
-                         formato(desenho), nome(campeao) if campeao else "", vice, fontes, "; ".join(obs)])
+                         fmt, nome(campeao) if campeao else "", vice, fontes, "; ".join(obs)])
         ng = sum((p.gm or 0) + (p.gv or 0) for p in ps)
         conf = e["conf"]
         linhas_conf.append([str(ano), len(ps), len(e["og"]) or "", conf["ok"], conf["dif"], ng, sum(len(p.gols) for p in ps),
@@ -270,6 +280,9 @@ def normalizar_especial(e: str) -> str:
     return "awd" if e in ("awd", "dns") or e.startswith("w") or "wo" in e else "n/p" if e in ("n/p", "canc") else "abd" if e == "abd" else ""
 
 
+WIKI_PT = "https://pt.wikipedia.org/wiki/Campeonato_Paulista_de_Futebol_de_{ano}"
+
+
 def fonte_curta(f: str) -> str:
     return "RSSSF Brasil" if "rsssf" in (f or "") else f
 
@@ -289,8 +302,8 @@ def rebaixados_rsssf(e: dict) -> set[str]:
     for tb, linhas, nome_id in e["tabs"]:
         for r in tb.linhas:
             if re.search(r"relegat|rebaixad", r.get("obs", ""), re.I):
-                if r["nome"] in nome_id:
-                    saida.add(nome_id[r["nome"]])
+                if r.get("clube_id") or r["nome"] in nome_id:
+                    saida.add(r.get("clube_id") or nome_id[r["nome"]])
     return saida
 
 
@@ -316,11 +329,11 @@ def artilheiros() -> dict[str, list[tuple[str, str, int]]]:
     return saida
 
 
-def casar_clube_texto(txt: str, ps: list, mapa: dict | None = None) -> str:
+def casar_clube_texto(txt: str, ps: list, mapa: dict | None = None, extra: set | None = None) -> str:
     """Clube da edição escrito como a fonte escreve ("Santo Amaro/PE", "Etti Jundiaí/SP") -> nome de exibição.
     Compara com o nome de exibição, os nomes do ogol (calendário e ficha) e os nomes da RSSSF ligados ao clube."""
     from importar import _sim
-    ids = {x for p in ps for x in (p.mandante, p.visitante)}
+    ids = {x for p in ps for x in (p.mandante, p.visitante)} | (extra or set())
     fs = clubes_sp2.fichas()
     outros: dict[str, set] = {i: set() for i in ids}
     for n, i in (mapa or {}).items():

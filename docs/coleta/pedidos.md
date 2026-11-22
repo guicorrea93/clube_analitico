@@ -1,5 +1,9 @@
 # Pedidos do agente de coleta
 
+> **Coleta Brasil (agente 2):** o estado de tudo, as regras e as pendências em ordem estão em
+> `coleta/comum/COMECE-AQUI.md`; a documentação de cada competição (gerada por `coleta/comum/documentar.py`), em
+> `coleta/comum/documentacao/` (índice no `README.md`).
+
 ## Recado ao agente 1 (20/11/2026): Série C pronta para o painel
 
 A Série C (`bra-serie-c`) está coletada e conferida. O pacote está em `data/coleta/bra-serie-c/pacote/`, no formato do
@@ -568,3 +572,38 @@ linha (a página da A2 de 2021 vinha inteira numa linha só). Conferido: nenhuma
 - 1989: só a 1ª fase;
 - 1991: só a 2ª fase;
 - 1992-1994: só a classificação.
+
+## Agente 2 (22/11/2026): Paulista A2 (`bra-sp-2`) com as edições antigas e incompletas
+
+O Guilherme decidiu incluir tudo o que existir. O pacote foi regravado e as edições de 1995 a 2026 não mudaram.
+
+- **Totais:** 63 edições (eram 37), 9.142 jogos, 167 clubes.
+- **Edições novas:**
+  - **1947 a 1966:** inclui 1965, que não tem página na RSSSF e vem da Wikipédia em português.
+  - **1990:** também só na Wikipédia em português.
+  - **1992 a 1994.**
+- **Edições sem jogos ou com parte dos jogos:** seguem o padrão do `uru-1` e do `par-1`, e o `formato` diz o que cada uma tem:
+  - **Sem jogo nenhum:** 1947, 1993 e 1994. Têm só `edicoes.csv`, `classificacao_final.csv` e `tabelas_publicadas.csv`. O `formato` começa com "sem jogos".
+  - **Com parte dos jogos:** as outras. O `formato` começa com "jogos incompletos". Os jogos vêm da Wikipédia em português: `fonte` "Wikipédia (pt)", `fonte_id` "wikipedia:pt_<ano>:<linha>". São finais e fases finais de 1948 a 1966, a 4ª fase de 1990, a 2ª fase e o quadrangular de 1992, e as semifinais de 1989.
+  - **Classificação por rodada:** essas edições não têm `classificacao_rodada`.
+- **Classificação final dessas edições:**
+  - **Fonte:** as tabelas publicadas.
+  - **Ordem:** o campeão da lista da RSSSF; o vice, que é o outro finalista; depois a fase alcançada, a posição no grupo e os pontos da última fase.
+  - **Colunas numéricas:** preenchidas só quando há uma tabela só (1947, 1960 e 1994). Nas outras ficam vazias, e a `observacao` da linha traz os pontos de cada fase.
+  - **Posição repetida:**
+    - Em 1992 e 1993 a página dá só faixas, por exemplo do 5º ao 12º, e os clubes da faixa ficam com a posição do começo dela.
+    - Em 1990, os 20 eliminados antes da 4ª fase ficam todos em 7º.
+  - **Pedido:** que o painel aceite colunas vazias e posição repetida, como no `par-1`.
+- **1989 e 1991:**
+  - Agora entram, com o `formato` marcado "(jogos incompletos)".
+  - O campeão de 1991 é o Araçatuba, à frente do Lemense pelo saldo. A página da RSSSF diz "Lemense" por engano.
+- **Clubes:** são 63 novos no cadastro comum (`rs-...`). Nenhum nome que já existia mudou, nenhum se repete e nenhum é igual a um nome do banco. Identidades que mudam o que você conhece:
+  - o Barretos FC (até 1960) não é o Barretos EC, de 1960;
+  - o Catanduva EC dos anos 1950 não é o GE Catanduvense, de 1970;
+  - a AA Osvaldo Cruz não é o Osvaldo Cruz FC, de 2004;
+  - o Araçatuba FC de 1954 não é a AE Araçatuba, de 1972.
+
+  Homônimos levam a cidade, por exemplo "Ferroviária (Botucatu)" e "São Paulo (Araçatuba)".
+- **Fontes novas guardadas em `data/coleta/bra-sp-2/wikipedia/`:**
+  - o código das páginas, em `pt_<ano>.wiki`;
+  - os jogos transcritos, em `jogos_pt.csv`. Os 244 jogos com placar foram conferidos um a um no código das páginas.

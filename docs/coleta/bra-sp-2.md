@@ -3,31 +3,70 @@
 Gerado por `python coleta/bra-sp-2/importar.py`. Pacote em `data/coleta/bra-sp-2/pacote/`. Mesmo código do Paulista
 (`docs/coleta/bra-sp-1.md`), com as fontes da 2ª divisão.
 
-**Temporadas:** as que têm os jogos em alguma fonte: 1979, 1985-1988 e 1995-2026. Nome oficial de cada época na
-lista da RSSSF (Segunda Divisão, Divisão Intermediária, Divisão Especial; Série A2 desde 1994). Campeões conferidos
-na lista da RSSSF (`sp2camp.htm`).
+**Temporadas:** 1947-1966, 1979 e 1985-2026 (63 edições). Com os jogos: 1979, 1985-1988 e 1995-2026; com parte
+dos jogos: 1989 e 1991, e várias de 1948-1966, 1990 e 1992 (os jogos que a Wikipédia em português traz); sem jogo
+nenhum: 1947, 1993 e 1994 (só a tabela ou a ordem final). Nome oficial de cada época na lista da RSSSF (Segunda
+Divisão, Primeira Divisão, Divisão Intermediária, Divisão Especial; Série A2 desde 1994). Campeões conferidos na lista
+da RSSSF (`sp2camp.htm`).
 
 **Fontes:** RSSSF Brasil (`sp{ano}l2.htm`: jogos, fases, datas, autores e tabelas); ogol (calendário de cada edição,
 de 1998 em diante, e o código de cada clube; confere placares, traz a rodada e completa os jogos que a página não traz).
 Artilheiros pela lista da RSSSF (`sp2tops.htm`). 2026 vem só do ogol (a RSSSF ainda não tem a página).
+Wikipédia em português (`data/coleta/bra-sp-2/wikipedia/`: o código das páginas de cada edição e os jogos transcritos
+delas em `jogos_pt.csv`, cada um conferido no código da página): 1965 e 1990 (sem página da RSSSF), os jogos que a
+RSSSF não traz (finais e fases finais de 1948-1966, a 4ª fase de 1990, a 2ª fase e o quadrangular de 1992, as
+semifinais de 1989). Lista de participantes da RSSSF (`sp2list.htm`): a cidade de cada clube de 1947 a 1966.
 
 **Regras:** placar diferente entre RSSSF e ogol fica com a versão que fecha com a tabela publicada pela RSSSF; sem tabela,
 fica a da RSSSF. Autores dos gols só entram quando a soma bate com o placar. Clube que já está no `futebol.db` ou nos
 outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.json`). Acesso: o clube que joga a 1ª
 divisão do ano seguinte (pacote `bra-sp-1`).
 
-**Ficam de fora** (decisão pendente com o Guilherme) as temporadas sem os jogos: 1947-1966 (a RSSSF traz só a
-classificação final em pontos e os jogos do campeão), 1989 (só a 1ª fase; a final está no ogol), 1991 (só a 2ª fase),
-1992-1994 (só a classificação), os anos sem página (1965, 1967-1978, 1980-1984, 1990) e a fase amadora (1916-1946,
+**Edições sem os jogos** (decisão do Guilherme, 21/11/2026: incluir tudo o que existir), como as do `uru-1` e do
+`par-1`: a classificação final vem das tabelas publicadas. Campeão pela lista da RSSSF; vice, o outro finalista (o 1º
+do outro grupo da última fase, ou o 2º da tabela única); depois a fase alcançada, a posição no grupo e os pontos da
+última fase. Pontos, vitórias, empates e derrotas só quando a edição tem uma tabela só; nas outras, os pontos de cada
+fase vão na observação da linha. 1992 e 1993: a página dá só faixas ("eliminados na 2ª fase, do 5º ao 12º"), e os
+clubes da faixa ficam empatados na posição do começo dela. 1990: os eliminados antes da 4ª fase ficam empatados em 7º.
+Os jogos dos campeões listados nas páginas da RSSSF de 1947-1966 não entraram (só os de um clube; a Wikipédia traz as
+finais).
+
+**Ficam de fora** os anos sem 2ª divisão ou sem nenhuma fonte (1967-1978, 1980-1984) e a fase amadora (1916-1946,
 só a lista de campeões).
 
 | Ano | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|---|
+| 1947 | RSSSF | 14 | 0 (0) | 0 | 0 | 0 / 0 | XV de Piracicaba | RSSSF (tabela final publicada) |
+| 1948 | RSSSF | 42 | 9 (0) | 42 | 0 | 1 / 0 | XV de Piracicaba | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1949 | RSSSF | 47 | 13 (0) | 48 | 0 | 1 / 0 | Guarani | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1950 | RSSSF | 54 | 4 (0) | 7 | 0 | 0 / 0 | Radium | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1951 | RSSSF | 46 | 1 (0) | 6 | 0 | 0 / 0 | XV de Jaú | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1952 | RSSSF | 45 | 1 (0) | 3 | 0 | 0 / 0 | Linense | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1953 | RSSSF | 20 | 30 (0) | 96 | 0 | 1 / 0 | Noroeste | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1954 | RSSSF | 19 | 30 (0) | 104 | 0 | 0 / 1 | Taubaté | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1955 | RSSSF | 24 | 1 (0) | 9 | 0 | 0 / 0 | Ferroviária-SP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1956 | RSSSF | 32 | 3 (0) | 6 | 0 | 0 / 0 | Botafogo-SP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1957 | RSSSF | 32 | 1 (0) | 5 | 0 | 0 / 0 | América-SP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1958 | RSSSF | 38 | 3 (0) | 6 | 0 | 0 / 0 | Comercial-RP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1959 | RSSSF | 39 | 51 (0) | 202 | 0 | 0 / 0 | Corinthians Prudente | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1960 | RSSSF | 11 | 1 (0) | 5 | 0 | 0 / 0 | Esportiva Guaratinguetá | RSSSF (tabela final publicada) |
+| 1961 | RSSSF | 22 | 3 (0) | 14 | 0 | 0 / 0 | Prudentina | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1962 | RSSSF | 22 | 3 (0) | 5 | 0 | 0 / 0 | São Bento | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1963 | RSSSF | 22 | 2 (0) | 9 | 0 | 0 / 0 | América-SP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1964 | RSSSF | 22 | 1 (0) | 1 | 0 | 0 / 0 | Portuguesa Santista | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1965 |  | 22 | 2 (0) | 5 | 0 | 0 / 0 | Bragantino | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1966 | RSSSF | 24 | 2 (0) | 3 | 0 | 0 / 0 | Ferroviária-SP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1979 | RSSSF | 21 | 267 (0) | 540 | 0 | 1 / 3 | Taubaté | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1985 | RSSSF | 52 | 684 (0) | 1401 | 0 | 5 / 4 | Mogi Mirim | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1986 | RSSSF | 55 | 820 (0) | 1463 | 0 | 11 / 2 | Bandeirante-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1987 | RSSSF | 54 | 594 (0) | 1072 | 0 | 0 / 0 | União São João | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1988 | RSSSF + ogol | 28 | 359 (2) | 648 | 0 | 0 / 6 | Bragantino | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1989 | RSSSF + ogol | 27 | 188 (2) | 305 | 0 | 0 / 0 | Ituano | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1990 |  | 26 | 30 (0) | 42 | 0 | 1 / 0 | Olímpia | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1991 | RSSSF | 12 | 72 (0) | 131 | 0 | 0 / 0 | Araçatuba | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1992 | RSSSF | 27 | 42 (0) | 111 | 0 | 0 / 0 | Taquaritinga | RSSSF (ordem final publicada) |
+| 1993 | RSSSF | 28 | 0 (0) | 0 | 0 | 0 / 0 | Paraguaçuense | RSSSF (ordem final publicada) |
+| 1994 | RSSSF | 16 | 0 (0) | 0 | 0 | 0 / 0 | Araçatuba | RSSSF (tabela final publicada) |
 | 1995 | RSSSF | 16 | 345 (0) | 788 | 0 | 2 / 0 | Mogi Mirim | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1996 | RSSSF | 16 | 252 (0) | 658 | 0 | 3 / 1 | Inter de Limeira | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1997 | RSSSF | 16 | 188 (0) | 578 | 0 | 2 / 2 | Matonense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -62,6 +101,94 @@ só a lista de campeões).
 | 2026 | ogol | 16 | 150 (150) | 352 | 0 | 0 / 0 | Juventus-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 
 ## Conferência e correções, ano a ano
+
+### 1947
+
+- Barretos (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1948
+
+- a Internacional da Série Branca é a de Bebedouro (Wikipédia); a página da RSSSF repete "(Limeira)"
+- Barretos FC (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1949
+
+- AA Orlândia (Orlândia) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1950
+
+- Barretos FC (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1951
+
+- Barretos F.C (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1952
+
+- Araraquara (Araraquara) — clube que o ogol não tem; entra só pela RSSSF
+- Barretos (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1953
+
+- Araraquara (Araraquara) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1954
+
+- 2ª fase: a página traz uma tabela calculada dos jogos (Taubaté 16, Comercial 11) e a classificação oficial (Taubaté 14, Comercial 13); vale a oficial. Os 30 jogos da Wikipédia fecham com a calculada
+- tabela publicada x jogos — Segunda fase — Taubaté: tabela 14 pts, jogos 16; Comercial-RP: tabela 13 pts, jogos 11
+- Araçatuba (Araçatuba) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1955
+
+- Araraquara (Araraquara) — clube que o ogol não tem; entra só pela RSSSF
+- Araçatuba (Araçatuba) — clube que o ogol não tem; entra só pela RSSSF
+- Barretos (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1956
+
+- Barretos (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+- Araraquara (Araraquara) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1957
+
+- Barretos (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+- AD Araraquara (Araraquara) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1958
+
+- Barretos FC (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1959
+
+- Barretos FC (Barretos) — clube que o ogol não tem; entra só pela RSSSF
+
+### 1960
+
+- sem ocorrências
+
+### 1961
+
+- sem ocorrências
+
+### 1962
+
+- sem ocorrências
+
+### 1963
+
+- sem ocorrências
+
+### 1964
+
+- sem ocorrências
+
+### 1965
+
+- sem ocorrências
+
+### 1966
+
+- sem ocorrências
 
 ### 1979
 
@@ -288,7 +415,7 @@ só a lista de campeões).
 
 ### 1988
 
-- 69 jogos vêm na página só com o resultado ("venceu", "empatou", "perdeu" ou "-"), sem placar, e ficam fora do pacote; por isso as tabelas da 1ª fase não fecham. O ogol não tem esses jogos
+- 69 jogos vêm na página só com o resultado ("venceu", "empatou", "perdeu" ou "-"), sem placar, e ficam fora do pacote; por isso as tabelas da 1ª fase não fecham. O ogol e a Wikipédia não têm esses jogos
 - tabela publicada x jogos — Segunda fase / Grupo A: EC São Bernardo tabela [24, 10, 9, 5, 14, 12] jogos [9, 3, 2, 4, 6, 8] — a tabela conta 24 jogos e as fontes trazem 9
 - tabela publicada x jogos — Segunda fase / Grupo A: Taubaté tabela [24, 10, 8, 6, 25, 11] jogos [10, 5, 3, 2, 13, 5] — a tabela conta 24 jogos e as fontes trazem 10
 - tabela publicada x jogos — Segunda fase / Grupo A: Nacional-SP tabela [24, 6, 9, 9, 15, 18] jogos [8, 3, 2, 3, 9, 7] — a tabela conta 24 jogos e as fontes trazem 8
@@ -354,6 +481,74 @@ só a lista de campeões).
 - União — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (União Mogi)
 - VOCEM — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (VOCEM)
 - Votuporanguense — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Votuporanguense)
+
+### 1989
+
+- Bandeirante — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Bandeirante-SP)
+- Capivariano — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Capivariano)
+- Comercial — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Comercial-RP)
+- Corinthians — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Corinthians Prudente)
+- Fernandópolis — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Fernandópolis)
+- Francana — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Francana)
+- Independente — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Independente de Limeira)
+- Jacareí — clube que o ogol não tem; entra só pela RSSSF
+- Lemense — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (EC Lemense)
+- Linense — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Linense)
+- Marília — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Marília)
+- Mirassol — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Mirassol)
+- Nacional — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Nacional-SP)
+- Olímpia — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Olímpia)
+- Palmeiras — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Palmeiras (São João da Boa Vista))
+- Paulista — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Paulista)
+- Rio Branco — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Rio Branco-SP)
+- Rio Preto — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Rio Preto)
+- São Bernardo — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (EC São Bernardo)
+- Tanabi — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Tanabi)
+- Taquaritinga — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Taquaritinga)
+- Taubaté — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Taubaté)
+- União — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (União Mogi)
+- VOCEM — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (VOCEM)
+- Votuporanguense — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Votuporanguense)
+- jogo só no ogol, incluído em Final: Ponte Preta 3-1 Ituano (1989-12-10)
+- jogo só no ogol, incluído em Final: Ituano 2-0 Ponte Preta (1989-12-16)
+- jogo só na Wikipédia, incluído em Semifinal: Francana 0-1 Ituano (1989-11-26)
+- jogo só na Wikipédia, incluído em Semifinal: Taquaritinga 0-1 Ponte Preta (1989-11-26)
+- jogo só na Wikipédia, incluído em Semifinal: Ituano 5-1 Francana (1989-12-03)
+- jogo só na Wikipédia, incluído em Semifinal: Ponte Preta 3-1 Taquaritinga (1989-12-03)
+- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Ituano
+
+### 1990
+
+- sem ocorrências
+
+### 1991
+
+- campeão: Araçatuba, empatado em pontos com o Lemense no quadrangular e na frente pelo saldo. A página da RSSSF diz "Campeão: Lemense", mas a lista de campeões da RSSSF, a Wikipédia e o Futebol Interior dão o Araçatuba
+- Araçatuba — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Araçatuba)
+- Barretos — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Barretos)
+- Francana — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Francana)
+- Independente — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Independente de Limeira)
+- Jaboticabal — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Jaboticabal)
+- Lemense — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (EC Lemense)
+- Mirassol — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Mirassol)
+- Nacional — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Nacional-SP)
+- Paulista — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Paulista)
+- Radium — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Radium)
+- Tanabi — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Tanabi)
+- Taubaté — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Taubaté)
+- vencedor da final pelos jogos (EC Lemense) diferente do campeão oficial (Araçatuba); fica o oficial
+
+### 1992
+
+- sem ocorrências
+
+### 1993
+
+- sem ocorrências
+
+### 1994
+
+- sem ocorrências
 
 ### 1995
 
@@ -637,10 +832,18 @@ só a lista de campeões).
 - Clube que o ogol não tem entra pela RSSSF, com código "rs-<nome>-<cidade>". Nunca com o nome exato de outro clube
   (regra 6b): "Palmeiras (São João da Boa Vista)", "Internacional de Bebedouro", "União Mogi", "EC Lemense".
 - Ferroviário Atlético Ituano é o Ituano de hoje (mesmo clube, nome antigo).
+- 1947-1966: a cidade vem da própria tabela ("AA Ferroviária (Botucatu)") ou da lista de participantes da RSSSF;
+  o casamento com a ficha do ogol exige a mesma cidade e o nome igual ou contido ("XV de Novembro" em "Esporte Clube
+  XV de Novembro"), de clube já fundado. O Barretos FC (até 1960) não é o Barretos EC (1960); o Catanduva EC dos anos
+  1950 não é o GE Catanduvense (1970); a AA Osvaldo Cruz não é o Osvaldo Cruz FC (2004); o Araçatuba FC de 1954 não é
+  a AE Araçatuba (1972). Homônimos levam a cidade: "Ferroviária (Botucatu)", "São Paulo (Araçatuba)",
+  "Comercial (Lins)", "Paulista (Araraquara)", "São Bento (Marília)".
 
 ## O que não deu para coletar
 
-- **Edições sem os jogos:** veja "Ficam de fora" acima.
+- **Jogos que faltam:** 1947-1966 (fora o que a Wikipédia traz), 1989 (2ª e 3ª fases), 1990 (1ª a 3ª fases), 1991
+  (1ª fase), 1992 (1ª fase e 6 jogos só com o resultado), 1993 e 1994 (todos), 1988 (69 sem placar). Só há esses
+  jogos em jornais da época (Hemeroteca Digital, acervos do Estadão e da Folha), em imagem.
 - **Cartões:** a RSSSF não traz; o ogol tem na página de cada jogo (baixa prioridade).
 - **Autores dos gols:** só onde a RSSSF traz (a partir de 2013) e a soma fecha com o placar.
 - **Classificação final:** calculada (fase alcançada, depois pontos, vitórias, saldo e gols pró), com o campeão em cima;
