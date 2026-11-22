@@ -8,7 +8,8 @@ Para: agente 1 (banco, painel, escudos, Séries A e B). Revisão profunda de 22/
 2. Corrija na ordem: primeiro "ERRADO NO AR" e "Publicação", depois os blocos de cima para baixo.
 3. Cada linha é um resumo. A sugestão completa está no `docs/revisao/achados.csv`, coluna `o_que_a_fonte_diz`,
    depois de "SUGESTÃO:".
-4. Ids marcados "espera D-xx" não se mexem até o Guilherme responder (`docs/revisao/decisoes-guilherme.md`).
+4. Ids marcados "espera D-xx": o Guilherme respondeu em 22/11 (todas menos a D-10). Corrija pela resposta registrada
+   em `docs/revisao/decisoes-guilherme.md` (seção "Respostas do Guilherme").
 5. Identifique jogos por competição + data + clubes, nunca pelo `partida_id`.
 6. Depois de mexer: refazer o banco (`python futebol/migrar_brasileirao.py` e `futebol/carregar_pacotes.py`), gerar o
    painel (`python gerar_dashboard_v2.py`), escrever os ids corrigidos em `docs/revisao/pedidos-painel.md` e rodar as
@@ -130,7 +131,21 @@ Outros:
 - SP-028 (baixa): Red Bull Brasil com nome de época (2015-2019); cidades de Humberto Primeiro e São Caetano EC.
 - PY-017 (baixa, espera D-25): "Olímpia" do Brasil vira "Olímpia-SP".
 
-## Esperando decisão do Guilherme
+## Achado de 22/11, depois da consolidação
+
+- SA-031 (média): Série A 1987 sem os jogos do Módulo Amarelo, que pela CBF é parte da Série A. O campeão Sport aparece
+  com só 2 jogos. Importar o Módulo Amarelo (RSSSF Brasil e Bola n@ Área) em `historico/` e `corrigir_serie_a`. Junto com a D-08.
+
+## D-10 (22/11): edições não oficiais com aviso
+
+- SB-026 (média): importar as edições não oficiais da Série B (1986, 1987, 2000; 1979 se houver disputa), em `serie_b/`.
+- TL-005 (média): o painel marca a edição não oficial (aviso no Resumo e no seletor) e não conta o título.
+
+## Decididas pelo Guilherme em 22/11 (já podem ser corrigidas)
+
+Resposta: a recomendação de cada uma em `decisoes-guilherme.md`, menos a D-01, que ficou com a opção A: tudo o que
+já terminou entra agora, inclusive os Aperturas 2026 da Argentina e do Paraguai. A D-10 ficou com a opção B (edições não oficiais com aviso).
+
 
 - D-03 (nome da época): ES-013, CL-023.
 - D-12 (Série A 1986): SA-016.
@@ -138,7 +153,7 @@ Outros:
 - D-15 (gols de W.O.): RC-005.
 - D-21 (Itália 1945/46): IT-011.
 - D-25 (identidade, América do Sul): PY-017.
-- D-07 (títulos divididos): sem id do agente 1, mas o painel precisa aceitar dois campeões se a resposta for "A".
+- D-07 (títulos divididos): sem id do agente 1, mas o painel precisa aceitar dois campeões na mesma edição (Paulista 1973: Santos e Portuguesa).
 
 ## Fontes novas a usar
 
@@ -149,4 +164,4 @@ Detalhes em `docs/revisao/fontes.md`.
 - Hemeroteca Digital: só para os empates de fonte (D-13).
 - Escudos: BDFA (Argentina), AUF (Uruguai), BDFutbol (Espanha), ogol e Wikipédia es (Equador, Peru, Paraguai).
 
-Cobre 63 de 63 ids abertos de `banco-painel` no `achados.csv` (22/11/2026; os fechados na conferência final estão riscados).
+Cobre 66 de 66 ids abertos de `banco-painel` no `achados.csv` (22/11/2026; os fechados na conferência final estão riscados).

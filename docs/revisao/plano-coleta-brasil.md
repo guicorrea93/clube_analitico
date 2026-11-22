@@ -9,7 +9,8 @@ Competições: Paulista (`bra-sp-1`), Paulista A2 (`bra-sp-2`), Série C, Série
 2. Corrija na ordem deste plano: primeiro "ERRADO NO AR", depois cada competição de cima para baixo.
 3. Cada linha é um resumo. A sugestão completa (valor certo, fonte, lugar no código) está no `docs/revisao/achados.csv`,
    coluna `o_que_a_fonte_diz`, depois de "SUGESTÃO:".
-4. Ids marcados "espera D-xx" não se mexem até o Guilherme responder (`docs/revisao/decisoes-guilherme.md`).
+4. Ids marcados "espera D-xx": o Guilherme respondeu em 22/11 (todas menos a D-10). Corrija pela resposta registrada
+   em `docs/revisao/decisoes-guilherme.md` (seção "Respostas do Guilherme").
 5. Identifique jogos por competição + data + clubes, nunca pelo `partida_id`.
 6. Depois de cada bloco: `python coleta/<slug>/importar.py`, `python coleta/comum/testar_carga.py <slug> <scratch>`,
    `python coleta/comum/documentar.py`.
@@ -195,7 +196,15 @@ Não está no site. O importador é cópia do Paulista: faça o item 2 do Paulis
 - QC-006 (baixa): 100 datas em que ogol e Bola concordam contra a RSSSF (lista `revisao/QC/saida_datas_ogol_bola.txt`).
 - QC-007 (baixa): 4 observações em inglês (`observacao.py`) e notas de rodapé no `gols_texto` (`rsssf.py`/`gols.py`).
 
-## Esperando decisão do Guilherme
+## D-10 (22/11): edições não oficiais com aviso
+
+- SC-029 (média): acrescentar a Série C de 1987 e 2000, marcadas como não oficiais, com os jogos da Bola n@ Área e da RSSSF.
+
+## Decididas pelo Guilherme em 22/11 (já podem ser corrigidas)
+
+Resposta: a recomendação de cada uma em `decisoes-guilherme.md`, menos a D-01, que ficou com a opção A: tudo o que
+já terminou entra agora, inclusive os Aperturas 2026 da Argentina e do Paraguai. A D-10 ficou com a opção B (edições não oficiais com aviso).
+
 
 - D-01 (edições de 2026): SP-004.
 - D-02 (ordem final com fase final): SC-018.
@@ -221,4 +230,4 @@ Detalhes em `docs/revisao/fontes.md`.
 - Súmulas da CBF (PDF): data e placar oficiais 2013+.
 - Hemeroteca Digital: só para os empates de fonte (D-13, D-14).
 
-Cobre 86 de 86 ids abertos de `coleta-brasil` no `achados.csv` (22/11/2026; os fechados na conferência final estão riscados).
+Cobre 87 de 87 ids abertos de `coleta-brasil` no `achados.csv` (22/11/2026; os fechados na conferência final estão riscados).

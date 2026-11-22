@@ -4,6 +4,15 @@ Revisão profunda de 22/11/2026. Tudo o que depende de você, num lugar só.
 Para responder, basta escrever no chat, por exemplo: "D-07: A" ou "D-17: ok" ("ok" = aceito a recomendação).
 Nas decisões com partes (a, b, c), dá para responder parte a parte: "D-19 b: A".
 
+## Respostas do Guilherme (22/11/2026)
+
+- **D-01:** opção A. Tudo o que já terminou entra agora: o Paulista 2026 e os Aperturas 2026 da Argentina e do Paraguai.
+- **D-02 a D-09 e D-11 a D-25:** aceitas as recomendações (D-17 a D-25 em todas as partes).
+- **D-10:** opção B. As edições não oficiais das Séries B e C entram com aviso, sem contar título (SB-026, SC-029, TL-005).
+  O Módulo Amarelo de 1987 não é uma delas: pela CBF ele é parte da Série A (achado SA-031).
+
+Os planos já tratam os ids dessas decisões como liberados para corrigir.
+
 ## ERRADO NO AR (altos abertos que já aparecem no site)
 
 Você pode adiantar estes: são erros com prova, e a correção está pronta nos planos.
@@ -121,6 +130,7 @@ Altos que estão só no banco (a tela não mostra a marca "rebaixado"): SP-015, 
 ## As decisões, uma a uma
 
 ### D-01 Edições de 2026 já terminadas
+- **Decidido em 22/11/2026:** opção A, tudo o que já terminou entra agora: Paulista 2026 e os Aperturas 2026 da Argentina e do Paraguai (a recomendação era B).
 - **Pergunta:** o Paulista 2026 e os Aperturas 2026 da Argentina e do Paraguai entram agora?
 - **Opções:**
   - A) tudo o que já terminou entra agora;
@@ -135,6 +145,7 @@ Altos que estão só no banco (a tela não mostra a marca "rebaixado"): SP-015, 
 - **Ids:** SP-004, AR-043, PY-027.
 
 ### D-02 Ordem da classificação final em campeonato com fase final
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Pergunta:** quando o título sai de liguilla, quadrangular ou mata-mata, como ordenar do 3º para baixo?
 - **Opções:**
   - A) campeão e vice; depois a ordem da última fase de liga (com bônus); depois os eliminados por fase alcançada e,
@@ -153,6 +164,7 @@ Altos que estão só no banco (a tela não mostra a marca "rebaixado"): SP-015, 
 - **Ids:** CO-002, EC-001, EC-002 (e a ordem do EC-003), SC-018. Vale também para Peru e Bolívia.
 
 ### D-03 Nome (e cidade) da época
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Pergunta:** o painel mostra o nome de hoje ("Atlético de Madrid" campeão de 1939/40) ou o da época ("Atlético Aviación")?
 - **Opções:**
   - A) como hoje: sempre o nome atual;
@@ -169,6 +181,7 @@ Altos que estão só no banco (a tela não mostra a marca "rebaixado"): SP-015, 
 - **Ids:** ES-013, QC-009, CL-023, A2-025.
 
 ### D-04 Play-offs e desempates fora da liga
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Precedente: a liguilla do Espanhol 1986/87 ficou só na observação (ES-002).
 - **a) Alemanha, Relegation (16º da Bundesliga x 3º da 2. Bundesliga, 28 temporadas)**
   - Opções: A) deixar como está; B) nota na edição ("Wolfsburg 0-0 e 1-2 Paderborn; caiu"); C) os 2 jogos como fase.
@@ -186,6 +199,7 @@ Precedente: a liguilla do Espanhol 1986/87 ficou só na observação (ES-002).
 - **Ids:** DE-012, IT-018, A2-012.
 
 ### D-05 Eras antigas que ainda faltam
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Já decidido (22/11): entram a Holanda até 1955/56 e a Alemanha de 1902/03 a 1962/63, com os títulos oficiais.
 - **a) Itália 1898 a 1928/29**
   - Opções: A) só desde 1929/30, com nota; B) incluir as 31 edições (grupos regionais e finais); C) só a lista de campeões.
@@ -201,6 +215,7 @@ Já decidido (22/11): entram a Holanda até 1955/56 e a Alemanha de 1902/03 a 19
 - **Ids:** IT-017.
 
 ### D-06 Peru 1912-1921 (Liga Peruana)
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Em 21/11 você aprovou as 10 edições só com campeão e vice (guia da coleta). O agente 1 anotou em 22/11 que a decisão
 "ainda está em aberta". A prova nova: as tabelas existem.
 - **Opções:**
@@ -214,6 +229,7 @@ Em 21/11 você aprovou as 10 edições só com campeão e vice (guia da coleta).
 - **Ids:** PE-019 (o vice de 1918 e 1921, PE-001, se corrige em qualquer opção).
 
 ### D-07 Títulos divididos e dois campeões no mesmo ano
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **a) Paulista 1973**
   - Opções: A) dois campeões (Santos e Portuguesa), vice Palmeiras; B) só a Portuguesa, com nota.
   - Prova: lista oficial da FPF (Santos 22 títulos até 2019, só fecha com 1973):
@@ -231,6 +247,7 @@ Em 21/11 você aprovou as 10 edições só com campeão e vice (guia da coleta).
 - **Ids:** SP-001, AR-044.
 
 ### D-08 Série A 1987
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Opções:** A) Sport campeão, com a Copa União (Flamengo) na nota, como hoje; B) dois campeões.
 - **Prova:** CBF e STF (2017) mantêm o Sport: https://en.wikipedia.org/wiki/List_of_Brazilian_football_champions ;
   lado da Copa União: https://www.campeoesdofutebol.com.br/copa_uniao_1987.html
@@ -238,6 +255,7 @@ Em 21/11 você aprovou as 10 edições só com campeão e vice (guia da coleta).
 - **Ids:** nenhum aberto (pergunta da 1ª rodada).
 
 ### D-09 Títulos que a federação não reconhece
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Regra proposta: seguir a lista da federação (AUF, FPF, AFA).
 - **a) Uruguai: 1923 FUF, 1924 FUF e 1926 (Consejo Provisorio)**
   - Opções: A) seguir a AUF: as edições ficam, sem campeão, com nota (Peñarol 52, Wanderers 3); B) seguir a RSSSF,
@@ -255,6 +273,7 @@ Regra proposta: seguir a lista da federação (AUF, FPF, AFA).
 - **Ids:** UY-001, SP-005.
 
 ### D-10 Edições não oficiais das Séries B e C
+- **Decidido em 22/11/2026:** opção B, incluir com aviso de edição não oficial, sem contar título (achados SB-026, SC-029 e TL-005).
 - **Pergunta:** ficam fora a Série B de 1979, 1986, 1987 (Módulos Azul e Branco) e 2000 (Módulo Amarelo), e a Série C
   de 1987 e 2000?
 - **Opções:** A) fora, como a lista da CBF (hoje); B) incluir com aviso.
@@ -264,12 +283,14 @@ Regra proposta: seguir a lista da federação (AUF, FPF, AFA).
 - **Ids:** nenhum aberto.
 
 ### D-11 Série A 2016: Chapecoense x Atlético-MG
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Opções:** A) não disputado (379 jogos), com o aviso que o painel já mostra; B) W.O. duplo (0-3 para os dois).
 - **Prova:** https://www.rsssf.org/tablesb/braz2016.html ("n/p"); https://en.wikipedia.org/wiki/2016_Campeonato_Brasileiro_S%C3%A9rie_A
 - **Recomendação:** A. A CBF não homologou resultado.
 - **Ids:** nenhum aberto.
 
 ### D-12 Série A 1986: grupos E a H
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Opções:** A) importar os grupos E a H inteiros (36 clubes a mais, como a CBF conta 80 clubes); B) só os 8 jogos de
   cada um dos 4 que subiram; C) deixar, com aviso. E Joinville x Sergipe: 1x0 por W.O. (hoje) ou 1x1 de campo.
 - **Prova:** https://en.wikipedia.org/wiki/1986_Campeonato_Brasileiro_S%C3%A9rie_A (Criciúma 26 J; banco 18);
@@ -279,6 +300,7 @@ Regra proposta: seguir a lista da federação (AUF, FPF, AFA).
 - **Ids:** SA-016.
 
 ### D-13 Placares em que as fontes empatam (Brasil)
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Cuidado: a Wikipédia pt cita o Bola n@ Área. Bola + pt contra RSSSF + ogol é uma linhagem contra outra.
 - **Casos:** Série B 1971, Grupo A com 12 ou 10 jogos (QA-005); 5 placares da Série B 1971, 1981 e 1991 (QA-008);
   3 placares da Série C 1992 e 1994 (SC-016); Copa 1990 Santa Cruz x América-RN e 1991 Vitória x Remo (CB-005).
@@ -292,6 +314,7 @@ Cuidado: a Wikipédia pt cita o Bola n@ Área. Bola + pt contra RSSSF + ogol é 
 - **Ids:** QA-005, QA-008, SC-016 (3 jogos), CB-005.
 
 ### D-14 Copa do Brasil 1999: a preliminar Santa Cruz x Náutico entra?
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Opções:** A) fica fora (RSSSF, ogol e Bola: 116 jogos); B) entra sem data (Wikipédia pt); C) entra com a data do
   Futebol Nacional: 28/01/1999, Náutico 0x1 Santa Cruz.
 - **Prova:** https://pt.wikipedia.org/wiki/Copa_do_Brasil_de_Futebol_de_1999 (117 jogos);
@@ -301,6 +324,7 @@ Cuidado: a Wikipédia pt cita o Bola n@ Área. Bola + pt contra RSSSF + ogol é 
 - **Ids:** CB-007, QC-008.
 
 ### D-15 Gols de W.O. nos totais
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Opções:** A) o jogo e os 3 gols contam (hoje: Série D 2014 com 200 jogos e 515 gols); B) conta o jogo, sem os gols;
   C) não conta nem o jogo.
 - **Prova:** https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_2014_-_S%C3%A9rie_D (503 gols);
@@ -309,6 +333,7 @@ Cuidado: a Wikipédia pt cita o Bola n@ Área. Bola + pt contra RSSSF + ogol é 
 - **Ids:** RC-005.
 
 ### D-16 Paulista: "Paulistinha" (fase preliminar de 1970 e 1972-1974)
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Opções:** A) não entra (hoje); B) entra como fase da edição, sem peso na classificação; C) edição à parte.
 - **Prova:** o Futebol Nacional só tem 1970-1972 (jogados no ano anterior); a Wikipédia pt conta os clubes da preliminar.
   https://futebolnacional.com.br/siteapp/controller.jsp?module=summary&lang=pt-br&name=A27437D2CE0894275C03A3BAEDA49F41A9C63F1F39F7FF7572315985555EFA80&state=SP&country=BR
@@ -316,6 +341,7 @@ Cuidado: a Wikipédia pt cita o Bola n@ Área. Bola + pt contra RSSSF + ogol é 
 - **Ids:** SP-006.
 
 ### D-17 Artilheiros em dúvida
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Regra já sua (ES-005): vale a contagem oficial da liga; a outra fica anotada.
 - **a) Paulista: qual é a base da lista?**
   - Opções: A) RSSSF (1902-2021) + FPF (2022-2026), Wikipédia pt só para faltas; B) Wikipédia pt; C) as duas.
@@ -334,6 +360,7 @@ Regra já sua (ES-005): vale a contagem oficial da liga; a outra fica anotada.
 - **Ids:** QS-011, FR-011 (só o Bokšić), EN-004, CH-018 (só 1968 e 1998).
 
 ### D-18 Rebaixados fora do padrão
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **a) Equador 1970-1981 (queda no meio do ano):** marcar na edição do ano, com "rebaixado ao fim da 1ª etapa" (rec.),
   ou não marcar. Prova: https://www.rsssf.org/tablese/ecua77.html ; https://es.wikipedia.org/wiki/Serie_A_de_Ecuador
 - **b) Colômbia 1997, Deportivo Pereira (caiu no Torneo Adecuación, fora do pacote):** 1) marcar em 1996/97 com
@@ -348,6 +375,7 @@ Regra já sua (ES-005): vale a contagem oficial da liga; a outra fica anotada.
 - **Ids:** EC-004 (só 1970-1981), CO-007 (só 1997), FR-001 (só Antibes e RC Roubaix), IT-012.
 
 ### D-19 Ordem entre clubes empatados
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Regra proposta: seguir o regulamento da época. Nenhum caso muda título ou rebaixamento.
 - **a) Itália, 7 temporadas de 1982/83 a 1993/94:** A) Wikipédia en (hoje); B) Wikipédia it ("classifica avulsa") (rec.).
   Prova: https://it.wikipedia.org/wiki/Serie_A_1988-1989
@@ -360,6 +388,7 @@ Regra proposta: seguir o regulamento da época. Nenhum caso muda título ou reba
 - **Ids:** IT-014, QE-002, PT-005, DE-013.
 
 ### D-20 Decisões de tribunal e pontos fora de campo
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **a) Porto 2007/08 (Apito Final):** A) 69 pontos (-6), como hoje; B) 75; C) 75, com "6 pontos tirados em 2008 e
   devolvidos em 2017" (rec.). O União de Leiria fica com -3 e observação.
   Prova: https://www.jornaldenegocios.pt/empresas/desporto/detalhe/justica-desportiva-iliba-pinto-da-costa-no-caso-apito-final ;
@@ -372,6 +401,7 @@ Regra proposta: seguir o regulamento da época. Nenhum caso muda título ou reba
 - **Ids:** PT-006, PT-004, EC-015.
 
 ### D-21 Itália 1945/46: os clubes da Serie B do torneio misto contam como participantes da 1ª divisão?
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **Opções:** A) contam (hoje: Ancona, Pescara, Salernitana e Siena "estreantes"); B) não contam para participações e
   estreias, mas jogos e tabela ficam.
 - **Prova:** https://it.wikipedia.org/wiki/Divisione_Nazionale_1945-1946 ("19 Serie A, 6 Serie B").
@@ -379,6 +409,7 @@ Regra proposta: seguir o regulamento da época. Nenhum caso muda título ou reba
 - **Ids:** IT-011.
 
 ### D-22 Vices em dúvida
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **a) Paraguai, anos com dois vices na lista (1926, 1927, 1952, 1953, 1964):** 1) Wikipédia es (rec.); 2) ordem da
   tabela; 3) o 1º nome da RSSSF. Prova: https://www.rsssf.org/tablesp/parachamp.html ;
   https://es.wikipedia.org/wiki/Primera_Divisi%C3%B3n_de_Paraguay
@@ -391,6 +422,7 @@ Regra proposta: seguir o regulamento da época. Nenhum caso muda título ou reba
 - **Ids:** PY-028, UY-007, UY-008, UY-004 (só 2011/12 e 2021).
 
 ### D-23 Identidade de clubes — Brasil
+- **Decidido em 22/11/2026:** aceita a recomendação.
 Sua regra (21/11): clube refundado é outro cadastro.
 - **a) Catanduvense (1979-1995) e Grêmio Catanduvense (1999 em diante):** A) um só (hoje); B) separar (rec.).
   Prova: https://pt.wikipedia.org/wiki/Gr%C3%AAmio_Catanduvense_de_Futebol ("fundado em 1999 para apagar um histórico negativo").
@@ -406,6 +438,7 @@ Sua regra (21/11): clube refundado é outro cadastro.
 - **Ids:** A2-022, A2-023, A2-001 (só o São José), SP-026, SP-027.
 
 ### D-24 Identidade de clubes — Europa
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **a) Toulouse FC de 1937 (1946/47-1966/67) e o de 1970:** A) separar (rec.); B) juntos (hoje).
   Prova: https://fr.wikipedia.org/wiki/Toulouse_Football_Club_(1937) ; https://fr.wikipedia.org/wiki/Toulouse_Football_Club
 - **b) Lyon OU (1945/46) junto do Lyon; SO Montpellier separado do Montpellier HSC:** A) como está, com nota (rec.);
@@ -418,6 +451,7 @@ Sua regra (21/11): clube refundado é outro cadastro.
 - **Ids:** FR-012, FR-013, PT-017, PT-018.
 
 ### D-25 Identidade de clubes — América do Sul
+- **Decidido em 22/11/2026:** aceita a recomendação.
 - **a) Green Cross (Santiago, 1933-1964, campeão de 1945) e Deportes Temuco:** A) um só (hoje); B) separar (rec.;
   a lista oficial dá o título ao Green Cross). Prova: https://es.wikipedia.org/wiki/Club_de_Deportes_Green_Cross
 - **b) Deportes Arica (1982-1985) e San Marcos de Arica (2013-2015):** A) juntar (rec.); B) separados.

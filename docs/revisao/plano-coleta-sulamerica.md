@@ -10,7 +10,8 @@ Peruano (`per-1`) e Equatoriano (`ecu-1`).
 2. Corrija na ordem: primeiro "ERRADO NO AR", depois cada competição de cima para baixo.
 3. Cada linha é um resumo. A sugestão completa está no `docs/revisao/achados.csv`, coluna `o_que_a_fonte_diz`,
    depois de "SUGESTÃO:" (e "COMPLEMENTO (22/11):").
-4. Ids marcados "espera D-xx" não se mexem até o Guilherme responder (`docs/revisao/decisoes-guilherme.md`).
+4. Ids marcados "espera D-xx": o Guilherme respondeu em 22/11 (todas menos a D-10). Corrija pela resposta registrada
+   em `docs/revisao/decisoes-guilherme.md` (seção "Respostas do Guilherme").
 5. Identifique jogos por competição + data + clubes, nunca pelo `partida_id`.
 6. Depois de cada liga: `python coleta/<slug>/importar.py`, `conferir.py`,
    `python coleta/comum-sulamerica/testar_carga.py <slug> <scratch>`, `documentar.py`.
@@ -210,7 +211,7 @@ O Peruano e o Equatoriano não estão no site.
 ### 6. `coleta/chi-1/baixar_ogol.py` (demorado)
 - CH-028 (baixa): páginas que faltam do calendário (1964, 1971, 1977, 1982); conferir 1951-1957.
 
-### 7. Esperam decisão (`clubes_chi.py` REGRAS)
+### 7. Decididos em 22/11 (antes esperavam decisão) (`clubes_chi.py` REGRAS)
 - CH-020 (média, espera D-25): Green Cross x Deportes Temuco.
 - CH-021 (média, espera D-25): Deportes Arica = San Marcos de Arica.
 
@@ -350,7 +351,11 @@ Não está no site. Corrigir antes de publicar.
 - EC-024 (baixa): data 1969-10-26 no 0-11 da LDU.
 - EC-015 (média, espera D-20): El Nacional x Delfín 2025.
 
-## Esperando decisão do Guilherme
+## Decididas pelo Guilherme em 22/11 (já podem ser corrigidas)
+
+Resposta: a recomendação de cada uma em `decisoes-guilherme.md`, menos a D-01, que ficou com a opção A: tudo o que
+já terminou entra agora, inclusive os Aperturas 2026 da Argentina e do Paraguai. A D-10 ficou com a opção B (edições não oficiais com aviso).
+
 
 - D-01 (edições de 2026): AR-043, PY-027.
 - D-02 (ordem final com fase final): CO-002, EC-001, EC-002 (e a ordem do EC-003).

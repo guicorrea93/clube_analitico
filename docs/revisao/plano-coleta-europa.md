@@ -11,7 +11,8 @@ Português (`por-1`).
 2. Corrija na ordem: primeiro "ERRADO NO AR", depois cada competição de cima para baixo.
 3. Cada linha é um resumo. A sugestão completa está no `docs/revisao/achados.csv`, coluna `o_que_a_fonte_diz`,
    depois de "SUGESTÃO:".
-4. Ids marcados "espera D-xx" não se mexem até o Guilherme responder (`docs/revisao/decisoes-guilherme.md`).
+4. Ids marcados "espera D-xx": o Guilherme respondeu em 22/11 (todas menos a D-10). Corrija pela resposta registrada
+   em `docs/revisao/decisoes-guilherme.md` (seção "Respostas do Guilherme").
 5. Identifique jogos por competição + data + clubes, nunca pelo `partida_id`.
 6. Depois de cada liga: `python coleta/<slug>/importar.py`, `python coleta/comum-europa/testar_carga.py <slug> <scratch>`,
    `python coleta/comum-europa/documentar.py` (a ficha em `documentacao/` é gerada: não editar à mão).
@@ -54,7 +55,7 @@ O Francês e o Português não estão no site.
   O ogol não serve para conferir data (repete a base).
 - IT-009 (média): 1945/46 (14 jogos) e 2001/02 Brescia x Lecce, pelo mesmo mecanismo.
 
-### Esperam decisão
+### Decididos em 22/11 (antes esperavam decisão)
 - IT-017 (baixa, espera D-05): campeonatos de 1898 a 1928/29.
 - IT-018 (baixa, espera D-04): jogos-desempate (spareggi).
 
@@ -178,7 +179,11 @@ Não está no site. O pacote já está no banco local.
 - PT-019 (baixa): autores de 1999/00 a 2005/06 pelas páginas `portNN.html` da RSSSF (7 páginas, em lote).
 - PT-020 (baixa): árbitro e público pelo transfermarkt (jogo a jogo, ~11 mil páginas).
 
-## Esperando decisão do Guilherme
+## Decididas pelo Guilherme em 22/11 (já podem ser corrigidas)
+
+Resposta: a recomendação de cada uma em `decisoes-guilherme.md`, menos a D-01, que ficou com a opção A: tudo o que
+já terminou entra agora, inclusive os Aperturas 2026 da Argentina e do Paraguai. A D-10 ficou com a opção B (edições não oficiais com aviso).
+
 
 - D-04 (play-offs e desempates fora da liga): IT-018, DE-012.
 - D-05 (eras antigas que faltam): IT-017.

@@ -51,11 +51,13 @@ decisoes_ de cada revisor). Os recados às coletas ficam em `docs/coleta/pedidos
   contra ele mesmo, jogo repetido...). `revisao/tela/datas_repetidas.py`: clube com 2 jogos no mesmo dia. Copie para
   `revisao/<prefixo>/`, troque a lista de competições e rode com `python -I` na raiz.
 
+- Decisões D-01 a D-25 respondidas pelo Guilherme em 22/11 (ver `decisoes-guilherme.md`, "Respostas do Guilherme").
+
 ## 4. Números do `achados.csv` (22/11/2026)
 
-- 626 achados: 402 abertos, 155 corrigidos, 69 `nao-e-erro` (22/11, depois da conferência final). Os planos cobrem os 402.
-- Abertos por gravidade: 87 altos, 167 médios, 148 baixos.
-- Abertos por quem corrige: coleta América do Sul 174, coleta Brasil 86, coleta Europa 79, banco e painel 63.
+- 630 achados: 406 abertos, 155 corrigidos, 69 `nao-e-erro` (22/11, depois das respostas às decisões). Os planos cobrem os 406.
+- Abertos por gravidade: 87 altos, 171 médios, 148 baixos.
+- Abertos por quem corrige: coleta América do Sul 174, coleta Brasil 87, coleta Europa 79, banco e painel 66.
 - Altos abertos já visíveis no site: 52 + 23 das competições publicadas em 22/11 às 11:18 (A2, Português, Peruano, Equatoriano; ver decisoes-guilherme.md); os 52 são (Paulista 13, Argentino 14, Chileno 9, Colombiano 6, Paraguaio 5,
   Uruguaio 3, Italiano 1, Espanhol 1).
 - Mais abertos por competição: Paulista e Argentino 43 cada, A2 e Paraguaio 29, Chileno 27.

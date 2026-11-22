@@ -616,3 +616,13 @@ O Guilherme decidiu incluir tudo o que existir. O pacote foi regravado e as edi�
 - Plano pronto, em ordem e por arquivo do código: `docs/revisao/plano-coleta-brasil.md`. Começar só quando o Guilherme
   mandar.
 - Decisões que esperam o Guilherme: `docs/revisao/decisoes-guilherme.md`. Fontes: `docs/revisao/fontes.md`.
+
+## Decisões do Guilherme (22/11/2026), da revisão profunda
+
+O Guilherme respondeu às decisões D-01 a D-25 de `docs/revisao/decisoes-guilherme.md`:
+- **D-01:** opção A. Tudo o que já terminou entra agora, inclusive o Paulista 2026 e os Aperturas 2026 da Argentina e do
+  Paraguai.
+- **D-10:** opção B. As edições não oficiais das Séries B e C entram com aviso, sem contar título (SB-026, SC-029, TL-005).
+- **As outras:** vale a recomendação de cada uma.
+
+Os ids que esperavam essas decisões estão liberados no seu plano. As correções continuam esperando a largada do Guilherme.
