@@ -67,7 +67,7 @@ PENDENCIAS: dict[str, list[str]] = {
         "ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).",
     ],
     "bol-1": [
-        "Ainda não carregado no banco.",
+        "Ainda não carregado no banco (no GitHub desde o 9ed3dcd).",
         "22 edições sem jogos (1952, 1954-1959 com o 1957 Mixto, 1961, 1963-1965, 1967, 1969, 1970, 1972-1975, 1980, 1981, "
         "1984): nenhuma fonte pública tem; o nacional de 1960-1964 não tem nem tabela (só campeão e vice). Fonte que "
         "resolveria: jornais da época ou um almanaque boliviano (ex.: historiadelfutbolboliviano.com, de Carlos Mesa).",

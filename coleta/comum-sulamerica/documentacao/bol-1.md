@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 8563 (8556 com placar); **gols:** 26434; **gols com autor:** 13666 (52%); **cartões:** 4970.
 - **Clubes:** 77; **artilheiros:** 81 edições com artilheiro (91 linhas, com empates).
 - **Classificação final:** 94 edições; **tabelas publicadas guardadas para conferência:** 1626 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** 9ed3dcd.
 - **Observação da competição:** 1ª divisão boliviana de 1950 a 2025, uma edição por título: liga de La Paz (1950-1953), Torneo Integrado (1954-1957), Certamen Mixto (1957/58), campeonato nacional (1958-1976, Copa Simón Bolívar a partir de 1960; sem campeonato em 1962) e liga profissional (1977 em diante; Apertura, Clausura e Adecuación dão título de 2003 a 2019 e em 2022). Jogos de 1950, 1953, 1971, 1977 e 1990 em diante (incompletos em 1990-1994); nos outros anos, campeão, vice e a tabela final da RSSSF.
 
 ## 2. Edições, fontes e regras
@@ -501,7 +501,7 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 ## 9. Pendências e próximos passos
 
-- Ainda não carregado no banco.
+- Ainda não carregado no banco (no GitHub desde o 9ed3dcd).
 - 22 edições sem jogos (1952, 1954-1959 com o 1957 Mixto, 1961, 1963-1965, 1967, 1969, 1970, 1972-1975, 1980, 1981, 1984): nenhuma fonte pública tem; o nacional de 1960-1964 não tem nem tabela (só campeão e vice). Fonte que resolveria: jornais da época ou um almanaque boliviano (ex.: historiadelfutbolboliviano.com, de Carlos Mesa).
 - Jogos incompletos em 1951, 1960, 1966, 1968, 1971, 1976, 1978, 1979, 1982, 1983, 1985-1994: só as fases finais (ou jogos sem a divisão em fases, em 1990-1991). A tabela de confrontos parcial de 1992 ('Partial results', com células vazias) não foi lida: precisaria de leitura por coluna.
 - Vice de 1961, 1963, 1964 e 1968: RSSSF e Wikipédia em inglês divergem; ficou o da RSSSF (decisão do agente, explicada no relatório). Conferir numa terceira fonte.

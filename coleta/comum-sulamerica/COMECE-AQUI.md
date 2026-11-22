@@ -80,7 +80,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `par-1` Paraguaio | 133 (1906–2025) | 7.865 | 43 | dc2b360, 9d1ca3b, 0b793ba | sim (versão antiga: recarregar) |
 | `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | não |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | não |
-| `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | sem commit (22/11) | não |
+| `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Tudo está no GitHub (push de 22/11).
 
@@ -88,8 +88,8 @@ Os números de gols, cartões, conferência e cobertura estão no `README.md` da
 
 1. **Agente 1 carregar `ecu-1` e `per-1` e recarregar o `par-1`** (no GitHub desde o `0b793ba`, 22/11; recado no fim de
    `docs/coleta/pedidos-sulamerica.md`). Só acompanhar a resposta dele.
-2. **Bolívia (`bol-1`):** pronta em 22/11, esperando o ok do commit; recado de fim de coleta no fim de
-   `docs/coleta/pedidos-sulamerica.md`.
+2. **Bolívia (`bol-1`):** no GitHub desde o `9ed3dcd` (22/11); falta o agente 1 carregar (recado de fim de coleta no fim
+   de `docs/coleta/pedidos-sulamerica.md`).
 3. **Próxima competição: `ven-1` (Venezuela)**, depois da Bolívia (prioridade dada pelo Guilherme em 22/11). Siga a seção 4.
 4. **Revisão (espera):** por decisão do Guilherme (22/11), os 55 achados abertos do Argentino (AR) e do Uruguaio (UY) e as
    decisões pedidas (UY-001, UY-007, UY-020, AR-032, AR-033, AR-043, AR-044, Copa de Oro 1936) **esperam**. O agente de

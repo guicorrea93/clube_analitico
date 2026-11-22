@@ -319,7 +319,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
      - ESPN `bol.1`: 4.814 jogos casados, de 2005 em diante;
      - Wikipédia em inglês: lista de campeões, vices de 1977 em diante e artilheiros.
    - O ogol não tem jogos bolivianos antigos.
-2. **Commit:** pendente do ok do Guilherme.
+2. **Commit:** `9ed3dcd` (enviado ao GitHub em 22/11).
 3. **Teste de carga:** `bol-1: 94 edições, 8563 jogos, 77 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `bol-1` (país BOL, Bolívia);
