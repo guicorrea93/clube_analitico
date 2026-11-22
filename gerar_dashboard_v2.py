@@ -77,7 +77,7 @@ COMPETICOES = {
 
 
 # bandeiras (data/worldcup_wikipedia/flags/<iso>.png, da parte da Copa do Mundo): código FIFA -> arquivo
-BANDEIRA = {"BRA": "br", "ARG": "ar", "URU": "uy", "CHI": "cl", "COL": "co", "PAR": "py", "PER": "pe", "ECU": "ec", "BOL": "bo",
+BANDEIRA = {"BRA": "br", "ARG": "ar", "URU": "uy", "CHI": "cl", "COL": "co", "PAR": "py", "PER": "pe", "ECU": "ec", "BOL": "bo", "VEN": "ve",
             "ENG": "gb-eng", "SCO": "gb-sct", "WAL": "gb-wls", "NIR": "gb-nir", "ESP": "es", "ITA": "it", "GER": "de", "FRA": "fr",
             "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us"}
 CONTINENTE = {"CONMEBOL": "América do Sul", "UEFA": "Europa", "CONCACAF": "América do Norte e Central", "CAF": "África",
@@ -115,7 +115,7 @@ def catalogo(dados: dict) -> list[dict]:
 
 
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1"}
 
 
 def competicoes_dos_pacotes() -> None:
