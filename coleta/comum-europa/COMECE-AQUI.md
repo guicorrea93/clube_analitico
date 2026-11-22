@@ -84,7 +84,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `ger-1` Alemão (Bundesliga) | 63 (1963/64–2025/26) | 19.220 | 22.512 | 30.251 | 58 | 62a8693 |
 | `fra-1` Francês | 88 (1932/33–2025/26) | 30.466 | 22.613 | 35.434 | 76 | 469f615 |
 | `por-1` Português | 92 (1934/35–2025/26) | 20.978 | 13.874 | 30.915 | 73 | c0ddbdd |
-| `ned-1` Holandês (Eredivisie) | 70 (1956/57–2025/26) | 21.082 | 23.019 | 24.431 | 54 | (ver git log) |
+| `ned-1` Holandês (Eredivisie) | 70 (1956/57–2025/26) | 21.082 | 23.019 | 24.431 | 54 | c5947df |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
