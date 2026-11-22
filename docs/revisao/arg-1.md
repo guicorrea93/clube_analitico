@@ -94,3 +94,23 @@ A coleta usou RSSSF, ogol e ESPN. A RSSSF só foi lida para entender a origem de
 3. **Quilmes 1893-1895** (Quilmes Club / Quilmes Rovers): é o mesmo Quilmes de hoje? A es diz que os historiadores os tratam como clubes diferentes. (AR-032)
 4. **Fusões de 1934:** Atlanta+Argentinos entrou como "Argentinos Juniors" e Talleres+Lanús como clube à parte. Manter assim ou tratar as duas igual? (AR-033)
 5. **Títulos de 1936** (Copa de Honor e Copa de Oro, reconhecidos pela AFA em 2013; a en registra que historiadores contestam a Copa de Oro): manter os dois, como está?
+
+## 3ª rodada (22/11/2026)
+Revisor QU. Achados novos em `SCRATCH/achados_QU.csv` (QU-001 a QU-005), sugestões para os abertos em `SCRATCH/sugestoes_QU.csv`, plano em
+`SCRATCH/plano_QU.md`, fontes em `SCRATCH/fontes_QU.md`, decisões em `SCRATCH/decisoes_QU.md`. Scripts e saídas em `revisao/QU/`.
+
+- **Fonte nova: historiadeboca.com.ar** (campanha do Boca em cada torneio; `revisao/QU/baixar_hdb.py` e `cmp_hdb.py`). Amostra: 1.278 jogos
+  do Boca em 54 edições, de 1913 a 2025, pelo menos 28 por década (1910s a 2020s). Placar igual em 1.270 (as 8 diferenças: 4 jogos anulados
+  de 1926, 3 suspensos guardados como abd e 1 divergência real, QU-004). Data igual em 964; 272 só com o ano errado (AR-022); 42 com outro dia.
+- **Fonte nova: transfermarkt** (`revisao/QU/tm.py`): 2018/19 com 300 jogos, todos com o ano +1 no banco (AR-022); placar igual em 298.
+- **Sem fonte nova para 1890s e 1900s** (a Wikipédia it cita a RSSSF; afa.com.ar não tem base histórica).
+- **AR-022 (datas) com caminho em lote:** regra testada em `revisao/QU/sim_ano.py` (janela da temporada + data mais perto da anterior):
+  3.495 datas mudam, só nas edições da lista; o acerto contra o historiadeboca sobe de 75,4% para 95,5%; lista pronta em
+  `revisao/QU/sim_ano_mudancas.tsv`. Causas no leitor (`rsssf_sul.fixa_data`): notas com data antes da rodada 1 (2018/19 inteiro), ano
+  escrito numa linha que passa para os jogos seguintes (1937) e a virada dez->jan. Parte da lista antiga estava certa (QU-002: 1928 e 1930
+  terminaram em 1929 e 1931).
+- **Causas achadas:** AR-001 (o `_EST_LP` não casa 'CA Estudiantes'), AR-011 (QU-001: dois amistosos de 1913 lidos como oficiais),
+  AR-023/UY-014 (data no título da fase não é lida), AR-026 (seção 'Discrepancies' de 1929, 'Mejor equipo del Interior' de 1970, torneio do
+  rebaixamento de 1979). Os 12 vices saem certos com a lista oficial que a coleta já baixou (en_campeoes.txt, coluna Runner-up).
+- **Outros achados:** QU-003 (jogos adiados gravados na data da rodada, sem par na ESPN, ex. Boca 2-0 River de 09/11/2025 gravado em
+  19/10/2025), QU-005 (datas de jogos do Boca de 1945, 1954 e 1977).

@@ -100,3 +100,25 @@ baixei o texto das páginas com `action=raw`. Cópias em `data/cache/revisao/SD/
   `fases.csv`, `classificacao_final.csv`) e punições e nomes (`classificacao_final.csv`, `artilheiros.csv`). Conferi que o banco e o
   `painel/dados/bra-serie-d.js` repetem o pacote.
 - **banco-painel:** SD-019 (usar a tabela `artilheiro` no cartão e na Artilharia) e SD-020.
+
+## 3ª rodada (22/11/2026) — revisor QC
+
+**O que foi feito.** Fontes novas: Bola n@ Área (todas as páginas 2009-2024), transfermarkt (calendários 2010-2016, 2019, 2020,
+2021, 2024, 2026), súmulas da CBF (2013: semifinais) e Futebol Nacional. Scripts em `revisao/QC/`; fontes em `SCRATCH/fontes_QC.md`.
+
+**Amostra por década (Bola n@ Área; placar igual / data igual):** 2009: 85/85 e 80/85 · 2010s: 1.883/1.890 e 1.835/1.890 ·
+2020s: 1.686/1.690 e 1.641/1.690. transfermarkt: 2010s 840/840 e 819/840; 2020s 956/964 (as 8 diferenças são pênaltis que faltam)
+e 960/964. Futebol Nacional: 2009 149/149 e 145/149; 2010s 1.923/1.923 e 1.908/1.923; 2020s 3.538/3.541 e 3.512/3.541.
+Os poucos placares só do Bola são erro dele (ex.: 2014 Guarani-SC 3x4 Cabofriense, que a tabela da Wikipédia confirma).
+
+**Achados novos:** QC-001 (média: 17 disputas de pênaltis faltando em 2011, 2012, 2014, 2020 e 2021, com Bola + transfermarkt),
+QC-003 (média: 14 datas de 2010 e 2021; 23 de 2026 pelo transfermarkt e pelo Futebol Nacional), QC-006 (baixa: 22 datas da RSSSF contra ogol + Bola).
+
+**Abertos antigos:**
+- SD-011 resolvido com prova: súmulas da CBF (jogos 185 e 186): Salgueiro 1x2 Botafogo-PB em 29/09/2013 e Botafogo-PB 2x0
+  Salgueiro em **06/10/2013** (o pacote tem 06/09). transfermarkt e Bola dão o mesmo.
+- RC-005: o Bola conta 200 jogos e 503 gols em 2014 (W.O. conta como jogo, sem gols), como a Wikipédia (decisão em `SCRATCH/decisoes_QC.md`).
+- CL-023 e CL-028: ver `docs/revisao/clubes-e-escudos.md`.
+
+**Buracos de cobertura:** público em 649 jogos dos anos 2010 no Bola; autores completos que faltam: 551 gols (2010s) no Bola;
+cartões e árbitro: súmulas da CBF 2013 e 2015+ (jogo a jogo).

@@ -607,3 +607,12 @@ O Guilherme decidiu incluir tudo o que existir. O pacote foi regravado e as edi�
 - **Fontes novas guardadas em `data/coleta/bra-sp-2/wikipedia/`:**
   - o código das páginas, em `pt_<ano>.wiki`;
   - os jogos transcritos, em `jogos_pt.csv`. Os 244 jogos com placar foram conferidos um a um no código das páginas.
+
+## Revisão profunda (22/11/2026)
+
+- **87 ids abertos** para a coleta Brasil; **25 altos**; **13 no ar** (todos do Paulista).
+- Competições: Paulista (`bra-sp-1`) 41, Paulista A2 (`bra-sp-2`) 28, Série C 8, Série D 3, Copa do Brasil 5, e 2 ids
+  que valem para as três (C, D e Copa).
+- Plano pronto, em ordem e por arquivo do código: `docs/revisao/plano-coleta-brasil.md`. Começar só quando o Guilherme
+  mandar.
+- Decisões que esperam o Guilherme: `docs/revisao/decisoes-guilherme.md`. Fontes: `docs/revisao/fontes.md`.

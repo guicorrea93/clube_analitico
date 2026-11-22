@@ -1,0 +1,1515 @@
+Bola n@ Área x pacote bra-serie-c (revisão QC, 22/11/2026)
+
+1980s: {'edicoes': 2, 'jogos_pacote': 254, 'jogos_fonte': 256, 'casados': 244, 'fonte_com_publico': 10, 'fonte_com_arbitro': 14, 'fonte_gols': 529, 'fonte_gols_autor': 30, 'placar_igual': 242, 'data_igual': 237, 'com_data_fonte': 244, 'mando_invertido': 0, 'publico_que_o_bola_completa': 5, 'gols_que_o_bola_completa': 14}
+1990s: {'edicoes': 8, 'jogos_pacote': 1859, 'jogos_fonte': 1864, 'casados': 1793, 'fonte_com_publico': 47, 'fonte_com_arbitro': 64, 'fonte_gols': 4653, 'fonte_gols_autor': 153, 'placar_igual': 1767, 'data_igual': 1387, 'com_data_fonte': 1782, 'mando_invertido': 16, 'publico_que_o_bola_completa': 47, 'gols_que_o_bola_completa': 113}
+2000s: {'edicoes': 9, 'jogos_pacote': 2746, 'jogos_fonte': 2777, 'casados': 2407, 'fonte_com_publico': 188, 'fonte_com_arbitro': 223, 'fonte_gols': 7464, 'fonte_gols_autor': 673, 'placar_igual': 2390, 'data_igual': 1904, 'com_data_fonte': 2335, 'mando_invertido': 10, 'gols_que_o_bola_completa': 419, 'publico_que_o_bola_completa': 176}
+2010s: {'edicoes': 10, 'jogos_pacote': 1772, 'jogos_fonte': 1603, 'casados': 1557, 'fonte_com_publico': 853, 'fonte_com_arbitro': 128, 'fonte_gols': 3804, 'fonte_gols_autor': 2500, 'placar_igual': 1556, 'data_igual': 1464, 'com_data_fonte': 1557, 'mando_invertido': 0, 'publico_que_o_bola_completa': 832, 'gols_que_o_bola_completa': 865}
+2020s: {'edicoes': 5, 'jogos_pacote': 1060, 'jogos_fonte': 1064, 'casados': 1059, 'fonte_com_publico': 54, 'fonte_com_arbitro': 82, 'fonte_gols': 2414, 'fonte_gols_autor': 243, 'placar_igual': 1057, 'data_igual': 1031, 'com_data_fonte': 1059, 'mando_invertido': 0, 'gols_que_o_bola_completa': 5, 'publico_que_o_bola_completa': 54}
+
+## Diferenças (placar, data ou mando) entre jogos casados
+1981 | 1981-03-26 Piauí 0-0 Izabelense | bola: 1981-03-28 Piauí-PI 0x0 Izabelense-PA | DATA Segunda fase
+1981 | 1981-03-26 SE São Borja 3-0 Figueirense | bola: 1981-03-28 São Borja-RS 3x0 Figueirense-SC | DATA Segunda fase
+1981 | 1981-03-26 Paranavaí 0-1 Olaria | bola: 1981-03-28 Paranavaí-PR 0x1 Olaria-RJ | DATA Segunda fase
+1981 | 1981-03-26 Guarani-MG 2-1 Atlético-BA | bola: 1981-03-28 Guarani-MG 2x1 Atlético-BA | DATA Segunda fase
+1981 | 1981-04-08 Dom Bosco-MT 2-2 SE São Borja | bola: 1981-04-09 Dom Bosco 2x2 São Borja | DATA Semifinal
+1981 | 1981-04-08 Izabelense 2-1 Guarani-MG | bola: 1981-04-09 Izabelense 2x1 Guarani | DATA Semifinal
+1981 | 1981-04-16 Dom Bosco-MT 1-0 Olaria | bola: 1981-04-16 Dom Bosco 0x1 Olaria | PLACAR Semifinal
+1988 | 1988-12-11 Marcílio Dias 2-1 União São João | bola: 1988-12-11 Marcílio Dias-SC 1x0 União São João-SP | PLACAR Terceira fase
+1988 | 1988-11-02 Brusque 2-0 Esportivo-RS | bola: 1988-11-03 Brusque 2x0 Esportivo-RS | DATA Primeira fase
+1990 | 1990-10-17 América-RJ 1-0 Fluminense-BA | bola: 1990-10-21 América-RJ 1x0 Fluminense-BA | DATA Primeira fase
+1990 | 1990-11-25 Paraná 1-1 América-MG | bola: 1990-11-24 Paraná 1x1 América-MG | DATA Semifinal
+1990 | 1990-11-11 Paysandu 2-0 América-MG | bola: 1990-11-12 Paysandu 2x0 América-MG | DATA Quartas de final
+1990 | 1990-11-11 Atlético-GO 4-0 Gama | bola: 1990-11-10 Atlético-GO 4x0 Gama | DATA Quartas de final
+1990 | 1990-09-30 Ubiratan 0-1 Gama | bola: 1990-10-02 Ubiratan 0x1 Gama | DATA Primeira fase
+1990 | 1990-10-17 União Bandeirante 1-0 América-SP | bola: 1990-10-21 União Bandeirante 1x0 América-SP | DATA Primeira fase
+1990 | 1990-10-17 Caxias 2-1 Ponte Preta | bola: 1990-10-21 Caxias 2x1 Ponte Preta | DATA Primeira fase
+1990 | 1990-10-21 América-SP 1-0 Caxias | bola: 1990-10-17 América-SP 1x0 Caxias | DATA Primeira fase
+1990 | 1990-10-03 Caxias 2-1 União Bandeirante | bola: 1990-10-07 Caxias 2x1 União Bandeirante | DATA Primeira fase
+1990 | 1990-10-03 Paraná 2-0 América-SP | bola: 1990-10-07 Paraná 2x0 América-SP | DATA Primeira fase
+1990 | 1990-10-17 Noroeste 3-0 Campo Grande-RJ | bola: 1990-10-21 Noroeste 3x0 Campo Grande | DATA Primeira fase
+1990 | 1990-10-17 Esportivo-MG 0-0 Bangu | bola: 1990-10-21 Esportivo-MG 0x0 Bangu | DATA Primeira fase
+1990 | 1990-10-03 Esportivo-MG 2-2 Noroeste | bola: 1990-10-07 Esportivo-MG 2x2 Noroeste | DATA Primeira fase
+1990 | 1990-10-03 Mogi Mirim 1-0 Campo Grande-RJ | bola: 1990-10-07 Mogi Mirim 1x0 Campo Grande | DATA Primeira fase
+1990 | 1990-10-17 Atlético-GO 5-1 Ubiratan | bola: 1990-10-21 Atlético-GO 5x1 Ubiratan | DATA Primeira fase
+1990 | 1990-10-17 União-MT 0-2 Vila Nova-GO | bola: 1990-10-21 União 0x2 Vila Nova | DATA Primeira fase
+1990 | 1990-10-14 Vila Nova-GO 3-1 Ubiratan | bola: 1990-10-18 Vila Nova 3x1 Ubiratan | DATA Primeira fase
+1990 | 1990-10-14 Gama 1-0 União-MT | bola: 1990-10-10 Gama 1x0 União | DATA Primeira fase
+1990 | 1990-10-03 Ubiratan 0-1 União-MT | bola: 1990-10-07 Ubiratan 0x1 União | DATA Primeira fase
+1990 | 1990-10-17 América-RN 1-0 Estudantes | bola: 1990-10-21 América-RN 1x0 Estudantes | DATA Primeira fase
+1990 | 1990-10-17 América-PE 0-0 Campinense | bola: 1990-10-21 América-PE 0x0 Campinense | DATA Primeira fase
+1990 | 1990-10-03 América-PE 0-0 CSA | bola: 1990-10-07 América-PE 0x0 CSA | DATA Primeira fase
+1990 | 1990-10-03 Campinense 1-3 América-RN | bola: 1990-10-07 Campinense 1x3 América-RN | DATA Primeira fase
+1990 | 1990-09-30 Lagarto EC 0-0 América-MG | bola: 1990-10-05 Lagarto 0x0 América-MG | DATA Primeira fase
+1990 | 1990-10-15 Paysandu 2-0 Nacional-AM | bola: 1990-10-10 Paysandu 2x0 Nacional | DATA Primeira fase
+1990 | 1990-10-21 Ponte Preta 0-0 Paraná | bola: 1990-10-28 Ponte Preta 0x0 Paraná | DATA Primeira fase
+1990 | 1990-10-21 Campo Grande-RJ 2-1 Esportivo-MG | bola: 1990-10-28 Campo Grande 2x1 Esportivo-MG | DATA Primeira fase
+1990 | 1990-10-21 Gama 1-0 Vila Nova-GO | bola: 1990-10-28 Gama 1x0 Vila Nova | DATA Primeira fase
+1990 | 1990-10-21 União-MT 1-2 Atlético-GO | bola: 1990-10-28 União 1x2 Atlético-GO | DATA Primeira fase
+1990 | 1990-10-21 Fluminense-BA 2-1 Lagarto EC | bola: 1990-10-14 Fluminense-BA 2x1 Lagarto | DATA Primeira fase
+1990 | 1990-10-21 Fortaleza 0-0 Paysandu | bola: 1990-10-14 Fortaleza 0x0 Paysandu | DATA Primeira fase
+1990 | 1990-10-17 Lagarto EC 0-0 Colatina | bola: 1990-10-25 Lagarto 0x0 Colatina | DATA Primeira fase
+1990 | 1990-10-03 América-RJ 2-0 Lagarto EC | bola: 1990-10-11 América-RJ 2x0 Lagarto | DATA Primeira fase
+1990 | 1990-10-03 América-MG 1-0 Fluminense-BA | bola: 1990-10-18 América-MG 0x0 Fluminense-BA | PLACAR DATA Primeira fase
+1990 | 1990-10-17 Tiradentes-PI 2-1 Nacional-AM | bola: 1990-10-07 Tiradentes 2x1 Nacional | DATA Primeira fase
+1990 | 1990-10-14 Ponte Preta 1-1 União Bandeirante | bola: 1990-10-25 Ponte Preta 1x1 União Bandeirante | DATA Primeira fase
+1990 | 1990-10-17 Paysandu 1-0 Maranhão | bola: 1990-10-28 Paysandu 1x0 Maranhão | DATA Primeira fase
+1990 | 1990-10-14 Fluminense-BA 1-1 Colatina | bola: 1990-10-28 Fluminense-BA 1x1 Colatina | DATA Primeira fase
+1990 | 1990-10-21 Colatina 0-0 América-MG | bola: 1990-10-07 Colatina 0x0 América-MG | DATA Primeira fase
+1990 | 1990-10-03 Tiradentes-PI 1-2 Paysandu | bola: 1990-10-17 Tiradentes 1x2 Paysandu | DATA Primeira fase
+1990 | 1990-09-30 Maranhão 1-1 Tiradentes-PI | bola: 1990-10-14 Maranhão 1x1 Tiradentes | DATA Primeira fase
+1990 | 1990-09-30 Colatina 3-1 América-RJ | bola: 1990-10-17 Colatina 3x1 América-RJ | DATA Primeira fase
+1992 | 1992-05-11 Fluminense-BA 1-0 Rio Pardo-ES | bola: 1992-05-10 Fluminense 1x0 Rio Pardo | DATA Segunda fase
+1992 | 1992-04-08 Grêmio Maringá 1-0 Operário-PR | bola: 1992-04-09 Grêmio Maringá 1x0 Operário | DATA Primeira fase
+1992 | 1992-04-13 São Bento 1-0 Marília | bola: 1992-04-12 São Bento 1x0 Marília | DATA Primeira fase
+1992 | 1992-04-08 Matsubara 3-0 São Bento | bola: 1992-04-09 Matsubara 3x0 São Bento | DATA Primeira fase
+1992 | 1992-04-08 Atlético-GO 0-0 Guará | bola: 1992-04-09 Atlético-GO 0x0 Guará | DATA Primeira fase
+1992 | 1992-04-08 Rio Pardo-ES 2-0 Tiradentes-DF | bola: 1992-04-09 Rio Pardo 2x0 Tiradentes | DATA Primeira fase
+1992 | 1992-03-28 Tiradentes-DF 2-1 Guará | bola: 1992-03-29 Tiradentes 2x1 Guará | DATA Primeira fase
+1992 | 1992-04-22 Vitória-PE 2-1 Treze | bola: 1992-04-21 Vitória 2x1 Treze | DATA Primeira fase
+1992 | 1992-03-28 CRB 4-2 Ferroviário-CE | bola: 1992-03-29 CRB 4x2 Ferroviário | DATA Primeira fase
+1992 | 1992-04-08 Izabelense 2-2 Sampaio Corrêa | bola: 1992-04-09 Izabelense 2x2 Sampaio Corrêa | DATA Primeira fase
+1992 | 1992-05-27 Nacional-AM 2-2 Tuna Luso | bola: 1992-05-27 Nacional 1x1 Tuna Luso | PLACAR Segunda fase
+1992 | 1992-04-03 Ferroviário-CE 5-3 Treze | bola: 1992-04-01 Ferroviário 5x3 Treze | DATA Primeira fase
+1992 | 1992-04-08 Rio Branco-MG 0-1 Marília | bola: 1992-04-09 Rio Branco 0x2 Marília | PLACAR DATA Primeira fase
+1992 | 1992-03-29 Rio Branco-MG 2-1 São Bento | bola: 1992-03-26 Rio Branco 2x1 São Bento | DATA Primeira fase
+1992 | 1992-03-29 Matsubara 3-1 Marília | bola: 1992-03-26 Matsubara 3x1 Marília | DATA Primeira fase
+1992 | 1992-04-09 Treze 1-1 Auto Esporte | bola: 1992-04-09 Auto Esporte 1x1 Treze (mando invertido) | Primeira fase
+1992 | 1992-03-29 Auto Esporte 3-1 Treze | bola: 1992-03-29 Treze 1x3 Auto Esporte (mando invertido) | Primeira fase
+1992 | 1992-04-22 Rio Negro-AM 0-0 Macapá | bola: 1992-04-22 Macapá 0x0 Rio Negro (mando invertido) | Primeira fase
+1992 | 1992-04-22 Nacional-AM 1-0 Ji-Paraná | bola: 1992-04-22 Ji-Paraná 0x1 Nacional (mando invertido) | Primeira fase
+1992 | 1992-04-19 Rio Negro-AM 1-0 Atlético-AC | bola: 1992-04-19 Atlético-AC 0x1 Rio Negro (mando invertido) | Primeira fase
+1992 | 1992-04-08 Rio Negro-AM 0-1 Ji-Paraná | bola: 1992-04-09 Ji-Paraná 1x0 Rio Negro (mando invertido) | DATA Primeira fase
+1992 | 1992-04-08 Nacional-AM 2-1 Atlético-AC | bola: 1992-04-09 Atlético-AC 1x2 Nacional (mando invertido) | DATA Primeira fase
+1992 | 1992-04-08 Moto Club 0-0 Tuna Luso | bola: 1992-04-09 Moto Clube 0x0 Tuna Luso | DATA Primeira fase
+1992 | 1992-04-04 Sergipe 2-2 Fluminense-BA | bola: 1992-05-04 Sergipe 2x2 Fluminense | DATA Primeira fase
+1994 | 1994-11-17 Uberlândia 3-0 Maruinense | bola: 1994-11-16 Uberlândia-MG 3x0 Maruinense-SE | DATA Quartas de final
+1994 | 1994-11-17 GE Novorizontino 3-0 Ituano | bola: 1994-11-16 Novorizontino-SP 3x0 Ituano-SP | DATA Quartas de final
+1994 | 1994-11-17 Catuense 3-0 ABC | bola: 1994-11-16 Catuense-BA 3x0 ABC-RN | DATA Quartas de final
+1994 | 1994-11-17 Ferroviária-SP 3-1 Valeriodoce | bola: 1994-11-16 Ferroviária-SP 3x1 Valeriodoce-MG | DATA Quartas de final
+1994 | 1994-11-10 Uberlândia 3-1 Operário-MS | bola: 1994-11-09 Uberlândia-MG 3x1 Operário-MS | DATA Oitavas de final
+1994 | 1994-11-10 Vitória-ES 0-0 Maruinense | bola: 1994-11-09 Vitória-ES 0x0 Maruinense-SE | DATA Oitavas de final
+1994 | 1994-11-10 Ituano 0-0 Esportivo-MG | bola: 1994-11-09 Ituano-SP 0x0 Esportivo-MG | DATA Oitavas de final
+1994 | 1994-11-10 GE Novorizontino 1-1 Taguatinga | bola: 1994-11-09 Novorizontino-SP 1x1 Taguatinga-DF | DATA Oitavas de final
+1994 | 1994-11-10 CSA 2-3 Catuense | bola: 1994-11-09 CSA-AL 2x3 Catuense-BA | DATA Oitavas de final
+1994 | 1994-11-10 ABC 3-0 Vitória-PE | bola: 1994-11-09 ABC-RN 3x0 Vitória-PE | DATA Oitavas de final
+1994 | 1994-11-10 Vila Nova-GO 0-0 Ferroviária-SP | bola: 1994-11-09 Vila Nova-GO 0x0 Ferroviária-SP | DATA Oitavas de final
+1994 | 1994-10-29 Juventus-SP 1-0 Figueirense | bola: 1994-10-30 Juventus-SP 1x0 Figueirense-SC | DATA Segunda fase
+1994 | 1994-10-22 Ituano 1-0 Joinville | bola: 1994-10-23 Ituano-SP 1x0 Joinville-SC | DATA Segunda fase
+1994 | 1994-10-22 Villa Nova-MG 2-1 Vitória-ES | bola: 1994-10-23 Villa Nova-MG 2x1 Vitória-ES | DATA Segunda fase
+1994 | 1994-10-30 Valeriodoce 1-0 América-RJ | bola: 1994-10-30 Valeriodoce-MG 1x1 América-RJ | PLACAR Segunda fase
+1994 | 1994-10-23 Caldas 1-3 Vila Nova-GO | bola: 1994-10-23 Caldas-GO 0x3 Vila Nova-GO | PLACAR Segunda fase
+1994 | 1994-10-28 Sousa 0-4 CSA | bola: 1994-10-23 Sousa-PB 0x4 CSA-AL | DATA Segunda fase
+1994 | 1994-10-30 Vitória-PE 0-2 América-PB | bola: 1994-10-30 América-PB 0x3 Vitória-PE (mando invertido) | PLACAR Segunda fase
+1994 | 1994-10-23 América-PB 0-3 Vitória-PE | bola: 1994-10-23 Vitória-PE 0x2 América-PB (mando invertido) | PLACAR Segunda fase
+1994 | 1994-09-17 Blumenau 1-1 Joinville | bola: 1994-09-18 Blumenau 1x1 Joinville | DATA Primeira fase
+1994 | 1994-10-15 Operário-MS 2-0 União Bandeirante | bola: 1994-10-16 Operário-MS 2x0 União Bandeirante | DATA Primeira fase
+1994 | 1994-10-08 Rio Branco-SP 1-1 Operário-MS | bola: 1994-10-09 Rio Branco 1x1 Operário-MS | DATA Primeira fase
+1994 | 1994-10-08 Atlético Sorocaba 0-2 Esportivo-MG | bola: 1994-10-09 Atlético Sorocaba 0x2 Esportivo | DATA Primeira fase
+1994 | 1994-10-08 Caldas 0-0 CEOV Operário | bola: 1994-10-09 Caldas 0x0 Operário-MT | DATA Primeira fase
+1994 | 1994-10-08 Santo André 0-1 América-RJ | bola: 1994-10-09 Santo André 0x1 América-RJ | DATA Primeira fase
+1994 | 1994-10-05 Figueirense 3-1 Batel | bola: 1994-10-02 Figueirense 3x1 Batel | DATA Primeira fase
+1994 | 1994-10-05 Uberlândia 2-1 Caldas | bola: 1994-10-02 Uberlândia 2x1 Caldas | DATA Primeira fase
+1994 | 1994-10-05 Itumbiara 2-1 CEOV Operário | bola: 1994-10-02 Itumbiara 2x1 Operário-MT | DATA Primeira fase
+1994 | 1994-10-05 Atlético-GO 0-1 Taguatinga | bola: 1994-10-02 Atlético-GO 0x1 Taguatinga | DATA Primeira fase
+1994 | 1994-10-05 Santo André 1-2 Ituano | bola: 1994-10-02 Santo André 1x2 Ituano | DATA Primeira fase
+1994 | 1994-10-05 Juventus-SP 2-1 América-RJ | bola: 1994-10-02 Juventus 2x1 América-RJ | DATA Primeira fase
+1994 | 1994-10-05 Villa Nova-MG 0-0 Tupi | bola: 1994-10-02 Villa Nova 0x0 Tupi | DATA Primeira fase
+1994 | 1994-09-24 Tupi 0-0 Valeriodoce | bola: 1994-09-21 Tupi 0x0 Valeriodoce | DATA Primeira fase
+1994 | 1994-10-05 Itabaiana 2-0 Maruinense | bola: 1994-10-02 Itabaiana 2x0 Maruinense | DATA Primeira fase
+1994 | 1994-10-05 Confiança 2-0 CSA | bola: 1994-10-02 Confiança 2x0 CSA | DATA Primeira fase
+1994 | 1994-09-24 CSA 3-0 Maruinense | bola: 1994-09-21 CSA 3x0 Maruinense | DATA Primeira fase
+1994 | 1994-09-21 Maruinense 2-0 Confiança | bola: 1994-09-18 Maruinense 2x0 Confiança | DATA Primeira fase
+1994 | 1994-10-05 Santa Cruz-PB 0-0 Vitória-PE | bola: 1994-10-02 Santa Cruz 0x0 Vitória-PE | DATA Primeira fase
+1994 | 1994-10-05 Botafogo-PB 2-2 Porto-PE | bola: 1994-10-02 Botafogo 2x2 Porto | DATA Primeira fase
+1994 | 1994-10-06 Joinville 0-0 Blumenau | bola: 1994-10-02 Joinville 0x0 Blumenau | DATA Primeira fase
+1994 | 1994-09-25 Batel 1-0 Blumenau | bola: 1994-09-21 Batel 1x0 Blumenau | DATA Primeira fase
+1994 | 1994-09-25 Figueirense 0-1 Joinville | bola: 1994-09-21 Figueirense 0x1 Joinville | DATA Primeira fase
+1994 | 1994-09-25 Ferroviária-SP 0-0 União Bandeirante | bola: 1994-09-21 Ferroviária 0x0 União Bandeirante | DATA Primeira fase
+1994 | 1994-09-25 Operário-MS 3-1 Rio Branco-SP | bola: 1994-09-21 Operário-MS 3x1 Rio Branco | DATA Primeira fase
+1994 | 1994-09-22 Rio Branco-SP 2-0 União Bandeirante | bola: 1994-09-18 Rio Branco 2x0 União Bandeirante | DATA Primeira fase
+1994 | 1994-09-25 Esportivo-MG 1-0 Atlético Sorocaba | bola: 1994-09-21 Esportivo 1x0 Atlético Sorocaba | DATA Primeira fase
+1994 | 1994-09-25 Itumbiara 1-2 Uberlândia | bola: 1994-09-21 Itumbiara 1x2 Uberlândia | DATA Primeira fase
+1994 | 1994-09-25 CEOV Operário 0-2 Caldas | bola: 1994-09-21 Operário-MT 0x2 Caldas | DATA Primeira fase
+1994 | 1994-09-25 Taguatinga 0-0 Atlético-GO | bola: 1994-09-21 Taguatinga 0x0 Atlético-GO | DATA Primeira fase
+1994 | 1994-09-25 América-RJ 0-1 Juventus-SP | bola: 1994-09-21 América-RJ 0x1 Juventus | DATA Primeira fase
+1994 | 1994-09-25 Villa Nova-MG 0-0 Campo Grande-RJ | bola: 1994-09-21 Villa Nova 0x0 Campo Grande | DATA Primeira fase
+1994 | 1994-09-25 Vitória-PE 3-1 Porto-PE | bola: 1994-09-21 Vitória-PE 3x1 Porto | DATA Primeira fase
+1994 | 1994-09-25 Santa Cruz-PB 0-1 Botafogo-PB | bola: 1994-09-21 Santa Cruz 0x1 Botafogo | DATA Primeira fase
+1994 | 1994-10-06 ABC 2-0 Sousa | bola: 1994-10-02 ABC 2x0 Sousa | DATA Primeira fase
+1994 | 1994-09-25 ABC 3-1 América-PB | bola: 1994-09-21 ABC 3x1 América-PB | DATA Primeira fase
+1994 | 1994-09-27 Valeriodoce 1-1 Campo Grande-RJ | bola: 1994-10-02 Valeriodoce 1x1 Campo Grande | DATA Primeira fase
+1994 | 1994-10-01 Porto-PE 1-1 Botafogo-PB | bola: 1994-09-25 Porto 1x1 Botafogo | DATA Primeira fase
+1994 | 1994-10-02 Blumenau 1-2 Figueirense | bola: 1994-09-25 Blumenau 1x2 Figueirense | DATA Primeira fase
+1994 | 1994-10-02 Joinville 1-1 Batel | bola: 1994-09-25 Joinville 1x1 Batel | DATA Primeira fase
+1994 | 1994-10-02 Caldas 5-1 Itumbiara | bola: 1994-09-25 Caldas 5x1 Itumbiara | DATA Primeira fase
+1994 | 1994-10-02 Uberlândia 1-0 CEOV Operário | bola: 1994-09-25 Uberlândia 1x0 Operário-MT | DATA Primeira fase
+1994 | 1994-10-02 Atlético-GO 0-1 Vila Nova-GO | bola: 1994-09-25 Atlético-GO 0x1 Vila Nova | DATA Primeira fase
+1994 | 1994-10-02 Santo André 0-0 Juventus-SP | bola: 1994-09-25 Santo André 0x0 Juventus | DATA Primeira fase
+1994 | 1994-10-02 Ituano 2-1 América-RJ | bola: 1994-09-25 Ituano 2x1 América-RJ | DATA Primeira fase
+1994 | 1994-10-02 Tupi 2-1 Villa Nova-MG | bola: 1994-09-25 Tupi 2x1 Villa Nova | DATA Primeira fase
+1994 | 1994-10-02 Campo Grande-RJ 1-2 Valeriodoce | bola: 1994-09-25 Campo Grande 1x2 Valeriodoce | DATA Primeira fase
+1994 | 1994-10-02 Maruinense 2-1 Itabaiana | bola: 1994-09-25 Maruinense 2x1 Itabaiana | DATA Primeira fase
+1994 | 1994-10-02 CSA 3-1 Confiança | bola: 1994-09-25 CSA 3x1 Confiança | DATA Primeira fase
+1994 | 1994-09-28 Confiança 1-1 Itabaiana | bola: 1994-09-21 Confiança 1x1 Itabaiana | DATA Primeira fase
+1994 | 1994-10-02 Vitória-PE 0-2 Santa Cruz-PB | bola: 1994-09-25 Vitória-PE 0x2 Santa Cruz | DATA Primeira fase
+1994 | 1994-10-02 América-PB 2-1 Sousa | bola: 1994-09-25 América-PB 2x1 Sousa | DATA Primeira fase
+1994 | 1994-09-25 Ituano 0-0 Santo André | bola: 1994-09-21 Santo André 0x0 Ituano (mando invertido) | DATA Primeira fase
+1994 | 1994-10-05 Ferroviária-SP 2-0 Operário-MS | bola: 1994-09-05 Ferroviária 2x0 Operário-MS | DATA Primeira fase
+1994 | 1994-10-05 União Bandeirante 2-0 Rio Branco-SP | bola: 1994-09-05 União Bandeirante 2x0 Rio Branco | DATA Primeira fase
+1994 | 1994-10-05 Matsubara 1-0 Atlético Sorocaba | bola: 1994-09-05 Matsubara 1x0 Atlético Sorocaba | DATA Primeira fase
+1994 | 1994-10-05 GE Novorizontino 2-1 Esportivo-MG | bola: 1994-09-05 Novorizontino 2x1 Esportivo | DATA Primeira fase
+1995 | 1995-09-24 Caxias 2-0 Avaí | bola: 1995-09-25 Caxias-RS 2x0 Avaí-SC | DATA Segunda fase
+1995 | 1995-10-11 Gama 1-0 Uberlândia | bola: 1995-10-10 Gama-DF 1x1 Uberlândia-MG | PLACAR DATA Terceira fase
+1995 | 1995-09-10 Marcílio Dias 0-0 Figueirense | bola: 1995-09-09 Marcílio Dias 0x0 Figueirense | DATA Primeira fase
+1995 | 1995-09-04 Figueirense 3-2 Batel | bola: 1995-09-03 Figueirense 3x2 Batel | DATA Primeira fase
+1995 | 1995-09-01 Marcílio Dias 1-0 Batel | bola: 1995-08-31 Marcílio Dias 1x0 Batel | DATA Primeira fase
+1995 | 1995-08-28 Figueirense 1-1 Marcílio Dias | bola: 1995-08-27 Figueirense 1x1 Marcílio Dias | DATA Primeira fase
+1995 | 1995-09-18 Cascavel 1-0 Chapecoense | bola: 1995-09-17 Cascavel 1x0 Chapecoense | DATA Primeira fase
+1995 | 1995-09-14 Cascavel 0-3 Ypiranga-RS | bola: 1995-09-13 Cascavel 0x3 Ypiranga-RS | DATA Primeira fase
+1995 | 1995-09-11 Chapecoense 2-2 Ypiranga-RS | bola: 1995-09-10 Chapecoense 2x2 Ypiranga-RS | DATA Primeira fase
+1995 | 1995-09-01 Chapecoense 1-0 Cascavel | bola: 1995-08-31 Chapecoense 1x0 Cascavel | DATA Primeira fase
+1995 | 1995-09-18 Nacional-AM 1-3 Rio Negro-AM | bola: 1995-09-17 Nacional 1x3 Rio Negro | DATA Primeira fase
+1995 | 1995-09-11 Rio Negro-AM 1-0 Fast-AM | bola: 1995-09-10 Rio Negro 1x0 Fast Clube | DATA Primeira fase
+1995 | 1995-09-04 Fast-AM 0-1 Rio Negro-AM | bola: 1995-09-03 Fast Clube 0x1 Rio Negro | DATA Primeira fase
+1995 | 1995-09-14 Progresso-RR 0-1 Baré | bola: 1995-09-13 Progresso 0x1 Baré | DATA Primeira fase
+1995 | 1995-09-01 Baré 1-2 Progresso-RR | bola: 1995-08-31 Baré 1x2 Progresso | DATA Primeira fase
+1995 | 1995-09-14 Kaburé 2-1 Gurupi | bola: 1995-09-13 Kaburé 2x1 Gurupi | DATA Primeira fase
+1995 | 1995-09-04 Gurupi 2-0 Kaburé | bola: 1995-09-03 Gurupi 2x0 Kaburé | DATA Primeira fase
+1995 | 1995-09-11 Volta Redonda 0-1 Bayer | bola: 1995-09-10 Volta Redonda 0x1 Bayer | DATA Primeira fase
+1995 | 1995-09-08 Volta Redonda 2-0 Nacional-SP | bola: 1995-09-07 Volta Redonda 2x0 Nacional-SP | DATA Primeira fase
+1995 | 1995-09-10 Atlético Sorocaba 1-0 Joinville | bola: 1995-09-10 Atlético Sorocaba 0x1 Joinville | PLACAR Primeira fase
+1995 | 1995-08-31 Picos 1-1 Coroatá | bola: 1995-08-31 Picos 5x1 Coroatá | PLACAR Primeira fase
+1995 | 1995-08-31 Fluminense-BA 1-0 Maruinense | bola: 1995-08-31 Fluminense-BA 0x0 Maruinense | PLACAR Primeira fase
+1995 | 1995-09-04 Itumbiara 0-0 Planaltina | bola: 1995-09-04 Itumbiara 2x0 Planaltina | PLACAR Primeira fase
+1995 | 1995-09-02 Itumbiara 1-0 Gama | bola: 1995-09-02 Itumbiara 1x2 Gama | PLACAR Primeira fase
+1995 | 1995-08-28 Caldas 1-0 Itumbiara | bola: 1995-08-23 Caldas 1x0 Itumbiara | DATA Primeira fase
+1995 | 1995-09-15 Pelotas 0-1 Brasil de Pelotas | bola: 1995-09-14 Pelotas 0x1 Brasil | DATA Primeira fase
+1995 | 1995-08-26 Caxias 3-0 Brasil de Pelotas | bola: 1995-08-27 Caxias 3x0 Brasil | DATA Primeira fase
+1995 | 1995-08-28 Atlético Roraima 1-1 Baré | bola: 1995-08-27 Roraima 1x1 Baré | DATA Primeira fase
+1995 | 1995-09-12 Rio Branco-AC 1-0 Atlético-AC | bola: 1995-09-12 Rio Branco-AC 2x0 Atlético Acreano | PLACAR Primeira fase
+1995 | 1995-08-29 Independência 1-1 Atlético-AC | bola: 1995-08-29 Independência 3x1 Atlético Acreano | PLACAR Primeira fase
+1995 | 1995-09-08 Baré 0-0 Atlético Roraima | bola: 1995-09-10 Baré 0x0 Roraima | DATA Primeira fase
+1995 | 1995-09-11 Brasil de Pelotas 1-0 Caxias | bola: 1995-09-10 Brasil 0x1 Caxias | PLACAR DATA Primeira fase
+1995 | 1995-09-18 Atlético Roraima 3-0 Progresso-RR | bola: 1995-09-17 Progresso 2x2 Roraima (mando invertido) | PLACAR DATA Primeira fase
+1995 | 1995-09-04 Progresso-RR 2-2 Atlético Roraima | bola: 1995-09-03 Roraima 3x0 Progresso (mando invertido) | PLACAR DATA Primeira fase
+1996 | 1996-11-10 Porto-PE 2-1 Sampaio Corrêa | bola: 1996-11-11 *Porto-PE 2x1 Sampaio Corrêa-MA | DATA Quartas de final
+1996 | 1996-09-08 Sobradinho 1-1 Planaltina | bola: 1996-09-08 Planaltina 1x1 Botafogo Sobradinho-DF (mando invertido) | Primeira fase
+1996 | 1996-09-01 Potiguar 1-0 Pauferrense | bola: 1996-09-21 Potiguar 1x0 Pauferrense | DATA Primeira fase
+1997 | 1997-11-01 Juventus-SP 4-2 Ji-Paraná | bola: 1997-11-02 Juventus-SP 4x2 Ji-Paraná-RO | DATA Quarta fase
+1997 | 1997-11-01 Sampaio Corrêa 4-0 Ferroviário-CE | bola: 1997-11-02 Sampaio Corrêa-MA 4x0 Ferroviário-CE | DATA Quarta fase
+1997 | 1997-10-25 Ferroviário-CE 0-1 Sampaio Corrêa | bola: 1997-10-26 Ferroviário-CE 0x1 Sampaio Corrêa-MA | DATA Quarta fase
+1997 | 1997-10-04 Caxias 2-0 Figueirense | bola: 1997-10-05 Caxias-RS 2x0 Figueirense-SC | DATA Segunda fase
+1997 | 1997-10-04 Juazeiro 0-0 CSA | bola: 1997-10-05 Juazeiro-BA 0x0 CSA-AL | DATA Segunda fase
+1997 | 1997-09-29 Ji-Paraná 1-0 Operário-MS | bola: 1997-09-28 Ji-Paraná-RO 1x0 Operário-MS | DATA Segunda fase
+1997 | 1997-09-29 Sampaio Corrêa 1-1 Quixadá | bola: 1997-09-28 Sampaio Corrêa-MA 1x1 Quixadá-CE | DATA Segunda fase
+1997 | 1997-09-29 São Raimundo 0-0 Santa Rosa | bola: 1997-09-28 São Raimundo-AM 0x0 Santa Rosa-PA | DATA Segunda fase
+1997 | 1997-09-11 São José-RS 1-1 Tubarão FC | bola: 1997-09-10 São José-RS 1x1 Tubarão-SC | DATA Primeira fase
+1997 | 1997-09-06 Figueirense 3-1 São José-RS | bola: 1997-09-07 Figueirense-SC 3x1 São José-RS | DATA Primeira fase
+1997 | 1997-09-05 Tubarão FC 1-3 São José-RS | bola: 1997-09-04 Tubarão-SC 1x3 São José-RS | DATA Primeira fase
+1997 | 1997-09-18 Caxias 3-1 Paulista | bola: 1997-09-17 Caxias-RS 3x1 Paulista-SP | DATA Primeira fase
+1997 | 1997-09-18 Blumenau 1-0 Avaí | bola: 1997-09-17 Blumenau-SC 1x0 Avaí-SC | DATA Primeira fase
+1997 | 1997-09-05 Paulista 2-2 Caxias | bola: 1997-09-04 Paulista-SP 2x2 Caxias-RS | DATA Primeira fase
+1997 | 1997-09-04 Avaí 2-0 Blumenau | bola: 1997-09-03 Avaí-SC 2x0 Blumenau-SC | DATA Primeira fase
+1997 | 1997-09-18 Francana 3-0 União Bandeirante | bola: 1997-09-17 Francana-SP 3x0 União Bandeirante-PR | DATA Primeira fase
+1997 | 1997-09-12 União Bandeirante 2-1 Francana | bola: 1997-09-11 União Bandeirante-PR 2x1 Francana-SP | DATA Primeira fase
+1997 | 1997-09-12 São José-SP 2-2 Social | bola: 1997-09-11 São José-SP 2x2 Social-MG | DATA Primeira fase
+1997 | 1997-09-05 Social 1-0 São José-SP | bola: 1997-09-04 Social-MG 1x0 São José-SP | DATA Primeira fase
+1997 | 1997-09-18 Montes Claros 1-1 Itumbiara | bola: 1997-09-17 Montes Claros-MG 1x1 Itumbiara-GO | DATA Primeira fase
+1997 | 1997-09-18 Uberlândia 3-0 Anápolis | bola: 1997-09-17 Uberlândia-MG 3x0 Anápolis-GO | DATA Primeira fase
+1997 | 1997-09-05 Itumbiara 0-1 Montes Claros | bola: 1997-09-04 Itumbiara-GO 0x1 Montes Claros-MG | DATA Primeira fase
+1997 | 1997-09-04 Anápolis 2-2 Uberlândia | bola: 1997-09-03 Anápolis-GO 2x2 Uberlândia-MG | DATA Primeira fase
+1997 | 1997-09-04 Rio Branco-SP 0-1 Portuguesa Santista | bola: 1997-09-03 Rio Branco-SP 0x1 Portuguesa Santista-SP | DATA Primeira fase
+1997 | 1997-09-18 Rio Branco-ES 3-1 América-RJ | bola: 1997-09-17 Rio Branco-ES 3x1 América-RJ | DATA Primeira fase
+1997 | 1997-09-04 Tupi 1-1 Campo Grande-RJ | bola: 1997-09-03 Tupi-MG 1x1 Campo Grande-RJ | DATA Primeira fase
+1997 | 1997-09-18 Brasília EC 0-0 Tocantinópolis | bola: 1997-09-17 Brasília-DF 0x0 Tocantinópolis-TO | DATA Primeira fase
+1997 | 1997-09-12 Tocantinópolis 2-2 Brasília EC | bola: 1997-09-11 Tocantinópolis-TO 2x2 Brasília-DF | DATA Primeira fase
+1997 | 1997-09-11 Palmas 0-1 Ceilandense | bola: 1997-09-10 Palmas-TO 0x1 Ceilandense-DF | DATA Primeira fase
+1997 | 1997-09-04 Ceilandense 0-1 Palmas | bola: 1997-09-03 Ceilandense-DF 0x1 Palmas-TO | DATA Primeira fase
+1997 | 1997-09-22 EC Operário-MT 4-0 União-MT | bola: 1997-09-21 EC Operário-MT 4x0 União-MT | DATA Primeira fase
+1997 | 1997-09-22 Operário-MS 2-1 Goiânia | bola: 1997-09-21 Operário-MS 2x1 Goiânia-GO | DATA Primeira fase
+1997 | 1997-09-18 União-MT 1-0 Operário-MS | bola: 1997-09-17 União-MT 1x0 Operário-MS | DATA Primeira fase
+1997 | 1997-09-15 EC Operário-MT 2-0 Operário-MS | bola: 1997-09-14 EC Operário-MT 2x0 Operário-MS | DATA Primeira fase
+1997 | 1997-09-12 Operário-MS 1-0 União-MT | bola: 1997-09-11 Operário-MS 1x0 União-MT | DATA Primeira fase
+1997 | 1997-09-10 Goiânia 2-2 EC Operário-MT | bola: 1997-09-09 Goiânia-GO 2x2 EC Operário-MT | DATA Primeira fase
+1997 | 1997-09-08 União-MT 1-1 Goiânia | bola: 1997-09-07 União-MT 1x1 Goiânia-GO | DATA Primeira fase
+1997 | 1997-09-08 Operário-MS 1-0 EC Operário-MT | bola: 1997-09-07 Operário-MS 1x0 EC Operário-MT | DATA Primeira fase
+1997 | 1997-09-05 EC Operário-MT 0-1 Goiânia | bola: 1997-09-04 EC Operário-MT 0x1 Goiânia-GO | DATA Primeira fase
+1997 | 1997-09-03 União-MT 1-1 EC Operário-MT | bola: 1997-09-02 União-MT 1x1 EC Operário-MT | DATA Primeira fase
+1997 | 1997-09-18 Itabaiana 1-2 Confiança | bola: 1997-09-17 Itabaiana-SE 1x2 Confiança-SE | DATA Primeira fase
+1997 | 1997-09-18 Galícia 2-2 Catuense | bola: 1997-09-17 Galícia-BA 2x2 Catuense-BA | DATA Primeira fase
+1997 | 1997-09-04 Confiança 3-1 Itabaiana | bola: 1997-09-03 Confiança-SE 3x1 Itabaiana-SE | DATA Primeira fase
+1997 | 1997-09-04 Catuense 2-1 Galícia | bola: 1997-09-03 Catuense-BA 2x1 Galícia-BA | DATA Primeira fase
+1997 | 1997-09-18 ASA 1-0 Juazeiro | bola: 1997-09-17 ASA-AL 1x0 Juazeiro-BA | DATA Primeira fase
+1997 | 1997-09-05 Juazeiro 0-2 ASA | bola: 1997-09-04 Juazeiro-BA 0x2 ASA-AL | DATA Primeira fase
+1997 | 1997-09-01 ASA 3-1 Flamengo-PE | bola: 1997-08-31 ASA-AL 3x1 Flamengo-PE | DATA Primeira fase
+1997 | 1997-09-18 Vitória-PE 2-2 Porto-PE | bola: 1997-09-17 Vitória-PE 2x2 Porto-PE | DATA Primeira fase
+1997 | 1997-09-18 Fortaleza 1-2 CSA | bola: 1997-09-17 Fortaleza-CE 1x2 CSA-AL | DATA Primeira fase
+1997 | 1997-09-14 Vitória-PE 0-1 Fortaleza | bola: 1997-09-13 Vitória-PE 0x1 Fortaleza-CE | DATA Primeira fase
+1997 | 1997-09-04 Porto-PE 1-1 Vitória-PE | bola: 1997-09-03 Porto-PE 1x1 Vitória-PE | DATA Primeira fase
+1997 | 1997-09-12 15 de Novembro 1-0 Ponta Grossa | bola: 1997-09-10 15 de Novembro-RS 1x0 Ponta Grossa-PR | DATA Primeira fase
+1997 | 1997-09-21 Palmas 0-1 Tocantinópolis | bola: 1997-09-21 Tocantinópolis-TO 0x2 Palmas-TO (mando invertido) | PLACAR Primeira fase
+1997 | 1997-08-31 Tocantinópolis 0-2 Palmas | bola: 1997-08-31 Palmas-TO 0x1 Tocantinópolis-TO (mando invertido) | PLACAR Primeira fase
+1997 | 1997-09-18 Figueirense 1-0 Brasil de Pelotas | bola: 1997-09-17 Figueirense-SC 1x0 Brasil-RS | DATA Primeira fase
+1997 | 1997-09-12 Brasil de Pelotas 1-1 Figueirense | bola: 1997-09-11 Brasil-RS 1x1 Figueirense-SC | DATA Primeira fase
+1997 | 1997-09-11 Maringá FC 1995 0-0 América-SP | bola: 1997-09-10 Maringá-PR 0x0 América-SP | DATA Primeira fase
+1997 | 1997-09-05 América-SP 0-0 Maringá FC 1995 | bola: 1997-09-04 América-SP 0x0 Maringá-PR | DATA Primeira fase
+1997 | 1997-09-18 Centro Limoeirense 0-0 Flamengo-PE | bola: 1997-09-17 Limoeirense-PE 0x0 Flamengo-PE | DATA Primeira fase
+1997 | 1997-09-15 ASA 3-0 Centro Limoeirense | bola: 1997-09-14 ASA-AL 3x0 Limoeirense-PE | DATA Primeira fase
+1997 | 1997-09-04 Flamengo-PE 1-1 Centro Limoeirense | bola: 1997-09-03 Flamengo-PE 1x1 Limoeirense-PE | DATA Primeira fase
+1997 | 1997-09-18 Potiguar 3-2 Picos | bola: 1997-09-17 Potiguar 3x2 Picos | DATA Primeira fase
+1997 | 1997-09-12 Picos 0-0 Potiguar | bola: 1997-09-11 Picos 0x0 Potiguar | DATA Primeira fase
+1997 | 1997-09-11 Quixadá 0-0 Ferroviário-CE | bola: 1997-09-10 Quixadá 0x0 Ferroviário | DATA Primeira fase
+1997 | 1997-09-08 Picos 1-0 Ferroviário-CE | bola: 1997-09-07 Picos 1x0 Ferroviário | DATA Primeira fase
+1997 | 1997-09-08 Potiguar 1-4 Quixadá | bola: 1997-09-07 Potiguar 1x4 Quixadá | DATA Primeira fase
+1997 | 1997-09-04 Ferroviário-CE 1-1 Quixadá | bola: 1997-09-03 Ferroviário 1x1 Quixadá | DATA Primeira fase
+1997 | 1997-09-15 River-PI 2-5 Santa Rosa | bola: 1997-09-14 Ríver 2x5 Santa Rosa | DATA Primeira fase
+1997 | 1997-09-10 4 de Julho 3-1 Santa Rosa | bola: 1997-09-11 4 de Julho 3x1 Santa Rosa | DATA Primeira fase
+1997 | 1997-09-11 River-PI 1-2 Sampaio Corrêa | bola: 1997-09-10 Ríver 1x2 Sampaio Corrêa | DATA Primeira fase
+1997 | 1997-09-05 Sampaio Corrêa 1-0 River-PI | bola: 1997-09-04 Sampaio Corrêa 1x0 Ríver | DATA Primeira fase
+1997 | 1997-09-22 São Raimundo 2-0 Baré | bola: 1997-09-21 São Raimundo 2x0 Baré | DATA Primeira fase
+1997 | 1997-09-19 Ji-Paraná 3-1 Baré | bola: 1997-09-18 Ji-Paraná 3x1 Baré | DATA Primeira fase
+1997 | 1997-09-15 Ji-Paraná 0-1 São Raimundo | bola: 1997-09-14 Ji-Paraná 0x1 São Raimundo | DATA Primeira fase
+1997 | 1997-09-08 São Raimundo 2-0 Ji-Paraná | bola: 1997-09-07 São Raimundo 2x0 Ji-Paraná | DATA Primeira fase
+1997 | 1997-09-04 Baré 2-4 Ji-Paraná | bola: 1997-09-03 Baré 2x4 Ji-Paraná | DATA Primeira fase
+1997 | 1997-08-31 Baré 1-1 São Raimundo | bola: 1997-08-30 Baré 1x1 São Raimundo | DATA Primeira fase
+1997 | 1997-09-11 Inter de Santa Maria 1-0 Chapecoense | bola: 1997-09-10 Internacional/SM-RS 1x0 Chapecoense-SC | DATA Primeira fase
+1997 | 1997-09-05 Chapecoense 2-1 Inter de Santa Maria | bola: 1997-09-04 Chapecoense-SC 2x1 Internacional/SM-RS | DATA Primeira fase
+1997 | 1997-09-19 São José-SP 4-1 Inter de Limeira | bola: 1997-09-18 São José-SP 4x1 Internacional-SP | DATA Primeira fase
+1997 | 1997-09-17 Villa Nova-MG 2-3 Inter de Limeira | bola: 1997-09-16 Villa Nova-MG 2x3 Internacional-SP | DATA Primeira fase
+1997 | 1997-09-12 Inter de Limeira 2-0 Villa Nova-MG | bola: 1997-09-11 Internacional-SP 2x0 Villa Nova-MG | DATA Primeira fase
+1997 |  Operário-MS 0-0 Ji-Paraná | bola: 1997-10-05 Operário-MS 0x0 Ji-Paraná-RO | DATA Segunda fase
+1998 | 1998-10-24 América-RJ 1-2 Anapolina | bola: 1998-10-24 América-RJ 2x1 Anapolina-GO | PLACAR Terceira fase
+1998 | 1998-10-07 Rio Branco-SP 3-0 Villa Nova-MG | bola: 1998-10-07 Rio Branco-SP 3x1 Villa Nova-MG | PLACAR Segunda fase
+1998 | 1998-09-02 Comercial-MS 1-2 América-SP | bola: 1998-09-06 Comercial-MS 1x2 América-SP | DATA Primeira fase
+1998 | 1998-09-16 15 de Novembro 2-1 Chapecoense | bola: 1998-09-17 15 de Novembro 2x1 Chapecoense | DATA Primeira fase
+1998 | 1998-09-27 Caxias 2-0 Blumenau | bola: 1998-09-28 Caxias 2x0 Blumenau | DATA Primeira fase
+1998 | 1998-09-23 Rio Branco-PR 5-2 Caxias | bola: 1998-09-24 Rio Branco-PR 5x2 Caxias | DATA Primeira fase
+1998 | 1998-09-19 Caxias 5-0 Figueirense | bola: 1998-09-20 Caxias 5x0 Figueirense | DATA Primeira fase
+1998 | 1998-08-26 Blumenau 3-3 São José-RS | bola: 1998-08-27 Blumenau 3x3 São José | DATA Primeira fase
+1998 | 1998-08-08 União Bandeirante 1-1 Rio Branco-PR | bola: 1998-08-09 União Bandeirante 1x1 Rio Branco-PR | DATA Primeira fase
+1998 | 1998-09-19 Madureira 1-3 Rio Branco-MG | bola: 1998-09-20 Madureira 1x3 Rio Branco-MG | DATA Primeira fase
+1998 | 1998-09-05 Nacional-SP 2-2 Madureira | bola: 1998-09-06 Nacional-SP 2x2 Madureira | DATA Primeira fase
+1998 | 1998-08-15 Campo Grande-RJ 1-1 Friburguense | bola: 1998-08-16 Campo Grande 1x1 Friburguense | DATA Primeira fase
+1998 | 1998-09-06 Rioverdense 2-0 Comercial-MS | bola: 1998-09-07 Rioverdense 2x0 Comercial-MS | DATA Primeira fase
+1998 | 1998-09-19 Anápolis 2-0 Palmas | bola: 1998-09-20 Anápolis 2x0 Palmas | DATA Primeira fase
+1998 | 1998-08-15 Anápolis 1-0 Goiânia | bola: 1998-08-16 Anápolis 1x0 Goiânia | DATA Primeira fase
+1998 | 1998-09-05 CSA 2-1 Catuense | bola: 1998-09-06 CSA 2x1 Catuense | DATA Primeira fase
+1998 | 1998-08-15 Treze 2-2 Catuense | bola: 1998-08-16 Treze 2x2 Catuense | DATA Primeira fase
+1998 | 1998-09-26 Potiguar 0-0 Icasa | bola: 1998-09-27 Potiguar 0x0 Icasa | DATA Primeira fase
+1998 | 1998-09-23 Potiguar 1-1 Juazeiro | bola: 1998-09-24 Potiguar 1x1 Juazeiro | DATA Primeira fase
+1998 | 1998-09-19 Baraúnas 2-2 Juazeiro | bola: 1998-09-20 Baraúnas 2x2 Juazeiro | DATA Primeira fase
+1998 | 1998-09-12 Fortaleza 3-3 Picos | bola: 1998-09-13 Fortaleza 3x3 Picos | DATA Primeira fase
+1998 | 1998-08-29 Fortaleza 2-1 Viana | bola: 1998-08-30 Fortaleza 2x1 Viana | DATA Primeira fase
+1998 | 1998-08-26 Icasa 2-1 EC Limoeiro | bola: 1998-08-26 Icasa 1x2 Limoeiro | PLACAR Primeira fase
+1998 | 1998-08-24 Rio Branco-PR 2-0 Figueirense | bola: 1998-08-26 Rio Branco-PR 2x0 Figueirense | DATA Primeira fase
+1998 | 1998-09-07 Ubiratan 0-2 América-SP | bola: 1998-09-09 Ubiratan 0x2 América-SP | DATA Primeira fase
+1998 | 1998-09-24 Baraúnas 2-1 Icasa | bola: 1998-09-26 Baraúnas 2x1 Icasa | DATA Primeira fase
+1998 | 1998-08-28 São Francisco-PA 2-0 Santos-AP | bola: 1998-08-30 São Francisco 2x0 Santos | DATA Primeira fase
+1998 | 1998-08-26 Baré 1-2 São Raimundo | bola: 1998-08-28 Baré 1x2 São Raimundo | DATA Primeira fase
+1998 | 1998-09-13 Pelotas 0-1 15 de Novembro | bola: 1998-09-16 Pelotas 0x1 15 de Novembro | DATA Primeira fase
+1998 | 1998-09-09 Avaí 4-1 Pelotas | bola: 1998-09-12 Avaí 4x1 Pelotas | DATA Primeira fase
+1998 | 1998-09-06 Tubarão FC 2-1 Avaí | bola: 1998-09-09 Tubarão 2x1 Avaí | DATA Primeira fase
+1998 | 1998-08-20 Pelotas 3-1 Avaí | bola: 1998-08-23 Pelotas 3x1 Avaí | DATA Primeira fase
+1998 | 1998-08-16 Tubarão FC 0-3 Pelotas | bola: 1998-08-19 Tubarão 0x3 Pelotas | DATA Primeira fase
+1998 | 1998-09-24 São José-RS 2-0 Blumenau | bola: 1998-09-27 São José 2x0 Blumenau | DATA Primeira fase
+1998 | 1998-09-20 Blumenau 2-2 União Bandeirante | bola: 1998-09-23 Blumenau 2x2 União Bandeirante | DATA Primeira fase
+1998 | 1998-09-16 Figueirense 0-0 São José-RS | bola: 1998-09-19 Figueirense 0x0 São José | DATA Primeira fase
+1998 | 1998-09-13 Blumenau 2-0 Rio Branco-PR | bola: 1998-09-16 Blumenau 2x0 Rio Branco-PR | DATA Primeira fase
+1998 | 1998-08-30 São José-RS 2-1 Rio Branco-PR | bola: 1998-09-02 São José 2x1 Rio Branco-PR | DATA Primeira fase
+1998 | 1998-08-27 Caxias 3-1 Rio Branco-PR | bola: 1998-08-30 Caxias 3x1 Rio Branco-PR | DATA Primeira fase
+1998 | 1998-08-16 São José-RS 1-1 Caxias | bola: 1998-08-19 São José 1x1 Caxias | DATA Primeira fase
+1998 | 1998-08-16 Matonense 3-2 Santo André | bola: 1998-08-19 Matonense 3x2 Santo André | DATA Primeira fase
+1998 | 1998-09-06 Rio Branco-MG 1-0 Atlético Sorocaba | bola: 1998-09-09 Rio Branco-MG 1x0 Atlético Sorocaba | DATA Primeira fase
+1998 | 1998-08-23 CFZ-RJ 2-0 Madureira | bola: 1998-08-26 CFZ 2x0 Madureira | DATA Primeira fase
+1998 | 1998-08-16 Nacional-SP 0-1 Mogi Mirim | bola: 1998-08-19 Nacional-SP 0x1 Mogi Mirim | DATA Primeira fase
+1998 | 1998-09-13 América-RJ 1-4 Campo Grande-RJ | bola: 1998-09-16 América-RJ 1x4 Campo Grande | DATA Primeira fase
+1998 | 1998-09-06 Friburguense 2-1 Villa Nova-MG | bola: 1998-09-09 Friburguense 2x1 Villa Nova | DATA Primeira fase
+1998 | 1998-08-16 América-RJ 1-3 Villa Nova-MG | bola: 1998-08-19 América-RJ 1x3 Villa Nova | DATA Primeira fase
+1998 | 1998-08-30 Paranavaí 0-0 Noroeste | bola: 1998-09-02 Paranavaí 0x0 Noroeste | DATA Primeira fase
+1998 | 1998-08-23 Ubiratan 0-0 Rioverdense | bola: 1998-08-26 Ubiratan 0x0 Rioverdense | DATA Primeira fase
+1998 | 1998-08-16 Noroeste 1-0 Ubiratan | bola: 1998-08-19 Noroeste 1x0 Ubiratan | DATA Primeira fase
+1998 | 1998-08-09 América-SP 3-2 Noroeste | bola: 1998-08-12 América-SP 3x2 Noroeste | DATA Primeira fase
+1998 | 1998-09-24 Palmas 1-2 Anapolina | bola: 1998-09-27 Palmas 1x2 Anapolina | DATA Primeira fase
+1998 | 1998-09-16 Goiânia 3-0 Palmas | bola: 1998-09-19 Goiânia 3x0 Palmas | DATA Primeira fase
+1998 | 1998-09-13 Goiânia 4-0 Alvorada-TO | bola: 1998-09-16 Goiânia 4x0 Alvorada | DATA Primeira fase
+1998 | 1998-08-23 Goiânia 0-0 Anapolina | bola: 1998-08-26 Goiânia 0x0 Anapolina | DATA Primeira fase
+1998 | 1998-08-16 Anapolina 7-0 Alvorada-TO | bola: 1998-08-19 Anapolina 7x0 Alvorada | DATA Primeira fase
+1998 | 1998-08-09 Anapolina 1-0 Anápolis | bola: 1998-08-12 Anapolina 1x0 Anápolis | DATA Primeira fase
+1998 | 1998-09-13 Treze 1-2 CSA | bola: 1998-09-16 Treze 1x2 CSA | DATA Primeira fase
+1998 | 1998-09-06 Treze 3-1 Botafogo-PB | bola: 1998-09-09 Treze 3x1 Botafogo-PB | DATA Primeira fase
+1998 | 1998-08-16 CSA 1-2 Confiança | bola: 1998-08-19 CSA 1x2 Confiança | DATA Primeira fase
+1998 | 1998-08-12 CSA 1-0 Botafogo-PB | bola: 1998-08-15 CSA 1x0 Botafogo-PB | DATA Primeira fase
+1998 | 1998-08-09 Confiança 7-0 Treze | bola: 1998-08-12 Confiança 7x0 Treze | DATA Primeira fase
+1998 | 1998-09-20 Potiguar 4-0 EC Limoeiro | bola: 1998-09-23 Potiguar 4x0 Limoeiro | DATA Primeira fase
+1998 | 1998-09-06 Juazeiro 2-0 Potiguar | bola: 1998-09-09 Juazeiro 2x0 Potiguar | DATA Primeira fase
+1998 | 1998-08-23 EC Limoeiro 1-2 Juazeiro | bola: 1998-08-26 Limoeiro 1x2 Juazeiro | DATA Primeira fase
+1998 | 1998-08-09 Baraúnas 3-3 Campinense | bola: 1998-08-12 Baraúnas 3x3 Campinense | DATA Primeira fase
+1998 | 1998-09-20 Fortaleza 2-2 Ferroviário-CE | bola: 1998-09-23 Fortaleza 2x2 Ferroviário | DATA Primeira fase
+1998 | 1998-09-06 Moto Club 3-0 Viana | bola: 1998-09-09 Moto Club 3x0 Viana | DATA Primeira fase
+1998 | 1998-08-23 Ferroviário-CE 0-0 Picos | bola: 1998-08-26 Ferroviário 0x0 Picos | DATA Primeira fase
+1998 | 1998-08-16 Viana 1-0 Fortaleza | bola: 1998-08-19 Viana 1x0 Fortaleza | DATA Primeira fase
+1998 | 1998-09-20 Nacional-AM 5-0 Vênus-PA | bola: 1998-09-23 Nacional 5x0 Vênus | DATA Primeira fase
+1998 | 1998-09-06 Santos-AP 0-1 Nacional-AM | bola: 1998-09-09 Santos 0x1 Nacional | DATA Primeira fase
+1998 | 1998-08-30 Vênus-PA 2-0 Santos-AP | bola: 1998-09-02 Vênus 2x0 Santos | DATA Primeira fase
+1998 | 1998-08-23 Santos-AP 0-3 Vênus-PA | bola: 1998-08-26 Santos 0x3 Vênus | DATA Primeira fase
+1998 | 1998-08-16 Vênus-PA 1-0 São Francisco-PA | bola: 1998-08-19 Vênus 1x0 São Francisco | DATA Primeira fase
+1998 | 1998-08-09 São Francisco-PA 2-1 Vênus-PA | bola: 1998-08-12 São Francisco 2x1 Vênus | DATA Primeira fase
+1998 | 1998-09-02 Rio Branco-PR 1-1 Blumenau | bola: 1998-09-06 Rio Branco-PR 1x1 Blumenau | DATA Primeira fase
+1998 | 1998-09-23 Santo André 0-0 Matonense | bola: 1998-09-27 Santo André 0x0 Matonense | DATA Primeira fase
+1998 | 1998-09-09 Francana 1-3 Santo André | bola: 1998-09-13 Francana 1x3 Santo André | DATA Primeira fase
+1998 | 1998-08-26 São Caetano 3-0 Francana | bola: 1998-08-30 São Caetano 3x0 Francana | DATA Primeira fase
+1998 | 1998-09-09 Atlético Sorocaba 1-0 Mogi Mirim | bola: 1998-09-13 Atlético Sorocaba 1x0 Mogi Mirim | DATA Primeira fase
+1998 | 1998-08-26 Mogi Mirim 2-1 Atlético Sorocaba | bola: 1998-08-30 Mogi Mirim 2x1 Atlético Sorocaba | DATA Primeira fase
+1998 | 1998-08-19 Madureira 2-2 Mogi Mirim | bola: 1998-08-23 Madureira 2x2 Mogi Mirim | DATA Primeira fase
+1998 | 1998-09-16 Villa Nova-MG 1-1 Rio Branco-ES | bola: 1998-09-20 Villa Nova 1x1 Rio Branco-ES | DATA Primeira fase
+1998 | 1998-09-09 Tupi 1-1 Villa Nova-MG | bola: 1998-09-13 Tupi 1x1 Villa Nova | DATA Primeira fase
+1998 | 1998-08-19 Tupi 2-2 Friburguense | bola: 1998-08-23 Tupi 2x2 Friburguense | DATA Primeira fase
+1998 | 1998-09-09 Ubiratan 0-4 Comercial-MS | bola: 1998-09-13 Ubiratan 0x4 Comercial-MS | DATA Primeira fase
+1998 | 1998-08-26 Comercial-MS 3-1 Rioverdense | bola: 1998-08-30 Comercial-MS 3x1 Rioverdense | DATA Primeira fase
+1998 | 1998-08-19 Ubiratan 0-0 Paranavaí | bola: 1998-08-23 Ubiratan 0x0 Paranavaí | DATA Primeira fase
+1998 | 1998-08-12 Rioverdense 2-0 Ubiratan | bola: 1998-08-16 Rioverdense 2x0 Ubiratan | DATA Primeira fase
+1998 | 1998-09-20 Anapolina 4-0 Goiânia | bola: 1998-09-24 Anapolina 4x0 Goiânia | DATA Primeira fase
+1998 | 1998-08-26 Alvorada-TO 2-1 Anápolis | bola: 1998-08-30 Alvorada 2x1 Anápolis | DATA Primeira fase
+1998 | 1998-09-16 Confiança 3-1 Botafogo-PB | bola: 1998-09-20 Confiança 3x1 Botafogo-PB | DATA Primeira fase
+1998 | 1998-09-09 Botafogo-PB 2-1 CSA | bola: 1998-09-13 Botafogo-PB 2x1 CSA | DATA Primeira fase
+1998 | 1998-08-19 CSA 2-0 Treze | bola: 1998-08-23 CSA 2x0 Treze | DATA Primeira fase
+1998 | 1998-09-09 Juazeiro 0-0 Baraúnas | bola: 1998-09-13 Juazeiro 0x0 Baraúnas | DATA Primeira fase
+1998 | 1998-08-26 Campinense 1-2 Potiguar | bola: 1998-08-30 Campinense 1x2 Potiguar | DATA Primeira fase
+1998 | 1998-08-12 Potiguar 1-1 Campinense | bola: 1998-08-16 Potiguar 1x1 Campinense | DATA Primeira fase
+1998 | 1998-09-23 Nacional-AM 1-0 Santos-AP | bola: 1998-09-27 Nacional 1x0 Santos | DATA Primeira fase
+1998 | 1998-09-09 Vênus-PA 2-1 Nacional-AM | bola: 1998-09-13 Vênus 2x1 Nacional | DATA Primeira fase
+1998 | 1998-09-02 Santos-AP 0-1 São Raimundo | bola: 1998-09-06 Santos 0x1 São Raimundo | DATA Primeira fase
+1998 | 1998-08-19 Santos-AP 1-2 São Francisco-PA | bola: 1998-08-23 Santos 1x2 São Francisco | DATA Primeira fase
+1998 | 1998-08-12 Baré 2-1 Nacional-AM | bola: 1998-08-16 Baré 2x1 Nacional | DATA Primeira fase
+1998 | 1998-08-19 São José-RS 2-0 União Bandeirante | bola: 1998-08-24 São José 2x0 União Bandeirante | DATA Primeira fase
+1998 | 1998-09-23 Ferroviário-CE 0-0 Viana | bola: 1998-09-28 Ferroviário 0x0 Viana | DATA Primeira fase
+1998 | 1998-09-13 Viana 4-0 Ferroviário-CE | bola: 1998-09-18 Viana 4x0 Ferroviário | DATA Primeira fase
+1998 | 1998-08-16 Nacional-AM 2-2 São Raimundo | bola: 1998-08-16 São Raimundo 2x2 Nacional (mando invertido) | Primeira fase
+1998 | 1998-09-13 Atlético Sorocaba 3-1 Nacional-SP | bola: 1998-09-19 Atlético Sorocaba 3x1 Nacional-SP | DATA Primeira fase
+1998 | 1998-08-30 Atlético Sorocaba 1-2 Rio Branco-MG | bola: 1998-09-05 Atlético Sorocaba 1x2 Rio Branco-MG | DATA Primeira fase
+1998 | 1998-08-09 Tupi 1-0 América-RJ | bola: 1998-08-15 Tupi 1x0 América-RJ | DATA Primeira fase
+1998 | 1998-08-30 Botafogo-PB 4-1 Treze | bola: 1998-09-05 Botafogo-PB 4x1 Treze | DATA Primeira fase
+1998 | 1998-09-13 EC Limoeiro 3-0 Baraúnas | bola: 1998-09-19 Limoeiro 3x0 Baraúnas | DATA Primeira fase
+1998 | 1998-08-30 Picos 2-2 Moto Club | bola: 1998-09-05 Picos 2x2 Moto Club | DATA Primeira fase
+1998 | 1998-09-20 Pelotas 1-1 Tubarão FC | bola: 1998-09-27 Pelotas 1x1 Tubarão | DATA Primeira fase
+1998 | 1998-09-06 São José-RS 1-1 Figueirense | bola: 1998-09-13 São José 1x1 Figueirense | DATA Primeira fase
+1998 | 1998-08-09 Caxias 0-0 São José-RS | bola: 1998-08-16 Caxias 0x0 São José | DATA Primeira fase
+1998 | 1998-09-13 Santo André 0-1 São Caetano | bola: 1998-09-20 Santo André 0x1 São Caetano | DATA Primeira fase
+1998 | 1998-08-09 Santo André 1-1 Rio Branco-SP | bola: 1998-08-16 Santo André 1x1 Rio Branco-SP | DATA Primeira fase
+1998 | 1998-09-20 Mogi Mirim 0-2 Nacional-SP | bola: 1998-09-27 Mogi Mirim 0x2 Nacional-SP | DATA Primeira fase
+1998 | 1998-08-09 Mogi Mirim 3-1 Rio Branco-MG | bola: 1998-08-16 Mogi Mirim 3x1 Rio Branco-MG | DATA Primeira fase
+1998 | 1998-09-20 Tupi 3-0 Rio Branco-ES | bola: 1998-09-27 Tupi 3x0 Rio Branco-ES | DATA Primeira fase
+1998 | 1998-08-30 Tupi 1-0 Campo Grande-RJ | bola: 1998-09-06 Tupi 1x0 Campo Grande | DATA Primeira fase
+1998 | 1998-08-23 Villa Nova-MG 2-1 Tupi | bola: 1998-08-30 Villa Nova 2x1 Tupi | DATA Primeira fase
+1998 | 1998-09-06 Palmas 0-0 Alvorada-TO | bola: 1998-09-13 Palmas 0x0 Alvorada | DATA Primeira fase
+1998 | 1998-08-30 Alvorada-TO 1-0 Goiânia | bola: 1998-09-06 Alvorada 1x0 Goiânia | DATA Primeira fase
+1998 | 1998-09-20 Itabaiana 0-0 Botafogo-PB | bola: 1998-09-27 Itabaiana 0x0 Botafogo-PB | DATA Primeira fase
+1998 | 1998-08-23 Itabaiana 1-2 Treze | bola: 1998-08-30 Itabaiana 1x2 Treze | DATA Primeira fase
+1998 | 1998-08-30 Juazeiro 1-2 Icasa | bola: 1998-09-06 Juazeiro 1x2 Icasa | DATA Primeira fase
+1998 | 1998-08-16 Campinense 1-1 Baraúnas | bola: 1998-08-23 Campinense 1x1 Baraúnas | DATA Primeira fase
+1998 | 1998-09-13 Vênus-PA 2-1 Baré | bola: 1998-09-20 Vênus 2x1 Baré | DATA Primeira fase
+1998 | 1998-09-27 Brasil de Pelotas 0-1 Pelotas | bola: 1998-09-28 Brasil 0x1 Pelotas | DATA Primeira fase
+1998 | 1998-09-12 Brasil de Pelotas 2-0 Avaí | bola: 1998-09-13 Brasil 2x0 Avaí | DATA Primeira fase
+1998 | 1998-08-19 Tubarão FC 2-1 Brasil de Pelotas | bola: 1998-08-20 Tubarão 2x1 Brasil | DATA Primeira fase
+1998 | 1998-09-17 Brasil de Pelotas 1-0 Tubarão FC | bola: 1998-09-20 Brasil 1x0 Tubarão | DATA Primeira fase
+1998 | 1998-08-23 Avaí 1-0 Brasil de Pelotas | bola: 1998-08-26 Avaí 1x0 Brasil | DATA Primeira fase
+1998 | 1998-08-26 Brasil de Pelotas 2-1 Chapecoense | bola: 1998-08-30 Brasil 2x1 Chapecoense | DATA Primeira fase
+1998 | 1998-08-30 15 de Novembro 2-4 Brasil de Pelotas | bola: 1998-09-06 15 de Novembro 2x4 Brasil | DATA Primeira fase
+1998 | 1998-08-09 Pelotas 0-3 Brasil de Pelotas | bola: 1998-08-16 Pelotas 0x3 Brasil | DATA Primeira fase
+1998 | 1998-09-05 Picos 2-2 Corisabbá | bola: 1998-09-06 Picos 2x2 Cori-Sabbá | DATA Primeira fase
+1998 | 1998-09-18 Corisabbá 0-1 Picos | bola: 1998-09-20 Cori-Sabbá 0x1 Picos | DATA Primeira fase
+1998 | 1998-09-09 Corisabbá 0-3 Ferroviário-CE | bola: 1998-09-12 Cori-Sabbá 0x3 Ferroviário | DATA Primeira fase
+1998 | 1998-08-26 Corisabbá 2-3 Viana | bola: 1998-08-29 Cori-Sabbá 2x3 Viana | DATA Primeira fase
+1998 | 1998-08-09 Fortaleza 3-1 Corisabbá | bola: 1998-08-12 Fortaleza 3x1 Cori-Sabbá | DATA Primeira fase
+1998 | 1998-08-19 Corisabbá 0-0 Fortaleza | bola: 1998-08-23 Cori-Sabbá 0x0 Fortaleza | DATA Primeira fase
+1998 | 1998-08-12 Viana 5-0 Corisabbá | bola: 1998-08-16 Viana 5x0 Cori-Sabbá | DATA Primeira fase
+1998 | 1998-09-20 Paranavaí 2-3 Comercial-MS | bola: 1998-08-24 Paranavaí 2x3 Comercial-MS | DATA Primeira fase
+1998 | 1998-09-16 Comercial-MS 1-0 Noroeste | bola: 1998-08-20 Comercial-MS 1x0 Noroeste | DATA Primeira fase
+1998 | 1998-09-24 América-SP 5-1 Paranavaí | bola: 1998-08-27 América-SP 5x1 Paranavaí | DATA Primeira fase
+1998 | 1998-09-13 Noroeste 2-0 Rioverdense | bola: 1998-08-16 Noroeste 2x0 Rioverdense | DATA Primeira fase
+1998 | 1998-09-27 Noroeste 0-3 América-SP | bola: 1998-08-27 Noroeste 0x3 América-SP | DATA Primeira fase
+1998 | 1998-09-27 Comercial-MS 4-0 Ubiratan | bola: 1998-08-27 Comercial-MS 4x0 Ubiratan | DATA Primeira fase
+1998 | 1998-09-20 Ubiratan 0-1 Noroeste | bola: 1998-08-20 Ubiratan 0x1 Noroeste | DATA Primeira fase
+1998 | 1998-09-16 América-SP 3-0 Rioverdense | bola: 1998-08-16 América-SP 3x0 Rioverdense | DATA Primeira fase
+1998 | 1998-09-16 Paranavaí 1-0 Ubiratan | bola: 1998-08-16 Paranavaí 1x0 Ubiratan | DATA Primeira fase
+1999 | 1999-09-26 Volta Redonda 0-1 Caxias | bola: 1999-09-26 Volta Redonda 2x2 Caxias | PLACAR Primeira fase
+1999 | 1999-09-23 Volta Redonda 0-1 Rio Branco-PR | bola: 1999-09-23 Volta Redonda 2x1 Rio Branco-PR | PLACAR Primeira fase
+1999 | 1999-09-22 Villa Nova-MG 1-0 Anapolina | bola: 1999-09-22 Villa Nova 0x3 Anapolina | PLACAR Primeira fase
+1999 | 1999-11-26 Fluminense 2-1 Moto Club | bola: 1999-11-16 Fluminense 2x1 Moto Club | DATA Segunda fase
+1999 | 1999-11-26 Caxias 3-0 Juventus-SP | bola: 1999-11-16 Caxias 3x0 Juventus | DATA Segunda fase
+1999 | 1999-11-26 Americano-RJ 2-0 Potiguar | bola: 1999-11-16 Americano 2x0 Potiguar | DATA Segunda fase
+2001 | 2001-09-19 Catuense 2-0 Estrela do Norte | bola: 2001-09-18 Catuense 2x0 Estrela do Norte | DATA Primeira fase
+2001 | 2001-10-28 CENE 2-0 Goiânia | bola: 2001-10-27 CENE 2x0 Goiânia | DATA Primeira fase
+2001 | 2001-10-28 Real-GO 0-2 Comercial-MS | bola: 2001-10-27 Real 0x2 Comercial | DATA Primeira fase
+2001 | 2001-10-28 Atlético-GO 2-0 Brasiliense | bola: 2001-10-27 Atlético-GO 2x0 Brasiliense | DATA Primeira fase
+2002 | 2002-09-29 Colo Colo-BA 1-2 Fluminense-BA | bola: 2002-09-28 Colo-Colo 1x2 Fluminense | DATA Primeira fase
+2002 | 2002-09-29 Itabaiana 0-1 Palmeiras Nordeste | bola: 2002-09-28 Itabaiana 0x1 Palmeiras | DATA Primeira fase
+2003 | 2003-10-30 Confiança 2-0 CENE | bola: 2003-10-29 Confiança-SE 2x0 CENE-MS | DATA Terceira fase
+2003 | 2003-09-27 América-RJ 1-2 Cabofriense | bola: 2003-09-28 América 1x2 Cabofriense | DATA Primeira fase
+2003 | 2003-09-20 Cabofriense 3-2 Olaria | bola: 2003-09-21 Cabofriense 3x2 Olaria | DATA Primeira fase
+2003 | 2003-09-28 Portuguesa-RJ 2-1 Rio Branco-RJ | bola: 2003-09-27 Portuguesa 2x1 Rio Branco | DATA Primeira fase
+2003 | 2003-09-24 Serra 1-1 Goytacaz | bola: 2003-09-25 Serra 1x1 Goytacaz | DATA Primeira fase
+2003 | 2003-10-05 CENE 2-1 Taveirópolis | bola: 2003-10-04 CENE 2x1 Taveirópolis | DATA Primeira fase
+2003 | 2003-09-20 Operário-MS 0-1 Comercial-MS | bola: 2003-09-21 Operário 0x1 Comercial | DATA Primeira fase
+2003 | 2003-10-04 Juazeiro 2-0 Confiança | bola: 2003-10-05 Juazeiro 2x0 Confiança | DATA Primeira fase
+2003 | 2003-09-30 Confiança 2-1 Itabaiana | bola: 2003-10-01 Confiança 2x1 Itabaiana | DATA Primeira fase
+2003 | 2003-10-12 Rio Branco-AC 1-0 Atlético Roraima | bola: 2003-10-12 Rio Branco-AC 2x1 Atlético-RR | PLACAR Segunda fase
+2003 | 2003-09-25 Rio Branco-ES 2-0 Tupi | bola: 2003-09-27 Rio Branco 2x0 Tupi | DATA Primeira fase
+2003 | 2003-09-17 Volta Redonda 1-1 Friburguense | bola: 2003-09-20 Volta Redonda 1x1 Friburguense | DATA Primeira fase
+2003 | 2003-09-28 Olaria 1-0 Bangu | bola: 2003-10-01 Olaria 1x0 Bangu | DATA Primeira fase
+2003 | 2003-09-24 Cabofriense 0-1 América-RJ | bola: 2003-09-27 Cabofriense 0x1 América | DATA Primeira fase
+2003 | 2003-09-21 América-RJ 1-1 Bangu | bola: 2003-09-24 América 1x1 Bangu | DATA Primeira fase
+2003 | 2003-09-17 Olaria 2-0 América-RJ | bola: 2003-09-20 Olaria 2x0 América | DATA Primeira fase
+2003 | 2003-09-28 Americano-RJ 2-1 Macaé | bola: 2003-10-01 Americano 2x1 Macaé | DATA Primeira fase
+2003 | 2003-09-24 Rio Branco-RJ 2-3 Portuguesa-RJ | bola: 2003-09-27 Rio Branco 2x3 Portuguesa | DATA Primeira fase
+2003 | 2003-09-17 Portuguesa-RJ 0-1 Americano-RJ | bola: 2003-09-20 Portuguesa 0x1 Americano | DATA Primeira fase
+2003 | 2003-09-28 Tupi 3-0 Rio Branco-ES | bola: 2003-10-01 Tupi 3x0 Rio Branco | DATA Primeira fase
+2003 | 2003-09-21 Rio Branco-ES 0-0 Serra | bola: 2003-09-24 Rio Branco 0x0 Serra | DATA Primeira fase
+2003 | 2003-09-28 Ipatinga 3-0 Estrela do Norte | bola: 2003-10-01 Ipatinga 3x0 Estrela do Norte | DATA Primeira fase
+2003 | 2003-09-21 Desportiva-ES 1-2 Estrela do Norte | bola: 2003-09-24 Desportiva 1x2 Estrela do Norte | DATA Primeira fase
+2003 | 2003-09-28 Rio Branco-MG 2-0 Uberaba | bola: 2003-10-01 Rio Branco 2x0 Uberaba | DATA Primeira fase
+2003 | 2003-09-21 Bragantino 1-0 Uberaba | bola: 2003-09-24 Bragantino 1x0 Uberaba | DATA Primeira fase
+2003 | 2003-09-21 Atlético-GO 3-2 Goiatuba EC | bola: 2003-09-24 Atlético 3x2 Goiatuba | DATA Primeira fase
+2003 | 2003-09-28 Tocantinópolis 2-0 Anápolis | bola: 2003-10-01 Tocantinópolis 2x0 Anápolis | DATA Primeira fase
+2003 | 2003-09-21 Tocantinópolis 2-1 Palmas | bola: 2003-09-24 Tocantinópolis 2x1 Palmas | DATA Primeira fase
+2003 | 2003-10-01 Operário-MS 2-0 CENE | bola: 2003-10-04 Operário 2x0 CENE | DATA Primeira fase
+2003 | 2003-09-28 CENE 0-0 Comercial-MS | bola: 2003-10-01 CENE 0x0 Comercial | DATA Primeira fase
+2003 | 2003-09-17 CENE 0-0 Operário-MS | bola: 2003-09-20 CENE 0x0 Operário | DATA Primeira fase
+2003 | 2003-09-27 Juazeiro 1-2 Itabaiana | bola: 2003-09-30 Juazeiro 1x2 Itabaiana | DATA Primeira fase
+2003 | 2003-09-24 Confiança 1-0 Lagartense | bola: 2003-09-27 Confiança 1x0 Lagartense | DATA Primeira fase
+2003 | 2003-09-17 Lagartense 0-0 Itabaiana | bola: 2003-09-20 Lagartense 0x0 Itabaiana | DATA Primeira fase
+2003 | 2003-09-24 CSA 3-3 Catuense | bola: 2003-09-27 CSA 3x3 Catuense | DATA Primeira fase
+2003 | 2003-09-21 Sergipe 1-1 CSA | bola: 2003-09-24 Sergipe 1x1 CSA | DATA Primeira fase
+2003 | 2003-09-28 Botafogo-PB 3-1 Corinthians-AL | bola: 2003-10-01 Botafogo 3x1 Corinthians | DATA Primeira fase
+2003 | 2003-09-21 Botafogo-PB 2-1 Sousa | bola: 2003-09-24 Botafogo 2x1 Sousa | DATA Primeira fase
+2003 | 2003-09-28 ASA 2-1 Central | bola: 2003-10-01 ASA 2x1 Central | DATA Primeira fase
+2003 | 2003-09-21 Treze 1-0 Central | bola: 2003-09-24 Treze 1x0 Central | DATA Primeira fase
+2003 | 2003-09-28 Campinense 1-2 ABC | bola: 2003-10-01 Campinense 1x2 ABC | DATA Primeira fase
+2003 | 2003-09-17 Campinense 1-0 São Gonçalo-RN | bola: 2003-09-20 Campinense 1x0 São Gonçalo | DATA Primeira fase
+2003 | 2003-09-28 Itapipoca 0-0 Guarany | bola: 2003-10-01 Itapipoca 0x0 Guarany | DATA Primeira fase
+2003 | 2003-09-21 Itapipoca 2-1 Ferroviário-CE | bola: 2003-09-24 Itapipoca 2x1 Ferroviário | DATA Primeira fase
+2003 | 2003-09-28 River-PI 1-2 Flamengo-PI | bola: 2003-10-01 Ríver 1x2 Flamengo | DATA Primeira fase
+2003 | 2003-09-25 Flamengo-PI 1-0 River-PI | bola: 2003-09-28 Flamengo 1x0 Ríver | DATA Primeira fase
+2003 | 2003-09-28 Imperatriz 2-0 Santa Inês | bola: 2003-10-01 Imperatriz 2x0 Santa Inês | DATA Primeira fase
+2003 | 2003-09-21 Sampaio Corrêa 2-0 Santa Inês | bola: 2003-09-24 Sampaio Corrêa 2x0 Santa Inês | DATA Primeira fase
+2003 | 2003-09-24 Viana 1-0 Maranhão | bola: 2003-09-27 Viana 1x0 Maranhão | DATA Primeira fase
+2003 | 2003-09-21 Chapadinha 0-1 Viana | bola: 2003-09-24 Chapadinha 0x1 Viana | DATA Primeira fase
+2003 | 2003-09-17 Ypiranga-RS 0-0 Tuna Luso | bola: 2003-09-20 Ypiranga 0x0 Tuna Luso | DATA Primeira fase
+2003 | 2003-09-24 Rio Branco-AC 2-1 Rio Negro-AM | bola: 2003-09-27 Rio Branco 2x1 Rio Negro | DATA Primeira fase
+2003 | 2003-09-21 Rio Branco-AC 0-0 CFA | bola: 2003-09-24 Rio Branco 0x0 CFA | DATA Primeira fase
+2003 | 2003-09-17 Marcílio Dias 1-2 Caxias-SC | bola: 2003-09-21 Marcílio Dias 1x2 Caxias | DATA Primeira fase
+2003 | 2003-09-17 XV de Piracicaba 1-0 Ituano | bola: 2003-09-21 XV Piracicaba 1x0 Ituano | DATA Primeira fase
+2003 | 2003-10-01 Rio Branco-SP 0-0 Santo André | bola: 2003-10-05 Rio Branco 0x0 Santo André | DATA Primeira fase
+2003 | 2003-09-20 Santo André 2-1 Rio Branco-SP | bola: 2003-09-24 Santo André 2x1 Rio Branco | DATA Primeira fase
+2003 | 2003-10-01 Botafogo-SP 1-1 Sertãozinho | bola: 2003-10-05 Botafogo 1x1 Sertãozinho | DATA Primeira fase
+2003 | 2003-09-24 Sertãozinho 2-0 Botafogo-SP | bola: 2003-09-28 Sertãozinho 2x0 Botafogo | DATA Primeira fase
+2003 | 2003-10-01 Friburguense 2-2 Volta Redonda | bola: 2003-10-05 Friburguense 2x2 Volta Redonda | DATA Primeira fase
+2003 | 2003-10-01 Olaria 1-1 Cabofriense | bola: 2003-10-05 Olaria 1x1 Cabofriense | DATA Primeira fase
+2003 | 2003-10-01 Rio Branco-RJ 0-4 Americano-RJ | bola: 2003-10-05 Rio Branco 0x4 Americano | DATA Primeira fase
+2003 | 2003-09-20 Americano-RJ 2-1 Rio Branco-RJ | bola: 2003-09-24 Americano 2x1 Rio Branco | DATA Primeira fase
+2003 | 2003-10-01 Serra 1-4 Rio Branco-ES | bola: 2003-10-05 Serra 1x4 Rio Branco | DATA Primeira fase
+2003 | 2003-09-17 Goytacaz 3-0 Rio Branco-ES | bola: 2003-09-21 Goytacaz 3x0 Rio Branco | DATA Primeira fase
+2003 | 2003-10-01 Ipatinga 1-0 Villa Nova-MG | bola: 2003-10-05 Ipatinga 1x0 Villa Nova | DATA Primeira fase
+2003 | 2003-09-24 Desportiva-ES 1-0 Villa Nova-MG | bola: 2003-09-28 Desportiva 1x0 Villa Nova | DATA Primeira fase
+2003 | 2003-09-17 Ipatinga 4-0 Desportiva-ES | bola: 2003-09-21 Ipatinga 4x0 Desportiva | DATA Primeira fase
+2003 | 2003-10-01 Uberaba 1-1 Bragantino | bola: 2003-10-05 Uberaba 1x1 Bragantino | DATA Primeira fase
+2003 | 2003-09-24 Uberaba 1-0 Rio Branco-MG | bola: 2003-09-28 Uberaba 1x0 Rio Branco | DATA Primeira fase
+2003 | 2003-09-17 Rio Branco-MG 3-1 Bragantino | bola: 2003-09-21 Rio Branco 3x1 Bragantino | DATA Primeira fase
+2003 | 2003-10-01 Goiatuba EC 1-1 Atlético-GO | bola: 2003-10-05 Goiatuba 1x1 Atlético | DATA Primeira fase
+2003 | 2003-10-01 Palmas 4-3 Tocantinópolis | bola: 2003-10-05 Palmas 4x3 Tocantinópolis | DATA Primeira fase
+2003 | 2003-09-24 Anápolis 3-3 Tocantinópolis | bola: 2003-09-28 Anápolis 3x3 Tocantinópolis | DATA Primeira fase
+2003 | 2003-09-17 Palmas 2-1 Anápolis | bola: 2003-09-21 Palmas 2x1 Anápolis | DATA Primeira fase
+2003 | 2003-09-24 Taveirópolis 2-2 Operário-MS | bola: 2003-09-28 Taveirópolis 2x2 Operário | DATA Primeira fase
+2003 | 2003-10-01 Lagartense 1-4 Juazeiro | bola: 2003-10-05 Lagartense 1x4 Juazeiro | DATA Primeira fase
+2003 | 2003-09-20 Itabaiana 0-1 Confiança | bola: 2003-09-24 Itabaiana 0x1 Confiança | DATA Primeira fase
+2003 | 2003-10-01 CSA 3-1 Sergipe | bola: 2003-10-05 CSA 3x1 Sergipe | DATA Primeira fase
+2003 | 2003-09-27 Catuense 3-1 CSA | bola: 2003-10-01 Catuense 3x1 CSA | DATA Primeira fase
+2003 | 2003-09-17 Catuense 0-2 Sergipe | bola: 2003-09-21 Catuense 0x2 Sergipe | DATA Primeira fase
+2003 | 2003-10-01 Sousa 1-0 Botafogo-PB | bola: 2003-10-05 Sousa 1x0 Botafogo | DATA Primeira fase
+2003 | 2003-09-24 Corinthians-AL 0-1 Botafogo-PB | bola: 2003-09-28 Corinthians 0x1 Botafogo | DATA Primeira fase
+2003 | 2003-09-17 Sousa 1-0 Corinthians-AL | bola: 2003-09-21 Sousa 1x0 Corinthians | DATA Primeira fase
+2003 | 2003-10-01 Central 4-1 Treze | bola: 2003-10-05 Central 4x1 Treze | DATA Primeira fase
+2003 | 2003-09-24 Central 1-1 ASA | bola: 2003-09-28 Central 1x1 ASA | DATA Primeira fase
+2003 | 2003-09-17 ASA 0-0 Treze | bola: 2003-09-21 ASA 0x0 Treze | DATA Primeira fase
+2003 | 2003-10-01 ABC 2-1 São Gonçalo-RN | bola: 2003-10-05 ABC 2x1 São Gonçalo | DATA Primeira fase
+2003 | 2003-09-24 ABC 0-2 Campinense | bola: 2003-09-28 ABC 0x2 Campinense | DATA Primeira fase
+2003 | 2003-09-20 São Gonçalo-RN 0-0 ABC | bola: 2003-09-24 São Gonçalo 0x0 ABC | DATA Primeira fase
+2003 | 2003-10-01 Ferroviário-CE 2-3 Itapipoca | bola: 2003-10-05 Ferroviário 2x3 Itapipoca | DATA Primeira fase
+2003 | 2003-09-24 Guarany 3-0 Itapipoca | bola: 2003-09-28 Guarany 3x0 Itapipoca | DATA Primeira fase
+2003 | 2003-09-17 Ferroviário-CE 0-0 Guarany | bola: 2003-09-21 Ferroviário 0x0 Guarany | DATA Primeira fase
+2003 | 2003-10-01 Flamengo-PI 0-1 Caxiense | bola: 2003-10-05 Flamengo 0x1 Caxiense | DATA Primeira fase
+2003 | 2003-09-17 River-PI 3-0 Caxiense | bola: 2003-09-21 Ríver 3x0 Caxiense | DATA Primeira fase
+2003 | 2003-10-01 Santa Inês 1-1 Sampaio Corrêa | bola: 2003-10-05 Santa Inês 1x1 Sampaio Corrêa | DATA Primeira fase
+2003 | 2003-09-24 Santa Inês 3-1 Imperatriz | bola: 2003-09-28 Santa Inês 3x1 Imperatriz | DATA Primeira fase
+2003 | 2003-09-17 Imperatriz 1-0 Sampaio Corrêa | bola: 2003-09-21 Imperatriz 1x0 Sampaio Corrêa | DATA Primeira fase
+2003 | 2003-10-01 Viana 0-0 Chapadinha | bola: 2003-10-05 Viana 0x0 Chapadinha | DATA Primeira fase
+2003 | 2003-09-27 Maranhão 0-1 Viana | bola: 2003-10-01 Maranhão 0x1 Viana | DATA Primeira fase
+2003 | 2003-09-17 Maranhão 0-1 Chapadinha | bola: 2003-09-21 Maranhão 0x1 Chapadinha | DATA Primeira fase
+2003 | 2003-10-01 CFA 1-3 Rio Branco-AC | bola: 2003-10-05 CFA 1x3 Rio Branco | DATA Primeira fase
+2003 | 2003-09-27 CFA 0-1 Nacional-AM | bola: 2003-10-01 CFA 0x1 Nacional | DATA Primeira fase
+2003 | 2003-09-17 CFA 1-0 Rio Negro-AM | bola: 2003-09-21 CFA 1x0 Rio Negro | DATA Primeira fase
+2003 | 2003-09-21 Taveirópolis 0-2 CENE | bola: 2003-09-24 Taveirópolis 1x2 CENE | PLACAR DATA Primeira fase
+2003 | 2003-11-30 Ituano 0-0 Santo André | bola: 2003-11-30 Santo André 0x0 Ituano (mando invertido) | Fase final
+2003 | 2003-09-20 Caxiense 0-4 Flamengo-PI | bola: 2003-09-25 Caxiense 0x4 Flamengo | DATA Primeira fase
+2003 | 2003-09-17 Uberlândia 1-1 Francana | bola: 2003-09-21 Uberlândia 1x0 Francana | PLACAR DATA Primeira fase
+2003 | 2003-10-02 Brasil de Pelotas 0-1 Pelotas | bola: 2003-10-05 Brasil 0x1 Pelotas | DATA Primeira fase
+2003 | 2003-09-25 São José-RS 3-1 Brasil de Pelotas | bola: 2003-09-28 São José 3x1 Brasil | DATA Primeira fase
+2003 | 2003-09-28 Comercial-RP 0-1 Botafogo-SP | bola: 2003-10-01 Comercial 0x1 Botafogo | DATA Primeira fase
+2003 | 2003-09-21 Botafogo-SP 1-1 Comercial-RP | bola: 2003-09-24 Botafogo 1x1 Comercial | DATA Primeira fase
+2003 | 2003-09-21 Cuiabá 4-3 Grêmio Jaciara | bola: 2003-09-24 Cuiabá 4x3 Jaciara | DATA Primeira fase
+2003 | 2003-09-28 Atlético Roraima 2-0 Tuna Luso | bola: 2003-10-01 Atlético 2x0 Tuna Luso | DATA Primeira fase
+2003 | 2003-09-25 Tuna Luso 2-0 Atlético Roraima | bola: 2003-09-28 Tuna Luso 2x0 Atlético | DATA Primeira fase
+2003 | 2003-09-28 Brasil de Pelotas 0-1 São José-RS | bola: 2003-10-02 Brasil 0x1 São José | DATA Primeira fase
+2003 | 2003-09-17 Comercial-RP 2-3 Sertãozinho | bola: 2003-09-21 Comercial 2x3 Sertãozinho | DATA Primeira fase
+2003 | 2003-10-01 Grêmio Jaciara 2-1 Cuiabá | bola: 2003-10-05 Jaciara 2x1 Cuiabá | DATA Primeira fase
+2003 | 2003-10-01 Ypiranga-RS 1-2 Atlético Roraima | bola: 2003-10-05 Ypiranga 1x2 Atlético | DATA Primeira fase
+2003 | 2003-09-20 Atlético Roraima 4-3 Ypiranga-RS | bola: 2003-09-25 Atlético 4x3 Ypiranga | DATA Primeira fase
+2003 | 2003-10-01 Inter de Limeira 3-0 Ituano | bola: 2003-10-04 Internacional 3x0 Ituano | DATA Primeira fase
+2003 | 2003-09-24 Inter de Limeira 1-0 XV de Piracicaba | bola: 2003-09-27 Internacional 1x0 XV Piracicaba | DATA Primeira fase
+2003 | 2003-09-21 Ituano 2-0 Inter de Limeira | bola: 2003-09-24 Ituano 2x0 Internacional | DATA Primeira fase
+2003 | 2003-10-05 Rio Negro-AM 3-0 CFA | bola:  Rio Negro 3x1 CFA | PLACAR Primeira fase
+2003 | 2003-09-27 XV de Piracicaba 1-1 Inter de Limeira | bola: 2003-10-01 XV Piracicaba 1x1 Internacional | DATA Primeira fase
+2004 | 2004-08-21 Catuense 0-0 Confiança | bola: 2004-08-22 Catuense 0x0 Confiança | DATA Primeira fase
+2004 | 2004-08-07 Catuense 0-0 Atlético-BA | bola: 2004-08-08 Catuense 0x0 Atlético | DATA Primeira fase
+2004 | 2004-08-15 Porto-PE 0-1 Coruripe | bola: 2004-08-15 Porto 1x1 Coruripe | PLACAR Primeira fase
+2004 | 2004-08-29 Portuguesa-RJ 1-0 América-RJ | bola: 2004-08-31 Portuguesa 1x0 América | DATA Primeira fase
+2004 | 2004-09-19 Tupi 1-3 Ceilândia | bola: 2004-09-22 Tupi 1x3 Ceilândia | DATA Primeira fase
+2004 | 2004-09-12 Ceilândia 1-0 Americano-RJ | bola: 2004-09-15 Ceilândia 1x0 Americano | DATA Primeira fase
+2004 | 2004-09-09 Americano-RJ 1-0 Friburguense | bola: 2004-09-12 Americano 1x0 Friburguense | DATA Primeira fase
+2004 | 2004-09-06 Friburguense 3-1 Ceilândia | bola: 2004-09-09 Friburguense 3x1 Ceilândia | DATA Primeira fase
+2004 | 2004-08-22 Serra 3-1 Villa Nova-MG | bola: 2004-08-25 Serra 3x1 Villa Nova | DATA Primeira fase
+2004 | 2004-08-15 Ipatinga 0-1 Serra | bola: 2004-08-18 Ipatinga 0x1 Serra | DATA Primeira fase
+2004 | 2004-09-15 Tupi 1-0 Friburguense | bola: 2004-09-19 Tupi 1x0 Friburguense | DATA Primeira fase
+2004 | 2004-08-25 Estrela do Norte 0-0 Ipatinga | bola: 2004-08-29 Estrela do Norte 0x0 Ipatinga | DATA Primeira fase
+2004 | 2004-08-18 Serra 1-1 Estrela do Norte | bola: 2004-08-22 Serra 1x1 Estrela do Norte | DATA Primeira fase
+2004 | 2004-08-29 Novo Hamburgo 2-1 Lages | bola: 2004-09-04 Novo Hamburgo 2x1 Lages | DATA Primeira fase
+2004 | 2004-08-29 Estrela do Norte 2-3 Serra | bola: 2004-09-04 Estrela do Norte 2x3 Serra | DATA Primeira fase
+2004 | 2004-08-29 Sergipe 0-1 Confiança | bola: 2004-09-04 Sergipe 0x1 Confiança | DATA Primeira fase
+2004 | 2004-08-01 Atlético-BA 2-0 Confiança | bola: 2004-08-07 Atlético 2x0 Confiança | DATA Primeira fase
+2004 | 2004-08-29 Coruripe 1-1 Corinthians-AL | bola: 2004-09-04 Coruripe 1x1 Corinthians | DATA Primeira fase
+2004 | 2004-08-29 Treze 2-2 Campinense | bola: 2004-09-04 Treze 2x2 Campinense | DATA Primeira fase
+2004 | 2004-08-29 Sampaio Corrêa 2-0 Moto Club | bola: 2004-09-04 Sampaio Corrêa 2x0 Moto Club | DATA Primeira fase
+2004 | 2004-08-29 Palmas 2-1 Gurupi | bola: 2004-09-04 Palmas 2x1 Gurupi | DATA Primeira fase
+2004 | 2004-08-01 Ji-Paraná 0-3 Cuiabá | bola: 2004-08-07 Ji-Paraná 0x3 Cuiabá | DATA Primeira fase
+2004 | 2004-08-22 Novo Hamburgo 3-0 Esportivo-RS | bola: 2004-08-29 Novo Hamburgo 3x0 Esportivo | DATA Primeira fase
+2004 | 2004-08-08 Lages 0-1 Novo Hamburgo | bola: 2004-08-15 Lages 0x1 Novo Hamburgo | DATA Primeira fase
+2004 | 2004-08-01 Esportivo-RS 2-4 Lages | bola: 2004-08-08 Esportivo 2x4 Lages | DATA Primeira fase
+2004 | 2004-08-22 Iraty 3-1 Nacional-PR | bola: 2004-08-29 Iraty 3x1 Nacional | DATA Primeira fase
+2004 | 2004-08-08 América-RJ 0-0 Portuguesa-RJ | bola: 2004-08-15 América 0x0 Portuguesa | DATA Primeira fase
+2004 | 2004-08-15 CENE 1-1 CRAC | bola: 2004-08-22 CENE 1x1 CRAC | DATA Primeira fase
+2004 | 2004-08-01 Jataiense 2-1 CENE | bola: 2004-08-08 Jataiense 2x1 CENE | DATA Primeira fase
+2004 | 2004-08-22 Sergipe 0-0 Atlético-BA | bola: 2004-08-29 Sergipe 0x0 Atlético | DATA Primeira fase
+2004 | 2004-08-15 Confiança 0-1 Catuense | bola: 2004-08-22 Confiança 0x1 Catuense | DATA Primeira fase
+2004 | 2004-08-08 Confiança 1-0 Sergipe | bola: 2004-08-15 Confiança 1x0 Sergipe | DATA Primeira fase
+2004 | 2004-08-22 Coruripe 3-1 Porto-PE | bola: 2004-08-29 Coruripe 3x1 Porto | DATA Primeira fase
+2004 | 2004-08-15 Corinthians-AL 1-1 Itacuruba | bola: 2004-08-22 Corinthians 1x1 Itacuruba | DATA Primeira fase
+2004 | 2004-08-08 Corinthians-AL 4-2 Coruripe | bola: 2004-08-15 Corinthians 4x2 Coruripe | DATA Primeira fase
+2004 | 2004-08-01 Porto-PE 3-1 Corinthians-AL | bola: 2004-08-08 Porto 3x1 Corinthians | DATA Primeira fase
+2004 | 2004-08-22 Treze 3-2 Baraúnas | bola: 2004-08-29 Treze 3x2 Baraúnas | DATA Primeira fase
+2004 | 2004-08-15 Campinense 1-2 Potiguar | bola: 2004-08-22 Campinense 1x2 Potiguar | DATA Primeira fase
+2004 | 2004-08-08 Campinense 0-0 Treze | bola: 2004-08-15 Campinense 0x0 Treze | DATA Primeira fase
+2004 | 2004-08-01 Baraúnas 0-0 Campinense | bola: 2004-08-08 Baraúnas 0x0 Campinense | DATA Primeira fase
+2004 | 2004-08-22 River-PI 1-0 Ferroviário-CE | bola: 2004-08-29 Ríver 1x0 Ferroviário | DATA Primeira fase
+2004 | 2004-08-22 Sampaio Corrêa 0-0 Tuna Luso | bola: 2004-08-29 Sampaio Corrêa 0x0 Tuna Luso | DATA Primeira fase
+2004 | 2004-08-15 Moto Club 3-5 Castanhal | bola: 2004-08-22 Moto Club 3x5 Castanhal | DATA Primeira fase
+2004 | 2004-08-08 Moto Club 1-0 Sampaio Corrêa | bola: 2004-08-15 Moto Club 1x0 Sampaio Corrêa | DATA Primeira fase
+2004 | 2004-08-01 Tuna Luso 4-3 Moto Club | bola: 2004-08-08 Tuna Luso 4x3 Moto Club | DATA Primeira fase
+2004 | 2004-08-15 Gurupi 1-0 Gama | bola: 2004-08-22 Gurupi 1x0 Gama | DATA Primeira fase
+2004 | 2004-08-08 Gurupi 1-1 Palmas | bola: 2004-08-15 Gurupi 1x1 Palmas | DATA Primeira fase
+2004 | 2004-08-29 União-MT 1-2 Cuiabá | bola: 2004-09-05 União 1x2 Cuiabá | DATA Primeira fase
+2004 | 2004-08-22 Cuiabá 1-0 Ji-Paraná | bola: 2004-08-29 Cuiabá 1x0 Ji-Paraná | DATA Primeira fase
+2004 | 2004-08-14 União-MT 2-0 Ji-Paraná | bola: 2004-08-21 União 2x0 Ji-Paraná | DATA Primeira fase
+2004 | 2004-08-15 Nacional-AM 1-2 Rio Branco-AC | bola: 2004-08-22 Nacional 1x2 Rio Branco | DATA Primeira fase
+2004 | 2004-08-07 Cuiabá 0-2 União-MT | bola: 2004-08-15 Cuiabá 0x2 União | DATA Primeira fase
+2004 | 2004-10-02 Rio Branco-AC 3-1 Grêmio Coariense | bola: 2004-10-02 Nos pênaltis: Rio Branco 6x5 Grêmio Coariense | PLACAR Terceira fase
+2004 | 2004-08-29 Trem 0-0 Atlético Roraima | bola: 2004-08-29 Roraima 1x1 Trem (mando invertido) | PLACAR Primeira fase
+2004 | 2004-08-01 Portuguesa-RJ 0-0 Portuguesa Santista | bola: 2004-08-01 Portuguesa 0x0 Port Santista (mando invertido) | Primeira fase
+2004 | 2004-08-22 Atlético Roraima 1-1 Trem | bola:  Trem 0x0 Roraima (mando invertido) | PLACAR Primeira fase
+2004 | 2004-09-04 Portuguesa Santista 2-1 Portuguesa-RJ | bola:  Port Santista 2x1 Portuguesa (mando invertido) | PLACAR Primeira fase
+2004 | 2004-08-01 Tupi 2-1 Americano-RJ | bola: 2004-09-06 Tupi 2x1 Americano | DATA Primeira fase
+2004 | 2004-08-22 Grêmio Coariense 2-1 Rio Branco-AC | bola: 2004-10-02 Rio Branco-AC 3x1 G Coariense-AM (mando invertido) | PLACAR DATA Primeira fase
+2005 | 2005-08-17 América-RN 2-1 Nacional-PB | bola: 2005-08-21 América-RN 2x1 Nacional-PB | DATA Primeira fase
+2005 | 2005-08-28 Nacional-PB 1-0 América-RN | bola: 2005-09-03 Nacional-PB 1x0 América-RN | DATA Primeira fase
+2005 | 2005-08-21 Nacional-PB 4-1 Vitória-PE | bola: 2005-08-28 Nacional-PB 4x1 Vitória-PE | DATA Primeira fase
+2005 | 2005-07-31 Vitória-PE 0-2 América-RN | bola: 2005-08-07 Vitória-PE 0x2 América-RN | DATA Primeira fase
+2005 | 2005-10-22 América-RN 2-1 Ipatinga | bola: 2005-10-21 América 2x1 Ipatinga | DATA Fase final
+2005 | 2005-10-22 Remo 1-0 Novo Hamburgo | bola: 2005-10-21 Remo 1x0 Novo Hamburgo | DATA Fase final
+2005 | 2005-08-20 Volta Redonda 1-0 América-MG | bola: 2005-08-21 Volta Redonda 1x0 América | DATA Primeira fase
+2005 | 2005-08-27 União São João 1-1 América-SP | bola: 2005-08-28 União São João 1x1 América-SP | DATA Primeira fase
+2005 | 2005-08-06 Ceilândia 3-0 Paranoá | bola: 2005-08-07 Ceilândia 3x0 Paranoá | DATA Primeira fase
+2005 | 2005-08-27 Madureira 0-0 Mogi Mirim | bola: 2005-08-28 Madureira 0x0 Mogi Mirim | DATA Primeira fase
+2005 | 2005-08-13 Madureira 1-1 Atlético Sorocaba | bola: 2005-08-14 Madureira 1x1 Atlético Sorocaba | DATA Primeira fase
+2005 | 2005-08-06 Mogi Mirim 1-2 Madureira | bola: 2005-08-07 Mogi Mirim 1x2 Madureira | DATA Primeira fase
+2005 | 2005-08-28 Americano-RJ 1-1 Ipatinga | bola: 2005-08-29 Americano 1x1 Ipatinga | DATA Primeira fase
+2005 | 2005-08-21 Ipatinga 4-0 Serra | bola: 2005-08-22 Ipatinga 4x0 Serra | DATA Primeira fase
+2005 | 2005-07-31 Americano-RJ 2-0 Serra | bola: 2005-08-01 Americano 2x0 Serra | DATA Primeira fase
+2005 | 2005-08-27 Ferroviário-CE 4-3 Icasa | bola: 2005-08-28 Ferroviário 4x3 Icasa | DATA Primeira fase
+2005 | 2005-08-27 Abaeté 1-2 Remo | bola: 2005-08-28 Abaeté 1x2 Remo | DATA Primeira fase
+2005 | 2005-08-12 América-SP 1-1 Rio Branco-SP | bola: 2005-08-14 América-SP 1x1 Rio Branco | DATA Primeira fase
+2005 | 2005-08-26 Operário-MS 1-2 CENE | bola: 2005-08-28 Operário 1x2 CENE | DATA Primeira fase
+2005 | 2005-08-12 Serra 3-2 Ipatinga | bola: 2005-08-14 Serra 3x2 Ipatinga | DATA Primeira fase
+2005 | 2005-08-07 Ipitanga 2-1 Juazeiro | bola: 2005-08-09 Ipitanga 2x1 Juazeiro | DATA Primeira fase
+2005 | 2005-08-19 Ferroviário-CE 1-0 Piauí | bola: 2005-08-21 Ferroviário 1x0 Piauí | DATA Primeira fase
+2005 | 2005-07-31 São Raimundo-RR 2-2 Remo | bola: 2005-08-02 São Raimundo 2x2 Remo | DATA Primeira fase
+2005 | 2005-07-31 Marcílio Dias 0-2 Glória | bola: 2005-08-03 Marcílio Dias 0x2 Glória | DATA Primeira fase
+2005 | 2005-08-14 Americano-RJ 2-1 Estrela do Norte | bola: 2005-08-17 Americano 2x1 Estrela do Norte | DATA Primeira fase
+2005 | 2005-08-14 América-RN 0-1 Coruripe | bola: 2005-08-17 América-RN 0x1 Coruripe | DATA Primeira fase
+2005 | 2005-08-20 Ji-Paraná 0-0 Vila Aurora | bola: 2005-08-23 Ji-Paraná 0x0 Vila Aurora | DATA Primeira fase
+2005 | 2005-08-17 Serra 2-1 Estrela do Norte | bola: 2005-08-21 Serra 2x1 Estrela do Norte | DATA Primeira fase
+2005 | 2005-08-05 São Raimundo-PA 1-1 Vila Aurora | bola: 2005-08-09 São Raimundo 1x1 Vila Aurora | DATA Primeira fase
+2005 | 2005-08-07 América-SP 5-4 União São João | bola: 2005-08-12 América-SP 5x4 União São João | DATA Primeira fase
+2005 | 2005-08-29 Estrela do Norte 1-1 Serra | bola: 2005-09-03 Estrela do Norte 1x1 Serra | DATA Primeira fase
+2005 | 2005-08-07 Ipatinga 3-1 Americano-RJ | bola: 2005-08-12 Ipatinga 3x1 Americano | DATA Primeira fase
+2005 | 2005-08-09 Itabaiana 0-2 Sergipe | bola: 2005-08-14 Itabaiana 0x2 Sergipe | DATA Primeira fase
+2005 | 2005-08-14 Icasa 1-0 Serrano-PE | bola: 2005-08-19 Icasa 1x0 Serrano | DATA Primeira fase
+2005 | 2005-08-21 Moto Club 2-1 Tocantinópolis | bola: 2005-08-21 Tocantinópolis 1x2 Moto Club (mando invertido) | Primeira fase
+2005 | 2005-08-02 Abaeté 2-0 São José-AP | bola: 2005-08-07 Abaeté 2x0 São José | DATA Primeira fase
+2005 | 2005-08-23 Luverdense 1-0 São Raimundo-PA | bola: 2005-08-28 Luverdense 1x0 São Raimundo | DATA Primeira fase
+2005 | 2005-08-09 Vila Aurora 3-2 Luverdense | bola: 2005-08-14 Vila Aurora 3x2 Luverdense | DATA Primeira fase
+2005 | 2005-07-31 Luverdense 5-0 Ji-Paraná | bola: 2005-08-05 Luverdense 5x0 Ji-Paraná | DATA Primeira fase
+2005 | 2005-08-28 Villa Nova-MG 1-1 América-MG | bola: 2005-09-03 Villa Nova 1x1 América | DATA Primeira fase
+2005 | 2005-08-14 América-MG 1-1 Volta Redonda | bola: 2005-08-20 América 1x1 Volta Redonda | DATA Primeira fase
+2005 | 2005-08-21 Rio Branco-SP 3-3 América-SP | bola: 2005-08-27 Rio Branco 3x3 América-SP | DATA Primeira fase
+2005 | 2005-08-28 Paranoá 1-2 Ceilândia | bola: 2005-09-03 Paranoá 1x2 Ceilândia | DATA Primeira fase
+2005 | 2005-08-28 Atlético Sorocaba 3-1 Portuguesa Santista | bola: 2005-09-03 Atlético Sorocaba 3x1 Portuguesa Santista | DATA Primeira fase
+2005 | 2005-08-21 Atlético Sorocaba 3-0 Madureira | bola: 2005-08-27 Atlético Sorocaba 3x0 Madureira | DATA Primeira fase
+2005 | 2005-08-07 Portuguesa Santista 1-0 Atlético Sorocaba | bola: 2005-08-13 Portuguesa Santista 1x0 Atlético Sorocaba | DATA Primeira fase
+2005 | 2005-07-31 Madureira 3-0 Portuguesa Santista | bola: 2005-08-06 Madureira 3x0 Portuguesa Santista | DATA Primeira fase
+2005 | 2005-08-22 Estrela do Norte 1-1 Americano-RJ | bola: 2005-08-28 Estrela do Norte 1x1 Americano | DATA Primeira fase
+2005 | 2005-08-01 Estrela do Norte 2-1 Ipatinga | bola: 2005-08-07 Estrela do Norte 2x1 Ipatinga | DATA Primeira fase
+2005 | 2005-08-28 Sergipe 1-0 Itabaiana | bola: 2005-09-03 Sergipe 1x0 Itabaiana | DATA Primeira fase
+2005 | 2005-08-28 ABC 3-0 Treze | bola: 2005-09-03 ABC 3x0 Treze | DATA Primeira fase
+2005 | 2005-08-28 Piauí 0-0 Serrano-PE | bola: 2005-09-03 Piauí 0x0 Serrano | DATA Primeira fase
+2005 | 2005-08-21 Serrano-PE 2-1 Icasa | bola: 2005-08-27 Serrano 2x1 Icasa | DATA Primeira fase
+2005 | 2005-08-28 Moto Club 0-0 Imperatriz | bola: 2005-09-03 Moto Club 0x0 Imperatriz | DATA Primeira fase
+2005 | 2005-08-07 Imperatriz 1-0 Moto Club | bola: 2005-08-13 Imperatriz 1x0 Moto Club | DATA Primeira fase
+2005 | 2005-08-28 São Raimundo-RR 3-2 São José-AP | bola: 2005-09-03 São Raimundo 3x2 São José | DATA Primeira fase
+2005 | 2005-08-21 Abaeté 2-0 São Raimundo-RR | bola: 2005-08-27 Abaeté 2x0 São Raimundo | DATA Primeira fase
+2005 | 2005-08-28 Luverdense 2-2 Vila Aurora | bola: 2005-09-03 Luverdense 2x2 Vila Aurora | DATA Primeira fase
+2005 | 2005-08-14 Vila Aurora 3-0 Ji-Paraná | bola: 2005-08-20 Vila Aurora 3x0 Ji-Paraná | DATA Primeira fase
+2005 | 2005-08-28 Nacional-AM 3-2 Grêmio Coariense | bola: 2005-09-03 Nacional 3x2 Grêmio Coariense | DATA Primeira fase
+2005 | 2005-08-21 Operário-MS 1-3 Cianorte | bola: 2005-08-26 Operário 1x1 Cianorte | PLACAR DATA Primeira fase
+2005 | 2005-08-21 Grêmio Coariense 3-1 Independência | bola: 2005-08-21 Independência 2x1 Grêmio Coariense (mando invertido) | PLACAR Primeira fase
+2005 | 2005-08-21 Marcílio Dias 1-0 Gaúcho | bola: 2005-08-28 Marcílio Dias 1x0 Gaúcho | DATA Primeira fase
+2005 | 2005-08-14 Iraty 2-1 Joinville | bola: 2005-08-21 Iraty 2x1 Joinville | DATA Primeira fase
+2005 | 2005-07-31 Novo Hamburgo 0-0 Iraty | bola: 2005-08-07 Novo Hamburgo 0x0 Iraty | DATA Primeira fase
+2005 | 2005-08-21 Villa Nova-MG 1-0 Cabofriense | bola: 2005-08-28 Villa Nova 1x0 Cabofriense | DATA Primeira fase
+2005 | 2005-08-07 América-MG 0-2 Villa Nova-MG | bola: 2005-08-14 América 0x2 Villa Nova | DATA Primeira fase
+2005 | 2005-07-31 Cabofriense 0-1 América-MG | bola: 2005-08-07 Cabofriense 0x1 América | DATA Primeira fase
+2005 | 2005-08-14 Ceilândia 0-2 Mineiros | bola: 2005-08-21 Ceilândia 0x2 Mineiros | DATA Primeira fase
+2005 | 2005-08-27 Cianorte 1-0 Londrina | bola: 2005-09-03 Cianorte 1x0 Londrina | DATA Primeira fase
+2005 | 2005-08-14 CENE 1-1 Londrina | bola: 2005-08-21 CENE 1x1 Londrina | DATA Primeira fase
+2005 | 2005-08-07 CENE 2-0 Operário-MS | bola: 2005-08-14 CENE 2x0 Operário | DATA Primeira fase
+2005 | 2005-07-31 Cianorte 0-0 CENE | bola: 2005-08-07 Cianorte 0x0 CENE | DATA Primeira fase
+2005 | 2005-08-14 Portuguesa Santista 0-2 Mogi Mirim | bola: 2005-08-21 Portuguesa Santista 0x2 Mogi Mirim | DATA Primeira fase
+2005 | 2005-08-21 Sergipe 4-0 Juazeiro | bola: 2005-08-28 Sergipe 4x0 Juazeiro | DATA Primeira fase
+2005 | 2005-08-14 Itabaiana 1-1 Ipitanga | bola: 2005-08-21 Itabaiana 1x1 Ipitanga | DATA Primeira fase
+2005 | 2005-07-31 Juazeiro 1-3 Itabaiana | bola: 2005-08-07 Juazeiro 1x3 Itabaiana | DATA Primeira fase
+2005 | 2005-08-21 ABC 1-0 Baraúnas | bola: 2005-08-28 ABC 1x0 Baraúnas | DATA Primeira fase
+2005 | 2005-08-14 Treze 2-1 ASA | bola: 2005-08-21 Treze 2x1 ASA | DATA Primeira fase
+2005 | 2005-08-07 Treze 4-1 ABC | bola: 2005-08-14 Treze 4x1 ABC | DATA Primeira fase
+2005 | 2005-07-31 Baraúnas 1-3 Treze | bola: 2005-08-07 Baraúnas 1x3 Treze | DATA Primeira fase
+2005 | 2005-08-07 Coruripe 3-1 Vitória-PE | bola: 2005-08-14 Coruripe 3x1 Vitória-PE | DATA Primeira fase
+2005 | 2005-08-07 Icasa 2-1 Ferroviário-CE | bola: 2005-08-14 Icasa 2x1 Ferroviário | DATA Primeira fase
+2005 | 2005-07-31 Piauí 1-0 Icasa | bola: 2005-08-07 Piauí 1x0 Icasa | DATA Primeira fase
+2005 | 2005-07-31 Tocantinópolis 1-1 Imperatriz | bola: 2005-08-07 Tocantinópolis 1x1 Imperatriz | DATA Primeira fase
+2005 | 2005-08-14 Remo 3-2 São José-AP | bola: 2005-08-21 Remo 3x2 São José | DATA Primeira fase
+2005 | 2005-08-07 Remo 2-1 Abaeté | bola: 2005-08-14 Remo 2x1 Abaeté | DATA Primeira fase
+2005 | 2005-08-07 Grêmio Coariense 1-2 Nacional-AM | bola: 2005-08-14 Grêmio Coariense 1x2 Nacional | DATA Primeira fase
+2005 | 2005-07-31 Nacional-AM 3-1 Independência | bola: 2005-08-07 Nacional 3x1 Independência | DATA Primeira fase
+2005 | 2005-08-14 Tocantinópolis 1-2 Moto Club | bola: 2005-08-28 Moto Club 2x1 Tocantinópolis (mando invertido) | DATA Primeira fase
+2005 | 2005-08-14 Independência 2-1 Grêmio Coariense | bola: 2005-08-28 Grêmio Coariense 3x1 Independência (mando invertido) | PLACAR DATA Primeira fase
+2006 | 2006-07-19 América-MG 2-0 América-RJ | bola: 2006-07-20 América-MG 2x0 América-RJ | DATA Primeira fase
+2006 | 2006-08-13 Atlético-GO 2-1 América-MG | bola: 2006-08-16 Atlético-GO 2x1 América-MG | DATA Segunda fase
+2006 | 2006-07-16 América-RJ 1-1 Vitória-ES | bola: 2006-07-19 América-RJ 1x1 Vitória-ES | DATA Primeira fase
+2006 | 2006-07-23 Vitória-ES 0-2 América-MG | bola: 2006-07-30 Vitória-ES 0x2 América-MG | DATA Primeira fase
+2006 | 2006-11-01 Treze 0-0 Ferroviário-CE | bola: 2006-11-02 Treze 0x0 Ferroviário | DATA Fase final
+2006 | 2006-11-01 Vitória 1-2 Bahia | bola: 2006-11-02 Vitória 1x2 Bahia | DATA Fase final
+2006 | 2006-08-16 Cabofriense 2-1 Noroeste | bola: 2006-08-17 Cabofriense 2x1 Noroeste | DATA Segunda fase
+2006 | 2006-08-30 Ipatinga 2-0 América-MG | bola: 2006-08-31 Ipatinga 2x0 América-MG | DATA Segunda fase
+2006 | 2006-08-16 América-MG 1-0 Ipatinga | bola: 2006-08-17 América-MG 1x0 Ipatinga | DATA Segunda fase
+2006 | 2006-08-26 Ferroviário-CE 1-3 Vitória | bola: 2006-08-27 Ferroviário 1x3 Vitória | DATA Segunda fase
+2006 | 2006-08-16 Ferroviário-CE 2-1 Porto-PE | bola: 2006-08-17 Ferroviário 2x1 Porto | DATA Segunda fase
+2006 | 2006-08-16 Icasa 1-1 Treze | bola: 2006-08-17 Icasa 1x1 Treze | DATA Segunda fase
+2006 | 2006-07-19 Criciúma 3-2 Marcílio Dias | bola: 2006-07-20 Criciúma 3x2 Marcílio Dias | DATA Primeira fase
+2006 | 2006-07-30 Rio Branco-SP 1-1 Cabofriense | bola: 2006-07-29 Rio Branco-SP 1x1 Cabofriense | DATA Primeira fase
+2006 | 2006-07-19 Madureira 1-1 Cabofriense | bola: 2006-07-20 Madureira 1x1 Cabofriense | DATA Primeira fase
+2006 | 2006-07-15 Rio Branco-SP 2-1 Madureira | bola: 2006-07-16 Rio Branco-SP 2x1 Madureira | DATA Primeira fase
+2006 | 2006-08-02 Ipitanga 2-1 Vitória | bola: 2006-08-03 Ipitanga 2x1 Vitória | DATA Primeira fase
+2006 | 2006-07-15 Pirambu 1-1 Vitória | bola: 2006-07-16 Pirambu 1x1 Vitória | DATA Primeira fase
+2006 | 2006-07-22 Potiguar 1-2 Ferroviário-CE | bola: 2006-07-23 Potiguar 1x2 Ferroviário | DATA Primeira fase
+2006 | 2006-07-15 Ferroviário-CE 3-1 Ypiranga-PE | bola: 2006-07-16 Ferroviário 3x1 Ypiranga | DATA Primeira fase
+2006 | 2006-07-19 Baraúnas 1-2 Porto-PE | bola: 2006-07-20 Baraúnas 1x2 Porto | DATA Primeira fase
+2006 | 2006-09-08 Ferroviário-CE 1-1 Ananindeua | bola: 2006-09-10 Ferroviário 1x1 Ananindeua | DATA Terceira fase
+2006 | 2006-07-28 Pirambu 3-1 Ipitanga | bola: 2006-07-30 Pirambu 3x1 Ipitanga | DATA Primeira fase
+2006 | 2006-09-24 Criciúma 2-0 América-MG | bola: 2006-09-27 Criciúma 2x0 América-MG | DATA Terceira fase
+2006 | 2006-09-27 Anapolina 1-3 Ipatinga | bola: 2006-09-30 Anapolina 1x3 Ipatinga | DATA Terceira fase
+2006 | 2006-09-24 Ipatinga 2-3 Noroeste | bola: 2006-09-27 Ipatinga 2x3 Noroeste | DATA Terceira fase
+2006 | 2006-09-10 Anapolina 1-1 Noroeste | bola: 2006-09-13 Anapolina 1x1 Noroeste | DATA Terceira fase
+2006 | 2006-09-27 Treze 0-0 Vitória | bola: 2006-09-30 Treze 0x0 Vitória | DATA Terceira fase
+2006 | 2006-09-24 River-PI 3-4 Vitória | bola: 2006-09-27 River 3x4 Vitória | DATA Terceira fase
+2006 | 2006-09-10 Treze 2-1 River-PI | bola: 2006-09-13 Treze 2x1 River | DATA Terceira fase
+2006 | 2006-09-27 Rio Negro-AM 0-5 Ananindeua | bola: 2006-09-30 Rio Negro 0x5 Ananindeua | DATA Terceira fase
+2006 | 2006-09-24 Ferroviário-CE 2-1 Rio Negro-AM | bola: 2006-09-27 Ferroviário 2x1 Rio Negro | DATA Terceira fase
+2006 | 2006-09-10 Rio Negro-AM 1-2 Bahia | bola: 2006-09-13 Rio Negro 1x2 Bahia | DATA Terceira fase
+2006 | 2006-08-27 Criciúma 1-1 Noroeste | bola: 2006-08-30 Criciúma 1x1 Noroeste | DATA Segunda fase
+2006 | 2006-08-13 Anapolina 1-0 Americano-RJ | bola: 2006-08-16 Anapolina 1x0 Americano | DATA Segunda fase
+2006 | 2006-08-31 Atlético-GO 2-2 Jataiense | bola: 2006-09-03 Atlético-GO 2x2 Jataiense | DATA Segunda fase
+2006 | 2006-08-27 Ipatinga 0-1 Atlético-GO | bola: 2006-08-30 Ipatinga 0x1 Atlético-GO | DATA Segunda fase
+2006 | 2006-08-17 Jataiense 1-1 Atlético-GO | bola: 2006-08-20 Jataiense 1x1 Atlético-GO | DATA Segunda fase
+2006 | 2006-08-27 Confiança 1-1 Porto-PE | bola: 2006-08-30 Confiança 1x1 Porto | DATA Segunda fase
+2006 | 2006-08-27 Coruripe 2-1 Treze | bola: 2006-08-30 Coruripe 2x1 Treze | DATA Segunda fase
+2006 | 2006-08-27 Mixto 2-0 Rio Negro-AM | bola: 2006-08-30 Mixto 2x0 Rio Negro | DATA Segunda fase
+2006 | 2006-08-13 Rio Negro-AM 0-3 River-PI | bola: 2006-08-16 Rio Negro 0x3 River | DATA Segunda fase
+2006 | 2006-08-27 Maranhão 0-4 Ananindeua | bola: 2006-08-30 Maranhão 0x4 Ananindeua | DATA Segunda fase
+2006 | 2006-08-13 Ananindeua 2-1 Operário-MT | bola: 2006-08-16 Ananindeua 2x1 Operário-MT | DATA Segunda fase
+2006 | 2006-07-16 Marcílio Dias 1-2 Novo Hamburgo | bola: 2006-07-19 Marcílio Dias 1x2 Novo Hamburgo | DATA Primeira fase
+2006 | 2006-07-16 Rio Branco-PR 1-0 Caxias | bola: 2006-07-19 Rio Branco-PR 1x0 Caxias | DATA Primeira fase
+2006 | 2006-07-30 J.Malucelli 1-0 América-SP | bola: 2006-08-02 J.Malucelli 1x0 América-SP | DATA Primeira fase
+2006 | 2006-07-30 Estrela do Norte 1-0 Juventus-SP | bola: 2006-08-02 Estrela do Norte 1x0 Juventus | DATA Primeira fase
+2006 | 2006-07-16 Juventus-SP 1-1 Americano-RJ | bola: 2006-07-19 Juventus 1x1 Americano | DATA Primeira fase
+2006 | 2006-07-30 Luziânia 1-4 Jataiense | bola: 2006-08-02 Luziânia 1x4 Jataiense | DATA Primeira fase
+2006 | 2006-07-16 Jataiense 2-0 Coxim | bola: 2006-07-19 Jataiense 2x0 Coxim | DATA Primeira fase
+2006 | 2006-08-03 Pirambu 1-2 Coruripe | bola: 2006-08-06 Pirambu 1x2 Coruripe | DATA Primeira fase
+2006 | 2006-07-30 Vitória 1-0 Coruripe | bola: 2006-08-02 Vitória 1x0 Coruripe | DATA Primeira fase
+2006 | 2006-07-23 Coruripe 3-3 Vitória | bola: 2006-07-26 Coruripe 3x3 Vitória | DATA Primeira fase
+2006 | 2006-07-16 Ipitanga 1-2 Coruripe | bola: 2006-07-19 Ipitanga 1x2 Coruripe | DATA Primeira fase
+2006 | 2006-07-30 CSA 1-3 Confiança | bola: 2006-08-02 CSA 1x3 Confiança | DATA Primeira fase
+2006 | 2006-07-16 Confiança 1-0 Bahia | bola: 2006-07-19 Confiança 1x0 Bahia | DATA Primeira fase
+2006 | 2006-07-30 Ferroviário-CE 0-2 Potiguar | bola: 2006-08-02 Ferroviário 0x2 Potiguar | DATA Primeira fase
+2006 | 2006-07-19 Treze 1-1 Ferroviário-CE | bola: 2006-07-22 Treze 1x1 Ferroviário | DATA Primeira fase
+2006 | 2006-07-16 Potiguar 0-1 Treze | bola: 2006-07-19 Potiguar 0x1 Treze | DATA Primeira fase
+2006 | 2006-07-30 Porto-PE 2-0 Botafogo-PB | bola: 2006-08-02 Porto 2x0 Botafogo | DATA Primeira fase
+2006 | 2006-07-20 Icasa 2-0 Botafogo-PB | bola: 2006-07-23 Icasa 2x0 Botafogo | DATA Primeira fase
+2006 | 2006-07-16 Botafogo-PB 3-1 Baraúnas | bola: 2006-07-19 Botafogo 3x1 Baraúnas | DATA Primeira fase
+2006 | 2006-07-30 Imperatriz 3-0 Flamengo-PI | bola: 2006-08-02 Imperatriz 3x0 Flamengo | DATA Primeira fase
+2006 | 2006-07-16 Flamengo-PI 1-1 Maranhão | bola: 2006-07-19 Flamengo 1x1 Maranhão | DATA Primeira fase
+2006 | 2006-07-30 Mixto 0-0 Operário-MT | bola: 2006-08-02 Mixto 0x0 Operário | DATA Primeira fase
+2006 | 2006-07-16 Mixto 1-1 Ulbra-RO | bola: 2006-07-19 Mixto 1x1 Ulbra-RO | DATA Primeira fase
+2006 | 2006-07-30 Ananindeua 1-1 Fast-AM | bola: 2006-08-02 Ananindeua 1x1 Fast Clube | DATA Primeira fase
+2006 | 2006-07-16 Ananindeua 4-2 São Raimundo-RR | bola: 2006-07-19 Ananindeua 4x2 São Raimundo | DATA Primeira fase
+2006 | 2006-07-30 Rio Negro-AM 2-3 Tuna Luso | bola: 2006-08-02 Rio Negro 2x3 Tuna Luso | DATA Primeira fase
+2006 | 2006-07-16 Rio Negro-AM 2-0 ADESG | bola: 2006-07-19 Rio Negro 2x0 ADESG | DATA Primeira fase
+2006 | 2006-09-13 Ipatinga 1-0 Anapolina | bola: 2006-09-17 Ipatinga 1x0 Anapolina | DATA Terceira fase
+2006 | 2006-09-13 Vitória 1-1 Treze | bola: 2006-09-17 Vitória 1x1 Treze | DATA Terceira fase
+2006 | 2006-09-13 Bahia 2-1 Ferroviário-CE | bola: 2006-09-17 Bahia 2x1 Ferroviário | DATA Terceira fase
+2006 | 2006-08-30 Criciúma 0-1 Joinville | bola: 2006-09-03 Criciúma 0x1 Joinville | DATA Segunda fase
+2006 | 2006-08-16 Joinville 5-1 Criciúma | bola: 2006-08-20 Joinville 5x1 Criciúma | DATA Segunda fase
+2006 | 2006-08-13 Noroeste 4-1 Joinville | bola: 2006-08-17 Noroeste 4x1 Joinville | DATA Segunda fase
+2006 | 2006-08-30 Confiança 0-3 Vitória | bola: 2006-09-03 Confiança 0x3 Vitória | DATA Segunda fase
+2006 | 2006-08-16 Vitória 1-2 Confiança | bola: 2006-08-20 Vitória 1x2 Confiança | DATA Segunda fase
+2006 | 2006-08-13 Porto-PE 0-3 Vitória | bola: 2006-08-17 Porto 0x3 Vitória | DATA Segunda fase
+2006 | 2006-08-30 Coruripe 2-1 Bahia | bola: 2006-09-03 Coruripe 2x1 Bahia | DATA Segunda fase
+2006 | 2006-08-16 Bahia 2-1 Coruripe | bola: 2006-08-20 Bahia 2x1 Coruripe | DATA Segunda fase
+2006 | 2006-08-13 Treze 2-1 Bahia | bola: 2006-08-17 Treze 2x1 Bahia | DATA Segunda fase
+2006 | 2006-08-30 Mixto 1-1 River-PI | bola: 2006-09-03 Mixto 1x1 River | DATA Segunda fase
+2006 | 2006-08-16 River-PI 2-0 Mixto | bola: 2006-08-20 River 2x0 Mixto | DATA Segunda fase
+2006 | 2006-08-30 Maranhão 4-0 Operário-MT | bola: 2006-09-03 Maranhão 4x0 Operário-MT | DATA Segunda fase
+2006 | 2006-08-16 Operário-MT 5-2 Maranhão | bola: 2006-08-20 Operário-MT 5x2 Maranhão | DATA Segunda fase
+2006 | 2006-08-02 Rio Branco-PR 0-2 Joinville | bola: 2006-08-06 Rio Branco-PR 0x2 Joinville | DATA Primeira fase
+2006 | 2006-07-19 Joinville 2-0 Rio Branco-PR | bola: 2006-07-23 Joinville 2x0 Rio Branco-PR | DATA Primeira fase
+2006 | 2006-08-02 Estrela do Norte 1-2 Americano-RJ | bola: 2006-08-06 Estrela do Norte 1x2 Americano | DATA Primeira fase
+2006 | 2006-07-19 Americano-RJ 2-1 Estrela do Norte | bola: 2006-07-23 Americano 2x1 Estrela do Norte | DATA Primeira fase
+2006 | 2006-08-02 Luziânia 1-0 Coxim | bola: 2006-08-06 Luziânia 1x0 Coxim | DATA Primeira fase
+2006 | 2006-07-19 Coxim 1-1 Luziânia | bola: 2006-07-23 Coxim 1x1 Luziânia | DATA Primeira fase
+2006 | 2006-07-19 Coruripe 2-1 Pirambu | bola: 2006-07-23 Coruripe 2x1 Pirambu | DATA Primeira fase
+2006 | 2006-08-02 CSA 3-3 Bahia | bola: 2006-08-06 CSA 3x3 Bahia | DATA Primeira fase
+2006 | 2006-07-19 Bahia 1-0 CSA | bola: 2006-07-23 Bahia 1x0 CSA | DATA Primeira fase
+2006 | 2006-08-02 Ferroviário-CE 2-1 Treze | bola: 2006-08-06 Ferroviário 2x1 Treze | DATA Primeira fase
+2006 | 2006-08-02 Porto-PE 1-1 Baraúnas | bola: 2006-08-06 Porto 1x1 Baraúnas | DATA Primeira fase
+2006 | 2006-08-02 Imperatriz 1-0 Maranhão | bola: 2006-08-06 Imperatriz 1x0 Maranhão | DATA Primeira fase
+2006 | 2006-07-19 Maranhão 1-0 Imperatriz | bola: 2006-07-23 Maranhão 1x0 Imperatriz | DATA Primeira fase
+2006 | 2006-08-02 Ulbra-RO 0-2 Operário-MT | bola: 2006-08-06 Ulbra-RO 0x2 Operário | DATA Primeira fase
+2006 | 2006-07-19 Operário-MT 3-3 Ulbra-RO | bola: 2006-07-23 Operário 3x3 Ulbra-RO | DATA Primeira fase
+2006 | 2006-08-02 São Raimundo-RR 1-0 Fast-AM | bola: 2006-08-06 São Raimundo 1x0 Fast Clube | DATA Primeira fase
+2006 | 2006-07-19 Fast-AM 1-0 São Raimundo-RR | bola: 2006-07-23 Fast Clube 1x0 São Raimundo | DATA Primeira fase
+2006 | 2006-08-02 ADESG 0-1 Tuna Luso | bola: 2006-08-06 ADESG 0x1 Tuna Luso | DATA Primeira fase
+2006 | 2006-07-19 Tuna Luso 3-0 ADESG | bola: 2006-07-23 Tuna Luso 3x0 ADESG | DATA Primeira fase
+2006 | 2006-08-20 Vitória 2-3 Ferroviário-CE | bola: 2006-08-26 Vitória 2x3 Ferroviário | DATA Segunda fase
+2006 | 2006-09-17 América-MG 3-2 Criciúma | bola: 2006-09-24 América-MG 3x2 Criciúma | DATA Terceira fase
+2006 | 2006-09-17 Vitória 3-2 River-PI | bola: 2006-09-24 Vitória 3x2 River | DATA Terceira fase
+2006 | 2006-09-17 Bahia 1-0 Ananindeua | bola: 2006-09-24 Bahia 1x0 Ananindeua | DATA Terceira fase
+2006 | 2006-08-20 Joinville 5-2 Cabofriense | bola: 2006-08-27 Joinville 5x2 Cabofriense | DATA Segunda fase
+2006 | 2006-08-20 América-MG 9-0 Jataiense | bola: 2006-08-27 América-MG 9x0 Jataiense | DATA Segunda fase
+2006 | 2006-08-20 Bahia 4-3 Icasa | bola: 2006-08-27 Bahia 4x3 Icasa | DATA Segunda fase
+2006 | 2006-08-20 River-PI 2-1 Fast-AM | bola: 2006-08-27 River 2x1 Fast Clube | DATA Segunda fase
+2006 | 2006-08-20 Operário-MT 0-0 Tuna Luso | bola: 2006-08-27 Operário-MT 0x0 Tuna Luso | DATA Segunda fase
+2006 | 2006-07-23 Novo Hamburgo 3-3 Criciúma | bola: 2006-07-30 Novo Hamburgo 3x3 Criciúma | DATA Primeira fase
+2006 | 2006-07-23 Joinville 3-1 Caxias | bola: 2006-07-30 Joinville 3x1 Caxias | DATA Primeira fase
+2006 | 2006-07-23 Americano-RJ 1-0 Ipatinga | bola: 2006-07-30 Americano 1x0 Ipatinga | DATA Primeira fase
+2006 | 2006-07-23 Ceilândia 1-3 Atlético-GO | bola: 2006-07-30 Ceilândia 1x3 Atlético-GO | DATA Primeira fase
+2006 | 2006-07-23 Coxim 1-1 Anapolina | bola: 2006-07-30 Coxim 1x1 Anapolina | DATA Primeira fase
+2006 | 2006-07-23 Bahia 2-1 Colo Colo-BA | bola: 2006-07-30 Bahia 2x1 Colo Colo | DATA Primeira fase
+2006 | 2006-07-23 Treze 2-2 Ypiranga-PE | bola: 2006-07-30 Treze 2x2 Ypiranga | DATA Primeira fase
+2006 | 2006-07-23 Baraúnas 2-2 Icasa | bola: 2006-07-30 Baraúnas 2x2 Icasa | DATA Primeira fase
+2006 | 2006-07-23 Maranhão 1-0 River-PI | bola: 2006-07-30 Maranhão 1x0 Ríver | DATA Primeira fase
+2006 | 2006-07-23 Operário-MT 1-2 Mixto | bola: 2006-07-30 Operário 1x2 Mixto | DATA Primeira fase
+2006 | 2006-07-23 Fast-AM 1-0 Ananindeua | bola: 2006-07-30 Fast Clube 1x0 Ananindeua | DATA Primeira fase
+2006 | 2006-07-23 Tuna Luso 2-2 Rio Negro-AM | bola: 2006-07-30 Tuna Luso 2x2 Rio Negro | DATA Primeira fase
+2006 | 2006-11-01 Criciúma 1-0 Brasil de Pelotas | bola: 2006-11-02 Criciúma 1x0 Brasil | DATA Fase final
+2006 | 2006-11-01 Barueri 0-3 Ipatinga | bola: 2006-11-02 Grêmio Barueri 0x3 Ipatinga | DATA Fase final
+2006 | 2006-08-12 Rio Branco-SP 0-1 Brasil de Pelotas | bola: 2006-08-13 Rio Branco-SP 0x1 Brasil | DATA Segunda fase
+2006 | 2006-09-27 América-MG 4-1 Barueri | bola: 2006-09-30 América-MG 4x1 Grêmio Barueri | DATA Terceira fase
+2006 | 2006-09-10 Criciúma 2-0 Barueri | bola: 2006-09-13 Criciúma 2x0 Grêmio Barueri | DATA Terceira fase
+2006 | 2006-08-27 Barueri 0-2 Anapolina | bola: 2006-08-30 Grêmio Barueri 0x2 Anapolina | DATA Segunda fase
+2006 | 2006-08-17 Americano-RJ 2-1 Barueri | bola: 2006-08-20 Americano 2x1 Grêmio Barueri | DATA Segunda fase
+2006 | 2006-07-30 Brasil de Pelotas 1-0 Marcílio Dias | bola: 2006-08-02 Brasil 1x0 Marcílio Dias | DATA Primeira fase
+2006 | 2006-07-20 Novo Hamburgo 0-2 Brasil de Pelotas | bola: 2006-07-23 Novo Hamburgo 0x2 Brasil | DATA Primeira fase
+2006 | 2006-07-30 Barueri 0-0 América-RJ | bola: 2006-08-02 Grêmio Barueri 0x0 América-RJ | DATA Primeira fase
+2006 | 2006-09-13 Barueri 2-1 América-MG | bola: 2006-09-17 Grêmio Barueri 2x1 América-MG | DATA Terceira fase
+2006 | 2006-08-30 Barueri 2-1 Americano-RJ | bola: 2006-09-03 Grêmio Barueri 2x1 Americano | DATA Segunda fase
+2006 | 2006-08-02 Brasil de Pelotas 1-0 Novo Hamburgo | bola: 2006-08-06 Brasil 1x0 Novo Hamburgo | DATA Primeira fase
+2006 | 2006-08-02 Barueri 1-0 Vitória-ES | bola: 2006-08-06 Grêmio Barueri 1x0 Vitória-ES | DATA Primeira fase
+2006 | 2006-07-19 Vitória-ES 1-2 Barueri | bola: 2006-07-23 Vitória-ES 1x2 Grêmio Barueri | DATA Primeira fase
+2006 | 2006-09-17 Anapolina 1-1 Brasil de Pelotas | bola: 2006-09-24 Anapolina 1x1 Brasil | DATA Terceira fase
+2006 | 2006-08-20 Brasil de Pelotas 1-2 J.Malucelli | bola: 2006-08-27 Brasil 1x2 J.Malucelli | DATA Segunda fase
+2006 | 2006-08-20 Anapolina 1-2 Barueri | bola: 2006-08-27 Anapolina 1x2 Grêmio Barueri | DATA Segunda fase
+2007 | 2007-09-19 Vila Nova-GO 4-2 Villa Nova-MG | bola: 2007-09-20 Vila Nova-GO 4x2 Villa Nova-MG | DATA Terceira fase
+2007 | 2007-09-02 Rio Claro 2-0 CRAC | bola: 2007-09-01 Rio Claro 2x0 CRAC | DATA Segunda fase
+2007 | 2007-09-02 Vila Nova-GO 1-0 Guarani | bola: 2007-09-01 Vila Nova 1x0 Guarani | DATA Segunda fase
+2007 | 2007-07-15 Caxias 1-2 Esportivo-RS | bola: 2007-07-14 Caxias 1x2 Esportivo-RS | DATA Primeira fase
+2007 | 2007-07-15 Tupi 3-2 Jaguaré | bola: 2007-07-14 Tupi 3x2 Jaguaré | DATA Primeira fase
+2007 | 2007-07-15 Guarani 0-0 América-RJ | bola: 2007-07-14 Guarani 0x0 América-RJ | DATA Primeira fase
+2007 | 2007-07-15 Atlético-GO 2-0 CRAC | bola: 2007-07-14 Atlético-GO 2x0 CRAC | DATA Primeira fase
+2007 | 2007-07-15 Cacerense 0-0 Ceilândia | bola: 2007-07-14 Cacerense 0x0 Ceilândia | DATA Primeira fase
+2007 | 2007-07-15 São Raimundo-RR 2-2 Rio Branco-AC | bola: 2007-07-14 São Raimundo 2x2 Rio Branco | DATA Primeira fase
+2007 | 2007-09-02 Rio Branco-AC 1-0 Sampaio Corrêa | bola: 2007-09-02 Rio Branco-AC 2x0 Sampaio Corrêa | PLACAR Segunda fase
+2007 | 2007-07-29 Atlético-PB 2-0 Central | bola: 2007-07-29 Atlético-PB 3x0 Central | PLACAR Primeira fase
+2007 | 2007-07-14 ABC 3-0 Vera Cruz-PE | bola: 2007-07-14 ABC 4x0 Vera Cruz | PLACAR Primeira fase
+2007 | 2007-07-17 América-SE 0-3 Confiança | bola: 2007-07-14 América-SE 0x3 Confiança | DATA Primeira fase
+2007 | 2007-07-17 Bahia 2-0 ASA | bola: 2007-07-14 Bahia 2x0 ASA | DATA Primeira fase
+2007 | 2007-07-15 Fast-AM 3-1 Jaruense | bola: 2007-07-14 Fast Club 3x1 Jaruense | DATA Primeira fase
+2008 | 2008-10-08 Rio Branco-AC 3-0 Duque de Caxias | bola: 2008-10-08 Rio Branco 2x2 Duque de Caxias | PLACAR Fase final
+2009 | 2009-06-27 Marília 2-0 Caxias | bola: 2009-06-28 Marília 2x0 Caxias | DATA Primeira fase
+2009 | 2009-05-30 Rio Branco-AC 3-0 Luverdense | bola: 2009-05-31 Rio Branco 3x0 Luverdense | DATA Primeira fase
+2009 | 2009-06-27 Brasil de Pelotas 2-1 Marcílio Dias | bola: 2009-06-28 Brasil 2x1 Marcílio Dias | DATA Primeira fase
+2009 | 2009-05-30 Sampaio Corrêa 2-3 Águia | bola: 2009-05-31 Sampaio Corrêa 2x3 Águia Marabá | DATA Primeira fase
+2010 | 2010-07-25 Macaé 1-1 Luverdense | bola: 2010-07-24 Macaé 1x1 Luverdense | DATA Primeira fase
+2010 | 2010-07-20 Paysandu 6-2 Rio Branco-AC | bola: 2010-07-17 Paysandu 6x2 Rio Branco | DATA Primeira fase
+2010 | 2010-07-31 Chapecoense 3-2 Brasil de Pelotas | bola: 2010-08-01 Chapecoense 3x2 Brasil | DATA Primeira fase
+2010 | 2010-07-25 Criciúma 2-0 Brasil de Pelotas | bola: 2010-07-24 Criciúma 2x0 Brasil | DATA Primeira fase
+2011 | 2011-10-16 Ipatinga 3-2 Chapecoense | bola: 2011-10-15 Ipatinga 3x2 Chapecoense | DATA Segunda fase
+2011 | 2011-08-06 Fortaleza 3-1 Guarany | bola: 2011-08-07 Fortaleza 3x1 Guarany | DATA Primeira fase
+2011 | 2011-08-06 América-RN 4-0 CRB | bola: 2011-08-07 América 4x0 CRB | DATA Primeira fase
+2011 | 2011-07-23 Campinense 2-0 CRB | bola: 2011-07-24 Campinense 2x0 CRB | DATA Primeira fase
+2011 | 2011-07-23 Fortaleza 1-3 América-RN | bola: 2011-07-24 Fortaleza 1x3 América | DATA Primeira fase
+2011 | 2011-09-18 Paysandu 5-0 Araguaína | bola: 2011-09-17 Paysandu 5x0 Araguaína | DATA Primeira fase
+2011 | 2011-09-18 Luverdense 1-0 Águia | bola: 2011-09-17 Luverdense 1x0 Águia de Marabá | DATA Primeira fase
+2011 | 2011-07-31 Araguaína 1-1 Águia | bola: 2011-08-01 Araguaína 1x1 Águia de Marabá | DATA Primeira fase
+2011 | 2011-08-21 Guarany 1-1 Fortaleza | bola: 2011-07-21 Guarany 1x1 Fortaleza | DATA Primeira fase
+2012 | 2012-09-01 Chapecoense 0-0 Santo André | bola: 2012-09-02 Chapecoense 0x0 Santo André | DATA Primeira fase
+2012 | 2012-08-04 Brasiliense 1-1 Chapecoense | bola: 2012-08-05 Brasiliense 1x1 Chapecoense | DATA Primeira fase
+2013 | 2013-10-12 Duque de Caxias 1-0 Caxias | bola: 2013-10-13 Duque de Caxias 1x0 Caxias | DATA Primeira fase
+2013 | 2013-10-12 Macaé 0-1 Vila Nova-GO | bola: 2013-10-13 Macaé 0x1 Vila Nova | DATA Primeira fase
+2013 | 2013-10-12 Guarani 1-1 CRAC | bola: 2013-10-13 Guarani 1x1 CRAC | DATA Primeira fase
+2013 | 2013-10-10 Sampaio Corrêa 2-1 Rio Branco-AC | bola: 2013-10-09 Sampaio Corrêa 2x1 Rio Branco | DATA Primeira fase
+2013 | 2013-10-03 Rio Branco-AC 0-2 Santa Cruz | bola: 2013-10-02 Rio Branco 0x2 Santa Cruz | DATA Primeira fase
+2013 | 2013-09-26 Cuiabá 3-0 Rio Branco-AC | bola: 2013-09-25 Cuiabá 3x0 Rio Branco | DATA Primeira fase
+2013 | 2013-09-12 Rio Branco-AC 1-2 Brasiliense | bola: 2013-09-11 Rio Branco 1x2 Brasiliense | DATA Primeira fase
+2013 | 2013-08-29 Rio Branco-AC 1-2 Treze | bola: 2013-08-28 Rio Branco 1x2 Treze | DATA Primeira fase
+2013 | 2013-08-22 Fortaleza 6-0 Rio Branco-AC | bola: 2013-08-21 Fortaleza 6x0 Rio Branco | DATA Primeira fase
+2013 | 2013-08-15 Treze 3-0 Rio Branco-AC | bola: 2013-08-14 Treze 3x0 Rio Branco | DATA Primeira fase
+2013 | 2013-08-01 Santa Cruz 4-0 Rio Branco-AC | bola: 2013-07-31 Santa Cruz 4x0 Rio Branco | DATA Primeira fase
+2013 | 2013-07-25 Rio Branco-AC 1-0 CRB | bola: 2013-07-24 Rio Branco 1x0 CRB | DATA Primeira fase
+2013 | 2013-07-18 Brasiliense 1-0 Rio Branco-AC | bola: 2013-07-17 Brasiliense 1x0 Rio Branco | DATA Primeira fase
+2013 | 2013-06-14 Rio Branco-AC 0-2 Fortaleza | bola: 2013-06-13 Rio Branco 0x2 Fortaleza | DATA Primeira fase
+2013 | 2013-10-12 Barueri 2-0 Madureira | bola: 2013-10-13 Grêmio Barueri 2x0 Madureira | DATA Primeira fase
+2013 | 2013-09-14 Barueri 0-1 Mogi Mirim | bola: 2013-09-15 Grêmio Barueri 0x1 Mogi Mirim | DATA Primeira fase
+2013 | 2013-09-05 Águia 1-0 Rio Branco-AC | bola: 2013-09-04 Águia de Marabá 1x0 Rio Branco | DATA Primeira fase
+2013 | 2013-07-11 Rio Branco-AC 1-2 Águia | bola: 2013-07-10 Rio Branco 1x2 Águia de Marabá | DATA Primeira fase
+2014 | 2014-08-17 Caxias 0-3 Guaratinguetá | bola: 2014-08-16 Caxias 0x3 Guaratinguetá | DATA Primeira fase
+2014 | 2014-08-17 São Caetano 0-0 Macaé | bola: 2014-08-16 São Caetano 0x0 Macaé | DATA Primeira fase
+2014 | 2014-08-31 Fortaleza 1-1 CRAC | bola: 2014-09-01 Fortaleza 1x1 CRAC | DATA Primeira fase
+2014 | 2014-08-31 Cuiabá 0-2 ASA | bola: 2014-09-01 Cuiabá 0x2 ASA | DATA Primeira fase
+2014 | 2014-08-31 Treze 1-1 Águia | bola: 2014-09-01 Treze 1x1 Águia de Marabá | DATA Primeira fase
+2015 | 2015-06-09 Guaratinguetá 0-3 Portuguesa | bola: 2015-06-08 Guaratinguetá 0x3 Portuguesa | DATA Primeira fase
+2015 | 2015-08-04 Cuiabá 1-1 Vila Nova-GO | bola: 2015-08-03 Cuiabá 1x1 Vila Nova | DATA Primeira fase
+2015 | 2015-07-12 Salgueiro 1-1 ASA | bola: 2015-07-11 Salgueiro 1x1 ASA | DATA Primeira fase
+2015 | 2015-07-07 Confiança 0-0 Vila Nova-GO | bola: 2015-07-06 Confiança 0x0 Vila Nova | DATA Primeira fase
+2015 | 2015-07-05 Fortaleza 1-0 América-RN | bola: 2015-07-04 Fortaleza 1x0 América-RN | DATA Primeira fase
+2015 | 2015-06-02 Cuiabá 1-3 Fortaleza | bola: 2015-06-01 Cuiabá 1x3 Fortaleza | DATA Primeira fase
+2016 | 2016-08-28 Guarani 1-0 Portuguesa | bola: 2016-09-05 Guarani 1x0 Portuguesa | DATA Primeira fase
+2019 | 2019-09-10 Juventude 4-0 Imperatriz | bola: 2019-09-09 Juventude 4x0 Imperatriz | DATA Quartas de final
+2019 | 2019-09-03 Imperatriz 0-0 Juventude | bola: 2019-09-02 Imperatriz 0x0 Juventude | DATA Quartas de final
+2019 | 2019-08-20 Volta Redonda 2-2 Juventude | bola: 2019-08-19 Volta Redonda 2x2 Juventude | DATA Primeira fase
+2019 | 2019-08-17 Remo 2-0 São José-RS | bola: 2019-08-16 Remo 2x0 São José | DATA Primeira fase
+2019 | 2019-08-16 Luverdense 1-3 Paysandu | bola: 2019-08-15 Luverdense 1x3 Paysandu | DATA Primeira fase
+2019 | 2019-08-10 Volta Redonda 0-0 Remo | bola: 2019-08-09 Volta Redonda 0x0 Remo | DATA Primeira fase
+2019 | 2019-08-09 Juventude 2-0 Tombense | bola: 2019-08-08 Juventude 2x0 Tombense | DATA Primeira fase
+2019 | 2019-08-02 Remo 0-2 Tombense | bola: 2019-08-01 Remo 0x2 Tombense | DATA Primeira fase
+2019 | 2019-07-30 Paysandu 2-2 Boa Esporte | bola: 2019-07-29 Paysandu 2x2 Boa Esporte | DATA Primeira fase
+2019 | 2019-07-23 Paysandu 0-0 Volta Redonda | bola: 2019-07-22 Paysandu 0x0 Volta Redonda | DATA Primeira fase
+2019 | 2019-07-20 Ypiranga-RS 1-1 Remo | bola: 2019-07-19 Ypiranga 1x1 Remo | DATA Primeira fase
+2019 | 2019-07-12 Tombense 0-2 Volta Redonda | bola: 2019-07-11 Tombense 0x2 Volta Redonda | DATA Primeira fase
+2019 | 2019-07-05 Tombense 0-1 Paysandu | bola: 2019-07-04 Tombense 0x1 Paysandu | DATA Primeira fase
+2019 | 2019-07-02 Juventude 2-0 Luverdense | bola: 2019-07-01 Juventude 2x0 Luverdense | DATA Primeira fase
+2019 | 2019-06-29 Paysandu 0-0 Ypiranga-RS | bola: 2019-06-28 Paysandu 0x0 Ypiranga | DATA Primeira fase
+2019 | 2019-06-21 Ypiranga-RS 4-1 Juventude | bola: 2019-06-20 Ypiranga 4x1 Juventude | DATA Primeira fase
+2019 | 2019-06-14 São José-RS 1-0 Remo | bola: 2019-06-13 São José 1x0 Remo | DATA Primeira fase
+2019 | 2019-05-21 Remo 0-0 Ypiranga-RS | bola: 2019-05-20 Remo 0x0 Ypiranga | DATA Primeira fase
+2019 | 2019-05-07 Paysandu 1-0 Tombense | bola: 2019-05-06 Paysandu 1x0 Tombense | DATA Primeira fase
+2019 | 2019-08-13 Náutico 2-1 Sampaio Corrêa | bola: 2019-08-12 Náutico 2x1 Sampaio Corrêa | DATA Primeira fase
+2019 | 2019-08-06 Ferroviário-CE 1-2 ABC | bola: 2019-08-05 Ferroviário 1x2 ABC | DATA Primeira fase
+2019 | 2019-08-06 Globo FC 2-0 Náutico | bola: 2019-08-05 Globo 2x0 Náutico | DATA Primeira fase
+2019 | 2019-08-03 Santa Cruz 3-2 Imperatriz | bola: 2019-08-02 Santa Cruz 3x2 Imperatriz | DATA Primeira fase
+2019 | 2019-07-27 Náutico 3-1 Confiança | bola: 2019-07-26 Náutico 3x1 Confiança | DATA Primeira fase
+2019 | 2019-07-26 Ferroviário-CE 0-1 Sampaio Corrêa | bola: 2019-07-25 Ferroviário 0x1 Sampaio Corrêa | DATA Primeira fase
+2019 | 2019-07-26 Imperatriz 2-1 Botafogo-PB | bola: 2019-07-25 Imperatriz 2x1 Botafogo | DATA Primeira fase
+2019 | 2019-07-19 Sampaio Corrêa 1-0 Santa Cruz | bola: 2019-07-18 Sampaio Corrêa 1x0 Santa Cruz | DATA Primeira fase
+2019 | 2019-07-16 Ferroviário-CE 0-1 Náutico | bola: 2019-07-15 Ferroviário 0x1 Náutico | DATA Primeira fase
+2019 | 2019-07-13 ABC 1-2 Confiança | bola: 2019-07-12 ABC 1x2 Confiança | DATA Primeira fase
+2019 | 2019-07-09 Imperatriz 2-0 Náutico | bola: 2019-07-08 Imperatriz 2x0 Náutico | DATA Primeira fase
+2019 | 2019-07-07 Confiança 2-1 Globo FC | bola: 2019-07-06 Confiança 2x1 Globo | DATA Primeira fase
+2019 | 2019-07-07 Botafogo-PB 1-2 Sampaio Corrêa | bola: 2019-07-06 Botafogo 1x2 Sampaio Corrêa | DATA Primeira fase
+2019 | 2019-07-06 Santa Cruz 0-2 Ferroviário-CE | bola: 2019-07-05 Santa Cruz 0x2 Ferroviário | DATA Primeira fase
+2019 | 2019-06-25 Botafogo-PB 4-2 Treze | bola: 2019-06-24 Botafogo 4x2 Treze | DATA Primeira fase
+2019 | 2019-06-25 Imperatriz 3-0 Sampaio Corrêa | bola: 2019-06-24 Imperatriz 3x0 Sampaio Corrêa | DATA Primeira fase
+2019 | 2019-06-22 ABC 1-1 Globo FC | bola: 2019-06-21 ABC 1x1 Globo | DATA Primeira fase
+2019 | 2019-06-18 Globo FC 3-3 Santa Cruz | bola: 2019-06-17 Globo 3x3 Santa Cruz | DATA Primeira fase
+2019 | 2019-06-11 Sampaio Corrêa 0-2 Náutico | bola: 2019-06-10 Sampaio Corrêa 0x2 Náutico | DATA Primeira fase
+2019 | 2019-06-11 Ferroviário-CE 3-2 Treze | bola: 2019-06-10 Ferroviário 3x2 Treze | DATA Primeira fase
+2019 | 2019-05-21 Ferroviário-CE 1-0 Globo FC | bola: 2019-05-20 Ferroviário 1x0 Globo | DATA Primeira fase
+2019 | 2019-05-14 Botafogo-PB 1-1 Santa Cruz | bola: 2019-05-13 Botafogo 1x1 Santa Cruz | DATA Primeira fase
+2019 | 2019-05-19 Volta Redonda 0-0 Paysandu | bola: 2019-05-26 Volta Redonda 0x0 Paysandu | DATA Primeira fase
+2019 | 2019-05-19 Juventude 2-0 Boa Esporte | bola: 2019-05-26 Juventude 2x0 Boa Esporte | DATA Primeira fase
+2019 | 2019-08-10 Globo FC 0-3 Botafogo-PB | bola: 2019-08-18 Globo 0x3 Botafogo | DATA Primeira fase
+2019 | 2019-08-10 Imperatriz 1-0 ABC | bola: 2019-08-18 Imperatriz 1x0 ABC | DATA Primeira fase
+2019 | 2019-05-19 Atlético-AC 2-2 São José-RS | bola: 2019-05-26 Atlético Acreano 2x2 São José | DATA Primeira fase
+2019 | 2019-09-22 Náutico 2-1 Juventude | bola: 2019-09-08 Náutico 2x2 Juventude | PLACAR DATA Semifinal
+2019 | 2019-06-04 Tombense 2-2 Remo | bola: 2019-07-03 Tombense 2x2 Remo | DATA Primeira fase
+2020 | 2020-12-20 Ypiranga-RS 2-3 Londrina | bola: 2020-12-13 Ypiranga 2x3 Londrina | DATA Segunda fase
+2020 | 2020-12-20 Remo 3-1 Paysandu | bola: 2020-12-13 Remo 3x1 Paysandu | DATA Segunda fase
+2020 | 2020-09-21 Vila Nova-GO 3-0 Imperatriz | bola: 2020-10-12 Vila Nova 3x0 Imperatriz | DATA Primeira fase
+2020 | 2020-09-14 Jacuipense 0-0 Ferroviário-CE | bola: 2020-10-12 Jacuipense 0x0 Ferroviário | DATA Primeira fase
+2020 | 2020-09-14 Manaus FC 1-1 Treze | bola: 2020-10-12 Manaus 1x1 Treze | DATA Primeira fase
+2021 | 2021-11-07 Tombense 1-1 Ypiranga-RS | bola: 2021-11-06 Tombense 1x1 Ypiranga | DATA Segunda fase
+2021 | 2021-11-07 Novorizontino 2-0 Manaus FC | bola: 2021-11-06 Novorizontino 2x0 Manaus | DATA Segunda fase
+2021 | 2021-11-06 Ituano 3-1 Botafogo-PB | bola: 2021-11-07 Ituano 3x1 Botafogo | DATA Segunda fase
+2021 | 2021-11-06 Paysandu 0-1 Criciúma | bola: 2021-11-07 Paysandu 0x1 Criciúma | DATA Segunda fase
+2021 | 2021-07-19 Paraná 0-2 Novorizontino | bola: 2021-08-02 Paraná 0x2 Novorizontino | DATA Primeira fase
+2022 | 2022-08-03 Botafogo-PB 1-1 Mirassol | bola: 2022-08-03 Botafogo-PB 0x0 Mirassol | PLACAR Primeira fase
+2022 | 2022-09-24 Figueirense 0-0 ABC | bola: 2022-09-17 Figueirense 0x0 ABC | DATA Segunda fase
+2022 | 2022-09-24 Paysandu 1-1 Vitória | bola: 2022-09-17 Paysandu 1x1 Vitória | DATA Segunda fase
+2023 | 2023-08-26 Figueirense 0-0 Manaus FC | bola: 2023-08-27 Figueirense 0x0 Manaus | DATA Primeira fase
+2023 | 2023-08-26 Floresta-CE 1-0 América-RN | bola: 2023-08-27 Floresta 1x0 América | DATA Primeira fase
+2023 | 2023-08-26 Remo 3-1 Altos | bola: 2023-08-27 Remo 3x1 Altos | DATA Primeira fase
+2023 | 2023-08-26 Amazonas 1-0 CSA | bola: 2023-08-27 Amazonas 1x0 CSA | DATA Primeira fase
+2023 | 2023-08-26 Ypiranga-RS 1-1 Botafogo-PB | bola: 2023-08-27 Ypiranga 1x1 Botafogo | DATA Primeira fase
+2023 | 2023-08-26 Aparecidense 2-3 Volta Redonda | bola: 2023-08-27 Aparecidense 2x3 Volta Redonda | DATA Primeira fase
+2023 | 2023-08-26 Operário-PR 1-0 Brusque | bola: 2023-08-27 Operário 1x0 Brusque | DATA Primeira fase
+2023 | 2023-08-26 Confiança 1-0 Paysandu | bola: 2023-08-27 Confiança 1x0 Paysandu | DATA Primeira fase
+2023 | 2023-08-26 Pouso Alegre 1-2 São José-RS | bola: 2023-08-27 Pouso Alegre 1x2 São José | DATA Primeira fase
+2023 | 2023-08-26 Náutico 2-2 São Bernardo | bola: 2023-08-27 Náutico 2x2 São Bernardo | DATA Primeira fase
+2023 | 2023-05-04 São Bernardo 3-1 Remo | bola: 2023-05-04 São Bernardo 2x1 Remo | PLACAR Primeira fase
+2023 | 2023-09-16 Amazonas 2-0 Volta Redonda | bola: 2023-09-09 Amazonas 2x0 Volta Redonda | DATA Segunda fase
+2024 | 2024-08-05 Remo 1-0 Aparecidense | bola: 2024-08-04 Remo 1x0 Aparecidense | DATA Primeira fase
+2024 | 2024-08-05 Ferroviário-CE 1-1 Sampaio Corrêa | bola: 2024-08-04 Ferroviário 1x1 Sampaio Corrêa | DATA Primeira fase
+2024 | 2024-07-07 ABC 0-2 CSA | bola: 2024-07-06 ABC 0x2 CSA | DATA Primeira fase
+2024 | 2024-07-03 CSA 3-1 Figueirense | bola: 2024-07-02 CSA 3x1 Figueirense | DATA Primeira fase
+2024 | 2024-07-03 Botafogo-PB 4-3 Aparecidense | bola: 2024-07-02 Botafogo 4x3 Aparecidense | DATA Primeira fase
+
+## Jogos do Bola sem par no pacote
+1981 | bola sem par no pacote: 1981-03-08 Santo Amaro-PE 1x0 Auto Esporte-PB (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-03-15 Auto Esporte-PB 3x3 Santo Amaro-PE (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-03-17 # Nos pênaltis: América-AM 0x2 Izabelense-PA # (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-03-17 # Nos pênaltis: Capelense-AL 3x4 Atlético-BA # (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-03-21 Santo Amaro-PE 1x1 Baraúnas-RN (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-03-28 Baraúnas-RN 0x1 Santo Amaro-PE (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-04-02 Guarani 0x0 Santo Amaro (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-04-05 Santo Amaro 1x0 Izabelense (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-04-11 Santo Amaro 2x0 Guarani (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-04-16 Izabelense 1x1 Santo Amaro (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-04-25 OLARIA-RJ 4x0 SANTO AMARO-PE (serie_c_1981_tab.htm)
+1981 | bola sem par no pacote: 1981-05-01 SANTO AMARO-PE 1x0 OLARIA-RJ (serie_c_1981_tab.htm)
+1990 | bola sem par no pacote: 1990-12-09 # Nos pênaltis: Atlético-GO 3x2 América-MG # (serie_c_1990_tab.htm)
+1994 | bola sem par no pacote: 1994-09-18 União Araguainense 1x2 Atlético-GO (serie_c_1994_fase1.htm)
+1994 | bola sem par no pacote: 1994-09-21 União Araguainense 2x1 Vila Nova (serie_c_1994_fase1.htm)
+1994 | bola sem par no pacote: 1994-09-25 Taguatinga 2x0 União Araguainense (serie_c_1994_fase1.htm)
+1994 | bola sem par no pacote: 1994-10-02 Vila Nova 1x0 União Araguainense (serie_c_1994_fase1.htm)
+1994 | bola sem par no pacote: 1994-10-09 Atlético-GO 3x1 União Araguainense (serie_c_1994_fase1.htm)
+1994 | bola sem par no pacote: 1994-10-16 União Araguainense 2x1 Taguatinga (serie_c_1994_fase1.htm)
+1994 | bola sem par no pacote: 1994-11-09 # Nos pênaltis: Ituano 4x2 Esportivo # (serie_c_1994_fasefinal.htm)
+1994 | bola sem par no pacote: 1994-11-09 # Nos pênaltis: Vitória 6x7 Maruinense # (serie_c_1994_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-08-27 Gurupi 1x0 Intercap (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-07 Intercap 1x0 Kaburé (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-10 Intercap 1x0 Gurupi (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-17 Kaburé 0x0 Intercap (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-10 7 de Setembro 4x5 CSA (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-14 7 de Setembro 1x2 Porto (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-17 7 de Setembro 2x2 Vitória-PE (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-08-31 Imperatriz 1x1 Araguainense (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-03 Bacabal 1x1 Araguainense (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-13 Araguainense 2x0 Bacabal (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-17 Araguainense 0x0 Imperatriz (serie_c_1995_fase1-a.htm)
+1995 | bola sem par no pacote: 1995-09-24 Intercap-TO 4x0 Imperatriz-MA (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-01 Imperatriz-MA 1x1 Intercap-TO (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-01 (Nos pênaltis: Valeriodoce 3x4 Linhares) (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-01 (Nos pênaltis: América 3x4 Rio Branco) (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-01 (Nos pênaltis: Icasa 5x4 Vitória) (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-08 Intercap-TO 1x0 Vila Nova-GO (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-15 (Nos pênaltis: Guará 3x1 Marília) (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-15 (Nos pênaltis: Botafogo 4x5 Volta Redonda) (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-15 Vila Nova-GO 2x1 Intercap-TO (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-22 Intercap-TO 2x2 Atlético-GO (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-10-28 Atlético-GO 1x1 Intercap-TO (serie_c_1995_fasefinal.htm)
+1995 | bola sem par no pacote: 1995-11-12 (Nos pênaltis: XV de Piracicaba 4x2 Joinville) (serie_c_1995_fasefinal.htm)
+1996 | bola sem par no pacote: 1996-08-29 Corinthians/PP 5x3 Matsubara (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-09-05 Comercial-SP 2x0 Corinthians/PP (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-09-08 Botafogo-SP 5x0 Corinthians/PP (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-09-12 Corinthians/PP 2x1 União Bandeirante (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-09-15 União Bandeirante 2x1 Corinthians/PP (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-09-18 Corinthians/PP 1x2 Botafogo-SP (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-09-22 Corinthians/PP 1x0 Comercial-SP (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-09-29 Matsubara 2x3 Corinthians/PP (serie_c_1996_fase1.htm)
+1996 | bola sem par no pacote: 1996-10-06 Botafogo-DF 0x0 Mixto-MT (serie_c_1996_fasefinal.htm)
+1996 | bola sem par no pacote: 1996-10-13 Mixto-MT 3x2 Botafogo-DF (serie_c_1996_fasefinal.htm)
+1996 | bola sem par no pacote: 1996-10-13 (Nos pênaltis: Cascavel 2x3 Atlético Sorocaba) (serie_c_1996_fasefinal.htm)
+1996 | bola sem par no pacote: 1996-11-10 (Nos pênaltis: Figueirense 4x3 Francana) (serie_c_1996_fasefinal.htm)
+1997 | bola sem par no pacote: 1997-08-31 Roraima 0x0 Ji-Paraná (serie_c_1997_fase1.htm)
+1997 | bola sem par no pacote: 1997-09-02 Roraima 3x1 São Raimundo (serie_c_1997_fase1.htm)
+1997 | bola sem par no pacote: 1997-09-07 Roraima 1x0 Baré (serie_c_1997_fase1.htm)
+1997 | bola sem par no pacote: 1997-09-14 Baré 1x0 Roraima (serie_c_1997_fase1.htm)
+1997 | bola sem par no pacote: 1997-09-18 São Raimundo 3x2 Roraima (serie_c_1997_fase1.htm)
+1997 | bola sem par no pacote: 1997-09-21 Ji-Paraná 3x1 Roraima (serie_c_1997_fase1.htm)
+1997 | bola sem par no pacote: 1997-10-19 (Nos pênaltis: Ferroviário 3x1 Confiança) (serie_c_1997_fasefinal.htm)
+1997 | bola sem par no pacote: 1997-10-19 (Nos pênaltis: Uberlândia 5x4 União Bandeirante) (serie_c_1997_fasefinal.htm)
+1997 | bola sem par no pacote: 1997-10-19 (Nos pênaltis: Francana 3x2 Montes Claros) (serie_c_1997_fasefinal.htm)
+1998 | bola sem par no pacote: 1998-08-09 Etti Jundiaí 0x2 São Caetano (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-08-16 Rio Branco-SP 2x2 Etti Jundiaí (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-08-23 Francana 1x1 Etti Jundiaí (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-08-26 Etti Jundiaí 2x1 Matonense (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-09-06 Santo André 2x1 Etti Jundiaí (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-09-09 Etti Jundiaí 1x2 Santo André (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-09-09 Matonense 2x1 Etti Jundiaí (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-09-13 Etti Jundiaí 2x0 Francana (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-09-23 Etti Jundiaí 0x2 Rio Branco-SP (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-09-27 São Caetano 2x1 Etti Jundiaí (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-09-27 União Bandeirante 5x0 Figueirense (serie_c_1998_fase1-b.htm)
+1998 | bola sem par no pacote: 1998-10-11 # Nos pênaltis: São Francisco 3x5 São Raimundo # (serie_c_1998_fasefinal.htm)
+1998 | bola sem par no pacote: 1998-10-12 # Nos pênaltis: Potiguar 5x4 Viana # (serie_c_1998_fasefinal.htm)
+1998 | bola sem par no pacote: 1998-10-24 # Nos pênaltis: 15 de Novembro 3x4 Rio Branco-SP # (serie_c_1998_fasefinal.htm)
+1998 | bola sem par no pacote: 1998-11-08 # Nos pênaltis: São Raimundo 3x4 Itabaiana # (serie_c_1998_fasefinal.htm)
+1998 | bola sem par no pacote: 1998-11-08 # Nos pênaltis: Avaí 4x2 Brasil # (serie_c_1998_fasefinal.htm)
+1999 | bola sem par no pacote: 1999-09-22 pontos. Para efeito de classificação ficou Villa Nova 1x0 Anapolina. (serie_c_1999_fase1.htm)
+1999 | bola sem par no pacote: 1999-09-26 pontos. Para efeito de classificação ficou Volta Redonda 0x1 Caxias. (serie_c_1999_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-08 Cachoeiro 0x2 Independente (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-13 Estrela do Norte 1x3 Independente (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-23 Independente 2x0 Catuense (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-26 Independente 3x1 Colo-Colo (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-30 Juazeiro 2x0 Independente (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-07 Colo-Colo 1x1 Independente (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-10 Catuense 2x1 Independente (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-21 Independente 1x0 Estrela do Norte (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-24 Independente 3x0 Cachoeiro (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-28 Independente 1x2 Juazeiro (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-09 Santo André 1x2 Etti Jundiaí (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-12 Atlético Sorocaba 0x0 Etti Jundiaí (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-15 Etti Jundiaí 3x1 Madureira (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-19 Etti Jundiaí 4x0 América (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-23 Bangu 1x2 Etti Jundiaí (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-26 Olaria 1x1 Etti Jundiaí (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-06 Etti Jundiaí 1x2 Santo André (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-10 Etti Jundiaí 2x0 Atlético Sorocaba (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-13 Madureira 1x2 Etti Jundiaí (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-17 América 1x0 Etti Jundiaí (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-21 Etti Jundiaí 3x0 Bangu (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-24 Etti Jundiaí 2x1 Olaria (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-09 Atlético-TC 1x0 Uberlândia (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-12 Atlético-TC 1x0 Tupi (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-15 Uberaba 2x1 Atlético-TC (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-19 Villa Nova 5x0 Atlético-TC (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-26 Atlético-TC 1x1 Ipatinga (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-09-30 Atlético-TC 0x0 Mamoré (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-06 Uberlândia 3x0 Atlético-TC (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-10 Tupi 2x1 Atlético-TC (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-14 Atlético-TC 2x1 Uberaba (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-17 Atlético-TC 0x0 Villa Nova (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-24 Ipatinga 3x2 Atlético-TC (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-10-28 Mamoré 1x2 Atlético-TC (serie_c_2001_fase1.htm)
+2001 | bola sem par no pacote: 2001-11-04 Madureira 1x1 Independente (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-07 Etti Jundiaí 3x1 Madureira (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-07 Independente 1x2 Ipatinga (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-11 Juazeiro 0x5 Etti Jundiaí (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-15 Independente 1x3 Juazeiro (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-15 Ipatinga 0x2 Etti Jundiaí (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-17 Etti Jundiaí 3x1 Independente (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-24 Atlético 2x3 Etti Jundiaí (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-11-28 Etti Jundiaí 2x1 Mogi Mirim (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-12-02 Guarany 1x1 Etti Jundiaí (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-12-09 Etti Jundiaí 2x2 Guarany (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-12-12 Mogi Mirim 1x3 Etti Jundiaí (serie_c_2001_fasefinal.htm)
+2001 | bola sem par no pacote: 2001-12-15 ETTI JUNDIAÍ 2x0 ATLÉTICO (serie_c_2001_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-08-25 CFZ 3x0 Grêmio Inhumense (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-08-30 Grêmio Inhumense 1x2 Anápolis (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-01 Brasiliense 5x0 CFZ (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-08 Anápolis 2x1 CFZ (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-08 Brasiliense 4x0 Grêmio Inhumense (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-14 Grêmio Inhumense 2x4 Brasiliense (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-15 CFZ 1x0 Anápolis (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-22 CFZ 0x0 Brasiliense (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-23 Anápolis 1x0 Grêmio Inhumense (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-29 Grêmio Inhumense 2x3 CFZ (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-08-25 Ulbra 1x0 Tubarão (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-01 São Gabriel 0x1 Ulbra (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-04 Ulbra 2x0 Brasil (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-15 Brasil 1x0 Ulbra (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-22 Ulbra 1x0 São Gabriel (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-09-29 Tubarão 1x2 Ulbra (serie_c_2002_fase1.htm)
+2002 | bola sem par no pacote: 2002-10-04 União Bandeirante-PR 0x2 Ulbra-RS (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-09 # Nos pênaltis: Santa Inês-MA 3x4 Ríver-PI # (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-09 # Nos pênaltis: Confiança-SE 2x4 ABC-RN # (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-09 # Nos pênaltis: Brasiliense-DF 6x5 CENE-MS # (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-09 # Nos pênaltis: Olaria-RJ 4x2 Atlético-GO # (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-09 # Nos pênaltis: Atlético Sorocaba-SP 2x4 Marília-SP # (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-09 Ulbra-RS 2x3 União Bandeirante-PR (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-13 Ulbra-RS 1x0 Iraty-PR (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-19 # Nos pênaltis: Villa Nova-MG 6x5 Olaria-RJ # (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-20 Iraty-PR 0x0 Ulbra-RS (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-10-29 Ulbra-RS 2x2 Marília-SP (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2002-11-03 Marília-SP 4x1 Ulbra-RS (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2001-12-15 Nacional 1x0 Ipatinga (serie_c_2002_fasefinal.htm)
+2002 | bola sem par no pacote: 2001-12-15 BRASILIENSE 1x1 MARÍLIA (serie_c_2002_fasefinal.htm)
+2003 | bola sem par no pacote: 2003-09-21 Jaciara 0x0 Chapadão (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-28 Chapadão 0x0 Cuiabá (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 Cuiabá 1x0 Chapadão (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote:  Chapadão 2x0 Jaciara (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-21 Goiatuba 0x2 CFZ (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-28 CFZ 1x0 Atlético (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 Atlético 2x2 CFZ (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-24 Ituiutaba 1x0 Uberlândia (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-28 Francana 3x1 Ituiutaba (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 Ituiutaba 1x0 Francana (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-05 Uberlândia 2x2 Ituiutaba (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-24 Friburguense 2x0 Port Santista (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-27 Port Santista 0x4 Volta Redonda (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 Volta Redonda 0x1 Port Santista (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote:  Port Santista 0x1 Friburguense (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-20 Atl Sorocaba 1x0 Santo André (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-27 Rio Branco 0x3 Atl Sorocaba (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 Atl Sorocaba 0x1 Rio Branco (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote:  Santo André 0x1 Atl Sorocaba (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-20 U.Bandeirante 1x1 U.Barbarense (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-21 U.Barbarense 2x0 Iraty (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-24 Maringá 2x0 U.Bandeirante (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-24 U.Barbarense 0x0 Maringá (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-28 Iraty 0x1 U.Bandeirante (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-28 Maringá 2x3 U.Barbarense (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 U.Bandeirante 2x1 Iraty (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 Iraty 1x2 U.Barbarense (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-04 U.Bandeirante 2x1 Maringá (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote:  U.Barbarense 0x0 U.Bandeirante (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-24 Caxias 1x1 ULBRA (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-28 ULBRA 1x1 Marcílio Dias (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-01 Marcílio Dias 0x0 ULBRA (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-05 ULBRA 2x2 Caxias (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-21 Brasil 3x4 RS Futebol (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-25 RS Futebol 1x0 São José (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-25 Pelotas 1x0 RS Futebol (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-09-28 RS Futebol 4x0 Pelotas (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-02 São José 0x3 RS Futebol (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-05 RS Futebol 2x2 Brasil (serie_c_2003_fase1.htm)
+2003 | bola sem par no pacote: 2003-10-11 Atlético-GO 2x1 Ituiutaba-MG (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-12 Chapadão-MS 1x0 Tocantinópolis-TO (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-12 Uberlândia-MG 0x3 CFZ-DF (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-12 Ulbra-RS 0x1 RS Futebol-RS (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-15 * Nos pênaltis: Juazeiro-BA 2x4 CENE-MS (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-15 * Nos pênaltis: Cuiabá-MT 2x4 Palmas-TO (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-15 Tocantinópolis-TO 3x2 Chapadão-MS (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-15 CFZ-DF 3x0 Uberlândia-MG (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-15 Ituiutaba-MG 2x1 Atlético-GO (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-15 RS Futebol-RS 2x1 Ulbra-RS (serie_c_2003_fase2.htm)
+2003 | bola sem par no pacote: 2003-10-22 Palmas-TO 0x0 Chapadão-MS (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-10-22 CFZ-DF 1x1 Ituiutaba-MG (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-10-22 RS Futebol-RS 1x0 Pelotas-RS (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-10-26 Chapadão-MS 2x2 Palmas-TO (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-10-26 Ituiutaba-MG 0x2 CFZ-DF (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-10-26 Pelotas-RS 0x0 RS Futebol-RS (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-10-29 * Nos pênaltis: Confiança-SE 9x8 CENE-MS (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-11-01 Ituano-SP 3x1 RS Futebol-RS (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-11-02 Palmas-TO 1x0 CFZ-DF (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-11-05 CFZ-DF 0x1 Palmas-TO (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-11-05 * Nos pênaltis: Santo André-SP 4x2 Cabofriense-RJ (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-11-05 RS Futebol-RS 3x1 Ituano-SP (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-11-05 * Nos pênaltis: RS Futebol-RS 3x4 Ituano-SP (serie_c_2003_fase3e4.htm)
+2003 | bola sem par no pacote: 2003-11-09 RS Futebol-RS 2x1 Ituano-SP (serie_c_2003_fasefinal.htm)
+2003 | bola sem par no pacote: 2003-11-12 Ituano-SP 3x1 RS Futebol-RS (serie_c_2003_fasefinal.htm)
+2004 | bola sem par no pacote: 2004-08-08 Rio Branco 0x1 G.Coariense (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 G.Coariense 1x1 Nacional (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-29 G.Coariense 2x1 Rio Branco (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 Nacional 2x2 G.Coariense (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 CFZ 2x0 Gurupi (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 Gama 1x1 CFZ (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 CFZ 2x3 Palmas (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-29 Palmas 0x0 CFZ (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-29 CFZ 2x2 Gama (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote:  Gurupi 1x0 CFZ (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 Ferroviário 2x0 Parnahyba (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 Parnahyba 1x0 Ríver (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 Parnahyba 2x2 Limoeiro (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 Limoeiro 2x1 Parnahyba (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 Ríver 1x1 Parnahyba (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote:  Parnahyba 1x0 Ferroviário (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-01 Chapadão 0x1 CRAC (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 CENE 2x0 Chapadão (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 Jataiense 0x1 Chapadão (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-29 Chapadão 1x1 Jataiense (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 Chapadão 2x2 CENE (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 CRAC 2x0 Chapadão (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 Atl Sorocaba 2x1 América (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 Port Santista 0x1 Atl Sorocaba (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 Atl Sorocaba 3x1 Portuguesa (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 América 0x1 Port Santista (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 Port Santista 1x0 América (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-28 Portuguesa 0x0 Atl Sorocaba (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 Atl Sorocaba 3x2 Port Santista (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 América 0x1 Atl Sorocaba (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 América 0x1 U.Barbarense (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 U.Barbarense 0x0 Rio Branco (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-21 U.Barbarense 0x0 União S João (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-29 União S João 0x1 U.Barbarense (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 Rio Branco 2x3 U.Barbarense (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote:  U.Barbarense 2x1 América (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 Nacional 2x1 Atlético (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-15 Atlético 1x1 Iraty (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 Atlético 0x0 Cianorte (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 Cianorte 0x0 Atlético (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 Iraty 0x0 Atlético (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote:  Atlético 4x0 Nacional (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-01 Novo Hamburgo 1x0 Ulbra (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-08 Ulbra 1x0 Esportivo (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 Lages 1x2 Ulbra (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-22 Ulbra 1x0 Lages (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-08-29 Esportivo 2x2 Ulbra (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-04 Ulbra 2x1 Novo Hamburgo (serie_c_2004_fase1.htm)
+2004 | bola sem par no pacote: 2004-09-12 Parnahyba-PI 1x1 S Corrêa-MA (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-09-12 Atlético-SC 2x1 Ulbra-RS (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-09-19 S.Corrêa-MA 0x0 Parnahyba-PI (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-09-19 Ulbra-RS 2x2 Atlético-SC (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-09-26 Iraty-PR 1x0 Atlético-SC (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-10-02 Nos pênaltis: Treze 3x2 Porto (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-10-02 Nos pênaltis: Confiança 3x5 Villa Nova (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-10-02 Atlético-SC 2x1 Iraty-PR (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-10-17 Nos pênaltis: Treze 5x6 Limoeiro (serie_c_2004_fase2.htm)
+2004 | bola sem par no pacote: 2004-10-30 Americano 0x1 U Barbarense (serie_c_2004_fasefinal.htm)
+2004 | bola sem par no pacote: 2004-11-03 U Barbarense 3x2 Limoeiro (serie_c_2004_fasefinal.htm)
+2004 | bola sem par no pacote: 2004-11-07 U Barbarense 2x1 Gama (serie_c_2004_fasefinal.htm)
+2004 | bola sem par no pacote: 2004-11-14 Gama 1x4 U Barbarense (serie_c_2004_fasefinal.htm)
+2004 | bola sem par no pacote: 2004-11-21 Limoeiro 2x0 U Barbarense (serie_c_2004_fasefinal.htm)
+2005 | bola sem par no pacote: 2005-07-31 Moto Club 3x1 Parnahyba (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-07 Parnahyba 1x2 Tocantinópolis (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-14 Imperatriz 2x1 Parnahyba (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-21 Parnahyba 4x2 Imperatriz (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-28 Tocantinópolis 4x1 Parnahyba (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-09-03 Parnahyba 1x1 Moto Club (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-06 Grêmio Inhumense 3x1 Ceilândia (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-14 Mineiros 0x0 Grêmio Inhumense (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-14 Grêmio Inhumense 1x2 Paranoá (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-28 Paranoá 2x1 Grêmio Inhumense (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-28 Grêmio Inhumense 2x2 Mineiros (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote:  Ceilândia 5x1 Grêmio Inhumense (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-07 Ituiutaba 1x0 América-SP (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-07 Rio Branco 1x0 Ituiutaba (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-20 Ituiutaba 4x2 União São João (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-21 União São João 4x0 Ituiutaba (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-09-03 Ituiutaba 2x2 Rio Branco (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote:  América-SP 1x1 Ituiutaba (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-07-31 ADAP 2x1 Joinville (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-14 Iraty 0x1 ADAP (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-14 Novo Hamburgo 4x0 ADAP (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-28 ADAP 0x1 Novo Hamburgo (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-09-03 ADAP 2x1 Iraty (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-09-03 Joinville 1x0 ADAP (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-07 Gaúcho 2x0 Atlético-SC (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-14 Atlético-SC 1x0 Marcílio Dias (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-21 Atlético-SC 3x0 Glória (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-08-21 Glória 1x1 Atlético-SC (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-09-03 Marcílio Dias 0x0 Atlético-SC (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote:  Atlético-SC 0x1 Gaúcho (serie_c_2005_fase1.htm)
+2005 | bola sem par no pacote: 2005-09-10 Serra 4x3 Atl Sorocaba (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-09-11 Ituiutaba 1x3 Villa Nova (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-09-18 * Nos pênaltis: Moto Clube 4x5 Abaeté (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-09-18 * Nos pênaltis: Ipatinga 4x2 Mogi Mirim (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-09-18 Atl Sorocaba 2x1 Serra (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-09-18 * Nos pênaltis: Londrina 4x3 Paranoá (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-09-18 Villa Nova 3x0 Ituiutaba (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-09-25 Ipatinga 2x0 Atl Sorocaba (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-10-02 * Nos pênaltis: Treze 5x4 ABC (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-10-02 Atl Sorocaba 1x4 Ipatinga (serie_c_2005_fase2.htm)
+2005 | bola sem par no pacote: 2005-10-02 * Nos pênaltis: Joinville 3x4 Novo Hamburgo (serie_c_2005_fase2.htm)
+2006 | bola sem par no pacote: 2006-07-16 Chapadão 0x1 Atlético-GO (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-19 Ituiutaba 3x1 Ceilândia (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-19 Atlético-GO 0x2 Ituiutaba (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-23 Ituiutaba 1x0 Chapadão (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-02 Chapadão 0x2 Ituiutaba (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-02 Ituiutaba 0x0 Atlético-GO (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-06 Chapadão 1x0 Ceilândia (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-06 Atlético-GO 1x1 Chapadão (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote:  Ceilândia 1x0 Ituiutaba (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-19 Cabofriense 2x0 U.Barbarense (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-23 U.Barbarense 0x6 Rio Branco-SP (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-29 U.Barbarense 1x0 Madureira (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-02 Madureira 4x1 U.Barbarense (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-06 Rio Branco-SP 3x1 U.Barbarense (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote:  U.Barbarense 2x0 Cabofriense (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-19 América-SP 0x1 ADAP (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-23 ADAP 1x1 J.Malucelli (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-30 ADAP 0x0 Noroeste (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-30 Noroeste 0x0 ADAP (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-06 J.Malucelli 3x1 ADAP (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote:  ADAP 1x1 América-SP (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-16 Ulbra-RS 0x0 Joinville (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-19 Caxias 1x1 Ulbra-RS (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-07-23 Ulbra-RS 1x1 Rio Branco-PR (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-02 Rio Branco-PR 1x2 Ulbra-RS (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-02 Ulbra-RS 2x1 Caxias (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote:  Joinville 1x1 Ulbra-RS (serie_c_2006_fase1-b.htm)
+2006 | bola sem par no pacote: 2006-08-13 Grêmio Barueri 4x0 Ituiutaba (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-17 Ituiutaba 4x1 Anapolina (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-20 Americano 3x1 Ituiutaba (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-27 Ituiutaba 2x0 Americano (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-30 Anapolina 0x0 Ituiutaba (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-09-03 Ituiutaba 1x2 Grêmio Barueri (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-16 Ulbra-RS 2x3 J.Malucelli (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-19 Brasil 3x0 Ulbra-RS (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-20 Rio Branco-SP 0x0 Ulbra-RS (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-08-30 Ulbra-RS 1x0 Rio Branco-SP (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-09-03 Ulbra-RS 0x0 Brasil (serie_c_2006_fase2.htm)
+2006 | bola sem par no pacote: 2006-09-03 J.Malucelli 1x1 Ulbra-RS (serie_c_2006_fase2.htm)
+2007 | bola sem par no pacote: 2007-07-07 Itumbiara 2x0 Esportivo-DF (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-14 Esportivo-DF 1x2 Grêmio Jaciara (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-18 Esportivo-DF 1x2 Vila Nova (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-22 Vila Nova 4x0 Esportivo-DF (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-29 Grêmio Jaciara 6x0 Esportivo-DF (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-08-04 Esportivo-DF 1x2 Itumbiara (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-07 Ulbra 1x1 Paranavaí (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-14 Chapecoense 0x2 Ulbra (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-18 Roma 3x1 Ulbra (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-22 Ulbra 0x0 Roma (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-29 Ulbra 4x0 Chapecoense (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-08-05 Paranavaí 1x1 Ulbra (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-07 Esportivo 0x1 ADAP Galo (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-14 ADAP Galo 1x2 Joinville (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-18 ADAP Galo 0x0 Caxias (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-22 Caxias 2x2 ADAP Galo (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-07-29 Joinville 3x2 ADAP Galo (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-08-05 ADAP Galo 4x1 Esportivo-RS (serie_c_2007_fase1-b.htm)
+2007 | bola sem par no pacote: 2007-08-12 Ulbra 5x0 Villa Nova (serie_c_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-08-15 Joinville 4x0 Ulbra (serie_c_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-08-19 Águia Negra 0x1 Ulbra (serie_c_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-08-26 Ulbra 1x1 Águia Negra (serie_c_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-08-29 Ulbra 2x1 Joinville (serie_c_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-09-02 Villa Nova 0x0 Ulbra (serie_c_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-09-08 América-RJ 2x3 Ulbra (serie_c_2007_fase3.htm)
+2007 | bola sem par no pacote: 2007-09-16 Ulbra 1x0 Bragantino (serie_c_2007_fase3.htm)
+2007 | bola sem par no pacote: 2007-09-19 Ulbra 0x1 CRAC (serie_c_2007_fase3.htm)
+2007 | bola sem par no pacote: 2007-09-23 CRAC 3x2 Ulbra (serie_c_2007_fase3.htm)
+2007 | bola sem par no pacote: 2007-09-30 Bragantino 2x0 Ulbra (serie_c_2007_fase3.htm)
+2007 | bola sem par no pacote: 2007-10-07 Ulbra 2x2 América-RJ (serie_c_2007_fase3.htm)
+2008 | bola sem par no pacote:  23.393 - Remo-PA 1x1 Luverdense-MT - Mangueirão (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  23.039 - Santa Cruz-PE 3x0 Central-PE - Arruda (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  21.191 - Remo-PA 0x1 Holanda-AM - Mangueirão (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  20.469 - Santa Cruz-PE 2x0 Potiguar-RN - Arruda (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  20.448 - Santa Cruz-PE 2x2 Salgueiro-PE - Arruda (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  19.416 - Santa Cruz-PE 0x1 Icasa-CE - Arruda (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  19.121 - Santa Cruz-PE 1x1 Campinense-PB - Arruda (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  25 - Santa Cruz-RN 1x0 Treze-PB - Iberezão (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  26 - Ituano-SP 1x1 Noroeste-SP - Dr Novelli Júnior (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  29 - Linhares-ES 0x1 Guaratinguetá-SP - Conilon (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote:  29 - Linhares-ES 2x2 Macaé-RJ - Conilon (serie_c_2008_almanaque.htm)
+2008 | bola sem par no pacote: 2008-07-06 Sergipe 2x2 Vit Conquista (serie_c_2008_fase1a.htm)
+2008 | bola sem par no pacote: 2008-07-09 Vit Conquista 2x1 Itabuna (serie_c_2008_fase1a.htm)
+2008 | bola sem par no pacote: 2008-07-13 Vit Conquista 2x0 CSA (serie_c_2008_fase1a.htm)
+2008 | bola sem par no pacote: 2008-07-20 CSA 1x3 Vit Conquista (serie_c_2008_fase1a.htm)
+2008 | bola sem par no pacote: 2008-07-23 Itabuna 2x0 Vit Conquista (serie_c_2008_fase1a.htm)
+2008 | bola sem par no pacote: 2008-07-27 Vit Conquista 3x1 Sergipe (serie_c_2008_fase1a.htm)
+2008 | bola sem par no pacote: 2008-07-06 Ituiutaba 2x1 Mirassol (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-09 Tupi 1x1 Ituiutaba (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-13 Noroeste 1x1 Ituiutaba (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-20 Ituiutaba 4x1 Noroeste (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-23 Ituiutaba 1x0 Tupi (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-27 Mirassol 0x2 Ituiutaba (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-06 Eng Beltrão 1x0 Internacional/SM (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-09 Toledo 2x0 Eng Beltrão (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-13 Eng Beltrão 0x1 Marcílio Dias (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-20 Marcílio Dias 2x0 Eng Beltrão (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-07-23 Eng Beltrão 2x1 Toledo (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-08-17 Internacional/SM 3x0 Eng Beltrão (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-08-17 27/07 terminaram: Toledo 0x0 Marcílio Dias e Inter 3x2 Eng Beltrão (serie_c_2008_fase1b.htm)
+2008 | bola sem par no pacote: 2008-08-02 Confiança 3x3 Vit Conquista (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-17 Vit Conquista 2x3 Itabuna (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-24 Vit Conquista 3x0 ASA (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-27 ASA 3x0 Vit Conquista (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-31 Itabuna 2x1 Vit Conquista (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-09-06 Vit Conquista 2x0 Confiança (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-03 Guarani 0x2 Ituiutaba (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-06 Ituiutaba 0x0 Noroeste (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-10 Ituano 1x3 Ituiutaba (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-17 Ituiutaba 2x1 Ituano (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-08-31 Noroeste 0x0 Ituiutaba (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-09-06 Ituiutaba 1x0 Guarani (serie_c_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-09-11 Brasil 4x2 Ituiutaba (serie_c_2008_fase3.htm)
+2008 | bola sem par no pacote: 2008-09-14 Ituiutaba 1x2 Guarani (serie_c_2008_fase3.htm)
+2008 | bola sem par no pacote: 2008-09-17 Marcílio Dias 2x0 Ituiutaba (serie_c_2008_fase3.htm)
+2008 | bola sem par no pacote: 2008-09-21 Ituiutaba 1x0 Marcílio Dias (serie_c_2008_fase3.htm)
+2008 | bola sem par no pacote: 2008-09-24 Guarani 2x0 Ituiutaba (serie_c_2008_fase3.htm)
+2008 | bola sem par no pacote: 2008-09-28 Ituiutaba 3x2 Brasil (serie_c_2008_fase3.htm)
+2009 | bola sem par no pacote: 2009-05-24 Ituiutaba 3x0 Guaratinguetá (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-05-31 Gama 1x1 Ituiutaba (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-06-14 Mixto 2x0 Ituiutaba (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-06-20 Ituiutaba 0x0 América-MG (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-07-05 América-MG 2x1 Ituiutaba (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-07-12 Ituiutaba 5x0 Mixto (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-07-26 Ituiutaba 2x1 Gama (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-08-02 Guaratinguetá 2x1 Ituiutaba (serie_c_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-08-30 Nos pênaltis: América 7x6 Guaratinguetá (serie_c_2009_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-07-18 Luverdense 2x1 Ituiutaba (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-07-25 Ituiutaba 2x0 Marília (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-08-01 Gama 0x0 Ituiutaba (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-08-15 Ituiutaba 1x0 Macaé (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-08-29 Ituiutaba 0x0 Gama (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-09-04 Macaé 0x0 Ituiutaba (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-09-12 Marília 1x2 Ituiutaba (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-09-19 Ituiutaba 3x1 Luverdense (serie_c_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-10-09 Chapecoense 1x1 Ituiutaba (serie_c_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-10-16 Ituiutaba 0x0 Chapecoense (serie_c_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-10-30 Criciúma 1x1 Ituiutaba (serie_c_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-11-07 Ituiutaba 1x1 Criciúma (serie_c_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-11-07 # Nos pênaltis: Ituiutaba 4x2 Criciúma # (serie_c_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-11-13 ITUIUTABA 0x1 ABC (serie_c_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-11-20 ABC 0x0 ITUIUTABA (serie_c_2010_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-09-24 CRB 0x0 Rio Branco (serie_c_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-10-02 Rio Branco 1x2 Paysandu (serie_c_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-10-08 América 3x0 Rio Branco (serie_c_2011_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-06-01 CRAC 0x0 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-06-08 Betim 0x1 Caxias (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-07-06 Grêmio Barueri 1x1 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-07-14 Betim 3x0 Macaé (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-07-20 Duque de Caxias 3x2 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-07-28 Vila Nova 0x0 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-08-03 Betim 0x1 Guarani (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-08-07 Betim 1x0 Madureira (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-08-10 Mogi Mirim 2x0 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-08-18 Betim 3x2 CRAC (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-08-24 Caxias 1x2 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-08-31 Betim 3x3 Grêmio Barueri (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-09-08 Macaé 0x0 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-09-25 Betim 0x0 Vila Nova (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-09-29 Guarani 1x2 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-10-02 Betim 1x0 Duque de Caxias (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-10-05 Madureira 1x1 Betim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-10-13 Betim 2x1 Mogi Mirim (serie_c_2013_fase1_gb.htm)
+2013 | bola sem par no pacote: 2013-10-27 Betim 0x1 Santa Cruz (serie_c_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-11-03 Santa Cruz 2x1 Betim (serie_c_2013_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-10-31 # Nos pênaltis: LONDRINA 5x3 TUPI # (serie_c_2015_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-11-02 # Nos pênaltis: VILA NOVA 4x3 BRASIL # (serie_c_2015_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-06-11 ABC 2x0 Salgueiro (serie_c_2016_fase1-a.htm)
+2017 | bola sem par no pacote: 2017-10-07 # Nos pênaltis: CSA 4x2 SÃO BENTO # (serie_c_2017_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-08-26 # Nos pênaltis: BOTAFOGO-SP 4x3 BOTAFOGO-PB # (serie_c_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-09-09 # Nos pênaltis: OPERÁRIO 4x2 BRAGANTINO # (serie_c_2018_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-09-08 # Nos pênaltis: NÁUTICO 5x3 PAYSANDU # (serie_c_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-09-08 # Nos pênaltis: NÁUTICO 4x3 JUVENTUDE # (serie_c_2019_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-09-25 Criciúma 2x2 Brusque (serie_c_2020_fase1.htm)
+2020 | bola sem par no pacote:  São José 1x0 São Bento (serie_c_2020_fasefinal.htm)
+2021 | bola sem par no pacote:  Floresta 2x0 Jacuipense (serie_c_2021_fasefinal.htm)
+2022 | bola sem par no pacote:  Ypiranga 0x2 Aparecidense (serie_c_2022_fasefinal.htm)
+2023 | bola sem par no pacote:  Volta Redonda 0x1 Pouso Alegre (serie_c_2023_fasefinal.htm)

@@ -261,3 +261,20 @@ UY-022, AR-035, ES-012), nomes SP-028 e RV-005.
 
 Novidades no painel: sub-aba **Duelo** em Por campeonato (dois clubes, pontos de cada um contra cada adversário);
 Colombiano, Alemão e Paraguaio no seletor.
+
+## AVISO URGENTE da revisão (22/11/2026): não publicar o `par-1` local
+
+O `painel/dados/par-1.js` local, gerado com a reimportação de 22/11 (0b793ba), piora o que está no site. Os vices de 1999 a 2003
+e do Clausura 2020, que estão certos no ar, ficam errados nele (PY-002 e PY-022). Publique o Paraguaio só depois que a coleta da
+América do Sul corrigir o pacote e o banco for recarregado. Os detalhes estão em `docs/revisao/par-1.md`; o plano completo vem em
+`docs/revisao/plano-banco-painel.md`.
+
+## Revisão profunda (22/11/2026)
+
+- **65 ids abertos** para o agente 1; **nenhum alto**; nenhum alto do agente 1 no ar (os 52 altos no ar são das coletas).
+- Competições: Série B 14, Série A 13, Paraguaio 5, Uruguaio, Espanhol e Inglês 4 cada, Italiano 3, e 1 ou 2 em
+  Série D, Copa, Paulista, A2, Argentino, Alemão, Colombiano, Equatoriano, Peruano e Chileno.
+- Continua valendo: não publicar o `par-1` local antes da coleta corrigir (PY-022).
+- Plano pronto, em ordem e por arquivo do código: `docs/revisao/plano-banco-painel.md`. Começar só quando o Guilherme
+  mandar.
+- Decisões que esperam o Guilherme: `docs/revisao/decisoes-guilherme.md`. Fontes: `docs/revisao/fontes.md`.

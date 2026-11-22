@@ -1,0 +1,117 @@
+temporada,rodada,mandante,visitante,data_pacote,data_transfermarkt,data_rsssf,veredito,provas
+1963/64,18,Stuttgart,Werder Bremen,1964-01-25,1964-03-30,1964-03-30,corrigir (transfermarkt + RSSSF),transfermarkt 1964-03-30; RSSSF 1964-03-30
+1963/64,18,Eintracht Braunschweig,Saarbrücken,1964-01-25,1964-03-26,1964-03-26,corrigir (transfermarkt + RSSSF),transfermarkt 1964-03-26; RSSSF 1964-03-26
+1963/64,17,Saarbrücken,Hamburgo,1964-02-08,1964-02-18,1964-02-08,manter (RSSSF = pacote),transfermarkt 1964-02-18; RSSSF 1964-02-08
+1963/64,17,Eintracht Frankfurt,Duisburg,1964-02-08,1964-02-18,1964-02-08,manter (RSSSF = pacote),transfermarkt 1964-02-18; RSSSF 1964-02-08
+1964/65,11,Borussia Neunkirchen,Karlsruhe,1965-01-11,1964-11-14,1964-11-14,corrigir (transfermarkt + RSSSF),transfermarkt 1964-11-14; RSSSF 1964-11-14
+1964/65,23,Stuttgart,Duisburg,1965-03-12,1965-03-06,1965-03-06,corrigir (transfermarkt + RSSSF),transfermarkt 1965-03-06; RSSSF 1965-03-06
+1964/65,25,Borussia Neunkirchen,Schalke 04,1965-04-02,1965-03-27,1965-03-27,corrigir (transfermarkt + RSSSF),transfermarkt 1965-03-27; RSSSF 1965-03-27; data do pacote colide: Karlsruhe x Borussia Neunkirchen 1965-04-03
+1964/65,3,Borussia Dortmund,Stuttgart,1964-09-11,1964-09-05,1964-09-05,corrigir (transfermarkt + RSSSF),transfermarkt 1964-09-05; RSSSF 1964-09-05; data do pacote colide: Hertha Berlin x Borussia Dortmund 1964-09-12
+1964/65,11,Borussia Dortmund,Duisburg,1964-11-19,1964-11-14,,dúvida,transfermarkt 1964-11-14
+1964/65,30,Duisburg,1860 Munique,1965-05-15,1965-05-14,1965-05-15,manter (RSSSF = pacote),transfermarkt 1965-05-14; RSSSF 1965-05-15
+1965/66,18,Schalke 04,Stuttgart,1966-01-14,1966-01-08,1966-01-08,corrigir (transfermarkt + RSSSF),transfermarkt 1966-01-08; RSSSF 1966-01-08; data do pacote colide: Karlsruhe x Schalke 04 1966-01-15
+1965/66,17,Kaiserslautern,Stuttgart,1965-12-24,1965-12-18,1965-12-18,corrigir (transfermarkt + RSSSF),transfermarkt 1965-12-18; RSSSF 1965-12-18
+1965/66,14,Kaiserslautern,Nuremberg,1965-12-03,1965-11-27,1965-11-27,corrigir (transfermarkt + RSSSF),transfermarkt 1965-11-27; RSSSF 1965-11-27; data do pacote colide: Hannover 96 x Kaiserslautern 1965-12-04
+1965/66,3,Eintracht Frankfurt,Nuremberg,1965-09-03,1965-08-28,1965-08-28,corrigir (transfermarkt + RSSSF),transfermarkt 1965-08-28; RSSSF 1965-08-28; data do pacote colide: Hannover 96 x Eintracht Frankfurt 1965-09-04
+1965/66,25,Eintracht Frankfurt,Colônia,1966-03-18,1966-03-12,1966-03-12,corrigir (transfermarkt + RSSSF),transfermarkt 1966-03-12; RSSSF 1966-03-12; data do pacote colide: Werder Bremen x Eintracht Frankfurt 1966-03-19
+1965/66,11,Borussia Neunkirchen,Werder Bremen,1965-11-05,1965-10-30,1965-10-30,corrigir (transfermarkt + RSSSF),transfermarkt 1965-10-30; RSSSF 1965-10-30; data do pacote colide: 1860 Munique x Borussia Neunkirchen 1965-11-06
+1965/66,18,Bayern de Munique,1860 Munique,1966-01-14,1966-01-08,1966-01-08,corrigir (transfermarkt + RSSSF),transfermarkt 1966-01-08; RSSSF 1966-01-08; data do pacote colide: Eintracht Frankfurt x Bayern de Munique 1966-01-15
+1965/66,5,1860 Munique,Stuttgart,1965-09-17,1965-09-11,1965-09-11,corrigir (transfermarkt + RSSSF),transfermarkt 1965-09-11; RSSSF 1965-09-11; data do pacote colide: Duisburg x 1860 Munique 1965-09-18
+1966/67,11,Borussia Dortmund,Stuttgart,1966-11-29,1966-10-29,1966-10-29,corrigir (transfermarkt + RSSSF),transfermarkt 1966-10-29; RSSSF 1966-10-29
+1966/67,23,Duisburg,Eintracht Braunschweig,1967-02-25,1967-02-24,1967-02-24,corrigir (transfermarkt + RSSSF),transfermarkt 1967-02-24; RSSSF 1967-02-24
+1966/67,31,Borussia Mönchengladbach,Colônia,1967-05-13,1967-05-12,1967-05-12,corrigir (transfermarkt + RSSSF),transfermarkt 1967-05-12; RSSSF 1967-05-12
+1968/69,30,Hertha Berlin,Kaiserslautern,1969-04-26,1969-04-12,1969-04-12,corrigir (transfermarkt + RSSSF),transfermarkt 1969-04-12; RSSSF 1969-04-12
+1968/69,30,Eintracht Braunschweig,Kickers Offenbach,1969-04-12,1969-04-26,1969-04-26,corrigir (transfermarkt + RSSSF),transfermarkt 1969-04-26; RSSSF 1969-04-26
+1968/69,27,Kickers Offenbach,Hertha Berlin,1969-03-22,1969-03-21,1969-03-21,corrigir (transfermarkt + RSSSF),transfermarkt 1969-03-21; RSSSF 1969-03-21
+1968/69,4,Hertha Berlin,Stuttgart,1968-09-04,1968-09-03,1968-09-03,corrigir (transfermarkt + RSSSF),transfermarkt 1968-09-03; RSSSF 1968-09-03
+1968/69,18,Hertha Berlin,Eintracht Frankfurt,1969-03-12,1969-03-11,1969-03-11,corrigir (transfermarkt + RSSSF),transfermarkt 1969-03-11; RSSSF 1969-03-11
+1968/69,32,Eintracht Braunschweig,Hannover 96,1969-05-23,1969-05-24,1969-05-23,manter (RSSSF = pacote),transfermarkt 1969-05-24; RSSSF 1969-05-23
+1968/69,32,Duisburg,Kaiserslautern,1969-05-24,1969-05-23,1969-05-23,corrigir (transfermarkt + RSSSF),transfermarkt 1969-05-23; RSSSF 1969-05-23
+1968/69,3,Duisburg,Eintracht Frankfurt,1968-08-31,1968-08-30,1968-08-30,corrigir (transfermarkt + RSSSF),transfermarkt 1968-08-30; RSSSF 1968-08-30
+1968/69,27,Borussia Mönchengladbach,Schalke 04,1969-03-21,1969-03-22,1969-03-22,corrigir (transfermarkt + RSSSF),transfermarkt 1969-03-22; RSSSF 1969-03-22
+1969/70,9,Rot-Weiß Oberhausen,Hertha Berlin,1969-10-15,1969-10-18,1969-10-18,corrigir (transfermarkt + RSSSF),transfermarkt 1969-10-18; RSSSF 1969-10-18
+1969/70,9,Bayern de Munique,1860 Munique,1969-10-18,1969-10-15,1969-10-15,corrigir (transfermarkt + RSSSF),transfermarkt 1969-10-15; RSSSF 1969-10-15
+1969/70,18,Werder Bremen,Stuttgart,1970-03-10,1970-03-11,1970-03-11,corrigir (transfermarkt + RSSSF),transfermarkt 1970-03-11; RSSSF 1970-03-11
+1969/70,19,Stuttgart,Duisburg,1970-03-18,1970-03-17,1970-03-17,corrigir (transfermarkt + RSSSF),transfermarkt 1970-03-17; RSSSF 1970-03-17
+1969/70,18,Rot-Weiss Essen,Bayern de Munique,1970-03-10,1970-03-11,1970-03-11,corrigir (transfermarkt + RSSSF),transfermarkt 1970-03-11; RSSSF 1970-03-11
+1969/70,19,Hamburgo,Borussia Dortmund,1970-03-18,1970-03-17,1970-03-17,corrigir (transfermarkt + RSSSF),transfermarkt 1970-03-17; RSSSF 1970-03-17
+1969/70,18,Eintracht Frankfurt,Rot-Weiß Oberhausen,1970-03-18,1970-03-19,1970-03-19,corrigir (transfermarkt + RSSSF),transfermarkt 1970-03-19; RSSSF 1970-03-19
+1969/70,18,Eintracht Braunschweig,Colônia,1970-03-10,1970-03-11,1970-03-11,corrigir (transfermarkt + RSSSF),transfermarkt 1970-03-11; RSSSF 1970-03-11
+1969/70,18,Duisburg,Hertha Berlin,1970-03-10,1970-03-11,1970-03-11,corrigir (transfermarkt + RSSSF),transfermarkt 1970-03-11; RSSSF 1970-03-11
+1969/70,19,Colônia,Werder Bremen,1970-03-18,1970-03-17,,dúvida,transfermarkt 1970-03-17
+1969/70,28,1860 Munique,Eintracht Frankfurt,1970-04-21,1970-04-22,1970-04-22,corrigir (transfermarkt + RSSSF),transfermarkt 1970-04-22; RSSSF 1970-04-22
+1970/71,21,Rot-Weiss Essen,Bayern de Munique,1971-03-13,1971-02-13,1971-02-13,corrigir (transfermarkt + RSSSF),transfermarkt 1971-02-13; RSSSF 1971-02-13; data do pacote colide: Bayern de Munique x Hamburgo 1971-03-13
+1970/71,18,Rot-Weiß Oberhausen,Duisburg,1971-01-23,1971-01-22,1971-01-22,corrigir (transfermarkt + RSSSF),transfermarkt 1971-01-22; RSSSF 1971-01-22
+1970/71,12,Rot-Weiß Oberhausen,Bayern de Munique,1970-10-24,1970-10-23,1970-10-23,corrigir (transfermarkt + RSSSF),transfermarkt 1970-10-23; RSSSF 1970-10-23
+1970/71,25,Rot-Weiss Essen,Werder Bremen,1971-03-20,1971-03-19,1971-03-19,corrigir (transfermarkt + RSSSF),transfermarkt 1971-03-19; RSSSF 1971-03-19
+1970/71,3,Rot-Weiss Essen,Kaiserslautern,1970-08-28,1970-08-29,1970-08-29,corrigir (transfermarkt + RSSSF),transfermarkt 1970-08-29; RSSSF 1970-08-29
+1970/71,4,Kickers Offenbach,Eintracht Braunschweig,1970-09-05,1970-09-04,1970-09-04,corrigir (transfermarkt + RSSSF),transfermarkt 1970-09-04; RSSSF 1970-09-04
+1970/71,4,Kaiserslautern,Eintracht Frankfurt,1970-09-05,1970-09-04,1970-09-04,corrigir (transfermarkt + RSSSF),transfermarkt 1970-09-04; RSSSF 1970-09-04
+1970/71,15,Borussia Mönchengladbach,Borussia Dortmund,1970-11-14,1970-11-13,1970-11-13,corrigir (transfermarkt + RSSSF),transfermarkt 1970-11-13; RSSSF 1970-11-13
+1970/71,16,Borussia Dortmund,Hamburgo,1970-11-28,1970-11-27,1970-11-27,corrigir (transfermarkt + RSSSF),transfermarkt 1970-11-27; RSSSF 1970-11-27
+1970/71,22,Bayern de Munique,Eintracht Frankfurt,1971-05-19,1971-05-18,1971-05-18,corrigir (transfermarkt + RSSSF),transfermarkt 1971-05-18; RSSSF 1971-05-18
+1971/72,17,Rot-Weiß Oberhausen,Kaiserslautern,1971-12-11,1971-12-10,1971-12-10,corrigir (transfermarkt + RSSSF),transfermarkt 1971-12-10; RSSSF 1971-12-10
+1971/72,10,Rot-Weiß Oberhausen,Borussia Dortmund,1971-10-13,1971-10-12,1971-10-12,corrigir (transfermarkt + RSSSF),transfermarkt 1971-10-12; RSSSF 1971-10-12
+1971/72,4,Rot-Weiß Oberhausen,Bayern de Munique,1971-09-01,1971-08-31,1971-08-31,corrigir (transfermarkt + RSSSF),transfermarkt 1971-08-31; RSSSF 1971-08-31
+1971/72,8,Kaiserslautern,Duisburg,1971-09-25,1971-09-24,1971-09-24,corrigir (transfermarkt + RSSSF),transfermarkt 1971-09-24; RSSSF 1971-09-24
+1971/72,12,Kaiserslautern,Borussia Dortmund,1971-10-23,1971-10-22,1971-10-22,corrigir (transfermarkt + RSSSF),transfermarkt 1971-10-22; RSSSF 1971-10-22
+1971/72,13,Duisburg,Hannover 96,1971-10-30,1971-10-29,1971-10-29,corrigir (transfermarkt + RSSSF),transfermarkt 1971-10-29; RSSSF 1971-10-29
+1971/72,15,Duisburg,Hamburgo,1971-11-13,1971-11-12,1971-11-12,corrigir (transfermarkt + RSSSF),transfermarkt 1971-11-12; RSSSF 1971-11-12
+1971/72,16,Duisburg,Colônia,1971-11-27,1971-11-26,1971-11-26,corrigir (transfermarkt + RSSSF),transfermarkt 1971-11-26; RSSSF 1971-11-26
+1971/72,4,Borussia Mönchengladbach,Stuttgart,1971-09-01,1971-08-31,1971-08-31,corrigir (transfermarkt + RSSSF),transfermarkt 1971-08-31; RSSSF 1971-08-31
+1971/72,16,Borussia Mönchengladbach,Rot-Weiß Oberhausen,1971-11-27,1971-11-26,1971-11-26,corrigir (transfermarkt + RSSSF),transfermarkt 1971-11-26; RSSSF 1971-11-26
+1971/72,8,Borussia Mönchengladbach,Hamburgo,1971-09-25,1971-09-24,1971-09-24,corrigir (transfermarkt + RSSSF),transfermarkt 1971-09-24; RSSSF 1971-09-24
+1971/72,15,Borussia Dortmund,Stuttgart,1971-11-13,1971-11-12,1971-11-12,corrigir (transfermarkt + RSSSF),transfermarkt 1971-11-12; RSSSF 1971-11-12
+1971/72,2,Borussia Dortmund,Hamburgo,1971-08-21,1971-08-20,1971-08-20,corrigir (transfermarkt + RSSSF),transfermarkt 1971-08-20; RSSSF 1971-08-20
+1971/72,4,Borussia Dortmund,Eintracht Frankfurt,1971-09-01,1971-08-31,1971-08-31,corrigir (transfermarkt + RSSSF),transfermarkt 1971-08-31; RSSSF 1971-08-31
+1971/72,13,Borussia Dortmund,Arminia Bielefeld,1971-10-30,1971-10-29,1971-10-29,corrigir (transfermarkt + RSSSF),transfermarkt 1971-10-29; RSSSF 1971-10-29
+1971/72,5,Bayern de Munique,Borussia Mönchengladbach,1971-09-04,1971-09-03,1971-09-03,corrigir (transfermarkt + RSSSF),transfermarkt 1971-09-03; RSSSF 1971-09-03
+1971/72,14,Arminia Bielefeld,Schalke 04,1971-11-06,1971-11-05,1971-11-05,corrigir (transfermarkt + RSSSF),transfermarkt 1971-11-05; RSSSF 1971-11-05
+1972/73,29,Schalke 04,Colônia,1973-05-28,1973-05-22,1973-05-22,corrigir (transfermarkt + RSSSF),transfermarkt 1973-05-22; RSSSF 1973-05-22
+1972/73,21,Werder Bremen,Colônia,1973-03-20,1973-03-21,1973-03-20,manter (RSSSF = pacote),transfermarkt 1973-03-21; RSSSF 1973-03-20
+1972/73,10,Bochum,Hannover 96,1972-10-31,1972-11-01,1972-10-31,manter (RSSSF = pacote),transfermarkt 1972-11-01; RSSSF 1972-10-31
+1972/73,10,Bayern de Munique,Duisburg,1972-10-31,1972-11-01,1972-10-31,manter (RSSSF = pacote),transfermarkt 1972-11-01; RSSSF 1972-10-31
+1973/74,10,Fortuna Düsseldorf,Bochum,1973-10-12,1973-10-06,1973-10-06,corrigir (transfermarkt + RSSSF),transfermarkt 1973-10-06; RSSSF 1973-10-06
+1973/74,23,Borussia Mönchengladbach,Werder Bremen,1974-02-09,1974-02-15,1974-02-15,corrigir (transfermarkt + RSSSF),transfermarkt 1974-02-15; RSSSF 1974-02-15
+1973/74,12,Werder Bremen,Schalke 04,1973-10-19,1973-10-20,1973-10-20,corrigir (transfermarkt + RSSSF),transfermarkt 1973-10-20; RSSSF 1973-10-20
+1973/74,3,Stuttgart,Hannover 96,1973-08-21,1973-08-22,1973-08-22,corrigir (transfermarkt + RSSSF),transfermarkt 1973-08-22; RSSSF 1973-08-22
+1973/74,3,Kickers Offenbach,Wuppertal,1973-08-21,1973-08-22,1973-08-22,corrigir (transfermarkt + RSSSF),transfermarkt 1973-08-22; RSSSF 1973-08-22
+1973/74,3,Hamburgo,Schalke 04,1973-08-21,1973-08-22,1973-08-22,corrigir (transfermarkt + RSSSF),transfermarkt 1973-08-22; RSSSF 1973-08-22
+1973/74,3,Fortuna Köln,Fortuna Düsseldorf,1973-08-21,1973-08-22,1973-08-22,corrigir (transfermarkt + RSSSF),transfermarkt 1973-08-22; RSSSF 1973-08-22
+1973/74,3,Bochum,Werder Bremen,1973-08-21,1973-08-22,1973-08-22,corrigir (transfermarkt + RSSSF),transfermarkt 1973-08-22; RSSSF 1973-08-22
+1973/74,3,Bayern de Munique,Rot-Weiss Essen,1973-08-21,1973-08-22,1973-08-22,corrigir (transfermarkt + RSSSF),transfermarkt 1973-08-22; RSSSF 1973-08-22
+1974/75,22,Rot-Weiss Essen,Werder Bremen,1975-02-01,1975-03-01,1975-03-01,corrigir (transfermarkt + RSSSF),transfermarkt 1975-03-01; RSSSF 1975-03-01; data do pacote colide: Wuppertal x Rot-Weiss Essen 1975-02-01
+1974/75,22,Kickers Offenbach,Colônia,1975-02-01,1975-03-01,1975-03-01,corrigir (transfermarkt + RSSSF),transfermarkt 1975-03-01; RSSSF 1975-03-01; data do pacote colide: Kickers Offenbach x Hamburgo 1975-02-01
+1974/75,22,Kaiserslautern,Eintracht Frankfurt,1975-02-01,1975-03-01,1975-03-01,corrigir (transfermarkt + RSSSF),transfermarkt 1975-03-01; RSSSF 1975-03-01; data do pacote colide: Eintracht Braunschweig x Kaiserslautern 1975-02-01
+1974/75,22,Hertha Berlin,Stuttgart,1975-02-01,1975-03-01,1975-03-01,corrigir (transfermarkt + RSSSF),transfermarkt 1975-03-01; RSSSF 1975-03-01; data do pacote colide: Hertha Berlin x Bayern de Munique 1975-02-01
+1974/75,22,Fortuna Düsseldorf,Schalke 04,1975-02-01,1975-03-01,1975-03-01,corrigir (transfermarkt + RSSSF),transfermarkt 1975-03-01; RSSSF 1975-03-01; data do pacote colide: Stuttgart x Fortuna Düsseldorf 1975-02-01
+1974/75,22,Duisburg,Borussia Mönchengladbach,1975-02-01,1975-03-01,1975-03-01,corrigir (transfermarkt + RSSSF),transfermarkt 1975-03-01; RSSSF 1975-03-01; data do pacote colide: Schalke 04 x Duisburg 1975-02-01
+1974/75,22,Bochum,Eintracht Braunschweig,1975-02-01,1975-03-01,1975-03-01,corrigir (transfermarkt + RSSSF),transfermarkt 1975-03-01; RSSSF 1975-03-01; data do pacote colide: Colônia x Bochum 1975-02-01
+1974/75,3,Stuttgart,Bayern de Munique,1974-09-11,1974-09-12,1974-09-12,corrigir (transfermarkt + RSSSF),transfermarkt 1974-09-12; RSSSF 1974-09-12
+1974/75,16,Hertha Berlin,Rot-Weiss Essen,1974-12-21,1974-12-20,1974-12-20,corrigir (transfermarkt + RSSSF),transfermarkt 1974-12-20; RSSSF 1974-12-20
+1974/75,26,Hamburgo,Duisburg,1975-04-01,1975-04-02,1975-04-02,corrigir (transfermarkt + RSSSF),transfermarkt 1975-04-02; RSSSF 1975-04-02
+1974/75,16,Eintracht Braunschweig,Borussia Mönchengladbach,1975-01-18,1975-01-19,1975-01-19,corrigir (transfermarkt + RSSSF),transfermarkt 1975-01-19; RSSSF 1975-01-19
+1977/78,10,Hertha Berlin,Fortuna Düsseldorf,1977-09-01,1977-10-01,1977-10-01,corrigir (transfermarkt + RSSSF),transfermarkt 1977-10-01; RSSSF 1977-10-01; data do pacote colide: 1860 Munique x Hertha Berlin 1977-08-31
+1977/78,10,Hamburgo,Bayern de Munique,1977-09-01,1977-10-01,1977-10-01,corrigir (transfermarkt + RSSSF),transfermarkt 1977-10-01; RSSSF 1977-10-01; data do pacote colide: Stuttgart x Hamburgo 1977-08-31
+1977/78,10,Eintracht Frankfurt,Kaiserslautern,1977-09-01,1977-10-01,1977-10-01,corrigir (transfermarkt + RSSSF),transfermarkt 1977-10-01; RSSSF 1977-10-01; data do pacote colide: Eintracht Frankfurt x Borussia Mönchengladbach 1977-08-31
+1977/78,10,Borussia Mönchengladbach,Colônia,1977-09-01,1977-10-01,1977-10-01,corrigir (transfermarkt + RSSSF),transfermarkt 1977-10-01; RSSSF 1977-10-01; data do pacote colide: Eintracht Frankfurt x Borussia Mönchengladbach 1977-08-31
+1977/78,2,Borussia Dortmund,Duisburg,1977-09-27,1977-09-20,1977-09-20,corrigir (transfermarkt + RSSSF),transfermarkt 1977-09-20; RSSSF 1977-09-20
+1978/79,16,Eintracht Braunschweig,Hertha Berlin,1978-12-09,1978-12-12,1978-12-12,corrigir (transfermarkt + RSSSF),transfermarkt 1978-12-12; RSSSF 1978-12-12
+1978/79,18,Colônia,Eintracht Braunschweig,1979-02-09,1979-02-10,,dúvida,transfermarkt 1979-02-10
+1978/79,18,Borussia Mönchengladbach,Hamburgo,1979-02-09,1979-02-10,1979-02-10,corrigir (transfermarkt + RSSSF),transfermarkt 1979-02-10; RSSSF 1979-02-10
+1980/81,19,Borussia Dortmund,Bayern de Munique,1981-02-03,1981-01-24,1981-01-24,corrigir (transfermarkt + RSSSF),transfermarkt 1981-01-24; RSSSF 1981-01-24
+1980/81,19,Arminia Bielefeld,Eintracht Frankfurt,1981-01-24,1981-02-03,1981-02-03,corrigir (transfermarkt + RSSSF),transfermarkt 1981-02-03; RSSSF 1981-02-03
+1982/83,8,Schalke 04,Nuremberg,1982-09-01,1982-10-01,1982-10-01,corrigir (transfermarkt + RSSSF),transfermarkt 1982-10-01; RSSSF 1982-10-01; data do pacote colide: Schalke 04 x Hertha Berlin 1982-08-31
+1982/83,8,Hertha Berlin,Bayer Leverkusen,1982-09-01,1982-10-01,1982-10-01,corrigir (transfermarkt + RSSSF),transfermarkt 1982-10-01; RSSSF 1982-10-01; data do pacote colide: Schalke 04 x Hertha Berlin 1982-08-31
+1982/83,8,Borussia Mönchengladbach,Eintracht Frankfurt,1982-09-01,1982-10-01,1982-10-01,corrigir (transfermarkt + RSSSF),transfermarkt 1982-10-01; RSSSF 1982-10-01; data do pacote colide: Werder Bremen x Borussia Mönchengladbach 1982-08-31
+1982/83,16,Schalke 04,Bayern de Munique,1982-12-04,1982-12-05,1982-12-05,corrigir (transfermarkt + RSSSF),transfermarkt 1982-12-05; RSSSF 1982-12-05
+1984/85,13,Fortuna Düsseldorf,Eintracht Frankfurt,1984-11-13,1984-11-14,1984-11-14,corrigir (transfermarkt + RSSSF),transfermarkt 1984-11-14; RSSSF 1984-11-14
+1984/85,13,Colônia,Borussia Mönchengladbach,1984-11-13,1984-11-14,,corrigir (transfermarkt + ogol),transfermarkt 1984-11-14; ogol 1984-11-14 (relatório da coleta: 4 jogos da rodada com data do ogol 1 dia depois)
+1984/85,13,Bayern de Munique,Bochum,1984-11-13,1984-11-14,1984-11-14,corrigir (transfermarkt + RSSSF),transfermarkt 1984-11-14; RSSSF 1984-11-14
+1984/85,13,Arminia Bielefeld,Kaiserslautern,1984-11-13,1984-11-14,1984-11-14,corrigir (transfermarkt + RSSSF),transfermarkt 1984-11-14; RSSSF 1984-11-14
+1986/87,25,Homburg,Hamburgo,1987-04-14,1987-04-15,1987-04-15,corrigir (transfermarkt + RSSSF),transfermarkt 1987-04-15; RSSSF 1987-04-15
+1986/87,25,Bayer Leverkusen,Borussia Mönchengladbach,1987-04-14,1987-04-15,1987-04-14,manter (RSSSF = pacote),transfermarkt 1987-04-15; RSSSF 1987-04-14
+1988/89,31,Eintracht Frankfurt,Borussia Mönchengladbach,1989-05-25,1989-05-27,1989-05-25,manter (RSSSF = pacote),transfermarkt 1989-05-27; RSSSF 1989-05-25
+1990/91,27,Bayer Leverkusen,Bochum,1991-04-26,1991-04-20,1991-04-20,corrigir (transfermarkt + RSSSF),transfermarkt 1991-04-20; RSSSF 1991-04-20
+1991/92,35,Bochum,Fortuna Düsseldorf,1992-05-02,1992-05-01,1992-05-02,manter (RSSSF = pacote),transfermarkt 1992-05-01; RSSSF 1992-05-02
+1996/97,28,Stuttgart,Bayer Leverkusen,1997-04-20,1997-04-19,1997-04-20,manter (RSSSF = pacote),transfermarkt 1997-04-19; RSSSF 1997-04-20

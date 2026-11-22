@@ -1,0 +1,576 @@
+Bola n@ Área x pacote bra-copa-do-brasil (revisão QC, 22/11/2026)
+
+1980s: {'edicoes': 1, 'jogos_pacote': 61, 'jogos_fonte': 61, 'casados': 59, 'fonte_com_publico': 61, 'fonte_com_arbitro': 14, 'fonte_gols': 137, 'fonte_gols_autor': 137, 'placar_igual': 58, 'data_igual': 50, 'com_data_fonte': 59, 'mando_invertido': 0, 'gols_que_o_bola_completa': 129, 'publico_que_o_bola_completa': 59}
+1990s: {'edicoes': 10, 'jogos_pacote': 718, 'jogos_fonte': 737, 'casados': 685, 'fonte_com_publico': 19, 'fonte_com_arbitro': 12, 'fonte_gols': 2096, 'fonte_gols_autor': 29, 'placar_igual': 676, 'data_igual': 645, 'com_data_fonte': 685, 'mando_invertido': 0, 'publico_que_o_bola_completa': 18, 'gols_que_o_bola_completa': 27}
+2000s: {'edicoes': 10, 'jogos_pacote': 1164, 'jogos_fonte': 1200, 'casados': 1089, 'fonte_com_publico': 351, 'fonte_com_arbitro': 359, 'fonte_gols': 3709, 'fonte_gols_autor': 985, 'placar_igual': 1073, 'data_igual': 1048, 'com_data_fonte': 1089, 'mando_invertido': 1, 'gols_que_o_bola_completa': 258, 'publico_que_o_bola_completa': 327}
+2010s: {'edicoes': 10, 'jogos_pacote': 1336, 'jogos_fonte': 1252, 'casados': 1110, 'fonte_com_publico': 865, 'fonte_com_arbitro': 203, 'fonte_gols': 3446, 'fonte_gols_autor': 2823, 'placar_igual': 1108, 'data_igual': 1063, 'com_data_fonte': 1110, 'mando_invertido': 0, 'gols_que_o_bola_completa': 782, 'publico_que_o_bola_completa': 804}
+2020s: {'edicoes': 5, 'jogos_pacote': 608, 'jogos_fonte': 691, 'casados': 606, 'fonte_com_publico': 20, 'fonte_com_arbitro': 22, 'fonte_gols': 1967, 'fonte_gols_autor': 1250, 'placar_igual': 604, 'data_igual': 598, 'com_data_fonte': 605, 'mando_invertido': 1, 'publico_que_o_bola_completa': 20, 'gols_que_o_bola_completa': 22}
+
+## Diferenças (placar, data ou mando) entre jogos casados
+1989 | 1989-07-26 Corinthians 5-0 Tiradentes-DF | bola: 1989-07-27 Corinthians-SP 5x0 Tiradentes-DF | DATA Oitavas de final
+1989 | 1989-07-22 Corinthians 1-0 Sampaio Corrêa | bola: 1989-07-23 Corinthians-SP 1x0 Sampaio Corrêa-MA | DATA Primeira fase
+1989 | 1989-08-05 Goiás 3-0 Atlético-MG | bola: 1989-08-05 Goiás-GO 2x1 Atlético-MG | PLACAR Quartas de final
+1989 | 1989-07-27 Bahia 2-0 Cruzeiro | bola: 1989-07-22 Bahia-BA 2x0 Cruzeiro-MG | DATA Oitavas de final
+1989 | 1989-07-27 Sport 1-0 Guarani | bola: 1989-07-22 Sport-PE 1x0 Guarani-SP | DATA Oitavas de final
+1989 | 1989-07-27 Atlético-MG 3-0 Náutico | bola: 1989-07-22 Atlético-MG 3x0 Náutico-PE | DATA Oitavas de final
+1989 | 1989-07-27 Goiás 4-0 Internacional | bola: 1989-07-22 Goiás-GO 4x0 Internacional-RS | DATA Oitavas de final
+1989 | 1989-07-27 Vasco 1-2 Vitória | bola: 1989-07-22 Vasco-RJ 1x2 Vitória-BA | DATA Oitavas de final
+1989 | 1989-07-29 Tiradentes-DF 1-0 Corinthians | bola: 1989-07-22 Tiradentes-DF 1x0 Corinthians-SP | DATA Oitavas de final
+1989 | 1989-07-29 Flamengo 3-1 Blumenau | bola: 1989-07-22 Flamengo-RJ 3x1 Blumenau-SC | DATA Oitavas de final
+1990 | 1990-09-12 Flamengo 3-0 Náutico | bola: 1990-09-13 Flamengo-RJ 3x0 Náutico-PE | DATA Semifinal
+1990 | 1990-06-27 América-RN 1-0 Santa Cruz | bola: 1990-06-27 América-RN 0x1 Santa Cruz-PE | PLACAR Primeira fase
+1990 | 1990-07-27 Atlético-MG 0-0 Goiás | bola: 1990-07-22 Atlético-MG 0x0 Goiás-GO | DATA Quartas de final
+1991 | 1991-04-25 Vitória 0-0 Remo | bola: 1991-04-25 Vitória-BA 2x2 Remo-PA | PLACAR Quartas de final
+1991 | 1991-02-27 Coritiba 1-0 CSA | bola: 1991-02-27 Coritiba-PR 1x1 CSA-AL | PLACAR Primeira fase
+1991 | 1991-03-19 Paysandu 0-0 Coritiba | bola: 1991-03-21 Paysandu-PA 0x0 Coritiba-PR | DATA Oitavas de final
+1992 | 1992-11-20 Internacional 1-1 Grêmio | bola: 1992-11-17 Internacional-RS 1x1 Grêmio-RS | DATA Quartas de final
+1993 | 1993-05-27 Grêmio 1-0 Flamengo | bola: 1993-05-20 Grêmio-RS 1x0 Flamengo-RJ | DATA Semifinal
+1993 | 1993-05-27 Vasco 1-1 Cruzeiro | bola: 1993-05-20 Vasco-RJ 1x1 Cruzeiro-MG | DATA Semifinal
+1993 | 1993-04-13 Vitória 2-1 Palmeiras | bola: 1993-04-06 Vitória-BA 2x1 Palmeiras-SP | DATA Oitavas de final
+1993 | 1993-04-13 São Paulo 4-3 Sergipe | bola: 1993-04-06 São Paulo-SP 4x3 Sergipe-SE | DATA Primeira fase
+1994 | 1994-06-05 Grêmio 1-0 Vitória | bola: 1994-06-04 Grêmio-RS 1x0 Vitória-BA | DATA Quartas de final
+1994 | 1994-03-05 São José-AP 2-1 Nacional-AM | bola: 1994-03-04 São José-AP 2x1 Nacional-AM | DATA Primeira fase
+1994 | 1994-06-19 Atlético-MG 3-4 Vasco | bola: 1994-06-17 Atlético-MG 3x4 Vasco-RJ | DATA Quartas de final
+1994 | 1994-04-28 Kaburé 0-2 Comercial-MS | bola: 1994-04-26 Kaburé-TO 0x2 Comercial-MS | DATA Oitavas de final
+1994 | 1994-04-15 Comercial-MS 2-0 Kaburé | bola: 1994-04-12 Comercial-MS 2x0 Kaburé-TO | DATA Oitavas de final
+1994 | 1994-08-03 Grêmio 2-1 Vasco | bola: 1994-07-30 Grêmio-RS 2x1 Vasco-RJ | DATA Semifinal
+1994 | 1994-07-30 Linhares EC 0-1 Ceará | bola: 1994-07-24 Linhares-ES 0x1 Ceará-CE | DATA Semifinal
+1994 | 1994-02-25 Palmeiras 5-2 4 de Julho | bola: 1994-02-15 Palmeiras-SP 5x2 4 de Julho-PI | DATA Primeira fase
+1994 | 1994-03-22 Sorriso EC 1-1 Vitória | bola: 1994-03-04 Sorriso-MT 1x1 Vitória-BA | DATA Primeira fase
+1994 | 1994-07-24 Ceará 0-0 Linhares EC | bola: 1994-06-23 Ceará-CE 0x0 Linhares-ES | DATA Semifinal
+1995 | 1995-05-23 Vasco 0-1 Corinthians | bola: 1995-05-24 Vasco-RJ 0x1 Corinthians-SP | DATA Semifinal
+1995 | 1995-02-15 Maranhão 0-0 Kaburé | bola: 1995-02-14 Maranhão-MA 0x0 Kaburé-TO | DATA Primeira fase
+1995 | 1995-04-27 Vasco 4-1 Nacional-AM | bola: 1995-04-27 Vasco-RJ 4x0 Nacional-AM | PLACAR Oitavas de final
+1995 | 1995-04-12 Paraná 1-0 Internacional | bola: 1995-04-12 Paraná-PR 1x1 Internacional-RS | PLACAR Oitavas de final
+1995 | 1995-03-19 Nacional-AM 2-0 Cristal | bola: 1995-03-19 Nacional-AM 1x0 Cristal-AP | PLACAR Primeira fase
+1995 | 1995-02-21 Kaburé 2-0 Maranhão | bola: 1995-03-14 Kaburé-TO 2x0 Maranhão-MA | DATA Primeira fase
+1996 | 1996-05-28 Palmeiras 3-1 Grêmio | bola: 1996-05-29 Palmeiras-SP 3x1 Grêmio-RS | DATA Semifinal
+1996 | 1996-03-06 Bahia 0-0 Coritiba | bola: 1996-03-07 Bahia-BA 0x0 Coritiba-PR | DATA Segunda fase
+1996 | 1996-06-07 Grêmio 2-1 Palmeiras | bola: 1996-06-05 Grêmio-RS 2x1 Palmeiras-SP | DATA Semifinal
+1996 | 1996-03-27 Paraná 1-0 Vitória | bola: 1996-03-29 Paraná-PR 1x0 Vitória-BA | DATA Segunda fase
+1996 | 1996-05-10 Grêmio 2-0 Criciúma | bola: 1996-05-03 Grêmio-RS 2x0 Criciúma-SC | DATA Quartas de final
+1996 | 1996-05-10 Corinthians 3-2 Cruzeiro | bola: 1996-05-03 Corinthians-SP 3x2 Cruzeiro-MG | DATA Quartas de final
+1996 | 1996-02-29 Nacional-AM 1-3 América-MG | bola: 1996-02-14 Nacional-AM 1x3 América-MG | DATA Primeira fase
+1997 | 1997-05-13 Palmeiras 0-1 Flamengo | bola: 1997-05-15 Palmeiras-SP 0x1 Flamengo-RJ | DATA Semifinal
+1997 | 1997-05-15 Grêmio 1-1 Corinthians | bola: 1997-05-13 Grêmio-RS 1x1 Corinthians-SP | DATA Semifinal
+1997 | 1997-05-06 Corinthians 1-2 Grêmio | bola: 1997-05-08 Corinthians-SP 1x2 Grêmio-RS | DATA Semifinal
+1997 | 1997-05-06 Flamengo 2-0 Palmeiras | bola: 1997-05-03 Flamengo-RJ 2x0 Palmeiras-SP | DATA Semifinal
+1998 | 1998-02-19 Palmeiras 6-0 Ceará | bola: 1998-02-18 Palmeiras-SP 6x0 Ceará-CE | DATA Segunda fase
+1998 | 1998-02-07 São Paulo 4-0 Sampaio Corrêa | bola: 1998-02-06 São Paulo-SP 4x0 Sampaio Corrêa-MA | DATA Segunda fase
+1998 | 1998-02-11 Linhares EC 0-0 Grêmio | bola: 1998-02-10 Linhares-ES 0x0 Grêmio-RS | DATA Segunda fase
+1998 | 1998-02-18 Bahia 2-1 Botafogo-PB | bola: 1998-02-18 Bahia-BA 1x2 Botafogo-PB | PLACAR Segunda fase
+1998 | 1998-03-04 Sport 4-2 Portuguesa | bola: 1998-03-06 Sport-PE 4x2 Portuguesa-SP | DATA Segunda fase
+1999 | 1999-04-28 Flamengo 2-2 Grêmio | bola: 1999-04-29 Flamengo-RJ 2x2 Grêmio-RS | DATA Oitavas de final
+1999 | 1999-04-29 Palmeiras 3-2 Vitória | bola: 1999-04-28 Palmeiras-SP 3x2 Vitória-BA | DATA Oitavas de final
+1999 | 1999-03-05 Nacional-AM 0-2 Sport | bola: 1999-03-04 Nacional-AM 0x2 Sport-PE | DATA Primeira fase
+1999 | 1999-03-10 Fluminense 2-1 Lagartense | bola: 1999-03-10 Fluminense-RJ 3x1 Lagartense-SE | PLACAR Primeira fase
+1999 | 1999-03-03 Lagartense 0-1 Fluminense | bola: 1999-03-03 Lagartense-SE 1x0 Fluminense-RJ | PLACAR Primeira fase
+1999 | 1999-06-02 Internacional 0-4 Juventude | bola: 1999-06-04 Internacional-RS 0x4 Juventude-RS | DATA Semifinal
+2000 | 2000-06-14 Cruzeiro 3-2 Botafogo | bola: 2000-06-15 Cruzeiro-MG 3x2 Botafogo-RJ | DATA Quartas de final
+2000 | 2000-05-31 Vasco 2-2 Fluminense | bola: 2000-06-01 Vasco-RJ 2x2 Fluminense-RJ | DATA Oitavas de final
+2000 | 2000-05-31 Atlético-MG 0-0 Portuguesa | bola: 2000-06-01 Atlético-MG 0x0 Portuguesa-SP | DATA Oitavas de final
+2000 | 2000-05-31 São Paulo 3-2 América-RN | bola: 2000-06-01 São Paulo-SP 3x2 América-RN | DATA Oitavas de final
+2000 | 2000-05-31 Santos 3-0 Juventude | bola: 2000-06-01 Santos-SP 3x0 Juventude-RS | DATA Oitavas de final
+2000 | 2000-05-31 Flamengo 1-1 Bahia | bola: 2000-06-01 Flamengo-RJ 1x1 Bahia-BA | DATA Oitavas de final
+2000 | 2000-05-04 Flamengo 3-3 Guarani | bola: 2000-05-03 Flamengo-RJ 3x3 Guarani-SP | DATA Terceira fase
+2000 | 2000-04-12 Vitória 1-2 ABC | bola: 2000-04-12 Vitória-BA 0x1 ABC-RN | PLACAR Segunda fase
+2001 | 2001-04-26 Internacional 0-0 Fortaleza | bola: 2001-04-25 Internacional-RS 0x0 Fortaleza-CE | DATA Segunda fase
+2001 | 2001-03-14 River-PI 0-2 Flamengo | bola: 2001-03-14 Ríver-PI 0x1 Flamengo-RJ | PLACAR Primeira fase
+2001 | 2001-03-14 Comercial-MS 2-0 Juventude | bola: 2001-03-14 Comercial-MS 2x1 Juventude-RS | PLACAR Primeira fase
+2001 | 2001-03-14 Goiânia 1-1 América-MG | bola: 2001-03-14 Goiânia-GO 1x0 América-MG | PLACAR Primeira fase
+2001 | 2001-03-21 Paraná 2-2 Ceará | bola: 2001-03-14 Paraná-PR 2x2 Ceará-CE | DATA Primeira fase
+2001 | 2001-03-21 Mixto 2-0 URT | bola: 2001-03-14 Mixto-MT 2x0 URT-MG | DATA Primeira fase
+2001 | 2001-03-21 Portuguesa 2-1 Figueirense | bola: 2001-03-14 Portuguesa-SP 2x1 Figueirense-SC | DATA Primeira fase
+2001 | 2001-03-21 São Raimundo 6-0 Rio Negro-RR | bola: 2001-03-14 São Raimundo-AM 6x0 Rio Negro-RR | DATA Primeira fase
+2001 | 2001-03-21 Santos 5-1 Anapolina | bola: 2001-03-14 Santos-SP 5x1 Anapolina-GO | DATA Primeira fase
+2001 | 2001-03-21 Grêmio 4-1 Villa Nova-MG | bola: 2001-03-14 Grêmio-RS 4x1 Villa Nova-MG | DATA Primeira fase
+2001 | 2001-03-21 América-MG 0-1 Goiânia | bola: 2001-03-14 América-MG 0x1 Goiânia-GO | DATA Primeira fase
+2001 | 2001-03-21 Rio Branco-AC 1-0 Guajará | bola: 2001-03-14 Rio Branco-AC 1x0 Guajará-RO | DATA Primeira fase
+2001 | 2001-03-21 Paysandu 1-1 Nacional-AM | bola: 2001-03-14 Paysandu-PA 1x1 Nacional-AM | DATA Primeira fase
+2001 | 2001-03-21 Juventude 5-0 Comercial-MS | bola: 2001-03-14 Juventude-RS 5x0 Comercial-MS | DATA Primeira fase
+2001 | 2001-03-21 Ponte Preta 8-1 Castanhal | bola: 2001-03-14 Ponte Preta-SP 8x1 Castanhal-PA | DATA Primeira fase
+2001 | 2001-03-21 Botafogo 2-1 Sergipe | bola: 2001-03-14 Botafogo-RJ 2x1 Sergipe-SE | DATA Primeira fase
+2001 | 2001-03-21 Gama 2-0 Palmas | bola: 2001-03-14 Gama-DF 2x0 Palmas-TO | DATA Primeira fase
+2002 | 2002-04-10 Brasiliense 1-0 Fluminense | bola: 2002-04-10 Brasiliense-DF 1x1 Fluminense-RJ | PLACAR Quartas de final
+2002 | 2002-04-03 Paraná 1-1 Botafogo | bola: 2002-04-03 Paraná-PR 1x0 Botafogo-RJ | PLACAR Oitavas de final
+2002 | 2002-04-03 São Paulo 6-1 Figueirense | bola: 2002-04-03 São Paulo-SP 5x1 Figueirense-SC | PLACAR Oitavas de final
+2002 | 2002-04-03 Portuguesa 2-2 Bahia | bola: 2002-04-03 Portuguesa-SP 2x1 Bahia-BA | PLACAR Oitavas de final
+2002 | 2002-04-03 Brasiliense 4-1 Confiança | bola: 2002-04-03 Brasiliense-DF 1x0 Confiança-SE | PLACAR Oitavas de final
+2002 | 2002-02-20 Americano-RJ 2-6 Corinthians | bola: 2002-02-20 Americano-RJ 2x3 Corinthians-SP | PLACAR Segunda fase
+2002 | 2002-02-20 América-RN 3-0 São Raimundo | bola: 2002-02-20 América-RN 2x0 São Raimundo-AM | PLACAR Primeira fase
+2002 | 2002-02-06 Botafogo-PB 1-3 Figueirense | bola: 2002-02-06 Botafogo-PB 1x2 Figueirense-SC | PLACAR Primeira fase
+2002 | 2002-05-15 Brasiliense 1-1 Corinthians | bola: 2002-05-08 BRASILIENSE-DF 1x1 CORINTHIANS-SP | DATA Final
+2004 | 2004-06-10 15 de Novembro 1-3 Santo André | bola: 2004-06-09 15 de Novembro-RS 1x3 Santo André-SP | DATA Semifinal
+2004 | 2004-05-27 Santo André 3-4 15 de Novembro | bola: 2004-05-26 Santo André-SP 3x4 15 de Novembro-RS | DATA Semifinal
+2004 | 2004-03-03 União Barbarense 1-0 CENE | bola: 2004-03-03 * Nos pênaltis: União Barbarense-SP 1x4 CENE-MS | PLACAR Primeira fase
+2005 | 2005-02-16 Ceará 3-2 4 de Julho | bola: 2005-02-16 Ceará-CE 2x1 4 de Julho-PI | PLACAR Primeira fase
+2005 | 2005-02-16 Figueirense 1-0 América-RJ | bola: 2005-02-16 Figueirense-SC 4x1 América-RJ | PLACAR Primeira fase
+2006 | 2006-05-10 Fluminense 0-1 Vasco | bola: 2006-05-11 FLUMINENSE-RJ 0x1 VASCO-RJ | DATA Semifinal
+2006 | 2006-03-16 15 de Novembro 1-0 Grêmio | bola: 2006-03-15 15 de Novembro-RS 1x0 Grêmio-RS | DATA Segunda fase
+2006 | 2006-02-15 Operário-MS 1-2 Botafogo | bola: 2006-02-16 Operário-MS 1x2 Botafogo-RJ | DATA Primeira fase
+2008 | 2008-05-29 Vasco 2-0 Sport | bola: 2008-05-28 Vasco-RJ 2x0 Sport-PE | DATA Semifinal
+2008 | 2008-05-29 Corinthians 2-1 Botafogo | bola: 2008-05-28 Corinthians-SP 2x1 Botafogo-RJ | DATA Semifinal
+2008 | 2008-04-10 Grêmio 2-1 Atlético-GO | bola: 2008-04-09 Grêmio-RS 2x1 Atlético-GO | DATA Segunda fase
+2008 | 2008-03-06 ABC 1-1 Madureira | bola: 2008-03-05 ABC-RN 1x1 Madureira-RJ | DATA Primeira fase
+2008 | 2008-02-28 Juventude 0-0 Linhares FC | bola: 2008-02-27 **Juventude-RS 0x0 Linhares-ES | DATA Primeira fase
+2008 | 2008-04-23 Corinthians-AL 2-0 Juventude | bola: 2008-04-21 Corinthians-AL 2x0 Juventude-RS | DATA Oitavas de final
+2008 | 2008-04-04 Botafogo 2-0 River-PI | bola: 2008-04-09 **Botafogo-RJ 2x0 Ríver-PI | DATA Segunda fase
+2008 | 2008-03-21 River-PI 2-1 Botafogo | bola: 2008-04-02 Ríver-PI 2x1 Botafogo-RJ | DATA Segunda fase
+2008 | 2008-02-13 CENE 0-2 Palmeiras | bola: 2008-02-27 CENE-MS 0x2 Palmeiras-SP | DATA Primeira fase
+2008 | 2008-03-20 Fast-AM 1-3 Goiás | bola: 2008-04-02 Fast Club-AM 1x3 Goiás-GO | DATA Segunda fase
+2008 | 2008-05-21 Botafogo 2-1 Corinthians | bola: 2008-05-28 Nos pênaltis: Corinthians 5x4 Botafogo (mando invertido) | PLACAR DATA Semifinal
+2008 | 2008-02-06 Sport 4-1 Imperatriz | bola: 2008-03-05 **Sport-PE 4x1 Imperatriz-MA | DATA Primeira fase
+2008 | 2008-02-06 Remo 0-2 Central | bola: 2008-03-05 Remo-PA 0x2 Central-PE | DATA Primeira fase
+2009 | 2009-04-22 Fluminense 3-0 Águia | bola: 2009-04-23 *Fluminense-RJ 3x0 Águia Marabá-PA | DATA Segunda fase
+2011 | 2011-02-24 São José-RS 1-0 Paulista | bola: 2011-02-23 São José-RS 1x0 Paulista-SP | DATA Primeira fase
+2011 | 2011-02-24 Barras 1-1 ABC | bola: 2011-02-23 Barras-PI 1x1 ABC-RN | DATA Primeira fase
+2011 | 2011-02-16 Ypiranga-RS 0-1 Coritiba | bola: 2011-02-17 Ypiranga-RS 0x1 Coritiba-PR | DATA Primeira fase
+2011 | 2011-02-24 Vitória 0-0 Botafogo-PB | bola: 2011-02-23 Vitória-BA 0x0 Botafogo-PB | DATA Primeira fase
+2011 | 2011-02-23 Fortaleza 4-1 Fast-AM | bola: 2011-03-23 *Fortaleza-CE 4x1 Fast-AM | DATA Primeira fase
+2012 | 2012-06-14 São Paulo 1-0 Coritiba | bola: 2012-06-13 São Paulo-SP 1x0 Coritiba-PR | DATA Semifinal
+2012 | 2012-06-21 Palmeiras 1-1 Grêmio | bola: 2012-06-20 Palmeiras-SP 1x1 Grêmio-RS | DATA Semifinal
+2012 | 2012-05-23 Grêmio 2-0 Bahia | bola: 2012-05-24 *Grêmio-RS 2x0 Bahia-BA | DATA Quartas de final
+2012 | 2012-05-09 Grêmio 2-0 Fortaleza | bola: 2012-05-10 *Grêmio-RS 2x0 Fortaleza-CE | DATA Oitavas de final
+2012 | 2012-03-07 Brasiliense 2-0 Guarani | bola: 2012-03-08 Brasiliense-DF 2x0 Guarani-SP | DATA Primeira fase
+2012 | 2012-03-15 4 de Julho 0-2 Sport | bola: 2012-03-14 4 de Julho-PI 0x2 Sport-PE | DATA Primeira fase
+2012 | 2012-03-08 Paulista 2-3 Goiás | bola: 2012-03-14 Paulista-SP 2x3 Goiás-GO | DATA Primeira fase
+2013 | 2013-04-24 Paraná 2-3 São Bernardo | bola: 2013-04-25 Paraná-PR 2x3 São Bernardo-SP | DATA Primeira fase
+2013 | 2013-04-24 Avaí 4-1 Volta Redonda | bola: 2013-04-25 Avaí-SC 4x1 Volta Redonda-RJ | DATA Primeira fase
+2013 | 2013-04-17 Santo André 2-0 Veranópolis | bola: 2013-04-10 Santo André-SP 2x0 Veranópolis-RS | DATA Primeira fase
+2013 | 2013-04-17 Fortaleza 0-0 Luziânia | bola: 2013-04-17 # Nos pênaltis: Fortaleza 3x2 Luziânia # | PLACAR Primeira fase
+2014 | 2014-09-03 ABC 2-1 Vasco | bola: 2014-09-02 ABC-RN 2x1 Vasco-RJ | DATA Oitavas de final
+2014 | 2014-05-14 Internacional 4-1 Cuiabá | bola: 2014-05-15 Internacional-RS 4x1 Cuiabá-MT | DATA Segunda fase
+2014 | 2014-07-22 Figueirense 2-1 Bragantino | bola: 2014-07-23 Figueirense-SC 2x1 Bragantino-SP | DATA Segunda fase
+2014 | 2014-04-02 Naviraiense 1-4 Avaí | bola: 2014-04-03 Naviraiense-MS 1x4 Avaí-SC | DATA Primeira fase
+2014 | 2014-04-24 Brasiliense 4-2 Princesa | bola: 2014-04-23 Brasiliense-DF 4x2 Princesa-AM | DATA Primeira fase
+2014 | 2014-04-17 Princesa 3-1 Brasiliense | bola: 2014-04-16 Princesa-AM 3x1 Brasiliense-DF | DATA Primeira fase
+2014 | 2014-04-17 Vasco 1-0 Resende | bola: 2014-04-16 Vasco-RJ 1x0 Resende-RJ | DATA Primeira fase
+2014 | 2014-11-05 Atlético-MG 4-1 Flamengo | bola: 2014-10-29 Atlético-MG 4x1 Flamengo-RJ | DATA Semifinal
+2014 | 2014-05-07 Vasco 1-1 Treze | bola: 2014-05-14 Vasco-RJ 1x1 Treze-PB | DATA Segunda fase
+2014 | 2014-04-09 CRB 2-0 Rondonópolis | bola: 2014-04-16 CRB-AL 2x0 Rondonópolis-MT | DATA Primeira fase
+2014 | 2014-04-02 ABC 4-1 Desportiva-ES | bola: 2014-04-09 ABC-RN 4x1 Desportiva-ES | DATA Primeira fase
+2014 | 2014-03-19 J.Malucelli 1-1 Vitória | bola: 2014-04-03 J.Malucelli-PR 1x1 Vitória-BA | DATA Primeira fase
+2015 | 2015-10-29 Palmeiras 2-1 Fluminense | bola: 2015-10-28 Palmeiras-SP 2x1 Fluminense-RJ | DATA Semifinal
+2015 | 2015-10-22 Fluminense 2-1 Palmeiras | bola: 2015-10-21 Fluminense-RJ 2x1 Palmeiras-SP | DATA Semifinal
+2015 | 2015-10-29 Santos 3-1 São Paulo | bola: 2015-10-28 Santos-SP 3x1 São Paulo-SP | DATA Semifinal
+2015 | 2015-10-22 São Paulo 1-3 Santos | bola: 2015-10-21 São Paulo-SP 1x3 Santos-SP | DATA Semifinal
+2015 | 2015-10-01 Grêmio 1-1 Fluminense | bola: 2015-09-30 Grêmio-RS 1x1 Fluminense-RJ | DATA Quartas de final
+2015 | 2015-09-24 Fluminense 0-0 Grêmio | bola: 2015-09-23 Fluminense-RJ 0x0 Grêmio-RS | DATA Quartas de final
+2015 | 2015-10-01 Palmeiras 3-2 Internacional | bola: 2015-09-30 Palmeiras-SP 3x2 Internacional-RS | DATA Quartas de final
+2015 | 2015-10-02 Santos 3-2 Figueirense | bola: 2015-10-01 Santos-SP 3x2 Figueirense-SC | DATA Quartas de final
+2015 | 2015-10-01 Vasco 1-1 São Paulo | bola: 2015-09-30 Vasco-RJ 1x1 São Paulo-SP | DATA Quartas de final
+2015 | 2015-09-24 São Paulo 3-0 Vasco | bola: 2015-09-23 São Paulo-SP 3x0 Vasco-RJ | DATA Quartas de final
+2015 | 2015-04-16 Santos 1-0 Londrina | bola: 2015-04-15 Santos-SP 1x0 Londrina-PR | DATA Primeira fase
+2015 | 2015-03-19 Princesa 2-2 Figueirense | bola: 2015-03-18 Princesa-AM 2x2 Figueirense-SC | DATA Primeira fase
+2015 | 2015-04-14 Vitória 1-1 Anapolina | bola: 2015-04-15 Vitória-BA 1x1 Anapolina-GO | DATA Primeira fase
+2015 | 2015-04-15 Avaí 3-1 CEOV Operário | bola: 2015-04-14 Avaí-SC 3x1 Operário-MT | DATA Primeira fase
+2016 | 2016-07-19 Ceará 0-0 Botafogo-PB | bola: 2016-07-20 Ceará-CE 0x0 Botafogo-PB | DATA Terceira fase
+2017 | 2017-02-15 Brusque 2-1 Remo | bola: 2017-02-16 Brusque-SC 2x1 Remo-PA | DATA Primeira fase
+2017 | 2017-03-08 Paraná 2-0 Bahia | bola: 2017-03-01 Paraná-PR 2x0 Bahia-BA | DATA Segunda fase
+2017 | 2017-02-26 Sampaio Corrêa 2-0 Guarani de Juazeiro | bola: 2017-03-01 Sampaio Corrêa-MA 2x0 Guarani-CE | DATA Segunda fase
+2018 | 2018-05-24 Palmeiras 1-1 América-MG | bola: 2018-05-23 Palmeiras-SP 1x1 América-MG | DATA Oitavas de final
+2018 | 2018-08-15 Flamengo 1-0 Grêmio | bola: 2018-08-15 Flamengo-RJ 0x0 Grêmio-RS | PLACAR Quartas de final
+2018 | 2018-02-07 União-MT 1-3 CRB | bola: 2018-01-31 União Rondonópolis-MT 1x3 CRB-AL | DATA Primeira fase
+2021 | 2021-09-15 Atlético-MG 1-0 Fluminense | bola: 2021-09-16 Atlético-MG 1x0 Fluminense-RJ | DATA Quartas de final
+2023 | 2023-05-17 Fluminense 0-0 Flamengo | bola: 2023-05-16 Fluminense-RJ 0x0 Flamengo-RJ | DATA Oitavas de final
+2023 | 2023-07-15 Corinthians 3-2 América-MG | bola: 2023-08-12 Corinthians-SP 3x2 América-MG | DATA Quartas de final
+2023 | 2023-07-12 Athletico-PR 0-2 Flamengo | bola:  Flamengo 2x1 Athletico (mando invertido) | PLACAR Quartas de final
+2023 | 2023-07-12 Grêmio 1-1 Bahia | bola: 2023-08-12 Grêmio-RS 1x1 Bahia-BA | DATA Quartas de final
+2023 | 2023-07-13 Palmeiras 1-2 São Paulo | bola: 2023-08-13 Palmeiras-SP 1x2 São Paulo-SP | DATA Quartas de final
+2024 | 2024-02-22 Real Noroeste 1-4 Cuiabá | bola: 2024-02-21 Real Noroeste-ES 1x4 Cuiabá-MT | DATA Primeira fase
+2024 | 2024-03-04 Fluminense-PI 0-3 Fortaleza | bola: 2024-03-03 Fluminense-PI 0x3 Fortaleza-CE | DATA Primeira fase
+2024 | 2024-07-31 CRB 2-2 Atlético-MG | bola: 2024-07-31 CRB-AL 2x0 Atlético-MG | PLACAR Oitavas de final
+
+## Jogos do Bola sem par no pacote
+1989 | bola sem par no pacote: 1989-07-19 Náutico-PE 1x0 Atlético-PR (copa_do_brasil_1989_tabela.htm)
+1989 | bola sem par no pacote: 1989-07-22 Atlético-PR 0x0 Náutico-PE (copa_do_brasil_1989_tabela.htm)
+1990 | bola sem par no pacote: 1990-06-27 # Nos pênaltis: Rio Negro-AM 4x3 Juventus-AC # (copa_do_brasil_1990_tabela.htm)
+1990 | bola sem par no pacote: 1990-06-27 # Nos pênaltis: Remo-PA 4x3 Moto Club-MA # (copa_do_brasil_1990_tabela.htm)
+1990 | bola sem par no pacote: 1990-09-26 # Nos pênaltis: Goiás-GO 3x1 Criciúma-SC # (copa_do_brasil_1990_tabela.htm)
+1991 | bola sem par no pacote: 1991-02-21 Atlético-PR 1x1 Vitória-BA (copa_do_brasil_1991_tabela.htm)
+1991 | bola sem par no pacote: 1991-02-27 * Nos pênaltis: Coritiba 3x1 CSA (copa_do_brasil_1991_tabela.htm)
+1991 | bola sem par no pacote: 1991-02-28 Vitória-BA 2x1 Atlético-PR (copa_do_brasil_1991_tabela.htm)
+1992 | bola sem par no pacote: 1992-07-28 Operário-MS 1x3 Atlético-PR (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-08-04 Atlético-PR 3x0 Operário-MS (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-08-18 # Nos pênaltis: Taguatinga 3x5 Fortaleza # (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-08-18 Fluminense-RJ 2x1 Picos-PI (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-09-08 Atlético-PR 0x0 Bahia-BA (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-10-02 Bahia-BA 1x2 Atlético-PR (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-11-03 Atlético-PR 0x1 Palmeiras-SP (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-11-17 # Nos pênaltis: Internacional 3x0 Grêmio # (copa_do_brasil_1992_tabela.htm)
+1992 | bola sem par no pacote: 1992-11-20 Palmeiras-SP 3x1 Atlético-PR (copa_do_brasil_1992_tabela.htm)
+1993 | bola sem par no pacote: 1993-05-14 * Nos pênaltis: Grêmio 7x6 Palmeiras (copa_do_brasil_1993_tabela.htm)
+1994 | bola sem par no pacote: 1994-03-15 * Nos pênaltis: Comercial 6x5 Paysandu (copa_do_brasil_1994_tabela.htm)
+1994 | bola sem par no pacote: 1994-04-05 * Nos pênaltis: Santa Cruz 4x2 Sergipe (copa_do_brasil_1994_tabela.htm)
+1994 | bola sem par no pacote: 1993-05-18 Ceará-CE 0x0 Palmeiras-SP (copa_do_brasil_1994_tabela.htm)
+1994 | bola sem par no pacote: 1993-08-07 CEARÁ-CE 0x0 GRÊMIO-RS (copa_do_brasil_1994_tabela.htm)
+1995 | bola sem par no pacote: 1995-03-17 Flamengo-RJ 1x0 Souza-PB (copa_do_brasil_1995_tabela.htm)
+1995 | bola sem par no pacote: 1995-03-24 * Nos pênaltis: Bahia 7x6 Volta Redonda (copa_do_brasil_1995_tabela.htm)
+1995 | bola sem par no pacote: 1995-05-17 * Nos pênaltis: Atlético-MG 1x4 Vasco-RJ (copa_do_brasil_1995_tabela.htm)
+1996 | bola sem par no pacote: 1996-02-07 Araguaína-TO 2x1 Vila Nova-GO (copa_do_brasil_1996_tabela.htm)
+1996 | bola sem par no pacote: 1996-02-14 Ji-Paraná-RO 1x1 Atlético-PR (copa_do_brasil_1996_tabela.htm)
+1996 | bola sem par no pacote: 1996-02-14 Vila Nova-GO 1x0 Araguaína-TO (copa_do_brasil_1996_tabela.htm)
+1996 | bola sem par no pacote: 1996-02-28 Atlético-PR 3x0 Ji-Paraná-RO (copa_do_brasil_1996_tabela.htm)
+1996 | bola sem par no pacote: 1996-03-05 Atlético-PR 3x0 Santos-SP (copa_do_brasil_1996_tabela.htm)
+1996 | bola sem par no pacote: 1996-03-12 Santos-SP 1x1 Atlético-PR (copa_do_brasil_1996_tabela.htm)
+1996 | bola sem par no pacote: 1996-03-26 Atlético-PR 1x1 Grêmio-RS (copa_do_brasil_1996_tabela.htm)
+1996 | bola sem par no pacote: 1996-04-05 Grêmio-RS 3x0 Atlético-PR (copa_do_brasil_1996_tabela.htm)
+1997 | bola sem par no pacote: 1997-02-20 CSA-AL 2x6 Atlético-PR (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-03-14 Atlético-PR 3x0 Sport-PE (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-03-20 Sport-PE 1x1 Atlético-PR (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-03-20 * Nos pênaltis: Juventude-RS 3x5 Corinthians-SP (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-04-03 Atlético-PR 3x1 Vasco-RJ (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-04-03 * Nos pênaltis: Internacional-RS 3x2 Santos-SP (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-04-10 Vasco-RJ 4x3 Atlético-PR (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-04-15 Corinthians-SP 1x2 Atlético-PR (copa_do_brasil_1997_tabela.htm)
+1997 | bola sem par no pacote: 1997-04-22 Atlético-PR 2x6 Corinthians-SP (copa_do_brasil_1997_tabela.htm)
+1998 | bola sem par no pacote: 1998-03-05 * Nos pênaltis: Internacional-RS 2x4 América-MG (copa_do_brasil_1998_tabela.htm)
+1999 | bola sem par no pacote: 1999-03-03 Sampaio Corrêa-MA 1x3 Atlético-PR (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-03-24 Atlético-PR 0x0 Cruzeiro-MG (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-03-31 Cruzeiro-MG 3x3 Atlético-PR (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-04-01 * Nos pênaltis: Corinthians-SP 4x2 Treze-PB (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-04-08 Atlético-PR 5x2 Portuguesa-SP (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-04-28 Portuguesa-SP 2x2 Atlético-PR (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-05-05 Botafogo-RJ 2x1 Atlético-PR (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-05-12 Atlético-PR 2x1 Botafogo-RJ (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-05-12 * Nos pênaltis: Atlético-PR 1x4 Botafogo-RJ (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-05-19 * Nos pênaltis: Bahia-BA 1x4 Juventude-RS (copa_do_brasil_1999_tabela.htm)
+1999 | bola sem par no pacote: 1999-06-11 * Nos pênaltis: Botafogo-RJ 4x2 Palmeiras-SP (copa_do_brasil_1999_tabela.htm)
+2000 | bola sem par no pacote: 2000-03-29 * Nos pênaltis: Sport-PE 2x4 América-RN (copa_do_brasil_2000_tabela.htm)
+2000 | bola sem par no pacote: 2000-03-30 * Nos pênaltis: Rio Negro-AM 2x4 Nacional-AM (copa_do_brasil_2000_tabela.htm)
+2000 | bola sem par no pacote: 2000-04-19 * Nos pênaltis: Goiás-GO 4x3 Náutico-PE (copa_do_brasil_2000_tabela.htm)
+2000 | bola sem par no pacote: 2000-05-03 * Nos pênaltis: Goiás-GO 3x4 ABC-RN (copa_do_brasil_2000_tabela.htm)
+2000 | bola sem par no pacote: 2000-05-24 Cruzeiro-MG 2x1 Atlético-PR (copa_do_brasil_2000_tabela.htm)
+2000 | bola sem par no pacote: 2000-06-01 Atlético-PR 2x2 Cruzeiro-MG (copa_do_brasil_2000_tabela.htm)
+2000 | bola sem par no pacote: 2000-06-01 * Nos pênaltis: Atlético-MG 4x1 Portuguesa-SP (copa_do_brasil_2000_tabela.htm)
+2001 | bola sem par no pacote: 2001-03-14 Malutrom-PR 1x0 Juventude-SC (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2001-03-14 Ríver-PI 1x2 Corinthians-SP (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2001-03-15 Treze-PB 2x0 Atlético-PR (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2001-03-22 Juventude-MT 4x0 Malutrom-PR (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2001-03-22 Atlético-PR 2x0 Treze-PB (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2001-03-22 * Nos pênaltis: Atlético-PR 3x2 Treze-PB (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2001-04-05 Guarani-SP 0x2 Atlético-PR (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-04-26 Grêmio-RS 3x1 Santa Cruz-PE (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-04-26 Sport-PE 1x0 Flamengo-PI (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-04-26 Remo-PA 3x2 Ponte Preta-SP (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-03 Atlético-PR 3x1 Portuguesa-SP (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-03 Bahia-BA 0x0 Fortaleza-CE (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 Ponte Preta-SP 4x1 Remo-PA (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 Vitória-BA 0x2 São Paulo-SP (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 Portuguesa-SP 1x1 Atlético-PR (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 Juventude-RS 2x1 Flamengo-RJ (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 * Nos pênaltis: Juventude-RS 2x3 Flamengo-RJ (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 Fluminense-RJ 0x0 Grêmio-RS (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 Fortaleza-CE 3x0 Bahia-BA (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-09 Corinthians-SP 3x0 Flamengo-PI (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-10 Coritiba-PR 4x3 Goiás-GO (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-16 Coritiba-PR 3x2 Flamengo-RJ (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-16 Grêmio-RS 2x1 São Paulo-SP (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-16 Fortaleza-CE 1x0 Ponte Preta-SP (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-17 Corinthians-SP 0x0 Atlético-PR (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-23 Flamengo-RJ 1x1 Coritiba-PR (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-23 São Paulo-SP 3x4 Grêmio-RS (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-23 Ponte Preta-SP 5x2 Fortaleza-CE (copa_do_brasil_2001_tabela.htm)
+2001 | bola sem par no pacote: 2002-05-23 Atlético-PR 0x1 Corinthians-SP (copa_do_brasil_2001_tabela.htm)
+2002 | bola sem par no pacote: 2002-02-20 Flamengo-PI 1x0 Independência-AP (copa_do_brasil_2002_tabela.htm)
+2003 | bola sem par no pacote: 2003-02-05 CFZ-DF 0x0 Fortaleza-CE (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-02-19 Tuna Luso-PA 2x2 Atlético-PR (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-02-19 Fortaleza-CE 1x0 CFZ-DF (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-03-12 ** Nos pênaltis: Juventude-RS 3x5 Caldense-MG (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-03-12 Atlético-PR 1x0 Tuna Luso-PA (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-03-19 Atlético-PR 2x3 Sport-PE (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-03-26 Sport-PE 1x0 Atlético-PR (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-04-02 ** Nos pênaltis: Flamengo-RJ 4x3 Ceará-CE (copa_do_brasil_2003_tabela.htm)
+2003 | bola sem par no pacote: 2003-04-02 ** Nos pênaltis: Goiás-GO 4x2 Ituano-SP (copa_do_brasil_2003_tabela.htm)
+2004 | bola sem par no pacote: 2004-02-04 Chapadão-MS 0x0 Grêmio-RS (copa_do_brasil_2004_tabela.htm)
+2004 | bola sem par no pacote: 2004-02-18 Grêmio-RS 2x1 Chapadão-MS (copa_do_brasil_2004_tabela.htm)
+2004 | bola sem par no pacote: 2004-03-03 U Barbarense-SP 1x0 CENE-MS (copa_do_brasil_2004_tabela.htm)
+2004 | bola sem par no pacote: 2004-05-05 * Nos pênaltis: Palmeiras-SP 3x1 Goiás-GO (copa_do_brasil_2004_tabela.htm)
+2005 | bola sem par no pacote: 2005-02-02 CFZ-DF 0x2 Coritiba-PR (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-02-02 Chapadão-MS 1x2 Internacional-RS (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-02-16 Ulbra-RS 3x0 Treze-PB (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-02-16 Atlético-SC 0x0 Ituano-SP (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-02-16 U Rondonópolis-MT 2x2 Vasco-RJ (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-02-16 Internacional-RS 2x0 Chapadão-MS (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-02-16 # Nos pênaltis: América-MG 2x4 Baraúnas-RN # (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-03-02 Treze-PB 5x0 Ulbra-RS (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-03-02 Vasco-RJ 2x0 U Rondonópolis-MT (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-05-04 # Nos pênaltis: Figueirense-SC 3x2 Corinthians-SP # (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-05-05 # Nos pênaltis: Paulista-SP 4x2 Internacional-RS # (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-05-18 # Nos pênaltis: Treze-PB 8x9 Fluminense-RJ # (copa_do_brasil_2005_tab.htm)
+2005 | bola sem par no pacote: 2005-05-18 # Nos pênaltis: Paulista-SP 3x1 Figueirense-SC # (copa_do_brasil_2005_tab.htm)
+2006 | bola sem par no pacote: 2006-02-15 Parnahyba-PI 0x1 ABC-RN (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-02-15 Atlético-SC 0x3 Atlético-MG (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-02-15 Ulbra-RS 2x4 Iraty-PR (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-02-15 Moto Clube-MA 1x3 Atlético-PR (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-02-22 ABC-RN 5x1 Parnahyba-PI (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-02-22 # Nos pênaltis: América-MG 6x7 Volta Redonda-RJ # (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-03-22 Volta Redonda-RJ 2x1 Atlético-PR (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-04-05 Atlético-PR 0x0 Volta Redonda-RJ (copa_do_brasil_2006_tab.htm)
+2006 | bola sem par no pacote: 2006-05-03 # Nos pênaltis: Ipatinga-MG 5x3 Santos-SP # (copa_do_brasil_2006_tab.htm)
+2007 | bola sem par no pacote: 2007-02-14 Chapadão-MS 0x2 Portuguesa-SP (copa_do_brasil_2007_fase1.htm)
+2007 | bola sem par no pacote: 2007-02-14 Parnahyba-PI 1x2 Náutico-PE (copa_do_brasil_2007_fase1.htm)
+2007 | bola sem par no pacote: 2007-02-21 Coxim-MS 2x5 Atlético-PR (copa_do_brasil_2007_fase1.htm)
+2007 | bola sem par no pacote: 2007-02-21 *Náutico-PE 6x0 Parnahyba-PI (copa_do_brasil_2007_fase1.htm)
+2007 | bola sem par no pacote: 2007-02-22 Marcelo Moreno (V) 17' do 2º; Nos pênaltis: Vitória 3x5 Baraúnas (copa_do_brasil_2007_fase1.htm)
+2007 | bola sem par no pacote: 2007-03-14 Rio Branco-PR 3x0 Villa Nova-MG (copa_do_brasil_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-03-21 Vitória-BA 4x1 Atlético-PR (copa_do_brasil_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-03-21 # Nos pênaltis: Fortaleza-CE 3x5 Atlético-GO # (copa_do_brasil_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-04-05 # Nos pênaltis: Palmeiras-SP 3x4 Ipatinga-MG # (copa_do_brasil_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-04-05 *Atlético-PR 3x0 Vitória-BA (copa_do_brasil_2007_fase2.htm)
+2007 | bola sem par no pacote: 2007-04-18 Atlético-GO 3x1 Atlético-PR (copa_do_brasil_2007_fasefinal.htm)
+2007 | bola sem par no pacote: 2007-04-25 # Nos pênaltis: Sport 2x4 Ipatinga # (copa_do_brasil_2007_fasefinal.htm)
+2007 | bola sem par no pacote: 2007-04-25 *Atlético-PR 2x0 Atlético-GO (copa_do_brasil_2007_fasefinal.htm)
+2007 | bola sem par no pacote: 2007-05-02 Fluminense-RJ 1x1 Atlético-PR (copa_do_brasil_2007_fasefinal.htm)
+2007 | bola sem par no pacote: 2007-05-09 Atlético-PR 0x1 Fluminense-RJ (copa_do_brasil_2007_fasefinal.htm)
+2008 | bola sem par no pacote: 2008-02-13 Ituiutaba-MG 0x0 Atlético-GO (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-02-27 **Atlético-GO 3x2 Ituiutaba-MG (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-02-27 Esportivo Guará-DF 1x3 Nacional-AM (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-02-27 Ulbra-RS 1x1 Brasiliense-DF (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-03-06 **Brasiliense-DF 1x0 Ulbra-RS (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-02-27 Corinthians-AL 1x1 Atlético-PR (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-03-06 Atlético-PR 1x1 Corinthians-AL (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-03-06 # Nos pênaltis: Atlético-PR 3x4 Corinthians-AL # (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-02-27 # Nos pênaltis: Juventude 5x4 Linhares # (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-03-05 # Nos pênaltis: ABC 3x4 Madureira # (copa_do_brasil_2008_fase1.htm)
+2008 | bola sem par no pacote: 2008-04-09 # Nos pênaltis: Grêmio 3x4 Atlético-GO # (copa_do_brasil_2008_fase2.htm)
+2008 | bola sem par no pacote: 2008-03-20 Botafogo-RJ 2x1 Corinthians-SP (copa_do_brasil_2008_fasefinal.htm)
+2008 | bola sem par no pacote: 2008-05-28 Nos pênaltis: Vasco 4x5 Sport (copa_do_brasil_2008_fasefinal.htm)
+2009 | bola sem par no pacote: 2009-03-04 " Nos pênaltis: Portuguesa 3x4 Icasa " (copa_do_brasil_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-03-18 " Nos pênaltis: Vitória 5x4 ASA " (copa_do_brasil_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-03-04 " Nos pênaltis: Campinense 2x3 Misto " (copa_do_brasil_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-03-04 Tocantins-TO 0x3 Atlético-PR (copa_do_brasil_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-03-05 " Nos pênaltis: Paraná 4x2 Mixto " (copa_do_brasil_2009_fase1.htm)
+2009 | bola sem par no pacote: 2009-04-08 ABC-RN 2x2 Atlético-PR (copa_do_brasil_2009_fase2.htm)
+2009 | bola sem par no pacote: 2009-04-22 *Atlético-PR 3x1 ABC-RN (copa_do_brasil_2009_fase2.htm)
+2009 | bola sem par no pacote: 2009-04-16 " Nos pênaltis: Botafogo 4x5 Americano " (copa_do_brasil_2009_fase2.htm)
+2009 | bola sem par no pacote: 2009-05-06 " Nos pênaltis: Atlético-MG 4x5 Vitória-BA " (copa_do_brasil_2009_fasefinal.htm)
+2009 | bola sem par no pacote: 2009-04-29 Atlético-PR 3x2 Corinthians-SP (copa_do_brasil_2009_fasefinal.htm)
+2009 | bola sem par no pacote: 2009-05-06 *Corinthians-SP 2x0 Atlético-PR (copa_do_brasil_2009_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-02-10 Corinthians-PR 1x0 Juventude-RS (copa_do_brasil_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-02-24 Juventude-RS 0x1 Corinthians-PR (copa_do_brasil_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-02-24 Ituiutaba-MG 2x3 Goiás-GO (copa_do_brasil_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-03-10 *Goiás-GO 0x0 Ituiutaba-MG (copa_do_brasil_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-02-10 Vilhena-RO 2x2 Atlético-PR (copa_do_brasil_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-02-24 *Atlético-PR 4x0 Vilhena-RO (copa_do_brasil_2010_fase1.htm)
+2010 | bola sem par no pacote: 2010-03-17 Corinthians-PR 2x1 Ceará-CE (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-03-31 Ceará-CE 1x1 Corinthians-PR (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-03-17 Sampaio Corrêa-MA 1x1 Atlético-PR (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-04-01 *Atlético-PR 2x0 Sampaio Corrêa-MA (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-03-31 # Nos pênaltis: Guarani 4x3 Fortaleza # (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-04-14 Corinthians-PR 0x1 Vasco-RJ (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-04-21 *Vasco-RJ 2x1 Corinthians-PR (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-04-15 Palmeiras-SP 1x0 Atlético-PR (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-04-21 Atlético-PR 1x1 Palmeiras-SP (copa_do_brasil_2010_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-05-05 # Nos pênaltis: Atlético 2x1 Palmeiras # (copa_do_brasil_2010_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-02-16 Iraty-PR 3x1 Grêmio Prudente-SP (copa_do_brasil_2011_fase1.htm)
+2011 | bola sem par no pacote: 2011-02-23 *Grêmio Prudente-SP 3x0 Iraty-PR (copa_do_brasil_2011_fase1.htm)
+2011 | bola sem par no pacote: 2011-02-23 Rio Branco-AC 2x1 Atlético-PR (copa_do_brasil_2011_fase1.htm)
+2011 | bola sem par no pacote: 2011-03-02 *Atlético-PR 3x1 Rio Branco-AC (copa_do_brasil_2011_fase1.htm)
+2011 | bola sem par no pacote: 2011-03-02 # Nos pênaltis: Botafogo 4x1 River Plate # (copa_do_brasil_2011_fase1.htm)
+2011 | bola sem par no pacote: 2011-03-31 Grêmio Prudente-SP 2x1 Atlético-MG (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-04-06 Atlético-MG 0x0 Grêmio Prudente-SP (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-03-16 Paulista-SP 0x2 Atlético-PR (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-04-21 Ceará-CE 2x1 Grêmio Prudente-SP (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-04-27 Grêmio Prudente-SP 1x2 Ceará-CE (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-04-13 Bahia-BA 1x1 Atlético-PR (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-04-20 *Atlético-PR 5x0 Bahia-BA (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-05-04 Atlético-PR 2x2 Vasco-RJ (copa_do_brasil_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-05-12 *Vasco-RJ 1x1 Atlético-PR (copa_do_brasil_2011_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-03-14 # Nos pênaltis: América 2x4 Horizonte # (copa_do_brasil_2012_fase1.htm)
+2012 | bola sem par no pacote: 2012-03-07 Sampaio Corrêa-MA 2x1 Atlético-PR (copa_do_brasil_2012_fase1.htm)
+2012 | bola sem par no pacote: 2012-03-15 *Atlético-PR 1x0 Sampaio Corrêa-MA (copa_do_brasil_2012_fase1.htm)
+2012 | bola sem par no pacote: 2012-03-14 Santa Quitéria-MA 2x3 ASA-AL (copa_do_brasil_2012_fase1.htm)
+2012 | bola sem par no pacote: 2012-03-21 *ASA-AL 2x1 Santa Quitéria-MA (copa_do_brasil_2012_fase1.htm)
+2012 | bola sem par no pacote: 2012-03-21 # Nos pênaltis: Botafogo 3x2 Treze # (copa_do_brasil_2012_fase1.htm)
+2012 | bola sem par no pacote: 2012-04-05 Criciúma-SC 1x2 Atlético-PR (copa_do_brasil_2012_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-04-12 *Atlético-PR 5x1 Criciúma-SC (copa_do_brasil_2012_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-04-18 # Nos pênaltis: Ponte Preta 4x3 Atlético-GO # (copa_do_brasil_2012_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-05-02 Atlético-PR 1x0 Cruzeiro-MG (copa_do_brasil_2012_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-05-09 Cruzeiro-MG 1x2 Atlético-PR (copa_do_brasil_2012_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-05-16 Atlético-PR 2x2 Palmeiras-SP (copa_do_brasil_2012_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-05-23 *Palmeiras-SP 2x0 Atlético-PR (copa_do_brasil_2012_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-04-17 # Nos pênaltis: Sampaio Corrêa 6x7 Campinense # (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-11 Parnahyba-PI 1x3 ABC-RN (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-17 # Nos pênaltis: São Caetano 1x3 Arapongas # (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-03 Brasil-RS 0x1 Atlético-PR (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-17 Atlético-PR 2x0 Brasil-RS (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-03 Bangu-RJ 1x2 Betim-MG (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-17 Betim-MG 1x0 Bangu-RJ (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-17 # Nos pênaltis: Guarani 1x4 Confiança # (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-04-17 Fortaleza-CE 0x0 Luziânia-DF (copa_do_brasil_2013_fase1.htm)
+2013 | bola sem par no pacote: 2013-05-08 # Nos pênaltis: Ceará 3x4 ASA # (copa_do_brasil_2013_fase2.htm)
+2013 | bola sem par no pacote: 2013-05-09 América-RN 2x6 Atlético-PR (copa_do_brasil_2013_fase2.htm)
+2013 | bola sem par no pacote: 2013-05-01 CRAC-GO 3x2 Betim-MG (copa_do_brasil_2013_fase2.htm)
+2013 | bola sem par no pacote: 2013-05-15 Betim-MG 0x1 CRAC-GO (copa_do_brasil_2013_fase2.htm)
+2013 | bola sem par no pacote: 2013-07-24 # Nos pênaltis: Figueirense 4x5 Botafogo # (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-07-17 Paysandu-PA 0x0 Atlético-PR (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-07-24 Atlético-PR 2x1 Paysandu-PA (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-08-21 Palmeiras-SP 1x0 Atlético-PR (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-08-28 Atlético-PR 3x0 Palmeiras-SP (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-10-23 # Nos pênaltis: Grêmio 3x2 Corinthians # (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-09-26 Internacional-RS 1x1 Atlético-PR (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-10-23 Atlético-PR 0x0 Internacional-RS (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-10-30 Atlético-PR 1x0 Grêmio-RS (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-11-06 Grêmio-RS 0x0 Atlético-PR (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-11-20 ATLÉTICO-PR 1x1 FLAMENGO-RJ (copa_do_brasil_2013_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-11-27 FLAMENGO-RJ 2x0 ATLÉTICO-PR (copa_do_brasil_2013_fasefinal.htm)
+2014 | bola sem par no pacote: 2014-04-24 # Nos pênaltis: Vitória 3x5 J.Malucelli # (copa_do_brasil_2014_fase1.htm)
+2014 | bola sem par no pacote: 2014-04-09 # Nos pênaltis: Náutico 3x1 Sergipe # (copa_do_brasil_2014_fase1.htm)
+2014 | bola sem par no pacote: 2014-04-30 Parnahyba-PI 0x1 Ceará-CE (copa_do_brasil_2014_fase1.htm)
+2014 | bola sem par no pacote: 2014-05-07 Ceará-CE 4x1 Parnahyba-PI (copa_do_brasil_2014_fase1.htm)
+2014 | bola sem par no pacote: 2014-05-06 # Nos pênaltis: Ponte Preta 8x7 Paraná # (copa_do_brasil_2014_fase2.htm)
+2014 | bola sem par no pacote: 2014-07-23 # Nos pênaltis: Figueirense 3x4 Bragantino # (copa_do_brasil_2014_fase2.htm)
+2014 | bola sem par no pacote: 2014-09-03 # Nos pênaltis: Flamengo 3x2 Coritiba # (copa_do_brasil_2014_fasefinal.htm)
+2014 | bola sem par no pacote: 2014-08-27 América-RN 3x0 Atlético-PR (copa_do_brasil_2014_fasefinal.htm)
+2014 | bola sem par no pacote: 2014-09-03 Atlético-PR 2x0 América-RN (copa_do_brasil_2014_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-04-23 # NOS PÊNALTIS: PARANÁ 4x5 JACUIPENSE # (copa_do_brasil_2015_fase1.htm)
+2015 | bola sem par no pacote: 2015-04-15 # NOS PÊNALTIS: BOA ESPORTE 3x4 MOTO CLUB # (copa_do_brasil_2015_fase1.htm)
+2015 | bola sem par no pacote: 2015-04-02 Remo-PA 1x1 Atlético-PR (copa_do_brasil_2015_fase1.htm)
+2015 | bola sem par no pacote: 2015-04-15 Atlético-PR 1x1 Remo-PA (copa_do_brasil_2015_fase1.htm)
+2015 | bola sem par no pacote: 2015-04-15 # NOS PÊNALTIS: ATLÉTICO 5x4 REMO # (copa_do_brasil_2015_fase1.htm)
+2015 | bola sem par no pacote: 2015-05-13 # NOS PÊNALTIS: SPORT 4x2 CHAPECOENSE # (copa_do_brasil_2015_fase2.htm)
+2015 | bola sem par no pacote: 2015-05-13 # NOS PÊNALTIS: CORITIBA 11x10 FORTALEZA # (copa_do_brasil_2015_fase2.htm)
+2015 | bola sem par no pacote: 2015-04-28 Tupi-MG 1x0 Atlético-PR (copa_do_brasil_2015_fase2.htm)
+2015 | bola sem par no pacote: 2015-05-06 Atlético-PR 2x1 Tupi-MG (copa_do_brasil_2015_fase2.htm)
+2015 | bola sem par no pacote: 2015-07-22 # NOS PÊNALTIS: PONTE PRETA 1x3 CORITIBA # (copa_do_brasil_2015_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-07-21 # NOS PÊNALTIS: CRICIÚMA 3x4 GRÊMIO # (copa_do_brasil_2015_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-10-28 # NOS PÊNALTIS: PALMEIRAS 4x1 FLUMINENSE # (copa_do_brasil_2015_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-12-02 # NOS PÊNALTIS: PALMEIRAS 4x3 SANTOS # (copa_do_brasil_2015_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-06-15 # NOS PÊNALTIS: ABC 1x4 GAMA # (copa_do_brasil_2016_fase2.htm)
+2016 | bola sem par no pacote: 2016-05-11 Dom Bosco-MT 2x2 Atlético-PR (copa_do_brasil_2016_fase2.htm)
+2016 | bola sem par no pacote: 2016-05-18 Atlético-PR 5x0 Dom Bosco-MT (copa_do_brasil_2016_fase2.htm)
+2016 | bola sem par no pacote: 2016-07-21 Atlético-PR 0x0 Chapecoense-SC (copa_do_brasil_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-07-27 Chapecoense-SC 1x1 Atlético-PR (copa_do_brasil_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-08-24 Atlético-PR 0x1 Grêmio-RS (copa_do_brasil_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-09-21 Grêmio-RS 0x1 Atlético-PR (copa_do_brasil_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-09-21 # NOS PÊNALTIS: GRÊMIO 4x3 ATLÉTICO-PR # (copa_do_brasil_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-10-19 # NOS PÊNALTIS: JUVENTUDE 2x4 ATLÉTICO-MG # (copa_do_brasil_2016_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-02-15 Uniclinic-CE 1x2 Portuguesa-SP (copa_do_brasil_2017_fase1.htm)
+2017 | bola sem par no pacote: 2017-02-22 # Nos Pênaltis: Murici 5x4 América-MG # (copa_do_brasil_2017_fase2.htm)
+2017 | bola sem par no pacote: 2017-02-22 # Nos Pênaltis: Criciúma 4x3 Altos # (copa_do_brasil_2017_fase2.htm)
+2017 | bola sem par no pacote: 2017-03-01 # Nos Pênaltis: Brusque 4x5 Corinthians # (copa_do_brasil_2017_fase2.htm)
+2017 | bola sem par no pacote: 2017-03-01 # Nos Pênaltis: Avaí 2x3 Luverdense # (copa_do_brasil_2017_fase2.htm)
+2017 | bola sem par no pacote: 2017-03-02 # Nos Pênaltis: Ponte Preta 4x5 Cuiabá # (copa_do_brasil_2017_fase2.htm)
+2017 | bola sem par no pacote: 2017-03-01 # Nos Pênaltis: Boa Esporte 2x3 Goiás # (copa_do_brasil_2017_fase2.htm)
+2017 | bola sem par no pacote: 2017-03-01 # Nos Pênaltis: ABC 4x1 Audax # (copa_do_brasil_2017_fase2.htm)
+2017 | bola sem par no pacote: 2017-05-10 Santa Cruz-PE 0x0 Atlético-PR (copa_do_brasil_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-05-31 Atlético-PR 2x0 Santa Cruz-PE (copa_do_brasil_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-06-28 Grêmio-RS 4x0 Atlético-PR (copa_do_brasil_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-27 Atlético-PR 2x3 Grêmio-RS (copa_do_brasil_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-08-23 # NOS PÊNALTIS: CRUZEIRO 3x2 GRÊMIO # (copa_do_brasil_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-09-27 # NOS PÊNALTIS: CRUZEIRO 5x3 FLAMENGO # (copa_do_brasil_2017_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-01-30 Caxias-RS 0x0 Atlético-PR (copa_do_brasil_2018_fase1.htm)
+2018 | bola sem par no pacote: 2018-02-07 Parnahyba-PI 1x1 Coritiba-PR (copa_do_brasil_2018_fase1.htm)
+2018 | bola sem par no pacote: 2018-02-28 Atlético-PR 0x0 Ceará-CE (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-03-15 Ceará-CE 1x1 Atlético-PR (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-03-15 # Nos pênaltis: Ceará 5x6 Atlético-PR # (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-04-04 Atlético-PR 2x1 São Paulo-SP (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-04-19 São Paulo-SP 2x2 Atlético-PR (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-04-19 # Nos pênaltis: Vitória 4x3 Internacional # (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-05-16 # Nos pênaltis: Chapecoense 4x3 Atlético # (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-05-16 Atlético-PR 1x2 Cruzeiro-MG (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-07-16 Cruzeiro-MG 1x1 Atlético-PR (copa_do_brasil_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-08-15 # Nos pênaltis: Cruzeiro 3x0 Santos # (copa_do_brasil_2018_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-02-12 Aparecidense-GO 1x0 Ponte Preta-SP (copa_do_brasil_2019_fase1.htm)
+2019 | bola sem par no pacote: 2019-02-19 ** Nos pênaltis: Londrina 5x4 Paraná (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-02-20 ** Nos pênaltis: Santa Cruz 4x2 Náutico (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-02-21 ** Nos pênaltis: Criciúma 7x6 Oeste (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-02-21 ** Nos pênaltis: Goiás 2x3 CRB (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-02-27 ** Nos pênaltis: Foz do Iguaçu 2x4 Ceará (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-02-27 ** Nos pênaltis: URT 4x5 Vila Nova (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-02-28 ** Nos pênaltis: Tombense 6x7 Botafogo (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-03-07 ** Nos pênaltis: ABC 5x3 Moto Club (copa_do_brasil_2019_fase2.htm)
+2019 | bola sem par no pacote: 2019-04-24 Juventude-RS 0x0 Bragantino-PA (copa_do_brasil_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-05-07 Bragantino-PA 0x0 Juventude-RS (copa_do_brasil_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-05-07 # Nos pênaltis: Bragantino 3x4 Juventude # (copa_do_brasil_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-04-25 # Nos pênaltis: Santa Cruz 2x3 Fluminense # (copa_do_brasil_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-07-17 Paysandu-PA 0x1 Internacional-RS (copa_do_brasil_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-06-05 # Nos pênaltis: Cruzeiro 3x1 Fluminense # (copa_do_brasil_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-07-17 # Nos pênaltis: Internacional 5x4 Palmeiras # (copa_do_brasil_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-09-04 # Nos pênaltis: Athletico 5x4 Grêmio # (copa_do_brasil_2019_fasefinal.htm)
+2020 | bola sem par no pacote:  INDEPENDENTE 2x3 CRB (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-19 ** Nos pênaltis: Paysandu 3x5 CRB (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-19 ** Nos pênaltis: Náutico 3x4 Botafogo (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-19 ** Nos pênaltis: Oeste 2x4 Ceará (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-26 ** Nos pênaltis: XV de Piracicaba 7x8 Juventude (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-26 ** Nos pênaltis: Ríver 3x4 América (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-26 ** Nos pênaltis: Afogados 7x6 Atlético (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-27 ** Nos pênaltis: São José 5x4 Chapecoense (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-02-27 ** Nos pênaltis: Ponte Preta 5x3 Vila Nova (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-03-04 ** Nos pênaltis: Boa Esporte 4x5 Cruzeiro (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-03-04 ** Nos pênaltis: Atlético 4x3 Santa Cruz (copa_do_brasil_2020_fase2.htm)
+2020 | bola sem par no pacote: 2020-08-26 ** Nos pênaltis: América 3x5 Juventude (copa_do_brasil_2020_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-08-26 ** Nos pênaltis: Goiás 2x3 Vasco (copa_do_brasil_2020_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-10-25 # Nos pênaltis: São Paulo 10x9 Fortaleza # (copa_do_brasil_2020_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-11-18 # Nos pênaltis: América 6x5 Internacional # (copa_do_brasil_2020_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-03-26 ** Nos pênaltis: Corinthians 5x3 Retrô (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote: 2021-04-07 ** Nos pênaltis: Juazeirense 4x2 Volta Redonda (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote: 2021-04-08 ** Nos pênaltis: Criciúma 5x4 Ponte Preta (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote: 2021-04-08 ** Nos pênaltis: Vila Nova 4x3 Juventude (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote: 2021-04-13 ** Nos pênaltis: CSA 5x6 Remo (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote: 2021-04-14 ** Nos pênaltis: América 3x2 Ferroviário (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote: 2021-04-14 ** Nos pênaltis: ABC 4x1 Botafogo (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote: 2021-04-15 ** Nos pênaltis: 4 de Julho 5x4 Cuiabá (copa_do_brasil_2021_fase2.htm)
+2021 | bola sem par no pacote:  Águia Negra (MS) 0x1 Vitória (copa_do_brasil_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-06-09 ** Nos pênaltis: Palmeiras 3x4 CRB (copa_do_brasil_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-06-09 ** Nos pênaltis: Criciúma 3x2 América (copa_do_brasil_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-06-09 ** Nos pênaltis: Juazeirense 3x2 Cruzeiro (copa_do_brasil_2021_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-03-08 *** Nos pênaltis: Figueirense 2x4 Cuiabá (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2022-03-08 *** Nos pênaltis: Fluminense 4x5 Santos (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2022-03-09 *** Nos pênaltis: Juazeirense 4x2 Vasco (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2022-03-10 *** Nos pênaltis: Pouso Alegre 2x3 Coritiba (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2022-03-15 *** Nos pênaltis: Guarani 4x5 Vila Nova (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2022-03-16 *** Nos pênaltis: ABC 2x4 Altos (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2022-03-16 *** Nos pênaltis: Moto Club 2x4 Tombense (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2022-03-16 *** Nos pênaltis: Globo 1x4 Brasiliense (copa_do_brasil_2022_fase2.htm)
+2022 | bola sem par no pacote: 2021-06-01 URT-MG 1x1 Avaí-SC (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2021-06-01 Flamengo-RJ 2x0 Atlético-MG (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2021-06-01 Flamengo-RJ 1x1 Corinthians-SP (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2021-06-01 Flamengo-RJ 0x0 Athletico-PR (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2021-06-01 Flamengo-RJ 1x0 São Paulo-SP (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2021-06-01 Fluminense-RJ 2x2 Fortaleza-CE (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-05-31 *** Nos pênaltis: Red Bull Bragantino 8x9 Goiás (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-05-11 *** Nos pênaltis: Cuiabá 3x5 Atlético (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-05-10 *** Nos pênaltis: Azuriz 3x4 Bahia (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-05-12 *** Nos pênaltis: Cruzeiro 5x4 Remo (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-14 *** Nos pênaltis: Palmeiras 3x4 São Paulo (copa_do_brasil_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-10-19 *** Nos pênaltis: Flamengo 6x5 Corinthians (copa_do_brasil_2022_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-03-01 Parnahyba-PI 0x0 Botafogo-SP (copa_do_brasil_2023_fase1.htm)
+2023 | bola sem par no pacote: 2023-03-14 *** Nos pênaltis: Coritiba 6x5 Criciúma (copa_do_brasil_2023_fase2.htm)
+2023 | bola sem par no pacote: 2023-03-15 *** Nos pênaltis: Águia de Marabá 7x6 Goiás (copa_do_brasil_2023_fase2.htm)
+2023 | bola sem par no pacote: 2023-03-15 *** Nos pênaltis: Atlético-GO 4x5 Volta Redonda (copa_do_brasil_2023_fase2.htm)
+2023 | bola sem par no pacote: 2023-03-15 *** Nos pênaltis: Ituano 4x2 Ceará (copa_do_brasil_2023_fase2.htm)
+2023 | bola sem par no pacote: 2023-03-16 *** Nos pênaltis: Vasco 5x6 ABC (copa_do_brasil_2023_fase2.htm)
+2023 | bola sem par no pacote:  Marcílio Dias 1x0 Chapecoense (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  Flamengo 2x0 Fluminense (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  São Paulo 1x1 Flamengo (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  São Paulo 2x0 Corinthians (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  Caucaia 0x0 Tombense (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  Tombense 1x0 Retrô (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  Falcon 1x3 Volta Redonda (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  Tuntum 0x5 ABC (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote:  Placar mais repetido 1x1 . (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-04-26 *** Nos pênaltis: Corinthians 5x4 Remo (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-04-27 *** Nos pênaltis: CSA 6x7 Internacional (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-04-25 *** Nos pênaltis: Athletico 4x2 CRB (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-05-31 *** Nos pênaltis: Internacional 4x5 América (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-06-01 *** Nos pênaltis: São Paulo 5x3 Sport (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-05-31 *** Nos pênaltis: Botafogo 2x4 Athletico (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-05-31 *** Nos pênaltis: Bahia 4x3 Santos (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-08-12 *** Nos pênaltis: Corinthians 3x1 América (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-08-12 *** Nos pênaltis: Grêmio 4x3 Bahia (copa_do_brasil_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-08-12 Athletico-PR 0x2 Flamengo-RJ (copa_do_brasil_2023_fasefinal.htm)
+2024 | bola sem par no pacote:  PORTO VELHO 1x0 REMO (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-13 ### Nos pênaltis: Sampaio Corrêa 5x3 Ferroviário ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-14 ### Nos pênaltis: Fortaleza 3x2 Retrô ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-12 ### Nos pênaltis: Portuguesa 3x4 Cuiabá ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-12 ### Nos pênaltis: ABC 4x5 Brusque ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-12 ### Nos pênaltis: Caxias 5x6 Bahia ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-13 ### Nos pênaltis: Sport 5x4 Murici ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-07 ### Nos pênaltis: Vasco 4x1 Água Santa ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-03-14 ### Nos pênaltis: Brasiliense 1x3 Criciúma ### (copa_do_brasil_2024_fase2.htm)
+2024 | bola sem par no pacote: 2024-05-23 ### Nos pênaltis: Cuiabá 1x3 Goiás ### (copa_do_brasil_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-05-21 ### Nos pênaltis: Vasco 5x4 Fortaleza ### (copa_do_brasil_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-07 ### Nos pênaltis: Grêmio 1x3 Corinthians ### (copa_do_brasil_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-09-11 ### Nos pênaltis: Athletico 4x5 Vasco ### (copa_do_brasil_2024_fasefinal.htm)

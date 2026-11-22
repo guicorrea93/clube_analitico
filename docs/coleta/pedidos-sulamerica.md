@@ -425,3 +425,12 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    quando o Guilherme pedir.
 
 Documentação: `coleta/comum-sulamerica/documentacao/ven-1.md`; relatório: `docs/coleta/ven-1.md`.
+
+## Revisão profunda (22/11/2026)
+
+- **174 ids abertos** para a coleta América do Sul; **52 altos**; **37 no ar** (Argentino 14, Chileno 9, Colombiano 6,
+  Paraguaio 5, Uruguaio 3).
+- Competições: Argentino 41, Chileno 26, Paraguaio 24, Colombiano 22, Peruano 22, Uruguaio 21, Equatoriano 18.
+- Plano pronto, em ordem e por arquivo do código: `docs/revisao/plano-coleta-sulamerica.md`. Começar só quando o
+  Guilherme mandar.
+- Decisões que esperam o Guilherme: `docs/revisao/decisoes-guilherme.md`. Fontes: `docs/revisao/fontes.md`.

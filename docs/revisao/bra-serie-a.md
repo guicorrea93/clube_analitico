@@ -82,3 +82,38 @@ Há ainda o vice de 1968 (Robertão), artilharia ausente antes de 2003 e número
    jogos, como hoje? E a coluna Pts deve ser a pontuação oficial da época?
 5. **Tribunal:** aplicar os resultados do tribunal nos jogos e na tabela, como em 1999 (Sandro Hiroshi), em 2016 (W.O. duplo
    na Wikipédia en, "não disputado" na RSSSF) e em 1986 (Joinville x Sergipe: 1-0 de W.O. ou 1-1)?
+
+## 3ª rodada (22/11/2026)
+
+Revisor QA. Foco: fontes que nenhuma etapa usou, conferidas por década contra o banco (`db/futebol.db`, só leitura). Scripts em `revisao/QA/`, páginas em `data/cache/revisao/QA/`, listas de datas em `revisao/QA/saida/`. O painel local e o publicado são iguais (mesmo md5 de `dados/bra-serie-a.js`).
+
+**Fontes novas e amostra por década** (jogos casados; placar igual / data igual):
+
+| Década | Fonte | Edições | Jogos | Placar | Data |
+|---|---|---|---|---|---|
+| 1930 | Campeões do Futebol | 1937 | 14 | 13 | 11 (os 4 erros são da fonte: a pt confirma o banco) |
+| 1950 | Bola na Área | 1959 | 35 | 28 | 27 (erros do banco: QA-002) |
+| 1960 | Campeões do Futebol; BNA | Robertão 1967; Taça 1960 | 133 | 133 | 133 |
+| 1970 | Bola na Área | 1971, 1974, 1975, 1979 | 1.620 | 1.603 | 1.570 |
+| 1980 | Bola na Área; Transfermarkt | 1980, 1984-1989 | 1.396; 1.114 | 1.370; 1.017* | 1.350; 1.040 |
+| 1990 | Bola na Área; Transfermarkt | 1990-1999 | 1.538; 2.498 | 1.524; 2.493 | 1.294; 2.138 |
+| 2000 | Transfermarkt; BNA | 2000, 2001, 2005, 2008 | 1.558; 1.224 | 1.556; 1.202 | 1.554; 1.192 |
+| 2010 | Transfermarkt; BNA | 2015 | 380; 379 | 380; 379 | 380; 379 |
+| 2020 | Transfermarkt; BNA | 2022 | 380; 379 | 380; 379 | 363; 369 |
+
+\* o Transfermarkt soma os pênaltis ao placar nos 96 empates de 1988.
+
+Cada diferença foi conferida: quase todas são erro da própria fonte (ou ida e volta trocadas). Viraram achado só as que duas fontes independentes confirmam:
+- **QA-001** (média): 2001, Bahia 3x2 Ponte Preta e Fluminense 3x2 Ponte Preta (banco 3x1 e 2x1). Fecha a diferença de gols que sobrou no SA-012.
+- **QA-002** (média): Taça Brasil 1959, Atlético-MG 2x1 Rio Branco-ES (103 gols na edição, banco 102), 3º jogo da final em 29/03/1960 (banco 03/03), desempate Ceará x ABC sem data e mando/data trocados em 6 jogos.
+- **QA-003** (média): datas: 1995 com 89 jogos sem data (81 achadas), 1974 com 12; datas erradas em 1991 (18), 1999 (14), 1995 (12), 1988, 1993 e 1994. Com elas, o conflito de 1991 zera e os de 1999 caem de 7 para 4.
+- **QA-004** (baixa): 1988, pênaltis dos 96 empates só na observação.
+- SA-017 ganhou explicação: 1979 Central 0x1 Vasco; 1984 Portuguesa 0x1 Botafogo (BNA e tabelas en/pt). SA-009: a BNA dá a mesma ordem do banco (sugestão: `nao-e-erro`). SA-025: datas reais de 1996-1998 por TM + BNA.
+
+**Buracos de cobertura (seção 4):** o banco não tem autores antes de 2003, nem público e árbitro em nenhum ano. As fichas do Transfermarkt têm autores completos desde 1985 (37 de 38 gols na amostra) e público e árbitro em 2015 e 2022 (antes, só em parte); o ogol tem autores e árbitro em parte dos anos 1970; a Bola na Área tem público em boa parte de 2008 e 2015. Custo e caminho em `fontes_QA.md` e `plano_QA.md` (scratchpad).
+
+**Varredura de tela e datas repetidas** (`revisao/QA/varredura.py`, `datas_repetidas.py`): clube com 2 jogos no mesmo dia em 1963 (3), 1989 (2), 1991 (2), 1994 (4), 1997 (3) e 1999 (12); 1961 com fase fora de ordem e 1987 com semifinalistas em 5º e 6º (já conhecidos). 2008-2010 zeraram.
+
+**Outras fontes testadas:** CBF (jogos só por API; súmula antiga dá 404), Futebol Interior (2006+ por API), Hemeroteca (só jogo a jogo, à mão), RSSSF Brasil (não respondeu em 22/11).
+
+Entregas no scratchpad: `achados_QA.csv` (QA-001 a QA-012; 4 desta competição), `sugestoes_QA.csv` (SA-009, SA-016, SA-017, SA-025, CL-025, CL-029, TL-002), `fontes_QA.md`, `decisoes_QA.md` (QA-D3 e perguntas antigas de 1987, 1967/68 e 2016), `plano_QA.md`.

@@ -87,3 +87,38 @@ As páginas pt/en já estavam guardadas pela coleta (`data/coleta/bra-serie-c/wi
 4. 2011: os 3 jogos do Rio Branco-AC, excluído pelo STJD, saem da classificação, como na Wikipédia? (SC-013)
 5. 1988: usar a pontuação da época (3 pontos, mais os pênaltis no empate)? Isso exige os pênaltis de cada empate. (SC-007)
 6. Quando RSSSF e ogol divergem e a Wikipédia confirma o ogol, prevalece o ogol? (SC-014)
+
+## 3ª rodada (22/11/2026) — revisor QC
+
+**O que foi feito.** Fontes novas (nenhuma usada pela coleta nem pelas revisões): Bola n@ Área (todas as páginas da Série C
+1981-2024), transfermarkt (calendários de 2010, 2013, 2015, 2019, 2021, 2023, 2025 e 2026), súmulas da CBF (teste) e
+Futebol Nacional (todas as edições). Comparação jogo a jogo por clubes + data, por década. Scripts em `revisao/QC/`; páginas em
+`data/cache/revisao/QC/`; detalhes das fontes em `SCRATCH/fontes_QC.md`.
+
+**Amostra por década (Bola n@ Área; placar igual / data igual, jogos casados):**
+- 1980s: 242/244 e 237/244 · 1990s: 1.767/1.793 e 1.387/1.782 · 2000s: 2.390/2.407 e 1.904/2.335 · 2010s: 1.556/1.557 e
+  1.464/1.557 · 2020s: 1.057/1.059 e 1.031/1.059.
+- transfermarkt: 2010s placar 468/468, data 415/468; 2020s 638/638 e 637/638.
+- Futebol Nacional (jogos só em 1998-1999 e 2007-2026): 1990s 584/590 e 570/590; 2000s 819/821 e 806/821; 2010s 1.736/1.736 e
+  1.665/1.736; 2020s 1.492/1.492 e 1.449/1.492.
+- As datas diferentes dos anos 1990-2000 são quase todas do Bola (data da rodada): em 95% delas o ogol fica com o pacote.
+
+**Achados novos:** QC-002 (média: 58 datas com 1 dia a mais, o "dia seguinte" do ogol em jogo noturno: 2019 39 jogos, 2013 os 12
+jogos do Rio Branco-AC, 2015 5, 2010 2; mais 37 jogos de 2026 pelo transfermarkt e pelo Futebol Nacional), QC-011 (média: 2007
+ABC 4x0 Vera Cruz-PE, não 3x0: ogol, Bola, Futebol Nacional e a tabela da pt contra a RSSSF), QC-012 (baixa: 17 placares em que
+ogol e Bola ficam contra a RSSSF; precisam de 4ª fonte), QC-006 (baixa: 47 datas da RSSSF contra ogol +
+Bola), QC-007 (baixa: 3 observações em inglês), QC-009 (baixa: "Manchete" em 1981, todas as fontes dizem Santo Amaro).
+
+**Abertos antigos:**
+- SC-016: o Bola confirma o pacote em 9 dos 12 jogos (nao-e-erro). Em 1992 Nacional-AM x Tuna Luso, 1992 Rio Branco-MG x Marília e
+  1994 Caldas x Vila Nova-GO o Bola fica com a Wikipédia, mas as páginas pt/en desses anos citam o Bola como fonte: linhagem contra
+  linhagem (decisão QC-D2; jornal da época).
+- SC-021: jogos de 1995, 2011 e 2012 e gols de 2001 batem com o Bola (nao-e-erro); 1999 (226 x 224) são os 2 jogos-desempate.
+- SC-018: decisão antiga, entrada completa em `SCRATCH/decisoes_QC.md`.
+
+**Buracos de cobertura (seção 4 da ficha):** público (0%) e árbitro: Bola n@ Área tem público em 853 jogos dos anos 2010 e 188 dos
+2000; autores completos que faltam: ~1.400 gols (2000s e 2010s) no Bola; 1994-2001 só pela ficha do ogol (jogo a jogo); cartões:
+súmulas da CBF 2013+ (jogo a jogo).
+
+**Perguntas ao Guilherme:** QC-D1 (nome da época: Santo Amaro 1981), QC-D2 (3 placares), SC-018 e 1987/2000 (antigas). Ver
+`SCRATCH/decisoes_QC.md`.

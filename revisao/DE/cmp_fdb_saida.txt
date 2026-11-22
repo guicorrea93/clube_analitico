@@ -1,0 +1,18 @@
+Resultado da 1ª rodada de revisao/DE/cmp_fdb.py (22/11/2026). Depois de ~40 páginas o footballdatabase.eu passou a devolver a
+página "Adblocker detected" e a 2ª rodada não rodou. As páginas boas foram apagadas do cache por engano; os números abaixo
+são os da tela da 1ª rodada.
+
+1963/64 rodadas [1, 15, 30]: 18 jogos, 18 iguais (data, placar, rodada), 0 diferentes
+1966/67 rodadas [4, 20, 33]: 24 jogos, 24 iguais
+1972/73 rodadas [5, 18, 34, 10]: 32 jogos, 31 iguais, 1 diferente
+  DIF rodada 10: Werder Bremen x Borussia Mönchengladbach: pacote 1972-12-06 1-1 | fdb 1972-12-13 1-1   (transfermarkt e RSSSF: 06/12; erro do fdb)
+1977/78 rodadas [3, 11, 25, 10]: 28 jogos, 27 iguais, 1 diferente
+  DIF rodada 10: 1860 Munique x Stuttgart: pacote 1977-10-01 1-2 | fdb 1977-09-01 1-2   (transfermarkt e RSSSF: 01/10; erro do fdb)
+  (os outros 4 jogos da rodada 10 "batem" porque o fdb repete a data errada do pacote, 01/09; ver DE-003)
+1982/83 rodadas [6, 21, 32, 8]: 32 jogos, 32 iguais   (rodada 8: o fdb repete a data errada 01/09 do pacote)
+1983/84 rodadas [3]: 8 jogos, 8 iguais
+1984/85 rodadas [2, 16, 29, 13]: 32 jogos, 32 iguais
+1990/91 rodadas [7, 19, 34, 27]: 32 jogos, 32 iguais
+1993/94 rodadas [1, 2, 3]: 24 jogos, 24 iguais
+1996/97 rodadas [26, 27, 30]: 8 jogos, 8 iguais   (rodadas 27 e 30 já bloqueadas)
+Total: 238 jogos, 236 iguais, 2 diferentes.

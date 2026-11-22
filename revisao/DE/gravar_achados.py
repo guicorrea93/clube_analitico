@@ -1,0 +1,156 @@
+"""Grava SCRATCH/achados_DE.csv (achados da revisão do ger-1, 22/11/2026). Uso: python -I revisao/DE/gravar_achados.py <arquivo.csv>"""
+import csv, sys
+
+W = "https://de.wikipedia.org/wiki/Fu%C3%9Fball-Bundesliga_"
+L = [
+    ("DE-001", "B punição de pontos", "1971/72", "Arminia Bielefeld",
+     "18º com 19 pontos (6V 7E 21D), ajuste_pontos 0; observação em inglês ('Records were expunged')",
+     "A DFB tirou TODOS os pontos do Arminia (escândalo de 1971): a Abschlusstabelle da Wikipédia de traz 'Abzug=19' e a nota "
+     "'wurden Arminia Bielefeld alle Punkte aberkannt'; a RSSSF diz 'Arminia was stripped of all points'. A posição (18º) e o "
+     "rebaixamento não mudam | SUGESTÃO: pontos 0, ajuste_pontos -19, observação 'perdeu todos os pontos (escândalo de 1971) e foi "
+     "rebaixado de ofício'; fonte: " + W + "1971/72 e https://www.rsssf.org/tablesd/duit72.html; mexer em: coleta/ger-1/importar.py, "
+     "novo dicionário PUNICOES {(1971, 'Arminia Bielefeld'): (-19, motivo)} somado ao 'ajuste' antes da conferência das tabelas "
+     "(bloco 'tabelas publicadas e conferência', perto da linha 581), com o motivo também em EXPLICACOES[1971]",
+     W + "1971/72 (Abschlusstabelle)", "media", "coleta-europa", "aberto"),
+    ("DE-002", "B critério de desempate / F Corrida",
+     "1964/65, 1965/66, 1967/68, 1981/82, 1984/85, 1997/98, 1999/00, 2005/06, 2007/08, 2008/09, 2009/10, 2010/11, 2014/15, 2019/20, 2025/26", "",
+     "fases.csv diz 'pontos, confronto direto, saldo, gols pró' em 13 temporadas e 'saldo' em 1964/65 e 1967/68; a classificação "
+     "rodada a rodada (Corrida do painel) segue esse critério: 1.555 posições de rodada diferentes do critério oficial nessas 15 "
+     "temporadas (ex.: 1999/00 rodada 1, Eintracht Frankfurt em 14º depois de ganhar de 3-0; pelo saldo seria 4º)",
+     "Regulamento da Bundesliga: até 1968/69 pontos e quociente de gols (Torquotient; as tabelas da Wikipédia de usam 'Quote=1'); "
+     "desde 1969/70 pontos, saldo, gols marcados (o confronto direto só depois, como em 1999/00 entre Schalke e Frankfurt). O "
+     "'confronto' foi escolhido só porque é o 1º testado e também reproduz a ordem final (o saldo reproduz as 63) | SUGESTÃO: "
+     "critério fixo por época: 'media' até 1968, 'saldo' de 1969 em diante (confronto direto como desempate final); lista em "
+     "revisao/DE/rodada_criterio_saida.txt; fonte: " + W + "1963/64 (Kopf Quote=1) e nota FNZ(1) de " + W + "1999/2000; mexer em: "
+     "coleta/ger-1/importar.py, main(), linhas ~672-679 (tentativas/ok[0]/criterio) e crit_txt. Vale olhar o mesmo vício nas outras "
+     "ligas que testam 'confronto' primeiro",
+     "revisao/DE/rodada_criterio.py; " + W + "1963/64", "media", "coleta-europa", "aberto"),
+    ("DE-003", "C datas", "1963/64 a 1990/91 (18 temporadas; 1971/72: 17, 1974/75: 11, 1969/70: 10, 1970/71: 10, 1973/74: 9, 1965/66: 8, 1968/69: 8)", "",
+     "102 jogos com data errada (base engsoccerdata); 24 são impossíveis (o clube teria 2 jogos em 2 dias). Ex.: 1974/75 rodada 22 "
+     "em 01/02/1975, mesmo dia da rodada 19; 1977/78 4 jogos da rodada 10 em 01/09/1977; 1982/83 3 jogos da rodada 8 em 01/09/1982; "
+     "1970/71 RW Essen x Bayern em 13/03/1971, dia de Bayern x Hamburgo; 1980/81 Schalke x Düsseldorf em 09/05/1981, dia de Schalke "
+     "x Bochum",
+     "transfermarkt (gesamtspielplan) e RSSSF (data da rodada e de cada grupo de jogos) dão a mesma data em 101 (no 102º, Colônia x M'gladbach 1984/85, o transfermarkt e o ogol): 1974/75 rodada 22 "
+     "em 01/03/1975; 1977/78 e 1982/83 em 01/10; RW Essen x Bayern em 13/02/1971; Schalke x Düsseldorf em 07/03/1981 | SUGESTÃO: as "
+     "102 datas da coluna data_transfermarkt de revisao/DE/datas_corrigir.csv (veredito que começa com 'corrigir'); fonte: "
+     "https://www.transfermarkt.com/bundesliga/gesamtspielplan/wettbewerb/L1/saison_id/<ano> e https://www.rsssf.org/tablesd/duitNN.html; "
+     "mexer em: coleta/ger-1/importar.py, novo dicionário DATAS {(ano, mandante, visitante): (data, motivo)} aplicado em "
+     "carregar_base() como o INVERTIDOS",
+     "revisao/DE/datas_corrigir.csv; revisao/DE/cmp_tm_saida.txt; revisao/DE/cmp_rsssf_datas_saida.txt", "media", "coleta-europa", "aberto"),
+    ("DE-004", "C datas (dúvida)", "1964/65, 1969/70, 1978/79", "",
+     "3 jogos em que só o transfermarkt discorda do pacote (1 a 5 dias) e a RSSSF não decide: Dortmund x Duisburg 19/11/1964 (tm "
+     "14/11), Colônia x Werder 18/03/1970 (tm 17/03), Colônia x Braunschweig 09/02/1979 (tm 10/02)",
+     "sem terceira fonte | SUGESTÃO: conferir na ficha do jogo do transfermarkt (spielbericht) ou em jornal da época antes de "
+     "mudar; fonte: revisao/DE/datas_corrigir.csv (veredito 'dúvida'); mexer em: coleta/ger-1/importar.py, dicionário DATAS "
+     "(DE-003), só se a 3ª fonte confirmar",
+     "revisao/DE/datas_corrigir.csv", "baixa", "coleta-europa", "aberto"),
+    ("DE-005", "C jogos decididos no tribunal", "1970/71, 1976/77, 1992/93, 1994/95, 2010/11",
+     "Borussia Mönchengladbach x Werder Bremen; Kaiserslautern x Fortuna Düsseldorf; Uerdingen x Eintracht Frankfurt; Eintracht Frankfurt x Bayern de Munique; St. Pauli x Schalke 04",
+     "placar oficial certo (0-2, 0-2, 2-0, 2-0, 0-2), mas sem resultado_especial 'awd' nem observação; parecem resultados de campo "
+     "(só 2021/22 Bochum x M'gladbach e 2024/25 Union x Bochum estão marcados, porque o ogol traz 'DA')",
+     "Wikipédia de: 1970/71 abandonado aos 88' com 1-1 (trave quebrada), DFB deu 2-0 ao Werder; 1976/77 abandonado aos 76' com 0-1 "
+     "(garrafa), DFB deu 0-2; 1992/93 2-5 em campo, DFB deu 2-0 ao Uerdingen (4 estrangeiros do Frankfurt); 1994/95 Bayern ganhou "
+     "5-2 com 4 amadores, DFB deu 2-0 ao Frankfurt; 2010/11 abandonado com 0-2 (copo no assistente), placar mantido | SUGESTÃO: "
+     "resultado_especial 'awd' e observação com o placar de campo; fonte: " + W + "1970/71, 1976/77, 1992/93, 1994/95, 2010/11 "
+     "(notas da Kreuztabelle); mexer em: coleta/ger-1/importar.py, dicionário TRIBUNAL (hoje vazio). Atenção: o TRIBUNAL atual põe "
+     "em 'campo' o placar da base, que aqui já é o oficial; incluir o placar de campo no valor (ex.: (0, 2, motivo, '1-1'))",
+     W + "1994/95 (26º Spieltag)", "baixa", "coleta-europa", "aberto"),
+    ("DE-006", "A rebaixamentos fora de campo", "1964/65, 1971/72, 1994/95", "Hertha Berlin; Arminia Bielefeld; Dynamo Dresden",
+     "1964/65: Hertha 14º 'rebaixado' sem explicação, e a faixa de rebaixamento da Corrida pinta só a 14ª posição; Karlsruhe (15º) e "
+     "Schalke (16º) sem nota. 1971/72: nota do Arminia em inglês. 1994/95: Dresden 18º sem nota da licença negada",
+     "Wikipédia de 1964/65: único Zwangsabstieg de clube fora da zona (licença cassada); a liga passou a 18 clubes e Karlsruhe e "
+     "Schalke ficaram | SUGESTÃO: observação na edição: '1964/65: Hertha rebaixado por perda da licença; Karlsruhe e Schalke, 15º e "
+     "16º, ficaram com a ampliação para 18 clubes'; '1971/72: Arminia rebaixado de ofício (escândalo de 1971)'; '1994/95: Dynamo "
+     "Dresden, 18º, também perdeu a licença'; fonte: " + W + "1964/65; mexer em: coleta/ger-1/importar.py, novo dicionário "
+     "FORA_DE_CAMPO (texto em edicoes.observacao)",
+     W + "1964/65", "baixa", "coleta-europa", "aberto"),
+    ("DE-007", "B textos da classificação final", "1966/67, 1971/72, 1993/94, 1995/96, 1999/00, 2003/04, 2008/09", "",
+     "8 observações em inglês em classificacao_final.observacao (copiadas da Wikipédia en: 'Dynamo Dresden were docked four "
+     "points...', 'Head-to-head was used...') e uma sem sentido: Eintracht Frankfurt 1999/00 = 'S04'",
+     "| SUGESTÃO: traduzir (ou descartar as que não são de punição/desempate); fonte: notas da Wikipédia de de cada temporada; mexer "
+     "em: coleta/ger-1/importar.py, montagem de classificacao_final (campo 'observacao' = hth/nota da Wikipédia en, perto da linha "
+     "715): trocar por um dicionário OBS em português",
+     "data/coleta/ger-1/pacote/classificacao_final.csv", "baixa", "coleta-europa", "aberto"),
+    ("DE-008", "D artilheiros (nomes)", "2001/02, 2002/03, 2003/04, 2007/08, 2008/09, 2010/11, 2024/25, 2025/26", "",
+     "nomes no formato da RSSSF, visíveis no site (aba Artilharia): 'AÍLTON Gonçalves da Silva', 'Márcio AMOROSO dos Santos', "
+     "'Giovane Élber de Souza', 'Thomas CHRISTIANSEN Tarín', 'Luca TONI Varchetta', 'GRAFITE Edinaldo Batista Libânio', 'Mario GÓMEZ "
+     "García', 'Harry Edward Kane'",
+     "Liste der Torschützenkönige der Fußball-Bundesliga: Aílton, Márcio Amoroso, Giovane Élber, Thomas Christiansen, Luca Toni, "
+     "Grafite, Mario Gómez, Harry Kane (gols e clubes batem nas 63 temporadas) | SUGESTÃO: os nomes curtos dessa lista; fonte: "
+     "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga; mexer em: "
+     "coleta/ger-1/importar.py, função artilheiros(): dicionário NOMES_ARTILHEIRO",
+     "https://de.wikipedia.org/wiki/Liste_der_Torsch%C3%BCtzenk%C3%B6nige_der_Fu%C3%9Fball-Bundesliga", "baixa", "coleta-europa", "aberto"),
+    ("DE-009", "D nomes da ESPN", "2001/02 a 2006/07", "",
+     "nomes da ESPN fora de ordem ou partidos em dois (Artilharia e artilharia por clube): 'Goncalves da Silva Ailton' (74 gols), "
+     "'Marcelo Marcelinho' (52) e 'Marcelinho' (3), 'Eugen Anghel Ewerthon' (46), 'Jeronimo Baretto Cacau' (20) e 'Cacau' (59), "
+     "'Francoaldo Franca' (21), 'Cassio Lincoln' (17) e 'Cassio Souza Soares Lincoln', 'Bergantin Vinicius' e 'Vinicius', 'De Deus "
+     "Santos Leandro', 'Hennig Christian Maicon Chris', 'Mazzoli Athirson', 'Jiri Stajner' e 'Jirí Stajner', 'Antonio Salvo' e "
+     "'Antonio Di Salvo', 'Marcelo Jose Bordon' e 'Marcelo Bordon'",
+     "mesmo problema do ES-006 (Espanhol) | SUGESTÃO: Aílton, Marcelinho, Ewerthon, Cacau, França, Lincoln, Vinícius, Leandro, "
+     "Chris, Athirson, Jiří Štajner, Antonio Di Salvo, Marcelo Bordon; pares em revisao/DE/nomes_espn.txt; mexer em: "
+     "coleta/ger-1/importar.py, dicionário NOMES_ESPN + nome_espn() como em coleta/esp-1/importar.py",
+     "revisao/DE/nomes_espn.txt", "baixa", "coleta-europa", "aberto"),
+    ("DE-010", "D gols sem autor", "2001/02 a 2024/25 (36 jogos)", "",
+     "36 jogos com gols e nenhum autor (a ESPN falta ou não fecha com o placar); ex.: 2024/25 Union Berlin x Bochum; 10 jogos em 2011/12",
+     "o transfermarkt tem a ficha de cada jogo, com autor e minuto (ex.: https://www.transfermarkt.com/1-fc-union-berlin_vfl-bochum/"
+     "index/spielbericht/4373534) | SUGESTÃO: completar jogo a jogo pelo transfermarkt (36 páginas); fonte: spielbericht do "
+     "transfermarkt (o id está na página gesamtspielplan da temporada); mexer em: coleta/ger-1/baixar.py (nova função) e importar.py "
+     "(gols de 2ª fonte quando a ESPN não fecha)",
+     "revisao/DE/jogos_sem_autor.txt", "baixa", "coleta-europa", "aberto"),
+    ("DE-011", "D cobertura (autores dos gols antes de 2001/02)", "1963/64 a 2000/01", "",
+     "0% dos gols com autor até 2000/01; a ficha (seção 8) diz que 'nenhuma fonte em lote traz'",
+     "As páginas da RSSSF que a coleta já baixou (data/coleta/ger-1/rsssf/duitNN.html) trazem autor e minuto em quase todos os jogos "
+     "de 1963/64 a 1998/99 (ex.: 'Werder 1-1 TB Berlin (Höttges 78 p - Rumor 35)'); um leitor simples fecha a soma com o placar em "
+     "7.678 de 9.660 jogos com gol | SUGESTÃO: ler os parênteses de cada jogo (gol, minuto, 'p' pênalti, 'o' contra) e gravar só "
+     "quando a soma fechar; 1999/00 e 2000/01 pelo transfermarkt (spielbericht); fonte: https://www.rsssf.org/tablesd/duit75.html; "
+     "mexer em: coleta/ger-1/importar.py (novo leitor, como o dos gols da ESPN) e PENDENCIAS de coleta/comum-europa/documentar.py",
+     "revisao/DE/cmp_rsssf_datas.py", "baixa", "coleta-europa", "aberto"),
+    ("DE-012", "A Relegation", "1981/82 a 1990/91 e 2008/09 a 2025/26", "",
+     "o painel não diz que houve Relegation nem o resultado (o 16º que perdeu está certo como rebaixado nas 63 temporadas)",
+     "Wikipédia de, seção 'Relegation' de cada temporada | SUGESTÃO: depende da decisão DE-D2 (recomendação: nota na edição, ex.: "
+     "'Relegation: Wolfsburg (16º) 0-0 e 1-2 Paderborn; caiu'); fonte: " + W + "2025/26#Relegation; mexer em: "
+     "coleta/ger-1/importar.py, dicionário RELEGATION -> edicoes.observacao",
+     W + "2025/26", "baixa", "coleta-europa", "aberto"),
+    ("DE-013", "B 3º lugar", "1979/80", "Stuttgart; Kaiserslautern",
+     "Stuttgart 3º e Kaiserslautern 4º; o pódio do painel conta o 3º só para o Stuttgart",
+     "Wikipédia de: os dois em 3º (Rang2=3), com 41 pontos e 75-53 de gols; não havia outro critério | SUGESTÃO: decisão DE-D3 "
+     "(recomendação: manter a ordem e pôr a nota '3º lugar dividido com o Kaiserslautern'); fonte: " + W + "1979/80; mexer em: "
+     "coleta/ger-1/importar.py, EXPLICACOES[1979] e edicoes.observacao",
+     W + "1979/80", "baixa", "coleta-europa", "aberto"),
+    ("DE-014", "A nome da competição x títulos", "todas", "",
+     "o painel chama a competição de 'Campeonato Alemão' e conta só os títulos da Bundesliga: Nuremberg 1 (oficial 9), Schalke 0 "
+     "(7), Hamburgo 3 (6), Dortmund 5 (8), Bayern 34 com 2025/26 (35)",
+     "lista de campeões da DFB desde 1903 (https://www.rsssf.org/tablesd/duitchamp.html; "
+     "https://de.wikipedia.org/wiki/Liste_der_deutschen_Fu%C3%9Fballmeister) | SUGESTÃO: decisão DE-D1 (recomendação: incluir a fase "
+     "final de 1902/03 a 1962/63; se não, renomear para 'Bundesliga' e avisar); mexer em: coleta/ger-1/importar.py (COMPETICAO['nome'] "
+     "e ['observacao']) ou nova importação da fase final",
+     "https://www.rsssf.org/tablesd/duitchamp.html", "baixa", "coleta-europa", "aberto"),
+    ("DE-015", "F site desatualizado", "2025/26", "",
+     "o site mostra 62 edições (1963/64–2024/25); o banco e o painel/dados/ger-1.js local já têm 63 (2025/26: Bayern campeão; "
+     "Wolfsburg, Heidenheim e St. Pauli rebaixados) e batem com o pacote",
+     "https://clubeanalitico.pages.dev/dados/ger-1.js (ED com 62 itens) x painel/dados/ger-1.js (63) | SUGESTÃO: publicar o painel "
+     "(já recarregado); fonte: pedido de 22/11 em docs/coleta/pedidos-europa.md; mexer em: publicação (docs/manutencao_dados.md)",
+     "https://clubeanalitico.pages.dev/dados/ger-1.js", "baixa", "banco-painel", "aberto"),
+    ("DE-016", "F celular", "—", "",
+     "no celular (420 px) a página fica mais larga que a tela (cartões e abas cortados à direita); pendência já conhecida do agente 1",
+     "print SCRATCH/DE/telas/420_campeonato_corrida_1999_00.png | SUGESTÃO: já está na lista do agente 1; mexer em: "
+     "painel/index.html (CSS)",
+     "https://clubeanalitico.pages.dev/?c=ger-1#campeonato/corrida/1999/00", "baixa", "banco-painel", "aberto"),
+    ("DE-017", "C datas do football-data", "1993/94 a 1996/97", "",
+     "152 datas diferentes entre o pacote e o football-data.co.uk (117 em 1993/94)",
+     "o football-data dessas temporadas traz a data da rodada (o sábado), não a do jogo; o transfermarkt confirma as do pacote | "
+     "SUGESTÃO: nada a corrigir; não usar o football-data para datas antes de 1997/98; fonte: revisao/DE/datas_fd_saida.txt e "
+     "revisao/DE/cmp_tm_saida.txt",
+     "revisao/DE/datas_fd_saida.txt", "baixa", "coleta-europa", "nao-e-erro"),
+    ("DE-018", "C datas do ogol anotadas no relatório", "1972/73, 1983/84", "",
+     "o relatório da coleta anota datas diferentes no ogol e fica com a da base (ex.: 1972/73 Werder x M'gladbach 06/12 x ogol 13/12)",
+     "transfermarkt e RSSSF confirmam a base nesses jogos (Werder x M'gladbach em 06/12/1972). Em 1977/78, 1982/83, 1984/85 e 1990/91 o ogol "
+     "estava certo e a base errada (entram no DE-003) | SUGESTÃO: nada a corrigir além do DE-003",
+     "revisao/DE/cmp_tm_saida.txt", "baixa", "coleta-europa", "nao-e-erro"),
+]
+with open(sys.argv[1], "w", encoding="utf-8", newline="") as f:
+    w = csv.writer(f)
+    w.writerow("id,competicao,item,edicao,clube,o_que_esta_no_painel,o_que_a_fonte_diz,fonte,gravidade,quem_corrige,situacao".split(","))
+    for x in L:
+        w.writerow([x[0], "ger-1", *x[1:]])
+print(len(L), "achados")

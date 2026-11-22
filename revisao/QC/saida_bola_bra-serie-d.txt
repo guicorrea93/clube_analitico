@@ -1,0 +1,397 @@
+Bola n@ Área x pacote bra-serie-d (revisão QC, 22/11/2026)
+
+2000s: {'edicoes': 1, 'jogos_pacote': 158, 'jogos_fonte': 158, 'casados': 85, 'fonte_com_publico': 5, 'fonte_com_arbitro': 6, 'fonte_gols': 421, 'fonte_gols_autor': 23, 'placar_igual': 85, 'data_igual': 80, 'com_data_fonte': 85, 'mando_invertido': 0, 'publico_que_o_bola_completa': 5, 'gols_que_o_bola_completa': 9}
+2010s: {'edicoes': 10, 'jogos_pacote': 2188, 'jogos_fonte': 2028, 'casados': 1890, 'fonte_com_publico': 649, 'fonte_com_arbitro': 100, 'fonte_gols': 5216, 'fonte_gols_autor': 2189, 'placar_igual': 1883, 'data_igual': 1835, 'com_data_fonte': 1890, 'mando_invertido': 0, 'gols_que_o_bola_completa': 551, 'publico_que_o_bola_completa': 640}
+2020s: {'edicoes': 5, 'jogos_pacote': 2566, 'jogos_fonte': 1750, 'casados': 1690, 'fonte_com_publico': 35, 'fonte_com_arbitro': 50, 'fonte_gols': 4449, 'fonte_gols_autor': 207, 'placar_igual': 1686, 'data_igual': 1641, 'com_data_fonte': 1690, 'mando_invertido': 0, 'gols_que_o_bola_completa': 146, 'publico_que_o_bola_completa': 35}
+
+## Diferenças (placar, data ou mando) entre jogos casados
+2009 | 2009-08-23 São José-RS 1-0 Londrina | bola: 2009-08-22 São José 1x0 Londrina | DATA Segunda fase
+2009 | 2009-08-23 Uberaba 2-0 Brasília EC | bola: 2009-08-22 Uberaba 2x0 Brasília | DATA Segunda fase
+2009 | 2009-08-23 Tupi 4-2 Fluminense-BA | bola: 2009-08-22 Tupi 4x2 Fluminense | DATA Segunda fase
+2009 | 2009-08-02 Central 1-0 Santa Cruz | bola: 2009-08-01 Central 1x0 Santa Cruz | DATA Primeira fase
+2009 | 2009-08-01 Atlético Roraima 1-2 Nacional-AM | bola: 2009-08-02 Roraima 1x2 Nacional | DATA Primeira fase
+2010 | 2010-10-24 Araguaína 2-2 Guarany | bola: 2010-10-23 Araguaína-TO 2x2 Guarany-CE | DATA Semifinal
+2010 | 2010-10-11 Vila Aurora 0-2 Guarany | bola: 2010-10-10 Vila Aurora-MT 0x2 Guarany-CE | DATA Quartas de final
+2010 | 2010-10-11 Uberaba 0-0 Araguaína | bola: 2010-10-10 Uberaba-MG 0x0 Araguaína-TO | DATA Quartas de final
+2010 | 2010-10-11 Operário-PR 2-4 Madureira | bola: 2010-10-10 Operário-PR 2x4 Madureira-RJ | DATA Quartas de final
+2010 | 2010-10-11 América-AM 2-1 Joinville | bola: 2010-10-10 América-AM 2x1 Joinville-SC | DATA Quartas de final
+2010 | 2010-09-25 Uberaba 1-3 Madureira | bola: 2010-09-26 Uberaba-MG 1x3 Madureira-RJ | DATA Terceira fase
+2010 | 2010-09-11 Madureira 2-1 Rio Branco-ES | bola: 2010-09-12 Madureira-RJ 2x1 Rio Branco-ES | DATA Segunda fase
+2010 | 2010-10-30 Madureira 0-2 América-AM | bola: 2010-10-27 Madureira-RJ 0x2 América-AM | DATA Semifinal
+2010 | 2010-08-01 Oeste 0-0 Operário-PR | bola: 2010-07-31 Oeste 0x0 Operário | DATA Primeira fase
+2010 | 2010-08-01 São José-RS 1-1 Joinville | bola: 2010-07-31 São José 1x1 Joinville | DATA Primeira fase
+2010 | 2010-07-18 São José-RS 1-0 Operário-PR | bola: 2010-07-17 São José 1x0 Operário | DATA Primeira fase
+2010 | 2010-08-01 Botafogo-SP 1-1 Tupi | bola: 2010-07-31 Botafogo 1x1 Tupi | DATA Primeira fase
+2010 | 2010-08-01 Madureira 1-1 CENE | bola: 2010-07-31 Madureira 1x1 CENE | DATA Primeira fase
+2010 | 2010-08-15 Uberaba 6-1 Rio Branco-ES | bola: 2010-08-14 Uberaba 6x1 Rio Branco | DATA Primeira fase
+2010 | 2010-08-14 Ceilândia 1-0 Araguaína | bola: 2010-08-15 Ceilândia 1x0 Araguaína | DATA Primeira fase
+2010 | 2010-08-01 Brasília EC 2-2 Araguaína | bola: 2010-07-31 Brasília 2x2 Araguaína | DATA Primeira fase
+2010 | 2010-07-18 Treze 1-0 River Plate-SE | bola: 2010-07-19 Treze 1x0 River Plate | DATA Primeira fase
+2010 | 2010-08-01 Guarany 4-0 JV Lideral | bola: 2010-07-31 Guarany 4x0 JV Lideral | DATA Primeira fase
+2011 | 2011-08-28 Plácido de Castro 0-0 Penarol-AM | bola: 2011-08-27 Plácido de Castro 0x0 Penarol | DATA Primeira fase
+2012 | 2012-08-11 Sobradinho 3-3 Aparecidense | bola: 2012-08-12 Sobradinho 3x3 Aparecidense | DATA Primeira fase
+2012 | 2012-08-11 CRAC 4-2 CENE | bola: 2012-08-12 CRAC 4x2 CENE | DATA Primeira fase
+2012 | 2012-07-28 Guarani-MG 0-1 Nacional-MG | bola: 2012-07-22 Guarani 0x1 Nacional | DATA Primeira fase
+2012 | 2012-07-29 Volta Redonda 1-0 Aracruz | bola: 2012-07-22 Volta Redonda 1x0 Aracruz | DATA Primeira fase
+2013 | 2013-08-10 Tupi 1-0 Resende | bola: 2013-08-11 Tupi 1x0 Resende | DATA Primeira fase
+2013 | 2013-08-10 Aracruz 0-0 Araxá | bola: 2013-08-11 Aracruz 0x0 Araxá | DATA Primeira fase
+2013 | 2013-06-08 Tupi 3-0 Araxá | bola: 2013-06-09 Tupi 3x0 Araxá | DATA Primeira fase
+2013 | 2013-06-08 Nova Iguaçu 1-0 Resende | bola: 2013-06-09 Nova Iguaçu 1x0 Resende | DATA Primeira fase
+2013 | 2013-06-01 Araxá 0-1 Nova Iguaçu | bola: 2013-06-02 Araxá 0x1 Nova Iguaçu | DATA Primeira fase
+2013 | 2013-09-06 Botafogo-PB 2-0 Salgueiro | bola: 2013-10-06 Botafogo-PB 2x0 Salgueiro-PE | DATA Semifinal
+2014 | 2014-09-21 Guarani-SC 3-4 Cabofriense | bola: 2014-09-21 Guarani 0x0 Cabofriense | PLACAR Primeira fase
+2014 | 2014-08-17 Jacuipense 1-0 Central | bola: 2014-09-06 Jacuipense 1x0 Central | DATA Primeira fase
+2014 | 2014-08-17 Coruripe 0-0 Campinense | bola: 2014-09-06 Coruripe 0x0 Campinense | DATA Primeira fase
+2015 | 2015-09-07 Metropolitano 0-0 Lajeadense | bola: 2015-09-06 Metropolitano 0x0 Lajeadense | DATA Primeira fase
+2015 | 2015-09-05 CRAC 0-0 Botafogo-SP | bola: 2015-09-06 CRAC 0x0 Botafogo-SP | DATA Primeira fase
+2015 | 2015-08-15 CRAC 1-0 Duque de Caxias | bola: 2015-08-16 CRAC 1x0 Duque de Caxias | DATA Primeira fase
+2015 | 2015-08-15 Gama 1-2 Villa Nova-MG | bola: 2015-08-16 Gama 1x2 Villa Nova | DATA Primeira fase
+2015 | 2015-07-25 CRAC 0-0 Gama | bola: 2015-07-26 CRAC 0x0 Gama | DATA Primeira fase
+2015 | 2015-08-15 CEOV Operário 2-3 Rio Branco-ES | bola: 2015-08-16 Operário-MT 2x3 Rio Branco-ES | DATA Primeira fase
+2015 | 2015-08-08 CEOV Operário 2-0 Comercial-MS | bola: 2015-08-09 Operário-MT 2x0 Comercial-MS | DATA Primeira fase
+2015 | 2015-09-05 Goianésia 1-2 Central | bola: 2015-09-06 Goianésia 1x2 Central | DATA Primeira fase
+2015 | 2015-08-22 Goianésia 0-2 Estanciano | bola: 2015-08-23 Goianésia 0x2 Estanciano | DATA Primeira fase
+2015 | 2015-08-15 Estanciano 1-0 Central | bola: 2015-08-16 Estanciano 1x0 Central | DATA Primeira fase
+2015 | 2015-08-22 Remo 3-2 Nacional-AM | bola: 2015-08-23 Remo 3x2 Nacional | DATA Primeira fase
+2015 | 2015-08-09 Colo Colo-BA 1-0 Globo FC | bola: 2015-08-09 Colo Colo 0x2 Globo | PLACAR Primeira fase
+2015 | 2015-08-09 Serra Talhada 0-2 Coruripe | bola: 2015-08-09 Serra Talhada 1x0 Coruripe | PLACAR Primeira fase
+2015 | 2015-08-02 Remo 3-0 Náutico-RR | bola: 2015-08-02 Remo 2x0 Náutico | PLACAR Primeira fase
+2015 | 2015-08-23 Operário-PR 1-0 Internacional-SC | bola: 2015-08-22 Operário-PR 1x0 Inter de Lajes | DATA Primeira fase
+2016 | 2016-07-03 Princesa 2-0 Palmas | bola: 2016-07-07 Princesa-AM 3x0 Palmas-TO | PLACAR DATA Primeira fase
+2016 | 2016-07-30 Ituano 1-0 Linense | bola: 2016-07-23 Ituano-SP 1x0 Linense-SP | DATA Segunda fase
+2016 | 2016-07-31 Volta Redonda 2-0 URT | bola: 2016-07-23 Volta Redonda-RJ 2x0 URT-MG | DATA Segunda fase
+2016 | 2016-07-10 Águia 1-1 Moto Club | bola: 2016-07-07 Águia de Marabá-PA 1x1 Moto Club-MA | DATA Primeira fase
+2016 | 2016-08-07 São Raimundo-PA 1-3 Juazeirense | bola: 2016-07-07 São Raimundo-PA 1x3 Juazeirense-BA | DATA Segunda fase
+2016 | 2016-08-07 Atlético-AC 8-0 Náutico-RR | bola: 2016-07-07 Atlético Acreano-AC 8x0 Náutico-RR | DATA Segunda fase
+2016 | 2016-08-07 Águia 1-1 Moto Club | bola: 2016-07-10 Águia de Marabá 1x1 Moto Club | DATA Segunda fase
+2016 | 2016-08-07 Princesa 3-0 Palmas | bola: 2016-07-03 Princesa 2x0 Palmas | PLACAR DATA Segunda fase
+2017 | 2017-07-15 São José-RS 1-0 Brusque | bola: 2017-07-15 São José-RS 0x0 Brusque-SC | PLACAR Segunda fase
+2018 | 2018-04-29 Brasiliense 0-1 Iporá | bola: 2018-04-28 Brasiliense 0x1 Iporá | DATA Primeira fase
+2019 | 2019-07-21 Brusque 4-0 Juazeirense | bola: 2019-07-20 Brusque-SC 4x0 Juazeirense-BA | DATA Quartas de final
+2019 | 2019-07-21 Jacuipense 1-0 Floresta-CE | bola: 2019-07-20 Jacuipense-BA 1x0 Floresta-CE | DATA Quartas de final
+2019 | 2019-06-22 Itabaiana 4-1 ASA | bola: 2019-07-22 Itabaiana-SE 4x1 ASA-AL | DATA Segunda fase
+2020 | 2020-11-27 Palmas 0-1 Villa Nova-MG | bola: 2020-11-28 Palmas 0x1 Villa Nova | DATA Primeira fase
+2020 | 2020-11-27 Gama 2-1 Atlético-BA | bola: 2020-11-28 Gama 2x1 Atlético-BA | DATA Primeira fase
+2020 | 2020-11-27 Bahia de Feira 0-1 Tupynambás | bola: 2020-11-28 Bahia de Feira 0x1 Tupynambás | DATA Primeira fase
+2020 | 2020-11-27 Caldense 1-2 Brasiliense | bola: 2020-11-28 Caldense 1x2 Brasiliense | DATA Primeira fase
+2020 | 2020-10-22 Villa Nova-MG 1-2 Brasiliense | bola: 2020-10-21 Villa Nova 1x2 Brasiliense | DATA Primeira fase
+2020 | 2020-11-23 Potiguar 5-3 Coruripe | bola: 2020-11-22 Potiguar 5x3 Coruripe | DATA Primeira fase
+2020 | 2020-11-27 Campinense 0-0 América-RN | bola: 2020-11-28 Campinense 0x0 América-RN | DATA Primeira fase
+2020 | 2020-11-27 Salgueiro 2-0 Guarany | bola: 2020-11-28 Salgueiro 2x0 Guarany | DATA Primeira fase
+2020 | 2020-11-27 Globo FC 3-0 Atlético-PB | bola: 2020-11-28 Globo 3x0 Atlético-PB | DATA Primeira fase
+2020 | 2020-11-23 Baré 1-3 River-PI | bola: 2020-11-22 Baré 1x3 Ríver | DATA Primeira fase
+2020 | 2020-11-23 Altos 2-0 Santos-AP | bola: 2020-11-22 Altos 2x0 Santos | DATA Primeira fase
+2020 | 2020-10-19 Bragantino-PA 2-1 Rio Branco-AC | bola: 2020-10-20 Bragantino 2x1 Rio Branco | DATA Primeira fase
+2020 | 2020-11-13 Coruripe 2-0 Itabaiana | bola: 2020-11-13 Coruripe 2x2 Itabaiana | PLACAR Primeira fase
+2020 | 2020-10-17 Salgueiro 0-1 Floresta-CE | bola: 2020-10-17 Salgueiro 0x2 Floresta | PLACAR Primeira fase
+2020 | 2020-10-17 Juventude-MA 1-1 Baré | bola: 2020-10-17 Juventude 1x0 Baré | PLACAR Primeira fase
+2020 | 2020-11-24 Juventude-MA 1-0 São Raimundo-RR | bola: 2020-11-22 Juventude 1x0 São Raimundo | DATA Primeira fase
+2020 | 2020-11-17 Santos-AP 3-0 Sinop | bola: 2020-11-14 Santos 3x0 Sinop | DATA Primeira fase
+2020 | 2021-01-23 Novorizontino 0-2 Floresta-CE | bola: 2021-01-09 Novorizontino-SP 0x2 Floresta-CE | DATA Semifinal
+2020 | 2020-11-27 Floresta-CE 5-1 Afogados da Ingazeira | bola: 2020-11-28 Floresta 5x1 Afogados | DATA Primeira fase
+2020 | 2020-11-21 Afogados da Ingazeira 2-1 Campinense | bola: 2020-11-22 Afogados 2x1 Campinense | DATA Primeira fase
+2020 | 2020-09-30 Altos 3-1 Moto Club | bola: 2020-09-27 2020/09/30 Altos 3x1 Moto Club | DATA Primeira fase
+2020 | 2020-11-20 Santos-AP 0-1 São Raimundo-RR | bola: 2020-11-08 Santos 0x1 São Raimundo | DATA Primeira fase
+2021 | 2021-07-19 Águia Negra 1-1 Uberlândia | bola: 2021-07-18 Águia Negra 1x1 Uberlândia | DATA Primeira fase
+2021 | 2021-06-27 Bahia de Feira 1-1 Retrô FC | bola: 2021-06-26 Bahia de Feira 1x1 Retrô | DATA Primeira fase
+2021 | 2021-07-25 Treze 3-1 Caucaia | bola: 2021-07-24 Treze 3x1 Caucaia | DATA Primeira fase
+2021 | 2021-07-04 Caxias 2-1 Aimoré | bola: 2021-06-27 Caxias 2x1 Aimoré | DATA Primeira fase
+2021 | 2021-07-04 Rio Branco-PR 0-0 Joinville | bola: 2021-06-27 Rio Branco 0x0 Joinville | DATA Primeira fase
+2021 | 2021-08-15 Atlético Cearense 1-0 ABC | bola: 2021-08-22 Atlético Cearense 1x0 ABC | DATA Primeira fase
+2021 | 2021-07-18 Paragominas 1-2 4 de Julho | bola: 2021-07-11 Paragominas 1x2 4 de Julho | DATA Primeira fase
+2021 | 2021-06-28 Atlético-AC 0-0 Fast-AM | bola: 2021-06-27 18h00 - Atlético Acreano 0x0 Fast Clube - Arena Acreana | DATA Primeira fase
+2021 | 2021-07-04 Juventus Jaraguá 2-0 Marcílio Dias | bola: 2021-06-27 Juventus 2x0 Marcílio Dias | DATA Primeira fase
+2021 | 2021-07-25 Aimoré 0-1 Juventus Jaraguá | bola: 2021-08-25 Aimoré 0x1 Juventus | DATA Primeira fase
+2022 | 2022-06-18 São Luiz 0-1 Aimoré | bola: 2022-06-19 São Luiz 0x1 Aimoré | DATA Primeira fase
+2022 | 2022-06-12 Marcílio Dias 2-1 Caxias | bola: 2022-06-11 Marcílio Dias 2x1 Caxias | DATA Primeira fase
+2022 | 2022-06-11 Oeste 1-1 Nova Iguaçu | bola: 2022-06-12 Oeste 1x1 Nova Iguaçu | DATA Primeira fase
+2022 | 2022-05-30 Anápolis 2-0 Ceilândia | bola: 2022-05-29 Anápolis 2x0 Ceilândia | DATA Primeira fase
+2022 | 2022-05-02 Trem 0-2 Amazonas | bola: 2022-05-03 Trem 0x2 Amazonas | DATA Primeira fase
+2022 | 2022-06-26 Retrô FC 1-0 América-RN | bola: 2022-06-19 Retrô 1x0 América | DATA Primeira fase
+2022 | 2022-06-12 FC Cascavel 1-0 Juventus Jaraguá | bola: 2022-06-11 FC Cascavel 1x0 Juventus | DATA Primeira fase
+2022 | 2022-05-29 CEOV Operário 1-0 Grêmio Anápolis | bola: 2022-05-28 Operário 1x0 Grêmio Anápolis | DATA Primeira fase
+2022 | 2022-06-26 Globo FC 2-0 Afogados da Ingazeira | bola: 2022-06-19 Globo 2x0 Afogados | DATA Primeira fase
+2022 | 2022-06-12 Jacuipense 0-0 ASA | bola: 2022-05-29 Jacuipense 0x0 ASA | DATA Primeira fase
+2022 | 2022-07-06 São Paulo Crystal 1-1 Icasa | bola: 2022-06-19 São Paulo Crystal 1x1 Icasa | DATA Primeira fase
+2022 | 2022-05-29 Pouso Alegre 1-1 Nova Venécia FC | bola: 2022-04-29 Pouso Alegre 1x1 Nova Venécia | DATA Primeira fase
+2023 | 2023-08-20 Anápolis 0-1 Ferroviária-SP | bola: 2023-08-19 Anápolis 0x1 Ferroviária | DATA Oitavas de final
+2023 | 2023-08-20 Portuguesa-RJ 3-1 CA Patrocinense | bola: 2023-08-19 Portuguesa 3x1 Patrocinense | DATA Oitavas de final
+2024 | 2024-07-20 Manaus FC 3-1 Trem | bola: 2024-07-21 Manaus 3x1 Trem | DATA Primeira fase
+2024 | 2024-07-20 Rio Branco-AC 1-2 Manauara EC | bola: 2024-07-21 Rio Branco 1x2 Manauara | DATA Primeira fase
+2024 | 2024-07-20 São Raimundo-RR 1-2 Princesa | bola: 2024-07-21 São Raimundo 1x2 Princesa | DATA Primeira fase
+2024 | 2024-08-03 Gazin Porto Velho EC 0-0 River-PI | bola: 2024-08-04 Porto Velho 0x0 River | DATA Segunda fase
+2024 | 2024-07-20 Gazin Porto Velho EC 3-0 SC Humaitá | bola: 2024-07-21 Porto Velho 3x0 Humaitá | DATA Primeira fase
+2024 | 2024-05-19 Brasiliense 1-1 Mixto | bola: 2024-05-12 Brasiliense 1x0 Mixto | PLACAR DATA Primeira fase
+
+## Jogos do Bola sem par no pacote
+2009 | bola sem par no pacote: 2008-07-11 Nacional 1x0 Roraima (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-25 Nacional 1x2 Gênus (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-12 Tocantins 1x4 São Raimundo (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-12 Moto Club 2x2 Cristal (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-26 Moto Club 1x1 Tocantins (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-26 Cristal 0x1 São Raimundo (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Tocantins 1x2 Cristal (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Moto Club 3x0 São Raimundo (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-12 Alecrim 1x0 Flamengo (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-12 Treze 1x0 Ferroviário (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-26 Flamengo 1x1 Ferroviário (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-26 Alecrim 2x0 Treze (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Alecrim 1x2 Ferroviário (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Treze 2x1 Flamengo (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-11 Santa Cruz 2x2 Central (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-12 Sergipe 0x0 CSA (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-18 Sergipe 1x0 Santa Cruz (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-25 Santa Cruz 1x2 Sergipe (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-26 CSA 1x1 Central (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Santa Cruz 2x2 CSA (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Sergipe 1x2 Central (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-11 Rio Branco 0x1 Macaé (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-12 Fluminense 3x0 Atlético-BA (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-18 Rio Branco 3x1 Fluminense (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-26 Fluminense 2x2 Rio Branco (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-26 Macaé 2x0 Atlético-BA (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Fluminense 2x1 Macaé (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-08-09 Rio Branco 3x0 Atlético-BA (serie_d_2009_fase1-a.htm)
+2009 | bola sem par no pacote: 2008-07-11 Tupi 1x0 Paulista (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-12 Friburguense 3x4 Madureira (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-18 Tupi 2x1 Friburguense (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-18 Madureira 1x2 Paulista (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 Friburguense 0x1 Tupi (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 Paulista 1x1 Madureira (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-01 Madureira 1x2 Friburguense (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-01 Paulista 0x0 Tupi (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Tupi 0x2 Madureira (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Friburguense 0x0 Paulista (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-12 Uberaba 2x2 Uberlândia (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-12 Mirassol 0x0 Ituano (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-18 Uberlândia 2x1 Ituano (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 Uberaba 2x0 Mirassol (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 Ituano 1x1 Uberlândia (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-01 Uberlândia 1x1 Uberaba (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-01 Ituano 1x4 Mirassol (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Uberaba 2x2 Ituano (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Mirassol 0x3 Uberlândia (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-11 Araguaia 3x2 Brasília (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-12 CRAC 1x3 Anapolina (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-18 Araguaia 1x0 CRAC (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-25 Brasília 2x0 Anapolina (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 CRAC 1x2 Araguaia (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-01 Brasília 1x2 Araguaia (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-01 Anapolina 1x4 CRAC (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 CRAC 2x2 Brasília (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Araguaia 2x1 Anapolina (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-12 Naviraiense 0x1 Ypiranga (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-12 Chapecoense 2x0 Londrina (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 Chapecoense 3x0 Naviraiense (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 Ypiranga 2x1 Londrina (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Naviraiense 1x2 Londrina (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Chapecoense 4x3 Ypiranga (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2009-07-06 Pelotas 1x1 Corinthians (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-11 São José 2x0 Pelotas (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-12 Corinthians 2x0 Brusque (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-18 São José 1x0 Corinthians (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-25 Pelotas 0x1 Brusque (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-07-26 Corinthians 2x1 São José (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2009-08-02 Brusque 1x1 Corinthians (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 Corinthians 3x1 Pelotas (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2008-08-09 São José 2x4 Brusque (serie_d_2009_fase1-b.htm)
+2009 | bola sem par no pacote: 2009-08-16 Corinthians 0x3 Chapecoense (serie_d_2009_fasefinal.htm)
+2009 | bola sem par no pacote: 2009-08-23 Chapecoense 0x0 Corinthians (serie_d_2009_fasefinal.htm)
+2010 | bola sem par no pacote: 2010-10-16 Nos pênaltis: Araguaína 3x2 Uberaba (serie_d_2010_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-09-18 Anapolina 4x1 Tocantinópolis (serie_d_2011_fase1-b.htm)
+2011 | bola sem par no pacote: 2011-09-30 # Nos pênaltis: Oeste 4x3 Cianorte # (serie_d_2011_fasefinal.htm)
+2011 | bola sem par no pacote: 2011-10-16 # Nos pênaltis: Mirassol 3x4 Oeste # (serie_d_2011_fasefinal.htm)
+2012 | bola sem par no pacote: 2012-07-01 Arapongas 0x0 Brasil (serie_d_2012_fase1-b.htm)
+2012 | bola sem par no pacote: 2012-07-01 Juventude 0x0 Metropolitano (serie_d_2012_fase1-b.htm)
+2012 | bola sem par no pacote: 2012-09-23 * Nos pênaltis: Cianorte 2x4 Mogi Mirim (serie_d_2012_fasefinal.htm)
+2013 | bola sem par no pacote: 2013-06-02 Salgueiro 4x0 Parnahyba (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-06-08 Parnahyba 4x2 Ypiranga (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-07-14 Parnahyba 2x1 Gurupi (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-07-20 Maranhão 1x1 Parnahyba (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-07-28 Gurupi 1x0 Parnahyba (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-08-04 Parnahyba 2x0 Maranhão (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-08-18 Ypiranga 0x0 Parnahyba (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-08-25 Parnahyba 0x1 Salgueiro (serie_d_2013_fase1-a.htm)
+2013 | bola sem par no pacote: 2013-09-08 # Nos pênaltis: Botafogo 5x3 Central # (serie_d_2013_fasefinal.htm)
+2014 | bola sem par no pacote: 2014-07-19 Vitória da Conquista 1x1 Betim (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-08-02 Betim 2x3 Globo (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-08-09 Betim 1x2 Porto (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-08-17 Confiança 5x1 Betim (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-08-24 Porto 1x0 Betim (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-08-30 Betim 0x1 Confiança (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-09-07 Globo 4x2 Betim (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-09-19 Betim 1x1 Vitória da Conquista (serie_d_2014_fase1-a.htm)
+2014 | bola sem par no pacote: 2014-10-03 # Nos pênaltis: Moto Club 3x1 Ituano # (serie_d_2014_fasefinal.htm)
+2014 | bola sem par no pacote: 2014-10-04 # Nos pênaltis: Rio Branco 12x13 Anapolina # (serie_d_2014_fasefinal.htm)
+2014 | bola sem par no pacote: 2014-10-19 # Nos pênaltis: Brasiliense 3x4 Brasil # (serie_d_2014_fasefinal.htm)
+2014 | bola sem par no pacote: 2014-11-16 # Nos pênaltis: Tombense 4x2 Brasil # (serie_d_2014_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-07-19 Operário-PR 2x1 Red Bull Brasil (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-07-25 Red Bull Brasil 2x0 Inter de Lajes (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-08-01 Red Bull Brasil 0x0 Resende (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-08-09 Ypiranga 0x1 Red Bull Brasil (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-08-16 Resende 3x0 Red Bull Brasil (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-08-24 Red Bull Brasil 0x1 Ypiranga (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-08-30 Inter de Lajes 0x0 Red Bull Brasil (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-09-07 Red Bull Brasil 1x2 Operário-PR (serie_d_2015_fase1-b.htm)
+2015 | bola sem par no pacote: 2015-10-04 # Nos pênaltis: Campinense 3x4 Operário # (serie_d_2015_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-10-17 # NOS PÊNALTIS: YPIRANGA 4x3 CALDENSE # (serie_d_2015_fasefinal.htm)
+2015 | bola sem par no pacote: 2015-10-31 # NOS PÊNALTIS: YPIRANGA 4x5 RÍVER # (serie_d_2015_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-06-12 Parnahyba 2x1 CSA (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-06-19 Central 1x0 Parnahyba (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-06-26 Guarani 2x2 Parnahyba (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-07-03 Parnahyba 5x0 Guarani (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-07-10 Parnahyba 1x1 Central (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-07-17 CSA 1x1 Parnahyba (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-06-12 Serra Talhada 0x1 Uniclinic (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-06-20 Uniclinic 1x0 Potiguar (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-06-26 Uniclinic 1x1 Itabaiana (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-07-03 Itabaiana 2x2 Uniclinic (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-07-10 Potiguar 2x2 Uniclinic (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-07-17 Uniclinic 4x0 Serra Talhada (serie_d_2016_fase1-a.htm)
+2016 | bola sem par no pacote: 2016-06-12 Espírito Santo 0x1 Caldense (serie_d_2016_fase1-b.htm)
+2016 | bola sem par no pacote: 2016-06-19 Audax 0x0 Espírito Santo (serie_d_2016_fase1-b.htm)
+2016 | bola sem par no pacote: 2016-06-25 Espírito Santo 2x0 Boavista (serie_d_2016_fase1-b.htm)
+2016 | bola sem par no pacote: 2016-07-03 Boavista 1x0 Espírito Santo (serie_d_2016_fase1-b.htm)
+2016 | bola sem par no pacote: 2016-07-09 Espírito Santo 1x1 Audax (serie_d_2016_fase1-b.htm)
+2016 | bola sem par no pacote: 2016-07-17 Caldense 0x1 Espírito Santo (serie_d_2016_fase1-b.htm)
+2016 | bola sem par no pacote: 2016-07-24 Parnahyba-PI 1x2 CSA-AL (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-07-31 CSA-AL 3x0 Parnahyba-PI (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-07-24 Itabaiana-SE 0x0 Uniclinic-CE (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-07-31 Uniclinic-CE 2x3 Itabaiana-SE (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-07-31 # NOS PÊNALTIS: CALDENSE 6x7 ANÁPOLIS # (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-07-24 Espírito Santo-ES 0x1 J.Malucelli-PR (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-07-31 J.Malucelli-PR 2x1 Espírito Santo-ES (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-08-21 # NOS PÊNALTIS: ITABAIANA 4x3 CAMPINENSE # (serie_d_2016_fasefinal.htm)
+2016 | bola sem par no pacote: 2016-08-20 # NOS PÊNALTIS: CEILÂNDIA 3x4 FLUMINENSE # (serie_d_2016_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-05-21 Parnahyba 2x0 Globo (serie_d_2017_fase1-a.htm)
+2017 | bola sem par no pacote: 2017-05-28 América 1x0 Parnahyba (serie_d_2017_fase1-a.htm)
+2017 | bola sem par no pacote: 2017-06-04 Guarani 1x0 Parnahyba (serie_d_2017_fase1-a.htm)
+2017 | bola sem par no pacote: 2017-06-11 Parnahyba 2x0 Guarani (serie_d_2017_fase1-a.htm)
+2017 | bola sem par no pacote: 2017-06-18 Parnahyba 2x0 América (serie_d_2017_fase1-a.htm)
+2017 | bola sem par no pacote: 2017-06-25 Globo 2x0 Parnahyba (serie_d_2017_fase1-a.htm)
+2017 | bola sem par no pacote: 2017-05-21 União Rondonópolis 2x0 Sete de Setembro (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-05-28 Sete de Setembro 1x2 Aparecidense (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-03 Luziânia 5x0 Sete de Setembro (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-11 Sete de Setembro 0x0 Luziânia (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-19 Aparecidense 2x1 Sete de Setembro (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-25 Sete de Setembro 1x2 União Rondonópolis (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-05-21 Espírito Santo 0x0 Red Bull Brasil (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-05-27 Boavista 2x2 Espírito Santo (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-05-27 Red Bull Brasil 3x1 Caldense (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-03 Red Bull Brasil 0x1 Boavista (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-03 Espírito Santo 0x1 Caldense (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-10 Boavista 0x2 Red Bull Brasil (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-10 Caldense 0x2 Espírito Santo (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-17 Caldense 2x0 Red Bull Brasil (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-17 Espírito Santo 1x1 Boavista (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-06-25 Red Bull Brasil 0x1 Espírito Santo (serie_d_2017_fase1-b.htm)
+2017 | bola sem par no pacote: 2017-07-09 Parnahyba-PI 2x3 Globo-RN (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-09 Espírito Santo-ES 1x0 Boavista-RJ (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-15 Boavista-RJ 1x3 Espírito Santo-ES (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-16 # Nos pênaltis: Guarany 4x3 Sousa # (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-16 Globo-RN 2x0 Parnahyba-PI (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-22 Espírito Santo-ES 1x0 Operário-PR (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-29 # Nos pênaltis: São Bernardo 3x4 São José # (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-30 Operário-PR 1x0 Espírito Santo-ES (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-30 # Nos pênaltis: Operário 4x2 Espírito Santo # (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-07-30 # Nos pênaltis: Santos 3x4 Maranhão # (serie_d_2017_fasefinal.htm)
+2017 | bola sem par no pacote: 2017-08-11 # NOS PÊNALTIS: GLOBO 3x2 URT # (serie_d_2017_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-04-21 Espírito Santo 1x1 URT (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-04-28 Macaé 2x1 Espírito Santo (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-05 Espírito Santo 0x2 Itumbiara (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-13 Itumbiara 2x1 Espírito Santo (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-19 Espírito Santo 1x1 Macaé (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-27 URT 4x2 Espírito Santo (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-04-22 Uberlândia 1x0 Atlético Itapemirim (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-01 Atlético Itapemirim 0x0 Americano (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-05 Novorizontino 2x1 Atlético Itapemirim (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-12 Atlético Itapemirim 0x0 Novorizontino (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-19 Americano 2x1 Atlético Itapemirim (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote: 2018-05-27 Atlético Itapemirim 1x1 Uberlândia (serie_d_2018_fase1-b.htm)
+2018 | bola sem par no pacote:  Treze 1x0 Imperatriz (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  Campinense 1x0 Ferroviário (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  Imperatriz 1x0 Manaus (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  América 2x1 Imperatriz (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  Treze 1x0 Ferroviário (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  Ferroviário 3x0 Treze (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  Belo Jardim 1x1 Guarani-CE (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  São José-RS 2x1 Mogi Mirim (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  Mogi Mirim 2x1 Prudentópolis (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  Guarani-CE 2x3 América-RN (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote:  São José-RS 2x1 Prudentópolis (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-10 # Nos pênaltis: América 4x5 Imperatriz # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-10 # Nos pênaltis: Campinense 6x5 Itabaiana # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-09 # Nos pênaltis: Treze 3x2 URT # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-09 # Nos pênaltis: Sinop 2x4 Linense # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-10 # Nos pênaltis: Tubarão 4x3 Brusque # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-09 # Nos pênaltis: São José 3x2 Novo Hamburgo # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-23 # Nos pênaltis: Manaus 3x2 Rio Branco # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-06-25 # Nos pênaltis: Campinense 5x4 Brasiliense # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-07-09 # Nos pênaltis: Campinense 4x5 Ferroviário # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-07-08 # Nos pênaltis: Manaus 2x3 Imperatriz # (serie_d_2018_fasefinal.htm)
+2018 | bola sem par no pacote: 2018-07-23 # Nos pênaltis: Treze 2x1 Imperatriz # (serie_d_2018_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-06-23 # Nos pênaltis: Cianorte 4x3 Ferroviária # (serie_d_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-06-23 # Nos pênaltis: Patrocinense 4x5 Juazeirense # (serie_d_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-07-06 # Nos pênaltis: Manaus 4x3 São Raimundo # (serie_d_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-08-04 # NOS PÊNALTIS: BRUSQUE 4x3 ITUANO # (serie_d_2019_fasefinal.htm)
+2019 | bola sem par no pacote: 2019-08-18 # NOS PÊNALTIS: MANAUS 5x6 BRUSQUE # (serie_d_2019_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-12-12 # Nos pênaltis: Bragantino 3x4 Juventude # (serie_d_2020_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-12-13 # Nos pênaltis: Mirassol 3x0 Caxias # (serie_d_2020_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-12-13 # Nos pênaltis: Fast Clube 6x5 Moto Club # (serie_d_2020_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-12-26 # Nos pênaltis: Fast Clube 6x5 Globo # (serie_d_2020_fasefinal.htm)
+2020 | bola sem par no pacote: 2020-12-27 # Nos pênaltis: Altos 4x2 Salgueiro # (serie_d_2020_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-05-30 *** Nos pênaltis: Picos 1x4 Tocantinópolis (serie_d_2021_fase1-a.htm)
+2021 | bola sem par no pacote: 2021-08-07 Palmas 2x1 Moto Club (serie_d_2021_fase1-a.htm)
+2021 | bola sem par no pacote: 2021-08-07 Imperatriz 0x1 Tocantinópolis (serie_d_2021_fase1-a.htm)
+2021 | bola sem par no pacote: 2021-08-07 4 de Julho 0x2 Paragominas (serie_d_2021_fase1-a.htm)
+2021 | bola sem par no pacote: 2021-08-08 Paragominas 0x0 Palmas (serie_d_2021_fase1-a.htm)
+2021 | bola sem par no pacote: 2021-06-06 Patrocinense 1x1 Rio Branco-VN (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-06-13 Rio Branco-VN 2x1 Boa Esporte (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-06-19 Ferroviária 1x0 Rio Branco-VN (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-06-27 Águia Negra 2x2 Rio Branco-VN (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-07-04 Rio Branco-VN 0x0 Rio Branco-VT (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-07-11 Uberlândia 2x1 Rio Branco-VN (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-07-18 Rio Branco-VN 3x0 Caldense (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-07-24 Caldense 0x0 Rio Branco-VN (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-08-01 Rio Branco-VN 1x0 Uberlândia (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-08-08 Rio Branco-VT 0x3 Rio Branco-VN (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-08-15 Rio Branco-VN 2x2 Águia Negra (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-08-22 Rio Branco-VN 0x0 Ferroviária (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-08-28 Boa Esporte 3x1 Rio Branco-VN (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote: 2021-09-05 Rio Branco-VN 2x1 Patrocinense (serie_d_2021_fase1-b.htm)
+2021 | bola sem par no pacote:  Santana 1x2 GAS (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote:  Brasiliense 2x1 Porto Velho (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-09-18 *** Nos pênaltis: Campinense 4x2 Sergipe (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-09-18 *** Nos pênaltis: Joinville 4x3 Bangu (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-09-18 *** Nos pênaltis: Santo André 4x5 Esportivo (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-09-18 *** Nos pênaltis: Juazeirense 3x5 Atlético Cearense (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-09-18 *** Nos pênaltis: Portuguesa 1x4 Caxias (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-10-02 *** Nos pênaltis: Joinville 1x3 Uberlândia (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-10-16 *** Nos pênaltis: Campinense 4x2 América (serie_d_2021_fasefinal.htm)
+2021 | bola sem par no pacote: 2021-10-17 *** Nos pênaltis: Ferroviária 3x4 Atlético Cearense (serie_d_2021_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-17 Fluminense 1x2 4 de Julho (serie_d_2022_fase1-a.htm)
+2022 | bola sem par no pacote:  Castanhal 3x0 Moto Club (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-30 *** Nos pênaltis: Aimoré 3x4 Portuguesa (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-30 *** Nos pênaltis: Caxias 6x5 Oeste (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-30 *** Nos pênaltis: Paraná 5x4 FC Cascavel (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-31 Lagarto 2x1 Souza (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-31 *** Nos pênaltis: Anápolis 1x3 Real Noroeste (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-31 *** Nos pênaltis: Moto Club 8x7 São Raimundo (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-07-31 *** Nos pênaltis: Rio Branco 5x4 Pacajus (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-08-13 *** Nos pênaltis: Caxias 3x0 Real Noroeste (serie_d_2022_fasefinal.htm)
+2022 | bola sem par no pacote: 2022-08-14 *** Nos pênaltis: ASA 5x4 Rio Branco (serie_d_2022_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-08-19 *** Nos pênaltis: Ceilândia 6x7 Caxias (serie_d_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-08-19 *** Nos pênaltis: Retrô 5x6 Maranhão (serie_d_2023_fasefinal.htm)
+2023 | bola sem par no pacote: 2023-09-03 *** Nos pênaltis: Ferroviário 3x0 Maranhão (serie_d_2023_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-03 *** Nos pênaltis: Internacional 8x7 Avenida (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-04 *** Nos pênaltis: Maranhão 5x6 Manaus (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-04 *** Nos pênaltis: Retrô 7x6 América (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-04 *** Nos pênaltis: Altos 5x4 Princesa (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-04 *** Nos pênaltis: Porto Velho 5x4 River (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-17 *** Nos pênaltis: Manauara 1x4 Retrô (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-17 *** Nos pênaltis: Porto Velho 2x4 Itabaiana (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-18 *** Nos pênaltis: Treze 5x3 Altos (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-08-31 *** Nos pênaltis: Iguatu 4x5 Anápolis (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-09-01 *** Nos pênaltis: Brasiliense 2x3 Retrô (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-09-15 *** Nos pênaltis: Itabaiana 3x4 Retrô (serie_d_2024_fasefinal.htm)
+2024 | bola sem par no pacote: 2024-09-15 *** Nos pênaltis: Maringá 4x5 Anápolis (serie_d_2024_fasefinal.htm)

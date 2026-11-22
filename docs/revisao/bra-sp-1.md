@@ -115,3 +115,35 @@ O site publicado (`https://clubeanalitico.pages.dev/dados/bra-sp-1.js` e `index.
 3. **"Paulistinha" de 1970 e 1972-1974 (SP-006):** a fase preliminar entra na edição?
 4. **AA São Bento (SP-026):** juntar "AA São Bento" e "São Bento de São Paulo" (1933) num clube só?
 5. **CA Paulista e "ECPaulista" (SP-027):** juntar num clube só?
+
+## 3ª rodada (22/11/2026)
+
+Revisor: QS · achados em `SCRATCH/achados_QS.csv` (QS-001 a QS-015) · sugestões para os abertos em `SCRATCH/sugestoes_QS.csv` · fontes em `SCRATCH/fontes_QS.md` · decisões em `SCRATCH/decisoes_QS.md` · plano em `SCRATCH/plano_QS.md` · scripts em `revisao/QS/`.
+
+**Resumo.** Duas fontes novas cobrem o que faltava: o Futebol Nacional (todos os jogos de 1902 a 2026, com as notas de cancelamento, W.O. e pontos dados fora de campo) e a API da FPF (2007-2026, oficial). Com elas acharam-se as causas de quase todos os vices e 3º errados que restavam.
+Achados novos: 4 altos (jogos cancelados contados, desistências de 1906, 2 jogos fora da tabela em 1916 APEA, pontos dados fora de campo não aplicados), 8 médios e 3 baixos. A causa do SP-024 é uma expressão regular do `pacote.py` que não lê a lista de artilheiros da RSSSF.
+
+### O que foi feito
+- **ORDEM (pedido da reconferência de 22/11): confirmado.** O dicionário `ORDEM` de `coleta/bra-sp-1/importar.py` não tem "Fase única", os turnos e sub-turnos, "Fase de/Torneio de Classificação", "Repescagem", "Torneio de rebaixamento" nem "Desempate"; `ORDEM.get(p.fase, 50)` põe essas fases acima da "Final" (10). Simulei a regra do importador no pacote (`revisao/QS/sim_ordem.py`, reproduz o pacote nas 134 edições) com a correção completa (ORDEM com todas as fases, repescagem/rebaixamento = 0, fase trocada por jogo em 1976, 1978, 1981, 1998 e 2003, vice do quadrangular final, desempate pela Fase final): vices certos 119 → 125, 3º 97 → 105, nenhuma piora. Detalhe no SP-002 de `sugestoes_QS.csv`.
+- **Futebol Nacional x pacote, todos os jogos, por década** (`revisao/QS/fn_comparar.py`; placar igual / conferidos; data igual / conferidos): 1900s 207/207 e 215/217; 1910s 563/564 e 569/569; 1920s 1.092/1.099 e 1.104/1.108; 1930s 1.015/1.022 e 1.023/1.028; 1940s 1.115/1.119 e 1.117/1.120; 1950s 2.582/2.589 e 2.585/2.589; 1960s 2.249/2.268 e 2.259/2.269; 1970s 2.385/2.398 e 2.366/2.399; 1980s 3.717/3.738 e 3.733/3.738; 1990s 2.889/2.896 e 2.698/2.896 (o FN erra 1997 em 1 dia); 2000s 1.614/1.615 e 1.590/1.615; 2010s 1.590/1.594 e 1.548/1.594; 2020s 608/612 e 581/612. Cada diferença tem o ogol como terceira opinião (`revisao/QS/fn_diferencas.csv`).
+- **FPF x pacote, 2007-2025, todos os jogos** (`revisao/QS/fpf_comparar.py`): 2.806 casados, placar igual em 2.805, data igual em 2.738 (68 datas diferentes: QS-008).
+- **Artilheiros:** Futebol Nacional x RSSSF (sptops.htm) x Wikipédia pt x FPF (`revisao/QS/cmp_artilheiros.py`).
+- **Campeões oficiais:** lista da FPF (Tableau do site): Santos 22 até 2019 (conta 1973), sem título para Albion/Fiorentino.
+
+### Achados novos (QS)
+- **Altos, todos no ar:** QS-001 (jogos cancelados por abandono de clube contados: 1913 LPF, 1914 LPF, 1923, 1924, 1925, 1927 LAF, 1928 APEA, 1935 APEA, 1938; muda o vice de 1913 LPF e 1927 LAF e o 3º de 1913 LPF e 1914 LPF); QS-005 (1906: desistências do SPAC e do Mackenzie, vice); QS-006 (1916 APEA: 2 jogos fora da tabela, vice); QS-015 (12 jogos com pontos dados fora de campo não aplicados, de 1915 a 1990; é a causa do SP-013, 1930, e do 3º de 1984).
+- **Médios:** QS-002 (1929 LAF, data "1959"), QS-003 (1979, 7 jogos com ano 1978), QS-004 (1969, Corinthians x Santos 1-3 no lugar de 1-1), QS-007 (10 jogos que faltam), QS-008 (68 datas 2007-2025), QS-009 (jogo abandonado conta em dobro em 2000 e 2004), QS-010 (regex dos artilheiros), QS-012 (7 placares).
+- **Baixos:** QS-011 (Wikipédia pt diverge dos artilheiros em 17 edições), QS-013 (1956, jogo repetido), QS-014 (datas em dúvida).
+
+### Achados antigos com causa ou valor novo
+SP-012 (o jogo que falta é 04/10/1942 Corinthians 3-1 Palmeiras), SP-013 (Palestra 1-0 Corinthians de 04/05/1930 com os pontos para o Corinthians), SP-017 (1984: doping do Palmeiras em 09/09/1984), SP-020 (o FN confirma o pacote em 1904, 1905, 1946 e 2021), SP-023/SP-024 (QS-010), SP-026/SP-027 (o FN escreve "AA São Bento" em 1933 e "CA Paulista" em 1935).
+
+### Fontes
+- Futebol Nacional: https://futebolnacional.com.br/siteapp/controller.jsp?module=summary&lang=pt-br&name=A27437D2CE0894275C03A3BAEDA49F41A9C63F1F39F7FF7572315985555EFA80&state=SP&country=BR (lista) e `controller.jsp?module=championship&code=<código>` (edição).
+- FPF: https://futebolpaulista.com.br/Handlers/Competicoes/ListarTabela.ashx?IdCampeonato=73&Ano=<ano>&Rodada=<n>&IdClube=0&IdCategoria=39 ; ListarArtilharia.ashx; https://public.tableau.com/static/images/Ca/CampeesSrieA1/Dashboard1/1.png
+- RSSSF: https://rsssfbrasil.com/tablessz/sptops.htm (artilheiros).
+- Testadas e registradas em `fontes_QS.md`: transfermarkt (BCP1, 2006+), SPFCpédia, Meu Timão, Palmeiras oficial, acervos do Estadão/Folha (jornal escaneado: fora, pela regra da A2).
+- Páginas em `data/cache/revisao/QS/`.
+
+### Perguntas ao Guilherme (3ª rodada)
+As seis da 2ª rodada seguem sem resposta (SP-001, SP-004, SP-005, SP-006, SP-026, SP-027), agora com prova e recomendação em `decisoes_QS.md`. Nova: QS-011, qual lista de artilheiros vale (recomendação: RSSSF + FPF, que batem com o Futebol Nacional).

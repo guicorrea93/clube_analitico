@@ -1,0 +1,32 @@
+# Datas divergentes do pacote por-1 (gerado por revisao/PT/cmp_datas.py em 22/11/2026)
+# temporada | caso | rodada e jogo | data no pacote | data no Transfermarkt | diferença
+# 'pacote isolado' = football-data (data/coleta/por-1/football-data/P1_*.csv) e Transfermarkt (https://www.transfermarkt.com/primeira-liga/gesamtspielplan/wettbewerb/PO1?saison_id=<ano>) concordam entre si
+1995/96	pacote isolado (TM = football-data)	r25 Braga x Boavista	pacote 1996-03-11	TM 1996-03-10	-1
+1996/97	três datas diferentes (fd 1996-12-01)	r12 Salgueiros x Belenenses	pacote 1996-11-29	TM 1996-11-30	+1
+1997/98	pacote isolado (TM = football-data)	r2 Porto x Belenenses	pacote 1997-08-29	TM 1997-08-30	+1
+1997/98	pacote isolado (TM = football-data)	r27 Benfica x Boavista	pacote 1998-03-29	TM 1998-03-28	-1
+1998/99	pacote isolado (TM = football-data)	r32 Boavista x Beira-Mar	pacote 1999-05-16	TM 1999-05-17	+1
+1999/00	três datas diferentes (fd 1999-08-21)	r1 Santa Clara x Sporting	pacote 1999-08-20	TM 1999-08-22	+2
+1999/00	pacote isolado (TM = football-data)	r6 Marítimo x Gil Vicente	pacote 1999-10-02	TM 1999-10-03	+1
+1999/00	pacote isolado (TM = football-data)	r12 Farense x Boavista	pacote 1999-11-28	TM 1999-11-29	+1
+1999/00	pacote isolado (TM = football-data)	r13 Alverca x Farense	pacote 1999-12-05	TM 1999-12-04	-1
+1999/00	pacote isolado (TM = football-data)	r14 Estrela da Amadora x Alverca	pacote 1999-12-12	TM 1999-12-11	-1
+1999/00	pacote isolado (TM = football-data)	r20 Belenenses x Boavista	pacote 2000-02-06	TM 2000-02-04	-2
+1999/00	pacote isolado (TM = football-data)	r22 Belenenses x Braga	pacote 2000-02-20	TM 2000-02-18	-2
+2000/01	pacote isolado (TM = football-data)	r6 Belenenses x Boavista	pacote 2000-10-01	TM 2000-10-02	+1
+2000/01	pacote isolado (TM = football-data)	r11 Belenenses x Marítimo	pacote 2000-11-12	TM 2000-11-11	-1
+2000/01	pacote isolado (TM = football-data)	r13 Beira-Mar x Desportivo das Aves	pacote 2000-12-03	TM 2000-12-02	-1
+2000/01	pacote isolado (TM = football-data)	r16 Alverca x Paços de Ferreira	pacote 2001-01-07	TM 2001-01-06	-1
+2000/01	pacote isolado (TM = football-data)	r18 Campomaiorense x Gil Vicente	pacote 2001-01-22	TM 2001-01-21	-1
+2000/01	pacote isolado (TM = football-data)	r30 Vitória de Guimarães x Belenenses	pacote 2001-04-27	TM 2001-04-28	+1
+2001/02	pacote isolado (TM = football-data)	r3 Santa Clara x Gil Vicente	pacote 2001-08-26	TM 2001-08-25	-1
+2001/02	pacote isolado (TM = football-data)	r14 Farense x Belenenses	pacote 2001-12-09	TM 2001-12-07	-2
+2001/02	pacote isolado (TM = football-data)	r20 Farense x Braga	pacote 2002-01-26	TM 2002-01-27	+1
+2002/03	pacote isolado (TM = football-data)	r5 Braga x Sporting	pacote 2002-09-30	TM 2002-09-29	-1
+2003/04	pacote isolado (TM = football-data)	r5 Belenenses x Vitória de Guimarães	pacote 2003-09-21	TM 2003-09-22	+1
+2005/06	pacote isolado (TM = football-data)	r23 Porto x Marítimo	pacote 2006-02-18	TM 2006-02-19	+1
+2005/06	três datas diferentes (fd 2006-03-24)	r28 Nacional da Madeira x Rio Ave	pacote 2006-03-25	TM 2006-03-26	+1
+2006/07	pacote isolado (TM = football-data)	r16 Belenenses x Benfica	pacote 2007-01-27	TM 2007-01-28	+1
+2006/07	pacote isolado (TM = football-data)	r19 Beira-Mar x Porto	pacote 2007-02-24	TM 2007-02-25	+1
+2008/09	pacote isolado (TM = football-data)	r18 Porto x Rio Ave	pacote 2009-02-14	TM 2009-02-15	+1
+2015/16	pacote isolado (TM = football-data)	r17 Nacional da Madeira x Benfica	pacote 2016-01-10	TM 2016-01-11	+1

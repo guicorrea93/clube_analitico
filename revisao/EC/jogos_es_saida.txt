@@ -1,0 +1,444 @@
+1950s {'placar igual': 7, 'data igual': 7, 'nome não resolvido': 1}
+1960s {'placar igual': 30, 'data diferente': 29, 'placar diferente': 3, 'sem jogo no pacote': 1, 'nome não resolvido': 90}
+1970s {'nome não resolvido': 143, 'sem jogo no pacote': 2, 'placar igual': 9, 'placar diferente': 4, 'data igual': 2, 'data diferente': 3}
+1980s {'placar igual': 231, 'data diferente': 84, 'nome não resolvido': 7, 'data igual': 146, 'placar diferente': 6}
+1990s {'placar igual': 11, 'data igual': 8, 'nome não resolvido': 8, 'placar diferente': 9, 'data diferente': 3}
+2000s {'nome não resolvido': 42, 'placar igual': 449}
+2010s {'nome não resolvido': 577, 'placar igual': 1072, 'data igual': 930, 'data diferente': 134, 'placar diferente': 4}
+2020s {'nome não resolvido': 82, 'placar igual': 1221, 'data igual': 1069, 'data diferente': 152, 'placar diferente': 2}
+DATA | 1960 | Barcelona de Guayaquil | 1 | 0 | Deportivo Quito | 1960-10-16 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Everest | 3 | 4 | Macará | 1960-10-16 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | España | 2 | 2 | Emelec | 1960-10-16 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | LDU de Quito | 0 | 1 | Patria | 1960-10-16 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Emelec | 4 | 2 | España | 1960-10-23 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Patria | 2 | 2 | LDU de Quito | 1960-10-23 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Macará | 3 | 2 | Everest | 1960-10-23 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Deportivo Quito | 1 | 0 | Barcelona de Guayaquil | 1960-10-23 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Barcelona de Guayaquil | 4 | 1 | Macará | 1960-10-30 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Everest | 1 | 0 | Deportivo Quito | 1960-10-30 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+PLACAR | 1960 | LDU de Quito | 1 | 4 | Emelec | 1960-10-30 | [('4', '1', '', 'Fase única')] | Campeonato Ecuatoriano de Fútbol 1960
+PLACAR | 1960 | España | 1 | 2 | Patria | 1960-10-30 | [('2', '1', '', 'Fase única')] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Emelec | 3 | 1 | LDU de Quito | 1960-11-03 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Patria | 2 | 1 | España | 1960-11-03 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Deportivo Quito | 3 | 0 | Everest | 1960-11-03 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Macará | 0 | 1 | Barcelona de Guayaquil | 1960-11-03 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Barcelona de Guayaquil | 4 | 0 | LDU de Quito | 1960-11-06 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+PLACAR | 1960 | Everest | 1 | 2 | España | 1960-11-06 | [('2', '1', '', 'Fase única')] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Macará | 1 | 2 | Patria | 1960-11-06 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+SEM JOGO | 1960 | Deportivo Quito | 1 | 2 | Macará | 1960-11-06 | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Emelec | 5 | 1 | Deportivo Quito | 1960-11-13 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Patria | 7 | 2 | Macará | 1960-11-13 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | España | 2 | 3 | Everest | 1960-11-13 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | LDU de Quito | 0 | 0 | Barcelona de Guayaquil | 1960-11-13 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Barcelona de Guayaquil | 2 | 0 | España | 1960-11-20 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Everest | 2 | 1 | LDU de Quito | 1960-11-20 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Macará | 3 | 4 | Emelec | 1960-11-20 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Deportivo Quito | 1 | 1 | Patria | 1960-11-20 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Emelec | 3 | 2 | Macará | 1960-11-27 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | Patria | 3 | 5 | Deportivo Quito | 1960-11-27 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1960 | LDU de Quito | 2 | 2 | Everest | 1960-11-27 | [''] | Campeonato Ecuatoriano de Fútbol 1960
+DATA | 1964 | Deportivo Quito | 1 | 0 | LDU de Quito | 1964-01-14 | ['1965-01-14'] | Campeonato Ecuatoriano de Fútbol 1964
+DATA | 1964 | El Nacional | 3 | 2 | LDU de Quito | 1964-01-20 | ['1965-01-20'] | Campeonato Ecuatoriano de Fútbol 1964
+SEM JOGO | 1971 | Juventud Italiana | 1 | 2 | LDU de Portoviejo | 1971-03-05 | Campeonato Ecuatoriano de Fútbol 1971
+SEM JOGO | 1971 | LDU de Cuenca | 1 | 2 | Deportivo Cuenca | 1971-05-10 | Campeonato Ecuatoriano de Fútbol 1971
+PLACAR | 1972 | Universidad Católica de Quito | 2 | 0 | LDU de Quito | 1972-01-14 | [('1', '0', '', 'Primeira fase')] | Campeonato Ecuatoriano de Fútbol 1972
+PLACAR | 1972 | LDU de Quito | 1 | 1 | Universidad Católica de Quito | 1972-01-19 | [('3', '2', '', 'Primeira fase')] | Campeonato Ecuatoriano de Fútbol 1972
+PLACAR | 1973 | El Nacional | 3 | 1 | Barcelona de Guayaquil | 1973-01-06 | [('0', '2', '', 'Primeira fase'), ('6', '0', '', 'Segunda fase'), ('3', '2', '1973-01-06', 'Semifinal'), ('2', '0', '1973-01-20', 'Semifinal')] | Campeonato Ecuatoriano de Fútbol 1973
+PLACAR | 1973 | Barcelona de Guayaquil | 3 | 2 | El Nacional | 1973-01-13 | [('1', '2', '', 'Primeira fase'), ('1', '1', '', 'Segunda fase'), ('3', '1', '1973-01-13', 'Semifinal')] | Campeonato Ecuatoriano de Fútbol 1973
+DATA | 1974 | LDU de Quito | 1 | 0 | Deportivo Cuenca | 1974-11-24 | [''] | Campeonato Ecuatoriano de Fútbol 1974
+DATA | 1974 | Deportivo Cuenca | 0 | 0 | LDU de Quito | 1974-12-01 | [''] | Campeonato Ecuatoriano de Fútbol 1974
+DATA | 1974 | LDU de Quito | 2 | 1 | El Nacional | 1974-12-08 | [''] | Campeonato Ecuatoriano de Fútbol 1974
+DATA | 1980 | Técnico Universitario | 4 | 1 | Barcelona de Guayaquil | 1980-01-04 | [''] | Campeonato Ecuatoriano de Fútbol 1980
+DATA | 1980 | Barcelona de Guayaquil | 3 | 0 | Técnico Universitario | 1980-01-11 | ['', ''] | Campeonato Ecuatoriano de Fútbol 1980
+DATA | 1982 | Barcelona de Guayaquil | 3 | 2 | Universidad Católica de Quito | 1982-03-20 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 1 | 3 | LDU de Portoviejo | 1982-03-20 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 1 | 0 | Everest | 1982-03-20 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | 9 de Octubre | 1 | 0 | Deportivo Quito | 1982-03-27 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Portoviejo | 0 | 2 | Barcelona de Guayaquil | 1982-03-27 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 0 | 0 | Emelec | 1982-03-27 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Barcelona de Guayaquil | 1 | 0 | 9 de Octubre | 1982-04-03 | ['', '1982-07-25'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Emelec | 2 | 0 | LDU de Portoviejo | 1982-04-03 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 2 | 1 | Everest | 1982-04-03 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Everest | 1 | 0 | Universidad Católica de Quito | 1982-04-17 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | 9 de Octubre | 3 | 1 | Emelec | 1982-04-17 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 2 | 2 | Barcelona de Guayaquil | 1982-04-17 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Barcelona de Guayaquil | 2 | 1 | Técnico Universitario | 1982-04-20 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Portoviejo | 3 | 1 | Everest | 1982-04-20 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 2 | 2 | Deportivo Quito | 1982-04-20 | ['', '1982-10-31'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Barcelona de Guayaquil | 0 | 1 | Emelec | 1982-05-01 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Everest | 1 | 2 | 9 de Octubre | 1982-05-01 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Portoviejo | 3 | 0 | Universidad Católica de Quito | 1982-05-01 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 3 | 2 | Técnico Universitario | 1982-05-01 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 3 | 0 | Emelec | 1982-05-04 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 1 | 0 | LDU de Portoviejo | 1982-05-04 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 1 | 0 | 9 de Octubre | 1982-05-04 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Portoviejo | 2 | 0 | Técnico Universitario | 1982-05-08 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+PLACAR | 1982 | Universidad Católica de Quito | 3 | 0 | Barcelona de Guayaquil | 1982-05-08 | [('3', '1', '', 'Primeira fase'), ('1', '0', '1982-11-21', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Barcelona de Guayaquil | 2 | 0 | LDU de Portoviejo | 1982-05-11 | ['', '1982-09-26'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Emelec | 1 | 0 | Universidad Católica de Quito | 1982-05-11 | ['', '1982-09-05'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 2 | 0 | 9 de Octubre | 1982-05-11 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Everest | 1 | 2 | Técnico Universitario | 1982-05-15 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | 9 de Octubre | 3 | 3 | Barcelona de Guayaquil | 1982-05-15 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Portoviejo | 5 | 1 | Emelec | 1982-05-15 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 0 | 0 | Universidad Católica de Quito | 1982-05-22 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Barcelona de Guayaquil | 1 | 0 | Deportivo Quito | 1982-05-29 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Emelec | 0 | 0 | 9 de Octubre | 1982-05-29 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 1 | 0 | Everest | 1982-05-29 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+PLACAR | 1982 | El Nacional | 3 | 1 | LDU de Quito | 1982-05-30 | [('1', '0', '1982-05-02', 'Primeira fase'), ('4', '1', '1982-11-03', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Everest | 2 | 3 | LDU de Portoviejo | 1982-06-01 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 1 | 1 | Barcelona de Guayaquil | 1982-06-01 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 1 | 2 | Universidad Católica de Quito | 1982-06-01 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Emelec | 1 | 0 | Barcelona de Guayaquil | 1982-06-11 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | 9 de Octubre | 1 | 2 | Everest | 1982-06-11 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 1 | 1 | Deportivo Quito | 1982-06-11 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 3 | 0 | LDU de Portoviejo | 1982-06-11 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Emelec | 2 | 0 | Técnico Universitario | 1982-06-18 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | 9 de Octubre | 3 | 0 | Universidad Católica de Quito | 1982-06-18 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 2 | 1 | LDU de Quito | 1982-10-07 | ['1982-07-04'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 0 | 0 | Emelec | 1982-10-07 | ['1982-07-04'] | Campeonato Ecuatoriano de Fútbol 1982
+PLACAR | 1982 | Aucas | 4 | 0 | LDU de Portoviejo | 1982-10-07 | [('4', '1', '1982-07-04', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 0 | 0 | Everest | 1982-10-07 | ['1982-07-04'] | Campeonato Ecuatoriano de Fútbol 1982
+PLACAR | 1982 | 9 de Octubre | 1 | 1 | Universidad Católica de Quito | 1982-07-18 | [('3', '0', '', 'Primeira fase'), ('4', '2', '1982-07-04', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 2 | 0 | Aucas | 1982-10-07 | ['1982-07-18'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 3 | 0 | Everest | 1982-10-07 | ['1982-07-18'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 1 | 2 | El Nacional | 1982-10-07 | ['1982-07-18'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 1 | 0 | LDU de Quito | 1982-10-07 | ['1982-07-18'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 1 | 1 | El Nacional | 1982-10-07 | ['1982-08-01'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 5 | 0 | LDU de Portoviejo | 1982-10-07 | ['1982-08-01'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 1 | 1 | 9 de Octubre | 1982-10-07 | ['1982-08-01'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Quito | 2 | 2 | Técnico Universitario | 1982-10-07 | ['1982-08-01'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Barcelona de Guayaquil | 2 | 1 | Técnico Universitario | 1982-08-13 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+PLACAR | 1982 | Deportivo Quito | 2 | 2 | Universidad Católica de Quito | 1982-08-14 | [('1', '2', '', 'Primeira fase'), ('1', '1', '1982-08-14', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 3 | 3 | 9 de Octubre | 1982-10-07 | ['1982-08-15'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | El Nacional | 2 | 1 | Everest | 1982-10-07 | ['1982-08-15'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 3 | 0 | Barcelona de Guayaquil | 1982-08-21 | [''] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 2 | 0 | Emelec | 1982-10-07 | ['1982-08-22'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 1 | 1 | Universidad Católica de Quito | 1982-10-07 | ['1982-08-22'] | Campeonato Ecuatoriano de Fútbol 1982
+PLACAR | 1982 | Aucas | 0 | 0 | Técnico Universitario | 1982-08-28 | [('2', '2', '1982-08-28', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 0 | 0 | Barcelona de Guayaquil | 1982-10-07 | ['1982-10-06'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 5 | 2 | Everest | 1982-10-07 | ['1982-09-26'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | 9 de Octubre | 4 | 1 | LDU de Quito | 1982-10-07 | ['1982-09-26'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 2 | 1 | El Nacional | 1982-10-07 | ['1982-04-18', '1982-09-26'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 3 | 2 | Emelec | 1982-10-07 | ['1982-09-26'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Aucas | 1 | 4 | Universidad Católica de Quito | 1982-10-07 | ['1982-09-26'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | 9 de Octubre | 0 | 2 | Barcelona de Guayaquil | 1982-10-07 | ['1982-10-10'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Aucas | 2 | 0 | Deportivo Quito | 1982-10-07 | ['1982-10-10'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 7 | 0 | Everest | 1982-10-07 | ['1982-10-10'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Quito | 4 | 2 | LDU de Portoviejo | 1982-10-07 | ['1982-10-10'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 0 | 0 | LDU de Portoviejo | 1982-10-07 | ['1982-10-24'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 1 | 2 | El Nacional | 1982-10-07 | ['1982-10-24'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Quito | 2 | 1 | Everest | 1982-10-07 | ['1982-10-24'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 0 | 2 | Técnico Universitario | 1982-10-07 | ['1982-10-24'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 0 | 0 | Universidad Católica de Quito | 1982-10-07 | ['1982-11-07'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 6 | 1 | Aucas | 1982-10-07 | ['1982-11-07'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quito | 2 | 1 | LDU de Portoviejo | 1982-10-07 | ['1982-11-07'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | LDU de Quito | 0 | 0 | Barcelona de Guayaquil | 1982-10-07 | ['1982-11-07'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Deportivo Quevedo | 6 | 1 | Deportivo Quito | 1982-10-07 | ['1982-11-21'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Técnico Universitario | 1 | 3 | 9 de Octubre | 1982-10-07 | ['1982-11-21'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | Universidad Católica de Quito | 1 | 0 | Barcelona de Guayaquil | 1982-10-07 | ['1982-11-21'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | El Nacional | 2 | 0 | LDU de Portoviejo | 1982-10-07 | ['1982-11-21'] | Campeonato Ecuatoriano de Fútbol 1982
+DATA | 1982 | El Nacional | 3 | 0 | Barcelona de Guayaquil | 1982-01-02 | ['1982-12-12', '1983-01-02', '1983-01-05'] | Campeonato Ecuatoriano de Fútbol 1982
+PLACAR | 1993 | Green Cross | 0 | 0 | El Nacional | 1993-09-07 | [('0', '3', '1993-10-20', 'Fase final')] | Campeonato Ecuatoriano de Fútbol 1993
+PLACAR | 1993 | El Nacional | 4 | 2 | Green Cross | 1993-10-05 | [('4', '0', '1993-11-17', 'Fase final')] | Campeonato Ecuatoriano de Fútbol 1993
+PLACAR | 1994 | Barcelona de Guayaquil | 4 | 0 | Deportivo Quito | 1994-10-04 | [('3', '0', '1994-04-01', 'Primeira fase'), ('1', '1', '1994-11-02', 'Fase final')] | Campeonato Ecuatoriano de Fútbol 1994
+PLACAR | 1994 | Deportivo Quito | 1 | 1 | Barcelona de Guayaquil | 1994-10-11 | [('4', '1', '1994-06-26', 'Primeira fase'), ('0', '0', '1994-12-04', 'Fase final')] | Campeonato Ecuatoriano de Fútbol 1994
+PLACAR | 1995 | LDU de Quito | 1 | 1 | Emelec | 1995-08-21 | [('5', '1', '1995-03-01', 'Primeira fase'), ('2', '1', '1995-11-12', 'Fase final')] | Campeonato Ecuatoriano de Fútbol 1995
+DATA | 1995 | Emelec | 2 | 0 | LDU de Quito | 1995-09-04 | ['1995-11-19'] | Campeonato Ecuatoriano de Fútbol 1995
+PLACAR | 1996 | Emelec | 1 | 2 | El Nacional | 1996-12-15 | [('2', '1', '', 'Apertura'), ('3', '0', '', 'Liguillas')] | Campeonato Ecuatoriano de Fútbol 1996
+PLACAR | 1996 | Técnico Universitario | 1 | 0 | Barcelona de Guayaquil | 1996-07-16 | [('2', '0', '', 'Apertura'), ('2', '0', '', 'Clausura')] | Campeonato Ecuatoriano de Fútbol 1996
+DATA | 1998 | Emelec | 1 | 0 | LDU de Quito | 1998-12-23 | ['1998-08-23', '1998-12-20'] | Campeonato Ecuatoriano de Fútbol 1998
+PLACAR | 1998 | Deportivo Cuenca | 1 | 3 | El Nacional | 1998-02-20 | [('2', '1', '1998-06-03', 'Apertura'), ('3', '0', '1998-12-06', 'Liguillas do Clausura')] | Campeonato Ecuatoriano de Fútbol 1998
+PLACAR | 1998 | El Nacional | 3 | 2 | Deportivo Cuenca | 1998-02-27 | [('4', '0', '1998-04-08', 'Apertura'), ('1', '0', '1998-12-12', 'Liguillas do Clausura')] | Campeonato Ecuatoriano de Fútbol 1998
+DATA | 1999 | LDU de Quito | 1 | 0 | El Nacional | 1999-12-12 | ['1999-12-05'] | Campeonato Ecuatoriano de Fútbol 1999
+DATA | 2011 | Barcelona de Guayaquil | 4 | 0 | Olmedo | 2011-05-09 | ['2011-04-16'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | El Nacional | 2 | 3 | LDU de Quito | 2011-08-20 | ['2011-08-21'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | LDU de Loja | 0 | 1 | Deportivo Quito | 2011-08-20 | ['2011-08-21'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Manta FC | 1 | 1 | Deportivo Cuenca | 2011-09-11 | ['2011-09-09'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Imbabura | 0 | 0 | LDU de Loja | 2011-09-11 | ['2011-09-10'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Independiente del Valle | 3 | 0 | Olmedo | 2011-09-11 | ['2011-09-10'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | LDU de Quito | 1 | 0 | Espoli | 2011-09-11 | ['2011-09-10'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Deportivo Quito | 2 | 2 | Imbabura | 2011-09-18 | ['2011-09-17'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Espoli | 0 | 0 | Manta FC | 2011-09-18 | ['2011-03-20', '2011-09-17'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | LDU de Loja | 3 | 2 | LDU de Quito | 2011-09-18 | ['2011-09-17'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Deportivo Cuenca | 1 | 1 | El Nacional | 2011-10-19 | ['2011-09-18'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Barcelona de Guayaquil | 1 | 0 | Independiente del Valle | 2011-10-19 | ['2011-09-18'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Imbabura | 0 | 0 | Olmedo | 2011-09-25 | ['2011-09-23'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | LDU de Loja | 2 | 0 | Manta FC | 2011-10-02 | ['2011-09-30'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Deportivo Cuenca | 0 | 0 | Barcelona de Guayaquil | 2011-10-02 | ['2011-10-01'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Espoli | 2 | 1 | El Nacional | 2011-10-02 | ['2011-10-01'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Emelec | 2 | 0 | Independiente del Valle | 2011-10-02 | ['2011-10-01'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Manta FC | 0 | 1 | Espoli | 2011-10-16 | ['2011-04-16', '2011-10-15'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Imbabura | 1 | 4 | Deportivo Quito | 2011-10-16 | ['2011-10-15'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Emelec | 3 | 0 | Olmedo | 2011-10-16 | ['2011-10-15'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | LDU de Loja | 4 | 0 | Imbabura | 2011-10-23 | ['2011-10-22'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Olmedo | 1 | 0 | Independiente del Valle | 2011-10-23 | ['2011-10-22'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Deportivo Quito | 3 | 0 | LDU de Loja | 2011-11-07 | ['2011-11-02'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Independiente del Valle | 3 | 2 | Manta FC | 2011-11-07 | ['2011-11-04'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Imbabura | 3 | 1 | Barcelona de Guayaquil | 2011-11-07 | ['2011-11-05'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Emelec | 0 | 0 | Deportivo Cuenca | 2011-11-07 | ['2011-04-03', '2011-11-05'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Olmedo | 2 | 1 | Espoli | 2011-11-07 | ['2011-11-05'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | LDU de Loja | 1 | 2 | Independiente del Valle | 2011-11-20 | ['2011-11-18'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | El Nacional | 5 | 1 | Imbabura | 2011-11-20 | ['2011-11-19'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Deportivo Cuenca | 1 | 1 | Olmedo | 2011-11-20 | ['2011-11-19'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Barcelona de Guayaquil | 2 | 0 | Emelec | 2011-11-20 | ['2011-11-19'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Independiente del Valle | 2 | 0 | LDU de Quito | 2011-11-23 | ['2011-11-22'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2011 | Emelec | 2 | 1 | LDU de Quito | 2011-11-30 | ['2011-12-01'] | Campeonato Ecuatoriano de Fútbol 2011
+DATA | 2012 | Deportivo Quito | 0 | 0 | LDU de Quito | 2012-02-26 | ['2012-07-25'] | Campeonato Ecuatoriano de Fútbol 2012
+PLACAR | 2012 | LDU de Quito | 0 | 0 | Independiente del Valle | 2012-03-28 | [('1', '1', '2012-03-28', 'Primeira fase'), ('1', '0', '2012-07-29', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 2012
+DATA | 2012 | Técnico Universitario | 0 | 0 | LDU de Quito | 2012-03-11 | ['2012-08-11'] | Campeonato Ecuatoriano de Fútbol 2012
+PLACAR | 2012 | LDU de Quito | 0 | 1 | Deportivo Cuenca | 2012-03-18 | [('1', '2', '2012-03-18', 'Primeira fase'), ('0', '2', '2012-08-18', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 2012
+DATA | 2012 | Manta FC | 1 | 1 | Barcelona de Guayaquil | 2012-05-09 | ['2012-08-01'] | Campeonato Ecuatoriano de Fútbol 2012
+PLACAR | 2012 | Deportivo Quito | 2 | 0 | El Nacional | 2012-10-20 | [('3', '0', '2012-05-15', 'Primeira fase'), ('1', '0', '2012-10-20', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 2012
+DATA | 2013 | Deportivo Quevedo | 1 | 1 | Barcelona de Guayaquil | 2013-10-07 | ['2013-01-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 1 | 3 | Universidad Católica de Quito | 2013-10-07 | ['2013-02-10'] | Campeonato Ecuatoriano de Fútbol 2013
+PLACAR | 2013 | Macará | 0 | 3 | LDU de Loja | 2013-02-16 | [('0', '1', '2013-02-16', 'Primeira fase'), ('1', '1', '2013-07-21', 'Segunda fase')] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 0 | 0 | LDU de Quito | 2013-10-07 | ['2013-02-24', '2013-07-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 0 | 1 | Emelec | 2013-10-07 | ['2013-03-10'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Barcelona de Guayaquil | 1 | 0 | Macará | 2013-10-07 | ['2013-03-10'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 2 | 1 | LDU de Loja | 2013-10-07 | ['2013-04-07'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 1 | 1 | El Nacional | 2013-10-07 | ['2013-05-19'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Barcelona de Guayaquil | 2 | 0 | Emelec | 2013-10-07 | ['2013-05-19'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 0 | 0 | Deportivo Cuenca | 2013-10-07 | ['2013-06-16'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 4 | 3 | Deportivo Quito | 2013-10-07 | ['2013-06-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Emelec | 1 | 0 | Universidad Católica de Quito | 2013-10-07 | ['2013-06-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | LDU de Quito | 0 | 2 | Deportivo Cuenca | 2013-10-07 | ['2013-06-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | El Nacional | 3 | 1 | Macará | 2013-10-07 | ['2013-06-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | LDU de Loja | 2 | 0 | Independiente del Valle | 2013-10-07 | ['2013-06-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Manta FC | 1 | 2 | Barcelona de Guayaquil | 2013-10-07 | ['2013-06-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 1 | 3 | Emelec | 2013-10-07 | ['2013-07-07'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Barcelona de Guayaquil | 0 | 0 | Macará | 2013-10-07 | ['2013-07-07'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 0 | 2 | Universidad Católica de Quito | 2013-10-07 | ['2013-07-17'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Independiente del Valle | 0 | 1 | Deportivo Quito | 2013-10-07 | ['2013-07-17'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | El Nacional | 1 | 0 | LDU de Quito | 2013-10-07 | ['2013-07-17'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Barcelona de Guayaquil | 3 | 3 | Deportivo Cuenca | 2013-10-07 | ['2013-07-17'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | LDU de Loja | 0 | 2 | Emelec | 2013-10-07 | ['2013-07-17'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 0 | 0 | LDU de Quito | 2013-10-07 | ['2013-02-24', '2013-07-26'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 0 | 0 | Barcelona de Guayaquil | 2013-10-07 | ['2013-08-11'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 1 | 1 | LDU de Loja | 2013-10-07 | ['2013-10-09'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 0 | 3 | Independiente del Valle | 2013-10-07 | ['2013-09-22'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Barcelona de Guayaquil | 2 | 1 | Deportivo Quito | 2013-10-07 | ['2013-09-22'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 1 | 0 | Manta FC | 2013-10-07 | ['2013-10-05'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 1 | 0 | Macará | 2013-10-07 | ['2013-10-20'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Emelec | 7 | 0 | Universidad Católica de Quito | 2013-10-07 | ['2013-10-20'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 1 | 0 | El Nacional | 2013-10-07 | ['2013-11-02'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Independiente del Valle | 2 | 2 | Universidad Católica de Quito | 2013-10-07 | ['2013-11-02'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 3 | 1 | Deportivo Cuenca | 2013-10-07 | ['2013-11-23'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Deportivo Quevedo | 2 | 0 | Deportivo Quito | 2013-10-07 | ['2013-12-01'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2013 | Barcelona de Guayaquil | 0 | 1 | Universidad Católica de Quito | 2013-10-07 | ['2013-12-01'] | Campeonato Ecuatoriano de Fútbol 2013
+DATA | 2016 | Emelec | 2 | 2 | Universidad Católica de Quito | 2016-10-07 | ['2016-02-05'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 1 | Aucas | 2016-05-09 | ['2016-02-07'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 0 | 0 | Mushuc Runa | 2016-05-09 | ['2016-02-17'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Universidad Católica de Quito | 0 | 1 | Aucas | 2016-05-09 | ['2016-02-17'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Delfín | 2 | 1 | Deportivo Cuenca | 2016-05-09 | ['2016-02-17'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Guayaquil City | 0 | 3 | Barcelona de Guayaquil | 2016-05-09 | ['2016-02-17'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 1 | 0 | LDU de Quito | 2016-05-09 | ['2016-02-27'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Guayaquil City | 1 | 3 | Deportivo Cuenca | 2016-05-09 | ['2016-02-27'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 0 | El Nacional | 2016-05-09 | ['2016-03-13', '2016-10-23'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 2 | Delfín | 2016-05-09 | ['2016-03-26'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Mushuc Runa | 0 | 1 | Deportivo Cuenca | 2016-05-09 | ['2016-03-26'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 0 | 2 | Guayaquil City | 2016-05-09 | ['2016-04-08'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 1 | 2 | Emelec | 2016-05-09 | ['2016-05-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | LDU de Quito | 1 | 2 | El Nacional | 2016-05-09 | ['2016-05-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Barcelona de Guayaquil | 2 | 2 | Deportivo Cuenca | 2016-05-09 | ['2016-05-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 0 | Independiente del Valle | 2016-05-09 | ['2016-05-13'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Universidad Católica de Quito | 2 | 3 | El Nacional | 2016-05-09 | ['2016-05-13'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Aucas | 1 | 2 | Deportivo Cuenca | 2016-05-09 | ['2016-05-13'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Delfín | 2 | 2 | Emelec | 2016-10-07 | ['2016-05-20'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | LDU de Quito | 2 | 0 | Aucas | 2016-10-07 | ['2016-05-20', '2016-10-15'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Barcelona de Guayaquil | 3 | 1 | Mushuc Runa | 2016-10-07 | ['2016-05-20', '2016-08-06'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Deportivo Cuenca | 1 | 0 | Universidad Católica de Quito | 2016-10-07 | ['2016-05-20'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 0 | 0 | Deportivo Cuenca | 2016-05-09 | ['2016-06-26'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Emelec | 1 | 2 | Independiente del Valle | 2016-05-09 | ['2016-06-26'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 0 | 2 | Barcelona de Guayaquil | 2016-05-09 | ['2016-07-10'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 2 | Universidad Católica de Quito | 2016-05-09 | ['2016-07-17'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Emelec | 4 | 0 | Mushuc Runa | 2016-05-09 | ['2016-07-17'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Independiente del Valle | 1 | 1 | LDU de Quito | 2016-05-09 | ['2016-07-17', '2016-11-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 0 | Universidad Católica de Quito | 2016-05-09 | ['2016-07-31'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Emelec | 1 | 0 | Delfín | 2016-05-09 | ['2016-03-12', '2016-07-31'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Universidad Católica de Quito | 1 | 0 | Emelec | 2016-08-05 | ['2016-08-06'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Barcelona de Guayaquil | 3 | 1 | Mushuc Runa | 2016-08-05 | ['2016-05-20', '2016-08-06'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Deportivo Cuenca | 1 | 1 | Aucas | 2016-08-05 | ['2016-08-06'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 3 | Delfín | 2016-05-09 | ['2016-08-14'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 0 | LDU de Quito | 2016-05-09 | ['2016-08-26'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Independiente del Valle | 2 | 0 | Barcelona de Guayaquil | 2016-05-09 | ['2016-08-26'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Emelec | 2 | 1 | Deportivo Cuenca | 2016-05-09 | ['2016-08-26'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 1 | 1 | Aucas | 2016-05-09 | ['2016-09-10'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Guayaquil City | 0 | 0 | Mushuc Runa | 2016-05-09 | ['2016-09-10'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Independiente del Valle | 0 | 1 | Deportivo Cuenca | 2016-05-09 | ['2016-09-10'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 1 | 2 | Mushuc Runa | 2016-05-09 | ['2016-09-21'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Delfín | 2 | 2 | Deportivo Cuenca | 2016-05-09 | ['2016-09-21'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Emelec | 5 | 0 | Guayaquil City | 2016-05-09 | ['2016-09-21'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Independiente del Valle | 0 | 1 | El Nacional | 2016-05-09 | ['2016-09-21'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Universidad Católica de Quito | 1 | 1 | Aucas | 2016-05-09 | ['2016-09-21'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Barcelona de Guayaquil | 2 | 0 | LDU de Quito | 2016-05-09 | ['2016-09-21'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 0 | 2 | Emelec | 2016-05-09 | ['2016-09-30'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Delfín | 1 | 1 | Aucas | 2016-05-09 | ['2016-09-30'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Independiente del Valle | 1 | 0 | Mushuc Runa | 2016-05-09 | ['2016-09-30'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Universidad Católica de Quito | 2 | 1 | Guayaquil City | 2016-05-09 | ['2016-09-30'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | LDU de Quito | 1 | 2 | Deportivo Cuenca | 2016-05-09 | ['2016-09-30'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Barcelona de Guayaquil | 1 | 0 | El Nacional | 2016-05-09 | ['2016-09-30'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 1 | Guayaquil City | 2016-05-09 | ['2016-10-15'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Barcelona de Guayaquil | 5 | 0 | Deportivo Cuenca | 2016-05-09 | ['2016-10-15'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Independiente del Valle | 0 | 3 | Emelec | 2016-05-09 | ['2016-10-15'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | LDU de Quito | 2 | 0 | Aucas | 2016-05-09 | ['2016-05-20', '2016-10-15'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 2 | 0 | El Nacional | 2016-05-09 | ['2016-03-13', '2016-10-23'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 3 | 0 | Deportivo Cuenca | 2016-05-09 | ['2016-11-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Guayaquil City | 1 | 2 | El Nacional | 2016-05-09 | ['2016-11-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Independiente del Valle | 1 | 1 | LDU de Quito | 2016-05-09 | ['2016-07-17', '2016-11-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Emelec | 2 | 1 | Aucas | 2016-05-09 | ['2016-11-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 1 | 1 | Barcelona de Guayaquil | 2016-05-09 | ['2016-11-20'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2016 | Fuerza Amarilla | 1 | 2 | Independiente del Valle | 2016-05-09 | ['2016-12-04'] | Campeonato Ecuatoriano de Fútbol 2016
+DATA | 2021 | Orense | 2 | 0 | Independiente del Valle | 2021-05-09 | ['2021-02-21'] | Serie A de Ecuador 2021
+DATA | 2021 | Técnico Universitario | 0 | 1 | Delfín | 2021-05-09 | ['2021-02-21'] | Serie A de Ecuador 2021
+DATA | 2021 | Emelec | 4 | 1 | Deportivo Cuenca | 2021-05-09 | ['2021-02-21'] | Serie A de Ecuador 2021
+DATA | 2021 | Universidad Católica de Quito | 3 | 0 | Olmedo | 2021-05-09 | ['2021-02-19'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 2 | 2 | Aucas | 2021-05-09 | ['2021-03-06'] | Serie A de Ecuador 2021
+DATA | 2021 | LDU de Quito | 2 | 1 | Universidad Católica de Quito | 2021-05-09 | ['2021-03-06'] | Serie A de Ecuador 2021
+DATA | 2021 | Emelec | 1 | 0 | Delfín | 2021-05-09 | ['2021-03-06'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 0 | 1 | Manta FC | 2021-05-09 | ['2021-04-04'] | Serie A de Ecuador 2021
+DATA | 2021 | 9 de Octubre | 1 | 3 | Aucas | 2021-05-09 | ['2021-04-04'] | Serie A de Ecuador 2021
+DATA | 2021 | Técnico Universitario | 3 | 0 | Guayaquil City | 2021-05-09 | ['2021-04-04'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 0 | 2 | Mushuc Runa | 2021-05-09 | ['2021-04-12'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 2 | 3 | Emelec | 2021-05-09 | ['2021-05-02'] | Serie A de Ecuador 2021
+DATA | 2021 | Manta FC | 2 | 1 | Independiente del Valle | 2021-05-09 | ['2021-05-02'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 3 | 1 | 9 de Octubre | 2021-05-09 | ['2021-05-08'] | Serie A de Ecuador 2021
+DATA | 2021 | Independiente del Valle | 3 | 1 | LDU de Quito | 2021-05-09 | ['2021-05-08'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 0 | 3 | Universidad Católica de Quito | 2021-05-09 | ['2021-05-22'] | Serie A de Ecuador 2021
+DATA | 2021 | Independiente del Valle | 3 | 0 | Guayaquil City | 2021-05-09 | ['2021-05-22'] | Serie A de Ecuador 2021
+DATA | 2021 | Mushuc Runa | 1 | 2 | Emelec | 2021-05-09 | ['2021-05-22'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 0 | 0 | Olmedo | 2021-05-09 | ['2021-07-17'] | Serie A de Ecuador 2021
+DATA | 2021 | Aucas | 3 | 0 | Guayaquil City | 2021-05-09 | ['2021-07-17'] | Serie A de Ecuador 2021
+DATA | 2021 | Independiente del Valle | 0 | 0 | Deportivo Cuenca | 2021-05-09 | ['2021-07-17'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 2 | 2 | Delfín | 2021-05-09 | ['2021-08-01'] | Serie A de Ecuador 2021
+DATA | 2021 | Independiente del Valle | 4 | 0 | Macará | 2021-05-09 | ['2021-08-01'] | Serie A de Ecuador 2021
+DATA | 2021 | Emelec | 2 | 2 | Aucas | 2021-05-09 | ['2021-08-01'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 1 | 0 | Barcelona de Guayaquil | 2021-05-09 | ['2021-08-15'] | Serie A de Ecuador 2021
+DATA | 2021 | LDU de Quito | 3 | 3 | Deportivo Cuenca | 2021-05-09 | ['2021-08-15'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 1 | 1 | Deportivo Cuenca | 2021-05-09 | ['2021-08-22'] | Serie A de Ecuador 2021
+DATA | 2021 | Aucas | 3 | 0 | Manta FC | 2021-05-09 | ['2021-08-22'] | Serie A de Ecuador 2021
+DATA | 2021 | Delfín | 0 | 0 | Independiente del Valle | 2021-05-09 | ['2021-08-22'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 2 | 0 | Guayaquil City | 2021-05-09 | ['2021-09-18'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 2 | 1 | Macará | 2021-05-09 | ['2021-10-02'] | Serie A de Ecuador 2021
+DATA | 2021 | 9 de Octubre | 1 | 0 | Independiente del Valle | 2021-05-09 | ['2021-10-02'] | Serie A de Ecuador 2021
+DATA | 2021 | LDU de Quito | 3 | 1 | Guayaquil City | 2021-05-09 | ['2021-10-02'] | Serie A de Ecuador 2021
+DATA | 2021 | Orense | 0 | 0 | Técnico Universitario | 2021-05-09 | ['2021-10-30'] | Serie A de Ecuador 2021
+DATA | 2021 | Macará | 1 | 2 | Manta FC | 2021-05-09 | ['2021-10-30'] | Serie A de Ecuador 2021
+DATA | 2021 | Guayaquil City | 0 | 1 | Emelec | 2021-05-09 | ['2021-10-30'] | Serie A de Ecuador 2021
+DATA | 2022 | Orense | 1 | 1 | Aucas | 2022-05-09 | ['2022-02-20'] | Serie A de Ecuador 2022
+DATA | 2022 | Cumbayá | 0 | 1 | Independiente del Valle | 2022-05-09 | ['2022-02-20'] | Serie A de Ecuador 2022
+DATA | 2022 | Técnico Universitario | 2 | 1 | 9 de Octubre | 2022-02-21 | ['2022-02-20'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 2 | 1 | 9 de Octubre | 2022-05-09 | ['2022-03-13'] | Serie A de Ecuador 2022
+DATA | 2022 | Universidad Católica de Quito | 2 | 2 | Macará | 2022-05-09 | ['2022-03-13'] | Serie A de Ecuador 2022
+DATA | 2022 | Gualaceo | 2 | 1 | Emelec | 2022-05-09 | ['2022-03-13'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 0 | 0 | Mushuc Runa | 2022-05-09 | ['2022-04-03'] | Serie A de Ecuador 2022
+DATA | 2022 | Guayaquil City | 0 | 1 | Técnico Universitario | 2022-05-09 | ['2022-04-03'] | Serie A de Ecuador 2022
+DATA | 2022 | Delfín | 0 | 0 | Deportivo Cuenca | 2022-05-09 | ['2022-04-03'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 0 | 0 | Técnico Universitario | 2022-05-09 | ['2022-04-16'] | Serie A de Ecuador 2022
+DATA | 2022 | Delfín | 1 | 1 | Cumbayá | 2022-05-09 | ['2022-04-16'] | Serie A de Ecuador 2022
+DATA | 2022 | Guayaquil City | 4 | 0 | Aucas | 2022-05-09 | ['2022-04-16'] | Serie A de Ecuador 2022
+DATA | 2022 | Universidad Católica de Quito | 3 | 1 | Independiente del Valle | 2022-05-09 | ['2022-04-16'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 3 | 0 | LDU de Quito | 2022-05-09 | ['2022-04-20'] | Serie A de Ecuador 2022
+DATA | 2022 | Barcelona de Guayaquil | 0 | 1 | Gualaceo | 2022-05-09 | ['2022-04-20'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 1 | 0 | Universidad Católica de Quito | 2022-05-09 | ['2022-05-01'] | Serie A de Ecuador 2022
+DATA | 2022 | Cumbayá | 0 | 1 | Deportivo Cuenca | 2022-05-09 | ['2022-05-01'] | Serie A de Ecuador 2022
+DATA | 2022 | Independiente del Valle | 1 | 0 | LDU de Quito | 2022-05-09 | ['2022-05-01'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 2 | 0 | Emelec | 2022-05-09 | ['2022-05-15'] | Serie A de Ecuador 2022
+DATA | 2022 | Barcelona de Guayaquil | 1 | 1 | Deportivo Cuenca | 2022-05-09 | ['2022-05-15'] | Serie A de Ecuador 2022
+DATA | 2022 | Macará | 3 | 1 | Técnico Universitario | 2022-05-22 | ['2022-05-21'] | Serie A de Ecuador 2022
+DATA | 2022 | Mushuc Runa | 1 | 0 | Deportivo Cuenca | 2022-05-28 | ['2022-05-29'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 0 | 1 | Guayaquil City | 2022-05-09 | ['2022-05-29'] | Serie A de Ecuador 2022
+DATA | 2022 | Técnico Universitario | 1 | 1 | Emelec | 2022-05-09 | ['2022-05-29'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 1 | 1 | Macará | 2022-05-09 | ['2022-07-16'] | Serie A de Ecuador 2022
+DATA | 2022 | LDU de Quito | 1 | 1 | Deportivo Cuenca | 2022-05-09 | ['2022-07-16'] | Serie A de Ecuador 2022
+DATA | 2022 | Técnico Universitario | 0 | 2 | Barcelona de Guayaquil | 2022-05-09 | ['2022-07-16'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 3 | 1 | Cumbayá | 2022-05-09 | ['2022-07-23'] | Serie A de Ecuador 2022
+DATA | 2022 | Aucas | 5 | 0 | Independiente del Valle | 2022-05-09 | ['2022-07-23'] | Serie A de Ecuador 2022
+DATA | 2022 | Guayaquil City | 0 | 0 | Emelec | 2022-05-09 | ['2022-07-23'] | Serie A de Ecuador 2022
+PLACAR | 2022 | 9 de Octubre | 1 | 1 | Orense | 2022-08-01 | [('0', '0', '2022-08-01', 'Segunda fase')] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 1 | 2 | Independiente del Valle | 2022-05-09 | ['2022-08-06'] | Serie A de Ecuador 2022
+DATA | 2022 | Guayaquil City | 0 | 0 | Macará | 2022-05-09 | ['2022-08-06'] | Serie A de Ecuador 2022
+DATA | 2022 | Delfín | 0 | 3 | Emelec | 2022-05-09 | ['2022-08-06'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 1 | 2 | Barcelona de Guayaquil | 2022-05-09 | ['2022-08-20'] | Serie A de Ecuador 2022
+DATA | 2022 | LDU de Quito | 1 | 0 | Cumbayá | 2022-05-09 | ['2022-08-20'] | Serie A de Ecuador 2022
+DATA | 2022 | Macará | 1 | 1 | Aucas | 2022-05-09 | ['2022-08-20'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 4 | 1 | Gualaceo | 2022-05-09 | ['2022-09-10'] | Serie A de Ecuador 2022
+DATA | 2022 | Cumbayá | 3 | 0 | Guayaquil City | 2022-05-09 | ['2022-09-10'] | Serie A de Ecuador 2022
+DATA | 2022 | Barcelona de Guayaquil | 5 | 3 | Macará | 2022-05-09 | ['2022-09-10'] | Serie A de Ecuador 2022
+DATA | 2022 | Orense | 1 | 1 | Delfín | 2022-05-09 | ['2022-10-02'] | Serie A de Ecuador 2022
+DATA | 2022 | Cumbayá | 0 | 0 | Aucas | 2022-05-09 | ['2022-10-02'] | Serie A de Ecuador 2022
+DATA | 2022 | Barcelona de Guayaquil | 1 | 1 | Guayaquil City | 2022-05-09 | ['2022-10-02'] | Serie A de Ecuador 2022
+DATA | 2022 | Emelec | 0 | 0 | Orense | 2022-10-07 | ['2022-10-09'] | Serie A de Ecuador 2022
+DATA | 2022 | Gualaceo | 2 | 1 | Delfín | 2022-05-09 | ['2022-10-15'] | Serie A de Ecuador 2022
+DATA | 2022 | Aucas | 3 | 0 | Gualaceo | 2022-10-09 | ['2022-10-23'] | Serie A de Ecuador 2022
+DATA | 2023 | Orense | 2 | 1 | Emelec | 2023-05-09 | ['2023-03-05'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 3 | 2 | Guayaquil City | 2023-05-09 | ['2023-04-02'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 2 | 0 | Deportivo Cuenca | 2023-05-09 | ['2023-04-07'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 2 | 1 | LDU de Quito | 2023-05-09 | ['2023-04-22'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 2 | 1 | Técnico Universitario | 2023-05-09 | ['2023-05-05'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 1 | 0 | Cumbayá | 2023-05-09 | ['2023-05-27'] | Serie A de Ecuador 2023
+DATA | 2023 | Delfín | 1 | 0 | Gualaceo | 2023-05-09 | ['2023-05-27'] | Serie A de Ecuador 2023
+DATA | 2023 | Mushuc Runa | 3 | 1 | Orense | 2023-06-03 | ['2023-06-02'] | Serie A de Ecuador 2023
+DATA | 2023 | Barcelona de Guayaquil | 1 | 3 | Emelec | 2023-06-03 | ['2023-06-02'] | Serie A de Ecuador 2023
+DATA | 2023 | Cumbayá | 0 | 1 | Universidad Católica de Quito | 2023-06-04 | ['2023-06-02'] | Serie A de Ecuador 2023
+DATA | 2023 | Técnico Universitario | 3 | 0 | Guayaquil City | 2023-06-04 | ['2023-06-02'] | Serie A de Ecuador 2023
+DATA | 2023 | Gualaceo | 3 | 4 | El Nacional | 2023-06-04 | ['2023-06-02'] | Serie A de Ecuador 2023
+DATA | 2023 | Deportivo Cuenca | 4 | 0 | Delfín | 2023-06-05 | ['2023-06-02'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 0 | 2 | Independiente del Valle | 2023-05-09 | ['2023-06-11'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 0 | 0 | Delfín | 2023-05-09 | ['2023-08-05'] | Serie A de Ecuador 2023
+DATA | 2023 | El Nacional | 2 | 2 | Aucas | 2023-05-09 | ['2023-08-05'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 2 | 0 | Gualaceo | 2023-05-09 | ['2023-08-16'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 1 | 2 | Universidad Católica de Quito | 2023-05-09 | ['2023-09-15'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 3 | 0 | Libertad de Loja | 2023-05-09 | ['2023-10-01'] | Serie A de Ecuador 2023
+DATA | 2023 | Barcelona de Guayaquil | 1 | 0 | Técnico Universitario | 2023-05-09 | ['2023-10-01'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 1 | 1 | El Nacional | 2023-05-09 | ['2023-10-20'] | Serie A de Ecuador 2023
+DATA | 2023 | LDU de Quito | 1 | 0 | Emelec | 2023-10-22 | ['2023-10-23'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 2 | 3 | Barcelona de Guayaquil | 2023-05-09 | ['2023-10-29'] | Serie A de Ecuador 2023
+DATA | 2023 | Orense | 1 | 0 | Mushuc Runa | 2023-05-09 | ['2023-11-10'] | Serie A de Ecuador 2023
+DATA | 2024 | Orense | 1 | 1 | Deportivo Cuenca | 2024-05-09 | ['2024-03-10'] | Serie A de Ecuador 2024
+DATA | 2024 | Cumbayá | 1 | 3 | LDU de Quito | 2024-05-09 | ['2024-03-10'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 1 | 2 | Imbabura | 2024-05-09 | ['2024-03-19'] | Serie A de Ecuador 2024
+DATA | 2024 | Técnico Universitario | 1 | 1 | Macará | 2024-03-24 | ['2024-03-23'] | Serie A de Ecuador 2024
+DATA | 2024 | Independiente del Valle | 1 | 1 | Aucas | 2024-03-24 | ['2024-03-23'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 1 | 1 | Emelec | 2024-05-09 | ['2024-03-25'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 2 | 2 | Mushuc Runa | 2024-05-09 | ['2024-04-05'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 1 | 0 | LDU de Quito | 2024-05-09 | ['2024-04-19'] | Serie A de Ecuador 2024
+DATA | 2024 | Aucas | 3 | 1 | Emelec | 2024-05-09 | ['2024-04-19'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 0 | 1 | El Nacional | 2024-05-09 | ['2024-05-03'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 1 | 0 | Cumbayá | 2024-05-09 | ['2024-05-26'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 4 | 0 | Aucas | 2024-05-09 | ['2024-08-02'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 3 | 2 | Barcelona de Guayaquil | 2024-05-09 | ['2024-08-17'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 2 | 2 | Universidad Católica de Quito | 2024-05-09 | ['2024-09-13'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 1 | 0 | Macará | 2024-05-09 | ['2024-09-27'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 1 | 0 | Libertad de Loja | 2024-05-09 | ['2024-10-18'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 0 | 0 | Delfín | 2024-05-09 | ['2024-11-01'] | Serie A de Ecuador 2024
+DATA | 2024 | Orense | 0 | 2 | Técnico Universitario | 2024-05-09 | ['2024-11-10'] | Serie A de Ecuador 2024
+DATA | 2024 | Barcelona de Guayaquil | 8 | 1 | Cumbayá | 2024-05-09 | ['2024-11-10'] | Serie A de Ecuador 2024
+DATA | 2024 | LDU de Quito | 5 | 0 | Deportivo Cuenca | 2024-05-09 | ['2024-12-01'] | Serie A de Ecuador 2024
+DATA | 2024 | El Nacional | 2 | 1 | Técnico Universitario | 2024-05-09 | ['2024-12-01'] | Serie A de Ecuador 2024
+DATA | 2025 | Orense | 2 | 1 | Manta FC | 2025-05-09 | ['2025-02-23'] | Serie A de Ecuador 2025
+DATA | 2025 | Barcelona de Guayaquil | 1 | 0 | Mushuc Runa | 2025-05-09 | ['2025-02-23'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 2 | 1 | Técnico Universitario | 2025-05-09 | ['2025-03-10'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 0 | 0 | Vinotinto | 2025-05-09 | ['2025-04-05'] | Serie A de Ecuador 2025
+DATA | 2025 | Independiente del Valle | 4 | 0 | Deportivo Cuenca | 2025-05-09 | ['2025-04-05'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 3 | 1 | Barcelona de Guayaquil | 2025-05-09 | ['2025-04-14'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 1 | 2 | Independiente del Valle | 2025-05-09 | ['2025-04-27', '2025-10-17'] | Serie A de Ecuador 2025
+DATA | 2025 | Emelec | 0 | 1 | Técnico Universitario | 2025-05-09 | ['2025-04-27'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 2 | 1 | Aucas | 2025-05-09 | ['2025-05-24'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 1 | 0 | Macará | 2025-05-09 | ['2025-06-16'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 2 | 1 | LDU de Quito | 2025-05-09 | ['2025-06-28', '2025-12-06'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 0 | 1 | Libertad de Loja | 2025-05-09 | ['2025-07-13'] | Serie A de Ecuador 2025
+DATA | 2025 | Deportivo Cuenca | 1 | 1 | Delfín | 2025-05-09 | ['2025-07-13'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 1 | 1 | El Nacional | 2025-05-09 | ['2025-07-19'] | Serie A de Ecuador 2025
+DATA | 2025 | Delfín | 0 | 1 | Barcelona de Guayaquil | 2025-05-09 | ['2025-07-19'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 1 | 1 | Universidad Católica de Quito | 2025-05-09 | ['2025-08-08'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 3 | 1 | Delfín | 2025-05-09 | ['2025-08-25'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 3 | 1 | Mushuc Runa | 2025-05-09 | ['2025-09-13'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 0 | 0 | Emelec | 2025-05-09 | ['2025-09-28'] | Serie A de Ecuador 2025
+DATA | 2025 | Universidad Católica de Quito | 2 | 1 | Deportivo Cuenca | 2025-05-09 | ['2025-09-28'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 1 | 2 | Independiente del Valle | 2025-05-09 | ['2025-04-27', '2025-10-17'] | Serie A de Ecuador 2025
+DATA | 2025 | LDU de Quito | 3 | 0 | Barcelona de Guayaquil | 2025-05-09 | ['2025-10-17'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 2 | 1 | Universidad Católica de Quito | 2025-05-09 | ['2025-10-24'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 1 | 2 | Barcelona de Guayaquil | 2025-05-09 | ['2025-11-09'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 2 | 1 | LDU de Quito | 2025-05-09 | ['2025-06-28', '2025-12-06'] | Serie A de Ecuador 2025
+DATA | 2025 | Orense | 3 | 2 | Libertad de Loja | 2025-05-09 | ['2025-12-21'] | Serie A de Ecuador 2025
+PLACAR | 2025 | El Nacional | 0 | 3 | Delfín | 2025-12-20 | [('3', '2', '2025-04-25', 'Primeira fase'), ('', '', '2025-12-19', 'Hexagonal 2')] | Serie A de Ecuador 2025

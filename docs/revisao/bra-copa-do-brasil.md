@@ -68,3 +68,34 @@ iguais (4.011 jogos, 10.644 gols, 2.425 linhas de classificação): os erros nas
    campanha) ou trocar por "semifinalistas" (os dois)?
 2. **Jogo anulado (2019, Aparecidense 1×0 Ponte Preta, anulado pelo STJD):** sai das contagens (como na Wikipédia, 120
    jogos) ou fica guardado marcado como anulado?
+
+## 3ª rodada (22/11/2026) — revisor QC
+
+**O que foi feito.** Fontes novas: Bola n@ Área (todas as edições 1989-2024), transfermarkt (calendários 1998, 2001, 2003, 2008,
+2010, 2014, 2015, 2018, 2021, 2024; 2 fichas de jogo), súmulas da CBF (teste 2014+), ficha do ogol (uso novo) e Futebol Nacional.
+Scripts em `revisao/QC/`; fontes em `SCRATCH/fontes_QC.md`.
+
+**Amostra por década (Bola n@ Área; placar igual / data igual):** 1989: 58/59 e 50/59 · 1990s: 676/685 e 645/685 · 2000s:
+1.073/1.089 e 1.048/1.089 · 2010s: 1.108/1.110 e 1.063/1.110 · 2020s: 604/606 e 598/605. transfermarkt: 1998 14/14 e 13/14;
+2000s 207/207 e 137/207 (o transfermarkt grava parte dos jogos noturnos dos anos 2000 no dia seguinte); 2010s 360/360 e 332/360;
+2020s 239/241 e 238/241. Futebol Nacional (edições com jogos: 1989-1992, 1996, 1998-2000, 2005, 2007, 2009-2025): 1989 59/59 e
+52/59; 1990s 423/426 e 354/426; 2000s 447/447 e 446/447; 2010s 1.229/1.229 e 1.200/1.229; 2020s 718/718 e 716/718. Pênaltis: as 175 disputas do Bola estão todas no pacote.
+
+**Achados novos:** QC-005 (média: 1995 Nacional-AM x Cristal e 1998 Bahia x Botafogo-PB, trocados pela regra "vale o do ogol";
+RSSSF, Bola, Wikipédia pt e en dizem 1x0 e 1x2; em 1998 o Futebol Nacional fica com o ogol, mas a pt diz que o Bahia passou pelo
+gol fora, o que só fecha com 1x2), QC-004 (média: 20 datas com 1 dia a mais em 2008, 2014, 2015, 2018, 2024), QC-006
+(baixa: 31 datas), QC-007 (baixa: notas da RSSSF em inglês no gols_texto de 15 jogos e 1 observação), QC-008 (baixa: a ficha diz
+que a preliminar de 1999 entrou, o pacote não tem), QC-010 (nao-e-erro: 6 placares em que só Bola e Wikipédia pt divergem).
+
+**Abertos antigos:**
+- CB-005: o Bola e o Futebol Nacional ficam com a Wikipédia em 1990 (Santa Cruz) e 1991 (Vitória 2x2 Remo), mas a pt cita o Bola:
+  decisão QC-D3 (jornal).
+- CB-007: o Bola não tem a preliminar de 1999, mas o Futebol Nacional tem, com data: Náutico 0x1 Santa Cruz em 28/01/1999 (117
+  jogos, como a infobox pt). Recomendo incluir com essa data (decisão QC-D4).
+- RV-005: sugestão de código pronta (`SCRATCH/sugestoes_QC.csv`).
+
+**Buracos de cobertura:** autores (54%): o Bola completa 129 gols de 1989, 258 dos anos 2000 e 782 dos 2010; a Copa 1990-1999 (0%)
+só pela ficha do ogol (testada: Copa 1995 com autores, árbitro e público) ou jornal; público: 865 jogos dos 2010 e 351 dos 2000 no
+Bola; cartões: súmulas da CBF 2014+.
+
+**Perguntas ao Guilherme:** QC-D3 e QC-D4 (`SCRATCH/decisoes_QC.md`).

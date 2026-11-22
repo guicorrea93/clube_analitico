@@ -105,3 +105,21 @@ A coleta usou como base a RSSSF (1932-1959, 1965 e 1994 em diante, mais as tabel
 2. **O "Atlético Wanderers" da FUF (campeão de 1923 FUF) é o Montevideo Wanderers?** A es diz que era um time alternativo do Wanderers, que seguia jogando a AUF; o mesmo vale para Lito e Charley em 1923 e 1924 (UY-020).
 3. **Vice de 1954:** Nacional (RSSSF, en) ou Danubio (es)? (UY-007).
 4. **Vice quando não há final** (2011/12, 2021): o 2º da tabela anual, como a es e a en, ou o perdedor da semifinal? (UY-004).
+
+## 3ª rodada (22/11/2026)
+Revisor QU. Achados novos em `SCRATCH/achados_QU.csv` (QU-006 a QU-008), sugestões em `SCRATCH/sugestoes_QU.csv`, plano em
+`SCRATCH/plano_QU.md`, fontes em `SCRATCH/fontes_QU.md`, decisões em `SCRATCH/decisoes_QU.md`. Scripts e saídas em `revisao/QU/`.
+
+- **Fonte nova: AUF, histórico oficial de temporadas** (auf.org.uy, 2013/14 a 2026; `revisao/QU/auf.py`). Amostra: 3.357 jogos. 2010s:
+  1.615 jogos, placar igual em 1.578 e data igual em 1.564; 2020s: 1.738 jogos, placar igual em 1.724 e data igual em 1.523. Nenhum placar
+  de campo errado (as diferenças são W.O., tribunal e Supercopa). Traz a tabela anual oficial (resolve o UY-006, UY-004 e UY-005 de
+  2013/14 a 2025), a Supercopa em seção própria (UY-013), as datas das decisões (UY-014), as datas de 2020 (UY-015) e a artilharia oficial
+  (UY-017; QU-008: 2017 e 2023 divergem da es).
+- **Fonte nova: transfermarkt** (2000s): 190 jogos de 2005/06 e 2007/08, placar igual em 187, data igual em 171 (16 com 1 dia, fuso).
+- **Sem fonte nova para 1900s-1910s, 1930s-1970s e 1990s.** O banco não tem data de 1910 a 1979 e nenhuma fonte testada cobre (AUF só
+  2013/14+, transfermarkt só 2005+, sites de Peñarol e Nacional sem base de jogos; footballdatabase.eu fica para outro dia).
+- **Achados novos:** QU-006 (2005/06: rodadas 13 e 14 em abril em vez de maio, erro da página da RSSSF; a ESPN dá maio), QU-007 (pênaltis
+  da AUF divergem da RSSSF em 5 decisões; a RSSSF fecha cobrança a cobrança: não é erro), QU-008 (artilharia de 2017 e 2023).
+- **Causas achadas:** UY-014 (a linha '[Dec 7, Estadio Centenario]' não é lida como data), UY-015 (regra do leitor que joga a 1ª data
+  <= junho para ano_fim), UY-013 (a página de cada ano traz a Supercopa do ano seguinte; lista dos 8 jogos com a data oficial na sugestão),
+  UY-011 (nenhum jogo único explica a diferença da tabela de 1951: usar a publicada).

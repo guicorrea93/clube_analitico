@@ -1,0 +1,231 @@
+"""FR: grava SCRATCH/achados_FR.csv (achados da revisão profunda do fra-1, 22/11/2026).
+Uso: python -I -X utf8 revisao/FR/gravar_achados.py <caminho do csv>"""
+import csv, sys
+
+W = "https://fr.wikipedia.org/wiki/Championnat_de_France_de_football_"
+TM = "https://www.transfermarkt.com/ligue-1/gesamtspielplan/wettbewerb/FR1?saison_id="
+IMP = "coleta/fra-1/importar.py"
+CE, BP = "coleta-europa", "banco-painel"
+
+A = [
+    ("B rebaixados", "1932/33; 1933/34; 1934/35; 1935/36; 1936/37; 1938/39; 1966/67",
+     "Excelsior Roubaix; SO Montpellier; SC Nîmes; CA Paris; Fives; Olympique Lillois; Toulouse",
+     "pacote marca 14 'rebaixado' que não caíram: 1932/33 CA Paris, Excelsior Roubaix, SC Nîmes, SO Montpellier; 1933/34 Excelsior, "
+     "SC Nîmes, SO Montpellier; 1934/35, 1935/36 e 1936/37 Excelsior; 1938/39 Excelsior, Fives e Olympique Lillois (fusões da guerra); "
+     "1966/67 Toulouse (fusão com o Red Star). A faixa de rebaixamento da classificação por rodada (1933/34-1936/37) segue o erro",
+     "Wikipédia fr (tabela e infobox 'relégué fin'): 1932/33 caem só Club Français, Hyères, Mulhouse, Red Star, Metz e Alès; 1933/34 "
+     "CA Paris e Nice; 1934/35 SC Nîmes e SO Montpellier; 1935/36 Alès e Valenciennes; 1936/37 Mulhouse e Rennes; 1938/39 'les "
+     "relégations ne sont pas prises en compte' (guerra), OL+Fives viram Lille OSC e Excelsior+RC Roubaix viram CORT; 1966/67 'le "
+     "Toulouse FC fusionne avec le Red Star' e 'conserve donc sa place'. Causa: nas temporadas seguintes montadas pelo ogol "
+     "(FORCAR_OGOL e base vazia) os clubes do ano seguinte saem de mapa_ogol.get(código), que não casa o código desses clubes | "
+     "SUGESTÃO: trocar o conjunto prox_clubes por {clube_ogol(o, lado, mapa_ogol, prox) for o in ogol[prox] for lado in "
+     "('mandante','visitante')} e criar FUSOES = {(1938,'Olympique Lillois Lille'),(1938,'SC Fives Lille'),(1938,'Excelsior Roubaix'),"
+     "(1966,'Toulouse FC')} com situacao vazia e observacao 'fusão: ...'; RC Roubaix e Antibes 1938/39 aguardam o Guilherme (FR-D3); "
+     "fonte: " + W + "1933-1934 (e 1932-1933, 1934-1935, 1935-1936, 1936-1937, 1938-1939, 1966-1967); mexer em: " + IMP +
+     " (bloco 'rebaixados', linhas 831-843; novo dicionário FUSOES)",
+     W + "1932-1933", "alta", CE),
+    ("B pontos (bônus) e punições", "1974/75; 1975/76", "39 clubes (todos menos Strasbourg 1975/76)",
+     "pacote aplica nas três temporadas o bônus de 1973/74 (1 ponto por 3+ gols marcados) e cria 39 'punições' falsas para fechar com a "
+     "Wikipédia (ex.: Monaco -11, Olympique de Marseille -7 em 1974/75; OM -9, Reims -7 em 1975/76). A classificação por rodada fica "
+     "errada (pontos negativos na 1ª rodada: Monaco -9, OM -6) e a observação da edição descreve a regra errada",
+     "Wikipédia fr 1974-75: 'le point de bonus est uniquement accordé pour toute victoire par au moins trois buts d'écart' (coluna "
+     "bonus da tabela: Saint-Étienne 6, OM 4, Monaco 2...). Conferi as 40 linhas: o bônus da Wikipédia = vitórias por 3+ gols de "
+     "diferença em todos os clubes de 1974/75 e 1975/76; em 1973/74 = jogos com 3+ gols marcados | SUGESTÃO: BONUS = {1973: 'gols', "
+     "1974: 'diferenca', 1975: 'diferenca'}; em calcular() e na linha que desconta o bônus do ajuste da Wikipédia usar gp-gc >= 3 com "
+     "vitória quando 'diferenca'; zero punições nessas temporadas; observação '1 ponto a mais por vitória com 3 gols ou mais de "
+     "diferença'; fonte: " + W + "1974-1975 e " + W + "1975-1976; mexer em: " + IMP + " (BONUS linha 97, calcular linha 388, ajuste "
+     "linha 703, observação linha 958); prova: revisao/FR/bonus.py",
+     W + "1974-1975", "alta", CE),
+    ("B classificação / C jogo do tribunal", "1951/52", "Olympique de Marseille; Racing Paris; Rennes",
+     "Olympique de Marseille 0-0 Racing Paris (27/01/1952) como empate: OM 15º com 28 pontos (9-10-15), Rennes 16º, Racing 30 "
+     "pontos (12-6-16); a coleta diz que a tabela da Wikipédia 'erra'",
+     "Wikipédia fr: 'Match gagné 0-0 sur tapis vert par le RC Paris à la suite de l'envahissement du terrain à la 88e minute, alors que "
+     "le score était de 2-3'; tabela: Racing 31 (13-5-16), Rennes 15º 28, OM 16º 27 (9-9-16), barrage vencido contra o Valenciennes "
+     "(1-3, 4-0); transfermarkt dá 0-3 (W.O.) | SUGESTÃO: TRIBUNAL[(1951,'Olympique Marseille','Racing Club de France')] = (0, 0, 'v', "
+     "'2-3 (abandonado aos 88 min, invasão de campo)', motivo); tirar WIKI_ERRA de EXPLICACOES[1951] (a tabela da Wikipédia en passa "
+     "a fechar e dá a ordem); fonte: " + W + "1951-1952 (nota A da grade) e " + TM + "1951; mexer em: " + IMP + " (TRIBUNAL, "
+     "EXPLICACOES)",
+     W + "1951-1952", "alta", CE),
+    ("B classificação / C jogo do tribunal", "1955/56", "Olympique de Marseille; Nancy; Racing Paris; Sochaux",
+     "Nancy 0-0 Olympique de Marseille (11/03/1956) como empate: OM 6º com 39 (15-9-10), Racing 5º, Nancy 11º com 33 (13-7-14), "
+     "Sochaux 12º; a coleta diz que a tabela da Wikipédia 'erra'",
+     "Wikipédia fr: 'Match gagné sur tapis vert par l'OM: le terrain a été envahi à la 87e minute à la suite d'un but refusé au FC "
+     "Nancy, alors que le score était de 2-4'; tabela: OM 5º 40 (16-8-10), Racing 6º, Sochaux 11º, Nancy 12º 32 (13-6-15); "
+     "transfermarkt: Nancy 0-3 OM | SUGESTÃO: TRIBUNAL[(1955,'AS Nancy','Olympique Marseille')] = (0, 0, 'v', '2-4 (abandonado aos "
+     "87 min, invasão de campo)', motivo); rever WIKI_ERRA de 1955 (a Wikipédia en ainda erra 1 gol de OM e Nancy; a fr fecha); "
+     "fonte: " + W + "1955-1956 e " + TM + "1955; mexer em: " + IMP + " (TRIBUNAL, EXPLICACOES)",
+     W + "1955-1956", "alta", CE),
+    ("B classificação / C placares", "1946/47", "Olympique de Marseille; Bordeaux; CO Roubaix-Tourcoing; Lille; Strasbourg; "
+     "Stade Français; Sète; SO Montpellier; Lens; Le Havre; Rouen",
+     "9 placares vindos do ogol (reparar descartou o jogo da base por ter outro placar): Lens 8-1 Le Havre, Lille 5-0 Le Havre, OM 1-3 "
+     "Bordeaux, SO Montpellier 2-6 Stade Français, CORT 1-0 Bordeaux, CORT 4-1 Lens, CORT 5-2 SO Montpellier, Rouen 6-0 Sète, "
+     "Strasbourg 3-1 Rouen. Tabela: OM 43 (16-11-11), Bordeaux 33 (13-7-18) em 18º abaixo do Lens com 31; gols de 10 clubes diferentes "
+     "das tabelas; nenhuma tabela publicada fecha",
+     "Wikipédia fr (grade e tabela) dá os 9 placares da base descartada (8-0, 3-0, 0-0, 1-3, 4-1, 5-2, 2-1, 6-1, 2-1) e tabela OM 45 "
+     "(17-11-10), Bordeaux 31 (12-7-19), CORT 71-47, Lille 89-52...; com esses 9 placares a tabela da Wikipédia en fecha em 18 dos 20 "
+     "clubes; os 2 que sobram (OM +1 vitória, Bordeaux +1 derrota, sem mudar gols) fecham se OM 0-0 Bordeaux (27/10/1946) foi vitória "
+     "do OM no tribunal, como em 1951/52 e 1955/56 (as duas Wikipédias contam a vitória; a grade fr mostra 0-0). O ogol e a RSSSF trazem "
+     "os outros placares (revisao/FR/teste_1946.py) | SUGESTÃO: em reparar(), quando o jogo do ogol tem par na base com outro placar, "
+     "ficar com o placar da base e a data do ogol (regra da própria coleta: 'o placar é o da base'), em vez de descartar o da base (só "
+     "a 1946/47 muda); OM x Bordeaux de 27/10/1946 em TRIBUNAL ('m', 0-0) depois de conferir num jornal (Gallica, L'Équipe de "
+     "28/10/1946); fonte: " + W + "1946-1947; mexer em: " + IMP + " (reparar, linhas 437-451; TRIBUNAL; EXPLICACOES[1946])",
+     W + "1946-1947", "alta", CE),
+    ("B classificação / C jogo do tribunal", "1992/93", "Olympique de Marseille; Valenciennes",
+     "Valenciennes 0-0 Olympique de Marseille (20/05/1993) como empate e -1 ponto de 'punição' para cada um: OM 22-10-6, Valenciennes "
+     "9-12-17",
+     "Wikipédia fr: 'Le match Valenciennes-Marseille, initialement conclu sur le score de 0-1, est déclaré perdant pour les deux équipes "
+     "sur un score de 0-0'; tabela: OM 22-9-7 53, Valenciennes 9-11-18 29 (a RSSSF também dá 22-9-7) | SUGESTÃO: TRIBUNAL com "
+     "vencedor 'nenhum' (derrota para os dois): (1992,'Valenciennes FC','Olympique Marseille') = (0, 0, 'nenhum', '0-1', 'declarado "
+     "perdido para os dois clubes (caso VA-OM)'); calcular() conta derrota para os dois; ignorar o ajuste -1 da Wikipédia en nesses "
+     "dois clubes (não há punição); fonte: " + W + "1992-1993; mexer em: " + IMP + " (TRIBUNAL, calcular, sobrepoe/ajuste)",
+     W + "1992-1993", "media", CE),
+    ("C placares (mando)", "1947/48", "Racing Paris; Stade Français",
+     "Racing Paris 0-1 Stade Français (30/11/1947) e Stade Français 1-5 Racing Paris (25/04/1948)",
+     "ogol, matriz da RSSSF e grade da Wikipédia fr: Racing 5-1 Stade Français (30/11/1947) e Stade Français 1-0 Racing (25/04/1948); "
+     "a base (engsoccerdata) troca os dois jogos; a tabela não muda | SUGESTÃO: CORRECOES[(1947,'Racing Club de France','Stade "
+     "Francais FC')] = (5, 1, motivo) e CORRECOES[(1947,'Stade Francais FC','Racing Club de France')] = (1, 0, motivo); fonte: " + W +
+     "1947-1948; mexer em: " + IMP + " (CORRECOES)",
+     W + "1947-1948", "media", CE),
+    ("C placar corrigido", "1958/59", "Sochaux; Rennes",
+     "Sochaux 2-1 Rennes (24/05/1959), por CORRECOES (a coleta trocou o 4-3 da base pelo 2-1 da RSSSF e da tabela da Wikipédia en)",
+     "base, ogol, transfermarkt e Wikipédia fr (grade 4-3 e tabela Sochaux 72-66, Rennes 63-63) dão 4-3; só a RSSSF e a tabela da "
+     "Wikipédia en dão 2-1 | SUGESTÃO: tirar a CORRECOES de 1958 e voltar ao 4-3 (Sochaux 72-66, Rennes 63-63), anotando a "
+     "divergência em EXPLICACOES; fonte: " + W + "1958-1959 e " + TM + "1958; mexer em: " + IMP + " (CORRECOES linha 52)",
+     W + "1958-1959", "media", CE),
+    ("C datas", "1948/49-1998/99 (lista)", "140 jogos",
+     "data do engsoccerdata em 140 jogos em que o ogol e o transfermarkt concordam entre si com outra data: 41 com 3 dias ou mais "
+     "(ex.: 1969/70 Angers x Saint-Étienne 06/06/1970, foi 28/12/1969; 1970/71 nove jogos com um mês a mais, 12-18/11 em vez de "
+     "12-18/10/1970; 1988/89 dez jogos em 10-12/12/1988, foram 10-12/02/1989) e 99 com 1-2 dias (1996/97 39, 1997/98 26)",
+     "transfermarkt (calendário da temporada) = ogol | SUGESTÃO: dicionário DATAS {(ano, mandante, visitante): data} com os 41 de 3+ "
+     "dias (certos) e, para os 99 de 1-2 dias, a data do ogol (em 1996/97 o football-data repete a data da base: conferir uma "
+     "rodada num jornal antes); lista em revisao/FR/datas_tm_ogol_lista.txt; fonte: " + TM + "1970; mexer em: " + IMP +
+     " (novo DATAS aplicado em carregar_base)",
+     TM + "1970", "media", CE),
+    ("B punição", "2008/09", "Le Havre",
+     "Le Havre com -1 ponto (25), tirado só da tabela da RSSSF ('punição que só a RSSSF traz')",
+     "Wikipédia fr e en: Le Havre 26 pontos (7-5-26), sem punição e sem nota; não achei registro da punição | SUGESTÃO: 0 de ajuste "
+     "até achar a decisão da LFP (aguarda prova; a regra das linhas 733-738 transforma qualquer erro de pontos da RSSSF em punição); "
+     "fonte: " + W + "2008-2009; mexer em: " + IMP + " (linhas 733-738; EXPLICACOES[2008])",
+     W + "2008-2009", "media", CE),
+    ("D artilheiros", "1979/80; 1983/84; 1992/93", "Delio Onnis; Patrice Garande; Alen Bokšić",
+     "1979/80 só Kostedde (21); 1983/84 só Onnis (21); 1992/93 Bokšić 22 gols",
+     "Wikipédia fr (lista de artilheiros, que cita ligue1.fr, e páginas das temporadas): 1979/80 Onnis (Monaco) e Kostedde, 21; 1983/84 "
+     "Garande (Auxerre) e Onnis, 21; 1992/93 Bokšić 23 | SUGESTÃO: incluir Onnis (Monaco, 21) em 1979/80 e Garande (Auxerre, 21) em "
+     "1983/84; Bokšić 23 pela contagem da LFP (a RSSSF dá 22; anotar na fonte, como no ES-005); fonte: "
+     "https://fr.wikipedia.org/wiki/Meilleurs_buteurs_du_championnat_de_France_de_football; mexer em: " + IMP +
+     " (artilheiros(): correções à lista da RSSSF)",
+     "https://fr.wikipedia.org/wiki/Meilleurs_buteurs_du_championnat_de_France_de_football", "media", CE),
+    ("E identidade de clube", "1946/47-1966/67 e 1982/83-2025/26", "Toulouse",
+     "um clube só 'Toulouse' para o Toulouse FC de 1937 (fundido ao Red Star em 1967) e o Toulouse FC de 1970",
+     "Wikipédia fr separa 'Toulouse Football Club (1937)' e 'Toulouse Football Club'; 1966/67: 'le Toulouse FC fusionne avec le Red "
+     "Star OA pour former le Red Star FC' | SUGESTÃO (aguarda o Guilherme, FR-D1): clube novo 'Toulouse FC (1937)' em 1946/47-1966/67; "
+     "fonte: " + W + "1966-1967; mexer em: coleta/comum-europa/clubes_fra.py (CLUBES e POR_ANO de 'Toulouse FC')",
+     W + "1966-1967", "media", CE),
+    ("E identidade de clube", "1945/46; 1932/33-1961/62", "Lyon; SO Montpellier",
+     "Lyon OU (1945/46) contado como o Lyon (Olympique Lyonnais, fundado em 1950); SO Montpellier separado do Montpellier",
+     "Wikipédia fr: o 1945/46 é do 'Lyon OU' (Lyon olympique universitaire), o OL nasce em 1950 da seção de futebol do LOU; a Wikipédia "
+     "fr liga o SO Montpellier à página do Montpellier HSC (o MHSC reivindica a história do SOM) | SUGESTÃO (aguarda o Guilherme, "
+     "FR-D2): manter como está (Lyon junto; SOM separado) e anotar no clube_nome; fonte: " + W + "1945-1946; mexer em: "
+     "coleta/comum-europa/clubes_fra.py",
+     W + "1945-1946", "baixa", CE),
+    ("B observações", "1938/39; 1992/93; 1993/94; 2007/08; 2012/13; 2013/14; 2014/15; 2019/20; 2021/22; 2023/24",
+     "22 linhas da classificação final",
+     "observação da classificação final em inglês, copiada das notas da Wikipédia en (16 linhas, ex.: 'Olympique de Marseille was "
+     "administratively relegated...') e 6 com códigos soltos: 'OL' (Fives 1938/39), 'EAR' (RC Roubaix), 'OM' (Valenciennes 1992/93), "
+     "'NIC' (Reims 2019/20), 'BOR' (Nantes 2019/20), 'MET' (Lorient 2023/24)",
+     "os códigos são o parâmetro hth (confronto direto) da Wikipédia en, não texto | SUGESTÃO: usar só a nota (x['nota']), traduzida "
+     "para o português, e nunca o hth; fonte: https://en.wikipedia.org/wiki/2019–20_Ligue_1; mexer em: " + IMP + " (linha 857, "
+     "'observacao' da classificação final)",
+     "https://en.wikipedia.org/wiki/2019–20_Ligue_1", "baixa", CE),
+    ("B rebaixamento administrativo", "1990/91; 1993/94; 2000/01; 2016/17", "Bordeaux; Brest; Nice; Olympique de Marseille; Toulouse; Bastia",
+     "'rebaixado' sem explicação: 1990/91 Bordeaux 10º, Brest 11º e Nice 14º; 2000/01 Toulouse; 2016/17 Bastia; 1993/94 OM (2º) só com "
+     "nota em inglês",
+     "Wikipédia fr: 1990/91 'Bordeaux, l'OGC Nice et Brest sont rétrogradés administrativement par la DNCG'; 2000/01 Toulouse 'rétrogradé "
+     "administrativement par la DNCG' (para o National); 2016/17 Bastia rétrogradé (N3); 1993/94 OM rebaixado pelo caso VA-OM | "
+     "SUGESTÃO: observacao 'rebaixado administrativamente (DNCG)' / 'rebaixado pela FFF (caso VA-OM)'; fonte: " + W + "1990-1991; "
+     "mexer em: " + IMP + " (novo dicionário ADMINISTRATIVOS usado na observacao da classificação final)",
+     W + "1990-1991", "baixa", CE),
+    ("C observação dos jogos do tribunal", "2000/01; 2013/14; 2016/17", "Saint-Étienne x Toulouse; Nantes x Bastia; Bastia x Lyon",
+     "observacao diz 'o placar de campo (1-0) fica' com o placar gravado 0-0 (2000/01; idem 2-0 em Nantes x Bastia e '0-0 (abandonado no "
+     "intervalo)' em Bastia x Lyon)",
+     "o texto só vale quando o placar não muda (Toulon x PSG 1990/91, Nantes x Toulouse 2006/07) | SUGESTÃO: quando TRIBUNAL traz gols, "
+     "escrever 'vitória do X dada no tribunal com 0-0; em campo, 1-0'; fonte: " + W + "2016-2017 (nota a); mexer em: " + IMP +
+     " (linhas 895-897)",
+     W + "2016-2017", "baixa", CE),
+    ("C placares com fontes divididas", "1935/36; 1937/38; 1945/46; 1950/51", "OM x Valenciennes; Excelsior x Valenciennes; Bordeaux x "
+     "Sète; Lille x Toulouse",
+     "1935/36 Valenciennes 0-1 OM e OM 2-2 Valenciennes; 1937/38 Excelsior 4-0 Valenciennes e Valenciennes 1-1 Excelsior; 1945/46 "
+     "Bordeaux 0-3 Sète e Sète 2-4 Bordeaux; 1950/51 Toulouse 0-2 Lille e Lille 1-2 Toulouse",
+     "Wikipédia fr dá o mando ou o placar ao contrário: 1935/36 Valenciennes 2-2 OM e OM 1-0; 1937/38 5-0 e 1-0 (Excelsior 10-11-9, "
+     "Valenciennes 6-6-18, como as tabelas das Wikipédias fr e en); 1945/46 Bordeaux 4-2 e Sète 3-0; 1950/51 Lille 2-0 e Toulouse 2-1 "
+     "(como a RSSSF; base, ogol e transfermarkt dão o do pacote) | SUGESTÃO: manter e conferir num jornal da época (Gallica: L'Auto, "
+     "L'Équipe) antes de mudar; anotar em EXPLICACOES; fonte: " + W + "1937-1938; mexer em: " + IMP + " (EXPLICACOES)",
+     W + "1937-1938", "baixa", CE),
+    ("B critério de desempate", "1953/54 (e 1933/34-1962/63)", "Metz; Nancy",
+     "1953/54 Metz 12º e Nancy 13º (30 pontos), pela ordem da RSSSF; critério da fase alterna 'saldo' e 'média de gols' de uma "
+     "temporada para outra nos anos 1930-60",
+     "Wikipédia fr 1953/54: Nancy 12º, Metz 13º (média de gols: Nancy 50/65 = 0,769; Metz 45/59 = 0,763); a Wikipédia fr de 1932/33 diz "
+     "que o 1º critério era a 'moyenne de buts' | SUGESTÃO: confirmar quando a FFF trocou a média pelo saldo e usar um critério por "
+     "época (não o que 'reproduz' a ordem em temporadas sem empate); em 1953/54 a ordem fica com a Wikipédia fr se a média valia; "
+     "fonte: " + W + "1953-1954; mexer em: " + IMP + " (tentativas/criterio, linhas 807-814; fases.criterio)",
+     W + "1953-1954", "baixa", CE),
+    ("D grafia de artilheiros", "1932/33; 1934/35; 1938/39; 1953/54; 1955/56-1958/59; 1961/62; 1992/93; 2001/02-2006/07; 2012/13-2015/16",
+     "artilheiros",
+     "'Tadeusz \"Thadée\" Cisowski' (1955/56, 1956/57) e 'Thadée Cisowski' (1958/59) = dois nomes para o mesmo jogador; 'Touré Sékou' "
+     "(invertido); 'André \"Trello\" Abbeglen' (Abegglen); 'Robert Furois \"Mercier\"'; 'Deszö Kronenberger \"Koranyi\"'; 'Edouard "
+     "Kargulewicz \"Kargu\"'; 'Pedro Correia \"Pauleta\"'; sem diacríticos: Boksic, Ibrahimovic, Halilhodzic",
+     "Wikipédia fr: Thadée Cisowski, Sékou Touré, André Abegglen, Robert Mercier, Désiré Koranyi, Édouard Kargu, Pauleta, Alen Bokšić, "
+     "Zlatan Ibrahimović, Vahid Halilhodžić | SUGESTÃO: nome usual da Wikipédia fr; fonte: "
+     "https://fr.wikipedia.org/wiki/Meilleurs_buteurs_du_championnat_de_France_de_football; mexer em: " + IMP +
+     " (artilheiros(): dicionário de nomes)",
+     "https://fr.wikipedia.org/wiki/Meilleurs_buteurs_du_championnat_de_France_de_football", "baixa", CE),
+    ("A pódio", "1932/33", "Antibes",
+     "Antibes em 3º lugar da classificação final de 1932/33",
+     "Wikipédia fr: o Antibes, 1º do grupo B, foi 'déclassé' (suborno) e o Cannes foi à final; não há 3º lugar oficial (dois grupos e "
+     "final) | SUGESTÃO: manter a ordem por grupo mas com observação 'excluído da final por suborno' na linha do Antibes (ou o painel "
+     "não mostrar 3º em 1932/33); fonte: " + W + "1932-1933; mexer em: " + IMP + " (bloco GRUPOS_1932, observacao)",
+     W + "1932-1933", "baixa", CE),
+    ("E nome de exibição", "2011/12-2014/15", "Evian", "'Evian' sem acento",
+     "Wikipédia fr: Évian Thonon Gaillard FC | SUGESTÃO: 'Évian'; fonte: " + W + "2012-2013; mexer em: coleta/comum-europa/clubes_fra.py "
+     "(CLUBES['Evian Thonon Gaillard'])", W + "2012-2013", "baixa", CE),
+    ("Documentação: árbitro", "todas", "—",
+     "ficha e relatório dizem que o football-data traz o árbitro; nenhum jogo tem árbitro (0 de 30.466)",
+     "os arquivos F1 do football-data não têm a coluna Referee (só a Inglaterra tem) | SUGESTÃO: tirar 'árbitro' da lista de campos do "
+     "football-data no docstring e no relatório; árbitro (e público, gols com autor, cartões) jogo a jogo pela ficha do transfermarkt "
+     "(ver fontes_FR.md); fonte: https://www.football-data.co.uk/francem.php; mexer em: " + IMP + " (docstring linha 7 e relatorio())",
+     "https://www.football-data.co.uk/francem.php", "baixa", CE),
+]
+NAO_E_ERRO = [
+    ("B classificação 1945/46", "1945/46", "Red Star; Cannes", "Red Star 1-1 Cannes (fica a base)",
+     "Wikipédia fr: tabela fecha com o 1-1 (Red Star 63-60, Cannes 52-56), como a nota 'off. goal averages' da RSSSF | confirma a "
+     "decisão da coleta", W + "1945-1946", "baixa", CE),
+    ("C placares 1963/64, 1968/69, 1971/72, 1977/78, 1978/79, 1991/92", "1963/64; 1968/69; 1971/72; 1977/78; 1978/79; 1991/92", "—",
+     "placar da base contra a matriz da RSSSF (e o ogol em 1963/64 e 1968/69)",
+     "Wikipédia fr (grade) e transfermarkt concordam com a base em todos (Toulouse 0-0 Reims, Bastia 0-0 Sedan, Nice 3-1 Lille, os 14 de "
+     "1977/78, os 8 de 1978/79 e a matriz desalinhada de 1991/92) | a base está certa", W + "1977-1978", "baixa", CE),
+    ("C jogos do tribunal", "1990/91; 2000/01; 2006/07; 2013/14; 2016/17", "—",
+     "Toulon x PSG, Saint-Étienne x Toulouse, Metz x Rennes, Nantes x Toulouse, Nantes x Bastia, Bastia x Lyon",
+     "transfermarkt (W.O.) e Wikipédia fr (2016/17: 'défaite établie sur le score de 0 à 0 ... Lyon n'obtenant que les points') | "
+     "certos", W + "2016-2017", "baixa", CE),
+]
+
+
+def main(arq):
+    with open(arq, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["id", "competicao", "item", "edicao", "clube", "o_que_esta_no_painel", "o_que_a_fonte_diz", "fonte", "gravidade",
+                    "quem_corrige", "situacao"])
+        n = 0
+        for item, ed, cl, painel, fonte_diz, url, grav, quem in A:
+            n += 1
+            sit = "aberto"
+            w.writerow([f"FR-{n:03d}", "fra-1", item, ed, cl, "pacote (não está no painel): " + painel, fonte_diz, url, grav, quem, sit])
+        for item, ed, cl, painel, fonte_diz, url, grav, quem in NAO_E_ERRO:
+            n += 1
+            w.writerow([f"FR-{n:03d}", "fra-1", item, ed, cl, "pacote (não está no painel): " + painel, fonte_diz, url, grav, quem,
+                        "nao-e-erro"])
+    print(n, "linhas")
+
+
+if __name__ == "__main__":
+    main(sys.argv[1])

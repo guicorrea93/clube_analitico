@@ -1,0 +1,117 @@
+id,situacao_nova,nota
+SC-001,corrigido,"Pacote, banco e site com a Série C 2026: 216 jogos, 20 clubes, Maringá campeão e Ferroviária-SP vice; acesso de Ferroviária-SP, Inter de Limeira, Maringá e Santa Cruz; rebaixados Confiança e Itabaiana. No ar: sim."
+SC-002,corrigido,"Vices no pacote, no banco e no site: 1999 São Raimundo, 2001 Mogi Mirim, 2002 Marília, 2003 Santo André, 2005 América-RN, 2006 Vitória, 2009 ASA, 2020 Remo. No ar: sim."
+SC-003,corrigido,"3º das 13 edições bate: 1992 Nacional-AM, 2001 Guarany, 2002/2005/2006/2011 Ipatinga, 2003 Botafogo-PB, 2007 Vila Nova-GO, 2008 Campinense, 2009 Guaratinguetá, 2020 Londrina, 2023 Operário-PR, 2024 Ferroviária-SP; 2025 4º São Bernardo. Do 5º para baixo a ordem segue a regra da coleta (2025: 5º Guarani, a pt tem Caxias): isso fica no SC-018. No ar: sim."
+SC-004,corrigido,"Rebaixados de 2009, 2013 e 2016-2021 iguais à lista da fonte no pacote e no banco (2013 com Ipatinga e Rio Branco-AC). No ar: sim."
+SC-005,corrigido,"Pacote e banco: nenhum 'acesso' em 1981 (só o campeão Olaria), 1988, 1990 e 1992; 1999 São Raimundo com acesso. O site lista o campeão como 'subiu' (1988 União São João, 1990 Atlético-GO, 1992 Tuna Luso), regra do painel já aceita no SC-006. No ar: sim."
+SC-007,corrigido,"1988 com pontos_vitoria 3 no pacote, no banco e no site; Marcílio Dias 4º e Tiradentes-PI 5º. O ABC está em 13º (pt: 7º): é a ordem dos eliminados, que fica no SC-018. No ar: sim."
+SC-008,corrigido,"1988, grupo 18: Ferroviária-SP com 10 jogos (6 na 2ª fase) e Desportiva-ES com 12, no pacote e no banco. No ar: sim."
+SC-009,corrigido,"2007, grupo 17: os 6 jogos do Imperatriz com o clube certo, sem 'Tuna Luso x Tuna Luso' nem jogo duplicado; banco: Imperatriz 12 jogos (-12), Tuna Luso 18 jogos. No ar: sim."
+SC-010,corrigido,"2008 com 386 jogos (pacote, banco e site); o grupo 15 tem um jogo Inter de Santa Maria x Engenheiro Beltrão por turno. No ar: sim."
+SC-011,corrigido,"2004: Portuguesa Santista 0x1 Atlético Sorocaba (08/08), grupo 13, no pacote e no banco. No ar: sim."
+SC-012,corrigido,2003: um clube só (Boa Esporte) com os 8 jogos; 'Ituiutabana' não aparece. No ar: sim.
+SC-013,corrigido,"2011: os 3 jogos do Rio Branco-AC na 2ª fase saíram; Ipatinga 3º e América-RN 4º. A edição tem 106 jogos (pt: 105), diferença que fica no SC-021. No ar: sim."
+SC-014,corrigido,"1988 Inter de Santa Maria 2x0 Figueirense; 1992 Rio Branco-MG 2x1 São Bento, Nacional-AM 1x0 Ji-Paraná, Macapá 0x2 Nacional-AM, Nacional-AM 3x0 Auto Esporte; 2003 Atlético Roraima 1x2 Rio Branco-AC (pacote e banco). No ar: sim."
+SC-015,corrigido,1995: Itumbiara 1x0 Gama com resultado_especial awd e o placar de campo (1-2) na observação. No ar: sim.
+SC-016,aberto,"A coleta manteve os placares da RSSSF e do ogol, que concordam entre si; só a Wikipédia diverge. Sem prova nova nem decisão do Guilherme. Amostra igual à da 1ª rodada (1981 Izabelense 1x1 Manchete, 1990 Estudantes 1x1 Campinense, 2008 Rio Branco-AC 2x0 Fast-AM, 2013 CRB 2x0 Luverdense). No ar: n/a."
+SC-017,corrigido,"Punições no pacote e no banco: 2005 Nacional-PB -6; 2006 Ananindeua, Ceilândia, Ulbra-RO e Ypiranga-PE -6, Estrela do Norte -18; 2007 Imperatriz -12 e Nacional-PB -6. No ar: sim."
+SC-018,aberto,"A coleta manteve a regra (fase alcançada, posição no grupo dessa fase, campanha). Casos vistos agora: 1988 ABC 13º (pt 7º); 2025 5º Guarani (pt 5º Caxias, 6º Brusque, 7º Guarani); a mesma regra põe na Série D 2012 o Comercial-PI em 29º (pt 34º) e 2014 o River-PI em 24º (pt 27º). No ar: não."
+SC-019,corrigido,"2003 'Quinta fase' (ordem 5, antes da Fase final); 1992 Fluminense-BA x Matsubara na 'Segunda fase / Grupo B'; 2020 Vila Nova x Remo na 'Final'. Nenhum nome de fase em inglês no pacote. No ar: sim."
+SC-020,corrigido,"Nenhum confronto de ida e volta com as duas partidas na mesma data nos pacotes da C, da D e da Copa. No ar: sim."
+SC-021,aberto,"Sem mudança e sem prova nova: jogos 1995 384, 1999 226, 2011 106, 2012 194 (infobox pt 383, 224, 105, 195); gols 2001 1.124, 2002 595, 2008 1.068, 2011 289. A coleta deixou em dúvida. No ar: n/a."
+SC-022,corrigido,1998: Kléber Pereira (Moto Club) 25 gols no pacote e no site. No ar: sim.
+SC-023,corrigido,"artilheiros.csv 2016 'Jones Carioca'; nos gols: Jones Carioca, Assisinho, Leandrão e Júlio César (nenhuma grafia antiga). No ar: sim."
+SD-001,corrigido,"Série D 2026 no pacote, no banco e no site: 610 jogos, 96 clubes, Uberlândia campeão e ASA vice; acessos Uberlândia, ASA, Gama, ABC, Nacional-AM e Goiatuba EC. No ar: sim."
+SD-002,corrigido,"2020: Mirassol, Floresta-CE (vice), Novorizontino, Altos, América-RN, Aparecidense nas 6 primeiras posições (pacote, banco e site). No ar: sim."
+SD-003,corrigido,"2021: 3º ABC, 4º Atlético Cearense, 5º Ferroviária-SP, 6º América-RN (pacote, banco e site). No ar: sim."
+SD-004,corrigido,2021: América-RN x Campinense nas Quartas e Atlético Cearense x Campinense na Semifinal; nenhum jogo de mata-mata no grupo A03. No ar: sim.
+SD-005,corrigido,"2020: Fase preliminar (8), Primeira fase com 8 grupos (448), Segunda fase (32), oitavas (16), quartas (8), semifinal (4) e final (2). No ar: sim."
+SD-006,corrigido,"2022: Primeira fase com 8 grupos (448 jogos), depois o mata-mata. No ar: sim."
+SD-007,corrigido,"2016, 2017 e 2018: Primeira fase com 17 grupos e 204 jogos, todos com grupo (o 4 de Julho e o 7 de Setembro-MS nos seus grupos). No ar: sim."
+SD-008,corrigido,"2011: Final Tupi 1x0 e 2x0 Santa Cruz; 2013: Final Juventude 2x1 e Botafogo-PB 2x0; as duas na fase 'Final', separadas da Semifinal. No ar: sim."
+SD-009,corrigido,"Nenhum nome de fase em inglês; as 23 observações estão em português (ex.: 'prorrogação 0-0', 'jogo em Macapá-AP'). No ar: sim."
+SD-010,corrigido,"2024: Princesa 3x3 Manaus FC (11/05); gols da edição no site 1.143, como a Wikipédia. No ar: sim."
+SD-011,aberto,A coleta manteve 06/09 e 29/09/2013 (ogol e RSSSF dão essas datas) para a semifinal Botafogo-PB x Salgueiro; as quartas de 15 e 22/09 seguem depois da ida da semifinal. Falta uma terceira fonte. No ar: n/a.
+SD-012,corrigido,Final de 2016: CSA 0x0 Volta Redonda em 25/09 (pacote e banco). No ar: sim.
+SD-013,corrigido,Pacote: os 3 W.O. de 2014 com resultado_especial awd e observação. O painel ainda soma os 9 gols (2014: 200 jogos e 515 gols; a Wikipédia dá 199 e 503): ver RC-005 (banco-painel). No ar: não.
+SD-014,corrigido,Pontos com a punição iguais à fonte: 2009 Araguaia 19 e Naviraiense -2; 2010 América-AM 13; 2012 Comercial-PI 5 e Santos-AP 4; 2013 Paragominas 11; 2014 River-PI 9 e Villa Nova-MG -9; 2015 Náutico-RR 4 e Santos-AP 7; 2019 Bahia de Feira 7. As posições de parte dos eliminados na 1ª fase diferem da pt (Comercial-PI 29º x 34º; River-PI 24º x 27º; Bahia de Feira 40º x 41º) pela regra de ordem do SC-018. No ar: sim.
+SD-015,corrigido,"2017: -3 no São Raimundo-PA (7 pts, 42º); São Raimundo-RR com 5 pts (49º; a pt diz 57º, regra do SC-018). No ar: sim."
+SD-016,corrigido,"2025: -3 no Maracanã (9 pts, 60º; pt 59º); Maricá com 20 pts, 31º. No ar: sim."
+SD-017,corrigido,"2025: acesso de Barra-SC, Santa Cruz, Inter de Limeira e Maranhão (Santa Cruz de Natal sem acesso); 2020: Floresta-CE vice. No ar: sim."
+SD-018,corrigido,"Nenhum artilheiro com '- ' na frente, no pacote nem no banco. No ar: sim."
+CB-001,corrigido,"Vices no pacote e no site: 1989 Sport, 1993 Grêmio, 1994 Ceará, 1995 Grêmio, 1996 Palmeiras, 1997 Flamengo, 2012 Coritiba, 2014 Cruzeiro, 2025 Vasco. No ar: sim."
+CB-002,corrigido,Nas 37 edições os 4 primeiros da classificação são os semifinalistas (conferido pelos jogos de Semifinal e Final do pacote). No ar: sim.
+CB-003,corrigido,"Fases só em português (Fase preliminar, Primeira a Quarta fase, Oitavas, Quartas, Semifinal, Final); nenhuma Final com mais de 2 jogos; site 2019: 8 fases em ordem. No ar: sim."
+CB-004,corrigido,2014 Treze 1x2 Vasco; 2015 Paysandu 2x0 Águia Negra; 2015 Tupi 1x2 Ceará (pacote e banco). No ar: sim.
+CB-005,aberto,"7 dos 8 corrigidos (1993, 1994, 2000 Fluminense 3x1, 2000 Nacional-AM 2x2 Rio Negro-AM, 2007, 2013, 2014) e 2002 São Raimundo x América-RN bate com a pt. Falta 1990, volta: pacote América-RN 1x0 Santa Cruz (27/06); pt e en dão 0x1 (Santa Cruz 3-1 e 1-0); a RSSSF ('3-1 0-1') e o ogol (jogo 652618) dão 1x0 para o América: fontes divididas. 1991 Remo x Vitória: pt 2-0 e 2-2, en e pacote 0-0 e 2-0 (infobox 132 gols x 128). No ar: sim."
+CB-006,corrigido,"Finais: 2015 Santos 1x0 Palmeiras (25/11) e Palmeiras 2x1 Santos (02/12, pên. 4-3); 2016 Atlético-MG 1x3 Grêmio (23/11) e Grêmio 1x1 Atlético-MG (07/12). No ar: sim."
+CB-007,aberto,"2007 com 115 jogos (Villa Nova-MG x Avaí na 2ª fase), 2019 com 120 (Aparecidense 2x0 Ponte Preta) e 2021 com Sergipe 0x0 Cuiabá e 92 clubes: corrigidos. Falta 1999: 116 jogos e 64 clubes, sem a preliminar Santa Cruz 1x0 Náutico (a coleta não pôs porque só a pt tem o jogo). No ar: parcial."
+CB-008,corrigido,"218 jogos com pênaltis nos campos próprios; a comparação com as chaves da pt (cópia de revisao/CB/confrontos.py em revisao/RC/cb/) caiu de 124 'pênaltis faltando' para 0. Finais de 2015 (Palmeiras 4-3) e 2017 (Cruzeiro 5-3); 2021 Palmeiras 0x1 CRB, pên. 3-4. No ar: sim."
+CB-010,corrigido,"1990 Goiás x Flamengo em 07/11; finais de 2014 em 12/11 e 26/11 e de 2015 em 25/11 e 02/12, com a observação do motivo. No ar: sim."
+CB-011,corrigido,"Artilheiros: 2007 Dênis Marques no Athletico-PR; 2018 Gabriel, Neilton e Rômulo (4); 2019 Pipico no Santa Cruz; 2023 Alef Manga, Lorran, Pedro e Tiquinho Soares (5); nenhum nome em maiúsculas. No ar: sim."
+CB-014,corrigido,"Nenhum jogo da Copa com grupo, no pacote e no banco. No ar: sim."
+CB-015,corrigido,"Saíram 'São Paulo lost 5 points...' (1996) e as datas soltas de 1999. Sobra 1 observação em inglês: 1998-0028 Botafogo 4x0 São Raimundo, ""2nd leg abd at 4-0 to Botafogo in 72'"" (traduzir no coleta/comum/observacao.py). No ar: sim."
+CL-001,corrigido,Mesmo caso do SC-009: os jogos do Imperatriz voltaram ao clube certo em 2007. No ar: sim.
+CL-002,corrigido,"Série C 2002 com o Tubarão FC (1996-1998, 2001, 2002); o Atlético Tubarão só aparece de 2018 em diante. No ar: sim."
+CL-003,corrigido,"Copa 2007: Operário-MT 0x5 Palmeiras, com o Operário FC Ltda (decisão do CL-007). No ar: sim."
+CL-004,corrigido,"Série C 1995 com a SE Ariquemes (que tem também a Copa 1994); o cadastro 'Ariquemes' (FC, 1996) saiu do banco. No ar: sim."
+CL-005,corrigido,Decisão aplicada: 'São Gabriel' com a Série C 2002 e a Copa 2004; o 'EC São Gabriel' saiu do banco. No ar: sim.
+CL-006,corrigido,"Decisão aplicada: 'Goiatuba EC' com Série B 1989 e 1994-1997, Série C 2003, Copa 1993 e Série D 2025-2026; o cadastro 'Goiatuba' saiu. No ar: sim."
+CL-007,corrigido,"Decisão aplicada nos pacotes e no banco: CEOV Operário (Série A 1968, 1979, 1984, 1986; B 1980, 1982, 1983, 1992; C 1994-1995; Copa 1995-1996 e 2015+), EC Operário-MT (C 1997, Copa 1998) e Operário-MT = Operário FC Ltda (C 2006, Copa 2003, 2006, 2007). Os escudos ficaram trocados: ver RC-002 (banco-painel). No ar: parcial."
+CL-008,corrigido,"Decisão aplicada: 'Lagarto EC' com Série B 1989 e Série C 1988 e 1990, sem escudo; 'Lagarto' (FC) com a Copa e a D recentes. No ar: sim."
+CL-009,corrigido,Decisão aplicada: 'AA Cabofriense' com Série B 1989 e Série C 1988; 'Cabofriense' (AD) com 2003 em diante. No ar: sim.
+CL-010,corrigido,"Decisão aplicada no banco: 'Foz do Iguaçu EC' com a Série B 1989 (ainda sem UF e cidade, que entram no CL-029). No ar: sim."
+CL-011,corrigido,Decisão aplicada: 'EC Limoeiro' na Série C 1998 e 'Limoeiro' (AD) na de 2004. A cidade do EC Limoeiro está como 'Limoeiro Do Norte' (CL-028). No ar: sim.
+CL-012,corrigido,"Decisão aplicada: Joaçaba EC e SE São Borja (1981) e Guarabira EC (2001), sem escudo; 'Joaçaba', 'São Borja' e 'Desportiva Guarabira' saíram do banco. O 3º de 1981 no site é 'SE São Borja'. No ar: sim."
+CL-027,nao-e-erro,Decisão do Guilherme (21/11): os nomes com sufixo '-UF' ficam como estão; o sufixo só é exigido para clube novo com homônimo. No ar: sim.
+CL-028,aberto,"Sem resposta da coleta. Seguem: Botafogo-DF com UF GO e cidade Novo Gama; AA Araguaia em Cuiabá; Alegrense com cidade 'Alegre - Espirito Santo'; grafias 'Teixeira De Freitas', 'Vitória De Santo Antão', 'Divinopolis', e também 'Rio De Janeiro', 'Rolim De Moura' e 'Limoeiro Do Norte'. No ar: não."
+CL-031,corrigido,Matsubara no clubes.csv da C sem 'ogol:JMalucelli:1981'. No ar: sim.
+TL-004,corrigido,Nenhum confronto com ida e volta na mesma data na Copa (2001) nem na Série C (1988). No ar: sim.
+RV-001,corrigido,"Série B 2001: Figueirense 3x1 Caxias na 1ª fase (19/08) sem awd; só o jogo de 22/12 é 1x0 awd. Site: Figueirense 61-49, Caxias 53-45. No ar: sim."
+RV-002,corrigido,"Série B 2014: 3º Vasco 63, 4º Avaí 62, 5º América-MG 61 (-6), no banco e no site (pódio com Vasco em 3º). No ar: sim."
+RV-003,aberto,"1980 corrigido (semifinais em 04 e 07/05). 1990 não: Moto Club 3x0 Treze segue em 04/08 e Remo 2x0 Ceará em 08/08 (pt 04/09 e 08/09), e 28 de 147 jogos casados com a pt têm outra data. 1991: as datas do ogol saíram (344 de 478 jogos sem data), mas sobram 46 jogos com clube 2 vezes no mesmo dia (eram 13 na 1ª rodada). Ver RC-001. O painel não mostra a data dos jogos. No ar: n/a."
+RV-004,corrigido,"Série A 1959: cartão 'Artilheiro 8 gols, Léo, Bahia'; Série B 1971: o cartão some e a sub-aba avisa 'Parcial: só 15% dos gols...'. No ar: sim."
+SA-003,corrigido,"Série A 2003 no banco e no site: São Caetano 4º 74 (+3), Coritiba 5º 73, Internacional 6º 72 (+2), Corinthians 15º (+2), Juventude 18º (+3), Fluminense 19º (+2), Ponte Preta 21º (-1), Paysandu 22º 49 (-8). No ar: sim."
+SA-019,corrigido,"Lista oficial carregada (bra-serie-a-artilheiros): as 70 edições têm artilheiro (ex.: 1937 Paulista 8, 1977 Reinaldo 28, 1997 Edmundo 29). No ar: sim."
+SA-020,corrigido,"2008: Keirrison, Kléber Pereira e Washington com 21 na lista oficial. A lista 'Gols registrados jogo a jogo' abaixo ainda tem 'Kleber' 18 (dado da tabela gol: SA-023). No ar: sim."
+SA-021,corrigido,2007: oficial Josiel 20 (cartão e sub-aba). A lista jogo a jogo segue com 'Josiel Da Rocha' 21 (tabela gol: SA-023). No ar: sim.
+SA-022,corrigido,"2016: Diego Souza, Fred (Atlético-MG) e William Pottker com 14 na lista oficial. No ar: sim."
+SA-023,aberto,"A lista oficial usa os nomes de jogo (Josiel, Luciano, Alerrandro). Os nomes da tabela gol continuam e aparecem em 'Gols registrados jogo a jogo' e em Por clube: 'Josiel Da Rocha' (23 gols), 'Fernandao' (25), 'Andre Felipe' (31), 'Luciano da Rocha Neves' (85), 'Alerrandro Barra Mansa Realino de Souza' (33), 'Kleber' (68). No ar: sim."
+SA-024,aberto,Avisos no Resumo de 2005 (11 jogos anulados e refeitos) e de 2016 (Chapecoense x Atlético-MG não disputado). Falta a marca awd e a observação em Brasiliense 0x1 Vasco (24/04/2005; em campo 2-2): só 1999 tem resultado_especial na Série A. No ar: parcial.
+SB-018,corrigido,"Fases em português: 2002 'Semifinal', 2001 'Grupo Sul-Sudeste' e 'Grupo Norte-Nordeste', 'Repescagem do rebaixamento'; quadrangulares de 1985, 1988, 1999 e 2001 como 'grupos'. No ar: sim."
+CB-013,corrigido,"Na Copa, 'Pontuação histórica' saiu do menu da História. A rota direta #historia/pontos ainda abre a tela com pontos (Flamengo 460), mas não há caminho para ela. No ar: sim."
+SP-025,corrigido,Paulista: a sub-aba avisa 'Parcial: só 0% dos gols desta edição têm autor registrado' (1951) antes da lista; o mesmo nas outras edições sem lista oficial. No ar: sim.
+AR-036,corrigido,Tabela do site igual à classificacao_final do banco nas 3.775 linhas (0 diferenças); ex.: 1895 Lomas Academicals 8 jogos; 2006/07 Apertura Estudiantes 19 j 14 V. No ar: sim.
+AR-037,corrigido,Por clube > River Plate: o cartão 'Maior artilheiro' some quando os gols com autor são poucos (cobertura 26%). No ar: sim.
+AR-038,corrigido,"Por clube > Jogos do River abre em '2025 · Clausura', com os jogos. No ar: sim."
+AR-039,corrigido,"Não foi pedido de novo, mas conferido: o dados/arg-1.js do site é igual ao local (selo 'Argentina · 1ª divisão · 1891 a 2025'). No ar: sim."
+AR-041,aberto,"Temporadas agora como '96/97' e '16/17'. Falta: o torneio só aparece na dica (selos '1936', '1975', '1979' e '96/97' repetidos sem Metropolitano/Nacional/Apertura/Clausura); o seletor ainda diz '2018/19 · Argentino'. No ar: parcial."
+AR-042,corrigido,"2025 Liga: cartões '— Jogos: só a tabela final desta edição', '— Gols', '— Maior goleada: sem jogos nesta edição'. No ar: sim."
+UY-002,corrigido,"1948 sem campeão no site (nota 'campeonato abandonado na 10ª rodada'); Nacional com 50 títulos na Corrida e no Pódio. O vice Peñarol de 1948 continua (UY-003, coleta). No ar: sim."
+UY-009,corrigido,"Pódio por clube com '05/06', '09/10', '12/13'... e '2005' separado de '05/06'; a curiosidade de títulos duplos não aparece mais. No ar: sim."
+UY-025,aberto,"Cartão do topo: '12.367 Jogos em 81 edições com jogos'. Falta o texto de Jogos e vitórias e de Gols, que ainda diz 'todas as partidas, de 1900 a hoje (12.367 jogos)'. No ar: parcial."
+ES-003,corrigido,"1979/80 no site: AD Almería 41 GP e CD Málaga 58 GC (-3), como a tabela oficial. No ar: sim."
+ES-007,corrigido,"2003/04: oficial 'Ronaldo 24' e, abaixo, 'Gols registrados jogo a jogo' com Ronaldo 24, Júlio Baptista 20, Fernando Torres 19... No ar: sim."
+ES-008,corrigido,"Título mais apertado com os pontos reais: 8 títulos empatados em pontos (1930/31, 1946/47, 1959/60, 1970/71, 1980/81, 1983/84 Athletic x Real Madrid, 1993/94, 2006/07). No ar: sim."
+ES-009,corrigido,"Maior vantagem sobre o vice: Barcelona 15 (2012/13, 100 x 85). No ar: sim."
+ES-010,corrigido,O cartão 'Títulos por estado' não aparece no Espanhol. No ar: sim.
+ES-014,aberto,"Pódio por clube com '31/32', '53/54'... e o selo '1928/29 a 2024/25'. Falta: Curiosidades 'Barcelona · 2012', 'Real Madrid · 2011' e a Corrida dos títulos '2024' seguem com o ano de início (o mesmo no Inglês: 'Manchester City · 2017'). No ar: parcial."
+EN-008,corrigido,"Participantes 1914/15: 'No ano seguinte' preenchido pela edição 1919/20 ('ficou'); 1946/47: 'Chegou' pela 1938/39 ('já estava'). Rebaixados e promovidos ainda com '—' (EN-009, não pedido). No ar: sim."
+EN-011,corrigido,"No site: Título mais apertado com 1923/24, 1949/50, 1952/53, 1964/65, 1988/89 e 2011/12; maior vantagem Manchester City 19 (2017/18); melhor campanha Preston 90,9%. A versão local não publicada perde os anos antes de 1992/93: ver RC-003. No ar: sim."
+EN-012,corrigido,O cartão 'Títulos por estado' não aparece no Inglês. No ar: sim.
+EN-015,corrigido,"Seletor e título com o nome de época: '1990/91 · Football League First Division', '1992/93 · FA Premier League', '2025/26 · Premier League'. No ar: sim."
+EN-001,corrigido,"2025/26 no pacote (127 edições, 51.330 jogos), no banco e no site: Arsenal campeão, Manchester City vice; rebaixados West Ham, Burnley e Wolverhampton; artilheiro Erling Haaland 27. No ar: sim."
+EN-002,corrigido,"1937/38: Tommy Lawton 28 (pacote, banco e site). No ar: sim."
+EN-003,corrigido,"1889/90: Jimmy Ross 24 (pacote, banco e site), com a fonte explicada. No ar: sim."
+EN-004,aberto,A coleta manteve Albert Shepherd 26 (as fontes divergem: RSSSF e a página da temporada dão Walter White 26). Sem decisão. No ar: n/a.
+EN-005,corrigido,"As 33 datas da lista do 11v11 estão no pacote; das 35 linhas DIF, uma é o placar do EN-006 e outra é Everton x Arsenal 2015/16, que o 11v11 casou com um amistoso (ficou de fora de propósito). O painel não mostra datas. No ar: não visível."
+EN-006,corrigido,"Wolverhampton 5x0 Everton (26/01/1889) no pacote, no banco e no site (Wolverhampton 51-37, Everton 35-47). No ar: sim."
+EN-007,corrigido,Pacote e banco: as 94 temporadas sem rodadas fixas (até 1991/92 e 1994/95) com rodada vazia e sem classificacao_rodada (decisão do Guilherme). O site ainda é o anterior: 1990/91 com rodada em 370 jogos e Corrida. A versão local já está certa. No ar: não.
+EN-016,aberto,Os 12 jogos seguem sem nenhum gol com autor (ex.: 02/11/2014 Manchester City x Manchester United; 22/09/2013 o mesmo clássico). A coleta deixou para depois. No ar: não.
+EN-017,corrigido,clubes.csv e banco (clube_nome) com 'rsssf:Newton Heath' 1892-1893 no Manchester United. No ar: n/a.
+EN-018,corrigido,"Stoke City (1889/90) e Darwen (1891/92) sem 'rebaixado', com a observação 'não foi reeleito'. No ar: sim."
+ES-001,corrigido,1935/36: Real Oviedo sem 'rebaixado' (observação da dispensa); Atlético de Madrid e Osasuna rebaixados (decisão do Guilherme); faixa da Corrida no 12º. No ar: sim.
+ES-002,nao-e-erro,"Prova: a tabela final da Wikipédia es (1986-87) é 16º Osasuna, 17º Racing (descenso), 18º Cádiz (descenso planteado, salvo na liguilla); a liguilla não conta como jogo da Primera e está na observação da edição. A ordem do painel é a oficial. O painel não mostra essa observação (ES-011). No ar: sim."
+ES-004,corrigido,Faixa de rebaixamento nas posições de quem caiu: 1965/66 13º e 15º-16º; 1989/90 17º e 19º-20º; 1993/94 17º e 19º-20º; 1997/98 17º e 19º-20º; 2014/15 13º e 19º-20º (pacote e site). No ar: sim.
+ES-005,corrigido,"Decisão do Guilherme (contagem oficial da LaLiga, Pichichi anotado na fonte): 1929/30 Gorostiza 20, 1934/35 Lángara 27, 1935/36 Lángara 28, 1954/55 Arza 28, 2003/04 Ronaldo 24. No ar: sim."
+ES-006,corrigido,"esp-1: Nihat Kahveci 76, Fernando Morientes 42, Ismael Urzaiz 61, Rubén Navarro, Magno Mocelin, Raúl Molina, Sávio, Víctor Fernández e Salva Ballesta 43; nenhuma grafia antiga nos gols do esp-1. As mesmas grafias seguem no eng-1 e no fra-1: ver RC-004. No ar: sim."

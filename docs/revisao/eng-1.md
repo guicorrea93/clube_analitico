@@ -73,3 +73,36 @@ Fontes usadas (diferentes da base da coleta, que foi engsoccerdata, football-dat
 1. **2025/26:** entra no `eng-1` (já terminou; Arsenal campeão)? O briefing desta revisão falava em 1888/89-2024/25 (`EN-001`).
 2. **Stoke 1889/90 e Darwen 1891/92:** não foram reeleitos (não havia rebaixamento). Contam como "rebaixado"/"caiu" no painel? (`EN-018`)
 3. **1888/89 Wolverhampton x Everton:** fica 4-0 (engsoccerdata e RSSSF) ou 5-0 (11v11, ogol, Wikipédia e páginas dos clubes)? (`EN-006`)
+
+## 3ª rodada (22/11/2026)
+
+Revisor QE. Fontes novas: **transfermarkt** (competição "First Division (- 91/92)", EFD1, de 1888/89 a 1991/92; GB1 para a
+Premier League) e **BDFutbol** (Inglaterra desde 1960/61). Scripts em `revisao/QE/`, páginas em `data/cache/revisao/QE/`.
+
+- **Placares e datas por década:** 44.499 dos 51.330 jogos. 1888/89 e 1922/23-1959/60 contra o calendário do transfermarkt
+  (1889/90-1921/22 só em parte: o site tem 15-25% dos jogos dessas temporadas; ainda assim 116 a 544 jogos por década):
+  15.837 jogos, placar igual em 15.824 (os 13 restantes são erro do transfermarkt, 1ª rodada de 1957/58) e data igual em
+  15.826. De 1960/61 a 2025/26 contra o BDFutbol: 28.662 jogos, placar igual em todos, data igual em 28.640 (as 22 diferenças são
+  erro do BDFutbol: 11v11, ogol ou transfermarkt confirmam o pacote). Erro do pacote: **1953/54 Sheffield Wednesday 3-1 Aston
+  Villa**, em 07/09/1953 no pacote, foi no sábado 07/11/1953 (11v11 e transfermarkt; é o único jogo que falta nessa rodada)
+  (`QE-005`).
+- **EN-016 resolvido na fonte:** as fichas do BDFutbol trazem os autores dos 12 jogos sem autor (todos fecham com o placar;
+  3 gols contra do Sunderland no 1-3 com o Charlton de 2002/03). Lista pronta em `SCRATCH/sugestoes_QE.csv`.
+- **Desempate (DE-002 do Alemão):** não afeta o Inglês: o critério é fixo por época (média de gols até 1975/76, saldo depois),
+  a Corrida só existe nas 33 temporadas com rodadas fixas e a última rodada é igual à classificação final nelas (`QE-008`,
+  `nao-e-erro`). A tabela do BDFutbol difere do pacote antes de 1976 por usar saldo em vez de média (erro dele).
+- **Árbitro:** o pacote tem árbitro desde 2000/01 (football-data), em 3 formatos ("David Elleray", "Elleray, D. R.", "D
+  Elleray"), com "David Ellaray" em 21 jogos e 40 jogos com outro sobrenome que o BDFutbol (`QE-006`). O BDFutbol tem o nome
+  completo e cobre 1960/61-1999/00 (74% a 100% dos jogos), hoje 0% no pacote.
+- **Fichas (amostra por década):** transfermarkt, 24 fichas de 1888/89 a 1959/60: autores com nome completo somando o placar em
+  23 (a outra é de 1889/90, incompleta no site) e **público em todas** (ex.: Arsenal 0-1 Tottenham, 29/08/1925, 53.183);
+  BDFutbol, 26 fichas de 1960/61 a 2025/26 (fora as 12 do EN-016): autores somando o placar em todas; de 2001/02 em diante, 43
+  de 44 iguais aos da ESPN (o outro é grafia).
+- **EN-004 (1905/06):** a biografia de Albert Shepherd na Wikipédia en diz 25 gols e artilheiro; a RSSSF dá Walter White 26.
+  Continua decisão (recomendação em `SCRATCH/decisoes_QE.md`).
+- **Outros:** observações da classificação em inglês (18 linhas; `QE-007`). Varredura de tela: nada. Sugestões prontas para
+  EN-009, EN-010, EN-013 e EN-016.
+- **Buracos de cobertura e caminho:** autores e público antes de 2001/02 pela ficha do transfermarkt (1888/89 e 1922/23-1959/60
+  ~14.450 páginas, ~9 h; depois mais ~18.200 até 2000/01); árbitro e estádio de 1960/61 a 1999/00 em lote pelas 40 páginas do
+  BDFutbol (já baixadas). 1889/90-1921/22 não tem fonte completa testada.
+- Achados novos: `QE-005` (média), `QE-006` (baixa), `QE-007` (baixa), `QE-008` e `QE-010` (`nao-e-erro`).

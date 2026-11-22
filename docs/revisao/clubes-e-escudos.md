@@ -125,3 +125,20 @@ vem de `data/escudos/<nome>.png`, baixado pela lista à mão (`PAGINAS`), pela b
    coerência. (CL-008 a CL-011)
 9. **Sufixo "-UF"**: vale a regra "só com homônimo no banco" ou mantemos os nomes consagrados (Americano-RJ, Fast-AM,
    Ferroviária-SP...)? (CL-026 e CL-027)
+
+## 3ª rodada (22/11/2026): clubes da Série C, Série D e Copa do Brasil (revisor QC)
+
+- **CL-005 a CL-012:** todos corrigidos e reconferidos em 22/11 (`docs/revisao/reconferencia-2026-11-22.md`). Do CL-007 sobra só o
+  escudo trocado dos três Operário de Várzea Grande (RC-002, banco-painel: `baixar_escudos.py`).
+- **Fonte nova para identidade e cidade:** o Bola n@ Área (https://www.bolanaarea.com/) lista os participantes de cada edição com
+  a cidade (ex.: `serie_c_1981_tab.htm`, `serie_c_2007_partic.htm`, `copa_do_brasil_2008_fase1.htm`) e escreve o nome da época. Serve
+  para o CL-029 (cidades vazias) e para conferir homônimos. O Futebol Nacional (https://futebolnacional.com.br/) também dá o nome
+  da época por edição.
+- **CL-028 (aberto):** sugestão completada: AA Araguaia (Série D 2016) é a Associação Atlética Araguaia, fundada em 2014 para
+  substituir o Barra do Garças FC, hoje em Água Boa-MT; não confundir com o "Araguaia" (Alto Araguaia-MT, Série D 2009 e Copa
+  2010), que está certo. O Bola da Série D 2010 lista "Botafogo (DF)", o que confirma a UF DF do Botafogo-DF.
+- **CL-023 (aberto):** o "Rive A.C." foi o Espírito Santo FC (fundado em 2006 em Anchieta-ES) em todos os jogos do banco (Série D
+  2016-2018); virou Gálatas EC em 2025 e Rive AC (Alegre) em 2026 (https://pt.wikipedia.org/wiki/Rive_Atl%C3%A9tico_Clube).
+- **QC-009 (novo, baixa):** o vice da Série C 1981 aparece como "Manchete"; RSSSF, ogol de 1981, Bola e Futebol Nacional dizem
+  "Santo Amaro (PE)". Junto com o CL-023, pede uma regra para clube que só jogou com outro nome (decisão QC-D1).
+- Sugestões e decisões: `SCRATCH/sugestoes_QC.csv`, `SCRATCH/decisoes_QC.md` (QC-D1).

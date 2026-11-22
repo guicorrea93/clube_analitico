@@ -92,3 +92,38 @@ bdfutbol.com e worldfootball.net responderam 403; linguasport não resolve.
 2. **1986/87:** pôr o triangular de rebaixamento (3 jogos entre Osasuna, Cádiz e Racing) como uma fase da edição, com a ordem final Osasuna, Cádiz e Racing (`ES-002`)?
 3. **Artilheiros:** quando o Marca e a LFP discordam (1929/30, 1934/35, 1935/36, 1954/55, 2003/04), qual contagem vale (`ES-005`)?
 4. **Nomes de época:** mostrar o nome da época (ex.: "Atlético Aviación" nos títulos de 1939/40 e 1940/41) ou manter sempre o nome atual (`ES-013`)?
+
+## 3ª rodada (22/11/2026)
+
+Revisor QE. Fonte nova principal: **BDFutbol** (bdfutbol.com), que nem a coleta nem as revisões usaram; terceira opinião pelo
+transfermarkt (ES1) e pelo ogol. Scripts em `revisao/QE/`, páginas em `data/cache/revisao/QE/`.
+
+- **Placares e datas, todas as décadas, todos os jogos:** os 27.716 jogos das 95 temporadas (inclusive 2025/26) contra a
+  página de cada temporada do BDFutbol (`revisao/QE/cmp_bdfutbol.py esp`): placar igual em 27.714 (1932/33 9-5 x 9-4, já visto
+  no ES-015, e o jogo anulado de 1979/80) e data igual em 27.693. Nas 23 datas diferentes, a terceira opinião (ogol,
+  transfermarkt) confirma o pacote em 19; erro do pacote: 2003/04 Barcelona x Sevilla, jogado à 00:05 de 03/09/2003 (`QE-003`);
+  2 jogos suspensos e completados noutro dia, sem observação (`QE-004`); 1 dividido (1932/33 Alavés x Betis).
+- **Classificação final x BDFutbol:** 1.614 de 1.624 linhas iguais (fora 1986/87). Única diferença real: **1960/61, 6º e 7º**
+  (`QE-002`): RSSSF e BDFutbol dão Athletic 6º e Betis 7º; o painel segue a Wikipédia (Betis 6º).
+- **Desempate (o DE-002 do Alemão):** o confronto direto é a regra espanhola desde 1928/29 (class_rules da Wikipédia en em
+  todas as temporadas; nos dados, em 1930/31, 1931/32, 1933/34, 1934/35... só ele reproduz a ordem). Mas a coleta usa um
+  confronto sem a volta entre os que seguem empatados: em 1963/64 escolheu "média de gols" por coincidência e em 1954/55,
+  1969/70, 1972/73, 1981/82 e 1995/96 nenhum critério fechava (a última rodada da Corrida difere da Classificação). O confronto
+  recursivo reproduz 92 das 93 temporadas de fase única (todas menos 1960/61, o `QE-002`). E na Corrida o confronto entra com só
+  um dos dois jogos disputados: 11.351 posições de rodada mudam com a regra da liga (confronto só depois dos dois jogos), 202 com
+  troca de líder (`QE-001`, código de referência em `revisao/QE/desempate_esp.py`).
+- **2025/26 (entrou depois da 2ª rodada):** pacote, banco e painel local certos (campeão Barcelona, vice Real Madrid;
+  rebaixados Mallorca, Girona e Real Oviedo; Mbappé 25; 380 jogos e a tabela inteira iguais ao BDFutbol; 1.024 gols, todos com
+  autor). O site ainda tem 94 edições (`QE-009`, `nao-e-erro`: falta publicar).
+- **Fichas de jogo (amostra por década, 34 fichas, `revisao/QE/amostra_fichas.py`):** todas com autores e minuto desde
+  1928/29, somando o placar (34 de 34); de 2001/02 em diante, 52 de 55 autores iguais aos da ESPN (o resto é grafia e um gol
+  contra de Ximo Navarro que a ESPN dá a Franco Cervi, Celta 4-0 Alavés, 2021/22). Árbitro em 100% dos jogos de todas as
+  décadas (o pacote tem 0%); estádio de época em todos. Sem público.
+- **Outros:** observações da classificação em inglês (13 linhas; `QE-007`). Varredura de tela (`revisao/QE/varredura.py`):
+  nada. Sugestões prontas para ES-011, ES-012 e ES-013 (`SCRATCH/sugestoes_QE.csv`); o escudo certo do CD Málaga e da AD
+  Almería está no BDFutbol.
+- **Buracos de cobertura e caminho:** árbitro e estádio, em lote, pelas 95 páginas do BDFutbol (já baixadas); autores antes
+  de 2001/02 pela ficha do BDFutbol ou do transfermarkt (~19.700 páginas, ~11 h cada); cartões antigos só no transfermarkt;
+  público antes de 2000: nenhuma fonte testada tem.
+- Achados novos: `QE-001` (média), `QE-002` (alta, no ar), `QE-003` (média), `QE-004` (baixa), `QE-007` (baixa), `QE-009`
+  (`nao-e-erro`), `QE-010` (`nao-e-erro`). Pergunta ao Guilherme: ordem de 1960/61 (`QE-002`) e ES-013 (nome de época).

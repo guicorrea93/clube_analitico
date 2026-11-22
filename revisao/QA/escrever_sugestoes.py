@@ -1,0 +1,70 @@
+"""Grava SCRATCH/sugestoes_QA.csv (id,sugestao) para os achados abertos das Séries A e B sem 'SUGESTÃO:' (3ª rodada, 22/11/2026)."""
+import csv, os
+SCR = r"C:\Users\GUILHE~1\AppData\Local\Temp\claude\c--Users-guilhermecorrea-Downloads-Gui-GitHub\a75361b9-f474-4b01-be59-ef64c90aa262\scratchpad"
+TM = "https://www.transfermarkt.com.br/campeonato-brasileiro-serie-a/gesamtspielplan/wettbewerb/BRA1/saison_id/"
+BNA = "https://www.bolanaarea.com/"
+S = [
+ ("SA-009", "Manter a ordem do banco (11º Atlético-MG, 12º Ceará, 13º Flamengo) e marcar nao-e-erro: a terceira fonte, Bola na Área "
+  "(" + BNA + "brasileirao_1972.htm, 'Classificação final'), dá a mesma ordem do banco; a en (12º Flamengo, 13º Ceará) e a pt (11º Ceará, 12º Flamengo, "
+  "13º Atlético-MG) discordam entre si, e só concordam no Flamengo em 12º. Se o Guilherme preferir a en, mexer em futebol/migrar_brasileirao.py, "
+  "corrigir_serie_a (UPDATE de classificacao_final na chave '1972', como o SA-007)."),
+ ("SA-016", "decisão: ver decisoes (QA-D3). Os 4 clubes vieram dos grupos E a H de 1986, que o banco não tem (nenhuma fonte nova traz esses jogos: o "
+  "Transfermarkt de 1986 tem 445 jogos, todos casados com o banco). Fonte dos jogos: https://www.rsssf.org/tablesb/braz86.html (grupos E a H, a página da "
+  "própria coleta). Mexer em historico/edicoes.py, EDICOES['1986'] (nova Fase dos grupos E a H, ou só os 8 jogos de Criciúma, Inter de Limeira, Treze e "
+  "Central, conforme a decisão). Joinville x Sergipe: a tabela final (en e pt) conta 1-1; aplicar 1x1 com observação do W.O. ou manter 1x0 'wo', conforme a decisão."),
+ ("SA-017", "1979: Central 0x1 Vasco (15/11/1979, 2ª fase); fonte: " + BNA + "brasileirao_1979_fase2.htm e a tabela final da Bola na Área, da en e da pt "
+  "(Vasco 8V 4E 2D 27-8; Central 5V 5E 6D). River-PI: os 9 jogos da Bola na Área são iguais aos do banco (2V 2E 5D, 9-12), mas as tabelas (BNA, en, pt) dão "
+  "1V 4E 4D com os mesmos gols: deve ser decisão de tribunal; conferir na Hemeroteca (Jornal dos Sports, out-nov/1979) antes de mexer. 1984: Portuguesa 0x1 "
+  "Botafogo (01/02/1984, 1ª fase); fonte: " + BNA + "brasileirao_1984_fase1.htm (lista de jogos) e as tabelas en e pt (Portuguesa 7V 8E 7D 29-25; Botafogo "
+  "5V 5E 4D 14-11); a tabela da própria Bola na Área ainda soma o 0x0, então a confiança é média. Mexer em futebol/migrar_brasileirao.py, corrigir_serie_a "
+  "(UPDATE do placar, com observação e fonte)."),
+ ("SA-025", "Datas reais pelo Transfermarkt e pela Bola na Área, que concordam: 1996 41 jogos (16 sem data, 25 com outra; ex.: Santos 2x0 Portuguesa, "
+  "1ª rodada, em 18/09/1996), 1997 21 (ex.: Vasco 2x0 Atlético-MG em 04/11/1997, não 05/07; Santos 2x0 América-RN em 05/11/1997, não 08/11), 1998 33; "
+  "lista jogo a jogo em revisao/QA/saida/datas_bra-serie-a_1996.csv, _1997.csv e _1998.csv (situacao '... BNA = fonte2', coluna sugestao). Fonte: "
+  + TM + "1995, " + TM + "1996, " + TM + "1997 e " + BNA + "brasileirao_1996.htm, brasileirao_1997.htm, brasileirao_1998.htm. Mexer em "
+  "futebol/migrar_brasileirao.py, datas_serie_a (ler um CSV de datas revisadas além do ogol e trocar quando a data está vazia ou é a da tabela original; a "
+  "data antiga pode ir para a observação). Com isso os conflitos de 1997 zeram."),
+ ("SB-013", "Faltantes: 1971 Robilotta (Remo) 4 (Campeões do Futebol " "https://www.campeoesdofutebol.com.br/art_brasilb.html, en e pt; a Bola na Área põe "
+  "Horácio, do Itabaiana, empatado); 1988 Machado (Inter de Limeira) 11; 1989 Bugrão (Anapolina) 7; 1990 Rivelino (Catuense) 11 (en, com os nomes "
+  "confirmados pela Bola na Área: " + BNA + "serie_b_1988.htm, serie_b_1989.htm, serie_b_1990.htm). 2004: Rinaldo (Fortaleza) 14 sozinho, Kuki 13 "
+  "(pt, en, Bola na Área e Campeões do Futebol). 2016: 'Bill' (Bola na Área; a Campeões do Futebol escreve 'Bil (Rosimar Amancio)'). Mexer em "
+  "serie_b/importar.py, artilheiros_rsssf (dicionário ARTILHEIROS_REVISADOS por ano, aplicado depois da leitura do br2tops.htm)."),
+ ("SB-017", "Datas por duas fontes novas: 1990 35 jogos (Bola na Área = Wikipédia pt; os 19 conflitos do ano zeram), 1991 388 (301 sem data e 87 diferentes; "
+  "BNA = pt; os conflitos caem de 35 para 11), 1985 21 sem data, 1994 22 sem data, 1997 13 sem data e 18 diferentes, 1998 54 diferentes (a 1ª fase vai de "
+  "02/08 a 06/10/1998; só a Bola na Área), 1971 4 (só BNA). Listas em revisao/QA/saida/datas_bra-serie-b_<ano>.csv (coluna sugestao). Regra: aplicar sempre "
+  "'BNA = fonte2'; 'só BNA' só quando não cria clube com 2 jogos no mesmo dia (em 1988, 1989, 1992, 1994 e 1995 a BNA sozinha cria conflitos: não usar). "
+  "Fonte: " + BNA + "serie_b_<ano>_fase1.htm e https://pt.wikipedia.org/wiki/Campeonato_Brasileiro_de_Futebol_de_<ano>_-_S%C3%A9rie_B. Mexer em "
+  "serie_b/importar.py: dicionário/CSV DATAS_REVISADAS (ano, mandante, visitante, placar -> data) aplicado depois de aplicar_ogol, recusando troca que crie "
+  "conflito (como pede o RC-001)."),
+ ("CL-024", "Oeste: já está em OUTRAS_FONTES (Commons, Oeste_FC_Badge.svg); rodar python baixar_escudos.py de novo agora que o 429 passou. União Bandeirante: "
+  "pôr em PAGINAS a página pt 'União Bandeirante Futebol Clube'. Central-RJ (Barra do Piraí), Rodoviária (Manaus) e Serrano (Petrópolis): sem página "
+  "segura na pt; usar o escudo do ogol, como já se faz para outros da Série B (OUTRAS_FONTES com cdn-img.staticzz.com, achado pela ficha da equipe no ogol). "
+  "Ferroviário do Recife já tem escudo (CL-016). Mexer em baixar_escudos.py (PAGINAS, OUTRAS_FONTES) e rodar o script."),
+ ("CL-025", "Nome de exibição 'Brasília' (o clube é o Brasília Futebol Clube, fundado em 1975; não há outro 'Brasília' no banco), com 'Brasília EC' guardado "
+  "no clube_nome; nome_completo 'Brasília Futebol Clube'. Fonte: https://pt.wikipedia.org/wiki/Bras%C3%ADlia_Futebol_Clube e ogol (equipe 3158). Mexer em "
+  "futebol/migrar_brasileirao.py (dicionário de renomeação, como o do Ferroviário do Recife no CL-016) e baixar_escudos.py (chave do PAGINAS)."),
+ ("CL-029", "Cidades (os 38 clubes das Séries A e B sem cidade): Aliança = Campos dos Goytacazes; América-CE = Fortaleza; América-SC = Joinville; "
+  "Auto Esporte-PI = Teresina; Bonsucesso = Rio de Janeiro; Botafogo-BA = Salvador; CEUB = Brasília; Calouros do Ar = Fortaleza; Central-RJ = Barra do Piraí; "
+  "Cruzeiro do Sul-DF = Brasília; Defelê-DF = Brasília; Eletrovapo-RJ = Niterói; Estrela do Mar-PB = João Pessoa; Ferroviário-MA = São Luís; "
+  "Ferroviário-PR = Curitiba; Fonseca-RJ = Niterói; Foz do Iguaçu EC = Foz do Iguaçu (e UF PR); Guanabara-DF = Brasília; Guarapari = Guarapari; "
+  "Leônico-BA = Salvador; Liga da Marinha = Rio de Janeiro; Maguari = Fortaleza; Manufatora = Niterói; Metropol = Criciúma; Olímpico-AM = Manaus; "
+  "Paula Ramos-SC = Florianópolis; Perdigão = Videira; Rabello-DF = Brasília; Rodoviária = Manaus; Santa Cruz-SE = Estância; Serrano = Petrópolis; "
+  "Siderúrgica = Sabará; Sport Belém = Belém; São Domingos = Marechal Deodoro (Wikipédia pt da Série B 1972); Água Verde = Curitiba. Conferir no ogol antes: "
+  "Comercial-PR, Nacional-GO e Santo Antônio-ES. Fonte: páginas pt de cada clube e fichas do ogol; comentários de OUTRAS_FONTES em baixar_escudos.py. "
+  "Mexer em futebol/migrar_brasileirao.py, CIDADES (e UF_MANUAL para o Foz do Iguaçu EC)."),
+ ("TL-002", "Série A: 2008, 2009 e 2010 já não têm conflito, e as duas fontes novas confirmam o banco (2008: Transfermarkt diverge em 4 jogos, mas a Bola na "
+  "Área dá a data do banco): marcar esses anos como resolvidos. 1999: 14 jogos com data errada (rodada 11 em 18-19/09/1999; rodada 6 Juventude x Corinthians "
+  "e Vitória x Botafogo em 25/08) pelo Transfermarkt e pela Bola na Área; os conflitos caem de 7 para 4 (sobram jogos em que as fontes divergem, ex.: Santos "
+  "0x1 Botafogo, BNA 18/09, TM 11/09). 1991 (18), 1993 (2), 1994 (2): mesmas listas. 1963 (Bahia e Sport em 15/09/1963) e 1989 (Coritiba 04/10): sem fonte "
+  "nova que desempate (a BNA repete o banco). Listas em revisao/QA/saida/datas_bra-serie-a_<ano>.csv. Fonte: " + TM + "<ano-1> e " + BNA + "brasileirao_<ano>.htm. "
+  "Mexer em futebol/migrar_brasileirao.py, datas_serie_a (CSV de datas revisadas). Ver também QA-003."),
+ ("TL-003", "Série B 2009: 54 jogos com data errada (rodadas 10 e 11 em 11/07; Transfermarkt e Bola na Área dão 14-15/07 para a 11); 1981: 13 e 1982: 3 "
+  "(Bola na Área = Wikipédia pt); 1989: 18 jogos do grupo J em 28/10/1989, porque o ogol chama o clube de 'Esportivo Passense' e a coleta não casou o nome "
+  "(as datas certas estão em data/serie_b/ogol/serie_b_1989.json); 1999, 1982 e 1988 já zeraram. Detalhe e correção no QA-012. Mexer em "
+  "serie_b/importar.py (aplicar_ogol, DATAS_REVISADAS) e serie_b/clubes.py (nome 'Esportivo Passense' -> Esportivo-MG)."),
+]
+with open(os.path.join(SCR, "sugestoes_QA.csv"), "w", newline="", encoding="utf-8") as f:
+    w = csv.writer(f)
+    w.writerow(["id", "sugestao"])
+    w.writerows(S)
+print(len(S), "sugestões")

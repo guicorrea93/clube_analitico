@@ -104,3 +104,38 @@ Fontes usadas (diferentes da base da coleta, que foi RSSSF Brasil, ESPN, ogol e 
 2. **2001, Figueirense 1-0 Caxias (jogo encerrado por invasão):** contar o 1-0, como a Wikipédia pt e en, ou deixar sem placar, como a RSSSF? O vice oficial é o Figueirense de qualquer forma.
 3. **Guaratinguetá (2010 e 2012) e Americana (2011):** são o mesmo clube? Isso afeta a sub-aba Participantes (`SB-020`).
 4. **Brusque 2021:** manter -3 pontos? A en diz -3; a tabela pt mostra 48 pts, sem punição (`SB-016`).
+
+## 3ª rodada (22/11/2026)
+
+Revisor QA. Foco: fontes que nenhuma etapa usou, conferidas por década contra o banco (`db/futebol.db`, só leitura). Scripts em `revisao/QA/`, páginas em `data/cache/revisao/QA/`, listas de datas em `revisao/QA/saida/`. O painel local e o publicado são iguais (mesmo md5 de `dados/bra-serie-b.js`).
+
+**Fontes novas e amostra por década** (jogos casados; placar igual / data igual):
+
+| Década | Fonte | Edições | Jogos | Placar | Data |
+|---|---|---|---|---|---|
+| 1970 | Bola na Área | 1971, 1972 | 205 | 200 | 200 |
+| 1980 | Bola na Área | 1980-1985, 1988, 1989 | 1.383 | 1.364 | 1.320 |
+| 1990 | Bola na Área | 1990-1992, 1994-1999 | 1.861 | 1.820 | 1.252 |
+| 2000 | Bola na Área; Transfermarkt | 2005, 2009 | 647; 611 | 646; 611 | 593; 447 |
+| 2010 | Bola na Área; Transfermarkt | 2015 | 380; 342 | 380; 342 | 372; 342 |
+| 2020 | Bola na Área; Transfermarkt | 2022 | 378; 380 | 376; 376 | 366; 324 |
+
+As datas foram conferidas em três fontes (banco x Bola na Área x Wikipédia pt até 2004 ou Transfermarkt depois), jogo a jogo, em `revisao/QA/datas_3fontes.py`. Onde BNA e a outra fonte concordam contra o banco, a data sugerida está na coluna `sugestao` de `revisao/QA/saida/datas_bra-serie-b_<ano>.csv`: 1990 35 jogos (os 19 conflitos do ano zeram), 1991 388 (301 sem data; conflitos 35 -> 11), 2009 54, 1981 13, 1982 3. A BNA sozinha erra datas (cria conflitos em 1988, 1989, 1992, 1994, 1995) e alguns placares, por isso só vale com outra fonte.
+
+Achados novos (todos banco-painel):
+- **QA-005** (média, decisão): 1971 Grupo A, 12 jogos no banco (RSSSF Brasil) e 10 na pt e na BNA.
+- **QA-006** (média): 1972 Atlético-BA 3x1 Central (banco 0x0). BNA, pt e ogol.
+- **QA-007** (média): 1981 Flamengo-PI 2x2 Remo em 03/02/1981 (banco 'n/p'). BNA, pt e ogol.
+- **QA-008** (média, decisão): 5 placares com fontes empatadas 2 x 2 (1971, 1981, 1991).
+- **QA-009** (baixa): 1992 Ceará x Fortaleza com mando trocado nos dois jogos da 1ª fase.
+- **QA-010** (média): 1994 Democrata-GV 0x0 Sergipe (banco 1x1). BNA e ogol.
+- **QA-011** (baixa): 1982, dois 'awd' sem placar (0x1 nas fontes).
+- **QA-012** (média): datas de 2009 (54), 1981 e 1982; 1989, grupo J inteiro em 28/10 porque o ogol chama o clube de 'Esportivo Passense'.
+
+**Artilheiros (SB-013):** a Bola na Área e a Campeões do Futebol confirmam Robilotta 1971 (a BNA põe Horácio empatado), Machado 1988, Bugrão 1989, Rivelino 1990, Rinaldo 14 sozinho em 2004 e 'Bill' em 2016.
+
+**Buracos de cobertura (seção 4):** autores antes de 2003 (parciais), público antes de 2010 e árbitro em todos os anos. As fichas do Transfermarkt têm autores, árbitro e público de 2009 em diante (8 de 9 na amostra); a BNA tem público e autores na Série B 1985 quase inteira e em 2015; antes disso, só a Hemeroteca (jogo a jogo). Custo e caminho em `fontes_QA.md` e `plano_QA.md` (scratchpad).
+
+**Varredura de tela e datas repetidas** (`revisao/QA/varredura.py`, `datas_repetidas.py`): clube com 2 jogos no mesmo dia em 1981 (3), 1989 (9), 1990 (34), 1991 (46), 1997 (2) e 1998 (6), os mesmos do RC-001; 'Grupo Grupo' nas fases de 1971-1989 (só no banco; o painel não repete).
+
+Entregas no scratchpad: `achados_QA.csv` (QA-001 a QA-012; 8 desta competição), `sugestoes_QA.csv` (SB-013, SB-017, CL-024, TL-003), `fontes_QA.md`, `decisoes_QA.md` (QA-D1, QA-D2 e a pergunta antiga das edições não oficiais), `plano_QA.md`.
