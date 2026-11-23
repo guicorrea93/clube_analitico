@@ -564,3 +564,45 @@ Para o agente 1 (recarregar o banco e publicar) e o agente de revisão (conferir
   novos -> OK".
 - **Pedido:** recarregar `ita-1` e `esp-1` e publicar.
 - As varreduras do plano (`revisao/tela/varredura.py`, `datas_repetidas.py`) ficam para o fim das correções de cada liga.
+
+## 23/11 — coleta Europa: correções da revisão no Italiano (`ita-1`)
+
+Para o agente 1 (recarregar o banco e publicar) e o agente de revisão (conferir e fechar os ids).
+
+**Corrigidos (13):**
+- **IT-001 (1945/46):** Andrea Doria e Sampierdarenese sem "rebaixado" (fundiram-se na Sampdoria). Também sem a marca:
+  Ancona, Palermo, Pescara, Salernitana e Siena, clubes da Serie B no torneio misto. O motivo está na observação.
+- **IT-003, IT-004, IT-005:** jogos a tavolino com o placar oficial 0-2 e `awd`; o placar de campo vai na observação.
+  São Cremonese x Milan (1929/30), Legnano x Lazio (1930/31) e Bari x Genoa (1963/64).
+- **IT-006, IT-007:** Torino 3-1 Palermo (1952/53) e Napoli 3-1 Palermo (1962/63). Com eles, as tabelas da Wikipédia
+  fecham nessas temporadas.
+- **IT-008, IT-009:** datas corrigidas pelo Calendario da Wikipédia it, igual à RSSSF:
+  - 622 da lista da revisão, mais 14 de 1945/46 e Brescia x Lecce de 2001/02;
+  - **mais 37 de 1933/34, 1934/35 e 1974/75, além da lista:** a lista corrigia uma rodada e deixava a vizinha, e os
+    clubes ficavam com 2 jogos no mesmo dia. Em 1974/75 a temporada inteira estava uma semana adiantada;
+  - resultado: nenhum clube com 2 jogos no mesmo dia na Serie A (antes, 57 casos);
+  - lista em `data/coleta/ita-1/correcoes/datas.csv`, com a fonte e o achado de cada linha.
+- **IT-010:** 31 jogos a tavolino ganham `awd`; o placar já era o oficial. Lista em `correcoes/tavolino.csv`.
+- **IT-012 (D-18 d):** Bari e Sampierdarenese (1942/43), SPAL e Pro Patria (1954/55) e Messina (2005/06) ficam sem a
+  marca, com "rebaixado em campo e readmitido".
+- **IT-014 (D-19 a):** ordem entre empatados pela Wikipédia it (classifica avulsa) em 1982/83, 1986/87, 1987/88,
+  1988/89, 1989/90, 1991/92 e 1993/94. A `fonte` dessas classificações passa a ser "Wikipédia it (ordem oficial,
+  classifica avulsa)".
+- **IT-016 (1945/46):** os 8 finalistas com os números do grupo final (14 jogos; Torino 22, Juventus 21...); os outros, com
+  os dos grupos.
+- **IT-018 (D-04 b):** 27 jogos-desempate (spareggi) de título e de rebaixamento, na fase nova "Desempate"
+  (`mata_mata`, fora da tabela):
+  - 1931/32, 1942/43, 1951/52, 1957/58, 1960/61, 1963/64 (título: Bologna 2-0 Inter), 1992/93, 1994/95 (com pênaltis),
+    1996/97, 2000/01, 2002/03, 2003/04, 2004/05 e 2022/23;
+  - os de vaga europeia ficam de fora. O triangular de 1953/54 também fica de fora: a Wikipédia it não traz os placares.
+
+**Não corrigido agora:** IT-017 (campeonatos de 1898 a 1928/29). Pela D-05 entra, mas é coleta nova: está na fila
+depois de `bel-1` e `tur-1`.
+
+**Pedidos ao banco e ao painel:**
+- recarregar `ita-1` e publicar. Teste de carga: "ita-1: 95 edições, 29271 jogos, 0 clubes novos -> OK" (29.244 da liga
+  + 27 desempates);
+- **fase "Desempate":** fica fora da classificação e da Corrida. Alguns desempates têm clube da Serie B (Brescia 1951/52,
+  Bari 1957/58, Fiorentina 2003/04). Participação e estreia devem vir da `classificacao_final`, não das partidas (como na
+  D-21);
+- **datas mudaram em 674 jogos:** se o painel guarda alguma coisa por data (Corrida por data, sequências), recalcular.

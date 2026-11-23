@@ -4,7 +4,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 **Edições:** 95, de 1929/30 a 2025/26 (Serie A; 1945/46 foi a Divisione Nazionale). Sem 1943/44 e 1944/45 (Segunda Guerra).
 
-**Total:** 29244 jogos, 74998 gols, 24564 gols com autor (ESPN), 43962 cartões, 69 clubes.
+**Total:** 29271 jogos, 75068 gols, 24564 gols com autor (ESPN), 43962 cartões, 69 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1929/30-2024/25;
@@ -16,12 +16,12 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Roma). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1993/94, 3 a partir de 1994/95. Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 51, saldo de gols em 33, média de gols em 11); é ele que ordena a classificação rodada a rodada. Até 2004/05, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio), que não está no pacote.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 57, saldo de gols em 27, média de gols em 11); é ele que ordena a classificação rodada a rodada. Até 2004/05, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio), que não está no pacote.
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
-| 1929/30 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 970 | 0 | 1 / 1 | Inter de Milão | — |
-| 1930/31 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 951 | 0 | 0 / 2 | Juventus | — |
+| 1929/30 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 969 | 0 | 1 / 1 | Inter de Milão | — |
+| 1930/31 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 952 | 0 | 1 / 1 | Juventus | — |
 | 1931/32 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 949 | 0 | 2 / 0 | Juventus | — |
 | 1932/33 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 941 | 0 | 2 / 0 | Juventus | — |
 | 1933/34 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 844 | 0 | 2 / 0 | Juventus | — |
@@ -41,7 +41,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 | 1949/50 | engsoccerdata + ogol + Wikipédia | 20 | 380 (380) | 1265 | 0 | 2 / 0 | Juventus | — |
 | 1950/51 | engsoccerdata + ogol + Wikipédia | 20 | 380 (380) | 1192 | 0 | 2 / 0 | Milan | — |
 | 1951/52 | engsoccerdata + ogol + Wikipédia | 20 | 380 (380) | 1101 | 0 | 1 / 0 | Juventus | — |
-| 1952/53 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 829 | 0 | 1 / 1 | Inter de Milão | — |
+| 1952/53 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 830 | 0 | 2 / 0 | Inter de Milão | — |
 | 1953/54 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 825 | 0 | 2 / 0 | Inter de Milão | — |
 | 1954/55 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 832 | 0 | 2 / 0 | Milan | — |
 | 1955/56 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 838 | 0 | 2 / 0 | Fiorentina | — |
@@ -51,8 +51,8 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 | 1959/60 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 792 | 0 | 1 / 1 | Juventus | Genoa -18 pontos |
 | 1960/61 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 814 | 0 | 2 / 0 | Juventus | — |
 | 1961/62 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 770 | 0 | 1 / 0 | Milan | — |
-| 1962/63 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 740 | 0 | 1 / 1 | Inter de Milão | — |
-| 1963/64 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 648 | 0 | 1 / 1 | Bologna | — |
+| 1962/63 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 741 | 0 | 2 / 0 | Inter de Milão | — |
+| 1963/64 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 647 | 0 | 2 / 0 | Bologna | — |
 | 1964/65 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 640 | 0 | 2 / 0 | Inter de Milão | — |
 | 1965/66 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 668 | 0 | 2 / 0 | Inter de Milão | — |
 | 1966/67 | engsoccerdata + ogol + Wikipédia | 18 | 306 (306) | 613 | 0 | 1 / 0 | Juventus | — |
@@ -121,22 +121,21 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 ### 1929/30
 
 - a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos
+- resultado do tribunal: US Cremonese x AC Milan fica 0-2 (base 0-3) — 0-2 a tavolino (RSSSF "0-2 *"; matriz da Wikipédia it)
 - tabela publicada x jogos (Wikipédia) — Genoa CFC tabela [34, 20, 8, 6, 63, 36, 48] jogos [34, 20, 8, 6, 63, 39, 48]
-- tabela publicada x jogos (Wikipédia) — AC Milan tabela [34, 11, 10, 13, 52, 48, 32] jogos [34, 11, 10, 13, 53, 48, 32]
 - tabela publicada x jogos (Wikipédia) — Unione Triestina tabela [34, 11, 6, 17, 42, 78, 28] jogos [34, 11, 6, 17, 42, 59, 28]
-- tabela publicada x jogos (Wikipédia) — US Cremonese tabela [34, 4, 8, 22, 31, 83, 16] jogos [34, 4, 8, 22, 31, 84, 16]
 
 ### 1930/31
 
 - a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos, menos o Brescia: a RSSSF dá 32 pontos, mas a base, o ogol e a Wikipédia dão 13 vitórias e 8 empates (34 pontos)
-- data diferente no ogol em 1 jogos (ex.: Lazio Roma x Juventus: base 1930-10-21, ogol 1930-12-21); fica a da base
+- resultado do tribunal: Legnano x Lazio Roma fica 0-2 (base 0-1) — 0-2 a tavolino (matriz da Wikipédia it)
+- 27 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 26 jogos (ex.: Genoa CFC x Pro Vercelli: base 1930-12-21, ogol 1930-10-21); fica a da base
 - pontos da última classificação da RSSSF x jogos — Brescia Calcio RSSSF 32 jogos 34
-- tabela publicada x jogos (Wikipédia) — Lazio Roma tabela [34, 15, 5, 14, 45, 44, 35] jogos [34, 15, 5, 14, 44, 44, 35]
-- tabela publicada x jogos (Wikipédia) — Legnano tabela [34, 6, 7, 21, 30, 71, 19] jogos [34, 6, 7, 21, 30, 70, 19]
 
 ### 1931/32
 
-- sem ocorrências
+- 1 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Bari 2-1 Brescia (1932-06-16)
 
 ### 1932/33
 
@@ -148,10 +147,14 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 - placar corrigido: AS Livorno x US Palermo de 3-1 para 3-2 — o ogol e a tabela da Wikipédia fecham com este placar
 - placar corrigido: Torino FC x AS Roma de 3-1 para 3-6 — o ogol e a tabela da Wikipédia fecham com este placar; os pontos da RSSSF também (Roma 40, Torino 29)
 - placar corrigido: Juventus x Bologna FC de 4-2 para 4-1 — o ogol e a tabela da Wikipédia fecham com este placar
+- 75 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 75 jogos (ex.: Calcio Padova x AS Roma: base 1934-01-11, ogol 1933-12-17); fica a da base
 
 ### 1934/35
 
 - placar corrigido: US Alessandria 1912 x AS Roma de 1-1 para 1-6 — o ogol e a tabela da Wikipédia fecham com este placar; os pontos da RSSSF também (Roma 35, Alessandria 29)
+- 33 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 33 jogos (ex.: Brescia Calcio x Sampierdarenese: base 1934-12-06, ogol 1934-12-02); fica a da base
 
 ### 1935/36
 
@@ -183,16 +186,31 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1942/43
 
-- sem ocorrências
+- 8 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 8 jogos (ex.: Sampierdarenese x AS Roma: base 1943-02-18, ogol 1942-11-08); fica a da base
+- Bari: rebaixado em campo (triangular com Triestina e Venezia) e readmitido
+- Sampierdarenese: rebaixado em campo (como Liguria) e readmitido
+- 4 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Bari 1-1 Venezia (1943-05-02); Triestina 2-0 Venezia (1943-05-09); Triestina 3-2 Bari (1943-05-16); Venezia 3-0 Bari (1943-06-06)
 
 ### 1945/46
 
 - Andrea Doria x Sampierdarenese (21/10/1945): o ogol traz 0-1 e a base 0-0. Os grupos de 1945/46 não têm tabela publicada legível para desempatar: fica a base
+- 14 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
 - placar diferente no ogol — Andrea Doria x Sampierdarenese (1945-10-21): base 0-0, ogol 0-1
+- data diferente no ogol em 14 jogos (ex.: Ancona Calcio x US Palermo: base 1946-01-13, ogol 1945-11-04); fica a da base
+- Andrea Doria não está na temporada seguinte, mas não caiu: fundiu-se com a Sampierdarenese em 1946 e formou a Sampdoria
+- Sampierdarenese não está na temporada seguinte, mas não caiu: fundiu-se com a Andrea Doria em 1946 e formou a Sampdoria
+- Ancona não está na temporada seguinte, mas não caiu: clube da Serie B no torneio misto do Centro-Sul; voltou à Serie B
+- Palermo FC não está na temporada seguinte, mas não caiu: clube da Serie B no torneio misto do Centro-Sul; voltou à Serie B
+- Pescara não está na temporada seguinte, mas não caiu: clube da Serie B no torneio misto do Centro-Sul; voltou à Serie B
+- Salernitana não está na temporada seguinte, mas não caiu: clube da Serie B no torneio misto do Centro-Sul; voltou à Serie B
+- Siena não está na temporada seguinte, mas não caiu: clube da Serie B no torneio misto do Centro-Sul; voltou à Serie B
 
 ### 1946/47
 
 - a base não fecha nesta temporada (370 jogos): montada pelo calendário do ogol (380 jogos), com 380 jogos da base
+- 2 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 2 jogos (ex.: AC Milan x Unione Triestina: base 1947-01-01, ogol 1946-09-29); fica a da base
 
 ### 1947/48
 
@@ -200,55 +218,74 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 - a base não fecha nesta temporada (380 jogos): montada pelo calendário do ogol (420 jogos), com 379 jogos da base
 - 41 jogos só no ogol, que entram com o placar do ogol: SSC Napoli 1-2 US Alessandria 1912 (1947-10-26); US Alessandria 1912 2-2 Lazio Roma (1948-06-27); Atalanta 1-0 ACF Fiorentina (1948-06-27); Bologna FC 0-0 AS Bari (1948-06-27); Genoa CFC 1-2 Torino FC (1948-06-27); Juventus 2-0 Salernitana Calcio 1919 (1948-06-27) ...
 - 1 jogos da base fora do calendário do ogol, descartados: US Alessandria 1912 2-1 SSC Napoli (1947-10-26)
+- 193 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 193 jogos (ex.: Atalanta x Lucchese: base 1947-12-14, ogol 1947-12-07); fica a da base
 - Napoli declassado ao último lugar por tentativa de corrupção (terminou em 18º em campo); Wikipédia it, Serie A 1947-1948, classifica finale; na classificação final fica em último
 
 ### 1948/49
 
 - a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos (Bologna: a Wikipédia dá 11 vitórias e 18 empates; os jogos e a RSSSF, 12 e 17)
+- 13 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 13 jogos (ex.: Atalanta x Sampdoria: base 1948-12-23, ogol 1948-12-08); fica a da base
 - tabela publicada x jogos (Wikipédia) — Bologna FC tabela [38, 11, 18, 9, 53, 46, 40] jogos [38, 12, 17, 9, 53, 46, 41]
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (media) difere em 2 posições (ex.: ['Lucchese', 'Unione Triestina']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
 
 ### 1949/50
 
-- sem ocorrências
+- 13 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 13 jogos (ex.: Pro Patria x Sampdoria: base 1950-01-05, ogol 1949-12-26); fica a da base
 
 ### 1950/51
 
-- sem ocorrências
+- 14 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 14 jogos (ex.: Pro Patria x Sampdoria: base 1951-01-04, ogol 1950-12-24); fica a da base
 
 ### 1951/52
 
+- 30 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 30 jogos (ex.: Novara Calcio x Legnano: base 1952-01-09, ogol 1951-12-23); fica a da base
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['ACF Fiorentina', 'Lazio Roma']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- 3 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Lucchese 3-3 Triestina (1952-06-29); Triestina 1-0 Lucchese (1952-07-06); Triestina 1-0 Brescia (1952-07-13)
 
 ### 1952/53
 
-- a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos
 - a base traz Novara 3-2 Pro Patria duas vezes; o ogol mostra que o jogo de 03/05/1953 foi Pro Patria 2-3 Novara (o returno)
 - a base não fecha nesta temporada (306 jogos): montada pelo calendário do ogol (306 jogos), com 305 jogos da base
 - 1 jogos só no ogol, que entram com o placar do ogol: Pro Patria 2-3 Novara Calcio (1953-05-03)
 - 1 jogos da base fora do calendário do ogol, descartados: Novara Calcio 3-2 Pro Patria (1953-05-03)
-- tabela publicada x jogos (Wikipédia) — Torino FC tabela [34, 11, 9, 14, 47, 50, 31] jogos [34, 11, 9, 14, 47, 49, 31]
-- tabela publicada x jogos (Wikipédia) — US Palermo tabela [34, 10, 10, 14, 43, 56, 30] jogos [34, 10, 10, 14, 42, 56, 30]
+- placar corrigido: Torino FC x US Palermo de 3-0 para 3-1 — gol de Cecconi (Palermo) aos 4 minutos na ficha da Wikipédia it (AC Torino 1952-1953); a matriz e a tabela da Wikipédia it e en e o transfermarkt dão 3-1
+- 1 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- placar diferente no ogol — Torino FC x US Palermo (1952-11-30): base 3-1, ogol 3-0
+- data diferente no ogol em 1 jogos (ex.: Torino FC x AC Milan: base 1953-01-06, ogol 1953-01-04); fica a da base
 
 ### 1953/54
 
-- sem ocorrências
+- o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) não entra: a Wikipédia it só traz a tabela, sem os placares
+- 3 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 3 jogos (ex.: SSC Napoli x Legnano: base 1954-01-06, ogol 1953-12-20); fica a da base
 
 ### 1954/55
 
-- sem ocorrências
+- 3 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 3 jogos (ex.: Calcio Catania x Atalanta: base 1954-12-22, ogol 1954-12-12); fica a da base
+- SPAL: rebaixado em campo e readmitido (ficou no lugar de Udinese e Catania, punidos)
+- Pro Patria: rebaixado em campo e readmitido (ficou no lugar de Udinese e Catania, punidos)
 
 ### 1955/56
 
-- sem ocorrências
+- 18 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 18 jogos (ex.: SSC Napoli x Juventus: base 1955-12-04, ogol 1955-11-20); fica a da base
 
 ### 1956/57
 
-- sem ocorrências
+- 1 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 1 jogos (ex.: Atalanta x Udinese Calcio: base 1957-01-02, ogol 1956-12-23); fica a da base
 
 ### 1957/58
 
-- data diferente no ogol em 6 jogos (ex.: Genoa CFC x Sampdoria: base 1957-10-20, ogol 1957-11-01); fica a da base
+- 13 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 13 jogos (ex.: Hellas Verona x Atalanta: base 1957-11-10, ogol 1957-12-01); fica a da base
+- 2 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Verona 0-1 Bari (1958-07-20); Bari 2-0 Verona (1958-07-24)
 
 ### 1958/59
 
@@ -262,7 +299,10 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1960/61
 
+- 2 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 2 jogos (ex.: AC Milan x Lazio Roma: base 1961-01-25, ogol 1961-01-08); fica a da base
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (media) difere em 3 posições (ex.: ['Calcio Lecco 1912', 'Udinese Calcio']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- 3 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Bari 2-4 Lecco (1961-06-11); Udinese 0-0 Bari (1961-06-14); Lecco 3-3 Udinese (1961-06-18)
 
 ### 1961/62
 
@@ -270,19 +310,21 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1962/63
 
-- a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos
-- tabela publicada x jogos (Wikipédia) — SSC Napoli tabela [34, 9, 9, 16, 35, 59, 27] jogos [34, 9, 9, 16, 35, 58, 27]
-- tabela publicada x jogos (Wikipédia) — US Palermo tabela [34, 5, 10, 19, 18, 54, 20] jogos [34, 5, 10, 19, 17, 54, 20]
+- placar corrigido: SSC Napoli x US Palermo de 3-0 para 3-1 — a matriz e a tabela da Wikipédia it e en, a página do US Palermo 1962-1963 e o transfermarkt dão 3-1 (autor do gol do Palermo não encontrado)
+- 12 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- placar diferente no ogol — SSC Napoli x US Palermo (1962-12-16): base 3-1, ogol 3-0
+- data diferente no ogol em 12 jogos (ex.: Juventus x SSC Napoli: base 1962-11-04, ogol 1962-11-08); fica a da base
 
 ### 1963/64
 
-- a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos
-- os dois jogos de 07/06/1964 que só o ogol traz são desempates (spareggi): Bologna 2-0 Inter, pelo título, e Sampdoria 2-0 Modena, pelo rebaixamento. Ficam de fora
+- os dois jogos de 07/06/1964 que só o ogol traz são desempates (spareggi): Bologna 2-0 Inter, pelo título, e Sampdoria 2-0 Modena, pelo rebaixamento. Entram na fase "Desempate", fora da tabela
+- resultado do tribunal: AS Bari x Genoa CFC fica 0-2 (base 1-2) — 0-2 a tavolino (matriz da Wikipédia it; página do AS Bari 1963-1964)
+- 11 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- placar diferente no ogol — AS Bari x Genoa CFC (1964-05-03): base 0-2, ogol 1-2
 - jogo do ogol sem par na base: Bologna 2-0 Internazionale (1964-06-07, F)
 - jogo do ogol sem par na base: Sampdoria 2-0 Modena (1964-06-07, )
-- data diferente no ogol em 117 jogos (ex.: AC Milan x Calcio Catania: base 1963-10-23, ogol 1963-10-27); fica a da base
-- tabela publicada x jogos (Wikipédia) — Genoa CFC tabela [34, 10, 10, 14, 33, 34, 30] jogos [34, 10, 10, 14, 33, 35, 30]
-- tabela publicada x jogos (Wikipédia) — AS Bari tabela [34, 6, 10, 18, 20, 43, 22] jogos [34, 6, 10, 18, 21, 43, 22]
+- data diferente no ogol em 119 jogos (ex.: Inter x Torino FC: base 1963-11-13, ogol 1963-09-25); fica a da base
+- 2 jogo(s)-desempate (spareggi) de rebaixamento e título entram na fase "Desempate", fora da tabela: Bologna 2-0 Inter (1964-06-07); Modena 0-2 Sampdoria (1964-06-07)
 
 ### 1964/65
 
@@ -296,11 +338,13 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1966/67
 
-- sem ocorrências
+- 3 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 3 jogos (ex.: ACF Fiorentina x Vicenza Calcio: base 1967-01-04, ogol 1966-11-06); fica a da base
 
 ### 1967/68
 
-- sem ocorrências
+- 8 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 8 jogos (ex.: SSC Napoli x Sampdoria: base 1968-03-03, ogol 1968-04-03); fica a da base
 
 ### 1968/69
 
@@ -308,11 +352,14 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1969/70
 
-- sem ocorrências
+- 2 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 2 jogos (ex.: AC Milan x AS Roma: base 1969-10-16, ogol 1969-10-19); fica a da base
 
 ### 1970/71
 
+- 1 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
 - placar diferente no ogol — Torino FC x Juventus (1970-11-22): base 2-1, ogol 2-0
+- data diferente no ogol em 1 jogos (ex.: Hellas Verona x Torino FC: base 1971-01-06, ogol 1970-12-20); fica a da base
 
 ### 1971/72
 
@@ -328,7 +375,8 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1974/75
 
-- data diferente no ogol em 1 jogos (ex.: Lazio Roma x Cagliari Calcio: base 1974-11-10, ogol 1974-11-24); fica a da base
+- 112 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 111 jogos (ex.: SSC Napoli x Ascoli Calcio: base 1974-10-06, ogol 1974-09-30); fica a da base
 
 ### 1975/76
 
@@ -348,6 +396,8 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1979/80
 
+- 8 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 8 jogos (ex.: Cagliari Calcio x US Avellino: base 1979-11-11, ogol 1979-10-11); fica a da base
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 14 posições (ex.: ['Torino FC', 'Ascoli Calcio']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
 
 ### 1980/81
@@ -356,43 +406,54 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1981/82
 
-- sem ocorrências
+- 8 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 8 jogos (ex.: Genoa CFC x AC Milan: base 1982-04-18, ogol 1982-04-11); fica a da base
 
 ### 1982/83
 
-- data diferente no ogol em 8 jogos (ex.: ACF Fiorentina x Udinese Calcio: base 1982-09-26, ogol 1982-09-25); fica a da base
+- 8 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 16 jogos (ex.: ACF Fiorentina x Udinese Calcio: base 1982-09-26, ogol 1982-09-25); fica a da base
+- ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): 11º Genoa, 12º Pisa; a Wikipédia en trazia outra ordem
 
 ### 1983/84
 
-- sem ocorrências
+- 8 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 8 jogos (ex.: Inter x US Avellino: base 1984-04-15, ogol 1984-04-08); fica a da base
 
 ### 1984/85
 
-- sem ocorrências
+- 1 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 1 jogos (ex.: Juventus x Lazio Roma: base 1985-01-30, ogol 1985-01-13); fica a da base
 
 ### 1985/86
 
-- sem ocorrências
+- 1 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 1 jogos (ex.: Juventus x Sampdoria: base 1985-12-31, ogol 1985-12-08); fica a da base
 
 ### 1986/87
 
 - data diferente no ogol em 8 jogos (ex.: AS Roma x ACF Fiorentina: base 1987-04-05, ogol 1987-04-25); fica a da base
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (saldo) difere em 2 posições (ex.: ['AC Milan', 'Sampdoria']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): 9º Torino, 10º Como, 11º Fiorentina; a Wikipédia en trazia outra ordem
+- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['AC Milan', 'Sampdoria']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
 
 ### 1987/88
 
 - placar diferente no ogol — Juventus x AC Cesena (1987-11-22): base 0-2, ogol 2-1
 - placar diferente no ogol — AC Milan x AS Roma (1987-12-13): base 0-2, ogol 1-0
+- ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): 10º Como, 11º Verona; a Wikipédia en trazia outra ordem
 
 ### 1988/89
 
+- 9 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
 - placar diferente no ogol — US Lecce x Juventus (1989-04-09): base 2-0, ogol 0-2
 - jogo do ogol sem par na base: Fiorentina 1-0 Roma (1989-06-30, )
-- data diferente no ogol em 1 jogos (ex.: AS Roma x AC Milan: base 1988-11-22, ogol 1989-01-22); fica a da base
+- data diferente no ogol em 8 jogos (ex.: Como Calcio x Pescara Calcio: base 1989-01-22, ogol 1988-11-22); fica a da base
+- ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): 10º Cesena, 11º Lazio, 13º Bologna, 14º Verona, 15º Pescara, 16º Torino; a Wikipédia en trazia outra ordem
+- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 4 posições (ex.: ['ACF Fiorentina', 'AS Roma']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
 
 ### 1989/90
 
-- sem ocorrências
+- ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): 12º Cesena, 13º Fiorentina; a Wikipédia en trazia outra ordem
 
 ### 1990/91
 
@@ -400,23 +461,28 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 ### 1991/92
 
-- sem ocorrências
+- 9 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 9 jogos (ex.: AS Roma x Genoa CFC: base 1991-09-22, ogol 1991-09-15); fica a da base
+- ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): 10º Atalanta, 11º Lazio; a Wikipédia en trazia outra ordem
 
 ### 1992/93
 
 - data diferente no ogol em 2 jogos (ex.: SSC Napoli x Atalanta: base 1993-03-28, ogol 1993-03-24); fica a da base
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Udinese Calcio', 'Brescia Calcio']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- 1 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Udinese 3-1 Brescia (1993-06-12)
 
 ### 1993/94
 
 - a tabela da Wikipédia dá à Cremonese 8 vitórias e 16 empates; os jogos e a RSSSF dão 9 e 14 (os mesmos 32 pontos)
-- data diferente no ogol em 2 jogos (ex.: Udinese Calcio x AC Milan: base 1993-12-12, ogol 1994-01-06); fica a da base
+- 9 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 9 jogos (ex.: Udinese Calcio x AC Milan: base 1993-12-12, ogol 1994-01-06); fica a da base
 - tabela publicada x jogos (Wikipédia) — US Cremonese tabela [34, 8, 16, 10, 41, 41, 32] jogos [34, 9, 14, 11, 41, 41, 32]
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['US Cremonese', 'Genoa CFC']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): 10º Genoa, 11º Cremonese; a Wikipédia en trazia outra ordem
 
 ### 1994/95
 
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Calcio Padova', 'Genoa CFC']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- 1 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Padova 1-1 Genoa (1995-06-10)
 
 ### 1995/96
 
@@ -427,6 +493,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 - data diferente no ogol em 1 jogos (ex.: AC Perugia x Udinese Calcio: base 1996-10-27, ogol 1996-10-26); fica a da base
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Piacenza Calcio', 'Cagliari Calcio']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- 1 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Piacenza 3-1 Cagliari (1997-06-15)
 
 ### 1997/98
 
@@ -451,10 +518,12 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 - placar diferente no ogol — ACF Fiorentina x Brescia Calcio (2001-02-25): base 2-2, ogol 4-0
 - placar diferente no ogol — ACF Fiorentina x Atalanta (2001-05-27): base 1-1, ogol 2-0
 - ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Reggina Calcio, Wikipédia Hellas Verona); fica a da Wikipédia
+- 2 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Verona 1-0 Reggina (2001-06-21); Reggina 2-1 Verona (2001-06-24)
 
 ### 2001/02
 
-- data diferente no ogol em 3 jogos (ex.: Piacenza Calcio x AS Roma: base 2001-09-16, ogol 2001-09-14); fica a da base
+- 1 datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam outra (lista em data/coleta/ita-1/correcoes/datas.csv)
+- data diferente no ogol em 4 jogos (ex.: Piacenza Calcio x AS Roma: base 2001-09-16, ogol 2001-09-14); fica a da base
 - placar diferente na ESPN — Hellas Verona x AC Perugia (2001-09-16): base 1-1, ESPN 2-1
 - ESPN com 304 de 306 jogos (ex. sem ESPN: Brescia Calcio x Chievo Verona, 2001-10-14)
 - gols da ESPN não batem com o placar — Hellas Verona 1-1 AC Perugia: ESPN 2-1 (descartados)
@@ -468,18 +537,21 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 - ESPN com 305 de 306 jogos (ex. sem ESPN: Como Calcio x Udinese Calcio, 2002-12-18)
 - ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Atalanta, Wikipédia Reggina Calcio); fica a da Wikipédia
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Reggina Calcio', 'Atalanta']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- 2 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Reggina 0-0 Atalanta (2003-05-29); Atalanta 1-2 Reggina (2003-06-02)
 
 ### 2003/04
 
 - ESPN com 305 de 306 jogos (ex. sem ESPN: Sampdoria x Reggina Calcio, 2004-01-24)
+- 2 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Perugia 0-1 Fiorentina (2004-06-16); Fiorentina 1-1 Perugia (2004-06-20)
 
 ### 2004/05
 
-- os dois jogos de junho de 2005 que só o ogol traz (Parma x Bologna) são o desempate (spareggio) de rebaixamento: ficam de fora
+- os dois jogos de junho de 2005 que só o ogol traz (Parma x Bologna) são o desempate (spareggio) de rebaixamento: entram na fase "Desempate", fora da tabela
 - jogo do ogol sem par na base: Parma 0-1 Bologna (2005-06-14, POff)
 - jogo do ogol sem par na base: Bologna 0-2 Parma (2005-06-18, POff)
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Parma FC', 'Bologna FC']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
 - título não atribuído (lista de campeões da Wikipédia); Juventus terminou em 1º
+- 2 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Parma 0-1 Bologna (2005-06-14); Bologna 0-2 Parma (2005-06-18)
 
 ### 2005/06
 
@@ -488,6 +560,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 - placar diferente no football-data — A.C.R. Messina x Empoli FC: base 0-3, football-data 1-2
 - placar diferente na ESPN — A.C.R. Messina x Empoli FC (2006-05-07): base 0-3, ESPN 1-2
 - nenhum critério calculado reproduz a ordem oficial; o mais próximo (saldo) difere em 19 posições (ex.: ['Inter', 'AS Roma']). Na Itália, empate em pontos no título ou no rebaixamento era decidido em jogo-desempate (spareggio) ou deixado como posição dividida
+- Messina: rebaixado em campo e readmitido (Calciopoli)
 - gols da ESPN não batem com o placar — A.C.R. Messina 0-3 Empoli FC: ESPN 1-2 (descartados)
 
 ### 2006/07
@@ -571,6 +644,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 - jogo do ogol sem par na base: Spezia 1-3 Hellas Verona (2023-06-11, )
 - ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Spezia Calcio, Wikipédia Hellas Verona); fica a da Wikipédia
+- 1 jogo(s)-desempate (spareggi) de rebaixamento entram na fase "Desempate", fora da tabela: Spezia 1-3 Verona (2023-06-11)
 
 ### 2023/24
 
@@ -596,6 +670,6 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 
 - **Autores dos gols e cartões antes de 2001/02:** não entraram. A RSSSF traz os autores rodada a rodada em muitas temporadas antigas (formato italiano, "MARCATORI"); dá para ler num próximo passo, se aprovado.
 - **Público e estádio antes de 2001/02:** nenhuma fonte em lote.
-- **Spareggi (jogos-desempate de título e rebaixamento):** ficam de fora.
+- **Spareggi de vaga europeia** (1986/87, 1987/88, 1988/89, 1998/99, 1999/2000): ficam de fora; os de título e de rebaixamento entram na fase "Desempate", fora da tabela. O triangular de 1953/54 não tem os placares na Wikipédia it.
 - **Campeonatos de 1897/98 a 1928/29** (grupos regionais e finais): ficam para depois; o ogol tem os calendários.
 - **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.

@@ -37,6 +37,12 @@ PENDENCIAS: dict[str, list[str]] = {
     ],
     "ita-1": [
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
+        "Campeonatos de 1898 a 1928/29 (revisão IT-017; decisão D-05: incluir, com grupos regionais e finais): na fila da "
+        "coleta, depois de bel-1 e tur-1.",
+        "Correções da revisão de 23/11 que vivem em arquivos, não em dicionários: 674 datas em "
+        "data/coleta/ita-1/correcoes/datas.csv (IT-008, IT-009 e o complemento de 37 datas de 1933/34, 1934/35 e 1974/75, "
+        "sem o qual sobravam clubes com 2 jogos no mesmo dia) e 31 jogos a tavolino em correcoes/tavolino.csv (IT-010).",
+        "Triangular de rebaixamento de 1953/54 (Udinese, SPAL, Palermo) sem os placares: a Wikipédia it só traz a tabela.",
     ],
     "ger-1": [
         "Era antiga (1902/03-1962/63, em antigo.py): entra só a fase final; as ligas regionais (Oberligen, Gauligen e as "
@@ -97,6 +103,8 @@ DICIONARIOS = {
     "WIKI_GOLS": "Gols da Wikipédia",
     "DECLASSADOS": "Declassados para o último lugar fora de campo",
     "ORDEM_RSSSF": "Temporadas com a ordem oficial da RSSSF",
+    "READMITIDOS": "Rebaixados em campo e readmitidos",
+    "ORDEM_ITWIKI": "Ordem entre empatados pela Wikipédia it (classifica avulsa)",
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
     "EXPLICACOES": "Divergências entre fontes já explicadas",
 }

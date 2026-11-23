@@ -32,6 +32,7 @@ AQUI = Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI.parent / "comum-europa"))
 sys.path.insert(0, str(AQUI))
 import clubes_ita as clubes  # noqa: E402
+import spareggi  # noqa: E402
 from edicoes import DADOS, DIVISIONE, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
@@ -51,6 +52,11 @@ CORRECOES: dict[tuple, tuple] = {
     (1933, "Juventus", "Bologna FC"): (4, 1, OGOL_WIKI),
     (1934, "US Alessandria 1912", "AS Roma"): (1, 6, OGOL_WIKI + "; os pontos da RSSSF também (Roma 35, Alessandria 29)"),
     (1958, "Calcio Padova", "Lazio Roma"): (3, 1, OGOL_WIKI),
+    # revisão IT-006 e IT-007: a base e a RSSSF trazem 3-0
+    (1952, "Torino FC", "US Palermo"): (3, 1, "gol de Cecconi (Palermo) aos 4 minutos na ficha da Wikipédia it (AC Torino "
+                                               "1952-1953); a matriz e a tabela da Wikipédia it e en e o transfermarkt dão 3-1"),
+    (1962, "SSC Napoli", "US Palermo"): (3, 1, "a matriz e a tabela da Wikipédia it e en, a página do US Palermo 1962-1963 e o "
+                                               "transfermarkt dão 3-1 (autor do gol do Palermo não encontrado)"),
 }
 
 # resultado dado no tribunal (W.O. técnico): (ano, mandante, visitante) -> (gols, gols, motivo). Fica `awd`.
@@ -60,6 +66,46 @@ TRIBUNAL: dict[tuple, tuple] = {
                                                   "ESPN trazem o 1-2 de campo"),
     (2020, "Hellas Verona", "AS Roma"): (3, 0, "0-0 em campo; a Roma escalou um jogador irregular e perdeu por 3-0 (ogol: "
                                                "\"DA\"; as tabelas da RSSSF e da Wikipédia contam 3-0). O engsoccerdata traz 0-0"),
+    # revisão IT-003 a IT-005: resultado "a tavolino" (as tabelas da Wikipédia en e it contam o 0-2)
+    (1929, "US Cremonese", "AC Milan"): (0, 2, "0-2 a tavolino (RSSSF \"0-2 *\"; matriz da Wikipédia it)"),
+    (1930, "Legnano", "Lazio Roma"): (0, 2, "0-2 a tavolino (matriz da Wikipédia it)"),
+    (1963, "AS Bari", "Genoa CFC"): (0, 2, "0-2 a tavolino (matriz da Wikipédia it; página do AS Bari 1963-1964)"),
+}
+
+# jogos "a tavolino" em que a base já traz o placar oficial: só ganham a marca `awd` (revisão IT-010; lista em
+# data/coleta/ita-1/correcoes/tavolino.csv, pela temporada, data e clubes)
+# datas corrigidas (revisão IT-008 e IT-009): data/coleta/ita-1/correcoes/datas.csv, pela temporada, clubes e data errada.
+# O ogol repete o erro da base; a certa é a do Calendario da Wikipédia it, igual à da RSSSF
+CORRECOES_DIR = DADOS / "correcoes"
+TAVOLINO: dict[str, list] = {}
+DATAS: dict[str, list] = {}
+
+# clube que não está na temporada seguinte sem ter caído: (ano, clube) -> motivo (revisão IT-001)
+NAO_REBAIXADOS: dict[tuple, str] = {
+    (1945, "Andrea Doria"): "fundiu-se com a Sampierdarenese em 1946 e formou a Sampdoria",
+    (1945, "Sampierdarenese"): "fundiu-se com a Andrea Doria em 1946 e formou a Sampdoria",
+    **{(1945, c): "clube da Serie B no torneio misto do Centro-Sul; voltou à Serie B" for c in
+       ("Ancona Calcio", "US Palermo", "Pescara Calcio", "Salernitana Calcio 1919", "AC Siena")},
+}
+# rebaixado em campo e readmitido: fica sem a marca, com a observação (revisão IT-012, decisão D-18 d)
+READMITIDOS: dict[tuple, str] = {
+    (1942, "AS Bari"): "rebaixado em campo (triangular com Triestina e Venezia) e readmitido",
+    (1942, "Sampierdarenese"): "rebaixado em campo (como Liguria) e readmitido",
+    (1954, "SPAL 1907 Ferrara"): "rebaixado em campo e readmitido (ficou no lugar de Udinese e Catania, punidos)",
+    (1954, "Pro Patria"): "rebaixado em campo e readmitido (ficou no lugar de Udinese e Catania, punidos)",
+    (2005, "A.C.R. Messina"): "rebaixado em campo e readmitido (Calciopoli)",
+}
+# ordem entre empatados pela Wikipédia it (classifica avulsa, a regra da época): ano -> {posição: clube} (revisão IT-014,
+# decisão D-19 a). Nenhum caso muda título, vaga ou rebaixamento
+ORDEM_ITWIKI: dict[int, dict] = {
+    1982: {11: "Genoa CFC", 12: "Pisa SC"},
+    1986: {9: "Torino FC", 10: "Como Calcio", 11: "ACF Fiorentina"},
+    1987: {10: "Como Calcio", 11: "Hellas Verona"},
+    1988: {10: "AC Cesena", 11: "Lazio Roma", 12: "Ascoli Calcio", 13: "Bologna FC", 14: "Hellas Verona", 15: "Pescara Calcio",
+           16: "Torino FC"},
+    1989: {12: "AC Cesena", 13: "ACF Fiorentina"},
+    1991: {10: "Atalanta", 11: "Lazio Roma"},
+    1993: {10: "Genoa CFC", 11: "US Cremonese"},
 }
 
 # mando trocado na base: (ano, data, mandante da base, visitante da base) -> motivo. O jogo vira visitante x mandante,
@@ -90,15 +136,16 @@ EXPLICACOES: dict[int, list[str]] = {
     1947: ["a base traz só 380 dos 420 jogos (21 clubes): os que faltam entram pelo ogol, e as tabelas da RSSSF e da Wikipédia "
            "fecham com o conjunto"],
     1948: [WIKI_GOLS + " (Bologna: a Wikipédia dá 11 vitórias e 18 empates; os jogos e a RSSSF, 12 e 17)"],
-    1952: [WIKI_GOLS, "a base traz Novara 3-2 Pro Patria duas vezes; o ogol mostra que o jogo de 03/05/1953 foi Pro Patria 2-3 "
+    1952: ["a base traz Novara 3-2 Pro Patria duas vezes; o ogol mostra que o jogo de 03/05/1953 foi Pro Patria 2-3 "
            "Novara (o returno)"],
     1959: ["Genoa: 18 pontos a menos (suborno), e mandado para a Serie B; a Wikipédia desconta, a classificação da RSSSF não"],
-    1962: [WIKI_GOLS],
-    1963: [WIKI_GOLS, "os dois jogos de 07/06/1964 que só o ogol traz são desempates (spareggi): Bologna 2-0 Inter, pelo "
-           "título, e Sampdoria 2-0 Modena, pelo rebaixamento. Ficam de fora"],
+    1963: ["os dois jogos de 07/06/1964 que só o ogol traz são desempates (spareggi): Bologna 2-0 Inter, pelo "
+           "título, e Sampdoria 2-0 Modena, pelo rebaixamento. Entram na fase \"Desempate\", fora da tabela"],
     1993: ["a tabela da Wikipédia dá à Cremonese 8 vitórias e 16 empates; os jogos e a RSSSF dão 9 e 14 (os mesmos 32 pontos)"],
     2004: ["os dois jogos de junho de 2005 que só o ogol traz (Parma x Bologna) são o desempate (spareggio) de rebaixamento: "
-           "ficam de fora"],
+           "entram na fase \"Desempate\", fora da tabela"],
+    1953: ["o triangular de rebaixamento (Udinese, SPAL e Palermo; caiu o Palermo) não entra: a Wikipédia it só traz a "
+           "tabela, sem os placares"],
     2005: ["Calciopoli: a ordem oficial (Wikipédia) põe a Juventus em último e desconta pontos de Fiorentina, Lazio e Milan; "
            "a Inter recebeu o título"],
 }
@@ -109,8 +156,9 @@ COMPETICAO = {
     "rotulo_painel": "Italiano", "menu_painel": "Itália · 1ª divisão",
     "do_painel": "do Campeonato Italiano", "o_painel": "o Campeonato Italiano",
     "observacao": "Serie A desde a criação do grupo único (1929/30). Sem 1943/44 e 1944/45 (Segunda Guerra). 1945/46 foi a "
-                  "Divisione Nazionale: grupos Norte e Centro-Sul e grupo final. Não inclui os desempates (spareggi) de "
-                  "título e de rebaixamento nem os campeonatos de antes de 1929/30 (grupos regionais e finais).",
+                  "Divisione Nazionale: grupos Norte e Centro-Sul e grupo final. Os desempates (spareggi) de título e de "
+                  "rebaixamento entram na fase \"Desempate\", fora da tabela (os de vaga europeia não). Não inclui os "
+                  "campeonatos de antes de 1929/30 (grupos regionais e finais).",
 }
 
 
@@ -465,6 +513,12 @@ def main() -> None:
     espn = carregar_espn()
     wiki = carregar_wiki()
     camp_wiki = campeoes_wiki()
+    global TAVOLINO, DATAS
+    TAVOLINO, DATAS = defaultdict(list), defaultdict(list)
+    for x in ler_csv(CORRECOES_DIR / "tavolino.csv"):
+        TAVOLINO[x["temporada"]].append(x)
+    for x in ler_csv(CORRECOES_DIR / "datas.csv"):
+        DATAS[x["temporada"]].append(x)
     mapa_ogol = votar(base, ogol, "mandante_id", "visitante_id")
     mapa_espn = votar(base, espn, "mandante_id", "visitante_id")
 
@@ -506,6 +560,25 @@ def main() -> None:
                 gm, gv, motivo = TRIBUNAL[(a, j["m"], j["v"])]
                 ocorr[a].append(f"resultado do tribunal: {j['m']} x {j['v']} fica {gm}-{gv} (base {j['gm']}-{j['gv']}) — {motivo}")
                 j.update(gm=gm, gv=gv, especial="awd", campo=f"{j['gm']}-{j['gv']}")
+        # jogos a tavolino (só a marca) e datas corrigidas, pelos arquivos de correcoes/
+        chave_j = {(clubes.exibicao(j["m"]), clubes.exibicao(j["v"]), j["data"]): j for j in jogos}
+        for x in TAVOLINO.get(T, []):
+            j = chave_j.get((x["mandante"], x["visitante"], x["data"]))
+            if j is None:
+                raise SystemExit(f"{T}: jogo a tavolino não encontrado: {x}")
+            if f"{j['gm']}-{j['gv']}" != x["placar"]:
+                raise SystemExit(f"{T}: jogo a tavolino com outro placar: {x} (pacote {j['gm']}-{j['gv']})")
+            j["especial"], j["tavolino"] = "awd", True
+        n_datas = 0
+        for x in DATAS.get(T, []):
+            j = chave_j.get((x["mandante"], x["visitante"], x["data_errada"]))
+            if j is None:
+                raise SystemExit(f"{T}: jogo da correção de data não encontrado: {x}")
+            j["data"], j["data_errada"] = x["data_certa"], x["data_errada"]
+            n_datas += 1
+        if n_datas:
+            ocorr[a].append(f"{n_datas} datas corrigidas pelo Calendario da Wikipédia it (igual à RSSSF); a base e o ogol traziam "
+                            f"outra (lista em data/coleta/ita-1/correcoes/datas.csv)")
         pv = 2 if a <= 1993 else 3
 
         # ---- ogol: rodada e conferência
@@ -687,6 +760,16 @@ def main() -> None:
             dif = [(r["clube"], c) for r, c in zip(rs, ordem) if r["clube"] != c]
             ocorr[a].append(f"ordem diferente entre RSSSF e Wikipédia em {len(dif)} posições (ex.: RSSSF {dif[0][0]}, Wikipédia "
                             f"{dif[0][1]}); fica a da Wikipédia")
+        if a in ORDEM_ITWIKI:   # ordem entre empatados pela classifica avulsa da Wikipédia it
+            fixos = ORDEM_ITWIKI[a]
+            antes = list(ordem)
+            assert set(fixos.values()) == {ordem[p - 1] for p in fixos}, (a, fixos)
+            for p, c in fixos.items():
+                ordem[p - 1] = c
+            mud = [f"{p}º {clubes.exibicao(c)}" for p, c in sorted(fixos.items()) if antes[p - 1] != c]
+            ocorr[a].append(f"ordem entre empatados pela Wikipédia it (classifica avulsa, confronto direto, a regra da época): "
+                            f"{', '.join(mud)}; a Wikipédia en trazia outra ordem")
+            fonte_ordem = "Wikipédia it (ordem oficial, classifica avulsa)"
         tentativas = {cr: ordenar(ref, ajuste, cr, tab_jogos, pv) for cr in ("confronto", "saldo", "media")}
         ok = [cr for cr, o in tentativas.items() if o == ordem]
         criterio = ok[0] if ok else min(tentativas, key=lambda cr: sum(x != y for x, y in zip(tentativas[cr], ordem)))
@@ -702,7 +785,9 @@ def main() -> None:
             grupos_calc = calcular([j for j in jogos if j["fase"] == "Grupos"], pv)
             resto = ordenar({c: grupos_calc[c] for c in grupos_calc if c not in ordem}, {}, "saldo")
             ordem_final = ordem + resto
-            calc_final = calcular(jogos, pv)
+            # os 8 finalistas com os números do grupo final; os outros, com os dos grupos (revisão IT-016)
+            calc_final = dict(grupos_calc)
+            calc_final.update(ref)
         else:
             ordem_final, calc_final = ordem, ref
         obs_declassado = {}
@@ -720,6 +805,16 @@ def main() -> None:
         else:
             textos = {k[5:]: limpar(v) for k, v in w["params"].items() if k.startswith("text_")}
             rebaixados = {x["clube"] for x in w["times"] if "relegat" in textos.get(x["resultado"], "").lower()}
+        for (ano, c), motivo in NAO_REBAIXADOS.items():
+            if ano == a and c in rebaixados:
+                rebaixados.discard(c)
+                obs_declassado[c] = motivo
+                ocorr[a].append(f"{clubes.exibicao(c)} não está na temporada seguinte, mas não caiu: {motivo}")
+        for (ano, c), motivo in READMITIDOS.items():
+            if ano == a:
+                assert c in ordem_final and c not in rebaixados, (a, c)
+                obs_declassado[c] = motivo
+                ocorr[a].append(f"{clubes.exibicao(c)}: {motivo}")
         campeao, vice = ordem_final[0], ordem_final[1]
         sem_titulo = a in camp_wiki and camp_wiki[a] is None
         if sem_titulo:
@@ -765,6 +860,8 @@ def main() -> None:
                 "publico": (e or {}).get("publico") or None, "fonte": " + ".join(fontes), "fonte_id": "|".join(ids),
                 "gols_texto": None,
                 "observacao": f"resultado dado no tribunal; em campo, {j['campo']}" if j.get("campo") else
+                "resultado dado no tribunal (a tavolino: Wikipédia it e RSSSF)" if j.get("tavolino") else
+                f"data corrigida (a base e o ogol traziam {j['data_errada']})" if j.get("data_errada") else
                 "resultado decidido pela federação (no ogol: \"DA\", decisão administrativa)"
                 if o and o["resultado"] == "DA" else
                 "mando corrigido (a base e o ogol trazem o mando trocado)" if j.get("invertido") else None,
@@ -801,6 +898,31 @@ def main() -> None:
                                                 "chutes_alvo": num(f"{s}ST"), "faltas": num(f"{s}F"), "escanteios": num(f"{s}C"),
                                                 "amarelos": num(f"{s}Y"), "vermelhos": num(f"{s}R"), "fonte": "football-data.co.uk"})
 
+        # ---- jogos-desempate (spareggi) de título e de rebaixamento: fase "Desempate", fora da tabela (revisão IT-018,
+        # decisão D-04 b). Fonte: seção "Spareggi" da Wikipédia it (spareggi.py)
+        desempates = spareggi.ler(a)
+        for k, x in enumerate(desempates, len(jogos) + 1):
+            m, v = clubes.esd(x["m"], a), clubes.esd(x["v"], a)
+            if m is None or v is None:
+                raise SystemExit(f"{T}: clube do desempate sem cadastro: {x['m']} x {x['v']}")
+            nomes[m][f"wikipedia-it:{x['m']}"].add(a)
+            nomes[v][f"wikipedia-it:{x['v']}"].add(a)
+            obs_d = [f"desempate de {x['motivo']}, fora da tabela (Wikipédia it: {x['secao']})"]
+            if x["prorrogacao"]:
+                obs_d.append("com prorrogação")
+            if x["pen_m"] is not None:
+                obs_d.append(f"pênaltis {x['pen_m']}-{x['pen_v']}")
+            tab["partidas"].append({
+                "id": f"{a}-{k:04d}", "temporada": T, "fase": "Desempate", "grupo": None, "rodada": None, "data": x["data"],
+                "hora": None, "mandante": clubes.exibicao(m), "visitante": clubes.exibicao(v), "gols_mandante": x["gm"],
+                "gols_visitante": x["gv"], "penaltis_mandante": x["pen_m"], "penaltis_visitante": x["pen_v"],
+                "resultado_especial": None, "estadio": None, "cidade": x["cidade"], "publico": None, "fonte": "Wikipédia it",
+                "fonte_id": None, "gols_texto": None, "observacao": "; ".join(obs_d), "arbitro": None})
+        if desempates:
+            ocorr[a].append(f"{len(desempates)} jogo(s)-desempate (spareggi) de {' e '.join(sorted({x['motivo'] for x in desempates}))} "
+                            f"entram na fase \"Desempate\", fora da tabela: " + "; ".join(
+                                f"{x['m']} {x['gm']}-{x['gv']} {x['v']} ({x['data']})" for x in desempates))
+
         # ---- classificação rodada a rodada (não em 1945/46, que teve grupos)
         if not sem_rodada and a != DIVISIONE:
             pos_reb = {p for p, c in enumerate(ordem_final, 1) if c in rebaixados}   # faixa: as posições finais de quem caiu
@@ -835,6 +957,12 @@ def main() -> None:
         else:
             tab["fases"].append({"temporada": T, "ordem": 1, "fase": "Liga", "tipo": "liga", "num_grupos": None,
                                  "formato_serie": "pontos_corridos", "criterio": crit_txt})
+        if desempates:
+            tab["fases"].append({"temporada": T, "ordem": 3 if a == DIVISIONE else 2, "fase": "Desempate", "tipo": "mata_mata",
+                                 "num_grupos": None,
+                                 "formato_serie": "jogo_unico" if len(desempates) == 1 else "ida_volta" if len(desempates) == 2
+                                 else "pontos_corridos",
+                                 "criterio": "jogos-desempate entre clubes empatados em pontos; fora da tabela da liga"})
         obs = [f"campeão {'não atribuído' if sem_titulo else clubes.exibicao(campeao)} (Wikipédia, lista de campeões: "
                f"{('não atribuído' if camp_wiki[a] is None else clubes.exibicao(camp_wiki[a])) if a in camp_wiki else '—'})"]
         if divergentes:
@@ -950,7 +1078,8 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         "- **Autores dos gols e cartões antes de 2001/02:** não entraram. A RSSSF traz os autores rodada a rodada em muitas "
         "temporadas antigas (formato italiano, \"MARCATORI\"); dá para ler num próximo passo, se aprovado.",
         "- **Público e estádio antes de 2001/02:** nenhuma fonte em lote.",
-        "- **Spareggi (jogos-desempate de título e rebaixamento):** ficam de fora.",
+        "- **Spareggi de vaga europeia** (1986/87, 1987/88, 1988/89, 1998/99, 1999/2000): ficam de fora; os de título e de "
+        "rebaixamento entram na fase \"Desempate\", fora da tabela. O triangular de 1953/54 não tem os placares na Wikipédia it.",
         "- **Campeonatos de 1897/98 a 1928/29** (grupos regionais e finais): ficam para depois; o ogol tem os calendários.",
         "- **Zonas europeias:** a classificação rodada a rodada marca só título e rebaixamento.",
     ]

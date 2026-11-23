@@ -129,6 +129,23 @@ def espn() -> None:
         print(f"espn {temporada(a)}: {len(js)} jogos, {sum(1 for j in js if j['lances'])} com lances", flush=True)
 
 
+def wikiit() -> None:
+    """Wikipédia em italiano: artigo de cada temporada ("Serie A 1963-1964"; 1945/46: "Divisione Nazionale 1945-1946"),
+    para os jogos-desempate (seção "Spareggi"). Em data/coleta/ita-1/wikipedia-it/."""
+    from wikipedia import wikitexto
+    pasta = DADOS / "wikipedia-it"
+    pasta.mkdir(parents=True, exist_ok=True)
+    for a in TEMPORADAS:
+        t = f"{'Divisione Nazionale' if a == 1945 else 'Serie A'} {a}-{a + 1}"
+        arq = pasta / f"{t}.wiki"
+        if arq.exists():
+            continue
+        txt = wikitexto("it", t, espera=1.5)
+        if txt:
+            arq.write_text(txt, encoding="utf-8")
+        print(f"wiki it {t}: {len(txt or '')}", flush=True)
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1929-1960" passa a faixa de temporadas
