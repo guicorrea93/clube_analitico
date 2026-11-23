@@ -103,9 +103,9 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 | 2002/03 | 10 | 182 (182) | 403 | 312 | 3 / 0 | Caracas FC | RSSSF (venez03) |
 | 2003/04 | 10 | 180 (180) | 427 | 255 | 2 / 1 | Caracas FC | RSSSF (venez04) |
 | 2004/05 | 10 | 180 (180) | 460 | 320 | 3 / 0 | Unión Atlético Maracaibo | RSSSF (venez05) |
-| 2005/06 | 10 | 183 (182) | 465 | 457 | 3 / 0 | Caracas FC | RSSSF (venez06) |
+| 2005/06 | 10 | 183 (182) | 465 | 456 | 3 / 0 | Caracas FC | RSSSF (venez06) |
 | 2006/07 | 10 | 182 (182) | 438 | 438 | 3 / 0 | Caracas FC | RSSSF (venez07) |
-| 2007/08 | 18 | 308 (308) | 826 | 771 | 3 / 1 | Deportivo Táchira | RSSSF (venez08) |
+| 2007/08 | 18 | 308 (308) | 826 | 774 | 3 / 1 | Deportivo Táchira | RSSSF (venez08) |
 | 2008/09 | 18 | 310 (308) | 776 | 758 | 1 / 2 | Caracas FC | RSSSF (venez09) |
 | 2009/10 | 18 | 309 (308) | 823 | 716 | 3 / 0 | Caracas FC | RSSSF (venez2010) |
 | 2010/11 | 18 | 307 (307) | 775 | 736 | 1 / 1 | Deportivo Táchira | RSSSF (venez2011) |

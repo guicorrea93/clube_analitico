@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 22586 (22565 com placar); **gols:** 69170; **gols com autor:** 19548 (28%); **cartões:** 26607.
 - **Clubes:** 53; **artilheiros:** 105 edições com artilheiro (128 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2038 linhas.
-- **No banco:** sim; **último commit do pacote:** 209641e.
+- **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão chilena de 1933 a 2025: uma edição por torneio que deu título de campeão (Apertura e Clausura em 1997, 2002-2009, 2011, 2012 e 2013/14-2016/17; Transición em 2013 e 2017; "2020" é a temporada 2020/21). Sem a Copa Chile, as liguillas e os jogos de promoção.
 
 ## 2. Edições, fontes e regras
@@ -494,7 +494,7 @@ regra. REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, �
 ## 9. Pendências e próximos passos
 
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): coluna de bônus das tabelas de 1979-1983, 1988 e 1989, vice pela lista oficial, tabela publicada como classificação em 14 edições, desempates, liguillas pré-Libertadores fora, 2020 no ano certo, placares de 1990-1995, clubes (D-25 a e b) e artilheiros.
-- Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), CH-012 (datas dos mata-matas: leitor comum, no fim), CH-017 (gols com autor a mais), CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo o calendário do ogol de 1964, 1971, 1977 e 1982) e a 2ª parte do CH-014 (1986, adversários trocados: 3ª fonte).
+- Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo o calendário do ogol de 1964, 1971, 1977 e 1982) e a 2ª parte do CH-014 (1986, adversários trocados: 3ª fonte).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/chi-1.md`):
 

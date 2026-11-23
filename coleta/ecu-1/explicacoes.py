@@ -83,4 +83,11 @@ CORRIGE: dict[tuple[str, str], dict] = {
                                        "Deportivo Quito por 2-0 (nota da página), como a tabela do Hexagonal 1 conta"},
 }
 TABELAS_FORA: dict[tuple[str, str], str] = {}
-EXPLICACOES: dict[str, list[str]] = {}
+EXPLICACOES: dict[str, list[str]] = {
+    "1988": ["artilheiro Janio Pinto (LDU de Quito) com 19 gols, como a página do ano na RSSSF (Topscorers) e a Wikipédia em "
+             "espanhol; a lista da RSSSF (ecuatops) dá 18 (EC-014)"],
+    "1996": ["artilheiro Ariel Graziani (Emelec) com 29 gols, como a RSSSF, a Wikipédia em inglês (temporada 1996) e o El "
+             "Universo (26/12/2002); a Wikipédia em espanhol dá 30 (EC-014)"],
+    "1999": ["artilheiro Christian Bottero (Macará) com 25 gols, como a RSSSF e o El Universo (26/12/2002); a Wikipédia em "
+             "espanhol dá 24 (EC-014)"],
+}

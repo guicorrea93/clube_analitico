@@ -5,10 +5,10 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 68, de 1957 a 2025; 0 sem jogos.
-- **Jogos:** 14175 (14169 com placar); **gols:** 37466; **gols com autor:** 9260 (25%); **cartões:** 15883.
+- **Jogos:** 14175 (14169 com placar); **gols:** 37466; **gols com autor:** 9259 (25%); **cartões:** 15883.
 - **Clubes:** 63; **artilheiros:** 68 edições com artilheiro (72 linhas, com empates).
 - **Classificação final:** 68 edições; **tabelas publicadas guardadas para conferência:** 2069 linhas.
-- **No banco:** sim; **último commit do pacote:** 4577457.
+- **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão equatoriana (Serie A, hoje LigaPro) de 1957 a 2025, um campeão por ano (sem campeonato em 1958 e 1959; dois em 2005, Apertura e Clausura). Até 1967, torneio nacional entre os melhores dos campeonatos regionais de Guayaquil e de Quito/Ambato.
 
 ## 2. Edições, fontes e regras
@@ -400,6 +400,12 @@ Registradas em `coleta/ecu-1/explicacoes.py`; cada uma também aparece no relat�
 - **2024 · ecua2024:106:** [descartado] jogo interrompido e completado depois: a página traz as duas linhas ("abd" e a do restante do jogo, com o placar final); fica a segunda
 - **1998 · ecua98:418:** [decidido fora de campo, placar oficial 2-0] jogo abandonado no intervalo com 2-0 (o Emelec não voltou para o 2º tempo) e dado ao Deportivo Quito por 2-0 (nota da página), como a tabela do Hexagonal 1 conta
 
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 3)
+
+- **1988:** artilheiro Janio Pinto (LDU de Quito) com 19 gols, como a página do ano na RSSSF (Topscorers) e a Wikipédia em espanhol; a lista da RSSSF (ecuatops) dá 18 (EC-014)
+- **1996:** artilheiro Ariel Graziani (Emelec) com 29 gols, como a RSSSF, a Wikipédia em inglês (temporada 1996) e o El Universo (26/12/2002); a Wikipédia em espanhol dá 30 (EC-014)
+- **1999:** artilheiro Christian Bottero (Macará) com 25 gols, como a RSSSF e o El Universo (26/12/2002); a Wikipédia em espanhol dá 24 (EC-014)
+
 ### Identidade dos clubes
 
 Regras em `coleta/ecu-1/clubes_ecu.py` (docstring abaixo; os nomes de cada fonte estão na coluna `nomes_fonte` do clubes.csv).
@@ -435,7 +441,7 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 - ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação com a soma de todos os jogos e a ordem da última fase de liga (D-02 A), disputa de 3º/4º lugar, rebaixados pela es (EC-004, EC-005), fases de 1963, 1966, 1997 e 1999, jogos repetidos de 1984, 1986 e 1994, W.O. de 1965 e de 2025 (D-20 c), datas.
-- Ainda abertos: EC-009 (datas no título da fase: leitor comum, no fim), EC-013 (gol a mais com autor em 2007), EC-014 (artilheiros de 1988, 1996 e 1999: 3ª fonte).
+- Abertos fechados em 23/11: EC-013 (gol da ESPN sem lado não entra) e EC-014 (artilheiro de 1988 com 19 gols, pela página do ano; 1996 e 1999 confirmados pelo El Universo).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/ecu-1.md`):
 

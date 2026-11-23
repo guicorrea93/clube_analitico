@@ -137,6 +137,8 @@ def lances_espn(g: dict) -> tuple[list[dict], list[dict]]:
             mi = int(p[0]) if p[0].isdigit() else None
             ac = int(p[1]) if len(p) > 1 and p[1].isdigit() else None
         jog = (l["jogadores"] or [None])[0]
+        if l["gol"] and l["lado"] not in ("home", "away"):   # como no PY-020: gol sem lado não entra (o lado viraria palpite)
+            continue
         if l["gol"]:
             # gol contra: a ESPN marca o time que ganhou o gol
             gols.append({"lado": l["lado"], "jogador": jog, "minuto": mi, "acrescimo": ac,

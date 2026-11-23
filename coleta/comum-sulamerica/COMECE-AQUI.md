@@ -88,52 +88,32 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
 
 ## 3. De onde continuar (pendências, em ordem)
 
-1. **Venezuela (`ven-1`):** falta o agente 1 carregar (recado de fim de coleta no fim de `docs/coleta/pedidos-sulamerica.md`).
-   Decisão pedida ao Guilherme: Atlético Zulia = Universidad de Los Andes (lista de campeões da RSSSF) ou Unicol (página
-   de 1996/97)?
-2. **Pedido do agente 1 para o `bol-1` (22/11, "quando o Guilherme mandar revisar; não para agora"):** a classificação
-   final de 1960, 1976, 1990, 1993 e 1994 deve trazer todos os clubes com jogos (eliminados com a posição da fase em que
-   caíram), como no `bra-sp-2`. O mesmo pode valer para as edições incompletas do `ven-1`.
-3. **Correções da revisão (EM ANDAMENTO desde 23/11, ordem do Guilherme):** seguir `docs/revisao/plano-coleta-sulamerica.md`.
-   - **Argentino: feito em 23/11 (`30f0b00`)** (ids no fim de `docs/coleta/pedidos-sulamerica.md`). Abertos: AR-020 (1929), AR-021
-     (rebaixados), AR-023 (leitor comum), QU-003, QU-005.
-   - **Uruguaio: feito em 23/11 (`31c14b0`)** (ids no fim de `pedidos-sulamerica.md`). Aberto: UY-014 (leitor comum).
-   - **Chileno: feito em 23/11 (`209641e`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: CH-006, CH-012, CH-017, CH-022,
-     CH-023, CH-028 e a parte de 1986 do CH-014. Atenção: o leitor do Chile tinha `` virado backspace em três regex
-     ("Second Stage" e "Third Stage" nunca casavam); corrigido.
-   - **Colombiano: feito em parte em 23/11 (`b8d739d`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: CO-004, CO-006 (leitor da
-     Wikipédia: voltas e listas "Fecha N"), CO-008, CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008+), CO-018, CO-020,
-     CO-022.
-   - **Paraguaio: feito em 23/11 (`4583f7e`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: PY-008, PY-009, PY-012, PY-018,
-     PY-019, PY-031.
-   - **Peruano: feito em 23/11 (`55c7066`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: PE-009, PE-010 (fase), PE-012, PE-014,
-     PE-015, PE-017, PE-022.
-   - **Equatoriano: feito em 23/11 (`4577457`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: EC-009, EC-013, EC-014.
-   - **Leitor comum (23/11):** a data entre colchetes no título da fase ou do jogo ("Final [Dec 23]:", "First Leg [Jul 29]")
-     vale para os jogos de baixo (AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009). As 9 ligas foram reimportadas
-     e comparadas: só datas mudaram (680 jogos, quase todos de finais, semifinais e desempates); na Venezuela saíram 2
-     jogos da ESPN que repetiam a final absoluta de 2025.
-   - **Falta:** os abertos de cada liga (lista no fim de `pedidos-sulamerica.md` e na documentação). Depois, as copas
-     nacionais (`copas-nacionais.md`) e as 2ªs divisões, quando o Guilherme pedir. O Guilherme mandou fazer todas sem perguntar
-     (23/11): um commit e push por liga, com recado.
-   - A mudança do leitor comum (data no título da fase: AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009) fica para o
-     fim, uma vez só, com a reimportação das 9 ligas.
-4. **Depois: copas nacionais** (pedido do Guilherme, 23/11, antes das 2ªs divisões). Pesquisa pronta em
+1. **Correções da revisão: FEITAS em 23/11** (`docs/revisao/plano-coleta-sulamerica.md`; um commit por liga, ids no fim
+   de `docs/coleta/pedidos-sulamerica.md`): Argentino `30f0b00`, Uruguaio `31c14b0`, Chileno `209641e` (atenção: o leitor
+   do Chile tinha `\b` virado backspace em três regex; corrigido), Colombiano `b8d739d`, Paraguaio `4583f7e`, Peruano
+   `55c7066`, Equatoriano `4577457`. Leitor comum `415911b`: a data entre colchetes no título da fase ("Final [Dec 23]:")
+   vale para os jogos de baixo (AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009). O agente 1 ainda precisa
+   recarregar as 9 ligas (o `ven-1` nunca foi carregado).
+2. **Abertos da revisão (EM ANDAMENTO desde 23/11, ordem do Guilherme: "os abertos", sem perguntar):** uma liga por vez,
+   com commit, push e recado: Equador, Peru, Paraguai, Chile, Argentina, Colômbia.
+   - **Equador: feito** (EC-013, EC-014). Junto: a regra "gol da ESPN sem lado não entra" (a do PY-020) foi para o
+     `outras_fontes.py` de `ecu-1`, `chi-1`, `col-1`, `per-1` e `ven-1` (EC-013, CH-017, CO-018); a Venezuela foi
+     reimportada no mesmo commit, e Chile, Colômbia e Peru entram com os seus.
+   - **Peru:** PE-010, PE-012, PE-014, PE-015, PE-017, PE-022.
+   - **Paraguai:** PY-008, PY-012, PY-018, PY-019, PY-031.
+   - **Chile:** CH-006, CH-014 (1986), CH-017 (só reimportar), CH-022, CH-023, CH-028.
+   - **Argentina:** AR-020, AR-021, QU-003, QU-005.
+   - **Colômbia:** CO-004, CO-006, CO-009, CO-012, CO-013, CO-015, CO-016, CO-017, CO-018 (só reimportar), CO-020, CO-022.
+   - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
+3. **Depois: copas nacionais** (pedido do Guilherme, 23/11, antes das 2ªs divisões). Pesquisa pronta em
    `copas-nacionais.md` (nesta pasta): sete países têm copa (ARG, URU, CHI, COL, PAR, ECU, VEN); faltam as decisões dele
    sobre quais, edições antigas e ordem.
-5. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7).
-4. **Revisão (espera):** por decisão do Guilherme (22/11), os 55 achados abertos do Argentino (AR) e do Uruguaio (UY) e as
-   decisões pedidas (UY-001, UY-007, UY-020, AR-032, AR-033, AR-043, AR-044, Copa de Oro 1936) **esperam**. O agente de
-   revisão vai deixar um plano em `docs/revisao/plano-coleta-sulamerica.md`; quando o Guilherme disser que é hora, siga o
-   plano. Os mais graves, para referência:
-   - **Uruguai, UY-006:** de 1994 a 2025 a classificação final é a tabela do Apertura, com o campeão puxado para o 1º
-     lugar (vice errado em 14 edições, UY-004; 3º em 19, UY-005);
-   - **Argentina, AR-001:** em 1913 Federación, os jogos do Estudiantes de La Plata estão como Estudiantes de Buenos Aires;
-   - **Argentina, AR-002 a AR-013:** vices errados em 12 edições; **AR-022:** ~3.920 jogos com o ano errado;
-   - **Uruguai, UY-013:** a Supercopa AUF entrou como "Final".
+4. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7). Pedido do agente 1 para o
+   `bol-1` (22/11, "quando o Guilherme mandar revisar"): a classificação final de 1960, 1976, 1990, 1993 e 1994 com todos
+   os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as
+   edições incompletas do `ven-1`.
 5. **Decisões em aberto:**
-   - **Peru:** 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice, a escolha recomendada que ele
-     aprovou. O agente 1 pode preferir a contagem da RSSSF.
+   - **Venezuela:** Atlético Zulia = Universidad de Los Andes (lista de campeões da RSSSF) ou Unicol (página de 1996/97)?
    - **Bolívia:** escopo de 1950 em diante (liga de La Paz semiprofissional, Integrado, Mixto), como a Wikipédia e a
      contagem de 93 campeonatos da RSSSF; a contagem "84 títulos desde 1958" da RSSSF deixaria de fora 1950-1957.
 6. **Ficar de olho em `docs/coleta/pedidos-sulamerica.md`:** respostas do agente 1 e pedidos novos da revisão.

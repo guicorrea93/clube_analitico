@@ -38,7 +38,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "QU-001), datas (AR-022, QU-002, AR-024), fases (AR-025, AR-026), jogos (AR-018, AR-034: o 1926 Amateurs passou de "
         "43 para 325 jogos), artilheiros (AR-027 a AR-030), clubes (AR-031, AR-032, AR-033) e o Apertura 2026 (AR-043).",
         "Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), "
-        "AR-023 (data no título da fase: mudança no leitor comum, junto com UY-014, CH-012, CO-008, PY-009, PE-009, EC-009), "
         "QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).",
         "Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).",
     ],
@@ -46,14 +45,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação pela tabela anual "
         "de 1994 em diante, pódio pela lista da AUF, Supercopa fora, títulos da FUF e de 1926 sem campeão (D-09), clubes da "
         "FUF à parte (D-25 f), 2020 no ano certo, artilheiros (AUF 2013/14-2025; es 1900-1931).",
-        "Ainda aberto: UY-014 (data das decisões no título da fase: leitor comum, junto com as outras ligas no fim).",
     ],
     "chi-1": [
         "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): coluna de bônus das tabelas de "
         "1979-1983, 1988 e 1989, vice pela lista oficial, tabela publicada como classificação em 14 edições, desempates, "
         "liguillas pré-Libertadores fora, 2020 no ano certo, placares de 1990-1995, clubes (D-25 a e b) e artilheiros.",
-        "Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), CH-012 (datas dos mata-matas: leitor comum, no fim), "
-        "CH-017 (gols com autor a mais), CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo "
+        "Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), "
+        "CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo "
         "o calendário do ogol de 1964, 1971, 1977 e 1982) e a 2ª parte do CH-014 (1986, adversários trocados: 3ª fonte).",
     ],
     "col-1": [
@@ -63,8 +61,8 @@ PENDENCIAS: dict[str, list[str]] = {
         "repetidos, Finalización e quadrangulares como fase de pontos, finais do Apertura em nível 0, datas de 1957 e 1971, "
         "artilheiros de 1971, 1977 e 1978.",
         "Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, "
-        "1989), CO-008 (datas dos mata-matas: leitor comum, no fim), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 "
-        "em diante pela es), CO-018, CO-020, CO-022.",
+        "1989), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 "
+        "em diante pela es), CO-020, CO-022.",
     ],
     "par-1": [
         "76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.",
@@ -72,8 +70,7 @@ PENDENCIAS: dict[str, list[str]] = {
         "1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, "
         "pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador "
         "'2', estádio sem patrocinador) e o Apertura 2026 (D-01).",
-        "Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-009 (datas no título da fase: leitor "
-        "comum, no fim), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).",
+        "Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).",
     ],
     "per-1": [
         "1912-1921 (Liga Peruana): pela D-06 (A), as edições ficam com a ordem e os participantes das páginas peru1912-1921 "
@@ -81,7 +78,7 @@ PENDENCIAS: dict[str, list[str]] = {
         "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): tabela do ano inteiro como "
         "classificação (1970-1979, 1998, 2000, 2009, 2012, 2020 pós-TAS, 2021 com o TAS; soma em 2001, 2004, 2005), final de "
         "2021, Jorge Chávez N°1 x do Callao, rebaixado só com 'Relegated', finais do Torneo de Verano, datas de 1990.",
-        "Ainda abertos: PE-009 (datas no título da fase: leitor comum, no fim), PE-010 (a final nacional de 1990 como 'Final'), "
+        "Ainda abertos: PE-010 (a final nacional de 1990 como 'Final'), "
         "PE-012 (liguilla final de 1988), PE-014 (rebaixados por ano, pela es), PE-015 (artilheiros de 1996), PE-017 (placares "
         "só com 3ª fonte), PE-022 (cidade do Deportivo Bancos).",
     ],
@@ -90,8 +87,8 @@ PENDENCIAS: dict[str, list[str]] = {
         "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação com a soma de todos "
         "os jogos e a ordem da última fase de liga (D-02 A), disputa de 3º/4º lugar, rebaixados pela es (EC-004, EC-005), "
         "fases de 1963, 1966, 1997 e 1999, jogos repetidos de 1984, 1986 e 1994, W.O. de 1965 e de 2025 (D-20 c), datas.",
-        "Ainda abertos: EC-009 (datas no título da fase: leitor comum, no fim), EC-013 (gol a mais com autor em 2007), "
-        "EC-014 (artilheiros de 1988, 1996 e 1999: 3ª fonte).",
+        "Abertos fechados em 23/11: EC-013 (gol da ESPN sem lado não entra) e EC-014 (artilheiro de 1988 com 19 gols, pela "
+        "página do ano; 1996 e 1999 confirmados pelo El Universo).",
     ],
     "bol-1": [
         "Pedido do agente 1 (22/11, para quando o Guilherme mandar revisar): a classificação final de 1960, 1976, 1990, 1993 "

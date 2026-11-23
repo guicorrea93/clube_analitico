@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 12456 (12359 com placar); **gols:** 35118; **gols com autor:** 14335 (41%); **cartões:** 9481.
 - **Clubes:** 84; **artilheiros:** 122 edições com artilheiro (138 linhas, com empates).
 - **Classificação final:** 126 edições; **tabelas publicadas guardadas para conferência:** 2761 linhas.
-- **No banco:** sim; **último commit do pacote:** 31c14b0.
+- **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão uruguaia de 1900 a 2025: uma edição por título (AUF e FUF em 1923 e 1924; Torneo del Consejo Provisorio em 1926; temporadas no calendário europeu de 2005/06 a 2015/16). Apertura, Intermedio e Clausura são fases da edição. Jogos de 1900, 1901, 1905, 1908, 1916, 1932-1974 e 1994 em diante; nos outros anos, só a tabela final e o campeão (nenhuma fonte pública tem os jogos).
 
 ## 2. Edições, fontes e regras
@@ -525,7 +525,6 @@ da edição; por isso as mais específicas vêm antes.
 ## 9. Pendências e próximos passos
 
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação pela tabela anual de 1994 em diante, pódio pela lista da AUF, Supercopa fora, títulos da FUF e de 1926 sem campeão (D-09), clubes da FUF à parte (D-25 f), 2020 no ano certo, artilheiros (AUF 2013/14-2025; es 1900-1931).
-- Ainda aberto: UY-014 (data das decisões no título da fase: leitor comum, junto com as outras ligas no fim).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/uru-1.md`):
 

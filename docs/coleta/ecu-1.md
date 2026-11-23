@@ -65,7 +65,7 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 | 2005 Apertura | 10 | 104 (104) | 335 | 171 | 1 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Clausura | 10 | 120 (120) | 342 | 342 | 2 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 | 11 | 210 (210) | 587 | 587 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2007 | 10 | 210 (210) | 529 | 518 | 4 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2007 | 10 | 210 (210) | 529 | 517 | 4 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 | 12 | 222 (222) | 520 | 508 | 5 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 | 12 | 232 (232) | 527 | 526 | 5 / 1 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2010 | 12 | 268 (268) | 644 | 638 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -238,7 +238,7 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 1988
 
-- sem ocorrências
+- artilheiro Janio Pinto (LDU de Quito) com 19 gols, como a página do ano na RSSSF (Topscorers) e a Wikipédia em espanhol; a lista da RSSSF (ecuatops) dá 18 (EC-014)
 
 ### 1989
 
@@ -281,6 +281,7 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 1996
 
+- artilheiro Ariel Graziani (Emelec) com 29 gols, como a RSSSF, a Wikipédia em inglês (temporada 1996) e o El Universo (26/12/2002); a Wikipédia em espanhol dá 30 (EC-014)
 - tabela publicada x jogos — ecua96:23: El Nacional tabela [22, 15, 5, 2, 42, 16] jogos [22, 15, 5, 2, 40, 14] — a outra tabela publicada (ecua96) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — ecua96:23: Emelec tabela [22, 14, 4, 4, 50, 19] jogos [22, 14, 4, 4, 50, 18] — a outra tabela publicada (ecua96) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — ecua96:23: Deportivo Quito tabela [22, 9, 8, 5, 39, 26] jogos [22, 9, 8, 5, 40, 26] — a outra tabela publicada (ecua96) fecha com os jogos: o erro é desta tabela
@@ -306,7 +307,7 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 1999
 
-- sem ocorrências
+- artilheiro Christian Bottero (Macará) com 25 gols, como a RSSSF e o El Universo (26/12/2002); a Wikipédia em espanhol dá 24 (EC-014)
 
 ### 2000
 

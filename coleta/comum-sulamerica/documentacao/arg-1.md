@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 36043 (30%); **cartões:** 41255.
 - **Clubes:** 173; **artilheiros:** 194 edições com artilheiro (233 linhas, com empates).
 - **Classificação final:** 197 edições; **tabelas publicadas guardadas para conferência:** 4453 linhas.
-- **No banco:** sim; **último commit do pacote:** 30f0b00.
+- **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão argentina de 1891 a 2025: uma edição por torneio que deu título de campeão (ligas rivais de 1912-1914, 1919-1926 e 1931-1934; Copa de Honor, Campeonato e Copa de Oro em 1936; Metropolitano e Nacional de 1967 a 1985; Apertura e Clausura de 1991/92 a 2013/14 e em 2025). Sem as copas da liga (2019-2024), a Copa Campeonato 2013/14, os torneios de reclassificação e as liguillas, que não davam o título.
 
 ## 2. Edições, fontes e regras
@@ -836,7 +836,7 @@ coluna, como "Estudiantes de La Plata Atlanta, Buenos Aires") não atrapalha: a 
 ## 9. Pendências e próximos passos
 
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e pódio (AR-001 a AR-016, QU-001), datas (AR-022, QU-002, AR-024), fases (AR-025, AR-026), jogos (AR-018, AR-034: o 1926 Amateurs passou de 43 para 325 jogos), artilheiros (AR-027 a AR-030), clubes (AR-031, AR-032, AR-033) e o Apertura 2026 (AR-043).
-- Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), AR-023 (data no título da fase: mudança no leitor comum, junto com UY-014, CH-012, CO-008, PY-009, PE-009, EC-009), QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).
+- Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).
 - Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/arg-1.md`):

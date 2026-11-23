@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 7823 (7807 com placar); **gols:** 20900; **gols com autor:** 13239 (63%); **cartões:** 14271.
 - **Clubes:** 50; **artilheiros:** 95 edições com artilheiro (112 linhas, com empates).
 - **Classificação final:** 134 edições; **tabelas publicadas guardadas para conferência:** 1483 linhas.
-- **No banco:** sim; **último commit do pacote:** 4583f7e.
+- **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão paraguaia de 1906 a 2025: um campeão por ano até 2007 e uma edição por torneio (Apertura e Clausura) de 2008 em diante. Jogos de 1960-1967, 1981 e 1996 em diante; nos outros anos, só o campeão, o vice e a tabela parcial quando há (nenhuma fonte pública tem os jogos).
 
 ## 2. Edições, fontes e regras
@@ -521,7 +521,7 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 - 76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e vice da lista sempre em 1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador '2', estádio sem patrocinador) e o Apertura 2026 (D-01).
-- Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-009 (datas no título da fase: leitor comum, no fim), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).
+- Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/par-1.md`):
 

@@ -42,6 +42,11 @@ NIVEL_FASE = {"": 0, "Grupo do rebaixamento": 0, "Desempate do rebaixamento": 0,
 WIKI: dict[str, str] = {}
 VICES: dict[str, str] = {}
 TOPS: dict[str, list] = {}
+TOPS_FONTE: dict[str, str] = {}
+# EC-014: artilheiros em que a ecuatops perde para duas fontes: temporada -> [(jogador, clube, gols)]
+ARTILHEIROS_CORRIGE: dict[str, list[tuple[str, str, int]]] = {
+    "1988": [("Janio Pinto", "LDU de Quito", 19)],   # a ecuatops dá 18; a página do ano (ecua88) e a Wikipédia em espanhol, 19
+}
 
 
 def nome_fase(f: str, fases: set[str]) -> str:
@@ -431,7 +436,7 @@ def gravar(eds: list[dict]) -> None:
         tops = TOPS.get(e.temporada)
         if tops:
             for jog, ctxt, ng in tops:
-                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, "RSSSF (ecuatops.html)"])
+                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, TOPS_FONTE.get(e.temporada, "RSSSF (ecuatops.html)")])
                 if (ca := clube(ctxt, e.ano_inicio)) in CLUBES:   # clube só da lista de artilheiros também entra no clubes.csv
                     so_tabela[ca][f"rsssf:{ctxt}"].append(e.ano_inicio)
         elif gols_ed and autor_ed >= 0.95 * gols_ed:
@@ -621,6 +626,8 @@ if __name__ == "__main__":
         if t_ in _ano:
             REBAIXADOS[t_] = {_NOME_ES.get(n) or clube(n, _ano[t_]) for n in ns} - {None}
     TOPS.update(artilheiros_rsssf())
+    for t_, v_ in ARTILHEIROS_CORRIGE.items():
+        TOPS[t_], TOPS_FONTE[t_] = v_, "RSSSF (ecua88.html, Topscorers), igual à Wikipédia em espanhol"
     eds = []
     for e in EDICOES:
         d = montar(e, cps)

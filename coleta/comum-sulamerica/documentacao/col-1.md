@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 22512 (22508 com placar); **gols:** 59855; **gols com autor:** 22041 (37%); **cartões:** 40519.
 - **Clubes:** 42; **artilheiros:** 90 edições com artilheiro (108 linhas, com empates).
 - **Classificação final:** 101 edições; **tabelas publicadas guardadas para conferência:** 2268 linhas.
-- **No banco:** sim; **último commit do pacote:** b8d739d.
+- **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão colombiana de 1948 a 2025: um campeão por ano até 2001 (1989 sem campeão; 1995/96 e 1996/97 no calendário europeu) e uma edição por torneio (Apertura e Finalización) de 2002 em diante. Jogos de 1948-1986, 1988-1990 e 1995/96 em diante; 1987 e 1991-1995 só com a tabela final e o campeão.
 
 ## 2. Edições, fontes e regras
@@ -480,7 +480,7 @@ regra. REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, �
 
 - 1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): vice pela colchamp, ordem por fase alcançada (D-02 A), tabelas finais de 1987 e 1991-1995 só com a Primera A, rebaixados pela es, 1964 sem jogos repetidos, Finalización e quadrangulares como fase de pontos, finais do Apertura em nível 0, datas de 1957 e 1971, artilheiros de 1971, 1977 e 1978.
-- Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, 1989), CO-008 (datas dos mata-matas: leitor comum, no fim), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante pela es), CO-018, CO-020, CO-022.
+- Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, 1989), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante pela es), CO-020, CO-022.
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/col-1.md`):
 

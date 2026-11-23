@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 17318 (17271 com placar); **gols:** 47452; **gols com autor:** 20236 (43%); **cartões:** 21067.
 - **Clubes:** 167; **artilheiros:** 97 edições com artilheiro (100 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2552 linhas.
-- **No banco:** sim; **último commit do pacote:** 55c7066.
+- **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão peruana de 1912 a 2025, um campeão por ano (sem campeonato em 1922-1925 e 1936). 1912-1921: Liga Peruana de Football, só com campeão e vice. Sem jogos em 1970-1974, 1976, 1977 e 1979 (só a tabela final); jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003.
 
 ## 2. Edições, fontes e regras
@@ -648,7 +648,7 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 - 1912-1921 (Liga Peruana): pela D-06 (A), as edições ficam com a ordem e os participantes das páginas peru1912-1921 (sem jogos, salvo os poucos de 1912 que não entram).
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): tabela do ano inteiro como classificação (1970-1979, 1998, 2000, 2009, 2012, 2020 pós-TAS, 2021 com o TAS; soma em 2001, 2004, 2005), final de 2021, Jorge Chávez N°1 x do Callao, rebaixado só com 'Relegated', finais do Torneo de Verano, datas de 1990.
-- Ainda abertos: PE-009 (datas no título da fase: leitor comum, no fim), PE-010 (a final nacional de 1990 como 'Final'), PE-012 (liguilla final de 1988), PE-014 (rebaixados por ano, pela es), PE-015 (artilheiros de 1996), PE-017 (placares só com 3ª fonte), PE-022 (cidade do Deportivo Bancos).
+- Ainda abertos: PE-010 (a final nacional de 1990 como 'Final'), PE-012 (liguilla final de 1988), PE-014 (rebaixados por ano, pela es), PE-015 (artilheiros de 1996), PE-017 (placares só com 3ª fonte), PE-022 (cidade do Deportivo Bancos).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/per-1.md`):
 

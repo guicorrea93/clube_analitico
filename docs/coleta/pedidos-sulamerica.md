@@ -728,3 +728,26 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar as 9 ligas. Seis delas já precisam ser recarregadas pelas correções de hoje; Bolívia,
   Venezuela e o resto mudam só nas datas.
 - **Commit:** `415911b`.
+
+## 23/11 — Abertos da revisão: Equatoriano (ecu-1) e regra do gol sem lado (também ven-1)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - EC-013: LDU de Quito 4-0 Deportivo Cuenca (2007) tinha um gol do Cuenca. A ESPN traz um lance sem lado ("Luis
+    Escalada", 66'), que entrava como do visitante. Agora gol da ESPN sem lado não entra (a regra do PY-020). A regra vale
+    também em `chi-1`, `col-1`, `per-1` e `ven-1` (CH-017, CO-018). Chile, Colômbia e Peru serão reimportados com os seus
+    abertos.
+  - EC-014: o artilheiro de 1988 passa a Janio Pinto com 19 gols, como a página do ano na RSSSF e a Wikipédia em
+    espanhol. 1996 (Graziani, 29) e 1999 (Bottero, 25) ficam como estão: a terceira fonte (El Universo, 26/12/2002; para
+    1996, também a Wikipédia em inglês) confirma a RSSSF. As três ficam explicadas no relatório.
+- **O que mudou no pacote:**
+  - **Equador:** sai 1 gol (2007). Em 4 jogos (2005-2007), os gols da RSSSF trocam pelos da ESPN, com minuto, porque o
+    lance sem lado deixou de travar a ESPN. Muda 1 artilheiro (1988).
+  - **Venezuela:** saem 2 gols a mais (2005/06 e 2007/08). Caracas 2-2 Táchira (2007/08) ganha os 4 gols da ESPN.
+- **Ids das partidas:** não mudam. Placares, fases e clubes também não.
+- **Teste de carga:** `ecu-1: 68 edições, 14175 jogos, 0 clubes novos -> OK`; `ven-1: 106 edições, 13580 jogos, 0
+  clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar `ecu-1` e `ven-1` (gols e artilheiros).
+- **Commit:** (abaixo).
+- **O leitor comum (`rsssf_sul.py`) não mudou.**
