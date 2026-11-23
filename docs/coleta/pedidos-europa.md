@@ -724,3 +724,32 @@ Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fecha
 - **Pedido (todas as correções de hoje: `ita-1`, `esp-1`, `eng-1`, `fra-1`, `ger-1`, `por-1`):** depois de recarregar,
   rodar as varreduras do plano (`python -I revisao/tela/varredura.py` e `datas_repetidas.py`, com a lista de
   competições trocada). Elas leem o banco.
+
+## 23/11 — coleta Europa: correções da revisão no Português (`por-1`)
+
+Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fechar os ids).
+
+- **PT-002:** Benfica 1-2 Sporting (1994/95) de volta (sai a correção para 2-0). Sporting 55 pontos, Benfica 47; as
+  posições não mudam.
+- **PT-003:** 1944/45 com a ordem da RSSSF: vice Sporting, 6º Olhanense, 7º Estoril.
+- **PT-004 (D-20 b):** Braga x Benfica (1986/87) com derrota para os dois (1-1 em campo). Benfica 48 e campeão; Braga 25 e
+  11º. As posições 9º a 13º seguem a Wikipédia pt.
+- **PT-005 (D-19 c):** 2005/06 com 13º Naval e 14º Académica.
+- **PT-006 (D-20 a):** Porto 2007/08 com 75 pontos e a observação da devolução em 2017; União de Leiria com -3 e
+  observação.
+- **PT-007:** Benfica 2-1 Espinho e Espinho 2-0 Benfica (1980/81).
+- **PT-009:** fica a decisão do ogol no CUF x Vitória de Setúbal (a ficha registra "derrota administrativa"); o texto
+  do motivo foi corrigido.
+- **PT-010 e PT-011:** 29 datas corrigidas: 26 em que o football-data e o transfermarkt concordam contra o ogol, e 3
+  impossíveis (1979/80, 1993/94, 1997/98). Os casos de 1938/39 e 1939/40 ficam pendentes.
+- **PT-012 e PT-013:** Seferović com 23 gols (2018/19); "Luis Suárez" sem o travessão.
+- **PT-014 e PT-015:** observações em português, e os códigos ("PAÇ", "BRA") viraram o texto da nota.
+- **PT-016, PT-017 e PT-018:** observação nos rebaixamentos fora da zona (1950/51, 1961/62, 1973/74, 1997/98 Leça e
+  Chaves, 2005/06, 2007/08, 2008/09, 2019/20), no Estrela da Amadora de 2023/24 (refundação, D-24 c) e no SL Elvas de
+  1946/47 (fusão, D-24 d).
+- **PT-019:** autores dos gols de 1999/00 a 2005/06.
+  - RSSSF: 4.385 gols.
+  - Ficha do ogol: 699 gols, para 2001/02 (que a RSSSF não traz) e os jogos em que a ESPN falha (2010/11 caiu de 257 para
+    27 jogos sem autor).
+- **PT-020:** não feito. Árbitro e público pelo transfermarkt são umas 11 mil páginas; fica como pendência.
+- Teste de carga: "por-1: 92 edições, 20978 jogos, 0 clubes novos -> OK". **Pedido:** recarregar `por-1` e publicar.

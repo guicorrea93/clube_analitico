@@ -11,7 +11,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Italiano | 95 (1929/30–2025/26) | 29271 | 24564 | 43962 | 69 | 167 / 5 | 4 | [ita-1](ita-1.md) |
 | Campeonato Alemão | 124 (1963/64–1962/63) | 20303 | 56842 | 30251 | 194 | 181 / 7 | 6 | [ger-1](ger-1.md) |
 | Campeonato Francês | 88 (1932/33–2025/26) | 30466 | 22613 | 35434 | 77 | 153 / 21 | 6 | [fra-1](fra-1.md) |
-| Campeonato Português | 92 (1934/35–2025/26) | 20978 | 18259 | 30915 | 73 | 171 / 13 | 2 | [por-1](por-1.md) |
+| Campeonato Português | 92 (1934/35–2025/26) | 20978 | 18958 | 30915 | 73 | 171 / 13 | 3 | [por-1](por-1.md) |
 | Campeonato Holandês | 138 (1956/57–1955/56) | 21878 | 23019 | 24431 | 93 | 191 / 3 | 4 | [ned-1](ned-1.md) |
 | Campeonato Escocês | 129 (1890/91–2025/26) | 33076 | 14565 | 19812 | 46 | 197 / 60 | 3 | [sco-1](sco-1.md) |
 
@@ -36,8 +36,9 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 - **fra-1:** Revisão FR-017: 4 pares de jogos em que a Wikipédia fr dá outro mando ou placar (1935/36, 1937/38, 1945/46, 1950/51); fica a base até conferir num jornal da época (anotado em EXPLICACOES).
 - **fra-1:** Revisão FR-005: a vitória do Marseille sobre o Bordeaux em 27/10/1946 (0-0 no tribunal) vem das tabelas das Wikipédias; conferir no L'Équipe de 28/10/1946.
 - **fra-1:** Árbitro: os arquivos do football-data da França não trazem (revisão FR-022); seria jogo a jogo pelo transfermarkt.
-- **por-1:** Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).
-- **por-1:** Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a situação de hoje (absolvição em 2017), tirar o desconto em importar.py.
+- **por-1:** Autores dos gols: RSSSF (1999/00-2005/06, onde a soma fecha), ficha do ogol (2001/02, que a RSSSF não traz, e os jogos em que a ESPN falta ou não fecha) e ESPN (2006/07+). Antes de 1999/00, nenhuma fonte em lote. Sem autor ficam 103 jogos de 2001/02 e 27 de 2010/11 (a ficha do ogol também não fecha).
+- **por-1:** Revisão PT-020: árbitro e público pelo transfermarkt (jogo a jogo, ~11 mil páginas) ou pela ficha do ogol: não feito (custo alto); o football-data de Portugal não traz árbitro.
+- **por-1:** Revisão PT-010: Belenenses x Sporting (1938/39) e os dois jogos do Académico do Porto em 04/02/1940 (1939/40) seguem com a data do ogol; o transfermarkt repete o ogol e a ficha não decide. Conferir num jornal da época.
 - **ned-1:** Era antiga (1888/89-1955/56, em antigo.py): de 1888/89 a 1896/97 e nas temporadas sem a fase final legível na RSSSF, só o campeão e a tabela da Eerste Klasse, sem jogos; os jogos da fase final vêm da matriz da RSSSF, sem data (datados só em 1954/55 e 1955/56). As ligas regionais ficam de fora.
 - **ned-1:** Era antiga: tabelas da fase final que não fecham com os jogos por erro de digitação da RSSSF (1906/07, 1922/23, 1923/24); ficam anotadas no relatório, sem explicação escrita.
 - **ned-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).

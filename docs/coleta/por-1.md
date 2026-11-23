@@ -4,7 +4,7 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 **Edições:** 92, de 1934/35 a 2025/26: Campeonato da Liga (1934/35 a 1937/38, experimental; os títulos contam hoje entre os da 1ª divisão), Primeira Divisão (1938/39 a 1998/99) e Primeira Liga.
 
-**Total:** 20978 jogos, 59543 gols, 13874 gols com autor (ESPN), 30915 cartões, 73 clubes.
+**Total:** 20978 jogos, 59544 gols, 18958 gols com autor (ESPN), 30915 cartões, 73 clubes.
 
 **Fontes:**
 - ogol (zerozero): base dos jogos de todas as temporadas, com a rodada oficial; ficha dos jogos decididos fora de campo; calendários guardados em `data/cache/ogol-por-1/` para os escudos;
@@ -16,7 +16,7 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 **Regras:** o placar é o do ogol; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Lisboa; Açores nos jogos em casa do Santa Clara). Rebaixado = clube que não está na 1ª divisão na temporada seguinte (até 1944/45 não havia rebaixamento: os participantes saíam dos campeonatos regionais). 2 pontos por vitória até 1994/95, 3 a partir de 1995/96. Placar diferente em outra fonte numa temporada em que as tabelas publicadas fecham com o ogol é erro da outra fonte e fica só anotado; quando a outra fonte e as tabelas publicadas concordam contra o ogol, o placar é corrigido (CORRECOES e TRIBUNAL em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 80, confronto direto aplicado de novo entre os que seguem empatados em 4, o mesmo com saldo e gols fora de casa no confronto em 6, saldo de gols em 1, média de gols em 1); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 81, confronto direto aplicado de novo entre os que seguem empatados em 3, o mesmo com saldo e gols fora de casa no confronto em 6, saldo de gols em 1, média de gols em 1); é ele que ordena a classificação rodada a rodada.
 
 | Temporada | Fontes | Clubes | Jogos | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
@@ -72,7 +72,7 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 | 1983/84 | ogol + RSSSF + Wikipédia | 16 | 240 | 599 | 0 | 2 / 0 | Benfica | — |
 | 1984/85 | ogol + RSSSF + Wikipédia | 16 | 240 | 669 | 0 | 2 / 0 | Porto | — |
 | 1985/86 | ogol + RSSSF + Wikipédia | 16 | 240 | 566 | 0 | 2 / 0 | Porto | — |
-| 1986/87 | ogol + RSSSF + Wikipédia | 16 | 240 | 583 | 0 | 2 / 0 | Benfica | — |
+| 1986/87 | ogol + RSSSF + Wikipédia | 16 | 240 | 583 | 0 | 0 / 2 | Benfica | — |
 | 1987/88 | ogol + RSSSF + Wikipédia | 20 | 380 | 863 | 0 | 2 / 0 | Porto | — |
 | 1988/89 | ogol + RSSSF + Wikipédia | 20 | 380 | 791 | 0 | 2 / 0 | Benfica | — |
 | 1989/90 | ogol + RSSSF + Wikipédia | 18 | 306 | 666 | 0 | 2 / 0 | Porto | — |
@@ -80,35 +80,35 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 | 1991/92 | ogol + RSSSF + Wikipédia | 18 | 306 | 692 | 0 | 2 / 0 | Porto | — |
 | 1992/93 | ogol + RSSSF + Wikipédia | 18 | 306 | 715 | 0 | 1 / 1 | Porto | — |
 | 1993/94 | ogol + RSSSF + Wikipédia | 18 | 306 | 750 | 0 | 2 / 0 | Benfica | — |
-| 1994/95 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 731 | 0 | 1 / 1 | Porto | — |
+| 1994/95 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 732 | 0 | 0 / 2 | Porto | — |
 | 1995/96 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 797 | 0 | 1 / 1 | Porto | — |
 | 1996/97 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 760 | 0 | 2 / 0 | Porto | — |
 | 1997/98 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 770 | 0 | 2 / 0 | Porto | — |
 | 1998/99 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 810 | 0 | 1 / 1 | Porto | — |
-| 1999/00 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 739 | 0 | 2 / 0 | Sporting | — |
-| 2000/01 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 807 | 0 | 2 / 0 | Boavista | — |
-| 2001/02 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 818 | 0 | 2 / 0 | Sporting | — |
-| 2002/03 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 806 | 0 | 2 / 0 | Porto | — |
-| 2003/04 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 729 | 0 | 2 / 0 | Porto | — |
-| 2004/05 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 711 | 0 | 2 / 0 | Benfica | — |
-| 2005/06 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 681 | 0 | 2 / 0 | Porto | — |
-| 2006/07 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 554 | 546 | 2 / 0 | Porto | — |
-| 2007/08 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 553 | 550 | 1 / 1 | Porto | Belenenses -3 pontos; Porto -6 pontos; União de Leiria -3 pontos |
-| 2008/09 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 552 | 528 | 1 / 1 | Porto | — |
-| 2009/10 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 601 | 598 | 2 / 0 | Benfica | — |
-| 2010/11 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 584 | 327 | 2 / 0 | Porto | — |
-| 2011/12 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 634 | 592 | 2 / 0 | Porto | — |
-| 2012/13 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 667 | 665 | 2 / 0 | Porto | — |
-| 2013/14 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 569 | 558 | 2 / 0 | Benfica | — |
+| 1999/00 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 739 | 731 | 2 / 0 | Sporting | — |
+| 2000/01 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 807 | 802 | 2 / 0 | Boavista | — |
+| 2001/02 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 818 | 409 | 2 / 0 | Sporting | — |
+| 2002/03 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 806 | 806 | 2 / 0 | Porto | — |
+| 2003/04 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 729 | 726 | 2 / 0 | Porto | — |
+| 2004/05 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 711 | 702 | 2 / 0 | Benfica | — |
+| 2005/06 | ogol + engsoccerdata + football-data + RSSSF + Wikipédia | 18 | 306 | 681 | 681 | 2 / 0 | Porto | — |
+| 2006/07 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 554 | 554 | 2 / 0 | Porto | — |
+| 2007/08 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 553 | 550 | 0 / 2 | Porto | Belenenses -3 pontos; Porto +0 pontos; União de Leiria -3 pontos |
+| 2008/09 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 552 | 552 | 1 / 1 | Porto | — |
+| 2009/10 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 601 | 601 | 2 / 0 | Benfica | — |
+| 2010/11 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 584 | 478 | 2 / 0 | Porto | — |
+| 2011/12 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 634 | 617 | 2 / 0 | Porto | — |
+| 2012/13 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 667 | 667 | 2 / 0 | Porto | — |
+| 2013/14 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 16 | 240 | 569 | 563 | 2 / 0 | Benfica | — |
 | 2014/15 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 763 | 763 | 2 / 0 | Benfica | — |
 | 2015/16 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 831 | 831 | 2 / 0 | Benfica | — |
-| 2016/17 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 728 | 727 | 2 / 0 | Benfica | — |
+| 2016/17 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 728 | 728 | 2 / 0 | Benfica | — |
 | 2017/18 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 826 | 826 | 2 / 0 | Porto | — |
 | 2018/19 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 826 | 826 | 2 / 0 | Benfica | — |
 | 2019/20 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 763 | 763 | 1 / 1 | Porto | — |
 | 2020/21 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 739 | 739 | 2 / 0 | Sporting | — |
 | 2021/22 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 807 | 800 | 2 / 0 | Porto | — |
-| 2022/23 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 763 | 751 | 2 / 0 | Benfica | — |
+| 2022/23 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 763 | 759 | 2 / 0 | Benfica | — |
 | 2023/24 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 877 | 877 | 2 / 0 | Sporting | — |
 | 2024/25 | ogol + engsoccerdata + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 786 | 786 | 2 / 0 | Sporting | — |
 | 2025/26 | ogol + football-data + ESPN + RSSSF + Wikipédia | 18 | 306 | 821 | 821 | 2 / 0 | Porto | — |
@@ -161,7 +161,7 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 1944/45
 
-- ordem diferente entre RSSSF e Wikipédia em 4 posições (ex.: RSSSF Sporting, Wikipédia Belenenses); fica a da Wikipédia
+- fica a ordem da RSSSF: 2º Sporting e 3º Belenenses (27 pontos), 6º Olhanense e 7º Estoril (16): confronto direto, como na RSSSF (lista de campeões: "runners-up: Sporting CP") e na Wikipédia pt (revisão PT-003)
 
 ### 1945/46
 
@@ -301,7 +301,7 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 1974/75
 
-- resultado decidido fora de campo: CUF x Vitória de Setúbal fica 1-1 com vitória do CUF (ogol DA) — derrota administrativa do Vitória de Setúbal (ficha do ogol; 1-1 no intervalo). As tabelas da RSSSF e da Wikipédia contam a vitória do CUF com o 1-1 de campo (um gol pró e um contra para cada um); a matriz da RSSSF traz 0-2 neste jogo e 1-2 no Vitória x CUF (o ogol, 2-1), o que não fecha com as tabelas
+- resultado decidido fora de campo: CUF x Vitória de Setúbal fica 1-1 com vitória do CUF (ogol DA) — derrota administrativa do Vitória de Setúbal (ficha do ogol: "Vitória FC: derrota administrativa (0-0)", 1-1 no intervalo). A matriz da RSSSF, o transfermarkt e as Wikipédias trazem outra versão dos dois jogos (CUF 0-2 Vitória e Vitória 1-2 CUF), que dá os mesmos totais e também fecha com as tabelas. Fica o ogol, que registra a decisão (revisão PT-009)
 - placar diferente na matriz da RSSSF — Vitória de Setúbal x CUF (1974-09-22): ogol 2-1, RSSSF 1-2
 - placar diferente na matriz da RSSSF — CUF x Vitória de Setúbal (1975-01-19): ogol 1-1, RSSSF 0-2
 - as tabelas publicadas (RSSSF e Wikipédia) fecham com o ogol: nos 2 jogos em que a matriz da RSSSF difere, fica o ogol
@@ -325,13 +325,12 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 1979/80
 
-- sem ocorrências
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 1980/81
 
-- placar diferente na matriz da RSSSF — Benfica x Espinho (1980-12-28): ogol 2-0, RSSSF 2-1
-- placar diferente na matriz da RSSSF — Espinho x Benfica (1981-05-31): ogol 3-0, RSSSF 2-0
-- as tabelas publicadas (RSSSF e Wikipédia) fecham com o ogol: nos 2 jogos em que a matriz da RSSSF difere, fica o ogol
+- placar corrigido: Benfica x Espinho de 2-0 para 2-1 — o ogol e a matriz da RSSSF trazem 2-0; o transfermarkt e as matrizes das Wikipédias pt e en, 2-1 (os totais não mudam)
+- placar corrigido: Espinho x Benfica de 3-0 para 2-0 — o ogol e a matriz da RSSSF trazem 3-0; a ficha do ogol lista só 2 gols (Vitorino Belinha 2', Carlos Coelho 59'), como o transfermarkt e as Wikipédias pt e en
 
 ### 1981/82
 
@@ -355,8 +354,15 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 1986/87
 
+- Braga x Benfica (31/05/1987): derrota para os dois no tribunal; as tabelas da RSSSF e da Wikipédia en contam o 1-1 de campo e não fecham nesses dois clubes; a da Wikipédia pt conta a decisão (Benfica 48, Braga 25 e 11º)
 - resultado decidido fora de campo: Belenenses x Marítimo fica 0-3 (ogol DA) — o Belenenses escalou irregularmente o jogador Mapuata e perdeu por 0-3 (ficha do ogol; matriz da RSSSF)
-- jogo sem placar no ogol (DA): Braga x Benfica fica 1-1 — a ficha do ogol diz que o jogo foi interrompido aos 86 minutos por invasão de campo e que os dois clubes foram punidos com derrota; mas a matriz e a tabela da RSSSF e a tabela da Wikipédia contam o empate de campo, 1-1 (com ele, o Benfica é campeão com 49 pontos, como na lista de campeões). Fica o 1-1
+- resultado decidido fora de campo: Braga x Benfica fica 1-1 com derrota para os dois (ogol DA) — interrompido aos 86 minutos por invasão de campo; a Federação deu derrota aos dois clubes (Diário de Lisboa, 18/07/1987; ficha do ogol; Wikipédia pt). O Benfica é campeão nos dois casos (revisão PT-004, decisão D-20 b)
+- tabela publicada x jogos (RSSSF) — Benfica tabela [30, 20, 9, 1, 51, 23, 49] jogos [30, 20, 8, 2, 51, 23, 48]
+- tabela publicada x jogos (RSSSF) — Braga tabela [30, 10, 6, 14, 32, 34, 26] jogos [30, 10, 5, 15, 32, 34, 25]
+- tabela publicada x jogos (Wikipédia) — Benfica tabela [30, 20, 9, 1, 51, 23, 49] jogos [30, 20, 8, 2, 51, 23, 48]
+- tabela publicada x jogos (Wikipédia) — Braga tabela [30, 10, 6, 14, 32, 34, 26] jogos [30, 10, 5, 15, 32, 34, 25]
+- ordem da Wikipédia pt nas posições 9º Académica, 10º Portimonense, 11º Braga, 12º Rio Ave, 13º Marítimo: a derrota dada a Braga e Benfica muda os pontos do Braga
+- ordem diferente entre RSSSF e Wikipédia em 5 posições (ex.: RSSSF Braga, Wikipédia Académica); fica a da Wikipédia
 
 ### 1987/88
 
@@ -390,22 +396,25 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 1993/94
 
-- sem ocorrências
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 1994/95
 
-- a tabela da Wikipédia dá ao Benfica as vitórias e derrotas do 1-2 contra o Sporting e os gols do 2-0; a da RSSSF fecha com o 2-0
-- placar corrigido: Benfica x Sporting de 1-2 para 2-0 — o ogol traz 1-2; a matriz e a tabela da RSSSF, o engsoccerdata e o football-data trazem 2-0 (e a lista de campeões da RSSSF põe o Sporting, vice, 9 pontos atrás do Porto, o que só fecha com 2-0)
+- Benfica 1-2 Sporting (30/04/1995): o ogol, o transfermarkt, a Wikipédia pt e o artigo da temporada do Benfica ("perdeu os dois jogos contra o Sporting") dão 1-2; a matriz e a tabela da RSSSF, o engsoccerdata e o football-data, 2-0. Fica o 1-2 (revisão PT-002)
+- placar diferente na matriz da RSSSF — Benfica x Sporting (1995-04-30): ogol 1-2, RSSSF 2-0
 - placar diferente no engsoccerdata — Porto x Vitória de Setúbal (1995-02-19): ogol 2-0, engsoccerdata 1-0
+- placar diferente no engsoccerdata — Benfica x Sporting (1995-04-30): ogol 1-2, engsoccerdata 2-0
 - placar diferente no football-data — Porto x Vitória de Setúbal (1995-02-19): ogol 2-0, football-data 1-0
-- tabela publicada x jogos (Wikipédia) — Sporting tabela [34, 23, 9, 2, 59, 21, 55] jogos [34, 22, 9, 3, 57, 22, 53]
-- tabela publicada x jogos (Wikipédia) — Benfica tabela [34, 21, 5, 8, 61, 28, 47] jogos [34, 22, 5, 7, 61, 28, 49]
-- a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
+- placar diferente no football-data — Benfica x Sporting (1995-04-30): ogol 1-2, football-data 2-0
+- tabela publicada x jogos (RSSSF) — Sporting tabela [34, 22, 9, 3, 57, 22, 53] jogos [34, 23, 9, 2, 59, 21, 55]
+- tabela publicada x jogos (RSSSF) — Benfica tabela [34, 22, 5, 7, 61, 28, 49] jogos [34, 21, 5, 8, 60, 30, 47]
+- tabela publicada x jogos (Wikipédia) — Benfica tabela [34, 21, 5, 8, 61, 28, 47] jogos [34, 21, 5, 8, 60, 30, 47]
 
 ### 1995/96
 
 - a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos (Benfica)
 - placar corrigido: Leça x Boavista de 0-2 para 0-3 — o ogol traz 0-2; a matriz e a tabela da RSSSF, a tabela da Wikipédia, o engsoccerdata e o football-data trazem 0-3
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 - tabela publicada x jogos (Wikipédia) — Benfica tabela [34, 22, 7, 5, 56, 25, 73] jogos [34, 22, 7, 5, 57, 27, 73]
 - a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
 - a ordem da RSSSF não sai de nenhum critério de desempate e a da Wikipédia sai: fica a da Wikipédia
@@ -416,33 +425,34 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 1997/98
 
-- sem ocorrências
+- 3 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 1998/99
 
 - a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos (Académica: 70 gols contra; os jogos dão 71)
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 - tabela publicada x jogos (Wikipédia) — Académica tabela [34, 4, 9, 21, 30, 70, 21] jogos [34, 4, 9, 21, 30, 71, 21]
 - a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
 
 ### 1999/00
 
-- sem ocorrências
+- 6 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 2000/01
 
-- sem ocorrências
+- 6 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 2001/02
 
-- sem ocorrências
+- 3 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 2002/03
 
-- sem ocorrências
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 2003/04
 
-- sem ocorrências
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 2004/05
 
@@ -450,32 +460,34 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 2005/06
 
-- Académica, Naval e Belenenses terminaram com 39 pontos; a Wikipédia (e os sites que a repetem) põe a Académica em 13º e o Naval em 14º, a RSSSF o contrário (que é o que dá o confronto direto entre os três). Fica a da Wikipédia
+- Académica, Naval e Belenenses terminaram com 39 pontos; a Wikipédia (e os sites que a repetem) põe a Académica em 13º e o Naval em 14º, a RSSSF o contrário (que é o que dá o confronto direto entre os três). Fica a da RSSSF
 - o Belenenses terminou em 15º, na zona de rebaixamento, e ficou na 1ª divisão: o Gil Vicente foi rebaixado no lugar dele (caso Mateus, jogador inscrito irregularmente)
-- ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Naval 1º de Maio, Wikipédia Académica); fica a da Wikipédia
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Académica', 'Naval 1º de Maio'])
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
+- fica a ordem da RSSSF: 13º Naval e 14º Académica (39 pontos, com o Belenenses): confronto direto entre os três (Naval 7, Académica 5, Belenenses 4), como na RSSSF e na Wikipédia pt (revisão PT-005, decisão D-19 c)
 
 ### 2006/07
 
+- 2 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 - gols da ESPN não batem com o placar — Vitória de Setúbal 1-1 Académica: ESPN 0-1 (descartados)
 - gols da ESPN não batem com o placar — Belenenses 0-2 Boavista: ESPN 0-1 (descartados)
 - gols da ESPN não batem com o placar — Académica 1-3 Nacional da Madeira: ESPN 0-3 (descartados)
 
 ### 2007/08
 
-- Porto -6 pontos e União de Leiria -3 pontos (caso Apito Final, corrupção na temporada 2003/04), como na tabela da RSSSF e na classificação do fim da temporada. A Wikipédia de hoje não desconta, porque o Conselho de Justiça da Federação absolveu o Porto em 2017; a ordem é a mesma nos dois casos
+- Porto com 75 pontos: os 6 descontados em 2008 (caso Apito Final) foram devolvidos em 2017 pelo Conselho de Justiça da FPF, como nas Wikipédias pt e en (decisão D-20 a); União de Leiria com 3 pontos a menos, como na RSSSF (sem fonte da devolução). A ordem é a mesma nos dois casos
 - Boavista rebaixado pelo caso Apito Final (terminou em 9º); o Paços de Ferreira, 15º, ficou na 1ª divisão
 - resultado decidido fora de campo: Belenenses x Naval 1º de Maio fica 0-3 (ogol DA) — o Belenenses escalou um jogador irregular (16ª rodada): derrota por 0-3 (ficha do ogol; RSSSF: "awarded 0-3; originally 2-1") e mais 3 pontos descontados (RSSSF e Wikipédia)
 - punição tirada da tabela da RSSSF: Porto -6 pontos
 - punição tirada da tabela da RSSSF: União de Leiria -3 pontos
-- tabela publicada x jogos (Wikipédia) — Porto tabela [30, 24, 3, 3, 60, 13, 75] jogos [30, 24, 3, 3, 60, 13, 69]
+- ajuste de pontos de Porto: +0 (tabela publicada -6) — 6 pontos descontados em 2008 (caso Apito Final) e devolvidos em 2017 pelo Conselho de Justiça da FPF
+- tabela publicada x jogos (RSSSF) — Porto tabela [30, 24, 3, 3, 60, 13, 69] jogos [30, 24, 3, 3, 60, 13, 75]
 - tabela publicada x jogos (Wikipédia) — União de Leiria tabela [30, 3, 7, 20, 25, 53, 16] jogos [30, 3, 7, 20, 25, 53, 13]
-- a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
 
 ### 2008/09
 
 - a tabela da RSSSF dá 46 pontos ao Leixões (os jogos dão 45, como na Wikipédia)
 - Estrela da Amadora rebaixado por dívidas (terminou em 11º); o Belenenses, 15º, ficou na 1ª divisão
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 - placar diferente na ESPN — Vitória de Setúbal x Braga (2009-04-05): ogol 0-3, ESPN 0-2
 - tabela publicada x jogos (RSSSF) — Leixões tabela [30, 12, 9, 9, 30, 31, 46] jogos [30, 12, 9, 9, 30, 31, 45]
 - gols da ESPN não batem com o placar — Sporting 3-1 Trofense: ESPN 4-1 (descartados)
@@ -619,7 +631,7 @@ Gerado por `python coleta/por-1/importar.py`. Pacote em `data/coleta/por-1/pacot
 
 ### 2015/16
 
-- sem ocorrências
+- 1 datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em data/coleta/por-1/correcoes/datas.csv)
 
 ### 2016/17
 

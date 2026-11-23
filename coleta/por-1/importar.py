@@ -32,6 +32,9 @@ sys.path.insert(0, str(AQUI))
 import clubes_por as clubes  # noqa: E402
 from edicoes import DADOS, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
+import notas_wiki  # noqa: E402
+import ogol_ficha  # noqa: E402
+import rsssf_gols  # noqa: E402
 from rsssf_por import ler as ler_hist  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
 
@@ -45,20 +48,17 @@ ESD = range(1994, 2025)
 
 # placar corrigido no ogol: (ano, mandante, visitante) -> (gols, gols, motivo). Chaves de clubes_por.
 CORRECOES: dict[tuple, tuple] = {
-    (1994, "Benfica", "Sporting"): (2, 0, "o ogol traz 1-2; a matriz e a tabela da RSSSF, o engsoccerdata e o football-data trazem "
-                                          "2-0 (e a lista de campeões da RSSSF põe o Sporting, vice, 9 pontos atrás do Porto, o "
-                                          "que só fecha com 2-0)"),
+    # revisão PT-007: a ficha do ogol do jogo de Espinho lista só 2 gols; transfermarkt e as matrizes das Wikipédias pt e en
+    (1980, "Benfica", "Espinho"): (2, 1, "o ogol e a matriz da RSSSF trazem 2-0; o transfermarkt e as matrizes das Wikipédias pt "
+                                         "e en, 2-1 (os totais não mudam)"),
+    (1980, "Espinho", "Benfica"): (2, 0, "o ogol e a matriz da RSSSF trazem 3-0; a ficha do ogol lista só 2 gols (Vitorino "
+                                         "Belinha 2', Carlos Coelho 59'), como o transfermarkt e as Wikipédias pt e en"),
     (1995, "Leça", "Boavista"): (0, 3, "o ogol traz 0-2; a matriz e a tabela da RSSSF, a tabela da Wikipédia, o engsoccerdata e o "
                                        "football-data trazem 0-3"),
 }
 
 # jogo sem placar no ogol ("DA") cujo resultado de campo valeu: (ano, mandante, visitante) -> (gols, gols, motivo)
-CAMPO: dict[tuple, tuple] = {
-    (1986, "Braga", "Benfica"): (
-        1, 1, "a ficha do ogol diz que o jogo foi interrompido aos 86 minutos por invasão de campo e que os dois clubes foram "
-              "punidos com derrota; mas a matriz e a tabela da RSSSF e a tabela da Wikipédia contam o empate de campo, 1-1 (com ele, "
-              "o Benfica é campeão com 49 pontos, como na lista de campeões). Fica o 1-1"),
-}
+CAMPO: dict[tuple, tuple] = {}
 
 # resultado dado fora de campo: (ano, mandante, visitante) -> (gols, gols, vencedor, placar de campo, motivo). Fica `awd`.
 # gols None = fica o placar do ogol; vencedor "m"/"v" = vitória dada com o placar mantido; "nenhum" = derrota para os dois
@@ -68,9 +68,14 @@ TRIBUNAL: dict[tuple, tuple] = {
                           "administrativa (0-0)\"). A matriz da RSSSF traz 0-3 neste jogo e 3-1 no Leixões x Atlético (o ogol, 6-1); "
                           "as duas versões dão os mesmos totais, e as tabelas da RSSSF e da Wikipédia fecham com elas. Fica o ogol"),
     (1974, "CUF", "Vitória de Setúbal"): (
-        1, 1, "m", "1-1", "derrota administrativa do Vitória de Setúbal (ficha do ogol; 1-1 no intervalo). As tabelas da RSSSF e da "
-                          "Wikipédia contam a vitória do CUF com o 1-1 de campo (um gol pró e um contra para cada um); a matriz da "
-                          "RSSSF traz 0-2 neste jogo e 1-2 no Vitória x CUF (o ogol, 2-1), o que não fecha com as tabelas"),
+        1, 1, "m", "1-1", "derrota administrativa do Vitória de Setúbal (ficha do ogol: \"Vitória FC: derrota administrativa "
+                          "(0-0)\", 1-1 no intervalo). A matriz da RSSSF, o transfermarkt e as Wikipédias trazem outra versão "
+                          "dos dois jogos (CUF 0-2 Vitória e Vitória 1-2 CUF), que dá os mesmos totais e também fecha com as tabelas. "
+                          "Fica o ogol, que registra a decisão (revisão PT-009)"),
+    (1986, "Braga", "Benfica"): (
+        1, 1, "nenhum", "1-1", "interrompido aos 86 minutos por invasão de campo; a Federação deu derrota aos dois clubes "
+                               "(Diário de Lisboa, 18/07/1987; ficha do ogol; Wikipédia pt). O Benfica é campeão nos dois casos "
+                               "(revisão PT-004, decisão D-20 b)"),
     (1975, "Atlético CP", "Sporting"): (
         3, 0, None, None, "derrota do Sporting por invasão de campo (ficha do ogol: 3-0); a matriz da RSSSF traz 3-0"),
     (1986, "Belenenses", "Marítimo"): (
@@ -89,6 +94,47 @@ ACRESCIMOS: dict[tuple, tuple] = {
                                 "18ª rodada, adiado); as tabelas da RSSSF e da Wikipédia só fecham com ele"),
 }
 
+# temporada com a ordem oficial da RSSSF (e da Wikipédia pt), e não a da Wikipédia en: ano -> motivo
+ORDEM_RSSSF: dict[int, str] = {
+    1944: "2º Sporting e 3º Belenenses (27 pontos), 6º Olhanense e 7º Estoril (16): confronto direto, como na RSSSF (lista de "
+          "campeões: \"runners-up: Sporting CP\") e na Wikipédia pt (revisão PT-003)",
+    2005: "13º Naval e 14º Académica (39 pontos, com o Belenenses): confronto direto entre os três (Naval 7, Académica 5, "
+          "Belenenses 4), como na RSSSF e na Wikipédia pt (revisão PT-005, decisão D-19 c)",
+}
+# posições que mudam com uma decisão de tribunal que a tabela da Wikipédia en não conta: ano -> {posição: clube}
+ORDEM_FIXA: dict[int, dict] = {
+    1986: {9: "Académica", 10: "Portimonense", 11: "Braga", 12: "Rio Ave", 13: "Marítimo"},   # Wikipédia pt (PT-004)
+}
+# ajuste de pontos que vale hoje, diferente do da tabela publicada: (ano, clube) -> (ajuste, observação) (PT-006, D-20 a)
+AJUSTES: dict[tuple, tuple] = {
+    (2007, "Porto"): (0, "6 pontos descontados em 2008 (caso Apito Final) e devolvidos em 2017 pelo Conselho de Justiça da FPF"),
+}
+# observação na classificação final (revisão PT-016, PT-017, PT-018 e PT-006)
+OBS_CLASSIF: dict[tuple, str] = {
+    (1950, "Vitória de Setúbal"): "rebaixado em 12º; a Wikipédia pt confirma a queda (o Vitória de Guimarães, 13º, ficou)",
+    (1961, "Beira-Mar"): "rebaixado em 11º; a Wikipédia pt confirma a queda (o Lusitano de Évora, 12º, ficou)",
+    (1973, "Beira-Mar"): "rebaixado em 13º; a Wikipédia pt confirma a queda (o Leixões, 14º, ficou)",
+    (1997, "Leça"): "rebaixado administrativamente (corrupção num jogo da 2ª Divisão B em 1993); o Chaves, 16º, ficou no lugar",
+    (1997, "Chaves"): "16º, ficou na 1ª divisão no lugar do Leça, rebaixado administrativamente",
+    (2005, "Gil Vicente"): "rebaixado no lugar do Belenenses (caso Mateus, jogador inscrito irregularmente)",
+    (2005, "Belenenses"): "15º, ficou na 1ª divisão: o Gil Vicente caiu no lugar (caso Mateus)",
+    (2007, "Boavista"): "rebaixado pelo caso Apito Final (terminou em 9º)",
+    (2007, "União de Leiria"): "3 pontos a menos (caso Apito Final)",
+    (2008, "Estrela da Amadora"): "rebaixado por dívidas (terminou em 11º); o Belenenses, 15º, ficou",
+    (2019, "Vitória de Setúbal"): "rebaixado por não cumprir as regras de licenciamento; o Portimonense, 17º, ficou",
+    (2019, "Desportivo das Aves"): "rebaixado por não cumprir as regras de licenciamento",
+    (2023, "Estrela da Amadora"): "Club Football Estrela da Amadora (da fusão de 2020), contado junto do CF Estrela da Amadora de "
+                                  "1932, como no ogol (decisão D-24 c)",
+    (1946, "SL Elvas"): "fundiu-se em 1947 com o Elvas FC no O Elvas CAD, que ficou com o lugar na 1ª divisão (decisão D-24 d)",
+}
+# datas corrigidas (revisão PT-010 e PT-011): data/coleta/por-1/correcoes/datas.csv
+CORRECOES_DIR = DADOS / "correcoes"
+DATAS: dict[str, list] = {}
+# artilheiro com o número errado na lista da RSSSF: (ano, jogador) -> (gols, motivo) (revisão PT-012)
+GOLS_ARTILHEIRO = {(2018, "Haris Seferovic"): (23, "a RSSSF dá 33 (erro de digitação); a Bola de Prata, a Wikipédia pt e os "
+                                                   "gols da ESPN dão 23")}
+FICHAS = RAIZ / "data" / "cache" / "ogol-por-1" / "fichas"
+
 # 1934/35 a 1944/45: os participantes saíam dos campeonatos regionais (não havia acesso e rebaixamento)
 SEM_REBAIXAMENTO = set(range(1934, 1945))
 # clube que não está na temporada seguinte sem ter sido rebaixado: (ano, clube) -> motivo
@@ -102,21 +148,24 @@ NAO_REBAIXADOS = {
 WIKI_ERRA = "a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos"
 EXPLICACOES: dict[int, list[str]] = {
     1947: [WIKI_ERRA + " (Atlético CP)"],
+    1986: ["Braga x Benfica (31/05/1987): derrota para os dois no tribunal; as tabelas da RSSSF e da Wikipédia en contam o 1-1 "
+           "de campo e não fecham nesses dois clubes; a da Wikipédia pt conta a decisão (Benfica 48, Braga 25 e 11º)"],
     1990: ["a tabela da Wikipédia troca os números do Marítimo e do Farense; a da RSSSF fecha com os jogos",
            "a matriz da RSSSF traz trocadas as colunas 13 e 14 (Gil Vicente e Famalicão): desfeita a troca, os 380 placares batem "
            "com o ogol"],
     1992: [WIKI_ERRA + " (Porto: 57 gols pró; os jogos dão 59)"],
-    1994: ["a tabela da Wikipédia dá ao Benfica as vitórias e derrotas do 1-2 contra o Sporting e os gols do 2-0; a da RSSSF "
-           "fecha com o 2-0"],
+    1994: ["Benfica 1-2 Sporting (30/04/1995): o ogol, o transfermarkt, a Wikipédia pt e o artigo da temporada do Benfica (\"perdeu "
+           "os dois jogos contra o Sporting\") dão 1-2; a matriz e a tabela da RSSSF, o engsoccerdata e o football-data, 2-0. "
+           "Fica o 1-2 (revisão PT-002)"],
     1995: [WIKI_ERRA + " (Benfica)"],
     1998: [WIKI_ERRA + " (Académica: 70 gols contra; os jogos dão 71)"],
     2005: ["Académica, Naval e Belenenses terminaram com 39 pontos; a Wikipédia (e os sites que a repetem) põe a Académica em 13º "
-           "e o Naval em 14º, a RSSSF o contrário (que é o que dá o confronto direto entre os três). Fica a da Wikipédia",
+           "e o Naval em 14º, a RSSSF o contrário (que é o que dá o confronto direto entre os três). Fica a da RSSSF",
            "o Belenenses terminou em 15º, na zona de rebaixamento, e ficou na 1ª divisão: o Gil Vicente foi rebaixado no lugar "
            "dele (caso Mateus, jogador inscrito irregularmente)"],
-    2007: ["Porto -6 pontos e União de Leiria -3 pontos (caso Apito Final, corrupção na temporada 2003/04), como na tabela da "
-           "RSSSF e na classificação do fim da temporada. A Wikipédia de hoje não desconta, porque o Conselho de Justiça da "
-           "Federação absolveu o Porto em 2017; a ordem é a mesma nos dois casos",
+    2007: ["Porto com 75 pontos: os 6 descontados em 2008 (caso Apito Final) foram devolvidos em 2017 pelo Conselho de Justiça "
+           "da FPF, como nas Wikipédias pt e en (decisão D-20 a); União de Leiria com 3 pontos a menos, como na RSSSF (sem fonte "
+           "da devolução). A ordem é a mesma nos dois casos",
            "Boavista rebaixado pelo caso Apito Final (terminou em 9º); o Paços de Ferreira, 15º, ficou na 1ª divisão"],
     2008: ["a tabela da RSSSF dá 46 pontos ao Leixões (os jogos dão 45, como na Wikipédia)",
            "Estrela da Amadora rebaixado por dívidas (terminou em 11º); o Belenenses, 15º, ficou na 1ª divisão"],
@@ -416,6 +465,9 @@ def main() -> None:
     espn = carregar_espn()
     wiki = carregar_wiki()
     camp_rs = campeoes_rsssf()
+    for x in ler_csv(CORRECOES_DIR / "datas.csv"):
+        DATAS.setdefault(x["temporada"], []).append(x)
+    pendentes = set()
     mapa_espn = votar(base, espn, "mandante_id", "visitante_id")
     prox_2026 = {clubes.ogol(o[k]) for o in json.loads((DADOS / "ogol" / f"por1_{TEMPORADAS[-1] + 1}.json").read_text(encoding="utf-8"))
                  for k in ("mandante_id", "visitante_id")}
@@ -463,6 +515,18 @@ def main() -> None:
             if j["gm"] is None:
                 raise SystemExit(f"{T}: jogo sem placar no ogol ({j['ogol']['resultado']}) e fora de TRIBUNAL: {j['m']} x {j['v']} "
                                  f"({j['data']}, {j['ogol']['url']})")
+
+        n_datas = 0
+        for x in DATAS.get(T, []):
+            m_, v_ = clubes.esd(x["mandante"], a), clubes.esd(x["visitante"], a)
+            j = next((j for j in jogos if (j["m"], j["v"], j["data"]) == (m_, v_, x["data_errada"])), None)
+            if j is None:
+                raise SystemExit(f"{T}: jogo da correção de data não encontrado: {x}")
+            j["data"], j["data_errada"] = x["data_certa"], x["data_errada"]
+            n_datas += 1
+        if n_datas:
+            ocorr[a].append(f"{n_datas} datas corrigidas: o football-data e o transfermarkt concordam contra o ogol (lista em "
+                            f"data/coleta/por-1/correcoes/datas.csv)")
 
         # ---- RSSSF: matriz de resultados (até 2004/05)
         rs_hist = ler_hist(DADOS / "rsssf" / rsssf_url(a).rsplit("/", 1)[1]) if a <= 2004 else None
@@ -572,6 +636,10 @@ def main() -> None:
                         and x["pontos"] < c[6] and x["clube"] not in ajuste:
                     ajuste[x["clube"]] = x["pontos"] - c[6]
                     ocorr[a].append(f"punição tirada da tabela da RSSSF: {x['clube']} {x['pontos'] - c[6]:+d} pontos")
+        for (ano, c), (v_aj, motivo) in AJUSTES.items():
+            if ano == a:
+                ocorr[a].append(f"ajuste de pontos de {c}: {v_aj:+d} (tabela publicada {ajuste.get(c, 0):+d}) — {motivo}")
+                ajuste[c] = v_aj
         conferidas, divergentes, confere = 0, 0, {}
         publicadas = []
         if rs:
@@ -612,7 +680,11 @@ def main() -> None:
                             f"RSSSF difere, fica o ogol")
 
         # ordem oficial: Wikipédia; se ela não fecha e a RSSSF fecha, a da RSSSF; sem nenhuma, calculada
-        if w and (confere.get("Wikipédia") or not confere.get("RSSSF")):
+        if a in ORDEM_RSSSF and rs:
+            ordem = [x["clube"] for x in rs]
+            fonte_ordem = "RSSSF (ordem oficial)"
+            ocorr[a].append(f"fica a ordem da RSSSF: {ORDEM_RSSSF[a]}")
+        elif w and (confere.get("Wikipédia") or not confere.get("RSSSF")):
             ordem = [x["clube"] for x in w["times"]]
             fonte_ordem = "Wikipédia (ordem oficial)"
         elif rs:
@@ -623,6 +695,13 @@ def main() -> None:
         else:
             ordem = ordenar(ref, ajuste, "saldo", jogos, pv)
             fonte_ordem = "calculada"
+        if a in ORDEM_FIXA:
+            fixos = ORDEM_FIXA[a]
+            resto = [c for c in ordem if c not in fixos.values()]
+            ordem = [fixos.get(p_) or resto.pop(0) for p_ in range(1, len(ordem) + 1)]
+            fonte_ordem = "Wikipédia pt (ordem oficial, com a decisão do tribunal)"
+            ocorr[a].append("ordem da Wikipédia pt nas posições " + ", ".join(f"{p_}º {c}" for p_, c in sorted(fixos.items()))
+                            + ": a derrota dada a Braga e Benfica muda os pontos do Braga")
         if rs and w and fonte_ordem.startswith("Wikipédia") and [x["clube"] for x in rs] != ordem:
             dif = [(r["clube"], c) for r, c in zip(rs, ordem) if r["clube"] != c]
             ocorr[a].append(f"ordem diferente entre RSSSF e Wikipédia em {len(dif)} posições (ex.: RSSSF {dif[0][0]}, Wikipédia "
@@ -676,9 +755,11 @@ def main() -> None:
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 else "rebaixado" if c in rebaixados else None,
                 "fonte": fonte_ordem,
-                "observacao": ((w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None)) or None)})
+                "observacao": OBS_CLASSIF.get((a, c)) or (AJUSTES[(a, c)][1] if (a, c) in AJUSTES else None) or
+                ((w and next((notas_wiki.traduzir(x["nota"] or x["hth"]) for x in w["times"] if x["clube"] == c), None)) or None)})
 
         # ---- partidas, gols, cartões, estatísticas
+        rs_gols = gols_rsssf(a, jogos) if 1999 <= a <= 2005 else {}
         jogos.sort(key=lambda j: (j["data"] or "9999", j["rodada"] or 0, j["m"]))
         gols_ano = autor_ano = 0
         for i, j in enumerate(jogos, 1):
@@ -714,6 +795,7 @@ def main() -> None:
                 "publico": (e or {}).get("publico") or None, "fonte": " + ".join(fontes), "fonte_id": "|".join(ids),
                 "gols_texto": None, "observacao": obs, "arbitro": (x or {}).get("Referee") or None})
             gols_ano += j["gm"] + j["gv"]
+            com_autor = False
             if e and e["lances"] and not j.get("especial"):
                 gl = [l for l in e["lances"] if l["gol"]]
                 lado = {"home": j["m"], "away": j["v"]}
@@ -726,6 +808,7 @@ def main() -> None:
                                             "tipo": "contra" if l["contra"] else "penalti" if l["penalti"] else
                                             "falta" if "free-kick" in (l["tipo"] or "").lower() else "normal", "fonte": "ESPN"})
                     autor_ano += len(gl)
+                    com_autor = bool(gl)
                 elif gl:
                     ocorr[a].append(f"gols da ESPN não batem com o placar — {j['m']} {j['gm']}-{j['gv']} {j['v']}: "
                                     f"ESPN {sum(l['lado'] == 'home' for l in gl)}-{sum(l['lado'] == 'away' for l in gl)}"
@@ -736,6 +819,25 @@ def main() -> None:
                         tab["cartoes"].append({"partida_id": pid, "clube": clubes.exibicao(lado[l["lado"]]),
                                                "jogador": (l["jogadores"] or [None])[0], "minuto": mi, "acrescimo": ac,
                                                "cor": "vermelho" if l["vermelho"] else "amarelo", "fonte": "ESPN"})
+            if not com_autor and j["gm"] + j["gv"] > 0 and not j.get("especial") and a >= 1999:
+                # sem os gols da ESPN: a RSSSF (1999/00-2005/06, revisão PT-019) ou a ficha do ogol
+                lista, fonte_g = None, None
+                r_ = rs_gols.get((j["m"], j["v"]))
+                if r_ and (r_[0], r_[1]) == (j["gm"], j["gv"]):
+                    lista, fonte_g = [(l_, n_, mi_, None, t_) for l_, n_, mi_, t_ in r_[2]], "RSSSF"
+                elif o:
+                    arq_f = FICHAS / f"{o['id']}.html"
+                    if arq_f.exists():
+                        g_ = ogol_ficha.gols(arq_f.read_text(encoding="utf-8", errors="replace"))
+                        if (sum(l_[0] == "m" for l_ in g_), sum(l_[0] == "v" for l_ in g_)) == (j["gm"], j["gv"]):
+                            lista, fonte_g = g_, f"ogol (ficha {o['id']})"
+                    else:
+                        pendentes.add(o["id"])
+                if lista:
+                    for l_, n_, mi_, ac_, t_ in lista:
+                        tab["gols"].append({"partida_id": pid, "clube": clubes.exibicao(j[l_]), "jogador": n_, "minuto": mi_,
+                                            "acrescimo": ac_, "tipo": t_, "fonte": fonte_g})
+                    autor_ano += len(lista)
             if x and x.get("HS"):
                 def num(k):
                     v_ = x.get(k)
@@ -791,6 +893,10 @@ def main() -> None:
         print(f"{T}: {len(jogos)} jogos, tabelas {conferidas} ok / {divergentes} div, gols {gols_ano} ({autor_ano} c/ autor), "
               f"critério {criterio}{'' if criterios[a][1] else ' (aprox.)'}, campeão {clubes.exibicao(campeao)}", flush=True)
 
+    (DADOS / "fichas_pendentes.json").write_text(json.dumps(sorted(pendentes)), encoding="utf-8")
+    if pendentes:
+        print(f"{len(pendentes)} fichas do ogol a baixar: python coleta/por-1/baixar.py fichas", flush=True)
+
     # ---- clubes
     for c, (cidade, pais) in sorted(clubes.CLUBES.items()):
         if c not in nomes:
@@ -801,6 +907,24 @@ def main() -> None:
     tab["artilheiros"] = artilheiros(ocorr)
     gravar(PACOTE, COMPETICAO, tab)
     relatorio(linhas_rel, ocorr, tab, mapa_espn, criterios)
+
+
+def gols_rsssf(a: int, jogos: list[dict]) -> dict[tuple, tuple]:
+    """Autores dos gols pela página da RSSSF da temporada (tablesp/port00.html ... port06.html; revisão PT-019): os nomes da
+    RSSSF ("Vitoria G") viram clubes por votação (mesma rodada e mesmo placar, quando só um jogo serve)."""
+    arq = DADOS / "rsssf" / f"port{str(a + 1)[-2:]}.html"
+    if not arq.exists():
+        return {}
+    rs = rsssf_gols.jogos(arq)
+    votos = defaultdict(Counter)
+    for r in rs:
+        cand = [j for j in jogos if j.get("rodada") == r["rodada"] and (j["gm"], j["gv"]) == (r["gm"], r["gv"])]
+        if len(cand) == 1:
+            votos[r["nm"]][cand[0]["m"]] += 1
+            votos[r["nv"]][cand[0]["v"]] += 1
+    mapa = {k: c.most_common(1)[0][0] for k, c in votos.items()}
+    return {(mapa[r["nm"]], mapa[r["nv"]]): (r["gm"], r["gv"], r["gols"]) for r in rs
+            if r["nm"] in mapa and r["nv"] in mapa and r["gols"]}
 
 
 def artilheiros(ocorr) -> list[dict]:
@@ -820,10 +944,14 @@ def artilheiros(ocorr) -> list[dict]:
         x = re.match(r"^(.*?)\s*\(([^()]+)\)\s*[-\x96–]?\s*(\d+)\s*goals", resto.replace("\t", " "))
         if not x or ano not in TEMPORADAS:
             continue
-        nome, clube_txt, gols = x.group(1).strip(), x.group(2).strip(), int(x.group(3))
+        nome, clube_txt, gols = x.group(1).strip().rstrip("\x96–- ").strip(), x.group(2).strip(), int(x.group(3))   # PT-013
         c = clubes.esd(clube_txt, ano)
+        fonte_a = "RSSSF (tablesp/porttops.html)"
+        if (ano, nome) in GOLS_ARTILHEIRO:
+            gols, motivo = GOLS_ARTILHEIRO[(ano, nome)]
+            fonte_a += f"; {motivo}"
         res.append({"temporada": temporada(ano), "jogador": nome, "clube": clubes.exibicao(c) if c else None, "gols": gols,
-                    "fonte": "RSSSF (tablesp/porttops.html)"})
+                    "fonte": fonte_a})
         if c is None:
             ocorr[ano].append(f"artilheiro com clube sem cadastro: {nome} ({clube_txt})")
     faltam = sorted(set(TEMPORADAS) - {int(x["temporada"][:4]) for x in res})

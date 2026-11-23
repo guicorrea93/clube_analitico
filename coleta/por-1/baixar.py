@@ -132,6 +132,25 @@ def espn() -> None:
         print(f"espn {temporada(a)}: {len(js)} jogos, {sum(1 for j in js if j['lances'])} com lances", flush=True)
 
 
+def rsssf_gols() -> None:
+    """Páginas da RSSSF de 1999/00 a 2005/06 (tablesp/port00.html ... port06.html), com os autores dos gols (revisão PT-019)."""
+    for f in range(2000, 2007):
+        nome = f"port{str(f)[-2:]}.html"
+        d = pegar(f"https://www.rsssf.org/tablesp/{nome}", DADOS / "rsssf" / nome, espera=2.0)
+        print(f"rsssf {nome}: {len(d or b'')} bytes", flush=True)
+
+
+def fichas() -> None:
+    """Ficha do ogol dos jogos com gols e sem autor (a ESPN e a RSSSF faltam ou não fecham), listados pelo importador em
+    data/coleta/por-1/fichas_pendentes.json. Em data/cache/ogol-por-1/fichas/."""
+    arq = DADOS / "fichas_pendentes.json"
+    if not arq.exists():
+        return
+    for oid in json.loads(arq.read_text(encoding="utf-8")):
+        d = pegar(f"https://www.ogol.com.br/jogo.php?id={oid}", CACHE / "ogol-por-1" / "fichas" / f"{oid}.html", espera=2.0)
+        print(f"ficha ogol {oid}: {len(d or b'')} bytes", flush=True)
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1934-1960" passa a faixa de temporadas

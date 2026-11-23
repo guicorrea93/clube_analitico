@@ -72,9 +72,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "Árbitro: os arquivos do football-data da França não trazem (revisão FR-022); seria jogo a jogo pelo transfermarkt.",
     ],
     "por-1": [
-        "Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).",
-        "Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a "
-        "situação de hoje (absolvição em 2017), tirar o desconto em importar.py.",
+        "Autores dos gols: RSSSF (1999/00-2005/06, onde a soma fecha), ficha do ogol (2001/02, que a RSSSF não traz, e os jogos "
+        "em que a ESPN falta ou não fecha) e ESPN (2006/07+). Antes de 1999/00, nenhuma fonte em lote. Sem autor ficam 103 jogos "
+        "de 2001/02 e 27 de 2010/11 (a ficha do ogol também não fecha).",
+        "Revisão PT-020: árbitro e público pelo transfermarkt (jogo a jogo, ~11 mil páginas) ou pela ficha do ogol: não feito "
+        "(custo alto); o football-data de Portugal não traz árbitro.",
+        "Revisão PT-010: Belenenses x Sporting (1938/39) e os dois jogos do Académico do Porto em 04/02/1940 (1939/40) seguem "
+        "com a data do ogol; o transfermarkt repete o ogol e a ficha não decide. Conferir num jornal da época.",
     ],
     "sco-1": [
         "Autores dos gols e cartões antes da ESPN (2001/02): jogo a jogo (ficha do ogol).",

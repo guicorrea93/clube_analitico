@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 ## 1. O que temos
 
 - **Edições:** 92, de 1934/35 a 2025/26.
-- **Jogos:** 20978; **gols:** 59544; **gols com autor:** 18259 (31%); **cartões:** 30915; **jogos com estatísticas** (chutes, faltas, escanteios): 2754.
+- **Jogos:** 20978; **gols:** 59544; **gols com autor:** 18958 (32%); **cartões:** 30915; **jogos com estatísticas** (chutes, faltas, escanteios): 2754.
 - **Clubes:** 73; **artilheiros:** 92 temporadas com artilheiro (99 linhas, com empates).
 - **Classificação final:** 92 temporadas; **rodada a rodada:** 92 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2820 linhas, de 184 tabelas.
@@ -24,7 +24,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 **Regras da importação:** o placar é o do ogol; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Lisboa; Açores nos jogos em casa do Santa Clara). Rebaixado = clube que não está na 1ª divisão na temporada seguinte (até 1944/45 não havia rebaixamento: os participantes saíam dos campeonatos regionais). 2 pontos por vitória até 1994/95, 3 a partir de 1995/96. Placar diferente em outra fonte numa temporada em que as tabelas publicadas fecham com o ogol é erro da outra fonte e fica só anotado; quando a outra fonte e as tabelas publicadas concordam contra o ogol, o placar é corrigido (CORRECOES e TRIBUNAL em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 82, confronto direto aplicado de novo entre os que seguem empatados em 3, o mesmo com saldo e gols fora de casa no confronto em 6, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 81, confronto direto aplicado de novo entre os que seguem empatados em 3, o mesmo com saldo e gols fora de casa no confronto em 6, saldo de gols em 1, média de gols em 1); é ele que ordena a classificação rodada a rodada.
 
 ## 3. Conferência
 
@@ -45,9 +45,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1960s | 1820 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 2342 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 2746 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 9% | 0.0 |
-| 2000s | 2796 | 100% | 34% | 100% | 34% | 33% | 0% | 0% | 87% | 1.7 |
-| 2010s | 2796 | 100% | 100% | 100% | 92% | 74% | 0% | 33% | 96% | 5.7 |
+| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 10% | 0.0 |
+| 2000s | 2796 | 100% | 34% | 100% | 34% | 33% | 0% | 0% | 94% | 1.7 |
+| 2010s | 2796 | 100% | 100% | 100% | 92% | 74% | 0% | 33% | 98% | 5.7 |
 | 2020s | 1836 | 100% | 100% | 100% | 100% | 83% | 0% | 100% | 100% | 5.5 |
 
 ## 5. Formato do campeonato ao longo do tempo
@@ -86,10 +86,11 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
-- pontos, confronto direto, saldo de gols, gols pró: 82 temporadas
+- pontos, confronto direto, saldo de gols, gols pró: 81 temporadas
 - pontos, pontos no confronto direto (de novo entre os que seguem empatados), saldo e gols fora de casa no confronto direto, saldo de gols, gols pró: 6 temporadas
 - pontos, pontos no confronto direto (de novo entre os que seguem empatados), saldo de gols, gols pró: 3 temporadas
 - pontos, média de gols (goal average): 1 temporadas
+- pontos, saldo de gols, gols pró: 1 temporadas
 
 **Observações das edições** (formato, punições, casos especiais):
 
@@ -214,8 +215,9 @@ Registradas em `coleta/por-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
-- Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).
-- Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a situação de hoje (absolvição em 2017), tirar o desconto em importar.py.
+- Autores dos gols: RSSSF (1999/00-2005/06, onde a soma fecha), ficha do ogol (2001/02, que a RSSSF não traz, e os jogos em que a ESPN falta ou não fecha) e ESPN (2006/07+). Antes de 1999/00, nenhuma fonte em lote. Sem autor ficam 103 jogos de 2001/02 e 27 de 2010/11 (a ficha do ogol também não fecha).
+- Revisão PT-020: árbitro e público pelo transfermarkt (jogo a jogo, ~11 mil páginas) ou pela ficha do ogol: não feito (custo alto); o football-data de Portugal não traz árbitro.
+- Revisão PT-010: Belenenses x Sporting (1938/39) e os dois jogos do Académico do Porto em 04/02/1940 (1939/40) seguem com a data do ogol; o transfermarkt repete o ogol e a ficha não decide. Conferir num jornal da época.
 
 ## 10. Arquivos
 
