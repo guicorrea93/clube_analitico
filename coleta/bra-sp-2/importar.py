@@ -1075,9 +1075,13 @@ TABELAS_PARCIAIS: dict[str, str] = {}
 # tiver"), como as edições sem jogos do uru-1 e do par-1. Não há página de 1965
 # 1965 e 1990 (sem página da RSSSF) vêm da Wikipédia em português, que também traz parte dos jogos de vários anos
 # (wikipedia_sp2.py)
-SO_CLASSIFICACAO = {str(a) for a in (*range(1947, 1967), 1990, 1992, 1993, 1994)}
+SO_CLASSIFICACAO = {str(a) for a in (*range(1947, 1985), 1990, 1992, 1993, 1994)} - {"1979"}   # 1967-1984: achado A2-001
 # observação da edição (vai para edicoes.csv)
 OBS_EDICAO: dict[str, list[str]] = {
+    "1983": ["o vice Noroeste perdeu o \"rebolo\" com o Taubaté, penúltimo da 1ª divisão (0-1 em 15/12 e 0-1 em 18/12/1983, "
+             "em Campinas), e ficou na 2ª divisão; os jogos ficam fora (decisão D-04)"],
+    "1972": ["a Wikipédia não tem a página desta edição: só a lista de participantes (RSSSF) e o pódio (predefinição de "
+             "campeões da Wikipédia); a final São José x Garça (3-0 e 0-0) vem lá sem data nem mando e fica fora"],
     "1948": ["Sanjoanense licenciado (não jogou)"],
     "1954": ["2ª fase: a página traz também uma tabela calculada dos jogos (Taubaté 16 e Comercial 11 pontos); vale a "
              "classificação oficial (14 e 13)"],
@@ -1208,6 +1212,8 @@ CIDADES = {
     "S. José do R Pardo": "São José do Rio Pardo", "S. José do R. Pardo": "São José do Rio Pardo",
     "S.José do R.Pardo": "São José do Rio Pardo", "S. José dos Campos": "São José dos Campos", "S. Paulo": "São Paulo",
     "S.Manuel": "São Manuel", "Sta. Cruz do Rio Pardo": "Santa Cruz do Rio Pardo", "Uchôa": "Uchoa", "Votuporan.": "Votuporanga",
+    "São Bernardo do Campos": "São Bernardo do Campo", "São João da Rio Preto": "São José do Rio Preto", "Santa Bárbara D´Oeste": "Santa Bárbara d'Oeste",
+    "Santa Bárbara D'Oeste": "Santa Bárbara d'Oeste", "São José Dos Campos": "São José dos Campos",
 }
 # (nome sem siglas, cidade da página) -> cidade certa: o CA Votorantim é de Votorantim (distrito de Sorocaba até 1963); o
 # Catanduva EC de 1956 está "(Araçatuba)" por engano; a SE Irmãos Romano é de São Bernardo do Campo (1961-1966; em 1960,
@@ -1226,7 +1232,13 @@ MANUAL_ANTIGO = {"AD São Caetano": "2255",   # AD São Caetano (1989); o EC Sã
                  "CA Bragantino": "red-bull-bragantino", "Bragantino": "red-bull-bragantino",   # a ficha não tem cidade
                  ("1994", "Catanduva"): "15767",   # "Catanduva EC is the new name of GE Catanduvense" (página de 1994)
                  ("1947", "XV Piracicaba"): "8229",   # 1947: a tabela não traz as cidades
-                 ("1994", "São Caetano"): "2255"}   # AD São Caetano (lista de participantes da página)
+                 ("1994", "São Caetano"): "2255",   # AD São Caetano (lista de participantes da página)
+                 "Ferroviário Ituano": "2543",
+                 # 1969-1971: Araçatuba FC (a AE Araçatuba, 19365, é de 1972); "Araçatuba" também casaria com o
+                 # "São Paulo (Araçatuba)" do cadastro
+                 ("1969", "Araçatuba"): "rs-aracatuba", ("1970", "Araçatuba"): "rs-aracatuba", ("1971", "Araçatuba"): "rs-aracatuba",
+                 ("1971", "Esportiva"): "68360",   # Esportiva de Guaratinguetá (fora da lista de participantes da RSSSF)
+                 ("1982", "Araçatuba"): "19365"}   # AE Araçatuba (fora da lista de participantes da RSSSF)   # Ferroviário Atlético Ituano (Itu) é o Ituano FC (1984; NOME_MANUAL de 1985-1989)
 _SIGLA_INI = re.compile(r"^(?:(?:A|AA|AE|AD|EC|FC|CA|SE|GE|AC|SC|EA)\.?\s+|(?:A\.A\.|E\.C\.|C\.A\.|S\.E\.|A\.E\.|F\.C\.|A\.)\s*)")
 _SIGLA_FIM = re.compile(r"\s+(?:FC|EC|AC|F\.C|E\.C|A\.C|de Esp\.? Atl[^\s]*|de E\.? ?A|Esp\. Atl[^\s]*|E\. Atl[^\s]*|de Esp\.?)\.?$")
 
@@ -1311,7 +1323,15 @@ def casar_antigo(ano: str, n: str, cidade: str | None, log: list[str]) -> str:
     (ficha_antiga); senão o clube só da RSSSF da mesma cidade e nome parecido (deste pacote ou do cadastro comum); senão um
     clube novo "rs-<nome>-<cidade>"."""
     if (ano, n) in MANUAL_ANTIGO or n in MANUAL_ANTIGO:
-        return MANUAL_ANTIGO.get((ano, n)) or MANUAL_ANTIGO[n]
+        i = MANUAL_ANTIGO.get((ano, n)) or MANUAL_ANTIGO[n]
+        if i.startswith("rs-") and i not in clubes_sp2.SEM_OGOL:   # clube só da RSSSF do cadastro comum
+            import registro
+            r = registro.ler()[i]
+            clubes_sp2.SEM_OGOL[i] = {"id": i, "curto": r["clube"], "nomes_ogol": [], "uf": "SP", "cidade": r.get("cidade"),
+                                      "nome_completo": None}
+            clubes_sp2.fichas.cache_clear()
+            clubes_sp2.exibicao.cache_clear()
+        return i
     base = curto_antigo(n)
     i = ficha_antiga(ano, base, cidade)
     if i:
@@ -1393,16 +1413,20 @@ def montar_antiga(ano: str, log: list[str], rs_c: dict, wk_c: dict) -> dict:
             if primeira:
                 anteriores.append((nome_pag, cid, bool(re.search(r"qualif|classif", r.get("nota") or ""))))
         tabs.append((tb, {r["clube_id"]: r for r in tb.linhas}, nome_id))
-    final, campeao = classificacao_antiga(ano, tbs, rs_c, wk_c, log)
     mapa = {(r["nome"], tb.fase, tb.grupo): r["clube_id"] for tb in tbs for r in tb.linhas}
     todos = [(NOME_CORRIGIDO.get(r["nome"], r["nome"]), r["clube_id"], bool(re.search(r"qualif|classif", r.get("nota") or "")))
              for tb in tbs for r in tb.linhas]
     partidas = jogos_wikipedia_antiga(ano, todos, log)
+    final, campeao = classificacao_antiga(ano, tbs, rs_c, wk_c, log, partidas)
     import wikipedia_sp2
     so_ordem = tbs and tbs[0].fase == "Classificação final"
-    tabela = ("a ordem final" if so_ordem else "a tabela final" if len([tb for tb in tbs if tb.publicada]) == 1
-              else "os pontos de cada fase")
+    publicadas = [tb for tb in tbs if tb.publicada]
+    tabela = ("a ordem final" if so_ordem else "a lista de participantes e o pódio" if not publicadas
+              else "a tabela final" if len(publicadas) == 1 else "os pontos de cada fase")
     obs = list(OBS_EDICAO.get(ano, []))
+    if ano in antigas_sp2.NOVAS:
+        obs.append("sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da "
+                   "Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001)")
     if partidas:
         fases = ", ".join(f.lower() for f in sorted({p.fase for p in partidas}, key=lambda f: ORDEM.get(f, 0)))
         formato = f"jogos incompletos ({tabela} e {len(partidas)} {'jogo' if len(partidas) == 1 else 'jogos'}: {fases})"
@@ -1463,9 +1487,12 @@ def conferir_antiga(ano: str, tbs: list, partidas: list[Partida]) -> dict:
     return conf
 # temporada -> o vice, quando a regra (o outro finalista) não basta
 VICE_ANTIGO: dict[str, str] = {}
+# nome do pódio da predefinição da Wikipédia -> nome que casa com o da edição
+NOME_PODIO = {"Red Bull Bragantino": "Bragantino", "EC Corinthians": "Corinthians", "Aliança Clube": "Aliança"}
 
 
-def classificacao_antiga(ano: str, tbs: list, rs_c: dict, wk_c: dict, log: list[str]) -> tuple[list[dict], str | None]:
+def classificacao_antiga(ano: str, tbs: list, rs_c: dict, wk_c: dict, log: list[str],
+                        partidas: list | None = None) -> tuple[list[dict], str | None]:
     """Classificação final de uma edição sem os jogos. O campeão é o da lista da RSSSF; o vice é o outro finalista: o 1º de
     outro grupo da última fase (quando ela tem grupos) ou o melhor da tabela única da última fase. Depois, a fase alcançada
     e, dentro dela, a posição no grupo e os pontos da última fase. Os pontos de cada fase vão na observação; a linha só tem
@@ -1482,9 +1509,37 @@ def classificacao_antiga(ano: str, tbs: list, rs_c: dict, wk_c: dict, log: list[
         log.append(f"{ano}: campeão da RSSSF ({rs_c.get(ano, '-')}) sem clube nas tabelas")
     def ultima(c):
         return max(linhas_de[c], key=lambda x: ORDEM_ANTIGA.get(x[0].fase, 0))
+    # fase alcançada: a da tabela ou a dos jogos (1970, 1980: semifinal e final só nos jogos da Wikipédia)
+    alcance = {c: max(ORDEM_ANTIGA.get(tb.fase, 0) for tb, _ in linhas_de[c]) for c in ids}
+    for p in partidas or []:
+        for c in (p.mandante, p.visitante):
+            if c in alcance:
+                alcance[c] = max(alcance[c], ORDEM.get(p.fase, 0))
     ordem_max = max(ORDEM_ANTIGA.get(tb.fase, 0) for tb in tbs)
     ult = [tb for tb in tbs if ORDEM_ANTIGA.get(tb.fase, 0) == ordem_max]
     vice = VICE_ANTIGO.get(ano)
+    # 1967-1984: o pódio da predefinição de campeões da Wikipédia (vice, 3º e 4º; achado A2-001)
+    import antigas_sp2
+    import wikipedia_sp2
+    podio_rank: dict[str, int] = {}
+    if ano in antigas_sp2.NOVAS:
+        pod = wikipedia_sp2.podio(ano)
+        todos = [(r["nome"], r["clube_id"], False) for tb in tbs for r in tb.linhas]
+        for rank, nomes in ((2, [pod.get("vice")]), (3, pod.get("terceiro", [])), (4, pod.get("quarto", []))):
+            for n in nomes:
+                cid = n and casar_fase_seguinte(ano, NOME_PODIO.get(n, n), None, todos)
+                if n and not cid:
+                    raise ValueError(f"{ano}: clube do pódio da Wikipédia sem clube na edição: {n}")
+                if cid and cid != campeao:
+                    podio_rank.setdefault(cid, rank)
+        vice = vice or next((c for c, k in podio_rank.items() if k == 2), None)
+        # 3º e 4º da predefinição só para quem chegou à fase mais avançada dos outros clubes (1980: o 4º da predefinição,
+        # Ginásio Pinhalense, não jogou a semifinal)
+        topo = max((alcance[c] for c in ids if c not in (campeao, vice)), default=0)
+        for c in [c for c, k in podio_rank.items() if k > 2 and alcance.get(c, 0) < topo]:
+            log.append(f"{ano}: {nome(c)} é {podio_rank[c]}º na predefinição da Wikipédia, mas não chegou à fase final; "
+                       "fica pela fase alcançada")
+            del podio_rank[c]
     if not vice and ult[0].fase != "Classificação final":
         if len(ult) > 1:
             lideres = [min(tb.linhas, key=lambda r: r["pos"])["clube_id"] for tb in ult]
@@ -1496,7 +1551,8 @@ def classificacao_antiga(ano: str, tbs: list, rs_c: dict, wk_c: dict, log: list[
     def chave(c):
         tb, r = ultima(c)
         abandonou = r.get("nota") == "abandoned"
-        return (c != campeao, c != vice, abandonou, -ORDEM_ANTIGA.get(tb.fase, 0), r["pos"] or 99, -(r["pts"] or 0), nome(c))
+        return (c != campeao, c != vice, -alcance[c], podio_rank.get(c, 9), abandonou, -ORDEM_ANTIGA.get(tb.fase, 0),
+                r["pos"] or 99, -(r["pts"] or 0), nome(c))
     ordem = sorted(ids, key=chave)
     so_ordem = ult[0].fase == "Classificação final"
     uma_tabela = len(tbs) == 1
@@ -1512,9 +1568,15 @@ def classificacao_antiga(ano: str, tbs: list, rs_c: dict, wk_c: dict, log: list[
                 partes.append(f"entre o {r['pos']}º e o {fim}º lugar (a página não dá a ordem dentro da faixa)")
             if r.get("nota"):
                 partes.append(r["nota"])
+        elif c in (campeao, vice) or c in podio_rank:   # pódio da predefinição, sem tabela da fase
+            pos = i
+            partes.append("posição pela predefinição de campeões da Wikipédia")
         elif r["pos"] is None:   # 1990: a página só lista os participantes eliminados antes da última fase
-            pos = sum(1 for x in ordem if ultima(x)[1]["pos"] is not None) + 1
-            partes.append(f"eliminado antes da {fase_pt.get(ult[0].fase, ult[0].fase.lower())}; a página não dá a ordem")
+            pos = sum(1 for x in ordem if ultima(x)[1]["pos"] is not None or x in (campeao, vice) or x in podio_rank) + 1
+            if ult[0].publicada:
+                partes.append(f"eliminado antes da {fase_pt.get(ult[0].fase, ult[0].fase.lower())}; a página não dá a ordem")
+            else:   # 1970, 1972-1975: só a lista de participantes e o pódio
+                partes.append("a fonte não dá a ordem dos clubes fora do pódio")
         else:
             pos = i
             if not uma_tabela:

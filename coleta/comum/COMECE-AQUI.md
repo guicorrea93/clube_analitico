@@ -73,7 +73,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
 | `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.791 | ecafa9e; "errado no ar" corrigido neste commit (23/11) | sim; recarregar | OK |
-| `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 2342f9b; A2-002 a A2-011 neste commit (23/11) | sim; recarregar | OK |
+| `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.223 | 566809e; A2-001 (1967-1984) neste commit (23/11) | sim; recarregar | OK (16 clubes novos) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
@@ -95,8 +95,9 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
      `docs/coleta/pedidos.md`, seção "Correções da revisão — bra-sp-1 — 23/11/2026".
    - Feito em 23/11: A2-002 a A2-011 e A2-017 (seção "Correções da revisão — bra-sp-2 — 23/11/2026" de
      `docs/coleta/pedidos.md`).
-   - Próximo: A2-001 (as 17 edições de 1967-1978 e 1980-1984, como as de 1947-1966), depois o resto do plano,
-     competição a competição.
+   - Feito em 23/11: A2-001 (as 17 edições de 1967-1978 e 1980-1984). "ERRADO NO AR" do plano concluído.
+   - Próximo: o resto do plano (`docs/revisao/plano-coleta-brasil.md`), competição a competição, quando o Guilherme
+     mandar.
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
      PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO): se um nome não casar, o importador para com erro (não passa calado).
    - Ao corrigir, cite os ids em `docs/coleta/pedidos.md`; a revisão confere de novo.
@@ -246,6 +247,8 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **Carioca 1907 e 1937 (23/11):** valem os títulos que a FERJ reconhece. 1907: Fluminense e Botafogo campeões (título
   dividido, FERJ 1996), o Botafogo em `co_campeao` (D-07). 1937: além da LFRJ (Fluminense), a edição
   "1937 FMD" (torneio inacabado, 26 jogos) com o São Cristóvão campeão (FERJ, dezembro de 2023).
+- **São José dos Campos (23/11, D-23c revista):** o "Esporte Clube São José" (1933) só mudou de nome para "São José
+  Esporte Clube" em 24/12/1976; é um clube só (São José-SP, 9638), com os títulos da A2 de 1972 e 1980.
 - **Título dividido (D-07, formato do agente 1, 23/11):** coluna `co_campeao` em `edicoes.csv`, logo depois de `vice`;
   `campeao` é o 1º da classificação; `vice` é o próximo que não é campeão (pode ficar vazio). Paulista 1973, Carioca 1907.
 - **Paulista A2:** incluir tudo o que existir, inclusive as edições sem jogos e as incompletas (21/11). O que só existe em

@@ -31,8 +31,15 @@ clubes da faixa ficam empatados na posição do começo dela. 1990: os eliminado
 Os jogos dos campeões listados nas páginas da RSSSF de 1947-1966 não entraram (só os de um clube; a Wikipédia traz as
 finais).
 
-**Ficam de fora** os anos sem 2ª divisão ou sem nenhuma fonte (1967-1978, 1980-1984) e a fase amadora (1916-1946,
-só a lista de campeões).
+**1967-1978 e 1980-1984** (achado A2-001, 23/11/2026): a RSSSF não tem os jogos. Participantes da lista da RSSSF
+(`sp2list.htm`, com a cidade); tabelas de pontos e jogos da página de cada edição na Wikipédia em português
+(`wikipedia/pt_{ano}.wiki`: tabelas lidas por `wikipedia_sp2.tabelas_wiki`, jogos das caixas "footballbox" e das
+linhas de texto); vice, 3º e 4º da predefinição de campeões da A2 na Wikipédia (`pt_predefinicao_campeoes.wiki`), o 3º
+e o 4º só para quem chegou à fase mais avançada. A fase alcançada também sai dos jogos (semifinal e final). Sem tabela
+da fase, os clubes fora do pódio ficam empatados, sem ordem. 1972 não tem página na Wikipédia: só os participantes e o
+pódio.
+
+**Fica de fora** a fase amadora (1916-1946, só a lista de campeões).
 
 | Ano | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|---|
@@ -56,7 +63,24 @@ só a lista de campeões).
 | 1964 | RSSSF | 22 | 1 (0) | 1 | 0 | 0 / 0 | Portuguesa Santista | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1965 |  | 22 | 2 (0) | 5 | 0 | 0 / 0 | Bragantino | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1966 | RSSSF | 24 | 2 (0) | 3 | 0 | 0 / 0 | Ferroviária-SP | RSSSF (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1967 | RSSSF | 30 | 9 (0) | 28 | 0 | 2 / 0 | XV de Piracicaba | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1968 |  | 17 | 15 (0) | 31 | 0 | 1 / 0 | Paulista | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1969 | RSSSF | 15 | 6 (0) | 16 | 0 | 1 / 0 | Ponte Preta | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1970 | RSSSF | 17 | 4 (0) | 9 | 0 | 0 / 0 | Noroeste | RSSSF (sp2list.htm) (tabela final publicada) |
+| 1971 | RSSSF | 24 | 2 (0) | 2 | 0 | 0 / 0 | Marília | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1972 | RSSSF | 20 | 0 (0) | 0 | 0 | 0 / 0 | São José-SP | RSSSF (sp2list.htm) (tabela final publicada) |
+| 1973 | RSSSF | 27 | 0 (0) | 0 | 0 | 0 / 0 | Araçatuba | RSSSF (sp2list.htm) (tabela final publicada) |
+| 1974 | RSSSF | 23 | 0 (0) | 0 | 0 | 0 / 0 | Catanduvense | RSSSF (sp2list.htm) (tabela final publicada) |
+| 1975 | RSSSF | 29 | 2 (0) | 2 | 0 | 0 / 0 | Santo André | RSSSF (sp2list.htm) (tabela final publicada) |
+| 1976 | RSSSF | 39 | 1 (0) | 2 | 0 | 0 / 0 | XV de Jaú | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1977 |  | 20 | 1 (0) | 2 | 0 | 0 / 0 | Francana | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1978 |  | 20 | 1 (0) | 2 | 0 | 0 / 0 | Inter de Limeira | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1979 | RSSSF | 21 | 267 (0) | 540 | 0 | 1 / 3 | Taubaté | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1980 |  | 28 | 6 (0) | 12 | 0 | 0 / 0 | São José-SP | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1981 |  | 28 | 5 (0) | 12 | 0 | 0 / 0 | Santo André | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1982 | RSSSF | 51 | 11 (0) | 24 | 0 | 0 / 0 | Taquaritinga | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1983 | RSSSF | 49 | 8 (0) | 18 | 0 | 0 / 0 | XV de Piracicaba | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
+| 1984 |  | 53 | 10 (0) | 21 | 0 | 0 / 0 | Noroeste | Wikipédia (pt) (tabelas de pontos: fase alcançada, posição e pontos da última fase) |
 | 1985 | RSSSF | 52 | 684 (0) | 1401 | 0 | 5 / 4 | Mogi Mirim | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1986 | RSSSF | 55 | 820 (0) | 1463 | 0 | 11 / 2 | Bandeirante-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1987 | RSSSF | 54 | 594 (0) | 1072 | 0 | 0 / 0 | União São João | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -190,6 +214,54 @@ só a lista de campeões).
 
 - sem ocorrências
 
+### 1967
+
+- Ferroviário-SP é 4º na predefinição da Wikipédia, mas não chegou à fase final; fica pela fase alcançada
+
+### 1968
+
+- sem ocorrências
+
+### 1969
+
+- sem ocorrências
+
+### 1970
+
+- sem ocorrências
+
+### 1971
+
+- Esportiva (Segunda fase ) — sem clube da 1ª fase com esse nome
+
+### 1972
+
+- sem ocorrências
+
+### 1973
+
+- sem ocorrências
+
+### 1974
+
+- sem ocorrências
+
+### 1975
+
+- sem ocorrências
+
+### 1976
+
+- sem ocorrências
+
+### 1977
+
+- sem ocorrências
+
+### 1978
+
+- sem ocorrências
+
 ### 1979
 
 - tabela publicada x jogos — Primeira fase / Grupo B: Rio Claro tabela [18, 7, 5, 6, 17, 19] jogos [18, 7, 5, 6, 18, 19] — há jogo do clube sem conferência no ogol
@@ -230,6 +302,26 @@ só a lista de campeões).
 - Sãocarlense — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Sãocarlense)
 - Taubaté — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Taubaté)
 - Votuporanguense — clube que o ogol não tem; entra só pela RSSSF
+
+### 1980
+
+- Ginásio Pinhalense é 4º na predefinição da Wikipédia, mas não chegou à fase final; fica pela fase alcançada
+
+### 1981
+
+- Aliança-SP é 4º na predefinição da Wikipédia, mas não chegou à fase final; fica pela fase alcançada
+
+### 1982
+
+- Araçatuba (Fase final ) — sem clube da 1ª fase com esse nome
+
+### 1983
+
+- sem ocorrências
+
+### 1984
+
+- sem ocorrências
 
 ### 1985
 

@@ -19,7 +19,10 @@ sys.path.insert(0, str(AQUI.parent / "comum"))
 import rsssf_sp2  # noqa: E402,F401  (configura rsssf.PASTA e rsssf.MODELO da A2)
 import rsssf  # noqa: E402
 
-ANOS = [str(a) for a in (*range(1947, 1967), 1990, 1992, 1993, 1994)]   # 1965 e 1990: só a Wikipédia (sem página da RSSSF)
+# 1967-1978 e 1980-1984 (achado A2-001): participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da Wikipédia em
+# português e o pódio da predefinição de campeões da Wikipédia; 1972 não tem página na Wikipédia
+NOVAS = [str(a) for a in (*range(1967, 1979), *range(1980, 1985))]
+ANOS = [str(a) for a in (*range(1947, 1967), 1990, 1992, 1993, 1994)] + NOVAS   # 1965 e 1990: só a Wikipédia
 
 
 @dataclass
@@ -66,6 +69,8 @@ def tabelas(ano: str) -> list[Tabela]:
         return _ordem_final(ano)
     if ano in ("1965", "1990"):
         return _da_wikipedia(ano)
+    if ano in NOVAS:
+        return _novas(ano)
     saida = _da_rsssf(ano)
     if not any(tb.fase == "Segunda fase" for tb in saida):   # 1948 e 1949: a "Final Phase" é a 2ª fase
         for tb in saida:
@@ -82,6 +87,83 @@ def _da_wikipedia(ano: str) -> list[Tabela]:
     part = [{"pos": None, "nome": n, "cidade": c, "pts": None, "nota": ""} for n, c in wikipedia_sp2.participantes(ano)]
     return [Tabela("Primeira fase", "", part, publicada=False, fonte="Wikipédia (pt)"),
             Tabela("Quarta fase", "", wikipedia_sp2.classificacao_publicada(ano), fonte="Wikipédia (pt)")]
+
+
+
+# (temporada, seção, título) da tabela da Wikipédia -> (fase, grupo), quando a regra de _fase_tabela não acerta
+TABELA_FASE: dict[tuple[str, str, str], tuple[str, str]] = {
+    ("1967", "Fase final", "Torneio dos Finalistas"): ("Segunda fase", ""),   # os 4 finalistas; depois, o triangular
+    ("1967", "Triangular decisivo", "Classificação Final"): ("Fase final", ""),
+    ("1968", "Participantes", "Classificação final da série A / Grupo A"): ("Primeira fase", "Série A"),
+    ("1968", "Participantes", "Classificação final da série B / Grupo A"): ("Primeira fase", "Série B"),
+    ("1971", "Fase semifinal", "Grupo A"): ("Segunda fase", ""),
+    ("1971", "Fase final / Classificação final", "Grupo A"): ("Fase final", ""),
+    ("1977", "Fase final", "Grupo dos Perdedores"): ("Segunda fase", "Grupo dos Perdedores"),   # o "torneio da morte"
+    ("1977", "Fase final", "Grupo dos Vencedores"): ("Fase final", ""),
+    ("1982", "Fase final", "Grupo A"): ("Fase final", ""),
+}
+
+
+def _fase_tabela(ano: str, secao: str, titulo: str) -> tuple[str, str]:
+    if (ano, secao, titulo) in TABELA_FASE:
+        return TABELA_FASE[(ano, secao, titulo)]
+    s, tt = secao.lower(), titulo.lower()
+    if re.search(r"quadrangular|hexagonal|triangular|finalistas", tt):
+        return "Fase final", ""
+    # 1981: dois turnos, cada um com a 1ª fase (quatro séries) e o octogonal (dois grupos)
+    turno = "1º turno - " if s.startswith("primeiro turno") else "2º turno - " if s.startswith("segundo turno") else ""
+    if "primeira fase" in s:
+        return "Primeira fase", turno + titulo
+    if "segunda fase" in s:
+        return "Segunda fase", turno + titulo
+    if "final" in s:
+        return "Fase final", ""
+    raise ValueError(f"{ano}: tabela da Wikipédia sem fase: [{secao}] {titulo}")
+
+
+def _curto_da_lista(n: str) -> str:
+    """"Associação Atlética FRANCANA" -> "Francana"; "UNIÃO Agrícola BARBARENSE Futebol Clube" -> "União Barbarense";
+    "Esporte Clube XV DE NOVEMBRO" -> "XV de Novembro" (a lista da RSSSF escreve o nome curto em maiúsculas)."""
+    caps = re.findall(r"(?<![\wÀ-ÿ])[A-ZÀ-Ý0-9][A-ZÀ-Ý0-9´'\-]+(?![\wÀ-ÿ])", n)
+    if not caps:
+        return n
+    def palavra(w):
+        if re.fullmatch(r"[IVXL]+", w) or w in ("MAF",):   # algarismos romanos e siglas
+            return w
+        return w.lower() if w in ("DE", "DA", "DO", "DOS", "DAS") else w.capitalize()
+    return " ".join(palavra(w) for w in caps)
+
+
+def _participantes_rsssf(ano: str) -> list[dict]:
+    saida, atual = [], None
+    for l in rsssf.texto(0, "sp2list.htm").splitlines():
+        if re.fullmatch(r"\s*(\d{4})\s*", l):
+            atual = l.strip()
+        elif atual == ano and (m := re.match(r"^\s*([^()]+?)\s*\(([^()]+)\)\s*$", l)):
+            saida.append({"pos": None, "nome": _curto_da_lista(m.group(1).strip()), "cidade": m.group(2).strip(), "pts": None,
+                          "nota": ""})
+    return saida
+
+
+def _novas(ano: str) -> list[Tabela]:
+    """1967-1984: as tabelas da Wikipédia, cada uma com a sua fase; sem tabela da 1ª fase, a lista de participantes da
+    RSSSF entra como 1ª fase (sem posição nem pontos, fora de tabelas_publicadas)."""
+    import wikipedia_sp2
+    saida: list[Tabela] = []
+    for tw in wikipedia_sp2.tabelas_wiki(ano):
+        fase, grupo = _fase_tabela(ano, tw["secao"], tw["titulo"])
+        linhas = []
+        for r in tw["linhas"]:
+            r = dict(r)
+            if r["nome"] and r["nome"].endswith("*"):   # "União Barbarense*": a nota da tabela
+                r["nome"], r["nota"] = r["nome"].rstrip("* "), (r.get("nota") or "") + "*"
+            linhas.append(r)
+        saida.append(Tabela(fase, grupo, linhas, fonte="Wikipédia (pt)"))
+    if not any(tb.fase == "Primeira fase" for tb in saida):
+        saida.insert(0, Tabela("Primeira fase", "", _participantes_rsssf(ano), publicada=False, fonte="RSSSF (sp2list.htm)"))
+    # a 1ª fase antes (os clubes das fases seguintes casam com os dela; em 1968 a tabela da fase final vem antes na página)
+    ordem = {"Primeira fase": 0, "Segunda fase": 1, "Fase final": 2}
+    return sorted(saida, key=lambda tb: ordem.get(tb.fase, 1))
 
 
 def _da_rsssf(ano: str) -> list[Tabela]:

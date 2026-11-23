@@ -4,11 +4,11 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 1. O que temos
 
-- **Edições:** 63, de 1947 a 2026; sem nenhum jogo: 1947, 1993, 1994; com parte dos jogos: 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1989, 1990, 1991, 1992.
-- **Jogos:** 9142; **gols:** 22052; **gols com autor:** 4526 (21%); **cartões:** 0.
-- **Clubes:** 167; **artilheiros:** 53 temporadas com artilheiro (61 linhas, com empates).
-- **Classificação final:** 63 temporadas; **rodada a rodada:** 23 temporadas.
-- **Tabelas publicadas guardadas para conferência:** 2021 linhas.
+- **Edições:** 80, de 1947 a 2026; sem nenhum jogo: 1947, 1972, 1973, 1974, 1993, 1994; com parte dos jogos: 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1975, 1976, 1977, 1978, 1980, 1981, 1982, 1983, 1984, 1989, 1990, 1991, 1992.
+- **Jogos:** 9223; **gols:** 22233; **gols com autor:** 4526 (20%); **cartões:** 0.
+- **Clubes:** 183; **artilheiros:** 57 temporadas com artilheiro (65 linhas, com empates).
+- **Classificação final:** 80 temporadas; **rodada a rodada:** 23 temporadas.
+- **Tabelas publicadas guardadas para conferência:** 2409 linhas.
 - **No banco (`db/futebol.db`):** sim (63 edições, 9142 jogos).
 - **Observação da competição:** 2ª divisão paulista (Série A2 desde 1994; antes Segunda Divisão, Primeira Divisão, Divisão Intermediária, Divisão Especial, conforme a época), edições de 1947 a 2026. As edições sem os jogos em nenhuma fonte (1947-1966, 1992-1994) entram só com as tabelas, o campeão e o vice; 1989 e 1991 têm parte dos jogos. Fica de fora a fase amadora (1916-1946).
 
@@ -22,9 +22,9 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF; Wikipédia em 1965 e 1990): 128 tabelas fecham com os jogos e 33 divergem (cada divergência é explicada no relatório, na temporada).
+- Cada temporada é comparada com as tabelas publicadas (RSSSF; Wikipédia em 1965 e 1990): 132 tabelas fecham com os jogos e 33 divergem (cada divergência é explicada no relatório, na temporada).
 - Temporadas com alguma tabela divergente: 1954, 1979, 1985, 1986, 1988, 1996, 1997, 1998, 1999, 2001, 2004, 2005, 2006, 2007, 2008, 2025.
-- Temporadas sem tabela para conferir: 1947, 1950, 1951, 1952, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1987, 1989, 1991, 1992, 1993, 1994, 2014, 2022, 2023, 2024, 2026.
+- Temporadas sem tabela para conferir: 1947, 1950, 1951, 1952, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1981, 1982, 1983, 1984, 1987, 1989, 1991, 1992, 1993, 1994, 2014, 2022, 2023, 2024, 2026.
 - Temporadas com menos jogos do que o ogol: nenhuma.
 
 ## 4. Cobertura de cada campo, por década
@@ -35,15 +35,15 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 |---|---|---|---|---|---|---|---|---|---|
 | 1940s | 22 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 125 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1960s | 14 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 267 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 2645 | 98% | 0% | 56% | 0% | 0% | 0% | 0% | 0.0 |
+| 1960s | 44 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1970s | 278 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1980s | 2685 | 98% | 0% | 55% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 1343 | 100% | 0% | 63% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 1884 | 100% | 22% | 98% | 0% | 0% | 0% | 0% | 0.0 |
 | 2010s | 1888 | 100% | 98% | 96% | 0% | 0% | 0% | 57% | 0.0 |
 | 2020s | 954 | 100% | 100% | 79% | 0% | 0% | 0% | 81% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 8699; Wikipédia (pt): 237; ogol: 206.
+**Fonte de cada jogo:** RSSSF Brasil: 8699; Wikipédia (pt): 318; ogol: 206.
 
 ## 5. Formato ao longo do tempo
 
@@ -64,7 +64,22 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1960: 11 clubes
 - 1961 a 1965: 22 clubes
 - 1966: 24 clubes
+- 1967: 30 clubes
+- 1968: 17 clubes
+- 1969: 15 clubes
+- 1970: 17 clubes
+- 1971: 24 clubes
+- 1972: 20 clubes
+- 1973: 27 clubes
+- 1974: 23 clubes
+- 1975: 29 clubes
+- 1976: 39 clubes
+- 1977 a 1978: 20 clubes
 - 1979: 21 clubes
+- 1980 a 1981: 28 clubes
+- 1982: 51 clubes
+- 1983: 49 clubes
+- 1984: 53 clubes
 - 1985: 52 clubes
 - 1986: 55 clubes
 - 1987: 54 clubes
@@ -90,9 +105,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Nome oficial:**
 
 - 1947 a 1959: Campeonato Paulista Segunda Divisão
-- 1960 a 1966: Campeonato Paulista Primeira Divisão
-- 1979: Campeonato Paulista Divisão Intermediária
-- 1985 a 1986: Campeonato Paulista Segunda Divisão
+- 1960 a 1976: Campeonato Paulista Primeira Divisão
+- 1977 a 1979: Campeonato Paulista Divisão Intermediária
+- 1980 a 1986: Campeonato Paulista Segunda Divisão
 - 1987 a 1990: Campeonato Paulista Divisão Especial
 - 1991 a 1993: Campeonato Paulista Divisão Intermediária
 - 1994 a 2026: Campeonato Paulista Série A2
@@ -115,7 +130,22 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1963: jogos incompletos (os pontos de cada fase e 2 jogos: segunda fase)
 - 1964: jogos incompletos (os pontos de cada fase e 1 jogo: segunda fase)
 - 1965 a 1966: jogos incompletos (os pontos de cada fase e 2 jogos: final)
+- 1967: jogos incompletos (os pontos de cada fase e 9 jogos: segunda fase, fase final)
+- 1968: jogos incompletos (os pontos de cada fase e 15 jogos: fase final)
+- 1969: jogos incompletos (a tabela final e 6 jogos: fase final)
+- 1970: jogos incompletos (a lista de participantes e o pódio e 4 jogos: semifinal, final)
+- 1971: jogos incompletos (os pontos de cada fase e 2 jogos: fase final)
+- 1972 a 1974: sem jogos (só a lista de participantes e o pódio)
+- 1975: jogos incompletos (a lista de participantes e o pódio e 2 jogos: final)
+- 1976: jogos incompletos (a tabela final e 1 jogo: fase final)
+- 1977: jogos incompletos (os pontos de cada fase e 1 jogo: final)
+- 1978: jogos incompletos (os pontos de cada fase e 1 jogo: fase final)
 - 1979: 2 grupos + pontos corridos + mata-mata
+- 1980: jogos incompletos (os pontos de cada fase e 6 jogos: semifinal, final)
+- 1981: jogos incompletos (os pontos de cada fase e 5 jogos: semifinal, final)
+- 1982: jogos incompletos (a tabela final e 11 jogos: semifinal, fase final)
+- 1983: jogos incompletos (a tabela final e 8 jogos: semifinal, fase final)
+- 1984: jogos incompletos (os pontos de cada fase e 10 jogos: semifinal, fase final)
 - 1985: 4 grupos + pontos corridos
 - 1986: 4 grupos + mata-mata + pontos corridos
 - 1987: 6 grupos + 4 grupos + 2 grupos + mata-mata
@@ -145,7 +175,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2016 a 2025: pontos corridos + mata-mata
 - 2026: 2 grupos + mata-mata
 
-**Fases que aparecem** (número de temporadas): Final (37); Primeira fase (35); Segunda fase (32); Semifinal (15); Fase final (9); Quartas de final (6); Torneio de rebaixamento (4); Fase única (3); Terceira fase (2); Primeira fase - Desempate (1); Repescagem (1); Mata-mata (1); Quarta fase (1); 1º Turno (1); 2º Turno (1); 3º Turno (1); Primeira fase - Semifinal (1); Primeira fase - Final (1).
+**Fases que aparecem** (número de temporadas): Final (42); Primeira fase (35); Segunda fase (33); Semifinal (21); Fase final (18); Quartas de final (6); Torneio de rebaixamento (4); Fase única (3); Terceira fase (2); Primeira fase - Desempate (1); Repescagem (1); Mata-mata (1); Quarta fase (1); 1º Turno (1); 2º Turno (1); 3º Turno (1); Primeira fase - Semifinal (1); Primeira fase - Final (1).
 
 **Observações das edições:**
 
@@ -168,6 +198,23 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1964: 1 jogo da Wikipédia em português (segunda fase)
 - 1965: sem página da RSSSF: as tabelas dos dois grupos e a final vêm da Wikipédia em português; 2 jogos da Wikipédia em português (final)
 - 1966: 2 jogos da Wikipédia em português (final)
+- 1967: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 9 jogos da Wikipédia em português (segunda fase, fase final)
+- 1968: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 15 jogos da Wikipédia em português (fase final)
+- 1969: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 6 jogos da Wikipédia em português (fase final)
+- 1970: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 4 jogos da Wikipédia em português (semifinal, final)
+- 1971: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 2 jogos da Wikipédia em português (fase final)
+- 1972: a Wikipédia não tem a página desta edição: só a lista de participantes (RSSSF) e o pódio (predefinição de campeões da Wikipédia); a final São José x Garça (3-0 e 0-0) vem lá sem data nem mando e fica fora; sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001)
+- 1973: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001)
+- 1974: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001)
+- 1975: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 2 jogos da Wikipédia em português (final)
+- 1976: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 1 jogo da Wikipédia em português (fase final)
+- 1977: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 1 jogo da Wikipédia em português (final)
+- 1978: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 1 jogo da Wikipédia em português (fase final)
+- 1980: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 6 jogos da Wikipédia em português (semifinal, final)
+- 1981: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 5 jogos da Wikipédia em português (semifinal, final)
+- 1982: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 11 jogos da Wikipédia em português (semifinal, fase final)
+- 1983: o vice Noroeste perdeu o "rebolo" com o Taubaté, penúltimo da 1ª divisão (0-1 em 15/12 e 0-1 em 18/12/1983, em Campinas), e ficou na 2ª divisão; os jogos ficam fora (decisão D-04); sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 8 jogos da Wikipédia em português (semifinal, fase final)
+- 1984: sem os jogos na RSSSF: participantes da lista da RSSSF (sp2list.htm), tabelas e jogos da página da Wikipédia em português e vice, 3º e 4º da predefinição de campeões da Wikipédia (achado A2-001); 10 jogos da Wikipédia em português (semifinal, fase final)
 - 1988: 69 jogos da 1ª fase vêm na fonte sem placar (só quem venceu) e ficam fora
 - 1989: jogos incompletos: a 1ª fase (RSSSF), as semifinais (Wikipédia) e a final (ogol); faltam a 2ª e a 3ª fase
 - 1990: sem página da RSSSF: a Wikipédia em português traz a lista de participantes e só a 4ª fase (jogos e tabela); a ordem dos eliminados antes dela não é conhecida; 30 jogos da Wikipédia em português (quarta fase)
@@ -179,25 +226,30 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Títulos:**
 
-- XV de Piracicaba: 3
+- XV de Piracicaba: 5
+- Santo André: 5
+- Noroeste: 3
 - Ferroviária-SP: 3
 - América-SP: 3
+- Araçatuba: 3
+- Inter de Limeira: 3
 - São Caetano: 3
 - Portuguesa: 3
-- Santo André: 3
 - Guarani: 2
+- XV de Jaú: 2
 - Linense: 2
 - Taubaté: 2
 - Bragantino: 2
+- Paulista: 2
+- Ponte Preta: 2
+- Marília: 2
+- São José-SP: 2
+- Taquaritinga: 2
 - Mogi Mirim: 2
-- Araçatuba: 2
-- Inter de Limeira: 2
 - Juventus-SP: 2
 - São Bernardo: 2
 - Capivariano: 2
 - Radium: 1
-- XV de Jaú: 1
-- Noroeste: 1
 - Botafogo-SP: 1
 - Comercial-RP: 1
 - Corinthians Prudente: 1
@@ -205,23 +257,21 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Prudentina: 1
 - São Bento: 1
 - Portuguesa Santista: 1
+- Catanduvense: 1
+- Francana: 1
 - Bandeirante-SP: 1
 - União São João: 1
 - Ituano: 1
 - Olímpia: 1
-- Taquaritinga: 1
 - Paraguaçuense: 1
 - Matonense: 1
 - União Barbarense: 1
-- Paulista: 1
-- Marília: 1
 - Oeste: 1
 - Barueri: 1
 - Monte Azul: 1
-- Ponte Preta: 1
 - Velo Clube: 1
 
-**Acessos:** 70 no total; quem mais teve: Noroeste (4), São Bento (4), Ponte Preta (3), Juventus-SP (3), Botafogo-SP (3), Rio Claro (3), Oeste (3), EC Água Santa (3).
+**Acessos:** 72 no total; quem mais teve: Noroeste (4), São Bento (4), Ponte Preta (3), Juventus-SP (3), Botafogo-SP (3), Rio Claro (3), Oeste (3), EC Água Santa (3).
 
 **Rebaixamentos:** 93 no total; quem mais teve: Marília (3), Noroeste (3), Nacional-SP (3), Olímpia (3), Rio Preto (3), XV de Piracicaba (3), Comercial-RP (3), São Caetano (2).
 
@@ -239,7 +289,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 ### Temporadas sem os jogos na RSSSF (só as tabelas) (`importar.SO_CLASSIFICACAO`)
 
-- 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1990, 1992, 1993, 1994
+- 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1980, 1981, 1982, 1983, 1984, 1990, 1992, 1993, 1994
 
 ### Temporadas completadas com jogos da Wikipédia (`importar.WIKI_JUNTAR`)
 
@@ -251,6 +301,8 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 ### Observações das edições (`importar.OBS_EDICAO`)
 
+- **1983:** o vice Noroeste perdeu o "rebolo" com o Taubaté, penúltimo da 1ª divisão (0-1 em 15/12 e 0-1 em 18/12/1983, em Campinas), e ficou na 2ª divisão; os jogos ficam fora (decisão D-04)
+- **1972:** a Wikipédia não tem a página desta edição: só a lista de participantes (RSSSF) e o pódio (predefinição de campeões da Wikipédia); a final São José x Garça (3-0 e 0-0) vem lá sem data nem mando e fica fora
 - **1948:** Sanjoanense licenciado (não jogou)
 - **1954:** 2ª fase: a página traz também uma tabela calculada dos jogos (Taubaté 16 e Comercial 11 pontos); vale a classificação oficial (14 e 13)
 - **1957:** AD Araraquara abandonou na 10ª rodada; os jogos dele foram anulados
@@ -291,6 +343,12 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **1994 · Catanduva:** 15767
 - **1947 · XV Piracicaba:** 8229
 - **1994 · São Caetano:** 2255
+- **Ferroviário Ituano:** 2543
+- **1969 · Araçatuba:** rs-aracatuba
+- **1970 · Araçatuba:** rs-aracatuba
+- **1971 · Araçatuba:** rs-aracatuba
+- **1971 · Esportiva:** 68360
+- **1982 · Araçatuba:** 19365
 
 ### Nome curto das fases seguintes casado à mão (edições antigas) (`importar.NOME_ANTIGO`)
 
@@ -364,6 +422,11 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **Sta. Cruz do Rio Pardo:** Santa Cruz do Rio Pardo
 - **Uchôa:** Uchoa
 - **Votuporan.:** Votuporanga
+- **São Bernardo do Campos:** São Bernardo do Campo
+- **São João da Rio Preto:** São José do Rio Preto
+- **Santa Bárbara D´Oeste:** Santa Bárbara d'Oeste
+- **Santa Bárbara D'Oeste:** Santa Bárbara d'Oeste
+- **São José Dos Campos:** São José dos Campos
 
 ### Cidade de um clube corrigida (`importar.CIDADE_DO_CLUBE`)
 
@@ -589,7 +652,8 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- Corrigidos em 23/11 ("ERRADO NO AR" do plano da revisão): A2-002 a A2-006 (vice pela fase final e pelo finalista), A2-007 (REBAIXADOS_WIKI), A2-008 ("Relegation Playoff" não é queda), A2-009 (acesso só de quem jogou a A1), A2-010 (Portuguesa Santista em 2002), A2-011 e A2-017 (2001: regra dos pênaltis, -5 do Sãocarlense, sem rebaixado). Falta o A2-001: as 17 edições de 1967-1978 e 1980-1984.
+- Corrigidos em 23/11 ("ERRADO NO AR" do plano da revisão): A2-002 a A2-006 (vice pela fase final e pelo finalista), A2-007 (REBAIXADOS_WIKI), A2-008 ("Relegation Playoff" não é queda), A2-009 (acesso só de quem jogou a A1), A2-010 (Portuguesa Santista em 2002), A2-011 e A2-017 (2001: regra dos pênaltis, -5 do Sãocarlense, sem rebaixado). A2-001 feito em 23/11: as 17 edições de 1967-1978 e 1980-1984 (participantes da RSSSF, tabelas e jogos da Wikipédia, pódio da predefinição).
+- 1967-1984: só os jogos que a Wikipédia traz (finais e fases finais); os jogos dos campeões nas páginas da RSSSF de 1968, 1969, 1971, 1976, 1980 e 1984 ainda não entraram. Clubes novos a conferir pela revisão: Vasco da Gama (1969) e Americana (1976), os dois de Americana; Presidente Prudente FC (1974).
 - Jogos que faltam (1947-1966 fora o que a Wikipédia traz; 1988: 69 sem placar; 1989: 2ª e 3ª fases; 1990: 1ª a 3ª; 1991: 1ª fase; 1992: 1ª fase; 1993 e 1994): só em jornais da época (Hemeroteca Digital, acervos do Estadão e da Folha), em imagem. Só se o Guilherme pedir.
 
 ## 10. Arquivos e comandos
@@ -599,6 +663,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 | `coleta/bra-sp-2/antigas_sp2.py` | Edições da A2 sem os jogos (1947-1966, 1992-1994): as tabelas de pontos das páginas da RSSSF. |
 | `coleta/bra-sp-2/baixar_ogol.py` | Baixa o calendário de cada edição do Paulista Série A2 (2ª divisão) no ogol para data/coleta/bra-sp-2/ogol/sp2_{temporada}.json e a ficha de cada clube para data/coleta/bra-sp-2/ogol/clubes.json. |
 | `coleta/bra-sp-2/baixar_rsssf.py` | Baixa as páginas da 2ª divisão paulista da RSSSF Brasil para data/coleta/bra-sp-2/rsssfbrasil/. |
+| `coleta/bra-sp-2/baixar_wiki.py` | Baixa o código das páginas da Wikipédia em português de cada edição da A2 para data/coleta/bra-sp-2/wikipedia/pt_{ano}.wiki. |
 | `coleta/bra-sp-2/clubes_sp2.py` | Identidade dos clubes da Copa do Brasil (mesmo método da Série C; clube já nomeado na Série C usa o mesmo nome). |
 | `coleta/bra-sp-2/edicoes.py` | Edições do Campeonato Paulista Série A2 (2ª divisão, `bra-sp-2`): temporadas, anos e nomes oficiais. |
 | `coleta/bra-sp-2/explicacoes.py` | Textos do relatório do Paulista Série A2 (2ª divisão) que não saem do código: introdução, explicações de cada temporada e o fim. |
@@ -613,6 +678,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
   - `python coleta/bra-sp-2/baixar_ogol.py` (ver o docstring)
   - `python coleta/bra-sp-2/baixar_rsssf.py` (ver o docstring)
+  - `python coleta/bra-sp-2/baixar_wiki.py` (ver o docstring)
   - `python coleta/bra-sp-2/importar.py` (grava o pacote e o relatório; `importar.py <ano>` só mostra, sem gravar)
   - `python coleta/comum/testar_carga.py bra-sp-2 <pasta temporária>` (deve terminar com `-> OK`)
   - `python coleta/comum/documentar.py`

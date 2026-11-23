@@ -33,8 +33,15 @@ INTRO = [
     "Os jogos dos campeões listados nas páginas da RSSSF de 1947-1966 não entraram (só os de um clube; a Wikipédia traz as",
     "finais).",
     "",
-    "**Ficam de fora** os anos sem 2ª divisão ou sem nenhuma fonte (1967-1978, 1980-1984) e a fase amadora (1916-1946,",
-    "só a lista de campeões).",
+    "**1967-1978 e 1980-1984** (achado A2-001, 23/11/2026): a RSSSF não tem os jogos. Participantes da lista da RSSSF",
+    "(`sp2list.htm`, com a cidade); tabelas de pontos e jogos da página de cada edição na Wikipédia em português",
+    "(`wikipedia/pt_{ano}.wiki`: tabelas lidas por `wikipedia_sp2.tabelas_wiki`, jogos das caixas \"footballbox\" e das",
+    "linhas de texto); vice, 3º e 4º da predefinição de campeões da A2 na Wikipédia (`pt_predefinicao_campeoes.wiki`), o 3º",
+    "e o 4º só para quem chegou à fase mais avançada. A fase alcançada também sai dos jogos (semifinal e final). Sem tabela",
+    "da fase, os clubes fora do pódio ficam empatados, sem ordem. 1972 não tem página na Wikipédia: só os participantes e o",
+    "pódio.",
+    "",
+    "**Fica de fora** a fase amadora (1916-1946, só a lista de campeões).",
 ]
 
 # temporada -> explicações conferidas à mão (contexto das ocorrências listadas logo abaixo de cada temporada)

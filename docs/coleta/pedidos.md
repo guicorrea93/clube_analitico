@@ -770,3 +770,25 @@ O Guilherme mandou corrigir pelo plano `docs/revisao/plano-coleta-brasil.md`. Es
 3. **Pedido ao agente 1:** recarregar o `bra-sp-2` (situação de acesso e rebaixado, vices e a ordem de 2001).
 4. **Próximo:** A2-001, as 17 edições de 1967-1978 e 1980-1984. É o maior bloco do plano.
 
+## Correções da revisão — bra-sp-2 — 23/11/2026 (A2-001: edições de 1967-1978 e 1980-1984)
+
+1. **Feito:** as 17 edições que faltavam entram como "jogos incompletos" ou "sem jogos", como as de 1947-1966.
+   - **Participantes:** lista da RSSSF (`sp2list.htm`, com a cidade).
+   - **Tabelas de pontos e jogos:** página de cada edição na Wikipédia em português, baixada por `coleta/bra-sp-2/baixar_wiki.py`. Os jogos vêm das caixas "footballbox" e das linhas de texto. 1972 não tem página.
+   - **Pódio:** vice, 3º e 4º da predefinição de campeões da A2 na Wikipédia. O 3º e o 4º só valem para quem chegou à fase mais avançada (em 1980, o Ginásio Pinhalense, 4º na predefinição, não jogou a semifinal).
+   - **Campeão:** pela lista da RSSSF, como sempre. O campeão e o vice batem com a lista oficial nos 17 anos, e o 3º com a predefinição.
+2. **Decisões:**
+   - São José dos Campos (D-23c revista pelo Guilherme em 23/11): é um clube só (São José-SP). O "Esporte Clube São José" (1933) só mudou de nome em 24/12/1976.
+   - 1983: o "rebolo" Noroeste x Taubaté (0-1 e 0-1) fica só na observação (D-04).
+3. **Números:**
+   - 80 edições (eram 63) e 9.223 jogos (eram 9.142).
+   - 16 clubes novos, só da RSSSF: Andradina, Ituveravense, Ferroviário de Araçatuba, São Carlos Clube, Vasco da Gama (Americana), Tião Maia, Estrela da Bela Vista, José Bonifácio, Presidente Prudente, Americana, Independência (Osasco), MAF, Aparecida, Campo Limpo, Rio Branco (Ibitinga) e Barra Bonita.
+   - Nenhum nome antigo mudou e não há nome repetido no cadastro.
+   - testar_carga: `bra-sp-2: 80 edições, 9223 jogos, 16 clubes novos -> OK`.
+4. **Pedido ao agente 1:** recarregar o `bra-sp-2`. Os títulos por clube mudam, por exemplo XV de Piracicaba, Noroeste, Santo André e Catanduvense.
+5. **Pendências:**
+   - Os jogos dos campeões nas páginas da RSSSF de 1968, 1969, 1971, 1976, 1980 e 1984 ainda não entraram.
+   - A final de 1972 (São José x Garça, 3-0 e 0-0) não tem data nem mando.
+   - Identidade a conferir pela revisão: Vasco da Gama (1969) e Americana (1976), os dois de Americana; e o Presidente Prudente FC (1974).
+6. **Com isso termina o "ERRADO NO AR" do plano.** O resto segue quando o Guilherme mandar.
+
