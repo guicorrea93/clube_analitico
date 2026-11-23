@@ -674,4 +674,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - PE-022: cidade do Deportivo Bancos.
 - **Números:** 109 edições, 17.318 jogos, 167 clubes. Teste de carga: `per-1: 109 edições, 17318 jogos, 14 clubes novos -> OK`.
 - **Pedido ao agente 1:** recarregar o `per-1` inteiro. Os ids mudam: entra a final de 2021, e mudam as fases e as datas.
+- **Commit:** `55c7066`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
