@@ -104,6 +104,7 @@ DICIONARIOS = {
     "DECLASSADOS": "Declassados para o último lugar fora de campo",
     "ORDEM_RSSSF": "Temporadas com a ordem oficial da RSSSF",
     "READMITIDOS": "Rebaixados em campo e readmitidos",
+    "SUSPENSOS": "Jogos suspensos e completados em outro dia",
     "ORDEM_ITWIKI": "Ordem entre empatados pela Wikipédia it (classifica avulsa)",
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
     "EXPLICACOES": "Divergências entre fontes já explicadas",

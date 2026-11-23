@@ -24,7 +24,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 **Regras da importação:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Madri; Canárias nos jogos em casa do Las Palmas e do Tenerife). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96.
 
-**Desempate:** para cada temporada, o critério que reproduz a ordem oficial (confronto direto em 94, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
+**Desempate:** a regra espanhola em todas as temporadas (revisão QE-001): pontos, confronto direto (pontos e saldo entre os empatados, de novo entre os que seguem empatados), saldo de gols e gols pró. Ela reproduz a ordem oficial em 95 de 95 temporadas. Na classificação rodada a rodada, o confronto só vale depois de jogados todos os jogos entre os empatados.
 
 ## 3. Conferência
 
@@ -79,8 +79,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
-- pontos, confronto direto, saldo de gols, gols pró: 94 temporadas
-- pontos, média de gols (goal average): 1 temporadas
+- pontos, confronto direto (pontos e saldo entre os empatados, de novo entre os que seguem empatados), saldo de gols, gols pró; na classificação de rodada, o confronto só depois de jogados todos os jogos entre eles: 94 temporadas
+- pontos, confronto direto, saldo de gols, gols pró: 1 temporadas
 - pontos somados aos da 1ª fase; pontos, confronto direto, saldo de gols, gols pró: 1 temporadas
 
 **Observações das edições** (formato, punições, casos especiais):
@@ -124,6 +124,10 @@ Registradas em `coleta/esp-1/importar.py`; cada uma também aparece no relatóri
 
 - **1979/80 · CD Malaga · UD Salamanca:** [1980-04-27, 0, 3] falta no engsoccerdata; a matriz da RSSSF traz o jogo: terminou 0-3 em 27/04/1980, foi anulado por irregularidade (o Salamanca perdeu 2 pontos) e o resultado original foi confirmado em 25/05/1982
 
+### Datas corrigidas (`DATAS`)
+
+- **2003/04 · FC Barcelona · Sevilla FC:** [2003-09-03] o "jogo da meia-noite": começou à 00:05 de 03/09/2003 (football-data, ESPN, transfermarkt e BDFutbol); o engsoccerdata e o ogol trazem 02/09
+
 ### Fora da temporada seguinte sem ter sido rebaixado (`NAO_REBAIXADOS`)
 
 - **1935/36 · Real Oviedo:** 3º colocado em 1935/36, teve dispensa de 1939/40 por ter o estádio destruído na guerra e voltou em 1940/41 (Wikipédia es, 1935-36 e 1939-40)
@@ -143,6 +147,11 @@ Registradas em `coleta/esp-1/importar.py`; cada uma também aparece no relatóri
 ### Temporadas com a ordem oficial da RSSSF (`ORDEM_RSSSF`)
 
 - **1960/61:** Athletic Bilbao, Betis e Real Sociedad empatados com 30 pontos: no confronto direto entre os três, Athletic e Betis fazem 5 pontos e a Real Sociedad 2; entre os dois, Athletic 0-0 Betis e Betis 1-3 Athletic, e o Athletic fica em 6º. É a ordem da RSSSF e do BDFutbol, e a regra das outras temporadas; a Wikipédia põe o Betis à frente pelo saldo do triangular
+
+### Jogos suspensos e completados em outro dia (`SUSPENSOS`)
+
+- **2004/05 · Real Madrid · Real Sociedad:** começou em 12/12/2004 e foi suspenso aos 88 minutos, com 1-1 (ameaça de bomba); completado em 05/01/2005
+- **2023/24 · Granada CF · Athletic Bilbao:** começou em 10/12/2023 e foi suspenso no 1º tempo (morte de um torcedor na arquibancada); completado em 11/12/2023
 
 ### Nomes de jogadores da ESPN acertados (`NOMES_ESPN`)
 

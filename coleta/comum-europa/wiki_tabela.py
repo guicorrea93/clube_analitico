@@ -84,6 +84,13 @@ def tabelas(texto: str) -> list[dict]:
                           "gols_contra": _num(params.get(f"ga_{c}")), "ajuste": _num(params.get(f"adjust_points_{c}")) or _num(params.get(f"startpoints_{c}")) or 0,
                           "resultado": params.get(f"result{pos}", "").strip(), "status": params.get(f"status_{c}", "").strip(),
                           "nota": limpar(params.get(f"note_{c}", "")), "hth": limpar(params.get(f"hth_{c}", ""))})
+        # nota que só aponta para a de outro time ("hth_BET=ATH", "note_X=Y"): fica o texto da nota apontada
+        por_cod = {x["codigo"]: x for x in times}
+        for x in times:
+            for k in ("nota", "hth"):
+                alvo = por_cod.get(x[k].strip())
+                if alvo is not None:
+                    x[k] = alvo[k] if alvo[k] not in por_cod else ""
         res.append({"params": params, "times": times, "pontos_vitoria": _num(params.get("winpoints") or params.get("win_points")) or 3,
                     "secao": limpar(params.get("section", "")),
                     "inicio": m.start()})

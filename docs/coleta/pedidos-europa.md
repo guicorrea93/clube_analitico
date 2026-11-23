@@ -606,3 +606,23 @@ depois de `bel-1` e `tur-1`.
   Bari 1957/58, Fiorentina 2003/04). Participação e estreia devem vir da `classificacao_final`, não das partidas (como na
   D-21);
 - **datas mudaram em 674 jogos:** se o painel guarda alguma coisa por data (Corrida por data, sequências), recalcular.
+
+## 23/11 — coleta Europa: correções da revisão no Espanhol (`esp-1`)
+
+Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fechar os ids).
+
+- **QE-001:** critério de desempate fixo, a regra espanhola em todas as temporadas: pontos, confronto direto (pontos e
+  saldo entre os empatados, de novo entre os que seguem empatados), saldo de gols e gols pró. Reproduz a ordem oficial em
+  todas as 94 temporadas de fase única. Na classificação rodada a rodada (Corrida), o confronto só vale depois de jogados
+  todos os jogos entre os empatados; antes, saldo e gols pró. **Muda a `classificacao_rodada` de quase todas as
+  temporadas** e o texto do critério em `fases.csv`.
+- **QE-003:** Barcelona 1-1 Sevilla de 2003/04 em 03/09/2003, à 00:05 (o "jogo da meia-noite"; antes, 02/09 sem hora).
+  Dicionário `DATAS`.
+- **QE-004:** Real Madrid x Real Sociedad (2004/05) e Granada x Athletic (2023/24) com a observação do jogo suspenso e
+  completado em outro dia. Dicionário `SUSPENSOS`.
+- **QE-007 (parte do Espanhol):** observações da classificação em português; as de vaga europeia saem.
+  - O tradutor é comum às 8 ligas: `coleta/comum-europa/notas_wiki.py`. Os outros importadores já o usam e cada liga
+    entra no pacote quando for reimportada (Inglês, Alemão, Francês e Português vêm nas próximas correções).
+  - A nota que só apontava o código de outro clube ("hth_BET=ATH") agora traz o texto da nota apontada
+    (`wiki_tabela.py`).
+- Teste de carga: "esp-1: 95 edições, 27716 jogos, 0 clubes novos -> OK". **Pedido:** recarregar `esp-1` e publicar.

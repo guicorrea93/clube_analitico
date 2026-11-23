@@ -16,7 +16,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Madri; Canárias nos jogos em casa do Las Palmas e do Tenerife). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96.
 
-**Desempate:** para cada temporada, o critério que reproduz a ordem oficial (confronto direto em 94, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
+**Desempate:** a regra espanhola em todas as temporadas (revisão QE-001): pontos, confronto direto (pontos e saldo entre os empatados, de novo entre os que seguem empatados), saldo de gols e gols pró. Ela reproduz a ordem oficial em 95 de 95 temporadas. Na classificação rodada a rodada, o confronto só vale depois de jogados todos os jogos entre os empatados.
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
@@ -227,7 +227,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1954/55
 
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['CD Alaves', 'Celta Vigo'])
+- sem ocorrências
 
 ### 1955/56
 
@@ -253,7 +253,6 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 - fica a ordem da RSSSF: Athletic Bilbao, Betis e Real Sociedad empatados com 30 pontos: no confronto direto entre os três, Athletic e Betis fazem 5 pontos e a Real Sociedad 2; entre os dois, Athletic 0-0 Betis e Betis 1-3 Athletic, e o Athletic fica em 6º. É a ordem da RSSSF e do BDFutbol, e a regra das outras temporadas; a Wikipédia põe o Betis à frente pelo saldo do triangular
 - ordem diferente entre Wikipédia e RSSSF em 2 posições (ex.: Wikipédia Real Betis, RSSSF Athletic Bilbao); fica a da RSSSF
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Athletic Bilbao', 'Real Betis'])
 - artilheiro: contagem oficial da liga Ferenc Puskás com 28 gols; o Pichichi (Marca) deu Ferenc Puskás com 27 gols. Fica a contagem oficial
 
 ### 1961/62
@@ -298,7 +297,6 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1969/70
 
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Valencia CF', 'Real Madrid'])
 - artilheiro: a RSSSF dá Amancio Amaro, Luis Aragonés com 16 gols
 
 ### 1970/71
@@ -315,7 +313,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1972/73
 
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Valencia CF', 'Real Sociedad'])
+- sem ocorrências
 
 ### 1973/74
 
@@ -365,7 +363,6 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1981/82
 
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['CA Osasuna', 'Real Zaragoza'])
 - artilheiro: contagem oficial da liga Quini com 27 gols; o Pichichi (Marca) deu Quini com 26 gols. Fica a contagem oficial
 
 ### 1982/83
@@ -425,7 +422,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1995/96
 
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Real Oviedo', 'Athletic Bilbao'])
+- sem ocorrências
 
 ### 1996/97
 
@@ -466,12 +463,14 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 2003/04
 
-- data diferente no ogol em 29 jogos (ex.: Racing Santander x RCD Mallorca: base 2003-08-31, ogol 2003-08-30); fica a da base
+- data corrigida: FC Barcelona x Sevilla FC de 2003-09-02 para 2003-09-03 — o "jogo da meia-noite": começou à 00:05 de 03/09/2003 (football-data, ESPN, transfermarkt e BDFutbol); o engsoccerdata e o ogol trazem 02/09
+- data diferente no ogol em 30 jogos (ex.: Racing Santander x RCD Mallorca: base 2003-08-31, ogol 2003-08-30); fica a da base
 - artilheiro: contagem oficial da liga Ronaldo com 24 gols; o Pichichi (Marca) deu Ronaldo com 25 gols. Fica a contagem oficial
 
 ### 2004/05
 
 - placar corrigido: CA Osasuna x Albacete de 4-2 para 3-2 — o engsoccerdata traz 4-2; ogol, football-data, ESPN e as tabelas da RSSSF e da Wikipédia trazem 3-2
+- Real Madrid x Real Sociedad: começou em 12/12/2004 e foi suspenso aos 88 minutos, com 1-1 (ameaça de bomba); completado em 05/01/2005
 - ESPN com 378 de 380 jogos (ex. sem ESPN: Real Sociedad x FC Barcelona, 2005-05-28)
 - gols da ESPN não batem com o placar — Villarreal CF 3-2 Atletico Madrid: ESPN 2-2 (descartados)
 - gols da ESPN não batem com o placar — Espanyol Barcelona 1-3 Sevilla FC: ESPN 2-3 (descartados)
@@ -591,7 +590,7 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 2023/24
 
-- sem ocorrências
+- Granada CF x Athletic Bilbao: começou em 10/12/2023 e foi suspenso no 1º tempo (morte de um torcedor na arquibancada); completado em 11/12/2023
 
 ### 2024/25
 

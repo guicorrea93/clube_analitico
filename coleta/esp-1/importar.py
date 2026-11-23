@@ -35,6 +35,7 @@ sys.path.insert(0, str(AQUI))
 import clubes_esp as clubes  # noqa: E402
 from edicoes import DADOS, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
+import notas_wiki  # noqa: E402
 from rsssf_esp import LINHA, ler as ler_rsssf, texto as texto_rsssf  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
 
@@ -91,6 +92,18 @@ LIGUILLA = ("1986/87: com a ampliação para 20 clubes, os três últimos do gru
             "único, que mandou um só para a 2ª divisão: Racing 1-1 Cádiz (24/06/1987; Racing 4-3 nos pênaltis), Cádiz 1-1 Osasuna "
             "(28/06; Cádiz 4-3 nos pênaltis) e Osasuna 2-0 Racing (30/06). Osasuna 3 pontos, Cádiz 2, Racing 1: caiu o Racing "
             "(cadizcf.com, racinguismo.com, RSSSF)")
+# data corrigida: (ano, mandante, visitante) -> (data, motivo) (revisão QE-003)
+DATAS: dict[tuple, tuple] = {
+    (2003, "FC Barcelona", "Sevilla FC"): ("2003-09-03", "o \"jogo da meia-noite\": começou à 00:05 de 03/09/2003 (football-data, "
+                                                         "ESPN, transfermarkt e BDFutbol); o engsoccerdata e o ogol trazem 02/09"),
+}
+# jogo suspenso e completado em outro dia: (ano, mandante, visitante) -> observação (revisão QE-004). Fica a data de conclusão
+SUSPENSOS: dict[tuple, str] = {
+    (2004, "Real Madrid", "Real Sociedad"): "começou em 12/12/2004 e foi suspenso aos 88 minutos, com 1-1 (ameaça de bomba); "
+                                            "completado em 05/01/2005",
+    (2023, "Granada CF", "Athletic Bilbao"): "começou em 10/12/2023 e foi suspenso no 1º tempo (morte de um torcedor na "
+                                             "arquibancada); completado em 11/12/2023",
+}
 # temporada em que a ordem oficial é a da RSSSF, e não a da Wikipédia: ano -> motivo (revisão QE-002, decisão D-19 b)
 ORDEM_RSSSF: dict[int, str] = {
     1960: ("Athletic Bilbao, Betis e Real Sociedad empatados com 30 pontos: no confronto direto entre os três, Athletic e "
@@ -343,9 +356,13 @@ def calcular(jogos: list[dict], pv: int) -> dict[str, list[int]]:
     return t
 
 
-def ordenar(t: dict[str, list[int]], ajuste: dict[str, int], criterio: str, jogos: list[dict] | None = None, pv: int = 2) -> list[str]:
-    """criterio: "media" (pontos, média de gols), "saldo" (pontos, saldo, gols pró) ou "confronto" (pontos; entre os
-    empatados, pontos e saldo nos jogos entre eles; depois saldo e gols pró)."""
+def ordenar(t: dict[str, list[int]], ajuste: dict[str, int], criterio: str, jogos: list[dict] | None = None, pv: int = 2,
+            so_completo: bool = False) -> list[str]:
+    """criterio: "media" (pontos, média de gols), "saldo" (pontos, saldo, gols pró), "confronto" (pontos; entre os
+    empatados, pontos e saldo nos jogos entre eles; depois saldo e gols pró) ou "confronto_esp", a regra espanhola
+    (revisão QE-001): pontos entre os empatados, de novo entre os que seguem empatados (recursivo), depois saldo entre
+    eles, saldo geral e gols pró. so_completo (classificação de rodada): o confronto só vale depois de jogados todos os
+    jogos entre os empatados; antes, saldo e gols pró."""
     def pts(c):
         return t[c][6] + ajuste.get(c, 0)
 
@@ -354,6 +371,26 @@ def ordenar(t: dict[str, list[int]], ajuste: dict[str, int], criterio: str, jogo
         if criterio == "media":
             return (-(gp / gc if gc else float("inf")), -gp)
         return (-(gp - gc), -gp)
+    if criterio == "confronto_esp":
+        def rank(g: list[str]) -> list[str]:
+            if len(g) == 1 or jogos is None:
+                return sorted(g, key=geral)
+            jg = [j for j in jogos if j["m"] in g and j["v"] in g]
+            if so_completo and len(jg) < len(g) * (len(g) - 1):
+                return sorted(g, key=geral)
+            mini = calcular(jg, pv)
+            sub = defaultdict(list)
+            for c in g:
+                sub[mini[c][6]].append(c)
+            res_ = []
+            for p_ in sorted(sub, reverse=True):
+                s = sub[p_]
+                res_ += rank(s) if len(s) < len(g) else sorted(s, key=lambda c: (-(mini[c][4] - mini[c][5]), *geral(c)))
+            return res_
+        por_pts = defaultdict(list)
+        for c in t:
+            por_pts[pts(c)].append(c)
+        return [c for p_ in sorted(por_pts, reverse=True) for c in rank(por_pts[p_])]
     if criterio != "confronto":
         return sorted(t, key=lambda c: (-pts(c), *geral(c)))
     grupos = defaultdict(list)
@@ -414,6 +451,13 @@ def main() -> None:
         liga = [j for j in jogos if j["fase"] == "Liga"]
         for j in jogos:
             nomes[j["m"]][f"{j['fonte']}:{j.get('nm', j['m'])}"].add(a)
+            if (a, j["m"], j["v"]) in DATAS and j["fase"] == "Liga":
+                d_, motivo = DATAS[(a, j["m"], j["v"])]
+                ocorr[a].append(f"data corrigida: {j['m']} x {j['v']} de {j['data']} para {d_} — {motivo}")
+                j["data"], j["data_corrigida"] = d_, motivo
+            if (a, j["m"], j["v"]) in SUSPENSOS and j["fase"] == "Liga":
+                j["suspenso"] = SUSPENSOS[(a, j["m"], j["v"])]
+                ocorr[a].append(f"{j['m']} x {j['v']}: {j['suspenso']}")
             if (a, j["m"], j["v"]) in CORRECOES and j["fase"] == "Liga":
                 gm, gv, motivo = CORRECOES[(a, j["m"], j["v"])]
                 ocorr[a].append(f"placar corrigido: {j['m']} x {j['v']} de {j['gm']}-{j['gv']} para {gm}-{gv} — {motivo}")
@@ -639,14 +683,14 @@ def main() -> None:
             dif = [(r["clube"], c) for r, c in zip(w["times"], ordem) if r["clube"] != c]
             ocorr[a].append(f"ordem diferente entre Wikipédia e RSSSF em {len(dif)} posições (ex.: Wikipédia {dif[0][0]}, RSSSF "
                             f"{dif[0][1]}); fica a da RSSSF")
-        # critério de desempate: o que reproduz a ordem oficial (preferência: confronto direto, saldo, média)
+        # critério de desempate: a regra espanhola em todas as temporadas (confronto direto recursivo; revisão QE-001),
+        # conferida com a ordem oficial
         if a != FASE2:
-            tentativas = {cr: ordenar(calc, ajuste, cr, liga, pv) for cr in ("confronto", "saldo", "media")}
-            ok = [cr for cr, o in tentativas.items() if o == ordem]
-            criterio = ok[0] if ok else min(tentativas, key=lambda cr: sum(x != y for x, y in zip(tentativas[cr], ordem)))
+            criterio = "confronto_esp"
+            ok = ordenar(calc, ajuste, criterio, liga, pv) == ordem
             if not ok:
-                dif = [c for c, d in zip(ordem, tentativas[criterio]) if c != d]
-                ocorr[a].append(f"nenhum critério calculado reproduz a ordem oficial; o mais próximo ({criterio}) difere em "
+                dif = [c for c, d in zip(ordem, ordenar(calc, ajuste, criterio, liga, pv)) if c != d]
+                ocorr[a].append(f"a regra de desempate (confronto direto recursivo) não reproduz a ordem oficial em "
                                 f"{len(dif)} posições (ex.: {dif[:2]})")
         else:
             criterio = "confronto"
@@ -680,7 +724,7 @@ def main() -> None:
                 "temporada": T, "posicao": pos, "clube": clubes.exibicao(c), "jogos": j_, "vitorias": v_, "empates": e_,
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 else "rebaixado" if c in rebaixados else None, "fonte": fonte_ordem,
-                "observacao": obs_final.get(c) or (w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None))
+                "observacao": obs_final.get(c) or (w and next((notas_wiki.traduzir(x["hth"] or x["nota"]) for x in w["times"] if x["clube"] == c), None))
                 or None})
 
         # ---- partidas, gols, cartões, estatísticas
@@ -712,7 +756,8 @@ def main() -> None:
                 "publico": (e or {}).get("publico") or None, "fonte": " + ".join(fontes), "fonte_id": "|".join(ids),
                 "gols_texto": None,
                 "observacao": ("W.O.: vitória de 1-0 dada ao visitante" if j.get("especial") == "wo" else
-                               "anulado e depois confirmado pela federação" if j.get("acrescimo") else None),
+                               "anulado e depois confirmado pela federação" if j.get("acrescimo") else
+                               j.get("suspenso") or (f"data corrigida: {j['data_corrigida']}" if j.get("data_corrigida") else None)),
                 "arbitro": (x or {}).get("Referee") or None})
             gols_ano += j["gm"] + j["gv"]
             if e and e["lances"]:
@@ -759,7 +804,7 @@ def main() -> None:
                         sub = {c: parcial[c] for c in parcial if grupo_de[c] == g}
                         ordem_r += ordenar(sub, ajuste, "confronto", ate, pv)
                 else:
-                    ordem_r = ordenar(parcial, ajuste, criterio, ate, pv)
+                    ordem_r = ordenar(parcial, ajuste, criterio, ate, pv, so_completo=True)
                 for pos, c in enumerate(ordem_r, 1):
                     jj, v_, e_, d_, gp, gc, p = parcial[c]
                     tab["classificacao_rodada"].append({
@@ -778,7 +823,10 @@ def main() -> None:
                                "fontes": " + ".join(fontes_ed),
                                "observacao": "; ".join(x for x in (f"punições: {pun}" if pun else "",
                                                                     LIGUILLA[9:] if a == FASE2 else "") if x) or None})
-        crit_txt = {"confronto": "pontos, confronto direto, saldo de gols, gols pró", "saldo": "pontos, saldo de gols, gols pró",
+        crit_txt = {"confronto_esp": "pontos, confronto direto (pontos e saldo entre os empatados, de novo entre os que "
+                                     "seguem empatados), saldo de gols, gols pró; na classificação de rodada, o confronto só "
+                                     "depois de jogados todos os jogos entre eles",
+                    "confronto": "pontos, confronto direto, saldo de gols, gols pró", "saldo": "pontos, saldo de gols, gols pró",
                     "media": "pontos, média de gols (goal average)"}[criterio]
         tab["fases"].append({"temporada": T, "ordem": 1, "fase": "Liga", "tipo": "liga", "num_grupos": None,
                              "formato_serie": "pontos_corridos", "criterio": crit_txt})
@@ -929,8 +977,10 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         "pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando "
         "a soma bate com o placar. Hora local (Madri; Canárias nos jogos em casa do Las Palmas e do Tenerife). Rebaixado = clube "
         "que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96.", "",
-        f"**Desempate:** para cada temporada, o critério que reproduz a ordem oficial (confronto direto em {cr['confronto']}, "
-        f"saldo de gols em {cr['saldo']}, média de gols em {cr['media']}); é ele que ordena a classificação rodada a rodada.", "",
+        f"**Desempate:** a regra espanhola em todas as temporadas (revisão QE-001): pontos, confronto direto (pontos e saldo "
+        f"entre os empatados, de novo entre os que seguem empatados), saldo de gols e gols pró. Ela reproduz a ordem oficial "
+        f"em {sum(1 for _, ok in criterios.values() if ok)} de {len(criterios)} temporadas. Na classificação rodada a rodada, "
+        f"o confronto só vale depois de jogados todos os jogos entre os empatados.", "",
         "| Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |",
         "|---|---|---|---|---|---|---|---|---|",
     ]
