@@ -560,4 +560,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - Os ids mudam: saem as liguillas, e as datas de 2020 mudam.
   - O clube novo é o Green Cross de Santiago, com o título de 1945; o Deportes Temuco perde esse título.
   - O "Deportes Arica" vira San Marcos de Arica.
+- **Commit:** `209641e`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**

@@ -75,7 +75,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 |---|---|---|---|---|---|
 | `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 30f0b00 | sim (versão antes das correções) |
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.456 | 84 | 0ead727; correções 31c14b0 | sim (versão antes das correções) |
-| `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 23/11 | sim (versão antes das correções) |
+| `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e | sim (versão antes das correções) |
 | `col-1` Colombiano | 101 (1948–2025) | 22.788 | 42 | 3f5c1d0 | sim |
 | `par-1` Paraguaio | 133 (1906–2025) | 7.865 | 43 | dc2b360, 9d1ca3b, 0b793ba | sim (recarregado 22/11) |
 | `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | sim |
@@ -98,7 +98,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Argentino: feito em 23/11 (`30f0b00`)** (ids no fim de `docs/coleta/pedidos-sulamerica.md`). Abertos: AR-020 (1929), AR-021
      (rebaixados), AR-023 (leitor comum), QU-003, QU-005.
    - **Uruguaio: feito em 23/11 (`31c14b0`)** (ids no fim de `pedidos-sulamerica.md`). Aberto: UY-014 (leitor comum).
-   - **Chileno: feito em 23/11** (ids no fim de `pedidos-sulamerica.md`). Abertos: CH-006, CH-012, CH-017, CH-022,
+   - **Chileno: feito em 23/11 (`209641e`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: CH-006, CH-012, CH-017, CH-022,
      CH-023, CH-028 e a parte de 1986 do CH-014. Atenção: o leitor do Chile tinha `` virado backspace em três regex
      ("Second Stage" e "Third Stage" nunca casavam); corrigido.
    - Próximo: Colombiano, depois Paraguaio, Peruano, Equatoriano. O Guilherme mandou fazer todas sem perguntar
