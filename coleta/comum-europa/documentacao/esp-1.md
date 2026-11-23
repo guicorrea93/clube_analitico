@@ -153,20 +153,6 @@ Registradas em `coleta/esp-1/importar.py`; cada uma também aparece no relatóri
 - **2004/05 · Real Madrid · Real Sociedad:** começou em 12/12/2004 e foi suspenso aos 88 minutos, com 1-1 (ameaça de bomba); completado em 05/01/2005
 - **2023/24 · Granada CF · Athletic Bilbao:** começou em 10/12/2023 e foi suspenso no 1º tempo (morte de um torcedor na arquibancada); completado em 11/12/2023
 
-### Nomes de jogadores da ESPN acertados (`NOMES_ESPN`)
-
-- **Kahveci Nihat:** Nihat Kahveci
-- **Fernando Sanchez Morientes:** Fernando Morientes
-- **Ismael Aranda Urzaiz:** Ismael Urzaiz
-- **Mendez Ruben Navarro:** Rubén Navarro
-- **Mocelin Magno:** Magno Mocelin
-- **Alsocer Raul Molina:** Raúl Molina
-- **Bortolini Pimentel Savio:** Sávio
-- **Fernandez Manuel Gutierrez Victor:** Víctor Fernández
-- **Víctor -:** Víctor Fernández
-- **Ballesta Salva:** Salva Ballesta
-- **Salvador Ballesta Vialcho:** Salva Ballesta
-
 ### Divergências entre fontes já explicadas (`EXPLICACOES`)
 
 - **1928/29:** a tabela da Wikipédia traz gols errados para Athletic Bilbao (47-34) e Arenas (33-43); a da RSSSF fecha com os jogos (43-33 e 32-39) e dá a ordem

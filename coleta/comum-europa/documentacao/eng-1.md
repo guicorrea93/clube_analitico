@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 ## 1. O que temos
 
 - **Edições:** 127, de 1888/89 a 2025/26.
-- **Jogos:** 51330; **gols:** 152539; **gols com autor:** 25841 (17%); **cartões:** 33166; **jogos com estatísticas** (chutes, faltas, escanteios): 9880.
+- **Jogos:** 51330; **gols:** 152539; **gols com autor:** 25878 (17%); **cartões:** 33166; **jogos com estatísticas** (chutes, faltas, escanteios): 9880.
 - **Clubes:** 65; **artilheiros:** 127 temporadas com artilheiro (145 linhas, com empates).
 - **Classificação final:** 127 temporadas; **rodada a rodada:** 33 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 4654 linhas, de 227 tabelas.
@@ -20,7 +20,8 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 - ogol: rodada de cada jogo (só nas temporadas com rodadas fixas: 1992/93, 1993/94 e de 1995/96 em diante) e conferência de placar; calendários guardados em `data/cache/ogol-eng-1/` para os escudos;
 - ESPN (liga `eng.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
 - RSSSF (engpaul/FLA, Paul Felton e Barry Spencer): tabela final publicada até 2006/07 e matriz de resultados (1888/89-1938/39, menos 1925/26) — conferência jogo a jogo;
-- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e lista de artilheiros.
+- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e lista de artilheiros;
+- BDFutbol (1960/61+): árbitro com o nome completo e estádio onde a ESPN não tem; autores dos 12 jogos em que os gols da ESPN não fecham com o placar (ficha de cada jogo).
 
 **Regras da importação:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local de Londres. Rebaixado = clube que não está na 1ª divisão na temporada seguinte.
 
@@ -45,12 +46,12 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1930s | 4158 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1940s | 1848 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 4620 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1960s | 4620 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 4620 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 4414 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1990s | 4128 | 100% | 0% | 68% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 3800 | 100% | 90% | 100% | 89% | 90% | 100% | 100% | 90% | 2.9 |
-| 2010s | 3800 | 100% | 100% | 100% | 99% | 98% | 100% | 100% | 100% | 3.5 |
+| 1960s | 4620 | 100% | 0% | 0% | 100% | 0% | 75% | 0% | 0% | 0.0 |
+| 1970s | 4620 | 100% | 0% | 0% | 100% | 0% | 87% | 0% | 0% | 0.0 |
+| 1980s | 4414 | 100% | 0% | 0% | 100% | 0% | 86% | 0% | 0% | 0.0 |
+| 1990s | 4128 | 100% | 0% | 68% | 100% | 0% | 100% | 0% | 0% | 0.0 |
+| 2000s | 3800 | 100% | 90% | 100% | 100% | 90% | 100% | 100% | 90% | 2.9 |
+| 2010s | 3800 | 100% | 100% | 100% | 100% | 98% | 100% | 100% | 100% | 3.5 |
 | 2020s | 2280 | 100% | 100% | 100% | 100% | 84% | 100% | 100% | 100% | 3.9 |
 
 ## 5. Formato do campeonato ao longo do tempo
@@ -148,6 +149,7 @@ Registradas em `coleta/eng-1/importar.py`; cada uma também aparece no relatóri
 
 ### Datas corrigidas (`DATAS`)
 
+- **1953/54 · Sheffield Wednesday · Aston Villa:** 1953-11-07
 - **1895/96 · Burnley · Sheffield United:** 1896-02-04
 - **1899/00 · Preston North End · Nottingham Forest:** 1899-12-30
 - **1899/00 · Aston Villa · Sunderland:** 1899-12-30
@@ -192,6 +194,25 @@ Registradas em `coleta/eng-1/importar.py`; cada uma também aparece no relatóri
 - **1889/90 · Stoke City:** não foi reeleito para a Football League (foi para a Football Alliance); não havia rebaixamento
 - **1891/92 · Darwen:** não foi reeleito para a 1ª divisão e foi posto na nova 2ª divisão; não havia rebaixamento
 
+### Autores dos gols pela ficha do BDFutbol (a ESPN não fecha) (`GOLS_MANUAIS`)
+
+- **2002/03 · West Bromwich Albion · Southampton:** [[('m', 'Sean Gregan', 80, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=610818
+- **2002/03 · Sunderland · Charlton Athletic:** [[('v', 'Stephen Wright', 24, 'contra'), ('v', 'Michael Proctor', 29, 'contra'), ('v', 'Michael Proctor', 32, 'contra'), ('m', 'Kevin Phillips', 81, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=611018
+- **2002/03 · Fulham · Aston Villa:** [[('v', 'Gareth Barry', 3, 'normal'), ('m', 'Steed Malbranque', 14, 'normal'), ('m', 'Jon Harley', 36, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=611026
+- **2003/04 · Leeds United · Manchester City:** [[('m', 'Stephen McPhail', 23, 'normal'), ('v', 'Nicolas Anelka', 44, 'normal'), ('m', 'Mark Viduka', 76, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=611432
+- **2004/05 · Tottenham Hotspur · Charlton Athletic:** [[('v', 'Shaun Bartlett', 17, 'normal'), ('v', 'Shaun Bartlett', 39, 'normal'), ('v', 'Jerome Thomas', 50, 'normal'), ('m', 'Robbie Keane', 69, 'normal'), ('m', 'Jermain Defoe', 79, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=611643
+- **2006/07 · West Ham United · Wigan Athletic:** [[('v', 'David Cotterill', 51, 'normal'), ('v', 'Jonathan Spector', 58, 'contra')]] https://www.bdfutbol.com/es/p/p.php?id=612435
+- **2010/11 · Everton · West Bromwich Albion:** [[('v', 'Paul Scharner', 16, 'normal'), ('v', 'Chris Brunt', 26, 'normal'), ('m', 'Tim Cahill', 42, 'normal'), ('v', 'Somen Tchoyi', 76, 'normal'), ('v', 'Youssuf Mulumbu', 87, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=613952
+- **2011/12 · Everton · West Bromwich Albion:** [[('m', 'Leon Osman', 18, 'normal'), ('m', 'Victor Anichebe', 68, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=614493
+- **2013/14 · Manchester City · Manchester United:** [[('m', 'Sergio Agüero', 16, 'normal'), ('m', 'Yaya Touré', 45, 'normal'), ('m', 'Sergio Agüero', 47, 'normal'), ('m', 'Samir Nasri', 50, 'normal'), ('v', 'Wayne Rooney', 87, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=614998
+- **2014/15 · Manchester City · Manchester United:** [[('m', 'Sergio Agüero', 63, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=618794
+- **2016/17 · Liverpool · West Ham United:** [[('m', 'Adam Lallana', 5, 'normal'), ('v', 'Dimitri Payet', 27, 'normal'), ('v', 'Michail Antonio', 39, 'normal'), ('m', 'Divock Origi', 48, 'normal')]] https://www.bdfutbol.com/es/p/p.php?id=619637
+- **2016/17 · Stoke City · Everton:** [[('m', 'Peter Crouch', 7, 'normal'), ('v', 'Ryan Shawcross', 39, 'contra')]] https://www.bdfutbol.com/es/p/p.php?id=619717
+
+### Artilheiros com divergência entre fontes anotada (`NOTA_ARTILHEIRO`)
+
+- **1905/06 · Albert Shepherd:** a RSSSF (engtops) e a página da temporada 1905-06 da liga dão Walter White (Bolton) com 26; a biografia de Shepherd dá 25. Fica a lista da Wikipédia (decisão D-17 c)
+
 ### Divergências entre fontes já explicadas (`EXPLICACOES`)
 
 - **1888/89:** Wolverhampton x Everton (26/01/1889) fica 5-0 (ver a correção abaixo); a matriz e a tabela da RSSSF, feitas com 4-0, ficam com 1 gol a menos para o Wolverhampton e para o Everton
@@ -211,7 +232,7 @@ Registradas em `coleta/eng-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
-- EN-016 (revisão, baixa): 12 jogos de 2002/03 a 2016/17 sem nenhum gol com autor (a soma dos gols da ESPN não bate com o placar). Precisa de outra fonte jogo a jogo (ficha do ogol ou 11v11).
+- Nomes de jogadores da ESPN em formato de documento (sobrenomes na frente, ex.: "Goncalves da Silva Ailton"): os casos mais frequentes estão em coleta/comum-europa/nomes_jogadores.py, aplicado em todas as ligas; a varredura completa dos ~2 mil nomes com 3 palavras ou mais, nas 8 ligas, fica pendente (conferir com o BDFutbol ou a Wikipédia).
 - Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).
 
 ## 10. Arquivos

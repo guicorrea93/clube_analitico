@@ -29,7 +29,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1890/91,4,Wolverhampton,22,12,2,8,39,50,26,0,,Wikipédia (ordem oficial),
 1890/91,5,Bolton,22,12,1,9,47,34,25,0,,Wikipédia (ordem oficial),
 1890/91,6,Blackburn,22,11,2,9,52,43,24,0,,Wikipédia (ordem oficial),
-1890/91,7,Sunderland,22,10,5,7,51,31,23,-2,,Wikipédia (ordem oficial),Sunderland were deducted two points for fielding an unregistered player.
+1890/91,7,Sunderland,22,10,5,7,51,31,23,-2,,Wikipédia (ordem oficial),2 pontos a menos por escalar jogador não inscrito
 1890/91,8,Burnley,22,9,3,10,52,63,21,0,,Wikipédia (ordem oficial),
 1890/91,9,Aston Villa,22,7,4,11,45,58,18,0,,Wikipédia (ordem oficial),
 1890/91,10,Accrington,22,6,4,12,28,50,16,0,,Wikipédia (ordem oficial),
@@ -143,7 +143,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1897/98,12,Preston,30,8,8,14,35,43,24,0,,Wikipédia (ordem oficial),
 1897/98,13,Notts County,30,8,8,14,36,46,24,0,,Wikipédia (ordem oficial),
 1897/98,14,Bury,30,8,8,14,39,51,24,0,,Wikipédia (ordem oficial),
-1897/98,15,Blackburn,30,7,10,13,39,54,24,0,,Wikipédia (ordem oficial),Blackburn Rovers were initially relegated but were later reprieved due to the First Division expanding to 18 teams for the following season.
+1897/98,15,Blackburn,30,7,10,13,39,54,24,0,,Wikipédia (ordem oficial),"rebaixado em campo, mas ficou na 1ª divisão, ampliada para 18 clubes na temporada seguinte"
 1897/98,16,Stoke City,30,8,8,14,35,55,24,0,,Wikipédia (ordem oficial),
 1898/99,1,Aston Villa,34,19,7,8,76,40,45,0,campeao,Wikipédia (ordem oficial),
 1898/99,2,Liverpool,34,19,5,10,49,33,43,0,,Wikipédia (ordem oficial),
@@ -1750,7 +1750,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1984/85,1,Everton,42,28,6,8,88,43,90,0,campeao,Wikipédia (ordem oficial),
 1984/85,2,Liverpool,42,22,11,9,68,35,77,0,,Wikipédia (ordem oficial),
 1984/85,3,Tottenham,42,23,8,11,78,51,77,0,,Wikipédia (ordem oficial),
-1984/85,4,Manchester United,42,22,10,10,77,47,76,0,,Wikipédia (ordem oficial),Manchester United would have qualified for the Cup Winners' Cup as FA Cup winners.
+1984/85,4,Manchester United,42,22,10,10,77,47,76,0,,Wikipédia (ordem oficial),
 1984/85,5,Southampton,42,19,11,12,56,47,68,0,,Wikipédia (ordem oficial),
 1984/85,6,Chelsea,42,18,12,12,63,48,66,0,,Wikipédia (ordem oficial),
 1984/85,7,Arsenal,42,19,9,14,61,49,66,0,,Wikipédia (ordem oficial),
@@ -1766,14 +1766,14 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1984/85,17,Ipswich,42,13,11,18,46,57,50,0,,Wikipédia (ordem oficial),
 1984/85,18,Coventry,42,15,5,22,47,64,50,0,,Wikipédia (ordem oficial),
 1984/85,19,QPR,42,13,11,18,53,72,50,0,,Wikipédia (ordem oficial),
-1984/85,20,Norwich,42,13,10,19,46,64,49,0,rebaixado,Wikipédia (ordem oficial),Norwich City would have qualified for the UEFA Cup as League Cup winners.
+1984/85,20,Norwich,42,13,10,19,46,64,49,0,rebaixado,Wikipédia (ordem oficial),
 1984/85,21,Sunderland,42,10,10,22,40,62,40,0,rebaixado,Wikipédia (ordem oficial),
 1984/85,22,Stoke City,42,3,8,31,24,91,17,0,rebaixado,Wikipédia (ordem oficial),
 1985/86,1,Liverpool,42,26,10,6,89,37,88,0,campeao,Wikipédia (ordem oficial),
-1985/86,2,Everton,42,26,8,8,87,41,86,0,,Wikipédia (ordem oficial),"Since the FA Cup winners, Liverpool, would have instead qualified for the European Cup, qualification would have instead been passed down to runners-up Everton."
+1985/86,2,Everton,42,26,8,8,87,41,86,0,,Wikipédia (ordem oficial),
 1985/86,3,West Ham,42,26,6,10,74,40,84,0,,Wikipédia (ordem oficial),
 1985/86,4,Manchester United,42,22,10,10,70,36,76,0,,Wikipédia (ordem oficial),
-1985/86,5,Sheffield Wednesday,42,21,10,11,63,54,73,0,,Wikipédia (ordem oficial),"Since Everton would have instead qualified for the European Cup Winners' Cup, UEFA Cup qualification would have been passed down to Sheffield Wednesday."
+1985/86,5,Sheffield Wednesday,42,21,10,11,63,54,73,0,,Wikipédia (ordem oficial),
 1985/86,6,Chelsea,42,20,11,11,57,56,71,0,,Wikipédia (ordem oficial),
 1985/86,7,Arsenal,42,20,9,13,49,47,69,0,,Wikipédia (ordem oficial),
 1985/86,8,Nottingham Forest,42,19,11,12,69,53,68,0,,Wikipédia (ordem oficial),
@@ -1786,7 +1786,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1985/86,15,Manchester City,42,11,12,19,43,57,45,0,,Wikipédia (ordem oficial),
 1985/86,16,Aston Villa,42,10,14,18,51,67,44,0,,Wikipédia (ordem oficial),
 1985/86,17,Coventry,42,11,10,21,48,71,43,0,,Wikipédia (ordem oficial),
-1985/86,18,Oxford United,42,10,12,20,62,80,42,0,,Wikipédia (ordem oficial),Oxford United would have qualified as League Cup winners.
+1985/86,18,Oxford United,42,10,12,20,62,80,42,0,,Wikipédia (ordem oficial),
 1985/86,19,Leicester,42,10,12,20,54,76,42,0,,Wikipédia (ordem oficial),
 1985/86,20,Ipswich,42,11,8,23,32,55,41,0,rebaixado,Wikipédia (ordem oficial),
 1985/86,21,Birmingham,42,8,5,29,30,73,29,0,rebaixado,Wikipédia (ordem oficial),
@@ -1794,13 +1794,13 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1986/87,1,Everton,42,26,8,8,76,31,86,0,campeao,Wikipédia (ordem oficial),
 1986/87,2,Liverpool,42,23,8,11,72,42,77,0,,Wikipédia (ordem oficial),
 1986/87,3,Tottenham,42,21,8,13,68,43,71,0,,Wikipédia (ordem oficial),
-1986/87,4,Arsenal,42,20,10,12,58,35,70,0,,Wikipédia (ordem oficial),Arsenal would have qualified as League Cup winners.
+1986/87,4,Arsenal,42,20,10,12,58,35,70,0,,Wikipédia (ordem oficial),
 1986/87,5,Norwich,42,17,17,8,53,51,68,0,,Wikipédia (ordem oficial),
 1986/87,6,Wimbledon,42,19,9,14,57,50,66,0,,Wikipédia (ordem oficial),
 1986/87,7,Luton,42,18,12,12,47,45,66,0,,Wikipédia (ordem oficial),
 1986/87,8,Nottingham Forest,42,18,11,13,64,51,65,0,,Wikipédia (ordem oficial),
 1986/87,9,Watford,42,18,9,15,67,54,63,0,,Wikipédia (ordem oficial),
-1986/87,10,Coventry,42,17,12,13,50,45,63,0,,Wikipédia (ordem oficial),Coventry City would have qualified as FA Cup winners.
+1986/87,10,Coventry,42,17,12,13,50,45,63,0,,Wikipédia (ordem oficial),
 1986/87,11,Manchester United,42,14,14,14,52,45,56,0,,Wikipédia (ordem oficial),
 1986/87,12,Southampton,42,14,10,18,69,68,52,0,,Wikipédia (ordem oficial),
 1986/87,13,Sheffield Wednesday,42,13,13,16,58,59,52,0,,Wikipédia (ordem oficial),
@@ -1819,9 +1819,9 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1987/88,4,Everton,40,19,13,8,53,27,70,0,,Wikipédia (ordem oficial),
 1987/88,5,QPR,40,19,10,11,48,38,67,0,,Wikipédia (ordem oficial),
 1987/88,6,Arsenal,40,18,12,10,58,39,66,0,,Wikipédia (ordem oficial),
-1987/88,7,Wimbledon,40,14,15,11,58,47,57,0,,Wikipédia (ordem oficial),Wimbledon would have qualified as FA Cup winners.
+1987/88,7,Wimbledon,40,14,15,11,58,47,57,0,,Wikipédia (ordem oficial),
 1987/88,8,Newcastle,40,14,14,12,55,53,56,0,,Wikipédia (ordem oficial),
-1987/88,9,Luton,40,14,11,15,57,58,53,0,,Wikipédia (ordem oficial),Luton Town would have qualified as League Cup winners.
+1987/88,9,Luton,40,14,11,15,57,58,53,0,,Wikipédia (ordem oficial),
 1987/88,10,Coventry,40,13,14,13,46,53,53,0,,Wikipédia (ordem oficial),
 1987/88,11,Sheffield Wednesday,40,15,8,17,52,66,53,0,,Wikipédia (ordem oficial),
 1987/88,12,Southampton,40,12,14,14,49,53,50,0,,Wikipédia (ordem oficial),
@@ -1835,8 +1835,8 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1987/88,20,Watford,40,7,11,22,27,51,32,0,rebaixado,Wikipédia (ordem oficial),
 1987/88,21,Oxford United,40,6,13,21,44,80,31,0,rebaixado,Wikipédia (ordem oficial),
 1988/89,1,Arsenal,38,22,10,6,73,36,76,0,campeao,Wikipédia (ordem oficial),
-1988/89,2,Liverpool,38,22,10,6,65,28,76,0,,Wikipédia (ordem oficial),Liverpool would have qualified as FA Cup winners.
-1988/89,3,Nottingham Forest,38,17,13,8,64,43,64,0,,Wikipédia (ordem oficial),Nottingham Forest would have qualified as League Cup winners.
+1988/89,2,Liverpool,38,22,10,6,65,28,76,0,,Wikipédia (ordem oficial),
+1988/89,3,Nottingham Forest,38,17,13,8,64,43,64,0,,Wikipédia (ordem oficial),
 1988/89,4,Norwich,38,17,11,10,48,45,62,0,,Wikipédia (ordem oficial),
 1988/89,5,Derby County,38,17,7,14,40,38,58,0,,Wikipédia (ordem oficial),
 1988/89,6,Tottenham,38,15,12,11,60,46,57,0,,Wikipédia (ordem oficial),
@@ -2020,7 +2020,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1996/97,16,Southampton,38,10,11,17,50,56,41,0,,Wikipédia (ordem oficial),
 1996/97,17,Coventry,38,9,14,15,38,54,41,0,,Wikipédia (ordem oficial),
 1996/97,18,Sunderland,38,10,10,18,35,53,40,0,rebaixado,Wikipédia (ordem oficial),
-1996/97,19,Middlesbrough,38,10,12,16,51,60,39,-3,rebaixado,Wikipédia (ordem oficial),Middlesbrough were docked three points for failing to fulfill their original fixture at Blackburn Rovers on 21 December 1996.
+1996/97,19,Middlesbrough,38,10,12,16,51,60,39,-3,rebaixado,Wikipédia (ordem oficial),3 pontos a menos por não comparecer ao jogo contra o Blackburn Rovers marcado para 21/12/1996
 1996/97,20,Nottingham Forest,38,6,16,16,31,59,34,0,rebaixado,Wikipédia (ordem oficial),
 1997/98,1,Arsenal,38,23,9,6,68,33,78,0,campeao,Wikipédia (ordem oficial),
 1997/98,2,Manchester United,38,23,8,7,73,26,77,0,,Wikipédia (ordem oficial),
@@ -2041,7 +2041,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1997/98,17,Everton,38,9,13,16,41,56,40,0,,Wikipédia (ordem oficial),
 1997/98,18,Bolton,38,9,13,16,41,61,40,0,rebaixado,Wikipédia (ordem oficial),
 1997/98,19,Barnsley,38,10,5,23,37,82,35,0,rebaixado,Wikipédia (ordem oficial),
-1997/98,20,Crystal Palace,38,8,9,21,37,71,33,0,rebaixado,Wikipédia (ordem oficial),Crystal Palace qualified for the 1998 Intertoto Cup as they were the only English team who applied.
+1997/98,20,Crystal Palace,38,8,9,21,37,71,33,0,rebaixado,Wikipédia (ordem oficial),
 1998/99,1,Manchester United,38,22,13,3,80,37,79,0,campeao,Wikipédia (ordem oficial),
 1998/99,2,Arsenal,38,22,12,4,59,17,78,0,,Wikipédia (ordem oficial),
 1998/99,3,Chelsea,38,20,15,3,57,30,75,0,,Wikipédia (ordem oficial),
@@ -2281,7 +2281,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2009/10,17,West Ham,38,8,11,19,47,66,35,0,,Wikipédia (ordem oficial),
 2009/10,18,Burnley,38,8,6,24,42,82,30,0,rebaixado,Wikipédia (ordem oficial),
 2009/10,19,Hull City,38,6,12,20,34,75,30,0,rebaixado,Wikipédia (ordem oficial),
-2009/10,20,Portsmouth,38,7,7,24,34,66,19,-9,rebaixado,Wikipédia (ordem oficial),Portsmouth were docked nine points for entering administration.
+2009/10,20,Portsmouth,38,7,7,24,34,66,19,-9,rebaixado,Wikipédia (ordem oficial),9 pontos a menos por entrar em recuperação judicial
 2010/11,1,Manchester United,38,23,11,4,78,37,80,0,campeao,Wikipédia (ordem oficial),
 2010/11,2,Chelsea,38,21,8,9,69,33,71,0,,Wikipédia (ordem oficial),
 2010/11,3,Manchester City,38,21,8,9,60,33,71,0,,Wikipédia (ordem oficial),
@@ -2556,9 +2556,9 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2023/24,12,Bournemouth,38,13,9,16,54,67,48,0,,Wikipédia (ordem oficial),
 2023/24,13,Fulham,38,13,8,17,55,61,47,0,,Wikipédia (ordem oficial),
 2023/24,14,Wolverhampton,38,13,7,18,50,65,46,0,,Wikipédia (ordem oficial),
-2023/24,15,Everton,38,13,9,16,40,51,40,-8,,Wikipédia (ordem oficial),Everton were deducted eight points for breaching profitability and sustainability rules. They were originally deducted ten points but this was reduced to six after an appeal. The club were then deducted an additional two points for further PSR breaches.
+2023/24,15,Everton,38,13,9,16,40,51,40,-8,,Wikipédia (ordem oficial),"8 pontos a menos por violar as regras financeiras (PSR): 10, reduzidos a 6 no recurso, e mais 2"
 2023/24,16,Brentford,38,10,9,19,56,65,39,0,,Wikipédia (ordem oficial),
-2023/24,17,Nottingham Forest,38,9,9,20,49,67,32,-4,,Wikipédia (ordem oficial),Nottingham Forest were deducted four points for breaching profitability and sustainability rules. The club appealed the decision but were unsuccessful.
+2023/24,17,Nottingham Forest,38,9,9,20,49,67,32,-4,,Wikipédia (ordem oficial),4 pontos a menos por violar as regras financeiras (PSR); o recurso foi negado
 2023/24,18,Luton,38,6,8,24,52,85,26,0,rebaixado,Wikipédia (ordem oficial),
 2023/24,19,Burnley,38,5,9,24,41,78,24,0,rebaixado,Wikipédia (ordem oficial),
 2023/24,20,Sheffield United,38,3,7,28,35,104,16,0,rebaixado,Wikipédia (ordem oficial),

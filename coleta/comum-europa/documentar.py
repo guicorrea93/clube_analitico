@@ -28,8 +28,9 @@ LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1"]
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
     "eng-1": [
-        "EN-016 (revisão, baixa): 12 jogos de 2002/03 a 2016/17 sem nenhum gol com autor (a soma dos gols da ESPN não bate "
-        "com o placar). Precisa de outra fonte jogo a jogo (ficha do ogol ou 11v11).",
+        "Nomes de jogadores da ESPN em formato de documento (sobrenomes na frente, ex.: \"Goncalves da Silva Ailton\"): os "
+        "casos mais frequentes estão em coleta/comum-europa/nomes_jogadores.py, aplicado em todas as ligas; a varredura completa "
+        "dos ~2 mil nomes com 3 palavras ou mais, nas 8 ligas, fica pendente (conferir com o BDFutbol ou a Wikipédia).",
         "Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).",
     ],
     "esp-1": [
@@ -105,6 +106,8 @@ DICIONARIOS = {
     "ORDEM_RSSSF": "Temporadas com a ordem oficial da RSSSF",
     "READMITIDOS": "Rebaixados em campo e readmitidos",
     "SUSPENSOS": "Jogos suspensos e completados em outro dia",
+    "GOLS_MANUAIS": "Autores dos gols pela ficha do BDFutbol (a ESPN não fecha)",
+    "NOTA_ARTILHEIRO": "Artilheiros com divergência entre fontes anotada",
     "ORDEM_ITWIKI": "Ordem entre empatados pela Wikipédia it (classifica avulsa)",
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
     "EXPLICACOES": "Divergências entre fontes já explicadas",

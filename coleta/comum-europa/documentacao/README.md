@@ -6,7 +6,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 
 | Liga | Temporadas | Jogos | Gols c/ autor | Cartões | Clubes | Tabelas ok / div. | Pendências | Ficha |
 |---|---|---|---|---|---|---|---|---|
-| Campeonato Inglês | 127 (1888/89–2025/26) | 51330 | 25841 | 33166 | 65 | 226 / 1 | 2 | [eng-1](eng-1.md) |
+| Campeonato Inglês | 127 (1888/89–2025/26) | 51330 | 25878 | 33166 | 65 | 226 / 1 | 2 | [eng-1](eng-1.md) |
 | Campeonato Espanhol | 95 (1928/29–2025/26) | 27716 | 25072 | 51662 | 63 | 180 / 11 | 1 | [esp-1](esp-1.md) |
 | Campeonato Italiano | 95 (1929/30–2025/26) | 29271 | 24564 | 43962 | 69 | 167 / 5 | 4 | [ita-1](ita-1.md) |
 | Campeonato Alemão | 124 (1963/64–1962/63) | 20303 | 22700 | 30251 | 194 | 183 / 5 | 4 | [ger-1](ger-1.md) |
@@ -17,7 +17,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 
 ## Pendências de todas as ligas
 
-- **eng-1:** EN-016 (revisão, baixa): 12 jogos de 2002/03 a 2016/17 sem nenhum gol com autor (a soma dos gols da ESPN não bate com o placar). Precisa de outra fonte jogo a jogo (ficha do ogol ou 11v11).
+- **eng-1:** Nomes de jogadores da ESPN em formato de documento (sobrenomes na frente, ex.: "Goncalves da Silva Ailton"): os casos mais frequentes estão em coleta/comum-europa/nomes_jogadores.py, aplicado em todas as ligas; a varredura completa dos ~2 mil nomes com 3 palavras ou mais, nas 8 ligas, fica pendente (conferir com o BDFutbol ou a Wikipédia).
 - **eng-1:** Autores dos gols e cartões antes de 2001/02: nenhuma fonte em lote; seria jogo a jogo (ficha do ogol).
 - **esp-1:** Autores dos gols e cartões antes de 2001/02: a RSSSF tem de 2000/01 em diante; antes, jogo a jogo (ficha do ogol).
 - **ita-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).

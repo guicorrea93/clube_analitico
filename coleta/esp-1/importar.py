@@ -35,6 +35,7 @@ sys.path.insert(0, str(AQUI))
 import clubes_esp as clubes  # noqa: E402
 from edicoes import DADOS, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
+from nomes_jogadores import nome_jogador  # noqa: E402
 import notas_wiki  # noqa: E402
 from rsssf_esp import LINHA, ler as ler_rsssf, texto as texto_rsssf  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
@@ -63,16 +64,11 @@ CORRECOES = {
 
 # explicação de cada divergência que sobra entre fontes (vai para o relatório, antes das ocorrências da temporada)
 # nomes da ESPN com o sobrenome na frente ou partidos em dois (2001/02 a 2008/09; revisão ES-006)
-NOMES_ESPN = {
-    "Kahveci Nihat": "Nihat Kahveci", "Fernando Sanchez Morientes": "Fernando Morientes", "Ismael Aranda Urzaiz": "Ismael Urzaiz",
-    "Mendez Ruben Navarro": "Rubén Navarro", "Mocelin Magno": "Magno Mocelin", "Alsocer Raul Molina": "Raúl Molina",
-    "Bortolini Pimentel Savio": "Sávio", "Fernandez Manuel Gutierrez Victor": "Víctor Fernández", "Víctor -": "Víctor Fernández",
-    "Ballesta Salva": "Salva Ballesta", "Salvador Ballesta Vialcho": "Salva Ballesta",
-}
+# nomes da ESPN em formato de documento: coleta/comum-europa/nomes_jogadores.py (NOMES_JOGADORES, aplicado ao gravar o pacote)
 
 
 def nome_espn(nome: str | None) -> str | None:
-    return NOMES_ESPN.get(nome, nome)
+    return nome_jogador(nome)
 
 
 # fora da temporada seguinte sem ter caído: (ano, clube) -> motivo (revisão ES-001)

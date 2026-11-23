@@ -13,6 +13,8 @@ import csv
 import json
 from pathlib import Path
 
+from nomes_jogadores import nome_jogador
+
 CAMPOS = {
     "paises": "codigo,nome,confederacao",
     "clubes": "clube,regiao,cidade,pais,nomes_fonte",
@@ -44,4 +46,6 @@ def gravar(pasta: Path, competicao: dict, tabelas: dict[str, list[dict]]) -> Non
             w = csv.DictWriter(f, fieldnames=campos.split(","), extrasaction="raise")
             w.writeheader()
             for l in linhas:
+                if nome in ("gols", "cartoes", "artilheiros") and l.get("jogador"):
+                    l = dict(l, jogador=nome_jogador(l["jogador"]))
                 w.writerow({k: ("" if v is None else v) for k, v in l.items()})

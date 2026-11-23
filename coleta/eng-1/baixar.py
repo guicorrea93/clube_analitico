@@ -122,6 +122,17 @@ def espn() -> None:
         print(f"espn {temporada(a)}: {len(js)} jogos, {sum(1 for j in js if j['lances'])} com lances", flush=True)
 
 
+def bdfutbol() -> None:
+    """BDFutbol (bdfutbol.com): página de cada temporada desde 1960/61 (/es/t/teng1960-61.html), com data, clubes, placar,
+    estádio e árbitro de cada jogo (nome completo). Em data/coleta/eng-1/bdfutbol/."""
+    for a in TEMPORADAS:
+        if a < 1960:
+            continue
+        nome = f"teng{a}-{str(a + 1)[-2:]}.html"
+        d = pegar(f"https://www.bdfutbol.com/es/t/{nome}", DADOS / "bdfutbol" / nome, espera=2.0)
+        print(f"bdfutbol {nome}: {len(d or b'')} bytes", flush=True)
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1888-1914" passa a faixa de temporadas

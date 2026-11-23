@@ -626,3 +626,25 @@ Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fecha
   - A nota que só apontava o código de outro clube ("hth_BET=ATH") agora traz o texto da nota apontada
     (`wiki_tabela.py`).
 - Teste de carga: "esp-1: 95 edições, 27716 jogos, 0 clubes novos -> OK". **Pedido:** recarregar `esp-1` e publicar.
+
+## 23/11 — coleta Europa: correções da revisão no Inglês (`eng-1`) e nomes da ESPN (RC-004)
+
+Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fechar os ids).
+
+- **QE-005:** Sheffield Wednesday 3-1 Aston Villa (1953/54) em 07/11/1953 (antes 07/09).
+- **EN-016:** autores dos 37 gols dos 12 jogos em que os gols da ESPN não fecham com o placar, pela ficha do BDFutbol
+  (dicionário `GOLS_MANUAIS`, com a url de cada ficha na `fonte` do gol). Com isso a artilharia calculada de 2014/15
+  fica Agüero 26, a oficial.
+- **QE-006:** árbitro com o nome completo do BDFutbol ("Mike Dean", "David Elleray") em todas as temporadas desde 1960/61.
+  Antes era só do football-data, desde 2000/01, em três formatos. Onde a ESPN não tem estádio, entra o do BDFutbol; com
+  isso, todos os jogos desde 1960/61 têm estádio. Leitor em `coleta/comum-europa/bdfutbol.py`; páginas em
+  `data/coleta/eng-1/bdfutbol/`.
+- **EN-004 (D-17 c):** fica Albert Shepherd com 26 em 1905/06; a `fonte` do artilheiro anota que a RSSSF dá Walter White
+  com 26 e a biografia dá 25 a Shepherd.
+- **QE-007 (parte do Inglês):** observações da classificação em português; as de vaga europeia hipotética saem.
+- **RC-004:** "Fernando Morientes", "Sávio" e mais 8 nomes da ESPN em formato de documento ("Goncalves da Silva Ailton"
+  -> "Ailton", "Jeronimo Baretto Cacau" -> "Cacau"...) corrigidos em `coleta/comum-europa/nomes_jogadores.py`. A
+  correção é aplicada ao gravar o pacote, em todas as ligas; cada liga reimportada leva a correção (Francês, Alemão e
+  Português vêm nas próximas correções). A varredura completa dos ~2 mil nomes com 3 palavras ou mais fica como
+  pendência.
+- Teste de carga: "eng-1: 127 edições, 51330 jogos, 0 clubes novos -> OK". **Pedido:** recarregar `eng-1` e publicar.

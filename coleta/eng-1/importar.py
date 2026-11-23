@@ -31,6 +31,8 @@ sys.path.insert(0, str(AQUI))
 import clubes_eng  # noqa: E402
 from edicoes import DADOS, RAIZ, TEMPORADAS, nome_oficial, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
+import notas_wiki  # noqa: E402
+import bdfutbol  # noqa: E402
 from rsssf_eng import ler as ler_rsssf  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
 
@@ -51,6 +53,7 @@ CORRECOES: dict[tuple, tuple] = {
 # data corrigida na base: (ano, mandante, visitante) -> data. Jogos em que o 11v11 e o ogol concordam contra a base
 # (conferência da revisão, EN-005: revisao/EN/datas_11v11_saida.txt)
 DATAS = {
+    (1953, "Sheffield Wednesday", "Aston Villa"): "1953-11-07",   # revisão QE-005: o engsoccerdata e o ogol trocaram o mês
     (1895, "Burnley", "Sheffield United"): "1896-02-04",
     **{(1899, m, v): "1899-12-30" for m, v in (
         ("Preston North End", "Nottingham Forest"), ("Aston Villa", "Sunderland"), ("Manchester City", "Blackburn Rovers"),
@@ -84,6 +87,46 @@ NAO_REELEITOS = {
 }
 
 # gols do artilheiro corrigidos: (ano, jogador) -> (gols, motivo) (revisão EN-002 e EN-003)
+# artilheiro com a divergência entre fontes anotada: (ano, jogador) -> nota (revisão EN-004, decisão D-17 c)
+NOTA_ARTILHEIRO = {
+    (1905, "Albert Shepherd"): "a RSSSF (engtops) e a página da temporada 1905-06 da liga dão Walter White (Bolton) com 26; a "
+                               "biografia de Shepherd dá 25. Fica a lista da Wikipédia (decisão D-17 c)",
+}
+
+# gols com autor dos jogos em que os da ESPN não fecham com o placar, pela ficha do BDFutbol (revisão EN-016):
+# (ano, mandante, visitante) -> (url da ficha, [(lado, jogador, minuto, tipo)]); o gol contra fica no lado de quem marcou no placar
+GOLS_MANUAIS: dict[tuple, tuple] = {
+    (2002, "West Bromwich Albion", "Southampton"): ("https://www.bdfutbol.com/es/p/p.php?id=610818", [
+        ("m", "Sean Gregan", 80, "normal")]),
+    (2002, "Sunderland", "Charlton Athletic"): ("https://www.bdfutbol.com/es/p/p.php?id=611018", [
+        ("v", "Stephen Wright", 24, "contra"), ("v", "Michael Proctor", 29, "contra"), ("v", "Michael Proctor", 32, "contra"),
+        ("m", "Kevin Phillips", 81, "normal")]),
+    (2002, "Fulham", "Aston Villa"): ("https://www.bdfutbol.com/es/p/p.php?id=611026", [
+        ("v", "Gareth Barry", 3, "normal"), ("m", "Steed Malbranque", 14, "normal"), ("m", "Jon Harley", 36, "normal")]),
+    (2003, "Leeds United", "Manchester City"): ("https://www.bdfutbol.com/es/p/p.php?id=611432", [
+        ("m", "Stephen McPhail", 23, "normal"), ("v", "Nicolas Anelka", 44, "normal"), ("m", "Mark Viduka", 76, "normal")]),
+    (2004, "Tottenham Hotspur", "Charlton Athletic"): ("https://www.bdfutbol.com/es/p/p.php?id=611643", [
+        ("v", "Shaun Bartlett", 17, "normal"), ("v", "Shaun Bartlett", 39, "normal"), ("v", "Jerome Thomas", 50, "normal"),
+        ("m", "Robbie Keane", 69, "normal"), ("m", "Jermain Defoe", 79, "normal")]),
+    (2006, "West Ham United", "Wigan Athletic"): ("https://www.bdfutbol.com/es/p/p.php?id=612435", [
+        ("v", "David Cotterill", 51, "normal"), ("v", "Jonathan Spector", 58, "contra")]),
+    (2010, "Everton", "West Bromwich Albion"): ("https://www.bdfutbol.com/es/p/p.php?id=613952", [
+        ("v", "Paul Scharner", 16, "normal"), ("v", "Chris Brunt", 26, "normal"), ("m", "Tim Cahill", 42, "normal"),
+        ("v", "Somen Tchoyi", 76, "normal"), ("v", "Youssuf Mulumbu", 87, "normal")]),
+    (2011, "Everton", "West Bromwich Albion"): ("https://www.bdfutbol.com/es/p/p.php?id=614493", [
+        ("m", "Leon Osman", 18, "normal"), ("m", "Victor Anichebe", 68, "normal")]),
+    (2013, "Manchester City", "Manchester United"): ("https://www.bdfutbol.com/es/p/p.php?id=614998", [
+        ("m", "Sergio Agüero", 16, "normal"), ("m", "Yaya Touré", 45, "normal"), ("m", "Sergio Agüero", 47, "normal"),
+        ("m", "Samir Nasri", 50, "normal"), ("v", "Wayne Rooney", 87, "normal")]),
+    (2014, "Manchester City", "Manchester United"): ("https://www.bdfutbol.com/es/p/p.php?id=618794", [
+        ("m", "Sergio Agüero", 63, "normal")]),
+    (2016, "Liverpool", "West Ham United"): ("https://www.bdfutbol.com/es/p/p.php?id=619637", [
+        ("m", "Adam Lallana", 5, "normal"), ("v", "Dimitri Payet", 27, "normal"), ("v", "Michail Antonio", 39, "normal"),
+        ("m", "Divock Origi", 48, "normal")]),
+    (2016, "Stoke City", "Everton"): ("https://www.bdfutbol.com/es/p/p.php?id=619717", [
+        ("m", "Peter Crouch", 7, "normal"), ("v", "Ryan Shawcross", 39, "contra")]),
+}
+
 GOLS_ARTILHEIRO = {
     (1937, "Tommy Lawton"): (28, "a página da temporada 1937-38 da liga e a do Everton e a ficha de Lawton na Wikipédia dão 28 na "
                                  "liga (a RSSSF traz 38, erro de digitação)"),
@@ -316,6 +359,27 @@ def main() -> None:
         clubes = sorted({j["m"] for j in jogos} | {j["v"] for j in jogos})
         n = len(clubes)
         assert len(jogos) == n * (n - 1), (a, len(jogos), n)
+        # ---- BDFutbol (1960/61+): árbitro com o nome completo e estádio (revisão QE-006). Casado pelo par; "Bristol" (City
+        # ou Rovers) e outros nomes ambíguos, pela data e pelo placar
+        arq_bdf = DADOS / "bdfutbol" / f"teng{a}-{str(a + 1)[-2:]}.html"
+        if arq_bdf.exists():
+            bdf_ok = bdf_sem = 0
+            for b in bdfutbol.jogos(arq_bdf):
+                m_, v_ = clubes_eng.esd(b["mandante"]), clubes_eng.esd(b["visitante"])
+                cand = [j for j in jogos if "bdf" not in j and (m_ is None or j["m"] == m_) and (v_ is None or j["v"] == v_)
+                        and (m_ is not None or v_ is not None)]
+                if len(cand) > 1:
+                    cand = [j for j in cand if (j["gm"], j["gv"]) == (b["gm"], b["gv"]) and b["data"] and
+                            abs((date.fromisoformat(j["data"]) - date.fromisoformat(b["data"])).days) <= 3]
+                if len(cand) == 1:
+                    cand[0]["bdf"] = b
+                    bdf_ok += 1
+                    for k, nome_b in (("m", b["mandante"]), ("v", b["visitante"])):
+                        nomes[cand[0][k]][f"bdfutbol:{nome_b}"].add(a)
+                else:
+                    bdf_sem += 1
+            if bdf_sem:
+                ocorr[a].append(f"BDFutbol: {bdf_sem} jogos sem par na base ({bdf_ok} casados)")
         pv = 2 if a <= 1980 else 3
 
         # ---- ogol: rodada e conferência
@@ -534,7 +598,7 @@ def main() -> None:
                 "temporada": T, "posicao": pos, "clube": clubes_eng.exibicao(c), "jogos": j_, "vitorias": v_, "empates": e_,
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 else "rebaixado" if c in rebaixados else None, "fonte": fonte_ordem,
-                "observacao": obs_final.get(c) or (w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None))
+                "observacao": obs_final.get(c) or (w and next((notas_wiki.traduzir(x["hth"] or x["nota"]) for x in w["times"] if x["clube"] == c), None))
                 or None})
 
         # ---- partidas, gols, cartões, estatísticas
@@ -551,19 +615,34 @@ def main() -> None:
             ids = [f"ogol:{o['id']}"] if o else []
             if e:
                 ids.append(f"espn:{e['id']}")
-            fontes = [j["fonte"]] + (["ogol"] if o else []) + (["football-data"] if x else []) + (["ESPN"] if e else [])
+            fontes = [j["fonte"]] + (["ogol"] if o else []) + (["football-data"] if x else []) + (["ESPN"] if e else []) \
+                + (["BDFutbol"] if j.get("bdf") else [])
             tab["partidas"].append({
                 "id": pid, "temporada": T, "fase": "Liga", "grupo": None, "rodada": j["rodada"], "data": j["data"],
                 "hora": hora, "mandante": clubes_eng.exibicao(j["m"]), "visitante": clubes_eng.exibicao(j["v"]),
                 "gols_mandante": j["gm"], "gols_visitante": j["gv"], "penaltis_mandante": None, "penaltis_visitante": None,
-                "resultado_especial": None, "estadio": (e or {}).get("estadio"), "cidade": (e or {}).get("cidade"),
+                "resultado_especial": None, "estadio": (e or {}).get("estadio") or (j.get("bdf") or {}).get("estadio") or None,
+                "cidade": (e or {}).get("cidade"),
                 "publico": (e or {}).get("publico") or None, "fonte": " + ".join(fontes), "fonte_id": "|".join(ids),
-                "gols_texto": None, "observacao": None, "arbitro": (x or {}).get("Referee") or None})
+                "gols_texto": None, "observacao": None,
+                "arbitro": (j.get("bdf") or {}).get("arbitro") or (x or {}).get("Referee") or None})
             gols_ano += j["gm"] + j["gv"]
+            manual = GOLS_MANUAIS.get((a, j["m"], j["v"]))
+            if manual:   # a ESPN não fecha com o placar (ou não tem lances): autores pela ficha do BDFutbol (EN-016)
+                url_f, lista = manual
+                assert (sum(l[0] == "m" for l in lista), sum(l[0] == "v" for l in lista)) == (j["gm"], j["gv"]), (a, j["m"])
+                for lado_, jog, mi, tipo in lista:
+                    tab["gols"].append({"partida_id": pid, "clube": clubes_eng.exibicao(j[lado_]), "jogador": jog, "minuto": mi,
+                                        "acrescimo": None, "tipo": tipo, "fonte": f"BDFutbol ({url_f})"})
+                autor_ano += len(lista)
+                ocorr[a].append(f"os gols da ESPN não fecham com o placar em {j['m']} {j['gm']}-{j['gv']} {j['v']}: os autores "
+                                f"vêm da ficha do BDFutbol ({url_f})")
             if e and e["lances"]:
                 gl = [l for l in e["lances"] if l["gol"]]
                 lado = {"home": j["m"], "away": j["v"]}
-                if all(l["lado"] in lado for l in gl) and                         (sum(l["lado"] == "home" for l in gl), sum(l["lado"] == "away" for l in gl)) == (j["gm"], j["gv"]):
+                if manual:
+                    pass
+                elif all(l["lado"] in lado for l in gl) and                         (sum(l["lado"] == "home" for l in gl), sum(l["lado"] == "away" for l in gl)) == (j["gm"], j["gv"]):
                     for l in gl:
                         mi, ac = minuto(l["minuto"])
                         tab["gols"].append({"partida_id": pid, "clube": clubes_eng.exibicao(lado[l["lado"]]),
@@ -664,6 +743,8 @@ def artilheiros() -> list[dict]:
         antes = [clubes_eng.esd(re.sub(r"\s*(?:F\.C\.|A\.F\.C\.)$", "", x).strip()) for x in clubes[:-1]]
         fonte = "Wikipédia (List of English football first tier top scorers)" \
             + (f"; gols somados com {', '.join(clubes_eng.exibicao(x) for x in antes)}" if antes else "")
+        if (ano, jogador) in NOTA_ARTILHEIRO:
+            fonte += f"; {NOTA_ARTILHEIRO[(ano, jogador)]}"
         if (ano, jogador) in GOLS_ARTILHEIRO:
             gols_lista, (gols, motivo) = gols, GOLS_ARTILHEIRO[(ano, jogador)]
             fonte += f"; a lista dá {gols_lista}, corrigido para {gols}: {motivo}"
@@ -692,7 +773,9 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, sem_rodada_real) -> None
         "- ESPN (liga `eng.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;",
         "- RSSSF (engpaul/FLA, Paul Felton e Barry Spencer): tabela final publicada até 2006/07 e matriz de resultados (1888/89-1938/39, "
         "menos 1925/26) — conferência jogo a jogo;",
-        "- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e lista de artilheiros.", "",
+        "- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e lista de artilheiros;",
+        "- BDFutbol (1960/61+): árbitro com o nome completo e estádio onde a ESPN não tem; autores dos 12 jogos em que os gols da "
+        "ESPN não fecham com o placar (ficha de cada jogo).", "",
         "**Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols "
         "pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando "
         "a soma bate com o placar. Hora local de Londres. Rebaixado = clube que não está na 1ª divisão na temporada seguinte.", "",

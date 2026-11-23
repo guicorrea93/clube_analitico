@@ -4,7 +4,7 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 **Edições:** 127, de 1888/89 a 2025/26: Football League (1888/89-1891/92), First Division (1892/93-1991/92), FA Premier League (1992/93-2006/07) e Premier League (2007/08 em diante). Sem liga em 1915/16-1918/19 e 1939/40-1945/46 (guerras; a temporada 1939/40 parou na 3ª rodada e foi anulada).
 
-**Total:** 51330 jogos, 152539 gols, 25841 gols com autor (ESPN), 33166 cartões, 65 clubes.
+**Total:** 51330 jogos, 152539 gols, 25878 gols com autor (ESPN), 33166 cartões, 65 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1888/89-2024/25, menos 2022/23;
@@ -12,7 +12,8 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 - ogol: rodada de cada jogo (só nas temporadas com rodadas fixas: 1992/93, 1993/94 e de 1995/96 em diante) e conferência de placar; calendários guardados em `data/cache/ogol-eng-1/` para os escudos;
 - ESPN (liga `eng.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
 - RSSSF (engpaul/FLA, Paul Felton e Barry Spencer): tabela final publicada até 2006/07 e matriz de resultados (1888/89-1938/39, menos 1925/26) — conferência jogo a jogo;
-- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e lista de artilheiros.
+- Wikipédia (en): tabela final de cada temporada (ordem oficial e punições), lista de campeões e lista de artilheiros;
+- BDFutbol (1960/61+): árbitro com o nome completo e estádio onde a ESPN não tem; autores dos 12 jogos em que os gols da ESPN não fecham com o placar (ficha de cada jogo).
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local de Londres. Rebaixado = clube que não está na 1ª divisão na temporada seguinte.
 
@@ -121,21 +122,21 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 | 1999/00 | engsoccerdata + ogol + football-data + RSSSF + Wikipédia | 20 | 380 (380) | 1060 | 0 | 2 / 0 | Manchester United | — |
 | 2000/01 | engsoccerdata + ogol + football-data + RSSSF + Wikipédia | 20 | 380 (380) | 992 | 0 | 2 / 0 | Manchester United | — |
 | 2001/02 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1001 | 1001 | 2 / 0 | Arsenal | — |
-| 2002/03 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1000 | 992 | 2 / 0 | Manchester United | — |
-| 2003/04 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1012 | 1009 | 2 / 0 | Arsenal | — |
-| 2004/05 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 975 | 970 | 2 / 0 | Chelsea | — |
+| 2002/03 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1000 | 1000 | 2 / 0 | Manchester United | — |
+| 2003/04 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 1012 | 1012 | 2 / 0 | Arsenal | — |
+| 2004/05 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 975 | 975 | 2 / 0 | Chelsea | — |
 | 2005/06 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 944 | 944 | 2 / 0 | Chelsea | — |
-| 2006/07 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 931 | 929 | 2 / 0 | Manchester United | — |
+| 2006/07 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 931 | 931 | 2 / 0 | Manchester United | — |
 | 2007/08 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1002 | 1002 | 1 / 0 | Manchester United | — |
 | 2008/09 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 942 | 942 | 1 / 0 | Manchester United | — |
 | 2009/10 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1053 | 1053 | 1 / 0 | Chelsea | Portsmouth -9 pontos |
-| 2010/11 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1063 | 1058 | 1 / 0 | Manchester United | — |
-| 2011/12 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1066 | 1064 | 1 / 0 | Manchester City | — |
+| 2010/11 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1063 | 1063 | 1 / 0 | Manchester United | — |
+| 2011/12 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1066 | 1066 | 1 / 0 | Manchester City | — |
 | 2012/13 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1063 | 1063 | 1 / 0 | Manchester United | — |
-| 2013/14 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1052 | 1047 | 1 / 0 | Manchester City | — |
-| 2014/15 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 975 | 974 | 1 / 0 | Chelsea | — |
+| 2013/14 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1052 | 1052 | 1 / 0 | Manchester City | — |
+| 2014/15 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 975 | 975 | 1 / 0 | Chelsea | — |
 | 2015/16 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1026 | 1026 | 1 / 0 | Leicester | — |
-| 2016/17 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1064 | 1058 | 1 / 0 | Chelsea | — |
+| 2016/17 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1064 | 1064 | 1 / 0 | Chelsea | — |
 | 2017/18 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1018 | 1018 | 1 / 0 | Manchester City | — |
 | 2018/19 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1072 | 1072 | 1 / 0 | Manchester City | — |
 | 2019/20 | engsoccerdata + ogol + football-data + ESPN + Wikipédia | 20 | 380 (380) | 1034 | 1034 | 1 / 0 | Liverpool | — |
@@ -402,7 +403,9 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 1953/54
 
+- 1 datas corrigidas (o 11v11 e o ogol concordam contra a base; conferência da revisão, EN-005): Sheffield Wednesday x Aston Villa (1953-09-07 -> 1953-11-07)
 - sem rodadas fixas nesta temporada (no ogol há clubes com mais de um jogo na mesma "rodada"): a rodada fica vazia e não há tabela rodada a rodada
+- data diferente no ogol em 1 jogos (ex.: Sheffield Wednesday x Aston Villa: base 1953-11-07, ogol 1953-09-07); fica a da base
 
 ### 1954/55
 
@@ -616,16 +619,17 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 - placar diferente na ESPN — Fulham x Aston Villa (2003-02-08): base 2-1, ESPN 1-1
 - placar diferente na ESPN — Birmingham City x Sunderland (2003-04-12): base 2-0, ESPN 1-0
-- gols da ESPN não batem com o placar — Sunderland 1-3 Charlton Athletic: ESPN 1-1 (descartados)
-- gols da ESPN não batem com o placar — Fulham 2-1 Aston Villa: ESPN 1-1 (descartados)
+- os gols da ESPN não fecham com o placar em West Bromwich Albion 1-0 Southampton: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=610818)
+- os gols da ESPN não fecham com o placar em Sunderland 1-3 Charlton Athletic: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=611018)
+- os gols da ESPN não fecham com o placar em Fulham 2-1 Aston Villa: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=611026)
 
 ### 2003/04
 
-- gols da ESPN não batem com o placar — Leeds United 2-1 Manchester City: ESPN 4-1 (descartados)
+- os gols da ESPN não fecham com o placar em Leeds United 2-1 Manchester City: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=611432)
 
 ### 2004/05
 
-- gols da ESPN não batem com o placar — Tottenham Hotspur 2-3 Charlton Athletic: ESPN 3-3 (descartados)
+- os gols da ESPN não fecham com o placar em Tottenham Hotspur 2-3 Charlton Athletic: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=611643)
 
 ### 2005/06
 
@@ -633,7 +637,7 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 2006/07
 
-- gols da ESPN não batem com o placar — West Ham United 0-2 Wigan Athletic: ESPN 0-3 (descartados)
+- os gols da ESPN não fecham com o placar em West Ham United 0-2 Wigan Athletic: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=612435)
 
 ### 2007/08
 
@@ -649,11 +653,11 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 2010/11
 
-- gols da ESPN não batem com o placar — Everton 1-4 West Bromwich Albion: ESPN 1-5 (descartados)
+- os gols da ESPN não fecham com o placar em Everton 1-4 West Bromwich Albion: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=613952)
 
 ### 2011/12
 
-- gols da ESPN não batem com o placar — Everton 2-0 West Bromwich Albion: ESPN 3-0 (descartados)
+- os gols da ESPN não fecham com o placar em Everton 2-0 West Bromwich Albion: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=614493)
 
 ### 2012/13
 
@@ -661,11 +665,11 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 2013/14
 
-- gols da ESPN não batem com o placar — Manchester City 4-1 Manchester United: ESPN 4-2 (descartados)
+- os gols da ESPN não fecham com o placar em Manchester City 4-1 Manchester United: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=614998)
 
 ### 2014/15
 
-- sem ocorrências
+- os gols da ESPN não fecham com o placar em Manchester City 1-0 Manchester United: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=618794)
 
 ### 2015/16
 
@@ -673,8 +677,8 @@ Gerado por `python coleta/eng-1/importar.py`. Pacote em `data/coleta/eng-1/pacot
 
 ### 2016/17
 
-- gols da ESPN não batem com o placar — Liverpool 2-2 West Ham United: ESPN 4-4 (descartados)
-- gols da ESPN não batem com o placar — Stoke City 1-1 Everton: ESPN 2-0 (descartados)
+- os gols da ESPN não fecham com o placar em Liverpool 2-2 West Ham United: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=619637)
+- os gols da ESPN não fecham com o placar em Stoke City 1-1 Everton: os autores vêm da ficha do BDFutbol (https://www.bdfutbol.com/es/p/p.php?id=619717)
 
 ### 2017/18
 
