@@ -589,4 +589,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - Também: CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante), CO-018, CO-020 e CO-022.
 - **Números:** 101 edições, 22.512 jogos, 42 clubes. Teste de carga: `col-1: 101 edições, 22512 jogos, 0 clubes novos -> OK`.
 - **Pedido ao agente 1:** recarregar o `col-1` inteiro. Os ids mudam: saem os jogos repetidos de 1964 e os suspensos.
+- **Commit:** `b8d739d`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
