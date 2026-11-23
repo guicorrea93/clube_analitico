@@ -208,7 +208,18 @@ def campeoes() -> dict[str, str]:
             continue
         temp = ano if not m.group(2) else f"{ano} {'Apertura' if m.group(2) == 'Ap' else 'Finalización'}"
         saida.setdefault(temp, m.group(3).strip())
+        if m.group(4):   # CO-001: coluna "Runners Up"
+            _VICE.setdefault(temp, re.split(r"\s{2,}", m.group(4).strip())[0])
     return saida
+
+
+_VICE: dict[str, str] = {}
+
+
+def vices() -> dict[str, str]:
+    """colchamp.html: temporada -> vice (coluna Runners Up). 1989 sem campeão e sem vice."""
+    campeoes()
+    return dict(_VICE)
 
 
 def _ogol_por_ano() -> dict[int, list[dict]]:

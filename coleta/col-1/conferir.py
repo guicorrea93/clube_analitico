@@ -25,7 +25,9 @@ CONTA = ("j", "v", "e", "d", "gp", "gc")
 
 
 def eh_mata(f: str) -> bool:
-    """Fase de mata-mata ou desempate (fora das somas de liga)."""
+    """Fase de mata-mata ou desempate (fora das somas de liga). "Finalización" começa com "Final" e é torneio (CO-011)."""
+    if f.startswith("Finaliza"):
+        return False
     return f.startswith(("Final", "Semifinal", "Desempate", "Oitavas", "Quartas", "Repechaje", "Quadrangula", "Hexagonal",
                          "Octogonal", "Pentagona", "Triangula"))
 

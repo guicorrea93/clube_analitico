@@ -562,3 +562,31 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - O "Deportes Arica" vira San Marcos de Arica.
 - **Commit:** `209641e`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 23/11 — Correções da revisão: Colombiano (`col-1`)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - **Classificação e pódio:**
+    - CO-001: vice pela coluna "Runners Up" da colchamp; os 101 batem;
+    - CO-002 (D-02 A): com fase final, a ordem é a da fase alcançada e, dentro dela, os pontos da campanha toda;
+    - CO-003 e CO-019: 1987 e 1991-1995 pela tabela final da página, só com a Primera A (1995 com 16 clubes);
+    - CO-007: 43 rebaixados pela Wikipédia em espanhol (novo `coleta/col-1/rebaixados_es.py`). O Pereira de 1997 fica
+      marcado no 1996/97 (D-18 b).
+  - **Jogos:**
+    - CO-005: 1964 sem a matriz repetida (311 jogos);
+    - CO-021: dois jogos suspensos repetidos.
+  - **Fases:**
+    - CO-011: Finalización e quadrangulares como fases de pontos, não mata-mata;
+    - CO-014: as finais do Apertura (1974, 1976, 1979, 1980, 1982) e a do Clausura de 1999 em nível 0.
+  - **Datas:** CO-010, a final de 1957 em 1958 e o desempate de 1971 em 1972.
+  - **Artilheiros:** CO-017 (parte), 1971 (Lóndero e Paniagua), 1977 e 1978.
+- **Abertos:**
+  - CO-004 e CO-006: ler as 4 voltas e as listas "Fecha N" da Wikipédia (1955-1966, 1976, 1986, 1988, 1989). É uma
+    mudança grande no leitor da Wikipédia.
+  - CO-008: datas dos mata-matas, no leitor comum, no fim.
+  - Também: CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante), CO-018, CO-020 e CO-022.
+- **Números:** 101 edições, 22.512 jogos, 42 clubes. Teste de carga: `col-1: 101 edições, 22512 jogos, 0 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar o `col-1` inteiro. Os ids mudam: saem os jogos repetidos de 1964 e os suspensos.
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

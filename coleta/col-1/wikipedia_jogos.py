@@ -234,6 +234,10 @@ def jogos(chave: str) -> list[Jogo]:
                 processa_tabela(linhas_tab)
     # seção com lista e matriz: fica a lista
     com_lista = {sec for sec, tp, _ in saida if tp == "lista"}
+    # CO-005 (1964): matriz em "Resultados" e lista em "Resultados por fecha" (seções diferentes): quando a página tem pelo
+    # menos tantos jogos em lista quanto em matriz, a matriz repete a lista e sai
+    if sum(1 for _, tp, _ in saida if tp == "lista") >= sum(1 for _, tp, _ in saida if tp == "matriz") > 0:
+        return [j for _, tp, j in saida if tp == "lista"]
     return [j for sec, tp, j in saida if tp == "lista" or sec not in com_lista]
 
 

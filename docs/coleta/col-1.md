@@ -32,7 +32,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 1961 | 12 | 132 (132) | 446 | 0 | 0 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1962 | 12 | 264 (264) | 893 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1963 | 13 | 156 (156) | 555 | 0 | 0 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1964 | 13 | 467 (312) | 1476 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1964 | 13 | 311 (312) | 996 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1965 | 13 | 312 (312) | 992 | 0 | 0 / 1 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1966 | 14 | 350 (350) | 1147 | 0 | 0 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1967 | 14 | 364 (364) | 1105 | 0 | 1 / 0 | Deportivo Cali | RSSSF (col67) |
@@ -44,7 +44,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 1973 | 14 | 344 (344) | 840 | 0 | 0 / 3 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1974 | 14 | 361 (543) | 832 | 0 | 1 / 3 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1975 | 14 | 358 (358) | 873 | 0 | 1 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1976 | 14 | 351 (533) | 911 | 0 | 3 / 1 | Atlético Nacional | RSSSF (col76) |
+| 1976 | 14 | 351 (533) | 911 | 0 | 3 / 1 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1977 | 14 | 359 (541) | 897 | 0 | 0 / 4 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1978 | 14 | 365 (547) | 974 | 0 | 4 / 3 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1979 | 14 | 367 (514) | 914 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -52,71 +52,71 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 1981 | 14 | 329 (511) | 836 | 0 | 2 / 4 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1982 | 14 | 387 (569) | 1078 | 0 | 0 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1983 | 14 | 336 (518) | 833 | 0 | 0 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1984 | 14 | 378 (560) | 888 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1984 | 14 | 336 (518) | 783 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1985 | 14 | 336 (518) | 873 | 0 | 0 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1986 | 8 | 21 (21) | 56 | 0 | 0 / 1 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1987 | 14 | 0 (0) | 0 | 0 | 0 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1988 | 15 | 222 (432) | 515 | 0 | 5 / 5 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1987 | 14 | 0 (0) | 0 | 0 | 0 / 0 | Millonarios | RSSSF (col87) |
+| 1988 | 15 | 146 (146) | 336 | 0 | 5 / 4 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 8 | 32 (32) | 99 | 0 | 0 / 0 | None | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1990 | 15 | 335 (425) | 752 | 0 | 1 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1991 | 15 | 0 (0) | 0 | 0 | 0 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1992 | 16 | 0 (0) | 0 | 0 | 0 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1993 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1994 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1995 | 19 | 0 (0) | 0 | 0 | 0 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1991 | 15 | 0 (0) | 0 | 0 | 0 / 0 | Atlético Nacional | RSSSF (col91) |
+| 1992 | 16 | 0 (0) | 0 | 0 | 0 / 0 | América de Cali | RSSSF (col92) |
+| 1993 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Junior de Barranquilla | RSSSF (col93) |
+| 1994 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Atlético Nacional | RSSSF (col94) |
+| 1995 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Junior de Barranquilla | RSSSF (col95) |
 | 1995/96 | 16 | 208 (208) | 541 | 0 | 5 / 4 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1996/97 | 16 | 380 (636) | 948 | 0 | 4 / 0 | América de Cali | RSSSF (col97) |
+| 1996/97 | 16 | 380 (636) | 948 | 0 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 16 | 426 (426) | 1159 | 80 | 0 / 0 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1999 | 16 | 380 (380) | 997 | 1 | 5 / 2 | Atlético Nacional | RSSSF (col99) |
-| 2000 | 16 | 364 (364) | 972 | 951 | 4 / 0 | América de Cali | RSSSF (col00) |
-| 2001 | 16 | 378 (378) | 927 | 894 | 5 / 0 | América de Cali | RSSSF (col01) |
-| 2002 Apertura | 18 | 224 (224) | 504 | 502 | 3 / 0 | América de Cali | RSSSF (col02) |
-| 2002 Finalización | 18 | 224 (224) | 525 | 459 | 3 / 0 | Independiente Medellín | RSSSF (col02) |
+| 1999 | 16 | 380 (380) | 997 | 1 | 5 / 2 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 | 16 | 364 (364) | 972 | 951 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2001 | 16 | 378 (378) | 927 | 894 | 5 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 Apertura | 18 | 224 (224) | 504 | 502 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 Finalización | 18 | 224 (224) | 525 | 459 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2003 Apertura | 18 | 188 (188) | 449 | 295 | 2 / 1 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 Finalización | 18 | 188 (188) | 447 | 304 | 3 / 0 | Deportes Tolima | RSSSF (col03) |
-| 2004 Apertura | 18 | 188 (188) | 465 | 301 | 3 / 0 | Independiente Medellín | RSSSF (col04) |
-| 2004 Finalización | 18 | 188 (188) | 447 | 318 | 3 / 0 | Junior de Barranquilla | RSSSF (col04) |
-| 2005 Apertura | 18 | 188 (188) | 456 | 299 | 3 / 0 | Atlético Nacional | RSSSF (col05) |
+| 2003 Finalización | 18 | 188 (188) | 447 | 304 | 3 / 0 | Deportes Tolima | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 Apertura | 18 | 188 (188) | 465 | 301 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 Finalización | 18 | 188 (188) | 447 | 318 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Apertura | 18 | 188 (188) | 456 | 299 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Finalización | 18 | 187 (188) | 464 | 454 | 2 / 1 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006 Apertura | 18 | 188 (188) | 475 | 471 | 3 / 0 | Deportivo Pasto | RSSSF (col06) |
-| 2006 Finalización | 18 | 188 (179) | 479 | 473 | 3 / 1 | Cúcuta Deportivo | RSSSF (col06) |
-| 2007 Apertura | 18 | 188 (188) | 482 | 474 | 3 / 0 | Atlético Nacional | RSSSF (col07) |
-| 2007 Finalización | 18 | 189 (188) | 446 | 404 | 3 / 0 | Atlético Nacional | RSSSF (col07) |
-| 2008 Apertura | 18 | 189 (189) | 469 | 452 | 3 / 0 | Boyacá Chicó | RSSSF (col08) |
-| 2008 Finalización | 18 | 188 (188) | 427 | 428 | 3 / 0 | América de Cali | RSSSF (col08) |
-| 2009 Apertura | 18 | 189 (188) | 439 | 404 | 3 / 0 | Once Caldas | RSSSF (col09) |
-| 2009 Finalización | 18 | 189 (188) | 530 | 524 | 3 / 0 | Independiente Medellín | RSSSF (col09) |
-| 2010 Apertura | 18 | 168 (168) | 457 | 440 | 1 / 0 | Junior de Barranquilla | RSSSF (col2010) |
-| 2010 Finalización | 18 | 189 (188) | 498 | 496 | 3 / 0 | Once Caldas | RSSSF (col2010) |
-| 2011 Apertura | 18 | 176 (176) | 475 | 456 | 1 / 0 | Atlético Nacional | RSSSF (col2011) |
-| 2011 Finalización | 18 | 176 (176) | 429 | 417 | 1 / 0 | Junior de Barranquilla | RSSSF (col2011) |
-| 2012 Apertura | 18 | 188 (188) | 453 | 453 | 3 / 0 | Independiente Santa Fe | RSSSF (col2012) |
+| 2006 Apertura | 18 | 188 (188) | 475 | 471 | 3 / 0 | Deportivo Pasto | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006 Finalización | 18 | 188 (179) | 479 | 473 | 3 / 1 | Cúcuta Deportivo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2007 Apertura | 18 | 188 (188) | 482 | 474 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2007 Finalización | 18 | 189 (188) | 446 | 404 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 Apertura | 18 | 188 (188) | 469 | 452 | 3 / 0 | Boyacá Chicó | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 Finalización | 18 | 188 (188) | 427 | 428 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2009 Apertura | 18 | 189 (188) | 439 | 404 | 3 / 0 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2009 Finalización | 18 | 189 (188) | 530 | 524 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2010 Apertura | 18 | 168 (168) | 457 | 440 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2010 Finalización | 18 | 189 (188) | 498 | 496 | 3 / 0 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2011 Apertura | 18 | 176 (176) | 475 | 456 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2011 Finalización | 18 | 176 (176) | 429 | 417 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2012 Apertura | 18 | 188 (188) | 453 | 453 | 3 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2012 Finalización | 18 | 188 (188) | 423 | 419 | 2 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2013 Apertura | 18 | 188 (188) | 469 | 0 | 3 / 0 | Atlético Nacional | RSSSF (col2013) |
-| 2013 Finalización | 18 | 189 (189) | 463 | 85 | 3 / 0 | Atlético Nacional | RSSSF (col2013) |
-| 2014 Apertura | 18 | 176 (176) | 444 | 439 | 1 / 0 | Atlético Nacional | RSSSF (col2014) |
-| 2014 Finalización | 18 | 188 (188) | 453 | 421 | 3 / 0 | Independiente Santa Fe | RSSSF (col2014) |
-| 2015 Apertura | 20 | 214 (214) | 523 | 482 | 1 / 0 | Deportivo Cali | RSSSF (col2015) |
-| 2015 Finalización | 20 | 214 (214) | 459 | 426 | 1 / 0 | Atlético Nacional | RSSSF (col2015) |
-| 2016 Apertura | 20 | 214 (214) | 534 | 487 | 1 / 0 | Independiente Medellín | RSSSF (col2016) |
-| 2016 Finalización | 20 | 214 (214) | 498 | 483 | 1 / 0 | Independiente Santa Fe | RSSSF (col2016) |
-| 2017 Apertura | 20 | 214 (214) | 468 | 453 | 1 / 0 | Atlético Nacional | RSSSF (col2017) |
-| 2017 Finalización | 20 | 214 (214) | 455 | 421 | 1 / 0 | Millonarios | RSSSF (col2017) |
-| 2018 Apertura | 20 | 204 (204) | 427 | 359 | 1 / 0 | Deportes Tolima | RSSSF (col2018) |
-| 2018 Finalización | 20 | 204 (204) | 468 | 406 | 1 / 0 | Junior de Barranquilla | RSSSF (col2018) |
-| 2019 Apertura | 20 | 226 (226) | 502 | 489 | 3 / 0 | Junior de Barranquilla | RSSSF (col2019) |
-| 2019 Finalización | 20 | 226 (226) | 508 | 500 | 3 / 0 | América de Cali | RSSSF (col2019) |
-| 2020 Apertura | 20 | 214 (214) | 517 | 499 | 1 / 0 | América de Cali | RSSSF (col2020) |
-| 2021 Apertura | 19 | 185 (185) | 408 | 405 | 1 / 0 | Deportes Tolima | RSSSF (col2021) |
-| 2021 Finalización | 20 | 226 (226) | 521 | 521 | 3 / 0 | Deportivo Cali | RSSSF (col2021) |
-| 2022 Apertura | 20 | 226 (226) | 491 | 480 | 3 / 0 | Atlético Nacional | RSSSF (col2022) |
-| 2022 Finalización | 20 | 226 (226) | 529 | 529 | 3 / 0 | Deportivo Pereira | RSSSF (col2022) |
-| 2023 Apertura | 20 | 226 (226) | 506 | 501 | 3 / 0 | Millonarios | RSSSF (col2023) |
-| 2023 Finalización | 20 | 226 (226) | 518 | 515 | 3 / 0 | Junior de Barranquilla | RSSSF (col2023) |
-| 2024 Apertura | 20 | 216 (216) | 467 | 459 | 3 / 0 | Atlético Bucaramanga | RSSSF (col2024) |
-| 2024 Finalización | 20 | 216 (216) | 473 | 465 | 3 / 0 | Atlético Nacional | RSSSF (col2024) |
-| 2025 Apertura | 20 | 226 (226) | 489 | 486 | 3 / 0 | Independiente Santa Fe | RSSSF (col2025) |
-| 2025 Finalización | 20 | 226 (226) | 547 | 540 | 3 / 0 | Junior de Barranquilla | RSSSF (col2025) |
+| 2013 Apertura | 18 | 188 (188) | 469 | 0 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2013 Finalización | 18 | 188 (188) | 463 | 85 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2014 Apertura | 18 | 176 (176) | 444 | 439 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2014 Finalización | 18 | 188 (188) | 453 | 421 | 3 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2015 Apertura | 20 | 214 (214) | 523 | 482 | 1 / 0 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2015 Finalización | 20 | 214 (214) | 459 | 426 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2016 Apertura | 20 | 214 (214) | 534 | 487 | 1 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2016 Finalización | 20 | 214 (214) | 498 | 483 | 1 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2017 Apertura | 20 | 214 (214) | 468 | 453 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2017 Finalización | 20 | 214 (214) | 455 | 421 | 1 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2018 Apertura | 20 | 204 (204) | 427 | 359 | 1 / 0 | Deportes Tolima | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2018 Finalización | 20 | 204 (204) | 468 | 406 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2019 Apertura | 20 | 226 (226) | 502 | 489 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2019 Finalización | 20 | 226 (226) | 508 | 500 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2020 Apertura | 20 | 214 (214) | 517 | 499 | 1 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2021 Apertura | 19 | 185 (185) | 408 | 405 | 1 / 0 | Deportes Tolima | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2021 Finalización | 20 | 226 (226) | 521 | 521 | 3 / 0 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2022 Apertura | 20 | 226 (226) | 491 | 480 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2022 Finalización | 20 | 226 (226) | 529 | 529 | 3 / 0 | Deportivo Pereira | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2023 Apertura | 20 | 226 (226) | 506 | 501 | 3 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2023 Finalización | 20 | 226 (226) | 518 | 515 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2024 Apertura | 20 | 216 (216) | 467 | 459 | 3 / 0 | Atlético Bucaramanga | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2024 Finalización | 20 | 216 (216) | 473 | 465 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2025 Apertura | 20 | 226 (226) | 489 | 486 | 3 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2025 Finalización | 20 | 226 (226) | 547 | 540 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 
 ## Conferência e correções, edição a edição
 
@@ -272,19 +272,10 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1964
 
-- tabela publicada x jogos — col64:14: Millonarios tabela [48, 21, 15, 12, 87, 72] jogos [72, 33, 21, 18, 133, 106] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Cúcuta Deportivo tabela [48, 19, 18, 11, 79, 56] jogos [72, 26, 31, 15, 115, 85] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Independiente Medellín tabela [48, 19, 16, 13, 85, 73] jogos [72, 28, 25, 19, 125, 103] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Deportes Quindío tabela [48, 18, 16, 14, 81, 68] jogos [71, 28, 23, 20, 118, 92] — sobram 23 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Deportivo Cali tabela [48, 15, 21, 12, 83, 71] jogos [71, 21, 31, 19, 117, 102] — sobram 23 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Independiente Santa Fe tabela [48, 17, 14, 17, 89, 85] jogos [72, 28, 20, 24, 139, 125] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Deportivo Pereira tabela [48, 15, 18, 15, 74, 67] jogos [72, 21, 30, 21, 110, 105] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: América de Cali tabela [48, 15, 18, 15, 71, 71] jogos [72, 22, 24, 26, 97, 103] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Atlético Nacional tabela [48, 17, 13, 18, 85, 82] jogos [72, 24, 18, 30, 130, 134] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Unión Magdalena tabela [48, 16, 12, 20, 78, 93] jogos [72, 24, 20, 28, 114, 133] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Deportes Tolima tabela [48, 12, 17, 19, 63, 84] jogos [72, 18, 26, 28, 94, 123] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Once Caldas tabela [48, 13, 14, 21, 64, 94] jogos [72, 22, 19, 31, 98, 140] — sobram 24 jogo(s) do clube na página
-- tabela publicada x jogos — col64:14: Atlético Bucaramanga tabela [48, 11, 16, 21, 63, 86] jogos [72, 16, 24, 32, 86, 125] — sobram 24 jogo(s) do clube na página
+- tabela publicada x jogos — col64:14: Cúcuta Deportivo tabela [48, 19, 18, 11, 79, 56] jogos [48, 19, 18, 11, 79, 57] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col64:14: Deportes Quindío tabela [48, 18, 16, 14, 81, 68] jogos [47, 18, 15, 14, 78, 65] — faltam 1 jogo(s) do clube na página
+- tabela publicada x jogos — col64:14: Deportivo Cali tabela [48, 15, 21, 12, 83, 71] jogos [47, 15, 20, 12, 80, 68] — faltam 1 jogo(s) do clube na página
+- tabela publicada x jogos — col64:14: América de Cali tabela [48, 15, 18, 15, 71, 71] jogos [48, 15, 18, 15, 71, 70] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1965
 
@@ -536,17 +527,12 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1984
 
-- tabela publicada x jogos — col84:16: Junior de Barranquilla tabela [14, 11, 0, 3, 28, 9] jogos [24, 20, 0, 4, 52, 14] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:16: Atlético Nacional tabela [14, 9, 2, 3, 19, 8] jogos [24, 15, 3, 6, 32, 15] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:16: Deportes Quindío tabela [14, 5, 4, 5, 12, 21] jogos [24, 10, 4, 10, 22, 40] — sobram 10 jogo(s) do clube na página
-- tabela publicada x jogos — col84:16: Independiente Santa Fe tabela [14, 5, 2, 7, 17, 24] jogos [24, 10, 4, 10, 34, 36] — sobram 10 jogo(s) do clube na página
-- tabela publicada x jogos — col84:16: Deportivo Cali tabela [14, 5, 1, 8, 13, 16] jogos [24, 10, 2, 12, 24, 26] — sobram 10 jogo(s) do clube na página
-- tabela publicada x jogos — col84:16: Deportivo Pereira tabela [14, 4, 2, 8, 15, 19] jogos [24, 6, 3, 15, 25, 32] — sobram 10 jogo(s) do clube na página
-- tabela publicada x jogos — col84:16: Cúcuta Deportivo tabela [14, 1, 3, 10, 14, 32] jogos [24, 2, 6, 16, 20, 46] — sobram 10 jogo(s) do clube na página
+- tabela publicada x jogos — col84:16: Atlético Nacional tabela [14, 9, 2, 3, 19, 8] jogos [14, 10, 1, 3, 19, 7] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col84:16: Deportivo Pereira tabela [14, 4, 2, 8, 15, 19] jogos [14, 4, 1, 9, 14, 19] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col84:28: Millonarios tabela [14, 5, 6, 3, 23, 25] jogos [14, 5, 6, 3, 23, 15] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col84:36: América de Cali tabela [2, 2, 0, 0, 3, 0] jogos [2, 1, 0, 1, 4, 3] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:36: Junior de Barranquilla tabela [2, 0, 0, 2, 0, 3] jogos [4, 2, 0, 2, 8, 2] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:36: Atlético Nacional tabela [2, 1, 1, 0, 4, 3] jogos [4, 2, 0, 2, 2, 8] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col84:36: Junior de Barranquilla tabela [2, 0, 0, 2, 0, 3] jogos [2, 1, 0, 1, 4, 1] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col84:36: Atlético Nacional tabela [2, 1, 1, 0, 4, 3] jogos [2, 1, 0, 1, 1, 4] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col84:36: Deportes Tolima tabela [2, 0, 1, 1, 3, 4] jogos [2, 1, 0, 1, 3, 4] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col84:46: Independiente Medellín tabela [26, 10, 11, 5, 32, 18] jogos [26, 10, 11, 5, 34, 18] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col84:46: Independiente Santa Fe tabela [26, 9, 8, 9, 36, 31] jogos [26, 9, 8, 9, 36, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
@@ -602,21 +588,6 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col88:45: Atlético Nacional tabela [4, 2, 2, 0, 5, 2] jogos [4, 1, 3, 0, 3, 2] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col88:45: Deportivo Pereira tabela [4, 0, 2, 2, 1, 4] jogos [4, 0, 3, 1, 1, 2] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col88:69: Once Caldas tabela [4, 0, 2, 2, 5, 9] jogos [4, 0, 1, 3, 5, 9] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col88:78: Millonarios tabela [28, 19, 4, 5, 49, 21] jogos [12, 5, 5, 2, 11, 7] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Independiente Santa Fe tabela [28, 16, 9, 3, 44, 21] jogos [12, 5, 2, 5, 14, 13] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Atlético Nacional tabela [28, 16, 7, 5, 44, 23] jogos [12, 8, 3, 1, 16, 5] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Junior de Barranquilla tabela [28, 12, 9, 7, 46, 28] jogos [12, 4, 2, 6, 10, 14] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: América de Cali tabela [28, 13, 5, 10, 48, 42] jogos [12, 6, 5, 1, 14, 9] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Deportes Quindío tabela [28, 13, 5, 10, 37, 34] jogos [12, 4, 5, 3, 13, 13] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Independiente Medellín tabela [28, 9, 12, 7, 30, 28] jogos [12, 2, 5, 5, 11, 16] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Deportivo Pereira tabela [28, 8, 14, 6, 32, 28] jogos [12, 4, 5, 3, 11, 9] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Cúcuta Deportivo tabela [28, 10, 7, 11, 37, 42] jogos [12, 4, 5, 3, 11, 11] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Deportes Tolima tabela [28, 8, 10, 10, 24, 32] jogos [12, 4, 4, 4, 19, 16] — faltam 16 jogo(s) do clube na página
-- tabela publicada x jogos — col88:78: Deportivo Cali tabela [28, 8, 6, 14, 30, 37] jogos [12, 4, 5, 3, 17, 14] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Sporting de Barranquilla tabela [28, 7, 7, 14, 28, 51] jogos [12, 3, 5, 4, 12, 13] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Atlético Bucaramanga tabela [28, 5, 10, 13, 25, 37] jogos [12, 3, 3, 6, 11, 17] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:78: Once Caldas tabela [28, 3, 9, 16, 26, 49] jogos [12, 1, 4, 7, 11, 17] — faltam 16 jogo(s) do clube na página
-- tabela publicada x jogos — col88:78: Unión Magdalena tabela [28, 2, 8, 18, 16, 43] jogos [12, 3, 2, 7, 8, 15] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
 
 ### 1989
 
@@ -636,14 +607,12 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col90:36: Atlético Nacional tabela [28, 11, 10, 7, 36, 26] jogos [28, 11, 9, 8, 36, 27] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col90:36: Independiente Santa Fe tabela [28, 10, 9, 9, 33, 38] jogos [28, 10, 9, 9, 34, 39] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col90:36: Deportes Tolima tabela [28, 8, 7, 13, 21, 34] jogos [28, 8, 7, 13, 22, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col90:55: América de Cali tabela [40, 22, 15, 3, 77, 27] jogos [52, 28, 19, 5, 97, 34] — sobram 12 jogo(s) do clube na página
-- tabela publicada x jogos — col90:55: Independiente Medellín tabela [40, 18, 14, 8, 50, 37] jogos [46, 20, 16, 10, 57, 44] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col90:55: Atlético Bucaramanga tabela [40, 20, 9, 11, 49, 36] jogos [52, 24, 12, 16, 64, 58] — sobram 12 jogo(s) do clube na página
-- tabela publicada x jogos — col90:55: Atlético Nacional tabela [40, 16, 15, 9, 55, 41] jogos [52, 21, 18, 13, 66, 49] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col90:55: Deportivo Cali tabela [40, 14, 18, 8, 46, 42] jogos [46, 17, 18, 11, 53, 44] — sobram 6 jogo(s) do clube na página
-- tabela publicada x jogos — col90:55: Independiente Santa Fe tabela [40, 15, 15, 10, 52, 46] jogos [52, 16, 21, 15, 63, 64] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col90:55: Deportes Quindío tabela [40, 17, 10, 13, 51, 41] jogos [46, 19, 11, 16, 58, 48] — sobram 6 jogo(s) do clube na página
-- tabela publicada x jogos — col90:55: Once Caldas tabela [40, 15, 13, 12, 44, 51] jogos [46, 17, 15, 14, 53, 57] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:55: Independiente Medellín tabela [40, 18, 14, 8, 50, 37] jogos [40, 19, 13, 8, 52, 38] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:55: Atlético Bucaramanga tabela [40, 20, 9, 11, 49, 36] jogos [40, 20, 9, 11, 49, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col90:55: Atlético Nacional tabela [40, 16, 15, 9, 55, 41] jogos [40, 16, 14, 10, 55, 42] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:55: Deportivo Cali tabela [40, 14, 18, 8, 46, 42] jogos [40, 14, 18, 8, 44, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col90:55: Independiente Santa Fe tabela [40, 15, 15, 10, 52, 46] jogos [40, 14, 16, 10, 51, 46] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:55: Once Caldas tabela [40, 15, 13, 12, 44, 51] jogos [40, 15, 13, 12, 44, 48] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col90:55: Deportivo Pereira tabela [40, 13, 13, 14, 38, 45] jogos [39, 12, 13, 14, 37, 45] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — col90:55: Deportes Tolima tabela [40, 10, 13, 17, 31, 48] jogos [40, 10, 14, 16, 31, 47] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:55: Cúcuta Deportivo tabela [40, 6, 12, 22, 22, 59] jogos [39, 6, 12, 21, 22, 58] — faltam 1 jogo(s) do clube na página
@@ -712,6 +681,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col99:746: Atlético Nacional tabela [50, 23, 16, 11, 70, 53] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col99:750: América de Cali tabela [44, 18, 15, 11, 70, 53] jogos [46, 18, 17, 11, 71, 54] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col99:750: Deportivo Pasto tabela [50, 14, 16, 20, 72, 76] jogos [50, 14, 16, 20, 72, 77] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
+- corrigido — Independiente Medellín x Atlético Nacional (1999-12-05): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
+- corrigido — Atlético Nacional x Independiente Medellín (1999-12-05): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
 - linha lida como jogo e descartada (clube não reconhecido): col99:736 «América: Oviedo x (failed), Pérez 2-0 (failed), Moreno 3-1»
 - linha lida como jogo e descartada (clube não reconhecido): col99:739 «Nacional won x on penalties»
 
@@ -797,7 +768,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 ### 2008 Apertura
 
 - ESPN: 188 jogos casados
-- abandonado/suspenso, sem valer — Independiente Medellín Boyacá Chicó (2008-06-07): abandoned at 1-0 in 2nd half due to rain
+- corrigido — Independiente Medellín x Boyacá Chicó (2008-06-07): jogo suspenso e completado depois: fica a linha do jogo completo (CO-021)
 
 ### 2008 Finalización
 
@@ -855,7 +826,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 ### 2013 Finalización
 
 - ESPN: 119 jogos casados
-- abandonado/suspenso, sem valer — Once Caldas Millonarios (2013-11-27): abandoned at 2-1 in 75' due to rain
+- corrigido — Once Caldas x Millonarios (2013-11-27): jogo suspenso pela chuva e completado depois (CO-021)
 
 ### 2014 Apertura
 

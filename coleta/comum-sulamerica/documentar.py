@@ -58,6 +58,13 @@ PENDENCIAS: dict[str, list[str]] = {
     ],
     "col-1": [
         "1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).",
+        "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): vice pela colchamp, ordem por fase "
+        "alcançada (D-02 A), tabelas finais de 1987 e 1991-1995 só com a Primera A, rebaixados pela es, 1964 sem jogos "
+        "repetidos, Finalización e quadrangulares como fase de pontos, finais do Apertura em nível 0, datas de 1957 e 1971, "
+        "artilheiros de 1971, 1977 e 1978.",
+        "Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, "
+        "1989), CO-008 (datas dos mata-matas: leitor comum, no fim), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 "
+        "em diante pela es), CO-018, CO-020, CO-022.",
     ],
     "par-1": [
         "76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.",

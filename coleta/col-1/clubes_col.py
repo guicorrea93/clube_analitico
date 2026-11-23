@@ -94,7 +94,7 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"(atletico )?manizales|club deportivo manizales", "Atlético Manizales", 1946, 1960),
     (r"libertad", "Libertad de Barranquilla", 1946, 1960),
     (r"(club deportivo )?oro negro", "Oro Negro", 1965, 1975),
-    (r"(dep )?unicosta", "Unicosta", 1990, 2000),
+    (r"(dep |deportivo )?unicosta", "Unicosta", 1990, 2000),
 ]
 
 _LIXO = re.compile(r"^\s*-\s*|\s*\(\s*[\d.,]+\s*BP\s*\)\s*$|\s*\(\d{4}\)\s*$", re.I)
