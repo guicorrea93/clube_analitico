@@ -38,7 +38,7 @@ NIVEL_FASE = {"": 0, "Grupo do rebaixamento": 0, "Desempate do rebaixamento": 0,
               "Terceira fase": 1, "Nacional": 2, "Oitavas de final": 3, "Quartas de final": 4,
               "Desempate da tabela anual": 1, "Fase final": 2, "Semifinal": 5, "Final": 6, "Desempate do título": 6,
               "Liguillas": 1, "Liguillas do Apertura": 0, "Liguillas do Clausura": 0, "Hexagonal 2": 1,
-              "Triangular do 2º lugar": 1}
+              "Triangular do 2º lugar": 1, "Disputa do 3º lugar": 5, "Disputa do 4º lugar": 5}
 WIKI: dict[str, str] = {}
 VICES: dict[str, str] = {}
 TOPS: dict[str, list] = {}
@@ -58,8 +58,25 @@ def especial(esp: str) -> str:
     return {"wo_m": "wo", "wo_v": "wo", "awd": "awd", "abd": "abd", "anulado": "n/p", "n/p": "n/p"}.get(esp, "")
 
 
+# datas à mão (EC-017: 2006, a ESPN dá 29/10; EC-024: 1969, a maior goleada, 26/10/1969 pela es)
+DATA_FIXA = {("2006", "ecua06:689"): "2006-10-29", ("1969", "ecua69:200"): "1969-10-26"}
+
+
+def acerta_datas(e: Edicao, jogos: list[dict]) -> None:
+    """DATA_FIXA e EC-010: o quadrangular do rebaixamento de 1997 foi em dezembro de 1997 (o leitor põe 1998)."""
+    for j in jogos:
+        x = j["j"]
+        if not x:
+            continue
+        if (e.temporada, x.texto) in DATA_FIXA:
+            x.data = DATA_FIXA[(e.temporada, x.texto)]
+        elif e.temporada == "1997" and x.data and x.data.startswith("1998-12") and x.texto.startswith("ecua97:"):
+            x.data = "1997" + x.data[4:]
+
+
 def montar(e: Edicao, cps: dict[str, str]) -> dict:
     p = preparar(e)
+    acerta_datas(e, p["jogos"])
     log: list[str] = list(p["log"])
     for x in EXTRAS.get(e.temporada, []):
         p["jogos"].append({"m": x["mandante"], "v": x["visitante"], "gm": x["gm"], "gv": x["gv"], "fase": x.get("fase", ""),
@@ -135,6 +152,10 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     pub = max(cands, key=lambda tb: sum(r["j"] or 0 for r in tb["linhas"]), default=None)
     if e.sem_jogos:   # sem jogos: a tabela final da RSSSF é a classificação
         pub = next((tb for tb in p["tabelas"] if tb.get("sem_conferencia")), None)
+    elif any(nivel[c] > 0 for c in clubes):
+        # D-02 (A), EC-001 e EC-002: com fase final, os números são a soma de todos os jogos da edição e a ordem é: campeão e
+        # vice; a tabela publicada da última fase de liga (com bônus); depois os eliminados por fase alcançada e pontos
+        pub = None
     linhas = []
     if pub:
         parcial = any(r["v"] is None for r in pub["linhas"])
@@ -154,9 +175,13 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     else:
         for c in clubes:
             x = calc.get(c, [0] * 6)
-            linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5], "pts": pontos(x[1], x[2], x[3]),
-                           "ajuste": 0, "obs": "", "fonte": "calculada (fase alcançada, pontos, saldo, gols pró)"})
-        linhas.sort(key=lambda r: (-nivel[r["clube"]], -r["pts"], -(r["gp"] - r["gc"]), -r["gp"], r["clube"]))
+            aj = AJUSTES.get((e.temporada, c), 0)
+            linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5],
+                           "pts": pontos(x[1], x[2], x[3]) + aj, "ajuste": aj, "obs": "",
+                           "fonte": "calculada (fase alcançada, pontos, saldo, gols pró)"})
+        ultima = _ordem_ultima_fase(p, nivel)
+        linhas.sort(key=lambda r: (-nivel[r["clube"]], ultima.get(r["clube"], 99), -r["pts"], -(r["gp"] - r["gc"]), -r["gp"], r["clube"]))
+        _disputa_de_lugar(p, linhas)
     if campeao and linhas and linhas[0]["clube"] != campeao and any(r["clube"] == campeao for r in linhas):
         c = next(r for r in linhas if r["clube"] == campeao)
         linhas.remove(c)
@@ -172,14 +197,56 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     return linhas
 
 
-def situacao(r: dict, campeao: str | None, k: int) -> str:
+def _ordem_ultima_fase(p: dict, nivel: dict) -> dict[str, int]:
+    """Posição de cada clube na tabela publicada da fase de liga mais alta (Fase final, hexagonal, liguilla): a ordem
+    oficial, com bônus e desempates. Vazio quando a página não tem essa tabela."""
+    ligas = [tb for tb in p["tabelas"] if tb["t"].fase and NIVEL_FASE.get(tb["t"].fase, 0) > 0
+             and not tb["t"].fase.startswith(("Final", "Semifinal", "Quartas", "Oitavas", "Disputa", "Desempate"))]
+    if not ligas:
+        return {}
+    topo = max(NIVEL_FASE.get(tb["t"].fase, 0) for tb in ligas)
+    tb = max((tb for tb in ligas if NIVEL_FASE.get(tb["t"].fase, 0) == topo), key=lambda tb: tb["t"].linha)
+    return {r["clube"]: k for k, r in enumerate(tb["linhas"]) if r["clube"]}
+
+
+def _disputa_de_lugar(p: dict, linhas: list[dict]) -> None:
+    """EC-003: o vencedor da disputa de 3º (ou 4º) lugar fica nessa posição; o perdedor, logo abaixo."""
+    for fase, pos in (("Disputa do 3º lugar", 2), ("Disputa do 4º lugar", 3)):
+        js = [j for j in p["jogos"] if j["fase"] == fase and j["gm"] is not None]
+        if not js:
+            continue
+        saldo: dict[str, int] = defaultdict(int)
+        for j in js:
+            saldo[j["m"]] += j["gm"] - j["gv"]
+            saldo[j["v"]] += j["gv"] - j["gm"]
+        if len(saldo) != 2:
+            continue
+        ganha, perde = sorted(saldo, key=lambda c: -saldo[c])
+        for k, c in ((pos, ganha), (pos + 1, perde)):
+            r = next((r for r in linhas if r["clube"] == c), None)
+            if r and len(linhas) > k:
+                linhas.remove(r)
+                linhas.insert(k, r)
+
+
+def situacao(r: dict, campeao: str | None, k: int, temporada: str = "") -> str:
     if r["clube"] == campeao:
         return "campeao"
-    if k == 2:
+    if k == 2 and campeao:
         return "vice"
-    if re.search(r"relegat|descend|rebaix", r.get("obs", ""), re.I):
+    # EC-004 e EC-005: rebaixados pela lista da Wikipédia em espanhol; a nota da tabela só com "Relegated" explícito ("to
+    # Relegation Group" não é queda)
+    if temporada in REBAIXADOS:
+        return "rebaixado" if r["clube"] in REBAIXADOS[temporada] else ""
+    if re.search(r"(?<!to )\brelegated\b", r.get("obs", ""), re.I):
         return "rebaixado"
     return ""
+
+
+REBAIXADOS: dict[str, set[str]] = {}
+_NOME_ES = {"Liga de Cuenca": "LDU de Cuenca", "U. D. Valdez": "UD Valdez"}   # grafias da es que as REGRAS não pegam
+# EC-005: 2025, El Nacional com -9 pontos (rebaixado por decisão administrativa)
+AJUSTES = {("2025", "El Nacional"): -9}
 
 
 def _csv(arquivo: str, cab: list[str], linhas: list[list]) -> None:
@@ -209,7 +276,9 @@ def gravar(eds: list[dict]) -> None:
         e, p = d["e"], d["p"]
         eid = id_edicao(e)
         fases = d["fases"]
-        ordem_f = sorted(fases, key=lambda f: (NIVEL_FASE.get(f, 0),
+        # EC-016: as fases na ordem em que foram jogadas (data do 1º jogo); sem data, pelo nível e pela linha da página
+        ordem_f = sorted(fases, key=lambda f: (min((j["j"].data for j in p["jogos"] if j["fase"] == f and j["j"] and j["j"].data),
+                                                   default="9999"), NIVEL_FASE.get(f, 0),
                                                min((j["j"].linha for j in p["jogos"] if j["fase"] == f and j["j"]), default=0)))
         for k, f in enumerate(ordem_f, 1):
             js = [j for j in p["jogos"] if j["fase"] == f]
@@ -340,7 +409,7 @@ def gravar(eds: list[dict]) -> None:
         # classificação final
         for r in d["final"]:
             L["classificacao_final"].append([e.temporada, r["pos"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"], r["gc"],
-                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"]), r["fonte"],
+                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"], e.temporada), r["fonte"],
                                              "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
             if r["clube"] in CLUBES and r["fonte"].startswith("lista de campeões"):   # clube só da lista de campeões (1912-1921)
                 so_tabela[r["clube"]][f"wikipedia:{r['clube']}"].append(e.ano_inicio)
@@ -546,6 +615,11 @@ if __name__ == "__main__":
     from ler_rsssf import vices
     VICES.update({**vices_wiki(), **vices()})   # vice da lista da RSSSF; a da Wikipédia confere
     WIKI.update(campeoes_wiki())
+    from rebaixados_es import rebaixados
+    _ano = {e.temporada: e.ano_inicio for e in EDICOES}
+    for t_, ns in rebaixados().items():
+        if t_ in _ano:
+            REBAIXADOS[t_] = {_NOME_ES.get(n) or clube(n, _ano[t_]) for n in ns} - {None}
     TOPS.update(artilheiros_rsssf())
     eds = []
     for e in EDICOES:

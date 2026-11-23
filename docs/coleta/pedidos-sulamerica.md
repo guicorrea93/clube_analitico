@@ -676,3 +676,34 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `per-1` inteiro. Os ids mudam: entra a final de 2021, e mudam as fases e as datas.
 - **Commit:** `55c7066`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 23/11 — Correções da revisão: Equatoriano (`ecu-1`)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - **Classificação:**
+    - EC-001 e EC-002 (D-02 A): números da soma de todos os jogos; ordem com campeão e vice, a tabela da última fase de
+      liga e depois os eliminados por fase e pontos;
+    - EC-003: disputa de 3º e de 4º lugar como fase própria, com o vencedor no 3º/4º (2010 Deportivo Quito, 2011 El
+      Nacional);
+    - EC-004: rebaixados pela es (novo `coleta/ecu-1/rebaixados_es.py`; 1970-1981 na edição do ano, D-18 a);
+    - EC-005: 2025 com El Nacional (-9) e Vinotinto rebaixados.
+  - **Fases:**
+    - EC-006: 1999, liguilla do rebaixamento;
+    - EC-007: 1963, 1966 e 1997, grupos finais de pontos corridos;
+    - EC-010: 1997, grupo do rebaixamento, em dezembro de 1997;
+    - EC-016: fases na ordem em que foram jogadas.
+  - **Jogos:**
+    - EC-008: 20 jogos repetidos em 1984, 1986 e 1994;
+    - EC-011: Emelec 2-2 LDU, 2005;
+    - EC-012: 4 jogos do Aucas, 1965, pontos para o adversário;
+    - EC-015 (D-20 c): El Nacional x Delfín, 2025, W.O. 0-3 para o Delfín;
+    - EC-017 e EC-024: datas.
+- **Abertos:**
+  - EC-009: datas no título da fase, no leitor comum, no fim;
+  - EC-013: gol a mais com autor em 2007;
+  - EC-014: artilheiros de 1988, 1996 e 1999, só com uma 3ª fonte.
+- **Números:** 68 edições, 14.175 jogos, 63 clubes. Teste de carga: `ecu-1: 68 edições, 14175 jogos, 0 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar o `ecu-1` inteiro. Os ids mudam: saem os jogos repetidos, e mudam as fases e as datas.
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

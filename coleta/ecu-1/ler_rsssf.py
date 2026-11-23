@@ -49,8 +49,10 @@ FASES = [
     (r"^Championship [Pp]layoffs?" + _FIM, "Final"),
     (r"^(Playoff$|First place playoff|Extra match|Desempate)", "Desempate do título"),
     (r"^Definition of (runners?[- ]up|third place)" + _FIM, "Desempate do 2º lugar"),
-    (r"^(Playoff (for|to decide) [Ss]econd [Pp]lace|Second [Pp]lace (Playoffs?|Matches)|Third Place (Playoffs?|Matches)|"
-     r"Fourth Place (Playoffs?|Matches))", "Desempate do 2º lugar"),
+    # EC-003: disputa de 3º e de 4º lugar (2009-2012) é fase própria, não desempate do 2º lugar
+    (r"^Third Place (Playoffs?|Matches)", "Disputa do 3º lugar"),
+    (r"^Fourth Place (Playoffs?|Matches)", "Disputa do 4º lugar"),
+    (r"^(Playoff (for|to decide) [Ss]econd [Pp]lace|Second [Pp]lace (Playoffs?|Matches))", "Desempate do 2º lugar"),
     (r"^(Playoff Descenso|Relegation [Pp]lay-?offs?)", "Desempate do rebaixamento"),
 ]
 

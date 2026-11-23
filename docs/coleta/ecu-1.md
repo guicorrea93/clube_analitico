@@ -19,20 +19,20 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 | 1957 | 4 | 8 (8) | 28 | 0 | 1 / 0 | Emelec | RSSSF (ecua57) |
 | 1960 | 8 | 32 (32) | 124 | 0 | 1 / 0 | Barcelona de Guayaquil | RSSSF (ecua60) |
 | 1961 | 8 | 32 (32) | 118 | 0 | 1 / 0 | Emelec | RSSSF (ecua61) |
-| 1962 | 8 | 33 (33) | 107 | 0 | 1 / 0 | Everest | RSSSF (ecua62) |
+| 1962 | 8 | 33 (33) | 107 | 0 | 1 / 0 | Everest | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1963 | 11 | 37 (37) | 104 | 0 | 3 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1964 | 8 | 31 (31) | 87 | 0 | 2 / 0 | Deportivo Quito | RSSSF (ecua64) |
-| 1965 | 8 | 33 (33) | 80 | 0 | 0 / 1 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1964 | 8 | 31 (31) | 87 | 0 | 2 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1965 | 8 | 33 (33) | 75 | 0 | 0 / 1 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1966 | 16 | 104 (104) | 323 | 0 | 5 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1967 | 10 | 91 (91) | 224 | 0 | 1 / 0 | El Nacional | RSSSF (ecua67) |
 | 1968 | 12 | 182 (182) | 490 | 0 | 1 / 2 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1969 | 14 | 182 (182) | 543 | 0 | 1 / 0 | LDU de Quito | RSSSF (ecua69) |
-| 1970 | 13 | 228 (228) | 569 | 0 | 2 / 1 | Barcelona de Guayaquil | RSSSF (ecua70) |
+| 1970 | 13 | 228 (228) | 569 | 0 | 2 / 1 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1971 | 16 | 224 (224) | 614 | 0 | 3 / 1 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1972 | 10 | 119 (119) | 346 | 0 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1973 | 12 | 217 (217) | 555 | 0 | 2 / 2 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1974 | 10 | 116 (116) | 307 | 0 | 2 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1975 | 12 | 242 (242) | 642 | 0 | 3 / 0 | LDU de Quito | RSSSF (ecua75) |
+| 1975 | 12 | 242 (242) | 642 | 0 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1976 | 12 | 194 (194) | 522 | 2 | 3 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1977 | 12 | 210 (210) | 561 | 0 | 2 / 1 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1978 | 12 | 194 (194) | 483 | 0 | 3 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -40,50 +40,50 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 | 1980 | 12 | 203 (203) | 496 | 6 | 3 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1981 | 12 | 188 (188) | 507 | 0 | 2 / 1 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1982 | 12 | 237 (237) | 655 | 6 | 1 / 2 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1983 | 14 | 298 (298) | 853 | 0 | 4 / 0 | El Nacional | RSSSF (ecua83) |
-| 1984 | 14 | 264 (264) | 742 | 0 | 6 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1985 | 16 | 296 (296) | 827 | 0 | 2 / 0 | Barcelona de Guayaquil | RSSSF (ecua85) |
-| 1986 | 16 | 320 (320) | 816 | 0 | 6 / 3 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1987 | 18 | 378 (378) | 969 | 0 | 4 / 0 | Barcelona de Guayaquil | RSSSF (ecua87) |
-| 1988 | 18 | 332 (332) | 819 | 0 | 3 / 0 | Emelec | RSSSF (ecua88) |
+| 1983 | 14 | 298 (298) | 853 | 0 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1984 | 14 | 258 (258) | 730 | 0 | 6 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1985 | 16 | 296 (296) | 827 | 0 | 2 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1986 | 16 | 308 (308) | 779 | 0 | 6 / 3 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1987 | 18 | 378 (378) | 969 | 0 | 4 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1988 | 18 | 332 (332) | 819 | 0 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 13 | 234 (234) | 597 | 0 | 3 / 2 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1990 | 13 | 242 (242) | 626 | 0 | 5 / 2 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991 | 13 | 242 (242) | 684 | 0 | 6 / 1 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1992 | 13 | 227 (227) | 580 | 0 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1993 | 12 | 184 (184) | 489 | 1 | 4 / 2 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1994 | 12 | 238 (238) | 649 | 0 | 3 / 1 | Emelec | RSSSF (ecua94) |
-| 1995 | 12 | 289 (289) | 781 | 3 | 6 / 2 | Barcelona de Guayaquil | RSSSF (ecua95) |
+| 1994 | 12 | 236 (236) | 645 | 0 | 3 / 1 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1995 | 12 | 289 (289) | 781 | 3 | 6 / 2 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1996 | 12 | 230 (230) | 603 | 3 | 5 / 1 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1997 | 12 | 234 (234) | 679 | 0 | 6 / 0 | Barcelona de Guayaquil | RSSSF (ecua97) |
-| 1998 | 12 | 266 (266) | 768 | 0 | 9 / 1 | LDU de Quito | RSSSF (ecua98) |
-| 1999 | 12 | 254 (254) | 691 | 1 | 5 / 0 | LDU de Quito | RSSSF (ecua99) |
-| 2000 | 10 | 210 (210) | 556 | 0 | 3 / 1 | Olmedo | RSSSF (ecua00) |
-| 2001 | 10 | 210 (210) | 543 | 0 | 4 / 0 | Emelec | RSSSF (ecua01) |
-| 2002 | 10 | 210 (210) | 568 | 0 | 4 / 0 | Emelec | RSSSF (ecua02) |
-| 2003 | 10 | 210 (210) | 631 | 380 | 2 / 2 | LDU de Quito | RSSSF (ecua03) |
-| 2004 | 10 | 210 (210) | 581 | 342 | 4 / 0 | Deportivo Cuenca | RSSSF (ecua04) |
-| 2005 Apertura | 10 | 104 (104) | 333 | 167 | 0 / 1 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 Clausura | 10 | 120 (120) | 342 | 342 | 2 / 0 | El Nacional | RSSSF (ecua05) |
+| 1997 | 12 | 234 (234) | 679 | 0 | 6 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1998 | 12 | 266 (266) | 768 | 0 | 9 / 1 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1999 | 12 | 254 (254) | 691 | 1 | 5 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 | 10 | 210 (210) | 556 | 0 | 3 / 1 | Olmedo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2001 | 10 | 210 (210) | 543 | 0 | 4 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 | 10 | 210 (210) | 568 | 0 | 4 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 | 10 | 210 (210) | 631 | 380 | 2 / 2 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 | 10 | 210 (210) | 581 | 342 | 4 / 0 | Deportivo Cuenca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Apertura | 10 | 104 (104) | 335 | 171 | 1 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Clausura | 10 | 120 (120) | 342 | 342 | 2 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 | 11 | 210 (210) | 587 | 587 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2007 | 10 | 210 (210) | 529 | 518 | 4 / 0 | LDU de Quito | RSSSF (ecua07) |
-| 2008 | 12 | 222 (222) | 520 | 508 | 5 / 0 | Deportivo Quito | RSSSF (ecua08) |
-| 2009 | 12 | 232 (232) | 527 | 521 | 5 / 1 | Deportivo Quito | RSSSF (ecua09) |
-| 2010 | 12 | 268 (268) | 644 | 633 | 3 / 0 | LDU de Quito | RSSSF (ecua2010) |
-| 2011 | 12 | 268 (268) | 679 | 679 | 3 / 0 | Deportivo Quito | RSSSF (ecua2011) |
-| 2012 | 12 | 268 (268) | 626 | 624 | 3 / 0 | Barcelona de Guayaquil | RSSSF (ecua2012) |
-| 2013 | 12 | 264 (264) | 645 | 641 | 3 / 0 | Emelec | RSSSF (ecua2013) |
-| 2014 | 12 | 266 (266) | 625 | 1 | 3 / 0 | Emelec | RSSSF (ecua2014) |
-| 2015 | 12 | 266 (266) | 697 | 0 | 3 / 0 | Emelec | RSSSF (ecua2015) |
-| 2016 | 12 | 264 (264) | 693 | 6 | 3 / 0 | Barcelona de Guayaquil | RSSSF (ecua2016) |
-| 2017 | 12 | 266 (266) | 696 | 14 | 3 / 0 | Emelec | RSSSF (ecua2017) |
-| 2018 | 12 | 266 (266) | 689 | 0 | 3 / 0 | LDU de Quito | RSSSF (ecua2018) |
-| 2019 | 16 | 254 (254) | 682 | 6 | 1 / 0 | Delfín | RSSSF (ecua2019) |
-| 2020 | 16 | 242 (242) | 669 | 19 | 3 / 0 | Barcelona de Guayaquil | RSSSF (ecua2020) |
-| 2021 | 16 | 242 (242) | 658 | 641 | 3 / 0 | Independiente del Valle | RSSSF (ecua2021) |
-| 2022 | 16 | 242 (242) | 587 | 583 | 3 / 0 | Aucas | RSSSF (ecua2022) |
-| 2023 | 16 | 242 (242) | 598 | 581 | 3 / 0 | LDU de Quito | RSSSF (ecua2023) |
-| 2024 | 16 | 242 (242) | 636 | 631 | 3 / 0 | LDU de Quito | RSSSF (ecua2024) |
-| 2025 | 16 | 312 (312) | 794 | 794 | 4 / 0 | Independiente del Valle | RSSSF (ecua2025) |
+| 2007 | 10 | 210 (210) | 529 | 518 | 4 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 | 12 | 222 (222) | 520 | 508 | 5 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2009 | 12 | 232 (232) | 527 | 521 | 5 / 1 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2010 | 12 | 268 (268) | 644 | 633 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2011 | 12 | 268 (268) | 679 | 679 | 3 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2012 | 12 | 268 (268) | 626 | 624 | 3 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2013 | 12 | 264 (264) | 645 | 641 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2014 | 12 | 266 (266) | 625 | 1 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2015 | 12 | 266 (266) | 697 | 0 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2016 | 12 | 264 (264) | 693 | 6 | 3 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2017 | 12 | 266 (266) | 696 | 14 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2018 | 12 | 266 (266) | 689 | 0 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2019 | 16 | 254 (254) | 682 | 6 | 1 / 0 | Delfín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2020 | 16 | 242 (242) | 669 | 19 | 3 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2021 | 16 | 242 (242) | 658 | 641 | 3 / 0 | Independiente del Valle | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2022 | 16 | 242 (242) | 587 | 583 | 3 / 0 | Aucas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2023 | 16 | 242 (242) | 598 | 581 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2024 | 16 | 242 (242) | 636 | 631 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2025 | 16 | 312 (312) | 794 | 794 | 4 / 0 | Independiente del Valle | calculada (fase alcançada, pontos, saldo, gols pró) |
 
 ## Conferência e correções, edição a edição
 
@@ -113,10 +113,15 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 1965
 
-- tabela publicada x jogos — ecua65:21: Barcelona de Guayaquil tabela [8, 4, 3, 1, 14, 10] jogos [8, 2, 5, 1, 14, 10] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — ecua65:21: 9 de Octubre tabela [8, 5, 1, 2, 10, 7] jogos [8, 4, 1, 3, 10, 7] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — ecua65:21: Patria tabela [8, 5, 1, 2, 9, 5] jogos [8, 4, 2, 2, 9, 5] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — ecua65:21: Aucas tabela [8, 0, 1, 7, 1, 15] jogos [8, 1, 4, 3, 4, 9] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — ecua65:21: Aucas tabela [8, 0, 1, 7, 1, 15] jogos [8, 0, 1, 7, 4, 9] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- corrigido — 9 de Octubre x Aucas (None): Aucas perdeu os pontos (jogador irregular); placar de campo 0-1 (EC-012)
+- corrigido — Barcelona de Guayaquil x Aucas (None): Aucas perdeu os pontos (jogadores irregulares); placar de campo 0-0 (EC-012)
+- corrigido — Aucas x Patria (None): Aucas perdeu os pontos (jogadores irregulares); placar de campo 0-0 (EC-012)
+- corrigido — Aucas x Barcelona de Guayaquil (None): Aucas perdeu os pontos (jogadores irregulares); placar de campo 2-2 (EC-012)
+- W.O./pontos para o mandante — 9 de Octubre 0-1 Aucas (s/d): (Aucas lost match by player not elegible)
+- W.O./pontos para o mandante — Barcelona de Guayaquil 0-0 Aucas (s/d): (Aucas lost match by players not elegible)
+- W.O./pontos para o visitante — Aucas 0-0 Patria (s/d): (Aucas lost match by players not elegible)
+- W.O./pontos para o visitante — Aucas 2-2 Barcelona de Guayaquil (s/d): (Aucas lost match by players not elegible)
 
 ### 1966
 
@@ -198,7 +203,12 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 1984
 
-- sem ocorrências
+- corrigido — Deportivo Quevedo x Aucas (1984-08-26): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Aucas x Filanbanco (1984-09-01): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Filanbanco x Deportivo Quevedo (1984-09-09): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Aucas x Deportivo Quevedo (1984-09-16): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Filanbanco x Aucas (1984-09-23): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Deportivo Quevedo x Filanbanco (1984-09-30): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
 
 ### 1985
 
@@ -209,6 +219,18 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 - tabela publicada x jogos — ecua86:34: 9 de Octubre tabela [14, 2, 1, 11, 13, 16] jogos [14, 2, 1, 11, 13, 26] — a outra tabela publicada (ecua86) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — ecua86:270: Esmeraldas Petrolero tabela [14, 5, 3, 6, 14, 14] jogos [14, 6, 3, 5, 14, 14] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — ecua86:517: Esmeraldas Petrolero tabela [10, 1, 3, 6, 6, 13] jogos [10, 1, 3, 6, 6, 14] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- corrigido — Universidad Católica de Quito x 9 de Octubre (1986-09-14): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — LDU de Portoviejo x América de Quito (1986-09-14): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Universidad Católica de Quito x América de Quito (1986-09-21): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — 9 de Octubre x LDU de Portoviejo (1986-09-21): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — LDU de Portoviejo x Universidad Católica de Quito (1986-09-28): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — América de Quito x 9 de Octubre (1986-09-28): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — América de Quito x LDU de Portoviejo (1986-10-05): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — 9 de Octubre x Universidad Católica de Quito (1986-10-05): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — LDU de Portoviejo x 9 de Octubre (1986-10-12): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — América de Quito x Universidad Católica de Quito (1986-10-12): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — 9 de Octubre x América de Quito (1986-10-19): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Universidad Católica de Quito x LDU de Portoviejo (1986-10-19): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
 
 ### 1987
 
@@ -246,6 +268,8 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 ### 1994
 
 - tabela publicada x jogos — ecua94:287: Deportivo Quito tabela [12, 6, 4, 2, 24, 13] jogos [12, 6, 4, 2, 23, 12] — a outra tabela publicada (ecua94) fecha com os jogos: o erro é desta tabela
+- corrigido — Delfín x Deportivo Cuenca (1994-10-30): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- corrigido — Deportivo Cuenca x Delfín (1994-11-06): a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
 
 ### 1995
 
@@ -270,7 +294,7 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 1997
 
-- não jogado — Calvi Deportivo Quevedo (1998-12-21)
+- não jogado — Calvi Deportivo Quevedo (1997-12-21)
 
 ### 1998
 
@@ -309,8 +333,7 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 2005 Apertura
 
-- tabela publicada x jogos — ecua05:23: LDU de Quito tabela [18, 13, 2, 3, 48, 22] jogos [18, 14, 1, 3, 48, 20] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — ecua05:23: Emelec tabela [18, 5, 5, 8, 24, 31] jogos [18, 5, 4, 9, 22, 31] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- sem ocorrências
 
 ### 2005 Clausura
 

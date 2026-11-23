@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 68, de 1957 a 2025; 0 sem jogos.
-- **Jogos:** 14195 (14193 com placar); **gols:** 37522; **gols com autor:** 9240 (25%); **cartões:** 15824.
+- **Jogos:** 14175 (14169 com placar); **gols:** 37466; **gols com autor:** 9244 (25%); **cartões:** 15824.
 - **Clubes:** 63; **artilheiros:** 68 edições com artilheiro (72 linhas, com empates).
 - **Classificação final:** 68 edições; **tabelas publicadas guardadas para conferência:** 2069 linhas.
 - **No banco:** sim; **último commit do pacote:** 0b793ba.
@@ -45,8 +45,8 @@ Fontes dos jogos por edição:
 
 Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
 
-- **Edições em que todas as tabelas fecham com os jogos:** 47.
-- **Edições com alguma tabela divergente** (21; motivo no relatório, na edição): 1965, 1968, 1970, 1971, 1973, 1977, 1981, 1982, 1986, 1989, 1990, 1991, 1993, 1994, 1995, 1996, 1998, 2000, 2003, 2005 Apertura, 2009.
+- **Edições em que todas as tabelas fecham com os jogos:** 48.
+- **Edições com alguma tabela divergente** (20; motivo no relatório, na edição): 1965, 1968, 1970, 1971, 1973, 1977, 1981, 1982, 1986, 1989, 1990, 1991, 1993, 1994, 1995, 1996, 1998, 2000, 2003, 2009.
 - **Edições sem tabela para conferir** (0): nenhuma.
 - **Edições com menos jogos que o esperado:** nenhuma.
 
@@ -59,8 +59,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1950s | 1 | 8 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 10 | 757 | 5% | 0% | 40% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 10 | 1954 | 0% | 0% | 54% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 10 | 2750 | 84% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 1990s | 10 | 2406 | 90% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
+| 1980s | 10 | 2732 | 84% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
+| 1990s | 10 | 2404 | 90% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 11 | 2148 | 100% | 46% | 100% | 46% | 35% | 0% | 59% | 1.3 |
 | 2010s | 10 | 2650 | 100% | 100% | 80% | 100% | 94% | 0% | 39% | 2.3 |
 | 2020s | 6 | 1522 | 100% | 100% | 80% | 100% | 100% | 1% | 82% | 4.6 |
@@ -114,14 +114,16 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 - 1957 a 1961: pontos corridos
 - 1962: pontos corridos + desempate
-- 1963: 2 grupos + mata-mata
-- 1964 a 1965: pontos corridos + desempate
-- 1966: 2 grupos + mata-mata
+- 1963: 2 grupos + pontos corridos
+- 1964: desempate + pontos corridos
+- 1965: pontos corridos + desempate
+- 1966: 2 grupos + pontos corridos
 - 1967: pontos corridos + desempate
 - 1968 a 1970: pontos corridos
 - 1971: 2 grupos + pontos corridos
-- 1972: pontos corridos + desempate + pontos corridos
-- 1973 a 1974: pontos corridos + mata-mata
+- 1972: desempate + pontos corridos
+- 1973: mata-mata + pontos corridos
+- 1974: pontos corridos + mata-mata
 - 1975: pontos corridos
 - 1976: pontos corridos + desempate + pontos corridos
 - 1977: pontos corridos
@@ -131,28 +133,27 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1981: pontos corridos + desempate + pontos corridos
 - 1982: pontos corridos + mata-mata
 - 1983: pontos corridos
-- 1984: 2 grupos + pontos corridos + 2 grupos + pontos corridos
+- 1984: 2 grupos + pontos corridos
 - 1985: pontos corridos
-- 1986: 2 grupos + pontos corridos + 2 grupos + pontos corridos
+- 1986: 2 grupos + pontos corridos
 - 1987: pontos corridos + 2 grupos + pontos corridos
 - 1988: pontos corridos + 2 grupos + mata-mata
 - 1989: pontos corridos + 2 grupos + pontos corridos
-- 1990 a 1991: pontos corridos + 2 grupos + desempate + pontos corridos
+- 1990 a 1991: pontos corridos + 2 grupos + pontos corridos + desempate
 - 1992: pontos corridos + 2 grupos + pontos corridos + mata-mata
-- 1993: 2 grupos + desempate + pontos corridos
+- 1993: 2 grupos + pontos corridos + desempate
 - 1994: pontos corridos + 2 grupos + pontos corridos
 - 1995: pontos corridos + 2 grupos + pontos corridos + mata-mata
 - 1996: pontos corridos + 3 grupos + pontos corridos
-- 1997: 2 grupos + pontos corridos + desempate + mata-mata
+- 1997: 2 grupos + pontos corridos
 - 1998: pontos corridos + mata-mata
 - 1999: pontos corridos + 2 grupos + pontos corridos + mata-mata
 - 2000 a 2004: pontos corridos
 - 2005 Apertura: pontos corridos + mata-mata
 - 2005 Clausura a 2007: pontos corridos
 - 2008: pontos corridos + 2 grupos + pontos corridos
-- 2009: pontos corridos + 2 grupos + desempate + mata-mata
-- 2010: pontos corridos + desempate + mata-mata
-- 2011: pontos corridos + desempate + pontos corridos + mata-mata
+- 2009: pontos corridos + 2 grupos + pontos corridos + mata-mata
+- 2010 a 2011: pontos corridos + mata-mata
 - 2012: pontos corridos + desempate + pontos corridos
 - 2013: pontos corridos
 - 2014 a 2015: pontos corridos + mata-mata
@@ -163,16 +164,16 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Fases e grupos de cada edição com mais de uma fase:**
 
 - 1962: Primeira fase (liga); Desempate do título (mata_mata, jogo_unico)
-- 1963: Primeira fase (grupos, 2 grupos); Final (mata_mata, ida_volta)
-- 1964: Primeira fase (liga); Desempate do título (mata_mata, jogo_unico)
+- 1963: Primeira fase (grupos, 2 grupos); Fase final (liga)
+- 1964: Desempate do título (mata_mata, jogo_unico); Primeira fase (liga)
 - 1965: Primeira fase (liga); Desempate do 2º lugar (mata_mata, jogo_unico)
-- 1966: Primeira fase (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 1966: Primeira fase (grupos, 2 grupos); Fase final (liga)
 - 1967: Primeira fase (liga); Desempate do rebaixamento (mata_mata, jogo_unico)
 - 1968: Primeira fase (liga); Grupo do rebaixamento (liga); Fase final (liga)
 - 1970: Primeira fase (liga); Grupo do rebaixamento (liga); Fase final (liga)
 - 1971: Primeira fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Fase final (liga)
-- 1972: Primeira fase (liga); Desempate do 2º lugar (mata_mata, jogo_unico); Segunda fase (liga); Fase final (liga)
-- 1973: Primeira fase (liga); Grupo do rebaixamento (liga); Segunda fase (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 1972: Desempate do 2º lugar (mata_mata, jogo_unico); Primeira fase (liga); Segunda fase (liga); Fase final (liga)
+- 1973: Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta); Primeira fase (liga); Grupo do rebaixamento (liga); Segunda fase (liga)
 - 1974: Primeira fase (liga); Segunda fase (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 1975: Primeira fase (liga); Segunda fase (liga); Fase final (liga)
 - 1976: Primeira fase (liga); Segunda fase (liga); Desempate do 2º lugar (mata_mata, ida_volta); Fase final (liga)
@@ -183,22 +184,22 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1981: Primeira fase (liga); Segunda fase (liga); Desempate do 2º lugar (mata_mata, ida_volta); Fase final (liga)
 - 1982: Primeira fase (liga); Segunda fase (liga); Fase final (liga); Final (mata_mata, ida_volta)
 - 1983: Apertura (liga); Grupo do rebaixamento (liga); Segunda fase (liga); Fase final (liga)
-- 1984: Primeira fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Segunda fase (grupos, 2 grupos); Fase final (liga)
+- 1984: Primeira fase (grupos, 2 grupos); Segunda fase (grupos, 2 grupos); Fase final (liga); Grupo do rebaixamento (liga)
 - 1985: Primeira fase (liga); Fase final (liga)
-- 1986: Primeira fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Segunda fase (grupos, 2 grupos); Terceira fase (grupos, 2 grupos); Fase final (liga)
+- 1986: Primeira fase (grupos, 2 grupos); Segunda fase (grupos, 2 grupos); Terceira fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Fase final (liga)
 - 1987: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Fase final (liga)
 - 1988: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Final (mata_mata, ida_volta)
-- 1989: Primeira fase (liga); Grupo do rebaixamento (liga); Segunda fase (grupos, 2 grupos); Fase final (liga)
-- 1990: Primeira fase (liga); Grupo do rebaixamento (grupos, 2 grupos); Segunda fase (grupos, 2 grupos); Desempate do 2º lugar (mata_mata, ida_volta); Fase final (liga)
-- 1991: Primeira fase (liga); Grupo do rebaixamento (grupos, 2 grupos); Segunda fase (grupos, 2 grupos); Desempate do 2º lugar (mata_mata, ida_volta); Fase final (liga)
-- 1992: Primeira fase (liga); Grupo do rebaixamento (liga); Segunda fase (grupos, 2 grupos); Fase final (liga); Final (mata_mata, ida_volta)
-- 1993: Primeira fase (grupos, 2 grupos); Segunda fase (grupos, 2 grupos); Desempate do 2º lugar (mata_mata, ida_volta); Triangular do 2º lugar (liga); Fase final (liga)
-- 1994: Primeira fase (liga); Grupo do rebaixamento (liga); Segunda fase (grupos, 2 grupos); Fase final (liga)
-- 1995: Primeira fase (liga); Grupo do rebaixamento (liga); Liguillas (liga); Segunda fase (grupos, 2 grupos); Fase final (liga); Final (mata_mata, ida_volta)
-- 1996: Apertura (liga); Clausura (grupos, 3 grupos); Grupo do rebaixamento (liga); Liguillas (liga)
-- 1997: Apertura (grupos, 2 grupos); Clausura (liga); Desempate do rebaixamento (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 1989: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Fase final (liga)
+- 1990: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Grupo do rebaixamento (grupos, 2 grupos); Fase final (liga); Desempate do 2º lugar (mata_mata, ida_volta)
+- 1991: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Grupo do rebaixamento (grupos, 2 grupos); Fase final (liga); Desempate do 2º lugar (mata_mata, ida_volta)
+- 1992: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Fase final (liga); Final (mata_mata, ida_volta)
+- 1993: Primeira fase (grupos, 2 grupos); Segunda fase (grupos, 2 grupos); Fase final (liga); Triangular do 2º lugar (liga); Desempate do 2º lugar (mata_mata, ida_volta)
+- 1994: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Fase final (liga)
+- 1995: Primeira fase (liga); Liguillas (liga); Segunda fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Fase final (liga); Final (mata_mata, ida_volta)
+- 1996: Grupo do rebaixamento (liga); Apertura (liga); Clausura (grupos, 3 grupos); Liguillas (liga)
+- 1997: Apertura (grupos, 2 grupos); Clausura (liga); Grupo do rebaixamento (liga); Fase final (liga)
 - 1998: Apertura (liga); Liguillas do Apertura (liga); Grupo do rebaixamento do Apertura (liga); Clausura (liga); Liguillas do Clausura (liga); Grupo do rebaixamento do Clausura (liga); Final (mata_mata, ida_volta)
-- 1999: Apertura (liga); Segunda fase (grupos, 2 grupos); Fase final (liga); Final (mata_mata, ida_volta)
+- 1999: Apertura (liga); Segunda fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Fase final (liga); Final (mata_mata, ida_volta)
 - 2000: Apertura (liga); Clausura (liga); Fase final (liga)
 - 2001: Apertura (liga); Clausura (liga); Fase final (liga)
 - 2002: Apertura (liga); Clausura (liga); Fase final (liga)
@@ -209,10 +210,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2006: Apertura (liga); Clausura (liga); Fase final (liga)
 - 2007: Primeira fase (liga); Segunda fase (liga); Fase final (liga)
 - 2008: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Fase final (liga)
-- 2009: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Terceira fase (grupos, 2 grupos); Desempate do 2º lugar (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2010: Primeira fase (liga); Segunda fase (liga); Desempate do 2º lugar (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2011: Primeira fase (liga); Desempate do 2º lugar (mata_mata, ida_volta); Segunda fase (liga); Final (mata_mata, ida_volta)
-- 2012: Primeira fase (liga); Desempate do 2º lugar (mata_mata, ida_volta); Segunda fase (liga)
+- 2009: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Terceira fase (grupos, 2 grupos); Disputa do 3º lugar (liga); Final (mata_mata, ida_volta)
+- 2010: Primeira fase (liga); Segunda fase (liga); Disputa do 3º lugar (liga); Final (mata_mata, ida_volta)
+- 2011: Primeira fase (liga); Segunda fase (liga); Disputa do 3º lugar (liga); Final (mata_mata, ida_volta)
+- 2012: Primeira fase (liga); Segunda fase (liga); Desempate do 2º lugar (mata_mata, ida_volta); Disputa do 4º lugar (liga)
 - 2013: Primeira fase (liga); Segunda fase (liga)
 - 2014: Primeira fase (liga); Segunda fase (liga); Final (mata_mata, ida_volta)
 - 2015: Primeira fase (liga); Segunda fase (liga); Final (mata_mata, ida_volta)
@@ -225,12 +226,12 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2022: Primeira fase (liga); Segunda fase (liga); Final (mata_mata, ida_volta)
 - 2023: Primeira fase (liga); Segunda fase (liga); Final (mata_mata, ida_volta)
 - 2024: Primeira fase (liga); Segunda fase (liga); Final (mata_mata, ida_volta)
-- 2025: Primeira fase (liga); Grupo do rebaixamento (liga); Hexagonal 2 (liga); Fase final (liga)
+- 2025: Primeira fase (liga); Hexagonal 2 (liga); Fase final (liga); Grupo do rebaixamento (liga)
 
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
-- RSSSF: 43 edições
-- calculada: 25 edições
+- calculada: 63 edições
+- RSSSF: 5 edições
 
 **Observações das edições:**
 
@@ -325,43 +326,24 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2024 | LDU de Quito | Independiente del Valle |
 | 2025 | Independiente del Valle | LDU de Quito |
 
-**Rebaixados marcados na classificação:** 52 em 27 edições (só onde a tabela publicada marca a queda); quem mais caiu: Macará (5), Olmedo (4), Imbabura (3), Manta FC (3), Manta Sport (2).
+**Rebaixados marcados na classificação:** 141 em 58 edições (só onde a tabela publicada marca a queda); quem mais caiu: LDU de Portoviejo (10), Macará (8), Aucas (7), 9 de Octubre (7), Técnico Universitario (7).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
-- 1964: Macará -1
-- 1964: América de Ambato +2
-- 1998: LDU de Quito +5
-- 1998: Emelec +4
-- 1998: Aucas +5
-- 1998: Olmedo +5
-- 1998: Espoli +2
-- 1998: Barcelona de Guayaquil +3
-- 1998: Delfín +3
-- 1998: El Nacional +2
-- 1998: Deportivo Quito +2
-- 1998: Técnico Universitario +4
-- 1998: Panamá +2
-- 2015: Barcelona de Guayaquil -2
-- 2015: El Nacional -1
-- 2015: LDU de Loja -4
-- 2015: Deportivo Quito -8
-- 2017: Barcelona de Guayaquil -6
-- 2017: Fuerza Amarilla -5
-- 2019: El Nacional -1
-- 2019: Deportivo Cuenca -1
-- 2019: Fuerza Amarilla -5
-- 2024: El Nacional -3
-- 2024: Emelec -3
-- 2024: Deportivo Cuenca -3
-- 2024: Libertad de Loja -4
+- 2025: El Nacional -9
 
 ## 7. Correções e decisões (com o motivo)
 
 Registradas em `coleta/ecu-1/explicacoes.py`; cada uma também aparece no relatório, na edição.
 
-### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 22)
+### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 28)
 
+- **ecua99 · 501:** «No Descenso:» → «Liguilla No Descenso»: título curto: os 30 jogos da liguilla do rebaixamento iam para a "Final" (EC-006)
+- **ecua63 · 64:** «Final» → «Final Round»: grupo final de pontos corridos, não mata-mata (EC-007)
+- **ecua66 · 90:** «Final» → «Final Round»: grupo final de pontos corridos, não mata-mata (EC-007)
+- **ecua97 · 393:** «Championship Playoff» → «Hexagonal Final»: hexagonal final de pontos corridos, não mata-mata (EC-007)
+- **ecua97 · 467:** «Playoff Descenso» → «Relegation Group»: quadrangular do rebaixamento de pontos corridos (EC-010)
+- **ecua05 · 53:** «Emelec                0-2 LDU de Quito» → «Emelec                2-2 LDU de Quito»: placar errado na página: com 2-2 a tabela do Apertura 2005 fecha (EC-011)
 - **ecua64 · 46:** «Deportivo Quito 1 0 LDU Quito» → «Deportivo Quito 1-0 LDU Quito»: placar sem o hífen ("1 0")
 - **ecua64 · 37:** «4.Amèrica» → «4.América de Manta»: "Amèrica" [Manta] na tabela: o América de Manta ("AmM" na tabela de confrontos)
 - **ecua64 · 41:** «8.América» → «8.América de Ambato»: "América" [Ambato] na tabela: o América de Ambato ("AmA")
@@ -385,13 +367,37 @@ Registradas em `coleta/ecu-1/explicacoes.py`; cada uma também aparece no relat�
 - **ecua98 · 419:** «Espoli       apparently awarded 2-0]» → «Espoli»: fim da nota do jogo de cima (linha 418), não deste
 - **ecua98 · 624:** «Championship» → «Championship Final»: título da final entre os campeões do Apertura e do Clausura ("Playoffs: / Championship")
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 6)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 30)
 
+- **1984 · ecua84:483:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1984 · ecua84:492:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1984 · ecua84:501:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1984 · ecua84:511:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1984 · ecua84:521:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1984 · ecua84:531:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:541:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:542:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:552:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:553:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:565:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:566:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:579:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:580:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:592:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:593:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:603:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1986 · ecua86:604:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1994 · ecua94:484:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1994 · ecua94:494:** [descartado] a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)
+- **1965 · ecua65:39:** [wo_m] Aucas perdeu os pontos (jogador irregular); placar de campo 0-1 (EC-012)
+- **1965 · ecua65:46:** [wo_m] Aucas perdeu os pontos (jogadores irregulares); placar de campo 0-0 (EC-012)
+- **1965 · ecua65:53:** [wo_v] Aucas perdeu os pontos (jogadores irregulares); placar de campo 0-0 (EC-012)
+- **1965 · ecua65:72:** [wo_v] Aucas perdeu os pontos (jogadores irregulares); placar de campo 2-2 (EC-012)
+- **2025 · espn:759348:** [não jogado] último jogo do Hexagonal 2 (El Nacional x Delfín, 19/12): a RSSSF diz que não foi disputado e as tabelas contam 39 jogos para os dois; a ESPN registra 0-3 (provável W.O. do El Nacional, rebaixado por dívidas)
 - **1998 · ecua98:129:** [vale o placar de campo] jogo interrompido por invasão de campo aos 81 minutos, com 1-2, e terminado em 16 de maio (nota da página): vale o 1-2, como a tabela conta
 - **2003 · ecua03:46:** [descartado] jogo interrompido e completado depois: a página traz as duas linhas ("abd" e a do restante do jogo, com o placar final); fica a segunda
 - **2006 · ecua06:260:** [descartado] jogo interrompido e completado depois: a página traz as duas linhas ("abd" e a do restante do jogo, com o placar final); fica a segunda
 - **2024 · ecua2024:106:** [descartado] jogo interrompido e completado depois: a página traz as duas linhas ("abd" e a do restante do jogo, com o placar final); fica a segunda
-- **2025 · espn:759348:** [não jogado] último jogo do Hexagonal 2 (El Nacional x Delfín, 19/12): a RSSSF diz que não foi disputado e as tabelas contam 39 jogos para os dois; a ESPN registra 0-3 (provável W.O. do El Nacional, rebaixado por dívidas)
 - **1998 · ecua98:418:** [decidido fora de campo, placar oficial 2-0] jogo abandonado no intervalo com 2-0 (o Emelec não voltou para o 2º tempo) e dado ao Deportivo Quito por 2-0 (nota da página), como a tabela do Hexagonal 1 conta
 
 ### Identidade dos clubes
@@ -428,6 +434,8 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 ## 9. Pendências e próximos passos
 
 - ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).
+- Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação com a soma de todos os jogos e a ordem da última fase de liga (D-02 A), disputa de 3º/4º lugar, rebaixados pela es (EC-004, EC-005), fases de 1963, 1966, 1997 e 1999, jogos repetidos de 1984, 1986 e 1994, W.O. de 1965 e de 2025 (D-20 c), datas.
+- Ainda abertos: EC-009 (datas no título da fase: leitor comum, no fim), EC-013 (gol a mais com autor em 2007), EC-014 (artilheiros de 1988, 1996 e 1999: 3ª fonte).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/ecu-1.md`):
 
@@ -468,6 +476,7 @@ Código em `coleta/ecu-1/`:
 | `importar.py` | Junta as fontes da 1ª divisão equatoriana e grava o pacote em data/coleta/ecu-1/pacote/ e o relatório em docs/coleta/ecu-1.md. |
 | `ler_rsssf.py` | Lê os jogos de cada edição nas páginas da RSSSF (data/coleta/ecu-1/rsssf/) com o leitor comum (rsssf_sul) e, de 1960 a |
 | `outras_fontes.py` | Casa os jogos da RSSSF com o ogol e com a ESPN. |
+| `rebaixados_es.py` | Rebaixados por ano pela Wikipédia em espanhol (página "Serie A de Ecuador", tabela "Ascensos y descensos", guardada em |
 | `ver.py` | Ajuda da conferência: mostra os jogos entre dois clubes numa edição, com a linha da página e o texto em volta. |
 
 - Fontes baixadas: `data/coleta/ecu-1/` (uma pasta por fonte: `rsssf/`, `espn/`, `ogol/`, `wikipedia/`); cache da ESPN em `data/cache/espn-sulamerica/`.

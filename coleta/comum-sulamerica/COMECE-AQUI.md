@@ -79,7 +79,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d | sim (versão antes das correções) |
 | `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 4583f7e | sim (versão antes das correções) |
 | `per-1` Peruano | 109 (1912–2025) | 17.318 | 167 | 9d1ca3b, 0b793ba; correções 55c7066 | sim (versão antes das correções) |
-| `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | sim |
+| `ecu-1` Equatoriano | 68 (1957–2025) | 14.175 | 63 | 0b793ba; correções 23/11 | sim (versão antes das correções) |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
 | `ven-1` Venezuelano | 106 (1921–2025) | 13.582 | 108 | 35dc0a2 | não |
 
@@ -108,7 +108,9 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
      PY-019, PY-031.
    - **Peruano: feito em 23/11 (`55c7066`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: PE-009, PE-010 (fase), PE-012, PE-014,
      PE-015, PE-017, PE-022.
-   - Próximo: Equatoriano. O Guilherme mandou fazer todas sem perguntar
+   - **Equatoriano: feito em 23/11** (ids no fim de `pedidos-sulamerica.md`). Abertos: EC-009, EC-013, EC-014.
+   - **Falta, para todas:** a mudança no leitor comum (data no título da fase: AR-023, UY-014, CH-012, CO-008, PY-009,
+     PE-009, EC-009), uma vez só, com a reimportação e a comparação das 9 ligas. Depois, os abertos de cada liga. O Guilherme mandou fazer todas sem perguntar
      (23/11): um commit e push por liga, com recado.
    - A mudança do leitor comum (data no título da fase: AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009) fica para o
      fim, uma vez só, com a reimportação das 9 ligas.

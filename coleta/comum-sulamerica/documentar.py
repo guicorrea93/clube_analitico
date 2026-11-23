@@ -87,6 +87,11 @@ PENDENCIAS: dict[str, list[str]] = {
     ],
     "ecu-1": [
         "ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).",
+        "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação com a soma de todos "
+        "os jogos e a ordem da última fase de liga (D-02 A), disputa de 3º/4º lugar, rebaixados pela es (EC-004, EC-005), "
+        "fases de 1963, 1966, 1997 e 1999, jogos repetidos de 1984, 1986 e 1994, W.O. de 1965 e de 2025 (D-20 c), datas.",
+        "Ainda abertos: EC-009 (datas no título da fase: leitor comum, no fim), EC-013 (gol a mais com autor em 2007), "
+        "EC-014 (artilheiros de 1988, 1996 e 1999: 3ª fonte).",
     ],
     "bol-1": [
         "Pedido do agente 1 (22/11, para quando o Guilherme mandar revisar): a classificação final de 1960, 1976, 1990, 1993 "

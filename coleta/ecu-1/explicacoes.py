@@ -11,6 +11,14 @@ from __future__ import annotations
 EXTRAS: dict[str, list[dict]] = {}
 
 CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
+    ("ecua99", 501): ("No Descenso:", "Liguilla No Descenso", "título curto: os 30 jogos da liguilla do rebaixamento iam para a "
+                                                             "\"Final\" (EC-006)"),
+    ("ecua63", 64): ("Final", "Final Round", "grupo final de pontos corridos, não mata-mata (EC-007)"),
+    ("ecua66", 90): ("Final", "Final Round", "grupo final de pontos corridos, não mata-mata (EC-007)"),
+    ("ecua97", 393): ("Championship Playoff", "Hexagonal Final", "hexagonal final de pontos corridos, não mata-mata (EC-007)"),
+    ("ecua97", 467): ("Playoff Descenso", "Relegation Group", "quadrangular do rebaixamento de pontos corridos (EC-010)"),
+    ("ecua05", 53): ("Emelec                0-2 LDU de Quito", "Emelec                2-2 LDU de Quito",
+                     "placar errado na página: com 2-2 a tabela do Apertura 2005 fecha (EC-011)"),
     ("ecua64", 46): ("Deportivo Quito 1 0 LDU Quito", "Deportivo Quito 1-0 LDU Quito", "placar sem o hífen (\"1 0\")"),
     ("ecua64", 37): ("4.Amèrica", "4.América de Manta", "\"Amèrica\" [Manta] na tabela: o América de Manta (\"AmM\" na tabela "
                                                        "de confrontos)"),
@@ -51,7 +59,17 @@ CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
                                                             "(\"Playoffs: / Championship\")"),
 }
 
+_DUP = "a mesma partida aparece duas vezes na página (no grupo e de novo na fase seguinte): fica a primeira (EC-008)"
 CORRIGE: dict[tuple[str, str], dict] = {
+    **{("1984", f"ecua84:{n}"): {"descartar": True, "motivo": _DUP} for n in (483, 492, 501, 511, 521, 531)},
+    **{("1986", f"ecua86:{n}"): {"descartar": True, "motivo": _DUP} for n in (541, 542, 552, 553, 565, 566, 579, 580, 592, 593, 603, 604)},
+    **{("1994", f"ecua94:{n}"): {"descartar": True, "motivo": _DUP} for n in (484, 494)},
+    ("1965", "ecua65:39"): {"esp": "wo_m", "motivo": "Aucas perdeu os pontos (jogador irregular); placar de campo 0-1 (EC-012)"},
+    ("1965", "ecua65:46"): {"esp": "wo_m", "motivo": "Aucas perdeu os pontos (jogadores irregulares); placar de campo 0-0 (EC-012)"},
+    ("1965", "ecua65:53"): {"esp": "wo_v", "motivo": "Aucas perdeu os pontos (jogadores irregulares); placar de campo 0-0 (EC-012)"},
+    ("1965", "ecua65:72"): {"esp": "wo_v", "motivo": "Aucas perdeu os pontos (jogadores irregulares); placar de campo 2-2 (EC-012)"},
+    ("2025", "espn:759348"): {"esp": "wo_v", "motivo": "El Nacional x Delfín: W.O. 0-3 para o Delfín (ESPN e es), como decidido "
+                                                    "pelo Guilherme (D-20 c, EC-015)"},
     ("1998", "ecua98:129"): {"esp": "", "motivo": "jogo interrompido por invasão de campo aos 81 minutos, com 1-2, e terminado em "
                                                   "16 de maio (nota da página): vale o 1-2, como a tabela conta"},
     **{(t, f"{pg}:{n}"): {"descartar": True, "motivo": "jogo interrompido e completado depois: a página traz as duas linhas "
