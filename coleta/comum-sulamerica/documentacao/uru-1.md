@@ -5,8 +5,8 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 126, de 1900 a 2025; 45 sem jogos.
-- **Jogos:** 12464 (12367 com placar); **gols:** 35134; **gols com autor:** 14309 (41%); **cartões:** 9396.
-- **Clubes:** 81; **artilheiros:** 82 edições com artilheiro (93 linhas, com empates).
+- **Jogos:** 12456 (12359 com placar); **gols:** 35118; **gols com autor:** 14319 (41%); **cartões:** 9396.
+- **Clubes:** 84; **artilheiros:** 122 edições com artilheiro (138 linhas, com empates).
 - **Classificação final:** 126 edições; **tabelas publicadas guardadas para conferência:** 2761 linhas.
 - **No banco:** sim; **último commit do pacote:** 0ead727.
 - **Observação da competição:** 1ª divisão uruguaia de 1900 a 2025: uma edição por título (AUF e FUF em 1923 e 1924; Torneo del Consejo Provisorio em 1926; temporadas no calendário europeu de 2005/06 a 2015/16). Apertura, Intermedio e Clausura são fases da edição. Jogos de 1900, 1901, 1905, 1908, 1916, 1932-1974 e 1994 em diante; nos outros anos, só a tabela final e o campeão (nenhuma fonte pública tem os jogos).
@@ -54,7 +54,7 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 59.
 - **Edições com alguma tabela divergente** (22; motivo no relatório, na edição): 1900, 1901, 1905, 1908, 1916, 1932, 1933, 1934, 1951, 1960, 1961, 1962, 1965, 1967, 1994, 1995, 1996, 1997, 1998, 2000, 2002, 2004.
 - **Edições sem tabela para conferir** (45): 1902, 1903, 1906, 1907, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923 AUF, 1923 FUF, 1924 AUF, 1924 FUF, 1926, 1927, 1928, 1929, 1931, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993.
-- **Edições com menos jogos que o esperado:** 2000 (293 de 292), 2004 (252 de 251), 2007/08 (244 de 243), 2011/12 (243 de 242), 2020 (303 de 302), 2022 (301 de 300), 2023 (302 de 301).
+- **Edições com menos jogos que o esperado:** 2000 (293 de 292), 2004 (252 de 251), 2007/08 (244 de 243), 2011/12 (243 de 242), 2020 (302 de 301), 2022 (300 de 299), 2023 (301 de 300).
 
 ## 4. Cobertura de cada campo, por década
 
@@ -72,9 +72,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 10 | 693 | 0% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 10 | 0 | — | — | — | — | — | — | — | — |
 | 1990s | 10 | 937 | 53% | 0% | 100% | 0% | 0% | 0% | 13% | 0.0 |
-| 2000s | 11 | 2756 | 100% | 44% | 100% | 44% | 44% | 0% | 78% | 1.6 |
-| 2010s | 10 | 2470 | 100% | 98% | 100% | 98% | 95% | 0% | 80% | 2.0 |
-| 2020s | 6 | 1747 | 100% | 88% | 100% | 86% | 85% | 0% | 59% | 0.0 |
+| 2000s | 11 | 2756 | 100% | 45% | 100% | 44% | 44% | 0% | 78% | 1.6 |
+| 2010s | 10 | 2468 | 100% | 98% | 100% | 98% | 95% | 0% | 80% | 2.0 |
+| 2020s | 6 | 1741 | 100% | 98% | 100% | 96% | 95% | 0% | 59% | 0.0 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 
@@ -194,7 +194,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2019: pontos corridos + mata-mata + pontos corridos + mata-mata
 - 2020: pontos corridos + mata-mata + pontos corridos + mata-mata + pontos corridos + mata-mata
 - 2021: pontos corridos + mata-mata
-- 2022 a 2025: pontos corridos + mata-mata + pontos corridos + mata-mata
+- 2022 a 2023: pontos corridos + mata-mata + pontos corridos + mata-mata
+- 2024: pontos corridos + mata-mata + pontos corridos
+- 2025: pontos corridos + mata-mata + pontos corridos + mata-mata
 
 **Fases e grupos de cada edição com mais de uma fase:**
 
@@ -235,25 +237,26 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2014/15: Apertura (liga); Clausura (liga); Semifinal (mata_mata, jogo_unico)
 - 2015/16: Apertura (liga); Clausura (liga); Semifinal (mata_mata, jogo_unico)
 - 2017: Apertura (liga); Intermedio (grupos, 2 grupos); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Desempate do rebaixamento (mata_mata, ida_volta); Desempate da tabela anual (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico)
-- 2018: Apertura (liga); Intermedio (grupos, 2 grupos); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
-- 2019: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Final do Clausura (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 2018: Apertura (liga); Intermedio (grupos, 2 grupos); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Semifinal (mata_mata, jogo_unico)
+- 2019: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Final do Clausura (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico)
 - 2020: Apertura (liga); Final do Apertura (mata_mata, jogo_unico); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
-- 2021: Apertura (liga); Clausura (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
-- 2022: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 2021: Apertura (liga); Clausura (liga); Semifinal (mata_mata, jogo_unico)
+- 2022: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Semifinal (mata_mata, jogo_unico)
 - 2023: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
-- 2024: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Final (mata_mata, jogo_unico)
+- 2024: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga)
 - 2025: Apertura (liga); Intermedio (liga); Final do Intermedio (mata_mata, jogo_unico); Clausura (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
 
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
-- RSSSF: 109 edições
-- calculada: 17 edições
+- RSSSF: 110 edições
+- calculada: 16 edições
 
 **Observações das edições:**
 
-- 1923 FUF: cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato
-- 1924 FUF: cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato
-- 1926: torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF)
+- 1923 FUF: cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato; título não reconhecido pela AUF: edição sem campeão (D-09)
+- 1924 FUF: cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato; título não reconhecido pela AUF: edição sem campeão (D-09)
+- 1926: torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF); título não reconhecido pela AUF: edição sem campeão (D-09)
+- 1947: sem vice: o triangular pelo 2º lugar não terminou (D-22 c)
 - 1948: campeonato abandonado na 10ª rodada pela greve dos jogadores; sem campeão (RSSSF)
 - 2005: torneio de transição para o calendário europeu; o Defensor não jogou a final e o título ficou com o Nacional
 - 2016: torneio de transição de volta ao calendário anual (turno único)
@@ -263,18 +266,18 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Títulos:**
 
-- Peñarol: 54
+- Peñarol: 52
 - Nacional: 50
-- Montevideo Wanderers: 4
 - River Plate FC: 4
 - Defensor Sporting: 4
 - Danubio: 4
+- Montevideo Wanderers: 3
 - Rampla Juniors: 1
 - Central Español: 1
 - Progreso: 1
 - Bella Vista: 1
 - Liverpool de Montevideo: 1
-- Sem campeão: 1948
+- Sem campeão: 1923 FUF, 1924 FUF, 1926, 1948
 
 **Campeão e vice de cada edição:**
 
@@ -303,10 +306,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1921 | Peñarol | Nacional |
 | 1922 | Nacional | Montevideo Wanderers |
 | 1923 AUF | Nacional | Rampla Juniors |
-| 1923 FUF | Montevideo Wanderers | Peñarol |
+| 1923 FUF | — | — |
 | 1924 AUF | Nacional | Bella Vista |
-| 1924 FUF | Peñarol | Montevideo Wanderers |
-| 1926 | Peñarol | Montevideo Wanderers |
+| 1924 FUF | — | — |
+| 1926 | — | — |
 | 1927 | Rampla Juniors | Peñarol |
 | 1928 | Peñarol | Rampla Juniors |
 | 1929 | Peñarol | Nacional |
@@ -326,8 +329,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1944 | Peñarol | Nacional |
 | 1945 | Peñarol | Nacional |
 | 1946 | Nacional | Peñarol |
-| 1947 | Nacional | Peñarol |
-| 1948 | — | Peñarol |
+| 1947 | Nacional | — |
+| 1948 | — | — |
 | 1949 | Peñarol | Nacional |
 | 1950 | Nacional | Peñarol |
 | 1951 | Peñarol | Nacional |
@@ -374,40 +377,40 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1992 | Nacional | River Plate de Montevideo |
 | 1993 | Peñarol | Defensor Sporting |
 | 1994 | Peñarol | Defensor Sporting |
-| 1995 | Peñarol | Liverpool de Montevideo |
-| 1996 | Peñarol | Defensor Sporting |
+| 1995 | Peñarol | Nacional |
+| 1996 | Peñarol | Nacional |
 | 1997 | Peñarol | Defensor Sporting |
-| 1998 | Nacional | Rentistas |
+| 1998 | Nacional | Peñarol |
 | 1999 | Peñarol | Nacional |
-| 2000 | Nacional | Danubio |
-| 2001 | Nacional | Peñarol |
-| 2002 | Nacional | Peñarol |
+| 2000 | Nacional | Peñarol |
+| 2001 | Nacional | Danubio |
+| 2002 | Nacional | Danubio |
 | 2003 | Peñarol | Nacional |
-| 2004 | Danubio | Cerrito |
+| 2004 | Danubio | Nacional |
 | 2005 | Nacional | Defensor Sporting |
 | 2005/06 | Nacional | Rocha FC |
 | 2006/07 | Danubio | Peñarol |
-| 2007/08 | Defensor Sporting | Danubio |
-| 2008/09 | Nacional | Danubio |
+| 2007/08 | Defensor Sporting | Peñarol |
+| 2008/09 | Nacional | Defensor Sporting |
 | 2009/10 | Peñarol | Nacional |
 | 2010/11 | Nacional | Defensor Sporting |
-| 2011/12 | Nacional | Danubio |
+| 2011/12 | Nacional | Peñarol |
 | 2012/13 | Peñarol | Defensor Sporting |
-| 2013/14 | Danubio | River Plate de Montevideo |
-| 2014/15 | Nacional | Racing de Montevideo |
+| 2013/14 | Danubio | Montevideo Wanderers |
+| 2014/15 | Nacional | Peñarol |
 | 2015/16 | Peñarol | Nacional |
 | 2016 | Nacional | Montevideo Wanderers |
 | 2017 | Peñarol | Defensor Sporting |
 | 2018 | Peñarol | Nacional |
 | 2019 | Nacional | Peñarol |
 | 2020 | Nacional | Rentistas |
-| 2021 | Peñarol | Plaza Colonia |
+| 2021 | Peñarol | Nacional |
 | 2022 | Nacional | Liverpool de Montevideo |
 | 2023 | Liverpool de Montevideo | Peñarol |
 | 2024 | Peñarol | Nacional |
-| 2025 | Nacional | Liverpool de Montevideo |
+| 2025 | Nacional | Peñarol |
 
-**Rebaixados marcados na classificação:** 27 em 20 edições (só onde a tabela publicada marca a queda); quem mais caiu: Bella Vista (4), River Plate de Montevideo (3), Racing de Montevideo (3), Sud América (3), Progreso (2).
+**Rebaixados marcados na classificação:** 36 em 23 edições (só onde a tabela publicada marca a queda); quem mais caiu: Bella Vista (5), Progreso (4), River Plate de Montevideo (3), Racing de Montevideo (3), Sud América (3).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
@@ -417,28 +420,45 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1955: Liverpool de Montevideo -1
 - 1994: Peñarol -4
 - 1994: Nacional -4
-- 1995: Peñarol -2
-- 1995: Nacional -2
+- 1994: Bella Vista -1
 - 1996: Cerro -5
 - 2006/07: Cerrito -3
 - 2008/09: Peñarol -3
 - 2009/10: Nacional -3
+- 2014/15: Peñarol -1
+- 2014/15: Danubio +3
+- 2014/15: El Tanque Sisley -3
+- 2014/15: Cerro -1
+- 2025: Nacional -3
 - 2025: Cerro -1
 
 ## 7. Correções e decisões (com o motivo)
 
 Registradas em `coleta/uru-1/explicacoes.py`; cada uma também aparece no relatório, na edição.
 
-### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 5)
+### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 9)
 
+- **uru06 · 838:** «[Apr 17]» → «[May 17]»: mês trocado: entre a rodada 12 (13/05) e a 15 (21/05); a ESPN dá maio (QU-006)
+- **uru06 · 855:** «[Apr 18]» → «[May 18]»: mês trocado (QU-006)
+- **uru06 · 860:** «[Apr 20]» → «[May 20]»: mês trocado (QU-006)
+- **uru96 · 420:** «Nacional 1-1 Peñarol (59' Juan Martín Parodi; 55' Antonio Pacheco)» → «Nacional 1-1 Peñarol [59' Juan Martín Parodi; 55' Antonio Pacheco]»: autores entre parênteses na linha do jogo viravam parte do nome do Peñarol (UY-023)
 - **uru34 · 156:** «4-1 Defensor» → «4-1 Sud América»: linha "Defensor 4-1 Defensor"; falta o 3º Defensor x Sud América e, com o Sud América, as linhas dos dois clubes fecham com a tabela publicada
 - **uru41 · 169:** «1-0 Sud América» → «1-0 Liverpool»: linha "Sud América 1-0 Sud América"; falta o 2º Sud América x Liverpool e, com o Liverpool, as linhas dos dois clubes fecham com a tabela publicada
 - **uru43 · 117:** «2-1 Racing» → «2-1 Rampla Juniors»: o Nacional aparece três vezes contra o Racing e uma contra o Rampla; com o Rampla, as linhas dos dois clubes fecham com a tabela publicada
 - **uru56 · 127:** «5-1 Liverpool» → «3-1 Liverpool»: o 2º Peñarol x Liverpool aparece como 5-1, igual ao 1º; a Wikipédia em espanhol (Campeonato Uruguayo 1956) traz 3-1, que fecha com a tabela publicada para os dois clubes
 - **uru40 · 119:** «3-9 Peñarol» → «3-0 Peñarol»: "3-9" não fecha com a tabela; com 3-0 (vitória do Wanderers) as linhas dos dois clubes fecham com ela
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 5)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 14)
 
+- **2018 · uru2018:1010:** [descartado] Supercopa 2019 (03/02/2019) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **2019 · uru2019:1040:** [descartado] Supercopa 2020 (01/02/2020) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **2020 · uru2020:1152:** [descartado] Supercopa 2021 (02/05/2021) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **2021 · uru2021:860:** [descartado] Supercopa 2022 (30/01/2022) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **2022 · uru2022:1071:** [descartado] Supercopa 2023 (29/01/2023) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **2023 · uru2023:1102:** [descartado] Supercopa 2024 (31/01/2024) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **2024 · uru2024:1039:** [descartado] Supercopa 2025 (26/01/2025) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **2025 · uru2025:1041:** [descartado] Supercopa 2026 entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- **1908 · wiki:es_1908:842:** [wo_v] o Intrépido não compareceu: W.O. para o Bristol (UY-010)
 - **1939 · uru39:127:** [wo_v, gm = 6, gv = 1] Nacional 6-1 Racing em campo; pontos dados ao Racing (jogador irregular do Nacional); a tabela conta os gols de campo
 - **1947 · uru47:171:** [fase = Desempate do 2º lugar] jogo do triangular pelo 2º lugar (a página abre rodadas dentro do desempate)
 - **1947 · uru47:175:** [fase = Desempate do 2º lugar] jogo do triangular pelo 2º lugar
@@ -453,6 +473,19 @@ Registradas em `coleta/uru-1/explicacoes.py`; cada uma também aparece no relat�
 ### Tabelas da página que não são da edição (`TABELAS_FORA`, 1)
 
 - **2005/06 · uru06:494:** "Annual Table 2005": soma o Torneo Especial 2005 e o Apertura 2005/06 (ano civil, para rebaixamento e vagas), não é tabela desta edição
+
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 10)
+
+- **1951:** a tabela publicada (RSSSF e es concordam) não fecha com nenhum jogo da página (Nacional e Danubio com 1 vitória trocada); a classificação é a tabela publicada (UY-011)
+- **1954:** vice Nacional (RSSSF e Wikipédia em inglês); a es dá o Danubio. Fica o da RSSSF até uma 3ª fonte (D-22 b, UY-007)
+- **1913:** tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF, base da coleta (UY-012)
+- **1917:** tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
+- **1919:** tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
+- **1920:** tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
+- **1955:** a es dá Sud América 15 e Liverpool 13 pontos; a RSSSF, 16 e 12 (ajustes de +1/-1); fica a RSSSF (UY-012)
+- **1991:** tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
+- **2017:** artilheiro pela AUF: Maureen Franco 25; a es dá Cristian Palacios 29 (QU-008)
+- **2023:** artilheiro pela AUF: Juan Ignacio Ramírez 18; a es dá 19 (QU-008)
 
 ### Identidade dos clubes
 
@@ -469,8 +502,8 @@ Regras do guia internacional (docs/agentes-internacionais-COMECE-AQUI.md, seçã
   "Olimpia de Montevideo", "Juventud de Las Piedras", "Atenas de San Carlos");
 - o mesmo clube com outro nome é um só, com o nome atual; os nomes antigos ficam no nomes_fonte:
   Central -> Central Español; Defensor -> Defensor Sporting (fusão com o Sporting em 1989, que manteve a história do
-  Defensor); Atlético Wanderers (o time do Wanderers na FUF, 1923-1924, a que a RSSSF dá o título de 1923)
-  -> Montevideo Wanderers; Deutscher -> Teutonia -> Montevideo FC; Torque -> Montevideo City Torque; C.U.R.C.C. -> Peñarol (como a RSSSF
+  Defensor); Atlético Wanderers, Lito e Charley da FUF (1923-1924) ficam à parte dos clubes da AUF
+  ("Atlético Wanderers", "Lito (FUF)", "Charley (FUF)": um clube não joga duas ligas rivais no mesmo ano; D-25 f, por Edicao.nomes); Deutscher -> Teutonia -> Montevideo FC; Torque -> Montevideo City Torque; C.U.R.C.C. -> Peñarol (como a RSSSF
   conta: a seção de futebol do C.U.R.C.C. virou o Peñarol em 1913-1914; o Nacional contesta, ver o relatório).
 - fusões que criaram clube novo ficam separadas: Miramar e Misiones (até 1979) e Miramar Misiones (1980 em diante).
 - o River Plate amador (River Plate FC, 1897-1929) não é o River Plate atual (fusão de Olimpia e Capurro em 1932).
@@ -491,8 +524,8 @@ da edição; por isso as mais específicas vêm antes.
 
 ## 9. Pendências e próximos passos
 
-- Achados da revisão em aberto (19, prefixo UY; lista na seção 9): a classificação final de 1994-2025 é a tabela do Apertura (UY-006, que puxa vice e 3º errados), Supercopa dentro da Final, datas das decisões, artilheiros. Corrigir e citar os ids em docs/coleta/pedidos-sulamerica.md.
-- Decisões do Guilherme pedidas pela revisão: títulos da FUF (1923, 1924) e do Consejo Provisorio (1926); Atlético Wanderers da FUF = Montevideo Wanderers?; vice de 1954.
+- Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação pela tabela anual de 1994 em diante, pódio pela lista da AUF, Supercopa fora, títulos da FUF e de 1926 sem campeão (D-09), clubes da FUF à parte (D-25 f), 2020 no ano certo, artilheiros (AUF 2013/14-2025; es 1900-1931).
+- Ainda aberto: UY-014 (data das decisões no título da fase: leitor comum, junto com as outras ligas no fim).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/uru-1.md`):
 
@@ -534,6 +567,7 @@ Código em `coleta/uru-1/`:
 | `conferir.py` | Conferência de cada edição: nomes reconhecidos e soma dos jogos x tabelas publicadas pela RSSSF. |
 | `edicoes.py` | Edições da 1ª divisão uruguaia (uru-1): uma por torneio que deu título de campeão uruguaio. |
 | `explicacoes.py` | Correções e explicações da coleta da 1ª divisão uruguaia, edição a edição (entram no relatório). |
+| `goleadores_es.py` | Artilheiros de 1900 a 1931 pela coluna "Goleador" da tabela "Títulos de liga por año" da Wikipédia em espanhol (página |
 | `importar.py` | Junta as fontes da 1ª divisão uruguaia e grava o pacote em data/coleta/uru-1/pacote/ e o relatório em docs/coleta/uru-1.md. |
 | `ler_rsssf.py` | Lê os jogos de cada edição: trechos das páginas da RSSSF (data/coleta/uru-1/rsssf/) com o leitor comum (rsssf_sul) e, |
 | `outras_fontes.py` | Casa os jogos da RSSSF com o ogol e com a ESPN. |

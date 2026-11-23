@@ -37,6 +37,19 @@ NIVEL_FASE = {"": 0, "Grupo do rebaixamento": 0, "Desempate do rebaixamento": 0,
               "Desempate da tabela anual": 1, "Fase final": 2, "Semifinal": 5, "Final": 6, "Desempate do título": 6}
 WIKI: dict[str, str] = {}
 TOPS: dict[str, list] = {}
+TOPS_FONTE: dict[str, str] = {}
+# UY-019: grafias da urutops corrigidas pela es e outras fontes
+GRAFIAS = {"Antonio Cataldo": "Antonio Castaldo", "Juan C. Mameli": "Juan Mamelli", "Pedro Cardozo": "Pedro Cardoso"}
+# UY-017 e QU-008: artilharia oficial da AUF ("Goleadores de la Temporada", auf.org.uy/historico-temporadas), 2013/14-2025
+ARTILHEIROS_AUF: dict[str, list[tuple[str, str, int]]] = {
+    "2013/14": [("Héctor Acuña", "Cerro", 20)], "2014/15": [("Iván Alonso", "Nacional", 23)],
+    "2015/16": [("Gastón Rodríguez", "Montevideo Wanderers", 19), ("Junior Arias", "Liverpool", 19)],
+    "2017": [("Maureen Franco", "Cerro", 25)], "2018": [("Gonzalo Bergessio", "Nacional", 17)],
+    "2019": [("Juan Ignacio Ramírez", "Liverpool", 24)], "2020": [("Gonzalo Bergessio", "Nacional", 25)],
+    "2021": [("Maximiliano Silvera", "Cerrito", 21)], "2022": [("Thiago Borbas", "River Plate", 18)],
+    "2023": [("Juan Ignacio Ramírez", "Nacional", 18)], "2024": [("Leonardo Fernández", "Peñarol", 16)],
+    "2025": [("Abel Hernández", "Liverpool", 25)],
+}
 
 
 def nome_fase(f: str, fases: set[str]) -> str:
@@ -53,8 +66,72 @@ def especial(esp: str) -> str:
     return {"wo_m": "wo", "wo_v": "wo", "awd": "awd", "abd": "abd", "anulado": "n/p", "n/p": "n/p"}.get(esp, "")
 
 
+# D-09 (a): títulos que a AUF não reconhece: a edição fica, sem campeão, com nota (UY-001)
+SEM_TITULO = {"1923 FUF", "1924 FUF", "1926"}
+# D-22 (c): 1947 sem vice, o triangular pelo 2º lugar não terminou (UY-008); 1948 sem campeão, sem vice (UY-003)
+SEM_VICE = {"1947", "1948"}
+TABELA_OFICIAL = {"1951"}   # UY-011: a tabela publicada (RSSSF e es) não fecha com nenhum jogo do banco
+
+
+def acerta_ano(e: Edicao, jogos: list[dict]) -> None:
+    """UY-015: em 2020 a 1ª data (Feb 15) é <= junho numa edição com ano_fim 2021, e o leitor comum leva o Apertura e o
+    Intermedio para 2021. Janela da temporada a partir do 1º jogo da página (mesma regra do AR-022 do arg-1)."""
+    from datetime import date, timedelta
+    if e.temporada != "2020":
+        return
+    da_pagina = [j for j in jogos if j["j"] and j["j"].data and not j["j"].texto.startswith(("espn", "wiki", "ogol"))]
+    da_pagina.sort(key=lambda j: int(j["j"].texto.split(":")[1]))
+    if not da_pagina:
+        return
+    d0 = da_pagina[0]["j"].data
+    ini = date(e.ano_inicio, int(d0[5:7]), int(d0[8:10])) - timedelta(days=30)
+    fim = ini + timedelta(days=500)
+    prev = None
+    for j in da_pagina:
+        x = j["j"]
+        mo, di = int(x.data[5:7]), int(x.data[8:10])
+        cands = [w for y in range(ini.year, fim.year + 1) for w in [_dia(y, mo, di)] if w and ini <= w <= fim]
+        if not cands:
+            continue
+        z = cands[0] if len(cands) == 1 or prev is None else min(cands, key=lambda w: abs((w - prev).days))
+        prev = z
+        x.data = z.isoformat() + x.data[10:]
+
+
+def _dia(y: int, mo: int, di: int):
+    from datetime import date
+    try:
+        return date(y, mo, di)
+    except ValueError:
+        return None
+
+
+VICES: dict[str, str] = {}
+TERCEIROS: dict[str, str] = {}
+
+
+def podio_oficial(e: Edicao, final: list[dict], campeao: str | None, log: list[str]) -> None:
+    """Vice e 3º da lista da AUF (Wikipédia em inglês, colunas Runner-up e Third place) logo abaixo do campeão (UY-004,
+    UY-005). 1947 fica sem vice (D-22 c)."""
+    if not campeao or e.temporada in SEM_VICE:
+        return
+    for pos, lista in ((2, VICES), (3, TERCEIROS)):
+        txt = lista.get(e.temporada)
+        c = clube(txt, e.ano_inicio) if txt else None
+        r = next((r for r in final if r["clube"] == c), None) if c else None
+        if r is None or len(final) < pos:
+            continue
+        if final.index(r) > pos - 1:
+            log.append(f"{'vice' if pos == 2 else '3º'} pela lista oficial: {c} (a tabela o punha em {final.index(r) + 1}º)")
+            final.remove(r)
+            final.insert(pos - 1, r)
+    for k, r in enumerate(final, 1):
+        r["pos"] = k
+
+
 def montar(e: Edicao, cps: dict[str, str]) -> dict:
     p = preparar(e)
+    acerta_ano(e, p["jogos"])
     log: list[str] = list(p["log"])
     for x in EXTRAS.get(e.temporada, []):
         p["jogos"].append({"m": x["mandante"], "v": x["visitante"], "gm": x["gm"], "gv": x["gv"], "fase": x.get("fase", ""),
@@ -75,11 +152,12 @@ def montar(e: Edicao, cps: dict[str, str]) -> dict:
         for x in (j["m"], j["v"]):
             nivel[x] = max(nivel[x], NIVEL_FASE.get(j["fase"], 0))
     # campeão pela lista da RSSSF (uruchamp.html)
-    camp_txt = e.campeao_rsssf or cps.get(e.temporada, "")
+    camp_txt = "" if e.temporada in SEM_TITULO else (e.campeao_rsssf or cps.get(e.temporada, ""))
     campeao = clube(camp_txt, e.ano_inicio) if camp_txt else None
     if not campeao and camp_txt:
         log.append(f"campeão da lista da RSSSF não reconhecido: {camp_txt}")
     final = classificacao(e, p, calc, nivel, campeao, clubes)
+    podio_oficial(e, final, campeao, log)
     return {"e": e, "p": p, "difs": difs, "log": log, "clubes": clubes, "campeao": campeao, "camp_txt": camp_txt,
             "final": final, "fases": fases}
 
@@ -113,6 +191,12 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     pv = e.pontos_vitoria
     pub = next((tb for tb in p["tabelas"] if not tb.get("acumulada") and tb.get("ok") and
                 {r["clube"] for r in tb["linhas"]} == set(clubes)), None)
+    if e.ano_inicio >= 1994 and not e.sem_jogos or e.temporada in TABELA_OFICIAL:
+        # UY-006: de 1994 em diante a classificação é a tabela anual (acumulada), não a do Apertura; UY-011: 1951 pela
+        # tabela publicada. Entre as tabelas com todos os clubes, a de mais jogos
+        cands = [tb for tb in p["tabelas"] if {r["clube"] for r in tb["linhas"]} >= set(clubes) - {None}
+                 and all(r["j"] is not None for r in tb["linhas"])]
+        pub = max(cands, key=lambda tb: sum(r["j"] for r in tb["linhas"]), default=pub)
     if e.sem_jogos:   # sem jogos: a tabela final da RSSSF (uruhist.html) é a classificação
         pub = next((tb for tb in p["tabelas"] if tb.get("sem_conferencia")), None)
     linhas = []
@@ -133,15 +217,22 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
         c = next(r for r in linhas if r["clube"] == campeao)
         linhas.remove(c)
         linhas.insert(0, c)
+    # UY-004: vice = o adversário do campeão na final do ano (fase "Final"; a Supercopa saiu, UY-013); sem final, fica o 2º
+    # da tabela anual (D-22 d). O 3º é o seguinte da tabela anual (UY-005)
+    adv = [j["v"] if j["m"] == campeao else j["m"] for j in p["jogos"] if j["fase"] == "Final" and campeao in (j["m"], j["v"])]
+    if campeao and adv and len(set(adv)) == 1 and any(r["clube"] == adv[0] for r in linhas) and linhas[1]["clube"] != adv[0]:
+        v = next(r for r in linhas if r["clube"] == adv[0])
+        linhas.remove(v)
+        linhas.insert(1, v)
     for k, r in enumerate(linhas, 1):
         r["pos"] = k
     return linhas
 
 
-def situacao(r: dict, campeao: str | None, k: int) -> str:
+def situacao(r: dict, campeao: str | None, k: int, temporada: str = "") -> str:
     if r["clube"] == campeao:
         return "campeao"
-    if k == 2:
+    if k == 2 and campeao and temporada not in SEM_VICE:   # UY-003: edição sem campeão não tem vice; UY-008: 1947
         return "vice"
     if re.search(r"relegat|descend|rebaix", r.get("obs", ""), re.I):
         return "rebaixado"
@@ -304,7 +395,7 @@ def gravar(eds: list[dict]) -> None:
         # classificação final
         for r in d["final"]:
             L["classificacao_final"].append([e.temporada, r["pos"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"], r["gc"],
-                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"]), r["fonte"],
+                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"], e.temporada), r["fonte"],
                                              "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
         # tabelas publicadas (as que entraram na conferência)
         vistas = set()
@@ -325,7 +416,8 @@ def gravar(eds: list[dict]) -> None:
         tops = TOPS.get(e.temporada)
         if tops:
             for jog, ctxt, ng in tops:
-                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, "RSSSF (urutops.html)"])
+                L["artilheiros"].append([e.temporada, GRAFIAS.get(jog, jog), clube(ctxt, e.ano_inicio) or ctxt, ng,
+                                         TOPS_FONTE.get(e.temporada, "RSSSF (urutops.html)")])
         elif gols_ed and autor_ed >= 0.95 * gols_ed:
             cont = Counter((r[2], r[1]) for r in L["gols"] if r[0].startswith(eid + "-") and r[5] != "contra")
             if cont:
@@ -335,7 +427,7 @@ def gravar(eds: list[dict]) -> None:
                         L["artilheiros"].append([e.temporada, jog, c, ng, "contagem dos gols com autor"])
         # edição
         final = d["final"]
-        vice = final[1]["clube"] if len(final) > 1 else ""
+        vice = final[1]["clube"] if len(final) > 1 and d["campeao"] and e.temporada not in SEM_VICE else ""
         L["edicoes"].append([e.temporada, e.ano_inicio, e.ano_fim, e.nome_oficial, len(d["clubes"]), e.pontos_vitoria,
                              ("sem jogos (só a tabela final)" if e.sem_jogos else
                               formato(ordem_f, L["fases"], e.temporada)), d["campeao"] or "", vice,
@@ -510,7 +602,16 @@ if __name__ == "__main__":
     cps = campeoes()
     from campeoes_wiki import campeoes as campeoes_wiki
     WIKI.update(campeoes_wiki())
+    from campeoes_wiki import terceiros, vices
+    VICES.update(vices())
+    TERCEIROS.update(terceiros())
     TOPS.update(artilheiros_rsssf())
+    from goleadores_es import goleadores   # UY-018: 1900-1931, coluna "Goleador" da Wikipédia em espanhol
+    for t_, v_ in goleadores().items():
+        if t_ not in TOPS:
+            TOPS[t_], TOPS_FONTE[t_] = v_, "Wikipédia em espanhol (Títulos de liga por año, coluna Goleador)"
+    for t_, v_ in ARTILHEIROS_AUF.items():
+        TOPS[t_], TOPS_FONTE[t_] = v_, "AUF (Goleadores de la Temporada)"
     eds = []
     for e in EDICOES:
         d = montar(e, cps)

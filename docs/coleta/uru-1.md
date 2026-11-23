@@ -39,10 +39,10 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 1921 | 12 | 0 (0) | 0 | 0 | 0 / 0 | Peñarol | RSSSF (uruhist) |
 | 1922 | 12 | 0 (0) | 0 | 0 | 0 / 0 | Nacional | RSSSF (uruhist) |
 | 1923 AUF | 12 | 0 (0) | 0 | 0 | 0 / 0 | Nacional | RSSSF (uruhist) |
-| 1923 FUF | 32 | 0 (0) | 0 | 0 | 0 / 0 | Montevideo Wanderers | RSSSF (uruhist) |
+| 1923 FUF | 32 | 0 (0) | 0 | 0 | 0 / 0 | None | RSSSF (uruhist) |
 | 1924 AUF | 12 | 0 (0) | 0 | 0 | 0 / 0 | Nacional | RSSSF (uruhist) |
-| 1924 FUF | 17 | 0 (0) | 0 | 0 | 0 / 0 | Peñarol | RSSSF (uruhist) |
-| 1926 | 10 | 0 (0) | 0 | 0 | 0 / 0 | Peñarol | RSSSF (uruhist) |
+| 1924 FUF | 17 | 0 (0) | 0 | 0 | 0 / 0 | None | RSSSF (uruhist) |
+| 1926 | 10 | 0 (0) | 0 | 0 | 0 / 0 | None | RSSSF (uruhist) |
 | 1927 | 20 | 0 (0) | 0 | 0 | 0 / 0 | Rampla Juniors | RSSSF (uruhist) |
 | 1928 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Peñarol | RSSSF (uruhist) |
 | 1929 | 14 | 0 (0) | 0 | 0 | 0 / 0 | Peñarol | RSSSF (uruhist) |
@@ -66,7 +66,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 1948 | 10 | 50 (50) | 190 | 0 | 1 / 0 | None | RSSSF (uru48) |
 | 1949 | 10 | 90 (90) | 323 | 0 | 1 / 0 | Peñarol | RSSSF (uru49) |
 | 1950 | 10 | 93 (93) | 330 | 0 | 1 / 0 | Nacional | RSSSF (uru50) |
-| 1951 | 10 | 90 (90) | 319 | 0 | 0 / 1 | Peñarol | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1951 | 10 | 90 (90) | 319 | 0 | 0 / 1 | Peñarol | RSSSF (uru51) |
 | 1952 | 10 | 91 (91) | 335 | 0 | 1 / 0 | Nacional | RSSSF (uru52) |
 | 1953 | 10 | 90 (90) | 290 | 0 | 1 / 0 | Peñarol | RSSSF (uru53) |
 | 1954 | 10 | 90 (90) | 264 | 0 | 1 / 0 | Peñarol | RSSSF (uru54) |
@@ -110,8 +110,8 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 1992 | 13 | 0 (0) | 0 | 0 | 0 / 0 | Nacional | RSSSF (uruhist) |
 | 1993 | 13 | 0 (0) | 0 | 0 | 0 / 0 | Peñarol | RSSSF (uruhist) |
 | 1994 | 13 | 159 (159) | 384 | 0 | 3 / 3 | Peñarol | RSSSF (uru94) |
-| 1995 | 13 | 161 (161) | 412 | 35 | 3 / 1 | Peñarol | RSSSF (uru95) |
-| 1996 | 12 | 134 (134) | 310 | 0 | 3 / 2 | Peñarol | RSSSF (uru96) |
+| 1995 | 13 | 161 (161) | 412 | 35 | 3 / 1 | Peñarol | RSSSF (uruhist) |
+| 1996 | 12 | 134 (134) | 310 | 0 | 3 / 2 | Peñarol | RSSSF (uruhist) |
 | 1997 | 13 | 137 (137) | 371 | 0 | 1 / 3 | Peñarol | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 12 | 132 (132) | 331 | 0 | 1 / 2 | Nacional | RSSSF (uru98) |
 | 1999 | 15 | 214 (214) | 617 | 287 | 3 / 0 | Peñarol | RSSSF (uru99) |
@@ -121,7 +121,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 2003 | 18 | 307 (307) | 868 | 527 | 4 / 0 | Peñarol | RSSSF (uru03) |
 | 2004 | 18 | 252 (251) | 657 | 428 | 4 / 1 | Danubio | RSSSF (uru04) |
 | 2005 | 18 | 155 (155) | 445 | 237 | 1 / 0 | Nacional | RSSSF (uru05) |
-| 2005/06 | 20 | 293 (293) | 801 | 754 | 3 / 0 | Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005/06 | 20 | 293 (293) | 801 | 764 | 3 / 0 | Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006/07 | 16 | 245 (245) | 691 | 684 | 3 / 0 | Danubio | RSSSF (uru07) |
 | 2007/08 | 16 | 244 (243) | 726 | 694 | 3 / 0 | Defensor Sporting | RSSSF (uru08) |
 | 2008/09 | 16 | 233 (233) | 639 | 620 | 3 / 0 | Nacional | RSSSF (uru09) |
@@ -134,14 +134,14 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 2015/16 | 16 | 241 (241) | 637 | 491 | 3 / 0 | Peñarol | RSSSF (uru2016) |
 | 2016 | 16 | 120 (120) | 289 | 228 | 1 / 0 | Nacional | RSSSF (uru2016a) |
 | 2017 | 16 | 304 (304) | 797 | 596 | 5 / 0 | Peñarol | RSSSF (uru2017) |
-| 2018 | 16 | 293 (293) | 707 | 463 | 6 / 0 | Peñarol | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2019 | 16 | 300 (300) | 808 | 501 | 5 / 0 | Nacional | RSSSF (uru2019) |
-| 2020 | 16 | 303 (302) | 776 | 419 | 5 / 0 | Nacional | RSSSF (uru2020) |
-| 2021 | 16 | 242 (242) | 609 | 356 | 3 / 0 | Peñarol | RSSSF (uru2021) |
-| 2022 | 16 | 301 (300) | 648 | 393 | 5 / 0 | Nacional | RSSSF (uru2022) |
-| 2023 | 16 | 302 (301) | 685 | 418 | 5 / 0 | Liverpool de Montevideo | RSSSF (uru2023) |
-| 2024 | 16 | 298 (298) | 726 | 404 | 5 / 0 | Peñarol | RSSSF (uru2024) |
-| 2025 | 16 | 301 (301) | 700 | 459 | 5 / 0 | Nacional | RSSSF (uru2025) |
+| 2018 | 16 | 292 (292) | 705 | 463 | 6 / 0 | Peñarol | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2019 | 16 | 299 (299) | 802 | 501 | 5 / 0 | Nacional | RSSSF (uru2019) |
+| 2020 | 16 | 302 (301) | 774 | 419 | 5 / 0 | Nacional | RSSSF (uru2020) |
+| 2021 | 16 | 241 (241) | 608 | 356 | 3 / 0 | Peñarol | RSSSF (uru2021) |
+| 2022 | 16 | 300 (299) | 647 | 393 | 5 / 0 | Nacional | RSSSF (uru2022) |
+| 2023 | 16 | 301 (300) | 684 | 418 | 5 / 0 | Liverpool de Montevideo | RSSSF (uru2023) |
+| 2024 | 16 | 297 (297) | 723 | 404 | 5 / 0 | Peñarol | RSSSF (uru2024) |
+| 2025 | 16 | 300 (300) | 700 | 459 | 5 / 0 | Nacional | RSSSF (uru2025) |
 
 ## Conferência e correções, edição a edição
 
@@ -223,7 +223,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1911
 
-- sem ocorrências
+- 3º pela lista oficial: Nacional (a tabela o punha em 5º)
 
 ### 1912
 
@@ -231,7 +231,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1913
 
-- sem ocorrências
+- tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF, base da coleta (UY-012)
 
 ### 1914
 
@@ -250,7 +250,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1917
 
-- sem ocorrências
+- tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
 
 ### 1918
 
@@ -258,11 +258,11 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1919
 
-- sem ocorrências
+- tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
 
 ### 1920
 
-- sem ocorrências
+- tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
 
 ### 1921
 
@@ -278,7 +278,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1923 FUF
 
-- cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato
+- cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato; título não reconhecido pela AUF: edição sem campeão (D-09)
 
 ### 1924 AUF
 
@@ -286,11 +286,11 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1924 FUF
 
-- cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato
+- cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato; título não reconhecido pela AUF: edição sem campeão (D-09)
 
 ### 1926
 
-- torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF)
+- torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF); título não reconhecido pela AUF: edição sem campeão (D-09)
 
 ### 1927
 
@@ -377,6 +377,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1947
 
+- sem vice: o triangular pelo 2º lugar não terminou (D-22 c)
 - corrigido — Defensor Sporting x Peñarol (None): jogo do triangular pelo 2º lugar (a página abre rodadas dentro do desempate)
 - corrigido — Peñarol x Rampla Juniors (None): jogo do triangular pelo 2º lugar
 - corrigido — Defensor Sporting x Rampla Juniors (None): jogo do triangular pelo 2º lugar (não jogado)
@@ -396,6 +397,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1951
 
+- a tabela publicada (RSSSF e es concordam) não fecha com nenhum jogo da página (Nacional e Danubio com 1 vitória trocada); a classificação é a tabela publicada (UY-011)
 - tabela publicada x jogos — uru51:16: Nacional tabela [18, 12, 3, 3, 50, 21] jogos [18, 11, 3, 4, 49, 22] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — uru51:16: Danubio tabela [18, 6, 4, 8, 30, 36] jogos [18, 7, 4, 7, 31, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
@@ -409,11 +411,11 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1954
 
-- sem ocorrências
+- vice Nacional (RSSSF e Wikipédia em inglês); a es dá o Danubio. Fica o da RSSSF até uma 3ª fonte (D-22 b, UY-007)
 
 ### 1955
 
-- sem ocorrências
+- a es dá Sud América 15 e Liverpool 13 pontos; a RSSSF, 16 e 12 (ajustes de +1/-1); fica a RSSSF (UY-012)
 
 ### 1956
 
@@ -567,7 +569,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 1991
 
-- sem ocorrências
+- tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)
 
 ### 1992
 
@@ -627,6 +629,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 - tabela publicada x jogos — uru97:264: Rampla Juniors tabela [22, 6, 5, 11, 24, 32] jogos [22, 5, 5, 12, 22, 34] — a outra tabela publicada (uru97) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — uruhist:2490: Peñarol tabela [22, 13, 5, 4, 51, 24] jogos [22, 14, 5, 3, 53, 24] — a outra tabela publicada (uru97) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — uruhist:2490: Rampla Juniors tabela [22, 6, 5, 11, 22, 32] jogos [22, 5, 5, 12, 22, 34] — a outra tabela publicada (uru97) fecha com os jogos: o erro é desta tabela
+- 3º pela lista oficial: River Plate de Montevideo (a tabela o punha em 4º)
 - decidido fora de campo — Peñarol Rampla Juniors (1997-07-26): abandoned at 0-0 in 48'; awarded 2-0 to Rampla
 
 ### 1998
@@ -657,6 +660,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - tabela publicada x jogos — uru02:904: Fénix tabela [35, 20, 7, 8, 86, 55] jogos [35, 19, 8, 8, 86, 55] — a outra tabela publicada (uru02) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — uru02:904: Danubio tabela [35, 18, 7, 10, 65, 46] jogos [35, 19, 6, 10, 65, 46] — a outra tabela publicada (uru02) fecha com os jogos: o erro é desta tabela
+- vice pela lista oficial: Danubio (a tabela o punha em 4º)
 - abandonado/suspenso, sem valer — Central Español Montevideo Wanderers (2002-10-06): abandoned at 0-1 in 66' due to rain
 
 ### 2003
@@ -666,6 +670,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 ### 2004
 
 - tabela publicada x jogos — uru04:849: Defensor Sporting tabela [27, 13, 10, 4, 43, 29] jogos [27, 13, 10, 4, 40, 26] — a outra tabela publicada (uru04) fecha com os jogos: o erro é desta tabela
+- 3º pela lista oficial: Defensor Sporting (a tabela o punha em 9º)
 - abandonado/suspenso, sem valer — Danubio Cerro (2004-05-19): abandoned at 1-0 in 22' after
 
 ### 2005
@@ -677,8 +682,8 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 2005/06
 
-- ogol: 277 jogos casados (edição 37188 do ogol, 308 jogos)
-- ESPN: 276 jogos casados
+- ogol: 289 jogos casados (edição 37188 do ogol, 308 jogos)
+- ESPN: 288 jogos casados
 - tabela uru06:494 fora da conferência: "Annual Table 2005": soma o Torneo Especial 2005 e o Apertura 2005/06 (ano civil, para rebaixamento e vagas), não é tabela desta edição
 - data diferente no ogol — Nacional x Rocha FC: RSSSF 2006-06-19, ogol 2006-06-24; fica a da RSSSF
 - decidido fora de campo — Peñarol Miramar Misiones (2005-09-11): awarded 0-2; abandoned at 2-1 in 82'
@@ -707,6 +712,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - ogol: 240 jogos casados (edição 1999 do ogol, 259 jogos)
 - ESPN: 238 jogos casados
+- 3º pela lista oficial: River Plate de Montevideo (a tabela o punha em 5º)
 - placar diferente no ogol — Tacuarembó x Miramar Misiones (2007-09-09): RSSSF 1-0, ogol 0-0; fica o da RSSSF
 - data diferente no ogol — River Plate de Montevideo x Peñarol: RSSSF 2008-06-01, ogol 2008-06-08; fica a da RSSSF
 - abandonado/suspenso, sem valer — Miramar Misiones Progreso (2007-08-19): abandoned at 1-0 in 83' due to crowd
@@ -716,6 +722,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - ogol: 197 jogos casados (edição 3300 do ogol, 216 jogos)
 - ESPN: 225 jogos casados
+- 3º pela lista oficial: Cerro (a tabela o punha em 7º)
 - data diferente no ogol — Juventud de Las Piedras x Nacional: RSSSF 2008-08-23, ogol 2008-08-31; fica a da RSSSF
 - data diferente no ogol — Tacuarembó x Bella Vista: RSSSF 2008-08-24, ogol 2008-08-31; fica a da RSSSF
 - data diferente no ogol — Montevideo Wanderers x Peñarol: RSSSF 2008-08-24, ogol 2008-08-31; fica a da RSSSF
@@ -802,6 +809,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 2017
 
+- artilheiro pela AUF: Maureen Franco 25; a es dá Cristian Palacios 29 (QU-008)
 - ogol: 297 jogos casados (edição 103310 do ogol, 298 jogos)
 - ESPN: 299 jogos casados
 - data diferente no ogol — Peñarol x Defensor Sporting: RSSSF 2017-12-03, ogol 2017-12-10; fica a da RSSSF
@@ -813,6 +821,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - ogol: 276 jogos casados (edição 122004 do ogol, 291 jogos)
 - ESPN: 276 jogos casados
+- corrigido — Peñarol x Nacional (2018-11-04): Supercopa 2019 (03/02/2019) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - data diferente no ogol — Montevideo City Torque x El Tanque Sisley: RSSSF 2018-03-25, ogol 2018-03-21; fica a da RSSSF
 - data diferente no ogol — Nacional x Peñarol: RSSSF 2018-11-04, ogol 2018-11-11; fica a da RSSSF
 - W.O./pontos para o mandante — Montevideo Wanderers 0-0 El Tanque Sisley (2018-02-04): awarded 0-0 win to Wanderers
@@ -852,16 +861,19 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - ogol: 296 jogos casados (edição 131573 do ogol, 298 jogos)
 - ESPN: 296 jogos casados
+- corrigido — Nacional x Liverpool de Montevideo (2019-12-05): Supercopa 2020 (01/02/2020) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - W.O./pontos para o mandante — Progreso 1-1 Cerro (2019-11-03): awarded 1-1 win to Progreso because Cerro
 
 ### 2020
 
 - temporada esticada até abril de 2021 pela pandemia (a RSSSF chama de 2020/21)
-- ogol: 125 jogos casados (edição 142292 do ogol, 301 jogos)
-- ESPN: 133 jogos casados
+- ogol: 299 jogos casados (edição 142292 do ogol, 301 jogos)
+- ESPN: 300 jogos casados
+- corrigido — Nacional x Montevideo Wanderers (2021-03-29): Supercopa 2021 (02/05/2021) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- data diferente no ogol — Nacional x Rentistas: RSSSF 2020-10-11, ogol 2020-10-15; fica a da RSSSF
 - data diferente no ogol — Nacional x Rentistas: RSSSF 2021-03-29, ogol 2021-04-05; fica a da RSSSF
 - data diferente no ogol — Rentistas x Nacional: RSSSF 2021-03-29, ogol 2021-04-07; fica a da RSSSF
-- abandonado/suspenso, sem valer — Rentistas River Plate de Montevideo (2021-08-26): abandoned at 0-0 in 20' due to bad weather
+- abandonado/suspenso, sem valer — Rentistas River Plate de Montevideo (2020-08-26): abandoned at 0-0 in 20' due to bad weather
 - W.O./pontos para o visitante — Fénix 1-1 River Plate de Montevideo (2021-01-17): awarded 1-1 win to River Plate; Fénix fielded
 - W.O./pontos para o mandante — Montevideo Wanderers 1-3 Progreso (2021-03-21): awarded 1-3 win to Wanderers; Progreso fielded
 
@@ -869,12 +881,14 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - ogol: 241 jogos casados (edição 155076 do ogol, 241 jogos)
 - ESPN: 241 jogos casados
+- corrigido — Peñarol x Plaza Colonia (2021-12-05): Supercopa 2022 (30/01/2022) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - W.O./pontos para o visitante — Cerro Largo 1-1 Nacional (2021-09-11): originally 1-1, but awarded a win to Nacional
 
 ### 2022
 
 - ogol: 298 jogos casados (edição 161992 do ogol, 298 jogos)
 - ESPN: 298 jogos casados
+- corrigido — Nacional x Liverpool de Montevideo (2022-10-24): Supercopa 2023 (29/01/2023) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - data diferente no ogol — Liverpool de Montevideo x Nacional: RSSSF 2022-10-24, ogol 2022-10-30; fica a da RSSSF
 - abandonado/suspenso, sem valer — Nacional Liverpool de Montevideo (2022-02-20): abandoned at 0-0 in 32' due to unplayable pitch
 - W.O./pontos para o visitante — Cerrito 2-1 Rentistas (2022-03-11): win awarded to Rentistas; goal records unchanged
@@ -883,8 +897,10 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 2023
 
+- artilheiro pela AUF: Juan Ignacio Ramírez 18; a es dá 19 (QU-008)
 - ogol: 298 jogos casados (edição 171854 do ogol, 300 jogos)
 - ESPN: 298 jogos casados
+- corrigido — Liverpool de Montevideo x Defensor Sporting (2023-12-08): Supercopa 2024 (31/01/2024) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - data diferente no ogol — Defensor Sporting x Liverpool de Montevideo: RSSSF 2023-07-24, ogol 2023-07-30; fica a da RSSSF
 - placar diferente no ogol — Liverpool de Montevideo x Peñarol (2023-12-08): RSSSF 2-0, ogol 0-1; fica o da RSSSF
 - W.O./pontos para o visitante — La Luz 1-1 Montevideo City Torque (2023-02-27): awarded win to Torque as La Luz fielded
@@ -894,10 +910,12 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - ogol: 296 jogos casados (edição 183556 do ogol, 297 jogos)
 - ESPN: 296 jogos casados
+- corrigido — Peñarol x Nacional (2024-12-02): Supercopa 2025 (26/01/2025) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 
 ### 2025
 
 - ogol: 297 jogos casados (edição 194917 do ogol, 300 jogos)
 - ESPN: 299 jogos casados
+- corrigido — Nacional x Peñarol (2025-11-16): Supercopa 2026 entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - data diferente no ogol — Peñarol x Nacional: RSSSF 2025-11-16, ogol 2025-11-23; fica a da RSSSF
 

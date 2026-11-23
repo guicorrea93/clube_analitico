@@ -18,6 +18,12 @@ EXTRAS: dict[str, list[dict]] = {
 }
 
 CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
+    ("uru06", 838): ("[Apr 17]", "[May 17]", "mês trocado: entre a rodada 12 (13/05) e a 15 (21/05); a ESPN dá maio (QU-006)"),
+    ("uru06", 855): ("[Apr 18]", "[May 18]", "mês trocado (QU-006)"),
+    ("uru06", 860): ("[Apr 20]", "[May 20]", "mês trocado (QU-006)"),
+    ("uru96", 420): ("Nacional 1-1 Peñarol (59' Juan Martín Parodi; 55' Antonio Pacheco)",
+                     "Nacional 1-1 Peñarol [59' Juan Martín Parodi; 55' Antonio Pacheco]",
+                     "autores entre parênteses na linha do jogo viravam parte do nome do Peñarol (UY-023)"),
     ("uru34", 156): ("4-1 Defensor", "4-1 Sud América", "linha \"Defensor 4-1 Defensor\"; falta o 3º Defensor x Sud América e, "
                      "com o Sud América, as linhas dos dois clubes fecham com a tabela publicada"),
     ("uru41", 169): ("1-0 Sud América", "1-0 Liverpool", "linha \"Sud América 1-0 Sud América\"; falta o 2º Sud América x "
@@ -31,6 +37,23 @@ CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
 }
 
 CORRIGE: dict[tuple[str, str], dict] = {
+    ("2018", "uru2018:1010"): {"descartar": True, "motivo": "Supercopa 2019 (03/02/2019) entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("2019", "uru2019:1040"): {"descartar": True, "motivo": "Supercopa 2020 (01/02/2020) entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("2020", "uru2020:1152"): {"descartar": True, "motivo": "Supercopa 2021 (02/05/2021) entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("2021", "uru2021:860"): {"descartar": True, "motivo": "Supercopa 2022 (30/01/2022) entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("2022", "uru2022:1071"): {"descartar": True, "motivo": "Supercopa 2023 (29/01/2023) entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("2023", "uru2023:1102"): {"descartar": True, "motivo": "Supercopa 2024 (31/01/2024) entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("2024", "uru2024:1039"): {"descartar": True, "motivo": "Supercopa 2025 (26/01/2025) entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("2025", "uru2025:1041"): {"descartar": True, "motivo": "Supercopa 2026 entre o campeão e o vencedor da tabela anual: outra competição, não a "
+                                                   "final do campeonato (UY-013)"},
+    ("1908", "wiki:es_1908:842"): {"esp": "wo_v", "motivo": "o Intrépido não compareceu: W.O. para o Bristol (UY-010)"},
     ("1939", "uru39:127"): {"esp": "wo_v", "gm": 6, "gv": 1, "motivo": "Nacional 6-1 Racing em campo; pontos dados ao Racing "
                                                                       "(jogador irregular do Nacional); a tabela conta os gols de campo"},
     ("1947", "uru47:171"): {"fase": "Desempate do 2º lugar", "motivo": "jogo do triangular pelo 2º lugar (a página abre rodadas "
@@ -46,4 +69,16 @@ TABELAS_FORA: dict[tuple[str, str], str] = {
                               "rebaixamento e vagas), não é tabela desta edição",
 }
 
-EXPLICACOES: dict[str, list[str]] = {}
+EXPLICACOES: dict[str, list[str]] = {
+    "1951": ["a tabela publicada (RSSSF e es concordam) não fecha com nenhum jogo da página (Nacional e Danubio com 1 vitória "
+             "trocada); a classificação é a tabela publicada (UY-011)"],
+    "1954": ["vice Nacional (RSSSF e Wikipédia em inglês); a es dá o Danubio. Fica o da RSSSF até uma 3ª fonte (D-22 b, UY-007)"],
+    "1913": ["tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF, base da coleta (UY-012)"],
+    "1917": ["tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)"],
+    "1919": ["tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)"],
+    "1920": ["tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)"],
+    "1955": ["a es dá Sud América 15 e Liverpool 13 pontos; a RSSSF, 16 e 12 (ajustes de +1/-1); fica a RSSSF (UY-012)"],
+    "1991": ["tabela da RSSSF (uruhist) e da Wikipédia em espanhol diferem um pouco; fica a da RSSSF (UY-012)"],
+    "2017": ["artilheiro pela AUF: Maureen Franco 25; a es dá Cristian Palacios 29 (QU-008)"],
+    "2023": ["artilheiro pela AUF: Juan Ignacio Ramírez 18; a es dá 19 (QU-008)"],
+}

@@ -8,8 +8,8 @@ Regras do guia internacional (docs/agentes-internacionais-COMECE-AQUI.md, seçã
   "Olimpia de Montevideo", "Juventud de Las Piedras", "Atenas de San Carlos");
 - o mesmo clube com outro nome é um só, com o nome atual; os nomes antigos ficam no nomes_fonte:
   Central -> Central Español; Defensor -> Defensor Sporting (fusão com o Sporting em 1989, que manteve a história do
-  Defensor); Atlético Wanderers (o time do Wanderers na FUF, 1923-1924, a que a RSSSF dá o título de 1923)
-  -> Montevideo Wanderers; Deutscher -> Teutonia -> Montevideo FC; Torque -> Montevideo City Torque; C.U.R.C.C. -> Peñarol (como a RSSSF
+  Defensor); Atlético Wanderers, Lito e Charley da FUF (1923-1924) ficam à parte dos clubes da AUF
+  ("Atlético Wanderers", "Lito (FUF)", "Charley (FUF)": um clube não joga duas ligas rivais no mesmo ano; D-25 f, por Edicao.nomes); Deutscher -> Teutonia -> Montevideo FC; Torque -> Montevideo City Torque; C.U.R.C.C. -> Peñarol (como a RSSSF
   conta: a seção de futebol do C.U.R.C.C. virou o Peñarol em 1913-1914; o Nacional contesta, ver o relatório).
 - fusões que criaram clube novo ficam separadas: Miramar e Misiones (até 1979) e Miramar Misiones (1980 em diante).
 - o River Plate amador (River Plate FC, 1897-1929) não é o River Plate atual (fusão de Olimpia e Capurro em 1932).
@@ -46,7 +46,7 @@ CLUBES: dict[str, tuple[str, str]] = {
     # amadorismo (1900-1931) e a liga dissidente (FUF, 1923-1924)
     "Uruguay Athletic": MVD, "Montevideo FC": MVD, "Triunfo": MVD, "Intrépido": MVD, "French": MVD, "Bristol": MVD,
     "Dublin": MVD, "Oriental": MVD, "River Plate FC": MVD, "Libertad de Montevideo": MVD, "Independencia": MVD,
-    "Reformers": MVD, "Universal de Montevideo": MVD, "Charley": MVD, "Belgrano de Montevideo": MVD, "Lito": MVD,
+    "Reformers": MVD, "Universal de Montevideo": MVD, "Charley": MVD, "Charley (FUF)": MVD, "Lito (FUF)": MVD, "Atlético Wanderers": MVD, "Belgrano de Montevideo": MVD, "Lito": MVD,
     "Uruguay Onward": MVD, "Nacional B": MVD, "Capurro": MVD, "Uruguay Club": MVD, "Olimpia de Montevideo": MVD,
     "Peñarol del Plata": MVD, "Rosarino Central": MVD, "Roberto Chery": MVD, "Roland Moor": MVD,
     "Las Piedras": ("Las Piedras", "Canelones"), "Uruguayo": MVD, "Oriental Pocitos": MVD, "Solferino": MVD,

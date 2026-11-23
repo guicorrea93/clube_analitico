@@ -478,3 +478,37 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
 - **Também neste commit:** a pesquisa das copas nacionais (`coleta/comum-sulamerica/copas-nacionais.md`). As copas são o
   próximo trabalho depois das correções, por pedido do Guilherme.
+
+## 23/11 — Correções da revisão: Uruguaio (`uru-1`)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - **Classificação e pódio:**
+    - UY-006: de 1994 em diante, a classificação é a tabela anual (ex.: 2025 Nacional 79, Peñarol 78, Liverpool 65).
+    - UY-004 e UY-005: vice e 3º pela lista da AUF (Wikipédia em inglês).
+    - UY-003 e UY-008: 1948 e 1947 sem vice (D-22 c).
+    - UY-011: 1951 pela tabela publicada.
+    - UY-001: 1923 FUF, 1924 FUF e 1926 ficam sem campeão, com nota (D-09).
+    - UY-007: o vice de 1954 fica Nacional (D-22 b).
+  - **Jogos:**
+    - UY-013: os 8 jogos da Supercopa saíram da "Final".
+    - UY-010: W.O. de 1908 para o Bristol.
+    - UY-015: 2020 no ano certo (o Apertura começa em 15/02/2020).
+    - QU-006: mês trocado no Clausura de 2006.
+  - **Clubes:**
+    - UY-020: Atlético Wanderers, Lito e Charley da FUF à parte dos da AUF (D-25 f).
+    - UY-023: o nome do Peñarol com os autores de 1996.
+  - **Artilheiros:**
+    - UY-017 e QU-008: artilharia oficial da AUF, 2013/14-2025.
+    - UY-018: 1900-1931 pela coluna "Goleador" da es (novo `coleta/uru-1/goleadores_es.py`).
+    - UY-019: três grafias.
+  - **Só registrados (sem mudança):** UY-012 e UY-016 (fica a RSSSF), UY-028 e QU-007 (não são erro).
+- **Aberto:** UY-014, a data das decisões no título da fase. A mudança é no leitor comum e fica para o fim, junto com as
+  outras ligas.
+- **Números:** 126 edições, 12.456 jogos, 84 clubes. Teste de carga: `uru-1: 126 edições, 12456 jogos, 3 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar o `uru-1` inteiro.
+  - Os ids das partidas mudam: saíram os 8 jogos da Supercopa, e as datas de 2020 e de 2006 mudaram.
+  - Os 3 clubes novos são Atlético Wanderers, Lito (FUF) e Charley (FUF).
+  - Peñarol passa a 52 títulos e Wanderers a 3: as três edições sem campeão.
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

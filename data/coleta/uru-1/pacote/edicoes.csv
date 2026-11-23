@@ -22,10 +22,10 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 1921,1921,1921,Asociación Uruguaya de Football – Campeonato 1921,12,2,sem jogos (só a tabela final),Peñarol,Nacional,RSSSF,
 1922,1922,1922,Asociación Uruguaya de Football – Campeonato 1922,12,2,sem jogos (só a tabela final),Nacional,Montevideo Wanderers,RSSSF,
 1923 AUF,1923,1923,Asociación Uruguaya de Football – Campeonato 1923,12,2,sem jogos (só a tabela final),Nacional,Rampla Juniors,RSSSF,
-1923 FUF,1923,1923,Federación Uruguaya de Football – Campeonato 1923,32,2,sem jogos (só a tabela final),Montevideo Wanderers,Peñarol,RSSSF,cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato
+1923 FUF,1923,1923,Federación Uruguaya de Football – Campeonato 1923,32,2,sem jogos (só a tabela final),,,RSSSF,cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato; título não reconhecido pela AUF: edição sem campeão (D-09)
 1924 AUF,1924,1924,Asociación Uruguaya de Football – Campeonato 1924,12,2,sem jogos (só a tabela final),Nacional,Bella Vista,RSSSF,
-1924 FUF,1924,1924,Federación Uruguaya de Football – Campeonato 1924,17,2,sem jogos (só a tabela final),Peñarol,Montevideo Wanderers,RSSSF,cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato
-1926,1926,1926,Torneo del Consejo Provisorio 1926,10,2,sem jogos (só a tabela final),Peñarol,Montevideo Wanderers,RSSSF,"torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF)"
+1924 FUF,1924,1924,Federación Uruguaya de Football – Campeonato 1924,17,2,sem jogos (só a tabela final),,,RSSSF,cisma do futebol uruguaio (1922-1925): a FUF foi fundada por Peñarol e Central depois de expulsos da AUF; as duas ligas tiveram campeonato; título não reconhecido pela AUF: edição sem campeão (D-09)
+1926,1926,1926,Torneo del Consejo Provisorio 1926,10,2,sem jogos (só a tabela final),,,RSSSF,"torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF); título não reconhecido pela AUF: edição sem campeão (D-09)"
 1927,1927,1927,Asociación Uruguaya de Football – Campeonato 1927,20,2,sem jogos (só a tabela final),Rampla Juniors,Peñarol,RSSSF,
 1928,1928,1928,Asociación Uruguaya de Football – Campeonato 1928,16,2,sem jogos (só a tabela final),Peñarol,Rampla Juniors,RSSSF,
 1929,1929,1929,Asociación Uruguaya de Football – Campeonato 1929,14,2,sem jogos (só a tabela final),Peñarol,Nacional,RSSSF,
@@ -45,8 +45,8 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 1944,1944,1944,Campeonato Uruguayo de Primera División 1944,10,2,pontos corridos + desempate,Peñarol,Nacional,RSSSF,
 1945,1945,1945,Campeonato Uruguayo de Primera División 1945,10,2,pontos corridos,Peñarol,Nacional,RSSSF,
 1946,1946,1946,Campeonato Uruguayo de Primera División 1946,10,2,pontos corridos,Nacional,Peñarol,RSSSF,
-1947,1947,1947,Campeonato Uruguayo de Primera División 1947,10,2,pontos corridos + desempate,Nacional,Peñarol,RSSSF,
-1948,1948,1948,Campeonato Uruguayo de Primera División 1948,10,2,pontos corridos,,Peñarol,RSSSF,campeonato abandonado na 10ª rodada pela greve dos jogadores; sem campeão (RSSSF)
+1947,1947,1947,Campeonato Uruguayo de Primera División 1947,10,2,pontos corridos + desempate,Nacional,,RSSSF,sem vice: o triangular pelo 2º lugar não terminou (D-22 c)
+1948,1948,1948,Campeonato Uruguayo de Primera División 1948,10,2,pontos corridos,,,RSSSF,campeonato abandonado na 10ª rodada pela greve dos jogadores; sem campeão (RSSSF)
 1949,1949,1949,Campeonato Uruguayo de Primera División 1949,10,2,pontos corridos,Peñarol,Nacional,RSSSF,
 1950,1950,1950,Campeonato Uruguayo de Primera División 1950,10,2,pontos corridos + desempate,Nacional,Peñarol,RSSSF,
 1951,1951,1951,Campeonato Uruguayo de Primera División 1951,10,2,pontos corridos,Peñarol,Nacional,RSSSF,
@@ -93,35 +93,35 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 1992,1992,1992,Campeonato Uruguayo de Primera División 1992,13,2,sem jogos (só a tabela final),Nacional,River Plate de Montevideo,RSSSF,
 1993,1993,1993,Campeonato Uruguayo de Primera División 1993,13,2,sem jogos (só a tabela final),Peñarol,Defensor Sporting,RSSSF,
 1994,1994,1994,Campeonato Uruguayo de Primera División 1994,13,2,pontos corridos + mata-mata,Peñarol,Defensor Sporting,RSSSF,
-1995,1995,1995,Campeonato Uruguayo de Primera División 1995,13,3,pontos corridos + mata-mata + pontos corridos + mata-mata + desempate,Peñarol,Liverpool de Montevideo,RSSSF,
-1996,1996,1996,Campeonato Uruguayo de Primera División 1996,12,3,pontos corridos + mata-mata,Peñarol,Defensor Sporting,RSSSF,
+1995,1995,1995,Campeonato Uruguayo de Primera División 1995,13,3,pontos corridos + mata-mata + pontos corridos + mata-mata + desempate,Peñarol,Nacional,RSSSF,
+1996,1996,1996,Campeonato Uruguayo de Primera División 1996,12,3,pontos corridos + mata-mata,Peñarol,Nacional,RSSSF,
 1997,1997,1997,Campeonato Uruguayo de Primera División 1997,13,3,pontos corridos + desempate + mata-mata,Peñarol,Defensor Sporting,RSSSF,
-1998,1998,1998,Campeonato Uruguayo de Primera División 1998,12,3,pontos corridos,Nacional,Rentistas,RSSSF,
+1998,1998,1998,Campeonato Uruguayo de Primera División 1998,12,3,pontos corridos,Nacional,Peñarol,RSSSF,
 1999,1999,1999,Campeonato Uruguayo de Primera División 1999,15,3,pontos corridos + desempate,Peñarol,Nacional,RSSSF,
-2000,2000,2000,Campeonato Uruguayo de Primera División 2000,18,3,pontos corridos + mata-mata,Nacional,Danubio,RSSSF,
-2001,2001,2001,Campeonato Uruguayo de Primera División 2001,18,3,pontos corridos + mata-mata,Nacional,Peñarol,RSSSF,
-2002,2002,2002,Campeonato Uruguayo de Primera División 2002,18,3,pontos corridos + desempate,Nacional,Peñarol,RSSSF,
+2000,2000,2000,Campeonato Uruguayo de Primera División 2000,18,3,pontos corridos + mata-mata,Nacional,Peñarol,RSSSF,
+2001,2001,2001,Campeonato Uruguayo de Primera División 2001,18,3,pontos corridos + mata-mata,Nacional,Danubio,RSSSF,
+2002,2002,2002,Campeonato Uruguayo de Primera División 2002,18,3,pontos corridos + desempate,Nacional,Danubio,RSSSF,
 2003,2003,2003,Campeonato Uruguayo de Primera División 2003,18,3,pontos corridos + mata-mata,Peñarol,Nacional,RSSSF,
-2004,2004,2004,Campeonato Uruguayo de Primera División 2004,18,3,pontos corridos + mata-mata,Danubio,Cerrito,RSSSF,
+2004,2004,2004,Campeonato Uruguayo de Primera División 2004,18,3,pontos corridos + mata-mata,Danubio,Nacional,RSSSF,
 2005,2005,2005,Campeonato Uruguayo de Primera División 2005 – Torneo Uruguay Especial,18,3,pontos corridos + desempate,Nacional,Defensor Sporting,RSSSF,torneio de transição para o calendário europeu; o Defensor não jogou a final e o título ficou com o Nacional
 2005/06,2005,2006,Campeonato Uruguayo de Primera División 2005/06,20,3,pontos corridos + mata-mata,Nacional,Rocha FC,RSSSF; ogol; ESPN,
 2006/07,2006,2007,Campeonato Uruguayo de Primera División 2006/07,16,3,pontos corridos + mata-mata + desempate,Danubio,Peñarol,RSSSF; ogol; ESPN,
-2007/08,2007,2008,Campeonato Uruguayo de Primera División 2007/08,16,3,pontos corridos + mata-mata,Defensor Sporting,Danubio,RSSSF; ogol; ESPN,
-2008/09,2008,2009,Campeonato Uruguayo de Primera División 2008/09,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Nacional,Danubio,RSSSF; ogol; ESPN,
+2007/08,2007,2008,Campeonato Uruguayo de Primera División 2007/08,16,3,pontos corridos + mata-mata,Defensor Sporting,Peñarol,RSSSF; ogol; ESPN,
+2008/09,2008,2009,Campeonato Uruguayo de Primera División 2008/09,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Nacional,Defensor Sporting,RSSSF; ogol; ESPN,
 2009/10,2009,2010,Campeonato Uruguayo de Primera División 2009/10,16,3,pontos corridos + mata-mata,Peñarol,Nacional,RSSSF; ogol; ESPN,
 2010/11,2010,2011,Campeonato Uruguayo de Primera División 2010/11,16,3,pontos corridos + mata-mata,Nacional,Defensor Sporting,RSSSF; ogol; ESPN,
-2011/12,2011,2012,Campeonato Uruguayo de Primera División 2011/12,16,3,pontos corridos + mata-mata,Nacional,Danubio,RSSSF; ogol; ESPN,
+2011/12,2011,2012,Campeonato Uruguayo de Primera División 2011/12,16,3,pontos corridos + mata-mata,Nacional,Peñarol,RSSSF; ogol; ESPN,
 2012/13,2012,2013,Campeonato Uruguayo de Primera División 2012/13,16,3,pontos corridos + mata-mata,Peñarol,Defensor Sporting,RSSSF; ogol; ESPN,
-2013/14,2013,2014,Campeonato Uruguayo de Primera División 2013/14,16,3,pontos corridos + mata-mata,Danubio,River Plate de Montevideo,RSSSF; ogol; ESPN,
-2014/15,2014,2015,Campeonato Uruguayo de Primera División 2014/15,16,3,pontos corridos + mata-mata,Nacional,Racing de Montevideo,RSSSF; ogol; ESPN,
+2013/14,2013,2014,Campeonato Uruguayo de Primera División 2013/14,16,3,pontos corridos + mata-mata,Danubio,Montevideo Wanderers,RSSSF; ogol; ESPN,
+2014/15,2014,2015,Campeonato Uruguayo de Primera División 2014/15,16,3,pontos corridos + mata-mata,Nacional,Peñarol,RSSSF; ogol; ESPN,
 2015/16,2015,2016,Campeonato Uruguayo de Primera División 2015/16,16,3,pontos corridos + mata-mata,Peñarol,Nacional,RSSSF; ogol; ESPN,
 2016,2016,2016,Campeonato Uruguayo de Primera División 2016 – Torneo de Transición,16,3,pontos corridos,Nacional,Montevideo Wanderers,RSSSF; ogol; ESPN,torneio de transição de volta ao calendário anual (turno único)
 2017,2017,2017,Campeonato Uruguayo de Primera División 2017,16,3,pontos corridos + 2 grupos + mata-mata + pontos corridos + desempate + mata-mata,Peñarol,Defensor Sporting,RSSSF; ogol; ESPN,
 2018,2018,2018,Campeonato Uruguayo de Primera División 2018,16,3,pontos corridos + 2 grupos + mata-mata + pontos corridos + mata-mata,Peñarol,Nacional,RSSSF; ogol; ESPN,
 2019,2019,2019,Campeonato Uruguayo de Primera División 2019,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Nacional,Peñarol,RSSSF; ogol; ESPN,
 2020,2020,2021,Campeonato Uruguayo de Primera División 2020,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata + pontos corridos + mata-mata,Nacional,Rentistas,RSSSF; ogol; ESPN,temporada esticada até abril de 2021 pela pandemia (a RSSSF chama de 2020/21)
-2021,2021,2021,Campeonato Uruguayo de Primera División 2021,16,3,pontos corridos + mata-mata,Peñarol,Plaza Colonia,RSSSF; ogol; ESPN,
+2021,2021,2021,Campeonato Uruguayo de Primera División 2021,16,3,pontos corridos + mata-mata,Peñarol,Nacional,RSSSF; ogol; ESPN,
 2022,2022,2022,Campeonato Uruguayo de Primera División 2022,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Nacional,Liverpool de Montevideo,RSSSF; ogol; ESPN,
 2023,2023,2023,Campeonato Uruguayo de Primera División 2023,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Liverpool de Montevideo,Peñarol,RSSSF; ogol; ESPN,
-2024,2024,2024,Campeonato Uruguayo de Primera División 2024,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Peñarol,Nacional,RSSSF; ogol; ESPN,
-2025,2025,2025,Campeonato Uruguayo de Primera División 2025,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Nacional,Liverpool de Montevideo,RSSSF; ogol; ESPN,
+2024,2024,2024,Campeonato Uruguayo de Primera División 2024,16,3,pontos corridos + mata-mata + pontos corridos,Peñarol,Nacional,RSSSF; ogol; ESPN,
+2025,2025,2025,Campeonato Uruguayo de Primera División 2025,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Nacional,Peñarol,RSSSF; ogol; ESPN,

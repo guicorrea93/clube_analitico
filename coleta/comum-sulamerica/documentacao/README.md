@@ -6,8 +6,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36043 | 41255 | 173 | 142 / 51 | sim | 665fe93 | 41 | [arg-1](arg-1.md) |
-| Campeonato Uruguaio | 126 (1900–2025) | 45 | 12464 | 14309 | 9396 | 81 | 59 / 22 | sim | 0ead727 | 21 | [uru-1](uru-1.md) |
+| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36043 | 41255 | 173 | 142 / 51 | sim | 30f0b00 | 41 | [arg-1](arg-1.md) |
+| Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 14319 | 9396 | 84 | 59 / 22 | sim | 0ead727 | 21 | [uru-1](uru-1.md) |
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22601 | 18878 | 25361 | 53 | 65 / 43 | sim | 36e0690 | 26 | [chi-1](chi-1.md) |
 | Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22788 | 22020 | 40449 | 42 | 48 / 38 | sim | 3f5c1d0 | 22 | [col-1](col-1.md) |
 | Campeonato Paraguaio | 133 (1906–2025 Clausura) | 76 | 7865 | 13108 | 14270 | 43 | 36 / 12 | sim | 0b793ba | 24 | [par-1](par-1.md) |
@@ -21,8 +21,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **arg-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e pódio (AR-001 a AR-016, QU-001), datas (AR-022, QU-002, AR-024), fases (AR-025, AR-026), jogos (AR-018, AR-034: o 1926 Amateurs passou de 43 para 325 jogos), artilheiros (AR-027 a AR-030), clubes (AR-031, AR-032, AR-033) e o Apertura 2026 (AR-043).
 - **arg-1:** Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), AR-023 (data no título da fase: mudança no leitor comum, junto com UY-014, CH-012, CO-008, PY-009, PE-009, EC-009), QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).
 - **arg-1:** Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).
-- **uru-1:** Achados da revisão em aberto (19, prefixo UY; lista na seção 9): a classificação final de 1994-2025 é a tabela do Apertura (UY-006, que puxa vice e 3º errados), Supercopa dentro da Final, datas das decisões, artilheiros. Corrigir e citar os ids em docs/coleta/pedidos-sulamerica.md.
-- **uru-1:** Decisões do Guilherme pedidas pela revisão: títulos da FUF (1923, 1924) e do Consejo Provisorio (1926); Atlético Wanderers da FUF = Montevideo Wanderers?; vice de 1954.
+- **uru-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação pela tabela anual de 1994 em diante, pódio pela lista da AUF, Supercopa fora, títulos da FUF e de 1926 sem campeão (D-09), clubes da FUF à parte (D-25 f), 2020 no ano certo, artilheiros (AUF 2013/14-2025; es 1900-1931).
+- **uru-1:** Ainda aberto: UY-014 (data das decisões no título da fase: leitor comum, junto com as outras ligas no fim).
 - **col-1:** 1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).
 - **par-1:** 76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.
 - **per-1:** Decisão para o agente 1/Guilherme: 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice (conta da Wikipédia); se valer a conta da RSSSF, tirar essas edições.

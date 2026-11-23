@@ -98,7 +98,12 @@ _POR = {e.temporada: e for e in EDICOES}
 _POR["1996"].trechos = [("uru96", 0, 400), ("uru96", 411, 425)]          # promoção no meio; depois, a final; Torneo Nacional fica fora
 _POR["1994"].trechos = [("uru94", 0, 322)]                                 # o "Relegation Playoff" é contra o Racing, da 2ª divisão
 _POR["1948"].obs = "campeonato abandonado na 10ª rodada pela greve dos jogadores; sem campeão (RSSSF)"
-_POR["1926"].obs = "torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF)"
+_POR["1926"].obs = ("torneio de unificação depois da dissolução da FUF, com clubes das duas ligas (RSSSF); título não "
+                    "reconhecido pela AUF: edição sem campeão (D-09)")
+for _t in ("1923 FUF", "1924 FUF"):   # D-09: a AUF não reconhece os títulos da FUF; D-25 f: clubes da FUF à parte dos da AUF
+    _POR[_t].obs += "; título não reconhecido pela AUF: edição sem campeão (D-09)"
+    _POR[_t].nomes = {"Atlético Wanderers": "Atlético Wanderers", "Lito": "Lito (FUF)", "Charley": "Charley (FUF)"}
+_POR["1947"].obs = (_POR["1947"].obs + "; " if _POR["1947"].obs else "") + "sem vice: o triangular pelo 2º lugar não terminou (D-22 c)"
 
 EDICOES += [
     _e("2005", 2005, 2005, [("uru05", 0, None)], "Campeonato Uruguayo de Primera División 2005 – Torneo Uruguay Especial",

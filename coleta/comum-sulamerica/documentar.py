@@ -43,11 +43,10 @@ PENDENCIAS: dict[str, list[str]] = {
         "Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).",
     ],
     "uru-1": [
-        "Achados da revisão em aberto (19, prefixo UY; lista na seção 9): a classificação final de 1994-2025 é a tabela do "
-        "Apertura (UY-006, que puxa vice e 3º errados), Supercopa dentro da Final, datas das decisões, artilheiros. Corrigir "
-        "e citar os ids em docs/coleta/pedidos-sulamerica.md.",
-        "Decisões do Guilherme pedidas pela revisão: títulos da FUF (1923, 1924) e do Consejo Provisorio (1926); Atlético "
-        "Wanderers da FUF = Montevideo Wanderers?; vice de 1954.",
+        "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): classificação pela tabela anual "
+        "de 1994 em diante, pódio pela lista da AUF, Supercopa fora, títulos da FUF e de 1926 sem campeão (D-09), clubes da "
+        "FUF à parte (D-25 f), 2020 no ano certo, artilheiros (AUF 2013/14-2025; es 1900-1931).",
+        "Ainda aberto: UY-014 (data das decisões no título da fase: leitor comum, junto com as outras ligas no fim).",
     ],
     "chi-1": [],
     "col-1": [

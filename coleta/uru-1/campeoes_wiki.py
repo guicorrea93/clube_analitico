@@ -31,7 +31,25 @@ def campeoes() -> dict[str, str]:
         a = m.group(1)
         temp = f"{a}/{m.group(2)[-2:]}" if m.group(2) else (f"{a} AUF" if a in ("1923", "1924") else a)
         saida[temp] = c.group(1).strip()
+        nomes = []
+        for x in cel[3:5]:   # Runner-up e Third place da mesma linha
+            n = re.search(r"\[\[(?:[^\]|]*\|)?([^\]]+)\]\]", x)
+            nomes.append(n.group(1).strip() if n else "")
+        _PODIO[temp] = (nomes + ["", ""])[:2]
     return saida
+
+
+_PODIO: dict[str, list[str]] = {}
+
+
+def vices() -> dict[str, str]:
+    campeoes()
+    return {t: v[0] for t, v in _PODIO.items() if v[0]}
+
+
+def terceiros() -> dict[str, str]:
+    campeoes()
+    return {t: v[1] for t, v in _PODIO.items() if v[1]}
 
 
 if __name__ == "__main__":
