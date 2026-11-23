@@ -1,0 +1,311 @@
+{{Infobox Fußballsaison
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Name = Bundesliga 1978/79
+| Meister = [[Hamburger SV]]
+| Europapokal der Landesmeister = [[Hamburger SV]]
+| UEFA Cup = [[VfB Stuttgart]]<br />[[1. FC Kaiserslautern]]<br />[[FC Bayern München]]<br />[[Eintracht Frankfurt]]<br />[[Borussia Mönchengladbach|Bor. M’gladbach]]
+| Pokal-Sieger = [[Fortuna Düsseldorf]]
+| Europapokal der Pokalsieger = [[Fortuna Düsseldorf]]
+| Absteiger = [[Arminia Bielefeld]]<br />[[1. FC Nürnberg]]<br />[[SV Darmstadt 98]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 963
+| Zuschauer = 7.955.959
+| Torschützenkönig = {{DEU|Ziel=Klaus Allofs}}<br />([[Fortuna Düsseldorf]])
+| vorherige Saison = [[Fußball-Bundesliga 1977/78|Bundesliga 1977/78]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1979/80|Bundesliga 1979/80]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1978/79|2. Bundesliga 1978/79]]
+}}
+
+Erster in der '''Saison 1978/79 der deutschen [[Fußball-Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[Hamburger SV]].
+
+== Saisonüberblick ==
+Der Hamburger SV gewann in der Saison 1978/79 seine erste deutsche Meisterschaft in der Bundesliga, die vierte insgesamt. Nach Abpfiff des letzten Heimspiels, das der HSV gegen Bayern München mit 1:2 verlor, kam es bei der Erstürmung des Rasens durch Zuschauer zu einer bisher einmaligen Massendrängelei mit insgesamt 72 Verletzten. Auf den weiteren Plätzen folgten der VfB Stuttgart, der 1. FC Kaiserslautern, Bayern München und Eintracht Frankfurt, die sich damit ebenso für den [[UEFA-Pokal]] qualifizierten wie Borussia Mönchengladbach, den Sieger des UEFA-Pokals, der in der Bundesliga Platz 10 belegte. Überraschend war der 3. Platz des 1. FC Kaiserslautern (erstmals unter Kalli Feldkamp, beste Platzierung bis 1991). Bis zum 27. Spieltag spielte er sogar um die Meisterschaft, war an 24 der ersten 26 Spieltage Tabellenführer und führte die Tabelle am 24. Spieltag mit drei Punkten an. Der VfB Stuttgart verlor am 33. Spieltag mit 1:4 gegen den 1. FC Köln. Der Hamburger SV spielte zeitgleich 0:0 in Bielefeld. Damit war der HSV Deutscher Meister.
+
+[[Fortuna Düsseldorf]] wurde deutscher [[DFB-Pokal 1978/79|Pokalsieger]] und stand im Finale des Europapokals der Pokalsieger, welches die Fortuna 3:4 n.&nbsp;V. gegen den [[FC Barcelona]] in [[Basel]] verlor. In der Bundesliga belegte Düsseldorf Platz 7. Fortunas Torjäger [[Klaus Allofs]] wurde mit 22 Toren Bundesliga-Torschützenkönig, da er am letzten Spieltag zwei Tore erzielte und der zuvor gleichauf liegende [[Klaus Fischer (Fußballspieler)|Klaus Fischer]] nur ein Tor beim Saisonfinale schoss.
+
+Die drei Aufsteiger (Arminia Bielefeld, der 1. FC Nürnberg, und der SV Darmstadt 98) stiegen alle wieder ab. Dies ist bis heute einzigartig in der Geschichte der Fußball-Bundesliga.
+
+=== Mehrere „Abschiede“ ===
+Für mehrere Spieler, teilweise „Denkmäler“, war es die letzte Bundesliga-Saison. Gerade auch bei den beiden erfolgreichsten Vereinen der 1970er Jahre, Bayern München und Borussia Mönchengladbach, traten mehrere langjährige Säulen der Mannschaft ab. Während in Mönchengladbach [[Allan Simonsen (Fußballspieler)|Allan Simonsen]] zum [[FC Barcelona]] wechselte und [[Berti Vogts]] praktisch schon vor dem Abschlussmatch gegen Fortuna Düsseldorf Abschied genommen hatte, wurde es auch für [[Horst Köppel]] die letzte Partie. Beim FC Bayern bestritt Torjäger [[Gerd Müller]] bereits im Februar sein letztes Bundesligaspiel vor seinem Wechsel in die USA. Auch für [[Sepp Maier]] war es die letzte Bundesligasaison. Er erlitt im Sommer 1979 einen schweren Autounfall, der letztlich das Ende seiner langjährigen Torwartlaufbahn bedeutete. Bei Werder Bremen ging [[Per Röntved]] in seine dänische Heimat zurück. [[Erich Beer]] verließ Hertha BSC. Für [[Horst Bertl]] (Hamburger SV) war bereits der 13. Juni als erstes Match in den USA bei den Houston Hurricans vorgesehen.<ref>{{Arbeiterzeitung|Titel=„Für viele kommt heute der Abschied“|Datum=1979-06-09|Seite=24}}</ref>
+
+== Abschlusstabelle ==
+{| class="float-right" width="305px" cellspacing="0" cellpadding="0" style="font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:0 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:lautern  value:rgb(0.8,0.0,0.0)
+  id:bayern   value:rgb(0.51,0.00,0.00)
+  id:duessel  value:rgb(0.68,0.09,0.20)
+  id:msv      value:rgb(0.00,0.05,1)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:6.5 shift:(25,-5)    color:lautern  text:1. FC Kaiserslautern
+  from:6.5 till:7.5 shift:(25,-5)    color:bayern   text:Bayern München
+  from:7.5 till:17.5 shift:(25,-5)   color:lautern  text:1. FC Kaiserslautern
+  from:17.5 till:18.5 shift:(25,-5)  color:red      text:VfB Stuttgart
+  from:18.5 till:26.5 shift:(25,-5)  color:lautern  text:1. FC Kaiserslautern
+  from:26.5 till:34.5 shift:(25,-5)  color:blue     text:Hamburger SV
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:10 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:saar    value:rgb(0.00,0.50,1)
+  id:msv     value:rgb(0.00,0.05,1)
+  id:nuern   value:rgb(0.51,0.00,0.00)
+  id:frank   value:rgb(0.80,0.09,0.20)
+  id:duessel value:rgb(0.68,0.09,0.20)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,-5)     color:frank   text:Eintracht Frankfurt
+  from:1.5 till:2.5 shift:(25,-5)     color:nuern   text:1. FC Nürnberg
+  from:2.5 till:4.5 shift:(25,-5)     color:msv     text:MSV Duisburg
+  from:4.5 till:12.5 shift:(25,-5)    color:blue    text:Darmstadt 98
+  from:12.5 till:21.5 shift:(25,-5)   color:nuern   text:1. FC Nürnberg
+  from:21.5 till:34.5 shift:(25,-5)   color:blue    text:Darmstadt 98
+   </timeline>
+|}
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=21 |U= 7 |N= 6 |ET=78 |GT=32 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang= 2 |S=20 |U= 8 |N= 6 |ET=73 |GT=34 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang= 3 |S=16 |U=11 |N= 7 |ET=62 |GT=47 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang= 4 |S=16 |U= 8 |N=10 |ET=69 |GT=46 |Siegpunkte=2 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang= 5 |S=16 |U= 7 |N=11 |ET=50 |GT=49 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=13 |U=12 |N= 9 |ET=55 |GT=47 |Siegpunkte=2 |Verein=[[1. FC Köln]] (M, P) }}
+{{Fußballtabelle/Zeile|Farbe=B4CDCD |Rang= 7 |S=13 |U=11 |N=10 |ET=70 |GT=59 |Siegpunkte=2 |Verein=[[Fortuna Düsseldorf]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=10 |U=13 |N=11 |ET=47 |GT=46 |Siegpunkte=2 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=10 |U=13 |N=11 |ET=50 |GT=55 |Siegpunkte=2 |Verein=[[Eintracht Braunschweig]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang=10 |S=12 |U= 8 |N=14 |ET=50 |GT=53 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=10 |U=11 |N=13 |ET=48 |GT=60 |Siegpunkte=2 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=10 |U=11 |N=13 |ET=54 |GT=70 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=12 |U= 6 |N=16 |ET=43 |GT=56 |Siegpunkte=2 |Verein=[[MSV Duisburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 9 |U=11 |N=14 |ET=40 |GT=50 |Siegpunkte=2 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U=10 |N=15 |ET=55 |GT=61 |Siegpunkte=2 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 9 |U= 8 |N=17 |ET=43 |GT=56 |Siegpunkte=2 |Verein=[[Arminia Bielefeld]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 8 |U= 8 |N=18 |ET=36 |GT=67 |Siegpunkte=2 |Verein=[[1. FC Nürnberg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 7 |U= 7 |N=20 |ET=40 |GT=75 |Siegpunkte=2 |Verein=[[SV Darmstadt 98]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme am [[Europapokal der Landesmeister 1979/80]]: Hamburger SV}}
+{{Farblegende|#B4CDCD|DFB-Pokal-Sieger und Teilnahme am [[Europapokal der Pokalsieger 1979/80]]: Fortuna Düsseldorf}}
+{{Farblegende|#eeeeff|Teilnahme am [[UEFA-Pokal 1979/80]]: VfB Stuttgart, 1. FC Kaiserslautern, FC Bayern München, Eintracht Frankfurt, Borussia Mönchengladbach (Titelverteidiger)}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1979/80#Nord|2. Bundesliga Nord 1979/80]]: DSC Arminia Bielefeld}}
+{{Farblegende|#ffffff|{{0|Abstieg in die }}[[2. Fußball-Bundesliga 1979/80#Süd|2. Bundesliga Süd 1979/80]]: SV Darmstadt 98, 1. FC Nürnberg}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1977/78|1977/78]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1977/78|1977/78]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga 1977/78|2. Bundesliga 1977/78]]
+|}
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+| colspan="2" width="200" align="center" | '''1978/79'''
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|22px|FC Bayern München]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:Logo Köln 1967-1973.svg|22px|1. FC Köln]]
+| [[Datei:Logo Fortuna Düsseldorf 1961 - 1979.gif|22px|Fortuna Düsseldorf]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:Eintracht Braunschweig (1972-1986).gif|25px|Eintracht Braunschweig]]
+| [[Datei:Gladbach gruen.svg|25px|Borussia Mönchengladbach]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:Logo Borussia Dortmund (1974-1976).gif|22px|Borussia Dortmund]]
+| [[Datei:Logo M SV Duisburg1966 - 1980.gif|25px|MSV Duisburg]]
+| [[Datei:Hertha BSC Logo bis 1999.svg|25px|Hertha BSC]]
+| [[Datei:Logo Schalke 1978 - 1995.gif|22px|FC Schalke 04]]
+| [[Datei:Arminia-bf.svg|22px|DSC Arminia Bielefeld]]
+| [[Datei:fcn logo 1968.png|22px|1. FC Nürnberg]]
+| [[Datei:Svdarmstadt98.svg|25px|SV Darmstadt 98]]
+|-
+| {{0}}1. || align="left" | [[Hamburger SV]] || bgcolor="#DCDCDC" | || 1:1 || 3:0 || 1:2 || 4:0 || 6:0 || 2:1 || 1:1 || 2:0 || 3:0 || 2:2 || 5:0 || 3:0 || 4:1 || 4:2 || 3:1 || 4:1 || 2:1
+|-
+| {{0}}2. || align="left" | [[VfB Stuttgart]] || 1:0 || bgcolor="#DCDCDC" | || 3:0 || 2:0 || 3:1 || 1:4 || 5:0 || 2:0 || 3:0 || 2:0 || 1:1 || 1:1 || 2:0 || 3:0 || 4:0 || 5:1 || 4:0 || 3:0
+|-
+| {{0}}3. || align="left" | [[1. FC Kaiserslautern]] || 2:1 || 5:1 || bgcolor="#DCDCDC" | || 2:1 || 2:1 || 1:1 || 3:0 || 1:1 || 2:1 || 1:3 || 4:0 || 3:1 || 2:1 || 3:0 || 2:2 || 3:2 || 3:0 || 2:0
+|-
+| {{0}}4. || align="left" | [[FC Bayern München]] || 0:1 || 1:1 || 1:0 || bgcolor="#DCDCDC" | || 3:1 || 5:1 || 1:1 || 2:1 || 6:1 || 3:1 || 4:0 || 4:0 || 6:2 || 1:1 || 2:1 || 0:4 || 4:0 || 1:1
+|-
+| {{0}}5. || align="left" | [[Eintracht Frankfurt]] || 0:0 || 1:2 || 2:2 || 2:1 || bgcolor="#DCDCDC" | || 1:4 || 3:2 || 4:2 || 3:1 || 2:0 || 2:1 || 3:1 || 1:0 || 2:2 || 3:1 || 1:0 || 2:0 || 2:0
+|-
+| {{0}}6. || align="left" | [[1. FC Köln]] || 1:3 || 1:2 || 2:2 || 1:1 || 0:2 || bgcolor="#DCDCDC" | || 2:2 || 1:1 || 3:1 || 1:1 || 2:0 || 5:0 || 3:3 || 3:1 || 1:0 || 2:1 || 2:0 || 2:1
+|-
+| {{0}}7. || align="left" | [[Fortuna Düsseldorf]] || 0:2 || 2:0 || 2:2 || 7:1 || 4:2 || 1:1 || bgcolor="#DCDCDC" | || 1:1 || 2:2 || 3:3 || 3:1 || 3:1 || 3:0 || 3:1 || 3:1 || 3:2 || 3:3 || 4:0
+|-
+| {{0}}8. || align="left" | [[VfL Bochum]] || 2:1 || 1:2 || 2:2 || 0:1 || 0:0 || 2:5 || 2:2 || bgcolor="#DCDCDC" | || 3:0 || 0:0 || 3:0 || 4:1 || 0:0 || 1:0 || 2:2 || 1:0 || 2:1 || 1:2
+|-
+| {{0}}9. || align="left" | [[Eintracht Braunschweig]] || 1:0 || 2:2 || 0:0 || 0:0 || 0:0 || 1:0 || 1:1 || 1:0 || bgcolor="#DCDCDC" | || 3:0 || 1:1 || 2:2 || 0:2 || 0:1 || 2:1 || 5:2 || 3:1 || 4:1
+|-
+| 10. || align="left" | [[Borussia Mönchengladbach]] || 4:3 || 0:0 || 5:1 || 1:7 || 1:3 || 2:0 || 1:0 || 2:0 || 2:3 || bgcolor="#DCDCDC" | || 4:0 || 2:2 || 0:2 || 0:2 || 0:0 || 4:1 || 3:1 || 3:1
+|-
+| 11. || align="left" | [[Werder Bremen]] || 1:1 || 0:2 || 3:1 || 1:1 || 0:2 || 1:1 || 1:1 || 3:3 || 3:1 || 3:1 || bgcolor="#DCDCDC" | || 4:4 || 3:2 || 1:1 || 3:1 || 1:0 || 3:1 || 3:0
+|-
+| 12. || align="left" | [[Borussia Dortmund]] || 1:3 || 4:3 || 2:3 || 1:0 || 3:1 || 0:0 || 3:0 || 2:2 || 2:2 || 1:1 || 1:0 || bgcolor="#DCDCDC" | || 4:1 || 3:0 || 2:0 || 2:0 || 2:0 || 0:0
+|-
+| 13. || align="left" | [[MSV Duisburg]] || 0:2 || 3:1 || 3:1 || 3:1 || 0:2 || 2:1 || 1:2 || 1:0 || 1:0 || 0:3 || 2:0 || 0:0 || bgcolor="#DCDCDC" | || 3:2 || 2:1 || 1:1 || 1:0 || 4:4
+|-
+| 14. || align="left" | [[Hertha BSC]] || 1:3 || 0:0 || 0:3 || 1:1 || 4:1 || 0:2 || 4:1 || 1:1 || 2:2 || 1:0 || 0:2 || 4:0 || 1:0 || bgcolor="#DCDCDC" | || 1:1 || 1:2 || 4:1 || 1:0
+|-
+| 15. || align="left" | [[FC Schalke 04]] || 1:3 || 2:3 || 1:1 || 2:1 || 4:0 || 1:1 || 1:2 || 1:3 || 4:4 || 1:1 || 2:1 || 5:1 || 2:1 || 1:1 || bgcolor="#DCDCDC" | || 4:1 || 0:0 || 4:2
+|-
+| 16. || align="left" | [[Arminia Bielefeld]] || 0:0 || 1:1 || 0:1 || 0:2 || 0:0 || 1:0 || 2:0 || 1:2 || 2:2 || 0:2 || 1:3 || 4:3 || 1:1 || 0:0 || 3:2 || bgcolor="#DCDCDC" | || 2:0 || 5:0
+|-
+| 17. || align="left" | [[1. FC Nürnberg]] || 3:3 || 1:0 || 0:0 || 4:2 || 0:0 || 1:1 || 3:2 || 0:2 || 0:3 || 1:0 || 2:2 || 2:2 || 2:1 || 2:1 || 0:2 || 0:1 || bgcolor="#DCDCDC" | || 3:2
+|-
+| 18. || align="left" | [[SV Darmstadt 98]] || 1:2 || 1:7 || 2:2 || 1:3 || 2:0 || 0:1 || 1:6 || 3:1 || 1:1 || 2:0 || 3:0 || 3:2 || 2:0 || 0:0 || 1:2 || 1:1 || 1:3 || bgcolor="#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable" width="500"
+! !! Spieler!! Verein!! Tore
+|-
+| align="center" | 1.|| {{DEU-1949|Ziel=Klaus Allofs}}|| Fortuna Düsseldorf|| align="center" | 22
+|-
+| align="center" | 2.|| {{DEU-1949|Klaus Fischer (Fußballspieler)|Klaus Fischer}}|| FC Schalke 04|| align="center" | 21
+|-
+| align="center" | 3.|| {{DEU-1949|Ziel=Rüdiger Abramczik}}|| FC Schalke 04|| align="center" | 18
+|-
+| rowspan="2" align="center" | 4.|| {{ENG|Ziel=Kevin Keegan}}|| Hamburger SV|| rowspan="2" align="center" | 17
+|-
+| {{DEU-1949|Ziel=Klaus Toppmöller}}|| 1. FC Kaiserslautern
+|}
+
+== Kader ==
+=== Meistermannschaft des Hamburger SV ===
+{| class="wikitable" style="width:700px; text-align:center;"
+|- style="background:#27408B"
+| width="75" |<span style="color:#FFFFFF;"> '''1.'''</span>|| width="625" |<span style="color:#FFFFFF;"> '''Hamburger SV'''</span>
+|- style="background:#FFFFFF"
+| [[Datei:HSV-Logo.svg|60px|Hamburger SV]]|| bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Rudi Kargus]] (34/-)
+* '''Abwehr''': [[Manfred Kaltz]] (34/6); [[Peter Nogly]] {{Kapitän}} (34/1); [[Ivan Buljan]] (32/5); [[Peter Hidien]] (31/3); [[Hans-Jürgen Ripp]] (8/-); [[Uwe Beginski]] (1/-)
+* '''Mittelfeld''': [[Caspar Memering]] (34/4); [[Jimmy Hartwig]] (30/10); [[Horst Bertl]] (24/5); [[Felix Magath]] (21/4); [[Bernd Wehmeyer]] (19/2); [[Hans-Günther Plücken]] (7/1)
+* '''Angriff''': [[Kevin Keegan]] (34/17); [[Horst Hrubesch]] (34/13); [[Willi Reimann]] (26/5)
+* '''ohne Einsatz blieben''': [[Jürgen Stars]] (Tor), [[Bernd Gorski]] (Abwehr), [[Andreas Karow]] (Abwehr), [[Thomas Bliemeister]] (Mittelfeld)
+* '''Trainer''': [[Branko Zebec]]
+|}
+
+=== Alle Mannschaftskader ===
+Hauptartikel: ''[[Kader der deutschen Fußball-Bundesliga 1978/79]]''
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Ahlenfelder, Wolf-Dieter" | [[Wolf-Dieter Ahlenfelder]] || {{DatumZelle|1944-02-11}} || [[Fußballverband Niederrhein|Niederrhein]] || 8 || 18 || 0||
+|-
+| style="text-align:left" data-sort-value="Aldinger, Heinz" | [[Heinz Aldinger]] || {{DatumZelle|1933-01-07}} || [[Württembergischer Fußballverband|Württemberg]] || 9 || 12 || 0||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Assenmacher, Karl-Josef" | [[Karl-Josef Assenmacher]] || {{DatumZelle|1947-05-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 8 || 18 || 0||
+|-
+| style="text-align:left" data-sort-value="Barnick, Hans-Heinrich" | [[Hans-Heinrich Barnick]] || {{DatumZelle|1943-02-06}} || [[Schleswig-Holsteinischer Fußballverband|Schleswig-Holstein]] || 8 || 17 || 0||
+|-
+| style="text-align:left" data-sort-value="Bruckner, Winfried" | [[Winfried Brückner]] || {{DatumZelle|1948-12-09}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 8 || 19 || 0||
+|-
+| style="text-align:left" data-sort-value="Burgers, Werner" | [[Werner Burgers]] || {{DatumZelle|1934-05-15}} || Niederrhein || 8 || 19 || 1||
+|-
+| style="text-align:left" data-sort-value="Doelfel, Manfred" | [[Manfred Dölfel]] || {{DatumZelle|1941-09-28}} || [[Bayerischer Fußball-Verband|Bayern]] || 8 || 26 || 4||
+|-
+| style="text-align:left" data-sort-value="Dreher, Dieter" | [[Dieter Dreher]] || {{DatumZelle|1933-03-17}} || [[Hessischer Fußball-Verband|Hessen]] || 6 || 16 || 0||
+|-
+| style="text-align:left" data-sort-value="Engel, Walter" | [[Walter Engel (Schiedsrichter)|Walter Engel]] || {{DatumZelle|1939-05-15}} || [[Saarländischer Fußballverband|Saarland]] || 9 || 5 || 0||
+|-
+| style="text-align:left" data-sort-value="Eschweiler, Walter" | [[Walter Eschweiler]] || {{DatumZelle|1935-09-20}} || Mittelrhein || 10 || 15 || 1||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Frickel, Rudolf" | [[Rudolf Frickel]] || {{DatumZelle|1932-07-16}} || Bayern || 10 || 12 || 0||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Gabor, Peter" | [[Peter Gabor]] || {{DatumZelle|1940-04-19}} || [[Berliner Fußball-Verband|Berlin]] || 8 || 17 || 0||
+|-
+| style="text-align:left" data-sort-value="Heitmann, Wilfried" | [[Wilfried Heitmann]] || {{DatumZelle|1943-10-04}} || Niedersachsen || 8 || 16 || 0||
+|-
+| style="text-align:left" data-sort-value="Hennig, Gerd" | [[Gerd Hennig]] || {{DatumZelle|1935-04-24}} || Niederrhein || 8 || 10 || 0||FIFA-Schiedsrichter ab Beginn 1979
+|-
+| style="text-align:left" data-sort-value="Hontheim, Franz-Josef" | [[Franz-Josef Hontheim]] || {{DatumZelle|1938-08-13}} || [[Fußballverband Rheinland|Rheinland]] || 8 || 16 || 0||
+|-
+| style="text-align:left" data-sort-value="Horstmann, Walter" | [[Walter Horstmann]] || {{DatumZelle|1935-08-28}} || Niedersachsen || 10 || 13 || 0 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Joos, Horst" | [[Horst Joos]] || {{DatumZelle|1934-07-27}} || Württemberg || 9 || 12 || 0||
+|-
+| style="text-align:left" data-sort-value="Kindervater, Paul" | [[Paul Kindervater]] || {{DatumZelle|1940-01-24}} || Mittelrhein || 8 || 17 || 0||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Klauser, Max" | [[Max Klauser]] || {{DatumZelle|1937-07-04}} || Bayern || 9 || 10 || 0||
+|-
+| style="text-align:left" data-sort-value="Linn, Günter" | [[Günter Linn]] || {{DatumZelle|1935-03-16}} || Rheinland || 9 || 14 || 3||FIFA-Schiedsrichter ab Beginn 1979
+|-
+| style="text-align:left" data-sort-value="Luca, Medardus" | [[Medardus Luca]] || {{DatumZelle|1935-03-12}} || Saarland || 9 || 20 || 0||
+|-
+| style="text-align:left" data-sort-value="Messmer, Jürgen" | [[Jürgen Messmer]] || {{DatumZelle|1940-05-26}} || [[Badischer Fußballverband|Baden]] || 9 || 12 || 0||
+|-
+| style="text-align:left" data-sort-value="Meuser, Gert" | [[Gert Meuser]] || {{DatumZelle|1936-06-26}} || [[Südwestdeutscher Fußballverband|Südwest]] || 9 || 11 || 0||
+|-
+| style="text-align:left" data-sort-value="Niemann, Walter" | [[Walter Niemann (Schiedsrichter)|Walter Niemann]] || {{DatumZelle|1933-01-01}} || [[Hamburger Fußball-Verband|Hamburg]] || 9 || 25 || 0||
+|-
+| style="text-align:left" data-sort-value="Ohmsen, Klaus" | [[Klaus Ohmsen]] || {{DatumZelle|1935-10-16}} || Hamburg || 8 || 13 || 1||
+|-
+| style="text-align:left" data-sort-value="Quindeau, Heinz" | [[Heinz Quindeau]] || {{DatumZelle|1933-08-28}} || Südwest || 8 || 26 || 1||
+|-
+| style="text-align:left" data-sort-value="Redelfs, Jan" | [[Jan Redelfs]] || {{DatumZelle|1935-08-20}} || Niedersachsen || 10 || 27 || 0||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Risse, Günter" | [[Günter Risse]] || {{DatumZelle|1936-09-18}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 8 || 15 || 0||
+|-
+| style="text-align:left" data-sort-value="Ross, Werner" | [[Werner Ross (Schiedsrichter)|Werner Ross]] || {{DatumZelle|1944-11-13}} || Bayern || 8 || 15 || 0||
+|-
+| style="text-align:left" data-sort-value="Roth, Volker" | [[Volker Roth]] || {{DatumZelle|1942-02-01}} || Niedersachsen || 10 || 19 || 0||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Schmoock, Eberhard" | [[Eberhard Schmoock]] || {{DatumZelle|1937-04-12}} || [[Südbadischer Fußballverband|Südbaden]] || 9 || 23 || 0||
+|-
+| style="text-align:left" data-sort-value="Staglich, Dieter" | [[Dieter Stäglich]] || {{DatumZelle|1941-02-08}} || Mittelrhein || 8 || 23 || 0||
+|-
+| style="text-align:left" data-sort-value="Treib, Helmut" | [[Helmut Treib]] || {{DatumZelle|1944-02-28}} || Saarland || 8 || 17 || 0||
+|-
+| style="text-align:left" data-sort-value="Waltert, Rainer" | [[Rainer Waltert]] || {{DatumZelle|1940-06-09}} || Westfalen || 8 || 18 || 0||
+|-
+| style="text-align:left" data-sort-value="Walz, Robert" | [[Robert Walz]] || {{DatumZelle|1942-02-27}} || Württemberg || 12 || 37 || 1||
+|-
+| style="text-align:left" data-sort-value="Walz, Winfried" | [[Winfried Walz]] || {{DatumZelle|1942-02-27}} || Württemberg || 4 || 12 || 0||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right"| Gesamt: || 306 || 615 || 12||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="7" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle |url=https://www.weltfussball.de/schiedsrichter/bundesliga-1978-1979/1/ |titel=Schiedsrichter |werk=weltfussball.de |abruf=2015-11-10}}</ref>
+|}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1978/79 (Deutschland)
+|Navigationsleiste Europa-Fußball 1979
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 1978-79}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1978/79]]
+[[Kategorie:Fußballsaison 1978/79]]

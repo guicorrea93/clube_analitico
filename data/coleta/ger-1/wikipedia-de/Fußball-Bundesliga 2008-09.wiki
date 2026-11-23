@@ -1,0 +1,750 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 2008/09
+| Bild = [[Datei:Bundesliga Wordmark (2002-2010).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2002–2010. Es besteht aus der Schrift "Bundesliga" in zwei Zeilen. Die Schriftfarbe ist schwarz.|170px]]
+| Meister = [[VfL Wolfsburg]]
+| UEFA Champions League = VfL Wolfsburg<br />[[FC Bayern München]]
+| UEFA Champions League Quali = [[VfB Stuttgart]]
+| Europa League Quali = [[Hertha BSC]]<br />[[Hamburger SV]]<br />[[Werder Bremen]]
+| Pokal-Sieger = Werder Bremen
+| Relegation ↓ = [[Energie Cottbus]] (0:2 und 0:3 gegen [[1. FC Nürnberg]])
+| Absteiger = Energie Cottbus<br />[[Karlsruher SC]]<br />[[Arminia Bielefeld]]
+| Mannschaften = 18
+| Spiele = 306
+| Relegationsspiele = 2
+| geschossene Tore = 894
+| Zuschauer = 12.822.484
+| Torschützenkönig = {{BRA|Ziel=Grafite}} ([[VfL Wolfsburg]])
+| vorherige Saison = [[Fußball-Bundesliga 2007/08|Bundesliga 2007/08]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2009/10|Bundesliga 2009/10]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2008/09|2. Bundesliga 2008/09]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:200 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:s04 value:rgb(0,0,1)
+  id:tsg1899   value:rgb(0,0.5,1)
+  id:hsv   value:rgb(0.04,0.18,0.45)
+  id:vfl   value:rgb(0.32,0.65,0.30)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:1.5 shift:(20,-3)   color:s04       text:FC Schalke 04
+    from:1.5 till:2.5 shift:(20,-3)   color:tsg1899    text:TSG 1899 Hoffenheim
+    from:2.5 till:3.5 shift:(20,-3)   color:s04       text:FC Schalke 04
+    from:3.5 till:4.5 shift:(20,-3)   color:hsv   text:Hamburger SV
+    from:4.5 till:5.5 shift:(20,-3)   color:s04       text:FC Schalke 04
+    from:5.5 till:8.5 shift:(20,-3)   color:hsv   text:Hamburger SV
+    from:8.5 till:11.5 shift:(20,-3)  color:tsg1899    text:TSG 1899 Hoffenheim
+    from:11.5 till:13.5 shift:(20,-3) color:black        text:Bayer 04 Leverkusen
+    from:13.5 till:19.5 shift:(20,-3) color:tsg1899    text:TSG 1899 Hoffenheim
+    from:19.5 till:20.5 shift:(20,-3) color:blue       text:Hertha BSC
+    from:20.5 till:21.5 shift:(20,-3) color:hsv   text:Hamburger SV
+    from:21.5 till:25.5 shift:(20,-3) color:blue       text:Hertha BSC
+    from:25.5 till:34.5 shift:(20,-3) color:vfl      text:VfL Wolfsburg
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:200 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:h96 value:rgb(0.11,0.56,0.36)
+  id:grew value:rgb(0.86,0.86,0.86)
+  id:ksc value:rgb(0,0.05,1)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:1.5   shift:(20,-3)   color:grew    text:Cottbus / Hannover
+     from:1.5  till:2.5   shift:(20,-3)   color:black    text:Borussia Mönchengladbach
+     from:2.5  till:3.5   shift:(20,-3)   color:h96     text:Hannover 96
+     from:3.5  till:5.5   shift:(20,-3)   color:red      text:Energie Cottbus
+     from:5.5  till:8.5   shift:(20,-3)   color:black    text:Borussia Mönchengladbach
+     from:8.5  till:14.5  shift:(20,-3)   color:red      text:Energie Cottbus
+     from:14.5  till:15.5 shift:(20,-3)   color:ksc     text:Karlsruher SC
+     from:15.5  till:22.5 shift:(20,-3)   color:black    text:Borussia Mönchengladbach
+     from:22.5  till:33.5 shift:(20,-3)   color:ksc     text:Karlsruher SC
+     from:33.5  till:34.5  shift:(20,-3)  color:blue  text:Arminia Bielefeld
+</timeline>
+|}
+
+Die '''[[Fußball-Bundesliga|Bundesliga]] 2008/09''' war die 46. Spielzeit der höchsten deutschen Spielklasse im Fußball der Männer. Die Saison begann am 15. August 2008 mit einem Heimspiel des amtierenden Meisters [[FC Bayern München]] gegen den [[Hamburger SV]] (2:2) und endete am 23. Mai 2009 mit dem 34. Spieltag.<ref>Spielplan bei bundesliga.de: {{Webarchiv|url=http://www.bundesliga.de/media/native/dfl/spielplan/bl-saison_2008-2009.pdf |wayback=20080911125334 |text=Archivierte Kopie |archiv-bot=2022-11-05 07:56:56 InternetArchiveBot }}</ref> Gleichzeitig mit der Eliteklasse der [[Die Liga – Fußballverband|DFL]] startete auch die [[2. Fußball-Bundesliga|2. Bundesliga]] in die [[2. Fußball-Bundesliga 2008/09|Spielzeit 2008/09]].
+
+Bereits drei Wochen zuvor wurde der Premierenspieltag der neuen [[3. Fußball-Liga|3. Liga]] ausgetragen, mit deren Einführung es auch erstmals seit 16 Jahren zu einer wesentlichen Veränderung des Modus der Bundesliga kam. So fanden zum Saisonende wie bereits zwischen 1982 und 1991 [[Relegationsspiel]]e zwischen dem Tabellensechzehnten der Bundesliga und dem Tabellendritten der Zweiten Liga statt, deren Sieger in der Spielzeit 2009/10 für die Bundesliga spielberechtigt ist.
+
+Deutscher Meister wurde erstmals der [[VfL Wolfsburg]], der sich am 34. Spieltag mit einem 5:1-Sieg im Heimspiel gegen [[Werder Bremen]] den Titel sicherte. Der VfL ist der erste Verein seit 39 Jahren, der sich neu in die [[Liste der deutschen Fußballmeister]] eintragen konnte. Absteigen mussten [[Arminia Bielefeld]], der [[Karlsruher SC]] und [[FC Energie Cottbus]], der in den Relegationsspielen dem [[1. FC Nürnberg]] unterlag.
+
+== Saisonverlauf ==
+=== Meisterschaftsentscheidung ===
+[[Datei:Wolfsburg celebration 2009 2.jpg|mini|Der VfL Wolfsburg feiert nach dem letzten Spieltag die Meisterschaft]]
+
+Meister der Saison 2008/09 wurde der VfL Wolfsburg, was für viele als Überraschung galt. Dieser Erfolg war eng verknüpft mit dem Trainer [[Felix Magath]], der die Niedersachsen schon ein Jahr zuvor als Fünfter in den UEFA-Pokal geführt hatte – in den beiden Saisons zuvor waren die Wolfsburger jeweils als 15. fast abgestiegen. Wenige Spieltage vor Schluss hatte Magath allerdings trotz des Titelkampfes bekannt gegeben, in der kommenden Saison für Schalke 04 zu arbeiten. Nach Ende der Hinrunde belegte Wolfsburg nur Rang neun, als beste Rückrundenmannschaft holte sie den Rückstand auf und gewann den Titel. Ähnlich ambivalent zeigte sich der VfL auch in anderer Hinsicht: In der Auswärtstabelle belegte er lediglich Platz acht, im eigenen Stadion verpasste er allerdings nur zwei Punkte. Höchste Siege dort waren das 5:1 gegen den FC Bayern München, das 5:1 gegen Werder Bremen und das 4:0 gegen 1899 Hoffenheim.
+
+Der von vielen als Favorit eingestufte FC Bayern München spielte nach dem Double des Vorjahres unter den Erwartungen vieler. Ohne einmal Tabellenführer gewesen zu sein, hatten die Münchner, die ihren neuen Trainer [[Jürgen Klinsmann]] fünf Spieltage vor Schluss durch [[Jupp Heynckes]] ersetzt hatten, im letzten Spiel zwar noch Chancen auf die Meisterschaft, beendeten die Saison dann aber ohne Titel.
+
+Der VfB Stuttgart war, gemessen an den eigenen Erwartungen, schwach in die Saison gestartet, was zur Entlassung des Meistertrainers von 2007, [[Armin Veh]], führte. Nachfolger wurde [[Markus Babbel]], der noch keinen Trainerschein besaß. Unter ihm konnten sich die Schwaben bis in den Meisterschaftskampf hocharbeiten, verloren aber am letzten Spieltag das direkte Duell um Platz zwei bzw. eins – je nach Resultat von Wolfsburg – bei Bayern München mit 1:2.
+
+Als weitere Überraschung neben dem VfL Wolfsburg galt Hertha BSC. Erstmals in der Vereinsgeschichte führten die von [[Lucien Favre]] trainierten Berliner in der Rückrunde sogar mehrere Spieltage die Tabelle an. An den letzten Spieltagen verspielten sie allerdings die Qualifikation zur Champions League und belegten Rang vier (0:0 gegen Schalke, 0:4 beim Karlsruher SC).
+
+=== Mittelfeld ===
+Der Hamburger SV unter dem zu Saisonbeginn gekommenen Trainer [[Martin Jol]] spielte lange Zeit um die Meisterschaft mit. Als besonderer Saisonhöhepunkt galten die sogenannten ''Norddeutschen Festspielwochen'', als Hamburg viermal innerhalb von 19 Tagen in verschiedenen Wettbewerben gegen den Erzrivalen Werder Bremen antreten musste, wobei der HSV sowohl im DFB-Pokal als auch im UEFA-Cup ausschied. Zum Abschluss gewann Bremen auch im Bundesliga-Heimspiel am 10. Mai mit 2:0. Allerdings blieb Hamburg erstmals seit sechs Jahren in der Liga vor den Bremern. Das 3:2 in Frankfurt in der 90. Minute am letzten Spieltag bedeutete Platz fünf vor Dortmund, das sich unter dem neuen Trainer [[Jürgen Klopp]] mit dem sechsten Tabellenplatz deutlich verbessern konnte, auch wenn der erhoffte internationale Startplatz ausblieb. Dabei bedeuteten die 59 Punkte des BVB die höchste Zahl der Bundesligageschichte, mit der jemals der fünfte Tabellenplatz verfehlt wurde.
+
+Der Aufsteiger 1899 Hoffenheim hatte in der Hinrunde unter großer medialer Aufmerksamkeit die [[Herbstmeister]]schaft errungen. In der Rückrunde zeigte sich das Team von [[Ralf Rangnick]] dann aber deutlich schwächer, wozu auch die langwierige Verletzung von Torjäger [[Vedad Ibišević]] in der Winterpause beitrug, und rutschte auf Platz sieben ab. Der von [[Fred Rutten]] geführte FC Schalke 04, der mit gewissen Titelambitionen gestartet war, blieb von Anfang an hinter vielen Erwartungen und Anforderungen zurück, was zur Entlassung des Trainers führte. Mit dem achten Platz erreichte Schalke zum ersten Mal seit neun Jahren keinen europäischen Wettbewerb. Auch Bayer Leverkusen, das ein Jahr zuvor schon wegen des siebten Platzes den Trainer gewechselt hatte, erreichte nach einem starken Saisonstart unter [[Bruno Labbadia]] die Ziele nicht. Die Mannschaft von Werder Bremen hingegen schwächelte von Beginn an und belegte am Ende mit Platz zehn den schlechtesten Platz seit zehn Jahren. Im [[UEFA-Pokal 2008/09|UEFA-Pokal]] kam sie allerdings bis in das Finale, und mit dem Gewinn des [[DFB-Pokal 2008/09|DFB-Pokals]] gelang am Ende doch noch der Einzug in den internationalen Wettbewerb. Auch Hannover 96 konnte sein Ziel, die Qualifikation für die Europa League, nicht erreichen. Die Niedersachsen litten in dieser Saison bei einer leicht überdurchschnittlichen Heimbilanz vor allem unter ihrer Auswärtsschwäche.
+
+=== Abstiegskampf ===
+Tabellenletzter wurde Arminia Bielefeld; die Entlassung [[Michael Frontzeck]]s und die Beschäftigung [[Jörg Berger]]s für ein Spiel hatten dies nicht verhindern können, im Gegenteil: Die Ostwestfalen lagen lange Zeit auf dem 16. Tabellenplatz, der zur Relegation berechtigt. Am letzten Spieltag rutschten sie durch ein 2:2 gegen Hannover 96 auf den letzten Platz. Der zweite direkte Absteiger war als Tabellen-Vorletzter der Karlsruher SC unter Trainer [[Edmund Becker]]. [[Bojan Prašnikar]], der den FC Energie Cottbus im Vorjahr noch vor dem Abstieg hatte retten können, belegte mit seinem Team am Ende den Relegationsplatz und unterlag in den beiden Entscheidungsspielen dem [[1. FC Nürnberg]] (0:3 und 0:2), wobei der Trainer bereits nach dem Hinspiel seinen Rücktritt ankündigte. Erfolgreicher war [[Hans Meyer (Fußballtrainer)|Hans Meyer]], der schon in der Hinrunde [[Jos Luhukay]] als Trainer des damaligen Tabellenletzten Borussia Mönchengladbach abgelöst hatte und die „Fohlen“ auf Platz 15 führte, seinen Vertrag allerdings nach der Saison auflösen ließ. Auch der VfL Bochum, der am Ende Vierzehnter wurde, hatte an einigen Tagen auf einem Abstiegsplatz gelegen. Wenig spektakulär war die Saison für Hannover 96, den 1. FC Köln und Eintracht Frankfurt verlaufen, welche in der Abschlusstabelle die Plätze elf bis dreizehn einnahmen, was besonders für den Aufsteiger Köln als Erfolg galt.
+
+Bemerkenswert waren die niedrigen Punktzahlen der Teams auf den Plätzen 13 bis 15: Nie zuvor seit der Einführung des dritten Absteigers 1974 schaffte ein Team mit weniger als 34 Punkten (gerechnet nach der [[Dreipunkteregel]]) den Klassenerhalt. In dieser Saison erreichten dies hingegen gleich drei Teams: Frankfurt, Bochum und Mönchengladbach.
+(In der folgenden Saison schafften dies zwei weitere Teams, Hannover und (über die Relegation) Nürnberg; [[Fußball-Bundesliga 2012/13|2012/13]] dann der FC Augsburg und die TSG Hoffenheim über die Relegation, [[Fußball-Bundesliga 2013/14|2013/14]] der VfB Stuttgart und der HSV über die Relegation, [[Fußball-Bundesliga 2018/19|2018/19]] der FC Schalke und der FC Augsburg und [[Fußball-Bundesliga 2019/20|2019/20]] der SV Werder Bremen über die Relegation.)
+
+== Statistiken ==
+=== Abschlusstabelle ===
+[[Datei:Fussball-Bundesliga Deutschland 2008-09.png|mini|360px|Teilnehmende Vereine im Überblick]]
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=21 |U= 6 |N= 7 |ET=80 |GT=41 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=20 |U= 7 |N= 7 |ET=71 |GT=42 |Verein=[[FC Bayern München]] (M, P) }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=19 |U= 7 |N= 8 |ET=63 |GT=43 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 4 |S=19 |U= 6 |N= 9 |ET=48 |GT=41 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=19 |U= 4 |N=11 |ET=49 |GT=47 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=15 |U=14 |N= 5 |ET=60 |GT=37 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=15 |U=10 |N= 9 |ET=63 |GT=49 |Verein=[[TSG 1899 Hoffenheim]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=14 |U= 8 |N=12 |ET=47 |GT=35 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=14 |U= 7 |N=13 |ET=59 |GT=46 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=b4cdcd |Rang=10 |S=12 |U= 9 |N=13 |ET=64 |GT=50 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=10 |U=10 |N=14 |ET=49 |GT=69 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=11 |U= 6 |N=17 |ET=35 |GT=50 |Verein=[[1. FC Köln]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S= 8 |U= 9 |N=17 |ET=39 |GT=60 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 7 |U=11 |N=16 |ET=39 |GT=55 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 8 |U= 7 |N=19 |ET=39 |GT=62 |Verein=[[Borussia Mönchengladbach]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=fffccc |Rang=16 |S= 8 |U= 6 |N=20 |ET=30 |GT=57 |Verein=[[Energie Cottbus]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 8 |U= 5 |N=21 |ET=30 |GT=54 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 4 |U=16 |N=14 |ET=29 |GT=56 |Verein=[[Arminia Bielefeld]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 2009/10]]: VfL Wolfsburg}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League: FC Bayern München}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation: VfB Stuttgart}}
+{{Farblegende|#B4CDCD|[[DFB-Pokal 2008/09|DFB-Pokal-Sieger]] und Teilnahme an der Qualifikation zur [[UEFA Europa League 2009/10]]: SV Werder Bremen}}
+{{Farblegende|#ffdac2|Teilnahme an der Qualifikation zur UEFA Europa League: Hertha BSC, Hamburger SV}}
+{{Farblegende|#fffccc|Teilnahme an den [[Relegationsspiel]]en gegen den Drittplatzierten der 2. Bundesliga: FC Energie Cottbus}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2009/10|2. Bundesliga 2009/10]]: Karlsruher SC, Arminia Bielefeld}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2007/08|2007/08]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2007/08|2007/08]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 2007/08|2007/08]]
+|}
+
+=== Tabellenverlauf ===
+[[Datei:Platzierungen Bundesliga 2008-2009.svg|600px]]
+
+=== Relegation ===
+[[Energie Cottbus]] erreichte den 16. Platz in der Saison 2008/09 und trat am 28. und 31. Mai 2009 gegen den Drittplatzierten der 2. Bundesliga, den [[1. FC Nürnberg]], an. Energie Cottbus unterlag dem „Club“ in beiden Partien und stieg ab.
+
+{{OneLegStart|Datum=1|8=Tore}}
+{{OneLegResult|6=28. Mai 2009|[[Energie Cottbus]]||[[2. Fußball-Bundesliga 2008/09#AufstiegHinspiel|0:3 (0:1)]]|'''[[1. FC Nürnberg]]'''|9=0:1 [[Isaac Boakye|Boakye]] (13.), 0:2 [[Christian Eigler|Eigler]] (56.), 0:3 Boakye (89.)}}
+{{OneLegResult|6=31. Mai 2009|'''[[1. FC Nürnberg]]'''||[[2. Fußball-Bundesliga 2008/09#AufstiegRückspiel|2:0 (2:0)]]|[[Energie Cottbus]]|9=1:0 [[Christian Eigler|Eigler]] (29.), 2:0 [[Marek Mintál|Mintál]] (37.)}}
+{{OneLegResult|6=Gesamt|[[Energie Cottbus]]||0:5|'''[[1. FC Nürnberg]]'''|Farbe2=ccffcc|9= }}
+|}
+
+=== Kreuztabelle ===
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte, die Gastmannschaft in der oberen Zeile aufgelistet.
+
+{| class="wikitable" style="text-align:center"
+!2008/09
+![[Datei:Logo-VfL-Wolfsburg.svg|22px|VfL Wolfsburg]]
+![[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+![[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+![[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+![[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+![[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+![[Datei:Logo TSG Hoffenheim.svg|22px|TSG 1899 Hoffenheim]]
+![[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+![[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+![[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+![[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+![[Datei:1. FC Koeln Logo 2000–2014.png|22px|1. FC Köln]] 
+![[Datei:Logo Eintracht Frankfurt 1998.svg|22px|Eintracht Frankfurt]]
+![[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+![[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+![[Datei:Logo Energie Cottbus.svg|22px|Energie Cottbus]]
+![[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+![[Datei:Arminia Bielefeld Logo 1998–2008.svg|22px|Arminia Bielefeld]]
+|-
+| style="text-align: left" | [[VfL Wolfsburg]]|| class="hintergrundfarbe5" | ||5:1|| 4:1 ||2:1|| 3:0 || 3:0 || 4:0 || 4:3 || 2:1 || 5:1 || 2:1 || 2:1 || 2:2 || 2:0 || 3:0 || 3:0 || 1:0 || 4:1
+|-
+| style="text-align: left" | [[FC Bayern München]] || 4:2|| class="hintergrundfarbe5" | || 2:1 || 4:1 || 2:2 ||3:1|| 2:1 || 0:1 || 3:0 || 2:5 || 5:1 || 1:2 || 4:0 || 3:3 || 2:1 || 4:1 || 1:0 || 3:1
+|-
+| style="text-align: left" | [[VfB Stuttgart]] || 4:1 || 2:2|| class="hintergrundfarbe5" | || 2:0 ||1:0|| 2:1 || 3:3 ||2:0||0:2|| 4:1 || 2:0 ||1:3|| 2:0 || 2:0 || 2:0 || 2:0 || 3:1 || 0:0
+|-
+| style="text-align: left" | [[Hertha BSC]] || 2:2 || 2:1 || 2:1|| class="hintergrundfarbe5" | || 2:1 || 1:3 || 1:0 || 0:0 || 1:0 || 2:1 || 3:0 || 2:1 || 2:1 ||2:0||2:1 || 0:1 || 4:0 || 1:1
+|-
+| style="text-align: left" | [[Hamburger SV]] || 1:3 || 1:0 || 2:0 || 1:1|| class="hintergrundfarbe5" | || 2:1 || 1:0 || 1:1 ||3:2|| 2:1 || 2:1 || 0:1 || 1:0 || 3:1 || 1:0 || 2:0 || 2:1 ||2:0
+|-
+| style="text-align: left" | [[Borussia Dortmund]] || 0:0 || 1:1 || 3:0 || 1:1 || 2:0|| class="hintergrundfarbe5" | || 0:0 || 3:3 || 1:1 || 1:0 ||1:1|| 3:1 || 4:0 || 1:1 || 2:1 || 1:1 || 4:0 || 6:0
+|-
+| style="text-align: left" | [[TSG 1899 Hoffenheim]] || 3:2 || 2:2 || 0:0 || 0:1 || 3:0 || 4:1|| class="hintergrundfarbe5" | || 1:1 || 1:4 || 0:0 || 2:2 || 2:0 ||2:1|| 0:3 || 1:0 || 2:0 || 4:1 || 3:0
+|-
+| style="text-align: left" | [[FC Schalke 04]] || 2:2 || 1:2 || 1:2 || 1:0 || 1:2 || 1:1 || 2:3|| class="hintergrundfarbe5" | || 1:2 || 1:0 || 3:0 || 1:0 || 1:0 ||1:0|| 3:1 || 4:0 || 2:0 || 0:0
+|-
+| style="text-align: left" | [[Bayer 04 Leverkusen]] || 2:0 || 0:2 || 2:4 || 0:1 || 1:2 || 2:3 || 5:2 || 2:1|| class="hintergrundfarbe5" | || 1:1 || 4:0 || 2:0 || 1:1 || 1:1 || 5:0 || 1:1 || 0:1 || 2:2
+|-
+| style="text-align: left" | [[Werder Bremen]] || 2:1 || 0:0 || 4:0 || 5:1 || 2:0 || 3:3 || 5:4 || 1:1 || 0:2|| class="hintergrundfarbe5" | || 4:1 || 3:1 || 5:0 || 3:2 || 1:1 || 3:0 || 1:3 || 1:2
+|-
+| style="text-align: left" | [[Hannover 96]] || 0:5 || 1:0 || 3:3 || 2:0 || 3:0 || 4:4 || 2:5 || 1:0 || 1:0 || 1:1|| class="hintergrundfarbe5" | ||2:1|| 1:1 || 1:1 || 5:1 || 0:0 || 3:2 ||1:1
+|-
+| style="text-align: left" | [[1. FC Köln]] || 1:1 || 0:3 || 0:3 || 1:2 || 1:2 || 0:1 || 1:3 || 1:0 || 0:2 || 1:0 || 2:1|| class="hintergrundfarbe5" | || 1:1 || 1:1 || 2:4 || 1:0 || 0:0 || 1:1
+|-
+| style="text-align: left" | [[Eintracht Frankfurt]] || 0:2 || 1:2 || 2:2 || 0:2 || 2:3 || 0:2 || 1:1 ||1:2|| 0:2 || 0:5 || 4:0 || 2:2|| class="hintergrundfarbe5" | ||4:0 || 4:1 || 2:1 || 2:1 || 1:1
+|-
+| style="text-align: left" | [[VfL Bochum]] || 2:2 || 0:3 || 1:2 ||2:3|| 1:1 || 0:2 || 1:3 || 2:1 || 2:3 || 0:0 || 0:2 || 1:2 || 2:0|| class="hintergrundfarbe5" | || 2:2 || 3:2 ||2:0|| 2:0
+|-
+| style="text-align: left" | [[Borussia Mönchengladbach]] || 1:2 || 2:2 || 1:3 ||0:1|| 4:1 || 1:1 || 1:1 || 1:0 || 1:3 || 3:2 ||3:2|| 1:2 || 1:2 || 0:1|| class="hintergrundfarbe5" | || 1:3 || 1:0 ||1:1
+|-
+| style="text-align: left" | [[Energie Cottbus]] || 2:0 ||1:3|| 0:3 || 1:3 || 1:2 || 0:1 || 0:3 || 0:2 || 3:0 || 2:1 || 3:1 || 0:2 || 2:3 || 1:1 || 0:1|| class="hintergrundfarbe5" | || 1:0 || 2:1
+|-
+| style="text-align: left" | [[Karlsruher SC]] || 2:1 || 0:1 || 0:2 || 4:0 || 3:2 || 0:1 || 2:2 || 0:3 || 3:3 || 1:0 || 2:3 || 0:2 ||0:1|| 1:0 || 0:0 || 0:0|| class="hintergrundfarbe5" | || 0:1
+|-
+| style="text-align: left" | [[Arminia Bielefeld]] || 0:3 || 0:1 || 2:2 || 1:1 || 2:4 || 0:0 || 0:2 || 0:2 || 2:1 || 2:2 || 2:2 || 2:0 || 0:0 || 1:1 || 0:2 || 1:1 || 1:2|| class="hintergrundfarbe5" |
+|}
+
+=== Torschützenliste ===
+In der Hinrunde hatte der Hoffenheimer Vedad Ibišević mit 18 Treffern Aufsehen erregt, der sich jedoch in der Winterpause eine schwere Verletzung zuzog und für den Rest der Saison ausfiel. Torschützenkönig wurde Grafite vom Meister VfL Wolfsburg mit 28 Toren. Grafite und sein Mannschaftskollege Edin Džeko brachen in dieser Spielzeit mehrere Bundesligarekorde: Sie schafften es zum ersten Mal in der Bundesligageschichte, dass zwei Spieler aus dem gleichen Verein jeweils über zwanzig Tore schossen. Mit ihren Treffern am letzten Spieltag wurden sie auch noch zum erfolgreichsten Sturmduo der Bundesligageschichte. Mit insgesamt 54 von 80 erzielten Toren waren beide Stürmer maßgeblich am Titelgewinn des VfL Wolfsburg beteiligt. Entthronte Rekordhalter waren die Bayern [[Gerd Müller]] mit 40 und [[Uli Hoeneß]] mit 13 Toren in der Saison 1971/72.
+
+[[Datei:Grafite beim Training.jpg|mini|Der erfolgreichste Torjäger der Saison 2008/09: Grafite]]
+{| class="wikitable"
+!Pl.
+!Nat.
+!Spieler<ref>[http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2008-09/34/torjaeger-der-saison.html Torschützenliste bei kicker online]</ref>
+!Verein
+!Tore
+|-
+!1
+| {{BRA|#}}
+|[[Grafite]] || VfL Wolfsburg || style="text-align: center" | 28
+|-
+!2
+| {{BIH|#}}
+|[[Edin Džeko]] || VfL Wolfsburg || style="text-align: center" | 26
+|-
+!3
+| {{DEU|#}}
+|[[Mario Gómez]] || VfB Stuttgart || style="text-align: center" | 24
+|-
+!4
+| {{DEU|#}}
+|[[Patrick Helmes]] || Bayer 04 Leverkusen || style="text-align: center" | 21
+|-
+!5
+| {{BIH|#}}
+|[[Vedad Ibišević]] || TSG 1899 Hoffenheim || style="text-align: center" | 18
+|-
+!6
+| {{PER|#}}
+|[[Claudio Pizarro]] || Werder Bremen || style="text-align: center" | 17
+|-
+!7
+| {{SVN|#}}
+|[[Milivoje Novakovič]] || 1. FC Köln || style="text-align: center" | 16
+|-
+! rowspan="2"  | 8
+| {{SEN|#}}
+|[[Demba Ba]] || TSG 1899 Hoffenheim || rowspan="2" style="text-align: center" | 14
+|-
+| {{ITA|#}}
+|[[Luca Toni]] || FC Bayern München
+|-
+! rowspan="2"  | 10
+| {{DEU|#}}
+|[[Kevin Kurányi]] || FC Schalke 04 || rowspan="2" style="text-align: center" | 13
+|-
+| {{POL|#}}
+|[[Artur Wichniarek]] || Arminia Bielefeld
+|}
+
+=== Scorerliste ===
+{| class="wikitable"
+|- style="background-color:#CEDAF2"
+! Pl. !! Nat. !! Spieler<ref>[http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2008-09/34/scorer-der-saison.html Scorerliste bei kicker online]</ref> !! Verein !! Gesamt !! Tore !! Vorlagen
+|-
+! 1
+| {{BRA|#}} || [[Grafite]] || VfL Wolfsburg ||align="center"| 39 ||align="center"| 28 ||align="center"| 11
+|-
+! 2
+| {{BIH|#}} || [[Edin Džeko]] || VfL Wolfsburg ||align="center"| 36 ||align="center"| 26 ||align="center"| 10
+|-
+! 3
+| {{DEU|#}} || [[Mario Gómez]] || VfB Stuttgart ||align="center"| 32 ||align="center"| 24 ||align="center"| {{0}}8
+|-
+! 4
+| {{BIH|#}} || [[Zvjezdan Misimović]] || VfL Wolfsburg ||align="center"| 27 ||align="center"| {{0}}7 ||align="center"| 20
+|-
+! 5
+| {{DEU|#}} || [[Patrick Helmes]] || Bayer 04 Leverkusen ||align="center"| 26 ||align="center"| 21 ||align="center"| {{0}}5
+|-
+! 6
+| {{BIH|#}} || [[Vedad Ibišević]] || 1899 Hoffenheim ||align="center"| 25 ||align="center"| 18 ||align="center"| {{0}}7
+|-
+! rowspan="3"| 7
+| {{SEN|#}} || [[Demba Ba]] || 1899 Hoffenheim ||rowspan="3" align="center"| 21 ||align="center"| 14 ||align="center"| {{0}}7
+|-
+| {{DEU|#}} || [[Stefan Kießling (Fußballspieler)|Stefan Kießling]] || Bayer 04 Leverkusen ||align="center"| 12 ||align="center"| {{0}}9
+|-
+| {{FRA|#}} || [[Franck Ribéry]] || Bayern München ||align="center"| {{0}}9 ||align="center"| 12
+|-
+! rowspan="2"| 10{{0}}
+| {{ITA|#}} || [[Luca Toni]] || Bayern München ||rowspan="2" align="center"| 20 ||align="center"| 14 ||align="center"| {{0}}6
+|-
+| {{CHE|#}} || [[Alexander Frei (Fussballspieler)|Alexander Frei]] || Borussia Dortmund ||align="center"| 12 ||align="center"| {{0}}8
+|}
+
+=== Meiste Torvorlagen ===
+Zvjezdan Misimović stellte mit seinen 20 Vorlagen einen neuen Rekord auf. Der [[Kicker-Sportmagazin|Kicker]] erfasst seit 1988 die Zahl der Vorlagen, bislang lag der Rekord bei 17.<ref>[http://www.kicker.de/news/fussball/bundesliga/startseite/artikel/510182/ Zvjezdan Misimovic: Der Vorarbeiter] (kicker online, 15. Juni 2009)</ref>
+{| class="wikitable"
+|- style="background-color:#CEDAF2"
+! Pl. !! Nat. !! Spieler<ref>[http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2008-09/34/scorer-der-saison.html Torvorlagen bei kicker online]</ref> !! Verein !! Vorlagen
+|-
+! 1
+| {{BIH|#}} || [[Zvjezdan Misimović]] || VfL Wolfsburg ||align="center"| 20
+|-
+! 2
+| {{DEU|#}} || [[Mesut Özil]] || Werder Bremen ||align="center"| 15
+|-
+! rowspan="2"| 3
+| {{NLD|#}} || [[Arnold Bruggink]] || Hannover 96 ||rowspan="2" align="center"| 13
+|-
+| {{DEU|#}} || [[Marko Marin]] || Borussia Mönchengladbach
+|-
+! rowspan="2"| 5
+| {{FRA|#}} || [[Franck Ribéry]] || Bayern München ||rowspan="2" align="center"| 12
+|-
+| {{DEU|#}} || [[Bastian Schweinsteiger]] || Bayern München
+|-
+! rowspan="3"| 7
+| {{CZE|#}} || [[Martin Fenin]] || Eintracht Frankfurt ||rowspan="3" align="center"| 11
+|-
+| {{BRA|#}} || [[Grafite]] || VfL Wolfsburg
+|-
+| {{HUN|#}} || [[Tamás Hajnal]] || Borussia Dortmund
+|-
+! rowspan="4"| 10{{0}}
+| {{CHE|#}} || [[Tranquillo Barnetta]] || Bayer 04 Leverkusen ||rowspan="4" align="center"| 10
+|-
+| {{BIH|#}} || [[Edin Džeko]] || VfL Wolfsburg
+|-
+| {{DEU|#}} || [[Christian Gentner]] || VfL Wolfsburg
+|-
+| {{DEU|#}} || [[Markus Steinhöfer]] || Eintracht Frankfurt
+|}
+
+=== Zuschauertabelle ===
+[[Datei:Signal iduna park stadium dortmund 4.jpg|mini|Der höchste Zuschauerschnitt der Liga lag im Signal-Iduna-Park bei 74.830]]
+[[Datei:Cottbus Stadion der Freundschaft.jpg|mini|Den niedrigsten Schnitt hatte Energie Cottbus mit 16.709 Zuschauern pro Spiel]]
+
+Mit 1.272.108 Besucher in der gesamten Saison hatte Borussia Dortmund die meisten Zuschauer und übertraf damit den eigenen Rekord aus der Saison 2007/08 mit 1.232.669 Zuschauern.<ref>[http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2008-09/zuschauer-der-saison.html Zuschauertabelle auf kicker online]</ref>
+{| class="wikitable sortable" style="text-align:center; background-color:#ffffff"
+|- class="hintergrundfarbe5"
+!
+! Verein
+! Zuschauer
+! pro Spiel
+! data-sort-type="number"  | Auslastung
+|-
+! {{0}}1.
+| style="text-align: left" | [[Borussia Dortmund]]
+| 1.272.108{{0|.0}}
+| 74.830
+| 92,89 %
+|-
+! {{0}}2.
+| style="text-align: left" | [[FC Bayern München]]
+| 1.173.000{{0|.0}}
+| 69.000
+| 100{{0|,0}} %
+|-
+! {{0}}3.
+| style="text-align: left" | [[FC Schalke 04]]
+| 1.043.580{{0|.0}}
+| 61.387
+| 99,84 %
+|-
+! {{0}}4.
+| style="text-align: left" | [[Hamburger SV]]
+| 931.165
+| 54.774
+| 96,10 %
+|-
+! {{0}}5.
+| style="text-align: left" | [[Hertha BSC]]
+| 886.668
+| 52.157
+| 70,10 %
+|-
+! {{0}}6.
+| style="text-align: left" | [[VfB Stuttgart]]
+| 883.646
+| 51.979
+| 91,19 %
+|-
+! {{0}}7.
+| style="text-align: left" | [[1. FC Köln]]
+| 838.300
+| 49.311
+| 97,89 %
+|-
+! {{0}}8.
+| style="text-align: left" | [[Borussia Mönchengladbach]]
+| 805.397
+| 47.376
+| 87,63 %
+|-
+! {{0}}9.
+| style="text-align: left" | [[Eintracht Frankfurt]]
+| 799.200
+| 47.011
+| 89,89 %
+|-
+! 10.
+| style="text-align: left" | [[Hannover 96]]
+| 711.616
+| 41.859
+| 85,42 %
+|-
+! 11.
+| style="text-align: left" | [[Werder Bremen]]
+| 686.376
+| 40.375
+| 95,32 %
+|-
+! 12.
+| style="text-align: left" | [[TSG 1899 Hoffenheim]]
+| 477.300
+| 28.076
+| data-sort-value="98" | 98,00 %
+|-
+! 13.
+| style="text-align: left" | [[Karlsruher SC]]
+| 477.113
+| 28.065
+| 94,50 %
+|-
+! 14.
+| style="text-align: left" | [[VfL Wolfsburg]]
+| 465.929
+| 27.407
+| 91,36 %
+|-
+! 15.
+| style="text-align: left" | [[Bayer 04 Leverkusen]]
+| 442.750
+| 26.044
+| data-sort-value="75" | 75,00 %
+|-
+! 16.
+| style="text-align: left" | [[VfL Bochum]]
+| 433.762
+| 25.515
+| 81,45 %
+|-
+! 17.
+| style="text-align: left" | [[Arminia Bielefeld]]
+| 398.900
+| 23.465
+| 85,95 %
+|-
+! 18.
+| style="text-align: left" | [[Energie Cottbus]]
+| 284.047
+| 16.709
+| 73,46 %
+|- class="sortbottom"
+! colspan="2"| Gesamt
+| '''13.010.857'''{{0|.00}}
+| '''42.519'''
+| '''94,50 %'''
+|}
+
+== Spielstätten ==
+{| class="wikitable" style="width:100%"
+|- class="hintergrundfarbe8"
+! style="width:20%"  | Verein
+! style="width:20%"  | Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%"  | Kapazität
+| style="width:2%; background-color: #ffffff; border: 0px" rowspan="10" |
+! style="width:20%"  | Verein
+! style="width:20%"  | Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%"  | Kapazität
+|-
+| Borussia Dortmund || [[Westfalenstadion]]<br /><small>(Signal Iduna Park)</small> || style="text-align: center" | 80.552
+| Hannover 96 || [[AWD-Arena]] || style="text-align: center" | 49.000
+|-
+| Hertha BSC || [[Olympiastadion Berlin]] || style="text-align: center" | 74.400
+| Werder Bremen || [[Weserstadion]] || style="text-align: center" | 42.358
+|-
+| FC Bayern München || [[Allianz Arena]] || style="text-align: center" | 69.901
+| VfL Bochum || [[Ruhrstadion]]<br /><small>(Rewirpowerstadion)</small> || style="text-align: center" | 31.328
+|-
+| FC Schalke 04 || [[Veltins-Arena]] || style="text-align: center" | 61.482
+| VfL Wolfsburg || [[Volkswagen Arena]] || style="text-align: center" | 30.000
+|-
+| Hamburger SV || [[Volksparkstadion]]<br /><small>(HSH Nordbank Arena)</small> || style="text-align: center" | 57.000
+| Karlsruher SC || [[Wildparkstadion]] || style="text-align: center" | 29.699
+|-
+| VfB Stuttgart || [[MHPArena|Mercedes-Benz Arena]] || style="text-align: center" | 57.000
+| Arminia Bielefeld || [[SchücoArena]] || style="text-align: center" | 27.300
+|-
+| Borussia Mönchengladbach || [[Borussia-Park]] || style="text-align: center" | 54.067
+| TSG 1899 Hoffenheim || [[Carl-Benz-Stadion]] / [[Rhein-Neckar-Arena]] || style="text-align: center" | 27.000 / 30.000{{FN|1}}
+|-
+| Eintracht Frankfurt || [[Commerzbank-Arena]] || style="text-align: center" | 52.300
+| Energie Cottbus || [[Stadion der Freundschaft (Cottbus)|Stadion der Freundschaft]] || style="text-align: center" | 22.746
+|-
+| 1. FC Köln || [[Rheinenergiestadion]] || style="text-align: center" | 50.374
+| Bayer Leverkusen || [[BayArena]] / [[ESPRIT arena|LTU arena]] || style="text-align: center" | 22.500 / 51.500{{FN|2}}
+|}
+
+<small>{{FNZ|1|Bis zur Fertigstellung der Rhein-Neckar-Arena im Januar 2009 trug die TSG 1899 Hoffenheim ihre Heimspiele in der Hinrunde im Mannheimer Carl-Benz-Stadion aus.}}
+
+{{FNZ|2|Wegen der laufenden Aus- und Umbauarbeiten der BayArena trug Bayer Leverkusen seine Heimspiele in der Rückrunde in der Düsseldorfer LTU arena aus.}}</small>
+
+== Die Meistermannschaft des VfL Wolfsburg ==
+{| class="wikitable" width="710"
+|- bgcolor="#52A600"
+| align="center" width="75" |<span style="color:#FFFFFF"> '''1.''' </span>
+| align="center" width="635" |<span style="color:#FFFFFF"> '''VfL Wolfsburg''' </span>
+|- bgcolor="#FFFFFF" align="center"
+| [[Datei:Logo-VfL-Wolfsburg.svg|60px]] || bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Diego Benaglio]] (31/-); [[André Lenz]] (5/-)
+* '''Abwehr''': [[Andrea Barzagli]] (34/-); [[Marcel Schäfer]] (34/-); [[Sascha Riether]] (28/2); [[Alexander Madlung]] (24/3); [[Jan Šimůnek]] (17/-); [[Peter Pekarík]] (16/-); [[Cristian Zaccardo]] (14/1); [[Ricardo Costa (Fußballspieler)|Ricardo Costa]] (11/3); [[Rodrigo Alvim]] (2/-); [[Sergej Karimow]] (1/-); [[Daniel Reiche]] (1/-) 
+* '''Mittelfeld''': [[Christian Gentner]] (34/4); [[Zvjezdan Misimović]] (33/7); [[Josué]] {{Kapitän}} (33/-); [[Ashkan Dejagah]] (27/3); [[Makoto Hasebe]] (25/-); [[Sebastian Schindzielorz]] (6/-)
+* '''Angriff''': [[Edin Džeko]] (32/26); [[Grafite]] (25/28); [[Caiuby]] (9/1); [[Yoshito Ōkubo]] (9/-); [[Alexander Esswein]] (4/-) 
+* '''Trainer''': [[Felix Magath]]
+|}
+''* [[Mahir Sağlık]] (8/1), [[Jonathan Santana]] (6/-) und [[Jacek Krzynowek]] (4/-) haben den Verein während der Saison verlassen.''
+
+== Trainer und Funktionäre ==
+{{siehe auch|Liste der Cheftrainer in der deutschen Fußball-Bundesliga}}
+
+{| class="wikitable zebra"
+! Verein  !! Trainer !! Co-Trainer !! Manager/Sportdirektor !! Präsident/Vorstandschef !! Aufsichtsrats-/ Verwaltungsratschef
+|-
+| [[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]] '''[[Hertha BSC]]'''
+| [[Lucien Favre]]
+| [[Harald Gämperle]]
+| [[Dieter Hoeneß]]
+| [[Werner Gegenbauer]]
+| [[Bernd Schiphorst]]
+|-
+| [[Datei:Arminia Bielefeld Logo 1998–2008.svg|22px|Arminia Bielefeld]] '''[[Arminia Bielefeld]]'''
+| [[Michael Frontzeck]]
+| [[Frank Geideck]]<br />[[Frank Eulberg]]
+| [[Detlev Dammeier]]
+| [[Hans-Hermann Schwick]]
+| [[Hans-Hermann Schwick]]
+|-
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]] '''[[VfL Bochum]]'''
+| [[Marcel Koller]]
+| [[Frank Heinemann (Fußballspieler)|Frank Heinemann]]<br />Nicolas Michaty
+| ?
+| [[Thomas Ernst (Fußballspieler)|Thomas Ernst]]<br />[[Ansgar Schwenken]]
+| [[Werner Altegoer]]
+|-
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]] '''[[Werder Bremen]]'''
+| [[Thomas Schaaf]]
+| [[Matthias Hönerbach]]<br />[[Wolfgang Rolff]]
+| [[Klaus Allofs]]
+| [[Jürgen L. Born]]
+| [[Willi Lemke]]
+|-
+| [[Datei:Logo Energie Cottbus.svg|22px|Energie Cottbus]] '''[[Energie Cottbus]]'''
+| [[Bojan Prašnikar]]
+| [[Guido Hoffmann (Fußballspieler)|Guido Hoffmann]]<br />[[Franklin Bittencourt]]
+| [[Steffen Heidrich]]
+| Ulrich Lepsch
+| Friedhelm Wiegelmann
+|-
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]] '''[[Borussia Dortmund]]'''
+| [[Jürgen Klopp]]
+| [[Željko Buvač]]<br />Peter Krawietz
+| [[Michael Zorc]]
+| [[Hans-Joachim Watzke]]
+| [[Reinhard Rauball]]
+|-
+|  '''[[Eintracht Frankfurt]]'''
+| [[Friedhelm Funkel]]
+| [[Armin Reutershahn]]
+| ?
+| [[Heribert Bruchhagen]]
+| [[Herbert Becker (Politiker, 1937)|Herbert Becker]]
+|-
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]] '''[[Hamburger SV]]'''
+| [[Martin Jol]]
+| Cornelius Jol<br />[[Željko Petrović]]<br />[[Ricardo Moniz]]<br />[[Michael Lindemann]]<br />[[Claus Reitmaier]]
+| [[Dietmar Beiersdorfer]]
+| [[Bernd Hoffmann]]
+| [[Horst Becker (Fußballfunktionär)|Horst Becker]]
+|-
+| [[Datei:Hannover 96 Logo.svg|22px|Hannover 96]] '''[[Hannover 96]]'''
+| [[Dieter Hecking]]
+| [[Dirk Bremser]]
+| [[Christian Hochstätter]]
+| [[Martin Kind]]
+| [[Rainer Feuerhake]]
+|-
+| [[Datei:Logo TSG Hoffenheim.svg|22px|1899 Hoffenheim]] '''[[TSG 1899 Hoffenheim]]'''
+| [[Ralf Rangnick]]
+| [[Peter Zeidler]]<br />[[Achim Sarstedt]]<br />[[Tomislav Marić]]
+| [[Jan Schindelmeiser]]
+| Jochen A. Rotthaus
+| ?
+|-
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]] '''[[Karlsruher SC]]'''
+| [[Edmund Becker]]
+| [[Ralf Becker]]
+| [[Rolf Dohmen]]
+| [[Hubert H. Raase]]
+| Peter Mayer
+|-
+| [[Datei:1. FC Koeln Logo 2000–2014.png|22px|1. FC Köln]] '''[[1. FC Köln]]'''
+| [[Christoph Daum]]
+| [[Roland Koch (Fußballtrainer)|Roland Koch]]
+| [[Michael Meier (Fußballfunktionär)|Michael Meier]]
+| [[Wolfgang Overath]]
+| [[Rolf Martin Schmitz]]
+|-
+| [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]] '''[[Bayer 04 Leverkusen]]'''
+| [[Bruno Labbadia]]
+| [[Eddy Sözer]]
+| [[Rudi Völler]]
+| [[Wolfgang Holzhäuser]]
+| ?
+|-
+| [[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]] '''[[Borussia Mönchengladbach]]'''
+| [[Jos Luhukay]] (bis 5. Oktober 2008)<br />[[Christian Ziege]] (5. bis 17. Oktober 2008)<br />[[Hans Meyer (Fußballtrainer)|Hans Meyer]] (seit 18. Oktober 2008)
+| [[Markus Gellhaus]] (bis 5. Oktober 2008)<br />[[Jürgen Raab]]<br />[[Christian Ziege]] (19. Oktober bis 15. Dezember 2008)
+| [[Christian Ziege]] (bis 18. Oktober 2008)<br />[[Max Eberl]] (seit 19. Oktober 2008)
+| [[Rolf Königs]]
+| ?
+|-
+| [[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]] '''[[FC Bayern München]]'''
+| [[Jürgen Klinsmann]] (bis 27. April 2009)<br />[[Jupp Heynckes]] (seit 27. April 2009)
+| [[Martin Vasquez]] (bis 27. April 2009)<br />[[Hermann Gerland]] (seit 27. April 2009)
+| [[Uli Hoeneß]]
+| [[Karl-Heinz Rummenigge]]
+| [[Franz Beckenbauer]]
+|-
+| [[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]] '''[[FC Schalke 04]]'''
+| [[Fred Rutten]] (bis 26. März 2009)
+| [[Michael Büskens]]<br />[[Youri Mulder]]
+| [[Andreas Müller (Fußballspieler, 1962)|Andreas Müller]]
+| [[Josef Schnusenberg]]
+| [[Clemens Tönnies]]
+|-
+| [[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]] '''[[VfB Stuttgart]]'''
+| [[Armin Veh]] (bis 23. November 2008)<br />[[Markus Babbel]] (seit 23. November 2008)
+| [[Alfons Higl]]<br />[[Markus Babbel]] (bis 23. November 2008)<br />Christian Kolodziej<br />[[Rainer Widmayer]] (seit 23. November 2008)
+| [[Horst Heldt]]
+| [[Erwin Staudt]]
+| [[Dieter Hundt]]
+|-
+| [[Datei:Logo-VfL-Wolfsburg.svg|22px|VfL Wolfsburg]] '''[[VfL Wolfsburg]]'''
+| [[Felix Magath]]
+| [[Seppo Eichkorn]]<br />[[Bernd Hollerbach]]
+| [[Felix Magath]]
+| ?
+| [[Hans Dieter Pötsch]]
+|}
+
+== Eingesetzte Schiedsrichter ==
+{| class="wikitable sortable zebra"
+|+ (Stand: Saisonende 2008/09)
+|-
+! Name || Geboren<br />|| Landesverband<br />|| Anz. d.<br />Spiele<br />|| [[Datei:Yellow card.svg|14px]]<br />|| [[Datei:Yellow-red card.svg|18px]]<br />|| [[Datei:Red card.svg|14px]]<br />||class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Aytekin, Deniz " | [[Deniz Aytekin]] || 21.07.1978 || [[Bayerischer Fußball-Verband|Bayern]] || 10 || 36 ||1 || 2 ||style="text-align:left" |Neuling
+|-
+| style="text-align:left" data-sort-value="Brych, Felix" | [[Felix Brych]] || 03.08.1975 || [[Bayerischer Fußball-Verband|Bayern]] || 18 || 54 ||0 || 1||  style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Drees, Jochen" | [[Jochen Drees]] || 15.03.1970 || [[Südwestdeutscher Fußballverband|Südwest]] || 14 || 51 || 2 || 2 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || 09.03.1964 || [[Fußballverband Rheinland|Rheinland]] || 14 || 56 ||5 ||2 || style="text-align:left" |FIFA-Schiedsrichter bis Ende 2008<br />letzte Bundesligasaison
+|-
+| style="text-align:left" data-sort-value="Fleischer" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || 22.03.1964 || [[Bayerischer Fußball-Verband|Bayern]]|| 16 || 50 || 2 || 0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || 09.06.1968 || [[Bremer Fußball-Verband|Bremen]] ||16|| 57 ||5 ||0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Gräfe, Manuel" | [[Manuel Gräfe]] || 21.09.1973 || [[Berliner Fußball-Verband|Berlin]] || 18 || 87 || 1 ||2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kempter, Michael" | [[Michael Kempter]] || 28.01.1983 || [[Südbadischer Fußballverband|Südbaden]] || 18 || 82|| 0 || 2 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Kinhöfer, Thorsten" | [[Thorsten Kinhöfer]] || 27.06.1968 || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]]|| 20 || 86 || 2 || 3 ||style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kircher, Knut" | [[Knut Kircher]] || 02.02.1969 || [[Württembergischer Fußballverband|Württemberg]] || 17 || 64 || 1 || 0 || style="text-align:left" | FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || 21.11.1968 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 20 || 83 || 2 || 0 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Perl, Günter" | [[Günter Perl]] || 23.12.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 16 || 52 ||1 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Rafati, Babak" | [[Babak Rafati]] || 28.05.1970 || [[Niedersächsischer Fußballverband|Niedersachsen]] ||15 || 57 ||2 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Schmidt, Markus" | [[Markus Schmidt (Schiedsrichter)|Markus Schmidt]] || 31.08.1973 || [[Württembergischer Fußballverband|Württemberg]] || 12 || 54 ||0 ||2 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Seemann, Marc" | [[Marc Seemann]] || 20.04.1973 || [[Fußballverband Niederrhein|Niederrhein]] || {{0}}8 || 26 || 0 || 2 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || 06.10.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 16 || 64 || 2 || 3 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || 20.11.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 20 ||55 ||3 || 0|| style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || 27.05.1963 || [[Hessischer Fußball-Verband|Hessen]] || 10 || 33|| 2 || 2 ||style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || 21.03.1969 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 18|| 64 || 0 ||2 || style="text-align:left" | FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Winkmann, Guido" | [[Guido Winkmann]] || 27.11.1973 || [[Fußballverband Niederrhein|Niederrhein]] || 10 || 45|| 1 || 2||style="text-align:left" |Neuling
+|-
+|}
+
+== Anstoßzeiten ==
+In der Saison 2008/09 wurden die einzelnen Begegnungen eines Spieltages üblicherweise wie folgt angepfiffen:
+
+* Eine Begegnung am Freitag um 20:30 Uhr
+* Sechs Begegnungen am Samstag um 15:30 Uhr (sowie alle Begegnungen der letzten beiden Spieltage)
+* Zwei Begegnungen am Sonntag um 17:00 Uhr
+
+In [[Englische Woche|Englischen Wochen]] gab es zudem auch Dienstags- und Mittwochsspiele.
+
+Um zu gewährleisten, dass kein Verein lediglich einen Ruhetag zwischen nationalen und internationalen Spielen hat, war es in dieser Saison erstmals möglich, ein Samstagsspiel am Sonntag bzw. ein Sonntagsspiel am Samstag stattfinden zu lassen.
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2008/2009|Fußball-Bundesliga 2008/09}}
+* [http://bundesliga.de/de/liga/saisonrueckblick/2008/spieltag34.php Saisonrückblick auf bundesliga.de]
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2009
+|Navigationsleiste Fußballsaison 2008/09 (Deutschland)
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2008-09}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2008/09]]
+[[Kategorie:Fußballsaison 2008/09]]

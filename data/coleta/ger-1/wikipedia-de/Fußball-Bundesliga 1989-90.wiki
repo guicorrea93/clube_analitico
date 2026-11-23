@@ -1,0 +1,344 @@
+{{Infobox Fußballsaison
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Name = Bundesliga 1989/90
+| Meister = [[FC Bayern München]]
+| Europapokal der Landesmeister = [[FC Bayern München]]
+| UEFA Cup = [[1. FC Köln]]<br />[[Eintracht Frankfurt]]<br />[[Borussia Dortmund]]<br />[[Bayer 04 Leverkusen]]
+| Pokal-Sieger = [[1. FC Kaiserslautern]]
+| Europapokal der Pokalsieger = [[1. FC Kaiserslautern]]
+| Relegation ↓ = [[VfL Bochum]] (1:0 und 1:1 gegen [[1. FC Saarbrücken]])
+| Absteiger = [[FC 08 Homburg]]<br />[[SV Waldhof Mannheim]]
+| Mannschaften = 18
+| Spiele = 306
+| Relegationsspiele = 2
+| geschossene Tore = 790
+| Zuschauer = 6.500.484
+| Torschützenkönig = {{NOR|Ziel=Jørn Andersen}}<br />([[Eintracht Frankfurt]])
+| vorherige Saison = [[Fußball-Bundesliga 1988/89|Bundesliga 1988/89]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1990/91|Bundesliga 1990/91]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1989/90|2. Bundesliga 1989/90]]
+}}
+
+Erster in der '''Saison 1989/90 der deutschen [[Fußball-Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]].
+
+== Saisonüberblick ==
+Wie schon in der [[Fußball-Bundesliga 1988/89|Saison zuvor]] gewann Bayern München vor dem [[1. FC Köln]] die Meisterschaft. Auch hier wurde der Titelgewinn bereits frühzeitig entschieden; zwei Spieltage vor Saisonende hatten die Münchner fünf Punkte Vorsprung. Für Eintracht Frankfurt war es die beste Saison seit 1977. Sie gewannen u.&nbsp;a. in Köln mit 5:3.
+
+Denkwürdig war das entscheidende Spiel um den Abstieg: Die beiden punktgleichen Mannschaften [[Bayer 05 Uerdingen]] und [[Borussia Mönchengladbach]] trafen am letzten Spieltag aufeinander, beide lagen zwei Punkte vor den Abstiegsplätzen und benötigten jeweils einen Punkt zum Klassenerhalt. Das Spiel verlief äußerst ereignisarm und endete 0:0. Der [[VfL Bochum]] musste daher die Relegation um den Verbleib in der Liga spielen.
+
+Zum ersten Mal wurde mit dem Norweger [[Jørn Andersen]] ein ausländischer Spieler Torschützenkönig.
+
+== Abschlusstabelle ==
+{| class="float-right" width="305px" cellspacing="0" cellpadding="0" style="font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:0 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:grey     value:rgb(0.86,0.86,0.86)
+  id:lautern  value:rgb(0.8,0.0,0.0)
+  id:koeln    value:rgb(0.51,0.00,0.00)
+  id:frank    value:rgb(0.50,0.00,0.20)
+  id:ksc      value:rgb(0.00,0.05,1)
+  id:uerd     value:rgb(0.68,0.09,0.20)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:2.5 shift:(25,-5)    color:uerd    text:Bayer Uerdingen
+  from:2.5 till:3.5 shift:(25,-5)    color:lautern text:1. FC Kaiserslautern
+  from:3.5 till:6.5 shift:(25,-5)    color:frank   text:Eintracht Frankfurt
+  from:6.5 till:11.5 shift:(25,-5)   color:red     text:Bayern München
+  from:11.5 till:12.5 shift:(25,-5)  color:koeln   text:1. FC Köln
+  from:12.5 till:13.5 shift:(25,-5)  color:red     text:Bayern München
+  from:13.5 till:14.5 shift:(25,-5)  color:black   text:Bayer Leverkusen
+  from:14.5 till:15.5 shift:(25,-5)  color:red     text:Bayern München
+  from:15.5 till:16.5 shift:(25,-5)  color:koeln   text:1. FC Köln
+  from:16.5 till:17.5 shift:(25,-5)  color:red     text:Bayern München
+  from:17.5 till:18.5 shift:(25,-5)  color:koeln   text:1. FC Köln
+  from:18.5 till:19.5 shift:(25,-5)  color:black   text:Bayer Leverkusen
+  from:19.5 till:34.5 shift:(25,-5)  color:red     text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:10 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:grey    value:rgb(0.86,0.86,0.86)
+  id:ksc     value:rgb(0.00,0.50,1)
+  id:bochum  value:rgb(0.00,0.05,1)
+  id:nuern   value:rgb(0.51,0.00,0.00)
+  id:duessel value:rgb(0.80,0.09,0.20)
+  id:frank   value:rgb(0.68,0.09,0.20)
+  id:lautern value:rgb(0.8,0.0,0.0)
+  id:pauli   value:rgb(0.46,0.31,0.23)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,-5)     color:green    text:FC Homburg
+  from:1.5 till:2.5 shift:(25,-5)     color:bochum   text:VfL Bochum
+  from:2.5 till:3.5 shift:(25,-5)     color:ksc      text:Karlsruher SC
+  from:3.5 till:6.5 shift:(25,-5)     color:pauli    text:FC St. Pauli
+  from:6.5 till:7.5 shift:(25,-5)     color:ksc      text:Karlsruher SC
+  from:7.5 till:8.5 shift:(25,-5)     color:green    text:FC Homburg
+  from:8.5 till:14.5 shift:(25,-5)    color:ksc      text:Karlsruher SC
+  from:14.5 till:15.5 shift:(25,-5)   color:pauli    text:FC St. Pauli
+  from:15.5 till:17.5 shift:(25,0)    color:black    text:Borussia~Mönchengladbach
+  from:17.5 till:18.5 shift:(25,0)    color:lautern  text:1. FC Kaiserslautern
+  from:18.5 till:21.5 shift:(25,0)    color:black    text:Borussia~Mönchengladbach
+  from:21.5 till:34.5 shift:(25,0)    color:green    text:FC Homburg
+   </timeline>
+|}
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=19 |U=11 |N= 4 |ET=64 |GT=28 |Siegpunkte=2 |Verein=[[FC Bayern München]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=17 |U= 9 |N= 8 |ET=54 |GT=44 |Siegpunkte=2 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=15 |U=11 |N= 8 |ET=61 |GT=40 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] (R) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 4 |S=15 |U=11 |N= 8 |ET=51 |GT=35 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 5 |S=12 |U=15 |N= 7 |ET=40 |GT=32 |Siegpunkte=2 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=15 |U= 6 |N=13 |ET=53 |GT=47 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=10 |U=14 |N=10 |ET=49 |GT=41 |Siegpunkte=2 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=11 |U=11 |N=12 |ET=42 |GT=46 |Siegpunkte=2 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=10 |U=12 |N=12 |ET=41 |GT=41 |Siegpunkte=2 |Verein=[[Fortuna Düsseldorf]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=10 |U=12 |N=12 |ET=32 |GT=39 |Siegpunkte=2 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=13 |U= 5 |N=16 |ET=39 |GT=46 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang=12 |S=10 |U=11 |N=13 |ET=42 |GT=55 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S= 9 |U=13 |N=12 |ET=31 |GT=46 |Siegpunkte=2 |Verein=[[FC St. Pauli]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=10 |U=10 |N=14 |ET=41 |GT=48 |Siegpunkte=2 |Verein=[[Bayer 05 Uerdingen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=11 |U= 8 |N=15 |ET=37 |GT=45 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=d8bfd8 |Rang=16 |S=11 |U= 7 |N=16 |ET=44 |GT=53 |Siegpunkte=2 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S=10 |U= 6 |N=18 |ET=36 |GT=53 |Siegpunkte=2 |Verein=[[SV Waldhof Mannheim]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 8 |U= 8 |N=18 |ET=33 |GT=51 |Siegpunkte=2 |Verein=[[FC 08 Homburg]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme am [[Europapokal der Landesmeister 1990/91]]: FC Bayern München}}
+{{Farblegende|#fffacd|DFB-Pokal-Sieger und Teilnahme am [[Europapokal der Pokalsieger 1990/91]]: 1. FC Kaiserslautern}}
+{{Farblegende|#ccccff|Teilnahme am [[UEFA-Pokal 1990/91]]: 1. FC Köln, Eintracht Frankfurt, Borussia Dortmund, Bayer 04 Leverkusen}}
+{{Farblegende|#d8bfd8|Teilnahme an der [[Relegationsspiel|Relegation]]: VfL Bochum}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1990/91|2. Bundesliga 1990/91]]: FC 08 Homburg, SV Waldhof Mannheim}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1988/89|1988/89]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1988/89|1988/89]]
+|-
+| (R) || Sieger der [[Fußball-Bundesliga 1988/89#Relegation|Relegation 1988/89]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1988/89|1988/89]]
+|}
+
+== Relegation ==
+In der Relegation spielten der Tabellensechzehnte der 1. Bundesliga und der Tabellendritte der 2. Bundesliga um den letzten freien Platz für die nächste Saison der 1. Bundesliga.
+{{OneLegStart|Datum=1}}
+{{OneLegResult|6=24. Mai 1990|1. FC Saarbrücken|4='''VfL Bochum'''|3=0:1}}
+{{OneLegResult|6=27. Mai 1990|VfL Bochum|4=1. FC Saarbrücken|3=1:1}}
+{{OneLegResult|6=Gesamt|1. FC Saarbrücken|4='''VfL Bochum'''|3=1:2}}
+|-
+| colspan="4" | der VfL Bochum verbleibt in der 1. Bundesliga
+|}
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+| colspan="2" width="200" | '''1989/1990'''
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|22px|FC Bayern München]]
+| [[Datei:Logo Köln 1967-1973.svg|22px|1. FC Köln]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:Logo Borussia Dortmund (1974-1976).gif|22px|Borussia Dortmund]]
+| [[Datei:Bayer 1984 bis 1996.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:fcn logo 1991.png|22px|1. FC Nürnberg]]
+| [[Datei:Fortuna Düsseldorf.svg|22px|Fortuna Düsseldorf]]
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:Fc st pauli logo.svg|22px|FC St. Pauli]]
+| [[Datei:Uerdingen alt.svg|22px|Bayer 05 Uerdingen]]
+| [[Datei:Gladbach gruen.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:SV Waldhof Mannheim 15.09.1978 - 2003.gif|23px|SV Waldhof Mannheim]]
+| [[Datei:FC 08 Homburg Logo.svg|22px|FC Homburg]]
+|-
+| {{0}}1.|| align="left" | [[FC Bayern München]] || bgcolor="#DCDCDC" | || 5:1 || 1:0 || 3:0 || 0:1 || 3:1 || 1:1 || 3:2 || 0:0 || 4:1 || 4:0 || 3:0 || 1:0 || 3:0 || 2:0 || 5:1 || 2:0 || 1:0
+|-
+| {{0}}2.|| align="left" | [[1. FC Köln]] || 1:1 || bgcolor="#DCDCDC" | || 3:5 || 1:1 || 1:1 || 0:0 || 4:2 || 2:1 || 1:3 || 0:5 || 2:0 || 4:1 || 1:0 || 0:1 || 3:0 || 2:0 || 6:0 || 1:0
+|-
+| {{0}}3.|| align="left" | [[Eintracht Frankfurt]] || 1:2 || 3:1 || bgcolor="#DCDCDC" | || 0:2 || 0:3 || 5:1 || 1:0 || 5:1 || 2:0 || 1:1 || 2:0 || 1:1 || 4:1 || 2:1 || 3:0 || 4:0 || 3:1 || 1:1
+|-
+| {{0}}4.|| align="left" | [[Borussia Dortmund]] || 2:2 || 0:0 || 0:0 || bgcolor="#DCDCDC" | || 1:1 || 2:0 || 4:1 || 2:1 || 1:0 || 2:0 || 1:0 || 1:1 || 3:1 || 1:0 || 3:0 || 0:1 || 2:0 || 3:0
+|-
+| {{0}}5.|| align="left" | [[Bayer 04 Leverkusen]] || 0:0 || 0:2 || 2:0 || 1:0 || bgcolor="#DCDCDC" | || 1:1 || 1:3 || 2:0 || 3:3 || 1:1 || 1:0 || 1:1 || 1:1 || 1:1 || 0:0 || 2:1 || 3:0 || 3:1
+|-
+| {{0}}6.|| align="left" | [[VfB Stuttgart]] || 2:1 || 3:1 || 1:1 || 3:1 || 0:0 || bgcolor="#DCDCDC" | || 3:1 || 4:0 || 4:0 || 2:0 || 3:0 || 0:1 || 4:0 || 1:0 || 4:0 || 1:0 || 1:0 || 2:2
+|-
+| {{0}}7.|| align="left" | [[Werder Bremen]] || 2:2 || 4:0 || 1:2 || 2:0 || 0:0 || 6:1 || bgcolor="#DCDCDC" | || 4:0 || 2:2 || 4:0 || 2:1 || 4:0 || 2:1 || 0:0 || 0:0 || 1:1 || 0:1 || 0:0
+|-
+| {{0}}8.|| align="left" | [[1. FC Nürnberg]] || 4:0 || 1:1 || 1:1 || 1:3 || 2:2 || 0:2 || 1:1 || bgcolor="#DCDCDC" | || 3:0 || 2:0 || 2:0 || 0:0 || 0:1 || 1:1 || 2:0 || 2:1 || 2:0 || 2:0
+|-
+| {{0}}9.|| align="left" | [[Fortuna Düsseldorf]] || 1:2 || 1:1 || 1:2 || 1:1 || 2:0 || 4:2 || 2:1 || 0:0 || bgcolor="#DCDCDC" | || 0:0 || 1:1 || 1:1 || 7:0 || 2:1 || 0:1 || 2:2 || 0:0 || 1:0
+|-
+| 10.|| align="left" | [[Karlsruher SC]] || 3:3 || 0:0 || 1:0 || 2:1 || 2:1 || 1:0 || 2:1 || 0:0 || 2:2 || bgcolor="#DCDCDC" | || 2:0 || 0:0 || 0:0 || 0:0 || 0:1 || 2:0 || 4:0 || 0:2
+|-
+| 11.|| align="left" | [[Hamburger SV]] || 0:3 || 0:2 || 1:1 || 1:1 || 0:1 || 1:0 || 4:0 || 1:0 || 1:0 || 1:0 || bgcolor="#DCDCDC" | || 3:0 || 0:0 || 6:0 || 3:0 || 1:4 || 1:0 || 2:0
+|-
+| 12.|| align="left" | [[1. FC Kaiserslautern]] || 0:0 || 1:2 || 2:1 || 2:2 || 2:0 || 1:2 || 2:2 || 0:2 || 1:0 || 5:1 || 1:3 || bgcolor="#DCDCDC" | || 1:1 || 2:1 || 2:1 || 2:1 || 2:3 || 3:1
+|-
+| 13.|| align="left" | [[FC St. Pauli]] || 0:2 || 1:1 || 2:2 || 2:1 || 3:0 || 0:0 || 0:0 || 0:1 || 1:0 || 1:1 || 0:0 || 0:2 || bgcolor="#DCDCDC" | || 1:1 || 2:1 || 2:0 || 2:1 || 1:1
+|-
+| 14.|| align="left" | [[Bayer 05 Uerdingen]] || 2:2 || 2:3 || 1:1 || 1:3 || 0:2 || 4:1 || 0:1 || 3:3 || 0:1 || 1:0 || 5:2 || 3:2 || 1:0 || bgcolor="#DCDCDC" | || 0:0 || 3:1 || 0:2 || 3:0
+|-
+| 15.|| align="left" | [[Borussia Mönchengladbach]] || 0:0 || 0:2 || 2:1 || 0:0 || 1:1 || 3:1 || 4:0 || 3:0 || 3:1 || 0:0 || 1:3 || 3:1 || 4:1 || 0:1 || bgcolor="#DCDCDC" | || 1:2 || 2:0 || 0:0
+|-
+| 16.|| align="left" | [[VfL Bochum]] || 0:0 || 0:1 || 2:2 || 2:3 || 0:2 || 2:0 || 0:0 || 3:3 || 1:2 || 2:0 || 3:1 || 2:0 || 3:3 || 2:1 || 2:1 || bgcolor="#DCDCDC" | || 2:0 || 1:0
+|-
+| 17.|| align="left" | [[SV Waldhof Mannheim]] || 1:0 || 2:3 || 1:1 || 2:1 || 1:1 || 2:1 || 0:0 || 1:1 || 0:1 || 0:1 || 4:1 || 4:0 || 0:1 || 1:1 || 4:2 || 3:2 || bgcolor="#DCDCDC" | || 1:2
+|-
+| 18.|| align="left" | [[FC 08 Homburg]] || 1:3 || 0:1 || 2:3 || 3:3 || 2:1 || 4:2 || 1:1 || 0:1 || 1:0 || 2:0 || 0:1 || 2:2 || 0:2 || 1:2 || 1:3 || 1:0 || 2:1 || bgcolor="#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable" width="400"
+! !! Spieler !! Verein !! Tore
+|-
+| align="center" | 1.|| align="left" | {{NOR|#}} [[Jørn Andersen]] || Eintracht Frankfurt || align="center" | 18
+|-
+| align="center" | 2.|| align="left" | {{DEU-1949|#}} [[Stefan Kuntz]] || | 1. FC Kaiserslautern || align="center" | 15
+|-
+| rowspan="2" align="center" | 3.|| {{DEU-1949|#}} [[Fritz Walter (Fußballspieler, 1960)|Fritz Walter]] || VfB Stuttgart || rowspan="2" align="center" | 13
+|-
+| {{DEU-1949|#}} [[Roland Wohlfarth]] || FC Bayern München
+|-
+| align="center" | 5.|| align="left" | {{DEU-1949|#}} [[Falko Götz]] || 1. FC Köln || align="center" | 11
+|}
+
+== Die Meistermannschaft FC Bayern München ==
+{| class="wikitable" style="width: 700px; text-align: center;"
+|- style="background:#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- style="background:#FFFFFF"
+|[[Datei:Logo Bayern Munchen(1954-1996).svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Raimond Aumann]] (33/-); [[Sven Scheuer]] (1/-)
+* '''Abwehr''': [[Hans Pflügler]] (33/3); [[Stefan Reuter]] (33/-); [[Roland Grahammer]] (28/1); [[Jürgen Kohler]] (26/2); [[Klaus Augenthaler]] {{Kapitän}} (24/1); [[Erland Johnsen]] (8/-)
+* '''Mittelfeld''': [[Hans Dorfner]] (29/5); [[Manfred Schwabl]] (25/3); [[Hansi Flick]] (22/1); [[Olaf Thon]] (20/8); [[Thomas Strunz]] (20/5); [[Manfred Bender]] (20/2); [[Thomas Kastenmaier]] (9/1)
+* '''Angriff''': [[Alan McInally]] (31/10); [[Ludwig Kögl]] (25/4); [[Radmilo Mihajlović]] (25/4); [[Roland Wohlfarth]] (24/13)
+* '''Trainer''': [[Jupp Heynckes]]
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 1989/90}}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 9 || 33 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Amerell, Manfred" | [[Manfred Amerell]] || {{DatumZelle|1947-02-25}} || Bayern || 9 || 38 || 4 ||
+|-
+| style="text-align:left" data-sort-value="Assenmacher, Karl-Josef" | [[Karl-Josef Assenmacher]] || {{DatumZelle|1947-05-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 11 || 27 || 2 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Barnick, Hans-Heinrich" | [[Hans-Heinrich Barnick]] || {{DatumZelle|1943-02-06}} || [[Schleswig-Holsteinischer Fußballverband|Schleswig-Holstein]] || 9 || 24 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 4 || 12 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Blattmann, Rolf" | [[Rolf Blattmann]] || {{DatumZelle|1946-07-04}} || {{CHE|Schweizerischer Fussballverband}} || 1 || 2 || 0 || FIFA-Schiedsrichter<br>Austauschschiedsrichter
+|-
+| style="text-align:left" data-sort-value="Boos, Rainer" | [[Rainer Boos]] || {{DatumZelle|1946-08-16}} || [[Hessischer Fußball-Verband|Hessen]] || 8 || 33 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Broska, Klaus" | [[Klaus Broska]] || {{DatumZelle|1945-02-18}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 8 || 32 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 8 || 26 || 2 || Erste Saison in der Bundesliga 
+|-
+| style="text-align:left" data-sort-value="Dellwing, Hans-Peter" | [[Hans-Peter Dellwing]] || {{DatumZelle|1950-03-15}} || Rheinland || 10 || 19 || 0 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Fockler, Werner" | [[Werner Föckler]] || {{DatumZelle|1945-06-24}} || [[Südwestdeutscher Fußballverband|Südwest]] || 11 || 50 || 2 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 4 || 17 || 2 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Fux, Hans" | [[Hans Fux]] || {{DatumZelle|1946-11-08}} || [[Badischer Fußballverband|Baden]] || 9 || 25 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Galler, Bruno" | [[Bruno Galler]] || {{DatumZelle|1946-10-21}} || {{CHE|#}} Schweiz || 1 || 1 || 0 ||FIFA-Schiedsrichter<br> Austauschschiedsrichter
+|-
+| style="text-align:left" data-sort-value="Harder, Manfred" | [[Manfred Harder (Schiedsrichter)|Manfred Harder]] || {{DatumZelle|1947-05-02}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 9 || 24 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Heitmann, Wilfried" | [[Wilfried Heitmann]] || {{DatumZelle|1943-10-04}} || Niedersachsen || 10 || 32 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Kentsch, Leonhard" | [[Leonhard Kentsch]] || {{DatumZelle|1955-10-25}} || [[Fußballverband Niederrhein|Niederrhein]] || 4 || 5 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Kriegelstein, Bodo" | [[Bodo Kriegelstein]] || {{DatumZelle|1947-10-24}} || Berlin || 9 || 29 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || Westfalen || 8 || 26 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Lower, Lothar" | [[Lothar Löwer]] || {{DatumZelle|1951-09-10}} || Westfalen || 8 || 20 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || Südwest || 8 || 24 || 2 || 
+|-
+| style="text-align:left" data-sort-value="Mierswa, Wolfgang" | [[Wolfgang Mierswa]] || {{DatumZelle|1947-11-01}} || Niedersachsen || 8 || 22 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Muhmenthaler, Serge" | [[Serge Muhmenthaler]] || {{DatumZelle|1953-05-20}} || {{CHE|#}} Schweiz || 2 || 7 || 0 ||FIFA-Schiedsrichter<br>Austauschschiedsrichter
+|-
+| style="text-align:left" data-sort-value="Neuner, Manfred" | [[Manfred Neuner]] || {{DatumZelle|1945-11-20}} || Baden || 10 || 22 || 0 || FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Osmers, Hans-Joachim" | [[Hans-Joachim Osmers]] || {{DatumZelle|1948-04-07}} || [[Bremer Fußball-Verband|Bremen]] || 10 || 25 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Pauly, Dieter" | [[Dieter Pauly]] || {{DatumZelle|1942-02-14}} || Niederrhein || 13 || 33 || 0 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Richmann, Peter" | [[Peter Richmann]] || {{DatumZelle|1956-03-16}} || Mittelrhein || 8 || 33 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Rubel, Siegbert" | [[Siegbert Rubel]] || {{DatumZelle|1945-02-03}} || Bayern || 4 || 11 || 0 || Einzige Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Scheuerer, Hans" | [[Hans Scheuerer]] || {{DatumZelle|1949-10-18}} || Bayern || 8 || 25 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Schmidhuber, Aron" | [[Aron Schmidhuber]] || {{DatumZelle|1947-02-28}} || Bayern || 10 || 32 || 2 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 9 || 27 || 2 || 
+|-
+| style="text-align:left" data-sort-value="Strigel, Eugen" | [[Eugen Strigel]] || {{DatumZelle|1949-09-24}} || [[Württembergischer Fußballverband|Württemberg]] || 8 || 24 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Theobald, Gerhard" | [[Gerhard Theobald]] || {{DatumZelle|1949-12-27}} || [[Saarländischer Fußballverband|Saarland]] || 9 || 28 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Tritschler, Karl-Heinz" | [[Karl-Heinz Tritschler]] || {{DatumZelle|1949-09-16}} || [[Südbadischer Fußballverband|Südbaden]] || 5 || 19 || 0 || FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Umbach, Wolf-Rudiger" | [[Wolf-Rüdiger Umbach]] || {{DatumZelle|1945-08-07}} || Niedersachsen || 6 || 15 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 9 || 29 || 2 || 
+|-
+| style="text-align:left" data-sort-value="Werner, Heinz" | [[Heinz Werner (Schiedsrichter)|Heinz Werner]] || {{DatumZelle|1946-08-08}} || Saarland || 10 || 32 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Wiesel, Wolf-Gunter" | [[Wolf-Günter Wiesel]] || {{DatumZelle|1947-11-16}} || Niedersachsen || 11 || 30 || 0 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Wittke, Kurt" | [[Kurt Wittke]] || {{DatumZelle|1948-06-28}} || Baden || 8 || 19 || 1 || 
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 932 || 31 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="7" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1989-1990/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-23}}</ref>
+|}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1989/90 (DFB)
+|Navigationsleiste Europa-Fußball 1990
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 1989-90}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1989/90]]
+[[Kategorie:Fußballsaison 1989/90]]

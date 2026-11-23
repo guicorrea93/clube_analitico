@@ -1,0 +1,805 @@
+{{Dieser Artikel|behandelt die Bundesligasaison 2010/11 der Männer. Für die Saison in der Frauen-Bundesliga siehe [[Fußball-Bundesliga 2010/11 (Frauen)]].}}
+{{Infobox Fußballsaison
+| Name = Bundesliga 2010/11
+| Bild = [[Datei:Bundesliga Wordmark (2010-2017).svg|250px|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2002–2010. Es besteht aus der Schrift "Bundesliga". Die Schriftfarbe ist schwarz.]][[Datei:Championship celebration Borussia Dortmund 2011.jpg|rahmenlos|zentriert|304px|[[Borussia Dortmund]] feiert die Meisterschaft<br />(von links nach rechts: [[Marco Stiepermann|Stiepermann]], [[Marcel Schmelzer|Schmelzer]], [[Mats Hummels|Hummels]], [[Kevin Großkreutz|Großkreutz]])]]
+| Meister = [[Borussia Dortmund]]
+| UEFA Champions League = Borussia Dortmund<br />[[Bayer 04 Leverkusen]]
+| UEFA Champions League Quali = [[FC Bayern München]]
+| Europa League Quali = [[FC Schalke 04]]<br />[[Hannover 96]]<br />[[1. FSV Mainz 05]]
+| Pokal-Sieger = FC Schalke 04
+| Relegation ↓= [[Borussia Mönchengladbach]] (1:0 und 1:1 gegen [[VfL Bochum]])
+| Absteiger = [[Eintracht Frankfurt]]<br />[[FC St. Pauli]]
+| Mannschaften = 18
+| Spiele = 306
+| Relegationsspiele = 2
+| geschossene Tore = 894
+| Zuschauer = 13.053.007
+| Torschützenkönig = {{DEU|Ziel=Mario Gómez}}<br />([[FC Bayern München]])
+| vorherige Saison = [[Fußball-Bundesliga 2009/10|Bundesliga 2009/10]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2011/12|Bundesliga 2011/12]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2010/11|2. Bundesliga 2010/11]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%;"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:160 height:760#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:mehrfach         value:rgb(0.86,0.86,0.86)
+  id:hoffenheim_wap   value:rgb(0.11,0.39,0.72)
+  id:mainz_wap        value:rgb(1   ,0.16,0.16)
+  id:dortmund_wap     value:rgb(0.99,0.88,0.00)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:1.5 shift:(20,-5)   color:skyblue    text:TSG Hoffenheim
+    from:1.5 till:2.5 shift:(20,0)    color:mehrfach   text:TSG Hoffenheim/~Kaiserslautern
+    from:2.5 till:3.5 shift:(20,-5)   color:skyblue    text:TSG Hoffenheim
+    from:3.5 till:7.5 shift:(20,-5)   color:red        text:1. FSV Mainz 05
+    from:7.5 till:8.5 shift:(20,-5)   color:yellow     text:Borussia Dortmund
+    from:8.5 till:9.5 shift:(20,-5)   color:red        text:1. FSV Mainz 05
+    from:9.5 till:34.5 shift:(20,-5)  color:yellow     text:Borussia Dortmund
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:160 height:760#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:bremen_wap      value:rgb(0.11,0.56,0.32)
+  id:stuttgart_wap   value:rgb(0.98,0.98,0.70)
+  id:schalke_wap     value:rgb(0.00,0.00,1   )
+  id:koeln_wap       value:rgb(1   ,0.00,0.00)
+  id:gladbach_wap    value:rgb(0.00,0.00,0.00)
+  id:st.pauli_wap    value:rgb(0.89,0.02,0.07)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:1.5   shift:(20,-5)   color:bremen_wap         text:Werder Bremen
+     from:1.5  till:3.5   shift:(20,-5)   color:stuttgart_wap      text:VfB Stuttgart
+     from:3.5  till:5.5   shift:(20,-5)   color:schalke_wap        text:FC Schalke 04
+     from:5.5  till:8.5   shift:(20,-5)   color:stuttgart_wap     text:VfB Stuttgart
+     from:8.5  till:9.5   shift:(20,-5)   color:koeln_wap          text:1. FC Köln
+     from:9.5  till:11.5  shift:(20,-5)   color:gladbach_wap       text:Mönchengladbach
+     from:11.5 till:12.5  shift:(20,-5)   color:koeln_wap          text:1. FC Köln
+     from:12.5 till:30.5  shift:(20,-5)   color:gladbach_wap       text:Mönchengladbach
+     from:30.5 till:34.5  shift:(20,-5)   color:st.pauli_wap       text:FC St. Pauli
+</timeline>
+|}
+
+Die '''[[Fußball-Bundesliga|Bundesliga]] 2010/11''' war die 48. Spielzeit der höchsten deutschen Spielklasse im Männerfußball. Am 32. von 34 Spieltagen sicherte sich [[Borussia Dortmund]] die Meisterschaft.
+
+Die Spielzeit begann am 20. August 2010 mit dem Heimspiel des amtierenden Meisters [[FC Bayern München]] gegen den [[VfL Wolfsburg]] (2:1) und endete am 14. Mai 2011 mit dem 34. und letzten Spieltag.<ref>{{Internetquelle |url=http://www.kicker.de/news/fussball/bundesliga/startseite/518503/artikel_Der-Rahmenterminkalender-ist-da.html |titel=Der Rahmenterminkalender ist da |werk=kicker.de |datum=2009-12-16 |abruf=2015-03-19}}</ref> Gleichzeitig mit der Eliteklasse der DFL startete auch die [[2. Fußball-Bundesliga|2. Bundesliga]] in die Spielzeit 2010/11. Bereits vier Wochen zuvor wurde vom 23. bis 25. Juli 2010 der erste Spieltag in der [[3. Fußball-Liga|3. Liga]] ausgetragen. Die [[Relegationsspiel]]e zwischen dem 16. der Bundesliga, Borussia Mönchengladbach, und dem Dritten der 2. Bundesliga, VfL Bochum fanden am 19. und 25. Mai 2011 statt und endeten 1:0 bzw. 1:1. Damit verblieb Mönchengladbach in Liga 1.<ref name="Kalender">{{Toter Link |datum=2025-03 |url=http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000178829.php |text=''Terminierung der Relegationsspiele''. |archivebot=2025-03-14 00:49:14 InternetArchiveBot}} In: ''bundesliga.de''.</ref>
+
+Mit Beginn der Saison 2010/11 wurden ein leicht modifiziertes, neues Bundesligalogo sowie ein einheitlicher Spielball namens [[Torfabrik]] eingeführt.
+
+Erstmals seit der Saison 2003/04 spielten wieder zwei Vereine aus einer Stadt (Hamburger SV, FC St. Pauli) in der Bundesliga. Zum ersten Mal in der 20-jährigen Geschichte des [[Nordostdeutscher Fußballverband|Nordostdeutschen Fußballverbandes]] (NOFV) war in dieser Saison kein Verein aus dem Verbandsgebiet des NOFV in der Bundesliga vertreten.
+
+Der [[1. FSV Mainz 05]] rückte mit sieben Siegen in Folge seit Saisonstart zu den erfolgreichsten „Startmannschaften“ auf. Bisher hatten dies nur der FC Bayern München ([[Fußball-Bundesliga 1995/96|1995/96]]) und der 1. FC Kaiserslautern ([[Fußball-Bundesliga 2001/02|2001/02]]) geschafft. Jedes Mal wurde am Ende Borussia Dortmund Meister. Am 13. Spieltag stellte Borussia Dortmund durch ein 2:1 in Freiburg einen neuen Rekord auf, da sie als erste Bundesligamannschaft siebenmal in Folge auswärts gewonnen hatten. Bereits nach dem 15. Spieltag stand Dortmund auch als [[Herbstmeister]] fest. Am 32. Spieltag wurde Borussia Dortmund durch einen 2:0-Heimsieg gegen den [[1. FC Nürnberg]] und dem gleichzeitigen 2:0-Sieg des [[1. FC Köln]] gegen Verfolger [[Bayer 04 Leverkusen]] vorzeitig und zum insgesamt siebten Mal [[Deutsche Fußballmeisterschaft|Deutscher Meister]].
+
+== Saisonverlauf ==
+=== Oberes Tabellendrittel ===
+[[Datei:FC Bayern München vs VfL Wolfsburg 2010-08-20.jpg|mini|Die Eröffnungsfeier der Saison]]
+Borussia Dortmund unter Trainer [[Jürgen Klopp]] begann die Saison stark und gab die Tabellenführung ab dem zehnten Spieltag nicht mehr aus der Hand. Zwar hatte Dortmund bereits im Vorjahr als Tabellenfünfter eine gute Platzierung erreicht, als Favorit galt die junge Mannschaft vor der Spielzeit aber nicht.
+
+Bayer Leverkusen beteiligte sich abermals am Meisterschaftskampf und wurde schließlich zum fünften Mal in der Vereinsgeschichte Vizemeister, wobei der zweite Platz ab dem 19. Spieltag ununterbrochen gehalten worden war. Nach Punkten war es die viertbeste Saison des Vereins aller Zeiten. Trainer [[Jupp Heynckes]] wurde noch während der laufenden Saison als Trainer des FC Bayern für die folgende Saison abgeworben.
+
+Der FC Bayern München ging nach der Meisterschaft 2009/10 als haushoher Favorit in die Spielzeit, erwischte dann aber einen äußerst schlechten Saisonstart und kam über den dritten Platz nie hinaus, während der Hinrunde sogar nicht über Platz 5. Bereits am 7. März 2011 wurde bekannt gegeben, dass Trainer Louis van Gaal zur folgenden Saison von Heynckes ersetzt werde. Am 29. Spieltag wurde van Gaal nach einem 1:1 in Nürnberg beurlaubt und sein Co-Trainer [[Andries Jonker]] übernahm dessen Aufgaben für die letzten Spiele. Der Vorstand sah die in diesem Jahr [[UEFA-Champions-League-Finale 2012|besonders wichtige]] [[UEFA Champions League 2011/12|Champions-League-Qualifikation]] akut gefährdet. Jonker führte den Verein schlussendlich noch auf Champions-League-Platz 3.
+
+Hannover 96 konnte sich gegenüber der Vorjahressaison deutlich verbessern. Unter Trainer [[Mirko Slomka]] starteten die Niedersachsen gut und kamen nie tiefer als Platz zehn. Am Ende lieferten sie sich gar ein Duell mit den Bayern um Platz drei. Mit Platz 4 sicherten sich die Niedersachsen die erstmalige [[UEFA Europa League 2011/12|Europa-League-Qualifikation]] und die beste Platzierung der Vereinsgeschichte.
+
+Der 1. FSV Mainz 05 stellte mit sieben Siegen an den ersten sieben Spieltagen den Startrekord der Bayern und des 1. FC Kaiserslautern ein und führte vom vierten bis zum siebten Spieltag die Tabelle an. Danach ließ die von [[Thomas Tuchel]] trainierte Mannschaft etwas nach, lag aber nie unter Platz fünf und qualifizierte sich so erstmals für die [[UEFA Europa League 2011/12|Europa League]]. Wie für Hannover war auch für Mainz 2010/2011 die nach Punkten und Platzierung beste Saison der Vereinsgeschichte.
+
+Der 1. FC Nürnberg, der die Klasse im Vorjahr nur durch die Relegation gehalten hatte, startete eher schwach in die Saison. Zur Saisonhälfte brachte der elfte Platz zumindest keine allzu großen Abstiegsängste. Bis zum 25. Spieltag konnten sich die Franken dann jedoch bis auf den sechsten Tabellenplatz hocharbeiten. Mit einem 5:0 gegen den FC St. Pauli gelang der Mannschaft von [[Dieter Hecking]] einer der höchsten Bundesligasiege der Vereinsgeschichte; [[Christian Eigler]] erzielte in diesem Spiel den einzigen „Viererpack“ der Saison. Am Ende verpasste der ''Club'' mit Platz 6 die Europa-League-Qualifikation nur knapp.
+
+=== Mittelfeld ===
+Der Aufsteiger 1. FC Kaiserslautern befand sich über weite Strecken der Saison im unteren Tabellendrittel, belegte aber am Ende einen unerwarteten siebten Platz. Am 25. Spieltag belegte der FCK zwar nur den 17. Platz, allerdings konnte diese Schwächephase durch einen starken Saisonendspurt wettgemacht werden. Die Mannschaft konnte unter [[Marco Kurz]] sieben seiner letzten neun Spiele gewinnen.
+
+Der Hamburger SV erreichte am Ende Platz acht, um den er in der gesamten Saison herum gependelt war. Am 13. März wurde [[Armin Veh]] von seinem Co-Trainer [[Michael Oenning]] abgelöst.
+
+Der SC Freiburg geriet unter Trainer [[Robin Dutt]] nie in Abstiegsprobleme und lag zwischenzeitlich auf Platz vier. Am 21. März wurde bekannt gegeben, dass Dutt im nächsten Jahr Bayer 04 Leverkusen trainieren wird. Am Ende erreichte er mit den Breisgauern Platz neun.
+
+Der 1. FC Köln hielt sich lange in der Abstiegszone auf. Daher wurde [[Zvonimir Soldo]] am 24. Oktober durch [[Frank Schaefer]] ersetzt. Dieser trat am 27. April wieder zurück und wurde durch [[Volker Finke]] ersetzt. Dieser leitete die restlichen Spiele und sicherte mit einem starken Schlussspurt den Klassenerhalt. Am Ende landete Köln auf Platz 10, die beste Platzierung im Saisonverlauf.
+
+Die TSG 1899 Hoffenheim führte vom ersten bis zum dritten Spieltag die Tabelle an. Danach sank das Team von [[Ralf Rangnick]] jedoch immer tiefer ab. Auch [[Marco Pezzaiuoli]], der in der Winterpause neuer Cheftrainer wurde, konnte diesen Trend nicht stoppen. Der elfte Platz am letzten Spieltag war der schlechteste der gesamten Saison.
+
+=== Abstiegskampf ===
+Der VfB Stuttgart blieb wie viele als stark eingestufte Mannschaften weit hinter den eigenen Ansprüchen zurück. Schon nach dem ersten Spieltag lagen die Schwaben auf dem 16. Tabellenplatz, insgesamt lagen sie zwanzig Spiele auf einem Abstiegs- oder Relegationsplatz, mit dem Tiefpunkt am 22. Spieltag, als den VfB vier Punkte von Platz 16 trennten. Trainer [[Christian Gross (Fussballtrainer)|Christian Gross]] wurde am 13. Oktober durch Interimstrainer [[Jens Keller]] ersetzt, diesem folgte zwei Monate später [[Bruno Labbadia]]. Dieser holte in der Rückrunde starke 30 Punkte und der VfB sicherte sich am vorletzten Spieltag mit einem 2:1 gegen Hannover den Klassenerhalt und Platz 12.
+
+Werder Bremen belegte unter [[Thomas Schaaf]] nach dem dritten Platz der Vorsaison diesmal nur den für Werder enttäuschenden Rang 13. Nach dem ersten Spieltag hatte der Verein am Tabellenende gelegen, nach den Spieltagen 20 und 24 auf dem Relegationsplatz.
+
+Der FC Schalke 04 ging als Vizemeister in die Saison. Dennoch hatte der Trainer [[Felix Magath]] die Mannschaft sehr stark umgebaut und dabei etwa Stars wie [[Raúl (Fußballspieler)|Raúl]], [[Klaas-Jan Huntelaar]] oder [[Christoph Metzelder]] nach Gelsenkirchen geholt. Der Verein verbrachte trotz vieler Transfers jedoch fast die gesamte Hinrunde auf oder knapp über den Abstiegsplätzen. Erst ab dem 16. Spieltag stabilisierte sich die Mannschaft um den zehnten Platz. Am 16. März wurde Magath von seinen Aufgaben entbunden. [[Seppo Eichkorn]] wurde zum Interimstrainer, danach gelang die Verpflichtung des zuvor bei Hoffenheim entlassenen [[Ralf Rangnick]]. Unter ihm belegte der Verein am Ende den 14. Tabellenplatz. Während Schalke in der Bundesliga enttäuschte, spielte man in den anderen Wettbewerben umso stärker: S04 gewann den [[DFB-Pokal 2010/11|DFB-Pokal]] durch ein 5:0-Finalsieg gegen den MSV Duisburg und in der [[UEFA Champions League 2010/11|Champions League]] stieß man völlig überraschend ins Halbfinale vor, nachdem Schalke im Viertelfinale den amtierenden Sieger Inter Mailand aus dem Wettbewerb warf. Im Halbfinale schied man letztendlich gegen [[Manchester United]] aus.
+
+Der VfL Wolfsburg, zwei Saisons zuvor noch Meister, spielte eine schwache Saison und geriet am Ende in konkrete Abstiegsnot. [[Steve McClaren]], der erste englische Trainer der Bundesligageschichte, wurde am 7. Februar durch [[Pierre Littbarski]] ersetzt. Am 18. März folgte Meistertrainer Felix Magath, nur zwei Tage, nachdem dieser bei Schalke 04 von seinen Aufgaben entbunden worden war. Mit Rang 15 gelang am Saisonende knapp der direkte Klassenerhalt.
+
+Borussia Mönchengladbach war vom 13. bis zum 30. Spieltag Tabellenletzter gewesen und galt als sicherer Abstiegskandidat, konnte sich dann aber doch noch durch einen starken Endspurt von drei Siegen in Folge gegen den designierten deutschen Meister [[Borussia Dortmund]] (1:0), in [[Hannover 96|Hannover]] (1:0) sowie gegen den [[SC Freiburg]] (2:0) auf den Relegationsplatz retten und dort gegen den [[VfL Bochum]] bestehen. [[Michael Frontzeck]] war dabei am 13. Februar entlassen und durch [[Lucien Favre]] ersetzt worden.
+
+Eintracht Frankfurt startete unter [[Michael Skibbe]] eher schwach, erreichte jedoch am elften Spieltag den Saisonbestwert von Platz 4. Zur Winterpause stand die SGE auf Platz 7. Doch ab Beginn der Rückrunde ging es stetig bergab, was die Entlassung des Trainers am 22. März und die Verpflichtung von [[Christoph Daum]] nicht ändern konnte. Am Ende der Saison landete Frankfurt auf Platz 17 und stieg direkt in die 2. Liga ab. In der historisch schlechten Rückrunde mit viel Verletzungspech schaffte die Eintracht nur einen Sieg und erzielte nur 8 Tore in den 17 Spielen, dabei konnte man vom 18. bis 25. Spieltag kein Tor erzielen.
+
+Der von [[Holger Stanislawski]] trainierte Aufsteiger FC St. Pauli galt als krasser Außenseiter in der Liga. Trotzdem startete St. Pauli für seine Verhältnisse eigentlich ordentlich in die Saison. Nach dem 1:0-Sieg im Nachholspiel gegen Stadtrivale [[Hamburger SV]] belegte St. Pauli mit 28 Punkten aus 22 Spielen Platz 11. Aus den letzten 12 Spielen aber holte St. Pauli nur noch einen Punkt und stieg am Ende als Letzter ab.
+
+== Statistiken ==
+=== Abschlusstabelle ===
+[[Datei:1. Fussball-Bundesliga 2010-11.png|mini|360px|Teilnehmende Vereine im Überblick]]
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=23 |U= 6 |N= 5 |ET=67 |GT=22 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=20 |U= 8 |N= 6 |ET=64 |GT=44 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=19 |U= 8 |N= 7 |ET=81 |GT=40 |Verein=[[FC Bayern München]] (M, P) }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 4 |S=19 |U= 3 |N=12 |ET=49 |GT=45 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=18 |U= 4 |N=12 |ET=52 |GT=39 |Verein=[[1. FSV Mainz 05]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=13 |U= 8 |N=13 |ET=47 |GT=45 |Verein=[[1. FC Nürnberg]] (R) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=13 |U= 7 |N=14 |ET=48 |GT=51 |Verein=[[1. FC Kaiserslautern]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=12 |U= 9 |N=13 |ET=46 |GT=52 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=13 |U= 5 |N=16 |ET=41 |GT=50 |Verein=[[SC Freiburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=13 |U= 5 |N=16 |ET=47 |GT=62 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=11 |U=10 |N=13 |ET=50 |GT=50 |Verein=[[TSG 1899 Hoffenheim]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=12 |U= 6 |N=16 |ET=60 |GT=59 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U=11 |N=13 |ET=47 |GT=61 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=b4cdcd |Rang=14 |S=11 |U= 7 |N=16 |ET=38 |GT=44 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U=11 |N=14 |ET=43 |GT=48 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=fffccc |Rang=16 |S=10 |U= 6 |N=18 |ET=48 |GT=65 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 9 |U= 7 |N=18 |ET=31 |GT=49 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 8 |U= 5 |N=21 |ET=35 |GT=68 |Verein=[[FC St. Pauli]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 2011/12]]: Borussia Dortmund}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League: Bayer 04 Leverkusen}}
+{{Farblegende|#ddddff|Teilnahme an der UEFA-Champions-League-Qualifikation: FC Bayern München}}
+{{Farblegende|#b4cdcd|[[DFB-Pokal 2010/11|DFB-Pokal-Sieger]] und Teilnahme an der Qualifikation zur [[UEFA Europa League 2011/12]]: FC Schalke 04}}
+{{Farblegende|#ffdac2|Teilnahme an der Qualifikation zur UEFA Europa League: Hannover 96, 1. FSV Mainz 05}}
+{{Farblegende|#fffccc|Teilnahme an den [[#Relegation|Relegationsspielen]] gegen den Drittplatzierten der 2. Bundesliga: Borussia Mönchengladbach}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2011/12|2. Bundesliga 2011/12]]: Eintracht Frankfurt, FC St. Pauli}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2009/10|2009/10]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2009/10|2009/10]]
+|-
+| (R) || Sieger der [[Fußball-Bundesliga 2009/10#Relegation|Relegation 2009/10]]
+|-
+| (N) || Aufsteiger der Saison [[2. Fußball-Bundesliga 2009/10|2009/10]]
+|}
+
+=== Tabellenverlauf ===
+[[Datei:Platzierungen Bundesliga 2010-2011.svg|600px]]
+
+=== Kreuztabelle ===
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte, die Gastmannschaft in der oberen Zeile aufgelistet.
+
+{| class="wikitable" style="text-align:center;"
+|-
+!2010/11
+![[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+![[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+![[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+![[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+![[Datei:FSV Mainz 05 Logo.svg|22px|FSV Mainz 05]]
+![[Datei:1. FC Nürnberg logo.svg|22px|1. FC Nürnberg]]
+![[Datei:1FC Kaiserslautern Wappen 2010.svg|22px|1. FC Kaiserslautern]]
+![[Datei:Hamburger SV logo.svg|22px|Hamburger SV]]
+![[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+![[Datei:1. FC Koeln Logo 2000–2014.png|22px|1. FC Köln]]
+![[Datei:Logo TSG Hoffenheim.svg|22px|TSG 1899 Hoffenheim]]
+![[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+![[Datei:SV-Werder-Bremen-Logo.svg|20px|Werder Bremen]]
+![[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+![[Datei:Logo-VfL-Wolfsburg.svg|22px|VfL Wolfsburg]]
+![[Datei:Borussia Mönchengladbach logo.svg|18px|Borussia Mönchengladbach]]
+![[Datei:Logo Eintracht Frankfurt 1998.svg|22px|Eintracht Frankfurt]]
+![[Datei:Fc st pauli logo.svg|22x22px|FC St. Pauli]]
+|-
+| style="text-align:left;" | [[Borussia Dortmund]]
+| class="hintergrundfarbe5" | ||0:2||2:0|| 4:1 ||1:1|| 2:0 ||5:0||2:0||3:0||1:0||1:1||1:1||2:0||0:0||2:0||4:1||3:1||2:0
+|-
+| style="text-align:left;" | [[Bayer 04 Leverkusen]] ||1:3
+| class="hintergrundfarbe5" | ||1:1||2:0||0:1||0:0||3:1||1:1||2:2||3:2||2:1||4:2||2:2||2:0||3:0||3:6||2:1||2:1
+|-
+| style="text-align:left;" | [[FC Bayern München]] || 1:3 ||5:1
+| class="hintergrundfarbe5" | ||3:0||1:2|| 3:0 ||5:1||6:0||4:2||0:0||4:0||2:1||0:0||4:1||2:1||1:0||4:1||3:0
+|-
+| style="text-align:left;" | [[Hannover 96]] ||0:4|| 2:2 ||3:1
+| class="hintergrundfarbe5" | ||2:0||3:1||3:0||3:2||3:0||2:1||2:0||2:1||4:1||0:1||1:0||0:1||2:1||0:1
+|-
+| style="text-align:left;" | [[1. FSV Mainz 05]] ||0:2||0:1||1:3||0:1
+| class="hintergrundfarbe5" | ||3:0||2:1||0:1||1:1|| 2:0 ||4:2||2:0||1:1|| 0:1 || 0:1 ||1:0||3:0|| 2:1
+|-
+| style="text-align:left;" | [[1. FC Nürnberg]] ||0:2||1:0||1:1||3:1||0:0
+| class="hintergrundfarbe5" | ||1:3||2:0||1:2||3:1||1:2||2:1||1:3||2:1||2:1||0:1||3:0||5:0
+|-
+| style="text-align:left;" | [[1. FC Kaiserslautern]] ||1:1||0:1|| 2:0 ||0:1||0:1||0:2
+| class="hintergrundfarbe5" | ||1:1||2:1||1:1||2:2|| 3:3 ||3:2||5:0||0:0||3:0||0:3||2:0
+|-
+| style="text-align:left;" | [[Hamburger SV]] ||1:1||2:4||0:0||0:0|| 2:4 ||1:1|| 2:1
+| class="hintergrundfarbe5" | ||0:2||6:2||2:1||4:2||4:0||2:1||1:3||1:1||1:0||0:1
+|-
+| style="text-align:left;" | [[SC Freiburg]] ||1:2||0:1||1:2||1:3||1:0||1:1||2:1||1:0
+| class="hintergrundfarbe5" | ||3:2||3:2||2:1||1:3|| 1:2 ||2:1||3:0||0:0|| 1:3
+|-
+| style="text-align:left;" | [[1. FC Köln]] ||1:2||2:0||3:2||4:0||4:2||1:0||1:3||3:2||1:0
+| class="hintergrundfarbe5" | ||1:1||1:3||3:0||2:1||1:1||0:4||1:0||1:0
+|-
+| style="text-align:left;" | [[TSG 1899 Hoffenheim]] ||1:0||2:2||1:2||4:0||1:2||1:1|| 3:2 || 0:0 ||0:1||1:1
+| class="hintergrundfarbe5" | ||1:2|| 4:1 ||2:0||1:3||3:2||1:0||2:2
+|-
+| style="text-align:left;" | [[VfB Stuttgart]] ||1:3||1:4||3:5||2:1||1:0||1:4||2:4||3:0||0:1||0:1||1:1
+| class="hintergrundfarbe5" | ||6:0||1:0||1:1||7:0||1:2||2:0
+|-
+| style="text-align:left;" | [[Werder Bremen]] ||2:0|| 2:2 ||1:3||1:1||0:2||2:3||1:2||3:2|| 2:1 ||4:2||2:1||1:1
+| class="hintergrundfarbe5" | ||1:1||0:1||1:1||0:0||3:0
+|-
+| style="text-align:left;" | [[FC Schalke 04]] ||1:3||0:1||2:0|| 1:2 ||1:3||1:1||0:1|| 0:1 ||1:0||3:0||0:1||2:2||4:0
+| class="hintergrundfarbe5" | ||1:0||2:2||2:1||3:0
+|-
+| style="text-align:left;" | [[VfL Wolfsburg]] ||0:3||2:3||1:1||2:0||3:4||1:2||1:2||0:1||2:1||4:1||2:2||2:0||0:0||2:2
+| class="hintergrundfarbe5" | || 2:1 ||1:1||2:2
+|-
+| style="text-align:left;" | [[Borussia Mönchengladbach]] ||1:0||1:3||3:3||1:2||2:3||1:1||0:1||1:2||2:0||5:1||2:0||2:3||1:4||2:1||1:1
+| class="hintergrundfarbe5" | ||0:4||1:2
+|-
+| style="text-align:left;" | [[Eintracht Frankfurt]] ||1:0||0:3|| 1:1 || 0:3 ||2:1||2:0||0:0||1:3||0:1||0:2||0:4||0:2||1:1||0:0||3:1||0:1
+| class="hintergrundfarbe5" | ||2:1
+|-
+| style="text-align:left;" | [[FC St. Pauli]] ||1:3 ||0:1||1:8||0:1||2:4||3:2||1:0||1:1||2:2||3:0||0:1||1:2||1:3||0:2{{FN|1}}||1:1||3:1||1:3
+| class="hintergrundfarbe5" |
+|}
+{{FNZ|1|Das Spiel wurde beim Stand von 0:2 wenige Minuten vor dem regulären Ende abgebrochen und im Nachhinein vom DFB-Sportgericht mit diesem Ergebnis gewertet.<ref>{{DFB.de|27112|Typ=News|Linktext=Sportgericht wertet abgebrochenes Spiel mit 2:0 für Schalke|Abruf=2019-09-13}}</ref>}}
+
+=== Relegation ===
+Die beiden Relegationsspiele zwischen dem Sechzehnten der Bundesliga und dem Dritten der 2. Bundesliga wurden am 19. Mai 2011 und am 25. Mai 2011<ref name="Kalender" /> ausgetragen und live im [[Das Erste|Ersten]] ausgestrahlt.
+
+{{OneLegStart|Datum=1|8=Tore}}
+{{OneLegResult|6=19. Mai 2011|'''[[Borussia Mönchengladbach]]'''||[[2. Fußball-Bundesliga 2010/11#AufstiegHinspiel|1:0 (0:0)]]|[[VfL Bochum]]|9=1:0 [[Igor de Camargo|de Camargo]] (90.+3')}}
+{{OneLegResult|6=25. Mai 2011|[[VfL Bochum]]||[[2. Fußball-Bundesliga 2010/11#AufstiegRückspiel|1:1 (1:0)]]|[[Borussia Mönchengladbach]]|9=1:0 [[Håvard Nordtveit|Nordtveit]] (24., Eigentor), 1:1 [[Marco Reus|Reus]] (72.)}}
+{{OneLegResult|6=Gesamt|'''[[Borussia Mönchengladbach]]'''||2:1|[[VfL Bochum]]|Farbe1=ccffcc}}
+|}
+
+=== Torschützenliste ===
+[[Datei:Mario Gomez100.jpg|mini|hochkant=0.7|Torschützenkönig und bester Scorer: Mario Gómez]]
+
+{| class="wikitable sortable" style="width:65%;"
+! style="width:4%;" class="unsortable"| Pl.
+! style="width:4%;" class="unsortable"| Nat.
+! style="width:23%;"| Spieler<ref name="torjäger">''bundesliga.de'': {{Webarchiv |url=http://bundesliga.de/de/liga/torjaeger/index.php |text=Torjäger |wayback=20110428170330 |archiv-bot=2019-04-12 11:21:26 InternetArchiveBot}}</ref>
+! style="width:23%;"| Verein
+! style="width:11%;"| Tore
+|-
+! 1
+| align="center" | {{DEU|#}} || [[Mario Gómez]]|| [[FC Bayern München]] || align="center" | 28
+|-
+! 2
+| align="center" | {{SEN|#}} || [[Papiss Demba Cissé]]|| [[SC Freiburg]] || align="center" | 22
+|-
+! 3
+| align="center" | {{SVN|#}} || [[Milivoje Novakovič]]|| [[1. FC Köln]] || align="center" | 17
+|-
+! 4
+| align="center" | {{PRY-1990|#}} || [[Lucas Barrios]]|| [[Borussia Dortmund]] || align="center" | 16
+|-
+!
+| align="center" | {{GRC|#}} || [[Theofanis Gekas]]|| [[Eintracht Frankfurt]] || align="center" | 16
+|-
+!
+| align="center" | {{HRV|#}} || [[Srđan Lakić]]|| [[1. FC Kaiserslautern]] || align="center" | 16
+|-
+! 7
+| align="center" | {{DEU|#}} || [[André Schürrle]]|| [[1. FSV Mainz 05]] || align="center" | 15
+|-
+! 8
+| align="center" | {{CIV|#}} || [[Didier Ya Konan]]|| [[Hannover 96]] || align="center" | 14
+|-
+! 9
+| align="center" | {{DEU|#}} || [[Lukas Podolski]]|| [[1. FC Köln]] || align="center" | 13
+|-
+!
+| align="center" | {{ESP|#}} || [[Raúl (Fußballspieler)|Raúl]]|| [[FC Schalke 04]] || align="center" | 13
+|- class="unsortable"
+|}
+
+=== Scorerliste ===
+{| class="wikitable sortable" style="width:87%;"
+! style="width:4%;" class="unsortable"| Pl.
+! style="width:4%;" class="unsortable"| Nat.
+! style="width:23%;"| Spieler<ref name="scorer">''bundesliga.de'': {{Webarchiv|url=http://bundesliga.de/de/liga/scorer/index.php |wayback=20110428172704 |text=Scorer und Vorlagengeber |archiv-bot=2022-11-05 07:57:20 InternetArchiveBot }}</ref>
+! style="width:23%;"| Verein
+! style="width:11%;"| Gesamt
+! style="width:11%;"| Tore
+! style="width:11%;"| Vorlagen
+|-
+! 1
+| align="center" | {{DEU|#}} || [[Mario Gómez]]|| [[FC Bayern München]] || align="center" | 30 || align="center" | 28 || align="center" | {{0}}2
+|-
+! 2
+| align="center" | {{DEU|#}} || [[Thomas Müller]]|| [[FC Bayern München]] || align="center" | 23 || align="center" | 12 || align="center" | 11
+|-
+! 3
+| align="center" | {{SEN|#}} || [[Papiss Demba Cissé]]|| [[SC Freiburg]] || align="center" | 22 || align="center" | 22 || align="center" | {{0}}0
+|-
+! 4
+| align="center" | {{CHL|#}} || [[Arturo Vidal]]|| [[Bayer 04 Leverkusen]] || align="center" | 21 || align="center" | 10 || align="center" | 11
+|-
+! 5
+| align="center" | {{SVN|#}} || [[Milivoje Novakovič]]|| [[1. FC Köln]] || align="center" | 20 || align="center" | 17 || align="center" | {{0}}3
+|-
+!
+| align="center" | {{NLD|#}} || [[Arjen Robben]]|| [[FC Bayern München]] || align="center" | 20 || align="center" | 12 || align="center" | {{0}}8
+|-
+!
+| align="center" | {{CIV|#}} || [[Didier Ya Konan]]|| [[Hannover 96]] || align="center" | 20 || align="center" | 14 || align="center" | {{0}}6
+|-
+! 8
+| align="center" | {{DEU|#}} || [[André Schürrle]]|| [[1. FSV Mainz 05]] || align="center" | 19 || align="center" | 15 || align="center" | {{0}}4
+|-
+!
+| align="center" | {{DEU|#}} || [[Christian Tiffert]]|| [[1. FC Kaiserslautern]] || align="center" | 19 || align="center" | {{0}}2 || align="center" | 17
+|-
+! 10
+| align="center" | {{PRY-1990|#}} || [[Lucas Barrios]]|| [[Borussia Dortmund]] || align="center" | 18 || align="center" | 16 || align="center" | {{0}}2
+|-
+!
+| align="center" | {{GRC|#}} || [[Theofanis Gekas]]|| [[Eintracht Frankfurt]] || align="center" | 18 || align="center" | 16 || align="center" | {{0}}2
+|-
+!
+| align="center" | {{DEU|#}} || [[Marco Reus]]|| [[Borussia Mönchengladbach]] || align="center" | 18 || align="center" | 10 || align="center" | {{0}}8
+|-
+!
+| align="center" | {{FRA|#}} || [[Franck Ribéry]]|| [[FC Bayern München]] || align="center" | 18 || align="center" | {{0}}7 || align="center" | 11
+|}
+
+=== Meiste Torvorlagen ===
+[[Datei:Christian Tiffert.jpg|mini|200px|Christian Tiffert gab die meisten Torvorlagen]]
+{| class="wikitable sortable" style="width:65%;"
+! style="width:4%;" class="unsortable"| Pl.
+! style="width:4%;" class="unsortable"| Nat.
+! style="width:23%;"| Spieler<ref name="scorer" />
+! style="width:23%;"| Verein
+! style="width:11%;"| Vorlagen
+|-
+! 1
+| align="center" | {{DEU|#}} || [[Christian Tiffert]]|| [[1. FC Kaiserslautern]] || align="center" | 17
+|-
+! 2
+| align="center" | {{DEU|#}} || [[Mario Götze]]|| [[Borussia Dortmund]] || align="center" | 11
+|-
+!
+| align="center" | {{DEU|#}} || [[Thomas Müller]]|| [[FC Bayern München]] || align="center" | 11
+|-
+!
+| align="center" | {{FRA|#}} || [[Franck Ribéry]]|| [[FC Bayern München]] || align="center" | 11
+|-
+!
+| align="center" | {{CHL|#}} || [[Arturo Vidal]]|| [[Bayer 04 Leverkusen]] || align="center" | 11
+|-
+! 6
+| align="center" | {{BRA|#}} || [[Diego Ribas da Cunha|Diego]]|| [[VfL Wolfsburg]] || align="center" | {{0}}9
+|-
+!
+| align="center" | {{TUR|#}} || [[Mehmet Ekici]]|| [[1. FC Nürnberg]] || align="center" | {{0}}9
+|-
+!
+| align="center" | {{DEU|#}} || [[Marko Marin]]|| [[Werder Bremen]] || align="center" | {{0}}9
+|-
+!
+| align="center" | {{BRA|#}} || [[Zé Roberto]]|| [[Hamburger SV]] || align="center" | {{0}}9
+|-
+! 10
+| align="center" | {{DEU|#}} || [[Gonzalo Castro Randon|Gonzalo Castro]]|| [[Bayer 04 Leverkusen]] || align="center" | {{0}}8
+|-
+!
+| align="center" | {{AUT|#}} || [[Christian Fuchs (Fußballspieler)|Christian Fuchs]]|| [[1. FSV Mainz 05]] || align="center" | {{0}}8
+|-
+!
+| align="center" | {{DEU|#}} || [[Lewis Holtby]]|| [[1. FSV Mainz 05]] || align="center" | {{0}}8
+|-
+!
+| align="center" | {{DEU|#}} || [[Marco Reus]]|| [[Borussia Mönchengladbach]] || align="center" | {{0}}8
+|-
+!
+| align="center" | {{NLD|#}} || [[Arjen Robben]]|| [[FC Bayern München]] || align="center" | {{0}}8
+|-
+!
+| align="center" | {{TUR|#}} || [[Nuri Şahin]]|| [[Borussia Dortmund]] || align="center" | {{0}}8
+|}
+
+=== Zuschauertabelle ===
+[[Datei:Signal iduna park stadium dortmund 6.jpg|mini|Der höchste Zuschauerschnitt der Liga lag im Westfalenstadion bei 79.151]]
+[[Datei:BrugweckStadion.jpg|mini|Den niedrigsten Schnitt hatte mit 20.182 Besuchern pro Spiel der 1. FSV Mainz 05, sicher auch aufgrund des kleinsten Stadions der Liga]]
+
+Mit 1.345.560 Besuchern in der gesamten Saison hatte Borussia Dortmund erneut die meisten Zuschauer und übertraf damit die Zahl aus der Vorsaison mit 1.313.208 Zuschauern.<ref>[http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2010-11/zuschauer-der-saison.html Zuschauertabelle auf kicker online]</ref>
+
+{| class="wikitable sortable" style="text-align:center;"
+|- class="hintergrundfarbe5"
+! !! Verein!! Zuschauer!! pro Spiel!! Auslastung {{FN|2}}!! ausverkauft
+|- style="background:#FFFFFF;"
+! {{0}}1.
+| style="text-align:left;" | [[Borussia Dortmund]]|| 1.345.560|| 79.151|| {{0}}{{formatnum:{{#expr: 79151/80720 * 100 round 2}}}} % || 13/17
+|- style="background:#FFFFFF;"
+! {{0}}2.
+| style="text-align:left;" | [[FC Bayern München]]|| 1.173.000|| 69.000|| {{formatnum:{{#expr: 69000/69000 * 100 round 2}}}},00 % || 17/17
+|- style="background:#FFFFFF;"
+! {{0}}3.
+| style="text-align:left;" | [[FC Schalke 04]]|| 1.042.446|| 61.320|| {{0}}{{formatnum:{{#expr: 61320/61673 * 100 round 2}}}} % || 11/17
+|- style="background:#FFFFFF;"
+! {{0}}4.
+| style="text-align:left;" | [[Hamburger SV]]|| 925.579|| 54.446|| {{0}}{{formatnum:{{#expr: 54446/57000 * 100 round 2}}}} % || {{0}}8/17
+|- style="background:#FFFFFF;"
+! {{0}}5.
+| style="text-align:left;" | [[1. FC Köln]]|| 812.300|| 47.782|| {{0}}{{formatnum:{{#expr: 47782/50000 * 100 round 2}}}} % || {{0}}8/17
+|- style="background:#FFFFFF;"
+! {{0}}6.
+| style="text-align:left;" | [[Eintracht Frankfurt]]|| 805.200|| 47.365|| {{0}}{{formatnum:{{#expr: 47365/51500 * 100 round 2}}}} % || {{0}}7/17
+|- style="background:#FFFFFF;"
+! {{0}}7.
+| style="text-align:left;" | [[1. FC Kaiserslautern]]|| 788.665|| 46.392|| {{0}}{{formatnum:{{#expr: 46392/49780 * 100 round 2}}}} % || {{0}}6/17
+|- style="background:#FFFFFF;"
+! {{0}}8.
+| style="text-align:left;" | [[Borussia Mönchengladbach]]|| 768.207|| 45.189|| {{0}}{{formatnum:{{#expr: 45189/54057 * 100 round 2}}}}0 % || {{0}}2/17
+|- style="background:#FFFFFF;"
+! {{0}}9.
+| style="text-align:left;" | [[Hannover 96]]|| 746.345|| 43.903|| {{0}}{{formatnum:{{#expr: 43903/49000 * 100 round 2}}}}0 % || {{0}}6/17
+|- style="background:#FFFFFF;"
+! 10.
+| style="text-align:left;" | [[1. FC Nürnberg]]|| 714.337|| 42.020|| {{0}}{{formatnum:{{#expr: 42020/48548 * 100 round 2}}}} % || {{0}}6/17
+|- style="background:#FFFFFF;"
+! 11.
+| style="text-align:left;" | [[VfB Stuttgart]]|| 663.700|| 39.041|| {{0}}{{formatnum:{{#expr: 39041/40500 * 100 round 2}}}}0 %|| {{0}}8/17
+|- style="background:#FFFFFF;"
+! 12.
+| style="text-align:left;" | [[Werder Bremen]]|| 635.232|| 37.367|| {{0}}{{formatnum:{{#expr: 37367/40600 * 100 round 2}}}} %|| 11/17
+|- style="background:#FFFFFF;"
+! 13.
+| style="text-align:left;" | [[TSG 1899 Hoffenheim]]|| 507.800|| 29.871|| {{0}}{{formatnum:{{#expr: 29871/30164 * 100 round 2}}}} % || 12/17
+|- style="background:#FFFFFF;"
+! 14.
+| style="text-align:left;" | [[VfL Wolfsburg]]|| 491.079|| 28.887|| {{0}}{{formatnum:{{#expr: 28887/30000 * 100 round 2}}}} % || 10/17
+|- style="background:#FFFFFF;"
+! 15.
+| style="text-align:left;" | [[Bayer 04 Leverkusen]]|| 486.764|| 28.633|| {{0}}{{formatnum:{{#expr: 28633/30210 * 100 round 2}}}} % || {{0}}9/17
+|- style="background:#FFFFFF;"
+! 16.
+| style="text-align:left;" | [[FC St. Pauli]]|| 412.393|| 24.258|| {{0}}{{formatnum:{{#expr: 24258/24487 * 100 round 2}}}} %|| 11/17
+|- style="background:#FFFFFF;"
+! 17.
+| style="text-align:left;" | [[SC Freiburg]]|| 391.300|| 23.018|| {{0}}{{formatnum:{{#expr: 23018/24000 * 100 round 2}}}} % || 10/17
+|- style="background:#FFFFFF;"
+! 18.
+| style="text-align:left;" | [[1. FSV Mainz 05]]|| 343.100|| 20.182|| {{0}}{{formatnum:{{#expr: 20182/20300 * 100 round 2}}}} %|| 14/17
+|- class="hintergrundfarbe5"
+! –
+| style="text-align:left;" | '''GESAMT'''|| '''13.053.007'''|| '''42.657'''|| '''{{0}}{{formatnum:{{#expr: 42657/45086 * 100 round 2}}}} %'''|| '''169/306'''
+|}
+{{FNZ|2|Die Stadien des VfB Stuttgart, von Werder Bremen und des FC St. Pauli wurden während der Saison um- und ausgebaut, sodass die Kapazitäten im Saisonverlauf schwankten. Als Grundlage der Auslastung wurde die Maximalkapazität bei einem ausverkauften Spiel im jeweiligen Stadion genommen.}}
+
+== Spielstätten ==
+{| class="wikitable" style="width:100%;"
+|- class="hintergrundfarbe8"
+! style="width:21%;"| Verein
+! style="width:19%;"| Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%;"| Kapazität
+| style="width:2%; background-color:#ffffff; border:0px;" rowspan="10" |
+! style="width:21%;"| Verein
+! style="width:19%;"| Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%;"| Kapazität
+|-
+| Borussia Dortmund || [[Westfalenstadion]]<br /><small>(Signal Iduna Park)</small> || style="text-align:center;" | 80.720
+| 1. FC Nürnberg || [[Easycredit-Stadion]] || style="text-align:center;" | 48.553
+|-
+| FC Bayern München || [[Allianz Arena]] || style="text-align:center;" | 69.901
+| Werder Bremen || [[Weserstadion]] || style="text-align:center;" | {{0|<sup>1</sup>}}42.354{{FN|1}}
+|-
+| FC Schalke 04 || [[Veltins-Arena]] || style="text-align:center;" | 61.673
+| VfB Stuttgart || [[MHPArena|Mercedes-Benz Arena]] || style="text-align:center;" | {{0|<sup>1</sup>}}39.000{{FN|1}}
+|-
+| Hamburger SV || [[Volksparkstadion]]<br /><small>(Imtech Arena)</small> || style="text-align:center;" | 57.000
+| Bayer 04 Leverkusen || [[BayArena]] || style="text-align:center;" | 30.210
+|-
+| Borussia Mönchengladbach || [[Borussia-Park]] || style="text-align:center;" | 54.057
+| TSG 1899 Hoffenheim || [[Rhein-Neckar-Arena]] || style="text-align:center;" | 30.150
+|-
+| Eintracht Frankfurt || [[Commerzbank-Arena]] || style="text-align:center;" | 52.500
+| VfL Wolfsburg || [[Volkswagen Arena]] || style="text-align:center;" | 30.000
+|-
+| 1. FC Köln || [[Rheinenergiestadion]] || style="text-align:center;" | 50.000
+| SC Freiburg || [[Dreisamstadion]]<br /><small>(Badenova-Stadion)</small> || style="text-align:center;" | 25.000
+|-
+| 1. FC Kaiserslautern || [[Fritz-Walter-Stadion]] || style="text-align:center;" | 49.780
+| FC St. Pauli || [[Millerntor-Stadion]] || style="text-align:center;" | 24.487
+|-
+| Hannover 96 || [[AWD-Arena]] || style="text-align:center;" | 49.000
+| 1. FSV Mainz 05 || [[Bruchwegstadion]] || style="text-align:center;" | 20.300
+|}
+:{{FNZ|1|<small>Umbau</small>}}
+
+== Sponsoren ==
+{| class="wikitable"
+|- class="hintergrundfarbe5"
+! Platz!! Verein!! Sponsor!! Summe!! Ausrüster
+|-
+| 1.|| [[FC Bayern München]]|| [[Deutsche Telekom]] (Telekommunikation)|| {{0}} 20,0 Mio. €|| [[adidas]]
+|-
+| || [[FC Schalke 04]]|| [[Gazprom]] (Gas- und Ölindustrie)|| {{0}} 20,0 Mio. €|| adidas
+|-
+| || [[VfL Wolfsburg]]|| [[Volkswagen]] (Autoindustrie)|| {{0}} 20,0 Mio. €|| adidas
+|-
+| 4.|| [[Borussia Dortmund]]|| [[Evonik Industries|Evonik]] (Mischkonzern)|| {{0}} 15,0 Mio. € || [[Kappa (Unternehmen)|Kappa]]
+|-
+| 5.|| [[Werder Bremen]]|| [[Targobank]] (Finanzunternehmen)|| {{0|00}} 9,5 Mio. €|| [[Nike (Unternehmen)|Nike]]
+|-
+| 6.|| [[Bayer 04 Leverkusen]]|| [[TelDaFax]] (Telekommunikation)|| {{0|00}} 6,0 Mio. €|| adidas
+|-
+| || [[VfB Stuttgart]]|| [[Garmo (Unternehmen)|Gazi]] (Lebensmittelindustrie)|| {{0|00}} 6,0 Mio. €|| [[Puma (Unternehmen)|Puma]]
+|-
+| 8.|| [[Hamburger SV]]|| [[Emirates|Fly Emirates]] (Fluggesellschaft)|| {{0|00}} 5,0 Mio. €|| adidas
+|-
+| || [[Eintracht Frankfurt]]|| [[Fraport]] (Dienstleister)|| {{0|00}} 5,0 Mio. €|| [[JAKO]]
+|-
+| 10.|| [[Borussia Mönchengladbach]]|| [[Postbank]] (Finanzunternehmen)|| {{0|00}} 4,8 Mio. €|| [[Lotto Sport Italia|Lotto]]
+|-
+| 11.|| [[1. FC Köln]]|| [[Rewe Group|REWE]] (Einzelhandel)|| {{0|00}} 4,3 Mio. €|| [[Reebok]]
+|-
+| 12.|| [[FC St. Pauli]]|| [[ARD-Fernsehlotterie|Ein Platz an der Sonne]] (Lotterie)|| {{0|00}} 3,8 Mio. €|| Do you Football
+|-
+| 13.|| [[1. FC Kaiserslautern]]|| [[Dr. Theiss Naturwaren|Allgäuer Latschenkiefer]] (Naturmittelhersteller)|| {{0|00}} 3,0 Mio. €|| Do you Football
+|-
+| 14.|| [[1. FC Nürnberg]]|| [[Areva]] (Nuklearkonzern)|| {{0|00}} 2,8 Mio. €|| adidas
+|-
+| 15.|| [[SC Freiburg]]|| [[Ehrmann AG|Ehrmann]] (Molkerei)|| {{0|00}} 2,5 Mio. €|| Nike
+|-
+| || [[Hannover 96]]|| [[TUI]] (Touristikkonzern)|| {{0|00}} 2,5 Mio. €|| [[Under Armour]]
+|-
+| || [[1. FSV Mainz 05]]|| [[Entega]] (Energiedienstleister)|| {{0|00}} 2,5 Mio. €|| Nike
+|-
+| 18.|| [[TSG 1899 Hoffenheim]]|| [[TV Digital]] (Programmzeitschrift)|| {{0|00}} 2,4 Mio. €|| Puma
+|-
+|}
+
+== Anstoßzeiten ==
+[[Datei:Bundesligaanstoßzeiten 2010-11.jpg|mini|Schema der Anstoßzeiten]]
+
+In der Saison 2010/11 wurden die einzelnen Begegnungen eines Spieltages üblicherweise wie in der Vorsaison angepfiffen:
+
+* Freitag um 20:30 Uhr ein Spiel
+* Samstag um 15:30 Uhr fünf Spiele
+* Samstag um 18:30 Uhr ein Spiel
+* Sonntag um 15:30 Uhr ein Spiel
+* Sonntag um 17:30 Uhr ein Spiel
+
+Hinzu kaman mehrere Ausnahmeregelungen: Unmittelbar im Anschluss an die Abstellungsperioden der FIFA für Nationalspieler (bis zu sechsmal pro Saison) wurde das Freitagsspiel auf Samstag (15:30 Uhr) verlegt. Zudem wurde bis zu fünfmal pro Saison nach Europa-League-Wochen das Samstagsspiel, das für 18:30 Uhr terminiert war, auf Sonntag (17:30 Uhr) geschoben. Am fünften Spieltag am 21. und 22. September 2010 (Dienstag/Mittwoch) fanden alle Spiele abends um 20:00 Uhr statt, und die letzten beiden Spieltage wurden wie üblich zeitgleich am Samstagnachmittag ausgetragen.
+{{Absatz}}
+
+== Die Meistermannschaft von Borussia Dortmund ==
+{| class="wikitable" width="700"
+|- style="background:#FFE600"
+| align="center" width="75" |<span style="color:#000000;"> '''1.''' </span>
+| align="center" width="625" |<span style="color:#000000;"> '''Borussia Dortmund''' </span>
+|- style="background:#FFFFFF" align="center"
+|[[Datei:Borussia Dortmund logo.svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Roman Weidenfeller]] (33/-); [[Mitchell Langerak]] (1/-)
+* '''Abwehr''': [[Marcel Schmelzer]] (34/-); [[Łukasz Piszczek]] (33/-); [[Mats Hummels]] (32/5); [[Neven Subotić]] (31/1); [[Felipe Santana]] (13/-); [[Patrick Owomoyela]] (6/-); [[Dedê]] (4/-)
+* '''Mittelfeld''': [[Kevin Großkreutz]] (34/8); [[Mario Götze]] (33/6); [[Sven Bender]] (31/1); [[Jakub Błaszczykowski]] (29/3); [[Nuri Şahin]] (30/6); [[Antônio da Silva]] (22/1); [[Shinji Kagawa]] (18/8); [[Sebastian Kehl]] {{Kapitän}} (6/-); [[Markus Feulner]] (6/-)
+* '''Angriff''': [[Robert Lewandowski]] (33/8); [[Lucas Barrios]] (32/16); [[Mohamed Zidan]] (8/-); [[Marco Stiepermann]] (4/-)
+* '''Trainer''': [[Jürgen Klopp]]
+|}
+''* [[Dimitar Rangelow]] (1/-) hat den Verein während der Saison verlassen.''
+
+== Trainer und Funktionäre ==
+{{Siehe auch|Liste der Cheftrainer in der deutschen Fußball-Bundesliga}}
+
+{| class="wikitable zebra"
+! style="width:15em"|Verein
+! Trainer
+! Co-Trainer
+! Manager/Sportdirektor
+! Präsident/Vorstandschef
+! Aufsichtsrats-/Verwaltungsratschef
+|-
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]] [[Werder Bremen]]
+| [[Thomas Schaaf]]
+| [[Matthias Hönerbach]]<br />[[Wolfgang Rolff]]
+| [[Klaus Allofs]]
+| [[Klaus Allofs]] (kommissarisch)
+| [[Willi Lemke]]
+|-
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]] [[Borussia Dortmund]]
+| [[Jürgen Klopp]]
+| [[Željko Buvač]]<br />[[Peter Krawietz]]<br />Oliver Bartlett
+| [[Michael Zorc]]
+| [[Reinhard Rauball]] (Vorsitzender des Vereins)<br />[[Hans-Joachim Watzke]] Vorsitzender der Geschäftsführung des [[KGaA]]
+| [[Winfried Materna]]
+|-
+|  [[Eintracht Frankfurt]]
+| [[Michael Skibbe]] bis 22. März 2011<br />[[Christoph Daum]] ab 23. März 2011
+| Eddy Boekamp bis 22. März 2011<br />[[Roland Koch (Fußballtrainer)|Roland Koch]] ab 23. März 2011
+|
+| [[Peter Fischer (Sportfunktionär)|Peter Fischer]]
+| [[Wilhelm Bender (Manager)|Wilhelm Bender]]
+|-
+| [[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]] [[SC Freiburg]]
+| [[Robin Dutt]]
+| [[Christian Streich]]<br />[[Damir Burić]]
+| [[Dirk Dufner]]
+| Fritz Keller
+|
+|-
+| [[Datei:Hamburger SV logo.svg|22px|Hamburger SV]] [[Hamburger SV]]
+| [[Armin Veh]] bis 13. März 2011<br />[[Michael Oenning]] (interim) ab 13. März 2011
+| [[Michael Oenning]] bis 13. März 2011<br />[[Reiner Geyer]] bis 13. März 2011<br />[[Rodolfo Cardoso]] (interim) ab 13. März 2011
+| [[Bastian Reinhardt]]
+| [[Bernd Hoffmann]] bis 16. März 2011<br />[[Carl-Edgar Jarchow]] (kommissarisch) ab 16. März 2011
+| [[Ernst-Otto-Rieckhoff]]
+|-
+| [[Datei:Hannover 96 Logo.svg|22px|Hannover 96]] [[Hannover 96]]
+| [[Mirko Slomka]]
+| [[Nestor El Maestro]]<br />[[Norbert Düwel]]
+| [[Jörg Schmadtke]]
+| [[Martin Kind]]
+| [[Rainer Feuerhake]]
+|-
+| [[Datei:Logo TSG Hoffenheim.svg|22px|1899 Hoffenheim]] [[TSG 1899 Hoffenheim]]
+| [[Ralf Rangnick]] bis 1. Januar 2011<br />[[Marco Pezzaiuoli]] ab 1. Januar 2011
+| Marcel Lucassen
+| [[Ernst Tanner (Fußballmanager)|Ernst Tanner]]
+| Peter Hofmann
+|
+|-
+| [[Datei:1FC Kaiserslautern Wappen 2010.svg|22px|1. FCK]] [[1. FC Kaiserslautern]]
+| [[Marco Kurz]]
+| [[Roger Lutz]]
+|
+| [[Stefan Kuntz]]
+| [[Dieter Rombach]]
+|-
+| [[Datei:1. FC Koeln Logo 2000–2014.png|22px|1. FC Köln]] [[1. FC Köln]]
+| [[Zvonimir Soldo]] bis 24. Oktober 2010<br />[[Frank Schaefer]] bis 27. April 2011<br />[[Volker Finke]] ab 27. April 2011(interim)
+| [[Dirk Lottner]]
+| [[Michael Meier (Fußballfunktionär)|Michael Meier]] bis 29. November 2010<br /> [[Volker Finke]] ab 1. Februar 2011
+| [[Wolfgang Overath]]
+| [[Rolf Martin Schmitz]]
+|-
+| [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]] [[Bayer 04 Leverkusen]]
+| [[Jupp Heynckes]]
+| [[Peter Hermann (Fußballspieler)|Peter Hermann]]
+| [[Rudi Völler]]
+| [[Wolfgang Holzhäuser]]
+|
+|-
+| [[Datei:FSV Mainz 05 Logo.svg|22px|FSV Mainz 05]] [[1. FSV Mainz 05]]
+| [[Thomas Tuchel]]
+| Arno Michels
+| [[Christian Heidel]]
+| [[Harald Strutz (Sportfunktionär)|Harald Strutz]]
+|
+|-
+| [[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]] [[Borussia Mönchengladbach]]
+| [[Michael Frontzeck]] bis 13. Februar 2011<br />[[Lucien Favre]] ab 14. Februar 2011
+| [[Frank Geideck]]<br />[[Manfred Stefes]]
+| [[Max Eberl]]
+| [[Rolf Königs]]
+| [[Hermann Jansen (Politiker)|Hermann Jansen]]
+|-
+| [[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]] [[FC Bayern München]]
+| [[Louis van Gaal]] bis 9. April 2011<br />[[Andries Jonker]] ab 10. April 2011
+| [[Andries Jonker]] bis 9. April 2011<br />[[Hermann Gerland]]
+| [[Christian Nerlinger]]
+| [[Karl-Heinz Rummenigge]]
+| [[Uli Hoeneß]] <small>(Aufsichtsratsvorsitzender der AG; Präsident des e.&nbsp;V.)</small>
+|-
+| [[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]] [[1. FC Nürnberg]]
+| [[Dieter Hecking]]
+| [[Armin Reutershahn]]
+| [[Martin Bader]]
+| [[Franz Schäfer (Journalist)|Franz Schäfer]]
+| [[Klaus Schramm]]
+|-
+| [[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]] [[FC Schalke 04]]
+| [[Felix Magath]] bis 16. März 2011<br />[[Josef Eichkorn|Seppo Eichkorn]] bis 20. März 2011 (interim)<br />[[Ralf Rangnick]] ab 21. März 2011
+| [[Josef Eichkorn|Seppo Eichkorn]]<br />[[Bernd Hollerbach]] bis 17. März 2011
+| [[Felix Magath]] bis 16. März 2011<br />[[Horst Heldt]]
+|
+| [[Clemens Tönnies]]
+|-
+| [[Datei:Fc st pauli logo.svg|22x22px|FC St. Pauli]] [[FC St. Pauli]]
+| [[Holger Stanislawski]]
+| [[André Trulsen]]
+| [[Helmut Schulte]]
+| [[Stefan Orth (Fußballfunktionär)|Stefan Orth]]
+| [[Michael Burmester]]
+|-
+| [[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]] [[VfB Stuttgart]]
+| [[Christian Gross (Fussballtrainer)|Christian Gross]] bis 13. Oktober 2010<br />[[Jens Keller]] (Interim) bis 11. Dezember 2010<br />[[Bruno Labbadia]] ab 12. Dezember 2010
+| [[Eddy Sözer]]<br />[[Eberhard Trautner]]<br />Christos Papadopoulos
+| [[Fredi Bobič]]
+| [[Erwin Staudt]]
+| [[Dieter Hundt]]
+|-
+| [[Datei:Logo-VfL-Wolfsburg.svg|22px|VfL Wolfsburg]] [[VfL Wolfsburg]]
+| [[Steve McClaren]] bis 7. Februar 2011<br /> [[Pierre Littbarski]] bis 18. März 2011 (Interim)<br />[[Felix Magath]] ab 18. März 2011
+| [[Pierre Littbarski]]<br />[[Eyjólfur Sverrisson]] bis 18. März 2011<br />[[Bernd Hollerbach]] ab 18. März 2011
+| [[Dieter Hoeneß]] bis 18. März 2011<br />[[Felix Magath]] ab 18. März 2011 (Vorsitzender der Geschäftsführung)
+|
+| [[Francisco Javier Garcia Sanz]]
+|}
+
+== Eingesetzte Schiedsrichter ==
+{| class="wikitable zebra sortable"
+|-
+! Name || Geboren<br /> || Landesverband<br /> || Anz. d.<br />Spiele<br /> || [[Datei:Yellow card.svg|14px]]<br /> || [[Datei:Yellow-red card.svg|18px]]<br /> || [[Datei:Red card.svg|14px]]<br />|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Aytekin, Deniz " | [[Deniz Aytekin]] || {{DatumZelle|1978-07-21}} || [[Bayerischer Fußball-Verband|Bayern]] || 15 || 48 || 4 || 2 ||FIFA-Schiedsrichter seit 2011
+|-
+| style="text-align:left" data-sort-value="Brych, Felix" | [[Felix Brych]] || {{DatumZelle|1975-08-03}} || [[Bayerischer Fußball-Verband|Bayern]] || 19 || 63 || 0 || 6||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Dingert, Christian" | [[Christian Dingert]] || {{DatumZelle|1980-07-14}} || [[Südwestdeutscher Fußballverband|Südwest]] || 8 || 35 || 0 || 0||Neuling
+|-
+| style="text-align:left" data-sort-value="Drees, Jochen" | [[Jochen Drees]] || {{DatumZelle|1970-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 14 || 61 || 1 || 2||
+|-
+| style="text-align:left" data-sort-value="Fritz, Marco" | [[Marco Fritz]] || {{DatumZelle|1977-10-03}} || [[Württembergischer Fußballverband|Württemberg]] || 13 || 42 ||2 || 1||
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || {{DatumZelle|1968-06-09}} || [[Bremer Fußball-Verband|Bremen]] ||19|| 54 || 1 || 2||
+|-
+| style="text-align:left" data-sort-value="Gräfe, Manuel" | [[Manuel Gräfe]] || {{DatumZelle|1973-09-21}} || [[Berliner Fußball-Verband|Berlin]] || 20 || 72 || 2 || 0||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Hartmann" | [[Robert Hartmann (Schiedsrichter)|Robert Hartmann]] || {{DatumZelle|1979-09-08}} || [[Bayerischer Fußball-Verband|Bayern]] || 3 || 8 || 0 || 0||Neuling
+|-
+| style="text-align:left" data-sort-value="Kinhöfer, Thorsten" | [[Thorsten Kinhöfer]] || {{DatumZelle|1968-06-27}} ||[[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]]|| 19 || 69 || 2 || 2||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kircher, Knut" | [[Knut Kircher]] || {{DatumZelle|1969-02-02}} || [[Württembergischer Fußballverband|Württemberg]] || 19 || 61 || 3 || 1||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || {{DatumZelle|1968-11-21}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 19 || 61 || 2 || 1||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Perl, Günter" | [[Günter Perl]] || {{DatumZelle|1969-12-23}} || [[Bayerischer Fußball-Verband|Bayern]] || 18 || 53 || 0 || 0||
+|-
+| style="text-align:left" data-sort-value="Rafati, Babak" | [[Babak Rafati]] || {{DatumZelle|1970-05-28}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || {{0}}9 || 24 || 0 || 1||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Schmidt, Markus" | [[Markus Schmidt (Schiedsrichter)|Markus Schmidt]] || {{DatumZelle|1973-08-31}} || [[Württembergischer Fußballverband|Württemberg]] || 13 || 51 ||0 || 0||
+|-
+| style="text-align:left" data-sort-value="Seemann, Marc" | [[Marc Seemann]] || {{DatumZelle|1973-04-20}} || [[Fußballverband Niederrhein|Niederrhein]] || {{0}}3 || {{0}}9 || 0 || 0||letzte Bundesligasaison
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || {{DatumZelle|1969-10-06}} || [[Bayerischer Fußball-Verband|Bayern]] || 14 || 47 || 1 || 1||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || {{DatumZelle|1969-11-20}} || [[Bayerischer Fußball-Verband|Bayern]] || 19 ||51 || 2 || 6||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || {{DatumZelle|1969-03-21}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 16|| 66 || 4 || 2||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Welz, Tobias" | [[Tobias Welz]] || {{DatumZelle|1977-07-11}} || [[Hessischer Fußball-Verband|Hessen]] || 8 || 27|| 0 || 2||Neuling
+|-
+| style="text-align:left" data-sort-value="Wingenbach, Markus" | [[Markus Wingenbach]] || {{DatumZelle|1978-11-26}} || [[Fußballverband Rheinland|Rheinland]] || {{0}}8 || 30 ||0 || 1||Neuling
+|-
+| style="text-align:left" data-sort-value="Winkmann, Guido" | [[Guido Winkmann]] || {{DatumZelle|1973-11-27}} || [[Fußballverband Niederrhein|Niederrhein]] || 15 || 62|| 1 || 1||
+|-
+| style="text-align:left" data-sort-value="Zwayer, Felix" | [[Felix Zwayer]] || {{DatumZelle|1981-05-19}} || [[Berliner Fußball-Verband|Berlin]] || 15 || 44 || 0 || 1||
+|}
+
+== Kader ==
+{{Hauptartikel|Mannschaftskader der deutschen Fußball-Bundesliga 2010/11}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2010/2011|Fußball-Bundesliga 2010/11|audio=0|video=0}}
+* [http://bundesliga.de/de/liga/matches/2010/index.php Spieltage und -daten auf bundesliga.de]
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2011
+|Navigationsleiste Fußballsaison 2010/11 (Deutschland)
+}}
+
+{{SORTIERUNG:FussballBundesliga 201011}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2010 11]]
+[[Kategorie:Fußballsaison 2010/11|Bundesliga 2010 11]]

@@ -1,0 +1,352 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 1995/96
+| Bild = [[Datei:DFB-Logo 1995.svg|alt=Abgebildet ist das Logo des DFB ab 1995. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken, die Buchstaben sind mehrfach unterbrochen. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1995]]
+| Meister = [[Borussia Dortmund]]
+| UEFA Champions League = Borussia Dortmund
+| UEFA Cup = [[FC Bayern München]]<br />[[FC Schalke 04]]<br />[[Borussia Mönchengladbach]]<br />[[Hamburger SV]]
+| Pokal-Sieger = [[1. FC Kaiserslautern]]
+| Europapokal der Pokalsieger = 1. FC Kaiserslautern
+| UI-Cup = [[Karlsruher SC]]<br />[[TSV 1860 München]]<br />[[Werder Bremen]]<br />[[VfB Stuttgart]]
+| Absteiger = 1. FC Kaiserslautern<br />[[Eintracht Frankfurt]]<br />[[KFC Uerdingen 05]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 831
+| Zuschauer = 9.421.727
+| Torschützenkönig = {{DEU|Ziel=Fredi Bobic }} ([[VfB Stuttgart]])
+| vorherige Saison = [[Fußball-Bundesliga 1994/95|Bundesliga 1994/95]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1996/97|Bundesliga 1996/97]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1995/96|2. Bundesliga 1995/96]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew   value:rgb(0.86,0.86,0.86)
+  id:Pauli  value:rgb(0.6,0.3,0.1)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5  till:1.5 shift:(25,-3)   color:Pauli    text:FC St. Pauli
+  from:1.5  till:11.5 shift:(25,-3)  color:red      text:Bayern München
+  from:11.5 till:34.5 shift:(25,-3)  color:yelloworange   text:Borussia Dortmund
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:1860 value:rgb(0.00,0.50,1   )
+  id:düsseldorf value:rgb(0.59,0.14,0.23)
+  id:lila value:rgb(0.56,0.00,0.30)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5   till:1.5  shift:(20,-3)   color:1860  text:1860 München
+     from:3.5   till:5.5  shift:(20,-3)   color:1860  text:1860 München
+     from:1.5   till:3.5  shift:(20,-3)   color:black     text:SC Freiburg
+     from:5.5   till:14.5 shift:(20,-3)   color:black     text:SC Freiburg
+     from:14.5  till:15.5 shift:(20,-3)   color:red      text:1. FC Köln
+     from:15.5  till:18.5 shift:(20,-3)   color:düsseldorf     text:Fortuna Düsseldorf
+     from:18.5  till:34.5 shift:(20,-3)   color:blue     text:KFC Uerdingen 05
+</timeline>
+|}
+
+Die '''Saison 1995/96''' war die erste Saison der deutschen [[Fußball-Bundesliga|Bundesliga]], die nach der [[Drei-Punkte-Regel]] ausgetragen wurde. [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde [[Borussia Dortmund]]. Die Saison begann am 11. August 1995 und endete am 18. Mai 1996.
+
+== Saisonüberblick ==
+Die Saison war geprägt vom Zweikampf um die Meisterschaft zwischen dem [[FC Bayern München]] und [[Borussia Dortmund]].
+
+Meister wurde Borussia Dortmund mit Trainer [[Ottmar Hitzfeld]], das damit seinen Meistertitel vom Vorjahr verteidigte. Es war die erste Saison mit der Vergabe von drei Punkten pro Sieg. Ebenso hatte nun jeder Spieler eine feste Nummer. Die Entscheidung fiel am vorletzten Spieltag, als Dortmund drei Zähler vor den Bayern lag. Zu diesem Zeitpunkt konnte Dortmunds Rivale [[FC Schalke 04|Schalke 04]] im Duell mit den Münchnern dem BVB die Meisterschaft ermöglichen, wohingegen der FC Bayern auf Hilfe vom Stadtrivalen [[TSV 1860 München|TSV 1860]] angewiesen war. Schalke gewann letztendlich zuhause, aufgrund dessen reichte Dortmund ein Remis gegen die ''Löwen'' zur Titelverteidigung.
+
+Die Bayern starteten mit ihrem neuen Trainer [[Otto Rehhagel]] und mehreren neuen Spielern, u. a. [[Jürgen Klinsmann]] und [[Andreas Herzog]], mit sieben Siegen in Serie. Jedoch kam es nach späteren Punktverlusten zu internen Konflikten und zur Entlassung von Otto Rehhagel nach einer 0:1-Heimniederlage gegen [[Hansa Rostock]] durch ein Tor von [[Jonathan Akpoborie]]. Unter Interimsteamchef [[Franz Beckenbauer]] wurde Bayern Zweiter und gewann später den UEFA-Pokal.
+
+Absteiger waren der [[1. FC Kaiserslautern]], [[Eintracht Frankfurt]], sowie der [[KFC Uerdingen 05]], der durch Umbenennung aus Bayer 05 Uerdingen hervorgegangen war. Sowohl für Kaiserslautern als auch für Frankfurt war es nach 33 Jahren ununterbrochener [[Fußball-Bundesliga|Bundesliga]]-Zugehörigkeit der erste Abstieg der Vereinsgeschichte. Somit verblieben nach der Saison nur noch der [[Hamburger SV]] und der [[1. FC Köln]] als nie abgestiegene Gründungsmitglieder der Bundesliga.
+
+Zwischen [[Bayer 04 Leverkusen]] und Kaiserslautern fand am 18. Mai 1996 ein entscheidendes Spiel gegen den Abstieg statt, das unentschieden und damit zugunsten von Bayer endete. Der 1. FCK musste gewinnen und führte auch bis zur 81. Minute durch ein Tor von [[Pavel Kuka]] in der 58. Minute. Dann glich [[Markus Münch (Fußballspieler)|Markus Münch]] für Leverkusen aus. Dieser Ausgleich war auch Gegenstand einer Kontroverse, denn einige Lauterer monierten, dass der Ball zuvor nach einer Verletzung nicht zurückgespielt worden war. Der dadurch gewonnene Ballbesitz von Leverkusen führte einige Augenblicke später zum Ausgleich.<ref>{{Literatur |Titel=Markus Münch über Lautern-Leverkusen 1996: »Es ging um alles – da gibt es kein Fairplay!« |Sammelwerk=11FREUNDE.de |Online=https://www.11freunde.de/interview/markus-muench-ueber-lautern-leverkusen-1996 |Abruf=2017-12-03}}</ref>
+
+Eine Woche später gewann der 1. FC Kaiserslautern gegen den Karlsruher SC das [[DFB-Pokal 1995/96|DFB-Pokalfinale]] mit 1:0. Somit nahm der Klub in der Folgesaison als [[2. Fußball-Bundesliga|Zweitligist]] am [[Europapokal der Pokalsieger 1996/97|Europapokal der Pokalsieger]] teil, was vorher nur [[Hannover 96]] in der Saison [[Europapokal der Pokalsieger 1992/93|1992/93]] gelungen war.
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 1995-96.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=19 |U=11 |N= 4 |ET=76 |GT=38 |Verein=[[Borussia Dortmund]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=19 |U= 5 |N=10 |ET=66 |GT=46 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=14 |U=14 |N= 6 |ET=45 |GT=36 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 4 |S=15 |U= 8 |N=11 |ET=52 |GT=51 |Verein=[[Borussia Mönchengladbach]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 5 |S=12 |U=14 |N= 8 |ET=52 |GT=47 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=13 |U=10 |N=11 |ET=47 |GT=43 |Verein=[[Hansa Rostock]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=12 |U=12 |N=10 |ET=53 |GT=47 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 8 |S=11 |U=12 |N=11 |ET=52 |GT=46 |Verein=[[TSV 1860 München]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 9 |S=10 |U=14 |N=10 |ET=39 |GT=42 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang=10 |S=10 |U=13 |N=11 |ET=59 |GT=62 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=11 |U= 9 |N=14 |ET=30 |GT=41 |Verein=[[SC Freiburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S= 9 |U=13 |N=12 |ET=33 |GT=35 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S= 8 |U=16 |N=10 |ET=40 |GT=47 |Verein=[[Fortuna Düsseldorf]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 8 |U=14 |N=12 |ET=37 |GT=38 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U=11 |N=14 |ET=43 |GT=51 |Verein=[[FC St. Pauli]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang=16 |S= 6 |U=18 |N=10 |ET=31 |GT=37 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 7 |U=11 |N=16 |ET=43 |GT=68 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 5 |U=11 |N=18 |ET=33 |GT=56 |Verein=[[KFC Uerdingen 05]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 1996/97]]: Borussia Dortmund}}
+{{Farblegende|#fffacd|Teilnahme am [[Europapokal der Pokalsieger 1996/97]] und Abstieg in die [[2. Fußball-Bundesliga 1996/97|2. Bundesliga 1996/97]]: 1. FC Kaiserslautern}}
+{{Farblegende|#ccccff|Teilnahme am [[UEFA-Pokal 1996/97]]: FC Bayern München, FC Schalke 04, Borussia Mönchengladbach, Hamburger SV}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 1996|UI-Cup 1996]]: Karlsruher SC, TSV 1860 München, SV Werder Bremen, VfB Stuttgart (Hansa Rostock verzichtete)}}
+{{Farblegende|#ffcccc|Abstieg in die 2. Bundesliga 1996/97: KFC Uerdingen 05, Eintracht Frankfurt, 1. FC Kaiserslautern}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1994/95|1994/95]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1994/95|1994/95]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1994/95|1994/95]]
+|}
+
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 1995-96.svg|700px]]
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+|colspan="2" width="200" | '''1995/96'''
+|[[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+|[[Datei:Logo Bayern Munchen(1954-1996).svg|22px|FC Bayern München]]
+|[[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+|[[Datei:Gladbach gruen.svg|22px|Borussia Mönchengladbach]]
+|[[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+|[[Datei:F.C. Hansa Rostock Logo.svg|22px|F.C. Hansa Rostock]]
+|[[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+|[[Datei:TSV 1860 München.svg|22px|TSV 1860 München]]
+|[[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+|[[Datei:Vfb stuttgart2.png|22px|VfB Stuttgart]]
+|[[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+|[[Datei:1. FC Koeln Logo 1992–2000.svg|22px|1. FC Köln]]
+|[[Datei:Fortuna Düsseldorf.svg|22px|Fortuna Düsseldorf]]
+|[[Datei:Logo TSV Bayer 04 Leverkusen.svg|22px|Bayer 04 Leverkusen]]
+|[[Datei:Fc st pauli logo.svg|22px|FC St. Pauli]]
+|[[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+|[[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+|[[Datei:Kfc 05 uerdingen.svg|22px|KFC Uerdingen 05]]
+|-
+| {{0}}1.|| align="left" | [[Borussia Dortmund]] || bgcolor="#DCDCDC" | || 3:1 || 0:0 || 2:1 || 1:1 || 1:2 || 4:1 || 3:1 || 1:1 || 6:3 || 3:2 || 3:0 || 3:0 || 2:0 || 1:0 || 1:1 || 6:0 || 5:0
+|-
+| {{0}}2.|| align="left" | [[FC Bayern München]] || 1:0 || bgcolor="#DCDCDC" | || 4:0 || 1:2 || 3:2 || 0:1 || 1:4 || 4:2 || 2:0 || 5:3 || 2:0 || 3:2 || 2:2 || 1:0 || 1:1 || 2:0 || 1:1 || 2:0
+|-
+| {{0}}3.|| align="left" | [[FC Schalke 04]] || 1:2 || 2:1 || bgcolor="#DCDCDC" | || 3:3 || 3:0 || 1:3 || 2:1 || 1:1 || 2:1 || 2:0 || 3:0 || 0:0 || 1:1 || 1:1 || 2:0 || 1:1 || 2:0 || 1:1
+|-
+| {{0}}4.|| align="left" | [[Borussia Mönchengladbach]] || 2:2 || 3:1 || 4:1 || bgcolor="#DCDCDC" | || 1:2 || 3:2 || 1:2 || 0:2 || 1:0 || 1:1 || 1:0 || 2:1 || 1:1 || 0:0 || 2:4 || 1:1 || 4:1 || 2:1
+|-
+| {{0}}5.|| align="left" | [[Hamburger SV]] || 2:2 || 2:1 || 1:1 || 2:1 || bgcolor="#DCDCDC" | || 1:1 || 0:0 || 2:2 || 3:3 || 3:0 || 0:0 || 0:0 || 4:1 || 2:2 || 1:0 || 1:0 || 5:1 || 0:0
+|-
+| {{0}}6.|| align="left" | [[Hansa Rostock]] || 3:2 || 0:0 || 1:2 || 2:3 || 2:0 || bgcolor="#DCDCDC" | || 1:1 || 0:3 || 2:1 || 3:3 || 1:0 || 0:1 || 0:0 || 1:2 || 2:0 || 3:0 || 1:1 || 1:0
+|-
+| {{0}}7.|| align="left" | [[Karlsruher SC]] || 5:0 || 2:6 || 0:1 || 4:0 || 3:1 || 0:2 || bgcolor="#DCDCDC" | || 1:1 || 1:1 || 1:2 || 1:1 || 1:0 || 3:1 || 1:4 || 2:2 || 0:0 || 1:1 || 2:0
+|-
+| {{0}}8.|| align="left" | [[TSV 1860 München]] || 2:2 || 0:2 || 1:1 || 4:0 || 5:0 || 1:1 || 1:1 || bgcolor="#DCDCDC" | || 1:1 || 1:1 || 3:0 || 2:1 || 2:1 || 0:1 || 2:0 || 1:1 || 3:1 || 2:1
+|-
+| {{0}}9.|| align="left" | [[Werder Bremen]] || 2:2 || 3:2 || 1:2 || 2:0 || 2:1 || 0:2 || 1:0 || 2:0 || bgcolor="#DCDCDC" | || 2:2 || 0:2 || 0:1 || 1:1 || 2:1 || 1:1 || 1:1 || 1:1 || 1:0
+|-
+| 10.|| align="left" | [[VfB Stuttgart]] || 0:5 || 0:1 || 2:2 || 5:0 || 3:0 || 1:1 || 3:1 || 2:3 || 1:1 || bgcolor="#DCDCDC" | || 3:1 || 0:1 || 2:3 || 1:4 || 1:1 || 2:0 || 3:2 || 0:0
+|-
+| 11.|| align="left" | [[SC Freiburg]] || 0:1 || 3:1 || 1:2 || 0:0 || 0:3 || 2:1 || 0:3 || 1:0 || 0:1 || 2:1 || bgcolor="#DCDCDC" | || 2:0 || 1:1 || 2:1 || 0:2 || 0:0 || 2:0 || 1:1
+|-
+| 12.|| align="left" | [[1. FC Köln]] || 0:0 || 0:0 || 0:1 || 0:2 || 3:2 || 3:0 || 0:1 || 2:0 || 1:2 || 2:2 || 1:1 || bgcolor="#DCDCDC" | || 0:0 || 2:2 || 1:0 || 0:1 || 3:0 || 0:0
+|-
+| 13.|| align="left" | [[Fortuna Düsseldorf]] || 1:2 || 0:2 || 2:0 || 3:2 || 2:2 || 2:2 || 2:0 || 1:1 || 1:1 || 1:2 || 0:0 || 1:1 || bgcolor="#DCDCDC" | || 1:1 || 2:0 || 2:1 || 2:2 || 1:0
+|-
+| 14.|| align="left" | [[Bayer 04 Leverkusen]] || 1:1 || 1:2 || 0:0 || 0:0 || 0:1 || 2:0 || 1:2 || 2:1 || 2:2 || 0:0 || 0:1 || 1:2 || 0:0 || bgcolor="#DCDCDC" | || 1:1 || 1:1 || 2:0 || 2:1
+|-
+| 15.|| align="left" | [[FC St. Pauli]] || 0:3 || 0:1 || 2:0 || 0:2 || 1:1 || 3:2 || 1:1 || 4:2 || 1:2 || 1:3 || 1:1 || 3:3 || 2:1 || 2:1 || bgcolor="#DCDCDC" | || 1:2 || 2:1 || 0:2
+|-
+| 16.|| align="left" | [[1. FC Kaiserslautern]] || 1:1 || 2:3 || 0:0 || 1:3 || 1:2 || 2:0 || 2:2 || 0:0 || 0:0 || 1:1 || 1:2 || 1:1 || 2:0 || 1:0 || 0:0 || bgcolor="#DCDCDC" | || 1:1 || 3:0
+|-
+| 17.|| align="left" | [[Eintracht Frankfurt]] || 3:4 || 4:1 || 0:3 || 0:2 || 1:4 || 1:3 || 2:2 || 4:2 || 1:0 || 2:2 || 0:1 || 1:0 || 3:0 || 1:1 || 2:2 || 3:1 || bgcolor="#DCDCDC" | || 1:0
+|-
+| 18.|| align="left" | [[KFC Uerdingen 05]] || 0:2 || 1:6 || 1:1 || 0:2 || 1:1 || 1:1 || 2:3 || 2:0 || 3:0 || 3:4 || 3:1 || 1:1 || 1:3 || 3:0 || 2:5 || 1:1 || 1:1 || bgcolor="#DCDCDC" |
+|}
+
+== Torschützenliste ==
+Mit 17 Toren, die zum Titel „Torschützenkönig“ reichten, stellte [[Fredi Bobic]] den damaligen Minusrekord aus der [[Fußball-Bundesliga 1988/89|Saison 1988/89]] ein, als [[Thomas Allofs]] und [[Roland Wohlfarth]] ebenfalls mit je 17 Toren Torschützenkönig wurden.
+
+{| class="wikitable"
+! !! Spieler !! Verein !! Tore
+|-
+| 1. || {{DEU|Ziel=Fredi Bobic}} || VfB Stuttgart || " align="center" | 17
+|-
+| rowspan="3" align="center" | 2. || {{ZAF|Ziel=Sean Dundee}} || Karlsruher SC || rowspan="3" align="center" | 16
+|-
+| {{BRA|Ziel=Giovane Élber}} || VfB Stuttgart
+|-
+| {{DEU|Ziel=Jürgen Klinsmann}} || FC Bayern München
+|-
+| rowspan="2" align="center" | 5. || {{SWE|Ziel=Martin Dahlin}} || Borussia Mönchengladbach || rowspan="2" align="center" | 15
+|-
+| {{DEU|Ziel=Michael Zorc}} || Borussia Dortmund
+|}
+
+== Sponsoren ==
+{| class="wikitable sortable"
+! Verein !! Ausrüster !! Hauptsponsor
+|-
+| [[1. FC Kaiserslautern]] || [[Adidas]] || [[OKI Printing Solutions|OKI]]
+|-
+| [[1. FC Köln]] || [[Puma (Sportartikelhersteller)|Puma]] || [[Ford]]
+|-
+| [[Bayer 04 Leverkusen]] || [[Adidas]] || [[Bayer AG|Alka-Seltzer]]
+|-
+| [[Borussia Dortmund]] || [[Nike (Unternehmen)|Nike]] || [[Continentale Krankenversicherung|Die Continentale]]
+|-
+| [[Borussia Mönchengladbach]] || [[Reebok]] || [[Diebels]]
+|-
+| [[Eintracht Frankfurt]] || [[Puma (Sportartikelhersteller)|Puma]] || [[Tetra Pak]]
+|-
+| [[FC Bayern München]] || [[Adidas]] || [[Opel]]
+|-
+| [[Hansa Rostock]] || [[Erima]] || [[Höffner (Möbelhaus)|Höffner]]
+|-
+| [[FC Schalke 04]] || [[Adidas]] || [[Kärcher (Unternehmen)|Kärcher]]
+|-
+| [[FC St. Pauli]] || [[Reusch (Sportartikelhersteller)|Reusch]] || [[Böklunder Plumrose|Böklunder]]
+|-
+| [[Fortuna Düsseldorf]] || [[Umbro]] || [[Diebels]]
+|-
+| [[Hamburger SV]] || [[Uhlsport]] || [[Hyundai Motor Company|Hyundai]]
+|-
+| [[Karlsruher SC]] || [[Adidas]] || [[Ehrmann AG|Ehrmann]]
+|-
+| [[KFC Uerdingen 05]] || [[Reusch (Sportartikelhersteller)|Reusch]] || [[Trigema]]
+|-
+| [[SC Freiburg]] || [[Uhlsport]] || [[Zehnder|Zehnder Wärmekörper]]
+|-
+| [[TSV 1860 München]] || [[Nike (Unternehmen)|Nike]] || [[Löwenbräu]]
+|-
+| [[VfB Stuttgart]] || [[Adidas]] || [[FrieslandCampina Germany#Südmilch AG|Südmilch Vifit]]
+|-
+| [[Werder Bremen]] || [[Puma (Sportartikelhersteller)|Puma]] || [[Winterthur Group|dbv-Winterthur]]
+|}
+
+== Wissenswertes ==
+* Zur Saison 1995/96 wurden feste Rückennummern eingeführt. Zuvor hatte der Torhüter die 1 getragen und die Feldspieler waren nach Position von 2 bis 11 durchnummeriert worden.<ref>[https://www.reviersport.de/unserrevier/a/a614694---weisse-noch-sommer-1995-feste-rueckennummern-wurden-eingefuehrt.html  Sommer 1995 - feste Rückennummern wurden eingeführt], reviersport.de, 2. Mai 2025, abgerufen am 10. August 2026.</ref>
+* Beim Spiel des FC Bayern München gegen Fortuna Düsseldorf am 34. Spieltag wechselte [[Klaus Augenthaler]], der ersatzweise für [[Franz Beckenbauer]] auf dem Trainerstuhl saß, zur Halbzeit versehentlich vier Spieler anstatt der erlaubten drei ein. Nach einem 0:2-Rückstand machten die Münchner noch ein 2:2-Unentschieden. Wegen der Bedeutungslosigkeit des Spiels für beide Mannschaften verzichtete Düsseldorf auf einen Protest. Das Spiel war bis zur [[Fußball-Bundesliga 2019/20|Saison 2019/20]], in der man aufgrund der [[COVID-19-Pandemie]] fünf Spieler pro Team einwechseln durfte, das einzige Bundesligaspiel mit sieben Auswechslungen in der Geschichte der Bundesliga.<ref>{{cite web |url= https://www.t-online.de/sport/fussball/bundesliga/id_57960312/trapattoni-rehhagel-und-co-wechselfehler-in-der-bundesliga.html |title= Trapattoni, Rehhagel und Co.: Wechselfehler in der Bundesliga |date= 2012-08-02 |accessdate= 2015-12-03 |publisher= [[T-online.de]] }}</ref>
+* Mit dem Abstieg von Eintracht Frankfurt und des [[1. FC Kaiserslautern]] blieben nur noch der [[1. FC Köln]] und der [[Hamburger SV]] ununterbrochen in der Bundesliga. Damit stiegen das 13. und 14. Gründungsmitglied ab.<ref>[[1. FC Kaiserslautern|Kaiserslautern]] steigt ab</ref>
+* Mit einem 4:2-Sieg am 1. Spieltag wurde der [[FC St. Pauli]] zum ersten und bis jetzt (Stand: Saison 2025/26) einzigen Mal [[Liste der Tabellenführer der Fußball-Bundesliga|Tabellenführer]] der Fußball-Bundesliga.
+* Es gingen 108 von insgesamt 306 Spielen unentschieden aus. Damit ist die Saison 1995/96 die Bundesliga-Saison mit den zweitmeisten Unentschieden (in der Saison [[Fußball-Bundesliga 1991/92|1991/92]] wurde 124 mal unentschieden gespielt, aber auch 74 Partien mehr ausgetragen) und der höchsten Unentschieden-Quote von 35,3 %.<ref>{{cite web |url= http://www.bulibox.de/statistik-box/anzahl-heim-auswaerts-siege.html |title= Verteilung von Heimsiegen, Auswärtssiegen und Unentschieden |date= |accessdate= 2023-05-07 |publisher= BuLi-Box }}</ref> Dadurch hat die Abschlusstabelle die kleinste Summe an Punkten seit Einführung der 3-Punkte-Regel.
+
+== Die Meistermannschaft Borussia Dortmund ==
+
+{| class="wikitable" style="width: 700px; text-align: center;"
+|- style="background:#FFFF00"
+| width="75" |<span style="color:#000000;"> '''1.''' </span>||" width="625" |<span style="color:#000000;"> '''Borussia Dortmund''' </span>
+|- style="background:#FFFFFF"
+|[[Datei:Borussia Dortmund logo.svg|60px|Borussia Dortmund]]|| bgcolor="#E8E8E8" align="left" - |
+* '''Tor''': [[Stefan Klos]] (33/-); [[Wolfgang de Beer]] (1/-); [[Harald Schumacher|Toni Schumacher]] (1/-)
+* '''Abwehr''': [[Jürgen Kohler]] (29/5); [[Stefan Reuter]] (26/6); [[Júlio César da Silva|Júlio César]] (23/2); [[Martin Kree]] (23/-); [[Matthias Sammer]] (22/3); [[Bodo Schmidt (Fußballspieler, 1967)|Bodo Schmidt]] (17/-); [[Carsten Wolters]] (11/1); [[Günter Kutowski]] (3/-)
+* '''Mittelfeld''': [[Michael Zorc]] {{Kapitän}} (30/15); [[Steffen Freund]] (30/2); [[Patrik Berger]] (27/4); [[Lars Ricken]] (26/6); [[Andreas Möller]] (23/8); [[René Tretschok]] (20/2); [[Knut Reinhardt]] (20/-); [[Jörg Heinrich]] (17/2); [[Thomas Franck (Fußballspieler)|Thomas Franck]] (5/-); [[Lars Müller (Fußballspieler)|Lars Müller]] (5/-); [[Mallam Yahaya]] (1/-) 
+* '''Angriff''': [[Karl-Heinz Riedle]] (18/7); [[Stéphane Chapuisat]] (17/3); [[Rubén Sosa Ardáiz|Rubén Sosa]] (17/3); [[Heiko Herrlich]] (16/7); [[Ibrahim Tanko]] (3/-)
+* '''Trainer''': [[Ottmar Hitzfeld]]
+|}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 14 || 71 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 13 || 58 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 13 || 48 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Best, Hans-Peter" | [[Hans-Peter Best]] || {{DatumZelle|1955-03-18}} || [[Württembergischer Fußballverband|Württemberg]] || 11 || 37 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Buchhart, Winfried" | [[Winfried Buchhart]] || {{DatumZelle|1958-05-15}} || Bayern || 10 || 42 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Casper, Heinz-Dieter" | [[Heinz-Dieter Casper]] || {{DatumZelle|1959-02-08}} || || 3 || 6 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 15 || 67 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || {{DatumZelle|1964-03-09}} || Rheinland || 4 || 18 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Fleischer, Helmut" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || {{DatumZelle|1964-03-22}} || Bayern || 3 || 8 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Fleske, Frank" | [[Frank Fleske]] || {{DatumZelle|1962-04-16}} || [[Fußball-Landesverband Brandenburg|Brandenburg]] || 11 || 36 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Frey, Günther" | [[Günther Frey]] || {{DatumZelle|1956-11-09}} || Bayern || 3 || 14 || 0 || 0 || Einzige Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 16 || 64 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Habermann, Gunther" | [[Günther Habermann]] || {{DatumZelle|1950-02-23}} || [[Thüringer Fußball-Verband|Thüringen]] || 11 || 29 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 14 || 67 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Hufgard, Burkhard" | [[Burkhard Hufgard]] || {{DatumZelle|1956-04-07}} || || 3 || 9 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Jansen, Jurgen" | [[Jürgen Jansen]] || {{DatumZelle|1960-10-16}} || [[Fußballverband Niederrhein|Niederrhein]] || 11 || 39 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Kasper, Hans-Jurgen" | [[Hans-Jürgen Kasper]] || {{DatumZelle|1949-01-18}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 10 || 48 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Kemmling, Uwe" | [[Uwe Kemmling]] || {{DatumZelle|1960-11-01}} || Niedersachsen || 5 || 17 || 2 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Koop, Torsten" | [[Torsten Koop]] || {{DatumZelle|1965-05-11}} || [[Landesfußballverband Mecklenburg-Vorpommern|Mecklenburg-Vorpommern]] || 4 || 1 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 18 || 77 || 3 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Malbranc, Michael" | [[Michael Malbranc]] || {{DatumZelle|1953-03-11}} || [[Hamburger Fußball-Verband|Hamburg]] || 9 || 47 || 4 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 13 || 58 || 1 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Pohlmann, Lutz" | [[Lutz Pohlmann]] || {{DatumZelle|1961-09-06}} || [[Schleswig-Holsteinischer Fußballverband|Schleswig-Holstein]] || 9 || 35 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Scheuerer, Hans" | [[Hans Scheuerer]] || {{DatumZelle|1949-10-18}} || Bayern || 10 || 42 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 18 || 51 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 16 || 68 || 3 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || {{DatumZelle|1963-05-27}} || [[Hessischer Fußball-Verband|Hessen]] || 11 || 57 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 8 || 32 || 4 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Werthmann, Rainer" | [[Rainer Werthmann]] || {{DatumZelle|1959-06-17}} || Westfalen || 8 || 28 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Zerr, Bernhard" | [[Bernhard Zerr]] || {{DatumZelle|1965-06-12}} || [[Südbadischer Fußballverband|Südbaden]] || 12 || 54 || 1 || 2 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1238 || 36 || 33 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1995-1996/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-25}}</ref>
+|}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 1995/1996|Fußball-Bundesliga 1995/96}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1995/96 (Deutschland)
+|Navigationsleiste Europa-Fußball 1996
+}}
+
+{{SORTIERUNG:Fussballbundesliga 199596}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1995/96]]
+[[Kategorie:Fußballsaison 1995/96]]

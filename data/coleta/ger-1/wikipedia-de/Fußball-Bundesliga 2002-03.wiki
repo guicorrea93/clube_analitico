@@ -1,0 +1,377 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 2002/03
+| Bild = [[Datei:Bundesliga Wordmark (2002-2010).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2002–2010. Es besteht aus der Schrift "Bundesliga" in zwei Zeilen. Die Schriftfarbe ist schwarz.|170px]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = [[FC Bayern München]]<br />[[VfB Stuttgart]]
+| UEFA Champions League Quali = [[Borussia Dortmund]]
+| UEFA Cup = [[Hamburger SV]]<br />[[Hertha BSC]]<br />[[1. FC Kaiserslautern]]
+| UI-Cup = [[Werder Bremen]]<br />[[FC Schalke 04]]<br />[[VfL Wolfsburg]]
+| Pokal-Sieger = [[FC Bayern München]]
+| Absteiger = [[Arminia Bielefeld]]<br />[[1. FC Nürnberg]]<br />[[Energie Cottbus]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 821
+| Zuschauer = 10.495.413
+| Torschützenkönig = {{BRA|Ziel=Giovane Élber}}<br />([[FC Bayern München]]) /<br />{{ESP|Ziel=Thomas Christiansen}}<br />([[VfL Bochum]])
+| vorherige Saison = [[Fußball-Bundesliga 2001/02|Bundesliga 2001/02]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2003/04|Bundesliga 2003/04]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2002/03|2. Bundesliga 2002/03]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%;"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word" |
+{{Center|'''Tabellenführer'''}}
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:armin value:rgb(0.00,0.25,0.55)
+  id:grew   value:rgb(0.86,0.86,0.86)
+  id:vfl   value:rgb(0.00,0.05,1   )
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,0)   color:armin    text:Arminia Bielefeld
+  from:1.5 till:3.5 shift:(25,0)   color:vfl     text:VfL Bochum
+  from:3.5 till:4.5 shift:(25,0)   color:grew   text:Bayern / Bochum
+  from:4.5 till:34.5 shift:(25,0)  color:red      text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word" |
+{{Center|'''Tabellenletzter'''}}
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew value:rgb(0.86,0.86,0.86)
+  id:werder value:rgb(0.11,0.56,0.36)
+  id:lautern   value:rgb(0.75,0.00,0.16)
+  id:hannov       value:rgb(0.00,0.50,0.25)
+  id:nuern       value:rgb(0.59,0.13,0.24)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5   till:1.5  shift:(20,-3)   color:werder    text:Werder Bremen
+     from:1.5   till:2.5  shift:(20,-3)   color:nuern  text:1. FC Nürnberg
+     from:2.5   till:4.5  shift:(20,-3)   color:hannov     text:Hannover 96
+     from:4.5   till:7.5  shift:(20,-3)   color:lautern   text:1. FC Kaiserslautern
+     from:12.5  till:14.5 shift:(20,-3)   color:lautern   text:1. FC Kaiserslautern
+     from:18.5  till:19.5 shift:(20,-3)   color:lautern   text:Kaiserslautern
+     from:20.5  till:23.5 shift:(20,-3)   color:lautern   text:1. FC Kaiserslautern
+     from:7.5   till:12.5 shift:(20,-3)   color:red      text:Energie Cottbus
+     from:14.5  till:18.5 shift:(20,-3)   color:red      text:Energie Cottbus
+     from:19.5  till:20.5 shift:(20,-3)   color:red      text:Energie Cottbus
+     from:23.5  till:34.5 shift:(20,-3)   color:red      text:Energie Cottbus
+</timeline>
+|}
+
+Erster in der '''Saison 2002/03 der [[Fußball-Bundesliga|Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]]. Die Saison begann am 9. August 2002 mit dem Spiel Borussia Dortmund gegen Hertha BSC und endete am 24. Mai 2003.
+
+== Saisonüberblick ==
+
+=== Meisterschaft und internationale Plätze ===
+Mit [[Michael Ballack]] und [[Zé Roberto]] wechselten zur neuen Saison zwei Pfeiler der erfolgreichen Mannschaft von Bayer 04 Leverkusen zum FC Bayern München, ebenso [[Sebastian Deisler]] von Hertha BSC. Die Münchener waren daher klarer Titelfavorit und wurden dieser Rolle auch gerecht. Bereits am 4. Spieltag setzten sie sich an die Tabellenspitze, wurden Herbstmeister und bauten den Abstand auf die Verfolger aus Dortmund und Stuttgart gegen Mitte der Rückrunde auf über zehn Punkte aus. Bereits am 30. Spieltag stand für den FC Bayern München unter Trainer [[Ottmar Hitzfeld]] die deutsche Meisterschaft fest. Der Verein beendete die Saison mit 16 Punkten Vorsprung auf den Tabellenzweiten VfB Stuttgart, dies war zu diesem Zeitpunkt der größte Vorsprung eines Meisters seit Einführung der Drei-Punkte-Regel 1995.
+
+Spannender war das Duell zwischen Dortmund und Stuttgart um den zweiten Platz, der zur direkten Champions-League-Qualifikation berechtigte. Borussia Dortmund ging als Zweiter mit einem Punkt Vorsprung auf den VfB in den 34. Spieltag und musste zu Hause gegen die bereits abgestiegene Energie Cottbus antreten. Der VfB Stuttgart siegte zeitgleich souverän mit 2:0 gegen den VfL Wolfsburg. Die Dortmunder gingen durch ein Tor von [[Tomáš Rosický]] in der 25. Minute in Führung. Dem Cottbusser [[Timo Rost]] gelang in der zweiten Hälfte überraschend der 1:1-Ausgleichstreffer. Der BVB schaffte es in den Schlussminuten nicht mehr, ein weiteres Tor zu erzielen, und wurde am Ende Dritter. Der VfB zog als Vizemeister in die Champions League ein. Dies war der erfolgreiche Abschluss einer bemerkenswerten Karriere von [[Krassimir Balakow]], der in seinem letzten Pflichtspiel sogar noch ein Tor erzielen konnte. Neben Balakow beendeten auch die ehemaligen deutschen Nationalspieler [[Ulf Kirsten]] und [[Michael Preetz]] ihre Spielerkarrieren.
+
+Um die UEFA-Cup-Plätze 4 und 5 kämpften der Hamburger SV, Werder Bremen und Hertha BSC. Der HSV und Hertha hatten sich nach eher schwachen Hinserien hochgearbeitet, während Bremen nach Platz 3 zur Saisonhälfte etwas abgerutscht war. Weil Hamburg und Hertha ihre Spiele gewannen, Bremen jedoch bei Mönchengladbach 4:1 verlor, fiel Werder noch aus den internationalen Rängen.
+
+=== Abstieg ===
+Im dritten Bundesligajahr konnte Energie Cottbus nicht mehr mithalten und war von Beginn an in der Abstiegszone zu finden. Bereits am 31. Spieltag waren die Lausitzer nicht mehr zu retten. Am folgenden Spieltag stieg auch der 1. FC Nürnberg ab, der nach einer zufriedenstellenden Hinserie nur noch 9 Punkte sammeln konnte. Auch die Entlassung von Klaus Augenthaler brachte keine Trendwende mehr. Die vorzeitige Rettung war hingegen dank starker Rückserien mit jeweils 27 Punkten dem Neuling Hannover 96 (der beachtliche acht Auswärtssiege landen konnte) und dem 1. FC Kaiserslautern gelungen. Auch Borussia Mönchengladbach rettete sich knapp.
+
+Die negative Überraschung der Saison war Bayer Leverkusen. Im Vorjahr bis zum Schluss mit der Triple-Chance, verbrachten die Leverkusener nun die gesamte Spielzeit in der unteren Tabellenhälfte und fielen in der Rückrunde erstmals auf einem Abstiegsplatz. [[Klaus Toppmöller]] wurde nach vier Niederlagen zum Rückrunden-Auftakt entlassen. Unruhe bestimmte das Umfeld des Vize-Meisters. So wurde Toppmöllers Nachfolger [[Thomas Hörster]] ebenfalls entlassen, weil er nach einer 1:4-Niederlage in Hamburg nicht mehr an den Klassenerhalt glaubte. [[Udo Lattek]] war als Trainer gehandelt worden, trat diesen Posten aus gesundheitlichen Gründen jedoch nicht an. Stattdessen übernahm der erst kurz zuvor beim 1. FC Nürnberg entlassene [[Klaus Augenthaler]] zwei Spieltage vor Schluss mit zwei Punkten Rückstand auf Platz 16. Unter Augenthaler gelang es, 1860 München zu besiegen und damit an Bielefeld vorbeizuziehen. Der 1:0-Sieg in Nürnberg am letzten Spieltag brachte schließlich den Klassenerhalt. Bielefeld musste hingegen nach einem Jahr direkt wieder zurück in die 2. Bundesliga. Der Arminia wurden sechs sieglose Spiele zum Ende zum Verhängnis, nachdem man in der Rückrunde zuvor nie auf einem Abstiegsplatz gestanden hatte, sowie die Ausgeglichenheit der Liga – ihre 36 Punkte waren die höchste Punktzahl, die ein Absteiger im 21. Jahrhundert je erreichte.<!-- Seit 2000 stieg nie ein Team mit 36 oder mehr Punkten ab, nur dreimal in den Neunzigern. -->
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 2002-03.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=23 |U= 6 |N= 5 |ET=70 |GT=25 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=17 |U= 8 |N= 9 |ET=53 |GT=39 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=15 |U=13 |N= 6 |ET=51 |GT=27 |Verein=[[Borussia Dortmund]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 4 |S=15 |U=11 |N= 8 |ET=46 |GT=36 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=16 |U= 6 |N=12 |ET=52 |GT=43 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 6 |S=16 |U= 4 |N=14 |ET=51 |GT=50 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=12 |U=13 |N= 9 |ET=46 |GT=40 |Verein=[[FC Schalke 04]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 8 |S=13 |U= 7 |N=14 |ET=39 |GT=42 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=12 |U= 9 |N=13 |ET=55 |GT=56 |Verein=[[VfL Bochum]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=12 |U= 9 |N=13 |ET=44 |GT=52 |Verein=[[TSV 1860 München]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=12 |U= 7 |N=15 |ET=47 |GT=57 |Verein=[[Hannover 96]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=11 |U= 9 |N=14 |ET=43 |GT=45 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=11 |U= 8 |N=15 |ET=35 |GT=41 |Verein=[[Hansa Rostock]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang=14 |S=10 |U=10 |N=14 |ET=40 |GT=42 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=11 |U= 7 |N=16 |ET=47 |GT=56 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U=12 |N=14 |ET=35 |GT=46 |Verein=[[Arminia Bielefeld]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 8 |U= 6 |N=20 |ET=33 |GT=60 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 7 |U= 9 |N=18 |ET=34 |GT=64 |Verein=[[Energie Cottbus]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister, DFB-Pokal-Sieger und Teilnahme an der [[UEFA Champions League 2003/04]]: FC Bayern München}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League 2003/04: VfB Stuttgart}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation 2003/04: Borussia Dortmund}}
+{{Farblegende|#ffdac2|Teilnahme am [[UEFA-Pokal 2003/04]]: Hamburger SV, Hertha BSC, 1. FC Kaiserslautern (als unterlegener Pokalfinalist)}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 2003|UI-Cup 2003]]: SV Werder Bremen, FC Schalke 04, VfL Wolfsburg}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2003/04|2. Bundesliga 2003/04]]: FC Energie Cottbus, 1. FC Nürnberg, DSC Arminia Bielefeld}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2001/02|2001/02]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2001/02|2001/02]]
+|-
+| (N) || Aufsteiger der Saison [[2. Fußball-Bundesliga 2001/02|2001/02]]
+|}
+
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 2002-03.svg|700px]]
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+|colspan="2" width="200" | '''2002/03'''
+|[[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+|[[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+|[[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+|[[Datei:Hamburger SV logo.svg|22px|Hamburger SV]]
+|[[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+|[[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+|[[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+|[[Datei:VfL Wolfsburg Logo.svg|22px|VfL Wolfsburg]]
+|[[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+|[[Datei:TSV 1860 München.svg|22px|TSV 1860 München]]
+|[[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+|[[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+|[[Datei:FC Hansa Rostock Logo.svg|22px|Hansa Rostock]]
+|[[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+|[[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+|[[Datei:Arminia Bielefeld Logo 1998–2008.svg|22px|Arminia Bielefeld]]
+|[[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+|[[Datei:Logo Energie Cottbus.svg|22px|Energie Cottbus]]
+|-
+| {{0}}1. || style="text-align:left" | [[FC Bayern München]] || style="background:#DCDCDC" | || 2:1 || 2:1 || 1:1 || 2:0 || 0:1 || 0:0 || 1:0 || 4:1 || 3:1 || 3:3 || 3:0 || 1:0 || 1:0 || 3:0 || 6:2 || 2:0 || 3:1
+|-
+| {{0}}2. || style="text-align:left" | [[VfB Stuttgart]] || 0:3 || style="background:#DCDCDC" | || 1:0 || 1:1 || 3:1 || 0:1 || 1:1 || 2:0 || 3:2 || 4:1 || 3:0 || 4:0 || 1:1 || 1:1 || 3:0 || 3:0 || 0:2 || 0:0
+|-
+| {{0}}3. || style="text-align:left" | [[Borussia Dortmund]] || 1:0 || 3:1 || style="background:#DCDCDC" | || 1:1 || 2:2 || 1:2 || 1:1 || 2:2 || 4:1 || 1:0 || 2:0 || 1:0 || 2:0 || 3:1 || 2:0 || 0:0 || 4:1 || 1:1
+|-
+| {{0}}4. || style="text-align:left" | [[Hamburger SV]] || 0:3 || 3:2 || 1:1 || style="background:#DCDCDC" | || 1:0 || 1:0 || 3:1 || 2:0 || 1:1 || 1:0 || 2:1 || 1:0 || 2:0 || 2:0 || 4:1 || 1:0 || 4:0 || 1:1
+|-
+| {{0}}5. || style="text-align:left" | [[Hertha BSC]] || 3:6 || 1:1 || 2:1 || 2:0 || style="background:#DCDCDC" | || 0:1 || 4:2 || 2:2 || 1:0 || 6:0 || 2:0 || 1:2 || 3:1 || 2:0 || 1:1 || 0:0 || 2:1 || 3:1
+|-
+| {{0}}6. || style="text-align:left" | [[Werder Bremen]] || 2:0 || 3:1 || 1:4 || 2:1 || 4:2 || style="background:#DCDCDC" | || 2:1 || 0:1 || 2:0 || 1:2 || 1:2 || 2:0 || 0:0 || 5:3 || 3:2 || 2:2 || 4:1 || 0:1
+|-
+| {{0}}7. || style="text-align:left" | [[FC Schalke 04]] || 1:0 || 2:0 || 2:2 || 3:0 || 0:0 || 1:1 || style="background:#DCDCDC" | || 1:0 || 1:2 || 1:1 || 0:2 || 2:1 || 2:2 || 2:2 || 0:1 || 1:1 || 1:1 || 3:0
+|-
+| {{0}}8. || style="text-align:left" | [[VfL Wolfsburg]] || 0:2 || 1:2 || 2:0 || 2:1 || 2:0 || 3:1 || 1:2 || style="background:#DCDCDC" | || 2:0 || 1:1 || 1:0 || 1:0 || 1:0 || 2:2 || 2:0 || 2:0 || 0:2 || 3:2
+|-
+| {{0}}9. || style="text-align:left" | [[VfL Bochum]] || 1:4 || 3:1 || 0:0 || 1:1 || 3:0 || 1:4 || 0:2 || 4:2 || style="background:#DCDCDC" | || 1:1 || 1:2 || 1:1 || 0:1 || 1:1 || 2:1 || 0:3 || 2:1 || 5:0
+|-
+| 10. || style="text-align:left" | [[TSV 1860 München]] || 0:5 || 0:1 || 0:0 || 1:1 || 1:0 || 3:0 || 3:0 || 2:2 || 2:4 || style="background:#DCDCDC" | || 0:1 || 2:0 || 0:2 || 0:0 || 0:3 || 3:1 || 2:2 || 3:0
+|-
+| 11. || style="text-align:left" | [[Hannover 96]] || 2:2 || 1:2 || 0:3 || 2:2 || 0:1 || 4:4 || 0:2 || 3:1 || 2:2 || 1:3 || style="background:#DCDCDC" | || 2:2 || 3:1 || 2:1 || 1:2 || 0:0 || 4:2 || 1:3
+|-
+| 12. || style="text-align:left" | [[Borussia Mönchengladbach]] || 0:0 || 1:1 || 1:0 || 2:0 || 0:2 || 4:1 || 2:2 || 2:0 || 2:2 || 0:1 || 1:0 || style="background:#DCDCDC" | || 3:0 || 3:0 || 2:2 || 3:0 || 2:0 || 3:0
+|-
+| 13. || style="text-align:left" | [[Hansa Rostock]] || 0:1 || 1:1 || 0:1 || 0:0 || 0:1 || 1:0 || 3:1 || 1:0 || 1:1 || 1:4 || 1:2 || 3:1 || style="background:#DCDCDC" | || 2:2 || 1:3 || 3:0 || 2:0 || 0:0
+|-
+| 14. || style="text-align:left" | [[1. FC Kaiserslautern]] || 0:2 || 1:2 || 0:0 || 2:0 || 2:1 || 1:0 || 1:3 || 2:0 || 0:2 || 0:0 || 0:1 || 2:0 || 1:0 || style="background:#DCDCDC" | || 1:0 || 1:1 || 5:0 || 4:0
+|-
+| 15. || style="text-align:left" | [[Bayer 04 Leverkusen]] || 2:1 || 0:1 || 1:1 || 2:3 || 4:1 || 3:0 || 1:3 || 1:1 || 2:4 || 3:0 || 1:3 || 2:2 || 1:2 || 1:0 || style="background:#DCDCDC" | || 3:1 || 0:2 || 0:3
+|-
+| 16. || style="text-align:left" | [[Arminia Bielefeld]] || 0:0 || 0:1 || 0:0 || 2:1 || 0:1 || 3:0 || 2:1 || 1:0 || 1:3 || 2:1 || 0:1 || 4:1 || 3:0 || 1:1 || 2:2 || style="background:#DCDCDC" | || 0:1 || 2:2
+|-
+| 17. || style="text-align:left" | [[1. FC Nürnberg]] || 1:2 || 1:2 || 1:2 || 1:3 || 0:3 || 1:0 || 0:0 || 1:1 || 1:3 || 1:2 || 3:1 || 2:1 || 0:1 || 1:0 || 0:1 || 0:0 || style="background:#DCDCDC" | || 2:2
+|-
+| 18. || style="text-align:left" | [[Energie Cottbus]] || 0:2 || 2:3 || 0:4 || 0:0 || 0:2 || 0:1 || 0:1 || 0:1 || 2:1 || 3:4 || 3:0 || 1:1 || 0:4 || 1:3 || 1:1 || 2:1 || 2:1 ||style="background:#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable"
+! !! Spieler!! Verein!! Tore
+|-
+| rowspan="2" style="text-align:center" | {{0}}1.|| {{BRA|Ziel=Giovane Élber}}|| [[FC Bayern München]]|| rowspan="2" style="text-align:center" | 21
+|-
+| {{ESP|Ziel=Thomas Christiansen}}|| [[VfL Bochum]]
+|-
+| style="text-align:center" | {{0}}3.|| {{BRA|Ziel=Aílton}}|| [[Werder Bremen]]|| style="text-align:center" | 16
+|-
+| rowspan="2" style="text-align:center" | {{0}}4.|| {{DEU|Ziel=Kevin Kurányi}}|| [[VfB Stuttgart]]|| rowspan="2" style="text-align:center" | 15
+|-
+| {{PER|Ziel=Claudio Pizarro}}|| [[FC Bayern München]]
+|-
+| rowspan="4" style="text-align:center" | {{0}}6.|| {{DEU|Ziel=Fredi Bobič}}|| [[Hannover 96]]|| rowspan="4" style="text-align:center" | 14
+|-
+| {{BRA|Ziel=Marcelinho}}|| [[Hertha BSC]]
+|-
+| {{ARG|Ziel=Bernardo Daniel Romeo}}|| [[Hamburger SV]]
+|-
+| {{DEU|Ziel=Markus Schroth}}|| [[TSV 1860 München]]
+|-
+| rowspan="2" style="text-align:center" | 10.|| {{CZE|Ziel=Jan Koller}}|| [[Borussia Dortmund]]|| rowspan="2" style="text-align:center" | 13
+|-
+| {{DEU|Ziel=Benjamin Lauth}}|| [[TSV 1860 München]]
+|}
+
+== Die Meistermannschaft FC Bayern München ==
+{| class="wikitable" style="width: 700px; text-align: center;"
+|- style="background:#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.'''</span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München'''</span>
+|- style="background:#FFFFFF"
+|[[Datei:Logo FC Bayern München (2002–2017).svg|60px]]||- style="background:#E8E8E8; text-align:left"|
+*'''Tor''': [[Oliver Kahn]] {{Kapitän}} (33/-); [[Stefan Wessels]] (1/-)
+*'''Abwehr''': [[Thomas Linke]] (32/-); [[Bixente Lizarazu]] (26/2); [[Robert Kovač]] (24/-); [[Willy Sagnol]] (23/2); [[Samuel Kuffour]] (20/1); [[Michael Tarnat]] (11/-)
+*'''Mittelfeld''': [[Zé Roberto]] (31/3); [[Jens Jeremies]] (29/-); [[Michael Ballack]] (26/10); [[Owen Hargreaves]] (25/1); [[Mehmet Scholl]] (18/4); [[Niko Kovač]] (18/1); [[Bastian Schweinsteiger]] (14/-); [[Hasan Salihamidžić]] (12/2); [[Markus Feulner]] (10/-); [[Thorsten Fink]] (10/-); [[Sebastian Deisler]] (8/-); [[Piotr Trochowski]] (3/-); [[Zvjezdan Misimović]] (1/-)
+*'''Angriff''': [[Giovane Élber]] (33/21); [[Claudio Pizarro]] (31/15); [[Roque Santa Cruz]] (14/5); [[Alexander Zickler]] (12/4)
+*'''Trainer''': [[Ottmar Hitzfeld]]
+|}
+''* [[Pablo Thiam]] (4/-) hat den Verein während der Saison verlassen.''
+
+== Trainer und Funktionäre ==
+{{Siehe auch|Liste der Cheftrainer in der deutschen Fußball-Bundesliga}}
+
+{| class="wikitable"
+! Verein !! Trainer !! Co-Trainer !! Manager !! Präsident/Vorstandschef !! Aufsichtsratschef
+|-
+! [[Hertha BSC]]
+| [[Huub Stevens]] || [[Holger Gehrke]]<br />[[Andreas Thom (Fußballspieler)|Andreas Thom]] || [[Dieter Hoeneß]] || [[Bernd Schiphorst]] || [[Rupert Scholz]]
+|-
+! [[Arminia Bielefeld]]
+| [[Benno Möhlmann]] || [[Frank Geideck]] || [[Roland Kentsch]]<br />[[Thomas von Heesen]] || [[Hans-Hermann Schwick]] || [[Hans-Hermann Schwick]]
+|-
+! [[VfL Bochum]]
+| [[Peter Neururer]] || [[Frank Heinemann (Fußballspieler)|Frank Heinemann]] || [[Heinz Knüwe]]<br />[[Dieter Meinhold]] (ab 31.&nbsp;März 2003) || [[Ansgar Schwenken]]<br />[[Dieter Meinhold]] || [[Werner Altegoer]]
+|-
+! [[Werder Bremen]]
+| [[Thomas Schaaf]] || [[Karl-Heinz Kamp (Fußballspieler)|Karl-Heinz Kamp]] || [[Klaus Allofs]] || [[Jürgen L. Born]] || [[Franz Böhmert]]
+|-
+! [[Energie Cottbus]]
+| [[Eduard Geyer]] || [[Hagen Reeck]]<br />[[Petrik Sander]] || [[Klaus Stabach]] || [[Dieter Krein]] || nicht besetzt
+|-
+! [[Borussia Dortmund]]
+| [[Matthias Sammer]] || [[Uwe Neuhaus (Fußballspieler)|Uwe Neuhaus]] || [[Michael Meier (Fußballfunktionär)|Michael Meier]]<br />[[Michael Zorc]] || [[Gerd Niebaum]] || nicht besetzt
+|-
+! [[Hamburger SV]]
+| [[Kurt Jara]] || [[Armin Reutershahn]]<br />[[Manfred Linzmaier]]
+| [[Holger Hieronymus]] (bis 14.&nbsp;August 2002)<br />[[Dietmar Beiersdorfer]] (ab 14.&nbsp;August 2002)
+| [[Werner Hackmann]] (bis 31.&nbsp;Oktober 2002)<br />[[Ronald Wulff]] (31.&nbsp;Oktober 2002 bis 1.&nbsp;Februar 2003)<br />[[Bernd Hoffmann]] (ab 1.&nbsp;Februar 2003)
+| [[Udo Bandow]]
+|-
+! [[Hannover 96]]
+| [[Ralf Rangnick]] || Edward Kowalczuk<br />[[Mirko Slomka]] || [[Ricardo Moar]] || [[Martin Kind]] || [[Harrald Wendt]]
+|-
+! [[1. FC Kaiserslautern]]
+| [[Andreas Brehme]] (bis 26.&nbsp;August 2002)<br />[[Eric Gerets]] (ab 5.&nbsp;September 2002) || [[Karl-Heinz Emig]] || nicht besetzt
+| [[Jürgen Friedrich (Fußballspieler)|Jürgen Friedrich]] (bis 25.&nbsp;August 2002)<br />[[René C. Jäggi]] (ab 4.&nbsp;September 2002)
+| [[Robert Wieschemann]] (bis 22.&nbsp;August 2002)<br />[[Walter Ruda]] (ab 6.&nbsp;November 2002)
+|-
+! [[Bayer 04 Leverkusen]]
+| [[Klaus Toppmöller]] (bis 16.&nbsp;Februar 2003)<br />[[Thomas Hörster]] (16.&nbsp;Februar 2003 bis 12.&nbsp;Mai 2003)<br />[[Klaus Augenthaler]] (ab 13.&nbsp;Mai 2003)
+| [[Peter Hermann (Fußballspieler)|Peter Hermann]] || [[Ilja Kaenzig]] || [[Reiner Calmund]]<br />[[Wolfgang Holzhäuser]] || nicht besetzt
+|-
+! [[Borussia Mönchengladbach|Bor. M’gladbach]]
+| [[Hans Meyer (Fußballtrainer)|Hans Meyer]] (bis 1.&nbsp;März 2003)<br />[[Ewald Lienen]] (ab 2.&nbsp;März 2003)
+| [[Michael Frontzeck]]<br />[[Manfred Stefes]] || [[Christian Hochstätter]] || [[Adalbert Jordan]] || [[Hermann Jansen (Politiker)|Hermann Jansen]]
+|-
+! [[FC Bayern München]]
+| [[Ottmar Hitzfeld]] || [[Michael Henke (Fußballspieler)|Michael Henke]] || [[Uli Hoeneß]] || [[Karl-Heinz Rummenigge]] || [[Franz Beckenbauer]]
+|-
+! [[TSV 1860 München]]
+| [[Peter Pacult]] (bis 12.&nbsp;März 2003)<br />[[Falko Götz]] (ab 12.&nbsp;März 2003) || [[Reiner Maurer]]<br />[[Olaf Janßen]] || [[Dirk Dufner]] || [[Karl-Heinz Wildmoser]] || nicht besetzt
+|-
+! [[1. FC Nürnberg]]
+| [[Klaus Augenthaler]] (bis 30.&nbsp;April 2003)<br />[[Wolfgang Wolf]] (ab 30.&nbsp;April 2003) || [[Thomas Brunner (Fußballspieler)|Thomas Brunner]] (bis 30.&nbsp;April 2003) || [[Edgar Geenen]] || [[Michael A. Roth]] || nicht besetzt
+|-
+! [[Hansa Rostock]]
+| [[Armin Veh]] || [[Juri Schlünz]]<br />[[Wolfgang Funkel]] || [[Herbert Maronn]] || [[Manfred Wimmer (Fußballfunktionär)|Manfred Wimmer]] || [[Horst Klinkmann]]
+|-
+! [[FC Schalke 04]]
+| [[Frank Neubarth]] (bis 26.&nbsp;März 2003)<br />[[Marc Wilmots]] (ab 26.&nbsp;März 2003) || [[Norbert Elgert]] || [[Rudi Assauer]] || [[Gerhard Rehberg]] || [[Clemens Tönnies]]
+|-
+! [[VfB Stuttgart]]
+| [[Felix Magath]] || [[Seppo Eichkorn]] || [[Rolf Rüssmann]] (bis 19.&nbsp;Dezember 2002)<br />[[Felix Magath]] || [[Manfred Haas]] || unbekannt
+|-
+! [[VfL Wolfsburg]]
+| [[Wolfgang Wolf]] (bis 4.&nbsp;März 2003)<br />[[Jürgen Röber]] (ab 4.&nbsp;März 2003) || [[Alfons Higl]] || [[Peter Pander]] || unbekannt || [[Lothar Sander]]
+|}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 9 || 42 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 15 || 63 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || {{DatumZelle|1964-03-09}} || [[Fußballverband Rheinland|Rheinland]] || 20 || 76 || 2 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Fleischer, Helmut" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || {{DatumZelle|1964-03-22}} || Bayern || 14 || 60 || 4 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 13 || 53 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || {{DatumZelle|1968-06-09}} || [[Bremer Fußball-Verband|Bremen]] || 8 || 34 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Jansen, Jurgen" | [[Jürgen Jansen]] || {{DatumZelle|1960-10-16}} || [[Fußballverband Niederrhein|Niederrhein]] || 12 || 44 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Kemmling, Uwe" | [[Uwe Kemmling]] || {{DatumZelle|1960-11-01}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 14 || 54 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Keßler, Jorg" | [[Jörg Keßler]] || {{DatumZelle|1964-02-24}} || [[Thüringer Fußball-Verband|Thüringen]] || 12 || 48 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Kinhofer, Thorsten" | [[Thorsten Kinhöfer]] || {{DatumZelle|1968-06-27}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 8 || 43 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Kircher, Knut" | [[Knut Kircher]] || {{DatumZelle|1969-02-02}} || [[Württembergischer Fußballverband|Württemberg]] || 11 || 41 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Koop, Torsten" | [[Torsten Koop]] || {{DatumZelle|1965-05-11}} || [[Landesfußballverband Mecklenburg-Vorpommern|Mecklenburg-Vorpommern]] || 9 || 44 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || Westfalen || 23 || 89 || 4 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || {{DatumZelle|1968-11-21}} || Niedersachsen || 15 || 64 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 22 || 80 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || {{DatumZelle|1969-10-06}} || Bayern || 11 || 37 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || {{DatumZelle|1969-11-20}} || Bayern || 18 || 66 || 2 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 14 || 53 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 15 || 56 || 3 || 4 ||
+|-
+| style="text-align:left" data-sort-value="Wack, Franz-Xaver" | [[Franz-Xaver Wack]] || {{DatumZelle|1965-03-05}} || Bayern || 14 || 72 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || {{DatumZelle|1963-05-27}} || [[Hessischer Fußball-Verband|Hessen]] || 14 || 45 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || {{DatumZelle|1969-03-21}} || Niedersachsen || 15 || 57 || 6 || 2 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1221 || 38 || 33 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle |url=https://www.weltfussball.de/schiedsrichter/bundesliga-2002-2003/1/ |titel=Schiedsrichter |werk=weltfussball.de |abruf=2018-05-25}}</ref>
+|}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2002/2003|Fußball-Bundesliga 2002/03}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 2002/03 (Deutschland)
+|Navigationsleiste Europa-Fußball 2003
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2002-03}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2002/03]]
+[[Kategorie:Fußballsaison 2002/03]]

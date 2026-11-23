@@ -1,0 +1,349 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 2005/06
+| Bild = [[Datei:Bundesliga Wordmark (2002-2010).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2002–2010. Es besteht aus der Schrift "Bundesliga" in zwei Zeilen. Die Schriftfarbe ist schwarz.|170px]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = [[FC Bayern München]]<br />[[Werder Bremen]]
+| UEFA Champions League Quali = [[Hamburger SV]]
+| UEFA Cup = [[FC Schalke 04]]<br />[[Bayer 04 Leverkusen]]<br />[[Eintracht Frankfurt]]
+| Pokal-Sieger = [[FC Bayern München]]
+| UI-Cup = [[Hertha BSC]]
+| Absteiger = [[1. FC Kaiserslautern]]<br />[[1. FC Köln]]<br />[[MSV Duisburg]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 861
+| Zuschauer = 12.414.960
+| Torschützenkönig = {{GER|Ziel=Miroslav Klose}}<br />([[Werder Bremen]])
+| vorherige Saison = [[Fußball-Bundesliga 2004/05|Bundesliga 2004/05]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2006/07|Bundesliga 2006/07]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2005/06|2. Bundesliga 2005/06]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:werder value:rgb(0.11,0.56,0.36)
+  id:grew   value:rgb(0.86,0.86,0.86)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:1.5 shift:(20,-3)   color:werder      text:Werder Bremen
+    from:1.5 till:8.5 shift:(20,-3)   color:red        text:Bayern München
+    from:8.5 till:9.5 shift:(20,-3)   color:werder      text:Werder Bremen
+    from:9.5 till:34.5 shift:(20,-3)  color:red        text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:nurem value:rgb(0.68,0.09,0.20)
+  id:grew value:rgb(0.86,0.86,0.86)
+  id:msv value:rgb(0.00,0.50,1   )
+  id:fck value:rgb(1   ,0.18,0)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:1.5   shift:(20,-3)   color:grew    text:M'gladbach / Nürnberg
+     from:1.5  till:2.5   shift:(20,-3)   color:black text:Eintracht Frankfurt
+     from:2.5  till:5.5   shift:(20,-3)   color:red      text:1. FSV Mainz
+     from:5.5  till:6.5   shift:(20,-3)   color:msv  text:MSV Duisburg
+     from:6.5  till:7.5   shift:(20,-3)   color:nurem   text:1. FC Nürnberg
+     from:7.5  till:8.5   shift:(20,-3)   color:black text:Eintracht Frankfurt
+     from:8.5  till:12.5  shift:(20,-3)   color:nurem   text:1. FC Nürnberg
+     from:12.5  till:20.5 shift:(20,-3)   color:fck     text:1. FC Kaiserslautern
+     from:20.5  till:28.5 shift:(20,-3)   color:claret     text:1. FC Köln
+     from:28.5  till:34.5 shift:(20,-3)   color:msv  text:MSV Duisburg
+</timeline>
+|}
+
+Die '''[[Fußball-Bundesliga|Bundesliga]] 2005/06''' war die 43.&nbsp;Spielzeit der höchsten deutschen Spielklasse im Fußball der Männer. [[Deutsche Fußballmeisterschaft|Deutscher Meister]] wurde der [[FC Bayern München]]. Die Saison startete am 5. August 2005 mit dem Spiel des FC Bayern München gegen Borussia Mönchengladbach und endete am 13. Mai 2006. Zum ersten Mal gewann eine Mannschaft zwei Jahre in Folge das Double – also Meisterschaft und DFB-Pokal. Es war gleichzeitig das vierte Double in Folge, auch einmalig in der Bundesliga. Zugleich war es die erste Saison seit der Saison 1990/91, in der kein Verein aus der ehemaligen DDR spielte.
+
+== Saisonüberblick ==
+Der FC Bayern stand mit Ausnahme des ersten und des neunten Spieltages ununterbrochen auf dem ersten Tabellenplatz und sicherte sich bereits am vorletzten Spieltag den Meistertitel. Am Ende hatten die Bayern fünf Punkte Vorsprung auf Werder Bremen. Die Bremer gewannen am letzten Spieltag 2:1 beim bis dahin zweitplatzierten [[Hamburger SV]] und übernahmen selbst den zweiten Platz, der zur direkten Teilnahme an der [[UEFA Champions League]] berechtigte. Da der [[DFB-Pokal 2005/06|Pokalsieger]] Bayern München sich als Deutscher Meister für die Champions League qualifiziert hatte, durfte Vize-Pokalsieger [[Eintracht Frankfurt]] in der folgenden Saison am UEFA-Pokal teilnehmen.
+
+Während der [[MSV Duisburg]] und der [[1. FC Köln]] schon vor Saisonende als Absteiger feststanden, kam es am letzten Spieltag zu einem direkten Duell um den Klassenerhalt zwischen dem [[VfL Wolfsburg]] und dem [[1. FC Kaiserslautern]]. Die Wolfsburger hatten einen Punkt Vorsprung auf Kaiserslautern, den sie durch ein 2:2 verteidigen konnten. Somit stieg der 1. FC Kaiserslautern zum zweiten Mal nach 1996 aus der Bundesliga ab.
+
+Positiv überraschten neben dem Hamburger SV, der sich in der Bundesligaspitze festsetzte, [[Arminia Bielefeld]] und [[1. FSV Mainz 05|Mainz 05]], die in der Bundesliga blieben, obwohl sie zuvor als klare Abstiegskandidaten gegolten hatten, sowie vor allem im Saisonverlauf der [[1. FC Nürnberg]]. Nach dem zwölften Spieltag noch auf dem letzten Tabellenplatz liegend, startete der ''Club'' unter dem neu engagierten Trainer [[Hans Meyer (Fußballtrainer)|Hans Meyer]] eine Aufholjagd, war in der Rückrunde vierterfolgreichste Mannschaft und belegte am Ende noch Platz 8 vor dem [[VfB Stuttgart]].
+Negativ überraschte vor allem der VfL Wolfsburg, der einen Platz in einem internationalen Wettbewerb angestrebt hatte, am Ende aber nur knapp dem Abstieg entkam – mit der geringsten Punktzahl, mit der seit Einführung der Dreipunkteregel der Klassenerhalt erreicht wurde. Nach der Übernahme durch den Trainer [[Klaus Augenthaler]] rutschte die Mannschaft vom 13. auf den 15. Platz ab.
+
+== Statistik ==
+[[Datei:Fussball-Bundesliga Deutschland 2005-06.png|mini|360px|Teilnehmende Vereine im Überblick]]
+
+=== Abschlusstabelle ===
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=22 |U= 9 |N= 3 |ET=67 |GT=32 |Verein=[[FC Bayern München]] (M, P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=21 |U= 7 |N= 6 |ET=79 |GT=37 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=21 |U= 5 |N= 8 |ET=53 |GT=30 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 4 |S=16 |U=13 |N= 5 |ET=47 |GT=31 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=14 |U=10 |N=10 |ET=64 |GT=49 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 6 |S=12 |U=12 |N=10 |ET=52 |GT=48 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=11 |U=13 |N=10 |ET=45 |GT=42 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=12 |U= 8 |N=14 |ET=49 |GT=51 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S= 9 |U=16 |N= 9 |ET=37 |GT=39 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=10 |U=12 |N=12 |ET=42 |GT=50 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S= 9 |U=11 |N=14 |ET=46 |GT=47 |Verein=[[1. FSV Mainz 05]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S= 7 |U=17 |N=10 |ET=43 |GT=47 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U= 7 |N=17 |ET=32 |GT=47 |Verein=[[Arminia Bielefeld]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang=14 |S= 9 |U= 9 |N=16 |ET=42 |GT=51 |Verein=[[Eintracht Frankfurt]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 7 |U=13 |N=14 |ET=33 |GT=55 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U= 9 |N=17 |ET=47 |GT=71 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 7 |U= 9 |N=18 |ET=49 |GT=71 |Verein=[[1. FC Köln]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 5 |U=12 |N=17 |ET=34 |GT=63 |Verein=[[MSV Duisburg]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister, [[DFB-Pokal 2005/06|DFB-Pokal-Sieger]] und Teilnahme an der [[UEFA Champions League 2006/07]]: FC Bayern München}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League 2006/07: Werder Bremen}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation 2006/07: Hamburger SV}}
+{{Farblegende|#ffdac2|Teilnahme am [[UEFA-Pokal 2006/07]]: FC Schalke 04, Bayer 04 Leverkusen, Eintracht Frankfurt (als unterlegener Pokalfinalist)}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 2006|UI-Cup 2006]]: Hertha BSC}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2006/07|2. Bundesliga 2006/07]]: MSV Duisburg, 1. FC Köln, 1. FC Kaiserslautern}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2004/05|2004/05]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2004/05|2004/05]]
+|-
+| (N) || Aufsteiger aus der 2. Bundesliga [[2. Fußball-Bundesliga 2004/05|2004/05]]
+|}
+
+=== Tabellenverlauf ===
+[[Datei:Platzierungen Bundesliga 2005-2006.svg|700px]]
+
+=== Kreuztabelle ===
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+| colspan="2" width="200" | '''2005/06'''
+| [[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+| [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+| [[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+| [[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:FSV Mainz 05 Logo.svg|22px|FSV Mainz 05]]
+| [[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+| [[Datei:Arminia Bielefeld Logo 1998–2008.svg|22px|Arminia Bielefeld]]
+| [[Datei:Logo Eintracht Frankfurt 1998.svg|22px|Eintracht Frankfurt]]
+| [[Datei:Logo-VfL-Wolfsburg.svg|22px|VfL Wolfsburg]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:1. FC Koeln Logo 2000–2014.png|22px|1. FC Köln]]
+| [[Datei:MSV Duisburg.svg|22px|MSV Duisburg]]
+|-
+| {{0}}1. || align="left" | [[FC Bayern München]] || bgcolor="#DCDCDC" | || 3:1 || 1:2 || 3:0 || 1:0 || 3:0 || 3:3 || 2:1 || 3:1 || 3:0 || 2:1 || 1:0 || 2:0 || 5:2 || 2:0 || 2:1 || 2:2 || 4:0
+|-
+| {{0}}2. || align="left" | [[Werder Bremen]] || 3:0 || bgcolor="#DCDCDC" | || 1:1 || 0:0 || 2:1 || 0:3 || 3:2 || 6:2 || 1:1 || 2:0 || 4:2 || 5:0 || 5:2 || 4:1 || 6:1 || 0:2 || 6:0 || 2:0
+|-
+| {{0}}3. || align="left" | [[Hamburger SV]] || 2:0 || 1:2 || bgcolor="#DCDCDC" | || 1:0 || 0:2 || 2:1 || 2:4 || 3:0 || 0:2 || 2:0 || 1:0 || 1:1 || 2:1 || 1:1 || 0:1 || 3:0 || 3:1 || 2:0
+|-
+| {{0}}4. || align="left" | [[FC Schalke 04]] || 1:1 || 2:1 || 0:2 || bgcolor="#DCDCDC" | || 7:4 || 0:0 || 0:0 || 2:0 || 3:2 || 1:1 || 1:0 || 2:0 || 3:1 || 2:0 || 2:2 || 2:1 || 1:1 || 3:0
+|-
+| {{0}}5. || align="left" | [[Bayer 04 Leverkusen]] || 2:5 || 1:1 || 0:1 || 1:1 || bgcolor="#DCDCDC" | || 1:2 || 2:1 || 2:2 || 1:1 || 2:1 || 1:2 || 0:0 || 1:1 || 2:1 || 4:0 || 5:1 || 2:1 || 3:2
+|-
+| {{0}}6. || align="left" | [[Hertha BSC]] || 0:0 || 1:2 || 4:2 || 1:2 || 1:5 || bgcolor="#DCDCDC" | || 0:0 || 1:1 || 2:0 || 2:2 || 3:1 || 1:1 || 1:0 || 2:0 || 3:0 || 3:0 || 2:4 || 3:2
+|-
+| {{0}}7. || align="left" | [[Borussia Dortmund]] || 1:2 || 0:1 || 1:1 || 1:2 || 1:2 || 2:0 || bgcolor="#DCDCDC" | || 2:1 || 0:0 || 2:1 || 1:1 || 0:2 || 2:0 || 1:1 || 3:2 || 2:1 || 2:1 || 2:0
+|-
+| {{0}}8. || align="left" | [[1. FC Nürnberg]] || 1:2 || 3:1 || 2:1 || 1:1 || 1:1 || 2:1 || 1:2 || bgcolor="#DCDCDC" | || 0:1 || 5:2 || 3:0 || 1:1 || 2:3 || 0:1 || 1:0 || 3:2 || 2:1 || 3:0
+|-
+| {{0}}9. || align="left" | [[VfB Stuttgart]] || 0:0 || 0:0 || 1:2 || 2:0 || 0:2 || 3:3 || 0:0 || 1:0 || bgcolor="#DCDCDC" | || 1:1 || 2:1 || 2:2 || 1:1 || 0:2 || 2:1 || 1:0 || 2:3 || 0:1
+|-
+| 10. || align="left" | [[Borussia Mönchengladbach]] || 1:3 || 2:1 || 0:0 || 0:0 || 1:1 || 2:2 || 2:1 || 0:1 || 1:1 || bgcolor="#DCDCDC" | || 1:0 || 2:2 || 2:0 || 4:3 || 1:1 || 4:1 || 2:0 || 2:1
+|-
+| 11. || align="left" | [[1. FSV Mainz 05]] || 2:2 || 0:2 || 1:3 || 1:0 || 3:1 || 2:2 || 1:1 || 4:1 || 1:2 || 3:0 || bgcolor="#DCDCDC" | || 0:0 || 1:1 || 2:2 || 5:1 || 0:2 || 4:2 || 1:1
+|-
+| 12. || align="left" | [[Hannover 96]] || 1:1 || 0:0 || 2:1 || 1:2 || 2:2 || 2:2 || 1:2 || 1:1 || 3:3 || 1:1 || 2:2 || bgcolor="#DCDCDC" | || 0:1 || 2:0 || 2:4 || 5:1 || 1:0 || 1:1
+|-
+| 13. || align="left" | [[Arminia Bielefeld]] || 1:2 || 0:1 || 0:2 || 0:1 || 1:0 || 3:0 || 1:0 || 0:0 || 2:1 || 0:2 || 2:0 || 4:1 || bgcolor="#DCDCDC" | || 1:0 || 0:1 || 0:0 || 3:2 || 0:2
+|-
+| 14. || align="left" | [[Eintracht Frankfurt]] || 0:1 || 0:1 || 1:2 || 0:1 || 1:4 || 1:1 || 2:0 || 1:0 || 1:1 || 0:2 || 0:0 || 0:1 || 3:0 || bgcolor="#DCDCDC" | || 1:1 || 2:2 || 6:3 || 5:2
+|-
+| 15. || align="left" | [[VfL Wolfsburg]] || 0:0 || 1:1 || 0:1 || 0:0 || 2:1 || 1:1 || 2:2 || 1:1 || 0:1 || 2:0 || 0:3 || 2:1 || 0:0 || 1:0 || bgcolor="#DCDCDC" | || 2:2 || 1:1 || 1:1
+|-
+| 16. || align="left" | [[1. FC Kaiserslautern]] || 1:1 || 1:5 || 0:3 || 0:2 || 2:2 || 0:2 || 3:3 || 1:3 || 1:1 || 3:0 || 0:2 || 1:0 || 2:0 || 1:2 || 3:2 || bgcolor="#DCDCDC" | || 2:2 || 5:3
+|-
+| 17. || align="left" | [[1. FC Köln]] || 1:2 || 1:4 || 0:1 || 2:2 || 0:3 || 0:1 || 0:0 || 3:4 || 0:0 || 2:1 || 1:0 || 1:4 || 4:2 || 1:1 || 3:0 || 2:3 || bgcolor="#DCDCDC" | || 3:1
+|-
+| 18. || align="left" | [[MSV Duisburg]] || 1:3 || 3:5 || 0:2 || 1:1 || 1:3 || 2:1 || 1:1 || 1:0 || 1:1 || 1:1 || 0:0 || 0:0 || 1:1 || 0:1 || 1:0 || 2:2 || 1:1 || bgcolor="#DCDCDC"|
+|}
+
+=== Torschützenliste ===
+[[Datei:Miroslav Klose 5dec2006.jpg|mini|Miroslav Klose]]
+{| class="wikitable"
+! !! Spieler!! Verein !! Tore
+|-
+| align="center" |1. || {{DEU|Ziel=Miroslav Klose}} || [[Werder Bremen]] || align="center" | 25
+|-
+| align="center" |2. || {{BGR|Ziel=Dimitar Berbatow}} || [[Bayer 04 Leverkusen]] || align="center" | 21
+|-
+| align="center" |3. || {{TUR|Ziel=Halil Altıntop}} || [[1. FC Kaiserslautern]] || align="center" | 20
+|-
+| align="center" |4. || {{NLD|Ziel=Roy Makaay}} || [[FC Bayern München]] || align="center" | 17
+|-
+| align="center" |5. || {{SVK|Ziel=Róbert Vittek}} || [[1. FC Nürnberg]] || align="center" | 16
+|-
+| align="center" |6. || {{HRV|Ziel=Ivan Klasnić}} || [[Werder Bremen]] || align="center" | 15
+|-
+| align="center" |7. || {{DEU|Ziel=Michael Ballack}} || [[FC Bayern München]] || align="center" | 14
+|-
+| align="center" |8. || {{POL|Ziel=Euzebiusz Smolarek}} || [[Borussia Dortmund]] || align="center" | 13
+|-
+| rowspan="5" align="center" | 9. || {{GRC|Ziel=Ioannis Amanatidis}} || [[Eintracht Frankfurt]] || rowspan="5" align="center" | 12
+|-
+| {{ARG|Ziel=Diego Fernando Klimowicz}} || [[VfL Wolfsburg]]
+|-
+| {{BRA|Ziel=Marcelinho}} || [[Hertha BSC]]
+|-
+| {{DEU|Ziel=Lukas Podolski}} || [[1. FC Köln]]
+|-
+| {{DEU|Ziel=Michael Thurk}} || [[1. FSV Mainz 05]]
+|}
+
+== Die Meistermannschaft FC Bayern München ==
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Logo FC Bayern München (2002–2017).svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Oliver Kahn]] {{Kapitän}} (31/-); [[Michael Rensing]] (6/-); [[Bernd Dreher]] (1/-) 
+* '''Abwehr''': [[Willy Sagnol]] (31/1); [[Lúcio]] (30/2); [[Valérien Ismaël]] (30/-); [[Martín Demichelis]] (27/1); [[Philipp Lahm]] (20/-); [[Bixente Lizarazu]] (18/-)
+* '''Mittelfeld''': [[Bastian Schweinsteiger]] (30/3); [[Zé Roberto]] (27/1); [[Michael Ballack]] (26/14); [[Hasan Salihamidžić]] (21/2); [[Ali Karimi]] (20/2); [[Mehmet Scholl]] (18/3); [[Owen Hargreaves]] (16/1); [[Sebastian Deisler]] (16/-); [[Jens Jeremies]] (13/-); [[Andreas Ottl]] (8/1); [[Julio dos Santos]] (1/-) 
+* '''Angriff''': [[Roy Makaay]] (31/17); [[Claudio Pizarro]] (26/11); [[Paolo Guerrero]] (14/4); [[Roque Santa Cruz]] (13/4)
+* '''Trainer''': [[Felix Magath]]
+|}
+
+== Trainer und Funktionäre ==
+{{siehe auch|Liste der Cheftrainer in der deutschen Fußball-Bundesliga}}
+{| class="wikitable"
+! Verein !! Trainer !! Co-Trainer !! Manager !! Präsident/Vorstandschef !! Aufsichtsratschef
+|-
+! [[Hertha BSC]]
+| [[Falko Götz]] || [[Andreas Thom (Fußballspieler)|Andreas Thom]] || [[Dieter Hoeneß]] || [[Bernd Schiphorst]] || [[Rupert Scholz]] (bis 2. Mai 2006)<br />[[Werner Gegenbauer]] (ab 2. Mai 2006)
+|-
+! [[Arminia Bielefeld]]
+| [[Thomas von Heesen]] || [[Frank Geideck]] || [[Roland Kentsch]]<br />[[Reinhard Saftig]] || [[Hans-Hermann Schwick]] || [[Hans-Hermann Schwick]]
+|-
+! [[Werder Bremen]]
+| [[Thomas Schaaf]] || [[Karl-Heinz Kamp (Fußballspieler)|Karl-Heinz Kamp]] || [[Klaus Allofs]] || [[Jürgen L. Born]] || [[Willi Lemke]]
+|-
+! [[Borussia Dortmund]]
+| [[Bert van Marwijk]] || [[Dick Voorn]] || [[Hans-Joachim Watzke]]<br />[[Michael Zorc]] || [[Reinhard Rauball]] || [[Gerd Pieper (Unternehmer)|Gerd Pieper]]
+|-
+! [[MSV Duisburg]]
+| [[Norbert Meier]] (bis 8. Dezember 2005)<br />[[Heiko Scholz]] (8. Dezember 2005 – 17. Dezember 2005)<br />[[Jürgen Kohler]] (17. Dezember 2005 – 4. April 2006)<br />[[Heiko Scholz]] (ab 4. April 2006) || [[Heiko Scholz]]<br />[[Andreas Zachhuber]] (18. Dezember 2005 – 4. April 2006)<br />[[Manfred Stefes]] (ab 4. April 2006) || nicht besetzt || [[Walter Hellmich (Fußballfunktionär)|Walter Hellmich]] || Manfred Adamski (bis 31. August 2005)<br />Artur Grzesiek (ab 21. Oktober 2005)
+|-
+! [[Eintracht Frankfurt]]
+| [[Friedhelm Funkel]] || [[Armin Reutershahn]] || [[Heribert Bruchhagen]] || [[Peter Fischer (Sportfunktionär)|Peter Fischer]] || [[Herbert Becker (Politiker, 1937)|Herbert Becker]]
+|-
+! [[Hamburger SV]]
+| [[Thomas Doll]] || [[Ralf Zumdick]] || [[Dietmar Beiersdorfer]] || [[Bernd Hoffmann]] || [[Udo Bandow]]
+|-
+! [[Hannover 96]]
+| [[Ewald Lienen]] (bis 9. November 2005)<br />[[Peter Neururer]] (ab 9. November 2005) || [[Michael Frontzeck]] (bis 9. November 2005)<br />[[Michael Schjønberg]] (ab 9. November 2005)<br />[[Thomas Kristl]] (ab 3. Januar 2006) || [[Ilja Kaenzig]] || [[Martin Kind]] (bis 29. August 2005)<br />[[Götz-Werner von Fromberg|Götz von Fromberg]] (ab 29. August 2005) || [[Harrald Wendt]]
+|-
+! [[1. FC Kaiserslautern]]
+| [[Michael Henke (Fußballspieler)|Michael Henke]] (bis 19. November 2005)<br />[[Wolfgang Wolf]] (ab 21. November 2005) || [[Manfred Rauscher]] (bis 19. November 2005)<br />[[Wolfgang Funkel]] (ab 23. November 2005) || [[Olaf Marschall]] || [[René C. Jäggi]] || [[Walter Ruda]] (bis 7. Februar 2006)<br />Dieter Buchholz (ab 7. Februar 2006)
+|-
+! [[1. FC Köln]]
+| [[Uwe Rapolder]] (bis 18. Dezember 2005)<br />[[Hanspeter Latour]] (ab 3. Januar 2006) || [[Stephan Engels]] (ab 28. September 2005)<br />[[Frank Leicht]]<br />Wolfgang Geiger (bis 3. Januar 2006)<br />[[Thomas Binggeli]] (ab 3. Januar 2006) || [[Andreas Rettig]] (bis 17. Dezember 2005)<br />[[Michael Meier (Fußballfunktionär)|Michael Meier]] (ab 21. Dezember 2005) || [[Wolfgang Overath]] || [[Bernhard Worms]]
+|-
+! [[Bayer 04 Leverkusen]]
+| [[Klaus Augenthaler]] (bis 16. September 2005)<br />[[Rudi Völler]] (16. September 2005 – 9. Oktober 2005)<br />[[Michael Skibbe]] (ab 9. Oktober 2005) || [[Peter Hermann (Fußballspieler)|Peter Hermann]] || [[Michael Reschke]]<br />[[Rudi Völler]] || [[Wolfgang Holzhäuser]] || nicht besetzt
+|-
+! [[1. FSV Mainz 05]]
+| [[Jürgen Klopp]] || [[Željko Buvač]] || [[Christian Heidel]] || [[Harald Strutz (Sportfunktionär)|Harald Strutz]]|| nicht besetzt
+|-
+! [[Borussia Mönchengladbach]]
+| [[Horst Köppel]] (bis 14. Mai 2006) || [[Jørn Andersen]] || [[Peter Pander]] || [[Rolf Königs]] || [[Hermann Jansen (Politiker)|Hermann Jansen]]
+|-
+! [[FC Bayern München]]
+| [[Felix Magath]] || [[Josef Eichkorn|Seppo Eichkorn]] || [[Uli Hoeneß]] || [[Karl-Heinz Rummenigge]] || [[Franz Beckenbauer]]
+|-
+! [[1. FC Nürnberg]]
+| [[Wolfgang Wolf]] (bis 31. Oktober 2005)<br />[[Hans Meyer (Fußballtrainer)|Hans Meyer]] (ab 9. November 2005) || [[Dieter Lieberwirth]] || [[Martin Bader]] || [[Michael A. Roth]] || [[Klaus Schramm]]
+|-
+! [[FC Schalke 04]]
+| [[Ralf Rangnick]] (bis 12. Dezember 2005)<br />[[Oliver Reck]] (12. Dezember 2005 – 4. Januar 2006)<br />[[Mirko Slomka]] (ab 4. Januar 2006) || [[Mirko Slomka]] (bis 4. Januar 2006) || [[Rudi Assauer]] (bis 17. Mai 2006)<br />[[Andreas Müller (Fußballspieler, 1962)|Andreas Müller]] || [[Gerhard Rehberg]] || [[Clemens Tönnies]]
+|-
+! [[VfB Stuttgart]]
+| [[Giovanni Trapattoni]] (bis 9. Februar 2006)<br />[[Armin Veh]] (ab 10. Februar 2006) || [[Andreas Brehme]] (bis 9. Februar 2006)<br />Christian Kolodziej (ab 10. Februar 2006) || [[Jochen Schneider (Fußballfunktionär)|Jochen Schneider]]<br />[[Herbert Briem]] (bis 3. Januar 2006)<br />[[Horst Heldt]] (ab 3. Januar 2006) || [[Erwin Staudt]] || [[Dieter Hundt]]
+|-
+! [[VfL Wolfsburg]]
+| [[Holger Fach]] (bis 19. Dezember 2005)<br />[[Klaus Augenthaler]] (ab 29. Dezember 2005) || [[Michael Oenning]] (bis 2. Januar 2006)<br />Robert Roelofsen (ab 2. Januar 2006) || [[Thomas Strunz]] (bis 19. Dezember 2005)<br />[[Klaus Fuchs (Sportfunktionär)|Klaus Fuchs]] (ab 29. Dezember 2005) || [[Wilhelm Ahrens (Sportfunktionär)|Wilhelm Ahrens]] || [[Lothar Sander]]
+|}
+
+== Eingesetzte Schiedsrichter ==
+{| class="wikitable sortable zebra"
+|+ (Stand: Saisonende 2005/06)
+! Name || Geboren<br /> || Landesverband<br /> || Anz. d.<br />Spiele<br /> || [[Datei:Yellow card.svg|14px]]<br /> || [[Datei:Yellow-red card.svg|18px]]<br /> || [[Datei:Red card.svg|14px]]<br /> || class="unsortable" | Anmerkung
+|-
+| style="text-align:left" {{PersonZelle|Felix| Brych}} || 03.08.1975 || [[Bayerischer Fußball-Verband|Bayern]] || 18 || 60 || 2 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Jochen|Drees}} || 15.03.1970 || [[Südwestdeutscher Fußballverband|Südwest]] || 9 || 30 || 0 || 1 || style="text-align:left" |Neuling
+|-
+| style="text-align:left" {{PersonZelle|Herbert|Fandel}} || 09.03.1964 || [[Fußballverband Rheinland|Rheinland]] || 19 || 73 || 3 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Helmut|Fleischer|k=Schiedsrichter}} || 22.03.1964 || [[Bayerischer Fußball-Verband|Bayern]] || 16 || 76 || 0 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Peter|Gagelmann}} || 09.06.1968 || [[Bremer Fußball-Verband|Bremen]] || 18 || 77 || 3 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Manuel|Gräfe}} || 21.09.1973 || [[Berliner Fußball-Verband|Berlin]] || 18 || 79 || 2 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Thorsten|Kinhöfer}} || 27.06.1968 || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 18 || 80 || 1 || 0 || style="text-align:left" |FIFA-Schiedsrichter ab Jahresbeginn 2006
+|-
+| style="text-align:left" {{PersonZelle|Knut|Kircher}} || 02.02.1969 || [[Württembergischer Fußballverband|Württemberg]] || 20 || 71 || 0 || 0 || style="text-align:left" | FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Markus|Merk }} || 15.03.1962 || [[Südwestdeutscher Fußballverband|Südwest]] || 25 || 107 || 3 || 3 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Florian|Meyer|k=Schiedsrichter}} || 21.11.1968 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 21 || 93 || 0 || 4 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Günter|Perl}} || 23.12.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 12 || 45 || 0 || 1 || style="text-align:left" | Neuling
+|-
+| style="text-align:left" {{PersonZelle|Babak|Rafati}} || 28.05.1970 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 12 || 48 || 1 || 0 || style="text-align:left" |Neuling
+|-
+| style="text-align:left" {{PersonZelle|Markus|Schmidt|k=Schiedsrichter}} || 31.08.1973 || [[Württembergischer Fußballverband|Württemberg]] || 12 || 41 || 2 || 0 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Peter|Sippel}} || 06.10.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 15 || 48 || 0 || 3 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Wolfgang|Stark}} || 20.11.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 22 || 103 || 4 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Franz-Xaver|Wack}} || 05.03.1965 || [[Bayerischer Fußball-Verband|Bayern]] || 18 || 60 || 3 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Lutz|Wagner|k=Schiedsrichter}} || 27.05.1963 || [[Hessischer Fußball-Verband|Hessen]] || 17 || 69 || 5 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Michael|Weiner}} || 21.03.1969 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 16 || 66 || 4 || 2 || style="text-align:left" | FIFA-Schiedsrichter
+|}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2005/2006|Fußball-Bundesliga 2005/06}}
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2006
+|Navigationsleiste Fußballsaison 2005/06 (Deutschland)
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2005-06}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2005/06]]
+[[Kategorie:Fußballsaison 2005/06]]

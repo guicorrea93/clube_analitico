@@ -1,0 +1,321 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 1993/94
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = [[FC Bayern München]]
+| UEFA Cup = [[1. FC Kaiserslautern]]<br />[[Bayer 04 Leverkusen]]<br />[[Borussia Dortmund]]<br />[[Eintracht Frankfurt]]
+| Pokal-Sieger = [[Werder Bremen]]
+| Europapokal der Pokalsieger = [[Werder Bremen]]
+| Absteiger = [[1. FC Nürnberg]]<br />[[SG Wattenscheid 09]]<br />[[VfB Leipzig (1991)|VfB Leipzig]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 895
+| Zuschauer = 8.317.283
+| Torschützenkönig = {{DEU|Ziel=Stefan Kuntz}}<br />([[1. FC Kaiserslautern]]) /<br />{{GHA|Ziel=Anthony Yeboah}}<br />([[Eintracht Frankfurt]])
+| vorherige Saison = [[Fußball-Bundesliga 1992/93|Bundesliga 1992/93]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1994/95|Bundesliga 1994/95]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1993/94|2. Bundesliga 1993/94]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:Bayer value:rgb(0.68,0.09,0.20)
+  id:Lautern   value:rgb(0.87,0.00,0.16)
+  id:MSV  value:rgb(0.00,0.50,1)
+  id:Werder  value:rgb(0.11,0.56,0.36)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:start till:1.5 shift:(20,-3)  color:Werder  text:Werder Bremen
+  from:1.5 till:2.5 shift:(20,-3)    color:Lautern   text:1. FC Kaiserslautern
+  from:2.5 till:3.5 shift:(20,-3)  color:Werder  text:Werder Bremen
+  from:3.5 till:18.5 shift:(20,-3)   color:black  text:Eintracht Frankfurt
+  from:18.5 till:20.5 shift:(20,-3)  color:Bayer  text:Bayer Leverkusen
+  from:20.5 till:21.5 shift:(20,-3)  color:black  text:Eintracht Frankfurt
+  from:21.5 till:22.5 shift:(20,-3)  color:MSV   text:MSV Duisburg
+  from:22.5 till:34.5 shift:(20,-3)  color:red    text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:s04 value:rgb(0.00,0.05,1)
+  id:grew value:rgb(0.86,0.86,0.86)
+  id:lila value:rgb(0.56,0.00,0.30)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+     from:0.5   till:7.5  shift:(20,-3)   color:yelloworange   text:Dynamo Dresden
+     from:7.5   till:8.5  shift:(20,-3)   color:s04      text:Schalke 04
+     from:8.5   till:9.5  shift:(20,-3)   color:yelloworange   text:Dynamo Dresden
+     from:9.5   till:17.5 shift:(20,-3)   color:s04     text:Schalke 04
+     from:17.5  till:34.5 shift:(20,-3)   color:blue text:VfB Leipzig
+</timeline>
+|}
+
+Erster in der '''Saison 1993/94 der deutschen [[Fußball-Bundesliga|Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]]. Die Saison begann am 7. August 1993 und endete am 7. Mai 1994.
+
+== Saisonüberblick ==
+
+=== Meisterschaft und internationale Plätze ===
+Bayern München beendete eine durchwachsene Hinserie auf Platz 2 und trennte sich zur Winterpause von Trainer [[Erich Ribbeck]]. Sein Nachfolger wurde [[Franz Beckenbauer]]. In dessen Debütspiel verlor die Mannschaft mit 1:3 gegen den VfB Stuttgart und fiel bis zum 21. Spieltag auf Platz 5. In der Folge konnten sich die Münchener aber stabilisieren und die Tabellenführung übernehmen. Allerdings verringerte sich der Abstand am 31. Spieltag durch eine 4:0-Niederlage beim engsten Verfolger 1. FC Kaiserslautern nochmal. Am 23. April 1994, dem 32. Spieltag, kam es zur Begegnung Bayern Münchens und des 1. FC Nürnberg, die durch das sogenannte „[[Phantomtor#Fußball|Phantomtor]]“ bekannt wurde. Schiedsrichter [[Hans-Joachim Osmers]] gab auf ein Zeichen seines Linienrichters ein Tor für die Bayern, obwohl [[Thomas Helmer]] neben das Tor geschossen hatte. Das Spiel endete mit 2:1 für den FC Bayern, wurde aber vom [[Deutscher Fußball-Bund|DFB]] nachträglich annulliert und neu angesetzt. Das Wiederholungsspiel am 3. Mai 1994 gewannen die Bayern mit 5:0. Am 33. Spieltag machte der 1. FC Kaiserslautern durch einen Sieg über Borussia Dortmund einen weiteren Punkt auf die Bayern gut, da diese beim Karlsruher SC nur Unentschieden spielten. Die Bayern gewannen ihr Abschlussspiel aber mit 2:0 gegen Schalke 04 und wurden mit diesem einen Punkt Vorsprung auf den 1. FC Kaiserslautern zum 13. Mal Deutscher Meister. Nach der heutigen Punkteregel (3 statt 2 Punkte für einen Sieg) wären Kaiserslautern und Bayern punktgleich gewesen, doch wegen der besseren Tordifferenz hätte sich an der Meisterschaft nichts geändert.
+
+Die erste Tabellenhälfte der Bundesliga lag in diesem Jahr außergewöhnlich eng beieinander. Diese enge Situation führte auch zum bis heute einmaligen Kuriosum, dass der MSV Duisburg am 22. Spieltag die Tabelle mit negativer Tordifferenz (−1) anführte. Noch am 31. Spieltag hatte der Neuntplatzierte nur fünf Punkte weniger als Bayern München und hätte diese theoretisch noch einholen können. Hinter Kaiserslautern, dass sich erst in der Endphase als größter Bayern-Herausforderer durchsetzen konnte, blieb der Kampf um die UEFA-Cup-Plätze daher bis zum Schluss offen. Dritter wurde Leverkusen vor Borussia Dortmund, das erst am 30. Spieltag zum ersten Mal auf einen internationalen Rang gesprungen war. Herbstmeister Eintracht Frankfurt, der in der Rückrunde an Boden verlor, erreichte mit einem 3:2-Sieg in Köln immerhin noch Platz 5.
+
+Bitter verlief der letzte Spieltag hingegen für den Karlsruher SC. Der KSC hatte eine starke Rückrunde gespielt und im Frühjahr mit dem Erreichen des UEFA-Cup-Halbfinals international für Furore gesorgt, rutschte durch eine 5:1-Niederlage bei Absteiger SG Wattenscheid 09 aber noch von Platz 3 auf Platz 6 ab. Auch Neuling und Überraschungsteam MSV Duisburg (das sogar Hinrunden-Dritter war) konnte seine beste Bundesligasaison seit 1978 nicht krönen. Vorjahres-Meister Werder Bremen hatte sogar schon am 33. Spieltag keine Chance mehr, den UEFA-Cup-Platz zu erreichen.
+
+=== Abstieg ===
+Frühzeitig stand der Abstieg des VfB Leipzig nach einer Bundesliga-Saison fest. Die Sachsen hatten in der Rückrunde nur sechs Punkte gesammelt und waren nach dem 30. Spieltag nicht mehr zu retten. Am 32. Spieltag folgte die SG Wattenscheid 09. Dynamo Dresden und Schalke 04 hatten sich hingegen dank guter Rückrunden frühzeitig retten können.
+
+Der SC Freiburg stand am 31. Spieltag mit vier Punkten Rückstand auf den 1. FC Nürnberg bereits vor dem Abstieg. Er gewann jedoch seine letzten drei Spiele und verblieb in der Bundesliga, während die Nürnberger nur noch einen Sieg landen konnten und aufgrund der schlechteren Tordifferenz absteigen musste. Dabei erwies sich die Fehlentscheidung rund ums "Phantomtor" im Spiel gegen den FC Bayern als folgenreich, da mit einem Remis im besagten Spiel der Klassenerhalt gelungen wäre.
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 1993-94.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=17 |U=10 |N= 7 |ET=68 |GT=37 |Siegpunkte=2 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=18 |U= 7 |N= 9 |ET=64 |GT=36 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=14 |U=11 |N= 9 |ET=60 |GT=47 |Siegpunkte=2 |Verein=[[Bayer 04 Leverkusen]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 4 |S=15 |U= 9 |N=10 |ET=49 |GT=45 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 5 |S=15 |U= 8 |N=11 |ET=57 |GT=41 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=14 |U=10 |N=10 |ET=46 |GT=43 |Siegpunkte=2 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=13 |U=11 |N=10 |ET=51 |GT=43 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang= 8 |S=13 |U=10 |N=11 |ET=51 |GT=44 |Siegpunkte=2 |Verein=[[Werder Bremen]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=14 |U= 8 |N=12 |ET=41 |GT=52 |Siegpunkte=2 |Verein=[[MSV Duisburg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=14 |U= 7 |N=13 |ET=65 |GT=59 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=14 |U= 6 |N=14 |ET=49 |GT=51 |Siegpunkte=2 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=13 |U= 8 |N=13 |ET=48 |GT=52 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U=14 |N=10 |ET=33 |GT=44 |Siegpunkte=2 |Verein=[[Dynamo Dresden]] {{FN|(1)}} |Abzug=4 }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=10 |U= 9 |N=15 |ET=38 |GT=50 |Siegpunkte=2 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=10 |U= 8 |N=16 |ET=54 |GT=57 |Siegpunkte=2 |Verein=[[SC Freiburg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S=10 |U= 8 |N=16 |ET=41 |GT=55 |Siegpunkte=2 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 6 |U=11 |N=17 |ET=48 |GT=70 |Siegpunkte=2 |Verein=[[SG Wattenscheid 09]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 3 |U=11 |N=20 |ET=32 |GT=69 |Siegpunkte=2 |Verein=[[VfB Leipzig (1991)|VfB Leipzig]] (N) }}
+{{Fußballtabelle/Ende}}
+{{FNZ|(1)|Dynamo Dresden: Abzug von vier Punkten nach Verstoß gegen Lizenzierungsauflagen.}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 1994/95]]: FC Bayern München}}
+{{Farblegende|#fffacd|DFB-Pokal-Sieger und Teilnahme am [[Europapokal der Pokalsieger 1994/95]]: Werder Bremen}}
+{{Farblegende|#ccccff|Teilnahme am [[UEFA-Pokal 1994/95]]: 1. FC Kaiserslautern, Bayer 04 Leverkusen, Borussia Dortmund, Eintracht Frankfurt}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1994/95|2. Bundesliga 1994/95]]: VfB Leipzig, SG Wattenscheid 09, 1. FC Nürnberg}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1992/93|1992/93]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1992/93|1992/93]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1992/93|1992/93]]
+|}
+
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 1993-94.svg|700px]]
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+| colspan="2" width="200" | '''1993/94'''
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|22px|FC Bayern München]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:TSV Bayer 04 Leverkusen.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+| [[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:Logo MSV Duisburg 1980 - 1996.gif|25px|MSV Duisburg]]
+| [[Datei:Gladbach gruen.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:1. FC Koeln Logo 1992–2000.svg|22px|1. FC Köln]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:Historical Logo 1. FC Dynamo Dresden (1990-2002).png|23px|Dynamo Dresden]]
+| [[Datei:Logo Schalke 1978 - 1995.gif|22px|FC Schalke 04]]
+| [[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+| [[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+| [[Datei:SG Wattenscheid 09.svg|23px|SG Wattenscheid]]
+| [[Datei:VfB Leipzig - 1991-2004.svg|22px|VfB Leipzig]]
+|-
+| {{0}}1.|| align="left" | [[FC Bayern München]] || bgcolor="#DCDCDC" | || 4:0 || 1:1 || 0:0 || 2:1 || 1:0 || 1:3 || 2:0 || 4:0 || 3:1 || 1:0 || 4:0 || 5:0 || 2:0 || 3:1 || 5:0{{FN|1}} || 3:3 || 3:0
+|-
+| {{0}}2.|| align="left" | [[1. FC Kaiserslautern]] || 4:0 || bgcolor="#DCDCDC" | || 3:2 || 2:0 || 1:1 || 0:0 || 5:0 || 2:3 || 2:0 || 4:2 || 3:0 || 3:0 || 0:0 || 0:0 || 1:0 || 3:1 || 4:1 || 1:0
+|-
+| {{0}}3.|| align="left" | [[Bayer 04 Leverkusen]] || 2:1 || 3:2 || bgcolor="#DCDCDC" | || 2:1 || 2:2 || 3:1 || 1:1 || 2:2 || 2:1 || 0:1 || 2:1 || 1:2 || 1:1 || 5:1 || 2:1 || 4:0 || 1:1 || 3:1
+|-
+| {{0}}4.|| align="left" | [[Borussia Dortmund]] || 1:1 || 2:1 || 1:0 || bgcolor="#DCDCDC" | || 2:0 || 2:1 || 1:2 || 3:2 || 2:1 || 3:0 || 2:1 || 2:1 || 4:0 || 1:1 || 3:2 || 4:1 || 2:0 || 0:1
+|-
+| {{0}}5.|| align="left" | [[Eintracht Frankfurt]] || 2:2 || 1:0 || 2:0 || 2:0 || bgcolor="#DCDCDC" | || 3:1 || 0:0 || 2:2 || 1:2 || 0:3 || 0:3 || 1:1 || 3:2 || 1:3 || 3:0 || 1:1 || 5:1 || 2:1
+|-
+| {{0}}6.|| align="left" | [[Karlsruher SC]] || 1:1 || 1:1 || 2:0 || 3:3 || 1:0 || bgcolor="#DCDCDC" | || 0:0 || 0:3 || 5:0 || 1:0 || 2:0 || 2:0 || 1:0 || 0:0 || 2:1 || 3:2 || 2:0 || 3:2
+|-
+| {{0}}7.|| align="left" | [[VfB Stuttgart]] || 2:2 || 1:1 || 1:4 || 2:2 || 0:2 || 3:0 || bgcolor="#DCDCDC" | || 0:0 || 4:0 || 3:0 || 1:1 || 4:0 || 3:0 || 3:0 || 0:4 || 1:0 || 3:0 || 0:0
+|-
+| {{0}}8.|| align="left" | [[Werder Bremen]] || 1:0 || 2:0 || 2:1 || 4:0 || 1:0 || 0:2 || 5:1 || bgcolor="#DCDCDC" | || 1:5 || 4:2 || 3:1 || 0:2 || 0:1 || 0:1 || 3:2 || 2:2 || 0:0 || 3:1
+|-
+| {{0}}9.|| align="left" | [[MSV Duisburg]] || 2:2 || 1:7 || 2:2 || 2:2 || 1:0 || 1:2 || 2:2 || 1:0 || bgcolor="#DCDCDC" | || 2:0 || 0:0 || 0:1 || 1:1 || 1:0 || 0:2 || 1:0 || 2:1 || 2:1
+|-
+| 10.|| align="left" | [[Borussia Mönchengladbach]] || 2:0 || 3:1 || 2:2 || 0:0 || 0:4 || 1:2 || 0:2 || 3:2 || 4:1 || bgcolor="#DCDCDC" | || 4:1 || 2:2 || 2:1 || 3:2 || 1:1 || 2:0 || 3:3 || 6:1
+|-
+| 11.|| align="left" | [[1. FC Köln]] || 0:4 || 0:2 || 1:1 || 2:0 || 2:3 || 2:1 || 3:1 || 2:0 || 1:0 || 0:4 || bgcolor="#DCDCDC" | || 3:0 || 0:1 || 1:1 || 2:0 || 0:1 || 3:2 || 3:1
+|-
+| 12.|| align="left" | [[Hamburger SV]] || 1:2 || 1:3 || 2:1 || 0:0 || 3:0 || 1:1 || 3:2 || 1:1 || 0:1 || 1:3 || 2:4 || bgcolor="#DCDCDC" | || 1:1 || 4:1 || 1:1 || 5:2 || 2:1 || 3:0
+|-
+| 13.|| align="left" | [[Dynamo Dresden]] || 1:1 || 3:1 || 1:1 || 3:0 || 0:4 || 1:1 || 1:0 || 1:0 || 0:1 || 2:1 || 1:1 || 1:1 || bgcolor="#DCDCDC" | || 1:0 || 1:2 || 1:1 || 1:1 || 1:0
+|-
+| 14.|| align="left" | [[FC Schalke 04]] || 1:1 || 2:0 || 1:1 || 1:0 || 1:3 || 2:0 || 0:1 || 1:1 || 1:3 || 2:1 || 1:2 || 1:0 || 0:0 || bgcolor="#DCDCDC" | || 1:3 || 1:2 || 4:1 || 3:1
+|-
+| 15.|| align="left" | [[SC Freiburg]] || 3:1 || 2:3 || 1:0 || 4:1 || 1:3 || 3:3 || 2:1 || 0:0 || 1:2 || 3:3 || 2:4 || 0:1 || 0:1 || 2:3 || bgcolor="#DCDCDC" | || 0:0 || 4:1 || 1:0
+|-
+| 16.|| align="left" | [[1. FC Nürnberg]] || 2:0 || 0:2 || 2:3 || 0:0 || 1:5 || 1:1 || 1:0 || 0:1 || 0:0 || 2:4 || 1:0 || 0:1 || 3:0 || 1:0 || 2:2 || bgcolor="#DCDCDC" | || 4:1 || 5:0
+|-
+| 17.|| align="left" | [[SG Wattenscheid 09]] || 1:3 || 0:2 || 1:2 || 1:2 || 0:0 || 5:1 || 2:4 || 2:2 || 0:2 || 3:1 || 2:2 || 3:1 || 1:1 || 3:0 || 3:1 || 2:1 || bgcolor="#DCDCDC" | || 2:2
+|-
+| 18.|| align="left" | [[VfB Leipzig (1991)|VfB Leipzig]] || 1:3 || 0:0 || 2:3 || 2:3 || 1:0 || 1:0 || 0:0 || 1:1 || 1:1 || 1:1 || 2:3 || 1:4 || 3:3 || 2:2 || 2:2 || 0:2 || 0:0 || bgcolor="#DCDCDC" |
+|}
+{{FNZ|1|Das Spiel wurde wiederholt, nachdem im ursprünglichen Spiel (2:1 für FC Bayern München) [[Thomas Helmer]] das sogenannte [[Phantomtor]] erzielt hatte.}}
+
+== Torschützenliste ==
+{| class="wikitable"
+! Pl. !! Nat. !! Spieler !! Verein !! Tore
+|-
+| rowspan="2" align="center" | 1 || {{DEU|#}} || [[Stefan Kuntz]] || [[1. FC Kaiserslautern]] || rowspan="2" align="center" | 18
+|-
+| {{GHA|#}} || [[Anthony Yeboah]] || [[Eintracht Frankfurt]]
+|-
+| rowspan="3" align="center" | 3 || {{CHE|#}} || [[Stéphane Chapuisat]] || [[Borussia Dortmund]] || rowspan="3" align="center" | 17
+|-
+| {{AUT|#}} || [[Toni Polster]] || [[1. FC Köln]]
+|-
+| {{BRA|#}} || [[Paulo Sérgio]] || [[Bayer 04 Leverkusen]]
+|}
+
+== Die Meistermannschaft FC Bayern München ==
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Logo Bayern Munchen(1954-1996).svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Raimond Aumann]] (32/-); [[Uwe Gospodarek]] (2/-)
+* '''Abwehr''': [[Oliver Kreuzer]] (31/-); [[Christian Ziege]] (29/3); [[Thomas Helmer]] (28/2); [[Jorge José de Amorim Campos|Jorginho]] (24/2); [[Olaf Thon]] (15/1); [[Dieter Frey (Fußballspieler)|Dieter Frey]] (12/1); [[Markus Münch (Fußballspieler)|Markus Münch]] (10/-)
+* '''Mittelfeld''': [[Lothar Matthäus]] {{Kapitän}} (33/8); [[Christian Nerlinger]] (32/9); [[Markus Schupp]] (32/4); [[Mehmet Scholl]] (27/11); [[Marcel Witeczek]] (27/3); [[Michael Sternkopf]] (21/2); [[Dietmar Hamann]] (5/1)
+* '''Angriff''': [[Adolfo Valencia]] (25/11); [[Bruno Labbadia]] (20/7); [[Alexander Zickler]] (8/1)
+* '''Trainer''': [[Erich Ribbeck]]/[[Franz Beckenbauer]]
+|}
+''* [[Jan Wouters]] (16/1), [[Harald Cerny]] (3/-) und [[Waldemar Aureliano de Oliveira Filho|Mazinho]] (1/-) haben den Verein während der Saison verlassen.''
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 10 || 26 || 1 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Amerell, Manfred" | [[Manfred Amerell]] || {{DatumZelle|1947-02-25}} || Bayern || 9 || 18 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Assenmacher, Karl-Josef" | [[Karl-Josef Assenmacher]] || {{DatumZelle|1947-05-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 11 || 36 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || Mittelrhein || 9 || 18 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 9 || 33 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Best, Hans-Peter" | [[Hans-Peter Best]] || {{DatumZelle|1955-03-18}} || [[Württembergischer Fußballverband|Württemberg]] || 8 || 22 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Buchhart, Winfried" | [[Winfried Buchhart]] || {{DatumZelle|1958-05-15}} || Bayern || 2 || 4 || 1 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 9 || 35 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Dellwing, Hans-Peter" | [[Hans-Peter Dellwing]] || {{DatumZelle|1950-03-15}} || Rheinland || 11 || 30 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Fischer, Volkmar" | [[Volkmar Fischer]] || {{DatumZelle|1961-06-13}} || [[Saarländischer Fußballverband|Saarland]] || 8 || 4 || 1 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Fleske, Frank" | [[Frank Fleske]] || {{DatumZelle|1962-04-16}} || [[Fußball-Landesverband Brandenburg|Brandenburg]] || 3 || 16 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 10 || 38 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Fuhrer, Manfred" | [[Manfred Führer]] || {{DatumZelle|1950-04-28}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 8 || 30 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Fux, Hans" | [[Hans Fux]] || {{DatumZelle|1946-11-08}} || [[Badischer Fußballverband|Baden]] || 8 || 32 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Glaser, Karl-Heinz" | [[Karl-Heinz Gläser]] || {{DatumZelle|1948-12-03}} || [[Thüringer Fußball-Verband|Thüringen]] || 8 || 20 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Habermann, Gunther" | [[Günther Habermann]] || {{DatumZelle|1950-02-23}} || Thüringen || 9 || 25 || 1 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Harder, Manfred" | [[Manfred Harder (Schiedsrichter)|Manfred Harder]] || {{DatumZelle|1947-05-02}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 9 || 20 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Hauer, Bernd" | [[Bernd Hauer]] || {{DatumZelle|1962-06-26}} || Niedersachsen || 2 || 7 || 0 || 0 || Einzige Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 12 || 45 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Jansen, Jurgen" | [[Jürgen Jansen]] || {{DatumZelle|1960-10-16}} || [[Fußballverband Niederrhein|Niederrhein]] || 8 || 24 || 1 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Kasper, Hans-Jurgen" | [[Hans-Jürgen Kasper]] || {{DatumZelle|1949-01-18}} || Niedersachsen || 9 || 26 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || Westfalen || 9 || 39 || 3 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Malbranc, Michael" | [[Michael Malbranc]] || {{DatumZelle|1953-03-11}} || [[Hamburger Fußball-Verband|Hamburg]] || 8 || 43 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 11 || 42 || 3 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Osmers, Hans-Joachim" | [[Hans-Joachim Osmers]] || {{DatumZelle|1948-04-07}} || [[Bremer Fußball-Verband|Bremen]] || 8 || 19 || 3 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Schafer, Roland" | [[Roland Schäfer (Schiedsrichter)|Roland Schäfer]] || {{DatumZelle|1954-01-22}} || Südwest || 2 || 8 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Scheuerer, Hans" | [[Hans Scheuerer]] || {{DatumZelle|1949-10-18}} || Bayern || 8 || 27 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Schmidhuber, Aron" | [[Aron Schmidhuber]] || {{DatumZelle|1947-02-28}} || Bayern || 11 || 38 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Schmidt, Manfred" | [[Manfred Schmidt (Schiedsrichter)|Manfred Schmidt]] || {{DatumZelle|1958-08-05}} || [[Hessischer Fußball-Verband|Hessen]] || 8 || 29 || 4 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 9 || 33 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 11 || 47 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Strigel, Eugen" | [[Eugen Strigel]] || {{DatumZelle|1949-09-24}} || Württemberg || 8 || 30 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 11 || 42 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Werthmann, Rainer" | [[Rainer Werthmann]] || {{DatumZelle|1959-06-17}} || Westfalen || 2 || 3 || 2 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Wiesel, Wolf-Gunter" | [[Wolf-Günter Wiesel]] || {{DatumZelle|1947-11-16}} || Niedersachsen || 8 || 17 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Zerr, Bernhard" | [[Bernhard Zerr]] || {{DatumZelle|1965-06-12}} || [[Südbadischer Fußballverband|Südbaden]] || 9 || 42 || 3 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Ziller, Wieland" | [[Wieland Ziller]] || {{DatumZelle|1952-12-12}} || [[Sächsischer Fußball-Verband|Sachsen]] || 11 || 44 || 2 || 1 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1052 || 43 || 32 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1993-1994/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-24}}</ref>
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 1993/94}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 1993/1994|Fußball-Bundesliga 1993/94}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1993/94 (Deutschland)
+|Navigationsleiste Europa-Fußball 1994
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 1993-94}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1993/94]]
+[[Kategorie:Fußballsaison 1993/94]]

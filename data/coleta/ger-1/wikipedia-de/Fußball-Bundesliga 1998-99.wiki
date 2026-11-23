@@ -1,0 +1,389 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 1998/99
+| Bild = [[Datei:Bundesliga Wordmark (1996-2002).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 1996–2002. Es besteht aus dem Schriftzug "Die Bundesliga" in drei Zeilen. Zusätzlich ein stilisiertes "DFB" in einem geometrischen, eckigen Schrifttyp. Die Schrift ist schwarz gehalten.|170px]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = [[FC Bayern München]]<br />[[Bayer 04 Leverkusen]]
+| UEFA Champions League Quali = [[Hertha BSC]]<br />[[Borussia Dortmund]]
+| UEFA Cup = [[1. FC Kaiserslautern]]<br />[[VfL Wolfsburg]]<br />[[Werder Bremen]]
+| Pokal-Sieger = [[Werder Bremen]]
+| UI-Cup = [[Hamburger SV]]<br />[[MSV Duisburg]]
+| Absteiger = [[1. FC Nürnberg]]<br />[[VfL Bochum]]<br />[[Borussia Mönchengladbach|Bor. M’gladbach]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 866
+| Zuschauer = 10.025.899
+| Torschützenkönig = {{DEU|Ziel=Michael Preetz}} ([[Hertha BSC]])
+| vorherige Saison = [[Fußball-Bundesliga 1997/98|Bundesliga 1997/98]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1999/2000|Bundesliga 1999/2000]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1998/99|2. Bundesliga 1998/99]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew   value:rgb(0.86,0.86,0.86)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(20,-3)   color:black  text:Mönchengladbach
+  from:1.5 till:34.5 shift:(20,-3)   color:red   text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:wolfs value:rgb(0.32,0.65,0.00)
+  id:werder value:rgb(0.11,0.56,0.36)
+  id:bochum value:rgb(0.04,0.18,0.45)
+  id:schalke value:rgb(0.00,0.05,1   )
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5   till:1.5  shift:(20,-3)   color:schalke text:Schalke 04
+     from:1.5   till:2.5  shift:(20,-3)   color:bochum     text:VfL Bochum
+     from:2.5   till:4.5  shift:(20,-3)   color:werder     text:Werder Bremen
+     from:4.5   till:5.5  shift:(20,-3)   color:red      text:Eintracht Frankfurt
+     from:5.5   till:7.5  shift:(20,-3)   color:wolfs  text:VfL Wolfsburg
+     from:7.5   till:8.5  shift:(20,-3)   color:werder     text:Werder Bremen
+     from:8.5   till:34.5 shift:(20,-3)   color:black    text:Mönchengladbach
+</timeline>
+|}
+
+Erster in der '''Saison 1998/99 der deutschen [[Fußball-Bundesliga|Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]]. Die Saison begann am 14. August 1998 und endete am 29. Mai 1999.
+
+== Saisonüberblick ==
+Während [[FC Bayern München|Bayern München]] mit 15 Punkten Differenz Deutscher Meister und der einen Punkt vor der Abstiegszone liegende [[Werder Bremen|SV Werder Bremen]] [[DFB-Pokal 1998/99|DFB-Pokalsieger]] gegen die Bayern wurde, galten besonders zwei Ereignisse als prägend für die Saison: Das Finale der [[UEFA Champions League 1998/99|Champions League]] zwischen Bayern München und [[Manchester United]] (1:2, zwei Tore Manchesters in der Nachspielzeit) und die Abstiegsentscheidung am letzten Spieltag der Bundesliga. Der dritte Platz für Hertha BSC war deren beste Platzierung seit 1978.
+
+=== Letzter Spieltag ===
+Vor dem letzten Spieltag am 29. Mai 1999 standen [[Borussia Mönchengladbach]] und der [[VfL Bochum]] bereits als Absteiger fest. Für die Gladbacher war es der erste Abstieg überhaupt nach 34-jähriger Bundesligazugehörigkeit. Zwischen dem [[1. FC Nürnberg]], dem [[VfB Stuttgart]], dem [[SC Freiburg]], [[Hansa Rostock]] und [[Eintracht Frankfurt]] musste der dritte Absteiger ermittelt werden. Da mit Nürnberg und Freiburg zwei dieser Mannschaften gegeneinander spielten, bestand für alle noch die Möglichkeit, aus eigener Kraft den Klassenerhalt zu sichern. Nürnberg und Stuttgart hätte ein Unentschieden, Freiburg und Rostock ein Sieg in beliebiger Höhe gereicht, während Frankfurt für den sicheren Klassenerhalt einen Sieg mit sechs Toren Vorsprung benötigte (praktisch mit fünf, da ein 11:11 zwischen Nürnberg und Freiburg nicht zu erwarten war).
+
+Die Situation vor dem letzten Spieltag:
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=7 |U=16 |N=10 |ET=39 |GT=48 |Verein=1. FC Nürnberg }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=8 |U=12 |N=13 |ET=40 |GT=48 |Verein=VfB Stuttgart }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=9 |U= 9 |N=15 |ET=34 |GT=43 |Verein=SC Freiburg }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=8 |U=11 |N=14 |ET=46 |GT=56 |Verein=Hansa Rostock }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S=8 |U=10 |N=15 |ET=39 |GT=53 |Verein=Eintracht Frankfurt }}
+{{Fußballtabelle/Ende}}
+
+Stuttgart führte früh mit 1:0, gewann gegen Werder Bremen und schaffte den Klassenerhalt.<ref>[https://www.kicker.de/stuttgart-gegen-bremen-1999-bundesliga-102851/analyse Spielbericht VfB Stuttgart - Werder Bremen], kicker.de vom 30. Mai 1999, abgerufen am 10. Juni 2016.</ref> In den anderen Partien: Nürnberg–Freiburg, Bochum–Rostock und Frankfurt–Kaiserslautern entwickelte sich jedoch eine Dramaturgie, die die Abstiegsentscheidung zur bisher dramatischsten der Bundesligageschichte machte:
+
+* 68. Minute
+Zu diesem Zeitpunkt deutete viel auf einen Abstieg Frankfurts, ohnehin mit den geringsten Chancen in diesen Spieltag gegangen, hin: Die drei direkt vor Frankfurt platzierten Vereine lagen in ihren Spielen in Führung: Stuttgart mit 1:0 gegen die bereits zuvor geretteten Bremer, Rostock mit 1:0 in Bochum, Freiburg mit 2:0 in Nürnberg. Der ''Club'' wiederum schien trotz des Rückstands gerettet, denn für den Abstieg Nürnbergs hätte nicht nur Nürnberg selbst verlieren und Rostock in Bochum gewinnen müssen, sondern vor allem Frankfurt gegen Kaiserslautern mit drei Toren Differenz gewinnen müssen, wenn es beim 0:2-Rückstand Nürnbergs geblieben wäre.
+Die Eintracht, die mit sechs, bzw. fünf Toren Unterschied hätte gewinnen müssen, um den Klassenerhalt aus eigener Kraft zu schaffen, führte zwar zunächst gegen den Vorjahresmeister Kaiserslautern, doch die ''Roten Teufel'', die noch die Teilnahme an der [[UEFA Champions League|Champions League]] erreichen konnten, glichen nach 68 Minuten aus, es stand 1:1 – zu wenig für Frankfurt.
+In den letzten zwanzig Minuten der Saison überschlugen sich die Ereignisse:
+
+Die Situation nach 68 Minuten:
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S= 9 |U=12 |N=13 |ET=41 |GT=48 |Verein=VfB Stuttgart }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=10 |U= 9 |N=15 |ET=36 |GT=43 |Verein=SC Freiburg }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S= 9 |U=12 |N=13 |ET=40 |GT=54 |Verein=FC Schalke 04 }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U= 8 |N=16 |ET=41 |GT=47 |Verein=Werder Bremen }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 9 |U=11 |N=14 |ET=47 |GT=56 |Verein=Hansa Rostock }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 7 |U=16 |N=11 |ET=39 |GT=50 |Verein=1. FC Nürnberg }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U=11 |N=15 |ET=40 |GT=54 |Verein=Eintracht Frankfurt }}
+{{Fußballtabelle/Ende}}
+
+* 70. bis 74. Minute
+Frankfurt ging gegen Kaiserslautern wieder in Führung (70. Spielminute). Als Bochum fast gleichzeitig gegen Rostock aus einem 0:1 ein 2:1 (71. und 74.) machte, wäre Rostock abgestiegen und Frankfurt gerettet gewesen.
+
+Die Situation nach 74 Minuten:
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S= 9 |U=12 |N=13 |ET=41 |GT=48 |Verein=VfB Stuttgart }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=10 |U= 9 |N=15 |ET=36 |GT=43 |Verein=SC Freiburg }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S= 9 |U=12 |N=13 |ET=40 |GT=54 |Verein=FC Schalke 04 }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U= 8 |N=16 |ET=41 |GT=47 |Verein=Werder Bremen }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 7 |U=16 |N=11 |ET=39 |GT=50 |Verein=1. FC Nürnberg }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U=10 |N=15 |ET=41 |GT=54 |Verein=Eintracht Frankfurt }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U=11 |N=15 |ET=47 |GT=58 |Verein=Hansa Rostock }}
+{{Fußballtabelle/Ende}}
+
+* 77. bis 82. Minute
+Rostock glich wieder aus (77.). Dies hätte zur Rettung aber nicht gereicht, weil Frankfurt zwei weitere Tore geschossen (80. und 82.) und beim Spielstand von 4:1 sogar Nürnberg im Hinblick auf die Tordifferenz ein- und wegen der mehr geschossenen Tore auch überholt hatte. Zu diesem Zeitpunkt wäre nach wie vor Hansa Rostock abgestiegen, d.&nbsp;h., die Ostseestädter brauchten zu diesem Zeitpunkt einen Sieg.
+
+Die Situation nach 82 Minuten:
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S= 9 |U=12 |N=13 |ET=41 |GT=48 |Verein=VfB Stuttgart }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=10 |U= 9 |N=15 |ET=36 |GT=43 |Verein=SC Freiburg }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S= 9 |U=12 |N=13 |ET=40 |GT=54 |Verein=FC Schalke 04 }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U= 8 |N=16 |ET=41 |GT=47 |Verein=Werder Bremen }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 9 |U=10 |N=15 |ET=43 |GT=54 |Verein=Eintracht Frankfurt }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 7 |U=16 |N=11 |ET=39 |GT=50 |Verein=1. FC Nürnberg }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U=12 |N=14 |ET=48 |GT=58 |Verein=Hansa Rostock }}
+{{Fußballtabelle/Ende}}
+
+* 83. Minute
+Rostock ging in Bochum erneut in Führung. Dadurch wären die Hanseaten gerettet gewesen und Nürnberg, das immer noch 0:2 gegen Freiburg zurücklag, abgestiegen.
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=9 |U=11 |N=14 |ET=49 |GT=58 |Verein=Hansa Rostock }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=9 |U=10 |N=15 |ET=43 |GT=54 |Verein=Eintracht Frankfurt }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S=7 |U=16 |N=11 |ET=39 |GT=50 |Verein=1. FC Nürnberg }}
+{{Fußballtabelle/Ende}}
+
+* 85. Minute
+Nürnberg schoss das 1:2, und obwohl die Franken weiterhin zurücklagen, hätte sie dieser Spielstand aufgrund der besseren Tordifferenz gegenüber Eintracht Frankfurt vor dem Abstieg gerettet, für die ihrerseits auch der deutliche 4:1-Sieg gegen Kaiserslautern nicht ausreichend gewesen wäre.
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=9 |U=11 |N=14 |ET=49 |GT=58 |Verein=Hansa Rostock }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=7 |U=16 |N=11 |ET=40 |GT=50 |Verein=1. FC Nürnberg }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S=9 |U=10 |N=15 |ET=43 |GT=54 |Verein=Eintracht Frankfurt }}
+{{Fußballtabelle/Ende}}
+
+* 89. Minute
+Frankfurts [[Jan Åge Fjørtoft]] gelang nach einem [[Übersteiger (Fußball)|Übersteiger]] doch noch das unglaubliche 5:1 gegen Kaiserslautern und damit die Rettung seines Vereins vor dem Abstieg. Nürnberg, das nun wieder abgestiegen wäre, erhielt jedoch fast zeitgleich eine letzte Chance: Nach einer Kopfballabwehr der Freiburger rauschte [[Marek Nikl]] aus dem Hintergrund an und drosch den Ball mit einem Distanzschuss an den Pfosten. Der Abpraller fiel Nürnbergs [[Frank Baumann]] vor die Füße, der jedoch aus kurzer Entfernung den Ball dem Freiburger Keeper [[Richard Golz]] in die Arme schoss. Der Ausgleich hätte wiederum den Frankfurter Abstieg bedeutet.
+
+Aufgrund der vergebenen Torchance blieb es bei der Nürnberger Niederlage, und da Rostock 3:2 in Bochum und Frankfurt 5:1 gegen den 1. FC Kaiserslautern gewannen, musste der 1. FC Nürnberg absteigen. Der ''Club'', der vor dem letzten Spieltag – mit drei Punkten und fünf Toren Vorsprung auf einen Abstiegsplatz auf Platz zwölf stehend – beste Chancen auf den Klassenerhalt zu haben schien, wies am Ende die gleiche Tordifferenz wie die Frankfurter Eintracht auf, hatte aber vier Tore weniger geschossen. Besonders tragisch für die Franken war dabei, dass viele Club-Fans zum Zeitpunkt des Abpfiffs im Stadion in Nürnberg noch gar nicht bemerkt hatten, dass ihre Mannschaft abgestiegen war.
+
+Dieser letzte Spieltag der Saison gilt als eine Sternstunde der [[Bundesligakonferenz]] im Radio. Die Reporter [[Manfred Breuckmann]] in Bochum, [[Günther Koch]] in Nürnberg und [[Dirk Schmitt]] in Frankfurt schafften es, die Dramatik der sich überschlagenden Ereignisse intensiv zu vermitteln (Allen voran Koch, der Nürnbergs Anschlusstreffer zum 1:2 mit sich überschlagender Stimme und den Sätzen „Ich pack' das nicht! Ich halt' das nicht mehr aus! Ich will das nicht mehr sehen!“ kommentierte). Ihre mitreißende Reportage wurde preisgekrönt, auf Tonträgern vertrieben<ref>Hessischer Rundfunk, ''Das Herzschlag-Finale in Frankfurt - nie mehr 2. Liga!'' Live-Mitschnitt der ARD-Konferenzschaltung vom Finale der 2. Bundesliga am 25. Mai 2003. Frankfurt am Main, hrMedia. 2003 (zusammen mit der Schlusskonferenz des letzten Spieltags der 2. Bundesliga 2002/03).</ref> und in Buchform veröffentlicht.<ref>WDR (Hrsg.), ''Tooor … in Deutschland! Die dramatischsten Schlusskonferenzen aus 50 Jahren Bundesliga.'' Suhrkamp Taschenbuch, Berlin, ISBN 978-3-518-46428-1</ref>
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 1998-99.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=24 |U= 6 |N= 4 |ET=76 |GT=28 |Verein=[[FC Bayern München]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=17 |U=12 |N= 5 |ET=61 |GT=30 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=18 |U= 8 |N= 8 |ET=59 |GT=32 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 4 |S=16 |U= 9 |N= 9 |ET=48 |GT=34 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang= 5 |S=17 |U= 6 |N=11 |ET=51 |GT=47 |Verein=[[1. FC Kaiserslautern]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang= 6 |S=15 |U=10 |N= 9 |ET=54 |GT=49 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=13 |U=11 |N=10 |ET=47 |GT=46 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 8 |S=13 |U=10 |N=11 |ET=48 |GT=45 |Verein=[[MSV Duisburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=11 |U= 8 |N=15 |ET=49 |GT=56 |Verein=[[TSV 1860 München]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=10 |U=11 |N=13 |ET=41 |GT=54 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S= 9 |U=12 |N=13 |ET=41 |GT=48 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=10 |U= 9 |N=15 |ET=36 |GT=44 |Verein=[[SC Freiburg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang=13 |S=10 |U= 8 |N=16 |ET=41 |GT=47 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 9 |U=11 |N=14 |ET=49 |GT=58 |Verein=[[Hansa Rostock]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U=10 |N=15 |ET=44 |GT=54 |Verein=[[Eintracht Frankfurt]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 7 |U=16 |N=11 |ET=40 |GT=50 |Verein=[[1. FC Nürnberg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 7 |U= 8 |N=19 |ET=40 |GT=65 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 4 |U= 9 |N=21 |ET=41 |GT=79 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 1999/2000]]: FC Bayern München}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League: Bayer 04 Leverkusen}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation: Hertha BSC, Borussia Dortmund}}
+{{Farblegende|#ffc7a3|Teilnahme am [[UEFA-Pokal 1999/2000]]: 1. FC Kaiserslautern, VfL Wolfsburg, SV Werder Bremen (Pokalsieger)}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 1999|UI-Cup 1999]]: Hamburger SV, MSV Duisburg}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1999/2000|2. Bundesliga 1999/2000]]: Borussia Mönchengladbach, VfL Bochum, 1. FC Nürnberg}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1997/98|1997/98]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1997/98|1997/98]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1997/98|1997/98]]
+|}
+
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 1998-99.svg|700px]]
+
+== Kreuztabelle ==
+
+[[Datei:Bökelberg - Szene aus einem Spiel gegen Borussia Dortmund.jpg|mini|Szene aus dem Spiel Borussia Mönchengladbach – Borussia Dortmund im Mai 1999]]
+[[Datei:Parkstadion 1998-09-12.jpg|mini|Partie Schalke 04 - 1. FC Nürnberg am 12. September 1998]]
+
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+| colspan="2" | '''1998/99'''
+| [[Datei:Bayern München Logo (1996-2002).svg|22px|FC Bayern München]]
+| [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Hertha BSC Logo bis 1999.svg|22px|Hertha BSC]]
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:VfL Wolfsburg old.svg|22px|VfL Wolfsburg]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:MSV Duisburg.svg|25px|MSV Duisburg]]
+| [[Datei:TSV 1860 München.svg|22px|TSV 1860 München]]
+| [[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+| [[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:F.C. Hansa Rostock Logo.svg|22px|Hansa Rostock]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+|-
+| {{0}}1.|| align="left" | [[FC Bayern München]] || bgcolor="#DCDCDC" | || 2:0 || 1:1 || 2:2 || 4:0 || 3:0 || 5:3 || 3:1 || 3:1 || 1:1 || 2:0 || 2:0 || 1:0 || 6:1 || 3:1 || 2:0 || 4:2 || 4:2
+|-
+| {{0}}2.|| align="left" | [[Bayer 04 Leverkusen]] || 1:2 || bgcolor="#DCDCDC" | || 2:2 || 3:1 || 2:2 || 3:0 || 1:2 || 2:0 || 1:1 || 1:1 || 0:0 || 1:1 || 2:0 || 3:1 || 2:1 || 3:0 || 2:0 || 4:1
+|-
+| {{0}}3.|| align="left" | [[Hertha BSC]] || 1:0 || 0:1 || bgcolor="#DCDCDC" | || 3:0 || 1:1 || 2:0 || 6:1 || 1:3 || 2:1 || 2:0 || 2:0 || 1:0 || 1:0 || 2:0 || 3:1 || 3:0 || 4:1 || 4:1
+|-
+| {{0}}4.|| align="left" | [[Borussia Dortmund]] || 2:2 || 1:0 || 3:0 || bgcolor="#DCDCDC" | || 1:0 || 2:1 || 2:1 || 2:0 || 3:1 || 3:0 || 3:0 || 2:1 || 2:1 || 2:0 || 3:1 || 3:0 || 0:1 || 1:1
+|-
+| {{0}}5.|| align="left" | [[1. FC Kaiserslautern]] || 2:1 || 0:1 || 4:3 || 1:0 || bgcolor="#DCDCDC" | || 1:1 || 1:0 || 3:0 || 1:1 || 4:1 || 1:1 || 0:2 || 4:0 || 3:2 || 2:1 || 2:0 || 2:3 || 2:1
+|-
+| {{0}}6.|| align="left" | [[VfL Wolfsburg]] || 0:1 || 1:0 || 2:1 || 0:0 || 2:1 || bgcolor="#DCDCDC" | || 4:1 || 4:2 || 1:0 || 0:0 || 3:2 || 1:1 || 2:4 || 1:1 || 2:0 || 1:1 || 4:1 || 7:1
+|-
+| {{0}}7.|| align="left" | [[Hamburger SV]] || 0:2 || 0:0 || 0:4 || 0:0 || 2:0 || 1:1 || bgcolor="#DCDCDC" | || 4:1 || 3:0 || 2:2 || 3:1 || 2:1 || 1:1 || 1:0 || 0:1 || 2:0 || 1:0 || 3:0
+|-
+| {{0}}8.|| align="left" | [[MSV Duisburg]] || 0:3 || 0:0 || 0:0 || 3:2 || 3:1 || 6:1 || 2:3 || bgcolor="#DCDCDC" | || 1:1 || 1:2 || 2:0 || 1:0 || 2:0 || 4:1 || 2:1 || 1:1 || 2:0 || 2:2
+|-
+| {{0}}9.|| align="left" | [[TSV 1860 München]] || 1:1 || 0:2 || 2:0 || 2:0 || 1:2 || 2:3 || 0:0 || 0:0 || bgcolor="#DCDCDC" | || 4:5 || 1:1 || 2:0 || 1:3 || 2:1 || 4:1 || 1:2 || 2:1 || 3:1
+|-
+| 10.|| align="left" | [[FC Schalke 04]] || 1:3 || 0:1 || 0:0 || 1:1 || 0:2 || 2:0 || 1:4 || 2:0 || 2:2 || bgcolor="#DCDCDC" | || 1:0 || 1:1 || 1:2 || 1:0 || 2:3 || 2:2 || 2:2 || 1:0
+|-
+| 11.|| align="left" | [[VfB Stuttgart]] || 0:2 || 0:1 || 0:0 || 2:1 || 4:0 || 1:2 || 3:1 || 0:0 || 0:1 || 2:1 || bgcolor="#DCDCDC" | || 3:1 || 1:0 || 1:1 || 2:0 || 0:0 || 4:2 || 2:2
+|-
+| 12.|| align="left" | [[SC Freiburg]] || 0:2 || 1:1 || 0:2 || 2:2 || 0:1 || 0:0 || 0:0 || 2:2 || 1:2 || 0:2 || 2:0 || bgcolor="#DCDCDC" | || 0:2 || 3:0 || 2:0 || 1:0 || 1:1 || 2:1
+|-
+| 13.|| align="left" | [[Werder Bremen]] || 0:1 || 2:2 || 2:1 || 1:1 || 0:1 || 0:1 || 0:0 || 1:1 || 4:1 || 1:0 || 2:2 || 2:3 || bgcolor="#DCDCDC" | || 0:3 || 1:2 || 2:3 || 1:1 || 4:1
+|-
+| 14.|| align="left" | [[Hansa Rostock]] || 0:4 || 1:1 || 1:2 || 2:0 || 2:1 || 3:3 || 0:1 || 3:0 || 4:1 || 2:2 || 3:0 || 0:2 || 2:1 || bgcolor="#DCDCDC" | || 2:2 || 1:1 || 3:0 || 1:1
+|-
+| 15.|| align="left" | [[Eintracht Frankfurt]] || 1:0 || 2:3 || 1:1 || 2:0 || 5:1 || 0:1 || 2:2 || 0:0 || 2:3 || 1:2 || 1:1 || 3:1 || 0:2 || 2:2 || bgcolor="#DCDCDC" | || 3:2 || 1:0 || 0:0
+|-
+| 16.|| align="left" | [[1. FC Nürnberg]] || 2:0 || 2:2 || 0:0 || 0:0 || 1:1 || 1:1 || 1:1 || 0:2 || 1:5 || 3:0 || 2:2 || 1:2 || 1:1 || 2:2 || 2:2 || bgcolor="#DCDCDC" | || 2:2 || 2:0
+|-
+| 17.|| align="left" | [[VfL Bochum]] || 2:2 || 1:5 || 2:0 || 0:1 || 1:2 || 0:2 || 2:0 || 0:2 || 2:0 || 1:2 || 3:3 || 1:2 || 2:0 || 2:3 || 0:0 || 0:3 || bgcolor="#DCDCDC" | || 2:1
+|-
+| 18.|| align="left" | [[Borussia Mönchengladbach]] || 0:2 || 2:8 || 2:4 || 0:2 || 0:2 || 5:2 || 2:2 || 0:2 || 2:0 || 3:0 || 2:3 || 3:1 || 0:1 || 1:1 || 1:1 || 0:2 || 2:2 || bgcolor="#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable"
+! !! Spieler!! Verein!! Tore
+|-
+|align="center"| 1.|| {{DEU|Ziel=Michael Preetz}}|| Hertha BSC|| align="center" | 23
+|-
+|align="center"| 2.|| {{DEU|Ziel=Ulf Kirsten}}|| Bayer 04 Leverkusen|| align="center" | 19
+|-
+|rowspan="2" align="center"| 3.|| {{DEU|Ziel=Oliver Neuville}}|| Hansa Rostock|| rowspan="2" align="center" | 14
+|-
+| {{GHA|Ziel=Anthony Yeboah}}|| Hamburger SV
+|-
+|rowspan="5" align="center"| 5.|| {{DEU|Ziel=Carsten Jancker}}|| FC Bayern München|| rowspan="5" align="center" | 13
+|-
+| {{BRA|Ziel=Giovane Élber}}|| FC Bayern München
+|-
+| {{POL|Ziel=Andrzej Juskowiak}}|| VfL Wolfsburg
+|-
+| {{DEU|Ziel=Markus Beierle}}|| MSV Duisburg
+|-
+| {{MKD-1995|Ziel=Saša Ćirić}}|| 1. FC Nürnberg
+|}
+
+== Die Meistermannschaft FC Bayern München ==
+
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span> || width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Bayern München Logo (1996-2002).svg|60px|FC Bayern München]] || - bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Oliver Kahn]] (30/-); [[Bernd Dreher]] (4/-); [[Sven Scheuer]] (3/-)
+* '''Abwehr''': [[Markus Babbel]] (27/1); [[Thomas Linke]] (27/1); [[Lothar Matthäus]] (25/1); [[Thomas Helmer]] {{Kapitän}} (21/2); [[Bixente Lizarazu]] (19/2); [[Samuel Kuffour]] (15/-); [[Nils-Eric Johansson]] (2/-)
+* '''Mittelfeld''': [[Stefan Effenberg]] (31/8); [[Hasan Salihamidžić]] (30/3); [[Jens Jeremies]] (30/1); [[Thorsten Fink]] (28/-); [[Mario Basler]] (27/5); [[Thomas Strunz]] (24/4); [[Michael Tarnat]] (20/1); [[Mehmet Scholl]] (13/4); [[David Jarolím]] (1/-)
+* '''Angriff''': [[Carsten Jancker]] (26/13); [[Alexander Zickler]] (26/7); [[Ali Daei]] (23/6); [[Giovane Élber]] (21/13)
+* '''Trainer''': [[Ottmar Hitzfeld]]
+|}
+''* [[Alexander Bugera]] (1/-) und [[Berkant Göktan]] (1/-) haben den Verein während der Saison verlassen.''
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 13 || 62 || 5 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 14 || 66 || 4 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 14 || 41 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Buchhart, Winfried" | [[Winfried Buchhart]] || {{DatumZelle|1958-05-15}} || Bayern || 11 || 48 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 14 || 73 || 3 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || {{DatumZelle|1964-03-09}} || Rheinland || 15 || 77 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Fleischer, Helmut" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || {{DatumZelle|1964-03-22}} || Bayern || 12 || 44 || 3 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 14 || 63 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Gettke, Frank" | [[Frank Gettke]] || {{DatumZelle|1965-04-27}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 1 || 6 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 16 || 63 || 4 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Jansen, Jurgen" | [[Jürgen Jansen]] || {{DatumZelle|1960-10-16}} || [[Fußballverband Niederrhein|Niederrhein]] || 12 || 44 || 1 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Kemmling, Uwe" | [[Uwe Kemmling]] || {{DatumZelle|1960-11-01}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 13 || 41 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Keßler, Jorg" | [[Jörg Keßler]] || {{DatumZelle|1964-02-24}} || [[Thüringer Fußball-Verband|Thüringen]] || 11 || 43 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Koop, Torsten" | [[Torsten Koop]] || {{DatumZelle|1965-05-11}} || [[Landesfußballverband Mecklenburg-Vorpommern|Mecklenburg-Vorpommern]] || 12 || 53 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || Westfalen || 18 || 66 || 3 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || {{DatumZelle|1968-11-21}} || Niedersachsen || 2 || 9 || 1 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 17 || 65 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || {{DatumZelle|1969-10-06}} || Bayern || 2 || 8 || 1 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || {{DatumZelle|1969-11-20}} || Bayern || 14 || 61 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 14 || 50 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 16 || 73 || 3 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Wack, Christian" | [[Christian Wack]] || {{DatumZelle|1968-01-04}} || || 2 || 7 || 0 || 0 || Einzige Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Wack, Franz-Xaver" | [[Franz-Xaver Wack]] || {{DatumZelle|1965-03-05}} || Bayern || 13 || 51 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || {{DatumZelle|1963-05-27}} || [[Hessischer Fußball-Verband|Hessen]] || 11 || 63 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 11 || 56 || 7 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || {{DatumZelle|1969-03-21}} || Niedersachsen || 2 || 9 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Zerr, Bernhard" | [[Bernhard Zerr]] || {{DatumZelle|1965-06-12}} || [[Südbadischer Fußballverband|Südbaden]] || 12 || 56 || 2 || 1 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1298 || 50 || 30 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1998-1999/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-25}}</ref>
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 1998/99}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 1998/1999|Fußball-Bundesliga 1998/99}}
+* [https://www.youtube.com/watch?v=nW5jiPvsDc8 Die Schlusskonferenz des 34. Spieltags im Radio] auf [[YouTube]]
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Europa-Fußball 1999 
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1998/99 (Deutschland)
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 1998-99}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1998/99]]
+[[Kategorie:Fußballsaison 1998/99]]

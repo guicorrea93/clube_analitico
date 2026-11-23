@@ -1,0 +1,771 @@
+{{Infobox Fußballsaison
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Name = Bundesliga 1968/69
+| Meister = [[FC Bayern München]]
+| Europapokal der Landesmeister = [[FC Bayern München]]
+| Pokal-Sieger = [[FC Bayern München]]
+| Europapokal der Pokalsieger = [[FC Schalke 04]] (Finalist)
+| Absteiger = [[Kickers Offenbach]]<br />[[1. FC Nürnberg]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 873
+| Zuschauer = 6.706.700
+| Torschützenkönig = {{DEU|Ziel=Gerd Müller}}<br />([[FC Bayern München]])
+| vorherige Saison = [[Fußball-Bundesliga 1967/68|Bundesliga 1967/68]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1969/70|Bundesliga 1969/70]]
+| nachgeordnete Liga = [[Fußball-Regionalliga 1968/69|Regionalliga 1968/69]]
+}}
+
+Erster in der '''Saison 1968/69 der deutschen [[Fußball-Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]].
+{{TOC limit|2}}
+== Saisonüberblick ==
+Der FC Bayern München konnte die ersten fünf Spiele der Saison gewinnen und war durchgehend Tabellenführer. Am Ende betrug der Vorsprung auf [[Vize]]-Meister Alemannia Aachen acht Punkte. Deren Abstand zum Tabellenletzten betrug nur zehn Zähler. Die Münchner gewannen zudem den DFB-Pokal, womit ein deutscher Klub erstmals seit 1937 (FC Schalke 04) das [[Double (Sport)|Double]] erringen konnte. Dieser Erfolg bedeutete ihr nationaler Durchbruch im Fußball. Münchens Trainer [[Branko Zebec]] setzte in der Saison nur 13 Spieler ein.
+
+Neben [[Kickers Offenbach]] stieg auch der amtierende Meister und Rekordtitelträger [[1. FC Nürnberg]] erstmals in die Zweitklassigkeit ab.
+
+Torschützenkönig wurde [[Gerd Müller]] von Bayern München mit 30 Toren.
+
+== Abschlusstabelle ==
+{| class="float-right" width="305px" cellspacing="0" cellpadding="0" style="font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:0 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,0)   color:white text:Bayern München/~Eintracht Frankfurt
+  from:1.5 till:34.5 shift:(25,-5) color:red   text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:10 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:KSC     value:rgb(0.00,0.50,1)
+  id:nuern   value:rgb(0.51,0.00,0.00)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+    from:0.5 till:1.5 shift:(25,0)        color:white     text:Kaiserslautern/Schalke/~Hamburg/Hertha BSC
+    from:1.5 till:4.5 shift:(25,-5)       color:blue      text:Schalke 04
+    from:4.5 till:5.5 shift:(25,-5)       color:black     text:Hertha BSC
+    from:5.5 till:6.5 shift:(25,-5)       color:yellow    text:Borussia Dortmund
+    from:6.5 till:17.5 shift:(25,-5)      color:red       text:Kickers Offenbach
+    from:17.5 till:31.5 shift:(25,-5)     color:nuern     text:1. FC Nürnberg
+    from:31.5 till:32.5 shift:(25,-5)     color:yellow    text:Borussia Dortmund
+    from:32.5 till:34.5 shift:(25,-5)     color:red       text:Kickers Offenbach
+   </timeline>
+|}
+
+{{Fußballtabelle/Kopf|Quote=1|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=18 |U=10 |N= 6 |ET=61 |GT=31 |Quote=1 |Siegpunkte=2 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 2 |S=16 |U= 6 |N=12 |ET=57 |GT=51 |Quote=1 |Siegpunkte=2 |Verein=[[Alemannia Aachen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 3 |S=13 |U=11 |N=10 |ET=61 |GT=46 |Quote=1 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 4 |S=13 |U=11 |N=10 |ET=46 |GT=43 |Quote=1 |Siegpunkte=2 |Verein=[[Eintracht Braunschweig]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 5 |S=14 |U= 8 |N=12 |ET=60 |GT=54 |Quote=1 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=13 |U=10 |N=11 |ET=55 |GT=55 |Quote=1 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang= 7 |S=14 |U= 7 |N=13 |ET=45 |GT=40 |Quote=1 |Siegpunkte=2 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=13 |U= 8 |N=13 |ET=46 |GT=43 |Quote=1 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=14 |U= 6 |N=14 |ET=59 |GT=59 |Quote=1 |Siegpunkte=2 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=15 |U= 4 |N=15 |ET=44 |GT=59 |Quote=1 |Siegpunkte=2 |Verein=[[TSV 1860 München]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S= 9 |U=14 |N=11 |ET=47 |GT=45 |Quote=1 |Siegpunkte=2 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S= 8 |U=16 |N=10 |ET=33 |GT=37 |Quote=1 |Siegpunkte=2 |Verein=[[MSV Duisburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=13 |U= 6 |N=15 |ET=47 |GT=56 |Quote=1 |Siegpunkte=2 |Verein=[[1. FC Köln]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=12 |U= 8 |N=14 |ET=31 |GT=39 |Quote=1 |Siegpunkte=2 |Verein=[[Hertha BSC]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=12 |U= 6 |N=16 |ET=45 |GT=47 |Quote=1 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=16 |S=11 |U= 8 |N=15 |ET=49 |GT=54 |Quote=1 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 9 |U=11 |N=14 |ET=45 |GT=55 |Quote=1 |Siegpunkte=2 |Verein=[[1. FC Nürnberg]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S=10 |U= 8 |N=16 |ET=42 |GT=59 |Quote=1 |Siegpunkte=2 |Verein=[[Kickers Offenbach]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister, [[DFB-Pokal 1968/69|DFB-Pokal-Sieger]] und Teilnahme am [[Europapokal der Landesmeister 1969/70]]: FC Bayern München}}
+{{Farblegende|#fffacd|Teilnahme am [[Europapokal der Pokalsieger 1969/70]]: FC Schalke 04 (als unterlegener Pokalfinalist)}}
+{{Farblegende|#ffcccc|Abstieg in die [[Fußball-Regionalliga 1969/70#Süd|Regionalliga Süd 1969/70]]: Kickers Offenbach, 1. FC Nürnberg}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1967/68|1967/68]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1967/68|1967/68]]
+|-
+| (N) || Aufsteiger aus der [[Fußball-Regionalliga 1967/68|Regionalliga 1967/68]]
+|}
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele der Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+|colspan="2" width="200" | '''1968/1969'''
+|[[Datei:Logo Bayern Munchen(1954-1996).svg|24px|FC Bayern München]]
+|[[Datei:Aachen TSV Alemannia old.svg|22px|Alemannia Aachen]]
+|[[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+|[[Datei:Eintracht Braunschweig (Hist.).svg|22px|Eintracht Braunschweig]]
+|[[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+|[[Datei:Hamburg HSV1950-1978.svg|22px|Hamburger SV]]
+|[[Datei:Dfs wl d gelsenkirchen schalke 01958 1971.gif|22px|FC Schalke 04]]
+|[[Datei:Dfs wl d frankfurt eintracht1965 1970.gif|22px|Eintracht Frankfurt]]
+|[[Datei:Logo Werder Bremem 1962 - 1976.gif|22px|SV Werder Bremen]]
+|[[Datei:Wappen TSV 1860 alt.jpg|22px|TSV 1860 München]]
+|[[Datei:Hannover 96 old.svg|22px|Hannover 96]]
+|[[Datei:Logo M SV Duisburg1966 - 1980.gif|22px|MSV Duisburg]]
+|[[Datei:Logo Köln 1967-1973.svg|22px|1. FC Köln]]
+|[[Datei:Hertha BSC Berlin Logo(alt).svg|22px|Hertha BSC]]
+|[[Datei:1FC Kaiserslautern Logo(1955 - 1969).svg|22px|1. FC Kaiserslautern]]
+|[[Datei:Borussia Dortmund 09 Logo alt.svg|22px|Borussia Dortmund]]
+|[[Datei:fcn logo 1968.png|22px|1. FC Nürnberg]]
+|[[Datei:Logo Kickers Offenbach.svg|22px|Kickers Offenbach]]
+|-
+| {{0}}1. || align="left" | [[FC Bayern München]] || bgcolor="#DCDCDC" | || 1:1 || 0:0 || 2:1 || 2:0 || 5:1 || 0:0 || 2:0 || 6:0 || 0:2 || 2:1 || 2:2 || 1:0 || 3:0 || 2:0 || 4:1 || 3:0 || 5:1
+|-
+| {{0}}2. || align="left" | [[Alemannia Aachen]] || 2:4 || bgcolor="#DCDCDC" | || 2:1 || 1:4 || 1:3 || 2:0 || 4:1 || 4:2 || 2:1 || 4:0 || 2:0 || 4:0 || 2:1 || 0:0 || 1:0 || 0:1 || 4:2 || 1:2
+|-
+| {{0}}3. || align="left" | [[Borussia Mönchengladbach]] || 1:1 || 2:2 || bgcolor="#DCDCDC" | || 1:1 || 4:4 || 1:2 || 3:0 || 2:3 || 1:1 || 3:0 || 3:2 || 1:0 || 2:1 || 0:1 || 4:0 || 1:0 || 1:1 || 4:1
+|-
+| {{0}}4. || align="left" | [[Eintracht Braunschweig]] || 2:3 || 2:0 || 0:0 || bgcolor="#DCDCDC" | || 1:2 || 1:0 || 3:0 || 1:0 || 0:3 || 2:1 || 3:3 || 0:0 || 2:1 || 3:3 || 3:0 || 4:3 || 0:2 || 2:2
+|-
+| {{0}}5. || align="left" | [[VfB Stuttgart]] || 3:0 || 3:1 || 0:3 || 2:2 || bgcolor="#DCDCDC" | || 3:0 || 1:1 || 2:0 || 2:2 || 1:1 || 1:0 || 3:2 || 6:1 || 4:2 || 4:3 || 2:2 || 2:3 || 1:0
+|-
+| {{0}}6. || align="left" | [[Hamburger SV]] || 2:2 || 3:0 || 2:0 || 0:0 || 2:1 || bgcolor="#DCDCDC" | || 1:3 || 1:4 || 5:2 || 2:0 || 1:4 || 1:2 || 3:1 || 0:0 || 3:1 || 2:0 || 4:2 || 3:0
+|-
+| {{0}}7. || align="left" | [[FC Schalke 04]] || 1:2 || 3:1 || 1:1 || 0:2 || 1:1 || 2:3 || bgcolor="#DCDCDC" | || 2:0 || 2:1 || 2:0 || 1:1 || 1:0 || 3:1 || 2:0 || 1:0 || 4:1 || 4:1 || 3:0
+|-
+| {{0}}8. || align="left" | [[Eintracht Frankfurt]] || 1:1 || 0:1 || 1:1 || 0:1 || 3:0 || 2:2 || 1:0 || bgcolor="#DCDCDC" | || 2:1 || 3:0 || 0:0 || 2:1 || 1:2 || 2:0 || 2:2 || 1:1 || 3:0 || 3:2
+|-
+| {{0}}9. || align="left" | [[Werder Bremen]] || 1:0 || 1:2 || 6:5 || 2:1 || 1:0 || 1:1 || 1:3 || 0:1 || bgcolor="#DCDCDC" | || 4:1 || 3:2 || 2:1 || 3:1 || 2:0 || 2:1 || 2:1 || 3:3 || 2:0
+|-
+| 10. || align="left" | [[TSV 1860 München]] || 0:3 || 0:0 || 0:4 || 0:1 || 3:1 || 3:3 || 3:1 || 1:0 || 4:3 || bgcolor="#DCDCDC" | || 2:1 || 2:1 || 2:1 || 0:1 || 1:0 || 2:1 || 2:0 || 2:0
+|-
+| 11. || align="left" | [[Hannover 96]] || 1:0 || 5:2 || 2:3 || 1:1 || 1:0 || 2:2 || 1:0 || 1:2 || 1:0 || 3:2 || bgcolor="#DCDCDC" | || 1:1 || 3:0 || 1:1 || 0:2 || 1:1 || 2:2 || 2:2
+|-
+| 12. || align="left" | [[MSV Duisburg]] || 0:0 || 1:1 || 1:1 || 1:1 || 2:0 || 0:0 || 1:0 || 1:1 || 2:0 || 3:4 || 0:0 || bgcolor="#DCDCDC" | || 0:0 || 2:1 || 0:0 || 2:0 || 1:0 || 2:1
+|-
+| 13. || align="left" | [[1. FC Köln]] || 1:1 || 1:2 || 1:4 || 2:0 || 5:2 || 4:1 || 2:0 || 2:1 || 3:3 || 0:0 || 1:0 || 1:1 || bgcolor="#DCDCDC" | || 1:0 || 2:1 || 2:1 || 3:0 || 2:1
+|-
+| 14. || align="left" | [[Hertha BSC]] || 1:2 || 0:1 || 2:1 || 0:0 || 0:1 || 3:2 || 1:0 || 2:0 || 1:0 || 1:2 || 2:1 || 1:1 || 2:1 || bgcolor="#DCDCDC" | || 1:0 || 0:0 || 2:0 || 1:0
+|-
+| 15. || align="left" | [[1. FC Kaiserslautern]] || 3:1 || 2:1 || 2:0 || 4:0 || 1:3 || 0:1 || 1:1 || 2:2 || 1:0 || 3:1 || 0:0 || 3:0 || 4:0 || 1:0 || bgcolor="#DCDCDC" | || 1:2 || 1:1 || 2:1
+|-
+| 16. || align="left" | [[Borussia Dortmund]] || 0:1 || 3:1 || 1:3 || 2:1 || 1:0 || 3:1 || 0:1 || 0:1 || 3:2 || 2:0 || 1:1 || 2:1 || 1:1 || 2:2 || 2:3 || bgcolor="#DCDCDC" | || 3:1 || 3:0
+|-
+| 17. || align="left" | [[1. FC Nürnberg]] || 2:0 || 1:4 || 4:0 || 2:0 || 1:1 || 0:0 || 1:1 || 1:0 || 1:1 || 3:0 || 1:2 || 1:1 || 0:1 || 3:0 || 1:0 || 2:2 || bgcolor="#DCDCDC" | || 2:2
+|-
+| 18. || align="left" | [[Kickers Offenbach]] || 0:0 || 1:1 || 1:0 || 0:1 || 2:1 || 1:1 || 1:0 || 4:2 || 0:3 || 2:3 || 1:1 || 0:0 || 3:1 || 1:0 || 4:1 || 4:3 || 2:1 || bgcolor="#DCDCDC" |
+|}
+
+== Zuschauertabelle ==
+{| class="wikitable sortable" style="text-align: center;"
+|- class="hintergrundfarbe5"
+! !! Verein!! Zuschauer!! pro Spiel
+|-
+| {{0}}1.|| align="left" | [[Hertha BSC]] || 728.330 || 42.842
+|-
+| {{0}}2.|| align="left" | [[1. FC Nürnberg]] || 440.833 || 25.931
+|-
+| {{0}}3.|| align="left" | [[FC Bayern München]] || 428.032 || 25.178
+|-
+| {{0}}4.|| align="left" | [[1. FC Köln]] || 424.043 || 24.943
+|-
+| {{0}}5.|| align="left" | [[Hannover 96]] || 394.367 || 23.198
+|-
+| {{0}}6.|| align="left" | [[Borussia Dortmund]] || 392.631 || 23.095
+|-
+| {{0}}7.|| align="left" | [[Eintracht Frankfurt]] || 371.983 || 21.881
+|-
+| {{0}}8.|| align="left" | [[FC Schalke 04]] || 366.559 || 21.562
+|-
+| {{0}}9.|| align="left" | [[VfB Stuttgart]] || 364.490 || 21.440
+|-
+| 10.|| align="left" | [[Kickers Offenbach]] || 359.458 || 21.144
+|-
+| 11.|| align="left" | [[Hamburger SV]] || 350.125 || 20.595
+|-
+| 12.|| align="left" | [[Borussia Mönchengladbach]] || 335.590 || 19.740
+|-
+| 13.|| align="left" | [[Werder Bremen]] || 315.123 || 18.536
+|-
+| 14.|| align="left" | [[Alemannia Aachen]] || 276.942 || 16.290
+|-
+| 15.|| align="left" | [[1860 München]] || 272.218 || 16.012
+|-
+| 16.|| align="left" | [[MSV Duisburg]] || 260.252 || 15.308
+|-
+| 17.|| align="left" | [[Eintracht Braunschweig]] || 258.916 || 15.230
+|-
+| 18.|| align="left" | [[1. FC Kaiserslautern]] || 210.605 || 12.388
+|-
+! colspan=2 | Gesamt|| '''6.550.497'''|| '''21.406'''
+|}
+
+== Torschützenliste ==
+Gerd Müller hatte bereits nach der Hinrunde 20 Tore erzielt. Dieser Rekord wurde erst in der [[Fußball-Bundesliga 2020/21|Saison 2020/21]] von [[Robert Lewandowski]] mit 22 Toren gebrochen.<ref>{{Webarchiv|url=https://www.sportbuzzer.de/artikel/robert-lewandowski-fc-bayern-bundesliga-rekord-fc-augsburg-tore/ |wayback=20210120200055 |text=Mit Tor gegen FC Augsburg: Bayern-Star Robert Lewandowski baut Hinrunden-Torrekord aus |archiv-bot=2026-09-26 20:44:57 InternetArchiveBot }}, sportbuzzer.de, 20. Januar 2021, abgerufen am 22. Januar 2021.</ref>
+{| class="wikitable"
+!Pl.!!Nat.!!Spieler!!Verein!!Tore
+|-
+|align="center" | 1|| {{DEU-1949|#}}||[[Gerd Müller]]||[[FC Bayern München]]||align="center" | 30
+|-
+|align="center" | 2|| {{DEU-1949|#}}||[[Uwe Seeler]]||[[Hamburger SV]]||align="center" | 23
+|-
+|align="center" | 3|| {{YUG|#}}||[[Josip Skoblar]]||[[Hannover 96]]||align="center" | 18
+|-
+|rowspan="3" align="center" | 4|| {{DEU-1949|#}}||[[Werner Görts]]||[[Werder Bremen]]||rowspan="3" align="center" | 15
+|-
+| {{DEU-1949|#}}||[[Herbert Laumen]]||[[Borussia Mönchengladbach]]
+|-
+| {{DEU-1949|#}}||[[Hartmut Weiß]]||[[Eintracht Braunschweig]]
+|-
+|}
+
+== Die Meistermannschaft des FC Bayern München ==
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Logo Bayern Munchen(1954-1996).svg|80px]]||- bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Sepp Maier]] (34/-)
+* '''Abwehr''': [[Werner Olk]] {{Kapitän}} (34/1); [[Peter Pumm]] (34/-); [[Georg Schwarzenbeck]] (34/-); [[Peter Kupferschmidt]] (22/-)
+* '''Mittelfeld''': [[August Starek|Gustl Starek]] (34/4); [[Franz Roth]] (34/2); [[Franz Beckenbauer]] (33/2); [[Helmut Schmidt (Fußballspieler, 1949)|Helmut Schmidt]] (21/2)
+* '''Sturm''': [[Rainer Ohlhauser]] (34/10); [[Dieter Brenninger]] (34/9); [[Gerd Müller]] (30/30); [[Gustav Jung (Fußballspieler)|Gustav Jung]] (4/-)
+* '''Trainer''': [[Branko Zebec]]
+* ohne Einsatz in der Liga blieben: [[Fritz Kosar]]; Benno Zellermayer; Peter Stegmann; [[Albrecht Wachsmann]]; [[Reinhard Lippert]].
+|}
+
+== Zu- und Abgänge im jeweiligen Spielerkader ==
+=== FC Bayern München ===
+::'''FC Bayern München, 1. Platz (Meister), TR [[Branko Zebec]] (neu für [[Zlatko Cajkovski]]), 1967/68: 5. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Gustl Starek]], 34-4, 1. FC Nürnberg, BL
+* [[Peter Pumm]], 34-0, Wacker Innsbruck
+* [[Helmut Schmidt (Fußballspieler, 1949)|Helmut Schmidt]], 21-2, eigener Nachwuchs
+* [[Reinhard Lippert]], kein BL-Einsatz, bayerischer Amateurspieler
+* Peter Stegmann, [[Albrecht Wachsmann]], Benno Zellermayer, kein BL-Einsatz, (alle aus dem bayerischen Amateurbereich)
+|-
+! Abgänge
+|
+* [[Dieter Koulmann]], Kickers Offenbach (BL-Aufsteiger)
+* [[Hans Nowak (Fußballspieler)|Hans Nowak]], Kickers Offenbach (BL-Aufsteiger)
+* [[Peter Werner (Fußballspieler)|Peter Werner]], Kickers Offenbach (BL-Aufsteiger)
+* [[Horst Schauß]], 1. FC Saarbrücken (RL Südwest)
+* [[Herbert Stöckl]], Wuppertaler SV (RL West)
+* [[Hans Rigotti]], 1. FC Nürnberg (Bundesliga)
+* [[Rudolf Nafziger]], St. Gallen
+* [[Klaus Walleitner]], TSV Haar ([[Haar (bei München)]])
+|}
+
+=== Alemannia Aachen ===
+::'''Alemannia Aachen, 2. Platz, TR [[Michael Pfeiffer (Fußballspieler)|Michael Pfeiffer]], 1967/68: 11. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Roger Claessen]], 29-9, Standard Lüttich
+* [[Ion Ionescu]], 24-7, Rapid Bukarest 
+* [[Jupp Kapellmann]], 21-2, SC 1930 Bardenberg, Bezirk Mittelrhein/Jgd.
+* [[Werner Scholz (Fußballspieler)|Werner Scholz]], 30-0, Hamborn 07, RL West
+* [[Werner Tenbruck]], 7-0, VfR Neuß, RL West
+* [[Werner Pöhler]], 2-0, 1. FC Mönchengladbach, LL Niederrhein Gr. 2
+* [[Wolfgang Habich]], 1-0, eigene Amateure, LL Mittelrhein St. 2
+|-
+! Abgänge
+|
+* [[Horacio Troche]], Bonner SC, RL West 
+* [[Alfred Glenski]], Bonner SC, RL West
+* [[Willi Krieger]], Bonner SC, RL West
+* [[Juan Carlos Borteiro]], Eintracht Trier, RL Südwest
+* [[Hans-Jürgen Ferdinand]], FC Chiasso
+* [[Wolfgang Klöckner]], Bonner SC, RL West
+|}
+
+=== Borussia Mönchengladbach ===
+::'''Borussia Mönchengladbach, 3. Platz, TR [[Hennes Weisweiler]], 1967/68: 3. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Hartwig Bleidick]], 34-3, Soester SV, LL Westfalen St. 5 
+* [[Winfried Schäfer]], 17-2, TuS Mayen, AL Rheinland
+* [[Wolfgang Kleff]], 9-0, VfL Schwerte, Verbandsliga Westfalen Gr. 2
+* [[Gerd Zimmermann (Fußballspieler)|Gerd Zimmermann]], 2-0, eigene Jugend
+* [[Heinz Koch (Fußballspieler)|Heinz Koch]], kein BL-Einsatz, VfR Büttgen/Jgd., Bezirksklasse Linker Niederrhein
+|-
+! Abgänge
+|
+* [[Werner Waddey]], Bonner SC, RL West
+* [[Dieter Baumanns]], Holstein Kiel, RL Nord
+* [[Klaus-Willi Baumanns]], Holstein Kiel, RL Nord 
+|}
+
+=== Eintracht Braunschweig ===
+::'''Eintracht Braunschweig, 4. Platz, TR [[Helmuth Johannsen]], 1967/68: 9. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Bernd Dörfel]], 34-4, Hamburger SV, BL
+* [[Hartmut Weiß]], 33-15, VfB Stuttgart, BL 
+* [[Franz Merkhoffer]], 12-0, HSV-Amateure
+* [[Jaro Deppe]], 5-2, eigene Jugend
+|-
+! Abgänge
+|
+* [[Hans-Georg Dulz]], FC Aarau 
+* [[Wolfgang Simon (Fußballspieler, 1946)|Wolfgang Simon]], VfL Wolfsburg, RL Nord
+* [[Wolfgang Brase]], [[Klaus Meyer (Fußballspieler)|Klaus Meyer]], jeweils Vertragsauflösung
+|}
+
+=== VfB Stuttgart ===
+::'''VfB Stuttgart, 5. Platz, TR [[Gunther Baumann (Fußballspieler)|Gunther Baumann]], 1967/68: 8. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Hans Mayer (Fußballspieler, 1945)|Hans Mayer]], 27-1, SSV Ulm, AL Nordwürttemberg 
+* [[Werner Haaga]], 21-2, VfB-Amateure, AL Nordwürttemberg
+|-
+! Abgänge
+|
+* [[Hartmut Weiß]], Eintracht Braunschweig, BL 
+* [[Helmut Huttary]], MSV Duisburg, BL
+* [[Manfred Gärtner (Fußballspieler, 1939)|Manfred Gärtner]], SV Röchling Völklingen, RL Südwest
+* [[Werner Pfeifer (Fußballspieler)|Werner Pfeifer]], SSV Reutlingen, RL Süd
+|}
+
+=== Hamburger SV ===
+::'''Hamburger SV, 6. Platz, TR [[Kurt Koch (Fußballtrainer)|Kurt Koch]], 1967/68: 13. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Hubert Schöll]], 15-1, 1. FC Nürnberg, BL 
+* [[Jürgen Dringelstein]], 23-1, SV Waldhof, RL Süd
+* [[Klaus Fock]], 14-3, TuS Finkenwerder, Verbandsklasse, St. Hansa
+* [[Robert Pötzschke]], 10-2, SpVgg. Merzig, 2. Amateurliga Saarland West
+* [[Gert Girschkowski]], 4-0, VfL Oldesloe
+* [[Hans-Werner Kremer]], 4-0, 1. FC Nürnberg Amateure
+* [[Jürgen Seifert]], 2-0, 1. FC Nürnberg Amateure
+|-
+! Abgänge
+|
+* [[Bernd Dörfel]], Eintracht Braunschweig, BL
+* [[Willi Giesemann]], HSV Barmbek-Uhlenhorst, RL Nord
+* [[Erhard Schwerin]], HSV Barmbek-Uhlenhorst, RL Nord
+* [[Reinhard Löffler (Fußballspieler)|Reinhard Löffler]], FC St. Pauli, RL Nord
+* [[Dieter Strauß]], Bergedorf 85, RL Nord
+* [[Peter Rohrschneider]], FC Thun 
+* [[Elmar May]], Sportinvalide
+|}
+
+=== FC Schalke 04 ===
+::'''FC Schalke 04, 7. Platz, TR [[Günter Brocker]] (bis 17. November 1968); [[Rudi Gutendorf]] (ab 22. November 1968), 1967/68: 15. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Franz Hasil]], 23-5, Rapid Wien 
+* [[Reinhard Libuda]], 32-5, Borussia Dortmund, BL
+* [[Heinz van Haaren]], 30-2, MSV Duisburg, BL
+* [[Herbert Lütkebohmert]], 26-3, TSV Marl-Hüls, RL West
+* [[Jürgen Galbierz]], 5-0, SC Hassel, Bezirksklasse Westfalen, St. 12
+* [[Gerd Kasperski]], 7-3, SW Essen, RL West
+* [[Bernd Michel]], 4-0, Hessen Kassel, RL Süd
+|-
+! Abgänge
+|
+* [[Horst Blechinger]], Karlsruher SC, RL Süd 
+* [[Harald Klose]], Bayer 04 Leverkusen, RL West
+* [[Willi Kraus (Fußballspieler, 1943)|Willi Kraus]], Eintracht Gelsenkirchen, RL West
+* [[Žarko Nikolić]], FK Vojvodina Novi Sad
+|}
+
+=== Eintracht Frankfurt ===
+::'''Eintracht Frankfurt, 8. Platz, TR [[Erich Ribbeck]] (neu für [[Elek Schwartz]]), 1967/68: 6. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+|
+ 
+* [[Jürgen Kalb]], 28-4, eigene Jugend/Amateure 
+* [[Günter Keifler]], 6-0, eigene Jugend/Amateure
+* [[Gert Trinklein]], 1-0, eigene Jugend/Amateure
+|-
+! Abgänge
+|
+* [[Peter Blusch]], 1. FC Köln, BL 
+* [[Jürgen Friedrich (Fußballspieler)|Jürgen Friedrich]], 1. FC Kaiserslautern, BL
+* [[Wolfgang Solz]], SV Darmstadt 98, RL Süd
+* [[Siegfried Bronnert]], VfB Lübeck, RL Nord
+* [[Istvan Sztani]], Laufbahn beendet
+|}
+
+=== SV Werder Bremen ===
+::'''SV Werder Bremen, 9. Platz, TR [[Fritz Langner]], 1967/68: 2. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Kurt Roder]], 4-0, eigene Amateure, LL Bremen 
+* [[Herbert Meyer (Fußballspieler)|Herbert Meyer]], 3-0, eigene Amateure, LL Bremen
+* [[Horst Bünting]], ohne BL-Einsatz, Jugendnationalspieler/eigene Amateure, LL Bremen
+* [[Dieter Zembski]], 1-0, BBV Union Bremen, LL Bremen
+* [[Ralf Faber]], 1-0, SG Düren 99, Verbandsliga Mittelrhein
+|-
+! Abgänge
+|
+* [[Klaus Hänel]], Laufbahn beendet 
+|}
+
+=== TSV München 1860 ===
+::'''TSV München 1860, 10. Platz, TR [[Albert Sing]] (bis 31. Oktober 1968); ab 1. November 1968: [[Hans Pilz]], 1967/68: 12. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Jürgen Schütz]], 20-6, SC Brescia 
+* [[Hans Linsenmaier]], 16-1, Borussia Neunkirchen, BL-Absteiger
+* [[Klaus Fischer (Fußballspieler)|Klaus Fischer]], 26-9, SC Zwiesel, LL Niederbayern
+* [[Franz Schäffner]], 8-0, VfR Mannheim, RL Süd
+* [[Helmut Roth (Fußballspieler)|Helmut Roth]], 6-0, SV Tübingen, LL Württemberg
+* [[Bernd Gerstner]], 3-1, Lüner SV, RL West
+|-
+! Abgänge
+|
+* [[Hans Küppers]], 1. FC Nürnberg, BL
+* [[Ludwig Bründl]], 1. FC Köln, BL
+* [[Rudi Brunnenmeier]], Xamax Neuenburg
+* [[Hans Schmitt (Fußballspieler)|Hans Schmitt]], ESV Ingolstadt, RL Süd
+* [[Gottfried Peter]], reamateurisiert
+|}
+
+=== Hannover 96 ===
+::'''Hannover 96, 11. Platz, TR [[Zlatko Cajkovski]] (neu für [[Karl-Heinz Mülhausen]]), 1967/68: 10. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Rainer Zobel]], 33-4, SC 09 Uelzen, Verbandsliga Ost/NS 
+* [[Peter Loof]], 27-1, eigene Amateure
+* [[Claus Brune]], 11-1, SF Ricklingen, Verbandsliga Süd/NS
+* [[Wilfried Ahnefeld]], 3-0, eigene Amateure, LL Niedersachsen
+|-
+! Abgänge
+|
+* [[Walter Rodekamp]], FC Lüttich
+* [[Werner Gräber]], Wuppertaler SV, RL West
+* [[Hermann Straschitz]], Wuppertaler SV, RL West
+* [[Kaj Poulsen]], AC Beerschot
+* [[Horst Grunenberg (Fußballspieler)|Horst Grunenberg]], Bremerhaven 93, RL Nord
+|}
+
+=== MSV Duisburg ===
+::'''MSV Duisburg, 12. Platz, TR [[Robert Gebhardt]] (neu für [[Gyula Lóránt]]), 1967/68: 7. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Helmut Huttary]], 33-1, VfB Stuttgart, BL
+* [[Anton Burghardt]], 28-0, 1. FC Saarbrücken, RL Südwest
+* [[Johannes Riedl]], 23-2, FK Pirmasens, RL Südwest
+* [[Karl-Heinz Wißmann]], 5-0, DJK Grün-Weiß Werden, Kreisklasse Essen Süd/Ost
+* [[Hannes Linßen]], 3-0, TuS Wachtendonk
+* [[Axel Rzany]], 2-0, SSVg Heiligenhaus, LL Niederrhein Gr. 1
+|-
+! Abgänge
+|
+* [[Heinz van Haaren]], FC Schalke 04, BL
+* [[Horst Wild]], Karlsruher SC, RL Süd
+* [[Erwin Kostedde]], Standard Lüttich
+* [[Heinz Pflügge]], VfR Neuß, RL West
+|}
+
+=== 1. FC Köln ===
+::'''1. FC Köln, 13. Platz, TR [[Hans Merkle]] (neu für [[Willi Multhaup]]), 1967/68: 4. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Peter Blusch]], 25-0, Eintracht Frankfurt, BL
+* [[Ludwig Bründl]], 13-1, TSV München 1860, BL
+* [[Werner Biskup]], 32-6, Fortuna Düsseldorf, RL West
+* [[Bernhard Hermes]], 11-1, eigener Nachwuchs
+* [[Rolf Birkhölzer]], 12-0, eigener Nachwuchs
+|-
+! Abgänge
+|
+* [[Wolfgang Rausch]], RW Essen, RL West
+* [[Jürgen Rumor]], 1. FC Kaiserslautern, BL
+* [[Toni Schumacher (Fußballspieler, 1938)|Toni Schumacher]], Viktoria Köln, RL West
+* [[Paul Alger]], Viktoria Köln, RL West
+* [[Karl-Heinz Struth]], Fortuna Köln, RL West
+* [[Helmut Bergfelder]], Bonner SC, RL West
+* [[Reinhard Roder]], Bayer 04 Leverkusen, RL West
+* [[Dietmar Mürdter]], Bayer 04 Leverkusen, RL West
+|}
+
+=== Hertha BSC ===
+::'''Hertha BSC, 14. Platz, BL-Aufsteiger, TR [[Helmut Kronsbein]], 1967/68: 1. Rang RL-Berlin'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Franz Brungs]], 34-6, 1. FC Nürnberg, BL
+* [[Karl-Heinz Ferschl]], 32-0, 1. FC Nürnberg, BL
+* [[Jürgen Weber (Fußballspieler, 1944)|Jürgen Weber]], 12-1, Borussia Dortmund, BL
+* [[Gernot Fraydl]], 18-0, St. Louis/USA
+* [[Hermann Bredenfeld]], 16-3, SW Essen, RL West
+* [[Karl-Heinz Leufgen]], kein BL-Einsatz, SW Essen, RL West 
+* [[Karl-Heinz Hausmann]], 2-0, Wacker 04 Berlin, RL Berlin
+* [[Arno Steffenhagen]], 34-5, RFC Alt-Holland
+|-
+! Abgänge
+|
+* [[Peter Kronsbein]], Wacker 04 Berlin, RL Berlin
+* [[Hans-Dieter Kluge]], Wacker 04 Berlin, RL Berlin
+* [[Rainer Lindner]], Wacker 04 Berlin, RL Berlin
+* [[Manfred Greif]], Wacker 04 Berlin, RL Berlin
+* [[Jonny Egbuono]], Tasmania 1900 Berlin, RL Berlin
+|}
+
+=== 1. FC Kaiserslautern ===
+::'''1. FC Kaiserslautern, 15. Platz, TR [[Egon Piechaczek]], 1967/68: 16. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Jürgen Friedrich (Fußballspieler)|Jürgen Friedrich]], 34-7, Eintracht Frankfurt, BL
+* [[Jürgen Rumor]], 33-1, 1. FC Köln, BL
+* [[Peter Schmidt (Fußballspieler, 1943)|Peter Schmidt]], 8-0, Wiener SK
+* [[Ernst Diehl (Fußballspieler)|Ernst Diehl]], 33-0, eigener Nachwuchs
+* [[Volker Klein]], 5-0, eigener Nachwuchs
+* [[Hermann Soyez]], ohne BL-Einsatz, eigener Nachwuchs
+|-
+! Abgänge
+|
+* [[Helmut Kapitulski]], FK Pirmasens, RL Südwest
+* [[Gerd Roggensack]], Arminia Bielefeld, RL West
+* [[Andrija Anković]], SW Bregenz
+* [[Willy Reitgaßl]], Fortuna Sittard
+|}
+
+=== Borussia Dortmund ===
+::'''Borussia Dortmund, 16. Platz, TR [[Oswald Pfau]], bis 16. Dezember 1968; [[Helmut Schneider (Fußballspieler)|Helmut Schneider]], von 17. Dezember 1968 bis 18. März 1969; [[Hermann Lindemann (Fußballtrainer)|Hermann Lindemann]], ab 21. März 1969, 1967/68: 14. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Klaus Günther (Fußballspieler)|Klaus Günther]], 24-0, Karlsruher SC, BL-Absteiger
+* [[Dietmar Erler]], 18-1, Arminia Bielefeld, RL West
+* [[Werner Weist (Fußballspieler, 1949)|Werner Weist]], 17-7, SV 1908 Dortmund, Bezirksklasse Westfalen St.15
+* [[Friedrich Lehmann (Fußballspieler)|Friedrich Lehmann]], 9-2, SV Wiesbaden, RL Süd (Absteiger)
+* [[Walter Szaule]], 4-0, FSV Frankfurt, RL Süd (Absteiger)
+* [[Klaus Beckfeld]], 4-0, VfR Mannheim, RL Süd
+* [[Helmut Heeren]], 1-0, VfB Oldenburg, RL Nord
+|-
+! Abgänge
+|
+* [[Reinhard Libuda]], FC Schalke 04, BL
+* [[Jürgen Weber (Fußballspieler, 1944)|Jürgen Weber]], Hertha BSC, BL
+* [[Werner Köddermann]], Eintracht Gelsenkirchen, RL West
+* [[Gerd Cyliax]], Laufbahn beendet
+* [[Aki Schmidt|Alfred „Aki“ Schmidt]], Laufbahn beendet, als Trainer zu Jahn Regensburg (RL Süd) 
+|}
+
+=== 1. FC Nürnberg ===
+::'''1. FC Nürnberg, 17. Platz, TR [[Max Merkel]], bis 24. März 1969; [[Robert Körner]], 25. März 1969 bis 10. April 1969; [[Kuno Klötzer]], ab 12. April 1969; 1967/68: 1. Rang'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Jürgen Rynio]], 25-0, Karlsruher SC, BL-Absteiger
+* [[Klaus Zaczyk]], 34-3, Karlsruher SC, BL-Absteiger
+* [[Hans Küppers]], 33-10, TSV München 1860, BL
+* [[Hans Rigotti]], 4-0, FC Bayern München, BL
+* [[Peter Czernotzky]], 8-0, Borussia Neunkirchen, BL-Absteiger
+* [[Johnny Hansen (Fußballspieler, 1943)|Johnny Hansen]], 21-0, BK Vejle/Dänemark
+* [[Erich Beer]], 25-2, SpVgg Fürth Am.; bis Ende 1967: VfL Neustadt/Coburg
+* [[Dieter Nüssing]], 23-5, FC Metternich, AL Rheinland
+* [[Amand Theis]], 7-0, SV Hellenhahn/Westerwald
+* [[Franz Zimmert]], 1-0, eigene Jugend
+* [[Theo Homann]], kein BL-Einsatz, SSV Werne, LL Westfalen St. 5
+* [[Jürgen Lehr]], kein BL-Einsatz, FV Speyer, 1. AL Südwest (66-14 RL, 62-16 2. BL)
+* [[Walter Pradt]], kein BL-Einsatz, Germania Wiesbaden, AL Hessen
+|-
+! Abgänge
+|
+* [[Gustl Starek]], FC Bayern München, BL 
+* [[Franz Brungs]], Hertha BSC, BL
+* [[Karl-Heinz Ferschl]], Hertha BSC, BL
+* [[Helmut Hilpert (Fußballspieler)|Helmut Hilpert]], SV Waldhof, RL Süd
+* [[Gyula Tóth (Fußballspieler, 1941)|Gyula Toth]], SSV Jahn Regensburg, RL Süd
+* [[Hubert Schöll]], Hamburger SV, BL (und die zwei Amateure Kremer und Seifert)
+* [[Manfred Ebenhöh]], SpVgg Fürth, RL Süd
+* [[Wulf-Ingo Usbeck]], Blau-Weiß Berlin, RL Berlin
+* [[Horst Blankenburg]], Wiener SC
+|}
+
+=== Kickers Offenbach ===
+::'''Kickers Offenbach, 18. Platz, TR [[Paul Oßwald]], 1967/68: 2. Rang RL Süd, BL-Aufsteiger'''
+{| class="wikitable"
+|-
+! Zugänge
+| 
+* [[Hans Nowak (Fußballspieler)|Hans Nowak]], 12-0, FC Bayern München, BL
+* [[Dieter Koulmann]], 22-3, FC Bayern München, BL
+* [[Peter Werner (Fußballspieler)|Peter Werner]], 3-0, FC Bayern München, BL
+* [[Helmut Siber]], 31-4, Wacker Innsbruck
+* [[Karlheinz Volz]], TH, kein BL-Einsatz, SpVgg 03 Neu-Isenburg, Hessenliga
+* [[Rudolf Koch (Fußballspieler)|Rudolf Koch]], 21-1, eigener Nachwuchs 
+* [[Heinz Schönberger (Fußballspieler)|Heinz Schönberger]], 14-1, eigener Nachwuchs
+* [[Hubert Genz]], kein BL-Einsatz, eigener Nachwuchs
+|-
+! Abgänge
+|
+* [[Lothar Weschke]], Fortuna Düsseldorf, RL West
+* [[Wolfgang Mühlschwein]], SV Darmstadt 98, RL Süd
+* [[Dieter Stangl]], SV Darmstadt 98, RL Süd 
+* [[Ernst Winterhalter]], Schwaben Augsburg, RL Süd
+* Manfred Erber, Heinz-Bernd Engert, Laufbahn beendet
+|}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || Platzverweise
+|-
+| style="text-align:left" data-sort-value="Aldinger, Heinz" | [[Heinz Aldinger]] || {{DatumZelle|1933-01-07}} || [[Württembergischer Fußballverband|Württemberg]] || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Basedow, Diedrich" | [[Diedrich Basedow]] || {{DatumZelle|1930-07-17}} || [[Hamburger Fußball-Verband|Hamburg]] || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Betz, Alfons" | [[Alfons Betz]] || {{DatumZelle|1928-11-21}} || [[Bayerischer Fußball-Verband|Bayern]] || 8 || 0
+|-
+| style="text-align:left" data-sort-value="Bien, Edmund" | [[Edmund Bien]] || {{DatumZelle|1927-05-31}} || [[Südwestdeutscher Fußballverband|Südwest]] || 2 || 0
+|-
+| style="text-align:left" data-sort-value="Binder, Albert" | [[Albert Binder (Schiedsrichter)|Albert Binder]] || {{DatumZelle|1928-07-05}} || Württemberg || 5 || 1
+|-
+| style="text-align:left" data-sort-value="Biwersi, Ferdinand" | [[Ferdinand Biwersi]] || {{DatumZelle|1934-06-24}} || [[Saarländischer Fußballverband|Saarland]] || 9 || 0
+|-
+| style="text-align:left" data-sort-value="Bonacker, Horst" | [[Horst Bonacker]] || {{DatumZelle|1937-05-18}} || unbekannt || 4 || 0
+|-
+| style="text-align:left" data-sort-value="Deuschel, Edgar" | [[Edgar Deuschel]] || {{DatumZelle|1920-10-04}} || Südwest || 8 || 1
+|-
+| style="text-align:left" data-sort-value="Eschweiler, Walter" | [[Walter Eschweiler]] || {{DatumZelle|1935-09-20}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 8 || 0
+|-
+| style="text-align:left" data-sort-value="Fork, Karl-Heinz" | [[Karl-Heinz Fork]] || {{DatumZelle|1930-07-13}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 2 || 0
+|-
+| style="text-align:left" data-sort-value="Frickel, Rudolf" | [[Rudolf Frickel]] || {{DatumZelle|1932-07-16}} || Bayern || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Fritz, Helmut" | [[Helmut Fritz (Schiedsrichter)|Helmut Fritz]] || {{DatumZelle|1923-10-19}} || Südwest || 10 || 1
+|-
+| style="text-align:left" data-sort-value="Fritz, Oswald" | [[Oswald Fritz]] || {{DatumZelle|1925-04-10}} || [[Badischer Fußballverband|Baden]] || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Gabor, Peter" | [[Peter Gabor]] || {{DatumZelle|1940-04-19}} || [[Berliner Fußball-Verband|Berlin]] || 1 || 0
+|-
+| style="text-align:left" data-sort-value="Geng, Philipp" | [[Philipp Geng]] || {{DatumZelle|1926-05-04}} || [[Südbadischer Fußballverband|Südbaden]] || 4 || 0
+|-
+| style="text-align:left" data-sort-value="Hager, Josef" | [[Josef Hager (Fußballspieler)|Josef Hager]] || {{DatumZelle|1925-06-08}} || Baden || 1 || 0
+|-
+| style="text-align:left" data-sort-value="Handwerker, Kurt" | [[Kurt Handwerker]] || {{DatumZelle|1921-12-11}} || Baden || 4 || 1
+|-
+| style="text-align:left" data-sort-value="Heckeroth, Dieter" | [[Dieter Heckeroth]] || {{DatumZelle|1939-07-04}} || [[Hessischer Fußball-Verband|Hessen]] || 2 || 0
+|-
+| style="text-align:left" data-sort-value="Hennig, Gerd" | [[Gerd Hennig]] || {{DatumZelle|1935-04-24}} || [[Fußballverband Niederrhein|Niederrhein]] || 9 || 0
+|-
+| style="text-align:left" data-sort-value="Herden, Horst" | [[Horst Herden]] || {{DatumZelle|1928-07-08}} || Hamburg || 9 || 0
+|-
+| style="text-align:left" data-sort-value="Heumann, Franz" | [[Franz Heumann]] || {{DatumZelle|1923-03-14}} || Bayern || 10 || 0
+|-
+| style="text-align:left" data-sort-value="Hilker, Wilfried" | [[Wilfried Hilker]] || {{DatumZelle|1930-08-14}} || Westfalen || 6 || 1
+|-
+| style="text-align:left" data-sort-value="Hillebrand, Hans" | [[Hans Hillebrand]] || {{DatumZelle|1935-06-12}} || Niederrhein || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Horstmann, Walter" | [[Walter Horstmann]] || {{DatumZelle|1935-08-28}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 9 || 1
+|-
+| style="text-align:left" data-sort-value="Kindervater, Paul" | [[Paul Kindervater]] || {{DatumZelle|1940-01-24}} || Mittelrhein || 4 || 0
+|-
+| style="text-align:left" data-sort-value="Koehler, Alfred" | [[Alfred Köhler (Schiedsrichter)|Alfred Köhler]] || {{DatumZelle|1936-01-18}} || unbekannt || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Kreitlein, Rudolf" | [[Rudolf Kreitlein]] || {{DatumZelle|1919-11-14}} || Württemberg || 9 || 0
+|-
+| style="text-align:left" data-sort-value="Krumnack, Werner" | [[Werner Krumnack]] || {{DatumZelle|1934-06-21}} || Westfalen || 4 || 0
+|-
+| style="text-align:left" data-sort-value="Linn, Günter" | [[Günter Linn]] || {{DatumZelle|1935-03-16}} || [[Fußballverband Rheinland|Rheinland]] || 7 || 0
+|-
+| style="text-align:left" data-sort-value="Malka, Johannes" | [[Johannes Malka]] || {{DatumZelle|1922-07-16}} || Westfalen || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Niemeyer, Karl" | [[Karl Niemeyer (Schiedsrichter)|Karl Niemeyer]] || {{DatumZelle|1920-08-29}} || Mittelrhein || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Ohmsen, Klaus" | [[Klaus Ohmsen]] || {{DatumZelle|1935-10-16}} || Hamburg || 8 || 0
+|-
+| style="text-align:left" data-sort-value="Ott, Alfred" | [[Alfred Ott]] || {{DatumZelle|1934-06-19}} || Rheinland || 11 || 1
+|-
+| style="text-align:left" data-sort-value="Picker, Karl-Heinz" | [[Karl-Heinz Picker]] || {{DatumZelle|1928-09-26}} || Hamburg || 4 || 0
+|-
+| style="text-align:left" data-sort-value="Redelfs, Jan" | [[Jan Redelfs]] || {{DatumZelle|1935-08-20}} || Niedersachsen || 11 || 0
+|-
+| style="text-align:left" data-sort-value="Regely, Ewald" | [[Ewald Regely]] || {{DatumZelle|1934-03-17}} || Berlin || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Riegg, Karl" | [[Karl Riegg]] || {{DatumZelle|1929-11-15}} || Bayern || 8 || 2
+|-
+| style="text-align:left" data-sort-value="Roegner, Klaus-Dieter" | [[Klaus-Dieter Rögner]] || {{DatumZelle|1933-12-11}} || Niedersachsen || 2 || 0
+|-
+| style="text-align:left" data-sort-value="Schaefer, Elmar" | [[Elmar Schäfer (Schiedsrichter)|Elmar Schäfer]] || {{DatumZelle|1940-07-20}} || Hamburg || 7 || 3
+|-
+| style="text-align:left" data-sort-value="Schreiner, Rudolf" | [[Rudolf Schreiner (Schiedsrichter)|Rudolf Schreiner]] || {{DatumZelle|1920-12-13}} || Hessen || 3 || 0
+|-
+| style="text-align:left" data-sort-value="Schroeck, Rudolf" | [[Rudolf Schröck]] || {{DatumZelle|1933-12-02}} || unbekannt || 4 || 0
+|-
+| style="text-align:left" data-sort-value="Schulenburg, Gerhard" | [[Gerhard Schulenburg]] || {{DatumZelle|1926-10-11}} || Niedersachsen || 9 || 1
+|-
+| style="text-align:left" data-sort-value="Schulz, Bruno" | [[Bruno Schulz (Schiedsrichter)|Bruno Schulz]] || {{DatumZelle|1934-05-13}} || Berlin || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Schumann, Jürgen" | [[Jürgen Schumann (Schiedsrichter)|Jürgen Schumann]] || {{DatumZelle|1940-05-02}} || Rheinland || 1 || 0
+|-
+| style="text-align:left" data-sort-value="Seiler, Fritz" | [[Fritz Seiler (Schiedsrichter, 1927)|Fritz Seiler]] || {{DatumZelle|1927-08-14}} || Württemberg || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Siebert, Heinz" | [[Heinz Siebert (Schiedsrichter)|Heinz Siebert]] || {{DatumZelle|1925-08-02}} || Baden || 8 || 0
+|-
+| style="text-align:left" data-sort-value="Siepe, Gerd" | [[Gerd Siepe]] || {{DatumZelle|1929-07-27}} || Mittelrhein || 6 || 1
+|-
+| style="text-align:left" data-sort-value="Spinnler, Max" | [[Max Spinnler]] || {{DatumZelle|1920-09-10}} || Südwest || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Tschenscher, Kurt" | [[Kurt Tschenscher]] || {{DatumZelle|1928-10-05}} || Baden || 7 || 0
+|-
+| style="text-align:left" data-sort-value="Voß, Hans" | [[Hans Voß (Schiedsrichter)|Hans Voß]] || {{DatumZelle|1928-08-10}} || Westfalen || 3 || 0
+|-
+| style="text-align:left" data-sort-value="Wengenmayer, Franz" | [[Franz Wengenmayer]] || {{DatumZelle|1926-03-14}} || Bayern || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Weyland, Hans-Joachim" | [[Hans-Joachim Weyland]] || {{DatumZelle|1929-09-29}} || Niederrhein || 7 || 0
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 14
+|- class="sortbottom hintergrundfarbe5"
+| colspan="5" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1968-1969/1/ | titel=Schiedsrichter | werk=weltfussball.de | zugriff=2015-11-2}}</ref>
+|}
+
+== Literatur ==
+* [[Deutscher Sportclub für Fußball-Statistiken]] (Hrsg.): [http://www.dsfs.de/uploads/media/BL-Chronik_1968-69.pdf DSFS Bundesliga-Chronik 1968/69] (PDF; 5,0&nbsp;MB)
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1968/69 (DFB)
+|Navigationsleiste Europa-Fußball 1969
+}}
+
+{{SORTIERUNG:FussballBundesliga 196869}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1968 69]]
+[[Kategorie:Fußballsaison 1968/69]]

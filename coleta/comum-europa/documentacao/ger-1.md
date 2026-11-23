@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 ## 1. O que temos
 
 - **Edições:** 124, de 1963/64 a 1962/63.
-- **Jogos:** 20303; **gols:** 63752; **gols com autor:** 55851 (88%); **cartões:** 30251; **jogos com estatísticas** (chutes, faltas, escanteios): 7649.
+- **Jogos:** 20303; **gols:** 63752; **gols com autor:** 56842 (89%); **cartões:** 30251; **jogos com estatísticas** (chutes, faltas, escanteios): 7649.
 - **Clubes:** 194; **artilheiros:** 63 temporadas com artilheiro (74 linhas, com empates).
 - **Classificação final:** 116 temporadas; **rodada a rodada:** 63 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2502 linhas, de 147 tabelas.
@@ -48,8 +48,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1960s | 2076 | 100% | 0% | 97% | 0% | 0% | 0% | 0% | 93% | 0.0 |
 | 1970s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 95% | 0.0 |
 | 1980s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 95% | 0.0 |
-| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 88% | 0.0 |
-| 2000s | 3060 | 100% | 90% | 100% | 90% | 72% | 20% | 90% | 89% | 3.6 |
+| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 93% | 0.0 |
+| 2000s | 3060 | 100% | 90% | 100% | 90% | 72% | 20% | 90% | 95% | 3.6 |
 | 2010s | 3060 | 100% | 100% | 100% | 100% | 97% | 0% | 100% | 99% | 3.8 |
 | 2020s | 1836 | 100% | 100% | 100% | 100% | 84% | 0% | 100% | 100% | 4.0 |
 
@@ -171,10 +171,37 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1971/72: punições: Arminia Bielefeld -19 pontos; Arminia Bielefeld rebaixado de ofício e sem pontos (escândalo de 1971)
 - 1979/80: 3º lugar dividido entre Stuttgart e Kaiserslautern (41 pontos e 75-53 de gols; não havia outro critério)
 - 1981/82: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Bayer 04 Leverkusen x Kickers Offenbach, 1-0 e 2-1 (total 3-1); ficou com a vaga: Bayer 04 Leverkusen (Wikipédia de)
+- 1982/83: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): FC Bayer 05 Uerdingen 3-1 FC Schalke 04; FC Schalke 04 1-1 FC Bayer 05 Uerdingen; ficou com a vaga: FC Bayer 05 Uerdingen (Wikipédia de)
+- 1983/84: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): MSV Duisburg 0-5 Eintracht Frankfurt; Eintracht Frankfurt 1-1 MSV Duisburg; ficou com a vaga: Eintracht Frankfurt (Wikipédia de)
+- 1984/85: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): 1. FC Saarbrücken 2-0 Arminia Bielefeld; Arminia Bielefeld 1-1 1. FC Saarbrücken; ficou com a vaga: 1. FC Saarbrücken (Wikipédia de)
+- 1985/86: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): SC Fortuna Köln 2-0 Borussia Dortmund; Borussia Dortmund 3-1 SC Fortuna Köln; Borussia Dortmund 8-0 SC Fortuna Köln; ficou com a vaga: Borussia Dortmund (Wikipédia de)
+- 1986/87: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): FC Homburg 3-1 FC St. Pauli; FC St. Pauli 2-1 FC Homburg; ficou com a vaga: FC Homburg (Wikipédia de)
+- 1987/88: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): SV Darmstadt 98 3-2 SV Waldhof Mannheim; SV Waldhof Mannheim 2-1 SV Darmstadt 98; SV Waldhof Mannheim 0-0 SV Darmstadt 98 (prorrogação); ficou com a vaga: SV Waldhof Mannheim (Wikipédia de)
+- 1988/89: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Eintracht Frankfurt 2-0 1. FC Saarbrücken; 1. FC Saarbrücken 2-1 Eintracht Frankfurt; ficou com a vaga: Eintracht Frankfurt (Wikipédia de)
+- 1989/90: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): 1. FC Saarbrücken 0-1 VfL Bochum; VfL Bochum 1-1 1. FC Saarbrücken; ficou com a vaga: VfL Bochum (Wikipédia de)
+- 1990/91: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): FC St. Pauli 1-1 SV Stuttgarter Kickers; SV Stuttgarter Kickers 1-1 FC St. Pauli; SV Stuttgarter Kickers 3-1 FC St. Pauli; ficou com a vaga: SV Stuttgarter Kickers (Wikipédia de)
 - 1993/94: punições: Dynamo Dresden -4 pontos
 - 1994/95: Dynamo Dresden, 18º, também perdeu a licença
 - 1999/00: punições: Eintracht Frankfurt -2 pontos
 - 2003/04: punições: Kaiserslautern -3 pontos
+- 2008/09: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Energie Cottbus 0-3 1. FC Nürnberg; 1. FC Nürnberg 2-0 Energie Cottbus; ficou com a vaga: 1. FC Nürnberg (Wikipédia de)
+- 2009/10: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): 1. FC Nürnberg 1-0 FC Augsburg; FC Augsburg 0-2 1. FC Nürnberg; ficou com a vaga: 1. FC Nürnberg (Wikipédia de)
+- 2010/11: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Borussia Mönchengladbach 1-0 VfL Bochum; VfL Bochum 1-1 Borussia Mönchengladbach; ficou com a vaga: Borussia Mönchengladbach (Wikipédia de)
+- 2011/12: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Hertha BSC 1-2 Fortuna Düsseldorf; Fortuna Düsseldorf 2-2 Hertha BSC; ficou com a vaga: Fortuna Düsseldorf (Wikipédia de)
+- 2012/13: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): TSG 1899 Hoffenheim 3-1 1. FC Kaiserslautern; 1. FC Kaiserslautern 1-2 TSG 1899 Hoffenheim; ficou com a vaga: TSG 1899 Hoffenheim (Wikipédia de)
+- 2013/14: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Hamburger SV 0-0 SpVgg Greuther Fürth; SpVgg Greuther Fürth 1-1 Hamburger SV; ficou com a vaga: Hamburger SV (Wikipédia de)
+- 2014/15: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Hamburger SV 1-1 Karlsruher SC; Karlsruher SC 1-2 Hamburger SV (prorrogação); ficou com a vaga: Hamburger SV (Wikipédia de)
+- 2015/16: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Eintracht Frankfurt 1-1 1. FC Nürnberg; 1. FC Nürnberg 0-1 Eintracht Frankfurt; ficou com a vaga: Eintracht Frankfurt (Wikipédia de)
+- 2016/17: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): VfL Wolfsburg 1-0 Eintracht Braunschweig; Eintracht Braunschweig 0-1 VfL Wolfsburg; ficou com a vaga: VfL Wolfsburg (Wikipédia de)
+- 2017/18: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): VfL Wolfsburg 3-1 Holstein Kiel; Holstein Kiel 0-1 VfL Wolfsburg; ficou com a vaga: VfL Wolfsburg (Wikipédia de)
+- 2018/19: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): VfB Stuttgart 2-2 1. FC Union Berlin; 1. FC Union Berlin 0-0 VfB Stuttgart; ficou com a vaga: 1. FC Union Berlin (Wikipédia de)
+- 2019/20: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Werder Bremen 0-0 1. FC Heidenheim; 1. FC Heidenheim 2-2 Werder Bremen; ficou com a vaga: Werder Bremen (Wikipédia de)
+- 2020/21: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): 1. FC Köln 0-1 Holstein Kiel; Holstein Kiel 1-5 1. FC Köln; ficou com a vaga: 1. FC Köln (Wikipédia de)
+- 2021/22: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Hertha BSC 0-1 Hamburger SV; Hamburger SV 0-2 Hertha BSC; ficou com a vaga: Hertha BSC (Wikipédia de)
+- 2022/23: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): VfB Stuttgart 3-0 Hamburger SV; Hamburger SV 1-3 VfB Stuttgart; ficou com a vaga: VfB Stuttgart (Wikipédia de)
+- 2023/24: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): VfL Bochum 0-3 Fortuna Düsseldorf; Fortuna Düsseldorf 0-3 VfL Bochum (prorrogação); ficou com a vaga: VfL Bochum (Wikipédia de)
+- 2024/25: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): 1. FC Heidenheim 2-2 SV Elversberg; SV Elversberg 1-2 1. FC Heidenheim; ficou com a vaga: 1. FC Heidenheim (Wikipédia de)
+- 2025/26: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): VfL Wolfsburg 0-0 SC Paderborn 07; SC Paderborn 07 2-1 VfL Wolfsburg (prorrogação); ficou com a vaga: SC Paderborn 07 (Wikipédia de)
 - 1903/04: final não jogada: a federação anulou a fase final depois do protesto do Karlsruher FV; sem campeão
 - 1914/15: sem campeonato (Primeira Guerra Mundial)
 - 1915/16: sem campeonato (Primeira Guerra Mundial)
@@ -284,6 +311,8 @@ Registradas em `coleta/ger-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
+- Revisão DE-004: 3 datas em que só o transfermarkt discorda da base (Dortmund x Duisburg 1964/65, Colônia x Werder 1969/70, Colônia x Braunschweig 1978/79); conferir na ficha do jogo do transfermarkt ou num jornal antes de mudar.
+- Autores dos gols: RSSSF (1963/64-1998/99, só os jogos em que a soma fecha, cerca de 97%), ficha do ogol (1999/00, 2000/01 e os jogos em que a ESPN falta ou não fecha) e ESPN (2001/02+). Os jogos que nenhuma das três fecha ficam sem autor; cartões só pela ESPN.
 - Era antiga (1902/03-1962/63, em antigo.py): entra só a fase final; as ligas regionais (Oberligen, Gauligen e as ligas de antes) ficam de fora. Pendência se o painel quiser mostrar as regionais.
 - Era antiga: gols com autor só nas partidas com ficha (football box) na Wikipédia, quase sempre a final; artilheiros da fase final não coletados (a infobox da Wikipédia tem o artilheiro de cada temporada).
 - Era antiga: 1947/48, três placares diferentes entre RSSSF e Wikipédia (en) nas quartas e na semifinal; ficou a RSSSF. Conferir numa terceira fonte (kicker, Wikipédia em alemão).

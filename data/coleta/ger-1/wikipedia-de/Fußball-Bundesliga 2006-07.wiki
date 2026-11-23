@@ -1,0 +1,318 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 2006/07
+| Bild = [[Datei:Bundesliga Wordmark (2002-2010).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2002–2010. Es besteht aus der Schrift "Bundesliga" in zwei Zeilen. Die Schriftfarbe ist schwarz.|170px]]
+| Meister = [[VfB Stuttgart]]
+| UEFA Champions League = [[VfB Stuttgart]]<br />[[FC Schalke 04]]
+| UEFA Champions League Quali = [[Werder Bremen]]
+| UEFA Cup = [[FC Bayern München]]<br />[[Bayer 04 Leverkusen]]<br />[[1. FC Nürnberg]]
+| Pokal-Sieger = [[1. FC Nürnberg]]
+| UI-Cup = [[Hamburger SV]]
+| Absteiger = [[1. FSV Mainz 05]]<br />[[Alemannia Aachen]]<br />[[Borussia Mönchengladbach|Borussia M’gladbach]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 837
+| Zuschauer = 11.899.765
+| Torschützenkönig = {{GRC|Ziel=Theofanis Gekas}}<br />([[VfL Bochum]])
+| vorherige Saison = [[Fußball-Bundesliga 2005/06|Bundesliga 2005/06]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2007/08|Bundesliga 2007/08]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2006/07|2. Bundesliga 2006/07]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew   value:rgb(0.86,0.86,0.86)
+  id:schalke   value:rgb(0.00,0.05,1   )
+  id:werder   value:rgb(0.11,0.56,0.36)
+  id:vfb   value:rgb(0.92,0.36,0.16)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:1.5 shift:(20,-3)   color:grew      text:Leverkusen / Nürnberg
+    from:1.5 till:3.5 shift:(20,-3)   color:violet     text:Nürnberg
+    from:3.5 till:4.5 shift:(20,-3)   color:blue    text:Hertha BSC
+    from:4.5 till:5.5 shift:(20,-3)   color:red        text:Bayern München
+    from:5.5 till:6.5 shift:(20,-3)   color:blue    text:Hertha BSC
+    from:6.5 till:11.5 shift:(20,-3)  color:werder      text:Werder Bremen
+    from:11.5 till:12.5 shift:(20,-3) color:vfb     text:VfB Stuttgart
+    from:12.5 till:14.5 shift:(20,-3) color:schalke       text:Schalke 04
+    from:14.5 till:19.5 shift:(20,-3) color:werder      text:Werder Bremen
+    from:19.5 till:32.5 shift:(20,-3) color:schalke       text:Schalke 04
+    from:32.5 till:34.5 shift:(20,-3) color:vfb     text:VfB Stuttgart
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:hannover value:rgb(0.11,0.56,0.36)
+  id:grew value:rgb(0.86,0.86,0.86)
+  id:bochum value:rgb(0.00,0.05,1   )
+  id:wolfsburg   value:rgb(0.32,0.65,0.00)
+  id:hsv   value:rgb(0.04,0.18,0.45)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:1.5   shift:(20,-3)   color:grew    text:Stuttgart / Aachen
+     from:1.5  till:3.5   shift:(20,-3)   color:hannover    text:Hannover
+     from:3.5  till:4.5   shift:(20,-3)   color:bochum     text:Bochum
+     from:4.5  till:5.5   shift:(20,-3)   color:wolfsburg     text:Wolfsburg
+     from:5.5  till:9.5   shift:(20,-3)   color:bochum     text:Bochum
+     from:9.5  till:10.5  shift:(20,-3)   color:hannover    text:Hannover
+     from:10.5 till:11.5  shift:(20,-3)   color:grew     text:Bochum / Mainz
+     from:11.5 till:18.5  shift:(20,-3)   color:red      text:Mainz
+     from:18.5 till:21.5  shift:(20,-3)   color:hsv text:Hamburg
+     from:21.5  till:34.5 shift:(20,-3)   color:black  text:Mönchengladbach
+</timeline>
+|}
+
+Die '''[[Fußball-Bundesliga|Bundesliga]] 2006/07''' war die 44. Saison der höchsten deutschen Spielklasse im Fußball der Männer. Sie startete am 11. August 2006 mit dem Spiel des FC Bayern München gegen Borussia Dortmund und endete am 19. Mai 2007. [[Deutsche Fußballmeisterschaft|Deutscher Meister]] wurde der [[VfB Stuttgart]], in die Zweitklassigkeit mussten der [[1. FSV Mainz 05]], [[Alemannia Aachen]] und [[Borussia Mönchengladbach]] absteigen.
+
+== Saisonverlauf ==
+=== Meisterschaftsentscheidung ===
+[[Datei:Armin Veh Meisterfeier.jpg|mini|links|Trainer Armin Veh mit der Meisterschale]]
+Der Titelgewinn des VfB Stuttgart war für viele überraschend; das Team von Trainer [[Armin Veh]] und Manager [[Horst Heldt]] war neu zusammengestellt worden und zugleich die jüngste Mannschaft der Liga, so dass sie vor Saisonbeginn allenfalls als Kandidat für einen Platz im UEFA-Pokal galt. Nachdem die Mannschaft im ersten Spiel mit einer Heimniederlage gegen den [[1. FC Nürnberg]] gleich ans Tabellenende gelangte und nach einer weiteren Heimniederlage gegen [[Borussia Dortmund]] einen für den VfB unbefriedigenden Saisonstart hatte, schien auch während der Spielzeit zunächst nichts auf einen Titelgewinn der Schwaben hinzudeuten: Als Favoriten galten die vier Erstplatzierten der Saison 2005/06 – [[FC Bayern München]], [[Werder Bremen]], der [[Hamburger SV]] und der [[FC Schalke 04]] –, die mit Ausnahme der Hamburger bereits an den ersten Spieltagen oben mitspielten und auch bis zum Ende der Spielzeit in den Kampf um die Meisterschaft involviert waren.
+
+[[Datei:Werder Bremen 2007.jpg|mini|Werder Bremen gegen Hertha BSC am 6. Mai 2007]]
+In der Hinrunde glänzte dabei vor allem Werder Bremen, das sich vor der Spielzeit mit dem brasilianischen Spielmacher [[Diego Ribas da Cunha|Diego]] und dem deutschen Innenverteidiger [[Per Mertesacker]] verstärkt hatte und nach Ansicht vieler Experten den schönsten Fußball der Liga spielte. Insbesondere die Auswärtssiege in Bochum, Mainz und Frankfurt, als Werder jeweils sechs Treffer erzielte, machten die Mannschaft von Trainer [[Thomas Schaaf]] schnell zum Favoriten auf den Titelgewinn. Da Werder sich jedoch immer wieder Schwächen erlaubte, konnte sich die Mannschaft niemals von ihren Verfolgern absetzen und war zur Winterpause auch nur punktgleich mit Schalke Herbstmeister. Die Gelsenkirchener waren ebenfalls mäßig in die Saison gestartet, hatten jedoch nach dem 0:3 in Stuttgart am neunten Spieltag – dem Beginn der Aufholjagd des VfB – eine Serie von 13 Spielen ohne Niederlage gestartet, die sie zu Beginn der Rückrunde an die Tabellenspitze führte.
+
+Bayern München spielte derweil die schlechteste Saison seit der Spielzeit 1994/95; trotz des Trainerwechsels von [[Felix Magath]] zu [[Ottmar Hitzfeld]] nach zwei Spieltagen der Rückrunde wurden die Münchner nur Tabellenvierter und qualifizierten sich damit zum ersten Mal seit zehn Jahren nicht für die [[UEFA Champions League]]. Insbesondere die zehn Saisonniederlagen, viele davon gegen Abstiegskandidaten, beraubten die Bayern spätestens fünf Spieltage vor Saisonende aller Meisterschaftsträume. Schalke 04 führte die Tabelle weiterhin an, zwei Punkte hinter den Gelsenkirchenern lag Werder Bremen auf Rang zwei, Stuttgart folgte ebenfalls mit zwei Punkten Abstand. Da die Schwaben jedoch die letzten acht Saisonspiele für sich entscheiden konnten und die beiden Konkurrenten an den letzten Spieltagen jeweils zweimal patzten (Schalke unterlag auswärts in Bochum und Dortmund, Bremen verlor in Bielefeld und gegen Frankfurt), sicherte sich der VfB am 34. Spieltag durch ein 2:1 gegen [[Energie Cottbus]] seine fünfte Meisterschaft. Es war der erste Titel für die Schwaben seit dem DFB-Pokal 1997, in dessen Finale der VfB seinerzeit ebenfalls gegen Cottbus gewann.
+
+=== Abstiegskampf ===
+[[Datei:Berlin Olympiastadion during footballmatch hertha bsc berlin vs borussia dortmund 02 20070421.jpg|mini|Szene vom Spiel zwischen Hertha BSC und Borussia Dortmund am 21. April 2007]]
+[[Datei:FreistossDSC-VfL.jpg|mini|Partie Arminia Bielefeld – VfL Bochum am 18. Februar 2007]]
+Mit Ausnahme der Mannschaften von [[Bayer 04 Leverkusen]] und vom [[1. FC Nürnberg]], die bis zum Ende der Saison um den fünften Platz kämpften, steckten die anderen zwölf Mannschaften der Liga bis wenige Spieltage vor Schluss im Abstiegskampf, was in dieser Konstellation bisher einmalig war. Dabei war allen Mannschaften gemein, dass sie sowohl längere Schwächephasen als auch Erfolgsserien hatten; abgesehen von [[Borussia Mönchengladbach]], das zwar mit vier Heimsiegen in die Saison gestartet, bis zur Winterpause aber in die Niederungen der Tabelle abgerutscht war und dem [[1. FSV Mainz 05|FSV Mainz 05]], der vom 9. bis zum 21. Spieltag in der Abstiegszone verweilte, befand sich kein Verein über längere Zeiträume auf einem Abstiegsplatz.
+
+In die Hinrunde startete [[Hannover 96]] zunächst mit null Punkten aus den ersten drei Spielen und dem ersten Trainerwechsel von [[Peter Neururer]] zu [[Dieter Hecking]] schwach, konnte sich später aber ins Mittelfeld der Liga absetzen. Dafür blieben vor allem Mainz 05 und der [[Hamburger SV]] weit unter ihren Möglichkeiten, die jeweils nur einen Sieg verbuchten und abgeschlagen auf den letzten beiden Plätzen überwinterten. Da beide Mannschaften (der Hamburger SV mit dem neuen Trainer [[Huub Stevens]]) jedoch mit Siegesserien in die Rückrunde starteten, entwickelte sich schnell eine der spannendsten Abstiegsentscheidungen in der Geschichte der Bundesliga. [[Borussia Dortmund]] und [[Arminia Bielefeld]] rettete beispielsweise erst der zweite Trainerwechsel der Saison – in Dortmund waren zunächst [[Bert van Marwijk]] und [[Jürgen Röber]] gescheitert, so dass der zuvor vom Hamburger SV entlassene [[Thomas Doll]] das Team vor dem Abstieg retten musste, bei der Arminia richtete es nach dem Absturz auf einen Abstiegsplatz unter [[Thomas von Heesen]] und [[Frank Geideck]] erst der Bielefelder „Jahrhunderttrainer“ [[Ernst Middendorp]].
+
+Souverän sicherten sich die beiden Aufsteiger vom [[VfL Bochum]] und [[Energie Cottbus]] den Klassenerhalt; beide spielten vor allem auswärts überraschend stark und verfügten zudem mit [[Theofanis Gekas]] bzw. [[Sergiu Radu]] über ebenso preiswerte wie erfolgreiche Stürmer. Der dritte Aufsteiger aus [[Alemannia Aachen|Aachen]] musste dagegen absteigen; nachdem die Mannschaft nach dem 26. Spieltag mit 33 Punkten bereits gerettet schien, holte sie aus den letzten acht Partien nur noch einen Punkt. Auch Mainz 05 konnte zum Saisonende nicht mehr zulegen und stieg nach drei Jahren Bundesliga-Zugehörigkeit in die zweite Liga ab. Der Hamburger SV zog nach einer starken Rückrunde (in der Rückrundentabelle Zweiter hinter dem Meister aus Stuttgart) noch in den internationalen Wettbewerb ein und qualifizierte sich über den [[UI-Cup]] für den [[UEFA-Pokal]].
+
+== Statistik ==
+=== Abschlusstabelle ===
+[[Datei:1.Fussball-Bundesliga Deutschland 2006-07.png|mini|360px|Teilnehmende Vereine im Überblick]]
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=21 |U= 7 |N= 6 |ET=61 |GT=37 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=21 |U= 5 |N= 8 |ET=53 |GT=32 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=20 |U= 6 |N= 8 |ET=76 |GT=40 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 4 |S=18 |U= 6 |N=10 |ET=55 |GT=40 |Verein=[[FC Bayern München]] (M, P) }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=15 |U= 6 |N=13 |ET=54 |GT=49 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=b4cdcd |Rang= 6 |S=11 |U=15 |N= 8 |ET=43 |GT=32 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=10 |U=15 |N= 9 |ET=43 |GT=37 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=13 |U= 6 |N=15 |ET=49 |GT=50 |Verein=[[VfL Bochum]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=12 |U= 8 |N=14 |ET=41 |GT=43 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=12 |U= 8 |N=14 |ET=50 |GT=55 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=12 |U= 8 |N=14 |ET=41 |GT=50 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=11 |U= 9 |N=14 |ET=47 |GT=49 |Verein=[[Arminia Bielefeld]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=11 |U= 8 |N=15 |ET=38 |GT=49 |Verein=[[Energie Cottbus]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 9 |U=13 |N=12 |ET=46 |GT=58 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 8 |U=13 |N=13 |ET=37 |GT=45 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U=10 |N=16 |ET=34 |GT=57 |Verein=[[1. FSV Mainz 05]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 9 |U= 7 |N=18 |ET=46 |GT=70 |Verein=[[Alemannia Aachen]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 6 |U= 8 |N=20 |ET=23 |GT=44 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 2007/08]]: VfB Stuttgart}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League 2007/08: FC Schalke 04}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation 2007/08: Werder Bremen}}
+{{Farblegende|#b4cdcd|[[DFB-Pokal 2006/07|DFB-Pokal-Sieger]] und Teilnahme am [[UEFA-Pokal 2007/08]]: 1. FC Nürnberg}}
+{{Farblegende|#ffdac2|Teilnahme am UEFA-Pokal 2007/08: FC Bayern München, Bayer 04 Leverkusen}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 2007|UI-Cup 2007]]: Hamburger SV}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2007/08|2. Bundesliga 2007/08]]: 1. FSV Mainz 05, Alemannia Aachen, Borussia Mönchengladbach}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2005/06|2005/06]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2005/06|2005/06]]
+|-
+| (N) || Aufsteiger aus der 2. Bundesliga [[2. Fußball-Bundesliga 2005/06|2005/06]]
+|}
+
+=== Tabellenverlauf ===
+[[Datei:Platzierungen Bundesliga 2006-2007.svg|600px]]
+=== Kreuztabelle ===
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der oberen Reihe.
+
+{| class="wikitable" style="text-align: center;"
+|colspan="2" width="200" | '''2006/07'''
+|[[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+|[[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+|[[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+|[[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+|[[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+|[[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+|[[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+|[[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+|[[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+|[[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+|[[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+|[[Datei:Arminia Bielefeld Logo 1998–2008.svg|22px|Arminia Bielefeld]]
+|[[Datei:Logo Energie Cottbus.svg|22px|FC Energie Cottbus]]
+|[[Datei:Logo Eintracht Frankfurt 1998.svg|22px|Eintracht Frankfurt]]
+|[[Datei:VfL Wolfsburg Logo.svg|22px|VfL Wolfsburg]]
+|[[Datei:FSV Mainz 05 Logo.svg|22px|FSV Mainz 05]]
+|[[Datei:Logo Alemannia Aachen.svg|22px|Alemannia Aachen]]
+|[[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+|-
+| {{0}}1. || align="left" |[[VfB Stuttgart]]|| bgcolor="#DCDCDC" | || 3:0 || 4:1 || 2:0 || 3:0 || 0:3 || 2:0 || 1:0 || 1:3 || 0:0 || 2:1 || 3:2 || 2:1 || 1:1 || 0:0 || 2:0 || 3:1 || 1:0
+|-
+| {{0}}2. ||align="left" | [[FC Schalke 04]] || 1:0|| bgcolor="#DCDCDC" | || 2:0 || 2:2 || 0:1 || 1:0 || 0:2 || 2:1 || 3:1 || 2:0 || 2:1 || 2:1 || 2:0 || 1:1 || 2:0 || 4:0 || 2:1 || 2:0
+|-
+| {{0}}3. ||align="left" | [[Werder Bremen]] || 2:3 || 0:2|| bgcolor="#DCDCDC" | || 3:1 || 2:1 || 1:0 || 0:2 || 3:0 || 1:3 || 3:1 || 3:0 || 3:0 || 1:1 || 1:2 || 2:1 || 2:0 || 3:1 || 3:0
+|-
+| {{0}}4. ||align="left" | [[FC Bayern München]] || 2:1 || 2:0 || 1:1|| bgcolor="#DCDCDC" | || 2:1 || 0:0 || 1:2 || 0:0 || 2:0 || 4:2 || 0:1 || 1:0 || 2:1 || 2:0 || 2:1 || 5:2 || 2:1 || 1:1
+|-
+| {{0}}5. ||align="left" | [[Bayer 04 Leverkusen]] || 3:1 || 3:1 || 0:2 || 2:3|| bgcolor="#DCDCDC" | || 2:0 || 1:2 || 1:4 || 2:1 || 2:1 || 0:1 || 1:2 || 3:1 || 2:2 || 1:1 || 1:1 || 3:0 || 1:0
+|-
+| {{0}}6. ||align="left" | [[1. FC Nürnberg]] || 4:1 || 0:0 || 1:2 || 3:0 || 3:2|| bgcolor="#DCDCDC" | || 0:2 || 1:1 || 1:1 || 2:1 || 3:1 || 1:1 || 1:0 || 2:2 || 1:1 || 1:1 || 1:0 || 1:0
+|-
+| {{0}}7. ||align="left" | [[Hamburger SV]] || 2:4 || 1:2 || 1:1 || 1:2 || 0:0 || 0:0|| bgcolor="#DCDCDC" | || 0:3 || 3:0 || 1:1 || 0:0 || 1:1 || 1:1 || 3:1 || 1:0 || 2:2 || 4:0 || 1:1
+|-
+| {{0}}8. ||align="left" | [[VfL Bochum]] || 2:3 || 2:1 || 0:6 || 1:2 || 1:3 || 0:2 || 2:1|| bgcolor="#DCDCDC" | || 2:0 || 1:3 || 2:0 || 2:1 || 0:1 || 4:3 || 0:1 || 0:1 || 2:2 || 2:0
+|-
+| {{0}}9. ||align="left" | [[Borussia Dortmund]] || 0:1 || 2:0 || 0:2 || 3:2 || 1:2 || 0:0 || 1:0 || 1:1|| bgcolor="#DCDCDC" | || 1:2 || 2:2 || 1:1 || 2:3 || 2:0 || 1:0 || 1:1 || 0:0 || 1:0
+|-
+| 10. ||align="left" | [[Hertha BSC]] || 2:2 || 2:0 || 1:4 || 2:3 || 2:3 || 2:1 || 2:1 || 3:3 || 0:1|| bgcolor="#DCDCDC" | || 4:0 || 1:1 || 0:1 || 1:0 || 2:1 || 1:2 || 2:1 || 2:1
+|-
+| 11. ||align="left" | [[Hannover 96]] || 1:2 || 1:1 || 2:4 || 1:2 || 1:1 || 0:3 || 0:0 || 0:2 || 4:2 || 5:0|| bgcolor="#DCDCDC" | || 1:1 || 2:0 || 1:1 || 2:2 || 1:0 || 0:3 || 1:0
+|-
+| 12. ||align="left" | [[Arminia Bielefeld]] || 2:3 || 0:1 || 3:2 || 2:1 || 0:0 || 3:2 || 1:1 || 1:3 || 1:0 || 2:2 || 3:1|| bgcolor="#DCDCDC" | || 3:1 || 2:4 || 0:0 || 1:0 || 5:1 || 0:2
+|-
+| 13. ||align="left" | [[Energie Cottbus]] || 0:0 || 2:4 || 0:0 || 0:3 || 2:1 || 1:1 || 2:2 || 0:0 || 2:3 || 2:0 || 0:1 || 2:1|| bgcolor="#DCDCDC" | || 0:1 || 3:2 || 2:0 || 0:2 || 3:1
+|-
+| 14. ||align="left" | [[Eintracht Frankfurt]] || 0:4 || 1:3 || 2:6 || 1:0 || 3:1 || 2:2 || 2:2 || 0:3 || 1:1 || 1:2 || 2:0 || 0:3 || 1:3|| bgcolor="#DCDCDC" | || 0:0 || 0:0 || 4:0 || 1:0
+|-
+| 15. ||align="left" | [[VfL Wolfsburg]] || 1:1 || 2:2 || 0:2 || 1:0 || 3:2 || 1:1 || 1:0 || 3:1 || 0:2 || 0:0 || 1:2 || 2:3 || 0:0 || 2:2|| bgcolor="#DCDCDC" | || 3:2 || 1:2 || 1:0
+|-
+| 16. ||align="left" | [[1. FSV Mainz 05]] || 0:0 || 0:3|| 1:6 || 0:4 || 1:3 || 2:1 || 0:0 || 2:1 || 1:0 || 1:1 || 1:2 || 1:0 || 4:1 || 1:1 || 1:2|| bgcolor="#DCDCDC" | || 1:3 || 3:0
+|-
+| 17. ||align="left" | [[Alemannia Aachen]] || 2:4 || 0:1 || 2:2 || 1:0 || 2:3 || 1:1 || 3:3 || 2:1 || 1:4 || 0:4 || 1:4 || 2:0 || 1:2 || 2:3 || 2:2 || 2:1|| bgcolor="#DCDCDC" | || 4:2
+|-
+| 18. || align="left" | [[Borussia Mönchengladbach]] || 0:1 || 0:2 || 2:2 || 1:1 || 0:2 || 0:0 || 0:1 || 0:2 || 1:0 || 3:1 || 0:1 || 1:0 || 2:0 || 1:1 || 3:1 || 1:1 || 0:0|| bgcolor="#DCDCDC" |
+|}
+
+=== Torschützenliste ===
+Ebenso überraschend wie der Meisterschaftserfolg des VfB Stuttgart war der Gewinn der Torjägerkanone des griechischen Stürmers Theofanis Gekas, der erst während der laufenden Saison von [[Panathinaikos Athen (Fußball)|Panathinaikos Athen]] zum [[VfL Bochum]] wechselte und dort auf Anhieb Fuß in der Bundesliga fasste. Hinter Gekas wurden der Schweizer Alexander Frei von [[Borussia Dortmund]] und Roy Makaay vom [[FC Bayern München]] mit jeweils 16 Treffern Zweiter in der Torschützenliste; beide waren jedoch bereits in großen europäischen Ligen Torschützenkönig geworden, Frei 2005 in Frankreich und Makaay 2003 in Spanien.
+[[Datei:Gekas.jpg|mini|Theofanis Gekas]]
+{| class="wikitable" style="width:400px;"
+! !! Nat. !! Spieler!! Verein!! Tore
+|-
+|1|| {{GRC|#}}||[[Theofanis Gekas]]||VfL Bochum||align="center"| 20
+|-
+|rowspan="2"| 2|| {{CHE|#}}||[[Alexander Frei (Fussballspieler)|Alexander Frei]]||Borussia Dortmund||rowspan="2" align="center"| 16
+|-
+| {{NLD|#}}||[[Roy Makaay]]||FC Bayern München
+|-
+|4|| {{DEU|#}}||[[Kevin Kurányi]]||FC Schalke 04|| align="center"|15
+|-
+|rowspan="4"| 5|| {{DEU|#}}||[[Mario Gómez]]||VfB Stuttgart||rowspan="4" align="center"| 14
+|-
+| {{SRB-2004|#}}||[[Marko Pantelić]]||Hertha BSC
+|-
+| {{ROU|#}}||[[Sergiu Radu]]||Energie Cottbus
+|-
+| {{EGY|#}}||[[Mohamed Zidan]]||FSV Mainz 05
+|-
+|rowspan="3"| 9|| {{BRA|#}}||[[Cacau]]||VfB Stuttgart||rowspan="3"  align="center"| 13
+|-
+| {{BRA|#}}||[[Diego Ribas da Cunha|Diego]]||Werder Bremen
+|-
+| {{DEU|#}}||[[Miroslav Klose]]||Werder Bremen
+|}
+
+== Zuschauerschnitt ==
+Der Zuschauerschnitt in der Saison 2006/07 betrug 39.957 Zuschauer, der zweitbeste Wert der Bundesligageschichte nach 2005/06. Zuschauerkrösus war auch in dieser Saison wieder Borussia Dortmund (72.652 Zuschauer) vor Bayern München (68.465) und Schalke 04 (61.348). Am Ende der Rangliste befand sich Energie Cottbus mit durchschnittlich 16.070 zahlenden Gästen.<ref>weltfußball.de: [http://www.weltfussball.de/zuschauer/bundesliga-2006-2007/1/ Saisonübersicht]</ref>
+
+== Eingesetzte Schiedsrichter ==
+{| class="wikitable sortable zebra" style="text-align:center"
+! Name || Geboren || Landesverband || Anz. d.<br />Spiele || {{Gelb}} || {{Gelb-Rot}} || {{Rot}} || class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Brych, Felix" | [[Felix Brych]] || 03.08.1975 || [[Bayerischer Fußball-Verband|Bayern]] || 18 || 62 || 4 || 0 || style="text-align:left" |FIFA-Schiedsrichter ab 2007
+|-
+| style="text-align:left" data-sort-value="Drees, Jochen" | [[Jochen Drees]] || 15.03.1970 || [[Südwestdeutscher Fußballverband|Südwest]] || 10 || 35 || 1 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || 09.03.1964 || [[Fußballverband Rheinland|Rheinland]] || 22 || 93 || 4 || 4 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Fleischer" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || 22.03.1964 || [[Bayerischer Fußball-Verband|Bayern]] || 17 || 64 || 2 || 0 || style="text-align:left" |FIFA-Schiedsrichter bis Ende 2006
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || 09.06.1968 || [[Bremer Fußball-Verband|Bremen]] || 18 || 59 || 3 || 5 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Gräfe, Manuel" | [[Manuel Gräfe]] || 21.09.1973 || [[Berliner Fußball-Verband|Berlin]] || 17 || 82 || 2 || 4 || style="text-align:left" |FIFA-Schiedsrichter ab 2007
+|-
+| style="text-align:left" data-sort-value="Kempter, Michael" | [[Michael Kempter]] || 28.01.1983 || [[Südbadischer Fußballverband|Südbaden]] || 6 || 27 || 1 || 2 || style="text-align:left" |Neuling
+|-
+| style="text-align:left" data-sort-value="Kinhöfer, Thorsten" | [[Thorsten Kinhöfer]] || 27.06.1968 || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 17 || 78 || 4 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kircher, Knut" | [[Knut Kircher]] || 02.02.1969 || [[Württembergischer Fußballverband|Württemberg]] || 21 || 77 || 0 || 2 || style="text-align:left" | FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || 15.03.1962 || [[Südwestdeutscher Fußballverband|Südwest]] || 24 || 61 || 0 || 0 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || 21.11.1968 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 20 || 67 || 3 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Perl, Günter" | [[Günter Perl]] || 23.12.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 16 || 44 || 0 || 2 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Rafati, Babak" | [[Babak Rafati]] || 28.05.1970 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 14 || 52 || 1 || 0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Schmidt, Markus" | [[Markus Schmidt (Schiedsrichter)|Markus Schmidt]] || 31.08.1973 || [[Württembergischer Fußballverband|Württemberg]] || 7 || 33 || 0 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Seemann, Marc" | [[Marc Seemann]] || 20.04.1973 || [[Fußballverband Niederrhein|Niederrhein]] || {{0}}6 || 19 || 0 || 2 || style="text-align:left" | Neuling
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || 06.10.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 16 || 44 || 0 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || 20.11.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 21 || 88 || 0 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|- "
+| style="text-align:left" data-sort-value="Wack, Franz-Xaver" | [[Franz-Xaver Wack]] || 05.03.1965 || [[Bayerischer Fußball-Verband|Bayern]] || 6 || 28 || 1 || 0 || style="text-align:left" |FIFA-Schiedsrichter bis Ende 2006, kam wegen einer Verletzung nur auf wenig Einsätze<br />letzte Bundesligasaison
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || 27.05.1963 || [[Hessischer Fußball-Verband|Hessen]] || 13 || 37 || 2 || 4 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || 21.03.1969 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 17 || 81 || 0 || 1 || style="text-align:left" | FIFA-Schiedsrichter
+|}
+
+== Die Meistermannschaft des VfB Stuttgart ==
+{| class="wikitable" style="width:700px; text-align: center; background-color:#FFFFFF"
+| width="75" |<span style="color:#FF0000;"> '''1.''' </span>|| width="625" |<span style="color:#FF0000;"> '''VfB Stuttgart''' </span>
+|-
+|[[Datei:VfB Stuttgart Logo.svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Timo Hildebrand]] (33/-); [[Michael Langer (Fußballspieler)|Michael Langer]] (1/-); [[Dirk Heinen]] (-/-)
+* '''Abwehr''': [[Matthieu Delpierre]] (33/-); [[Ricardo Osorio]] (27/1); [[Serdar Taşçı]] (26/2); [[Ludovic Magnin]] (22/1); [[Fernando Meira]] {{Kapitän}} (20/3); [[Arthur Boka]] (19/1); [[Andreas Beck (Fußballspieler)|Andreas Beck]] (4/-); [[Markus Babbel]] (2/-)
+* '''Mittelfeld''': [[Roberto Hilbert]] (34/7); [[Pável Pardo]] (33/1); [[Thomas Hitzlsperger]] (30/7); [[Antônio da Silva]] (28/-); [[Sami Khedira]] (22/4); [[Christian Gentner]] (15/-); [[Daniel Bierofka]] (12/-)
+* '''Angriff''': [[Cacau]] (32/13); [[Marco Streller]] (27/5); [[Mario Gómez]] (25/14); [[Benjamin Lauth]] (11/1); [[Alexander Farnerud]] (9/-)
+* '''Trainer''': [[Armin Veh]]
+|}
+''* [[Jon Dahl Tomasson]] (4/-), [[Silvio Meißner]] (1/-) und [[Bernd Nehrig]] (1/-) haben den Verein während der Saison verlassen.''
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2006/2007|Fußball-Bundesliga 2006/07}}
+* {{Webarchiv | url=http://www.dfb.de/index.php?id=502040 | wayback=20130522184109 | text= Seite des DFB zur Saison 2006/07}}
+* [http://www.bundesliga.de/ Offizielle Internetpräsenz der Bundesliga]
+
+== Anmerkungen und Quellen ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2007
+|Navigationsleiste Fußballsaison 2006/07 (Deutschland)
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2006-07}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2006/07]]
+[[Kategorie:Fußballsaison 2006/07]]

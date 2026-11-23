@@ -151,6 +151,34 @@ def antigo() -> None:
             arq.write_text(txt, encoding="utf-8")
         print(f"wiki {t}: {len(txt or '')}", flush=True)
 
+def wikide() -> None:
+    """Wikipédia em alemão: artigo de cada temporada da Bundesliga ("Fußball-Bundesliga 1981/82"), para a Relegation
+    (revisão DE-012). Em data/coleta/ger-1/wikipedia-de/."""
+    from wikipedia import wikitexto
+    pasta = DADOS / "wikipedia-de"
+    pasta.mkdir(parents=True, exist_ok=True)
+    for a in TEMPORADAS:
+        t = f"Fußball-Bundesliga {a}/{str(a + 1)[-2:] if (a + 1) % 100 else a + 1}"
+        arq = pasta / f"{t.replace('/', '-')}.wiki"
+        if arq.exists():
+            continue
+        txt = wikitexto("de", t, espera=1.5)
+        if txt:
+            arq.write_text(txt, encoding="utf-8")
+        print(f"wiki de {t}: {len(txt or '')}", flush=True)
+
+
+def fichas() -> None:
+    """Ficha do ogol dos jogos com gols e sem autor (a ESPN falta ou não fecha), listados pelo importador em
+    data/coleta/ger-1/fichas_pendentes.json (revisão DE-010). Em data/cache/ogol-ger-1/fichas/."""
+    arq = DADOS / "fichas_pendentes.json"
+    if not arq.exists():
+        return
+    for oid in json.loads(arq.read_text(encoding="utf-8")):
+        d = pegar(f"https://www.ogol.com.br/jogo.php?id={oid}", CACHE / "ogol-ger-1" / "fichas" / f"{oid}.html", espera=2.0)
+        print(f"ficha ogol {oid}: {len(d or b'')} bytes", flush=True)
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1963-1990" passa a faixa de temporadas

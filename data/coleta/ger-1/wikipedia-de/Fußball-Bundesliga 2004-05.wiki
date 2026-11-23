@@ -1,0 +1,370 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 2004/05
+| Bild = [[Datei:Bundesliga Wordmark (2002-2010).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2002–2010. Es besteht aus der Schrift "Bundesliga" in zwei Zeilen. Die Schriftfarbe ist schwarz.|170px]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = [[FC Bayern München]]<br />[[FC Schalke 04]]
+| UEFA Champions League Quali = [[Werder Bremen]]
+| UEFA Cup = [[Hertha BSC]]<br />[[VfB Stuttgart]]<br />[[Bayer 04 Leverkusen]]<br />[[1. FSV Mainz 05]]
+| UI-Cup = [[Borussia Dortmund]]<br />[[Hamburger SV]]<br />[[VfL Wolfsburg]]
+| Pokal-Sieger = FC Bayern München
+| Absteiger = [[VfL Bochum]]<br />[[Hansa Rostock]]<br />[[SC Freiburg]]
+| Mannschaften = 18
+| geschossene Tore = 890
+| Zuschauer = 11.702.120
+| Spiele = 306
+| Torschützenkönig = {{SVK|Ziel=Marek Mintál}}<br />([[1. FC Nürnberg]])
+| vorherige Saison = [[Fußball-Bundesliga 2003/04|Bundesliga 2003/04]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2005/06|Bundesliga 2005/06]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2004/05|2. Bundesliga 2004/05]]
+}}
+
+{| class="float-right" style="width:280px; font-size:100%;" cellspacing="0" cellpadding="0"
+|-
+|style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:160 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew   value:rgb(0.86,0.86,0.86)
+  id:wolfs    value:rgb(0.32,0.65,0.00)
+  id:werder       value:rgb(0.17,0.64,0.64)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:2.5 shift:(20,-3)   color:pink     text:Stuttgart
+    from:4.5 till:5.5 shift:(20,-3)   color:pink     text:Stuttgart
+    from:8.5 till:9.5 shift:(20,-3)   color:pink     text:Stuttgart
+    from:2.5 till:3.5 shift:(20,-3)   color:werder      text:Bremen
+    from:5.5 till:8.5 shift:(20,-3)   color:wolfs       text:Wolfsburg
+    from:9.5 till:14.5 shift:(20,-3)  color:wolfs       text:Wolfsburg
+    from:3.5 till:4.5 shift:(20,-3)   color:black      text:Leverkusen
+    from:14.5 till:24.5 shift:(20,-3) color:red        text:Bayern München
+    from:25.5 till:34.5 shift:(20,-3) color:red        text:Bayern München
+    from:24.5 till:25.5 shift:(20,-3) color:blue       text:Schalke
+
+</timeline>
+|style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:160 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew value:rgb(0.86,0.86,0.86)
+  id:lila value:rgb(0.56,0.00,0.30)
+  id:lautern       value:rgb(0.87,0.00,0.16)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:2.5   shift:(20,-3)   color:darkblue text:Hamburg
+     from:2.5  till:3.5   shift:(20,-3)   color:lautern   text:Kaiserslautern
+     from:3.5  till:6.5 shift:(20,-3)     color:green    text:Hannover
+     from:6.5  till:7.5 shift:(20,-3)     color:blue     text:Rostock
+     from:7.5  till:8.5   shift:(20,-3)   color:darkblue text:Hamburg
+     from:8.5  till:10.5  shift:(20,-3)   color:lautern   text:Kaiserslautern
+     from:10.5  till:15.5 shift:(20,-3)   color:blue     text:Rostock
+     from:15.5  till:18.5 shift:(20,-3)   color:red     text:Freiburg
+     from:18.5  till:23.5 shift:(20,-3)   color:blue     text:Rostock
+     from:23.5  till:34.5 shift:(20,-3)   color:red     text:Freiburg
+</timeline>
+|}
+
+Tabellenerster in der '''Saison 2004/05 der [[Fußball-Bundesliga|Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]], der auch den [[DFB-Pokal 2004/05|DFB-Pokal]] und damit das [[Double (Sport)|Double]] gewann. Die Saison startete am 6. August 2004 mit dem Spiel von [[Werder Bremen]] gegen den [[FC Schalke 04]]. Kurz vor dem planmäßigen Anpfiff des Spiels kam es wegen Beschädigung einer [[Muffe]] durch einen Bagger zu einem Ausfall des Flutlichtes, weshalb die Partie erst mit mehr als einer Stunde Verspätung beginnen konnte.<ref>[https://www.welt.de/sport/article332902/Stromausfall-verzoegert-Bundesliga-Start-um-65-Minuten.html ''Stromausfall verzögert Bundesligastart''.] [[Die Welt|Welt Online]]</ref><ref>[https://www.dfb.de/news/detail/es-geschah-am-1-spieltag-der-tag-an-dem-es-dunkel-wurde-28614/ ''Es geschah am … Spieltag: Der Tag, an dem es dunkel wurde''.] dfb.de</ref> Werder Bremen gewann das Spiel 1:0. Die Saison endete am 21. Mai 2005 mit dem 34. Spieltag.
+
+== Saisonüberblick ==
+
+=== Meisterschaft und internationale Plätze ===
+Zum Saisonbeginn wechselten [[Aílton]] und [[Mladen Krstajić|Mladen Krstajc]] (beide Werder Bremen) und [[Marcelo Bordon]] (VfB Stuttgart) zum FC Schalke 04, der damit neben Rekordmeister FC Bayern München (der Weltmeister [[Lúcio]] von Bayer 04 Leverkusen verpflichtete) und Meister Werder Bremen zu den Favoriten gezählt wurde.
+
+Sowohl Bayern München als auch Schalke 04 erwischten allerdings zunächst eher durchwachsene Saisonstarts. Nach drei Niederlagen in den ersten zehn Spielen konnten sich die Bayern aber stabilisieren und am 14. Spieltag die Tabellenspitze erobern. Schalke entließ nach der 0.3-Niederlage in Wolfsburg am 4. Spieltag Neutrainer [[Jupp Heynckes]], der interimsweise durch [[Eddy Achterberg]] und schließlich durch [[Ralf Rangnick]] ersetzt wurde. Unter Rangnick konnte Schalke sechs Spiele hintereinander gewinnen (u.&nbsp;a. auch 1:0 in München), sodass sie gegen Ende der Hinrunde erstmals auf Platz 2 sprangen. Bayern wurde schließlich Herbstmeister vor den punktgleichen Schalkern. Auch vor dem direkten Duell am 25. Spieltag herrschte an der Spitze Punktgleichheit. Durch ein Freistoßtor von [[Lincoln (Fußballspieler, 1979)|Lincoln]] zum 1:0-Sieg sprang Schalke schließlich zum ersten Mal an die Spitze, verlor die Tabellenführung aber durch eine Niederlage in Mainz am nächsten Spieltag direkt wieder. Weil der FC Bayern sämtliche verbliebenen Spiele gewann und die Schalker sich eine neuerliche Schwächephase erlaubten, vergrößerte sich der Abstand schnell, sodass Bayern bereits am 31. Spieltag die Meisterschaft feiern konnte. Immerhin sicherte sich S04 noch die Vizemeisterschaft und die direkte Champions-League-Qualifikation. Zudem gab es ein Novum: Erstmals bestritten der Meister und der Vizemeister auch das Pokalendspiel. Bayern gewann dabei mit 2:1.
+
+Der Kampf um Platz 3 endete in einem spannenden Finish. Der VfB Stuttgart hatte in der Endphase meist vor Hertha BSC und Werder Bremen gelegen, konnte von den letzten sechs Spielen aber nur noch eines gewinnen. Da nicht nur die Stuttgarter (1:3 gegen Bayern), sondern auch die Berliner im letzten Spiel patzten, konnte Bremen mit einem 2.1-Sieg in Kaiserslautern schließlich noch auf einen Champions-League-Platz springen. Den verbliebenen dritten UEFA-Cup-Rang (diesen gab es aufgrund der Paarung im DFB-Pokal-Finale) verteidigte Bayer Leverkusen gegen den Hamburger SV und Borussia Dortmund. Die Dortmunder hatten eine turbulente Saison mit sportlichen und wirtschaftlichen Schwierigkeiten (die zum Sturz von Präsident [[Gerd Niebaum]] und Manager [[Michael Meier (Fußballfunktionär)|Michael Meier]] führten), dank einer starken Rückrunde noch einigermaßen versöhnlich beenden können. Hinter Dortmund und Hamburg platzierte sich der VfL Wolfsburg, der in einer starken Hinserie lange Zeit sogar die Tabellenführung innehatte, zum Jahresstart aber auf die [[UEFA Intertoto Cup|UI-Cup]]-Plätze fiel.
+
+=== Abstieg ===
+Allen drei Aufsteigern gelang der Klassenerhalt. Zudem fielen im Abstiegskampf sämtliche Entscheidungen ungewöhnlich früh. Schon zur Saisonhälfte lagen der SC Freiburg, Hansa Rostock und der VfL Bochum auf den drei letzten Plätzen. Der SC Freiburg verlor den Anschluss schnell und wies am Ende mit 18 Punkten (3 Siege, 9 Unentschieden, 22 Niederlagen) die schlechteste Bilanz seit Einführung der 3-Punkte-Regel 1995 vor, bis ihn der FC Schalke 04 in der [[Fußball-Bundesliga 2020/21|Saison 2020/21]] mit 16 Punkten unterbot (3 Siege, 7 Unentschieden, 24 Niederlagen). Der Abstieg stand am 30. Spieltag fest.
+
+Rostock hatte nach einer 0:6-Hinrundenniederlage gegen den Hamburger SV [[Jörg Berger]] als neuen Trainer geholt, während Bochum an [[Peter Neururer]], der den VfL in der Vorsaison noch in den UEFA-Cup geführt hatte, festhielt. Beide Teams konnten im Laufe der Rückrunde den Anschluss zu den Nicht-Abstiegsplätzen halten, die von Mönchengladbach, Liga-Neuling Mainz 05 und dem 1. FC Nürnberg belegt wurden. Allerdings gelang es nicht mehr, eine echte Siegesserie zu starten. Bochum verlor dabei die direkten Duelle gegen Mainz (2:6) und Nürnberg (1:2). Am 32. Spieltag war der jeweilige Abstieg praktisch sicher. Mit Hansa Rostock stieg der letzte verbliebene ostdeutsche Verein nach zehn Jahren aus der Bundesliga ab.
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 2004-05.png|mini|360px|Teilnehmende Vereine im Überblick]]
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=24 |U= 5 |N= 5 |ET=75 |GT=33 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=20 |U= 3 |N=11 |ET=56 |GT=46 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=18 |U= 5 |N=11 |ET=68 |GT=37 |Verein=[[Werder Bremen]] (M, P) }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 4 |S=15 |U=13 |N= 6 |ET=59 |GT=31 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=17 |U= 7 |N=10 |ET=54 |GT=40 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 6 |S=16 |U= 9 |N= 9 |ET=65 |GT=44 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=15 |U=10 |N= 9 |ET=47 |GT=44 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 8 |S=16 |U= 3 |N=15 |ET=55 |GT=50 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 9 |S=15 |U= 3 |N=16 |ET=49 |GT=51 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=13 |U= 6 |N=15 |ET=34 |GT=36 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang=11 |S=12 |U= 7 |N=15 |ET=50 |GT=55 |Verein=[[1. FSV Mainz 05]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=12 |U= 6 |N=16 |ET=43 |GT=52 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=11 |U= 7 |N=16 |ET=37 |GT=49 |Verein=[[Arminia Bielefeld]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=10 |U= 8 |N=16 |ET=55 |GT=63 |Verein=[[1. FC Nürnberg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 8 |U=12 |N=14 |ET=35 |GT=51 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 9 |U= 8 |N=17 |ET=47 |GT=68 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 7 |U= 9 |N=18 |ET=31 |GT=65 |Verein=[[Hansa Rostock]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 3 |U= 9 |N=22 |ET=30 |GT=75 |Verein=[[SC Freiburg]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister, [[DFB-Pokal 2004/05|DFB-Pokal-Sieger]] und Teilnahme an der [[UEFA Champions League 2005/06]]: FC Bayern München}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League 2005/06: FC Schalke 04}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation 2005/06: Werder Bremen}}
+{{Farblegende|#ffdac2|Teilnahme am [[UEFA-Pokal 2005/06]]: Hertha BSC, VfB Stuttgart, Bayer 04 Leverkusen, 1. FSV Mainz 05 ([[Fair-Play-Wertung]])}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 2005|UI-Cup 2005]]: Borussia Dortmund, Hamburger SV, VfL Wolfsburg}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2005/06|2. Bundesliga 2005/06]]: SC Freiburg, Hansa Rostock, VfL Bochum}}
+{| 
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2003/04|2003/04]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2003/04|2003/04]]
+|-
+| (N) || Aufsteiger aus der 2. Bundesliga [[2. Fußball-Bundesliga 2003/04|2003/04]]
+|}
+
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 2004-05.svg|700px]]
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+|colspan="2" width="200" | '''2004/05'''
+| [[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+| [[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+| [[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+| [[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+| [[Datei:Hamburger SV logo.svg|22px|Hamburger SV]]
+| [[Datei:VfL Wolfsburg Logo.svg|22px|VfL Wolfsburg]]
+| [[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+| [[Datei:FSV Mainz 05 Logo.svg|22px|FSV Mainz 05]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:Arminia Bielefeld Logo 1998–2008.svg|22px|Arminia Bielefeld]]
+| [[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+| [[Datei:Borussia Mönchengladbach logo.svg|20px|Borussia Mönchengladbach]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:FC Hansa Rostock Logo.svg|22px|Hansa Rostock]]
+| [[Datei:SC Freiburg Logo.svg|22px|Sc Freiburg]]
+|-
+| {{0}}1. ||style="text-align:left"| [[FC Bayern München]] ||style="background:#DCDCDC"| || 0:1 || 1:0 || 1:1 || 2:2 || 2:0 || 5:0 || 3:0 || 2:0 || 3:0 || 4:2 || 3:1 || 1:0 || 6:3 || 2:1 || 3:1 || 3:1 || 3:1
+|-
+| {{0}}2. ||style="text-align:left"| [[FC Schalke 04]] || 1:0 ||style="background:#DCDCDC"| || 2:1 || 1:3 || 3:2 || 3:3 || 1:2 || 1:2 || 3:0 || 1:0 || 2:1 || 2:1 || 2:1 || 4:1 || 3:2 || 3:2 || 0:2 || 1:1
+|-
+| {{0}}3. ||style="text-align:left"| [[Werder Bremen]] || 1:2 || 1:0 ||style="background:#DCDCDC"| || 0:1 || 1:2 || 2:2 || 2:0 || 1:1 || 1:2 || 3:0 || 0:0 || 1:1 || 3:0 || 4:1 || 2:0 || 4:0 || 3:2 || 4:1
+|-
+| {{0}}4. ||style="text-align:left"| [[Hertha BSC]] || 0:0 || 4:1 || 1:1 ||style="background:#DCDCDC"| || 0:0 || 3:1 || 0:1 || 4:1 || 3:1 || 0:0 || 1:1 || 1:1 || 3:0 || 2:1 || 6:0 || 2:2 || 1:1 || 3:1
+|-
+| {{0}}5. ||style="text-align:left"| [[VfB Stuttgart]] || 1:3 || 3:0 || 1:2 || 1:0 ||style="background:#DCDCDC"| || 3:0 || 2:0 || 2:0 || 0:0 || 1:0 || 4:2 || 1:1 || 2:1 || 2:4 || 1:0 || 5:2 || 4:0 || 1:0
+|-
+| {{0}}6. ||style="text-align:left"| [[Bayer 04 Leverkusen]] || 4:1 || 0:3 || 2:1 || 3:3 || 1:1 ||style="background:#DCDCDC"| || 0:1 || 3:0 || 2:1 || 2:1 || 2:0 || 2:0 || 3:2 || 2:2 || 5:1 || 4:0 || 3:0 || 4:1
+|-
+| {{0}}7. ||style="text-align:left"| [[Borussia Dortmund]] || 2:2 || 0:1 || 1:0 || 2:1 || 0:2 || 1:0 ||style="background:#DCDCDC"| || 0:2 || 1:2 || 1:1 || 3:0 || 4:2 || 1:1 || 2:2 || 1:1 || 1:0 || 2:1 || 2:0
+|-
+| {{0}}8. ||style="text-align:left"| [[Hamburger SV]] || 0:2 || 1:2 || 1:2 || 2:1 || 2:1 || 1:0 || 2:3 ||style="background:#DCDCDC"| || 3:1 || 0:2 || 2:1 || 2:1 || 0:2 || 4:3 || 0:0 || 0:1 || 3:0 || 4:0
+|-
+| {{0}}9. ||style="text-align:left"| [[VfL Wolfsburg]] || 0:3 || 3:0 || 2:3 || 2:3 || 3:0 || 2:2 || 1:2 || 1:0 ||style="background:#DCDCDC"| || 1:0 || 4:3 || 2:1 || 5:0 || 0:1 || 2:1 || 3:0 || 4:0 || 0:1
+|-
+| 10. ||style="text-align:left"| [[Hannover 96]] || 0:1 || 1:0 || 1:4 || 0:1 || 0:0 || 0:3 || 1:3 || 2:1 || 3:0 ||style="background:#DCDCDC"| || 2:0 || 3:1 || 0:1 || 1:0 || 2:1 || 3:0 || 0:1 || 2:2
+|-
+| 11. ||style="text-align:left"| [[1. FSV Mainz 05]] || 2:4 || 2:1 || 2:1 || 0:3 || 2:3 || 2:0 || 1:1 || 2:1 || 0:2 || 2:0 ||style="background:#DCDCDC"| || 3:2 || 0:0 || 0:1 || 1:1 || 1:0 || 3:1 || 5:0
+|-
+| 12. ||style="text-align:left"| [[1. FC Kaiserslautern]] || 0:4 || 2:0 || 1:2 || 0:2 || 2:3 || 0:0 || 1:0 || 2:1 || 0:0 || 0:2 || 2:0 ||style="background:#DCDCDC"| || 2:1 || 1:3 || 1:0 || 1:2 || 2:1 || 3:0
+|-
+| 13. ||style="text-align:left"| [[Arminia Bielefeld]] || 3:1 || 0:2 || 2:1 || 1:0 || 0:2 || 1:0 || 1:0 || 3:4 || 1:2 || 0:1 || 1:1 || 0:2 ||style="background:#DCDCDC"| || 3:1 || 0:0 || 1:2 || 1:1 || 3:1
+|-
+| 14. ||style="text-align:left"| [[1. FC Nürnberg]] || 2:2 || 0:2 || 1:2 || 0:0 || 1:1 || 2:4 || 2:2 || 1:3 || 4:0 || 1:1 || 1:2 || 1:3 || 1:2 ||style="background:#DCDCDC"| || 0:0 || 2:1 || 3:0 || 3:0
+|-
+| 15. ||style="text-align:left"| [[Borussia Mönchengladbach]] || 2:0 || 1:3 || 3:1 || 0:0 || 2:0 || 1:1 || 2:3 || 1:3 || 1:0 || 0:2 || 1:1 || 2:0 || 1:0 || 2:1 ||style="background:#DCDCDC"| || 2:2 || 2:2 || 3:2
+|-
+| 16. ||style="text-align:left"| [[VfL Bochum]] || 1:3 || 0:2 || 1:4 || 2:2 || 2:0 || 2:2 || 2:2 || 1:2 || 5:1 || 1:0 || 2:6 || 1:1 || 1:1 || 3:1 || 3:0 ||style="background:#DCDCDC"| || 0:1 || 3:1
+|-
+| 17. ||style="text-align:left"| [[Hansa Rostock]] || 0:2 || 2:2 || 0:4 || 2:1 || 2:1 || 0:2 || 1:1 || 0:6 || 1:2 || 1:3 || 2:0 || 2:3 || 1:1 || 0:2 || 0:0 || 3:1 ||style="background:#DCDCDC"| || 0:0
+|-
+| 18. ||style="text-align:left"| [[SC Freiburg]] || 0:1 || 2:3 || 0:6 || 1:3 || 2:0 || 1:3 || 2:2 || 1:1 || 1:0 || 0:0 || 1:2 || 1:2 || 2:3 || 2:3 || 1:1 || 1:1 || 0:0 ||style="background:#DCDCDC"|
+|}
+
+== Torschützenliste ==
+Der Nürnberger [[Marek Mintál]] ist der zweite Spieler, der in zwei aufeinanderfolgenden Spielzeiten Torschützenkönig der 2. Bundesliga und der Bundesliga wurde. Im Gegensatz zu [[Rudi Völler]] gelang ihm dies mit demselben Verein.
+{| class="wikitable" style="width:400px;"
+|-
+! !! Spieler!! Verein!! Tore
+|-
+|style="text-align:center"| {{0}}1.|| {{SVK|Ziel=Marek Mintál}}|| [[1. FC Nürnberg]] ||style="text-align:center"| 24
+|-
+|style="text-align:center"| {{0}}2.|| {{NLD|Ziel=Roy Makaay}}|| [[FC Bayern München]] ||style="text-align:center"| 22
+|-
+|style="text-align:center"| {{0}}3.|| {{BGR|Ziel=Dimitar Berbatow}}|| [[Bayer 04 Leverkusen]] ||style="text-align:center"| 20
+|-
+|style="text-align:center"| {{0}}4.|| {{BRA|Ziel=Marcelinho}}|| [[Hertha BSC]] ||style="text-align:center"| 18
+|-
+|rowspan="4" style="text-align:center"| {{0}}5.|| {{ZAF|Ziel=Delron Buckley}}|| [[Arminia Bielefeld]] ||rowspan="4" style="text-align:center"| 15
+|-
+| {{DEU|Ziel=Miroslav Klose}}|| [[Werder Bremen]]
+|-
+| {{CZE|Ziel=Jan Koller}}|| [[Borussia Dortmund]]
+|-
+| {{UKR|Ziel=Andrij Woronin}}|| [[Bayer 04 Leverkusen]]
+|-
+|style="text-align:center"| {{0}}9.|| {{BRA|Ziel=Aílton}}|| [[FC Schalke 04]] ||style="text-align:center"| 14
+|-
+|rowspan="2" style="text-align:center"| 10.|| {{DEU|Ziel=Michael Ballack}}|| [[FC Bayern München]] ||rowspan="2" style="text-align:center"| 13
+|-
+| {{DEU|Ziel=Kevin Kurányi}}|| [[VfB Stuttgart]]
+|}
+
+== Die Meistermannschaft des FC Bayern München ==
+{| class="wikitable" style="width: 700px; text-align: center;"
+|- style="background:#FF0000"
+|style="color:#FFFFFF;" width="75"| '''1.''' ||style="color:#FFFFFF;" width="625"| '''FC Bayern München''' 
+|- style="background:#FFFFFF" align="center"
+| [[Datei:Logo FC Bayern München (2002–2017).svg|60px]] ||style="background:#E8E8E8; text-align:left;"|
+* '''Tor''': [[Oliver Kahn]] {{Kapitän}} (32/-); [[Michael Rensing]] (4/-)
+* '''Abwehr''': [[Lúcio]] (32/3); [[Martín Demichelis]] (23/-); [[Willy Sagnol]] (22/1); [[Robert Kovač]] (22/-); [[Bixente Lizarazu]] (13/-); [[Thomas Linke]] (11/-); [[Andreas Görlitz]] (7/-); [[Samuel Osei Kuffour|Samuel Kuffour]] (7/-); [[Tobias Rau]] (5/-)
+* '''Mittelfeld''': [[Torsten Frings]] (29/3); [[Hasan Salihamidžić]] (29/2); [[Michael Ballack]] (27/13); [[Owen Hargreaves]] (27/1); [[Bastian Schweinsteiger]] (26/3); [[Sebastian Deisler]] (23/4); [[Zé Roberto]] (22/1); [[Mehmet Scholl]] (20/3); [[Jens Jeremies]] (7/-)
+* '''Angriff''': [[Roy Makaay]] (33/22); [[Claudio Pizarro]] (23/11); [[Paolo Guerrero]] (13/6); [[Vahid Hashemian]] (9/-); [[Roque Santa Cruz]] (4/-); [[Alexander Zickler]] (1/-)
+* '''Trainer''': [[Felix Magath]]
+|}
+
+== Trainer und Funktionäre ==
+{{siehe auch|Liste der Cheftrainer in der deutschen Fußball-Bundesliga}}
+{| class="wikitable"
+! Verein !! Trainer !! Co-Trainer !! Manager !! Präsident/Vorstandschef !! Aufsichtsratschef
+|- style="background:#DDEEFF"
+![[Hertha BSC]]
+| [[Falko Götz]] || [[Andreas Thom (Fußballspieler)|Andreas Thom]] || [[Dieter Hoeneß]] || [[Bernd Schiphorst]] || [[Rupert Scholz]]
+|- style="background:#DDEEFF"
+![[Arminia Bielefeld]]
+| [[Uwe Rapolder]] (bis 11. Mai 2005)<br />[[Frank Geideck]] (ab 11. Mai 2005) || [[Frank Geideck]] (bis 11. Mai 2005) || [[Thomas von Heesen]]<br />[[Roland Kentsch]] || [[Hans-Hermann Schwick]] || [[Hans-Hermann Schwick]]
+|- style="background:#DDEEFF"
+![[VfL Bochum]]
+| [[Peter Neururer]] || [[Frank Heinemann (Fußballspieler)|Frank Heinemann]] || [[Dieter Meinhold]] || [[Dieter Meinhold]] || [[Werner Altegoer]]
+|- style="background:#DDEEFF"
+![[Werder Bremen]]
+| [[Thomas Schaaf]] || [[Karl-Heinz Kamp (Fußballspieler)|Karl-Heinz Kamp]] || [[Klaus Allofs]] || [[Jürgen L. Born]] || [[Franz Böhmert]] (bis 28. Dezember 2004)<br />[[Willi Lemke]] (ab 7. Februar 2005)
+|- style="background:#DDEEFF"
+![[Borussia Dortmund]]
+| [[Bert van Marwijk]] || [[Dick Voorn]] || [[Michael Meier (Fußballfunktionär)|Michael Meier]]<br />[[Stefan Reuter]] (bis 3. Januar 2005)<br />[[Michael Zorc]] || [[Gerd Niebaum]] (bis 14. November 2004)<br />[[Reinhard Rauball]] (ab 14. November 2004)
+| nicht besetzt
+|- style="background:#DDEEFF"
+![[SC Freiburg]]
+| [[Volker Finke]] || [[Achim Sarstedt]]|| [[Andreas Bornemann]] || [[Achim Stocker]] || nicht besetzt
+|- style="background:#DDEEFF"
+![[Hamburger SV]]
+| [[Klaus Toppmöller]] (bis 17. Oktober 2004)<br />[[Thomas Doll]] (ab 17. Oktober 2004) || [[Ralf Zumdick]] || [[Dietmar Beiersdorfer]] || [[Bernd Hoffmann]] || [[Udo Bandow]]
+|- style="background:#DDEEFF"
+![[Hannover 96]]
+| [[Ewald Lienen]] || [[Michael Frontzeck]] || [[Ilja Kaenzig]] || [[Martin Kind]] || [[Harrald Wendt]]
+|- style="background:#DDEEFF"
+![[1. FC Kaiserslautern]]
+| [[Kurt Jara]] (bis 6. April 2005)<br />[[Hans Werner Moser]] (ab 6. April 2005) || [[Manfred Linzmaier]] || [[Olaf Marschall]] || [[René C. Jäggi]] || [[Walter Ruda]]
+|- style="background:#DDEEFF"
+![[Bayer 04 Leverkusen]]
+| [[Klaus Augenthaler]] || [[Peter Hermann (Fußballspieler)|Peter Hermann]] || [[Michael Reschke]]<br />[[Rudi Völler]] (ab 18. Januar 2005) || [[Wolfgang Holzhäuser]]
+| unbekannt
+|- style="background:#DDEEFF"
+![[1. FSV Mainz 05]]
+| [[Jürgen Klopp]] || [[Željko Buvač]] || [[Christian Heidel]] || [[Harald Strutz (Sportfunktionär)|Harald Strutz]]|| nicht besetzt
+|- style="background:#DDEEFF"
+![[Borussia Mönchengladbach]]
+| [[Holger Fach]] (bis 27. Oktober 2004)<br />[[Horst Köppel]] (28. Oktober 2004 bis 2. November 2004)<br />[[Dick Advocaat]] (2. November 2004 bis 18. April 2005)<br />[[Horst Köppel]] (ab 18. April 2005)
+| Stefan Mücke<br />[[Michael Oenning]] || [[Christian Hochstätter]] (bis 21. April 2005)<br />[[Peter Pander]] (ab 21. April 2005) || [[Rolf Königs]] || [[Hermann Jansen (Politiker)|Hermann Jansen]]
+|- style="background:#DDEEFF"
+![[FC Bayern München]]
+| [[Felix Magath]] || [[Josef Eichkorn|Seppo Eichkorn]] || [[Uli Hoeneß]] || [[Karl-Heinz Rummenigge]] || [[Franz Beckenbauer]]
+|- style="background:#DDEEFF"
+![[1. FC Nürnberg]]
+| [[Wolfgang Wolf]] || [[Dieter Lieberwirth]] || [[Martin Bader]] || [[Michael A. Roth]] || [[Klaus Schramm]]
+|- style="background:#DDEEFF"
+![[Hansa Rostock]]
+| [[Juri Schlünz]] (bis 14. November 2004)<br />[[Jörg Berger]] (ab 17. November 2004) || [[Wolfgang Funkel]] (bis 14. November 2004)<br />[[Frank Engel (Fußballtrainer)|Frank Engel]] (ab 17. November 2004) || [[Herbert Maronn]] || [[Manfred Wimmer (Fußballfunktionär)|Manfred Wimmer]] || [[Horst Klinkmann]]
+|- style="background:#DDEEFF"
+![[FC Schalke 04]]
+| [[Jupp Heynckes]] (bis 15. September 2004)<br />[[Eddy Achterberg]] (15. September 2004 bis 28. September 2004)<br />[[Ralf Rangnick]] (ab 28. September 2004) || [[Eddy Achterberg]]<br />[[Mirko Slomka]] || [[Rudi Assauer]] || [[Gerhard Rehberg]] || [[Clemens Tönnies]]
+|- style="background:#DDEEFF"
+![[VfB Stuttgart]]
+| [[Matthias Sammer]] || [[Krassimir Balakow]] || [[Herbert Briem]]<br />[[Jochen Schneider (Fußballfunktionär)|Jochen Schneider]] || [[Erwin Staudt]] || [[Dieter Hundt]]
+|- style="background:#DDEEFF"
+![[VfL Wolfsburg]]
+| [[Eric Gerets]] || [[Reinhard Stumpf (Fußballspieler)|Reinhard Stumpf]] || [[Peter Pander]] (bis 24. August 2004)<br />[[Thomas Strunz]] (ab 1. Januar 2005) || unbekannt || [[Lothar Sander]]
+|}
+
+== Eingesetzte Schiedsrichter ==
+{| class="wikitable sortable zebra"
+! Name || Geboren<br /> || Landesverband<br /> || Anz. d.<br />Spiele<br /> || [[Datei:Yellow card.svg|14px]]<br /> || [[Datei:Yellow-red card.svg|18px]]<br /> || [[Datei:Red card.svg|14px]]<br /> || class="unsortable" | Anmerkung
+|-
+| style="text-align:left" {{PersonZelle|Hermann|Albrecht|k=Schiedsrichter}} || 01.09.1961 || [[Bayerischer Fußball-Verband|Bayern]] || 10 || 38 || 1 || 0 || style="text-align:left" |letzte Bundesligasaison
+|-
+| style="text-align:left" {{PersonZelle|Felix|Brych}} || 03.08.1975 || [[Bayerischer Fußball-Verband|Bayern]] || 14 || 53 || 1 || 1 || style="text-align:left" |Neuling
+|-
+| style="text-align:left" {{PersonZelle|Herbert|Fandel}} || 09.03.1964 || [[Fußballverband Rheinland|Rheinland]] || 20 || 78 || 2 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Helmut|Fleischer|k=Schiedsrichter}} || 22.03.1964 || [[Bayerischer Fußball-Verband|Bayern]] || 18 || 68 || 2 || 3 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Lutz Michael|Fröhlich}} || 02.10.1957 || [[Berliner Fußball-Verband|Berlin]] || 18 || 63 || 1 || 2 || style="text-align:left" |letzte Bundesligasaison
+|-
+| style="text-align:left" {{PersonZelle|Peter|Gagelmann}} || 09.06.1968 || [[Bremer Fußball-Verband|Bremen]] || 10 || 48 || 1 || 0 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Manuel|Gräfe}} || 21.09.1973 || [[Berliner Fußball-Verband|Berlin]] || 12 || 50 || 3 || 2 || style="text-align:left" |Neuling
+|-
+| style="text-align:left" {{PersonZelle|Jürgen|Jansen}} || 16.10.1960 || [[Fußballverband Niederrhein|Niederrhein]] || 8 || 28 || 1 || 1 || style="text-align:left" |letzte Bundesligasaison
+|-
+| style="text-align:left" {{PersonZelle|Uwe|Kemmling}} || 01.11.1960 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 8 || 19 || 2 || 2 || style="text-align:left" |letzte Bundesligasaison
+|-
+| style="text-align:left" {{PersonZelle|Jörg|Keßler}} || 24.02.1964 || [[Thüringer Fußballverband|Thüringen]] || 8 || 29 || 0 || 0 || style="text-align:left" |FIFA-Schiedsrichter<br />
+letzte Bundesligasaison
+|-
+| style="text-align:left" {{PersonZelle|Thorsten|Kinhöfer}} || 27.06.1968 || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 15 || 65 || 2 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Knut|Kircher}} || 02.02.1969 || [[Württembergischer Fußballverband|Württemberg]] || 17 || 65 || 0 || 3 || style="text-align:left" | FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Markus|Merk}} || 15.03.1962 || [[Südwestdeutscher Fußballverband|Südwest]] || 22 || 74 || 1 || 2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Florian|Meyer|k=Schiedsrichter}} || 21.11.1968 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 19 || 91 || 3 || 4 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Markus|Schmidt|k=Schiedsrichter}} || 31.08.1973 || [[Württembergischer Fußballverband|Württemberg]] || 8 || 35 || 1 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Peter|Sippel}} || 06.10.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 14 || 55 || 1 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Wolfgang|Stark}} || 20.11.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 20 || 70 || 4 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Stefan|Trautmann|k=Schiedsrichter}} || 17.03.1972 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 10 || 31 || 0 || 0 || style="text-align:left" |letzte Bundesligasaison
+|-
+| style="text-align:left" {{PersonZelle|Franz-Xaver|Wack}} || 05.03.1965 || [[Bayerischer Fußball-Verband|Bayern]] || 19 || 66 || 4 || 0 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" {{PersonZelle|Lutz|Wagner|k=Schiedsrichter}} || 27.05.1963 || [[Hessischer Fußball-Verband|Hessen]] || 18 || 56 || 0 || 3 || style="text-align:left" |
+|-
+| style="text-align:left" {{PersonZelle|Michael|Weiner}} || 21.03.1969 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 18 || 87 || 2 || 1 || style="text-align:left" | FIFA-Schiedsrichter
+|}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2004/2005|Fußball-Bundesliga 2004/05}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2005
+|Navigationsleiste Fußballsaison 2004/05 (Deutschland)
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2004-05}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2004/05]]
+[[Kategorie:Fußballsaison 2004/05]]

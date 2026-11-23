@@ -34,7 +34,10 @@ sys.path.insert(0, str(AQUI))
 import clubes_ger as clubes  # noqa: E402
 from edicoes import DADOS, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
-from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
+import notas_wiki  # noqa: E402
+import ogol_ficha  # noqa: E402
+import rsssf_gols  # noqa: E402
+from wiki_tabela import _fecha, _partes, limpar, tabelas as wiki_tabelas  # noqa: E402
 
 LONDRES = ZoneInfo("Europe/London")
 BERLIM = ZoneInfo("Europe/Berlin")   # hora local alemã
@@ -50,8 +53,47 @@ RELATORIO = RAIZ / "docs" / "coleta" / "ger-1.md"
 # placar corrigido na base: (ano, mandante, visitante) -> (gols, gols, motivo). Chaves de clubes_ger.
 CORRECOES: dict[tuple, tuple] = {}
 
-# resultado dado no tribunal: (ano, mandante, visitante) -> (gols, gols, motivo). Fica `awd`.
-TRIBUNAL: dict[tuple, tuple] = {}
+# resultado dado no tribunal: (ano, mandante, visitante) -> (gols, gols, motivo, placar de campo). Fica `awd` (revisão DE-005:
+# a base já traz o placar oficial; o de campo vem da Wikipédia de, notas da Kreuztabelle)
+TRIBUNAL: dict[tuple, tuple] = {
+    (1970, "Bor. Monchengladbach", "Werder Bremen"): (0, 2, "interrompido aos 88 minutos com a trave quebrada; a DFB deu o "
+                                                         "2-0 ao Werder", "1-1"),
+    (1976, "1. FC Kaiserslautern", "Fortuna Dusseldorf"): (0, 2, "interrompido aos 76 minutos (garrafa atirada da torcida); "
+                                                                 "a DFB deu o 2-0 ao Düsseldorf", "0-1"),
+    (1992, "Bayer 05 Uerdingen", "Eintracht Frankfurt"): (2, 0, "o Frankfurt escalou 4 estrangeiros; a DFB deu o 2-0 ao "
+                                                                "Uerdingen", "2-5"),
+    (1994, "Eintracht Frankfurt", "Bayern Munchen"): (2, 0, "o Bayern escalou 4 amadores; a DFB deu o 2-0 ao Frankfurt", "2-5"),
+    (2010, "FC St. Pauli", "FC Schalke 04"): (0, 2, "interrompido aos 88 minutos (copo atirado no assistente); a DFB manteve "
+                                                    "o 0-2", "0-2"),
+}
+
+# punição que nenhuma tabela publicada usada traz: (ano, clube) -> (pontos, motivo) (revisão DE-001)
+PUNICOES: dict[tuple, tuple] = {
+    (1971, "Arminia Bielefeld"): (-19, "perdeu todos os pontos (escândalo da Bundesliga de 1971) e foi rebaixado de ofício "
+                                       "(Wikipédia de: Abzug 19; RSSSF: stripped of all points)"),
+}
+
+# observação da edição sobre rebaixamentos fora de campo (revisão DE-006) e o 3º lugar dividido (DE-013)
+FORA_DE_CAMPO: dict[int, str] = {
+    1964: "Hertha rebaixado por perda da licença; Karlsruhe e Schalke, 15º e 16º, ficaram com a ampliação para 18 clubes",
+    1971: "Arminia Bielefeld rebaixado de ofício e sem pontos (escândalo de 1971)",
+    1979: "3º lugar dividido entre Stuttgart e Kaiserslautern (41 pontos e 75-53 de gols; não havia outro critério)",
+    1994: "Dynamo Dresden, 18º, também perdeu a licença",
+}
+
+# nome do artilheiro no formato da RSSSF -> nome de jogo (revisão DE-008: Liste der Torschützenkönige der Fußball-Bundesliga)
+NOMES_ARTILHEIRO = {
+    "AÍLTON Gonçalves da Silva": "Aílton", "Márcio AMOROSO dos Santos": "Márcio Amoroso", "Giovane Élber de Souza": "Giovane Élber",
+    "Thomas CHRISTIANSEN Tarín": "Thomas Christiansen", "Luca TONI Varchetta": "Luca Toni",
+    "GRAFITE Edinaldo Batista Libânio": "Grafite", "Mario GÓMEZ García": "Mario Gómez", "Harry Edward Kane": "Harry Kane",
+}
+
+# datas corrigidas (revisão DE-003): data/coleta/ger-1/correcoes/datas.csv (transfermarkt e RSSSF concordam). DE-004 (3
+# jogos em que só o transfermarkt discorda) fica de fora até uma terceira fonte
+CORRECOES_DIR = DADOS / "correcoes"
+DATAS: dict[str, list] = {}
+RELEGATION: dict[int, str] = {}
+FICHAS = RAIZ / "data" / "cache" / "ogol-ger-1" / "fichas"
 
 # mando trocado na base: (ano, data, mandante da base, visitante da base) -> motivo
 INVERTIDOS: dict[tuple, str] = {}
@@ -425,6 +467,80 @@ def divisione(jogos: list[dict]) -> None:
             j["fase"], j["grupo"] = "Grupos", ("Norte" if j["m"] in norte else "Centro-Sul")
 
 
+def relegation_de() -> dict[int, str]:
+    """Nota da Relegation (16º da Bundesliga x 3º da 2. Bundesliga) pela seção "Relegation" da Wikipédia de de cada temporada
+    (revisão DE-012, decisão D-04 a: só a nota na edição). Modelo {{TwoLegResult|...|time 1||agregado|time 2||ida|volta}},
+    com o vencedor em negrito."""
+    res = {}
+    for a in TEMPORADAS:
+        arq = DADOS / "wikipedia-de" / f"Fußball-Bundesliga {a}-{str(a + 1)[-2:] if (a + 1) % 100 else a + 1}.wiki"
+        if not arq.exists():
+            continue
+        txt = arq.read_text(encoding="utf-8")
+        m = re.search(r"^==+\s*Relegation\s*==+\s*$(.*?)(?=^==[^=])", txt, re.M | re.S)
+        if not m:
+            continue
+        sec = m.group(1)
+
+        def placar(s: str) -> str:
+            s = re.sub(r"\s*\(.*?\)", "", limpar(s).replace("&nbsp;", " ")).replace(":", "-").strip()
+            return re.sub(r"\s*n\.\s*V\.", " (prorrogação)", s)
+        k = sec.find("{{TwoLegResult")
+        if k >= 0:   # até 1990/91: uma linha com os dois jogos
+            corpo = sec[k + 2:_fecha(sec, k) - 2]
+            pos = [x for x in _partes(corpo)[1:] if not re.match(r"^\s*[\w ]+=", x)]
+            if len(pos) < 7:
+                continue
+            t1, agg, t2, ida, volta = pos[0], pos[2], pos[3], pos[5], pos[6]
+            venc = limpar(t1) if "'''" in t1 else limpar(t2)
+            jogos_txt = f"{limpar(t1)} x {limpar(t2)}, {placar(ida)} e {placar(volta)} (total {placar(agg)})"
+        else:   # um jogo por linha ({{OneLegResult|6=data|mandante|4=visitante|3=placar}} ou posicional) e a do total
+            linhas_j, venc = [], None
+            for mm in re.finditer(r"\{\{OneLegResult", sec):
+                partes = _partes(sec[mm.start() + 2:_fecha(sec, mm.start()) - 2])[1:]
+                nomeados = {x.split("=", 1)[0].strip(): x.split("=", 1)[1] for x in partes if re.match(r"^\s*[\w ]+=", x)}
+                pos = [x for x in partes if not re.match(r"^\s*[\w ]+=", x)]
+                if not pos:
+                    continue
+                casa = pos[0]
+                fora = nomeados.get("4") or (pos[3] if len(pos) > 3 else "")
+                res_ = nomeados.get("3") or (pos[2] if len(pos) > 2 else "")
+                if "'''" in casa or "'''" in fora:
+                    venc = limpar(casa) if "'''" in casa else limpar(fora)
+                if limpar(nomeados.get("6", "")).lower().startswith("gesamt"):
+                    continue
+                p_ = placar(res_)
+                extra = " (prorrogação)" if p_.endswith(" (prorrogação)") else ""
+                linhas_j.append(f"{limpar(casa)} {p_.replace(' (prorrogação)', '')} {limpar(fora)}{extra}")
+            if not linhas_j or not venc:
+                continue
+            jogos_txt = "; ".join(linhas_j)
+        res[a] = f"Relegation (16º da Bundesliga x 3º da 2. Bundesliga): {jogos_txt}; ficou com a vaga: {venc} (Wikipédia de)"
+    return res
+
+
+def gols_rsssf(a: int, jogos: list[dict]) -> dict[tuple, list]:
+    """Autores dos gols pela página da RSSSF da temporada (revisão DE-011): os nomes abreviados da RSSSF ("B'schweig") viram
+    clubes por votação (mesma rodada e mesmo placar, quando só um jogo serve). Só os jogos em que a soma fecha."""
+    arq = DADOS / "rsssf" / rsssf_url(a).rsplit("/", 1)[1]
+    if not arq.exists():
+        return {}
+    rs = rsssf_gols.jogos(arq)
+    votos = defaultdict(Counter)
+    for r in rs:
+        cand = [j for j in jogos if j.get("rodada") == r["rodada"] and (j["gm"], j["gv"]) == (r["gm"], r["gv"])]
+        if len(cand) == 1:
+            votos[r["nm"]][cand[0]["m"]] += 1
+            votos[r["nv"]][cand[0]["v"]] += 1
+    mapa = {k: c.most_common(1)[0][0] for k, c in votos.items()}
+    res = {}
+    for r in rs:
+        m, v = mapa.get(r["nm"]), mapa.get(r["nv"])
+        if m and v and r["gols"]:
+            res[(m, v)] = (r["gm"], r["gv"], r["gols"])
+    return res
+
+
 def main() -> None:
     sys.stdout.reconfigure(encoding="utf-8")
     base = carregar_base()
@@ -433,6 +549,12 @@ def main() -> None:
     espn = carregar_espn()
     wiki = carregar_wiki()
     camp_wiki = campeoes_wiki()
+    global DATAS, RELEGATION
+    DATAS = defaultdict(list)
+    for x in ler_csv(CORRECOES_DIR / "datas.csv"):
+        DATAS[x["temporada"]].append(x)
+    RELEGATION = relegation_de()
+    pendentes = set()   # jogos com gols e sem autor: a ficha do ogol entra na próxima importação (baixar.py fichas)
     mapa_ogol = votar(base, ogol, "mandante_id", "visitante_id")
     mapa_espn = votar(base, espn, "mandante_id", "visitante_id")
 
@@ -471,9 +593,20 @@ def main() -> None:
                 ocorr[a].append(f"placar corrigido: {j['m']} x {j['v']} de {j['gm']}-{j['gv']} para {gm}-{gv} — {motivo}")
                 j["gm"], j["gv"] = gm, gv
             if (a, j["m"], j["v"]) in TRIBUNAL:
-                gm, gv, motivo = TRIBUNAL[(a, j["m"], j["v"])]
-                ocorr[a].append(f"resultado do tribunal: {j['m']} x {j['v']} fica {gm}-{gv} (base {j['gm']}-{j['gv']}) — {motivo}")
-                j.update(gm=gm, gv=gv, especial="awd", campo=f"{j['gm']}-{j['gv']}")
+                gm, gv, motivo, campo = TRIBUNAL[(a, j["m"], j["v"])]
+                ocorr[a].append(f"resultado do tribunal: {j['m']} x {j['v']} fica {gm}-{gv} (em campo, {campo}) — {motivo}")
+                j.update(gm=gm, gv=gv, especial="awd", campo=campo)
+        chave_j = {(clubes.exibicao(j["m"]), clubes.exibicao(j["v"]), j["data"]): j for j in jogos}
+        n_datas = 0
+        for x in DATAS.get(T, []):
+            j = chave_j.get((x["mandante"], x["visitante"], x["data_errada"]))
+            if j is None:
+                raise SystemExit(f"{T}: jogo da correção de data não encontrado: {x}")
+            j["data"], j["data_errada"] = x["data_certa"], x["data_errada"]
+            n_datas += 1
+        if n_datas:
+            ocorr[a].append(f"{n_datas} datas corrigidas: o transfermarkt e a RSSSF concordam contra a base (lista em "
+                            f"data/coleta/ger-1/correcoes/datas.csv)")
         pv = 2 if a <= 1994 else 3
 
         # ---- ogol: rodada e conferência
@@ -599,6 +732,10 @@ def main() -> None:
                     ajuste[c] = x["ajuste"]
             if w["pontos_vitoria"] != pv:
                 ocorr[a].append(f"Wikipédia com {w['pontos_vitoria']} pontos por vitória (aqui {pv})")
+        for (ano, c), (v_pun, motivo) in PUNICOES.items():
+            if ano == a:
+                ajuste[c] = v_pun
+                ocorr[a].append(f"punição: {clubes.exibicao(c)} {v_pun:+d} pontos — {motivo}")
         rs = tabela_rsssf(a, set(clubes_tab), pv)
         if rs:
             for x in rs:   # punição que só a RSSSF traz
@@ -673,13 +810,15 @@ def main() -> None:
             dif = [(r["clube"], c) for r, c in zip(rs, ordem) if r["clube"] != c]
             ocorr[a].append(f"ordem diferente entre RSSSF e Wikipédia em {len(dif)} posições (ex.: RSSSF {dif[0][0]}, Wikipédia "
                             f"{dif[0][1]}); fica a da Wikipédia")
-        tentativas = {cr: ordenar(ref, ajuste, cr, tab_jogos, pv) for cr in ("confronto", "saldo", "media")}
-        ok = [cr for cr, o in tentativas.items() if o == ordem]
-        criterio = ok[0] if ok else min(tentativas, key=lambda cr: sum(x != y for x, y in zip(tentativas[cr], ordem)))
+        # critério do regulamento (revisão DE-002): até 1968/69 pontos e quociente de gols; desde 1969/70 pontos, saldo e
+        # gols marcados (o confronto direto só depois, como em 1999/00)
+        criterio = "media" if a <= 1968 else "saldo"
+        calc_ordem = ordenar(ref, ajuste, criterio, tab_jogos, pv)
+        ok = calc_ordem == ordem
         if not ok:
-            dif = [c for c, d in zip(ordem, tentativas[criterio]) if c != d]
-            ocorr[a].append(f"nenhum critério calculado reproduz a ordem oficial; o mais próximo ({criterio}) difere em "
-                            f"{len(dif)} posições (ex.: {dif[:2]})")
+            dif = [c for c, d in zip(ordem, calc_ordem) if c != d]
+            ocorr[a].append(f"o critério do regulamento ({criterio}) não reproduz a ordem oficial em {len(dif)} posições "
+                            f"(ex.: {dif[:2]}): desempate final pelo confronto direto")
         criterios[a] = (criterio, bool(ok))
 
         # 1945/46: a classificação final é a do grupo final; os outros clubes seguem pela campanha nos grupos
@@ -716,10 +855,11 @@ def main() -> None:
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 and not sem_titulo else "rebaixado" if c in rebaixados else None,
                 "fonte": fonte_ordem if c in ordem else "calculada (campanha nos grupos)",
-                "observacao": ((w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None)) or None)
+                "observacao": ((w and next((notas_wiki.traduzir(x["hth"] or x["nota"]) for x in w["times"] if x["clube"] == c), None)) or None)
                 if c in ordem else "não foi ao grupo final"})
 
         # ---- partidas, gols, cartões, estatísticas
+        rs_gols = gols_rsssf(a, jogos) if a <= 1998 else {}
         jogos.sort(key=lambda j: (j["data"], j["rodada"] or 0, j["m"]))
         gols_ano = autor_ano = 0
         for i, j in enumerate(jogos, 1):
@@ -752,11 +892,13 @@ def main() -> None:
                 "mando corrigido (a base e o ogol trazem o mando trocado)" if j.get("invertido") else None,
                 "arbitro": (x or {}).get("Referee") or None})
             gols_ano += j["gm"] + j["gv"]
+            com_autor = False
             if e and e["lances"]:
                 gl = [l for l in e["lances"] if l["gol"]]
                 lado = {"home": j["m"], "away": j["v"]}
                 if all(l["lado"] in lado for l in gl) and \
                         (sum(l["lado"] == "home" for l in gl), sum(l["lado"] == "away" for l in gl)) == (j["gm"], j["gv"]):
+                    com_autor = bool(gl)
                     for l in gl:
                         mi, ac = minuto(l["minuto"])
                         tab["gols"].append({"partida_id": pid, "clube": clubes.exibicao(lado[l["lado"]]),
@@ -774,6 +916,25 @@ def main() -> None:
                         tab["cartoes"].append({"partida_id": pid, "clube": clubes.exibicao(lado[l["lado"]]),
                                                "jogador": (l["jogadores"] or [None])[0], "minuto": mi, "acrescimo": ac,
                                                "cor": "vermelho" if l["vermelho"] else "amarelo", "fonte": "ESPN"})
+            if not com_autor and j["gm"] + j["gv"] > 0 and not j.get("especial"):
+                # sem os gols da ESPN: a RSSSF (1963/64-1998/99, revisão DE-011) ou a ficha do ogol (DE-010)
+                lista, fonte_g = None, None
+                r_ = rs_gols.get((j["m"], j["v"]))
+                if r_ and (r_[0], r_[1]) == (j["gm"], j["gv"]):
+                    lista, fonte_g = [(l_, n_, mi_, None, t_) for l_, n_, mi_, t_ in r_[2]], "RSSSF"
+                elif o:
+                    arq_f = FICHAS / f"{o['id']}.html"
+                    if arq_f.exists():
+                        g_ = ogol_ficha.gols(arq_f.read_text(encoding="utf-8", errors="replace"))
+                        if (sum(l_[0] == "m" for l_ in g_), sum(l_[0] == "v" for l_ in g_)) == (j["gm"], j["gv"]):
+                            lista, fonte_g = g_, f"ogol (ficha {o['id']})"
+                    elif a >= 1999:
+                        pendentes.add(o["id"])
+                if lista:
+                    for l_, n_, mi_, ac_, t_ in lista:
+                        tab["gols"].append({"partida_id": pid, "clube": clubes.exibicao(j[l_]), "jogador": n_, "minuto": mi_,
+                                            "acrescimo": ac_, "tipo": t_, "fonte": fonte_g})
+                    autor_ano += len(lista)
             if x and x.get("HS"):
                 def num(k):
                     v_ = x.get(k)
@@ -806,7 +967,8 @@ def main() -> None:
                                "campeao": None if sem_titulo else clubes.exibicao(campeao), "vice": clubes.exibicao(vice),
                                "fontes": " + ".join(fontes_ed),
                                "observacao": "; ".join(x for x in (f"punições: {pun}" if pun else "",
-                                                                    "título não atribuído" if sem_titulo else "") if x) or None})
+                                                                    "título não atribuído" if sem_titulo else "",
+                                                                    FORA_DE_CAMPO.get(a, ""), RELEGATION.get(a, "")) if x) or None})
         crit_txt = {"confronto": "pontos, confronto direto, saldo de gols, gols pró", "saldo": "pontos, saldo de gols, gols pró",
                     "media": "pontos, média de gols (goal average)"}[criterio]
         if a == DIVISIONE:
@@ -833,6 +995,10 @@ def main() -> None:
     # era antiga (1902/03-1962/63): fase final e campeão oficial (coleta/ger-1/antigo.py)
     import antigo
     linhas_rel = antigo.montar(tab, nomes, ocorr) + linhas_rel
+
+    (DADOS / "fichas_pendentes.json").write_text(json.dumps(sorted(pendentes)), encoding="utf-8")
+    if pendentes:
+        print(f"{len(pendentes)} fichas do ogol a baixar: python coleta/ger-1/baixar.py fichas", flush=True)
 
     # ---- clubes
     for c, (exib, cidade, pais) in sorted(clubes.CLUBES.items()):
@@ -863,6 +1029,7 @@ def artilheiros(ocorr) -> list[dict]:
         if ano not in TEMPORADAS:
             continue
         nome, clube_txt, gols = l[c_nome:c_clube].strip(), l[c_clube:c_gols].strip(), int(l[c_gols:].split()[0])
+        nome = NOMES_ARTILHEIRO.get(nome, nome)
         c = clubes.esd(clube_txt, ano)
         res.append({"temporada": temporada(ano), "jogador": nome, "clube": clubes.exibicao(c) if c else None, "gols": gols,
                     "fonte": "RSSSF (tablesd/duittops.html)"})

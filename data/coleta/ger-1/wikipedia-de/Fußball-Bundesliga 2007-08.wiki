@@ -1,0 +1,389 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 2007/08
+| Bild = [[Datei:Bundesliga Wordmark (2002-2010).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2002–2010. Es besteht aus der Schrift "Bundesliga" in zwei Zeilen. Die Schriftfarbe ist schwarz.|170px]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = FC Bayern München<br />[[Werder Bremen]]
+| UEFA Champions League Quali = [[FC Schalke 04]]
+| UEFA Cup = [[Hamburger SV]]<br />[[VfL Wolfsburg]]<br />[[Borussia Dortmund]]
+| UEFA Cup Quali = [[Hertha BSC]]
+| Pokal-Sieger = FC Bayern München
+| UI-Cup = [[VfB Stuttgart]]
+| Absteiger = [[1. FC Nürnberg]]<br />[[Hansa Rostock]]<br />[[MSV Duisburg]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 860
+| Zuschauer = 11.815.215
+| Torschützenkönig = {{ITA|Ziel=Luca Toni}}<br />([[FC Bayern München]])
+| vorherige Saison = [[Fußball-Bundesliga 2006/07|Bundesliga 2006/07]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2008/09|Bundesliga 2008/09]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2007/08|2. Bundesliga 2007/08]]
+}}
+[[Datei:Bundesliga-Saison-2007 08.png|mini|hochkant=1.38|Bundesligavereine 2007/08]]
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew   value:rgb(0.86,0.86,0.86)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:34.5 shift:(20,-3) color:red      text:FC Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:nurem value:rgb(0.68,0.09,0.20)
+  id:msv value:rgb(0.00,0.05,1   )
+  id:hansa value:rgb(0.00,0.50,1   )
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:1.5   shift:(20,-3)   color:hansa     text:Hansa Rostock
+     from:1.5  till:2.5   shift:(20,-3)   color:yelloworange   text:Borussia Dortmund
+     from:2.5  till:5.5   shift:(20,-3)   color:hansa     text:Hansa Rostock
+     from:5.5  till:16.5  shift:(20,-3)   color:red      text:Energie Cottbus
+     from:16.5  till:20.5  shift:(20,-3)  color:msv  text:MSV Duisburg
+     from:20.5  till:21.5  shift:(20,-3)  color:red      text:Energie Cottbus
+     from:21.5  till:22.5  shift:(20,-3)  color:msv  text:MSV Duisburg
+     from:22.5  till:23.5  shift:(20,-3)  color:red      text:Energie Cottbus
+     from:23.5  till:25.5  shift:(20,-3)  color:msv  text:MSV Duisburg
+     from:25.5  till:26.5  shift:(20,-3)  color:nurem   text:1. FC Nürnberg
+     from:26.5  till:27.5  shift:(20,-3)  color:msv  text:MSV Duisburg
+     from:27.5  till:28.5  shift:(20,-3)  color:darkblue text:Arminia Bielefeld
+     from:28.5  till:30.5  shift:(20,-3)  color:msv  text:MSV Duisburg
+     from:30.5  till:33.5   shift:(20,-3) color:hansa     text:Hansa Rostock
+     from:33.5  till:34.5  shift:(20,-3)  color:msv  text:MSV Duisburg
+</timeline>
+|}
+
+Die '''[[Fußball-Bundesliga|Bundesliga]] 2007/08''' war die 45. Saison der höchsten deutschen Spielklasse im [[Fußball]]. Sie startete am 10. August 2007 mit dem Spiel des Meisters [[VfB Stuttgart]] gegen den Vizemeister [[FC Schalke 04]] und endete am 17. Mai 2008.
+
+Deutscher Meister wurde der Rekordtitelträger [[FC Bayern München]], der bereits am 31. Spieltag durch ein torloses Remis in [[VfL Wolfsburg|Wolfsburg]] den Gewinn der 21. Meisterschaft rechnerisch perfekt machte. Zuvor hatten die Bayern bereits den [[DFB-Pokal]] durch ein 2:1 nach Verlängerung im Finale gegen [[Borussia Dortmund]] gewonnen.
+
+Absteigen mussten der [[1. FC Nürnberg]] als amtierender Pokalsieger und die beiden Aufsteiger [[Hansa Rostock]] und [[MSV Duisburg]].
+
+== Saisonverlauf ==
+[[Datei:Tim Wiese (FC Hansa Rostock - SV Werder Bremen).jpg|mini|FC Hansa Rostock gegen SV Werder Bremen am 15. April 2008]]
+=== Meisterschaftsentscheidung ===
+Der deutsche Rekordmeister Bayern München sicherte sich letztlich souverän den zwanzigsten Titel in der Bundesliga und damit die 21.&nbsp;Meisterschaft; zum Saisonende standen zehn Punkte Vorsprung vor Vizemeister Werder Bremen und die bis dato wenigsten Gegentore (21) der Bundesligageschichte zu Buche. Dabei profitierten die Bayern, die bereits vom ersten Spieltag an Tabellenführer waren und sich lediglich gegen Ende der Hinrunde eine leichte Schwächephase nahmen, von Patzern der Verfolger zu Beginn der Rückrunde. Insbesondere Bremen, das zur Winterpause noch punktgleich mit den Bayern war, verlor in dieser Phase den Anschluss an den späteren Meister, konnte sich nach einem starken Saisonfinale aber als Tabellenzweiter behaupten. Schalke 04 wurde mit zwei Punkten Rückstand Dritter.
+
+Der amtierende Meister aus Stuttgart konnte sich nach einem enttäuschenden Saisonstart nur in den UI-Cup retten, gegen Ende hatten der Hamburger SV und – etwas überraschend – der VfL Wolfsburg unter dem neuen Trainer [[Felix Magath]] im Kampf um die Plätze im UEFA-Pokal leicht die Nase vorn. Wolfsburg hatte nach zahlreichen Neuzugängen die Hinrunde auf Platz elf beendet, erreichte in der Rückrundentabelle jedoch Platz drei.
+
+=== Mittelfeld ===
+In der Hinrunde sorgte der Karlsruher SC für Aufsehen, der als Aufsteiger auf dem sechsten Platz überwinterte. Nach einem ordentlichen Start in die Rückrunde bauten die Badener im Frühjahr jedoch merklich ab und beendeten die Saison als zweitschlechteste Rückrundenmannschaft auf Platz elf. Auch Bayer Leverkusen, das bis zur Mitte der Rückrunde Anschluss an die UEFA-Pokal-Plätze halten konnte, verspielte eine gute Platzierung in den letzten Saisonspielen und erreichte erstmals seit 2002/03 als Siebter keinen internationalen Startplatz. Dies führte zur Entlassung von Trainer [[Michael Skibbe]].
+
+Borussia Dortmund beendete die Saison auf einem enttäuschenden 13. Platz, war aber aufgrund des Erreichens des DFB-Pokalfinals erstmals seit der Spielzeit 2004/05 wieder für einen internationalen Wettbewerb qualifiziert. Dennoch trennte sich der Verein nach der Saison von Trainer [[Thomas Doll]]. Der Tabellenzehnte Hertha BSC erhielt einen weiteren UEFA-Pokal-Startplatz durch die [[Fair-Play-Wertung]].
+
+=== Abstiegskampf ===
+Bereits zur Winterpause deutete sich an, dass es hinter einem breiten Mittelfeld einen Fünfkampf um den Klassenerhalt geben würde. Neben den beiden Aufsteigern aus Duisburg und Rostock steckten Energie Cottbus, Arminia Bielefeld und der Pokalsieger des Vorjahres vom 1. FC Nürnberg lange Zeit im Abstiegskampf. Während Cottbus (nach einem Trainerwechsel von [[Petrik Sander]] zu [[Bojan Prašnikar]]) der Klassenerhalt bereits am 33. Spieltag gelang, lieferten sich Arminia Bielefeld ([[Michael Frontzeck]] hatte [[Ernst Middendorp]] im Winter abgelöst) und der 1. FC Nürnberg am letzten Spieltag ein Fernduell um den Verbleib in der Eliteklasse. Am Ende blieb für die Franken, die Trainer [[Hans Meyer (Fußballtrainer)|Hans Meyer]] im Februar durch [[Thomas von Heesen]] ersetzt hatten, nach einem 0:2 gegen Schalke 04 nur der undankbare 16. Tabellenplatz und damit verbunden der siebte Abstieg in die Zweitklassigkeit, während sich Bielefeld mit einem 2:2 gegen den Vorjahresmeister VfB Stuttgart den Klassenerhalt sicherte.
+
+== Statistiken ==
+=== Abschlusstabelle ===
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=22 |U=10 |N= 2 |ET=68 |GT=21 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=20 |U= 6 |N= 8 |ET=75 |GT=45 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=18 |U=10 |N= 6 |ET=55 |GT=32 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 4 |S=14 |U=12 |N= 8 |ET=47 |GT=26 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=15 |U= 9 |N=10 |ET=58 |GT=46 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 6 |S=16 |U= 4 |N=14 |ET=57 |GT=57 |Verein=[[VfB Stuttgart]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=15 |U= 6 |N=13 |ET=57 |GT=40 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=13 |U=10 |N=11 |ET=54 |GT=56 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=12 |U=10 |N=12 |ET=43 |GT=50 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdead |Rang=10 |S=12 |U= 8 |N=14 |ET=39 |GT=44 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=11 |U=10 |N=13 |ET=38 |GT=53 |Verein=[[Karlsruher SC]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=10 |U=11 |N=13 |ET=48 |GT=54 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang=13 |S=10 |U=10 |N=14 |ET=50 |GT=62 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 9 |U= 9 |N=16 |ET=35 |GT=56 |Verein=[[Energie Cottbus]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 8 |U=10 |N=16 |ET=35 |GT=60 |Verein=[[Arminia Bielefeld]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 7 |U=10 |N=17 |ET=35 |GT=51 |Verein=[[1. FC Nürnberg]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 8 |U= 6 |N=20 |ET=30 |GT=52 |Verein=[[Hansa Rostock]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 8 |U= 5 |N=21 |ET=36 |GT=55 |Verein=[[MSV Duisburg]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister, [[DFB-Pokal 2007/08|DFB-Pokal-Sieger]] und Teilnahme an der [[UEFA Champions League 2008/09]]: FC Bayern München}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League 2008/09: Werder Bremen}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation 2008/09: FC Schalke 04}}
+{{Farblegende|#ffdac2|Teilnahme am [[UEFA-Pokal 2008/09]]: Hamburger SV, VfL Wolfsburg, Borussia Dortmund (als unterlegener Pokalfinalist)}}
+{{Farblegende|#ffdead|Teilnahme an der UEFA-Pokal-Qualifikation 2008/09: Hertha BSC (über die [[Fair-Play-Wertung]])}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 2008|UI-Cup 2008]]: VfB Stuttgart}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2008/09|2. Bundesliga 2008/09]]: 1. FC Nürnberg, Hansa Rostock, MSV Duisburg}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2006/07|2006/07]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2006/07|2006/07]]
+|-
+| (N) || Aufsteiger aus der 2. Bundesliga [[2. Fußball-Bundesliga 2006/07|2006/07]]
+|}
+
+=== Tabellenverlauf ===
+[[Datei:Platzierungen Bundesliga 2007-2008.svg|600px]]
+
+=== Kreuztabelle ===
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+|colspan="2" width="200" | '''2007/08'''
+|[[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+|[[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+|[[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+|[[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+|[[Datei:VfL Wolfsburg Logo.svg|22px|VfL Wolfsburg]]
+|[[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+|[[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+|[[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+|[[Datei:Logo Eintracht Frankfurt 1998.svg|22px|Eintracht Frankfurt]]
+|[[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+|[[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+|[[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+|[[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+|[[Datei:Logo Energie Cottbus.svg|22px|Energie Cottbus]]
+![[Datei:Arminia Bielefeld Logo 1998–2008.svg|22px|Arminia Bielefeld]]
+|[[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+|[[Datei:FC Hansa Rostock Logo.svg|22px|Hansa Rostock]]
+|[[Datei:MSV Duisburg.svg|22px|MSV Duisburg]]
+|-
+| {{0}}1. || align="left" |[[FC Bayern München]]
+| bgcolor="#DCDCDC" | ||1:1||1:1|| 1:1 || 2:1 || 4:1 || 2:1 || 3:0 || 0:0 || 4:1 || 2:0 || 3:1 || 5:0 || 5:0 || 2:0 || 3:0 || 3:0 || 0:0
+|-
+| {{0}}2. ||align="left" | [[Werder Bremen]] ||0:4
+| bgcolor="#DCDCDC" | || 5:1 || 2:1 || 0:1 || 4:1 || 5:2 || 6:1 || 2:1 || 3:2 || 4:0 ||1:2|| 2:0 || 2:0 || 8:1 || 2:0 || 1:0 || 1:2
+|-
+| {{0}}3. ||align="left" | [[FC Schalke 04]] ||0:1|| 1:1
+| bgcolor="#DCDCDC" | || 1:1 || 1:2 || 4:1 || 1:1 || 1:1 || 1:0 || 1:0 || 0:2 || 1:0 || 4:1 || 5:0 || 3:0 || 2:1 || 1:0 || 2:1
+|-
+| {{0}}4. ||align="left" | [[Hamburger SV]] || 1:1 || 0:1 || 0:1
+| bgcolor="#DCDCDC" | || 2:2 || 4:1 || 1:0 || 1:1 || 4:1 || 2:1 || 7:0 || 3:0 || 1:0 || 0:0 || 1:1 || 1:0 || 2:0 || 0:1
+|-
+| {{0}}5. ||align="left" | [[VfL Wolfsburg]] || 0:0 || 1:1 || 1:1 || 1:1
+| bgcolor="#DCDCDC" | || 4:0 || 1:2 || 3:2 || 2:2 || 0:0 || 1:2 || 0:1 || 4:0 || 3:0 || 1:3 || 3:1 || 1:0 || 2:1
+|-
+| {{0}}6. ||align="left" | [[VfB Stuttgart]] || 3:1 || 6:3 || 2:2 || 1:0 || 3:1
+| bgcolor="#DCDCDC" | || 1:0 || 0:2 || 4:1 || 1:3 || 3:1 || 1:0 || 1:2 || 3:0 ||2:2|| 3:0 || 4:1 || 1:0
+|-
+| {{0}}7. ||align="left" | [[Bayer 04 Leverkusen]] || 0:1 || 0:1 || 1:0 || 1:1 ||2:2 ||3:0
+| bgcolor="#DCDCDC" | || 2:0 || 0:2 || 1:2 || 3:0 || 2:0 || 2:2 || 0:0 || 4:0 || 4:1 || 3:0 || 4:1
+|-
+| {{0}}8. ||align="left" | [[Hannover 96]] || 0:3 || 4:3 || 2:3 || 0:1 || 2:2 || 0:0 || 0:3
+| bgcolor="#DCDCDC" | || 2:1 || 2:2 || 2:2 || 3:2 || 2:1 || 4:0 || 2:2 || 2:1 || 3:0 || 2:1
+|-
+| {{0}}9. ||align="left" | [[Eintracht Frankfurt]] || 1:3 || 1:0 || 2:2 || 2:1 || 2:3 || 1:4 || 2:1 || 0:0
+| bgcolor="#DCDCDC" | || 1:0 || 0:1 || 1:1 || 1:1 || 2:1 || 2:1 || 1:3 || 1:0 || 4:2
+|-
+| 10. ||align="left" | [[Hertha BSC]] || 0:0 || 1:2 || 1:2 || 0:0 || 2:1 || 3:1 || 0:3 ||1:0||0:3
+| bgcolor="#DCDCDC" | || 3:1 || 2:0 || 3:2 ||0:0|| 1:0 || 1:0 || 1:3 || 2:0
+|-
+| 11. ||align="left" | [[Karlsruher SC]] || 1:4 || 3:3 || 0:0 || 1:1 || 3:1 || 1:0 || 2:2 || 1:2 || 0:1 || 2:1
+| bgcolor="#DCDCDC" | || 1:3 || 3:1 || 1:1 || 0:0 || 2:0 || 1:2 || 1:0
+|-
+| 12. ||align="left" | [[VfL Bochum]] || 1:2 || 2:2 || 0:3 || 2:1 || 5:3 || 1:1 || 2:0 || 2:1 || 0:0 || 1:1 || 2:2
+| bgcolor="#DCDCDC" | || 3:3 || 3:3 ||3:0|| 3:3 || 1:2 || 1:1
+|-
+| 13. ||align="left" | [[Borussia Dortmund]] || 0:0 || 3:0 || 2:3 || 0:3 ||2:4|| 3:2 || 2:1 || 1:3 || 1:1 || 1:1 || 1:1 || 2:1
+| bgcolor="#DCDCDC" | || 3:0 ||6:1|| 0:0 || 1:0 || 1:3
+|-
+| 14. ||align="left" | [[Energie Cottbus]] || 2:0 || 0:2 || 1:0 || 2:0 || 1:2 || 0:1 || 2:3 || 5:1 || 2:2 || 2:1 || 2:0 || 1:2 || 0:2
+| bgcolor="#DCDCDC" | || 1:0 || 1:1 || 2:1 || 1:2
+|-
+| 15. ||align="left" | [[Arminia Bielefeld]] || 0:1 || 1:1 || 0:2 || 0:1 || 0:1 || 2:0 || 1:0 || 0:2 || 2:2 || 2:0|| 1:0 || 2:0 || 2:2 || 1:1
+| bgcolor="#DCDCDC" | || 3:1 || 4:2 || 0:2
+|-
+| 16. ||align="left" | [[1. FC Nürnberg]] || 1:1 || 0:1 || 0:2 || 0:0 || 1:0{{FN|1}} ||0:1|| 1:2 || 2:2 || 5:1 || 2:1 || 0:2 || 1:1 || 2:0 || 1:1 || 2:2
+| bgcolor="#DCDCDC" | || 1:1 || 2:0
+|-
+| 17. ||align="left" | [[Hansa Rostock]] || 1:2 || 1:2 || 1:1 || 1:3 || 0:1 || 2:1 || 1:2 || 0:3 || 1:0 || 0:0 || 0:0 || 2:0 || 0:1 || 3:2 || 1:1 ||1:2
+| bgcolor="#DCDCDC" | ||2:0
+|-
+| 18. || align="left" | [[MSV Duisburg]] || 2:3 || 1:3 || 0:2 || 0:1 || 1:3 || 2:3 || 3:2 || 1:1 ||0:1|| 1:2 || 0:1 || 0:2 || 3:3 || 0:1 || 3:0 || 1:0 || 1:1
+| bgcolor="#DCDCDC" |
+|}
+{{FNZ|1|Das Spiel wurde nach der ersten Halbzeit wegen Unbespielbarkeit des Platzes infolge starker Regenfälle beim Stand von 1:0 für Nürnberg abgebrochen und am 20. April nachgeholt.<ref>[http://www.kicker.de/news/fussball/bundesliga/startseite/artikel/377301/ Meldung auf kicker.de]</ref>}}
+
+=== Torschützenliste ===
+[[Datei:Luca Toni.jpg|mini|Luca Toni]]
+{| class="wikitable"
+|- style="background-color:#CEDAF2;"
+!Pl.!!Nat.!!Spieler!!Verein!!Tore
+|-
+| align="center" | {{0}}1|| {{ITA|#}}||[[Luca Toni]]||Bayern München|| align="center" | 24
+|-
+| align="center" | {{0}}2|| {{DEU|#}}||[[Mario Gómez]]||VfB Stuttgart|| align="center" | 19
+|-
+| align="center" | {{0}}3|| {{DEU|#}}||[[Kevin Kurányi]]||Schalke 04|| align="center" | 15
+|-
+| rowspan="2" align="center" | {{0}}4|| {{HRV|#}}||[[Ivica Olić]]||Hamburger SV|| rowspan="2" align="center" | 14
+|-
+| {{SWE|#}}||[[Markus Rosenberg]]||Werder Bremen
+|-
+| rowspan="4" align="center" | {{0}}6|| {{BRA|#}}||[[Diego Ribas da Cunha|Diego]]||Werder Bremen|| rowspan="4" align="center" | 13
+|-
+| {{SRB-2004|#}}||[[Marko Pantelić]]||Hertha BSC
+|-
+| {{HRV|#}}||[[Mladen Petrić]]||Borussia Dortmund
+|-
+| {{SVK|#}}||[[Stanislav Šesták]]||VfL Bochum
+|-
+| align="center" | 10|| {{NLD|#}}||[[Rafael van der Vaart]]||Hamburger SV|| align="center" | 12
+|-
+|}
+
+=== Scorerliste ===
+{| class="wikitable" style="text-align: center;"
+|- style="background-color:#CEDAF2;"
+!Pl.!!Nat.!!Spieler!!Verein!!Gesamt!!Tore!!Vorlagen
+|-
+|1|| {{ITA|#}}|| align="left" | [[Luca Toni]]||align="left" | Bayern München||31||24||7
+|-
+|2|| {{BRA|#}}||align="left" | [[Diego Ribas da Cunha|Diego]]||align="left" | Werder Bremen||24||13||11
+|-
+|3|| {{SWE|#}}||align="left" | [[Markus Rosenberg]]||align="left" | Werder Bremen||23||14||9
+|-
+|rowspan="3"| 4|| {{DEU|#}}||align="left" | [[Mario Gómez]]||align="left" | VfB Stuttgart||rowspan="3"| 22||19||3
+|-
+| {{SVK|#}}||align="left" | [[Stanislav Šesták]]||align="left" | VfL Bochum||13||9
+|-
+| {{NLD|#}}||align="left" | [[Rafael van der Vaart]]||align="left" | Hamburger SV||12||10
+|-
+|rowspan="2"| 7|| {{HRV|#}}||align="left" | [[Ivica Olić]]||align="left" | Hamburger SV||rowspan="2"| 19||14||5
+|-
+| {{FRA|#}}||align="left" | [[Franck Ribéry]]||align="left" | Bayern München||11||8
+|-
+|rowspan="2"| 9|| {{GRC|#}}||align="left" | [[Ioannis Amanatidis]]||align="left" | Eintracht Frankfurt||rowspan="2"| 18||11||7
+|-
+| {{DEU|#}}||align="left" | [[Miroslav Klose]]||align="left" | Bayern München||10||8
+|}
+
+== Spielstätten ==
+{| class="wikitable" width="100%"
+|- style="background-color:#CEDAF2;"
+! width="20.0%" | Verein
+! width="20.0%" | Stadion<br /><small>(Sponsorenname)</small>
+! width="9.00%" | Kapazität
+| width="2.00%" style="background-color:#ffffff; border:0px;" rowspan="10" |
+! width="20.0%" | Verein
+! width="20.0%" | Stadion<br /><small>(Sponsorenname)</small>
+! width="9.00%" | Kapazität
+|-
+| Hertha BSC || [[Olympiastadion Berlin]] || style="text-align:center" | 74.400
+| Hamburger SV || [[Volksparkstadion]]<br /><small>(HSH Nordbank Arena)</small> || style="text-align:center" | 57.000
+|-
+| Arminia Bielefeld || [[SchücoArena]] || style="text-align:center" | 26.601
+| Karlsruher SC || [[Wildparkstadion]] || style="text-align:center" | 29.699
+|-
+| VfL Bochum || [[Ruhrstadion]]<br /><small>(Rewirpowerstadion)</small> || style="text-align:center" | 31.328
+| Bayer Leverkusen || [[BayArena]] || style="text-align:center" | 22.500
+|-
+| SV Werder Bremen || [[Weserstadion]] || style="text-align:center" | 42.358
+| FC Bayern München || [[Allianz Arena]] || style="text-align:center" | 69.901
+|-
+| Energie Cottbus || [[Stadion der Freundschaft (Cottbus)|Stadion der Freundschaft]] || style="text-align:center" | 22.746
+| 1. FC Nürnberg || [[Max-Morlock-Stadion|Easycredit-Stadion]] || style="text-align:center" | 47.500
+|-
+| Borussia Dortmund || [[Westfalenstadion]]<br /><small>(Signal Iduna Park)</small> || style="text-align:center" | 80.708
+| Hansa Rostock || [[Ostseestadion]]<br /><small>(DKB-Arena)</small> || style="text-align:center" | 30.000
+|-
+| MSV Duisburg || [[MSV-Arena]] || style="text-align:center" | 31.500
+| FC Schalke 04 || [[Veltins-Arena]] || style="text-align:center" | 61.482
+|-
+| Eintracht Frankfurt || [[Commerzbank-Arena]] || style="text-align:center" | 52.300
+| VfB Stuttgart || [[MHPArena|Gottlieb-Daimler-Stadion]] || style="text-align:center" | 57.000
+|-
+| Hannover 96 || [[AWD-Arena]] || style="text-align:center" | 49.000
+| VfL Wolfsburg || [[Volkswagen Arena]] || style="text-align:center" | 30.000
+|}
+
+== Eingesetzte Schiedsrichter ==
+{| class="wikitable sortable zebra" style="text-align:center"
+|-
+! Name || Geboren<br />|| Landesverband || Anz. d.<br />Spiele || [[Datei:Yellow card.svg|14px]] || [[Datei:Yellow-red card.svg|18px]] || [[Datei:Red card.svg|14px]] || class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Brych, Felix" | [[Felix Brych]] || 03.08.1975 || [[Bayerischer Fußball-Verband|Bayern]] || 19 || 64 ||1 || 1|| style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Drees, Jochen" | [[Jochen Drees]] || 15.03.1970 || [[Südwestdeutscher Fußballverband|Südwest]] || 15 || 48 || 1 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || 09.03.1964 || [[Fußballverband Rheinland|Rheinland]] || 24 || 98 ||3 ||1|| style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Fleischer" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || 22.03.1964 || [[Bayerischer Fußball-Verband|Bayern]]|| 15 || 49 || 0 || 3 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || 09.06.1968 || [[Bremer Fußball-Verband|Bremen]] ||18|| 68 ||0 ||1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Gräfe, Manuel" | [[Manuel Gräfe]] || 21.09.1973 || [[Berliner Fußball-Verband|Berlin]] || 18 || 79 || 4 ||1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kempter, Michael" | [[Michael Kempter]] || 28.01.1983 || [[Südbadischer Fußballverband|Südbaden]] || 14||55|| 0 || 0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Kinhöfer, Thorsten" | [[Thorsten Kinhöfer]] || 27.06.1968 || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]]||15|| 85 || 6 || 6 ||style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kircher, Knut" | [[Knut Kircher]] || 02.02.1969 || [[Württembergischer Fußballverband|Württemberg]] || 15 || 56 || 2 || 0 || style="text-align:left" | FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || 15.03.1962 ||[[Südwestdeutscher Fußballverband|Südwest]] || 24 || 55 ||1 || 1 ||style="text-align:left" |FIFA-Schiedsrichter bis Ende 2007<br />letzte Bundesligasaison
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || 21.11.1968 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 19 || 79 || 1 || 0 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Perl, Günter" | [[Günter Perl]] || 23.12.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 17 || 54 ||1 || 1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Rafati, Babak" | [[Babak Rafati]] || 28.05.1970 || [[Niedersächsischer Fußballverband|Niedersachsen]] ||16 || 49 ||1 || 1 || style="text-align:left" |FIFA-Schiedsrichter ab 2008
+|-
+| style="text-align:left" data-sort-value="Schmidt, Markus" | [[Markus Schmidt (Schiedsrichter)|Markus Schmidt]] || 31.08.1973 || [[Württembergischer Fußballverband|Württemberg]] || 10 || 32 ||1 ||0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Seemann, Marc" | [[Marc Seemann]] || 20.04.1973 || [[Fußballverband Niederrhein|Niederrhein]] || {{0}}9 || 26 || 1 || 0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || 06.10.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 13 || 45 || 0 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || 20.11.1969 || [[Bayerischer Fußball-Verband|Bayern]] || 15 ||49 ||0 || 2|| style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || 27.05.1963 || [[Hessischer Fußball-Verband|Hessen]] || 9 || 35|| 2 || 2 ||style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || 21.03.1969 || [[Niedersächsischer Fußballverband|Niedersachsen]] || 18|| 79 || 1 ||2 || style="text-align:left" | FIFA-Schiedsrichter
+|-
+|}
+
+== Die Meistermannschaft des FC Bayern München ==
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Logo FC Bayern München (2002–2017).svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+*'''Tor''': [[Oliver Kahn]] {{Kapitän}} (26/-); [[Michael Rensing]] (10/-)
+*'''Abwehr''': [[Christian Lell]] (29/1); [[Martín Demichelis]] (28/1); [[Lúcio]] (24/1); [[Philipp Lahm]] (22/-); [[Daniel Van Buyten]] (19/1); [[Marcell Jansen]] (17/-); [[Willy Sagnol]] (9/-); [[Breno Vinicius Rodrigues Borges|Breno]] (1/-)
+*'''Mittelfeld''': [[Zé Roberto]] (30/5); [[Bastian Schweinsteiger]] (30/1); [[Franck Ribéry]] (28/11); [[Mark van Bommel]] (27/2); [[Hamit Altıntop]] (23/3); [[Andreas Ottl]] (19/3); [[José Ernesto Sosa]] (15/-); [[Toni Kroos]] (12/-)
+*'''Angriff''': [[Luca Toni]] (31/24); [[Miroslav Klose]] (27/10); [[Lukas Podolski]] (25/5); [[Jan Schlaudraff]] (8/-); [[Sandro Wagner]] (4/-)
+*'''Trainer''': [[Ottmar Hitzfeld]]
+|}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2007/2008|Fußball-Bundesliga 2007/08}}
+* [http://www.bundesliga.de Offizielle Website der Bundesliga]
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2008
+|Navigationsleiste Fußballsaison 2007/08 (Deutschland)
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2007-08}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2007/08]]
+[[Kategorie:Fußballsaison 2007/08]]

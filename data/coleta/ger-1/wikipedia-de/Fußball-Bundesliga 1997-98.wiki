@@ -1,0 +1,318 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 1997/98
+| Bild = [[Datei:Bundesliga Wordmark (1996-2002).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 1996–2002. Es besteht aus dem Schriftzug "Die Bundesliga" in drei Zeilen. Zusätzlich ein stilisiertes "DFB" in einem geometrischen, eckigen Schrifttyp. Die Schrift ist schwarz gehalten.|170px]]
+| Meister = [[1. FC Kaiserslautern]]
+| UEFA Champions League = [[1. FC Kaiserslautern]]<br />[[FC Bayern München]]
+| Pokal-Sieger = [[FC Bayern München]]
+| UEFA Cup = [[Bayer 04 Leverkusen]]<br />[[VfB Stuttgart]]<br />[[FC Schalke 04]]
+| Europapokal der Pokalsieger = [[MSV Duisburg]]
+| UI-Cup = [[Hansa Rostock]]<br />[[Werder Bremen]]
+| Absteiger = [[Karlsruher SC]]<br />[[1. FC Köln]]<br />[[Arminia Bielefeld]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 883
+| Zuschauer = 10.079.388
+| Torschützenkönig = {{DEU|Ziel=Ulf Kirsten}}<br />([[Bayer 04 Leverkusen]])
+| vorherige Saison = [[Fußball-Bundesliga 1996/97|Bundesliga 1996/97]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1998/99|Bundesliga 1998/99]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1997/98|2. Bundesliga 1997/98]]
+}}
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:ksc value:rgb(0.00,0.50,1   )
+  id:grew   value:rgb(0.86,0.86,0.86)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(20,-3)  color:ksc  text:Karlsruher SC
+  from:1.5 till:2.5 shift:(20,-3)  color:red   text:1. FC Kaiserslautern
+  from:2.5 till:3.5 shift:(20,-3)  color:ksc  text:Karlsruher SC
+  from:3.5 till:34.5 shift:(20,-3) color:red   text:1. FC Kaiserslautern
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:werder value:rgb(0.11,0.56,0.36)
+  id:vfl value:rgb(0.00,0.05,1   )
+  id:armin value:rgb(0.00,0.25,0.55)
+  id:hsv value:rgb(0.04,0.18,0.45)
+  id:1860 value:rgb(0.00,0.50,1   )
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5   till:4.5  shift:(20,-3)   color:werder    text:Werder Bremen
+     from:4.5   till:13.5 shift:(20,-3)   color:blue   text:Hertha BSC
+     from:13.5  till:16.5 shift:(20,-3)   color:vfl  text:VfL Bochum
+     from:16.5  till:18.5 shift:(20,-3)   color:red      text:1. FC Köln
+     from:18.5  till:19.5 shift:(20,-3)   color:armin     text:Arminia Bielefeld
+     from:19.5  till:20.5 shift:(20,-3)   color:red      text:1. FC Köln
+     from:20.5  till:22.5 shift:(20,-3)   color:hsv text:Hamburger SV
+     from:22.5  till:23.5 shift:(20,-3)   color:1860     text:1860 München
+     from:23.5  till:24.5 shift:(20,-3)   color:black     text:Mönchengladbach
+     from:24.5  till:34.5 shift:(20,-3)   color:armin     text:Arminia Bielefeld
+</timeline>
+|}
+
+Die Saison '''1997/98''' war die 35. Saison der '''[[Fußball-Bundesliga|Bundesliga]]''' der Männer. Sie begann am 1. August 1997 und endete am 9. Mai 1998. Erster und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] wurde der [[1. FC Kaiserslautern]]. Zum ersten und bisher einzigen Mal in der Bundesliga-Geschichte wurde ein Aufsteiger auf Anhieb Meister.
+
+== Saisonüberblick ==
+=== Meisterschaftsduell ===
+Die Saison war geprägt vom Titel-Zweikampf zwischen dem 1. FC Kaiserslautern, der gerade aus der [[2. Fußball-Bundesliga|2. Bundesliga]] aufgestiegen war, und dem Titelverteidiger [[FC Bayern München]]. Bereits am ersten Spieltag – als noch nicht absehbar war, dass diese Partie das Spitzenduell der Saison werden würde – kam es zum direkten Aufeinandertreffen der beiden Vereine. Der FCK, trainiert von [[Otto Rehhagel]], gewann mit 1:0 im Münchner [[Olympiastadion München|Olympiastadion]]. Besondere Brisanz gewann dieser Sieg dadurch, dass es Rehhagels erstes Spiel gegen den FCB seit seiner dortigen Entlassung 1996 war. Durch ein 1:0 gegen [[Hertha BSC]] erklomm der FCK am zweiten Spieltag die Tabellenspitze und hielt die Spitzenposition danach ohne Unterbrechung vom vierten bis zum letzten Spieltag. Auch das Rückspiel gegen den FC Bayern am [[Fritz-Walter-Stadion|Betzenberg]] gewann der FCK (2:0), und trotz einer Schwächephase gegen Ende der Rückrunde sicherten sich die Lauterer vorzeitig den Meistertitel: Am vorletzten Spieltag bezwang Kaiserslautern den Mitaufsteiger [[VfL Wolfsburg]] daheim mit 4:0, während der Konkurrent aus München beim [[MSV Duisburg]] nur ein 0:0 erreichte. Lautern hatte damit vor dem letzten Spieltag einen uneinholbaren Vorsprung von vier Punkten und stand als Meister fest.
+
+Der FC Bayern München unter Trainer [[Giovanni Trapattoni]] erlaubte sich neben den Niederlagen gegen den FCK weitere überraschende Punktverluste, wurde am Ende jedoch Vizemeister und gewann den [[DFB-Pokal]]. In diesem Wettbewerb konnten sich die Bayern sowohl gegen Kaiserslautern (2:1-Auswärtssieg im Achtelfinale) als auch Duisburg revanchieren (2:1-Sieg im Endspiel in Berlin). In der [[UEFA Champions League|Champions League]] hingegen zog man im ersten bundesdeutschen Duell der Geschichte gegen Titelverteidiger [[Borussia Dortmund]] mit 0:0 und 0:1 nach Verlängerung den Kürzeren.
+
+Der 1. FCK und der FCB qualifizierten sich für die Champions League; für den [[Europapokal der Pokalsieger (Fußball)|Europapokal der Pokalsieger]], der 1998/99 letztmals ausgespielt wurde, qualifizierte sich somit der unterlegene Pokalfinalist aus Duisburg.
+
+=== Entscheidungen am letzten Spieltag ===
+Da die Meisterfrage vorzeitig entschieden war, ging es am letzten Spieltag nur noch um die Europapokalplätze und die Abstiegsplätze. [[Bayer 04 Leverkusen]] stand bereits als Dritter und somit [[UEFA-Pokal]]-Teilnehmer fest; zudem qualifizierten sich der [[FC Schalke 04]] und der [[VfB Stuttgart]]. Das Nachsehen hatten [[Werder Bremen]], das im direkten Duell in Stuttgart unterlag, und [[Hansa Rostock]], dem nach einer überragenden Saison der sechste Platz und der Einzug in den [[UI-Cup]] blieb.
+
+[[Arminia Bielefeld]] stand vorzeitig als Absteiger fest. Mit in die 2. Bundesliga ging das Gründungsmitglied [[1. FC Köln]], der erstmals absteigen musste, und nach elf Jahren erster Liga der [[Karlsruher SC]]. Der KSC, am ersten und dritten Spieltag Tabellenführer, rutschte nach einem 2:4 in Rostock auf den drittletzten Platz (mit 38 Punkten stieg der KSC mit der bisher (Stand 2025) höchsten Punktzahl seit Einführung der Drei-Punkte-Regel aus der Bundesliga ab), während [[Borussia Mönchengladbach]] sich durch ein 2:0 in Wolfsburg rettete. Durch den Kölner Abstieg im Jahr 1998 blieb der [[Hamburger SV]] bis zu seinem Abstieg in der Saison 2017/18 der letzte Verein, der seit der ersten Saison 1963/64 stets Mitglied der Bundesliga war.
+
+=== Übrige Vereine ===
+Neben Kaiserslautern blieben auch die anderen beiden Aufsteiger [[VfL Wolfsburg]] und [[Hertha BSC]] in der Liga. Alle Aufsteiger waren bis 2006 ohne Unterbrechung in der ersten Liga vertreten.
+
+[[Borussia Dortmund]] konnte mit dem neuen Trainer [[Nevio Scala]] die hohen Erwartungen nicht erfüllen, erreichte in der Champions League jedoch das Halbfinale, in dem der BVB gegen [[Real Madrid]] ausschied. Im deutschen Duell gegen Bayern München hatten die Dortmunder im Viertelfinale die Oberhand behalten (0:0 auswärts, 1:0 nach Verlängerung zu Hause). Der [[VfB Stuttgart]] unter [[Joachim Löw]] erreichte im [[Europapokal der Pokalsieger 1997/98|Europapokal der Pokalsieger]] das Finale, scheiterte dann allerdings in [[Stockholm]] mit 0:1 am [[FC Chelsea]]. Trotz eines vierten Tabellenplatzes und der damit verbundenen Qualifikation für den UEFA-Pokal wurde Löw am Saisonende entlassen und durch [[Winfried Schäfer]] ersetzt.
+
+=== Verschiedenes ===
+Legendär wurde eine Pressekonferenz vom Trainer des FC Bayern, [[Giovanni Trapattoni]], am 10. März 1998, die mit den Zitaten: „Flasche leer“, „Was erlaube [[Thomas Strunz|Strunz]]?“ und „Ich habe fertig“ in den deutschen Sprachgebrauch einging.
+
+Am 27. Spieltag wurden wegen [[Atommülltransporte in Deutschland|Castortransporten]] mehrere Begegnungen abgesagt und erst nach dem 32. Spieltag nachgeholt. Dies kritisierten einigen Seiten als Wettbewerbsverzerrung.
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 1997-98.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=19 |U=11 |N= 4 |ET=63 |GT=39 |Verein=[[1. FC Kaiserslautern]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=19 |U= 9 |N= 6 |ET=69 |GT=37 |Verein=[[FC Bayern München]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang= 3 |S=14 |U=13 |N= 7 |ET=66 |GT=39 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang= 4 |S=14 |U=10 |N=10 |ET=55 |GT=49 |Verein=[[VfB Stuttgart]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang= 5 |S=13 |U=13 |N= 8 |ET=38 |GT=32 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 6 |S=14 |U= 9 |N=11 |ET=54 |GT=46 |Verein=[[F.C. Hansa Rostock]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=14 |U= 8 |N=12 |ET=43 |GT=47 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=b4cdcd |Rang= 8 |S=11 |U=11 |N=12 |ET=43 |GT=44 |Verein=[[MSV Duisburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=11 |U=11 |N=12 |ET=38 |GT=46 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=11 |U=10 |N=13 |ET=57 |GT=55 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=12 |U= 7 |N=15 |ET=41 |GT=53 |Verein=[[Hertha BSC]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=11 |U= 8 |N=15 |ET=41 |GT=49 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=11 |U= 8 |N=15 |ET=43 |GT=54 |Verein=[[TSV 1860 München]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=11 |U= 6 |N=17 |ET=38 |GT=54 |Verein=[[VfL Wolfsburg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U=11 |N=14 |ET=54 |GT=59 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 9 |U=11 |N=14 |ET=48 |GT=60 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S=10 |U= 6 |N=18 |ET=49 |GT=64 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 8 |U= 8 |N=18 |ET=43 |GT=56 |Verein=[[Arminia Bielefeld]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 1998/99]]: 1. FC Kaiserslautern}}
+{{Farblegende|#ccccff|DFB-Pokal-Sieger und Teilnahme an der UEFA Champions League: FC Bayern München}}
+{{Farblegende|#b4cdcd|Teilnahme am [[Europapokal der Pokalsieger 1998/99]]: MSV Duisburg (Pokalfinalist)}}
+{{Farblegende|#ffc7a3|Teilnahme am [[UEFA-Pokal 1998/99]]: Bayer 04 Leverkusen, VfB Stuttgart, FC Schalke 04}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 1998|UI-Cup 1998]]: F.C. Hansa Rostock, SV Werder Bremen}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1998/99|2. Bundesliga 1998/99]]: Arminia Bielefeld, 1. FC Köln, Karlsruher SC}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1996/97|1996/97]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1996/97|1996/97]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1996/97|1996/97]]
+|}
+
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 1997-98.svg|700px]]
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+| colspan="2" width="200" | '''1997/98'''
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:Bayern München Logo (1996-2002).svg|22px|FC Bayern München]]
+| [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Vfb stuttgart2.png|22px|VfB Stuttgart]]
+| [[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+| [[Datei:F.C. Hansa Rostock Logo.svg|22px|F.C. Hansa Rostock]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:MSV Duisburg.svg|25px|MSV Duisburg]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+| [[Datei:Hertha BSC Logo bis 1999.svg|22px|Hertha BSC]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:TSV 1860 München.svg|22px|TSV 1860 München]]
+| [[Datei:VfL Wolfsburg old.svg|22px|VfL Wolfsburg]]
+| [[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+| [[Datei:Emblem 1.FC Köln.svg|22px|1. FC Köln]]
+| [[Datei:Arminia Bielefeld Logo 1975–2000.svg|22px|Arminia Bielefeld]]
+|-
+| {{0}}1. || align="left" | [[1. FC Kaiserslautern]] || bgcolor="#DCDCDC" | || 2:0 || 0:3 || 4:3 || 3:0 || 4:3 || 1:3 || 1:0 || 2:1 || 1:1 || 1:0 || 3:0 || 1:0 || 4:0 || 3:2 || 0:0 || 3:2 || 3:1
+|-
+| {{0}}2. || align="left" | [[FC Bayern München]] || 0:1 || bgcolor="#DCDCDC" | || 2:1 || 3:3 || 1:1 || 2:0 || 2:0 || 3:0 || 3:0 || 4:0 || 3:0 || 0:0 || 3:1 || 5:2 || 3:2 || 1:1 || 0:2 || 1:0
+|-
+| {{0}}3. || align="left" | [[Bayer 04 Leverkusen]] || 1:1 || 4:2 || bgcolor="#DCDCDC" | || 6:1 || 0:0 || 1:1 || 4:1 || 2:1 || 5:0 || 2:2 || 0:1 || 3:2 || 2:2 || 2:1 || 1:1 || 6:1 || 4:0 || 0:0
+|-
+| {{0}}4. || align="left" | [[VfB Stuttgart]] || 0:1 || 0:3 || 1:0 || bgcolor="#DCDCDC" | || 0:0 || 2:1 || 1:0 || 1:1 || 5:2 || 0:0 || 4:1 || 2:0 || 1:1 || 2:1 || 3:0 || 3:0 || 1:1 || 1:0
+|-
+| {{0}}5. || align="left" | [[FC Schalke 04]] || 1:1 || 1:0 || 2:1 || 3:4 || bgcolor="#DCDCDC" | || 0:0 || 0:1 || 1:1 || 2:2 || 1:0 || 1:0 || 2:0 || 2:0 || 1:1 || 2:0 || 2:0 || 1:0 || 2:1
+|-
+| {{0}}6. || align="left" | [[Hansa Rostock]] || 2:2 || 1:3 || 1:2 || 1:1 || 4:1 || bgcolor="#DCDCDC" | || 1:2 || 2:1 || 2:1 || 3:1 || 4:0 || 2:2 || 3:0 || 0:1 || 2:0 || 4:2 || 1:2 || 2:1
+|-
+| {{0}}7. || align="left" | [[Werder Bremen]] || 1:1 || 0:3 || 2:1 || 2:2 || 2:1 || 1:1 || bgcolor="#DCDCDC" | || 2:2 || 0:0 || 2:1 || 0:2 || 1:0 || 3:3 || 3:1 || 1:0 || 2:4 || 3:0 || 2:1
+|-
+| {{0}}8. || align="left" | [[MSV Duisburg]] || 1:1 || 0:0 || 1:1 || 0:3 || 1:0 || 0:1 || 2:1 || bgcolor="#DCDCDC" | || 3:0 || 0:0 || 0:1 || 2:0 || 0:2 || 2:2 || 4:5 || 1:0 || 2:2 || 2:1
+|-
+| {{0}}9. || align="left" | [[Hamburger SV]] || 1:1 || 0:2 || 0:1 || 0:0 || 1:1 || 0:1 || 2:1 || 1:0 || bgcolor="#DCDCDC" | || 1:3 || 1:1 || 2:1 || 1:2 || 1:2 || 2:2 || 3:1 || 2:1 || 2:0
+|-
+| 10. || align="left" | [[Borussia Dortmund]] || 2:2 || 0:2 || 0:1 || 3:1 || 2:2 || 3:2 || 2:2 || 3:0 || 0:1 || bgcolor="#DCDCDC" | || 3:0 || 5:2 || 2:3 || 2:1 || 1:2 || 2:2 || 3:0 || 3:2
+|-
+| 11. || align="left" | [[Hertha BSC]] || 2:0 || 2:1 || 2:2 || 3:0 || 1:4 || 1:1 || 0:2 || 1:3 || 0:2 || 1:1 || bgcolor="#DCDCDC" | || 2:2 || 2:0 || 1:0 || 2:2 || 3:1 || 1:0 || 1:1
+|-
+| 12. || align="left" | [[VfL Bochum]] || 1:3 || 2:3 || 0:0 || 0:2 || 3:0 || 1:3 || 0:1 || 0:0 || 0:0 || 2:1 || 2:1 || bgcolor="#DCDCDC" | || 1:0 || 2:1 || 3:1 || 3:3 || 2:1 || 1:0
+|-
+| 13. || align="left" | [[TSV 1860 München]] || 1:3 || 2:2 || 3:4 || 1:3 || 1:0 || 0:1 || 0:1 || 0:1 || 1:1 || 4:2 || 3:1 || 0:2 || bgcolor="#DCDCDC" | || 2:1 || 2:0 || 2:2 || 1:0 || 1:0
+|-
+| 14. || align="left" | [[VfL Wolfsburg]] || 2:1 || 2:3 || 1:0 || 1:0 || 0:0 || 1:1 || 1:0 || 0:2 || 1:1 || 1:4 || 2:1 || 0:2 || 1:0 || bgcolor="#DCDCDC" | || 0:2 || 1:2 || 1:1 || 2:0
+|-
+| 15. || align="left" | [[Borussia Mönchengladbach]] || 1:3 || 1:1 || 2:2 || 0:0 || 0:1 || 5:2 || 0:0 || 0:3 || 1:1 || 1:1 || 4:2 || 2:1 || 5:1 || 0:2 || bgcolor="#DCDCDC" | || 1:1 || 4:1 || 0:0
+|-
+| 16. || align="left" | [[Karlsruher SC]] || 2:4 || 1:1 || 1:1 || 4:2 || 0:0 || 3:0 || 3:1 || 1:2 || 0:1 || 0:1 || 0:2 || 1:1 || 0:0 || 2:1 || 2:5 || bgcolor="#DCDCDC" | || 3:1 || 3:1
+|-
+| 17. || align="left" | [[1. FC Köln]] || 0:0 || 1:3 || 2:2 || 4:2 || 0:2 || 0:0 || 2:0 || 3:2 || 1:2 || 4:2 || 2:0 || 2:1 || 2:3 || 5:3 || 3:2 || 0:1 || bgcolor="#DCDCDC" | || 3:5
+|-
+| 18. || align="left" | [[Arminia Bielefeld]] || 2:2 || 4:4 || 2:1 || 2:1 || 1:1 || 0:1 || 3:0 || 3:3 || 0:3 || 3:1 || 1:3 || 0:2 || 1:1 || 0:1 || 3:1 || 2:1 || 2:1 || bgcolor="#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable"
+! !! Spieler!! Verein!! Tore
+|-
+| align="center" | 1.|| {{DEU|Ziel=Ulf Kirsten}}|| Bayer 04 Leverkusen|| align="center" | 22
+|-
+| align="center" | 2.|| {{DEU|Ziel=Olaf Marschall}}|| 1. FC Kaiserslautern|| align="center" | 21
+|-
+| rowspan="2" align="center" | 3.|| {{CHE|Ziel=Stéphane Chapuisat}}|| Borussia Dortmund|| rowspan="2" align="center" | 14
+|-
+| {{DEU|Ziel=Michael Preetz}}|| Hertha BSC
+|-
+| rowspan="6" align="center" | 5.|| {{DEU|Ziel=Fredi Bobic}}|| VfB Stuttgart|| rowspan="6" align="center" | 13
+|-
+| {{DEU|Ziel=Carsten Jancker}}|| FC Bayern München
+|-
+| {{SWE|Jörgen Pettersson (Fußballspieler)|Jörgen Pettersson}}|| Borussia Mönchengladbach
+|-
+| {{AUT|Ziel=Toni Polster}}|| 1. FC Köln
+|-
+| {{DEU|Ziel=Roy Präger}}|| VfL Wolfsburg
+|-
+| {{DEU|Bernhard Winkler (Fußballspieler)|Bernhard Winkler}}|| TSV 1860 München
+|}
+
+== Wissenswertes ==
+* Mit dem Abstieg des [[1. FC Köln]] verblieb nur noch der [[Hamburger SV]] ununterbrochen in der Bundesliga. Damit stieg das 15. Gründungsmitglied ab. Dem HSV brachte dieses Alleinstellungsmerkmal, bis zu seinem eigenen Abstieg in der [[Fußball-Bundesliga 2017/18|Saison 2017/18]], den Spitznamen „Bundesliga-Dino“ ein.
+
+== Die Meistermannschaft 1. FC Kaiserslautern ==
+{| class="wikitable" style="width:540px; text-align: center;"
+|- bgcolor="#DC143C"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''1. FC Kaiserslautern''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Logo 1 FC Kaiserslautern.svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+* '''Tor''': [[Andreas Reinke (Fußballspieler, 1969)|Andreas Reinke]] (31/-); [[Lajos Szűcs (Fußballspieler, 1973)|Lajos Szűcs]] (3/-)
+* '''Abwehr''': [[Miroslav Kadlec]] (32/1); [[Michael Schjønberg]] (31/4); [[Harry Koch (Fußballspieler, 1969)|Harry Koch]] (31/-); [[Axel Roos (Fußballspieler)|Axel Roos]] (31/-); [[Oliver Schäfer]] (10/-); [[Roger Lutz]] (6/-); [[Andreas Brehme]] {{Kapitän}} (5/-); [[János Hrutka]] (3/-)
+* '''Mittelfeld''': [[Ciriaco Sforza]] (32/3); [[Andreas Buck]] (31/1); [[Martin Wagner (Fußballspieler, 1968)|Martin Wagner]] (30/4); [[Ratinho]] (26/4); [[Marijan Christow]] (22/5); [[Michael Ballack]] (16/-); [[Thomas Riedl (Fußballspieler, 1976)|Thomas Riedl]] (6/1); [[Pascal Ojigwe]] (1/-); [[Frank Greiner]] (1/-)
+* '''Angriff''': [[Marco Reich]] (31/1); [[Jürgen Rische]] (27/11); [[Olaf Marschall]] (24/21); [[Pavel Kuka]] (22/5); [[Stefan Ertl]] (5/-)
+* '''Trainer''': [[Otto Rehhagel]]
+|}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]] || class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 15 || 61 || 2 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 14 || 65 || 2 || 2 || 
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 15 || 56 || 2 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Buchhart, Winfried" | [[Winfried Buchhart]] || {{DatumZelle|1958-05-15}} || Bayern || 13 || 51 || 3 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 15 || 66 || 2 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || {{DatumZelle|1964-03-09}} || Rheinland || 15 || 61 || 2 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Fleischer, Helmut" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || {{DatumZelle|1964-03-22}} || Bayern || 1 || 5 || 0 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 13 || 52 || 2 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 17 || 68 || 0 || 2 || 
+|-
+| style="text-align:left" data-sort-value="Jansen, Jurgen" | [[Jürgen Jansen]] || {{DatumZelle|1960-10-16}} || [[Fußballverband Niederrhein|Niederrhein]] || 14 || 54 || 2 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Kemmling, Uwe" | [[Uwe Kemmling]] || {{DatumZelle|1960-11-01}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 13 || 51 || 0 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Keßler, Jorg" | [[Jörg Keßler]] || {{DatumZelle|1964-02-24}} || [[Thüringer Fußball-Verband|Thüringen]] || 12 || 54 || 0 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Koop, Torsten" | [[Torsten Koop]] || {{DatumZelle|1965-05-11}} || [[Landesfußballverband Mecklenburg-Vorpommern|Mecklenburg-Vorpommern]] || 13 || 49 || 2 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 18 || 59 || 1 || 1 || 
+|-
+| style="text-align:left" data-sort-value="Malbranc, Michael" | [[Michael Malbranc]] || {{DatumZelle|1953-03-11}} || [[Hamburger Fußball-Verband|Hamburg]] || 1 || 7 || 0 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 18 || 70 || 2 || 3 || 
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || {{DatumZelle|1969-11-20}} || Bayern || 12 || 44 || 1 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 17 || 51 || 2 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 16 || 69 || 0 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Wack, Franz-Xaver" | [[Franz-Xaver Wack]] || {{DatumZelle|1965-03-05}} || Bayern || 13 || 55 || 3 || 2 || 
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || {{DatumZelle|1963-05-27}} || [[Hessischer Fußball-Verband|Hessen]] || 13 || 58 || 5 || 0 || 
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 14 || 62 || 5 || 2 || 
+|-
+| style="text-align:left" data-sort-value="Zerr, Bernhard" | [[Bernhard Zerr]] || {{DatumZelle|1965-06-12}} || [[Südbadischer Fußballverband|Südbaden]] || 14 || 72 || 1 || 1 || 
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1240 || 39 || 20 || 
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1997-1998/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-25}}</ref>
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 1997/98}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 1997/1998|Fußball-Bundesliga 1997/98}}
+* [https://www.kicker.de/bundesliga/spieltag/1997-98/0/0 Fußball-Bundesliga 1997/98] bei ''kicker.de'', abgerufen am 22. November 2014.
+* [https://www.fussballdaten.de/bundesliga/1998/ Fußball-Bundesliga 1997/98] bei ''fussballdaten.de'', abgerufen am 22. November 2014.
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1997/98 (Deutschland)
+|Navigationsleiste Europa-Fußball 1998
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 1997-98}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1997/98]]
+[[Kategorie:Fußballsaison 1997/98]]

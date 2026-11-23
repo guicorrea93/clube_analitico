@@ -1,0 +1,681 @@
+{{Dieser Artikel|behandelt die Bundesligasaison 2011/12 der Männer. Für die Saison in der Bundesliga der Frauen siehe [[Fußball-Bundesliga 2011/12 (Frauen)|Bundesliga 2011/12 (Frauen)]].}}
+{{Infobox Fußballsaison
+| Name = Bundesliga 2011/12
+| Bild = [[Datei:Bundesliga Wordmark (2010-2017).svg|250px|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 2010–2017. Es besteht aus der Schrift "Bundesliga". Die Schriftfarbe ist schwarz. Der Text lautet "Bundesliga".]]
+| Meister = [[Borussia Dortmund]]
+| UEFA Champions League = Borussia Dortmund<br />[[FC Bayern München]]<br />[[FC Schalke 04]]
+| UEFA Champions League Quali = [[Borussia Mönchengladbach]]
+| Europa League = [[Bayer 04 Leverkusen]]
+| Europa League Quali = [[VfB Stuttgart]]<br />[[Hannover 96]]
+| Pokal-Sieger = Borussia Dortmund
+| Relegation ↓ = [[Hertha BSC]] (1:2 und [[Fußballspiel Fortuna Düsseldorf – Hertha BSC am 15. Mai 2012|2:2]] gegen [[Fortuna Düsseldorf]])
+| Absteiger = Hertha BSC<br />[[1. FC Köln]]<br />[[1. FC Kaiserslautern]]
+| Mannschaften = 18
+| Spiele = 306
+| Relegationsspiele = 2
+| geschossene Tore = 875
+| Zuschauer = 13.805.496
+| Torschützenkönig = {{NLD|Ziel=Klaas-Jan Huntelaar}}<br />([[FC Schalke 04]])
+| vorherige Saison = [[Fußball-Bundesliga 2010/11|Bundesliga 2010/11]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2012/13|Bundesliga 2012/13]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2011/12|2. Bundesliga 2011/12]]
+}}
+[[Datei:1. Fussball-Bundesliga 2011-12.png|mini|hochkant=1.5|Die teilnehmenden Vereine]]
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%;"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+
+<timeline>
+ImageSize = width:160 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:mehrfach        value:rgb(0.86,0.86,0.86)
+  id:mainz_wap       value:rgb(1   ,0.16,0.16)
+  id:gladbach_wap    value:rgb(0.00,0.00,0.00)
+  id:bayern_wap      value:rgb(0.99,0.06,0.20)
+  id:dortmund_wap    value:rgb(0.99,0.88,0.00)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:1.5   shift:(20,-5)   color:mehrfach         text:Wolfsburg/Stuttgart
+    from:1.5 till:2.5   shift:(20,-5)   color:mainz_wap        text:1. FSV Mainz 05
+    from:2.5 till:3.5   shift:(20,-5)   color:gladbach_wap     text:Mönchengladbach
+    from:3.5 till:13.5  shift:(20,-5)   color:bayern_wap       text:Bayern München
+    from:13.5 till:14.5 shift:(20,-5)   color:dortmund_wap     text:Borussia Dortmund
+    from:14.5 till:19.5 shift:(20,-5)   color:bayern_wap       text:Bayern München
+    from:19.5 till:34.5 shift:(20,-5)   color:dortmund_wap     text:Borussia Dortmund
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:160 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:mehrfach            value:rgb(0.86,0.86,0.86)
+  id:koeln_wap           value:rgb(1   ,0.00,0.00)
+  id:hamburg_wap         value:rgb(0.04,0.25,0.53)
+  id:freiburg_wap        value:rgb(0.10,0.09,0.11)
+  id:augsburg_wap        value:rgb(0.90,0.21,0.20)
+  id:kaiserslautern_wap  value:rgb(0.76,0.16,0.16)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:1.5   shift:(20,-5)   color:mehrfach             text:Köln/Schalke 04
+     from:1.5  till:3.5   shift:(20,-5)   color:koeln_wap            text:Köln
+     from:3.5  till:9.5   shift:(20,-5)   color:hamburg_wap          text:Hamburg
+     from:9.5  till:11.5  shift:(20,-5)   color:freiburg_wap         text:Freiburg
+     from:11.5 till:15.5  shift:(20,-5)   color:augsburg_wap         text:Augsburg
+     from:15.5 till:17.5  shift:(20,-5)   color:freiburg_wap         text:Freiburg
+     from:17.5 till:18.5  shift:(20,-5)   color:augsburg_wap         text:Augsburg
+     from:18.5 till:23.5  shift:(20,-5)   color:freiburg_wap         text:Freiburg
+     from:23.5 till:34.5  shift:(20,-5)   color:kaiserslautern_wap   text:Kaiserslautern
+</timeline>
+|}
+
+Die '''[[Fußball-Bundesliga|Bundesliga]] 2011/12''' war die 49. Spielzeit der höchsten deutschen Spielklasse im Fußball der Männer. Am 32. von 34 Spieltagen verteidigte [[Borussia Dortmund]] die Meisterschaft.<ref>[https://www.welt.de/sport/fussball/bundesliga/borussia-dortmund/article106207101/BVB-kroent-sich-gegen-Gladbach-zum-Deutschen-Meister.html ''Borussia Dortmund zum achten Mal Deutscher Meister.''] In: ''[[welt.de]].'' 21. April 2012, abgerufen am 21. April 2012.</ref>
+
+Die Saison begann am 5. August 2011 mit dem Spiel des amtierenden Meisters [[Borussia Dortmund]] gegen den [[Hamburger SV]] (3:1) und endete mit dem letzten Spieltag am 5. Mai 2012. Zwischen dem 10. und dem 15. Mai 2012 schloss sich die [[Relegation zur deutschen Fußball-Bundesliga|Relegation]] zwischen [[Hertha BSC]] und [[Fortuna Düsseldorf]] (1:2 und 2:2) an. Vom 19. Dezember 2011 bis 20. Januar 2012 wurde die Saison durch die Winterpause unterbrochen.<ref>{{Internetquelle |url=http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000169430.php |titel=Nächster Bundesliga-Start am 5. August 2011 |werk=bundesliga.de |datum=2010-11-26 |abruf=2012-02-07 |archiv-datum=2011-08-20 |archiv-url=https://web.archive.org/web/20110820004713/http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000169430.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+
+Deutschland überholte in der [[Fußball-Bundesliga 2010/11|Vorsaison]] Italien in der [[UEFA-Fünfjahreswertung]], weshalb sich erstmals seit [[Fußball-Bundesliga 2001/02|2001/02]] wieder vier Mannschaften für die [[UEFA Champions League|Champions League]] (CL) qualifizieren konnten: Die drei Erstplatzierten waren direkt für die [[UEFA Champions League 2012/13|Champions League 2012/13]] qualifiziert, der Saison-Vierte nahm an der Playoff-Runde zur CL-Qualifikation teil. Da beide Finalisten des DFB-Pokals 2011/12 bereits sicher qualifizierte waren, nahmen neben den Mannschaften auf den Plätzen fünf und sechs auch der Tabellensiebte an der [[UEFA Europa League 2012/13]] teil.
+
+[[Herbstmeister]] nach dem 17. Spieltag wurde der [[FC Bayern München]]. Als Deutscher Meister stand [[Borussia Dortmund]] am 32. Spieltag nach einem 2:0-Sieg gegen [[Borussia Mönchengladbach]] fest, der FC Bayern München stand am selben Spieltag als Vizemeister und der 1. FC Kaiserslautern als erster Absteiger fest.
+
+== Saisonverlauf ==
+=== Spitzengruppe ===
+[[Datei:BVB 2012 4245.jpg|mini|links|Borussia Dortmund gegen Borussia Mönchengladbach am 32. Spieltag, Endstand war 2:0.]]
+
+Borussia Dortmund schaffte es unter Trainer [[Jürgen Klopp]], die Meisterschaft zu verteidigen. Der Start in die Saison war dabei nicht überragend; Tiefstand war der elfte Tabellenplatz nach den Spieltagen fünf und sechs. Bis zum Ende der Hinrunde konnte sich Dortmund fangen und wurde Zweiter. Nach mehreren Misserfolgen des FC Bayern übernahm Dortmund nach dem 20. Spieltag die Tabellenführung. Von da an blieb der BVB bis zum Saisonende an der Spitze. Die 81 erspielten Punkte bedeuteten einen neuen Bundesligarekord, der jedoch schon in der [[Fußball-Bundesliga 2012/13|folgenden Saison]] vom FC Bayern überboten wurde. Erstmals in der Bundesliga-Geschichte überschritt damit ein Verein die 80-Punkte-Marke. Außerdem gewann Dortmund erstmals seit der Saison 1988/89 wieder den DFB-Pokal.
+
+Bayern München unter [[Jupp Heynckes]] startete mit einer Heimniederlage gegen Mönchengladbach in die Saison. Doch bereits nach dem vierten Spieltag standen sie an der Tabellenspitze. Auch zur Winterpause war Bayern Tabellenführer und wurde "Herbstmeister". Doch nach Beginn der Rückrunde erlebte Bayern eine Reihe von sieglosen Spielen. Nach dem 1:1 in Hamburg am 20. Spieltag musste Bayern die Tabellenführung an Dortmund abgeben, was für den Rest der Saison so blieb. Die letzten Hoffnungen auf die Meisterschaft verlor Bayern nach der 1:0-Niederlage gegen Dortmund am 30. Spieltag. [[Arjen Robben]] verschoss in diesem entscheidenden Spiel einen Elfmeter und vergab eine Großchance. Am Ende wurde Bayern, wie in [[DFB-Pokal 2011/12|Pokal]] und [[UEFA Champions League 2011/12|Champions League]], nur Zweiter und verpasste erneut die Meisterschaft. Erstmals seit [[Fußball-Bundesliga 1995/96|1996]] wurde Bayern in zwei aufeinanderfolgenden Saisons nicht Meister.
+
+Der amtierende Pokalsieger FC Schalke 04 verlor das erste Spiel mit 0:3 gegen Stuttgart und war damit nach dem ersten Tag gemeinsam mit Köln Tabellenletzter. Die Tabellensituation besserte sich aber bald wieder. Am 22. September trat Trainer [[Ralf Rangnick]] wegen [[Burnout-Syndrom]]s zurück. Sein Nachfolger wurde [[Huub Stevens]], der die Knappen schon von 1996 bis 2002 trainiert hatte. Schalke belegte dann über weite Saisonteile den dritten Tabellenplatz und hielt diesen auch in der Abschlusstabelle inne. Stürmer [[Klaas-Jan Huntelaar]] wurde mit 29 Treffern Torschützenkönig. Der Fastabsteiger der Vorsaison, Borussia Mönchengladbach, spielte unter [[Lucien Favre]] die beste Saison seit 1996 und rangierte fast durchgehend unter den ersten vier Plätzen. Auch am Ende stand Rang vier.
+
+=== Mittelfeld ===
+Bayer 04 Leverkusen startete unter Trainer [[Robin Dutt]] in die Saison, der zuvor vom SC Freiburg abgeworben worden war. Der Verein spielte jedoch unterhalb der eigenen Anforderungen. Dutt wurde am 1. April durch das Trainergespann [[Sami Hyypiä]] und [[Sascha Lewandowski]] ersetzt. Am Ende gab es für die Werkself den fünften Platz. Der VfB Stuttgart erreichte unter [[Bruno Labbadia]] den sechsten Platz. Hannover 96 beendete die Saison unter [[Mirko Slomka]] auf dem siebten Platz und erreichte damit wie im Vorjahr den Europacup. Der von [[Felix Magath]] trainierte VfL Wolfsburg schloss die Saison auf Rang acht ab; den Großteil der Saison hatte er dabei auf niedrigeren Plätzen verbracht. Werder Bremen belegte unter [[Thomas Schaaf]] am Ende den neunten Platz; dabei hatte sich die Platzierung im Verlauf der Rückrunde und besonders an den letzten Spieltagen sukzessive verschlechtert.
+
+[[Datei:2011-11-26 Club-Lautern10 (6413684989).jpg|mini|Die Spieler des 1. FC Nürnberg bedanken sich nach einem 1:0-Heimsieg gegen den 1. FC Kaiserslautern am 14. Spieltag bei den Fans.]]
+Der 1. FC Nürnberg unter [[Dieter Hecking]] belegte in der Abschlusstabelle Platz zehn. Zur Winterpause hatten die Franken noch auf Rang 15 gelegen. Erfolgreichste Torjäger waren [[Tomáš Pekhart]] und [[Daniel Didavi]], dem eine Serie von sechs Treffern an fünf aufeinanderfolgenden Spieltagen gelungen war. Nach der Saison verließ Abwehrspieler [[Philipp Wollscheid]] den Verein in Richtung Leverkusen. Die sieben Millionen Euro Ablöse bedeuteten einen neuen Transferrekord für den 1. FC Nürnberg. Die TSG 1899 Hoffenheim beendete die Saison auf Platz elf. Abgesehen vom vierten Tabellenrang nach den Spieltagen sechs und sieben hatte sie das ganze Jahr im Mittelfeld verbracht. Der erst vor der Saison neu verpflichtete [[Holger Stanislawski]] wurde am 9. Dezember durch [[Markus Babbel]] ersetzt.
+
+=== Abstiegskampf ===
+Ähnlichkeiten gab es beim SC Freiburg. Auch hier wurde der neue Trainer [[Marcus Sorg]] schon im Dezember entlassen und durch Co-Trainer [[Christian Streich]] ersetzt. Allerdings hatten sich die Breisgauer zu diesem Zeitpunkt mitten im Abstiegskampf befunden. Vom dreiundzwanzigsten bis zum siebenundzwanzigsten Spieltag schafften sie es dann, sich vom letzten bis zum dreizehnten Tabellenplatz hochzuarbeiten. Bis Saisonende gelang noch die Verbesserung auf Platz zwölf. Der FSV Mainz 05 startete unter [[Thomas Tuchel]] stark in die Saison und war nach dem zweiten Spieltag Tabellenführer. Es folgte jedoch ein Absturz, der sich im weiteren Verlauf um den Endplatz dreizehn einpendelte.
+
+Der FC Augsburg verbrachte sein erstes Jahr überhaupt in der Bundesliga und spielte erstmals seit der Oberliga Süd 1963 wieder erstklassig. Er war jedoch von Anfang an in den Abstiegskampf verwickelt. Vom zwölften bis zum zweiundzwanzigsten Spieltag lagen die Bayerisch-Schwaben durchweg auf einem direkten Abstiegsplatz, am Ende schafften sie es noch, sich auf Rang vierzehn zu retten. Aufstiegstrainer [[Jos Luhukay]] trat im Anschluss an die Saison zurück, sein Nachfolger wurde [[Markus Weinzierl]]. Der Hamburger SV spielte eine schwache Saison und verbrachte in der Hinrunde sechs Spieltage am Tabellenende. Trainer [[Michael Oenning]] wurde schon am 19. September durch [[Rodolfo Cardoso]] ersetzt. Dieser besaß aber keine Trainerlizenz, daher übernahm am 10. Oktober der Sportdirektor [[Frank Arnesen]] ebenfalls interimsmäßig das Traineramt. Am 17. Oktober wurde [[Thorsten Fink]] verpflichtet. Unter ihm wurde zwar der Klassenerhalt erreicht, Platz fünfzehn bedeutete allerdings die schlechteste jemals erspielte Abschlussposition in der Geschichte des HSV.
+
+Neuaufsteiger Hertha BSC ersetzte am 18. Dezember [[Markus Babbel]] durch [[Michael Skibbe]]. Dieser musste bereits am 12. Februar selbst weichen und wurde durch ''Trainerlegende'' [[Otto Rehhagel]] abgelöst. Dabei hatte sich der Verein eigentlich erst gegen Ende der Saison zum Abstiegskandidaten entwickelt. Am letzten Spieltag gelang noch die Verbesserung auf den Relegationsplatz. In den Entscheidungsspielen, die überwiegend wegen Ausschreitungen der Fans auffielen, gelang der Klassenerhalt nicht. Der 1. FC Köln stieg nach vier Jahren Bundesligazugehörigkeit als Vorletzter wieder ab. Der vor der Saison neu verpflichtete [[Ståle Solbakken]] wurde am 16. April von [[Frank Schaefer]] abgelöst. Ihre stärkste Phase hatten die Kölner in der Mitte der Saison. Stürmer [[Lukas Podolski]] verließ den Verein nach der Saison zum FC Arsenal. Auch der 1. FC Kaiserslautern befand sich die ganze Saison hindurch im Abstiegskampf. Am 20. März wurde Trainer [[Marco Kurz]] durch [[Krassimir Balakow]] ersetzt. Doch auch dieser konnte nicht verhindern, dass sich die Pfälzer ab dem 24. Spieltag durchgängig auf dem letzten Platz befanden.
+
+== Statistiken ==
+=== Abschlusstabelle ===
+{{Fußballtabelle/Kopf|nosort=}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=25 |U= 6 |N= 3 |ET=80 |GT=25 |Verein=[[Borussia Dortmund]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=23 |U= 4 |N= 7 |ET=77 |GT=22 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=20 |U= 4 |N=10 |ET=74 |GT=44 |Verein=[[FC Schalke 04]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 4 |S=17 |U= 9 |N= 8 |ET=49 |GT=24 |Verein=[[Borussia Mönchengladbach]] (R) }}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang= 5 |S=15 |U= 9 |N=10 |ET=52 |GT=44 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 6 |S=15 |U= 8 |N=11 |ET=63 |GT=46 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 7 |S=12 |U=12 |N=10 |ET=41 |GT=45 |Verein=[[Hannover 96]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=13 |U= 5 |N=16 |ET=47 |GT=60 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=11 |U= 9 |N=14 |ET=49 |GT=58 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=12 |U= 6 |N=16 |ET=38 |GT=49 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=10 |U=11 |N=13 |ET=41 |GT=47 |Verein=[[TSG 1899 Hoffenheim]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=10 |U=10 |N=14 |ET=45 |GT=61 |Verein=[[SC Freiburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S= 9 |U=12 |N=13 |ET=47 |GT=51 |Verein=[[1. FSV Mainz 05]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 8 |U=14 |N=12 |ET=36 |GT=49 |Verein=[[FC Augsburg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 8 |U=12 |N=14 |ET=35 |GT=57 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=fffccc |Rang=16 |S= 7 |U=10 |N=17 |ET=38 |GT=64 |Verein=[[Hertha BSC]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 8 |U= 6 |N=20 |ET=39 |GT=75 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 4 |U=11 |N=19 |ET=24 |GT=54 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Ende}}
+''Zum Saisonende 2011/12:''
+{{Farblegende|#ccffcc|Deutscher Meister, [[DFB-Pokal 2011/12|DFB-Pokalsieger]] und Teilnahme an der [[UEFA Champions League 2012/13]]}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League 2012/13}}
+{{Farblegende|#ddddff|Teilnahme an den [[UEFA Champions League 2012/13#Play-offs|Qualifikations-Playoffs]] zur UEFA Champions League 2012/13}}
+{{Farblegende|#ffc7a3|Teilnahme an der [[UEFA Europa League 2012/13]] anstelle des DFB-Pokalsiegers}}
+{{Farblegende|#ffdac2|Teilnahme an der [[UEFA Europa League 2012/13#Qualifikation|Qualifikation]] zur UEFA Europa League 2012/13}}
+{{Farblegende|#fffccc|Teilnahme an den [[Relegation zur deutschen Fußball-Bundesliga|Relegationsspielen]] gegen den Drittplatzierten der [[2. Fußball-Bundesliga 2011/12|2. Bundesliga]]}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2012/13|2. Bundesliga 2012/13]]}}
+{|
+| colspan="2"| ''Zum Saisonende 2010/11:''
+|-
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 2010/11|2010/11]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 2010/11|2010/11]]
+|-
+| (R) || Sieger der [[Fußball-Bundesliga 2010/11#Relegation|Relegation 2010/11]]
+|-
+| (N) || Aufsteiger der Saison [[2. Fußball-Bundesliga 2010/11|2010/11]]
+|}
+
+=== Tabellenverlauf ===
+[[Datei:Platzierungen Bundesliga 2011-2012.svg|600px]]
+
+=== Kreuztabelle ===
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte, die Gastmannschaft in der oberen Zeile aufgelistet.
+
+{| class="wikitable" style="text-align:center;"
+!2011/12
+![[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+![[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+![[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+![[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+![[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+![[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+![[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+![[Datei:Logo-VfL-Wolfsburg.svg|22px|VfL Wolfsburg]]
+![[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+![[Datei:1. FC Nürnberg logo.svg|22px|1. FC Nürnberg]]
+![[Datei:Logo TSG Hoffenheim.svg|22px|TSG 1899 Hoffenheim]]
+![[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+![[Datei:FSV Mainz 05 Logo.svg|22px|FSV Mainz 05]]
+![[Datei:Logo FC Augsburg.svg|22px|FC Augsburg]]
+![[Datei:Hamburger SV logo.svg|22px|Hamburger SV]]
+![[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+![[Datei:1. FC Koeln Logo 2000–2014.png|22px|1. FC Köln]]
+![[Datei:1FC Kaiserslautern Wappen 2010.svg|22px|1. FC Kaiserslautern]]
+|-
+| style="text-align:left" | [[Borussia Dortmund]]|| class="hintergrundfarbe5" | || 1:0 || 2:0 || 2:0 || 1:0 || 4:4 || 3:1 || 5:1 || 1:0 || 2:0 || 3:1 || 4:0 || 2:1 || 4:0 || 3:1 || 1:2 || 5:0 || 1:1
+|-
+| style="text-align:left" | [[FC Bayern München]] || 0:1 || class="hintergrundfarbe5" | || 2:0 || 0:1 || 3:0 || 2:0 || 2:1 || 2:0 || 4:1 || 4:0 || 7:1 || 7:0 || 0:0 || 2:1 || 5:0 || 4:0 || 3:0 || 2:0
+|-
+| style="text-align:left" | [[FC Schalke 04]] || 1:2 || 0:2 || class="hintergrundfarbe5" | || 1:0 || 2:0 || 3:1 || 3:0 || 4:0 || 5:0 || 4:0 || 3:1 || 4:2 || 1:1 || 3:1 || 3:1 || 4:0 || 5:1 || 1:2
+|-
+| style="text-align:left" | [[Borussia Mönchengladbach]] || 1:1 || 3:1 || 3:0 || class="hintergrundfarbe5" | || 2:2 || 1:1 || 2:1 || 4:1 || 5:0 || 1:0 || 1:2 || 0:0 || 1:0 || 0:0 || 1:1 || 0:0 || 3:0 || 1:0
+|-
+| style="text-align:left" | [[Bayer 04 Leverkusen]] || 0:0 || 2:0 || 0:1 || 1:2 || class="hintergrundfarbe5" | || 2:2 || 1:0 || 3:1 || 1:0 || 0:3 || 2:0 || 0:2 || 3:2 || 4:1 || 2:2 || 3:3 || 1:4 || 3:1
+|-
+| style="text-align:left" | [[VfB Stuttgart]] || 1:1 || 1:2 || 3:0 || 0:3 || 0:1 || class="hintergrundfarbe5" | || 3:0 || 3:2 || 4:1 || 1:0 || 2:0 || 4:1 || 4:1 || 2:1 || 1:2 || 5:0 || 2:2 || 0:0
+|-
+| style="text-align:left" | [[Hannover 96]] || 2:1 || 2:1 || 2:2 || 2:1 || 0:0 || 4:2 || class="hintergrundfarbe5" | || 2:0 || 3:2 || 1:0 || 2:1 || 0:0 || 1:1 || 2:2 || 1:1 || 1:1 || 4:1 || 2:1
+|-
+| style="text-align:left" | [[VfL Wolfsburg]] || 1:3 || 0:1 || 2:1 || 0:0 || 3:2 || 1:0 || 4:1 || class="hintergrundfarbe5" | || 3:1 || 2:1 || 1:2 || 3:2 || 2:2 || 1:2 || 2:1 || 2:3 || 1:0 || 1:0
+|-
+| style="text-align:left" | [[Werder Bremen]] || 0:2 || 1:2 || 2:3 || 2:2 || 1:1 || 2:0 || 3:0 || 4:1 || class="hintergrundfarbe5" | || 0:1 || 1:1 || 5:3 || 0:3 || 1:1 || 2:0 || 2:1 || 3:2 || 2:0
+|-
+| style="text-align:left" | [[1. FC Nürnberg]] || 0:2 || 0:1 || 4:1 || 1:0 || 1:4 || 2:2 || 1:2 || 1:3 || 1:1 || class="hintergrundfarbe5" | || 0:2 || 1:2 || 3:3 || 1:0 || 1:1 || 2:0 || 2:1 || 1:0
+|-
+| style="text-align:left" | [[TSG 1899 Hoffenheim]] || 1:0 || 0:0 || 1:1 || 1:0 || 0:1 || 1:2 || 0:0 || 3:1 || 1:2 || 2:3 || class="hintergrundfarbe5" | || 1:1 || 1:1 || 2:2 || 4:0 || 1:1 || 1:1 || 1:1
+|-
+| style="text-align:left" | [[SC Freiburg]] || 1:4 || 0:0 || 2:1 || 1:0 || 0:1 || 1:2 || 1:1 || 3:0 || 2:2 || 2:2 || 0:0 || class="hintergrundfarbe5" | || 1:2 || 1:0 || 1:2 || 2:2 || 4:1 || 2:0
+|-
+| style="text-align:left" | [[1. FSV Mainz 05]] || 1:2 || 3:2 || 2:4 || 0:3 || 2:0 || 3:1 || 1:1 || 0:0 || 1:3 || 2:1 || 0:4 || 3:1 || class="hintergrundfarbe5" | || 0:1 || 0:0 || 1:3 || 4:0 || 4:0
+|-
+| style="text-align:left" | [[FC Augsburg]] || 0:0 || 1:2 || 1:1 || 1:0 || 1:4 || 1:3 || 0:0 || 2:0 || 1:1 || 0:0 || 0:2 || 2:2 || 2:1 || class="hintergrundfarbe5" | || 1:0 || 3:0 || 2:1 || 2:2
+|-
+| style="text-align:left" | [[Hamburger SV]] || 1:5 || 1:1 || 1:2 || 0:1 || 1:1 || 0:4 || 1:0 || 1:1 || 1:3 || 2:0 || 2:0 || 1:3 || 0:0 || 1:1 || class="hintergrundfarbe5" | || 2:2 || 3:4 || 1:1
+|-
+| style="text-align:left" | [[Hertha BSC]] || 0:1 || 0:6 || 1:2 || 1:2 || 3:3 || 1:0 || 0:1 || 1:4 || 1:0 || 0:1 || 3:1 || 1:2 || 0:0 || 2:2 || 1:2 || class="hintergrundfarbe5" | || 3:0 || 1:2
+|-
+| style="text-align:left" | [[1. FC Köln]] || 1:6 || 1:4 || 1:4 || 0:3 || 0:2 || 1:1 || 2:0 || 0:3 || 1:1 || 1:2 || 2:0 || 4:0 || 1:1 || 3:0 || 0:1 || 1:0 || class="hintergrundfarbe5" | || 1:1
+|-
+| style="text-align:left" | [[1. FC Kaiserslautern]] || 2:5 || 0:3 || 1:4 || 1:2 || 0:2 || 0:2 || 1:1 || 0:0 || 0:0 || 0:2 || 1:2 || 1:0 || 3:1 || 1:1 || 0:1 || 1:1 || 0:1 || class="hintergrundfarbe5" |
+|}
+
+=== Relegation ===
+Die beiden Relegationsspiele zwischen dem Sechzehnten der Bundesliga und dem Dritten der 2. Bundesliga wurden am 10. Mai 2012 und am 15. Mai 2012 ausgetragen und live im Fernsehsender ''[[Das Erste]], [[Das Erste|Das Erste HD]]'' sowie vom Pay-TV-Sender ''[[Sky Deutschland|Sky]]'' auf den Programmen Sky Sport HD 1, Sky 3D und Sky Sport live ausgestrahlt. Bei der zweiten Partie kam es in der Nachspielzeit zu Tumulten, als tausende Fans noch vor dem Abpfiff das Spielfeld stürmten und unter anderem [[Bengalisches Feuer|bengalische Feuer]] zündeten. Schiedsrichter [[Wolfgang Stark]] unterbrach daraufhin das Spiel. Nur mit Mühe konnten die Fans von Ordnern und Polizei zurückgedrängt werden und die Partie nach einer ca. 20-minütigen Unterbrechung für etwa anderthalb weitere Minuten Spielzeit angepfiffen werden.<ref name="faz">[https://www.faz.net/aktuell/sport/fussball/bundesliga-relegation-hertha-erwaegt-einspruch-11753363.html ''Bundesliga-Relegation: Hertha erwägt Einspruch ''] bei faz.net, 16. Mai 2012, abgerufen am 16. Mai 2012.</ref> Bereits zuvor musste die Partie zweimal wegen auf den Tribünen gezündeter bengalischer Feuerwerke, die auf das Spielfeld geworfen wurden, unterbrochen werden. Aufgrund der Vorkommnisse im Rückspiel nahm der DFB Ermittlungen gegen Verein, Veranstalter und auch wegen des Fehlverhaltens einzelner Spieler auf beiden Seiten auf. Nach dem Spiel stellte Stark Strafantrag wegen Körperverletzung gegen den Spieler [[Lewan Kobiaschwili]] von Hertha BSC, der ihn auf dem Weg in die Kabine geschlagen haben soll.<ref>[http://web.de/magazine/sport/fussball/1liga/15391630-referee-stark-zeigt-hertha-spieler.html ''„Referee Stark zeigt Hertha-Spieler an“''], [[Deutsche Presse-Agentur|dpa]] am 18. Mai 2012.</ref><ref>[http://www.bild.de/sport/fussball/levan-kobiashvili/nie-wieder-bundesliga-24224092.bild.html ''„Spielt Kobiaschwili nie wieder Fußball?“''] {{Toter Link|url=http://www.bild.de/sport/fussball/levan-kobiashvili/nie-wieder-bundesliga-24224092.bild.html |date=2026-09 |archivebot=2026-09-26 20:54:01 InternetArchiveBot }}, in: BILD online vom 19. Mai 2012.</ref><ref>[https://www.tagesspiegel.de/sport/hertha-bsc/nach-eskalation-bei-relegationsspiel-schiedsrichter-stark-hat-hertha-spieler-angezeigt/6646254.html ''„Schiedsrichter Stark hat Hertha-Spieler angezeigt“''], in Der Tagesspiegel online vom 18. Mai 2012.</ref>
+{{Hauptartikel|Fußballspiel Fortuna Düsseldorf – Hertha BSC am 15. Mai 2012}}
+
+{{OneLegStart|Datum=1|8=Tore}}
+{{OneLegResult|6=10. Mai 2012|[[Hertha BSC]]||1:2 (1:0)|'''[[Fortuna Düsseldorf]]'''|9=1:0 [[Roman Hubník|Hubník]] (19.), 1:1 [[Thomas Bröker|Bröker]] (64.), 1:2 [[Adrián Ramos|Ramos]] (71., Eigentor)}}
+{{OneLegResult|6=15. Mai 2012|[[Fortuna Düsseldorf]]||2:2 (1:1)|[[Hertha BSC]]|9=1:0 [[Maximilian Beister|Beister]] (1.), 1:1 [[Änis Ben-Hatira|Ben-Hatira]] (23.), 2:1 [[Ranisav Jovanović|Jovanović]] (59.), 2:2 [[Raffael Caetano de Araújo|Raffael]] (85.)}}
+{{OneLegResult|6=Gesamt|[[Hertha BSC]]||3:4 (1:0)|'''[[Fortuna Düsseldorf]]'''}}
+|}
+
+Fortuna Düsseldorf galt mehr als einen Monat nur vorläufig als [[Fußball-Bundesliga 2012/13|Bundesligist in der Saison 2012/13]]. Hertha BSC legte gegen die Wertung des Ergebnisses am 16. Mai Protest ein.<ref>[https://www.spiegel.de/sport/fussball/hertha-bsc-legt-einspruch-gegen-relegations-spielwertung-ein-a-833633.html Hertha BSC legt Einspruch gegen Relegationsspielwertung ein]; [[Spiegel Online]]; abgerufen am 16. Mai 2012.</ref>
+
+Der DFB bestätigte den fristgerechten Eingang des Protests und befasste sich am 18. Mai damit. Da die [[Beweis (Rechtswesen)|Beweisaufnahme]] viel Zeit beanspruchte, folgte das Urteil erst am 21. Mai. Die offizielle Aufstiegsfeier von Fortuna Düsseldorf, die für den 19. Mai geplant war, wurde abgesagt.<ref>[http://www.kicker.de/news/fussball/bundesliga/startseite/569136/artikel_hertha-legt-protest-ein---verhandlung-am-freitag.html Hertha legt Protest ein – Verhandlung am Freitag], Kicker Online vom 16. Mai 2012.</ref>
+
+Der Einspruch von Hertha BSC wurde in erster Instanz abgelehnt, jedoch ging der Verein gegen die Entscheidung in Berufung. Das DFB-Bundesgericht bestätigte am 25. Mai das erstinstanzliche Urteil.<ref>[http://www.kicker.de/news/fussball/bundesliga/startseite/569617/artikel_herthas-forderungen-bleiben-unerfuellt.html Herthas Forderungen bleiben unerfüllt], kicker.de, 25. Mai 2012, gesichtet am selben Tag.</ref>
+
+Hertha kündigte im Vorfeld an, bei einer erneuten Niederlage wieder in Berufung gehen zu wollen, was aber die Vereinsmitglieder bei einer Versammlung ablehnten. Die nächsten Instanzen wären das ständige Schiedsgericht und weiter der [[Internationaler Sportgerichtshof|Internationale Sportgerichtshof CAS]] gewesen. Am 19. Juni 2012 wurde von Hertha BSC bekannt gegeben, keinen weiteren Protest gegen die Wertung des Rückspiels einlegen zu wollen, womit der endgültige Abstieg in die [[2. Fußball-Bundesliga 2012/13|2. Bundesliga]] offiziell war.<ref>[https://www.welt.de/sport/fussball/bundesliga/hertha-bsc/article106633458/Hertha-verzichtet-auf-Protest-und-akzeptiert-Abstieg.html ''Hertha verzichtet auf Protest und akzeptiert Abstieg''.] In: ''welt.de'', 19. Juni 2012.</ref>
+
+=== Torschützenliste ===
+[[Datei:Klaas-Jan Huntelaar 2011.jpg|mini|hochkant|Torschützenkönig und [[Scorerpunkt|Topscorer]] 2011/12: Klaas-Jan Huntelaar]]
+Bei gleicher Anzahl von Treffern sind die Spieler alphabetisch geordnet. Mit seinen 29 Toren wurde Klaas-Jan Huntelaar zum ersten niederländischen [[Liste der Torschützenkönige der Fußball-Bundesliga|Torschützenkönig in der Bundesliga-Geschichte]].
+
+{| class="wikitable sortable" style="text-align: center; width: 35%;"
+! style="width:4%;"| Pl.
+! style="width:23%;"| Spieler<ref name="torjäger">{{Internetquelle |url=http://www.bundesliga.de/de/liga/torjaeger/index.php |titel=Torjäger |werk=bundesliga.de |abruf=2012-05-05 |archiv-datum=2011-07-05 |archiv-url=https://web.archive.org/web/20110705044829/http://bundesliga.de/de/liga/torjaeger/index.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+! style="width:23%;"| Verein
+! style="width:11%;"| Tore
+|-
+| {{0}}1 || style="text-align:left" data-sort-value="Huntelaar, Klaasjan" | {{NLD|Ziel=Klaas-Jan Huntelaar}} || style="text-align:left" | [[FC Schalke 04]] || 29
+|-
+| {{0}}2 || style="text-align:left" data-sort-value="Gomez, Mario" | {{DEU|Ziel=Mario Gómez}} || style="text-align:left" | [[FC Bayern München]] || 26
+|-
+| {{0}}3 || style="text-align:left" data-sort-value="Lewandowski, Robert" | {{POL|Ziel=Robert Lewandowski}} ||style="text-align:left" | [[Borussia Dortmund]] || 22
+|-
+| rowspan="3"| {{0}}4 || style="text-align:left" data-sort-value="Pizarro, Claudio" | {{PER|Ziel=Claudio Pizarro}} ||style="text-align:left" | [[Werder Bremen]] || rowspan="3"| 18
+|-
+| style="text-align:left" data-sort-value="Podolski, Lukas" | {{DEU|Ziel=Lukas Podolski}} ||style="text-align:left" | [[1. FC Köln]]
+|-
+| style="text-align:left" data-sort-value="Reus, Marco" | {{DEU|Ziel=Marco Reus}} || style="text-align:left" | [[Borussia Mönchengladbach]]
+|-
+| {{0}}7 || style="text-align:left" data-sort-value="Harnik, Martin" | {{AUT|Ziel=Martin Harnik}} || style="text-align:left" | [[VfB Stuttgart]] || 17
+|-
+| {{0}}8 || style="text-align:left" data-sort-value="Kießling, Stefan" | {{DEU|Stefan Kießling (Fußballspieler)|Stefan Kießling}} || style="text-align:left" | [[Bayer 04 Leverkusen]] || 16
+|-
+| {{0}}9 || style="text-align:left" data-sort-value="Raul" | {{ESP|Raúl (Fußballspieler)|Raúl}} ||style="text-align:left" | FC Schalke 04 || 15
+|-
+|rowspan="2"| 10 || style="text-align:left" data-sort-value="Ibisevic, Vedad" | {{BIH|Ziel=Vedad Ibišević}} || style="text-align:left" | VfB Stuttgart{{FN|1}} || rowspan="2"| 13
+|-
+| style="text-align:left" data-sort-value="Kagawa, Shinji" | {{JPN|Ziel=Shinji Kagawa}} || style="text-align:left" | Borussia Dortmund
+|}
+{{FNBox|
+{{FNZ|1|Ibišević spielte bis zur Winterpause für die [[TSG 1899 Hoffenheim]] und erzielte für diese fünf Tore.}}
+}}
+
+=== Scorerliste ===
+Bei gleicher Anzahl von Scorerpunkten sind die Spieler alphabetisch geordnet.
+
+{| class="wikitable sortable" style="text-align: center; width: 45%;"
+! style="width:4%;"| Pl.
+! style="width:23%;"| Spieler<ref name="scorer">{{Internetquelle |url=http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2011-12/0/scorer-der-saison.html |titel=Scorer |hrsg=kicker.de |abruf=2016-04-02}}</ref>
+! style="width:23%;"| Verein
+! style="width:11%;"| Gesamt
+! style="width:11%;"| Tore
+! style="width:11%;"| Vorlagen
+|-
+| {{0}}1 || style="text-align:left" data-sort-value="Huntelaar, Klaas-Jan" | {{NLD|Ziel=Klaas-Jan Huntelaar}} || style="text-align:left" | [[FC Schalke 04]] || 42 || 29 || 13
+|-
+|rowspan="2"| {{0}}2 || style="text-align:left" data-sort-value="Lewandowski, Robert" | {{POL|Ziel=Robert Lewandowski}} || style="text-align:left" | [[Borussia Dortmund]] || rowspan="2"| 32 || 22 || 10
+|-
+| style="text-align:left" data-sort-value="Ribéry, Franck" | {{FRA|Ziel=Franck Ribéry}} || style="text-align:left" | [[FC Bayern München]] || 12 || 20
+|-
+|rowspan="2"| {{0}}4 || style="text-align:left" data-sort-value="Gómez, Mario" | {{DEU|Ziel=Mario Gómez}} || style="text-align:left" | FC Bayern München || rowspan="2"| 29 || 26 || {{0}}3
+|-
+| style="text-align:left" data-sort-value="Reus, Marco" | {{DEU|Ziel=Marco Reus}} || style="text-align:left" | [[Borussia Mönchengladbach]] || rowspan="3"| 18 || 11
+|-
+|{{0}}6 || style="text-align:left" data-sort-value="Pizarro, Claudio" | {{PER|Ziel=Claudio Pizarro}} || style="text-align:left" | [[Werder Bremen]] || 28 || 10
+|-
+| {{0}}7 || style="text-align:left" data-sort-value="Podolski, Lukas" | {{DEU|Ziel=Lukas Podolski}} || style="text-align:left" | [[1. FC Köln]] || 27 || {{0}}9
+|-
+| {{0}}8 || style="text-align:left" data-sort-value="Harnik, Martin" | {{AUT|Ziel=Martin Harnik}} || style="text-align:left" | [[VfB Stuttgart]] || 25 || 17 || {{0}}8
+|-
+| {{0}}9 || style="text-align:left" data-sort-value="Kagawa, Shinji" | {{JPN|Ziel=Shinji Kagawa}} || style="text-align:left" | Borussia Dortmund || 24 || 13 || 11
+|-
+| {{0}}10 || style="text-align:left" data-sort-value="Mandžukić, Mario" | {{HRV|Ziel=Mario Mandžukić}} || style="text-align:left" | [[VfL Wolfsburg]] || 22 || 12 || 10
+|}
+
+=== Meiste Torvorlagen ===
+Bei gleicher Anzahl von [[Torvorlage|Vorlagen]] sind die Spieler alphabetisch geordnet.
+
+{| class="wikitable sortable" style="text-align: center; width: 40%;"
+! style="width:4%;"| Pl.
+! style="width:23%;"| Spieler<ref name="scorer" />
+! style="width:23%;"| Verein
+! style="width:11%;"| Vorlagen
+
+|-
+| 1 || style="text-align:left" data-sort-value="Ribéry, Franck" | {{FRA|Ziel=Franck Ribéry}} || style="text-align:left" | [[FC Bayern München]] || 20
+|-
+|rowspan="2"| 2 || style="text-align:left" data-sort-value="Huntelaa, Klaasjan" | {{NLD|Ziel=Klaas-Jan Huntelaar}} || style="text-align:left" | [[FC Schalke 04]] || rowspan="2"| 13
+|-
+| style="text-align:left" data-sort-value="Muller, Thomas" | {{DEU|Ziel=Thomas Müller}} || style="text-align:left" | FC Bayern München
+|-
+| 4 || style="text-align:left" data-sort-value="Arango, Juan" | {{VEN|Ziel=Juan Arango}} || style="text-align:left" | [[Borussia Mönchengladbach]] || 12
+|-
+|rowspan="2"| 5 || style="text-align:left" data-sort-value="Kagawa, Shinji" | {{JPN|Ziel=Shinji Kagawa}} || style="text-align:left" | [[Borussia Dortmund]] || rowspan="2"| 11
+|-
+| style="text-align:left" data-sort-value="Reus, Marco" | {{DEU|Ziel=Marco Reus}} || style="text-align:left" | Borussia Mönchengladbach
+|-
+|rowspan="7"| 7 || style="text-align:left" data-sort-value="Blaszczykowski, Jakub" | {{POL|Ziel=Jakub Błaszczykowski}} || style="text-align:left" | Borussia Dortmund || rowspan="7"| 10
+|-
+| style="text-align:left" data-sort-value="Dejagah, Ashkan" |{{IRN|Ziel=Ashkan Dejagah}} || style="text-align:left" | [[VfL Wolfsburg]]
+|-
+| style="text-align:left" data-sort-value="Hajnal, Tamás" | {{HUN|Ziel=Tamás Hajnal}} || style="text-align:left" | [[VfB Stuttgart]]
+|-
+| style="text-align:left" data-sort-value="Kroos, Toni" | {{DEU|Ziel=Toni Kroos}} || style="text-align:left" | FC Bayern München
+|-
+| style="text-align:left" data-sort-value="Lewandowski, Robert" | {{POL|Ziel=Robert Lewandowski}} || style="text-align:left" | Borussia Dortmund
+|-
+| style="text-align:left" data-sort-value="Mandžukić, Mario" | {{HRV|Ziel=Mario Mandžukić}} || style="text-align:left" | VfL Wolfsburg
+|-
+| style="text-align:left" data-sort-value="Pizarro, Claudio" | {{PER|Ziel=Claudio Pizarro}} || style="text-align:left" | [[Werder Bremen]]
+|-
+|}
+
+=== Zuschauertabelle ===
+[[Datei:Signal iduna park stadium dortmund 4.jpg|mini|Der höchste Zuschauerschnitt der Liga lag im Westfalenstadion bei 80.521]]
+[[Datei:Badenova-Stadion Nord-Osten.JPG|mini|Der niedrigste Zuschauerschnitt lag im Mage Solar Stadion bei 22.676]]
+
+Mit 1.368.860 Besuchern in der gesamten Saison hatte Borussia Dortmund erneut die meisten Zuschauer und übertraf damit die Zahl aus der Vorsaison mit 1.345.560 Zuschauern.<ref>[http://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2011-12/zuschauer-der-saison.html# Zuschauertabelle] auf kicker online.</ref> Auch die Gesamtzahl der Stadionbesucher war mit 13.805.496 höher als je zuvor.<ref>{{Webarchiv|url=http://www.bundesliga.de/de/statistik/saison/index.php |wayback=20120807074136 |text=Saisonstatistiken |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }} auf Bundesliga.de</ref>
+
+{| class="wikitable sortable" style="text-align:center;"
+|- class="hintergrundfarbe5"
+! !! Verein!! Zuschauer!! pro Spiel!! Auslastung!! ausverkauft
+|-
+| {{0}}1.|| style="text-align:left" | [[Borussia Dortmund]]|| {{0}}1.368.860|| 80.521|| {{0}}{{formatnum:{{#expr: 80521/80720 * 100 round 2}}}} % || 13/17
+|-
+| {{0}}2.|| style="text-align:left" | [[FC Bayern München]]|| {{0}}1.173.000|| 69.000|| {{formatnum:{{#expr: 69000/69000 * 100 round 2}}}},00 % || 17/17
+|-
+| {{0}}3.|| style="text-align:left" | [[FC Schalke 04]]|| {{0}}1.040.714|| 61.218|| {{0}}{{formatnum:{{#expr: 61218/61673 * 100 round 2}}}} % || 12/17
+|-
+| {{0}}4.|| style="text-align:left" | [[VfB Stuttgart]]|| {{0|00.}}936.524|| 55.089|| {{0}}{{formatnum:{{#expr: 55089/60441 * 100 round 2}}}} %|| {{0}}4/17
+|-
+| {{0}}5.|| style="text-align:left" | [[Hamburger SV]]|| {{0|00.}}908.910|| 53.465|| {{0}}{{formatnum:{{#expr: 53465/57000 * 100 round 2}}}}0 % || {{0}}3/17
+|-
+| {{0}}6.|| style="text-align:left" | [[Hertha BSC]]|| {{0|00.}}908.630|| 53.448|| {{0}}{{formatnum:{{#expr: 53448/74220 * 100 round 2}}}} % || {{0}}2/17
+|-
+| {{0}}7.|| style="text-align:left" | [[Borussia Mönchengladbach]]|| {{0|00.}}881.376|| 51.845|| {{0}}{{formatnum:{{#expr: 51845/54057 * 100 round 2}}}} % || {{0}}4/17
+|-
+| {{0}}8.|| style="text-align:left" | [[1. FC Köln]]|| {{0|00.}}807.200|| 47.482|| {{0}}{{formatnum:{{#expr: 47482/50000 * 100 round 2}}}} % || {{0}}6/17
+|-
+| {{0}}9.|| style="text-align:left" | [[Hannover 96]]|| {{0|00.}}762.035|| 44.825|| {{0}}{{formatnum:{{#expr: 44825/49000 * 100 round 2}}}} % || {{0}}7/17
+|-
+| 10.|| style="text-align:left" | [[1. FC Kaiserslautern]]|| {{0|00.}}721.382|| 42.434|| {{0}}{{formatnum:{{#expr: 42434/49780 * 100 round 2}}}} % || {{0}}3/17
+|-
+| 11.|| style="text-align:left" | [[1. FC Nürnberg]]|| {{0|00.}}713.463|| 41.968|| {{0}}{{formatnum:{{#expr: 41968/48553 * 100 round 2}}}} % || {{0}}2/17
+|-
+| 12.|| style="text-align:left" | [[Werder Bremen]]|| {{0|00.}}693.733|| 40.807|| {{0}}{{formatnum:{{#expr: 40807/42500 * 100 round 2}}}} %|| {{0}}7/17
+|-
+| 13.|| style="text-align:left" | [[1. FSV Mainz 05]]|| {{0|00.}}559.470|| 32.910|| {{0}}{{formatnum:{{#expr: 32910/34034 * 100 round 2}}}}0 %|| 10/17
+|-
+| 14.|| style="text-align:left" | [[FC Augsburg]]|| {{0|00.}}514.406|| 30.259|| {{0}}{{formatnum:{{#expr: 30259/30660 * 100 round 2}}}} %|| 10/17
+|-
+| 15.|| style="text-align:left" | [[Bayer 04 Leverkusen]]|| {{0|00.}}484.397|| 28.493|| {{0}}{{formatnum:{{#expr: 28493/30210 * 100 round 2}}}} % || {{0}}8/17
+|-
+| 16.|| style="text-align:left" | [[TSG 1899 Hoffenheim]]|| {{0|00.}}476.450|| 28.026|| {{0}}{{formatnum:{{#expr: 28026/30150 * 100 round 2}}}} % || {{0}}7/17
+|-
+| 17.|| style="text-align:left" | [[VfL Wolfsburg]]|| {{0|00.}}469.446|| 27.614|| {{0}}{{formatnum:{{#expr: 27614/30000 * 100 round 2}}}} % || {{0}}8/17
+|-
+| 18.|| style="text-align:left" | [[SC Freiburg]]|| {{0|00.}}385.500|| 22.676|| {{0}}{{formatnum:{{#expr: 22676/25000 * 100 round 2}}}}0 % || {{0}}9/17
+|- class="hintergrundfarbe5"
+! colspan="2" style="text-align:left"| GESAMT !! 13.805.496 !! 45.116 !! {{0}}92,86 % !! 132/306
+|}
+
+== Spielstätten ==
+{| class="wikitable" style="width:100%;"
+|- class="hintergrundfarbe8"
+! style="width:21%;"| Verein
+! style="width:19%;"| Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%;"| Kapazität
+| style="width: 2%; background-color: #ffffff; border: 0px;" rowspan="10" |
+! style="width:21%;"| Verein
+! style="width:19%;"| Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%;"| Kapazität
+|-
+| Borussia Dortmund || [[Westfalenstadion]]<br /><small>(Signal Iduna Park)</small> || style="text-align: center;" | 80.720
+| Hannover 96 || [[AWD-Arena]] || style="text-align: center;" | 49.000
+|-
+| Hertha BSC || [[Olympiastadion Berlin]] || style="text-align: center;" | 74.220
+| 1. FC Nürnberg || [[Easycredit-Stadion]] || style="text-align: center;" | 48.553
+|-
+| FC Bayern München || [[Allianz Arena]] || style="text-align: center;" | 69.901
+| SV Werder Bremen || [[Weserstadion]] || style="text-align: center;" | 42.500
+|-
+| FC Schalke 04 || [[Veltins-Arena]] || style="text-align: center;" | 61.673
+| 1. FSV Mainz 05 || [[Coface Arena]] || style="text-align: center;" | 34.034
+|-
+| VfB Stuttgart || [[MHPArena|Mercedes-Benz Arena]] || style="text-align: center;" | 60.441
+| FC Augsburg || [[SGL arena]] || style="text-align: center;" | 30.660
+|-
+| Hamburger SV || [[Volksparkstadion]]<br /><small>(Imtech Arena)</small> || style="text-align: center;" | 57.000
+| Bayer 04 Leverkusen || [[BayArena]] || style="text-align: center;" | 30.210
+|-
+| Borussia Mönchengladbach || [[Borussia-Park]] || style="text-align: center;" | 54.057
+| TSG 1899 Hoffenheim || [[Rhein-Neckar-Arena]]<br /><small>(Wirsol Rhein-Neckar-Arena)</small> || style="text-align: center;" | 30.150
+|-
+| 1. FC Köln || [[Rheinenergiestadion]] || style="text-align: center;" | 50.000
+| VfL Wolfsburg || [[Volkswagen Arena]] || style="text-align: center;" | 30.000
+|-
+| 1. FC Kaiserslautern || [[Fritz-Walter-Stadion]] || style="text-align: center;" | 49.780
+| SC Freiburg || [[Dreisamstadion]]<br /><small>(Badenova-Stadion/Mage Solar Stadion)</small> || style="text-align: center;" | 25.000
+|}
+
+== Sponsoren ==
+{| class="wikitable"
+|-
+! Verein !! Ausrüster !! Hauptsponsor
+|-
+| [[1. FC Kaiserslautern]] || [[Uhlsport]] || [[Dr. Theiss Naturwaren|Allgäuer Latschenkiefer]]
+|-
+| [[1. FC Köln]] || [[Reebok]] || [[Rewe Group|Rewe]]
+|-
+| [[1. FC Nürnberg]] || [[Adidas]] || [[Areva]]
+|-
+| [[1. FSV Mainz 05]] || [[Nike (Unternehmen)|Nike]] || [[entega]]
+|-
+| [[Bayer 04 Leverkusen]] || [[Adidas]] || [[SunPower]]
+|-
+| [[Borussia Dortmund]] || [[Kappa (Unternehmen)|Kappa]] || [[Evonik Industries|Evonik]]
+|-
+| [[Borussia Mönchengladbach]] || [[Lotto Sport Italia|Lotto]] || [[Postbank]]
+|-
+| [[FC Augsburg]] || [[JAKO]] || [[AL-KO]]
+|-
+| [[FC Bayern München]] || [[Adidas]] || [[Deutsche Telekom]]
+|-
+| [[FC Schalke 04]] || [[Adidas]] || [[Gazprom]]
+|-
+| [[Hamburger SV]] || [[Adidas]] || [[Emirates]]
+|-
+| [[Hannover 96]] || [[JAKO]] || [[TUI]]
+|-
+| [[Hertha BSC]] || [[Nike (Unternehmen)|Nike]] || [[Deutsche Bahn]]
+|-
+| [[SC Freiburg]] || [[Nike (Unternehmen)|Nike]] || [[Ehrmann AG|Ehrmann]]
+|-
+| [[TSG 1899 Hoffenheim]] || [[Puma (Unternehmen)|Puma]] || [[Suntech Power|Suntech]]
+|-
+| [[VfB Stuttgart]] || [[Puma (Unternehmen)|Puma]] || [[Garmo (Unternehmen)|GAZİ]]
+|-
+| [[VfL Wolfsburg]] || [[Adidas]] || [[Volkswagen]]
+|-
+| [[Werder Bremen]] || [[Nike (Unternehmen)|Nike]] || [[Targobank]]
+|}
+
+== Wissenswertes ==
+=== Besonderheit ===
+* Das Spiel zwischen dem 1. FC Köln und dem 1. FSV Mainz 05, welches für den 19. November 2011 angesetzt war, wurde abgesagt, nachdem der für diese Partie eingeteilte Schiedsrichter [[Babak Rafati]] kurzfristig wegen eines [[Suizidversuch]]s ausgefallen war.<ref>{{Internetquelle |url=http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000198459.php |titel=Köln gegen Mainz kurzfristig abgesagt |werk=bundesliga.de |datum=2011-11-19 |abruf=2012-02-07 |offline=ja}}</ref> Das Spiel wurde anschließend am 13. Dezember 2011 nachgeholt.
+
+=== Rekorde ===
+* Borussia Dortmund holte mit 81 Punkten die bis dahin höchste jemals in einer Saison erreichte Punktzahl (und bis heute Vereinsrekord).
+* Mit 25 Saisonsiegen stellte der BVB daneben den vorherigen Allzeitrekord des FC Bayern München (aus der Saison 1972/73) ein.
+* Dortmund blieb mit 28 Spielen in Serie am längsten innerhalb einer Spielzeit ungeschlagen.
+* Mit durchschnittlich 80.522 Zuschauern im [[Westfalenstadion]] wurde ein neuer Besucherrekord in der Bundesligageschichte aufgestellt, der gleichzeitig für die Saison 2011/12 auch europaweiten Bestwert bedeutet.
+* [[Stephan Hain]] erzielte am 28. Januar 2012 für den [[FC Augsburg]] beim Spiel gegen den 1. FC Kaiserslautern 20 Sekunden nach seiner Einwechslung das schnellste Tor eines Einwechselspielers der Bundesligageschichte. Den Rekord teilt er sich mit dem Australier Dave Mitchell, der am 8. November 1986 ebenfalls 20 Sekunden nach seiner Einwechslung für [[Eintracht Frankfurt]] beim Spiel gegen den Aufsteiger [[FC 08 Homburg]] den Endstand zum 1:1 erzielte. Beide Tore wurden in der 65. Minute erzielt.<ref>{{Internetquelle |url=http://www.pnp.de/nachrichten/bayern/329485_Schnellstes-Joker-Tor-aller-Zeiten-Zwiesler-Hain-schreibt-Geschichte.html |titel=Schnellstes Joker-Tor aller Zeiten: Zwiesler Hain schreibt Geschichte |hrsg=[[Passauer Neue Presse]] |datum=2012-01-29 |abruf=2012-02-07 |archiv-datum=2012-01-31 |archiv-url=https://web.archive.org/web/20120131220145/http://www.pnp.de/nachrichten/bayern/329485_Schnellstes-Joker-Tor-aller-Zeiten-Zwiesler-Hain-schreibt-Geschichte.html |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+
+=== Höchstwerte der Saison ===
+* Der höchste Sieg der Saison 2011/12 war das 7:0 des [[FC Bayern München]] gegen den [[SC Freiburg]] am 5. Spieltag (10. September 2011).
+* Die torreichsten Begegnungen der Saison mit jeweils acht Toren waren: [[Werder Bremen]] gegen [[SC Freiburg]] (5:3 am 3. Spieltag, 20. August 2011), [[FC Bayern München]] gegen [[TSG 1899 Hoffenheim]] (7:1 am 25. Spieltag, 10. März 2012) und [[Borussia Dortmund]] gegen [[VfB Stuttgart]] (4:4 am 28. Spieltag, 30. März 2012).
+
+=== Bundesliga-Statistik ===
+* Der [[FC Augsburg]] hat zuvor noch nicht in der Bundesliga gespielt. Der Aufsteiger ist die insgesamt 51. Mannschaft in der Geschichte, die sich für die deutsche Eliteklasse qualifizieren konnte.<ref name="Augsburg">{{Internetquelle |url=http://www.bundesliga.de/de/liga/matches/2011/index.php?bmi=130176&reiter=b&tag=1 |titel=Mölders der Held am historischen Tag für Augsburg |werk=bundesliga.de |datum=2011-08-06 |abruf=2012-02-07 |offline=ja}}</ref>
+* Die Partie FC Augsburg gegen SC Freiburg am ersten Spieltag war die 803. Paarung in der Bundesligageschichte.<ref name="Augsburg" />
+
+== Die Meistermannschaft von Borussia Dortmund ==
+{| class="wikitable" style="width:700px; text-align:center;"
+|- style="background:#FFE600"
+| width="75" | '''1.''' || width="625" | '''Borussia Dortmund'''
+|-
+| style="background-color:#FFFFFF" | [[Datei:Borussia Dortmund logo.svg|60px]]
+| style="background-color:#E8E8E8" style="text-align:left"|
+* '''Tor:''' [[Mitchell Langerak]] (2/-); [[Roman Weidenfeller]] (32/-)
+* '''Abwehr:''' [[Mats Hummels]] (33/1); [[Chris Löwe]] (7/-); [[Patrick Owomoyela]] (11/1); [[Łukasz Piszczek]] (32/4); [[Felipe Santana]] (13/1); [[Marcel Schmelzer]] (28/1); [[Neven Subotić]] (25/-)
+* '''Mittelfeld:''' [[Sven Bender]] (24/1); [[Jakub Błaszczykowski]] (29/6); [[Mario Götze]] (17/6); [[Kevin Großkreutz]] (31/7); [[İlkay Gündoğan]] (28/3); [[Shinji Kagawa]] (31/13); [[Sebastian Kehl]] {{Kapitän}} (27/3); [[Florian Kringe]] (1/-); [[Moritz Leitner]] (17/-); [[Antônio da Silva]] (5/-)
+* '''Angriff:''' [[Lucas Barrios]] (18/4); [[Robert Lewandowski]] (34/22); [[Ivan Perišić]] (28/7)
+* '''Trainer:''' [[Jürgen Klopp]]
+|}
+''* [[Mohamed Zidan]] (2/-) hat den Verein während der Saison verlassen.''
+
+== Trainerwechsel ==
+{{Siehe auch|Liste der Cheftrainer in der deutschen Fußball-Bundesliga}}
+{| class="wikitable"
+|-
+! Nach Spieltag !! Verein!! Trainer!! Platz !! Nachfolger !! Quelle
+|-
+| style="text-align:center" rowspan="2" | {{0}}6
+|[[Hamburger SV]]
+|[[Michael Oenning]]
+| style="text-align:center" | 18.
+|{{ARG|Ziel=Rodolfo Cardoso}} ''(interim)''
+|<ref>{{Internetquelle |titel=Oenning nicht mehr HSV-Coach |datum=2011-09-19 |abruf=2011-09-19 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000193521.php |archiv-datum=2013-10-04 |archiv-url=https://web.archive.org/web/20131004212738/http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000193521.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+|rowspan="2" | [[FC Schalke 04]]
+|[[Ralf Rangnick]]
+| style="text-align:center" | {{0}}9.
+|[[Seppo Eichkorn]] ''(interim)''
+|<ref>{{Internetquelle |titel=Rangnick tritt zurück |datum=2011-09-22 |abruf=2011-09-22 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000193681.php |archiv-datum=2013-10-04 |archiv-url=https://web.archive.org/web/20131004212733/http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000193681.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+| style="text-align:center" | {{0}}7
+| Seppo Eichkorn ''(interim)''
+| style="text-align:center" | {{0}}5.
+|{{NLD|Ziel=Huub Stevens}}
+|<ref>{{Internetquelle |titel=Der „Jahrhundert-Trainer“ ist zurück |datum=2011-09-27 |abruf=2011-09-27 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000194166.php |archiv-datum=2013-10-04 |archiv-url=https://web.archive.org/web/20131004215534/http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000194166.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+|style="text-align:center" | {{0}}8
+|rowspan="2" | Hamburger SV
+|{{ARG|#}} Rodolfo Cardoso ''(interim)''
+| style="text-align:center" | 18.
+|{{DNK|Ziel=Frank Arnesen}} ''(interim)''
+|<ref>{{Internetquelle| titel=Frank Arnesen ist neuer Teamchef beim HSV| datum=2011-10-10| abruf=2022-10-31| hrsg=hsv.de| url=http://www.hsv.de/saison/meldungen-saison/bundesliga/oktober-2011/frank-arnesen-ist-neuer-teamchef-beim-hsv/| archiv-url=https://web.archive.org/web/20111012140447/http://www.hsv.de/saison/meldungen-saison/bundesliga/oktober-2011/frank-arnesen-ist-neuer-teamchef-beim-hsv| archiv-datum=2011-10-12| abruf-verborgen=1}}</ref>
+|-
+| style="text-align:center" | {{0}}9
+|{{DNK|Ziel=Frank Arnesen}} ''(interim)''
+| style="text-align:center" | 18.
+|[[Thorsten Fink]]
+|<ref>{{Internetquelle |titel=Fink nach Hamburg |datum=2011-10-13 |abruf=2011-10-13 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000195569.php |archiv-datum=2013-10-04 |archiv-url=https://web.archive.org/web/20131004215702/http://www.bundesliga.de/de/liga/news/2010/index.php?f=0000195569.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+|style="text-align:center" rowspan="2" | 17
+|[[Hertha BSC]]
+|[[Markus Babbel]]
+| style="text-align:center" | 11.
+|[[Michael Skibbe]]
+|<ref>{{Internetquelle |titel=Hertha BSC stellt Cheftrainer Markus Babbel frei |datum=2011-12-18 |abruf=2011-12-18 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000200725.php |archiv-datum=2012-02-24 |archiv-url=https://web.archive.org/web/20120224201826/http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000200725.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref><ref>{{Internetquelle |titel=Skibbe voller Tatendrang |datum=2011-12-22 |abruf=2011-12-22 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000201073.php |archiv-datum=2012-02-26 |archiv-url=https://web.archive.org/web/20120226110131/http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000201073.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+|[[SC Freiburg]]
+|[[Marcus Sorg]]
+| style="text-align:center" | 18.
+|[[Christian Streich]]
+|<ref>{{Internetquelle |titel=SC Freiburg trennt sich von Sorg |datum=2011-12-29 |abruf=2011-12-29 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000201441.php |archiv-datum=2011-12-30 |archiv-url=https://web.archive.org/web/20111230050028/http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000201441.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+|style="text-align:center" | 20
+|[[TSG 1899 Hoffenheim]]
+|[[Holger Stanislawski]]
+| style="text-align:center" | {{0}}8.
+|Markus Babbel
+|<ref>{{Internetquelle |titel=Stanislawski nicht mehr 1899-Coach |datum=2012-02-09 |abruf=2012-02-09 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/0000204426.php |offline=ja}}</ref><ref>{{Internetquelle |titel=Vertrag bis 2014: Babbel hat unterschrieben |url=http://www.kicker.de/news/fussball/bundesliga/startseite/564468/artikel_vertrag-bis-2014_babbel-hat-unterschrieben.html |abruf=2012-02-10 |werk=[[Kicker-Sportmagazin|kicker Sportmagazin]] |datum=2012-02-10}}</ref>
+|-
+| style="text-align:center" |21
+|rowspan="2" | [[Hertha BSC]]
+|[[Michael Skibbe]]
+| style="text-align:center" | 15.
+|[[René Tretschok]] ''(interim)''
+|<ref>{{Internetquelle |titel=Hertha trennt sich von Skibbe |datum=2012-02-12 |abruf=2012-02-12 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000204617.php |archiv-datum=2012-02-15 |archiv-url=https://web.archive.org/web/20120215032836/http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000204617.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+| style="text-align:center" |22
+|René Tretschok ''(interim)''
+| style="text-align:center" | 15.
+|[[Otto Rehhagel]]
+|<ref>{{Internetquelle |titel=Rehhagel kommt nach Berlin |datum=2012-02-18 |abruf=2012-02-18 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000205019.php |archiv-datum=2012-07-23 |archiv-url=https://archive.today/20120723044949/http://www.bundesliga.de/de/liga/news/2011/index.php?f=0000205019.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+| style="text-align:center" | 26
+|[[1. FC Kaiserslautern]]
+|[[Marco Kurz]]
+| style="text-align:center" | 18.
+|{{BGR|Ziel=Krassimir Balakow}}
+|<ref>{{Internetquelle |titel=Marco Kurz beurlaubt |datum=2012-03-20 |abruf=2012-03-20 |hrsg=[[1. FC Kaiserslautern]] |url=http://www.fck.de/de/aktuell/news/details/article/8596-marco-kurz-beurlaubt.html |archiv-url=https://web.archive.org/web/20130603035952/http://www.fck.de/de/aktuell/news/details/article/8596-marco-kurz-beurlaubt.html |archiv-datum=2013-06-03}}</ref><ref>{{Internetquelle |titel=Balakov neuer FCK-Cheftrainer |datum=2012-03-22 |abruf=2012-03-22 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/0000207851.php |archiv-datum=2013-10-04 |archiv-url=https://web.archive.org/web/20131004214105/http://www.bundesliga.de/de/liga/news/2011/0000207851.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+| style="text-align:center" | 28
+|[[Bayer 04 Leverkusen]]
+|[[Robin Dutt]]
+| style="text-align:center" | {{0}}7.
+|{{FIN|Ziel=Sami Hyypiä}} ''(Teamchef)''
+[[Sascha Lewandowski]] ''(Trainer)''
+|<ref>{{Internetquelle |titel=Leverkusen entlässt Trainer Dutt – Hyypiä Nachfolger |datum=2012-04-01 |abruf=2012-04-04 |hrsg=Bundesliga.de |url=http://www.bundesliga.de/de/liga/news/2011/0000208617.php |archiv-datum=2013-10-04 |archiv-url=https://web.archive.org/web/20131004215951/http://www.bundesliga.de/de/liga/news/2011/0000208617.php |offline=ja |archiv-bot=2025-03-14 00:53:08 InternetArchiveBot }}</ref>
+|-
+| style="text-align:center" |30
+| [[1. FC Köln]]
+|{{NOR|Ziel=Ståle Solbakken}}
+| style="text-align:center" | 16.
+|[[Frank Schaefer]]
+|<ref>[https://www.kicker.de/koeln-entlaesst-solbakken---schaefer-hilft-aus-567421/artikel Köln entlässt Solbakken - Schaefer hilft aus], kicker.de, 12. April 2012, abgerufen am 17. November 2022.</ref>
+|}
+
+== Eingesetzte Schiedsrichter ==
+{| class="wikitable zebra sortable"
+|+ (Stand: Saisonende 2011/12)
+|-
+! Name || Geboren || Landesverband || Anz. d.<br />Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-red card.svg|18px]] || [[Datei:Red card.svg|12px]] || class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Aytekin, Deniz" | [[Deniz Aytekin]] || {{DatumZelle|1978-07-21}} || [[Bayerischer Fußball-Verband|Bayern]] || 17 || 59 || 0 || 2 ||style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Brych, Felix" | [[Felix Brych]] || {{DatumZelle|1975-08-03}} || [[Bayerischer Fußball-Verband|Bayern]] || 19 || 56 || 3 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Dingert, Christian" | [[Christian Dingert]] || {{DatumZelle|1980-07-14}} || [[Südwestdeutscher Fußballverband|Südwest]] || 12 || 48 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Drees, Jochen" | [[Jochen Drees]] || {{DatumZelle|1970-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || {{0}}9 || 39 || 0 || 4 ||
+|-
+| style="text-align:left" data-sort-value="Fritz, Marco" | [[Marco Fritz]] || {{DatumZelle|1977-10-03}} || [[Württembergischer Fußballverband|Württemberg]] || 14 || 45 || 1 || 2 || style="text-align:left" |FIFA-Schiedsrichter seit 2012
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || {{DatumZelle|1968-06-09}} || [[Bremer Fußball-Verband|Bremen]] || 16 || 41 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Grafe, Manuel" | [[Manuel Gräfe]] || {{DatumZelle|1973-09-21}} || [[Berliner Fußball-Verband|Berlin]] || 17 || 78 || 4 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Hartmann, Robert" | [[Robert Hartmann (Schiedsrichter)|Robert Hartmann]] || {{DatumZelle|1979-09-08}} || [[Bayerischer Fußball-Verband|Bayern]] || {{0}}9|| 36 || 0 || 0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Kinhofer, Thorsten" | [[Thorsten Kinhöfer]] || {{DatumZelle|1968-06-27}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]]|| 18 || 75 || 3 || 2 ||style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kircher, Knut" | [[Knut Kircher]] || {{DatumZelle|1969-02-02}} || [[Württembergischer Fußballverband|Württemberg]] || 17 || 63 || 0 || 0 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || {{DatumZelle|1968-11-21}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 19 || 59 || 1 || 1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Perl, Gunter" | [[Günter Perl]] || {{DatumZelle|1969-12-23}} || [[Bayerischer Fußball-Verband|Bayern]] || 17 || 49 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Rafati, Babak" | [[Babak Rafati]] || {{DatumZelle|1970-05-28}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || {{0}}4 || 10 || 0 || 0 || style="text-align:left" |FIFA-Schiedsrichter bis Ende 2011<br />letzte Bundesligasaison
+|-
+| style="text-align:left" data-sort-value="Schmidt, Markus" | [[Markus Schmidt (Schiedsrichter)|Markus Schmidt]] || {{DatumZelle|1973-08-31}} || [[Württembergischer Fußballverband|Württemberg]] || 13 || 45 || 0 || 3 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || {{DatumZelle|1969-10-06}} || [[Bayerischer Fußball-Verband|Bayern]] || 14 || 43 || 2 || 5 || style="text-align:left" | FIFA-Schiedsrichter bis Ende 2011
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || {{DatumZelle|1969-11-20}} || [[Bayerischer Fußball-Verband|Bayern]] || 19 ||65 ||2 || 3 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Stieler, Tobias" | [[Tobias Stieler]] || {{DatumZelle|1981-07-02}} || [[Hessischer Fußball-Verband|Hessen]] || {{0}}3 || {{0}}6 || 0 || 0 || style="text-align:left" | in der Winterpause für Rafati nachnominiert
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || {{DatumZelle|1969-03-21}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 15 || 53 || 1 || 3 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Welz, Tobias" | [[Tobias Welz]] || {{DatumZelle|1977-07-11}} || [[Hessischer Fußball-Verband|Hessen]] || 15 || 44|| 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Wingenbach, Markus" | [[Markus Wingenbach]] || {{DatumZelle|1978-11-26}} || [[Fußballverband Rheinland|Rheinland]] || {{0}}8 || 34 ||0 || 0 ||letzte Bundesligasaison
+|-
+| style="text-align:left" data-sort-value="Winkmann, Guido" | [[Guido Winkmann]] || {{DatumZelle|1973-11-27}} || [[Fußballverband Niederrhein|Niederrhein]] || 15 || 61|| 3 || 4||
+|-
+| style="text-align:left" data-sort-value="Zwayer, Felix" | [[Felix Zwayer]] || {{DatumZelle|1981-05-19}} || [[Berliner Fußball-Verband|Berlin]] || 16 || 59 ||0 ||1 || style="text-align:left" |FIFA-Schiedsrichter seit 2012
+|- class="hintergrundfarbe9"
+! Gesamt:|| || || 306 || 1068 || 22 || 36 ||
+|}
+
+== Kader ==
+{{Hauptartikel|Mannschaftskader der deutschen Fußball-Bundesliga 2011/12}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2011/2012|Fußball-Bundesliga 2011/12|audio=0|video=0}}
+* [https://www.fussballdaten.de/bundesliga/2012/spielplan/ Bundesliga - Spielplan 2011/2012], fussballdaten.de
+* ''bundesliga.de:'' [http://s.bundesliga.de/assets/doc/30000/26229_original.pdf Rahmenterminkalender] (PDF; 446&nbsp;kB)
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2012
+|Navigationsleiste Fußballsaison 2011/12 (Deutschland)
+}}
+
+{{SORTIERUNG:FussballBundesliga 2011 12}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2011 12]]
+[[Kategorie:Fußballsaison 2011/12|Bundesliga 2011 12]]

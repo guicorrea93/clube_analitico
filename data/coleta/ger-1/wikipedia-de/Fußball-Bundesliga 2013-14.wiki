@@ -1,0 +1,826 @@
+{{Dieser Artikel|behandelt die Fußball-Bundesligasaison 2013/14 der Männer. Für die Saison in der Frauen-Bundesliga siehe [[Fußball-Bundesliga 2013/14 (Frauen)]].}}
+{{Infobox Fußballsaison
+| Name = Bundesliga 2013/14
+| Bild = [[Datei:Bundesliga Wordmark (2010-2017).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga. Es besteht aus der Schrift "Bundesliga". Die Schriftfarbe ist schwarz.|250px]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = FC Bayern München<br />[[Borussia Dortmund]]<br />[[FC Schalke 04]]
+| UEFA Champions League Quali = [[Bayer 04 Leverkusen]]
+| Europa League = [[VfL Wolfsburg]]
+| Europa League Quali = [[Borussia Mönchengladbach]]<br />[[1. FSV Mainz 05]]
+| Pokal-Sieger = FC Bayern München
+|Relegation ↓ = [[Hamburger SV]] (0:0 und 1:1 gegen [[SpVgg Greuther Fürth]])
+| Absteiger = [[1. FC Nürnberg]]<br />[[Eintracht Braunschweig]]
+| Mannschaften = 18
+| Spiele = 306
+| Relegationsspiele = 2
+| geschossene Tore = 967
+| Zuschauer = 13.311.555
+| Torschützenkönig = {{POL|Ziel=Robert Lewandowski}}<br />([[Borussia Dortmund]])
+| vorherige Saison = [[Fußball-Bundesliga 2012/13|Bundesliga 2012/13]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2014/15|Bundesliga 2014/15]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2013/14|2. Bundesliga 2013/14]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%;"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+
+<timeline>
+ImageSize = width:160 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:bayern_wap     value:rgb(0.99,0.06,0.20)
+  id:dortmund_wap   value:rgb(0.99,0.88,0.00)
+  id:hertha_wap     value:rgb(0.00,0.36,0.66)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+    from:0.5 till:1.5  shift:(20,-5)   color:hertha_wap      text:Hertha BSC
+    from:1.5 till:7.5  shift:(20,-5)   color:dortmund_wap    text:Borussia Dortmund
+    from:7.5 till:34.5 shift:(20,-5)   color:bayern_wap      text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all;word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+
+<timeline>
+ImageSize = width:160 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:frankfurt_wap     value:rgb(0.80,0.00,0.00)
+  id:braunschweig_wap  value:rgb(0.98,0.73,0.05)
+  id:nuernberg_wap     value:rgb(0.67,0.09,0.19)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5  till:2.5   shift:(20,-5)   color:frankfurt_wap     text:Eintracht Frankfurt
+     from:2.5  till:11.5  shift:(20,-5)   color:braunschweig_wap  text:Braunschweig
+     from:11.5 till:12.5  shift:(20,-5)   color:nuernberg_wap     text:1. FC Nürnberg
+     from:12.5 till:34.5  shift:(20,-5)   color:braunschweig_wap  text:Braunschweig
+</timeline>
+|}
+
+Die '''[[Fußball-Bundesliga|Bundesliga]] 2013/14''' war die 51. Spielzeit der höchsten deutschen Spielklasse im [[Fußball]] der Männer. Sie begann am 9. August 2013 mit der Begegnung von Titelverteidiger [[FC Bayern München]] gegen [[Borussia Mönchengladbach]] (3:1) und endete am 10. Mai 2014. Vom 23. Dezember 2013 bis 23. Januar 2014 wurde die Saison durch die Winterpause unterbrochen.<ref>{{Internetquelle |url=https://www.kicker.de/news/fussball/bundesliga/startseite/578526/artikel_rahmenkalender-20132f14-steht.html |titel=Rahmenkalender 2013/14 steht |werk=kicker.de |hrsg=[[Kicker-Sportmagazin]] |datum=2012-11-30 |abruf=2013-02-20}}</ref> Am 25. März 2014 sicherte sich der FC Bayern München die deutsche Meisterschaft.<ref>{{Internetquelle |url=https://www.faz.net/aktuell/sport/fussball/bundesliga/bundesliga-fc-bayern-wird-schon-im-maerz-meister-12863871.html |titel=Titel am 27. Bundesliga-Spieltag: FC Bayern ist erster März-Meister |werk=faz.net |hrsg=[[Frankfurter Allgemeine Zeitung]] |datum=2014-03-25 |abruf=2014-04-04}}</ref>
+
+Die drei besten Mannschaften der Saison qualifizierten sich gemäß der [[UEFA-Fünfjahreswertung]] direkt für die [[UEFA Champions League 2014/15]], der Viertplatzierte startet in der Qualifikation zur [[UEFA Champions League|Champions League]]. Die Mannschaften auf den Plätzen 5 und 6 nehmen an der Qualifikation zur [[UEFA Europa League 2014/15]] teil. Da sich beide Finalisten des [[DFB-Pokal 2013/14|DFB-Pokals 2013/14]] über die Liga für die Champions League qualifizieren konnten, berechtigte der siebte Platz in dieser Spielzeit ebenfalls zur Teilnahme an der Qualifikation zur Europa League; der Fünfte qualifizierte sich direkt für die Gruppenphase.
+
+== Saisonverlauf ==
+=== Meisterschaft und internationale Wettbewerbe ===
+Bereits in der Winterpause der vorangegangenen Saison hatte der FC Bayern München den Spanier [[Pep Guardiola]] als Nachfolger für [[Jupp Heynckes]] verpflichtet, dessen Vertrag nach der Triple-Saison endete. Zudem wurde neben Guardiolas früherem Spieler [[Thiago]] vom [[FC Barcelona]] für 37 Millionen Euro [[Mario Götze]] vom als am stärksten eingeschätzten Ligakonkurrenten Borussia Dortmund verpflichtet. Unter Guardiolas Leitung knüpften die Bayern mit etwas veränderter Spielweise und einem flexibleren System an die Dominanz der Vorsaison an, hatten nach einem 1:1 gegen Leverkusen und einer gleichzeitigen Niederlage Dortmunds ab dem 8. Spieltag die Tabellenführung inne und sicherten sich am 27. Spieltag, früher als je ein Team zuvor, den Meistertitel. Bis dahin hatten die Münchner 25 Spiele gewonnen und die übrigen zwei Partien unentschieden gespielt. Nachdem die 24. Meisterschaft festgestanden hatte, kassierte der Rekordmeister in den beiden folgenden Spielen in Augsburg und gegen Dortmund die einzigen beiden Niederlagen der Saison. Dennoch schloss der FC Bayern die Saison mit 90 Punkten ab und verfehlte damit die im vorigen Jahr aufgestellte Bestmarke um nur einen Zähler.
+
+Borussia Dortmund konnte zunächst mit den Bayern mithalten. So war der BVB vom 2. bis zum 7. Spieltag Tabellenführer gewesen und lag am 11. Spieltag nur einen Punkt hinter dem späteren Meister; mit einer Niederlage am 13. Spieltag im direkten Duell gegen den FCB vergrößerte sich jedoch der Abstand. Eine anschließende Schwächephase – durch Verletzungen waren die wichtigsten Defensivspieler ausgefallen, so dass sogar der vereinslose [[Manuel Friedrich]] zusätzlich verpflichtet wurde – ließ die Borussia am letzten Spieltag der Hinrunde auf den Tiefstand Platz 4 abrutschen. Doch in der Rückrunde fand die Mannschaft zur alten Form zurück und befand sich ab dem 23. Spieltag wieder auf dem zweiten Tabellenplatz, den sie bis zum Saisonende behielt. [[Robert Lewandowski]] sicherte sich in seiner letzten Saison für Dortmund mit 20 Treffern den Titel des Torschützenkönigs.
+
+Nach dem vierten Platz in der Vorsaison blieb der FC Schalke 04 zunächst hinter den Erwartungen zurück, woraufhin der Verein den Deutsch-Ghanaer [[Kevin-Prince Boateng]] vom [[AC Mailand]] zurück in die Bundesliga holte, der für mehr Stabilität in der Mannschaft sorgen und in Abwesenheit des lange ausgefallenen [[Klaas-Jan Huntelaar]] als Torschütze dienen sollte. Am 7. Spieltag nur auf dem 14. Platz gelegen, gelang bis zur Winterpause immerhin die Steigerung bis in den Bereich der Europa-League-Plätze. Dennoch geriet Trainer [[Jens Keller]] wieder mal erheblich unter Druck, und in der Presse war bereits über eine mögliche Entlassung in der Winterpause diskutiert worden. Die Vereinsführung vertraute ihm jedoch und dank der stärksten Rückrunde seiner Vereinsgeschichte konnte sich Schalke bis auf den dritten Tabellenplatz vorarbeiten und diesen behalten.
+
+Die Mannschaft von Bayer Leverkusen, bei der [[Sami Hyypiä]] ab Saisonbeginn alleiniger Cheftrainer war, spielte eine starke Hinrunde, die als Tabellenzweiter mit vier Punkten Vorsprung auf den Dritten und sieben Rückstand auf den Ersten beendet wurde. Nach der Winterpause spielte die Mannschaft deutlich schwächer und wurde bis auf Platz 5 am 29. Spieltag durchgereicht. Nach einer Niederlage beim Abstiegskandidaten HSV (1:2) wurde Hyypiä entlassen. Für die restlichen Spiele trainierte sein voriger Kollege [[Sascha Lewandowski]] die Mannschaft, die zumindest noch Platz vier und die Teilnahme an der Qualifikation zur Champions League sichern konnte.
+
+Dem VfL Wolfsburg gelang es, die positive Entwicklung unter dem Trainer [[Dieter Hecking]] aus dem vorangegangenen halben Jahr zu bestätigen. Ab dem 10. Spieltag belegte der VfL durchgehend einen Europa-League-Platz und erreichte mit dem fünften Platz das beste Ergebnis seit der Meistersaison [[Fußball-Bundesliga 2008/09|2008/2009]]. Bis zum letzten Spieltag war sogar noch die Möglichkeit bestanden bei einer Leverkusener Niederlage die Champions League zu erreichen.
+
+Eine überraschend starke Hinserie spielte Borussia Mönchengladbach, die auf Tabellenplatz drei beendet wurde. Diese Form konnte die Borussia in der Rückrunde nicht halten. Immerhin konnte sich die Mannschaft nach dem Absturz auf Platz 8 stabilisieren und wurde am Ende Sechster.
+
+Nach einem starken Saisonstart mit drei Siegen zu Beginn fiel der FSV Mainz 05 bis auf Platz 14 am 9. Spieltag zurück, konnte sich aber schon in den folgenden Wochen ins vordere Tabellenmittelfeld verbessern. Von dort an spielte Mainz um die Europa League mit und beendete die Saison als Tabellensiebter. Da mit dem FC Bayern und Borussia Dortmund beide Finalisten des [[DFB-Pokal 2013/14|DFB-Pokals 2013/14]] über die Liga für die Champions League qualifiziert waren, berechtigte dieser Platz zur Teilnahme an der Qualifikation zur Europa League.
+
+=== Mittelfeld ===
+Zu den positiven Überraschungen zählte der FC Augsburg, der nach dem knappen Klassenerhalt in der Vorsaison mit zwei Niederlagen in die Saison startete. Nach einer anschließenden Serie von drei Siegen folgten zunächst fünf Partien ohne Sieg, ab dann fuhr der FCA relativ konstant Punkte ein, unter anderem gelang ein eher unerwarteter Sieg gegen den FC Bayern. Bis zum letzten Spieltag war der siebte Platz in Reichweite. Platz acht am Ende bedeutet das bislang beste Abschneiden in der noch jungen Bundesligageschichte des Vereins.
+
+Nachdem die TSG Hoffenheim in der Vorsaison über die Relegation die Klasse hielt, hatte der Verein in dieser Saison nur wenig mit dem Abstiegskampf zu tun. Schlechteste Saisonplatzierung war der vierzehnte Platz gegen Ende der Hinrunde. Am Ende befand sich die TSG durchgehend im Tabellenmittelfeld. Bemerkenswerterweise stellte die TSG mit 72 Toren den drittbesten Angriff, auf der anderen Seite mit 70 kassierten Gegentoren die zweitschlechteste Defensive; an drei der torreichsten Spiele der Saison war Hoffenheim beteiligt.
+
+Hannover 96 startete mit Platz 4 nach 6 Spieltagen gut, konnte von dort an bis zur Winterpause aber nur noch ein Spiel gewinnen. Trainer [[Mirko Slomka]], der mit Hannover bis dahin alle Auswärtsspiele verloren hatte, wurde entlassen. Unter der Leitung von [[Tayfun Korkut]] gehörte Hannover lange zum erweiterten Kreis der Abstiegskandidaten, konnte sich durch einen starken Endspurt mit 13 Punkten aus den letzten fünf Partien aber noch deutlich von der Abstiegszone absetzen.
+
+Aufsteiger Hertha BSC war nach dem ersten Spieltag Tabellenführer und spielte in der Hinrunde überraschenderweise um die Europa-League-Plätze mit. Deutlich schlechter verlief die Rückserie, die die Hertha als zweitschlechteste Mannschaft beendete. Der elfte Platz am Saisonende war die schlechteste Saisonplatzierung.
+
+Werder Bremen zeigte sich gegenüber der letzten Saison leicht verbessert. Der Verein verbrachte weite Teile der Saison in der unteren Tabellenhälfte, geriet dabei aber nie in akute Abstiegsgefahr. Die schlechteste Saisonplatzierung war Rang 14.
+
+=== Abstiegskampf ===
+Für Eintracht Frankfurt wurde die Teilnahme an der Europa League zur Herausforderung. Während die Mannschaft dort die Gruppenphase überstand und bis zum Ausscheiden in der Zwischenrunde nur eine Niederlage kassierte, lag man in der Liga zunächst nur knapp vor dem Relegationsplatz, ehe es in der Rückrunde nach dem Ausscheiden aus dem internationalen Wettbewerb gelang, in der Tabelle nach oben zu klettern. Der Klassenerhalt konnte schließlich relativ souverän gesichert werden.
+
+Auch der zweite Europa-League-Teilnehmer der Bundesliga, der SC Freiburg, der zudem die Abgänge mehrerer Stammkräfte verkraften musste, litt in der Hinrunde unter der Doppelbelastung und beendete diese auf dem Relegationsplatz, um den der SC zunächst auch weiterhin spielte. Zum Befreiungsschlag wurde ein 4:1-Auswärtserfolg bei Eintracht Frankfurt am 25. Spieltag, der Auftakt zu einer starken Phase wurde. Am 32. Spieltag war der Klassenerhalt rechnerisch gesichert.
+
+Der VfB Stuttgart startete mit drei Niederlagen in die Saison. Bereits zu diesem frühen Zeitpunkt wurde [[Bruno Labbadia]] als Trainer entlassen und durch [[Thomas Schneider (Fußballspieler, 1972)|Thomas Schneider]] ersetzt. Unter dessen Leitung konnte der VfB sich zunächst steigern, fiel dann aber bis in die Abstiegszone. Nach acht Niederlagen in Folge musste Schneider nach dem 24. Spieltag gehen, für die restlichen Spiele wurde [[Huub Stevens]] verpflichtet. Der VfB spielte nun etwas besser und konnte den Abstieg bereits ein Spiel vor Saisonende abwenden.
+
+Der Hamburger SV war mit hohen Ansprüchen in die Saison gestartet, hinkte diesen jedoch schnell hinterher. Nach fünf Spielen musste Trainer [[Thorsten Fink]] gehen, zu diesem Zeitpunkt befand sich der HSV auf Rang 15. Unter seinem Nachfolger [[Bert van Marwijk]] stellte sich zunächst ein Aufwärtstrend ein, nach einer Serie von acht Niederlagen in Folge wurde der Trainer erneut gewechselt. Mit [[Mirko Slomka]], der seine in Hannover begonnene Auswärts-Niederlagenserie fortsetzte, gelang es nicht, auf einen Nichtabstiegsplatz zu springen. Trotz fünf Niederlagen zu Saisonende erreichte der HSV noch den Relegationsplatz. In den Relegationsspielen gegen die [[SpVgg Greuther Fürth]] reichten aufgrund der Auswärtstorregel zwei Unentschieden (0:0 zu Hause, 1:1 auswärts) zum Klassenerhalt. Damit schaffte der HSV mit der niedrigsten Punktzahl der Ligageschichte noch den Klassenerhalt.
+
+Der 1. FC Nürnberg absolvierte als erste Mannschaft der Bundesligageschichte eine sieglose Hinrunde, in deren Verlauf das Trainerduo [[Michael Wiesinger]] und [[Armin Reutershahn]] entlassen und durch [[Gertjan Verbeek]] ersetzt wurde. In den fünf Spielen nach der Winterpause gelangen vier Siege, danach folgte jedoch nur noch ein weiterer Dreier und der Absturz auf Rang 17. Auch ein erneuter Trainerwechsel von Verbeek zu Interimstrainer [[Roger Prinzen]] konnte den achten Abstieg aus der Bundesliga nicht verhindern.
+
+Aufsteiger Eintracht Braunschweig, der erstmals seit 28 Jahren wieder in der Bundesliga spielte, befand sich nahezu die gesamte Saison über am Tabellenende, obwohl die Formkurve der Mannschaft in der Rückrunde leicht anstieg. Trotzdem blieb zumindest der Relegationsrang bis zum Schluss in Reichweite. Anders als bei den direkten Konkurrenten im Abstiegskampf war [[Torsten Lieberknecht]] als Trainer unumstritten.
+
+== Statistiken ==
+=== Abschlusstabelle ===
+[[Datei:1. Fussball-Bundesliga Deutschland 2013-2014.png|mini|305px|Teilnehmende Vereine der Bundesliga 2013/14]]
+{{Fußballtabelle/Kopf|nosort=}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang=1 |S=29|U=3 |N=2 |ET=94|GT=23|Verein=[[FC Bayern München]] (M, P)}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=2 |S=22|U=5 |N=7 |ET=80|GT=38|Verein=[[Borussia Dortmund]]}}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=3 |S=19|U=7 |N=8 |ET=63|GT=43|Verein=[[FC Schalke 04]]}}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang=4 |S=19|U=4 |N=11|ET=60|GT=41|Verein=[[Bayer 04 Leverkusen]]}}
+{{Fußballtabelle/Zeile|Farbe=ffc7a3 |Rang=5 |S=18|U=6 |N=10|ET=63|GT=50|Verein=[[VfL Wolfsburg]]}}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang=6 |S=16|U=7 |N=11|ET=59|GT=43|Verein=[[Borussia Mönchengladbach]]}}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang=7 |S=16|U=5 |N=13|ET=52|GT=54|Verein=[[1. FSV Mainz 05]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=8 |S=15|U=7 |N=12|ET=47|GT=47|Verein=[[FC Augsburg]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=9 |S=11|U=11|N=12|ET=72|GT=70|Verein=[[TSG 1899 Hoffenheim]] (R)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10|S=12|U=6 |N=16|ET=46|GT=59|Verein=[[Hannover 96]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11|S=11|U=8 |N=15|ET=40|GT=48|Verein=[[Hertha BSC]] (N)}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12|S=10|U=9 |N=15|ET=42|GT=66|Verein=[[Werder Bremen]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13|S=9 |U=9 |N=16|ET=40|GT=57|Verein=[[Eintracht Frankfurt]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14|S=9 |U=9 |N=16|ET=43|GT=61|Verein=[[SC Freiburg]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15|S=8 |U=8 |N=18|ET=49|GT=62|Verein=[[VfB Stuttgart]]}}
+{{Fußballtabelle/Zeile|Farbe=ffffcc |Rang=16|S=7 |U=6 |N=21|ET=51|GT=75|Verein=[[Hamburger SV]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17|S=5 |U=11|N=18|ET=37|GT=70|Verein=[[1. FC Nürnberg]]}}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18|S=6 |U=7 |N=21|ET=29|GT=60|Verein=[[Eintracht Braunschweig]] (N)}}
+{{Fußballtabelle/Ende}}
+{|
+| colspan="2" | ''Zum Saisonende 2013/14:''
+|-
+| colspan="2" style="padding:0em; height:2px" |
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 2014/15]]: FC Bayern München}}
+{{Farblegende|#ccccff|Teilnahme an der UEFA Champions League 2014/15: Borussia Dortmund und FC Schalke 04}}
+{{Farblegende|#ddddff|Teilnahme an der Qualifikation zur UEFA Champions League 2014/15: Bayer 04 Leverkusen}}
+{{Farblegende|#ffc7a3|Teilnahme an der Gruppenphase der [[UEFA Europa League 2014/15]]: VfL Wolfsburg (stellvertretend für den Sieger des DFB-Pokals 2013/14)}}
+{{Farblegende|#ffdac2|Teilnahme an der Qualifikation zur UEFA Europa League 2014/15: Borussia Mönchengladbach und 1. FSV Mainz 05}}
+{{Farblegende|#ffffcc|Teilnahme an den [[Relegation zur deutschen Fußball-Bundesliga|Relegationsspielen]] gegen den Drittplatzierten der [[2. Fußball-Bundesliga 2013/14|2. Bundesliga 2013/14]]: Hamburger SV}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2014/15|2. Bundesliga 2014/15]]: 1. FC Nürnberg und Eintracht Braunschweig}}
+|-
+| colspan="2" style="padding:0em; height:5px" |
+|-
+| colspan="2" | ''Zum Saisonende 2012/13:''
+|-
+| (M) || [[Fußball-Bundesliga 2012/13|Deutscher Meister 2012/13]]: FC Bayern München
+|-
+| (P) || [[DFB-Pokal 2012/13|DFB-Pokal-Sieger]] 2012/13: FC Bayern München
+|-
+| (R) || Sieger der [[Fußball-Bundesliga 2012/13#Relegation|Relegation 2012/13]]: TSG 1899 Hoffenheim
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga 2012/13|2. Bundesliga 2012/13]]: Hertha BSC und Eintracht Braunschweig
+|}
+
+=== Tabellenverlauf ===
+[[Datei:Platzierungen Bundesliga 2013-2014.svg|600px]]
+<div style="clear:both;"></div>
+
+=== Kreuztabelle ===
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte, die Gastmannschaft in der oberen Zeile aufgelistet.
+
+{| class="wikitable" style="text-align:center"
+|- class="hintergrundfarbe5"
+! 2013/14
+![[Datei:Logo FC Bayern München (2002–2017).svg|22px|FC Bayern München]]
+![[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+![[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+![[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+![[Datei:VfL Wolfsburg Logo.svg|22px|VfL Wolfsburg]]
+![[Datei:Borussia Mönchengladbach logo.svg|22px|Borussia Mönchengladbach]]
+![[Datei:FSV Mainz 05 Logo.svg|22px|FSV Mainz 05]]
+![[Datei:Logo FC Augsburg.svg|22px|FC Augsburg]]
+![[Datei:Logo TSG Hoffenheim.svg|22px|TSG 1899 Hoffenheim]]
+![[Datei:Hannover 96 Logo.svg|22px|Hannover 96]]
+![[Datei:Hertha BSC Logo 2012.svg|22px|Hertha BSC]]
+![[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+![[Datei:Logo Eintracht Frankfurt 1998.svg|22px|Eintracht Frankfurt]]
+![[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+![[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+![[Datei:Hamburger SV logo.svg|22px|Hamburger SV]]
+![[Datei:1. FC Nürnberg logo.svg|22px|1. FC Nürnberg]]
+![[Datei:Logo Eintracht Braunschweig.svg|22px|Eintracht Braunschweig]]
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[FC Bayern München]]
+| class="hintergrundfarbe5" | || 0:3 || 5:1 || 2:1 || 1:0 || 3:1 || 4:1 || 3:0 || 3:3 || 2:0 || 3:2 || 5:2 || 5:0 || 4:0 || 1:0 || 3:1 || 2:0 || 2:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Borussia Dortmund]] || 0:3 || class="hintergrundfarbe5" | || 0:0 || 0:1 || 2:1 || 1:2 || 4:2 || 2:2 || 3:2 || 1:0 || 1:2 || 1:0 || 4:0 || 5:0 || 6:1 || 6:2 || 3:0 || 2:1
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[FC Schalke 04]] || 0:4 || 1:3
+| class="hintergrundfarbe5" | || 2:0 || 2:1 || 0:1 || 0:0 || 4:1 || 4:0 || 2:0 || 2:0 || 3:1 || 2:0 || 2:0 || 3:0 || 3:3 || 4:1 || 3:1
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Bayer 04 Leverkusen]] || 1:1 || 2:2 || 1:2
+| class="hintergrundfarbe5" | || 3:1 || 4:2 || 0:1 || 2:1 || 2:3 || 2:0 || 2:1 || 2:1 || 0:1 || 3:1 || 2:1 || 5:3 || 3:0 || 1:1
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[VfL Wolfsburg]] || 1:6 || 2:1 || 4:0 || 3:1
+| class="hintergrundfarbe5" | || 3:1 || 3:0 || 1:1 || 2:1 || 1:3 || 2:0 || 3:0 || 2:1 || 2:2 || 3:1 || 1:1 || 4:1 || 0:2
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Borussia Mönchengladbach]] || 0:2 || 2:0 || 2:1 || 0:1 || 2:2
+| class="hintergrundfarbe5" | || 3:1 || 1:2 || 2:2 || 3:0 || 3:0 || 4:1 || 4:1 || 1:0 || 1:1 || 3:1 || 3:1 || 4:1
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[1. FSV Mainz 05]] || 0:2 || 1:3 || 0:1 || 1:4 || 2:0 || 0:0
+| class="hintergrundfarbe5" | || 3:0 || 2:2 || 2:0 || 1:1 || 3:0 || 1:0 || 2:0 || 3:2 || 3:2 || 2:0 || 2:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[FC Augsburg]] || 1:0 || 0:4 || 1:2 || 1:3 || 1:2 || 2:2 || 2:1
+| class="hintergrundfarbe5" | || 2:0 || 1:1 || 0:0 || 3:1 || 2:1 || 2:1 || 2:1 || 3:1 || 0:1 || 4:1
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[TSG 1899 Hoffenheim]] || 1:2 || 2:2 || 3:3 || 1:2 || 6:2 || 2:1 || 2:4 || 2:0
+| class="hintergrundfarbe5" | || 3:1 || 2:3 || 4:4 || 0:0 || 3:3 || 4:1 || 3:0 || 2:2 || 3:1
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Hannover 96]] || 0:4 || 0:3 || 2:1 || 1:1 || 2:0 || 3:1 || 4:1 || 2:1 || 1:4
+| class="hintergrundfarbe5" | || 1:1 || 1:2 || 2:0 || 3:2 || 0:0 || 2:1 || 3:3 || 0:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Hertha BSC]] || 1:3 || 0:4 || 0:2 || 0:1 || 1:2 || 1:0 || 3:1 || 0:0 || 1:1 || 0:3
+| class="hintergrundfarbe5" | || 3:2 || 6:1 || 0:0 || 0:1 || 1:0 || 1:3 || 2:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Werder Bremen]] || 0:7 || 1:5 || 1:1 || 1:0 || 1:3 || 1:1 || 2:3 || 1:0 || 3:1 || 3:2 || 2:0
+| class="hintergrundfarbe5" | || 0:3 || 0:0 || 1:1 || 1:0 || 3:3 || 0:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Eintracht Frankfurt]] || 0:1 || 1:2 || 3:3 || 0:2 || 1:2 || 1:0 || 2:0 || 1:1 || 1:2 || 2:3 || 1:0 || 0:0
+| class="hintergrundfarbe5" | || 1:4 || 2:1 || 2:2 || 1:1 || 3:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[SC Freiburg]] || 1:1 || 0:1 || 0:2 || 3:2 || 0:3 || 4:2 || 1:2 || 2:4 || 1:1 || 2:1 || 1:1 || 3:1 || 1:1
+| class="hintergrundfarbe5" | || 1:3 || 0:3 || 3:2 || 2:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[VfB Stuttgart]] || 1:2 || 2:3 || 3:1 || 0:1 || 1:2 || 0:2 || 1:2 || 1:4 || 6:2 || 4:2 || 1:2 || 1:1 || 1:1 || 2:0
+| class="hintergrundfarbe5" | || 1:0 || 1:1 || 2:2
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Hamburger SV]] || 1:4 || 3:0 || 0:3 || 2:1 || 1:3 || 0:2 || 2:3 || 0:1 || 1:5 || 3:1 || 0:3 || 0:2 || 1:1 || 1:1 || 3:3
+| class="hintergrundfarbe5" | || 2:1 || 4:0
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[1. FC Nürnberg]] || 0:2 || 1:1 || 0:0 || 1:4 || 1:1 || 0:2 || 1:1 || 0:1 || 4:0 || 0:2 || 2:2 || 0:2 || 2:5 || 0:3 || 2:0 || 0:5
+| class="hintergrundfarbe5" | || 2:1
+|-
+| style="text-align:left" class="hintergrundfarbe5" | [[Eintracht Braunschweig]] || 0:2 || 1:2 || 2:3 || 1:0 || 1:1 || 1:1 || 3:1 || 0:1 || 1:0 || 3:0 || 0:2 || 0:1 || 0:2 || 0:1 || 0:4 || 4:2 || 1:1
+| class="hintergrundfarbe5" |
+|}
+
+=== Relegation ===
+→ ''[[SpVgg Greuther Fürth/Namen und Zahlen#Relegation zur Fußball-Bundesliga 2014|Ausführliche Spieldaten]]''
+
+Die beiden Relegationsspiele zwischen dem Sechzehnten der Bundesliga und dem Dritten der 2. Bundesliga wurden am 15. und 18. Mai 2014 ausgetragen.<ref>{{Internetquelle |url=http://www.bundesliga.de/de/liga/news/2013/dfl-deutsche-fussball-liga-terminiert-relegationsspiele.php |titel=DFL Deutsche Fußball Liga terminiert Relegationsspiele |werk=bundesliga.de |hrsg=DFL |datum=2014-04-03 |abruf=2014-04-06 |archiv-datum=2015-06-06 |archiv-url=https://web.archive.org/web/20150606182207/http://www.bundesliga.de/de/liga/news/2013/dfl-deutsche-fussball-liga-terminiert-relegationsspiele.php |offline=ja }}</ref>
+{{OneLegStart|Datum=1|8=Tore}}
+{{OneLegResult|Hamburger SV||0:0|SpVgg Greuther Fürth|6=15. Mai 2014|9=&nbsp;}}
+{{OneLegResult|SpVgg Greuther Fürth||1:1 (0:1)|Hamburger SV|6=18. Mai 2014|9=0:1 [[Pierre-Michel Lasogga|Lasogga]] (14.), 1:1 [[Stephan Fürstner|Fürstner]] (59.)}}
+{{OneLegResult|'''[[Hamburger SV]]'''||(a)1:1{{0|a}}|[[SpVgg Greuther Fürth]]|6=Gesamt|9=&nbsp;}}
+|-
+| colspan="5" | Durch die [[Auswärtstorregel]] blieb der Hamburger SV in der Bundesliga.
+|}
+
+=== Torschützenliste ===
+[[Datei:Robert Lewandowski 2013 in Wilhelmshaven.jpeg|mini|160px|Torschützenkönig der Saison 2013/14: [[Robert Lewandowski]]]]
+Bei gleicher Anzahl von Treffern sind die Spieler alphabetisch geordnet. Mit seinen 20 Toren ist Robert Lewandowski der erste polnische [[Liste der Torschützenkönige der Fußball-Bundesliga|Torschützenkönig der Bundesliga]].
+
+{| class="wikitable sortable"
+|- class="hintergrundfarbe5"
+! Pl.!! Spieler!! Mannschaft!! Tore
+|-
+! {{0}}1.
+| data-sort-value="Lewandowski, Robert" | {{POL|Ziel=Robert Lewandowski}}
+| [[Borussia Dortmund]]
+| style="text-align:center" | 20
+|-
+! {{0}}2.
+| data-sort-value="Mandzukic, Mario" | {{HRV|Ziel=Mario Mandžukić}}
+| [[FC Bayern München]]
+| style="text-align:center" | 18
+|-
+! {{0}}3.
+| data-sort-value="Drmic, Josip" | {{CHE|Ziel=Josip Drmić}}
+| [[1. FC Nürnberg]]
+| style="text-align:center" | 17
+|-
+! rowspan="3"| {{0}}4.
+| data-sort-value="Firmino, Roberto" | {{BRA|Ziel=Roberto Firmino}}
+| [[TSG 1899 Hoffenheim]]
+| rowspan="3" style="text-align:center" | 16
+|-
+| data-sort-value="Ramos, Adrian" | {{COL|Ziel=Adrián Ramos}}
+| [[Hertha BSC]]
+|-
+| data-sort-value="Reus, Marco" | {{DEU|Ziel=Marco Reus}}
+| [[Borussia Dortmund]]
+|-
+! rowspan="3"| {{0}}7.
+| data-sort-value="Kiessling, Stefan" | {{DEU|Stefan Kießling (Fußballspieler)|Stefan Kießling}}
+| [[Bayer 04 Leverkusen]]
+| rowspan="3" style="text-align:center" | 15
+|-
+| data-sort-value="Okazaki, Shinji" | {{JPN|Ziel=Shinji Okazaki}}
+| [[1. FSV Mainz 05]]
+|-
+| data-sort-value="Raffael" | {{BRA|Raffael Caetano de Araújo|Raffael}}
+| [[Borussia Mönchengladbach]]
+|-
+! 10.
+| data-sort-value="Olic, Ivica" | {{HRV|Ziel=Ivica Olić}}
+| [[VfL Wolfsburg]]
+| style="text-align:center" | 14
+|- class="sortbottom"
+! colspan="4" style="text-align:right"| <small>Quelle: ''bundesliga.de<ref>{{Internetquelle |url=http://www.bundesliga.de/de/liga/torjaeger/ |titel=Bundesliga: Torjäger |werk=bundesliga.de |hrsg=DFL |abruf=2014-05-10 |archiv-url=https://web.archive.org/web/20170606053723/http://www.bundesliga.de/de/liga/torjaeger/ |archiv-datum=2017-06-06 |offline=ja }}</ref> ''</small>
+|}
+
+=== Scorerliste ===
+Als [[Scorerpunkt]] (Ges.) zählen sowohl die erzielten Tore als auch die Torvorlagen (Vorl.) eines Spielers. Bei gleicher Anzahl von Scorerpunkten sind die Spieler zuerst nach der Anzahl der Torvorlagen und danach alphabetisch geordnet.
+
+{| class="wikitable sortable"
+|- class="hintergrundfarbe5"
+! Pl.
+! Spieler
+! Mannschaft
+! Ges.
+! Tore
+! Vorl.
+|-
+! style="vertical-align:top"| {{0}}1.
+| data-sort-value="Reus, Marco" | {{DEU|Ziel=Marco Reus}}
+| [[Borussia Dortmund]]
+| style="text-align:center" | '''30'''
+| style="text-align:center" | 16
+| style="text-align:center" | 14
+|-
+! rowspan="2"| {{0}}2.
+| data-sort-value="Firmino, Roberto" | {{BRA|Ziel=Roberto Firmino}}
+| [[TSG 1899 Hoffenheim]]
+| style="text-align:center" | '''28'''
+| style="text-align:center" | 16
+| style="text-align:center" | 12
+|-
+| data-sort-value="Lewandowski, Robert" | {{POL|Ziel=Robert Lewandowski}}
+| [[Borussia Dortmund]]
+| style="text-align:center" | '''28'''
+| style="text-align:center" | 20
+| style="text-align:center" | {{0}}8
+|-
+! style="vertical-align:top"| {{0}}4.
+| data-sort-value="Kruse, Max" | {{DEU|Max Kruse (Fußballspieler)|Max Kruse}}
+| [[Borussia Mönchengladbach]]
+| style="text-align:center" | '''24'''
+| style="text-align:center" | 12
+| style="text-align:center" | 12
+|-
+! rowspan="2"| {{0}}5.
+| data-sort-value="Mandzukic, Mario" | {{HRV|Ziel=Mario Mandžukić}}
+| [[FC Bayern München]]
+| style="text-align:center" | '''23'''
+| style="text-align:center" | 18
+| style="text-align:center" | {{0}}5
+|-
+| data-sort-value="Muller, Thomas" | {{DEU|Ziel=Thomas Müller}}
+| [[FC Bayern München]]
+| style="text-align:center" | '''23'''
+| style="text-align:center" | 13
+| style="text-align:center" | 10
+|-
+! rowspan="2"| {{0}}7.
+| data-sort-value="Raffael" | {{BRA|Raffael Caetano de Araújo|Raffael}}
+| [[Borussia Mönchengladbach]]
+| style="text-align:center" | '''22'''
+| style="text-align:center" | 15
+| style="text-align:center" | {{0}}7
+|-
+| data-sort-value="Ramos, Adrian" | {{COL|Ziel=Adrián Ramos}}
+| [[Hertha BSC]]
+| style="text-align:center" | '''22'''
+| style="text-align:center" | 16
+| style="text-align:center" | {{0}}6
+|-
+! rowspan="2"| {{0}}9.
+| data-sort-value="Olic, Ivica" | {{HRV|Ziel=Ivica Olić}}
+| [[VfL Wolfsburg]]
+| style="text-align:center" | '''21'''
+| style="text-align:center" | 14
+| style="text-align:center" | {{0}}7
+|-
+| data-sort-value="Ribery, Franck" | {{FRA|Ziel=Franck Ribéry}}
+| [[FC Bayern München]]
+| style="text-align:center" | '''21'''
+| style="text-align:center" | 10
+| style="text-align:center" | 11
+|- class="sortbottom"
+! colspan="6" style="text-align:right"| <small>Quelle: ''bundesliga.de<ref name="scorer">{{Internetquelle |url=http://www.bundesliga.de/de/liga/scorer/ |titel=Bundesliga: Scorer |werk=bundesliga.de |hrsg=DFL |abruf=2014-05-10 |archiv-url=https://web.archive.org/web/20170606025312/http://www.bundesliga.de/de/liga/scorer/ |archiv-datum=2017-06-06 |offline=ja }}</ref> ''</small>
+|}
+
+=== Meiste Torvorlagen ===
+[[Datei:FIFA WC-qualification 2014 - Austria vs. Germany 2012-09-11 - Marco Reus 01.JPG|mini|160px|Der Topscorer gab in dieser Saison auch die meisten Torvorlagen: [[Marco Reus]]]]
+
+Bei gleicher Anzahl von [[Torvorlage]]n sind die Spieler alphabetisch nach Nachnamen bzw. Künstlernamen geordnet.
+
+{| class="wikitable sortable"
+|- class="hintergrundfarbe5"
+! Pl.
+! Spieler
+! Mannschaft
+! Vorlagen
+|-
+! {{0}}1.
+| data-sort-value="Reus, Marco" | {{DEU|Ziel=Marco Reus}}
+| [[Borussia Dortmund]]
+| style="text-align:center" | 14
+|-
+! rowspan="2"| {{0}}2.
+| data-sort-value="Firmino, Roberto" | {{BRA|Ziel=Roberto Firmino}}
+| [[TSG 1899 Hoffenheim]]
+| rowspan="2" style="text-align:center" | 12
+|-
+| data-sort-value="Kruse, Max" | {{DEU|Max Kruse (Fußballspieler)|Max Kruse}}
+| [[Borussia Mönchengladbach]]
+|-
+! rowspan="2"| {{0}}4.
+| data-sort-value="Maxim, Alexandru" | {{ROU|Ziel=Alexandru Maxim}}
+| [[VfB Stuttgart]]
+| rowspan="2" style="text-align:center" | 11
+|-
+| data-sort-value="Ribery, Franck" | {{FRA|Ziel=Franck Ribéry}}
+| [[FC Bayern München]]
+|-
+! rowspan="3"| {{0}}6.
+| data-sort-value="Gotze, Mario" | {{DEU|Ziel=Mario Götze}}
+| [[FC Bayern München]]
+| rowspan="3" style="text-align:center" | 10
+|-
+| data-sort-value="Mchitarjan, Henrich" | {{ARM|Ziel=Henrich Mchitarjan}}
+| [[Borussia Dortmund]]
+|-
+| data-sort-value="Muller, Thomas" | {{DEU|Ziel=Thomas Müller}}
+| [[FC Bayern München]]
+|-
+! rowspan="4"| {{0}}9.
+| data-sort-value="Castro, Gonzalo" | {{DEU|Gonzalo Castro Randon|Gonzalo Castro}}
+| [[Bayer 04 Leverkusen]]
+| rowspan="4" style="text-align:center" | {{0}}9
+|-
+| data-sort-value="Hunt, Aaron" | {{DEU|Ziel=Aaron Hunt}}
+| [[Werder Bremen]]
+|-
+| data-sort-value="Rodriguez, Ricardo" | {{CHE|Ricardo Rodríguez (Fussballspieler)|Ricardo Rodriguez}}
+| [[VfL Wolfsburg]]
+|-
+| data-sort-value="Werner, Tobias" | {{DEU|Ziel=Tobias Werner}}
+| [[FC Augsburg]]
+|- class="sortbottom"
+! colspan="4" style="text-align:right"| <small>Quelle: ''bundesliga.de<ref name="scorer" />''</small>
+|}
+
+=== Zuschauertabelle ===
+[[Datei:Signal iduna park stadium dortmund 4.jpg|mini|Den höchsten Zuschauerschnitt der Liga hatte das Westfalenstadion mit 80.297]]
+[[Datei:StadionStraßenansicht.jpg|mini|Den niedrigsten Zuschauerschnitt hatte das Eintracht-Stadion mit 22.799]]
+
+{| class="wikitable sortable" style="text-align: center; padding-right: 1em; background: #FFFFFF;"
+|- class="hintergrundfarbe5"
+! !! Verein !! Zuschauer !! pro Spiel !! Auslastung !! ausverkauft
+|-
+| {{0}}1. || style="text-align:left" | [[Datei:Borussia Dortmund logo.svg|x22px]] [[Borussia Dortmund]] || {{0}}1.365.050 || {{formatnum:{{#expr: 1365050/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (1365050/17)/80645 * 100 round 2}}}} % || 15/17
+|-
+| {{0}}2. || style="text-align:left" | [[Datei:Logo FC Bayern München (2002–2017).svg|x22px]] [[FC Bayern München]] || {{0}}1.207.000 || {{formatnum:{{#expr: 1207000/17 round 0}}}} || {{formatnum:{{#expr: (1207000/17)/71000 * 100 round 2}}.00}} % || 17/17
+|-
+| {{0}}3. || style="text-align:left" | [[Datei:FC Schalke 04 Logo.svg|x22px]] [[FC Schalke 04]] || {{0}}1.046.677 || {{formatnum:{{#expr: 1046677/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (1046677/17)/61973 * 100 round 2}}}} % || 10/17
+|-
+| {{0}}4. || style="text-align:left" | [[Datei:Borussia Mönchengladbach logo.svg|x22px]] [[Borussia Mönchengladbach]] || {{0}}{{0}}{{0}}887.972 || {{formatnum:{{#expr: 887972/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (887972/17)/54067 * 100 round 2}}}} % || {{0}}6/17
+|-
+| {{0}}5. || style="text-align:left" | [[Datei:Hertha BSC Logo 2012.svg|x22px]] [[Hertha BSC]] || {{0}}{{0}}{{0}}882.120 || {{formatnum:{{#expr: 882120/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (882120/17)/74400 * 100 round 2}}}} % || {{0}}2/17
+|-
+| {{0}}6. || style="text-align:left" | [[Datei:Hamburger SV logo.svg|x15px]] [[Hamburger SV]] || {{0}}{{0}}{{0}}881.027 || {{formatnum:{{#expr: 881027/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (881027/17)/57000 * 100 round 2}}}} % || {{0}}3/17
+|-
+| {{0}}7. || style="text-align:left" | [[Datei:VfB Stuttgart Logo.svg|x22px]] [[VfB Stuttgart]] || {{0}}{{0}}{{0}}858.469 || {{formatnum:{{#expr: 858469/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (858469/17)/60449 * 100 round 2}}}} % || {{0}}4/17
+|-
+| {{0}}8. || style="text-align:left" |  [[Eintracht Frankfurt]] || {{0}}{{0}}{{0}}799.900 || {{formatnum:{{#expr: 799900/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (799900/17)/51500 * 100 round 2}}}} % || {{0}}4/17
+|-
+| {{0}}9. || style="text-align:left" | [[Datei:Hannover 96 Logo.svg|x22px]] [[Hannover 96]] || {{0}}{{0}}{{0}}776.300 || {{formatnum:{{#expr: 776300/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (776300/17)/49000 * 100 round 2}}}} % || {{0}}7/17
+|-
+| 10. || style="text-align:left" | [[Datei:SV-Werder-Bremen-Logo.svg|x22px]] [[Werder Bremen]] || {{0}}{{0}}{{0}}691.162 || {{formatnum:{{#expr: 691162/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (691162/17)/42100 * 100 round 2}}}} % || {{0}}8/17
+|-
+| 11. || style="text-align:left" | [[Datei:1. FC Nürnberg logo.svg|x22px]] [[1. FC Nürnberg]] || {{0}}{{0}}{{0}}687.006 || {{formatnum:{{#expr: 687006/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (687006/17)/50000 * 100 round 2}}}} % || {{0}}3/17
+|-
+| 12. || style="text-align:left" | [[Datei:FSV Mainz 05 Logo.svg|22px]] [[1. FSV Mainz 05]] || {{0}}{{0}}{{0}}526.722 || {{formatnum:{{#expr: 526722/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (526722/17)/34000 * 100 round 2}}}} % || {{0}}6/17
+|-
+| 13. || style="text-align:left" | [[Datei:Logo FC Augsburg.svg|22px|FC Augsburg]] [[FC Augsburg]] || {{0}}{{0}}{{0}}498.018 || {{formatnum:{{#expr: 498018/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (498018/17)/30660 * 100 round 2}}}} % || {{0}}6/17
+|-
+| 14. || style="text-align:left" | [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]  [[Bayer 04 Leverkusen]] || {{0}}{{0}}{{0}}483.689 || {{formatnum:{{#expr: 483689/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (483689/17)/30210 * 100 round 2}}}} % || {{0}}5/17
+|-
+| 15. || style="text-align:left" | [[Datei:VfL Wolfsburg Logo.svg|x22px]] [[VfL Wolfsburg]] || {{0}}{{0}}{{0}}477.749 || {{formatnum:{{#expr: 477749/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (477749/17)/30000 * 100 round 2}}}} % || {{0}}4/17
+|-
+| 16. || style="text-align:left" | [[Datei:Logo TSG Hoffenheim.svg|x22px]] [[TSG 1899 Hoffenheim]] || {{0}}{{0}}{{0}}457.411 || {{formatnum:{{#expr: 457411/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (457411/17)/30150 * 100 round 2}}}} % || {{0}}4/17
+|-
+| 17. || style="text-align:left" | [[Datei:SC Freiburg Logo.svg|x22px]] [[SC Freiburg]] || {{0}}{{0}}{{0}}397.700 || {{formatnum:{{#expr: 397700/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (397700/17)/24000 * 100 round 2}}}} % || {{0}}8/17
+|-
+| 18. || style="text-align:left" | [[Datei:Logo Eintracht Braunschweig.svg|x22px]] [[Eintracht Braunschweig]] || {{0}}{{0}}{{0}}387.583 || {{formatnum:{{#expr: 387583/17 round 0}}}} || {{0}}{{formatnum:{{#expr: (387583/17)/23325 * 100 round 2}}}} % || 10/17
+|- class="hintergrundfarbe5 sortbottom"
+! colspan="2"| Gesamt !! 13.311.555 !! {{formatnum:{{#expr: 13311555/306 round 0}}}} !! {{0}}{{formatnum:{{#expr: 13311555/14526143 * 100 round 2}}}} % !! 122/306
+|- class="sortbottom"
+! colspan="6" style="text-align:right;"| <small>Quelle: ''weltfussball.de<ref name="zuschauer">{{Internetquelle |url=https://www.weltfussball.de/zuschauer/bundesliga-2013-2014/1/ |titel=Zuschauer |werk=weltfussball.de |abruf=2014-05-10}}</ref> ''</small>
+|}
+
+== Die Meistermannschaft des FC Bayern München ==
+{| class="wikitable" style="width:700px; text-align:center;"
+|- style="background:#FF0000"
+| style="width:75px" |<span style="color:#FFFFFF">'''1.'''</span>|| style="width:625px" |<span style="color:#FFFFFF">'''FC Bayern München'''</span>
+|-
+| style="width:75px; background-color:#FFFFFF" | [[Datei:Logo FC Bayern München (2002–2017).svg|60px|FC Bayern München]]
+| style="width:628px; background-color:#E8E8E8; text-align:left" |
+* '''Tor:''' [[Manuel Neuer]] (31/-); [[Tom Starke]] (2/-); [[Lukas Raeder]] (2/-)
+* '''Abwehr:''' [[Dante Bonfim Costa Santos|Dante]] (29/2); [[David Alaba]] (28/2); [[Rafinha (Fußballspieler, 1985)|Rafinha]] (28/-); [[Jérôme Boateng]] (25/1); [[Daniel Van Buyten]] (12/1); [[Diego Contento]] (10/-); [[Ylli Sallahi]] (1/-)
+* '''Mittelfeld:''' [[Thomas Müller]] (31/13); [[Toni Kroos]] (29/2); [[Arjen Robben]] (28/11); [[Philipp Lahm]] {{Kapitän}} (28/1); [[Mario Götze]] (27/10); [[Bastian Schweinsteiger]] (23/4); [[Franck Ribéry]] (22/10); [[Javi Martínez]] (18/-); [[Xherdan Shaqiri]] (17/6); [[Thiago]] (16/2); [[Pierre Emile Højbjerg]] (7/-); [[Mitchell Weiser]] (3/-)
+* '''Angriff:''' [[Mario Mandžukić]] (30/18); [[Claudio Pizarro]] (17/10)
+* '''Trainer:''' [[Pep Guardiola]]
+
+|}
+''* [[Jan Kirchhoff]] (7/-) verließ den Verein während der Saison und wechselte auf Leihbasis zum [[FC Schalke 04]].''
+
+== Spielstätten ==
+Die Spielstätten sind nach Kapazität der Stadien geordnet<ref>{{Internetquelle |url=https://www.weltfussball.de/spielorte/bundesliga-2013-2014/ |titel=Stadien |werk=weltfussball.de |abruf=2013-09-22}}</ref>
+
+{| class="wikitable" style="width:100%"
+|- class="hintergrundfarbe5"
+! style="width:21%"| Verein
+! style="width:19%"| Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%"| Kapazität
+| style="width:2%; background-color:#ffffff; border:0px" rowspan="10" |
+! style="width:21%"| Verein
+! style="width:19%"| Stadion<br /><small>(Sponsorenname)</small>
+! style="width:9%"| Kapazität
+|-
+| Borussia Dortmund || [[Westfalenstadion]]<br /><small>(Signal Iduna Park)</small> || style="text-align:center" | 80.645<ref>{{Internetquelle| url=https://www.bvb.de/Der-BVB/Signal-Iduna-Park/SIGNAL-IDUNA-PARK| titel=Der Signal Iduna Park| titelerg=Fakten| werk=bvb.de| hrsg=[[Borussia Dortmund]]| kommentar=Der vorletzte Absatz gibt über die neue Zuschauerzahl Auskunft: Ein atemberaubendes Bauwerk und phänomenale Fans […] und Modernisierungen ab der Saison 2012/2013 nunmehr exakt 80.645 Zuschauern Platz bietet.| abruf=2022-10-11| datum=}}</ref>
+| Hannover 96 || [[HDI-Arena]] || style="text-align:center" | 49.000
+|-
+| Hertha BSC || [[Olympiastadion Berlin|Olympiastadion]] || style="text-align:center" | 74.400
+| Werder Bremen || [[Weserstadion]] || style="text-align:center" | 42.100
+|-
+| FC Bayern München || [[Allianz Arena]] || style="text-align:center" | 71.000
+| 1. FSV Mainz 05 || [[Coface Arena]] || style="text-align:center" | 34.000
+|-
+| FC Schalke 04 || [[Veltins-Arena]] || style="text-align:center" | 61.973
+| FC Augsburg || [[SGL arena]] || style="text-align:center" | 30.660
+|-
+| VfB Stuttgart || [[MHPArena|Mercedes-Benz Arena]] || style="text-align:center" | 60.449
+| Bayer 04 Leverkusen || [[BayArena]] || style="text-align:center" | 30.210
+|-
+| Hamburger SV || [[Volksparkstadion]]<br /><small>(Imtech Arena)</small> || style="text-align:center" | 57.000
+| TSG 1899 Hoffenheim || [[Rhein-Neckar-Arena]]<br /><small>(Wirsol Rhein-Neckar-Arena)</small> || style="text-align:center" | 30.150
+|-
+| Borussia Mönchengladbach || [[Borussia-Park]] || style="text-align:center" | 54.067
+| VfL Wolfsburg || [[Volkswagen Arena]] || style="text-align:center" | 30.000
+|-
+| Eintracht Frankfurt || [[Commerzbank-Arena]] || style="text-align:center" | 51.500
+| SC Freiburg || [[Dreisamstadion]]<br /><small>(Mage Solar Stadion)</small> || style="text-align:center" | 24.000
+|-
+| 1. FC Nürnberg || [[Grundig Stadion]] || style="text-align:center" | 50.000
+| Eintracht Braunschweig || [[Eintracht-Stadion]] || style="text-align:center" | 23.325<ref>{{Internetquelle |url=https://www.eintracht.com/stadion/ |titel=Das Eintracht-Stadion |titelerg=Fakten |werk=eintracht.com |hrsg=[[Eintracht Braunschweig]] |kommentar=Das Stadion verfügt zwar über eine Kapazität von 25.540 Zuschauern, bei Bundesligaspielen sind aber nur 23.325 zugelassen. |abruf=2013-10-12}}</ref>
+|-
+|}
+
+== Trainerwechsel ==
+{{siehe auch|Liste der Cheftrainer in der deutschen Fußball-Bundesliga}}
+{| class="wikitable"
+|-
+! Nach Spieltag
+! Verein
+! Tabellenplatz
+! Trainer
+! Nachfolge
+! Quelle
+|-
+| style="text-align:center" | 3
+| [[VfB Stuttgart]]
+| style="text-align:center" | 17. || [[Bruno Labbadia]] || [[Thomas Schneider (Fußballspieler, 1972)|Thomas Schneider]]
+| style="text-align:center" |<ref>{{Internetquelle |url=http://www.vfb.de/de/aktuell/meldungen/news/2013/labbadia/page/6577-1-3-.html |titel=Trennung von Bruno Labbadia |werk=vfb.de |hrsg=[[VfB Stuttgart]] |datum=2013-08-26 |offline=ja |abruf=2013-08-28 |archiv-datum=2013-11-09 |archiv-url=https://web.archive.org/web/20131109221443/http://www.vfb.de/de/aktuell/meldungen/news/2013/labbadia/page/6577-1-3-.html }}</ref><ref>{{Internetquelle |url=http://www.vfb.de/de/aktuell/meldungen/news/2013/neuer-trainer/page/6579-1-3-.html |titel=Thomas Schneider ist neuer Cheftrainer |werk=vfb.de |hrsg=VfB Stuttgart |datum=2013-08-26 |archiv-url=https://web.archive.org/web/20131109221440/http://www.vfb.de/de/aktuell/meldungen/news/2013/neuer-trainer/page/6579-1-3-.html |archiv-datum=2013-11-09 |offline=1 |abruf=2013-08-28}}</ref>
+|-
+| style="text-align:center" | 5
+| rowspan="2" | [[Hamburger SV]]
+| style="text-align:center" | 15. || [[Thorsten Fink]] || {{ARG|Ziel=Rodolfo Cardoso}} <small>(interim)</small>
+| style="text-align:center" |<ref>{{Internetquelle |url=http://www.hsv.de/saison/meldungen-saison/bundesliga/2013/september/der-hsv-trennt-sich-von-thorsten-fink/ |titel=Der HSV trennt sich von Thorsten Fink |werk=hsv.de |hrsg=[[Hamburger SV]] |datum=2013-09-17 |archiv-url=https://archive.is/20130917104054/http://www.hsv.de/saison/meldungen-saison/bundesliga/2013/september/der-hsv-trennt-sich-von-thorsten-fink/ |archiv-datum=2013-09-17 |offline=1 |abruf=2013-09-17}}</ref>
+|-
+| style="text-align:center" | 6
+| style="text-align:center" | 16.
+| {{ARG|#}} Rodolfo Cardoso <small>(interim)</small> || {{NLD|Ziel=Bert van Marwijk}}|| style="text-align:center" |<ref>{{Internetquelle |url=https://www.spiegel.de/sport/fussball/bundesliga-van-marwijk-soll-trainer-beim-hamburger-sv-werden-a-923700.html |titel=Van Marwijk bestätigt Wechsel zum HSV |werk=spiegel.de |hrsg=[[Spiegel Online]] |datum=2013-09-22 |abruf=2013-09-22}}</ref>
+|-
+| style="text-align:center" | 8
+| rowspan="2" | [[1. FC Nürnberg]]
+| style="text-align:center" | 16. || [[Michael Wiesinger]] und<br /> [[Armin Reutershahn]] || [[Roger Prinzen]] <small>(interim)</small>
+| style="text-align:center" |<ref>{{Internetquelle |autor=[[Sport-Informations-Dienst|SID]] |url=https://www.sportschau.de/fussball/bundesliga/vereine/nuernberg/wiesinger114.html |titel=Nürnberg entlässt Trainer Wiesinger |werk=sportschau.de |hrsg=[[Sportschau]] |datum=2013-10-07 |abruf=2013-10-07}}</ref>
+|-
+| style="text-align:center" | 9
+| style="text-align:center" | 16.
+|Roger Prinzen <small>(interim)</small> || {{NLD|Ziel=Gertjan Verbeek}}
+| style="text-align:center" |<ref>{{Internetquelle |url=https://www.kicker.de/news/fussball/bundesliga/startseite/593841/artikel_verbeek-soll-den-club-uebernehmen.html |titel=Verbeek soll den Club übernehmen |werk=kicker.de |hrsg=Kicker-Sportmagazin |datum=2013-10-21 |abruf=2013-10-21}}</ref>
+|-
+| style="text-align:center" | 17
+| [[Hannover 96]]
+| style="text-align:center" | 13. || [[Mirko Slomka]] || {{TUR|Ziel=Tayfun Korkut}}
+| style="text-align:center" |<ref>{{Internetquelle |url=http://www.hannover96.de/CDA/top-stories-1314/trennung-slomka.html |titel=Hannover 96 trennt sich von Slomka |werk=hannover96.de |hrsg=[[Hannover 96]] |datum=2013-12-27 |archiv-url=https://web.archive.org/web/20131228020614/http://www.hannover96.de/CDA/top-stories-1314/trennung-slomka.html |archiv-datum=2013-12-28 |offline=1 |abruf=2013-12-27}}</ref><ref>{{Internetquelle |url=https://www.sport1.de/de/fussball/fussball_bundesliga/artikel_826594.html |titel=No-Name Korkut übernimmt 96 |werk=sport1.de |hrsg=[[Sport1]] |datum=2013-12-31 |abruf=2013-12-31 |archiv-url=https://web.archive.org/web/20140101040131/http://www.sport1.de/de/fussball/fussball_bundesliga/artikel_826594.html |archiv-datum=2014-01-01 |offline=ja |archiv-bot=2026-09-26 21:02:05 InternetArchiveBot}}</ref>
+|-
+| style="text-align:center" | 21
+| [[Hamburger SV]]
+| style="text-align:center" | 17. || {{NLD|#}} Bert van Marwijk || Mirko Slomka
+| style="text-align:center" |<ref>{{Internetquelle |url=http://www.hsv.de/saison/meldungen-saison/bundesliga/2014/februar/hsv-stellt-trainer-bert-van-marwijk-frei/ |titel=HSV stellt Trainer Bert van Marwijk frei |werk=hsv.de |hrsg=Hamburger SV |datum=2014-02-15 |archiv-url=https://web.archive.org/web/20140221183404/http://www.hsv.de/saison/meldungen-saison/bundesliga/2014/februar/hsv-stellt-trainer-bert-van-marwijk-frei/ |archiv-datum=2014-02-21 |offline=1 |abruf=2014-02-15}}</ref><ref>{{Internetquelle |url=http://www.hsv.de/saison/meldungen-saison/bundesliga/2014/februar/mirko-slomka-wird-trainer-des-hamburger-sv/ |titel=Mirko Slomka wird Trainer des Hamburger SV |werk=hsv.de |hrsg=Hamburger SV |datum=2014-02-17 |archiv-url=https://web.archive.org/web/20140302065524/http://www.hsv.de/saison/meldungen-saison/bundesliga/2014/februar/mirko-slomka-wird-trainer-des-hamburger-sv |archiv-datum=2014-03-02 |offline=1 |abruf=2014-02-17}}</ref>
+|-
+| style="text-align:center" | 24
+| [[VfB Stuttgart]]
+| style="text-align:center" | 15. || Thomas Schneider || {{NLD|Ziel=Huub Stevens}}
+| style="text-align:center" |<ref>{{Internetquelle |url=http://www.vfb.de/de/aktuell/meldungen/news/2014/freistellung-thomas-schneider/page/7587-1-3-.html |titel=Thomas Schneider nicht mehr VfB Cheftrainer |werk=vfb.de |hrsg=VfB Stuttgart |datum=2014-03-09 |archiv-url=https://web.archive.org/web/20140309124929/http://www.vfb.de/de/aktuell/meldungen/news/2014/freistellung-thomas-schneider/page/7587-1-3-.html |archiv-datum=2014-03-09 |offline=1 |abruf=2014-03-09}}</ref><ref>{{Internetquelle |url=http://www.vfb.de/de/aktuell/meldungen/news/2014/cheftrainer-huub-stevens/page/7588-1-3-.html |titel=Huub Stevens übernimmt |werk=vfb.de |hrsg=VfB Stuttgart |datum=2014-03-09 |archiv-url=https://web.archive.org/web/20140309125307/http://www.vfb.de/de/aktuell/meldungen/news/2014/cheftrainer-huub-stevens/page/7588-1-3-.html |archiv-datum=2014-03-09 |offline=1 |abruf=2014-03-09}}</ref>
+|-
+| style="text-align:center" | 29
+| [[Bayer 04 Leverkusen]]
+| style="text-align:center" | 4. || {{FIN|Ziel=Sami Hyypiä}} || [[Sascha Lewandowski]] <small>(interim)</small>
+| style="text-align:center" |<ref>{{Internetquelle |url=http://www.bayer04.de/B04-DEU/de/_site_index.aspx |titel=Bayer 04 trennt sich von Hyypiä – Lewandowski übernimmt bis Saisonende |werk=bayer04.de |hrsg=Bayer 04 Leverkusen |datum=2014-04-05 |archiv-url=https://web.archive.org/web/20170126142444/http://www.bayer04.de/b04-deu/de/_site_index.aspx |archiv-datum=2017-01-26 |offline=1 |abruf=2014-04-05}}</ref>
+|-
+| style="text-align:center" | 31
+| [[1. FC Nürnberg]]
+| style="text-align:center" | 17. || {{NLD|#}} Gertjan Verbeek || Roger Prinzen <small>(interim)</small>
+| style="text-align:center" |<ref>{{Internetquelle |url=https://www.fcn.de/news/artikel/gertjan-verbeek-beurlaubt-roger-prinzen-uebernimmt/ |titel=Gertjan Verbeek beurlaubt, Roger Prinzen übernimmt |werk=fcn.de |hrsg=[[1. FC Nürnberg]] |datum=2014-04-23 |abruf=2014-04-23}}</ref>
+|}
+
+== Sponsoren ==
+{| class="wikitable sortable"
+! Verein !! Ausrüster !! Hauptsponsor
+|-
+| [[1. FC Nürnberg]] || [[Adidas]] || [[NKD]]
+|-
+| [[1. FSV Mainz 05]] || [[Nike (Unternehmen)|Nike]] || [[entega]]
+|-
+| [[Bayer 04 Leverkusen]] || [[Adidas]] || [[LG Electronics]]<ref group="#" name="lev" />
+|-
+| [[Borussia Dortmund]] || [[Puma (Sportartikelhersteller)|Puma]] || [[Evonik Industries]]
+|-
+| [[Borussia Mönchengladbach]] || [[Kappa (Unternehmen)|Kappa]] || [[Postbank]]
+|-
+| [[Eintracht Braunschweig]] || [[Nike (Unternehmen)|Nike]] || [[Seat]]
+|-
+| [[Eintracht Frankfurt]] || rowspan="2" | [[JAKO]] || [[Alfa Romeo]]
+|-
+| [[FC Augsburg]] || [[AL-KO Kober]]
+|-
+| [[FC Bayern München]] || rowspan="3" | [[Adidas]] || [[Deutsche Telekom]]
+|-
+| [[FC Schalke 04]] || [[Gazprom]]
+|-
+| [[Hamburger SV]] || [[Emirates]]
+|-
+| [[Hannover 96]] || [[JAKO]] || [[TUI]]
+|-
+| [[Hertha BSC]] || rowspan="2" | [[Nike (Unternehmen)|Nike]] || [[Deutsche Bahn]]
+|-
+| [[SC Freiburg]] || [[Ehrmann AG|Ehrmann]]
+|-
+| [[TSG 1899 Hoffenheim]] || rowspan="2" | [[Puma (Sportartikelhersteller)|Puma]] || [[SAP]]
+|-
+| [[VfB Stuttgart]] || [[Mercedes-Benz Bank]]
+|-
+| [[VfL Wolfsburg]] || [[Adidas]] || [[Volkswagen]]
+|-
+| [[Werder Bremen]] || [[Nike (Unternehmen)|Nike]] || [[PHW-Gruppe]]
+|}
+<small>Anmerkungen:</small>
+<references group="#">
+<ref group="#" name="lev">
+Bayer Leverkusen stellte der [[Deutsche Knochenmarkspenderdatei|Deutschen Knochenmarkspenderdatei]] vom 1. bis zum 3. Spieltag unter anderem die Werbeflächen auf seinen Trikots unentgeltlich zur Verfügung. Seit dem 4. Spieltag ist [[LG Electronics]] der Hauptsponsor. Am 18. und 19. Spieltag wurde Werbung für [[Ein Herz für Kinder]] auf dem Trikot getragen.
+</ref>
+</references>
+
+== Wissenswertes ==
+=== Besonderheiten ===
+* Die Begegnung des [[SC Freiburg]] gegen den [[FC Bayern München]] (1:1; 4. Spieltag) wurde nicht am Wochenende (31. August bis 1. September 2013) ausgetragen, sondern wegen der Teilnahme von Bayern München am [[Liste der UEFA-Super-Cup-Spiele#2013|UEFA Super Cup]] bereits am 27. August.
+* Am 18. Oktober 2013 (9. Spieltag) erzielte der Leverkusener [[Stefan Kießling (Fußballspieler)|Stefan Kießling]] beim Spiel in Hoffenheim ein sogenanntes [[Phantomtor]]. Kießling köpfte den Ball nach einer Ecke knapp am Hoffenheimer Tor vorbei gegen das Außennetz, von wo der Ball durch ein Loch in das Tor gelangte, so dass es für die Schiedsrichter sowie für viele Spieler und Zuschauer im Stadion so aussah, als wäre ein regulärer Treffer erzielt worden. Schiedsrichter [[Felix Brych]] entschied auf Tor zum 0:2. Das Spiel endete 1:2. In einer Verhandlung des DFB-Sportgerichtes am 28. Oktober wurde entschieden, das Spiel nicht zu wiederholen und mit dem ursprünglichen Endstand zu werten.
+* Das Spiel des [[VfB Stuttgart]] gegen den FC Bayern München, das ursprünglich am 17. Spieltag (20. bis 22. Dezember) stattfinden sollte, musste wegen der Teilnahme des FC Bayern an der [[FIFA-Klub-Weltmeisterschaft]] [[FIFA-Klub-Weltmeisterschaft 2013|2013]] verlegt werden. Die Begegnung wurde am 29. Januar 2014 nachgeholt (1:2); damit bestritten beide Mannschaften bis zur Winterpause nur 16 Partien.
+* Die Begegnung des VfB Stuttgart gegen [[Borussia Dortmund]] am 29. März 2014 (2:3; 28. Spieltag) wurde in der 73. Minute unterbrochen, weil sich der Schiedsrichter [[Michael Weiner]] bei einem Ausfallschritt verletzte. Der vierte Offizielle fungierte fortan als Linienrichter, Weiner als vierter Offizieller. [[Norbert Grudzinski]], bis dahin Linienrichter, war den Rest des Spiels Schiedsrichter.<ref>{{Internetquelle |url=https://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2013-14/28/1895121/spielverlauf_vfb-stuttgart-11_borussia-dortmund-17.html |titel=VfB Stuttgart – Borussia Dortmund 2:3 – Spielereignisse |werk=kicker.de |hrsg=[[Kicker-Sportmagazin]] |datum=2014-03-29 |abruf=2014-04-28}}</ref>
+
+=== Rekorde ===
+* Der Wechsel von [[Mario Götze]] von [[Borussia Dortmund]] zum [[FC Bayern München]] vor der Saison war mit einer Ablösesumme von 37 Millionen Euro der teuerste Wechsel innerhalb der Bundesliga. Unter allen Transfers mit Beteiligung eines Bundesligisten war dieser Wechsel nach dem Transfer von [[Javi Martínez]] vor der [[Fußball-Bundesliga 2012/13|Saison 2012/13]] zum FC Bayern München (40 Millionen Euro Ablöse) der zweitteuerste.<ref>{{Internetquelle |url=https://www.kicker.de/news/fussball/bundesliga/vereine/585160/artikel_transfer-sensation_bayern-schnappt-sich-goetze.html |titel=Transfer-Sensation: Bayern schnappt sich Götze |werk=kicker.de |hrsg=Kicker-Sportmagazin |datum=2013-04-23 |abruf=2013-05-27}}</ref>
+* Am 3. Spieltag wurde gegen acht Spieler ein Platzverweis ausgesprochen, mehr als je zuvor an einem Spieltag.
+* [[Franck Ribéry]] blieb seit der 0:1-Niederlage gegen Borussia Dortmund (am 11. April 2012) mit dem 3:2-Sieg im Heimspiel gegen Hertha BSC (am 26. Oktober 2013) in 39 Bundesligaspielen in Folge ungeschlagen und löste damit [[Holger Hieronymus]] (Hamburger SV) mit 38 ungeschlagenen Spieleinsätzen in Folge als Rekordhalter ab.<ref>{{Internetquelle |url=https://www.kicker.de/news/fussball/bundesliga/vereine/594135/artikel_mandzukic-und-goetze_eine-bank.html |titel=Mandzukic und Götze: Eine Bank |werk=kicker.de |hrsg=Kicker-Sportmagazin |datum=2013-10-26 |abruf=2013-10-31}}</ref> Seine Serie riss nach 49 ungeschlagenen aufeinanderfolgenden Bundesligaspielen am 12. April 2014 bei der 0:3-Niederlage des [[FC Bayern München]] gegen [[Borussia Dortmund]].<ref>{{Internetquelle |url=https://www.abendzeitung-muenchen.de/inhalt.der-fc-bayern-in-den-wochen-der-wahrheit-rib-ry-und-robben-ziemlich-fluegellahm.2e203c2c-3356-4e2c-934a-37d3abe34c3a.html |titel=Ribéry und Robben? Ziemlich flügellahm |werk=abendzeitung-muenchen.de |hrsg=Abendzeitung |datum=2014-04-16 |abruf=2014-11-16}}</ref>
+* [[Mame Diouf]] von [[Hannover 96]] erhielt am 26. Oktober 2013 (10. Spieltag) die schnellste [[Gelb-Rote Karte]] in einem Bundesligaspiel. Nach Verwarnung wegen Meckerns in der 10. Minute wurde er nach einer [[Schwalbe (Fußball)|Schwalbe]] in der 12. Spielminute des Feldes verwiesen.<ref>{{Internetquelle |url=https://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2013-14/10/1894960/spielanalyse_hannover-96-58_1899-hoffenheim-3209.html |titel=Spielanalyse Hannover 96 – 1899 Hoffenheim |werk=kicker.de |hrsg=Kicker-Sportmagazin |datum=2013-10-26 |abruf=2013-11-01}}</ref>
+* Mit dem 3:0-Sieg im Heimspiel gegen den [[FC Augsburg]] am 9. November 2013 (12. Spieltag) stellte der FC Bayern München den Rekord von 37 aufeinander folgenden Bundesligaspielen ohne Niederlage (saisonübergreifend) auf und löste den Hamburger SV als bisherigen Rekordhalter (36 Spiele) aus den Spielzeiten 1981/82 und 1982/83 ab. Die Serie riss am 29. Spieltag, als der FC Bayern München nach 53 Spielen ohne Niederlage mit 0:1 beim FC Augsburg verlor.<ref>{{Internetquelle |url=https://www.sportschau.de/fussball/bundesliga/spielbericht-augsburg-bayern100.html |titel=Spielanalyse FC Augsburg – FC Bayern München |werk=sportschau.de |datum=2014-04-05 |abruf=2014-04-05}}</ref>
+* Dem [[1. FC Nürnberg]] gelang der erste Saisonsieg erst am 18. Spieltag, noch nie musste eine Mannschaft so lange auf den ersten Saisonerfolg warten. Zuvor lag der Rekord bei 14 Spielen ohne Sieg zu Saisonbeginn in der [[Fußball-Bundesliga 1977/78|Saison 1977/78]] bei [[TSV 1860 München]] und in der [[Fußball-Bundesliga 1994/95|Saison 1994/95]] beim [[MSV Duisburg]]. Folglich schloss erstmals eine Mannschaft die Hinrunde ohne Sieg ab.
+* Beim 2:1 zwischen Nürnberg und Braunschweig am 22. Spieltag wurden erstmals drei Elfmeter in einem Bundesligaspiel verschossen.<ref>{{Internetquelle |url=https://www.kicker.de/news/fussball/bundesliga/spieltag/1-bundesliga/2013-14/22/1895068/spielanalyse_1-fc-nuernberg-81_eintracht-braunschweig-41.html |titel=Spielanalyse 1. FC Nürnberg – Eintracht Braunschweig |werk=kicker.de |hrsg=Kicker-Sportmagazin |datum=2014-02-22 |abruf=2014-02-27}}</ref>
+* Am 25. März 2014 feierte der [[FC Bayern München]] nach einem 3:1-Sieg bei [[Hertha BSC]], bei noch sieben ausstehenden Spieltagen, die früheste Meisterschaftsentscheidung der Bundesliga-Geschichte. Erstmals stand eine Mannschaft im Monat März als Meister fest.
+* Am 32. Spieltag stellte [[Borussia Mönchengladbach]] im Spiel beim [[FC Schalke 04]] (0:1) einen Fairness-Rekord auf. Mönchengladbach foulte in der ersten Hälfte nicht ein einziges Mal und im ganzen Spiel nur einmal, in der 90. Minute durch [[Roel Brouwers]].<ref>{{Internetquelle |autor=Sport-Informations-Dienst |url=https://www.sportal.de/rekord-borussia-moenchengladbach-mit-nur-einem-foul-gegen-fc-schalke-04-roel-brouwers-1-2014042737329300000 |titel=Rekord: Borussia Mönchengladbach mit nur einem Foul gegen FC Schalke 04 – Roel Brouwers |werk=sportal.de |hrsg=SPORTAL GmbH |datum=2014-04-27 |abruf=2014-04-28}}</ref>
+* Der [[1. FC Nürnberg]] stieg nach der Saison zum achten Mal aus der Bundesliga ab und ist in dieser Statistik nun alleiniger Rekordhalter.
+* Mit nur 27 Punkten blieb der [[Hamburger SV]] in der Bundesliga. Dies ist die niedrigste Punktezahl in der Ligahistorie, die zum Klassenerhalt genügte. In der [[Fußball-Bundesliga 1986/87|Saison 1986/87]] schaffte der [[FC 08 Homburg]] den Verbleib in der Bundesliga ebenfalls mit nur 27 Punkten (auf die [[Punkteregel|Drei-Punkte-Regel]] umgerechnet).
+
+=== Bundesliga-Statistik ===
+* [[Pep Guardiola]], der als Nachfolger von [[Jupp Heynckes]] für den [[FC Bayern München]] verpflichtet wurde, ist der erste [[Spanien|spanische]] Trainer in der Geschichte der deutschen Bundesliga.
+* [[Eintracht Braunschweig]] spielte nach 28 Jahren Abstinenz (zuletzt [[Fußball-Bundesliga 1984/85|1984/85]]) wieder in der Bundesliga. Nur einmal musste ein Verein länger auf die Rückkehr in die Bundesliga warten, nämlich [[Alemannia Aachen]] von [[Fußball-Bundesliga 1969/70|1970]] bis [[Fußball-Bundesliga 2006/07|2006]].
+* Zum ersten und bislang einzigen Mal waren mit dem [[VfL Wolfsburg]], [[Hannover 96]] und [[Eintracht Braunschweig]] drei Mannschaften aus Niedersachsen in der Fußball-Bundesliga vertreten.
+* Erstmals konnten gleich vier Mannschaften ([[FC Bayern München]], [[Borussia Dortmund]], [[Bayer 04 Leverkusen]], [[1. FSV Mainz 05]]) die ersten drei Spiele gewinnen.
+* Dem für den [[Hamburger SV|HSV]] spielenden [[Pierre-Michel Lasogga]] gelang am 6. Oktober 2013 (8. Spieltag) beim 5:0-Sieg im Spiel beim [[1. FC Nürnberg]] der schnellste Auswärts-[[Hattrick]] der Bundesligageschichte. Er erzielte drei Tore innerhalb von acht Minuten (59., 63., 67.).<ref>{{Internetquelle |url=https://www.dfb.de/bundesliga/spieltagtabelle/?spieledb_path=%2Fmatches%2F1765199 |titel=Spielstatistik: 06.10.2013: 1. FC Nürnberg – Hamburger SV 0:5 (0:1) |werk=dfb.de |hrsg=Deutscher Fußball-Bund |datum=2013-10-06 |abruf=2015-08-25}}</ref> Es war der schnellste Hattrick seit 1991 und der viertschnellste insgesamt.<ref>{{Internetquelle |autor=SID |url=http://www.rp-online.de/sport/fussball/bundesliga/lasogga-schnellster-hattrick-seit-1991-1.3726702 |titel=Lasogga: Schnellster Hattrick seit 1991 |werk=rp-online.de |hrsg=[[Rheinische Post]] |datum=2013-10-06 |archiv-url=https://web.archive.org/web/20131009033551/http://www.rp-online.de/sport/fussball/bundesliga/lasogga-schnellster-hattrick-seit-1991-1.3726702 |archiv-datum=2013-10-09 |offline=1 |abruf=2013-10-23}}</ref>
+* Der für den [[FC Augsburg]] spielende [[Ragnar Klavan]] schoss am 1. März 2014 (23. Spieltag) beim 1:1-Unentschieden gegen [[Hannover 96]] das erste Bundesligator eines [[Estland|Esten]] überhaupt.
+* Beim 1:0 von [[Werder Bremen]] gegen den [[Hamburger SV]] am 1. März 2014 (23. Spieltag) trafen mit den beiden am längsten der Bundesliga angehörenden Mannschaften erstmals zwei Mannschaften zum hundertsten Mal in der Bundesliga aufeinander.
+
+=== Höchstwerte der Saison ===
+* Der höchste Sieg der Saison 2013/14 war das 7:0 des [[FC Bayern München]] bei [[Werder Bremen]] am 15. Spieltag.
+* Die torreichsten Partien der Saison waren mit jeweils acht Toren
+** das 6:2 des [[VfB Stuttgart]] gegen die [[TSG 1899 Hoffenheim]] am 4. Spieltag
+** das 6:2 von [[Borussia Dortmund]] gegen den [[Hamburger SV]] am 5. Spieltag
+** das 5:3 von [[Bayer 04 Leverkusen]] gegen den Hamburger SV am 12. Spieltag
+** das 4:4 der TSG 1899 Hoffenheim gegen [[Werder Bremen]] am 14. Spieltag
+** das 6:2 der TSG 1899 Hoffenheim gegen den [[VfL Wolfsburg]] am 23. Spieltag.
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Heimatverein || Landesverband || Anz. d.<br />Spiele || [[Datei:Yellow card.svg|12px]] || {{Gelb-Rot}} || [[Datei:Red card.svg|12px]] || class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Aytekin, Deniz" | [[Deniz Aytekin]] || {{DatumZelle|1978-07-21}} || TSV Altenberg || [[Bayerischer Fußball-Verband|Bayern]] || {{0}}15 || {{0}}41 || {{0}}2 || {{0}}1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Brych, Felix" | [[Felix Brych]] || {{DatumZelle|1975-08-03}} || SV Am Hart München || [[Bayerischer Fußball-Verband|Bayern]] || {{0}}16 || {{0}}58 || {{0}}2 || {{0}}2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Dankert, Bastian" | [[Bastian Dankert]] || {{DatumZelle|1980-06-09}} || Brüsewitzer SV || [[Landesfußballverband Mecklenburg-Vorpommern|Mecklenburg-Vorpommern]] || {{0}}12 || {{0}}46 || {{0}}3 || {{0}}3 || style="text-align:left" |FIFA-Schiedsrichter seit Beginn 2014
+|-
+| style="text-align:left" data-sort-value="Dingert, Christian" | [[Christian Dingert]] || {{DatumZelle|1980-07-14}} || TSG Burg Lichtenberg || [[Südwestdeutscher Fußballverband|Südwest]] || {{0}}13 || {{0}}49 || {{0}}1 || {{0}}0 ||style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Drees, Jochen" | [[Jochen Drees]] || {{DatumZelle|1970-03-15}} || SV Münster-Sarmsheim || [[Südwestdeutscher Fußballverband|Südwest]] || {{0}}14 || {{0}}53 || {{0}}2 || {{0}}2 ||
+|-
+| style="text-align:left" data-sort-value="Fritz, Marco" | [[Marco Fritz]] || {{DatumZelle|1977-10-03}} || SV Breuningsweiler || [[Württembergischer Fußballverband|Württemberg]] || {{0}}14 || {{0}}48 || {{0}}1 || {{0}}2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || {{DatumZelle|1968-06-09}} || [[ATSV Sebaldsbrück]] || [[Bremer Fußball-Verband|Bremen]] || {{0}}14 || {{0}}48 || {{0}}1 || {{0}}1 ||
+|-
+| style="text-align:left" data-sort-value="Grafe, Manuel" | [[Manuel Gräfe]] || {{DatumZelle|1973-09-21}} || [[Hertha Zehlendorf]] || [[Berliner Fußball-Verband|Berlin]] || {{0}}16 || {{0}}63 || {{0}}1 || {{0}}2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Hartmann, Robert" | [[Robert Hartmann (Schiedsrichter)|Robert Hartmann]] || {{DatumZelle|1979-09-08}} || SV Krugzell || [[Bayerischer Fußball-Verband|Bayern]] || {{0}}12 || {{0}}41 || {{0}}1 || {{0}}0 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Kinhofer, Thorsten" | [[Thorsten Kinhöfer]] || {{DatumZelle|1968-06-27}} || SC Constantin Herne || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]]|| {{0}}15 || {{0}}53 || {{0}}2 || {{0}}0 ||style="text-align:left" |FIFA-Schiedsrichter bis Ende 2013
+|-
+| style="text-align:left" data-sort-value="Kircher, Knut" | [[Knut Kircher]] || {{DatumZelle|1969-02-02}} || TSV Hirschau || [[Württembergischer Fußballverband|Württemberg]] || {{0}}16 || {{0}}49 || {{0}}0 || {{0}}1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || {{DatumZelle|1968-11-21}} || [[RSV Braunschweig]] || [[Niedersächsischer Fußballverband|Niedersachsen]] || {{0}}16 || {{0}}58 || {{0}}2 || {{0}}2 || style="text-align:left" |FIFA-Schiedsrichter bis Ende 2013
+|-
+| style="text-align:left" data-sort-value="Perl, Gunter" | [[Günter Perl]] || {{DatumZelle|1969-12-23}} || MSV München || [[Bayerischer Fußball-Verband|Bayern]] || {{0}}14 || {{0}}48 || {{0}}1 || {{0}}0 ||
+|-
+| style="text-align:left" data-sort-value="Schmidt, Markus" | [[Markus Schmidt (Schiedsrichter)|Markus Schmidt]] || {{DatumZelle|1973-08-31}} || SV Sillenbuch || [[Württembergischer Fußballverband|Württemberg]] || {{0}}13 || {{0}}33 || {{0}}1 || {{0}}3 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Siebert, Daniel" | [[Daniel Siebert]] || {{DatumZelle|1984-05-04}} || FC Nordost Berlin || [[Berliner Fußball-Verband|Berlin]] || {{0}}10 || {{0}}39 || {{0}}0 || {{0}}1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || {{DatumZelle|1969-10-06}} || [[Würzburger Kickers]] || [[Bayerischer Fußball-Verband|Bayern]] || {{0}}13 || {{0}}37 || {{0}}2 || {{0}}1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || {{DatumZelle|1969-11-20}} || DJK Altdorf || [[Bayerischer Fußball-Verband|Bayern]] || {{0}}16 || {{0}}75 || {{0}}0 || {{0}}1 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Stieler, Tobias" | [[Tobias Stieler]] || {{DatumZelle|1981-07-02}} || SG Rosenhöhe || [[Hessischer Fußball-Verband|Hessen]] || {{0}}13 || {{0}}40 || {{0}}2 || {{0}}3 || style="text-align:left" |FIFA-Schiedsrichter seit Beginn 2014
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || {{DatumZelle|1969-03-21}} || TSV Ottenstein || [[Niedersächsischer Fußballverband|Niedersachsen]] || {{0}}12 || {{0}}57 || {{0}}1 || {{0}}1 || style="text-align:left" |
+|-
+| style="text-align:left" data-sort-value="Welz, Tobias" | [[Tobias Welz]] || {{DatumZelle|1977-07-11}} || [[SpVgg Nassau Wiesbaden]] || [[Hessischer Fußball-Verband|Hessen]] || {{0}}15 || {{0}}46 || {{0}}0 || {{0}}2 || style="text-align:left" |FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Winkmann, Guido" | [[Guido Winkmann]] || {{DatumZelle|1973-11-27}} || SV Nütterden || [[Fußballverband Niederrhein|Niederrhein]] || {{0}}10 || {{0}}36 || {{0}}1 || {{0}}0 ||
+|-
+| style="text-align:left" data-sort-value="Zwayer, Felix" | [[Felix Zwayer]] || {{DatumZelle|1981-05-19}} || [[SC Charlottenburg]] || [[Berliner Fußball-Verband|Berlin]] || {{0}}16 || {{0}}57 || {{0}}3 || {{0}}1 || style="text-align:left" |FIFA-Schiedsrichter
+|- class="hintergrundfarbe9 sortbottom"
+! style="text-align:right" colspan="4"| Gesamt: || 306 || 1075 || 29 || 29 ||
+|- class="sortbottom hintergrundfarbe5"
+| style="text-align:right" colspan="9"| <small>Quelle: ''weltfussball.de<ref name="schiedsrichter">{{Internetquelle |url=https://www.weltfussball.de/schiedsrichter/bundesliga-2013-2014/1/ |titel=Schiedsrichter |werk=weltfussball.de |abruf=2014-05-21}}</ref> ''</small>
+|}
+
+== Lizenzspieler-Etats ==
+Nach Informationen des [[Sport-Informations-Dienst|SID]] ergeben sich für die Saison folgende einzelne Lizenzspieler-Etats:<ref>{{Internetquelle |autor=SID |url=http://de.eurosport.yahoo.com/news/bundesliga-bundesliga-etats-bayern-thront-111147514.html |titel=Bundesliga – Bundesliga-Etats: Bayern thront |werk=eurosport.yahoo.com |hrsg=Yahoo und [[Eurosport]] |datum=2013-07-19 |archiv-url=https://web.archive.org/web/20140503224303/https://de.eurosport.yahoo.com/news/bundesliga-bundesliga-etats-bayern-thront-111147514.html |archiv-datum=2014-05-03 |offline=1 |abruf=2013-07-19}}</ref>
+
+{| class="wikitable sortable"
+! Verein !! Höhe (in Mio. Euro) !! Veränderung zur Vorsaison (in %)
+|-
+| [[1. FC Nürnberg]] || 24 || +11,6
+|-
+| [[1. FSV Mainz 05]] || 24 || +20
+|-
+| [[Bayer 04 Leverkusen]] || 48 || +11,6
+|-
+| [[Borussia Dortmund]] || 68 || +40,2
+|-
+| [[Borussia Mönchengladbach]] || 34,5 || +7,8
+|-
+| [[Eintracht Frankfurt]] || 30 || +25
+|-
+| [[FC Augsburg]] || 17 || ±0
+|-
+| [[FC Bayern München]] || 140 || +12
+|-
+| [[FC Schalke 04]] || 80 || +23,1
+|-
+| [[Eintracht Braunschweig]] || 15 || Aufsteiger
+|-
+| [[Hamburger SV]] || 40 || +2,6
+|-
+| [[Hannover 96]] || 33 || +3,1
+|-
+| [[SC Freiburg]] || 16,1 || ±0
+|-
+| [[Hertha BSC]] || 23 || Aufsteiger
+|-
+| [[TSG 1899 Hoffenheim]] || 30 || −9,1
+|-
+| [[VfB Stuttgart]] || 40 || −4,8
+|-
+| [[VfL Wolfsburg]] || 50 || ±0
+|-
+| [[Werder Bremen]] || 35 || ±0
+|}
+
+== Kader ==
+{{Hauptartikel|Mannschaftskader der deutschen Fußball-Bundesliga 2013/14}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2013/2014|Fußball-Bundesliga 2013/14}}
+* [https://www.fussballdaten.de/bundesliga/2014/spielplan/ Bundesliga - Spielplan 2013/2014], fussballdaten.de
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Europa-Fußball 2014
+|Navigationsleiste Fußballsaison 2013/14 (Deutschland)
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2013/14}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2013/14]]
+[[Kategorie:Fußballsaison 2013/14|Bundesliga 2013/14]]

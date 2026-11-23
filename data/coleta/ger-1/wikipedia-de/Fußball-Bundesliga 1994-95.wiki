@@ -1,0 +1,316 @@
+{{Infobox Fußballsaison
+| Name                           = Bundesliga 1994/95
+| Bild                           = [[Datei:DFB-Logo 1995.svg|alt=Abgebildet ist das Logo des DFB ab 1995. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken, die Buchstaben sind mehrfach unterbrochen. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1995]]
+| Meister                        = [[Borussia Dortmund]]
+| UEFA Champions League          = [[Borussia Dortmund]]
+| UEFA Cup                       = [[Werder Bremen]]<br />[[SC Freiburg]]<br />[[1. FC Kaiserslautern]]<br />[[FC Bayern München]]
+| Europapokal der Pokalsieger    = [[Borussia Mönchengladbach]]
+| Pokal-Sieger                   = [[Borussia Mönchengladbach]]
+| UI-Cup                         = [[Bayer 04 Leverkusen]]<br />[[Karlsruher SC]]<br />[[Eintracht Frankfurt]]<br />[[1. FC Köln]]
+| Absteiger                      = [[VfL Bochum]]<br />[[MSV Duisburg]]<br />[[Dynamo Dresden]] (RL)
+| Mannschaften                   = 18
+| Spiele                         = 306
+| geschossene Tore               = 918
+| Zuschauer                      = 8.476.885
+| Torschützenkönig               = {{DEU|Ziel=Mario Basler}} ([[Werder Bremen]]) /<br />{{DEU|Ziel=Heiko Herrlich}}<br />([[Borussia Mönchengladbach]])
+| vorherige Saison               = [[Fußball-Bundesliga 1993/94|Bundesliga 1993/94]]
+| nachfolgende Saison            = [[Fußball-Bundesliga 1995/96|Bundesliga 1995/96]]
+| nachgeordnete Liga             = [[2. Fußball-Bundesliga 1994/95|2. Bundesliga 1994/95]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:werder value:rgb(0.11,0.56,0.36)
+  id:grew   value:rgb(0.86,0.86,0.86)
+  id:Pauli  value:rgb(0.6,0.3,0.1)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5  till:3.5  shift:(20,-3)  color:yelloworange  text:Borussia Dortmund
+  from:3.5  till:7.5  shift:(20,-3)  color:werder   text:Werder Bremen
+  from:7.5  till:28.5 shift:(20,-3)  color:yelloworange  text:Borussia Dortmund
+  from:28.5 till:33.5 shift:(20,-3)  color:werder   text:Werder Bremen
+  from:33.5 till:34.5 shift:(20,-3)  color:yelloworange  text:Borussia Dortmund
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:1860 value:rgb(0.00,0.50,1   )
+  id:msv value:rgb(0.00,0.05,1   )
+  id:vfl value:rgb(0.04,0.15,0.45)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5   till:8.5  shift:(20,-3)   color:1860  text:1860 München
+     from:8.5   till:17.5 shift:(20,-3)   color:msv     text:MSV Duisburg
+     from:17.5  till:20.5 shift:(20,-3)   color:vfl text:VfL Bochum
+     from:20.5  till:34.5 shift:(20,-3)   color:yelloworange   text:Dynamo Dresden
+</timeline>
+|}
+
+Erster in der '''Saison 1994/95 der deutschen [[Fußball-Bundesliga|Bundesliga]]''' der Männer und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] wurde [[Borussia Dortmund]]. Die Saison begann am 19.&nbsp;August 1994 und endete am 17.&nbsp;Juni 1995.
+
+== Saisonüberblick ==
+Die Saison 1994/95 endete mit der ersten Meisterschaft von Borussia Dortmund in der [[Fußball-Bundesliga|Bundesliga]]. Konkurrent [[Werder Bremen]] verlor am letzten Spieltag mit 1:3 beim [[FC Bayern München]], dem zukünftigen Arbeitgeber von [[Otto Rehhagel]] und damit auch die Meisterschaft. Kontroverse Diskussionen löste eine als sog. „[[Schwalbe (Fußball)|Schwalbe]]“ eingestufte Aktion des Dortmunder Spielers [[Andreas Möller]] im Spiel gegen den [[Karlsruher SC]] aus. Der [[SC Freiburg]] mit Neuling [[Jörg Heinrich]] landete entgegen vielen Erwartungen auf Platz drei und qualifizierte sich dadurch wie [[Borussia Mönchengladbach]] mit Trainer [[Bernd Krauss]] und dem Italien-Heimkehrer [[Stefan Effenberg]] für den [[UEFA-Pokal]]. Verstärktes Medieninteresse verursachten eine Finanzkrise von Dynamo Dresden um seinen Präsidenten Rolf Jürgen Otto sowie die verkürzte Trainerlaufbahn von Jupp Heynckes bei [[Eintracht Frankfurt]], der Anthony Yeboah, Maurizio Gaudino und Jay-Jay Okocha suspendierte. Nur Okocha blieb bei der Eintracht. Die Saison 1994/95 war die letzte mit der [[2-Punkte-Regel|alten Punkteregel]] und mit [[Bayer 05 Uerdingen]] als Werksverein.
+
+=== Bayern München ===
+Mit dem italienischen „Maestro“ [[Giovanni Trapattoni]] als Trainer und den Neuzugängen [[Oliver Kahn|Kahn]], [[Jean-Pierre Papin|Papin]] und [[Alain Sutter|Sutter]] wollte Bayern München mindestens den Meistertitel verteidigen. Während die Bayern in der [[UEFA Champions League 1994/95|Champions League]] erst im Halbfinale gegen den späteren Sieger [[Ajax Amsterdam]] ausschieden, blieben sie in der Bundesliga hinter vielen Erwartungen zurück. Dank des Pokalsieges Borussia Mönchengladbachs erreichte der Rekordmeister den [[UEFA-Pokal 1995/96|UEFA-Pokal-Wettbewerb für die Saison 1995/96]], der sogar gewonnen werden konnte. Verletzungen von Spielern wie Kahn, [[Lothar Matthäus|Matthäus]] und Papin gelten als Ursache für das Verfehlen des Ziels in der Liga.
+
+Ein einmaliger Fall ereignete sich am 26. Spieltag. Die Münchner gewannen mit 5:2 bei Eintracht Frankfurt, spielten aber ab der 72. Minute nach der Einwechslung von [[Dietmar Hamann]] mit vier Amateuren. Da laut DFB-Satzung nur der Einsatz von drei Amateuren erlaubt ist, wurde das Spiel mit 2:0 für Eintracht Frankfurt gewertet.
+
+=== Kontroverse um Andreas Möllers ''Schwalbe'' ===
+Beim Heimspiel von Borussia Dortmund am 26. Spieltag gegen den Karlsruher SC bekam Andreas Möller beim Zwischenstand von 0:1 in der 75. Spielminute einen Elfmeter für Borussia Dortmund durch die Vortäuschung eines Foulspiels im Strafraum ([[Schwalbe (Fußball)|Schwalbe]]). Michael Zorc verwandelte den Elfmeter zum 1:1, bevor Matthias Sammer in der 85. Spielminute noch den Siegtreffer zum 2:1<ref>[http://www.bundesliga.de/de/statistik/spieltag/index.php?&competition=22&season=13&matchday=26 Bundesliga-Saison 1994/95, 26. Spieltag] {{Toter Link|url=http://www.bundesliga.de/de/statistik/spieltag/index.php?&competition=22&season=13&matchday=26 |date=2026-09 |archivebot=2026-09-26 20:47:23 InternetArchiveBot }}, www.bundesliga.de</ref> erzielte. Die Sportschau kommentierte im Rückblick, dass Borussia Dortmund das Spiel dank des Elfmeters noch drehte.
+
+Dank dieses Sieges und des 1:1 von Verfolger Werder Bremen beim 1. FC Köln am selben Spieltag konnte Borussia Dortmund in der Bundesligatabelle einen Punkt Abstand zu den zuvor punktgleichen Bremern gewinnen. Andererseits ging das nachfolgende Auswärtsspiel des BVB beim FC Bayern München, für das Möller genauso wie für das Spiel gegen Dynamo Dresden (2:0) nachträglich wegen seiner Schwalbe gesperrt wurde, mit 1:2 verloren.
+
+Borussia Dortmunds Meisterschaft in der Saison 1994/95 wurde letztlich mit einem Punkt Vorsprung vor Werder Bremen gewonnen. Die Tordifferenz Borussia Dortmunds (+34) nach dem letzten Spieltag der Saison war um drei Treffer besser als das Werder Bremens (+31, bei mehr erzielten Treffern).
+
+=== Bayer 05 Uerdingen ===
+Abstiegskandidat Nummer eins Uerdingen hielt nicht nur die Klasse, sondern stand auch an keinem Spieltag auf einem Abstiegsplatz. Allerdings verloren die Krefelder nach der Saison die Unterstützung des Bayer-Werks.
+
+=== Lizenzentzug Dynamo Dresdens ===
+Absteiger Dynamo Dresden, der seit dem 30. Spieltag (12. Mai 1995) feststand,<ref>[https://www.weltfussball.de/spielplan/bundesliga-1994-1995-spieltag/30 Bundesliga-Saison 1994/95, 30. Spieltag], www.weltfussball.de</ref> wurde am 13. Mai 1995 die Lizenz für die Folgesaison aus wirtschaftlichen Gründen [[Lizenzentzug|entzogen]]. Bereits in der [[Fußball-Bundesliga 1993/94|Vorsaison]] waren Dresden wegen Verstoßes gegen Lizenzauflagen vier Punkte abgezogen worden. Die Entscheidung wurde am 22. Mai 1995 vom DFB-Vorstand und am 5. Juli 1995 vom Neutralen Sportgericht bestätigt. Dresden wurde in die [[Fußball-Regionalliga 1995/96|Regionalliga]] eingegliedert.
+
+=== Erster offizieller Dopingfall der Bundesliga-Geschichte ===
+Am 6. Februar 1995 wurde [[Roland Wohlfarth]] vom [[VfL Bochum]] vom Sportgericht des DFB wegen eines grob fahrlässigen Verstoßes gegen die Dopingbestimmungen zu einer zweimonatigen Sperre verurteilt. Am 16. Februar wurde das Urteil vom DFB-Bundesgericht bestätigt. Wohlfarth war am Rande des Hallenturniers in Leipzig am 24. Januar 1995 positiv getestet worden. Er hatte ohne Rücksprache mit dem Mannschaftsarzt einen [[Appetitzügler]] mit dem verbotenen Wirkstoff [[Norephedrin]] eingenommen. Der ''Fall Wohlfarth'' ging als erster Dopingfall in die Bundesliga-Geschichte ein.
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 1994-95.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=20 |U= 9 |N= 5 |ET=67 |GT=33 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=20 |U= 8 |N= 6 |ET=70 |GT=39 |Siegpunkte=2 |Verein=[[Werder Bremen]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=20 |U= 6 |N= 8 |ET=66 |GT=44 |Siegpunkte=2 |Verein=[[SC Freiburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 4 |S=17 |U=12 |N= 5 |ET=58 |GT=41 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang= 5 |S=17 |U= 9 |N= 8 |ET=66 |GT=41 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 6 |S=15 |U=13 |N= 6 |ET=55 |GT=41 |Siegpunkte=2 |Verein=[[FC Bayern München]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=13 |U=10 |N=11 |ET=62 |GT=51 |Siegpunkte=2 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 8 |S=11 |U=14 |N= 9 |ET=51 |GT=47 |Siegpunkte=2 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 9 |S=12 |U= 9 |N=13 |ET=41 |GT=49 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang=10 |S=11 |U=10 |N=13 |ET=54 |GT=54 |Siegpunkte=2 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=10 |U=11 |N=13 |ET=48 |GT=54 |Siegpunkte=2 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=10 |U=10 |N=14 |ET=52 |GT=66 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U= 9 |N=15 |ET=43 |GT=50 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S= 8 |U=11 |N=15 |ET=41 |GT=57 |Siegpunkte=2 |Verein=[[TSV 1860 München]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 7 |U=11 |N=16 |ET=37 |GT=52 |Siegpunkte=2 |Verein=[[Bayer 05 Uerdingen]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 9 |U= 4 |N=21 |ET=43 |GT=67 |Siegpunkte=2 |Verein=[[VfL Bochum]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 6 |U= 8 |N=20 |ET=31 |GT=64 |Siegpunkte=2 |Verein=[[MSV Duisburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 4 |U= 8 |N=22 |ET=33 |GT=68 |Siegpunkte=2 |Verein=[[Dynamo Dresden]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 1995/96]]: Borussia Dortmund}}
+{{Farblegende|#fffacd|[[DFB-Pokal 1994/95|DFB-Pokal-Sieger]] und Teilnahme am [[Europapokal der Pokalsieger 1995/96]]: Borussia Mönchengladbach}}
+{{Farblegende|#ccccff|Teilnahme am [[UEFA-Pokal 1995/96]]: Werder Bremen, SC Freiburg, 1. FC Kaiserslautern, FC Bayern München}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 1995|UI-Cup 1995]]: Bayer 04 Leverkusen, Karlsruher SC, Eintracht Frankfurt, 1. FC Köln}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1995/96|2. Bundesliga 1995/96]]: MSV Duisburg, VfL Bochum, 1. FC Dynamo Dresden ''(Abstieg in die [[Fußball-Regionalliga 1995/96#Nordost|Regionalliga]] wegen [[Lizenzentzug]]s)''}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1993/94|1993/94]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1993/94|1993/94]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1993/94|1993/94]]
+|}
+
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 1994-95.svg|700px]]
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+| colspan="2" width="200" | '''1994/95'''
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:Gladbach gruen.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|22px|FC Bayern München]]
+| [[Datei:TSV Bayer 04 Leverkusen.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:1. FC Koeln Logo 1992–2000.svg|22px|1. FC Köln]]
+| [[Datei:Logo Schalke 1978 - 1995.gif|22px|FC Schalke 04]]
+| [[Datei:Vfb stuttgart2.png|22px|VfB Stuttgart]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:TSV 1860 München.svg|22px|TSV 1860 München]]
+| [[Datei:Uerdingen alt.svg|22px|Bayer 05 Uerdingen]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:Logo MSV Duisburg 1980 - 1996.gif|25px|MSV Duisburg]]
+| [[Datei:Historical Logo 1. FC Dynamo Dresden (1990-2002).png|23px|Dynamo Dresden]]
+|-
+| {{0}}1. || align="left" | [[Borussia Dortmund]] || bgcolor="#DCDCDC" | || 2:0 || 1:1 || 2:1 || 1:1 || 1:0 || 0:3 || 2:1 || 1:1 || 2:1 || 3:2 || 5:0 || 2:0 || 4:0 || 3:1 || 3:1 || 1:0 || 2:0
+|-
+| {{0}}2. || align="left" | [[Werder Bremen]] || 3:1 || bgcolor="#DCDCDC" | || 5:1 || 2:2 || 1:0 || 0:0 || 3:2 || 2:1 || 2:0 || 2:2 || 2:1 || 4:0 || 1:4 || 2:0 || 6:1 || 3:0 || 5:1 || 1:0
+|-
+| {{0}}3. || align="left" | [[SC Freiburg]] || 1:1 || 1:3 || bgcolor="#DCDCDC" | || 4:1 || 1:1 || 5:1 || 1:1 || 2:1 || 2:0 || 4:2 || 3:0 || 2:0 || 3:0 || 1:1 || 1:0 || 1:2 || 3:0 || 3:1
+|-
+| {{0}}4. || align="left" | [[1. FC Kaiserslautern]] || 1:0 || 1:1 || 3:2 || bgcolor="#DCDCDC" | || 2:2 || 1:1 || 1:0 || 0:0 || 1:1 || 3:1 || 3:1 || 3:2 || 4:1 || 1:1 || 1:1 || 3:1 || 1:0 || 3:1
+|-
+| {{0}}5. || align="left" | [[Borussia Mönchengladbach]] || 3:3 || 2:0 || 1:2 || 4:0 || bgcolor="#DCDCDC" | || 2:2 || 3:3 || 2:2 || 2:0 || 0:0 || 0:1 || 3:1 || 2:1 || 2:0 || 1:0 || 7:1 || 1:0 || 2:0
+|-
+| {{0}}6. || align="left" | [[FC Bayern München]] || 2:1 || 3:1 || 2:2 || 1:1 || 3:0 || bgcolor="#DCDCDC" | || 2:1 || 0:1 || 3:3 || 2:2 || 2:0 || 2:2 || 1:1 || 1:0 || 2:1 || 3:1 || 1:1 || 2:1
+|-
+| {{0}}7. || align="left" | [[Bayer 04 Leverkusen]] || 2:2 || 1:2 || 2:4 || 0:1 || 3:1 || 2:0 || bgcolor="#DCDCDC" | || 0:0 || 4:0 || 3:1 || 2:2 || 3:1 || 3:1 || 0:2 || 1:1 || 1:3 || 2:0 || 2:2
+|-
+| {{0}}8. || align="left" | [[Karlsruher SC]] || 0:0 || 3:1 || 2:0 || 3:3 || 2:4 || 2:2 || 2:4 || bgcolor="#DCDCDC" | || 1:1 || 0:0 || 2:2 || 3:1 || 2:0 || 3:1 || 2:1 || 2:2 || 4:1 || 5:3
+|-
+| {{0}}9. || align="left" | [[Eintracht Frankfurt]] || 4:1 || 0:0 || 1:2 || 1:3 || 2:1 || 2:0{{FN|1}} || 2:0 || 1:0 || bgcolor="#DCDCDC" | || 0:0 || 0:3 || 2:2 || 2:0 || 3:1 || 0:3 || 2:1 || 4:1 || 2:0
+|-
+| 10. || align="left" | [[1. FC Köln]] || 1:6 || 1:1 || 2:0 || 0:1 || 1:3 || 3:1 || 3:3 || 3:4 || 3:0 || bgcolor="#DCDCDC" | || 5:1 || 1:0 || 1:1 || 2:1 || 2:0 || 2:1 || 0:3 || 1:2
+|-
+| 11. || align="left" | [[FC Schalke 04]] || 0:0 || 4:2 || 1:2 || 0:1 || 1:1 || 0:3 || 3:2 || 0:0 || 0:0 || 3:1 || bgcolor="#DCDCDC" | || 1:1 || 0:1 || 6:2 || 2:0 || 3:2 || 0:0 || 4:0
+|-
+| 12. || align="left" | [[VfB Stuttgart]] || 0:0 || 1:4 || 1:0 || 2:2 || 2:4 || 0:2 || 4:2 || 4:0 || 4:1 || 2:2 || 1:1 || bgcolor="#DCDCDC" | || 2:1 || 1:1 || 3:1 || 2:2 || 3:1 || 4:2
+|-
+| 13. || align="left" | [[Hamburger SV]] || 0:4 || 0:0 || 1:2 || 0:0 || 1:2 || 1:1 || 1:2 || 3:1 || 3:1 || 0:4 || 3:0 || 0:2 || bgcolor="#DCDCDC" | || 3:0 || 0:0 || 3:1 || 3:0 || 2:1
+|-
+| 14. || align="left" | [[TSV 1860 München]] || 1:5 || 1:2 || 4:0 || 1:3 || 2:0 || 1:3 || 1:1 || 1:0 || 2:1 || 2:1 || 0:1 || 0:2 || 1:1 || bgcolor="#DCDCDC" | || 1:1 || 4:0 || 1:1 || 3:1
+|-
+| 15. || align="left" | [[Bayer 05 Uerdingen]] || 0:2 || 1:3 || 0:2 || 1:3 || 3:2 || 1:1 || 0:1 || 0:0 || 1:1 || 0:0 || 1:1 || 4:1 || 4:1 || 1:1 || bgcolor="#DCDCDC" | || 2:1 || 1:1 || 3:1
+|-
+| 16. || align="left" | [[VfL Bochum]] || 0:2 || 1:3 || 1:3 || 0:2 || 0:2 || 1:2 || 1:3 || 0:1 || 0:1 || 1:0 || 5:1 || 4:0 || 0:0 || 2:2 || 2:1 || bgcolor="#DCDCDC" | || 1:0 || 2:0
+|-
+| 17. || align="left" | [[MSV Duisburg]] || 2:3 || 0:2 || 1:2 || 3:2 || 0:2 || 0:3 || 0:2 || 0:0 || 1:0 || 1:3 || 2:2 || 2:0 || 0:5 || 1:1 || 2:0 || 3:1 || bgcolor="#DCDCDC" | || 1:1
+|-
+| 18. || align="left" | [[Dynamo Dresden]] || 0:1 || 1:1 || 1:3 || 1:0 || 0:3 || 0:1 || 1:1 || 1:1 || 1:2 || 1:3 || 2:1 || 1:1 || 1:1 || 1:1 || 1:2 || 0:2 || 4:2 || bgcolor="#DCDCDC" |
+|}
+{{FNZ|1|Das Spiel des 26. Spieltags Eintracht Frankfurt – Bayern München (2:5) wurde vom DFB am 2. Mai 1995 mit 2:0 für Frankfurt gewertet. Grund: Bayern-Trainer [[Giovanni Trapattoni]] hatte gleichzeitig vier Amateure eingesetzt, erlaubt waren maximal drei.}}
+
+== Torschützenliste ==
+{| class="wikitable"
+! !! Spieler !! Verein !! Tore
+|-
+| rowspan="2" align="center" | 1. || {{DEU|Ziel=Mario Basler}} || | Werder Bremen || rowspan="2" align="center" | 20
+|-
+| {{DEU|Ziel=Heiko Herrlich}} || | Borussia Mönchengladbach
+|-
+| align="center" | 3. || {{AUT|Ziel=Toni Polster}} || 1. FC Köln || align="center" | 17
+|-
+| rowspan="3" align="center" | 4. || align="left" | {{ARG|Ziel=Rodolfo Cardoso}} || | SC Freiburg || rowspan="3" align="center" | 16
+|-
+| {{CZE|Ziel=Pavel Kuka}} || 1. FC Kaiserslautern
+|-
+| {{DEU|Ziel=Rudi Völler}} || Bayer 04 Leverkusen
+|}
+
+== Die Meistermannschaft Borussia Dortmund ==
+[[Datei:Deutscher Fußballmeister 1995-Borussia Dortmund.jpg|mini|Fußballmeister Borussia Dortmund ([[Deutscher Fußballmeister (Briefmarkenserie)|Briefmarkenserie]])<ref>Erstmals wurde von der Post eine Briefmarke für den Fußballmeister herausgegeben ([[Briefmarken-Jahrgang 1995 der Bundesrepublik Deutschland]]). Beginn der Serie: [[Deutscher Fußballmeister (Briefmarkenserie)|Deutscher Fußballmeister]].</ref>]]
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FFFF00"
+| width="75" |<span style="color:#000000;"> '''1.''' </span>|| width="625" |<span style="color:#000000;"> '''Borussia Dortmund''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Borussia Dortmund logo.svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+*'''Tor''': [[Stefan Klos]] (34/-)
+*'''Abwehr''': [[Stefan Reuter]] (33/4); [[Bodo Schmidt (Fußballspieler, 1967)|Bodo Schmidt]] (30/-); [[Júlio César Silva|Júlio César]] (25/1); [[Martin Kree]] (24/1); [[Günter Kutowski]] (8/-); [[Marco Kurz]] (4/-); [[Ned Zelic]] (4/-)
+*'''Mittelfeld''': [[Michael Zorc]] {{Kapitän}} (33/15); [[Andreas Möller]] (30/14); [[Matthias Sammer]] (28/4); [[Steffen Freund]] (28/2); [[Knut Reinhardt]] (27/-); [[Lars Ricken]] (21/2); [[René Tretschok]] (15/3); [[Thomas Franck (Fußballspieler)|Thomas Franck]] (15/1); [[Marc Arnold (Fußballspieler)|Marc Arnold]] (9/-); [[Mallam Yahaya]] (2/-); [[Frank Riethmann]] (1/-)
+*'''Angriff''': [[Karl-Heinz Riedle]] (29/6); [[Stéphane Chapuisat]] (20/12); [[Ibrahim Tanko]] (14/1); [[Flemming Povlsen]] (6/1)
+*'''Trainer''': [[Ottmar Hitzfeld]]
+|}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 12 || 47 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 11 || 28 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 10 || 43 || 3 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Best, Hans-Peter" | [[Hans-Peter Best]] || {{DatumZelle|1955-03-18}} || [[Württembergischer Fußballverband|Württemberg]] || 9 || 28 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Buchhart, Winfried" | [[Winfried Buchhart]] || {{DatumZelle|1958-05-15}} || Bayern || 8 || 26 || 2 || 5 ||
+|-
+| style="text-align:left" data-sort-value="Casper, Heinz-Dieter" | [[Heinz-Dieter Casper]] || {{DatumZelle|1959-02-08}} || || 5 || 22 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 14 || 71 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Fischer, Volkmar" | [[Volkmar Fischer]] || {{DatumZelle|1961-06-13}} || [[Saarländischer Fußballverband|Saarland]] || 8 || 37 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Fleske, Frank" | [[Frank Fleske]] || {{DatumZelle|1962-04-16}} || [[Fußball-Landesverband Brandenburg|Brandenburg]] || 6 || 22 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 10 || 38 || 5 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Habermann, Gunther" | [[Günther Habermann]] || {{DatumZelle|1950-02-23}} || [[Thüringer Fußball-Verband|Thüringen]] || 10 || 44 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 14 || 40 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Jansen, Jurgen" | [[Jürgen Jansen]] || {{DatumZelle|1960-10-16}} || [[Fußballverband Niederrhein|Niederrhein]] || 10 || 35 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Kasper, Hans-Jurgen" | [[Hans-Jürgen Kasper]] || {{DatumZelle|1949-01-18}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 9 || 26 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Kiefer, Frank" | [[Frank Kiefer]] || {{DatumZelle|1963-06-12}} || [[Hessischer Fußball-Verband|Hessen]] || 5 || 12 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 14 || 55 || 6 || 4 ||
+|-
+| style="text-align:left" data-sort-value="Malbranc, Michael" | [[Michael Malbranc]] || {{DatumZelle|1953-03-11}} || [[Hamburger Fußball-Verband|Hamburg]] || 10 || 50 || 2 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 13 || 58 || 5 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Osmers, Hans-Joachim" | [[Hans-Joachim Osmers]] || {{DatumZelle|1948-04-07}} || [[Bremer Fußball-Verband|Bremen]] || 10 || 29 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Pohlmann, Lutz" | [[Lutz Pohlmann]] || {{DatumZelle|1961-09-06}} || [[Schleswig-Holsteinischer Fußballverband|Schleswig-Holstein]] || 6 || 2 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Scheuerer, Hans" | [[Hans Scheuerer]] || {{DatumZelle|1949-10-18}} || Bayern || 9 || 25 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Schmidt, Manfred" | [[Manfred Schmidt (Schiedsrichter)|Manfred Schmidt]] || {{DatumZelle|1958-08-05}} || Hessen || 9 || 41 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 13 || 28 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 14 || 51 || 0 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Strigel, Eugen" | [[Eugen Strigel]] || {{DatumZelle|1949-09-24}} || Württemberg || 10 || 30 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || {{DatumZelle|1963-05-27}} || Hessen || 9 || 35 || 2 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 13 || 62 || 7 || 4 ||
+|-
+| style="text-align:left" data-sort-value="Werthmann, Rainer" | [[Rainer Werthmann]] || {{DatumZelle|1959-06-17}} || Westfalen || 10 || 41 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Wiesel, Wolf-Gunter" | [[Wolf-Günter Wiesel]] || {{DatumZelle|1947-11-16}} || Niedersachsen || 9 || 37 || 2 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Zerr, Bernhard" | [[Bernhard Zerr]] || {{DatumZelle|1965-06-12}} || [[Südbadischer Fußballverband|Südbaden]] || 10 || 51 || 4 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Ziller, Wieland" | [[Wieland Ziller]] || {{DatumZelle|1952-12-12}} || [[Sächsischer Fußball-Verband|Sachsen]] || 6 || 23 || 0 || 1 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1157 || 52 || 46 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle |url=https://www.weltfussball.de/schiedsrichter/bundesliga-1994-1995/1/ |titel=Schiedsrichter |werk=weltfussball.de |abruf=2018-05-24}}</ref>
+|}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 1994/1995|Fußball-Bundesliga 1994/95}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1994/95 (Deutschland)
+|Navigationsleiste Europa-Fußball 1995
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 1994-95}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1994/95]]
+[[Kategorie:Fußballsaison 1994/95]]

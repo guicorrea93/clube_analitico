@@ -1,0 +1,323 @@
+{{Infobox Fußballsaison
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Name = Bundesliga 1974/75
+| Meister = [[Borussia Mönchengladbach]]
+| Europapokal der Landesmeister = [[Borussia Mönchengladbach]]<br />[[FC Bayern München]] (TV)
+| UEFA Cup = [[Hertha BSC]]<br />[[Hamburger SV]], [[1. FC Köln]]<br />[[MSV Duisburg]]
+| Pokal-Sieger = [[Eintracht Frankfurt]]
+| Europapokal der Pokalsieger = [[Eintracht Frankfurt]]
+| Absteiger = [[VfB Stuttgart]]<br />[[Tennis Borussia Berlin]]<br />[[Wuppertaler SV]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 1.056
+| Zuschauer = 6.955.321
+| Torschützenkönig = {{DEU|Ziel=Jupp Heynckes}}<br />([[Borussia Mönchengladbach]])
+| vorherige Saison = [[Fußball-Bundesliga 1973/74|Bundesliga 1973/74]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1975/76|Bundesliga 1975/76]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1974/75|2. Bundesliga 1974/75]]
+}}
+
+Erster in der '''Saison 1974/75 der deutschen [[Fußball-Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde [[Borussia Mönchengladbach]].
+
+== Saisonüberblick ==
+[[Borussia Mönchengladbach]] gewann in dieser Saison mit Torschützenkönig [[Jupp Heynckes]] den Titel und wurde damit zum dritten Mal [[Deutsche Fußballmeisterschaft|Deutscher Meister]]. Zusätzlich gewannen die Gladbacher mit dem [[UEFA-Pokal]] auch noch ihren ersten internationalen Titel. Am Ende der Saison wechselte Erfolgstrainer [[Hennes Weisweiler]] nach 11 Jahren bei der Borussia zum [[FC Barcelona]]. Titelverteidiger [[FC Bayern München|Bayern München]] konnte zwar den europäischen Titel verteidigen und gewann erneut den [[Europapokal der Landesmeister 1974/75|Europapokal der Landesmeister]], in der Bundesliga landeten sie aber nur auf Platz 10 – nach einem 0:6 gleich am ersten Spieltag in [[Kickers Offenbach|Offenbach]] – und Trainer [[Udo Lattek]] wurde noch während der laufenden Saison entlassen. Für den UEFA-Pokal qualifizierten sich [[Hertha BSC]] (Vize-Meister), der [[Hamburger SV]] (4.) und
+der [[1. FC Köln]] (5.). Der Drittplatzierte [[Eintracht Frankfurt]] gewann den [[DFB-Pokal]] und nahm daher am [[Europapokal der Pokalsieger (Fußball)|Europapokal der Pokalsieger]] teil. Anstelle der Eintracht spielte der Vize-Pokalsieger [[MSV Duisburg]] im UEFA-Pokal.
+
+Durch die Gründung der zweigleisigen [[2. Fußball-Bundesliga|Zweiten Bundesliga]] änderte sich die Abstiegsregel. Da neben den beiden Erstplatzierten der Gruppen Nord und Süd die beiden Zweitplatzierten einen dritten Aufsteiger ausspielten, stiegen ab dieser Saison drei Mannschaften aus der 1. Bundesliga ab, darunter erstmals der VfB Stuttgart.
+
+== Abschlusstabelle ==
+{| class="float-right" width="305px" cellspacing="0" cellpadding="0" style="font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:0 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors=
+  id:frankf   value:rgb(0.51,0.00,0.00)
+  id:stutt    value:rgb(0.68,0.09,0.20)
+  id:msv     value:rgb(0.00,0.05,1)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,-5)     color:red     text:Kickers Offenbach
+  from:1.5 till:2.5 shift:(25,-5)     color:msv     text:MSV Duisburg
+  from:2.5 till:6.5 shift:(25,-5)     color:blue    text:Hamburger SV
+  from:6.5 till:7.5 shift:(25,-5)     color:frankf  text:Eintracht Frankfurt
+  from:7.5 till:8.5 shift:(25,-5)     color:blue    text:Hamburger SV
+  from:8.5 till:9.5 shift:(25,-5)     color:frankf  text:Eintracht Frankfurt
+  from:9.5 till:11.5 shift:(25,-5)    color:blue    text:Hamburger SV
+  from:11.5 till:14.5 shift:(25,-5)   color:red     text:Kickers Offenbach
+  from:14.5 till:15.5 shift:(25,-5)   color:skyblue text:Hertha BSC
+  from:15.5 till:16.5 shift:(25,-5)   color:red     text:Kickers Offenbach
+  from:16.5 till:34.5 shift:(25,-5)   color:green   text:Borussia~Mönchengladbach
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:10 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:schalke value:rgb(0.00,0.50,1)
+  id:msv     value:rgb(0.00,0.05,1)
+  id:koeln   value:rgb(0.51,0.00,0.00)
+  id:essen   value:rgb(0.80,0.09,0.20)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,-5)     color:red     text:Bayern München
+  from:1.5 till:2.5 shift:(25,-5)     color:green   text:Werder Bremen
+  from:2.5 till:4.5 shift:(25,-5)     color:blue    text:Wuppertaler SV
+  from:4.5 till:5.5 shift:(25,-5)     color:koeln   text:1. FC Köln
+  from:5.5 till:8.5 shift:(25,-5)     color:purple  text:Tennis Borussia Berlin
+  from:8.5 till:10.5 shift:(25,-5)    color:green   text:Werder Bremen
+  from:10.5 till:15.5 shift:(25,-5)   color:blue    text:Wuppertaler SV
+  from:15.5 till:18.5 shift:(25,-5)   color:purple  text:Tennis Borussia Berlin
+  from:18.5 till:21.5 shift:(25,-5)   color:blue    text:Wuppertaler SV
+  from:21.5 till:22.5 shift:(25,-5)   color:purple  text:Tennis Borussia Berlin
+  from:22.5 till:34.5 shift:(25,-5)   color:blue    text:Wuppertaler SV
+   </timeline>
+|}
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=21 |U= 8 |N= 5 |ET=86 |GT=40 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang= 2 |S=19 |U= 6 |N= 9 |ET=61 |GT=43 |Siegpunkte=2 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=B4CDCD |Rang= 3 |S=18 |U= 7 |N= 9 |ET=89 |GT=49 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang= 4 |S=18 |U= 7 |N= 9 |ET=55 |GT=38 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang= 5 |S=17 |U= 7 |N=10 |ET=77 |GT=51 |Siegpunkte=2 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=16 |U= 9 |N= 9 |ET=66 |GT=55 |Siegpunkte=2 |Verein=[[Fortuna Düsseldorf]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=16 |U= 7 |N=11 |ET=52 |GT=37 |Siegpunkte=2 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=17 |U= 4 |N=13 |ET=72 |GT=62 |Siegpunkte=2 |Verein=[[Kickers Offenbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=14 |U= 8 |N=12 |ET=52 |GT=42 |Siegpunkte=2 |Verein=[[Eintracht Braunschweig]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang=10 |S=14 |U= 6 |N=14 |ET=57 |GT=63 |Siegpunkte=2 |Verein=[[FC Bayern München]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=14 |U= 5 |N=15 |ET=53 |GT=53 |Siegpunkte=2 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=10 |U=12 |N=12 |ET=56 |GT=68 |Siegpunkte=2 |Verein=[[Rot-Weiss Essen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=13 |U= 5 |N=16 |ET=56 |GT=55 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=eeeeff |Rang=14 |S=12 |U= 6 |N=16 |ET=59 |GT=77 |Siegpunkte=2 |Verein=[[MSV Duisburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U= 7 |N=18 |ET=45 |GT=69 |Siegpunkte=2 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U= 8 |N=18 |ET=50 |GT=79 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 5 |U= 6 |N=23 |ET=38 |GT=89 |Siegpunkte=2 |Verein=[[Tennis Borussia Berlin]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 2 |U= 8 |N=24 |ET=32 |GT=86 |Siegpunkte=2 |Verein=[[Wuppertaler SV]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme am [[Europapokal der Landesmeister 1975/76]]: Borussia Mönchengladbach}}
+{{Farblegende|#ccccff|Teilnahme am Europapokal der Landesmeister 1975/76: FC Bayern München (Titelverteidiger)}}
+{{Farblegende|#B4CDCD|DFB-Pokal-Sieger und Teilnahme am [[Europapokal der Pokalsieger 1975/76]]: Eintracht Frankfurt}}
+{{Farblegende|#eeeeff|Teilnahme am [[UEFA-Pokal 1975/76]]: Hertha BSC, Hamburger SV, 1. FC Köln, MSV Duisburg (Pokalfinalist)}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1975/76#Nord|2. Bundesliga Nord 1975/76]]: Wuppertaler SV, Tennis Borussia Berlin}}
+{{Farblegende|#ffffff|{{0|Abstieg in die }}[[2. Fußball-Bundesliga 1975/76#Süd|2. Bundesliga Süd 1975/76]]: VfB Stuttgart}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1973/74|1973/74]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1973/74|1973/74]]
+|-
+| (N) || Aufsteiger aus der [[Fußball-Regionalliga 1973/74|Regionalliga 1973/74]]
+|}
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+| colspan="2" width="200" | '''1974 / 1975'''
+| [[Datei:Gladbach gruen.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:Hertha BSC Logo bis 1999.svg|25px|Hertha BSC]]
+| [[Datei:Dfs wl d frankfurt eintracht1970 1977.gif|25px|Eintracht Frankfurt]]
+| [[Datei:Hamburg HSV1950-1978.svg|22px|Hamburger SV]]
+| [[Datei:Emblem 1.FC Köln.svg|22px|1. FC Köln]]
+| [[Datei:Logo Fortuna Düsseldorf 1961 - 1979.gif|22px|Fortuna Düsseldorf]]
+| [[Datei:Dfs wl d gelsenkirchen schalke 041971 1978.gif|22px|FC Schalke 04]]
+| [[Datei:Logo Kickers Offenbach.svg|22px|Kickers Offenbach]]
+| [[Datei:Eintracht Braunschweig (Hist.).svg|25px|Eintracht Braunschweig]]
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|25px|FC Bayern München]]
+| [[Datei:VfL Bochum logo.svg|25px|VfL Bochum]]
+| [[Datei:Logo Rot-Weiss Essen.svg|24px|Rot-Weiss Essen]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|25px|1. FC Kaiserslautern]]
+| [[Datei:Logo M SV Duisburg1966 - 1980.gif|25px|MSV Duisburg]]
+| [[Datei:Logo Werder Bremem 1962 - 1976.gif|22px|SV Werder Bremen]]
+| [[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Tennis Borussia Berlin Logo bis 1976.gif|25px|Tennis Borussia Berlin]]
+| [[Datei:WuppertalerSVLogo.svg|25px|Wuppertaler SV]]
+|-
+| {{0}}1. || align="left" | [[Borussia Mönchengladbach]] || style="background:#DCDCDC" | || 1:1 || 3:0 || 1:3 || 1:1 || 3:1 || 1:0 || 5:2 || 2:0 || 1:2 || 3:0 || 1:1 || 3:0 || 4:1 || 4:2 || 5:1 || 3:1 || 6:2
+|-
+| {{0}}2. || align="left" | [[Hertha BSC]] || 2:1 || style="background:#DCDCDC" | || 2:1 || 1:0 || 1:1 || 3:3 || 1:0 || 4:1 || 3:1 || 4:1 || 4:2 || 4:2 || 2:1 || 3:0 || 2:0 || 4:0 || 2:1 || 2:0
+|-
+| {{0}}3. || align="left" | [[Eintracht Frankfurt]] || 1:1 || 1:2 || style="background:#DCDCDC" | || 1:3 || 3:2 || 4:0 || 2:1 || 0:0 || 2:0 || 2:0 || 4:1 || 9:1 || 5:1 || 4:1 || 2:1 || 5:5 || 7:1 || 5:0
+|-
+| {{0}}4. || align="left" | [[Hamburger SV]] || 1:1 || 1:1 || 3:1 || style="background:#DCDCDC" | || 3:1 || 2:1 || 1:1 || 1:0 || 0:0 || 1:0 || 3:2 || 2:2 || 2:0 || 2:3 || 2:0 || 1:0 || 4:0 || 4:1
+|-
+| {{0}}5. || align="left" | [[1. FC Köln]] || 1:2 || 2:1 || 0:0 || 4:0 || style="background:#DCDCDC" | || 2:2 || 4:2 || 0:1 || 3:0 || 1:0 || 4:1 || 0:1 || 2:0 || 4:2 || 3:1 || 4:2 || 7:1 || 4:0
+|-
+| {{0}}6. || align="left" | [[Fortuna Düsseldorf]] || 3:2 || 0:0 || 2:2 || 0:0 || 3:0 || style="background:#DCDCDC" | || 2:1 || 3:2 || 2:2 || 6:5 || 0:1 || 4:0 || 2:0 || 1:1 || 4:1 || 4:0 || 3:2 || 2:0
+|-
+| {{0}}7. || align="left" | [[FC Schalke 04]] || 1:3 || 1:0 || 1:1 || 3:1 || 1:1 || 3:0 || style="background:#DCDCDC" | || 2:0 || 1:1 || 2:2 || 1:0 || 3:0 || 2:1 || 5:0 || 2:0 || 2:0 || 3:0 || 1:0
+|-
+| {{0}}8. || align="left" | [[Kickers Offenbach]] || 4:3 || 3:1 || 2:1 || 4:1 || 1:4 || 2:3 || 3:0 || style="background:#DCDCDC" | || 2:1 || 6:0 || 2:0 || 1:3 || 2:2 || 3:3 || 5:1 || 3:1 || 3:2 || 3:1
+|-
+| {{0}}9. || align="left" | [[Eintracht Braunschweig]] || 1:3 || 2:1 || 2:0 || 1:2 || 1:4 || 3:0 || 1:0 || 1:0 || style="background:#DCDCDC" | || 3:1 || 2:0 || 4:2 || 3:2 || 4:1 || 0:0 || 6:0 || 5:0 || 1:1
+|-
+| 10. || align="left" | [[FC Bayern München]] || 1:1 || 2:1 || 2:1 || 0:1 || 6:3 || 4:0 || 0:2 || 2:3 || 1:0 || style="background:#DCDCDC" | || 2:1 || 2:2 || 2:5 || 2:1 || 2:0 || 1:1 || 3:1 || 3:1
+|-
+| 11. || align="left" | [[VfL Bochum]] || 0:0 || 4:0 || 3:1 || 4:2 || 3:2 || 4:2 || 2:1 || 3:1 || 1:0 || 3:0 || style="background:#DCDCDC" | || 2:2 || 4:0 || 1:2 || 3:1 || 1:0 || 0:0 || 4:2
+|-
+| 12. || align="left" | [[Rot-Weiss Essen]] || 1:3 || 2:1 || 0:5 || 0:0 || 1:1 || 1:2 || 4:4 || 5:1 || 1:2 || 2:2 || 1:1 || style="background:#DCDCDC" | || 3:1 || 3:0 || 1:1 || 3:1 || 3:2 || 2:0
+|-
+| 13. || align="left" | [[1. FC Kaiserslautern]] || 1:3 || 3:0 || 2:2 || 1:0 || 1:1 || 1:0 || 1:1 || 1:2 || 2:0 || 0:1 || 1:0 || 2:0 || style="background:#DCDCDC" | || 2:0 || 4:1 || 6:0 || 4:0 || 2:0
+|-
+| 14. || align="left" | [[MSV Duisburg]] || 1:1 || 1:3 || 1:3 || 2:0 || 1:3 || 0:3 || 2:0 || 2:1 || 3:2 || 2:1 || 3:1 || 3:3 || 3:2 || style="background:#DCDCDC" | || 4:0 || 3:3 || 2:3 || 2:2
+|-
+| 15. || align="left" | [[Werder Bremen]] || 1:4 || 4:0 || 0:3 || 1:0 || 4:1 || 0:0 || 0:1 || 3:6 || 0:0 || 0:2 || 3:0 || 0:0 || 3:1 || 3:1 || style="background:#DCDCDC" | || 5:2 || 1:1 || 2:1
+|-
+| 16. || align="left" | [[VfB Stuttgart]] || 1:2 || 1:2 || 3:4 || 1:2 || 2:0 || 1:1 || 3:1 || 3:1 || 0:0 || 1:2 || 1:0 || 3:2 || 0:1 || 2:1 || 2:2 || style="background:#DCDCDC" | || 2:1 || 5:1
+|-
+| 17. || align="left" | [[Tennis Borussia Berlin]] || 1:4 || 0:3 || 1:4 || 0:3 || 2:3 || 1:4 || 0:2 || 0:2 || 2:2 || 2:2 || 2:0 || 1:0 || 3:2 || 2:3 || 4:0 || 1:1 || style="background:#DCDCDC" | || 0:0
+|-
+| 18. || align="left" | [[Wuppertaler SV]] || 1:5 || 0:0 || 2:3 || 0:4 || 1:4 || 2:3 || 0:1 || 0:0 || 0:1 || 3:1 || 1:1 || 0:2 || 3:3 || 1:4 || 2:4 || 2:2 || 2:0 || style="background:#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable" width="500"
+! !! Spieler!! Verein!! Tore
+|-
+| align="center" | 1.|| {{DEU-1949|Ziel=Jupp Heynckes}}|| Borussia Mönchengladbach|| align="center" | 27
+|-
+| align="center" | 2.|| {{DEU-1949|Dieter Müller (Fußballspieler, 1954)|Dieter Müller}}|| 1. FC Köln|| align="center" | 24
+|-
+| align="center" | 3.|| {{DEU-1949|Ziel=Gerd Müller}}|| FC Bayern München|| align="center" | 23
+|-
+| align="center" | 4.|| {{SWE|Ziel=Roland Sandberg}}|| 1. FC Kaiserslautern|| align="center" | 20
+|-
+| rowspan="2" align="center" | 5.|| {{DEU-1949|Ziel=Manfred Burgsmüller}}|| Rot-Weiss Essen|| rowspan="2" align="center" | 18
+|-
+| {{DNK|Allan Simonsen (Fußballspieler)|Allan Simonsen}}|| Borussia Mönchengladbach
+|-
+| rowspan="3" | 7.|| {{DEU-1949|Klaus Fischer (Fußballspieler)|Klaus Fischer}}|| FC Schalke 04|| rowspan="3" align="center" | 17
+|-
+| {{DEU-1949|Ziel=Erwin Kostedde}}|| Kickers Offenbach
+|-
+| {{DEU-1949|Ziel=Hermann Ohlicher}}|| VfB Stuttgart
+|}
+
+== Die Meistermannschaft Borussia Mönchengladbach ==
+{| class="wikitable" width="700"
+|- style="background:#000000"
+| align="center" width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>
+| align="center" width="625" |<span style="color:#FFFFFF;"> '''Borussia Mönchengladbach''' </span>
+|- style="background:#FFFFFF" align="center"
+|[[Datei:Gladbach gruen.svg|60px]]||- style="background:#E8E8E8" align="left"|
+* '''Tor:''' [[Wolfgang Kleff]] (34/-)
+* '''Abwehr:''' [[Berti Vogts]] {{Kapitän}} (34/-), [[Hans-Jürgen Wittkamp]] (29/6), [[Uli Stielike]] (25/1), [[Hans Klinkhammer]] (23/-), [[Frank Schäffer]] (14/-), [[Ulrich Surau]] (14/-), [[Walter Posner]] (2/-)
+* '''Mittelfeld:''' [[Herbert Wimmer]] (29/1), [[Rainer Bonhof]] (28/6), [[Christian Kulik]] (24/6), [[Dietmar Danner]] (21/3), [[Lorenz-Günther Köstner]] (18/1), [[Horst Köppel]] (7/1)
+* '''Sturm:''' [[Allan Simonsen (Fußballspieler)|Allan Simonsen]] (34/18), [[Henning Jensen (Fußballspieler, 1949)|Henning Jensen]] (34/13), [[Jupp Heynckes]] (31/27), [[Lorenz Hilkes]] (5/-), [[Karl Del’Haye]] (4/-)
+* '''ohne Einsatz''': [[Gregor Quasten]], Norbert Kox, [[Roger Roebben]]
+* '''Trainer:''' [[Hennes Weisweiler]]
+|}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Red card.svg|12px]]
+|-
+| style="text-align:left" data-sort-value="Aldinger, Heinz" | [[Heinz Aldinger]] || {{DatumZelle|1933-01-07}} || [[Württembergischer Fußballverband|Württemberg]] || 9 || 11 || 1
+|-
+| style="text-align:left" data-sort-value="Basedow, Diedrich" | [[Diedrich Basedow]] || {{DatumZelle|1930-07-17}} || [[Hamburger Fußball-Verband|Hamburg]] || 8 || 10 || 0
+|-
+| style="text-align:left" data-sort-value="Berner, Dieter" | [[Dieter Berner (Schiedsrichter)|Dieter Berner]] || {{DatumZelle|1938-08-07}} || Württemberg || 7 || 19 || 0
+|-
+| style="text-align:left" data-sort-value="Betz, Alfons" | [[Alfons Betz]] || {{DatumZelle|1928-11-21}} || [[Bayerischer Fußball-Verband|Bayern]] || 9 || 22 || 2
+|-
+| style="text-align:left" data-sort-value="Biwersi, Ferdinand" | [[Ferdinand Biwersi]] || {{DatumZelle|1934-06-24}} || [[Saarländischer Fußballverband|Saarland]] || 9 || 16 || 0
+|-
+| style="text-align:left" data-sort-value="Dittmer, Wolfgang" | [[Wolfgang Dittmer]] || {{DatumZelle|1941-09-28}} || [[Südwestdeutscher Fußballverband|Südwest]] || 10 || 14 || 1
+|-
+| style="text-align:left" data-sort-value="Dreher, Dieter" | [[Dieter Dreher]] || {{DatumZelle|1933-03-17}} || [[Hessischer Fußball-Verband|Hessen]] || 8 || 15 || 0
+|-
+| style="text-align:left" data-sort-value="Engel, Walter" | [[Walter Engel (Schiedsrichter)|Walter Engel]] || {{DatumZelle|1939-05-15}} || Saarland || 7 || 16 || 0
+|-
+| style="text-align:left" data-sort-value="Eschweiler, Walter" | [[Walter Eschweiler]] || {{DatumZelle|1935-09-20}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 10 || 15 || 0
+|-
+| style="text-align:left" data-sort-value="Fork, Karl-Heinz" | [[Karl-Heinz Fork]] || {{DatumZelle|1930-07-13}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 8 || 13 || 0
+|-
+| style="text-align:left" data-sort-value="Frickel, Rudolf" | [[Rudolf Frickel]] || {{DatumZelle|1932-07-16}} || Bayern || 10 || 14 || 0
+|-
+| style="text-align:left" data-sort-value="Gabor, Peter" | [[Peter Gabor]] || {{DatumZelle|1940-04-19}} || [[Berliner Fußball-Verband|Berlin]] || 9 || 17 || 1
+|-
+| style="text-align:left" data-sort-value="Haselberger, Wilfried" | [[Wilfried Haselberger]] || {{DatumZelle|1940-03-18}} || Württemberg || 8 || 12 || 0
+|-
+| style="text-align:left" data-sort-value="Hennig, Gerd" | [[Gerd Hennig]] || {{DatumZelle|1935-04-24}} || [[Fußballverband Niederrhein|Niederrhein]] || 9 || 16 || 0
+|-
+| style="text-align:left" data-sort-value="Hilker, Wilfried" | [[Wilfried Hilker]] || {{DatumZelle|1930-08-14}} || Westfalen || 9 || 15 || 0
+|-
+| style="text-align:left" data-sort-value="Hillebrand, Hans" | [[Hans Hillebrand]] || {{DatumZelle|1935-06-12}} || Niederrhein || 5 || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Horstmann, Walter" | [[Walter Horstmann]] || {{DatumZelle|1935-08-28}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 10 || 18 || 0
+|-
+| style="text-align:left" data-sort-value="Kindervater, Paul" | [[Paul Kindervater]] || {{DatumZelle|1940-01-24}} || Mittelrhein || 9 || 17 || 1
+|-
+| style="text-align:left" data-sort-value="Klauser, Max" | [[Max Klauser]] || {{DatumZelle|1937-07-04}} || Bayern || 9 || 16 || 0
+|-
+| style="text-align:left" data-sort-value="Linn, Günter" | [[Günter Linn]] || {{DatumZelle|1935-03-16}} || [[Fußballverband Rheinland|Rheinland]] || 9 || 9 || 0
+|-
+| style="text-align:left" data-sort-value="Lutz, Herbert" | [[Herbert Lutz]] || {{DatumZelle|1930-05-01}} || [[Bremer Fußball-Verband|Bremen]] || 10 || 17 || 0
+|-
+| style="text-align:left" data-sort-value="Messmer, Jürgen" | [[Jürgen Messmer]] || {{DatumZelle|1940-05-26}} || [[Badischer Fußballverband|Baden]] || 8 || 17 || 1
+|-
+| style="text-align:left" data-sort-value="Meuser, Gert" | [[Gert Meuser]] || {{DatumZelle|1936-06-26}} || Südwest || 8 || 6 || 0
+|-
+| style="text-align:left" data-sort-value="Ohmsen, Klaus" | [[Klaus Ohmsen]] || {{DatumZelle|1935-10-16}} || Hamburg || 8 || 10 || 0
+|-
+| style="text-align:left" data-sort-value="Picker, Karl-Heinz" | [[Karl-Heinz Picker]] || {{DatumZelle|1928-09-26}} || Hamburg || 6 || 5 || 0
+|-
+| style="text-align:left" data-sort-value="Quindeau, Heinz" | [[Heinz Quindeau]] || {{DatumZelle|1933-08-28}} || Südwest || 8 || 16 || 0
+|-
+| style="text-align:left" data-sort-value="Redelfs, Jan" | [[Jan Redelfs]] || {{DatumZelle|1935-08-20}} || Niedersachsen || 9 || 22 || 1
+|-
+| style="text-align:left" data-sort-value="Riegg, Karl" | [[Karl Riegg]] || {{DatumZelle|1929-11-15}} || Bayern || 10 || 23 || 1
+|-
+| style="text-align:left" data-sort-value="Roth, Volker" | [[Volker Roth]] || {{DatumZelle|1942-02-01}} || Niedersachsen || 10 || 10 || 1
+|-
+| style="text-align:left" data-sort-value="Schmoock, Eberhard" | [[Eberhard Schmoock]] || {{DatumZelle|1937-04-12}} || [[Südbadischer Fußballverband|Südbaden]] || 7 || 23 || 0
+|-
+| style="text-align:left" data-sort-value="Schroder, Hermann" | [[Hermann Schröder (Schiedsrichter)|Hermann Schröder]] || {{DatumZelle|1948-10-21}} || Rheinland || 9 || 10 || 0
+|-
+| style="text-align:left" data-sort-value="Siepe, Gerd" | [[Gerd Siepe]] || {{DatumZelle|1929-07-27}} || Mittelrhein || 1 || 2 || 1
+|-
+| style="text-align:left" data-sort-value="Tschenscher, Kurt" | [[Kurt Tschenscher]] || {{DatumZelle|1928-10-05}} || Baden || 8 || 13 || 0
+|-
+| style="text-align:left" data-sort-value="Waltert, Rainer" | [[Rainer Waltert]] || {{DatumZelle|1940-06-09}} || Westfalen || 9 || 18 || 1
+|-
+| style="text-align:left" data-sort-value="Weyland, Hans-Joachim" | [[Hans-Joachim Weyland]] || {{DatumZelle|1929-09-29}} || Niederrhein || 10 || 9 || 0
+|-
+| style="text-align:left" data-sort-value="Wichmann, Manfred" | [[Manfred Wichmann]] || {{DatumZelle|1937-10-02}} || Westfalen || 6 || 13 || 0
+|-
+| style="text-align:left" data-sort-value="Zuchantke, Udo" | [[Udo Zuchantke]] || {{DatumZelle|1936-12-28}} || Berlin || 7 || 10 || 0
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right"| Gesamt: || 306 || 514 || 12
+|- class="sortbottom hintergrundfarbe5"
+| colspan="6" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle |url=https://www.weltfussball.de/schiedsrichter/bundesliga-1974-1975/1/ |titel=Schiedsrichter |werk=weltfussball.de |abruf=2015-11-04}}</ref>
+|}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1974/75 (DFB)
+|Navigationsleiste Europa-Fußball 1975
+}}
+
+{{SORTIERUNG:FussballBundesliga 197475}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1974 75]]
+[[Kategorie:Fußballsaison 1974/75]]

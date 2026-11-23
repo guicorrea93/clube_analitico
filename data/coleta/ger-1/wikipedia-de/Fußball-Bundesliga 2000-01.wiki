@@ -1,0 +1,329 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 2000/01
+| Bild = [[Datei:Bundesliga Wordmark (1996-2002).svg|alt=Abgebildet ist das Logo der deutschen Fußball-Bundesliga von 1996–2002. Es besteht aus dem Schriftzug "Die Bundesliga" in drei Zeilen. Zusätzlich ein stilisiertes "DFB" in einem geometrischen, eckigen Schrifttyp. Die Schrift ist schwarz gehalten.|170px]]
+| Meister = [[FC Bayern München]]
+| UEFA Champions League = FC Bayern München<br />[[FC Schalke 04]]
+| UEFA Champions League Quali = [[Borussia Dortmund]]<br />[[Bayer 04 Leverkusen]] 
+| UEFA Cup = [[Hertha BSC]]<br />[[SC Freiburg]]
+| UI-Cup = [[Werder Bremen]]<br />[[VfL Wolfsburg]]<br />[[TSV 1860 München]]
+| Absteiger = [[SpVgg Unterhaching]]<br />[[Eintracht Frankfurt]]<br />[[VfL Bochum]]
+| Pokal-Sieger = FC Schalke 04
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 897
+| Zuschauer = 9.461.600
+| Torschützenkönig = {{BIH|Ziel=Sergej Barbarez}}<br />([[Hamburger SV]]) /<br />{{DNK|Ziel=Ebbe Sand}} ([[FC Schalke 04]])
+| vorherige Saison = [[Fußball-Bundesliga 1999/2000|Bundesliga 1999/2000]]
+| nachfolgende Saison = [[Fußball-Bundesliga 2001/02|Bundesliga 2001/02]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 2000/01|2. Bundesliga 2000/01]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.20)
+  id:grew   value:rgb(0.86,0.86,0.86)
+  id:bayer04         value:rgb(0.89,0.13,0.13)
+  id:schalke       value:rgb(0.00,0.05,1   )
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,-2)   color:black text:SC Freiburg
+  from:1.5 till:3.5 shift:(25,-2)   color:red   text:Bayern München
+  from:3.5 till:4.5 shift:(25,-2)   color:schalke  text:Schalke 04
+  from:4.5 till:7.5 shift:(25,-2)   color:red   text:Bayern München
+  from:7.5 till:8.5 shift:(25,-2)   color:schalke  text:Schalke 04
+  from:8.5 till:9.5 shift:(25,-2)   color:red   text:Bayern München
+  from:9.5 till:12.5 shift:(25,-2)   color:blue  text:Hertha BSC
+  from:12.5 till:14.5 shift:(25,-2)   color:bayer04  text:Bayer Leverkusen
+  from:14.5 till:15.5 shift:(25,-2)   color:blue  text:Hertha BSC
+  from:15.5 till:16.5 shift:(25,-2)   color:bayer04  text:Bayer Leverkusen
+  from:16.5 till:19.5 shift:(25,-2)   color:schalke  text:Schalke 04
+  from:19.5 till:23.5 shift:(25,-2)   color:red   text:Bayern München
+  from:23.5 till:24.5 shift:(25,-2)   color:yelloworange text:Borussia Dortmund
+  from:24.5 till:28.5 shift:(25,-2)   color:red   text:Bayern München
+  from:28.5 till:32.5 shift:(25,-2)   color:schalke  text:Schalke 04
+  from:32.5 till:34.5 shift:(25,-2)   color:red   text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:vfl value:rgb(0.00,0.05,1   )
+  id:hansa value:rgb(0.00,0.50,1   )
+  id:vfb value:rgb(0.92,0.36,0.16)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:mehrfach         value:rgb(0.86,0.86,0.86)
+  id:unterha       value:rgb(0.70,0.00,0.10)
+ 
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:1.5   till:2.5  shift:(20,-3)   color:mehrfach    text:Rostock/Kaiserslautern
+     from:2.5   till:4.5  shift:(20,-3)   color:hansa   text:Hansa Rostock
+     from:7.5   till:11.5 shift:(20,-3)   color:unterha text:SpVgg Unterhaching
+     from:4.5   till:5.5 shift:(20,-3)    color:unterha text:SpVgg Unterhaching
+     from:0.5   till:1.5 shift:(20,-3)    color:vfb     text:VfB Stuttgart
+     from:14.5   till:16.5 shift:(20,-3)  color:vfb     text:VfB Stuttgart
+     from:5.5  till:7.5   shift:(20,-3)   color:red      text:Energie Cottbus
+     from:16.5  till:17.5 shift:(20,-3)   color:red      text:Energie Cottbus
+     from:11.5  till:14.5 shift:(20,-3)   color:vfl  text:VfL Bochum
+     from:17.5  till:34.5 shift:(20,-3)   color:vfl  text:VfL Bochum
+</timeline>
+|}
+
+Erster in der '''Saison 2000/01 der [[Fußball-Bundesliga|Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]]. Die Münchener erzielten die niedrigste Punktzahl (63), mit der jemals eine Mannschaft seit Einführung der Drei-Punkte-Regel Meister wurde. Die Saison begann am 11. August 2000 mit dem Spiel Borussia Dortmund gegen Hansa Rostock und endete am 19. Mai 2001. Die Saison 2000/01 war die erste, deren Vereine aus elf verschiedenen Bundesländern kamen. Das war erst [[Fußball-Bundesliga 2024/25|2024/25]] wieder der Fall.
+
+== Saisonüberblick ==
+Die Bundesliga 2000/01 gilt als eine Saison mit besonders dramatischer und einprägsamer Meisterschaftsentscheidung: Seit dem 29. Spieltag war der [[FC Schalke 04]] Tabellenführer vor dem [[FC Bayern München]]. Vor dem 33. (vorletzten) Spieltag waren beide Vereine punktgleich bei einer besseren Tordifferenz der Schalker.
+
+In der 90. Minute des 33. Spieltages fielen fast gleichzeitig zwei entscheidende Tore: Sieben Sekunden nachdem [[Krassimir Balakow]] für den [[VfB Stuttgart]] das 1:0-Siegtor gegen die Schalker erzielt hatte, traf für den FC Bayern der soeben eingewechselte [[Alexander Zickler]] zum 2:1-Heimsieg gegen den [[1. FC Kaiserslautern]]. Der FC Bayern eroberte dadurch die Tabellenspitze zurück und hatte vor dem letzten Spieltag drei Punkte Vorsprung vor Schalke 04. Die Bayern benötigten daher – bei einem vorausgesetzten Sieg der Schalker gegen den Abstiegskandidaten [[SpVgg Unterhaching]] – zumindest ein Unentschieden beim [[Hamburger SV]], da die Tordifferenz der Münchner weiterhin schlechter war.
+
+Nachdem Schalke im letzten Saisonspiel mit 0:2 zurücklag und Unterhaching nach zwischenzeitlichem Ausgleich der Schalker in der 69. Minute wieder mit 3:2 in Führung ging, siegten die Schalker noch mit 5:3. Bei der von Schiedsrichter [[Markus Merk]] geleiteten Partie des HSV gegen Bayern München erzielten die Hamburger in der 90. Minute das 1:0 durch [[Sergej Barbarez]]. In der vierten Minute der Nachspielzeit führte ein indirekter [[Freistoß]] im [[Strafraum]] des Gegners zum 1:1-Ausgleich. [[Patrik Andersson]] schoss den von [[Stefan Effenberg]] vorgelegten Ball ins Tor – sein einziger Treffer für den FC Bayern München. Zuvor hatte der vom FC Schalke 04 an den Hamburger SV ausgeliehene Torwart [[Mathias Schober]] nach Ansicht von Merk eine Rückgabe [[Rückpassregel|regelwidrig mit der Hand aufgenommen]].
+
+Da der Abpfiff in Gelsenkirchen schon einige Minuten vorher erfolgt war, feierte man dort schon den vermeintlichen Titelgewinn, als die Nachricht vom Ausgleich der Bayern eintraf. Die Schalker gingen daraufhin als sogenannte ''[[Meister der Herzen]]'' bzw. ''Vier-Minuten-Meister''<ref>Carsten Heidböhmer: [https://www.stern.de/sport/fussball/schalke-04-der-erste-und-einzige-vier-minuten-meister-3070136.html ''Der erste und einzige Vier-Minuten-Meister''], Artikel auf ''stern.de'', 23. Februar 2011.</ref> in die Geschichte der Bundesliga ein. Das Saisonfinale diente als Inspiration für mehrere Fernsehdokumentationen.<ref>Udo Muras und Lars Gartenschläger: [https://www.welt.de/sport/fussball/bundesliga/fc-schalke-04/article13379903/Nach-4-38-Minuten-war-Schalkes-Meisterparty-beendet.html ''Nach 4:38 Minuten war Schalkes Meisterparty beendet''], Artikel auf ''welt.de'', 19. Mai 2011.</ref><ref>{{Internetquelle |autor=Felix zur Nieden |url=https://www.waz.de/staedte/gelsenkirchen/article7185793/schalke-dokumentation-vier-minuten-deutscher-meister-auf-dvd-erhaeltlich.html |titel=Schalke-Dokumentation „Vier Minuten Deutscher Meister“ auf DVD erhältlich |datum=2012-10-11 |sprache=de |abruf=2026-06-08}}</ref>
+
+Im Tabellenkeller standen der [[VfL Bochum]] und [[Eintracht Frankfurt]] vorzeitig als Absteiger fest; in einem Fernduell kämpften Unterhaching und Aufsteiger [[Energie Cottbus]] um den letzten Nichtabstiegsplatz. Cottbus ging mit einem Punkt Vorsprung in dieses Duell und sicherte sich den Klassenerhalt durch ein 1:0 beim [[TSV 1860 München]].
+
+Der Brasilianer [[Alex Alves]] in Diensten von [[Hertha BSC]] erzielte bei dem Heimspiel gegen [[Markus Pröll]] im Tor des [[1. FC Köln]] das [[Tor des Jahres]] mit einem Schuss aus 52 Metern direkt nach Wiederanpfiff.<ref>[https://www.youtube.com/watch?v=sb8SY0IydMM ''Alex Alves - TOR DES JAHRES 2000 - live kommentar Premiere''], YouTube-Video, abgerufen am 14. November 2012.</ref>
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 2000-01.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=19 |U= 6 |N= 9 |ET=62 |GT=37 |Verein=[[FC Bayern München]] (M, P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=18 |U= 8 |N= 8 |ET=65 |GT=35 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 3 |S=16 |U=10 |N= 8 |ET=62 |GT=42 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ddddff |Rang= 4 |S=17 |U= 6 |N=11 |ET=54 |GT=40 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 5 |S=18 |U= 2 |N=14 |ET=58 |GT=52 |Verein=[[Hertha BSC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffdac2 |Rang= 6 |S=15 |U=10 |N= 9 |ET=54 |GT=37 |Verein=[[SC Freiburg]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 7 |S=15 |U= 8 |N=11 |ET=53 |GT=48 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=15 |U= 5 |N=14 |ET=49 |GT=54 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang= 9 |S=12 |U=11 |N=11 |ET=60 |GT=45 |Verein=[[VfL Wolfsburg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=12 |U=10 |N=12 |ET=59 |GT=52 |Verein=[[1. FC Köln]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=f5f5dc |Rang=11 |S=12 |U= 8 |N=14 |ET=43 |GT=55 |Verein=[[TSV 1860 München]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=12 |U= 7 |N=15 |ET=34 |GT=47 |Verein=[[Hansa Rostock]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U=11 |N=13 |ET=58 |GT=58 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=12 |U= 3 |N=19 |ET=38 |GT=52 |Verein=[[Energie Cottbus]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 9 |U=11 |N=14 |ET=42 |GT=49 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U=11 |N=15 |ET=35 |GT=59 |Verein=[[SpVgg Unterhaching]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S=10 |U= 5 |N=19 |ET=41 |GT=68 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 7 |U= 6 |N=21 |ET=30 |GT=67 |Verein=[[VfL Bochum]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 2001/02]]}}
+{{Farblegende|#ccccff|DFB-Pokal-Sieger und Teilnahme an der UEFA Champions League}}
+{{Farblegende|#ddddff|Teilnahme an der Champions-League-Qualifikation}}
+{{Farblegende|#ffdac2|Teilnahme am [[UEFA-Pokal 2001/02]]}}
+{{Farblegende|#f5f5dc|Teilnahme am [[UEFA Intertoto Cup 2001|UI-Cup 2001]]}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 2001/02|2. Bundesliga 2001/02]]}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1999/2000|1999/2000]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1999/2000|1999/2000]]
+|-
+| (N) || Aufsteiger der Saison [[2. Fußball-Bundesliga 1999/2000|1999/2000]]
+|}
+== Tabellenverlauf ==
+[[Datei:Platzierungen Bundesliga 2000-01.svg|700px]]
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center"
+| colspan="2" width="200" | '''2000/01'''
+| [[Datei:Bayern München Logo (1996-2002).svg|22x22px|FC Bayern München]]
+| [[Datei:FC Schalke 04 Logo.svg|22px|FC Schalke 04]]
+| [[Datei:Borussia Dortmund logo.svg|22px|Borussia Dortmund]]
+| [[Datei:Bayer Leverkusen Logo.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Hertha BSC Logo.svg|22px|Hertha BSC]]
+| [[Datei:SC Freiburg Logo.svg|22px|SC Freiburg]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:VfL Wolfsburg Logo 1998–2002.svg|22px|VfL Wolfsburg]]
+| [[Datei:1. FC Koeln Logo 2000–2014.png|22px|1. FC Köln]] 
+| [[Datei:TSV 1860 München.svg|22px|TSV 1860 München]]
+| [[Datei:FC Hansa Rostock Logo.svg|22px|Hansa Rostock]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:Logo Energie Cottbus.svg|22px|FC Energie Cottbus]]
+| [[Datei:VfB Stuttgart Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Logo SpVgg Unterhaching.svg|22px|SpVgg Unterhaching]]
+| [[Datei:Logo Eintracht Frankfurt 1998.svg|22px|Eintracht Frankfurt]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+|-
+| {{0}}1.|| align="left" | [[FC Bayern München]] || bgcolor="#DCDCDC" | || 1:3 || 6:2 || 2:0 || 4:1 || 1:0 || 2:3 || 2:1 || 3:1 || 1:1 || 3:1 || 0:1 || 2:1 || 2:0 || 1:0 || 3:1 || 1:2 || 3:2
+|-
+| {{0}}2.|| align="left" | [[FC Schalke 04]] || 3:2 || bgcolor="#DCDCDC" | || 0:0 || 0:0 || 3:1 || 0:0 || 1:1 || 5:1 || 2:1 || 2:1 || 2:0 || 2:0 || 0:1 || 3:0 || 2:1 || 5:3 || 4:0 || 2:1
+|-
+| {{0}}3.|| align="left" | [[Borussia Dortmund]] || 1:1 || 0:4 || bgcolor="#DCDCDC" | || 1:3 || 2:0 || 1:0 || 0:0 || 1:2 || 2:1 || 3:3 || 2:3 || 1:0 || 4:2 || 2:0 || 0:0 || 3:0 || 6:1 || 5:0
+|-
+| {{0}}4.|| align="left" | [[Bayer 04 Leverkusen]] || 0:1 || 0:3 || 2:0 || bgcolor="#DCDCDC" | || 4:0 || 1:3 || 3:0 || 4:2 || 2:0 || 4:1 || 0:0 || 1:2 || 1:1 || 1:3 || 4:0 || 1:0 || 1:0 || 1:0
+|-
+| {{0}}5.|| align="left" | [[Hertha BSC]] || 1:3 || 0:4 || 1:0 || 1:1 || bgcolor="#DCDCDC" | || 2:2 || 4:1 || 2:4 || 1:3 || 4:2 || 3:0 || 1:0 || 4:0 || 3:1 || 2:0 || 2:1 || 3:0 || 4:0
+|-
+| {{0}}6.|| align="left" | [[SC Freiburg]] || 1:1 || 3:1 || 2:2 || 0:1 || 1:0 || bgcolor="#DCDCDC" | || 0:1 || 5:2 || 4:1 || 0:0 || 0:3 || 0:0 || 0:0 || 4:1 || 4:0 || 2:0 || 5:2 || 5:0
+|-
+| {{0}}7.|| align="left" | [[Werder Bremen]] || 1:1 || 2:1 || 1:2 || 3:3 || 3:1 || 3:1 || bgcolor="#DCDCDC" | || 1:2 || 2:3 || 2:1 || 2:0 || 3:0 || 3:1 || 3:1 || 1:0 || 0:0 || 1:1 || 2:0
+|-
+| {{0}}8.|| align="left" | [[1. FC Kaiserslautern]] || 0:0 || 3:2 || 1:4 || 0:1 || 0:1 || 0:2 || 2:0 || bgcolor="#DCDCDC" | || 0:0 || 3:1 || 3:2 || 0:1 || 2:1 || 1:1 || 1:0 || 4:0 || 4:2 || 0:1
+|-
+| {{0}}9.|| align="left" | [[VfL Wolfsburg]] || 1:3 || 2:0 || 1:1 || 2:0 || 2:1 || 1:2 || 1:1 || 4:0 || bgcolor="#DCDCDC" | || 6:0 || 0:1 || 2:1 || 4:4 || 1:1 || 2:2 || 6:1 || 3:0 || 0:0
+|-
+|  10.|| align="left" | [[1. FC Köln]] || 1:2 || 2:2 || 0:0 || 1:1 || 1:0 || 0:1 || 1:3 || 0:1 || 0:0 || bgcolor="#DCDCDC" | || 4:0 || 5:2 || 4:2 || 4:0 || 3:2 || 1:1 || 4:1 || 2:0
+|-
+|  11.|| align="left" | [[TSV 1860 München]] || 0:2 || 1:1 || 1:0 || 1:0 || 0:1 || 3:1 || 2:1 || 0:4 || 2:2 || 3:1 || bgcolor="#DCDCDC" | || 2:1 || 2:1 || 0:1 || 2:1 || 0:2 || 2:2 || 2:4
+|-
+|  12.|| align="left" | [[Hansa Rostock]] || 3:2 || 0:4 || 1:2 || 2:1 || 0:2 || 0:0 || 5:2 || 1:0 || 1:1 || 2:1 || 0:0 || bgcolor="#DCDCDC" | || 1:0 || 1:0 || 1:1 || 2:2 || 0:2 || 2:0
+|-
+|  13.|| align="left" | [[Hamburger SV]] || 1:1 || 2:0 || 2:3 || 1:3 || 1:2 || 5:0 || 2:1 || 1:1 || 3:2 || 1:1 || 2:2 || 2:1 || bgcolor="#DCDCDC" | || 2:1 || 2:2 || 1:1 || 2:0 || 3:0
+|-
+|  14.|| align="left" | [[Energie Cottbus]] || 1:0 || 4:1 || 1:4 || 1:2 || 3:0 || 0:2 || 3:1 || 0:2 || 0:0 || 0:2 || 2:3 || 1:0 || 4:2 || bgcolor="#DCDCDC" | || 2:1 || 1:0 || 2:0 || 2:0
+|-
+|  15.|| align="left" | [[VfB Stuttgart]] || 2:1 || 1:0 || 0:2 || 4:1 || 0:1 || 0:0 || 2:1 || 6:1 || 2:1 || 0:3 || 2:2 || 1:0 || 3:3 || 1:0 || bgcolor="#DCDCDC" | || 2:2 || 4:1 || 1:1
+|-
+|  16.|| align="left" | [[SpVgg Unterhaching]] || 1:0 || 0:2 || 1:4 || 1:2 || 5:2 || 1:1 || 0:0 || 0:0 || 0:3 || 0:0 || 3:2 || 1:1 || 2:1 || 2:1 || 0:0 || bgcolor="#DCDCDC" | || 2:0 || 2:1
+|-
+|  17.|| align="left" | [[Eintracht Frankfurt]] || 0:2 || 0:0 || 1:1 || 1:3 || 0:4 || 3:0 || 1:2 || 3:1 || 1:2 || 1:5 || 1:0 || 4:0 || 1:1 || 1:0 || 2:1 || 3:0 || bgcolor="#DCDCDC" | || 3:0
+|-
+|  18.|| align="left" | [[VfL Bochum]] || 0:3 || 1:1 || 1:1 || 3:2 || 1:3 || 1:3 || 1:2 || 0:1 || 2:1 || 2:3 || 1:1 || 1:2 || 0:4 || 1:0 || 0:0 || 3:0 || 2:1 || bgcolor="#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable"
+! !! Spieler!! Verein!! Tore
+|-
+| rowspan="2" align="center" | 1.|| {{BIH|Ziel=Sergej Barbarez}}|| Hamburger SV|| rowspan="2" align="center" | 22
+|-
+|| {{DNK|Ziel=Ebbe Sand}}|| FC Schalke 04
+|-
+| align="center" | 3.|| {{PER|Ziel=Claudio Pizarro}}|| SV Werder Bremen|| align="center" | 19
+|-
+| align="center" | 4.|| {{DEU|Ziel=Michael Preetz}}|| Hertha BSC|| align="center" | 16
+|-
+| rowspan="2" align="center" | 5.|| {{BRA|Ziel=Giovane Élber}}|| FC Bayern München|| rowspan="2" align="center" | 15
+|-
+| {{DEU|Ziel=Oliver Neuville}}|| Bayer 04 Leverkusen
+|}
+
+== Scorerliste ==
+<!-- Siehe http://www.kicker.de/news/fussball/bundesliga/scorer/ -->
+{| class="wikitable" style="text-align:center"
+!Pl.!!Nat.!!Spieler!!Verein!!Gesamt!!Tore!!Vorlagen
+|-
+|1.|| {{DNK|#}}|| align="left" | [[Ebbe Sand]] || align="left" | FC Schalke 04 || 32 || 22 || 10
+|-
+|2.|| {{BIH|#}}||align="left" | [[Sergej Barbarez]] || align="left" | Hamburger SV || 27 || 22 || {{0}}5
+|-
+|3.||{{PER|#}}||align="left" | [[Claudio Pizarro]] || align="left" | Werder Bremen || 26 || 19 || {{0}}7
+|-
+|4.|| {{BEL|#}}||align="left" | [[Emile Mpenza]] || align="left" | FC Schalke 04 || 24 || 13 || 11
+|-
+|5.|| {{HUN|#}}||align="left" | [[Vasile Miriuță]] || align="left" | Energie Cottbus || 22 || 11 || 11
+|-
+|6.|| {{BRA|#}}||align="left" | [[Giovane Élber]] || align="left" | Bayern München || 21 || 15 || {{0}}6
+|}
+
+== Die Meistermannschaft FC Bayern München ==
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Bayern München Logo (1996-2002).svg|59x59px]]|| bgcolor="#E8E8E8" align="left" – |
+* '''Tor''': [[Oliver Kahn]] (32/-); [[Bernd Dreher]] (1/-); [[Stefan Wessels]] (1/-) 
+* '''Abwehr''': [[Thomas Linke]] (28/-); [[Willy Sagnol]] (27/-); [[Samuel Kuffour]] (23/1); [[Michael Tarnat]] (23/1); [[Patrik Andersson]] (22/1); [[Bixente Lizarazu]] (15/-)
+* '''Mittelfeld''': [[Hasan Salihamidžić]] (31/4); [[Mehmet Scholl]] (29/9); [[Thorsten Fink]] (24/1); [[Jens Jeremies]] (21/1); [[Stefan Effenberg]] {{Kapitän}} (20/4); [[Ciriaco Sforza]] (20/-); [[Owen Hargreaves]] (14/-); [[Michael Wiesinger]] (6/-)
+* '''Angriff''': [[Giovane Élber]] (27/15); [[Paulo Sérgio]] (26/5); [[Carsten Jancker]] (25/12); [[Alexander Zickler]] (24/3); [[Roque Santa Cruz]] (19/5); [[Antonio Di Salvo]] (6/-); [[Berkant Göktan]] (1/-) 
+* '''Trainer''': [[Ottmar Hitzfeld]]
+|}
+''* [[Thomas Strunz]] (5/-) hat den Verein während der Saison verlassen.''
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 15 || 78 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 17 || 84 || 4 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 15 || 54 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Fandel, Herbert" | [[Herbert Fandel]] || {{DatumZelle|1964-03-09}} || Rheinland || 21 || 93 || 5 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Fleischer, Helmut" | [[Helmut Fleischer (Schiedsrichter)|Helmut Fleischer]] || {{DatumZelle|1964-03-22}} || Bayern || 16 || 58 || 1 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 17 || 55 || 5 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Gagelmann, Peter" | [[Peter Gagelmann]] || {{DatumZelle|1968-06-09}} || [[Bremer Fußball-Verband|Bremen]] || 8 || 35 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 19 || 80 || 3 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Jansen, Jurgen" | [[Jürgen Jansen]] || {{DatumZelle|1960-10-16}} || [[Fußballverband Niederrhein|Niederrhein]] || 13 || 47 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Kemmling, Uwe" | [[Uwe Kemmling]] || {{DatumZelle|1960-11-01}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 12 || 57 || 6 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Keßler, Jorg" | [[Jörg Keßler]] || {{DatumZelle|1964-02-24}} || [[Thüringer Fußball-Verband|Thüringen]] || 11 || 62 || 2 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 21 || 88 || 1 || 5 ||
+|-
+| style="text-align:left" data-sort-value="Meyer, Florian" | [[Florian Meyer (Schiedsrichter)|Florian Meyer]] || {{DatumZelle|1968-11-21}} || Niedersachsen || 12 || 43 || 2 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 22 || 91 || 3 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Sippel, Peter" | [[Peter Sippel]] || {{DatumZelle|1969-10-06}} || Bayern || 8 || 33 || 3 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Stark, Wolfgang" | [[Wolfgang Stark]] || {{DatumZelle|1969-11-20}} || Bayern || 11 || 58 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 14 || 42 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 17 || 79 || 5 || 4 ||
+|-
+| style="text-align:left" data-sort-value="Wack, Franz-Xaver" | [[Franz-Xaver Wack]] || {{DatumZelle|1965-03-05}} || Bayern || 14 || 60 || 3 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Wagner, Lutz" | [[Lutz Wagner (Schiedsrichter)|Lutz Wagner]] || {{DatumZelle|1963-05-27}} || [[Hessischer Fußball-Verband|Hessen]] || 12 || 47 || 3 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Weiner, Michael" | [[Michael Weiner]] || {{DatumZelle|1969-03-21}} || Niedersachsen || 10 || 51 || 1 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Zerr, Bernhard" | [[Bernhard Zerr]] || {{DatumZelle|1965-06-12}} || [[Südbadischer Fußballverband|Südbaden]] || 1 || 7 || 0 || 1 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1302 || 51 || 38 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-2000-2001/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-25}}</ref>
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 2000/01}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 2000/2001|Fußball-Bundesliga 2000/01}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 2000/01 (Deutschland)
+|Navigationsleiste Europa-Fußball 2001
+}}
+
+{{SORTIERUNG:Fussball-Bundesliga 2000-01}}
+[[Kategorie:Fußball-Bundesliga-Saison|#2000/01]]
+[[Kategorie:Fußballsaison 2000/01]]

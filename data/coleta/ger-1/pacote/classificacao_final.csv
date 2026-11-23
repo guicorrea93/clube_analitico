@@ -59,7 +59,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1966/67,8,Borussia Mönchengladbach,34,12,10,12,70,49,34,0,,Wikipédia (ordem oficial),
 1966/67,9,Hannover 96,34,13,8,13,40,46,34,0,,Wikipédia (ordem oficial),
 1966/67,10,Nuremberg,34,12,10,12,43,50,34,0,,Wikipédia (ordem oficial),
-1966/67,11,Duisburg,34,10,13,11,40,42,33,0,,Wikipédia (ordem oficial),Meidericher SV changed their name to MSV Duisburg during the season.
+1966/67,11,Duisburg,34,10,13,11,40,42,33,0,,Wikipédia (ordem oficial),o Meidericher SV passou a se chamar MSV Duisburg durante a temporada
 1966/67,12,Stuttgart,34,10,13,11,48,54,33,0,,Wikipédia (ordem oficial),
 1966/67,13,Karlsruhe,34,11,9,14,54,62,31,0,,Wikipédia (ordem oficial),
 1966/67,14,Hamburgo,34,10,10,14,37,53,30,0,,Wikipédia (ordem oficial),
@@ -156,7 +156,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1971/72,15,Rot-Weiß Oberhausen,34,7,11,16,33,66,25,0,,Wikipédia (ordem oficial),
 1971/72,16,Hannover 96,34,10,3,21,54,69,23,0,,Wikipédia (ordem oficial),
 1971/72,17,Borussia Dortmund,34,6,8,20,34,83,20,0,rebaixado,Wikipédia (ordem oficial),
-1971/72,18,Arminia Bielefeld,34,6,7,21,41,75,19,0,rebaixado,Wikipédia (ordem oficial),"Following the DFB investigation into match fixing, Arminia Bielefeld was automatically relegated. Records were expunged."
+1971/72,18,Arminia Bielefeld,34,6,7,21,41,75,0,-19,rebaixado,Wikipédia (ordem oficial),rebaixado pela DFB por manipulação de resultados; os jogos ficaram com 0 pontos para o Arminia
 1972/73,1,Bayern de Munique,34,25,4,5,93,29,54,0,campeao,Wikipédia (ordem oficial),
 1972/73,2,Colônia,34,16,11,7,66,51,43,0,,Wikipédia (ordem oficial),
 1972/73,3,Fortuna Düsseldorf,34,15,12,7,62,45,42,0,,Wikipédia (ordem oficial),
@@ -549,7 +549,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1993/94,10,Borussia Mönchengladbach,34,14,7,13,65,59,35,0,,Wikipédia (ordem oficial),
 1993/94,11,Colônia,34,14,6,14,49,51,34,0,,Wikipédia (ordem oficial),
 1993/94,12,Hamburgo,34,13,8,13,48,52,34,0,,Wikipédia (ordem oficial),
-1993/94,13,Dynamo Dresden,34,10,14,10,33,44,30,-4,,Wikipédia (ordem oficial),Dynamo Dresden were docked four points because of financial irregularities.
+1993/94,13,Dynamo Dresden,34,10,14,10,33,44,30,-4,,Wikipédia (ordem oficial),4 pontos a menos por irregularidades financeiras
 1993/94,14,Schalke 04,34,10,9,15,38,50,29,0,,Wikipédia (ordem oficial),
 1993/94,15,Freiburg,34,10,8,16,54,57,28,0,,Wikipédia (ordem oficial),
 1993/94,16,Nuremberg,34,10,8,16,41,55,28,0,rebaixado,Wikipédia (ordem oficial),
@@ -588,7 +588,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1995/96,13,Fortuna Düsseldorf,34,8,16,10,40,47,40,0,,Wikipédia (ordem oficial),
 1995/96,14,Bayer Leverkusen,34,8,14,12,37,38,38,0,,Wikipédia (ordem oficial),
 1995/96,15,St. Pauli,34,9,11,14,43,51,38,0,,Wikipédia (ordem oficial),
-1995/96,16,Kaiserslautern,34,6,18,10,31,37,36,0,rebaixado,Wikipédia (ordem oficial),"After being demoted by league place, Kaiserslautern won the DFB-Pokal 1995–96 and thus qualified for the Cup Winners' Cup."
+1995/96,16,Kaiserslautern,34,6,18,10,31,37,36,0,rebaixado,Wikipédia (ordem oficial),
 1995/96,17,Eintracht Frankfurt,34,7,11,16,43,68,32,0,rebaixado,Wikipédia (ordem oficial),
 1995/96,18,Uerdingen,34,5,11,18,33,56,26,0,rebaixado,Wikipédia (ordem oficial),
 1996/97,1,Bayern de Munique,34,20,11,3,68,34,71,0,campeao,Wikipédia (ordem oficial),
@@ -657,8 +657,8 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1999/00,10,Unterhaching,34,12,8,14,40,42,44,0,,Wikipédia (ordem oficial),
 1999/00,11,Borussia Dortmund,34,9,13,12,41,38,40,0,,Wikipédia (ordem oficial),
 1999/00,12,Freiburg,34,10,10,14,45,50,40,0,,Wikipédia (ordem oficial),
-1999/00,13,Schalke 04,34,8,15,11,42,44,39,0,,Wikipédia (ordem oficial),Head-to-head was used as a tie-breaker between Schalke 04 and Frankfurt.
-1999/00,14,Eintracht Frankfurt,34,12,5,17,42,44,39,-2,,Wikipédia (ordem oficial),S04
+1999/00,13,Schalke 04,34,8,15,11,42,44,39,0,,Wikipédia (ordem oficial),Schalke 04 e Frankfurt desempatados pelo confronto direto
+1999/00,14,Eintracht Frankfurt,34,12,5,17,42,44,39,-2,,Wikipédia (ordem oficial),Schalke 04 e Frankfurt desempatados pelo confronto direto
 1999/00,15,Hansa Rostock,34,8,14,12,44,60,38,0,,Wikipédia (ordem oficial),
 1999/00,16,Ulm,34,9,8,17,36,62,35,0,rebaixado,Wikipédia (ordem oficial),
 1999/00,17,Arminia Bielefeld,34,7,9,18,40,61,30,0,rebaixado,Wikipédia (ordem oficial),
@@ -731,7 +731,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2003/04,12,Hertha Berlin,34,9,12,13,42,59,39,0,,Wikipédia (ordem oficial),
 2003/04,13,Freiburg,34,10,8,16,42,67,38,0,,Wikipédia (ordem oficial),
 2003/04,14,Hannover 96,34,9,10,15,49,63,37,0,,Wikipédia (ordem oficial),
-2003/04,15,Kaiserslautern,34,11,6,17,39,62,36,-3,,Wikipédia (ordem oficial),1. FC Kaiserslautern were docked three points for financial irregularities.
+2003/04,15,Kaiserslautern,34,11,6,17,39,62,36,-3,,Wikipédia (ordem oficial),3 pontos a menos por irregularidades financeiras
 2003/04,16,Eintracht Frankfurt,34,9,5,20,36,53,32,0,rebaixado,Wikipédia (ordem oficial),
 2003/04,17,1860 Munique,34,8,8,18,32,55,32,0,rebaixado,Wikipédia (ordem oficial),
 2003/04,18,Colônia,34,6,5,23,32,57,23,0,rebaixado,Wikipédia (ordem oficial),
@@ -816,7 +816,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2008/09,7,Hoffenheim,34,15,10,9,63,49,55,0,,Wikipédia (ordem oficial),
 2008/09,8,Schalke 04,34,14,8,12,47,35,50,0,,Wikipédia (ordem oficial),
 2008/09,9,Bayer Leverkusen,34,14,7,13,59,46,49,0,,Wikipédia (ordem oficial),
-2008/09,10,Werder Bremen,34,12,9,13,64,50,45,0,,Wikipédia (ordem oficial),Werder Bremen qualified for the play-off round of the UEFA Europa League by winning the 2008–09 DFB-Pokal.
+2008/09,10,Werder Bremen,34,12,9,13,64,50,45,0,,Wikipédia (ordem oficial),
 2008/09,11,Hannover 96,34,10,10,14,49,69,40,0,,Wikipédia (ordem oficial),
 2008/09,12,Colônia,34,11,6,17,35,50,39,0,,Wikipédia (ordem oficial),
 2008/09,13,Eintracht Frankfurt,34,8,9,17,39,60,33,0,,Wikipédia (ordem oficial),

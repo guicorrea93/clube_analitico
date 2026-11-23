@@ -1,0 +1,375 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 1991/92
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Meister = [[VfB Stuttgart]]
+| UEFA Champions League = [[VfB Stuttgart]]
+| UEFA Cup = [[Borussia Dortmund]]<br />[[Eintracht Frankfurt]]<br />[[1. FC Köln]]<br />[[1. FC Kaiserslautern]]
+| Pokal-Sieger = [[Hannover 96]]
+| Europapokal der Pokalsieger = [[Werder Bremen]] (<span class="explain" title="Titelverteidiger">TV</span>)
+| Absteiger = [[Stuttgarter Kickers]]<br />[[Hansa Rostock]]<br />[[MSV Duisburg]]<br />[[Fortuna Düsseldorf]]
+| Mannschaften = 20
+| Spiele = 380
+| geschossene Tore = 994
+| Zuschauer = 9.221.643
+| Torschützenkönig = {{DEU|Fritz Walter (Fußballspieler, 1960)|Fritz Walter}} ([[VfB Stuttgart]])
+| vorherige Saison = [[Fußball-Bundesliga 1990/91|Bundesliga 1990/91]]
+| vorherige Saison2 = [[DDR-Fußball-Oberliga 1990/91|DDR-Oberliga 1990/91]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1992/93|Bundesliga 1992/93]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1991/92|2. Bundesliga 1991/92]]
+}}
+Erster in der '''Saison 1991/92 der deutschen [[Fußball-Bundesliga|Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[VfB Stuttgart]].
+
+Die Saison ist bis heute diejenige Bundesliga-Saison mit den meisten Mannschaften und den meisten Spielen. Die Liga war zuvor von 18 auf 20 Mannschaften aufgestockt worden, da infolge der [[Deutsche Wiedervereinigung|Deutschen Wiedervereinigung]] der Tabellenerste und -zweite aus der [[DDR-Oberliga (Fußball)|DDR-Oberliga]], [[Hansa Rostock]] und [[Dynamo Dresden]], eingegliedert worden waren. Am Ende mussten vier Mannschaften absteigen, um eine Reduzierung auf 18 Mannschaften in der folgenden Saison zu erreichen.
+
+{| cellspacing="0" cellpadding="0" style="width:280px; float:right;"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:740#> hier bis auf 700 erhöhen (38. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:38.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:hansa value:rgb(0,0.50,1)
+  id:vfb   value:rgb(0.92,0.36,0.16)
+  id:Pauli  value:rgb(0.6,0.3,0.1)
+  id:Bayer  value:rgb(0.8,0.3,0.3)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+
+  from:start till:1.5 shift:(25,-5)   color:hansa     text:Hansa Rostock
+  from:1.5 till:2.5   shift:(25,-5)   color:black text:Eintracht Frankfurt
+  from:2.5 till:5.5   shift:(25,-5)   color:hansa     text:Hansa Rostock
+  from:5.5 till:6.5   shift:(25,-5)   color:black text:Eintracht Frankfurt
+  from:6.5 till:7.5   shift:(25,-5)   color:hansa     text:Hansa Rostock
+  from:7.5 till:9.5   shift:(25,-5)   color:black text:Eintracht Frankfurt
+  from:9.5 till:10.5  shift:(25,-5)   color:vfb      text:VfB Stuttgart
+  from:10.5 till:20.5 shift:(25,-5)   color:black text:Eintracht Frankfurt
+  from:20.5 till:30.5 shift:(25,-5)   color:yelloworange   text:Borussia Dortmund
+  from:30.5 till:31.5 shift:(25,-5)   color:black text:Eintracht Frankfurt
+  from:31.5 till:32.5 shift:(25,-5)   color:vfb      text:VfB Stuttgart
+  from:32.5 till:33.5 shift:(25,-5)   color:yelloworange   text:Borussia Dortmund
+  from:33.5 till:37.5 shift:(25,-5)   color:black text:Eintracht Frankfurt
+  from:37.5 till:38.5 shift:(25,-5)   color:vfb      text:VfB Stuttgart
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:740#> hier bis auf 700 erhöhen (38. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:38.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:violet value:rgb(0.68,0.09,0.24)
+  id:gladbach   value:rgb(0.11,0.56,0.36)
+  id:vfl  value:rgb(0,0.05,1)
+  id:Bayer  value:rgb(0.8,0.3,0.3)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+     from:0.5   till:1.5   shift:(20,-5)  color:violet   text:1. FC Nürnberg
+     from:1.5   till:2.5   shift:(20,-5)  color:yelloworange   text:Dynamo Dresden
+     from:2.5   till:9.5   shift:(20,-5)  color:red      text:Fortuna Düsseldorf
+     from:9.5   till:11.5  shift:(20,-5)  color:gladbach    text:Mönchengladbach
+     from:11.5  till:12.5  shift:(20,-5)  color:red      text:Fortuna Düsseldorf
+     from:12.5  till:13.5  shift:(20,-5)  color:gladbach    text:Mönchengladbach
+     from:13.5  till:14.5  shift:(20,-5)  color:yelloworange   text:Dynamo Dresden
+     from:14.5  till:15.5  shift:(20,-5)  color:red      text:Fortuna Düsseldorf
+     from:15.5  till:16.5  shift:(20,-5)  color:vfl     text:VfL Bochum
+     from:16.5  till:17.5  shift:(20,-5)  color:red      text:Fortuna Düsseldorf
+     from:17.5  till:21.5  shift:(20,-5)  color:black    text:SG Wattenscheid 09
+     from:21.5  till:38.5  shift:(20,-5)  color:red      text:Fortuna Düsseldorf
+</timeline>
+|}
+
+== Saisonüberblick ==
+
+=== Meisterschaft und internationale Plätze ===
+Die Bundesliga erlebte einen ihrer spannendsten Titelkämpfe überhaupt. Die meiste Zeit der Saison standen Eintracht Frankfurt oder Borussia Dortmund an der Tabellenspitze. Zum Saisonabschluss entwickelte sich ein Dreikampf zwischen Frankfurt, Dortmund und dem VfB Stuttgart. Vor dem letzten Spieltag waren die drei Mannschaften punktgleich (jeweils 50:24 Punkte), der 1. FC Kaiserslautern als Tabellenvierter lag sechs Punkte zurück. Tabellenführer Frankfurt hatte einen kaum einholbaren Torvorsprung auf Stuttgart (+36 gegenüber +29) und hätte demnach mit einem Sieg bei Hansa Rostock den ersten Platz verteidigt. Dortmund (zu Gast beim MSV Duisburg) hatte die schlechteste Tordifferenz (+18) und hätte wohl nur bei Punktverlusten beider Konkurrenten Meister werden können.
+
+Dortmund ging in der 9. Minute in Führung und schien lange die Überraschung perfekt machen zu können, da die Stuttgarter (in Leverkusen) und die Frankfurter (in Rostock) jeweils zunächst in Rückstand gerieten und bis wenige Minuten vor Schluss nicht über ein 1:1 hinauskamen. Die letzten Spielminuten wurden mit dieser Ausgangslage, in der für jede Mannschaft die Meisterschaft noch in Reichweite war, zum wohl ereignisreichsten Saisonfinale der Bundesliga-Geschichte. Rund zehn Minuten vor Spielende wurde zunächst Lothar Sippels vermeintlicher Treffer zur Frankfurter Meisterschaft wegen Abseits zurückgepfiffen, während in Leverkusen Stuttgarts [[Matthias Sammer]] wegen Meckerns des Platzes verwiesen wurde. Kurz darauf trafen sowohl Manfred Kastl für den VfB als auch Edgar Schmitt für Frankfurt jeweils nur den Pfosten. In der 86. Spielminute erzielte [[Guido Buchwald]] nach einer Flanke von links von [[Ludwig Kögl]] dann trotz Unterzahl seiner Mannschaft das 2:1 für den VfB, der damit die Tabellenführung übernahm. Frankfurt wurde danach zunächst noch ein berechtigter Elfmeter verweigert, woraufhin es in der 89. Minute den 1:2-Gegentreffer kassierte. Damit war die Meisterschaft entschieden: Der VfB Stuttgart war Deutscher Fußballmeister 1991/92.
+
+Offen war auch der Kampf um die UEFA-Cup-Plätze. Die Leverkusener Niederlage gegen den VfB Stuttgart sorgte aber dafür, dass dem 1. FC Kaiserslautern eine Niederlage und dem 1. FC Köln ein Remis für den Einzug in den internationalen Wettbewerb reichten.
+
+Erwähnenswert ist das Abschneiden des Rekordmeisters Bayern München. Unter den Trainern [[Jupp Heynckes]], [[Søren Lerby]] (ab Oktober 1991) und [[Erich Ribbeck]] (ab März 1992) belegten diese den zehnten Platz mit negativem Punktestand und negativer Tordifferenz, was die schlechteste Saisonbilanz seit der Saison 1977/78 war. Auch danach standen die Münchner zum Saisonende nie mehr auf diesem Tabellenplatz oder schlechter.
+
+=== Abstieg ===
+Auch im Abstiegskampf hielt sich die Spannung bis zum Schluss. Lediglich Fortuna Düsseldorf stand frühzeitig (am 35. Spieltag) als Absteiger fest. Hansa Rostock und die Stuttgarter Kickers (29:45) sowie MSV Duisburg und Wattenscheid (30:44) waren jeweils punktgleich in den letzten Spieltag gegangen, wobei Wattenscheid den ersten Nicht-Abstiegsplatz belegte. Diesen konnten sie durch einen 3:2-Sieg gegen Gladbach auch verteidigen. Zur Halbzeit hatten sie dabei allerdings noch zurückgelegen. Den Kickers und Rostock nützten ihre jeweiligen Siege dadurch nichts mehr. Auch Duisburg war durch die Niederlage gegen den BVB abgestiegen.
+
+Nach dem Saisonverlauf war der Abstieg vor allem für den MSV und Hansa bitter. Duisburg hatte nach einer starken Hinserie auf Platz 7 gelegen, spielte aber die zweitschlechteste Rückrunde aller Teams. Auch Hansa Rostock war unter Uwe Reinders gut gestartet. Nach dem Gewinn der letzten DDR-Meisterschaft im Vorjahr konnte Rostock zu Saisonbeginn sogar fünfmal die Tabelle anführen und dabei den Bundesligarekord aufstellen, als Neuling mit drei Siegen in die Saison zu starten. Bis zum Jahresende rutschte die ''Kogge'' aber ab und fand sich schließlich im Abstiegskampf wieder.
+
+{{Positionskarte+
+ | Deutschland
+ | Alternativkarte=Germany location map October 1990 - March 1992.svg
+ | width=400
+ | float=right
+ | caption=Teilnehmende Vereine der Bundesliga 1991/92<br /><small>Vereine aus NRW:<br />1 – [[Borussia Dortmund]]<br />2 – [[1. FC Köln]]<br />3 – [[Bayer 04 Leverkusen]]<br />4 – [[FC Schalke 04]]<br />5 – [[VfL Bochum]]<br />6 – [[SG Wattenscheid 09]]<br />7 – [[Borussia Mönchengladbach]]<br />8 – [[MSV Duisburg]]<br />9 – [[Fortuna Düsseldorf]]</small>
+ | places=
+{{Positionskarte~ | Deutschland | label=[[VfB Stuttgart|VfB<br />Stuttgart]] | position=left | long=9/13/55/E | lat=48/47/32/N | region=DE-BW}}
+{{Positionskarte~ | Deutschland | label=[[Borussia Dortmund|1]] | position=top | long=7/27/6/E | lat=51/29/33/N | region=DE-NW}}
+{{Positionskarte~ | Deutschland | label=[[Eintracht Frankfurt]] | position=right | long=8/38/43/E | lat=50/4/7/N | region=DE-HE}}
+{{Positionskarte~ | Deutschland | label=[[1. FC Köln|2]] | position=left | long=6/57/28/E | lat=50/56/29/N | region=DE-NW}}
+{{Positionskarte~ | Deutschland | label=[[Fortuna Düsseldorf|9]] | position=left | long=6/46/24/E | lat=51/13/39/N | region=DE-NW}}{{Positionskarte~ | Deutschland | label=[[1. FC Kaiserslautern]] | position=top | long=7/46/4/E | lat=49/26/48/N | region=DE-RP}}
+{{Positionskarte~ | Deutschland | label=[[Bayer 04 Leverkusen|3]] | position=right | long=7/0/7/E | lat=51/2/17/N | region=DE-NW}}
+{{Positionskarte~ | Deutschland | label=[[1. FC Nürnberg]] | position=right | long=11/7/56/E | lat=49/26/8/N | region=DE-BY}}
+{{Positionskarte~ | Deutschland | label=[[Karlsruher SC]] | position=left | long=8/24/15/E | lat=49/1/34/N | region=DE-BW}}
+{{Positionskarte~ | Deutschland | label=[[Werder Bremen]] | position=left | long=8/50/15.5/E | lat=53/3/59/N | region=DE-HB}}
+{{Positionskarte~ | Deutschland | label=[[FC Bayern München]] | position=bottom | long=11/37/28/E | lat=48/13/7/N | region=DE-BY}}
+{{Positionskarte~ | Deutschland | label=[[FC Schalke 04|4]] | position=top | long=7/4/3.5/E | lat=51/33/16.1/N | region=DE-NW}}
+{{Positionskarte~ | Deutschland | label=[[Hamburger SV]] | position=top | long=9/53/55/E | lat=53/35/13/N | region=DE-HH}}
+{{Positionskarte~ | Deutschland | label=[[Borussia Mönchengladbach|7]] | position=bottom | long=6/23/8/E | lat=51/10/28/N | region=DE-NW}}
+{{Positionskarte~ | Deutschland | label=[[Dynamo Dresden]] | position=top | long=13/44/16/E | lat=51/3/4/N | region=DE-SN}}
+{{Positionskarte~ | Deutschland | label=[[VfL Bochum|5]] | position=bottom | long=7/14/15/E | lat=51/29/22/N | region=DE-NW}}
+{{Positionskarte~ | Deutschland | label=[[SG Wattenscheid 09|6]] | position=left | long=7/7/57/E | lat=51/28/50/N | region=DE-NW}}
+{{Positionskarte~ | Deutschland | label=[[Stuttgarter Kickers]] | position=right | long=9/13/55/E | lat=48/47/32/N | region=DE-BW}}
+{{Positionskarte~ | Deutschland | label=[[Hansa Rostock]] | position=bottom | long=12/8/24/E | lat=54/5/20/N | region=DE-MV}}
+{{Positionskarte~ | Deutschland | label=[[MSV Duisburg|8]] | position=left | long=6/46/45/E | lat=51/24/33/N | region=DE-NW}}
+}}
+
+== Abschlusstabelle ==
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=21 |U=10 |N= 7 |ET=62 |GT=32 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=20 |U=12 |N= 6 |ET=66 |GT=47 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=18 |U=14 |N= 6 |ET=76 |GT=41 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 4 |S=13 |U=18 |N= 7 |ET=58 |GT=41 |Siegpunkte=2 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 5 |S=17 |U=10 |N=11 |ET=58 |GT=42 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=15 |U=13 |N=10 |ET=53 |GT=39 |Siegpunkte=2 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=18 |U= 7 |N=13 |ET=54 |GT=51 |Siegpunkte=2 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=16 |U= 9 |N=13 |ET=48 |GT=50 |Siegpunkte=2 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang= 9 |S=11 |U=16 |N=11 |ET=44 |GT=45 |Siegpunkte=2 |Verein=[[Werder Bremen]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=13 |U=10 |N=15 |ET=59 |GT=61 |Siegpunkte=2 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=11 |U=12 |N=15 |ET=45 |GT=45 |Siegpunkte=2 |Verein=[[FC Schalke 04]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S= 9 |U=16 |N=13 |ET=32 |GT=43 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U=14 |N=14 |ET=37 |GT=49 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=12 |U=10 |N=16 |ET=34 |GT=50 |Siegpunkte=2 |Verein=[[Dynamo Dresden]] (Q) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=10 |U=13 |N=15 |ET=38 |GT=55 |Siegpunkte=2 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=16 |S= 9 |U=14 |N=15 |ET=50 |GT=60 |Siegpunkte=2 |Verein=[[SG Wattenscheid 09]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S=10 |U=11 |N=17 |ET=53 |GT=64 |Siegpunkte=2 |Verein=[[Stuttgarter Kickers]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S=10 |U=11 |N=17 |ET=43 |GT=55 |Siegpunkte=2 |Verein=[[Hansa Rostock]] (Q) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=19 |S= 7 |U=16 |N=15 |ET=43 |GT=55 |Siegpunkte=2 |Verein=[[MSV Duisburg]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=20 |S= 6 |U=12 |N=20 |ET=41 |GT=69 |Siegpunkte=2 |Verein=[[Fortuna Düsseldorf]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 1992/93]]: VfB Stuttgart}}
+{{Farblegende|#fffacd|Teilnahme am [[Europapokal der Pokalsieger 1992/93]]: Werder Bremen (Titelverteidiger)}}
+{{Farblegende|#ccccff|Teilnahme am [[UEFA-Pokal 1992/93]]: Borussia Dortmund, Eintracht Frankfurt, 1. FC Köln, 1. FC Kaiserslautern}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1992/93|2. Bundesliga 1992/93]]: Fortuna Düsseldorf, MSV Duisburg, Hansa Rostock, Stuttgarter Kickers}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1990/91|1990/91]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1990/91|1990/91]]
+|-
+| (Q) || Qualifikation über die [[DDR-Fußball-Oberliga 1990/91|DDR-Oberliga 1990/91]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1990/91|1990/91]]
+|}
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align:center;"
+| colspan="2" style="width:200px;"| '''1991/92'''
+| [[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Logo Borussia Dortmund (1974-1976).gif|22px|Borussia Dortmund]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:Emblem 1.FC Köln.svg|22px|1. FC Köln]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:TSV Bayer 04 Leverkusen.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|Werder Bremen]]
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|22px|FC Bayern München]]
+| [[Datei:Logo Schalke 1978 - 1995.gif|22px|FC Schalke 04]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:Gladbach gruen.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:Historical Logo 1. FC Dynamo Dresden (1990-2002).png|23px|Dynamo Dresden]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:SG Wattenscheid 09.svg|23px|SG Wattenscheid]]
+| [[Datei:Stuttgarter Kickers Logo.svg|23px|Stuttgarter Kickers]]
+| [[Datei:F.C. Hansa Rostock Logo.svg|23px|FC Hansa Rostock]]
+| [[Datei:Logo MSV Duisburg 1980 - 1996.gif|25px|MSV Duisburg]]
+| [[Datei:Fortuna Düsseldorf.svg|22px|Fortuna Düsseldorf]]
+|-
+| {{0}}1.||style="text-align:left;"| [[VfB Stuttgart]] ||style="background:#DCDCDC;"| || 4:2 || 1:2 || 1:0 || 4:1 || 2:0 || 2:0 || 1:0 || 1:1 || 3:2 || 1:0 || 3:2 || 0:1 || 1:1 || 4:1 || 1:1 || 3:1 || 3:0 || 2:0 || 3:1
+|-
+| {{0}}2.||style="text-align:left;"| [[Borussia Dortmund]] || 0:0 ||style="background:#DCDCDC;"| || 2:2 || 3:1 || 3:1 || 3:1 || 3:2 || 1:0 || 2:1 || 3:0 || 2:0 || 2:2 || 2:2 || 4:0 || 1:1 || 1:1 || 3:1 || 4:1 || 2:1 || 3:1
+|-
+| {{0}}3.||style="text-align:left;"| [[Eintracht Frankfurt]] || 1:1 || 3:0 ||style="background:#DCDCDC;"| || 1:2 || 2:0 || 0:1 || 2:2 || 1:1 || 2:2 || 3:2 || 5:0 || 2:1 || 0:0 || 3:0 || 2:1 || 1:1 || 6:1 || 2:0 || 3:0 || 1:1
+|-
+| {{0}}4.||style="text-align:left;"| [[1. FC Köln]] || 1:1 || 1:2 || 1:1 ||style="background:#DCDCDC;"| || 1:1 || 1:1 || 4:0 || 2:3 || 5:0 || 1:1 || 3:0 || 0:0 || 1:1 || 1:1 || 1:0 || 1:1 || 0:0 || 3:1 || 1:1 || 4:1
+|-
+| {{0}}5.||style="text-align:left;"| [[1. FC Kaiserslautern]] || 0:0 || 4:0 || 1:1 || 2:1 ||style="background:#DCDCDC;"| || 2:1 || 3:0 || 3:0 || 2:2 || 4:0 || 1:1 || 0:0 || 4:2 || 4:1 || 1:1 || 3:2 || 4:3 || 3:0 || 2:1 || 2:0
+|-
+| {{0}}6.||style="text-align:left;"| [[Bayer 04 Leverkusen]] || 1:2 || 0:2 || 1:3 || 1:1 || 3:0 ||style="background:#DCDCDC;"| || 0:1 || 2:0 || 0:0 || 2:1 || 2:1 || 1:1 || 1:0 || 4:0 || 2:0 || 6:1 || 3:1 || 3:0 || 2:1 || 1:1
+|-
+| {{0}}7.||style="text-align:left;"| [[1. FC Nürnberg]] || 4:3 || 2:1 || 1:3 || 4:0 || 3:2 || 1:0 ||style="background:#DCDCDC;"| || 1:2 || 1:0 || 1:1 || 0:1 || 1:1 || 2:1 || 1:1 || 1:0 || 3:1 || 2:0 || 0:0 || 1:1 || 3:1
+|-
+| {{0}}8.||style="text-align:left;"| [[Karlsruher SC]] || 0:0 || 2:2 || 0:2 || 0:1 || 2:1 || 0:0 || 1:0 ||style="background:#DCDCDC;"| || 2:1 || 3:0 || 1:0 || 4:1 || 2:0 || 1:0 || 1:1 || 1:2 || 3:1 || 2:1 || 2:2 || 1:5
+|-
+| {{0}}9.||style="text-align:left;"| [[Werder Bremen]] || 1:1 || 0:1 || 1:0 || 1:3 || 0:2 || 1:1 || 1:3 || 0:0 ||style="background:#DCDCDC;"| || 1:1 || 2:1 || 1:1 || 0:0 || 2:0 || 3:0 || 2:2 || 1:3 || 1:0 || 5:1 || 2:1
+|-
+| 10.||style="text-align:left;"| [[FC Bayern München]] || 1:0 || 0:3 || 3:3 || 0:0 || 1:0 || 2:2 || 1:3 || 1:0 || 3:4 ||style="background:#DCDCDC;"| || 3:2 || 2:0 || 3:0 || 1:2 || 0:2 || 5:2 || 1:4 || 1:2 || 4:2 || 3:1
+|-
+| 11.||style="text-align:left;"| [[FC Schalke 04]] || 0:1 || 5:2 || 1:1 || 3:0 || 2:0 || 0:0 || 1:0 || 3:1 || 0:0 || 1:1 ||style="background:#DCDCDC;"| || 0:0 || 3:1 || 1:1 || 2:1 || 1:1 || 1:2 || 5:0 || 3:0 || 0:0
+|-
+| 12.||style="text-align:left;"| [[Hamburger SV]] || 1:1 || 1:1 || 2:1 || 1:1 || 0:1 || 1:1 || 0:2 || 0:1 || 0:1 || 1:0 || 2:1 ||style="background:#DCDCDC;"| || 1:0 || 2:0 || 0:0 || 0:1 || 0:3 || 1:0 || 1:1 || 1:1
+|-
+| 13.||style="text-align:left;"| [[Borussia Mönchengladbach]] || 0:1 || 1:1 || 1:1 || 2:2 || 1:0 || 2:2 || 1:0 || 1:0 || 0:2 || 1:1 || 1:1 || 1:0 ||style="background:#DCDCDC;"| || 1:0 || 1:2 || 1:0 || 2:1 || 1:1 || 0:0 || 3:1
+|-
+| 14.||style="text-align:left;"| [[Dynamo Dresden]] || 1:0 || 0:0 || 2:1 || 0:0 || 0:1 || 1:0 || 1:2 || 2:0 || 2:1 || 0:2 || 2:1 || 3:0 || 1:2 ||style="background:#DCDCDC;"| || 0:0 || 3:0 || 2:2 || 2:1 || 0:0 || 2:0
+|-
+| 15.||style="text-align:left;"| [[VfL Bochum]] || 0:2 || 0:0 || 0:0 || 2:2 || 0:0 || 0:2 || 0:3 || 1:3 || 2:2 || 0:5 || 1:0 || 2:3 || 3:1 || 1:0 ||style="background:#DCDCDC;"| || 1:1 || 2:2 || 3:2 || 2:1 || 3:0
+|-
+| 16.||style="text-align:left;"| [[SG Wattenscheid 09]] || 1:3 || 0:1 || 2:4 || 1:2 || 1:0 || 3:0 || 1:1 || 1:1 || 0:1 || 0:0 || 1:2 || 1:1 || 3:2 || 3:0 || 1:2 ||style="background:#DCDCDC;"| || 4:1 || 0:0 || 2:0 || 4:1
+|-
+| 17.||style="text-align:left;"| [[Stuttgarter Kickers]] || 1:3 || 0:1 || 0:2 || 0:3 || 1:1 || 0:1 || 3:1 || 1:1 || 2:1 || 2:4 || 1:1 || 1:1 || 3:0 || 0:0 || 2:0 || 3:0 ||style="background:#DCDCDC;"| || 1:1 || 0:1 || 0:1
+|-
+| 18.||style="text-align:left;"| [[Hansa Rostock]] || 2:0 || 5:1 || 2:1 || 1:1 || 0:1 || 2:2 || 4:0 || 1:2 || 0:0 || 2:1 || 2:0 || 1:2 || 2:1 || 3:0 || 0:2 || 1:1 || 2:2 ||style="background:#DCDCDC;"| || 0:0 || 3:1
+|-
+| 19.||style="text-align:left;"| [[MSV Duisburg]] || 1:0 || 0:1 || 3:6 || 1:3 || 1:1 || 1:2 || 3:0 || 6:2 || 0:0 || 1:1 || 2:0 || 0:1 || 1:1 || 3:0 || 1:1 || 0:0 || 1:1 || 2:0 ||style="background:#DCDCDC;"| || 2:2
+|-
+| 20.||style="text-align:left;"| [[Fortuna Düsseldorf]] || 0:3 || 1:1 || 1:2 || 1:3 || 1:0 || 1:1 || 1:2 || 2:3 || 0:0 || 0:1 || 1:1 || 1:0 || 1:1 || 1:3 || 3:0 || 4:3 || 1:3 || 0:0 || 1:1 ||style="background:#DCDCDC;"|
+|}
+
+== Torschützenliste ==
+{| class="wikitable" style="width:400px;"
+! !! Spieler!! Verein!! Tore
+|-
+|style="text-align:center;"| '''1.''' || {{DEU|Fritz Walter (Fußballspieler, 1960)|Fritz Walter}}|| [[VfB Stuttgart]]||style="text-align:center;"| 22
+|-
+|style="text-align:center;"| 2. || {{CHE|Ziel=Stéphane Chapuisat}}|| [[Borussia Dortmund]]||style="text-align:center;"| 20
+|-
+|style="text-align:center;"| 3. || {{DEU|Ziel=Roland Wohlfarth}}|| [[FC Bayern München]]||style="text-align:center;"| 17
+|-
+|style="text-align:center;"| 4. || {{GHA|Ziel=Anthony Yeboah}}|| [[Eintracht Frankfurt]]||style="text-align:center;"| 15
+|-
+|style="text-align:center;"| 5. || {{DEU|Ziel=Lothar Sippel}}|| [[Eintracht Frankfurt]]||style="text-align:center;"| 14
+|}
+
+== Die Meistermannschaft VfB Stuttgart ==
+{| class="wikitable" style="width: 700px; text-align: center; background: #FFFFFF;"
+|- style="color:#FF0000; font-weight:bold;"
+|style="width:75px;"| || [[VfB Stuttgart]]
+|-
+| [[Datei:VfB Stuttgart 1893 Logo.svg|60px]]
+|style="text-align:left; background:#E8E8E8;"|
+*'''Tor:''' [[Eike Immel]] (38/-)
+*'''Abwehr:''' [[Guido Buchwald]] {{Kapitän}} (37/5), [[Slobodan Dubajić]] (38/2), [[Michael Frontzeck]] (38/5), [[Nils Schmäler]] (6/-), [[Thomas Schneider (Fußballspieler, 1972)|Thomas Schneider]] (2/-), [[Uwe Schneider (Fußballspieler, 1971)|Uwe Schneider]] (33/-), [[Günther Schäfer (Fußballspieler)|Günther Schäfer]] (28/1), [[Alexander Strehmel]] (25/1)
+*'''Mittelfeld:''' [[Andreas Buck]] (30/1), [[Maurizio Gaudino]] (38/8), [[Marc Kienle]] (10/-), [[Ludwig Kögl]] (16/1), [[Jürgen Kramny]] (10/-), [[Michael Mayer (Fußballspieler)|Michael Mayer]] (1/-), [[Matthias Sammer]] (33/9)
+*'''Angriff:''' [[Manfred Kastl]] (24/2), [[Eyjólfur Sverrisson]] (31/3), [[Fritz Walter (Fußballspieler, 1960)|Fritz Walter]] (38/22)
+*'''Trainer:''' [[Christoph Daum]]
+'''ohne Einsatz''': [[Eberhard Trautner]], [[Siegfried Grüninger]], [[Harald Preuß]], [[Jens Keller]], [[Jovica Simanić]] und [[Olaf Schmäler]]
+|}
+
+== Schiedsrichter ==
+In dieser Saison kamen erstmals Gelb-Rote Karten zum Einsatz.
+
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 10 || 43 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Amerell, Manfred" | [[Manfred Amerell]] || {{DatumZelle|1947-02-25}} || Bayern || 10 || 32 || 3 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Assenmacher, Karl-Josef" | [[Karl-Josef Assenmacher]] || {{DatumZelle|1947-05-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 11 || 38 || 1 || 0 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || Mittelrhein || 9 || 23 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 12 || 33 || 0 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Best, Hans-Peter" | [[Hans-Peter Best]] || {{DatumZelle|1955-03-18}} || [[Württembergischer Fußballverband|Württemberg]] || 10 || 39 || 0 || 5 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Boos, Rainer" | [[Rainer Boos]] || {{DatumZelle|1946-08-16}} || [[Hessischer Fußball-Verband|Hessen]] || 10 || 29 || 5 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 7 || 27 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Dellwing, Hans-Peter" | [[Hans-Peter Dellwing]] || {{DatumZelle|1950-03-15}} || Rheinland || 13 || 40 || 1 || 2 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Fockler, Werner" | [[Werner Föckler]] || {{DatumZelle|1945-06-24}} || [[Südwestdeutscher Fußballverband|Südwest]] || 12 || 44 || 1 || 2 ||FIFA-Schiedsrichter (bis Ende 1991)
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 10 || 33 || 3 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Fuhrer, Manfred" | [[Manfred Führer]] || {{DatumZelle|1950-04-28}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 10 || 37 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Fux, Hans" | [[Hans Fux]] || {{DatumZelle|1946-11-08}} || [[Badischer Fußballverband|Baden]] || 10 || 25 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Glaser, Karl-Heinz" | [[Karl-Heinz Gläser]] || {{DatumZelle|1948-12-03}} || [[Thüringer Fußball-Verband|Thüringen]] || 11 || 43 || 2 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Habermann, Gunther" | [[Günther Habermann]] || {{DatumZelle|1950-02-23}} || Thüringen || 11 || 20 || 0 || 1 ||FIFA-Schiedsrichter (bis Ende 1991)
+|-
+| style="text-align:left" data-sort-value="Harder, Manfred" | [[Manfred Harder (Schiedsrichter)|Manfred Harder]] || {{DatumZelle|1947-05-02}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 10 || 38 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 12 || 35 || 1 || 0 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Kasper, Hans-Jurgen" | [[Hans-Jürgen Kasper]] || {{DatumZelle|1949-01-18}} || Niedersachsen || 10 || 32 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || Westfalen || 11 || 46 || 3 || 1 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Lower, Lothar" | [[Lothar Löwer]] || {{DatumZelle|1951-09-10}} || Westfalen || 10 || 35 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Malbranc, Michael" | [[Michael Malbranc]] || {{DatumZelle|1953-03-11}} || [[Hamburger Fußball-Verband|Hamburg]] || 9 || 34 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || Südwest || 13 || 46 || 2 || 1 ||FIFA-Schiedsrichter (ab 1992)
+|-
+| style="text-align:left" data-sort-value="Mierswa, Wolfgang" | [[Wolfgang Mierswa]] || {{DatumZelle|1947-11-01}} || Niedersachsen || 9 || 42 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Neuner, Manfred" | [[Manfred Neuner]] || {{DatumZelle|1945-11-20}} || Baden || 12 || 28 || 0 || 0 ||FIFA-Schiedsrichter (bis 1991)
+|-
+| style="text-align:left" data-sort-value="Osmers, Hans-Joachim" | [[Hans-Joachim Osmers]] || {{DatumZelle|1948-04-07}} || [[Bremer Fußball-Verband|Bremen]] || 11 || 30 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Prengel, Michael" | [[Michael Prengel]] || {{DatumZelle|1957-08-24}} || [[Fußballverband Niederrhein|Niederrhein]] || 10 || 44 || 3 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Scheuerer, Hans" | [[Hans Scheuerer]] || {{DatumZelle|1949-10-18}} || Bayern || 10 || 39 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Schmidhuber, Aron" | [[Aron Schmidhuber]] || {{DatumZelle|1947-02-28}} || Bayern || 14 || 46 || 1 || 0 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 11 || 23 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Stenzel, Klaus-Dieter" | [[Klaus-Dieter Stenzel]] || {{DatumZelle|1950-06-04}} || [[Fußball-Landesverband Brandenburg|Brandenburg]] || 11 || 31 || 0 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 10 || 3 || 0 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Strigel, Eugen" | [[Eugen Strigel]] || {{DatumZelle|1949-09-24}} || Württemberg || 10 || 26 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Theobald, Gerhard" | [[Gerhard Theobald]] || {{DatumZelle|1949-12-27}} || [[Saarländischer Fußballverband|Saarland]] || 10 || 32 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 8 || 27 || 1 || 2 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Wiesel, Wolf-Gunter" | [[Wolf-Günter Wiesel]] || {{DatumZelle|1947-11-16}} || Niedersachsen || 11 || 30 || 0 || 2 ||FIFA-Schiedsrichter
+|-
+| style="text-align:left" data-sort-value="Ziller, Wieland" | [[Wieland Ziller]] || {{DatumZelle|1952-12-12}} || [[Sächsischer Fußball-Verband|Sachsen]] || 12 || 28 || 1 || 2 ||FIFA-Schiedsrichter
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 380 || 1231 || 40 || 36 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1991-1992/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-24}}</ref>
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 1991/92}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 1991/1992|Fußball-Bundesliga 1991/92}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1991/92 (Deutschland)
+|Navigationsleiste Europa-Fußball 1992
+}}
+
+{{SORTIERUNG:Fussballbundesliga 199192}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1991/92]]
+[[Kategorie:Fußballsaison 1991/92]]

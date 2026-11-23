@@ -1,0 +1,394 @@
+{{Infobox Fußballsaison
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Name = Bundesliga 1984/85
+| Meister = [[FC Bayern München]]
+| Europapokal der Landesmeister = [[FC Bayern München]]
+| UEFA Cup = [[Werder Bremen]]<br />[[1. FC Köln]]<br />[[Borussia Mönchengladbach|Bor. M’gladbach]]<br />[[Hamburger SV]]
+| Pokal-Sieger = [[Bayer 05 Uerdingen]]
+| Europapokal der Pokalsieger = [[Bayer 05 Uerdingen]]
+| Relegation ↓ = [[Arminia Bielefeld]] (0:2 und 1:1 gegen [[1. FC Saarbrücken]])
+| Absteiger = [[Karlsruher SC]]<br />[[Eintracht Braunschweig]]<br />[[Arminia Bielefeld]]
+| Mannschaften = 18
+| Spiele = 306
+| Relegationsspiele = 2
+| geschossene Tore = 1.074
+| Zuschauer = 6.065.779
+| Torschützenkönig = {{DEU|Ziel=Klaus Allofs}} ([[1. FC Köln]])
+| vorherige Saison = [[Fußball-Bundesliga 1983/84|Bundesliga 1983/84]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1985/86|Bundesliga 1985/86]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1984/85|2. Bundesliga 1984/85]]
+}}
+Erster in der '''Saison 1984/85 der deutschen [[Fußball-Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde der [[FC Bayern München]].
+
+== Saisonüberblick ==
+Dem [[FC Bayern München]] gelang in dieser Saison zum dritten Mal ein Start-Ziel-Sieg. Nach dem ersten Spieltag stand die Mannschaft tor- und punktgleich mit [[Borussia Mönchengladbach]] und dem [[1. FC Köln]] an der Tabellenspitze, ab dem zweiten Spieltag waren sie bis zum Saisonende alleiniger Tabellenführer. Nach sechs Siegen in Folge hatten sie bereits vier und nach dem 10. Spieltag sogar fünf Punkte Vorsprung vor Mönchengladbach, bevor dieser Vorsprung bis auf einen Punkt nach dem 14. Spieltag schmolz. In der Folge blieben die Bayern vorne, die Mannschaften auf den folgenden Plätzen wechselten laufend. Am letzten Spieltag standen die Münchner zwei Punkte und zwei Tore vor [[Werder Bremen]]. Während die Bremer das letzte Spiel bei [[Borussia Dortmund]] mit 0:2 verloren, gewann Bayern bei [[Eintracht Braunschweig]] mit 1:0 und sicherte sich damit mit vier Punkten Vorsprung die Meisterschaft.
+
+Das Nachholspiel des 12. Spieltags am 11. Dezember 1984 zwischen Borussia Mönchengladbach und dem FC Bayern München (3:2) im [[Bökelbergstadion]] war die erste Fernseh-Liveübertragung einer Bundesligapartie. Für die übertragende [[Das Erste|ARD]] kommentierte [[Heribert Faßbender]].
+
+== Abschlusstabelle ==
+{| class="float-right" width="305px" cellspacing="0" cellpadding="0" style="font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:0 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:grey     value:rgb(0.86,0.86,0.86)
+  id:lautern  value:rgb(0.8,0.0,0.0)
+  id:stutt    value:rgb(0.51,0.00,0.00)
+  id:koeln    value:rgb(0.68,0.09,0.20)
+  id:biele    value:rgb(0.00,0.05,1)
+  id:uerd     value:rgb(0.68,0.09,0.20)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,0)   color:grey text:Köln/M’gladbach/~Bayern München
+  from:1.5 till:34.5 shift:(25,-5) color:red  text:Bayern München
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:200 height:700
+PlotArea  = left:50 right:10 bottom:40 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:grey    value:rgb(0.86,0.86,0.86)
+  id:ksc     value:rgb(0.00,0.50,1)
+  id:hertha  value:rgb(0.00,0.05,1)
+  id:nuern   value:rgb(0.51,0.00,0.00)
+  id:duessel value:rgb(0.80,0.09,0.20)
+  id:frank   value:rgb(0.68,0.09,0.20)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5 till:1.5 shift:(25,0)      color:grey     text:Bielefeld/Schalke/~Braunschweig
+  from:1.5 till:6.5 shift:(25,-5)     color:orange   text:Eintracht Braunschweig
+  from:6.5 till:7.5 shift:(25,-5)     color:yellow   text:Borussia Dortmund
+  from:7.5 till:10.5 shift:(25,-5)    color:orange   text:Eintracht Braunschweig
+  from:10.5 till:12.5 shift:(25,-5)   color:yellow   text:Borussia Dortmund
+  from:12.5 till:20.5 shift:(25,-5)   color:orange   text:Eintracht Braunschweig
+  from:20.5 till:21.5 shift:(25,-5)   color:ksc      text:Karlsruher SC
+  from:21.5 till:22.5 shift:(25,-5)   color:orange   text:Eintracht Braunschweig
+  from:22.5 till:27.5 shift:(25,-5)   color:ksc      text:Karlsruher SC
+  from:27.5 till:34.5 shift:(25,-5)   color:orange   text:Eintracht Braunschweig
+   </timeline>
+|}
+
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=21 |U= 8 |N= 5 |ET=79 |GT=38 |Siegpunkte=2 |Verein=[[FC Bayern München]] (P) }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=18 |U=10 |N= 6 |ET=87 |GT=51 |Siegpunkte=2 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=18 |U= 4 |N=12 |ET=69 |GT=66 |Siegpunkte=2 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 4 |S=15 |U= 9 |N=10 |ET=77 |GT=53 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 5 |S=14 |U= 9 |N=11 |ET=58 |GT=49 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 6 |S=13 |U=11 |N=10 |ET=47 |GT=50 |Siegpunkte=2 |Verein=[[SV Waldhof Mannheim]] }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang= 7 |S=14 |U= 8 |N=12 |ET=57 |GT=52 |Siegpunkte=2 |Verein=[[Bayer 05 Uerdingen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=13 |U= 8 |N=13 |ET=63 |GT=62 |Siegpunkte=2 |Verein=[[FC Schalke 04]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=12 |U=10 |N=12 |ET=52 |GT=54 |Siegpunkte=2 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=14 |U= 5 |N=15 |ET=79 |GT=59 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S=11 |U=11 |N=12 |ET=56 |GT=60 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=10 |U=12 |N=12 |ET=62 |GT=67 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] (R) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S= 9 |U=13 |N=12 |ET=52 |GT=54 |Siegpunkte=2 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=13 |U= 4 |N=17 |ET=51 |GT=65 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S=10 |U= 9 |N=15 |ET=53 |GT=66 |Siegpunkte=2 |Verein=[[Fortuna Düsseldorf]] }}
+{{Fußballtabelle/Zeile|Farbe=d8bfd8 |Rang=16 |S= 8 |U=13 |N=13 |ET=46 |GT=61 |Siegpunkte=2 |Verein=[[Arminia Bielefeld]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 5 |U=12 |N=17 |ET=47 |GT=88 |Siegpunkte=2 |Verein=[[Karlsruher SC]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 9 |U= 2 |N=23 |ET=39 |GT=79 |Siegpunkte=2 |Verein=[[Eintracht Braunschweig]] }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme am [[Europapokal der Landesmeister 1985/86]]: FC Bayern München}}
+{{Farblegende|#fffacd|DFB-Pokal-Sieger und Teilnahme am [[Europapokal der Pokalsieger 1985/86]]: FC Bayer 05 Uerdingen}}
+{{Farblegende|#ccccff|Teilnahme am [[UEFA-Pokal 1985/86]]: SV Werder Bremen, 1. FC Köln, Borussia Mönchengladbach, Hamburger SV}}
+{{Farblegende|#d8bfd8|Teilnahme an der [[#Relegation|Relegation]]: DSC Arminia Bielefeld}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1985/86|2. Bundesliga 1985/86]]: Eintracht Braunschweig, Karlsruher SC, DSC Arminia Bielefeld}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1983/84|1983/84]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1983/84|1983/84]]
+|-
+| (R) || Sieger der [[Fußball-Bundesliga 1983/84#Relegation|Relegation 1983/84]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1983/84|1983/84]]
+|}
+
+== Relegation ==
+In der Relegation spielten der Tabellensechzehnte der Bundesliga und der Tabellendritte der 2. Bundesliga um den letzten freien Platz für die nächste Saison der Bundesliga.
+{{OneLegStart|Datum=1}}
+{{OneLegResult|6=13. Juni 1985|'''1. FC Saarbrücken'''|4=Arminia Bielefeld|3=2:0}}
+{{OneLegResult|6=17. Juni 1985|Arminia Bielefeld|4=1. FC Saarbrücken|3=1:1}}
+{{OneLegResult|6=Gesamt|'''1. FC Saarbrücken'''|4=Arminia Bielefeld|3=3:1}}
+|-
+| colspan="4" | Dritter Absteiger in die 2. Bundesliga: DSC Arminia Bielefeld
+|-
+| colspan="4" | Dritter Aufsteiger in die 1. Bundesliga: [[1. FC Saarbrücken]]
+|}
+
+Statistiken zu diesen beiden Spielen sind unter [[2. Fußball-Bundesliga 1984/85|2. Bundesliga 1984/85]] einzusehen.
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+| colspan="2" width="200" | '''1984/1985'''
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|22x22px|FC Bayern München]]
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:Logo Köln 1967-1973.svg|22px|1. FC Köln]]
+| [[Datei:Gladbach gruen.svg|25px|Borussia Mönchengladbach]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:SV Waldhof Mannheim 15.09.1978 - 2003.gif|20px|SV Waldhof Mannheim]]
+| [[Datei:Uerdingen alt.svg|22px|FC Bayer 05 Uerdingen]]
+| [[Datei:Logo Schalke 1978 - 1995.gif|22px|FC Schalke 04]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:Logo TSV Bayer Leverkusen (1984-1990).svg|22x22px|Bayer 04 Leverkusen]]
+| [[Datei:Logo Borussia Dortmund (1974-1976).gif|22px|Borussia Dortmund]]
+| [[Datei:Logo Fortuna Düsseldorf 1979 - 1988.gif|22px|Fortuna Düsseldorf]]
+| [[Datei:Arminia Bielefeld Logo 1975–2000.svg|22px|Arminia Bielefeld]]
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+| [[Datei:Eintracht Braunschweig (1972-1986).gif|22px|Eintracht Braunschweig]]
+|-
+| {{0}}1.|| align="left" | [[FC Bayern München]] || bgcolor="#DCDCDC" | || 4:2 || 2:0 || 4:0 || 1:1 || 1:2 || 2:1 || 3:0 || 2:2 || 3:2 || 3:0 || 4:2 || 2:1 || 1:0 || 6:0 || 3:3 || 6:2 || 3:0
+|-
+| {{0}}2.|| align="left" | [[Werder Bremen]] || 4:2 || bgcolor="#DCDCDC" | || 6:2 || 2:0 || 5:2 || 1:1 || 1:0 || 2:1 || 2:2 || 3:1 || 6:1 || 3:3 || 2:2 || 6:0 || 2:1 || 2:1 || 7:1 || 4:1
+|-
+| {{0}}3.|| align="left" | [[1. FC Köln]] || 0:2 || 3:2 || bgcolor="#DCDCDC" | || 1:5 || 2:1 || 0:0 || 1:5 || 4:1 || 2:1 || 1:1 || 2:0 || 2:0 || 3:1 || 6:1 || 4:2 || 1:1 || 3:4 || 1:0
+|-
+| {{0}}4.|| align="left" | [[Borussia Mönchengladbach]] || 3:2 || 1:1 || 2:3 || bgcolor="#DCDCDC" | || 0:1 || 3:0 || 0:0 || 3:1 || 4:3 || 2:1 || 7:0 || 3:3 || 1:1 || 1:1 || 0:2 || 2:0 || 3:3 || 10:0
+|-
+| {{0}}5.|| align="left" | [[Hamburger SV]] || 2:1 || 2:0 || 3:1 || 1:1 || bgcolor="#DCDCDC" | || 5:2 || 1:1 || 2:0 || 3:1 || 3:1 || 3:2 || 2:0 || 1:1 || 4:2 || 1:2 || 4:0 || 0:0 || 5:0
+|-
+| {{0}}6.|| align="left" | [[SV Waldhof Mannheim]] || 0:0 || 1:1 || 1:2 || 1:3 || 3:1 || bgcolor="#DCDCDC" | || 2:1 || 5:2 || 2:0 || 1:1 || 1:1 || 3:1 || 2:1 || 1:2 || 2:1 || 0:0 || 3:0 || 2:0
+|-
+| {{0}}7.|| align="left" | [[Bayer 05 Uerdingen]] || 1:3 || 3:1 || 2:1 || 3:2 || 2:1 || 2:2 || bgcolor="#DCDCDC" | || 1:1 || 3:1 || 3:2 || 3:0 || 1:1 || 2:1 || 2:1 || 5:2 || 1:0 || 3:0 || 1:2
+|-
+| {{0}}8.|| align="left" | [[FC Schalke 04]] || 1:1 || 2:2 || 2:3 || 4:1 || 3:0 || 4:0 || 2:0 || bgcolor="#DCDCDC" | || 2:3 || 4:3 || 1:1 || 1:3 || 4:2 || 3:1 || 1:0 || 3:0 || 3:1 || 3:2
+|-
+| {{0}}9.|| align="left" | [[VfL Bochum]] || 1:1 || 1:3 || 1:3 || 0:2 || 0:0 || 0:1 || 1:0 || 0:1 || bgcolor="#DCDCDC" | || 2:1 || 3:0 || 3:3 || 0:0 || 4:1 || 1:0 || 1:1 || 5:2 || 1:0
+|-
+| 10.|| align="left" | [[VfB Stuttgart]] || 1:3 || 1:3 || 3:1 || 2:3 || 1:1 || 3:0 || 5:2 || 1:0 || 1:2 || bgcolor="#DCDCDC" | || 5:0 || 4:2 || 4:1 || 2:0 || 5:2 || 2:0 || 5:0 || 6:1
+|-
+| 11.|| align="left" | [[1. FC Kaiserslautern]] || 0:1 || 2:2 || 6:0 || 2:0 || 1:1 || 1:1 || 6:1 || 2:2 || 5:2 || 2:1 || bgcolor="#DCDCDC" | || 2:1 || 3:3 || 5:0 || 3:1 || 1:1 || 3:1 || 1:0
+|-
+| 12.|| align="left" | [[Eintracht Frankfurt]] || 2:2 || 1:3 || 1:4 || 1:1 || 1:0 || 7:2 || 3:2 || 1:1 || 1:1 || 2:0 || 1:1 || bgcolor="#DCDCDC" | || 2:0 || 2:1 || 2:2 || 3:0 || 4:2 || 2:0
+|-
+| 13.|| align="left" | [[Bayer 04 Leverkusen]] || 3:0 || 0:0 || 4:4 || 3:2 || 2:0 || 2:1 || 0:0 || 2:2 || 1:1 || 0:2 || 3:0 || 3:1 || bgcolor="#DCDCDC" | || 0:1 || 4:3 || 1:1 || 4:1 || 0:3
+|-
+| 14.|| align="left" | [[Borussia Dortmund]] || 1:1 || 2:0 || 2:0 || 2:3 || 1:2 || 0:0 || 4:0 || 4:1 || 3:0 || 4:1 || 0:3 || 2:1 || 2:1 || bgcolor="#DCDCDC" | || 1:2 || 1:3 || 0:2 || 3:1
+|-
+| 15.|| align="left" | [[Fortuna Düsseldorf]] || 0:2 || 3:2 || 1:2 || 2:1 || 4:2 || 1:1 || 2:2 || 1:2 || 0:2 || 2:2 || 1:0 || 3:1 || 3:2 || 0:0 || bgcolor="#DCDCDC" | || 1:1 || 2:2 || 4:1
+|-
+| 16.|| align="left" | [[Arminia Bielefeld]] || 1:3 || 3:4 || 1:0 || 3:3 || 4:1 || 0:1 || 1:0 || 2:1 || 2:3 || 2:7 || 1:1 || 2:2 || 1:1 || 3:0 || 1:1 || bgcolor="#DCDCDC" | || 4:1 || 3:2
+|-
+| 17.|| align="left" | [[Karlsruher SC]] || 0:4 || 1:1 || 1:4 || 0:1 || 1:1 || 3:2 || 0:4 || 2:2 || 1:1 || 1:1 || 0:0 || 2:2 || 0:0 || 2:4 || 2:2 || 4:0 || bgcolor="#DCDCDC" | || 4:1
+|-
+| 18.|| align="left" | [[Eintracht Braunschweig]] || 0:1 || 0:2 || 1:3 || 0:4 || 3:1 || 0:1 || 0:0 || 4:2 || 1:3 || 3:1 || 2:1 || 5:0 || 0:2 || 2:4 || 1:0 || 0:0 || 3:1 || bgcolor="#DCDCDC" |
+|}
+
+== Torschützenliste ==
+{| class="wikitable" width="500"
+! !! Spieler!! Verein!! Tore
+|-
+| align="center" | 1.|| {{DEU-1949|Ziel=Klaus Allofs}}|| 1. FC Köln|| align="center" | 26
+|-
+| align="center" | 2.|| {{DEU-1949|Ziel=Rudi Völler}}|| SV Werder Bremen|| align="center" | 25
+|-
+| rowspan="2" align="center" | 3.|| {{DEU-1949|Ziel=Karl Allgöwer}}|| VfB Stuttgart|| rowspan="2" align="center" | 19
+|-
+| {{DEU-1949|Ziel=Thomas Allofs}}|| 1. FC Kaiserslautern
+|-
+| rowspan="2" align="center" | 5.|| {{DEU-1949|Ziel=Siegfried Reich}}|| Arminia Bielefeld|| rowspan="2" align="center" | 18
+|-
+| {{DEU-1949|Ziel=Klaus Täuber}}|| FC Schalke 04
+|}
+
+== Zuschauer ==
+In 306 Spielen kamen 6.065.779 Zuschauer (<math>\varnothing</math> 19.823 pro Spiel) in die Stadien.
+
+;Größte Zuschauerkulisse
+:75.000 FC Bayern München – Borussia Mönchengladbach ''(29. Spieltag)''
+
+;Niedrigste Zuschauerkulisse
+:5.000 TSV Bayer 04 Leverkusen – 1. FC Kaiserslautern ''(26. Spieltag)''
+
+{| class="wikitable sortable" style=" width:65.5%; text-align: center;"
+|- class="hintergrundfarbe5"
+! width="17.5%" | Verein || width="8.5%"| Gesamt || width="7.5%" | <math>\varnothing</math> || width="8.5%"| Heim || width="7.5%" | <math>\varnothing</math> || width="8.5%"| Auswärts || width="7.5%" | <math>\varnothing</math>
+|-
+| align="left" | FC Bayern München || 1.242.089 || 36.532 || 557.000 || 32.765 || 685.089 || 40.299
+|-
+| align="left" | SV Werder Bremen || {{0}}768.550 || 22.604 || 373.300 || 21.959 || 395.250 || 23.250
+|-
+| align="left" | 1. FC Köln || {{0}}732.098 || 21.532 || 307.000 || 18.059 || 425.098 || 25.006
+|-
+| align="left" | Borussia Mönchengladbach || {{0}}830.365 || 24.423 || 318.565 || 18.739 || 511.800 || 30.106
+|-
+| align="left" | Hamburger SV || {{0}}828.607 || 24.371 || 373.218 || 21.954 || 455.389 || 26.788
+|-
+| align="left" | SV Waldhof Mannheim || {{0}}651.746 || 19.169 || 328.500 || 19.324 || 323.246 || 19.014
+|-
+| align="left" | FC Bayer 05 Uerdingen || {{0}}510.395 || 15.012 || 243.000 || 14.294 || 267.395 || 15.729
+|-
+| align="left" | FC Schalke 04 || {{0}}861.756 || 25.346 || 480.300 || 28.253 || 381.456 || 22.439
+|-
+| align="left" | VfL Bochum || {{0}}671.387 || 19.747 || 391.000 || 23.000 || 280.387 || 16.493
+|-
+| align="left" | VfB Stuttgart || {{0}}697.700 || 20.521 || 389.300 || 22.900 || 308.400 || 18.141
+|-
+| align="left" | 1. FC Kaiserslautern || {{0}}593.163 || 17.446 || 289.513 || 17.030 || 303.650 || 17.862
+|-
+| align="left" | Eintracht Frankfurt || {{0}}681.706 || 20.050 || 402.500 || 23.676 || 279.206 || 16.424
+|-
+| align="left" | TSV Bayer 04 Leverkusen || {{0}}417.870 || 12.290 || 164.200 || {{0}}9.659 || 253.670 || 14.922
+|-
+| align="left" | Borussia Dortmund || {{0}}712.874 || 20.967 || 442.500 || 26.029 || 270.374 || 15.904
+|-
+| align="left" | Fortuna Düsseldorf || {{0}}444.488 || 13.073 || 212.500 || 12.500 || 231.988 || 13.646
+|-
+| align="left" | DSC Arminia Bielefeld || {{0}}470.110 || 13.827 || 241.500 || 14.206 || 228.610 || 13.448
+|-
+| align="left" | Karlsruher SC || {{0}}541.371 || 15.923 || 316.500 || 18.618 || 224.871 || 13.228
+|-
+| align="left" | Eintracht Braunschweig || {{0}}475.283 || 13.979 || 235.383 || 13.846 || 239.900 || 14.112
+|}
+
+== Die Meistermannschaft FC Bayern München ==
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#FF0000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''FC Bayern München''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:Logo Bayern Munchen(1954-1996).svg|60x60px]]|| bgcolor="#E8E8E8" align="left" - |
+*'''Tor''': [[Raimond Aumann]] (20/-); [[Jean-Marie Pfaff]] (14/-)
+*'''Abwehr''': [[Norbert Eder]] (34/2); [[Klaus Augenthaler]] {{Kapitän}} (32/5); [[Wolfgang Dremmler]] (29/1); [[Hans Pflügler]] (17/2); [[Bertram Beierlorzer]] (12/-); [[Bernd Martin (Fußballspieler)|Bernd Martin]] (8/-)
+*'''Mittelfeld''': [[Lothar Matthäus]] (33/16); [[Holger Willmer]] (29/3); [[Søren Lerby]] (28/11); [[Norbert Nachtweih]] (25/3); [[Bernd Dürnberger]] (20/2); [[Wolfgang Grobe]] (3/1)
+*'''Angriff''': [[Roland Wohlfarth]] (32/12); [[Ludwig Kögl]] (27/1); [[Reinhold Mathy]] (24/7); [[Michael Rummenigge]] (24/5); [[Dieter Hoeneß]] (20/7)
+*'''ohne Einsatz ''': Ludwig Trifellner, [[Manfred Schwabl]], [[Karl Del’Haye]], [[Michael Hertwig]], [[Reiner Maurer]], Achim Förster, [[Stefan Dinauer]], [[Hans-Werner Grünwald]], [[Uğur Tütüneker]]
+*'''Trainer''': [[Udo Lattek]]
+----
+''Vereinswechsel während der Saison'':<br /> ''Abgänge'': [[Michael Hertwig|Hertwig]] (Karlsruher SC), [[Reiner Maurer|Maurer]] (VfB Stuttgart), [[Stefan Dinauer|Dinauer]] (Blau-Weiß 90 Berlin)
+|}
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Ahlenfelder, Wolf-Dieter" | [[Wolf-Dieter Ahlenfelder]] || {{DatumZelle|1944-02-11}} || [[Fußballverband Niederrhein|Niederrhein]] || 10 || 13 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Assenmacher, Karl-Josef" | [[Karl-Josef Assenmacher]] || {{DatumZelle|1947-05-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 10 || 20 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Barnick, Hans-Heinrich" | [[Hans-Heinrich Barnick]] || {{DatumZelle|1943-02-06}} || [[Schleswig-Holsteinischer Fußballverband|Schleswig-Holstein]] || 9 || 27 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Brehm, Siegfried" | [[Siegfried Brehm]] || {{DatumZelle|1947-02-03}} || [[Bayerischer Fußball-Verband|Bayern]] || 8 || 16 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Bruch, Horst-Peter" | [[Horst-Peter Bruch]] || {{DatumZelle|1946-11-22}} || [[Saarländischer Fußballverband|Saarland]] || 1 || 1 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Bruckner, Norbert" | [[Norbert Brückner]] || {{DatumZelle|1947-01-08}} || [[Hessischer Fußball-Verband|Hessen]] || 9 || 27 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Correll, Peter" | [[Peter Correll]] || {{DatumZelle|1944-11-09}} || [[Württembergischer Fußballverband|Württemberg]] || 8 || 14 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Dellwing, Hans-Peter" | [[Hans-Peter Dellwing]] || {{DatumZelle|1950-03-15}} || [[Fußballverband Rheinland|Rheinland]] || 9 || 17 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Ermer, Adolf" | [[Adolf Ermer]] || {{DatumZelle|1939-06-17}} || Bayern || 8 || 11 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Fockler, Werner" | [[Werner Föckler]] || {{DatumZelle|1945-06-24}} || [[Südwestdeutscher Fußballverband|Südwest]] || 10 || 33 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Gabor, Peter" | [[Peter Gabor]] || {{DatumZelle|1940-04-19}} || [[Berliner Fußball-Verband|Berlin]] || 9 || 28 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Heitmann, Wilfried" | [[Wilfried Heitmann]] || {{DatumZelle|1943-10-04}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 8 || 22 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Hontheim, Franz-Josef" | [[Franz-Josef Hontheim]] || {{DatumZelle|1938-08-13}} || Rheinland || 10 || 38 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Horeis, Udo" | [[Udo Horeis]] || {{DatumZelle|1944-08-27}} || Hamburg || 9 || 27 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Jupe, Rainer" | [[Rainer Jupe]] || {{DatumZelle|1941-09-11}} || Hessen || 8 || 10 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Kautschor, Joachim" | [[Joachim Kautschor]] || {{DatumZelle|1941-09-06}} || Mittelrhein || 8 || 22 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Matheis, Anton" | [[Anton Matheis]] || {{DatumZelle|1947-07-15}} || Südwest || 8 || 16 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Neuner, Manfred" | [[Manfred Neuner]] || {{DatumZelle|1945-11-20}} || [[Badischer Fußballverband|Baden]] || 9 || 15 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Niebergall, Dieter" | [[Dieter Niebergall]] || {{DatumZelle|1950-07-22}} || Südwest || 9 || 31 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Osmers, Hans-Joachim" | [[Hans-Joachim Osmers]] || {{DatumZelle|1948-04-07}} || [[Bremer Fußball-Verband|Bremen]] || 8 || 23 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Pauly, Dieter" | [[Dieter Pauly]] || {{DatumZelle|1942-02-14}} || Niederrhein || 10 || 16 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Peduzzi, Renzo" | [[Renzo Peduzzi]] || {{DatumZelle|1941-06-02}} || {{CHE|Schweizerischer Fussballverband}} || 1 || 0 || 0 || Austauschschiedsrichter
+|-
+| style="text-align:left" data-sort-value="Retzmann, Friedrich" | [[Friedrich Retzmann]] || {{DatumZelle|1945-08-10}} || Schleswig-Holstein || 1 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Risse, Günter" | [[Günter Risse]] || {{DatumZelle|1936-09-18}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 2 || 8 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Roth, Volker" | [[Volker Roth]] || {{DatumZelle|1942-02-01}} || Niedersachsen || 10 || 19 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Rothlisberger, Kurt" | [[Kurt Röthlisberger]] || {{DatumZelle|1951-05-21}} || {{CHE|#}} Schweiz || 2 || 2 || 0 || Austauschschiedsrichter
+|-
+| style="text-align:left" data-sort-value="Scheuerer, Hans" | [[Hans Scheuerer]] || {{DatumZelle|1949-10-18}} || Bayern || 9 || 21 || 2 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Schlup, Manfred" | [[Manfred Schlup]] || {{DatumZelle|1946-03-07}} || {{CHE|#}} Schweiz || 1 || 2 || 0 || Austauschschiedsrichter
+|-
+| style="text-align:left" data-sort-value="Schmidhuber, Aron" | [[Aron Schmidhuber]] || {{DatumZelle|1947-02-28}} || Bayern || 10 || 24 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Schutte, Werner" | [[Werner Schütte]] || {{DatumZelle|1939-12-17}} || Westfalen || 7 || 17 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Theobald, Gerhard" | [[Gerhard Theobald]] || {{DatumZelle|1949-12-27}} || Saarland || 8 || 11 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Tritschler, Karl-Heinz" | [[Karl-Heinz Tritschler]] || {{DatumZelle|1949-09-16}} || [[Südbadischer Fußballverband|Südbaden]] || 10 || 23 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Uhlig, Manfred" | [[Manfred Uhlig (Schiedsrichter)|Manfred Uhlig]] || {{DatumZelle|1940-03-20}} || Westfalen || 7 || 23 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Umbach, Wolf-Rudiger" | [[Wolf-Rüdiger Umbach]] || {{DatumZelle|1945-08-07}} || Niedersachsen || 10 || 26 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Wahmann, Hans" | [[Hans Wahmann]] || {{DatumZelle|1939-06-27}} || Westfalen || 8 || 18 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Walz, Robert" | [[Robert Walz]] || {{DatumZelle|1942-02-27}} || Württemberg || 5 || 10 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Walz, Winfried" | [[Winfried Walz]] || {{DatumZelle|1942-02-27}} || Württemberg || 2 || 9 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 1 || 4 || 0 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Werner, Heinz" | [[Heinz Werner (Schiedsrichter)|Heinz Werner]] || {{DatumZelle|1946-08-08}} || Saarland || 8 || 19 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Wiesel, Wolf-Gunter" | [[Wolf-Günter Wiesel]] || {{DatumZelle|1947-11-16}} || Niedersachsen || 9 || 18 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Wuttke, Rudiger" | [[Rüdiger Wuttke]] || {{DatumZelle|1939-08-15}} || Niederrhein || 9 || 19 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Zimmermann, Gerd" | [[Gerd Zimmermann (Schiedsrichter)|Gerd Zimmermann]] || {{DatumZelle|1951-04-22}} || Schleswig-Holstein || 8 || 27 || 0 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 729 || 19 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="7" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1984-1985/1/ | titel=Schiedsrichter | werk=weltfussball.de | zugriff=2018-05-23}}</ref>
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 1984/85}}
+
+== Quellen ==
+[[Kicker-Sportmagazin]]: ''Jahrgänge 1984 und 1985'', [[Olympia-Verlag]] GmbH, [[ISSN]]
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1984/85 (Deutschland)
+|Navigationsleiste Europa-Fußball 1985
+}}
+
+{{SORTIERUNG:FussballBundesliga 198485}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1984 85]]
+[[Kategorie:Fußballsaison 1984/85]]

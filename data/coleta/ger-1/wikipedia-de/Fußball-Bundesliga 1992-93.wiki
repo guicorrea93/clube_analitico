@@ -1,0 +1,322 @@
+{{Infobox Fußballsaison
+| Name = Bundesliga 1992/93
+| Bild = [[Datei:DFB-Logo 1945.svg|alt=Abgebildet ist das Logo des DFB ab 1945. Es ist schlicht gehalten und besteht aus den Buchstaben "DFB". Die Schrift ist geometrisch im rechten Winkel bzw. in Dreiecken. Die Farbe der Buchstaben ist grün.|150px|Logo des DFB 1945–1995]]
+| Meister = [[Werder Bremen]]
+| UEFA Champions League = [[Werder Bremen]]
+| UEFA Cup = [[FC Bayern München]]<br />[[Eintracht Frankfurt]]<br />[[Borussia Dortmund]]<br />[[Karlsruher SC]]
+| Pokal-Sieger = [[Bayer 04 Leverkusen]]
+| Europapokal der Pokalsieger = [[Bayer 04 Leverkusen]]
+| Absteiger = [[VfL Bochum]]<br />[[Bayer 05 Uerdingen]]<br />[[1. FC Saarbrücken]]
+| Mannschaften = 18
+| Spiele = 306
+| geschossene Tore = 893
+| Zuschauer = 8.018.855
+| Torschützenkönig = {{DEU|Ziel=Ulf Kirsten}}<br />([[Bayer 04 Leverkusen]]) /<br />{{GHA|Ziel=Anthony Yeboah}}<br />([[Eintracht Frankfurt]])
+| vorherige Saison = [[Fußball-Bundesliga 1991/92|Bundesliga 1991/92]]
+| nachfolgende Saison = [[Fußball-Bundesliga 1993/94|Bundesliga 1993/94]]
+| nachgeordnete Liga = [[2. Fußball-Bundesliga 1992/93|2. Bundesliga 1992/93]]
+}}
+
+{| class="float-right" cellspacing="0" cellpadding="0" style="width:280px; font-size:100%"
+|-
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenführer'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+Colors =
+  id:werder value:rgb(0.11,0.56,0.36)
+  id:grew   value:rgb(0.86,0.86,0.86)
+  id:Pauli  value:rgb(0.6,0.3,0.1)
+  id:Bayer  value:rgb(0.8,0.3,0.3)
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+
+  from:0.5  till:32.5 shift:(25,-5)  color:red    text:Bayern München
+  from:32.5 till:34.5 shift:(25,-5)  color:werder  text:Werder Bremen
+
+</timeline>
+| style="width:49%; vertical-align:top; word-break:break-all; word-wrap:break-word; text-align:center" | '''Tabellenletzter'''
+<timeline>
+ImageSize = width:180 height:700#> hier bis auf 700 erhöhen (34. Spieltag), Empfehlung: (Spieltag + 4) x 20, maximal 700 <#
+PlotArea  = left:40 right:0 bottom:20 top:10
+
+Colors =
+  id:b05 value:rgb(0,0.50,1)
+  id:vfl value:rgb(0,0.05,1)
+  id:saar value:rgb(0.68,0.09,0.24)
+
+DateFormat = x.y
+Period     = from:0.5 till:34.5
+TimeAxis   = orientation:vertical
+ScaleMajor = unit:year increment:1 start:1
+
+PlotData=
+  bar:Leaders width:25 mark:(line,white) align:left fontsize:S
+     from:0.5   till:1.5  shift:(20,-5)   color:b05     text:Bayer Uerdingen
+     from:1.5   till:10.5  shift:(20,-5)  color:red      text:1. FC Köln
+     from:10.5  till:20.5  shift:(20,-5)  color:vfl  text:VfL Bochum
+     from:20.5  till:24.5  shift:(20,-5)  color:b05     text:Bayer 05 Uerdingen
+     from:24.5  till:26.5  shift:(20,-5)  color:vfl  text:VfL Bochum
+     from:26.5  till:32.5 shift:(20,-5)   color:b05     text:Bayer 05 Uerdingen
+     from:32.5  till:34.5 shift:(20,-5)   color:saar   text:1. FC Saarbrücken
+</timeline>
+|}
+
+Erster in der '''Saison 1992/93 der deutschen [[Fußball-Bundesliga|Bundesliga]]''' und somit [[Deutsche Fußballmeisterschaft|Deutscher Meister]] der Männer wurde [[Werder Bremen]].
+
+Am letzten Spieltag der Hinrunde warben alle 18 Klubs mit dem Slogan „[[Mein Freund ist Ausländer]]“ statt des üblichen Sponsorschriftzugs auf der Trikotbrust. Damit setzte der DFB ein Zeichen gegen die [[Ausschreitungen in Rostock-Lichtenhagen]] im August 1992.
+
+== Saisonüberblick ==
+
+=== Meisterschaft und internationale Plätze ===
+In der Fußball-Bundesliga Saison 1992/93 wurde [[Werder Bremen]] unter [[Otto Rehhagel]] mit einem Punkt Vorsprung vor dem [[FC Bayern München]] [[Deutsche Fußballmeisterschaft|Deutscher Meister]]. Am elften Spieltag gewann Werder, das bis dahin einige Punktverluste zu verzeichnen hatte, mit 3:1 bei den Bayern in München. Das Rückspiel am 28. Spieltag gewann Werder ebenfalls mit 4:1, womit die Bremer nach Punkten mit den Bayern gleichzogen. Am 33. Spieltag bezwangen sie den [[Hamburger SV]] mit 5:0 und übernahmen aufgrund der besseren Tordifferenz die Tabellenführung vor den Bayern, die seit dem ersten Spieltag ununterbrochen an der Tabellenspitze gelegen hatten. Am letzten Spieltag kam der FC Bayern nur zu einem 3:3 gegen den [[FC Schalke 04]]. Werder Bremen gewann dagegen durch Tore von [[Thomas Wolter]] und zweimal [[Bernd Hobsch]] mit 3:0 beim [[VfB Stuttgart]] und wurde damit zum dritten Mal nach 1965 und 1988 Deutscher Meister.
+
+Für Experten unerwartet war der sechste Platz des [[Karlsruher SC]], der sich für den [[UEFA-Pokal]] qualifizierte. Dort kam man in der folgenden Saison bis ins Halbfinale. Es war der Beginn der Epoche der Badener unter Trainer [[Winfried Schäfer]], die bis 1997 anhielt.
+
+=== Abstieg ===
+Die beiden Aufsteiger mussten nach einer Saison direkt wieder in die 2. Bundesliga zurückkehren. Bayer 05 Uerdingen stand seit Ende der Hinrunde auf einem Abstiegsplatz und war nach dem 33. Spieltag nicht mehr zu retten. Auch der 1. FC Saarbrücken stieg an diesem Spieltag ab. Die Saarländer hatten ihren letzten Sieg am 18. Spieltag gefeiert, dann sieben Mal in Folge unentschieden gespielt (womit sie einen Bundesligarekord einstellten) und die letzten neun Spiele allesamt verloren. Der VfL Bochum stand seit dem 9. Spieltag auf einem Abstiegsplatz, konnte sich am letzten Spieltag aber noch Hoffnungen machen. Der 3:1-Sieg gegen die [[SG Wattenscheid 09]] nützte Bochum allerdings nichts mehr, weil der letzte verbliebene Konkurrent [[1. FC Nürnberg]] ebenfalls siegte.
+
+== Abschlusstabelle ==
+[[Datei:Fussball-Bundesliga Deutschland 1992-93.png|mini|360px|Teilnehmende Vereine im Überblick]]
+{{Fußballtabelle/Kopf|nosort=1}}
+{{Fußballtabelle/Zeile|Farbe=ccffcc |Rang= 1 |S=19 |U=10 |N= 5 |ET=63 |GT=30 |Siegpunkte=2 |Verein=[[Werder Bremen]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 2 |S=18 |U=11 |N= 5 |ET=74 |GT=45 |Siegpunkte=2 |Verein=[[FC Bayern München]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 3 |S=15 |U=12 |N= 7 |ET=56 |GT=39 |Siegpunkte=2 |Verein=[[Eintracht Frankfurt]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 4 |S=18 |U= 5 |N=11 |ET=61 |GT=43 |Siegpunkte=2 |Verein=[[Borussia Dortmund]] }}
+{{Fußballtabelle/Zeile|Farbe=fffacd |Rang= 5 |S=14 |U=12 |N= 8 |ET=64 |GT=45 |Siegpunkte=2 |Verein=[[Bayer 04 Leverkusen]] }}
+{{Fußballtabelle/Zeile|Farbe=ccccff |Rang= 6 |S=14 |U=11 |N= 9 |ET=60 |GT=54 |Siegpunkte=2 |Verein=[[Karlsruher SC]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 7 |S=12 |U=12 |N=10 |ET=56 |GT=50 |Siegpunkte=2 |Verein=[[VfB Stuttgart]] (M) }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 8 |S=13 |U= 9 |N=12 |ET=50 |GT=40 |Siegpunkte=2 |Verein=[[1. FC Kaiserslautern]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang= 9 |S=13 |U= 9 |N=12 |ET=59 |GT=59 |Siegpunkte=2 |Verein=[[Borussia Mönchengladbach]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=10 |S=11 |U=12 |N=11 |ET=42 |GT=43 |Siegpunkte=2 |Verein=[[FC Schalke 04]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=11 |S= 8 |U=15 |N=11 |ET=42 |GT=44 |Siegpunkte=2 |Verein=[[Hamburger SV]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=12 |S=12 |U= 4 |N=18 |ET=41 |GT=51 |Siegpunkte=2 |Verein=[[1. FC Köln]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=13 |S=10 |U= 8 |N=16 |ET=30 |GT=47 |Siegpunkte=2 |Verein=[[1. FC Nürnberg]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=14 |S=10 |U= 8 |N=16 |ET=46 |GT=67 |Siegpunkte=2 |Verein=[[SG Wattenscheid 09]] }}
+{{Fußballtabelle/Zeile|Farbe=ffffff |Rang=15 |S= 7 |U=13 |N=14 |ET=32 |GT=49 |Siegpunkte=2 |Verein=[[Dynamo Dresden]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=16 |S= 8 |U=10 |N=16 |ET=45 |GT=52 |Siegpunkte=2 |Verein=[[VfL Bochum]] }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=17 |S= 7 |U=10 |N=17 |ET=35 |GT=64 |Siegpunkte=2 |Verein=[[Bayer 05 Uerdingen]] (N) }}
+{{Fußballtabelle/Zeile|Farbe=ffcccc |Rang=18 |S= 5 |U=13 |N=16 |ET=37 |GT=71 |Siegpunkte=2 |Verein=[[1. FC Saarbrücken]] (N) }}
+{{Fußballtabelle/Ende}}
+{{Farblegende|#ccffcc|Deutscher Meister und Teilnahme an der [[UEFA Champions League 1993/94]]: Werder Bremen}}
+{{Farblegende|#fffacd|DFB-Pokal-Sieger und Teilnahme am [[Europapokal der Pokalsieger 1993/94]]: Bayer 04 Leverkusen}}
+{{Farblegende|#ccccff|Teilnahme am [[UEFA-Pokal 1993/94]]: FC Bayern München, Eintracht Frankfurt, Borussia Dortmund, Karlsruher SC}}
+{{Farblegende|#ffcccc|Abstieg in die [[2. Fußball-Bundesliga 1993/94|2. Bundesliga 1993/94]]: 1. FC Saarbrücken, Bayer 05 Uerdingen, VfL Bochum}}
+{|
+| (M) || [[Deutsche Fußballmeisterschaft|Deutscher Meister]] [[Fußball-Bundesliga 1991/92|1991/92]]
+|-
+| (P) || [[DFB-Pokal]]-Sieger [[DFB-Pokal 1991/92|1991/92]]
+|-
+| (N) || Aufsteiger aus der [[2. Fußball-Bundesliga|2. Bundesliga]] [[2. Fußball-Bundesliga 1991/92|1991/92]]
+|}
+
+== Kreuztabelle ==
+Die Kreuztabelle stellt die Ergebnisse aller Spiele dieser Saison dar. Die Heimmannschaft ist in der linken Spalte aufgelistet und die Gastmannschaft in der obersten Reihe.
+
+{| class="wikitable" style="text-align: center;"
+| colspan="2" width="200" | '''1992/93'''
+| [[Datei:SV-Werder-Bremen-Logo.svg|22px|SV Werder Bremen]]
+| [[Datei:Logo Bayern Munchen(1954-1996).svg|22px|FC Bayern München]]
+| [[Datei:Eintracht Frankfurt Logo 77 99.svg|22px|Eintracht Frankfurt]]
+| [[Datei:Logo Borussia Dortmund (1974-1976).gif|22px|Borussia Dortmund]]
+| [[Datei:TSV Bayer 04 Leverkusen.svg|22px|Bayer 04 Leverkusen]]
+| [[Datei:Karlsruher SC Logo 2.svg|22px|Karlsruher SC]]
+| [[Datei:VfB Stuttgart 1893 Logo.svg|22px|VfB Stuttgart]]
+| [[Datei:Logo 1 FC Kaiserslautern.svg|22px|1. FC Kaiserslautern]]
+| [[Datei:Gladbach gruen.svg|22px|Borussia Mönchengladbach]]
+| [[Datei:Logo Schalke 1978 - 1995.gif|22px|FC Schalke 04]]
+| [[Datei:HSV-Logo.svg|22px|Hamburger SV]]
+| [[Datei:1. FC Koeln Logo 1992–2000.svg|22px|1. FC Köln]]
+| [[Datei:FC Nürnberg.svg|22px|1. FC Nürnberg]]
+| [[Datei:SG Wattenscheid 09.svg|23px|SG Wattenscheid]]
+| [[Datei:Historical Logo 1. FC Dynamo Dresden (1990-2002).png|23px|Dynamo Dresden]]
+| [[Datei:VfL Bochum logo.svg|22px|VfL Bochum]]
+| [[Datei:Uerdingen alt.svg|22px|Bayer 05 Uerdingen]]
+| [[Datei:1. FC Saarbrücken.svg|22px|1. FC Saarbrücken]]
+|-
+| {{0}}1.|| align="left" | [[Werder Bremen]] || bgcolor="#DCDCDC" | || 4:1 || 0:0 || 1:0 || 1:1 || 3:0 || 1:1 || 1:0 || 2:0 || 2:0 || 5:0 || 2:0 || 3:0 || 3:0 || 3:0 || 3:1 || 2:1 || 2:0
+|-
+| {{0}}2.|| align="left" | [[FC Bayern München]] || 1:3 || bgcolor="#DCDCDC" | || 1:0 || 2:0 || 4:1 || 3:3 || 5:3 || 1:0 || 2:2 || 1:1 || 4:0 || 3:0 || 1:0 || 1:1 || 3:1 || 3:1 || 2:0 || 6:0
+|-
+| {{0}}3.|| align="left" | [[Eintracht Frankfurt]] || 3:0 || 1:1 || bgcolor="#DCDCDC" | || 4:1 || 2:2 || 4:1 || 4:0 || 3:0 || 1:3 || 0:3 || 3:3 || 2:1 || 0:0 || 4:1 || 1:1 || 4:1 || 1:0 || 1:1
+|-
+| {{0}}4.|| align="left" | [[Borussia Dortmund]] || 2:2 || 1:2 || 3:0 || bgcolor="#DCDCDC" | || 1:2 || 3:1 || 0:4 || 1:0 || 4:1 || 0:2 || 3:1 || 4:1 || 4:2 || 6:0 || 3:0 || 1:0 || 2:0 || 3:0
+|-
+| {{0}}5.|| align="left" | [[Bayer 04 Leverkusen]] || 2:2 || 2:4 || 1:1 || 3:3 || bgcolor="#DCDCDC" | || 5:1 || 4:0 || 2:0 || 4:0 || 6:1 || 1:1 || 3:0 || 2:1 || 3:1 || 0:0 || 3:1 || 1:0 || 1:1
+|-
+| {{0}}6.|| align="left" | [[Karlsruher SC]] || 5:2 || 4:2 || 4:1 || 3:0 || 1:1 || bgcolor="#DCDCDC" | || 1:1 || 1:1 || 4:2 || 0:0 || 1:0 || 3:1 || 1:1 || 2:1 || 3:1 || 1:0 || 4:0 || 2:2
+|-
+| {{0}}7.|| align="left" | [[VfB Stuttgart]] || 0:3 || 2:3 || 2:2 || 1:0 || 0:3 || 2:1 || bgcolor="#DCDCDC" | || 3:1 || 3:2 || 1:0 || 1:1 || 2:0 || 3:0 || 4:1 || 4:0 || 4:1 || 1:2 || 2:2
+|-
+| {{0}}8.|| align="left" | [[1. FC Kaiserslautern]] || 3:1 || 1:3 || 0:2 || 0:0 || 4:0 || 2:3 || 0:0 || bgcolor="#DCDCDC" | || 0:0 || 3:0 || 2:2 || 1:0 || 2:0 || 4:1 || 2:0 || 3:1 || 2:1 || 1:1
+|-
+| {{0}}9.|| align="left" | [[Borussia Mönchengladbach]] || 3:1 || 2:2 || 3:3 || 0:3 || 2:2 || 3:1 || 1:1 || 2:2 || bgcolor="#DCDCDC" | || 2:0 || 0:0 || 1:2 || 2:1 || 4:1 || 5:1 || 1:1 || 0:4 || 2:5
+|-
+| 10.|| align="left" | [[FC Schalke 04]] || 0:0 || 3:3 || 0:0 || 0:0 || 2:1 || 2:2 || 1:0 || 4:0 || 1:2 || bgcolor="#DCDCDC" | || 0:0 || 1:0 || 0:0 || 3:4 || 2:0 || 0:3 || 1:1 || 2:2
+|-
+| 11.|| align="left" | [[Hamburger SV]] || 0:0 || 3:1 || 1:2 || 1:2 || 0:0 || 1:2 || 1:1 || 2:2 || 0:2 || 1:2 || bgcolor="#DCDCDC" | || 3:0 || 0:1 || 1:1 || 1:1 || 2:0 || 3:0 || 2:0
+|-
+| 12.|| align="left" | [[1. FC Köln]] || 0:0 || 1:3 || 0:1 || 0:1 || 1:0 || 2:0 || 3:1 || 0:3 || 1:2 || 2:1 || 2:2 || bgcolor="#DCDCDC" | || 2:0 || 3:0 || 3:1 || 1:0 || 5:0 || 4:2
+|-
+| 13.|| align="left" | [[1. FC Nürnberg]] || 0:0 || 0:0 || 1:2 || 1:2 || 0:1 || 0:0 || 3:2 || 0:0 || 0:1 || 1:4 || 1:0 || 2:1 || bgcolor="#DCDCDC" | || 2:1 || 0:0 || 2:1 || 2:0 || 4:1
+|-
+| 14.|| align="left" | [[SG Wattenscheid 09]] || 2:2 || 2:0 || 1:2 || 1:3 || 1:3 || 0:2 || 0:0 || 1:0 || 3:1 || 0:0 || 2:2 || 4:2 || 4:1 || bgcolor="#DCDCDC" | || 2:1 || 2:0 || 1:1 || 3:1
+|-
+| 15.|| align="left" | [[Dynamo Dresden]] || 2:3 || 0:0 || 0:2 || 3:0 || 2:0 || 3:0 || 0:0 || 1:3 || 1:0 || 1:0 || 1:1 || 3:0 || 1:2 || 2:1 || bgcolor="#DCDCDC" | || 0:0 || 1:1 || 0:0
+|-
+| 16.|| align="left" | [[VfL Bochum]] || 2:0 || 2:2 || 1:0 || 2:2 || 2:2 || 2:2 || 0:0 || 1:3 || 2:1 || 0:1 || 1:2 || 0:0 || 4:0 || 3:1 || 2:2 || bgcolor="#DCDCDC" | || 4:1 || 4:0
+|-
+| 17.|| align="left" | [[Bayer 05 Uerdingen]] || 0:2 || 0:3 || 2:0{{FN|1}} || 0:2 || 2:1 || 1:1 || 3:3 || 0:5 || 1:3 || 4:2 || 0:2 || 0:0 || 2:1 || 1:1 || 1:1 || 2:1 || bgcolor="#DCDCDC" | || 1:1
+|-
+| 18.|| align="left" | [[1. FC Saarbrücken]] || 0:4 || 1:1 || 0:0 || 3:1 || 3:1 || 2:0 || 1:4 || 2:0 || 0:4 || 1:3 || 0:3 || 0:3 || 0:1 || 0:1 || 1:1 || 1:1 || 3:3 || bgcolor="#DCDCDC" |
+|}
+{{FNZ|1|Das Spiel des 32. Spieltags Bayer 05 Uerdingen – Eintracht Frankfurt (2:5 nach Toren) wurde vom DFB mit 2:0 für Uerdingen gewertet. Der Grund: Eintracht-Trainer [[Horst Heese]] hatte gleichzeitig vier Ausländer eingesetzt, erlaubt waren maximal drei.}}
+
+== Torschützenliste ==
+{| class="wikitable"
+!Pl.!!Nat.!!Spieler!!Verein!!Tore
+|-
+| rowspan="2" align="center" | 1|| {{DEU|#}}||[[Ulf Kirsten]]||[[Bayer 04 Leverkusen]]||rowspan="2" align="center" | 20
+|-
+| {{GHA|#}}||[[Anthony Yeboah]]||[[Eintracht Frankfurt]]
+|-
+| align="center" | 3|| {{NZL|#}}||[[Wynton Rufer]]||[[Werder Bremen]]||align="center" | 17
+|-
+| align="center" | 4|| {{CHE|#}}||[[Stéphane Chapuisat]]||[[Borussia Dortmund]]||align="center" | 15
+|-
+| rowspan="3" align="center" | 5|| {{DEU|#}}||[[Andreas Thom (Fußballspieler)|Andreas Thom]]||[[Bayer 04 Leverkusen]]||rowspan="3" align="center" | 13
+|-
+| {{DEU|#}}||[[Fritz Walter (Fußballspieler, 1960)|Fritz Walter]]||[[VfB Stuttgart]]
+|-
+| {{DEU|#}}||[[Uwe Wegmann]]||[[VfL Bochum]]
+|}
+
+== Die Meistermannschaft Werder Bremen ==
+{| class="wikitable" style="width:700px; text-align: center;"
+|- bgcolor="#008000"
+| width="75" |<span style="color:#FFFFFF;"> '''1.''' </span>|| width="625" |<span style="color:#FFFFFF;"> '''Werder Bremen''' </span>
+|- bgcolor="#FFFFFF"
+|[[Datei:SV-Werder-Bremen-Logo.svg|60px]]||- bgcolor="#E8E8E8" align="left"|
+*'''Tor''': [[Oliver Reck]] (32/-); [[Hans-Jürgen Gundelach]] (2/-)
+*'''Abwehr''': [[Dietmar Beiersdorfer]] (29/4); [[Manfred Bockenfeld]] (17/-); [[Uli Borowka]] (28/1); [[Rune Bratseth]] (29/2); [[Thomas Schaaf]] (5/-); [[Thomas Wolter]] (31/2)
+*'''Mittelfeld''': [[Marco Bode]] (29/4); [[Dieter Eilts]] (24/1); [[Uwe Harttgen]] (12/2); [[Andreas Herzog]] (33/10); [[Thorsten Legat]] (23/1); [[Mirko Votava]] (33/3)
+*'''Angriff''': [[Klaus Allofs]] (16/-); [[Bernd Hobsch]] (17/7); [[Stefan Kohn]] (17/4); [[Frank Neubarth]] (19/3); [[Wynton Rufer]] (32/17)
+*'''Trainer''': [[Otto Rehhagel]]
+|}
+''* [[Günter Hermann]] (5/-) und [[Arie van Lent]] (2/-) haben den Verein während der Saison verlassen.''
+
+== Schiedsrichter ==
+{| class="wikitable zebra sortable" style="text-align:center"
+|-
+! Name || Geboren || Landesverband || Spiele || [[Datei:Yellow card.svg|12px]] || [[Datei:Yellow-Red card.svg|12px]] || [[Datei:Red card.svg|12px]]|| class="unsortable" | Anmerkung
+|-
+| style="text-align:left" data-sort-value="Albrecht, Hermann" | [[Hermann Albrecht (Schiedsrichter)|Hermann Albrecht]] || {{DatumZelle|1961-09-01}} || [[Bayerischer Fußball-Verband|Bayern]] || 10 || 45 || 0 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Amerell, Manfred" | [[Manfred Amerell]] || {{DatumZelle|1947-02-25}} || Bayern || 9 || 32 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Assenmacher, Karl-Josef" | [[Karl-Josef Assenmacher]] || {{DatumZelle|1947-05-30}} || [[Fußball-Verband Mittelrhein|Mittelrhein]] || 9 || 26 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Aust, Jurgen" | [[Jürgen Aust]] || {{DatumZelle|1960-01-30}} || Mittelrhein || 9 || 30 || 0 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Berg, Alfons" | [[Alfons Berg]] || {{DatumZelle|1955-10-10}} || [[Fußballverband Rheinland|Rheinland]] || 8 || 33 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Best, Hans-Peter" | [[Hans-Peter Best]] || {{DatumZelle|1955-03-18}} || [[Württembergischer Fußballverband|Württemberg]] || 9 || 30 || 2 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Boos, Rainer" | [[Rainer Boos]] || {{DatumZelle|1946-08-16}} || [[Hessischer Fußball-Verband|Hessen]] || 8 || 25 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Dardenne, Georg" | [[Georg Dardenne]] || {{DatumZelle|1959-01-14}} || Mittelrhein || 8 || 33 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Dellwing, Hans-Peter" | [[Hans-Peter Dellwing]] || {{DatumZelle|1950-03-15}} || Rheinland || 9 || 30 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Frohlich, Lutz Michael" | [[Lutz Michael Fröhlich]] || {{DatumZelle|1957-10-02}} || [[Berliner Fußball-Verband|Berlin]] || 9 || 44 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Fuhrer, Manfred" | [[Manfred Führer]] || {{DatumZelle|1950-04-28}} || [[Fußball- und Leichtathletik-Verband Westfalen|Westfalen]] || 8 || 35 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Fux, Hans" | [[Hans Fux]] || {{DatumZelle|1946-11-08}} || [[Badischer Fußballverband|Baden]] || 8 || 24 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Glaser, Karl-Heinz" | [[Karl-Heinz Gläser]] || {{DatumZelle|1948-12-03}} || [[Thüringer Fußball-Verband|Thüringen]] || 10 || 33 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Habermann, Gunther" | [[Günther Habermann]] || {{DatumZelle|1950-02-23}} || Thüringen || 9 || 23 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Harder, Manfred" | [[Manfred Harder (Schiedsrichter)|Manfred Harder]] || {{DatumZelle|1947-05-02}} || [[Niedersächsischer Fußballverband|Niedersachsen]] || 8 || 26 || 3 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Haupt, Norbert" | [[Norbert Haupt]] || {{DatumZelle|1953-01-18}} || Berlin || 3 || 7 || 0 || 1 || Einzige Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Heynemann, Bernd" | [[Bernd Heynemann]] || {{DatumZelle|1954-01-22}} || [[Fußballverband Sachsen-Anhalt|Sachsen-Anhalt]] || 12 || 35 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Kasper, Hans-Jurgen" | [[Hans-Jürgen Kasper]] || {{DatumZelle|1949-01-18}} || Niedersachsen || 8 || 30 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Kiefer, Frank" | [[Frank Kiefer]] || {{DatumZelle|1963-06-12}} || Hessen || 9 || 21 || 1 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Krug, Hellmut" | [[Hellmut Krug]] || {{DatumZelle|1956-05-19}} || Westfalen || 9 || 35 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Kuhne, Reinhard" | [[Reinhard Kuhne]] || {{DatumZelle|1950-02-22}} || [[Hamburger Fußball-Verband|Hamburg]] || 2 || 5 || 0 || 0 || Einzige Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Lower, Lothar" | [[Lothar Löwer]] || {{DatumZelle|1951-09-10}} || Westfalen || 8 || 33 || 1 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Malbranc, Michael" | [[Michael Malbranc]] || {{DatumZelle|1953-03-11}} || Hamburg || 8 || 40 || 3 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Merk, Markus" | [[Markus Merk]] || {{DatumZelle|1962-03-15}} || [[Südwestdeutscher Fußballverband|Südwest]] || 11 || 40 || 3 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Molm, Peter" | [[Peter Mölm]] || {{DatumZelle|1947-10-31}} || Bremen || 7 || 2 || 2 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Osmers, Hans-Joachim" | [[Hans-Joachim Osmers]] || {{DatumZelle|1948-04-07}} || Bremen || 8 || 27 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Prengel, Michael" | [[Michael Prengel]] || {{DatumZelle|1957-08-24}} || [[Fußballverband Niederrhein|Niederrhein]] || 2 || 17 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Scheuerer, Hans" | [[Hans Scheuerer]] || {{DatumZelle|1949-10-18}} || Bayern || 9 || 37 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Schmidhuber, Aron" | [[Aron Schmidhuber]] || {{DatumZelle|1947-02-28}} || Bayern || 12 || 44 || 1 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Schmidt, Manfred" | [[Manfred Schmidt (Schiedsrichter)|Manfred Schmidt]] || {{DatumZelle|1958-08-05}} || Hessen || 2 || 9 || 0 || 1 || Erste Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Steinborn, Edgar" | [[Edgar Steinborn]] || {{DatumZelle|1957-04-27}} || Rheinland || 9 || 33 || 0 || 2 ||
+|-
+| style="text-align:left" data-sort-value="Stenzel, Klaus-Dieter" | [[Klaus-Dieter Stenzel]] || {{DatumZelle|1950-06-04}} || [[Fußball-Landesverband Brandenburg|Brandenburg]] || 3 || 12 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Strampe, Hartmut" | [[Hartmut Strampe]] || {{DatumZelle|1956-03-03}} || Niedersachsen || 10 || 51 || 2 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Strigel, Eugen" | [[Eugen Strigel]] || {{DatumZelle|1949-09-24}} || Württemberg || 9 || 33 || 1 || 3 ||
+|-
+| style="text-align:left" data-sort-value="Theobald, Gerhard" | [[Gerhard Theobald]] || {{DatumZelle|1949-12-27}} || [[Saarländischer Fußballverband|Saarland]] || 8 || 26 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Weber, Hans-Jurgen" | [[Hans-Jürgen Weber]] || {{DatumZelle|1955-06-15}} || Niederrhein || 9 || 45 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Wiesel, Wolf-Gunter" | [[Wolf-Günter Wiesel]] || {{DatumZelle|1947-11-16}} || Niedersachsen || 2 || 11 || 0 || 0 ||
+|-
+| style="text-align:left" data-sort-value="Wippermann, Jurgen" | [[Jürgen Wippermann]] || {{DatumZelle|1954-10-09}} || Mittelrhein || 3 || 13 || 0 || 0 || Einzige Saison in der Bundesliga
+|-
+| style="text-align:left" data-sort-value="Wittke, Kurt" | [[Kurt Wittke]] || {{DatumZelle|1948-06-28}} || Baden || 2 || 3 || 1 || 1 ||
+|-
+| style="text-align:left" data-sort-value="Ziller, Wieland" | [[Wieland Ziller]] || {{DatumZelle|1952-12-12}} || [[Sächsischer Fußball-Verband|Sachsen]] || 10 || 50 || 0 || 0 ||
+|- class="hintergrundfarbe9 sortbottom"
+! colspan="3" style="text-align:right" | Gesamt: || 306 || 1148 || 39 || 33 ||
+|- class="sortbottom hintergrundfarbe5"
+| colspan="8" class="small" style="text-align:right" | Quelle: ''weltfussball.de''<ref name="schiedsrichter">{{Internetquelle | url=https://www.weltfussball.de/schiedsrichter/bundesliga-1992-1993/1/ | titel=Schiedsrichter | werk=weltfussball.de | abruf=2018-05-24}}</ref>
+|}
+
+== Kader ==
+{{Hauptartikel|Kader der deutschen Fußball-Bundesliga 1992/93}}
+
+== Weblinks ==
+{{Commonscat|Fußball-Bundesliga 1992/1993|Fußball-Bundesliga 1992/93}}
+
+== Einzelnachweise ==
+<references />
+
+{{NaviBlock
+|Navigationsleiste Spielzeiten Fußball-Bundesliga
+|Navigationsleiste Fußballsaison 1992/93 (Deutschland)
+|Navigationsleiste Europa-Fußball 1993
+}}
+
+{{SORTIERUNG:FussballBundesliga 199293}}
+[[Kategorie:Fußball-Bundesliga-Saison|#1992 93]]
+[[Kategorie:Fußballsaison 1992/93]]

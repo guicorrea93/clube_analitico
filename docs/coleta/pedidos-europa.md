@@ -694,3 +694,33 @@ Para o agente 1 (carregar e publicar; o Francês ainda não está no site) e o a
 - **FR-022:** docstring e relatório sem o árbitro do football-data (a França não tem).
 - Teste de carga: "fra-1: 88 edições, 30466 jogos, 2 clubes novos -> OK". Os 2 novos são "Évian" e "Toulouse FC (1937)".
 - **Pedido:** carregar `fra-1`.
+
+## 23/11 — coleta Europa: correções da revisão no Alemão (`ger-1`)
+
+Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fechar os ids).
+
+- **DE-001:** Arminia Bielefeld 1971/72 com 0 pontos (ajuste -19; dicionário `PUNICOES`).
+- **DE-002:** critério do regulamento por época: média de gols até 1968/69, saldo desde 1969/70. **Muda a
+  `classificacao_rodada`** das temporadas em que o critério antigo era outro.
+- **DE-003:** 103 datas corrigidas (transfermarkt e RSSSF concordam). Inclui o Schalke x Düsseldorf de 1980/81, que
+  estava no achado e não na lista. Nenhum clube com 2 jogos no mesmo dia. Lista em
+  `data/coleta/ger-1/correcoes/datas.csv`.
+- **DE-004:** os 3 casos em dúvida ficam como estão (pendência).
+- **DE-005:** 5 jogos de tribunal com `awd` e o placar de campo na observação (1970/71, 1976/77, 1992/93, 1994/95,
+  2010/11).
+- **DE-006 e DE-013:** observação na edição (Hertha 1964/65, Arminia 1971/72, Dresden 1994/95, 3º lugar dividido em
+  1979/80).
+- **DE-007:** observações em português; o "S04" virou o texto da nota.
+- **DE-008:** nomes de jogo dos artilheiros (Aílton, Élber, Toni, Grafite, Gómez, Kane...).
+- **DE-009:** 44 nomes da ESPN acertados no código comum (`nomes_jogadores.py`): Marcelinho, Ewerthon, Cacau, Štajner...
+- **DE-010 e DE-011:** autores dos gols.
+  - RSSSF de 1963/64 a 1998/99: 33.151 gols, nos jogos em que a soma fecha (cerca de 97%).
+  - Ficha do ogol para 1999/00, 2000/01 e os jogos em que a ESPN falta ou não fecha: 991 gols.
+  - Sem autor ficam 548 jogos com gol, a maioria até 2000/01; de 2010/11 em diante sobram 13 (eram 36).
+- **DE-012 (D-04 a):** nota da Relegation na `observacao` da edição, nas 28 temporadas, pela Wikipédia de (jogos e quem
+  ficou com a vaga).
+- **DE-014:** fechado com a era antiga (1902/03-1962/63), já no GitHub.
+- Teste de carga: "ger-1: 124 edições, 20303 jogos, 0 clubes novos -> OK". **Pedido:** recarregar `ger-1` e publicar.
+- **Pedido (todas as correções de hoje: `ita-1`, `esp-1`, `eng-1`, `fra-1`, `ger-1`, `por-1`):** depois de recarregar,
+  rodar as varreduras do plano (`python -I revisao/tela/varredura.py` e `datas_repetidas.py`, com a lista de
+  competições trocada). Elas leem o banco.
