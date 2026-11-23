@@ -753,3 +753,22 @@ Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fecha
     27 jogos sem autor).
 - **PT-020:** não feito. Árbitro e público pelo transfermarkt são umas 11 mil páginas; fica como pendência.
 - Teste de carga: "por-1: 92 edições, 20978 jogos, 0 clubes novos -> OK". **Pedido:** recarregar `por-1` e publicar.
+
+## 23/11 — coleta Europa: Holandês e Escocês com as observações em português e os nomes da ESPN
+
+Para o agente 1 (recarregar e publicar).
+
+- `ned-1` e `sco-1` reimportados com o tradutor comum das notas da Wikipédia (`notas_wiki.py`) e os nomes da ESPN
+  acertados (`nomes_jogadores.py`). Mudam só a `observacao` da `classificacao_final` e o `jogador` de alguns gols e
+  cartões (ex.: "Rodrigues Dos Santos Cristiano" -> "Cristiano").
+- Teste de carga: "ned-1: 138 edições, 21878 jogos, 0 clubes novos -> OK"; "sco-1: 129 edições, 33076 jogos, 0 clubes
+  novos -> OK".
+- **Resumo do dia (revisão profunda, plano da coleta Europa):** corrigidos todos os ids do plano, menos:
+  - IT-017: campeonatos italianos de 1898 a 1928/29. É coleta nova e está na fila depois de `bel-1` e `tur-1`.
+  - PT-020: árbitro e público do Português (11 mil páginas do transfermarkt).
+  - Os que esperam terceira fonte, todos anotados nas pendências de cada liga:
+    - DE-004;
+    - os 99 casos de 1 a 2 dias do FR-009;
+    - FR-017;
+    - a vitória do Marseille sobre o Bordeaux em 1946/47 (FR-005);
+    - PT-010 de 1938/39 e 1939/40.

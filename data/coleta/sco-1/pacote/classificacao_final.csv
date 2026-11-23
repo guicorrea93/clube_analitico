@@ -1,9 +1,9 @@
 temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pontos,ajuste_pontos,situacao,fonte,observacao
 1890/91,1,Dumbarton,18,13,3,2,61,21,29,0,campeao,RSSSF (ordem oficial),título dividido (jogo de desempate 2-2)
 1890/91,1,Rangers,18,13,3,2,58,25,29,0,campeao,RSSSF (ordem oficial),título dividido (jogo de desempate 2-2)
-1890/91,3,Celtic,18,11,3,4,48,21,21,-4,,RSSSF (ordem oficial),"Celtic, 3rd LRV and Cowlairs were deducted four points each for fielding ineligible players."
+1890/91,3,Celtic,18,11,3,4,48,21,21,-4,,RSSSF (ordem oficial),"Celtic, 3rd LRV e Cowlairs: 4 pontos a menos cada um por escalar jogadores irregulares"
 1890/91,4,Cambuslang,18,8,4,6,47,42,20,0,,RSSSF (ordem oficial),
-1890/91,5,Third Lanark,18,8,3,7,38,39,15,-4,,RSSSF (ordem oficial),CEL
+1890/91,5,Third Lanark,18,8,3,7,38,39,15,-4,,RSSSF (ordem oficial),"Celtic, 3rd LRV e Cowlairs: 4 pontos a menos cada um por escalar jogadores irregulares"
 1890/91,6,Hearts,18,6,2,10,31,37,14,0,,RSSSF (ordem oficial),
 1890/91,7,Abercorn,18,5,2,11,36,47,12,0,,RSSSF (ordem oficial),
 1890/91,8,St Mirren,18,5,1,12,39,62,11,0,,RSSSF (ordem oficial),
@@ -77,8 +77,8 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 1897/98,4,Hearts,18,8,4,6,54,33,20,0,,Wikipédia (ordem oficial),
 1897/98,5,St Mirren,18,8,2,8,30,36,18,0,,Wikipédia (ordem oficial),
 1897/98,6,Third Lanark,18,8,2,8,37,38,18,0,,Wikipédia (ordem oficial),
-1897/98,7,Dundee,18,5,3,10,29,36,13,0,,Wikipédia (ordem oficial),Dundee and Partick Thistle finished level on points but Dundee won a play-off match to determine ranking positions.
-1897/98,8,Partick Thistle,18,6,1,11,34,64,13,0,,Wikipédia (ordem oficial),DND
+1897/98,7,Dundee,18,5,3,10,29,36,13,0,,Wikipédia (ordem oficial),empatado em pontos com o Partick Thistle; ficou à frente por vencer o jogo de desempate
+1897/98,8,Partick Thistle,18,6,1,11,34,64,13,0,,Wikipédia (ordem oficial),empatado em pontos com o Partick Thistle; ficou à frente por vencer o jogo de desempate
 1897/98,9,St Bernard's,18,4,1,13,35,67,9,0,,Wikipédia (ordem oficial),
 1897/98,10,Clyde,18,1,3,14,21,83,5,0,,Wikipédia (ordem oficial),
 1898/99,1,Rangers,18,18,0,0,79,18,36,0,campeao,Wikipédia (ordem oficial),
@@ -1685,7 +1685,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2007/08,9,Inverness CT,38,13,4,21,51,62,43,0,,Wikipédia (ordem oficial),
 2007/08,10,St Mirren,38,10,11,17,26,54,41,0,,Wikipédia (ordem oficial),
 2007/08,11,Kilmarnock,38,10,10,18,39,52,40,0,,Wikipédia (ordem oficial),
-2007/08,12,Gretna,38,5,8,25,32,83,13,-10,rebaixado,Wikipédia (ordem oficial),Gretna were deducted 10 points for entering administration.
+2007/08,12,Gretna,38,5,8,25,32,83,13,-10,rebaixado,Wikipédia (ordem oficial),10 pontos a menos por entrar em recuperação judicial
 2008/09,1,Rangers,38,26,8,4,77,28,86,0,campeao,Wikipédia (ordem oficial),
 2008/09,2,Celtic,38,24,10,4,80,33,82,0,,Wikipédia (ordem oficial),
 2008/09,3,Hearts,38,16,11,11,40,37,59,0,,Wikipédia (ordem oficial),
@@ -1739,9 +1739,9 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2012/13,3,St Johnstone,38,14,14,10,45,44,56,0,,Wikipédia (ordem oficial),
 2012/13,4,Inverness CT,38,13,15,10,64,60,54,0,,Wikipédia (ordem oficial),
 2012/13,5,Ross County,38,13,14,11,47,48,53,0,,Wikipédia (ordem oficial),
-2012/13,6,Dundee United,38,11,14,13,51,62,47,0,,Wikipédia (ordem oficial),HIB
-2012/13,7,Hibernian,38,13,12,13,49,52,51,0,,Wikipédia (ordem oficial),Teams in the bottom half at the time of the split may not overtake a team in the top 6 at the time of the split.
-2012/13,8,Aberdeen,38,11,15,12,41,43,48,0,,Wikipédia (ordem oficial),HIB
+2012/13,6,Dundee United,38,11,14,13,51,62,47,0,,Wikipédia (ordem oficial),"depois da divisão em dois grupos, os 6 de baixo não podem passar os 6 de cima"
+2012/13,7,Hibernian,38,13,12,13,49,52,51,0,,Wikipédia (ordem oficial),"depois da divisão em dois grupos, os 6 de baixo não podem passar os 6 de cima"
+2012/13,8,Aberdeen,38,11,15,12,41,43,48,0,,Wikipédia (ordem oficial),"depois da divisão em dois grupos, os 6 de baixo não podem passar os 6 de cima"
 2012/13,9,Kilmarnock,38,11,12,15,52,53,45,0,,Wikipédia (ordem oficial),
 2012/13,10,Hearts,38,11,11,16,40,49,44,0,,Wikipédia (ordem oficial),
 2012/13,11,St Mirren,38,9,14,15,47,60,41,0,,Wikipédia (ordem oficial),
@@ -1757,13 +1757,13 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2013/14,9,Kilmarnock,38,11,6,21,45,66,39,0,,Wikipédia (ordem oficial),
 2013/14,10,Partick Thistle,38,8,14,16,46,65,38,0,,Wikipédia (ordem oficial),
 2013/14,11,Hibernian,38,8,11,19,31,51,35,0,rebaixado,Wikipédia (ordem oficial),
-2013/14,12,Hearts,38,10,8,20,45,65,23,-15,rebaixado,Wikipédia (ordem oficial),Heart of Midlothian were deducted 15 points for entering administration
+2013/14,12,Hearts,38,10,8,20,45,65,23,-15,rebaixado,Wikipédia (ordem oficial),15 pontos a menos por entrar em recuperação judicial
 2014/15,1,Celtic,38,29,5,4,84,17,92,0,campeao,Wikipédia (ordem oficial),
 2014/15,2,Aberdeen,38,23,6,9,57,33,75,0,,Wikipédia (ordem oficial),
 2014/15,3,Inverness CT,38,19,8,11,52,42,65,0,,Wikipédia (ordem oficial),
 2014/15,4,St Johnstone,38,16,9,13,34,34,57,0,,Wikipédia (ordem oficial),
 2014/15,5,Dundee United,38,17,5,16,58,56,56,0,,Wikipédia (ordem oficial),
-2014/15,6,Dundee,38,11,12,15,46,57,45,0,,Wikipédia (ordem oficial),Teams in the bottom six at the time of the split (33 games) cannot pass teams in the top six
+2014/15,6,Dundee,38,11,12,15,46,57,45,0,,Wikipédia (ordem oficial),"depois da divisão em dois grupos (33 rodadas), os 6 de baixo não podem passar os 6 de cima"
 2014/15,7,Hamilton Academical,38,15,8,15,50,53,53,0,,Wikipédia (ordem oficial),
 2014/15,8,Partick Thistle,38,12,10,16,48,44,46,0,,Wikipédia (ordem oficial),
 2014/15,9,Ross County,38,12,8,18,46,63,44,0,,Wikipédia (ordem oficial),
@@ -1781,7 +1781,7 @@ temporada,posicao,clube,jogos,vitorias,empates,derrotas,gols_pro,gols_contra,pon
 2015/16,9,Partick Thistle,38,12,10,16,41,50,46,0,,Wikipédia (ordem oficial),
 2015/16,10,Hamilton Academical,38,11,10,17,42,63,43,0,,Wikipédia (ordem oficial),
 2015/16,11,Kilmarnock,38,9,9,20,41,64,36,0,,Wikipédia (ordem oficial),
-2015/16,12,Dundee United,38,8,7,23,45,70,28,-3,rebaixado,Wikipédia (ordem oficial),Dundee United were deducted three points for fielding an ineligible player in their win over Inverness Caledonian Thistle on 6 May 2016.
+2015/16,12,Dundee United,38,8,7,23,45,70,28,-3,rebaixado,Wikipédia (ordem oficial),3 pontos a menos por escalar jogador irregular na vitória sobre o Inverness CT (06/05/2016)
 2016/17,1,Celtic,38,34,4,0,106,25,106,0,campeao,Wikipédia (ordem oficial),
 2016/17,2,Aberdeen,38,24,4,10,74,35,76,0,,Wikipédia (ordem oficial),
 2016/17,3,Rangers,38,19,10,9,56,44,67,0,,Wikipédia (ordem oficial),
