@@ -9,9 +9,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Brasileiro Série C | 36 (1981–2026) | 8123 | 6051 | 0 | 373 | 389 / 29 | sim (36 edições, 8123 jogos) | 2 | [bra-serie-c](bra-serie-c.md) |
 | Campeonato Brasileiro Série D | 18 (2009–2026) | 6032 | 11227 | 0 | 333 | 431 / 4 | sim (18 edições, 6032 jogos) | 2 | [bra-serie-d](bra-serie-d.md) |
 | Copa do Brasil | 37 (1989–2025) | 4009 | 5718 | 0 | 399 | 61 / 0 | sim (37 edições, 4009 jogos) | 3 | [bra-copa-do-brasil](bra-copa-do-brasil.md) |
-| Campeonato Paulista | 134 (1902–2025) | 21855 | 6405 | 0 | 115 | 207 / 135 | sim (134 edições, 21855 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
+| Campeonato Paulista | 134 (1902–2025) | 21791 | 6405 | 0 | 112 | 213 / 129 | sim (134 edições, 21855 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
 | Campeonato Paulista Série A2 | 63 (1947–2026) | 9142 | 4526 | 0 | 167 | 128 / 31 | sim (63 edições, 9142 jogos) | 3 | [bra-sp-2](bra-sp-2.md) |
-| Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (128 edições, 14118 jogos) | 5 | [bra-rj-1](bra-rj-1.md) |
+| Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (129 edições, 14144 jogos) | 4 | [bra-rj-1](bra-rj-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -24,13 +24,12 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-copa-do-brasil:** Achados da revisão CB-001 a CB-015: tratados (docs/coleta/pedidos.md, partes 1 e 4). A revisão ainda não reconferiu.
 - **bra-copa-do-brasil:** Jogo preliminar de 1999 (Santa Cruz 1-0 Náutico, CB-007): entrou sem data; nenhuma fonte achada dá o dia.
 - **bra-copa-do-brasil:** Autores dos gols antes de 2013 e cartões: jogo a jogo, pela ficha do ogol (prioridade baixa).
-- **bra-sp-1:** ALTA: achados da revisão SP-001 a SP-032 (docs/coleta/pedidos.md, 'Pedidos da revisão (21/11/2026): Paulista'; provas em docs/revisao/bra-sp-1.md) ainda NÃO tratados: jogo falso de 1928 LAF (SP-011), vice e ordem final (SP-002, SP-003, SP-007, SP-008), dados que mudam o vice (SP-009, SP-010, SP-012, SP-013, SP-014), rebaixados (SP-015), W.O., datas, totais, observações em inglês (SP-016 a SP-022) e artilheiros (SP-023, SP-024).
-- **bra-sp-1:** Decisões do Guilherme pedidas pela revisão: SP-001 (título de 1973 dividido), SP-004 (edição de 2026), SP-005 (amadores da FPF 1933-1934), SP-006 ('Paulistinha' 1970 e 1972-1974), SP-026 e SP-027 (juntar clubes).
+- **bra-sp-1:** Corrigidos em 23/11 ("ERRADO NO AR" do plano docs/revisao/plano-coleta-brasil.md): SP-011 (jogo falso de 1928 LAF), SP-002, SP-007 e SP-008 (ORDEM completo, FASE_ANO e FASE_JOGO, vice do quadrangular final, desempate pela Fase final; menos 2024 e 2025, que esperam as fases da FPF), QS-001 e SP-010 (CLUBES_FORA), QS-006 e QS-005 (JOGOS_FORA, JOGOS_EXTRA_WO, VICE_OFICIAL), QS-015 e SP-013 (PONTOS_FORA_DE_CAMPO; W.O. conta na campanha, SP-016), SP-009 (Corinthians de Santo André) e SP-012 (1942). SP-001: 1973 com co_campeao Santos e vice Palmeiras (D-07).
+- **bra-sp-1:** Resto do plano (docs/revisao/plano-coleta-brasil.md, seção do Paulista): SP-003 (3º lugar à mão), SP-004 (2026), SP-008 em 2024 e 2025 (fases pela API da FPF), SP-014, SP-015 (rebaixados), SP-017 a SP-024, QS-002 a QS-014, SP-026 e SP-027 (D-23). Só quando o Guilherme mandar.
 - **bra-sp-1:** Autores dos gols e cartões nos anos sem RSSSF com autores: jogo a jogo, pela ficha do ogol (prioridade baixa).
 - **bra-sp-2:** Commit das edições antigas e da documentação (22/11/2026): pedir o ok do Guilherme. Depois, o agente 1 carregar a A2 no banco (recados no fim de docs/coleta/pedidos.md).
 - **bra-sp-2:** Jogos que faltam (1947-1966 fora o que a Wikipédia traz; 1988: 69 sem placar; 1989: 2ª e 3ª fases; 1990: 1ª a 3ª; 1991: 1ª fase; 1992: 1ª fase; 1993 e 1994): só em jornais da época (Hemeroteca Digital, acervos do Estadão e da Folha), em imagem. Só se o Guilherme pedir.
 - **bra-sp-2:** Os mesmos achados de vice e ordem final do Paulista (SP-002, SP-007, SP-008) podem valer na A2: conferir quando tratar o bra-sp-1 (o importador é cópia do dele).
-- **bra-rj-1:** 1907, título dividido entre Fluminense e Botafogo (FERJ, 1996; decidido em 23/11): o pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação; falta o banco aceitar dois campeões numa edição (D-07, pedido ao agente 1). Quando houver o formato, mudar importar.CAMPEOES_DIVIDIDOS e pacote.py.
 - **bra-rj-1:** Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de baixo, nos anos 1900).
 - **bra-rj-1:** 127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
 - **bra-rj-1:** Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela ano a ano (pt_lista.txt), ainda não lida.

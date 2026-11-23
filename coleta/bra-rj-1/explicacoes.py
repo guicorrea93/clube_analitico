@@ -28,8 +28,8 @@ INTRO = [
 EXPLICACOES: dict[str, list[str]] = {
     "1907": ["título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela "
              "da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; "
-             "em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense no campo campeao, o "
-             "vice vazio e o Botafogo na observação até o banco aceitar dois campeões numa edição (D-07, como o Paulista 1973)"],
+             "em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense em campeao, o "
+             "Botafogo em co_campeao e o vice vazio (D-07, como o Paulista 1973)"],
     "1921": ["o desempate Flamengo x América foi 1-1 no tempo normal e 1-0 na prorrogação: fica 2-1 para o Flamengo"],
     "1937": ["torneio da LFRJ (a liga da pacificação: FMD e LCF juntas), campeão o Fluminense. O torneio da FMD, disputado "
              "antes, é a edição \"1937 FMD\""],

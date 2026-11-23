@@ -164,6 +164,12 @@ rsssf.CORRECOES.setdefault("sp1951.htm", []).append(
     (r"(?m)^(Jabaquara \(last-placed of 1st level\))", r"Repescagem\n\n\1",
      "a repescagem Jabaquara x XV de Jaú vem sem título e ficava na fase anterior"))
 rsssf.CORRECOES.setdefault("sp2003.htm", []).append((r"Atl\.Sorocaba", "Atlético Sorocaba", "nome abreviado do Atlético Sorocaba"))
+rsssf.CORRECOES.setdefault("sp1927.htm", []).append(
+    (r"Corinthians \(SBC\)", "Corinthians de Santo André",
+     "o leitor tira a cidade entre parênteses e o Corinthians de Santo André virava o Corinthians da capital (achado SP-009)"))
+rsssf.CORRECOES.setdefault("sp1942.htm", []).append(
+    (r"(?m)^04/10/1942 Corinthians 3 x Palmeiras", "04/10/1942 Corinthians 3 x 1 Palmeiras",
+     "o jogo vem sem os gols do Palmeiras; 3-1 pelo Futebol Nacional (achado SP-012)"))
 for _a in (1979, 1980):
     rsssf.CORRECOES.setdefault(f"sp{_a}.htm", []).append((_dois_pontos, None, "jogo em 'A - B 2:1' e data em 'dd.mm.aa'"))
 

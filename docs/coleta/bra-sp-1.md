@@ -27,53 +27,53 @@ como na RSSSF.
 | 1903 | RSSSF + ogol | 5 | 21 (21) | 64 | 0 | 1 / 0 | São Paulo Athletic | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1904 | RSSSF + ogol | 6 | 31 (31) | 99 | 0 | 1 / 0 | São Paulo Athletic | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1905 | RSSSF + ogol | 6 | 30 (30) | 118 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1906 | RSSSF + ogol | 6 | 23 (23) | 91 | 0 | 0 / 2 | Germânia | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1906 | RSSSF + ogol | 6 | 29 (23) | 81 | 0 | 0 / 2 | Germânia | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1907 | RSSSF + ogol | 6 | 30 (29) | 93 | 0 | 2 / 0 | SC Internacional-SP | RSSSF (classificação geral publicada) |
 | 1908 | RSSSF + ogol | 6 | 30 (30) | 88 | 0 | 0 / 2 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1909 | RSSSF + ogol | 6 | 31 (31) | 96 | 0 | 0 / 2 | AA das Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1910 | RSSSF + ogol | 6 | 30 (30) | 133 | 0 | 0 / 2 | AA das Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1911 | RSSSF + ogol | 6 | 24 (24) | 109 | 0 | 2 / 0 | São Paulo Athletic | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1912 | RSSSF + ogol | 7 | 42 (38) | 162 | 0 | 2 / 0 | Americano-SP | RSSSF (classificação geral publicada) |
-| 1913 LPF | RSSSF + ogol | 6 | 24 (24) | 97 | 0 | 0 / 1 | Americano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1913 LPF | RSSSF + ogol | 5 | 20 (24) | 65 | 0 | 1 / 0 | Americano-SP | RSSSF (classificação geral publicada) |
 | 1913 APEA | RSSSF + ogol | 3 | 9 (9) | 36 | 0 | 1 / 0 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1914 LPF | RSSSF + ogol | 7 | 32 (32) | 106 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1914 LPF | RSSSF + ogol | 5 | 19 (32) | 70 | 0 | 1 / 0 | Corinthians | RSSSF (classificação geral publicada) |
 | 1914 APEA | RSSSF + ogol | 6 | 30 (30) | 107 | 0 | 0 / 1 | AA São Bento | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1915 LPF | RSSSF + ogol | 7 | 42 (42) | 129 | 0 | 0 / 1 | Germânia | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1915 APEA | RSSSF + ogol | 6 | 29 (29) | 99 | 0 | 1 / 1 | AA das Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1915 APEA | RSSSF + ogol | 6 | 29 (29) | 97 | 0 | 1 / 1 | AA das Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1916 LPF | RSSSF + ogol | 14 | 47 (51) | 119 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1916 APEA | RSSSF + ogol | 7 | 43 (43) | 184 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1916 APEA | RSSSF + ogol | 7 | 41 (43) | 171 | 0 | 1 / 0 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1917 | RSSSF + ogol | 9 | 72 (72) | 301 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1918 | RSSSF + ogol | 10 | 67 (67) | 333 | 0 | 0 / 2 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1919 | RSSSF + ogol | 10 | 84 (84) | 385 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1920 | RSSSF + ogol | 10 | 80 (80) | 391 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1921 | RSSSF + ogol | 12 | 132 (132) | 553 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1921 | RSSSF + ogol | 12 | 132 (132) | 548 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1922 | RSSSF + ogol | 12 | 94 (94) | 392 | 0 | 1 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1923 | RSSSF + ogol | 12 | 91 (83) | 331 | 0 | 0 / 2 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1924 | RSSSF + ogol | 12 | 87 (85) | 325 | 0 | 0 / 2 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1925 | RSSSF + ogol | 12 | 62 (55) | 219 | 0 | 0 / 1 | AA São Bento | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1923 | RSSSF + ogol | 11 | 83 (83) | 300 | 0 | 1 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1924 | RSSSF + ogol | 11 | 85 (85) | 316 | 0 | 1 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1925 | RSSSF + ogol | 11 | 55 (55) | 192 | 0 | 0 / 1 | AA São Bento | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1926 APEA | RSSSF + ogol | 10 | 45 (45) | 198 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1926 LAF | RSSSF + ogol | 8 | 56 (56) | 257 | 0 | 1 / 0 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1927 APEA | RSSSF + ogol | 14 | 92 (91) | 548 | 0 | 1 / 2 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1927 LAF | RSSSF + ogol | 15 | 71 (73) | 304 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1928 APEA | RSSSF + ogol | 8 | 47 (42) | 212 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1928 LAF | RSSSF + ogol | 13 | 134 (134) | 691 | 0 | 0 / 1 | SC Internacional-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1927 APEA | RSSSF + ogol | 14 | 91 (91) | 535 | 0 | 1 / 2 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1927 LAF | RSSSF + ogol | 10 | 45 (73) | 191 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1928 APEA | RSSSF + ogol | 7 | 43 (42) | 198 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1928 LAF | RSSSF + ogol | 12 | 133 (133) | 564 | 0 | 0 / 1 | SC Internacional-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1929 APEA | RSSSF + ogol | 8 | 28 (28) | 144 | 0 | 1 / 0 | Corinthians | RSSSF (classificação geral publicada) |
 | 1929 LAF | RSSSF + ogol | 12 | 116 (116) | 442 | 0 | 0 / 1 | Paulistano-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1930 | RSSSF + ogol | 14 | 182 (182) | 808 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1930 | RSSSF + ogol | 14 | 182 (182) | 801 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1931 | RSSSF + ogol | 14 | 182 (182) | 787 | 0 | 0 / 1 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1932 | RSSSF + ogol | 12 | 66 (66) | 322 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1933 | RSSSF + ogol | 8 | 57 (56) | 274 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1934 | RSSSF + ogol | 8 | 56 (56) | 219 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1935 LPF | RSSSF + ogol | 7 | 42 (42) | 164 | 0 | 0 / 1 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1935 APEA | RSSSF + ogol | 9 | 58 (58) | 277 | 0 | 0 / 1 | Portuguesa | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1935 APEA | RSSSF + ogol | 8 | 56 (58) | 263 | 0 | 0 / 1 | Portuguesa | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1936 LPF | RSSSF + ogol | 12 | 124 (124) | 561 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1936 APEA | RSSSF + ogol | 7 | 42 (42) | 177 | 0 | 2 / 0 | Portuguesa | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1937 | RSSSF + ogol | 10 | 60 (60) | 216 | 0 | 1 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1938 | RSSSF + ogol | 12 | 56 (56) | 214 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1938 | RSSSF + ogol | 11 | 55 (56) | 211 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1939 | RSSSF + ogol | 11 | 110 (110) | 430 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1940 | RSSSF + ogol | 11 | 110 (110) | 481 | 0 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1941 | RSSSF + ogol | 11 | 110 (110) | 504 | 0 | 0 / 1 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1942 | RSSSF + ogol | 11 | 109 (100) | 567 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1942 | RSSSF + ogol | 11 | 110 (100) | 571 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1943 | RSSSF + ogol | 11 | 110 (110) | 498 | 0 | 0 / 1 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1944 | RSSSF + ogol | 11 | 110 (110) | 471 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1945 | RSSSF + ogol | 11 | 110 (110) | 463 | 0 | 0 / 1 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -99,7 +99,7 @@ como na RSSSF.
 | 1965 | RSSSF + ogol | 16 | 240 (100) | 731 | 0 | 0 / 0 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1966 | RSSSF + ogol | 15 | 210 (210) | 689 | 0 | 0 / 1 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1967 | RSSSF + ogol | 14 | 183 (100) | 524 | 0 | 0 / 1 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1968 | RSSSF + ogol | 14 | 182 (182) | 529 | 0 | 0 / 1 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1968 | RSSSF + ogol | 14 | 182 (182) | 527 | 0 | 0 / 1 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1969 | RSSSF + ogol | 14 | 188 (187) | 527 | 0 | 1 / 2 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1970 | RSSSF + ogol | 10 | 90 (90) | 201 | 0 | 0 / 1 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1971 | RSSSF + ogol | 12 | 132 (132) | 347 | 0 | 0 / 0 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -112,16 +112,16 @@ como na RSSSF.
 | 1978 | RSSSF + ogol | 20 | 444 (444) | 984 | 0 | 2 / 8 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1979 | RSSSF + ogol | 21 | 420 (417) | 825 | 0 | 6 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1980 | RSSSF + ogol | 21 | 395 (395) | 878 | 0 | 1 / 2 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1981 | RSSSF + ogol | 20 | 537 (537) | 1188 | 0 | 6 / 6 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1981 | RSSSF + ogol | 20 | 537 (537) | 1188 | 0 | 7 / 5 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1982 | RSSSF + ogol | 20 | 382 (382) | 754 | 0 | 1 / 2 | Corinthians | RSSSF (classificação geral publicada) |
 | 1983 | RSSSF + ogol | 20 | 410 (410) | 781 | 0 | 4 / 2 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1984 | RSSSF + ogol | 20 | 380 (380) | 781 | 0 | 0 / 0 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1984 | RSSSF + ogol | 20 | 380 (380) | 778 | 0 | 0 / 0 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1985 | RSSSF + ogol | 20 | 386 (386) | 738 | 0 | 1 / 2 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1986 | RSSSF + ogol | 20 | 386 (386) | 808 | 0 | 0 / 3 | Inter de Limeira | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1986 | RSSSF + ogol | 20 | 386 (386) | 804 | 0 | 0 / 3 | Inter de Limeira | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1987 | RSSSF + ogol | 20 | 386 (386) | 720 | 0 | 0 / 1 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1988 | RSSSF + ogol | 22 | 239 (216) | 533 | 0 | 2 / 2 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1989 | RSSSF + ogol | 22 | 261 (261) | 507 | 0 | 6 / 0 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1990 | RSSSF + ogol | 24 | 422 (422) | 793 | 0 | 5 / 1 | Bragantino | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 1990 | RSSSF + ogol | 24 | 422 (422) | 791 | 0 | 5 / 1 | Bragantino | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1991 | RSSSF + ogol | 28 | 390 (390) | 755 | 0 | 2 / 2 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1992 | RSSSF + ogol | 28 | 390 (390) | 888 | 0 | 2 / 2 | São Paulo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1993 | RSSSF + ogol | 30 | 448 (448) | 1171 | 0 | 4 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -180,12 +180,22 @@ como na RSSSF.
 
 ### 1906
 
-- tabela publicada x jogos — Fase única / -: Germânia tabela [8, 6, 0, 2, 16, 8] jogos [9, 7, 0, 2, 25, 9] — a tabela conta 8 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [8, 4, 0, 4, 12, 13] jogos [10, 6, 0, 4, 23, 14] — a tabela conta 8 jogos e as fontes trazem 10
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [8, 1, 1, 6, 8, 21] jogos [8, 1, 1, 6, 10, 21] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Germânia tabela [8, 6, 0, 2, 16, 8] jogos [9, 7, 0, 2, 25, 9] — a tabela conta 8 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [8, 4, 0, 4, 12, 13] jogos [10, 6, 0, 4, 23, 14] — a tabela conta 8 jogos e as fontes trazem 10
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [8, 1, 1, 6, 8, 21] jogos [8, 1, 1, 6, 10, 21] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Germânia tabela [8, 6, 0, 2, 16, 8] jogos [10, 8, 0, 2, 25, 9] — a tabela conta 8 jogos e as fontes trazem 10
+- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [8, 4, 0, 4, 12, 13] jogos [9, 5, 0, 4, 14, 13] — a tabela conta 8 jogos e as fontes trazem 9
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [8, 1, 1, 6, 8, 21] jogos [10, 3, 1, 6, 10, 21] — a tabela conta 8 jogos e as fontes trazem 10
+- tabela publicada x jogos — Fase única / -: Germânia tabela [8, 6, 0, 2, 16, 8] jogos [10, 8, 0, 2, 25, 9] — a tabela conta 8 jogos e as fontes trazem 10
+- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [8, 4, 0, 4, 12, 13] jogos [9, 5, 0, 4, 14, 13] — a tabela conta 8 jogos e as fontes trazem 9
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [8, 1, 1, 6, 8, 21] jogos [10, 3, 1, 6, 10, 21] — a tabela conta 8 jogos e as fontes trazem 10
+- jogo cancelado fica de fora: São Paulo Athletic 1-9 SC Internacional-SP — o SPAC desistiu depois deste jogo e a LPF o cancelou, dando os pontos dos seguintes aos adversários (FN; QS-005)
+- jogo que faltava, sem placar: Mackenzie-SP x São Paulo Athletic (1906-08-09), pontos para o Mackenzie-SP — o SPAC desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
+- jogo que faltava, sem placar: São Paulo Athletic x Paulistano-SP (1906-08-09), pontos para o Paulistano-SP — o SPAC desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
+- jogo que faltava, sem placar: São Paulo Athletic x AA das Palmeiras (1906-08-09), pontos para o AA das Palmeiras — o SPAC desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
+- jogo que faltava, sem placar: AA das Palmeiras x Mackenzie-SP (1906-09-09), pontos para o AA das Palmeiras — o Mackenzie desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
+- jogo que faltava, sem placar: Mackenzie-SP x AA das Palmeiras (1906-09-09), pontos para o AA das Palmeiras — o Mackenzie desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
+- jogo que faltava, sem placar: Mackenzie-SP x Paulistano-SP (1906-09-09), pontos para o Paulistano-SP — o Mackenzie desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
+- jogo que faltava, sem placar: Mackenzie-SP x Germânia (1906-09-09), pontos para o Germânia — o Mackenzie desistiu e a LPF deu os pontos ao adversário (FN; QS-005)
+- campeão pela lista oficial, Germânia; o 1º pela soma dos jogos da última fase é AA das Palmeiras (desempate, jogo extra ou pontos tirados fora de campo)
+- vice SC Internacional-SP — a AA das Palmeiras, com mais pontos, foi eliminada pela LPF em 22/10/1906 (irregularidades na venda de ingressos); vice pela RSSSF, pelo FN e pela Wikipédia (QS-005)
 
 ### 1907
 
@@ -216,11 +226,11 @@ como na RSSSF.
 
 ### 1910
 
-- tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 8, 0, 2, 25, 18] jogos [9, 7, 0, 2, 24, 16] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [8, 3, 2, 3, 17, 16] — a tabela conta 10 jogos e as fontes trazem 8
+- tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 8, 0, 2, 25, 18] jogos [10, 8, 0, 2, 24, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [9, 3, 2, 4, 17, 16] — a tabela conta 10 jogos e as fontes trazem 9
 - tabela publicada x jogos — Fase única / -: Germânia tabela [10, 1, 1, 8, 14, 31] jogos [9, 0, 1, 8, 14, 31] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 8, 0, 2, 25, 18] jogos [9, 7, 0, 2, 24, 16] — a tabela conta 10 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [8, 3, 2, 3, 17, 16] — a tabela conta 10 jogos e as fontes trazem 8
+- tabela publicada x jogos — Fase única / -: Americano-SP tabela [10, 8, 0, 2, 25, 18] jogos [10, 8, 0, 2, 24, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [10, 3, 2, 5, 19, 17] jogos [9, 3, 2, 4, 17, 16] — a tabela conta 10 jogos e as fontes trazem 9
 - tabela publicada x jogos — Fase única / -: Germânia tabela [10, 1, 1, 8, 14, 31] jogos [9, 0, 1, 8, 14, 31] — a tabela conta 10 jogos e as fontes trazem 9
 
 ### 1911
@@ -236,10 +246,7 @@ como na RSSSF.
 
 ### 1913 LPF
 
-- tabela publicada x jogos — Fase única / -: Americano-SP tabela [8, 5, 3, 0, 24, 5] jogos [9, 6, 3, 0, 30, 6] — a tabela conta 8 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [8, 3, 2, 3, 14, 13] jogos [9, 4, 2, 3, 19, 14] — a tabela conta 8 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Corinthians tabela [8, 1, 4, 3, 8, 16] jogos [9, 1, 4, 4, 11, 22] — a tabela conta 8 jogos e as fontes trazem 9
-- tabela publicada x jogos — Fase única / -: Germânia tabela [8, 2, 0, 6, 9, 23] jogos [9, 3, 0, 6, 17, 25] — a tabela conta 8 jogos e as fontes trazem 9
+- 4 jogos do Santos ficam de fora — abandonou a competição; jogos cancelados (FN)
 
 ### 1913 APEA
 
@@ -247,11 +254,8 @@ como na RSSSF.
 
 ### 1914 LPF
 
-- tabela publicada x jogos — Fase única / -: Corinthians tabela [8, 8, 0, 0, 30, 7] jogos [10, 10, 0, 0, 37, 9] — a tabela conta 8 jogos e as fontes trazem 10
-- tabela publicada x jogos — Fase única / -: Campos Elyseos tabela [7, 4, 0, 3, 12, 14] jogos [10, 5, 1, 4, 16, 24] — a tabela conta 7 jogos e as fontes trazem 10
-- tabela publicada x jogos — Fase única / -: Minas Gerais FC tabela [7, 2, 2, 3, 9, 12] jogos [10, 2, 2, 6, 9, 18] — a tabela conta 7 jogos e as fontes trazem 10
-- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [8, 2, 1, 5, 13, 19] jogos [10, 3, 1, 6, 14, 20] — a tabela conta 8 jogos e as fontes trazem 10
-- tabela publicada x jogos — Fase única / -: Luzitano-SP tabela [8, 1, 1, 6, 6, 18] jogos [10, 2, 1, 7, 7, 19] — a tabela conta 8 jogos e as fontes trazem 10
+- 6 jogos do Germânia ficam de fora — retirou-se da competição; jogos cancelados (FN)
+- 8 jogos do Hydecroft ficam de fora — retirou-se da competição; jogos cancelados (FN)
 
 ### 1914 APEA
 
@@ -267,7 +271,9 @@ como na RSSSF.
 
 ### 1915 APEA
 
-- tabela publicada x jogos — Fase única / -: AA São Bento tabela [10, 0, 1, 9, 5, 20] jogos [9, 0, 1, 8, 5, 20] — a tabela conta 10 jogos e as fontes trazem 9
+- tabela publicada x jogos — Fase única / -: Scottish Wanderers tabela [10, 2, 2, 6, 15, 27] jogos [10, 2, 1, 7, 14, 26] — placar diverge entre RSSSF e ogol em AA São Bento x Scottish Wanderers (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- tabela publicada x jogos — Fase única / -: AA São Bento tabela [10, 0, 1, 9, 5, 20] jogos [9, 1, 0, 8, 4, 19] — a tabela conta 10 jogos e as fontes trazem 9
+- AA São Bento 1-1 Scottish Wanderers — pontos para o AA São Bento (FN)
 
 ### 1916 LPF
 
@@ -283,9 +289,8 @@ como na RSSSF.
 
 ### 1916 APEA
 
-- tabela publicada x jogos — Fase única / -: Mackenzie-SP tabela [12, 6, 1, 5, 27, 23] jogos [13, 6, 1, 6, 30, 28] — a tabela conta 12 jogos e as fontes trazem 13
-- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [12, 6, 1, 5, 19, 19] jogos [13, 7, 1, 5, 24, 22] — a tabela conta 12 jogos e as fontes trazem 13
-- tabela publicada x jogos — Fase única / -: Palmeiras tabela [12, 2, 2, 8, 16, 26] jogos [13, 3, 2, 8, 20, 27] — a tabela conta 12 jogos e as fontes trazem 13
+- jogo cancelado fica de fora: Ypiranga-SP 5-3 Mackenzie-SP — 3º jogo do par, fora da tabela publicada (RSSSF e FN; QS-006)
+- jogo cancelado fica de fora: AA das Palmeiras 1-4 Palmeiras — 3º jogo do par, fora da tabela publicada (RSSSF e FN; QS-006)
 
 ### 1917
 
@@ -326,11 +331,11 @@ como na RSSSF.
 
 ### 1919
 
-- tabela publicada x jogos — Fase única / -: Santos tabela [18, 6, 1, 11, 36, 43] jogos [18, 6, 2, 10, 36, 43] — há jogo do clube sem conferência no ogol
-- tabela publicada x jogos — Fase única / -: Minas Gerais FC tabela [15, 4, 2, 9, 18, 49] jogos [15, 3, 3, 9, 19, 49] — há jogo do clube sem conferência no ogol
+- tabela publicada x jogos — Fase única / -: Minas Gerais FC tabela [15, 4, 2, 9, 18, 49] jogos [15, 4, 2, 9, 19, 49] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Fase única / -: Mackenzie-SP tabela [15, 1, 0, 14, 11, 57] jogos [15, 1, 0, 14, 11, 58] — há jogo do clube sem conferência no ogol
 - jogo só no ogol, incluído em Fase única: Mackenzie-SP 0-1 Minas Gerais FC (1919-06-01)
 - jogo só no ogol, incluído em Fase única: Minas Gerais FC 0-0 Santos (1919-11-30)
+- Minas Gerais FC 0-0 Santos — pontos para o Minas Gerais FC (FN)
 
 ### 1920
 
@@ -346,8 +351,9 @@ como na RSSSF.
 
 ### 1921
 
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [22, 19, 1, 2, 98, 14] jogos [22, 20, 1, 1, 98, 14] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [22, 9, 4, 9, 35, 58] jogos [22, 8, 4, 10, 35, 58] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [22, 19, 1, 2, 98, 14] jogos [22, 19, 1, 2, 95, 12] — placar diverge entre RSSSF e ogol em Ypiranga-SP x Paulistano-SP (None-None x 2-3) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [22, 9, 4, 9, 35, 58] jogos [22, 9, 4, 9, 33, 55] — placar diverge entre RSSSF e ogol em Ypiranga-SP x Paulistano-SP (None-None x 2-3) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- Ypiranga-SP 2-3 Paulistano-SP — pontos para o Ypiranga-SP (FN)
 
 ### 1922
 
@@ -359,24 +365,12 @@ como na RSSSF.
 
 ### 1923
 
-- tabela publicada x jogos — 1º Turno / -: Palmeiras tabela [10, 6, 1, 3, 24, 14] jogos [11, 6, 2, 3, 27, 17] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: EC Sírio tabela [10, 5, 3, 2, 16, 9] jogos [11, 5, 3, 3, 16, 12] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: AA São Bento tabela [10, 5, 2, 3, 20, 19] jogos [11, 5, 2, 4, 20, 22] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: Portuguesa tabela [10, 3, 4, 3, 15, 13] jogos [11, 3, 4, 4, 16, 17] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: Ypiranga-SP tabela [10, 3, 3, 4, 12, 12] jogos [11, 3, 4, 4, 12, 12] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: Santos tabela [10, 2, 3, 5, 12, 19] jogos [11, 2, 3, 6, 12, 21] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: SC Internacional-SP tabela [10, 1, 1, 8, 10, 37] jogos [11, 1, 1, 9, 10, 43] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: Minas Gerais FC tabela [10, 0, 3, 7, 13, 28] jogos [11, 0, 4, 7, 16, 31] — a tabela conta 10 jogos e as fontes trazem 11
 - tabela publicada x jogos — 1º Turno / -: Corinthians tabela [17, 14, 1, 2, 53, 14] jogos [17, 14, 1, 2, 54, 14] — há jogo do clube sem conferência no ogol
-- tabela publicada x jogos — 1º Turno / -: Palmeiras tabela [17, 11, 2, 4, 44, 22] jogos [18, 11, 3, 4, 44, 23] — a tabela conta 17 jogos e as fontes trazem 18
-- tabela publicada x jogos — 1º Turno / -: EC Sírio tabela [17, 10, 3, 4, 35, 20] jogos [18, 10, 3, 5, 35, 21] — a tabela conta 17 jogos e as fontes trazem 18
-- tabela publicada x jogos — 1º Turno / -: AA São Bento tabela [17, 8, 3, 6, 35, 33] jogos [18, 8, 3, 7, 35, 33] — a tabela conta 17 jogos e as fontes trazem 18
-- tabela publicada x jogos — 1º Turno / -: Portuguesa tabela [17, 6, 6, 5, 25, 25] jogos [18, 6, 6, 6, 25, 25] — a tabela conta 17 jogos e as fontes trazem 18
-- tabela publicada x jogos — 1º Turno / -: Ypiranga-SP tabela [17, 5, 5, 7, 22, 24] jogos [18, 5, 6, 7, 22, 24] — a tabela conta 17 jogos e as fontes trazem 18
+- tabela publicada x jogos — 1º Turno / -: Palmeiras tabela [17, 11, 2, 4, 44, 22] jogos [17, 11, 2, 4, 41, 20] — há jogo do clube sem conferência no ogol
+- tabela publicada x jogos — 1º Turno / -: EC Sírio tabela [17, 10, 3, 4, 35, 20] jogos [17, 10, 3, 4, 35, 18] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — 1º Turno / -: AA São Bento tabela [17, 8, 3, 6, 35, 33] jogos [17, 8, 3, 6, 35, 30] — há jogo do clube sem conferência no ogol
+- tabela publicada x jogos — 1º Turno / -: Portuguesa tabela [17, 6, 6, 5, 25, 25] jogos [17, 6, 6, 5, 24, 21] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — 1º Turno / -: Germânia tabela [17, 6, 2, 9, 27, 42] jogos [17, 6, 2, 9, 28, 42] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — 1º Turno / -: Santos tabela [10, 2, 3, 5, 12, 19] jogos [11, 2, 3, 6, 12, 21] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: SC Internacional-SP tabela [10, 1, 1, 8, 10, 37] jogos [11, 1, 1, 9, 10, 43] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: Minas Gerais FC tabela [10, 0, 3, 7, 13, 28] jogos [11, 0, 4, 7, 16, 31] — a tabela conta 10 jogos e as fontes trazem 11
 - nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Paulistano
 - Paulistano — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Paulistano-SP)
 - jogo só no ogol, incluído em Primeiro Turno: Corinthians 4-1 Portuguesa (1923-04-22)
@@ -390,16 +384,14 @@ como na RSSSF.
 - só na RSSSF (não achado no ogol): Paulistano-SP 6-0 SC Internacional-SP (1923-06-17)
 - só na RSSSF (não achado no ogol): Palmeiras 3-3 Paulistano-SP (1923-06-24)
 - só na RSSSF (não achado no ogol): Ypiranga-SP 0-0 Paulistano-SP (1923-07-01)
+- 8 jogos do Paulistano-SP ficam de fora — abandonou a competição; jogos cancelados (FN)
 - campeão pela lista oficial, Corinthians; o 1º pela soma dos jogos da última fase é Palmeiras (desempate, jogo extra ou pontos tirados fora de campo)
 
 ### 1924
 
-- tabela publicada x jogos — 1º Turno / -: Paulistano-SP tabela [10, 6, 2, 2, 20, 12] jogos [11, 7, 2, 2, 23, 13] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 1º Turno / -: Minas Gerais FC tabela [10, 3, 2, 5, 17, 24] jogos [11, 4, 2, 5, 20, 26] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — 3. AA das Palmeiras  0 eliminated / -: Paulistano-SP tabela [17, 10, 3, 4, 31, 15] jogos [18, 11, 3, 4, 34, 16] — a tabela conta 17 jogos e as fontes trazem 18
 - tabela publicada x jogos — 3. AA das Palmeiras  0 eliminated / -: AA São Bento tabela [17, 9, 4, 4, 30, 20] jogos [17, 9, 4, 4, 31, 20] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — 3. AA das Palmeiras  0 eliminated / -: Santos tabela [17, 9, 3, 5, 44, 29] jogos [17, 9, 3, 5, 45, 29] — há jogo do clube sem conferência no ogol
-- tabela publicada x jogos — 3. AA das Palmeiras  0 eliminated / -: Minas Gerais FC tabela [16, 3, 4, 9, 24, 41] jogos [19, 5, 5, 9, 34, 48] — a tabela conta 16 jogos e as fontes trazem 19
+- tabela publicada x jogos — 3. AA das Palmeiras  0 eliminated / -: Minas Gerais FC tabela [16, 3, 4, 9, 24, 41] jogos [18, 4, 5, 9, 31, 46] — a tabela conta 16 jogos e as fontes trazem 18
 - tabela publicada x jogos — 3. AA das Palmeiras  0 eliminated / -: Portuguesa tabela [16, 3, 2, 11, 18, 39] jogos [18, 4, 3, 11, 26, 48] — a tabela conta 16 jogos e as fontes trazem 18
 - tabela publicada x jogos — 3. AA das Palmeiras  0 eliminated / -: Germânia tabela [10, 2, 1, 7, 16, 21] jogos [10, 3, 1, 6, 17, 20] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Palestra Itália
@@ -409,19 +401,14 @@ como na RSSSF.
 - jogo só no ogol, incluído em Segundo Turno: Santos 1-0 Portuguesa (1925-01-11)
 - só na RSSSF (não achado no ogol): Paulistano-SP 3-1 Palmeiras (1924-04-21)
 - só na RSSSF (não achado no ogol): Minas Gerais FC 3-2 Palmeiras (1924-05-03)
+- 2 jogos do Palmeiras ficam de fora — o Palestra Itália abandonou a competição; jogos cancelados (FN)
 - campeão pela lista oficial, Corinthians; o 1º pela soma dos jogos da última fase é Santos (desempate, jogo extra ou pontos tirados fora de campo)
 
 ### 1925
 
 - campeão: Associação Atlética São Bento (o mesmo de 1914 APEA)
-- tabela publicada x jogos — Fase única / -: AA São Bento tabela [10, 8, 0, 2, 25, 17] jogos [11, 9, 0, 2, 26, 17] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Corinthians tabela [10, 7, 1, 2, 20, 7] jogos [11, 8, 1, 2, 24, 8] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Palmeiras tabela [10, 5, 1, 4, 23, 16] jogos [10, 5, 2, 3, 23, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Portuguesa tabela [10, 4, 0, 6, 14, 17] jogos [11, 4, 0, 7, 15, 19] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [10, 3, 0, 7, 15, 23] jogos [11, 4, 0, 7, 19, 25] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 3, 0, 7, 14, 24] jogos [11, 3, 1, 7, 16, 24] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [10, 2, 2, 6, 12, 21] jogos [11, 2, 2, 7, 14, 24] — a tabela conta 10 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Auto Audax tabela [10, 1, 1, 8, 9, 24] jogos [11, 2, 1, 8, 11, 25] — a tabela conta 10 jogos e as fontes trazem 11
+- tabela publicada x jogos — Fase única / -: Palmeiras tabela [10, 5, 1, 4, 23, 16] jogos [10, 5, 1, 4, 22, 15] — placar diverge entre RSSSF e ogol em Palmeiras x Germânia (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- tabela publicada x jogos — Fase única / -: Germânia tabela [10, 3, 0, 7, 14, 24] jogos [10, 3, 0, 7, 13, 23] — placar diverge entre RSSSF e ogol em Palmeiras x Germânia (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - nome da RSSSF sem clube no ogol (jogos dele ficam de fora): AA das Palmeiras
 - AA das Palmeiras — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (AA das Palmeiras)
 - só na RSSSF (não achado no ogol): AA das Palmeiras 1-2 Auto Audax (1925-04-19)
@@ -431,6 +418,8 @@ como na RSSSF.
 - só na RSSSF (não achado no ogol): AA das Palmeiras 1-4 Corinthians (1925-05-31)
 - só na RSSSF (não achado no ogol): AA das Palmeiras 0-1 AA São Bento (1925-06-14)
 - só na RSSSF (não achado no ogol): SC Internacional-SP 4-2 AA das Palmeiras (1925-06-21)
+- Palmeiras 1-1 Germânia — pontos para o Germânia (FN)
+- 7 jogos do AA das Palmeiras ficam de fora — abandonou a competição; jogos cancelados (FN)
 
 ### 1926 APEA
 
@@ -444,60 +433,39 @@ como na RSSSF.
 
 ### 1927 APEA
 
-- tabela publicada x jogos — 1º Turno / -: Palmeiras tabela [12, 11, 1, 0, 70, 13] jogos [17, 15, 1, 1, 100, 24] — a tabela conta 12 jogos e as fontes trazem 17
-- tabela publicada x jogos — 1º Turno / -: Corinthians tabela [13, 3, 1, 9, 20, 43] jogos [29, 15, 1, 13, 80, 75] — a tabela conta 13 jogos e as fontes trazem 29
+- tabela publicada x jogos — 1º Turno / -: Palmeiras tabela [12, 11, 1, 0, 70, 13] jogos [16, 14, 1, 1, 89, 22] — a tabela conta 12 jogos e as fontes trazem 16
+- tabela publicada x jogos — 1º Turno / -: Corinthians tabela [12, 10, 0, 2, 45, 19] jogos [16, 12, 0, 4, 60, 32] — a tabela conta 12 jogos e as fontes trazem 16
 - tabela publicada x jogos — 1º Turno / -: Guarani tabela [11, 7, 1, 3, 39, 28] jogos [14, 8, 1, 5, 49, 38] — a tabela conta 11 jogos e as fontes trazem 14
 - tabela publicada x jogos — 1º Turno / -: Santos tabela [8, 7, 0, 1, 39, 19] jogos [16, 14, 0, 2, 100, 33] — a tabela conta 8 jogos e as fontes trazem 16
-- tabela publicada x jogos — 1º Turno / -: Palmeiras tabela [16, 14, 1, 1, 89, 22] jogos [17, 15, 1, 1, 100, 24] — a tabela conta 16 jogos e as fontes trazem 17
-- tabela publicada x jogos — 1º Turno / -: Corinthians tabela [13, 3, 1, 9, 20, 43] jogos [29, 15, 1, 13, 80, 75] — a tabela conta 13 jogos e as fontes trazem 29
 - tabela publicada x jogos — 1º Turno / -: Guarani tabela [14, 7, 1, 6, 47, 38] jogos [14, 8, 1, 5, 49, 38] — há jogo do clube sem conferência no ogol
-- tabela publicada x jogos — 1º Turno / -: Portuguesa tabela [13, 7, 0, 6, 43, 44] jogos [13, 7, 0, 6, 43, 43] — há jogo do clube sem conferência no ogol
-- tabela publicada x jogos — 1º Turno / -: Comercial-RP tabela [9, 3, 0, 6, 13, 22] jogos [9, 2, 0, 7, 13, 24] — há jogo do clube sem conferência no ogol
-- tabela publicada x jogos — 1º Turno / -: Sílex tabela [11, 4, 1, 6, 23, 27] jogos [11, 4, 1, 6, 22, 27] — há jogo do clube sem conferência no ogol
-- placar diferente no ogol — Palmeiras x Corinthians (1927-08-21): RSSSF 11-2, ogol 3-1; fica o da RSSSF
+- tabela publicada x jogos — 1º Turno / -: Portuguesa tabela [13, 7, 0, 6, 43, 44] jogos [13, 7, 0, 6, 43, 43] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — 1º Turno / -: Comercial-RP tabela [9, 3, 0, 6, 13, 22] jogos [9, 2, 0, 7, 13, 24] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — 1º Turno / -: Sílex tabela [11, 4, 1, 6, 23, 27] jogos [11, 4, 1, 6, 22, 27] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - placar corrigido pelo ogol — Sílex x Portuguesa (1927-08-21): RSSSF 1-1, ogol 0-1; fica o do ogol, que fecha com a tabela publicada
-- data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Palmeiras x Corinthians, ogol 1927-08-21); fica a do ogol
-- adversário diferente no ogol — RSSSF Portuguesa 5-1 Corinthians, ogol Portuguesa 5-1 Corinthians de Santo André (1927-05-13); fica a RSSSF
-- adversário diferente no ogol — RSSSF Corinthians 0-2 República, ogol Corinthians de Santo André 0-2 República (1927-05-22); fica a RSSSF
-- adversário diferente no ogol — RSSSF SPAlpargatas 1-1 Corinthians, ogol SPAlpargatas 1-1 Corinthians de Santo André (1927-05-29); fica a RSSSF
-- adversário diferente no ogol — RSSSF Corinthians 3-2 Americano-SP, ogol Corinthians de Santo André 3-2 Americano-SP (1927-06-12); fica a RSSSF
-- adversário diferente no ogol — RSSSF Barra Funda 1-0 Corinthians, ogol Barra Funda 1-0 Corinthians de Santo André (1927-06-26); fica a RSSSF
-- adversário diferente no ogol — RSSSF Corinthians 7-5 Ypiranga-SP, ogol Corinthians de Santo André 7-5 Ypiranga-SP (1927-07-10); fica a RSSSF
-- adversário diferente no ogol — RSSSF Guarani 4-1 Corinthians, ogol Guarani 4-1 Corinthians de Santo André (1927-07-24); fica a RSSSF
-- adversário diferente no ogol — RSSSF Corinthians 4-1 Corinthians, ogol Corinthians 4-1 Corinthians de Santo André (1927-07-31); fica a RSSSF
-- adversário diferente no ogol — RSSSF Primeiro de Maio-SP 1-2 Corinthians, ogol Primeiro de Maio-SP 1-2 Corinthians de Santo André (1927-08-21); fica a RSSSF
-- adversário diferente no ogol — RSSSF Santos 4-1 Corinthians, ogol Santos 4-1 Corinthians de Santo André (1927-08-29); fica a RSSSF
-- adversário diferente no ogol — RSSSF Comercial-RP 2-1 Corinthians, ogol Comercial-RP 2-1 Corinthians de Santo André (1927-09-04); fica a RSSSF
-- adversário diferente no ogol — RSSSF Sílex 1-0 Corinthians, ogol Sílex 1-0 Corinthians de Santo André (1927-10-16); fica a RSSSF
 - jogo só no ogol, incluído em Primeiro Turno: Americano-SP 0-0 Barra Funda (1927-05-03)
-- jogo só no ogol, incluído em Primeiro Turno: Palmeiras 11-2 Corinthians de Santo André (1927-07-17)
 - jogo só no ogol, incluído em Primeiro Turno: Guarani 2-4 Santos (1928-02-05)
-- só na RSSSF (não achado no ogol): Palmeiras 3-1 Corinthians (1927-08-21)
 
 ### 1927 LAF
 
-- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [9, 6, 3, 0, 30, 7] jogos [11, 6, 4, 1, 32, 10] — a tabela conta 9 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Jabaquara tabela [9, 6, 1, 2, 23, 16] jogos [11, 6, 2, 3, 26, 24] — a tabela conta 9 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Paulista tabela [9, 5, 1, 3, 24, 20] jogos [11, 6, 1, 4, 29, 27] — a tabela conta 9 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: AA São Bento tabela [9, 5, 1, 3, 17, 11] jogos [11, 5, 1, 5, 18, 16] — a tabela conta 9 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: Germânia tabela [9, 4, 2, 3, 25, 22] jogos [12, 7, 2, 3, 32, 24] — a tabela conta 9 jogos e as fontes trazem 12
-- tabela publicada x jogos — Fase única / -: AA das Palmeiras tabela [9, 3, 2, 4, 15, 23] jogos [11, 3, 2, 6, 17, 28] — a tabela conta 9 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [9, 3, 1, 5, 16, 20] jogos [9, 2, 1, 6, 17, 23] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Atlético Santista tabela [9, 3, 1, 5, 17, 18] jogos [13, 6, 1, 6, 24, 24] — a tabela conta 9 jogos e as fontes trazem 13
-- tabela publicada x jogos — Fase única / -: Antarctica tabela [9, 2, 1, 6, 16, 33] jogos [11, 2, 2, 7, 21, 40] — a tabela conta 9 jogos e as fontes trazem 11
-- tabela publicada x jogos — Fase única / -: SantAnna tabela [9, 1, 1, 7, 8, 21] jogos [12, 0, 2, 10, 11, 30] — a tabela conta 9 jogos e as fontes trazem 12
+- tabela publicada x jogos — Fase única / -: Atlético Santista tabela [9, 3, 1, 5, 17, 18] jogos [9, 4, 1, 4, 18, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: SantAnna tabela [9, 1, 1, 7, 8, 21] jogos [9, 0, 1, 8, 7, 23] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - nome da RSSSF sem clube no ogol (jogos dele ficam de fora): AA Palmeiras
 - AA Palmeiras — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (AA das Palmeiras)
 - placar diferente no ogol — Paulistano-SP x Corinthians (1927-06-26): RSSSF 0-1, ogol 1-0; fica o da RSSSF
 - jogo só no ogol, incluído em Fase única: Germânia 2-2 Paulistano-SP (1927-04-03)
-- campeão pela lista oficial, Paulistano-SP; o 1º pela soma dos jogos da última fase é Germânia (desempate, jogo extra ou pontos tirados fora de campo)
+- 5 jogos do Corinthians ficam de fora — deixou a LAF e foi para a APEA; jogos cancelados (FN; SP-010)
+- 7 jogos do EC Sírio ficam de fora — deixou a LAF e foi para a APEA; jogos cancelados (FN; SP-010)
+- 7 jogos do Independência-SP ficam de fora — deixou a LAF e foi para a APEA; jogos cancelados (FN; SP-010)
+- 7 jogos do Sílex ficam de fora — deixou a LAF e foi para a APEA; jogos cancelados (FN; SP-010)
+- 4 jogos do Taubaté ficam de fora — deixou a LAF e foi para a APEA; jogos cancelados (FN; SP-010)
+- jogo que faltava, sem placar: SC Internacional-SP x Paulista (1927-10-30), pontos para o SC Internacional-SP — W.O. ("0 x WO" na página, que o leitor não pega; "WO-0" no FN); com ele as campanhas fecham com a tabela da RSSSF
 
 ### 1928 APEA
 
-- tabela publicada x jogos — Fase única / -: Palmeiras tabela [12, 8, 2, 2, 45, 16] jogos [14, 9, 3, 2, 52, 19] — a tabela conta 12 jogos e as fontes trazem 14
-- tabela publicada x jogos — Fase única / -: Guarani tabela [12, 5, 1, 6, 28, 24] jogos [13, 5, 1, 7, 28, 27] — a tabela conta 12 jogos e as fontes trazem 13
-- tabela publicada x jogos — Fase única / -: Portuguesa tabela [12, 3, 1, 8, 12, 35] jogos [14, 3, 1, 10, 16, 45] — a tabela conta 12 jogos e as fontes trazem 14
-- tabela publicada x jogos — Fase única / -: EC Sírio tabela [12, 1, 1, 10, 7, 44] jogos [13, 2, 1, 10, 10, 44] — a tabela conta 12 jogos e as fontes trazem 13
+- tabela publicada x jogos — Fase única / -: Palmeiras tabela [12, 8, 2, 2, 45, 16] jogos [13, 9, 2, 2, 51, 18] — a tabela conta 12 jogos e as fontes trazem 13
+- tabela publicada x jogos — Fase única / -: Guarani tabela [12, 5, 1, 6, 28, 24] jogos [12, 5, 1, 6, 27, 24] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Portuguesa tabela [12, 3, 1, 8, 12, 35] jogos [13, 3, 1, 9, 15, 42] — a tabela conta 12 jogos e as fontes trazem 13
+- tabela publicada x jogos — Fase única / -: EC Sírio tabela [12, 1, 1, 10, 7, 44] jogos [12, 1, 1, 10, 7, 43] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Comercial (RP)
 - Comercial (RP) — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Comercial-RP)
 - só na RSSSF (não achado no ogol): Palmeiras 1-1 Comercial-RP (1928-07-01)
@@ -505,17 +473,18 @@ como na RSSSF.
 - só na RSSSF (não achado no ogol): Portuguesa 1-3 Comercial-RP (1928-07-14)
 - só na RSSSF (não achado no ogol): Comercial-RP 1-3 EC Sírio (1928-07-22)
 - só na RSSSF (não achado no ogol): Palmeiras 6-3 Portuguesa (1928-07-29)
+- 4 jogos do Comercial-RP ficam de fora — jogos cancelados (FN; a tabela da RSSSF não os conta)
 
 ### 1928 LAF
 
-- tabela publicada x jogos — Primeira fase / -: SC Internacional-SP tabela [22, 14, 5, 3, 61, 32] jogos [22, 14, 5, 3, 63, 32] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Primeira fase / -: Paulistano-SP tabela [22, 15, 3, 4, 61, 22] jogos [23, 15, 3, 5, 61, 24] — a tabela conta 22 jogos e as fontes trazem 23
-- tabela publicada x jogos — Primeira fase / -: Atlético Santista tabela [22, 10, 6, 6, 57, 31] jogos [22, 10, 5, 7, 56, 31] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Primeira fase / -: AA São Bento tabela [22, 9, 5, 8, 41, 40] jogos [22, 10, 4, 8, 41, 39] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Primeira fase / -: Independência-SP tabela [22, 8, 2, 12, 50, 58] jogos [21, 8, 2, 11, 50, 58] — a tabela conta 22 jogos e as fontes trazem 21
+- tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [22, 14, 5, 3, 61, 32] jogos [23, 15, 5, 3, 64, 32] — a tabela conta 22 jogos e as fontes trazem 23
+- tabela publicada x jogos — Fase única / -: Paulistano-SP tabela [22, 15, 3, 4, 61, 22] jogos [23, 15, 3, 5, 61, 24] — a tabela conta 22 jogos e as fontes trazem 23
+- tabela publicada x jogos — Fase única / -: Atlético Santista tabela [22, 10, 6, 6, 57, 31] jogos [22, 10, 5, 7, 56, 31] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: AA São Bento tabela [22, 9, 5, 8, 41, 40] jogos [22, 10, 4, 8, 41, 39] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Independência-SP tabela [22, 8, 2, 12, 50, 58] jogos [22, 8, 2, 12, 50, 59] — há jogo do clube sem conferência no ogol
+- jogo do ogol ignorado — AF: Paulista 127-0 LAF não é jogo (linha de resumo do ogol, sem data e contra um clube "LAF" que não existe; o Futebol Nacional dá 133 jogos sem ele; achado SP-011)
 - nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Sant'Anna
 - Sant'Anna — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (SantAnna)
-- jogo só no ogol, incluído em Primeira fase / Grupo C: Paulista 127-0 LAF (0000-00-00)
 - jogo só no ogol, incluído em Fase única: SC Internacional-SP 1-0 Independência-SP (1928-07-29)
 
 ### 1929 APEA
@@ -541,14 +510,16 @@ como na RSSSF.
 
 ### 1930
 
-- tabela publicada x jogos — Fase única / -: Corinthians tabela [26, 20, 4, 2, 94, 33] jogos [26, 19, 4, 3, 94, 33] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Corinthians tabela [26, 20, 4, 2, 94, 33] jogos [26, 20, 4, 2, 94, 32] — placar diverge entre RSSSF e ogol em Palmeiras x Corinthians (None-None x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Fase única / -: São Paulo tabela [26, 15, 10, 1, 74, 27] jogos [26, 16, 9, 1, 77, 27] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Palmeiras tabela [26, 17, 6, 3, 85, 27] jogos [26, 18, 6, 2, 85, 29] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Palmeiras tabela [26, 17, 6, 3, 85, 27] jogos [26, 17, 6, 3, 84, 29] — placar diverge entre RSSSF e ogol em Palmeiras x Corinthians (None-None x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Fase única / -: Santos tabela [26, 18, 4, 4, 80, 38] jogos [26, 18, 4, 4, 80, 39] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase única / -: SC Internacional-SP tabela [26, 10, 5, 11, 45, 43] jogos [26, 10, 5, 11, 42, 42] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: EC Sírio tabela [26, 9, 3, 14, 65, 60] jogos [26, 10, 3, 13, 66, 60] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [26, 4, 3, 19, 29, 100] jogos [26, 3, 3, 20, 28, 101] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: EC Sírio tabela [26, 9, 3, 14, 65, 60] jogos [26, 9, 3, 14, 61, 59] — placar diverge entre RSSSF e ogol em EC Sírio x Ypiranga-SP (None-None x 5-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [26, 4, 3, 19, 29, 100] jogos [26, 4, 3, 19, 27, 96] — placar diverge entre RSSSF e ogol em EC Sírio x Ypiranga-SP (None-None x 5-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Fase única / -: Germânia tabela [26, 5, 1, 20, 44, 79] jogos [26, 6, 1, 19, 44, 76] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- EC Sírio 5-1 Ypiranga-SP — pontos para o Ypiranga-SP (FN)
+- Palmeiras 1-0 Corinthians — pontos para o Corinthians (os jogadores do Palestra saíram de campo depois da anulação de um gol (FN; SP-013))
 
 ### 1931
 
@@ -593,13 +564,14 @@ como na RSSSF.
 
 ### 1935 APEA
 
-- tabela publicada x jogos — Fase única / -: Portuguesa tabela [14, 10, 2, 2, 65, 17] jogos [16, 11, 3, 2, 65, 17] — a tabela conta 14 jogos e as fontes trazem 16
-- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [14, 11, 0, 3, 50, 33] jogos [16, 10, 2, 4, 50, 33] — a tabela conta 14 jogos e as fontes trazem 16
-- tabela publicada x jogos — Fase única / -: Estudantes de São Paulo tabela [14, 9, 2, 3, 47, 16] jogos [14, 9, 3, 2, 47, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: São Caetano EC tabela [14, 7, 2, 5, 29, 31] jogos [15, 8, 2, 5, 33, 34] — a tabela conta 14 jogos e as fontes trazem 15
-- tabela publicada x jogos — Fase única / -: Jardim América tabela [13, 3, 1, 9, 23, 39] jogos [14, 4, 1, 9, 24, 39] — a tabela conta 13 jogos e as fontes trazem 14
+- tabela publicada x jogos — Fase única / -: Portuguesa tabela [14, 10, 2, 2, 65, 17] jogos [16, 12, 2, 2, 63, 15] — a tabela conta 14 jogos e as fontes trazem 16
+- tabela publicada x jogos — Fase única / -: Ypiranga-SP tabela [14, 11, 0, 3, 50, 33] jogos [16, 11, 0, 5, 47, 30] — a tabela conta 14 jogos e as fontes trazem 16
+- tabela publicada x jogos — Fase única / -: Estudantes de São Paulo tabela [14, 9, 2, 3, 47, 16] jogos [14, 9, 2, 3, 46, 15] — placar diverge entre RSSSF e ogol em Estudantes de São Paulo x Ypiranga-SP (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - jogo só no ogol, incluído em Fase única: Portuguesa 2-2 Ypiranga-SP (1936-01-05)
 - jogo só no ogol, incluído em Fase única: Portuguesa 5-2 Ypiranga-SP (1936-01-12)
+- Estudantes de São Paulo 1-1 Ypiranga-SP — pontos para o Ypiranga-SP (FN)
+- Portuguesa 2-2 Ypiranga-SP — pontos para o Portuguesa (FN)
+- 2 jogos do Independente de Limeira ficam de fora — abandonou a competição; jogos cancelados (FN)
 
 ### 1936 LPF
 
@@ -633,8 +605,8 @@ como na RSSSF.
 
 - tabela publicada x jogos — Fase única / -: Corinthians tabela [10, 7, 3, 0, 19, 8] jogos [10, 6, 4, 0, 19, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase única / -: São Paulo tabela [10, 3, 2, 5, 19, 23] jogos [10, 6, 2, 2, 30, 13] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Fase única / -: Juventus-SP tabela [10, 4, 1, 5, 14, 15] jogos [11, 4, 1, 6, 15, 17] — a tabela conta 10 jogos e as fontes trazem 11
 - tabela publicada x jogos — Fase única / -: Luzitano-SP tabela [10, 2, 0, 8, 12, 38] jogos [10, 2, 1, 7, 14, 38] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- 1 jogos do Estudantes de São Paulo ficam de fora — abandonou a competição e juntou-se ao São Paulo; jogo cancelado (FN)
 
 ### 1939
 
@@ -654,8 +626,6 @@ como na RSSSF.
 
 ### 1942
 
-- tabela publicada x jogos — Fase única / -: Palmeiras tabela [20, 17, 2, 1, 65, 19] jogos [19, 17, 2, 0, 64, 16] — a tabela conta 20 jogos e as fontes trazem 19
-- tabela publicada x jogos — Fase única / -: Corinthians tabela [20, 15, 3, 2, 78, 29] jogos [19, 14, 3, 2, 75, 28] — a tabela conta 20 jogos e as fontes trazem 19
 - tabela publicada x jogos — Fase única / -: São Paulo tabela [20, 8, 3, 9, 48, 61] jogos [20, 15, 2, 3, 77, 29] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Fase única / -: Portuguesa tabela [20, 8, 2, 10, 44, 52] jogos [20, 7, 2, 11, 44, 51] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Fase única / -: Portuguesa Santista tabela [20, 5, 0, 15, 39, 60] jogos [20, 6, 0, 14, 39, 60] — há jogo do clube sem conferência no ogol
@@ -670,6 +640,7 @@ como na RSSSF.
 - só na RSSSF (não achado no ogol): Portuguesa 3-1 SPRAC (1942-10-03)
 - só na RSSSF (não achado no ogol): Portuguesa Santista 2-1 Santos (1942-10-04)
 - só na RSSSF (não achado no ogol): Ypiranga-SP 7-1 Comercial Paulistano (1942-10-04)
+- só na RSSSF (não achado no ogol): Corinthians 3-1 Palmeiras (1942-10-04)
 
 ### 1943
 
@@ -1436,10 +1407,11 @@ como na RSSSF.
 ### 1968
 
 - tabela publicada x jogos — 2º Turno / -: Ferroviária-SP tabela [26, 11, 8, 7, 42, 31] jogos [26, 11, 8, 7, 42, 32] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — 2º Turno / -: Guarani tabela [26, 8, 6, 12, 28, 29] jogos [26, 8, 7, 11, 29, 29] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — 2º Turno / -: Palmeiras tabela [26, 8, 5, 13, 34, 43] jogos [26, 7, 6, 13, 34, 43] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — 2º Turno / -: Guarani tabela [26, 8, 6, 12, 28, 29] jogos [26, 8, 6, 12, 28, 28] — placar diverge entre RSSSF e ogol em Guarani x Palmeiras (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- tabela publicada x jogos — 2º Turno / -: Palmeiras tabela [26, 8, 5, 13, 34, 43] jogos [26, 8, 5, 13, 33, 42] — placar diverge entre RSSSF e ogol em Guarani x Palmeiras (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - placar corrigido pelo ogol — Juventus-SP x XV de Piracicaba (1968-05-18): RSSSF 0-2, ogol 2-0; fica o do ogol, que fecha com a tabela publicada
 - placar corrigido pelo ogol — Comercial-RP x Portuguesa (1968-06-02): RSSSF 0-1, ogol 0-0; fica o do ogol, que fecha com a tabela publicada
+- Guarani 1-1 Palmeiras — pontos para o Palmeiras (o Guarani escalou jogador irregular (FN))
 
 ### 1969
 
@@ -1501,6 +1473,7 @@ como na RSSSF.
 
 - jogo só no ogol, incluído em Primeiro Turno: América-SP 2-0 Ferroviária-SP (1976-02-22)
 - jogo só no ogol, incluído em Segundo Turno: Corinthians 1-0 São Bento (1976-07-11)
+- 66 jogos da fase "2º Turno" passam para "Fase final" (FASE_ANO/FASE_JOGO)
 
 ### 1977
 
@@ -1735,7 +1708,11 @@ como na RSSSF.
 - jogo só no ogol, incluído em 1st Phase: Santos 3-1 Guarani (1979-05-30)
 - jogo só no ogol, incluído em 1st Phase: Santos 1-1 São Paulo (1979-06-24)
 - jogo só no ogol, incluído em 1st Phase: Santos 0-2 São Paulo (1979-06-28)
-- vencedor da final pelos jogos (Corinthians) diferente do campeão oficial (Santos); fica o oficial
+- 1 jogos da fase "Final" passam para "1º Turno - Final" (FASE_ANO/FASE_JOGO)
+- 2 jogos da fase "Primeira fase" passam para "Final" (FASE_ANO/FASE_JOGO)
+- 4 jogos da fase "Quartas de final" passam para "1º Turno - Quartas de final" (FASE_ANO/FASE_JOGO)
+- 2 jogos da fase "Semifinal" passam para "1º Turno - Semifinal" (FASE_ANO/FASE_JOGO)
+- vencedor da final pelos jogos (São Paulo) diferente do campeão oficial (Santos); fica o oficial
 
 ### 1979
 
@@ -1788,7 +1765,6 @@ como na RSSSF.
 - tabela publicada x jogos — 1º Turno / -: América-SP tabela [19, 5, 9, 5, 11, 14] jogos [25, 7, 12, 6, 15, 17] — a tabela conta 19 jogos e as fontes trazem 25
 - tabela publicada x jogos — 1º Turno / -: Comercial-RP tabela [19, 5, 7, 7, 15, 26] jogos [25, 7, 9, 9, 21, 33] — a tabela conta 19 jogos e as fontes trazem 25
 - tabela publicada x jogos — 1º Turno / -: Noroeste tabela [19, 4, 4, 11, 10, 22] jogos [19, 3, 6, 10, 10, 22] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Final / -: São Paulo tabela [2, 1, 1, 0, 2, 1] jogos [4, 2, 2, 0, 5, 2] — a tabela conta 2 jogos e as fontes trazem 4
 - tabela publicada x jogos — 2º Turno / -: São Paulo tabela [19, 11, 3, 5, 36, 18] jogos [27, 15, 5, 7, 45, 24] — a tabela conta 19 jogos e as fontes trazem 27
 - tabela publicada x jogos — 2º Turno / -: Guarani tabela [19, 9, 6, 4, 34, 23] jogos [25, 11, 10, 4, 43, 28] — a tabela conta 19 jogos e as fontes trazem 25
 - tabela publicada x jogos — 2º Turno / -: São José-SP tabela [19, 8, 6, 5, 19, 18] jogos [27, 11, 9, 7, 28, 25] — a tabela conta 19 jogos e as fontes trazem 27
@@ -1805,7 +1781,8 @@ como na RSSSF.
 - XV de Novembro — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (XV de Piracicaba)
 - mando da RSSSF trocado pelo do ogol (a página escreve as partidas de São Paulo x Ponte Preta na Final sempre na mesma ordem) — ogol Ponte Preta 1-1 São Paulo (1981-11-25)
 - placar diferente no ogol — XV de Jaú x São Paulo (1981-06-18): RSSSF 0-0, ogol 1-1; fica o da RSSSF
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, São Paulo
+- 4 jogos da fase "Final" passam para "1º Turno - Final" (FASE_ANO/FASE_JOGO)
+- 3 jogos da fase "Final" passam para "2º Turno - Final" (FASE_ANO/FASE_JOGO)
 
 ### 1982
 
@@ -1826,6 +1803,7 @@ como na RSSSF.
 
 - jogo só no ogol, incluído em Fase única: Portuguesa 2-0 São Bento (1984-09-09)
 - jogo só no ogol, incluído em Fase única: Taquaritinga 1-0 Marília (1984-09-09)
+- Palmeiras 2-1 São Paulo — pontos para o São Paulo (doping de jogador do Palmeiras (FN))
 
 ### 1985
 
@@ -1838,8 +1816,10 @@ como na RSSSF.
 ### 1986
 
 - tabela publicada x jogos — Primeira fase / -: Portuguesa tabela [19, 10, 5, 4, 29, 21] jogos [19, 10, 5, 4, 28, 20] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Primeira fase / -: Palmeiras tabela [19, 9, 5, 5, 28, 19] jogos [19, 10, 4, 5, 26, 17] — placar diverge entre RSSSF e ogol em Palmeiras x Santo André (None-None x 2-2) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Primeira fase / -: Juventus-SP tabela [19, 10, 3, 6, 28, 21] jogos [19, 10, 3, 6, 28, 22] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / -: Mogi Mirim tabela [19, 4, 11, 4, 20, 17] jogos [19, 4, 11, 4, 19, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Primeira fase / -: Santo André tabela [19, 4, 10, 5, 15, 21] jogos [19, 4, 9, 6, 13, 19] — placar diverge entre RSSSF e ogol em Palmeiras x Santo André (None-None x 2-2) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Primeira fase / -: XV de Jaú tabela [19, 5, 4, 10, 17, 26] jogos [19, 5, 4, 10, 18, 26] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Segunda fase / -: Santo André tabela [19, 7, 7, 5, 11, 14] jogos [19, 8, 6, 5, 12, 14] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Segunda fase / -: Juventus-SP tabela [19, 6, 7, 6, 20, 20] jogos [19, 6, 7, 6, 20, 19] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
@@ -1847,9 +1827,9 @@ como na RSSSF.
 - tabela publicada x jogos — Segunda fase / -: XV de Piracicaba tabela [19, 6, 6, 7, 11, 19] jogos [19, 5, 6, 8, 8, 19] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Segunda fase / -: Comercial-RP tabela [19, 5, 6, 8, 17, 21] jogos [19, 5, 6, 8, 16, 21] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Segunda fase / -: Guarani tabela [19, 4, 7, 8, 15, 20] jogos [19, 5, 7, 7, 15, 17] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Primeira fase / -: Palmeiras tabela [38, 17, 13, 8, 54, 31] jogos [37, 17, 12, 8, 54, 31] — a tabela conta 38 jogos e as fontes trazem 37
+- tabela publicada x jogos — Primeira fase / -: Palmeiras tabela [38, 17, 13, 8, 54, 31] jogos [37, 18, 11, 8, 52, 29] — a tabela conta 38 jogos e as fontes trazem 37
 - tabela publicada x jogos — Primeira fase / -: Portuguesa tabela [38, 16, 11, 11, 52, 37] jogos [38, 16, 11, 11, 51, 36] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Primeira fase / -: Santo André tabela [38, 11, 17, 10, 26, 35] jogos [38, 12, 16, 10, 27, 35] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Primeira fase / -: Santo André tabela [38, 11, 17, 10, 26, 35] jogos [38, 12, 15, 11, 25, 33] — placar diverge entre RSSSF e ogol em Palmeiras x Santo André (None-None x 2-2) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Primeira fase / -: XV de Piracicaba tabela [38, 10, 15, 13, 32, 43] jogos [37, 9, 14, 14, 29, 43] — a tabela conta 38 jogos e as fontes trazem 37
 - tabela publicada x jogos — Primeira fase / -: Mogi Mirim tabela [38, 8, 19, 11, 36, 38] jogos [38, 8, 19, 11, 35, 37] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / -: Guarani tabela [38, 10, 14, 14, 40, 47] jogos [38, 11, 14, 13, 40, 44] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
@@ -1860,6 +1840,7 @@ como na RSSSF.
 - placar corrigido pelo ogol — Santo André x Ferroviária-SP (1986-03-09): RSSSF 4-1, ogol 1-1; fica o do ogol, que fecha com a tabela publicada
 - placar diferente no ogol — Palmeiras x Corinthians (1986-08-27): RSSSF 1-0, ogol 3-0; fica o da RSSSF
 - jogo só no ogol, incluído em Second Stage: Palmeiras 0-0 XV de Piracicaba (1986-06-19)
+- Palmeiras 2-2 Santo André — pontos para o Palmeiras (FN)
 
 ### 1987
 
@@ -1929,9 +1910,10 @@ como na RSSSF.
 
 ### 1990
 
-- tabela publicada x jogos — Terceira fase / Grupo Preto: Corinthians tabela [12, 5, 7, 0, 13, 6] jogos [12, 4, 8, 0, 12, 7] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — Terceira fase / Grupo Preto: Botafogo-SP tabela [12, 5, 2, 5, 12, 11] jogos [12, 5, 3, 4, 13, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Terceira fase / Grupo Preto: Corinthians tabela [12, 5, 7, 0, 13, 6] jogos [12, 5, 7, 0, 11, 6] — placar diverge entre RSSSF e ogol em Botafogo-SP x Corinthians (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
+- tabela publicada x jogos — Terceira fase / Grupo Preto: Botafogo-SP tabela [12, 5, 2, 5, 12, 11] jogos [12, 5, 2, 5, 12, 9] — placar diverge entre RSSSF e ogol em Botafogo-SP x Corinthians (None-None x 1-1) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 9 jogos (ex.: Ponte Preta x Santos, ogol 1990-03-30); fica a do ogol
+- Botafogo-SP 1-1 Corinthians — pontos para o Corinthians (W.O. 0-2 dado ao Corinthians (FN))
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Bragantino
 
 ### 1991
@@ -2023,7 +2005,7 @@ como na RSSSF.
 - só na RSSSF (não achado no ogol): Juventus-SP 0-1 Portuguesa Santista (1998-04-12)
 - só na RSSSF (não achado no ogol): Inter de Limeira 5-3 Juventus-SP (1998-04-19)
 - só na RSSSF (não achado no ogol): Portuguesa Santista 1-0 Araçatuba (1998-04-19)
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, São Paulo
+- 12 jogos da fase "Final" passam para "Torneio de rebaixamento" (FASE_ANO/FASE_JOGO)
 
 ### 1999
 
@@ -2070,12 +2052,13 @@ como na RSSSF.
 ### 2003
 
 - tabela publicada x jogos — Primeira fase / Grupo 1: Rio Branco-SP tabela [6, 2, 3, 1, 11, 8] jogos [6, 2, 3, 1, 12, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Final / -: Botafogo-SP tabela [6, 1, 1, 4, 10, 16] jogos [8, 1, 2, 5, 11, 18] — a tabela conta 6 jogos e as fontes trazem 8
 - tabela publicada x jogos — Final / -: Inter de Limeira tabela [6, 0, 1, 5, 3, 13] jogos [6, 0, 1, 5, 3, 12] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Atlético Sorocaba
 - Atlético Sorocaba — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Atlético Sorocaba)
 - só na RSSSF (não achado no ogol): Atlético Sorocaba 2-1 Botafogo-SP (2003-04-02)
 - só na RSSSF (não achado no ogol): Botafogo-SP 0-0 Atlético Sorocaba (2003-04-05)
-- final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Corinthians
+- 36 jogos da fase "Final" passam para "Torneio de rebaixamento" (FASE_ANO/FASE_JOGO)
 
 ### 2004
 

@@ -694,3 +694,64 @@ Decisão do Guilherme (23/11), depois de pesquisa: valem os títulos que a FERJ 
    - O título de 1937 FMD conta para o São Cristóvão, que passa a ter 1926 e 1937.
 4. **Commit:** "Carioca: 1937 FMD (São Cristóvão) e 1907 dividido", com o ok do Guilherme.
 
+
+## Resposta do agente 1 — formato de título dividido (D-07) — 23/11/2026
+
+Para o agente de coleta do Brasil (e a revisão, para fechar SP-001 quando o Paulista chegar).
+
+1. **Formato:** coluna nova e opcional `co_campeao` em `edicoes.csv`, logo depois de `vice`, com o nome do outro
+   campeão (o mesmo nome de `clubes.csv`). Fica vazia nas outras edições.
+   - `campeao` continua sendo o 1º da classificação; `co_campeao` é o outro campeão, esteja onde estiver na tabela.
+   - `vice` é o próximo colocado que não é campeão (Paulista 1973: Palmeiras). Pode ficar vazio, como no Carioca 1907.
+   - A classificação final não muda: as posições seguem a fonte.
+2. **Banco:** `edicao.co_campeao_id` (`futebol/esquema.sql`); o `carregar_pacotes.py` lê a coluna. Pacote sem a coluna
+   carrega igual.
+3. **Painel:** o título conta para os dois (títulos, corrida, curiosidades); o pódio da edição mostra os dois no degrau
+   do meio; o vice e o 3º do histórico pulam o co-campeão.
+4. **Carioca 1907:** pus a coluna à mão no `data/coleta/bra-rj-1/pacote/edicoes.csv` (Botafogo) e publiquei. Falta o
+   `pacote.py` gravá-la a partir de `importar.CAMPEOES_DIVIDIDOS`; senão, a próxima geração do pacote a apaga.
+   A observação de 1907 pode perder o trecho "até o banco aceitar dois campeões".
+5. **Paulista 1973 (SP-001):** não mexi, porque o pacote está com correções suas em andamento. Quando fechar:
+   `co_campeao` = Santos e `vice` = Palmeiras.
+
+## Correções da revisão — bra-sp-1 — 23/11/2026 ("ERRADO NO AR" do Paulista)
+
+O Guilherme mandou corrigir pelo plano `docs/revisao/plano-coleta-brasil.md`. Este é o primeiro bloco: os altos do Paulista que já estão no site.
+
+1. **Corrigidos** (tudo em `coleta/bra-sp-1/importar.py`, com o motivo e a fonte ao lado de cada linha):
+   - **SP-011:** fora o jogo falso "Paulista 127 x 0 LAF" (ogol 2591655, `OGOL_IGNORAR`). O clube "LAF" (999999) saiu do cadastro comum. 1928 LAF tem agora 12 clubes.
+   - **SP-002, SP-007, SP-008:**
+     - `ORDEM` passa a ter todas as fases: repescagem, torneio de rebaixamento e desempate valem 0, e os turnos valem 1. Fase sem nível agora faz o importador parar com erro (antes caía em 50).
+     - O vice do quadrangular final é o 2º do grupo.
+     - Quem chegou à "Fase final" desempata pelos pontos dela.
+     - `FASE_ANO`: 1976.
+     - `FASE_JOGO`: 1978, 1981, 1998 e 2003.
+     - Vices certos agora em 1951, 1957, 1976, 1978, 1997 e 2003; 3º certos em 1951, 1957, 1976, 1989, 1997, 1998, 1999 e 2003.
+   - **QS-001 e SP-010** (`CLUBES_FORA`): saem os jogos cancelados dos clubes que abandonaram:
+     - 1913 LPF, 1914 LPF, 1923, 1924, 1925, 1928 APEA, 1935 APEA e 1938;
+     - 1927 LAF, com 10 clubes: saem Corinthians, Independência, Sírio, Sílex e Taubaté.
+   - **QS-006** (`JOGOS_FORA`): saem os 2 jogos de 1916 APEA fora da tabela. Vice: AA São Bento.
+   - **QS-005:**
+     - fora o SPAC 1-9 Internacional;
+     - entram os 7 jogos com pontos dados ao adversário (`JOGOS_EXTRA_WO`, sem placar);
+     - vice SC Internacional (`VICE_OFICIAL`: a AA das Palmeiras foi eliminada pela LPF).
+   - **QS-015 e SP-013** (`PONTOS_FORA_DE_CAMPO`): os 12 jogos agora vão como W.O. para quem ganhou os pontos, sem gols (D-15), e o placar de campo fica na observação. 1930: vice São Paulo. 1984: 3º São Paulo.
+   - **SP-016:** o W.O. sem placar ("victory awarded to X") conta como vitória sem gols. 1927 LAF ganha o W.O. SC Internacional x Paulista de 30/10 (página e FN).
+   - **SP-009:** "Corinthians (SBC)" volta a ser o Corinthians de Santo André (81207), em 13 jogos. Com isso some o jogo repetido de 21/08 e o vice passa a ser o Santos.
+   - **SP-012:** 1942 Corinthians 3-1 Palmeiras (04/10/1942), placar pelo FN (a página não tinha os gols do Palmeiras). Vice: Corinthians.
+   - **SP-001 (D-07):** 1973 com campeao Portuguesa, `co_campeao` Santos e vice Palmeiras, no formato do agente 1 (coluna `co_campeao` de `edicoes.csv`, gravada pelo `pacote.py` a partir de `importar.CAMPEOES_DIVIDIDOS`).
+   - **Carioca 1907, no mesmo formato:** o `coleta/bra-rj-1/pacote.py` agora grava `co_campeao` = Botafogo (antes estava à mão no pacote), e a observação perdeu o trecho "até o banco aceitar".
+2. **Números:**
+   - 134 edições, 21.791 jogos (eram 21.855).
+   - Tabelas publicadas: 213 fecham e 129 divergem (eram 207 e 135).
+   - testar_carga: `bra-sp-1: 134 edições, 21791 jogos, 0 clubes novos -> OK`.
+3. **Não feito neste bloco:**
+   - SP-008 em 2024 e 2025: as fases dependem da API da FPF, que é o mesmo leitor do QS-008 e do SP-004.
+   - Os 3º lugares que sobram do SP-003.
+   - 1927 LAF: o 3º é a AA São Bento, empatado com o Paulista na tabela da RSSSF. A Wikipédia dá o Paulista.
+   - 1930: o 3º é o Santos, empatado com o Palestra na tabela da RSSSF. A Wikipédia dá o Palestra.
+4. **Pedidos:**
+   - **Ao agente 1:** recarregar o `bra-sp-1` e o `bra-rj-1` (os dois com a coluna `co_campeao`).
+   - **À revisão:** depois da recarga, rodar as varreduras `revisao/tela/varredura.py` e `revisao/tela/datas_repetidas.py`. Elas leem o banco.
+5. **Próximo bloco:** o "ERRADO NO AR" da A2 (A2-001 a A2-011).
+

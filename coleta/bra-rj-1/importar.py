@@ -858,13 +858,13 @@ CAMPEOES_MANUAIS: dict[str, tuple[str, str]] = {
                  "proclamou o São Cristóvão campeão em 03/09/1937 e a FERJ homologou o título em dezembro de 2023 (Super Rádio "
                  "Tupi, 09/01/2024; Wikipédia em português, quadro de títulos)"),
 }
-# títulos divididos: temporada -> clubes campeões (o 1º é o do pacote enquanto o banco aceita um campeão só; decisão D-07)
+# títulos divididos (D-07): temporada -> clubes campeões; o 1º fica em campeao e o outro na coluna co_campeao de
+# edicoes.csv (formato do agente 1, 23/11)
 CAMPEOES_DIVIDIDOS: dict[str, list[str]] = {"1907": ["Fluminense", "Botafogo"]}
 # observação de cada edição (coluna "observacao" de edicoes.csv)
 OBS_EDICAO: dict[str, list[str]] = {
     "1907": ["título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou "
-             "os dois campeões em 1996; o pacote tem o Fluminense no campo campeao e o Botafogo nesta observação até o banco "
-             "aceitar dois campeões (D-07)"],
+             "os dois campeões em 1996 (D-07); sem vice"],
     "1937": ["torneio da LFRJ, a liga da pacificação (FMD e LCF juntas); o da FMD, que parou no meio, é a edição \"1937 FMD\""],
     "1937 FMD": ["torneio inacabado: parou na 8ª rodada (26 jogos) com a pacificação das ligas; a FMD proclamou o São "
                  "Cristóvão campeão (invicto, 7 vitórias em 7 jogos) em 03/09/1937, e a FERJ homologou o título em dezembro "

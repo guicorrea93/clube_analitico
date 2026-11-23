@@ -9,7 +9,7 @@ Para o agente de coleta Brasil (agente 2) que for continuar este trabalho. Leia 
 
 Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 23/11/2026 (Carioca: 1907 e 1937 FMD).
+Última atualização: 23/11/2026 (Carioca 1907 e 1937 FMD; Paulista "errado no ar").
 
 **Documentação completa:** `coleta/comum/documentacao/`. Tem o índice (`README.md`) e uma ficha por competição, com:
 - tudo o que o pacote tem;
@@ -72,9 +72,9 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be | sim | OK |
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
-| `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.855 | ecafa9e | sim | OK |
+| `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.791 | ecafa9e; "errado no ar" corrigido neste commit (23/11) | sim; recarregar | OK |
 | `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 2342f9b | não | OK (101 clubes novos) |
-| `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587; 1937 FMD e 1907 neste commit (23/11) | sim (agente 1, 22/11); recarregar com a 1937 FMD | OK (o banco já tem os clubes) |
+| `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -83,25 +83,21 @@ Números por competição, sempre atualizados: `coleta/comum/documentacao/README
 
 **Prioridade dada pelo Guilherme em 22/11/2026 (recado do agente 1):** coletar os próximos campeonatos, nesta ordem:
 Carioca (`bra-rj-1`, feito), Mineiro (`bra-mg-1`), Gaúcho (`bra-rs-1`) e Paulista A3 (`bra-sp-3`), cada um com o ok dele.
-**Não tratar agora** os achados SP-001 a SP-032 nem as outras pendências (autores pela ficha do ogol, jornais da A2): a
-revisão vai deixar um plano em `docs/revisao/plano-coleta-brasil.md`, e você segue esse plano quando o Guilherme mandar.
+Em 23/11 o Guilherme mandou corrigir pelo plano da revisão (`docs/revisao/plano-coleta-brasil.md`), começando pelo
+"ERRADO NO AR"; o Mineiro ficou para depois. Autores pela ficha do ogol e jornais da A2: só se ele pedir.
 Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <data>" no fim de `docs/coleta/pedidos.md`.
 
 1. **Mineiro (`bra-mg-1`)**, depois Gaúcho e A3 (seção 4). A RSSSF Brasil ficou fora do ar em 22/11 (tempo esgotado);
    tente de novo. Pendências do Carioca: `coleta/comum/documentacao/bra-rj-1.md`, seção 9.
-2. **Paulista (`bra-sp-1`): achados da revisão SP-001 a SP-032 (esperam o plano da revisão).**
-   - Os pedidos estão em `docs/coleta/pedidos.md`, seção "Pedidos da revisão (21/11/2026): Paulista"; as provas, em
-     `docs/revisao/bra-sp-1.md`; a lista, em `docs/revisao/achados.csv`.
-   - Ordem sugerida pela própria revisão:
-     1. o jogo falso de 1928 LAF (SP-011);
-     2. o vice e a ordem final (SP-002, SP-003, SP-007, SP-008). O importador põe repescagem e torneio de rebaixamento
-        como fase final e não usa a fase final verdadeira para ordenar;
-     3. os dados que mudam o vice (SP-009, SP-010, SP-012, SP-013, SP-014);
-     4. os rebaixados (SP-015);
-     5. os médios e baixos (SP-016 a SP-022) e os artilheiros (SP-023, SP-024; a lista da Wikipédia pt tem 125 edições).
-   - Esperam a decisão do Guilherme: SP-001 (título de 1973 dividido), SP-004 (edição de 2026), SP-005 (amadores da FPF
-     em 1933-1934), SP-006 ("Paulistinha"), SP-026 e SP-027 (juntar clubes).
-   - O importador da A2 é cópia do Paulista: o que mudar lá no vice e na ordem final provavelmente vale na A2.
+2. **Correções da revisão: siga `docs/revisao/plano-coleta-brasil.md`** (o Guilherme mandou começar em 23/11).
+   - Feito em 23/11: o "ERRADO NO AR" do Paulista (SP-011, SP-002, SP-007, SP-008 menos 2024-2025, QS-001, QS-006, SP-010,
+     QS-015, SP-013, QS-005, SP-009, SP-012 e SP-001, este com a coluna `co_campeao`). Ids e como em
+     `docs/coleta/pedidos.md`, seção "Correções da revisão — bra-sp-1 — 23/11/2026".
+   - Próximo: o "ERRADO NO AR" da A2 (A2-001 a A2-011; o importador é cópia do Paulista: ORDEM, FASE_JOGO e
+     correcoes_revisao() de `coleta/bra-sp-1/importar.py` servem de modelo), depois o resto do plano, competição a
+     competição.
+   - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
+     PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO): se um nome não casar, o importador para com erro (não passa calado).
    - Ao corrigir, cite os ids em `docs/coleta/pedidos.md`; a revisão confere de novo.
 3. **Séries C e D e Copa:** os achados SC, SD, CB e CL foram tratados (seções "revisão ... parte 1 a 4" de
    `docs/coleta/pedidos.md`), mas `docs/revisao/achados.csv` ainda marca "aberto". Quem atualiza é a revisão; se ela
@@ -247,8 +243,10 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **Prioridade (22/11, pelo agente 1):** coletar Carioca, Mineiro, Gaúcho e A3; revisão só quando ele mandar, seguindo o
   plano da revisão.
 - **Carioca 1907 e 1937 (23/11):** valem os títulos que a FERJ reconhece. 1907: Fluminense e Botafogo campeões (título
-  dividido, FERJ 1996), com dois campeões quando o banco aceitar (D-07). 1937: além da LFRJ (Fluminense), a edição
+  dividido, FERJ 1996), o Botafogo em `co_campeao` (D-07). 1937: além da LFRJ (Fluminense), a edição
   "1937 FMD" (torneio inacabado, 26 jogos) com o São Cristóvão campeão (FERJ, dezembro de 2023).
+- **Título dividido (D-07, formato do agente 1, 23/11):** coluna `co_campeao` em `edicoes.csv`, logo depois de `vice`;
+  `campeao` é o 1º da classificação; `vice` é o próximo que não é campeão (pode ficar vazio). Paulista 1973, Carioca 1907.
 - **Paulista A2:** incluir tudo o que existir, inclusive as edições sem jogos e as incompletas (21/11). O que só existe em
   jornal escaneado fica de fora.
 

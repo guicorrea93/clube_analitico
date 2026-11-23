@@ -48,12 +48,15 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols antes de 2013 e cartões: jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
     "bra-sp-1": [
-        "ALTA: achados da revisão SP-001 a SP-032 (docs/coleta/pedidos.md, 'Pedidos da revisão (21/11/2026): Paulista'; provas "
-        "em docs/revisao/bra-sp-1.md) ainda NÃO tratados: jogo falso de 1928 LAF (SP-011), vice e ordem final (SP-002, SP-003, "
-        "SP-007, SP-008), dados que mudam o vice (SP-009, SP-010, SP-012, SP-013, SP-014), rebaixados (SP-015), W.O., datas, "
-        "totais, observações em inglês (SP-016 a SP-022) e artilheiros (SP-023, SP-024).",
-        "Decisões do Guilherme pedidas pela revisão: SP-001 (título de 1973 dividido), SP-004 (edição de 2026), SP-005 "
-        "(amadores da FPF 1933-1934), SP-006 ('Paulistinha' 1970 e 1972-1974), SP-026 e SP-027 (juntar clubes).",
+        "Corrigidos em 23/11 (\"ERRADO NO AR\" do plano docs/revisao/plano-coleta-brasil.md): SP-011 (jogo falso de 1928 "
+        "LAF), SP-002, SP-007 e SP-008 (ORDEM completo, FASE_ANO e FASE_JOGO, vice do quadrangular final, desempate pela "
+        "Fase final; menos 2024 e 2025, que esperam as fases da FPF), QS-001 e SP-010 (CLUBES_FORA), QS-006 e QS-005 "
+        "(JOGOS_FORA, JOGOS_EXTRA_WO, VICE_OFICIAL), QS-015 e SP-013 (PONTOS_FORA_DE_CAMPO; W.O. conta na campanha, "
+        "SP-016), SP-009 (Corinthians de Santo André) e SP-012 (1942). SP-001: 1973 com co_campeao Santos e vice "
+        "Palmeiras (D-07).",
+        "Resto do plano (docs/revisao/plano-coleta-brasil.md, seção do Paulista): SP-003 (3º lugar à mão), SP-004 (2026), "
+        "SP-008 em 2024 e 2025 (fases pela API da FPF), SP-014, SP-015 (rebaixados), SP-017 a SP-024, QS-002 a QS-014, "
+        "SP-026 e SP-027 (D-23). Só quando o Guilherme mandar.",
         "Autores dos gols e cartões nos anos sem RSSSF com autores: jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
     "bra-sp-2": [
@@ -66,9 +69,6 @@ PENDENCIAS: dict[str, list[str]] = {
         "tratar o bra-sp-1 (o importador é cópia do dele).",
     ],
     "bra-rj-1": [
-        "1907, título dividido entre Fluminense e Botafogo (FERJ, 1996; decidido em 23/11): o pacote tem o Fluminense no "
-        "campo campeao, o vice vazio e o Botafogo na observação; falta o banco aceitar dois campeões numa edição (D-07, "
-        "pedido ao agente 1). Quando houver o formato, mudar importar.CAMPEOES_DIVIDIDOS e pacote.py.",
         "Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz "
         "num formato que o leitor ainda não junta ao jogo (\"Gols: ...\" na linha de baixo, nos anos 1900).",
         "127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem "

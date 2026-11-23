@@ -11,7 +11,7 @@ from collections import Counter, defaultdict
 
 import clubes_sp1
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
-from importar import FONTE_RSSSF, ORDEM, nome, pontos_vitoria
+from importar import CAMPEOES_DIVIDIDOS, FONTE_RSSSF, OBS_EDICAO, ORDEM, nome, pontos_vitoria
 from rsssf_sp1 import rsssf
 
 
@@ -153,11 +153,15 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         # edição
         num_clubes = len({x for p in ps for x in (p.mandante, p.visitante)})
         vice = next((nome(f["clube"]) for f in final if f["pos"] == 2), "") if campeao else ""
+        if str(ano) in CAMPEOES_DIVIDIDOS:   # título dividido: o vice é o da decisão D-07, não o outro campeão
+            vice = CAMPEOES_DIVIDIDOS[str(ano)][1]
         fontes = " + ".join(x for x, ok in (("RSSSF Brasil", bool(e["rs"])), ("ogol", bool(e["og"])),
                                                ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"]))) if ok)
-        obs = []
+        obs = list(OBS_EDICAO.get(str(ano), []))
+        # título dividido (D-07): o outro campeão na coluna co_campeao (formato do agente 1, 23/11)
+        co_campeao = " / ".join(n for n in CAMPEOES_DIVIDIDOS.get(str(ano), ([], ''))[0] if n != (nome(campeao) if campeao else ""))
         linhas_e.append([str(ano), int(str(ano)[:4]), int(str(ano)[:4]), NOME_OFICIAL.get(ano, NOME_PADRAO), num_clubes, pontos_vitoria(ano),
-                         formato(desenho), nome(campeao) if campeao else "", vice, fontes, "; ".join(obs)])
+                         formato(desenho), nome(campeao) if campeao else "", vice, co_campeao, fontes, "; ".join(obs)])
         ng = sum((p.gm or 0) + (p.gv or 0) for p in ps)
         conf = e["conf"]
         linhas_conf.append([str(ano), len(ps), len(e["og"]) or "", conf["ok"], conf["dif"], ng, sum(len(p.gols) for p in ps),
@@ -182,7 +186,7 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         linhas_c.append([n, c.get("uf"), c.get("cidade"), "BRA", "|".join(partes)])
     _csv("clubes.csv", ["clube", "regiao", "cidade", "pais", "nomes_fonte"], linhas_c)
     _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "formato", "campeao", "vice",
-                         "fontes", "observacao"], linhas_e)
+                         "co_campeao", "fontes", "observacao"], linhas_e)
     _csv("fases.csv", ["temporada", "ordem", "fase", "tipo", "num_grupos", "formato_serie", "criterio"], linhas_f)
     _csv("partidas.csv", ["id", "temporada", "fase", "grupo", "rodada", "data", "hora", "mandante", "visitante", "gols_mandante",
                           "gols_visitante", "penaltis_mandante", "penaltis_visitante", "resultado_especial", "estadio", "cidade", "publico",

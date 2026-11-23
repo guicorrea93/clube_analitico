@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 83; **artilheiros:** 119 temporadas com artilheiro (128 linhas, com empates).
 - **Classificação final:** 129 temporadas; **rodada a rodada:** 27 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2894 linhas.
-- **No banco (`db/futebol.db`):** sim (128 edições, 14118 jogos).
+- **No banco (`db/futebol.db`):** sim (129 edições, 14144 jogos).
 - **Observação da competição:** 1ª divisão do Rio de Janeiro, de 1906 a 2026: até 1959 o campeonato do Distrito Federal (a cidade do Rio), de 1960 a 1974 o do estado da Guanabara e, depois da fusão de 1975, o do estado do Rio de Janeiro. Nos anos de ligas rivais (1912, 1924, 1933-1936) cada torneio reconhecido é uma edição ("1933 AMEA", "1933 LCF"); 1979 teve o campeonato normal e o Especial.
 
 ## 2. Fontes e regras
@@ -199,7 +199,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Observações das edições:**
 
-- 1907: título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou os dois campeões em 1996; o pacote tem o Fluminense no campo campeao e o Botafogo nesta observação até o banco aceitar dois campeões (D-07)
+- 1907: título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou os dois campeões em 1996 (D-07); sem vice
 - 1937: torneio da LFRJ, a liga da pacificação (FMD e LCF juntas); o da FMD, que parou no meio, é a edição "1937 FMD"
 - 1937 FMD: torneio inacabado: parou na 8ª rodada (26 jogos) com a pacificação das ligas; a FMD proclamou o São Cristóvão campeão (invicto, 7 vitórias em 7 jogos) em 03/09/1937, e a FERJ homologou o título em dezembro de 2023
 
@@ -240,7 +240,7 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 
 ### Observações das edições (`importar.OBS_EDICAO`)
 
-- **1907:** título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou os dois campeões em 1996; o pacote tem o Fluminense no campo campeao e o Botafogo nesta observação até o banco aceitar dois campeões (D-07)
+- **1907:** título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou os dois campeões em 1996 (D-07); sem vice
 - **1937:** torneio da LFRJ, a liga da pacificação (FMD e LCF juntas); o da FMD, que parou no meio, é a edição "1937 FMD"
 - **1937 FMD:** torneio inacabado: parou na 8ª rodada (26 jogos) com a pacificação das ligas; a FMD proclamou o São Cristóvão campeão (invicto, 7 vitórias em 7 jogos) em 03/09/1937, e a FERJ homologou o título em dezembro de 2023
 
@@ -279,7 +279,7 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
-- **1907:** título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação até o banco aceitar dois campeões numa edição (D-07, como o Paulista 1973)
+- **1907:** título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense em campeao, o Botafogo em co_campeao e o vice vazio (D-07, como o Paulista 1973)
 - **1921:** o desempate Flamengo x América foi 1-1 no tempo normal e 1-0 na prorrogação: fica 2-1 para o Flamengo
 - **1937:** torneio da LFRJ (a liga da pacificação: FMD e LCF juntas), campeão o Fluminense. O torneio da FMD, disputado antes, é a edição "1937 FMD"
 - **1937 FMD:** torneio da FMD, que parou na 8ª rodada (26 jogos, de 02/05 a 11/07) com a pacificação entre a FMD e a LCF; os jogos não foram anulados. A FMD proclamou o São Cristóvão campeão em 03/09/1937 (invicto, 7 vitórias em 7 jogos); o título ficou esquecido e a FERJ o homologou em dezembro de 2023, depois do dossiê do jornalista André Luiz Pereira Nunes (cerimônia em 13/01/2024; Super Rádio Tupi, 09/01/2024). A lista de campeões da RSSSF é de antes e ainda diz "unfinished": o campeão vem de importar.CAMPEOES_MANUAIS. O ogol não tem essa edição; os jogos vêm só da RSSSF
@@ -470,7 +470,6 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- 1907, título dividido entre Fluminense e Botafogo (FERJ, 1996; decidido em 23/11): o pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação; falta o banco aceitar dois campeões numa edição (D-07, pedido ao agente 1). Quando houver o formato, mudar importar.CAMPEOES_DIVIDIDOS e pacote.py.
 - Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de baixo, nos anos 1900).
 - 127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
 - Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela ano a ano (pt_lista.txt), ainda não lida.

@@ -168,7 +168,7 @@ outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.j
 
 ### 1907
 
-- título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação até o banco aceitar dois campeões numa edição (D-07, como o Paulista 1973)
+- título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense em campeao, o Botafogo em co_campeao e o vice vazio (D-07, como o Paulista 1973)
 - tabela publicada x jogos — Fase única / -: Botafogo tabela [6, 5, 0, 1, 14, 9] jogos [6, 5, 0, 1, 15, 9] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Fase única / -: Fluminense tabela [6, 5, 0, 1, 15, 5] jogos [6, 4, 0, 2, 15, 8] — placar diverge entre RSSSF e ogol em Fluminense x Football and Athletic (0-3 x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Fase única / -: Football and Athletic tabela [6, 1, 0, 5, 2, 9] jogos [6, 2, 0, 4, 5, 10] — placar diverge entre RSSSF e ogol em Fluminense x Football and Athletic (0-3 x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF

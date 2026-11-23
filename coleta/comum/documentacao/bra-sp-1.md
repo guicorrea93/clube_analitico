@@ -5,9 +5,9 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 ## 1. O que temos
 
 - **Edições:** 134, de 1902 a 2025.
-- **Jogos:** 21855; **gols:** 64729; **gols com autor:** 6405 (10%); **cartões:** 0.
-- **Clubes:** 115; **artilheiros:** 13 temporadas com artilheiro (18 linhas, com empates).
-- **Classificação final:** 134 temporadas; **rodada a rodada:** 21 temporadas.
+- **Jogos:** 21791; **gols:** 64266; **gols com autor:** 6405 (10%); **cartões:** 0.
+- **Clubes:** 112; **artilheiros:** 13 temporadas com artilheiro (18 linhas, com empates).
+- **Classificação final:** 134 temporadas; **rodada a rodada:** 22 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2801 linhas.
 - **No banco (`db/futebol.db`):** sim (134 edições, 21855 jogos).
 - **Observação da competição:** 1ª divisão paulista, de 1902 a 2025. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio reconhecido pela federação é uma edição ("1913 LPF", "1913 APEA").
@@ -22,10 +22,10 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF): 207 tabelas fecham com os jogos e 135 divergem (cada divergência é explicada no relatório, na temporada).
-- Temporadas com alguma tabela divergente: 1905, 1906, 1908, 1909, 1910, 1913 LPF, 1914 LPF, 1914 APEA, 1915 LPF, 1915 APEA, 1916 LPF, 1916 APEA, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926 APEA, 1927 APEA, 1927 LAF, 1928 APEA, 1928 LAF, 1929 LAF, 1930, 1931, 1932, 1933, 1934, 1935 LPF, 1935 APEA, 1936 LPF, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1956, 1957, 1962, 1966, 1967, 1968, 1969, 1970, 1974, 1975, 1978, 1980, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1994, 1995, 1997, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2010, 2016, 2022, 2024.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF): 213 tabelas fecham com os jogos e 129 divergem (cada divergência é explicada no relatório, na temporada).
+- Temporadas com alguma tabela divergente: 1905, 1906, 1908, 1909, 1910, 1914 APEA, 1915 LPF, 1915 APEA, 1916 LPF, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926 APEA, 1927 APEA, 1927 LAF, 1928 APEA, 1928 LAF, 1929 LAF, 1930, 1931, 1932, 1933, 1934, 1935 LPF, 1935 APEA, 1936 LPF, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1956, 1957, 1962, 1966, 1967, 1968, 1969, 1970, 1974, 1975, 1978, 1980, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1994, 1995, 1997, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2010, 2016, 2022, 2024.
 - Temporadas sem tabela para conferir: 1940, 1951, 1952, 1953, 1954, 1955, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1971, 1972, 1984, 2014, 2025.
-- Temporadas com menos jogos do que o ogol: 1916 LPF (47 de 51), 1927 LAF (71 de 73), 2009 (196 de 202), 2010 (196 de 202), 2011 (198 de 202), 2012 (198 de 202), 2013 (198 de 202), 2017 (110 de 121), 2018 (110 de 121), 2019 (110 de 121), 2020 (104 de 110), 2021 (104 de 109), 2022 (104 de 109), 2023 (104 de 109).
+- Temporadas com menos jogos do que o ogol: 1913 LPF (20 de 24), 1914 LPF (19 de 32), 1916 LPF (47 de 51), 1916 APEA (41 de 43), 1927 LAF (45 de 73), 1935 APEA (56 de 58), 1938 (55 de 56), 2009 (196 de 202), 2010 (196 de 202), 2011 (198 de 202), 2012 (198 de 202), 2013 (198 de 202), 2017 (110 de 121), 2018 (110 de 121), 2019 (110 de 121), 2020 (104 de 110), 2021 (104 de 109), 2022 (104 de 109), 2023 (104 de 109).
 
 ## 4. Cobertura de cada campo, por década
 
@@ -33,11 +33,11 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|
-| 1900s | 217 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1910s | 575 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1920s | 1135 | 100% | 0% | 4% | 0% | 0% | 0% | 0% | 0.0 |
-| 1930s | 1035 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1940s | 1121 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1900s | 223 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1910s | 556 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1920s | 1086 | 100% | 0% | 4% | 0% | 0% | 0% | 0% | 0.0 |
+| 1930s | 1032 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1940s | 1122 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 2593 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 2269 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 2411 | 100% | 0% | 17% | 0% | 0% | 0% | 0% | 0.0 |
@@ -47,7 +47,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2010s | 1594 | 100% | 100% | 93% | 0% | 0% | 0% | 95% | 0.0 |
 | 2020s | 624 | 100% | 100% | 85% | 0% | 0% | 0% | 61% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 21539; ogol: 316.
+**Fonte de cada jogo:** RSSSF Brasil: 21469; ogol: 314; Futebol Nacional: 8.
 
 ## 5. Formato ao longo do tempo
 
@@ -56,9 +56,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1902 a 1903: 5 clubes
 - 1904 a 1911: 6 clubes
 - 1912: 7 clubes
-- 1913 LPF: 6 clubes
+- 1913 LPF: 5 clubes
 - 1913 APEA: 3 clubes
-- 1914 LPF: 7 clubes
+- 1914 LPF: 5 clubes
 - 1914 APEA: 6 clubes
 - 1915 LPF: 7 clubes
 - 1915 APEA: 6 clubes
@@ -66,25 +66,25 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1916 APEA: 7 clubes
 - 1917: 9 clubes
 - 1918 a 1920: 10 clubes
-- 1921 a 1925: 12 clubes
+- 1921 a 1922: 12 clubes
+- 1923 a 1925: 11 clubes
 - 1926 APEA: 10 clubes
 - 1926 LAF: 8 clubes
 - 1927 APEA: 14 clubes
-- 1927 LAF: 15 clubes
-- 1928 APEA: 8 clubes
-- 1928 LAF: 13 clubes
+- 1927 LAF: 10 clubes
+- 1928 APEA: 7 clubes
+- 1928 LAF: 12 clubes
 - 1929 APEA: 8 clubes
 - 1929 LAF: 12 clubes
 - 1930 a 1931: 14 clubes
 - 1932: 12 clubes
 - 1933 a 1934: 8 clubes
 - 1935 LPF: 7 clubes
-- 1935 APEA: 9 clubes
+- 1935 APEA: 8 clubes
 - 1936 LPF: 12 clubes
 - 1936 APEA: 7 clubes
 - 1937: 10 clubes
-- 1938: 12 clubes
-- 1939 a 1948: 11 clubes
+- 1938 a 1948: 11 clubes
 - 1949 a 1950: 12 clubes
 - 1951 a 1952: 16 clubes
 - 1953: 15 clubes
@@ -164,39 +164,38 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1976: 3 grupos + pontos corridos
 - 1977: pontos corridos + mata-mata + pontos corridos + mata-mata + 2 grupos + mata-mata
 - 1978: 4 grupos + mata-mata
-- 1979: pontos corridos + mata-mata + 2 grupos + mata-mata
-- 1980: pontos corridos + mata-mata
-- 1981: 2 grupos + 3 grupos + 2 grupos + pontos corridos
+- 1979: mata-mata + pontos corridos + 2 grupos + mata-mata
+- 1980: mata-mata + pontos corridos
+- 1981: 2 grupos + mata-mata + 2 grupos + 3 grupos + pontos corridos + 2 grupos + mata-mata
 - 1982: pontos corridos
 - 1983: pontos corridos + 4 grupos + 2 grupos + mata-mata
 - 1984: pontos corridos
 - 1985 a 1987: pontos corridos + mata-mata
 - 1988: pontos corridos + 2 grupos + mata-mata
 - 1989: pontos corridos + 2 grupos + 4 grupos + mata-mata
-- 1990: pontos corridos + 2 grupos + mata-mata
+- 1990: 2 grupos + pontos corridos + 2 grupos + mata-mata
 - 1991: 2 grupos + mata-mata
 - 1992 a 1993: pontos corridos + 2 grupos + mata-mata
 - 1994: pontos corridos
 - 1995: pontos corridos + 2 grupos + mata-mata
 - 1996: pontos corridos
 - 1997: 2 grupos + pontos corridos
-- 1998: 2 grupos + mata-mata + pontos corridos
-- 1999: pontos corridos + 2 grupos + mata-mata
+- 1998 a 1999: pontos corridos + 2 grupos + mata-mata
 - 2000: 2 grupos + 4 grupos + 2 grupos + mata-mata
 - 2001: pontos corridos + mata-mata
 - 2002: pontos corridos
-- 2003: mata-mata + 3 grupos + mata-mata + pontos corridos
+- 2003: pontos corridos + 3 grupos + mata-mata
 - 2004: 2 grupos + mata-mata
 - 2005 a 2006: pontos corridos
 - 2007 a 2023: pontos corridos + mata-mata
 - 2024: pontos corridos + mata-mata + pontos corridos
 - 2025: pontos corridos
 
-**Fases que aparecem** (número de temporadas): Fase única (68); Final (46); Primeira fase (35); Semifinal (32); 1º Turno (29); 2º Turno (28); Segunda fase (22); Quartas de final (9); Repescagem (3); Fase final (3); Torneio de rebaixamento (3); Terceira fase (2); Desempate (1); Torneio de Classificação (1); Fase de Classificação (1); 2º Turno - 1ª fase (1); 2º Turno - 2ª fase (1); 1º Turno - Semifinal (1); 1º Turno - Final (1); 2º Turno - Semifinal (1); 2º Turno - Final (1); 3º Turno (1); 1º Turno - Classificatória (1); 2º Turno - Classificatória (1).
+**Fases que aparecem** (número de temporadas): Fase única (69); Final (46); Primeira fase (34); Semifinal (31); 1º Turno (29); 2º Turno (27); Segunda fase (22); Quartas de final (8); Fase final (4); Torneio de rebaixamento (4); Repescagem (3); 1º Turno - Final (3); 1º Turno - Semifinal (2); 2º Turno - Final (2); Terceira fase (2); Desempate (1); Torneio de Classificação (1); Fase de Classificação (1); 2º Turno - 1ª fase (1); 2º Turno - 2ª fase (1); 2º Turno - Semifinal (1); 3º Turno (1); 1º Turno - Quartas de final (1); 1º Turno - Classificatória (1); 2º Turno - Classificatória (1).
 
 **Observações das edições:**
 
-- nenhuma
+- 1973: título dividido entre Portuguesa e Santos: a final terminou 0-0 e o árbitro encerrou os pênaltis com 2-0 para o Santos quando a Portuguesa ainda podia empatar; a FPF declarou os dois campeões (o Santos só chega aos 22 títulos da lista oficial com este) e o Palmeiras herdou o vice (D-07, SP-001)
 
 ## 6. Campeões, acessos, rebaixados e punições
 
@@ -234,6 +233,28 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 ### Tabelas publicadas parciais (fora da conferência) (`importar.TABELAS_PARCIAIS`)
 
 - **2025:** a página da RSSSF parou na 6ª rodada da 1ª fase: as tabelas dela são parciais e não servem de conferência; os outros jogos vêm do ogol
+
+### Observações das edições (`importar.OBS_EDICAO`)
+
+- **1973:** título dividido entre Portuguesa e Santos: a final terminou 0-0 e o árbitro encerrou os pênaltis com 2-0 para o Santos quando a Portuguesa ainda podia empatar; a FPF declarou os dois campeões (o Santos só chega aos 22 títulos da lista oficial com este) e o Palmeiras herdou o vice (D-07, SP-001)
+
+### Nome da página casado à mão com o clube (`importar.NOME_MANUAL`)
+
+- **1927 APEA · Corinthians de Santo André:** [81207] "Corinthians (SBC)" na página; o ogol tem os 13 jogos dele (SP-009)
+
+### Jogos que ficam fora (`importar.JOGOS_FORA`)
+
+- **1906 · 1906-08-05 · São Paulo Athletic · SC Internacional-SP:** o SPAC desistiu depois deste jogo e a LPF o cancelou, dando os pontos dos seguintes aos adversários (FN; QS-005)
+- **1916 APEA · 1916-10-29 · Ypiranga-SP · Mackenzie-SP:** 3º jogo do par, fora da tabela publicada (RSSSF e FN; QS-006)
+- **1916 APEA · 1916-12-03 · AA das Palmeiras · Palmeiras:** 3º jogo do par, fora da tabela publicada (RSSSF e FN; QS-006)
+
+### Jogos do ogol ignorados (`importar.OGOL_IGNORAR`)
+
+- **2591655:** 1928 LAF: Paulista 127-0 LAF não é jogo (linha de resumo do ogol, sem data e contra um clube "LAF" que não existe; o Futebol Nacional dá 133 jogos sem ele; achado SP-011)
+
+### Fases da página renomeadas (por temporada) (`importar.FASE_ANO`)
+
+- **1976 · 2º Turno:** [Fase final] o "2º turno" de 1976 é a fase final com os 12 melhores (achado SP-008)
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
@@ -330,7 +351,7 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 - **sp1924.htm:** letras trocadas por "�" na página
 - **sp1925.htm:** letras trocadas por "�" na página
 - **sp1926.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada
-- **sp1927.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada
+- **sp1927.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada; o leitor tira a cidade entre parênteses e o Corinthians de Santo André virava o Corinthians da capital (achado SP-009)
 - **sp1928.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada
 - **sp1929.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada
 - **sp1930.htm:** letras trocadas por "�" na página
@@ -345,7 +366,7 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 - **sp1939.htm:** letras trocadas por "�" na página
 - **sp1940.htm:** letras trocadas por "�" na página
 - **sp1941.htm:** letras trocadas por "�" na página
-- **sp1942.htm:** letras trocadas por "�" na página
+- **sp1942.htm:** letras trocadas por "�" na página; o jogo vem sem os gols do Palmeiras; 3-1 pelo Futebol Nacional (achado SP-012)
 - **sp1943.htm:** letras trocadas por "�" na página
 - **sp1944.htm:** letras trocadas por "�" na página
 - **sp1945.htm:** letras trocadas por "�" na página
@@ -439,8 +460,8 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- ALTA: achados da revisão SP-001 a SP-032 (docs/coleta/pedidos.md, 'Pedidos da revisão (21/11/2026): Paulista'; provas em docs/revisao/bra-sp-1.md) ainda NÃO tratados: jogo falso de 1928 LAF (SP-011), vice e ordem final (SP-002, SP-003, SP-007, SP-008), dados que mudam o vice (SP-009, SP-010, SP-012, SP-013, SP-014), rebaixados (SP-015), W.O., datas, totais, observações em inglês (SP-016 a SP-022) e artilheiros (SP-023, SP-024).
-- Decisões do Guilherme pedidas pela revisão: SP-001 (título de 1973 dividido), SP-004 (edição de 2026), SP-005 (amadores da FPF 1933-1934), SP-006 ('Paulistinha' 1970 e 1972-1974), SP-026 e SP-027 (juntar clubes).
+- Corrigidos em 23/11 ("ERRADO NO AR" do plano docs/revisao/plano-coleta-brasil.md): SP-011 (jogo falso de 1928 LAF), SP-002, SP-007 e SP-008 (ORDEM completo, FASE_ANO e FASE_JOGO, vice do quadrangular final, desempate pela Fase final; menos 2024 e 2025, que esperam as fases da FPF), QS-001 e SP-010 (CLUBES_FORA), QS-006 e QS-005 (JOGOS_FORA, JOGOS_EXTRA_WO, VICE_OFICIAL), QS-015 e SP-013 (PONTOS_FORA_DE_CAMPO; W.O. conta na campanha, SP-016), SP-009 (Corinthians de Santo André) e SP-012 (1942). SP-001: 1973 com co_campeao Santos e vice Palmeiras (D-07).
+- Resto do plano (docs/revisao/plano-coleta-brasil.md, seção do Paulista): SP-003 (3º lugar à mão), SP-004 (2026), SP-008 em 2024 e 2025 (fases pela API da FPF), SP-014, SP-015 (rebaixados), SP-017 a SP-024, QS-002 a QS-014, SP-026 e SP-027 (D-23). Só quando o Guilherme mandar.
 - Autores dos gols e cartões nos anos sem RSSSF com autores: jogo a jogo, pela ficha do ogol (prioridade baixa).
 
 ## 10. Arquivos e comandos
