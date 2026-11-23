@@ -62,6 +62,7 @@ def _e(temporada, ini, fim, trechos, nome, campeao="", obs="", **kw):
 
 
 _COM_JOGOS = {*range(1960, 1968), 1981}
+_INICIO = {1962: 98, 1963: 83, 1964: 127, 1965: 217, 1966: 109}
 _PAGINAS = {1943, 1945, 1955, *range(1960, 1971), *range(1981, 1996)}   # anos com página própria antes de 1996
 EDICOES: list[Edicao] = []
 for _a in range(1906, 1996):
@@ -69,8 +70,8 @@ for _a in range(1906, 1996):
         continue
     _nome = (f"Liga Paraguaya de Fútbol – Campeonato {_a}" if _a <= 1934 else f"Campeonato Paraguayo de Primera División {_a}")
     _pg = f"para{_a % 100:02d}" if _a in _PAGINAS else "parahist"
-    if _a in _COM_JOGOS:
-        EDICOES.append(_e(str(_a), _a, _a, [(_pg, 0, None)], _nome))
+    if _a in _COM_JOGOS:   # PY-005: 1962-1966 começam no campeonato, depois dos torneios de pré-temporada
+        EDICOES.append(_e(str(_a), _a, _a, [(_pg, _INICIO.get(_a, 0), None)], _nome))
     else:
         EDICOES.append(_e(str(_a), _a, _a, [], _nome, tabelas=[(_pg, 0, None)] if _a in _PAGINAS else [],
                           obs="sem jogos: nenhuma fonte pública traz os jogos deste ano (só o campeão e, quando há, a tabela "
@@ -79,12 +80,15 @@ for _a in range(1906, 1996):
 # 1996-2007: Apertura e Clausura são fases da edição anual
 _ANUAL = {1996: (12, 402), 1997: (12, 487), 1998: (12, 461), 1999: (12, 424), 2000: (0, 535), 2001: (12, 406), 2002: (12, 569),
           2003: (12, 580), 2004: (12, 637), 2005: (12, 662), 2006: (12, 816), 2007: (12, 748)}
+_TRECHOS_ANUAL = {2000: [("para00", 0, 496)], 2004: [("para04", 12, 308), ("para04", 345, 637)],
+                  2005: [("para05", 12, 315), ("para05", 330, 628), ("para05", 644, 662)]}
 _FASES_AC = [(r"(?i)^(Torneo |First Stage \()?Apertura", "Apertura"), (r"(?i)^(Torneo |Second Stage \()?Clausura(?! Championship)", "Clausura")]
 _FASES_AC.append((r"(?i)^Liguilla$", "Liguilla"))   # liguilla que fecha o Apertura/Clausura (1998...)
 for _a, (_i, _f) in _ANUAL.items():
-    _tr = [(f"para{_a % 100:02d}", _i, _f)]
-    if _a == 2005:
-        _tr.append(("para05", 953, 971))   # a final do campeonato vem depois do playoff da Sudamericana
+    # PY-007: fora o que não é do campeonato: 2000, desempate do 2º lugar e quadrangular da Libertadores; 2004, torneio de
+    # inverno (vaga na Sul-Americana); 2005, Pré-Sul-Americana e desempate do 2º lugar (a "Championship Final" da linha 953 é a
+    # da Intermedia, 2ª divisão)
+    _tr = _TRECHOS_ANUAL.get(_a, [(f"para{_a % 100:02d}", _i, _f)])
     EDICOES.append(_e(str(_a), _a, _a, _tr, f"Campeonato Paraguayo de Primera División {_a}", fases=list(_FASES_AC)))
 
 # 2008 em diante: Apertura e Clausura são edições
@@ -96,3 +100,6 @@ for _a, (_ap, _cl, _fim) in _AC.items():
     _pg = f"para{_a % 100:02d}" if _a < 2010 else f"para{_a}"
     EDICOES.append(_e(f"{_a} Apertura", _a, _a, [(_pg, _ap, _cl)], f"Campeonato Paraguayo de Primera División {_a} – Apertura"))
     EDICOES.append(_e(f"{_a} Clausura", _a, _a, [(_pg, _cl, _fim)], f"Campeonato Paraguayo de Primera División {_a} – Clausura"))
+# D-01 (Guilherme, 22/11/2026): o Apertura 2026 já terminou e entra agora (PY-027); o Clausura 2026 quando acabar
+EDICOES.append(_e("2026 Apertura", 2026, 2026, [("para2026", 20, 444)], "Campeonato Paraguayo de Primera División 2026 – Apertura",
+                  "Olimpia"))

@@ -25,25 +25,32 @@ CEN = "Central"
 
 # nome de exibição -> (cidade, departamento)
 CLUBES: dict[str, tuple[str, str]] = {
+    "Mbiguá": ASU, "Mariscal López": ASU, "Marte Atlético": ASU, "Sastre Sport": ASU, "C.A.L.T.": ASU, "Atlético Corrales": ASU,
+    "Asunción FBC": ASU, "General Genes": ASU,
     "Olimpia": ASU, "Cerro Porteño": ASU, "Libertad": ASU, "Guaraní de Asunción": ASU, "Nacional de Asunción": ASU, "Sol de América": ASU,
     "River Plate de Asunción": ASU, "Presidente Hayes": ASU, "Atlántida": ASU, "Atlético Colegiales": ASU, "Sport Colombia": ("Fernando de la Mora", CEN),
     "Sportivo Luqueño": ("Luque", CEN), "General Díaz": ("Luque", CEN), "Sportivo San Lorenzo": ("San Lorenzo", CEN),
     "Rubio Ñu": ASU, "Tacuary": ASU, "Sportivo Trinidense": ASU, "Deportivo Recoleta": ASU, "Silvio Pettirossi": ASU,
     "Sportivo Ameliano": ASU, "Resistencia": ASU, "Cerro Corá": ASU, "Atlético Tembetary": ("Ypané", CEN),
-    "12 de Octubre": ("Itauguá", CEN), "3 de Febrero": ("Ciudad del Este", "Alto Paraná"), "2 de Mayo": ("Pedro Juan Caballero", "Amambay"), "8 de Diciembre": ("Caacupé", "Cordillera"),
+    "12 de Octubre": ("Itauguá", CEN), "3 de Febrero": ("Ciudad del Este", "Alto Paraná"), "2 de Mayo": ("Pedro Juan Caballero", "Amambay"), "8 de Diciembre": ("Caaguazú", "Caaguazú"),   # PY-015
     "General Caballero": ("Zeballos Cué", ASU[1]), "General Caballero JLM": ("Juan León Mallorquín", "Alto Paraná"),
     "Cerro Porteño PF": ("Presidente Franco", "Alto Paraná"), "Independiente de Campo Grande": ASU,
     "Deportivo Capiatá": ("Capiatá", CEN), "Deportivo Santaní": ("San Estanislao", "San Pedro"), "Fernando de la Mora": ("Fernando de la Mora", CEN),
     "Guaireña": ("Villarrica", "Guairá"), "Sportivo Carapeguá": ("Carapeguá", "Paraguarí"), "Universal de Encarnación": ("Encarnación", "Itapúa"),
     "Deportivo Humaitá": ("Mariano Roque Alonso", CEN), "Ovetense": ("Coronel Oviedo", "Caaguazú"),
-    "Guaraní de Coronel Oviedo": ("Coronel Oviedo", "Caaguazú"), "Cerro Porteño de Ciudad del Este": ("Ciudad del Este", "Alto Paraná"),
+    "Guaraní de Coronel Oviedo": ("Coronel Oviedo", "Caaguazú"), "Pettirossi de Encarnación": ("Encarnación", "Itapúa"),
     "Deportivo Boquerón": ("Ciudad del Este", "Alto Paraná"), "Capitán Figari": ("Lambaré", CEN),
 }
 
 REGRAS: list[tuple[str, str, int, int]] = [
+    # clubes que só aparecem nas tabelas parciais de parahist (PY-003); cidade presumida Asunción (liga da capital)
+    (r"mbigua", "Mbiguá", 1900, 1930), (r"mariscal lopez", "Mariscal López", 1900, 1930),
+    (r"marte atletico", "Marte Atlético", 1900, 1930), (r"sastre sport", "Sastre Sport", 1900, 1930),
+    (r"c a l t|calt", "C.A.L.T.", 1930, 1940), (r"atletico corrales", "Atlético Corrales", 1930, 1945),
+    (r"asuncion fbc", "Asunción FBC", 1940, 1955), (r"general genes", "General Genes", 1945, 1960),
     (r"(club )?olimpia( asuncion)?", "Olimpia", 1902, 2100),
     (r"cerro porteno (pf|de franco|\(?pf\)?)|cerro porteno \(pf\)", "Cerro Porteño PF", 2000, 2100),
-    (r"cerro porteno cd este", "Cerro Porteño de Ciudad del Este", 1990, 2100),
+    (r"cerro porteno cd este", "Cerro Porteño PF", 1990, 2100),   # o mesmo clube, de Presidente Franco (D-25 d)
     (r"(dep |deportivo )?boqueron", "Deportivo Boquerón", 1990, 2100),
     (r"(c |cerro )?p(orte[nñ]o)?$|c porteno|cerro porteno|cerro p$", "Cerro Porteño", 1912, 2100),
     (r"cerro c(ora)?( campo grande)?|c cora", "Cerro Corá", 1980, 2100),
@@ -64,6 +71,9 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"tac(u|au)a?ry", "Tacuary", 1923, 2100),
     (r"(sp |sportivo )?trinidense", "Sportivo Trinidense", 1935, 2100),
     (r"(dep |deportivo )?recoleta", "Deportivo Recoleta", 1931, 2100),
+    # o "Pettirossi (Encarnación)" de 1994 é outro clube, não o Silvio Pettirossi de Asunción (D-25 c)
+    (r"(silvio )?pettirossi (de )?\(?encarnacion\)?", "Pettirossi de Encarnación", 1990, 2100),
+    (r"(silvio )?pettirossi", "Pettirossi de Encarnación", 1994, 1994),
     (r"(silvio )?pettirossi", "Silvio Pettirossi", 1926, 2100),
     (r"(sportivo )?ameliano", "Sportivo Ameliano", 1936, 2100),
     (r"resistencia( sc)?", "Resistencia", 1917, 2100),

@@ -591,3 +591,48 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `col-1` inteiro. Os ids mudam: saem os jogos repetidos de 1964 e os suspensos.
 - **Commit:** `b8d739d`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 23/11 — Correções da revisão: Paraguaio (`par-1`)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - **Pódio:**
+    - PY-001 e PY-002: campeão e vice da lista sempre em 1º e 2º, com a linha inserida, sem campanha, quando faltam
+      (1917, 1928, 1936, 1991...);
+    - PY-028 (D-22 a): nos anos com dois vices na lista fica o da es (1926 River Plate; 1927, 1952 e 1953 Libertad; 1964
+      Nacional).
+  - **Tabelas e classificação:**
+    - PY-003: as tabelas parciais de parahist vêm inteiras (antes paravam no 1º clube empatado), com 8 clubes antigos
+      novos no cadastro;
+    - PY-004: em 1982-1995, só 1986 e 1994 têm a tabela da temporada; nos outros anos, campeão e vice (não mais a tabela
+      de uma fase).
+  - **Jogos:**
+    - PY-005: os torneios de pré-temporada de 1962-1966 saíram (152 jogos);
+    - PY-007: o que não é do campeonato em 2000, 2004 e 2005 também saiu (inclusive a final da Intermedia de 2005);
+    - PY-029: General Caballero x Libertad de 2005 (W.O. com os gols de campo);
+    - PY-010: o "awarded as a win to" de 1960.
+  - **Fases e situação:**
+    - PY-006: desempate do 11º lugar como "Desempate do rebaixamento";
+    - PY-011: "Relegation Playoff" não é queda.
+  - **Clubes:**
+    - PY-013 (D-25 c): Pettirossi de Encarnación à parte do Silvio Pettirossi;
+    - PY-014 (D-25 d): Cerro Porteño de Ciudad del Este = Cerro Porteño PF;
+    - PY-015: 8 de Diciembre em Caaguazú.
+  - **ESPN:**
+    - PY-020: gol sem lado fica de fora;
+    - PY-021: jogador "2"/"22" fica sem nome;
+    - PY-025: estádio sem o patrocinador ("ueno", "Tigo").
+  - **Edição nova:** PY-027, o Apertura 2026 (Olimpia campeão; D-01).
+- **Abertos:**
+  - PY-008: fases do Apertura e do Clausura de 1996-2007;
+  - PY-009: datas no título da fase, no leitor comum, no fim;
+  - PY-012: rebaixados por ano;
+  - PY-018: artilheiros de 2014 em diante;
+  - PY-019;
+  - PY-031: textos da ficha.
+- **Números:** 134 edições, 7.823 jogos, 50 clubes. Teste de carga: `par-1: 134 edições, 7823 jogos, 9 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar o `par-1` inteiro.
+  - Os ids mudam: saem os jogos de pré-temporada e de copas, e entra o Apertura 2026.
+  - Atenção ao PY-001, do lado do painel: o campeão deve sair de `edicao.campeao_id`, não da posição 1.
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

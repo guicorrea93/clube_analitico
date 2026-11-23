@@ -9,8 +9,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36043 | 41255 | 173 | 142 / 51 | sim | 30f0b00 | 41 | [arg-1](arg-1.md) |
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 14319 | 9396 | 84 | 59 / 22 | sim | 31c14b0 | 21 | [uru-1](uru-1.md) |
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 19547 | 26601 | 53 | 76 / 32 | sim | 209641e | 26 | [chi-1](chi-1.md) |
-| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22512 | 22020 | 40449 | 42 | 48 / 38 | sim | 3f5c1d0 | 22 | [col-1](col-1.md) |
-| Campeonato Paraguaio | 133 (1906–2025 Clausura) | 76 | 7865 | 13108 | 14270 | 43 | 36 / 12 | sim | 0b793ba | 24 | [par-1](par-1.md) |
+| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22512 | 22020 | 40449 | 42 | 48 / 38 | sim | b8d739d | 22 | [col-1](col-1.md) |
+| Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 13237 | 14267 | 50 | 43 / 7 | sim | 0b793ba | 24 | [par-1](par-1.md) |
 | Campeonato Peruano | 109 (1912–2025) | 18 | 17316 | 20222 | 20999 | 153 | 52 / 38 | sim | 0b793ba | 22 | [per-1](per-1.md) |
 | Campeonato Equatoriano | 68 (1957–2025) | 0 | 14195 | 9240 | 15824 | 63 | 47 / 21 | sim | 0b793ba | 18 | [ecu-1](ecu-1.md) |
 | Campeonato Boliviano | 94 (1950–2025) | 22 | 8563 | 13666 | 4970 | 77 | 42 / 10 | sim | 9ed3dcd | 0 | [bol-1](bol-1.md) |
@@ -29,6 +29,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **col-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): vice pela colchamp, ordem por fase alcançada (D-02 A), tabelas finais de 1987 e 1991-1995 só com a Primera A, rebaixados pela es, 1964 sem jogos repetidos, Finalización e quadrangulares como fase de pontos, finais do Apertura em nível 0, datas de 1957 e 1971, artilheiros de 1971, 1977 e 1978.
 - **col-1:** Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, 1989), CO-008 (datas dos mata-matas: leitor comum, no fim), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante pela es), CO-018, CO-020, CO-022.
 - **par-1:** 76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.
+- **par-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e vice da lista sempre em 1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador '2', estádio sem patrocinador) e o Apertura 2026 (D-01).
+- **par-1:** Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-009 (datas no título da fase: leitor comum, no fim), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).
 - **per-1:** Decisão para o agente 1/Guilherme: 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice (conta da Wikipédia); se valer a conta da RSSSF, tirar essas edições.
 - **per-1:** 18 edições sem jogos (1912-1921, 1970-1974, 1976, 1977, 1979) e jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003: nenhuma fonte pública tem o resto.
 - **ecu-1:** ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).

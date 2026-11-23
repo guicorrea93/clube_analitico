@@ -32,6 +32,7 @@ FASES = [
     (r"(?i)^(Torneo )?Finalizaci[oó]n", ""),   # título do torneio (não é a final)
     # campeonatos em duas fases: grupo do título e grupo do rebaixamento depois da fase de todos contra todos
     (r"^(Relegation (Group|Round|Liguilla)|Liguilla (de |del |por el )?Descenso|Grupo de Descenso)", "Grupo do rebaixamento"),
+    (r"^Playoff against 11th Place", "Desempate do rebaixamento"),   # PY-006 (1961, 1963)
     (r"^(Second Stage|Second Phase)\b", "Segunda fase"),
     (r"^(Third Stage|Third Phase)\b", "Terceira fase"),
     (r"^(Championship (Group|Round|Liguilla)|Liguilla (Final|del Campe[oó]n|de Campeonato|por el T[ií]tulo)|"
@@ -127,7 +128,8 @@ def _vitoria_dada(x: rsssf_sul.Jogo) -> None:
     if re.search(r"award(ed)? of (a )?win to .{2,40}? annulled", x.nota, re.I):   # a decisão caiu: vale o placar de campo
         x.especial = "" if x.gm is not None else x.especial
         return
-    m = re.search(r"(?:awarded (?:(\d{1,2})\s*-\s*(\d{1,2}) )?(?:a )?win to|win awarded to)\s+(.+?)"
+    # PY-010: também "awarded as a win to" (1960, Tembetary 2-2 Libertad)
+    m = re.search(r"(?:awarded (?:(\d{1,2})\s*-\s*(\d{1,2}) )?(?:as )?(?:a )?win to|win awarded to)\s+(.+?)"
                   r"(?:\s+(?:as|because|since|for|after|due|with)\b|\s*\(|[;,.\]]|$)", x.nota, re.I)
     if not m:
         return
@@ -226,7 +228,10 @@ def secao_do_ano(ano: int) -> tuple[str, int, int] | None:
     return (pg, 0, len(linhas(pg))) if (PASTA / f"{pg}.html").exists() else None
 
 
-_PARCIAL = re.compile(r"^\s*(\d{1,2}|l)\s*\.\s*([^\d\s].*?)\s{2,}(\d{1,3})(?:\s*pts?)?\s*(?:\[.*\]|\(.*\))?\s*$", re.I)
+# PY-003: aceita texto depois dos pontos ("Playoff", "Relegated", "[inferred]") e a linha do clube empatado, sem número
+# (" 1.Olimpia  15" / "   Cerro Porteño  15"), que herda a posição de cima
+_PARCIAL = re.compile(r"^\s*(\d{1,2}|l)\s*\.\s*([^\d\s].*?)\s{2,}(\d{1,3})(?:\s*pts?)?(?:\s+(?:\[.*\]|\(.*\)|[A-Za-z].*))?\s*$", re.I)
+_PARCIAL_EMPATE = re.compile(r"^\s{2,}()([^\d\s\[(].*?)\s{2,}(\d{1,3})(?:\s*pts?)?(?:\s+(?:\[.*\]|\(.*\)|[A-Za-z].*))?\s*$", re.I)
 
 
 def tabela_parcial(ano: int) -> rsssf_sul.Tabela | None:
@@ -241,12 +246,12 @@ def tabela_parcial(ano: int) -> rsssf_sul.Tabela | None:
     atual, final_antes, titulo_final = None, False, False
     for i in range(ini, fim):
         s = ls[i].strip()
-        m = _PARCIAL.match(ls[i])
+        m = _PARCIAL.match(ls[i]) or (_PARCIAL_EMPATE.match(ls[i]) if atual is not None else None)
         if m and not rsssf_sul._jogo(ls[i]):
             if atual is None:
                 atual = rsssf_sul.Tabela(i, pg, "")   # secao = página da tabela parcial (vai para a fonte)
                 tabelas.append((titulo_final, atual))
-            pos = 1 if m.group(1).lower() == "l" else int(m.group(1))
+            pos = (atual.linhas[-1]["pos"] if not m.group(1) else 1 if m.group(1).lower() == "l" else int(m.group(1)))
             # nome até o primeiro número; o último número são os pontos, os anteriores (quando há) J V E D GP GC
             nome = re.match(r"^([^\d]+?)\s*(\d.*)?$", m.group(2) + " " + m.group(3))
             nums = [int(x) for x in re.findall(r"\d+", nome.group(2) or "")]

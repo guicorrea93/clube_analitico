@@ -55,6 +55,15 @@ def especial(esp: str) -> str:
     return {"wo_m": "wo", "wo_v": "wo", "awd": "awd", "abd": "abd", "anulado": "n/p", "n/p": "n/p"}.get(esp, "")
 
 
+def _estadio(nome: str | None) -> str | None:
+    """PY-025: a ESPN dá o nome de hoje, com o patrocinador ("Estadio ueno Defensores del Chaco", "Estadio UENO Osvaldo
+    Domínguez Dibb", "Tigo"), também nos jogos antigos: sai o patrocinador."""
+    if not nome:
+        return nome
+    nome = re.sub(r"\b(ueno|UENO|Tigo|TIGO)\s+", "", nome).strip()
+    return re.sub(r"\s{2,}", " ", nome)
+
+
 def montar(e: Edicao, cps: dict[str, str]) -> dict:
     p = preparar(e)
     log: list[str] = list(p["log"])
@@ -118,6 +127,10 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
                 {r["clube"] for r in tb["linhas"]} == set(clubes)), None)
     if e.sem_jogos:   # sem jogos: a tabela final da RSSSF é a classificação
         pub = next((tb for tb in p["tabelas"] if tb.get("sem_conferencia")), None)
+        if 1982 <= e.ano_inicio <= 1995:
+            # PY-004: nessas páginas a 1ª tabela é de uma fase só; vale a da temporada inteira (1986, linha 58; 1994, linha
+            # 72); sem ela, só o campeão e o vice da lista
+            pub = next((tb for tb in p["tabelas"] if tb["t"].linha == TABELA_ANO.get(e.temporada)), None)
     linhas = []
     if pub:
         parcial = any(r["v"] is None for r in pub["linhas"])
@@ -140,21 +153,38 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
             linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5], "pts": x[1] * pv + x[2],
                            "ajuste": 0, "obs": "", "fonte": "calculada (fase alcançada, pontos, saldo, gols pró)"})
         linhas.sort(key=lambda r: (-nivel[r["clube"]], -r["pts"], -(r["gp"] - r["gc"]), -r["gp"], r["clube"]))
-    if campeao and linhas and linhas[0]["clube"] != campeao and any(r["clube"] == campeao for r in linhas):
-        c = next(r for r in linhas if r["clube"] == campeao)
-        linhas.remove(c)
-        linhas.insert(0, c)
+    # PY-001 e PY-002: campeão e vice da lista sempre em 1º e 2º; fora das linhas, entram sem a campanha
+    vazio = lambda c, fonte: {"clube": c, "j": None, "v": None, "e": None, "d": None, "gp": None, "gc": None, "pts": None,
+                              "ajuste": None, "obs": "", "fonte": fonte}
+    vtxt = VICE_ES.get(e.temporada) or VICES.get(e.temporada, "")
+    vice = clube(re.split(r"\s+and\s+|,\s*", vtxt)[0].strip(), e.ano_inicio) if vtxt and campeao else None
+    for pos, c in ((0, campeao), (1, vice)):
+        if not c or len(linhas) < pos:
+            continue
+        r = next((r for r in linhas if r["clube"] == c), None)
+        if r is None:
+            r = vazio(c, "lista de campeões e vices da RSSSF (parachamp.html)" if c == campeao or e.temporada not in VICE_ES else
+                      "Wikipédia em espanhol (vice; D-22 a)")
+        else:
+            linhas.remove(r)
+        linhas.insert(pos, r)
     for k, r in enumerate(linhas, 1):
         r["pos"] = k
     return linhas
 
 
+# D-22 (a): anos com dois vices na lista da RSSSF ("River Plate and Sol de América"): fica o da Wikipédia em espanhol
+# (lista "Títulos de liga por año", baixada pela revisão em revisao/PY/wiki_es_campeoes.json)
+TABELA_ANO = {"1986": 58, "1994": 72}
+VICE_ES = {"1926": "River Plate", "1927": "Libertad", "1952": "Libertad", "1953": "Libertad", "1964": "Nacional"}
+
+
 def situacao(r: dict, campeao: str | None, k: int) -> str:
     if r["clube"] == campeao:
         return "campeao"
-    if k == 2:
+    if k == 2 and campeao:
         return "vice"
-    if re.search(r"relegat|descend|rebaix", r.get("obs", ""), re.I):
+    if re.search(r"\brelegated\b|descend|rebaix", r.get("obs", ""), re.I):   # PY-011: "Relegation Playoff" não é queda
         return "rebaixado"
     return ""
 
@@ -288,7 +318,7 @@ def gravar(eds: list[dict]) -> None:
                 loc = outras_fontes._local(ge)
                 hora = loc.strftime("%H:%M") if loc.strftime("%H:%M") != "21:00" or ge["data_hora"][11:16] != "00:00" else None
                 data = data or loc.date().isoformat()
-                estadio = ge.get("estadio") or estadio
+                estadio = _estadio(ge.get("estadio")) or estadio
                 cidade = ge.get("cidade") or cidade
                 publico = publico or (ge.get("publico") or None)
                 gl, ct = outras_fontes.lances_espn(ge)

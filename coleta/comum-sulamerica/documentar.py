@@ -68,6 +68,12 @@ PENDENCIAS: dict[str, list[str]] = {
     ],
     "par-1": [
         "76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.",
+        "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e vice da lista sempre em "
+        "1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, "
+        "pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador "
+        "'2', estádio sem patrocinador) e o Apertura 2026 (D-01).",
+        "Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-009 (datas no título da fase: leitor "
+        "comum, no fim), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).",
     ],
     "per-1": [
         "Decisão para o agente 1/Guilherme: 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice (conta "
