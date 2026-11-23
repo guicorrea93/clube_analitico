@@ -5,10 +5,10 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 1915,1915,1915,Liga Peruana de Football 1915,0,2,sem jogos (só a tabela final),Sport José Gálvez,Atlético Peruano,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
 1916,1916,1916,Liga Peruana de Football 1916,0,2,sem jogos (só a tabela final),Sport José Gálvez,Jorge Chávez N°1,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
 1917,1917,1917,Liga Peruana de Football 1917,0,2,sem jogos (só a tabela final),Sport Juan Bielovucic,Alianza Lima,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
-1918,1918,1918,Liga Peruana de Football 1918,0,2,sem jogos (só a tabela final),Alianza Lima,Jorge Chávez N°1,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
+1918,1918,1918,Liga Peruana de Football 1918,0,2,sem jogos (só a tabela final),Alianza Lima,Jorge Chávez,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
 1919,1919,1919,Liga Peruana de Football 1919,0,2,sem jogos (só a tabela final),Alianza Lima,Sport Sáenz Peña,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
 1920,1920,1920,Liga Peruana de Football 1920,0,2,sem jogos (só a tabela final),Sport Inca,Sport Progreso,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
-1921,1921,1921,Liga Peruana de Football 1921,0,2,sem jogos (só a tabela final),Sport Progreso,Jorge Chávez N°1,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
+1921,1921,1921,Liga Peruana de Football 1921,0,2,sem jogos (só a tabela final),Sport Progreso,Jorge Chávez,,"sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão"
 1926,1926,1926,Campeonato de Primera División del Perú 1926,11,2,pontos corridos,Sport Progreso,Alianza Lima,RSSSF; Wikipédia (es),
 1927,1927,1927,Campeonato de Primera División del Perú 1927,8,2,pontos corridos,Alianza Lima,Unión Buenos Aires,RSSSF; Wikipédia (es),
 1928,1928,1928,Campeonato de Primera División del Perú 1928,19,2,2 grupos + pontos corridos + mata-mata,Alianza Lima,Universitario,RSSSF; Wikipédia (es),
@@ -69,8 +69,8 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 1984,1984,1984,Campeonato Descentralizado 1984,15,2,4 grupos + pontos corridos + mata-mata,Sport Boys,Universitario,RSSSF,
 1985,1985,1985,Campeonato Descentralizado 1985,30,2,4 grupos + desempate + mata-mata + pontos corridos,Universitario,UTC,RSSSF; Wikipédia (es),
 1986,1986,1986,Campeonato Descentralizado 1986,18,2,3 grupos + pontos corridos + mata-mata,Deportivo San Agustín,Alianza Lima,RSSSF,
-1987,1987,1987,Campeonato Descentralizado 1987,30,2,4 grupos + mata-mata + pontos corridos + mata-mata,Universitario,Alianza Lima,RSSSF,
-1988,1988,1988,Campeonato Descentralizado 1988,37,2,4 grupos + desempate + pontos corridos + mata-mata,Sporting Cristal,Universitario,RSSSF,
+1987,1987,1987,Campeonato Descentralizado 1987,30,2,4 grupos + mata-mata + 3 grupos + pontos corridos + mata-mata,Universitario,Alianza Lima,RSSSF,
+1988,1988,1988,Campeonato Descentralizado 1988,37,2,4 grupos + desempate + mata-mata + 4 grupos + pontos corridos + mata-mata,Sporting Cristal,Universitario,RSSSF,
 1989,1989,1989,Campeonato Descentralizado 1989,14,2,2 grupos + 3 grupos + pontos corridos + mata-mata,Unión Huaral,Sporting Cristal,RSSSF,
 1990,1990,1990,Campeonato Descentralizado 1990,13,2,pontos corridos + mata-mata,Universitario,Sport Boys,RSSSF,
 1991,1991,1991,Campeonato Descentralizado 1991,15,2,mata-mata + pontos corridos + 2 grupos,Sporting Cristal,Sport Boys,RSSSF,
@@ -99,11 +99,11 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 2014,2014,2014,Campeonato Descentralizado 2014,16,3,pontos corridos + mata-mata + desempate + mata-mata,Sporting Cristal,Juan Aurich,RSSSF; ESPN,
 2015,2015,2015,Campeonato Descentralizado 2015,17,3,pontos corridos + mata-mata + desempate + mata-mata,Melgar,Sporting Cristal,RSSSF; ESPN,
 2016,2016,2016,Campeonato Descentralizado 2016,16,3,pontos corridos + desempate + mata-mata,Sporting Cristal,Melgar,RSSSF; ESPN,
-2017,2017,2017,Campeonato Descentralizado 2017,16,3,pontos corridos + mata-mata,Alianza Lima,Cusco FC,RSSSF; ESPN,
-2018,2018,2018,Campeonato Descentralizado 2018,16,3,pontos corridos + mata-mata,Sporting Cristal,Alianza Lima,RSSSF; ESPN,
+2017,2017,2017,Campeonato Descentralizado 2017,16,3,pontos corridos + mata-mata + pontos corridos,Alianza Lima,Cusco FC,RSSSF; ESPN,
+2018,2018,2018,Campeonato Descentralizado 2018,16,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Sporting Cristal,Alianza Lima,RSSSF; ESPN,
 2019,2019,2019,Liga 1 2019,18,3,pontos corridos + mata-mata,Binacional,Alianza Lima,RSSSF; ESPN,
 2020,2020,2020,Liga 1 2020,20,3,pontos corridos + mata-mata,Sporting Cristal,Universitario,RSSSF; ESPN,
-2021,2021,2021,Liga 1 2021,19,3,pontos corridos + mata-mata + pontos corridos,Alianza Lima,Sporting Cristal,RSSSF; ESPN,
+2021,2021,2021,Liga 1 2021,19,3,pontos corridos + mata-mata + pontos corridos + mata-mata,Alianza Lima,Sporting Cristal,RSSSF; ESPN,
 2022,2022,2022,Liga 1 2022,19,3,pontos corridos + mata-mata,Alianza Lima,Melgar,RSSSF; ESPN,
 2023,2023,2023,Liga 1 2023,19,3,pontos corridos + desempate,Universitario,Alianza Lima,RSSSF; ESPN,
 2024,2024,2024,Liga 1 2024,18,3,pontos corridos,Universitario,Sporting Cristal,RSSSF; ESPN,

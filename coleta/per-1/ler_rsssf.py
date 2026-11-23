@@ -304,3 +304,35 @@ if __name__ == "__main__":
         for j in js:
             fases[j.fase] = fases.get(j.fase, 0) + 1
         print(f"{e.temporada:10s} {len(js):4d} jogos  {len(ts):2d} tabelas  fases {fases}")
+
+
+def ranking_liga(ano: int) -> list[tuple[int | None, str]]:
+    """Liga Peruana (1912-1921, D-06 A): a ordem da 1ª divisão na página do ano ("Final Ranking:" / "Top Final Ranking:",
+    " 1.Sport Alianza") e os outros participantes ("Participants (8):", "Other participants (12, ...)"), sem posição.
+    [(posição ou None, nome como na página)]; para no primeiro título de outra divisão, rodada ou nota."""
+    saida: list[tuple[int | None, str]] = []
+    lendo = False
+    for l in linhas(f"peru{ano}")[12:]:
+        s = l.strip()
+        if re.match(r"^Segunda|^Second", s):   # a 2ª divisão da mesma página fica de fora
+            break
+        if re.match(r"^(Top )?Final Ranking|^(Other )?[Pp]articipants|^Reported Final Standings", s):
+            lendo = True
+            continue
+        if not s:
+            continue
+        if re.match(r"^(Round|NB|Promoted|Relegated|Segunda|Second|Division|list of|\d{4}$|\[)", s):
+            lendo = False
+            continue
+        if lendo:   # (1912: " 1.Lima Cricket   12", " -.Escuela Militar": o número de pontos sai; "-." é sem posição)
+            m = re.match(r"^(?:(\d+|-)\.)?\s*(.+?)(?:\s{2,}\d[\d\s-]*)?\s*$", s)
+            saida.append((int(m.group(1)) if m.group(1) and m.group(1) != "-" else None, m.group(2)))
+    # a ordem vem antes dos participantes sem posição; cada clube uma vez (1912 lista os participantes e depois a tabela)
+    from clubes_per import clube
+    vistos, ordem = set(), []
+    for pos, n in sorted(saida, key=lambda x: (x[0] is None, x[0] or 0)):
+        c = clube(n, ano) or n
+        if c not in vistos:
+            vistos.add(c)
+            ordem.append((pos, n))
+    return ordem

@@ -637,3 +637,41 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - Atenção ao PY-001, do lado do painel: o campeão deve sair de `edicao.campeao_id`, não da posição 1.
 - **Commit:** `4583f7e`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 23/11 — Correções da revisão: Peruano (`per-1`)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - **Classificação:**
+    - PE-002 e PE-008: a tabela do ano inteiro, emendada:
+      - 1970-1979: grupo final + rebaixamento/1ª fase;
+      - 1998 e 2000: as duas partes da tabela acumulada;
+      - 2009 e 2012: as duas liguillas, por pontos;
+      - 2001, 2004 e 2005: soma do Apertura e do Clausura, porque a página não tem a acumulada.
+    - PE-004: 2020 pela tabela anual pós-TAS.
+    - PE-006 e PE-007: 2021 pela tabela anual com o TAS aplicado (Cusco 23, Cienciano 39; rebaixados Cusco FC e Alianza
+      Universidad; Carlos Stein fora).
+    - PE-003: "rebaixado" só com "Relegated" explícito.
+  - **Liga Peruana 1912-1921 (PE-019, D-06 A):**
+    - ordem e participantes das páginas peru1912-1921, com 14 clubes antigos novos no cadastro;
+    - PE-001: "Jorge Chávez" sem número é o do Callao (vice de 1918 e 1921), e o N°1 só quando a página escreve o número.
+  - **Jogos e fases:**
+    - PE-005: a final de 2021 (Alianza x Cristal);
+    - PE-013: as finais do Torneo de Verano de 2017 e 2018 como fase própria;
+    - PE-011: "Regional Final" de 1987 e 1988 como fase própria;
+    - PE-010: jogos de janeiro de 1990 em 1991.
+  - **Outros:**
+    - PE-021: Sporting Tabaco em Lima;
+    - PE-016, PE-018 e PE-026: registrados no relatório.
+- **Abertos:**
+  - PE-009: datas no título da fase, no leitor comum, no fim;
+  - PE-010: a final nacional de 1990 como "Final";
+  - PE-012: liguilla final de 1988;
+  - PE-014: rebaixados por ano;
+  - PE-015: artilheiros de 1996;
+  - PE-017: placares, só com uma 3ª fonte;
+  - PE-022: cidade do Deportivo Bancos.
+- **Números:** 109 edições, 17.318 jogos, 167 clubes. Teste de carga: `per-1: 109 edições, 17318 jogos, 14 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar o `per-1` inteiro. Os ids mudam: entra a final de 2021, e mudam as fases e as datas.
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

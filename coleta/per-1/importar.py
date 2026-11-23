@@ -57,8 +57,19 @@ def especial(esp: str) -> str:
     return {"wo_m": "wo", "wo_v": "wo", "awd": "awd", "abd": "abd", "anulado": "n/p", "n/p": "n/p"}.get(esp, "")
 
 
+def virada_do_ano(e: Edicao, jogos: list[dict]) -> None:
+    """PE-010: em 1990 os jogos de janeiro (liguilla final do Regional II e final nacional) são de 1991; a 1ª fase começa em
+    abril de 1990."""
+    if e.temporada != "1990":
+        return
+    for j in jogos:
+        if j["j"] and j["j"].data and j["j"].data[:7] == "1990-01":
+            j["j"].data = "1991" + j["j"].data[4:]
+
+
 def montar(e: Edicao, cps: dict[str, str]) -> dict:
     p = preparar(e)
+    virada_do_ano(e, p["jogos"])
     log: list[str] = list(p["log"])
     for x in EXTRAS.get(e.temporada, []):
         p["jogos"].append({"m": x["mandante"], "v": x["visitante"], "gm": x["gm"], "gv": x["gv"], "fase": x.get("fase", ""),
@@ -124,6 +135,16 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     pub = max(cands, key=lambda tb: sum(r["j"] or 0 for r in tb["linhas"]), default=None)
     if e.sem_jogos:   # sem jogos: a tabela final da RSSSF é a classificação
         pub = next((tb for tb in p["tabelas"] if tb.get("sem_conferencia")), None)
+    if e.temporada in TABELAS_CLASS:   # tabela(s) do ano inteiro, emendadas (PE-002, PE-004, PE-006, PE-008)
+        por_id = {f"{tb['fonte']}:{tb['t'].linha}": tb for tb in p["tabelas"]}
+        partes = [por_id[k] for k in TABELAS_CLASS[e.temporada] if k in por_id]
+        vistos: set = set()
+        rows = [r for x in partes for r in x["linhas"] if not (r["clube"] in vistos or vistos.add(r["clube"]))]
+        if e.temporada in POR_PONTOS:   # 2009 e 2012: as duas liguillas (44 jogos cada clube) por pontos
+            rows.sort(key=lambda r: (-(r["pts"] or 0), -((r["gp"] or 0) - (r["gc"] or 0))))
+        pub = {**partes[0], "fonte": "+".join(f"{x['fonte']}:{x['t'].linha}" for x in partes), "linhas": rows} if partes else pub
+    elif e.temporada in SOMA_ANO:   # 2001, 2004, 2005: sem tabela acumulada na página; a soma do Apertura e do Clausura (PE-008)
+        pub = None
     linhas = []
     if pub:
         parcial = any(r["v"] is None for r in pub["linhas"])
@@ -133,7 +154,15 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
                            "pts": r["pts"], "ajuste": ajuste, "obs": r.get("obs", ""),
                            "fonte": f"RSSSF ({pub['fonte']}{', tabela parcial' if parcial else ''})"})
         # a ordem publicada vale; empates sem número herdam a posição de cima
-    elif e.sem_jogos:   # sem jogos e sem tabela (Liga Peruana, 1912-1921): só o campeão e o vice da Wikipédia
+    elif e.sem_jogos and 1912 <= e.ano_inicio <= 1921:   # Liga Peruana (D-06 A, PE-019): a ordem e os participantes da página
+        from ler_rsssf import ranking_liga
+        for pos, nome in ranking_liga(e.ano_inicio):
+            c = clube(nome, e.ano_inicio)
+            if c and all(r["clube"] != c for r in linhas):
+                linhas.append({"clube": c, "j": None, "v": None, "e": None, "d": None, "gp": None, "gc": None, "pts": None,
+                               "ajuste": None, "obs": "" if pos else "participante (a página não dá a posição)",
+                               "fonte": f"RSSSF (peru{e.ano_inicio}: ordem{'' if pos else ' e participantes'})"})
+    elif e.sem_jogos:   # sem jogos e sem tabela: só o campeão e o vice da Wikipédia
         vice = VICES.get(e.temporada, "")
         for nome in [campeao or ""] + re.split(r"\s+and\s+|,\s*", vice):
             c = nome if nome == campeao else clube(nome.strip(), e.ano_inicio)
@@ -146,6 +175,24 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
             linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5], "pts": pontos(x[1], x[2], x[3]),
                            "ajuste": 0, "obs": "", "fonte": "calculada (fase alcançada, pontos, saldo, gols pró)"})
         linhas.sort(key=lambda r: (-nivel[r["clube"]], -r["pts"], -(r["gp"] - r["gc"]), -r["gp"], r["clube"]))
+    if pub and not e.sem_jogos:   # clubes com jogos que a tabela usada não tem vêm depois, calculados
+        for c in sorted(set(clubes) - {r["clube"] for r in linhas}, key=lambda c: -(calc.get(c, [0] * 6)[1])):
+            x = calc.get(c, [0] * 6)
+            linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5],
+                           "pts": pontos(x[1], x[2], x[3]), "ajuste": 0, "obs": "", "fonte": "calculada (fora da tabela usada)"})
+    if not e.sem_jogos:   # clube sem jogo válido na edição (2021, Carlos Stein: só um jogo anulado) fica de fora (PE-006)
+        linhas = [r for r in linhas if r["j"] or r["clube"] == campeao]
+    if e.temporada == "2021":
+        # PE-006 e PE-007: a tabela anual da RSSSF é de antes do TAS (21/01/2022), que anulou o 3-0 dado ao Cusco sobre o
+        # Cienciano (vale o 2-2 de campo): Cusco 23 pontos, Cienciano 39; rebaixados Cusco FC e Alianza Universidad
+        for r in linhas:
+            if r["clube"] == "Cusco FC":
+                r.update(v=r["v"] - 1, e=r["e"] + 1, pts=r["pts"] - 2, gp=r["gp"] - 1, gc=r["gc"] + 2, obs="Relegated (TAS)")
+            elif r["clube"] == "Cienciano":
+                r.update(d=r["d"] - 1, e=r["e"] + 1, pts=r["pts"] + 1, gp=r["gp"] + 2, gc=r["gc"] - 1)
+            elif r["clube"] == "Universidad San Martín":
+                r["obs"] = "salvo da queda pela decisão do TAS"
+        linhas.sort(key=lambda r: -(r["pts"] or 0))
     if campeao and linhas and linhas[0]["clube"] != campeao and any(r["clube"] == campeao for r in linhas):
         c = next(r for r in linhas if r["clube"] == campeao)
         linhas.remove(c)
@@ -161,12 +208,24 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     return linhas
 
 
+TABELAS_CLASS = {
+    "1970": ["peruhist:978", "peruhist:988"], "1972": ["peruhist:1078", "peruhist:1059"], "1973": ["peruhist:1120", "peruhist:1099"],
+    "1974": ["peruhist:1166", "peruhist:1141"], "1977": ["peruhist:1297", "peruhist:1278"],
+    "1979": ["peruhist:1404", "peruhist:1415", "peruhist:1385"],
+    "1998": ["peru98:718", "peru98:722"], "2000": ["peru00:784", "peru00:795"], "2009": ["peru09:714", "peru09:909"],
+    "2012": ["peru2012:734", "peru2012:751"], "2020": ["peru2020:919"], "2021": ["peru2021:783"],
+}
+POR_PONTOS = {"2009", "2012"}
+SOMA_ANO = {"2001", "2004", "2005"}
+
+
 def situacao(r: dict, campeao: str | None, k: int) -> str:
     if r["clube"] == campeao:
         return "campeao"
-    if k == 2:
+    if k == 2 and campeao:
         return "vice"
-    if re.search(r"relegat|descend|rebaix", r.get("obs", ""), re.I):
+    # PE-003: só "Relegated" explícito; "to Relegation Group/Playoff" não é queda
+    if re.search(r"(?<!to )\brelegated\b|descend|rebaix", r.get("obs", ""), re.I):
         return "rebaixado"
     return ""
 
@@ -330,6 +389,8 @@ def gravar(eds: list[dict]) -> None:
                                              "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
             if r["clube"] in CLUBES and r["fonte"].startswith("lista de campeões"):   # clube só da lista de campeões (1912-1921)
                 so_tabela[r["clube"]][f"wikipedia:{r['clube']}"].append(e.ano_inicio)
+            elif r["clube"] in CLUBES and r["fonte"].startswith(f"RSSSF (peru{e.ano_inicio}:"):   # ordem da Liga Peruana
+                so_tabela[r["clube"]][f"rsssf:{r['clube']}"].append(e.ano_inicio)
         # tabelas publicadas (as que entraram na conferência)
         vistas = set()
         for tb in p["tabelas"]:

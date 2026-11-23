@@ -5,8 +5,8 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 109, de 1912 a 2025; 18 sem jogos.
-- **Jogos:** 17316 (17269 com placar); **gols:** 47450; **gols com autor:** 20222 (43%); **cartões:** 20999.
-- **Clubes:** 153; **artilheiros:** 97 edições com artilheiro (100 linhas, com empates).
+- **Jogos:** 17318 (17271 com placar); **gols:** 47452; **gols com autor:** 20227 (43%); **cartões:** 21011.
+- **Clubes:** 167; **artilheiros:** 97 edições com artilheiro (100 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2552 linhas.
 - **No banco:** sim; **último commit do pacote:** 0b793ba.
 - **Observação da competição:** 1ª divisão peruana de 1912 a 2025, um campeão por ano (sem campeonato em 1922-1925 e 1936). 1912-1921: Liga Peruana de Football, só com campeão e vice. Sem jogos em 1970-1974, 1976, 1977 e 1979 (só a tabela final); jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003.
@@ -48,8 +48,8 @@ Fontes dos jogos por edição:
 
 Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
 
-- **Edições em que todas as tabelas fecham com os jogos:** 52.
-- **Edições com alguma tabela divergente** (38; motivo no relatório, na edição): 1927, 1928, 1929, 1931, 1933, 1934, 1948, 1949, 1950, 1951, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1966, 1967, 1975, 1978, 1982, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1996, 1999, 2000, 2004, 2013.
+- **Edições em que todas as tabelas fecham com os jogos:** 51.
+- **Edições com alguma tabela divergente** (39; motivo no relatório, na edição): 1927, 1928, 1929, 1931, 1933, 1934, 1948, 1949, 1950, 1951, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1966, 1967, 1975, 1978, 1982, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1996, 1999, 2000, 2004, 2013, 2021.
 - **Edições sem tabela para conferir** (19): 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1926, 1970, 1971, 1972, 1973, 1974, 1976, 1977, 1979.
 - **Edições com menos jogos que o esperado:** 1935 (9 de 6), 1950 (89 de 90), 1957 (110 de 130), 1958 (110 de 130), 1959 (110 de 130), 1964 (110 de 130), 1965 (110 de 130), 1975 (323 de 322), 2000 (266 de 265), 2004 (366 de 365), 2016 (360 de 359).
 
@@ -70,7 +70,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1990s | 10 | 2127 | 76% | 0% | 99% | 0% | 0% | 0% | 8% | 0.0 |
 | 2000s | 10 | 2964 | 100% | 47% | 100% | 44% | 43% | 0% | 81% | 1.4 |
 | 2010s | 10 | 3217 | 100% | 99% | 100% | 99% | 90% | 1% | 88% | 2.2 |
-| 2020s | 6 | 1847 | 100% | 100% | 100% | 100% | 100% | 0% | 99% | 5.3 |
+| 2020s | 6 | 1849 | 100% | 100% | 100% | 100% | 100% | 0% | 99% | 5.3 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 
@@ -174,8 +174,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1984: 4 grupos + pontos corridos + mata-mata
 - 1985: 4 grupos + desempate + mata-mata + pontos corridos
 - 1986: 3 grupos + pontos corridos + mata-mata
-- 1987: 4 grupos + mata-mata + pontos corridos + mata-mata
-- 1988: 4 grupos + desempate + pontos corridos + mata-mata
+- 1987: 4 grupos + mata-mata + 3 grupos + pontos corridos + mata-mata
+- 1988: 4 grupos + desempate + mata-mata + 4 grupos + pontos corridos + mata-mata
 - 1989: 2 grupos + 3 grupos + pontos corridos + mata-mata
 - 1990: pontos corridos + mata-mata
 - 1991: mata-mata + pontos corridos + 2 grupos
@@ -196,8 +196,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2013: 2 grupos + desempate + 2 grupos + mata-mata
 - 2014 a 2015: pontos corridos + mata-mata + desempate + mata-mata
 - 2016: pontos corridos + desempate + mata-mata
-- 2017 a 2020: pontos corridos + mata-mata
-- 2021: pontos corridos + mata-mata + pontos corridos
+- 2017: pontos corridos + mata-mata + pontos corridos
+- 2018: pontos corridos + mata-mata + pontos corridos + mata-mata
+- 2019 a 2020: pontos corridos + mata-mata
+- 2021: pontos corridos + mata-mata + pontos corridos + mata-mata
 - 2022: pontos corridos + mata-mata
 - 2023: pontos corridos + desempate
 - 2024 a 2025: pontos corridos
@@ -226,8 +228,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1984: Primeira fase (grupos, 4 grupos); Fase final (liga); Semifinal (mata_mata, jogo_unico)
 - 1985: Regional (grupos, 4 grupos); Desempate do Regional (mata_mata, jogo_unico); Repechaje do Regional (mata_mata, ida_volta); Quartas de final do Regional (mata_mata, jogo_unico); Semifinal do Regional (mata_mata, jogo_unico); Final do Regional (mata_mata, jogo_unico); Primeira fase (liga); Fase final (liga)
 - 1986: Primeira fase (grupos, 3 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
-- 1987: Regional (grupos, 4 grupos); Final do Regional (mata_mata, ida_volta); Primeira fase (liga); Fase final (liga); Final (mata_mata, jogo_unico)
-- 1988: Regional (grupos, 4 grupos); Desempate do rebaixamento (mata_mata, jogo_unico); Primeira fase (liga); Fase final (liga); Final (mata_mata, ida_volta)
+- 1987: Regional (grupos, 4 grupos); Final do Regional (mata_mata, ida_volta); Primeira fase (grupos, 3 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
+- 1988: Regional (grupos, 4 grupos); Desempate do rebaixamento (mata_mata, jogo_unico); Final do Regional (mata_mata, jogo_unico); Primeira fase (grupos, 4 grupos); Fase final (liga); Final (mata_mata, ida_volta)
 - 1989: Regional (grupos, 2 grupos); Primeira fase (grupos, 3 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
 - 1990: Regional (liga); Regional II (liga); Final do Regional II (mata_mata, jogo_unico)
 - 1991: Quartas de final do Regional II (mata_mata, ida_volta); Quartas de final do Regional (mata_mata, ida_volta); Regional (liga); Regional II (grupos, 2 grupos)
@@ -253,11 +255,11 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2014: Apertura (liga); Clausura (liga); Final do Clausura (mata_mata, jogo_unico); Desempate do rebaixamento (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
 - 2015: Apertura (liga); Clausura (liga); Final do Clausura (mata_mata, jogo_unico); Desempate do 2º lugar (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2016: Apertura (liga); Clausura (liga); Liguillas (liga); Desempate do 2º lugar (mata_mata, jogo_unico); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2017: Torneo de Verano (liga); Apertura (liga); Clausura (liga); Final (mata_mata, ida_volta)
-- 2018: Torneo de Verano (liga); Apertura (liga); Clausura (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2017: Torneo de Verano (liga); Final do Torneo de Verano (mata_mata, ida_volta); Apertura (liga); Clausura (liga)
+- 2018: Torneo de Verano (liga); Final do Torneo de Verano (mata_mata, ida_volta); Apertura (liga); Clausura (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2019: Apertura (liga); Clausura (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2020: Apertura (liga); Clausura (liga); Final do Clausura (mata_mata, jogo_unico); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2021: Fase 1 (liga); Final da Fase 1 (mata_mata, jogo_unico); Fase 2 (liga)
+- 2021: Fase 1 (liga); Final da Fase 1 (mata_mata, jogo_unico); Fase 2 (liga); Final (mata_mata, ida_volta)
 - 2022: Apertura (liga); Clausura (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2023: Apertura (liga); Clausura (liga); Desempate do título (mata_mata, ida_volta)
 - 2024: Apertura (liga); Clausura (liga)
@@ -265,9 +267,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
-- RSSSF: 58 edições
-- calculada: 41 edições
-- lista de campeões da Wikipédia em inglês: 10 edições
+- RSSSF: 66 edições
+- calculada: 43 edições
 
 **Observações das edições:**
 
@@ -326,10 +327,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1915 | Sport José Gálvez | Atlético Peruano |
 | 1916 | Sport José Gálvez | Jorge Chávez N°1 |
 | 1917 | Sport Juan Bielovucic | Alianza Lima |
-| 1918 | Alianza Lima | Jorge Chávez N°1 |
+| 1918 | Alianza Lima | Jorge Chávez |
 | 1919 | Alianza Lima | Sport Sáenz Peña |
 | 1920 | Sport Inca | Sport Progreso |
-| 1921 | Sport Progreso | Jorge Chávez N°1 |
+| 1921 | Sport Progreso | Jorge Chávez |
 | 1926 | Sport Progreso | Alianza Lima |
 | 1927 | Alianza Lima | Unión Buenos Aires |
 | 1928 | Alianza Lima | Universitario |
@@ -430,27 +431,34 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2024 | Universitario | Sporting Cristal |
 | 2025 | Universitario | Cusco FC |
 
-**Rebaixados marcados na classificação:** 96 em 39 edições (só onde a tabela publicada marca a queda); quem mais caiu: Carlos Mannucci (4), Sport Boys (4), Atlético Torino (4), Deportivo Municipal (4), Juan Aurich (4).
+**Rebaixados marcados na classificação:** 77 em 42 edições (só onde a tabela publicada marca a queda); quem mais caiu: Carlos Mannucci (3), Deportivo Municipal (3), Telmo Carbajo (2), Centro Iqueño (2), Unión Callao (2).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
-- 1970: Sporting Cristal +15
-- 1970: Universitario +17
-- 1970: Defensor Arica +20
-- 1970: Juan Aurich +15
-- 1970: Deportivo Municipal +15
-- 1970: Octavio Espinosa +14
-- 1970: Defensor Lima +12
-- 1970: Sport Boys +13
-- 1970: Alianza Lima +10
-- 1970: Porvenir Miraflores +11
-- 1970: Carlos Mannucci +10
-- 1970: Deportivo SIMA +11
-- 1970: Atlético Grau +10
-- 1970: Atlético Torino +9
+- 1970: Sporting Cristal +26
+- 1970: Universitario +24
+- 1970: Defensor Arica +26
+- 1970: Juan Aurich +21
+- 1970: Defensor Lima +18
+- 1970: Deportivo Municipal +17
+- 1970: Octavio Espinosa +18
+- 1970: Sport Boys +20
+- 1970: Alianza Lima +16
+- 1970: Porvenir Miraflores +17
+- 1970: Atlético Torino +17
+- 1970: Carlos Mannucci +15
+- 1970: Deportivo SIMA +15
+- 1970: Atlético Grau +16
+- 1979: Sporting Cristal +1
+- 1979: Juan Aurich +2
+- 1979: Universitario +3
+- 1979: Melgar -3
+- 1979: Atlético Torino -1
+- 1979: Juventud La Palma -2
 - 1981: Alfonso Ugarte -1
 - 1981: Sporting Cristal +2
 - 1981: Atlético Torino -1
+- 1998: Cienciano -1
 - 2002: Alianza Lima -3
 - 2002: Alianza Atlético -3
 - 2007: Alianza Lima -4
@@ -463,8 +471,11 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2010: Total Chalaco -2
 - 2011: Juan Aurich +1
 - 2011: Alianza Lima +2
+- 2012: Juan Aurich +2
+- 2012: Universidad San Martín +1
 - 2012: Universitario -1
 - 2012: Alianza Lima -4
+- 2012: Sport Boys -2
 - 2012: Cobresol -4
 - 2014: Melgar +2
 - 2014: Universitario +1
@@ -500,8 +511,15 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2019: Pirata FC -5
 - 2020: Universitario -1
 - 2020: Sport Boys -1
-- 2020: Carlos Stein -1
+- 2020: Carlos Stein -3
 - 2020: Deportivo Llacuabamba -1
+- 2021: Universitario -2
+- 2021: Cienciano -1
+- 2021: Sport Boys -1
+- 2021: Deportivo Municipal -1
+- 2021: Universidad San Martín -1
+- 2021: Cusco FC -1
+- 2021: Alianza Universidad -1
 - 2022: Alianza Lima +2
 - 2022: César Vallejo -2
 - 2022: Deportivo Municipal -4
@@ -524,8 +542,13 @@ Registradas em `coleta/per-1/explicacoes.py`; cada uma também aparece no relat�
 - **peru2025 · 1058:** «35 -  9 - 20 - 16» → «35 -  9 - 10 - 16»: Comerciantes Unidos com 20 empates na tabela acumulada (9+20+16 não dá 35 jogos); são 10, como na soma do Apertura e do Clausura
 - **peru75 · 406:** «Union Huaraz» → «Unión Huaral»: "Union Huaraz" não está na tabela de 1975; é o Unión Huaral, o único clube da tabela sem esse jogo contra o Juan Aurich
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 36)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 41)
 
+- **2021 · peru2021:542:** [vale o placar de campo, gm = 2, gv = 2] Cusco FC 2-2 Cienciano: o TAS (21/01/2022) anulou a vitória dada ao Cusco (PE-007)
+- **2017 · peru2017:396:** [fase = Final do Torneo de Verano] final do Torneo de Verano (maio), não a do campeonato (PE-013)
+- **2017 · peru2017:400:** [fase = Final do Torneo de Verano] final do Torneo de Verano (maio), não a do campeonato (PE-013)
+- **2018 · peru2018:393:** [fase = Final do Torneo de Verano] final do Torneo de Verano (abril), não a do campeonato (PE-013)
+- **2018 · peru2018:397:** [fase = Final do Torneo de Verano] final do Torneo de Verano (abril), não a do campeonato (PE-013)
 - **1991 · peru91:83:** [descartado] confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
 - **1991 · peru91:84:** [descartado] confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
 - **1991 · peru91:194:** [descartado] confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
@@ -578,8 +601,11 @@ Registradas em `coleta/per-1/explicacoes.py`; cada uma também aparece no relat�
 - **1991:** CNI 1-1 Defensor Lima (Quartas de final do Regional II, rsssf:peru91:197) confronto de ida e volta numa linha só ("A - B 3-0 / 2-3"); mando da volta presumido
 - **1991:** Defensor Lima 2-1 CNI (Quartas de final do Regional II, rsssf:peru91:197) confronto de ida e volta numa linha só ("A - B 3-0 / 2-3"); mando da volta presumido
 
-### Divergências entre fontes já explicadas (`EXPLICACOES`, 2)
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 5)
 
+- **1914:** vice Jorge Chávez N°1 pela página peru1914; a Wikipédia dá o Sport Alianza (2 fontes x 1: fica a RSSSF) (PE-026)
+- **2022:** ajustes de pontos da tabela publicada (Alianza Lima +2, Ayacucho +1, César Vallejo -2) sem terceira fonte que explique a origem; ficam os da tabela (PE-018)
+- **1977:** artilheiros pela lista da RSSSF (perutops), igual à Wikipédia em inglês; a es diverge em alguns anos (1934, 1977, 1980, 1981, 1986-1988): fica a RSSSF até uma 3ª fonte (PE-016)
 - **1929:** a página da Wikipédia traz os jogos duas vezes (lista das rodadas 1-9 e tabela de confrontos); em três confrontos os placares das duas não batem (Universitario x Ciclista Lima, Universitario x Unión Buenos Aires, Hidroaviación x Ciclista Lima) e os dois jogos ficam; falta um jogo do Atlético Chalaco
 - **1931:** a tabela publicada soma pontos de bônus da liga de reservas (um quarto dos pontos dela); a conferência usa só J V E D GP GC
 
@@ -620,8 +646,9 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 ## 9. Pendências e próximos passos
 
-- Decisão para o agente 1/Guilherme: 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice (conta da Wikipédia); se valer a conta da RSSSF, tirar essas edições.
-- 18 edições sem jogos (1912-1921, 1970-1974, 1976, 1977, 1979) e jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003: nenhuma fonte pública tem o resto.
+- 1912-1921 (Liga Peruana): pela D-06 (A), as edições ficam com a ordem e os participantes das páginas peru1912-1921 (sem jogos, salvo os poucos de 1912 que não entram).
+- Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): tabela do ano inteiro como classificação (1970-1979, 1998, 2000, 2009, 2012, 2020 pós-TAS, 2021 com o TAS; soma em 2001, 2004, 2005), final de 2021, Jorge Chávez N°1 x do Callao, rebaixado só com 'Relegated', finais do Torneo de Verano, datas de 1990.
+- Ainda abertos: PE-009 (datas no título da fase: leitor comum, no fim), PE-010 (a final nacional de 1990 como 'Final'), PE-012 (liguilla final de 1988), PE-014 (rebaixados por ano, pela es), PE-015 (artilheiros de 1996), PE-017 (placares só com 3ª fonte), PE-022 (cidade do Deportivo Bancos).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/per-1.md`):
 

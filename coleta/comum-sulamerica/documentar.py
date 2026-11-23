@@ -76,10 +76,14 @@ PENDENCIAS: dict[str, list[str]] = {
         "comum, no fim), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).",
     ],
     "per-1": [
-        "Decisão para o agente 1/Guilherme: 1912-1921 (Liga Peruana) entraram como 10 edições só com campeão e vice (conta "
-        "da Wikipédia); se valer a conta da RSSSF, tirar essas edições.",
-        "18 edições sem jogos (1912-1921, 1970-1974, 1976, 1977, 1979) e jogos incompletos em 1926, 1982, 1984, 1986, "
-        "1988-1991 e 2003: nenhuma fonte pública tem o resto.",
+        "1912-1921 (Liga Peruana): pela D-06 (A), as edições ficam com a ordem e os participantes das páginas peru1912-1921 "
+        "(sem jogos, salvo os poucos de 1912 que não entram).",
+        "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): tabela do ano inteiro como "
+        "classificação (1970-1979, 1998, 2000, 2009, 2012, 2020 pós-TAS, 2021 com o TAS; soma em 2001, 2004, 2005), final de "
+        "2021, Jorge Chávez N°1 x do Callao, rebaixado só com 'Relegated', finais do Torneo de Verano, datas de 1990.",
+        "Ainda abertos: PE-009 (datas no título da fase: leitor comum, no fim), PE-010 (a final nacional de 1990 como 'Final'), "
+        "PE-012 (liguilla final de 1988), PE-014 (rebaixados por ano, pela es), PE-015 (artilheiros de 1996), PE-017 (placares "
+        "só com 3ª fonte), PE-022 (cidade do Deportivo Bancos).",
     ],
     "ecu-1": [
         "ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).",

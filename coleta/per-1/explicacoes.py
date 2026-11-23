@@ -43,6 +43,12 @@ CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
 }
 
 CORRIGE: dict[tuple[str, str], dict] = {
+    ("2021", "peru2021:542"): {"esp": "", "gm": 2, "gv": 2, "motivo": "Cusco FC 2-2 Cienciano: o TAS (21/01/2022) anulou a vitória "
+                                                               "dada ao Cusco (PE-007)"},
+    **{("2017", f"peru2017:{n}"): {"fase": "Final do Torneo de Verano", "motivo": "final do Torneo de Verano (maio), não a do "
+                                                                              "campeonato (PE-013)"} for n in (396, 400)},
+    **{("2018", f"peru2018:{n}"): {"fase": "Final do Torneo de Verano", "motivo": "final do Torneo de Verano (abril), não a do "
+                                                                              "campeonato (PE-013)"} for n in (393, 397)},
     **{("1991", f"peru91:{n}"): {"descartar": True, "motivo": "confronto de ida e volta numa linha só: entra como dois jogos "
                                                               "(EXTRAS)"} for n in (83, 84, 194, 195, 196, 197)},
     ("1988", "peru88:640"): {"descartar": True, "motivo": "linha da tabela de confrontos do Descentralizado \"B\" (não é jogo)"},
@@ -69,6 +75,11 @@ CORRIGE: dict[tuple[str, str], dict] = {
 }
 TABELAS_FORA: dict[tuple[str, str], str] = {}
 EXPLICACOES: dict[str, list[str]] = {
+    "1914": ["vice Jorge Chávez N°1 pela página peru1914; a Wikipédia dá o Sport Alianza (2 fontes x 1: fica a RSSSF) (PE-026)"],
+    "2022": ["ajustes de pontos da tabela publicada (Alianza Lima +2, Ayacucho +1, César Vallejo -2) sem terceira fonte que "
+             "explique a origem; ficam os da tabela (PE-018)"],
+    "1977": ["artilheiros pela lista da RSSSF (perutops), igual à Wikipédia em inglês; a es diverge em alguns anos (1934, 1977, "
+             "1980, 1981, 1986-1988): fica a RSSSF até uma 3ª fonte (PE-016)"],
     "1929": ["a página da Wikipédia traz os jogos duas vezes (lista das rodadas 1-9 e tabela de confrontos); em três "
              "confrontos os placares das duas não batem (Universitario x Ciclista Lima, Universitario x Unión Buenos Aires, "
              "Hidroaviación x Ciclista Lima) e os dois jogos ficam; falta um jogo do Atlético Chalaco"],

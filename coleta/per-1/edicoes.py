@@ -97,10 +97,13 @@ _TRECHOS: dict[int, list[tuple[str, int, int | None]]] = {
     2015: [("peru2015", 364, None)],
     2019: [("peru2019", 23, 495), ("peru2019", 802, None)],   # a Copa Bicentenario entre o Apertura e o Clausura
     1969: [("peru69", 52, 359)],                          # o resumo do topo repete as tabelas das liguillas
+    2021: [("peru2021", 0, 816), ("peru2021", 830, 845)],  # PE-005: a final, depois do playoff de promoção/rebaixamento
 }
 # fases marcadas no título da rodada ("Round 1 (Liguilla Final)")
 _FASES_ANO: dict[int, list[tuple[str, str]]] = {
     1969: [(r"^Round \d+ \(Liguilla Final\)", "Fase final"), (r"^Round \d+ \(Liguilla No Descenso\)", "Grupo do rebaixamento")],
+    1987: [(r"^Regional Final", "Final do Regional")],   # PE-011: a liguilla final do Regional, à parte da Zona Sul
+    1988: [(r"^Regional Final", "Final do Regional")],
 }
 # jogos que faltam nas fontes (entra na observação da edição)
 _INCOMPLETA = {

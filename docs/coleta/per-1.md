@@ -20,16 +20,16 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 | Temporada | Clubes | Jogos (esperados) | Gols | c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|
-| 1912 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Lima Cricket | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1913 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Jorge Chávez N°1 | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1914 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Lima Cricket | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1915 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport José Gálvez | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1916 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport José Gálvez | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1917 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport Juan Bielovucic | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1918 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Alianza Lima | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1919 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Alianza Lima | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1920 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport Inca | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1921 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport Progreso | lista de campeões da Wikipédia em inglês (campeão e vice) |
+| 1912 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Lima Cricket | RSSSF (peru1912: ordem) |
+| 1913 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Jorge Chávez N°1 | RSSSF (peru1913: ordem) |
+| 1914 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Lima Cricket | RSSSF (peru1914: ordem) |
+| 1915 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport José Gálvez | RSSSF (peru1915: ordem) |
+| 1916 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport José Gálvez | RSSSF (peru1916: ordem) |
+| 1917 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport Juan Bielovucic | RSSSF (peru1917: ordem) |
+| 1918 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Alianza Lima | RSSSF (peru1918: ordem) |
+| 1919 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Alianza Lima | RSSSF (peru1919: ordem) |
+| 1920 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport Inca | RSSSF (peru1920: ordem) |
+| 1921 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Sport Progreso | RSSSF (peru1921: ordem) |
 | 1926 | 11 | 27 (27) | 99 | 0 | 0 / 0 | Sport Progreso | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1927 | 8 | 11 (11) | 40 | 0 | 0 / 1 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1928 | 19 | 93 (93) | 369 | 0 | 1 / 2 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -73,16 +73,16 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 1967 | 14 | 182 (182) | 468 | 0 | 0 / 1 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1968 | 14 | 186 (186) | 519 | 0 | 1 / 0 | Sporting Cristal | RSSSF (peru68) |
 | 1969 | 14 | 135 (135) | 385 | 0 | 3 / 0 | Universitario | RSSSF (peru69) |
-| 1970 | 14 | 0 (0) | 0 | 0 | 0 / 0 | Sporting Cristal | RSSSF (peruhist) |
+| 1970 | 14 | 0 (0) | 0 | 0 | 0 / 0 | Sporting Cristal | RSSSF (peruhist:978+peruhist:988) |
 | 1971 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Universitario | RSSSF (peruhist) |
-| 1972 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Sporting Cristal | RSSSF (peruhist) |
-| 1973 | 18 | 0 (0) | 0 | 0 | 0 / 0 | Defensor Lima | RSSSF (peruhist) |
-| 1974 | 22 | 0 (0) | 0 | 0 | 0 / 0 | Universitario | RSSSF (peruhist) |
+| 1972 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Sporting Cristal | RSSSF (peruhist:1078+peruhist:1059) |
+| 1973 | 18 | 0 (0) | 0 | 0 | 0 / 0 | Defensor Lima | RSSSF (peruhist:1120+peruhist:1099) |
+| 1974 | 22 | 0 (0) | 0 | 0 | 0 / 0 | Universitario | RSSSF (peruhist:1166+peruhist:1141) |
 | 1975 | 18 | 323 (322) | 806 | 0 | 0 / 2 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1976 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Unión Huaral | RSSSF (peruhist) |
-| 1977 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Alianza Lima | RSSSF (peruhist) |
+| 1977 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Alianza Lima | RSSSF (peruhist:1297+peruhist:1278) |
 | 1978 | 16 | 364 (364) | 980 | 0 | 2 / 2 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1979 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Sporting Cristal | RSSSF (peruhist) |
+| 1979 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Sporting Cristal | RSSSF (peruhist:1404+peruhist:1415+peruhist:1385) |
 | 1980 | 17 | 266 (266) | 661 | 592 | 3 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1981 | 16 | 307 (307) | 721 | 657 | 5 / 0 | Melgar | RSSSF (peru81) |
 | 1982 | 16 | 215 (215) | 445 | 0 | 4 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -91,7 +91,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 1985 | 30 | 528 (528) | 1199 | 0 | 2 / 4 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1986 | 18 | 106 (106) | 260 | 0 | 1 / 6 | Deportivo San Agustín | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1987 | 30 | 542 (542) | 1300 | 0 | 3 / 4 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1988 | 37 | 425 (425) | 984 | 0 | 4 / 5 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1988 | 37 | 425 (425) | 984 | 0 | 6 / 3 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 14 | 148 (148) | 328 | 0 | 3 / 5 | Unión Huaral | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1990 | 13 | 70 (70) | 185 | 0 | 1 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991 | 15 | 28 (28) | 75 | 0 | 0 / 3 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -101,21 +101,21 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 1995 | 16 | 296 (296) | 766 | 58 | 2 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1996 | 16 | 240 (240) | 636 | 0 | 0 / 1 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997 | 14 | 182 (182) | 502 | 0 | 3 / 0 | Alianza Lima | RSSSF (peru97) |
-| 1998 | 12 | 267 (267) | 684 | 349 | 4 / 0 | Universitario | RSSSF (peru98) |
+| 1998 | 12 | 267 (267) | 684 | 349 | 4 / 0 | Universitario | RSSSF (peru98:718+peru98:722) |
 | 1999 | 13 | 267 (267) | 779 | 31 | 0 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 | 12 | 266 (265) | 769 | 569 | 2 / 2 | Universitario | RSSSF (peru00) |
-| 2001 | 12 | 268 (268) | 791 | 522 | 2 / 0 | Alianza Lima | RSSSF (peru01) |
+| 2000 | 12 | 266 (265) | 769 | 569 | 2 / 2 | Universitario | RSSSF (peru00:784+peru00:795) |
+| 2001 | 12 | 268 (268) | 791 | 522 | 2 / 0 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2002 | 12 | 266 (266) | 762 | 518 | 3 / 0 | Sporting Cristal | RSSSF (peru02) |
 | 2003 | 12 | 234 (234) | 599 | 436 | 3 / 0 | Alianza Lima | RSSSF (peru03) |
-| 2004 | 14 | 366 (365) | 993 | 625 | 1 / 1 | Alianza Lima | RSSSF (peru04) |
-| 2005 | 13 | 313 (313) | 797 | 606 | 2 / 0 | Sporting Cristal | RSSSF (peru05) |
+| 2004 | 14 | 366 (365) | 993 | 625 | 1 / 1 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 | 13 | 313 (313) | 797 | 606 | 2 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 | 12 | 268 (268) | 647 | 627 | 3 / 0 | Alianza Lima | RSSSF (peru06) |
 | 2007 | 12 | 264 (264) | 653 | 642 | 3 / 0 | Universidad San Martín | RSSSF (peru07) |
 | 2008 | 14 | 365 (365) | 896 | 873 | 3 / 0 | Universidad San Martín | RSSSF (peru08) |
-| 2009 | 16 | 354 (354) | 886 | 880 | 3 / 0 | Universitario | RSSSF (peru09) |
+| 2009 | 16 | 354 (354) | 886 | 880 | 3 / 0 | Universitario | RSSSF (peru09:714+peru09:909) |
 | 2010 | 16 | 354 (354) | 937 | 931 | 4 / 0 | Universidad San Martín | RSSSF (peru2010) |
 | 2011 | 16 | 243 (243) | 595 | 565 | 1 / 0 | Juan Aurich | RSSSF (peru2011) |
-| 2012 | 16 | 354 (354) | 853 | 846 | 3 / 0 | Sporting Cristal | RSSSF (peru2012) |
+| 2012 | 16 | 354 (354) | 853 | 846 | 3 / 0 | Sporting Cristal | RSSSF (peru2012:734+peru2012:751) |
 | 2013 | 16 | 357 (357) | 871 | 869 | 1 / 2 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2014 | 16 | 245 (245) | 657 | 549 | 3 / 0 | Sporting Cristal | RSSSF (peru2014) |
 | 2015 | 17 | 281 (281) | 733 | 593 | 3 / 0 | Melgar | RSSSF (peru2015) |
@@ -123,8 +123,8 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 2017 | 16 | 354 (354) | 943 | 766 | 5 / 0 | Alianza Lima | RSSSF (peru2017) |
 | 2018 | 16 | 359 (359) | 985 | 735 | 5 / 0 | Sporting Cristal | RSSSF (peru2018) |
 | 2019 | 18 | 310 (310) | 802 | 738 | 3 / 0 | Binacional | RSSSF (peru2019) |
-| 2020 | 20 | 285 (285) | 756 | 748 | 5 / 0 | Sporting Cristal | RSSSF (peru2020) |
-| 2021 | 19 | 236 (236) | 632 | 625 | 4 / 0 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2020 | 20 | 285 (285) | 756 | 748 | 5 / 0 | Sporting Cristal | RSSSF (peru2020:919) |
+| 2021 | 19 | 238 (238) | 634 | 630 | 2 / 2 | Alianza Lima | RSSSF (peru2021:783) |
 | 2022 | 19 | 347 (347) | 937 | 937 | 3 / 0 | Alianza Lima | RSSSF (peru2022) |
 | 2023 | 19 | 344 (344) | 873 | 849 | 3 / 0 | Universitario | RSSSF (peru2023) |
 | 2024 | 18 | 306 (306) | 813 | 813 | 3 / 0 | Universitario | RSSSF (peru2024) |
@@ -142,6 +142,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1914
 
+- vice Jorge Chávez N°1 pela página peru1914; a Wikipédia dá o Sport Alianza (2 fontes x 1: fica a RSSSF) (PE-026)
 - sem jogos: campeonato da Liga Peruana (antes da Federação Peruana de Futebol, de 1922); nenhuma fonte pública traz os jogos nem a tabela, só o campeão
 
 ### 1915
@@ -491,6 +492,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1977
 
+- artilheiros pela lista da RSSSF (perutops), igual à Wikipédia em inglês; a es diverge em alguns anos (1934, 1977, 1980, 1981, 1986-1988): fica a RSSSF até uma 3ª fonte (PE-016)
 - sem jogos: nenhuma fonte pública traz os jogos deste ano (só o campeão e a tabela final da RSSSF)
 
 ### 1978
@@ -624,7 +626,8 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 - tabela publicada x jogos — peru87:17: Deportivo San Agustín tabela [22, 11, 6, 5, 33, 27] jogos [23, 11, 7, 5, 34, 28] — sobram 1 jogo(s) do clube na página
 - tabela publicada x jogos — peru87:246: Hungaritos Agustinos tabela [15, 6, 4, 5, 29, 30] jogos [14, 5, 4, 5, 27, 30] — a diferença vem de Hungaritos Agustinos x Atlético Torino (1987-07-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — peru87:246: Atlético Torino tabela [15, 4, 5, 6, 18, 23] jogos [14, 4, 5, 5, 18, 21] — a diferença vem de Hungaritos Agustinos x Atlético Torino (1987-07-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — peru87:511: Coronel Bolognesi tabela [5, 2, 1, 2, 8, 6] jogos [20, 11, 5, 4, 29, 15] — a outra tabela publicada (peru87) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — peru87:511: Universitario tabela [5, 3, 1, 1, 7, 3] jogos [7, 5, 1, 1, 10, 3] — a outra tabela publicada (peru87) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — peru87:511: Unión Huaral tabela [5, 3, 1, 1, 8, 4] jogos [7, 3, 1, 3, 8, 7] — a outra tabela publicada (peru87) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru87:562: Alianza Lima tabela [30, 17, 9, 4, 40, 16] jogos [31, 18, 9, 4, 42, 16] — a outra tabela publicada (peru87) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru87:562: Coronel Bolognesi tabela [30, 12, 12, 6, 37, 26] jogos [31, 12, 12, 7, 37, 27] — a outra tabela publicada (peru87) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru87:562: Deportivo Municipal tabela [30, 12, 7, 11, 38, 38] jogos [31, 12, 7, 12, 39, 40] — sobram 1 jogo(s) do clube na página
@@ -634,16 +637,13 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1988
 
-- tabela publicada x jogos — peru88:17: Universitario tabela [12, 7, 2, 3, 19, 7] jogos [17, 10, 4, 3, 29, 8] — sobram 5 jogo(s) do clube na página
-- tabela publicada x jogos — peru88:17: Deportivo San Agustín tabela [12, 6, 4, 2, 16, 13] jogos [17, 7, 5, 5, 22, 22] — sobram 5 jogo(s) do clube na página
-- tabela publicada x jogos — peru88:553: Cienciano tabela [5, 1, 1, 3, 5, 10] jogos [19, 11, 3, 5, 35, 19] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:673: Deportivo Cañaña tabela [3, 2, 0, 1, 3, 3] jogos [1, 0, 0, 1, 0, 2] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:673: Alfonso Ugarte tabela [3, 1, 0, 2, 1, 3] jogos [2, 1, 0, 1, 1, 2] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:673: Defensor ANDA tabela [3, 0, 0, 3, 1, 5] jogos [2, 0, 0, 2, 0, 3] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru88:699: Deportivo San Agustín tabela [22, 5, 8, 9, 19, 33] jogos [22, 5, 8, 9, 19, 34] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — peru88:699: Deportivo San Agustín tabela [22, 5, 8, 9, 19, 33] jogos [22, 5, 8, 9, 19, 34] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:699: Deportivo Municipal tabela [22, 5, 7, 10, 25, 33] jogos [22, 5, 7, 10, 26, 33] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru88:906: Sporting Cristal tabela [5, 2, 2, 1, 3, 2] jogos [6, 3, 2, 1, 5, 3] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — peru88:906: Universitario tabela [5, 2, 3, 0, 6, 3] jogos [6, 2, 3, 1, 7, 5] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — peru88:906: Sporting Cristal tabela [5, 2, 2, 1, 3, 2] jogos [6, 3, 2, 1, 5, 3] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — peru88:906: Universitario tabela [5, 2, 3, 0, 6, 3] jogos [6, 2, 3, 1, 7, 5] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - corrigido — Deportivo Tintaya x None (1988-10-16): linha da tabela de confrontos do Descentralizado "B" (não é jogo)
 - corrigido — Diablos Rojos x None (1988-10-16): linha da tabela de confrontos do Descentralizado "B" (não é jogo)
 
@@ -906,11 +906,15 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 ### 2017
 
 - ESPN: 353 jogos casados
+- corrigido — Melgar x UTC (2017-05-14): final do Torneo de Verano (maio), não a do campeonato (PE-013)
+- corrigido — UTC x Melgar (2017-05-14): final do Torneo de Verano (maio), não a do campeonato (PE-013)
 - decidido fora de campo — Sport Huancayo Cusco FC (2017-04-23): awarded 0-3; originally 1-0, Huancayo
 
 ### 2018
 
 - ESPN: 354 jogos casados
+- corrigido — Sport Huancayo x Sporting Cristal (2018-04-29): final do Torneo de Verano (abril), não a do campeonato (PE-013)
+- corrigido — Sporting Cristal x Sport Huancayo (2018-04-29): final do Torneo de Verano (abril), não a do campeonato (PE-013)
 - decidido fora de campo — UTC Sporting Cristal (2018-02-02): Awarded 0-3, CJ/FPF
 - decidido fora de campo — Ayacucho Comerciantes Unidos (2018-05-18): awarded 3-0
 - decidido fora de campo — Comerciantes Unidos Ayacucho (2018-09-01): awarded 0-3; abandoned at 0-2 at half-time
@@ -929,13 +933,18 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2021
 
-- ESPN: 235 jogos casados
+- ESPN: 237 jogos casados
+- tabela publicada x jogos — peru2021:333: Cienciano tabela [17, 6, 7, 4, 25, 21] jogos [17, 6, 8, 3, 27, 20] — a outra tabela publicada (peru2021) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — peru2021:333: Cusco FC tabela [17, 5, 3, 9, 31, 34] jogos [17, 4, 4, 9, 30, 36] — a outra tabela publicada (peru2021) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — peru2021:783: Cienciano tabela [26, 10, 9, 7, 39, 33] jogos [26, 10, 10, 6, 41, 32] — a outra tabela publicada (peru2021) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — peru2021:783: Cusco FC tabela [26, 6, 8, 12, 43, 47] jogos [26, 5, 9, 12, 42, 49] — a outra tabela publicada (peru2021) fecha com os jogos: o erro é desta tabela
 - corrigido — Alianza Atlético x Carlos Stein (2021-03-15): jogo anulado pela FPF: o FC Carlos Stein foi rebaixado por decisão do CAS (nota da página)
+- corrigido — Cusco FC x Cienciano (2021-08-27): Cusco FC 2-2 Cienciano: o TAS (21/01/2022) anulou a vitória dada ao Cusco (PE-007)
 - anulado — Alianza Atlético 0-0 Carlos Stein (2021-03-15): Ivan Elias Moreno Stadium, Lima] [**
-- decidido fora de campo — Cusco FC Cienciano (2021-08-27): Awarded 3-0]          [Alejandro Villanueva Stadium, Lima awarded 3-0; originally 2-2, Cienciano fielded ineligible player
 
 ### 2022
 
+- ajustes de pontos da tabela publicada (Alianza Lima +2, Ayacucho +1, César Vallejo -2) sem terceira fonte que explique a origem; ficam os da tabela (PE-018)
 - ESPN: 346 jogos casados
 - abandonado/suspenso, sem valer — Universitario Sport Huancayo (2022-10-23): Monumental “U” Stadium, Lima; abd in 30´ at 1-0 because a fan died in the stands
 

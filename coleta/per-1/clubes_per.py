@@ -31,10 +31,12 @@ CAL = ("Callao", "Callao")
 
 # nome de exibição -> (cidade, departamento)
 CLUBES: dict[str, tuple[str, str]] = {
+    "Escuela Militar de Chorrillos": LIM, "Miraflores Sporting": LIM, "Sport Vitarte": LIM, "Atlético Grau No. 1": LIM, "Unión Miraflores": LIM, "Sporting Fry": LIM, "Sport Tacna No. 1": LIM, "Unión Perú": LIM, "Fraternal Barranco": LIM, "Escuela de Artes y Oficios": LIM, "Sportivo Lima": LIM, "Sport Huascar": LIM, "Sport Calavera": LIM, "Unión Barranco": LIM,
     # Lima e Callao
     "Universitario": LIM, "Alianza Lima": LIM, "Sporting Cristal": LIM, "Sport Boys": CAL, "Deportivo Municipal": LIM,
     "Atlético Chalaco": CAL, "Universidad San Martín": LIM, "Defensor Lima": LIM, "Mariscal Sucre": LIM, "Centro Iqueño": LIM,
-    "Sporting Tabaco": CAL, "Total Chalaco": CAL, "Guardia Republicana": LIM, "Deportivo San Agustín": LIM,
+    "Sporting Tabaco": LIM,   # PE-021: de Lima
+    "Total Chalaco": CAL, "Guardia Republicana": LIM, "Deportivo San Agustín": LIM,
     "Internazionale de San Borja": LIM, "AELU": LIM, "Lawn Tennis": LIM, "Circolo Sportivo Italiano": LIM,
     "Sportivo Tarapacá Ferrocarril": LIM, "Unión Buenos Aires": CAL, "Sport Progreso": LIM, "Teniente Ruiz": LIM,
     "Jorge Washington": CAL, "Deportivo Nacional": LIM, "Sport José Gálvez": LIM, "Asociación Alianza": LIM,
@@ -85,6 +87,22 @@ CLUBES: dict[str, tuple[str, str]] = {
 }
 
 REGRAS: list[tuple[str, str, int, int]] = [
+    # Liga Peruana (1912-1921): clubes só das ordens e listas de participantes das páginas peru1912-1921 (D-06 A)
+    (r"escuela militar( de chorrillos)?", "Escuela Militar de Chorrillos", 1900, 1930),
+    (r"miraflores (sc|sporting)", "Miraflores Sporting", 1900, 1930),
+    (r"sport vitarte", "Sport Vitarte", 1900, 1930),
+    (r"atletico grau (no|n|nr) ?1( lima)?", "Atlético Grau No. 1", 1900, 1930),
+    (r"union miraflores", "Unión Miraflores", 1900, 1930),
+    (r"sporting fry", "Sporting Fry", 1900, 1930),
+    (r"sport tacna (no|n|nr) ?1", "Sport Tacna No. 1", 1900, 1930),
+    (r"union peru", "Unión Perú", 1900, 1930),
+    (r"fraternal barranco", "Fraternal Barranco", 1900, 1930),
+    (r"escuela de artes y oficios", "Escuela de Artes y Oficios", 1900, 1930),
+    (r"sportivo lima", "Sportivo Lima", 1900, 1930),
+    (r"sport huascar", "Sport Huascar", 1900, 1930),
+    (r"sport calavera", "Sport Calavera", 1900, 1930),
+    (r"union barranco", "Unión Barranco", 1900, 1930),
+    (r"saenz pena", "Sport Sáenz Peña", 1900, 1960),
     # Lima e Callao
     (r"(club )?universitario( de deportes)?( lima)?|universitario lima|federacion universitaria|fed universitaria|u$|"
      r"union huallaspanca universitario$", "Universitario", 1924, 2100),
@@ -119,7 +137,9 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"sport inca", "Sport Inca", 1900, 1960),
     (r"atletico peruano", "Atlético Peruano", 1900, 1960),
     (r"sport saenz pena", "Sport Sáenz Peña", 1900, 1960),
-    (r"(club sportivo )?jorge chavez( n ?o? ?1| n ?1)?", "Jorge Chávez N°1", 1900, 1925),
+    # PE-001: N°1 só com o número escrito; "Jorge Chávez" sem número (vice de 1918 e 1921) é o do Callao
+    (r"(club sportivo )?jorge chavez (n|no|nr) ?o? ?1", "Jorge Chávez N°1", 1900, 1925),
+    (r"(club sportivo )?jorge chavez$", "Jorge Chávez N°1", 1912, 1915),   # o do Callao (N°2) só entra em 1916
     (r"(asociacion|association) alianza", "Asociación Alianza", 1900, 2100),
     (r"association football club|association fbc", "Association FBC", 1900, 2100),
     (r"ciclista( lima)?( assoc(iation)?)?", "Ciclista Lima", 1896, 2100),
