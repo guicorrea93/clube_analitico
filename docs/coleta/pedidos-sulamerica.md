@@ -749,5 +749,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Teste de carga:** `ecu-1: 68 edições, 14175 jogos, 0 clubes novos -> OK`; `ven-1: 106 edições, 13580 jogos, 0
   clubes novos -> OK`.
 - **Pedido ao agente 1:** recarregar `ecu-1` e `ven-1` (gols e artilheiros).
-- **Commit:** (abaixo).
+- **Commit:** `cf612c6`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
