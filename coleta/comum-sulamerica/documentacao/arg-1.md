@@ -4,10 +4,10 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 
 ## 1. O que temos
 
-- **Edições:** 196, de 1891 a 2025 Liga; 1 sem jogos.
-- **Jogos:** 43235 (42546 com placar); **gols:** 120669; **gols com autor:** 34264 (28%); **cartões:** 37037.
-- **Clubes:** 171; **artilheiros:** 191 edições com artilheiro (229 linhas, com empates).
-- **Classificação final:** 196 edições; **tabelas publicadas guardadas para conferência:** 4311 linhas.
+- **Edições:** 197, de 1891 a 2026 Apertura; 1 sem jogos.
+- **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 36043 (30%); **cartões:** 41255.
+- **Clubes:** 173; **artilheiros:** 194 edições com artilheiro (233 linhas, com empates).
+- **Classificação final:** 197 edições; **tabelas publicadas guardadas para conferência:** 4453 linhas.
 - **No banco:** sim; **último commit do pacote:** 665fe93.
 - **Observação da competição:** 1ª divisão argentina de 1891 a 2025: uma edição por torneio que deu título de campeão (ligas rivais de 1912-1914, 1919-1926 e 1931-1934; Copa de Honor, Campeonato e Copa de Oro em 1936; Metropolitano e Nacional de 1967 a 1985; Apertura e Clausura de 1991/92 a 2013/14 e em 2025). Sem as copas da liga (2019-2024), a Copa Campeonato 2013/14, os torneios de reclassificação e as liguillas, que não davam o título.
 
@@ -46,10 +46,10 @@ Cada edição diz onde estão os jogos: [(página da RSSSF, linha inicial, linha
 
 Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
 
-- **Edições em que todas as tabelas fecham com os jogos:** 136.
-- **Edições com alguma tabela divergente** (54; motivo no relatório, na edição): 1896, 1908, 1909, 1910, 1912 Federación, 1913 Asociación, 1913 Federación, 1915, 1919 Amateurs, 1921 Amateurs, 1922 Asociación, 1922 Amateurs, 1923 Amateurs, 1924 Asociación, 1924 Amateurs, 1925 Asociación, 1926 Asociación, 1927, 1928, 1929, 1930, 1931 Liga, 1931 Asociación, 1932 Asociación, 1934 Liga, 1934 Asociación, 1949, 1965, 1968 Metropolitano, 1970 Nacional, 1971 Nacional, 1972 Nacional, 1974 Metropolitano, 1982 Nacional, 1984 Metropolitano, 1984 Nacional, 1986/87, 1987/88, 1988/89, 1989/90, 1990/91, 1992/93 Clausura, 1995/96 Clausura, 1996/97 Apertura, 1996/97 Clausura, 1997/98 Apertura, 1998/99 Apertura, 1998/99 Clausura, 1999/00 Apertura, 2000/01 Apertura, 2001/02 Apertura, 2004/05 Clausura, 2016, 2016/17.
-- **Edições sem tabela para conferir** (6): 1894, 1895, 1919 Asociación, 1923 Asociación, 1926 Amateurs, 1936 Copa de Oro.
-- **Edições com menos jogos que o esperado:** 1893 (23 de 20), 1896 (22 de 20), 1905 (43 de 42), 1906 (51 de 52), 1907 (111 de 110), 1913 Asociación (138 de 139), 1913 Federación (92 de 90), 1915 (302 de 301), 1917 (211 de 210), 1918 (191 de 190), 1922 Amateurs (427 de 420), 1924 Amateurs (282 de 276), 1925 Asociación (237 de 235), 1925 Amateurs (301 de 300), 1927 (564 de 563), 1928 (631 de 630), 1930 (633 de 630), 1931 Liga (311 de 306), 1932 Liga (311 de 307), 1932 Asociación (276 de 275), 1933 Liga (307 de 306), 1934 Liga (276 de 273), 1939 (309 de 308), 1941 (241 de 240), 1955 (243 de 240), 1965 (306 de 305), 1977 Metropolitano (513 de 507), 1986/87 (382 de 381), 1995/96 Clausura (191 de 190), 1997/98 Apertura (189 de 190), 1999/00 Clausura (191 de 190), 2000/01 Apertura (194 de 190), 2001/02 Apertura (191 de 190), 2001/02 Clausura (191 de 190), 2002/03 Apertura (192 de 190), 2002/03 Clausura (191 de 190), 2003/04 Apertura (191 de 190), 2004/05 Clausura (191 de 190), 2005/06 Clausura (191 de 190), 2006/07 Apertura (194 de 191), 2006/07 Clausura (192 de 190), 2007/08 Apertura (191 de 190), 2007/08 Clausura (191 de 190), 2008/09 Apertura (194 de 193), 2008/09 Clausura (191 de 190), 2009/10 Clausura (194 de 190), 2010/11 Clausura (192 de 190), 2012/13 Inicial (191 de 190), 2012/13 Final (192 de 190), 2016 (242 de 483), 2016/17 (446 de 450).
+- **Edições em que todas as tabelas fecham com os jogos:** 142.
+- **Edições com alguma tabela divergente** (51; motivo no relatório, na edição): 1896, 1908, 1909, 1910, 1912 Federación, 1913 Asociación, 1913 Federación, 1915, 1919 Amateurs, 1921 Amateurs, 1922 Asociación, 1922 Amateurs, 1923 Amateurs, 1924 Asociación, 1924 Amateurs, 1925 Asociación, 1926 Asociación, 1926 Amateurs, 1927, 1928, 1929, 1930, 1931 Liga, 1932 Asociación, 1934 Liga, 1934 Asociación, 1965, 1968 Metropolitano, 1970 Nacional, 1971 Nacional, 1972 Nacional, 1974 Metropolitano, 1982 Nacional, 1984 Metropolitano, 1984 Nacional, 1986/87, 1988/89, 1989/90, 1990/91, 1992/93 Clausura, 1995/96 Clausura, 1996/97 Apertura, 1996/97 Clausura, 1997/98 Apertura, 1998/99 Apertura, 1998/99 Clausura, 1999/00 Apertura, 2000/01 Apertura, 2001/02 Apertura, 2004/05 Clausura, 2016.
+- **Edições sem tabela para conferir** (4): 1894, 1895, 1923 Asociación, 1936 Copa de Oro.
+- **Edições com menos jogos que o esperado:** 1893 (23 de 20), 1896 (22 de 20), 1905 (43 de 42), 1906 (51 de 52), 1907 (111 de 110), 1913 Asociación (138 de 139), 1915 (302 de 301), 1917 (211 de 210), 1918 (191 de 190), 1922 Amateurs (427 de 420), 1924 Amateurs (282 de 276), 1925 Asociación (237 de 235), 1925 Amateurs (301 de 300), 1927 (564 de 563), 1928 (631 de 630), 1930 (633 de 630), 1931 Liga (311 de 306), 1932 Liga (311 de 307), 1932 Asociación (276 de 275), 1933 Liga (307 de 306), 1939 (309 de 308), 1941 (241 de 240), 1955 (243 de 240), 1965 (306 de 305), 1977 Metropolitano (513 de 507), 1986/87 (382 de 381), 1995/96 Clausura (191 de 190), 1999/00 Clausura (191 de 190), 2000/01 Apertura (194 de 190), 2001/02 Apertura (191 de 190), 2001/02 Clausura (191 de 190), 2002/03 Apertura (192 de 190), 2002/03 Clausura (191 de 190), 2003/04 Apertura (191 de 190), 2004/05 Clausura (191 de 190), 2005/06 Clausura (191 de 190), 2006/07 Apertura (194 de 191), 2006/07 Clausura (192 de 190), 2007/08 Apertura (191 de 190), 2007/08 Clausura (191 de 190), 2008/09 Apertura (194 de 193), 2008/09 Clausura (191 de 190), 2009/10 Clausura (194 de 190), 2010/11 Clausura (192 de 190), 2012/13 Inicial (191 de 190), 2012/13 Final (192 de 190), 2016 (242 de 483).
 
 ## 4. Cobertura de cada campo, por década
 
@@ -59,18 +59,18 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1890s | 8 | 222 | 100% | 0% | 10% | 11% | 0% | 0% | 0% | 0.0 |
 | 1900s | 10 | 491 | 100% | 0% | 18% | 9% | 0% | 0% | 2% | 0.0 |
-| 1910s | 14 | 1770 | 100% | 0% | 45% | 9% | 0% | 0% | 1% | 0.0 |
-| 1920s | 17 | 4841 | 92% | 0% | 93% | 12% | 0% | 0% | 21% | 0.0 |
+| 1910s | 14 | 1703 | 100% | 0% | 43% | 9% | 0% | 0% | 1% | 0.0 |
+| 1920s | 17 | 5141 | 93% | 0% | 94% | 12% | 0% | 0% | 20% | 0.0 |
 | 1930s | 16 | 4186 | 100% | 0% | 86% | 10% | 0% | 7% | 19% | 0.0 |
 | 1940s | 10 | 2539 | 100% | 0% | 100% | 7% | 0% | 0% | 0% | 0.0 |
 | 1950s | 10 | 2510 | 100% | 0% | 100% | 7% | 0% | 0% | 0% | 0.0 |
 | 1960s | 13 | 2934 | 100% | 0% | 100% | 8% | 0% | 0% | 8% | 0.0 |
-| 1970s | 20 | 5595 | 100% | 0% | 100% | 15% | 0% | 0% | 31% | 0.0 |
+| 1970s | 20 | 5593 | 100% | 0% | 100% | 15% | 0% | 0% | 31% | 0.0 |
 | 1980s | 16 | 4713 | 100% | 0% | 100% | 25% | 0% | 0% | 0% | 0.0 |
-| 1990s | 19 | 3803 | 100% | 0% | 100% | 17% | 0% | 0% | 28% | 0.0 |
-| 2000s | 20 | 3829 | 100% | 77% | 100% | 49% | 48% | 12% | 98% | 2.7 |
-| 2010s | 16 | 3833 | 100% | 78% | 100% | 79% | 79% | 0% | 79% | 4.3 |
-| 2020s | 7 | 1969 | 100% | 94% | 100% | 100% | 100% | 0% | 100% | 5.2 |
+| 1990s | 19 | 3804 | 100% | 0% | 100% | 17% | 0% | 0% | 28% | 0.0 |
+| 2000s | 20 | 3829 | 100% | 79% | 100% | 50% | 49% | 12% | 99% | 2.8 |
+| 2010s | 16 | 3837 | 100% | 98% | 100% | 91% | 91% | 0% | 99% | 5.3 |
+| 2020s | 8 | 2224 | 100% | 84% | 100% | 88% | 88% | 0% | 88% | 4.6 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 
@@ -99,7 +99,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1915: 25 clubes
 - 1916: 22 clubes
 - 1917: 21 clubes
-- 1918 a 1919 Asociación: 20 clubes
+- 1918: 20 clubes
+- 1919 Asociación: 6 clubes
 - 1919 Amateurs: 14 clubes
 - 1920 Asociación: 13 clubes
 - 1920 Amateurs: 19 clubes
@@ -125,7 +126,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1932 Asociación: 17 clubes
 - 1933 Liga: 18 clubes
 - 1933 Asociación: 20 clubes
-- 1934 Liga: 14 clubes
+- 1934 Liga: 15 clubes
 - 1934 Asociación: 23 clubes
 - 1935 a 1936 Campeonato: 18 clubes
 - 1936 Copa de Oro: 2 clubes
@@ -187,14 +188,14 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2019/20: 24 clubes
 - 2021: 26 clubes
 - 2022 a 2024: 28 clubes
-- 2025 Apertura a 2025 Liga: 30 clubes
+- 2025 Apertura a 2026 Apertura: 30 clubes
 
 **Pontos por vitória:**
 
 - 1891 a 1987/88: 2
 - 1988/89: 3
 - 1989/90 a 1994/95 Clausura: 2
-- 1995/96 Apertura a 2025 Liga: 3
+- 1995/96 Apertura a 2026 Apertura: 3
 
 **Nome oficial:**
 
@@ -330,6 +331,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2025 Apertura: Torneo Apertura <ano>
 - 2025 Clausura: Torneo Clausura <ano>
 - 2025 Liga: Tabla Anual de la LPF <ano> (Campeón de Liga)
+- 2026 Apertura: Torneo Apertura de la LPF <ano>
 
 **Formato** (fases na ordem, do edicoes.csv):
 
@@ -345,15 +347,16 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1913 Asociación: 3 grupos + mata-mata
 - 1913 Federación a 1914 Federación: pontos corridos
 - 1915: pontos corridos + desempate
-- 1916 a 1924 Amateurs: pontos corridos
+- 1916 a 1922 Amateurs: pontos corridos
+- 1923 Asociación: pontos corridos + desempate
+- 1923 Amateurs a 1924 Amateurs: pontos corridos
 - 1925 Asociación: pontos corridos + desempate
 - 1925 Amateurs a 1926 Amateurs: pontos corridos
 - 1927: pontos corridos + desempate
 - 1928: pontos corridos
-- 1929: 2 grupos + desempate + mata-mata
+- 1929: 2 grupos + mata-mata + desempate + mata-mata
 - 1930 a 1931 Liga: pontos corridos
-- 1931 Asociación: desempate
-- 1932 Liga a 1932 Asociación: pontos corridos + desempate
+- 1931 Asociación a 1932 Asociación: pontos corridos + desempate
 - 1933 Liga a 1936 Campeonato: pontos corridos
 - 1936 Copa de Oro: mata-mata
 - 1937: pontos corridos + desempate
@@ -388,7 +391,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1977 Nacional: 4 grupos + mata-mata
 - 1978 Metropolitano: pontos corridos
 - 1978 Nacional: 4 grupos + mata-mata
-- 1979 Metropolitano: 2 grupos + mata-mata + desempate + mata-mata
+- 1979 Metropolitano: 2 grupos + pontos corridos + desempate + mata-mata
 - 1979 Nacional: 4 grupos + mata-mata
 - 1980 Metropolitano: pontos corridos
 - 1980 Nacional: 4 grupos + mata-mata
@@ -414,6 +417,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2016/17 a 2024: pontos corridos
 - 2025 Apertura a 2025 Clausura: 2 grupos + mata-mata
 - 2025 Liga: tabela anual (soma das fases de grupos do Apertura e do Clausura)
+- 2026 Apertura: 2 grupos + mata-mata
 
 **Fases e grupos de cada edição com mais de uma fase:**
 
@@ -425,13 +429,15 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1912 Federación: Fase única (liga); Desempate do título (mata_mata, ida_volta)
 - 1913 Asociación: Primeira fase (grupos, 3 grupos); Final (mata_mata, jogo_unico)
 - 1915: Fase única (liga); Desempate do título (mata_mata, jogo_unico)
+- 1923 Asociación: Fase única (liga); Desempate do título (mata_mata, ida_volta)
 - 1925 Asociación: Fase única (liga); Desempate do título (mata_mata, jogo_unico)
 - 1927: Fase única (liga); Desempate do rebaixamento (mata_mata, ida_volta)
-- 1929: Primeira fase (grupos, 2 grupos); Desempate do título (mata_mata, ida_volta); Final (mata_mata, jogo_unico)
+- 1929: Primeira fase (grupos, 2 grupos); Disputa do 3º lugar (mata_mata, jogo_unico); Desempate do título (mata_mata, ida_volta); Final (mata_mata, jogo_unico)
+- 1931 Asociación: Fase única (liga); Desempate do título (mata_mata, jogo_unico)
 - 1932 Liga: Fase única (liga); Desempate do título (mata_mata, jogo_unico)
 - 1932 Asociación: Fase única (liga); Desempate do rebaixamento (mata_mata, ida_volta)
-- 1937: Fase única (liga); Desempate do título (mata_mata, jogo_unico)
-- 1939: Fase única (liga); Desempate do 2º lugar (mata_mata, jogo_unico); Desempate do título (mata_mata, jogo_unico)
+- 1937: Fase única (liga); Desempate do 1º turno (mata_mata, jogo_unico)
+- 1939: Fase única (liga); Desempate do 1º turno (mata_mata, jogo_unico); Desempate do 2º lugar (mata_mata, jogo_unico)
 - 1949: Fase única (liga); Desempate do rebaixamento (mata_mata, ida_volta); Desempate do 2º lugar (mata_mata, ida_volta)
 - 1950: Fase única (liga); Desempate do rebaixamento (mata_mata, ida_volta); Desempate do 2º lugar (mata_mata, ida_volta)
 - 1951: Fase única (liga); Desempate do título (mata_mata, ida_volta)
@@ -441,7 +447,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1968 Nacional: Fase única (liga); Desempate do título (mata_mata, jogo_unico)
 - 1969 Metropolitano: Primeira fase (grupos, 2 grupos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
 - 1969 Nacional: Fase única (liga); Desempate do rebaixamento (mata_mata, ida_volta)
-- 1970 Nacional: Primeira fase (grupos, 2 grupos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
+- 1970 Nacional: Primeira fase (grupos, 2 grupos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
 - 1971 Nacional: Primeira fase (grupos, 2 grupos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
 - 1972 Nacional: Primeira fase (grupos, 2 grupos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
 - 1973 Nacional: Primeira fase (grupos, 2 grupos); Final (mata_mata, jogo_unico)
@@ -453,7 +459,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1977 Metropolitano: Fase única (liga); Desempate do rebaixamento (mata_mata, jogo_unico)
 - 1977 Nacional: Primeira fase (grupos, 4 grupos); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 1978 Nacional: Primeira fase (grupos, 4 grupos); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 1979 Metropolitano: Primeira fase (grupos, 2 grupos); Semifinal (mata_mata, ida_volta); Desempate do título (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
+- 1979 Metropolitano: Primeira fase (grupos, 2 grupos); Grupo do rebaixamento (liga); Desempate do grupo (mata_mata, jogo_unico); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 1979 Nacional: Primeira fase (grupos, 4 grupos); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 1980 Nacional: Primeira fase (grupos, 4 grupos); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 1981 Nacional: Primeira fase (grupos, 4 grupos); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
@@ -471,11 +477,12 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2016: Primeira fase (grupos, 2 grupos); Final (mata_mata, jogo_unico)
 - 2025 Apertura: Primeira fase (grupos, 2 grupos); Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
 - 2025 Clausura: Primeira fase (grupos, 2 grupos); Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 2026 Apertura: Primeira fase (grupos, 2 grupos); Oitavas de final (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
 
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
-- RSSSF: 115 edições
-- calculada: 81 edições
+- RSSSF: 131 edições
+- calculada: 66 edições
 
 **Observações das edições:**
 
@@ -522,6 +529,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Banfield: 1
 - Arsenal de Sarandí: 1
 - Platense: 1
+- Belgrano: 1
 
 **Campeão e vice de cada edição:**
 
@@ -530,8 +538,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1891 | Saint Andrew's | Caledonians |
 | 1893 | Lomas Athletic | Flores Athletic |
 | 1894 | Lomas Athletic | Rosario Athletic |
-| 1895 | Lomas Athletic | Flores Athletic |
-| 1896 | Lomas Academicals | Lomas Athletic |
+| 1895 | Lomas Athletic | Lomas Academicals |
+| 1896 | Lomas Academicals | Flores Athletic |
 | 1897 | Lomas Athletic | Lanús Athletic |
 | 1898 | Lomas Athletic | Lobos Athletic |
 | 1899 | Belgrano Athletic | Lobos Athletic |
@@ -547,18 +555,18 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1909 | Alumni | River Plate |
 | 1910 | Alumni | Porteño |
 | 1911 | Alumni | Porteño |
-| 1912 Asociación | Quilmes | Racing Club |
+| 1912 Asociación | Quilmes | San Isidro |
 | 1912 Federación | Porteño | Independiente |
 | 1913 Asociación | Racing Club | San Isidro |
-| 1913 Federación | Estudiantes | Argentino de Quilmes |
+| 1913 Federación | Estudiantes | Gimnasia de Buenos Aires |
 | 1914 Asociación | Racing Club | Estudiantes de Buenos Aires |
 | 1914 Federación | Porteño | Estudiantes |
 | 1915 | Racing Club | San Isidro |
 | 1916 | Racing Club | Platense |
 | 1917 | Racing Club | River Plate |
 | 1918 | Racing Club | River Plate |
-| 1919 Asociación | Boca Juniors | Independiente |
-| 1919 Amateurs | Racing Club | Atlanta |
+| 1919 Asociación | Boca Juniors | Estudiantes |
+| 1919 Amateurs | Racing Club | Vélez Sarsfield |
 | 1920 Asociación | Boca Juniors | Banfield |
 | 1920 Amateurs | River Plate | Racing Club |
 | 1921 Asociación | Huracán | Del Plata |
@@ -571,8 +579,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1924 Amateurs | San Lorenzo | Gimnasia La Plata |
 | 1925 Asociación | Huracán | Nueva Chicago |
 | 1925 Amateurs | Racing Club | San Lorenzo |
-| 1926 Asociación | Boca Juniors | Huracán |
-| 1926 Amateurs | Independiente | Lanús |
+| 1926 Asociación | Boca Juniors | Argentinos Juniors |
+| 1926 Amateurs | Independiente | San Lorenzo |
 | 1927 | San Lorenzo | Boca Juniors |
 | 1928 | Huracán | Boca Juniors |
 | 1929 | Gimnasia La Plata | Boca Juniors |
@@ -638,7 +646,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1975 Metropolitano | River Plate | Huracán |
 | 1975 Nacional | River Plate | Estudiantes |
 | 1976 Metropolitano | Boca Juniors | Huracán |
-| 1976 Nacional | Boca Juniors | Talleres |
+| 1976 Nacional | Boca Juniors | River Plate |
 | 1977 Metropolitano | River Plate | Independiente |
 | 1977 Nacional | Independiente | Talleres |
 | 1978 Metropolitano | Quilmes | Boca Juniors |
@@ -658,9 +666,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1985 Nacional | Argentinos Juniors | Vélez Sarsfield |
 | 1985/86 | River Plate | Newell's Old Boys |
 | 1986/87 | Rosario Central | Newell's Old Boys |
-| 1987/88 | Newell's Old Boys | Racing Club |
+| 1987/88 | Newell's Old Boys | San Lorenzo |
 | 1988/89 | Independiente | Boca Juniors |
-| 1989/90 | River Plate | Rosario Central |
+| 1989/90 | River Plate | Independiente |
 | 1990/91 | Newell's Old Boys | Boca Juniors |
 | 1991/92 Apertura | River Plate | Boca Juniors |
 | 1991/92 Clausura | Newell's Old Boys | Vélez Sarsfield |
@@ -696,7 +704,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2006/07 Clausura | San Lorenzo | Boca Juniors |
 | 2007/08 Apertura | Lanús | Tigre |
 | 2007/08 Clausura | River Plate | Boca Juniors |
-| 2008/09 Apertura | Boca Juniors | San Lorenzo |
+| 2008/09 Apertura | Boca Juniors | Tigre |
 | 2008/09 Clausura | Vélez Sarsfield | Huracán |
 | 2009/10 Apertura | Banfield | Newell's Old Boys |
 | 2009/10 Clausura | Argentinos Juniors | Estudiantes |
@@ -723,18 +731,25 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2025 Apertura | Platense | Huracán |
 | 2025 Clausura | Estudiantes | Racing Club |
 | 2025 Liga | Rosario Central | Boca Juniors |
+| 2026 Apertura | Belgrano | River Plate |
 
-**Rebaixados marcados na classificação:** 36 em 17 edições (só onde a tabela publicada marca a queda); quem mais caiu: Quilmes (4), Platense (3), Banfield (2), Ferro Carril Oeste (2), Argentino de Quilmes (2).
+**Rebaixados marcados na classificação:** 42 em 20 edições (só onde a tabela publicada marca a queda); quem mais caiu: Quilmes (4), Platense (3), Banfield (2), Ferro Carril Oeste (2), Argentino de Quilmes (2).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
 - 1906: Barracas Athletic -2
+- 1908: Estudiantes de Buenos Aires -2
+- 1908: San Martín Athletic -2
 - 1941: Banfield -16
 - 1948: Racing Club -4
 - 1958: River Plate -2
 - 1969 Nacional: Unión -2
 - 1972 Metropolitano: Banfield -21
 - 1978 Metropolitano: Huracán +1
+- 1987/88: Instituto -2
+- 1989/90: Rosario Central -2
+- 1989/90: Talleres -2
+- 1989/90: Newell's Old Boys -2
 - 1991/92 Clausura: Quilmes -2
 - 1992/93 Apertura: River Plate -2
 - 1992/93 Apertura: San Martín de Tucumán -2
@@ -753,21 +768,40 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 Registradas em `coleta/arg-1/explicacoes.py`; cada uma também aparece no relatório, na edição.
 
-### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 1)
+### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 3)
 
 - **arg66 · 396:** «0 6 Racing» → «0:6 Racing»: placar sem os dois-pontos ('0 6'); 0-6 fecha com a tabela publicada
+- **arg49 · 246:** «Estudiantes de La Plata Gimnasia» → «Estudiantes de La Plata  Gimnasia»: um espaço só entre o visitante e o local do jogo: era lido como 'Gimnasia 1-0 Gimnasia' (AR-016)
+- **arg98 · 61:** «River Plate   1-3 Rosario» → «River Plate   1-3 Rosario Central»: 'Rosario' sozinho não era reconhecido e o jogo caía (AR-014)
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 2)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 8)
 
+- **1923 Asociación · arg23:820:** [fase = Desempate do título] desempate Boca x Huracán de 1924, sem título na página (AR-025)
+- **1923 Asociación · arg23:824:** [fase = Desempate do título] desempate Boca x Huracán de 1924, sem título na página (AR-025)
+- **1923 Asociación · arg23:828:** [fase = Desempate do título] desempate Boca x Huracán de 1924, sem título na página (AR-025)
+- **1923 Asociación · arg23:832:** [fase = Desempate do título] desempate Boca x Huracán de 1924, sem título na página (AR-025)
+- **1987/88 · arg88:483:** [decidido fora de campo, gm = 0, gv = 1] abandonado antes de começar; "later awarded 0-1" (nota da página); vale na tabela (AR-003)
+- **1913 Federación · arg13:447:** [vale o placar de campo] Kimberley 3-1 Porteño é o jogo repetido em 15/08 (a nota fala do primeiro, abandonado com 0-0 aos 75' e anulado); vale na tabela
 - **1936 Copa de Oro · arg-oro36:17:** [descartado] a linha do texto corrido vira o jogo escrito à mão (EXTRAS), com data, local e autores dos gols
 - **1965 · arg65:198:** [abandonado] Independiente 2-2 Racing Club suspenso aos 68' e não continuado; a tabela publicada não conta o jogo (33 jogos para os dois)
 
-### Jogos acrescentados à mão (a página traz em texto corrido) (`EXTRAS`, 1)
+### Jogos acrescentados à mão (a página traz em texto corrido) (`EXTRAS`, 5)
 
+- **2016/17:** Lanús 1-0 Atlético Tucumán (, espn:462770) jogo que só a ESPN tem
+- **2016/17:** Lanús 1-0 Gimnasia La Plata (, espn:462744) jogo que só a ESPN tem
+- **2016/17:** Tigre 0-0 Atlético Tucumán (, espn:462710) jogo que só a ESPN tem
+- **2016/17:** Tigre 0-1 Gimnasia La Plata (, espn:462684) jogo que só a ESPN tem
 - **1936 Copa de Oro:** River Plate 4-2 San Lorenzo (Final, rsssf:arg-oro36:9) jogo único; o 2-1 de Bernabé Ferreyra desviou em Chividini; o 3-2 é de Cavadini (outras fontes: Canteli)
 
-### Divergências entre fontes já explicadas (`EXPLICACOES`, 2)
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 9)
 
+- **1934 Liga:** fusões temporárias de 1934 à parte dos clubes (D-25 h): os jogos de "Atlanta/Argentinos Jrs" ficam com o Atlanta-Argentinos Juniors e os de "Talleres/Lanús" com a Unión Talleres-Lanús; a tabela da RSSSF põe a campanha inteira (39 jogos) na linha do Argentinos Juniors, que fica com só os 14 jogos de antes da fusão
+- **1893:** Quilmes Club (1893) e Quilmes Rovers (1895) são clubes à parte do Quilmes atual: a ligação não tem prova (D-25 g)
+- **2026 Apertura:** edição de 2026 que já terminou, entra agora (D-01); o Clausura 2026 e a tabela anual entram quando acabarem
+- **1975 Metropolitano:** a tabela da Wikipédia em espanhol tem 1 gol a mais para River (contra), Huracán (contra), Estudiantes (pró) e Banfield (pró): ela conta os gols de campo de Estudiantes 1-2 Huracán (abandonado aos 78', dado 0-2) e Banfield 1-2 River Plate (dado 0-2); a RSSSF e o pacote contam o placar dado (AR-019)
+- **1926 Amateurs:** a página arg26 põe cada linha num <PRE> próprio, sem quebra: o texto puro juntava os jogos e só 43 dos 325 eram lidos; com a quebra por <PRE> (ler_rsssf.PRE_POR_LINHA) entram todos (AR-006, AR-034)
+- **1919 Asociación:** o campeonato começado em março foi anulado (clubes desfiliados ou expulsos) e recomeçado em setembro com 6 clubes; só os jogos do recomeçado entram (12 não foram jogados) (AR-008)
+- **1912 Asociación:** a classificação é a tabela publicada, sem os clubes que saíram para a FAF no meio do campeonato (os jogos deles ficam) (AR-010)
 - **1891:** a liga da época deu o título dividido entre Saint Andrew's e Caledonians (empatados); Saint Andrew's venceu o desempate pelas medalhas. A AFA cita só o Saint Andrew's, que fica como campeão no pacote
 - **1936 Copa de Oro:** jogo único entre os campeões da Copa de Honor (San Lorenzo) e da Copa Campeonato (River Plate), lido à mão da página arg-oro36 da RSSSF (texto corrido)
 
@@ -801,8 +835,9 @@ coluna, como "Estudiantes de La Plata Atlanta, Buenos Aires") não atrapalha: a 
 
 ## 9. Pendências e próximos passos
 
-- Achados da revisão em aberto (36, prefixo AR; lista na seção 9): vices errados em 12 edições, campeão de 1913 Federación, datas com ano errado (~3.920 jogos), fases, artilheiros e clubes. Corrigir e citar os ids em docs/coleta/pedidos-sulamerica.md.
-- Decisões do Guilherme pedidas pela revisão: título de 1891 (só Saint Andrew's ou dividido), Apertura 2026, Quilmes de 1893-1895, fusões de 1934, Copa de Oro de 1936.
+- Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e pódio (AR-001 a AR-016, QU-001), datas (AR-022, QU-002, AR-024), fases (AR-025, AR-026), jogos (AR-018, AR-034: o 1926 Amateurs passou de 43 para 325 jogos), artilheiros (AR-027 a AR-030), clubes (AR-031, AR-032, AR-033) e o Apertura 2026 (AR-043).
+- Ainda abertos: AR-020 (1929, W.O. que dão pontos na tabela do grupo), AR-021 (rebaixados por lista: BDFA e es), AR-023 (data no título da fase: mudança no leitor comum, junto com UY-014, CH-012, CO-008, PY-009, PE-009, EC-009), QU-003 (casar a ESPN pelo par de clubes nos jogos adiados), QU-005 (datas do Boca só com 3ª fonte).
+- Decisão do Guilherme pedida pela revisão e já respondida: 1891 só Saint Andrew's (D-07 b; o pacote já era assim).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/arg-1.md`):
 
@@ -819,29 +854,34 @@ coluna, como "Estudiantes de La Plata Atlanta, Buenos Aires") não atrapalha: a 
 - AR-011 (alta) A vice — 1913 Federación: GEBA (Gimnasia y Esgrima BA) 2º 28; Argentino de Quilmes 3º 27 (18 j, 12-3-3). | SUGESTÃO: 1913 Federación: GEBA 2º 28, Argentino de Quilmes 3º 27 (18 j, 12-3-3; hoje 19 j, um jogo a mais). Fonte: https://es.wikipedia.or
 - AR-012 (alta) A vice — 1895: Lomas Academy 2º 13 (10 j, com os W.O.); Flores 3º 12. | SUGESTÃO: 1895: Lomas Academy 2º 13 (10 j, com os W.O.), Flores 3º 12. Fonte: https://es.wikipedia.org/wiki/Campeonato_de_Primera_Divisi%C3%B3n_1895_(Argentina). M
 - AR-013 (alta) A vice — 1896: 8 jogos por clube, 20 no total: Lomas Academy 12, Flores Athletic 10, Lomas Athletic 9 (4-1-3), Belgrano Athletic 8. | SUGESTÃO: 1896: 8 jogos por clube, 20 no total; tirar um dos dois Belgrano Athletic x Lomas Athletic 
-- AR-014 (media) A 3º lugar — 1997/98 Apertura: River 1-3 Rosario Central (31/08/1997). Rosario Central 3º (35); San Lorenzo 5º (9-5-5); Huracán 3-3-13.
-- AR-015 (media) A 3º lugar — 1974 Nacional; 1929: 1974 Nacional: 3º Vélez Sarsfield (grupo final: San Lorenzo 11, Rosario Central 10, Vélez 8). 1929: 3º River Plate.
+- AR-014 (media) A 3º lugar — 1997/98 Apertura: River 1-3 Rosario Central (31/08/1997). Rosario Central 3º (35); San Lorenzo 5º (9-5-5); Huracán 3-3-13. | SUGESTÃO: 1997/98 Apertura: falta River Plate 1-3 Rosario Central (31/08/1997; linha 'River Plate x Rosario' desc
+- AR-015 (media) A 3º lugar — 1974 Nacional; 1929: 1974 Nacional: 3º Vélez Sarsfield (grupo final: San Lorenzo 11, Rosario Central 10, Vélez 8). 1929: 3º River Plate. | SUGESTÃO: 3º lugar: 1974 Nacional Vélez Sarsfield (grupo final: San Lorenzo 11, Rosario Central 10, Vé
 - AR-016 (alta) B classificação — 1949: O jogo é Gimnasia y Esgrima 1:0 Estudiantes de La Plata (RSSSF arg49, rodada 20). Tabela de 34 j: Boca 15º, Tigre 16º, Huracán 17º, Lanús 18º (rebaixado após o desempate). | SUGESTÃO: 1949: o jogo de 04/09/1949 é Gimnasi
-- AR-017 (media) B classificação — 1988/89: 1988/89: 3 pela vitória, 2 pelo empate ganho nos pênaltis e 1 pelo perdido: Independiente 84, Boca 76, Deportivo Español 68.
-- AR-018 (media) B classificação — 2016/17: Lanús 1-0 Atlético Tucumán (19/11), Lanús 1-0 Gimnasia (05/12), Tigre 0-0 Atlético Tucumán (19/12), Tigre 0-1 Gimnasia (18/03). Todos com 30 j; Lanús 8º.
-- AR-019 (media) B classificação — 1975 Metropolitano: River 72-38, Huracán 73-46, Estudiantes 68-51, Banfield 57-73 (dois placares com 1 gol a menos no banco).
-- AR-020 (media) B classificação — 1908; 1929; 1931 Liga; 1965: 1908: Belgrano 31, San Isidro 4º, Estudiantes 5º, Nacional 2 j; 1929: Lanús 8-8-1 24 pts; 1931: Platense e Lanús 34 j; 1965: Racing 5º com 34 j (a RSSSF conta 33).
-- AR-021 (baixa) B rebaixamento — várias: Rebaixamentos por promedios e desempates de cada temporada (ex.: 2011: River, Huracán, Quilmes e Gimnasia LP).
-- AR-022 (media) C datas — 26 edições: 1931: 31/05/1931 a 06/01/1932; 1937: 04/04 a 19/12/1937; Superliga 2018-19: 10/08/2018 a 07/04/2019 (fichas da es).
-- AR-023 (media) C datas — ~40 edições: 1990/91: ida 06/07 e volta 09/07/1991; 2006 Apertura: Estudiantes 2-1 Boca em 13/12/2006; 1939: desempate do 1º turno em 10/12/1939 e do 2º lugar em 09/11/1941 (no banco 1939-07-16 e 1939-12-22).
-- AR-024 (baixa) C datas — 2005/06 Apertura; 2019/20: Datas que não existem.
-- AR-025 (media) C fases — 1931 Asociación; 1937; 1939; 1976 Nacional; 1979 Metropolitano; 1923 Asociación: 1937 e 1939: 'Playoff to define the first position in the first step' / 'First stage winner playoff' (RSSSF); 1923: desempate Boca x Huracán 3-0, 0-2, 0-0, 2-0.
-- AR-026 (media) C fases — 1929; 1970 Nacional; 1979 Metropolitano: A final de 1929 foi Gimnasia x Boca; a de 1979 Metropolitano, River x Vélez; a de 1970 Nacional, Boca x Rosario Central.
-- AR-027 (media) D artilheiro — 1894: James Gifford 7 gols.
-- AR-028 (media) D artilheiro — 1934 Asociación: Pedro Maseda (Argentino de Quilmes) e Domingo Tarasconi (General San Martín), 16 gols.
-- AR-029 (media) D artilheiro — 2025 Apertura; 1932 Asociación; 1997/98 Clausura: 2025 Apertura: Tomás Molina 10 (artilheiro único); 1932 Irurieta 23; 1998 Clausura Roberto Sosa 16.
-- AR-030 (baixa) D artilheiro — 1936 Copa de Honor; 1936 Campeonato; 1988/89: 1936 Copa de Honor: Alberto Zozaya 16; 1936 Copa Campeonato: Evaristo Barrera 19; 1988/89: Oscar Dertycia e Néstor Gorosito 20.
-- AR-031 (media) E clube duplicado — 1985 Nacional: O participante do Nacional 1985 é o Club Cipolletti (o mesmo de 1973-1980).
-- AR-032 (baixa) E clube — 1893-1895: es: 'El Quilmes Atlético Club, sin evidencias, infiere ser la misma entidad que el Quilmes Rowers Athletic Club, aunque historiadores afirman que se trata de dos entidades distintas.' (pergunta ao Guilherme)
-- AR-033 (baixa) E clube — 1934 Liga: Os dois times de 1934 foram fusões temporárias (pergunta ao Guilherme: como mostrar).
-- AR-034 (baixa) E nomes — 1926: Nomes separados (sinal de linhas mal lidas em 1926).
-- AR-043 (baixa) A edições — 2026 Apertura: O Apertura 2026 já terminou (Belgrano campeão, River vice). Pergunta ao Guilherme: entra agora ou só quando a temporada 2026 fechar?
-- AR-044 (baixa) A título — 1891: es e en listam o título dividido entre Saint Andrew's e Old Caledonians (decisão da liga da época). Pergunta ao Guilherme.
+- AR-017 (media) B classificação — 1988/89: 1988/89: 3 pela vitória, 2 pelo empate ganho nos pênaltis e 1 pelo perdido: Independiente 84, Boca 76, Deportivo Español 68. | SUGESTÃO: 1988/89: pontos = 3 por vitória, 2 pelo empate ganho nos pênaltis e 1 pelo perdido:
+- AR-018 (media) B classificação — 2016/17: Lanús 1-0 Atlético Tucumán (19/11), Lanús 1-0 Gimnasia (05/12), Tigre 0-0 Atlético Tucumán (19/12), Tigre 0-1 Gimnasia (18/03). Todos com 30 j; Lanús 8º. | SUGESTÃO: 2016/17: os 4 jogos que faltam estão na ESPN já baixad
+- AR-019 (media) B classificação — 1975 Metropolitano: River 72-38, Huracán 73-46, Estudiantes 68-51, Banfield 57-73 (dois placares com 1 gol a menos no banco). | SUGESTÃO: 1975 Metropolitano: pela conta das tabelas, os dois placares com 1 gol a menos são de Estudiantes x Ri
+- AR-020 (media) B classificação — 1908; 1929; 1931 Liga; 1965: 1908: Belgrano 31, San Isidro 4º, Estudiantes 5º, Nacional 2 j; 1929: Lanús 8-8-1 24 pts; 1931: Platense e Lanús 34 j; 1965: Racing 5º com 34 j (a RSSSF conta 33). | SUGESTÃO: Usar a tabela publicada como classificação n
+- AR-021 (baixa) B rebaixamento — várias: Rebaixamentos por promedios e desempates de cada temporada (ex.: 2011: River, Huracán, Quilmes e Gimnasia LP). | SUGESTÃO: Marcar 'rebaixado' por uma lista de rebaixamentos (promedios e desempates) e não só pela nota da 
+- AR-022 (media) C datas — 26 edições: 1931: 31/05/1931 a 06/01/1932; 1937: 04/04 a 19/12/1937; Superliga 2018-19: 10/08/2018 a 07/04/2019 (fichas da es). | SUGESTÃO: Correção em lote validada (revisao/QU/sim_ano.py): para cada edição, âncora = ano_inicio (an
+- AR-023 (media) C datas — ~40 edições: 1990/91: ida 06/07 e volta 09/07/1991; 2006 Apertura: Estudiantes 2-1 Boca em 13/12/2006; 1939: desempate do 1º turno em 10/12/1939 e do 2º lugar em 09/11/1941 (no banco 1939-07-16 e 1939-12-22). | SUGESTÃO: Datas copiad
+- AR-024 (baixa) C datas — 2005/06 Apertura; 2019/20: Datas que não existem. | SUGESTÃO: 2005/06 Apertura Newell's 3-2 Estudiantes (2005-09-31, rsssf:arg06:231, ESPN 187600): usar a data da ESPN; 2019/20 os 4 jogos de 2021-02-29 (arg2020:432-435) são de 29/02/2020 (o AR-022
+- AR-025 (media) C fases — 1931 Asociación; 1937; 1939; 1976 Nacional; 1979 Metropolitano; 1923 Asociación: 1937 e 1939: 'Playoff to define the first position in the first step' / 'First stage winner playoff' (RSSSF); 1923: desempate Boca x Huracán 3-0, 0-2, 0-0, 2-0. | SUGESTÃO: Fases: 1931 Asociación inteira está em 'Desempa
+- AR-026 (media) C fases — 1929; 1970 Nacional; 1979 Metropolitano: A final de 1929 foi Gimnasia x Boca; a de 1979 Metropolitano, River x Vélez; a de 1970 Nacional, Boca x Rosario Central. | SUGESTÃO: Final com jogos de outra disputa. 1929: a 'Final' leva o jogo de 3º lugar (arg29:570, R
+- AR-027 (media) D artilheiro — 1894: James Gifford 7 gols. | SUGESTÃO: 1894: James Gifford 7 gols (es e en). Mexer em: coleta/arg-1/importar.py, TOPS/artilheiros_rsssf(): dicionário ARTILHEIROS_CORRIGE = {'1894': [('James Gifford', 'Rosario Athletic', 7)]} 
+- AR-028 (media) D artilheiro — 1934 Asociación: Pedro Maseda (Argentino de Quilmes) e Domingo Tarasconi (General San Martín), 16 gols. | SUGESTÃO: 1934 Asociación: Pedro Maseda (Argentino de Quilmes) e Domingo Tarasconi (General San Martín), 16 gols; o 'Oscar Lupo 21'
+- AR-029 (media) D artilheiro — 2025 Apertura; 1932 Asociación; 1997/98 Clausura: 2025 Apertura: Tomás Molina 10 (artilheiro único); 1932 Irurieta 23; 1998 Clausura Roberto Sosa 16. | SUGESTÃO: 2025 Apertura: Tomás Molina (Argentinos Juniors) 10, artilheiro único (o banco conta 9 a partir dos gols com
+- AR-030 (baixa) D artilheiro — 1936 Copa de Honor; 1936 Campeonato; 1988/89: 1936 Copa de Honor: Alberto Zozaya 16; 1936 Copa Campeonato: Evaristo Barrera 19; 1988/89: Oscar Dertycia e Néstor Gorosito 20. | SUGESTÃO: 1936 Copa de Honor Alberto Zozaya 16; 1936 Copa Campeonato Evaristo Barrera 19; 
+- AR-031 (media) E clube duplicado — 1985 Nacional: O participante do Nacional 1985 é o Club Cipolletti (o mesmo de 1973-1980). | SUGESTÃO: 'Atlético Cipolletti' (1985 Nacional) é o Club Cipolletti: mesmo cadastro. Mexer em: coleta/arg-1/clubes_arg.py, REGRAS: (r'(club )?
+- AR-032 (baixa) E clube — 1893-1895: es: 'El Quilmes Atlético Club, sin evidencias, infiere ser la misma entidad que el Quilmes Rowers Athletic Club, aunque historiadores afirman que se trata de dos entidades distintas.' (pergunta ao Guilherme) | SUGESTÃO: 
+- AR-033 (baixa) E clube — 1934 Liga: Os dois times de 1934 foram fusões temporárias (pergunta ao Guilherme: como mostrar). | SUGESTÃO: decisão: ver decisoes
+- AR-034 (baixa) E nomes — 1926: Nomes separados (sinal de linhas mal lidas em 1926). | SUGESTÃO: Nomes colados 'Argentinos JuniorsSportivo Balcarce' e 'Estudiantes BATigre' (1926): duas linhas da página arg26 lidas juntas (falta espaço/quebra no HTML).
+- AR-043 (baixa) A edições — 2026 Apertura: O Apertura 2026 já terminou (Belgrano campeão, River vice). Pergunta ao Guilherme: entra agora ou só quando a temporada 2026 fechar? | SUGESTÃO: decisão: ver decisoes
+- AR-044 (baixa) A título — 1891: es e en listam o título dividido entre Saint Andrew's e Old Caledonians (decisão da liga da época). Pergunta ao Guilherme. | SUGESTÃO: decisão: ver decisoes
+- QU-001 (media) C jogos — 1913 Federación: A página arg13 da RSSSF lista esses jogos depois da tabela final, na seção 'Originally official matches but played friendly' (linha 585): 'Originally match of Copa Competencia, but played friendly' e 'Friendly match due 
+- QU-002 (media) C datas — 1928; 1930; 1919 Asociación; 1937: historiadeboca.com.ar (campanha do Boca, data de cada rodada): 1928 de 15/04/1928 a 30/06/1929 (Fecha 1 a 34); 1930 de 30/03/1930 a 05/04/1931; 1919 Asociación até 04/01/1920; 1937 desempate em 11/02/1939. | SUGESTÃO: na
+- QU-003 (media) C datas — 2003/04 Clausura; 2009/10 Clausura; 2010/11 Apertura; 2011/12 Apertura; 2012/13 Inicial; 2014; 2015; 2016/17; 2022; 2023; 2025 Apertura; 2025 Clausura: ESPN (JSON que a coleta já baixou: data/coleta/arg-1/espn/arg1_2025.json, evento 729200) e historiadeboca: Boca 2-0 River em 09/11/2025; Boca 2-0 River em 25/03/2010 (ESPN 286607); Independiente 0-1 Tigre em 08/12/2010 (
+- QU-004 (media) C placar — 1989/90: historiadeboca (ficha do jogo, com árbitro Calabria e escalações): Newell's 0-2 Boca. Jogo suspenso e não continuado costuma ter o resultado decidido no tribunal. | SUGESTÃO: conferir na tabela da es (GP/GC de Newell's e
+- QU-005 (baixa) C datas — 1937; 1945; 1954; 1977 Metropolitano; 1977 Nacional; 1985/86; 1986/87; 1988/89; 1989/90; 1990/91; 1996/97 Clausura; 1997/98 Apertura; 2002/03 Clausura; 2010/11 Clausura: historiadeboca: 29/07/1945, 03/10/1945, 18/10/1954, 19/08/1977; as de 1 dia (1985/86 a 2010/11) podem ser fuso horário. Lista: revisao/QU/sim_ano_saida.txt (seção final). | SUGESTÃO: só as de mais de 1 dia (1945, 1954, 1
 
 ## 10. Arquivos e comandos
 

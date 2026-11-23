@@ -73,7 +73,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `arg-1` Argentino | 196 (1891–2025) | 43.235 | 171 | ba21d2a, 665fe93 | sim |
+| `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 23/11 | sim (versão antes das correções) |
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.464 | 81 | 0ead727 | sim |
 | `chi-1` Chileno | 109 (1933–2025) | 22.601 | 53 | 36e0690 | sim |
 | `col-1` Colombiano | 101 (1948–2025) | 22.788 | 42 | 3f5c1d0 | sim |
@@ -94,7 +94,16 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
 2. **Pedido do agente 1 para o `bol-1` (22/11, "quando o Guilherme mandar revisar; não para agora"):** a classificação
    final de 1960, 1976, 1990, 1993 e 1994 deve trazer todos os clubes com jogos (eliminados com a posição da fase em que
    caíram), como no `bra-sp-2`. O mesmo pode valer para as edições incompletas do `ven-1`.
-3. **Próximas competições: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7).
+3. **Correções da revisão (EM ANDAMENTO desde 23/11, ordem do Guilherme):** seguir `docs/revisao/plano-coleta-sulamerica.md`.
+   - **Argentino: feito em 23/11** (ids no fim de `docs/coleta/pedidos-sulamerica.md`). Abertos: AR-020 (1929), AR-021
+     (rebaixados), AR-023 (leitor comum), QU-003, QU-005.
+   - Próximo: Uruguaio (`uru-1`), depois Chileno, Colombiano, Paraguaio, Peruano, Equatoriano.
+   - A mudança do leitor comum (data no título da fase: AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009) fica para o
+     fim, uma vez só, com a reimportação das 9 ligas.
+4. **Depois: copas nacionais** (pedido do Guilherme, 23/11, antes das 2ªs divisões). Pesquisa pronta em
+   `copas-nacionais.md` (nesta pasta): sete países têm copa (ARG, URU, CHI, COL, PAR, ECU, VEN); faltam as decisões dele
+   sobre quais, edições antigas e ordem.
+5. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7).
 4. **Revisão (espera):** por decisão do Guilherme (22/11), os 55 achados abertos do Argentino (AR) e do Uruguaio (UY) e as
    decisões pedidas (UY-001, UY-007, UY-020, AR-032, AR-033, AR-043, AR-044, Copa de Oro 1936) **esperam**. O agente de
    revisão vai deixar um plano em `docs/revisao/plano-coleta-sulamerica.md`; quando o Guilherme disser que é hora, siga o
@@ -259,6 +268,19 @@ siga o redirecionamento.
   até 3 dias de diferença);
 - artilheiro com dois clubes ("Estudiantes/Carabobo FC"): fica o último, os dois na fonte (o teste de carga pegou).
 
+**Correções da revisão (23/11):**
+- **Pódio oficial:** `campeoes_wiki.py` do `arg-1` lê campeão, vice e 3º da lista da Wikipédia em inglês; `importar.podio_oficial()`
+  põe vice e 3º nas posições 2 e 3 (1891 fica como está: título dividido).
+- **Tabela publicada como classificação** quando os jogos não fecham (W.O., punições, derrota para os dois clubes):
+  `importar.TABELA_OFICIAL` do `arg-1`. Com só parte dos jogos, a tabela completa parece "acumulada" para a conferência:
+  não filtre por isso.
+- **Ano das datas:** `importar.acerta_ano()` do `arg-1` (janela da temporada; regra simulada pela revisão em
+  `revisao/QU/sim_ano.py`) e `DATA_FIXA` para o ano escrito na própria linha.
+- **Página com um `<PRE>` por linha** (arg26): o texto puro junta tudo numa linha. `ler_rsssf.PRE_POR_LINHA` quebra por
+  `</PRE>`. Muda os números de linha da página: refaça trechos e correções dela.
+- **Resumo no topo da página** com títulos de fase ("Playoff:", "Torneo por el Descenso"): o título vale para os jogos de
+  baixo. Corte o resumo do trecho ou anule o título só nessa edição (`_FASES_EXTRA` do `arg-1`).
+
 **Python no Windows:** editar arquivo por heredoc com `python - <<'EOF'` estraga `\b` (vira backspace) e às vezes `\n`. Para
 regex, use o Edit e confira com `grep -c $'\x08'`. Em f-string com `rf"..."`, `\d{1,2}` vira tupla: use `{{1,2}}`.
 
@@ -272,4 +294,5 @@ regex, use o Edit e confira com `grep -c $'\x08'`. Em f-string com `rf"..."`, `\
 - Peruano: 1912-1921 como edições só com campeão e vice (escolha recomendada aprovada em 21/11).
 - 22/11: prioridade é coletar (Bolívia, depois Venezuela); a revisão do Argentino e do Uruguaio espera o plano da revisão.
 - 22/11: depois da Venezuela, as 2ªs divisões, na ordem do guia geral, quando ele pedir.
+- 23/11: primeiro as correções da revisão; depois as copas nacionais (documentadas em `copas-nacionais.md`); depois as 2ªs divisões.
 - Não começar outra competição sem ele pedir.

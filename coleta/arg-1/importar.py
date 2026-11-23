@@ -32,10 +32,25 @@ from rsssf_sul import chave  # noqa: E402
 # ordem das fases (quanto maior, mais longe o clube chegou)
 NIVEL_FASE = {"": 0, "Apertura": 0, "Clausura": 0, "Grupo do rebaixamento": 0, "Desempate do rebaixamento": 0,
               "Desempate do 2º lugar": 1, "Fase final": 2, "Oitavas de final": 3, "Quartas de final": 4, "Semifinal": 5,
-              "Final": 6, "Desempate do título": 6}
+              "Final": 6, "Desempate do título": 6, "Desempate do 1º turno": 0, "Desempate do grupo": 1, "Disputa do 3º lugar": 5}
 WIKI: dict[str, str] = {}
 TOPS: dict[str, list] = {}
-MATA = {"Oitavas de final", "Quartas de final", "Semifinal", "Final", "Desempate do título", "Desempate do 2º lugar", "Desempate do rebaixamento"}
+TOPS_FONTE: dict[str, str] = {}
+# artilheiros corrigidos pela lista da Wikipédia em espanhol ("Anexo:Goleadores de la Primera División de Argentina"), onde a
+# argtops erra ou não tem (AR-027 a AR-030): temporada -> [(jogador, clube, gols)]
+_ES = "Wikipédia em espanhol (Anexo:Goleadores de la Primera División de Argentina)"
+ARTILHEIROS_CORRIGE: dict[str, list[tuple[str, str, int]]] = {
+    "1894": [("James D. Gifford", "Flores Athletic", 7)],                         # a argtops dá 4
+    "1932 Asociación": [("Juan Irurieta", "All Boys", 23)],                        # a argtops dá 24
+    "1934 Asociación": [("Pedro Maseda", "Argentino de Quilmes", 16), ("Domingo Tarasconi", "General San Martín", 16)],
+    "1936 Copa de Honor": [("Alberto Zozaya", "Estudiantes", 16)],                 # a argtops soma as duas copas de 1936
+    "1936 Campeonato": [("Evaristo Barrera", "Racing Club", 19)],
+    "1988/89": [("Oscar Dertycia", "Argentinos Juniors", 20), ("Néstor Gorosito", "San Lorenzo", 20)],
+    "1997/98 Clausura": [("Roberto Sosa", "Gimnasia La Plata", 16)],               # a argtops dá 17
+    "2025 Apertura": [("Tomás Molina", "Argentinos Juniors", 10)],                 # 4 gols do torneio sem autor
+}
+MATA = {"Oitavas de final", "Quartas de final", "Semifinal", "Final", "Desempate do título", "Desempate do 2º lugar", "Desempate do rebaixamento",
+        "Desempate do 1º turno", "Desempate do grupo", "Disputa do 3º lugar"}
 
 
 def nome_fase(f: str, fases: set[str]) -> str:
@@ -52,8 +67,66 @@ def especial(esp: str) -> str:
     return {"wo_m": "wo", "wo_v": "wo", "awd": "awd", "abd": "abd", "anulado": "n/p", "n/p": "n/p"}.get(esp, "")
 
 
+# AR-022: o leitor comum erra o ano em ~3.500 jogos de 25 edições (a 1ª data <= junho numa edição que cruza o ano vai para
+# ano_fim; o ano escrito numa linha vale para os jogos seguintes; virada dez -> jan com jogos adiados). Regra validada pela
+# revisão (revisao/QU/sim_ano.py): âncora = ano_inicio (ano_fim no Clausura/Final/Campeonato de temporada dividida); janela
+# = [1º jogo da página - 30 dias, +365 dias] (fim explícito nas temporadas longas); cada jogo recebe o ano que põe dia/mês
+# na janela; se couber em dois, o mais perto do jogo anterior na ordem da página.
+ACERTA_ANO = {"1919 Asociación", "1919 Amateurs", "1924 Asociación", "1925 Asociación", "1927", "1928", "1929", "1930", "1931 Liga",
+              "1937", "1977 Nacional", "1981 Nacional", "1985/86", "1986/87", "1989/90", "1999/00 Apertura", "2003/04 Apertura",
+              "2006/07 Apertura", "2007/08 Apertura", "2010/11 Apertura", "2011/12 Apertura", "2012/13 Inicial", "2017/18",
+              "2018/19", "2019/20"}
+FIM_TEMPORADA = {"1927": "1928-01-31", "1928": "1929-07-31", "1930": "1931-04-30", "1937": "1939-02-28"}   # (historiadeboca)
+# ano escrito na própria linha do jogo (QU-002): 1937, desempate do 1º turno River 5-3 Boca, "[11 Feb 1939]"
+# AR-024: 2005/06 Apertura Newell's x Estudiantes escrito "Sep 31" na página; a ESPN (187600) dá 30/09/2005 às 20h locais
+DATA_FIXA = {("1937", "arg37:223"): "1939-02-11", ("2005/06 Apertura", "arg06:231"): "2005-09-30"}
+
+
+def acerta_ano(e: Edicao, jogos: list[dict]) -> None:
+    from datetime import date, timedelta
+    for j in jogos:
+        if j["j"] and (e.temporada, j["j"].texto) in DATA_FIXA:
+            j["j"].data = DATA_FIXA[(e.temporada, j["j"].texto)]
+    if e.temporada not in ACERTA_ANO:
+        return
+    pags: list[str] = []
+    da_pagina = [j for j in jogos if j["j"] and j["j"].data and not j["j"].texto.startswith(("espn", "wiki", "ogol"))]
+    for j in da_pagina:
+        pg = j["j"].texto.split(":")[0]
+        if pg not in pags:
+            pags.append(pg)
+    da_pagina.sort(key=lambda j: (pags.index(j["j"].texto.split(":")[0]), int(j["j"].texto.split(":")[1])))
+    if not da_pagina:
+        return
+    anc = e.ano_fim if ("/" in e.temporada and re.search(r"Clausura|\bFinal$|Campeonato$", e.temporada)) else e.ano_inicio
+    d0 = da_pagina[0]["j"].data
+    ini = date(anc, int(d0[5:7]), int(d0[8:10])) - timedelta(days=30)
+    fim = date.fromisoformat(FIM_TEMPORADA[e.temporada]) if e.temporada in FIM_TEMPORADA else ini + timedelta(days=365)
+    prev = None
+    for j in da_pagina:
+        x = j["j"]
+        if (e.temporada, x.texto) in DATA_FIXA:
+            x.data = DATA_FIXA[(e.temporada, x.texto)]
+            continue
+        mo, di = int(x.data[5:7]), int(x.data[8:10])
+        cands = []
+        for y in range(ini.year, fim.year + 1):
+            try:
+                w = date(y, mo, di)
+            except ValueError:
+                continue
+            if ini <= w <= fim:
+                cands.append(w)
+        if not cands:
+            continue
+        z = cands[0] if len(cands) == 1 or prev is None else min(cands, key=lambda w: (abs((w - prev).days), w.weekday() < 5))
+        prev = z
+        x.data = z.isoformat() + x.data[10:]
+
+
 def montar(e: Edicao, cps: dict[str, list[str]]) -> dict:
     p = preparar(e)
+    acerta_ano(e, p["jogos"])
     log: list[str] = list(p["log"])
     for x in EXTRAS.get(e.temporada, []):
         p["jogos"].append({"m": x["mandante"], "v": x["visitante"], "gm": x["gm"], "gv": x["gv"], "fase": x.get("fase", ""),
@@ -79,8 +152,44 @@ def montar(e: Edicao, cps: dict[str, list[str]]) -> dict:
     if not campeao and camp_txt:
         log.append(f"campeão da lista da RSSSF não reconhecido: {camp_txt}")
     final = classificacao(e, p, calc, nivel, campeao, clubes)
+    podio_oficial(e, final, campeao, log)
     return {"e": e, "p": p, "difs": difs, "log": log, "clubes": clubes, "campeao": campeao, "camp_txt": camp_txt,
             "final": final, "fases": fases}
+
+
+# edições em que a classificação é a tabela publicada, mesmo sem fechar com os jogos: 1912 Asociación sem os clubes que foram para a FAF; nas outras, W.O. e jogos anulados que a página conta de outro jeito
+# 1989/90 e 1997/98 Apertura: jogos com derrota para os dois clubes e punições de pontos (AR-004, AR-014)
+TABELA_OFICIAL = {"1896", "1908", "1912 Asociación", "1919 Amateurs", "1926 Asociación", "1931 Liga", "1965",
+                  "1989/90", "1997/98 Apertura", "1988/89"}   # 1988/89: 3 pela vitória, 2 ou 1 no empate decidido nos pênaltis (AR-017)
+
+# grafias da lista oficial (Wikipédia em inglês) que as REGRAS não pegam
+_NOME_LISTA = {"Flores": "Flores Athletic", "Rosario AC": "Rosario Athletic", "Argentino (Q)": "Argentino de Quilmes"}
+VICES: dict[str, str] = {}
+TERCEIROS: dict[str, str] = {}
+
+
+def podio_oficial(e: Edicao, final: list[dict], campeao: str | None, log: list[str]) -> None:
+    """Vice e 3º da lista oficial (Wikipédia em inglês, a mesma do campeão) logo abaixo do campeão (AR-002 a AR-013,
+    AR-015): a tabela lida às vezes não fecha (jogo a mais ou a menos, punição, desempate fora da tabela).
+    1891 fica como está: a lista dá o título dividido (Saint Andrew's e Old Caledonians) e o clube seguinte como "vice";
+    pela D-07 (b) só o Saint Andrew's é campeão, e o Old Caledonians, que perdeu o desempate, é o vice."""
+    if e.temporada == "1891":
+        return
+    for pos, lista in ((2, VICES), (3, TERCEIROS)):
+        txt = lista.get(e.temporada)
+        if not txt or not campeao or len(final) < pos:
+            continue
+        c = _NOME_LISTA.get(txt) or clube(txt, e.ano_inicio)
+        r = next((r for r in final if r["clube"] == c), None)
+        if r is None:
+            log.append(f"{'vice' if pos == 2 else '3º'} da lista oficial ({txt}) não está na classificação")
+            continue
+        if final.index(r) != pos - 1 and final.index(r) >= pos - 1:
+            log.append(f"{'vice' if pos == 2 else '3º'} pela lista oficial: {c} (a tabela o punha em {final.index(r) + 1}º)")
+            final.remove(r)
+            final.insert(pos - 1, r)
+    for k, r in enumerate(final, 1):
+        r["pos"] = k
 
 
 def artilheiros_rsssf() -> dict[str, list[tuple[str, str, int]]]:
@@ -116,6 +225,9 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     pv = e.pontos_vitoria
     pub = next((tb for tb in p["tabelas"] if not tb.get("acumulada") and tb.get("ok") and
                 {r["clube"] for r in tb["linhas"]} == set(clubes)), None)
+    if e.temporada in TABELA_OFICIAL:   # jogos incompletos ou que não fecham: vale a tabela publicada (AR-006, AR-010, AR-020)
+        cands = p["tabelas"]   # (com só parte dos jogos, a tabela completa parece "acumulada" para a conferência)
+        pub = max(cands, key=lambda tb: (len(tb["linhas"]), sum(r["j"] or 0 for r in tb["linhas"])), default=pub)
     linhas = []
     if pub:
         for k, r in enumerate(pub["linhas"], 1):
@@ -324,7 +436,7 @@ def gravar(eds: list[dict]) -> None:
         tops = TOPS.get(e.temporada)
         if tops:
             for jog, ctxt, ng in tops:
-                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, "RSSSF (argtops.html)"])
+                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, TOPS_FONTE.get(e.temporada, "RSSSF (argtops.html)")])
         elif gols_ed and autor_ed >= 0.95 * gols_ed:
             cont = Counter((r[2], r[1]) for r in L["gols"] if r[0].startswith(eid + "-") and r[5] != "contra")
             if cont:
@@ -496,7 +608,12 @@ if __name__ == "__main__":
     cps = campeoes()
     from campeoes_wiki import campeoes as campeoes_wiki
     WIKI.update(campeoes_wiki())
+    from campeoes_wiki import terceiros, vices
+    VICES.update(vices())
+    TERCEIROS.update(terceiros())
     TOPS.update(artilheiros_rsssf())
+    for t_, v_ in ARTILHEIROS_CORRIGE.items():
+        TOPS[t_], TOPS_FONTE[t_] = v_, _ES
     eds = []
     for e in EDICOES:
         d = montar(e, cps)

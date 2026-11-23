@@ -58,7 +58,8 @@ def _e(temporada, ini, fim, trechos, nome, campeao, obs="", fases=None, nomes=No
 
 
 # nas ligas da Federación (1912-1914) o "Estudiantes" sem cidade é o de La Plata (o de Buenos Aires jogava a Asociación)
-_EST_LP = {"Estudiantes": "Estudiantes"}
+# (arg13 escreve "CA Estudiantes" e "Club Atlético Estudiantes"; sem eles, a REGRA do Estudiantes de Buenos Aires ganhava: AR-001)
+_EST_LP = {"Estudiantes": "Estudiantes", "CA Estudiantes": "Estudiantes", "Club Atlético Estudiantes": "Estudiantes"}
 
 
 EDICOES: list[Edicao] = [
@@ -74,14 +75,14 @@ EDICOES += [
     _e("1912 Asociación", 1912, 1912, [("arg12", 11, 175)], "Asociación Argentina de Football – Copa Campeonato 1912", "Quilmes Athletic Club"),
     _e("1912 Federación", 1912, 1912, [("arg12", 175, None)], "Federación Argentina de Football – Campeonato 1912", "Club Atlético Porteño", nomes=_EST_LP),
     _e("1913 Asociación", 1913, 1913, [("arg13", 15, 377)], "Asociación Argentina de Football – Copa Campeonato 1913", "Racing Football Club"),
-    _e("1913 Federación", 1913, 1913, [("arg13", 377, None)], "Federación Argentina de Football – Primera División 1913", "Club Estudiantes (La Plata)", nomes=_EST_LP),
+    _e("1913 Federación", 1913, 1913, [("arg13", 377, 585)], "Federación Argentina de Football – Primera División 1913", "Club Estudiantes (La Plata)", nomes=_EST_LP),
     _e("1914 Asociación", 1914, 1914, [("arg14", 262, None)], "Asociación Argentina de Football – Copa Campeonato 1914", "Racing Football Club"),
     _e("1914 Federación", 1914, 1914, [("arg14", 29, 262)], "Federación Argentina de Football – Primera División 1914", "Club Atlético Porteño", nomes=_EST_LP),
 ]
 for _a in range(1915, 1919):
     EDICOES.append(_e(str(_a), _a, _a, [(f"arg{_a % 100}", 0, None)], f"Copa Campeonato {_a}", ""))
 EDICOES += [
-    _e("1919 Asociación", 1919, 1919, [("arg19", 14, 323)], "Asociación Argentina de Football – Copa Campeonato 1919", "Club Atlético Boca Juniors"),
+    _e("1919 Asociación", 1919, 1919, [("arg19", 237, 323)], "Asociación Argentina de Football – Copa Campeonato 1919", "Club Atlético Boca Juniors"),
     _e("1919 Amateurs", 1919, 1919, [("arg19", 323, None)], "Asociación Amateurs de Football – Primera División 1919", "Racing Club"),
     _e("1920 Asociación", 1920, 1920, [("arg20", 497, None)], "Asociación Argentina de Football – Copa Campeonato 1920", "Club Atlético Boca Juniors"),
     _e("1920 Amateurs", 1920, 1920, [("arg20", 22, 497)], "Asociación Amateurs de Football – Primera División 1920", "Club Atlético River Plate"),
@@ -99,11 +100,11 @@ EDICOES += [
     _e("1925 Asociación", 1925, 1925, [("arg25", 14, 617)], "Asociación Argentina de Football – Copa Campeonato 1925", "Club Atlético Huracán",
        nomes={"Platense": "Universal"}),   # o Platense da Asociación (virou Retiro e depois Universal); o de Vicente López jogava a Amateurs
     _e("1925 Amateurs", 1925, 1925, [("arg25", 617, None)], "Asociación Amateurs de Football – Primera División 1925", "Racing Club"),
-    _e("1926 Asociación", 1926, 1926, [("arg26", 22, 340)], "Asociación Argentina de Football – Copa Campeonato 1926", "Club Atlético Boca Juniors"),
-    _e("1926 Amateurs", 1926, 1926, [("arg26", 340, None)], "Asociación Amateurs de Football – Primera División 1926", "Club Atlético Independiente"),
+    _e("1926 Asociación", 1926, 1926, [("arg26", 22, 528)], "Asociación Argentina de Football – Copa Campeonato 1926", "Club Atlético Boca Juniors"),
+    _e("1926 Amateurs", 1926, 1926, [("arg26", 528, 1131)], "Asociación Amateurs de Football – Primera División 1926", "Club Atlético Independiente"),
     _e("1927", 1927, 1927, [("arg27", 0, None)], "Asociación Amateurs Argentina de Football – Primera División 1927", "Club Atlético San Lorenzo de Almagro"),
     _e("1928", 1928, 1928, [("arg28", 0, None)], "Asociación Amateurs Argentina de Football – Primera División 1928", "Club Atlético Huracán"),
-    _e("1929", 1929, 1929, [("arg29", 0, 764)], "Campeonato Estímulo 1929", "Club de Gimnasia y Esgrima (La Plata)"),
+    _e("1929", 1929, 1929, [("arg29", 0, 586)], "Campeonato Estímulo 1929", "Club de Gimnasia y Esgrima (La Plata)"),
     _e("1930", 1930, 1930, [("arg30", 0, None)], "Asociación Amateurs Argentina de Football – Primera División 1930", "Club Atlético Boca Juniors"),
     _e("1931 Liga", 1931, 1931, [("arg31", 0, 790)], "Liga Argentina de Football – Campeonato 1931", "Club Atlético Boca Juniors"),
     _e("1931 Asociación", 1931, 1931, [("arg31a", 125, 391)], "Asociación Argentina de Football (Amateurs y Profesionales) – Copa Campeonato 1931",
@@ -129,7 +130,7 @@ for _a in range(1937, 1967):
 
 _MN = {  # Metropolitano e Nacional, 1967-1985: (página, início e fim de cada torneio); None = não houve
     1967: ("arg67", (13, 578), (578, 831)), 1968: ("arg68", (10, 602), (790, 1072)), 1969: ("arg69", (10, 585), (813, 1121)),
-    1970: ("arg70", (11, 383), (536, 945)), 1971: ("arg71", (14, 1016), (1016, 1692)), 1972: ("arg72", (13, 523), (523, 935)),
+    1970: ("arg70", (11, 383), (536, 920)), 1971: ("arg71", (14, 1016), (1016, 1692)), 1972: ("arg72", (13, 523), (523, 935)),
     1973: ("arg73", (12, 466), (466, 889)), 1974: ("arg74", (12, 422), (422, 1172)), 1975: ("arg75", (18, 610), (610, 1214)),
     1976: ("arg76", (10, 1186), (1186, 2237)), 1977: ("arg77", (17, 1395), (1395, 2256)), 1978: ("arg78", (17, 798), (798, 1444)),
     1979: ("arg79", (10, 455), (455, 991)), 1980: ("arg80", (12, 584), (584, 1116)), 1981: ("arg81", (12, 474), (474, 976)),
@@ -221,4 +222,19 @@ EDICOES += [
            "título dado pela AFA em 20/11/2025 ao 1º da tabela anual (soma das fases de grupos do Apertura e do Clausura); "
            "sem jogos próprios: os jogos estão nas edições 2025 Apertura e 2025 Clausura",
            soma_de=["2025 Apertura", "2025 Clausura"]),
+    # D-01 (Guilherme, 22/11/2026): o que já terminou de 2026 entra agora; o Clausura 2026 e a tabela anual quando acabarem
+    _e("2026 Apertura", 2026, 2026, [("arg2026", 21, 467)], "Torneo Apertura de la LPF 2026", "Club Atlético Belgrano"),
 ]
+
+# fases por edição (AR-025, AR-026): 1929 até antes das "Notes" (a seção "Discrepancies" virava 8 jogos sem data) e com a
+# disputa do 3º lugar; 1970 Nacional sem o torneio "Mejor equipo del Interior"; 1931 Asociación: o "Playoff:" do resumo no
+# topo punha o campeonato inteiro em "Desempate do título"; 1979 Metropolitano: "Playoff [Jul 22]" é desempate de grupo
+_FASES_EXTRA = {
+    "1929": [(r"^Third Position", "Disputa do 3º lugar")],
+    "1931 Asociación": [(r"^Playoff:$", "")],
+    "1979 Metropolitano": [(r"^Playoff \[Jul 22\]", "Desempate do grupo")],
+}
+for _ed in EDICOES:
+    _ed.fases = _FASES_EXTRA.get(_ed.temporada, []) + list(_ed.fases)
+    if _ed.temporada == "1979 Metropolitano":   # o resumo do topo tem o título do torneio do rebaixamento (linha 70): fica de fora
+        _ed.trechos = [("arg79", 10, 70), ("arg79", 72, 455)]

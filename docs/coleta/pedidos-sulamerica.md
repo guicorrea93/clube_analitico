@@ -444,3 +444,36 @@ O Guilherme respondeu às decisões D-01 a D-25 de `docs/revisao/decisoes-guilhe
 - **As outras:** vale a recomendação de cada uma.
 
 Os ids que esperavam essas decisões estão liberados no seu plano. As correções continuam esperando a largada do Guilherme.
+
+## 23/11 — Correções da revisão: Argentino (`arg-1`)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul), por ordem do Guilherme (23/11).
+
+- **Corrigidos:**
+  - **Campeão e pódio:** AR-001, AR-002 a AR-013 (vice e 3º pela lista oficial; tabela publicada onde os jogos não
+    fecham), QU-001, AR-014, AR-015, AR-016, AR-017.
+  - **Datas:** AR-022 (3.487 das 3.495 datas da lista da revisão, mais o desempate de 1937 em 1939 pelo QU-002) e AR-024.
+  - **Fases:** AR-025 e AR-026.
+  - **Jogos:** AR-018 (4 jogos da ESPN em 2016/17) e AR-034. A página de 1926 tinha um `<PRE>` por linha; o 1926 Amateurs
+    passou de 43 para 325 jogos, e o 1926 Asociación também ganhou jogos.
+  - **Artilheiros:** AR-027 a AR-030.
+  - **Clubes:** AR-031 (Atlético Cipolletti = Cipolletti), AR-032 (Quilmes Club e Quilmes Rovers à parte) e AR-033
+    (Atlanta-Argentinos Juniors à parte).
+  - **Edição nova:** AR-043, o Apertura 2026 (Belgrano campeão, River vice).
+  - **Sem mudança:** AR-019 (a es conta os gols de campo de dois jogos com placar dado) e AR-044 (o pacote já tinha só o
+    Saint Andrew's em 1891).
+- **Abertos:**
+  - AR-020: 1929, W.O. que dão pontos na tabela do grupo;
+  - AR-021: rebaixados por lista;
+  - AR-023: leitor comum, junto com as outras ligas no fim;
+  - QU-003: ESPN pelo par de clubes nos jogos adiados;
+  - QU-005: datas do Boca, que só se resolvem com uma 3ª fonte.
+- **Números:** 197 edições, 43.726 jogos, 173 clubes. Teste de carga: `arg-1: 197 edições, 43726 jogos, 3 clubes novos -> OK`.
+  - Mais gols com minuto e cartões da ESPN: com as datas certas, mais jogos casaram.
+  - 146 edições fecham com as tabelas.
+- **Pedido ao agente 1:** recarregar o `arg-1` inteiro. Os ids das partidas mudam: há jogos novos em 1926 e 2016/17,
+  jogos que saíram em 1913, 1919 e 1929, e outra ordem em várias edições. Os 3 clubes novos são Quilmes Club, Quilmes
+  Rovers e Atlanta-Argentinos Juniors.
+- **O leitor comum (`rsssf_sul.py`) não mudou.**
+- **Também neste commit:** a pesquisa das copas nacionais (`coleta/comum-sulamerica/copas-nacionais.md`). As copas são o
+  próximo trabalho depois das correções, por pedido do Guilherme.

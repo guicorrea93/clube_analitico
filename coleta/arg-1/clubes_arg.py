@@ -74,7 +74,8 @@ CLUBES: dict[str, tuple[str, str]] = {
     "San Fernando": ("San Fernando", BA), "General Mitre": ("Buenos Aires", CABA), "Honor y Patria": ("Bernal", BA),
     "Sportivo Balcarce": ("Buenos Aires", CABA), "Gutenberg": ("Buenos Aires", CABA),
     "Ramsar": ("Buenos Aires", CABA), "Sportivo Acassuso": ("San Isidro", BA), "Sportivo Alsina": ("Valentín Alsina", BA),
-    "Unión Talleres-Lanús": ("Lanús", BA),
+    "Unión Talleres-Lanús": ("Lanús", BA), "Atlanta-Argentinos Juniors": ("Buenos Aires", CABA),
+    "Quilmes Club": ("Quilmes", BA), "Quilmes Rovers": ("Quilmes", BA),
     # ------------------------------------------------------------------ interior (Nacional 1967-1985) e outros
     "Huracán de Bahía Blanca": ("Bahía Blanca", BA), "Huracán de Comodoro Rivadavia": ("Comodoro Rivadavia", "Chubut"),
     "Huracán de Corrientes": ("Corrientes", "Corrientes"), "Huracán de Ingeniero White": ("Ingeniero White", BA),
@@ -94,17 +95,18 @@ CLUBES: dict[str, tuple[str, str]] = {
     "Unión de General Pinedo": ("General Pinedo", "Chaco"), "Atlético Uruguay": ("Concepción del Uruguay", "Entre Ríos"),
     "Andino": ("La Rioja", "La Rioja"), "Atlético Santa Rosa": ("Santa Rosa", "La Pampa"), "Argentino de Firmat": ("Firmat", "Santa Fe"),
     "Ramón Santamarina": ("Tandil", BA), "Alianza Juventud Pringles": ("Coronel Pringles", BA), "Sportivo Patria": ("Formosa", "Formosa"),
-    "Atlético Cipolletti": ("Cipolletti", "Río Negro"), "San Martín de Monte Comán": ("Monte Comán", "Mendoza"),
+    "San Martín de Monte Comán": ("Monte Comán", "Mendoza"),
 }
 
 REGRAS: list[tuple[str, str, int, int]] = [
     # ---------------------------------------------- nomes compostos e homônimos (antes dos nomes curtos)
-    (r"atlanta argentinos juniors", "Argentinos Juniors", 1934, 1934),   # fusão de 1934: a tabela da RSSSF conta como Argentinos
+    (r"atlanta argentinos juniors", "Atlanta-Argentinos Juniors", 1934, 1934),   # fusão temporária de 1934, à parte (D-25 h)
     (r"union talleres lanus", "Unión Talleres-Lanús", 1934, 1934),
     (r"(c a |club atletico )?racing (c|cba|cor|cordoba)\b|atletico racing", "Racing de Córdoba", 1960, 2100),
     (r"(.*\b)?gimnasia (y )?(esg(rima)?|egrima)? ?\(?(j|juj|jujuy|san salvador de jujuy)\b", "Gimnasia de Jujuy", 1960, 2100),
     (r"(.*\b)?gimnasia (y )?(esg(rima)?|egrima)? ?\(?(m|mza|mdz|mendoza)\b", "Gimnasia de Mendoza", 1960, 2100),
     (r"gimnasia y tiro|gimnasia s$", "Gimnasia y Tiro", 1960, 2100),
+    (r"(ca|club atletico) gimnasia y esgrima", "Gimnasia de Mendoza", 2026, 2100),   # 2026: nome oficial do de Mendoza
     (r"(.*\b)?(gimnasia|gimansia|gimnsasia|grimnasia|ginmasia) (y )?(esgrima )?(ba|bue|buenos aires)\b", "Gimnasia de Buenos Aires", 1900, 1930),
     (r"(club de )?gimnasia y esgrima$", "Gimnasia de Buenos Aires", 1900, 1914),
     (r"(.*\b)?(gimnasia|gimansia|gimnsasia|grimnasia|ginmasia)\b", "Gimnasia La Plata", 1915, 2100),
@@ -123,12 +125,13 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"huracan (sr|san rafael)\b", "Huracán de San Rafael", 1960, 2100),
     (r"huracan (ta|tres arroyos)\b", "Huracán de Tres Arroyos", 1960, 2100),
     (r"estudiantes (rc|rio cuarto|rio iv)\b", "Estudiantes de Río Cuarto", 1960, 2100),
+    # 2026: a página usa os nomes oficiais; "AA Estudiantes" é o de Río Cuarto
+    (r"(aa|asociacion atletica) estudiantes", "Estudiantes de Río Cuarto", 2026, 2100),
     (r"estudiantes (sgo|santiago del estero|sgo del estero)\b", "Estudiantes de Santiago del Estero", 1960, 2100),
     (r"estudiantes (ba|bs ?as|bs aires|buenos aires|c)\b", "Estudiantes de Buenos Aires", 1900, 2100),
     (r"(club de )?estudiantes$|(club )?atletico estudiantes|ca estudiantes", "Estudiantes de Buenos Aires", 1900, 1934),
     (r"(club )?estudiantes (de )?(la plata|lp|lpg|eva peron)|estudiantes lp", "Estudiantes", 1900, 2100),
     (r"estudiantes$|estudiantes \(?la plata\)?", "Estudiantes", 1935, 2100),
-    (r"estudiantes batigre", "Estudiantes de Buenos Aires", 1926, 1926),
     (r"(.*\b)?independiente riv(adavia)?\b|ind rivadavia|cs independiente rivadavia", "Independiente Rivadavia", 1960, 2100),
     (r"independiente \(?t\)?$", "Independiente de Trelew", 1972, 1972),
     (r"(ca |club atletico )?(independiente|indpendiente)\b", "Independiente", 1900, 2100),
@@ -167,7 +170,7 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"atletico regina", "Atlético Regina", 1960, 2100),
     (r"atletico santa rosa", "Atlético Santa Rosa", 1960, 2100),
     (r"atletico uruguay", "Atlético Uruguay", 1960, 2100),
-    (r"atletico cipolletti", "Atlético Cipolletti", 1985, 1985),
+    (r"atletico cipolletti", "Cipolletti", 1985, 1985),   # o Club Cipolletti (AR-031)
     (r"atletico velez sarsfield", "Vélez Sarsfield", 2014, 2014),
     (r"(ca |club atletico )?(velez|velez sarsfield|velez sarfield|velez sarsfield)\b", "Vélez Sarsfield", 1910, 2100),
     # ---------------------------------------------- grandes
@@ -185,7 +188,10 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"(ca |club atletico )?banfield", "Banfield", 1890, 2100),
     (r"(ca |club atletico )?chacarita", "Chacarita Juniors", 1920, 2100),
     (r"(ca |club atletico )?atlanta", "Atlanta", 1905, 2100),
-    (r"quilmes rovers|quilmes club|(.*\b)?quilmes( ac| athletic club| atletico club)?$|quilmes athletic|quilmes atletico", "Quilmes", 1890, 2100),
+    # Quilmes Club (1893) e Quilmes Rovers (1895): à parte do Quilmes atual, a ligação não tem prova (D-25 g)
+    (r"quilmes club", "Quilmes Club", 1890, 1899),
+    (r"quilmes rovers", "Quilmes Rovers", 1890, 1899),
+    (r"(.*\b)?quilmes( ac| athletic club| atletico club)?$|quilmes athletic|quilmes atletico", "Quilmes", 1890, 2100),
     (r"(ca |club atletico )?(del )?tigre", "Tigre", 1905, 2100),
     (r"(.*\b)?instituto|insituto", "Instituto", 1960, 2100),
     (r"(ca |club atletico )?colon\b|asoc civil club atletico colon|a civil club atletico colon", "Colón", 1960, 2100),

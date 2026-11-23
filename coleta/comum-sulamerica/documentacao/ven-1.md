@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 13582 (13530 com placar); **gols:** 34193; **gols com autor:** 6390 (19%); **cartões:** 6729.
 - **Clubes:** 108; **artilheiros:** 69 edições com artilheiro (74 linhas, com empates).
 - **Classificação final:** 106 edições; **tabelas publicadas guardadas para conferência:** 1733 linhas.
-- **No banco:** ainda não; **último commit do pacote:** 35dc0a2.
+- **No banco:** sim; **último commit do pacote:** 35dc0a2.
 - **Observação da competição:** 1ª divisão venezuelana de 1921 (temporada 1920/21) a 2025, uma edição por título, como na lista de campeões da RSSSF: era amadora (1921-1956; jogos só em parte), profissional em ano fechado (1957-1986), calendário europeu (1986/87 a 2014/15; Apertura e Clausura são fases), Torneo de Adecuación 2015 e Liga FUTVE (2016 em diante). Jogos completos de 1957 em diante, salvo 1993/94 e 1994/95 (fases só com tabelas); sem jogos em 1922, 1924, 1931, 1938, 1939, 1949 e 1950.
 
 ## 2. Edições, fontes e regras

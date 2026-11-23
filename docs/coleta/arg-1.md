@@ -18,7 +18,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1893 | 5 | 23 (20) | 67 | 0 | 1 / 0 | Lomas Athletic | RSSSF (arg1893) |
 | 1894 | 7 | 31 (31) | 92 | 0 | 0 / 0 | Lomas Athletic | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1895 | 6 | 24 (24) | 85 | 0 | 0 / 0 | Lomas Athletic | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1896 | 5 | 22 (20) | 73 | 0 | 0 / 1 | Lomas Academicals | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1896 | 5 | 22 (20) | 73 | 0 | 0 / 1 | Lomas Academicals | RSSSF (arg1896) |
 | 1897 | 7 | 45 (45) | 215 | 1 | 1 / 0 | Lomas Athletic | RSSSF (arg1897) |
 | 1898 | 7 | 44 (44) | 126 | 0 | 1 / 0 | Lomas Athletic | RSSSF (arg1898) |
 | 1899 | 4 | 12 (12) | 17 | 0 | 1 / 0 | Belgrano Athletic | RSSSF (arg1899) |
@@ -30,22 +30,22 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1905 | 7 | 43 (42) | 182 | 0 | 1 / 0 | Alumni | RSSSF (arg1905) |
 | 1906 | 11 | 51 (52) | 218 | 4 | 3 / 0 | Alumni | RSSSF (arg1906) |
 | 1907 | 11 | 111 (110) | 411 | 5 | 1 / 0 | Alumni | RSSSF (arg1907) |
-| 1908 | 11 | 92 (92) | 363 | 0 | 0 / 1 | Belgrano Athletic | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1908 | 11 | 92 (92) | 363 | 0 | 0 / 1 | Belgrano Athletic | RSSSF (arg1908) |
 | 1909 | 10 | 90 (90) | 347 | 0 | 0 / 1 | Alumni | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1910 | 9 | 72 (72) | 279 | 0 | 0 / 1 | Alumni | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1911 | 9 | 73 (73) | 248 | 3 | 1 / 0 | Alumni | RSSSF (arg11) |
-| 1912 Asociación | 10 | 64 (64) | 149 | 0 | 1 / 0 | Quilmes | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1912 Asociación | 10 | 64 (64) | 149 | 0 | 1 / 0 | Quilmes | RSSSF (arg12) |
 | 1912 Federación | 8 | 58 (58) | 187 | 0 | 1 / 1 | Porteño | RSSSF (arg12) |
 | 1913 Asociación | 15 | 138 (139) | 478 | 0 | 3 / 2 | Racing Club | RSSSF (arg13) |
-| 1913 Federación | 10 | 92 (90) | 338 | 0 | 0 / 1 | Estudiantes | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1913 Federación | 10 | 90 (90) | 338 | 0 | 1 / 1 | Estudiantes | RSSSF (arg13) |
 | 1914 Asociación | 14 | 87 (87) | 247 | 54 | 2 / 0 | Racing Club | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1914 Federación | 10 | 77 (77) | 196 | 0 | 2 / 0 | Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1915 | 25 | 302 (301) | 956 | 1 | 0 / 2 | Racing Club | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1916 | 22 | 231 (231) | 547 | 2 | 2 / 0 | Racing Club | RSSSF (arg16) |
 | 1917 | 21 | 211 (210) | 579 | 0 | 2 / 0 | Racing Club | RSSSF (arg17) |
 | 1918 | 20 | 191 (190) | 488 | 0 | 2 / 0 | Racing Club | RSSSF (arg18) |
-| 1919 Asociación | 20 | 83 (83) | 236 | 0 | 0 / 0 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1919 Amateurs | 14 | 91 (91) | 276 | 0 | 0 / 1 | Racing Club | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1919 Asociación | 6 | 18 (18) | 55 | 0 | 1 / 0 | Boca Juniors | RSSSF (arg19) |
+| 1919 Amateurs | 14 | 91 (91) | 276 | 0 | 0 / 1 | Racing Club | RSSSF (arg19) |
 | 1920 Asociación | 13 | 153 (153) | 356 | 1 | 1 / 0 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1920 Amateurs | 19 | 306 (306) | 822 | 0 | 1 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1921 Asociación | 11 | 98 (98) | 225 | 114 | 1 / 0 | Huracán | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -58,19 +58,19 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1924 Amateurs | 24 | 282 (276) | 678 | 383 | 0 / 1 | San Lorenzo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1925 Asociación | 23 | 237 (235) | 544 | 167 | 0 / 2 | Huracán | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1925 Amateurs | 25 | 301 (300) | 650 | 230 | 1 / 0 | Racing Club | RSSSF (arg25) |
-| 1926 Asociación | 24 | 194 (194) | 406 | 0 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1926 Amateurs | 26 | 43 (43) | 109 | 0 | 0 / 0 | Independiente | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1926 Asociación | 24 | 220 (220) | 431 | 0 | 1 / 2 | Boca Juniors | RSSSF (arghist-ama1920s) |
+| 1926 Amateurs | 26 | 325 (325) | 902 | 2 | 1 / 1 | Independiente | RSSSF (arg26) |
 | 1927 | 34 | 564 (563) | 1646 | 264 | 0 / 2 | San Lorenzo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1928 | 36 | 631 (630) | 1899 | 249 | 0 / 1 | Huracán | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1929 | 35 | 299 (299) | 762 | 3 | 3 / 2 | Gimnasia La Plata | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1929 | 35 | 291 (291) | 760 | 3 | 3 / 2 | Gimnasia La Plata | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1930 | 36 | 633 (630) | 1990 | 636 | 0 / 2 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1931 Liga | 18 | 311 (306) | 1093 | 0 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1931 Asociación | 17 | 128 (128) | 402 | 1 | 0 / 2 | Estudiantil Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1931 Liga | 18 | 311 (306) | 1093 | 0 | 0 / 1 | Boca Juniors | RSSSF (arg31) |
+| 1931 Asociación | 17 | 128 (128) | 402 | 1 | 2 / 0 | Estudiantil Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1932 Liga | 18 | 311 (307) | 1078 | 3 | 1 / 0 | River Plate | RSSSF (arg32) |
 | 1932 Asociación | 17 | 276 (275) | 864 | 793 | 0 / 1 | Sportivo Barracas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1933 Liga | 18 | 307 (306) | 1075 | 1 | 1 / 0 | San Lorenzo | RSSSF (arg33) |
 | 1933 Asociación | 20 | 190 (190) | 586 | 543 | 1 / 0 | Sportivo Dock Sud | RSSSF (arg33a) |
-| 1934 Liga | 14 | 276 (273) | 994 | 0 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1934 Liga | 15 | 276 (276) | 994 | 0 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1934 Asociación | 23 | 253 (253) | 812 | 809 | 0 / 1 | Estudiantil Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1935 | 18 | 306 (306) | 1108 | 0 | 1 / 0 | Boca Juniors | RSSSF (arghist-pro1930s) |
 | 1936 Copa de Honor | 18 | 153 (153) | 571 | 0 | 1 / 0 | San Lorenzo | RSSSF (arg-hon36) |
@@ -88,7 +88,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1946 | 16 | 240 (240) | 922 | 0 | 1 / 0 | San Lorenzo | RSSSF (arg46) |
 | 1947 | 16 | 240 (240) | 903 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1940s) |
 | 1948 | 16 | 240 (240) | 878 | 0 | 1 / 0 | Independiente | RSSSF (arg48) |
-| 1949 | 18 | 312 (312) | 1092 | 0 | 0 / 1 | Racing Club | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1949 | 18 | 312 (312) | 1092 | 0 | 1 / 0 | Racing Club | RSSSF (arg49) |
 | 1950 | 18 | 311 (311) | 1111 | 3 | 2 / 0 | Racing Club | RSSSF (arg50) |
 | 1951 | 17 | 274 (274) | 925 | 0 | 1 / 0 | Racing Club | RSSSF (arghist-pro1950s) |
 | 1952 | 16 | 240 (240) | 848 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1950s) |
@@ -104,7 +104,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1962 | 15 | 210 (210) | 606 | 4 | 2 / 0 | Boca Juniors | RSSSF (arg62) |
 | 1963 | 14 | 182 (182) | 507 | 0 | 2 / 0 | Independiente | RSSSF (arg63) |
 | 1964 | 16 | 240 (240) | 583 | 2 | 2 / 0 | Boca Juniors | RSSSF (arg64) |
-| 1965 | 18 | 306 (305) | 696 | 632 | 0 / 2 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1965 | 18 | 306 (305) | 696 | 632 | 0 / 2 | Boca Juniors | RSSSF (arghist-pro1960s) |
 | 1966 | 20 | 380 (380) | 888 | 0 | 2 / 0 | Racing Club | RSSSF (arg66) |
 | 1967 Metropolitano | 22 | 245 (245) | 606 | 3 | 5 / 0 | Estudiantes | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1967 Nacional | 16 | 120 (120) | 342 | 4 | 1 / 0 | Independiente | RSSSF (arg67) |
@@ -113,7 +113,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1969 Metropolitano | 22 | 247 (247) | 636 | 5 | 5 / 0 | Chacarita Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1969 Nacional | 18 | 155 (155) | 467 | 4 | 2 / 0 | Boca Juniors | RSSSF (arg69) |
 | 1970 Metropolitano | 21 | 210 (210) | 567 | 5 | 1 / 0 | Independiente | RSSSF (arg70) |
-| 1970 Nacional | 20 | 207 (207) | 642 | 3 | 4 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1970 Nacional | 20 | 205 (205) | 635 | 3 | 3 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1971 Metropolitano | 19 | 342 (342) | 1004 | 914 | 1 / 0 | Independiente | RSSSF (arg71) |
 | 1971 Nacional | 28 | 199 (199) | 644 | 564 | 1 / 1 | Rosario Central | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1972 Metropolitano | 18 | 306 (306) | 878 | 2 | 1 / 0 | San Lorenzo | RSSSF (arg72) |
@@ -145,9 +145,9 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1985 Nacional | 32 | 160 (160) | 420 | 0 | 1 / 0 | Argentinos Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1985/86 | 19 | 342 (342) | 784 | 0 | 1 / 0 | River Plate | RSSSF (arg86) |
 | 1986/87 | 20 | 382 (381) | 922 | 0 | 0 / 1 | Rosario Central | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1987/88 | 20 | 381 (381) | 869 | 0 | 0 / 1 | Newell's Old Boys | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1988/89 | 20 | 380 (380) | 888 | 0 | 0 / 1 | Independiente | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1989/90 | 20 | 381 (381) | 803 | 0 | 0 / 2 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1987/88 | 20 | 381 (381) | 870 | 0 | 1 / 0 | Newell's Old Boys | RSSSF (arg88) |
+| 1988/89 | 20 | 380 (380) | 888 | 0 | 0 / 1 | Independiente | RSSSF (arg89) |
+| 1989/90 | 20 | 381 (381) | 803 | 0 | 0 / 2 | River Plate | RSSSF (arg90) |
 | 1990/91 | 20 | 382 (382) | 806 | 749 | 0 / 5 | Newell's Old Boys | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991/92 Apertura | 20 | 190 (190) | 366 | 0 | 1 / 0 | River Plate | RSSSF (arg92) |
 | 1991/92 Clausura | 20 | 190 (190) | 371 | 0 | 1 / 0 | Newell's Old Boys | RSSSF (arg92) |
@@ -161,7 +161,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1995/96 Clausura | 20 | 191 (190) | 518 | 350 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1996/97 Apertura | 20 | 190 (190) | 545 | 128 | 1 / 1 | River Plate | RSSSF (arg97) |
 | 1996/97 Clausura | 20 | 190 (190) | 515 | 0 | 0 / 2 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1997/98 Apertura | 20 | 189 (190) | 570 | 0 | 0 / 1 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1997/98 Apertura | 20 | 190 (190) | 574 | 0 | 0 / 1 | River Plate | RSSSF (arg98) |
 | 1997/98 Clausura | 20 | 190 (190) | 541 | 0 | 2 / 0 | Vélez Sarsfield | RSSSF (arg98) |
 | 1998/99 Apertura | 20 | 190 (190) | 569 | 0 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998/99 Clausura | 20 | 190 (190) | 488 | 0 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -179,19 +179,19 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 2004/05 Clausura | 20 | 191 (190) | 517 | 483 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005/06 Apertura | 20 | 190 (190) | 495 | 495 | 1 / 0 | Boca Juniors | RSSSF (arg06) |
 | 2005/06 Clausura | 20 | 191 (190) | 449 | 440 | 1 / 0 | Boca Juniors | RSSSF (arg06) |
-| 2006/07 Apertura | 20 | 194 (191) | 506 | 489 | 1 / 0 | Estudiantes | RSSSF (arg07) |
+| 2006/07 Apertura | 20 | 194 (191) | 506 | 505 | 1 / 0 | Estudiantes | RSSSF (arg07) |
 | 2006/07 Clausura | 20 | 192 (190) | 478 | 474 | 1 / 0 | San Lorenzo | RSSSF (arg07) |
-| 2007/08 Apertura | 20 | 191 (190) | 485 | 473 | 1 / 0 | Lanús | RSSSF (arg08) |
+| 2007/08 Apertura | 20 | 191 (190) | 485 | 483 | 1 / 0 | Lanús | RSSSF (arg08) |
 | 2007/08 Clausura | 20 | 191 (190) | 482 | 480 | 1 / 0 | River Plate | RSSSF (arg08) |
 | 2008/09 Apertura | 20 | 194 (193) | 478 | 478 | 3 / 0 | Boca Juniors | RSSSF (arg09) |
 | 2008/09 Clausura | 20 | 191 (190) | 477 | 477 | 1 / 0 | Vélez Sarsfield | RSSSF (arg09) |
 | 2009/10 Apertura | 20 | 190 (190) | 463 | 463 | 1 / 0 | Banfield | RSSSF (arg2010) |
 | 2009/10 Clausura | 20 | 194 (190) | 465 | 461 | 1 / 0 | Argentinos Juniors | RSSSF (arg2010) |
-| 2010/11 Apertura | 20 | 190 (190) | 421 | 397 | 1 / 0 | Estudiantes | RSSSF (arg2011) |
+| 2010/11 Apertura | 20 | 190 (190) | 421 | 420 | 1 / 0 | Estudiantes | RSSSF (arg2011) |
 | 2010/11 Clausura | 20 | 192 (190) | 458 | 458 | 1 / 0 | Vélez Sarsfield | RSSSF (arg2011) |
-| 2011/12 Apertura | 20 | 190 (190) | 376 | 294 | 1 / 0 | Boca Juniors | RSSSF (arg2012) |
+| 2011/12 Apertura | 20 | 190 (190) | 376 | 373 | 1 / 0 | Boca Juniors | RSSSF (arg2012) |
 | 2011/12 Clausura | 20 | 190 (190) | 439 | 439 | 1 / 0 | Arsenal de Sarandí | RSSSF (arg2012) |
-| 2012/13 Inicial | 20 | 191 (190) | 418 | 261 | 1 / 0 | Vélez Sarsfield | RSSSF (arg2013) |
+| 2012/13 Inicial | 20 | 191 (190) | 418 | 416 | 1 / 0 | Vélez Sarsfield | RSSSF (arg2013) |
 | 2012/13 Final | 20 | 192 (190) | 435 | 435 | 1 / 0 | Newell's Old Boys | RSSSF (arg2013) |
 | 2012/13 Campeonato | 2 | 1 (1) | 1 | 1 | 1 / 0 | Vélez Sarsfield | RSSSF (arghist-pro2010s) |
 | 2013/14 Inicial | 20 | 190 (190) | 409 | 408 | 1 / 0 | San Lorenzo | RSSSF (arg2014) |
@@ -199,10 +199,10 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 2014 | 20 | 190 (190) | 491 | 472 | 1 / 0 | Racing Club | RSSSF (arg2015) |
 | 2015 | 30 | 450 (450) | 994 | 977 | 1 / 0 | Boca Juniors | RSSSF (arg2015a) |
 | 2016 | 30 | 242 (483) | 606 | 606 | 3 / 2 | Lanús | RSSSF (arg2016) |
-| 2016/17 | 30 | 446 (450) | 1021 | 1015 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2017/18 | 28 | 378 (378) | 854 | 307 | 1 / 0 | Boca Juniors | RSSSF (arg2018) |
-| 2018/19 | 26 | 325 (325) | 719 | 0 | 1 / 0 | Racing Club | RSSSF (arg2019) |
-| 2019/20 | 24 | 276 (276) | 631 | 395 | 1 / 0 | Boca Juniors | RSSSF (arg2020) |
+| 2016/17 | 30 | 450 (450) | 1024 | 1015 | 1 / 0 | Boca Juniors | RSSSF (arg2017) |
+| 2017/18 | 28 | 378 (378) | 854 | 851 | 1 / 0 | Boca Juniors | RSSSF (arg2018) |
+| 2018/19 | 26 | 325 (325) | 719 | 714 | 1 / 0 | Racing Club | RSSSF (arg2019) |
+| 2019/20 | 24 | 276 (276) | 631 | 631 | 1 / 0 | Boca Juniors | RSSSF (arg2020) |
 | 2021 | 26 | 325 (325) | 796 | 796 | 1 / 0 | River Plate | RSSSF (arg2021) |
 | 2022 | 28 | 378 (378) | 826 | 818 | 1 / 0 | Boca Juniors | RSSSF (arg2022) |
 | 2023 | 28 | 378 (378) | 778 | 777 | 1 / 0 | River Plate | RSSSF (arg2023) |
@@ -210,6 +210,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 2025 Apertura | 30 | 255 (255) | 506 | 502 | 8 / 0 | Platense | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2025 Clausura | 30 | 255 (255) | 488 | 483 | 8 / 0 | Estudiantes | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2025 Liga | 30 | 0 (0) | 0 | 0 | 1 / 0 | Rosario Central | RSSSF (arg2025) |
+| 2026 Apertura | 30 | 255 (255) | 530 | 0 | 8 / 0 | Belgrano | calculada (fase alcançada, pontos, saldo, gols pró) |
 
 ## Conferência e correções, edição a edição
 
@@ -220,10 +221,12 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1893
 
+- Quilmes Club (1893) e Quilmes Rovers (1895) são clubes à parte do Quilmes atual: a ligação não tem prova (D-25 g)
+- 3º da lista oficial (Quilmes) não está na classificação
 - anulado — Flores Athletic Lomas Athletic (1893-07-16): 1:2, annulled on August 25
-- não jogado — Quilmes Alumni (1893-07-30): Buenos Aires English High School did not show up
-- W.O./pontos para o mandante — Quilmes Alumni (1893-07-30)
-- anulado — Quilmes Flores Athletic (1893-07-30): Quimes did not show up, annulled on August 25
+- não jogado — Quilmes Club Alumni (1893-07-30): Buenos Aires English High School did not show up
+- W.O./pontos para o mandante — Quilmes Club Alumni (1893-07-30)
+- anulado — Quilmes Club Flores Athletic (1893-07-30): Quimes did not show up, annulled on August 25
 
 ### 1894
 
@@ -240,11 +243,12 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1895
 
+- vice pela lista oficial: Lomas Academicals (a tabela o punha em 3º)
 - W.O./pontos para o mandante — Retiro Athletic Alumni (1895-05-25): result not found
 - W.O./pontos para o mandante — Lomas Academicals Alumni (1895-06-08): result not found
 - W.O./pontos para o mandante — Alumni Retiro Athletic (1895-06-15): result not found
 - W.O./pontos para o visitante — Retiro Athletic Lomas Academicals (1895-07-13): result not found
-- W.O./pontos para o mandante — Lomas Academicals Quilmes (1895-08-15): result not found
+- W.O./pontos para o mandante — Lomas Academicals Quilmes Rovers (1895-08-15): result not found
 
 ### 1896
 
@@ -383,6 +387,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1912 Asociación
 
+- a classificação é a tabela publicada, sem os clubes que saíram para a FAF no meio do campeonato (os jogos deles ficam) (AR-010)
 - W.O./pontos para o mandante — Estudiantes de Buenos Aires Alumni (1912-04-14): Alumni withdrew
 - não jogado — Estudiantes de Buenos Aires Alumni (1912-04-28): annulled
 - não jogado — River Plate Gimnasia de Buenos Aires (1912-07-17): annulled
@@ -459,12 +464,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1913 Federación
 
-- tabela publicada x jogos — arg13:385: Argentino de Quilmes tabela [18, 12, 3, 3, 38, 21] jogos [19, 13, 3, 3, 39, 21] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg13:385: Kimberley de Buenos Aires tabela [18, 9, 3, 6, 34, 31] jogos [18, 8, 3, 7, 32, 32] — a diferença vem de Kimberley de Buenos Aires x Porteño (1913-07-27), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg13:385: Independiente tabela [18, 7, 5, 6, 39, 33] jogos [19, 8, 5, 6, 41, 34] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg13:385: Tigre tabela [18, 6, 3, 9, 23, 38] jogos [19, 6, 3, 10, 23, 39] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg13:385: Porteño tabela [18, 4, 4, 10, 26, 32] jogos [17, 4, 4, 9, 25, 29] — a diferença vem de Kimberley de Buenos Aires x Porteño (1913-07-27), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- anulado — Kimberley de Buenos Aires 3-1 Porteño (1913-07-27): abandoned 0:0 75m, annulled, at Arg. Quilmes, replayed on Aug 15, at Kimberley
+- tabela publicada x jogos — arghist-ama1910s:272: Sportiva Argentina tabela [18, 0, 2, 16, 15, 52] jogos [18, 0, 2, 16, 15, 51] — a outra tabela publicada (arg13) fecha com os jogos: o erro é desta tabela
+- corrigido — Kimberley de Buenos Aires x Porteño (1913-07-27): Kimberley 3-1 Porteño é o jogo repetido em 15/08 (a nota fala do primeiro, abandonado com 0-0 aos 75' e anulado); vale na tabela
 - W.O./pontos para o visitante — Sportiva Argentina Kimberley de Buenos Aires (1913-09-21): SS Argentina forfeited the match, friendly 0:4, lasted 60m
 - W.O./pontos para o mandante — Argentino de Quilmes Sportiva Argentina (1913-11-09): Sportiva Argentina gave up points on Nov 7
 - W.O./pontos para o mandante — Columbian Atlanta (1913-12-07): played friendly 1:3, awarded on Dec 10, at Atlanta, Parque Chacabuco, C
@@ -542,31 +543,32 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1919 Asociación
 
+- o campeonato começado em março foi anulado (clubes desfiliados ou expulsos) e recomeçado em setembro com 6 clubes; só os jogos do recomeçado entram (12 não foram jogados) (AR-008)
 - linha de nota que repete o jogo Eureka x Estudiantes (arg19:307): fica de fora
-- abandonado/suspenso, sem valer — River Plate Estudiantes de Buenos Aires (1919-07-06): abandoned at 1:2 in 75m
 - W.O./pontos para o visitante — Estudiantes Porteño (1919-11-30): friendly 0:0
 
 ### 1919 Amateurs
 
 - tabela publicada x jogos — arg19:331: Vélez Sarsfield tabela [13, 8, 2, 3, 21, 10] jogos [12, 7, 2, 3, 18, 8] — a diferença vem de Vélez Sarsfield x Sportivo Barracas (1920-01-03), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg19:331: River Plate tabela [13, 6, 4, 3, 16, 11] jogos [10, 6, 2, 2, 15, 9] — a diferença vem de River Plate x Tigre (1920-10-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg19:331: Defensores de Belgrano tabela [13, 6, 4, 3, 20, 18] jogos [12, 6, 3, 3, 18, 16] — a diferença vem de Sportivo Barracas x Defensores de Belgrano (1920-11-30), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg19:331: Gimnasia La Plata tabela [13, 6, 1, 6, 18, 19] jogos [12, 5, 1, 6, 17, 19] — a diferença vem de River Plate x Gimnasia La Plata (1920-11-30), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg19:331: Independiente tabela [13, 5, 2, 6, 22, 20] jogos [12, 5, 1, 6, 22, 20] — a diferença vem de River Plate x Independiente (1920-11-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg19:331: River Plate tabela [13, 6, 4, 3, 16, 11] jogos [10, 6, 2, 2, 15, 9] — a diferença vem de River Plate x Tigre (1919-10-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg19:331: Defensores de Belgrano tabela [13, 6, 4, 3, 20, 18] jogos [12, 6, 3, 3, 18, 16] — a diferença vem de Sportivo Barracas x Defensores de Belgrano (1919-11-30), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg19:331: Gimnasia La Plata tabela [13, 6, 1, 6, 18, 19] jogos [12, 5, 1, 6, 17, 19] — a diferença vem de River Plate x Gimnasia La Plata (1919-11-30), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg19:331: Independiente tabela [13, 5, 2, 6, 22, 20] jogos [12, 5, 1, 6, 22, 20] — a diferença vem de River Plate x Independiente (1919-11-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arg19:331: Platense tabela [13, 5, 2, 6, 22, 24] jogos [13, 5, 2, 6, 23, 24] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arg19:331: Sportivo Barracas tabela [13, 5, 2, 6, 20, 23] jogos [11, 5, 1, 5, 18, 17] — a diferença vem de Vélez Sarsfield x Sportivo Barracas (1920-01-03), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg19:331: Estudiantil Porteño tabela [13, 4, 3, 6, 19, 21] jogos [11, 3, 3, 5, 13, 18] — a diferença vem de Sportivo Barracas x Estudiantil Porteño (1920-11-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg19:331: Tigre tabela [13, 4, 1, 8, 17, 23] jogos [12, 4, 0, 8, 16, 22] — a diferença vem de River Plate x Tigre (1920-10-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg19:331: San Isidro tabela [13, 2, 1, 10, 14, 27] jogos [13, 2, 1, 10, 14, 28] — a diferença vem de San Isidro x River Plate (1920-11-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg19:331: Estudiantil Porteño tabela [13, 4, 3, 6, 19, 21] jogos [11, 3, 3, 5, 13, 18] — a diferença vem de Sportivo Barracas x Estudiantil Porteño (1919-11-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg19:331: Tigre tabela [13, 4, 1, 8, 17, 23] jogos [12, 4, 0, 8, 16, 22] — a diferença vem de River Plate x Tigre (1919-10-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg19:331: San Isidro tabela [13, 2, 1, 10, 14, 27] jogos [13, 2, 1, 10, 14, 28] — a diferença vem de San Isidro x River Plate (1919-11-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- 3º pela lista oficial: River Plate (a tabela o punha em 4º)
 - W.O./pontos para o mandante — Vélez Sarsfield Sportivo Barracas (1920-01-03): Sportivo Barracas not showed up
-- anulado — River Plate 1-1 Tigre (1920-10-26): 1:1 annulled, replayed on Dec 7 at River Plate, Tigre as home
-- anulado — River Plate 0-0 Independiente (1920-11-11): abandoned at 0:0 in 54m at River Plate, annulled, replayed on Nov 11 at Independiente
-- anulado — Sportivo Barracas 0-4 Estudiantil Porteño (1920-11-11): abandoned at 0:0 in 45m HT at Barracas, annulled, replayed on Dec 14 at Estudiantil
-- W.O./pontos para o visitante — Estudiantes de Buenos Aires Defensores de Belgrano (1920-11-16): Estudiantes not showed up
-- W.O./pontos para o visitante — San Isidro River Plate (1920-11-16): not played, awarded on Dec 29
-- anulado — River Plate 0-1 Gimnasia La Plata (1920-11-30): abandoned at 1:1 in 45m HT at River Plate, annulled, replayed on Nov 30 at Gimnasia
-- anulado — Sportivo Barracas 2-2 Defensores de Belgrano (1920-11-30): abd at 0:0 in 45m HT, annulled, replayed on Dec 7, abandoned at 1:2 in 75m, remaining 15 on Jan 6
-- anulado — Vélez Sarsfield 3-2 Estudiantil Porteño (1920-11-30): abandoned at 0:0 in 45m HT at Vélez, annulled, replayed on Nov 30 at Estudiantil
+- anulado — River Plate 1-1 Tigre (1919-10-26): 1:1 annulled, replayed on Dec 7 at River Plate, Tigre as home
+- anulado — River Plate 0-0 Independiente (1919-11-11): abandoned at 0:0 in 54m at River Plate, annulled, replayed on Nov 11 at Independiente
+- anulado — Sportivo Barracas 0-4 Estudiantil Porteño (1919-11-11): abandoned at 0:0 in 45m HT at Barracas, annulled, replayed on Dec 14 at Estudiantil
+- W.O./pontos para o visitante — Estudiantes de Buenos Aires Defensores de Belgrano (1919-11-16): Estudiantes not showed up
+- W.O./pontos para o visitante — San Isidro River Plate (1919-11-16): not played, awarded on Dec 29
+- anulado — River Plate 0-1 Gimnasia La Plata (1919-11-30): abandoned at 1:1 in 45m HT at River Plate, annulled, replayed on Nov 30 at Gimnasia
+- anulado — Sportivo Barracas 2-2 Defensores de Belgrano (1919-11-30): abd at 0:0 in 45m HT, annulled, replayed on Dec 7, abandoned at 1:2 in 75m, remaining 15 on Jan 6
+- anulado — Vélez Sarsfield 3-2 Estudiantil Porteño (1919-11-30): abandoned at 0:0 in 45m HT at Vélez, annulled, replayed on Nov 30 at Estudiantil
 
 ### 1920 Asociación
 
@@ -713,6 +715,10 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1923 Asociación
 
+- corrigido — Boca Juniors x Huracán (1924-03-16): desempate Boca x Huracán de 1924, sem título na página (AR-025)
+- corrigido — Huracán x Boca Juniors (1924-03-30): desempate Boca x Huracán de 1924, sem título na página (AR-025)
+- corrigido — Huracán x Boca Juniors (1924-04-06): desempate Boca x Huracán de 1924, sem título na página (AR-025)
+- corrigido — Boca Juniors x Huracán (1924-04-27): desempate Boca x Huracán de 1924, sem título na página (AR-025)
 - W.O./pontos para o visitante — Boca Alumni Sportivo Dock Sud (1923-06-03): Boca Alumni forfeited
 - W.O./pontos para o visitante — Estudiantes General San Martín (1923-07-29): Estudiantes LP forfeited
 - W.O./pontos para o mandante — Palermo Boca Alumni (1923-07-29): the match ended 1-1, but Palermo was awarded the points due to life-threatening
@@ -741,9 +747,9 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 - tabela publicada x jogos — arg24:37: Sportivo Barracas tabela [21, 10, 5, 6, 31, 27] jogos [21, 10, 5, 6, 31, 26] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arg24:37: Progresista tabela [20, 3, 6, 11, 23, 35] jogos [20, 3, 6, 11, 21, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - W.O./pontos para o visitante — Universal Huracán (1924-05-18)
-- W.O./pontos para o visitante — Argentinos Juniors Sportivo Barracas (1925-11-23): Argentinos Juniors withdrew
-- W.O./pontos para o mandante — Nueva Chicago 0-0 Huracán (1925-12-21): Suspended at 30; Nueva Chicago won points
-- W.O./pontos para o mandante — El Porvenir Universal (1925-12-28): Platense II withdrew
+- W.O./pontos para o visitante — Argentinos Juniors Sportivo Barracas (1924-11-23): Argentinos Juniors withdrew
+- W.O./pontos para o mandante — Nueva Chicago 0-0 Huracán (1924-12-21): Suspended at 30; Nueva Chicago won points
+- W.O./pontos para o mandante — El Porvenir Universal (1924-12-28): Platense II withdrew
 
 ### 1924 Amateurs
 
@@ -760,19 +766,19 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 - tabela publicada x jogos — arg25:24: Sportivo Barracas tabela [21, 8, 5, 8, 22, 26] jogos [22, 8, 6, 8, 22, 26] — sobram 1 jogo(s) do clube na página
 - tabela publicada x jogos — arg25:24: Boca Alumni tabela [21, 5, 6, 10, 13, 27] jogos [22, 5, 7, 10, 13, 27] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arghist-ama1920s:444: El Porvenir tabela [21, 14, 4, 3, 30, 15] jogos [21, 14, 4, 3, 31, 15] — a diferença vem de El Porvenir x Sportivo Barracas (1926-10-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:444: El Porvenir tabela [21, 14, 4, 3, 30, 15] jogos [21, 14, 4, 3, 31, 15] — a diferença vem de El Porvenir x Sportivo Barracas (1925-10-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arghist-ama1920s:444: Chacarita Juniors tabela [21, 12, 4, 5, 42, 19] jogos [21, 12, 4, 5, 42, 18] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — arghist-ama1920s:444: Sportivo Barracas tabela [22, 8, 6, 8, 22, 24] jogos [22, 8, 6, 8, 22, 26] — a diferença vem de El Porvenir x Sportivo Barracas (1926-10-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:444: Sportivo Barracas tabela [22, 8, 6, 8, 22, 24] jogos [22, 8, 6, 8, 22, 26] — a diferença vem de El Porvenir x Sportivo Barracas (1925-10-11), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - W.O./pontos para o mandante — Boca Alumni All Boys (1925-05-03): All Boys withdrew
-- W.O./pontos para o mandante — Temperley Boca Alumni (1926-06-14): Boca Alumni withdrew
-- W.O./pontos para o mandante — Progresista All Boys (1926-07-05)
-- W.O./pontos para o visitante — Universal Temperley (1926-08-09): Universal withdrew
-- anulado — Argentino de Quilmes 3-1 Chacarita Juniors (1926-08-30): annulled; played again on Oct 4
-- W.O./pontos para o mandante — El Porvenir 2-0 Sportivo Barracas (1926-10-11): Suspended at 35; El Porvenir won points
-- W.O./pontos para o visitante — All Boys Sportivo Dock Sud (1926-11-08)
-- W.O./pontos para o mandante — Alvear Universal (1926-12-27)
-- W.O./pontos para o mandante — Argentino de Lomas Argentino de Quilmes (1926-12-27)
-- W.O./pontos para o visitante — Boca Alumni El Porvenir (1926-12-27)
+- W.O./pontos para o mandante — Temperley Boca Alumni (1925-06-14): Boca Alumni withdrew
+- W.O./pontos para o mandante — Progresista All Boys (1925-07-05)
+- W.O./pontos para o visitante — Universal Temperley (1925-08-09): Universal withdrew
+- anulado — Argentino de Quilmes 3-1 Chacarita Juniors (1925-08-30): annulled; played again on Oct 4
+- W.O./pontos para o mandante — El Porvenir 2-0 Sportivo Barracas (1925-10-11): Suspended at 35; El Porvenir won points
+- W.O./pontos para o visitante — All Boys Sportivo Dock Sud (1925-11-08)
+- W.O./pontos para o mandante — Alvear Universal (1925-12-27)
+- W.O./pontos para o mandante — Argentino de Lomas Argentino de Quilmes (1925-12-27)
+- W.O./pontos para o visitante — Boca Alumni El Porvenir (1925-12-27)
 - W.O./pontos para o visitante — All Boys El Porvenir (1926-01-03): Suspended at 55; continued on Jan 3, 1926
 - W.O./pontos para o mandante — General San Martín Argentinos Juniors (1926-01-10): Argentinos Juniors withdrew
 - W.O./pontos para o visitante — Argentinos Juniors Universal (1926-01-10): Argentinos Juniors withdrew
@@ -794,50 +800,40 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1926 Asociación
 
-- tabela publicada x jogos — arg26:34: Boca Juniors tabela [17, 15, 2, 0, 67, 4] jogos [13, 12, 1, 0, 58, 2] — faltam 4 jogo(s) do clube na página
-- tabela publicada x jogos — arg26:34: Argentinos Juniors tabela [17, 12, 4, 1, 27, 11] jogos [13, 10, 2, 1, 24, 8] — a diferença vem de Argentinos Juniors x Progresista (1926-12-19), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Huracán tabela [17, 11, 2, 4, 39, 8] jogos [12, 10, 2, 0, 39, 6] — faltam 5 jogo(s) do clube na página
-- tabela publicada x jogos — arg26:34: Sportivo Balcarce tabela [17, 10, 3, 4, 29, 19] jogos [14, 8, 3, 3, 29, 17] — faltam 3 jogo(s) do clube na página
-- tabela publicada x jogos — arg26:34: Palermo tabela [17, 10, 3, 4, 28, 23] jogos [13, 7, 2, 4, 27, 22] — a diferença vem de Palermo x Sportivo Dock Sud (1926-12-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Chacarita Juniors tabela [17, 7, 4, 6, 18, 16] jogos [12, 5, 4, 3, 12, 12] — a diferença vem de Chacarita Juniors x General San Martín (1926-04-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Argentino de Quilmes tabela [17, 8, 2, 7, 25, 30] jogos [15, 7, 2, 6, 25, 30] — faltam 2 jogo(s) do clube na página
-- tabela publicada x jogos — arg26:34: San Fernando tabela [17, 8, 1, 8, 21, 24] jogos [16, 7, 1, 8, 21, 24] — faltam 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg26:34: Sportsman tabela [17, 6, 4, 7, 17, 22] jogos [16, 5, 4, 7, 17, 22] — a diferença vem de General San Martín x Sportsman (1926-05-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Boca Alumni tabela [17, 5, 5, 7, 21, 18] jogos [15, 5, 5, 5, 21, 18] — faltam 2 jogo(s) do clube na página
-- tabela publicada x jogos — arg26:34: Alvear tabela [17, 5, 5, 7, 13, 21] jogos [14, 3, 5, 6, 12, 19] — a diferença vem de Alvear x Progresista (1926-11-28), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Universal tabela [17, 5, 4, 8, 12, 36] jogos [16, 4, 4, 8, 12, 36] — a diferença vem de Universal x Sportivo Dock Sud (1926-05-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Sportivo Dock Sud tabela [17, 5, 2, 10, 22, 23] jogos [16, 5, 2, 9, 22, 23] — a diferença vem de Universal x Sportivo Dock Sud (1926-05-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: General San Martín tabela [17, 5, 2, 10, 15, 24] jogos [13, 4, 2, 7, 15, 19] — a diferença vem de Chacarita Juniors x General San Martín (1926-04-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Del Plata tabela [17, 4, 1, 12, 15, 43] jogos [16, 3, 1, 12, 13, 42] — a diferença vem de Universal x Del Plata (1926-11-21), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Progresista tabela [17, 4, 0, 13, 19, 20] jogos [11, 3, 0, 8, 16, 19] — a diferença vem de Progresista x General San Martín (1926-06-13), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg26:34: Porteño tabela [17, 0, 2, 15, 17, 68] jogos [16, 0, 2, 14, 16, 65] — faltam 1 jogo(s) do clube na página
-- anulado — Universal 2-3 El Porvenir (s/d): annulled
-- anulado — Sportivo Barracas 0-1 Nueva Chicago (s/d): annulled
-- anulado — Alvear 0-1 All Boys (s/d): annulled
-- anulado — San Fernando 1-1 Temperley (s/d): annulled
-- anulado — Colegiales 6-2 Boca Alumni (s/d): annulled
+- tabela publicada x jogos — arg26:45: Argentinos Juniors tabela [17, 12, 4, 1, 27, 11] jogos [17, 12, 4, 1, 26, 11] — a diferença vem de Argentinos Juniors x Alvear (1927-01-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg26:45: Sportsman tabela [17, 6, 4, 7, 17, 22] jogos [18, 7, 4, 7, 17, 22] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — arg26:45: Alvear tabela [17, 5, 5, 7, 13, 21] jogos [17, 5, 5, 7, 13, 20] — a diferença vem de Argentinos Juniors x Alvear (1927-01-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:570: Huracán tabela [17, 11, 2, 4, 37, 8] jogos [17, 11, 2, 4, 39, 8] — a diferença vem de Huracán x General San Martín (1927-12-26), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:570: Sportsman tabela [17, 5, 5, 7, 17, 22] jogos [17, 6, 4, 7, 17, 22] — a diferença vem de General San Martín x Sportsman (1926-05-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:570: General San Martín tabela [17, 5, 3, 9, 15, 24] jogos [17, 5, 2, 10, 15, 24] — a diferença vem de General San Martín x Sportsman (1926-05-16), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:570: Sportivo Dock Sud tabela [17, 5, 2, 10, 22, 21] jogos [17, 5, 2, 10, 22, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- anulado — Universal 2-3 El Porvenir (1926-04-18): annulled
+- anulado — Sportivo Barracas 0-1 Nueva Chicago (1926-04-18): annulled
+- anulado — Alvear 0-1 All Boys (1926-04-18): annulled
+- anulado — San Fernando 1-1 Temperley (1926-04-18): annulled
+- anulado — Colegiales 6-2 Boca Alumni (1926-04-18): annulled
 - anulado — All Boys 3-1 Universal (1926-04-25): annulled
 - anulado — El Porvenir 2-0 Sportivo Balcarce (1926-04-25): annulled
 - anulado — Palermo 2-0 Temperley (1926-04-25): annulled
 - anulado — Nueva Chicago 1-0 San Fernando (1926-04-25): annulled
 - anulado — Alvear 0-1 Colegiales (1926-04-25): annulled
-- anulado — Chacarita Juniors 2-0 General San Martín (1926-04-25): at Atlanta]Sportivo Barracas      lp-wp        Sportsman                       [annulled
+- W.O./pontos para o visitante — Sportivo Barracas Sportsman (1926-04-25): annulled
 - anulado — Colegiales 5-1 Huracán (1926-05-02): annulled
 - anulado — Argentino de Lomas 2-2 Sportivo Barracas (1926-05-02): Suspended at 83; not continued][annulled
 - anulado — All Boys 0-0 Chacarita Juniors (1926-05-02): at Chacarita Juniors][annulled
-- anulado — Alvear 0-0 El Porvenir (1926-05-02): annulled]  Round 4[May 9, Sun
-- anulado — Progresista 2-3 Colegiales (1926-05-02): annulled
-- anulado — Alvear 0-1 Temperley (1926-05-02): annulled
-- anulado — Del Plata 2-5 Sportivo Barracas (1926-05-02): annulled
-- anulado — El Porvenir 0-5 Boca Juniors (1926-05-02): at Boca Juniors][annulled
-- anulado — Argentino de Lomas 0-2 Nueva Chicago (1926-05-02): annulled
-- anulado — Argentinos Juniors 3-0 All Boys (1926-05-02): annulled
+- anulado — Alvear 0-0 El Porvenir (1926-05-02): annulled
+- anulado — Progresista 2-3 Colegiales (1926-05-09): annulled
+- anulado — Alvear 0-1 Temperley (1926-05-09): annulled
+- anulado — Del Plata 2-5 Sportivo Barracas (1926-05-09): annulled
+- anulado — El Porvenir 0-5 Boca Juniors (1926-05-09): at Boca Juniors][annulled
+- anulado — Argentino de Lomas 0-2 Nueva Chicago (1926-05-09): annulled
+- anulado — Argentinos Juniors 3-0 All Boys (1926-05-09): annulled
 - anulado — Nueva Chicago 1-0 Progresista (1926-05-16): annulled
 - anulado — Sportivo Barracas 3-0 San Fernando (1926-05-16): annulled
 - anulado — Del Plata 0-1 El Porvenir (1926-05-16): annulled
 - anulado — Temperley 2-0 All Boys (1926-05-16): Suspended at 80; not continued][annulled
-- W.O./pontos para o visitante — General San Martín 2-2 Sportsman (1926-05-16): on Aug 19, Sportsman won points][Aug 29, Sun
-- W.O./pontos para o mandante — Universal Sportivo Dock Sud (1926-05-16): Sportivo Dock Sud withdrew
+- W.O./pontos para o visitante — General San Martín 2-2 Sportsman (1926-05-16): on Aug 19, Sportsman won points
+- W.O./pontos para o mandante — Universal Sportivo Dock Sud (1926-08-29): Sportivo Dock Sud withdrew
 - anulado — Sportivo Barracas 2-1 Huracán (1926-05-30): annulled
 - anulado — Sportivo Dock Sud 3-3 Colegiales (1926-05-30): at Colegiales][annulled
 - anulado — Temperley 1-1 Chacarita Juniors (1926-05-30): annulled
@@ -851,47 +847,80 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 - anulado — Sportivo Barracas 4-0 Alvear (1926-06-13): annulled
 - anulado — Boca Alumni 0-2 Temperley (1926-06-13): at Colegiales][annulled
 - anulado — Nueva Chicago 1-0 All Boys (1926-06-13): Suspended at 58; not continued] [annulled
-- anulado — Colegiales 2-2 Palermo (1926-06-13): annulled
-- anulado — Sportivo Dock Sud 0-2 Sportivo Barracas (1926-06-13): at Sportivo Barracas][annulled
-- anulado — Del Plata 1-2 Nueva Chicago (1926-06-13): annulled
-- anulado — All Boys 3-2 Argentino de Quilmes (1926-06-13): annulled
-- anulado — Boca Alumni 1-1 El Porvenir (1926-06-13): at Progresista][annulled
-- anulado — Porteño 2-4 Temperley (1926-06-13): annulled
-- W.O./pontos para o visitante — Progresista General San Martín (1926-06-13): Progresista withdrew]  Round 10[Jul 18, Sun
-- anulado — Sportsman 0-0 Colegiales (1926-06-13): at Del Plata][annulled
-- anulado — Palermo 1-2 Nueva Chicago (1926-06-13): annulled
-- anulado — All Boys 2-1 Argentino de Lomas (1926-06-13): annulled
-- anulado — Colegiales 2-1 San Fernando (1926-06-13): annulled
-- anulado — Nueva Chicago 2-1 Argentino de Quilmes (1926-06-13): Finished at 72][annulled
-- anulado — Porteño 1-4 Sportivo Barracas (1926-06-13): annulled
-- anulado — Temperley 0-0 Sportivo Dock Sud (1926-06-13): annulled
-- anulado — General San Martín 0-2 El Porvenir (1926-06-13): annulled
-- anulado — Universal 2-1 Nueva Chicago (1926-08-01): at Argentinos Juniors][annulled
-- anulado — Chacarita Juniors 3-1 El Porvenir (1926-08-01): annulled
-- anulado — Del Plata 1-3 Temperley (1926-08-01): annulled]Sportivo Barracas     0-3     All Boys                        [at Huracán][annulled]Progresista              lp-wp    Huracán  Round 13       [Aug 8, Sun
-- anulado — Boca Juniors 4-0 Sportivo Barracas (1926-08-01): annulled
-- anulado — Colegiales 3-1 Universal (1926-08-01): annulled
-- anulado — Sportivo Balcarce 1-1 Nueva Chicago (1926-08-01): annulled
-- anulado — Temperley 2-1 Argentino de Lomas (1926-08-01): annulled
-- anulado — El Porvenir 4-1 All Boys (1926-08-01): annulled
-- anulado — Temperley 1-3 Boca Juniors (1926-08-01): annulled
-- anulado — Chacarita Juniors 1-0 Colegiales (1926-08-01): annulled
-- anulado — Argentino de Quilmes 2-4 Sportivo Barracas (1926-08-01): annulled
-- anulado — All Boys 0-0 Sportivo Dock Sud (1926-08-01): annulled
-- anulado — Temperley 2-1 Universal (1926-09-05): annulled
-- W.O./pontos para o mandante — Universal Del Plata (1926-11-21): Del Plata withdrew
-- W.O./pontos para o mandante — Alvear Progresista (1926-11-28): Progresista withdrew
-- W.O./pontos para o mandante — Argentinos Juniors Progresista (1926-12-19): Progresista withdrew]Palermo                  wp-lp    Gral. San Martín                [General San Martín withdrew
-- W.O./pontos para o mandante — Palermo Sportivo Dock Sud (1926-12-26): Sportivo Dock Sud withdrew]Huracán                    lp-wp    Gral. San Martín                [Huracán withdrew
+- anulado — Colegiales 2-2 Palermo (1926-06-20): annulled
+- anulado — Sportivo Dock Sud 0-2 Sportivo Barracas (1926-06-20): at Sportivo Barracas][annulled
+- anulado — Del Plata 1-2 Nueva Chicago (1926-06-20): annulled
+- anulado — All Boys 3-2 Argentino de Quilmes (1926-06-20): annulled
+- anulado — Boca Alumni 1-1 El Porvenir (1926-06-20): at Progresista][annulled
+- anulado — Porteño 2-4 Temperley (1926-06-20): annulled
+- W.O./pontos para o visitante — Progresista General San Martín (1926-06-20): Progresista withdrew
+- anulado — Sportsman 0-0 Colegiales (1926-07-18): at Del Plata][annulled
+- anulado — Palermo 1-2 Nueva Chicago (1926-07-18): annulled
+- anulado — All Boys 2-1 Argentino de Lomas (1926-07-18): annulled
+- anulado — Colegiales 2-1 San Fernando (1926-07-25): annulled
+- anulado — Nueva Chicago 2-1 Argentino de Quilmes (1926-07-25): Finished at 72][annulled
+- anulado — Porteño 1-4 Sportivo Barracas (1926-07-25): annulled
+- anulado — Temperley 0-0 Sportivo Dock Sud (1926-07-25): annulled
+- anulado — General San Martín 0-2 El Porvenir (1926-07-25): annulled
+- W.O./pontos para o mandante — Sportivo Balcarce Progresista (1926-07-25)
+- W.O./pontos para o mandante — Argentinos Juniors Alvear (1927-01-16): Suspended at 45'; continued on Jan 16, 1927; Alvear withdrew
+- anulado — Universal 2-1 Nueva Chicago (1927-08-01): at Argentinos Juniors][annulled
+- anulado — Chacarita Juniors 3-1 El Porvenir (1927-08-01): annulled
+- anulado — Del Plata 1-3 Temperley (1927-08-01): annulled
+- anulado — Sportivo Barracas 0-3 All Boys (1927-08-01): at Huracán][annulled
+- W.O./pontos para o visitante — Progresista Huracán (1927-08-01)
+- anulado — Boca Juniors 4-0 Sportivo Barracas (1927-08-08): annulled
+- anulado — Colegiales 3-1 Universal (1927-08-08): annulled
+- anulado — Sportivo Balcarce 1-1 Nueva Chicago (1927-08-08): annulled
+- anulado — Temperley 2-1 Argentino de Lomas (1927-08-08): annulled
+- anulado — El Porvenir 4-1 All Boys (1927-08-08): annulled
+- anulado — Temperley 1-3 Boca Juniors (1927-08-22): annulled
+- anulado — Chacarita Juniors 1-0 Colegiales (1927-08-22): annulled
+- anulado — Argentino de Quilmes 2-4 Sportivo Barracas (1927-08-22): annulled
+- anulado — All Boys 0-0 Sportivo Dock Sud (1927-08-22): annulled
+- anulado — Colegiales 7-3 All Boys (1927-04-11): annulled
+- anulado — Temperley 2-1 Universal (1927-09-05): annulled
+- W.O./pontos para o mandante — Universal Del Plata (1927-11-21): Del Plata withdrew
+- W.O./pontos para o mandante — Alvear Progresista (1927-11-28): Progresista withdrew
+- W.O./pontos para o visitante — Sportivo Dock Sud Alvear (1927-12-08): Sportivo Dock Sud withdrew
+- W.O./pontos para o visitante — Chacarita Juniors Argentino de Quilmes (1927-12-08): Chacarita Juniors withdrew
+- W.O./pontos para o visitante — Argentino de Quilmes Alvear (1927-12-12): Argentino de Quilmes withdrew
+- W.O./pontos para o mandante — Argentinos Juniors Progresista (1927-12-19): Progresista withdrew
+- W.O./pontos para o mandante — Palermo General San Martín (1927-12-19): General San Martín withdrew
+- W.O./pontos para o mandante — Argentinos Juniors Boca Alumni (1927-12-26): Boca Alumni withdrew
+- W.O./pontos para o mandante — Palermo Sportivo Dock Sud (1927-12-26): Sportivo Dock Sud withdrew
+- W.O./pontos para o visitante — Huracán General San Martín (1927-12-26): Huracán withdrew
+- W.O./pontos para o mandante — Argentinos Juniors Huracán (1927-01-09): Huracán withdrew
 - W.O./pontos para o visitante — Chacarita Juniors Alvear (1927-01-09): Chacarita Juniors withdrew
+- W.O./pontos para o mandante — Palermo Boca Alumni (1927-01-16): Boca Alumni withdrew
+- W.O./pontos para o mandante — Palermo Progresista (1927-01-16)
+- W.O./pontos para o mandante — San Fernando Progresista (1927-01-16)
+- W.O./pontos para o mandante — Universal Progresista (1927-01-16)
+- W.O./pontos para o visitante — Chacarita Juniors Sportivo Balcarce (1927-01-16)
+- W.O./pontos para o mandante — Sportsman Huracán (1927-01-16)
 
 ### 1926 Amateurs
 
-- W.O./pontos para o mandante — Banfield Estudiantil Porteño (1926-08-08): Estudiantil Porteño withdrew
-- W.O./pontos para o mandante — Platense Quilmes (s/d): Quilmes withdrew
-- W.O./pontos para o mandante — Almagro Banfield (s/d): Banfield withdrew
-- W.O./pontos para o visitante — San Isidro Ferro Carril Oeste (s/d): San Isidro withdrew
-- W.O./pontos para o mandante — Lanús Estudiantil Porteño (s/d): Estudiantil Porteño withdrew
+- a página arg26 põe cada linha num <PRE> próprio, sem quebra: o texto puro juntava os jogos e só 43 dos 325 eram lidos; com a quebra por <PRE> (ler_rsssf.PRE_POR_LINHA) entram todos (AR-006, AR-034)
+- tabela publicada x jogos — arghist-ama1920s:615: Racing Club tabela [25, 16, 2, 7, 51, 36] jogos [25, 16, 2, 7, 55, 38] — a outra tabela publicada (arg26) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — arghist-ama1920s:615: Tigre tabela [25, 7, 8, 10, 32, 36] jogos [25, 7, 8, 10, 34, 40] — a outra tabela publicada (arg26) fecha com os jogos: o erro é desta tabela
+- W.O./pontos para o mandante — Lanús Liberal Argentino (1926-12-26): Liberal Argentino withdrew
+- W.O./pontos para o mandante — Estudiantes de Buenos Aires San Isidro (1927-01-23): San Isidro withdrew
+- W.O./pontos para o visitante — Atlanta Excursionistas (1927-07-11): Atlanta withdrew
+- W.O./pontos para o mandante — Gimnasia La Plata River Plate (1927-12-08): River Plate withdrew
+- W.O./pontos para o mandante — Talleres de Remedios de Escalada 1-0 Tigre (1927-07-25): Suspended at 20; not continued, Talleres RE won points
+- W.O./pontos para o visitante — Atlanta 0-0 Banfield (1927-07-25): Suspended at 45; not continued, Banfield won points
+- W.O./pontos para o mandante — Barracas Central Platense (1927-01-02): Suspended at 35; continued on Jan 2, 1927; Platense withdrew
+- W.O./pontos para o mandante — Estudiantil Porteño Estudiantes (1927-09-05): Estudiantes LP withdrew
+- W.O./pontos para o visitante — San Isidro Gimnasia La Plata (1927-12-26): San Isidro withdrew
+- W.O./pontos para o mandante — Banfield Estudiantil Porteño (1927-12-26): Estudiantil Porteño withdrew
+- W.O./pontos para o mandante — Platense Quilmes (1927-10-24): Quilmes withdrew
+- W.O./pontos para o visitante — River Plate Sportivo Buenos Aires (1927-12-08): River Plate withdrew
+- W.O./pontos para o mandante — Sportivo Buenos Aires Tigre (1927-10-31): Tigre withdrew
+- W.O./pontos para o mandante — Almagro Banfield (1927-10-31): Banfield withdrew
+- W.O./pontos para o visitante — San Isidro Ferro Carril Oeste (1927-10-31): San Isidro withdrew
+- W.O./pontos para o mandante — Defensores de Belgrano Estudiantes (1927-11-21): Estudiantes LP withdrew
+- W.O./pontos para o mandante — Lanús Estudiantil Porteño (1927-11-21): Estudiantil Porteño withdrew
 
 ### 1927
 
@@ -901,119 +930,114 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 - tabela publicada x jogos — arghist-ama1920s:661: Talleres de Remedios de Escalada tabela [33, 10, 9, 14, 30, 38] jogos [33, 10, 9, 14, 32, 38] — a diferença vem de Banfield x Talleres de Remedios de Escalada (1927-03-20), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arghist-ama1920s:661: Estudiantil Porteño tabela [33, 9, 5, 19, 43, 62] jogos [34, 9, 6, 19, 44, 63] — sobram 1 jogo(s) do clube na página
 - tabela publicada x jogos — arghist-ama1920s:661: Excursionistas tabela [33, 8, 6, 19, 40, 69] jogos [34, 8, 7, 19, 42, 73] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arghist-ama1920s:661: Atlanta tabela [33, 8, 6, 19, 28, 50] jogos [33, 8, 6, 19, 31, 51] — a diferença vem de Banfield x Atlanta (1928-09-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:661: Atlanta tabela [33, 8, 6, 19, 28, 50] jogos [33, 8, 6, 19, 31, 51] — a diferença vem de Banfield x Atlanta (1927-09-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - W.O./pontos para o mandante — Banfield 0-2 Talleres de Remedios de Escalada (1927-03-20): Banfield won points
 - W.O./pontos para o mandante — Vélez Sarsfield Almagro (1927-05-01): Almagro withdrew
 - W.O./pontos para o mandante — Lanús 0-0 Ferro Carril Oeste (1927-05-29): Suspended at 86; Lanús won points
-- W.O./pontos para o mandante — Tigre River Plate (1928-08-21): River Plate withdrew
-- W.O./pontos para o mandante — Banfield Atlanta (1928-09-18): Atlanta withdrew
-- W.O./pontos para o mandante — Estudiantil Porteño Porteño (1928-12-08): Porteño withdrew
-- W.O./pontos para o mandante — Talleres de Remedios de Escalada Argentino de Quilmes (1928-12-08): Argentina de Quilmes withdrew
-- W.O./pontos para o mandante — Lanús Almagro (1928-10-16): Almagro withdrew
-- W.O./pontos para o mandante — Barracas Central Almagro (1928-12-11): Almagro withdrew
-- W.O./pontos para o visitante — Atlanta Lanús (1928-12-11): Atlanta withdrew
-- W.O./pontos para o mandante — Sportivo Barracas Porteño (1928-12-11): Porteño withdrew
-- W.O./pontos para o mandante — Talleres de Remedios de Escalada Atlanta (1928-11-27): Atlanta withdrew
-- W.O./pontos para o visitante — Almagro Estudiantil Porteño (1928-11-27): Almagro withdrew
-- W.O./pontos para o mandante — San Lorenzo Porteño (1928-11-27): Porteño withdrew
-- W.O./pontos para o visitante — Atlanta Argentinos Juniors (1928-12-04): Atlanta withdrew
+- W.O./pontos para o mandante — Tigre River Plate (1927-08-21): River Plate withdrew
+- W.O./pontos para o mandante — Banfield Atlanta (1927-09-18): Atlanta withdrew
+- W.O./pontos para o mandante — Estudiantil Porteño Porteño (1927-12-08): Porteño withdrew
+- W.O./pontos para o mandante — Talleres de Remedios de Escalada Argentino de Quilmes (1927-12-08): Argentina de Quilmes withdrew
+- W.O./pontos para o mandante — Lanús Almagro (1927-10-16): Almagro withdrew
+- W.O./pontos para o mandante — Barracas Central Almagro (1927-12-11): Almagro withdrew
+- W.O./pontos para o visitante — Atlanta Lanús (1927-12-11): Atlanta withdrew
+- W.O./pontos para o mandante — Sportivo Barracas Porteño (1927-12-11): Porteño withdrew
+- W.O./pontos para o mandante — Talleres de Remedios de Escalada Atlanta (1927-11-27): Atlanta withdrew
+- W.O./pontos para o visitante — Almagro Estudiantil Porteño (1927-11-27): Almagro withdrew
+- W.O./pontos para o mandante — San Lorenzo Porteño (1927-11-27): Porteño withdrew
+- W.O./pontos para o visitante — Atlanta Argentinos Juniors (1927-12-04): Atlanta withdrew
 
 ### 1928
 
 - tabela publicada x jogos — arg28:46: Almagro tabela [35, 12, 10, 13, 44, 53] jogos [34, 12, 10, 12, 44, 53] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — arg28:46: Argentino del Sud tabela [35, 9, 7, 19, 34, 59] jogos [34, 9, 7, 18, 34, 59] — faltam 1 jogo(s) do clube na página
-- abandonado/suspenso, sem valer — Excursionistas 0-0 Almagro (1929-11-11): Suspended; played again on Mar 31, 1929
-- W.O./pontos para o mandante — Gimnasia La Plata Lanús (1929-12-09): Lanús withdrew
-- abandonado/suspenso, sem valer — Barracas Central 0-0 Talleres de Remedios de Escalada (1929-12-30): Suspended; played again on Mar 24, 1929
+- abandonado/suspenso, sem valer — Excursionistas 0-0 Almagro (1928-11-11): Suspended; played again on Mar 31, 1929
+- W.O./pontos para o mandante — Gimnasia La Plata Lanús (1928-12-09): Lanús withdrew
+- abandonado/suspenso, sem valer — Barracas Central 0-0 Talleres de Remedios de Escalada (1928-12-30): Suspended; played again on Mar 24, 1929
 - W.O./pontos para o mandante — Tigre 1-1 San Lorenzo (1929-06-23): Suspended at 43; not continued, Tigre won points
 
 ### 1929
 
-- tabela publicada x jogos — arg29:16: Lanús tabela [17, 8, 8, 1, 31, 17] jogos [16, 7, 8, 1, 31, 16] — a diferença vem de Tigre x Lanús (1930-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:16: San Fernando tabela [17, 6, 5, 6, 31, 20] jogos [18, 7, 5, 6, 31, 20] — a diferença vem de Tigre x San Fernando (s/d), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:16: El Porvenir tabela [17, 7, 3, 7, 19, 26] jogos [16, 6, 3, 7, 19, 26] — a diferença vem de Estudiantes x El Porvenir (1930-09-15), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:16: Estudiantes tabela [17, 7, 2, 8, 32, 20] jogos [16, 8, 2, 6, 32, 20] — a diferença vem de Estudiantes x El Porvenir (1930-09-15), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:16: Tigre tabela [17, 5, 5, 7, 28, 23] jogos [17, 5, 5, 7, 27, 23] — a diferença vem de Tigre x Lanús (1930-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:16: Banfield tabela [17, 5, 4, 8, 18, 23] jogos [17, 6, 4, 7, 18, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — arg29:43: Barracas Central tabela [16, 7, 1, 8, 16, 30] jogos [15, 6, 1, 8, 15, 29] — a diferença vem de Defensores de Belgrano x Barracas Central (1930-08-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:43: Defensores de Belgrano tabela [16, 4, 4, 8, 12, 18] jogos [15, 4, 4, 7, 11, 17] — a diferença vem de Excursionistas x Defensores de Belgrano (1930-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:43: Excursionistas tabela [16, 5, 2, 9, 20, 33] jogos [15, 5, 2, 8, 20, 33] — a diferença vem de Excursionistas x Defensores de Belgrano (1930-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg29:43: Ferro Carril Oeste tabela [16, 2, 6, 8, 23, 25] jogos [15, 2, 6, 7, 23, 25] — a diferença vem de Ferro Carril Oeste x Excursionistas (s/d), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:16: Lanús tabela [17, 8, 8, 1, 31, 17] jogos [16, 7, 8, 1, 31, 16] — a diferença vem de Tigre x Lanús (1929-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:16: San Fernando tabela [17, 6, 5, 6, 31, 20] jogos [16, 6, 5, 5, 31, 20] — faltam 1 jogo(s) do clube na página
+- tabela publicada x jogos — arg29:16: El Porvenir tabela [17, 7, 3, 7, 19, 26] jogos [16, 6, 3, 7, 19, 26] — a diferença vem de Estudiantes x El Porvenir (1929-09-15), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:16: Estudiantes tabela [17, 7, 2, 8, 32, 20] jogos [15, 7, 2, 6, 32, 20] — a diferença vem de Estudiantes x El Porvenir (1929-09-15), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:16: Tigre tabela [17, 5, 5, 7, 28, 23] jogos [16, 5, 5, 6, 27, 23] — a diferença vem de Tigre x Lanús (1929-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:16: Banfield tabela [17, 5, 4, 8, 18, 23] jogos [16, 5, 4, 7, 18, 23] — faltam 1 jogo(s) do clube na página
+- tabela publicada x jogos — arg29:16: San Isidro tabela [17, 3, 3, 11, 14, 36] jogos [16, 3, 3, 10, 14, 36] — faltam 1 jogo(s) do clube na página
+- tabela publicada x jogos — arg29:43: Barracas Central tabela [16, 7, 1, 8, 16, 30] jogos [15, 6, 1, 8, 15, 29] — a diferença vem de Defensores de Belgrano x Barracas Central (1929-08-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:43: Defensores de Belgrano tabela [16, 4, 4, 8, 12, 18] jogos [15, 4, 4, 7, 11, 17] — a diferença vem de Excursionistas x Defensores de Belgrano (1929-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:43: Excursionistas tabela [16, 5, 2, 9, 20, 33] jogos [15, 5, 2, 8, 20, 33] — a diferença vem de Excursionistas x Defensores de Belgrano (1929-12-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg29:43: Ferro Carril Oeste tabela [16, 2, 6, 8, 23, 25] jogos [15, 2, 6, 7, 23, 25] — faltam 1 jogo(s) do clube na página
+- 3º pela lista oficial: River Plate (a tabela o punha em 4º)
 - W.O./pontos para o visitante — Huracán Racing Club (1929-12-22): Huracán withdrew
 - W.O./pontos para o visitante — Platense Almagro (1929-12-22): Platense withdrew
-- decidido fora de campo — Estudiantes El Porvenir (1930-09-15): abandoned at 0-0 in 75', Estudiantes LP lost points
-- W.O./pontos para o visitante — Estudiantes Gimnasia La Plata (1930-12-29): Estudiantes LP withdrew
-- W.O./pontos para o mandante — Banfield Huracán (1930-12-22): Huracán withdrew
-- W.O./pontos para o mandante — Estudiantes de Buenos Aires Huracán (1930-12-22): Huracán withdrew
-- W.O./pontos para o mandante — Atlanta Platense (1930-12-22): Platense forfeited
-- W.O./pontos para o mandante — River Plate Huracán (1930-12-22): Huracán forfeited
-- W.O./pontos para o visitante — Huracán Almagro (1930-12-15): Huracán forfeited
-- W.O./pontos para o visitante — Platense Colegiales (1930-12-15): Platense forfeited
-- W.O./pontos para o visitante — Huracán Argentino del Sud (1930-12-22): Huracán withdrew
-- W.O./pontos para o mandante — San Isidro Platense (1930-12-22): Platense withdrew
-- W.O./pontos para o mandante — El Porvenir Atlanta (1930-12-29): Atlanta forfeited
-- W.O./pontos para o mandante — Racing Club Estudiantes (1930-12-29): Estudiantes forfeited
-- W.O./pontos para o mandante — Talleres de Remedios de Escalada San Fernando (1930-12-29): San Fernando withdrew
-- decidido fora de campo — Tigre Lanús (1930-12-29): abandoned at 1-0 in 54'; Tigre lost points
-- W.O./pontos para o mandante — El Porvenir Huracán (1930-12-22): Huracán withdrew
-- W.O./pontos para o mandante — River Plate Platense (1930-12-22): Platense withdrew
-- W.O./pontos para o visitante — Atlanta Banfield (1930-12-29): Atlanta withdrew
+- decidido fora de campo — Estudiantes El Porvenir (1929-09-15): abandoned at 0-0 in 75', Estudiantes LP lost points
+- W.O./pontos para o visitante — Estudiantes Gimnasia La Plata (1929-12-29): Estudiantes LP withdrew
+- W.O./pontos para o mandante — Banfield Huracán (1929-12-22): Huracán withdrew
+- W.O./pontos para o mandante — Estudiantes de Buenos Aires Huracán (1929-12-22): Huracán withdrew
+- W.O./pontos para o mandante — Atlanta Platense (1929-12-22): Platense forfeited
+- W.O./pontos para o mandante — River Plate Huracán (1929-12-22): Huracán forfeited
+- W.O./pontos para o visitante — Huracán Almagro (1929-12-15): Huracán forfeited
+- W.O./pontos para o visitante — Platense Colegiales (1929-12-15): Platense forfeited
+- W.O./pontos para o visitante — Huracán Argentino del Sud (1929-12-22): Huracán withdrew
+- W.O./pontos para o mandante — San Isidro Platense (1929-12-22): Platense withdrew
+- W.O./pontos para o mandante — El Porvenir Atlanta (1929-12-29): Atlanta forfeited
+- W.O./pontos para o mandante — Racing Club Estudiantes (1929-12-29): Estudiantes forfeited
+- W.O./pontos para o mandante — Talleres de Remedios de Escalada San Fernando (1929-12-29): San Fernando withdrew
+- decidido fora de campo — Tigre Lanús (1929-12-29): abandoned at 1-0 in 54'; Tigre lost points
+- W.O./pontos para o mandante — El Porvenir Huracán (1929-12-22): Huracán withdrew
+- W.O./pontos para o mandante — River Plate Platense (1929-12-22): Platense withdrew
+- W.O./pontos para o visitante — Atlanta Banfield (1929-12-29): Atlanta withdrew
 - W.O./pontos para o mandante — Almagro San Isidro (1930-01-05): San Isidro forfeited
-- W.O./pontos para o visitante — Huracán San Fernando (1930-12-22): Huracán withdrew
-- W.O./pontos para o visitante — Platense Argentino del Sud (1930-12-22): Platense wihtdrew
-- W.O./pontos para o mandante — Talleres de Remedios de Escalada Estudiantes (1930-12-29): Estudiantes LP withdrew
-- W.O./pontos para o mandante — Tigre Atlanta (1930-12-29): Atlanta withdrew
+- W.O./pontos para o visitante — Huracán San Fernando (1929-12-22): Huracán withdrew
+- W.O./pontos para o visitante — Platense Argentino del Sud (1929-12-22): Platense wihtdrew
+- W.O./pontos para o mandante — Talleres de Remedios de Escalada Estudiantes (1929-12-29): Estudiantes LP withdrew
+- W.O./pontos para o mandante — Tigre Atlanta (1929-12-29): Atlanta withdrew
 - W.O./pontos para o mandante — Vélez Sarsfield Sportivo Barracas (1930-01-03): Sportivo Barracas was suspended
-- W.O./pontos para o mandante — Sportivo Palermo Sportivo Buenos Aires (1930-12-22): Sportivo Buenos Aires withdrew
-- W.O./pontos para o visitante — Excursionistas Defensores de Belgrano (1930-12-29): Excursionistas withdrew
+- W.O./pontos para o mandante — Sportivo Palermo Sportivo Buenos Aires (1929-12-22): Sportivo Buenos Aires withdrew
+- W.O./pontos para o visitante — Excursionistas Defensores de Belgrano (1929-12-29): Excursionistas withdrew
 - W.O./pontos para o mandante — Chacarita Juniors Argentino de Lomas (1930-01-19): Argentino de Banfield forfeited
-- abandonado/suspenso, sem valer — Defensores de Belgrano Barracas Central (1930-08-25): abandoned at 1-1 in 70'; Defensores de Belgrano lost points
+- decidido fora de campo — Defensores de Belgrano Barracas Central (1929-08-25): abandoned at 1-1 in 70'; Defensores de Belgrano lost points
 - W.O./pontos para o visitante — Sportivo Barracas Chacarita Juniors (1930-01-03): Sportivo Barracas was suspended
-- W.O./pontos para o visitante — Sportivo Palermo Quilmes (1930-12-01): Sportivo Palermo forfeited
-- W.O./pontos para o mandante — Barracas Central Argentino de Quilmes (1930-12-22): Argentino de Quilmes forfeited
-- W.O./pontos para o mandante — Quilmes Sportivo Buenos Aires (1930-12-22): Sportivo Buenos Aires forfeited
-- W.O./pontos para o visitante — Sportivo Barracas Quilmes (1930-12-15): Sportivo Barracas forfeited
-- W.O./pontos para o mandante — Chacarita Juniors Argentino de Quilmes (1930-12-22): Argentino de Quilmes withdrew
-- W.O./pontos para o visitante — Sportivo Buenos Aires Argentinos Juniors (1930-12-22): Sportivo Buenos Aires withdrew
-- W.O./pontos para o mandante — Estudiantil Porteño Excursionistas (1930-12-29): Excursionistas forfeited
-- W.O./pontos para o mandante — Sportivo Palermo Ferro Carril Oeste (1930-12-29): Ferro Carril Oeste forfeited
-- W.O./pontos para o mandante — Vélez Sarsfield Argentino de Quilmes (1930-12-22): Argentino de Quilmes withdrew
+- W.O./pontos para o visitante — Sportivo Palermo Quilmes (1929-12-01): Sportivo Palermo forfeited
+- W.O./pontos para o mandante — Barracas Central Argentino de Quilmes (1929-12-22): Argentino de Quilmes forfeited
+- W.O./pontos para o mandante — Quilmes Sportivo Buenos Aires (1929-12-22): Sportivo Buenos Aires forfeited
+- W.O./pontos para o visitante — Sportivo Barracas Quilmes (1929-12-15): Sportivo Barracas forfeited
+- W.O./pontos para o mandante — Chacarita Juniors Argentino de Quilmes (1929-12-22): Argentino de Quilmes withdrew
+- W.O./pontos para o visitante — Sportivo Buenos Aires Argentinos Juniors (1929-12-22): Sportivo Buenos Aires withdrew
+- W.O./pontos para o mandante — Estudiantil Porteño Excursionistas (1929-12-29): Excursionistas forfeited
+- W.O./pontos para o mandante — Sportivo Palermo Ferro Carril Oeste (1929-12-29): Ferro Carril Oeste forfeited
+- W.O./pontos para o mandante — Vélez Sarsfield Argentino de Quilmes (1929-12-22): Argentino de Quilmes withdrew
 - W.O./pontos para o mandante — Argentino de Lomas Sportivo Barracas (1930-01-03): Sportivo Barracas was suspended
 - W.O./pontos para o visitante — Defensores de Belgrano Estudiantil Porteño (1930-01-05): Defensores de Belgrano forfeited
 - W.O./pontos para o visitante — Quilmes Chacarita Juniors (1930-01-05): Quilmes forfeited
-- W.O./pontos para o mandante — Excursionistas Argentino de Quilmes (1930-12-22): Argentino de Quilmes withdrew
-- W.O./pontos para o visitante — Sportivo Buenos Aires Barracas Central (1930-12-22): Sportivo Buenos Aires withdrew
-- W.O./pontos para o mandante — Quilmes Ferro Carril Oeste (1930-12-29): Ferro Carril Oeste withdrew
+- W.O./pontos para o mandante — Excursionistas Argentino de Quilmes (1929-12-22): Argentino de Quilmes withdrew
+- W.O./pontos para o visitante — Sportivo Buenos Aires Barracas Central (1929-12-22): Sportivo Buenos Aires withdrew
+- W.O./pontos para o mandante — Quilmes Ferro Carril Oeste (1929-12-29): Ferro Carril Oeste withdrew
 - W.O./pontos para o visitante — Sportivo Barracas Boca Juniors (1930-01-03): Sportivo Barracas was suspended
 - W.O./pontos para o mandante — Sportivo Palermo Defensores de Belgrano (1930-01-05): Defensores de Belgrano withdrew
 - W.O./pontos para o mandante — River Plate San Lorenzo (1930-01-12): at Racing Club San Lorenzo de Almagro forfeited
-- W.O./pontos para o visitante — Tigre San Fernando (s/d)
-- W.O./pontos para o mandante — Independiente Argentinos Juniors (s/d)
-- W.O./pontos para o visitante — Argentino de Quilmes Independiente (s/d)
-- não jogado — Sportivo Barracas Quilmes (s/d)
-- W.O./pontos para o mandante — Estudiantes San Fernando (s/d)
-- W.O./pontos para o visitante — Ferro Carril Oeste Excursionistas (s/d)
-- W.O./pontos para o visitante — San Isidro Banfield (s/d)
 
 ### 1930
 
 - tabela publicada x jogos — arg30:28: Sportivo Buenos Aires tabela [35, 18, 5, 12, 58, 44] jogos [35, 17, 6, 12, 58, 44] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arg30:28: Argentino del Sud tabela [35, 1, 2, 32, 14, 100] jogos [35, 1, 3, 31, 14, 100] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — arghist-ama1920s:867: Chacarita Juniors tabela [35, 18, 6, 11, 57, 43] jogos [35, 18, 6, 11, 58, 44] — a diferença vem de Sportivo Palermo x Chacarita Juniors (1931-06-08), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:867: Chacarita Juniors tabela [35, 18, 6, 11, 57, 43] jogos [35, 18, 6, 11, 58, 44] — a diferença vem de Sportivo Palermo x Chacarita Juniors (1930-06-08), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arghist-ama1920s:867: Sportivo Buenos Aires tabela [35, 18, 5, 12, 57, 44] jogos [35, 17, 6, 12, 58, 44] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arghist-ama1920s:867: Huracán tabela [35, 16, 7, 12, 75, 49] jogos [35, 16, 7, 12, 78, 52] — a diferença vem de Huracán x San Fernando (1931-01-03), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arghist-ama1920s:867: Ferro Carril Oeste tabela [35, 13, 8, 14, 45, 55] jogos [35, 13, 8, 14, 46, 56] — a diferença vem de Excursionistas x Ferro Carril Oeste (1931-11-09), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:867: Ferro Carril Oeste tabela [35, 13, 8, 14, 45, 55] jogos [35, 13, 8, 14, 46, 56] — a diferença vem de Excursionistas x Ferro Carril Oeste (1930-11-09), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arghist-ama1920s:867: San Fernando tabela [35, 13, 7, 15, 47, 63] jogos [35, 13, 7, 15, 50, 67] — a diferença vem de Huracán x San Fernando (1931-01-03), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arghist-ama1920s:867: Excursionistas tabela [35, 11, 6, 18, 32, 56] jogos [35, 11, 6, 18, 33, 58] — a diferença vem de Excursionistas x Ferro Carril Oeste (1931-11-09), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arghist-ama1920s:867: Sportivo Palermo tabela [35, 7, 11, 17, 46, 65] jogos [35, 7, 11, 17, 47, 66] — a diferença vem de Sportivo Palermo x Chacarita Juniors (1931-06-08), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:867: Excursionistas tabela [35, 11, 6, 18, 32, 56] jogos [35, 11, 6, 18, 33, 58] — a diferença vem de Excursionistas x Ferro Carril Oeste (1930-11-09), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arghist-ama1920s:867: Sportivo Palermo tabela [35, 7, 11, 17, 46, 65] jogos [35, 7, 11, 17, 47, 66] — a diferença vem de Sportivo Palermo x Chacarita Juniors (1930-06-08), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arghist-ama1920s:867: San Isidro tabela [35, 6, 11, 18, 29, 66] jogos [35, 6, 11, 18, 30, 66] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arghist-ama1920s:867: Argentino del Sud tabela [35, 1, 2, 32, 14, 100] jogos [35, 1, 3, 31, 14, 100] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- W.O./pontos para o visitante — Sportivo Palermo 1-1 Chacarita Juniors (1931-06-08): Suspended at 44; not continued, Chacarita Juniors won points
-- W.O./pontos para o mandante — Excursionistas 1-1 Ferro Carril Oeste (1931-11-09): Suspended at 50; not continued, Excursionistas won points
-- W.O./pontos para o visitante — Racing Club Talleres de Remedios de Escalada (1931-11-30): Racing Club withdrew
-- abandonado/suspenso, sem valer — Quilmes 0-0 Defensores de Belgrano (1931-12-14): Suspended at 42; played again on Dec 28
-- abandonado/suspenso, sem valer — Argentinos Juniors 1-1 Chacarita Juniors (1931-12-14): Suspended at 45; played again on Dec 28
-- abandonado/suspenso, sem valer — El Porvenir 2-2 San Lorenzo (1931-12-14): Suspended at 55; played again on Dec 28
+- W.O./pontos para o visitante — Sportivo Palermo 1-1 Chacarita Juniors (1930-06-08): Suspended at 44; not continued, Chacarita Juniors won points
+- W.O./pontos para o mandante — Excursionistas 1-1 Ferro Carril Oeste (1930-11-09): Suspended at 50; not continued, Excursionistas won points
+- W.O./pontos para o visitante — Racing Club Talleres de Remedios de Escalada (1930-11-30): Racing Club withdrew
+- abandonado/suspenso, sem valer — Quilmes 0-0 Defensores de Belgrano (1930-12-14): Suspended at 42; played again on Dec 28
+- abandonado/suspenso, sem valer — Argentinos Juniors 1-1 Chacarita Juniors (1930-12-14): Suspended at 45; played again on Dec 28
+- abandonado/suspenso, sem valer — El Porvenir 2-2 San Lorenzo (1930-12-14): Suspended at 55; played again on Dec 28
 - W.O./pontos para o mandante — Huracán 3-3 San Fernando (1931-01-03): Suspended at 60; not continued, Huracán won points
 - W.O./pontos para o mandante — Sportivo Barracas Argentino del Sud (1931-03-29): Argentino del Sud withdrew
 - W.O./pontos para o mandante — Ferro Carril Oeste Honor y Patria (1931-04-12): Honor y Patria withdrew
@@ -1023,14 +1047,14 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1931 Liga
 
-- tabela publicada x jogos — arg31:19: Platense tabela [34, 13, 3, 18, 52, 52] jogos [33, 13, 3, 17, 52, 52] — a diferença vem de Lanús x Platense (1932-10-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg31:19: Lanús tabela [34, 10, 2, 22, 43, 82] jogos [33, 9, 2, 22, 43, 82] — a diferença vem de Lanús x Platense (1932-10-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- abandonado/suspenso, sem valer — Racing Club Estudiantes (1932-08-02): abandoned at 1:1 in 75
-- W.O./pontos para o visitante — Racing Club Estudiantes (1932-11-04): awarded lp:wp; jogo repetido (o primeiro foi suspenso)
-- abandonado/suspenso, sem valer — Boca Juniors River Plate (1932-09-20): abandoned at 1:1 in 26
-- W.O./pontos para o mandante — Boca Juniors River Plate (1932-10-14): awarded wp:lp; jogo repetido (o primeiro foi suspenso)
-- abandonado/suspenso, sem valer — Lanús Ferro Carril Oeste (1932-10-11): abandoned at 2:3 in 88
-- abandonado/suspenso, sem valer — Lanús Platense (1932-10-25): abandoned at 1:1 in 49
+- tabela publicada x jogos — arg31:19: Platense tabela [34, 13, 3, 18, 52, 52] jogos [33, 13, 3, 17, 52, 52] — a diferença vem de Lanús x Platense (1931-10-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg31:19: Lanús tabela [34, 10, 2, 22, 43, 82] jogos [33, 9, 2, 22, 43, 82] — a diferença vem de Lanús x Platense (1931-10-25), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- abandonado/suspenso, sem valer — Racing Club Estudiantes (1931-08-02): abandoned at 1:1 in 75
+- W.O./pontos para o visitante — Racing Club Estudiantes (1931-11-04): awarded lp:wp; jogo repetido (o primeiro foi suspenso)
+- abandonado/suspenso, sem valer — Boca Juniors River Plate (1931-09-20): abandoned at 1:1 in 26
+- W.O./pontos para o mandante — Boca Juniors River Plate (1931-10-14): awarded wp:lp; jogo repetido (o primeiro foi suspenso)
+- abandonado/suspenso, sem valer — Lanús Ferro Carril Oeste (1931-10-11): abandoned at 2:3 in 88
+- abandonado/suspenso, sem valer — Lanús Platense (1931-10-25): abandoned at 1:1 in 49
 - não jogado — Lanús Platense (1932-01-07): Platense withdrew; jogo repetido (o primeiro foi suspenso)
 - não jogado — Tigre Platense (1932-01-06): Platense withdrew
 - W.O./pontos para o mandante — Tigre Platense (1932-01-13): awarded wp:lp
@@ -1038,10 +1062,6 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 1931 Asociación
 
 - o campeonato da Asociación Amateurs, começado antes da saída dos clubes profissionais, foi anulado e recomeçado
-- tabela publicada x jogos — arg31a:132: Almagro tabela [15, 13, 0, 2, 45, 13] jogos [16, 13, 0, 3, 46, 16] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg31a:132: Estudiantil Porteño tabela [15, 12, 2, 1, 31, 17] jogos [16, 13, 2, 1, 34, 18] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg31a:151: Estudiantil Porteño tabela [1, 1, 0, 0, 3, 1] jogos [2, 1, 0, 1, 4, 5] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg31a:151: Almagro tabela [1, 0, 0, 1, 1, 3] jogos [2, 1, 0, 1, 5, 4] — sobram 1 jogo(s) do clube na página
 - não jogado — San Isidro Almagro (1931-06-28): 1:3, annulled
 - não jogado — Sportivo Barracas San Isidro (1931-07-05): 2:0, annulled
 - não jogado — Estudiantil Porteño San Isidro (1931-07-12): 1:1, annulled
@@ -1116,9 +1136,11 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1934 Liga
 
+- fusões temporárias de 1934 à parte dos clubes (D-25 h): os jogos de "Atlanta/Argentinos Jrs" ficam com o Atlanta-Argentinos Juniors e os de "Talleres/Lanús" com a Unión Talleres-Lanús; a tabela da RSSSF põe a campanha inteira (39 jogos) na linha do Argentinos Juniors, que fica com só os 14 jogos de antes da fusão
 - a Liga e a Asociación se fundiram em 3/11/1934, com o campeonato em andamento
 - tabela publicada x jogos — arg34:427: Estudiantes tabela [39, 17, 10, 12, 70, 56] jogos [39, 17, 10, 12, 69, 56] — a diferença vem de Gimnasia La Plata x Estudiantes (1934-06-10), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arg34:427: Gimnasia La Plata tabela [39, 14, 10, 15, 82, 86] jogos [39, 14, 10, 15, 82, 85] — a diferença vem de Gimnasia La Plata x Estudiantes (1934-06-10), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg34:427: Argentinos Juniors tabela [39, 2, 5, 32, 38, 113] jogos [14, 0, 2, 12, 14, 44] — faltam 25 jogo(s) do clube na página
 - abandonado/suspenso, sem valer — Gimnasia La Plata Estudiantes (1934-06-10): abandoned at 0:1 in 15
 - abandonado/suspenso, sem valer — Racing Club Chacarita Juniors (1934-06-10): abandoned at 1:2 in 83
 - W.O./pontos para o mandante — Gimnasia La Plata Estudiantes (1934-06-10): awarded; jogo repetido (o primeiro foi suspenso)
@@ -1220,8 +1242,6 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1949
 
-- tabela publicada x jogos — arg49:12: Estudiantes tabela [34, 13, 12, 9, 53, 54] jogos [33, 13, 12, 8, 53, 53] — faltam 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg49:12: Gimnasia La Plata tabela [34, 11, 8, 15, 54, 58] jogos [35, 11, 8, 16, 54, 59] — sobram 1 jogo(s) do clube na página
 - anulado — Huracán Lanús (1950-01-08): ended at 3:3 in 90m, extra time not played, annulled on Jan 12, San Lorenzo de Almagro, Buenos Aires
 
 ### 1950
@@ -1578,13 +1598,14 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1974 Nacional
 
+- 3º pela lista oficial: Vélez Sarsfield (a tabela o punha em 4º)
 - abandonado/suspenso, sem valer — Central Norte Boca Juniors (1974-10-27): at Gimnasia y Tiro,
 - abandonado/suspenso, sem valer — Aldosivi Ferro Carril Oeste (1974-10-20): at General San Martín,
 - decidido fora de campo — Aldosivi Ferro Carril Oeste (1974-10-31): awarded 0-2
 
 ### 1975 Metropolitano
 
-- sem ocorrências
+- a tabela da Wikipédia em espanhol tem 1 gol a mais para River (contra), Huracán (contra), Estudiantes (pró) e Banfield (pró): ela conta os gols de campo de Estudiantes 1-2 Huracán (abandonado aos 78', dado 0-2) e Banfield 1-2 River Plate (dado 0-2); a RSSSF e o pacote contam o placar dado (AR-019)
 
 ### 1975 Nacional
 
@@ -1597,6 +1618,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1976 Nacional
 
+- vice pela lista oficial: River Plate (a tabela o punha em 3º)
 - abandonado/suspenso, sem valer — Atlético Tucumán San Martín de Tucumán (1976-11-14): abandoned at 1-0 in 37
 
 ### 1977 Metropolitano
@@ -1683,11 +1705,11 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1985/86
 
-- ogol: 324 jogos casados (edição 22766 do ogol, 342 jogos)
+- ogol: 342 jogos casados (edição 22766 do ogol, 342 jogos)
 
 ### 1986/87
 
-- ogol: 210 jogos casados (edição 20787 do ogol, 380 jogos)
+- ogol: 378 jogos casados (edição 20787 do ogol, 380 jogos)
 - tabela publicada x jogos — arg87:553: River Plate tabela [38, 13, 13, 12, 54, 49] jogos [38, 14, 13, 11, 57, 49] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arg87:553: Temperley tabela [38, 7, 13, 18, 28, 48] jogos [38, 6, 13, 19, 28, 51] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - placar diferente no ogol — River Plate x Temperley (1986-08-24): RSSSF 3-1, ogol 0-1; fica o da RSSSF
@@ -1698,9 +1720,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 1987/88
 
 - ogol: 379 jogos casados (edição 20696 do ogol, 380 jogos)
-- tabela publicada x jogos — arg88:549: San Lorenzo tabela [38, 16, 17, 5, 49, 28] jogos [37, 15, 17, 5, 48, 28] — a diferença vem de Instituto x San Lorenzo (1988-05-08), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg88:549: Instituto tabela [38, 10, 15, 13, 43, 53] jogos [37, 10, 15, 12, 43, 52] — a diferença vem de Instituto x San Lorenzo (1988-05-08), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- abandonado/suspenso, sem valer — Instituto San Lorenzo (1988-05-08)
+- corrigido — Instituto x San Lorenzo (1988-05-08): abandonado antes de começar; "later awarded 0-1" (nota da página); vale na tabela (AR-003)
+- decidido fora de campo — Instituto San Lorenzo (1988-05-08)
 
 ### 1988/89
 
@@ -1713,28 +1734,28 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1989/90
 
-- ogol: 310 jogos casados (edição 22764 do ogol, 380 jogos)
-- tabela publicada x jogos — arg90:24: Boca Juniors tabela [38, 11, 21, 6, 49, 35] jogos [38, 11, 21, 6, 49, 36] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- ogol: 380 jogos casados (edição 22764 do ogol, 380 jogos)
+- tabela publicada x jogos — arg90:24: Boca Juniors tabela [38, 11, 21, 6, 49, 35] jogos [38, 11, 21, 6, 49, 36] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg90:24: Rosario Central tabela [38, 16, 13, 9, 45, 36] jogos [38, 17, 13, 8, 46, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — arg90:24: Newell's Old Boys tabela [38, 12, 14, 12, 40, 43] jogos [38, 12, 14, 12, 41, 43] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — arg90:345: Independiente tabela [19, 9, 8, 2, 33, 20] jogos [38, 16, 14, 8, 54, 36] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: River Plate tabela [19, 10, 5, 4, 24, 13] jogos [38, 20, 13, 5, 48, 20] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Deportivo Español tabela [19, 10, 3, 6, 32, 25] jogos [38, 12, 7, 19, 39, 53] — sobram 19 jogo(s) do clube na página
+- tabela publicada x jogos — arg90:345: Independiente tabela [19, 9, 8, 2, 33, 20] jogos [38, 16, 14, 8, 54, 36] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: River Plate tabela [19, 10, 5, 4, 24, 13] jogos [38, 20, 13, 5, 48, 20] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Deportivo Español tabela [19, 10, 3, 6, 32, 25] jogos [38, 12, 7, 19, 39, 53] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg90:345: Rosario Central tabela [19, 8, 7, 4, 26, 21] jogos [38, 17, 13, 8, 46, 35] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Gimnasia La Plata tabela [19, 7, 8, 4, 21, 16] jogos [38, 12, 15, 11, 34, 31] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Racing Club tabela [19, 6, 10, 3, 27, 25] jogos [38, 11, 17, 10, 34, 34] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Boca Juniors tabela [19, 4, 12, 3, 27, 24] jogos [38, 11, 21, 6, 49, 36] — sobram 19 jogo(s) do clube na página
+- tabela publicada x jogos — arg90:345: Gimnasia La Plata tabela [19, 7, 8, 4, 21, 16] jogos [38, 12, 15, 11, 34, 31] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Racing Club tabela [19, 6, 10, 3, 27, 25] jogos [38, 11, 17, 10, 34, 34] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Boca Juniors tabela [19, 4, 12, 3, 27, 24] jogos [38, 11, 21, 6, 49, 36] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg90:345: Newell's Old Boys tabela [19, 5, 9, 5, 23, 23] jogos [38, 12, 14, 12, 41, 43] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Unión tabela [19, 4, 11, 4, 28, 29] jogos [38, 10, 16, 12, 40, 43] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Talleres tabela [19, 4, 10, 5, 24, 25] jogos [38, 12, 14, 12, 45, 46] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Estudiantes tabela [19, 4, 10, 5, 23, 25] jogos [38, 7, 20, 11, 34, 39] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Argentinos Juniors tabela [19, 6, 5, 8, 27, 27] jogos [38, 13, 12, 13, 42, 40] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Vélez Sarsfield tabela [19, 5, 7, 7, 21, 22] jogos [38, 14, 14, 10, 46, 32] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Ferro Carril Oeste tabela [19, 4, 9, 6, 13, 14] jogos [38, 11, 17, 10, 24, 20] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: Instituto tabela [19, 5, 7, 7, 22, 24] jogos [38, 8, 10, 20, 31, 56] — sobram 19 jogo(s) do clube na página
+- tabela publicada x jogos — arg90:345: Unión tabela [19, 4, 11, 4, 28, 29] jogos [38, 10, 16, 12, 40, 43] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Talleres tabela [19, 4, 10, 5, 24, 25] jogos [38, 12, 14, 12, 45, 46] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Estudiantes tabela [19, 4, 10, 5, 23, 25] jogos [38, 7, 20, 11, 34, 39] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Argentinos Juniors tabela [19, 6, 5, 8, 27, 27] jogos [38, 13, 12, 13, 42, 40] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Vélez Sarsfield tabela [19, 5, 7, 7, 21, 22] jogos [38, 14, 14, 10, 46, 32] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Ferro Carril Oeste tabela [19, 4, 9, 6, 13, 14] jogos [38, 11, 17, 10, 24, 20] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — arg90:345: Instituto tabela [19, 5, 7, 7, 22, 24] jogos [38, 8, 10, 20, 31, 56] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg90:345: Platense tabela [19, 5, 7, 7, 20, 22] jogos [38, 13, 10, 15, 35, 40] — sobram 19 jogo(s) do clube na página
 - tabela publicada x jogos — arg90:345: Deportivo Mandiyú tabela [19, 4, 9, 6, 19, 26] jogos [38, 11, 14, 13, 40, 40] — sobram 19 jogo(s) do clube na página
-- tabela publicada x jogos — arg90:345: San Lorenzo tabela [19, 3, 9, 7, 22, 31] jogos [38, 10, 15, 13, 44, 50] — sobram 19 jogo(s) do clube na página
+- tabela publicada x jogos — arg90:345: San Lorenzo tabela [19, 3, 9, 7, 22, 31] jogos [38, 10, 15, 13, 44, 50] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg90:345: Racing de Córdoba tabela [19, 4, 6, 9, 20, 28] jogos [38, 11, 10, 17, 32, 48] — sobram 19 jogo(s) do clube na página
 - tabela publicada x jogos — arg90:345: Chaco For Ever tabela [19, 4, 6, 9, 26, 38] jogos [38, 10, 12, 16, 40, 56] — sobram 19 jogo(s) do clube na página
 - placar diferente no ogol — Deportivo Mandiyú x Platense (1990-04-08): RSSSF 3-1, ogol 2-1; fica o da RSSSF
@@ -1764,6 +1785,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 - tabela publicada x jogos — arg91:544: Platense tabela [19, 5, 9, 5, 11, 16] jogos [19, 4, 10, 5, 10, 16] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arg91:544: Lanús tabela [19, 5, 8, 6, 15, 16] jogos [19, 5, 9, 5, 15, 15] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — arghist-pro1990s:65: San Lorenzo tabela [19, 4, 10, 5, 15, 18] jogos [19, 5, 10, 4, 16, 17] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- 3º pela lista oficial: River Plate (a tabela o punha em 4º)
 - placar diferente no ogol — Boca Juniors x San Lorenzo (1990-12-14): RSSSF 0-1, ogol 0-0; fica o da RSSSF
 
 ### 1991/92 Apertura
@@ -1909,12 +1931,9 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1997/98 Apertura
 
-- ogol: 170 jogos casados (edição 5564 do ogol, 190 jogos)
-- tabela publicada x jogos — arg98:16: River Plate tabela [19, 14, 3, 2, 43, 17] jogos [18, 14, 3, 1, 42, 14] — faltam 1 jogo(s) do clube na página
-- tabela publicada x jogos — arg98:16: Rosario Central tabela [19, 10, 5, 4, 35, 20] jogos [18, 9, 5, 4, 32, 19] — faltam 1 jogo(s) do clube na página
+- ogol: 171 jogos casados (edição 5564 do ogol, 190 jogos)
 - tabela publicada x jogos — arg98:16: San Lorenzo tabela [19, 9, 5, 5, 42, 32] jogos [19, 9, 6, 4, 42, 32] — a diferença vem de San Lorenzo x Huracán (1997-12-21), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — arg98:16: Huracán tabela [19, 3, 3, 13, 20, 32] jogos [19, 3, 4, 12, 20, 32] — a diferença vem de San Lorenzo x Huracán (1997-12-21), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- linha lida como jogo e descartada (clube não reconhecido): arg98:61 «River Plate x Rosario»
 - decidido fora de campo — San Lorenzo 0-0 Huracán (1997-12-21): Suspended in 22' due to crowd trouble; awarded 0-0 loss against both
 
 ### 1997/98 Clausura
@@ -1946,13 +1965,13 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1999/00 Apertura
 
-- ogol: 131 jogos casados (edição 5519 do ogol, 190 jogos)
-- tabela publicada x jogos — arg00:16: Independiente tabela [19, 6, 7, 6, 19, 21] jogos [18, 5, 7, 6, 16, 19] — a diferença vem de Belgrano x Independiente (2000-12-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — arg00:16: Belgrano tabela [19, 5, 5, 9, 25, 37] jogos [18, 5, 5, 8, 23, 34] — a diferença vem de Belgrano x Independiente (2000-12-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- ogol: 167 jogos casados (edição 5519 do ogol, 190 jogos)
+- tabela publicada x jogos — arg00:16: Independiente tabela [19, 6, 7, 6, 19, 21] jogos [18, 5, 7, 6, 16, 19] — a diferença vem de Belgrano x Independiente (1999-12-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — arg00:16: Belgrano tabela [19, 5, 5, 9, 25, 37] jogos [18, 5, 5, 8, 23, 34] — a diferença vem de Belgrano x Independiente (1999-12-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - data diferente no ogol — Vélez Sarsfield x Belgrano: RSSSF 1999-08-20, ogol 1999-08-25; fica a da RSSSF
 - data diferente no ogol — Racing Club x Chacarita Juniors: RSSSF 1999-08-21, ogol 1999-08-25; fica a da RSSSF
 - data diferente no ogol — Gimnasia La Plata x San Lorenzo: RSSSF 1999-08-21, ogol 1999-08-25; fica a da RSSSF
-- abandonado/suspenso, sem valer — Belgrano Independiente (2000-12-18): abandoned at 2-3 in 81' due to incidents
+- abandonado/suspenso, sem valer — Belgrano Independiente (1999-12-18): abandoned at 2-3 in 81' due to incidents
 
 ### 1999/00 Clausura
 
@@ -2041,8 +2060,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 2003/04 Apertura
 
-- ogol: 160 jogos casados (edição 515 do ogol, 190 jogos)
-- ESPN: 159 jogos casados
+- ogol: 189 jogos casados (edição 515 do ogol, 190 jogos)
+- ESPN: 188 jogos casados
 - decidido fora de campo — Boca Juniors 2-0 Chacarita Juniors (2003-08-31): Abandoned 2-0 at 68' because of incidents. Awarded 2-0
 - abandonado/suspenso, sem valer — Estudiantes Atlético Rafaela (2003-11-26): Abandoned 0-0 at 57' because of a light cut
 
@@ -2088,8 +2107,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 2006/07 Apertura
 
-- ogol: 144 jogos casados (edição 1303 do ogol, 191 jogos)
-- ESPN: 159 jogos casados
+- ogol: 172 jogos casados (edição 1303 do ogol, 191 jogos)
+- ESPN: 190 jogos casados
 - abandonado/suspenso, sem valer — Godoy Cruz Arsenal de Sarandí (2006-08-12): abandoned at 0-0 in 17'
 - abandonado/suspenso, sem valer — Gimnasia La Plata Boca Juniors (2006-09-10): abandoned at 1-0 in 45'
 - abandonado/suspenso, sem valer — Colón Vélez Sarsfield (2006-09-16): abandoned at 1-0 in 42'
@@ -2104,8 +2123,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 2007/08 Apertura
 
-- ogol: 161 jogos casados (edição 1589 do ogol, 190 jogos)
-- ESPN: 179 jogos casados
+- ogol: 170 jogos casados (edição 1589 do ogol, 190 jogos)
+- ESPN: 189 jogos casados
 - abandonado/suspenso, sem valer — Gimnasia La Plata Colón (2007-09-12): abandoned at 0-0 in 23'
 
 ### 2007/08 Clausura
@@ -2119,6 +2138,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 - ogol: 170 jogos casados (edição 2304 do ogol, 193 jogos)
 - ESPN: 193 jogos casados
+- vice pela lista oficial: Tigre (a tabela o punha em 3º)
 - abandonado/suspenso, sem valer — Huracán San Lorenzo (2008-11-29): abandoned at 1-0 in 16'
 
 ### 2008/09 Clausura
@@ -2143,8 +2163,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 2010/11 Apertura
 
-- ogol: 180 jogos casados (edição 15597 do ogol, 190 jogos)
-- ESPN: 179 jogos casados
+- ogol: 190 jogos casados (edição 15597 do ogol, 190 jogos)
+- ESPN: 189 jogos casados
 
 ### 2010/11 Clausura
 
@@ -2155,8 +2175,18 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 2011/12 Apertura
 
-- ogol: 149 jogos casados (edição 23683 do ogol, 190 jogos)
-- ESPN: 149 jogos casados
+- ogol: 189 jogos casados (edição 23683 do ogol, 190 jogos)
+- ESPN: 189 jogos casados
+- data diferente no ogol — San Martín de San Juan x San Lorenzo: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Lanús x Newell's Old Boys: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Estudiantes x Unión: RSSSF 2011-12-11, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Argentinos Juniors x Olimpo: RSSSF 2011-12-11, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Boca Juniors x All Boys: RSSSF 2011-12-11, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Belgrano x Arsenal de Sarandí: RSSSF 2011-12-11, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Colón x Banfield: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Atlético Rafaela x Godoy Cruz: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Vélez Sarsfield x Racing Club: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
+- data diferente no ogol — Independiente x Tigre: RSSSF 2011-12-12, ogol 2011-12-18; fica a da RSSSF
 
 ### 2011/12 Clausura
 
@@ -2165,9 +2195,9 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 2012/13 Inicial
 
-- ogol: 121 jogos casados (edição 47693 do ogol, 190 jogos)
-- ESPN: 119 jogos casados
-- abandonado/suspenso, sem valer — Independiente Belgrano (2013-11-14): abandoned at 0-1 in 45'
+- ogol: 190 jogos casados (edição 47693 do ogol, 190 jogos)
+- ESPN: 188 jogos casados
+- abandonado/suspenso, sem valer — Independiente Belgrano (2012-11-14): abandoned at 0-1 in 45'
 
 ### 2012/13 Final
 
@@ -2213,25 +2243,22 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 - ogol: 444 jogos casados (edição 98636 do ogol, 450 jogos)
 - ESPN: 444 jogos casados
-- tabela publicada x jogos — arg2017:48: Lanús tabela [30, 14, 8, 8, 36, 25] jogos [28, 12, 8, 8, 34, 25] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — arg2017:48: Gimnasia La Plata tabela [30, 12, 7, 11, 26, 24] jogos [28, 11, 7, 10, 25, 23] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — arg2017:48: Atlético Tucumán tabela [30, 8, 9, 13, 34, 40] jogos [28, 8, 8, 12, 34, 39] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — arg2017:48: Tigre tabela [30, 8, 7, 15, 33, 43] jogos [28, 8, 6, 14, 33, 42] — faltam 2 jogo(s) do clube na página
 
 ### 2017/18
 
-- ogol: 140 jogos casados (edição 112999 do ogol, 378 jogos)
-- ESPN: 140 jogos casados
+- ogol: 377 jogos casados (edição 112999 do ogol, 378 jogos)
+- ESPN: 377 jogos casados
 
 ### 2018/19
 
-- ESPN: 1 jogos casados
+- ogol: 324 jogos casados (edição 125452 do ogol, 325 jogos)
+- ESPN: 324 jogos casados
 
 ### 2019/20
 
 - campeonato de 23 rodadas; a temporada parou na pandemia durante a Copa de la Superliga (fora do pacote)
-- ogol: 172 jogos casados (edição 135982 do ogol, 276 jogos)
-- ESPN: 174 jogos casados
+- ogol: 276 jogos casados (edição 135982 do ogol, 276 jogos)
+- ESPN: 276 jogos casados
 
 ### 2021
 
@@ -2266,4 +2293,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 ### 2025 Liga
 
 - título dado pela AFA em 20/11/2025 ao 1º da tabela anual (soma das fases de grupos do Apertura e do Clausura); sem jogos próprios: os jogos estão nas edições 2025 Apertura e 2025 Clausura
+
+### 2026 Apertura
+
+- edição de 2026 que já terminou, entra agora (D-01); o Clausura 2026 e a tabela anual entram quando acabarem
 
