@@ -41,6 +41,11 @@ NIVEL_FASE = {"": 0, "Grupo do rebaixamento": 0, "Desempate do rebaixamento": 0,
 WIKI: dict[str, str] = {}
 VICES: dict[str, str] = {}
 TOPS: dict[str, list] = {}
+TOPS_FONTE: dict[str, str] = {}
+# PE-015: artilheiros em que a perutops perde para três fontes: temporada -> [(jogador, clube, gols)]
+ARTILHEIROS_CORRIGE: dict[str, list[tuple[str, str, int]]] = {
+    "1996": [("Waldir Sáenz", "Alianza Lima", 20), ("Adrián Czornomaz", "Universitario", 20)],   # a perutops dá Sáenz 19
+}
 
 
 def nome_fase(f: str, fases: set[str]) -> str:
@@ -58,12 +63,12 @@ def especial(esp: str) -> str:
 
 
 def virada_do_ano(e: Edicao, jogos: list[dict]) -> None:
-    """PE-010: em 1990 os jogos de janeiro (liguilla final do Regional II e final nacional) são de 1991; a 1ª fase começa em
-    abril de 1990."""
+    """PE-010: em 1990 os jogos de janeiro e fevereiro (liguilla final do Regional II e final nacional) são de 1991; a 1ª
+    fase começa em abril de 1990."""
     if e.temporada != "1990":
         return
     for j in jogos:
-        if j["j"] and j["j"].data and j["j"].data[:7] == "1990-01":
+        if j["j"] and j["j"].data and j["j"].data[:7] in ("1990-01", "1990-02"):
             j["j"].data = "1991" + j["j"].data[4:]
 
 
@@ -219,11 +224,21 @@ POR_PONTOS = {"2009", "2012"}
 SOMA_ANO = {"2001", "2004", "2005"}
 
 
-def situacao(r: dict, campeao: str | None, k: int) -> str:
+# PE-014: rebaixados pela Wikipédia em espanhol (rebaixados_es.py), só os que jogaram a edição; de 1984 a 1991 (Regionais),
+# também só os que não jogam a edição seguinte
+REBAIXADOS: dict[str, set[str]] = {}
+_NOME_ES = {"Sportivo Jorge Chávez": "Jorge Chávez", "Jorge Washingthon": "Jorge Washington", "Lawn Tennis": "Lawn Tennis de la Exposición",
+            "FBC Piérola": "Piérola", "La Joya-Iqueño": "Juventud La Joya", "Deportivo Pacífico": "Sport Pacífico",
+            "Deportivo Binacional": "Binacional"}   # grafias da es que as REGRAS não pegam
+
+
+def situacao(r: dict, campeao: str | None, k: int, temporada: str = "") -> str:
     if r["clube"] == campeao:
         return "campeao"
     if k == 2 and campeao:
         return "vice"
+    if r["clube"] in REBAIXADOS.get(temporada, ()):
+        return "rebaixado"
     # PE-003: só "Relegated" explícito; "to Relegation Group/Playoff" não é queda
     if re.search(r"(?<!to )\brelegated\b|descend|rebaix", r.get("obs", ""), re.I):
         return "rebaixado"
@@ -385,7 +400,7 @@ def gravar(eds: list[dict]) -> None:
         # classificação final
         for r in d["final"]:
             L["classificacao_final"].append([e.temporada, r["pos"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"], r["gc"],
-                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"]), r["fonte"],
+                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"], e.temporada), r["fonte"],
                                              "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
             if r["clube"] in CLUBES and r["fonte"].startswith("lista de campeões"):   # clube só da lista de campeões (1912-1921)
                 so_tabela[r["clube"]][f"wikipedia:{r['clube']}"].append(e.ano_inicio)
@@ -409,7 +424,7 @@ def gravar(eds: list[dict]) -> None:
         tops = TOPS.get(e.temporada)
         if tops:
             for jog, ctxt, ng in tops:
-                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, "RSSSF (perutops.html)"])
+                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, TOPS_FONTE.get(e.temporada, "RSSSF (perutops.html)")])
                 if (ca := clube(ctxt, e.ano_inicio)) in CLUBES:   # clube só da lista de artilheiros também entra no clubes.csv
                     so_tabela[ca][f"rsssf:{ctxt}"].append(e.ano_inicio)
         elif gols_ed and autor_ed >= 0.95 * gols_ed:
@@ -604,11 +619,20 @@ if __name__ == "__main__":
     VICES.update(vices())
     WIKI.update(campeoes_wiki())
     TOPS.update(artilheiros_rsssf())
+    for t_, v_ in ARTILHEIROS_CORRIGE.items():
+        TOPS[t_], TOPS_FONTE[t_] = v_, "Wikipédia em espanhol e em inglês, igual ao national-football-teams.com"
     eds = []
     for e in EDICOES:
         d = montar(e, cps)
         eds.append(d)
         print(f"{e.temporada:20s} {len(d['p']['jogos']):4d} jogos  campeão {d['campeao']}  divergências {len(d['difs'])}", flush=True)
+    from rebaixados_es import rebaixados
+    jogou = {d["e"].temporada: set(d["clubes"]) | {r["clube"] for r in d["final"]} for d in eds}
+    seguinte = {d["e"].temporada: (jogou[eds[i + 1]["e"].temporada] if i + 1 < len(eds) else None) for i, d in enumerate(eds)}
+    for t_, ns in rebaixados().items():
+        if t_ in jogou and seguinte[t_] is not None:
+            REBAIXADOS[t_] = {c for n in ns if (c := _NOME_ES.get(n) or clube(n, int(t_))) and c in jogou[t_]
+                           and (c not in seguinte[t_] or not 1984 <= int(t_) <= 1991)}
     gravar(eds)
     relatorio(eds)
     print("pacote gravado em", PACOTE, "e relatório em", RELATORIO)

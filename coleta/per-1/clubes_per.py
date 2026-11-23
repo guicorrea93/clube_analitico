@@ -82,7 +82,7 @@ CLUBES: dict[str, tuple[str, str]] = {
     "San Simón": ("Moquegua", "Moquegua"), "Los Caimanes": ("Puerto Eten", "Lambayeque"), "Cobresol": ("Moquegua", "Moquegua"),
     "Atlético Universidad": ("Arequipa", "Arequipa"), "Unión Huayllaspanca": ("Cusco", "Cusco"),
     "Deportivo Los Ángeles": ("Moquegua", "Moquegua"), "La Loretana": ("Iquitos", "Loreto"), "Alcides Vigo": LIM,
-    "IMI": ("Talara", "Piura"), "Deportivo Bancos": ("", ""), "Lima Cricket": LIM, "Sport Juan Bielovucic": LIM,
+    "IMI": ("Talara", "Piura"), "Deportivo Bancos": ("Pucallpa", "Ucayali"), "Lima Cricket": LIM, "Sport Juan Bielovucic": LIM,
     "Sport Inca": LIM, "Atlético Peruano": LIM, "Sport Sáenz Peña": LIM, "Jorge Chávez N°1": LIM,
 }
 

@@ -30,6 +30,12 @@ EXTRAS: dict[str, list[dict]] = {
 # "December 16   Lima     Sporting Cristal - Alianza Lima   1-0": data e cidade antes dos clubes
 _DATA_CIDADE = "data e cidade antes dos clubes (\"December 16  Lima  A - B  1-0\"): a linha vira \"Dec 16  A  1-0  B\""
 CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
+    ("peru90", 248): ("Regional II Championship Match", "Regional Championship Match",
+                      "PE-010: o jogo do título do Regional II (Universitario 1-0 Alianza Lima) é a final do torneio, não mais um "
+                      "jogo da liguilla"),
+    ("peru90", 251): ("Final [Feb 3] [between winners or Regional I and Regional II Championships]", "National Final [Feb 3]",
+                      "PE-010: a final nacional (Universitario 4-2 Sport Boys, 3/2/1991, Estádio Nacional, como a Wikipédia em "
+                      "espanhol) fecha o Regional II e leva a data do título"),
     ("peru98", 701): ("December 16   Lima     Sporting Cristal - Alianza Lima              1-0",
                       "Dec 16  Sporting Cristal  1-0  Alianza Lima", _DATA_CIDADE),
     ("peru98", 737): ("December 20   Lima     Sporting Cristal - Universitario             2-1",
@@ -43,6 +49,9 @@ CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
 }
 
 CORRIGE: dict[tuple[str, str], dict] = {
+    ("2004", "peru04:367"): {"esp": "", "gm": 1, "gv": 1, "motivo": "Cienciano 1-1 Universitario, abandonado nos acréscimos "
+                             "(Universitario com 6 jogadores): o resultado ficou, como contam a tabela do Apertura (26 jogos, "
+                             "Cienciano 53-28, Universitario 31-25) e a Wikipédia em espanhol (PE-017)"},
     ("2021", "peru2021:542"): {"esp": "", "gm": 2, "gv": 2, "motivo": "Cusco FC 2-2 Cienciano: o TAS (21/01/2022) anulou a vitória "
                                                                "dada ao Cusco (PE-007)"},
     **{("2017", f"peru2017:{n}"): {"fase": "Final do Torneo de Verano", "motivo": "final do Torneo de Verano (maio), não a do "
@@ -75,9 +84,29 @@ CORRIGE: dict[tuple[str, str], dict] = {
 }
 TABELAS_FORA: dict[tuple[str, str], str] = {}
 EXPLICACOES: dict[str, list[str]] = {
+    "1932": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Ciclista Lima 2-2 Sporting Tabaco (es 0-0): fica a RSSSF, com a qual a tabela publicada fecha'],
+    "1933": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Sportivo Unión 1-6 Tarapacá (es 1-3): fica a RSSSF, com a qual a tabela publicada fecha para os dois clubes'],
+    "1941": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Telmo Carbajo 0-0 Chalaco (es 1-1): fica a RSSSF, com a qual a tabela publicada fecha'],
+    "1975": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Melgar 1-1 Alianza Lima (es 0-1): fica a RSSSF; a tabela publicada também diverge noutros jogos e não decide; falta uma 3ª fonte (jornal da época)'],
+    "1981": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Torino 0-2 Melgar (es 1-2): fica a RSSSF, com a qual as tabelas publicadas fecham'],
+    "1995": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'San Agustín 1-1 Alianza Lima, fase final (es 1-2): fica a RSSSF, com a qual as tabelas publicadas fecham'],
+    "1999": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Juan Aurich 3-1 Alianza Atlético (es 2-0): fica a RSSSF; a tabela publicada diverge por outro motivo (jogo a menos) e não decide; falta uma 3ª fonte'],
+    "2000": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Deportivo Wanka 3-2 Alianza Lima e Wanka 1-0 Universitario (es 0-1 e 0-0): fica a RSSSF, com a qual as tabelas publicadas fecham para o Wanka'],
+    "2004": ['placar da RSSSF x Wikipédia em espanhol (PE-017): '
+             'Cienciano 2-0 Universitario, Clausura (es 1-1): fica a RSSSF, com a qual a tabela do Clausura fecha; o 1-1 da es é o jogo do Apertura (abandonado e mantido, agora contado)'],
     "1914": ["vice Jorge Chávez N°1 pela página peru1914; a Wikipédia dá o Sport Alianza (2 fontes x 1: fica a RSSSF) (PE-026)"],
     "2022": ["ajustes de pontos da tabela publicada (Alianza Lima +2, Ayacucho +1, César Vallejo -2) sem terceira fonte que "
              "explique a origem; ficam os da tabela (PE-018)"],
+    "1996": ["artilheiros Waldir Sáenz (Alianza Lima) e Adrián Czornomaz (Universitario), 20 gols cada, como as Wikipédias em "
+             "espanhol e em inglês e o national-football-teams.com; a lista da RSSSF (perutops) dá só Sáenz, com 19 (PE-015)"],
     "1977": ["artilheiros pela lista da RSSSF (perutops), igual à Wikipédia em inglês; a es diverge em alguns anos (1934, 1977, "
              "1980, 1981, 1986-1988): fica a RSSSF até uma 3ª fonte (PE-016)"],
     "1929": ["a página da Wikipédia traz os jogos duas vezes (lista das rodadas 1-9 e tabela de confrontos); em três "

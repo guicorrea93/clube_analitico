@@ -30,14 +30,15 @@ FASES = [
      "Grupo do rebaixamento"),
     (r"^(Second Stage( \(Liguillas?\)| - Liguillas)?|Liguillas)$", "Liguillas"),
     (r"^(Championship (Group|Round|Liguilla)|Liguilla Final(?! Regional)|Final Table \(Liguilla Final\)|Final (Group|Round|Stage)\b|"
-     r"Hexagonal|Octogonal|Cuadrangular|Liguilla \[in Lima\]|Liguilla$)", "Fase final"),
+     r"Hexagonal|Octogonal|Cuadrangular|Liguilla \[in Lima\]|Liguilla$|"
+     r"Descentralised Final)", "Fase final"),   # PE-012: a "Descentralised Final" de 1988 é uma liguilla de 6
     (r"^(First Stage|First Phase|Regular (Season|Stage)|Group Stage)", ""),
     (r"^(Round of 16|Octavos de final)\b", "Oitavas de final"),
     (r"^(Quarter[- ]?finals?|Cuartos de final)\b", "Quartas de final"),
     (r"^(Regional Tournament\s*[-–]\s*)?(Semi[- ]?finals?|Championship Semifinals?)\b", "Semifinal"),
     (r"^Playoffs?$", "Semifinal"),   # "Playoffs" abre as semifinais (2015 em diante)
     (r"^(Regional Tournament\s*[-–]\s*Final|Final(?!\s*(Table|Tournament|Group|Standing|phase|stage|Aggregate|Tables))|"
-     r"Championship (Final|Match)|National (Final|Championship Playoff)|Finals$|Descentralised Final)", "Final"),
+     r"Championship (Final|Match)|National (Final|Championship Playoff)|Finals$)", "Final"),
     (r"^((Apertura|Clausura) Playoff|Championship [Pp]layoffs?|Definition Playoff|First place playoff|"
      r"Regional Championship (playoff|Match)|Playoff Regional Final|Extra match|Desempate|"
      r"(Apertura|Clausura) (Championship Playoff|Final)|Phase \d Final)", "Desempate do título"),

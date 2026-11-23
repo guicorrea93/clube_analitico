@@ -1,6 +1,6 @@
 """Baixa da Wikipédia em espanhol o texto-fonte das temporadas peruanas ("Campeonato Peruano de Fútbol de <ano>" até 1965,
-"Campeonato Descentralizado <ano>" de 1966 em diante) para data/coleta/per-1/wikipedia/es_<ano>.txt. Elas trazem os jogos
-(quase sempre em tabela de confrontos, "|match_ALI_CHA=1—0") de 1926-1929, 1943-1967, 1982 e 1985, que a RSSSF não tem.
+"Campeonato Descentralizado <ano>" de 1966 a 2018, "Liga1 <ano> (Perú)" de 2019 em diante) para data/coleta/per-1/wikipedia/es_<ano>.txt. Elas trazem os jogos
+(quase sempre em tabela de confrontos, "|match_ALI_CHA=1—0") de 1926-1929, 1943-1967, 1982 e 1985, que a RSSSF não tem. As outras temporadas servem à seção "Ascensos y descensos" (rebaixados, PE-014).
 Baixa também a lista de campeões da Wikipédia em inglês ("List of Peruvian football champions") para en_campeoes.txt, segunda fonte
 do campeão.
 
@@ -26,7 +26,8 @@ if __name__ == "__main__":
         b = pegar(URL_EN, PASTA / "en_campeoes.txt", espera=1.0)
         print("en_campeoes", "404" if b is None else f"{len(b)} bytes", flush=True)
     for ano in [int(a) for a in sys.argv[1:]] or [*range(1926, 1930), *range(1943, 1968), 1982, 1985]:
-        titulo = f"Campeonato Peruano de Fútbol de {ano}" if ano <= 1965 else f"Campeonato Descentralizado {ano}"
+        titulo = (f"Campeonato Peruano de Fútbol de {ano}" if ano <= 1965 else f"Campeonato Descentralizado {ano}" if ano <= 2018
+                  else f"Liga1 {ano} (Perú)")
         b = pegar(URL.format(t=urllib.parse.quote(titulo.replace(" ", "_"))), PASTA / f"es_{ano}.txt", espera=1.0)
         t = (b or b"").decode("utf-8", "ignore")
         print(ano, "404" if b is None else f"{len(t)} bytes, {t.count('match_')} match_{' REDIRECT' if t.startswith('#RED') else ''}", flush=True)

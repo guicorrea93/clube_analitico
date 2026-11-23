@@ -99,7 +99,10 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Equador: feito (`cf612c6`)** (EC-013, EC-014). Junto: a regra "gol da ESPN sem lado não entra" (a do PY-020) foi para o
      `outras_fontes.py` de `ecu-1`, `chi-1`, `col-1`, `per-1` e `ven-1` (EC-013, CH-017, CO-018); a Venezuela foi
      reimportada no mesmo commit, e Chile, Colômbia e Peru entram com os seus.
-   - **Peru:** PE-010, PE-012, PE-014, PE-015, PE-017, PE-022.
+   - **Peru: feito (commit no recado)** (PE-010, PE-012, PE-014, PE-015, PE-017, PE-022). Novo: `coleta/per-1/rebaixados_es.py`
+     (seção "Ascensos y descensos" das páginas da es; `baixar_wikipedia.py` agora baixa todos os anos, "Liga1 <ano> (Perú)"
+     de 2019 em diante).
+   - **PARADO AQUI em 23/11 (o Guilherme encerrou o dia).** Retomar pelo Paraguai.
    - **Paraguai:** PY-008, PY-012, PY-018, PY-019, PY-031.
    - **Chile:** CH-006, CH-014 (1986), CH-017 (só reimportar), CH-022, CH-023, CH-028.
    - **Argentina:** AR-020, AR-021, QU-003, QU-005.

@@ -78,9 +78,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): tabela do ano inteiro como "
         "classificação (1970-1979, 1998, 2000, 2009, 2012, 2020 pós-TAS, 2021 com o TAS; soma em 2001, 2004, 2005), final de "
         "2021, Jorge Chávez N°1 x do Callao, rebaixado só com 'Relegated', finais do Torneo de Verano, datas de 1990.",
-        "Ainda abertos: PE-010 (a final nacional de 1990 como 'Final'), "
-        "PE-012 (liguilla final de 1988), PE-014 (rebaixados por ano, pela es), PE-015 (artilheiros de 1996), PE-017 (placares "
-        "só com 3ª fonte), PE-022 (cidade do Deportivo Bancos).",
+        "Abertos fechados em 23/11: PE-010 (final nacional de 1990 como 'Final', em 3/2/1991; a do Regional II à parte), "
+        "PE-012 (1988: liguilla final como 'Fase final' e o jogo do título como 'Final'), PE-014 (rebaixados pela Wikipédia "
+        "em espanhol, rebaixados_es.py: 100 clubes em 48 edições), PE-015 (1996: Sáenz e Czornomaz com 20), PE-017 "
+        "(placares: fica a RSSSF, explicado ano a ano; Cienciano 1-1 Universitario de 2004 contado), PE-022 (Deportivo "
+        "Bancos em Pucallpa).",
+        "Rebaixados de 1984 a 1991 (Regionais): só os que estão na classificação e saem do campeonato; a maior parte dos "
+        "clubes regionais desses anos não está na classificação (jogos incompletos).",
     ],
     "ecu-1": [
         "ESPN sem lances de 2014 a 2020: gols com minuto e cartões desses anos só jogo a jogo (outra fonte).",

@@ -91,9 +91,9 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 1985 | 30 | 528 (528) | 1199 | 0 | 2 / 4 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1986 | 18 | 106 (106) | 260 | 0 | 1 / 6 | Deportivo San Agustín | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1987 | 30 | 542 (542) | 1300 | 0 | 3 / 4 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1988 | 37 | 425 (425) | 984 | 0 | 6 / 3 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1988 | 37 | 425 (425) | 984 | 0 | 7 / 2 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 14 | 148 (148) | 328 | 0 | 3 / 5 | Unión Huaral | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1990 | 13 | 70 (70) | 185 | 0 | 1 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1990 | 13 | 70 (70) | 185 | 0 | 2 / 2 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991 | 15 | 28 (28) | 75 | 0 | 0 / 3 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1992 | 16 | 240 (240) | 641 | 0 | 0 / 1 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1993 | 16 | 240 (240) | 684 | 0 | 0 / 1 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -107,16 +107,16 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 2001 | 12 | 268 (268) | 791 | 522 | 2 / 0 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2002 | 12 | 266 (266) | 762 | 518 | 3 / 0 | Sporting Cristal | RSSSF (peru02) |
 | 2003 | 12 | 234 (234) | 599 | 436 | 3 / 0 | Alianza Lima | RSSSF (peru03) |
-| 2004 | 14 | 366 (365) | 993 | 625 | 1 / 1 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 | 14 | 366 (365) | 995 | 625 | 2 / 0 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 | 13 | 313 (313) | 797 | 606 | 2 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006 | 12 | 268 (268) | 647 | 627 | 3 / 0 | Alianza Lima | RSSSF (peru06) |
+| 2006 | 12 | 268 (268) | 647 | 630 | 3 / 0 | Alianza Lima | RSSSF (peru06) |
 | 2007 | 12 | 264 (264) | 653 | 642 | 3 / 0 | Universidad San Martín | RSSSF (peru07) |
 | 2008 | 14 | 365 (365) | 896 | 873 | 3 / 0 | Universidad San Martín | RSSSF (peru08) |
 | 2009 | 16 | 354 (354) | 886 | 880 | 3 / 0 | Universitario | RSSSF (peru09:714+peru09:909) |
 | 2010 | 16 | 354 (354) | 937 | 931 | 4 / 0 | Universidad San Martín | RSSSF (peru2010) |
 | 2011 | 16 | 243 (243) | 595 | 565 | 1 / 0 | Juan Aurich | RSSSF (peru2011) |
 | 2012 | 16 | 354 (354) | 853 | 846 | 3 / 0 | Sporting Cristal | RSSSF (peru2012:734+peru2012:751) |
-| 2013 | 16 | 357 (357) | 871 | 869 | 1 / 2 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2013 | 16 | 357 (357) | 871 | 868 | 1 / 2 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2014 | 16 | 245 (245) | 657 | 549 | 3 / 0 | Sporting Cristal | RSSSF (peru2014) |
 | 2015 | 17 | 281 (281) | 733 | 593 | 3 / 0 | Melgar | RSSSF (peru2015) |
 | 2016 | 16 | 360 (359) | 963 | 785 | 5 / 0 | Sporting Cristal | RSSSF (peru2016) |
@@ -252,10 +252,11 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1932
 
-- sem ocorrências
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Ciclista Lima 2-2 Sporting Tabaco (es 0-0): fica a RSSSF, com a qual a tabela publicada fecha
 
 ### 1933
 
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Sportivo Unión 1-6 Tarapacá (es 1-3): fica a RSSSF, com a qual a tabela publicada fecha para os dois clubes
 - tabela publicada x jogos — peru33:22: Sport Progreso tabela [9, 3, 1, 5, 13, 21] jogos [8, 3, 1, 4, 12, 20] — a diferença vem de Circolo Sportivo Italiano x Sport Progreso (1933-08-13), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — peru33:22: Circolo Sportivo Italiano tabela [9, 1, 3, 5, 11, 14] jogos [8, 1, 3, 4, 10, 13] — a diferença vem de Circolo Sportivo Italiano x Sport Progreso (1933-08-13), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - decidido fora de campo — Circolo Sportivo Italiano Sport Progreso (1933-08-13): originally 1-1, considered W.O. per both
@@ -303,7 +304,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1941
 
-- sem ocorrências
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Telmo Carbajo 0-0 Chalaco (es 1-1): fica a RSSSF, com a qual a tabela publicada fecha
 
 ### 1942
 
@@ -471,6 +472,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1975
 
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Melgar 1-1 Alianza Lima (es 0-1): fica a RSSSF; a tabela publicada também diverge noutros jogos e não decide; falta uma 3ª fonte (jornal da época)
 - tabela publicada x jogos — peru75:14: Universitario tabela [34, 16, 10, 8, 43, 38] jogos [35, 15, 10, 10, 44, 41] — sobram 1 jogo(s) do clube na página
 - tabela publicada x jogos — peru75:14: Melgar tabela [34, 12, 14, 8, 48, 39] jogos [34, 12, 15, 7, 48, 39] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — peru75:14: Juan Aurich tabela [34, 12, 13, 9, 36, 26] jogos [34, 11, 13, 10, 36, 26] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
@@ -514,6 +516,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1981
 
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Torino 0-2 Melgar (es 1-2): fica a RSSSF, com a qual as tabelas publicadas fecham
 - decidido fora de campo — Coronel Bolognesi Deportivo Junín (1982-01-31): Awarded 2-0, did not played
 
 ### 1982
@@ -642,8 +645,6 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 - tabela publicada x jogos — peru88:673: Defensor ANDA tabela [3, 0, 0, 3, 1, 5] jogos [2, 0, 0, 2, 0, 3] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:699: Deportivo San Agustín tabela [22, 5, 8, 9, 19, 33] jogos [22, 5, 8, 9, 19, 34] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru88:699: Deportivo Municipal tabela [22, 5, 7, 10, 25, 33] jogos [22, 5, 7, 10, 26, 33] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru88:906: Sporting Cristal tabela [5, 2, 2, 1, 3, 2] jogos [6, 3, 2, 1, 5, 3] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru88:906: Universitario tabela [5, 2, 3, 0, 6, 3] jogos [6, 2, 3, 1, 7, 5] — a outra tabela publicada (peru88) fecha com os jogos: o erro é desta tabela
 - corrigido — Deportivo Tintaya x None (1988-10-16): linha da tabela de confrontos do Descentralizado "B" (não é jogo)
 - corrigido — Diablos Rojos x None (1988-10-16): linha da tabela de confrontos do Descentralizado "B" (não é jogo)
 
@@ -677,7 +678,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 ### 1990
 
 - tabela publicada x jogos — peru90:20: Universitario tabela [11, 8, 2, 1, 25, 8] jogos [2, 1, 1, 0, 2, 1] — a outra tabela publicada (peru90) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru90:20: Alianza Lima tabela [11, 5, 5, 1, 16, 8] jogos [0, 0, 0, 0, 0, 0] — faltam 11 jogo(s) do clube na página
+- tabela publicada x jogos — peru90:20: Alianza Lima tabela [11, 5, 5, 1, 16, 8] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (peru90) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru90:20: Unión Huaral tabela [11, 5, 5, 1, 13, 9] jogos [2, 0, 0, 2, 1, 3] — a outra tabela publicada (peru90) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru90:20: Sport Boys tabela [11, 5, 4, 2, 19, 9] jogos [2, 1, 1, 0, 3, 2] — a outra tabela publicada (peru90) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru90:20: Defensor Lima tabela [11, 4, 4, 3, 10, 10] jogos [0, 0, 0, 0, 0, 0] — faltam 11 jogo(s) do clube na página
@@ -689,8 +690,6 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 - tabela publicada x jogos — peru90:20: Octavio Espinosa tabela [11, 1, 4, 6, 11, 22] jogos [0, 0, 0, 0, 0, 0] — faltam 11 jogo(s) do clube na página
 - tabela publicada x jogos — peru90:20: Meteor Sport Club tabela [11, 1, 3, 7, 7, 14] jogos [0, 0, 0, 0, 0, 0] — faltam 11 jogo(s) do clube na página
 - tabela publicada x jogos — peru90:39: Deportivo Los Ángeles tabela [14, 4, 2, 8, 14, 23] jogos [0, 0, 0, 0, 0, 0] — faltam 14 jogo(s) do clube na página
-- tabela publicada x jogos — peru90:231: Universitario tabela [3, 2, 0, 1, 6, 1] jogos [4, 3, 0, 1, 7, 1] — a outra tabela publicada (peru90) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru90:231: Alianza Lima tabela [3, 2, 0, 1, 4, 2] jogos [4, 2, 0, 2, 4, 3] — sobram 1 jogo(s) do clube na página
 - decidido fora de campo — Diablos Rojos Atlético Huracán (1990-07-29): awarded 2-0
 
 ### 1991
@@ -743,10 +742,11 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1995
 
-- sem ocorrências
+- placar da RSSSF x Wikipédia em espanhol (PE-017): San Agustín 1-1 Alianza Lima, fase final (es 1-2): fica a RSSSF, com a qual as tabelas publicadas fecham
 
 ### 1996
 
+- artilheiros Waldir Sáenz (Alianza Lima) e Adrián Czornomaz (Universitario), 20 gols cada, como as Wikipédias em espanhol e em inglês e o national-football-teams.com; a lista da RSSSF (perutops) dá só Sáenz, com 19 (PE-015)
 - tabela publicada x jogos — peru96:14: Alianza Lima tabela [30, 17, 9, 4, 68, 23] jogos [30, 18, 9, 3, 69, 22] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — peru96:14: Unión Minas tabela [30, 9, 10, 11, 35, 42] jogos [30, 8, 10, 12, 34, 43] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - decidido fora de campo — Universitario Sporting Cristal (s/d): finished 1-1 but awarded 0-2 (after
@@ -761,6 +761,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 1999
 
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Juan Aurich 3-1 Alianza Atlético (es 2-0): fica a RSSSF; a tabela publicada diverge por outro motivo (jogo a menos) e não decide; falta uma 3ª fonte
 - tabela publicada x jogos — peru99:34: Alianza Atlético tabela [22, 6, 7, 9, 35, 38] jogos [21, 6, 7, 8, 35, 36] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — peru99:34: Juan Aurich tabela [22, 4, 6, 12, 21, 38] jogos [21, 3, 6, 12, 19, 38] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — peru99:424: Melgar tabela [22, 11, 3, 8, 44, 30] jogos [22, 11, 3, 8, 42, 30] — a diferença vem de Melgar x Juan Aurich (1999-02-13), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
@@ -776,6 +777,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2000
 
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Deportivo Wanka 3-2 Alianza Lima e Wanka 1-0 Universitario (es 0-1 e 0-0): fica a RSSSF, com a qual as tabelas publicadas fecham para o Wanka
 - tabela publicada x jogos — peru00:411: Sporting Cristal tabela [22, 15, 5, 2, 48, 24] jogos [22, 15, 5, 2, 48, 25] — a outra tabela publicada (peru00) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru00:411: Unión Minas tabela [22, 9, 4, 9, 33, 37] jogos [22, 9, 4, 9, 35, 37] — a outra tabela publicada (peru00) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — peru00:411: Juan Aurich tabela [22, 4, 5, 13, 22, 50] jogos [22, 4, 5, 13, 22, 51] — a outra tabela publicada (peru00) fecha com os jogos: o erro é desta tabela
@@ -819,9 +821,8 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2004
 
-- tabela publicada x jogos — peru04:18: Cienciano tabela [26, 18, 3, 5, 53, 28] jogos [25, 18, 2, 5, 52, 27] — a outra tabela publicada (peru04) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — peru04:18: Universitario tabela [26, 11, 8, 7, 31, 25] jogos [25, 11, 7, 7, 30, 24] — a outra tabela publicada (peru04) fecha com os jogos: o erro é desta tabela
-- abandonado/suspenso, sem valer — Cienciano 1-1 Universitario (2004-05-23): Sergio Ibarra 84pen; Ysrael Zúñiga 67; NB: match abandoned in injury
+- placar da RSSSF x Wikipédia em espanhol (PE-017): Cienciano 2-0 Universitario, Clausura (es 1-1): fica a RSSSF, com a qual a tabela do Clausura fecha; o 1-1 da es é o jogo do Apertura (abandonado e mantido, agora contado)
+- corrigido — Cienciano x Universitario (2004-05-23): Cienciano 1-1 Universitario, abandonado nos acréscimos (Universitario com 6 jogadores): o resultado ficou, como contam a tabela do Apertura (26 jogos, Cienciano 53-28, Universitario 31-25) e a Wikipédia em espanhol (PE-017)
 - abandonado/suspenso, sem valer — Alianza Atlético Cienciano (2004-08-14): abandoned at 1-3 at 46'
 - decidido fora de campo — Cienciano Estudiantes de Medicina (2004-11-21): awarded 2-0, Grau dns
 - decidido fora de campo — Estudiantes de Medicina Alianza Lima (2004-12-15): awarded 0-2, Grau withdrew

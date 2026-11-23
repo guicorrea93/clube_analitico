@@ -5,8 +5,8 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 109, de 1912 a 2025; 18 sem jogos.
-- **Jogos:** 17318 (17271 com placar); **gols:** 47452; **gols com autor:** 20236 (43%); **cartões:** 21067.
-- **Clubes:** 167; **artilheiros:** 97 edições com artilheiro (100 linhas, com empates).
+- **Jogos:** 17318 (17272 com placar); **gols:** 47454; **gols com autor:** 20238 (43%); **cartões:** 21067.
+- **Clubes:** 167; **artilheiros:** 97 edições com artilheiro (101 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2552 linhas.
 - **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão peruana de 1912 a 2025, um campeão por ano (sem campeonato em 1922-1925 e 1936). 1912-1921: Liga Peruana de Football, só com campeão e vice. Sem jogos em 1970-1974, 1976, 1977 e 1979 (só a tabela final); jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003.
@@ -48,8 +48,8 @@ Fontes dos jogos por edição:
 
 Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
 
-- **Edições em que todas as tabelas fecham com os jogos:** 51.
-- **Edições com alguma tabela divergente** (39; motivo no relatório, na edição): 1927, 1928, 1929, 1931, 1933, 1934, 1948, 1949, 1950, 1951, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1966, 1967, 1975, 1978, 1982, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1996, 1999, 2000, 2004, 2013, 2021.
+- **Edições em que todas as tabelas fecham com os jogos:** 52.
+- **Edições com alguma tabela divergente** (38; motivo no relatório, na edição): 1927, 1928, 1929, 1931, 1933, 1934, 1948, 1949, 1950, 1951, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1966, 1967, 1975, 1978, 1982, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1996, 1999, 2000, 2013, 2021.
 - **Edições sem tabela para conferir** (19): 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1926, 1970, 1971, 1972, 1973, 1974, 1976, 1977, 1979.
 - **Edições com menos jogos que o esperado:** 1935 (9 de 6), 1950 (89 de 90), 1957 (110 de 130), 1958 (110 de 130), 1959 (110 de 130), 1964 (110 de 130), 1965 (110 de 130), 1975 (323 de 322), 2000 (266 de 265), 2004 (366 de 365), 2016 (360 de 359).
 
@@ -229,9 +229,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1985: Regional (grupos, 4 grupos); Desempate do Regional (mata_mata, jogo_unico); Repechaje do Regional (mata_mata, ida_volta); Quartas de final do Regional (mata_mata, jogo_unico); Semifinal do Regional (mata_mata, jogo_unico); Final do Regional (mata_mata, jogo_unico); Primeira fase (liga); Fase final (liga)
 - 1986: Primeira fase (grupos, 3 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
 - 1987: Regional (grupos, 4 grupos); Final do Regional (mata_mata, ida_volta); Primeira fase (grupos, 3 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
-- 1988: Regional (grupos, 4 grupos); Desempate do rebaixamento (mata_mata, jogo_unico); Final do Regional (mata_mata, jogo_unico); Primeira fase (grupos, 4 grupos); Fase final (liga); Final (mata_mata, ida_volta)
+- 1988: Regional (grupos, 4 grupos); Desempate do rebaixamento (mata_mata, jogo_unico); Final do Regional (mata_mata, jogo_unico); Primeira fase (grupos, 4 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
 - 1989: Regional (grupos, 2 grupos); Primeira fase (grupos, 3 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
-- 1990: Regional (liga); Regional II (liga); Final do Regional II (mata_mata, jogo_unico)
+- 1990: Regional (liga); Regional II (liga); Final do Regional II (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
 - 1991: Quartas de final do Regional (mata_mata, ida_volta); Quartas de final do Regional II (mata_mata, ida_volta); Regional (liga); Regional II (grupos, 2 grupos)
 - 1994: Apertura (grupos, 2 grupos); Final do Apertura (mata_mata, jogo_unico); Primeira fase (grupos, 2 grupos)
 - 1995: Primeira fase (liga); Fase final (liga)
@@ -431,7 +431,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2024 | Universitario | Sporting Cristal |
 | 2025 | Universitario | Cusco FC |
 
-**Rebaixados marcados na classificação:** 77 em 42 edições (só onde a tabela publicada marca a queda); quem mais caiu: Carlos Mannucci (3), Deportivo Municipal (3), Telmo Carbajo (2), Centro Iqueño (2), Unión Callao (2).
+**Rebaixados marcados na classificação:** 177 em 83 edições (só onde a tabela publicada marca a queda); quem mais caiu: José Gálvez (6), Ciclista Lima (5), Carlos Mannucci (5), Atlético Torino (5), Jorge Chávez (4).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
@@ -534,16 +534,19 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 Registradas em `coleta/per-1/explicacoes.py`; cada uma também aparece no relatório, na edição.
 
-### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 5)
+### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 7)
 
+- **peru90 · 248:** «Regional II Championship Match» → «Regional Championship Match»: PE-010: o jogo do título do Regional II (Universitario 1-0 Alianza Lima) é a final do torneio, não mais um jogo da liguilla
+- **peru90 · 251:** «Final [Feb 3] [between winners or Regional I and Regional II Championships]» → «National Final [Feb 3]»: PE-010: a final nacional (Universitario 4-2 Sport Boys, 3/2/1991, Estádio Nacional, como a Wikipédia em espanhol) fecha o Regional II e leva a data do título
 - **peru98 · 701:** «December 16   Lima     Sporting Cristal - Alianza Lima              1-0» → «Dec 16  Sporting Cristal  1-0  Alianza Lima»: data e cidade antes dos clubes ("December 16  Lima  A - B  1-0"): a linha vira "Dec 16  A  1-0  B"
 - **peru98 · 737:** «December 20   Lima     Sporting Cristal - Universitario             2-1» → «Dec 20  Sporting Cristal  2-1  Universitario»: data e cidade antes dos clubes ("December 16  Lima  A - B  1-0"): a linha vira "Dec 16  A  1-0  B"
 - **peru98 · 739:** «December 23   Lima     Universitario - Sporting Cristal             2-1  [4-2 pen]» → «Dec 23  Universitario  2-1  Sporting Cristal  [4-2 pen]»: data e cidade antes dos clubes ("December 16  Lima  A - B  1-0"): a linha vira "Dec 16  A  1-0  B"
 - **peru2025 · 1058:** «35 -  9 - 20 - 16» → «35 -  9 - 10 - 16»: Comerciantes Unidos com 20 empates na tabela acumulada (9+20+16 não dá 35 jogos); são 10, como na soma do Apertura e do Clausura
 - **peru75 · 406:** «Union Huaraz» → «Unión Huaral»: "Union Huaraz" não está na tabela de 1975; é o Unión Huaral, o único clube da tabela sem esse jogo contra o Juan Aurich
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 41)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 42)
 
+- **2004 · peru04:367:** [vale o placar de campo, gm = 1, gv = 1] Cienciano 1-1 Universitario, abandonado nos acréscimos (Universitario com 6 jogadores): o resultado ficou, como contam a tabela do Apertura (26 jogos, Cienciano 53-28, Universitario 31-25) e a Wikipédia em espanhol (PE-017)
 - **2021 · peru2021:542:** [vale o placar de campo, gm = 2, gv = 2] Cusco FC 2-2 Cienciano: o TAS (21/01/2022) anulou a vitória dada ao Cusco (PE-007)
 - **2017 · peru2017:396:** [fase = Final do Torneo de Verano] final do Torneo de Verano (maio), não a do campeonato (PE-013)
 - **2017 · peru2017:400:** [fase = Final do Torneo de Verano] final do Torneo de Verano (maio), não a do campeonato (PE-013)
@@ -601,10 +604,20 @@ Registradas em `coleta/per-1/explicacoes.py`; cada uma também aparece no relat�
 - **1991:** CNI 1-1 Defensor Lima (Quartas de final do Regional II, rsssf:peru91:197) confronto de ida e volta numa linha só ("A - B 3-0 / 2-3"); mando da volta presumido
 - **1991:** Defensor Lima 2-1 CNI (Quartas de final do Regional II, rsssf:peru91:197) confronto de ida e volta numa linha só ("A - B 3-0 / 2-3"); mando da volta presumido
 
-### Divergências entre fontes já explicadas (`EXPLICACOES`, 5)
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 15)
 
+- **1932:** placar da RSSSF x Wikipédia em espanhol (PE-017): Ciclista Lima 2-2 Sporting Tabaco (es 0-0): fica a RSSSF, com a qual a tabela publicada fecha
+- **1933:** placar da RSSSF x Wikipédia em espanhol (PE-017): Sportivo Unión 1-6 Tarapacá (es 1-3): fica a RSSSF, com a qual a tabela publicada fecha para os dois clubes
+- **1941:** placar da RSSSF x Wikipédia em espanhol (PE-017): Telmo Carbajo 0-0 Chalaco (es 1-1): fica a RSSSF, com a qual a tabela publicada fecha
+- **1975:** placar da RSSSF x Wikipédia em espanhol (PE-017): Melgar 1-1 Alianza Lima (es 0-1): fica a RSSSF; a tabela publicada também diverge noutros jogos e não decide; falta uma 3ª fonte (jornal da época)
+- **1981:** placar da RSSSF x Wikipédia em espanhol (PE-017): Torino 0-2 Melgar (es 1-2): fica a RSSSF, com a qual as tabelas publicadas fecham
+- **1995:** placar da RSSSF x Wikipédia em espanhol (PE-017): San Agustín 1-1 Alianza Lima, fase final (es 1-2): fica a RSSSF, com a qual as tabelas publicadas fecham
+- **1999:** placar da RSSSF x Wikipédia em espanhol (PE-017): Juan Aurich 3-1 Alianza Atlético (es 2-0): fica a RSSSF; a tabela publicada diverge por outro motivo (jogo a menos) e não decide; falta uma 3ª fonte
+- **2000:** placar da RSSSF x Wikipédia em espanhol (PE-017): Deportivo Wanka 3-2 Alianza Lima e Wanka 1-0 Universitario (es 0-1 e 0-0): fica a RSSSF, com a qual as tabelas publicadas fecham para o Wanka
+- **2004:** placar da RSSSF x Wikipédia em espanhol (PE-017): Cienciano 2-0 Universitario, Clausura (es 1-1): fica a RSSSF, com a qual a tabela do Clausura fecha; o 1-1 da es é o jogo do Apertura (abandonado e mantido, agora contado)
 - **1914:** vice Jorge Chávez N°1 pela página peru1914; a Wikipédia dá o Sport Alianza (2 fontes x 1: fica a RSSSF) (PE-026)
 - **2022:** ajustes de pontos da tabela publicada (Alianza Lima +2, Ayacucho +1, César Vallejo -2) sem terceira fonte que explique a origem; ficam os da tabela (PE-018)
+- **1996:** artilheiros Waldir Sáenz (Alianza Lima) e Adrián Czornomaz (Universitario), 20 gols cada, como as Wikipédias em espanhol e em inglês e o national-football-teams.com; a lista da RSSSF (perutops) dá só Sáenz, com 19 (PE-015)
 - **1977:** artilheiros pela lista da RSSSF (perutops), igual à Wikipédia em inglês; a es diverge em alguns anos (1934, 1977, 1980, 1981, 1986-1988): fica a RSSSF até uma 3ª fonte (PE-016)
 - **1929:** a página da Wikipédia traz os jogos duas vezes (lista das rodadas 1-9 e tabela de confrontos); em três confrontos os placares das duas não batem (Universitario x Ciclista Lima, Universitario x Unión Buenos Aires, Hidroaviación x Ciclista Lima) e os dois jogos ficam; falta um jogo do Atlético Chalaco
 - **1931:** a tabela publicada soma pontos de bônus da liga de reservas (um quarto dos pontos dela); a conferência usa só J V E D GP GC
@@ -648,7 +661,8 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 - 1912-1921 (Liga Peruana): pela D-06 (A), as edições ficam com a ordem e os participantes das páginas peru1912-1921 (sem jogos, salvo os poucos de 1912 que não entram).
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): tabela do ano inteiro como classificação (1970-1979, 1998, 2000, 2009, 2012, 2020 pós-TAS, 2021 com o TAS; soma em 2001, 2004, 2005), final de 2021, Jorge Chávez N°1 x do Callao, rebaixado só com 'Relegated', finais do Torneo de Verano, datas de 1990.
-- Ainda abertos: PE-010 (a final nacional de 1990 como 'Final'), PE-012 (liguilla final de 1988), PE-014 (rebaixados por ano, pela es), PE-015 (artilheiros de 1996), PE-017 (placares só com 3ª fonte), PE-022 (cidade do Deportivo Bancos).
+- Abertos fechados em 23/11: PE-010 (final nacional de 1990 como 'Final', em 3/2/1991; a do Regional II à parte), PE-012 (1988: liguilla final como 'Fase final' e o jogo do título como 'Final'), PE-014 (rebaixados pela Wikipédia em espanhol, rebaixados_es.py: 100 clubes em 48 edições), PE-015 (1996: Sáenz e Czornomaz com 20), PE-017 (placares: fica a RSSSF, explicado ano a ano; Cienciano 1-1 Universitario de 2004 contado), PE-022 (Deportivo Bancos em Pucallpa).
+- Rebaixados de 1984 a 1991 (Regionais): só os que estão na classificação e saem do campeonato; a maior parte dos clubes regionais desses anos não está na classificação (jogos incompletos).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/per-1.md`):
 
@@ -693,6 +707,7 @@ Código em `coleta/per-1/`:
 | `importar.py` | Junta as fontes da 1ª divisão peruana e grava o pacote em data/coleta/per-1/pacote/ e o relatório em docs/coleta/per-1.md. |
 | `ler_rsssf.py` | Lê os jogos de cada edição nas páginas da RSSSF (data/coleta/per-1/rsssf/) com o leitor comum (rsssf_sul). Nos anos sem |
 | `outras_fontes.py` | Casa os jogos da RSSSF com o ogol e com a ESPN. |
+| `rebaixados_es.py` | Rebaixados por ano pela Wikipédia em espanhol (PE-014): a seção "Ascensos y descensos" da página de cada temporada |
 | `ver.py` | Ajuda da conferência: mostra os jogos entre dois clubes numa edição, com a linha da página e o texto em volta. |
 | `wikipedia_jogos.py` | Jogos da Wikipédia em espanhol (data/coleta/per-1/wikipedia/es_<ano>.txt), para os anos que a RSSSF não tem. |
 

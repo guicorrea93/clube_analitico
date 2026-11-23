@@ -751,3 +751,37 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar `ecu-1` e `ven-1` (gols e artilheiros).
 - **Commit:** `cf612c6`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 23/11 — Abertos da revisão: Peruano (per-1)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - PE-010: em 1990, o jogo do título do Regional II (Universitario 1-0 Alianza Lima) virou "Final do Regional II". A
+    final nacional (Universitario 4-2 Sport Boys) virou "Final", em 3/2/1991.
+  - PE-012: em 1988, a liguilla final (15 jogos) virou "Fase final". O jogo do título (Sporting Cristal 2-1 Universitario)
+    ficou como "Final".
+  - PE-014: rebaixados pela Wikipédia em espanhol (novo `rebaixados_es.py`, com a seção "Ascensos y descensos" de cada
+    temporada). São 100 clubes a mais com "rebaixado", em 48 edições. Quem ganhou a revalidação ("Se Mantiene") não
+    conta. De 1984 a 1991, só conta quem sai do campeonato.
+  - PE-015: 1996 com dois artilheiros de 20 gols (Waldir Sáenz e Adrián Czornomaz), como as Wikipédias em espanhol e em
+    inglês e o national-football-teams.com.
+  - PE-017: os placares da RSSSF ficam. Em 6 dos 9 anos, a tabela publicada fecha com eles; está explicado ano a ano. Em
+    2004, o Cienciano 1-1 Universitario do Apertura (abandonado nos acréscimos) passou a contar com o 1-1, e a tabela
+    fecha.
+  - PE-022: Deportivo Bancos em Pucallpa (Ucayali).
+  - Junto (do commit `cf612c6`): gol da ESPN sem lado não entra. Em 2006, Universitario 3-2 Alianza Lima ganha os gols
+    da ESPN.
+- **O que mudou no pacote:**
+  - **Fases:** 1988 e 1990.
+  - **Datas:** a final de 1990.
+  - **Placar:** 1 jogo (2004-0122, de abandonado para 1-1).
+  - **Classificação:** situação "rebaixado".
+  - **Artilheiros:** 1996.
+  - **Clubes:** a cidade de 1 clube.
+- **Ids das partidas:** não mudam.
+- **Teste de carga:** `per-1: 109 edições, 17318 jogos, 14 clubes novos -> OK` (os 14 são os da Liga Peruana, ainda
+  não carregados).
+- **Pedido ao agente 1:** recarregar o `per-1`.
+- **Commit:** (abaixo).
+- **O leitor comum (`rsssf_sul.py`) não mudou.**
