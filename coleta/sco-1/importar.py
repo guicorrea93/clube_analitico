@@ -34,6 +34,7 @@ sys.path.insert(0, str(AQUI))
 import clubes_sco as clubes  # noqa: E402
 from edicoes import DADOS, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
+import notas_wiki  # noqa: E402
 from rsssf_sco import ler as ler_hist  # noqa: E402
 from wiki_tabela import limpar, resultados as wiki_resultados, tabelas as wiki_tabelas  # noqa: E402
 
@@ -781,7 +782,7 @@ def main() -> None:
                 "fonte": fonte_ordem,
                 "observacao": ("título dividido (jogo de desempate 2-2)" if dividido and campeao_c else
                                "não foi reeleito para a temporada seguinte" if a in SEM_REBAIXAMENTO and c in saem else
-                               (w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None)) or None)})
+                               (w and next((notas_wiki.traduzir(x["hth"] or x["nota"]) for x in w["times"] if x["clube"] == c), None)) or None)})
 
         # ---- partidas, gols, cartões, estatísticas
         jogos.sort(key=lambda j: (j["data"] or "9999", j["rodada"] or 0, j["m"]))

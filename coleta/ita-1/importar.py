@@ -35,6 +35,7 @@ import clubes_ita as clubes  # noqa: E402
 import spareggi  # noqa: E402
 from edicoes import DADOS, DIVISIONE, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
+import notas_wiki  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
 
 LONDRES = ZoneInfo("Europe/London")
@@ -828,7 +829,7 @@ def main() -> None:
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 and not sem_titulo else "rebaixado" if c in rebaixados else None,
                 "fonte": fonte_ordem if c in ordem else "calculada (campanha nos grupos)",
-                "observacao": obs_declassado.get(c) or (((w and next((x["hth"] or x["nota"] for x in w["times"]
+                "observacao": obs_declassado.get(c) or (((w and next((notas_wiki.traduzir(x["hth"] or x["nota"]) for x in w["times"]
                                                                        if x["clube"] == c), None)) or None)
                                                         if c in ordem else "não foi ao grupo final")})
 
