@@ -58,6 +58,13 @@ PENDENCIAS: dict[str, list[str]] = {
     "fra-1": [
         "Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).",
         "Datas dos 356 jogos dos anos 1930 que nenhuma fonte tem.",
+        "Revisão FR-009: 99 jogos (1948/49-1998/99) em que o transfermarkt e o ogol diferem da base por 1 ou 2 dias; só os 41 de "
+        "3 dias ou mais foram corrigidos. Conferir uma rodada num jornal (L'Équipe na Gallica) antes de trocar os outros.",
+        "Revisão FR-017: 4 pares de jogos em que a Wikipédia fr dá outro mando ou placar (1935/36, 1937/38, 1945/46, 1950/51); "
+        "fica a base até conferir num jornal da época (anotado em EXPLICACOES).",
+        "Revisão FR-005: a vitória do Marseille sobre o Bordeaux em 27/10/1946 (0-0 no tribunal) vem das tabelas das Wikipédias; "
+        "conferir no L'Équipe de 28/10/1946.",
+        "Árbitro: os arquivos do football-data da França não trazem (revisão FR-022); seria jogo a jogo pelo transfermarkt.",
     ],
     "por-1": [
         "Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).",
@@ -108,6 +115,20 @@ DICIONARIOS = {
     "SUSPENSOS": "Jogos suspensos e completados em outro dia",
     "GOLS_MANUAIS": "Autores dos gols pela ficha do BDFutbol (a ESPN não fecha)",
     "NOTA_ARTILHEIRO": "Artilheiros com divergência entre fontes anotada",
+    "FUSOES": "Fora da temporada seguinte por fusão",
+    "ADMINISTRATIVOS": "Rebaixamentos fora de campo (observação na classificação)",
+    "IGNORAR_AJUSTE": "Ajustes da Wikipédia que não são punição",
+    "NAO_PUNIR": "Punições que só a RSSSF traz e não se confirmam",
+    "ORDEM_PELO_CRITERIO": "Ordem pelo critério de desempate da época",
+    "ARTILHEIROS_EXTRA": "Artilheiros empatados que a RSSSF não lista",
+    "NOMES_ARTILHEIRO": "Nomes de artilheiros acertados",
+    "GOLS_ARTILHEIRO": "Gols de artilheiro corrigidos",
+    "PUNICOES": "Punições que nenhuma tabela usada traz",
+    "FORA_DE_CAMPO": "Rebaixamentos fora de campo e casos especiais (observação da edição)",
+    "ORDEM_FIXA": "Posições fixadas por decisão de tribunal",
+    "AJUSTES": "Ajustes de pontos que valem hoje",
+    "OBS_CLASSIF": "Observações na classificação final",
+    "ORDEM_RSSSF": "Temporadas com a ordem oficial da RSSSF",
     "ORDEM_ITWIKI": "Ordem entre empatados pela Wikipédia it (classifica avulsa)",
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
     "EXPLICACOES": "Divergências entre fontes já explicadas",

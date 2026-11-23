@@ -4,7 +4,7 @@ Base dos jogos: engsoccerdata. Cada jogo é casado pelo par mandante x visitante
 returno), com:
   ogol           rodada oficial e conferência de placar (clubes casados pelo código do ogol, por votação); completa as
                  temporadas em que a base vem com jogos faltando ou fora da temporada (ver `reparar`);
-  football-data  1993/94+: conferência de placar; hora (2019/20+), árbitro e estatísticas por time;
+  football-data  1993/94+: conferência de placar; hora (2019/20+) e estatísticas por time (sem árbitro: os arquivos da França não têm);
   ESPN           2001/02+: hora, estádio, público, gols e cartões com minuto (clubes casados pelo código da ESPN);
   RSSSF          matriz de resultados e tabela final de 1932/33 a 1997/98 (tablesf/franfullhist.html), tabela final das
                  temporadas seguintes e lista de artilheiros (tablesf/frantops.html);
@@ -32,6 +32,7 @@ sys.path.insert(0, str(AQUI))
 import clubes_fra as clubes  # noqa: E402
 from edicoes import DADOS, RAIZ, TEMPORADAS, nome_oficial, rsssf_url, temporada, wiki_titulo  # noqa: E402
 from pacote import gravar  # noqa: E402
+import notas_wiki  # noqa: E402
 from rsssf_fra import ler as ler_hist  # noqa: E402
 from wiki_tabela import limpar, tabelas as wiki_tabelas  # noqa: E402
 
@@ -49,8 +50,11 @@ CORRECOES: dict[tuple, tuple] = {
     (1932, "CA Paris (alt)", "SC Fives Lille"): (1, 2, RSSSF_WIKI_1932),
     (1932, "SC Fives Lille", "Stade Olympique Montpellierain"): (2, 3, RSSSF_WIKI_1932),
     (1932, "SC Fives Lille", "CA Paris (alt)"): (0, 2, RSSSF_WIKI_1932),
-    (1958, "FC Sochaux", "Stade Rennes"): (2, 1, "a base e o ogol trazem 4-3; a matriz e a tabela da RSSSF e a tabela da Wikipédia "
-                                                 "fecham com 2-1"),
+    # revisão FR-007: a base troca os placares dos dois jogos (ogol, matriz da RSSSF e grade da Wikipédia fr)
+    (1947, "Racing Club de France", "Stade Francais FC"): (5, 1, "o ogol, a matriz da RSSSF e a grade da Wikipédia fr dão 5-1; a "
+                                                                 "base traz 0-1 (o placar do outro jogo)"),
+    (1947, "Stade Francais FC", "Racing Club de France"): (1, 0, "o ogol, a matriz da RSSSF e a grade da Wikipédia fr dão 1-0; a "
+                                                                 "base traz 1-5 (o placar do outro jogo)"),
 }
 
 # resultado dado no tribunal: (ano, mandante, visitante) -> (gols, gols, motivo). Fica `awd`.
@@ -66,6 +70,19 @@ TRIBUNAL: dict[tuple, tuple] = {
         0, 2, None, "2-2", "o Metz escalou o goleiro Mondragón irregularmente: 0-2 para o Rennes (RSSSF)"),
     (2013, "FC Nantes", "SC Bastia"): (
         0, 0, "v", "2-0", "vitória dada ao Bastia com 0-0 (RSSSF: \"awarded 0-0 win to Bastia; originally 2-0\")"),
+    (1946, "Olympique Marseille", "Girondins Bordeaux"): (
+        0, 0, "m", "0-0", "as tabelas das Wikipédias fr e en contam a vitória do Marseille (a grade fr mostra 0-0), e só com ela "
+                          "as tabelas fecham; não conferido em jornal da época (revisão FR-005)"),
+    (1951, "Olympique Marseille", "Racing Club de France"): (
+        0, 0, "v", "2-3 (abandonado aos 88 minutos, invasão de campo)",
+        "vitória dada ao Racing com 0-0 (Wikipédia fr: \"gagné 0-0 sur tapis vert\"; transfermarkt: W.O.) (revisão FR-003)"),
+    (1955, "AS Nancy", "Olympique Marseille"): (
+        0, 0, "v", "2-4 (abandonado aos 87 minutos, invasão de campo)",
+        "vitória dada ao Marseille com 0-0 (Wikipédia fr: \"gagné sur tapis vert par l'OM\"; transfermarkt: W.O.) (revisão "
+        "FR-004)"),
+    (1992, "Valenciennes FC", "Olympique Marseille"): (
+        0, 0, "nenhum", "0-1", "declarado perdido para os dois clubes (caso VA-OM; Wikipédia fr; a RSSSF também conta "
+                               "derrota para o Marseille) (revisão FR-006)"),
     (2016, "SC Bastia", "Olympique Lyon"): (
         0, 0, "v", "0-0 (abandonado no intervalo)", "abandonado no intervalo por invasão de campo; vitória dada ao Lyon com 0-0 "
                                                    "(RSSSF; as tabelas não contam os gols)"),
@@ -93,8 +110,60 @@ FORCAR_OGOL = {
 INTERROMPIDAS = {2019: "interrompida em março de 2020 pela pandemia de covid-19 (279 de 380 jogos); a classificação final é "
                        "pela média de pontos por jogo"}
 
-# 1973/74 a 1975/76: 1 ponto a mais para quem marca 3 gols ou mais no jogo, qualquer que seja o resultado
-BONUS = {1973, 1974, 1975}
+# ponto de bônus (revisão FR-002): 1973/74, 1 ponto a mais para quem marca 3 gols ou mais no jogo, qualquer que seja o
+# resultado; 1974/75 e 1975/76, 1 ponto a mais por vitória com 3 gols ou mais de diferença (Wikipédia fr)
+BONUS = {1973: "gols", 1974: "diferenca", 1975: "diferenca"}
+
+# clube que não está na temporada seguinte por fusão, sem ter caído (revisão FR-001; RC Roubaix pela decisão D-18 c)
+FUSOES: dict[tuple, str] = {
+    (1938, "Olympique Lillois Lille"): "fundiu-se com o SC Fives no Lille OSC (guerra), que ficou com a vaga dos dois",
+    (1938, "SC Fives Lille"): "fundiu-se com o Olympique Lillois no Lille OSC (guerra), que ficou com a vaga dos dois",
+    (1938, "Excelsior Roubaix"): "fundiu-se com o RC Roubaix no CO Roubaix-Tourcoing (guerra), que ficou com a vaga do Excelsior",
+    (1938, "RC Roubaix"): "fundiu-se com o Excelsior no CO Roubaix-Tourcoing (guerra)",
+    (1966, "Toulouse FC (1937)"): "fundiu-se com o Red Star, que ficou com a vaga (Red Star FC)",
+}
+# rebaixado fora de campo: observação na classificação final (revisão FR-015)
+ADMINISTRATIVOS: dict[tuple, str] = {
+    (1990, "Girondins Bordeaux"): "rebaixado administrativamente pela DNCG",
+    (1990, "Stade Brest"): "rebaixado administrativamente pela DNCG",
+    (1990, "OGC Nice"): "rebaixado administrativamente pela DNCG",
+    (1993, "Olympique Marseille"): "rebaixado pela FFF (caso VA-OM)",
+    (2000, "Toulouse FC"): "rebaixado administrativamente pela DNCG (para o National)",
+    (2016, "SC Bastia"): "rebaixado administrativamente pela DNCG",
+    (1932, "FC Antibes"): "1º do grupo B, excluído da final por suborno (revisão FR-020); não há 3º lugar oficial",
+}
+# ajuste de pontos da Wikipédia (en) que não é punição: (ano, clube) -> motivo
+IGNORAR_AJUSTE: dict[tuple, str] = {
+    (1992, "Valenciennes FC"): "a Wikipédia en desconta 1 ponto para representar a derrota dos dois no tribunal",
+    (1992, "Olympique Marseille"): "a Wikipédia en desconta 1 ponto para representar a derrota dos dois no tribunal",
+}
+# punição que só a RSSSF traz e que não se confirma: (ano, clube) -> motivo (revisão FR-010)
+NAO_PUNIR: dict[tuple, str] = {
+    (2008, "Le Havre AC"): "a RSSSF dá 1 ponto a menos ao Le Havre; as Wikipédias fr e en dão 26 pontos, sem punição nem nota",
+}
+# critério de desempate por época (revisão FR-018): a Wikipédia fr cita a média de gols em todas as temporadas até 1961/62
+# e nenhuma depois; desde 1962/63, saldo (o confronto direto como último critério)
+ULTIMO_MEDIA = 1961
+# temporada em que a ordem oficial vem do critério da época (a da tabela usada não o segue) (FR-018)
+ORDEM_PELO_CRITERIO = {1953: "pela média de gols, a regra da época, Nancy (50/65 = 0,769) fica à frente do Metz (45/59 = 0,763), "
+                             "como na Wikipédia fr; a RSSSF põe o Metz em 12º"}
+# datas corrigidas (revisão FR-009): data/coleta/fra-1/correcoes/datas.csv (os 41 jogos em que o transfermarkt e o ogol
+# concordam contra a base por 3 dias ou mais; os 99 de 1-2 dias ficam até conferir num jornal)
+CORRECOES_DIR = DADOS / "correcoes"
+DATAS: dict[str, list] = {}
+
+# artilheiros: nomes de jogo (revisão FR-019, Wikipédia fr) e correções à lista da RSSSF (FR-011, D-17 b)
+NOMES_ARTILHEIRO = {
+    'Tadeusz "Thadée" Cisowski': "Thadée Cisowski", "Touré Sékou": "Sékou Touré", 'André "Trello" Abbeglen': "André Abegglen",
+    'Robert Furois "Mercier"': "Robert Mercier", 'Deszö Kronenberger "Koranyi"': "Désiré Koranyi",
+    'Edouard Kargulewicz "Kargu"': "Édouard Kargu", 'Pedro Correia "Pauleta"': "Pauleta", "Alen Boksic": "Alen Bokšić",
+    "Zlatan Ibrahimovic": "Zlatan Ibrahimović", "Vahid Halilhodzic": "Vahid Halilhodžić",
+}
+ARTILHEIROS_EXTRA = {   # (ano, jogador, clube) -> gols: artilheiros empatados que a RSSSF não lista
+    (1979, "Delio Onnis", "AS Monaco"): 21, (1983, "Patrice Garande", "AJ Auxerre"): 21,
+}
+GOLS_ARTILHEIRO = {(1992, "Alen Bokšić"): (23, "a RSSSF dá 22; fica a contagem oficial da LFP (23), como no ES-005 "
+                                                "(decisão D-17 b)")}
 
 GRUPOS_1932 = 1932   # 1932/33: grupos A e B (10 clubes cada) e final entre os primeiros
 
@@ -102,22 +171,39 @@ GRUPOS_1932 = 1932   # 1932/33: grupos A e B (10 clubes cada) e final entre os p
 WIKI_ERRA = "a tabela da Wikipédia erra gols, vitórias ou empates de alguns clubes; a da RSSSF fecha com os jogos e dá a ordem"
 RSSSF_ERRA = "a tabela da RSSSF tem erro de digitação em um clube (gols ou V-E-D que não somam); a da Wikipédia fecha com os jogos"
 EXPLICACOES: dict[int, list[str]] = {
-    1937: ["a RSSSF chama de \"AMIENS\" o clube que o ogol e a Wikipédia dão como Antibes (os resultados são os mesmos)",
+    1937: ["Excelsior 4-0 Valenciennes e Valenciennes 1-1 Excelsior: a Wikipédia fr dá 5-0 e 1-0, que fecham com as tabelas das "
+           "Wikipédias fr e en; conferir num jornal da época antes de mudar (revisão FR-017)",
+           "a RSSSF chama de \"AMIENS\" o clube que o ogol e a Wikipédia dão como Antibes (os resultados são os mesmos)",
            "o ogol não tem a data de mais da metade dos jogos (traz 01/07/1937): ficam sem data", WIKI_ERRA],
-    1945: ["Red Star x Cannes: a base traz 1-1 e o ogol 0-0. A tabela da RSSSF e a da Wikipédia fecham com 0-0, mas a nota da "
+    1945: ["Bordeaux 0-3 Sète e Sète 2-4 Bordeaux: a Wikipédia fr dá Bordeaux 4-2 e Sète 3-0. Fica a base; conferir num jornal "
+           "da época (revisão FR-017)",
+           "Red Star x Cannes: a base traz 1-1 e o ogol 0-0. A tabela da RSSSF e a da Wikipédia fecham com 0-0, mas a nota da "
            "RSSSF diz \"possibly Red Star - Cannes 1-1; off. goal averages 63-60 (RS) resp. 52-56 (C)\", que é o 1-1 da base. "
            "Fica a base"],
-    1946: ["a tabela da RSSSF dá ao CO Roubaix-Tourcoing 11 derrotas (os números não somam 38 jogos; são 9)", WIKI_ERRA],
-    1951: [WIKI_ERRA], 1953: [WIKI_ERRA], 1955: [WIKI_ERRA], 1975: [WIKI_ERRA], 1979: [
+    1946: ["a tabela da RSSSF dá ao CO Roubaix-Tourcoing 11 derrotas (os números não somam 38 jogos; são 9)"],
+    1951: ["a tabela da RSSSF conta Marseille x Racing (0-0, vitória do Racing no tribunal) como empate; a da Wikipédia conta "
+           "a vitória e fecha com os jogos"],
+    1953: [WIKI_ERRA],
+    1955: ["a tabela da RSSSF conta Nancy x Marseille (0-0, vitória do Marseille no tribunal) como empate; a da Wikipédia en "
+           "erra 1 gol de Marseille e Nancy (a Wikipédia fr fecha com os jogos)"], 1975: [WIKI_ERRA], 1979: [
         "a RSSSF chama de \"GRENOBLE\" o Bastia (o Grenoble não estava na 1ª divisão)", WIKI_ERRA], 1984: [WIKI_ERRA],
     1952: [RSSSF_ERRA], 1965: [RSSSF_ERRA], 1986: [RSSSF_ERRA],
     1963: ["Toulouse x Reims: a base e a tabela da Wikipédia trazem 0-0; o ogol e a matriz da RSSSF trazem 2-2 (e a tabela da "
            "RSSSF tem 8 gols a menos para o Toulouse). Fica a base"],
     1971: ["Nice x Lille: a base, o ogol e a tabela da Wikipédia trazem 3-1; a RSSSF traz 3-0. Fica a base"],
     1992: ["o título foi tirado do Marseille (suborno no jogo com o Valenciennes) e ninguém foi declarado campeão",
-           "Valenciennes x Marseille (20/05/1993, o jogo do caso VA-OM): o ogol e a matriz da RSSSF trazem 0-1; a base e a tabela da "
-           "Wikipédia, 0-0 (a tabela da RSSSF não fecha com nenhum dos dois). Fica a base, que fecha com uma tabela publicada"],
-    2008: ["Le Havre: 1 ponto a menos; a RSSSF desconta, a Wikipédia não"],
+           "Valenciennes x Marseille (20/05/1993, o jogo do caso VA-OM): 0-1 em campo; declarado perdido para os dois, com 0-0 "
+           "(Wikipédia fr; revisão FR-006)",
+           "a tabela da Wikipédia en conta esse jogo como empate e desconta 1 ponto de cada um; a da RSSSF dá ao Valenciennes 57 "
+           "gols sofridos (os jogos, 56)"],
+    2008: ["Le Havre: a RSSSF dá 1 ponto a menos; as Wikipédias fr e en dão 26 pontos, sem punição nem nota. Fica sem "
+           "punição (revisão FR-010)"],
+    1958: ["Sochaux 4-3 Rennes (24/05/1959): a base, o ogol, o transfermarkt e a Wikipédia fr (grade e tabela) dão 4-3; só a "
+           "RSSSF e a tabela da Wikipédia en dão 2-1. Fica o 4-3 (revisão FR-008)"],
+    1935: ["Valenciennes 0-1 Marseille e Marseille 2-2 Valenciennes: a Wikipédia fr dá o mando ou o placar ao contrário (2-2 e "
+           "1-0). Fica a base; conferir num jornal da época (revisão FR-017)"],
+    1950: ["Toulouse 0-2 Lille e Lille 1-2 Toulouse: a Wikipédia fr e a RSSSF dão Lille 2-0 e Toulouse 2-1. Fica a base (o ogol e "
+           "o transfermarkt também); conferir num jornal da época (revisão FR-017)"],
 }
 
 COMPETICAO = {
@@ -385,7 +471,9 @@ def calcular(jogos: list[dict], pv: int) -> dict[str, list[int]]:
                 x[2] += 1; x[6] += 1
             else:
                 x[3] += 1
-            if j.get("bonus") and gp >= 3:   # 1973/74-1975/76: ponto extra por 3 gols ou mais
+            if j.get("bonus") == "gols" and gp >= 3:   # 1973/74: ponto extra por 3 gols ou mais
+                x[6] += 1
+            elif j.get("bonus") == "diferenca" and gp - gc >= 3:   # 1974/75 e 1975/76: vitória por 3 ou mais de diferença
                 x[6] += 1
     return t
 
@@ -436,6 +524,11 @@ def reparar(a: int, base: dict[int, list[dict]], ogol: list[dict], mapa_ogol: Ma
         m, v = clube_ogol(o, "mandante", mapa_ogol, a), clube_ogol(o, "visitante", mapa_ogol, a)
         cand = [j for j in pool if id(j) not in usados and (j["m"], j["v"]) == (m, v)
                 and (o["gm"] is None or (j["gm"], j["gv"]) == (o["gm"], o["gv"]))]   # "DA" no ogol: sem placar
+        if not cand:   # o par está na base com outro placar: fica o placar da base (revisão FR-005), com a data do ogol
+            cand = [j for j in base.get(a, []) if id(j) not in usados and (j["m"], j["v"]) == (m, v)]
+            if cand:
+                ocorr[a].append(f"placar diferente no ogol — {m} x {v} ({o['data']}): base {cand[0]['gm']}-{cand[0]['gv']}, "
+                                f"ogol {o['gm']}-{o['gv']}; fica a base")
         if cand:
             j = min(cand, key=lambda j: abs((date.fromisoformat(j["data"]) - date.fromisoformat(o["data"])).days))
             usados.add(id(j))
@@ -516,6 +609,8 @@ def main() -> None:
     espn = carregar_espn()
     wiki = carregar_wiki()
     camp_wiki = campeoes_wiki()
+    for x in ler_csv(CORRECOES_DIR / "datas.csv"):
+        DATAS.setdefault(x["temporada"], []).append(x)
     mapa_ogol = votar(base, ogol, "mandante_id", "visitante_id")
     mapa_espn = votar(base, espn, "mandante_id", "visitante_id")
     rs_hist = ler_hist(DADOS / "rsssf" / "franfullhist.html")
@@ -550,7 +645,7 @@ def main() -> None:
             grupos_1932(jogos, rs_hist[a], ocorr)
         if a in BONUS:
             for j in jogos:
-                j["bonus"] = True
+                j["bonus"] = BONUS[a]
         pares = Counter((j["fase"], j["m"], j["v"]) for j in jogos)
         assert all(k == 1 for k in pares.values()), (a, [p for p, k in pares.items() if k > 1])
         if a not in INTERROMPIDAS and a != GRUPOS_1932:
@@ -573,8 +668,20 @@ def main() -> None:
                 gm, gv, venc, campo, motivo = TRIBUNAL[(a, j["m"], j["v"])]
                 gm, gv = (j["gm"], j["gv"]) if gm is None else (gm, gv)
                 ocorr[a].append(f"resultado do tribunal: {j['m']} x {j['v']} fica {gm}-{gv}"
-                                f"{' com vitória do ' + clubes.exibicao(j[venc]) if venc else ''} (base {j['gm']}-{j['gv']}) — {motivo}")
-                j.update(gm=gm, gv=gv, especial="awd", campo=campo or f"{j['gm']}-{j['gv']}", vencedor=venc)
+                                f"{' com derrota para os dois' if venc == 'nenhum' else ' com vitória do ' + clubes.exibicao(j[venc]) if venc else ''} (base {j['gm']}-{j['gv']}) — {motivo}")
+                j.update(gm=gm, gv=gv, especial="awd", campo=campo or f"{j['gm']}-{j['gv']}", vencedor=venc,
+                         campo_mudou=bool(campo) and campo.split(" ")[0] != f"{gm}-{gv}")
+        n_datas = 0
+        for x in DATAS.get(T, []):
+            m_, v_ = clubes.esd(x["mandante"], a), clubes.esd(x["visitante"], a)
+            j = next((j for j in jogos if (j["m"], j["v"], j["data"]) == (m_, v_, x["data_errada"])), None)
+            if j is None:
+                raise SystemExit(f"{T}: jogo da correção de data não encontrado: {x}")
+            j["data"], j["data_errada"] = x["data_certa"], x["data_errada"]
+            n_datas += 1
+        if n_datas:
+            ocorr[a].append(f"{n_datas} datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em "
+                            f"data/coleta/fra-1/correcoes/datas.csv)")
         pv = 3 if a == 1988 or a >= 1994 else 2   # 1988/89: experiência de 3 pontos por vitória
 
         # ---- ogol: rodada e conferência
@@ -700,7 +807,11 @@ def main() -> None:
                 x["clube"] = c
                 aj = x["ajuste"]
                 if a in BONUS:   # 1973/74-1975/76: a Wikipédia põe o bônus no ajuste de pontos; punição é só o que sobra
-                    aj -= sum(1 for j in tab_jogos for lado, gp in (("m", j["gm"]), ("v", j["gv"])) if j[lado] == c and gp >= 3)
+                    aj -= sum(1 for j in tab_jogos for lado, gp, gc in (("m", j["gm"], j["gv"]), ("v", j["gv"], j["gm"]))
+                              if j[lado] == c and (gp >= 3 if BONUS[a] == "gols" else gp - gc >= 3))
+                if (a, c) in IGNORAR_AJUSTE:
+                    ocorr[a].append(f"ajuste da Wikipédia ignorado em {clubes.exibicao(c)}: {IGNORAR_AJUSTE[(a, c)]}")
+                    aj = 0
                 if aj:
                     ajuste[c] = aj
             if w["pontos_vitoria"] != pv:
@@ -733,7 +844,7 @@ def main() -> None:
             for x in rs:   # punição que só a RSSSF traz
                 c = ref.get(x["clube"])
                 if c and [x["jogos"], x["vitorias"], x["empates"], x["derrotas"], x["gols_pro"], x["gols_contra"]] == c[:6] \
-                        and x["pontos"] != c[6] and x["clube"] not in ajuste:
+                        and x["pontos"] != c[6] and x["clube"] not in ajuste and (a, x["clube"]) not in NAO_PUNIR:
                     ajuste[x["clube"]] = x["pontos"] - c[6]
                     ocorr[a].append(f"punição tirada da tabela da RSSSF: {clubes.exibicao(x['clube'])} {x['pontos'] - c[6]:+d} pontos")
         conferidas, divergentes, confere = 0, 0, {}
@@ -804,7 +915,13 @@ def main() -> None:
             dif = [(r["clube"], c) for r, c in zip(rs, ordem) if r["clube"] != c]
             ocorr[a].append(f"ordem diferente entre RSSSF e Wikipédia em {len(dif)} posições (ex.: RSSSF {dif[0][0]}, Wikipédia "
                             f"{dif[0][1]}); fica a da Wikipédia")
-        tentativas = {cr: ordenar(ref, ajuste, cr, tab_jogos, pv) for cr in ("confronto", "saldo", "media")}
+        if a in ORDEM_PELO_CRITERIO:
+            ordem = ordenar(ref, ajuste, "media", tab_jogos, pv)
+            fonte_ordem = "calculada pela média de gols (regra da época)"
+            ocorr[a].append(f"ordem pelo critério da época: {ORDEM_PELO_CRITERIO[a]}")
+        # até 1961/62 a média de gols; depois, saldo e, por fim, o confronto direto (revisão FR-018)
+        tentativas = {cr: ordenar(ref, ajuste, cr, tab_jogos, pv) for cr in
+                      (("media",) if a <= ULTIMO_MEDIA else ("saldo", "confronto"))}
         ok = [cr for cr, o in tentativas.items() if o == ordem]
         criterio = ok[0] if ok else min(tentativas, key=lambda cr: sum(x != y for x, y in zip(tentativas[cr], ordem)))
         if not ok:
@@ -833,8 +950,11 @@ def main() -> None:
         if prox is not None:
             prox_clubes = {j["m"] for j in base[prox]} | {j["v"] for j in base[prox]}
             if not base[prox] or prox in FORCAR_OGOL:   # a base não traz a temporada seguinte: clubes pelo ogol
-                prox_clubes = {mapa_ogol.get(o[k], prox) for o in ogol.get(prox, []) for k in ("mandante_id", "visitante_id")}
-            rebaixados = {c for c in clubes_ano if c not in prox_clubes}
+                prox_clubes = {clube_ogol(o, k, mapa_ogol, prox) for o in ogol.get(prox, []) for k in ("mandante", "visitante")}
+            rebaixados = {c for c in clubes_ano if c not in prox_clubes and (a, c) not in FUSOES}
+            for (ano, c), motivo in FUSOES.items():
+                if ano == a:
+                    ocorr[a].append(f"{clubes.exibicao(c)} não está na temporada seguinte, mas não caiu: {motivo}")
         else:
             textos = {k[5:]: limpar(v) for k, v in w["params"].items() if k.startswith("text_")}
             # a marca do play-off ("Qualification for the relegation play-offs") não é rebaixamento: em 2025/26 o Nice, 16º,
@@ -854,7 +974,8 @@ def main() -> None:
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 and not sem_titulo else "rebaixado" if c in rebaixados else None,
                 "fonte": fonte_ordem if c in ordem else "calculada (campanha nos grupos)",
-                "observacao": ((w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None)) or None)
+                "observacao": FUSOES.get((a, c)) or ADMINISTRATIVOS.get((a, c)) or
+                ((w and next((notas_wiki.traduzir(x["nota"] or x["hth"]) for x in w["times"] if x["clube"] == c), None)) or None)
                 if c in ordem else "não foi ao grupo final"})
 
         # ---- partidas, gols, cartões, estatísticas
@@ -892,7 +1013,11 @@ def main() -> None:
                 "estadio": (e or {}).get("estadio"), "cidade": (e or {}).get("cidade"),
                 "publico": (e or {}).get("publico") or None, "fonte": " + ".join(fontes), "fonte_id": "|".join(ids),
                 "gols_texto": None,
-                "observacao": (f"vitória do {clubes.exibicao(j[j['vencedor']])} dada no tribunal; o placar de campo ({j['campo']}) "
+                "observacao": ("derrota para os dois clubes dada no tribunal; em campo, " + j["campo"]
+                               if j.get("vencedor") == "nenhum" else
+                               f"vitória do {clubes.exibicao(j[j['vencedor']])} dada no tribunal com {j['gm']}-{j['gv']}; em campo, "
+                               f"{j['campo']}" if j.get("vencedor") and j.get("campo_mudou") else
+                               f"vitória do {clubes.exibicao(j[j['vencedor']])} dada no tribunal; o placar de campo ({j['campo']}) "
                                "fica" if j.get("vencedor") else f"resultado dado no tribunal; em campo, {j['campo']}") if j.get("campo") else
                 "resultado decidido pela federação (no ogol: \"DA\", decisão administrativa)"
                 if o and o["resultado"] == "DA" else
@@ -955,7 +1080,8 @@ def main() -> None:
                                "observacao": "; ".join(x for x in (
                                    f"punições: {pun}" if pun else "", "título não atribuído" if sem_titulo else "",
                                    f"temporada {INTERROMPIDAS[a]}" if a in INTERROMPIDAS else "",
-                                   "1 ponto a mais para quem marca 3 gols ou mais no jogo" if a in BONUS else "",
+                                   ("1 ponto a mais para quem marca 3 gols ou mais no jogo" if BONUS[a] == "gols" else
+                                    "1 ponto a mais por vitória com 3 gols ou mais de diferença") if a in BONUS else "",
                                    "o Antibes, 1º do grupo B, foi excluído da final por suborno; o Cannes jogou no lugar"
                                    if a == GRUPOS_1932 else "") if x) or None})
         crit_txt = {"confronto": "pontos, confronto direto, saldo de gols, gols pró", "saldo": "pontos, saldo de gols, gols pró",
@@ -1017,12 +1143,21 @@ def artilheiros(ocorr) -> list[dict]:
             continue
         for m in achados:
             nome = re.sub(r"^[A-Z/]{1,7}\s{2,}", "", m.group(1).strip()).strip()   # nacionalidade ("F      ", "POL/F  ")
+            nome = NOMES_ARTILHEIRO.get(nome, nome)
             clube_txt = m.group(2).strip()
             c = clubes.esd(clube_txt, a) or clubes.esd(re.sub(r"^(FC|AS|RC|OGC|SC)\s+", "", clube_txt), a)
-            res.append({"temporada": temporada(a), "jogador": nome, "clube": clubes.exibicao(c) if c else None, "gols": gols,
-                        "fonte": "RSSSF (tablesf/frantops.html)"})
+            g_, fonte_a = gols, "RSSSF (tablesf/frantops.html)"
+            if (a, nome) in GOLS_ARTILHEIRO:
+                g_, motivo = GOLS_ARTILHEIRO[(a, nome)]
+                fonte_a += f"; {motivo}"
+            res.append({"temporada": temporada(a), "jogador": nome, "clube": clubes.exibicao(c) if c else None, "gols": g_,
+                        "fonte": fonte_a})
             if c is None:
                 ocorr[a].append(f"artilheiro com clube sem cadastro: {nome} ({clube_txt})")
+    for (a, nome, c), g_ in ARTILHEIROS_EXTRA.items():
+        res.append({"temporada": temporada(a), "jogador": nome, "clube": clubes.exibicao(c), "gols": g_,
+                    "fonte": "Wikipédia fr (Meilleurs buteurs du championnat de France, que cita a LFP): empatado na artilharia; "
+                             "a RSSSF não o lista (revisão FR-011)"})
     return res
 
 
@@ -1039,7 +1174,8 @@ def relatorio(linhas, ocorr, tab, mapa_ogol, mapa_espn, criterios) -> None:
         f"{len(tab['clubes'])} clubes.", "",
         "**Fontes:**",
         "- engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1932/33-2024/25, menos 1937/38, 1994/95 e 2025/26 (que vêm do ogol) e 1932/33 (errada);",
-        "- football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time;",
+        "- football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+) e estatísticas por time (os arquivos da "
+        "França não trazem árbitro);",
         "- ogol: rodada oficial de cada jogo e conferência de placar; completa as temporadas em que a base falha; calendários "
         "guardados em `data/cache/ogol-fra-1/` para os escudos;",
         "- ESPN (liga `fra.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;",

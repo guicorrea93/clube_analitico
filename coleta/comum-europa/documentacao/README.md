@@ -9,9 +9,9 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Inglês | 127 (1888/89–2025/26) | 51330 | 25878 | 33166 | 65 | 226 / 1 | 2 | [eng-1](eng-1.md) |
 | Campeonato Espanhol | 95 (1928/29–2025/26) | 27716 | 25072 | 51662 | 63 | 180 / 11 | 1 | [esp-1](esp-1.md) |
 | Campeonato Italiano | 95 (1929/30–2025/26) | 29271 | 24564 | 43962 | 69 | 167 / 5 | 4 | [ita-1](ita-1.md) |
-| Campeonato Alemão | 124 (1963/64–1962/63) | 20303 | 22700 | 30251 | 194 | 183 / 5 | 4 | [ger-1](ger-1.md) |
-| Campeonato Francês | 88 (1932/33–2025/26) | 30466 | 22613 | 35434 | 76 | 156 / 18 | 2 | [fra-1](fra-1.md) |
-| Campeonato Português | 92 (1934/35–2025/26) | 20978 | 13874 | 30915 | 73 | 175 / 9 | 2 | [por-1](por-1.md) |
+| Campeonato Alemão | 124 (1963/64–1962/63) | 20303 | 55851 | 30251 | 194 | 181 / 7 | 4 | [ger-1](ger-1.md) |
+| Campeonato Francês | 88 (1932/33–2025/26) | 30466 | 22613 | 35434 | 77 | 153 / 21 | 6 | [fra-1](fra-1.md) |
+| Campeonato Português | 92 (1934/35–2025/26) | 20978 | 18259 | 30915 | 73 | 171 / 13 | 2 | [por-1](por-1.md) |
 | Campeonato Holandês | 138 (1956/57–1955/56) | 21878 | 23019 | 24431 | 93 | 191 / 3 | 4 | [ned-1](ned-1.md) |
 | Campeonato Escocês | 129 (1890/91–2025/26) | 33076 | 14565 | 19812 | 46 | 197 / 60 | 3 | [sco-1](sco-1.md) |
 
@@ -30,6 +30,10 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 - **ger-1:** Era antiga: a classificação final é o campeão, o vice e depois a fase alcançada (na mesma fase, posição no grupo e campanha); não existe classificação oficial além do campeão e do vice.
 - **fra-1:** Autores dos gols e cartões antes de 2001/02: jogo a jogo (ficha do ogol).
 - **fra-1:** Datas dos 356 jogos dos anos 1930 que nenhuma fonte tem.
+- **fra-1:** Revisão FR-009: 99 jogos (1948/49-1998/99) em que o transfermarkt e o ogol diferem da base por 1 ou 2 dias; só os 41 de 3 dias ou mais foram corrigidos. Conferir uma rodada num jornal (L'Équipe na Gallica) antes de trocar os outros.
+- **fra-1:** Revisão FR-017: 4 pares de jogos em que a Wikipédia fr dá outro mando ou placar (1935/36, 1937/38, 1945/46, 1950/51); fica a base até conferir num jornal da época (anotado em EXPLICACOES).
+- **fra-1:** Revisão FR-005: a vitória do Marseille sobre o Bordeaux em 27/10/1946 (0-0 no tribunal) vem das tabelas das Wikipédias; conferir no L'Équipe de 28/10/1946.
+- **fra-1:** Árbitro: os arquivos do football-data da França não trazem (revisão FR-022); seria jogo a jogo pelo transfermarkt.
 - **por-1:** Autores dos gols e cartões antes de 2006/07 (a ESPN começa aí): jogo a jogo (ficha do ogol).
 - **por-1:** Pontos do Porto em 2007/08 (Apito Final): ficou o desconto de 6, como no fim da temporada; se o Guilherme preferir a situação de hoje (absolvição em 2017), tirar o desconto em importar.py.
 - **ned-1:** Era antiga (1888/89-1955/56, em antigo.py): de 1888/89 a 1896/97 e nas temporadas sem a fase final legível na RSSSF, só o campeão e a tabela da Eerste Klasse, sem jogos; os jogos da fase final vêm da matriz da RSSSF, sem data (datados só em 1954/55 e 1955/56). As ligas regionais ficam de fora.

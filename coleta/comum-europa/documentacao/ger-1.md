@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 ## 1. O que temos
 
 - **Edições:** 124, de 1963/64 a 1962/63.
-- **Jogos:** 20303; **gols:** 63752; **gols com autor:** 22700 (36%); **cartões:** 30251; **jogos com estatísticas** (chutes, faltas, escanteios): 7649.
+- **Jogos:** 20303; **gols:** 63752; **gols com autor:** 55851 (88%); **cartões:** 30251; **jogos com estatísticas** (chutes, faltas, escanteios): 7649.
 - **Clubes:** 194; **artilheiros:** 63 temporadas com artilheiro (74 linhas, com empates).
 - **Classificação final:** 116 temporadas; **rodada a rodada:** 63 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2502 linhas, de 147 tabelas.
@@ -24,13 +24,13 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 **Regras da importação:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Berlim). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1994/95, 3 a partir de 1995/96. Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 13, saldo de gols em 47, média de gols em 3); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 0, saldo de gols em 57, média de gols em 6); é ele que ordena a classificação rodada a rodada.
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 183 tabelas fecham com os jogos e 5 divergem (divergência sempre explicada no relatório).
-- Temporadas em que nenhuma tabela publicada fecha: 1902/03, 1903/04, 1904/05, 1905/06, 1906/07, 1907/08, 1908/09, 1909/10, 1910/11, 1911/12, 1912/13, 1913/14, 1919/20, 1920/21, 1921/22, 1922/23, 1923/24, 1924/25, 1925/26, 1926/27, 1927/28, 1928/29, 1929/30, 1930/31, 1931/32, 1932/33, 1941/42, 1942/43, 1943/44, 1947/48, 1948/49, 1949/50.
-- Temporadas com alguma tabela divergente: 1969/70, 1979/80, 1993/94, 1956/57, 1962/63.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 181 tabelas fecham com os jogos e 7 divergem (divergência sempre explicada no relatório).
+- Temporadas em que nenhuma tabela publicada fecha: 1971/72, 1902/03, 1903/04, 1904/05, 1905/06, 1906/07, 1907/08, 1908/09, 1909/10, 1910/11, 1911/12, 1912/13, 1913/14, 1919/20, 1920/21, 1921/22, 1922/23, 1923/24, 1924/25, 1925/26, 1926/27, 1927/28, 1928/29, 1929/30, 1930/31, 1931/32, 1932/33, 1941/42, 1942/43, 1943/44, 1947/48, 1948/49, 1949/50.
+- Temporadas com alguma tabela divergente: 1969/70, 1971/72, 1979/80, 1993/94, 1956/57, 1962/63.
 - Temporadas com número de jogos diferente do turno e returno completo: nenhuma.
 
 ## 4. Cobertura de cada campo, por década
@@ -45,10 +45,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1930s | 415 | 19% | 0% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1940s | 174 | 66% | 0% | 0% | 14% | 14% | 14% | 0% | 12% | 0.0 |
 | 1950s | 221 | 94% | 0% | 0% | 3% | 3% | 3% | 0% | 3% | 0.0 |
-| 1960s | 2076 | 100% | 0% | 97% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1960s | 2076 | 100% | 0% | 97% | 0% | 0% | 0% | 0% | 93% | 0.0 |
+| 1970s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 95% | 0.0 |
+| 1980s | 3060 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 95% | 0.0 |
+| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 88% | 0.0 |
 | 2000s | 3060 | 100% | 90% | 100% | 90% | 72% | 20% | 90% | 89% | 3.6 |
 | 2010s | 3060 | 100% | 100% | 100% | 100% | 97% | 0% | 100% | 99% | 3.8 |
 | 2020s | 1836 | 100% | 100% | 100% | 100% | 84% | 0% | 100% | 100% | 4.0 |
@@ -161,14 +161,18 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
 - jogo único; empate com prorrogação e novo jogo: 171 temporadas
-- pontos, saldo de gols, gols pró: 47 temporadas
+- pontos, saldo de gols, gols pró: 57 temporadas
 - pontos (2 por vitória), depois média de gols: 21 temporadas
-- pontos, confronto direto, saldo de gols, gols pró: 13 temporadas
-- pontos, média de gols (goal average): 3 temporadas
+- pontos, média de gols (goal average): 6 temporadas
 
 **Observações das edições** (formato, punições, casos especiais):
 
+- 1964/65: Hertha rebaixado por perda da licença; Karlsruhe e Schalke, 15º e 16º, ficaram com a ampliação para 18 clubes
+- 1971/72: punições: Arminia Bielefeld -19 pontos; Arminia Bielefeld rebaixado de ofício e sem pontos (escândalo de 1971)
+- 1979/80: 3º lugar dividido entre Stuttgart e Kaiserslautern (41 pontos e 75-53 de gols; não havia outro critério)
+- 1981/82: Relegation (16º da Bundesliga x 3º da 2. Bundesliga): Bayer 04 Leverkusen x Kickers Offenbach, 1-0 e 2-1 (total 3-1); ficou com a vaga: Bayer 04 Leverkusen (Wikipédia de)
 - 1993/94: punições: Dynamo Dresden -4 pontos
+- 1994/95: Dynamo Dresden, 18º, também perdeu a licença
 - 1999/00: punições: Eintracht Frankfurt -2 pontos
 - 2003/04: punições: Kaiserslautern -3 pontos
 - 1903/04: final não jogada: a federação anulou a fase final depois do protesto do Karlsruher FV; sem campeão
@@ -222,6 +226,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Punições em pontos:**
 
+- 1971/72: Arminia Bielefeld -19
 - 1993/94: Dynamo Dresden -4
 - 1999/00: Eintracht Frankfurt -2
 - 2003/04: Kaiserslautern -3
@@ -229,6 +234,36 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 ## 7. Correções e decisões (com o motivo)
 
 Registradas em `coleta/ger-1/importar.py`; cada uma também aparece no relatório, na temporada.
+
+### Resultados decididos fora de campo (`TRIBUNAL`)
+
+- **1970/71 · Bor. Monchengladbach · Werder Bremen:** [0, 2, 1-1] interrompido aos 88 minutos com a trave quebrada; a DFB deu o 2-0 ao Werder
+- **1976/77 · 1. FC Kaiserslautern · Fortuna Dusseldorf:** [0, 2, 0-1] interrompido aos 76 minutos (garrafa atirada da torcida); a DFB deu o 2-0 ao Düsseldorf
+- **1992/93 · Bayer 05 Uerdingen · Eintracht Frankfurt:** [2, 0, 2-5] o Frankfurt escalou 4 estrangeiros; a DFB deu o 2-0 ao Uerdingen
+- **1994/95 · Eintracht Frankfurt · Bayern Munchen:** [2, 0, 2-5] o Bayern escalou 4 amadores; a DFB deu o 2-0 ao Frankfurt
+- **2010/11 · FC St. Pauli · FC Schalke 04:** [0, 2, 0-2] interrompido aos 88 minutos (copo atirado no assistente); a DFB manteve o 0-2
+
+### Nomes de artilheiros acertados (`NOMES_ARTILHEIRO`)
+
+- **AÍLTON Gonçalves da Silva:** Aílton
+- **Márcio AMOROSO dos Santos:** Márcio Amoroso
+- **Giovane Élber de Souza:** Giovane Élber
+- **Thomas CHRISTIANSEN Tarín:** Thomas Christiansen
+- **Luca TONI Varchetta:** Luca Toni
+- **GRAFITE Edinaldo Batista Libânio:** Grafite
+- **Mario GÓMEZ García:** Mario Gómez
+- **Harry Edward Kane:** Harry Kane
+
+### Punições que nenhuma tabela usada traz (`PUNICOES`)
+
+- **1971/72 · Arminia Bielefeld:** [-19] perdeu todos os pontos (escândalo da Bundesliga de 1971) e foi rebaixado de ofício (Wikipédia de: Abzug 19; RSSSF: stripped of all points)
+
+### Rebaixamentos fora de campo e casos especiais (observação da edição) (`FORA_DE_CAMPO`)
+
+- **1964/65:** Hertha rebaixado por perda da licença; Karlsruhe e Schalke, 15º e 16º, ficaram com a ampliação para 18 clubes
+- **1971/72:** Arminia Bielefeld rebaixado de ofício e sem pontos (escândalo de 1971)
+- **1979/80:** 3º lugar dividido entre Stuttgart e Kaiserslautern (41 pontos e 75-53 de gols; não havia outro critério)
+- **1994/95:** Dynamo Dresden, 18º, também perdeu a licença
 
 ### Divergências entre fontes já explicadas (`EXPLICACOES`)
 

@@ -648,3 +648,49 @@ Para o agente 1 (recarregar e publicar) e o agente de revisão (conferir e fecha
   Português vêm nas próximas correções). A varredura completa dos ~2 mil nomes com 3 palavras ou mais fica como
   pendência.
 - Teste de carga: "eng-1: 127 edições, 51330 jogos, 0 clubes novos -> OK". **Pedido:** recarregar `eng-1` e publicar.
+
+## 23/11 — coleta Europa: correções da revisão no Francês (`fra-1`)
+
+Para o agente 1 (carregar e publicar; o Francês ainda não está no site) e o agente de revisão (conferir e fechar os ids).
+
+- **FR-001:** saem 14 rebaixamentos falsos de 1932/33 a 1936/37, 1938/39 e 1966/67.
+  - Os clubes da temporada seguinte agora vêm do ogol pelo nome; antes, pelo código não votado.
+  - Fusões sem rebaixamento (`FUSOES`): Olympique Lillois e Fives (Lille OSC), Excelsior e RC Roubaix (CORT) em 1938/39;
+    Toulouse de 1937 com o Red Star em 1966/67.
+  - O Antibes de 1938/39 continua rebaixado (D-18 c).
+- **FR-002:** bônus por época. Em 1973/74, 1 ponto para quem marca 3 gols ou mais; em 1974/75 e 1975/76, 1 ponto por
+  vitória com 3 ou mais de diferença. As 39 punições falsas sumiram e a Corrida não tem mais pontos negativos.
+- **FR-003, FR-004:** Marseille x Racing (1951/52) e Nancy x Marseille (1955/56) com 0-0 e vitória dada no tribunal.
+  A observação traz o placar de campo (2-3 e 2-4, invasão de campo).
+- **FR-005:**
+  - quando o ogol traz outro placar para um jogo da base, fica o da base com a data do ogol; isso volta os 9 placares de
+    1946/47;
+  - Marseille x Bordeaux (27/10/1946) com vitória do Marseille no tribunal (0-0), como nas tabelas das duas Wikipédias.
+    Fica pendente conferir num jornal.
+- **FR-006:** Valenciennes x Marseille (1992/93) com derrota para os dois (0-0; em campo, 0-1). O -1 da Wikipédia en não
+  entra como punição.
+- **FR-007:** Racing 5-1 Stade Français e Stade Français 1-0 Racing (1947/48).
+- **FR-008:** volta o Sochaux 4-3 Rennes (1958/59), com a divergência anotada.
+- **FR-009:** 41 datas corrigidas: transfermarkt e ogol concordam por 3 dias ou mais. Lista em
+  `data/coleta/fra-1/correcoes/datas.csv`. Os 99 casos de 1 a 2 dias ficam pendentes.
+- **FR-010:** Le Havre 2008/09 sem a punição que só a RSSSF trazia (26 pontos).
+- **FR-011 e FR-019:**
+  - Onnis empatado na artilharia de 1979/80 e Garande na de 1983/84;
+  - Bokšić com 23 gols em 1992/93 (D-17 b);
+  - nomes de jogo: Thadée Cisowski, Sékou Touré, Abegglen, Mercier, Koranyi, Kargu, Pauleta e diacríticos.
+- **FR-012 (D-24 a):** clube novo "Toulouse FC (1937)" (1946/47-1966/67), separado do Toulouse de 1970.
+- **FR-013 (D-24 b):** Lyon OU junto do Lyon e SO Montpellier separado, como estavam.
+- **FR-014:** observações em português; os códigos soltos ("OL", "OM", "NIC") viraram o texto da nota apontada.
+- **FR-015:** observação nos rebaixamentos fora de campo: 1990/91 Bordeaux, Brest e Nice (DNCG), 1993/94 Marseille
+  (VA-OM), 2000/01 Toulouse e 2016/17 Bastia.
+- **FR-016:** texto do tribunal com o placar dado e o de campo.
+- **FR-017:** as 4 dúvidas anotadas em `EXPLICACOES`; fica a base até conferir num jornal.
+- **FR-018:** critério de desempate por época.
+  - Média de gols até 1961/62: a Wikipédia fr a cita em todas as temporadas até aí e em nenhuma depois.
+  - Saldo desde 1962/63, com o confronto direto como último critério.
+  - 1953/54 fica pela média: Nancy 12º, Metz 13º.
+- **FR-020:** Antibes 1932/33 com a observação "excluído da final por suborno; não há 3º lugar oficial".
+- **FR-021:** "Évian".
+- **FR-022:** docstring e relatório sem o árbitro do football-data (a França não tem).
+- Teste de carga: "fra-1: 88 edições, 30466 jogos, 2 clubes novos -> OK". Os 2 novos são "Évian" e "Toulouse FC (1937)".
+- **Pedido:** carregar `fra-1`.

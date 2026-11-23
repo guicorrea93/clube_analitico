@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 ## 1. O que temos
 
 - **Edições:** 92, de 1934/35 a 2025/26.
-- **Jogos:** 20978; **gols:** 59543; **gols com autor:** 13874 (23%); **cartões:** 30915; **jogos com estatísticas** (chutes, faltas, escanteios): 2754.
+- **Jogos:** 20978; **gols:** 59544; **gols com autor:** 18259 (31%); **cartões:** 30915; **jogos com estatísticas** (chutes, faltas, escanteios): 2754.
 - **Clubes:** 73; **artilheiros:** 92 temporadas com artilheiro (99 linhas, com empates).
 - **Classificação final:** 92 temporadas; **rodada a rodada:** 92 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2820 linhas, de 184 tabelas.
@@ -24,13 +24,13 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 **Regras da importação:** o placar é o do ogol; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Lisboa; Açores nos jogos em casa do Santa Clara). Rebaixado = clube que não está na 1ª divisão na temporada seguinte (até 1944/45 não havia rebaixamento: os participantes saíam dos campeonatos regionais). 2 pontos por vitória até 1994/95, 3 a partir de 1995/96. Placar diferente em outra fonte numa temporada em que as tabelas publicadas fecham com o ogol é erro da outra fonte e fica só anotado; quando a outra fonte e as tabelas publicadas concordam contra o ogol, o placar é corrigido (CORRECOES e TRIBUNAL em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 80, confronto direto aplicado de novo entre os que seguem empatados em 4, o mesmo com saldo e gols fora de casa no confronto em 6, saldo de gols em 1, média de gols em 1); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 82, confronto direto aplicado de novo entre os que seguem empatados em 3, o mesmo com saldo e gols fora de casa no confronto em 6, saldo de gols em 0, média de gols em 1); é ele que ordena a classificação rodada a rodada.
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 175 tabelas fecham com os jogos e 9 divergem (divergência sempre explicada no relatório).
-- Temporadas em que nenhuma tabela publicada fecha: nenhuma.
-- Temporadas com alguma tabela divergente: 1947/48, 1990/91, 1992/93, 1994/95, 1995/96, 1998/99, 2007/08, 2008/09, 2019/20.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 171 tabelas fecham com os jogos e 13 divergem (divergência sempre explicada no relatório).
+- Temporadas em que nenhuma tabela publicada fecha: 1986/87, 1994/95, 2007/08.
+- Temporadas com alguma tabela divergente: 1947/48, 1986/87, 1990/91, 1992/93, 1994/95, 1995/96, 1998/99, 2007/08, 2008/09, 2019/20.
 - Temporadas com número de jogos diferente do turno e returno completo: nenhuma.
 
 ## 4. Cobertura de cada campo, por década
@@ -45,8 +45,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1960s | 1820 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 2342 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 2746 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 2796 | 100% | 34% | 100% | 34% | 33% | 0% | 0% | 33% | 1.7 |
+| 1990s | 3134 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 9% | 0.0 |
+| 2000s | 2796 | 100% | 34% | 100% | 34% | 33% | 0% | 0% | 87% | 1.7 |
 | 2010s | 2796 | 100% | 100% | 100% | 92% | 74% | 0% | 33% | 96% | 5.7 |
 | 2020s | 1836 | 100% | 100% | 100% | 100% | 83% | 0% | 100% | 100% | 5.5 |
 
@@ -86,10 +86,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
-- pontos, confronto direto, saldo de gols, gols pró: 80 temporadas
+- pontos, confronto direto, saldo de gols, gols pró: 82 temporadas
 - pontos, pontos no confronto direto (de novo entre os que seguem empatados), saldo e gols fora de casa no confronto direto, saldo de gols, gols pró: 6 temporadas
-- pontos, pontos no confronto direto (de novo entre os que seguem empatados), saldo de gols, gols pró: 4 temporadas
-- pontos, saldo de gols, gols pró: 1 temporadas
+- pontos, pontos no confronto direto (de novo entre os que seguem empatados), saldo de gols, gols pró: 3 temporadas
 - pontos, média de gols (goal average): 1 temporadas
 
 **Observações das edições** (formato, punições, casos especiais):
@@ -105,7 +104,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1942/43: participantes classificados pelos campeonatos regionais, sem rebaixamento
 - 1943/44: participantes classificados pelos campeonatos regionais, sem rebaixamento
 - 1944/45: participantes classificados pelos campeonatos regionais, sem rebaixamento
-- 2007/08: punições: Belenenses -3 pontos; Porto -6 pontos; União de Leiria -3 pontos
+- 2007/08: punições: Belenenses -3 pontos; Porto +0 pontos; União de Leiria -3 pontos
 
 ## 6. Campeões, rebaixados e punições
 
@@ -121,7 +120,6 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 **Punições em pontos:**
 
-- 2007/08: Porto -6
 - 2007/08: Belenenses -3
 - 2007/08: União de Leiria -3
 
@@ -131,25 +129,27 @@ Registradas em `coleta/por-1/importar.py`; cada uma também aparece no relatóri
 
 ### Placares corrigidos (`CORRECOES`)
 
-- **1994/95 · Benfica · Sporting:** [2, 0] o ogol traz 1-2; a matriz e a tabela da RSSSF, o engsoccerdata e o football-data trazem 2-0 (e a lista de campeões da RSSSF põe o Sporting, vice, 9 pontos atrás do Porto, o que só fecha com 2-0)
+- **1980/81 · Benfica · Espinho:** [2, 1] o ogol e a matriz da RSSSF trazem 2-0; o transfermarkt e as matrizes das Wikipédias pt e en, 2-1 (os totais não mudam)
+- **1980/81 · Espinho · Benfica:** [2, 0] o ogol e a matriz da RSSSF trazem 3-0; a ficha do ogol lista só 2 gols (Vitorino Belinha 2', Carlos Coelho 59'), como o transfermarkt e as Wikipédias pt e en
 - **1995/96 · Leça · Boavista:** [0, 3] o ogol traz 0-2; a matriz e a tabela da RSSSF, a tabela da Wikipédia, o engsoccerdata e o football-data trazem 0-3
 
 ### Resultados decididos fora de campo (`TRIBUNAL`)
 
 - **1960/61 · Atlético CP · Leixões:** [0, 0, v, 0-0] o resultado não foi homologado e os pontos da vitória foram dados ao Leixões (ficha do ogol: "derrota administrativa (0-0)"). A matriz da RSSSF traz 0-3 neste jogo e 3-1 no Leixões x Atlético (o ogol, 6-1); as duas versões dão os mesmos totais, e as tabelas da RSSSF e da Wikipédia fecham com elas. Fica o ogol
-- **1974/75 · CUF · Vitória de Setúbal:** [1, 1, m, 1-1] derrota administrativa do Vitória de Setúbal (ficha do ogol; 1-1 no intervalo). As tabelas da RSSSF e da Wikipédia contam a vitória do CUF com o 1-1 de campo (um gol pró e um contra para cada um); a matriz da RSSSF traz 0-2 neste jogo e 1-2 no Vitória x CUF (o ogol, 2-1), o que não fecha com as tabelas
+- **1974/75 · CUF · Vitória de Setúbal:** [1, 1, m, 1-1] derrota administrativa do Vitória de Setúbal (ficha do ogol: "Vitória FC: derrota administrativa (0-0)", 1-1 no intervalo). A matriz da RSSSF, o transfermarkt e as Wikipédias trazem outra versão dos dois jogos (CUF 0-2 Vitória e Vitória 1-2 CUF), que dá os mesmos totais e também fecha com as tabelas. Fica o ogol, que registra a decisão (revisão PT-009)
+- **1986/87 · Braga · Benfica:** [1, 1, nenhum, 1-1] interrompido aos 86 minutos por invasão de campo; a Federação deu derrota aos dois clubes (Diário de Lisboa, 18/07/1987; ficha do ogol; Wikipédia pt). O Benfica é campeão nos dois casos (revisão PT-004, decisão D-20 b)
 - **1975/76 · Atlético CP · Sporting:** [3, 0] derrota do Sporting por invasão de campo (ficha do ogol: 3-0); a matriz da RSSSF traz 3-0
 - **1986/87 · Belenenses · Marítimo:** [0, 3, 1-0] o Belenenses escalou irregularmente o jogador Mapuata e perdeu por 0-3 (ficha do ogol; matriz da RSSSF)
 - **1989/90 · Nacional da Madeira · Belenenses:** [3, 0, 1-1] o Belenenses escalou irregularmente o avançado Macaé e perdeu por 3-0 (ficha do ogol; matriz da RSSSF)
 - **2007/08 · Belenenses · Naval 1º de Maio:** [0, 3, 2-1] o Belenenses escalou um jogador irregular (16ª rodada): derrota por 0-3 (ficha do ogol; RSSSF: "awarded 0-3; originally 2-1") e mais 3 pontos descontados (RSSSF e Wikipédia)
 
-### Jogos sem placar na base em que valeu o placar de campo (`CAMPO`)
-
-- **1986/87 · Braga · Benfica:** [1, 1] a ficha do ogol diz que o jogo foi interrompido aos 86 minutos por invasão de campo e que os dois clubes foram punidos com derrota; mas a matriz e a tabela da RSSSF e a tabela da Wikipédia contam o empate de campo, 1-1 (com ele, o Benfica é campeão com 49 pontos, como na lista de campeões). Fica o 1-1
-
 ### Jogos que faltavam na base e foram acrescentados (`ACRESCIMOS`)
 
 - **2013/14 · Benfica · Sporting:** [2014-02-11, 2, 0, 18] falta no calendário do ogol; o football-data e o engsoccerdata trazem 2-0 em 11/02/2014 (o jogo da 18ª rodada, adiado); as tabelas da RSSSF e da Wikipédia só fecham com ele
+
+### Gols de artilheiro corrigidos (`GOLS_ARTILHEIRO`)
+
+- **2018/19 · Haris Seferovic:** [23] a RSSSF dá 33 (erro de digitação); a Bola de Prata, a Wikipédia pt e os gols da ESPN dão 23
 
 ### Fora da temporada seguinte sem ter sido rebaixado (`NAO_REBAIXADOS`)
 
@@ -160,16 +160,47 @@ Registradas em `coleta/por-1/importar.py`; cada uma também aparece no relatóri
 
 - 1934, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944
 
+### Temporadas com a ordem oficial da RSSSF (`ORDEM_RSSSF`)
+
+- **1944/45:** 2º Sporting e 3º Belenenses (27 pontos), 6º Olhanense e 7º Estoril (16): confronto direto, como na RSSSF (lista de campeões: "runners-up: Sporting CP") e na Wikipédia pt (revisão PT-003)
+- **2005/06:** 13º Naval e 14º Académica (39 pontos, com o Belenenses): confronto direto entre os três (Naval 7, Académica 5, Belenenses 4), como na RSSSF e na Wikipédia pt (revisão PT-005, decisão D-19 c)
+
+### Posições fixadas por decisão de tribunal (`ORDEM_FIXA`)
+
+- **1986/87:** {9: 'Académica', 10: 'Portimonense', 11: 'Braga', 12: 'Rio Ave', 13: 'Marítimo'}
+
+### Ajustes de pontos que valem hoje (`AJUSTES`)
+
+- **2007/08 · Porto:** [0] 6 pontos descontados em 2008 (caso Apito Final) e devolvidos em 2017 pelo Conselho de Justiça da FPF
+
+### Observações na classificação final (`OBS_CLASSIF`)
+
+- **1950/51 · Vitória de Setúbal:** rebaixado em 12º; a Wikipédia pt confirma a queda (o Vitória de Guimarães, 13º, ficou)
+- **1961/62 · Beira-Mar:** rebaixado em 11º; a Wikipédia pt confirma a queda (o Lusitano de Évora, 12º, ficou)
+- **1973/74 · Beira-Mar:** rebaixado em 13º; a Wikipédia pt confirma a queda (o Leixões, 14º, ficou)
+- **1997/98 · Leça:** rebaixado administrativamente (corrupção num jogo da 2ª Divisão B em 1993); o Chaves, 16º, ficou no lugar
+- **1997/98 · Chaves:** 16º, ficou na 1ª divisão no lugar do Leça, rebaixado administrativamente
+- **2005/06 · Gil Vicente:** rebaixado no lugar do Belenenses (caso Mateus, jogador inscrito irregularmente)
+- **2005/06 · Belenenses:** 15º, ficou na 1ª divisão: o Gil Vicente caiu no lugar (caso Mateus)
+- **2007/08 · Boavista:** rebaixado pelo caso Apito Final (terminou em 9º)
+- **2007/08 · União de Leiria:** 3 pontos a menos (caso Apito Final)
+- **2008/09 · Estrela da Amadora:** rebaixado por dívidas (terminou em 11º); o Belenenses, 15º, ficou
+- **2019/20 · Vitória de Setúbal:** rebaixado por não cumprir as regras de licenciamento; o Portimonense, 17º, ficou
+- **2019/20 · Desportivo das Aves:** rebaixado por não cumprir as regras de licenciamento
+- **2023/24 · Estrela da Amadora:** Club Football Estrela da Amadora (da fusão de 2020), contado junto do CF Estrela da Amadora de 1932, como no ogol (decisão D-24 c)
+- **1946/47 · SL Elvas:** fundiu-se em 1947 com o Elvas FC no O Elvas CAD, que ficou com o lugar na 1ª divisão (decisão D-24 d)
+
 ### Divergências entre fontes já explicadas (`EXPLICACOES`)
 
 - **1947/48:** a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos (Atlético CP)
+- **1986/87:** Braga x Benfica (31/05/1987): derrota para os dois no tribunal; as tabelas da RSSSF e da Wikipédia en contam o 1-1 de campo e não fecham nesses dois clubes; a da Wikipédia pt conta a decisão (Benfica 48, Braga 25 e 11º)
 - **1990/91:** a tabela da Wikipédia troca os números do Marítimo e do Farense; a da RSSSF fecha com os jogos / a matriz da RSSSF traz trocadas as colunas 13 e 14 (Gil Vicente e Famalicão): desfeita a troca, os 380 placares batem com o ogol
 - **1992/93:** a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos (Porto: 57 gols pró; os jogos dão 59)
-- **1994/95:** a tabela da Wikipédia dá ao Benfica as vitórias e derrotas do 1-2 contra o Sporting e os gols do 2-0; a da RSSSF fecha com o 2-0
+- **1994/95:** Benfica 1-2 Sporting (30/04/1995): o ogol, o transfermarkt, a Wikipédia pt e o artigo da temporada do Benfica ("perdeu os dois jogos contra o Sporting") dão 1-2; a matriz e a tabela da RSSSF, o engsoccerdata e o football-data, 2-0. Fica o 1-2 (revisão PT-002)
 - **1995/96:** a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos (Benfica)
 - **1998/99:** a tabela da Wikipédia erra gols, vitórias ou empates de algum clube; a da RSSSF fecha com os jogos (Académica: 70 gols contra; os jogos dão 71)
-- **2005/06:** Académica, Naval e Belenenses terminaram com 39 pontos; a Wikipédia (e os sites que a repetem) põe a Académica em 13º e o Naval em 14º, a RSSSF o contrário (que é o que dá o confronto direto entre os três). Fica a da Wikipédia / o Belenenses terminou em 15º, na zona de rebaixamento, e ficou na 1ª divisão: o Gil Vicente foi rebaixado no lugar dele (caso Mateus, jogador inscrito irregularmente)
-- **2007/08:** Porto -6 pontos e União de Leiria -3 pontos (caso Apito Final, corrupção na temporada 2003/04), como na tabela da RSSSF e na classificação do fim da temporada. A Wikipédia de hoje não desconta, porque o Conselho de Justiça da Federação absolveu o Porto em 2017; a ordem é a mesma nos dois casos / Boavista rebaixado pelo caso Apito Final (terminou em 9º); o Paços de Ferreira, 15º, ficou na 1ª divisão
+- **2005/06:** Académica, Naval e Belenenses terminaram com 39 pontos; a Wikipédia (e os sites que a repetem) põe a Académica em 13º e o Naval em 14º, a RSSSF o contrário (que é o que dá o confronto direto entre os três). Fica a da RSSSF / o Belenenses terminou em 15º, na zona de rebaixamento, e ficou na 1ª divisão: o Gil Vicente foi rebaixado no lugar dele (caso Mateus, jogador inscrito irregularmente)
+- **2007/08:** Porto com 75 pontos: os 6 descontados em 2008 (caso Apito Final) foram devolvidos em 2017 pelo Conselho de Justiça da FPF, como nas Wikipédias pt e en (decisão D-20 a); União de Leiria com 3 pontos a menos, como na RSSSF (sem fonte da devolução). A ordem é a mesma nos dois casos / Boavista rebaixado pelo caso Apito Final (terminou em 9º); o Paços de Ferreira, 15º, ficou na 1ª divisão
 - **2008/09:** a tabela da RSSSF dá 46 pontos ao Leixões (os jogos dão 45, como na Wikipédia) / Estrela da Amadora rebaixado por dívidas (terminou em 11º); o Belenenses, 15º, ficou na 1ª divisão
 - **2019/20:** a tabela da Wikipédia dá um gol pró e um contra a menos ao Gil Vicente e ao Paços de Ferreira; os jogos fecham com a RSSSF, o football-data e o engsoccerdata / Vitória de Setúbal e Desportivo das Aves rebaixados por não cumprirem as regras de licenciamento; o Portimonense, 17º, ficou na 1ª divisão
 

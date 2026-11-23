@@ -42,7 +42,7 @@ CLUBES = {
     "Dijon FCO": ("Dijon", "Dijon", "FRA"),
     "EA Guingamp": ("Guingamp", "Guingamp", "FRA"),
     "ESTAC Troyes": ("Troyes", "Troyes", "FRA"),
-    "Evian Thonon Gaillard": ("Evian", "Thonon-les-Bains", "FRA"),
+    "Evian Thonon Gaillard": ("Évian", "Thonon-les-Bains", "FRA"),   # revisão FR-021
     "Excelsior Roubaix": ("Excelsior Roubaix", "Roubaix", "FRA"),
     "FC Antibes": ("Antibes", "Antibes", "FRA"),
     "FC Gueugnon": ("Gueugnon", "Gueugnon", "FRA"),
@@ -91,6 +91,8 @@ CLUBES = {
     "Stade Reims": ("Reims", "Reims", "FRA"),
     "Stade Rennes": ("Rennes", "Rennes", "FRA"),
     "Toulouse FC": ("Toulouse", "Toulouse", "FRA"),
+    # o Toulouse FC de 1937, que se fundiu com o Red Star em 1967, é outro clube (revisão FR-012, decisão D-24 a)
+    "Toulouse FC (1937)": ("Toulouse FC (1937)", "Toulouse", "FRA"),
     "Tours FC": ("Tours", "Tours", "FRA"),
     "Troyes AF": ("Troyes AF", "Troyes", "FRA"),
     "US Boulogne": ("Boulogne", "Boulogne-sur-Mer", "FRA"),
@@ -139,6 +141,8 @@ ALIASES: dict[str, str] = {
 
 # nomes que dependem da época: nome -> [(primeiro ano, último ano, chave)]
 POR_ANO: dict[str, list[tuple[int, int, str]]] = {
+    # Toulouse FC de 1937 (1ª divisão de 1946/47 a 1966/67) x o de 1970 (revisão FR-012)
+    **{n: [(1932, 1966, "Toulouse FC (1937)"), (1967, 9999, "Toulouse FC")] for n in ("Toulouse", "Toulouse FC", "TOULOUSE")},
     "Montpellier": [(1932, 1962, "Stade Olympique Montpellierain"), (1981, 9999, "Montpellier HSC")],
     "Troyes": [(1954, 1960, "AS Troyes-Savinienne"), (1973, 1977, "Troyes AF"), (1999, 9999, "ESTAC Troyes")],
     "Nimes": [(1932, 1934, "SC Nimes"), (1950, 9999, "Nimes Olympique")],

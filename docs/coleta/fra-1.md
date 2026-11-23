@@ -4,11 +4,11 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 **Edições:** 88, de 1932/33 a 2025/26 (Division 1 até 2001/02, Ligue 1 depois). Sem 1939/40-1944/45 (campeonatos de guerra, não reconhecidos).
 
-**Total:** 30466 jogos, 84823 gols, 22613 gols com autor (ESPN), 35434 cartões, 76 clubes.
+**Total:** 30466 jogos, 84818 gols, 22613 gols com autor (ESPN), 35434 cartões, 77 clubes.
 
 **Fontes:**
 - engsoccerdata (GitHub jalapic/engsoccerdata, licença GPL >= 2): base dos jogos, 1932/33-2024/25, menos 1937/38, 1994/95 e 2025/26 (que vêm do ogol) e 1932/33 (errada);
-- football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+), árbitro e estatísticas por time;
+- football-data.co.uk: de 1993/94 em diante confere o placar; hora (2019/20+) e estatísticas por time (os arquivos da França não trazem árbitro);
 - ogol: rodada oficial de cada jogo e conferência de placar; completa as temporadas em que a base falha; calendários guardados em `data/cache/ogol-fra-1/` para os escudos;
 - ESPN (liga `fra.1`, 2001/02+): hora, estádio, público, gols e cartões com minuto e jogador;
 - RSSSF: matriz de resultados e tabela final de 1932/33 a 1997/98 (conferência jogo a jogo), tabela final das temporadas seguintes e lista de artilheiros (com o clube);
@@ -16,7 +16,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 **Regras:** o placar é o da base; cada tabela publicada é comparada com a tabela calculada dos jogos (jogos, V, E, D, gols pró e contra, pontos com a punição). A ordem da classificação final é a oficial (Wikipédia). Gols da ESPN só entram quando a soma bate com o placar. Hora local (Paris). Rebaixado = clube que não está na 1ª divisão na temporada seguinte. 2 pontos por vitória até 1993/94 (menos 1988/89, que teve 3), 3 a partir de 1994/95 (de 1973/74 a 1975/76, 1 ponto a mais para quem marcava 3 gols ou mais no jogo). Placar diferente no ogol, no football-data ou na ESPN numa temporada em que as tabelas publicadas fecham com a base é erro da outra fonte e fica só anotado; quando a outra fonte e a tabela publicada concordam contra a base, o placar é corrigido (CORRECOES, TRIBUNAL e INVERTIDOS em `importar.py`, com o motivo).
 
-**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 9, saldo de gols em 72, média de gols em 7); é ele que ordena a classificação rodada a rodada.
+**Desempate:** para cada temporada, o critério calculado que reproduz a ordem oficial (confronto direto em 0, saldo de gols em 64, média de gols em 24); é ele que ordena a classificação rodada a rodada.
 
 | Temporada | Fontes | Clubes | Jogos (ogol) | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
@@ -28,7 +28,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 | 1937/38 | engsoccerdata + ogol + RSSSF + Wikipédia | 16 | 240 (240) | 793 | 0 | 1 / 1 | Sochaux | — |
 | 1938/39 | engsoccerdata + ogol + RSSSF + Wikipédia | 16 | 240 (240) | 766 | 0 | 2 / 0 | Sète | — |
 | 1945/46 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1082 | 0 | 0 / 2 | Lille | — |
-| 1946/47 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1343 | 0 | 0 / 2 | CO Roubaix-Tourcoing | — |
+| 1946/47 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1334 | 0 | 1 / 1 | CO Roubaix-Tourcoing | — |
 | 1947/48 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1126 | 0 | 2 / 0 | Olympique de Marseille | — |
 | 1948/49 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1138 | 0 | 2 / 0 | Reims | — |
 | 1949/50 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1082 | 0 | 2 / 0 | Bordeaux | — |
@@ -37,10 +37,10 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 | 1952/53 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 962 | 0 | 1 / 1 | Reims | — |
 | 1953/54 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 949 | 0 | 1 / 1 | Lille | — |
 | 1954/55 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1052 | 0 | 2 / 0 | Reims | — |
-| 1955/56 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1010 | 0 | 1 / 1 | Nice | — |
+| 1955/56 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1010 | 0 | 0 / 2 | Nice | — |
 | 1956/57 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1030 | 0 | 2 / 0 | Saint-Étienne | — |
 | 1957/58 | engsoccerdata + ogol + RSSSF + Wikipédia | 18 | 306 (306) | 1024 | 0 | 2 / 0 | Reims | — |
-| 1958/59 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1257 | 0 | 2 / 0 | Nice | — |
+| 1958/59 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1261 | 0 | 0 / 2 | Nice | — |
 | 1959/60 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1277 | 0 | 2 / 0 | Reims | — |
 | 1960/61 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1196 | 0 | 2 / 0 | Monaco | — |
 | 1961/62 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1192 | 0 | 2 / 0 | Reims | — |
@@ -56,8 +56,8 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 | 1971/72 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1087 | 0 | 1 / 1 | Olympique de Marseille | — |
 | 1972/73 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1050 | 0 | 2 / 0 | Nantes | — |
 | 1973/74 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1151 | 0 | 2 / 0 | Saint-Étienne | — |
-| 1974/75 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1075 | 0 | 2 / 0 | Saint-Étienne | Saint-Étienne -5 pontos; Olympique de Marseille -7 pontos; Lyon -2 pontos; Nîmes -4 pontos; Nantes -6 pontos; Bastia -3 pontos; Lens -6 pontos; Metz -2 pontos; Strasbourg -2 pontos; Monaco -11 pontos; Reims -4 pontos; Bordeaux -3 pontos; Lille -2 pontos; Nice -2 pontos; PSG -5 pontos; Troyes AF -1 pontos; Sochaux -2 pontos; Angers -1 pontos; Rennes -1 pontos; Red Star -2 pontos |
-| 1975/76 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1145 | 0 | 1 / 1 | Saint-Étienne | Saint-Étienne -3 pontos; Nice -1 pontos; Sochaux -3 pontos; Nantes -3 pontos; Reims -7 pontos; Metz -4 pontos; Nancy -6 pontos; Bastia -4 pontos; Olympique de Marseille -9 pontos; Bordeaux -5 pontos; Nîmes -3 pontos; Valenciennes -2 pontos; Lille -5 pontos; PSG -4 pontos; Lens -6 pontos; Lyon -3 pontos; Troyes AF -2 pontos; Monaco -5 pontos; Avignon -2 pontos |
+| 1974/75 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1075 | 0 | 2 / 0 | Saint-Étienne | — |
+| 1975/76 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1145 | 0 | 1 / 1 | Saint-Étienne | — |
 | 1976/77 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1125 | 0 | 2 / 0 | Nantes | — |
 | 1977/78 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1135 | 0 | 2 / 0 | Monaco | — |
 | 1978/79 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 1141 | 0 | 2 / 0 | Strasbourg | — |
@@ -74,7 +74,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 | 1989/90 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 863 | 0 | 2 / 0 | Olympique de Marseille | — |
 | 1990/91 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 805 | 0 | 2 / 0 | Olympique de Marseille | — |
 | 1991/92 | engsoccerdata + ogol + RSSSF | 20 | 380 (380) | 796 | 0 | 1 / 0 | Olympique de Marseille | — |
-| 1992/93 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 886 | 0 | 1 / 1 | — | Olympique de Marseille -1 pontos; Valenciennes -1 pontos |
+| 1992/93 | engsoccerdata + ogol + RSSSF + Wikipédia | 20 | 380 (380) | 886 | 0 | 0 / 2 | — | — |
 | 1993/94 | engsoccerdata + ogol + football-data + RSSSF + Wikipédia | 20 | 380 (380) | 850 | 0 | 2 / 0 | PSG | — |
 | 1994/95 | engsoccerdata + ogol + football-data + RSSSF + Wikipédia | 20 | 380 (380) | 951 | 0 | 2 / 0 | Nantes | — |
 | 1995/96 | engsoccerdata + ogol + football-data + RSSSF + Wikipédia | 20 | 380 (380) | 867 | 0 | 2 / 0 | Auxerre | — |
@@ -90,7 +90,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 | 2005/06 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 811 | 808 | 2 / 0 | Lyon | — |
 | 2006/07 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 855 | 840 | 2 / 0 | Lyon | — |
 | 2007/08 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 868 | 866 | 2 / 0 | Lyon | — |
-| 2008/09 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 858 | 846 | 1 / 1 | Bordeaux | Le Havre -1 pontos |
+| 2008/09 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 858 | 846 | 1 / 1 | Bordeaux | — |
 | 2009/10 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 916 | 906 | 2 / 0 | Olympique de Marseille | — |
 | 2010/11 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 890 | 882 | 2 / 0 | Lille | — |
 | 2011/12 | engsoccerdata + ogol + football-data + ESPN + RSSSF + Wikipédia | 20 | 380 (380) | 956 | 954 | 2 / 0 | Montpellier | — |
@@ -149,6 +149,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1935/36
 
+- Valenciennes 0-1 Marseille e Marseille 2-2 Valenciennes: a Wikipédia fr dá o mando ou o placar ao contrário (2-2 e 1-0). Fica a base; conferir num jornal da época (revisão FR-017)
 - o engsoccerdata traz clubes que não estavam na 1ª divisão nesta temporada (a RSSSF e a Wikipédia têm outros)
 - a base não fecha nesta temporada (0 jogos): montada pelo calendário do ogol (240 jogos), com 0 jogos da base
 - 240 jogos só no ogol, que entram com o placar do ogol: Olympique Marseille 2-0 Olympique Ales (1935-07-01); FC Sete 1-1 Valenciennes FC (1935-07-01); Racing Club de France 2-1 Valenciennes FC (1935-07-01); Olympique Marseille 1-4 Red Star FC (1935-07-01); Olympique Lillois Lille 0-0 Stade Rennes (1935-08-01); FC Sochaux 0-0 SC Fives Lille (1935-08-01) ...
@@ -165,6 +166,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1937/38
 
+- Excelsior 4-0 Valenciennes e Valenciennes 1-1 Excelsior: a Wikipédia fr dá 5-0 e 1-0, que fecham com as tabelas das Wikipédias fr e en; conferir num jornal da época antes de mudar (revisão FR-017)
 - a RSSSF chama de "AMIENS" o clube que o ogol e a Wikipédia dão como Antibes (os resultados são os mesmos)
 - o ogol não tem a data de mais da metade dos jogos (traz 01/07/1937): ficam sem data
 - a tabela da Wikipédia erra gols, vitórias ou empates de alguns clubes; a da RSSSF fecha com os jogos e dá a ordem
@@ -180,9 +182,14 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 ### 1938/39
 
 - data diferente no ogol em 14 jogos (ex.: RC Strasbourg x FC Sete: base 1938-09-04, ogol 1938-08-01); fica a da base
+- Olympique Lillois não está na temporada seguinte, mas não caiu: fundiu-se com o SC Fives no Lille OSC (guerra), que ficou com a vaga dos dois
+- Fives não está na temporada seguinte, mas não caiu: fundiu-se com o Olympique Lillois no Lille OSC (guerra), que ficou com a vaga dos dois
+- Excelsior Roubaix não está na temporada seguinte, mas não caiu: fundiu-se com o RC Roubaix no CO Roubaix-Tourcoing (guerra), que ficou com a vaga do Excelsior
+- RC Roubaix não está na temporada seguinte, mas não caiu: fundiu-se com o Excelsior no CO Roubaix-Tourcoing (guerra)
 
 ### 1945/46
 
+- Bordeaux 0-3 Sète e Sète 2-4 Bordeaux: a Wikipédia fr dá Bordeaux 4-2 e Sète 3-0. Fica a base; conferir num jornal da época (revisão FR-017)
 - Red Star x Cannes: a base traz 1-1 e o ogol 0-0. A tabela da RSSSF e a da Wikipédia fecham com 0-0, mas a nota da RSSSF diz "possibly Red Star - Cannes 1-1; off. goal averages 63-60 (RS) resp. 52-56 (C)", que é o 1-1 da base. Fica a base
 - placar diferente no ogol — Red Star FC x AS Cannes (1946-05-26): base 1-1, ogol 0-0
 - tabela publicada x jogos (RSSSF) — AS Cannes tabela [34, 12, 10, 12, 51, 55, 34] jogos [34, 12, 10, 12, 52, 56, 34]
@@ -193,37 +200,60 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 ### 1946/47
 
 - a tabela da RSSSF dá ao CO Roubaix-Tourcoing 11 derrotas (os números não somam 38 jogos; são 9)
-- a tabela da Wikipédia erra gols, vitórias ou empates de alguns clubes; a da RSSSF fecha com os jogos e dá a ordem
-- a base não fecha nesta temporada (340 jogos): montada pelo calendário do ogol (380 jogos), com 331 jogos da base
-- 49 jogos só no ogol, que entram com o placar do ogol: FC Rouen 6-0 FC Sete (1946-08-18); CO Roubaix-Tourcoing 4-1 RC Lens (1946-09-15); Olympique Marseille 1-3 Girondins Bordeaux (1946-10-27); Stade Olympique Montpellierain 2-6 Stade Francais FC (1946-10-27); CO Roubaix-Tourcoing 5-2 Stade Olympique Montpellierain (1946-11-03); RC Lens 8-1 Le Havre AC (1946-11-10) ...
-- 9 jogos com data errada na base, trocada pela do ogol: RC Strasbourg x Red Star FC (1946-03-10 -> 1946-11-10); Lille OSC x FC Rouen (1946-03-10 -> 1946-11-10); Stade Francais FC x Racing Club de France (1946-03-10 -> 1946-11-10); Olympique Marseille x CO Roubaix-Tourcoing (1946-03-10 -> 1946-11-10) ...
-- 9 jogos da base fora do calendário do ogol, descartados: RC Lens 8-0 Le Havre AC (1946-03-10); FC Rouen 6-1 FC Sete (1946-08-18); CO Roubaix-Tourcoing 5-2 RC Lens (1946-09-15); Stade Olympique Montpellierain 1-3 Stade Francais FC (1946-10-27); Olympique Marseille 0-0 Girondins Bordeaux (1946-10-27); CO Roubaix-Tourcoing 2-1 Stade Olympique Montpellierain (1946-11-03)
+- placar diferente no ogol — FC Rouen x FC Sete (1946-08-18): base 6-1, ogol 6-0; fica a base
+- placar diferente no ogol — CO Roubaix-Tourcoing x RC Lens (1946-09-15): base 5-2, ogol 4-1; fica a base
+- placar diferente no ogol — Olympique Marseille x Girondins Bordeaux (1946-10-27): base 0-0, ogol 1-3; fica a base
+- placar diferente no ogol — Stade Olympique Montpellierain x Stade Francais FC (1946-10-27): base 1-3, ogol 2-6; fica a base
+- placar diferente no ogol — CO Roubaix-Tourcoing x Stade Olympique Montpellierain (1946-11-03): base 2-1, ogol 5-2; fica a base
+- placar diferente no ogol — RC Lens x Le Havre AC (1946-11-10): base 8-0, ogol 8-1; fica a base
+- placar diferente no ogol — CO Roubaix-Tourcoing x Girondins Bordeaux (1946-11-17): base 4-1, ogol 1-0; fica a base
+- placar diferente no ogol — Lille OSC x Le Havre AC (1946-12-01): base 3-0, ogol 5-0; fica a base
+- placar diferente no ogol — RC Strasbourg x FC Rouen (1947-01-19): base 2-1, ogol 3-1; fica a base
+- a base não fecha nesta temporada (340 jogos): montada pelo calendário do ogol (380 jogos), com 340 jogos da base
+- 40 jogos só no ogol, que entram com o placar do ogol: Stade Reims 1-2 CO Roubaix-Tourcoing (1947-04-17); RC Strasbourg 2-0 AS Cannes (1947-04-17); Lille OSC 5-3 Stade Olympique Montpellierain (1947-04-17); Stade Francais FC 0-1 Red Star FC (1947-04-17); FC Metz 1-1 Olympique Marseille (1947-04-17); FC Sete 6-1 Girondins Bordeaux (1947-04-17) ...
+- 10 jogos com data errada na base, trocada pela do ogol: RC Strasbourg x Red Star FC (1946-03-10 -> 1946-11-10); Lille OSC x FC Rouen (1946-03-10 -> 1946-11-10); Stade Francais FC x Racing Club de France (1946-03-10 -> 1946-11-10); Olympique Marseille x CO Roubaix-Tourcoing (1946-03-10 -> 1946-11-10) ...
+- resultado do tribunal: Olympique Marseille x Girondins Bordeaux fica 0-0 com vitória do Olympique de Marseille (base 0-0) — as tabelas das Wikipédias fr e en contam a vitória do Marseille (a grade fr mostra 0-0), e só com ela as tabelas fecham; não conferido em jornal da época (revisão FR-005)
+- placar diferente no ogol — FC Rouen x FC Sete (1946-08-18): base 6-1, ogol 6-0
+- placar diferente no ogol — CO Roubaix-Tourcoing x RC Lens (1946-09-15): base 5-2, ogol 4-1
+- placar diferente no ogol — Olympique Marseille x Girondins Bordeaux (1946-10-27): base 0-0, ogol 1-3
+- placar diferente no ogol — Stade Olympique Montpellierain x Stade Francais FC (1946-10-27): base 1-3, ogol 2-6
+- placar diferente no ogol — CO Roubaix-Tourcoing x Stade Olympique Montpellierain (1946-11-03): base 2-1, ogol 5-2
+- placar diferente no ogol — RC Lens x Le Havre AC (1946-11-10): base 8-0, ogol 8-1
+- placar diferente no ogol — CO Roubaix-Tourcoing x Girondins Bordeaux (1946-11-17): base 4-1, ogol 1-0
+- placar diferente no ogol — Lille OSC x Le Havre AC (1946-12-01): base 3-0, ogol 5-0
+- placar diferente no ogol — RC Strasbourg x FC Rouen (1947-01-19): base 2-1, ogol 3-1
 - data diferente no ogol em 2 jogos (ex.: Racing Club de France x CO Roubaix-Tourcoing: base 1946-09-01, ogol 1946-08-31); fica a da base
-- tabela publicada x jogos (RSSSF) — CO Roubaix-Tourcoing tabela [38, 24, 5, 11, 70, 46, 53] jogos [38, 24, 5, 9, 70, 46, 53]
-- tabela publicada x jogos (Wikipédia) — CO Roubaix-Tourcoing tabela [38, 24, 5, 9, 71, 47, 53] jogos [38, 24, 5, 9, 70, 46, 53]
-- tabela publicada x jogos (Wikipédia) — RC Strasbourg tabela [38, 21, 7, 10, 79, 50, 49] jogos [38, 21, 7, 10, 80, 50, 49]
-- tabela publicada x jogos (Wikipédia) — Lille OSC tabela [38, 20, 7, 11, 89, 52, 47] jogos [38, 20, 7, 11, 91, 52, 47]
-- tabela publicada x jogos (Wikipédia) — Stade Francais FC tabela [38, 19, 8, 11, 72, 58, 46] jogos [38, 19, 8, 11, 75, 59, 46]
-- tabela publicada x jogos (Wikipédia) — Olympique Marseille tabela [38, 17, 11, 10, 69, 55, 45] jogos [38, 16, 11, 11, 70, 58, 43]
-- tabela publicada x jogos (Wikipédia) — FC Sete tabela [38, 12, 11, 15, 65, 79, 35] jogos [38, 12, 11, 15, 64, 79, 35]
-- tabela publicada x jogos (Wikipédia) — Stade Olympique Montpellierain tabela [38, 14, 5, 19, 59, 71, 33] jogos [38, 14, 5, 19, 61, 77, 33]
-- tabela publicada x jogos (Wikipédia) — RC Lens tabela [38, 12, 7, 19, 67, 72, 31] jogos [38, 12, 7, 19, 66, 72, 31]
-- tabela publicada x jogos (Wikipédia) — Girondins Bordeaux tabela [38, 12, 7, 19, 58, 81, 31] jogos [38, 13, 7, 18, 60, 79, 33]
-- tabela publicada x jogos (Wikipédia) — Le Havre AC tabela [38, 9, 7, 22, 44, 83, 25] jogos [38, 9, 7, 22, 45, 85, 25]
+- placar diferente na matriz da RSSSF — CO Roubaix-Tourcoing x Stade Olympique Montpellierain: base 2-1, RSSSF 5-2
+- placar diferente na matriz da RSSSF — CO Roubaix-Tourcoing x RC Lens: base 5-2, RSSSF 4-1
+- placar diferente na matriz da RSSSF — CO Roubaix-Tourcoing x Girondins Bordeaux: base 4-1, RSSSF 1-0
+- placar diferente na matriz da RSSSF — RC Strasbourg x FC Rouen: base 2-1, RSSSF 3-1
+- placar diferente na matriz da RSSSF — Lille OSC x Le Havre AC: base 3-0, RSSSF 5-0
+- placar diferente na matriz da RSSSF — Olympique Marseille x Girondins Bordeaux: base 0-0, RSSSF 1-3
+- placar diferente na matriz da RSSSF — Stade Olympique Montpellierain x Stade Francais FC: base 1-3, RSSSF 2-6
+- placar diferente na matriz da RSSSF — RC Lens x Le Havre AC: base 8-0, RSSSF 8-1
+- placar diferente na matriz da RSSSF — FC Rouen x FC Sete: base 6-1, RSSSF 6-0
+- tabela publicada x jogos (RSSSF) — CO Roubaix-Tourcoing tabela [38, 24, 5, 11, 70, 46, 53] jogos [38, 24, 5, 9, 71, 47, 53]
+- tabela publicada x jogos (RSSSF) — RC Strasbourg tabela [38, 21, 7, 10, 80, 50, 49] jogos [38, 21, 7, 10, 79, 50, 49]
+- tabela publicada x jogos (RSSSF) — Lille OSC tabela [38, 20, 7, 11, 91, 52, 47] jogos [38, 20, 7, 11, 89, 52, 47]
+- tabela publicada x jogos (RSSSF) — Stade Francais FC tabela [38, 19, 8, 11, 75, 59, 46] jogos [38, 19, 8, 11, 72, 58, 46]
+- tabela publicada x jogos (RSSSF) — Olympique Marseille tabela [38, 16, 11, 11, 70, 58, 43] jogos [38, 17, 11, 10, 69, 55, 45]
+- tabela publicada x jogos (RSSSF) — FC Sete tabela [38, 12, 11, 15, 64, 79, 35] jogos [38, 12, 11, 15, 65, 79, 35]
+- tabela publicada x jogos (RSSSF) — Stade Olympique Montpellierain tabela [38, 14, 5, 19, 61, 77, 33] jogos [38, 14, 5, 19, 59, 71, 33]
+- tabela publicada x jogos (RSSSF) — Girondins Bordeaux tabela [38, 13, 7, 18, 60, 79, 33] jogos [38, 12, 7, 19, 58, 81, 31]
+- tabela publicada x jogos (RSSSF) — RC Lens tabela [38, 12, 7, 19, 66, 72, 31] jogos [38, 12, 7, 19, 67, 72, 31]
+- tabela publicada x jogos (RSSSF) — Le Havre AC tabela [38, 9, 7, 22, 45, 85, 25] jogos [38, 9, 7, 22, 44, 83, 25]
 - ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Girondins Bordeaux, Wikipédia RC Lens); fica a da Wikipédia
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (saldo) difere em 2 posições (ex.: ['RC Lens', 'Girondins Bordeaux'])
 
 ### 1947/48
 
-- placar diferente no ogol — Racing Club de France x Stade Francais FC (1947-11-30): base 0-1, ogol 5-1
-- placar diferente no ogol — Stade Francais FC x Racing Club de France (1948-04-25): base 1-5, ogol 1-0
+- placar corrigido: Racing Club de France x Stade Francais FC de 0-1 para 5-1 — o ogol, a matriz da RSSSF e a grade da Wikipédia fr dão 5-1; a base traz 0-1 (o placar do outro jogo)
+- placar corrigido: Stade Francais FC x Racing Club de France de 1-5 para 1-0 — o ogol, a matriz da RSSSF e a grade da Wikipédia fr dão 1-0; a base traz 1-5 (o placar do outro jogo)
 - data diferente no ogol em 1 jogos (ex.: FC Metz x AS Saint-Etienne: base 1948-03-11, ogol 1948-08-22); fica a da base
-- placar diferente na matriz da RSSSF — Stade Francais FC x Racing Club de France: base 1-5, RSSSF 1-0
-- placar diferente na matriz da RSSSF — Racing Club de France x Stade Francais FC: base 0-1, RSSSF 5-1
 
 ### 1948/49
 
-- data diferente no ogol em 2 jogos (ex.: FC Sochaux x Stade Olympique Montpellierain: base 1949-01-02, ogol 1949-02-28); fica a da base
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- data diferente no ogol em 1 jogos (ex.: SR Colmar x OGC Nice: base 1949-04-14, ogol 1949-04-15); fica a da base
 
 ### 1949/50
 
@@ -231,17 +261,20 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1950/51
 
-- data diferente no ogol em 4 jogos (ex.: FC Sochaux x Stade Francais FC: base 1950-11-26, ogol 1950-12-28); fica a da base
-- placar diferente na matriz da RSSSF — Lille OSC x Toulouse FC: base 1-2, RSSSF 2-0
-- placar diferente na matriz da RSSSF — Toulouse FC x Lille OSC: base 0-2, RSSSF 2-1
+- Toulouse 0-2 Lille e Lille 1-2 Toulouse: a Wikipédia fr e a RSSSF dão Lille 2-0 e Toulouse 2-1. Fica a base (o ogol e o transfermarkt também); conferir num jornal da época (revisão FR-017)
+- 4 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- placar diferente na matriz da RSSSF — Lille OSC x Toulouse FC (1937): base 1-2, RSSSF 2-0
+- placar diferente na matriz da RSSSF — Toulouse FC (1937) x Lille OSC: base 0-2, RSSSF 2-1
 
 ### 1951/52
 
-- a tabela da Wikipédia erra gols, vitórias ou empates de alguns clubes; a da RSSSF fecha com os jogos e dá a ordem
-- data diferente no ogol em 3 jogos (ex.: Olympique Lyon x Nimes Olympique: base 1951-12-16, ogol 1952-01-24); fica a da base
-- tabela publicada x jogos (Wikipédia) — Racing Club de France tabela [34, 13, 5, 16, 60, 71, 31] jogos [34, 12, 6, 16, 60, 71, 30]
-- tabela publicada x jogos (Wikipédia) — Olympique Marseille tabela [34, 9, 9, 16, 52, 76, 27] jogos [34, 9, 10, 15, 52, 76, 28]
-- a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
+- a tabela da RSSSF conta Marseille x Racing (0-0, vitória do Racing no tribunal) como empate; a da Wikipédia conta a vitória e fecha com os jogos
+- resultado do tribunal: Olympique Marseille x Racing Club de France fica 0-0 com vitória do Racing Paris (base 0-0) — vitória dada ao Racing com 0-0 (Wikipédia fr: "gagné 0-0 sur tapis vert"; transfermarkt: W.O.) (revisão FR-003)
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- data diferente no ogol em 2 jogos (ex.: Nimes Olympique x AS Saint-Etienne: base 1952-01-27, ogol 1952-01-26); fica a da base
+- tabela publicada x jogos (RSSSF) — Racing Club de France tabela [34, 12, 6, 16, 60, 71, 30] jogos [34, 13, 5, 16, 60, 71, 31]
+- tabela publicada x jogos (RSSSF) — Olympique Marseille tabela [34, 9, 10, 15, 52, 76, 28] jogos [34, 9, 9, 16, 52, 76, 27]
+- ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Olympique Marseille, Wikipédia Stade Rennes); fica a da Wikipédia
 
 ### 1952/53
 
@@ -251,38 +284,47 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 ### 1953/54
 
 - a tabela da Wikipédia erra gols, vitórias ou empates de alguns clubes; a da RSSSF fecha com os jogos e dá a ordem
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
 - 12 jogos sem rodada no ogol ficam com a rodada dos outros jogos do mesmo dia
-- data diferente no ogol em 12 jogos (ex.: Olympique Marseille x Nimes Olympique: base 1953-08-23, ogol 1953-08-01); fica a da base
+- data diferente no ogol em 11 jogos (ex.: Olympique Marseille x Nimes Olympique: base 1953-08-23, ogol 1953-08-01); fica a da base
 - tabela publicada x jogos (Wikipédia) — Le Havre AC tabela [34, 10, 6, 18, 53, 69, 26] jogos [34, 10, 6, 18, 54, 69, 26]
 - tabela publicada x jogos (Wikipédia) — FC Sete tabela [34, 6, 10, 18, 38, 70, 22] jogos [34, 6, 10, 18, 38, 71, 22]
 - a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
+- ordem pelo critério da época: pela média de gols, a regra da época, Nancy (50/65 = 0,769) fica à frente do Metz (45/59 = 0,763), como na Wikipédia fr; a RSSSF põe o Metz em 12º
 
 ### 1954/55
 
-- data diferente no ogol em 3 jogos (ex.: Nimes Olympique x FC Sochaux: base 1954-11-28, ogol 1954-12-16); fica a da base
+- 3 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
 
 ### 1955/56
 
-- a tabela da Wikipédia erra gols, vitórias ou empates de alguns clubes; a da RSSSF fecha com os jogos e dá a ordem
+- a tabela da RSSSF conta Nancy x Marseille (0-0, vitória do Marseille no tribunal) como empate; a da Wikipédia en erra 1 gol de Marseille e Nancy (a Wikipédia fr fecha com os jogos)
+- resultado do tribunal: AS Nancy x Olympique Marseille fica 0-0 com vitória do Olympique de Marseille (base 0-0) — vitória dada ao Marseille com 0-0 (Wikipédia fr: "gagné sur tapis vert par l'OM"; transfermarkt: W.O.) (revisão FR-004)
 - data diferente no ogol em 3 jogos (ex.: AS Saint-Etienne x AS Monaco: base 1956-04-02, ogol 1956-04-01); fica a da base
-- tabela publicada x jogos (Wikipédia) — Olympique Marseille tabela [34, 16, 8, 10, 55, 49, 40] jogos [34, 15, 9, 10, 54, 49, 39]
-- tabela publicada x jogos (Wikipédia) — AS Nancy tabela [34, 13, 6, 15, 51, 61, 32] jogos [34, 13, 7, 14, 51, 60, 33]
-- a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
+- tabela publicada x jogos (RSSSF) — Olympique Marseille tabela [34, 15, 9, 10, 54, 49, 39] jogos [34, 16, 8, 10, 54, 49, 40]
+- tabela publicada x jogos (RSSSF) — AS Nancy tabela [34, 13, 7, 14, 51, 60, 33] jogos [34, 13, 6, 15, 51, 60, 32]
+- tabela publicada x jogos (Wikipédia) — Olympique Marseille tabela [34, 16, 8, 10, 55, 49, 40] jogos [34, 16, 8, 10, 54, 49, 40]
+- tabela publicada x jogos (Wikipédia) — AS Nancy tabela [34, 13, 6, 15, 51, 61, 32] jogos [34, 13, 6, 15, 51, 60, 32]
+- ordem diferente entre RSSSF e Wikipédia em 4 posições (ex.: RSSSF Racing Club de France, Wikipédia Olympique Marseille); fica a da Wikipédia
 
 ### 1956/57
 
-- data diferente no ogol em 1 jogos (ex.: Toulouse FC x Olympique Marseille: base 1956-12-02, ogol 1956-08-01); fica a da base
+- data diferente no ogol em 1 jogos (ex.: Toulouse FC (1937) x Olympique Marseille: base 1956-12-02, ogol 1956-08-01); fica a da base
 
 ### 1957/58
 
-- data diferente no ogol em 1 jogos (ex.: Valenciennes FC x Olympique Marseille: base 1958-01-26, ogol 1958-02-27); fica a da base
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
 - ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Angers SCO, Wikipédia AS Monaco); fica a da Wikipédia
 
 ### 1958/59
 
-- placar corrigido: FC Sochaux x Stade Rennes de 4-3 para 2-1 — a base e o ogol trazem 4-3; a matriz e a tabela da RSSSF e a tabela da Wikipédia fecham com 2-1
-- placar diferente no ogol — FC Sochaux x Stade Rennes (1959-05-24): base 2-1, ogol 4-3
-- data diferente no ogol em 3 jogos (ex.: AS Monaco x Stade Reims: base 1958-07-21, ogol 1958-09-21); fica a da base
+- Sochaux 4-3 Rennes (24/05/1959): a base, o ogol, o transfermarkt e a Wikipédia fr (grade e tabela) dão 4-3; só a RSSSF e a tabela da Wikipédia en dão 2-1. Fica o 4-3 (revisão FR-008)
+- 3 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- placar diferente na matriz da RSSSF — FC Sochaux x Stade Rennes: base 4-3, RSSSF 2-1
+- tabela publicada x jogos (RSSSF) — FC Sochaux tabela [38, 17, 9, 12, 70, 64, 43] jogos [38, 17, 9, 12, 72, 66, 43]
+- tabela publicada x jogos (RSSSF) — Stade Rennes tabela [38, 13, 10, 15, 61, 61, 36] jogos [38, 13, 10, 15, 63, 63, 36]
+- tabela publicada x jogos (Wikipédia) — FC Sochaux tabela [38, 17, 9, 12, 70, 64, 43] jogos [38, 17, 9, 12, 72, 66, 43]
+- tabela publicada x jogos (Wikipédia) — Stade Rennes tabela [38, 13, 10, 15, 61, 61, 36] jogos [38, 13, 10, 15, 63, 63, 36]
 
 ### 1959/60
 
@@ -304,10 +346,10 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 ### 1963/64
 
 - Toulouse x Reims: a base e a tabela da Wikipédia trazem 0-0; o ogol e a matriz da RSSSF trazem 2-2 (e a tabela da RSSSF tem 8 gols a menos para o Toulouse). Fica a base
-- placar diferente no ogol — Toulouse FC x Stade Reims (1964-05-17): base 0-0, ogol 2-2
-- data diferente no ogol em 1 jogos (ex.: Olympique Lyon x RC Lens: base 1964-01-19, ogol 1964-01-30); fica a da base
-- placar diferente na matriz da RSSSF — Toulouse FC x Stade Reims: base 0-0, RSSSF 2-2
-- tabela publicada x jogos (RSSSF) — Toulouse FC tabela [34, 13, 11, 10, 56, 46, 37] jogos [34, 13, 11, 10, 56, 54, 37]
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- placar diferente no ogol — Toulouse FC (1937) x Stade Reims (1964-05-17): base 0-0, ogol 2-2
+- placar diferente na matriz da RSSSF — Toulouse FC (1937) x Stade Reims: base 0-0, RSSSF 2-2
+- tabela publicada x jogos (RSSSF) — Toulouse FC (1937) tabela [34, 13, 11, 10, 56, 46, 37] jogos [34, 13, 11, 10, 56, 54, 37]
 
 ### 1964/65
 
@@ -321,7 +363,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1966/67
 
-- sem ocorrências
+- Toulouse FC (1937) não está na temporada seguinte, mas não caiu: fundiu-se com o Red Star, que ficou com a vaga (Red Star FC)
 
 ### 1967/68
 
@@ -337,11 +379,12 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1969/70
 
-- data diferente no ogol em 2 jogos (ex.: Angers SCO x AS Saint-Etienne: base 1970-06-06, ogol 1969-12-28); fica a da base
+- 2 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
 
 ### 1970/71
 
-- data diferente no ogol em 11 jogos (ex.: Nimes Olympique x Girondins Bordeaux: base 1970-11-12, ogol 1970-10-12); fica a da base
+- 10 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- data diferente no ogol em 1 jogos (ex.: Angers SCO x Olympique Lyon: base 1970-11-12, ogol 1970-10-12); fica a da base
 
 ### 1971/72
 
@@ -378,7 +421,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1977/78
 
-- data diferente no ogol em 1 jogos (ex.: AS Nancy x FC Nantes: base 1977-10-14, ogol 1977-12-14); fica a da base
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
 - placar diferente na matriz da RSSSF — Girondins Bordeaux x OGC Nice: base 3-5, RSSSF 0-1
 - placar diferente na matriz da RSSSF — Olympique Lyon x Paris Saint-Germain: base 2-3, RSSSF 3-2
 - placar diferente na matriz da RSSSF — Olympique Lyon x Valenciennes FC: base 1-2, RSSSF 0-1
@@ -396,7 +439,8 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1978/79
 
-- data diferente no ogol em 4 jogos (ex.: Olympique Lyon x Stade Reims: base 1978-07-25, ogol 1978-07-01); fica a da base
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- data diferente no ogol em 3 jogos (ex.: Olympique Lyon x Stade Reims: base 1978-07-25, ogol 1978-07-01); fica a da base
 - placar diferente na matriz da RSSSF — Stade Laval x Paris Saint-Germain: base 2-3, RSSSF 2-1
 - placar diferente na matriz da RSSSF — Olympique Lyon x AS Monaco: base 0-0, RSSSF 1-0
 - placar diferente na matriz da RSSSF — Olympique Marseille x Stade Reims: base 0-0, RSSSF 1-0
@@ -420,7 +464,8 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1981/82
 
-- data diferente no ogol em 2 jogos (ex.: Stade Brest x AS Saint-Etienne: base 1981-09-01, ogol 1981-09-29); fica a da base
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- data diferente no ogol em 1 jogos (ex.: Paris Saint-Germain x FC Metz: base 1981-12-13, ogol 1981-12-12); fica a da base
 
 ### 1982/83
 
@@ -456,7 +501,8 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1988/89
 
-- data diferente no ogol em 11 jogos (ex.: AS Cannes x AS Saint-Etienne: base 1988-09-10, ogol 1988-09-09); fica a da base
+- 10 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- data diferente no ogol em 1 jogos (ex.: AS Cannes x AS Saint-Etienne: base 1988-09-10, ogol 1988-09-09); fica a da base
 
 ### 1989/90
 
@@ -615,11 +661,16 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 ### 1992/93
 
 - o título foi tirado do Marseille (suborno no jogo com o Valenciennes) e ninguém foi declarado campeão
-- Valenciennes x Marseille (20/05/1993, o jogo do caso VA-OM): o ogol e a matriz da RSSSF trazem 0-1; a base e a tabela da Wikipédia, 0-0 (a tabela da RSSSF não fecha com nenhum dos dois). Fica a base, que fecha com uma tabela publicada
+- Valenciennes x Marseille (20/05/1993, o jogo do caso VA-OM): 0-1 em campo; declarado perdido para os dois, com 0-0 (Wikipédia fr; revisão FR-006)
+- a tabela da Wikipédia en conta esse jogo como empate e desconta 1 ponto de cada um; a da RSSSF dá ao Valenciennes 57 gols sofridos (os jogos, 56)
+- resultado do tribunal: Valenciennes FC x Olympique Marseille fica 0-0 com derrota para os dois (base 0-0) — declarado perdido para os dois clubes (caso VA-OM; Wikipédia fr; a RSSSF também conta derrota para o Marseille) (revisão FR-006)
 - placar diferente no ogol — Valenciennes FC x Olympique Marseille (1993-05-20): base 0-0, ogol 0-1
+- ajuste da Wikipédia ignorado em Olympique de Marseille: a Wikipédia en desconta 1 ponto para representar a derrota dos dois no tribunal
+- ajuste da Wikipédia ignorado em Valenciennes: a Wikipédia en desconta 1 ponto para representar a derrota dos dois no tribunal
 - placar diferente na matriz da RSSSF — Valenciennes FC x Olympique Marseille: base 0-0, RSSSF 0-1
-- tabela publicada x jogos (RSSSF) — Olympique Marseille tabela [38, 22, 9, 7, 71, 36, 53] jogos [38, 22, 10, 6, 71, 36, 53]
-- tabela publicada x jogos (RSSSF) — Valenciennes FC tabela [38, 9, 11, 18, 42, 57, 29] jogos [38, 9, 12, 17, 42, 56, 29]
+- tabela publicada x jogos (RSSSF) — Valenciennes FC tabela [38, 9, 11, 18, 42, 57, 29] jogos [38, 9, 11, 18, 42, 56, 29]
+- tabela publicada x jogos (Wikipédia) — Olympique Marseille tabela [38, 22, 10, 6, 71, 36, 53] jogos [38, 22, 9, 7, 71, 36, 53]
+- tabela publicada x jogos (Wikipédia) — Valenciennes FC tabela [38, 9, 12, 17, 42, 56, 29] jogos [38, 9, 11, 18, 42, 56, 29]
 - título não atribuído (lista de campeões da Wikipédia); Olympique de Marseille terminou em 1º
 
 ### 1993/94
@@ -1108,7 +1159,8 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 1997/98
 
-- data diferente no ogol em 27 jogos (ex.: Toulouse FC x Stade Rennes: base 1997-08-01, ogol 1997-08-02); fica a da base
+- 1 datas corrigidas: o transfermarkt e o ogol concordam contra a base (lista em data/coleta/fra-1/correcoes/datas.csv)
+- data diferente no ogol em 26 jogos (ex.: Toulouse FC x Stade Rennes: base 1997-08-01, ogol 1997-08-02); fica a da base
 
 ### 1998/99
 
@@ -1168,10 +1220,8 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 2008/09
 
-- Le Havre: 1 ponto a menos; a RSSSF desconta, a Wikipédia não
-- punição tirada da tabela da RSSSF: Le Havre -1 pontos
-- tabela publicada x jogos (Wikipédia) — Le Havre AC tabela [38, 7, 5, 26, 30, 67, 26] jogos [38, 7, 5, 26, 30, 67, 25]
-- a tabela da Wikipédia não fecha com os jogos e a da RSSSF fecha: fica a ordem da RSSSF
+- Le Havre: a RSSSF dá 1 ponto a menos; as Wikipédias fr e en dão 26 pontos, sem punição nem nota. Fica sem punição (revisão FR-010)
+- tabela publicada x jogos (RSSSF) — Le Havre AC tabela [38, 7, 5, 26, 30, 67, 25] jogos [38, 7, 5, 26, 30, 67, 26]
 - gols da ESPN não batem com o placar — Le Mans UC 72 2-0 AS Nancy: ESPN 3-0 (descartados)
 - gols da ESPN não batem com o placar — AS Saint-Etienne 3-2 SM Caen: ESPN 3-3 (descartados)
 - gols da ESPN não batem com o placar — Lille OSC 3-2 FC Sochaux: ESPN 4-2 (descartados)
@@ -1345,7 +1395,7 @@ Gerado por `python coleta/fra-1/importar.py`. Pacote em `data/coleta/fra-1/pacot
 
 ### 2023/24
 
-- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['FC Metz', 'FC Lorient'])
+- nenhum critério calculado reproduz a ordem oficial; o mais próximo (saldo) difere em 2 posições (ex.: ['FC Metz', 'FC Lorient'])
 - gols da ESPN não batem com o placar — Montpellier HSC 1-1 Clermont Foot 63: ESPN 5-3 (descartados)
 
 ### 2024/25
