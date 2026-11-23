@@ -783,5 +783,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Teste de carga:** `per-1: 109 edições, 17318 jogos, 14 clubes novos -> OK` (os 14 são os da Liga Peruana, ainda
   não carregados).
 - **Pedido ao agente 1:** recarregar o `per-1`.
-- **Commit:** (abaixo).
+- **Commit:** `70d8caf`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**

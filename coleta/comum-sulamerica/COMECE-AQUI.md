@@ -78,7 +78,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e | sim (versão antes das correções) |
 | `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d | sim (versão antes das correções) |
 | `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 4583f7e | sim (versão antes das correções) |
-| `per-1` Peruano | 109 (1912–2025) | 17.318 | 167 | 9d1ca3b, 0b793ba; correções 55c7066 | sim (versão antes das correções) |
+| `per-1` Peruano | 109 (1912–2025) | 17.318 | 167 | 9d1ca3b, 0b793ba; correções 55c7066, 70d8caf | sim (versão antes das correções) |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.175 | 63 | 0b793ba; correções 4577457, cf612c6 | sim (versão antes das correções) |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
 | `ven-1` Venezuelano | 106 (1921–2025) | 13.580 | 108 | 35dc0a2; leitor comum 415911b; cf612c6 | sim (versão de 22/11) |
@@ -99,7 +99,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Equador: feito (`cf612c6`)** (EC-013, EC-014). Junto: a regra "gol da ESPN sem lado não entra" (a do PY-020) foi para o
      `outras_fontes.py` de `ecu-1`, `chi-1`, `col-1`, `per-1` e `ven-1` (EC-013, CH-017, CO-018); a Venezuela foi
      reimportada no mesmo commit, e Chile, Colômbia e Peru entram com os seus.
-   - **Peru: feito (commit no recado)** (PE-010, PE-012, PE-014, PE-015, PE-017, PE-022). Novo: `coleta/per-1/rebaixados_es.py`
+   - **Peru: feito (`70d8caf`)** (PE-010, PE-012, PE-014, PE-015, PE-017, PE-022). Novo: `coleta/per-1/rebaixados_es.py`
      (seção "Ascensos y descensos" das páginas da es; `baixar_wikipedia.py` agora baixa todos os anos, "Liga1 <ano> (Perú)"
      de 2019 em diante).
    - **PARADO AQUI em 23/11 (o Guilherme encerrou o dia).** Retomar pelo Paraguai.
