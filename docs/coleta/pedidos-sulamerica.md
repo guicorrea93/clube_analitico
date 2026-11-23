@@ -708,3 +708,22 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `ecu-1` inteiro. Os ids mudam: saem os jogos repetidos, e mudam as fases e as datas.
 - **Commit:** `4577457`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 23/11 — Leitor comum: data no título da fase (todas as ligas da América do Sul)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:** AR-023, UY-014, CH-012, CO-008, PY-009, PE-009 e EC-009. No `coleta/comum-sulamerica/rsssf_sul.py`, a
+  data entre colchetes num título que não é jogo ("Final [Dec 23]:", "First Leg [Jul 29]", "Semifinals [Jun 28]") vale
+  para os jogos de baixo. Antes, eles herdavam a data do último jogo da liga.
+- **O que mudou (as 9 ligas foram reimportadas e comparadas com a versão de antes):**
+  - **Datas:** 680 jogos, quase todos de finais, semifinais e desempates (arg 58, uru 75, chi 49, col 108, par 73,
+    per 86, ecu 48, bol 62, ven 121). Ex.: Uruguai 2025, final em 23/11 e 30/11; Colômbia 2024 Fi, em 18/12 e 22/12.
+  - **Placares, fases e clubes:** nenhum mudou.
+  - **ESPN:** com as datas certas, mais jogos casaram com ela (mais hora, estádio, gols com minuto e cartões).
+  - **Venezuela:** saíram 2 jogos da ESPN que repetiam a final absoluta de 2025 da página (13.582 -> 13.580).
+- **Ids das partidas:** não mudam por esta mudança (mesma ordem), salvo na Venezuela, por causa dos 2 jogos a menos. O
+  `fonte_id` muda nos jogos que passaram a casar com a ESPN.
+- **Teste de carga:** as 9 ligas com "-> OK".
+- **Pedido ao agente 1:** recarregar as 9 ligas. Seis delas já precisam ser recarregadas pelas correções de hoje; Bolívia,
+  Venezuela e o resto mudam só nas datas.

@@ -106,11 +106,11 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 | 2005/06 | 10 | 183 (182) | 465 | 457 | 3 / 0 | Caracas FC | RSSSF (venez06) |
 | 2006/07 | 10 | 182 (182) | 438 | 438 | 3 / 0 | Caracas FC | RSSSF (venez07) |
 | 2007/08 | 18 | 308 (308) | 826 | 771 | 3 / 1 | Deportivo Táchira | RSSSF (venez08) |
-| 2008/09 | 18 | 310 (308) | 776 | 753 | 1 / 2 | Caracas FC | RSSSF (venez09) |
+| 2008/09 | 18 | 310 (308) | 776 | 758 | 1 / 2 | Caracas FC | RSSSF (venez09) |
 | 2009/10 | 18 | 309 (308) | 823 | 716 | 3 / 0 | Caracas FC | RSSSF (venez2010) |
 | 2010/11 | 18 | 307 (307) | 775 | 736 | 1 / 1 | Deportivo Táchira | RSSSF (venez2011) |
 | 2011/12 | 18 | 304 (306) | 699 | 627 | 0 / 2 | Deportivo Lara | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2012/13 | 18 | 308 (308) | 738 | 651 | 3 / 0 | Zamora FC | RSSSF (venez2013) |
+| 2012/13 | 18 | 308 (308) | 738 | 654 | 3 / 0 | Zamora FC | RSSSF (venez2013) |
 | 2013/14 | 18 | 308 (308) | 790 | 327 | 2 / 0 | Zamora FC | RSSSF (venez2014) |
 | 2014/15 | 18 | 308 (308) | 737 | 0 | 2 / 0 | Deportivo Táchira | RSSSF (venez2015) |
 | 2015 | 20 | 204 (204) | 503 | 0 | 1 / 0 | Zamora FC | RSSSF (venez2016) |
@@ -123,7 +123,7 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 | 2022 | 16 | 253 (253) | 610 | 0 | 2 / 0 | Metropolitanos | RSSSF (venez2022) |
 | 2023 | 15 | 223 (223) | 546 | 0 | 2 / 0 | Deportivo Táchira | RSSSF (venez2023) |
 | 2024 | 14 | 234 (234) | 565 | 0 | 7 / 0 | Deportivo Táchira | RSSSF (venez2024) |
-| 2025 | 14 | 235 (235) | 560 | 0 | 6 / 0 | Universidad Central | RSSSF (venez2025) |
+| 2025 | 14 | 233 (233) | 556 | 0 | 6 / 0 | Universidad Central | RSSSF (venez2025) |
 
 ## Conferência e correções, edição a edição
 
@@ -576,7 +576,7 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 
 ### 2008/09
 
-- ESPN: 306 jogos casados
+- ESPN: 307 jogos casados
 - tabela publicada x jogos — venez09:16: Deportivo Táchira tabela [17, 8, 5, 4, 35, 18] jogos [17, 7, 7, 3, 35, 18] — a outra tabela publicada (venez09) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — venez09:919: Deportivo Táchira tabela [34, 18, 11, 5, 64, 33] jogos [34, 17, 13, 4, 64, 33] — a outra tabela publicada (venez09) fecha com os jogos: o erro é desta tabela
 - abandonado/suspenso, sem valer — Deportivo Italia Estrella Roja (2008-10-05): abandoned at 0-1 in 46'
@@ -612,43 +612,43 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 
 ### 2012/13
 
-- ESPN: 307 jogos casados
+- ESPN: 308 jogos casados
 - decidido fora de campo — Deportivo Táchira Atlético Venezuela (2012-10-28): awarded 0-3; pitch invasion by home fans
 
 ### 2013/14
 
-- ESPN: 289 jogos casados
+- ESPN: 290 jogos casados
 
 ### 2014/15
 
-- ESPN: 307 jogos casados
+- ESPN: 308 jogos casados
 - decidido fora de campo — Deportivo Italia Trujillanos (2014-12-14): awarded 0-3
 
 ### 2015
 
 - o Torneo de Adecuación 2015 conta como título na RSSSF (Zamora); a Wikipédia em inglês não o conta como temporada
-- ESPN: 200 jogos casados
+- ESPN: 204 jogos casados
 
 ### 2016
 
-- ESPN: 401 jogos casados
+- ESPN: 410 jogos casados
 - decidido fora de campo — Deportivo Italia Portuguesa FC (2016-05-04): awarded 0-3; not played due to
 
 ### 2017
 
-- ESPN: 331 jogos casados
+- ESPN: 336 jogos casados
 - decidido fora de campo — Atlético Venezuela Mineros de Guayana (2017-04-23): awarded 3-0; originally 2-1,
 - decidido fora de campo — Mineros de Guayana Portuguesa FC (2017-04-26): awarded 0-3; originally 1-0,
 - decidido fora de campo — Zulia FC Deportivo Táchira (2017-05-19): awarded 0-3; originally 2-0,
 
 ### 2018
 
-- ESPN: 333 jogos casados
+- ESPN: 336 jogos casados
 - abandonado/suspenso, sem valer — Atlético Venezuela Trujillanos (2018-10-17): abandoned at 1-0 at half-time
 
 ### 2019
 
-- ESPN: 385 jogos casados
+- ESPN: 391 jogos casados
 - decidido fora de campo — Trujillanos Mineros de Guayana (2019-03-20): awarded 0-3; not played because
 - decidido fora de campo — Caracas FC Deportivo Lara (2019-07-28): awarded 0-3; abandoned at 1-1
 - decidido fora de campo — Portuguesa FC Academia Puerto Cabello (2019-09-28): awarded 0-3, originally 0-0; Portuguesa

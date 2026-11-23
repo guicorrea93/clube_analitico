@@ -123,8 +123,8 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 2005 | 18 | 155 (155) | 445 | 237 | 1 / 0 | Nacional | RSSSF (uru05) |
 | 2005/06 | 20 | 293 (293) | 801 | 764 | 3 / 0 | Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006/07 | 16 | 245 (245) | 691 | 684 | 3 / 0 | Danubio | RSSSF (uru07) |
-| 2007/08 | 16 | 244 (243) | 726 | 694 | 3 / 0 | Defensor Sporting | RSSSF (uru08) |
-| 2008/09 | 16 | 233 (233) | 639 | 620 | 3 / 0 | Nacional | RSSSF (uru09) |
+| 2007/08 | 16 | 244 (243) | 726 | 697 | 3 / 0 | Defensor Sporting | RSSSF (uru08) |
+| 2008/09 | 16 | 233 (233) | 639 | 633 | 3 / 0 | Nacional | RSSSF (uru09) |
 | 2009/10 | 16 | 243 (243) | 711 | 690 | 3 / 0 | Peñarol | RSSSF (uru2010) |
 | 2010/11 | 16 | 241 (241) | 668 | 657 | 3 / 0 | Nacional | RSSSF (uru2011) |
 | 2011/12 | 16 | 243 (242) | 665 | 660 | 3 / 0 | Nacional | RSSSF (uru2012) |
@@ -677,15 +677,14 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - torneio de transição para o calendário europeu; o Defensor não jogou a final e o título ficou com o Nacional
 - decidido fora de campo — Peñarol Miramar Misiones (2005-07-02): awarded 1-3; abandoned at 1-1
-- não jogado — Defensor Sporting Nacional (2005-07-03)
-- não jogado — Nacional Defensor Sporting (2005-07-03)
+- não jogado — Defensor Sporting Nacional (2005-07-10)
+- não jogado — Nacional Defensor Sporting (2005-07-12)
 
 ### 2005/06
 
 - ogol: 289 jogos casados (edição 37188 do ogol, 308 jogos)
 - ESPN: 288 jogos casados
 - tabela uru06:494 fora da conferência: "Annual Table 2005": soma o Torneo Especial 2005 e o Apertura 2005/06 (ano civil, para rebaixamento e vagas), não é tabela desta edição
-- data diferente no ogol — Nacional x Rocha FC: RSSSF 2006-06-19, ogol 2006-06-24; fica a da RSSSF
 - decidido fora de campo — Peñarol Miramar Misiones (2005-09-11): awarded 0-2; abandoned at 2-1 in 82'
 - abandonado/suspenso, sem valer — Danubio Nacional (2005-12-10): abandoned at 2-3 in 44', ballboy was
 - decidido fora de campo — Deportivo Colonia River Plate de Montevideo (2006-03-05): awarded 0-2; originally 3-2, Colonia
@@ -710,18 +709,17 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 2007/08
 
-- ogol: 240 jogos casados (edição 1999 do ogol, 259 jogos)
-- ESPN: 238 jogos casados
+- ogol: 242 jogos casados (edição 1999 do ogol, 259 jogos)
+- ESPN: 240 jogos casados
 - 3º pela lista oficial: River Plate de Montevideo (a tabela o punha em 5º)
 - placar diferente no ogol — Tacuarembó x Miramar Misiones (2007-09-09): RSSSF 1-0, ogol 0-0; fica o da RSSSF
-- data diferente no ogol — River Plate de Montevideo x Peñarol: RSSSF 2008-06-01, ogol 2008-06-08; fica a da RSSSF
 - abandonado/suspenso, sem valer — Miramar Misiones Progreso (2007-08-19): abandoned at 1-0 in 83' due to crowd
 - decidido fora de campo — Defensor Sporting Liverpool de Montevideo (2008-03-23): awarded 3-5; originally 3-2;
 
 ### 2008/09
 
-- ogol: 197 jogos casados (edição 3300 do ogol, 216 jogos)
-- ESPN: 225 jogos casados
+- ogol: 202 jogos casados (edição 3300 do ogol, 216 jogos)
+- ESPN: 230 jogos casados
 - 3º pela lista oficial: Cerro (a tabela o punha em 7º)
 - data diferente no ogol — Juventud de Las Piedras x Nacional: RSSSF 2008-08-23, ogol 2008-08-31; fica a da RSSSF
 - data diferente no ogol — Tacuarembó x Bella Vista: RSSSF 2008-08-24, ogol 2008-08-31; fica a da RSSSF
@@ -745,14 +743,13 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 - data diferente no ogol — Liverpool de Montevideo x Montevideo Wanderers: RSSSF 2008-11-09, ogol 2008-11-02; fica a da RSSSF
 - data diferente no ogol — Nacional x Rampla Juniors: RSSSF 2008-11-08, ogol 2008-11-02; fica a da RSSSF
 - data diferente no ogol — Central Español x Tacuarembó: RSSSF 2008-11-08, ogol 2008-11-02; fica a da RSSSF
-- data diferente no ogol — Danubio x Nacional: RSSSF 2009-02-08, ogol 2009-02-15; fica a da RSSSF
 - abandonado/suspenso, sem valer — Racing de Montevideo Peñarol (2009-03-01): abandoned at 0-0 in 46' due
 - decidido fora de campo — Rampla Juniors River Plate de Montevideo (2009-03-01): awarded 0-2; originally 2-1,
-- não jogado — Defensor Sporting Nacional (2009-06-14)
+- não jogado — Defensor Sporting Nacional (2009-07-18)
 
 ### 2009/10
 
-- ogol: 238 jogos casados (edição 9584 do ogol, 243 jogos)
+- ogol: 241 jogos casados (edição 9584 do ogol, 243 jogos)
 - ESPN: 238 jogos casados
 
 ### 2010/11
@@ -763,7 +760,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 ### 2011/12
 
 - ogol: 237 jogos casados (edição 25175 do ogol, 241 jogos)
-- ESPN: 238 jogos casados
+- ESPN: 239 jogos casados
 - data diferente no ogol — Fénix x Racing de Montevideo: RSSSF 2012-05-24, ogol 2012-05-16; fica a da RSSSF
 - W.O./pontos para o mandante — Danubio 1-1 Racing de Montevideo (2011-10-09): awarded 1-1 win to Danubio; Racing used
 - abandonado/suspenso, sem valer — Montevideo Wanderers Defensor Sporting (2011-10-15): abandoned at 0-2 in 62'
@@ -776,8 +773,8 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 2013/14
 
-- ogol: 236 jogos casados (edição 60015 do ogol, 243 jogos)
-- ESPN: 236 jogos casados
+- ogol: 239 jogos casados (edição 60015 do ogol, 243 jogos)
+- ESPN: 239 jogos casados
 - data diferente no ogol — El Tanque Sisley x Juventud de Las Piedras: RSSSF 2013-08-24, ogol 2013-08-18; fica a da RSSSF
 - data diferente no ogol — Rentistas x Nacional: RSSSF 2013-08-24, ogol 2013-08-18; fica a da RSSSF
 - data diferente no ogol — Montevideo Wanderers x Liverpool de Montevideo: RSSSF 2013-08-24, ogol 2013-08-18; fica a da RSSSF
@@ -791,14 +788,12 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - ogol: 240 jogos casados (edição 70900 do ogol, 241 jogos)
 - ESPN: 240 jogos casados
-- data diferente no ogol — Nacional x Peñarol: RSSSF 2015-06-07, ogol 2015-06-14; fica a da RSSSF
 - decidido fora de campo — Cerro Peñarol (2015-02-14): awarded 0-3; abandoned at 0-3 in 83' due to crowd
 
 ### 2015/16
 
 - ogol: 241 jogos casados (edição 88309 do ogol, 241 jogos)
 - ESPN: 241 jogos casados
-- data diferente no ogol — Peñarol x Plaza Colonia: RSSSF 2016-06-05, ogol 2016-06-12; fica a da RSSSF
 
 ### 2016
 
@@ -811,9 +806,9 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 - artilheiro pela AUF: Maureen Franco 25; a es dá Cristian Palacios 29 (QU-008)
 - ogol: 297 jogos casados (edição 103310 do ogol, 298 jogos)
-- ESPN: 299 jogos casados
-- data diferente no ogol — Peñarol x Defensor Sporting: RSSSF 2017-12-03, ogol 2017-12-10; fica a da RSSSF
-- W.O./pontos para o visitante — Sud América 1-1 Danubio (s/d): awarded 1-1 win to Danubio as suspended coach of
+- ESPN: 300 jogos casados
+- data diferente no ogol — Peñarol x Defensor Sporting: RSSSF 2017-12-17, ogol 2017-12-10; fica a da RSSSF
+- W.O./pontos para o visitante — Sud América 1-1 Danubio (2017-05-28): awarded 1-1 win to Danubio as suspended coach of
 - abandonado/suspenso, sem valer — El Tanque Sisley Liverpool de Montevideo (2017-09-10): abandoned at 0-3 in 65' due to bad weather
 - abandonado/suspenso, sem valer — Racing de Montevideo Boston River (2017-09-12): abandoned at 1-1 in 87' due to stone throwing
 
@@ -869,10 +864,8 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 - temporada esticada até abril de 2021 pela pandemia (a RSSSF chama de 2020/21)
 - ogol: 299 jogos casados (edição 142292 do ogol, 301 jogos)
 - ESPN: 300 jogos casados
-- corrigido — Nacional x Montevideo Wanderers (2021-03-29): Supercopa 2021 (02/05/2021) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
+- corrigido — Nacional x Montevideo Wanderers (2021-04-07): Supercopa 2021 (02/05/2021) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - data diferente no ogol — Nacional x Rentistas: RSSSF 2020-10-11, ogol 2020-10-15; fica a da RSSSF
-- data diferente no ogol — Nacional x Rentistas: RSSSF 2021-03-29, ogol 2021-04-05; fica a da RSSSF
-- data diferente no ogol — Rentistas x Nacional: RSSSF 2021-03-29, ogol 2021-04-07; fica a da RSSSF
 - abandonado/suspenso, sem valer — Rentistas River Plate de Montevideo (2020-08-26): abandoned at 0-0 in 20' due to bad weather
 - W.O./pontos para o visitante — Fénix 1-1 River Plate de Montevideo (2021-01-17): awarded 1-1 win to River Plate; Fénix fielded
 - W.O./pontos para o mandante — Montevideo Wanderers 1-3 Progreso (2021-03-21): awarded 1-3 win to Wanderers; Progreso fielded
@@ -898,11 +891,9 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 ### 2023
 
 - artilheiro pela AUF: Juan Ignacio Ramírez 18; a es dá 19 (QU-008)
-- ogol: 298 jogos casados (edição 171854 do ogol, 300 jogos)
-- ESPN: 298 jogos casados
-- corrigido — Liverpool de Montevideo x Defensor Sporting (2023-12-08): Supercopa 2024 (31/01/2024) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
-- data diferente no ogol — Defensor Sporting x Liverpool de Montevideo: RSSSF 2023-07-24, ogol 2023-07-30; fica a da RSSSF
-- placar diferente no ogol — Liverpool de Montevideo x Peñarol (2023-12-08): RSSSF 2-0, ogol 0-1; fica o da RSSSF
+- ogol: 299 jogos casados (edição 171854 do ogol, 300 jogos)
+- ESPN: 299 jogos casados
+- corrigido — Liverpool de Montevideo x Defensor Sporting (2023-12-16): Supercopa 2024 (31/01/2024) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - W.O./pontos para o visitante — La Luz 1-1 Montevideo City Torque (2023-02-27): awarded win to Torque as La Luz fielded
 - abandonado/suspenso, sem valer — Racing de Montevideo Plaza Colonia (2023-04-30): abandoned at 1-0 in 31'
 
@@ -914,8 +905,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 
 ### 2025
 
-- ogol: 297 jogos casados (edição 194917 do ogol, 300 jogos)
-- ESPN: 299 jogos casados
-- corrigido — Nacional x Peñarol (2025-11-16): Supercopa 2026 entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
-- data diferente no ogol — Peñarol x Nacional: RSSSF 2025-11-16, ogol 2025-11-23; fica a da RSSSF
+- ogol: 298 jogos casados (edição 194917 do ogol, 300 jogos)
+- ESPN: 300 jogos casados
+- corrigido — Nacional x Peñarol (2025-11-30): Supercopa 2026 entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 

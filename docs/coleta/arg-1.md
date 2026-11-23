@@ -1017,7 +1017,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 - W.O./pontos para o mandante — Quilmes Ferro Carril Oeste (1929-12-29): Ferro Carril Oeste withdrew
 - W.O./pontos para o visitante — Sportivo Barracas Boca Juniors (1930-01-03): Sportivo Barracas was suspended
 - W.O./pontos para o mandante — Sportivo Palermo Defensores de Belgrano (1930-01-05): Defensores de Belgrano withdrew
-- W.O./pontos para o mandante — River Plate San Lorenzo (1930-01-12): at Racing Club San Lorenzo de Almagro forfeited
+- W.O./pontos para o mandante — River Plate San Lorenzo (1930-02-09): at Racing Club San Lorenzo de Almagro forfeited
 
 ### 1930
 
@@ -1281,7 +1281,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 ### 1958
 
-- ogol: 240 jogos casados (edição 31226 do ogol, 242 jogos)
+- ogol: 242 jogos casados (edição 31226 do ogol, 242 jogos)
 - W.O./pontos para o visitante — River Plate Huracán (1958-11-02): not played, River Plate 2 points deducted, at Ferro Carril Oeste
 
 ### 1959

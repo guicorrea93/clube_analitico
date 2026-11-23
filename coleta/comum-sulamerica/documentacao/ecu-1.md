@@ -5,10 +5,10 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 68, de 1957 a 2025; 0 sem jogos.
-- **Jogos:** 14175 (14169 com placar); **gols:** 37466; **gols com autor:** 9244 (25%); **cartões:** 15824.
+- **Jogos:** 14175 (14169 com placar); **gols:** 37466; **gols com autor:** 9260 (25%); **cartões:** 15883.
 - **Clubes:** 63; **artilheiros:** 68 edições com artilheiro (72 linhas, com empates).
 - **Classificação final:** 68 edições; **tabelas publicadas guardadas para conferência:** 2069 linhas.
-- **No banco:** sim; **último commit do pacote:** 0b793ba.
+- **No banco:** sim; **último commit do pacote:** 4577457.
 - **Observação da competição:** 1ª divisão equatoriana (Serie A, hoje LigaPro) de 1957 a 2025, um campeão por ano (sem campeonato em 1958 e 1959; dois em 2005, Apertura e Clausura). Até 1967, torneio nacional entre os melhores dos campeonatos regionais de Guayaquil e de Quito/Ambato.
 
 ## 2. Edições, fontes e regras
@@ -63,7 +63,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1990s | 10 | 2404 | 90% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 11 | 2148 | 100% | 46% | 100% | 46% | 35% | 0% | 59% | 1.3 |
 | 2010s | 10 | 2650 | 100% | 100% | 80% | 100% | 94% | 0% | 39% | 2.3 |
-| 2020s | 6 | 1522 | 100% | 100% | 80% | 100% | 100% | 1% | 82% | 4.6 |
+| 2020s | 6 | 1522 | 100% | 100% | 80% | 100% | 100% | 1% | 83% | 4.6 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 
@@ -154,7 +154,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2008: pontos corridos + 2 grupos + pontos corridos
 - 2009: pontos corridos + 2 grupos + pontos corridos + mata-mata
 - 2010 a 2011: pontos corridos + mata-mata
-- 2012: pontos corridos + desempate + pontos corridos
+- 2012: pontos corridos + desempate
 - 2013: pontos corridos
 - 2014 a 2015: pontos corridos + mata-mata
 - 2016: pontos corridos
@@ -213,7 +213,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2009: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Terceira fase (grupos, 2 grupos); Disputa do 3º lugar (liga); Final (mata_mata, ida_volta)
 - 2010: Primeira fase (liga); Segunda fase (liga); Disputa do 3º lugar (liga); Final (mata_mata, ida_volta)
 - 2011: Primeira fase (liga); Segunda fase (liga); Disputa do 3º lugar (liga); Final (mata_mata, ida_volta)
-- 2012: Primeira fase (liga); Segunda fase (liga); Desempate do 2º lugar (mata_mata, ida_volta); Disputa do 4º lugar (liga)
+- 2012: Primeira fase (liga); Segunda fase (liga); Disputa do 4º lugar (liga); Desempate do 2º lugar (mata_mata, ida_volta)
 - 2013: Primeira fase (liga); Segunda fase (liga)
 - 2014: Primeira fase (liga); Segunda fase (liga); Final (mata_mata, ida_volta)
 - 2015: Primeira fase (liga); Segunda fase (liga); Final (mata_mata, ida_volta)

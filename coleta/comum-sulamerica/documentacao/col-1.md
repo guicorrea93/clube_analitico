@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 101, de 1948 a 2025 Finalización; 6 sem jogos.
-- **Jogos:** 22512 (22508 com placar); **gols:** 59855; **gols com autor:** 22020 (37%); **cartões:** 40449.
+- **Jogos:** 22512 (22508 com placar); **gols:** 59855; **gols com autor:** 22041 (37%); **cartões:** 40519.
 - **Clubes:** 42; **artilheiros:** 90 edições com artilheiro (108 linhas, com empates).
 - **Classificação final:** 101 edições; **tabelas publicadas guardadas para conferência:** 2268 linhas.
 - **No banco:** sim; **último commit do pacote:** b8d739d.
@@ -62,7 +62,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1980s | 10 | 2256 | 6% | 0% | 71% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 10 | 1729 | 90% | 0% | 97% | 0% | 0% | 0% | 2% | 0.0 |
 | 2000s | 18 | 3824 | 100% | 44% | 100% | 44% | 44% | 0% | 89% | 1.2 |
-| 2010s | 20 | 3969 | 100% | 97% | 98% | 97% | 97% | 50% | 86% | 5.5 |
+| 2010s | 20 | 3969 | 100% | 97% | 98% | 97% | 97% | 50% | 87% | 5.6 |
 | 2020s | 11 | 2413 | 100% | 100% | 98% | 100% | 100% | 70% | 99% | 5.7 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.

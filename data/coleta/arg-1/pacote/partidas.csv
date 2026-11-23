@@ -418,7 +418,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1906-0048,1906,Primeira fase,B,,1906-09-09,,Belgrano Athletic Extra,Argentino de Quilmes,1,0,,,,Estádio do Belgrano Athletic,,,RSSSF,rsssf:arg1906:170,,at Belgrano AC
 1906-0049,1906,Primeira fase,B,,1906-09-23,,Alumni,Quilmes,4,0,,,,Sociedad Sportiva Argentina,,,RSSSF,rsssf:arg1906:173,,at Sociedad Sportiva Argentina
 1906-0050,1906,Primeira fase,B,,1906-09-30,,Alumni,Argentino de Quilmes,,,,,wo,,,,RSSSF,rsssf:arg1906:176,,"W.O.: vitória do Alumni (a tabela conta a vitória sem gols); awarded by W.O., at Sociedad Sportiva Argentina"
-1906-0051,1906,Final,,,1906-09-30,,Alumni,Lomas Athletic,4,0,,,,Estádio do Porteño,,,RSSSF,rsssf:arg1906:187,,at CA Porteño
+1906-0051,1906,Final,,,1906-10-07,,Alumni,Lomas Athletic,4,0,,,,Estádio do Porteño,,,RSSSF,rsssf:arg1906:187,,at CA Porteño
 1907-0001,1907,Fase única,,,1907-04-21,,San Martín Athletic,San Isidro,0,4,,,,,,,RSSSF,rsssf:arg1907:35,,
 1907-0002,1907,Fase única,,,1907-04-28,,Estudiantes de Buenos Aires,San Isidro,3,0,,,,,,,RSSSF,rsssf:arg1907:38,,
 1907-0003,1907,Fase única,,,1907-04-28,,San Martín Athletic,Porteño,2,2,,,,,,,RSSSF,rsssf:arg1907:39,,
@@ -7551,11 +7551,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1929-0284,1929,Primeira fase,EVEN,17,1930-01-12,,Argentino de Lomas,Vélez Sarsfield,1,2,,,,,,,RSSSF,rsssf:arg29:527,,
 1929-0285,1929,Primeira fase,EVEN,17,1930-01-12,,Chacarita Juniors,Argentinos Juniors,1,0,,,,,,,RSSSF,rsssf:arg29:528,,
 1929-0286,1929,Primeira fase,EVEN,17,1930-01-12,,Estudiantil Porteño,Independiente,0,0,,,,,,,RSSSF,rsssf:arg29:529,,
-1929-0287,1929,Disputa do 3º lugar,,17,1930-01-12,,River Plate,San Lorenzo,,,,,wo,Estádio do Racing Club,,,RSSSF,rsssf:arg29:570,,W.O.: vitória do River Plate (a tabela conta a vitória sem gols); at Racing Club San Lorenzo de Almagro forfeited
-1929-0288,1929,Desempate do título,,17,1930-01-12,,Boca Juniors,San Lorenzo,2,2,,,,Estádio do River Plate,,,RSSSF,rsssf:arg29:557,,at River Plate
-1929-0289,1929,Desempate do título,,17,1930-01-12,,Boca Juniors,San Lorenzo,2,2,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg29:560,,at Racing Club
-1929-0290,1929,Desempate do título,,17,1930-01-12,,Boca Juniors,San Lorenzo,3,1,,,,Estádio do River Plate,,,RSSSF,rsssf:arg29:563,,at River Plate
-1929-0291,1929,Final,,17,1930-01-12,,Boca Juniors,Gimnasia La Plata,1,2,,,,,,,RSSSF,rsssf:arg29:576,,
+1929-0287,1929,Disputa do 3º lugar,,17,1930-02-09,,River Plate,San Lorenzo,,,,,wo,Estádio do Racing Club,,,RSSSF,rsssf:arg29:570,,W.O.: vitória do River Plate (a tabela conta a vitória sem gols); at Racing Club San Lorenzo de Almagro forfeited
+1929-0288,1929,Desempate do título,,17,1930-01-19,,Boca Juniors,San Lorenzo,2,2,,,,Estádio do River Plate,,,RSSSF,rsssf:arg29:557,,at River Plate
+1929-0289,1929,Desempate do título,,17,1930-01-26,,Boca Juniors,San Lorenzo,2,2,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg29:560,,at Racing Club
+1929-0290,1929,Desempate do título,,17,1930-02-02,,Boca Juniors,San Lorenzo,3,1,,,,Estádio do River Plate,,,RSSSF,rsssf:arg29:563,,at River Plate
+1929-0291,1929,Final,,17,1930-02-09,,Boca Juniors,Gimnasia La Plata,1,2,,,,,,,RSSSF,rsssf:arg29:576,,
 1930-0001,1930,Fase única,,1,1930-03-23,,Barracas Central,Almagro,0,3,,,,,,,RSSSF,rsssf:arg30:71,,
 1930-0002,1930,Fase única,,1,1930-03-23,,Gimnasia La Plata,Defensores de Belgrano,4,0,,,,,,,RSSSF,rsssf:arg30:73,,
 1930-0003,1930,Fase única,,1,1930-03-23,,Vélez Sarsfield,Chacarita Juniors,2,3,,,,,,,RSSSF,rsssf:arg30:75,,
@@ -8627,7 +8627,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1931-asociacion-0125,1931 Asociación,Fase única,,,1931-12-16,,Sportivo Barracas,Sportivo Palermo,,,,,wo,,,,RSSSF,rsssf:arg31a:333,,W.O.: vitória do Sportivo Palermo (a tabela conta a vitória sem gols); Sportivo Barracas forfeited
 1931-asociacion-0126,1931 Asociación,Fase única,,,1931-12-20,,Estudiantil Porteño,Argentino de Quilmes,,,,,wo,,,,RSSSF,rsssf:arg31a:336,,W.O.: vitória do Estudiantil Porteño (a tabela conta a vitória sem gols); walk over
 1931-asociacion-0127,1931 Asociación,Fase única,,,1931-12-23,,Barracas Central,Sportivo Buenos Aires,1,4,,,,,,,RSSSF,rsssf:arg31a:339,,awarded; jogo repetido (o primeiro foi suspenso)
-1931-asociacion-0128,1931 Asociación,Desempate do título,,,1931-12-23,,Estudiantil Porteño,Almagro,3,1,,,,Estádio do Sportivo Barracas,,,RSSSF,rsssf:arg31a:363,"Francisco Martínez 25, 84, Bissio 70 / Fernández 42",at Sportivo Barracas
+1931-asociacion-0128,1931 Asociación,Desempate do título,,,1931-12-27,,Estudiantil Porteño,Almagro,3,1,,,,Estádio do Sportivo Barracas,,,RSSSF,rsssf:arg31a:363,"Francisco Martínez 25, 84, Bissio 70 / Fernández 42",at Sportivo Barracas
 1932-liga-0001,1932 Liga,Fase única,,1,1932-03-13,,Argentinos Juniors,Vélez Sarsfield,2,2,,,,,,,RSSSF,rsssf:arg32:38,,
 1932-liga-0002,1932 Liga,Fase única,,1,1932-03-13,,Atlanta,Boca Juniors,2,5,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg32:39,,at San Lorenzo de Almagro
 1932-liga-0003,1932 Liga,Fase única,,1,1932-03-13,,Estudiantes,Gimnasia La Plata,6,1,,,,,,,RSSSF,rsssf:arg32:40,,
@@ -8866,15 +8866,15 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1932-liga-0236,1932 Liga,Fase única,,26,1932-09-18,,River Plate,Vélez Sarsfield,4,1,,,,,,,RSSSF,rsssf:arg32:332,,
 1932-liga-0237,1932 Liga,Fase única,,26,1932-09-18,,Talleres de Remedios de Escalada,Lanús,3,2,,,,,,,RSSSF,rsssf:arg32:333,,
 1932-liga-0238,1932 Liga,Fase única,,26,1932-09-18,,Tigre,Chacarita Juniors,2,3,,,,,,,RSSSF,rsssf:arg32:334,,
-1932-liga-0239,1932 Liga,Fase única,,26,1932-09-18,,Boca Juniors,Quilmes,7,0,,,,,,,RSSSF,rsssf:arg32:337,,
-1932-liga-0240,1932 Liga,Fase única,,26,1932-09-18,,Chacarita Juniors,Argentinos Juniors,1,2,,,,Estádio do River Plate,,,RSSSF,rsssf:arg32:338,,at River Plate
-1932-liga-0241,1932 Liga,Fase única,,26,1932-09-18,,Gimnasia La Plata,Huracán,0,2,,,,,,,RSSSF,rsssf:arg32:339,,
-1932-liga-0242,1932 Liga,Fase única,,26,1932-09-18,,Independiente,Ferro Carril Oeste,2,1,,,,,,,RSSSF,rsssf:arg32:340,,
-1932-liga-0243,1932 Liga,Fase única,,26,1932-09-18,,Platense,Atlanta,3,0,,,,,,,RSSSF,rsssf:arg32:341,,
-1932-liga-0244,1932 Liga,Fase única,,26,1932-09-18,,San Lorenzo,Estudiantes,3,2,,,,,,,RSSSF,rsssf:arg32:342,,
-1932-liga-0245,1932 Liga,Fase única,,26,1932-09-18,,Talleres de Remedios de Escalada,River Plate,0,1,,,,,,,RSSSF,rsssf:arg32:343,,
-1932-liga-0246,1932 Liga,Fase única,,26,1932-09-18,,Tigre,Lanús,1,2,,,,,,,RSSSF,rsssf:arg32:344,,
-1932-liga-0247,1932 Liga,Fase única,,26,1932-09-18,,Vélez Sarsfield,Racing Club,1,3,,,,,,,RSSSF,rsssf:arg32:345,,
+1932-liga-0239,1932 Liga,Fase única,,26,1932-09-25,,Boca Juniors,Quilmes,7,0,,,,,,,RSSSF,rsssf:arg32:337,,
+1932-liga-0240,1932 Liga,Fase única,,26,1932-09-25,,Chacarita Juniors,Argentinos Juniors,1,2,,,,Estádio do River Plate,,,RSSSF,rsssf:arg32:338,,at River Plate
+1932-liga-0241,1932 Liga,Fase única,,26,1932-09-25,,Gimnasia La Plata,Huracán,0,2,,,,,,,RSSSF,rsssf:arg32:339,,
+1932-liga-0242,1932 Liga,Fase única,,26,1932-09-25,,Independiente,Ferro Carril Oeste,2,1,,,,,,,RSSSF,rsssf:arg32:340,,
+1932-liga-0243,1932 Liga,Fase única,,26,1932-09-25,,Platense,Atlanta,3,0,,,,,,,RSSSF,rsssf:arg32:341,,
+1932-liga-0244,1932 Liga,Fase única,,26,1932-09-25,,San Lorenzo,Estudiantes,3,2,,,,,,,RSSSF,rsssf:arg32:342,,
+1932-liga-0245,1932 Liga,Fase única,,26,1932-09-25,,Talleres de Remedios de Escalada,River Plate,0,1,,,,,,,RSSSF,rsssf:arg32:343,,
+1932-liga-0246,1932 Liga,Fase única,,26,1932-09-25,,Tigre,Lanús,1,2,,,,,,,RSSSF,rsssf:arg32:344,,
+1932-liga-0247,1932 Liga,Fase única,,26,1932-09-25,,Vélez Sarsfield,Racing Club,1,3,,,,,,,RSSSF,rsssf:arg32:345,,
 1932-liga-0248,1932 Liga,Fase única,,28,1932-10-02,,Argentinos Juniors,Tigre,2,1,,,,,,,RSSSF,rsssf:arg32:348,,
 1932-liga-0249,1932 Liga,Fase única,,28,1932-10-02,,Atlanta,Gimnasia La Plata,1,6,,,,,,,RSSSF,rsssf:arg32:349,,
 1932-liga-0250,1932 Liga,Fase única,,28,1932-10-02,,Boca Juniors,Platense,6,1,,,,,,,RSSSF,rsssf:arg32:350,,
@@ -11740,8 +11740,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1939-0305,1939,Fase única,,34,1939-12-03,,Racing Club,Rosario Central,0,2,,,,,,,RSSSF,rsssf:arg39:458,,
 1939-0306,1939,Fase única,,34,1939-12-03,,Vélez Sarsfield,River Plate,0,4,,,,,,,RSSSF,rsssf:arg39:459,,
 1939-0307,1939,Fase única,,34,1939-12-22,,Boca Juniors,Ferro Carril Oeste,,,,,wo,,,,RSSSF,rsssf:arg39:461,,W.O.: vitória do Boca Juniors (a tabela conta a vitória sem gols); awarded; jogo repetido (o primeiro foi suspenso)
-1939-0308,1939,Desempate do 1º turno,,17,1939-07-16,,Huracán,Independiente,2,1,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg39:243,,at San Lorenzo de Almagro
-1939-0309,1939,Desempate do 2º lugar,,34,1939-12-22,,River Plate,Huracán,3,3,,,,,,,RSSSF,rsssf:arg39:464,,"aet, at Chacarita Juniors"
+1939-0308,1939,Desempate do 1º turno,,17,1939-12-10,,Huracán,Independiente,2,1,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg39:243,,at San Lorenzo de Almagro
+1939-0309,1939,Desempate do 2º lugar,,34,1941-11-09,,River Plate,Huracán,3,3,,,,,,,RSSSF,rsssf:arg39:464,,"aet, at Chacarita Juniors"
 1940-0001,1940,Fase única,,1,1940-04-07,,River Plate,Independiente,1,2,,,,,,,RSSSF,rsssf:arg40:16,,
 1940-0002,1940,Fase única,,1,1940-04-07,,Atlanta,Gimnasia La Plata,5,1,,,,,,,RSSSF,rsssf:arg40:17,,
 1940-0003,1940,Fase única,,1,1940-04-07,,Lanús,Rosario Central,6,5,,,,,,,RSSSF,rsssf:arg40:18,,
@@ -14587,11 +14587,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1950-0304,1950,Fase única,,34,1950-11-26,,Quilmes,Tigre,5,1,,,,,,,RSSSF,rsssf:arg50:462,,
 1950-0305,1950,Fase única,,34,1950-11-26,,Racing Club,Rosario Central,4,2,,,,,,,RSSSF,rsssf:arg50:463,,
 1950-0306,1950,Fase única,,34,1950-11-26,,River Plate,Platense,4,1,,,,,,,RSSSF,rsssf:arg50:464,,
-1950-0307,1950,Desempate do rebaixamento,,34,1950-11-26,,Tigre,Huracán,1,3,,,,Estádio do Independiente,,,RSSSF,rsssf:arg50:484,,at Independiente
-1950-0308,1950,Desempate do rebaixamento,,34,1950-11-26,,Huracán,Tigre,5,1,,,,Estádio do River Plate,,,RSSSF,rsssf:arg50:487,,at River Plate
-1950-0309,1950,Desempate do 2º lugar,,34,1950-11-26,,Boca Juniors,Independiente,2,3,,,,Estádio do River Plate,,,RSSSF,rsssf:arg50:469,,at River Plate
-1950-0310,1950,Desempate do 2º lugar,,34,1950-11-26,,Independiente,Boca Juniors,2,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg50:472,,at Racing Club
-1950-0311,1950,Desempate do 2º lugar,,34,1950-11-26,,Boca Juniors,Independiente,3,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg50:475,,at Racing Club
+1950-0307,1950,Desempate do rebaixamento,,34,1950-12-03,,Tigre,Huracán,1,3,,,,Estádio do Independiente,,,RSSSF,rsssf:arg50:484,,at Independiente
+1950-0308,1950,Desempate do rebaixamento,,34,1950-12-10,,Huracán,Tigre,5,1,,,,Estádio do River Plate,,,RSSSF,rsssf:arg50:487,,at River Plate
+1950-0309,1950,Desempate do 2º lugar,,34,1950-12-03,,Boca Juniors,Independiente,2,3,,,,Estádio do River Plate,,,RSSSF,rsssf:arg50:469,,at River Plate
+1950-0310,1950,Desempate do 2º lugar,,34,1950-12-08,,Independiente,Boca Juniors,2,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg50:472,,at Racing Club
+1950-0311,1950,Desempate do 2º lugar,,34,1950-12-10,,Boca Juniors,Independiente,3,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg50:475,,at Racing Club
 1951-0001,1951,Fase única,,1,1951-04-15,,Banfield,Platense,3,1,,,,,,,RSSSF,rsssf:arg51:14,,
 1951-0002,1951,Fase única,,1,1951-04-15,,Chacarita Juniors,Gimnasia La Plata,3,3,,,,,,,RSSSF,rsssf:arg51:15,,
 1951-0003,1951,Fase única,,1,1951-04-15,,Estudiantes,Atlanta,3,0,,,,,,,RSSSF,rsssf:arg51:16,,
@@ -16549,8 +16549,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1958-0238,1958,Fase única,,30,1958-12-28,,Atlanta,Rosario Central,2,1,,,,,,,RSSSF,rsssf:arg58:384 ogol:10801430,,
 1958-0239,1958,Fase única,,30,1958-12-28,,Boca Juniors,Tigre,5,1,,,,Estádio do Huracán,,,RSSSF,rsssf:arg58:385 ogol:10801431,,at Huracán
 1958-0240,1958,Fase única,,30,1958-12-28,,Lanús,River Plate,1,1,,,,,,,RSSSF,rsssf:arg58:386 ogol:10801432,,
-1958-0241,1958,Desempate do 2º lugar,,30,1958-12-28,,Boca Juniors,San Lorenzo,3,4,,,,Estádio do Huracán,,,RSSSF,rsssf:arg58:391,,at Huracán
-1958-0242,1958,Desempate do 2º lugar,,30,1958-12-28,,San Lorenzo,Boca Juniors,1,3,,,,Estádio do Huracán,,,RSSSF,rsssf:arg58:393,,at Huracán
+1958-0241,1958,Desempate do 2º lugar,,30,1959-04-23,,Boca Juniors,San Lorenzo,3,4,,,,Estádio do Huracán,,,RSSSF,rsssf:arg58:391 ogol:10801433,,at Huracán
+1958-0242,1958,Desempate do 2º lugar,,30,1959-04-26,,San Lorenzo,Boca Juniors,1,3,,,,Estádio do Huracán,,,RSSSF,rsssf:arg58:393 ogol:10801434,,at Huracán
 1959-0001,1959,Fase única,,1,1959-05-03,,Atlanta,Racing Club,3,1,,,,,,,RSSSF,rsssf:arg59:34 ogol:7871955,,
 1959-0002,1959,Fase única,,1,1959-05-03,,Boca Juniors,Central Córdoba de Rosario,2,1,,,,,,,RSSSF,rsssf:arg59:35 ogol:7871954,,
 1959-0003,1959,Fase única,,1,1959-05-03,,Ferro Carril Oeste,Argentinos Juniors,0,0,,,,,,,RSSSF,rsssf:arg59:36 ogol:7871959,,
@@ -18833,7 +18833,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1967-metropolitano-0242,1967 Metropolitano,Primeira fase,,22,1967-08-01,,Estudiantes,Gimnasia La Plata,3,0,,,,,,,RSSSF,rsssf:arg67:507,,jogo interzonal
 1967-metropolitano-0243,1967 Metropolitano,Semifinal,,22,1967-08-03,,Estudiantes,Platense,4,3,,,,Estádio do Boca Juniors,,,RSSSF,rsssf:arg67:551,,at Boca Juniors
 1967-metropolitano-0244,1967 Metropolitano,Semifinal,,22,1967-08-04,,Racing Club,Independiente,2,0,,,,,,,RSSSF,rsssf:arg67:553,,
-1967-metropolitano-0245,1967 Metropolitano,Final,,22,1967-08-04,,Estudiantes,Racing Club,3,0,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg67:556,,at San Lorenzo de Almagro
+1967-metropolitano-0245,1967 Metropolitano,Final,,22,1967-08-06,,Estudiantes,Racing Club,3,0,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg67:556,,at San Lorenzo de Almagro
 1967-nacional-0001,1967 Nacional,Fase única,,1,1967-09-08,,San Lorenzo,Quilmes,0,0,,,,,,,RSSSF,rsssf:arg67:603,,
 1967-nacional-0002,1967 Nacional,Fase única,,1,1967-09-10,,Boca Juniors,Chaco For Ever,3,1,,,,,,,RSSSF,rsssf:arg67:605,,
 1967-nacional-0003,1967 Nacional,Fase única,,1,1967-09-10,,Central Córdoba de Santiago del Estero,River Plate,0,1,,,,,,,RSSSF,rsssf:arg67:606,,
@@ -19199,7 +19199,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1968-metropolitano-0243,1968 Metropolitano,Primeira fase,,22,1968-07-27,,San Lorenzo,Huracán,2,2,,,,,,,RSSSF,rsssf:arg68:517,,jogo interzonal
 1968-metropolitano-0244,1968 Metropolitano,Semifinal,,22,1968-07-31,,San Lorenzo,River Plate,3,1,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg68:522,,at Racing Club
 1968-metropolitano-0245,1968 Metropolitano,Semifinal,,22,1968-08-01,,Vélez Sarsfield,Estudiantes,0,1,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg68:524,,at Racing Club
-1968-metropolitano-0246,1968 Metropolitano,Final,,22,1968-08-01,,San Lorenzo,Estudiantes,2,1,,,,Estádio do River Plate,,,RSSSF,rsssf:arg68:528,,"at River Plate, aet"
+1968-metropolitano-0246,1968 Metropolitano,Final,,22,1968-08-04,,San Lorenzo,Estudiantes,2,1,,,,Estádio do River Plate,,,RSSSF,rsssf:arg68:528,,"at River Plate, aet"
 1968-nacional-0001,1968 Nacional,Fase única,,1,1968-09-06,,Estudiantes,Independiente Rivadavia,1,0,,,,,,,RSSSF,rsssf:arg68:820,,
 1968-nacional-0002,1968 Nacional,Fase única,,1,1968-09-08,,Belgrano,Lanús,0,0,,,,,,,RSSSF,rsssf:arg68:822,,
 1968-nacional-0003,1968 Nacional,Fase única,,1,1968-09-08,,Los Andes,Huracán de Ingeniero White,5,0,,,,,,,RSSSF,rsssf:arg68:823,,
@@ -19320,9 +19320,9 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1968-nacional-0118,1968 Nacional,Fase única,,15,1968-12-15,,Racing Club,River Plate,1,1,,,,,,,RSSSF,rsssf:arg68:1006,,
 1968-nacional-0119,1968 Nacional,Fase única,,15,1968-12-15,,Vélez Sarsfield,Huracán,2,0,,,,,,,RSSSF,rsssf:arg68:1007,,
 1968-nacional-0120,1968 Nacional,Fase única,,15,1968-12-16,,San Lorenzo,Los Andes,3,2,,,,,,,RSSSF,rsssf:arg68:1009,,
-1968-nacional-0121,1968 Nacional,Desempate do título,,15,1968-12-16,,River Plate,Racing Club,2,0,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg68:1014,,at San Lorenzo de Almagro
-1968-nacional-0122,1968 Nacional,Desempate do título,,15,1968-12-16,,River Plate,Vélez Sarsfield,1,1,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg68:1017,,at San Lorenzo de Almagro
-1968-nacional-0123,1968 Nacional,Desempate do título,,15,1968-12-16,,Racing Club,Vélez Sarsfield,2,4,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg68:1020,,at San Lorenzo de Almagro
+1968-nacional-0121,1968 Nacional,Desempate do título,,15,1968-12-19,,River Plate,Racing Club,2,0,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg68:1014,,at San Lorenzo de Almagro
+1968-nacional-0122,1968 Nacional,Desempate do título,,15,1968-12-22,,River Plate,Vélez Sarsfield,1,1,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg68:1017,,at San Lorenzo de Almagro
+1968-nacional-0123,1968 Nacional,Desempate do título,,15,1968-12-29,,Racing Club,Vélez Sarsfield,2,4,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg68:1020,,at San Lorenzo de Almagro
 1969-metropolitano-0001,1969 Metropolitano,Primeira fase,A,1,1969-02-21,,Rosario Central,Vélez Sarsfield,1,3,,,,,,,RSSSF,rsssf:arg69:73,,
 1969-metropolitano-0002,1969 Metropolitano,Primeira fase,A,1,1969-02-23,,Banfield,Independiente,3,1,,,,,,,RSSSF,rsssf:arg69:75,,
 1969-metropolitano-0003,1969 Metropolitano,Primeira fase,A,1,1969-02-23,,Boca Juniors,Atlanta,2,0,,,,,,,RSSSF,rsssf:arg69:76,,
@@ -19569,7 +19569,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1969-metropolitano-0244,1969 Metropolitano,Primeira fase,,22,1969-06-29,,Atlanta,Argentinos Juniors,0,2,,,,,,,RSSSF,rsssf:arg69:497,,jogo interzonal
 1969-metropolitano-0245,1969 Metropolitano,Semifinal,,22,1969-07-02,,Chacarita Juniors,Racing Club,1,0,,,,Estádio do Boca Juniors,,,RSSSF,rsssf:arg69:502,,at Boca Juniors
 1969-metropolitano-0246,1969 Metropolitano,Semifinal,,22,1969-07-03,,Boca Juniors,River Plate,0,0,,,,,,,RSSSF,rsssf:arg69:504,,"aet, at Racing Club"
-1969-metropolitano-0247,1969 Metropolitano,Final,,22,1969-07-03,,Chacarita Juniors,River Plate,4,1,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg69:507,,at Racing Club
+1969-metropolitano-0247,1969 Metropolitano,Final,,22,1969-07-06,,Chacarita Juniors,River Plate,4,1,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg69:507,,at Racing Club
 1969-nacional-0001,1969 Nacional,Fase única,,1,1969-09-05,,Chacarita Juniors,San Martín de Tucumán,1,1,,,,,,,RSSSF,rsssf:arg69:845,,
 1969-nacional-0002,1969 Nacional,Fase única,,1,1969-09-07,,Boca Juniors,San Lorenzo,3,2,,,,,,,RSSSF,rsssf:arg69:847,,
 1969-nacional-0003,1969 Nacional,Fase única,,1,1969-09-07,,Huracán,Estudiantes,2,0,,,,Estádio do Platense,,,RSSSF,rsssf:arg69:848,,at Platense (VL)
@@ -19723,8 +19723,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1969-nacional-0151,1969 Nacional,Fase única,,17,1969-12-14,,San Martín de Tucumán,Vélez Sarsfield,1,2,,,,,,,RSSSF,rsssf:arg69:1059,,
 1969-nacional-0152,1969 Nacional,Fase única,,17,1969-12-14,,Sportivo Desamparados,Lanús,4,2,,,,,,,RSSSF,rsssf:arg69:1060,,
 1969-nacional-0153,1969 Nacional,Fase única,,17,1969-12-14,,Talleres,Quilmes,3,2,,,,,,,RSSSF,rsssf:arg69:1061,,
-1969-nacional-0154,1969 Nacional,Desempate do rebaixamento,,17,1969-12-14,,San Lorenzo,River Plate,0,1,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg69:1105,,at Vélez Sarsfield
-1969-nacional-0155,1969 Nacional,Desempate do rebaixamento,,17,1969-12-14,,River Plate,San Lorenzo,3,2,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg69:1108,,at Racing Club
+1969-nacional-0154,1969 Nacional,Desempate do rebaixamento,,17,1969-12-17,,San Lorenzo,River Plate,0,1,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg69:1105,,at Vélez Sarsfield
+1969-nacional-0155,1969 Nacional,Desempate do rebaixamento,,17,1969-12-21,,River Plate,San Lorenzo,3,2,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg69:1108,,at Racing Club
 1970-metropolitano-0001,1970 Metropolitano,Fase única,,1,1970-03-20,,Vélez Sarsfield,Racing Club,1,2,,,,,,,RSSSF,rsssf:arg70:46,,
 1970-metropolitano-0002,1970 Metropolitano,Fase única,,1,1970-03-22,,Banfield,Gimnasia La Plata,2,0,,,,,,,RSSSF,rsssf:arg70:48,,
 1970-metropolitano-0003,1970 Metropolitano,Fase única,,1,1970-03-22,,Boca Juniors,Chacarita Juniors,2,0,,,,,,,RSSSF,rsssf:arg70:49,,
@@ -20139,7 +20139,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1970-nacional-0202,1970 Nacional,Primeira fase,,14,1970-11-15,,San Martín de Tucumán,Gimnasia de Jujuy,1,1,,,,,,,RSSSF,rsssf:arg70:862,,jogo interzonal
 1970-nacional-0203,1970 Nacional,Semifinal,,14,1970-12-19,,Rosario Central,Gimnasia La Plata,3,0,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg70:865,,at Newell's Old Boys
 1970-nacional-0204,1970 Nacional,Semifinal,,14,1970-12-20,,Boca Juniors,Chacarita Juniors,2,0,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg70:867,,at Racing Club
-1970-nacional-0205,1970 Nacional,Final,,14,1970-12-20,,Boca Juniors,Rosario Central,2,1,,,,,,,RSSSF,rsssf:arg70:869,,"aet, at River Plate"
+1970-nacional-0205,1970 Nacional,Final,,14,1970-12-23,,Boca Juniors,Rosario Central,2,1,,,,,,,RSSSF,rsssf:arg70:869,,"aet, at River Plate"
 1971-metropolitano-0001,1971 Metropolitano,Fase única,,1,1971-03-05,,San Lorenzo,Gimnasia La Plata,2,2,,,,,,,RSSSF,rsssf:arg71:49,,
 1971-metropolitano-0002,1971 Metropolitano,Fase única,,1,1971-03-07,,Atlanta,Colón,1,1,,,,,,,RSSSF,rsssf:arg71:52,,
 1971-metropolitano-0003,1971 Metropolitano,Fase única,,1,1971-03-07,,Vélez Sarsfield,Los Andes,4,0,,,,,,,RSSSF,rsssf:arg71:54,,
@@ -21158,8 +21158,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1972-nacional-0169,1972 Nacional,Primeira fase,,11,1972-12-03,,Newell's Old Boys,Rosario Central,1,0,,,,,,,RSSSF,rsssf:arg72:854,,jogo interzonal
 1972-nacional-0170,1972 Nacional,Primeira fase,,12,1972-12-06,,San Lorenzo,Huracán,3,0,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg72:857,,at Racing Club; jogo interzonal
 1972-nacional-0171,1972 Nacional,Primeira fase,,13,1972-12-10,,Gimnasia La Plata,Estudiantes,4,1,,,,,,,RSSSF,rsssf:arg72:860,,jogo interzonal
-1972-nacional-0172,1972 Nacional,Semifinal,,13,1972-12-10,,River Plate,Boca Juniors,3,2,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg72:863,,at Vélez Sarsfield
-1972-nacional-0173,1972 Nacional,Final,,13,1972-12-10,,San Lorenzo,River Plate,1,0,,,,,,,RSSSF,rsssf:arg72:866,,"aet, at Vélez Sarsfield"
+1972-nacional-0172,1972 Nacional,Semifinal,,13,1972-12-13,,River Plate,Boca Juniors,3,2,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg72:863,,at Vélez Sarsfield
+1972-nacional-0173,1972 Nacional,Final,,13,1972-12-17,,San Lorenzo,River Plate,1,0,,,,,,,RSSSF,rsssf:arg72:866,,"aet, at Vélez Sarsfield"
 1973-metropolitano-0001,1973 Metropolitano,Fase única,,1,1973-03-02,,Racing Club,Colón,1,1,,,,,,,RSSSF,rsssf:arg73:16,,
 1973-metropolitano-0002,1973 Metropolitano,Fase única,,1,1973-03-04,,River Plate,Boca Juniors,2,1,,,,,,,RSSSF,rsssf:arg73:18,,
 1973-metropolitano-0003,1973 Metropolitano,Fase única,,1,1973-03-04,,All Boys,San Lorenzo,1,3,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg73:19,,
@@ -25100,13 +25100,13 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1979-metropolitano-0190,1979 Metropolitano,Grupo do rebaixamento,,5,1979-08-19,,Platense,Atlanta,1,0,,,,,,,RSSSF,rsssf:arg79:437,,
 1979-metropolitano-0191,1979 Metropolitano,Grupo do rebaixamento,,6,1979-08-26,,Atlanta,Gimnasia La Plata,3,1,,,,,,,RSSSF,rsssf:arg79:440,,
 1979-metropolitano-0192,1979 Metropolitano,Grupo do rebaixamento,,6,1979-08-26,,Chacarita Juniors,Platense,1,2,,,,,,,RSSSF,rsssf:arg79:441,,
-1979-metropolitano-0193,1979 Metropolitano,Desempate do grupo,,18,1979-07-15,,Vélez Sarsfield,Argentinos Juniors,4,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg79:214,,at Ferro Carril Oeste (BUE)
-1979-metropolitano-0194,1979 Metropolitano,Semifinal,,18,1979-07-15,,River Plate,Independiente,4,3,,,,,,,RSSSF,rsssf:arg79:375,,
-1979-metropolitano-0195,1979 Metropolitano,Semifinal,,18,1979-07-15,,Rosario Central,Vélez Sarsfield,0,1,,,,,,,RSSSF,rsssf:arg79:376,,
-1979-metropolitano-0196,1979 Metropolitano,Semifinal,,18,1979-07-15,,Independiente,River Plate,1,2,,,,,,,RSSSF,rsssf:arg79:379,,
-1979-metropolitano-0197,1979 Metropolitano,Semifinal,,18,1979-07-15,,Vélez Sarsfield,Rosario Central,0,0,,,,,,,RSSSF,rsssf:arg79:380,,
-1979-metropolitano-0198,1979 Metropolitano,Final,,18,1979-07-15,,Vélez Sarsfield,River Plate,0,2,,,,,,,RSSSF,rsssf:arg79:385,,
-1979-metropolitano-0199,1979 Metropolitano,Final,,18,1979-07-15,,River Plate,Vélez Sarsfield,5,1,,,,,,,RSSSF,rsssf:arg79:388,"Alonso 13, Commisso 41, Luque 55, González 57, 89 / Jorge 87",
+1979-metropolitano-0193,1979 Metropolitano,Desempate do grupo,,18,1979-07-22,,Vélez Sarsfield,Argentinos Juniors,4,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg79:214,,at Ferro Carril Oeste (BUE)
+1979-metropolitano-0194,1979 Metropolitano,Semifinal,,18,1979-07-29,,River Plate,Independiente,4,3,,,,,,,RSSSF,rsssf:arg79:375,,
+1979-metropolitano-0195,1979 Metropolitano,Semifinal,,18,1979-07-29,,Rosario Central,Vélez Sarsfield,0,1,,,,,,,RSSSF,rsssf:arg79:376,,
+1979-metropolitano-0196,1979 Metropolitano,Semifinal,,18,1979-08-05,,Independiente,River Plate,1,2,,,,,,,RSSSF,rsssf:arg79:379,,
+1979-metropolitano-0197,1979 Metropolitano,Semifinal,,18,1979-08-05,,Vélez Sarsfield,Rosario Central,0,0,,,,,,,RSSSF,rsssf:arg79:380,,
+1979-metropolitano-0198,1979 Metropolitano,Final,,18,1979-08-12,,Vélez Sarsfield,River Plate,0,2,,,,,,,RSSSF,rsssf:arg79:385,,
+1979-metropolitano-0199,1979 Metropolitano,Final,,18,1979-08-19,,River Plate,Vélez Sarsfield,5,1,,,,,,,RSSSF,rsssf:arg79:388,"Alonso 13, Commisso 41, Luque 55, González 57, 89 / Jorge 87",
 1979-nacional-0001,1979 Nacional,Primeira fase,A,1,1979-09-02,,Alianza Juventud Pringles,San Martín de Tucumán,0,0,,,,Estudiantes (LUQ),,,RSSSF,rsssf:arg79:543,,at Estudiantes (LUQ)
 1979-nacional-0002,1979 Nacional,Primeira fase,A,1,1979-09-02,,Atlético Ledesma,Vélez Sarsfield,0,0,,,,,,,RSSSF,rsssf:arg79:544,,
 1979-nacional-0003,1979 Nacional,Primeira fase,A,1,1979-09-02,,Ferro Carril Oeste,Unión,0,1,,,,,,,RSSSF,rsssf:arg79:545,,
@@ -25304,20 +25304,20 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1979-nacional-0195,1979 Nacional,Primeira fase,,13,1979-11-25,,Chaco For Ever,Gimnasia y Tiro,4,1,,,,,,,RSSSF,rsssf:arg79:918,,jogo interzonal
 1979-nacional-0196,1979 Nacional,Primeira fase,,14,1979-12-02,,Atlético Tucumán,San Martín de Tucumán,2,2,,,,,,,RSSSF,rsssf:arg79:921,,jogo interzonal
 1979-nacional-0197,1979 Nacional,Primeira fase,,14,1979-12-02,,Kimberley,Cipolletti,3,0,,,,Mar del Plata,,,RSSSF,rsssf:arg79:922,,at Mar del Plata; jogo interzonal
-1979-nacional-0198,1979 Nacional,Quartas de final,,14,1979-12-02,,Instituto,Atlético Tucumán,3,2,,,,Córdoba,,,RSSSF,rsssf:arg79:937,,at Córdoba
-1979-nacional-0199,1979 Nacional,Quartas de final,,14,1979-12-02,,Racing Club,Rosario Central,1,3,,,,,,,RSSSF,rsssf:arg79:938,,
-1979-nacional-0200,1979 Nacional,Quartas de final,,14,1979-12-02,,Unión,Talleres,3,0,,,,,,,RSSSF,rsssf:arg79:939,,
-1979-nacional-0201,1979 Nacional,Quartas de final,,14,1979-12-02,,Vélez Sarsfield,River Plate,1,0,,,,,,,RSSSF,rsssf:arg79:940,,
-1979-nacional-0202,1979 Nacional,Quartas de final,,14,1979-12-02,,Atlético Tucumán,Instituto,3,0,,,,,,,RSSSF,rsssf:arg79:943,,
-1979-nacional-0203,1979 Nacional,Quartas de final,,14,1979-12-02,,River Plate,Vélez Sarsfield,1,0,4,3,,,,,RSSSF,rsssf:arg79:944,,"aet, pen 4-3"
-1979-nacional-0204,1979 Nacional,Quartas de final,,14,1979-12-02,,Rosario Central,Racing Club,3,0,,,,,,,RSSSF,rsssf:arg79:945,,
-1979-nacional-0205,1979 Nacional,Quartas de final,,14,1979-12-02,,Talleres,Unión,2,0,,,,Córdoba,,,RSSSF,rsssf:arg79:946,,at Córdoba
-1979-nacional-0206,1979 Nacional,Semifinal,,14,1979-12-02,,Atlético Tucumán,Unión,0,2,,,,,,,RSSSF,rsssf:arg79:951,,
-1979-nacional-0207,1979 Nacional,Semifinal,,14,1979-12-02,,River Plate,Rosario Central,4,0,,,,,,,RSSSF,rsssf:arg79:952,,
-1979-nacional-0208,1979 Nacional,Semifinal,,14,1979-12-02,,Rosario Central,River Plate,1,3,,,,,,,RSSSF,rsssf:arg79:955,,
-1979-nacional-0209,1979 Nacional,Semifinal,,14,1979-12-02,,Unión,Atlético Tucumán,2,0,,,,,,,RSSSF,rsssf:arg79:956,,
-1979-nacional-0210,1979 Nacional,Final,,14,1979-12-02,,Unión,River Plate,1,1,,,,,,,RSSSF,rsssf:arg79:961,,
-1979-nacional-0211,1979 Nacional,Final,,14,1979-12-02,,River Plate,Unión,0,0,,,,,,,RSSSF,rsssf:arg79:964,,
+1979-nacional-0198,1979 Nacional,Quartas de final,,14,1979-12-05,,Instituto,Atlético Tucumán,3,2,,,,Córdoba,,,RSSSF,rsssf:arg79:937,,at Córdoba
+1979-nacional-0199,1979 Nacional,Quartas de final,,14,1979-12-05,,Racing Club,Rosario Central,1,3,,,,,,,RSSSF,rsssf:arg79:938,,
+1979-nacional-0200,1979 Nacional,Quartas de final,,14,1979-12-05,,Unión,Talleres,3,0,,,,,,,RSSSF,rsssf:arg79:939,,
+1979-nacional-0201,1979 Nacional,Quartas de final,,14,1979-12-05,,Vélez Sarsfield,River Plate,1,0,,,,,,,RSSSF,rsssf:arg79:940,,
+1979-nacional-0202,1979 Nacional,Quartas de final,,14,1979-12-09,,Atlético Tucumán,Instituto,3,0,,,,,,,RSSSF,rsssf:arg79:943,,
+1979-nacional-0203,1979 Nacional,Quartas de final,,14,1979-12-09,,River Plate,Vélez Sarsfield,1,0,4,3,,,,,RSSSF,rsssf:arg79:944,,"aet, pen 4-3"
+1979-nacional-0204,1979 Nacional,Quartas de final,,14,1979-12-09,,Rosario Central,Racing Club,3,0,,,,,,,RSSSF,rsssf:arg79:945,,
+1979-nacional-0205,1979 Nacional,Quartas de final,,14,1979-12-09,,Talleres,Unión,2,0,,,,Córdoba,,,RSSSF,rsssf:arg79:946,,at Córdoba
+1979-nacional-0206,1979 Nacional,Semifinal,,14,1979-12-12,,Atlético Tucumán,Unión,0,2,,,,,,,RSSSF,rsssf:arg79:951,,
+1979-nacional-0207,1979 Nacional,Semifinal,,14,1979-12-12,,River Plate,Rosario Central,4,0,,,,,,,RSSSF,rsssf:arg79:952,,
+1979-nacional-0208,1979 Nacional,Semifinal,,14,1979-12-16,,Rosario Central,River Plate,1,3,,,,,,,RSSSF,rsssf:arg79:955,,
+1979-nacional-0209,1979 Nacional,Semifinal,,14,1979-12-16,,Unión,Atlético Tucumán,2,0,,,,,,,RSSSF,rsssf:arg79:956,,
+1979-nacional-0210,1979 Nacional,Final,,14,1979-12-19,,Unión,River Plate,1,1,,,,,,,RSSSF,rsssf:arg79:961,,
+1979-nacional-0211,1979 Nacional,Final,,14,1979-12-23,,River Plate,Unión,0,0,,,,,,,RSSSF,rsssf:arg79:964,,
 1980-metropolitano-0001,1980 Metropolitano,Fase única,,1,1980-02-10,,All Boys,Platense,0,0,,,,,,,RSSSF,rsssf:arg80:44,,
 1980-metropolitano-0002,1980 Metropolitano,Fase única,,1,1980-02-10,,Huracán,Talleres,1,1,,,,,,,RSSSF,rsssf:arg80:45,,
 1980-metropolitano-0003,1980 Metropolitano,Fase única,,1,1980-02-10,,Independiente,Argentinos Juniors,2,3,,,,,,,RSSSF,rsssf:arg80:46,,
@@ -36320,7 +36320,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 2006-07-apertura-0191,2006/07 Apertura,Fase única,,19,2006-12-10,18:10,Estudiantes,Arsenal de Sarandí,2,0,,,,Ciudad de La Plata,La Plata,,RSSSF,rsssf:arg07:516 ogol:227323 espn:204451,,
 2006-07-apertura-0192,2006/07 Apertura,Fase única,,19,2006-12-10,17:00,Banfield,Belgrano,3,1,,,,Florencio Sola,Banfield,,RSSSF,rsssf:arg07:518 ogol:227321 espn:204447,,
 2006-07-apertura-0193,2006/07 Apertura,Fase única,,19,2006-12-10,18:10,Boca Juniors,Lanús,1,2,,,,Alberto J. Armando,Ipira,,RSSSF,rsssf:arg07:521 ogol:227322 espn:204446,,
-2006-07-apertura-0194,2006/07 Apertura,Desempate do título,,19,2006-12-10,17:10,Boca Juniors,Estudiantes,1,2,,,,José Amalfitani,Ipira,,RSSSF,rsssf:arg07:548 ogol:244251 espn:211855,,
+2006-07-apertura-0194,2006/07 Apertura,Desempate do título,,19,2006-12-13,17:10,Boca Juniors,Estudiantes,1,2,,,,José Amalfitani,Ipira,,RSSSF,rsssf:arg07:548 ogol:244251 espn:211855,,
 2006-07-clausura-0001,2006/07 Clausura,Fase única,,1,2007-02-09,21:10,Independiente,Colón,1,3,,,,Presidente Perón,Avellaneda,18000,RSSSF,rsssf:arg07:592 ogol:244651 espn:214078,,at Racing Club
 2006-07-clausura-0002,2006/07 Clausura,Fase única,,1,2007-02-09,19:00,Gimnasia La Plata,Arsenal de Sarandí,0,2,,,,Ciudad de La Plata,La Plata,13000,RSSSF,rsssf:arg07:593 ogol:244649 espn:214077,,
 2006-07-clausura-0003,2006/07 Clausura,Fase única,,1,2007-02-10,21:10,Banfield,Boca Juniors,0,4,,,,Presidente Perón,Avellaneda,30000,RSSSF,rsssf:arg07:595 ogol:244647 espn:214080,,at Racing Club

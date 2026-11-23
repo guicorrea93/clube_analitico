@@ -122,8 +122,8 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 2016 | 16 | 360 (359) | 963 | 785 | 5 / 0 | Sporting Cristal | RSSSF (peru2016) |
 | 2017 | 16 | 354 (354) | 943 | 766 | 5 / 0 | Alianza Lima | RSSSF (peru2017) |
 | 2018 | 16 | 359 (359) | 985 | 735 | 5 / 0 | Sporting Cristal | RSSSF (peru2018) |
-| 2019 | 18 | 310 (310) | 802 | 738 | 3 / 0 | Binacional | RSSSF (peru2019) |
-| 2020 | 20 | 285 (285) | 756 | 748 | 5 / 0 | Sporting Cristal | RSSSF (peru2020:919) |
+| 2019 | 18 | 310 (310) | 802 | 745 | 3 / 0 | Binacional | RSSSF (peru2019) |
+| 2020 | 20 | 285 (285) | 756 | 750 | 5 / 0 | Sporting Cristal | RSSSF (peru2020:919) |
 | 2021 | 19 | 238 (238) | 634 | 630 | 2 / 2 | Alianza Lima | RSSSF (peru2021:783) |
 | 2022 | 19 | 347 (347) | 937 | 937 | 3 / 0 | Alianza Lima | RSSSF (peru2022) |
 | 2023 | 19 | 344 (344) | 873 | 849 | 3 / 0 | Universitario | RSSSF (peru2023) |
@@ -707,11 +707,11 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 - tabela publicada x jogos — peru91:201: Sport Boys tabela [3, 1, 1, 1, 3, 3] jogos [3, 1, 1, 1, 4, 3] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - corrigido — Universitario x None (None): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
 - corrigido — Alianza Lima x None (None): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
-- corrigido — Alianza Atlético x None (1991-08-25): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
-- corrigido — Sporting Cristal x None (1991-08-25): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
-- corrigido — León de Huánuco x None (1991-08-25): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
-- corrigido — Defensor Lima x None (1991-08-25): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
-- decidido fora de campo — Unión Minas FBC Aurora (1991-12-15)
+- corrigido — Alianza Atlético x None (1991-11-24): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
+- corrigido — Sporting Cristal x None (1991-11-24): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
+- corrigido — León de Huánuco x None (1991-11-24): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
+- corrigido — Defensor Lima x None (1991-11-24): confronto de ida e volta numa linha só: entra como dois jogos (EXTRAS)
+- decidido fora de campo — Unión Minas FBC Aurora (1991-12-22)
 
 ### 1992
 
@@ -861,7 +861,7 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2011
 
-- ESPN: 240 jogos casados
+- ESPN: 241 jogos casados
 - decidido fora de campo — CNI Sport Boys (2011-04-23): awarded 3-0; originally 0-0 but Sport Boys were suspended for financial reasons
 - decidido fora de campo — Sporting Cristal Universitario (2011-05-01): awarded 3-0; originally 0-0 but Universitario were suspended for financial reasons
 - decidido fora de campo — Sport Boys Sport Huancayo (2011-05-11): awarded 0-3, as Sport Boys were suspended for financial reasons
@@ -875,12 +875,12 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2012
 
-- ESPN: 353 jogos casados
+- ESPN: 354 jogos casados
 - decidido fora de campo — Melgar Universidad San Martín (2012-02-19): awarded 3-0; Melgar won by walk-over; U.San Martin did not show because of disagreements with the FPF, ADFP and SAFAP.
 
 ### 2013
 
-- ESPN: 353 jogos casados
+- ESPN: 354 jogos casados
 - tabela publicada x jogos — peru2013:32: Cusco FC tabela [30, 17, 7, 6, 41, 20] jogos [30, 17, 7, 6, 41, 17] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — peru2013:721: Cusco FC tabela [44, 22, 12, 10, 63, 39] jogos [44, 22, 12, 10, 63, 36] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - decidido fora de campo — Cusco FC Sporting Cristal (2013-07-24): awarded 3-0; Sporting Cristal did not show
@@ -888,15 +888,15 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2014
 
-- ESPN: 242 jogos casados
+- ESPN: 243 jogos casados
 
 ### 2015
 
-- ESPN: 275 jogos casados
+- ESPN: 281 jogos casados
 
 ### 2016
 
-- ESPN: 355 jogos casados
+- ESPN: 358 jogos casados
 - abandonado/suspenso, sem valer — Alianza Lima Universitario (2016-04-01): abandoned at 1-1 in 49' due to crowd trouble
 - decidido fora de campo — Melgar 2-1 Deportivo Municipal (2016-09-11): awarded 3-0; Dep. Municipal used 5 foreign players,
 - decidido fora de campo — Alianza Lima 1-1 Universitario (2016-09-17): awarded 3-0; Universitario used Juan Pino (the player was
@@ -905,16 +905,16 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2017
 
-- ESPN: 353 jogos casados
-- corrigido — Melgar x UTC (2017-05-14): final do Torneo de Verano (maio), não a do campeonato (PE-013)
-- corrigido — UTC x Melgar (2017-05-14): final do Torneo de Verano (maio), não a do campeonato (PE-013)
+- ESPN: 354 jogos casados
+- corrigido — Melgar x UTC (2017-05-21): final do Torneo de Verano (maio), não a do campeonato (PE-013)
+- corrigido — UTC x Melgar (2017-05-31): final do Torneo de Verano (maio), não a do campeonato (PE-013)
 - decidido fora de campo — Sport Huancayo Cusco FC (2017-04-23): awarded 0-3; originally 1-0, Huancayo
 
 ### 2018
 
-- ESPN: 354 jogos casados
-- corrigido — Sport Huancayo x Sporting Cristal (2018-04-29): final do Torneo de Verano (abril), não a do campeonato (PE-013)
-- corrigido — Sporting Cristal x Sport Huancayo (2018-04-29): final do Torneo de Verano (abril), não a do campeonato (PE-013)
+- ESPN: 358 jogos casados
+- corrigido — Sport Huancayo x Sporting Cristal (2018-05-06): final do Torneo de Verano (abril), não a do campeonato (PE-013)
+- corrigido — Sporting Cristal x Sport Huancayo (2018-05-12): final do Torneo de Verano (abril), não a do campeonato (PE-013)
 - decidido fora de campo — UTC Sporting Cristal (2018-02-02): Awarded 0-3, CJ/FPF
 - decidido fora de campo — Ayacucho Comerciantes Unidos (2018-05-18): awarded 3-0
 - decidido fora de campo — Comerciantes Unidos Ayacucho (2018-09-01): awarded 0-3; abandoned at 0-2 at half-time
@@ -922,12 +922,12 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 
 ### 2019
 
-- ESPN: 308 jogos casados
+- ESPN: 310 jogos casados
 - decidido fora de campo — Universidad San Martín Unión Comercio (2019-08-31): awarded 3-0, originally 1-2}
 
 ### 2020
 
-- ESPN: 281 jogos casados
+- ESPN: 283 jogos casados
 - decidido fora de campo — Alianza Lima Binacional (2020-08-10): awarded 3-0][Nacional Stadium, Lima
 - decidido fora de campo — Cienciano Atlético Grau (2020-08-18): awarded 3-0, initially 0-0][Alberto Gallardo Stadium, Lima
 

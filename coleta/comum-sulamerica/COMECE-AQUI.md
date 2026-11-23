@@ -81,7 +81,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `per-1` Peruano | 109 (1912–2025) | 17.318 | 167 | 9d1ca3b, 0b793ba; correções 55c7066 | sim (versão antes das correções) |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.175 | 63 | 0b793ba; correções 4577457 | sim (versão antes das correções) |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
-| `ven-1` Venezuelano | 106 (1921–2025) | 13.582 | 108 | 35dc0a2 | não |
+| `ven-1` Venezuelano | 106 (1921–2025) | 13.580 | 108 | 35dc0a2; leitor comum 23/11 | sim (versão de 22/11) |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
@@ -109,8 +109,12 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Peruano: feito em 23/11 (`55c7066`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: PE-009, PE-010 (fase), PE-012, PE-014,
      PE-015, PE-017, PE-022.
    - **Equatoriano: feito em 23/11 (`4577457`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: EC-009, EC-013, EC-014.
-   - **Falta, para todas:** a mudança no leitor comum (data no título da fase: AR-023, UY-014, CH-012, CO-008, PY-009,
-     PE-009, EC-009), uma vez só, com a reimportação e a comparação das 9 ligas. Depois, os abertos de cada liga. O Guilherme mandou fazer todas sem perguntar
+   - **Leitor comum (23/11):** a data entre colchetes no título da fase ou do jogo ("Final [Dec 23]:", "First Leg [Jul 29]")
+     vale para os jogos de baixo (AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009). As 9 ligas foram reimportadas
+     e comparadas: só datas mudaram (680 jogos, quase todos de finais, semifinais e desempates); na Venezuela saíram 2
+     jogos da ESPN que repetiam a final absoluta de 2025.
+   - **Falta:** os abertos de cada liga (lista no fim de `pedidos-sulamerica.md` e na documentação). Depois, as copas
+     nacionais (`copas-nacionais.md`) e as 2ªs divisões, quando o Guilherme pedir. O Guilherme mandou fazer todas sem perguntar
      (23/11): um commit e push por liga, com recado.
    - A mudança do leitor comum (data no título da fase: AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009) fica para o
      fim, uma vez só, com a reimportação das 9 ligas.

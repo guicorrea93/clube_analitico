@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 94, de 1950 a 2025; 22 sem jogos.
-- **Jogos:** 8563 (8556 com placar); **gols:** 26434; **gols com autor:** 13666 (52%); **cartões:** 4970.
+- **Jogos:** 8563 (8556 com placar); **gols:** 26434; **gols com autor:** 13666 (52%); **cartões:** 4996.
 - **Clubes:** 77; **artilheiros:** 81 edições com artilheiro (91 linhas, com empates).
 - **Classificação final:** 94 edições; **tabelas publicadas guardadas para conferência:** 1626 linhas.
 - **No banco:** sim; **último commit do pacote:** 9ed3dcd.
@@ -68,7 +68,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 10 | 237 | 95% | 0% | 93% | 2% | 0% | 0% | 0% | 0.0 |
 | 1980s | 10 | 27 | 100% | 0% | 0% | 100% | 0% | 0% | 0% | 0.0 |
 | 1990s | 10 | 1396 | 86% | 0% | 22% | 1% | 0% | 0% | 10% | 0.0 |
-| 2000s | 17 | 2389 | 100% | 40% | 100% | 40% | 39% | 0% | 70% | 0.7 |
+| 2000s | 17 | 2389 | 100% | 41% | 100% | 41% | 39% | 0% | 70% | 0.7 |
 | 2010s | 20 | 2730 | 100% | 83% | 100% | 83% | 77% | 0% | 64% | 1.0 |
 | 2020s | 7 | 1586 | 100% | 100% | 100% | 90% | 90% | 0% | 56% | 0.2 |
 

@@ -84,7 +84,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 2007 Finalización | 18 | 189 (188) | 446 | 404 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 Apertura | 18 | 188 (188) | 469 | 452 | 3 / 0 | Boyacá Chicó | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 Finalización | 18 | 188 (188) | 427 | 428 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2009 Apertura | 18 | 189 (188) | 439 | 404 | 3 / 0 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2009 Apertura | 18 | 189 (188) | 439 | 411 | 3 / 0 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Finalización | 18 | 189 (188) | 530 | 524 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2010 Apertura | 18 | 168 (168) | 457 | 440 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2010 Finalización | 18 | 189 (188) | 498 | 496 | 3 / 0 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -94,7 +94,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 2012 Finalización | 18 | 188 (188) | 423 | 419 | 2 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2013 Apertura | 18 | 188 (188) | 469 | 0 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2013 Finalización | 18 | 188 (188) | 463 | 85 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2014 Apertura | 18 | 176 (176) | 444 | 439 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2014 Apertura | 18 | 176 (176) | 444 | 440 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2014 Finalización | 18 | 188 (188) | 453 | 421 | 3 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2015 Apertura | 20 | 214 (214) | 523 | 482 | 1 / 0 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2015 Finalización | 20 | 214 (214) | 459 | 426 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -103,10 +103,10 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 2017 Apertura | 20 | 214 (214) | 468 | 453 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2017 Finalización | 20 | 214 (214) | 455 | 421 | 1 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2018 Apertura | 20 | 204 (204) | 427 | 359 | 1 / 0 | Deportes Tolima | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2018 Finalización | 20 | 204 (204) | 468 | 406 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2018 Finalización | 20 | 204 (204) | 468 | 415 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2019 Apertura | 20 | 226 (226) | 502 | 489 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2019 Finalización | 20 | 226 (226) | 508 | 500 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2020 Apertura | 20 | 214 (214) | 517 | 499 | 1 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2020 Apertura | 20 | 214 (214) | 517 | 501 | 1 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2021 Apertura | 19 | 185 (185) | 408 | 405 | 1 / 0 | Deportes Tolima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2021 Finalización | 20 | 226 (226) | 521 | 521 | 3 / 0 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2022 Apertura | 20 | 226 (226) | 491 | 480 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -114,7 +114,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 2023 Apertura | 20 | 226 (226) | 506 | 501 | 3 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2023 Finalización | 20 | 226 (226) | 518 | 515 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2024 Apertura | 20 | 216 (216) | 467 | 459 | 3 / 0 | Atlético Bucaramanga | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2024 Finalización | 20 | 216 (216) | 473 | 465 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2024 Finalización | 20 | 216 (216) | 473 | 467 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2025 Apertura | 20 | 226 (226) | 489 | 486 | 3 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2025 Finalización | 20 | 226 (226) | 547 | 540 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 
@@ -681,8 +681,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col99:746: Atlético Nacional tabela [50, 23, 16, 11, 70, 53] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col99:750: América de Cali tabela [44, 18, 15, 11, 70, 53] jogos [46, 18, 17, 11, 71, 54] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col99:750: Deportivo Pasto tabela [50, 14, 16, 20, 72, 76] jogos [50, 14, 16, 20, 72, 77] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
-- corrigido — Independiente Medellín x Atlético Nacional (1999-12-05): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
-- corrigido — Atlético Nacional x Independiente Medellín (1999-12-05): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
+- corrigido — Independiente Medellín x Atlético Nacional (1999-12-08): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
+- corrigido — Atlético Nacional x Independiente Medellín (1999-12-12): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
 - linha lida como jogo e descartada (clube não reconhecido): col99:736 «América: Oviedo x (failed), Pérez 2-0 (failed), Moreno 3-1»
 - linha lida como jogo e descartada (clube não reconhecido): col99:739 «Nacional won x on penalties»
 
@@ -776,7 +776,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2009 Apertura
 
-- ESPN: 177 jogos casados
+- ESPN: 179 jogos casados
 - decidido fora de campo — Deportivo Cali Internacional de Bogotá (2009-02-22): awarded 3-0, originally 2-3
 - abandonado/suspenso, sem valer — Envigado Junior de Barranquilla (2009-04-11): abandoned at 0-0 in 8'
 
@@ -830,7 +830,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2014 Apertura
 
-- ESPN: 174 jogos casados
+- ESPN: 176 jogos casados
 
 ### 2014 Finalización
 
@@ -842,7 +842,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2015 Finalización
 
-- ESPN: 212 jogos casados
+- ESPN: 213 jogos casados
 - decidido fora de campo — Deportivo Cali Jaguares de Córdoba (2015-07-12): awarded 0-3, originally 0-1; Cali fielded Oct 11]                                   suspended player
 
 ### 2016 Apertura
@@ -868,7 +868,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2018 Finalización
 
-- ESPN: 183 jogos casados
+- ESPN: 185 jogos casados
 
 ### 2019 Apertura
 
@@ -881,7 +881,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2020 Apertura
 
-- ESPN: 213 jogos casados
+- ESPN: 214 jogos casados
 - decidido fora de campo — Once Caldas Deportivo Pereira (2020-10-06): awarded 0-3, originally 2-2; Caldas
 - decidido fora de campo — Cúcuta Deportivo América de Cali (2020-11-12): awarded 0-3, Cúcuta entered liquidation
 - decidido fora de campo — Atlético Nacional Cúcuta Deportivo (2020-11-15): awarded 3-0, Cúcuta entered liquidation
@@ -916,12 +916,12 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2024 Apertura
 
-- ESPN: 215 jogos casados
+- ESPN: 216 jogos casados
 - decidido fora de campo — Patriotas Boyacá Deportivo Pereira (2024-03-10): awarded 0-3; abandoned at 0-2 in 64' due
 
 ### 2024 Finalización
 
-- ESPN: 215 jogos casados
+- ESPN: 216 jogos casados
 - decidido fora de campo — Deportivo Cali Deportivo Pasto (2024-09-02): awarded 0-3, originally 0-2
 - decidido fora de campo — Atlético Nacional Junior de Barranquilla (2024-09-26): awarded 0-3; abandoned at 2-0 in 56' due
 

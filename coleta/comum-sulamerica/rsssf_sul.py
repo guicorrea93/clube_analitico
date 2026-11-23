@@ -142,6 +142,10 @@ def achar_data(s: str) -> tuple[int, int, int | None] | None:
     return None
 
 
+# "[Dec 23]", "[Dec 23, 1997]", "[23 Dec]", "[Jul 29, Estadio Centenario]" num título (só mês e dia no começo do colchete)
+_DATA_TITULO = re.compile(r"\[\s*((?:[A-Za-z]{3,9}\.?\s+\d{1,2}|\d{1,2}\s+[A-Za-z]{3,9}\.?)(?:,?\s*\d{4})?)\s*(?:[,;][^\]]*)?\]")
+
+
 def _linha_de_data(l: str) -> bool:
     """Linha que é só data: "[Apr 5, Sun]", "Apr 5", "(5/4)", "Sunday, April 5"."""
     s = l.strip().strip("[]():").strip()
@@ -338,6 +342,12 @@ def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list
                         grupo = ""
                     fase = nome_fase
                     break
+        # data entre colchetes no título da fase ou do jogo de ida e volta ("Final [Dec 23]:", "First Leg [Jul 29]",
+        # "Semifinals [Jun 28]"): vale para os jogos de baixo (antes eles herdavam a data do último jogo da liga; AR-023,
+        # UY-014, CH-012, CO-008, PY-009, PE-009, EC-009, 23/11/2026)
+        if len(s) < 70 and not s.startswith(("[", "NB", "(")) and not _jogo(l) and \
+                (mt := _DATA_TITULO.search(s)) and (md := achar_data(mt.group(1))):
+            data = fixa_data(md)
         mg = _GRUPO.match(s)
         if mg:
             grupo = "Interzonal" if mg.group("inter") else mg.group("g").upper()

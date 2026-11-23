@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 106, de 1921 a 2025; 25 sem jogos.
-- **Jogos:** 13582 (13530 com placar); **gols:** 34193; **gols com autor:** 6390 (19%); **cartões:** 6729.
+- **Jogos:** 13580 (13528 com placar); **gols:** 34189; **gols com autor:** 6398 (19%); **cartões:** 6744.
 - **Clubes:** 108; **artilheiros:** 69 edições com artilheiro (74 linhas, com empates).
 - **Classificação final:** 106 edições; **tabelas publicadas guardadas para conferência:** 1733 linhas.
 - **No banco:** sim; **último commit do pacote:** 35dc0a2.
@@ -68,9 +68,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 10 | 1397 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 11 | 1869 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 10 | 2382 | 72% | 0% | 62% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 10 | 2220 | 99% | 57% | 100% | 57% | 52% | 0% | 71% | 1.5 |
-| 2010s | 10 | 3213 | 100% | 98% | 88% | 98% | 91% | 0% | 30% | 1.0 |
-| 2020s | 6 | 1433 | 100% | 99% | 84% | 99% | 99% | 0% | 0% | 0.0 |
+| 2000s | 10 | 2220 | 100% | 57% | 100% | 57% | 52% | 0% | 71% | 1.5 |
+| 2010s | 10 | 3213 | 100% | 99% | 88% | 99% | 92% | 0% | 30% | 1.0 |
+| 2020s | 6 | 1431 | 100% | 99% | 84% | 99% | 99% | 0% | 0% | 0.0 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 

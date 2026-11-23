@@ -91,7 +91,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 | 2004 Apertura | 18 | 182 (182) | 606 | 283 | 4 / 0 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2004 Clausura | 18 | 180 (180) | 563 | 325 | 3 / 1 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Apertura | 20 | 207 (207) | 591 | 362 | 4 / 0 | Unión Española | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 Clausura | 20 | 205 (205) | 558 | 529 | 4 / 0 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Clausura | 20 | 205 (205) | 558 | 530 | 4 / 0 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 Apertura | 19 | 188 (188) | 571 | 570 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 Clausura | 19 | 186 (186) | 548 | 537 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2007 Apertura | 21 | 210 (210) | 617 | 592 | 1 / 0 | Colo Colo | RSSSF (chile07) |
@@ -298,7 +298,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 1950
 
-- ogol: 109 jogos casados (edição 37095 do ogol, 133 jogos)
+- ogol: 111 jogos casados (edição 37095 do ogol, 133 jogos)
 - placar diferente no ogol — Santiago Morning x Colo Colo (None): RSSSF 1-3, ogol 3-0; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Everton de Viña del Mar (None): RSSSF 0-2, ogol 3-1; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Unión Española (None): RSSSF 0-4, ogol 2-2; fica o da RSSSF
@@ -311,6 +311,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 1951
 
+- ogol: 1 jogos casados (edição 37094 do ogol, 1 jogos)
 - tabela publicada x jogos — chile51:18: Colo Colo tabela [22, 11, 6, 5, 45, 35] jogos [22, 11, 6, 5, 45, 34] — a outra tabela publicada (chile51) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — chile51:18: Santiago Wanderers tabela [22, 6, 6, 10, 35, 39] jogos [22, 6, 6, 10, 34, 39] — a outra tabela publicada (chile51) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — chile51:273: Colo Colo tabela [27, 13, 6, 8, 52, 42] jogos [27, 13, 6, 8, 52, 41] — a outra tabela publicada (chile51) fecha com os jogos: o erro é desta tabela
@@ -811,7 +812,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 2005 Clausura
 
-- ESPN: 203 jogos casados
+- ESPN: 205 jogos casados
 
 ### 2006 Apertura
 
@@ -837,7 +838,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 2008 Clausura
 
-- ESPN: 184 jogos casados
+- ESPN: 185 jogos casados
 - não jogado — Deportes Concepción Universidad de Chile (2008-07-16)
 - abandonado/suspenso, sem valer — Colo Colo Unión Española (2008-08-15): abandoned at 0-0 in 18'
 

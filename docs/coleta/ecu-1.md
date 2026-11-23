@@ -67,8 +67,8 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 | 2006 | 11 | 210 (210) | 587 | 587 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2007 | 10 | 210 (210) | 529 | 518 | 4 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 | 12 | 222 (222) | 520 | 508 | 5 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2009 | 12 | 232 (232) | 527 | 521 | 5 / 1 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2010 | 12 | 268 (268) | 644 | 633 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2009 | 12 | 232 (232) | 527 | 526 | 5 / 1 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2010 | 12 | 268 (268) | 644 | 638 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2011 | 12 | 268 (268) | 679 | 679 | 3 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2012 | 12 | 268 (268) | 626 | 624 | 3 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2013 | 12 | 264 (264) | 645 | 641 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -79,10 +79,10 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 | 2018 | 12 | 266 (266) | 689 | 0 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2019 | 16 | 254 (254) | 682 | 6 | 1 / 0 | Delfín | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2020 | 16 | 242 (242) | 669 | 19 | 3 / 0 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2021 | 16 | 242 (242) | 658 | 641 | 3 / 0 | Independiente del Valle | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2022 | 16 | 242 (242) | 587 | 583 | 3 / 0 | Aucas | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2023 | 16 | 242 (242) | 598 | 581 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2024 | 16 | 242 (242) | 636 | 631 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2021 | 16 | 242 (242) | 658 | 643 | 3 / 0 | Independiente del Valle | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2022 | 16 | 242 (242) | 587 | 584 | 3 / 0 | Aucas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2023 | 16 | 242 (242) | 598 | 583 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2024 | 16 | 242 (242) | 636 | 632 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2025 | 16 | 312 (312) | 794 | 794 | 4 / 0 | Independiente del Valle | calculada (fase alcançada, pontos, saldo, gols pró) |
 
 ## Conferência e correções, edição a edição
@@ -354,12 +354,12 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 2009
 
-- ESPN: 229 jogos casados
+- ESPN: 230 jogos casados
 - tabela publicada x jogos — ecua09:682: Emelec tabela [34, 18, 7, 9, 48, 30] jogos [34, 18, 7, 9, 47, 29] — a outra tabela publicada (ecua09) fecha com os jogos: o erro é desta tabela
 
 ### 2010
 
-- ESPN: 262 jogos casados
+- ESPN: 264 jogos casados
 
 ### 2011
 
@@ -399,7 +399,7 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 2019
 
-- ESPN: 253 jogos casados
+- ESPN: 254 jogos casados
 - decidido fora de campo — Emelec América de Quito (2019-04-28): awarded 3-0; originally 0-0, América fielded Apr 29]                                         suspended player
 - decidido fora de campo — América de Quito Deportivo Cuenca (2019-07-29): awarded 3-0; Cuenca were suspended
 - decidido fora de campo — América de Quito Fuerza Amarilla (2019-10-20): awarded 3-0
@@ -412,22 +412,22 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 
 ### 2021
 
-- ESPN: 240 jogos casados
+- ESPN: 241 jogos casados
 - decidido fora de campo — Universidad Católica de Quito Olmedo (2021-02-19): awarded 3-0, Olmedo dns
 - decidido fora de campo — Barcelona de Guayaquil Aucas (2021-04-12): awarded 3-0; abandoned at 2-0 in 17'
 
 ### 2022
 
-- ESPN: 240 jogos casados
+- ESPN: 242 jogos casados
 - decidido fora de campo — Guayaquil City Deportivo Cuenca (2022-02-20): awarded 3-0; abandoned at 2-0
 
 ### 2023
 
-- ESPN: 241 jogos casados
+- ESPN: 242 jogos casados
 
 ### 2024
 
-- ESPN: 241 jogos casados
+- ESPN: 242 jogos casados
 - corrigido — El Nacional x Deportivo Cuenca (2024-03-23): jogo interrompido e completado depois: a página traz as duas linhas ("abd" e a do restante do jogo, com o placar final); fica a segunda
 
 ### 2025

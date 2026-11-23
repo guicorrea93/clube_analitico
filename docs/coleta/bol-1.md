@@ -423,7 +423,7 @@ Gerado por `python coleta/bol-1/importar.py`. Pacote em `data/coleta/bol-1/pacot
 
 ### 2008 Clausura
 
-- ESPN: 63 jogos casados
+- ESPN: 66 jogos casados
 
 ### 2009 Apertura
 
@@ -431,7 +431,7 @@ Gerado por `python coleta/bol-1/importar.py`. Pacote em `data/coleta/bol-1/pacot
 
 ### 2009 Clausura
 
-- ESPN: 82 jogos casados
+- ESPN: 84 jogos casados
 
 ### 2010 Apertura
 
@@ -501,7 +501,7 @@ Gerado por `python coleta/bol-1/importar.py`. Pacote em `data/coleta/bol-1/pacot
 
 ### 2018 Apertura
 
-- ESPN: 108 jogos casados
+- ESPN: 114 jogos casados
 
 ### 2018 Clausura
 
@@ -542,7 +542,7 @@ Gerado por `python coleta/bol-1/importar.py`. Pacote em `data/coleta/bol-1/pacot
 
 ### 2024
 
-- ESPN: 318 jogos casados
+- ESPN: 319 jogos casados
 
 ### 2025
 

@@ -112,7 +112,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 | 2004 | 10 | 180 (180) | 465 | 282 | 2 / 0 | Cerro Porteño | RSSSF (para04) |
 | 2005 | 10 | 181 (180) | 462 | 407 | 3 / 0 | Cerro Porteño | RSSSF (para05) |
 | 2006 | 11 | 222 (222) | 634 | 621 | 2 / 0 | Libertad | RSSSF (para06) |
-| 2007 | 12 | 267 (266) | 676 | 633 | 2 / 0 | Libertad | RSSSF (para07) |
+| 2007 | 12 | 267 (266) | 676 | 635 | 2 / 0 | Libertad | RSSSF (para07) |
 | 2008 Apertura | 12 | 132 (132) | 391 | 375 | 1 / 0 | Libertad | RSSSF (para08) |
 | 2008 Clausura | 12 | 133 (133) | 341 | 333 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Apertura | 12 | 134 (134) | 326 | 326 | 0 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -628,7 +628,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 2007
 
-- ESPN: 264 jogos casados
+- ESPN: 265 jogos casados
 - abandonado/suspenso, sem valer — 2 de Mayo Sol de América (2007-05-18): abandoned at 1-1 in 68'
 
 ### 2008 Apertura

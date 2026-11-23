@@ -3390,6 +3390,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0229,Emelec,Hernán PEIRONE,10,,normal,RSSSF
 2009-0231,Deportivo Quito,Marcos Pircchio,58,,normal,ESPN
 2009-0231,Deportivo Cuenca,Diego Ianiero,76,,normal,ESPN
+2009-0232,Deportivo Quito,Daniel Nevil Mina Arizola,69,,normal,ESPN
+2009-0232,Deportivo Quito,Michael Arroyo,73,,normal,ESPN
+2009-0232,Deportivo Cuenca,Edison Andres Preciado Bravo,80,,normal,ESPN
+2009-0232,Deportivo Cuenca,Ismael Villalba,82,,normal,ESPN
+2009-0232,Deportivo Quito,Michael Arroyo,87,,normal,ESPN
 2010-0001,Deportivo Quito,Franco Niell,82,,normal,ESPN
 2010-0001,Emelec,Mario David Quiroz,90,,normal,ESPN
 2010-0003,Olmedo,Rodrigo Vanegas,59,,normal,ESPN
@@ -4021,8 +4026,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0264,Emelec,Fernando Gaibor,90,,normal,ESPN
 2010-0265,Deportivo Quito,Luís Armando Checa,34,,normal,ESPN
 2010-0265,Deportivo Quito,Luis Saritama,48,,normal,ESPN
+2010-0266,Barcelona de Guayaquil,Henry León,15,,normal,ESPN
+2010-0266,Deportivo Quito,Oswaldo Minda,24,,normal,ESPN
+2010-0266,Barcelona de Guayaquil,Juan Samudio,72,,normal,ESPN
+2010-0266,Barcelona de Guayaquil,Juan Luis Anangono,89,,normal,ESPN
 2010-0267,LDU de Quito,Miller Bolaños,50,,normal,ESPN
 2010-0267,LDU de Quito,Miller Bolaños,90,,normal,ESPN
+2010-0268,Emelec,Mario David Quiroz,60,,normal,ESPN
 2011-0001,Deportivo Quito,Michael Quiñónez,11,,normal,ESPN
 2011-0001,Deportivo Quito,Pedro Velasco,15,,normal,ESPN
 2011-0001,Manta FC,Danny Alejandro Vera Carpio,44,,normal,ESPN
@@ -5322,10 +5332,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2012-0264,Técnico Universitario,Juan Arraya,39,,normal,ESPN
 2012-0264,El Nacional,Edmundo Salomon Zura,54,,normal,ESPN
 2012-0264,El Nacional,Marwin Pita Mora,90,,normal,ESPN
-2012-0265,Emelec,Marlon Pavon,31,,normal,ESPN
-2012-0265,LDU de Quito,Pablo Vitti,45,,normal,ESPN
-2012-0265,Emelec,Marcos Mondaini,67,,normal,ESPN
-2012-0266,Emelec,Marlon Pavon,77,,normal,ESPN
+2012-0267,Emelec,Marlon Pavon,31,,normal,ESPN
+2012-0267,LDU de Quito,Pablo Vitti,45,,normal,ESPN
+2012-0267,Emelec,Marcos Mondaini,67,,normal,ESPN
+2012-0268,Emelec,Marlon Pavon,77,,normal,ESPN
 2013-0001,LDU de Loja,Pedro Larrea,24,,normal,ESPN
 2013-0001,Deportivo Quito,Luis Congo,29,,normal,ESPN
 2013-0001,Deportivo Quito,Federico Nieto,63,,normal,ESPN
@@ -6654,6 +6664,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2021-0241,Independiente del Valle,Junior Sornoza,53,,penalti,ESPN
 2021-0241,Independiente del Valle,Jonatan Bauman,74,,normal,ESPN
 2021-0241,Emelec,Sebastian Rodriguez,90,9,penalti,ESPN
+2021-0242,Independiente del Valle,Richard Schunke,8,,normal,ESPN
+2021-0242,Emelec,Dixon Arroyo,45,8,normal,ESPN
 2022-0001,Emelec,Andrés Duarte,9,,contra,ESPN
 2022-0001,Emelec,Alexis Zapata,12,,normal,ESPN
 2022-0001,Emelec,Mauro Quiroga,27,,normal,ESPN
@@ -7237,6 +7249,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2022-0239,Delfín,Michael Mieles,56,,normal,ESPN
 2022-0240,Orense,Gabriel Achilier,48,,normal,ESPN
 2022-0240,Guayaquil City,Jordan Rezabala,53,,normal,ESPN
+2022-0241,Aucas,Édison Vega,65,,normal,ESPN
 2023-0001,Deportivo Cuenca,Enzo Lopez,39,,penalti,ESPN
 2023-0001,Deportivo Cuenca,Francisco Mera,77,,normal,ESPN
 2023-0002,Independiente del Valle,Kevin Rodríguez,19,,normal,ESPN
@@ -7818,6 +7831,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2023-0239,Orense,Carlos Cuero,30,,contra,ESPN
 2023-0239,Aucas,Jeison Medina,90,3,normal,ESPN
 2023-0240,Barcelona de Guayaquil,Darwin Cuero,80,,contra,ESPN
+2023-0242,Independiente del Valle,Kendry Páez,16,,normal,ESPN
+2023-0242,LDU de Quito,Renato Ibarra,19,,normal,ESPN
 2024-0001,Independiente del Valle,Michael Hoyos,67,,normal,ESPN
 2024-0002,Libertad de Loja,Felipe Ávila,43,,normal,ESPN
 2024-0002,Mushuc Runa,Daniel Segura,90,6,normal,ESPN
@@ -8449,6 +8464,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2024-0241,LDU de Quito,Alex Arce,45,2,normal,ESPN
 2024-0241,LDU de Quito,Alex Arce,57,,normal,ESPN
 2024-0241,LDU de Quito,Gabriel Villamil,73,,normal,ESPN
+2024-0242,Independiente del Valle,Luis Zárate,90,6,normal,ESPN
 2025-0001,Barcelona de Guayaquil,Gastón Campi,3,,normal,ESPN
 2025-0001,Manta FC,Jorge Valencia,14,,normal,ESPN
 2025-0001,Barcelona de Guayaquil,Octavio Rivero,49,,normal,ESPN
