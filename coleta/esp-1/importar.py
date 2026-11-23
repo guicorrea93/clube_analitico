@@ -91,6 +91,13 @@ LIGUILLA = ("1986/87: com a ampliação para 20 clubes, os três últimos do gru
             "único, que mandou um só para a 2ª divisão: Racing 1-1 Cádiz (24/06/1987; Racing 4-3 nos pênaltis), Cádiz 1-1 Osasuna "
             "(28/06; Cádiz 4-3 nos pênaltis) e Osasuna 2-0 Racing (30/06). Osasuna 3 pontos, Cádiz 2, Racing 1: caiu o Racing "
             "(cadizcf.com, racinguismo.com, RSSSF)")
+# temporada em que a ordem oficial é a da RSSSF, e não a da Wikipédia: ano -> motivo (revisão QE-002, decisão D-19 b)
+ORDEM_RSSSF: dict[int, str] = {
+    1960: ("Athletic Bilbao, Betis e Real Sociedad empatados com 30 pontos: no confronto direto entre os três, Athletic e "
+           "Betis fazem 5 pontos e a Real Sociedad 2; entre os dois, Athletic 0-0 Betis e Betis 1-3 Athletic, e o Athletic "
+           "fica em 6º. É a ordem da RSSSF e do BDFutbol, e a regra das outras temporadas; a Wikipédia põe o Betis à frente "
+           "pelo saldo do triangular"),
+}
 WIKI_TROCADA = ("a tabela da Wikipédia põe os números de um clube na linha de outro (clubes com os mesmos pontos); a da "
                 "RSSSF fecha com os jogos e dá a ordem")
 EXPLICACOES: dict[int, list[str]] = {
@@ -609,6 +616,10 @@ def main() -> None:
         if a == FASE2:
             ordem = [x["clube"] for x in publicadas[1][2]]
             fonte_ordem = "RSSSF (ordem oficial, por grupo da 2ª fase)"
+        elif a in ORDEM_RSSSF and rs:
+            ordem = [x["clube"] for x in rs["tabela"]]
+            fonte_ordem = "RSSSF (ordem oficial)"
+            ocorr[a].append(f"fica a ordem da RSSSF: {ORDEM_RSSSF[a]}")
         elif w and (confere.get("Wikipédia") or not confere.get("RSSSF")):
             ordem = [x["clube"] for x in w["times"]]
             fonte_ordem = "Wikipédia (ordem oficial)"

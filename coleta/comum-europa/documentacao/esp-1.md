@@ -140,6 +140,10 @@ Registradas em `coleta/esp-1/importar.py`; cada uma também aparece no relatóri
 
 - a tabela da Wikipédia põe os números de um clube na linha de outro (clubes com os mesmos pontos); a da RSSSF fecha com os jogos e dá a ordem
 
+### Temporadas com a ordem oficial da RSSSF (`ORDEM_RSSSF`)
+
+- **1960/61:** Athletic Bilbao, Betis e Real Sociedad empatados com 30 pontos: no confronto direto entre os três, Athletic e Betis fazem 5 pontos e a Real Sociedad 2; entre os dois, Athletic 0-0 Betis e Betis 1-3 Athletic, e o Athletic fica em 6º. É a ordem da RSSSF e do BDFutbol, e a regra das outras temporadas; a Wikipédia põe o Betis à frente pelo saldo do triangular
+
 ### Nomes de jogadores da ESPN acertados (`NOMES_ESPN`)
 
 - **Kahveci Nihat:** Nihat Kahveci

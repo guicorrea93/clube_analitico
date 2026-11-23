@@ -200,6 +200,7 @@ Gerado por `python coleta/ita-1/importar.py`. Pacote em `data/coleta/ita-1/pacot
 - a base não fecha nesta temporada (380 jogos): montada pelo calendário do ogol (420 jogos), com 379 jogos da base
 - 41 jogos só no ogol, que entram com o placar do ogol: SSC Napoli 1-2 US Alessandria 1912 (1947-10-26); US Alessandria 1912 2-2 Lazio Roma (1948-06-27); Atalanta 1-0 ACF Fiorentina (1948-06-27); Bologna FC 0-0 AS Bari (1948-06-27); Genoa CFC 1-2 Torino FC (1948-06-27); Juventus 2-0 Salernitana Calcio 1919 (1948-06-27) ...
 - 1 jogos da base fora do calendário do ogol, descartados: US Alessandria 1912 2-1 SSC Napoli (1947-10-26)
+- Napoli declassado ao último lugar por tentativa de corrupção (terminou em 18º em campo); Wikipédia it, Serie A 1947-1948, classifica finale; na classificação final fica em último
 
 ### 1948/49
 

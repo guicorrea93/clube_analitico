@@ -95,6 +95,8 @@ DICIONARIOS = {
     "WIKI_TROCADA": "Wikipédia com linhas trocadas",
     "OGOL_WIKI": "Ogol x Wikipédia",
     "WIKI_GOLS": "Gols da Wikipédia",
+    "DECLASSADOS": "Declassados para o último lugar fora de campo",
+    "ORDEM_RSSSF": "Temporadas com a ordem oficial da RSSSF",
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
     "EXPLICACOES": "Divergências entre fontes já explicadas",
 }

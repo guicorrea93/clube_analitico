@@ -188,6 +188,10 @@ Registradas em `coleta/ita-1/importar.py`; cada uma também aparece no relatóri
 
 - a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos
 
+### Declassados para o último lugar fora de campo (`DECLASSADOS`)
+
+- **1947/48:** [SSC Napoli] declassado ao último lugar por tentativa de corrupção (terminou em 18º em campo); Wikipédia it, Serie A 1947-1948, classifica finale
+
 ### Divergências entre fontes já explicadas (`EXPLICACOES`)
 
 - **1929/30:** a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os pontos da RSSSF fecham com os jogos

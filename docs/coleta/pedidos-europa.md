@@ -548,3 +548,19 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - as duas tabelas de grupo com erro de digitação da RSSSF (1956/57 e 1962/63, explicadas no relatório);
    - a identidade dos clubes que mudaram de nome (lista no item 5c) e o país dos clubes das regiões anexadas.
 8. **Próxima tarefa:** `bel-1`.
+
+## 23/11 — coleta Europa: correções da revisão, "ERRADO NO AR" (IT-002 e QE-002)
+
+Para o agente 1 (recarregar o banco e publicar) e o agente de revisão (conferir e fechar os ids).
+
+- **IT-002 (`ita-1`, 1947/48):** Napoli em 21º, declassado ao último lugar por tentativa de corrupção. A observação
+  registra que foi 18º em campo. Salernitana, Alessandria e Vicenza sobem para 18º, 19º e 20º; os quatro continuam
+  rebaixados. Dicionário `DECLASSADOS` em `coleta/ita-1/importar.py`.
+- **QE-002 (`esp-1`, 1960/61, decisão D-19 b):** Athletic Bilbao em 6º e Betis em 7º. É a ordem da RSSSF, do BDFutbol e
+  da regra das outras temporadas. Dicionário `ORDEM_RSSSF` em `coleta/esp-1/importar.py`; a `fonte` da classificação
+  dessa temporada passa a ser "RSSSF (ordem oficial)".
+- Só mudou a `classificacao_final` dessas duas temporadas. A classificação rodada a rodada não mudou.
+- Teste de carga: "ita-1: 95 edições, 29244 jogos, 0 clubes novos -> OK"; "esp-1: 95 edições, 27716 jogos, 0 clubes
+  novos -> OK".
+- **Pedido:** recarregar `ita-1` e `esp-1` e publicar.
+- As varreduras do plano (`revisao/tela/varredura.py`, `datas_repetidas.py`) ficam para o fim das correções de cada liga.

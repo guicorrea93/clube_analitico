@@ -71,6 +71,13 @@ INVERTIDOS = {
                                                            "no turno, Bologna 1-0 Cagliari",
 }
 
+# clube declassado para o último lugar fora de campo: ano -> (clube, motivo). A posição esportiva (a das tabelas) fica no
+# relatório; na classificação final o clube vai para o fim (revisão IT-002)
+DECLASSADOS: dict[int, tuple] = {
+    1947: ("SSC Napoli", "declassado ao último lugar por tentativa de corrupção (terminou em 18º em campo); Wikipédia it, "
+                         "Serie A 1947-1948, classifica finale"),
+}
+
 # explicação de cada divergência que sobra entre fontes (vai para o relatório, antes das ocorrências da temporada)
 WIKI_GOLS = "a tabela da Wikipédia erra gols (ou vitórias e empates) de alguns clubes; a base e o ogol concordam jogo a jogo e os " \
             "pontos da RSSSF fecham com os jogos"
@@ -698,6 +705,12 @@ def main() -> None:
             calc_final = calcular(jogos, pv)
         else:
             ordem_final, calc_final = ordem, ref
+        obs_declassado = {}
+        if a in DECLASSADOS:   # declassado fora de campo: vai para o último lugar
+            c_, motivo = DECLASSADOS[a]
+            ordem_final = [c for c in ordem_final if c != c_] + [c_]
+            obs_declassado[c_] = motivo
+            ocorr[a].append(f"{clubes.exibicao(c_)} {motivo}; na classificação final fica em último")
 
         # rebaixados: quem não está na 1ª divisão no ano seguinte (última temporada: marca da Wikipédia)
         prox = next((b for b in TEMPORADAS if b > a), None)
@@ -720,8 +733,9 @@ def main() -> None:
                 "derrotas": d_, "gols_pro": gp, "gols_contra": gc, "pontos": p + ajuste.get(c, 0), "ajuste_pontos": ajuste.get(c, 0),
                 "situacao": "campeao" if pos == 1 and not sem_titulo else "rebaixado" if c in rebaixados else None,
                 "fonte": fonte_ordem if c in ordem else "calculada (campanha nos grupos)",
-                "observacao": ((w and next((x["hth"] or x["nota"] for x in w["times"] if x["clube"] == c), None)) or None)
-                if c in ordem else "não foi ao grupo final"})
+                "observacao": obs_declassado.get(c) or (((w and next((x["hth"] or x["nota"] for x in w["times"]
+                                                                       if x["clube"] == c), None)) or None)
+                                                        if c in ordem else "não foi ao grupo final")})
 
         # ---- partidas, gols, cartões, estatísticas
         jogos.sort(key=lambda j: (j["data"], j["rodada"] or 0, j["m"]))

@@ -251,7 +251,9 @@ Gerado por `python coleta/esp-1/importar.py`. Pacote em `data/coleta/esp-1/pacot
 
 ### 1960/61
 
-- ordem diferente entre RSSSF e Wikipédia em 2 posições (ex.: RSSSF Athletic Bilbao, Wikipédia Real Betis); fica a da Wikipédia
+- fica a ordem da RSSSF: Athletic Bilbao, Betis e Real Sociedad empatados com 30 pontos: no confronto direto entre os três, Athletic e Betis fazem 5 pontos e a Real Sociedad 2; entre os dois, Athletic 0-0 Betis e Betis 1-3 Athletic, e o Athletic fica em 6º. É a ordem da RSSSF e do BDFutbol, e a regra das outras temporadas; a Wikipédia põe o Betis à frente pelo saldo do triangular
+- ordem diferente entre Wikipédia e RSSSF em 2 posições (ex.: Wikipédia Real Betis, RSSSF Athletic Bilbao); fica a da RSSSF
+- nenhum critério calculado reproduz a ordem oficial; o mais próximo (confronto) difere em 2 posições (ex.: ['Athletic Bilbao', 'Real Betis'])
 - artilheiro: contagem oficial da liga Ferenc Puskás com 28 gols; o Pichichi (Marca) deu Ferenc Puskás com 27 gols. Fica a contagem oficial
 
 ### 1961/62
