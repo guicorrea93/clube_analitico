@@ -511,4 +511,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - Os ids das partidas mudam: saíram os 8 jogos da Supercopa, e as datas de 2020 e de 2006 mudaram.
   - Os 3 clubes novos são Atlético Wanderers, Lito (FUF) e Charley (FUF).
   - Peñarol passa a 52 títulos e Wanderers a 3: as três edições sem campeão.
+- **Commit:** `31c14b0`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
