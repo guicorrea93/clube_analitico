@@ -48,7 +48,18 @@ def campeoes() -> dict[str, str]:
         elif temp in ("2013", "2017"):   # os torneios de transição aparecem só com o ano
             temp += " Transición"
         saida.setdefault(temp, _texto(cel[k + 1]))
+        if k + 2 < len(cel):
+            _VICE.setdefault(temp, _texto(cel[k + 2]))
     return saida
+
+
+_VICE: dict[str, str] = {}
+
+
+def vices() -> dict[str, str]:
+    """Vice da lista (coluna Runners-up, logo depois do campeão)."""
+    campeoes()
+    return {t: v for t, v in _VICE.items() if v and not v.startswith("{{")}
 
 
 if __name__ == "__main__":

@@ -4,8 +4,10 @@ Regras do guia internacional (docs/agentes-internacionais-COMECE-AQUI.md, seçã
 - nome pelo qual o clube é conhecido no Brasil ("Colo Colo", "Universidad de Chile", "Universidad Católica", "Cobreloa");
 - homônimo de clube do banco ou de outro pacote leva a cidade: "Everton de Viña del Mar" (o Everton inglês está no eng-1),
   "Rangers de Talca", "Naval de Talcahuano";
-- o mesmo clube com outro nome é um só, com o nome atual; os nomes antigos ficam no nomes_fonte: Green Cross (Santiago até
-  1964) -> Green Cross-Temuco (1965) -> Deportes Temuco (1985), como a RSSSF conta o título de 1945; Unión Calera -> Unión La
+- o mesmo clube com outro nome é um só, com o nome atual; os nomes antigos ficam no nomes_fonte: Green Cross-Temuco
+  (1965) -> Deportes Temuco (1985); o Green Cross de Santiago (1933-1964, campeão de 1945; o nome leva a cidade por causa do Green Cross
+  de Manta, do Equador) fica à parte (D-25 a, decisão do
+  Guilherme de 22/11/2026: a lista oficial dá o título ao Green Cross); Deportes Arica = San Marcos de Arica (D-25 b); Unión Calera -> Unión La
   Calera; Municipal Iquique -> Deportes Iquique; Provincial Curicó Unido -> Curicó Unido;
 - fusões que criaram clube novo ficam separadas: Ferroviarios e Badminton (até 1949) e Ferrobádminton (1950).
 
@@ -37,7 +39,7 @@ CLUBES: dict[str, tuple[str, str]] = {
     "Deportes Limache": ("Limache", "Valparaíso"),
     "Cobreloa": ("Calama", "Antofagasta"), "Deportes Antofagasta": ("Antofagasta", "Antofagasta"),
     "Cobresal": ("El Salvador", "Atacama"), "Regional Atacama": ("Copiapó", "Atacama"), "Deportes Copiapó": ("Copiapó", "Atacama"),
-    "Deportes Iquique": ("Iquique", "Tarapacá"), "Deportes Arica": ("Arica", "Arica y Parinacota"),
+    "Deportes Iquique": ("Iquique", "Tarapacá"), "Green Cross de Santiago": ("Santiago", "Metropolitana"),
     "San Marcos de Arica": ("Arica", "Arica y Parinacota"),
     "Coquimbo Unido": ("Coquimbo", "Coquimbo"), "Deportes La Serena": ("La Serena", "Coquimbo"), "Deportes Ovalle": ("Ovalle", "Coquimbo"),
     "O'Higgins": ("Rancagua", "O'Higgins"), "Unión Santa Cruz": ("Santa Cruz", "O'Higgins"),
@@ -86,7 +88,7 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"(deportes )?copiapo", "Deportes Copiapó", 2000, 2100),
     (r"(dep|deportes|municipal) ?iquique|iquique", "Deportes Iquique", 1978, 2100),
     (r"(cd )?san marcos( de arica)?", "San Marcos de Arica", 1978, 2100),
-    (r"(deportes )?arica", "Deportes Arica", 1975, 2100),
+    (r"(deportes )?arica", "San Marcos de Arica", 1975, 2100),   # Deportes Arica = San Marcos de Arica (D-25 b)
     (r"coquimbo( u| unido)?", "Coquimbo Unido", 1958, 2100),
     (r"(dep|deportes) ?la serena|la serena", "Deportes La Serena", 1955, 2100),
     (r"(deportes )?ovalle", "Deportes Ovalle", 1965, 2100),
@@ -101,7 +103,8 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"(dep|deportes|deportivo) ?concpe?cion|(dep|deportes|deportivo) ?concepcion|concepcion", "Deportes Concepción", 1965, 2100),
     (r"(arturo )?fernandez vial", "Fernández Vial", 1960, 2100),
     (r"lota schwager", "Lota Schwager", 1965, 2100),
-    (r"green cross( temuco)?|(dep|deportes|deportivo) ?temuco|temuco", "Deportes Temuco", 1930, 2100),
+    (r"green cross", "Green Cross de Santiago", 1930, 1964),   # o Green Cross de Santiago, campeão de 1945, à parte (D-25 a)
+    (r"green cross( temuco)?|(dep|deportes|deportivo) ?temuco|temuco", "Deportes Temuco", 1965, 2100),
     (r"(deportes )?valdivia", "Deportes Valdivia", 1980, 2100),
     (r"(prov |provincial )?osorno", "Provincial Osorno", 1980, 2100),
     (r"(deportes |pto )?puerto montt|pto montt", "Deportes Puerto Montt", 1980, 2100),

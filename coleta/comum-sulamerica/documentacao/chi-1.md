@@ -5,9 +5,9 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 109, de 1933 a 2025; 0 sem jogos.
-- **Jogos:** 22601 (22580 com placar); **gols:** 69200; **gols com autor:** 18878 (27%); **cartões:** 25361.
-- **Clubes:** 53; **artilheiros:** 101 edições com artilheiro (124 linhas, com empates).
-- **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2083 linhas.
+- **Jogos:** 22586 (22565 com placar); **gols:** 69170; **gols com autor:** 19547 (28%); **cartões:** 26601.
+- **Clubes:** 53; **artilheiros:** 105 edições com artilheiro (128 linhas, com empates).
+- **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2038 linhas.
 - **No banco:** sim; **último commit do pacote:** 36e0690.
 - **Observação da competição:** 1ª divisão chilena de 1933 a 2025: uma edição por torneio que deu título de campeão (Apertura e Clausura em 1997, 2002-2009, 2011, 2012 e 2013/14-2016/17; Transición em 2013 e 2017; "2020" é a temporada 2020/21). Sem a Copa Chile, as liguillas e os jogos de promoção.
 
@@ -44,10 +44,10 @@ Fontes dos jogos por edição:
 
 Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
 
-- **Edições em que todas as tabelas fecham com os jogos:** 65.
-- **Edições com alguma tabela divergente** (43; motivo no relatório, na edição): 1937, 1941, 1943, 1944, 1946, 1947, 1948, 1951, 1953, 1961, 1962, 1963, 1964, 1965, 1968, 1969, 1970, 1971, 1972, 1973, 1976, 1977, 1979, 1982, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1993, 1994, 1995, 1997 Apertura, 1999, 2001, 2004 Clausura, 2011 Apertura, 2012 Clausura, 2013/14 Apertura, 2016/17 Apertura, 2017 Transición.
+- **Edições em que todas as tabelas fecham com os jogos:** 76.
+- **Edições com alguma tabela divergente** (32; motivo no relatório, na edição): 1937, 1941, 1946, 1947, 1948, 1951, 1953, 1961, 1962, 1963, 1964, 1965, 1968, 1969, 1970, 1973, 1976, 1977, 1979, 1982, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1993, 1999, 2001, 2004 Clausura, 2012 Clausura.
 - **Edições sem tabela para conferir** (1): 1984.
-- **Edições com menos jogos que o esperado:** 1941 (90 de 88), 1971 (307 de 306), 1977 (307 de 306), 1997 Apertura (122 de 120), 2009 Clausura (168 de 167), 2010 (307 de 306), 2013/14 Apertura (154 de 153), 2016/17 Apertura (121 de 120), 2017 Transición (122 de 120), 2019 (195 de 194), 2020 (308 de 307), 2023 (241 de 240), 2024 (240 de 239).
+- **Edições com menos jogos que o esperado:** 1939 (109 de 173), 1941 (90 de 88), 2009 Clausura (168 de 167), 2010 (307 de 306), 2019 (195 de 194), 2020 (308 de 307), 2023 (241 de 240), 2024 (240 de 239).
 
 ## 4. Cobertura de cada campo, por década
 
@@ -63,8 +63,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1980s | 10 | 2974 | 99% | 0% | 89% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 11 | 2514 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 18 | 3366 | 100% | 48% | 100% | 51% | 49% | 0% | 81% | 1.2 |
-| 2010s | 17 | 2791 | 100% | 97% | 82% | 99% | 95% | 42% | 94% | 5.2 |
-| 2020s | 6 | 1541 | 100% | 79% | 100% | 81% | 81% | 69% | 80% | 4.4 |
+| 2010s | 17 | 2776 | 100% | 97% | 82% | 99% | 95% | 42% | 94% | 5.2 |
+| 2020s | 6 | 1541 | 100% | 96% | 100% | 98% | 98% | 71% | 97% | 5.2 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 
@@ -155,27 +155,31 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1962 a 1967: pontos corridos
 - 1968: pontos corridos + desempate + pontos corridos
 - 1969 a 1970: pontos corridos + desempate + 2 grupos + pontos corridos
-- 1971 a 1974: pontos corridos
-- 1975 a 1976: pontos corridos + desempate
-- 1977 a 1983: pontos corridos
+- 1971: pontos corridos + desempate
+- 1972 a 1974: pontos corridos
+- 1975 a 1977: pontos corridos + desempate
+- 1978 a 1983: pontos corridos
 - 1984: 2 grupos + desempate + pontos corridos
 - 1985: pontos corridos
 - 1986: pontos corridos + mata-mata
-- 1987 a 2001: pontos corridos
+- 1987 a 1996: pontos corridos
+- 1997 Apertura: pontos corridos + desempate
+- 1997 Clausura a 2001: pontos corridos
 - 2002 Apertura a 2006 Clausura: pontos corridos + mata-mata
 - 2007 Apertura: pontos corridos
 - 2007 Clausura a 2009 Clausura: pontos corridos + mata-mata
 - 2010: pontos corridos
 - 2011 Apertura a 2012 Clausura: pontos corridos + mata-mata
-- 2013 Transición a 2014/15 Clausura: pontos corridos
-- 2015/16 Apertura a 2015/16 Clausura: pontos corridos + mata-mata
-- 2016/17 Apertura a 2019: pontos corridos
+- 2013 Transición: pontos corridos
+- 2013/14 Apertura: pontos corridos + desempate
+- 2013/14 Clausura a 2019: pontos corridos
 - 2020: pontos corridos + desempate
 - 2021 a 2025: pontos corridos
 
 **Fases e grupos de cada edição com mais de uma fase:**
 
 - 1933: Primeira fase (liga); Final (mata_mata, jogo_unico)
+- 1939: Primeira fase (liga); Segunda fase (liga); Terceira fase (liga)
 - 1946: Primeira fase (liga); Grupo do rebaixamento (liga); Fase final (liga)
 - 1950: Primeira fase (liga); Final (mata_mata, jogo_unico)
 - 1951: Primeira fase (liga); Grupo do rebaixamento (liga); Fase final (liga); Final (mata_mata, jogo_unico)
@@ -187,10 +191,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1968: Metropolitano (liga); Desempate do 5º lugar (mata_mata, jogo_unico); Provincial (liga); Primeira fase (liga); Promocional (liga); Promocional – Série A (liga); Promocional – Série B (liga); Nacional (liga)
 - 1969: Metropolitano (liga); Provincial (liga); Desempate do rebaixamento (mata_mata, ida_volta); Nacional (grupos, 2 grupos); Fase final (liga)
 - 1970: Metropolitano (liga); Provincial (liga); Desempate do rebaixamento (mata_mata, ida_volta); Nacional (grupos, 2 grupos); Fase final (liga)
+- 1971: Primeira fase (liga); Desempate do rebaixamento (mata_mata, jogo_unico)
 - 1975: Primeira fase (liga); Desempate do rebaixamento (mata_mata, jogo_unico)
 - 1976: Primeira fase (liga); Desempate do título (mata_mata, ida_volta)
+- 1977: Primeira fase (liga); Desempate do rebaixamento (mata_mata, jogo_unico)
 - 1984: Primeira fase (grupos, 2 grupos); Desempate do rebaixamento (mata_mata, jogo_unico); Fase final (liga)
 - 1986: Primeira fase (liga); Final (mata_mata, jogo_unico)
+- 1997 Apertura: Primeira fase (liga); Desempate do título (mata_mata, ida_volta)
 - 1999: Primeira fase (liga); Grupo do rebaixamento (liga); Fase final (liga)
 - 2002 Apertura: Primeira fase (liga); Oitavas de final (mata_mata, ida_volta); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2002 Clausura: Primeira fase (liga); Oitavas de final (mata_mata, ida_volta); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
@@ -211,14 +218,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2011 Clausura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2012 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2012 Clausura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2015/16 Apertura: Primeira fase (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2015/16 Clausura: Primeira fase (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2013/14 Apertura: Primeira fase (liga); Desempate do título (mata_mata, jogo_unico)
 - 2020: Primeira fase (liga); Desempate do rebaixamento (mata_mata, jogo_unico)
 
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
-- RSSSF: 56 edições
-- calculada: 53 edições
+- RSSSF: 74 edições
+- calculada: 35 edições
 
 **Observações das edições:**
 
@@ -259,7 +265,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Huachipato: 3
 - Palestino: 2
 - Santiago Morning: 1
-- Deportes Temuco: 1
+- Green Cross de Santiago: 1
 - Unión San Felipe: 1
 - O'Higgins: 1
 - Cobresal: 1
@@ -280,8 +286,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1941 | Colo Colo | Santiago Morning |
 | 1942 | Santiago Morning | Magallanes |
 | 1943 | Unión Española | Colo Colo |
-| 1944 | Colo Colo | Santiago Morning |
-| 1945 | Deportes Temuco | Unión Española |
+| 1944 | Colo Colo | Audax Italiano |
+| 1945 | Green Cross de Santiago | Unión Española |
 | 1946 | Audax Italiano | Magallanes |
 | 1947 | Colo Colo | Audax Italiano |
 | 1948 | Audax Italiano | Unión Española |
@@ -291,7 +297,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1952 | Everton de Viña del Mar | Colo Colo |
 | 1953 | Colo Colo | Palestino |
 | 1954 | Universidad Católica | Colo Colo |
-| 1955 | Palestino | Unión Española |
+| 1955 | Palestino | Colo Colo |
 | 1956 | Colo Colo | Santiago Wanderers |
 | 1957 | Audax Italiano | Universidad de Chile |
 | 1958 | Santiago Wanderers | Colo Colo |
@@ -304,7 +310,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1965 | Universidad de Chile | Universidad Católica |
 | 1966 | Universidad Católica | Colo Colo |
 | 1967 | Universidad de Chile | Universidad Católica |
-| 1968 | Santiago Wanderers | Universidad de Chile |
+| 1968 | Santiago Wanderers | Universidad Católica |
 | 1969 | Universidad de Chile | Rangers de Talca |
 | 1970 | Colo Colo | Unión Española |
 | 1971 | Unión San Felipe | Universidad de Chile |
@@ -318,10 +324,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1979 | Colo Colo | Cobreloa |
 | 1980 | Cobreloa | Universidad de Chile |
 | 1981 | Colo Colo | Cobreloa |
-| 1982 | Cobreloa | Magallanes |
+| 1982 | Cobreloa | Colo Colo |
 | 1983 | Colo Colo | Cobreloa |
-| 1984 | Universidad Católica | Cobreloa |
-| 1985 | Cobreloa | Colo Colo |
+| 1984 | Universidad Católica | Cobresal |
+| 1985 | Cobreloa | Everton de Viña del Mar |
 | 1986 | Colo Colo | Palestino |
 | 1987 | Universidad Católica | Colo Colo |
 | 1988 | Cobreloa | Cobresal |
@@ -367,7 +373,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2014/15 Clausura | Cobresal | Colo Colo |
 | 2015/16 Apertura | Colo Colo | Universidad Católica |
 | 2015/16 Clausura | Universidad Católica | Colo Colo |
-| 2016/17 Apertura | Universidad Católica | Unión Española |
+| 2016/17 Apertura | Universidad Católica | Deportes Iquique |
 | 2016/17 Clausura | Universidad de Chile | Colo Colo |
 | 2017 Transición | Colo Colo | Unión Española |
 | 2018 | Universidad Católica | Universidad de Concepción |
@@ -379,7 +385,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2024 | Colo Colo | Universidad de Chile |
 | 2025 | Coquimbo Unido | Universidad Católica |
 
-**Rebaixados marcados na classificação:** 60 em 22 edições (só onde a tabela publicada marca a queda); quem mais caiu: San Luis de Quillota (5), Santiago Morning (4), Everton de Viña del Mar (4), Rangers de Talca (3), O'Higgins (3).
+**Rebaixados marcados na classificação:** 48 em 27 edições (só onde a tabela publicada marca a queda); quem mais caiu: San Luis de Quillota (5), Everton de Viña del Mar (4), Santiago Morning (3), Deportes La Serena (3), Deportes Antofagasta (3).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
@@ -393,57 +399,62 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1935: Colo Colo -1
 - 1935: Unión Española +1
 - 1957: San Luis de Quillota -13
+- 1979: Colo Colo +1
+- 1979: Cobreloa +1
+- 1979: Unión Española +1
+- 1979: Universidad de Chile +2
 - 1980: Cobreloa +1
 - 1980: Universidad de Chile +1
 - 1980: Colo Colo +1
 - 1980: Deportes Iquique +2
-- 1981: Colo Colo -44
-- 1981: Cobreloa -46
-- 1981: Universidad de Chile -40
-- 1981: Unión Española -33
-- 1981: Naval de Talcahuano -33
-- 1981: Magallanes -32
-- 1981: Audax Italiano -29
-- 1981: Universidad Católica -30
-- 1981: Deportes La Serena -29
-- 1981: O'Higgins -27
-- 1981: Palestino -26
-- 1981: Deportes Iquique -26
-- 1981: San Luis de Quillota -25
-- 1981: Deportes Concepción -24
-- 1981: Everton de Viña del Mar -21
-- 1981: Ñublense -10
-- 1983: Colo Colo -63
-- 1983: Cobreloa -62
-- 1983: Universidad de Chile -53
-- 1983: Magallanes -50
-- 1983: Universidad Católica -44
-- 1983: Naval de Talcahuano -46
-- 1983: Rangers de Talca -47
-- 1983: Fernández Vial -42
-- 1983: Deportes Arica -41
-- 1983: Huachipato -41
-- 1983: Palestino -40
-- 1983: Deportes Temuco -39
-- 1983: Trasandino -39
-- 1983: O'Higgins -38
-- 1983: Deportes Iquique -35
-- 1983: Deportes Antofagasta -37
-- 1983: Unión San Felipe -35
-- 1983: Regional Atacama -35
-- 1983: Unión Española -33
-- 1983: Santiago Wanderers -27
-- 1983: Audax Italiano -28
+- 1981: Colo Colo +2
+- 1981: Unión Española +1
+- 1981: Audax Italiano +1
+- 1981: Everton de Viña del Mar +1
+- 1982: Cobreloa +1
+- 1982: Colo Colo +2
+- 1982: Universidad de Chile +1
+- 1982: Universidad Católica +1
+- 1983: Universidad Católica +2
+- 1983: Naval de Talcahuano +1
+- 1983: Deportes Iquique +1
+- 1983: Santiago Wanderers +1
+- 1990: Colo Colo +2
+- 1990: Universidad Católica +1
+- 1990: Unión Española +1
+- 1990: O'Higgins +1
 - 1998: Deportes Temuco -15
 - 2007 Apertura: Santiago Wanderers -3
 - 2009 Clausura: Rangers de Talca -3
 - 2009 Clausura: Curicó Unido -3
+- 2011 Apertura: Colo Colo -1
 - 2014/15 Clausura: Cobreloa -3
 - 2021: Deportes Melipilla -6
 
 ## 7. Correções e decisões (com o motivo)
 
 Registradas em `coleta/chi-1/explicacoes.py`; cada uma também aparece no relatório, na edição.
+
+### Erros de digitação da página da RSSSF corrigidos antes da leitura (`CONSERTA_TEXTO`, 6)
+
+- **chile44 · 167:** «Everton                 0-2 Santiago Morning» → «Everton                 0-2 Universidad Católica»: clube trocado na rodada (um clube aparece duas vezes, o outro nenhuma); com a troca a tabela publicada fecha (CH-002)
+- **chile43 · 186:** «Audax Italiano          3-4 Santiago Morning» → «Audax Italiano          3-4 Badminton»: clube trocado na rodada (um clube aparece duas vezes, o outro nenhuma); com a troca a tabela publicada fecha (CH-002)
+- **chile53 · 198:** «Magallanes              1-1 Rangers» → «Unión Española          1-1 Rangers»: clube trocado na rodada (um clube aparece duas vezes, o outro nenhuma); com a troca a tabela publicada fecha (CH-002)
+- **chile72 · 214:** «Universidad Católica    2-0 Unión San Felipe» → «Unión Española          2-0 Unión San Felipe»: clube trocado na rodada (um clube aparece duas vezes, o outro nenhuma); com a troca a tabela publicada fecha (CH-002)
+- **chiletops · 16:** «Costa Rica Audax» → «Costa Rica  Audax»: um espaço só entre o país e o clube: a linha não era lida (CH-018)
+- **chiletops · 17:** «Costa Rica Audax» → «Costa Rica  Audax»: um espaço só entre o país e o clube (CH-018)
+
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 9)
+
+- **1990 · ogol:5257815:** [gm = 2, gv = 1] Universidad Católica 2-1 Everton: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- **1990 · ogol:5257902:** [gm = 1, gv = 1] Unión Española 1-1 La Serena: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- **1990 · ogol:5257949:** [gm = 0, gv = 0] Huachipato 0-0 Palestino: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- **1991 · ogol:5249721:** [gm = 4, gv = 2] O'Higgins 4-2 Deportes Concepción: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- **1993 · ogol:5247516:** [gm = 2, gv = 1] Everton 2-1 Unión Española: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- **1994 · ogol:5241920:** [gm = 1, gv = 0] Universidad Católica 1-0 Universidad de Chile: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- **1995 · ogol:5237549:** [gm = 2, gv = 0] Palestino 2-0 La Serena: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- **1988 · ogol:5293713:** [m = Naval de Talcahuano, v = O'Higgins, gm = 1, gv = 1] o ogol repete O'Higgins 0-2 Naval; o jogo que falta é Naval 1-1 O'Higgins (CH-014)
+- **2011 Apertura · chile2011:67:** [vale o placar de campo, gm = 2, gv = 0] Ñublense 2-0 Wanderers: a decisão do tribunal foi revogada ("award revoked") (CH-015)
 
 ### Divergências entre fontes já explicadas (`EXPLICACOES`, 2)
 
@@ -461,8 +472,10 @@ Regras do guia internacional (docs/agentes-internacionais-COMECE-AQUI.md, seçã
 - nome pelo qual o clube é conhecido no Brasil ("Colo Colo", "Universidad de Chile", "Universidad Católica", "Cobreloa");
 - homônimo de clube do banco ou de outro pacote leva a cidade: "Everton de Viña del Mar" (o Everton inglês está no eng-1),
   "Rangers de Talca", "Naval de Talcahuano";
-- o mesmo clube com outro nome é um só, com o nome atual; os nomes antigos ficam no nomes_fonte: Green Cross (Santiago até
-  1964) -> Green Cross-Temuco (1965) -> Deportes Temuco (1985), como a RSSSF conta o título de 1945; Unión Calera -> Unión La
+- o mesmo clube com outro nome é um só, com o nome atual; os nomes antigos ficam no nomes_fonte: Green Cross-Temuco
+  (1965) -> Deportes Temuco (1985); o Green Cross de Santiago (1933-1964, campeão de 1945; o nome leva a cidade por causa do Green Cross
+  de Manta, do Equador) fica à parte (D-25 a, decisão do
+  Guilherme de 22/11/2026: a lista oficial dá o título ao Green Cross); Deportes Arica = San Marcos de Arica (D-25 b); Unión Calera -> Unión La
   Calera; Municipal Iquique -> Deportes Iquique; Provincial Curicó Unido -> Curicó Unido;
 - fusões que criaram clube novo ficam separadas: Ferroviarios e Badminton (até 1949) e Ferrobádminton (1950).
 
@@ -480,7 +493,8 @@ regra. REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, �
 
 ## 9. Pendências e próximos passos
 
-- nenhuma
+- Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): coluna de bônus das tabelas de 1979-1983, 1988 e 1989, vice pela lista oficial, tabela publicada como classificação em 14 edições, desempates, liguillas pré-Libertadores fora, 2020 no ano certo, placares de 1990-1995, clubes (D-25 a e b) e artilheiros.
+- Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), CH-012 (datas dos mata-matas: leitor comum, no fim), CH-017 (gols com autor a mais), CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo o calendário do ogol de 1964, 1971, 1977 e 1982) e a 2ª parte do CH-014 (1986, adversários trocados: 3ª fonte).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/chi-1.md`):
 

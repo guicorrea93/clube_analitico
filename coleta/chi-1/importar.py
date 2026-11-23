@@ -54,8 +54,65 @@ def especial(esp: str) -> str:
     return {"wo_m": "wo", "wo_v": "wo", "awd": "awd", "abd": "abd", "anulado": "n/p", "n/p": "n/p"}.get(esp, "")
 
 
+def acerta_ano(e: Edicao, jogos: list[dict]) -> None:
+    """CH-011: em 2020 a 1ª data (Jan 24) é <= junho numa edição com ano_fim 2021, e o leitor comum leva a temporada inteira
+    um ano para a frente. Janela da temporada a partir do 1º jogo da página (mesma regra do AR-022 do arg-1 e do UY-015 do uru-1)."""
+    from datetime import date, timedelta
+    if e.temporada != "2020":
+        return
+    da_pagina = [j for j in jogos if j["j"] and j["j"].data and not j["j"].texto.startswith(("espn", "wiki", "ogol"))]
+    da_pagina.sort(key=lambda j: int(j["j"].texto.split(":")[1]))
+    if not da_pagina:
+        return
+    d0 = da_pagina[0]["j"].data
+    ini = date(e.ano_inicio, int(d0[5:7]), int(d0[8:10])) - timedelta(days=30)
+    fim = ini + timedelta(days=500)
+    prev = None
+    for j in da_pagina:
+        x = j["j"]
+        mo, di = int(x.data[5:7]), int(x.data[8:10])
+        cands = [w for y in range(ini.year, fim.year + 1) for w in [_dia(y, mo, di)] if w and ini <= w <= fim]
+        if not cands:
+            continue
+        z = cands[0] if len(cands) == 1 or prev is None else min(cands, key=lambda w: abs((w - prev).days))
+        prev = z
+        x.data = z.isoformat() + x.data[10:]
+
+
+def _dia(y: int, mo: int, di: int):
+    from datetime import date
+    try:
+        return date(y, mo, di)
+    except ValueError:
+        return None
+
+
+VICES: dict[str, str] = {}
+TERCEIROS: dict[str, str] = {}
+
+
+def podio_oficial(e: Edicao, final: list[dict], campeao: str | None, log: list[str]) -> None:
+    """Vice e 3º da lista da AUF (Wikipédia em inglês, colunas Runner-up e Third place) logo abaixo do campeão (UY-004,
+    UY-005). 1947 fica sem vice (D-22 c)."""
+    if not campeao or e.temporada in SEM_VICE:
+        return
+    for pos, lista in ((2, VICES), (3, TERCEIROS)):
+        txt = lista.get(e.temporada)
+        c = clube(txt, e.ano_inicio) if txt else None
+        r = next((r for r in final if r["clube"] == c), None) if c else None
+        if r is None or len(final) < pos:
+            continue
+        if final.index(r) > pos - 1:
+            log.append(f"{'vice' if pos == 2 else '3º'} pela lista oficial: {c} (a tabela o punha em {final.index(r) + 1}º)")
+            final.remove(r)
+            final.insert(pos - 1, r)
+    for k, r in enumerate(final, 1):
+        r["pos"] = k
+
+
 def montar(e: Edicao, cps: dict[str, str]) -> dict:
     p = preparar(e)
+    acerta_ano(e, p["jogos"])
     log: list[str] = list(p["log"])
     for x in EXTRAS.get(e.temporada, []):
         p["jogos"].append({"m": x["mandante"], "v": x["visitante"], "gm": x["gm"], "gv": x["gv"], "fase": x.get("fase", ""),
@@ -92,7 +149,8 @@ def artilheiros_rsssf() -> dict[str, list[tuple[str, str, int]]]:
     saida: dict[str, list] = defaultdict(list)
     ano = temp = None
     for l in linhas("chiletops"):
-        m = re.match(r"^(\d{4})?\s+(Ap|Cl)?\s*(\S.*?)\s{2,}(\S.*?)\s{2,}(\S.*?)\s+(\d{1,2})\s*$", l)
+        # ("Ap"/"Cl" só como palavra: "Apolonides VERA", 1947, virava "1947 Apertura"; CH-018)
+        m = re.match(r"^(\d{4})?\s+(?:(Ap|Cl)\s+)?(\S.*?)\s{2,}(\S.*?)\s{2,}(\S.*?)\s+(\d{1,2})\s*$", l)
         if not m:
             continue
         if m.group(1):
@@ -115,6 +173,13 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     pv = e.pontos_vitoria
     pub = next((tb for tb in p["tabelas"] if not tb.get("acumulada") and tb.get("ok") and
                 {r["clube"] for r in tb["linhas"]} == set(clubes)), None)
+    if e.temporada in TABELAS_CLASS:   # a tabela publicada (ou duas emendadas) vale mesmo sem fechar com os jogos
+        por_id = {f"{tb['fonte']}:{tb['t'].linha}": tb for tb in p["tabelas"]}
+        partes = [por_id[k] for k in TABELAS_CLASS[e.temporada] if k in por_id]
+        if partes:
+            vistos = set()
+            pub = {**partes[0], "fonte": "+".join(f"{x['fonte']}:{x['t'].linha}" for x in partes),
+                   "linhas": [r for x in partes for r in x["linhas"] if not (r["clube"] in vistos or vistos.add(r["clube"]))]}
     if e.sem_jogos:   # sem jogos: a tabela final da RSSSF é a classificação
         pub = next((tb for tb in p["tabelas"] if tb.get("sem_conferencia")), None)
     linhas = []
@@ -125,6 +190,11 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
                            "pts": r["pts"], "ajuste": r["pts"] - pts_calc,
                            "obs": r.get("obs", ""), "fonte": f"RSSSF ({pub['fonte']})"})
         # a ordem publicada vale; empates sem número herdam a posição de cima
+        for c in sorted(set(clubes) - {r["clube"] for r in linhas},   # clubes de outras fases (1968: fora do Nacional)
+                        key=lambda c: (-nivel[c], -(calc.get(c, [0] * 6)[1] * pv + calc.get(c, [0] * 6)[2]), c)):
+            x = calc.get(c, [0] * 6)
+            linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5], "pts": x[1] * pv + x[2],
+                           "ajuste": 0, "obs": "", "fonte": "calculada (fora da tabela publicada usada)"})
     else:
         for c in clubes:
             x = calc.get(c, [0] * 6)
@@ -135,9 +205,29 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
         c = next(r for r in linhas if r["clube"] == campeao)
         linhas.remove(c)
         linhas.insert(0, c)
+    if not e.sem_jogos:   # CH-025: clube da tabela sem jogo na edição (2008 Clausura, Deportes Concepção) fica de fora
+        linhas = [r for r in linhas if r["j"] or r["clube"] == campeao]
+    # vice da lista oficial (Wikipédia em inglês) logo abaixo do campeão (CH-002 a CH-008)
+    vice = clube(VICES[e.temporada], e.ano_inicio) if VICES.get(e.temporada) and campeao else None
+    if vice and len(linhas) > 2 and linhas[1]["clube"] != vice and any(r["clube"] == vice for r in linhas[2:]):
+        v = next(r for r in linhas if r["clube"] == vice)
+        linhas.remove(v)
+        linhas.insert(1, v)
     for k, r in enumerate(linhas, 1):
         r["pos"] = k
     return linhas
+
+
+VICES: dict[str, str] = {}
+# CH-001, CH-003, CH-004, CH-005, CH-007, CH-009, CH-015, CH-016, CH-019: a classificação é a tabela publicada (bônus,
+# punições, desempates fora da liga, jogos que a página não fecha); 1954 e 1955: tabela acumulada do grupo final (1º-8º)
+# e do grupo do rebaixamento (9º-14º); 1968: a do Nacional (os clubes de fora vêm depois)
+TABELAS_CLASS = {
+    "1947": ["chile47:40"], "1954": ["chile54:356", "chile54:412"], "1955": ["chile55:356", "chile55:412"],
+    "1968": ["chile68:505"], "1971": ["chile71:16"], "1977": ["chile77:16"], "1979": ["chile79:220"], "1981": ["chile81:240"],
+    "1982": ["chile82:255"], "1983": ["chile83:515"], "1985": ["chilehist:1348"], "1990": ["chilehist:1476"],
+    "1997 Apertura": ["chile97:20"], "2011 Apertura": ["chile2011:34"],
+}
 
 
 def situacao(r: dict, campeao: str | None, k: int) -> str:
@@ -145,7 +235,7 @@ def situacao(r: dict, campeao: str | None, k: int) -> str:
         return "campeao"
     if k == 2:
         return "vice"
-    if re.search(r"relegat|descend|rebaix", r.get("obs", ""), re.I):
+    if re.search(r"\brelegated\b|descend|rebaix", r.get("obs", ""), re.I):   # CH-010: "Relegation group/playoff" não é queda
         return "rebaixado"
     return ""
 
@@ -281,6 +371,7 @@ def gravar(eds: list[dict]) -> None:
                 data = data or loc.date().isoformat()
                 estadio = ge.get("estadio") or estadio
                 cidade = ge.get("cidade") or cidade
+                cidade = "La Serena" if cidade == "Estadio La Portada" else cidade   # CH-024: a ESPN põe o estádio no lugar da cidade
                 publico = publico or (ge.get("publico") or None)
                 gl, ct = outras_fontes.lances_espn(ge)
                 if gm is not None and esp == "" and sum(1 for g in gl if g["lado"] == "home") == gm and                         sum(1 for g in gl if g["lado"] == "away") == gv and all(g["jogador"] for g in gl):
@@ -503,6 +594,8 @@ if __name__ == "__main__":
     cps = campeoes()
     from campeoes_wiki import campeoes as campeoes_wiki
     WIKI.update(campeoes_wiki())
+    from campeoes_wiki import vices
+    VICES.update(vices())
     TOPS.update(artilheiros_rsssf())
     eds = []
     for e in EDICOES:

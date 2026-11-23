@@ -26,8 +26,8 @@ PASTA = PASTA_DADOS / "rsssf"
 FASES = [
     # campeonatos em duas fases: grupo do título e grupo do rebaixamento depois da fase de todos contra todos
     (r"^(Relegation (Group|Round|Liguilla)|Liguilla (de |del |por el )?Descenso|Grupo de Descenso)", "Grupo do rebaixamento"),
-    (r"^(Second Stage|Second Phase)", "Segunda fase"),
-    (r"^(Third Stage|Third Phase)", "Terceira fase"),
+    (r"^(Second Stage|Second Phase)\b", "Segunda fase"),
+    (r"^(Third Stage|Third Phase)\b", "Terceira fase"),
     (r"^(Championship (Group|Round|Liguilla)|Liguilla (Final|del Campe[oó]n|de Campeonato|por el T[ií]tulo)|"
      r"Final (Group|Round|Stage|Phase)|Hexagonal|Octagonal|Cuadrangular)", "Fase final"),
     (r"^(First Stage|First Phase|Regular (Season|Stage))", ""),
@@ -37,6 +37,9 @@ FASES = [
     (r"^(Semi[- ]?finals?|Championship Semifinals?)\b", "Semifinal"),
     (r"^(Final(?!\s*(Table|Tournament|Group|Standing|phase|stage|de la Liga))|Championship Final|Final de la Liga|Third and Final Match)",
      "Final"),
+    # CH-009 e CH-016: desempate do título (1997 Ap, 2013/14 Ap) e do rebaixamento (1971, 1977)
+    (r"^(Playoff for (Apertura |Clausura )?Championship|(Apertura|Clausura) Championship Playoff)", "Desempate do título"),
+    (r"^Playoff against (direct )?relegation", "Desempate do rebaixamento"),
     (r"^((Apertura|Intermedio|Clausura) Playoff|Championship Playoff|Playoff:?\s*$|Playoff \[|First Playoff|Desempate)",
      "Desempate do título"),
     (r"^(Second place playoffs?|Second Place Playoff)", "Desempate do 2º lugar"),
@@ -50,7 +53,7 @@ INICIO = r"(?i)^(First Division\.?\s*)?Campeonato Oficial"
 
 # Apertura e Clausura são edições no Chile: sem torneio do ano dentro da edição
 TORNEIOS: list[tuple[str, str]] = []
-FECHA = r"^$"   # nunca casa
+FECHA = r"^\b$"   # nunca casa
 
 
 # páginas de colunas fixas: (início da coluna do visitante, início da coluna do placar)
@@ -68,11 +71,31 @@ def linhas(pagina: str) -> tuple[str, ...]:
         for k, l in enumerate(ls):
             if len(l) > b and re.search(r"\s\d{1,2}-\d{1,2}\s*$", l) and l[a - 1] == " " and l[a] != " " and not rsssf_sul.linha_tabela(l):
                 ls[k] = f"{l[:a].rstrip()}  {l[a:b].rstrip()}  {l[b:].strip()}"
+    if pagina in COM_BONUS:
+        ls = [_bonus(l) for l in ls]
     for (pg, n), (antes, depois, _motivo) in CONSERTA_TEXTO.items():
         if pg == pagina:
             assert antes in ls[n], f"{pagina}:{n} mudou: {ls[n]!r}"
             ls[n] = ls[n].replace(antes, depois)
     return tuple(ls)
+
+
+# CH-001: tabelas com a coluna de bônus (Copa Polla Gol, pênaltis) antes dos pontos ("63-22  2  48") ou antes dos gols
+# ("6  3  1  2  1  12- 6  9"): o leitor comum tomava o bônus por pontos ou por gols. O bônus vai para uma nota no fim
+# da linha ("[bônus 2]"); os pontos da tabela já o incluem (e a classificação leva a diferença como ajuste)
+COM_BONUS = {"chile79", "chile80", "chile81", "chile82", "chile83", "chile88", "chile89"}
+_COL_A = re.compile(r"^(\s*\d+\..*?\s)(\d+)(\s+)(\d+)(\s+)(\d+)(\s+)(\d+)(\s+)(\d+-\s*\d+)\s+(\d{1,2})\s+(\d{1,3})(?=\s|$)(.*)$")
+_COL_B = re.compile(r"^(\s*\d+\..*?\s)(\d+)(\s+)(\d+)(\s+)(\d+)(\s+)(\d+)\s+(\d{1,2})\s+(\d+-\s*\d+)\s+(\d{1,3})(?=\s|$)(.*)$")
+
+
+def _bonus(l: str) -> str:
+    for rx in (_COL_A, _COL_B):
+        if (m := rx.match(l)) and int(m.group(4)) + int(m.group(6)) + int(m.group(8)) == int(m.group(2)):
+            g = m.groups()
+            gols, bonus, pts = (g[9], g[10], g[11]) if rx is _COL_A else (g[9], g[8], g[10])
+            if int(pts) >= int(bonus):
+                return f"{''.join(g[:8])}  {gols}  {pts}{g[-1]} [bônus {bonus}]"
+    return l
 
 
 def fim_padrao(ls: tuple[str, ...], ini: int) -> int:

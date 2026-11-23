@@ -20,23 +20,23 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 | 1936 | 6 | 30 (30) | 157 | 0 | 1 / 0 | Audax Italiano | RSSSF (chile36) |
 | 1937 | 7 | 42 (42) | 196 | 0 | 1 / 1 | Colo Colo | RSSSF (chile37) |
 | 1938 | 7 | 42 (42) | 250 | 0 | 1 / 0 | Magallanes | RSSSF (chile38) |
-| 1939 | 10 | 109 (109) | 583 | 0 | 1 / 0 | Colo Colo | RSSSF (chile39) |
+| 1939 | 10 | 109 (173) | 583 | 0 | 4 / 0 | Colo Colo | RSSSF (chile39) |
 | 1940 | 10 | 90 (90) | 417 | 0 | 1 / 0 | Universidad de Chile | RSSSF (chile40) |
 | 1941 | 10 | 90 (88) | 409 | 0 | 1 / 1 | Colo Colo | RSSSF (chile41) |
 | 1942 | 10 | 90 (90) | 349 | 0 | 1 / 0 | Santiago Morning | RSSSF (chile42) |
-| 1943 | 10 | 90 (90) | 387 | 0 | 0 / 1 | Unión Española | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1944 | 12 | 132 (132) | 572 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1945 | 12 | 132 (132) | 534 | 0 | 1 / 0 | Deportes Temuco | RSSSF (chile45) |
+| 1943 | 10 | 90 (90) | 387 | 0 | 1 / 0 | Unión Española | RSSSF (chile43) |
+| 1944 | 12 | 132 (132) | 572 | 0 | 1 / 0 | Colo Colo | RSSSF (chile44) |
+| 1945 | 12 | 132 (132) | 534 | 0 | 1 / 0 | Green Cross de Santiago | RSSSF (chile45) |
 | 1946 | 13 | 192 (192) | 778 | 0 | 3 / 3 | Audax Italiano | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1947 | 13 | 156 (156) | 588 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1947 | 13 | 156 (156) | 588 | 0 | 0 / 1 | Colo Colo | RSSSF (chile47:40) |
 | 1948 | 13 | 156 (156) | 638 | 0 | 0 / 1 | Audax Italiano | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1949 | 12 | 132 (132) | 510 | 0 | 1 / 0 | Universidad Católica | RSSSF (chile49) |
 | 1950 | 12 | 133 (133) | 551 | 0 | 1 / 0 | Everton de Viña del Mar | RSSSF (chile50) |
 | 1951 | 12 | 163 (163) | 633 | 0 | 2 / 4 | Unión Española | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1952 | 12 | 198 (198) | 763 | 0 | 1 / 0 | Everton de Viña del Mar | RSSSF (chile52) |
 | 1953 | 14 | 182 (182) | 697 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1954 | 14 | 225 (225) | 849 | 0 | 5 / 0 | Universidad Católica | RSSSF (chile54) |
-| 1955 | 14 | 225 (225) | 815 | 0 | 5 / 0 | Palestino | RSSSF (chile55) |
+| 1954 | 14 | 225 (225) | 849 | 0 | 5 / 0 | Universidad Católica | RSSSF (chile54:356+chile54:412) |
+| 1955 | 14 | 225 (225) | 815 | 0 | 5 / 0 | Palestino | RSSSF (chile55:356+chile55:412) |
 | 1956 | 14 | 182 (182) | 586 | 0 | 1 / 0 | Colo Colo | RSSSF (chile56) |
 | 1957 | 14 | 185 (185) | 671 | 0 | 2 / 0 | Audax Italiano | RSSSF (chile57) |
 | 1958 | 14 | 182 (182) | 646 | 0 | 1 / 0 | Santiago Wanderers | RSSSF (chile58) |
@@ -49,36 +49,36 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 | 1965 | 18 | 306 (306) | 1027 | 0 | 0 / 1 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1966 | 18 | 306 (306) | 933 | 0 | 1 / 0 | Universidad Católica | RSSSF (chile66) |
 | 1967 | 18 | 306 (306) | 943 | 0 | 1 / 0 | Universidad de Chile | RSSSF (chile67) |
-| 1968 | 18 | 324 (324) | 1015 | 0 | 8 / 1 | Santiago Wanderers | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1968 | 18 | 324 (324) | 1015 | 0 | 8 / 1 | Santiago Wanderers | RSSSF (chile68:505) |
 | 1969 | 18 | 325 (325) | 990 | 0 | 5 / 1 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1970 | 18 | 339 (339) | 965 | 0 | 5 / 3 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1971 | 18 | 307 (306) | 853 | 0 | 0 / 1 | Unión San Felipe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1972 | 18 | 306 (306) | 874 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1971 | 18 | 307 (307) | 853 | 0 | 1 / 0 | Unión San Felipe | RSSSF (chile71:16) |
+| 1972 | 18 | 306 (306) | 874 | 0 | 1 / 0 | Colo Colo | RSSSF (chile72) |
 | 1973 | 18 | 306 (306) | 853 | 0 | 0 / 1 | Unión Española | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1974 | 18 | 306 (306) | 962 | 0 | 1 / 0 | Huachipato | RSSSF (chile74) |
 | 1975 | 18 | 307 (307) | 933 | 0 | 1 / 0 | Unión Española | RSSSF (chile75) |
 | 1976 | 18 | 308 (308) | 965 | 0 | 0 / 1 | Everton de Viña del Mar | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1977 | 18 | 307 (306) | 857 | 0 | 0 / 1 | Unión Española | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1977 | 18 | 307 (307) | 857 | 0 | 0 / 1 | Unión Española | RSSSF (chile77:16) |
 | 1978 | 18 | 306 (306) | 857 | 0 | 1 / 0 | Palestino | RSSSF (chile78) |
-| 1979 | 18 | 306 (306) | 835 | 0 | 0 / 2 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1979 | 18 | 306 (306) | 835 | 0 | 0 / 1 | Colo Colo | RSSSF (chile79:220) |
 | 1980 | 18 | 306 (306) | 783 | 0 | 3 / 0 | Cobreloa | RSSSF (chilehist) |
-| 1981 | 16 | 240 (240) | 663 | 0 | 2 / 0 | Colo Colo | RSSSF (chile81) |
-| 1982 | 16 | 240 (240) | 688 | 0 | 0 / 2 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1983 | 22 | 462 (462) | 1294 | 0 | 2 / 0 | Colo Colo | RSSSF (chile83) |
+| 1981 | 16 | 240 (240) | 663 | 0 | 1 / 0 | Colo Colo | RSSSF (chile81:240) |
+| 1982 | 16 | 240 (240) | 688 | 0 | 0 / 1 | Cobreloa | RSSSF (chile82:255) |
+| 1983 | 22 | 462 (462) | 1294 | 0 | 1 / 0 | Colo Colo | RSSSF (chile83:515) |
 | 1984 | 26 | 319 (319) | 785 | 0 | 0 / 0 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1985 | 20 | 380 (380) | 955 | 0 | 0 / 1 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1985 | 20 | 380 (380) | 955 | 0 | 0 / 1 | Cobreloa | RSSSF (chilehist:1348) |
 | 1986 | 18 | 307 (307) | 768 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1987 | 16 | 240 (240) | 579 | 0 | 0 / 1 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1988 | 16 | 240 (240) | 599 | 0 | 0 / 1 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 16 | 240 (240) | 604 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1990 | 16 | 240 (240) | 685 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1991 | 16 | 240 (240) | 657 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1990 | 16 | 240 (240) | 686 | 0 | 0 / 1 | Colo Colo | RSSSF (chilehist:1476) |
+| 1991 | 16 | 240 (240) | 658 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1992 | 16 | 240 (240) | 684 | 0 | 1 / 0 | Cobreloa | RSSSF (chilehist) |
-| 1993 | 16 | 240 (240) | 589 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1994 | 16 | 240 (240) | 727 | 0 | 0 / 1 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1995 | 16 | 240 (240) | 719 | 0 | 0 / 1 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1993 | 16 | 240 (240) | 588 | 0 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1994 | 16 | 240 (240) | 727 | 0 | 1 / 0 | Universidad de Chile | RSSSF (chilehist) |
+| 1995 | 16 | 240 (240) | 718 | 0 | 1 / 0 | Universidad de Chile | RSSSF (chilehist) |
 | 1996 | 16 | 240 (240) | 769 | 0 | 1 / 0 | Colo Colo | RSSSF (chile96) |
-| 1997 Apertura | 16 | 122 (120) | 362 | 0 | 0 / 1 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1997 Apertura | 16 | 122 (122) | 362 | 0 | 1 / 0 | Universidad Católica | RSSSF (chile97:20) |
 | 1997 Clausura | 16 | 120 (120) | 338 | 0 | 1 / 0 | Colo Colo | RSSSF (chile97) |
 | 1998 | 16 | 240 (240) | 695 | 0 | 1 / 0 | Colo Colo | RSSSF (chile98) |
 | 1999 | 16 | 352 (352) | 1127 | 0 | 1 / 2 | Universidad de Chile | RSSSF (chile99) |
@@ -101,23 +101,23 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 | 2009 Apertura | 18 | 155 (155) | 466 | 466 | 1 / 0 | Universidad de Chile | RSSSF (chile09) |
 | 2009 Clausura | 18 | 168 (167) | 467 | 461 | 1 / 0 | Colo Colo | RSSSF (chile09) |
 | 2010 | 18 | 307 (306) | 901 | 872 | 1 / 0 | Universidad Católica | RSSSF (chile2010) |
-| 2011 Apertura | 18 | 167 (167) | 493 | 489 | 0 / 1 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2011 Apertura | 18 | 167 (167) | 492 | 491 | 1 / 0 | Universidad de Chile | RSSSF (chile2011:34) |
 | 2011 Clausura | 18 | 167 (167) | 499 | 499 | 1 / 0 | Universidad de Chile | RSSSF (chile2011) |
 | 2012 Apertura | 18 | 167 (167) | 475 | 464 | 1 / 0 | Universidad de Chile | RSSSF (chile2012) |
 | 2012 Clausura | 18 | 167 (167) | 467 | 463 | 0 / 1 | Huachipato | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2013 Transición | 18 | 153 (153) | 463 | 456 | 1 / 0 | Unión Española | RSSSF (chile2013) |
-| 2013/14 Apertura | 18 | 154 (153) | 395 | 388 | 0 / 1 | O'Higgins | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2013/14 Apertura | 18 | 154 (154) | 395 | 388 | 1 / 0 | O'Higgins | RSSSF (chile2014) |
 | 2013/14 Clausura | 18 | 153 (153) | 428 | 184 | 1 / 0 | Colo Colo | RSSSF (chile2014) |
 | 2014/15 Apertura | 18 | 153 (153) | 425 | 316 | 1 / 0 | Universidad de Chile | RSSSF (chile2015) |
 | 2014/15 Clausura | 18 | 153 (153) | 469 | 434 | 1 / 0 | Cobresal | RSSSF (chile2015) |
-| 2015/16 Apertura | 16 | 126 (126) | 364 | 341 | 1 / 0 | Colo Colo | RSSSF (chile2016) |
-| 2015/16 Clausura | 16 | 126 (126) | 362 | 357 | 1 / 0 | Universidad Católica | RSSSF (chile2016) |
-| 2016/17 Apertura | 16 | 121 (120) | 349 | 347 | 0 / 1 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2015/16 Apertura | 16 | 120 (120) | 347 | 341 | 1 / 0 | Colo Colo | RSSSF (chile2016) |
+| 2015/16 Clausura | 16 | 120 (120) | 356 | 352 | 1 / 0 | Universidad Católica | RSSSF (chile2016) |
+| 2016/17 Apertura | 16 | 120 (120) | 347 | 347 | 1 / 0 | Universidad Católica | RSSSF (chile2017) |
 | 2016/17 Clausura | 16 | 120 (120) | 329 | 329 | 1 / 0 | Universidad de Chile | RSSSF (chile2017) |
-| 2017 Transición | 16 | 122 (120) | 280 | 276 | 0 / 1 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2017 Transición | 16 | 120 (120) | 276 | 272 | 1 / 0 | Colo Colo | RSSSF (chile2017a) |
 | 2018 | 16 | 240 (240) | 621 | 621 | 1 / 0 | Universidad Católica | RSSSF (chile2018) |
 | 2019 | 16 | 195 (194) | 514 | 512 | 1 / 0 | Universidad Católica | RSSSF (chile2019) |
-| 2020 | 18 | 308 (307) | 791 | 11 | 1 / 0 | Universidad Católica | RSSSF (chile2020) |
+| 2020 | 18 | 308 (307) | 791 | 687 | 1 / 0 | Universidad Católica | RSSSF (chile2020) |
 | 2021 | 17 | 272 (272) | 683 | 679 | 1 / 0 | Universidad Católica | RSSSF (chile2021) |
 | 2022 | 16 | 240 (240) | 616 | 613 | 1 / 0 | Colo Colo | RSSSF (chile2022) |
 | 2023 | 16 | 241 (240) | 654 | 640 | 1 / 0 | Huachipato | RSSSF (chile2023) |
@@ -172,38 +172,34 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 - ogol: 90 jogos casados (edição 37104 do ogol, 90 jogos)
 - tabela publicada x jogos — chilehist:143: Santiago National tabela [18, 6, 4, 8, 36, 48] jogos [18, 5, 4, 9, 36, 48] — a outra tabela publicada (chile41) fecha com os jogos: o erro é desta tabela
-- placar diferente no ogol — Deportes Temuco x Universidad Católica (None): RSSSF 2-3, ogol 1-2; fica o da RSSSF
+- placar diferente no ogol — Green Cross de Santiago x Universidad Católica (None): RSSSF 2-3, ogol 1-2; fica o da RSSSF
 - placar diferente no ogol — Universidad de Chile x Universidad Católica (None): RSSSF 1-2, ogol 2-1; fica o da RSSSF
 - placar diferente no ogol — Universidad Católica x Universidad de Chile (None): RSSSF 2-3, ogol 0-3; fica o da RSSSF
-- não jogado — Deportes Temuco Unión Española (s/d)
+- não jogado — Green Cross de Santiago Unión Española (s/d)
 - não jogado — Badminton Colo Colo (s/d)
 
 ### 1942
 
 - ogol: 90 jogos casados (edição 37103 do ogol, 90 jogos)
 - placar diferente no ogol — Magallanes x Colo Colo (None): RSSSF 1-1, ogol 2-0; fica o da RSSSF
-- placar diferente no ogol — Deportes Temuco x Badminton (None): RSSSF 3-2, ogol 4-2; fica o da RSSSF
+- placar diferente no ogol — Green Cross de Santiago x Badminton (None): RSSSF 3-2, ogol 4-2; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Magallanes (None): RSSSF 0-2, ogol 1-1; fica o da RSSSF
 - decidido fora de campo — Santiago National Colo Colo (s/d): awarded 0-1, originally 2-1
 
 ### 1943
 
-- ogol: 88 jogos casados (edição 37102 do ogol, 90 jogos)
-- tabela publicada x jogos — chile43:58: Santiago Morning tabela [18, 7, 3, 8, 45, 51] jogos [19, 8, 3, 8, 49, 54] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile43:58: Badminton tabela [18, 6, 4, 8, 36, 39] jogos [17, 5, 4, 8, 32, 36] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- ogol: 90 jogos casados (edição 37102 do ogol, 90 jogos)
 
 ### 1944
 
-- ogol: 129 jogos casados (edição 37101 do ogol, 132 jogos)
-- tabela publicada x jogos — chile44:52: Santiago Morning tabela [22, 11, 7, 4, 54, 42] jogos [23, 12, 7, 4, 56, 42] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile44:52: Universidad Católica tabela [22, 11, 5, 6, 55, 46] jogos [21, 10, 5, 6, 53, 46] — faltam 1 jogo(s) do clube na página
-- placar diferente no ogol — Santiago Wanderers x Deportes Temuco (None): RSSSF 3-2, ogol 2-2; fica o da RSSSF
+- ogol: 131 jogos casados (edição 37101 do ogol, 132 jogos)
+- placar diferente no ogol — Santiago Wanderers x Green Cross de Santiago (None): RSSSF 3-2, ogol 2-2; fica o da RSSSF
 - placar diferente no ogol — Everton de Viña del Mar x Colo Colo (None): RSSSF 0-3, ogol 1-1; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Universidad Católica (None): RSSSF 1-2, ogol 6-2; fica o da RSSSF
 - placar diferente no ogol — Everton de Viña del Mar x Santiago National (None): RSSSF 2-1, ogol 0-3; fica o da RSSSF
 - placar diferente no ogol — Unión Española x Santiago Wanderers (None): RSSSF 2-1, ogol 2-2; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Audax Italiano (None): RSSSF 0-3, ogol 3-3; fica o da RSSSF
-- placar diferente no ogol — Deportes Temuco x Santiago Wanderers (None): RSSSF 2-2, ogol 2-3; fica o da RSSSF
+- placar diferente no ogol — Green Cross de Santiago x Santiago Wanderers (None): RSSSF 2-2, ogol 2-3; fica o da RSSSF
 - placar diferente no ogol — Universidad Católica x Santiago Wanderers (None): RSSSF 2-6, ogol 2-1; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Unión Española (None): RSSSF 2-2, ogol 1-2; fica o da RSSSF
 - placar diferente no ogol — Audax Italiano x Santiago Wanderers (None): RSSSF 3-3, ogol 3-0; fica o da RSSSF
@@ -242,7 +238,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 - placar diferente no ogol — Everton de Viña del Mar x Colo Colo (None): RSSSF 1-2, ogol 2-0; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Unión Española (None): RSSSF 2-5, ogol 2-0; fica o da RSSSF
 - placar diferente no ogol — Santiago National x Colo Colo (None): RSSSF 1-5, ogol 2-2; fica o da RSSSF
-- placar diferente no ogol — Deportes Temuco x Santiago Wanderers (None): RSSSF 2-2, ogol 4-3; fica o da RSSSF
+- placar diferente no ogol — Green Cross de Santiago x Santiago Wanderers (None): RSSSF 2-2, ogol 4-3; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Universidad de Chile (None): RSSSF 2-2, ogol 2-0; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Santiago Morning (None): RSSSF 1-5, ogol 0-1; fica o da RSSSF
 - placar diferente no ogol — Badminton x Santiago Wanderers (None): RSSSF 0-1, ogol 2-5; fica o da RSSSF
@@ -255,7 +251,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 - ogol: 132 jogos casados (edição 37098 do ogol, 156 jogos)
 - tabela publicada x jogos — chile47:40: Universidad Católica tabela [24, 9, 8, 7, 47, 39] jogos [24, 9, 8, 7, 45, 39] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chile47:40: Deportes Temuco tabela [24, 10, 3, 11, 45, 51] jogos [24, 10, 3, 11, 45, 49] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — chile47:40: Green Cross de Santiago tabela [24, 10, 3, 11, 45, 51] jogos [24, 10, 3, 11, 45, 49] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - placar diferente no ogol — Santiago Wanderers x Unión Española (None): RSSSF 1-4, ogol 3-1; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Santiago National (None): RSSSF 4-1, ogol 1-0; fica o da RSSSF
 - placar diferente no ogol — Badminton x Colo Colo (None): RSSSF 1-1, ogol 2-4; fica o da RSSSF
@@ -290,12 +286,12 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 - ogol: 110 jogos casados (edição 37096 do ogol, 132 jogos)
 - placar diferente no ogol — Magallanes x Santiago Wanderers (None): RSSSF 0-2, ogol 3-1; fica o da RSSSF
-- placar diferente no ogol — Deportes Temuco x Santiago Wanderers (None): RSSSF 0-2, ogol 0-4; fica o da RSSSF
+- placar diferente no ogol — Green Cross de Santiago x Santiago Wanderers (None): RSSSF 0-2, ogol 0-4; fica o da RSSSF
 - placar diferente no ogol — Universidad Católica x Santiago Wanderers (None): RSSSF 0-0, ogol 2-0; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Colo Colo (None): RSSSF 1-1, ogol 2-1; fica o da RSSSF
 - placar diferente no ogol — Santiago Morning x Santiago Wanderers (None): RSSSF 3-3, ogol 1-3; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Magallanes (None): RSSSF 1-3, ogol 2-0; fica o da RSSSF
-- placar diferente no ogol — Santiago Wanderers x Deportes Temuco (None): RSSSF 4-0, ogol 2-0; fica o da RSSSF
+- placar diferente no ogol — Santiago Wanderers x Green Cross de Santiago (None): RSSSF 4-0, ogol 2-0; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Universidad Católica (None): RSSSF 0-2, ogol 0-0; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Santiago Wanderers (None): RSSSF 1-2, ogol 1-1; fica o da RSSSF
 - placar diferente no ogol — Santiago Wanderers x Santiago Morning (None): RSSSF 3-1, ogol 3-3; fica o da RSSSF
@@ -333,9 +329,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 1953
 
-- tabela publicada x jogos — chile53:16: Deportes Temuco tabela [26, 11, 5, 10, 49, 49] jogos [26, 10, 7, 9, 49, 49] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chile53:16: Unión Española tabela [26, 7, 5, 14, 34, 54] jogos [25, 7, 4, 14, 33, 53] — faltam 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile53:16: Magallanes tabela [26, 5, 5, 16, 43, 66] jogos [27, 5, 6, 16, 44, 67] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — chile53:16: Green Cross de Santiago tabela [26, 11, 5, 10, 49, 49] jogos [26, 10, 7, 9, 49, 49] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1954
 
@@ -356,7 +350,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 1958
 
 - ogol: 182 jogos casados (edição 37087 do ogol, 182 jogos)
-- placar diferente no ogol — Everton de Viña del Mar x Deportes Temuco (None): RSSSF 2-1, ogol 3-1; fica o da RSSSF
+- placar diferente no ogol — Everton de Viña del Mar x Green Cross de Santiago (None): RSSSF 2-1, ogol 3-1; fica o da RSSSF
 - placar diferente no ogol — Deportes La Serena x Colo Colo (None): RSSSF 2-4, ogol 3-1; fica o da RSSSF
 - placar diferente no ogol — Palestino x Colo Colo (None): RSSSF 2-2, ogol 1-1; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Deportes La Serena (None): RSSSF 1-3, ogol 4-2; fica o da RSSSF
@@ -522,8 +516,6 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 1971
 
 - ogol: 150 jogos casados (edição 37080 do ogol, 150 jogos)
-- tabela publicada x jogos — chile71:16: Lota Schwager tabela [34, 9, 8, 17, 42, 52] jogos [35, 10, 8, 17, 44, 53] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile71:16: Audax Italiano tabela [34, 7, 12, 15, 33, 54] jogos [35, 7, 12, 16, 34, 56] — sobram 1 jogo(s) do clube na página
 - placar diferente no ogol — Unión Española x Universidad Católica (None): RSSSF 2-1, ogol 4-1; fica o da RSSSF
 - placar diferente no ogol — Magallanes x Unión Española (None): RSSSF 1-2, ogol 2-1; fica o da RSSSF
 - placar diferente no ogol — Universidad de Chile x Magallanes (None): RSSSF 3-0, ogol 1-0; fica o da RSSSF
@@ -533,11 +525,10 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 1972
 
-- ogol: 300 jogos casados (edição 37079 do ogol, 306 jogos)
-- tabela publicada x jogos — chile72:16: Unión Española tabela [34, 20, 9, 5, 48, 20] jogos [33, 19, 9, 5, 46, 20] — faltam 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile72:16: Universidad Católica tabela [34, 14, 11, 9, 42, 41] jogos [35, 15, 11, 9, 44, 41] — sobram 1 jogo(s) do clube na página
+- ogol: 302 jogos casados (edição 37079 do ogol, 306 jogos)
 - placar diferente no ogol — Naval de Talcahuano x Huachipato (None): RSSSF 1-1, ogol 2-2; fica o da RSSSF
 - placar diferente no ogol — Unión Española x Universidad de Chile (None): RSSSF 0-1, ogol 2-0; fica o da RSSSF
+- placar diferente no ogol — Universidad Católica x Unión San Felipe (None): RSSSF 1-1, ogol 2-1; fica o da RSSSF
 - placar diferente no ogol — Magallanes x Deportes Antofagasta (None): RSSSF 5-2, ogol 5-3; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Magallanes (None): RSSSF 5-0, ogol 5-1; fica o da RSSSF
 - placar diferente no ogol — Colo Colo x Unión Española (None): RSSSF 0-0, ogol 2-2; fica o da RSSSF
@@ -599,8 +590,8 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 - ogol: 149 jogos casados (edição 37074 do ogol, 150 jogos)
 - tabela publicada x jogos — chile77:16: Deportes Aviación tabela [34, 12, 10, 12, 46, 51] jogos [34, 12, 10, 12, 45, 51] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — chile77:16: Deportes Temuco tabela [34, 10, 10, 14, 46, 62] jogos [34, 9, 12, 13, 46, 62] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chile77:16: Deportes Ovalle tabela [34, 6, 15, 13, 42, 52] jogos [35, 9, 9, 17, 42, 52] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile77:16: Santiago Morning tabela [34, 9, 9, 16, 37, 50] jogos [35, 7, 15, 13, 38, 50] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — chile77:16: Deportes Ovalle tabela [34, 6, 15, 13, 42, 52] jogos [34, 9, 9, 16, 42, 51] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — chile77:16: Santiago Morning tabela [34, 9, 9, 16, 37, 50] jogos [34, 6, 15, 13, 37, 50] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1978
 
@@ -613,8 +604,6 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 - ogol: 301 jogos casados (edição 37072 do ogol, 307 jogos)
 - tabela publicada x jogos — chile79:220: Cobreloa tabela [34, 18, 8, 8, 61, 36] jogos [34, 18, 8, 8, 60, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — chile79:220: O'Higgins tabela [34, 18, 7, 9, 47, 40] jogos [34, 18, 7, 9, 46, 39] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1155: Cobreloa tabela [34, 18, 8, 8, 61, 36] jogos [34, 18, 8, 8, 60, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1155: O'Higgins tabela [34, 18, 7, 9, 47, 40] jogos [34, 18, 7, 9, 46, 39] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - placar diferente no ogol — Universidad Católica x Unión Española (None): RSSSF 1-1, ogol 0-1; fica o da RSSSF
 - placar diferente no ogol — O'Higgins x Cobreloa (None): RSSSF 2-1, ogol 3-2; fica o da RSSSF
 - placar diferente no ogol — Unión Española x Universidad Católica (None): RSSSF 1-0, ogol 1-1; fica o da RSSSF
@@ -637,11 +626,6 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 - tabela publicada x jogos — chile82:255: Regional Atacama tabela [30, 10, 8, 12, 36, 43] jogos [30, 10, 8, 12, 34, 41] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — chile82:255: Palestino tabela [30, 6, 12, 12, 30, 44] jogos [30, 6, 12, 12, 32, 46] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — chile82:255: Rangers de Talca tabela [30, 5, 5, 20, 25, 74] jogos [30, 5, 5, 20, 23, 72] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1240: Colo Colo tabela [30, 14, 11, 5, 41, 21] jogos [30, 14, 11, 5, 43, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1240: Universidad de Chile tabela [30, 15, 9, 6, 58, 38] jogos [30, 14, 10, 6, 58, 38] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1240: Regional Atacama tabela [30, 10, 8, 12, 36, 43] jogos [30, 10, 8, 12, 34, 41] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1240: Palestino tabela [30, 6, 12, 12, 30, 44] jogos [30, 6, 12, 12, 32, 46] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1240: Rangers de Talca tabela [30, 5, 5, 20, 25, 74] jogos [30, 5, 5, 20, 23, 72] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - placar diferente no ogol — Palestino x Colo Colo (None): RSSSF 2-2, ogol 0-0; fica o da RSSSF
 - placar diferente no ogol — Rangers de Talca x Regional Atacama (None): RSSSF 0-0, ogol 2-2; fica o da RSSSF
 
@@ -661,7 +645,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 - ogol: 380 jogos casados (edição 36434 do ogol, 380 jogos)
 - tabela publicada x jogos — chilehist:1348: Everton de Viña del Mar tabela [38, 19, 12, 7, 43, 33] jogos [38, 18, 13, 7, 43, 33] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1348: San Luis de Quillota tabela [38, 8, 12, 18, 30, 48] jogos [38, 9, 11, 18, 30, 48] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1348: Deportes Arica tabela [38, 7, 13, 18, 40, 58] jogos [38, 7, 14, 17, 40, 58] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — chilehist:1348: San Marcos de Arica tabela [38, 7, 13, 18, 40, 58] jogos [38, 7, 14, 17, 40, 58] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1348: O'Higgins tabela [38, 5, 11, 22, 40, 67] jogos [38, 5, 10, 23, 40, 67] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 
 ### 1986
@@ -682,13 +666,12 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 1988
 
 - a RSSSF só traz a tabela final: os jogos vêm do calendário do ogol
-- ogol: 238 jogos casados (edição 36433 do ogol, 240 jogos)
+- ogol: 239 jogos casados (edição 36433 do ogol, 240 jogos)
 - tabela publicada x jogos — chilehist:1428: Deportes Iquique tabela [30, 13, 8, 9, 46, 35] jogos [30, 13, 8, 9, 46, 34] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1428: Deportes Concepción tabela [30, 11, 7, 12, 30, 32] jogos [30, 11, 7, 12, 29, 32] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1428: Everton de Viña del Mar tabela [30, 10, 8, 12, 32, 39] jogos [30, 10, 8, 12, 31, 39] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1428: Naval de Talcahuano tabela [30, 9, 9, 12, 39, 45] jogos [30, 10, 8, 12, 40, 44] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — chilehist:1428: O'Higgins tabela [30, 10, 6, 14, 36, 43] jogos [30, 10, 5, 15, 35, 44] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — chilehist:1428: Unión Española tabela [30, 9, 8, 13, 34, 41] jogos [30, 9, 8, 13, 34, 40] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- corrigido — Naval de Talcahuano x O'Higgins (1988-08-28): o ogol repete O'Higgins 0-2 Naval; o jogo que falta é Naval 1-1 O'Higgins (CH-014)
 
 ### 1989
 
@@ -701,23 +684,19 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 - a RSSSF só traz a tabela final: os jogos vêm do calendário do ogol
 - ogol: 240 jogos casados (edição 37065 do ogol, 240 jogos)
-- tabela publicada x jogos — chilehist:1476: Universidad Católica tabela [30, 13, 11, 6, 64, 41] jogos [30, 13, 11, 6, 64, 40] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1476: Unión Española tabela [30, 13, 10, 7, 60, 37] jogos [30, 13, 10, 7, 59, 36] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1476: O'Higgins tabela [30, 15, 4, 11, 52, 45] jogos [30, 16, 3, 11, 53, 45] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1476: Palestino tabela [30, 12, 9, 9, 52, 45] jogos [30, 12, 9, 9, 53, 46] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1476: Deportes La Serena tabela [30, 9, 12, 9, 44, 41] jogos [30, 9, 12, 9, 43, 40] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1476: Cobresal tabela [30, 9, 11, 10, 34, 38] jogos [30, 9, 10, 11, 34, 39] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1476: Everton de Viña del Mar tabela [30, 7, 10, 13, 30, 42] jogos [30, 7, 10, 13, 29, 42] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1476: Huachipato tabela [30, 3, 15, 12, 24, 43] jogos [30, 3, 15, 12, 25, 44] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- corrigido — Universidad Católica x Everton de Viña del Mar (1990-07-22): Universidad Católica 2-1 Everton: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- corrigido — Unión Española x Deportes La Serena (1990-09-29): Unión Española 1-1 La Serena: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
+- corrigido — Huachipato x Palestino (1990-11-01): Huachipato 0-0 Palestino: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
 
 ### 1991
 
 - a RSSSF só traz a tabela final: os jogos vêm do calendário do ogol
 - ogol: 240 jogos casados (edição 37064 do ogol, 240 jogos)
 - tabela publicada x jogos — chilehist:1503: Colo Colo tabela [30, 18, 8, 4, 57, 25] jogos [30, 17, 8, 5, 56, 26] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1503: O'Higgins tabela [30, 15, 7, 8, 50, 33] jogos [30, 15, 7, 8, 50, 32] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1503: Fernández Vial tabela [30, 13, 6, 11, 28, 33] jogos [30, 14, 6, 10, 29, 32] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1503: Deportes Concepción tabela [30, 11, 9, 10, 43, 49] jogos [30, 11, 9, 10, 42, 49] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- corrigido — O'Higgins x Deportes Concepción (1991-11-28): O'Higgins 4-2 Deportes Concepción: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
 
 ### 1992
 
@@ -728,25 +707,22 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 - a RSSSF só traz a tabela final: os jogos vêm do calendário do ogol
 - ogol: 240 jogos casados (edição 37063 do ogol, 240 jogos)
-- tabela publicada x jogos — chilehist:1563: Unión Española tabela [30, 13, 9, 8, 49, 30] jogos [30, 13, 9, 8, 49, 31] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1563: Deportes La Serena tabela [30, 8, 11, 11, 23, 31] jogos [30, 8, 11, 11, 24, 32] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1563: Everton de Viña del Mar tabela [30, 8, 11, 11, 29, 41] jogos [30, 8, 11, 11, 30, 41] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1563: Provincial Osorno tabela [30, 9, 8, 13, 23, 33] jogos [30, 9, 8, 13, 24, 34] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — chilehist:1563: Palestino tabela [30, 10, 6, 14, 28, 42] jogos [30, 10, 6, 14, 27, 41] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- corrigido — Everton de Viña del Mar x Unión Española (1993-11-13): Everton 2-1 Unión Española: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
 
 ### 1994
 
 - a RSSSF só traz a tabela final: os jogos vêm do calendário do ogol
 - ogol: 240 jogos casados (edição 36404 do ogol, 240 jogos)
-- tabela publicada x jogos — chilehist:1618: Universidad de Chile tabela [30, 21, 7, 2, 71, 28] jogos [30, 22, 7, 1, 72, 27] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1618: Universidad Católica tabela [30, 21, 6, 3, 84, 26] jogos [30, 20, 6, 4, 83, 27] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- corrigido — Universidad Católica x Universidad de Chile (1994-08-21): Universidad Católica 1-0 Universidad de Chile: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
 
 ### 1995
 
 - a RSSSF só traz a tabela final: os jogos vêm do calendário do ogol
 - ogol: 240 jogos casados (edição 36405 do ogol, 240 jogos)
-- tabela publicada x jogos — chilehist:1661: Palestino tabela [30, 11, 5, 14, 45, 49] jogos [30, 11, 5, 14, 45, 50] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- tabela publicada x jogos — chilehist:1661: Deportes La Serena tabela [30, 7, 8, 15, 35, 60] jogos [30, 7, 8, 15, 36, 60] — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- corrigido — Palestino x Deportes La Serena (1995-06-11): Palestino 2-0 La Serena: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
 
 ### 1996
 
@@ -755,8 +731,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 1997 Apertura
 
-- tabela publicada x jogos — chile97:43: Universidad Católica tabela [15, 11, 4, 0, 36, 13] jogos [17, 12, 4, 1, 39, 14] — sobram 2 jogo(s) do clube na página
-- tabela publicada x jogos — chile97:43: Colo Colo tabela [15, 11, 4, 0, 27, 12] jogos [17, 12, 4, 1, 28, 15] — sobram 2 jogo(s) do clube na página
+- sem ocorrências
 
 ### 1997 Clausura
 
@@ -887,9 +862,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 2011 Apertura
 
 - ESPN: 167 jogos casados
-- tabela publicada x jogos — chile2011:34: Santiago Wanderers tabela [17, 5, 4, 8, 23, 31] jogos [17, 6, 4, 7, 26, 29] — a diferença vem de Ñublense x Santiago Wanderers (2011-01-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — chile2011:34: Ñublense tabela [17, 4, 2, 11, 17, 31] jogos [17, 3, 2, 12, 15, 34] — a diferença vem de Ñublense x Santiago Wanderers (2011-01-29), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- decidido fora de campo — Ñublense 2-0 Santiago Wanderers (2011-01-29): temporarily awarded 0-3 due to Nicolás Núñez 89, Lucas Concistre 90+1]     ineligible player; award revoked
+- corrigido — Ñublense x Santiago Wanderers (2011-01-29): Ñublense 2-0 Wanderers: a decisão do tribunal foi revogada ("award revoked") (CH-015)
 - decidido fora de campo — Colo Colo Cobresal (2011-01-30): awarded 0-3, originally 2-2, Colo Rodrigo Jara 45+3og, Esteban Paredes 86;    Colo have 1 point deducted for using
 
 ### 2011 Clausura
@@ -917,8 +890,6 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 2013/14 Apertura
 
 - ESPN: 153 jogos casados
-- tabela publicada x jogos — chile2014:28: Universidad Católica tabela [17, 12, 3, 2, 37, 13] jogos [18, 12, 3, 3, 37, 14] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile2014:28: O'Higgins tabela [17, 12, 3, 2, 28, 13] jogos [18, 13, 3, 2, 29, 13] — sobram 1 jogo(s) do clube na página
 - decidido fora de campo — Santiago Wanderers O'Higgins (2013-08-24): awarded 0-3, originally 2-2; Wanderers
 
 ### 2013/14 Clausura
@@ -941,13 +912,11 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 
 ### 2015/16 Clausura
 
-- ESPN: 124 jogos casados
+- ESPN: 120 jogos casados
 
 ### 2016/17 Apertura
 
-- ESPN: 121 jogos casados
-- tabela publicada x jogos — chile2017:28: Unión Española tabela [15, 8, 3, 4, 27, 20] jogos [16, 8, 4, 4, 28, 21] — sobram 1 jogo(s) do clube na página
-- tabela publicada x jogos — chile2017:28: O'Higgins tabela [15, 7, 5, 3, 23, 15] jogos [16, 7, 6, 3, 24, 16] — sobram 1 jogo(s) do clube na página
+- ESPN: 120 jogos casados
 
 ### 2016/17 Clausura
 
@@ -956,9 +925,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 2017 Transición
 
 - torneio de transição de volta ao calendário anual
-- ESPN: 122 jogos casados
-- tabela publicada x jogos — chile2017a:26: Unión Española tabela [15, 9, 4, 2, 18, 12] jogos [17, 9, 4, 4, 19, 15] — sobram 2 jogo(s) do clube na página
-- tabela publicada x jogos — chile2017a:26: Universidad de Concepción tabela [15, 3, 8, 4, 16, 15] jogos [17, 5, 8, 4, 19, 16] — sobram 2 jogo(s) do clube na página
+- ESPN: 120 jogos casados
 
 ### 2018
 
@@ -975,9 +942,9 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 2020
 
 - temporada esticada até fevereiro de 2021 pela pandemia (a RSSSF chama de 2020/21)
-- ogol: 3 jogos casados (edição 141527 do ogol, 307 jogos)
-- ESPN: 10 jogos casados
-- abandonado/suspenso, sem valer — Curicó Unido Universidad Católica (2021-10-15): abandoned at 2-0 in 50' due to power cut
+- ogol: 280 jogos casados (edição 141527 do ogol, 307 jogos)
+- ESPN: 280 jogos casados
+- abandonado/suspenso, sem valer — Curicó Unido Universidad Católica (2020-10-15): abandoned at 2-0 in 50' due to power cut
 
 ### 2021
 

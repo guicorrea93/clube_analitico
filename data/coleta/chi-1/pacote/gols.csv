@@ -9175,6 +9175,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2011-apertura-0003,Huachipato,Manuel Villalobos,71,,normal,ESPN
 2011-apertura-0004,Universidad de Chile,Edson Puch,12,,normal,ESPN
 2011-apertura-0004,Deportes La Serena,Diego Guidi,84,,normal,ESPN
+2011-apertura-0005,Ñublense,Nicolás Núñez,89,,normal,ESPN
+2011-apertura-0005,Ñublense,Lucas Consistre,90,,normal,ESPN
 2011-apertura-0007,Unión La Calera,Washington Torres,3,,contra,ESPN
 2011-apertura-0007,Santiago Morning,Ever Cantero,72,,normal,ESPN
 2011-apertura-0008,Cobreloa,Fernando Mendez,6,,normal,ESPN
@@ -13552,11 +13554,6 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-16-clausura-0120,Audax Italiano,Diego Vallejos,15,,normal,ESPN
 2015-16-clausura-0120,Universidad Católica,David Llanos,70,,normal,ESPN
 2015-16-clausura-0120,Universidad Católica,José Fuenzalida,85,,normal,ESPN
-2015-16-clausura-0122,O'Higgins,Bastian San Juan,17,,normal,ESPN
-2015-16-clausura-0122,O'Higgins,Albert Acevedo,39,,normal,ESPN
-2015-16-clausura-0122,O'Higgins,Cristian Insaurralde,50,,normal,ESPN
-2015-16-clausura-0122,Deportes Iquique,Manuel Villalobos,71,,normal,ESPN
-2015-16-clausura-0124,Deportes Iquique,Michael Ríos,82,,normal,ESPN
 2016-17-apertura-0001,O'Higgins,Pedro Muñoz,90,1,normal,ESPN
 2016-17-apertura-0002,Santiago Wanderers,Javier Parraguez,27,,normal,ESPN
 2016-17-apertura-0003,Universidad Católica,Enzo Kalinski,45,1,normal,ESPN
@@ -14505,10 +14502,6 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-transicion-0118,Universidad Católica,José Fuenzalida,89,,normal,ESPN
 2017-transicion-0118,Universidad Católica,Luciano Aued,90,3,penalti,ESPN
 2017-transicion-0119,Curicó Unido,Alfredo Ábalos,19,,normal,ESPN
-2017-transicion-0121,Universidad de Concepción,Santiago Gallucci,16,,contra,ESPN
-2017-transicion-0122,Universidad de Concepción,Jean Meneses,4,,normal,ESPN
-2017-transicion-0122,Unión Española,Hector Berríos,22,,contra,ESPN
-2017-transicion-0122,Universidad de Concepción,Hugo Droguett,72,,normal,ESPN
 2018-0001,Universidad Católica,Guillermo Hauche,3,,contra,ESPN
 2018-0001,Universidad Católica,Luciano Aued,51,,penalti,ESPN
 2018-0001,Deportes Temuco,Matías Dituro,56,,contra,ESPN
@@ -15642,6 +15635,61 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2019-0193,Unión Española,Carlos Palacios,62,,normal,ESPN
 2019-0193,Unión Española,Misael Dávila,77,,normal,ESPN
 2019-0193,Cobresal,Marcelo Cañete,90,1,normal,ESPN
+2020-0001,Universidad de Concepción,Simon Ramírez,27,,normal,ESPN
+2020-0001,Everton de Viña del Mar,Marcos Sebastián Pol,71,,penalti,ESPN
+2020-0001,Everton de Viña del Mar,Maximiliano Ceratto,90,3,normal,ESPN
+2020-0002,Unión La Calera,Nicolás Stefanelli,19,,penalti,ESPN
+2020-0002,O'Higgins,Ramón Fernández,53,,penalti,ESPN
+2020-0002,Unión La Calera,Cristián Vilches,59,,normal,ESPN
+2020-0003,Deportes Antofagasta,Eduard Bello,14,,normal,ESPN
+2020-0003,Deportes Antofagasta,Byron Nieto,42,,normal,ESPN
+2020-0003,Coquimbo Unido,Mathias Pinto,46,,normal,ESPN
+2020-0004,Cobresal,Marcelo Cañete,21,,penalti,ESPN
+2020-0004,Audax Italiano,Bryan Figueroa,24,,normal,ESPN
+2020-0004,Audax Italiano,Nicolás Orellana,61,,normal,ESPN
+2020-0004,Audax Italiano,Rodrigo Holgado,64,,normal,ESPN
+2020-0004,Audax Italiano,Pablo Lavandeira,72,,normal,ESPN
+2020-0005,Universidad Católica,Luciano Aued,37,,penalti,ESPN
+2020-0005,Universidad Católica,Gastón Lezcano,87,,normal,ESPN
+2020-0005,Universidad Católica,Fernando Zampedri,90,3,normal,ESPN
+2020-0006,Huachipato,Ignacio Tapia,49,,normal,ESPN
+2020-0006,Universidad de Chile,Joaquin Larrivey,75,,penalti,ESPN
+2020-0006,Huachipato,Joffre Escobar,90,4,normal,ESPN
+2020-0007,Deportes Iquique,Diego Orellana,18,,normal,ESPN
+2020-0007,Unión Española,Jonatan Mejía,52,,penalti,ESPN
+2020-0007,Deportes Iquique,Sebastián Zuñiga,61,,normal,ESPN
+2020-0007,Unión Española,Misael Dávila,89,,normal,ESPN
+2020-0007,Unión Española,Rafael Arace,90,6,normal,ESPN
+2020-0008,Curicó Unido,Federico Castro,35,,normal,ESPN
+2020-0009,Colo Colo,Marco Bolados,8,,normal,ESPN
+2020-0009,Colo Colo,Leonardo Valencia,82,,penalti,ESPN
+2020-0009,Colo Colo,Leonardo Valencia,89,,normal,ESPN
+2020-0010,Unión La Calera,Nicolás Stefanelli,45,1,penalti,ESPN
+2020-0011,Santiago Wanderers,Néstor Canelón,24,,normal,ESPN
+2020-0011,Santiago Wanderers,Gustavo Lanaro,90,5,normal,ESPN
+2020-0012,Palestino,Leandro Benegas,5,,normal,ESPN
+2020-0013,Universidad de Chile,Joaquin Larrivey,15,,normal,ESPN
+2020-0013,Universidad de Chile,Joaquin Larrivey,27,,normal,ESPN
+2020-0013,Curicó Unido,José Rojas,38,,normal,ESPN
+2020-0013,Universidad de Chile,Ángelo Henríquez,48,,normal,ESPN
+2020-0013,Universidad de Chile,Joaquin Larrivey,82,,normal,ESPN
+2020-0013,Universidad de Chile,Joaquin Larrivey,89,,normal,ESPN
+2020-0014,Colo Colo,Leonardo Valencia,66,,normal,ESPN
+2020-0014,Cobresal,Felipe Reynero,68,,normal,ESPN
+2020-0014,Cobresal,Felipe Reynero,90,2,normal,ESPN
+2020-0015,Universidad Católica,Edson Puch,14,,normal,ESPN
+2020-0015,O'Higgins,Roberto Gutiérrez,51,,normal,ESPN
+2020-0015,Universidad Católica,Benjamín Kuscevic,65,,normal,ESPN
+2020-0015,O'Higgins,Matías Meneses,81,,normal,ESPN
+2020-0015,Universidad Católica,Diego Valencia,90,2,normal,ESPN
+2020-0016,Deportes Iquique,Álvaro Ramos,24,,normal,ESPN
+2020-0016,Deportes Iquique,Álvaro Ramos,38,,penalti,ESPN
+2020-0016,Everton de Viña del Mar,Walter González,75,,normal,ESPN
+2020-0016,Everton de Viña del Mar,Patricio Rubio,88,,normal,ESPN
+2020-0017,Deportes Antofagasta,Branco Ampuero,21,,normal,ESPN
+2020-0036,Coquimbo Unido,Joe Abrigo,53,,normal,ESPN
+2020-0036,Huachipato,Cris Martínez,60,,normal,ESPN
+2020-0036,Huachipato,Juan Sánchez Sotelo,82,,penalti,ESPN
 2020-0047,Deportes Iquique,Sebastián Zuñiga,23,,normal,ESPN
 2020-0047,Cobresal,Juan Gaete,48,,normal,ESPN
 2020-0048,Colo Colo,Leonardo Valencia,20,,normal,ESPN
@@ -15650,9 +15698,630 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2020-0048,Universidad de Concepción,Cecilio Waterman,90,3,normal,ESPN
 2020-0049,Unión Española,Mario Sandoval,47,,normal,ESPN
 2020-0049,Unión Española,Harold Cummings,88,,normal,ESPN
-2020-0119,Unión Española,Patricio Rubio,11,,normal,ESPN
-2020-0119,Unión Española,Cristian Palacios,69,,normal,ESPN
-2020-0119,Curicó Unido,Yerko Leiva,90,2,penalti,ESPN
+2020-0050,Coquimbo Unido,Diego Aravena,14,,normal,ESPN
+2020-0050,Deportes La Serena,Franco Olego,54,,normal,ESPN
+2020-0050,Coquimbo Unido,Mauricio Pinilla,70,,normal,ESPN
+2020-0051,O'Higgins,Alejandro Márquez,5,,normal,ESPN
+2020-0051,Universidad de Chile,Matias Rodriguez,10,,normal,ESPN
+2020-0051,O'Higgins,Roberto Gutiérrez,36,,normal,ESPN
+2020-0051,Universidad de Chile,Matias Rodriguez,51,,normal,ESPN
+2020-0051,Universidad de Chile,Pablo Aránguiz,63,,normal,ESPN
+2020-0052,Deportes Antofagasta,Jorge Araya,3,,contra,ESPN
+2020-0052,Deportes Antofagasta,Ariel Uribe,22,,normal,ESPN
+2020-0052,Palestino,Leandro Benegas,53,,normal,ESPN
+2020-0052,Palestino,Agustín Farías,68,,penalti,ESPN
+2020-0053,Curicó Unido,Federico Castro,59,,normal,ESPN
+2020-0056,Cobresal,Leonardo Olivera,45,3,normal,ESPN
+2020-0056,Universidad de Concepción,Bryan Carvallo,53,,penalti,ESPN
+2020-0056,Universidad de Concepción,Leandro Díaz,68,,normal,ESPN
+2020-0056,Cobresal,Felipe Reynero,83,,normal,ESPN
+2020-0057,Colo Colo,David Montoya,52,,contra,ESPN
+2020-0057,Deportes La Serena,Danny Pérez,66,,normal,ESPN
+2020-0057,Colo Colo,Cesar Fuentes,89,,normal,ESPN
+2020-0059,Deportes Iquique,Álvaro Ramos,45,9,penalti,ESPN
+2020-0060,Unión La Calera,Sebastián Sáez,45,,normal,ESPN
+2020-0060,Unión La Calera,Andrés Vilches,58,,normal,ESPN
+2020-0062,Huachipato,César Valenzuela,15,,normal,ESPN
+2020-0062,Huachipato,César Valenzuela,45,16,normal,ESPN
+2020-0062,Audax Italiano,Claudio Sepúlveda,69,,contra,ESPN
+2020-0063,Unión Española,Thomas Galdámes,7,,normal,ESPN
+2020-0064,Universidad Católica,Luciano Aued,86,,normal,ESPN
+2020-0066,Deportes Iquique,César Huanca,44,,normal,ESPN
+2020-0066,Deportes Iquique,Álvaro Ramos,55,,penalti,ESPN
+2020-0066,Deportes Iquique,César Huanca,62,,normal,ESPN
+2020-0067,Unión Española,Misael Dávila,5,,normal,ESPN
+2020-0067,Unión Española,Juan Cordova,14,,contra,ESPN
+2020-0067,Huachipato,Joffre Escobar,21,,normal,ESPN
+2020-0067,Unión Española,Cristian Palacios,43,,normal,ESPN
+2020-0067,Huachipato,Cris Martínez,45,5,penalti,ESPN
+2020-0067,Unión Española,Mario Sandoval,54,,normal,ESPN
+2020-0067,Huachipato,Juan Sánchez Sotelo,66,,normal,ESPN
+2020-0067,Huachipato,Claudio Sepúlveda,90,7,penalti,ESPN
+2020-0068,Audax Italiano,Nicolás Orellana,37,,normal,ESPN
+2020-0068,Universidad de Concepción,Maximiliano Quinteros,68,,normal,ESPN
+2020-0069,Colo Colo,Esteban Paredes,26,,normal,ESPN
+2020-0069,Santiago Wanderers,Sebastián Ubilla,45,1,normal,ESPN
+2020-0069,Colo Colo,Leonardo Valencia,59,,penalti,ESPN
+2020-0069,Santiago Wanderers,Enzo Gutierrez,63,,normal,ESPN
+2020-0069,Santiago Wanderers,Enzo Gutierrez,72,,normal,ESPN
+2020-0070,Deportes Antofagasta,Tobías Figueroa,31,,normal,ESPN
+2020-0071,Universidad de Chile,Walter Montillo,29,,normal,ESPN
+2020-0071,Universidad de Chile,Joaquin Larrivey,51,,normal,ESPN
+2020-0071,Palestino,Leandro Benegas,79,,normal,ESPN
+2020-0071,Palestino,Luis Jimenez,89,,normal,ESPN
+2020-0072,Unión La Calera,Nicolás Stefanelli,51,,penalti,ESPN
+2020-0072,Unión La Calera,Cristián Vilches,58,,normal,ESPN
+2020-0073,Unión Española,Cristian Palacios,57,,normal,ESPN
+2020-0073,Universidad de Concepción,Gonzalo Bueno,62,,normal,ESPN
+2020-0073,Unión Española,Felipe Fritz,71,,normal,ESPN
+2020-0073,Unión Española,Mauro Caballero,90,3,penalti,ESPN
+2020-0073,Universidad de Concepción,Cecilio Waterman,90,7,penalti,ESPN
+2020-0074,Palestino,Enzo Guerrero,45,2,normal,ESPN
+2020-0075,Cobresal,Sebastián Varas,19,,normal,ESPN
+2020-0075,Cobresal,Juan Gaete,22,,normal,ESPN
+2020-0075,Unión La Calera,Andrés Vilches,44,,normal,ESPN
+2020-0075,Unión La Calera,Nicolás Stefanelli,53,,penalti,ESPN
+2020-0076,O'Higgins,Facundo Castro,35,,normal,ESPN
+2020-0076,Deportes La Serena,Jaime Valdés,53,,normal,ESPN
+2020-0077,Deportes Iquique,Álvaro Ramos,56,,normal,ESPN
+2020-0078,Universidad Católica,Luciano Aued,25,,penalti,ESPN
+2020-0078,Universidad Católica,José Fuenzalida,35,,normal,ESPN
+2020-0078,Universidad Católica,Cesar Pinares,45,,normal,ESPN
+2020-0078,Coquimbo Unido,Mathias Pinto,71,,normal,ESPN
+2020-0078,Universidad Católica,Luciano Aued,83,,penalti,ESPN
+2020-0079,Santiago Wanderers,Matías Fernández,3,,normal,ESPN
+2020-0079,Santiago Wanderers,Rodolfo Rotondi,7,,normal,ESPN
+2020-0080,Deportes Antofagasta,Andrés Souper,20,,normal,ESPN
+2020-0080,Deportes Antofagasta,Carlos Muñoz,52,,penalti,ESPN
+2020-0080,Audax Italiano,Carlos Alfredo Labrin Candia,62,,normal,ESPN
+2020-0080,Audax Italiano,Pablo Lavandeira,90,1,penalti,ESPN
+2020-0081,Colo Colo,Esteban Paredes,12,,normal,ESPN
+2020-0081,Universidad de Chile,Gonzalo Espinoza,47,,normal,ESPN
+2020-0082,Universidad de Concepción,Cecilio Waterman,33,,normal,ESPN
+2020-0082,Universidad de Concepción,Antonio Ramírez,90,3,normal,ESPN
+2020-0082,Unión La Calera,Andrés Vilches,90,6,normal,ESPN
+2020-0084,Universidad Católica,José Fuenzalida,36,,normal,ESPN
+2020-0084,Universidad Católica,Fernando Zampedri,54,,normal,ESPN
+2020-0084,Huachipato,Cris Martínez,57,,normal,ESPN
+2020-0084,Universidad Católica,César Munder,87,,normal,ESPN
+2020-0085,Cobresal,Sebastián Varas,29,,normal,ESPN
+2020-0085,Cobresal,Juan Gaete,44,,normal,ESPN
+2020-0085,Cobresal,Leonardo Olivera,83,,normal,ESPN
+2020-0085,Cobresal,Óscar Salinas,90,4,normal,ESPN
+2020-0086,O'Higgins,Ramón Fernández,28,,normal,ESPN
+2020-0087,Coquimbo Unido,Mathias Pinto,63,,normal,ESPN
+2020-0088,Audax Italiano,Alvaro Delgado,47,,normal,ESPN
+2020-0088,Deportes La Serena,Humberto Suazo,72,,normal,ESPN
+2020-0088,Audax Italiano,Iván Ledezma,84,,normal,ESPN
+2020-0089,Universidad de Chile,Joaquin Larrivey,8,,normal,ESPN
+2020-0089,Universidad de Chile,Nicolás Guerra,36,,normal,ESPN
+2020-0092,Huachipato,Joffre Escobar,48,,normal,ESPN
+2020-0092,Santiago Wanderers,Enzo Gutierrez,51,,penalti,ESPN
+2020-0092,Santiago Wanderers,Enzo Gutierrez,54,,normal,ESPN
+2020-0092,Santiago Wanderers,Sebastián Ubilla,67,,normal,ESPN
+2020-0092,Huachipato,Juan Sánchez Sotelo,78,,penalti,ESPN
+2020-0093,Universidad Católica,Cesar Pinares,29,,normal,ESPN
+2020-0093,Universidad Católica,Luciano Aued,39,,penalti,ESPN
+2020-0093,Universidad Católica,Fabián Torres,41,,contra,ESPN
+2020-0094,Everton de Viña del Mar,Rodrigo Echeverría,7,,normal,ESPN
+2020-0094,O'Higgins,Tomás Alarcón,23,,penalti,ESPN
+2020-0094,Everton de Viña del Mar,Brian Torrealba,59,,contra,ESPN
+2020-0095,Universidad de Chile,Joaquin Larrivey,24,,normal,ESPN
+2020-0095,Cobresal,Marcelo Cañete,53,,normal,ESPN
+2020-0095,Universidad de Chile,Joaquin Larrivey,55,,normal,ESPN
+2020-0096,Universidad de Concepción,Leandro Díaz,81,,normal,ESPN
+2020-0097,Curicó Unido,Matías Cavalleri,22,,normal,ESPN
+2020-0097,Curicó Unido,Pablo Parra,67,,normal,ESPN
+2020-0097,Coquimbo Unido,Joe Abrigo,86,,penalti,ESPN
+2020-0098,Palestino,Jonathan Benítez,58,,normal,ESPN
+2020-0098,Palestino,César Cortés,89,,normal,ESPN
+2020-0099,Deportes Antofagasta,Andrés Souper,13,,normal,ESPN
+2020-0099,Deportes Antofagasta,Carlos Muñoz,84,,normal,ESPN
+2020-0100,Unión La Calera,Alejandro Contreras,1,,contra,ESPN
+2020-0100,Unión La Calera,Esteban Valencia,5,,normal,ESPN
+2020-0100,Unión La Calera,Andrés Vilches,33,,normal,ESPN
+2020-0101,Universidad de Concepción,Andrés Robles,42,,normal,ESPN
+2020-0101,O'Higgins,Tomás Alarcón,43,,normal,ESPN
+2020-0101,O'Higgins,Facundo Castro,45,,normal,ESPN
+2020-0101,O'Higgins,Ramón Fernández,73,,normal,ESPN
+2020-0101,O'Higgins,Francisco Arancibia,90,4,normal,ESPN
+2020-0102,Cobresal,Franco Ragusa,6,,normal,ESPN
+2020-0102,Cobresal,Felipe Reynero,52,,normal,ESPN
+2020-0102,Palestino,Leandro Benegas,56,,normal,ESPN
+2020-0104,Deportes La Serena,Humberto Suazo,16,,penalti,ESPN
+2020-0104,Huachipato,Juan Sánchez Sotelo,39,,penalti,ESPN
+2020-0105,Universidad Católica,Fernando Zampedri,46,,normal,ESPN
+2020-0105,Everton de Viña del Mar,Juan Cuevas,48,,normal,ESPN
+2020-0105,Everton de Viña del Mar,Maximiliano Ceratto,51,,normal,ESPN
+2020-0105,Universidad Católica,Luciano Aued,72,,penalti,ESPN
+2020-0107,Universidad de Chile,Joaquin Larrivey,22,,normal,ESPN
+2020-0107,Unión Española,Cristian Palacios,45,3,normal,ESPN
+2020-0107,Unión Española,Mario Sandoval,55,,normal,ESPN
+2020-0107,Unión Española,Cristian Palacios,81,,normal,ESPN
+2020-0108,Colo Colo,Iván Morales,90,,normal,ESPN
+2020-0109,Universidad de Concepción,Juan Abarzúa,40,,normal,ESPN
+2020-0110,Santiago Wanderers,Rodolfo Rotondi,9,,normal,ESPN
+2020-0110,Santiago Wanderers,Alejandro Contreras,29,,contra,ESPN
+2020-0110,Santiago Wanderers,Néstor Canelón,75,,normal,ESPN
+2020-0110,Deportes Iquique,César Huanca,90,2,normal,ESPN
+2020-0111,Coquimbo Unido,Rúben Farfán,25,,normal,ESPN
+2020-0111,Coquimbo Unido,Diego Vallejos,31,,normal,ESPN
+2020-0111,Coquimbo Unido,Víctor González,43,,normal,ESPN
+2020-0111,O'Higgins,Gustavo Gotti,56,,normal,ESPN
+2020-0111,Coquimbo Unido,Rúben Farfán,82,,normal,ESPN
+2020-0112,Unión Española,Carlos Palacios,81,,normal,ESPN
+2020-0112,Unión Española,Cristian Palacios,90,6,penalti,ESPN
+2020-0113,Cobresal,Óscar Salinas,17,,normal,ESPN
+2020-0113,Deportes Antofagasta,Nicolas Penailillo,59,,normal,ESPN
+2020-0113,Deportes Antofagasta,Andrés Souper,67,,normal,ESPN
+2020-0114,Everton de Viña del Mar,Johnny Herrera,9,,penalti,ESPN
+2020-0114,Everton de Viña del Mar,Marcos Sebastián Pol,62,,normal,ESPN
+2020-0114,Everton de Viña del Mar,Rodrigo Echeverría,67,,normal,ESPN
+2020-0114,Curicó Unido,Sebastian Jaime,79,,normal,ESPN
+2020-0115,Huachipato,Claudio Sepúlveda,55,,penalti,ESPN
+2020-0116,Universidad Católica,Cesar Pinares,45,3,penalti,ESPN
+2020-0116,Universidad Católica,Luciano Aued,70,,penalti,ESPN
+2020-0116,Universidad Católica,Fernando Zampedri,82,,normal,ESPN
+2020-0117,Audax Italiano,Ariel Martinez,8,,normal,ESPN
+2020-0117,Unión La Calera,Esteban Valencia,45,1,normal,ESPN
+2020-0117,Audax Italiano,Jorge Henríquez,53,,normal,ESPN
+2020-0117,Unión La Calera,Nicolás Stefanelli,64,,penalti,ESPN
+2020-0117,Unión La Calera,Jeisson Vargas,84,,normal,ESPN
+2020-0118,Cobresal,Mario Pardo,3,,normal,ESPN
+2020-0118,Cobresal,Óscar Salinas,58,,normal,ESPN
+2020-0119,Curicó Unido,Federico Castro,7,,penalti,ESPN
+2020-0119,Unión Española,Cristian Palacios,21,,normal,ESPN
+2020-0119,Unión Española,Mauro Caballero,88,,normal,ESPN
+2020-0120,Coquimbo Unido,Joe Abrigo,45,3,penalti,ESPN
+2020-0120,Colo Colo,Gabriel,65,,normal,ESPN
+2020-0120,Coquimbo Unido,Nicolas Berardo,84,,normal,ESPN
+2020-0120,Colo Colo,Luciano Arriagada,90,6,normal,ESPN
+2020-0121,Audax Italiano,Ariel Martinez,10,,normal,ESPN
+2020-0121,Deportes Iquique,César Huanca,43,,normal,ESPN
+2020-0121,Deportes Iquique,Ricardo Blanco,45,,normal,ESPN
+2020-0124,Universidad de Concepción,Bryan Carvallo,20,,normal,ESPN
+2020-0124,Universidad Católica,Edson Puch,73,,normal,ESPN
+2020-0125,Unión La Calera,Gonzalo Castellani,75,,normal,ESPN
+2020-0126,Universidad de Chile,Joaquin Larrivey,60,,penalti,ESPN
+2020-0126,Universidad de Chile,Joaquin Larrivey,77,,normal,ESPN
+2020-0126,Universidad de Chile,Nicolás Guerra,90,4,normal,ESPN
+2020-0127,Deportes La Serena,Sebastián Leyton,8,,normal,ESPN
+2020-0127,Deportes La Serena,Humberto Suazo,45,1,normal,ESPN
+2020-0127,Deportes La Serena,Daniel Monardes,53,,normal,ESPN
+2020-0127,Palestino,Renato Taribeño,55,,normal,ESPN
+2020-0127,Deportes La Serena,Humberto Suazo,74,,normal,ESPN
+2020-0127,Palestino,Luis Jimenez,90,,normal,ESPN
+2020-0128,Coquimbo Unido,Joe Abrigo,45,,normal,ESPN
+2020-0129,Huachipato,Juan Sánchez Sotelo,23,,normal,ESPN
+2020-0130,Colo Colo,Esteban Paredes,3,,normal,ESPN
+2020-0130,Unión Española,Cristian Palacios,24,,normal,ESPN
+2020-0130,Colo Colo,Gabriel Suazo,28,,normal,ESPN
+2020-0130,Unión Española,Cristian Palacios,41,,penalti,ESPN
+2020-0130,Colo Colo,Gabriel,44,,normal,ESPN
+2020-0130,Unión Española,Cristian Palacios,59,,normal,ESPN
+2020-0130,Unión Española,Misael Dávila,69,,normal,ESPN
+2020-0130,Unión Española,Carlos Palacios,76,,normal,ESPN
+2020-0131,Deportes Iquique,Lucas Aveldaño,11,,normal,ESPN
+2020-0131,Universidad de Concepción,Maximiliano Quinteros,23,,normal,ESPN
+2020-0132,Unión La Calera,Nicolás Stefanelli,62,,normal,ESPN
+2020-0132,Unión La Calera,Andrés Vilches,65,,normal,ESPN
+2020-0132,Unión La Calera,Andrés Vilches,82,,normal,ESPN
+2020-0133,Deportes Antofagasta,Carlos Muñoz,61,,normal,ESPN
+2020-0134,Audax Italiano,Rodrigo Holgado,15,,normal,ESPN
+2020-0134,O'Higgins,Roberto Cereceda,31,,penalti,ESPN
+2020-0134,Audax Italiano,Alvaro Delgado,82,,normal,ESPN
+2020-0136,Curicó Unido,Pablo Parra,28,,penalti,ESPN
+2020-0136,Curicó Unido,Federico Castro,41,,penalti,ESPN
+2020-0136,Universidad Católica,Fernando Zampedri,56,,penalti,ESPN
+2020-0136,Curicó Unido,Federico Castro,90,1,penalti,ESPN
+2020-0136,Universidad Católica,Fernando Zampedri,90,6,normal,ESPN
+2020-0137,Deportes Iquique,Hans Salinas,14,,normal,ESPN
+2020-0137,Deportes Iquique,César Huanca,66,,normal,ESPN
+2020-0138,Unión La Calera,Andrés Vilches,79,,normal,ESPN
+2020-0138,Unión La Calera,Jeisson Vargas,82,,normal,ESPN
+2020-0138,Unión La Calera,Juan Leiva,90,3,normal,ESPN
+2020-0139,O'Higgins,Facundo Castro,18,,normal,ESPN
+2020-0139,Curicó Unido,Matías Cavalleri,50,,normal,ESPN
+2020-0139,O'Higgins,Ramón Fernández,53,,normal,ESPN
+2020-0139,Curicó Unido,Federico Castro,82,,normal,ESPN
+2020-0140,Santiago Wanderers,Matías Marín,1,,normal,ESPN
+2020-0140,Deportes Antofagasta,Eduard Bello,59,,normal,ESPN
+2020-0140,Santiago Wanderers,Sebastián Ubilla,85,,normal,ESPN
+2020-0141,Universidad de Concepción,Matias Cabera,33,,normal,ESPN
+2020-0141,Universidad de Concepción,Cecilio Waterman,86,,normal,ESPN
+2020-0142,Universidad de Chile,Joaquin Larrivey,10,,penalti,ESPN
+2020-0142,Universidad de Chile,Joaquin Larrivey,45,1,normal,ESPN
+2020-0142,Audax Italiano,Pablo Lavandeira,72,,normal,ESPN
+2020-0142,Audax Italiano,Jorge Henríquez,77,,normal,ESPN
+2020-0143,Unión Española,Misael Dávila,51,,normal,ESPN
+2020-0144,Everton de Viña del Mar,Walter González,30,,normal,ESPN
+2020-0144,Colo Colo,Marco Bolados,54,,normal,ESPN
+2020-0145,Palestino,Agustín Farías,14,,penalti,ESPN
+2020-0145,Universidad Católica,Tomas Astaburuaga,37,,normal,ESPN
+2020-0145,Universidad Católica,Sergio Felipe,54,,contra,ESPN
+2020-0145,Universidad Católica,Fernando Zampedri,66,,normal,ESPN
+2020-0145,Universidad Católica,César Munder,86,,normal,ESPN
+2020-0146,Cobresal,Sebastián Varas,41,,normal,ESPN
+2020-0147,Universidad de Concepción,Cecilio Waterman,78,,normal,ESPN
+2020-0148,Deportes Antofagasta,Andrés Souper,22,,normal,ESPN
+2020-0148,Deportes Antofagasta,Andrés Souper,24,,normal,ESPN
+2020-0148,Unión La Calera,Nicolás Stefanelli,65,,penalti,ESPN
+2020-0148,Deportes Antofagasta,Luis Guerra,90,10,normal,ESPN
+2020-0149,Deportes Iquique,Diego Orellana,13,,normal,ESPN
+2020-0149,Deportes Iquique,César Huanca,25,,normal,ESPN
+2020-0150,Huachipato,Cris Martínez,57,,normal,ESPN
+2020-0150,Huachipato,Juan Sánchez Sotelo,90,,normal,ESPN
+2020-0151,Curicó Unido,Pablo Parra,55,,penalti,ESPN
+2020-0152,Audax Italiano,Rodrigo Holgado,36,,normal,ESPN
+2020-0152,Everton de Viña del Mar,Walter González,50,,normal,ESPN
+2020-0152,Everton de Viña del Mar,Sebastián Pereira,52,,normal,ESPN
+2020-0153,Unión Española,Carlos Palacios,90,3,normal,ESPN
+2020-0153,Coquimbo Unido,Felipe Villagrán,90,8,normal,ESPN
+2020-0154,Universidad Católica,Edson Puch,4,,normal,ESPN
+2020-0154,Universidad Católica,Gastón Lezcano,48,,normal,ESPN
+2020-0154,Universidad Católica,Diego Valencia,90,4,normal,ESPN
+2020-0155,O'Higgins,Gustavo Gotti,50,,normal,ESPN
+2020-0156,Palestino,Jonathan Benítez,8,,normal,ESPN
+2020-0156,Colo Colo,Juan Insaurralde,75,,normal,ESPN
+2020-0156,Palestino,Agustín Farías,81,,penalti,ESPN
+2020-0156,Palestino,Matías Campos López,90,5,normal,ESPN
+2020-0157,Deportes Iquique,Jesús Hernández,18,,normal,ESPN
+2020-0157,Curicó Unido,Martín Cortés,32,,normal,ESPN
+2020-0157,Curicó Unido,Federico Castro,43,,penalti,ESPN
+2020-0158,Unión Española,Cristian Palacios,6,,normal,ESPN
+2020-0158,Unión Española,Mauro Caballero,43,,normal,ESPN
+2020-0158,Unión Española,Cristian Palacios,45,4,normal,ESPN
+2020-0158,Unión La Calera,Thomas Rodriguez,54,,normal,ESPN
+2020-0158,Unión La Calera,Thomas Rodriguez,67,,normal,ESPN
+2020-0159,Audax Italiano,Carlos Alfredo Labrin Candia,41,,normal,ESPN
+2020-0159,Audax Italiano,Gonzalo Álvarez,87,,normal,ESPN
+2020-0160,Universidad de Concepción,Cecilio Waterman,45,4,penalti,ESPN
+2020-0160,Universidad de Concepción,Cecilio Waterman,52,,normal,ESPN
+2020-0161,Deportes La Serena,Walter Ponce,82,,normal,ESPN
+2020-0162,Universidad de Chile,Walter Montillo,10,,normal,ESPN
+2020-0162,Universidad de Chile,Gonzalo Espinoza,49,,normal,ESPN
+2020-0162,Universidad de Chile,Joaquin Larrivey,71,,penalti,ESPN
+2020-0163,Cobresal,Franco Ragusa,40,,normal,ESPN
+2020-0163,Universidad Católica,Fernando Zampedri,56,,penalti,ESPN
+2020-0163,Universidad Católica,Fernando Zampedri,79,,normal,ESPN
+2020-0164,O'Higgins,Tomás Alarcón,82,,normal,ESPN
+2020-0165,Curicó Unido,Bayron Oyarzo,7,,normal,ESPN
+2020-0165,Universidad de Concepción,Bryan Carvallo,26,,normal,ESPN
+2020-0165,Curicó Unido,Gabriel Harding,45,4,normal,ESPN
+2020-0165,Universidad de Concepción,Cecilio Waterman,52,,normal,ESPN
+2020-0166,Cobresal,Óscar Salinas,4,,normal,ESPN
+2020-0166,Deportes La Serena,Sebastián Leyton,32,,normal,ESPN
+2020-0166,Deportes La Serena,Marcelo Jorquera,60,,contra,ESPN
+2020-0167,Unión La Calera,Nicolás Stefanelli,90,4,penalti,ESPN
+2020-0168,Coquimbo Unido,Joe Abrigo,37,,normal,ESPN
+2020-0168,Coquimbo Unido,Joe Abrigo,68,,normal,ESPN
+2020-0168,Universidad Católica,Luciano Aued,90,,normal,ESPN
+2020-0169,Everton de Viña del Mar,Juan Cuevas,22,,normal,ESPN
+2020-0169,Deportes Antofagasta,Tobías Figueroa,24,,normal,ESPN
+2020-0170,Deportes Iquique,Lucas Aveldaño,16,,normal,ESPN
+2020-0170,Huachipato,Juan Sánchez Sotelo,45,3,normal,ESPN
+2020-0171,Colo Colo,Pablo Mouche,90,1,normal,ESPN
+2020-0172,Santiago Wanderers,Rodolfo Rotondi,88,,normal,ESPN
+2020-0173,Unión La Calera,Andrés Vilches,50,,normal,ESPN
+2020-0173,Unión La Calera,Andrés Vilches,65,,penalti,ESPN
+2020-0173,Coquimbo Unido,Cristofer Salas,74,,normal,ESPN
+2020-0174,Palestino,Henry Sanhueza,29,,normal,ESPN
+2020-0174,Deportes La Serena,Humberto Suazo,34,,normal,ESPN
+2020-0174,Deportes La Serena,Humberto Suazo,50,,normal,ESPN
+2020-0174,Deportes La Serena,Rodrigo Salinas,83,,normal,ESPN
+2020-0175,Universidad de Chile,Joaquin Larrivey,17,,normal,ESPN
+2020-0175,Everton de Viña del Mar,Juan Cuevas,41,,normal,ESPN
+2020-0176,Universidad Católica,José Fuenzalida,6,,normal,ESPN
+2020-0176,Deportes Antofagasta,Tobías Figueroa,13,,normal,ESPN
+2020-0176,Universidad Católica,José Fuenzalida,28,,normal,ESPN
+2020-0176,Universidad Católica,Valber Huerta,32,,normal,ESPN
+2020-0176,Deportes Antofagasta,Gonzalo Freitas,55,,normal,ESPN
+2020-0176,Universidad Católica,Juan Eduardo Fuentes,59,,normal,ESPN
+2020-0176,Deportes Antofagasta,Felipe Flores,81,,normal,ESPN
+2020-0176,Universidad Católica,Fernando Zampedri,90,,penalti,ESPN
+2020-0178,Huachipato,Cristian Cuevas,46,,normal,ESPN
+2020-0179,O'Higgins,Marcelo Larrondo,77,,normal,ESPN
+2020-0179,O'Higgins,Albert Acevedo,86,,normal,ESPN
+2020-0181,Curicó Unido,Pablo Parra,18,,normal,ESPN
+2020-0181,Curicó Unido,Matías Cavalleri,86,,normal,ESPN
+2020-0182,Deportes Antofagasta,Cristián Rojas,6,,normal,ESPN
+2020-0182,Palestino,Luis Jimenez,27,,normal,ESPN
+2020-0183,Curicó Unido,Jen Buss,2,,normal,ESPN
+2020-0183,Curicó Unido,Pablo Parra,21,,penalti,ESPN
+2020-0183,Curicó Unido,Heber García,53,,normal,ESPN
+2020-0183,Curicó Unido,Federico Castro,66,,normal,ESPN
+2020-0183,Audax Italiano,Iván Ledezma,88,,normal,ESPN
+2020-0184,Unión Española,Misael Dávila,28,,normal,ESPN
+2020-0184,Universidad de Concepción,Bryan Carvallo,56,,normal,ESPN
+2020-0185,O'Higgins,Tomás Alarcón,58,,normal,ESPN
+2020-0185,Cobresal,Ariel Coronel,85,,normal,ESPN
+2020-0186,Deportes La Serena,Humberto Suazo,81,,normal,ESPN
+2020-0187,Colo Colo,Leonardo Valencia,2,,normal,ESPN
+2020-0187,Huachipato,Juan Sánchez Sotelo,25,,normal,ESPN
+2020-0187,Colo Colo,Maximiliano Falcón,29,,normal,ESPN
+2020-0187,Huachipato,Claudio Sepúlveda,70,,normal,ESPN
+2020-0189,Unión La Calera,Juan Leiva,9,,normal,ESPN
+2020-0189,Everton de Viña del Mar,Rodrigo Echeverría,16,,normal,ESPN
+2020-0189,Unión La Calera,Gonzalo Castellani,23,,penalti,ESPN
+2020-0189,Unión La Calera,Fernando Cordero,41,,normal,ESPN
+2020-0189,Everton de Viña del Mar,Juan Cuevas,47,,normal,ESPN
+2020-0189,Unión La Calera,Gonzalo Castellani,56,,normal,ESPN
+2020-0189,Unión La Calera,Jonathan Andia,61,,normal,ESPN
+2020-0189,Unión La Calera,Andrés Vilches,65,,normal,ESPN
+2020-0191,Cobresal,Franco Ragusa,15,,normal,ESPN
+2020-0191,Universidad de Concepción,Cecilio Waterman,57,,normal,ESPN
+2020-0191,Cobresal,Rodolfo González,64,,normal,ESPN
+2020-0191,Cobresal,Juan Gaete,83,,normal,ESPN
+2020-0192,Deportes Iquique,Guido Mainero,54,,normal,ESPN
+2020-0192,Unión Española,Misael Dávila,60,,normal,ESPN
+2020-0193,Deportes La Serena,Martín Tonso,21,,normal,ESPN
+2020-0193,Deportes La Serena,Rodrigo Salinas,82,,normal,ESPN
+2020-0194,O'Higgins,Tomás Alarcón,39,,penalti,ESPN
+2020-0194,Huachipato,Joffre Escobar,72,,normal,ESPN
+2020-0194,O'Higgins,Tomás Alarcón,81,,normal,ESPN
+2020-0195,Unión La Calera,Juan Leiva,18,,normal,ESPN
+2020-0195,Palestino,Bryan Carrasco,53,,normal,ESPN
+2020-0195,Palestino,Jonathan Benítez,58,,normal,ESPN
+2020-0195,Palestino,Carlos Villanueva,75,,normal,ESPN
+2020-0196,Universidad de Chile,Reinaldo Lenis,50,,normal,ESPN
+2020-0196,Universidad de Chile,Camilo Moya,53,,normal,ESPN
+2020-0196,Audax Italiano,Gonzalo Álvarez,62,,normal,ESPN
+2020-0196,Universidad de Chile,Pablo Aránguiz,90,,normal,ESPN
+2020-0197,Everton de Viña del Mar,Juan Cuevas,17,,penalti,ESPN
+2020-0197,Everton de Viña del Mar,Juan Cuevas,46,,normal,ESPN
+2020-0197,Curicó Unido,Jen Buss,69,,normal,ESPN
+2020-0197,Everton de Viña del Mar,Walter González,75,,normal,ESPN
+2020-0198,Deportes Antofagasta,Jason Flores,87,,penalti,ESPN
+2020-0200,Colo Colo,Javier Parraguez,10,,normal,ESPN
+2020-0200,Unión Española,Carlos Palacios,46,,normal,ESPN
+2020-0200,Colo Colo,Harold Cummings,64,,contra,ESPN
+2020-0201,Universidad de Concepción,Cecilio Waterman,41,,normal,ESPN
+2020-0201,Universidad de Concepción,Bryan Carvallo,57,,normal,ESPN
+2020-0201,Audax Italiano,Rodrigo Holgado,76,,normal,ESPN
+2020-0201,Universidad de Concepción,Leandro Díaz,83,,normal,ESPN
+2020-0202,Deportes La Serena,Fabian Hormazabal,73,,normal,ESPN
+2020-0203,Everton de Viña del Mar,Juan Cuevas,45,6,penalti,ESPN
+2020-0203,Santiago Wanderers,Sebastián Ubilla,64,,normal,ESPN
+2020-0203,Santiago Wanderers,Enzo Gutierrez,90,6,penalti,ESPN
+2020-0204,Deportes Antofagasta,Jason Flores,25,,normal,ESPN
+2020-0204,Deportes Antofagasta,Eduard Bello,47,,normal,ESPN
+2020-0204,Huachipato,Walter Mazzantti,71,,normal,ESPN
+2020-0205,Cobresal,Marcelo Cañete,68,,penalti,ESPN
+2020-0206,O'Higgins,Albert Acevedo,77,,normal,ESPN
+2020-0207,Universidad de Chile,Simón Contreras,29,,normal,ESPN
+2020-0207,Deportes Iquique,Matias Donoso,59,,normal,ESPN
+2020-0207,Deportes Iquique,Hans Salinas,67,,penalti,ESPN
+2020-0207,Universidad de Chile,Ángelo Henríquez,90,3,normal,ESPN
+2020-0208,Palestino,Luis Jimenez,17,,normal,ESPN
+2020-0208,Universidad Católica,Marcelino Núñez,45,9,normal,ESPN
+2020-0208,Palestino,Luis Jimenez,52,,normal,ESPN
+2020-0208,Universidad Católica,Lucas Acevedo,70,,contra,ESPN
+2020-0208,Palestino,Luis Jimenez,90,10,penalti,ESPN
+2020-0210,Deportes Iquique,Michael Fuentes,30,,normal,ESPN
+2020-0210,Deportes Iquique,Álvaro Ramos,42,,normal,ESPN
+2020-0210,Deportes Iquique,Álvaro Ramos,45,2,normal,ESPN
+2020-0210,Deportes Iquique,Matias Donoso,67,,normal,ESPN
+2020-0211,Unión Española,Carlos Palacios,9,,normal,ESPN
+2020-0211,Unión Española,Cristian Palacios,28,,normal,ESPN
+2020-0211,Everton de Viña del Mar,Juan Cuevas,44,,normal,ESPN
+2020-0212,Audax Italiano,Gonzalo Álvarez,7,,normal,ESPN
+2020-0212,Audax Italiano,Joaquín Montecinos,12,,normal,ESPN
+2020-0212,Audax Italiano,Iván Ledezma,71,,normal,ESPN
+2020-0214,Huachipato,Walter Mazzantti,30,,normal,ESPN
+2020-0215,Coquimbo Unido,Diego Vallejos,19,,normal,ESPN
+2020-0215,Colo Colo,Gabriel,20,,normal,ESPN
+2020-0215,Colo Colo,Javier Parraguez,90,8,normal,ESPN
+2020-0216,Cobresal,Óscar Salinas,13,,normal,ESPN
+2020-0216,Unión La Calera,Jeisson Vargas,49,,normal,ESPN
+2020-0217,O'Higgins,Facundo Castro,34,,normal,ESPN
+2020-0217,O'Higgins,Marcelo Larrondo,62,,normal,ESPN
+2020-0219,Palestino,Jonathan Benítez,23,,normal,ESPN
+2020-0221,Universidad de Chile,Walter Montillo,26,,normal,ESPN
+2020-0221,Huachipato,César Valenzuela,33,,normal,ESPN
+2020-0221,Huachipato,Cris Martínez,38,,normal,ESPN
+2020-0221,Universidad de Chile,Joaquin Larrivey,42,,normal,ESPN
+2020-0222,O'Higgins,Gustavo Gotti,5,,normal,ESPN
+2020-0222,O'Higgins,Francisco Arancibia,28,,normal,ESPN
+2020-0222,O'Higgins,Facundo Castro,63,,normal,ESPN
+2020-0223,Deportes La Serena,Sebastián Leyton,74,,normal,ESPN
+2020-0223,Deportes La Serena,Rômulo,89,,normal,ESPN
+2020-0224,Everton de Viña del Mar,Walter González,16,,normal,ESPN
+2020-0224,Everton de Viña del Mar,Juan Cuevas,61,,penalti,ESPN
+2020-0224,Everton de Viña del Mar,Juan Cuevas,74,,normal,ESPN
+2020-0225,Unión La Calera,Andrés Vilches,26,,normal,ESPN
+2020-0225,Deportes Iquique,Diego Fernández,64,,normal,ESPN
+2020-0225,Deportes Iquique,Guido Mainero,90,6,normal,ESPN
+2020-0226,Unión Española,Misael Dávila,8,,normal,ESPN
+2020-0226,Unión Española,Ignacio Nuñez,45,1,normal,ESPN
+2020-0226,Unión Española,Misael Dávila,66,,normal,ESPN
+2020-0226,Curicó Unido,Matías Ormazábal,70,,normal,ESPN
+2020-0226,Unión Española,Rodrigo González,77,,normal,ESPN
+2020-0226,Curicó Unido,Pablo Parra,90,3,penalti,ESPN
+2020-0227,Santiago Wanderers,Juan Pablo Miño,52,,normal,ESPN
+2020-0228,Deportes Antofagasta,Jason Flores,35,,normal,ESPN
+2020-0228,Unión Española,Carlos Palacios,87,,normal,ESPN
+2020-0229,Coquimbo Unido,Lautaro Palacios,22,,normal,ESPN
+2020-0230,Universidad Católica,Fernando Zampedri,56,,normal,ESPN
+2020-0230,Audax Italiano,Rodrigo Holgado,62,,penalti,ESPN
+2020-0230,Audax Italiano,Joaquín Montecinos,72,,normal,ESPN
+2020-0230,Universidad Católica,Fernando Zampedri,90,6,normal,ESPN
+2020-0231,Palestino,Jonathan Benítez,49,,normal,ESPN
+2020-0231,Palestino,Bryan Carrasco,60,,normal,ESPN
+2020-0232,Cobresal,Sebastián Silva,22,,normal,ESPN
+2020-0232,Cobresal,Leonardo Olivera,75,,normal,ESPN
+2020-0234,Deportes La Serena,Felipe Barrientos,76,,normal,ESPN
+2020-0234,Deportes La Serena,Sebastián Leyton,90,3,normal,ESPN
+2020-0235,Unión La Calera,Jeisson Vargas,33,,normal,ESPN
+2020-0235,Colo Colo,Ignacio Jara,73,,normal,ESPN
+2020-0235,Colo Colo,Cesar Fuentes,83,,normal,ESPN
+2020-0236,Deportes La Serena,Richard Paredes,18,,normal,ESPN
+2020-0236,O'Higgins,Gustavo Gotti,80,,normal,ESPN
+2020-0237,Everton de Viña del Mar,Juan Cuevas,28,,normal,ESPN
+2020-0238,Unión La Calera,Esteban Valencia,17,,normal,ESPN
+2020-0238,Unión La Calera,Thomas Rodriguez,20,,normal,ESPN
+2020-0238,Unión La Calera,Esteban Valencia,50,,normal,ESPN
+2020-0239,Colo Colo,Gabriel,33,,normal,ESPN
+2020-0240,Universidad de Chile,Reinaldo Lenis,52,,normal,ESPN
+2020-0240,Universidad de Chile,Reinaldo Lenis,64,,normal,ESPN
+2020-0241,Palestino,Bryan Carrasco,14,,normal,ESPN
+2020-0241,Palestino,Jonathan Benítez,15,,normal,ESPN
+2020-0241,Curicó Unido,Vicente Fernández,21,,contra,ESPN
+2020-0241,Palestino,Lucas Acevedo,45,1,normal,ESPN
+2020-0241,Curicó Unido,Sebastian Jaime,74,,normal,ESPN
+2020-0241,Palestino,Jonathan Benítez,90,5,normal,ESPN
+2020-0242,Universidad Católica,Diego Valencia,69,,normal,ESPN
+2020-0242,Universidad Católica,Clemente Montes,79,,normal,ESPN
+2020-0242,Universidad Católica,Marcelino Núñez,87,,normal,ESPN
+2020-0243,Unión Española,Mauro Caballero,5,,normal,ESPN
+2020-0243,Audax Italiano,Rodrigo Holgado,57,,normal,ESPN
+2020-0243,Unión Española,Carlos Palacios,70,,normal,ESPN
+2020-0243,Audax Italiano,Iván Ledezma,90,2,penalti,ESPN
+2020-0244,Cobresal,Juan Gaete,67,,normal,ESPN
+2020-0245,Santiago Wanderers,Enzo Gutierrez,20,,penalti,ESPN
+2020-0245,Santiago Wanderers,Marco Medel,33,,normal,ESPN
+2020-0245,Santiago Wanderers,Enzo Gutierrez,54,,normal,ESPN
+2020-0246,Everton de Viña del Mar,Gary Moya,27,,normal,ESPN
+2020-0246,Deportes La Serena,Richard Paredes,43,,normal,ESPN
+2020-0247,O'Higgins,Facundo Castro,7,,normal,ESPN
+2020-0248,Curicó Unido,Diego Vera,58,,normal,ESPN
+2020-0248,Curicó Unido,Gabriel Harding,90,2,normal,ESPN
+2020-0249,Universidad de Concepción,Maximiliano Quinteros,28,,normal,ESPN
+2020-0249,Palestino,Luis Jimenez,80,,penalti,ESPN
+2020-0251,Universidad Católica,Diego Valencia,69,,normal,ESPN
+2020-0252,Cobresal,Felipe Reynero,12,,normal,ESPN
+2020-0252,Audax Italiano,Manuel Fernández,44,,normal,ESPN
+2020-0252,Audax Italiano,Gonzalo Álvarez,62,,normal,ESPN
+2020-0253,Coquimbo Unido,Jorge Gática,27,,normal,ESPN
+2020-0254,Curicó Unido,Federico Castro,12,,penalti,ESPN
+2020-0254,Universidad Católica,Fernando Zampedri,63,,normal,ESPN
+2020-0255,Colo Colo,Pablo Mouche,5,,normal,ESPN
+2020-0256,Universidad de Concepción,Andrés Robles,6,,normal,ESPN
+2020-0256,Universidad de Concepción,Cecilio Waterman,68,,normal,ESPN
+2020-0256,Unión La Calera,Jeisson Vargas,84,,normal,ESPN
+2020-0257,Unión Española,Ronald González,13,,normal,ESPN
+2020-0257,Palestino,Bryan Carrasco,15,,normal,ESPN
+2020-0257,Unión Española,Felipe Fritz,45,,normal,ESPN
+2020-0257,Palestino,Luis Jimenez,70,,normal,ESPN
+2020-0258,Deportes Antofagasta,Carlos Muñoz,10,,normal,ESPN
+2020-0258,Deportes La Serena,Humberto Suazo,15,,normal,ESPN
+2020-0258,Deportes Antofagasta,Carlos Muñoz,74,,normal,ESPN
+2020-0258,Deportes La Serena,Jaime Valdés,90,4,penalti,ESPN
+2020-0259,Santiago Wanderers,Enzo Gutierrez,60,,penalti,ESPN
+2020-0260,Audax Italiano,Gonzalo Álvarez,49,,normal,ESPN
+2020-0260,Audax Italiano,Nicolás Orellana,73,,normal,ESPN
+2020-0261,O'Higgins,Marcelo Larrondo,25,,normal,ESPN
+2020-0261,Deportes Iquique,Hans Salinas,45,2,penalti,ESPN
+2020-0261,O'Higgins,Marcelo Larrondo,65,,normal,ESPN
+2020-0261,Deportes Iquique,Hans Salinas,90,2,normal,ESPN
+2020-0262,Universidad de Chile,Ángelo Henríquez,83,,normal,ESPN
+2020-0263,Universidad de Concepción,Matias Cabera,53,,normal,ESPN
+2020-0263,Colo Colo,Gabriel,83,,normal,ESPN
+2020-0264,Everton de Viña del Mar,Juan Cuevas,22,,normal,ESPN
+2020-0264,Everton de Viña del Mar,Carlos Lobos,39,,normal,ESPN
+2020-0264,Audax Italiano,Rodrigo Holgado,43,,normal,ESPN
+2020-0265,Palestino,Luis Jimenez,20,,normal,ESPN
+2020-0265,Universidad de Chile,Gonzalo Espinoza,30,,penalti,ESPN
+2020-0266,Unión Española,Carlos Palacios,55,,penalti,ESPN
+2020-0266,Universidad Católica,Fernando Zampedri,90,2,normal,ESPN
+2020-0267,Cobresal,Óscar Salinas,44,,normal,ESPN
+2020-0267,Deportes Antofagasta,Carlos Muñoz,48,,normal,ESPN
+2020-0267,Cobresal,Óscar Salinas,69,,normal,ESPN
+2020-0267,Cobresal,Marcelo Cañete,85,,normal,ESPN
+2020-0268,Unión La Calera,Gonzalo Castellani,12,,normal,ESPN
+2020-0268,Unión La Calera,Thomas Rodriguez,50,,normal,ESPN
+2020-0268,Unión La Calera,Andrés Vilches,75,,normal,ESPN
+2020-0269,Curicó Unido,Federico Castro,14,,normal,ESPN
+2020-0269,O'Higgins,Facundo Castro,50,,normal,ESPN
+2020-0269,O'Higgins,Marcelo Larrondo,53,,normal,ESPN
+2020-0269,O'Higgins,Roberto Gutiérrez,59,,normal,ESPN
+2020-0270,Huachipato,Cris Martínez,12,,normal,ESPN
+2020-0270,Huachipato,Juan Sánchez Sotelo,22,,normal,ESPN
+2020-0270,Huachipato,Juan Sánchez Sotelo,52,,normal,ESPN
+2020-0270,Huachipato,Joaquín Gutierrez,67,,normal,ESPN
+2020-0271,Deportes Iquique,Matias Donoso,12,,normal,ESPN
+2020-0271,Deportes Iquique,Matias Donoso,39,,penalti,ESPN
+2020-0271,Coquimbo Unido,Federico Pereyra,45,2,normal,ESPN
+2020-0271,Coquimbo Unido,Diego Aravena,60,,normal,ESPN
+2020-0273,Cobresal,Cristopher Mesías,32,,normal,ESPN
+2020-0273,Palestino,Luis Jimenez,45,,penalti,ESPN
+2020-0273,Palestino,Federico Anselmo,55,,normal,ESPN
+2020-0273,Cobresal,Juan Gaete,61,,normal,ESPN
+2020-0273,Palestino,Bryan Carrasco,80,,normal,ESPN
+2020-0275,Unión La Calera,Jeisson Vargas,16,,normal,ESPN
+2020-0275,Audax Italiano,Fabián Torres,63,,normal,ESPN
+2020-0275,Unión La Calera,Jeisson Vargas,80,,normal,ESPN
+2020-0275,Unión La Calera,Andrés Vilches,90,4,normal,ESPN
+2020-0276,Deportes Iquique,Hans Salinas,22,,penalti,ESPN
+2020-0276,Deportes Antofagasta,Eduard Bello,37,,normal,ESPN
+2020-0276,Deportes Antofagasta,Gustavo Mencia,75,,normal,ESPN
+2020-0276,Deportes Antofagasta,Jason Flores,90,2,normal,ESPN
+2020-0277,Huachipato,Juan Sánchez Sotelo,16,,normal,ESPN
+2020-0277,Huachipato,Juan Sánchez Sotelo,18,,normal,ESPN
+2020-0277,Huachipato,Israel Poblete,28,,normal,ESPN
+2020-0277,Unión Española,Felipe Fritz,69,,normal,ESPN
+2020-0277,Huachipato,Joffre Escobar,90,,normal,ESPN
+2020-0278,Everton de Viña del Mar,Matías Leiva,7,,normal,ESPN
+2020-0278,Universidad Católica,Gonzalo Tapia,31,,normal,ESPN
+2020-0281,Universidad Católica,Juan Cornejo,25,,normal,ESPN
+2020-0281,Deportes La Serena,Juan Cornejo,55,,contra,ESPN
+2020-0281,Universidad Católica,Gastón Lezcano,68,,normal,ESPN
+2020-0282,Unión La Calera,Juan Leiva,54,,normal,ESPN
+2020-0282,Deportes Antofagasta,Eduard Bello,76,,normal,ESPN
+2020-0283,Curicó Unido,Matías Ormazábal,15,,normal,ESPN
+2020-0283,Santiago Wanderers,Sebastián Ubilla,33,,normal,ESPN
+2020-0283,Santiago Wanderers,Sebastián Ubilla,75,,normal,ESPN
+2020-0283,Santiago Wanderers,Gustavo Lanaro,79,,normal,ESPN
+2020-0285,Palestino,Camilo Rodríguez,30,,contra,ESPN
+2020-0285,Palestino,Luis Jimenez,52,,penalti,ESPN
+2020-0285,Palestino,Luis Jimenez,58,,normal,ESPN
+2020-0285,Everton de Viña del Mar,Matías Leiva,66,,normal,ESPN
+2020-0286,Universidad de Chile,Walter Montillo,68,,normal,ESPN
+2020-0286,Universidad de Chile,Ángelo Henríquez,76,,normal,ESPN
+2020-0286,Universidad de Chile,Joaquin Larrivey,88,,penalti,ESPN
+2020-0288,Universidad de Concepción,Cecilio Waterman,11,,normal,ESPN
+2020-0288,Universidad de Concepción,Cecilio Waterman,23,,penalti,ESPN
+2020-0288,Coquimbo Unido,Rúben Farfán,42,,normal,ESPN
+2020-0289,Cobresal,Felipe Reynero,71,,normal,ESPN
+2020-0289,Huachipato,Israel Poblete,80,,normal,ESPN
+2020-0289,Cobresal,Pablo Cárdenas,90,1,normal,ESPN
+2020-0290,Deportes Antofagasta,Carlos Muñoz,90,2,normal,ESPN
+2020-0292,Unión Española,Víctor Méndez,72,,normal,ESPN
+2020-0292,Deportes La Serena,Fabian Hormazabal,90,6,normal,ESPN
+2020-0294,Deportes Iquique,Matias Donoso,79,,normal,ESPN
+2020-0294,Audax Italiano,Fabián Torres,89,,normal,ESPN
+2020-0296,Coquimbo Unido,Lautaro Palacios,6,,normal,ESPN
+2020-0296,Coquimbo Unido,Lautaro Palacios,78,,normal,ESPN
+2020-0296,Coquimbo Unido,Rúben Farfán,83,,normal,ESPN
+2020-0298,Huachipato,Juan Sánchez Sotelo,48,,normal,ESPN
+2020-0299,Curicó Unido,Sebastian Jaime,28,,normal,ESPN
+2020-0299,Curicó Unido,Pablo Parra,44,,penalti,ESPN
+2020-0299,Unión La Calera,Andrés Vilches,51,,normal,ESPN
+2020-0299,Unión La Calera,Jeisson Vargas,79,,normal,ESPN
+2020-0299,Curicó Unido,Matias Ibacache,82,,normal,ESPN
+2020-0300,Universidad de Chile,Ángelo Henríquez,8,,normal,ESPN
+2020-0300,Universidad de Chile,Joaquin Larrivey,25,,normal,ESPN
+2020-0300,Deportes Antofagasta,Eduard Bello,45,6,penalti,ESPN
+2020-0300,Universidad de Chile,Gonzalo Espinoza,53,,normal,ESPN
+2020-0301,Everton de Viña del Mar,Marcos Sebastián Pol,17,,normal,ESPN
+2020-0302,Universidad de Concepción,Alfonso Parot,43,,contra,ESPN
+2020-0302,Universidad Católica,Gonzalo Tapia,71,,normal,ESPN
+2020-0302,Universidad Católica,Fernando Zampedri,82,,normal,ESPN
+2020-0303,Deportes Iquique,Juan Soto,46,,contra,ESPN
+2020-0303,Deportes Iquique,Matias Donoso,61,,normal,ESPN
+2020-0304,Audax Italiano,Ariel Martinez,55,,normal,ESPN
+2020-0304,Audax Italiano,Jesús Ramírez,90,3,normal,ESPN
+2020-0305,Colo Colo,Cesar Fuentes,46,,normal,ESPN
+2020-0305,O'Higgins,Tomás Alarcón,90,6,penalti,ESPN
+2020-0306,Coquimbo Unido,Lautaro Palacios,16,,normal,ESPN
+2020-0306,Palestino,Jonathan Benítez,45,2,normal,ESPN
+2020-0306,Palestino,Leandro Benegas,80,,normal,ESPN
+2020-0306,Coquimbo Unido,John Salas,90,5,normal,ESPN
+2020-0307,Cobresal,Óscar Salinas,9,,normal,ESPN
+2020-0307,Unión Española,Rodrigo González,41,,normal,ESPN
+2020-0307,Cobresal,Óscar Salinas,45,1,normal,ESPN
+2020-0307,Cobresal,Sebastián Silva,50,,normal,ESPN
+2020-0307,Cobresal,Sebastián Varas,69,,normal,ESPN
+2020-0308,Colo Colo,Pablo Solari,19,,normal,ESPN
 2021-0001,Curicó Unido,Felipe Villagrán,6,,normal,ESPN
 2021-0001,Curicó Unido,Adrián Sánchez,10,,normal,ESPN
 2021-0002,Everton de Viña del Mar,Matías Campos López,31,,normal,ESPN

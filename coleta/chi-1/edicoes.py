@@ -27,7 +27,7 @@ RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
 
 # título que encerra o trecho da 1ª divisão numa página de temporada (quando a edição não diz a linha final)
 FIM_PADRAO = (r"^(?:\d{4}\s+)?(Second Division|Segunda Divisi|Primera B\b|Primera Divisi[oó]n B\b|Copa (Chile|de Chile|Polla|"
-              r"Sudamericana|Libertadores|Carranza|Apertura)|Liguilla|Promotion|Pre-?Libertadores|COPA LIBERTADORES|"
+              r"Sudamericana|Libertadores|Carranza|Apertura)|Liguilla|Promotion|Pre-?Libertadores|Pre-?Sudamericana|COPA LIBERTADORES|"
               r"Playoff for Third|Campeonato Nacional de F|Campeonato de (Apertura|Clausura)|list of|About this document)")
 
 
@@ -122,12 +122,13 @@ for _t in ("2012 Apertura", "2012 Clausura"):
 
 EDICOES.append(_e("2013 Transición", 2013, 2013, [("chile2013", 21, 323)], "Campeonato Nacional de Primera División 2013 – Torneo de Transición",
                   obs="torneio de transição para o calendário europeu"))
+# CH-008: os trechos de 2015/16 e 2016/17 acabam antes das liguillas Pré-Sul-Americana/Libertadores
 for _a, _pg, _ta, _tc in [(2013, "chile2014", (24, 314), (314, 608)), (2014, "chile2015", (24, 309), (330, 618)),
-                          (2015, "chile2016", (24, 293), (293, 571)), (2016, "chile2017", (24, 270), (270, 510))]:
+                          (2015, "chile2016", (24, 272), (293, 542)), (2016, "chile2017", (24, 261), (270, 510))]:
     _s = f"{_a}/{(_a + 1) % 100:02d}"
     EDICOES.append(_e(f"{_s} Apertura", _a, _a, [(_pg, *_ta)], f"Campeonato Nacional de Primera División {_s} – Apertura"))
     EDICOES.append(_e(f"{_s} Clausura", _a, _a + 1, [(_pg, *_tc)], f"Campeonato Nacional de Primera División {_s} – Clausura"))
-EDICOES.append(_e("2017 Transición", 2017, 2017, [("chile2017a", 19, 270)], "Campeonato Nacional de Primera División 2017 – Torneo de Transición",
+EDICOES.append(_e("2017 Transición", 2017, 2017, [("chile2017a", 19, 256)], "Campeonato Nacional de Primera División 2017 – Torneo de Transición",
                   obs="torneio de transição de volta ao calendário anual"))
 for _a in range(2018, 2025):
     EDICOES.append(_e(str(_a), _a, _a + 1 if _a == 2020 else _a, [(f"chile{_a}", 0, None)], f"Campeonato Nacional de Primera División {_a}",

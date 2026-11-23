@@ -513,3 +513,51 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - Peñarol passa a 52 títulos e Wanderers a 3: as três edições sem campeão.
 - **Commit:** `31c14b0`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 23/11 — Correções da revisão: Chileno (`chi-1`)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - **CH-001:** a coluna de bônus (1979-1983, 1988, 1989) era lida como pontos ou gols. O leitor do Chile põe o bônus numa
+    nota, e o pacote fica com os pontos certos e o bônus em `ajuste_pontos` (ex.: 1981 Colo Colo 48, ajuste +2).
+  - **Vice pela lista oficial:** CH-002 a CH-008 (1944 Audax, 1955 e 1982 Colo Colo, 1968 U. Católica, 1984 Cobresal, 1985
+    Everton, 2016/17 Ap Iquique).
+  - **Tabela publicada como classificação em 14 edições:** CH-003 (1954 e 1955, grupo final + grupo do rebaixamento),
+    CH-004 (1968, Nacional), CH-005, CH-007, CH-009, CH-015, CH-016 e CH-019.
+  - **Jogos:**
+    - CH-002: clube trocado em 1943, 1944, 1953 e 1972;
+    - CH-013: 7 placares de 1990-1995;
+    - CH-014: 1988, Naval 1-1 O'Higgins no lugar do jogo repetido;
+    - CH-015: 2011 Ap, Ñublense 2-0 Wanderers, decisão revogada.
+  - **Fases:**
+    - CH-008: as liguillas Pré-Sul-Americana/Libertadores de 2015/16 a 2017 saíram;
+    - CH-009: desempates do título de 1997 Ap e 2013/14 Ap;
+    - CH-016: desempates do rebaixamento de 1971 e 1977.
+  - **Outros:**
+    - CH-010: "rebaixado" só com "Relegated";
+    - CH-011: 2020 no ano certo, com a ESPN casada de novo;
+    - CH-018: artilheiros de 1936, 1937 e 1947;
+    - CH-024: cidade La Serena;
+    - CH-025: clube sem jogo fora da classificação.
+  - **Clubes (D-25):**
+    - Green Cross de Santiago (1933-1964, campeão de 1945) à parte do Deportes Temuco. O nome leva a cidade por causa do
+      Green Cross de Manta, do Equador.
+    - Deportes Arica = San Marcos de Arica.
+  - **Bug antigo:** no `coleta/chi-1/ler_rsssf.py`, três `\b` tinham virado o caractere de backspace. Os títulos "Second
+    Stage" e "Third Stage" nunca eram reconhecidos; agora são.
+- **Abertos:**
+  - CH-006: 3º e 4º de 1984;
+  - CH-012: datas dos mata-matas, no leitor comum, no fim;
+  - CH-017: gols com autor a mais;
+  - CH-022: grupos herdados;
+  - CH-023: 7 datas do ogol de 1969;
+  - CH-028: baixar de novo o calendário do ogol;
+  - CH-014 (parte de 1986): precisa de uma 3ª fonte.
+- **Números:** 109 edições, 22.586 jogos (15 a menos: as liguillas), 53 clubes. Teste de carga: `chi-1: 109 edições,
+  22586 jogos, 1 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar o `chi-1` inteiro.
+  - Os ids mudam: saem as liguillas, e as datas de 2020 mudam.
+  - O clube novo é o Green Cross de Santiago, com o título de 1945; o Deportes Temuco perde esse título.
+  - O "Deportes Arica" vira San Marcos de Arica.
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

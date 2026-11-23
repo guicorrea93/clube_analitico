@@ -48,7 +48,14 @@ PENDENCIAS: dict[str, list[str]] = {
         "FUF à parte (D-25 f), 2020 no ano certo, artilheiros (AUF 2013/14-2025; es 1900-1931).",
         "Ainda aberto: UY-014 (data das decisões no título da fase: leitor comum, junto com as outras ligas no fim).",
     ],
-    "chi-1": [],
+    "chi-1": [
+        "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): coluna de bônus das tabelas de "
+        "1979-1983, 1988 e 1989, vice pela lista oficial, tabela publicada como classificação em 14 edições, desempates, "
+        "liguillas pré-Libertadores fora, 2020 no ano certo, placares de 1990-1995, clubes (D-25 a e b) e artilheiros.",
+        "Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), CH-012 (datas dos mata-matas: leitor comum, no fim), "
+        "CH-017 (gols com autor a mais), CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo "
+        "o calendário do ogol de 1964, 1971, 1977 e 1982) e a 2ª parte do CH-014 (1986, adversários trocados: 3ª fonte).",
+    ],
     "col-1": [
         "1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).",
     ],
