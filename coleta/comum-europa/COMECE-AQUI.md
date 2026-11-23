@@ -120,6 +120,31 @@ Alemão e Francês (com 2025/26) e carregar o Português já estão lá.
 
 ## 3. De onde continuar (pendências, em ordem)
 
+**Revisão profunda (plano `docs/revisao/plano-coleta-europa.md`): corrigida em 23/11/2026**, liga a liga, a pedido do
+Guilherme. Commits:
+- 5a1d3ea: IT-002, QE-002;
+- 5794549: Italiano;
+- 3d2db74: Espanhol;
+- db95ab2: Inglês;
+- f2cfcbc: Francês;
+- 28d0534: Alemão;
+- b4175a0: Português;
+- 692670f e e22bf60: tradutor comum.
+
+Ficaram de fora, anotados nas pendências de cada liga (`documentar.py`, PENDENCIAS):
+- IT-017 (Itália 1898-1929: coleta nova, depois de `bel-1` e `tur-1`);
+- PT-020 (árbitro e público do Português);
+- os casos que esperam terceira fonte (DE-004, FR-005, FR-009 de 1-2 dias, FR-017, PT-010 de 1938/39 e 1939/40).
+
+Ferramentas novas no código comum, para as próximas ligas:
+- `notas_wiki.py`: notas da Wikipédia em português; nota nova sem tradução para o importador;
+- `nomes_jogadores.py`: nomes da ESPN em formato de documento, aplicado ao gravar o pacote;
+- `bdfutbol.py`: página de temporada do BDFutbol (árbitro, estádio);
+- `ogol_ficha.py`: autores dos gols na ficha do ogol. O importador lista as fichas que faltam em
+  `data/coleta/<slug>/fichas_pendentes.json`, e `baixar.py fichas` as baixa.
+
+Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tavolino), com a fonte de cada linha.
+
 1. **EN-016 (revisão, baixa):** 12 jogos do Inglês (2002/03 a 2016/17) sem nenhum gol com autor; a ESPN não fecha nesses
    jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
    Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
