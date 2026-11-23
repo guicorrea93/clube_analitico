@@ -11,7 +11,7 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Copa do Brasil | 37 (1989–2025) | 4009 | 5718 | 0 | 399 | 61 / 0 | sim (37 edições, 4009 jogos) | 3 | [bra-copa-do-brasil](bra-copa-do-brasil.md) |
 | Campeonato Paulista | 134 (1902–2025) | 21855 | 6405 | 0 | 115 | 207 / 135 | sim (134 edições, 21855 jogos) | 3 | [bra-sp-1](bra-sp-1.md) |
 | Campeonato Paulista Série A2 | 63 (1947–2026) | 9142 | 4526 | 0 | 167 | 128 / 31 | sim (63 edições, 9142 jogos) | 3 | [bra-sp-2](bra-sp-2.md) |
-| Campeonato Carioca | 128 (1906–2026) | 14118 | 3383 | 0 | 83 | 222 / 128 | não | 5 | [bra-rj-1](bra-rj-1.md) |
+| Campeonato Carioca | 129 (1906–2026) | 14144 | 3383 | 0 | 83 | 223 / 127 | sim (128 edições, 14118 jogos) | 5 | [bra-rj-1](bra-rj-1.md) |
 
 Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 1937-2025, pedido do agente 1; `coleta/bra-serie-a-artilheiros/montar.py`, relatório `docs/coleta/bra-serie-a-artilheiros.md`). A Série A e a Série B são do agente 1 (`serie_b/`).
 
@@ -30,9 +30,9 @@ Fora das fichas: `bra-serie-a-artilheiros` (artilheiros oficiais da Série A, 19
 - **bra-sp-2:** Commit das edições antigas e da documentação (22/11/2026): pedir o ok do Guilherme. Depois, o agente 1 carregar a A2 no banco (recados no fim de docs/coleta/pedidos.md).
 - **bra-sp-2:** Jogos que faltam (1947-1966 fora o que a Wikipédia traz; 1988: 69 sem placar; 1989: 2ª e 3ª fases; 1990: 1ª a 3ª; 1991: 1ª fase; 1992: 1ª fase; 1993 e 1994): só em jornais da época (Hemeroteca Digital, acervos do Estadão e da Folha), em imagem. Só se o Guilherme pedir.
 - **bra-sp-2:** Os mesmos achados de vice e ordem final do Paulista (SP-002, SP-007, SP-008) podem valer na A2: conferir quando tratar o bra-sp-1 (o importador é cópia do dele).
-- **bra-rj-1:** Decisões do Guilherme: 1907 (título dividido entre Fluminense e Botafogo; o pacote tem só o Fluminense) e 1937 (a Wikipédia conta o São Cristóvão campeão pela FMD; a RSSSF diz que o torneio ficou inacabado).
+- **bra-rj-1:** 1907, título dividido entre Fluminense e Botafogo (FERJ, 1996; decidido em 23/11): o pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação; falta o banco aceitar dois campeões numa edição (D-07, pedido ao agente 1). Quando houver o formato, mudar importar.CAMPEOES_DIVIDIDOS e pacote.py.
 - **bra-rj-1:** Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de baixo, nos anos 1900).
-- **bra-rj-1:** 128 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
+- **bra-rj-1:** 127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
 - **bra-rj-1:** Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela ano a ano (pt_lista.txt), ainda não lida.
 - **bra-rj-1:** Mesma correção dos artilheiros no Paulista: lá a lista da RSSSF nunca era usada (chave pelo ano em número), o que deve explicar o SP-024.
 

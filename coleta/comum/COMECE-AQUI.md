@@ -9,7 +9,7 @@ Para o agente de coleta Brasil (agente 2) que for continuar este trabalho. Leia 
 
 Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 22/11/2026 (Carioca).
+Última atualização: 23/11/2026 (Carioca: 1907 e 1937 FMD).
 
 **Documentação completa:** `coleta/comum/documentacao/`. Tem o índice (`README.md`) e uma ficha por competição, com:
 - tudo o que o pacote tem;
@@ -74,7 +74,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
 | `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.855 | ecafa9e | sim | OK |
 | `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 2342f9b | não | OK (101 clubes novos) |
-| `bra-rj-1` Carioca | 128 (1906–2026; ligas rivais em 1912, 1924, 1933-1936; 1979 e 1979 Especial) | 14.118 | este commit (22/11) | não | OK (54 clubes novos) |
+| `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587; 1937 FMD e 1907 neste commit (23/11) | sim (agente 1, 22/11); recarregar com a 1937 FMD | OK (o banco já tem os clubes) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
 Números por competição, sempre atualizados: `coleta/comum/documentacao/README.md`.
@@ -246,6 +246,9 @@ mais de uma fase" (Paulista 1996 e 1997, A2 1996 e 2013) é do carregador e já 
 - **Edições de 2026 da C, da D e da A2:** entram, pelo ogol (21/11).
 - **Prioridade (22/11, pelo agente 1):** coletar Carioca, Mineiro, Gaúcho e A3; revisão só quando ele mandar, seguindo o
   plano da revisão.
+- **Carioca 1907 e 1937 (23/11):** valem os títulos que a FERJ reconhece. 1907: Fluminense e Botafogo campeões (título
+  dividido, FERJ 1996), com dois campeões quando o banco aceitar (D-07). 1937: além da LFRJ (Fluminense), a edição
+  "1937 FMD" (torneio inacabado, 26 jogos) com o São Cristóvão campeão (FERJ, dezembro de 2023).
 - **Paulista A2:** incluir tudo o que existir, inclusive as edições sem jogos e as incompletas (21/11). O que só existe em
   jornal escaneado fica de fora.
 

@@ -4,17 +4,17 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 1. O que temos
 
-- **Edições:** 128, de 1906 a 2026.
-- **Jogos:** 14118; **gols:** 44381; **gols com autor:** 3383 (8%); **cartões:** 0.
+- **Edições:** 129, de 1906 a 2026.
+- **Jogos:** 14144; **gols:** 44481; **gols com autor:** 3383 (8%); **cartões:** 0.
 - **Clubes:** 83; **artilheiros:** 119 temporadas com artilheiro (128 linhas, com empates).
-- **Classificação final:** 128 temporadas; **rodada a rodada:** 27 temporadas.
+- **Classificação final:** 129 temporadas; **rodada a rodada:** 27 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2894 linhas.
-- **No banco (`db/futebol.db`):** não.
+- **No banco (`db/futebol.db`):** sim (128 edições, 14118 jogos).
 - **Observação da competição:** 1ª divisão do Rio de Janeiro, de 1906 a 2026: até 1959 o campeonato do Distrito Federal (a cidade do Rio), de 1960 a 1974 o do estado da Guanabara e, depois da fusão de 1975, o do estado do Rio de Janeiro. Nos anos de ligas rivais (1912, 1924, 1933-1936) cada torneio reconhecido é uma edição ("1933 AMEA", "1933 LCF"); 1979 teve o campeonato normal e o Especial.
 
 ## 2. Fontes e regras
 
-**Temporadas:** 1906 a 2026. Até 1959 é o campeonato do Distrito Federal (a cidade do Rio de Janeiro); de 1960 a 1974, o do estado da Guanabara; de 1975 em diante, o do estado do Rio de Janeiro. Nos anos de ligas rivais cada torneio reconhecido é uma edição: 1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF). 1979 teve dois campeonatos reconhecidos: o Especial (fevereiro a abril) e o normal (maio a setembro). O campeonato do antigo estado do Rio (interior, até 1978) é outra competição e fica de fora.
+**Temporadas:** 1906 a 2026. Até 1959 é o campeonato do Distrito Federal (a cidade do Rio de Janeiro); de 1960 a 1974, o do estado da Guanabara; de 1975 em diante, o do estado do Rio de Janeiro. Nos anos de ligas rivais cada torneio reconhecido é uma edição: 1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF), 1937 (LFRJ, a liga da pacificação, na temporada "1937"; e o torneio inacabado da FMD, "1937 FMD", título homologado pela FERJ em 2023). 1979 teve dois campeonatos reconhecidos: o Especial (fevereiro a abril) e o normal (maio a setembro). O campeonato do antigo estado do Rio (interior, até 1978) é outra competição e fica de fora.
 
 **Fontes:** RSSSF Brasil (`tablesr/rj{ano}.htm`: jogos, fases, datas, autores e tabelas; `rj1979s.htm`: o Especial de 1979; não há página de 2025 nem de 2026); ogol (calendário de cada edição, de 1906 a 2026, e o código de cada clube; confere placares, traz a rodada e completa os jogos que a página não traz); Wikipédia em português (artigo do Campeonato Carioca: campeões e vices de cada ano, segunda fonte do campeão). Artilheiros pela lista da RSSSF (`rjtops.htm`).
 
@@ -22,8 +22,8 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF): 222 tabelas fecham com os jogos e 128 divergem (cada divergência é explicada no relatório, na temporada).
-- Temporadas com alguma tabela divergente: 1906, 1907, 1909, 1910, 1912 AFRJ, 1913, 1916, 1917, 1918, 1919, 1921, 1922, 1923, 1924 LMDT, 1926, 1928, 1929, 1930, 1931, 1932, 1933 LCF, 1934 AMEA, 1935 FMD, 1935 LCF, 1937, 1938, 1941, 1946, 1948, 1953, 1955, 1958, 1959, 1961, 1963, 1970, 1971, 1973, 1974, 1975, 1976, 1977, 1979, 1979 Especial, 1980, 1981, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1993, 1995, 1996, 1997, 1998, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2011, 2012, 2013, 2017, 2019, 2022, 2024.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF): 223 tabelas fecham com os jogos e 127 divergem (cada divergência é explicada no relatório, na temporada).
+- Temporadas com alguma tabela divergente: 1906, 1907, 1909, 1910, 1912 AFRJ, 1913, 1916, 1917, 1918, 1919, 1921, 1922, 1923, 1924 LMDT, 1926, 1928, 1929, 1930, 1931, 1932, 1933 LCF, 1934 AMEA, 1935 FMD, 1935 LCF, 1938, 1941, 1946, 1948, 1953, 1955, 1958, 1959, 1961, 1963, 1970, 1971, 1973, 1974, 1975, 1976, 1977, 1979, 1979 Especial, 1980, 1981, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1993, 1995, 1996, 1997, 1998, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2009, 2010, 2011, 2012, 2013, 2017, 2019, 2022, 2024.
 - Temporadas sem tabela para conferir: 1911, 1912 LMSA, 1915, 1925, 1933 AMEA, 1934 LCF, 1940, 1944, 2018, 2020, 2025, 2026.
 - Temporadas com menos jogos do que o ogol: 1910 (28 de 30), 1912 AFRJ (27 de 30), 1912 LMSA (55 de 56), 1924 LMDT (153 de 156), 1931 (112 de 113), 1934 AMEA (39 de 41), 2011 (126 de 132), 2012 (128 de 134).
 
@@ -36,7 +36,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1900s | 103 | 100% | 10% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1910s | 595 | 99% | 12% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1920s | 1081 | 100% | 10% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1930s | 1103 | 100% | 11% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1930s | 1129 | 100% | 11% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1940s | 1065 | 100% | 9% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 1335 | 94% | 8% | 10% | 0% | 0% | 0% | 7% | 0.0 |
 | 1960s | 1158 | 100% | 2% | 0% | 0% | 0% | 0% | 0% | 0.0 |
@@ -47,7 +47,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2010s | 1214 | 100% | 100% | 89% | 0% | 0% | 0% | 74% | 0.0 |
 | 2020s | 591 | 100% | 100% | 60% | 0% | 0% | 0% | 27% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 13525; ogol: 593.
+**Fonte de cada jogo:** RSSSF Brasil: 13551; ogol: 593.
 
 ## 5. Formato ao longo do tempo
 
@@ -83,6 +83,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1936 FMD: 7 clubes
 - 1936 LCF: 6 clubes
 - 1937: 12 clubes
+- 1937 FMD: 8 clubes
 - 1938 a 1940: 9 clubes
 - 1941 a 1946: 10 clubes
 - 1947 a 1952: 11 clubes
@@ -134,7 +135,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1935 LCF: Campeonato Carioca (LCF)
 - 1936 FMD: Campeonato Carioca (FMD)
 - 1936 LCF: Campeonato Carioca (LCF)
-- 1937 a 1979: Campeonato Carioca
+- 1937: Campeonato Carioca
+- 1937 FMD: Campeonato Carioca (FMD)
+- 1938 a 1979: Campeonato Carioca
 - 1979 Especial: Campeonato Carioca Especial
 - 1980 a 2026: Campeonato Carioca
 
@@ -192,11 +195,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2020: pontos corridos + 2 grupos + pontos corridos + mata-mata
 - 2021 a 2026: pontos corridos + mata-mata
 
-**Fases que aparecem** (número de temporadas): 1º Turno (62); 2º Turno (57); Fase única (47); Final (30); Primeira fase (23); Fase final (16); 2º Turno - Final (14); 1º Turno - Final (13); Semifinal (13); 2º Turno - Semifinal (11); 1º Turno - Semifinal (10); 3º Turno (6); Segunda fase (6); Fase preliminar (6); Taça Rio - Semifinal (2); Taça Rio - Final (2); 2° TURNO (1); 1° TURNO (1); Prova Eliminatória (1); 4º Turno (1); 3º Turno (Taça José de Albuquerque) (1); First Round (1); 3º Turno (Taça Pedro Magalhães Corrêa) (1); 3º Turno (Taça Danilo Leal Carneiro) (1); 3º Turno (Taça Sylvio Corrêa Pacheco) (1); Taça Rio de Janeiro winner qualified to the final playoff (1); 3º Turno (Taça Euzëbio de Andrade) (1); 3º Turno (Taça Jerônimo Bastos) (1); Second Place Playoff (1); Championship Playoff (1); Terceira fase (1); Vasco da Gama won the 2nd stage (1); LEAGUE FINALS (if needed) (1); Torneio de rebaixamento (1); Quadrangular de Descenso (1); Quartas de final (1).
+**Fases que aparecem** (número de temporadas): 1º Turno (62); 2º Turno (57); Fase única (48); Final (30); Primeira fase (23); Fase final (16); 2º Turno - Final (14); 1º Turno - Final (13); Semifinal (13); 2º Turno - Semifinal (11); 1º Turno - Semifinal (10); 3º Turno (6); Segunda fase (6); Fase preliminar (6); Taça Rio - Semifinal (2); Taça Rio - Final (2); 2° TURNO (1); 1° TURNO (1); Prova Eliminatória (1); 4º Turno (1); 3º Turno (Taça José de Albuquerque) (1); First Round (1); 3º Turno (Taça Pedro Magalhães Corrêa) (1); 3º Turno (Taça Danilo Leal Carneiro) (1); 3º Turno (Taça Sylvio Corrêa Pacheco) (1); Taça Rio de Janeiro winner qualified to the final playoff (1); 3º Turno (Taça Euzëbio de Andrade) (1); 3º Turno (Taça Jerônimo Bastos) (1); Second Place Playoff (1); Championship Playoff (1); Terceira fase (1); Vasco da Gama won the 2nd stage (1); LEAGUE FINALS (if needed) (1); Torneio de rebaixamento (1); Quadrangular de Descenso (1); Quartas de final (1).
 
 **Observações das edições:**
 
-- nenhuma
+- 1907: título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou os dois campeões em 1996; o pacote tem o Fluminense no campo campeao e o Botafogo nesta observação até o banco aceitar dois campeões (D-07)
+- 1937: torneio da LFRJ, a liga da pacificação (FMD e LCF juntas); o da FMD, que parou no meio, é a edição "1937 FMD"
+- 1937 FMD: torneio inacabado: parou na 8ª rodada (26 jogos) com a pacificação das ligas; a FMD proclamou o São Cristóvão campeão (invicto, 7 vitórias em 7 jogos) em 03/09/1937, e a FERJ homologou o título em dezembro de 2023
 
 ## 6. Campeões, acessos, rebaixados e punições
 
@@ -207,9 +212,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Vasco: 24
 - Botafogo: 20
 - América-RJ: 7
+- São Cristóvão: 2
 - Bangu: 2
 - Paysandu-RJ: 1
-- São Cristóvão: 1
 
 **Acessos:** nenhum marcado no pacote.
 
@@ -232,6 +237,12 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 
 - **2018:** a página da RSSSF parou em fevereiro de 2018 (44 jogos sem placar, na Taça Rio): as tabelas dela são parciais e não servem de conferência; os outros jogos vêm do ogol
 - **2020:** a página da RSSSF parou em março de 2020 (21 jogos sem placar): as tabelas dela são parciais e não servem de conferência; os outros jogos vêm do ogol
+
+### Observações das edições (`importar.OBS_EDICAO`)
+
+- **1907:** título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou os dois campeões em 1996; o pacote tem o Fluminense no campo campeao e o Botafogo nesta observação até o banco aceitar dois campeões (D-07)
+- **1937:** torneio da LFRJ, a liga da pacificação (FMD e LCF juntas); o da FMD, que parou no meio, é a edição "1937 FMD"
+- **1937 FMD:** torneio inacabado: parou na 8ª rodada (26 jogos) com a pacificação das ligas; a FMD proclamou o São Cristóvão campeão (invicto, 7 vitórias em 7 jogos) em 03/09/1937, e a FERJ homologou o título em dezembro de 2023
 
 ### Nome da página casado à mão com o clube (`importar.NOME_MANUAL`)
 
@@ -268,9 +279,10 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
-- **1907:** título dividido entre Fluminense e Botafogo (RSSSF: "shared"; Wikipédia: os dois): o pacote tem um campeão só (Fluminense, o primeiro da lista da RSSSF); decisão pendente com o Guilherme (como o SP-001 do Paulista de 1973)
+- **1907:** título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação até o banco aceitar dois campeões numa edição (D-07, como o Paulista 1973)
 - **1921:** o desempate Flamengo x América foi 1-1 no tempo normal e 1-0 na prorrogação: fica 2-1 para o Flamengo
-- **1937:** a Wikipédia conta também o São Cristóvão como campeão (pela FMD); a RSSSF diz que o torneio da FMD ficou inacabado. O pacote tem só a edição da LFRJ (Fluminense); decisão pendente com o Guilherme
+- **1937:** torneio da LFRJ (a liga da pacificação: FMD e LCF juntas), campeão o Fluminense. O torneio da FMD, disputado antes, é a edição "1937 FMD"
+- **1937 FMD:** torneio da FMD, que parou na 8ª rodada (26 jogos, de 02/05 a 11/07) com a pacificação entre a FMD e a LCF; os jogos não foram anulados. A FMD proclamou o São Cristóvão campeão em 03/09/1937 (invicto, 7 vitórias em 7 jogos); o título ficou esquecido e a FERJ o homologou em dezembro de 2023, depois do dossiê do jornalista André Luiz Pereira Nunes (cerimônia em 13/01/2024; Super Rádio Tupi, 09/01/2024). A lista de campeões da RSSSF é de antes e ainda diz "unfinished": o campeão vem de importar.CAMPEOES_MANUAIS. O ogol não tem essa edição; os jogos vêm só da RSSSF
 - **1979:** artilheiro: a RSSSF dá Zico 26 no campeonato normal e 34 no Especial; a Wikipédia, o contrário. Fica a RSSSF
 
 ### Clube do ogol casado à mão com o nome do banco (`clubes_rj1.MANUAL_DB`)
@@ -352,7 +364,7 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 - **rj1934.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim
 - **rj1935.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim
 - **rj1936.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim
-- **rj1937.htm:** letras trocadas por "�" na página; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim
+- **rj1937.htm:** letras trocadas por "�" na página; ano de duas ligas: lê só o trecho da liga da temporada; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim; 1937 FMD: data "dd / mm –" e os jogos do dia nas linhas de baixo
 - **rj1938.htm:** letras trocadas por "�" na página; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim
 - **rj1939.htm:** letras trocadas por "�" na página; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim
 - **rj1940.htm:** letras trocadas por "�" na página; data com o mês por extenso na frente do jogo; Fluminense de Nova Friburgo separado do Fluminense do Rio; data dd/mm na frente e o local do jogo no fim
@@ -448,8 +460,9 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 ## 8. O que não deu para coletar
 
 - **Cartões:** a RSSSF não traz; o ogol tem na página de cada jogo (baixa prioridade).
-- **Autores dos gols:** quase nenhum entrou. As páginas recentes da RSSSF trazem os autores numa linha à parte, que o
-  leitor ainda não junta ao jogo (pendência).
+- **Autores dos gols:** 3.383 gols com autor, quase todos de 2010 em diante (74% dos gols dos anos 2010). Nas outras
+  décadas a RSSSF não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de
+  baixo, nos anos 1900); só entram quando a soma bate com o placar (pendência).
 - **W.O. sem vencedor:** o ogol traz cerca de 66 W.O. (1908-1935) sem dizer quem venceu; o vencedor sai da tabela
   publicada, e o W.O. conta como vitória sem gols. Sem como decidir pela tabela, fica fora (ver as temporadas).
 - **Torneios à parte:** os de consolação entre os turnos (2009-2012) e as séries de subúrbio (1928-1930) ficam fora.
@@ -457,9 +470,9 @@ Registradas nos módulos de `coleta/bra-rj-1/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- Decisões do Guilherme: 1907 (título dividido entre Fluminense e Botafogo; o pacote tem só o Fluminense) e 1937 (a Wikipédia conta o São Cristóvão campeão pela FMD; a RSSSF diz que o torneio ficou inacabado).
+- 1907, título dividido entre Fluminense e Botafogo (FERJ, 1996; decidido em 23/11): o pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação; falta o banco aceitar dois campeões numa edição (D-07, pedido ao agente 1). Quando houver o formato, mudar importar.CAMPEOES_DIVIDIDOS e pacote.py.
 - Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de baixo, nos anos 1900).
-- 128 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
+- 127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.
 - Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela ano a ano (pt_lista.txt), ainda não lida.
 - Mesma correção dos artilheiros no Paulista: lá a lista da RSSSF nunca era usada (chave pelo ano em número), o que deve explicar o SP-024.
 

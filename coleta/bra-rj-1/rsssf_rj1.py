@@ -25,6 +25,8 @@ rsssf.QUEBRA_BLOCOS = True   # <P>/<PRE>/<H2> sem <br>: o título de cada liga f
 
 LIGA_ATUAL = {"liga": ""}   # liga pedida em ler(); a correção _liga usa
 SIGLAS_LIGAS = "AFRJ|LMSA|LMDT|AMEA|LCF|FMD"
+# temporada sem sigla que divide a página com outra liga: o trecho dela é o desta sigla (1937: a LFRJ, e a FMD na "1937 FMD")
+LIGA_DA_PAGINA = {"1937": "LFRJ"}
 
 
 def _liga(t: str) -> str:
@@ -32,7 +34,7 @@ def _liga(t: str) -> str:
     liga = LIGA_ATUAL["liga"]
     if not liga:
         return t
-    titulos = [(m.start(), m.group(1)) for m in re.finditer(rf"^[ \t]*(?:[^\n]*?\b)?({SIGLAS_LIGAS})\b[^\n]*$", t, re.M)
+    titulos = [(m.start(), m.group(1)) for m in re.finditer(rf"^[ \t]*(?:[^\n]*?\b)?({SIGLAS_LIGAS}|LFRJ)\b[^\n]*$", t, re.M)
                if len(m.group(0).strip()) < 80]
     for k, (pos, nome) in enumerate(titulos):
         if nome == liga:
@@ -81,12 +83,29 @@ def _homonimos(t: str) -> str:
 
 
 rsssf.CORRECOES.update({f"rj{a}.htm": [(_liga, None, "ano de duas ligas: lê só o trecho da liga da temporada")]
-                        for a, ls in LIGAS.items() if all(ls)})
+                        for a, ls in LIGAS.items() if any(x and x != "Especial" for x in ls)})
+
+
+def _fmd_1937(t: str) -> str:
+    """1937, torneio da FMD: "02 / 05 – Andarahy 0-2 Bangu (Barão de São Francisco Filho)." e os outros jogos do dia nas
+    linhas de baixo, sem data. A data vira uma linha "[May 02]" (o leitor comum leva a data para os jogos seguintes) e o
+    local do jogo vira nota ("[Rua Ferrer]"; o "*" do jogo suspenso sai, a observação dele está no rodapé)."""
+    def troca(l: str) -> str:
+        m = re.match(r"^[ \t]*(\d{1,2})[ \t]*/[ \t]*(\d{1,2})[ \t]*[–-][ \t]*", l)
+        if m and 1 <= int(m[2]) <= 12:
+            l = f"[{_MESES_ABREV[int(m[2]) - 1]} {int(m[1]):02d}]\n" + l[m.end():]
+        if re.search(r"\S[ \t]+\d+-\d+[ \t]+\S", l):
+            l = re.sub(r"[ \t]*\(([^()]*)\)\*?\.?[ \t]*$", r"  [\1]", l)
+        return l
+    return "\n".join(troca(l) for l in t.split("\n"))
+
+
 for _arq in [f"rj{a}.htm" for a in range(1906, 2027)] + ["rj1979s.htm"]:
     rsssf.CORRECOES.setdefault(_arq, []).append((_data_mes, None, "data com o mês por extenso na frente do jogo"))
     rsssf.CORRECOES.setdefault(_arq, []).append((_homonimos, None, "Fluminense de Nova Friburgo separado do Fluminense do Rio"))
     if int(_arq[2:6]) <= 1990:   # em 1993 e 1995 piora a leitura
         rsssf.CORRECOES.setdefault(_arq, []).append((_linha_de_jogo, None, "data dd/mm na frente e o local do jogo no fim"))
+rsssf.CORRECOES["rj1937.htm"].append((_fmd_1937, None, "1937 FMD: data \"dd / mm –\" e os jogos do dia nas linhas de baixo"))
 rsssf.CORRECOES.setdefault("rj1921.htm", []).append(
     (r"(?m)^(\[Sep 04, 1921\] Flamengo) 1-1 (América)[ \t]*\n[ \t]*Extra-Time: Flamengo 1-0 América.*$",
      r"\1 2-1 \2  [after extra time; 1-1 after 90 minutes; Flamengo champions]",
@@ -293,7 +312,7 @@ def sem_sumulas(jogos: list) -> list:
 
 
 def ler(temporada: str):
-    LIGA_ATUAL["liga"] = liga_de(temporada) if liga_de(temporada) != "Especial" else ""
+    LIGA_ATUAL["liga"] = LIGA_DA_PAGINA.get(temporada) or (liga_de(temporada) if liga_de(temporada) != "Especial" else "")
     try:
         jogos, tabelas = rsssf.ler(ano_de(temporada), pagina_rsssf(temporada))
     finally:

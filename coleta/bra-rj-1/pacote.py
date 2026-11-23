@@ -11,7 +11,7 @@ from collections import Counter, defaultdict
 
 import clubes_rj1
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
-from importar import ORDEM, fonte_rsssf, nome, pontos_vitoria
+from importar import CAMPEOES_DIVIDIDOS, OBS_EDICAO, ORDEM, fonte_rsssf, nome, pontos_vitoria
 from rsssf_rj1 import rsssf
 
 
@@ -155,9 +155,11 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         # edição
         num_clubes = len({x for p in ps for x in (p.mandante, p.visitante)})
         vice = next((nome(f["clube"]) for f in final if f["pos"] == 2), "") if campeao else ""
+        if str(ano) in CAMPEOES_DIVIDIDOS:   # título dividido: o outro campeão não é vice (fica na observação)
+            vice = ""
         fontes = " + ".join(x for x, ok in (("RSSSF Brasil", bool(e["rs"])), ("ogol", bool(e["og"])),
                                                ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"]))) if ok)
-        obs = []
+        obs = list(OBS_EDICAO.get(str(ano), []))
         linhas_e.append([str(ano), int(str(ano)[:4]), int(str(ano)[:4]), NOME_OFICIAL.get(ano, NOME_PADRAO), num_clubes, pontos_vitoria(ano),
                          formato(desenho), nome(campeao) if campeao else "", vice, fontes, "; ".join(obs)])
         ng = sum((p.gm or 0) + (p.gv or 0) for p in ps)

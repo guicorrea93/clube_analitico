@@ -66,11 +66,12 @@ PENDENCIAS: dict[str, list[str]] = {
         "tratar o bra-sp-1 (o importador é cópia do dele).",
     ],
     "bra-rj-1": [
-        "Decisões do Guilherme: 1907 (título dividido entre Fluminense e Botafogo; o pacote tem só o Fluminense) e 1937 (a "
-        "Wikipédia conta o São Cristóvão campeão pela FMD; a RSSSF diz que o torneio ficou inacabado).",
+        "1907, título dividido entre Fluminense e Botafogo (FERJ, 1996; decidido em 23/11): o pacote tem o Fluminense no "
+        "campo campeao, o vice vazio e o Botafogo na observação; falta o banco aceitar dois campeões numa edição (D-07, "
+        "pedido ao agente 1). Quando houver o formato, mudar importar.CAMPEOES_DIVIDIDOS e pacote.py.",
         "Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz "
         "num formato que o leitor ainda não junta ao jogo (\"Gols: ...\" na linha de baixo, nos anos 1900).",
-        "128 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem "
+        "127 tabelas divergentes a explicar (ou corrigir) uma a uma no relatório; jogos avulsos do fim das páginas (súmulas sem "
         "par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976) a conferir.",
         "Artilheiros de 2015 em diante: a lista da RSSSF (rjtops.htm) parou em 2014; a Wikipédia em português tem a tabela "
         "ano a ano (pt_lista.txt), ainda não lida.",

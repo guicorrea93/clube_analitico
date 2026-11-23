@@ -5,8 +5,9 @@ Guanabara; de 1975 em diante, o do novo estado do Rio de Janeiro (a fusão). O c
 (interior, "Campeonato Fluminense", rjflucamp.htm) é outra competição e fica de fora.
 
 Nos anos de ligas rivais a federação reconhece os dois títulos, e cada torneio vira uma edição com temporada própria:
-1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF). Em 1937 só a LFRJ terminou
-(o torneio da FMD ficou inacabado e não deu título). 1979 teve dois campeonatos: o normal e o "especial" (rj1979s.htm),
+1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF). Em 1937 a LFRJ (a liga
+unificada) fica com a temporada "1937", e o torneio da FMD, que parou no meio com a pacificação, é a "1937 FMD": a FMD
+proclamou o São Cristóvão campeão em 1937, e a FERJ homologou o título em dezembro de 2023. 1979 teve dois campeonatos: o normal e o "especial" (rj1979s.htm),
 os dois reconhecidos. Fontes da lista: RSSSF Brasil (rjcamp.htm) e ogol (competição "campeonato-carioca/893").
 """
 from __future__ import annotations
@@ -20,7 +21,8 @@ PACOTE = PASTA_DADOS / "pacote"
 RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
 
 LIGAS = {1912: ("AFRJ", "LMSA"), 1924: ("LMDT", "AMEA"), 1933: ("AMEA", "LCF"), 1934: ("AMEA", "LCF"),
-         1935: ("FMD", "LCF"), 1936: ("FMD", "LCF"), 1979: ("", "Especial")}
+         1935: ("FMD", "LCF"), 1936: ("FMD", "LCF"), 1937: ("", "FMD"),
+         1979: ("", "Especial")}
 TEMPORADAS = [f"{a} {l}".strip() for a in range(1906, 2027) for l in LIGAS.get(a, ("",))]
 
 

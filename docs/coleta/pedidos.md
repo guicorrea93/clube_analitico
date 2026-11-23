@@ -670,3 +670,27 @@ relatório ano a ano: `docs/coleta/bra-rj-1.md`.
    - os W.O. decididos pela tabela;
    - os jogos avulsos do fim das páginas que ficaram (súmulas sem par na lista: 1915, 1917-1919, 1924 AMEA, 1925, 1938, 1944, 1959, 1976).
 8. **Próximo campeonato:** Mineiro (`bra-mg-1`), com o ok do Guilherme. A RSSSF Brasil ficou fora do ar em 22/11; se voltar, começo por ela.
+
+## Recado de correção — bra-rj-1 — 23/11/2026 (1907 e 1937)
+
+Decisão do Guilherme (23/11), depois de pesquisa: valem os títulos que a FERJ reconhece.
+
+1. **1937 FMD (edição nova):**
+   - É o torneio da FMD, que parou na 8ª rodada com a pacificação das ligas. Tem 26 jogos, só da RSSSF (o ogol não tem essa edição).
+   - Campeão: São Cristóvão (invicto, 7 vitórias em 7 jogos). A FMD o proclamou em 03/09/1937 e a FERJ homologou o título em dezembro de 2023 (Super Rádio Tupi, 09/01/2024; Wikipédia em português).
+   - A temporada "1937" continua sendo a da LFRJ, com o Fluminense campeão. O nome dela não muda.
+   - O Carioca agora tem 129 edições e 14.144 jogos, sem clube novo.
+   - O que muda nas tabelas: a da FMD, antes presa à "1937" como divergente, agora fecha na "1937 FMD". São 223 tabelas que fecham e 127 que divergem.
+   - testar_carga: `bra-rj-1: 129 edições, 14144 jogos, 0 clubes novos -> OK`.
+2. **1907 (título dividido):**
+   - Fluminense e Botafogo são os dois campeões: a FERJ os declarou em 1996.
+   - Enquanto o banco aceita um campeão só, o pacote fica assim:
+     - `campeao` = Fluminense;
+     - `vice` vazio (o Botafogo não é vice);
+     - o Botafogo na `observacao` de `edicoes.csv`.
+3. **Pedidos ao banco e ao painel:**
+   - Recarregar o `bra-rj-1` (edição nova "1937 FMD", com aviso de torneio inacabado na observação).
+   - Quando definir o formato de dois campeões numa edição (D-07, Paulista 1973), aplicar também ao Carioca 1907. Basta me dizer o formato, que eu ajusto o pacote (`importar.CAMPEOES_DIVIDIDOS`).
+   - O título de 1937 FMD conta para o São Cristóvão, que passa a ter 1926 e 1937.
+4. **Commit:** "Carioca: 1937 FMD (São Cristóvão) e 1907 dividido", com o ok do Guilherme.
+

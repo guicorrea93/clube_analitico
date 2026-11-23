@@ -5,7 +5,9 @@ Gerado por `python coleta/bra-rj-1/importar.py`. Pacote em `data/coleta/bra-rj-1
 
 **Temporadas:** 1906 a 2026. Até 1959 é o campeonato do Distrito Federal (a cidade do Rio de Janeiro); de 1960 a 1974,
 o do estado da Guanabara; de 1975 em diante, o do estado do Rio de Janeiro. Nos anos de ligas rivais cada torneio
-reconhecido é uma edição: 1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF).
+reconhecido é uma edição: 1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF),
+1937 (LFRJ, a liga da pacificação, na temporada "1937"; e o torneio inacabado da FMD, "1937 FMD", título homologado
+pela FERJ em 2023).
 1979 teve dois campeonatos reconhecidos: o Especial (fevereiro a abril) e o normal (maio a setembro). O campeonato do
 antigo estado do Rio (interior, até 1978) é outra competição e fica de fora.
 
@@ -58,7 +60,8 @@ outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.j
 | 1935 LCF | RSSSF + ogol | 6 | 45 (45) | 226 | 0 | 0 / 1 | América-RJ | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1936 FMD | RSSSF + ogol | 7 | 46 (46) | 188 | 0 | 3 / 0 | Vasco | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1936 LCF | RSSSF + ogol | 6 | 48 (48) | 210 | 0 | 1 / 0 | Fluminense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 1937 | RSSSF + ogol | 12 | 132 (132) | 654 | 0 | 1 / 1 | Fluminense | RSSSF (classificação geral publicada) |
+| 1937 | RSSSF + ogol | 12 | 132 (132) | 654 | 0 | 1 / 0 | Fluminense | RSSSF (classificação geral publicada) |
+| 1937 FMD | RSSSF | 8 | 26 (0) | 100 | 0 | 1 / 0 | São Cristóvão | RSSSF (classificação geral publicada) |
 | 1938 | RSSSF + ogol | 9 | 72 (72) | 339 | 0 | 0 / 2 | Fluminense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1939 | RSSSF + ogol | 9 | 108 (108) | 432 | 0 | 1 / 0 | Flamengo | RSSSF (classificação geral publicada) |
 | 1940 | RSSSF + ogol | 9 | 108 (108) | 456 | 0 | 0 / 0 | Fluminense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -165,7 +168,7 @@ outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.j
 
 ### 1907
 
-- título dividido entre Fluminense e Botafogo (RSSSF: "shared"; Wikipédia: os dois): o pacote tem um campeão só (Fluminense, o primeiro da lista da RSSSF); decisão pendente com o Guilherme (como o SP-001 do Paulista de 1973)
+- título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense no campo campeao, o vice vazio e o Botafogo na observação até o banco aceitar dois campeões numa edição (D-07, como o Paulista 1973)
 - tabela publicada x jogos — Fase única / -: Botafogo tabela [6, 5, 0, 1, 14, 9] jogos [6, 5, 0, 1, 15, 9] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Fase única / -: Fluminense tabela [6, 5, 0, 1, 15, 5] jogos [6, 4, 0, 2, 15, 8] — placar diverge entre RSSSF e ogol em Fluminense x Football and Athletic (0-3 x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF
 - tabela publicada x jogos — Fase única / -: Football and Athletic tabela [6, 1, 0, 5, 2, 9] jogos [6, 2, 0, 4, 5, 10] — placar diverge entre RSSSF e ogol em Fluminense x Football and Athletic (0-3 x 1-0) e nenhuma das versões fecha com a tabela; fica a RSSSF
@@ -853,14 +856,27 @@ outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.j
 
 ### 1937
 
-- a Wikipédia conta também o São Cristóvão como campeão (pela FMD); a RSSSF diz que o torneio da FMD ficou inacabado. O pacote tem só a edição da LFRJ (Fluminense); decisão pendente com o Guilherme
-- tabela publicada x jogos — Fase única / -: São Cristóvão tabela [7, 7, 0, 0, 28, 10] jogos [22, 12, 4, 6, 67, 35] — a tabela conta 7 jogos e as fontes trazem 22
-- tabela publicada x jogos — Fase única / -: Madureira tabela [7, 5, 1, 1, 21, 7] jogos [22, 10, 3, 9, 54, 46] — a tabela conta 7 jogos e as fontes trazem 22
-- tabela publicada x jogos — Fase única / -: Vasco tabela [5, 3, 1, 1, 7, 5] jogos [22, 13, 4, 5, 84, 42] — a tabela conta 5 jogos e as fontes trazem 22
-- tabela publicada x jogos — Fase única / -: Bangu tabela [7, 3, 0, 4, 11, 15] jogos [22, 4, 2, 16, 28, 61] — a tabela conta 7 jogos e as fontes trazem 22
-- tabela publicada x jogos — Fase única / -: Olaria tabela [6, 2, 1, 3, 14, 15] jogos [22, 4, 3, 15, 37, 90] — a tabela conta 6 jogos e as fontes trazem 22
-- tabela publicada x jogos — Fase única / -: Botafogo tabela [6, 2, 1, 3, 7, 9] jogos [22, 12, 4, 6, 67, 31] — a tabela conta 6 jogos e as fontes trazem 22
-- tabela publicada x jogos — Fase única / -: Andarahy tabela [7, 0, 1, 6, 5, 21] jogos [22, 1, 1, 20, 29, 108] — a tabela conta 7 jogos e as fontes trazem 22
+- torneio da LFRJ (a liga da pacificação: FMD e LCF juntas), campeão o Fluminense. O torneio da FMD, disputado antes, é a edição "1937 FMD"
+
+### 1937 FMD
+
+- torneio da FMD, que parou na 8ª rodada (26 jogos, de 02/05 a 11/07) com a pacificação entre a FMD e a LCF; os jogos não foram anulados. A FMD proclamou o São Cristóvão campeão em 03/09/1937 (invicto, 7 vitórias em 7 jogos); o título ficou esquecido e a FERJ o homologou em dezembro de 2023, depois do dossiê do jornalista André Luiz Pereira Nunes (cerimônia em 13/01/2024; Super Rádio Tupi, 09/01/2024). A lista de campeões da RSSSF é de antes e ainda diz "unfinished": o campeão vem de importar.CAMPEOES_MANUAIS. O ogol não tem essa edição; os jogos vêm só da RSSSF
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Andarahy
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Bangu
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Botafogo
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Carioca
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Madureira
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Olaria
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): São Cristóvão
+- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Vasco
+- Andarahy — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Andarahy)
+- Bangu — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Bangu)
+- Botafogo — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Botafogo)
+- Carioca — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Carioca FC)
+- Madureira — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Madureira)
+- Olaria — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Olaria)
+- São Cristóvão — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (São Cristóvão)
+- Vasco — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Vasco)
 
 ### 1938
 
@@ -3478,8 +3494,9 @@ outros pacotes usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.j
 ## O que não deu para coletar
 
 - **Cartões:** a RSSSF não traz; o ogol tem na página de cada jogo (baixa prioridade).
-- **Autores dos gols:** quase nenhum entrou. As páginas recentes da RSSSF trazem os autores numa linha à parte, que o
-  leitor ainda não junta ao jogo (pendência).
+- **Autores dos gols:** 3.383 gols com autor, quase todos de 2010 em diante (74% dos gols dos anos 2010). Nas outras
+  décadas a RSSSF não traz os autores ou traz num formato que o leitor ainda não junta ao jogo ("Gols: ..." na linha de
+  baixo, nos anos 1900); só entram quando a soma bate com o placar (pendência).
 - **W.O. sem vencedor:** o ogol traz cerca de 66 W.O. (1908-1935) sem dizer quem venceu; o vencedor sai da tabela
   publicada, e o W.O. conta como vitória sem gols. Sem como decidir pela tabela, fica fora (ver as temporadas).
 - **Torneios à parte:** os de consolação entre os turnos (2009-2012) e as séries de subúrbio (1928-1930) ficam fora.

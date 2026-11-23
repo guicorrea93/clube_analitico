@@ -852,10 +852,30 @@ TURNO_ALCANCE = {"1º Turno": 1, "1º Turno - Semifinal": 1, "1º Turno - Final"
 # temporada -> vice(s) pela Wikipédia (quadro de títulos por clube), para a conferência do vice; campeoes() preenche
 VICES_WIKI: dict[str, str] = {}
 
+# campeão que a lista da RSSSF não traz: temporada -> (nome, motivo)
+CAMPEOES_MANUAIS: dict[str, tuple[str, str]] = {
+    "1937 FMD": ("São Cristóvão", "a RSSSF (rjcamp.htm, de antes da homologação) dá o torneio da FMD como inacabado; a FMD "
+                 "proclamou o São Cristóvão campeão em 03/09/1937 e a FERJ homologou o título em dezembro de 2023 (Super Rádio "
+                 "Tupi, 09/01/2024; Wikipédia em português, quadro de títulos)"),
+}
+# títulos divididos: temporada -> clubes campeões (o 1º é o do pacote enquanto o banco aceita um campeão só; decisão D-07)
+CAMPEOES_DIVIDIDOS: dict[str, list[str]] = {"1907": ["Fluminense", "Botafogo"]}
+# observação de cada edição (coluna "observacao" de edicoes.csv)
+OBS_EDICAO: dict[str, list[str]] = {
+    "1907": ["título dividido entre Fluminense e Botafogo: terminaram empatados, a LMSA acabou sem decidir e a FERJ declarou "
+             "os dois campeões em 1996; o pacote tem o Fluminense no campo campeao e o Botafogo nesta observação até o banco "
+             "aceitar dois campeões (D-07)"],
+    "1937": ["torneio da LFRJ, a liga da pacificação (FMD e LCF juntas); o da FMD, que parou no meio, é a edição \"1937 FMD\""],
+    "1937 FMD": ["torneio inacabado: parou na 8ª rodada (26 jogos) com a pacificação das ligas; a FMD proclamou o São "
+                 "Cristóvão campeão (invicto, 7 vitórias em 7 jogos) em 03/09/1937, e a FERJ homologou o título em dezembro "
+                 "de 2023"],
+}
+
 
 def campeoes() -> tuple[dict[str, str], dict[str, str]]:
     """Campeões pela RSSSF (rjcamp.htm): temporada -> nome; nos anos de duas ligas a linha traz "[AMEA]" / "[LCF]"...
-    1907: título dividido (Fluminense e Botafogo, "[shared]"): fica o primeiro da lista, e o outro vai na observação.
+    1907: título dividido (Fluminense e Botafogo, "[shared]"): fica o primeiro da lista, e o outro vai na observação
+    (CAMPEOES_DIVIDIDOS). 1937 FMD: a lista diz "unfinished"; o campeão vem de CAMPEOES_MANUAIS.
     E pela Wikipédia (artigo do Campeonato Carioca, quadro de títulos por clube): temporada -> nomes do ano, separados por " / "
     (nos anos de duas ligas a Wikipédia não diz qual título é de qual liga)."""
     rs: dict[str, str] = {}
@@ -875,6 +895,7 @@ def campeoes() -> tuple[dict[str, str], dict[str, str]]:
         nome = re.sub(r"\s*\(.*$", "", nome).strip()
         chave_t = f"{ano} {liga.group(1)}" if liga else f"{ano} Especial" if extra else ano
         rs.setdefault(chave_t, nome)
+    rs.update({t_: n for t_, (n, _) in CAMPEOES_MANUAIS.items()})
     wk: dict[str, str] = {}
     f = PASTA_DADOS / "wikipedia" / "pt_lista.txt"
     if f.exists():

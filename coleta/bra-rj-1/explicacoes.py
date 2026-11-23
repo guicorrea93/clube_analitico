@@ -7,7 +7,9 @@ INTRO = [
     "",
     "**Temporadas:** 1906 a 2026. Até 1959 é o campeonato do Distrito Federal (a cidade do Rio de Janeiro); de 1960 a 1974,",
     "o do estado da Guanabara; de 1975 em diante, o do estado do Rio de Janeiro. Nos anos de ligas rivais cada torneio",
-    "reconhecido é uma edição: 1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF).",
+    "reconhecido é uma edição: 1912 (AFRJ e LMSA), 1924 (LMDT e AMEA), 1933 e 1934 (AMEA e LCF), 1935 e 1936 (FMD e LCF),",
+    "1937 (LFRJ, a liga da pacificação, na temporada \"1937\"; e o torneio inacabado da FMD, \"1937 FMD\", título homologado",
+    "pela FERJ em 2023).",
     "1979 teve dois campeonatos reconhecidos: o Especial (fevereiro a abril) e o normal (maio a setembro). O campeonato do",
     "antigo estado do Rio (interior, até 1978) é outra competição e fica de fora.",
     "",
@@ -24,11 +26,19 @@ INTRO = [
 
 # temporada -> explicações conferidas à mão (contexto das ocorrências listadas logo abaixo de cada temporada)
 EXPLICACOES: dict[str, list[str]] = {
-    "1907": ["título dividido entre Fluminense e Botafogo (RSSSF: \"shared\"; Wikipédia: os dois): o pacote tem um campeão só "
-             "(Fluminense, o primeiro da lista da RSSSF); decisão pendente com o Guilherme (como o SP-001 do Paulista de 1973)"],
+    "1907": ["título dividido entre Fluminense e Botafogo: terminaram empatados (Botafogo 10 pontos e Fluminense 8 na tabela "
+             "da RSSSF, os dois com 2 pontos perdidos), não houve acordo sobre o desempate e a LMSA acabou sem declarar campeão; "
+             "em 1996 a FERJ declarou os dois campeões (RSSSF; Lance; Wikipédia). O pacote tem o Fluminense no campo campeao, o "
+             "vice vazio e o Botafogo na observação até o banco aceitar dois campeões numa edição (D-07, como o Paulista 1973)"],
     "1921": ["o desempate Flamengo x América foi 1-1 no tempo normal e 1-0 na prorrogação: fica 2-1 para o Flamengo"],
-    "1937": ["a Wikipédia conta também o São Cristóvão como campeão (pela FMD); a RSSSF diz que o torneio da FMD ficou "
-             "inacabado. O pacote tem só a edição da LFRJ (Fluminense); decisão pendente com o Guilherme"],
+    "1937": ["torneio da LFRJ (a liga da pacificação: FMD e LCF juntas), campeão o Fluminense. O torneio da FMD, disputado "
+             "antes, é a edição \"1937 FMD\""],
+    "1937 FMD": ["torneio da FMD, que parou na 8ª rodada (26 jogos, de 02/05 a 11/07) com a pacificação entre a FMD e a LCF; "
+                 "os jogos não foram anulados. A FMD proclamou o São Cristóvão campeão em 03/09/1937 (invicto, 7 vitórias em 7 "
+                 "jogos); o título ficou esquecido e a FERJ o homologou em dezembro de 2023, depois do dossiê do jornalista André "
+                 "Luiz Pereira Nunes (cerimônia em 13/01/2024; Super Rádio Tupi, 09/01/2024). A lista de campeões da RSSSF é de "
+                 "antes e ainda diz \"unfinished\": o campeão vem de importar.CAMPEOES_MANUAIS. O ogol não tem essa edição; os "
+                 "jogos vêm só da RSSSF"],
     "1979": ["artilheiro: a RSSSF dá Zico 26 no campeonato normal e 34 no Especial; a Wikipédia, o contrário. Fica a RSSSF"],
 }
 
