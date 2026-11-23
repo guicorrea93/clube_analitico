@@ -755,3 +755,18 @@ O Guilherme mandou corrigir pelo plano `docs/revisao/plano-coleta-brasil.md`. Es
    - **À revisão:** depois da recarga, rodar as varreduras `revisao/tela/varredura.py` e `revisao/tela/datas_repetidas.py`. Elas leem o banco.
 5. **Próximo bloco:** o "ERRADO NO AR" da A2 (A2-001 a A2-011).
 
+## Correções da revisão — bra-sp-2 — 23/11/2026 ("ERRADO NO AR" da A2, menos o A2-001)
+
+1. **Corrigidos** (em `coleta/bra-sp-2/`, com o motivo e a fonte ao lado de cada linha):
+   - **A2-002 a A2-005** (`importar.classificacao`): quem chegou à "Fase final" de um grupo só desempata pelos pontos dela; o vice do quadrangular final é o 2º do grupo. Vices: 1979 Santo André, 1986 Noroeste, 1996 Portuguesa Santista, 1997 Ituano. Também o 3º de 2004, que passa a ser o Taquaritinga (A2-018).
+   - **A2-006:** na classificação geral publicada, o campeão e o outro finalista vão para 1º e 2º. 2013: vice Rio Claro.
+   - **A2-007** (`importar.REBAIXADOS_WIKI`): rebaixados pelo infobox da Wikipédia pt em 2000 e de 2012 a 2026, nos anos em que a RSSSF não marca. O importador para com erro se um nome não estiver na classificação.
+   - **A2-008:** "Relegation Playoff" não é queda; a marca exige "Relegated"/"rebaixado". 1999: Juventus e Paraguaçuense sem "rebaixado".
+   - **A2-009** (`pacote.clubes_a1_por_ano`): acesso só para quem jogou a 1ª divisão no ano seguinte. Repescagem, torneio de rebaixamento e playoff A1 x A2 (até 4 jogos) não contam. Sem acesso: XV de Jaú 1950, Catanduvense 1979, Francana 2001 e Atlético Sorocaba 2002.
+   - **A2-010:** o playoff de 2002 é Francana x Portuguesa Santista (`NOME_MANUAL`); a Lusa da capital saiu da A2 de 2002.
+   - **A2-011:** 2001 com a regra da página: empate vai para os pênaltis, com 2 e 1 pontos (ou 1 e 0 no 0-0). Também a punição de -5 do Sãocarlense (`AJUSTES_MANUAIS`) e nenhum rebaixado (`SEM_REBAIXAMENTO`: "saved from relegation"). A tabela publicada agora é lida (`rsssf_sp2._tabela_2001`). Os pontos dos 16 clubes batem com ela.
+   - **A2-017:** Nacional 0-1 Ituano (03/03/2001), como o ogol. Só esse placar fecha com a tabela.
+2. **Números:** 63 edições, 9.142 jogos (sem mudança). testar_carga: `bra-sp-2: 63 edições, 9142 jogos, 0 clubes novos -> OK`.
+3. **Pedido ao agente 1:** recarregar o `bra-sp-2` (situação de acesso e rebaixado, vices e a ordem de 2001).
+4. **Próximo:** A2-001, as 17 edições de 1967-1978 e 1980-1984. É o maior bloco do plano.
+

@@ -73,7 +73,7 @@ só a lista de campeões).
 | 1998 | RSSSF + ogol | 16 | 200 (200) | 569 | 0 | 2 / 1 | União Barbarense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 1999 | RSSSF + ogol | 16 | 214 (214) | 630 | 0 | 8 / 2 | América-SP | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2000 | RSSSF + ogol | 18 | 188 (188) | 528 | 0 | 10 / 0 | São Caetano | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2001 | RSSSF + ogol | 16 | 240 (240) | 774 | 0 | 0 / 0 | Paulista | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2001 | RSSSF + ogol | 16 | 240 (240) | 774 | 0 | 0 / 2 | Paulista | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2002 | RSSSF + ogol | 17 | 128 (126) | 409 | 0 | 2 / 0 | Marília | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2003 | RSSSF + ogol | 17 | 120 (118) | 348 | 0 | 4 / 0 | Oeste | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2004 | RSSSF + ogol | 16 | 148 (148) | 419 | 0 | 3 / 2 | Inter de Limeira | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -636,14 +636,18 @@ só a lista de campeões).
 ### 2001
 
 - campeão: Etti Jundiaí, nome do Paulista FC de 1999 a 2001 (patrocínio)
-- placar diferente no ogol — Nacional-SP x Ituano (2001-03-03): RSSSF 1-0, ogol 0-1; fica o da RSSSF
+- tabela publicada x jogos — Fase única / -: América-SP tabela [30, 13, 6, 11, 54, 54] jogos [30, 13, 5, 12, 54, 54] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Olímpia tabela [30, 13, 6, 11, 56, 46] jogos [30, 13, 5, 12, 56, 46] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Bragantino tabela [30, 8, 10, 12, 41, 47] jogos [30, 8, 10, 12, 41, 46] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: América-SP tabela [30, 13, 6, 11, 54, 54] jogos [30, 13, 5, 12, 54, 54] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Olímpia tabela [30, 13, 6, 11, 56, 46] jogos [30, 13, 5, 12, 56, 46] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Fase única / -: Bragantino tabela [30, 8, 10, 12, 41, 47] jogos [30, 8, 10, 12, 41, 46] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- Sãocarlense -5 pontos — escalou jogador irregular (tabela da RSSSF; achado A2-011)
 
 ### 2002
 
-- nome da RSSSF sem clube no ogol (jogos dele ficam de fora): Portuguesa
-- Portuguesa — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Portuguesa)
-- só na RSSSF (não achado no ogol): Francana 2-2 Portuguesa (2002-06-02)
-- só na RSSSF (não achado no ogol): Portuguesa 2-2 Francana (2002-06-05)
+- só na RSSSF (não achado no ogol): Francana 2-2 Portuguesa Santista (2002-06-02)
+- só na RSSSF (não achado no ogol): Portuguesa Santista 2-2 Francana (2002-06-05)
 
 ### 2003
 

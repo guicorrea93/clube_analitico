@@ -60,13 +60,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "Autores dos gols e cartões nos anos sem RSSSF com autores: jogo a jogo, pela ficha do ogol (prioridade baixa).",
     ],
     "bra-sp-2": [
-        "Commit das edições antigas e da documentação (22/11/2026): pedir o ok do Guilherme. Depois, o agente 1 carregar a A2 "
-        "no banco (recados no fim de docs/coleta/pedidos.md).",
+        "Corrigidos em 23/11 (\"ERRADO NO AR\" do plano da revisão): A2-002 a A2-006 (vice pela fase final e pelo finalista), "
+        "A2-007 (REBAIXADOS_WIKI), A2-008 (\"Relegation Playoff\" não é queda), A2-009 (acesso só de quem jogou a A1), "
+        "A2-010 (Portuguesa Santista em 2002), A2-011 e A2-017 (2001: regra dos pênaltis, -5 do Sãocarlense, sem rebaixado). "
+        "Falta o A2-001: as 17 edições de 1967-1978 e 1980-1984.",
         "Jogos que faltam (1947-1966 fora o que a Wikipédia traz; 1988: 69 sem placar; 1989: 2ª e 3ª fases; 1990: 1ª a 3ª; "
         "1991: 1ª fase; 1992: 1ª fase; 1993 e 1994): só em jornais da época (Hemeroteca Digital, acervos do Estadão e da "
         "Folha), em imagem. Só se o Guilherme pedir.",
-        "Os mesmos achados de vice e ordem final do Paulista (SP-002, SP-007, SP-008) podem valer na A2: conferir quando "
-        "tratar o bra-sp-1 (o importador é cópia do dele).",
     ],
     "bra-rj-1": [
         "Autores dos gols: só 3.383 (quase todos de 2010 em diante). Nas outras décadas a página não traz os autores ou traz "

@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 112; **artilheiros:** 13 temporadas com artilheiro (18 linhas, com empates).
 - **Classificação final:** 134 temporadas; **rodada a rodada:** 22 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2801 linhas.
-- **No banco (`db/futebol.db`):** sim (134 edições, 21855 jogos).
+- **No banco (`db/futebol.db`):** sim (134 edições, 21791 jogos).
 - **Observação da competição:** 1ª divisão paulista, de 1902 a 2025. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio reconhecido pela federação é uma edição ("1913 LPF", "1913 APEA").
 
 ## 2. Fontes e regras

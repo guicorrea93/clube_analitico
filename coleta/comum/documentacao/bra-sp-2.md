@@ -8,7 +8,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Jogos:** 9142; **gols:** 22052; **gols com autor:** 4526 (21%); **cartões:** 0.
 - **Clubes:** 167; **artilheiros:** 53 temporadas com artilheiro (61 linhas, com empates).
 - **Classificação final:** 63 temporadas; **rodada a rodada:** 23 temporadas.
-- **Tabelas publicadas guardadas para conferência:** 1989 linhas.
+- **Tabelas publicadas guardadas para conferência:** 2021 linhas.
 - **No banco (`db/futebol.db`):** sim (63 edições, 9142 jogos).
 - **Observação da competição:** 2ª divisão paulista (Série A2 desde 1994; antes Segunda Divisão, Primeira Divisão, Divisão Intermediária, Divisão Especial, conforme a época), edições de 1947 a 2026. As edições sem os jogos em nenhuma fonte (1947-1966, 1992-1994) entram só com as tabelas, o campeão e o vice; 1989 e 1991 têm parte dos jogos. Fica de fora a fase amadora (1916-1946).
 
@@ -22,9 +22,9 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF; Wikipédia em 1965 e 1990): 128 tabelas fecham com os jogos e 31 divergem (cada divergência é explicada no relatório, na temporada).
-- Temporadas com alguma tabela divergente: 1954, 1979, 1985, 1986, 1988, 1996, 1997, 1998, 1999, 2004, 2005, 2006, 2007, 2008, 2025.
-- Temporadas sem tabela para conferir: 1947, 1950, 1951, 1952, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1987, 1989, 1991, 1992, 1993, 1994, 2001, 2014, 2022, 2023, 2024, 2026.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF; Wikipédia em 1965 e 1990): 128 tabelas fecham com os jogos e 33 divergem (cada divergência é explicada no relatório, na temporada).
+- Temporadas com alguma tabela divergente: 1954, 1979, 1985, 1986, 1988, 1996, 1997, 1998, 1999, 2001, 2004, 2005, 2006, 2007, 2008, 2025.
+- Temporadas sem tabela para conferir: 1947, 1950, 1951, 1952, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1987, 1989, 1991, 1992, 1993, 1994, 2014, 2022, 2023, 2024, 2026.
 - Temporadas com menos jogos do que o ogol: nenhuma.
 
 ## 4. Cobertura de cada campo, por década
@@ -221,13 +221,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Ponte Preta: 1
 - Velo Clube: 1
 
-**Acessos:** 74 no total; quem mais teve: Noroeste (4), São Bento (4), Ponte Preta (3), Juventus-SP (3), Catanduvense (3), Botafogo-SP (3), Rio Claro (3), Oeste (3).
+**Acessos:** 70 no total; quem mais teve: Noroeste (4), São Bento (4), Ponte Preta (3), Juventus-SP (3), Botafogo-SP (3), Rio Claro (3), Oeste (3), EC Água Santa (3).
 
-**Rebaixamentos:** 51 no total; quem mais teve: Olímpia (3), Marília (2), Noroeste (2), Taquaritinga (2), Nacional-SP (2), Bandeirante-SP (2), XV de Piracicaba (2), Juventus-SP (2).
+**Rebaixamentos:** 93 no total; quem mais teve: Marília (3), Noroeste (3), Nacional-SP (3), Olímpia (3), Rio Preto (3), XV de Piracicaba (3), Comercial-RP (3), São Caetano (2).
 
 **Punições em pontos:**
 
-- nenhuma
+- 2001: Sãocarlense -5
 
 ## 7. Correções e decisões (com o motivo)
 
@@ -281,6 +281,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **1995 · Nacional:** [3360] Nacional AC, da capital (a página de 1995 não tem a lista de participantes)
 - **1996 · XV de Novembro:** [8229] EC XV de Novembro (Piracicaba), na lista de participantes
 - **1997 · XV Piracicaba:** [8229] EC XV de Novembro (Piracicaba)
+- **2002 · Portuguesa:** [3406] o playoff Francana x "AA Portuguesa (Santos)" é com a Portuguesa Santista, não com a Lusa da capital (página e Wikipédia; achado A2-010)
 
 ### Clube das edições antigas casado à mão (`importar.MANUAL_ANTIGO`)
 
@@ -550,7 +551,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **sp1998l2.htm:** letras trocadas por "�" na página; placar com travessão; rodadas em duas colunas; "Final Table:" é a tabela do quadrangular, não outra fase; o XV de Piracicaba aparece na tabela com o nome sem a cidade
 - **sp1999l2.htm:** letras trocadas por "�" na página; placar com travessão; rodadas em duas colunas
 - **sp2000l2.htm:** letras trocadas por "�" na página; placar com travessão; a 1ª fase tem semifinal e final próprias (o vencedor sobe para a 1ª divisão na 2ª fase)
-- **sp2001l2.htm:** letras trocadas por "�" na página; placar com travessão
+- **sp2001l2.htm:** letras trocadas por "�" na página; placar com travessão; tabela com os empates abertos pela regra dos pênaltis; Nacional 0-1 Ituano (03/03/2001), como o ogol: só esse placar fecha com a tabela publicada (achado A2-017)
 - **sp2002l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2003l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2004l2.htm:** letras trocadas por "�" na página; placar com travessão
@@ -588,9 +589,8 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 ## 9. Pendências e próximos passos
 
-- Commit das edições antigas e da documentação (22/11/2026): pedir o ok do Guilherme. Depois, o agente 1 carregar a A2 no banco (recados no fim de docs/coleta/pedidos.md).
+- Corrigidos em 23/11 ("ERRADO NO AR" do plano da revisão): A2-002 a A2-006 (vice pela fase final e pelo finalista), A2-007 (REBAIXADOS_WIKI), A2-008 ("Relegation Playoff" não é queda), A2-009 (acesso só de quem jogou a A1), A2-010 (Portuguesa Santista em 2002), A2-011 e A2-017 (2001: regra dos pênaltis, -5 do Sãocarlense, sem rebaixado). Falta o A2-001: as 17 edições de 1967-1978 e 1980-1984.
 - Jogos que faltam (1947-1966 fora o que a Wikipédia traz; 1988: 69 sem placar; 1989: 2ª e 3ª fases; 1990: 1ª a 3ª; 1991: 1ª fase; 1992: 1ª fase; 1993 e 1994): só em jornais da época (Hemeroteca Digital, acervos do Estadão e da Folha), em imagem. Só se o Guilherme pedir.
-- Os mesmos achados de vice e ordem final do Paulista (SP-002, SP-007, SP-008) podem valer na A2: conferir quando tratar o bra-sp-1 (o importador é cópia do dele).
 
 ## 10. Arquivos e comandos
 

@@ -9,7 +9,7 @@ Para o agente de coleta Brasil (agente 2) que for continuar este trabalho. Leia 
 
 Este arquivo diz o que já foi feito, como foi feito e de onde continuar.
 
-Última atualização: 23/11/2026 (Carioca 1907 e 1937 FMD; Paulista "errado no ar").
+Última atualização: 23/11/2026 (Carioca 1907 e 1937 FMD; Paulista e A2 "errado no ar").
 
 **Documentação completa:** `coleta/comum/documentacao/`. Tem o índice (`README.md`) e uma ficha por competição, com:
 - tudo o que o pacote tem;
@@ -73,7 +73,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
 | `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.791 | ecafa9e; "errado no ar" corrigido neste commit (23/11) | sim; recarregar | OK |
-| `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 2342f9b | não | OK (101 clubes novos) |
+| `bra-sp-2` Paulista Série A2 | 63 (1947–1966, 1979, 1985–2026) | 9.142 | 2342f9b; A2-002 a A2-011 neste commit (23/11) | sim; recarregar | OK |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
 
@@ -93,9 +93,10 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
    - Feito em 23/11: o "ERRADO NO AR" do Paulista (SP-011, SP-002, SP-007, SP-008 menos 2024-2025, QS-001, QS-006, SP-010,
      QS-015, SP-013, QS-005, SP-009, SP-012 e SP-001, este com a coluna `co_campeao`). Ids e como em
      `docs/coleta/pedidos.md`, seção "Correções da revisão — bra-sp-1 — 23/11/2026".
-   - Próximo: o "ERRADO NO AR" da A2 (A2-001 a A2-011; o importador é cópia do Paulista: ORDEM, FASE_JOGO e
-     correcoes_revisao() de `coleta/bra-sp-1/importar.py` servem de modelo), depois o resto do plano, competição a
-     competição.
+   - Feito em 23/11: A2-002 a A2-011 e A2-017 (seção "Correções da revisão — bra-sp-2 — 23/11/2026" de
+     `docs/coleta/pedidos.md`).
+   - Próximo: A2-001 (as 17 edições de 1967-1978 e 1980-1984, como as de 1947-1966), depois o resto do plano,
+     competição a competição.
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
      PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO): se um nome não casar, o importador para com erro (não passa calado).
    - Ao corrigir, cite os ids em `docs/coleta/pedidos.md`; a revisão confere de novo.

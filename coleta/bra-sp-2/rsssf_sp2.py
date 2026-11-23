@@ -229,6 +229,21 @@ for _a in range(1947, 2026):   # antes das outras correções
     rsssf.CORRECOES[f"sp{_a}l2.htm"].insert(0, (_letras, None, "letras trocadas por \"�\" na página"))
 
 
+
+def _tabela_2001(t: str) -> str:
+    """2001: a tabela traz os empates abertos ("18  6/ 1/ 0  6": empates e as duas colunas da regra dos pênaltis); fica o
+    total de empates (jogos - vitórias - derrotas), no desenho que o leitor comum entende (achado A2-011)."""
+    def troca(m):
+        j, v, d = int(m[2]), int(m[3]), int(m[4])
+        return f"{m[1]}{j:3d} {v:2d} {j - v - d:2d} {d:2d}{m[5]}"
+    return re.sub(r"(?m)^(\s*\d+\.\S.*?)\s+(\d+)\s+(\d+)\s+\d+/\s*\d+/\s*\d+\s+(\d+)(\s+\d+-\d+.*)$", troca, t)
+
+
+rsssf.CORRECOES.setdefault("sp2001l2.htm", []).append((_tabela_2001, None, "tabela com os empates abertos pela regra dos pênaltis"))
+rsssf.CORRECOES["sp2001l2.htm"].append(
+    (r"(?m)^Nacional(\s+)1-0(\s+)Ituano", r"Nacional\g<1>0-1\g<2>Ituano",
+     "Nacional 0-1 Ituano (03/03/2001), como o ogol: só esse placar fecha com a tabela publicada (achado A2-017)"))
+
 # a A2 não tem torneio à parte na página (no Paulista: Troféu do Interior); o importador comum pergunta
 ANOS_A_PARTE: set[int] = set()
 

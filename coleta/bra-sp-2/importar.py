@@ -139,6 +139,57 @@ NOME_MANUAL: dict[tuple[str, str], tuple[str, str]] = {
     ("1995", "Nacional"): ("3360", "Nacional AC, da capital (a página de 1995 não tem a lista de participantes)"),
     ("1996", "XV de Novembro"): ("8229", "EC XV de Novembro (Piracicaba), na lista de participantes"),
     ("1997", "XV Piracicaba"): ("8229", "EC XV de Novembro (Piracicaba)"),
+    ("2002", "Portuguesa"): ("3406", "o playoff Francana x \"AA Portuguesa (Santos)\" é com a Portuguesa Santista, não com a "
+                                     "Lusa da capital (página e Wikipédia; achado A2-010)"),
+}
+# temporadas sem rebaixado, embora a tabela da RSSSF marque "Relegated": temporada -> motivo
+SEM_REBAIXAMENTO: dict[str, str] = {
+    "2001": "Comercial e Sãocarlense \"saved from relegation\" com a criação do Rio-São Paulo de 2002 (nota da tabela)",
+}
+# punições de pontos: (temporada, clube) -> (pontos, motivo)
+AJUSTES_MANUAIS: dict[tuple[str, str], tuple[int, str]] = {
+    ("2001", "Sãocarlense"): (-5, "escalou jogador irregular (tabela da RSSSF; achado A2-011)"),
+}
+# temporadas em que o empate vai para os pênaltis e muda os pontos: vitória 3; empate com gols, 2 para quem ganha os
+# pênaltis e 1 para quem perde; 0-0, 1 e 0 (nota da página de 2001 da RSSSF; achado A2-011)
+PONTOS_PENALTIS = {"2001": "empates decididos nos pênaltis"}
+
+
+def pontos_penaltis(partidas) -> dict[str, int]:
+    pts: dict[str, int] = defaultdict(int)
+    for p in partidas:
+        if p.gm is None:
+            continue
+        if p.gm != p.gv:
+            pts[p.mandante if p.gm > p.gv else p.visitante] += 3
+            continue
+        pts[p.mandante] += 0; pts[p.visitante] += 0
+        if p.pen_m is None:
+            raise ValueError(f"empate sem pênaltis numa temporada de PONTOS_PENALTIS: {nome(p.mandante)} x {nome(p.visitante)}")
+        venc, perd = (p.mandante, p.visitante) if p.pen_m > p.pen_v else (p.visitante, p.mandante)
+        pts[venc] += 1 if p.gm == 0 else 2
+        pts[perd] += 0 if p.gm == 0 else 1
+    return pts
+
+
+# rebaixados pelo infobox da Wikipédia pt de cada edição, nos anos em que as tabelas da RSSSF não marcam "Relegated"
+# (achado A2-007; conferido pela revisão em revisao/A2/rebaixados_wiki.py: todos somem da A2 e da A1 no ano seguinte)
+REBAIXADOS_WIKI: dict[str, list[str]] = {
+    "2000": ["Oeste", "XV de Piracicaba"],
+    "2012": ["Palmeiras (B)", "Rio Preto", "União São João", "América-SP"],
+    "2013": ["Noroeste", "São Carlos", "Santacruzense", "Juventus-SP"],
+    "2014": ["Barueri", "Grêmio Osasco", "Itapirense", "São José-SP"],
+    "2015": ["Comercial-RP", "Matonense", "Catanduvense", "Guaratinguetá"],
+    "2016": ["Paulista", "Monte Azul", "Independente de Limeira", "Atlético Sorocaba", "Marília", "Rio Branco-SP"],
+    "2017": ["Barretos", "Capivariano", "Mogi Mirim", "Rio Preto", "União Barbarense", "Velo Clube"],
+    "2018": ["Osasco Audax", "Batatais"],
+    "2019": ["Nacional-SP", "Linense"],
+    "2020": ["CA Votuporanguense", "Penapolense"],
+    "2022": ["Osasco Audax", "Red Bull Bragantino II"],
+    "2023": ["Lemense", "São Caetano"],
+    "2024": ["Comercial-RP", "Monte Azul"],
+    "2025": ["Portuguesa Santista", "Rio Claro"],
+    "2026": ["Grêmio Prudente", "São Bento"],
 }
 # jogos do calendário do ogol que estão errados (a RSSSF e a tabela publicada mostram outro jogo): código do jogo -> motivo
 OGOL_IGNORAR: dict[str, str] = {}
@@ -795,10 +846,13 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     Quando a RSSSF publica a classificação geral com todos os clubes e ela fecha com os jogos, vale a ordem dela."""
     camp = campanha(partidas)
     pv = pontos_vitoria(ano)
+    sem_nivel = sorted({p.fase for p in partidas} - set(ORDEM))
+    if sem_nivel:   # fase nova sem nível: antes caía num padrão 50, acima da Final (achado SP-002 do Paulista)
+        raise ValueError(f"{ano}: fase sem nível no ORDEM: {sem_nivel}")
     ordem_fase: dict[str, int] = {}
     for p in partidas:
         # torneio de rebaixamento e repescagem não são avanço: quem os joga fica com a fase anterior
-        ordem_fase.setdefault(p.fase, 0 if p.fase in ("Torneio de rebaixamento", "Repescagem") else ORDEM.get(p.fase, 50))
+        ordem_fase.setdefault(p.fase, 0 if p.fase in ("Torneio de rebaixamento", "Repescagem") else ORDEM[p.fase])
     alcance: dict[str, int] = defaultdict(int)
     for p in partidas:
         for c in (p.mandante, p.visitante):
@@ -807,13 +861,22 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
     vice = None
     if campeao and final:
         fin = {x for p in final for x in (p.mandante, p.visitante)} - {campeao}
-        vice = next(iter(fin)) if len(fin) == 1 else None
+        if len(fin) == 1:
+            vice = next(iter(fin))
+        elif fin:   # quadrangular/triangular final: o vice é o 2º do grupo final
+            cf = campanha(final)
+            vice = max(fin, key=lambda c: (pv * cf[c][1] + cf[c][2], cf[c][1], cf[c][4] - cf[c][5], cf[c][4]))
+    # liga decisiva de um grupo só ("Fase final", 1979, 1986, 1996, 1997): quem chegou a ela desempata pelos pontos dela
+    # antes dos totais (achados A2-002 a A2-005)
+    ff = [p for p in partidas if p.fase == "Fase final"]
+    cff = campanha(ff) if ff and len({p.grupo for p in ff}) == 1 else {}
+    especiais = pontos_penaltis(partidas) if str(ano) in PONTOS_PENALTIS else None
     def pts(c):
         x = camp[c]
-        return pv * x[1] + x[2] + ajustes.get(c, 0)
+        return (especiais[c] if especiais is not None else pv * x[1] + x[2]) + ajustes.get(c, 0)
     def chave(c):
-        x = camp[c]
-        return (c != campeao, c != vice, -alcance[c], -pts(c), -x[1], -(x[4] - x[5]), -x[4], nome(c))
+        x, y = camp[c], cff.get(c, [0] * 6)
+        return (c != campeao, c != vice, -alcance[c], -(pv * y[1] + y[2]), -pts(c), -x[1], -(x[4] - x[5]), -x[4], nome(c))
     # classificação geral publicada pela RSSSF (todos os clubes da edição)
     geral = [(tb, linhas) for tb, linhas, _ in tabs if len(linhas) >= len(camp) and len(tb.linhas) >= len(camp)]
     fonte = "calculada (fase alcançada, pontos, vitórias, saldo, gols pró)"
@@ -824,6 +887,8 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
         if bate >= 0.9 * len(camp):   # a ordem das linhas é a ordem da tabela
             ordem = list(linhas) + [c for c in ordem if c not in linhas]
             fonte = "RSSSF (classificação geral publicada)"
+            # a tabela geral soma pontos: o campeão e o outro finalista vão para o 1º e o 2º (A2-006, 2013)
+            ordem = [c for c in (campeao, vice) if c in ordem] + [c for c in ordem if c not in (campeao, vice)]
     saida = []
     for i, c in enumerate(ordem, 1):
         x = camp[c]
@@ -833,7 +898,7 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
 
 
 ORDEM = {"Primeira fase": 1, "Segunda fase": 2, "Terceira fase": 3, "Quarta fase": 4, "Mata-mata": 5, "Primeira fase eliminatória": 5,
-         "Oitavas de final": 6, "Quartas de final": 7, "Semifinal": 8, "Fase final": 9, "Final": 10,
+         "Oitavas de final": 6, "Quartas de final": 7, "Semifinal": 8, "Fase final": 9, "Final": 10, "Fase única": 1,
          # A2: fases paralelas ou intermediárias
          "Primeira fase - Semifinal": 1.3, "Primeira fase - Final": 1.6, "1º Turno": 1, "2º Turno": 2, "3º Turno": 3,
          "Torneio de rebaixamento": 2.5, "Repescagem": 11, "Primeira fase - Desempate": 1.5}
@@ -920,7 +985,10 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
         if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv:
             p.gols = []
     ids = {x for p in partidas for x in (p.mandante, p.visitante)}
-    ajustes = {}   # Paulista: sem punições lidas da Wikipédia
+    ajustes = {c: v for (tt, n), (v, _) in AJUSTES_MANUAIS.items() if tt == str(ano) for c in ids if nome(c) == n}
+    for (tt, n), (v, motivo) in AJUSTES_MANUAIS.items():
+        if tt == str(ano):
+            log.append(f"{ano}: {n} {v:+d} pontos — {motivo}")
     # campeão: vencedor da final; conferido com a RSSSF e a Wikipédia (final empatada sem pênaltis: vale a lista oficial)
     campeao = vencedor_final(partidas)
     oficial = campeao_oficial(ano, partidas, rs_campeoes, wk_campeoes)
@@ -1463,7 +1531,7 @@ def classificacao_antiga(ano: str, tbs: list, rs_c: dict, wk_c: dict, log: list[
                       "gc": r.get("gc") if cheia else None, "pts": r["pts"] if cheia else None, "ajuste": 0,
                       "fonte": f"{tb.fonte} (" + ("ordem final publicada" if so_ordem else "tabela final publicada" if uma_tabela
                                                     else "tabelas de pontos: fase alcançada, posição e pontos da última fase") + ")",
-                      "obs": "; ".join(partes), "rebaixado": bool(re.search(r"relegat|rebaixad", r.get("nota") or "", re.I))})
+                      "obs": "; ".join(partes), "rebaixado": bool(re.search(r"relegated|rebaixad", r.get("nota") or "", re.I))})
     return saida, campeao
 
 

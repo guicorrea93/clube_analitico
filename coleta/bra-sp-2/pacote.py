@@ -12,7 +12,7 @@ from collections import Counter, defaultdict
 
 import clubes_sp2
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
-from importar import FONTE_RSSSF, FORMATO_INCOMPLETO, ORDEM, nome, pontos_vitoria
+from importar import FONTE_RSSSF, FORMATO_INCOMPLETO, ORDEM, REBAIXADOS_WIKI, SEM_REBAIXAMENTO, nome, pontos_vitoria
 from observacao import obs_pt
 from rsssf_sp2 import rsssf
 
@@ -69,13 +69,22 @@ def infobox(ano: int) -> dict:
 
 
 def clubes_a1_por_ano() -> dict[int, set[str]]:
-    """Clubes (nome de exibição) de cada edição do pacote da 1ª divisão (data/coleta/bra-sp-1/pacote/classificacao_final.csv)."""
-    f = PASTA_DADOS.parent / "bra-sp-1" / "pacote" / "classificacao_final.csv"
-    saida: dict[int, set[str]] = defaultdict(set)
+    """Clubes (nome de exibição) que jogaram a 1ª divisão em cada ano (data/coleta/bra-sp-1/pacote/partidas.csv). Quem só
+    jogou repescagem, torneio de rebaixamento ou o playoff A1 x A2 (até 4 jogos) não conta: XV de Jaú 1951, Catanduvense
+    1980, Francana 2002 e Atlético Sorocaba 2003 perderam a vaga (achado A2-009)."""
+    f = PASTA_DADOS.parent / "bra-sp-1" / "pacote" / "partidas.csv"
+    jogos: dict[tuple[int, str], int] = Counter()
     if f.exists():
         with open(f, encoding="utf-8") as arq:
             for r in csv.DictReader(arq):
-                saida[int(r["temporada"][:4])].add(r["clube"])
+                if r["fase"] in ("Repescagem", "Torneio de rebaixamento", "Desempate"):
+                    continue
+                for c in (r["mandante"], r["visitante"]):
+                    jogos[(int(r["temporada"][:4]), c)] += 1
+    saida: dict[int, set[str]] = defaultdict(set)
+    for (ano, c), n in jogos.items():
+        if n > 4:
+            saida[ano].add(c)
     return saida
 
 
@@ -150,18 +159,23 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         final = e["final"]
         campeao = e["campeao"]
         rebaixados = rebaixados_rsssf(e)   # marcas "Relegated" das tabelas da RSSSF
+        if str(ano) in SEM_REBAIXAMENTO:
+            rebaixados = set()
         usados |= {f["clube"] for f in final}   # edições sem os jogos: os clubes vêm das tabelas
         ib = infobox(ano)
         # acesso: o clube que joga a 1ª divisão no ano seguinte (pacote bra-sp-1), sem ter jogado a 1ª deste ano
         subiram = na_a1.get(int(str(ano)[:4]) + 1, set()) - na_a1.get(int(str(ano)[:4]), set())
+        faltam = set(REBAIXADOS_WIKI.get(str(ano), [])) - {nome(f["clube"]) for f in final}
+        if faltam:
+            raise ValueError(f"{ano}: rebaixado da Wikipédia fora da classificação: {sorted(faltam)}")
         for f in final:
             c = f["clube"]
-            sit = ("campeao" if c == campeao else "acesso" if nome(c) in subiram
-                   else "rebaixado" if c in rebaixados or f.get("rebaixado") else "")
+            caiu = (c in rebaixados or f.get("rebaixado") or nome(c) in REBAIXADOS_WIKI.get(str(ano), []))                 and str(ano) not in SEM_REBAIXAMENTO
+            sit = "campeao" if c == campeao else "acesso" if nome(c) in subiram else "rebaixado" if caiu else ""
             if f["pos"] == 2 and sit == "" and len(final) > 1 and campeao:
                 sit = "vice"
             linhas_cf.append([str(ano), f["pos"], nome(c), f["j"], f["v"], f["e"], f["d"], f["gp"], f["gc"], f["pts"], f["ajuste"] or 0, sit,
-                              f["fonte"], f.get("obs") or ("punição de pontos (Wikipédia)" if f["ajuste"] else "")])
+                              f["fonte"], f.get("obs") or ("punição de pontos (ver o relatório da coleta)" if f["ajuste"] else "")])
         # tabelas publicadas
         for tb, linhas, nome_id in e["tabs"]:
             if not getattr(tb, "publicada", True):   # 1990: só a lista de participantes
@@ -301,7 +315,8 @@ def rebaixados_rsssf(e: dict) -> set[str]:
     saida = set()
     for tb, linhas, nome_id in e["tabs"]:
         for r in tb.linhas:
-            if re.search(r"relegat|rebaixad", r.get("obs", ""), re.I):
+            # "Relegated" / "rebaixado"; "Relegation Playoff" (1999) é só a vaga no torneio de rebaixamento (A2-008)
+            if re.search(r"relegated|rebaixad", r.get("obs", ""), re.I):
                 if r.get("clube_id") or r["nome"] in nome_id:
                     saida.add(r.get("clube_id") or nome_id[r["nome"]])
     return saida

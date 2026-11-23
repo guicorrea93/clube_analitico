@@ -19,9 +19,9 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 1964,1964,1964,Campeonato Paulista Primeira Divisão,22,2,jogos incompletos (os pontos de cada fase e 1 jogo: segunda fase),Portuguesa Santista,Ponte Preta,RSSSF Brasil + Wikipédia,1 jogo da Wikipédia em português (segunda fase)
 1965,1965,1965,Campeonato Paulista Primeira Divisão,22,2,jogos incompletos (os pontos de cada fase e 2 jogos: final),Bragantino,Barretos,Wikipédia,sem página da RSSSF: as tabelas dos dois grupos e a final vêm da Wikipédia em português; 2 jogos da Wikipédia em português (final)
 1966,1966,1966,Campeonato Paulista Primeira Divisão,24,2,jogos incompletos (os pontos de cada fase e 2 jogos: final),Ferroviária-SP,XV de Piracicaba,RSSSF Brasil + Wikipédia,2 jogos da Wikipédia em português (final)
-1979,1979,1979,Campeonato Paulista Divisão Intermediária,21,2,2 grupos + pontos corridos + mata-mata,Taubaté,São José-SP,RSSSF Brasil,
+1979,1979,1979,Campeonato Paulista Divisão Intermediária,21,2,2 grupos + pontos corridos + mata-mata,Taubaté,Santo André,RSSSF Brasil,
 1985,1985,1985,Campeonato Paulista Segunda Divisão,52,2,4 grupos + pontos corridos,Mogi Mirim,GE Novorizontino,RSSSF Brasil,
-1986,1986,1986,Campeonato Paulista Segunda Divisão,55,2,4 grupos + mata-mata + pontos corridos,Bandeirante-SP,EC São Bernardo,RSSSF Brasil,
+1986,1986,1986,Campeonato Paulista Segunda Divisão,55,2,4 grupos + mata-mata + pontos corridos,Bandeirante-SP,Noroeste,RSSSF Brasil,
 1987,1987,1987,Campeonato Paulista Divisão Especial,54,2,6 grupos + 4 grupos + 2 grupos + mata-mata,União São João,São José-SP,RSSSF Brasil,
 1988,1988,1988,Campeonato Paulista Divisão Especial,28,2,pontos corridos + 4 grupos + 2 grupos + mata-mata,Bragantino,Catanduvense,RSSSF Brasil + ogol,69 jogos da 1ª fase vêm na fonte sem placar (só quem venceu) e ficam fora
 1989,1989,1989,Campeonato Paulista Divisão Especial,27,2,2 grupos + mata-mata (jogos incompletos),Ituano,Ponte Preta,RSSSF Brasil + ogol + Wikipédia,"jogos incompletos: a 1ª fase (RSSSF), as semifinais (Wikipédia) e a final (ogol); faltam a 2ª e a 3ª fase"
@@ -31,12 +31,12 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 1993,1993,1993,Campeonato Paulista Divisão Intermediária,28,2,sem jogos (só a ordem final),Paraguaçuense,Comercial-RP,RSSSF Brasil,"com a mudança das divisões da FPF, os clubes foram redistribuídos em 1994 (Série A2, A3 e B1)"
 1994,1994,1994,Campeonato Paulista Série A2,16,2,sem jogos (só a tabela final),Araçatuba,Juventus-SP,RSSSF Brasil,
 1995,1995,1995,Campeonato Paulista Série A2,16,3,pontos corridos,Mogi Mirim,XV de Jaú,RSSSF Brasil,
-1996,1996,1996,Campeonato Paulista Série A2,16,3,pontos corridos,Inter de Limeira,Ituano,RSSSF Brasil,
-1997,1997,1997,Campeonato Paulista Série A2,16,3,2 grupos + pontos corridos,Matonense,Santo André,RSSSF Brasil,
+1996,1996,1996,Campeonato Paulista Série A2,16,3,pontos corridos,Inter de Limeira,Portuguesa Santista,RSSSF Brasil,
+1997,1997,1997,Campeonato Paulista Série A2,16,3,2 grupos + pontos corridos,Matonense,Ituano,RSSSF Brasil,
 1998,1998,1998,Campeonato Paulista Série A2,16,3,pontos corridos,União Barbarense,América-SP,RSSSF Brasil + ogol,
 1999,1999,1999,Campeonato Paulista Série A2,16,3,2 grupos + pontos corridos + 2 grupos + mata-mata,América-SP,Ponte Preta,RSSSF Brasil + ogol,
 2000,2000,2000,Campeonato Paulista Série A2,18,3,3 grupos + mata-mata + pontos corridos + mata-mata,São Caetano,Paulista,RSSSF Brasil + ogol,
-2001,2001,2001,Campeonato Paulista Série A2,16,3,pontos corridos,Paulista,Santo André,RSSSF Brasil + ogol,
+2001,2001,2001,Campeonato Paulista Série A2,16,3,pontos corridos,Paulista,Santo André,RSSSF Brasil + ogol + Wikipédia,
 2002,2002,2002,Campeonato Paulista Série A2,17,3,pontos corridos + mata-mata,Marília,Francana,RSSSF Brasil + ogol,
 2003,2003,2003,Campeonato Paulista Série A2,17,3,2 grupos + mata-mata,Oeste,Atlético Sorocaba,RSSSF Brasil + ogol,
 2004,2004,2004,Campeonato Paulista Série A2,16,3,4 grupos + pontos corridos,Inter de Limeira,Taubaté,RSSSF Brasil + ogol,
@@ -48,7 +48,7 @@ temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,camp
 2010,2010,2010,Campeonato Paulista Série A2,20,3,pontos corridos + 2 grupos,Linense,Noroeste,RSSSF Brasil + ogol,
 2011,2011,2011,Campeonato Paulista Série A2,20,3,2 grupos + mata-mata,XV de Piracicaba,Guarani,RSSSF Brasil + ogol,
 2012,2012,2012,Campeonato Paulista Série A2,20,3,pontos corridos + 2 grupos + mata-mata,São Bernardo,União Barbarense,RSSSF Brasil + ogol,
-2013,2013,2013,Campeonato Paulista Série A2,20,3,pontos corridos + mata-mata,Portuguesa,Osasco Audax,RSSSF Brasil + ogol,
+2013,2013,2013,Campeonato Paulista Série A2,20,3,pontos corridos + mata-mata,Portuguesa,Rio Claro,RSSSF Brasil + ogol,
 2014,2014,2014,Campeonato Paulista Série A2,20,3,pontos corridos,Capivariano,Red Bull Bragantino II,RSSSF Brasil + ogol,
 2015,2015,2015,Campeonato Paulista Série A2,20,3,pontos corridos,Ferroviária-SP,Novorizontino,RSSSF Brasil + ogol,
 2016,2016,2016,Campeonato Paulista Série A2,20,3,pontos corridos + mata-mata,Santo André,Mirassol,RSSSF Brasil + ogol,

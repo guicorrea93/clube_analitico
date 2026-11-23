@@ -877,8 +877,8 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,1,Sãocarlense,12,0,1,0,0,1,1,2,meio
 2001,Fase única,1,Ituano,13,0,1,0,0,1,0,1,meio
 2001,Fase única,1,São José-SP,14,0,1,0,0,1,0,1,meio
-2001,Fase única,1,Francana,15,0,1,0,0,1,1,3,meio
-2001,Fase única,1,Comercial-RP,16,0,1,0,0,1,0,2,meio
+2001,Fase única,1,Francana,15,0,1,0,0,1,1,3,rebaixamento
+2001,Fase única,1,Comercial-RP,16,0,1,0,0,1,0,2,rebaixamento
 2001,Fase única,2,Bragantino,1,6,2,2,0,0,7,3,titulo
 2001,Fase única,2,Olímpia,2,6,2,2,0,0,4,2,meio
 2001,Fase única,2,Juventus-SP,3,4,2,1,1,0,6,1,meio
@@ -893,8 +893,8 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,2,Ituano,12,1,2,0,1,1,2,3,meio
 2001,Fase única,2,São José-SP,13,1,2,0,1,1,2,3,meio
 2001,Fase única,2,Nacional-SP,14,1,2,0,1,1,3,5,meio
-2001,Fase única,2,Francana,15,0,2,0,0,2,2,5,meio
-2001,Fase única,2,Comercial-RP,16,0,2,0,0,2,1,8,meio
+2001,Fase única,2,Francana,15,0,2,0,0,2,2,5,rebaixamento
+2001,Fase única,2,Comercial-RP,16,0,2,0,0,2,1,8,rebaixamento
 2001,Fase única,3,Bragantino,1,7,3,2,1,0,8,4,titulo
 2001,Fase única,3,Mirassol,2,7,3,2,1,0,5,2,meio
 2001,Fase única,3,Olímpia,3,7,3,2,1,0,5,3,meio
@@ -909,8 +909,8 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,3,Ituano,12,2,3,0,2,1,3,4,meio
 2001,Fase única,3,Nacional-SP,13,2,3,0,2,1,4,6,meio
 2001,Fase única,3,São José-SP,14,1,3,0,1,2,2,4,meio
-2001,Fase única,3,Francana,15,0,3,0,0,3,3,9,meio
-2001,Fase única,3,Comercial-RP,16,0,3,0,0,3,2,10,meio
+2001,Fase única,3,Francana,15,0,3,0,0,3,3,9,rebaixamento
+2001,Fase única,3,Comercial-RP,16,0,3,0,0,3,2,10,rebaixamento
 2001,Fase única,4,Bragantino,1,10,4,3,1,0,10,5,titulo
 2001,Fase única,4,América-SP,2,10,4,3,1,0,7,2,meio
 2001,Fase única,4,Santo André,3,9,4,3,0,1,4,2,meio
@@ -925,8 +925,8 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,4,Sãocarlense,12,3,4,1,0,3,3,5,meio
 2001,Fase única,4,Francana,13,3,4,1,0,3,4,9,meio
 2001,Fase única,4,Paulista,14,2,4,0,2,2,4,6,meio
-2001,Fase única,4,São José-SP,15,2,4,0,2,2,4,6,meio
-2001,Fase única,4,Comercial-RP,16,1,4,0,1,3,3,11,meio
+2001,Fase única,4,São José-SP,15,2,4,0,2,2,4,6,rebaixamento
+2001,Fase única,4,Comercial-RP,16,1,4,0,1,3,3,11,rebaixamento
 2001,Fase única,5,América-SP,1,13,5,4,1,0,11,3,titulo
 2001,Fase única,5,Bragantino,2,10,5,3,1,1,12,8,meio
 2001,Fase única,5,Olímpia,3,10,5,3,1,1,11,9,meio
@@ -941,8 +941,8 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,5,Paulista,12,5,5,1,2,2,9,7,meio
 2001,Fase única,5,Sãocarlense,13,4,5,1,1,3,6,8,meio
 2001,Fase única,5,Francana,14,4,5,1,1,3,5,10,meio
-2001,Fase única,5,São José-SP,15,2,5,0,2,3,5,11,meio
-2001,Fase única,5,Comercial-RP,16,1,5,0,1,4,4,15,meio
+2001,Fase única,5,São José-SP,15,2,5,0,2,3,5,11,rebaixamento
+2001,Fase única,5,Comercial-RP,16,1,5,0,1,4,4,15,rebaixamento
 2001,Fase única,6,América-SP,1,16,6,5,1,0,15,4,titulo
 2001,Fase única,6,Olímpia,2,13,6,4,1,1,13,10,meio
 2001,Fase única,6,Santo André,3,12,6,4,0,2,7,4,meio
@@ -950,31 +950,31 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,6,Bragantino,5,10,6,3,1,2,13,10,meio
 2001,Fase única,6,Mirassol,6,10,6,3,1,2,12,11,meio
 2001,Fase única,6,Juventus-SP,7,9,6,2,3,1,13,9,meio
-2001,Fase única,6,Nacional-SP,8,9,6,2,3,1,8,8,meio
+2001,Fase única,6,Ituano,8,9,6,2,3,1,10,8,meio
 2001,Fase única,6,Paulista,9,8,6,2,2,2,12,9,meio
 2001,Fase única,6,Araçatuba,10,8,6,2,2,2,7,8,meio
 2001,Fase única,6,Paraguaçuense,11,6,6,2,0,4,10,13,meio
-2001,Fase única,6,Ituano,12,6,6,1,3,2,9,9,meio
+2001,Fase única,6,Nacional-SP,12,6,6,1,3,2,7,9,meio
 2001,Fase única,6,Sãocarlense,13,5,6,1,2,3,7,9,meio
 2001,Fase única,6,Francana,14,5,6,1,2,3,6,11,meio
-2001,Fase única,6,São José-SP,15,2,6,0,2,4,6,15,meio
-2001,Fase única,6,Comercial-RP,16,1,6,0,1,5,6,18,meio
+2001,Fase única,6,São José-SP,15,2,6,0,2,4,6,15,rebaixamento
+2001,Fase única,6,Comercial-RP,16,1,6,0,1,5,6,18,rebaixamento
 2001,Fase única,7,América-SP,1,16,7,5,1,1,17,7,titulo
 2001,Fase única,7,Olímpia,2,16,7,5,1,1,17,12,meio
 2001,Fase única,7,Santo André,3,13,7,4,1,2,8,5,meio
 2001,Fase única,7,Juventus-SP,4,12,7,3,3,1,17,9,meio
-2001,Fase única,7,Paulista,5,11,7,3,2,2,15,11,meio
-2001,Fase única,7,Rio Preto,6,11,7,3,2,2,13,11,meio
-2001,Fase única,7,Mirassol,7,11,7,3,2,2,13,12,meio
-2001,Fase única,7,Bragantino,8,10,7,3,1,3,14,12,meio
-2001,Fase única,7,Paraguaçuense,9,9,7,3,0,4,12,14,meio
-2001,Fase única,7,Ituano,10,9,7,2,3,2,12,11,meio
-2001,Fase única,7,Nacional-SP,11,9,7,2,3,2,9,10,meio
-2001,Fase única,7,Sãocarlense,12,8,7,2,2,3,9,10,meio
-2001,Fase única,7,Araçatuba,13,8,7,2,2,3,7,12,meio
+2001,Fase única,7,Ituano,5,12,7,3,3,1,13,10,meio
+2001,Fase única,7,Paulista,6,11,7,3,2,2,15,11,meio
+2001,Fase única,7,Rio Preto,7,11,7,3,2,2,13,11,meio
+2001,Fase única,7,Mirassol,8,11,7,3,2,2,13,12,meio
+2001,Fase única,7,Bragantino,9,10,7,3,1,3,14,12,meio
+2001,Fase única,7,Paraguaçuense,10,9,7,3,0,4,12,14,meio
+2001,Fase única,7,Sãocarlense,11,8,7,2,2,3,9,10,meio
+2001,Fase única,7,Araçatuba,12,8,7,2,2,3,7,12,meio
+2001,Fase única,7,Nacional-SP,13,6,7,1,3,3,8,11,meio
 2001,Fase única,7,Francana,14,5,7,1,2,4,8,14,meio
-2001,Fase única,7,Comercial-RP,15,4,7,1,1,5,7,18,meio
-2001,Fase única,7,São José-SP,16,2,7,0,2,5,6,16,meio
+2001,Fase única,7,Comercial-RP,15,4,7,1,1,5,7,18,rebaixamento
+2001,Fase única,7,São José-SP,16,2,7,0,2,5,6,16,rebaixamento
 2001,Fase única,8,América-SP,1,16,8,5,1,2,17,9,titulo
 2001,Fase única,8,Olímpia,2,16,8,5,1,2,18,14,meio
 2001,Fase única,8,Santo André,3,16,8,5,1,2,10,6,meio
@@ -982,118 +982,118 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,8,Bragantino,5,13,8,4,1,3,17,13,meio
 2001,Fase única,8,Paraguaçuense,6,12,8,4,0,4,16,16,meio
 2001,Fase única,8,Juventus-SP,7,12,8,3,3,2,18,12,meio
-2001,Fase única,8,Rio Preto,8,12,8,3,3,2,14,12,meio
-2001,Fase única,8,Mirassol,9,12,8,3,3,2,14,13,meio
-2001,Fase única,8,Ituano,10,9,8,2,3,3,13,13,meio
+2001,Fase única,8,Ituano,8,12,8,3,3,2,14,12,meio
+2001,Fase única,8,Rio Preto,9,12,8,3,3,2,14,12,meio
+2001,Fase única,8,Mirassol,10,12,8,3,3,2,14,13,meio
 2001,Fase única,8,Sãocarlense,11,9,8,2,3,3,11,12,meio
-2001,Fase única,8,Nacional-SP,12,9,8,2,3,3,13,15,meio
-2001,Fase única,8,Francana,13,8,8,2,2,4,10,14,meio
-2001,Fase única,8,Araçatuba,14,8,8,2,2,4,9,16,meio
-2001,Fase única,8,Comercial-RP,15,7,8,2,1,5,12,22,meio
-2001,Fase única,8,São José-SP,16,3,8,0,3,5,8,18,meio
+2001,Fase única,8,Francana,12,8,8,2,2,4,10,14,meio
+2001,Fase única,8,Araçatuba,13,8,8,2,2,4,9,16,meio
+2001,Fase única,8,Comercial-RP,14,7,8,2,1,5,12,22,meio
+2001,Fase única,8,Nacional-SP,15,6,8,1,3,4,12,16,rebaixamento
+2001,Fase única,8,São José-SP,16,3,8,0,3,5,8,18,rebaixamento
 2001,Fase única,9,América-SP,1,17,9,5,2,2,19,11,titulo
 2001,Fase única,9,Paulista,2,17,9,5,2,2,20,14,meio
 2001,Fase única,9,Olímpia,3,16,9,5,1,3,20,17,meio
 2001,Fase única,9,Santo André,4,16,9,5,1,3,11,8,meio
 2001,Fase única,9,Juventus-SP,5,15,9,4,3,2,19,12,meio
 2001,Fase única,9,Bragantino,6,13,9,4,1,4,18,15,meio
-2001,Fase única,9,Rio Preto,7,13,9,3,4,2,16,14,meio
-2001,Fase única,9,Paraguaçuense,8,12,9,4,0,5,17,18,meio
-2001,Fase única,9,Mirassol,9,12,9,3,3,3,15,15,meio
-2001,Fase única,9,Sãocarlense,10,12,9,3,3,3,13,13,meio
-2001,Fase única,9,Nacional-SP,11,12,9,3,3,3,15,16,meio
+2001,Fase única,9,Ituano,7,13,9,3,4,2,16,14,meio
+2001,Fase única,9,Rio Preto,8,13,9,3,4,2,16,14,meio
+2001,Fase única,9,Paraguaçuense,9,12,9,4,0,5,17,18,meio
+2001,Fase única,9,Mirassol,10,12,9,3,3,3,15,15,meio
+2001,Fase única,9,Sãocarlense,11,12,9,3,3,3,13,13,meio
 2001,Fase única,9,Comercial-RP,12,10,9,3,1,5,14,23,meio
-2001,Fase única,9,Ituano,13,10,9,2,4,3,15,15,meio
+2001,Fase única,9,Nacional-SP,13,9,9,2,3,4,14,17,meio
 2001,Fase única,9,Araçatuba,14,9,9,2,3,4,11,18,meio
-2001,Fase única,9,Francana,15,8,9,2,2,5,10,15,meio
-2001,Fase única,9,São José-SP,16,6,9,1,3,5,10,19,meio
+2001,Fase única,9,Francana,15,8,9,2,2,5,10,15,rebaixamento
+2001,Fase única,9,São José-SP,16,6,9,1,3,5,10,19,rebaixamento
 2001,Fase única,10,Santo André,1,19,10,6,1,3,15,8,titulo
 2001,Fase única,10,Juventus-SP,2,18,10,5,3,2,22,13,meio
 2001,Fase única,10,Paulista,3,18,10,5,3,2,21,15,meio
 2001,Fase única,10,América-SP,4,17,10,5,2,3,20,14,meio
 2001,Fase única,10,Olímpia,5,16,10,5,1,4,20,18,meio
-2001,Fase única,10,Nacional-SP,6,15,10,4,3,3,18,17,meio
+2001,Fase única,10,Ituano,6,16,10,4,4,2,17,14,meio
 2001,Fase única,10,Bragantino,7,13,10,4,1,5,18,19,meio
 2001,Fase única,10,Paraguaçuense,8,13,10,4,1,5,17,18,meio
-2001,Fase única,10,Ituano,9,13,10,3,4,3,16,15,meio
-2001,Fase única,10,Rio Preto,10,13,10,3,4,3,17,17,meio
-2001,Fase única,10,Mirassol,11,13,10,3,4,3,15,15,meio
-2001,Fase única,10,Sãocarlense,12,13,10,3,4,3,14,14,meio
+2001,Fase única,10,Rio Preto,9,13,10,3,4,3,17,17,meio
+2001,Fase única,10,Mirassol,10,13,10,3,4,3,15,15,meio
+2001,Fase única,10,Sãocarlense,11,13,10,3,4,3,14,14,meio
+2001,Fase única,10,Nacional-SP,12,12,10,3,3,4,17,18,meio
 2001,Fase única,10,Araçatuba,13,12,10,3,3,4,12,18,meio
 2001,Fase única,10,Francana,14,11,10,3,2,5,12,16,meio
-2001,Fase única,10,Comercial-RP,15,10,10,3,1,6,14,24,meio
-2001,Fase única,10,São José-SP,16,6,10,1,3,6,11,21,meio
+2001,Fase única,10,Comercial-RP,15,10,10,3,1,6,14,24,rebaixamento
+2001,Fase única,10,São José-SP,16,6,10,1,3,6,11,21,rebaixamento
 2001,Fase única,11,Santo André,1,20,11,6,2,3,17,10,titulo
 2001,Fase única,11,Olímpia,2,19,11,6,1,4,27,19,meio
 2001,Fase única,11,Juventus-SP,3,19,11,5,4,2,24,15,meio
 2001,Fase única,11,Paulista,4,19,11,5,4,2,22,16,meio
-2001,Fase única,11,América-SP,5,18,11,5,3,3,22,16,meio
-2001,Fase única,11,Ituano,6,16,11,4,4,3,19,16,meio
-2001,Fase única,11,Nacional-SP,7,16,11,4,4,3,20,19,meio
-2001,Fase única,11,Bragantino,8,14,11,4,2,5,19,20,meio
-2001,Fase única,11,Paraguaçuense,9,14,11,4,2,5,19,20,meio
-2001,Fase única,11,Rio Preto,10,14,11,3,5,3,20,20,meio
-2001,Fase única,11,Sãocarlense,11,14,11,3,5,3,15,15,meio
+2001,Fase única,11,Ituano,5,19,11,5,4,2,20,15,meio
+2001,Fase única,11,América-SP,6,18,11,5,3,3,22,16,meio
+2001,Fase única,11,Bragantino,7,14,11,4,2,5,19,20,meio
+2001,Fase única,11,Paraguaçuense,8,14,11,4,2,5,19,20,meio
+2001,Fase única,11,Rio Preto,9,14,11,3,5,3,20,20,meio
+2001,Fase única,11,Sãocarlense,10,14,11,3,5,3,15,15,meio
+2001,Fase única,11,Nacional-SP,11,13,11,3,4,4,19,20,meio
 2001,Fase única,11,Mirassol,12,13,11,3,4,4,16,18,meio
 2001,Fase única,11,Araçatuba,13,13,11,3,4,4,13,19,meio
 2001,Fase única,11,Francana,14,12,11,3,3,5,14,18,meio
-2001,Fase única,11,Comercial-RP,15,10,11,3,1,7,15,31,meio
-2001,Fase única,11,São José-SP,16,7,11,1,4,6,14,24,meio
+2001,Fase única,11,Comercial-RP,15,10,11,3,1,7,15,31,rebaixamento
+2001,Fase única,11,São José-SP,16,7,11,1,4,6,14,24,rebaixamento
 2001,Fase única,12,Olímpia,1,22,12,7,1,4,30,20,titulo
 2001,Fase única,12,Juventus-SP,2,22,12,6,4,2,27,17,meio
-2001,Fase única,12,Santo André,3,20,12,6,2,4,18,12,meio
-2001,Fase única,12,Paulista,4,20,12,5,5,2,23,17,meio
-2001,Fase única,12,Ituano,5,19,12,5,4,3,23,18,meio
-2001,Fase única,12,Nacional-SP,6,19,12,5,4,3,23,20,meio
-2001,Fase única,12,América-SP,7,18,12,5,3,4,24,20,meio
-2001,Fase única,12,Rio Preto,8,17,12,4,5,3,22,21,meio
+2001,Fase única,12,Ituano,3,22,12,6,4,2,24,17,meio
+2001,Fase única,12,Santo André,4,20,12,6,2,4,18,12,meio
+2001,Fase única,12,Paulista,5,20,12,5,5,2,23,17,meio
+2001,Fase única,12,América-SP,6,18,12,5,3,4,24,20,meio
+2001,Fase única,12,Rio Preto,7,17,12,4,5,3,22,21,meio
+2001,Fase única,12,Nacional-SP,8,16,12,4,4,4,22,21,meio
 2001,Fase única,12,Araçatuba,9,16,12,4,4,4,15,20,meio
 2001,Fase única,12,Paraguaçuense,10,14,12,4,2,6,21,23,meio
 2001,Fase única,12,Bragantino,11,14,12,4,2,6,20,22,meio
 2001,Fase única,12,Sãocarlense,12,14,12,3,5,4,15,17,meio
 2001,Fase única,12,Comercial-RP,13,13,12,4,1,7,17,31,meio
 2001,Fase única,12,Mirassol,14,13,12,3,4,5,17,21,meio
-2001,Fase única,12,Francana,15,13,12,3,4,5,15,19,meio
-2001,Fase única,12,São José-SP,16,7,12,1,4,7,15,27,meio
+2001,Fase única,12,Francana,15,13,12,3,4,5,15,19,rebaixamento
+2001,Fase única,12,São José-SP,16,7,12,1,4,7,15,27,rebaixamento
 2001,Fase única,13,Juventus-SP,1,23,13,6,5,2,27,17,titulo
-2001,Fase única,13,Olímpia,2,22,13,7,1,5,30,21,meio
-2001,Fase única,13,Nacional-SP,3,22,13,6,4,3,25,20,meio
+2001,Fase única,13,Ituano,2,23,13,6,5,2,24,17,meio
+2001,Fase única,13,Olímpia,3,22,13,7,1,5,30,21,meio
 2001,Fase única,13,América-SP,4,21,13,6,3,4,25,20,meio
 2001,Fase única,13,Santo André,5,20,13,6,2,5,18,14,meio
-2001,Fase única,13,Ituano,6,20,13,5,5,3,23,18,meio
-2001,Fase única,13,Rio Preto,7,20,13,5,5,3,25,21,meio
-2001,Fase única,13,Paulista,8,20,13,5,5,3,23,20,meio
+2001,Fase única,13,Rio Preto,6,20,13,5,5,3,25,21,meio
+2001,Fase única,13,Paulista,7,20,13,5,5,3,23,20,meio
+2001,Fase única,13,Nacional-SP,8,19,13,5,4,4,24,21,meio
 2001,Fase única,13,Sãocarlense,9,17,13,4,5,4,17,17,meio
 2001,Fase única,13,Francana,10,16,13,4,4,5,17,20,meio
 2001,Fase única,13,Araçatuba,11,16,13,4,4,5,16,22,meio
 2001,Fase única,13,Paraguaçuense,12,15,13,4,3,6,22,24,meio
 2001,Fase única,13,Bragantino,13,15,13,4,3,6,21,23,meio
 2001,Fase única,13,Comercial-RP,14,14,13,4,2,7,18,32,meio
-2001,Fase única,13,Mirassol,15,13,13,3,4,6,17,23,meio
-2001,Fase única,13,São José-SP,16,8,13,1,5,7,16,28,meio
+2001,Fase única,13,Mirassol,15,13,13,3,4,6,17,23,rebaixamento
+2001,Fase única,13,São José-SP,16,8,13,1,5,7,16,28,rebaixamento
 2001,Fase única,14,Juventus-SP,1,26,14,7,5,2,29,18,titulo
 2001,Fase única,14,América-SP,2,24,14,7,3,4,28,21,meio
-2001,Fase única,14,Santo André,3,23,14,7,2,5,20,15,meio
-2001,Fase única,14,Paulista,4,23,14,6,5,3,26,21,meio
-2001,Fase única,14,Olímpia,5,22,14,7,1,6,31,23,meio
-2001,Fase única,14,Nacional-SP,6,22,14,6,4,4,26,23,meio
-2001,Fase única,14,Ituano,7,21,14,5,6,3,25,20,meio
-2001,Fase única,14,Rio Preto,8,20,14,5,5,4,25,22,meio
+2001,Fase única,14,Ituano,3,24,14,6,6,2,26,19,meio
+2001,Fase única,14,Santo André,4,23,14,7,2,5,20,15,meio
+2001,Fase única,14,Paulista,5,23,14,6,5,3,26,21,meio
+2001,Fase única,14,Olímpia,6,22,14,7,1,6,31,23,meio
+2001,Fase única,14,Rio Preto,7,20,14,5,5,4,25,22,meio
+2001,Fase única,14,Nacional-SP,8,19,14,5,4,5,25,24,meio
 2001,Fase única,14,Araçatuba,9,19,14,5,4,5,17,22,meio
 2001,Fase única,14,Comercial-RP,10,17,14,5,2,7,20,33,meio
 2001,Fase única,14,Sãocarlense,11,17,14,4,5,5,18,20,meio
 2001,Fase única,14,Bragantino,12,16,14,4,4,6,23,25,meio
 2001,Fase única,14,Francana,13,16,14,4,4,6,18,22,meio
 2001,Fase única,14,Paraguaçuense,14,15,14,4,3,7,23,26,meio
-2001,Fase única,14,Mirassol,15,14,14,3,5,6,19,25,meio
-2001,Fase única,14,São José-SP,16,9,14,1,6,7,18,30,meio
+2001,Fase única,14,Mirassol,15,14,14,3,5,6,19,25,rebaixamento
+2001,Fase única,14,São José-SP,16,9,14,1,6,7,18,30,rebaixamento
 2001,Fase única,15,América-SP,1,27,15,8,3,4,31,23,titulo
 2001,Fase única,15,Juventus-SP,2,27,15,7,6,2,31,20,meio
-2001,Fase única,15,Paulista,3,26,15,7,5,3,29,21,meio
-2001,Fase única,15,Olímpia,4,25,15,8,1,6,34,25,meio
-2001,Fase única,15,Nacional-SP,5,25,15,7,4,4,33,24,meio
-2001,Fase única,15,Ituano,6,24,15,6,6,3,27,21,meio
-2001,Fase única,15,Santo André,7,23,15,7,2,6,21,17,meio
+2001,Fase única,15,Ituano,3,27,15,7,6,2,28,20,meio
+2001,Fase única,15,Paulista,4,26,15,7,5,3,29,21,meio
+2001,Fase única,15,Olímpia,5,25,15,8,1,6,34,25,meio
+2001,Fase única,15,Santo André,6,23,15,7,2,6,21,17,meio
+2001,Fase única,15,Nacional-SP,7,22,15,6,4,5,32,25,meio
 2001,Fase única,15,Rio Preto,8,21,15,5,6,4,27,24,meio
 2001,Fase única,15,Araçatuba,9,19,15,5,4,6,18,29,meio
 2001,Fase única,15,Comercial-RP,10,18,15,5,3,7,22,35,meio
@@ -1101,15 +1101,15 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,15,Mirassol,12,17,15,4,5,6,21,25,meio
 2001,Fase única,15,Bragantino,13,16,15,4,4,7,25,28,meio
 2001,Fase única,15,Francana,14,16,15,4,4,7,18,24,meio
-2001,Fase única,15,Paraguaçuense,15,15,15,4,3,8,23,29,meio
-2001,Fase única,15,São José-SP,16,9,15,1,6,8,20,33,meio
+2001,Fase única,15,Paraguaçuense,15,15,15,4,3,8,23,29,rebaixamento
+2001,Fase única,15,São José-SP,16,9,15,1,6,8,20,33,rebaixamento
 2001,Fase única,16,Juventus-SP,1,30,16,8,6,2,36,21,titulo
-2001,Fase única,16,Paulista,2,29,16,8,5,3,32,21,meio
-2001,Fase única,16,Nacional-SP,3,28,16,8,4,4,35,24,meio
+2001,Fase única,16,Ituano,2,30,16,8,6,2,33,20,meio
+2001,Fase única,16,Paulista,3,29,16,8,5,3,32,21,meio
 2001,Fase única,16,América-SP,4,27,16,8,3,5,32,28,meio
-2001,Fase única,16,Ituano,5,27,16,7,6,3,32,21,meio
-2001,Fase única,16,Santo André,6,26,16,8,2,6,26,17,meio
-2001,Fase única,16,Olímpia,7,25,16,8,1,7,35,27,meio
+2001,Fase única,16,Santo André,5,26,16,8,2,6,26,17,meio
+2001,Fase única,16,Olímpia,6,25,16,8,1,7,35,27,meio
+2001,Fase única,16,Nacional-SP,7,25,16,7,4,5,34,25,meio
 2001,Fase única,16,Rio Preto,8,21,16,5,6,5,27,26,meio
 2001,Fase única,16,Sãocarlense,9,21,16,5,6,5,22,23,meio
 2001,Fase única,16,Francana,10,19,16,5,4,7,22,26,meio
@@ -1117,15 +1117,15 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,16,Araçatuba,12,19,16,5,4,7,18,32,meio
 2001,Fase única,16,Mirassol,13,18,16,4,6,6,24,28,meio
 2001,Fase única,16,Bragantino,14,16,16,4,4,8,27,32,meio
-2001,Fase única,16,Paraguaçuense,15,15,16,4,3,9,23,34,meio
-2001,Fase única,16,São José-SP,16,9,16,1,6,9,20,38,meio
+2001,Fase única,16,Paraguaçuense,15,15,16,4,3,9,23,34,rebaixamento
+2001,Fase única,16,São José-SP,16,9,16,1,6,9,20,38,rebaixamento
 2001,Fase única,17,Juventus-SP,1,33,17,9,6,2,37,21,titulo
-2001,Fase única,17,Paulista,2,32,17,9,5,3,36,22,meio
-2001,Fase única,17,Ituano,3,30,17,8,6,3,34,21,meio
-2001,Fase única,17,Nacional-SP,4,29,17,8,5,4,36,25,meio
-2001,Fase única,17,Olímpia,5,28,17,9,1,7,37,28,meio
-2001,Fase única,17,América-SP,6,28,17,8,4,5,33,29,meio
-2001,Fase única,17,Santo André,7,27,17,8,3,6,27,18,meio
+2001,Fase única,17,Ituano,2,33,17,9,6,2,35,20,meio
+2001,Fase única,17,Paulista,3,32,17,9,5,3,36,22,meio
+2001,Fase única,17,Olímpia,4,28,17,9,1,7,37,28,meio
+2001,Fase única,17,América-SP,5,28,17,8,4,5,33,29,meio
+2001,Fase única,17,Santo André,6,27,17,8,3,6,27,18,meio
+2001,Fase única,17,Nacional-SP,7,26,17,7,5,5,35,26,meio
 2001,Fase única,17,Rio Preto,8,21,17,5,6,6,27,28,meio
 2001,Fase única,17,Sãocarlense,9,21,17,5,6,6,22,24,meio
 2001,Fase única,17,Francana,10,19,17,5,4,8,23,28,meio
@@ -1133,15 +1133,15 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,17,Araçatuba,12,19,17,5,4,8,19,34,meio
 2001,Fase única,17,Paraguaçuense,13,18,17,5,3,9,24,34,meio
 2001,Fase única,17,Mirassol,14,18,17,4,6,7,25,32,meio
-2001,Fase única,17,Bragantino,15,17,17,4,5,8,28,33,meio
-2001,Fase única,17,São José-SP,16,12,17,2,6,9,22,39,meio
-2001,Fase única,18,Paulista,1,35,18,10,5,3,38,22,titulo
-2001,Fase única,18,Juventus-SP,2,33,18,9,6,3,37,23,meio
-2001,Fase única,18,Ituano,3,33,18,9,6,3,36,22,meio
+2001,Fase única,17,Bragantino,15,17,17,4,5,8,28,33,rebaixamento
+2001,Fase única,17,São José-SP,16,12,17,2,6,9,22,39,rebaixamento
+2001,Fase única,18,Ituano,1,36,18,10,6,2,37,21,titulo
+2001,Fase única,18,Paulista,2,35,18,10,5,3,38,22,meio
+2001,Fase única,18,Juventus-SP,3,33,18,9,6,3,37,23,meio
 2001,Fase única,18,Olímpia,4,31,18,10,1,7,40,29,meio
 2001,Fase única,18,Santo André,5,30,18,9,3,6,32,21,meio
-2001,Fase única,18,Nacional-SP,6,29,18,8,5,5,37,28,meio
-2001,Fase única,18,América-SP,7,28,18,8,4,6,33,30,meio
+2001,Fase única,18,América-SP,6,28,18,8,4,6,33,30,meio
+2001,Fase única,18,Nacional-SP,7,26,18,7,5,6,36,29,meio
 2001,Fase única,18,Rio Preto,8,24,18,6,6,6,29,29,meio
 2001,Fase única,18,Francana,9,22,18,6,4,8,26,29,meio
 2001,Fase única,18,Araçatuba,10,22,18,6,4,8,20,34,meio
@@ -1149,111 +1149,111 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,18,Mirassol,12,21,18,5,6,7,27,32,meio
 2001,Fase única,18,Comercial-RP,13,19,18,5,4,9,28,44,meio
 2001,Fase única,18,Paraguaçuense,14,18,18,5,3,10,25,37,meio
-2001,Fase única,18,Bragantino,15,17,18,4,5,9,29,35,meio
-2001,Fase única,18,São José-SP,16,12,18,2,6,10,22,41,meio
-2001,Fase única,19,Juventus-SP,1,36,19,10,6,3,39,24,titulo
-2001,Fase única,19,Ituano,2,36,19,10,6,3,37,22,meio
+2001,Fase única,18,Bragantino,15,17,18,4,5,9,29,35,rebaixamento
+2001,Fase única,18,São José-SP,16,12,18,2,6,10,22,41,rebaixamento
+2001,Fase única,19,Ituano,1,39,19,11,6,2,38,21,titulo
+2001,Fase única,19,Juventus-SP,2,36,19,10,6,3,39,24,meio
 2001,Fase única,19,Paulista,3,35,19,10,5,4,38,23,meio
 2001,Fase única,19,Santo André,4,33,19,10,3,6,33,21,meio
 2001,Fase única,19,Olímpia,5,31,19,10,1,8,40,30,meio
-2001,Fase única,19,Nacional-SP,6,29,19,8,5,6,38,30,meio
-2001,Fase única,19,América-SP,7,28,19,8,4,7,34,32,meio
-2001,Fase única,19,Rio Preto,8,27,19,7,6,6,31,29,meio
+2001,Fase única,19,América-SP,6,28,19,8,4,7,34,32,meio
+2001,Fase única,19,Rio Preto,7,27,19,7,6,6,31,29,meio
+2001,Fase única,19,Nacional-SP,8,26,19,7,5,7,37,31,meio
 2001,Fase única,19,Araçatuba,9,25,19,7,4,8,22,34,meio
 2001,Fase única,19,Mirassol,10,24,19,6,6,7,29,33,meio
 2001,Fase única,19,Francana,11,22,19,6,4,9,26,31,meio
 2001,Fase única,19,Sãocarlense,12,22,19,5,7,7,23,26,meio
 2001,Fase única,19,Paraguaçuense,13,21,19,6,3,10,27,38,meio
 2001,Fase única,19,Comercial-RP,14,19,19,5,4,10,28,46,meio
-2001,Fase única,19,Bragantino,15,18,19,4,6,9,29,35,meio
-2001,Fase única,19,São José-SP,16,12,19,2,6,11,23,43,meio
-2001,Fase única,20,Paulista,1,38,20,11,5,4,41,24,titulo
-2001,Fase única,20,Juventus-SP,2,37,20,10,7,3,41,26,meio
-2001,Fase única,20,Santo André,3,36,20,11,3,6,35,22,meio
-2001,Fase única,20,Ituano,4,36,20,10,6,4,38,25,meio
+2001,Fase única,19,Bragantino,15,18,19,4,6,9,29,35,rebaixamento
+2001,Fase única,19,São José-SP,16,12,19,2,6,11,23,43,rebaixamento
+2001,Fase única,20,Ituano,1,39,20,11,6,3,39,24,titulo
+2001,Fase única,20,Paulista,2,38,20,11,5,4,41,24,meio
+2001,Fase única,20,Juventus-SP,3,37,20,10,7,3,41,26,meio
+2001,Fase única,20,Santo André,4,36,20,11,3,6,35,22,meio
 2001,Fase única,20,Olímpia,5,32,20,10,2,8,40,30,meio
-2001,Fase única,20,Nacional-SP,6,30,20,8,6,6,41,33,meio
-2001,Fase única,20,América-SP,7,28,20,8,4,8,34,33,meio
-2001,Fase única,20,Rio Preto,8,28,20,7,7,6,31,29,meio
+2001,Fase única,20,América-SP,6,28,20,8,4,8,34,33,meio
+2001,Fase única,20,Rio Preto,7,28,20,7,7,6,31,29,meio
+2001,Fase única,20,Nacional-SP,8,27,20,7,6,7,40,34,meio
 2001,Fase única,20,Araçatuba,9,25,20,7,4,9,23,36,meio
 2001,Fase única,20,Sãocarlense,10,25,20,6,7,7,26,27,meio
 2001,Fase única,20,Mirassol,11,25,20,6,7,7,31,35,meio
 2001,Fase única,20,Francana,12,23,20,6,5,9,29,34,meio
 2001,Fase única,20,Paraguaçuense,13,22,20,6,4,10,27,38,meio
 2001,Fase única,20,Comercial-RP,14,22,20,6,4,10,29,46,meio
-2001,Fase única,20,Bragantino,15,19,20,4,7,9,29,35,meio
-2001,Fase única,20,São José-SP,16,12,20,2,6,12,24,46,meio
-2001,Fase única,21,Paulista,1,41,21,12,5,4,48,24,titulo
-2001,Fase única,21,Ituano,2,39,21,11,6,4,41,26,meio
+2001,Fase única,20,Bragantino,15,19,20,4,7,9,29,35,rebaixamento
+2001,Fase única,20,São José-SP,16,12,20,2,6,12,24,46,rebaixamento
+2001,Fase única,21,Ituano,1,42,21,12,6,3,42,25,titulo
+2001,Fase única,21,Paulista,2,41,21,12,5,4,48,24,meio
 2001,Fase única,21,Juventus-SP,3,38,21,10,8,3,43,28,meio
 2001,Fase única,21,Santo André,4,37,21,11,4,6,37,24,meio
 2001,Fase única,21,Olímpia,5,33,21,10,3,8,40,30,meio
 2001,Fase única,21,América-SP,6,31,21,9,4,8,38,35,meio
-2001,Fase única,21,Nacional-SP,7,30,21,8,6,7,42,36,meio
-2001,Fase única,21,Araçatuba,8,28,21,8,4,9,26,38,meio
-2001,Fase única,21,Rio Preto,9,28,21,7,7,7,31,31,meio
+2001,Fase única,21,Araçatuba,7,28,21,8,4,9,26,38,meio
+2001,Fase única,21,Rio Preto,8,28,21,7,7,7,31,31,meio
+2001,Fase única,21,Nacional-SP,9,27,21,7,6,8,41,37,meio
 2001,Fase única,21,Francana,10,26,21,7,5,9,31,35,meio
 2001,Fase única,21,Paraguaçuense,11,25,21,7,4,10,29,38,meio
 2001,Fase única,21,Sãocarlense,12,25,21,6,7,8,27,29,meio
 2001,Fase única,21,Mirassol,13,25,21,6,7,8,33,38,meio
 2001,Fase única,21,Comercial-RP,14,22,21,6,4,11,29,53,meio
-2001,Fase única,21,Bragantino,15,20,21,4,8,9,29,35,meio
-2001,Fase única,21,São José-SP,16,12,21,2,6,13,26,50,meio
+2001,Fase única,21,Bragantino,15,20,21,4,8,9,29,35,rebaixamento
+2001,Fase única,21,São José-SP,16,12,21,2,6,13,26,50,rebaixamento
 2001,Fase única,22,Paulista,1,44,22,13,5,4,50,24,titulo
-2001,Fase única,22,Juventus-SP,2,41,22,11,8,3,44,28,meio
-2001,Fase única,22,Santo André,3,40,22,12,4,6,42,26,meio
-2001,Fase única,22,Ituano,4,40,22,11,7,4,42,27,meio
+2001,Fase única,22,Ituano,2,43,22,12,7,3,43,26,meio
+2001,Fase única,22,Juventus-SP,3,41,22,11,8,3,44,28,meio
+2001,Fase única,22,Santo André,4,40,22,12,4,6,42,26,meio
 2001,Fase única,22,Olímpia,5,33,22,10,3,9,42,33,meio
-2001,Fase única,22,Nacional-SP,6,33,22,9,6,7,44,36,meio
-2001,Fase única,22,América-SP,7,31,22,9,4,9,38,37,meio
-2001,Fase única,22,Rio Preto,8,31,22,8,7,7,34,33,meio
+2001,Fase única,22,América-SP,6,31,22,9,4,9,38,37,meio
+2001,Fase única,22,Rio Preto,7,31,22,8,7,7,34,33,meio
+2001,Fase única,22,Nacional-SP,8,30,22,8,6,8,43,37,meio
 2001,Fase única,22,Araçatuba,9,28,22,8,4,10,26,39,meio
 2001,Fase única,22,Francana,10,27,22,7,6,9,32,36,meio
 2001,Fase única,22,Paraguaçuense,11,25,22,7,4,11,29,40,meio
 2001,Fase única,22,Sãocarlense,12,25,22,6,7,9,27,31,meio
 2001,Fase única,22,Mirassol,13,25,22,6,7,9,35,43,meio
 2001,Fase única,22,Comercial-RP,14,23,22,6,5,11,30,54,meio
-2001,Fase única,22,Bragantino,15,23,22,5,8,9,31,35,meio
-2001,Fase única,22,São José-SP,16,13,22,2,7,13,27,51,meio
+2001,Fase única,22,Bragantino,15,23,22,5,8,9,31,35,rebaixamento
+2001,Fase única,22,São José-SP,16,13,22,2,7,13,27,51,rebaixamento
 2001,Fase única,23,Paulista,1,45,23,13,6,4,50,24,titulo
-2001,Fase única,23,Santo André,2,43,23,13,4,6,44,26,meio
-2001,Fase única,23,Juventus-SP,3,42,23,11,9,3,45,29,meio
-2001,Fase única,23,Ituano,4,41,23,11,8,4,42,27,meio
+2001,Fase única,23,Ituano,2,44,23,12,8,3,43,26,meio
+2001,Fase única,23,Santo André,3,43,23,13,4,6,44,26,meio
+2001,Fase única,23,Juventus-SP,4,42,23,11,9,3,45,29,meio
 2001,Fase única,23,América-SP,5,34,23,10,4,9,42,37,meio
-2001,Fase única,23,Nacional-SP,6,34,23,9,7,7,44,36,meio
-2001,Fase única,23,Olímpia,7,33,23,10,3,10,42,35,meio
-2001,Fase única,23,Araçatuba,8,31,23,9,4,10,30,42,meio
+2001,Fase única,23,Olímpia,6,33,23,10,3,10,42,35,meio
+2001,Fase única,23,Araçatuba,7,31,23,9,4,10,30,42,meio
+2001,Fase única,23,Nacional-SP,8,31,23,8,7,8,43,37,meio
 2001,Fase única,23,Rio Preto,9,31,23,8,7,8,34,37,meio
 2001,Fase única,23,Mirassol,10,28,23,7,7,9,39,43,meio
 2001,Fase única,23,Francana,11,27,23,7,6,10,32,40,meio
 2001,Fase única,23,Sãocarlense,12,26,23,6,8,9,29,33,meio
 2001,Fase única,23,Paraguaçuense,13,25,23,7,4,12,32,44,meio
 2001,Fase única,23,Comercial-RP,14,24,23,6,6,11,30,54,meio
-2001,Fase única,23,Bragantino,15,24,23,5,9,9,32,36,meio
-2001,Fase única,23,São José-SP,16,14,23,2,8,13,29,53,meio
+2001,Fase única,23,Bragantino,15,24,23,5,9,9,32,36,rebaixamento
+2001,Fase única,23,São José-SP,16,14,23,2,8,13,29,53,rebaixamento
 2001,Fase única,24,Paulista,1,48,24,14,6,4,51,24,titulo
 2001,Fase única,24,Juventus-SP,2,45,24,12,9,3,50,30,meio
-2001,Fase única,24,Santo André,3,44,24,13,5,6,46,28,meio
-2001,Fase única,24,Ituano,4,42,24,11,9,4,42,27,meio
+2001,Fase única,24,Ituano,3,45,24,12,9,3,43,26,meio
+2001,Fase única,24,Santo André,4,44,24,13,5,6,46,28,meio
 2001,Fase única,24,América-SP,5,34,24,10,4,10,43,42,meio
-2001,Fase única,24,Nacional-SP,6,34,24,9,7,8,46,39,meio
-2001,Fase única,24,Rio Preto,7,34,24,9,7,8,39,38,meio
-2001,Fase única,24,Olímpia,8,33,24,10,3,11,42,36,meio
-2001,Fase única,24,Araçatuba,9,32,24,9,5,10,30,42,meio
+2001,Fase única,24,Rio Preto,6,34,24,9,7,8,39,38,meio
+2001,Fase única,24,Olímpia,7,33,24,10,3,11,42,36,meio
+2001,Fase única,24,Araçatuba,8,32,24,9,5,10,30,42,meio
+2001,Fase única,24,Nacional-SP,9,31,24,8,7,9,45,40,meio
 2001,Fase única,24,Mirassol,10,31,24,8,7,9,42,45,meio
 2001,Fase única,24,Paraguaçuense,11,28,24,8,4,12,35,44,meio
 2001,Fase única,24,Francana,12,27,24,7,6,11,33,45,meio
 2001,Fase única,24,Sãocarlense,13,27,24,6,9,9,31,35,meio
 2001,Fase única,24,Comercial-RP,14,24,24,6,6,12,30,57,meio
-2001,Fase única,24,Bragantino,15,24,24,5,9,10,32,37,meio
-2001,Fase única,24,São José-SP,16,17,24,3,8,13,30,53,meio
+2001,Fase única,24,Bragantino,15,24,24,5,9,10,32,37,rebaixamento
+2001,Fase única,24,São José-SP,16,17,24,3,8,13,30,53,rebaixamento
 2001,Fase única,25,Paulista,1,51,25,15,6,4,55,26,titulo
 2001,Fase única,25,Juventus-SP,2,48,25,13,9,3,53,31,meio
-2001,Fase única,25,Santo André,3,45,25,13,6,6,48,30,meio
-2001,Fase única,25,Ituano,4,45,25,12,9,4,43,27,meio
-2001,Fase única,25,Nacional-SP,5,37,25,10,7,8,49,41,meio
-2001,Fase única,25,Olímpia,6,36,25,11,3,11,46,36,meio
-2001,Fase única,25,América-SP,7,34,25,10,4,11,45,45,meio
+2001,Fase única,25,Ituano,3,48,25,13,9,3,44,26,meio
+2001,Fase única,25,Santo André,4,45,25,13,6,6,48,30,meio
+2001,Fase única,25,Olímpia,5,36,25,11,3,11,46,36,meio
+2001,Fase única,25,América-SP,6,34,25,10,4,11,45,45,meio
+2001,Fase única,25,Nacional-SP,7,34,25,9,7,9,48,42,meio
 2001,Fase única,25,Rio Preto,8,34,25,9,7,9,40,41,meio
 2001,Fase única,25,Araçatuba,9,32,25,9,5,11,30,46,meio
 2001,Fase única,25,Mirassol,10,32,25,8,8,9,43,46,meio
@@ -1261,88 +1261,88 @@ temporada,fase,rodada,clube,posicao,pontos,jogos,vitorias,empates,derrotas,gols_
 2001,Fase única,25,Francana,12,28,25,7,7,11,35,47,meio
 2001,Fase única,25,Sãocarlense,13,27,25,6,9,10,33,39,meio
 2001,Fase única,25,Bragantino,14,25,25,5,10,10,34,39,meio
-2001,Fase única,25,Comercial-RP,15,24,25,6,6,13,30,58,meio
-2001,Fase única,25,São José-SP,16,18,25,3,9,13,32,55,meio
+2001,Fase única,25,Comercial-RP,15,24,25,6,6,13,30,58,rebaixamento
+2001,Fase única,25,São José-SP,16,18,25,3,9,13,32,55,rebaixamento
 2001,Fase única,26,Paulista,1,54,26,16,6,4,59,27,titulo
 2001,Fase única,26,Juventus-SP,2,51,26,14,9,3,55,32,meio
-2001,Fase única,26,Santo André,3,48,26,14,6,6,52,32,meio
-2001,Fase única,26,Ituano,4,46,26,12,10,4,44,28,meio
+2001,Fase única,26,Ituano,3,49,26,13,10,3,45,27,meio
+2001,Fase única,26,Santo André,4,48,26,14,6,6,52,32,meio
 2001,Fase única,26,Olímpia,5,37,26,11,4,11,48,38,meio
 2001,Fase única,26,América-SP,6,37,26,11,4,11,47,46,meio
-2001,Fase única,26,Nacional-SP,7,37,26,10,7,9,50,43,meio
-2001,Fase única,26,Rio Preto,8,37,26,10,7,9,43,42,meio
-2001,Fase única,26,Araçatuba,9,35,26,10,5,11,32,47,meio
+2001,Fase única,26,Rio Preto,7,37,26,10,7,9,43,42,meio
+2001,Fase única,26,Araçatuba,8,35,26,10,5,11,32,47,meio
+2001,Fase única,26,Nacional-SP,9,34,26,9,7,10,49,44,meio
 2001,Fase única,26,Mirassol,10,33,26,8,9,9,44,47,meio
 2001,Fase única,26,Paraguaçuense,11,29,26,8,5,13,37,47,meio
 2001,Fase única,26,Francana,12,28,26,7,7,12,37,51,meio
 2001,Fase única,26,Sãocarlense,13,27,26,6,9,11,34,41,meio
 2001,Fase única,26,Comercial-RP,14,25,26,6,7,13,32,60,meio
-2001,Fase única,26,Bragantino,15,25,26,5,10,11,35,43,meio
-2001,Fase única,26,São José-SP,16,18,26,3,9,14,33,58,meio
+2001,Fase única,26,Bragantino,15,25,26,5,10,11,35,43,rebaixamento
+2001,Fase única,26,São José-SP,16,18,26,3,9,14,33,58,rebaixamento
 2001,Fase única,27,Paulista,1,54,27,16,6,5,59,28,titulo
 2001,Fase única,27,Juventus-SP,2,54,27,15,9,3,56,32,meio
-2001,Fase única,27,Santo André,3,51,27,15,6,6,54,32,meio
-2001,Fase única,27,Ituano,4,49,27,13,10,4,47,28,meio
+2001,Fase única,27,Ituano,3,52,27,14,10,3,48,27,meio
+2001,Fase única,27,Santo André,4,51,27,15,6,6,54,32,meio
 2001,Fase única,27,Olímpia,5,40,27,12,4,11,51,39,meio
 2001,Fase única,27,América-SP,6,37,27,11,4,12,47,49,meio
-2001,Fase única,27,Nacional-SP,7,37,27,10,7,10,50,44,meio
-2001,Fase única,27,Rio Preto,8,37,27,10,7,10,43,44,meio
-2001,Fase única,27,Araçatuba,9,35,27,10,5,12,32,49,meio
+2001,Fase única,27,Rio Preto,7,37,27,10,7,10,43,44,meio
+2001,Fase única,27,Araçatuba,8,35,27,10,5,12,32,49,meio
+2001,Fase única,27,Nacional-SP,9,34,27,9,7,11,49,45,meio
 2001,Fase única,27,Mirassol,10,33,27,8,9,10,45,50,meio
 2001,Fase única,27,Francana,11,31,27,8,7,12,38,51,meio
 2001,Fase única,27,Sãocarlense,12,30,27,7,9,11,38,41,meio
 2001,Fase única,27,Paraguaçuense,13,29,27,8,5,14,37,48,meio
 2001,Fase única,27,Bragantino,14,28,27,6,10,11,37,43,meio
-2001,Fase única,27,Comercial-RP,15,25,27,6,7,14,32,64,meio
-2001,Fase única,27,São José-SP,16,21,27,4,9,14,34,58,meio
+2001,Fase única,27,Comercial-RP,15,25,27,6,7,14,32,64,rebaixamento
+2001,Fase única,27,São José-SP,16,21,27,4,9,14,34,58,rebaixamento
 2001,Fase única,28,Paulista,1,57,28,17,6,5,60,28,titulo
 2001,Fase única,28,Juventus-SP,2,55,28,15,10,3,58,34,meio
 2001,Fase única,28,Santo André,3,54,28,16,6,6,55,32,meio
-2001,Fase única,28,Ituano,4,50,28,13,11,4,49,30,meio
+2001,Fase única,28,Ituano,4,53,28,14,11,3,50,29,meio
 2001,Fase única,28,Olímpia,5,41,28,12,5,11,53,41,meio
 2001,Fase única,28,América-SP,6,38,28,11,5,12,49,51,meio
 2001,Fase única,28,Araçatuba,7,38,28,11,5,12,34,50,meio
-2001,Fase única,28,Nacional-SP,8,37,28,10,7,11,50,45,meio
-2001,Fase única,28,Rio Preto,9,37,28,10,7,11,43,45,meio
-2001,Fase única,28,Mirassol,10,36,28,9,9,10,50,50,meio
+2001,Fase única,28,Rio Preto,8,37,28,10,7,11,43,45,meio
+2001,Fase única,28,Mirassol,9,36,28,9,9,10,50,50,meio
+2001,Fase única,28,Nacional-SP,10,34,28,9,7,12,49,46,meio
 2001,Fase única,28,Francana,11,31,28,8,7,13,39,53,meio
 2001,Fase única,28,Bragantino,12,31,28,7,10,11,39,44,meio
 2001,Fase única,28,Sãocarlense,13,30,28,7,9,12,38,46,meio
 2001,Fase única,28,Paraguaçuense,14,29,28,8,5,15,37,49,meio
-2001,Fase única,28,Comercial-RP,15,25,28,6,7,15,33,66,meio
-2001,Fase única,28,São José-SP,16,24,28,5,9,14,35,58,meio
+2001,Fase única,28,Comercial-RP,15,25,28,6,7,15,33,66,rebaixamento
+2001,Fase única,28,São José-SP,16,24,28,5,9,14,35,58,rebaixamento
 2001,Fase única,29,Paulista,1,57,29,17,6,6,60,29,titulo
-2001,Fase única,29,Santo André,2,55,29,16,7,6,57,34,meio
-2001,Fase única,29,Juventus-SP,3,55,29,15,10,4,59,36,meio
-2001,Fase única,29,Ituano,4,53,29,14,11,4,50,30,meio
+2001,Fase única,29,Ituano,2,56,29,15,11,3,51,29,meio
+2001,Fase única,29,Santo André,3,55,29,16,7,6,57,34,meio
+2001,Fase única,29,Juventus-SP,4,55,29,15,10,4,59,36,meio
 2001,Fase única,29,Olímpia,5,44,29,13,5,11,55,42,meio
 2001,Fase única,29,América-SP,6,41,29,12,5,12,53,54,meio
-2001,Fase única,29,Nacional-SP,7,40,29,11,7,11,51,45,meio
-2001,Fase única,29,Rio Preto,8,40,29,11,7,11,46,47,meio
-2001,Fase única,29,Araçatuba,9,38,29,11,5,13,36,53,meio
+2001,Fase única,29,Rio Preto,7,40,29,11,7,11,46,47,meio
+2001,Fase única,29,Araçatuba,8,38,29,11,5,13,36,53,meio
+2001,Fase única,29,Nacional-SP,9,37,29,10,7,12,50,46,meio
 2001,Fase única,29,Mirassol,10,36,29,9,9,11,51,52,meio
 2001,Fase única,29,Francana,11,34,29,9,7,13,40,53,meio
 2001,Fase única,29,Bragantino,12,34,29,8,10,11,41,45,meio
 2001,Fase única,29,Paraguaçuense,13,30,29,8,6,15,39,51,meio
 2001,Fase única,29,Sãocarlense,14,30,29,7,9,13,41,50,meio
-2001,Fase única,29,Comercial-RP,15,25,29,6,7,16,33,67,meio
-2001,Fase única,29,São José-SP,16,24,29,5,9,15,35,59,meio
+2001,Fase única,29,Comercial-RP,15,25,29,6,7,16,33,67,rebaixamento
+2001,Fase única,29,São José-SP,16,24,29,5,9,15,35,59,rebaixamento
 2001,Fase única,30,Paulista,1,60,30,18,6,6,62,30,titulo
 2001,Fase única,30,Santo André,2,58,30,17,7,6,58,34,meio
 2001,Fase única,30,Juventus-SP,3,58,30,16,10,4,61,36,meio
-2001,Fase única,30,Ituano,4,53,30,14,11,5,50,31,meio
+2001,Fase única,30,Ituano,4,56,30,15,11,4,51,30,meio
 2001,Fase única,30,Olímpia,5,44,30,13,5,12,56,46,meio
 2001,Fase única,30,América-SP,6,44,30,13,5,12,54,54,meio
 2001,Fase única,30,Araçatuba,7,41,30,12,5,13,40,56,meio
 2001,Fase única,30,Rio Preto,8,41,30,11,8,11,49,50,meio
-2001,Fase única,30,Nacional-SP,9,40,30,11,7,12,54,49,meio
-2001,Fase única,30,Mirassol,10,39,30,10,9,11,53,52,meio
+2001,Fase única,30,Mirassol,9,39,30,10,9,11,53,52,meio
+2001,Fase única,30,Nacional-SP,10,37,30,10,7,13,53,50,meio
 2001,Fase única,30,Francana,11,34,30,9,7,14,40,55,meio
 2001,Fase única,30,Bragantino,12,34,30,8,10,12,41,46,meio
 2001,Fase única,30,Paraguaçuense,13,30,30,8,6,16,40,53,meio
 2001,Fase única,30,Sãocarlense,14,30,30,7,9,14,41,52,meio
-2001,Fase única,30,São José-SP,15,27,30,6,9,15,39,60,meio
-2001,Fase única,30,Comercial-RP,16,26,30,6,8,16,36,70,meio
+2001,Fase única,30,São José-SP,15,27,30,6,9,15,39,60,rebaixamento
+2001,Fase única,30,Comercial-RP,16,26,30,6,8,16,36,70,rebaixamento
 2002,Primeira fase,1,Flamengo-SP,1,3,1,1,0,0,2,0,meio
 2002,Primeira fase,1,Bandeirante-SP,2,3,1,1,0,0,3,2,meio
 2002,Primeira fase,1,Bragantino,3,3,1,1,0,0,3,2,meio
