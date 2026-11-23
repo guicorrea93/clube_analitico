@@ -635,4 +635,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `par-1` inteiro.
   - Os ids mudam: saem os jogos de pré-temporada e de copas, e entra o Apertura 2026.
   - Atenção ao PY-001, do lado do painel: o campeão deve sair de `edicao.campeao_id`, não da posição 1.
+- **Commit:** `4583f7e`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**

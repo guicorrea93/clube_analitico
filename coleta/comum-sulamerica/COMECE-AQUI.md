@@ -77,7 +77,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.456 | 84 | 0ead727; correções 31c14b0 | sim (versão antes das correções) |
 | `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e | sim (versão antes das correções) |
 | `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d | sim (versão antes das correções) |
-| `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 23/11 | sim (versão antes das correções) |
+| `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 4583f7e | sim (versão antes das correções) |
 | `per-1` Peruano | 109 (1912–2025) | 17.316 | 153 | 9d1ca3b, 0b793ba | sim |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.195 | 63 | 0b793ba | sim |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
@@ -104,7 +104,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Colombiano: feito em parte em 23/11 (`b8d739d`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: CO-004, CO-006 (leitor da
      Wikipédia: voltas e listas "Fecha N"), CO-008, CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008+), CO-018, CO-020,
      CO-022.
-   - **Paraguaio: feito em 23/11** (ids no fim de `pedidos-sulamerica.md`). Abertos: PY-008, PY-009, PY-012, PY-018,
+   - **Paraguaio: feito em 23/11 (`4583f7e`)** (ids no fim de `pedidos-sulamerica.md`). Abertos: PY-008, PY-009, PY-012, PY-018,
      PY-019, PY-031.
    - Próximo: Peruano, depois Equatoriano. O Guilherme mandou fazer todas sem perguntar
      (23/11): um commit e push por liga, com recado.
