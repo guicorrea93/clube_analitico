@@ -706,4 +706,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   - EC-014: artilheiros de 1988, 1996 e 1999, só com uma 3ª fonte.
 - **Números:** 68 edições, 14.175 jogos, 63 clubes. Teste de carga: `ecu-1: 68 edições, 14175 jogos, 0 clubes novos -> OK`.
 - **Pedido ao agente 1:** recarregar o `ecu-1` inteiro. Os ids mudam: saem os jogos repetidos, e mudam as fases e as datas.
+- **Commit:** `4577457`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
