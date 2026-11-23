@@ -474,6 +474,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `arg-1` inteiro. Os ids das partidas mudam: há jogos novos em 1926 e 2016/17,
   jogos que saíram em 1913, 1919 e 1929, e outra ordem em várias edições. Os 3 clubes novos são Quilmes Club, Quilmes
   Rovers e Atlanta-Argentinos Juniors.
+- **Commit:** `30f0b00`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
 - **Também neste commit:** a pesquisa das copas nacionais (`coleta/comum-sulamerica/copas-nacionais.md`). As copas são o
   próximo trabalho depois das correções, por pedido do Guilherme.

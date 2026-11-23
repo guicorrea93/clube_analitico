@@ -73,7 +73,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 23/11 | sim (versão antes das correções) |
+| `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 30f0b00 | sim (versão antes das correções) |
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.464 | 81 | 0ead727 | sim |
 | `chi-1` Chileno | 109 (1933–2025) | 22.601 | 53 | 36e0690 | sim |
 | `col-1` Colombiano | 101 (1948–2025) | 22.788 | 42 | 3f5c1d0 | sim |
@@ -95,7 +95,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    final de 1960, 1976, 1990, 1993 e 1994 deve trazer todos os clubes com jogos (eliminados com a posição da fase em que
    caíram), como no `bra-sp-2`. O mesmo pode valer para as edições incompletas do `ven-1`.
 3. **Correções da revisão (EM ANDAMENTO desde 23/11, ordem do Guilherme):** seguir `docs/revisao/plano-coleta-sulamerica.md`.
-   - **Argentino: feito em 23/11** (ids no fim de `docs/coleta/pedidos-sulamerica.md`). Abertos: AR-020 (1929), AR-021
+   - **Argentino: feito em 23/11 (`30f0b00`)** (ids no fim de `docs/coleta/pedidos-sulamerica.md`). Abertos: AR-020 (1929), AR-021
      (rebaixados), AR-023 (leitor comum), QU-003, QU-005.
    - Próximo: Uruguaio (`uru-1`), depois Chileno, Colombiano, Paraguaio, Peruano, Equatoriano.
    - A mudança do leitor comum (data no título da fase: AR-023, UY-014, CH-012, CO-008, PY-009, PE-009, EC-009) fica para o
