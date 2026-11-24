@@ -53,8 +53,11 @@ class EdicaoCopa:
     trocas: list = field(default_factory=list)   # (regex, troca ou função) só desta edição, depois das da copa
     grupos_clubes: dict = field(default_factory=dict)   # {fase: {clube: grupo}} quando os jogos vêm sem o título do grupo
     # (Copa Chile 1991-1995: só traços entre os grupos; o grupo sai das tabelas finais da página)
-    campeao_fonte: str = ""              # vencedor da final empatada quando a fonte não dá o placar dos pênaltis
-    # ("(Colo Colo on pen)", Copa Chile 1958): nome como na fonte, passa pelo clube()
+    campeao_fonte: str = ""              # campeão quando os jogos não o decidem: final empatada sem o placar dos pênaltis
+    # ("(Colo Colo on pen)", Copa Chile 1958), edição sem final ou sem jogos (Copa Venezuela); nome da fonte, passa pelo clube()
+    vice_fonte: str = ""                 # vice nesses casos (sem ele, o outro finalista)
+    final_desempate: bool = False        # final com jogos de desempate ("Replay", Copa Venezuela 1966 e 1968): decide o
+    # último jogo, não o placar somado
     campeao_tabela: bool = False         # a última fase é de pontos (quadrangular final, Copa Chile 1982): campeão e vice
     # pela classificação, sem tornar as outras fases de pontos (o que `pontos` faz)
     anos_leitura: tuple[int, int] | None = None   # (ano_ini, ano_fim) para datar os jogos, quando diferem da edição
@@ -244,10 +247,11 @@ def importar(copa: Copa, relatorio: Path) -> None:
                 fases_pontos.add(f)
         # campeão e vice: a final
         final = [j for j in jogos if j["fase"] == "Final"]
-        campeao, vice = _vencedor(final) if final else (None, None)
-        if campeao is None and final and ed.campeao_fonte:
+        campeao, vice = _vencedor(final[-1:] if ed.final_desempate else final) if final else (None, None)
+        if campeao is None and ed.campeao_fonte:   # os jogos não decidem (sem placar dos pênaltis, sem final, sem jogos)
             campeao = copa.clube(ed.campeao_fonte, ed.ano_inicio)
-            vice = next((c for c in (final[0]["m"], final[0]["v"]) if c != campeao), None)
+            vice = (copa.clube(ed.vice_fonte, ed.ano_inicio) if ed.vice_fonte else
+                    next((c for c in (final[0]["m"], final[0]["v"]) if c != campeao), None) if final else None)
         # partidas e gols
         gols_ed = autor_ed = 0
         eid = re.sub(r"[^0-9a-z]+", "-", rsssf_sul.chave(ed.temporada))
@@ -286,12 +290,16 @@ def importar(copa: Copa, relatorio: Path) -> None:
                 r[6] += 3 if a > b else 1 if a == b else 0
         clubes = sorted(alcance)
         linhas = sorted(clubes, key=lambda c: (-alcance[c], -camp[c][6], -camp[c][1], -(camp[c][4] - camp[c][5]), -camp[c][4], c))
-        if (ed.pontos or ed.campeao_tabela) and not final:   # pontos corridos ou quadrangular final: pela classificação
+        if campeao is None and (ed.pontos or ed.campeao_tabela) and not final:   # pontos corridos ou quadrangular final
             campeao, vice = (linhas + [None, None])[:2]
-        for c in (vice, campeao):
+        for c, nome in ((vice, ed.vice_fonte), (campeao, ed.campeao_fonte)):
+            if not c:
+                continue
             if c in linhas:
                 linhas.remove(c)
-                linhas.insert(0, c)
+            linhas.insert(0, c)   # campeão e vice da lista (Wikipédia) entram mesmo sem jogo na fonte
+            if c not in nomes_fonte or not any(ed.ano_inicio in a for a in nomes_fonte[c].values()):
+                nomes_fonte[c][f"wikipedia:{nome or c}"].append(ed.ano_inicio)
         for k, c in enumerate(linhas, 1):
             r = camp[c]
             L["classificacao_final"].append([ed.temporada, k, c, r[0], r[1], r[2], r[3], r[4], r[5], r[6], 0,
@@ -301,6 +309,8 @@ def importar(copa: Copa, relatorio: Path) -> None:
         for t in tabs:
             for r in t.linhas:
                 c = copa.clube(r["nome"], ed.ano_inicio) if r.get("nome") else None
+                if c:   # clube só da tabela (sem jogo na fonte, Copa Venezuela antiga) também vai para o clubes.csv
+                    nomes_fonte[c][f"rsssf:{r['nome']}"].append(ed.ano_inicio)
                 L["tabelas_publicadas"].append([ed.temporada, t.fase or padrao, t.grupo, r.get("pos"), r.get("nome"), c,
                                                 r.get("j"), r.get("v"), r.get("e"), r.get("d"), r.get("gp"), r.get("gc"), r.get("pts"),
                                                 f"RSSSF ({t.fonte}, linha {t.linha})"])
@@ -316,7 +326,7 @@ def importar(copa: Copa, relatorio: Path) -> None:
         obs_conf = f"campeão {campeao} (RSSSF: final; Wikipédia: {wiki or '—'})" + ("" if not wiki or wiki_c == campeao else
                                                                                    " — DIVERGE")
         L["conferencia"].append([ed.temporada, len(jogos), len(jogos), 0, 0, gols_ed, autor_ed, obs_conf])
-        L["edicoes"].append([ed.temporada, ed.ano_inicio, ed.ano_fim, ed.nome_oficial, len(clubes), 3,
+        L["edicoes"].append([ed.temporada, ed.ano_inicio, ed.ano_fim, ed.nome_oficial, len(linhas), 3,
                              "mata-mata" if all(r[3] == "mata_mata" for r in L["fases"] if r[0] == ed.temporada) else
                              "fase de grupos e mata-mata", campeao or "", vice or "", " + ".join(dict.fromkeys(_fonte(j["x"].texto)[0] for j in jogos)) or "RSSSF", ed.obs])
         rel.append(f"| {ed.temporada} | {len(jogos)} | {', '.join(fases)} | {campeao or '—'} | {vice or '—'} | "

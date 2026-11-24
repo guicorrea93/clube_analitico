@@ -1183,3 +1183,47 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 7. **Onde a revisão deve olhar primeiro:** a tabela de siglas de 1990-1996 e os fins de trecho de cada página
    (`_secao` e `_moderna` em `coleta/chi-copa/importar.py`).
 8. **Próxima competição:** Copa Venezuela (`ven-copa`).
+
+## Recado de fim de coleta — ven-copa — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** a Copa Venezuela (`ven-copa`, `tipo` "copa"), a última das sete copas.
+   - **Números:** 66 edições, 1.397 jogos e 161 clubes, dos quais 71 só jogam a copa. 238 gols com autor.
+   - **Edições:** pela lista do anexo da Wikipédia em espanhol ("Anexo:Temporadas de la Copa Venezuela"), que tem 66
+     edições com campeão (a pesquisa de 23/11 falava em 63):
+     - 17 da era amadora (1932-1953): entram a Copa del Distrito Federal 1948, a Copa Junta Militar 1949/50, a Copa
+       Ciudad de Caracas 1952 e a Copa IND 1953;
+     - 49 de 1959 em diante, com os nomes de cada época (Copa Liga Mayor, de las Naciones, Caracas, Cuatricentenario,
+       Valencia e Bicentenario).
+   - **Campeões:** 65 de 66 batem com a Wikipédia. A exceção é 1970: os jogos da RSSSF (Galicia 2-0 e 1-1 contra o
+     Deportivo Italia) e a lista de campeões da RSSSF dão o Deportivo Galicia, e a Wikipédia dá o Deportivo Italia com os
+     mesmos placares. O pacote fica com o Galicia, pelos jogos.
+2. **Commits:** `(hash no próximo commit)`.
+3. **Teste de carga:** `ven-copa: 66 edições, 1397 jogos, 79 clubes novos -> OK`. As outras seis copas: `0 clubes
+   novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar a `ven-copa`;
+   - recarregar, se quiser, `par-copa`, `ecu-copa`, `col-copa` e `chi-copa`: só a coluna `nomes_fonte` do
+     `clubes.csv` mudou (ganhou as grafias das tabelas publicadas). Jogos e ids iguais.
+5. **Fontes e decisões:**
+   - **RSSSF:** a seção da copa nas páginas do ven-1, às vezes na página da temporada seguinte (a de 1987 em venez88, a de
+     2009 em venez2010...). A lista de campeões (`venezcuphist.html`) e o anexo da Wikipédia estão em `data/coleta/ven-copa/`.
+   - **Edições sem jogos (12):** campeão e vice da Wikipédia, com a tabela da RSSSF quando há.
+     - Só tabela: 1959, 1963, 1971, 1972, 1975, 1983 e 1993.
+     - Sem página na RSSSF: 1938, 1949/50, 1989, 1990 e 1992.
+   - **1993:** os jogos da página venez94 são do campeonato inteiro de 1993/94, não da copa (Torneo Apertura). Ficam fora;
+     a copa fica só com as tabelas.
+   - **1995:** os jogos dos grupos saem das tabelas de confrontos da página (144 jogos, sem datas).
+   - **1966 e 1968:** a final teve dois desempates ("Replay"). O campeão é o vencedor do último jogo.
+   - **"Hispano" (Copa IND 1953)** virou "Hispano de Caracas", porque "Hispano" já é o clube de Honduras do hon-1. Mudei
+     o nome também no `clubes_ven.py` do ven-1; o pacote do ven-1 não muda, porque o clube não tem jogos na liga.
+   - **"Estudiantes" de 1942** é o Loyola SC, como diz a RSSSF ("Estudiantes [aka Loyola SC]").
+6. **O que não deu:**
+   - Muitas edições antigas só trazem os jogos de alguns clubes (1941, 1942, 1947, 1952) ou só a final.
+   - De 2011 a 2019 muitos jogos ficam sem data: a página só dá o intervalo no título da rodada.
+   - 46 clubes amadores ficaram sem cidade.
+7. **Onde a revisão deve olhar primeiro:** a divergência de 1970, as edições sem jogos e os trechos de cada página
+   (`_secao` em `coleta/ven-copa/importar.py`).
+8. **Próxima competição:** as sete copas nacionais estão prontas. Pela ordem do guia, vêm as 2ªs divisões, só quando o
+   Guilherme pedir.

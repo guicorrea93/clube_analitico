@@ -88,6 +88,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `col-copa` Copa Colombia | 21 (1950-51, 1952-53, 1956-57, 2008–2025) | 2.441 | 58 | 3683817 | não |
 | `arg-copa` Copa Argentina | 15 (1969, 1970, 2011/12–2025; só a fase final) | 952 | 174 | 1dbc701 | não |
 | `chi-copa` Copa Chile | 45 (1958–2025, com buracos) | 3.497 | 174 | 683177b | não |
+| `ven-copa` Copa Venezuela | 66 (1932–2025, com buracos) | 1.397 | 161 | (hash no próximo commit) | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
@@ -126,7 +127,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
 3. **Copas nacionais (EM ANDAMENTO desde 24/11; decisões do Guilherme em `copas-nacionais.md`):** as sete (ARG, URU, CHI,
    COL, PAR, ECU, VEN), contagem da Wikipédia, das menores às maiores: Uruguai (FEITO, `uru-copa`), Paraguai (FEITO, `par-copa`), Equador (FEITO, `ecu-copa`),
-   Colômbia (FEITO, `col-copa`), Argentina (FEITO, `arg-copa`), Chile (FEITO, `chi-copa`), Venezuela. Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
+   Colômbia (FEITO, `col-copa`), Argentina (FEITO, `arg-copa`), Chile (FEITO, `chi-copa`), Venezuela (FEITO, `ven-copa`). Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
    cada copa só configura edições (página e trecho da RSSSF), fases, regiões e clubes (`clubes_copa.py`: regras da copa
    antes das da liga, nome inteiro, interior com a cidade). Não entra no `documentar.py` (que é de liga): o relatório
    `docs/coleta/<slug>.md` sai do próprio importador. Ver também: o leitor comum perde a continuação do colchete dos
@@ -144,9 +145,15 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
      (4º elemento do trecho), `campeao_fonte` (final empatada sem placar dos pênaltis, 1958), `campeao_tabela`
      (quadrangular final, 1982), `grupos_clubes` e `Copa.fases_pontos` (grupos sem tabela legível). As outras copas
      não mudaram (rodei de novo).
-   - **Próxima: Copa Venezuela (`ven-copa`).** Fazer o diagnóstico antes: páginas, trechos, contagem por fase, grafias
-     que a liga não tem, campeões da Wikipédia. Antes do commit, cruzar os nomes com TODOS os `data/coleta/*/pacote/clubes.csv`
-     (o "Sol de Mayo" da arg-copa repetia o da par-copa e o carregador recusou).
+   - **Copa Venezuela (`ven-copa`) FEITA em 24/11. AS SETE COPAS ESTÃO PRONTAS.** Contagem do anexo da Wikipédia
+     ("Anexo:Temporadas de la Copa Venezuela", em `data/coleta/ven-copa/wikipedia/`): 66 edições (a pesquisa de 23/11
+     falava em 63). Campeão e vice da Wikipédia (`CAMPEOES` em `coleta/ven-copa/importar.py`) quando os jogos não decidem;
+     12 edições sem jogos (só tabela ou sem página). 1995 pelas tabelas de confrontos (`_cruzadas_1995`, leitor do ven-1).
+     O importador comum ganhou: `vice_fonte`, campeão e vice entram na classificação mesmo sem jogo, `final_desempate`
+     (final com "Replay": decide o último jogo) e clube só de tabela publicada vai para o `clubes.csv` (nas outras copas
+     só a coluna `nomes_fonte` mudou).
+   - Antes de cada commit de copa, cruzar os nomes com TODOS os `data/coleta/*/pacote/clubes.csv` e rodar o
+     `testar_carga.py` (que agora pega os clubes já carregados das outras confederações: "Hispano" era de Honduras).
 4. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7). Pedido do agente 1 para o
    `bol-1` (22/11, "quando o Guilherme mandar revisar"): a classificação final de 1960, 1976, 1990, 1993 e 1994 com todos
    os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as

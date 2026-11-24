@@ -38,7 +38,7 @@ CLUBES: dict[str, tuple[str, str]] = {
     "Deportivo Venezuela": CCS, "Unión SC": CCS, "Dos Caminos": CCS, "Litoral": ("La Guaira", "Vargas"),
     "Deportivo Español de Caracas": CCS, "La Salle": CCS, "Deportivo Vasco": CCS, "Banco Obrero": CCS, "Atenas": CCS,
     "Deutscher SV": CCS, "Nueva Esparta": CCS, "Centro Alemán": ("Puerto Cabello", "Carabobo"), "Deportivo España": CCS,
-    "Kadima": CCS, "Pampero": CCS, "Universidad Central": CCS, "Catalonia": CCS, "Hispano": CCS, "Nuevos del Este": CCS,
+    "Kadima": CCS, "Pampero": CCS, "Universidad Central": CCS, "Catalonia": CCS, "Hispano de Caracas": CCS, "Nuevos del Este": CCS,
     "Deportivo Universitario": CCS,
     # Caracas e arredores
     "Deportivo Portugués": CCS, "Deportivo Italia": CCS, "Deportivo Galicia": CCS, "Celta de Caracas": CCS,
@@ -112,7 +112,7 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"celta", "Celta de Caracas", 1950, 2100),
     (r"danubio", "Danubio de Caracas", 1950, 2100),
     (r"catalonia( fc)?", "Catalonia", 1950, 2100),
-    (r"hispano", "Hispano", 1950, 2100),
+    (r"hispano", "Hispano de Caracas", 1950, 2100),   # "Hispano" já é o de Honduras (hon-1)
     (r"nuevos del este", "Nuevos del Este", 1950, 2100),
     (r"(at(l(etico)?)? )?venezuela$|atletico venezuela", "Atlético Venezuela", 2000, 2100),
     (r"metropolitanos( fc)?", "Metropolitanos", 2000, 2100),
