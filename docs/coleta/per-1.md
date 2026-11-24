@@ -83,8 +83,8 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 1977 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Alianza Lima | RSSSF (peruhist:1297+peruhist:1278) |
 | 1978 | 16 | 364 (364) | 980 | 0 | 2 / 2 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1979 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Sporting Cristal | RSSSF (peruhist:1404+peruhist:1415+peruhist:1385) |
-| 1980 | 17 | 266 (266) | 661 | 592 | 3 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1981 | 16 | 307 (307) | 721 | 657 | 5 / 0 | Melgar | RSSSF (peru81) |
+| 1980 | 17 | 266 (266) | 661 | 655 | 3 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1981 | 16 | 307 (307) | 721 | 710 | 5 / 0 | Melgar | RSSSF (peru81) |
 | 1982 | 16 | 215 (215) | 445 | 0 | 4 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1983 | 17 | 287 (287) | 657 | 0 | 2 / 0 | Sporting Cristal | RSSSF (peru83) |
 | 1984 | 15 | 186 (186) | 413 | 0 | 1 / 5 | Sport Boys | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -98,33 +98,33 @@ Gerado por `python coleta/per-1/importar.py`. Pacote em `data/coleta/per-1/pacot
 | 1992 | 16 | 240 (240) | 641 | 0 | 0 / 1 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1993 | 16 | 240 (240) | 684 | 0 | 0 / 1 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1994 | 16 | 297 (297) | 836 | 0 | 2 / 1 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1995 | 16 | 296 (296) | 766 | 66 | 2 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1995 | 16 | 296 (296) | 766 | 80 | 2 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1996 | 16 | 240 (240) | 636 | 0 | 0 / 1 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997 | 14 | 182 (182) | 502 | 0 | 3 / 0 | Alianza Lima | RSSSF (peru97) |
-| 1998 | 12 | 267 (267) | 684 | 349 | 4 / 0 | Universitario | RSSSF (peru98:718+peru98:722) |
-| 1999 | 13 | 267 (267) | 779 | 31 | 0 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 | 12 | 266 (265) | 769 | 712 | 2 / 2 | Universitario | RSSSF (peru00:784+peru00:795) |
+| 1998 | 12 | 267 (267) | 684 | 664 | 4 / 0 | Universitario | RSSSF (peru98:718+peru98:722) |
+| 1999 | 13 | 267 (267) | 779 | 771 | 0 / 3 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 | 12 | 266 (265) | 769 | 718 | 2 / 2 | Universitario | RSSSF (peru00:784+peru00:795) |
 | 2001 | 12 | 268 (268) | 791 | 782 | 2 / 0 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2002 | 12 | 266 (266) | 762 | 753 | 3 / 0 | Sporting Cristal | RSSSF (peru02) |
 | 2003 | 12 | 234 (234) | 599 | 592 | 3 / 0 | Alianza Lima | RSSSF (peru03) |
 | 2004 | 14 | 366 (365) | 995 | 975 | 2 / 0 | Alianza Lima | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 | 13 | 313 (313) | 797 | 776 | 2 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 | 13 | 313 (313) | 797 | 778 | 2 / 0 | Sporting Cristal | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 | 12 | 268 (268) | 647 | 645 | 3 / 0 | Alianza Lima | RSSSF (peru06) |
 | 2007 | 12 | 264 (264) | 653 | 647 | 3 / 0 | Universidad San Martín | RSSSF (peru07) |
 | 2008 | 14 | 365 (365) | 896 | 893 | 3 / 0 | Universidad San Martín | RSSSF (peru08) |
 | 2009 | 16 | 354 (354) | 886 | 886 | 3 / 0 | Universitario | RSSSF (peru09:714+peru09:909) |
 | 2010 | 16 | 354 (354) | 937 | 931 | 4 / 0 | Universidad San Martín | RSSSF (peru2010) |
 | 2011 | 16 | 243 (243) | 595 | 565 | 1 / 0 | Juan Aurich | RSSSF (peru2011) |
-| 2012 | 16 | 354 (354) | 853 | 846 | 3 / 0 | Sporting Cristal | RSSSF (peru2012:734+peru2012:751) |
+| 2012 | 16 | 354 (354) | 853 | 850 | 3 / 0 | Sporting Cristal | RSSSF (peru2012:734+peru2012:751) |
 | 2013 | 16 | 357 (357) | 871 | 868 | 1 / 2 | Universitario | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2014 | 16 | 245 (245) | 657 | 609 | 3 / 0 | Sporting Cristal | RSSSF (peru2014) |
-| 2015 | 17 | 281 (281) | 733 | 695 | 3 / 0 | Melgar | RSSSF (peru2015) |
-| 2016 | 16 | 360 (359) | 963 | 880 | 5 / 0 | Sporting Cristal | RSSSF (peru2016) |
-| 2017 | 16 | 354 (354) | 943 | 846 | 5 / 0 | Alianza Lima | RSSSF (peru2017) |
-| 2018 | 16 | 359 (359) | 985 | 920 | 5 / 0 | Sporting Cristal | RSSSF (peru2018) |
-| 2019 | 18 | 310 (310) | 802 | 775 | 3 / 0 | Binacional | RSSSF (peru2019) |
+| 2014 | 16 | 245 (245) | 657 | 635 | 3 / 0 | Sporting Cristal | RSSSF (peru2014) |
+| 2015 | 17 | 281 (281) | 733 | 720 | 3 / 0 | Melgar | RSSSF (peru2015) |
+| 2016 | 16 | 360 (359) | 963 | 930 | 5 / 0 | Sporting Cristal | RSSSF (peru2016) |
+| 2017 | 16 | 354 (354) | 943 | 909 | 5 / 0 | Alianza Lima | RSSSF (peru2017) |
+| 2018 | 16 | 359 (359) | 985 | 956 | 5 / 0 | Sporting Cristal | RSSSF (peru2018) |
+| 2019 | 18 | 310 (310) | 802 | 789 | 3 / 0 | Binacional | RSSSF (peru2019) |
 | 2020 | 20 | 285 (285) | 756 | 750 | 5 / 0 | Sporting Cristal | RSSSF (peru2020:919) |
-| 2021 | 19 | 238 (238) | 634 | 630 | 2 / 2 | Alianza Lima | RSSSF (peru2021:783) |
+| 2021 | 19 | 238 (238) | 634 | 634 | 2 / 2 | Alianza Lima | RSSSF (peru2021:783) |
 | 2022 | 19 | 347 (347) | 937 | 937 | 3 / 0 | Alianza Lima | RSSSF (peru2022) |
 | 2023 | 19 | 344 (344) | 873 | 849 | 3 / 0 | Universitario | RSSSF (peru2023) |
 | 2024 | 18 | 306 (306) | 813 | 813 | 3 / 0 | Universitario | RSSSF (peru2024) |

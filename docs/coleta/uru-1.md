@@ -130,7 +130,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 2011/12 | 16 | 243 (242) | 665 | 665 | 3 / 0 | Nacional | RSSSF (uru2012) |
 | 2012/13 | 16 | 241 (241) | 633 | 633 | 3 / 0 | Peñarol | RSSSF (uru2013) |
 | 2013/14 | 16 | 246 (246) | 700 | 688 | 3 / 0 | Danubio | RSSSF (uru2014) |
-| 2014/15 | 16 | 241 (241) | 690 | 673 | 3 / 0 | Nacional | RSSSF (uru2015) |
+| 2014/15 | 16 | 241 (241) | 690 | 681 | 3 / 0 | Nacional | RSSSF (uru2015) |
 | 2015/16 | 16 | 241 (241) | 637 | 633 | 3 / 0 | Peñarol | RSSSF (uru2016) |
 | 2016 | 16 | 120 (120) | 289 | 286 | 1 / 0 | Nacional | RSSSF (uru2016a) |
 | 2017 | 16 | 304 (304) | 797 | 791 | 5 / 0 | Peñarol | RSSSF (uru2017) |
@@ -139,7 +139,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 2020 | 16 | 302 (301) | 774 | 763 | 5 / 0 | Nacional | RSSSF (uru2020) |
 | 2021 | 16 | 241 (241) | 608 | 605 | 3 / 0 | Peñarol | RSSSF (uru2021) |
 | 2022 | 16 | 300 (299) | 647 | 637 | 5 / 0 | Nacional | RSSSF (uru2022) |
-| 2023 | 16 | 301 (300) | 684 | 663 | 5 / 0 | Liverpool de Montevideo | RSSSF (uru2023) |
+| 2023 | 16 | 301 (300) | 684 | 668 | 5 / 0 | Liverpool de Montevideo | RSSSF (uru2023) |
 | 2024 | 16 | 297 (297) | 723 | 718 | 5 / 0 | Peñarol | RSSSF (uru2024) |
 | 2025 | 16 | 300 (300) | 700 | 691 | 5 / 0 | Nacional | RSSSF (uru2025) |
 

@@ -94,20 +94,42 @@ def separar(texto: str, gm: int | None, gv: int | None) -> tuple[list[dict], lis
     if gm is None or gv is None or not texto or not eh_autores(texto):
         return None
     t = texto.strip()
+    # minuto antes do nome com "and" (páginas de 1995-2001): "76' and 78' (p) Gancedo" -> "76' Gancedo, 78' (p) Gancedo"
+    padrao_and = re.compile(r"(\d{1,3}'(?:\s*\(p\))?)\s+and\s+(\d{1,3}'(?:\s*\(p\))?)\s+([^,;]+?)(?=\s*(?:,|;|\s[-–]\s|$))")
+    while padrao_and.search(t):
+        t = padrao_and.sub(lambda m: f"{m.group(1)} {m.group(3)}, {m.group(2)} {m.group(3)}", t, count=1)
     if re.search(r"\]\s*\[", t):
         casa, fora = re.split(r"\]\s*\[", t, maxsplit=1)
     elif ";" in t:
         casa, fora = t.split(";", 1)
-    elif re.search(r"\s[-–]\s", t):
-        casa, fora = re.split(r"\s[-–]\s", t, maxsplit=1)
+    elif re.search(r"\s[-–/]\s", t):
+        casa, fora = re.split(r"\s[-–/]\s", t, maxsplit=1)
     elif gv == 0:
         casa, fora = t, ""
     elif gm == 0:
         casa, fora = "", t
     else:
-        return None
+        return _pelo_placar(t, gm, gv)
     a = _lado(casa.strip(" []")) if casa.strip(" []-") else []
     b = _lado(fora.strip(" []")) if fora.strip(" []-") else []
     if a is None or b is None or len(a) != gm or len(b) != gv:
         return None
     return a, b
+
+
+def _pelo_placar(t: str, gm: int, gv: int) -> tuple[list[dict], list[dict]] | None:
+    """Duas colunas emendadas sem separador (páginas dos anos 1970): "Trossero(2), Marasco, J.Martínez Coronel" num 4-1.
+    Tenta cortar no 1º espaço de cada item ("J.Martínez" | "Coronel"); só vale se os dois lados fecham com o placar e
+    um único corte fecha."""
+    itens = [x.strip() for x in re.split(r",(?![^(]*\))", t)]
+    achados = []
+    for i, item in enumerate(itens):
+        if " " not in item:
+            continue
+        sp = item.index(" ")
+        casa = ", ".join(itens[:i] + [item[:sp]])
+        fora = ", ".join([item[sp + 1:]] + itens[i + 1:])
+        a, b = _lado(casa), _lado(fora)
+        if a is not None and b is not None and len(a) == gm and len(b) == gv:
+            achados.append((a, b))
+    return achados[0] if len(achados) == 1 else None

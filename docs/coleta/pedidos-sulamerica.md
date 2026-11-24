@@ -1308,3 +1308,34 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
   abandonaram ou foram excluídos: `arg-1` 1912 e 1926 (Asociación), `chi-1` Clausura 2008 (Deportes Concepción), `per-1`
   1929 (Alianza Lima), 1991 (FBC Aurora e Unión Minas no Regional II) e 2021 (Carlos Stein).
 - **Pedido:** recarregar `bol-1` e `ven-1` (já estavam na recarga das 9 ligas). Teste de carga OK nos dois.
+
+## 24/11 — Autores de gol em outros formatos (6 ligas)
+
+- **O que mudou:** depois da correção das duas linhas, sobravam 1.578 jogos com autores que o separador de cada liga não
+  lia. Ajustei os `autores.py`:
+  - `bol-1`: "G. Galindo 2" é a quantidade de gols (2ª leitura, páginas de 1999-2002), data grudada no fim e parêntese
+    sem par;
+  - `per-1`: minuto com acento e sem vírgulas ("Olcese 36´(pk) Mendoza 49´ 63´"), "/" entre os times, gol contra do lado
+    do time do jogador (2ª leitura) e notas grudadas ("red cards: ...");
+  - `arg-1`: "76' and 78' (p) Gancedo", "/" entre os times e, quando as duas colunas vêm emendadas sem separador (anos 1970),
+    a divisão pelo placar (só vale se um único corte fecha os dois lados);
+  - `uru-1`, `par-1` e `ecu-1`: "/" entre os times.
+- **Efeito (jogos iguais):**
+
+| Liga | Gols com autor | Ganho |
+|---|---|---|
+| `arg-1` | 37.019 | +853 |
+| `uru-1` | 19.085 | +13 |
+| `par-1` | 15.853 | +98 |
+| `per-1` | 23.573 | +1.415 |
+| `ecu-1` | 9.900 | +5 |
+| `bol-1` | 21.225 | +1.383 |
+| **Total** | | **+3.767** |
+
+  - Nenhum jogo que já tinha autores perdeu gols, fora 31 que melhoraram: o minuto ou uma nota estava grudada no nome
+    ("Victor Alfonso Guaza 88", "Marquinho 45 red card: Basombrio"). Um jogo do Peru de 1995 ficou sem o autor que era
+    lixo ("? 84 red card: ...").
+  - Restam 688 jogos sem separar (arg 183, uru 125, per 105, col 88, bol 57, par 51, chi 34, ecu 25, ven 20), quase
+    todos com nota ou duas colunas emendadas no texto, autor "?" ou formato único.
+- **Teste de carga:** OK nas seis.
+- **Pedido ao agente 1:** já estavam na recarga das 9 ligas.

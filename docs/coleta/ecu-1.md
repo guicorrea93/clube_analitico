@@ -48,8 +48,8 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 | 1988 | 18 | 332 (332) | 819 | 0 | 3 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 13 | 234 (234) | 597 | 0 | 3 / 2 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1990 | 13 | 242 (242) | 626 | 0 | 5 / 2 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1991 | 13 | 242 (242) | 684 | 0 | 6 / 1 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1992 | 13 | 227 (227) | 580 | 0 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1991 | 13 | 242 (242) | 684 | 3 | 6 / 1 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1992 | 13 | 227 (227) | 580 | 2 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1993 | 12 | 184 (184) | 489 | 1 | 4 / 2 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1994 | 12 | 236 (236) | 645 | 0 | 3 / 1 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1995 | 12 | 289 (289) | 781 | 3 | 6 / 2 | Barcelona de Guayaquil | calculada (fase alcançada, pontos, saldo, gols pró) |

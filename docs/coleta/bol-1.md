@@ -39,7 +39,7 @@ Gerado por `python coleta/bol-1/importar.py`. Pacote em `data/coleta/bol-1/pacot
 | 1968 | 6 | 30 (30) | 87 | 0 | 0 / 0 | Bolívar | RSSSF (bolhist) |
 | 1969 | 12 | 0 (0) | 0 | 0 | 0 / 0 | Universitario de La Paz | RSSSF (bolhist) |
 | 1970 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Chaco Petrolero | lista de campeões da Wikipédia em inglês (campeão e vice) |
-| 1971 | 13 | 12 (12) | 33 | 3 | 0 / 0 | Oriente Petrolero | RSSSF (bol71) |
+| 1971 | 13 | 12 (12) | 33 | 33 | 0 / 0 | Oriente Petrolero | RSSSF (bol71) |
 | 1972 | 13 | 0 (0) | 0 | 0 | 0 / 0 | Jorge Wilstermann | RSSSF (bolhist) |
 | 1973 | 13 | 0 (0) | 0 | 0 | 0 / 0 | Jorge Wilstermann | lista de campeões (RSSSF e Wikipédia) |
 | 1974 | 0 | 0 (0) | 0 | 0 | 0 / 0 | The Strongest | lista de campeões da Wikipédia em inglês (campeão e vice) |
@@ -67,12 +67,12 @@ Gerado por `python coleta/bol-1/importar.py`. Pacote em `data/coleta/bol-1/pacot
 | 1996 | 12 | 194 (194) | 604 | 0 | 2 / 3 | Bolívar | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997 | 12 | 168 (168) | 521 | 114 | 4 / 1 | Bolívar | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 12 | 236 (236) | 694 | 1 | 1 / 4 | Blooming | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1999 | 12 | 236 (236) | 750 | 372 | 3 / 2 | Blooming | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 | 12 | 267 (267) | 848 | 645 | 3 / 0 | Jorge Wilstermann | RSSSF (bol00) |
-| 2001 | 12 | 244 (244) | 805 | 523 | 5 / 2 | Oriente Petrolero | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2002 | 12 | 268 (268) | 913 | 422 | 1 / 2 | Bolívar | RSSSF (bol02) |
+| 1999 | 12 | 236 (236) | 750 | 743 | 3 / 2 | Blooming | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 | 12 | 267 (267) | 848 | 825 | 3 / 0 | Jorge Wilstermann | RSSSF (bol00) |
+| 2001 | 12 | 244 (244) | 805 | 789 | 5 / 2 | Oriente Petrolero | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 | 12 | 268 (268) | 913 | 906 | 1 / 2 | Bolívar | RSSSF (bol02) |
 | 2003 Apertura | 12 | 132 (132) | 433 | 433 | 1 / 0 | The Strongest | RSSSF (bol03) |
-| 2003 Clausura | 12 | 108 (108) | 318 | 301 | 5 / 0 | The Strongest | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 Clausura | 12 | 108 (108) | 318 | 304 | 5 / 0 | The Strongest | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2004 Apertura | 12 | 132 (132) | 424 | 415 | 1 / 0 | Bolívar | RSSSF (bol04) |
 | 2004 Clausura | 12 | 119 (119) | 370 | 363 | 3 / 0 | The Strongest | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Adecuación | 12 | 132 (132) | 411 | 408 | 1 / 0 | Bolívar | RSSSF (bol05) |
@@ -93,25 +93,25 @@ Gerado por `python coleta/bol-1/importar.py`. Pacote em `data/coleta/bol-1/pacot
 | 2012/13 Apertura | 12 | 132 (132) | 408 | 405 | 1 / 0 | The Strongest | RSSSF (bol2013) |
 | 2012/13 Clausura | 12 | 132 (132) | 403 | 403 | 1 / 0 | Bolívar | RSSSF (bol2013) |
 | 2013/14 Apertura | 12 | 132 (132) | 399 | 399 | 1 / 0 | The Strongest | RSSSF (bol2014) |
-| 2013/14 Clausura | 12 | 132 (132) | 401 | 389 | 1 / 0 | Universitario de Sucre | RSSSF (bol2014) |
+| 2013/14 Clausura | 12 | 132 (132) | 401 | 397 | 1 / 0 | Universitario de Sucre | RSSSF (bol2014) |
 | 2014/15 Apertura | 12 | 132 (132) | 361 | 358 | 1 / 0 | Bolívar | RSSSF (bol2015) |
 | 2014/15 Clausura | 12 | 132 (132) | 360 | 355 | 1 / 0 | Bolívar | RSSSF (bol2015) |
 | 2015/16 Apertura | 12 | 132 (132) | 426 | 419 | 1 / 0 | Sport Boys Warnes | RSSSF (bol2016) |
-| 2015/16 Clausura | 12 | 132 (132) | 379 | 374 | 1 / 0 | Jorge Wilstermann | RSSSF (bol2016) |
-| 2016/17 Apertura | 12 | 133 (133) | 374 | 365 | 1 / 0 | The Strongest | RSSSF (bol2017) |
-| 2016/17 Adecuación | 12 | 132 (132) | 453 | 445 | 1 / 0 | Bolívar | RSSSF (bol2017) |
+| 2015/16 Clausura | 12 | 132 (132) | 379 | 377 | 1 / 0 | Jorge Wilstermann | RSSSF (bol2016) |
+| 2016/17 Apertura | 12 | 133 (133) | 374 | 368 | 1 / 0 | The Strongest | RSSSF (bol2017) |
+| 2016/17 Adecuación | 12 | 132 (132) | 453 | 449 | 1 / 0 | Bolívar | RSSSF (bol2017) |
 | 2016/17 Clausura | 12 | 132 (132) | 347 | 324 | 1 / 0 | Bolívar | RSSSF (bol2017) |
 | 2018 Apertura | 14 | 115 (115) | 368 | 348 | 2 / 0 | Jorge Wilstermann | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2018 Clausura | 14 | 182 (182) | 589 | 578 | 1 / 0 | San José | RSSSF (bol2018) |
-| 2019 Apertura | 14 | 182 (182) | 608 | 589 | 1 / 0 | Bolívar | RSSSF (bol2019) |
-| 2019 Clausura | 14 | 182 (181) | 600 | 593 | 1 / 0 | Jorge Wilstermann | RSSSF (bol2019) |
-| 2020 | 14 | 182 (182) | 567 | 547 | 1 / 0 | Always Ready | RSSSF (bol2020) |
+| 2019 Apertura | 14 | 182 (182) | 608 | 591 | 1 / 0 | Bolívar | RSSSF (bol2019) |
+| 2019 Clausura | 14 | 182 (181) | 600 | 595 | 1 / 0 | Jorge Wilstermann | RSSSF (bol2019) |
+| 2020 | 14 | 182 (182) | 567 | 558 | 1 / 0 | Always Ready | RSSSF (bol2020) |
 | 2021 | 16 | 240 (240) | 735 | 726 | 1 / 0 | Independiente Petrolero | RSSSF (bol2021) |
-| 2022 Apertura | 16 | 141 (141) | 395 | 377 | 2 / 0 | Bolívar | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2022 Apertura | 16 | 141 (141) | 395 | 380 | 2 / 0 | Bolívar | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2022 Clausura | 16 | 192 (192) | 537 | 531 | 1 / 0 | None | RSSSF (bol2022) |
 | 2023 | 17 | 272 (272) | 750 | 747 | 1 / 0 | The Strongest | RSSSF (bol2023) |
 | 2024 | 16 | 319 (319) | 950 | 943 | 5 / 0 | Bolívar | RSSSF (bol2024) |
-| 2025 | 16 | 240 (240) | 869 | 844 | 1 / 0 | Always Ready | RSSSF (bol2025) |
+| 2025 | 16 | 240 (240) | 869 | 857 | 1 / 0 | Always Ready | RSSSF (bol2025) |
 
 ## Conferência e correções, edição a edição
 

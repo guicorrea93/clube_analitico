@@ -5,10 +5,10 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 94, de 1950 a 2025; 22 sem jogos.
-- **Jogos:** 8563 (8556 com placar); **gols:** 26434; **gols com autor:** 19842 (75%); **cartões:** 4996.
+- **Jogos:** 8563 (8556 com placar); **gols:** 26434; **gols com autor:** 21225 (80%); **cartões:** 4996.
 - **Clubes:** 77; **artilheiros:** 82 edições com artilheiro (92 linhas, com empates).
 - **Classificação final:** 94 edições; **tabelas publicadas guardadas para conferência:** 1626 linhas.
-- **No banco:** sim; **último commit do pacote:** a0222fa9.
+- **No banco:** sim; **último commit do pacote:** 331278b9.
 - **Observação da competição:** 1ª divisão boliviana de 1950 a 2025, uma edição por título: liga de La Paz (1950-1953), Torneo Integrado (1954-1957), Certamen Mixto (1957/58), campeonato nacional (1958-1976, Copa Simón Bolívar a partir de 1960; sem campeonato em 1962) e liga profissional (1977 em diante; Apertura, Clausura e Adecuación dão título de 2003 a 2019 e em 2022). Jogos de 1950, 1953, 1971, 1977 e 1990 em diante (incompletos em 1990-1994); nos outros anos, campeão, vice e a tabela final da RSSSF.
 
 ## 2. Edições, fontes e regras
@@ -66,12 +66,12 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 |---|---|---|---|---|---|---|---|---|---|---|
 | 1950s | 11 | 132 | 98% | 0% | 97% | 1% | 0% | 0% | 0% | 0.0 |
 | 1960s | 9 | 66 | 64% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 10 | 237 | 95% | 0% | 93% | 2% | 0% | 0% | 0% | 0.0 |
+| 1970s | 10 | 237 | 95% | 0% | 93% | 2% | 0% | 0% | 4% | 0.0 |
 | 1980s | 10 | 27 | 100% | 0% | 0% | 100% | 0% | 0% | 0% | 0.0 |
-| 1990s | 10 | 1396 | 86% | 0% | 22% | 1% | 0% | 0% | 12% | 0.0 |
-| 2000s | 17 | 2389 | 100% | 41% | 100% | 41% | 39% | 0% | 87% | 0.7 |
+| 1990s | 10 | 1396 | 86% | 0% | 22% | 1% | 0% | 0% | 21% | 0.0 |
+| 2000s | 17 | 2389 | 100% | 41% | 100% | 41% | 39% | 0% | 99% | 0.7 |
 | 2010s | 20 | 2730 | 100% | 83% | 100% | 83% | 77% | 0% | 98% | 1.0 |
-| 2020s | 7 | 1586 | 100% | 100% | 100% | 90% | 90% | 0% | 98% | 0.2 |
+| 2020s | 7 | 1586 | 100% | 100% | 100% | 90% | 90% | 0% | 99% | 0.2 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 

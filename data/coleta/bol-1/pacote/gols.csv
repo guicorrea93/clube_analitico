@@ -1,4 +1,34 @@
 partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
+1971-0001,Aurora,Melo,,,normal,RSSSF
+1971-0001,Oriente Petrolero,Jesús,,,normal,RSSSF
+1971-0001,Oriente Petrolero,Dedé,,,normal,RSSSF
+1971-0001,Oriente Petrolero,Dedé,,,normal,RSSSF
+1971-0002,The Strongest,Otranto,,,normal,RSSSF
+1971-0002,The Strongest,Nilton,,,normal,RSSSF
+1971-0002,Oriente Petrolero,Jesús,,,normal,RSSSF
+1971-0002,Oriente Petrolero,Jesús,,,normal,RSSSF
+1971-0002,Oriente Petrolero,Jesús,,,normal,RSSSF
+1971-0003,Oriente Petrolero,Drago,,,normal,RSSSF
+1971-0003,Oriente Petrolero,Dedé,,,normal,RSSSF
+1971-0003,La Bélgica,Hurtado,,,normal,RSSSF
+1971-0004,Oriente Petrolero,Dedé,,,normal,RSSSF
+1971-0004,Oriente Petrolero,Dedé,,,normal,RSSSF
+1971-0004,Oriente Petrolero,Toninho (OP,,,normal,RSSSF
+1971-0006,Municipal de La Paz,Tórres,,,normal,RSSSF
+1971-0006,Municipal de La Paz,Terán,,,normal,RSSSF
+1971-0006,Municipal de La Paz,Lladó,,,normal,RSSSF
+1971-0006,Oriente Petrolero,Méndez,,,normal,RSSSF
+1971-0007,Oriente Petrolero,Toninho,,,normal,RSSSF
+1971-0007,Oriente Petrolero,Bravo,,,normal,RSSSF
+1971-0007,Aurora,Quiroga,,,normal,RSSSF
+1971-0008,Oriente Petrolero,Jesús,,,normal,RSSSF
+1971-0009,La Bélgica,Zezinho,,,normal,RSSSF
+1971-0009,La Bélgica,Bernal,,,normal,RSSSF
+1971-0009,Oriente Petrolero,Toninho,,,normal,RSSSF
+1971-0010,Chaco Petrolero,A.Flores,,,normal,RSSSF
+1971-0010,Chaco Petrolero,Mendez,,,normal,RSSSF
+1971-0011,Oriente Petrolero,Méndez,,,normal,RSSSF
+1971-0011,Oriente Petrolero,Dedé,,,normal,RSSSF
 1971-0012,Oriente Petrolero,Méndez,,,normal,RSSSF
 1971-0012,Oriente Petrolero,Dedé,,,normal,RSSSF
 1971-0012,Oriente Petrolero,Luisinho,,,normal,RSSSF
@@ -121,6 +151,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0001,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
 1999-0001,Guabirá,C. Santiesteban,,,normal,RSSSF
 1999-0001,Guabirá,R. Cruz,,,normal,RSSSF
+1999-0002,Bolívar,J. Botero,,,normal,RSSSF
+1999-0002,Bolívar,J. Botero,,,normal,RSSSF
+1999-0002,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0002,Blooming,L. Gutierrez,,,normal,RSSSF
 1999-0003,Independiente Petrolero,A. Illanes,,,normal,RSSSF
 1999-0003,Independiente Petrolero,D. Sanchez,,,normal,RSSSF
 1999-0003,Independiente Petrolero,E. Villegas,,,normal,RSSSF
@@ -130,6 +164,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0004,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 1999-0004,The Strongest,H. Ruiz,,,normal,RSSSF
 1999-0004,The Strongest,L. Camacho,,,contra,RSSSF
+1999-0005,Unión Central,M. Ferrufino,,,normal,RSSSF
+1999-0005,Unión Central,G. Romanello,,,normal,RSSSF
+1999-0005,Unión Central,G. Romanello,,,normal,RSSSF
 1999-0006,Real Potosí,L. De Oliveira,,,normal,RSSSF
 1999-0007,Blooming,L. Gutierrez,,,normal,RSSSF
 1999-0007,Blooming,J. Cortez,,,normal,RSSSF
@@ -138,14 +175,35 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0009,Real Potosí,L. De Oliveira,,,normal,RSSSF
 1999-0009,Real Potosí,V. Andrada,,,normal,RSSSF
 1999-0009,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0010,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0010,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0010,Unión Central,C. Audamas,,,normal,RSSSF
+1999-0011,Jorge Wilstermann,A. Carvalho,,,normal,RSSSF
+1999-0011,Jorge Wilstermann,D. Eterovic,,,normal,RSSSF
+1999-0011,Jorge Wilstermann,G. Avallay,,,normal,RSSSF
+1999-0011,Independiente Petrolero,J. Grass,,,normal,RSSSF
+1999-0011,Independiente Petrolero,J. Grass,,,normal,RSSSF
 1999-0012,Destroyers,G. Paredes,,,normal,RSSSF
 1999-0012,Real Santa Cruz,W. Añez,,,normal,RSSSF
+1999-0013,Bolívar,G. Gomes,,,normal,RSSSF
+1999-0013,Bolívar,G. Gomes,,,normal,RSSSF
+1999-0013,Bolívar,J. Botero,,,normal,RSSSF
+1999-0013,Bolívar,V. Soria,,,normal,RSSSF
+1999-0013,Bolívar,V. Soria,,,normal,RSSSF
 1999-0014,Real Santa Cruz,A. Jara,,,normal,RSSSF
 1999-0014,Real Santa Cruz,A. Ibañez,,,normal,RSSSF
 1999-0014,Real Santa Cruz,M. Rocha,,,normal,RSSSF
 1999-0014,The Strongest,J. Peña,,,normal,RSSSF
 1999-0014,The Strongest,H. Ruiz,,,normal,RSSSF
+1999-0015,San José,S. Netto,,,normal,RSSSF
+1999-0015,San José,S. Netto,,,normal,RSSSF
+1999-0015,San José,C. Alves,,,normal,RSSSF
+1999-0015,San José,F. Suescum,,,normal,RSSSF
+1999-0015,Guabirá,L. Paz,,,normal,RSSSF
 1999-0016,Independiente Petrolero,A. Murillo,,,normal,RSSSF
+1999-0017,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0017,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0017,Jorge Wilstermann,J. Zamora,,,normal,RSSSF
 1999-0018,Unión Central,E. Espindola,,,normal,RSSSF
 1999-0018,Unión Central,N. Kekes,,,normal,RSSSF
 1999-0018,Real Potosí,E. Sanchez,,,normal,RSSSF
@@ -162,6 +220,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0023,Jorge Wilstermann,S. Joao,,,normal,RSSSF
 1999-0023,Unión Central,R. Espindola,,,normal,RSSSF
 1999-0023,Unión Central,D. Rodriguez,,,normal,RSSSF
+1999-0024,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0024,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0024,Oriente Petrolero,A. Farfan,,,normal,RSSSF
+1999-0024,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+1999-0025,Real Santa Cruz,A. Jara,,,normal,RSSSF
+1999-0025,Real Santa Cruz,A. Jara,,,normal,RSSSF
+1999-0025,Real Santa Cruz,M. Rocha,,,normal,RSSSF
+1999-0026,Blooming,M. Menacho,,,normal,RSSSF
+1999-0026,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0026,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0026,Blooming,R. Gutierrez,,,normal,RSSSF
+1999-0026,Destroyers,G. Paredes,,,normal,RSSSF
 1999-0027,Bolívar,C. Reynaldo,,,normal,RSSSF
 1999-0027,Real Potosí,V. Andrada,,,normal,RSSSF
 1999-0028,Independiente Petrolero,L. Suarez,,,normal,RSSSF
@@ -179,15 +249,36 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0032,Guabirá,L. Paz,,,normal,RSSSF
 1999-0033,Unión Central,M. Ferrufino,,,normal,RSSSF
 1999-0033,Independiente Petrolero,T. Gutierrez,,,normal,RSSSF
+1999-0035,Jorge Wilstermann,S. Joao,,,normal,RSSSF
+1999-0035,Jorge Wilstermann,S. Joao,,,normal,RSSSF
+1999-0035,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0035,Bolívar,J. Botero,,,normal,RSSSF
 1999-0036,The Strongest,V. Gonzale,,,normal,RSSSF
 1999-0036,The Strongest,R. Cueto,,,normal,RSSSF
+1999-0037,Independiente Petrolero,D. Sanchez,,,normal,RSSSF
+1999-0037,Independiente Petrolero,D. Sanchez,,,normal,RSSSF
+1999-0037,Independiente Petrolero,J. Fernandez,,,normal,RSSSF
+1999-0037,Independiente Petrolero,R. Alvarez,,,normal,RSSSF
+1999-0037,Independiente Petrolero,R. Alvarez,,,normal,RSSSF
+1999-0038,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+1999-0038,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+1999-0038,Real Santa Cruz,A. Jara,,,normal,RSSSF
+1999-0038,Unión Central,P. Serrano,,,normal,RSSSF
+1999-0038,Unión Central,G. Romanello,,,normal,RSSSF
 1999-0039,Guabirá,M. Ceballos,,,normal,RSSSF
 1999-0040,Blooming,M. Menacho,,,normal,RSSSF
 1999-0040,Blooming,G. Paredes,,,normal,RSSSF
 1999-0040,Blooming,V. Antelo,,,normal,RSSSF
 1999-0041,Bolívar,G. Gomes,,,normal,RSSSF
+1999-0042,San José,S. Netto,,,normal,RSSSF
+1999-0042,San José,S. Netto,,,normal,RSSSF
+1999-0042,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 1999-0043,Bolívar,J. Botero,,,normal,RSSSF
 1999-0043,Bolívar,A. Lozano,,,normal,RSSSF
+1999-0044,Real Potosí,L. De Oliveira,,,normal,RSSSF
+1999-0044,Real Potosí,L. De Oliveira,,,normal,RSSSF
+1999-0044,Real Potosí,E. Sanchez,,,normal,RSSSF
+1999-0044,Real Potosí,E. Sanchez,,,normal,RSSSF
 1999-0045,Real Santa Cruz,W. Añez,,,normal,RSSSF
 1999-0046,The Strongest,R. Cueto,,,normal,RSSSF
 1999-0046,The Strongest,V. Gonzales,,,normal,RSSSF
@@ -197,7 +288,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0048,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
 1999-0048,Jorge Wilstermann,S. Joao,,,normal,RSSSF
 1999-0048,Blooming,R. Tufiño,,,normal,RSSSF
+1999-0049,Guabirá,J. Baldivieso,,,normal,RSSSF
+1999-0049,Guabirá,M. Ceballos,,,normal,RSSSF
+1999-0049,Guabirá,M. Ceballos,,,normal,RSSSF
+1999-0049,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
+1999-0049,Jorge Wilstermann,S. Joao,,,normal,RSSSF
 1999-0050,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0051,Bolívar,R. Garcia,,,normal,RSSSF
+1999-0051,Bolívar,J. Botero,,,normal,RSSSF
+1999-0051,Bolívar,G. Gomes,,,normal,RSSSF
+1999-0051,Bolívar,W. Sanchez,,,normal,RSSSF
+1999-0051,Bolívar,W. Sanchez,,,normal,RSSSF
+1999-0051,Bolívar,L. Liendo,,,normal,RSSSF
+1999-0052,Independiente Petrolero,J. Grass,,,normal,RSSSF
+1999-0052,Independiente Petrolero,J. Grass,,,normal,RSSSF
+1999-0052,Independiente Petrolero,J. Fernandez,,,normal,RSSSF
+1999-0052,The Strongest,R. Arana,,,normal,RSSSF
 1999-0053,San José,V. Zanca,,,normal,RSSSF
 1999-0053,San José,R. Paniagua,,,normal,RSSSF
 1999-0053,Unión Central,C. Audamas,,,normal,RSSSF
@@ -205,6 +311,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0054,Destroyers,J. Leal,,,normal,RSSSF
 1999-0054,Destroyers,J. Etcheverry,,,normal,RSSSF
 1999-0054,Destroyers,F. Takeo,,,normal,RSSSF
+1999-0055,Real Santa Cruz,A. Ibañez,,,normal,RSSSF
+1999-0055,Real Santa Cruz,A. Jara,,,normal,RSSSF
+1999-0055,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+1999-0055,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+1999-0055,San José,R. Paniagua,,,normal,RSSSF
+1999-0056,Jorge Wilstermann,S. Joao,,,normal,RSSSF
+1999-0056,Jorge Wilstermann,S. Joao,,,normal,RSSSF
+1999-0056,Jorge Wilstermann,S. Joao,,,normal,RSSSF
+1999-0056,Jorge Wilstermann,G. Reinoso,,,normal,RSSSF
+1999-0056,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+1999-0056,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+1999-0056,Jorge Wilstermann,J. Baldivieso,,,normal,RSSSF
+1999-0056,Destroyers,J. Chavez,,,normal,RSSSF
+1999-0056,Destroyers,A. Carrillo,,,normal,RSSSF
+1999-0056,Destroyers,J. Leal,,,normal,RSSSF
 1999-0058,Oriente Petrolero,B. Suarez,,,normal,RSSSF
 1999-0058,Guabirá,P. Gil,,,normal,RSSSF
 1999-0059,Real Potosí,E. Sanchez,,,normal,RSSSF
@@ -215,6 +336,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0062,Guabirá,M. Cardona,,,normal,RSSSF
 1999-0062,Unión Central,R. Espindola,,,normal,RSSSF
 1999-0062,Unión Central,C. Audamas,,,normal,RSSSF
+1999-0064,Independiente Petrolero,J. Grass,,,normal,RSSSF
+1999-0064,Independiente Petrolero,J. Fernandez,,,normal,RSSSF
+1999-0064,Independiente Petrolero,P. Fernandez,,,normal,RSSSF
+1999-0064,Independiente Petrolero,P. Fernandez,,,normal,RSSSF
+1999-0064,Real Potosí,W. Ramallo,,,normal,RSSSF
+1999-0065,Destroyers,M. Aguilera,,,normal,RSSSF
+1999-0065,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0065,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 1999-0066,Blooming,R. Gutierrez,,,normal,RSSSF
 1999-0066,Blooming,R. Tufiño,,,normal,RSSSF
 1999-0066,Blooming,J. Cortez,,,normal,RSSSF
@@ -225,6 +354,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0067,The Strongest,V. Gonzales,,,normal,RSSSF
 1999-0068,Unión Central,L. Libermann,,,normal,RSSSF
 1999-0068,Unión Central,P. Serrano,,,normal,RSSSF
+1999-0069,Real Potosí,W. Ramallo,,,normal,RSSSF
+1999-0069,Real Potosí,W. Ramallo,,,normal,RSSSF
+1999-0069,Jorge Wilstermann,L. Morejon,,,normal,RSSSF
+1999-0069,Jorge Wilstermann,J. Zegarra,,,normal,RSSSF
 1999-0070,Real Santa Cruz,W. Añez,,,normal,RSSSF
 1999-0071,San José,F. Cossio,,,normal,RSSSF
 1999-0071,San José,P. Colque,,,normal,RSSSF
@@ -237,6 +370,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0073,Guabirá,M. Ligori,,,normal,RSSSF
 1999-0073,Guabirá,L. Paz,,,normal,RSSSF
 1999-0073,Guabirá,R. Cespedes,,,normal,RSSSF
+1999-0074,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+1999-0074,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+1999-0074,Oriente Petrolero,F. Apur,,,normal,RSSSF
 1999-0076,Unión Central,M. Romero,,,normal,RSSSF
 1999-0077,Independiente Petrolero,P. Fernandez,,,normal,RSSSF
 1999-0077,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
@@ -245,37 +381,139 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0079,Guabirá,R. Cruz,,,normal,RSSSF
 1999-0079,Guabirá,M. Cardona,,,normal,RSSSF
 1999-0079,San José,C. Alves,,,normal,RSSSF
+1999-0080,Blooming,V. Antelo,,,normal,RSSSF
+1999-0080,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0080,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0080,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0080,Blooming,G. Paredes,,,normal,RSSSF
 1999-0081,Destroyers,F. Takeo,,,normal,RSSSF
 1999-0081,Bolívar,L. Liendo,,,normal,RSSSF
 1999-0082,Real Potosí,W. Ramallo,,,normal,RSSSF
 1999-0082,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0083,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0083,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0083,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+1999-0085,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0085,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0085,Bolívar,L. Liendo,,,normal,RSSSF
+1999-0085,The Strongest,M. Angulo,,,normal,RSSSF
+1999-0085,The Strongest,V. Gonzales,,,normal,RSSSF
 1999-0086,Real Santa Cruz,R. Martinez,,,normal,RSSSF
 1999-0086,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
 1999-0086,Real Potosí,F. Justiniano,,,normal,RSSSF
+1999-0087,Blooming,G. Paredes,,,normal,RSSSF
+1999-0087,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0087,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0087,Blooming,V. Antelo,,,normal,RSSSF
+1999-0087,Guabirá,M. Ceballos,,,normal,RSSSF
 1999-0088,Independiente Petrolero,E. Villegas,,,normal,RSSSF
 1999-0088,Independiente Petrolero,W. Cortez,,,normal,RSSSF
 1999-0088,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0089,San José,C. Alves,,,normal,RSSSF
+1999-0089,San José,C. Alves,,,normal,RSSSF
+1999-0089,San José,B. Vaca,,,normal,RSSSF
+1999-0089,San José,D. Angola,,,normal,RSSSF
+1999-0089,Destroyers,J. Leal,,,normal,RSSSF
+1999-0090,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0090,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0090,Unión Central,G. Romanello,,,normal,RSSSF
 1999-0091,Destroyers,M. Aguilera,,,normal,RSSSF
 1999-0091,Blooming,O. Ozzan,,,normal,RSSSF
 1999-0091,Blooming,L. Da Silva,,,contra,RSSSF
+1999-0092,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0092,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0092,Unión Central,C. Audamas,,,normal,RSSSF
+1999-0092,Unión Central,F. Calustro,,,normal,RSSSF
 1999-0093,Guabirá,J. Amarilla,,,normal,RSSSF
 1999-0093,Guabirá,M. Ceballos,,,normal,RSSSF
 1999-0093,Guabirá,L. Paz,,,normal,RSSSF
 1999-0093,Independiente Petrolero,D. Sanchez,,,normal,RSSSF
 1999-0093,Independiente Petrolero,J. Grass,,,normal,RSSSF
+1999-0094,Real Potosí,V. Andrada,,,normal,RSSSF
+1999-0094,Real Potosí,L. Selenzo,,,normal,RSSSF
+1999-0094,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0094,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0095,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0095,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0095,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0095,The Strongest,R. Cueto,,,normal,RSSSF
+1999-0095,San José,S. Netto,,,normal,RSSSF
+1999-0095,San José,S. Netto,,,normal,RSSSF
+1999-0095,San José,C. Alves,,,normal,RSSSF
+1999-0096,Jorge Wilstermann,J. Rios,,,normal,RSSSF
+1999-0096,Jorge Wilstermann,J. Rios,,,normal,RSSSF
+1999-0096,Jorge Wilstermann,S. Joao,,,normal,RSSSF
+1999-0096,Jorge Wilstermann,S. Joao,,,normal,RSSSF
+1999-0096,Jorge Wilstermann,M. Sozzani,,,normal,RSSSF
+1999-0096,Real Santa Cruz,A. Jara,,,normal,RSSSF
+1999-0096,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
 1999-0097,Guabirá,J. Amarilla,,,normal,RSSSF
 1999-0097,Guabirá,R. Cruz,,,normal,RSSSF
 1999-0097,Destroyers,A. Garcia,,,normal,RSSSF
 1999-0097,Destroyers,E. Viviani,,,normal,RSSSF
+1999-0098,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+1999-0098,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+1999-0098,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0098,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 1999-0099,San José,P. Colque,,,normal,RSSSF
 1999-0099,San José,V. Zanca,,,normal,RSSSF
 1999-0099,San José,S. Figueredo,,,normal,RSSSF
 1999-0099,Real Potosí,E. Sanchez,,,normal,RSSSF
+1999-0100,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0100,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0100,Blooming,V. Antelo,,,normal,RSSSF
+1999-0100,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0101,Bolívar,G. Gomes,,,normal,RSSSF
+1999-0101,Bolívar,G. Gomes,,,normal,RSSSF
+1999-0101,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+1999-0102,Independiente Petrolero,M. Blanco,,,normal,RSSSF
+1999-0102,Independiente Petrolero,E. Villegas,,,normal,RSSSF
+1999-0102,Unión Central,F. Calustro,,,normal,RSSSF
+1999-0102,Unión Central,F. Calustro,,,normal,RSSSF
+1999-0102,Unión Central,P. Serrano,,,normal,RSSSF
+1999-0103,Real Potosí,E. Sanchez,,,normal,RSSSF
+1999-0103,Real Potosí,E. Sanchez,,,normal,RSSSF
+1999-0104,Oriente Petrolero,B. Suarez,,,normal,RSSSF
+1999-0104,Oriente Petrolero,B. Suarez,,,normal,RSSSF
+1999-0104,Oriente Petrolero,A. Farfan,,,normal,RSSSF
+1999-0104,Bolívar,J. Botero,,,normal,RSSSF
+1999-0105,The Strongest,J. Peña,,,normal,RSSSF
+1999-0105,The Strongest,H. Ruiz,,,normal,RSSSF
+1999-0105,Guabirá,L. Paz,,,normal,RSSSF
+1999-0105,Guabirá,L. Paz,,,normal,RSSSF
+1999-0106,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0106,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0106,Unión Central,L. Libermann,,,normal,RSSSF
 1999-0107,Jorge Wilstermann,J. Rios,,,normal,RSSSF
+1999-0108,Destroyers,J. Etcheverry,,,normal,RSSSF
+1999-0108,Destroyers,J. Etcheverry,,,normal,RSSSF
+1999-0108,Destroyers,F. Takeo,,,normal,RSSSF
+1999-0108,Destroyers,F. Takeo,,,normal,RSSSF
+1999-0108,Independiente Petrolero,M. Blanco,,,normal,RSSSF
+1999-0108,Independiente Petrolero,M. Blanco,,,normal,RSSSF
+1999-0108,Independiente Petrolero,P. Fernandez,,,normal,RSSSF
 1999-0109,Bolívar,J. Botero,,,normal,RSSSF
 1999-0109,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0110,Destroyers,F. Takeo,,,normal,RSSSF
+1999-0110,Destroyers,G. Paredes,,,normal,RSSSF
+1999-0110,Destroyers,G. Paredes,,,normal,RSSSF
+1999-0110,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0111,Guabirá,M. Ceballos,,,normal,RSSSF
+1999-0111,Guabirá,M. Ceballos,,,normal,RSSSF
+1999-0111,Guabirá,P. Añez,,,normal,RSSSF
+1999-0111,Real Potosí,E. Sanchez,,,normal,RSSSF
+1999-0111,Real Potosí,E. Sanchez,,,normal,RSSSF
+1999-0111,Real Potosí,E. Sanchez,,,normal,RSSSF
 1999-0112,Independiente Petrolero,T. Gutierrez,,,normal,RSSSF
 1999-0112,Independiente Petrolero,E. Villegas,,,normal,RSSSF
+1999-0113,San José,J. Cossio,,,normal,RSSSF
+1999-0113,San José,J. Cossio,,,normal,RSSSF
+1999-0113,San José,S. Netto,,,normal,RSSSF
+1999-0113,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+1999-0114,Blooming,V. Antelo,,,normal,RSSSF
+1999-0114,Blooming,V. Antelo,,,normal,RSSSF
+1999-0114,Blooming,O. Ozzan,,,normal,RSSSF
+1999-0114,Blooming,O. Ozzan,,,normal,RSSSF
 1999-0115,Real Santa Cruz,W. Añez,,,normal,RSSSF
 1999-0115,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
 1999-0115,Bolívar,G. Gomes,,,normal,RSSSF
@@ -309,17 +547,38 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0125,San José,B. Alves,,,normal,RSSSF
 1999-0125,Real Santa Cruz,L. Cespedes,,,normal,RSSSF
 1999-0125,Real Santa Cruz,A. Jara,,,normal,RSSSF
+1999-0126,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0126,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0126,The Strongest,R. Cueto,,,normal,RSSSF
+1999-0126,Real Potosí,L. Selenzo,,,normal,RSSSF
+1999-0127,Bolívar,J. Botero,,,normal,RSSSF
+1999-0127,Bolívar,J. Botero,,,normal,RSSSF
+1999-0127,Bolívar,J. Botero,,,normal,RSSSF
+1999-0127,Bolívar,J. Botero,,,normal,RSSSF
+1999-0127,San José,F. Cossio,,,normal,RSSSF
 1999-0128,Oriente Petrolero,J. Vaca,,,normal,RSSSF
 1999-0128,Oriente Petrolero,B. Suarez,,,normal,RSSSF
 1999-0128,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 1999-0128,Oriente Petrolero,J. Farah,,,normal,RSSSF
 1999-0128,Destroyers,A. Garcia,,,normal,RSSSF
 1999-0128,Destroyers,J. Etcheverry,,,normal,RSSSF
+1999-0129,Real Potosí,W. Ramallo,,,normal,RSSSF
+1999-0129,Real Potosí,W. Ramallo,,,normal,RSSSF
+1999-0129,Real Potosí,L. Selenzo,,,normal,RSSSF
+1999-0129,Real Potosí,D. Peña,,,normal,RSSSF
+1999-0129,Independiente Petrolero,T. Gutierrez,,,normal,RSSSF
 1999-0130,Real Santa Cruz,A. Jara,,,normal,RSSSF
 1999-0130,Blooming,L. Gutierrez,,,normal,RSSSF
 1999-0130,Blooming,R. Tufiño,,,normal,RSSSF
 1999-0130,Blooming,J. Couceiro,,,normal,RSSSF
 1999-0130,Blooming,V. Antelo,,,normal,RSSSF
+1999-0131,Unión Central,R. Santana,,,normal,RSSSF
+1999-0131,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0131,Guabirá,P. Gil,,,normal,RSSSF
+1999-0131,Guabirá,P. Gil,,,normal,RSSSF
+1999-0131,Guabirá,Josimar,,,normal,RSSSF
+1999-0131,Guabirá,M. Ceballos,,,normal,RSSSF
+1999-0131,Guabirá,M. Ligori,,,normal,RSSSF
 1999-0132,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 1999-0132,Jorge Wilstermann,S. Joao,,,normal,RSSSF
 1999-0132,The Strongest,R. Cueto,,,normal,RSSSF
@@ -329,20 +588,41 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0134,Oriente Petrolero,S. Castillo,,,normal,RSSSF
 1999-0134,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 1999-0134,Unión Central,G. Romanello,,,normal,RSSSF
+1999-0135,Guabirá,M. Ligori,,,normal,RSSSF
+1999-0135,Guabirá,C. Santiesteban,,,normal,RSSSF
+1999-0135,Guabirá,J. Amarilla,,,normal,RSSSF
+1999-0135,Guabirá,J. Amarilla,,,normal,RSSSF
+1999-0135,Destroyers,M. Aguilera,,,normal,RSSSF
 1999-0136,The Strongest,R. Cueto,,,normal,RSSSF
 1999-0136,The Strongest,R. Arana,,,normal,RSSSF
 1999-0136,The Strongest,S. Coelho,,,normal,RSSSF
 1999-0136,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
 1999-0136,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 1999-0137,Independiente Petrolero,T. Gutierrez,,,normal,RSSSF
+1999-0139,Destroyers,M. Aguilera,,,normal,RSSSF
+1999-0139,Blooming,M. Menacho,,,normal,RSSSF
+1999-0139,Blooming,M. Menacho,,,normal,RSSSF
+1999-0139,Blooming,V. Antelo,,,normal,RSSSF
+1999-0139,Blooming,L. Gutierrez,,,normal,RSSSF
 1999-0140,Bolívar,A. Lozano,,,normal,RSSSF
 1999-0140,Bolívar,C. Reynaldo,,,normal,RSSSF
 1999-0141,Real Potosí,S. Lopez,,,normal,RSSSF
+1999-0142,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0142,Independiente Petrolero,D. Vaca,,,normal,RSSSF
+1999-0142,Independiente Petrolero,D. Vaca,,,normal,RSSSF
+1999-0142,Independiente Petrolero,A. Illanes,,,normal,RSSSF
+1999-0142,Independiente Petrolero,T. Gutierrez,,,normal,RSSSF
 1999-0143,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 1999-0143,Jorge Wilstermann,A. Carvalho,,,normal,RSSSF
 1999-0143,Guabirá,R. Cruz,,,normal,RSSSF
 1999-0144,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 1999-0145,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0146,Bolívar,J. Botero,,,normal,RSSSF
+1999-0146,Bolívar,J. Botero,,,normal,RSSSF
+1999-0146,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0146,Bolívar,L. Pizarro,,,normal,RSSSF
+1999-0146,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0146,Unión Central,D. Delfino,,,normal,RSSSF
 1999-0148,Independiente Petrolero,R. Arteaga,,,normal,RSSSF
 1999-0148,Independiente Petrolero,J. Grass,,,normal,RSSSF
 1999-0148,Independiente Petrolero,D. Sanchez,,,normal,RSSSF
@@ -354,8 +634,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0149,Destroyers,M. Aguilera,,,normal,RSSSF
 1999-0150,Real Santa Cruz,W. Añez,,,normal,RSSSF
 1999-0150,Real Santa Cruz,A. Ibañez,,,normal,RSSSF
+1999-0151,Unión Central,D. Delfino,,,normal,RSSSF
+1999-0151,Unión Central,D. Delfino,,,normal,RSSSF
 1999-0152,Real Santa Cruz,H. Chiorazz,,,normal,RSSSF
 1999-0154,Real Potosí,L. Selenzo,,,normal,RSSSF
+1999-0155,San José,D. Angola,,,normal,RSSSF
+1999-0155,San José,D. Angola,,,normal,RSSSF
+1999-0155,San José,R. Vaca,,,normal,RSSSF
+1999-0155,San José,R. Salguero,,,normal,RSSSF
+1999-0155,San José,V. Zanca,,,normal,RSSSF
+1999-0155,Jorge Wilstermann,C. Camargo,,,normal,RSSSF
+1999-0155,Jorge Wilstermann,A. Jijena,,,normal,RSSSF
+1999-0155,Jorge Wilstermann,O. Guzman,,,normal,RSSSF
 1999-0156,The Strongest,A. Peña,,,normal,RSSSF
 1999-0156,The Strongest,S. Coelho,,,normal,RSSSF
 1999-0156,Bolívar,M. Mercado,,,normal,RSSSF
@@ -374,7 +664,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0161,Unión Central,R. Espindola,,,normal,RSSSF
 1999-0161,Unión Central,D. Delfino,,,normal,RSSSF
 1999-0161,Unión Central,G. Muñoz,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,A. Quizena,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,E. Tenorio,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,D. Bengolea,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,J. Villarroel,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,J. Villarroel,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,C. Camargo,,,normal,RSSSF
+1999-0162,Jorge Wilstermann,C. Camargo,,,normal,RSSSF
+1999-0163,Destroyers,A. Garcia,,,normal,RSSSF
+1999-0163,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0163,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0163,The Strongest,A. Peña,,,normal,RSSSF
 1999-0164,Oriente Petrolero,S. Castillo,,,normal,RSSSF
+1999-0165,Bolívar,I. Castillo,,,normal,RSSSF
+1999-0165,Bolívar,I. Castillo,,,normal,RSSSF
+1999-0165,Bolívar,M. Mercado,,,normal,RSSSF
 1999-0166,Real Potosí,S. Lopez,,,normal,RSSSF
 1999-0166,Jorge Wilstermann,J. Ortiz,,,normal,RSSSF
 1999-0166,Jorge Wilstermann,D. Bengolea,,,normal,RSSSF
@@ -383,6 +688,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0167,Unión Central,F. Calustro,,,normal,RSSSF
 1999-0169,Bolívar,D. Flores,,,normal,RSSSF
 1999-0169,Bolívar,J. Botero,,,normal,RSSSF
+1999-0170,Blooming,E. Maldonado,,,normal,RSSSF
+1999-0170,Blooming,E. Maldonado,,,normal,RSSSF
+1999-0170,Blooming,V. Antelo,,,normal,RSSSF
+1999-0170,Blooming,V. Antelo,,,normal,RSSSF
+1999-0170,Blooming,V. Antelo,,,normal,RSSSF
+1999-0170,Blooming,R. Ribera,,,normal,RSSSF
+1999-0170,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0170,Real Potosí,W. Ramallo,,,normal,RSSSF
+1999-0170,Real Potosí,L. Selenzo,,,normal,RSSSF
 1999-0171,San José,D. Angola,,,normal,RSSSF
 1999-0171,Independiente Petrolero,D. Vaca,,,normal,RSSSF
 1999-0172,Unión Central,L. Liberman,,,normal,RSSSF
@@ -391,6 +705,23 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0173,The Strongest,V. Gonzales,,,normal,RSSSF
 1999-0174,Destroyers,M. Aguilera,,,normal,RSSSF
 1999-0174,Destroyers,F. Gutierrez,,,normal,RSSSF
+1999-0175,Blooming,R. Gutierrez,,,normal,RSSSF
+1999-0175,Blooming,R. Gutierrez,,,normal,RSSSF
+1999-0175,Blooming,V. Antelo,,,normal,RSSSF
+1999-0175,Destroyers,M. Aguilera,,,normal,RSSSF
+1999-0175,Destroyers,J. Etcheverry,,,normal,RSSSF
+1999-0175,Destroyers,J. Etcheverry,,,normal,RSSSF
+1999-0176,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0176,Bolívar,M. Mercado,,,normal,RSSSF
+1999-0176,San José,R. Paniagu,,,normal,RSSSF
+1999-0177,Guabirá,M. Ceballos,,,normal,RSSSF
+1999-0177,Guabirá,M. Ceballos,,,normal,RSSSF
+1999-0177,Guabirá,L. Paz,,,normal,RSSSF
+1999-0177,Jorge Wilstermann,F. Guiran,,,normal,RSSSF
+1999-0178,Independiente Petrolero,D. Goyoaga,,,normal,RSSSF
+1999-0178,Independiente Petrolero,D. Goyoaga,,,normal,RSSSF
+1999-0178,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0178,Unión Central,L. Libermann,,,normal,RSSSF
 1999-0179,Real Santa Cruz,E. Ferraro,,,normal,RSSSF
 1999-0179,Oriente Petrolero,S. Castillo,,,normal,RSSSF
 1999-0180,Real Potosí,D. Peña,,,normal,RSSSF
@@ -399,6 +730,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0181,The Strongest,V. Gonzales,,,normal,RSSSF
 1999-0181,The Strongest,D. Callau,,,normal,RSSSF
 1999-0181,Guabirá,R. Arana,,,contra,RSSSF
+1999-0182,Destroyers,M. Aguilera,,,normal,RSSSF
+1999-0182,Real Potosí,D. Peña,,,normal,RSSSF
+1999-0182,Real Potosí,D. Peña,,,normal,RSSSF
+1999-0182,Real Potosí,D. Selenzo,,,normal,RSSSF
 1999-0183,San José,C. Alves,,,normal,RSSSF
 1999-0183,San José,R. Paniagua,,,normal,RSSSF
 1999-0183,San José,R. Vaca,,,normal,RSSSF
@@ -425,6 +760,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0192,Unión Central,D. Delfino,,,normal,RSSSF
 1999-0192,Unión Central,R. Espindola,,,normal,RSSSF
 1999-0192,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0193,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+1999-0193,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+1999-0193,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+1999-0193,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+1999-0193,Real Santa Cruz,A. Jara,,,normal,RSSSF
+1999-0194,Bolívar,R. Garcia,,,normal,RSSSF
+1999-0194,Bolívar,J. Botero,,,normal,RSSSF
+1999-0194,Bolívar,J. Botero,,,normal,RSSSF
+1999-0194,Bolívar,J. Ferreira,,,normal,RSSSF
+1999-0194,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 1999-0195,Destroyers,M. Aguilera,,,normal,RSSSF
 1999-0195,Jorge Wilstermann,F. Guiran,,,normal,RSSSF
 1999-0196,Real Potosí,D. Peña,,,normal,RSSSF
@@ -433,13 +778,31 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0197,San José,R. Paniagua,,,normal,RSSSF
 1999-0197,San José,V. Zanca,,,normal,RSSSF
 1999-0197,Unión Central,R. Espindola,,,normal,RSSSF
+1999-0198,Blooming,V. Antelo,,,normal,RSSSF
+1999-0198,Blooming,V. Antelo,,,normal,RSSSF
 1999-0199,Blooming,V. Antelo,,,normal,RSSSF
 1999-0199,Blooming,H. Arandia,,,normal,RSSSF
 1999-0200,Independiente Petrolero,S. Suarez,,,normal,RSSSF
 1999-0200,Bolívar,M. Mercado,,,normal,RSSSF
 1999-0200,Bolívar,J. Botero,,,normal,RSSSF
+1999-0201,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+1999-0201,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+1999-0201,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+1999-0201,Oriente Petrolero,R. Torrez,,,normal,RSSSF
 1999-0202,The Strongest,A. Peña,,,normal,RSSSF
 1999-0202,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0203,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0203,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0204,Jorge Wilstermann,A. Quisena,,,normal,RSSSF
+1999-0204,Jorge Wilstermann,A. Quisena,,,normal,RSSSF
+1999-0204,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+1999-0204,Jorge Wilstermann,R. Rodriguez,,,normal,RSSSF
+1999-0204,Real Potosí,L. De Oliveira,,,normal,RSSSF
+1999-0205,Blooming,H. Arandia,,,normal,RSSSF
+1999-0205,Blooming,V. Antelo,,,normal,RSSSF
+1999-0205,Blooming,V. Antelo,,,normal,RSSSF
+1999-0205,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0205,Independiente Petrolero,D. Vaca,,,normal,RSSSF
 1999-0206,Bolívar,I. Castillo,,,normal,RSSSF
 1999-0206,Bolívar,M. Mercado,,,normal,RSSSF
 1999-0207,Unión Central,N. Kekes,,,normal,RSSSF
@@ -457,6 +820,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0210,The Strongest,A. Peña,,,normal,RSSSF
 1999-0210,The Strongest,V. Gonzales,,,normal,RSSSF
 1999-0211,Blooming,V. Antelo,,,normal,RSSSF
+1999-0212,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0212,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0212,Real Potosí,M. Barrios,,,normal,RSSSF
+1999-0213,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0213,Unión Central,L. Libermann,,,normal,RSSSF
+1999-0213,Independiente Petrolero,M. Blanco,,,normal,RSSSF
+1999-0214,Blooming,V. Antelo,,,normal,RSSSF
+1999-0214,Blooming,V. Antelo,,,normal,RSSSF
+1999-0214,Blooming,J. Couceiro,,,normal,RSSSF
+1999-0217,Independiente Petrolero,P. Fernandez,,,normal,RSSSF
+1999-0217,Bolívar,J. Botero,,,normal,RSSSF
+1999-0217,Bolívar,J. Botero,,,normal,RSSSF
+1999-0217,Bolívar,J. Botero,,,normal,RSSSF
+1999-0217,Bolívar,M. Mercado,,,normal,RSSSF
 1999-0218,The Strongest,J. Peña,,,normal,RSSSF
 1999-0218,The Strongest,R. Gutierrez,,,normal,RSSSF
 1999-0218,The Strongest,S. Coelho,,,normal,RSSSF
@@ -466,6 +843,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0220,Blooming,V. Antelo,,,normal,RSSSF
 1999-0220,Blooming,R. Gutierrez,,,normal,RSSSF
 1999-0221,Real Potosí,S. Vargas,,,normal,RSSSF
+1999-0222,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0222,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0222,The Strongest,R. Rojas,,,normal,RSSSF
+1999-0222,Unión Central,C. Angulo,,,normal,RSSSF
+1999-0223,Blooming,L. Gutierrez,,,normal,RSSSF
+1999-0223,Blooming,G. Paredes,,,normal,RSSSF
+1999-0223,Blooming,V. Antelo,,,normal,RSSSF
+1999-0223,Blooming,V. Antelo,,,normal,RSSSF
 1999-0224,The Strongest,R. Rojas,,,normal,RSSSF
 1999-0224,The Strongest,J. Peña,,,normal,RSSSF
 1999-0224,Independiente Petrolero,D. Sanchez,,,normal,RSSSF
@@ -473,10 +858,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0226,Bolívar,W. Sanchez,,,normal,RSSSF
 1999-0226,Bolívar,M. Mercado,,,normal,RSSSF
 1999-0226,Bolívar,L. Ribeiro,,,normal,RSSSF
+1999-0227,Independiente Petrolero,D. Goyoaga,,,normal,RSSSF
+1999-0227,Independiente Petrolero,D. Sanchez,,,normal,RSSSF
+1999-0227,Unión Central,D. Delfino,,,normal,RSSSF
+1999-0227,Unión Central,D. Delfino,,,normal,RSSSF
+1999-0227,Unión Central,M. Mendoza,,,normal,RSSSF
+1999-0227,Unión Central,N. Kekes,,,normal,RSSSF
+1999-0227,Unión Central,L. Libermann,,,normal,RSSSF
 1999-0228,Real Potosí,D. Peña,,,normal,RSSSF
 1999-0228,The Strongest,A. Peña,,,normal,RSSSF
 1999-0228,The Strongest,J. Peña,,,normal,RSSSF
 1999-0229,Unión Central,N. Kekes,,,normal,RSSSF
+1999-0230,Independiente Petrolero,J. Grass,,,normal,RSSSF
+1999-0230,Independiente Petrolero,M. Blanco,,,normal,RSSSF
+1999-0230,Independiente Petrolero,M. Blanco,,,normal,RSSSF
+1999-0230,Real Potosí,L. De Oliveira,,,normal,RSSSF
 1999-0231,The Strongest,V. Gonzales,,,normal,RSSSF
 1999-0232,Blooming,M. Menacho,,,normal,RSSSF
 1999-0232,The Strongest,F. Garcia,,,normal,RSSSF
@@ -484,6 +880,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1999-0233,Bolívar,J. Botero,,,normal,RSSSF
 1999-0234,Real Potosí,L. De Oliveira,,,normal,RSSSF
 1999-0234,Unión Central,C. Audamas,,,normal,RSSSF
+1999-0235,The Strongest,V. Gonzales,,,normal,RSSSF
+1999-0235,The Strongest,A. Peña,,,normal,RSSSF
+1999-0235,Blooming,R. Justiniano,,,normal,RSSSF
+1999-0235,Blooming,R. Justiniano,,,normal,RSSSF
+1999-0235,Blooming,R. Ribera,,,normal,RSSSF
 1999-0236,Blooming,V. Antelo,,,normal,RSSSF
 1999-0236,Blooming,L. Gutierrez,,,normal,RSSSF
 1999-0236,Blooming,M. Menacho,,,normal,RSSSF
@@ -978,18 +1379,50 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0153,Real Potosí,A. Jara,,,normal,RSSSF
 2000-0153,Real Potosí,D. Gutierrez,,,normal,RSSSF
 2000-0153,Guabirá,J. Baldivieso,,,normal,RSSSF
+2000-0154,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0154,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0154,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0154,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+2000-0154,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0154,The Strongest,V. Gonzales,,,normal,RSSSF
 2000-0155,Unión Central,F. Calustro,,,normal,RSSSF
 2000-0155,Unión Central,M. Angulo,,,normal,RSSSF
 2000-0155,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 2000-0155,Oriente Petrolero,M. Menacho,,,normal,RSSSF
+2000-0156,Jorge Wilstermann,R. Galindo,,,normal,RSSSF
+2000-0156,Jorge Wilstermann,R. Galindo,,,normal,RSSSF
+2000-0156,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2000-0157,Mariscal Braun,D. Bengolea,,,contra,RSSSF
+2000-0157,Mariscal Braun,S. Netto,,,normal,RSSSF
+2000-0157,Mariscal Braun,S. Netto,,,normal,RSSSF
+2000-0157,Jorge Wilstermann,P. Guiberguis,,,normal,RSSSF
+2000-0158,Unión Central,J. Suarez,,,normal,RSSSF
+2000-0158,Unión Central,J. Suarez,,,normal,RSSSF
+2000-0159,Guabirá,M. Ribeiro,,,normal,RSSSF
+2000-0159,Guabirá,M. Ceballos,,,normal,RSSSF
+2000-0159,Guabirá,M. Ceballos,,,normal,RSSSF
 2000-0161,Oriente Petrolero,M. Abrigo,,,normal,RSSSF
 2000-0161,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2000-0161,Oriente Petrolero,M. Menacho,,,normal,RSSSF
 2000-0161,Blooming,J. Loayza,,,normal,RSSSF
 2000-0162,The Strongest,D. Delfino,,,normal,RSSSF
 2000-0162,The Strongest,R. Rojas,,,normal,RSSSF
+2000-0163,Atlético Pompeya,H. Ruiz,,,normal,RSSSF
+2000-0163,Oriente Petrolero,J. Vaca,,,normal,RSSSF
+2000-0163,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2000-0163,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2000-0164,Bolívar,L. Pizarro,,,normal,RSSSF
 2000-0164,Bolívar,J. Botero,,,normal,RSSSF
+2000-0165,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0165,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0165,Blooming,D. Cabrera,,,normal,RSSSF
+2000-0166,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0166,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0166,Real Santa Cruz,J. Mendez,,,normal,RSSSF
+2000-0166,Real Santa Cruz,O. Ozzan,,,normal,RSSSF
+2000-0166,Independiente Petrolero,R. Espindola,,,normal,RSSSF
+2000-0167,Unión Central,J. Suarez,,,normal,RSSSF
+2000-0167,Unión Central,J. Suarez,,,normal,RSSSF
 2000-0168,Jorge Wilstermann,E. Olivares,,,normal,RSSSF
 2000-0168,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 2000-0169,Guabirá,M. Ceballos,,,normal,RSSSF
@@ -998,12 +1431,23 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0171,Mariscal Braun,F. De Oliveira,,,normal,RSSSF
 2000-0171,Mariscal Braun,W. Roca,,,normal,RSSSF
 2000-0172,Oriente Petrolero,R. Arana,,,normal,RSSSF
+2000-0173,Blooming,R. Gutierrez,,,normal,RSSSF
+2000-0173,Blooming,R. Gutierrez,,,normal,RSSSF
 2000-0174,The Strongest,H. Chavez,,,normal,RSSSF
 2000-0174,The Strongest,V. Gonzales,,,normal,RSSSF
 2000-0174,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0175,Mariscal Braun,W. Cortez,,,normal,RSSSF
+2000-0175,Mariscal Braun,G. Romanello,,,normal,RSSSF
+2000-0175,Mariscal Braun,G. Romanello,,,normal,RSSSF
+2000-0175,Oriente Petrolero,W. Escalante,,,normal,RSSSF
 2000-0176,Atlético Pompeya,D. Tejerina,,,normal,RSSSF
 2000-0176,Atlético Pompeya,A. Cuellar,,,normal,RSSSF
 2000-0176,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0177,Bolívar,J. Botero,,,normal,RSSSF
+2000-0177,Bolívar,R. Cueto,,,normal,RSSSF
+2000-0177,Bolívar,R. Cueto,,,normal,RSSSF
+2000-0177,Bolívar,D. Cuellar,,,normal,RSSSF
+2000-0177,Bolívar,L. Liendo,,,normal,RSSSF
 2000-0178,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
 2000-0178,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
 2000-0178,Real Potosí,V. Andrada,,,normal,RSSSF
@@ -1018,6 +1462,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0182,Guabirá,M. Cardona,,,normal,RSSSF
 2000-0182,Guabirá,M. Ribeiro,,,normal,RSSSF
 2000-0182,Atlético Pompeya,A. Tejerina,,,normal,RSSSF
+2000-0184,Oriente Petrolero,J. Vaca,,,normal,RSSSF
+2000-0184,Oriente Petrolero,R. Arana,,,normal,RSSSF
+2000-0184,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0184,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0185,Real Potosí,V. Andrada,,,normal,RSSSF
+2000-0185,Real Potosí,V. Andrada,,,normal,RSSSF
+2000-0185,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2000-0186,The Strongest,C. Duran,,,normal,RSSSF
 2000-0186,The Strongest,D. Delfino,,,normal,RSSSF
 2000-0186,Mariscal Braun,F. Zabala,,,normal,RSSSF
@@ -1040,6 +1491,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0194,Oriente Petrolero,M. Menacho,,,normal,RSSSF
 2000-0195,Guabirá,M. Ligori,,,normal,RSSSF
 2000-0195,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0196,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2000-0196,Independiente Petrolero,Nene,,,normal,RSSSF
+2000-0196,Independiente Petrolero,Nene,,,normal,RSSSF
+2000-0196,Mariscal Braun,C. Alves,,,normal,RSSSF
+2000-0197,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0197,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0197,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0197,Real Potosí,D. Arce,,,contra,RSSSF
+2000-0197,Unión Central,M. Ardaya,,,normal,RSSSF
+2000-0198,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0198,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0198,Jorge Wilstermann,M. Soria,,,normal,RSSSF
 2000-0199,Blooming,L. Gutierrez,,,normal,RSSSF
 2000-0200,Bolívar,R. Cueto,,,normal,RSSSF
 2000-0200,Bolívar,J. Baldivieso,,,normal,RSSSF
@@ -1053,6 +1516,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0202,Independiente Petrolero,J. Farah,,,normal,RSSSF
 2000-0202,Independiente Petrolero,J. Cardoso,,,normal,RSSSF
 2000-0202,The Strongest,V. Gonzales,,,normal,RSSSF
+2000-0203,Real Potosí,A. Carvalho,,,normal,RSSSF
+2000-0203,Real Potosí,A. Carvalho,,,normal,RSSSF
+2000-0203,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0204,Unión Central,M. Ardaya,,,normal,RSSSF
+2000-0204,Unión Central,F. Farah,,,normal,RSSSF
+2000-0204,Unión Central,F. Farah,,,normal,RSSSF
 2000-0205,Mariscal Braun,G. Romanello,,,normal,RSSSF
 2000-0205,Real Potosí,A. Jara,,,normal,RSSSF
 2000-0207,Guabirá,F. Vieira,,,normal,RSSSF
@@ -1062,9 +1531,37 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0210,Unión Central,R. Santana,,,normal,RSSSF
 2000-0210,Bolívar,R. Cueto,,,normal,RSSSF
 2000-0210,Bolívar,J. Botero,,,normal,RSSSF
+2000-0211,Blooming,L. Gutierrez,,,normal,RSSSF
+2000-0211,Blooming,L. Gutierrez,,,normal,RSSSF
+2000-0211,Guabirá,M. Ceballos,,,normal,RSSSF
+2000-0211,Guabirá,L. Paz,,,normal,RSSSF
+2000-0212,Bolívar,J. Baldivieso,,,normal,RSSSF
+2000-0212,Bolívar,J. Baldivieso,,,normal,RSSSF
+2000-0212,Bolívar,J. Baldivieso,,,normal,RSSSF
+2000-0212,Bolívar,J. Botero,,,normal,RSSSF
+2000-0212,Bolívar,J. Botero,,,normal,RSSSF
 2000-0213,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
 2000-0213,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2000-0213,Oriente Petrolero,R. Arana,,,normal,RSSSF
+2000-0214,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2000-0214,Real Potosí,R. Cardoso,,,normal,RSSSF
+2000-0214,Real Potosí,J. Berthalet,,,normal,RSSSF
+2000-0214,The Strongest,V. Gonzales,,,normal,RSSSF
+2000-0214,The Strongest,V. Gonzales,,,normal,RSSSF
+2000-0214,The Strongest,V. Gonzales,,,normal,RSSSF
+2000-0214,The Strongest,O. Sanchez,,,normal,RSSSF
+2000-0214,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0215,Jorge Wilstermann,M. Soria,,,normal,RSSSF
+2000-0215,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
+2000-0215,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
+2000-0215,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2000-0215,Unión Central,J. Suarez,,,normal,RSSSF
+2000-0215,Unión Central,L. Asprilla,,,normal,RSSSF
+2000-0216,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+2000-0216,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0216,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0216,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0216,Mariscal Braun,G. Romanello,,,normal,RSSSF
 2000-0217,Mariscal Braun,S. Netto,,,normal,RSSSF
 2000-0217,Mariscal Braun,F. De Oliveira,,,normal,RSSSF
 2000-0217,Bolívar,M. Sandy,,,normal,RSSSF
@@ -1073,23 +1570,56 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0218,Atlético Pompeya,A. Cuellar,,,normal,RSSSF
 2000-0218,Atlético Pompeya,E. Silva,,,normal,RSSSF
 2000-0220,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2000-0221,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+2000-0221,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+2000-0221,Oriente Petrolero,L. Camacho,,,normal,RSSSF
+2000-0221,Unión Central,J. Suarez,,,normal,RSSSF
+2000-0222,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0222,The Strongest,O. Sanchez,,,normal,RSSSF
+2000-0222,The Strongest,V. Gonzales,,,normal,RSSSF
+2000-0222,The Strongest,D. Vaca,,,normal,RSSSF
+2000-0222,The Strongest,A. Alvarez,,,normal,RSSSF
+2000-0222,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
+2000-0222,Real Santa Cruz,H. Chiorazzo,,,normal,RSSSF
 2000-0224,Blooming,S. Joao,,,normal,RSSSF
 2000-0224,Blooming,M. Aguilera,,,normal,RSSSF
 2000-0224,Blooming,D. Cabrera,,,normal,RSSSF
 2000-0224,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2000-0224,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 2000-0225,The Strongest,O. Sanchez,,,normal,RSSSF
+2000-0228,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2000-0228,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2000-0228,Jorge Wilstermann,M. Carballo,,,normal,RSSSF
+2000-0228,Jorge Wilstermann,L. Ramos,,,normal,RSSSF
+2000-0229,Blooming,S. Joao,,,normal,RSSSF
+2000-0229,Blooming,S. Joao,,,normal,RSSSF
+2000-0229,Blooming,L. Gutierrez,,,normal,RSSSF
+2000-0229,Blooming,D. Cabrera,,,normal,RSSSF
 2000-0230,Guabirá,M. Ceballos,,,normal,RSSSF
 2000-0230,Bolívar,M. Herrera,,,contra,RSSSF
+2000-0231,Independiente Petrolero,J. Grass,,,normal,RSSSF
+2000-0231,Independiente Petrolero,J. Grass,,,normal,RSSSF
+2000-0231,Independiente Petrolero,Nene,,,normal,RSSSF
+2000-0231,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2000-0231,Independiente Petrolero,T. Gutierrez,,,normal,RSSSF
 2000-0232,Mariscal Braun,F. De Oliveira,,,normal,RSSSF
 2000-0233,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 2000-0233,Oriente Petrolero,M. Menacho,,,normal,RSSSF
 2000-0233,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2000-0234,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0234,The Strongest,V. Gonzales,,,normal,RSSSF
+2000-0234,The Strongest,V. Gonzales,,,normal,RSSSF
+2000-0234,Jorge Wilstermann,M. Carballo,,,normal,RSSSF
 2000-0236,Bolívar,A. Lozano,,,normal,RSSSF
 2000-0236,Bolívar,R. Cueto,,,normal,RSSSF
 2000-0236,Bolívar,J. Botero,,,normal,RSSSF
 2000-0236,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
 2000-0237,Real Potosí,H. Vaca,,,normal,RSSSF
+2000-0238,Real Santa Cruz,O. Ozzan,,,normal,RSSSF
+2000-0238,Real Santa Cruz,W. Añez,,,normal,RSSSF
+2000-0238,Blooming,L. Gutierrez,,,normal,RSSSF
+2000-0238,Blooming,L. Gutierrez,,,normal,RSSSF
+2000-0238,Blooming,D. Cabrera,,,normal,RSSSF
 2000-0239,Unión Central,M. Angulo,,,normal,RSSSF
 2000-0239,The Strongest,V. Gonzales,,,normal,RSSSF
 2000-0239,The Strongest,R. Rojas,,,normal,RSSSF
@@ -1098,17 +1628,60 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0240,Guabirá,M. Ceballos,,,normal,RSSSF
 2000-0241,Blooming,C. Couceiro,,,normal,RSSSF
 2000-0241,Blooming,J. Loayza,,,normal,RSSSF
+2000-0242,Guabirá,S. Castillo,,,normal,RSSSF
+2000-0242,Guabirá,M. Ceballos,,,normal,RSSSF
+2000-0242,Guabirá,M. Ceballos,,,normal,RSSSF
+2000-0242,Guabirá,M. Ceballos,,,normal,RSSSF
+2000-0242,Guabirá,M. Ceballos,,,normal,RSSSF
+2000-0242,Guabirá,M. Ceballos,,,normal,RSSSF
+2000-0242,Guabirá,L. Paz,,,normal,RSSSF
 2000-0243,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
 2000-0243,Jorge Wilstermann,R. Medeiros,,,normal,RSSSF
 2000-0244,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2000-0244,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2000-0245,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0245,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0246,The Strongest,D. Vaca,,,normal,RSSSF
+2000-0246,The Strongest,D. Vaca,,,normal,RSSSF
+2000-0246,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0246,The Strongest,D. Delfino,,,normal,RSSSF
 2000-0247,Guabirá,M. Ribeiro,,,normal,RSSSF
 2000-0248,Bolívar,J. Botero,,,normal,RSSSF
 2000-0248,Bolívar,M. Mercado,,,normal,RSSSF
 2000-0248,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0249,Mariscal Braun,H. Soliz,,,normal,RSSSF
+2000-0249,Mariscal Braun,W. Cortez,,,normal,RSSSF
+2000-0249,The Strongest,V. Gonzalez,,,normal,RSSSF
+2000-0249,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0249,The Strongest,D. Delfino,,,normal,RSSSF
+2000-0249,The Strongest,R. Gutierrez,,,normal,RSSSF
 2000-0250,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 2000-0250,Oriente Petrolero,M. Menacho,,,normal,RSSSF
+2000-0251,Unión Central,J. Suarez,,,normal,RSSSF
+2000-0251,Unión Central,J. Suarez,,,normal,RSSSF
 2000-0252,Jorge Wilstermann,M. Soria,,,normal,RSSSF
+2000-0253,Mariscal Braun,R. Torrico,,,normal,RSSSF
+2000-0253,Mariscal Braun,S. Netto,,,normal,RSSSF
+2000-0253,Mariscal Braun,S. Netto,,,normal,RSSSF
+2000-0253,Mariscal Braun,S. Netto,,,normal,RSSSF
+2000-0253,Mariscal Braun,S. Netto,,,normal,RSSSF
+2000-0253,Mariscal Braun,C. Alves,,,normal,RSSSF
+2000-0253,Guabirá,M. Ligori,,,normal,RSSSF
+2000-0253,Guabirá,F. Alba,,,normal,RSSSF
+2000-0254,Bolívar,J. Botero,,,normal,RSSSF
+2000-0254,Bolívar,J. Botero,,,normal,RSSSF
+2000-0254,Bolívar,D. Cuellar,,,normal,RSSSF
+2000-0254,Bolívar,R. Cueto,,,normal,RSSSF
+2000-0255,Independiente Petrolero,Nene,,,normal,RSSSF
+2000-0255,Independiente Petrolero,Nene,,,normal,RSSSF
+2000-0255,Independiente Petrolero,J. Vega,,,normal,RSSSF
+2000-0255,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2000-0255,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2000-0255,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2000-0255,Independiente Petrolero,J. Cardoso,,,normal,RSSSF
+2000-0256,Real Potosí,J. Cossio,,,normal,RSSSF
+2000-0256,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2000-0256,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2000-0257,Blooming,R. Menacho,,,normal,RSSSF
 2000-0257,Blooming,L. Vargas,,,contra,RSSSF
 2000-0257,Unión Central,J. Suarez,,,normal,RSSSF
@@ -1116,12 +1689,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0257,Unión Central,R. Santana,,,normal,RSSSF
 2000-0258,Oriente Petrolero,L. Camacho,,,normal,RSSSF
 2000-0259,Mariscal Braun,S. Netto,,,normal,RSSSF
+2000-0260,The Strongest,R. Vallejos,,,normal,RSSSF
+2000-0260,The Strongest,R. Vallejos,,,normal,RSSSF
+2000-0260,Guabirá,J. Gonzales,,,normal,RSSSF
 2000-0261,Oriente Petrolero,M. Menacho,,,normal,RSSSF
 2000-0261,Bolívar,L. Liendo,,,normal,RSSSF
 2000-0261,Bolívar,J. Botero,,,normal,RSSSF
 2000-0262,Unión Central,M. Angulo,,,normal,RSSSF
 2000-0262,Unión Central,A. Calustro,,,normal,RSSSF
 2000-0262,Real Potosí,A. Jara,,,normal,RSSSF
+2000-0263,Jorge Wilstermann,L. Ramos,,,normal,RSSSF
+2000-0263,Jorge Wilstermann,R. Rodriguez,,,normal,RSSSF
+2000-0263,Jorge Wilstermann,R. Rodriguez,,,normal,RSSSF
+2000-0263,Jorge Wilstermann,R. Rodriguez,,,normal,RSSSF
+2000-0263,Real Santa Cruz,R. Justiniano,,,normal,RSSSF
 2000-0264,Blooming,R. Correa,,,normal,RSSSF
 2000-0264,Blooming,S. Joao,,,normal,RSSSF
 2000-0264,Atlético Pompeya,A. Quinteros,,,normal,RSSSF
@@ -1136,13 +1717,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0266,Oriente Petrolero,J. Vaca,76,,normal,RSSSF
 2001-0001,Mariscal Braun,J. Mendez,,,normal,RSSSF
 2001-0001,Real Potosí,M. Ardaya,,,normal,RSSSF
+2001-0002,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
+2001-0002,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
 2001-0003,Real Santa Cruz,A. Audamas,,,normal,RSSSF
 2001-0003,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
 2001-0003,Guabirá,M. Rocha,,,normal,RSSSF
+2001-0004,The Strongest,Coelho,,,normal,RSSSF
+2001-0004,The Strongest,Coelho,,,normal,RSSSF
+2001-0004,The Strongest,M. Ceballos,,,normal,RSSSF
+2001-0004,Blooming,W. Otta,,,normal,RSSSF
+2001-0005,Jorge Wilstermann,Y. Rocha,,,normal,RSSSF
+2001-0005,Jorge Wilstermann,Y. Rocha,,,normal,RSSSF
 2001-0006,Oriente Petrolero,V. Gonzales,,,normal,RSSSF
 2001-0006,Oriente Petrolero,F. Calustro,,,normal,RSSSF
 2001-0006,Bolívar,H. Chiorazzo,,,normal,RSSSF
 2001-0006,Bolívar,M. Mercado,,,normal,RSSSF
+2001-0007,Guabirá,R. Justiniano,,,normal,RSSSF
+2001-0007,Guabirá,M. Aguilera,,,normal,RSSSF
+2001-0007,Guabirá,M. Aguilera,,,normal,RSSSF
+2001-0007,Independiente Petrolero,C. Angulo,,,normal,RSSSF
 2001-0008,Iberoamericana,C. Heredia,,,normal,RSSSF
 2001-0008,The Strongest,D. Delfino,,,normal,RSSSF
 2001-0009,Blooming,C. Couceiro,,,normal,RSSSF
@@ -1153,10 +1746,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0011,Real Potosí,S. Lopez,,,normal,RSSSF
 2001-0011,Real Potosí,V. Andrada,,,normal,RSSSF
 2001-0011,Real Santa Cruz,H. Arandia,,,normal,RSSSF
+2001-0012,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2001-0012,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2001-0012,Oriente Petrolero,R. Lunari,,,normal,RSSSF
+2001-0012,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2001-0013,The Strongest,M. Ceballos,,,normal,RSSSF
 2001-0013,Guabirá,D. Sanchez,,,normal,RSSSF
 2001-0014,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
 2001-0014,Real Potosí,D. Peña,,,normal,RSSSF
+2001-0015,Unión Central,J. Vallejos,,,normal,RSSSF
+2001-0015,Unión Central,J. Vallejos,,,normal,RSSSF
+2001-0015,Unión Central,P. Fernandez,,,normal,RSSSF
+2001-0015,Iberoamericana,D. Cuellar,,,normal,RSSSF
 2001-0016,Blooming,W. Otta,,,normal,RSSSF
 2001-0017,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2001-0018,Real Santa Cruz,V. Antelo,,,normal,RSSSF
@@ -1170,10 +1771,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0021,Jorge Wilstermann,A. Jara,,,normal,RSSSF
 2001-0021,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 2001-0022,Real Potosí,H. Sanchez,,,normal,RSSSF
+2001-0023,Guabirá,M. Aguilera,,,normal,RSSSF
+2001-0023,Guabirá,M. Aguilera,,,normal,RSSSF
+2001-0023,Guabirá,R. Melgar,,,normal,RSSSF
 2001-0024,Oriente Petrolero,M. Etcheverry,,,normal,RSSSF
 2001-0024,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2001-0024,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 2001-0024,Real Santa Cruz,V. Antelo,,,normal,RSSSF
+2001-0025,Iberoamericana,A. Andaveris,,,normal,RSSSF
+2001-0025,Iberoamericana,D. Cuellar,,,normal,RSSSF
+2001-0025,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0025,Jorge Wilstermann,A. Jara,,,normal,RSSSF
 2001-0026,Blooming,L. Alvarez,,,normal,RSSSF
 2001-0026,Blooming,W. Otta,,,normal,RSSSF
 2001-0026,Blooming,J. Cortez,,,normal,RSSSF
@@ -1262,6 +1870,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0050,Jorge Wilstermann,A. Jara,,,normal,RSSSF
 2001-0050,Jorge Wilstermann,P. Guiberguis,,,normal,RSSSF
 2001-0050,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2001-0051,The Strongest,L. Paz,,,normal,RSSSF
+2001-0051,The Strongest,L. Paz,,,normal,RSSSF
+2001-0051,The Strongest,L. Paz,,,normal,RSSSF
+2001-0051,The Strongest,D. Delfino,,,normal,RSSSF
 2001-0052,Unión Central,J. Rios,,,normal,RSSSF
 2001-0053,Guabirá,M. Aguilera,,,normal,RSSSF
 2001-0054,Blooming,W. Otta,,,normal,RSSSF
@@ -1438,6 +2050,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0110,Independiente Petrolero,S. Joao,,,normal,RSSSF
 2001-0110,The Strongest,C. Reynaldo,,,normal,RSSSF
 2001-0110,The Strongest,C. Aguilera},,,normal,RSSSF
+2001-0111,Bolívar,J. Botero,,,normal,RSSSF
+2001-0111,Bolívar,R. Garcia,,,normal,RSSSF
+2001-0111,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0111,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0111,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0111,Guabirá,J. Algarañaz,,,normal,RSSSF
+2001-0111,Guabirá,N. Suarez,,,normal,RSSSF
 2001-0112,Real Santa Cruz,C. Suarez,,,normal,RSSSF
 2001-0114,Mariscal Braun,F. Divico,,,normal,RSSSF
 2001-0114,Mariscal Braun,G. Diaz,,,normal,RSSSF
@@ -1462,6 +2081,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0121,Mariscal Braun,J. Avedaño,,,normal,RSSSF
 2001-0121,Mariscal Braun,Alex,,,normal,RSSSF
 2001-0121,Mariscal Braun,C. Algarañaz,,,normal,RSSSF
+2001-0122,The Strongest,J. Suarez,,,normal,RSSSF
+2001-0122,The Strongest,J. Suarez,,,normal,RSSSF
+2001-0122,The Strongest,P. Colque,,,normal,RSSSF
+2001-0122,The Strongest,O. Sanchez,,,normal,RSSSF
+2001-0122,The Strongest,S. Coelho,,,normal,RSSSF
+2001-0122,The Strongest,S. Coelho,,,normal,RSSSF
+2001-0122,The Strongest,D. Vaca,,,normal,RSSSF
+2001-0122,The Strongest,C. Aguilera,,,normal,RSSSF
+2001-0122,Unión Central,J. Vallejos,,,normal,RSSSF
+2001-0122,Unión Central,P. Fernandez,,,normal,RSSSF
+2001-0122,Unión Central,P. Fernandez,,,normal,RSSSF
+2001-0122,Unión Central,J. Rios,,,normal,RSSSF
 2001-0123,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
 2001-0123,Jorge Wilstermann,J. Loayza,,,normal,RSSSF
 2001-0123,Jorge Wilstermann,M. Sozzani,,,normal,RSSSF
@@ -1477,6 +2108,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0127,Real Potosí,D. Callau,,,normal,RSSSF
 2001-0127,Mariscal Braun,A. Gutierrez,,,normal,RSSSF
 2001-0129,Unión Central,R. Santana,,,normal,RSSSF
+2001-0130,Blooming,W. Otta,,,normal,RSSSF
+2001-0130,The Strongest,R. Rojas,,,normal,RSSSF
+2001-0130,The Strongest,R. Rojas,,,normal,RSSSF
+2001-0131,Iberoamericana,P. Serrano,,,normal,RSSSF
+2001-0131,Iberoamericana,P. Serrano,,,normal,RSSSF
+2001-0131,Iberoamericana,P. Serrano,,,normal,RSSSF
+2001-0131,Iberoamericana,D. Heredia,,,normal,RSSSF
+2001-0131,Iberoamericana,D. Cuellar,,,normal,RSSSF
+2001-0131,Independiente Petrolero,R. Cueto,,,normal,RSSSF
+2001-0132,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0132,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0132,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0132,Oriente Petrolero,M: Coimbra,,,normal,RSSSF
+2001-0132,Oriente Petrolero,M: Coimbra,,,normal,RSSSF
 2001-0133,Bolívar,M. Sandy,,,normal,RSSSF
 2001-0134,The Strongest,S. Coelho,,,normal,RSSSF
 2001-0134,The Strongest,G. Cuartas,,,normal,RSSSF
@@ -1485,15 +2130,57 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0134,The Strongest,C. Reynaldo,,,normal,RSSSF
 2001-0134,Real Potosí,H. Sanchez,,,normal,RSSSF
 2001-0135,Blooming,D. Cabrera,,,normal,RSSSF
+2001-0136,Iberoamericana,R. Viscarra,,,normal,RSSSF
+2001-0136,Iberoamericana,R. Viscarra,,,normal,RSSSF
+2001-0136,Iberoamericana,A. Andaveris,,,normal,RSSSF
+2001-0136,Iberoamericana,R. Vaca,,,normal,RSSSF
+2001-0136,Iberoamericana,E. Romero,,,normal,RSSSF
+2001-0136,Unión Central,P. Fernandez,,,normal,RSSSF
+2001-0136,Unión Central,R. Santana,,,normal,RSSSF
 2001-0137,Guabirá,P. Añez,,,normal,RSSSF
 2001-0137,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+2001-0138,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0138,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0138,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0139,Jorge Wilstermann,M. Menacho,,,normal,RSSSF
+2001-0139,Mariscal Braun,G. Diaz,,,normal,RSSSF
+2001-0139,Mariscal Braun,G. Diaz,,,normal,RSSSF
+2001-0140,Iberoamericana,A. Andaveris,,,normal,RSSSF
+2001-0140,Iberoamericana,A. Andaveris,,,normal,RSSSF
+2001-0140,Iberoamericana,A. Andaveris,,,normal,RSSSF
+2001-0140,Guabirá,M. Aguilera,,,normal,RSSSF
 2001-0141,Real Santa Cruz,M. Paraba,,,normal,RSSSF
 2001-0142,Blooming,L. Alvarez,,,normal,RSSSF
 2001-0142,Blooming,C. Couceiro,,,normal,RSSSF
 2001-0142,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
 2001-0142,Independiente Petrolero,C. Angulo,,,normal,RSSSF
 2001-0142,Independiente Petrolero,R. Medeiros,,,normal,RSSSF
+2001-0143,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0143,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0143,Bolívar,L. Pizarro,,,normal,RSSSF
+2001-0143,Bolívar,L. Ribeiro,,,normal,RSSSF
+2001-0143,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2001-0144,Real Potosí,H. Sanchez,,,normal,RSSSF
+2001-0144,Real Potosí,M. Ardaya,,,normal,RSSSF
+2001-0144,Real Potosí,M. Ardaya,,,normal,RSSSF
 2001-0145,The Strongest,G. Cuartas,,,normal,RSSSF
+2001-0146,Guabirá,S. Castillo,,,normal,RSSSF
+2001-0146,Guabirá,M. Cardona,,,normal,RSSSF
+2001-0146,Guabirá,M. Cardona,,,normal,RSSSF
+2001-0146,Guabirá,S. Lopez,,,contra,RSSSF
+2001-0148,Mariscal Braun,Alex,,,normal,RSSSF
+2001-0148,Mariscal Braun,Alex,,,normal,RSSSF
+2001-0148,Mariscal Braun,G. Diaz,,,normal,RSSSF
+2001-0148,Bolívar,M. Mercado,,,normal,RSSSF
+2001-0148,Bolívar,M. Ligori,,,normal,RSSSF
+2001-0148,Bolívar,J. Botero,,,normal,RSSSF
+2001-0149,Oriente Petrolero,M. Abrigo,,,normal,RSSSF
+2001-0149,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0149,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0149,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0149,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
+2001-0149,Oriente Petrolero,F. Jimenez,,,normal,RSSSF
+2001-0149,Unión Central,P. Fernandez,,,normal,RSSSF
 2001-0151,Jorge Wilstermann,M. Menacho,,,normal,RSSSF
 2001-0151,Jorge Wilstermann,E. Olivares,,,normal,RSSSF
 2001-0151,Blooming,P. Gil,,,normal,RSSSF
@@ -1501,13 +2188,29 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0152,Iberoamericana,J. Peña Carabali,,,normal,RSSSF
 2001-0152,Mariscal Braun,A. Peña,,,normal,RSSSF
 2001-0152,Mariscal Braun,G. Diaz,,,normal,RSSSF
+2001-0153,Real Santa Cruz,J. Rivero,,,normal,RSSSF
+2001-0153,Guabirá,M. Fernandez,,,normal,RSSSF
+2001-0153,Guabirá,M. Fernandez,,,normal,RSSSF
+2001-0153,Guabirá,M. Aguilera,,,normal,RSSSF
+2001-0153,Guabirá,M. Aguilera,,,normal,RSSSF
 2001-0154,Bolívar,O. Sanchez,,,contra,RSSSF
 2001-0154,Bolívar,J. Botero,,,normal,RSSSF
 2001-0154,Bolívar,L. Libermann,,,normal,RSSSF
 2001-0154,The Strongest,O. Sanchez,,,normal,RSSSF
+2001-0155,Real Potosí,S. Lopez,,,normal,RSSSF
+2001-0155,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0155,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0155,Real Potosí,H. Sanchez,,,normal,RSSSF
+2001-0155,Real Potosí,J. Grass,,,normal,RSSSF
+2001-0155,Independiente Petrolero,R. Cueto,,,normal,RSSSF
 2001-0156,Unión Central,J. Rios,,,normal,RSSSF
 2001-0156,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
 2001-0157,Blooming,D. Cabrera,,,normal,RSSSF
+2001-0158,Bolívar,Nene,,,normal,RSSSF
+2001-0158,Bolívar,J. Botero,,,normal,RSSSF
+2001-0158,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0158,Blooming,W. Otta,,,normal,RSSSF
+2001-0158,Blooming,W. Otta,,,normal,RSSSF
 2001-0159,Guabirá,G. Paredes,,,normal,RSSSF
 2001-0159,Guabirá,M. Fernandez,,,normal,RSSSF
 2001-0159,Unión Central,P.Cuba,,,normal,RSSSF
@@ -1532,6 +2235,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0166,Jorge Wilstermann,P. Guiberguis,,,normal,RSSSF
 2001-0167,Real Santa Cruz,L. Cespedes,,,normal,RSSSF
 2001-0167,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0168,The Strongest,S. Coelho,,,normal,RSSSF
+2001-0168,The Strongest,S. Coelho,,,normal,RSSSF
+2001-0168,The Strongest,S. Coelho,,,normal,RSSSF
+2001-0168,The Strongest,C. Reynaldo,,,normal,RSSSF
+2001-0168,The Strongest,R. Leiga,,,normal,RSSSF
+2001-0168,The Strongest,L.Paz,,,normal,RSSSF
+2001-0168,The Strongest,R. Rojas,,,normal,RSSSF
+2001-0169,Unión Central,P. Fernandez,,,normal,RSSSF
+2001-0169,Unión Central,J. Rios,,,normal,RSSSF
+2001-0169,Unión Central,J. Rios,,,normal,RSSSF
+2001-0169,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0169,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0169,Real Potosí,D. Callau,,,normal,RSSSF
+2001-0169,Real Potosí,D. Callau,,,normal,RSSSF
+2001-0169,Real Potosí,H. Sanchez,,,normal,RSSSF
 2001-0170,Real Santa Cruz,M. Rimba,,,normal,RSSSF
 2001-0171,Bolívar,J. Botero,,,normal,RSSSF
 2001-0171,Independiente Petrolero,R. Cueto,,,normal,RSSSF
@@ -1541,6 +2259,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0173,Real Potosí,R. Correa,,,normal,RSSSF
 2001-0173,The Strongest,S. Coelho,,,normal,RSSSF
 2001-0173,The Strongest,G. Cuartas,,,normal,RSSSF
+2001-0174,Unión Central,J. Vallejos,,,normal,RSSSF
+2001-0174,Unión Central,J. Vallejos,,,normal,RSSSF
+2001-0174,Unión Central,J. Rios,,,normal,RSSSF
+2001-0174,Unión Central,D. Vides,,,normal,RSSSF
+2001-0174,Iberoamericana,C. Mercado,,,normal,RSSSF
+2001-0175,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0175,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
+2001-0175,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
 2001-0176,Guabirá,M. Aguilera,,,normal,RSSSF
 2001-0177,Independiente Petrolero,A. Carvalho,,,normal,RSSSF
 2001-0177,Independiente Petrolero,R. Uriona,,,normal,RSSSF
@@ -1557,6 +2283,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0180,The Strongest,H. Maezterra,,,normal,RSSSF
 2001-0180,Unión Central,P. Fernandez,,,normal,RSSSF
 2001-0180,Unión Central,M. Sandy,,,normal,RSSSF
+2001-0181,Jorge Wilstermann,S. Lima,,,normal,RSSSF
+2001-0181,Bolívar,Nene,,,normal,RSSSF
+2001-0181,Bolívar,Nene,,,normal,RSSSF
+2001-0181,Bolívar,I. Castillo,,,normal,RSSSF
 2001-0182,Blooming,D. Cabrera,,,normal,RSSSF
 2001-0182,Jorge Wilstermann,V. Marin,,,normal,RSSSF
 2001-0184,Real Potosí,R. Correa,,,normal,RSSSF
@@ -1566,6 +2296,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0184,Real Potosí,D. Peña,,,normal,RSSSF
 2001-0185,Unión Central,P. Fernandez,,,normal,RSSSF
 2001-0185,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0186,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0186,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0186,Bolívar,J. Botero,,,normal,RSSSF
+2001-0186,Mariscal Braun,Alex,,,normal,RSSSF
+2001-0187,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+2001-0187,Real Santa Cruz,E. Monteiro,,,normal,RSSSF
+2001-0187,Real Santa Cruz,O. Ozzan,,,normal,RSSSF
+2001-0187,Real Santa Cruz,J. Callau,,,normal,RSSSF
+2001-0187,Real Santa Cruz,J. Callau,,,normal,RSSSF
+2001-0187,Independiente Petrolero,R. Cueto,,,normal,RSSSF
+2001-0187,Independiente Petrolero,C. Angulo,,,normal,RSSSF
 2001-0190,Oriente Petrolero,R. Torrez,,,normal,RSSSF
 2001-0190,Oriente Petrolero,R. Campos,,,normal,RSSSF
 2001-0191,The Strongest,C. Garnier,,,normal,RSSSF
@@ -1574,6 +2315,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0191,Bolívar,L. Ribeiro,,,normal,RSSSF
 2001-0191,Bolívar,Nene,,,normal,RSSSF
 2001-0191,Bolívar,I. Castillo,,,normal,RSSSF
+2001-0192,Mariscal Braun,Alex,,,normal,RSSSF
+2001-0192,Mariscal Braun,Alex,,,normal,RSSSF
+2001-0192,Mariscal Braun,G. Diaz,,,normal,RSSSF
+2001-0192,Iberoamericana,R. Viscarra,,,normal,RSSSF
+2001-0192,Iberoamericana,D. Heredia,,,normal,RSSSF
 2001-0193,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
 2001-0193,Jorge Wilstermann,A. Jara,,,normal,RSSSF
 2001-0193,Unión Central,J. Vallejos,,,normal,RSSSF
@@ -1583,9 +2329,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0194,Bolívar,J. Botero,,,normal,RSSSF
 2001-0195,The Strongest,R. Gutierrez,,,normal,RSSSF
 2001-0195,The Strongest,R. Rojas,,,normal,RSSSF
+2001-0197,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0197,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0197,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0197,Oriente Petrolero,R. Lunari,,,normal,RSSSF
+2001-0197,Oriente Petrolero,R. Torrez,,,normal,RSSSF
+2001-0197,Iberoamericana,A. Andaveris,,,normal,RSSSF
 2001-0198,Real Potosí,S. Lopez,,,normal,RSSSF
 2001-0198,Real Potosí,F. Flores,,,normal,RSSSF
 2001-0198,Real Potosí,J. Grass,,,normal,RSSSF
+2001-0199,Jorge Wilstermann,M. Menacho,,,normal,RSSSF
+2001-0199,Jorge Wilstermann,M. Menacho,,,normal,RSSSF
+2001-0199,Jorge Wilstermann,G. Mojica,,,normal,RSSSF
+2001-0199,Jorge Wilstermann,S. Lima,,,normal,RSSSF
+2001-0199,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
+2001-0199,Independiente Petrolero,E. Torrez,,,normal,RSSSF
 2001-0200,Blooming,R. Tufiño,,,normal,RSSSF
 2001-0200,Blooming,C. Couceiro,,,normal,RSSSF
 2001-0200,Bolívar,H. Chiorazzo,,,normal,RSSSF
@@ -1603,6 +2361,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0204,Oriente Petrolero,A. Ibañez,,,normal,RSSSF
 2001-0205,Unión Central,J. Vallejos,,,normal,RSSSF
 2001-0205,Guabirá,A. Cuellar,,,normal,RSSSF
+2001-0206,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0206,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0206,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2001-0207,Independiente Petrolero,J. Biaggini,,,normal,RSSSF
 2001-0207,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
 2001-0207,Jorge Wilstermann,V. Marin,,,normal,RSSSF
@@ -1611,15 +2372,33 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0208,Mariscal Braun,A. Peña,,,normal,RSSSF
 2001-0208,Mariscal Braun,A. Gutierrez,,,normal,RSSSF
 2001-0208,Bolívar,I. Castillo,,,normal,RSSSF
+2001-0209,Real Potosí,R. Cardozo,,,normal,RSSSF
+2001-0209,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0209,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0209,Guabirá,R. Melgar,,,normal,RSSSF
+2001-0209,Guabirá,R. Velasco,,,normal,RSSSF
 2001-0210,Bolívar,Nene,,,normal,RSSSF
 2001-0210,Bolívar,L. Libermann,,,normal,RSSSF
 2001-0210,Bolívar,H. Chiorazzo,,,normal,RSSSF
 2001-0210,Real Potosí,R. Vaca,,,normal,RSSSF
 2001-0211,Guabirá,R. Melgar,,,normal,RSSSF
+2001-0212,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0212,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0212,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2001-0212,Oriente Petrolero,R. Torrez,,,normal,RSSSF
+2001-0212,Independiente Petrolero,R. Torrez,,,normal,RSSSF
+2001-0213,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0213,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0213,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2001-0213,Jorge Wilstermann,E. Olivares,,,normal,RSSSF
+2001-0213,The Strongest,R. Rojas,,,normal,RSSSF
 2001-0214,Guabirá,N. Suarez,,,normal,RSSSF
 2001-0214,Bolívar,M. Ligori,,,normal,RSSSF
 2001-0214,Bolívar,L. Ribeiro,,,normal,RSSSF
 2001-0214,Bolívar,J. Botero,,,normal,RSSSF
+2001-0215,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0215,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0215,Jorge Wilstermann,M. Abrigo,,,contra,RSSSF
 2001-0216,Real Potosí,M. Ardaya,,,normal,RSSSF
 2001-0216,Real Potosí,D. Peña,,,normal,RSSSF
 2001-0216,Real Potosí,R. Correa,,,normal,RSSSF
@@ -1627,6 +2406,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0217,The Strongest,J. Cantero,,,normal,RSSSF
 2001-0217,Independiente Petrolero,W. Roca,,,contra,RSSSF
 2001-0217,Independiente Petrolero,J. Biaggini,,,normal,RSSSF
+2001-0218,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0218,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0218,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0218,Oriente Petrolero,M. Coimbra,,,normal,RSSSF
 2001-0219,Real Potosí,J. Grass,,,normal,RSSSF
 2001-0219,Real Potosí,M. Angulo,,,normal,RSSSF
 2001-0219,Bolívar,M. Ligori,,,normal,RSSSF
@@ -1636,13 +2419,28 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0221,Mariscal Braun,F. Mostajo,,,normal,RSSSF
 2001-0221,Mariscal Braun,Alex,,,normal,RSSSF
 2001-0221,Mariscal Braun,L. Morales,,,normal,RSSSF
+2001-0222,Bolívar,J. Botero,,,normal,RSSSF
+2001-0222,Bolívar,J. Botero,,,normal,RSSSF
+2001-0222,Bolívar,J. Botero,,,normal,RSSSF
 2001-0223,Guabirá,A. Cuellar,,,normal,RSSSF
 2001-0223,Guabirá,S. Castillo,,,normal,RSSSF
 2001-0223,Real Potosí,J. Grass,,,normal,RSSSF
 2001-0223,Real Potosí,M. Ardaya,,,normal,RSSSF
+2001-0224,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0224,The Strongest,L. Paz,,,normal,RSSSF
+2001-0224,The Strongest,L. Paz,,,normal,RSSSF
 2001-0225,Jorge Wilstermann,M. Menacho,,,normal,RSSSF
 2001-0225,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2001-0226,Bolívar,J. Botero,,,normal,RSSSF
+2001-0226,Bolívar,J. Botero,,,normal,RSSSF
+2001-0226,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0226,Bolívar,A. Ribeiro,,,normal,RSSSF
+2001-0226,Guabirá,S. Castillo,,,normal,RSSSF
 2001-0227,Independiente Petrolero,J. Biaggini,,,normal,RSSSF
+2001-0228,Mariscal Braun,Alex,,,normal,RSSSF
+2001-0228,Mariscal Braun,G. Diaz,,,normal,RSSSF
+2001-0228,Mariscal Braun,G. Diaz,,,normal,RSSSF
+2001-0228,Real Potosí,R. Correa,,,normal,RSSSF
 2001-0229,Jorge Wilstermann,G. Galindo,,,normal,RSSSF
 2001-0229,Jorge Wilstermann,E. Olivares,,,normal,RSSSF
 2001-0229,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
@@ -1650,16 +2448,78 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0229,Jorge Wilstermann,G. Mujica,,,normal,RSSSF
 2001-0229,Oriente Petrolero,F. Calustro,,,normal,RSSSF
 2001-0229,Oriente Petrolero,I. Fernandez,,,normal,RSSSF
+2001-0230,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0230,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0230,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0230,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0230,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0231,Jorge Wilstermann,M. Soria,,,normal,RSSSF
+2001-0231,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0231,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0231,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0231,Jorge Wilstermann,V. Marin,,,normal,RSSSF
+2001-0231,Real Potosí,D. Peña,,,normal,RSSSF
+2001-0231,Real Potosí,M. Ardaya,,,normal,RSSSF
+2001-0231,Real Potosí,H. Sanchez,,,normal,RSSSF
 2001-0233,Real Potosí,D. Callau,,,normal,RSSSF
 2001-0233,Real Potosí,R. Correa,,,normal,RSSSF
 2001-0233,Bolívar,Nene,,,normal,RSSSF
 2001-0233,Bolívar,M. Mercado,,,normal,RSSSF
+2001-0235,Oriente Petrolero,F. Jimenez,,,normal,RSSSF
+2001-0235,Oriente Petrolero,F. Jimenez,,,normal,RSSSF
+2001-0235,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0235,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0235,Oriente Petrolero,R. Torrez,,,normal,RSSSF
+2001-0235,Real Potosí,D. Callau,,,normal,RSSSF
+2001-0236,Real Potosí,S. Lopez,,,normal,RSSSF
+2001-0236,Real Potosí,J. Grass,,,normal,RSSSF
+2001-0236,Real Potosí,J. Grass,,,normal,RSSSF
+2001-0236,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0236,Real Potosí,R. Correa,,,normal,RSSSF
+2001-0236,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2001-0236,Oriente Petrolero,V. Gonzales,,,normal,RSSSF
+2001-0237,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2001-0237,Bolívar,I. Castillo,,,normal,RSSSF
+2001-0237,Bolívar,J. Botero,,,normal,RSSSF
+2001-0237,Bolívar,J. Botero,,,normal,RSSSF
 2001-0238,Bolívar,H. Chiorazzo,,,normal,RSSSF
 2001-0238,Real Potosí,H. Sanchez,,,normal,RSSSF
+2001-0239,Jorge Wilstermann,A. Jara,,,normal,RSSSF
+2001-0239,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0239,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2001-0240,Real Potosí,R. Corrra,,,normal,RSSSF
+2001-0241,Oriente Petrolero,R. Raldes,,,normal,RSSSF
+2001-0241,Oriente Petrolero,R. Raldes,,,normal,RSSSF
+2001-0242,Bolívar,J. Botero,,,normal,RSSSF
+2001-0242,Bolívar,J. Botero,,,normal,RSSSF
+2001-0242,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0242,Bolívar,H. Chiorazzo,,,normal,RSSSF
+2001-0242,Oriente Petrolero,V. Gonzales,,,normal,RSSSF
+2001-0243,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0243,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0243,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0243,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0243,Bolívar,L. Libermann,,,normal,RSSSF
+2001-0243,Bolívar,J. Ferreira,,,normal,RSSSF
+2001-0243,Bolívar,J. Botero,,,normal,RSSSF
+2001-0244,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2001-0244,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0001,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0001,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0001,Bolívar,J. Botero,,,normal,RSSSF
+2002-0001,Bolívar,J. Botero,,,normal,RSSSF
+2002-0001,Bolívar,R. Tufiño,,,normal,RSSSF
+2002-0001,Bolívar,D. Pachi,,,normal,RSSSF
+2002-0001,Bolívar,M. Ligori,,,normal,RSSSF
 2002-0002,Mariscal Braun,E. Mostajo,,,normal,RSSSF
 2002-0002,Blooming,R. Gutierez,,,normal,RSSSF
 2002-0002,Blooming,J. Cortez,,,normal,RSSSF
+2002-0003,Oriente Petrolero,M. Abrigo,,,normal,RSSSF
+2002-0003,Oriente Petrolero,L. Paz,,,normal,RSSSF
+2002-0003,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0003,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0003,Oriente Petrolero,R. Lunari,,,normal,RSSSF
+2002-0003,Oriente Petrolero,R. Lunari,,,normal,RSSSF
 2002-0004,San José,M. Ardaya,,,normal,RSSSF
 2002-0004,San José,R. Vallejos,,,normal,RSSSF
 2002-0004,San José,A. Lozano,,,normal,RSSSF
@@ -1674,17 +2534,32 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0008,Guabirá,I. Mercado,,,normal,RSSSF
 2002-0008,Guabirá,J. Algarañaz,,,normal,RSSSF
 2002-0008,Jorge Wilstermann,L. Lupino,,,normal,RSSSF
+2002-0010,The Strongest,Alex,,,normal,RSSSF
+2002-0010,The Strongest,Alex,,,normal,RSSSF
+2002-0010,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2002-0011,Unión Central,V. Gonzales,,,normal,RSSSF
 2002-0011,Unión Central,M. Ramos,,,normal,RSSSF
 2002-0012,Blooming,M. Ceballos,,,normal,RSSSF
 2002-0012,Blooming,R. Gutierrez,,,normal,RSSSF
 2002-0012,Bolívar,J. Botero,,,normal,RSSSF
+2002-0013,Bolívar,J. Botero,,,normal,RSSSF
+2002-0013,Bolívar,J. Botero,,,normal,RSSSF
+2002-0013,Bolívar,I. Castillo,,,normal,RSSSF
+2002-0013,Unión Central,M. Ramos,,,normal,RSSSF
 2002-0014,Independiente Petrolero,G. Espinoza,,,normal,RSSSF
 2002-0014,Independiente Petrolero,R. Torez,,,normal,RSSSF
 2002-0015,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2002-0015,Real Potosí,D. Peña,,,normal,RSSSF
 2002-0015,The Strongest,S. Coelho,,,normal,RSSSF
 2002-0015,The Strongest,J. Cantero,,,normal,RSSSF
+2002-0016,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0016,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0016,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0016,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0016,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0016,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0016,Oriente Petrolero,F. Jiménez,,,normal,RSSSF
+2002-0016,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2002-0017,San José,M. Angulo,,,normal,RSSSF
 2002-0017,San José,L. Orellana,,,normal,RSSSF
 2002-0017,Iberoamericana,A. Ribeiro,,,normal,RSSSF
@@ -1702,22 +2577,58 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0021,The Strongest,Alex,,,normal,RSSSF
 2002-0021,The Strongest,S. Coelho,,,normal,RSSSF
 2002-0021,Iberoamericana,A. Ribeiro,,,normal,RSSSF
+2002-0022,Blooming,R. Gutierrez,,,normal,RSSSF
+2002-0022,Blooming,E. Monteiro,,,normal,RSSSF
+2002-0022,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0022,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0022,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0022,Oriente Petrolero,R. Justiniano,,,normal,RSSSF
 2002-0023,Mariscal Braun,E. Mostajo,,,normal,RSSSF
 2002-0023,Mariscal Braun,M. Martins,,,normal,RSSSF
 2002-0023,San José,J. Vallejos,,,normal,RSSSF
+2002-0024,Unión Central,H. Sanchez,,,normal,RSSSF
+2002-0024,Unión Central,H. Sanchez,,,normal,RSSSF
+2002-0024,Jorge Wilstermann,E. Jiguchi,,,normal,RSSSF
+2002-0024,Jorge Wilstermann,W. Escalante,,,contra,RSSSF
+2002-0025,Iberoamericana,D. Surubi,,,normal,RSSSF
+2002-0025,Iberoamericana,D. Surubi,,,normal,RSSSF
+2002-0025,Iberoamericana,A. Ribeiro,,,normal,RSSSF
+2002-0025,Iberoamericana,R. Vaca,,,normal,RSSSF
+2002-0025,Iberoamericana,D. Heredia,,,normal,RSSSF
+2002-0025,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0026,Oriente Petrolero,F. Jimenez,,,normal,RSSSF
 2002-0026,Oriente Petrolero,M. Abrigo,,,normal,RSSSF
 2002-0026,Oriente Petrolero,A. Jara,,,normal,RSSSF
 2002-0026,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0026,Unión Central,M. Velarde,,,normal,RSSSF
+2002-0027,Real Potosí,D. Peña,,,normal,RSSSF
+2002-0027,Real Potosí,D. Peña,,,normal,RSSSF
+2002-0027,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0027,Blooming,R. Ribeira,,,normal,RSSSF
+2002-0027,Blooming,E. Monteiro,,,normal,RSSSF
+2002-0028,San José,M. Ardaya,,,normal,RSSSF
+2002-0028,The Strongest,Alex,,,normal,RSSSF
+2002-0028,The Strongest,Alex,,,normal,RSSSF
+2002-0028,The Strongest,J. Cantero,,,normal,RSSSF
+2002-0028,The Strongest,J. Cantero,,,normal,RSSSF
+2002-0028,The Strongest,S. Pizarro,,,normal,RSSSF
 2002-0029,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
 2002-0029,Jorge Wilstermann,A. Andaveris,,,normal,RSSSF
+2002-0030,Bolívar,J. Botero,,,normal,RSSSF
+2002-0030,Bolívar,J. Botero,,,normal,RSSSF
+2002-0030,Bolívar,J. Botero,,,normal,RSSSF
+2002-0030,Bolívar,D. Pachi,,,normal,RSSSF
+2002-0030,Bolívar,O. Sanchez,,,normal,RSSSF
+2002-0030,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0030,Mariscal Braun,C. Schwarz,,,normal,RSSSF
 2002-0031,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
 2002-0031,Independiente Petrolero,G. Espinoza,,,normal,RSSSF
 2002-0032,Blooming,J. Mendez,,,normal,RSSSF
 2002-0033,Bolívar,J. Botero,,,normal,RSSSF
 2002-0033,Bolívar,P. Guiberguis,,,normal,RSSSF
 2002-0034,Guabirá,A. Cuellar,,,normal,RSSSF
+2002-0035,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2002-0035,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 2002-0036,Unión Central,M. Velarde,,,normal,RSSSF
 2002-0036,Unión Central,C. Couceiro,,,normal,RSSSF
 2002-0036,Unión Central,V. Gonzales,,,normal,RSSSF
@@ -1734,6 +2645,26 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0040,The Strongest,L. Cristaldo,,,normal,RSSSF
 2002-0040,The Strongest,J. Paz Garcia,,,normal,RSSSF
 2002-0040,Blooming,P. Gil,,,normal,RSSSF
+2002-0041,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0041,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0041,Bolívar,J. Botero,,,normal,RSSSF
+2002-0041,Bolívar,J. Botero,,,normal,RSSSF
+2002-0041,Bolívar,J. Botero,,,normal,RSSSF
+2002-0042,Oriente Petrolero,A. Ibañez,,,normal,RSSSF
+2002-0042,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0042,Oriente Petrolero,R. Raldes,,,normal,RSSSF
+2002-0042,Oriente Petrolero,R. Raldes,,,normal,RSSSF
+2002-0042,Mariscal Braun,J. Robles,,,normal,RSSSF
+2002-0042,Mariscal Braun,J. Robles,,,normal,RSSSF
+2002-0043,Blooming,L. Gutierrez,,,normal,RSSSF
+2002-0043,Blooming,L. Gutierrez,,,normal,RSSSF
+2002-0043,Blooming,J. Cortez,,,normal,RSSSF
+2002-0043,Guabirá,J. Baldivieso,,,normal,RSSSF
+2002-0044,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0044,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0044,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0044,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0044,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0045,Independiente Petrolero,P. Fernandez,,,normal,RSSSF
 2002-0045,Iberoamericana,D. Heredia,,,normal,RSSSF
 2002-0046,Mariscal Braun,J. Robles,,,normal,RSSSF
@@ -1758,16 +2689,56 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0053,Bolívar,J. Botero,,,normal,RSSSF
 2002-0053,Bolívar,E. Olivares,,,normal,RSSSF
 2002-0053,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0054,San José,H. Ruiz,,,normal,RSSSF
+2002-0054,San José,H. Ruiz,,,normal,RSSSF
+2002-0054,San José,P. Da Silva,,,normal,RSSSF
+2002-0054,San José,M. Ardaya,,,normal,RSSSF
+2002-0054,San José,J. Paz,,,contra,RSSSF
+2002-0054,San José,R. Vallejos,,,normal,RSSSF
+2002-0055,Bolívar,J. Algarañaz,,,contra,RSSSF
+2002-0055,Bolívar,J. Botero,,,normal,RSSSF
+2002-0055,Bolívar,J. Botero,,,normal,RSSSF
+2002-0055,Bolívar,P. Guiberguis,,,normal,RSSSF
 2002-0056,Unión Central,V. Gonzales,,,normal,RSSSF
 2002-0056,Blooming,L. Alvarez,,,normal,RSSSF
 2002-0057,Oriente Petrolero,R. Lunari,,,normal,RSSSF
 2002-0057,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0057,San José,F. Puro,,,normal,RSSSF
 2002-0058,The Strongest,Alex,,,normal,RSSSF
+2002-0059,Independiente Petrolero,T. Gutierrez,,,normal,RSSSF
+2002-0059,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2002-0059,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2002-0059,Guabirá,A. Cuellar,,,normal,RSSSF
+2002-0060,Jorge Wilstermann,J. Guzman,,,normal,RSSSF
+2002-0060,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0060,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0060,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0060,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 2002-0061,Blooming,L. Gutierez,,,normal,RSSSF
 2002-0061,Blooming,P. Gil,,,normal,RSSSF
 2002-0061,Blooming,R. Gutierez,,,normal,RSSSF
 2002-0061,Independiente Petrolero,O. Gonzales,,,normal,RSSSF
+2002-0062,Real Potosí,R. Cueto,,,normal,RSSSF
+2002-0062,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0062,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0062,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0062,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0062,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2002-0062,Oriente Petrolero,R. Raldes,,,normal,RSSSF
+2002-0062,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0062,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0062,Oriente Petrolero,R. Lunari,,,normal,RSSSF
+2002-0063,San José,H. Ruiz,,,normal,RSSSF
+2002-0063,San José,J. Vallejos,,,normal,RSSSF
+2002-0063,San José,M. Ardaya,,,normal,RSSSF
+2002-0063,Unión Central,G. Romanello,,,normal,RSSSF
+2002-0063,Unión Central,G. Romanello,,,normal,RSSSF
+2002-0063,Unión Central,P. Rocabado,,,normal,RSSSF
+2002-0064,The Strongest,J. Cantero,,,normal,RSSSF
+2002-0064,The Strongest,S. Coleho,,,normal,RSSSF
+2002-0064,The Strongest,S. Coleho,,,normal,RSSSF
+2002-0064,Bolívar,O. Sanchez,,,normal,RSSSF
+2002-0064,Bolívar,P. Guiberguis,,,normal,RSSSF
 2002-0065,Iberoamericana,M. Pinilla,,,normal,RSSSF
 2002-0065,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0065,Jorge Wilstermann,G. Merlo,,,normal,RSSSF
@@ -1776,11 +2747,27 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0066,Mariscal Braun,Clemirson,,,normal,RSSSF
 2002-0067,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0067,Iberoamericana,M. Pinilla,,,normal,RSSSF
+2002-0068,Blooming,M. Ceballos,,,normal,RSSSF
+2002-0068,Blooming,M. Ceballos,,,normal,RSSSF
+2002-0068,Blooming,R. Ribera,,,normal,RSSSF
+2002-0068,Blooming,J. Cortez,,,normal,RSSSF
 2002-0070,Real Potosí,M. Loayza,,,normal,RSSSF
 2002-0070,Real Potosí,R. Correa,,,normal,RSSSF
 2002-0070,Real Potosí,D. Peña,,,normal,RSSSF
 2002-0070,San José,R. Salguero,,,normal,RSSSF
 2002-0070,San José,A. Giaccone,,,normal,RSSSF
+2002-0071,The Strongest,L. Mendez,,,normal,RSSSF
+2002-0071,The Strongest,D. Vaca,,,normal,RSSSF
+2002-0071,Jorge Wilstermann,A. Andaveris,,,normal,RSSSF
+2002-0071,Jorge Wilstermann,A. Andaveris,,,normal,RSSSF
+2002-0071,Jorge Wilstermann,E. Jiguchi,,,normal,RSSSF
+2002-0071,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2002-0072,Unión Central,G. Romanello,,,normal,RSSSF
+2002-0072,Unión Central,G. Romanello,,,normal,RSSSF
+2002-0072,Unión Central,M. Ramos,,,normal,RSSSF
+2002-0072,Unión Central,H. Sanchez,,,normal,RSSSF
+2002-0072,Independiente Petrolero,J. Fernandez,,,normal,RSSSF
+2002-0072,Independiente Petrolero,M. Blanco,,,normal,RSSSF
 2002-0073,Mariscal Braun,C. Schwarz,,,normal,RSSSF
 2002-0074,Real Potosí,R. Correa,,,normal,RSSSF
 2002-0074,Iberoamericana,R. Galindo,,,normal,RSSSF
@@ -1794,23 +2781,43 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0076,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
 2002-0076,Guabirá,O. Ozzan,,,normal,RSSSF
 2002-0076,Guabirá,M. Jordan,,,normal,RSSSF
+2002-0077,Bolívar,P. Colque,,,normal,RSSSF
+2002-0077,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0077,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0077,Bolívar,O. Sanchez,,,normal,RSSSF
+2002-0077,Blooming,L. Gutierrez,,,normal,RSSSF
 2002-0078,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0078,Oriente Petrolero,L. Paz,,,normal,RSSSF
 2002-0078,The Strongest,R. Gutierrez,,,normal,RSSSF
 2002-0079,The Strongest,Alex,,,normal,RSSSF
 2002-0079,Real Potosí,R. Cueto,,,normal,RSSSF
+2002-0080,Blooming,A. Niño de Guzman,,,normal,RSSSF
+2002-0080,Blooming,R. Gutierrez,,,normal,RSSSF
+2002-0080,Blooming,E. Monteiro,,,normal,RSSSF
+2002-0080,Blooming,M. Ceballos,,,normal,RSSSF
+2002-0080,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
+2002-0080,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 2002-0082,Iberoamericana,D. Heredia,,,normal,RSSSF
 2002-0082,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0082,San José,J. Peña Carabali,,,contra,RSSSF
 2002-0083,Independiente Petrolero,P. Gemio,,,normal,RSSSF
 2002-0083,Mariscal Braun,J. Robles,,,normal,RSSSF
 2002-0084,Unión Central,M. Ramos,,,normal,RSSSF
+2002-0085,Bolívar,D. Pachi,,,normal,RSSSF
+2002-0085,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0085,Bolívar,J. Botero,,,normal,RSSSF
+2002-0085,Bolívar,J. Botero,,,normal,RSSSF
+2002-0085,Bolívar,J. Botero,,,normal,RSSSF
 2002-0086,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
 2002-0086,Jorge Wilstermann,E. Jiguchi,,,normal,RSSSF
 2002-0086,Unión Central,J. Rios,,,normal,RSSSF
 2002-0087,The Strongest,L. Mendez,,,normal,RSSSF
 2002-0088,Blooming,M. Ceballos,,,normal,RSSSF
 2002-0088,Blooming,R. Ribera,,,normal,RSSSF
+2002-0089,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0089,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0089,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0089,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2002-0090,San José,M. Ardaya,,,normal,RSSSF
 2002-0090,San José,P. D Silva,,,normal,RSSSF
 2002-0091,Bolívar,G. Galindo,,,normal,RSSSF
@@ -1818,26 +2825,87 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0092,Blooming,J. Mendez,,,normal,RSSSF
 2002-0093,Guabirá,R. Galvez,,,normal,RSSSF
 2002-0093,Guabirá,A. Cuellar,,,normal,RSSSF
+2002-0094,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0094,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0094,Jorge Wilstermann,M. Aguilera,,,normal,RSSSF
+2002-0094,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
 2002-0095,The Strongest,R. Gutierez,,,normal,RSSSF
 2002-0095,The Strongest,L. Mendez,,,normal,RSSSF
 2002-0095,The Strongest,Alex,,,normal,RSSSF
 2002-0095,San José,W. Sanchez,,,normal,RSSSF
 2002-0096,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0096,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0097,Iberoamericana,D. Surubi,,,normal,RSSSF
+2002-0097,Iberoamericana,R. Galindo,,,normal,RSSSF
+2002-0097,Iberoamericana,R. Galindo,,,normal,RSSSF
+2002-0097,Iberoamericana,R. Lopez,,,normal,RSSSF
+2002-0097,Iberoamericana,R. Lopez,,,normal,RSSSF
+2002-0097,Blooming,J. Algarañaz,,,contra,RSSSF
+2002-0098,Oriente Petrolero,R. Raldes,,,normal,RSSSF
+2002-0098,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0098,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0098,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0098,Oriente Petrolero,R. Torrez,,,normal,RSSSF
+2002-0098,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0099,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0099,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0099,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0099,Real Potosí,D. Peña,,,normal,RSSSF
+2002-0099,Unión Central,W. Escalante,,,normal,RSSSF
+2002-0099,Unión Central,G. Romanello,,,normal,RSSSF
 2002-0100,Bolívar,D. Pachi,,,normal,RSSSF
 2002-0100,Bolívar,M. Mercado,,,normal,RSSSF
 2002-0102,The Strongest,C. Alvarez,,,normal,RSSSF
 2002-0102,The Strongest,H. Mbiakop,,,normal,RSSSF
 2002-0102,Guabirá,A. Cuellar,,,normal,RSSSF
 2002-0103,Blooming,M. Ceballos,,,normal,RSSSF
+2002-0104,Bolívar,J. Botero,,,normal,RSSSF
+2002-0104,Bolívar,J. Botero,,,normal,RSSSF
+2002-0104,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
 2002-0105,San José,R. Rivera,,,normal,RSSSF
+2002-0106,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0106,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0106,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0106,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0107,Mariscal Braun,Flavio Roque,,,normal,RSSSF
+2002-0107,Mariscal Braun,Flavio Roque,,,normal,RSSSF
+2002-0107,Mariscal Braun,M. Salazar,,,normal,RSSSF
+2002-0107,Oriente Petrolero,F. Jimenez,,,normal,RSSSF
 2002-0108,Unión Central,M. Ramos,,,normal,RSSSF
 2002-0108,Unión Central,G. Romanello,,,normal,RSSSF
 2002-0108,Iberoamericana,D. Heredia,,,normal,RSSSF
+2002-0110,Guabirá,A. Cuellar,,,normal,RSSSF
+2002-0110,Guabirá,A. Cuellar,,,normal,RSSSF
+2002-0110,Guabirá,O. Ozzan,,,normal,RSSSF
+2002-0110,Guabirá,J. Algarañaz,,,normal,RSSSF
+2002-0110,Blooming,A. Niño de Guzman,,,normal,RSSSF
+2002-0111,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0111,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0111,Oriente Petrolero,L. Paz,,,normal,RSSSF
+2002-0111,Oriente Petrolero,R. Torrez,,,normal,RSSSF
+2002-0111,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0112,Real Potosí,D. Callau,,,normal,RSSSF
+2002-0112,Real Potosí,D. Callau,,,normal,RSSSF
+2002-0112,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0112,Real Potosí,W. Zabala,,,normal,RSSSF
+2002-0112,Real Potosí,F. Viera,,,normal,RSSSF
+2002-0112,Real Potosí,D. Peña,,,normal,RSSSF
+2002-0112,Mariscal Braun,J. Robles,,,normal,RSSSF
 2002-0113,Jorge Wilstermann,J. Loayza,,,normal,RSSSF
 2002-0114,The Strongest,C. Alvarez,,,normal,RSSSF
 2002-0114,The Strongest,Alex,,,normal,RSSSF
+2002-0115,Blooming,M. Ceballos,,,normal,RSSSF
+2002-0115,Blooming,E. Monteiro,,,normal,RSSSF
+2002-0115,Blooming,E. Monteiro,,,normal,RSSSF
+2002-0115,Blooming,C. Duran,,,normal,RSSSF
+2002-0115,San José,A. Lozano,,,normal,RSSSF
+2002-0115,San José,A. Vidal,,,normal,RSSSF
 2002-0116,Bolívar,J. Botero,,,normal,RSSSF
+2002-0117,Mariscal Braun,W. Añez,,,normal,RSSSF
+2002-0117,Mariscal Braun,A. Bucilacci,,,normal,RSSSF
+2002-0117,Iberoamericana,R. Galindo,,,normal,RSSSF
+2002-0117,Iberoamericana,R. Galindo,,,normal,RSSSF
+2002-0117,Iberoamericana,D. Heredia,,,normal,RSSSF
 2002-0119,The Strongest,Alex,,,normal,RSSSF
 2002-0120,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
 2002-0120,Jorge Wilstermann,C. Cardenas,,,normal,RSSSF
@@ -1845,12 +2913,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0120,Jorge Wilstermann,J. Guzman,,,normal,RSSSF
 2002-0120,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0120,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2002-0121,The Strongest,Alex,,,normal,RSSSF
+2002-0121,The Strongest,Alex,,,normal,RSSSF
+2002-0121,The Strongest,M. Carballo,,,normal,RSSSF
 2002-0122,Blooming,R. Ribera,,,normal,RSSSF
 2002-0122,Blooming,A. Gomez,,,normal,RSSSF
 2002-0122,Blooming,M. Ceballos,,,normal,RSSSF
 2002-0122,Blooming,L. Gutierrez,,,normal,RSSSF
 2002-0122,Unión Central,G. Cruz,,,normal,RSSSF
 2002-0123,Guabirá,A. Cuellar,,,normal,RSSSF
+2002-0124,Iberoamericana,D. Heredia,,,normal,RSSSF
+2002-0124,Iberoamericana,R. Galindo,,,normal,RSSSF
+2002-0124,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0125,Real Potosí,W. Zabala,,,normal,RSSSF
 2002-0125,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2002-0125,Real Potosí,S. Lopez,,,normal,RSSSF
@@ -1866,10 +2940,31 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0128,Bolívar,M. Sandy,,,normal,RSSSF
 2002-0128,Bolívar,J. Botero,,,normal,RSSSF
 2002-0128,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0129,Independiente Petrolero,M. Blanco,,,normal,RSSSF
+2002-0129,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0129,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0129,Blooming,C. Jeandet,,,normal,RSSSF
+2002-0129,Blooming,R. Ribera,,,normal,RSSSF
 2002-0130,Guabirá,L. Peredo,,,normal,RSSSF
+2002-0131,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0131,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0131,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0131,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0131,Oriente Petrolero,A. Jara,,,normal,RSSSF
+2002-0131,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2002-0131,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2002-0132,Unión Central,G. Cruz,,,normal,RSSSF
 2002-0133,The Strongest,Alex,,,normal,RSSSF
 2002-0133,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0134,Blooming,E. Monteiro,,,normal,RSSSF
+2002-0134,Blooming,E. Monteiro,,,normal,RSSSF
+2002-0134,Blooming,R. Ribera,,,normal,RSSSF
+2002-0134,Blooming,J. Hurtado,,,normal,RSSSF
+2002-0134,Blooming,R. Gutierrez,,,normal,RSSSF
+2002-0134,Blooming,R. Gutierrez,,,normal,RSSSF
+2002-0134,Blooming,C. Suarez,,,normal,RSSSF
+2002-0134,San José,M. Angulo,,,normal,RSSSF
+2002-0134,San José,M. Rivero,,,normal,RSSSF
 2002-0135,Guabirá,G. Roca,,,normal,RSSSF
 2002-0135,Independiente Petrolero,D. Ruiz,,,normal,RSSSF
 2002-0136,Iberoamericana,R. Galindo,,,normal,RSSSF
@@ -1878,19 +2973,51 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0136,Bolívar,M. Mercado,,,normal,RSSSF
 2002-0137,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2002-0137,Real Potosí,S. Lopez,,,normal,RSSSF
+2002-0139,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0139,Bolívar,I. Castillo,,,normal,RSSSF
+2002-0139,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0139,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0139,Bolívar,R. Verrios,,,normal,RSSSF
+2002-0139,Unión Central,C. Algarañaz,,,normal,RSSSF
 2002-0140,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
 2002-0140,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0141,Mariscal Braun,J. Ortiz,,,normal,RSSSF
+2002-0141,Mariscal Braun,J. Ortiz,,,normal,RSSSF
 2002-0142,Oriente Petrolero,M. Hoyos,,,normal,RSSSF
 2002-0142,Guabirá,A. Cuellar,,,normal,RSSSF
 2002-0143,San José,R. Martinez,,,normal,RSSSF
 2002-0143,San José,R. Cecco,,,normal,RSSSF
 2002-0143,The Strongest,C. Alvarez,,,normal,RSSSF
+2002-0144,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0144,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0144,Jorge Wilstermann,E. Jiguchi,,,normal,RSSSF
+2002-0144,Jorge Wilstermann,M. Aguilera,,,normal,RSSSF
+2002-0144,Jorge Wilstermann,J. Guzman,,,normal,RSSSF
+2002-0144,Jorge Wilstermann,C. Angulo,,,normal,RSSSF
+2002-0144,Blooming,L. Gutierrez,,,normal,RSSSF
 2002-0145,Blooming,L. Alvarez,,,normal,RSSSF
 2002-0145,Blooming,C. Suarez,,,normal,RSSSF
 2002-0145,Blooming,E. Monteiro,,,normal,RSSSF
 2002-0145,Independiente Petrolero,D. Ruiz,,,normal,RSSSF
+2002-0146,Guabirá,A. Cuellar,,,normal,RSSSF
+2002-0146,Guabirá,O. Ozzan,,,normal,RSSSF
+2002-0146,Bolívar,J. Botero,,,normal,RSSSF
+2002-0146,Bolívar,J. Botero,,,normal,RSSSF
 2002-0147,Mariscal Braun,Flavio Roque,,,normal,RSSSF
 2002-0147,San José,R. Martinez,,,normal,RSSSF
+2002-0148,The Strongest,L. Torrez,,,normal,RSSSF
+2002-0148,The Strongest,Alex,,,normal,RSSSF
+2002-0148,Jorge Wilstermann,A. Andaveris,,,normal,RSSSF
+2002-0148,Jorge Wilstermann,A. Andaveris,,,normal,RSSSF
+2002-0149,Unión Central,M. Ramos,,,normal,RSSSF
+2002-0149,Unión Central,M. Ramos,,,normal,RSSSF
+2002-0149,Unión Central,C. Algarañaz,,,normal,RSSSF
+2002-0150,Real Potosí,D. Peña,,,normal,RSSSF
+2002-0150,Real Potosí,D. Peña,,,normal,RSSSF
+2002-0150,Real Potosí,D. Callau,,,normal,RSSSF
+2002-0150,Oriente Petrolero,C. Alfaro,,,normal,RSSSF
+2002-0150,Oriente Petrolero,F. Jimenez,,,normal,RSSSF
+2002-0150,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2002-0151,Bolívar,G. Galindo,,,normal,RSSSF
 2002-0151,Bolívar,M. Mercado,,,normal,RSSSF
 2002-0151,Real Potosí,C. Reynaldo,,,normal,RSSSF
@@ -1904,14 +3031,30 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0154,Blooming,R. Gutierrez,,,normal,RSSSF
 2002-0154,Blooming,C. Suarez,,,normal,RSSSF
 2002-0154,Blooming,A. Niño de Guzman,,,normal,RSSSF
+2002-0155,Jorge Wilstermann,J. Guzman,,,normal,RSSSF
+2002-0155,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0155,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
+2002-0155,Jorge Wilstermann,C. Angulo,,,normal,RSSSF
+2002-0155,San José,M. Angulo,,,normal,RSSSF
+2002-0155,San José,M. Ardaya,,,normal,RSSSF
 2002-0156,Unión Central,H. Sanchez,,,normal,RSSSF
 2002-0156,Unión Central,M. Ramos,,,normal,RSSSF
 2002-0156,Mariscal Braun,J. Ortiz,,,normal,RSSSF
 2002-0157,Blooming,L. Gutierrez,,,normal,RSSSF
 2002-0157,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0158,Guabirá,R. Aguilera,,,normal,RSSSF
+2002-0158,Guabirá,R. Aguilera,,,normal,RSSSF
+2002-0158,Unión Central,R. Santana,,,normal,RSSSF
 2002-0159,Mariscal Braun,J. Ortiz,,,normal,RSSSF
 2002-0159,Jorge Wilstermann,M. Aguilera,,,normal,RSSSF
 2002-0160,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0161,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0161,The Strongest,L. Mendez,,,normal,RSSSF
+2002-0161,The Strongest,L. Mendez,,,normal,RSSSF
+2002-0161,The Strongest,G. Diaz,,,normal,RSSSF
+2002-0161,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0161,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0161,Oriente Petrolero,R. Suarez,,,normal,RSSSF
 2002-0162,San José,R. Cecco,,,normal,RSSSF
 2002-0162,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
 2002-0163,Guabirá,O. Ozzan,,,normal,RSSSF
@@ -1928,6 +3071,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0168,Iberoamericana,D. Heredia,,,normal,RSSSF
 2002-0168,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0168,Blooming,D. Cabrera,,,normal,RSSSF
+2002-0169,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0169,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0169,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0169,Iberoamericana,L. Reyes,,,normal,RSSSF
+2002-0170,Blooming,D. Cabrera,,,normal,RSSSF
+2002-0170,Blooming,D. Cabrera,,,normal,RSSSF
+2002-0170,Blooming,J. Cortez,,,normal,RSSSF
+2002-0170,Blooming,J. Cortez,,,normal,RSSSF
+2002-0170,Unión Central,F. Calustro,,,normal,RSSSF
 2002-0171,Mariscal Braun,J. Cardozo,,,normal,RSSSF
 2002-0171,Mariscal Braun,C. Aguilera,,,normal,RSSSF
 2002-0173,Bolívar,J. Botero,,,normal,RSSSF
@@ -1942,12 +3094,31 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0176,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0176,San José,D. Bengolea,,,normal,RSSSF
 2002-0176,San José,R. Cecco,,,normal,RSSSF
+2002-0177,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0177,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0177,Real Potosí,G. Paz,,,normal,RSSSF
+2002-0177,Real Potosí,S. Lopez,,,normal,RSSSF
+2002-0177,Mariscal Braun,Edson Santos,,,normal,RSSSF
 2002-0179,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0181,Bolívar,M. Sany,,,normal,RSSSF
+2002-0181,Bolívar,R. Tufino,,,normal,RSSSF
+2002-0181,Bolívar,J. Botero,,,normal,RSSSF
+2002-0181,Bolívar,J. Botero,,,normal,RSSSF
+2002-0181,Bolívar,J. Botero,,,normal,RSSSF
+2002-0181,Bolívar,L. Ribeiro,,,normal,RSSSF
+2002-0181,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0181,Jorge Wilstermann,J. Loayza,,,normal,RSSSF
 2002-0182,Blooming,D. Cabrera,,,normal,RSSSF
 2002-0182,Blooming,L. Gutierrez,,,normal,RSSSF
 2002-0182,Blooming,J. Cortez,,,normal,RSSSF
 2002-0182,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2002-0183,Bolívar,J. Botero,,,normal,RSSSF
+2002-0184,Mariscal Braun,J. Ortiz,,,normal,RSSSF
+2002-0184,Mariscal Braun,J. Ortiz,,,normal,RSSSF
+2002-0184,Oriente Petrolero,R. Torrez,,,normal,RSSSF
+2002-0184,Oriente Petrolero,M. Abrigo,,,normal,RSSSF
+2002-0184,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0184,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0185,San José,R. Calustro,,,normal,RSSSF
 2002-0185,San José,A. Lozano,,,normal,RSSSF
 2002-0185,Unión Central,H. Sanchez,,,normal,RSSSF
@@ -1958,15 +3129,47 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0187,Jorge Wilstermann,B. Aguirre,,,normal,RSSSF
 2002-0187,Jorge Wilstermann,P. Caballero,,,normal,RSSSF
 2002-0187,Jorge Wilstermann,L. Reyes,,,normal,RSSSF
+2002-0188,Blooming,M. Ceballos,,,normal,RSSSF
+2002-0188,Blooming,M. Ceballos,,,normal,RSSSF
+2002-0188,Blooming,R. Gutierrez,,,normal,RSSSF
+2002-0188,Mariscal Braun,Clemilson,,,normal,RSSSF
 2002-0189,Guabirá,A. Peralta,,,normal,RSSSF
 2002-0189,Guabirá,J. Aguilera,,,normal,RSSSF
 2002-0189,San José,D. Bengolea,,,normal,RSSSF
+2002-0190,Real Potosí,C. Reynaldo,,,normal,RSSSF
+2002-0190,Real Potosí,S. Lopez,,,normal,RSSSF
+2002-0190,Real Potosí,S. Lopez,,,normal,RSSSF
+2002-0190,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0190,The Strongest,Alex,,,normal,RSSSF
 2002-0191,Unión Central,M. Ramos,,,normal,RSSSF
 2002-0191,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
 2002-0191,Jorge Wilstermann,P. Caballero,,,normal,RSSSF
 2002-0191,Jorge Wilstermann,M. Aguilera,,,normal,RSSSF
 2002-0192,Iberoamericana,M. Pinilla,,,normal,RSSSF
 2002-0192,Iberoamericana,R. Galindo,,,normal,RSSSF
+2002-0193,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0193,Bolívar,D. Pachi,,,normal,RSSSF
+2002-0193,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0193,Bolívar,J. Botero,,,normal,RSSSF
+2002-0193,Bolívar,J. Botero,,,normal,RSSSF
+2002-0194,Bolívar,P. Colque,,,normal,RSSSF
+2002-0194,Bolívar,J. Botero,,,normal,RSSSF
+2002-0194,Bolívar,J. Botero,,,normal,RSSSF
+2002-0194,Bolívar,J. Botero,,,normal,RSSSF
+2002-0194,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0195,Independiente Petrolero,J. Grass,,,normal,RSSSF
+2002-0195,Independiente Petrolero,J. Rios,,,normal,RSSSF
+2002-0195,Independiente Petrolero,J. Rios,,,normal,RSSSF
+2002-0195,Unión Central,M. Ramos,,,normal,RSSSF
+2002-0195,Unión Central,M. Ramos,,,normal,RSSSF
+2002-0195,Unión Central,A. Cucaro,,,normal,RSSSF
+2002-0196,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0196,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0196,Oriente Petrolero,R. Arana,,,normal,RSSSF
+2002-0196,Oriente Petrolero,C. Alfaro,,,normal,RSSSF
+2002-0196,Oriente Petrolero,C. Alfaro,,,normal,RSSSF
+2002-0196,Oriente Petrolero,L. Paz,,,normal,RSSSF
+2002-0196,Iberoamericana,M. Pinilla,,,normal,RSSSF
 2002-0197,San José,J. Mercado,,,normal,RSSSF
 2002-0197,San José,M. Lillo,,,normal,RSSSF
 2002-0197,Real Potosí,D. Peña,,,normal,RSSSF
@@ -1978,12 +3181,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0199,Jorge Wilstermann,L. Luppino,,,normal,RSSSF
 2002-0199,Jorge Wilstermann,P. Caballero,,,normal,RSSSF
 2002-0199,Guabirá,G. Roca,,,normal,RSSSF
+2002-0200,Bolívar,J. Botero,,,normal,RSSSF
+2002-0200,Bolívar,G. Galindo,,,normal,RSSSF
+2002-0200,Bolívar,L. Ribeiro,,,normal,RSSSF
+2002-0200,Bolívar,L. Ribeiro,,,normal,RSSSF
+2002-0200,Bolívar,R. Tufiño,,,normal,RSSSF
+2002-0200,Iberoamericana,L. Reyes,,,normal,RSSSF
 2002-0201,Independiente Petrolero,P. Gemio,,,normal,RSSSF
 2002-0201,Independiente Petrolero,F. Yarari,,,normal,RSSSF
 2002-0202,Mariscal Braun,C. Schwarz,,,normal,RSSSF
 2002-0202,The Strongest,R. Arteaga,,,normal,RSSSF
 2002-0202,The Strongest,H. Soliz,,,normal,RSSSF
 2002-0202,The Strongest,Alex,,,normal,RSSSF
+2002-0203,Oriente Petrolero,C. Alfaro,,,normal,RSSSF
+2002-0203,Oriente Petrolero,C. Alfaro,,,normal,RSSSF
+2002-0203,Oriente Petrolero,J. Castillo,,,normal,RSSSF
 2002-0204,San José,M. Lillo,,,normal,RSSSF
 2002-0204,San José,M. Angulo,,,normal,RSSSF
 2002-0204,San José,H. Ruiz,,,normal,RSSSF
@@ -1993,6 +3205,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0205,Jorge Wilstermann,J. Guzman,,,normal,RSSSF
 2002-0205,Real Potosí,D. Peña,,,normal,RSSSF
 2002-0205,Real Potosí,D. Callau,,,normal,RSSSF
+2002-0206,Guabirá,A. Peralta,,,normal,RSSSF
+2002-0206,Oriente Petrolero,M. Abrigo,,,normal,RSSSF
+2002-0206,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0206,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0206,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0206,Oriente Petrolero,M. Hoyos,,,normal,RSSSF
+2002-0206,Oriente Petrolero,M. Hoyos,,,normal,RSSSF
+2002-0206,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2002-0207,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0207,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0207,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0207,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0207,The Strongest,R. Gutierrez,,,normal,RSSSF
+2002-0207,San José,D. Sanchez,,,normal,RSSSF
+2002-0207,San José,R. Calustro,,,normal,RSSSF
 2002-0208,Blooming,P. Gil,,,normal,RSSSF
 2002-0209,Iberoamericana,M. Pinilla,,,normal,RSSSF
 2002-0209,Iberoamericana,R. Galindo,,,normal,RSSSF
@@ -2002,11 +3229,23 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0210,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
 2002-0210,Independiente Petrolero,J. Fernandez,,,normal,RSSSF
 2002-0211,Unión Central,M. Gianico,,,normal,RSSSF
+2002-0212,Bolívar,J. Botero,,,normal,RSSSF
+2002-0212,Bolívar,J. Botero,,,normal,RSSSF
+2002-0212,Bolívar,J. Botero,,,normal,RSSSF
+2002-0212,Bolívar,J. Botero,,,normal,RSSSF
+2002-0212,Bolívar,M. Mercado,,,normal,RSSSF
 2002-0213,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0213,Iberoamericana,F. Garzon,,,normal,RSSSF
 2002-0213,Unión Central,H. Sanchez,,,normal,RSSSF
 2002-0214,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
 2002-0214,Blooming,L. Alvarez,,,normal,RSSSF
+2002-0215,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2002-0215,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0215,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0215,Oriente Petrolero,M. Hoyos,,,normal,RSSSF
+2002-0215,Oriente Petrolero,C. Alfaro,,,normal,RSSSF
+2002-0215,Oriente Petrolero,L. Paz,,,normal,RSSSF
+2002-0215,Real Potosí,C. Reynaldo,,,normal,RSSSF
 2002-0216,San José,J. Mercado,,,normal,RSSSF
 2002-0217,Jorge Wilstermann,J. Guzman,,,normal,RSSSF
 2002-0217,The Strongest,Alex,,,normal,RSSSF
@@ -2024,6 +3263,24 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0221,Bolívar,P. Colque,,,normal,RSSSF
 2002-0222,San José,R. Calustro,,,normal,RSSSF
 2002-0222,San José,M. Lillo,,,normal,RSSSF
+2002-0223,The Strongest,L. Mendez,,,normal,RSSSF
+2002-0223,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0223,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0223,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
+2002-0224,Bolívar,P. Colque,,,normal,RSSSF
+2002-0224,Bolívar,P. Colque,,,normal,RSSSF
+2002-0224,Bolívar,P. Colque,,,normal,RSSSF
+2002-0224,Bolívar,D. Pachi,,,normal,RSSSF
+2002-0224,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0224,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0224,Bolívar,J. Botero,,,normal,RSSSF
+2002-0224,Bolívar,J. Botero,,,normal,RSSSF
+2002-0224,Bolívar,J. Botero,,,normal,RSSSF
+2002-0224,Bolívar,J. Botero,,,normal,RSSSF
+2002-0224,Blooming,C. Suarez,,,normal,RSSSF
+2002-0225,Iberoamericana,M. Pinilla,,,normal,RSSSF
+2002-0225,Iberoamericana,M. Pinilla,,,normal,RSSSF
+2002-0225,Real Potosí,S. Lopez,,,normal,RSSSF
 2002-0226,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
 2002-0226,Independiente Petrolero,J. Guzman,,,normal,RSSSF
 2002-0226,Independiente Petrolero,A. Murillo,,,normal,RSSSF
@@ -2037,8 +3294,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0229,Mariscal Braun,J. Ortiz,,,normal,RSSSF
 2002-0230,Iberoamericana,F. Garzon,,,normal,RSSSF
 2002-0230,Iberoamericana,D. Surubi,,,normal,RSSSF
+2002-0231,Real Potosí,D. Pena,,,normal,RSSSF
+2002-0231,Real Potosí,D. Pena,,,normal,RSSSF
+2002-0231,Real Potosí,R. Cueto,,,normal,RSSSF
+2002-0231,Real Potosí,G. Ayala,,,normal,RSSSF
+2002-0231,Unión Central,M. Ramos,,,normal,RSSSF
+2002-0231,Unión Central,R. Santana,,,normal,RSSSF
 2002-0232,San José,R. Calustro,,,normal,RSSSF
 2002-0232,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0233,Jorge Wilstermann,B. Aguirre,,,normal,RSSSF
+2002-0233,Jorge Wilstermann,B. Aguirre,,,normal,RSSSF
+2002-0233,Independiente Petrolero,D. Ruiz,,,normal,RSSSF
 2002-0234,Mariscal Braun,Flavio Roque,,,normal,RSSSF
 2002-0234,Mariscal Braun,Clemilson,,,normal,RSSSF
 2002-0236,Iberoamericana,M. Pinilla,,,normal,RSSSF
@@ -2046,19 +3312,79 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0236,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0236,The Strongest,L. Mendez,,,normal,RSSSF
 2002-0236,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0237,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0237,Bolívar,P. Guiberguis,,,normal,RSSSF
+2002-0237,Bolívar,R. Tufino,,,normal,RSSSF
+2002-0237,Bolívar,M. Sandy,,,normal,RSSSF
+2002-0237,Bolívar,J. Botero,,,normal,RSSSF
+2002-0237,San José,R. Calustro,,,normal,RSSSF
 2002-0238,Guabirá,R. Aguilera,,,normal,RSSSF
 2002-0238,Guabirá,R. Cruz,,,normal,RSSSF
 2002-0239,Independiente Petrolero,A. Mangiantini,,,normal,RSSSF
 2002-0239,Mariscal Braun,J. Ortiz,,,normal,RSSSF
+2002-0240,Oriente Petrolero,M. Abrigo,,,normal,RSSSF
+2002-0240,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0240,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0240,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0241,Unión Central,R. Santana,,,normal,RSSSF
+2002-0241,Unión Central,M. Gianico,,,normal,RSSSF
+2002-0241,Unión Central,M. Gianico,,,normal,RSSSF
 2002-0242,Mariscal Braun,C. Schwarz,,,normal,RSSSF
 2002-0242,Real Potosí,G. Paz,,,normal,RSSSF
 2002-0242,Real Potosí,G. Ayala,,,normal,RSSSF
+2002-0243,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0243,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0243,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0243,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0243,The Strongest,S. Coelho,,,normal,RSSSF
+2002-0243,The Strongest,H. Mbiakop,,,normal,RSSSF
+2002-0243,The Strongest,D. Gigena,,,normal,RSSSF
+2002-0244,Blooming,M. Siles,,,normal,RSSSF
+2002-0244,Blooming,J. Monasterio,,,normal,RSSSF
+2002-0244,Blooming,J. Monasterio,,,normal,RSSSF
+2002-0244,Guabirá,R. Aguilera,,,normal,RSSSF
 2002-0246,Bolívar,I. Castillo,,,normal,RSSSF
 2002-0247,Independiente Petrolero,J. Rios,,,normal,RSSSF
+2002-0248,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0248,Bolívar,M. Mercado,,,normal,RSSSF
+2002-0248,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
+2002-0248,Independiente Petrolero,H. Ruiz,,,normal,RSSSF
 2002-0249,The Strongest,D. Gigena,,,normal,RSSSF
 2002-0250,Iberoamericana,J. Pena Carabali,,,normal,RSSSF
 2002-0250,Jorge Wilstermann,J. Guzman,,,normal,RSSSF
+2002-0251,Oriente Petrolero,L. Paz,,,normal,RSSSF
+2002-0251,Oriente Petrolero,L. Paz,,,normal,RSSSF
+2002-0251,Oriente Petrolero,R. Torrez,,,normal,RSSSF
+2002-0251,Oriente Petrolero,R. Suarez,,,normal,RSSSF
+2002-0251,Mariscal Braun,J. Ortiz,,,normal,RSSSF
+2002-0252,Real Potosí,G. Ayala,,,normal,RSSSF
+2002-0252,Real Potosí,S. Lopez,,,normal,RSSSF
+2002-0252,Real Potosí,R. Cueto,,,normal,RSSSF
+2002-0252,Real Potosí,R. Cueto,,,normal,RSSSF
+2002-0252,Real Potosí,W. Zabala,,,normal,RSSSF
+2002-0252,Real Potosí,G. Paz,,,normal,RSSSF
+2002-0252,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0252,Real Potosí,R. Correa,,,normal,RSSSF
+2002-0254,Iberoamericana,P. Serrano,,,normal,RSSSF
+2002-0254,Iberoamericana,P. Serrano,,,normal,RSSSF
+2002-0254,Iberoamericana,F. Garzon,,,normal,RSSSF
+2002-0254,Iberoamericana,C. Mercado,,,normal,RSSSF
+2002-0254,Iberoamericana,D. Zamorano,,,normal,RSSSF
+2002-0255,Oriente Petrolero,A. Ibanez,,,normal,RSSSF
+2002-0255,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0255,Oriente Petrolero,J. Castillo,,,normal,RSSSF
+2002-0256,San José,A. Lozano,,,normal,RSSSF
+2002-0256,San José,A. Lozano,,,normal,RSSSF
+2002-0256,San José,A. Lozano,,,normal,RSSSF
+2002-0256,Guabirá,R. Aguilera,,,normal,RSSSF
+2002-0256,Guabirá,R. Aguilera,,,normal,RSSSF
 2002-0257,The Strongest,S. Castillo,,,normal,RSSSF
+2002-0260,Blooming,J. Hurtado,,,normal,RSSSF
+2002-0260,Blooming,J. Hurtado,,,normal,RSSSF
+2002-0261,Bolívar,M. Sandy,,,normal,RSSSF
+2002-0261,Bolívar,J. Botero,,,normal,RSSSF
+2002-0261,Bolívar,J. Botero,,,normal,RSSSF
+2002-0261,Bolívar,M. Mercado,,,normal,RSSSF
 2002-0262,Guabirá,E. Meneces,,,normal,RSSSF
 2002-0262,Guabirá,O. Arauz,,,normal,RSSSF
 2002-0262,Jorge Wilstermann,R. Gallegos,,,normal,RSSSF
@@ -2068,6 +3394,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-0263,Iberoamericana,R. Galindo,,,normal,RSSSF
 2002-0263,Iberoamericana,L. Reyes,,,normal,RSSSF
 2002-0263,Oriente Petrolero,W. Banegas,,,normal,RSSSF
+2002-0264,Real Potosí,D. Peña,,,normal,RSSSF
+2002-0264,Real Potosí,M. Loayza,,,normal,RSSSF
+2002-0264,Real Potosí,M. Loayza,,,normal,RSSSF
+2002-0264,San José,D. Sanchez,,,normal,RSSSF
+2002-0264,San José,J. Bruno,,,normal,RSSSF
 2002-0265,Unión Central,M. Gianicco,,,normal,RSSSF
 2002-0265,Unión Central,M. Ramos,,,normal,RSSSF
 2002-0265,Unión Central,B. Rea,,,normal,RSSSF
@@ -2680,6 +4011,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-clausura-0061,Bolívar,Limberg Gutierrez,8,,normal,RSSSF
 2003-clausura-0061,Bolívar,Miguel Angel Mercado,51,,normal,RSSSF
 2003-clausura-0061,Aurora,Carlos Sebastian Clotet,10,,normal,RSSSF
+2003-clausura-0062,Iberoamericana,Marco David Paz,25,,normal,RSSSF
+2003-clausura-0062,Iberoamericana,Mauricio Saucedo,30,,normal,RSSSF
+2003-clausura-0062,Iberoamericana,Jose Mauricio Pinilla,39,,normal,RSSSF
 2003-clausura-0064,Blooming,Christian Jesus Reynaldo,65,,normal,RSSSF
 2003-clausura-0065,Unión Central,Aldo Henry Gutierrez,63,,normal,RSSSF
 2003-clausura-0065,Unión Central,Dimas Martin Flores,85,,normal,RSSSF
@@ -10265,6 +11599,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-14-clausura-0098,Universitario de Sucre,Jorge Ignacio Cuellar,6,,normal,RSSSF
 2013-14-clausura-0098,Universitario de Sucre,Gustavo Pinedo,61,,normal,RSSSF
 2013-14-clausura-0098,Universitario de Sucre,Alejandro Rene Bejarano,83,,normal,RSSSF
+2013-14-clausura-0099,Aurora,Santos Amador,1,,normal,RSSSF
+2013-14-clausura-0099,Aurora,Oscar Alberto Diaz,7,,normal,RSSSF
+2013-14-clausura-0099,Real Potosí,Rosauro Rivero,72,,normal,RSSSF
 2013-14-clausura-0100,Bolívar,Jaime Dario Arraiscaita,20,,normal,RSSSF
 2013-14-clausura-0100,Bolívar,Damian Emmanuel Lizio,29,,normal,RSSSF
 2013-14-clausura-0100,Bolívar,Damian Emmanuel Lizio,48,,normal,RSSSF
@@ -10332,6 +11669,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-14-clausura-0119,Real Potosí,Alejandro Leonel Morales,38,,normal,RSSSF
 2013-14-clausura-0119,Real Potosí,Maximiliano Gabriel Andrada,64,,normal,RSSSF
 2013-14-clausura-0119,Real Potosí,Christian Omar Diaz,88,,normal,RSSSF
+2013-14-clausura-0120,Bolívar,Jaime Dario Arrascaita,2,,normal,RSSSF
+2013-14-clausura-0120,Bolívar,William Ferreira,19,,penalti,RSSSF
+2013-14-clausura-0120,Bolívar,William Ferreira,33,,normal,RSSSF
+2013-14-clausura-0120,Bolívar,William Ferreira,37,,normal,RSSSF
+2013-14-clausura-0120,Bolívar,Juan Miguel Callejon,70,,normal,RSSSF
 2013-14-clausura-0121,Guabirá,Diego Aroldo Cabrera,25,,normal,RSSSF
 2013-14-clausura-0121,Guabirá,Jose Alfredo Castillo,30,,normal,RSSSF
 2013-14-clausura-0121,Bolívar,William Ferreira,53,,normal,RSSSF
@@ -11123,7 +12465,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-16-apertura-0013,The Strongest,Jair Torrico,14,,normal,RSSSF
 2015-16-apertura-0013,The Strongest,Carlos Ariel Neumann,51,,normal,RSSSF
 2015-16-apertura-0013,The Strongest,Rodrigo Luis Ramallo,78,,normal,RSSSF
-2015-16-apertura-0013,Petrolero de Yacuiba,Victor Alfonso Guaza 88,,,normal,RSSSF
+2015-16-apertura-0013,Petrolero de Yacuiba,Victor Alfonso Guaza,88,,normal,RSSSF
 2015-16-apertura-0014,Universitario de Sucre,Martin Adrian Palavicini,42,,normal,RSSSF
 2015-16-apertura-0014,Universitario de Sucre,Martin Adrian Palavicini,50,,normal,RSSSF
 2015-16-apertura-0014,Bolívar,Damian Emmanuel Lizio,7,,normal,RSSSF
@@ -11275,7 +12617,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-16-apertura-0055,Nacional Potosí,Tommy Tobar,25,,normal,RSSSF
 2015-16-apertura-0055,Nacional Potosí,Christian Ernesto Alessandrini,50,,normal,RSSSF
 2015-16-apertura-0056,Sport Boys Warnes,Marcos Emanuel Ovejero,48,,normal,RSSSF
-2015-16-apertura-0056,Blooming,Hugo Christophe Bargas 94pen,,,normal,RSSSF
+2015-16-apertura-0056,Blooming,Hugo Christophe Bargas,94,,penalti,RSSSF
 2015-16-apertura-0057,San José,Nelson Sossa,69,,normal,RSSSF
 2015-16-apertura-0057,Bolívar,Rudy Alejandro Cardozo,6,,normal,RSSSF
 2015-16-apertura-0057,Bolívar,William Ferreira,39,,normal,RSSSF
@@ -11858,6 +13200,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-16-clausura-0120,Oriente Petrolero,Alcides Peña,18,,normal,RSSSF
 2015-16-clausura-0121,Bolívar,Ronald Eguino,83,,normal,RSSSF
 2015-16-clausura-0121,Universitario de Sucre,Leonardo Ezequiel Carboni,67,,normal,RSSSF
+2015-16-clausura-0123,Oriente Petrolero,ose Alfredo Castillo,26,,normal,RSSSF
+2015-16-clausura-0123,Oriente Petrolero,ose Alfredo Castillo,60,,normal,RSSSF
+2015-16-clausura-0123,Oriente Petrolero,Carlos Enrique Añez,40,,normal,RSSSF
 2015-16-clausura-0125,Sport Boys Warnes,Helmut Enrique Gutierrez,80,,penalti,RSSSF
 2015-16-clausura-0125,Blooming,Pablo Antonio Salinas,65,,normal,RSSSF
 2015-16-clausura-0126,Real Potosí,Gilbert Alvarez,2,,normal,RSSSF
@@ -12027,6 +13372,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-17-apertura-0051,San José,Victoriano Jose Fragola,55,,normal,RSSSF
 2016-17-apertura-0051,Sport Boys Warnes,Juan Leandro Vogliotti,27,,penalti,RSSSF
 2016-17-apertura-0051,Sport Boys Warnes,Jhasmani Campos,90,,penalti,RSSSF
+2016-17-apertura-0052,Bolívar,Juan Carlos Arce,37,,normal,RSSSF
+2016-17-apertura-0052,Bolívar,Juan Carlos Arce,84,,normal,RSSSF
+2016-17-apertura-0052,Jorge Wilstermann,Antonio Thomaz Santos,28,,penalti,RSSSF
 2016-17-apertura-0054,Oriente Petrolero,Gerardo Maximiliano Freitas,10,,normal,RSSSF
 2016-17-apertura-0054,Universitario de Sucre,Mauricio Alejandro Gomez,90,,normal,RSSSF
 2016-17-apertura-0055,San José,Luis Alberto Ali,10,,normal,RSSSF
@@ -12629,6 +13977,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-17-adecuacion-0111,Oriente Petrolero,Gerardo Maximiliano Freitas,79,,normal,RSSSF
 2016-17-adecuacion-0111,Oriente Petrolero,Moises Villarroel,94,,normal,RSSSF
 2016-17-adecuacion-0111,San José,Leandro Nicolas Alonso,67,,normal,RSSSF
+2016-17-adecuacion-0112,Guabirá,Juan Carlos Montenegro,8,,normal,RSSSF
+2016-17-adecuacion-0112,Guabirá,Juan Carlos Montenegro,17,,normal,RSSSF
+2016-17-adecuacion-0112,Guabirá,Jefferson Ibañez,87,,normal,RSSSF
+2016-17-adecuacion-0112,Sport Boys Warnes,Jose Luis Sanchez Capdevila,71,,normal,RSSSF
 2016-17-adecuacion-0113,Nacional Potosí,Christian Ernesto Alessandrini,18,,normal,RSSSF
 2016-17-adecuacion-0113,Nacional Potosí,Miguel Angel Hoyos,27,,normal,RSSSF
 2016-17-adecuacion-0113,Nacional Potosí,Aldo Ruben Paniagua,73,,normal,RSSSF
@@ -13711,7 +15063,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-clausura-0113,Royal Pari,Mariano Sebastian Brau,21,,normal,RSSSF
 2018-clausura-0113,Royal Pari,Saulo Henry Guerra,35,,normal,RSSSF
 2018-clausura-0113,Royal Pari,Bryan Eguez,84,,normal,RSSSF
-2018-clausura-0113,Sport Boys Warnes,Martin Sebastian Prost 12,,,normal,RSSSF
+2018-clausura-0113,Sport Boys Warnes,Martin Sebastian Prost,12,,normal,RSSSF
 2018-clausura-0114,Aurora,Mario Leonardo Parrado,45,1,normal,RSSSF
 2018-clausura-0114,San José,Rodrigo Luis Ramallo,83,,normal,RSSSF
 2018-clausura-0114,San José,Jair Alexander Reinoso,86,,normal,RSSSF
@@ -14289,6 +15641,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2019-apertura-0105,The Strongest,Danny Jose Cure,88,,normal,RSSSF
 2019-apertura-0105,Royal Pari,Layonel Figueroa,15,,normal,RSSSF
 2019-apertura-0105,Royal Pari,Matheo Henrique Zoch,86,,normal,RSSSF
+2019-apertura-0106,Always Ready,William Ferreira,22,,normal,RSSSF
+2019-apertura-0106,Always Ready,Marcos Emanuel Ovejero,47,,normal,RSSSF
 2019-apertura-0107,Aurora,William Gustavo Alvarez,32,,normal,RSSSF
 2019-apertura-0107,Jorge Wilstermann,Ricardo Pedriel,61,,normal,RSSSF
 2019-apertura-0107,Jorge Wilstermann,Jose Ariel Nuñez,80,,normal,RSSSF
@@ -15005,6 +16359,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2019-clausura-0141,Always Ready,Carmelo Algarañaz,39,,normal,RSSSF
 2019-clausura-0141,Always Ready,Carmelo Algarañaz,53,,normal,RSSSF
 2019-clausura-0141,Always Ready,Marcos Emanuel Ovejero,49,,normal,RSSSF
+2019-clausura-0142,Blooming,Christian Paul Arano,2,,penalti,RSSSF
+2019-clausura-0142,Blooming,Christian Paul Arano,74,,normal,RSSSF
 2019-clausura-0143,San José,Edemir Rodriguez,10,,normal,RSSSF
 2019-clausura-0143,San José,Iker Hernandez,89,,normal,RSSSF
 2019-clausura-0143,Bolívar,Juan Carlos Arce,41,,normal,RSSSF
@@ -15132,6 +16488,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2020-0002,Aurora,Miguel Angel Rios,58,,penalti,RSSSF
 2020-0002,Aurora,Daniel Nicoll Taboada,82,,normal,RSSSF
 2020-0002,Aurora,Enrique David Diaz,87,,normal,RSSSF
+2020-0003,Guabirá,Juan Leandro Vogliotti,5,,penalti,RSSSF
+2020-0003,Guabirá,Bruno Pascua,90,,normal,RSSSF
+2020-0003,Always Ready,Samuel Galindo,59,,penalti,RSSSF
 2020-0004,Bolívar,Marcos Daniel Riquelme,4,,normal,RSSSF
 2020-0004,Bolívar,Marcos Daniel Riquelme,63,,normal,RSSSF
 2020-0004,Bolívar,Juan Carlos Arce,11,,penalti,RSSSF
@@ -15189,6 +16548,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2020-0022,The Strongest,Jair Alexander Reinoso,83,,normal,RSSSF
 2020-0024,Royal Pari,Carlos Enrique Saucedo,8,,penalti,RSSSF
 2020-0024,Royal Pari,Iker Hernandez,3,,normal,RSSSF
+2020-0025,Jorge Wilstermann,Christian Manuel Chavez,4,,normal,RSSSF
+2020-0025,Jorge Wilstermann,Jaime Dario Arrascaita,36,,normal,RSSSF
+2020-0025,Jorge Wilstermann,Sergio Henrique Francisco,78,,normal,RSSSF
 2020-0026,Oriente Petrolero,Matheo Henrique Zoch,25,,normal,RSSSF
 2020-0026,Oriente Petrolero,Jose Alfredo Castillo,84,,normal,RSSSF
 2020-0026,Aurora,Daniel Nicoll Taboada,43,,normal,RSSSF
@@ -15350,6 +16712,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2020-0077,San José,Rodrigo Vargas,44,,penalti,RSSSF
 2020-0077,San José,Rodrigo Vargas,55,,normal,RSSSF
 2020-0077,Oriente Petrolero,Oscar Fernando Salinas,12,,normal,RSSSF
+2020-0078,Royal Pari,John Jairo Mosquera,1,,normal,RSSSF
+2020-0078,Royal Pari,John Jairo Mosquera,85,,normal,RSSSF
+2020-0078,Royal Pari,Luciano Nahuel Ursino,56,,normal,RSSSF
+2020-0078,Royal Pari,Bruno Miranda,65,,normal,RSSSF
+2020-0078,Always Ready,Jorge Hugo Rojas,82,,normal,RSSSF
 2020-0079,Palmaflor,Jefferson Tavares,35,,normal,RSSSF
 2020-0080,San José,Rodrigo Vargas,22,,normal,RSSSF
 2020-0081,Aurora,Amilcar Sanchez,11,,normal,ESPN
@@ -16776,6 +18143,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2022-apertura-0140,Bolívar,Bruno Savio,56,,normal,RSSSF
 2022-apertura-0140,Bolívar,Bruno Miranda,68,,normal,RSSSF
 2022-apertura-0140,Bolívar,Bruno Miranda,77,,penalti,RSSSF
+2022-apertura-0141,Bolívar,Bruno Savio,1,,normal,RSSSF
+2022-apertura-0141,Bolívar,Bruno Savio,69,,normal,RSSSF
+2022-apertura-0141,Bolívar,Francisco Da Costa,31,,penalti,RSSSF
 2022-clausura-0001,Real Santa Cruz,Dorny Alexander Romero,12,,normal,RSSSF
 2022-clausura-0001,Real Santa Cruz,Dorny Alexander Romero,15,,normal,RSSSF
 2022-clausura-0001,Real Santa Cruz,Dorny Alexander Romero,72,,penalti,RSSSF
@@ -19418,6 +20788,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2025-0123,Real Tomayapo,Rai Pablo Lima,8,,normal,RSSSF
 2025-0123,Real Tomayapo,Francisco Nicolas Gatti,27,,normal,RSSSF
 2025-0123,Gualberto Villarroel,Dico Andres Roca,71,,normal,RSSSF
+2025-0124,Guabirá,Rafael Allan Mollercke,16,,normal,RSSSF
+2025-0124,Guabirá,Rafael Allan Mollercke,24,,normal,RSSSF
+2025-0124,Guabirá,Gaston Rodriguez,50,,normal,RSSSF
 2025-0125,The Strongest,Pablo Elias Pedraza,6,,normal,RSSSF
 2025-0125,The Strongest,Jaime Dario Arrascaita,68,,normal,RSSSF
 2025-0125,The Strongest,Juan Sinforiano Godoy,72,,normal,RSSSF
@@ -19676,6 +21049,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2025-0200,Guabirá,Santiago Arce,62,,contra,RSSSF
 2025-0200,San Antonio Bulo Bulo,Rodrigo Jose Lopez,52,,normal,RSSSF
 2025-0200,San Antonio Bulo Bulo,Leonardo Justiniano,67,,normal,RSSSF
+2025-0201,Real Oruro,Juan Demian Vila,29,,normal,RSSSF
+2025-0201,Real Oruro,Luis Alfredo Vila,68,,normal,RSSSF
+2025-0201,Real Oruro,Luis Alfredo Vila,87,,normal,RSSSF
+2025-0201,Real Oruro,Adan Alexis Felix Bravo,74,,normal,RSSSF
+2025-0201,Real Oruro,Fernando Emanuel Aguilar,82,,contra,RSSSF
+2025-0201,Real Tomayapo,Danny Marcos Perez,7,,normal,RSSSF
+2025-0201,Real Tomayapo,Jhonny Santiago Cuiza,33,,normal,RSSSF
 2025-0202,Always Ready,Juan Salvador Bartolome Mercado,19,,normal,RSSSF
 2025-0202,Always Ready,Fernando Javier Saucedo,29,,normal,RSSSF
 2025-0202,Always Ready,Moises Paniagua,44,,normal,RSSSF
@@ -19688,6 +21068,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2025-0204,Guabirá,Cristian Nahuel Barco,57,,penalti,RSSSF
 2025-0204,Guabirá,Jose Vitor Trindade,62,,normal,RSSSF
 2025-0204,Gualberto Villarroel,Samuel Galindo,36,,normal,RSSSF
+2025-0205,Nacional Potosí,Willian Gustavo Alvarez,67,,normal,RSSSF
+2025-0205,Nacional Potosí,Alfredo Alejandro Garcia,84,,normal,RSSSF
+2025-0205,Independiente Petrolero,Oscar Demian Villalba,63,,normal,RSSSF
 2025-0206,Oriente Petrolero,Henry Vaca,31,,normal,RSSSF
 2025-0206,Oriente Petrolero,Victor Manuel Cuellar,45,,normal,RSSSF
 2025-0206,Oriente Petrolero,Ricardo Adrian Centurion,87,,penalti,RSSSF

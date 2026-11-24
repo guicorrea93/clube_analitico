@@ -17,9 +17,9 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1891-0016,1891,Fase única,,,1891-08-02,,Belgrano Football Club,Caledonians,0,7,,,,,,,RSSSF,rsssf:arg1891:68,,"(1), Highfield, Belgrano, C"
 1891-0017,1891,Fase única,,,1891-08-02,,Buenos Aires and Rosario Railway,Buenos Aires Football Club,3,5,,,,,,,RSSSF,rsssf:arg1891:69,,"Ferrocarril Buenos Aires a Rosario Field, San Martín, B"
 1891-0018,1891,Fase única,,,1891-08-23,,Buenos Aires and Rosario Railway,Belgrano Football Club,4,4,,,,,,,RSSSF,rsssf:arg1891:71,,"North of the Workshops, Campana, B"
-1891-0019,1891,Fase única,,,1891-08-30,,Saint Andrew's,Caledonians,3,3,,,,,,,RSSSF,rsssf:arg1891:73,"Caldwell (2), Moffatt / White, Sutherland, Riggs","(3), Solá Works Ground, Barracas, C"
+1891-0019,1891,Fase única,,,1891-08-30,,Saint Andrew's,Caledonians,3,3,,,,,,,RSSSF,rsssf:arg1891:73,,"(3), Solá Works Ground, Barracas, C"
 1891-0020,1891,Fase única,,,1891-09-06,,Buenos Aires Football Club,Belgrano Football Club,5,1,,,,,,,RSSSF,rsssf:arg1891:86,,"Old Ground Flores, Caballito, C"
-1891-0021,1891,Desempate do título,,,1891-09-13,,Saint Andrew's,Caledonians,3,1,,,,,,,RSSSF,rsssf:arg1891:109,Moffatt (3) / Wilson,"aet, Old Ground Flores, Caballito, C"
+1891-0021,1891,Desempate do título,,,1891-09-13,,Saint Andrew's,Caledonians,3,1,,,,,,,RSSSF,rsssf:arg1891:109,,"aet, Old Ground Flores, Caballito, C"
 1893-0001,1893,Fase única,,,1893-04-23,,Flores Athletic,Quilmes Club,2,4,,,,,,,RSSSF,rsssf:arg1893:19,,
 1893-0002,1893,Fase única,,,1893-04-23,,Lomas Athletic,Buenos Aires and Rosario Railway,3,0,,,,,,,RSSSF,rsssf:arg1893:20,,
 1893-0003,1893,Fase única,,,1893-04-29,,Alumni,Buenos Aires and Rosario Railway,2,0,,,,,,,RSSSF,rsssf:arg1893:23,,
@@ -119,7 +119,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1896-0019,1896,Fase única,,15,1896-08-15,,Belgrano Athletic,Lomas Academicals,3,0,,,,,,,RSSSF,rsssf:arg1896:84,,
 1896-0020,1896,Fase única,,16,1896-07-05,,Lomas Athletic,Flores Athletic,2,1,,,,,,,RSSSF,rsssf:arg1896:87,,
 1896-0021,1896,Fase única,,16,1896-08-17,,Belgrano Athletic,Lomas Athletic,1,1,,,,,,,RSSSF,rsssf:arg1896:98,,
-1896-0022,1896,Fase única,,16,1896-08-17,,Belgrano Athletic,Lomas Athletic,2,2,,,,,,,RSSSF,rsssf:arg1896:100,"D. Gibson (o.g.), H. Rugeroni /  N.N. (scrum), C. Comber",
+1896-0022,1896,Fase única,,16,1896-08-17,,Belgrano Athletic,Lomas Athletic,2,2,,,,,,,RSSSF,rsssf:arg1896:100,,
 1897-0001,1897,Fase única,,,1897-05-02,,Flores Athletic,Belgrano Athletic,3,4,,,,,,,RSSSF,rsssf:arg1897:29,,
 1897-0002,1897,Fase única,,,1897-05-09,,Banfield,Lomas Athletic,0,6,,,,,,,RSSSF,rsssf:arg1897:32,,
 1897-0003,1897,Fase única,,,1897-05-09,,Belgrano Athletic B,Flores Athletic,0,8,,,,,,,RSSSF,rsssf:arg1897:33,,
@@ -208,7 +208,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1898-0041,1898,Fase única,,,1898-08-21,,Palermo Athletic,Lobos Athletic,1,5,,,,Estádio do Flores Athletic,,,RSSSF,rsssf:arg1898:111,,at Flores Athletic Club
 1898-0042,1898,Fase única,,,1898-08-28,,United Banks,Palermo Athletic,2,0,,,,"Barker Memorial School, lasted 60m",,,RSSSF,rsssf:arg1898:114,,"at Barker Memorial School, lasted 60m"
 1898-0043,1898,Desempate do título,,,1898-08-28,,Lomas Athletic,Lobos Athletic,,,,,n/p,,,,RSSSF,rsssf:arg1898:130,,"jogo anulado; 1-0 annulled, at Barker Memorial School"
-1898-0044,1898,Desempate do título,,,1898-09-11,,Lomas Athletic,Lobos Athletic,2,1,,,,Barker Memorial School,,,RSSSF,rsssf:arg1898:133,J. Anderson (2) / Jordan,at Barker Memorial School
+1898-0044,1898,Desempate do título,,,1898-09-11,,Lomas Athletic,Lobos Athletic,2,1,,,,Barker Memorial School,,,RSSSF,rsssf:arg1898:133,,at Barker Memorial School
 1899-0001,1899,Fase única,,,1899-05-14,,Lobos Athletic,Lomas Athletic,2,0,,,,,,,RSSSF,rsssf:arg1899:23,,
 1899-0002,1899,Fase única,,,1899-05-25,,Lanús Athletic,Belgrano Athletic,0,1,,,,,,,RSSSF,rsssf:arg1899:26,,
 1899-0003,1899,Fase única,,,1899-05-28,,Belgrano Athletic,Lomas Athletic,4,1,,,,,,,RSSSF,rsssf:arg1899:29,,
@@ -364,7 +364,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1905-0037,1905,Fase única,,,1905-09-03,,Reformer,Barracas Athletic,,,,,wo,,,,RSSSF,rsssf:arg1905:95,,W.O.: vitória do Reformer (a tabela conta a vitória sem gols); awarded wp-lp
 1905-0038,1905,Fase única,,,1905-09-08,,Alumni,Lomas Athletic,11,1,,,,Sociedad Sportiva Argentina,,,RSSSF,rsssf:arg1905:98,,at Sociedad Sportiva Argentina
 1905-0039,1905,Fase única,,,1905-09-08,,Quilmes,Estudiantes de Buenos Aires,3,4,,,,,,,RSSSF,rsssf:arg1905:99,,
-1905-0040,1905,Fase única,,,1905-09-17,,Alumni,Estudiantes de Buenos Aires,1,1,,,,Estádio do Estudiantes de Buenos Aires,,,RSSSF,rsssf:arg1905:102,Weiss 40 / González 27,at Atlético Estudiantes
+1905-0040,1905,Fase única,,,1905-09-17,,Alumni,Estudiantes de Buenos Aires,1,1,,,,Estádio do Estudiantes de Buenos Aires,,,RSSSF,rsssf:arg1905:102,,at Atlético Estudiantes
 1905-0041,1905,Fase única,,,1905-09-17,,Belgrano Athletic,Lomas Athletic,2,1,,,,,,,RSSSF,rsssf:arg1905:104,,
 1905-0042,1905,Fase única,,,1905-09-17,,Reformer,Quilmes,,,,,wo,,,,RSSSF,rsssf:arg1905:105,,W.O.: vitória do Reformer (a tabela conta a vitória sem gols); awarded wp-lp
 1905-0043,1905,Fase única,,,1905-09-24,,Alumni,Quilmes,,,,,wo,,,,RSSSF,rsssf:arg1905:121,,W.O.: vitória do Alumni (a tabela conta a vitória sem gols); awarded wp-lp
@@ -917,7 +917,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1912-asociacion-0058,1912 Asociación,Fase única,,16,1912-09-29,,Estudiantes de Buenos Aires,Racing Club,3,2,,,,,,,RSSSF,rsssf:arg12:132,,
 1912-asociacion-0059,1912 Asociación,Fase única,,16,1912-09-29,,San Isidro,Quilmes,1,1,,,,,,,RSSSF,rsssf:arg12:133,,
 1912-asociacion-0060,1912 Asociación,Fase única,,17,1912-10-06,,River Plate,Belgrano Athletic,,,,,wo,,,,RSSSF,rsssf:arg12:136,,W.O.: vitória do River Plate (a tabela conta a vitória sem gols); Belgrano Athletic withdrew
-1912-asociacion-0061,1912 Asociación,Fase única,,18,1912-10-13,,Quilmes,Estudiantes de Buenos Aires,2,1,,,,,,,RSSSF,rsssf:arg12:139,"Gabitas 78, Weiss 83 / Susán 27",
+1912-asociacion-0061,1912 Asociación,Fase única,,18,1912-10-13,,Quilmes,Estudiantes de Buenos Aires,2,1,,,,,,,RSSSF,rsssf:arg12:139,,
 1912-asociacion-0062,1912 Asociación,Fase única,,19,1912-11-03,,Racing Club,Quilmes,,,,,wo,,,,RSSSF,rsssf:arg12:153,,W.O.: vitória do Racing Club (a tabela conta a vitória sem gols); Quilmes withdrew
 1912-asociacion-0063,1912 Asociación,Fase única,,20,1912-11-11,,Estudiantes de Buenos Aires,San Isidro,,,,,n/p,,,,RSSSF,rsssf:arg12:157,,both captains decided not play
 1912-asociacion-0064,1912 Asociación,Fase única,,20,1912-12-13,,Estudiantes de Buenos Aires,San Isidro,,,,,n/p,,,,RSSSF,rsssf:arg12:159,,it was published as not played
@@ -2392,7 +2392,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1919-amateurs-0066,1919 Amateurs,Fase única,,10,1919-12-07,,Gimnasia La Plata,Atlanta,0,3,,,,,,,RSSSF,rsssf:arg19:456,,
 1919-amateurs-0067,1919 Amateurs,Fase única,,10,1919-12-07,,Platense,San Lorenzo,0,2,,,,,,,RSSSF,rsssf:arg19:457,,
 1919-amateurs-0068,1919 Amateurs,Fase única,,10,1919-12-07,,San Isidro,Vélez Sarsfield,0,1,,,,,,,RSSSF,rsssf:arg19:458,,
-1919-amateurs-0069,1919 Amateurs,Fase única,,10,1919-12-14,,Racing Club,Tigre,2,1,,,,,,,RSSSF,rsssf:arg19:460,"Marcovecchio 7, 55 / Dattas 40",
+1919-amateurs-0069,1919 Amateurs,Fase única,,10,1919-12-14,,Racing Club,Tigre,2,1,,,,,,,RSSSF,rsssf:arg19:460,,
 1919-amateurs-0070,1919 Amateurs,Fase única,,10,1919-12-21,,Defensores de Belgrano,Independiente,2,1,,,,,,,RSSSF,rsssf:arg19:463,,
 1919-amateurs-0071,1919 Amateurs,Fase única,,11,1919-11-30,,Atlanta,Racing Club,0,5,,,,,,,RSSSF,rsssf:arg19:479,,"abandoned in 41m, at Ferro Carril Oeste, remaining 49 on Jan 4 but Atlanta not showed up"
 1919-amateurs-0072,1919 Amateurs,Fase única,,11,1919-11-30,,Estudiantes de Buenos Aires,Independiente,3,2,,,,,,,RSSSF,rsssf:arg19:480,,
@@ -8627,7 +8627,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1931-asociacion-0125,1931 Asociación,Fase única,,,1931-12-16,,Sportivo Barracas,Sportivo Palermo,,,,,wo,,,,RSSSF,rsssf:arg31a:333,,W.O.: vitória do Sportivo Palermo (a tabela conta a vitória sem gols); Sportivo Barracas forfeited
 1931-asociacion-0126,1931 Asociación,Fase única,,,1931-12-20,,Estudiantil Porteño,Argentino de Quilmes,,,,,wo,,,,RSSSF,rsssf:arg31a:336,,W.O.: vitória do Estudiantil Porteño (a tabela conta a vitória sem gols); walk over
 1931-asociacion-0127,1931 Asociación,Fase única,,,1931-12-23,,Barracas Central,Sportivo Buenos Aires,1,4,,,,,,,RSSSF,rsssf:arg31a:339,,awarded; jogo repetido (o primeiro foi suspenso)
-1931-asociacion-0128,1931 Asociación,Desempate do título,,,1931-12-27,,Estudiantil Porteño,Almagro,3,1,,,,Estádio do Sportivo Barracas,,,RSSSF,rsssf:arg31a:363,"Francisco Martínez 25, 84, Bissio 70 / Fernández 42",at Sportivo Barracas
+1931-asociacion-0128,1931 Asociación,Desempate do título,,,1931-12-27,,Estudiantil Porteño,Almagro,3,1,,,,Estádio do Sportivo Barracas,,,RSSSF,rsssf:arg31a:363,,at Sportivo Barracas
 1932-liga-0001,1932 Liga,Fase única,,1,1932-03-13,,Argentinos Juniors,Vélez Sarsfield,2,2,,,,,,,RSSSF,rsssf:arg32:38,,
 1932-liga-0002,1932 Liga,Fase única,,1,1932-03-13,,Atlanta,Boca Juniors,2,5,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg32:39,,at San Lorenzo de Almagro
 1932-liga-0003,1932 Liga,Fase única,,1,1932-03-13,,Estudiantes,Gimnasia La Plata,6,1,,,,,,,RSSSF,rsssf:arg32:40,,
@@ -9974,7 +9974,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1934-liga-0260,1934 Liga,Fase única,,37,1934-12-09,,Platense,Estudiantes,2,0,,,,,,,RSSSF,rsssf:arg34:384,,
 1934-liga-0261,1934 Liga,Fase única,,37,1934-12-09,,Racing Club,Boca Juniors,2,1,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg34:385,,at San Lorenzo de Almagro
 1934-liga-0262,1934 Liga,Fase única,,37,1934-12-09,,River Plate,Unión Talleres-Lanús,5,0,,,,,,,RSSSF,rsssf:arg34:386,,
-1934-liga-0263,1934 Liga,Fase única,,38,1934-12-16,,Boca Juniors,Platense,5,1,,,,,,,RSSSF,rsssf:arg34:389,"Cherro 30, Varallo 47, 53, 73, Zatelli 60 / Pérez 66",
+1934-liga-0263,1934 Liga,Fase única,,38,1934-12-16,,Boca Juniors,Platense,5,1,,,,,,,RSSSF,rsssf:arg34:389,,
 1934-liga-0264,1934 Liga,Fase única,,38,1934-12-16,,Chacarita Juniors,Gimnasia La Plata,4,2,,,,,,,RSSSF,rsssf:arg34:391,,
 1934-liga-0265,1934 Liga,Fase única,,38,1934-12-16,,Estudiantes,Huracán,2,0,,,,,,,RSSSF,rsssf:arg34:392,,
 1934-liga-0266,1934 Liga,Fase única,,38,1934-12-16,,Independiente,Unión Talleres-Lanús,2,0,,,,Estádio do River Plate,,,RSSSF,rsssf:arg34:393,,at River Plate
@@ -10683,7 +10683,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1936-copa-de-honor-0134,1936 Copa de Honor,Fase única,,15,1936-07-12,,San Lorenzo,Platense,2,0,,,,,,,RSSSF,rsssf:arg-hon36:203,,
 1936-copa-de-honor-0135,1936 Copa de Honor,Fase única,,15,1936-07-12,,Tigre,Vélez Sarsfield,3,2,,,,Estádio do Platense,,,RSSSF,rsssf:arg-hon36:204,,at Platense
 1936-copa-de-honor-0136,1936 Copa de Honor,Fase única,,16,1936-06-23,,Independiente,Talleres de Remedios de Escalada,,,,,wo,,,,RSSSF,rsssf:arg-hon36:208,,W.O.: vitória do Independiente (a tabela conta a vitória sem gols); awarded on Jun 23
-1936-copa-de-honor-0137,1936 Copa de Honor,Fase única,,16,1936-07-19,,Atlanta,San Lorenzo,2,3,,,,,,,RSSSF,rsssf:arg-hon36:210,"Tornaroli 34, Martino 53 / Naón 11, García 63, Naón 86",
+1936-copa-de-honor-0137,1936 Copa de Honor,Fase única,,16,1936-07-19,,Atlanta,San Lorenzo,2,3,,,,,,,RSSSF,rsssf:arg-hon36:210,,
 1936-copa-de-honor-0138,1936 Copa de Honor,Fase única,,16,1936-07-19,,Boca Juniors,Argentinos Juniors,5,1,,,,,,,RSSSF,rsssf:arg-hon36:212,,
 1936-copa-de-honor-0139,1936 Copa de Honor,Fase única,,16,1936-07-19,,Estudiantes,Gimnasia La Plata,3,2,,,,,,,RSSSF,rsssf:arg-hon36:213,,
 1936-copa-de-honor-0140,1936 Copa de Honor,Fase única,,16,1936-07-19,,Ferro Carril Oeste,Tigre,3,0,,,,,,,RSSSF,rsssf:arg-hon36:214,,
@@ -12284,7 +12284,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1941-0234,1941,Fase única,,30,1941-10-26,,Atlanta,San Lorenzo,2,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg41:342,,at Ferro Carril Oeste (BUE)
 1941-0235,1941,Fase única,,30,1941-10-26,,Banfield,Rosario Central,4,2,,,,,,,RSSSF,rsssf:arg41:343,,
 1941-0236,1941,Fase única,,30,1941-10-26,,Boca Juniors,Tigre,3,0,,,,,,,RSSSF,rsssf:arg41:344,,
-1941-0237,1941,Fase única,,30,1941-10-26,,Estudiantes,River Plate,1,3,,,,,,,RSSSF,rsssf:arg41:345,"Laferrara 38 / Moreno 16, Rodríguez (o.g.) 37, Muñoz 77",
+1941-0237,1941,Fase única,,30,1941-10-26,,Estudiantes,River Plate,1,3,,,,,,,RSSSF,rsssf:arg41:345,,
 1941-0238,1941,Fase única,,30,1941-10-26,,Huracán,Ferro Carril Oeste,4,1,,,,,,,RSSSF,rsssf:arg41:347,,
 1941-0239,1941,Fase única,,30,1941-10-26,,Platense,Gimnasia La Plata,3,2,,,,,,,RSSSF,rsssf:arg41:348,,
 1941-0240,1941,Fase única,,30,1941-10-26,,Racing Club,Independiente,3,1,,,,,,,RSSSF,rsssf:arg41:349,,
@@ -13481,7 +13481,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1946-0230,1946,Fase única,,29,1946-12-01,,Platense,Tigre,6,0,,,,,,,RSSSF,rsssf:arg46:300,,"Platense, Buenos Aires"
 1946-0231,1946,Fase única,,29,1946-12-01,,Racing Club,Rosario Central,4,6,,,,,,,RSSSF,rsssf:arg46:301,,"Racing Club, Avellaneda"
 1946-0232,1946,Fase única,,29,1946-12-01,,San Lorenzo,Vélez Sarsfield,4,1,,,,,,,RSSSF,rsssf:arg46:302,,"San Lorenzo de Almagro, Buenos Aires"
-1946-0233,1946,Fase única,,30,1946-12-08,,Ferro Carril Oeste,San Lorenzo,1,3,,,,,,,RSSSF,rsssf:arg46:304,"Cacheiro 77 / Martino 21, Pontoni 55, Silva 88","Ferro Carril Oeste, Buenos Aires"
+1946-0233,1946,Fase única,,30,1946-12-08,,Ferro Carril Oeste,San Lorenzo,1,3,,,,,,,RSSSF,rsssf:arg46:304,,"Ferro Carril Oeste, Buenos Aires"
 1946-0234,1946,Fase única,,30,1946-12-08,,Huracán,Atlanta,1,0,,,,,,,RSSSF,rsssf:arg46:306,,"San Lorenzo de Almagro, Buenos Aires"
 1946-0235,1946,Fase única,,30,1946-12-08,,Independiente,Platense,4,2,,,,,,,RSSSF,rsssf:arg46:307,,"Independiente, Avellaneda"
 1946-0236,1946,Fase única,,30,1946-12-08,,Lanús,Chacarita Juniors,1,1,,,,,,,RSSSF,rsssf:arg46:308,,Lanús
@@ -15813,7 +15813,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1955-0225,1955,Fase única,,28,1955-12-04,,Racing Club,Chacarita Juniors,4,2,,,,,,,RSSSF,rsssf:arg55:328 ogol:10802136,,
 1955-0226,1955,Fase única,,28,1955-12-04,,River Plate,Vélez Sarsfield,5,2,,,,,,,RSSSF,rsssf:arg55:329 ogol:10802137,,
 1955-0227,1955,Fase única,,28,1955-12-04,,Tigre,Boca Juniors,3,0,,,,,,,RSSSF,rsssf:arg55:330 ogol:10802138,,
-1955-0228,1955,Fase única,,29,1955-12-08,,Boca Juniors,River Plate,1,2,,,,,,,RSSSF,rsssf:arg55:333 ogol:10802139,"Etcheverry 3 / Labruna 74, Zárate 75",
+1955-0228,1955,Fase única,,29,1955-12-08,,Boca Juniors,River Plate,1,2,,,,,,,RSSSF,rsssf:arg55:333 ogol:10802139,,
 1955-0229,1955,Fase única,,29,1955-12-08,,Chacarita Juniors,Independiente,3,1,,,,,,,RSSSF,rsssf:arg55:335 ogol:10802140,,
 1955-0230,1955,Fase única,,29,1955-12-08,,Estudiantes,Ferro Carril Oeste,3,0,,,,,,,RSSSF,rsssf:arg55:336 ogol:10802141,,
 1955-0231,1955,Fase única,,29,1955-12-08,,Platense,Lanús,1,1,,,,,,,RSSSF,rsssf:arg55:337 ogol:10802142,,
@@ -17246,7 +17246,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1961-0213,1961,Fase única,,27,1961-11-12,,Huracán,Estudiantes,2,0,,,,,,,RSSSF,rsssf:arg61:301 ogol:8167488,,
 1961-0214,1961,Fase única,,27,1961-11-12,,Los Andes,Atlanta,2,0,,,,Estádio do Quilmes,,,RSSSF,rsssf:arg61:302 ogol:8167489,,at Quilmes
 1961-0215,1961,Fase única,,27,1961-11-12,,Rosario Central,Vélez Sarsfield,4,3,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg61:303 ogol:8167491,,at Newell's Old Boys
-1961-0216,1961,Fase única,,27,1961-11-12,,Racing Club,San Lorenzo,3,2,,,,,,,RSSSF,rsssf:arg61:304 ogol:8167490,"Sosa 3m, Corbatta 15m pen, 75m pen / Sanfilippo 86m pen, Cabrera 89m",
+1961-0216,1961,Fase única,,27,1961-11-12,,Racing Club,San Lorenzo,3,2,,,,,,,RSSSF,rsssf:arg61:304 ogol:8167490,,
 1961-0217,1961,Fase única,,28,1961-11-21,,River Plate,Argentinos Juniors,3,0,,,,,,,RSSSF,rsssf:arg61:340 ogol:8167497,,
 1961-0218,1961,Fase única,,28,1961-11-22,,Atlanta,Boca Juniors,3,2,,,,,,,RSSSF,rsssf:arg61:342 ogol:8167492,,
 1961-0219,1961,Fase única,,28,1961-11-22,,Chacarita Juniors,Huracán,5,0,,,,,,,RSSSF,rsssf:arg61:343 ogol:8167493,,
@@ -17662,7 +17662,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1963-0179,1963,Fase única,,26,1963-11-24,,Gimnasia La Plata,Chacarita Juniors,2,2,,,,,,,RSSSF,rsssf:arg63:239 ogol:10800979,,
 1963-0180,1963,Fase única,,26,1963-11-24,,River Plate,Argentinos Juniors,3,2,,,,,,,RSSSF,rsssf:arg63:240 ogol:10800980,,
 1963-0181,1963,Fase única,,26,1963-11-24,,Vélez Sarsfield,Estudiantes,1,2,,,,,,,RSSSF,rsssf:arg63:241 ogol:10800981,,
-1963-0182,1963,Fase única,,26,1963-11-24,,Independiente,San Lorenzo,9,1,,,,,,,RSSSF,rsssf:arg63:242 ogol:10800982,"Savoy 30m, 44 pen, 74m, 86m, Bernao 64m, 83m, Vázquez 75m, Rodríguez 80m, Rossi 88m og / Veira 20m",
+1963-0182,1963,Fase única,,26,1963-11-24,,Independiente,San Lorenzo,9,1,,,,,,,RSSSF,rsssf:arg63:242 ogol:10800982,,
 1964-0001,1964,Fase única,,1,1964-04-26,,Argentinos Juniors,Banfield,0,0,,,,,,,RSSSF,rsssf:arg64:35 ogol:10800561,,
 1964-0002,1964,Fase única,,1,1964-04-26,,Boca Juniors,Atlanta,2,4,,,,,,,RSSSF,rsssf:arg64:36 ogol:10800562,,
 1964-0003,1964,Fase única,,1,1964-04-26,,Chacarita Juniors,River Plate,0,1,,,,,,,RSSSF,rsssf:arg64:37 ogol:10800563,,
@@ -17972,7 +17972,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1965-0067,1965,Fase única,,8,1965-05-22,,Estudiantes,Racing Club,0,0,,,,,,,RSSSF,rsssf:arg65:234 ogol:10800321,,
 1965-0068,1965,Fase única,,8,1965-05-22,,Rosario Central,Lanús,2,1,,,,,,,RSSSF,rsssf:arg65:235 ogol:10800322,,
 1965-0069,1965,Fase única,,8,1965-05-22,,Independiente,Newell's Old Boys,2,0,,,,,,,RSSSF,rsssf:arg65:237 ogol:10800323,,
-1965-0070,1965,Fase única,,8,1965-05-22,,Vélez Sarsfield,Gimnasia La Plata,5,1,,,,,,,RSSSF,rsssf:arg65:239 ogol:10800324,"Recúpero, Carone(2), A.González(2) Pardo",
+1965-0070,1965,Fase única,,8,1965-05-22,,Vélez Sarsfield,Gimnasia La Plata,5,1,,,,,,,RSSSF,rsssf:arg65:239 ogol:10800324,,
 1965-0071,1965,Fase única,,8,1965-05-22,,Atlanta,Chacarita Juniors,0,0,,,,,,,RSSSF,rsssf:arg65:242 ogol:10800325,,
 1965-0072,1965,Fase única,,8,1965-05-22,,San Lorenzo,River Plate,0,3,,,,,,,RSSSF,rsssf:arg65:243 ogol:10800326,,
 1965-0073,1965,Fase única,,9,1965-05-25,,San Lorenzo,Banfield,0,2,,,,,,,RSSSF,rsssf:arg65:249 ogol:10800327,,
@@ -18024,7 +18024,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1965-0119,1965,Fase única,,14,1965-06-27,,Ferro Carril Oeste,Lanús,0,0,,,,,,,RSSSF,rsssf:arg65:361 ogol:10800373,,
 1965-0120,1965,Fase única,,14,1965-06-27,,Argentinos Juniors,Newell's Old Boys,1,2,,,,,,,RSSSF,rsssf:arg65:362 ogol:10800374,,
 1965-0121,1965,Fase única,,14,1965-06-27,,Huracán,Gimnasia La Plata,0,1,,,,,,,RSSSF,rsssf:arg65:364 ogol:10800375,,
-1965-0122,1965,Fase única,,14,1965-06-27,,Boca Juniors,Chacarita Juniors,7,2,,,,,,,RSSSF,rsssf:arg65:366 ogol:10800376,"Pianetti, A.C.Rojas(2), A.Rojas(2), Rattín, González Nardiello, Roldán",
+1965-0122,1965,Fase única,,14,1965-06-27,,Boca Juniors,Chacarita Juniors,7,2,,,,,,,RSSSF,rsssf:arg65:366 ogol:10800376,,
 1965-0123,1965,Fase única,,14,1965-06-27,,Platense,River Plate,1,2,,,,,,,RSSSF,rsssf:arg65:369 ogol:10800377,,
 1965-0124,1965,Fase única,,14,1965-06-27,,Estudiantes,San Lorenzo,2,2,,,,,,,RSSSF,rsssf:arg65:371 ogol:10800378,,
 1965-0125,1965,Fase única,,14,1965-06-27,,Rosario Central,Atlanta,1,2,,,,,,,RSSSF,rsssf:arg65:373 ogol:10800379,,
@@ -18038,10 +18038,10 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1965-0133,1965,Fase única,,15,1965-07-04,,Gimnasia La Plata,Argentinos Juniors,2,1,,,,,,,RSSSF,rsssf:arg65:394 ogol:10800387,,
 1965-0134,1965,Fase única,,15,1965-07-04,,Newell's Old Boys,Ferro Carril Oeste,0,0,,,,,,,RSSSF,rsssf:arg65:396 ogol:10800388,,
 1965-0135,1965,Fase única,,15,1965-07-04,,Lanús,Racing Club,1,0,,,,,,,RSSSF,rsssf:arg65:397 ogol:10800389,,
-1965-0136,1965,Fase única,,16,1965-07-09,,Banfield,Lanús,4,2,,,,,,,RSSSF,rsssf:arg65:404 ogol:10800390,"Maidana, Zárate, Bayo, San Lorenzo Acosta, De Mario",
+1965-0136,1965,Fase única,,16,1965-07-09,,Banfield,Lanús,4,2,,,,,,,RSSSF,rsssf:arg65:404 ogol:10800390,,
 1965-0137,1965,Fase única,,16,1965-07-09,,Huracán,River Plate,0,2,,,,,,,RSSSF,rsssf:arg65:407 ogol:10800391,,
 1965-0138,1965,Fase única,,16,1965-07-11,,Racing Club,Newell's Old Boys,0,0,,,,,,,RSSSF,rsssf:arg65:410 ogol:10800392,,
-1965-0139,1965,Fase única,,16,1965-07-11,,Ferro Carril Oeste,Gimnasia La Plata,5,1,,,,,,,RSSSF,rsssf:arg65:411 ogol:10800393,"Pastorini(2), Ribaudo(2), Berón Ciaccia",
+1965-0139,1965,Fase única,,16,1965-07-11,,Ferro Carril Oeste,Gimnasia La Plata,5,1,,,,,,,RSSSF,rsssf:arg65:411 ogol:10800393,,
 1965-0140,1965,Fase única,,16,1965-07-11,,Argentinos Juniors,Chacarita Juniors,2,1,,,,,,,RSSSF,rsssf:arg65:414 ogol:10800394,,
 1965-0141,1965,Fase única,,16,1965-07-11,,Boca Juniors,San Lorenzo,0,1,,,,,,,RSSSF,rsssf:arg65:416 ogol:10800395,,
 1965-0142,1965,Fase única,,16,1965-07-11,,Platense,Atlanta,1,1,,,,,,,RSSSF,rsssf:arg65:418 ogol:10800396,,
@@ -18163,7 +18163,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1965-0258,1965,Fase única,,29,1965-11-21,,Gimnasia La Plata,Platense,0,2,,,,,,,RSSSF,rsssf:arg65:707 ogol:10800512,,
 1965-0259,1965,Fase única,,29,1965-11-21,,River Plate,Rosario Central,1,1,,,,,,,RSSSF,rsssf:arg65:709 ogol:10800513,,
 1965-0260,1965,Fase única,,29,1965-11-21,,San Lorenzo,Independiente,2,0,,,,,,,RSSSF,rsssf:arg65:711 ogol:10800514,,
-1965-0261,1965,Fase única,,29,1965-11-21,,Atlanta,Vélez Sarsfield,4,1,,,,,,,RSSSF,rsssf:arg65:713 ogol:10800515,"Punturero, Griguol, Zarich, J.Fernández Willington",
+1965-0261,1965,Fase única,,29,1965-11-21,,Atlanta,Vélez Sarsfield,4,1,,,,,,,RSSSF,rsssf:arg65:713 ogol:10800515,,
 1965-0262,1965,Fase única,,30,1965-11-26,,Rosario Central,San Lorenzo,0,1,,,,,,,RSSSF,rsssf:arg65:721 ogol:10800516,,
 1965-0263,1965,Fase única,,30,1965-11-26,,Independiente,Atlanta,2,1,,,,,,,RSSSF,rsssf:arg65:723 ogol:10800517,,
 1965-0264,1965,Fase única,,30,1965-11-28,,Banfield,Vélez Sarsfield,1,1,,,,,,,RSSSF,rsssf:arg65:726 ogol:10800518,,
@@ -18190,7 +18190,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1965-0285,1965,Fase única,,32,1965-12-08,,Huracán,Chacarita Juniors,2,2,,,,,,,RSSSF,rsssf:arg65:776 ogol:10800539,,
 1965-0286,1965,Fase única,,32,1965-12-08,,Argentinos Juniors,Gimnasia La Plata,3,0,,,,,,,RSSSF,rsssf:arg65:778 ogol:10800540,,
 1965-0287,1965,Fase única,,32,1965-12-08,,Ferro Carril Oeste,Newell's Old Boys,1,2,,,,,,,RSSSF,rsssf:arg65:780 ogol:10800541,,
-1965-0288,1965,Fase única,,32,1965-12-08,,Racing Club,Lanús,4,2,,,,,,,RSSSF,rsssf:arg65:782 ogol:10800542,"J.J.Rodríguez(2), Perfumo, Cárdenas De Mario, Acosta",
+1965-0288,1965,Fase única,,32,1965-12-08,,Racing Club,Lanús,4,2,,,,,,,RSSSF,rsssf:arg65:782 ogol:10800542,,
 1965-0289,1965,Fase única,,33,1965-12-10,,Atlanta,Platense,0,2,,,,,,,RSSSF,rsssf:arg65:790 ogol:10800543,,
 1965-0290,1965,Fase única,,33,1965-12-12,,Newell's Old Boys,Racing Club,0,0,,,,,,,RSSSF,rsssf:arg65:793 ogol:10800544,,
 1965-0291,1965,Fase única,,33,1965-12-12,,Lanús,Banfield,1,0,,,,,,,RSSSF,rsssf:arg65:794 ogol:10800545,,
@@ -18199,7 +18199,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1965-0294,1965,Fase única,,33,1965-12-12,,River Plate,Huracán,4,0,,,,,,,RSSSF,rsssf:arg65:800 ogol:10800548,,
 1965-0295,1965,Fase única,,33,1965-12-12,,San Lorenzo,Boca Juniors,1,1,,,,,,,RSSSF,rsssf:arg65:802 ogol:10800549,,
 1965-0296,1965,Fase única,,33,1965-12-12,,Vélez Sarsfield,Estudiantes,0,1,,,,,,,RSSSF,rsssf:arg65:804 ogol:10800550,,
-1965-0297,1965,Fase única,,33,1965-12-12,,Independiente,Rosario Central,4,2,,,,,,,RSSSF,rsssf:arg65:806 ogol:10800551,"M.Rodríguez(2), Avallay, Suárez Giménez, Sasía",
+1965-0297,1965,Fase única,,33,1965-12-12,,Independiente,Rosario Central,4,2,,,,,,,RSSSF,rsssf:arg65:806 ogol:10800551,,
 1965-0298,1965,Fase única,,34,1965-12-14,,Estudiantes,Independiente,1,1,,,,,,,RSSSF,rsssf:arg65:814 ogol:10800552,,
 1965-0299,1965,Fase única,,34,1965-12-16,,Ferro Carril Oeste,Chacarita Juniors,2,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg65:817 ogol:10800553,,at Atlanta
 1965-0300,1965,Fase única,,34,1965-12-19,,Rosario Central,Banfield,0,0,,,,,,,RSSSF,rsssf:arg65:820 ogol:10800554,,
@@ -20176,11 +20176,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0034,1971 Metropolitano,Fase única,,4,1971-03-21,,Huracán,River Plate,1,3,,,,,,,RSSSF,rsssf:arg71:134,,
 1971-metropolitano-0035,1971 Metropolitano,Fase única,,4,1971-03-21,,Los Andes,Chacarita Juniors,0,1,,,,,,,RSSSF,rsssf:arg71:136,,
 1971-metropolitano-0036,1971 Metropolitano,Fase única,,4,1971-03-21,,Colón,Newell's Old Boys,0,3,,,,,,,RSSSF,rsssf:arg71:138,,
-1971-metropolitano-0037,1971 Metropolitano,Fase única,,5,1971-03-24,,Estudiantes,Vélez Sarsfield,4,1,,,,,,,RSSSF,rsssf:arg71:145,"E.Flores(2), Malbernat, Aguilar Bentrón",
+1971-metropolitano-0037,1971 Metropolitano,Fase única,,5,1971-03-24,,Estudiantes,Vélez Sarsfield,4,1,,,,,,,RSSSF,rsssf:arg71:145,,
 1971-metropolitano-0038,1971 Metropolitano,Fase única,,5,1971-03-24,,Newell's Old Boys,Atlanta,4,0,,,,,,,RSSSF,rsssf:arg71:148,,
 1971-metropolitano-0039,1971 Metropolitano,Fase única,,5,1971-03-24,,Chacarita Juniors,Colón,3,0,,,,,,,RSSSF,rsssf:arg71:150,,
 1971-metropolitano-0040,1971 Metropolitano,Fase única,,5,1971-03-24,,Independiente,Huracán,1,2,,,,,,,RSSSF,rsssf:arg71:152,,
-1971-metropolitano-0041,1971 Metropolitano,Fase única,,5,1971-03-24,,San Lorenzo,Racing Club,6,2,,,,,,,RSSSF,rsssf:arg71:154,"Tojo, Veglio(2), Rocchia o/g, Fischer(2) Lamelza, Wolff",
+1971-metropolitano-0041,1971 Metropolitano,Fase única,,5,1971-03-24,,San Lorenzo,Racing Club,6,2,,,,,,,RSSSF,rsssf:arg71:154,,
 1971-metropolitano-0042,1971 Metropolitano,Fase única,,5,1971-03-24,,Ferro Carril Oeste,Platense,1,0,,,,,,,RSSSF,rsssf:arg71:157,,
 1971-metropolitano-0043,1971 Metropolitano,Fase única,,5,1971-04-01,,River Plate,Los Andes,4,1,,,,,,,RSSSF,rsssf:arg71:160,,
 1971-metropolitano-0044,1971 Metropolitano,Fase única,,5,1971-04-14,,Argentinos Juniors,Rosario Central,3,0,,,,,,,RSSSF,rsssf:arg71:163,,
@@ -20194,9 +20194,9 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0052,1971 Metropolitano,Fase única,,6,1971-03-28,,Colón,River Plate,2,3,,,,,,,RSSSF,rsssf:arg71:185,,
 1971-metropolitano-0053,1971 Metropolitano,Fase única,,6,1971-03-28,,Atlanta,Chacarita Juniors,2,3,,,,,,,RSSSF,rsssf:arg71:187,,
 1971-metropolitano-0054,1971 Metropolitano,Fase única,,6,1971-03-28,,Vélez Sarsfield,Newell's Old Boys,2,1,,,,,,,RSSSF,rsssf:arg71:189,,
-1971-metropolitano-0055,1971 Metropolitano,Fase única,,7,1971-04-02,,Chacarita Juniors,Vélez Sarsfield,5,2,,,,,,,RSSSF,rsssf:arg71:196,"García Cambón, Frassoldati, Marcos(2), Punturero Bianchi, Bentrón",
+1971-metropolitano-0055,1971 Metropolitano,Fase única,,7,1971-04-02,,Chacarita Juniors,Vélez Sarsfield,5,2,,,,,,,RSSSF,rsssf:arg71:196,,
 1971-metropolitano-0056,1971 Metropolitano,Fase única,,7,1971-04-04,,Newell's Old Boys,Estudiantes,3,2,,,,,,,RSSSF,rsssf:arg71:200,,
-1971-metropolitano-0057,1971 Metropolitano,Fase única,,7,1971-04-04,,River Plate,Atlanta,5,3,,,,,,,RSSSF,rsssf:arg71:202,"Laraignée, Mas, J.J.López, Pignani(2) Mastrángelo(2), Cano",
+1971-metropolitano-0057,1971 Metropolitano,Fase única,,7,1971-04-04,,River Plate,Atlanta,5,3,,,,,,,RSSSF,rsssf:arg71:202,,
 1971-metropolitano-0058,1971 Metropolitano,Fase única,,7,1971-04-04,,Independiente,Colón,2,0,,,,,,,RSSSF,rsssf:arg71:205,,
 1971-metropolitano-0059,1971 Metropolitano,Fase única,,7,1971-04-04,,San Lorenzo,Los Andes,1,2,,,,,,,RSSSF,rsssf:arg71:207,,
 1971-metropolitano-0060,1971 Metropolitano,Fase única,,7,1971-04-04,,Banfield,Huracán,0,0,,,,,,,RSSSF,rsssf:arg71:209,,
@@ -20213,7 +20213,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0071,1971 Metropolitano,Fase única,,8,1971-04-07,,Estudiantes,Chacarita Juniors,1,2,,,,,,,RSSSF,rsssf:arg71:235,,
 1971-metropolitano-0072,1971 Metropolitano,Fase única,,8,1971-04-09,,Racing Club,Argentinos Juniors,0,2,,,,,,,RSSSF,rsssf:arg71:238,,
 1971-metropolitano-0073,1971 Metropolitano,Fase única,,9,1971-04-11,,Chacarita Juniors,Newell's Old Boys,0,0,,,,,,,RSSSF,rsssf:arg71:245,,
-1971-metropolitano-0074,1971 Metropolitano,Fase única,,9,1971-04-11,,River Plate,Estudiantes,4,1,,,,,,,RSSSF,rsssf:arg71:246,"Mas, Dominichi, J.J.López, Bulla Pachamé",
+1971-metropolitano-0074,1971 Metropolitano,Fase única,,9,1971-04-11,,River Plate,Estudiantes,4,1,,,,,,,RSSSF,rsssf:arg71:246,,
 1971-metropolitano-0075,1971 Metropolitano,Fase única,,9,1971-04-11,,San Lorenzo,Atlanta,3,0,,,,,,,RSSSF,rsssf:arg71:249,,
 1971-metropolitano-0076,1971 Metropolitano,Fase única,,9,1971-04-11,,Banfield,Colón,1,1,,,,,,,RSSSF,rsssf:arg71:251,,
 1971-metropolitano-0077,1971 Metropolitano,Fase única,,9,1971-04-11,,Ferro Carril Oeste,Los Andes,3,2,,,,,,,RSSSF,rsssf:arg71:253,,
@@ -20226,14 +20226,14 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0084,1971 Metropolitano,Fase única,,10,1971-04-18,,Racing Club,Rosario Central,4,3,,,,,,,RSSSF,rsssf:arg71:274,,
 1971-metropolitano-0085,1971 Metropolitano,Fase única,,10,1971-04-18,,Los Andes,Argentinos Juniors,1,1,,,,,,,RSSSF,rsssf:arg71:276,,
 1971-metropolitano-0086,1971 Metropolitano,Fase única,,10,1971-04-18,,Colón,Ferro Carril Oeste,0,0,,,,,,,RSSSF,rsssf:arg71:278,,
-1971-metropolitano-0087,1971 Metropolitano,Fase única,,10,1971-04-18,,Atlanta,Banfield,3,1,,,,,,,RSSSF,rsssf:arg71:279,"Cano, Gómez Voglino, Mastrángelo Amado",
+1971-metropolitano-0087,1971 Metropolitano,Fase única,,10,1971-04-18,,Atlanta,Banfield,3,1,,,,,,,RSSSF,rsssf:arg71:279,,
 1971-metropolitano-0088,1971 Metropolitano,Fase única,,10,1971-04-18,,Vélez Sarsfield,San Lorenzo,0,1,,,,,,,RSSSF,rsssf:arg71:282,,
 1971-metropolitano-0089,1971 Metropolitano,Fase única,,10,1971-04-18,,Newell's Old Boys,River Plate,3,1,,,,,,,RSSSF,rsssf:arg71:284,,
 1971-metropolitano-0090,1971 Metropolitano,Fase única,,10,1971-06-23,,Estudiantes,Independiente,0,1,,,,,,,RSSSF,rsssf:arg71:287,,
 1971-metropolitano-0091,1971 Metropolitano,Fase única,,11,1971-04-21,,River Plate,Chacarita Juniors,0,2,,,,,,,RSSSF,rsssf:arg71:294,,
 1971-metropolitano-0092,1971 Metropolitano,Fase única,,11,1971-04-21,,Banfield,Vélez Sarsfield,2,2,,,,,,,RSSSF,rsssf:arg71:296,,
 1971-metropolitano-0093,1971 Metropolitano,Fase única,,11,1971-04-21,,Ferro Carril Oeste,Atlanta,0,2,,,,,,,RSSSF,rsssf:arg71:298,,
-1971-metropolitano-0094,1971 Metropolitano,Fase única,,11,1971-04-21,,Argentinos Juniors,Colón,5,3,,,,,,,RSSSF,rsssf:arg71:300,"Cicarello, R.Alvarez, Ornad, Ribaudo, O.Sosa Di Meola, Zibecchi, Trullet",
+1971-metropolitano-0094,1971 Metropolitano,Fase única,,11,1971-04-21,,Argentinos Juniors,Colón,5,3,,,,,,,RSSSF,rsssf:arg71:300,,
 1971-metropolitano-0095,1971 Metropolitano,Fase única,,11,1971-04-21,,Gimnasia La Plata,Los Andes,3,2,,,,,,,RSSSF,rsssf:arg71:303,,
 1971-metropolitano-0096,1971 Metropolitano,Fase única,,11,1971-04-21,,Rosario Central,Huracán,4,0,,,,,,,RSSSF,rsssf:arg71:305,,
 1971-metropolitano-0097,1971 Metropolitano,Fase única,,11,1971-04-21,,Platense,Racing Club,3,4,,,,,,,RSSSF,rsssf:arg71:307,,
@@ -20259,7 +20259,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0117,1971 Metropolitano,Fase única,,13,1971-05-02,,Boca Juniors,Huracán,3,0,,,,,,,RSSSF,rsssf:arg71:358,,
 1971-metropolitano-0118,1971 Metropolitano,Fase única,,14,1971-05-05,,Huracán,Racing Club,0,0,,,,,,,RSSSF,rsssf:arg71:365,,
 1971-metropolitano-0119,1971 Metropolitano,Fase única,,14,1971-05-05,,Los Andes,Boca Juniors,1,0,,,,,,,RSSSF,rsssf:arg71:366,,
-1971-metropolitano-0120,1971 Metropolitano,Fase única,,14,1971-05-05,,Colón,Platense,5,1,,,,,,,RSSSF,rsssf:arg71:368,"Di Meola(3), Bustos, Zucarelli Cabral",
+1971-metropolitano-0120,1971 Metropolitano,Fase única,,14,1971-05-05,,Colón,Platense,5,1,,,,,,,RSSSF,rsssf:arg71:368,,
 1971-metropolitano-0121,1971 Metropolitano,Fase única,,14,1971-05-05,,Atlanta,Rosario Central,2,1,,,,,,,RSSSF,rsssf:arg71:371,,
 1971-metropolitano-0122,1971 Metropolitano,Fase única,,14,1971-05-05,,Vélez Sarsfield,Gimnasia La Plata,1,0,,,,,,,RSSSF,rsssf:arg71:373,,
 1971-metropolitano-0123,1971 Metropolitano,Fase única,,14,1971-05-05,,Newell's Old Boys,Ferro Carril Oeste,2,1,,,,,,,RSSSF,rsssf:arg71:375,,
@@ -20299,7 +20299,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0157,1971 Metropolitano,Fase única,,18,1971-05-25,,Newell's Old Boys,Platense,3,3,,,,,,,RSSSF,rsssf:arg71:468,,
 1971-metropolitano-0158,1971 Metropolitano,Fase única,,18,1971-05-25,,Chacarita Juniors,Rosario Central,2,1,,,,,,,RSSSF,rsssf:arg71:470,,
 1971-metropolitano-0159,1971 Metropolitano,Fase única,,18,1971-05-25,,River Plate,Gimnasia La Plata,0,0,,,,,,,RSSSF,rsssf:arg71:472,,
-1971-metropolitano-0160,1971 Metropolitano,Fase única,,18,1971-05-25,,San Lorenzo,Ferro Carril Oeste,5,2,,,,,,,RSSSF,rsssf:arg71:473,"Fischer(3), Scotta, García Ameijenda Micó, Domínguez",
+1971-metropolitano-0160,1971 Metropolitano,Fase única,,18,1971-05-25,,San Lorenzo,Ferro Carril Oeste,5,2,,,,,,,RSSSF,rsssf:arg71:473,,
 1971-metropolitano-0161,1971 Metropolitano,Fase única,,18,1971-05-27,,Independiente,Argentinos Juniors,1,1,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg71:477,,at Racing Club
 1971-metropolitano-0162,1971 Metropolitano,Fase única,,18,1971-09-01,,Estudiantes,Boca Juniors,3,6,,,,,,,RSSSF,rsssf:arg71:480,,
 1971-metropolitano-0163,1971 Metropolitano,Fase única,,19,1971-05-28,,Boca Juniors,Newell's Old Boys,1,2,,,,,,,RSSSF,rsssf:arg71:487,,
@@ -20322,7 +20322,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0180,1971 Metropolitano,Fase única,,20,1971-08-11,,Huracán,Estudiantes,2,0,,,,,,,RSSSF,rsssf:arg71:525,,
 1971-metropolitano-0181,1971 Metropolitano,Fase única,,21,1971-06-10,,Ferro Carril Oeste,Argentinos Juniors,2,0,,,,,,,RSSSF,rsssf:arg71:532,,
 1971-metropolitano-0182,1971 Metropolitano,Fase única,,21,1971-06-10,,Banfield,Gimnasia La Plata,1,2,,,,,,,RSSSF,rsssf:arg71:534,,Suspended at 88'
-1971-metropolitano-0183,1971 Metropolitano,Fase única,,21,1971-06-10,,San Lorenzo,Rosario Central,4,1,,,,,,,RSSSF,rsssf:arg71:536,"García Ameijenda, Chazarreta, Heredia, Fischer Bóveda",
+1971-metropolitano-0183,1971 Metropolitano,Fase única,,21,1971-06-10,,San Lorenzo,Rosario Central,4,1,,,,,,,RSSSF,rsssf:arg71:536,,
 1971-metropolitano-0184,1971 Metropolitano,Fase única,,21,1971-06-10,,Independiente,Platense,0,0,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg71:539,,at Racing Club
 1971-metropolitano-0185,1971 Metropolitano,Fase única,,21,1971-06-10,,River Plate,Boca Juniors,3,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg71:540,,at Racing Club
 1971-metropolitano-0186,1971 Metropolitano,Fase única,,21,1971-06-10,,Chacarita Juniors,Racing Club,1,0,,,,,,,RSSSF,rsssf:arg71:542,,
@@ -20357,7 +20357,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0215,1971 Metropolitano,Fase única,,24,1971-06-20,,Platense,Ferro Carril Oeste,0,0,,,,,,,RSSSF,rsssf:arg71:618,,
 1971-metropolitano-0216,1971 Metropolitano,Fase única,,24,1971-06-20,,Rosario Central,Argentinos Juniors,1,0,,,,,,,RSSSF,rsssf:arg71:619,,
 1971-metropolitano-0217,1971 Metropolitano,Fase única,,25,1971-06-25,,River Plate,Colón,2,0,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg71:626,,at Atlanta
-1971-metropolitano-0218,1971 Metropolitano,Fase única,,25,1971-06-27,,Gimnasia La Plata,Rosario Central,4,5,,,,,,,RSSSF,rsssf:arg71:629,"Gottfrit, Montivero, Pedraza, Onnis Poy(2), Carrascosa, Villagra(2)",
+1971-metropolitano-0218,1971 Metropolitano,Fase única,,25,1971-06-27,,Gimnasia La Plata,Rosario Central,4,5,,,,,,,RSSSF,rsssf:arg71:629,,
 1971-metropolitano-0219,1971 Metropolitano,Fase única,,25,1971-06-27,,Argentinos Juniors,Platense,3,1,,,,,,,RSSSF,rsssf:arg71:632,,
 1971-metropolitano-0220,1971 Metropolitano,Fase única,,25,1971-06-27,,Ferro Carril Oeste,Boca Juniors,0,1,,,,,,,RSSSF,rsssf:arg71:634,,
 1971-metropolitano-0221,1971 Metropolitano,Fase única,,25,1971-06-27,,San Lorenzo,Huracán,2,0,,,,,,,RSSSF,rsssf:arg71:636,,
@@ -20421,7 +20421,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0279,1971 Metropolitano,Fase única,,31,1971-09-15,,Independiente,Chacarita Juniors,1,0,,,,,,,RSSSF,rsssf:arg71:786,,
 1971-metropolitano-0280,1971 Metropolitano,Fase única,,32,1971-09-05,,River Plate,Independiente,1,1,,,,,,,RSSSF,rsssf:arg71:793,,
 1971-metropolitano-0281,1971 Metropolitano,Fase única,,32,1971-09-05,,Chacarita Juniors,San Lorenzo,1,2,,,,,,,RSSSF,rsssf:arg71:795,,
-1971-metropolitano-0282,1971 Metropolitano,Fase única,,32,1971-09-05,,Newell's Old Boys,Banfield,6,1,,,,,,,RSSSF,rsssf:arg71:797,"Santamaría, Ledesma, Zanabria, Masalis o/g, Obberti, Silva Cáceres",
+1971-metropolitano-0282,1971 Metropolitano,Fase única,,32,1971-09-05,,Newell's Old Boys,Banfield,6,1,,,,,,,RSSSF,rsssf:arg71:797,,
 1971-metropolitano-0283,1971 Metropolitano,Fase única,,32,1971-09-05,,Estudiantes,Ferro Carril Oeste,1,0,,,,,,,RSSSF,rsssf:arg71:800,,
 1971-metropolitano-0284,1971 Metropolitano,Fase única,,32,1971-09-05,,Vélez Sarsfield,Argentinos Juniors,4,0,,,,,,,RSSSF,rsssf:arg71:802,,
 1971-metropolitano-0285,1971 Metropolitano,Fase única,,32,1971-09-05,,Atlanta,Gimnasia La Plata,3,1,,,,,,,RSSSF,rsssf:arg71:804,,
@@ -20472,7 +20472,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0330,1971 Metropolitano,Fase única,,37,1971-09-26,,Rosario Central,Chacarita Juniors,1,1,,,,,,,RSSSF,rsssf:arg71:921,,
 1971-metropolitano-0331,1971 Metropolitano,Fase única,,37,1971-09-26,,Gimnasia La Plata,River Plate,2,2,,,,,,,RSSSF,rsssf:arg71:923,,
 1971-metropolitano-0332,1971 Metropolitano,Fase única,,37,1971-09-26,,Argentinos Juniors,Independiente,3,1,,,,,,,RSSSF,rsssf:arg71:925,,
-1971-metropolitano-0333,1971 Metropolitano,Fase única,,37,1971-09-26,,Ferro Carril Oeste,San Lorenzo,3,2,,,,,,,RSSSF,rsssf:arg71:927,"J.Domínguez, R.Pérez, Salomone Ayala, May o/g",
+1971-metropolitano-0333,1971 Metropolitano,Fase única,,37,1971-09-26,,Ferro Carril Oeste,San Lorenzo,3,2,,,,,,,RSSSF,rsssf:arg71:927,,
 1971-metropolitano-0334,1971 Metropolitano,Fase única,,38,1971-10-01,,River Plate,Rosario Central,0,1,,,,,,,RSSSF,rsssf:arg71:935,,
 1971-metropolitano-0335,1971 Metropolitano,Fase única,,38,1971-10-03,,Banfield,Ferro Carril Oeste,1,1,,,,Estádio do Talleres,,,RSSSF,rsssf:arg71:938,,at Talleres RE
 1971-metropolitano-0336,1971 Metropolitano,Fase única,,38,1971-10-03,,San Lorenzo,Argentinos Juniors,3,1,,,,,,,RSSSF,rsssf:arg71:940,,
@@ -20483,7 +20483,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-metropolitano-0341,1971 Metropolitano,Fase única,,38,1971-10-03,,Vélez Sarsfield,Huracán,1,2,,,,,,,RSSSF,rsssf:arg71:950,,
 1971-metropolitano-0342,1971 Metropolitano,Fase única,,38,1971-10-03,,Atlanta,Los Andes,3,0,,,,,,,RSSSF,rsssf:arg71:952,,
 1971-nacional-0001,1971 Nacional,Primeira fase,A,1,1971-10-09,,Gimnasia La Plata,San Martín de Mendoza,1,0,,,,,,,RSSSF,rsssf:arg71:1050,,
-1971-nacional-0002,1971 Nacional,Primeira fase,A,1,1971-10-09,,Belgrano,Huracán de Comodoro Rivadavia,5,1,,,,,,,RSSSF,rsssf:arg71:1052,"Quiroga, Syeyyguil, Cos, Heredia, Reinaldi Toledo",
+1971-nacional-0002,1971 Nacional,Primeira fase,A,1,1971-10-09,,Belgrano,Huracán de Comodoro Rivadavia,5,1,,,,,,,RSSSF,rsssf:arg71:1052,,
 1971-nacional-0003,1971 Nacional,Primeira fase,A,1,1971-10-09,,Juventud Antoniana,Newell's Old Boys,0,2,,,,,,,RSSSF,rsssf:arg71:1055,,
 1971-nacional-0004,1971 Nacional,Primeira fase,A,1,1971-10-09,,Banfield,Huracán,2,1,,,,Estádio do Lanús,,,RSSSF,rsssf:arg71:1057,,at Lanús
 1971-nacional-0005,1971 Nacional,Primeira fase,A,1,1971-10-09,,Kimberley,Independiente,0,1,,,,,,,RSSSF,rsssf:arg71:1059,,
@@ -20496,7 +20496,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-nacional-0012,1971 Nacional,Primeira fase,A,2,1971-10-12,,Newell's Old Boys,Belgrano,2,2,,,,,,,RSSSF,rsssf:arg71:1077,,
 1971-nacional-0013,1971 Nacional,Primeira fase,A,2,1971-10-12,,Huracán de Comodoro Rivadavia,San Martín de Mendoza,0,4,,,,,,,RSSSF,rsssf:arg71:1079,,
 1971-nacional-0014,1971 Nacional,Primeira fase,A,2,1971-10-14,,River Plate,Gimnasia La Plata,2,0,,,,,,,RSSSF,rsssf:arg71:1082,,
-1971-nacional-0015,1971 Nacional,Primeira fase,A,3,1971-10-17,,Gimnasia La Plata,Huracán de Comodoro Rivadavia,5,1,,,,,,,RSSSF,rsssf:arg71:1088,"Pedraza, Santiago, V.Sánchez(3) Toledo",
+1971-nacional-0015,1971 Nacional,Primeira fase,A,3,1971-10-17,,Gimnasia La Plata,Huracán de Comodoro Rivadavia,5,1,,,,,,,RSSSF,rsssf:arg71:1088,,
 1971-nacional-0016,1971 Nacional,Primeira fase,A,3,1971-10-17,,San Martín de Mendoza,Newell's Old Boys,1,2,,,,,,,RSSSF,rsssf:arg71:1091,,
 1971-nacional-0017,1971 Nacional,Primeira fase,A,3,1971-10-17,,Belgrano,Huracán,1,0,,,,,,,RSSSF,rsssf:arg71:1093,,
 1971-nacional-0018,1971 Nacional,Primeira fase,A,3,1971-10-17,,Juventud Antoniana,Independiente,0,2,,,,,,,RSSSF,rsssf:arg71:1095,,
@@ -20561,12 +20561,12 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-nacional-0077,1971 Nacional,Primeira fase,A,12,1971-12-05,,Belgrano,Juventud Antoniana,3,2,,,,,,,RSSSF,rsssf:arg71:1251,,
 1971-nacional-0078,1971 Nacional,Primeira fase,A,13,1971-12-08,,Belgrano,Gimnasia La Plata,1,0,,,,,,,RSSSF,rsssf:arg71:1257,,
 1971-nacional-0079,1971 Nacional,Primeira fase,A,13,1971-12-08,,Juventud Antoniana,San Martín de Mendoza,2,2,,,,,,,RSSSF,rsssf:arg71:1259,,
-1971-nacional-0080,1971 Nacional,Primeira fase,A,13,1971-12-08,,Banfield,Huracán de Comodoro Rivadavia,8,1,,,,,,,RSSSF,rsssf:arg71:1261,"O.Hernández o/g(2), Benítez(2), Tagliani, Amado, Cantero, Barril Toledo",
+1971-nacional-0080,1971 Nacional,Primeira fase,A,13,1971-12-08,,Banfield,Huracán de Comodoro Rivadavia,8,1,,,,,,,RSSSF,rsssf:arg71:1261,,
 1971-nacional-0081,1971 Nacional,Primeira fase,A,13,1971-12-08,,Kimberley,Newell's Old Boys,0,3,,,,,,,RSSSF,rsssf:arg71:1264,,
 1971-nacional-0082,1971 Nacional,Primeira fase,A,13,1971-12-08,,Argentinos Juniors,Huracán,0,2,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg71:1266,,at Atlanta
 1971-nacional-0083,1971 Nacional,Primeira fase,A,13,1971-12-08,,River Plate,Independiente,2,3,,,,,,,RSSSF,rsssf:arg71:1268,,
 1971-nacional-0084,1971 Nacional,Primeira fase,A,13,1971-12-08,,Don Orione,Ferro Carril Oeste,1,0,,,,,,,RSSSF,rsssf:arg71:1270,,
-1971-nacional-0085,1971 Nacional,Primeira fase,A,14,1971-12-12,,Gimnasia La Plata,Don Orione,5,1,,,,,,,RSSSF,rsssf:arg71:1276,"Castiglia, Leonardi, Montivero, Santiago, J.Martínez Olivera",
+1971-nacional-0085,1971 Nacional,Primeira fase,A,14,1971-12-12,,Gimnasia La Plata,Don Orione,5,1,,,,,,,RSSSF,rsssf:arg71:1276,,
 1971-nacional-0086,1971 Nacional,Primeira fase,A,14,1971-12-12,,Ferro Carril Oeste,River Plate,1,1,,,,,,,RSSSF,rsssf:arg71:1279,,
 1971-nacional-0087,1971 Nacional,Primeira fase,A,14,1971-12-12,,Independiente,Argentinos Juniors,3,1,,,,,,,RSSSF,rsssf:arg71:1281,,
 1971-nacional-0088,1971 Nacional,Primeira fase,A,14,1971-12-12,,Kimberley,Huracán,2,0,,,,,,,RSSSF,rsssf:arg71:1283,,
@@ -20577,7 +20577,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-nacional-0093,1971 Nacional,Primeira fase,B,1,1971-10-09,,Guaraní Antonio Franco,Boca Juniors,0,1,,,,,,,RSSSF,rsssf:arg71:1350,,
 1971-nacional-0094,1971 Nacional,Primeira fase,B,1,1971-10-09,,Vélez Sarsfield,Atlanta,1,1,,,,,,,RSSSF,rsssf:arg71:1352,,
 1971-nacional-0095,1971 Nacional,Primeira fase,B,1,1971-10-09,,San Lorenzo,Chacarita Juniors,1,0,,,,,,,RSSSF,rsssf:arg71:1354,,
-1971-nacional-0096,1971 Nacional,Primeira fase,B,1,1971-10-09,,Rosario Central,San Martín de Tucumán,5,1,,,,,,,RSSSF,rsssf:arg71:1356,"Colman, Gramajo(2), Poy, J.González Calderón",
+1971-nacional-0096,1971 Nacional,Primeira fase,B,1,1971-10-09,,Rosario Central,San Martín de Tucumán,5,1,,,,,,,RSSSF,rsssf:arg71:1356,,
 1971-nacional-0097,1971 Nacional,Primeira fase,B,1,1971-10-09,,Huracán de Bahía Blanca,Central Córdoba de Santiago del Estero,2,0,,,,,,,RSSSF,rsssf:arg71:1359,,
 1971-nacional-0098,1971 Nacional,Primeira fase,B,1,1971-10-09,,Gimnasia de Mendoza,Estudiantes,2,1,,,,,,,RSSSF,rsssf:arg71:1361,,
 1971-nacional-0099,1971 Nacional,Primeira fase,B,2,1971-10-12,,Gimnasia de Mendoza,Guaraní Antonio Franco,4,1,,,,,,,RSSSF,rsssf:arg71:1367,,
@@ -20587,11 +20587,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-nacional-0103,1971 Nacional,Primeira fase,B,2,1971-10-12,,Chacarita Juniors,Racing Club,2,1,,,,,,,RSSSF,rsssf:arg71:1374,,
 1971-nacional-0104,1971 Nacional,Primeira fase,B,2,1971-10-12,,Colón,Vélez Sarsfield,2,0,,,,,,,RSSSF,rsssf:arg71:1376,,
 1971-nacional-0105,1971 Nacional,Primeira fase,B,2,1971-10-12,,Atlanta,Boca Juniors,1,1,,,,,,,RSSSF,rsssf:arg71:1378,,
-1971-nacional-0106,1971 Nacional,Primeira fase,B,3,1971-10-15,,Boca Juniors,Colón,7,1,,,,,,,RSSSF,rsssf:arg71:1384,"Potente, Peña(2), Savoy(2), Pianetti, Peracca Ripke",
+1971-nacional-0106,1971 Nacional,Primeira fase,B,3,1971-10-15,,Boca Juniors,Colón,7,1,,,,,,,RSSSF,rsssf:arg71:1384,,
 1971-nacional-0107,1971 Nacional,Primeira fase,B,3,1971-10-17,,Guaraní Antonio Franco,Atlanta,1,1,,,,,,,RSSSF,rsssf:arg71:1388,,
 1971-nacional-0108,1971 Nacional,Primeira fase,B,3,1971-10-17,,Vélez Sarsfield,Chacarita Juniors,1,1,,,,,,,RSSSF,rsssf:arg71:1390,,
 1971-nacional-0109,1971 Nacional,Primeira fase,B,3,1971-10-17,,Racing Club,San Martín de Tucumán,3,1,,,,,,,RSSSF,rsssf:arg71:1392,,
-1971-nacional-0110,1971 Nacional,Primeira fase,B,3,1971-10-17,,San Lorenzo,Central Córdoba de Santiago del Estero,7,1,,,,,,,RSSSF,rsssf:arg71:1394,"Ayala(3), E.Chazarreta(2), García Ameijenda, Fischer Bucci",
+1971-nacional-0110,1971 Nacional,Primeira fase,B,3,1971-10-17,,San Lorenzo,Central Córdoba de Santiago del Estero,7,1,,,,,,,RSSSF,rsssf:arg71:1394,,
 1971-nacional-0111,1971 Nacional,Primeira fase,B,3,1971-10-17,,Rosario Central,Estudiantes,2,0,,,,,,,RSSSF,rsssf:arg71:1397,,
 1971-nacional-0112,1971 Nacional,Primeira fase,B,3,1971-10-17,,Huracán de Bahía Blanca,Gimnasia de Mendoza,0,0,,,,,,,RSSSF,rsssf:arg71:1399,,
 1971-nacional-0113,1971 Nacional,Primeira fase,B,4,1971-10-20,,Huracán de Bahía Blanca,Guaraní Antonio Franco,3,2,,,,,,,RSSSF,rsssf:arg71:1404,,
@@ -20621,7 +20621,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-nacional-0137,1971 Nacional,Primeira fase,B,7,1971-11-03,,Boca Juniors,Estudiantes,2,0,,,,,,,RSSSF,rsssf:arg71:1465,,
 1971-nacional-0138,1971 Nacional,Primeira fase,B,7,1971-11-03,,Vélez Sarsfield,Gimnasia de Mendoza,1,1,,,,,,,RSSSF,rsssf:arg71:1467,,
 1971-nacional-0139,1971 Nacional,Primeira fase,B,7,1971-11-03,,Racing Club,Huracán de Bahía Blanca,1,1,,,,,,,RSSSF,rsssf:arg71:1469,,
-1971-nacional-0140,1971 Nacional,Primeira fase,B,7,1971-11-04,,San Lorenzo,Rosario Central,5,1,,,,,,,RSSSF,rsssf:arg71:1472,"Scotta(2), Telch, Chazarreta, Glaria Villagra",
+1971-nacional-0140,1971 Nacional,Primeira fase,B,7,1971-11-04,,San Lorenzo,Rosario Central,5,1,,,,,,,RSSSF,rsssf:arg71:1472,,
 1971-nacional-0141,1971 Nacional,Primeira fase,B,8,1971-11-07,,San Lorenzo,Guaraní Antonio Franco,2,3,,,,,,,RSSSF,rsssf:arg71:1479,,
 1971-nacional-0142,1971 Nacional,Primeira fase,B,8,1971-11-07,,Rosario Central,Racing Club,4,2,,,,,,,RSSSF,rsssf:arg71:1481,,
 1971-nacional-0143,1971 Nacional,Primeira fase,B,8,1971-11-07,,Huracán de Bahía Blanca,Vélez Sarsfield,0,1,,,,,,,RSSSF,rsssf:arg71:1483,,
@@ -20638,7 +20638,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-nacional-0154,1971 Nacional,Primeira fase,B,9,1971-11-14,,Racing Club,San Lorenzo,2,3,,,,,,,RSSSF,rsssf:arg71:1508,,
 1971-nacional-0155,1971 Nacional,Primeira fase,B,10,1971-11-21,,Guaraní Antonio Franco,Racing Club,1,1,,,,,,,RSSSF,rsssf:arg71:1514,,
 1971-nacional-0156,1971 Nacional,Primeira fase,B,10,1971-11-21,,San Lorenzo,Vélez Sarsfield,1,1,,,,,,,RSSSF,rsssf:arg71:1516,,
-1971-nacional-0157,1971 Nacional,Primeira fase,B,10,1971-11-21,,Rosario Central,Boca Juniors,6,2,,,,,,,RSSSF,rsssf:arg71:1518,"R.Rodríguez, Zavagno(2), Astegiano(2), Aricó Bongiovanni, Galletti",
+1971-nacional-0157,1971 Nacional,Primeira fase,B,10,1971-11-21,,Rosario Central,Boca Juniors,6,2,,,,,,,RSSSF,rsssf:arg71:1518,,
 1971-nacional-0158,1971 Nacional,Primeira fase,B,10,1971-11-21,,Huracán de Bahía Blanca,Atlanta,0,5,,,,,,,RSSSF,rsssf:arg71:1521,,
 1971-nacional-0159,1971 Nacional,Primeira fase,B,10,1971-11-21,,Gimnasia de Mendoza,Colón,2,1,,,,,,,RSSSF,rsssf:arg71:1523,,
 1971-nacional-0160,1971 Nacional,Primeira fase,B,10,1971-11-21,,Estudiantes,Chacarita Juniors,4,0,,,,,,,RSSSF,rsssf:arg71:1525,,
@@ -20655,7 +20655,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1971-nacional-0171,1971 Nacional,Primeira fase,B,13,1971-12-08,,San Lorenzo,Atlanta,3,1,,,,,,,RSSSF,rsssf:arg71:1555,,
 1971-nacional-0172,1971 Nacional,Primeira fase,B,13,1971-12-08,,Rosario Central,Colón,0,0,,,,,,,RSSSF,rsssf:arg71:1557,,
 1971-nacional-0173,1971 Nacional,Primeira fase,B,13,1971-12-08,,Huracán de Bahía Blanca,Chacarita Juniors,0,3,,,,,,,RSSSF,rsssf:arg71:1558,,
-1971-nacional-0174,1971 Nacional,Primeira fase,B,13,1971-12-08,,Gimnasia de Mendoza,San Martín de Tucumán,5,4,,,,,,,RSSSF,rsssf:arg71:1560,"Burgos, Luna, Legrotaglie, Guzmán, Benítez Villalón(3), E.Sosa",
+1971-nacional-0174,1971 Nacional,Primeira fase,B,13,1971-12-08,,Gimnasia de Mendoza,San Martín de Tucumán,5,4,,,,,,,RSSSF,rsssf:arg71:1560,,
 1971-nacional-0175,1971 Nacional,Primeira fase,B,13,1971-12-08,,Central Córdoba de Santiago del Estero,Estudiantes,2,2,,,,,,,RSSSF,rsssf:arg71:1563,,
 1971-nacional-0176,1971 Nacional,Primeira fase,B,14,1971-12-12,,Guaraní Antonio Franco,Estudiantes,0,1,,,,,,,RSSSF,rsssf:arg71:1569,,
 1971-nacional-0177,1971 Nacional,Primeira fase,B,14,1971-12-12,,Central Córdoba de Santiago del Estero,Gimnasia de Mendoza,1,2,,,,,,,RSSSF,rsssf:arg71:1571,,
@@ -22848,7 +22848,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1975-nacional-0279,1975 Nacional,Fase final,,22,1975-12-21,,River Plate,Estudiantes,1,0,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg75:1153,,at Vélez Sarsfield
 1975-nacional-0280,1975 Nacional,Fase final,,22,1975-12-21,,Temperley,San Lorenzo,2,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg75:1154,,at Racing Club
 1975-nacional-0281,1975 Nacional,Fase final,,23,1975-12-28,,Estudiantes,Temperley,2,0,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg75:1157,,at Racing Club
-1975-nacional-0282,1975 Nacional,Fase final,,23,1975-12-28,,Rosario Central,River Plate,1,2,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg75:1158,"Zavagno 32 / Luque 17, Reinaldi 89",at Newell's Old Boys
+1975-nacional-0282,1975 Nacional,Fase final,,23,1975-12-28,,Rosario Central,River Plate,1,2,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg75:1158,,at Newell's Old Boys
 1975-nacional-0283,1975 Nacional,Fase final,,23,1975-12-28,,San Lorenzo,Gimnasia de Jujuy,3,0,,,,Estádio do Huracán,,,RSSSF,rsssf:arg75:1160,,at Huracán (Buenos Aires)
 1975-nacional-0284,1975 Nacional,Fase final,,23,1975-12-28,,Talleres,Atlético Tucumán,5,2,,,,Estádio do Belgrano,,,RSSSF,rsssf:arg75:1161,,at Belgrano (Córdoba)
 1975-nacional-0285,1975 Nacional,Fase final,,23,1976-01-25,,Huracán,Estudiantes,2,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg75:1201,,at Racing Club
@@ -22903,7 +22903,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-metropolitano-0049,1976 Metropolitano,Primeira fase,A,10,1976-04-04,,Boca Juniors,Atlanta,3,0,,,,,,,RSSSF,rsssf:arg76:159,,
 1976-metropolitano-0050,1976 Metropolitano,Primeira fase,A,10,1976-04-04,,Rosario Central,San Telmo,3,1,,,,Estádio do Villa Dálmine,,,RSSSF,rsssf:arg76:161,,at Villa Dálmine
 1976-metropolitano-0051,1976 Metropolitano,Primeira fase,A,10,1976-04-04,,Estudiantes,Ferro Carril Oeste,1,0,,,,,,,RSSSF,rsssf:arg76:163,,
-1976-metropolitano-0052,1976 Metropolitano,Primeira fase,A,11,1976-04-11,,Ferro Carril Oeste,Colón,6,3,,,,,,,RSSSF,rsssf:arg76:168,"R.Domínguez(2), M.Gutiérrez(3), C.Arregui E.Fernández, E.Alvarez(2)",
+1976-metropolitano-0052,1976 Metropolitano,Primeira fase,A,11,1976-04-11,,Ferro Carril Oeste,Colón,6,3,,,,,,,RSSSF,rsssf:arg76:168,,
 1976-metropolitano-0053,1976 Metropolitano,Primeira fase,A,11,1976-04-11,,San Telmo,Estudiantes,2,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg76:171,,at Huracán (Buenos Aires)
 1976-metropolitano-0054,1976 Metropolitano,Primeira fase,A,11,1976-04-11,,Banfield,Rosario Central,1,3,,,,,,,RSSSF,rsssf:arg76:173,,
 1976-metropolitano-0055,1976 Metropolitano,Primeira fase,A,11,1976-04-11,,Atlanta,Huracán,0,2,,,,,,,RSSSF,rsssf:arg76:175,,
@@ -23008,7 +23008,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-metropolitano-0154,1976 Metropolitano,Primeira fase,B,9,1976-03-28,,Newell's Old Boys,Vélez Sarsfield,1,0,,,,,,,RSSSF,rsssf:arg76:472,,
 1976-metropolitano-0155,1976 Metropolitano,Primeira fase,B,9,1976-03-28,,San Lorenzo,Quilmes,1,0,,,,,,,RSSSF,rsssf:arg76:474,,
 1976-metropolitano-0156,1976 Metropolitano,Primeira fase,B,9,1976-03-28,,Argentinos Juniors,Chacarita Juniors,1,2,,,,,,,RSSSF,rsssf:arg76:476,,
-1976-metropolitano-0157,1976 Metropolitano,Primeira fase,B,10,1976-04-04,,Racing Club,Argentinos Juniors,6,3,,,,,,,RSSSF,rsssf:arg76:481,"Fortunato(2), Glaria(2), Correa, Gottardi C.Alvarez, Carrizo, Hallar",
+1976-metropolitano-0157,1976 Metropolitano,Primeira fase,B,10,1976-04-04,,Racing Club,Argentinos Juniors,6,3,,,,,,,RSSSF,rsssf:arg76:481,,
 1976-metropolitano-0158,1976 Metropolitano,Primeira fase,B,10,1976-04-04,,Chacarita Juniors,River Plate,2,1,,,,Estádio do Huracán,,,RSSSF,rsssf:arg76:484,,at Huracán (Buenos Aires)
 1976-metropolitano-0159,1976 Metropolitano,Primeira fase,B,10,1976-04-04,,Temperley,San Lorenzo,0,2,,,,,,,RSSSF,rsssf:arg76:486,,
 1976-metropolitano-0160,1976 Metropolitano,Primeira fase,B,10,1976-04-04,,Quilmes,Newell's Old Boys,2,4,,,,,,,RSSSF,rsssf:arg76:488,,
@@ -23043,7 +23043,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-metropolitano-0189,1976 Metropolitano,Primeira fase,B,16,1976-05-09,,Unión,Argentinos Juniors,3,1,,,,,,,RSSSF,rsssf:arg76:565,,
 1976-metropolitano-0190,1976 Metropolitano,Primeira fase,B,16,1976-05-09,,Vélez Sarsfield,Racing Club,1,1,,,,,,,RSSSF,rsssf:arg76:567,,
 1976-metropolitano-0191,1976 Metropolitano,Primeira fase,B,16,1976-05-09,,Quilmes,Chacarita Juniors,2,0,,,,,,,RSSSF,rsssf:arg76:569,,
-1976-metropolitano-0192,1976 Metropolitano,Primeira fase,B,17,1976-05-16,,Chacarita Juniors,Temperley,5,3,,,,Estádio do All Boys,,,RSSSF,rsssf:arg76:574,"Orellana, Ferrero(2), Bordón, C.Rodríguez Romero(2), O.Sánchez",at All Boys
+1976-metropolitano-0192,1976 Metropolitano,Primeira fase,B,17,1976-05-16,,Chacarita Juniors,Temperley,5,3,,,,Estádio do All Boys,,,RSSSF,rsssf:arg76:574,,at All Boys
 1976-metropolitano-0193,1976 Metropolitano,Primeira fase,B,17,1976-05-16,,Racing Club,Quilmes,2,0,,,,,,,RSSSF,rsssf:arg76:577,,
 1976-metropolitano-0194,1976 Metropolitano,Primeira fase,B,17,1976-05-16,,Argentinos Juniors,Vélez Sarsfield,1,6,,,,,,,RSSSF,rsssf:arg76:579,,
 1976-metropolitano-0195,1976 Metropolitano,Primeira fase,B,17,1976-05-16,,River Plate,Unión,2,2,,,,,,,RSSSF,rsssf:arg76:581,,
@@ -23114,7 +23114,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-metropolitano-0260,1976 Metropolitano,Grupo do rebaixamento,,4,1976-07-02,,Temperley,Vélez Sarsfield,1,0,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg76:1081,,at Racing Club
 1976-metropolitano-0261,1976 Metropolitano,Grupo do rebaixamento,,4,1976-07-04,,Ferro Carril Oeste,Argentinos Juniors,1,1,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg76:1084,,at Vélez Sarsfield
 1976-metropolitano-0262,1976 Metropolitano,Grupo do rebaixamento,,4,1976-07-04,,Atlanta,Chacarita Juniors,2,0,,,,Estádio do Argentinos Juniors,,,RSSSF,rsssf:arg76:1086,,at Argentinos Juniors
-1976-metropolitano-0263,1976 Metropolitano,Grupo do rebaixamento,,4,1976-07-04,,Banfield,San Telmo,6,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg76:1088,"Brizzola, Cerqueiro(2), Ferlich, Pitarch, M.González Pisapia(2), Rilo",at Racing Club
+1976-metropolitano-0263,1976 Metropolitano,Grupo do rebaixamento,,4,1976-07-04,,Banfield,San Telmo,6,3,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg76:1088,,at Racing Club
 1976-metropolitano-0264,1976 Metropolitano,Grupo do rebaixamento,,4,1976-07-04,,Racing Club,All Boys,2,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg76:1091,,at Ferro Carril Oeste (Buenos Aires)
 1976-metropolitano-0265,1976 Metropolitano,Grupo do rebaixamento,,5,1976-07-11,,Argentinos Juniors,San Telmo,1,1,,,,Estádio do All Boys,,,RSSSF,rsssf:arg76:1096,,at All Boys
 1976-metropolitano-0266,1976 Metropolitano,Grupo do rebaixamento,,5,1976-07-11,,Atlanta,Temperley,2,1,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg76:1098,,at Vélez Sarsfield
@@ -23267,7 +23267,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-nacional-0058,1976 Nacional,Primeira fase,B,1,1976-09-12,,Estudiantes,Racing Club,0,3,,,,,,,RSSSF,rsssf:arg76:1399,,
 1976-nacional-0059,1976 Nacional,Primeira fase,B,1,1976-09-12,,Atlético Ledesma,San Martín de Tucumán,0,0,,,,,,,RSSSF,rsssf:arg76:1401,,
 1976-nacional-0060,1976 Nacional,Primeira fase,B,1,1976-09-12,,Atlanta,San Telmo,2,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg76:1402,,at Ferro Carril Oeste (Buenos Aires)
-1976-nacional-0061,1976 Nacional,Primeira fase,B,2,1976-09-19,,River Plate,San Telmo,7,1,,,,,,,RSSSF,rsssf:arg76:1407,"Passarella, Beltrán(2), Luque, Cocco, Pintos o/g, P.González Pisapia",
+1976-nacional-0061,1976 Nacional,Primeira fase,B,2,1976-09-19,,River Plate,San Telmo,7,1,,,,,,,RSSSF,rsssf:arg76:1407,,
 1976-nacional-0062,1976 Nacional,Primeira fase,B,2,1976-09-19,,San Martín de Tucumán,Atlanta,1,0,,,,,,,RSSSF,rsssf:arg76:1410,,
 1976-nacional-0063,1976 Nacional,Primeira fase,B,2,1976-09-19,,Racing Club,Atlético Ledesma,1,0,,,,,,,RSSSF,rsssf:arg76:1412,,
 1976-nacional-0064,1976 Nacional,Primeira fase,B,2,1976-09-19,,Banfield,Estudiantes,1,1,,,,,,,RSSSF,rsssf:arg76:1414,,
@@ -23426,7 +23426,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-nacional-0217,1976 Nacional,Primeira fase,D,4,1976-09-29,,Ferro Carril Oeste,Talleres,3,1,,,,,,,RSSSF,rsssf:arg76:1894,,
 1976-nacional-0218,1976 Nacional,Primeira fase,D,5,1976-10-03,,Newell's Old Boys,Ferro Carril Oeste,2,0,,,,,,,RSSSF,rsssf:arg76:1899,,
 1976-nacional-0219,1976 Nacional,Primeira fase,D,5,1976-10-03,,Talleres,Huracán de Comodoro Rivadavia,2,1,,,,,,,RSSSF,rsssf:arg76:1901,,
-1976-nacional-0220,1976 Nacional,Primeira fase,D,5,1976-10-03,,San Lorenzo,San Lorenzo de Mar del Plata,5,2,,,,,,,RSSSF,rsssf:arg76:1903,"Olguín, Maletti, Laclau, Villarreal, Olivares Eresuma(2)",
+1976-nacional-0220,1976 Nacional,Primeira fase,D,5,1976-10-03,,San Lorenzo,San Lorenzo de Mar del Plata,5,2,,,,,,,RSSSF,rsssf:arg76:1903,,
 1976-nacional-0221,1976 Nacional,Primeira fase,D,5,1976-10-03,,Colón,Central Norte,2,1,,,,,,,RSSSF,rsssf:arg76:1906,,
 1976-nacional-0222,1976 Nacional,Primeira fase,D,6,1976-10-10,,Argentinos Juniors,Colón,0,1,,,,,,,RSSSF,rsssf:arg76:1911,,
 1976-nacional-0223,1976 Nacional,Primeira fase,D,6,1976-10-10,,Central Norte,San Lorenzo,1,1,,,,,,,RSSSF,rsssf:arg76:1913,,
@@ -23458,7 +23458,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-nacional-0249,1976 Nacional,Primeira fase,D,12,1976-11-14,,San Lorenzo de Mar del Plata,Argentinos Juniors,2,5,,,,,,,RSSSF,rsssf:arg76:1981,,
 1976-nacional-0250,1976 Nacional,Primeira fase,D,13,1976-11-21,,Argentinos Juniors,Central Norte,3,0,,,,,,,RSSSF,rsssf:arg76:1986,,
 1976-nacional-0251,1976 Nacional,Primeira fase,D,13,1976-11-21,,Colón,San Lorenzo de Mar del Plata,2,0,,,,,,,RSSSF,rsssf:arg76:1988,,
-1976-nacional-0252,1976 Nacional,Primeira fase,D,13,1976-11-21,,San Lorenzo,Huracán de Comodoro Rivadavia,5,1,,,,,,,RSSSF,rsssf:arg76:1990,"A.Rodríguez, Mendoza, Villar, Marangoni, Rizzi Giantomasi",
+1976-nacional-0252,1976 Nacional,Primeira fase,D,13,1976-11-21,,San Lorenzo,Huracán de Comodoro Rivadavia,5,1,,,,,,,RSSSF,rsssf:arg76:1990,,
 1976-nacional-0253,1976 Nacional,Primeira fase,D,13,1976-11-21,,Talleres,Ferro Carril Oeste,3,1,,,,,,,RSSSF,rsssf:arg76:1993,,
 1976-nacional-0254,1976 Nacional,Primeira fase,D,14,1976-11-24,,Ferro Carril Oeste,Newell's Old Boys,1,1,,,,,,,RSSSF,rsssf:arg76:1998,,
 1976-nacional-0255,1976 Nacional,Primeira fase,D,14,1976-11-24,,Huracán de Comodoro Rivadavia,Talleres,1,1,,,,,,,RSSSF,rsssf:arg76:2000,,
@@ -23467,7 +23467,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-nacional-0258,1976 Nacional,Primeira fase,D,15,1976-12-01,,Colón,Argentinos Juniors,0,0,,,,,,,RSSSF,rsssf:arg76:2009,,
 1976-nacional-0259,1976 Nacional,Primeira fase,D,15,1976-12-01,,San Lorenzo,Central Norte,1,0,,,,,,,RSSSF,rsssf:arg76:2010,,
 1976-nacional-0260,1976 Nacional,Primeira fase,D,15,1976-12-01,,Talleres,San Lorenzo de Mar del Plata,5,0,,,,,,,RSSSF,rsssf:arg76:2012,,
-1976-nacional-0261,1976 Nacional,Primeira fase,D,15,1976-12-01,,Newell's Old Boys,Huracán de Comodoro Rivadavia,5,2,,,,,,,RSSSF,rsssf:arg76:2014,"Berta, Gallego, Moyano, Sperandío, Montes Britapaja, Zucarelli",
+1976-nacional-0261,1976 Nacional,Primeira fase,D,15,1976-12-01,,Newell's Old Boys,Huracán de Comodoro Rivadavia,5,2,,,,,,,RSSSF,rsssf:arg76:2014,,
 1976-nacional-0262,1976 Nacional,Primeira fase,D,16,1976-12-05,,Huracán de Comodoro Rivadavia,Ferro Carril Oeste,0,2,,,,,,,RSSSF,rsssf:arg76:2020,,
 1976-nacional-0263,1976 Nacional,Primeira fase,D,16,1976-12-05,,San Lorenzo de Mar del Plata,Newell's Old Boys,1,3,,,,,,,RSSSF,rsssf:arg76:2022,,
 1976-nacional-0264,1976 Nacional,Primeira fase,D,16,1976-12-05,,Central Norte,Talleres,1,1,,,,,,,RSSSF,rsssf:arg76:2024,,
@@ -23475,7 +23475,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1976-nacional-0266,1976 Nacional,Primeira fase,D,17,1976-12-08,,San Lorenzo,Colón,0,0,,,,,,,RSSSF,rsssf:arg76:2031,,
 1976-nacional-0267,1976 Nacional,Primeira fase,D,17,1976-12-08,,Talleres,Argentinos Juniors,5,0,,,,,,,RSSSF,rsssf:arg76:2032,,
 1976-nacional-0268,1976 Nacional,Primeira fase,D,17,1976-12-08,,Newell's Old Boys,Central Norte,5,1,,,,,,,RSSSF,rsssf:arg76:2034,,
-1976-nacional-0269,1976 Nacional,Primeira fase,D,17,1976-12-08,,Ferro Carril Oeste,San Lorenzo de Mar del Plata,10,3,,,,,,,RSSSF,rsssf:arg76:2036,"Rocchia(2), Franco, H.Arregui(2), Eiras, Vidal(2), Parisi, C.Arregui Eresuma(2), Mascareño",
+1976-nacional-0269,1976 Nacional,Primeira fase,D,17,1976-12-08,,Ferro Carril Oeste,San Lorenzo de Mar del Plata,10,3,,,,,,,RSSSF,rsssf:arg76:2036,,
 1976-nacional-0270,1976 Nacional,Primeira fase,D,18,1976-12-12,,San Lorenzo de Mar del Plata,Huracán de Comodoro Rivadavia,1,2,,,,,,,RSSSF,rsssf:arg76:2042,,
 1976-nacional-0271,1976 Nacional,Primeira fase,D,18,1976-12-12,,Central Norte,Ferro Carril Oeste,0,1,,,,,,,RSSSF,rsssf:arg76:2044,,
 1976-nacional-0272,1976 Nacional,Primeira fase,D,18,1976-12-12,,Argentinos Juniors,Newell's Old Boys,1,2,,,,,,,RSSSF,rsssf:arg76:2046,,
@@ -23510,8 +23510,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0001,1977 Metropolitano,Fase única,,1,1977-02-20,,Racing Club,Chacarita Juniors,1,0,,,,,,,RSSSF,rsssf:arg77:54,,
 1977-metropolitano-0002,1977 Metropolitano,Fase única,,1,1977-02-20,,Newell's Old Boys,Platense,1,0,,,,,,,RSSSF,rsssf:arg77:56,,
 1977-metropolitano-0003,1977 Metropolitano,Fase única,,1,1977-02-20,,Argentinos Juniors,Quilmes,,,,,abd,,,,RSSSF,rsssf:arg77:58,C.Alvarez]                     [Filardo,abandonado ou suspenso com 1-1; não vale na tabela; Suspended in 45' because the rain
-1977-metropolitano-0004,1977 Metropolitano,Fase única,,1,1977-02-20,,Unión,Gimnasia La Plata,4,1,,,,,,,RSSSF,rsssf:arg77:60,"Trossero(2), Marasco, J.Martínez Coronel",
-1977-metropolitano-0005,1977 Metropolitano,Fase única,,1,1977-02-20,,River Plate,Temperley,6,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:63,"Marchetti(2), Ortiz, Passarella(2), Pitarch Forlán, Bello Meza",at Huracán
+1977-metropolitano-0004,1977 Metropolitano,Fase única,,1,1977-02-20,,Unión,Gimnasia La Plata,4,1,,,,,,,RSSSF,rsssf:arg77:60,,
+1977-metropolitano-0005,1977 Metropolitano,Fase única,,1,1977-02-20,,River Plate,Temperley,6,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:63,,at Huracán
 1977-metropolitano-0006,1977 Metropolitano,Fase única,,1,1977-02-20,,San Lorenzo,Ferro Carril Oeste,2,1,,,,,,,RSSSF,rsssf:arg77:66,,
 1977-metropolitano-0007,1977 Metropolitano,Fase única,,1,1977-02-20,,Vélez Sarsfield,Boca Juniors,,,,,abd,,,,RSSSF,rsssf:arg77:68,,abandonado ou suspenso com 2-2; não vale na tabela; Suspended in 45' because the rain
 1977-metropolitano-0008,1977 Metropolitano,Fase única,,1,1977-02-20,,Banfield,Huracán,,,,,abd,,,,RSSSF,rsssf:arg77:69,,abandonado ou suspenso com 0-1; não vale na tabela; Suspended in 45' because the rain
@@ -23538,7 +23538,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0029,1977 Metropolitano,Fase única,,3,1977-03-13,,Newell's Old Boys,Racing Club,1,0,,,,,,,RSSSF,rsssf:arg77:121,,
 1977-metropolitano-0030,1977 Metropolitano,Fase única,,3,1977-03-13,,Argentinos Juniors,Chacarita Juniors,2,1,,,,,,,RSSSF,rsssf:arg77:123,,
 1977-metropolitano-0031,1977 Metropolitano,Fase única,,3,1977-03-13,,Unión,Platense,1,1,,,,,,,RSSSF,rsssf:arg77:125,,
-1977-metropolitano-0032,1977 Metropolitano,Fase única,,3,1977-03-13,,River Plate,Quilmes,3,1,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:127,"P.González, Marchetti, Comelles Salinas",at Huracán
+1977-metropolitano-0032,1977 Metropolitano,Fase única,,3,1977-03-13,,River Plate,Quilmes,3,1,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:127,,at Huracán
 1977-metropolitano-0033,1977 Metropolitano,Fase única,,3,1977-03-13,,San Lorenzo,Gimnasia La Plata,0,0,,,,,,,RSSSF,rsssf:arg77:130,,
 1977-metropolitano-0034,1977 Metropolitano,Fase única,,3,1977-03-13,,Vélez Sarsfield,Temperley,2,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:131,,at Ferro Carril Oeste
 1977-metropolitano-0035,1977 Metropolitano,Fase única,,3,1977-03-13,,Banfield,Ferro Carril Oeste,3,2,,,,,,,RSSSF,rsssf:arg77:133,,
@@ -23551,7 +23551,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0042,1977 Metropolitano,Fase única,,4,1977-03-20,,Boca Juniors,Lanús,2,0,,,,,,,RSSSF,rsssf:arg77:151,,
 1977-metropolitano-0043,1977 Metropolitano,Fase única,,4,1977-03-20,,Ferro Carril Oeste,Estudiantes,1,2,,,,,,,RSSSF,rsssf:arg77:153,,
 1977-metropolitano-0044,1977 Metropolitano,Fase única,,4,1977-03-20,,Temperley,Banfield,0,1,,,,,,,RSSSF,rsssf:arg77:155,,
-1977-metropolitano-0045,1977 Metropolitano,Fase única,,4,1977-03-20,,Gimnasia La Plata,Vélez Sarsfield,5,1,,,,,,,RSSSF,rsssf:arg77:157,"Taverna(2), O.Pérez, Lazbal, Fornari Iervasi",
+1977-metropolitano-0045,1977 Metropolitano,Fase única,,4,1977-03-20,,Gimnasia La Plata,Vélez Sarsfield,5,1,,,,,,,RSSSF,rsssf:arg77:157,,
 1977-metropolitano-0046,1977 Metropolitano,Fase única,,4,1977-03-20,,Quilmes,San Lorenzo,0,0,,,,,,,RSSSF,rsssf:arg77:160,,
 1977-metropolitano-0047,1977 Metropolitano,Fase única,,4,1977-03-20,,Platense,River Plate,2,5,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg77:161,,at Atlanta
 1977-metropolitano-0048,1977 Metropolitano,Fase única,,4,1977-03-20,,Chacarita Juniors,Unión,1,1,,,,,,,RSSSF,rsssf:arg77:163,,
@@ -23561,8 +23561,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0052,1977 Metropolitano,Fase única,,5,1977-03-27,,Unión,Racing Club,1,1,,,,,,,RSSSF,rsssf:arg77:177,,
 1977-metropolitano-0053,1977 Metropolitano,Fase única,,5,1977-03-27,,San Lorenzo,Platense,0,0,,,,,,,RSSSF,rsssf:arg77:179,,
 1977-metropolitano-0054,1977 Metropolitano,Fase única,,5,1977-03-27,,Vélez Sarsfield,Quilmes,1,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:180,,at Ferro Carril Oeste
-1977-metropolitano-0055,1977 Metropolitano,Fase única,,5,1977-03-27,,Banfield,Gimnasia La Plata,5,1,,,,,,,RSSSF,rsssf:arg77:182,"P.Gómez, Orte, Crespo, M.González, Lo Gatto Di Bastiano",
-1977-metropolitano-0056,1977 Metropolitano,Fase única,,5,1977-03-27,,Estudiantes,Temperley,5,2,,,,,,,RSSSF,rsssf:arg77:185,"Rocca, Letanú(2), Frassoldati, Gottardi Freire, Bello Meza",
+1977-metropolitano-0055,1977 Metropolitano,Fase única,,5,1977-03-27,,Banfield,Gimnasia La Plata,5,1,,,,,,,RSSSF,rsssf:arg77:182,,
+1977-metropolitano-0056,1977 Metropolitano,Fase única,,5,1977-03-27,,Estudiantes,Temperley,5,2,,,,,,,RSSSF,rsssf:arg77:185,,
 1977-metropolitano-0057,1977 Metropolitano,Fase única,,5,1977-03-27,,Lanús,Ferro Carril Oeste,1,1,,,,,,,RSSSF,rsssf:arg77:188,,
 1977-metropolitano-0058,1977 Metropolitano,Fase única,,5,1977-03-27,,Atlanta,Boca Juniors,1,0,,,,,,,RSSSF,rsssf:arg77:190,,
 1977-metropolitano-0059,1977 Metropolitano,Fase única,,5,1977-03-27,,Independiente,Huracán,1,1,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg77:192,,at Racing Club
@@ -23585,11 +23585,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0076,1977 Metropolitano,Fase única,,7,1977-04-07,,Banfield,Platense,1,1,,,,,,,RSSSF,rsssf:arg77:237,,
 1977-metropolitano-0077,1977 Metropolitano,Fase única,,7,1977-04-07,,Estudiantes,Quilmes,1,3,,,,,,,RSSSF,rsssf:arg77:239,,
 1977-metropolitano-0078,1977 Metropolitano,Fase única,,7,1977-04-07,,Lanús,Gimnasia La Plata,1,0,,,,,,,RSSSF,rsssf:arg77:241,,
-1977-metropolitano-0079,1977 Metropolitano,Fase única,,7,1977-04-07,,Atlanta,Temperley,5,2,,,,,,,RSSSF,rsssf:arg77:243,"Contreras, Cocco, Ramos, Maletti, Carrió Biondi, García Sangenis",
+1977-metropolitano-0079,1977 Metropolitano,Fase única,,7,1977-04-07,,Atlanta,Temperley,5,2,,,,,,,RSSSF,rsssf:arg77:243,,
 1977-metropolitano-0080,1977 Metropolitano,Fase única,,7,1977-04-07,,Independiente,Ferro Carril Oeste,4,2,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg77:246,,at Racing Club
 1977-metropolitano-0081,1977 Metropolitano,Fase única,,7,1977-04-07,,Rosario Central,Boca Juniors,1,0,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:248,,at Newell's Old Boys
 1977-metropolitano-0082,1977 Metropolitano,Fase única,,7,1977-04-07,,All Boys,Huracán,1,0,,,,,,,RSSSF,rsssf:arg77:250,,
-1977-metropolitano-0083,1977 Metropolitano,Fase única,,8,1977-04-09,,Boca Juniors,All Boys,5,1,,,,,,,RSSSF,rsssf:arg77:257,"Mouzo, Veglio, Sánchez o/g, Mastrángelo, Lacava Schell Britapaja",
+1977-metropolitano-0083,1977 Metropolitano,Fase única,,8,1977-04-09,,Boca Juniors,All Boys,5,1,,,,,,,RSSSF,rsssf:arg77:257,,
 1977-metropolitano-0084,1977 Metropolitano,Fase única,,8,1977-04-10,,Huracán,Colón,1,1,,,,,,,RSSSF,rsssf:arg77:261,,
 1977-metropolitano-0085,1977 Metropolitano,Fase única,,8,1977-04-10,,Ferro Carril Oeste,Rosario Central,1,8,,,,,,,RSSSF,rsssf:arg77:263,,
 1977-metropolitano-0086,1977 Metropolitano,Fase única,,8,1977-04-10,,Temperley,Independiente,1,1,,,,,,,RSSSF,rsssf:arg77:265,,
@@ -23601,11 +23601,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0092,1977 Metropolitano,Fase única,,8,1977-04-10,,Newell's Old Boys,San Lorenzo,2,0,,,,,,,RSSSF,rsssf:arg77:277,,
 1977-metropolitano-0093,1977 Metropolitano,Fase única,,8,1977-04-10,,Argentinos Juniors,River Plate,0,2,,,,Estádio do Boca Juniors,,,RSSSF,rsssf:arg77:279,,at Boca Juniors
 1977-metropolitano-0094,1977 Metropolitano,Fase única,,9,1977-04-15,,Independiente,Gimnasia La Plata,6,2,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg77:286,,at Racing Club
-1977-metropolitano-0095,1977 Metropolitano,Fase única,,9,1977-04-17,,River Plate,Unión,5,3,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:289,"Passarella(2), Luque(2), Marchetti Trossero(2), Moreno",at Huracán
+1977-metropolitano-0095,1977 Metropolitano,Fase única,,9,1977-04-17,,River Plate,Unión,5,3,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:289,,at Huracán
 1977-metropolitano-0096,1977 Metropolitano,Fase única,,9,1977-04-17,,San Lorenzo,Argentinos Juniors,2,1,,,,,,,RSSSF,rsssf:arg77:292,,
 1977-metropolitano-0097,1977 Metropolitano,Fase única,,9,1977-04-17,,Vélez Sarsfield,Newell's Old Boys,2,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:294,,at Ferro Carril Oeste
 1977-metropolitano-0098,1977 Metropolitano,Fase única,,9,1977-04-17,,Banfield,Racing Club,0,0,,,,,,,RSSSF,rsssf:arg77:296,,
-1977-metropolitano-0099,1977 Metropolitano,Fase única,,9,1977-04-17,,Estudiantes,Chacarita Juniors,4,2,,,,,,,RSSSF,rsssf:arg77:297,"Pagnanini, Letanú, Solari, Gottardi Solari o/g, H.Rodríguez o/g",
+1977-metropolitano-0099,1977 Metropolitano,Fase única,,9,1977-04-17,,Estudiantes,Chacarita Juniors,4,2,,,,,,,RSSSF,rsssf:arg77:297,,
 1977-metropolitano-0100,1977 Metropolitano,Fase única,,9,1977-04-17,,Lanús,Platense,0,1,,,,,,,RSSSF,rsssf:arg77:300,,
 1977-metropolitano-0101,1977 Metropolitano,Fase única,,9,1977-04-17,,Atlanta,Quilmes,0,2,,,,,,,RSSSF,rsssf:arg77:302,,
 1977-metropolitano-0102,1977 Metropolitano,Fase única,,9,1977-04-17,,Rosario Central,Temperley,4,0,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:304,,at Newell's Old Boys
@@ -23662,7 +23662,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0153,1977 Metropolitano,Fase única,,14,1977-05-22,,Platense,Colón,2,2,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg77:431,,at Atlanta
 1977-metropolitano-0154,1977 Metropolitano,Fase única,,14,1977-05-22,,Chacarita Juniors,All Boys,3,2,,,,,,,RSSSF,rsssf:arg77:433,,
 1977-metropolitano-0155,1977 Metropolitano,Fase única,,14,1977-05-22,,Newell's Old Boys,Independiente,1,2,,,,,,,RSSSF,rsssf:arg77:435,,
-1977-metropolitano-0156,1977 Metropolitano,Fase única,,14,1977-05-22,,Argentinos Juniors,Atlanta,5,2,,,,,,,RSSSF,rsssf:arg77:437,"Maradona(2), C.Alvarez, J.López, Carrizo Curini, Candau",
+1977-metropolitano-0156,1977 Metropolitano,Fase única,,14,1977-05-22,,Argentinos Juniors,Atlanta,5,2,,,,,,,RSSSF,rsssf:arg77:437,,
 1977-metropolitano-0157,1977 Metropolitano,Fase única,,14,1977-05-22,,Unión,Lanús,1,1,,,,,,,RSSSF,rsssf:arg77:440,,
 1977-metropolitano-0158,1977 Metropolitano,Fase única,,14,1977-05-22,,River Plate,Estudiantes,2,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:444,,at Huracán
 1977-metropolitano-0159,1977 Metropolitano,Fase única,,14,1977-05-22,,San Lorenzo,Banfield,0,2,,,,,,,RSSSF,rsssf:arg77:448,,
@@ -23674,7 +23674,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0165,1977 Metropolitano,Fase única,,15,1977-05-25,,Rosario Central,Newell's Old Boys,1,1,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:465,,at Newell's Old Boys
 1977-metropolitano-0166,1977 Metropolitano,Fase única,,15,1977-05-25,,Colón,Chacarita Juniors,2,1,,,,,,,RSSSF,rsssf:arg77:467,,
 1977-metropolitano-0167,1977 Metropolitano,Fase única,,15,1977-05-25,,Huracán,Platense,1,1,,,,,,,RSSSF,rsssf:arg77:469,,
-1977-metropolitano-0168,1977 Metropolitano,Fase única,,15,1977-05-25,,Boca Juniors,Quilmes,4,1,,,,,,,RSSSF,rsssf:arg77:471,"Pavón, Zanabria, Benítez, Ribolzi Calderón",
+1977-metropolitano-0168,1977 Metropolitano,Fase única,,15,1977-05-25,,Boca Juniors,Quilmes,4,1,,,,,,,RSSSF,rsssf:arg77:471,,
 1977-metropolitano-0169,1977 Metropolitano,Fase única,,15,1977-05-25,,Ferro Carril Oeste,Gimnasia La Plata,0,1,,,,,,,RSSSF,rsssf:arg77:474,,
 1977-metropolitano-0170,1977 Metropolitano,Fase única,,15,1977-05-27,,All Boys,Racing Club,1,0,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg77:477,,at San Lorenzo
 1977-metropolitano-0171,1977 Metropolitano,Fase única,,16,1977-07-15,,Quilmes,Ferro Carril Oeste,2,3,,,,,,,RSSSF,rsssf:arg77:484,,
@@ -23824,11 +23824,11 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0315,1977 Metropolitano,Fase única,,29,1977-09-16,,All Boys,Colón,1,0,,,,,,,RSSSF,rsssf:arg77:859,,
 1977-metropolitano-0316,1977 Metropolitano,Fase única,,29,1977-09-16,,Rosario Central,Huracán,1,1,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:861,,at Newell's Old Boys
 1977-metropolitano-0317,1977 Metropolitano,Fase única,,29,1977-09-16,,Independiente,Boca Juniors,0,0,,,,,,,RSSSF,rsssf:arg77:863,,
-1977-metropolitano-0318,1977 Metropolitano,Fase única,,29,1977-09-16,,Atlanta,Ferro Carril Oeste,5,1,,,,,,,RSSSF,rsssf:arg77:864,"Franceschini(2), Cocco, Contreras, Maletti C.Arregui",
+1977-metropolitano-0318,1977 Metropolitano,Fase única,,29,1977-09-16,,Atlanta,Ferro Carril Oeste,5,1,,,,,,,RSSSF,rsssf:arg77:864,,
 1977-metropolitano-0319,1977 Metropolitano,Fase única,,29,1977-09-16,,Lanús,Temperley,3,2,,,,,,,RSSSF,rsssf:arg77:867,,
 1977-metropolitano-0320,1977 Metropolitano,Fase única,,29,1977-09-16,,Estudiantes,Gimnasia La Plata,1,1,,,,,,,RSSSF,rsssf:arg77:869,,
 1977-metropolitano-0321,1977 Metropolitano,Fase única,,29,1977-09-16,,Banfield,Quilmes,0,0,,,,,,,RSSSF,rsssf:arg77:871,,
-1977-metropolitano-0322,1977 Metropolitano,Fase única,,29,1977-09-16,,Vélez Sarsfield,Platense,5,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:872,"Roldán(2), Larraquy, Iervasi, Castro Belloni",at Ferro Carril Oeste
+1977-metropolitano-0322,1977 Metropolitano,Fase única,,29,1977-09-16,,Vélez Sarsfield,Platense,5,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:872,,at Ferro Carril Oeste
 1977-metropolitano-0323,1977 Metropolitano,Fase única,,29,1977-09-16,,San Lorenzo,Chacarita Juniors,1,2,,,,,,,RSSSF,rsssf:arg77:875,,
 1977-metropolitano-0324,1977 Metropolitano,Fase única,,29,1977-09-16,,River Plate,Racing Club,1,0,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:877,,at Huracán
 1977-metropolitano-0325,1977 Metropolitano,Fase única,,29,1977-09-16,,Unión,Newell's Old Boys,2,0,,,,,,,RSSSF,rsssf:arg77:879,,
@@ -23843,7 +23843,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0334,1977 Metropolitano,Fase única,,30,1977-09-18,,Ferro Carril Oeste,Independiente,0,2,,,,,,,RSSSF,rsssf:arg77:899,,
 1977-metropolitano-0335,1977 Metropolitano,Fase única,,30,1977-09-18,,Boca Juniors,Rosario Central,0,2,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg77:901,,at San Lorenzo
 1977-metropolitano-0336,1977 Metropolitano,Fase única,,30,1977-09-18,,Huracán,All Boys,1,0,,,,,,,RSSSF,rsssf:arg77:903,,
-1977-metropolitano-0337,1977 Metropolitano,Fase única,,31,1977-09-23,,Colón,Huracán,6,3,,,,,,,RSSSF,rsssf:arg77:910,"Aricó(2), Luñiz, Roldán, J.López, Vega Houseman, Pelayes, Ardiles",
+1977-metropolitano-0337,1977 Metropolitano,Fase única,,31,1977-09-23,,Colón,Huracán,6,3,,,,,,,RSSSF,rsssf:arg77:910,,
 1977-metropolitano-0338,1977 Metropolitano,Fase única,,31,1977-09-23,,All Boys,Boca Juniors,1,0,,,,Estádio do Racing Club,,,RSSSF,rsssf:arg77:913,,at Racing Club
 1977-metropolitano-0339,1977 Metropolitano,Fase única,,31,1977-09-23,,Rosario Central,Ferro Carril Oeste,1,2,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:915,,at Newell's Old Boys
 1977-metropolitano-0340,1977 Metropolitano,Fase única,,31,1977-09-23,,Independiente,Temperley,3,2,,,,,,,RSSSF,rsssf:arg77:917,,
@@ -23930,7 +23930,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0421,1977 Metropolitano,Fase única,,38,1977-10-16,,Chacarita Juniors,Colón,4,2,,,,,,,RSSSF,rsssf:arg77:1098,,
 1977-metropolitano-0422,1977 Metropolitano,Fase única,,38,1977-10-16,,Platense,Huracán,2,3,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg77:1100,,at Atlanta
 1977-metropolitano-0423,1977 Metropolitano,Fase única,,38,1977-10-16,,Quilmes,Boca Juniors,1,0,,,,,,,RSSSF,rsssf:arg77:1102,,
-1977-metropolitano-0424,1977 Metropolitano,Fase única,,38,1977-10-16,,Gimnasia La Plata,Ferro Carril Oeste,4,1,,,,,,,RSSSF,rsssf:arg77:1104,"Beltrán, Forgués, Tutino, Fornari H.Arregui",
+1977-metropolitano-0424,1977 Metropolitano,Fase única,,38,1977-10-16,,Gimnasia La Plata,Ferro Carril Oeste,4,1,,,,,,,RSSSF,rsssf:arg77:1104,,
 1977-metropolitano-0425,1977 Metropolitano,Fase única,,39,1977-10-19,,Temperley,Gimnasia La Plata,2,1,,,,,,,RSSSF,rsssf:arg77:1112,,
 1977-metropolitano-0426,1977 Metropolitano,Fase única,,39,1977-10-19,,Ferro Carril Oeste,Quilmes,1,1,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg77:1114,,at San Lorenzo
 1977-metropolitano-0427,1977 Metropolitano,Fase única,,39,1977-10-19,,Boca Juniors,Platense,2,1,,,,,,,RSSSF,rsssf:arg77:1116,,
@@ -23964,7 +23964,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0455,1977 Metropolitano,Fase única,,41,1977-10-26,,Independiente,San Lorenzo,3,1,,,,,,,RSSSF,rsssf:arg77:1179,,
 1977-metropolitano-0456,1977 Metropolitano,Fase única,,41,1977-10-26,,Atlanta,Vélez Sarsfield,1,1,,,,,,,RSSSF,rsssf:arg77:1181,,
 1977-metropolitano-0457,1977 Metropolitano,Fase única,,41,1977-10-26,,Lanús,Banfield,2,1,,,,,,,RSSSF,rsssf:arg77:1183,,
-1977-metropolitano-0458,1977 Metropolitano,Fase única,,42,1977-10-30,,Estudiantes,Lanús,4,2,,,,,,,RSSSF,rsssf:arg77:1190,"Gottardi, Russo, Pagnanini, C.López Coria, Ribeca",
+1977-metropolitano-0458,1977 Metropolitano,Fase única,,42,1977-10-30,,Estudiantes,Lanús,4,2,,,,,,,RSSSF,rsssf:arg77:1190,,
 1977-metropolitano-0459,1977 Metropolitano,Fase única,,42,1977-10-30,,Banfield,Atlanta,0,1,,,,,,,RSSSF,rsssf:arg77:1193,,
 1977-metropolitano-0460,1977 Metropolitano,Fase única,,42,1977-10-30,,Vélez Sarsfield,Independiente,0,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:1195,,at Ferro Carril Oeste
 1977-metropolitano-0461,1977 Metropolitano,Fase única,,42,1977-10-30,,San Lorenzo,Rosario Central,3,4,,,,,,,RSSSF,rsssf:arg77:1196,,
@@ -24014,7 +24014,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-metropolitano-0505,1977 Metropolitano,Fase única,,46,1977-11-13,,Banfield,Colón,1,1,,,,,,,RSSSF,rsssf:arg77:1300,,
 1977-metropolitano-0506,1977 Metropolitano,Fase única,,46,1977-11-13,,Vélez Sarsfield,Huracán,0,0,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg77:1302,,at San Lorenzo
 1977-metropolitano-0507,1977 Metropolitano,Fase única,,46,1977-11-13,,San Lorenzo,Boca Juniors,0,2,,,,,,,RSSSF,rsssf:arg77:1303,,
-1977-metropolitano-0508,1977 Metropolitano,Fase única,,46,1977-11-13,,River Plate,Ferro Carril Oeste,4,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:1305,"Marchetti, Passarella, P.González, Ortiz Vidal, Sotelo",at Huracán
+1977-metropolitano-0508,1977 Metropolitano,Fase única,,46,1977-11-13,,River Plate,Ferro Carril Oeste,4,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:1305,,at Huracán
 1977-metropolitano-0509,1977 Metropolitano,Fase única,,46,1977-11-13,,Unión,Temperley,2,1,,,,,,,RSSSF,rsssf:arg77:1308,,
 1977-metropolitano-0510,1977 Metropolitano,Fase única,,46,1977-11-13,,Argentinos Juniors,Gimnasia La Plata,2,2,,,,,,,RSSSF,rsssf:arg77:1310,,
 1977-metropolitano-0511,1977 Metropolitano,Fase única,,46,1977-11-13,,Newell's Old Boys,Quilmes,2,1,,,,,,,RSSSF,rsssf:arg77:1312,,
@@ -24031,7 +24031,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0009,1977 Nacional,Primeira fase,A,3,1977-11-27,,Círculo Deportivo,Estudiantes de Buenos Aires,2,2,,,,,,,RSSSF,rsssf:arg77:1445,,
 1977-nacional-0010,1977 Nacional,Primeira fase,A,3,1977-11-27,,Newell's Old Boys,San Lorenzo,0,0,,,,,,,RSSSF,rsssf:arg77:1447,,
 1977-nacional-0011,1977 Nacional,Primeira fase,A,3,1977-11-27,,Banfield,Independiente Rivadavia,1,2,,,,,,,RSSSF,rsssf:arg77:1448,,
-1977-nacional-0012,1977 Nacional,Primeira fase,A,3,1977-11-27,,Gimnasia La Plata,San Martín de Tucumán,4,3,,,,,,,RSSSF,rsssf:arg77:1450,"Mamberto, Fornari, Beltrán, O.Pérez J.Sánchez(2), Marangoni",
+1977-nacional-0012,1977 Nacional,Primeira fase,A,3,1977-11-27,,Gimnasia La Plata,San Martín de Tucumán,4,3,,,,,,,RSSSF,rsssf:arg77:1450,,
 1977-nacional-0013,1977 Nacional,Primeira fase,A,4,1977-11-30,,Gimnasia La Plata,Círculo Deportivo,0,0,,,,,,,RSSSF,rsssf:arg77:1457,,
 1977-nacional-0014,1977 Nacional,Primeira fase,A,4,1977-11-30,,San Martín de Tucumán,Banfield,3,0,,,,,,,RSSSF,rsssf:arg77:1458,,
 1977-nacional-0015,1977 Nacional,Primeira fase,A,4,1977-11-30,,Independiente Rivadavia,Newell's Old Boys,2,1,,,,,,,RSSSF,rsssf:arg77:1460,,
@@ -24047,7 +24047,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0025,1977 Nacional,Primeira fase,A,7,1977-12-11,,Círculo Deportivo,Independiente Rivadavia,2,0,,,,,,,RSSSF,rsssf:arg77:1491,,
 1977-nacional-0026,1977 Nacional,Primeira fase,A,7,1977-12-11,,San Lorenzo,San Martín de Tucumán,2,2,,,,,,,RSSSF,rsssf:arg77:1493,,
 1977-nacional-0027,1977 Nacional,Primeira fase,A,7,1977-12-11,,Estudiantes de Buenos Aires,Gimnasia La Plata,2,1,,,,Estádio do Chacarita Juniors,,,RSSSF,rsssf:arg77:1495,,at Chacarita Juniors
-1977-nacional-0028,1977 Nacional,Primeira fase,A,7,1977-12-11,,Newell's Old Boys,Banfield,6,2,,,,,,,RSSSF,rsssf:arg77:1497,"Alfaro(2), Montes(2), Yazalde(2) Lo Gatto, Orte",
+1977-nacional-0028,1977 Nacional,Primeira fase,A,7,1977-12-11,,Newell's Old Boys,Banfield,6,2,,,,,,,RSSSF,rsssf:arg77:1497,,
 1977-nacional-0029,1977 Nacional,Primeira fase,A,8,1977-12-14,,Newell's Old Boys,Círculo Deportivo,1,0,,,,,,,RSSSF,rsssf:arg77:1505,,
 1977-nacional-0030,1977 Nacional,Primeira fase,A,8,1977-12-14,,Estudiantes de Buenos Aires,Banfield,1,1,,,,Estádio do Chacarita Juniors,,,RSSSF,rsssf:arg77:1507,,at Chacarita Juniors
 1977-nacional-0031,1977 Nacional,Primeira fase,A,8,1977-12-14,,San Lorenzo,Gimnasia La Plata,1,0,,,,,,,RSSSF,rsssf:arg77:1509,,
@@ -24055,7 +24055,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0033,1977 Nacional,Primeira fase,A,9,1977-12-17,,Círculo Deportivo,San Martín de Tucumán,1,1,,,,,,,RSSSF,rsssf:arg77:1517,,
 1977-nacional-0034,1977 Nacional,Primeira fase,A,9,1977-12-17,,Gimnasia La Plata,Independiente Rivadavia,1,1,,,,,,,RSSSF,rsssf:arg77:1519,,
 1977-nacional-0035,1977 Nacional,Primeira fase,A,9,1977-12-17,,Banfield,San Lorenzo,2,1,,,,,,,RSSSF,rsssf:arg77:1521,,
-1977-nacional-0036,1977 Nacional,Primeira fase,A,9,1977-12-17,,Newell's Old Boys,Estudiantes de Buenos Aires,5,2,,,,,,,RSSSF,rsssf:arg77:1523,"Gallego, Alfaro, H.Sánchez(2), Berta Pafundi, J.Guillermo",
+1977-nacional-0036,1977 Nacional,Primeira fase,A,9,1977-12-17,,Newell's Old Boys,Estudiantes de Buenos Aires,5,2,,,,,,,RSSSF,rsssf:arg77:1523,,
 1977-nacional-0037,1977 Nacional,Primeira fase,A,10,1977-12-21,,Estudiantes de Buenos Aires,Círculo Deportivo,1,0,,,,Estádio do Chacarita Juniors,,,RSSSF,rsssf:arg77:1530,,at Chacarita Juniors
 1977-nacional-0038,1977 Nacional,Primeira fase,A,10,1977-12-21,,San Lorenzo,Newell's Old Boys,1,1,,,,,,,RSSSF,rsssf:arg77:1532,,
 1977-nacional-0039,1977 Nacional,Primeira fase,A,10,1977-12-21,,Independiente Rivadavia,Banfield,3,2,,,,,,,RSSSF,rsssf:arg77:1534,,
@@ -24067,7 +24067,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0045,1977 Nacional,Primeira fase,A,12,1978-01-04,,San Lorenzo,Círculo Deportivo,3,0,,,,,,,RSSSF,rsssf:arg77:1554,,
 1977-nacional-0046,1977 Nacional,Primeira fase,A,12,1978-01-04,,Independiente Rivadavia,Estudiantes de Buenos Aires,2,1,,,,,,,RSSSF,rsssf:arg77:1556,,
 1977-nacional-0047,1977 Nacional,Primeira fase,A,12,1978-01-04,,San Martín de Tucumán,Newell's Old Boys,1,1,,,,,,,RSSSF,rsssf:arg77:1558,,
-1977-nacional-0048,1977 Nacional,Primeira fase,A,12,1978-01-04,,Gimnasia La Plata,Banfield,5,2,,,,,,,RSSSF,rsssf:arg77:1560,"Lazbal(2), Villarreal, Uzín, Echauri Corvo, D'Angelo",
+1977-nacional-0048,1977 Nacional,Primeira fase,A,12,1978-01-04,,Gimnasia La Plata,Banfield,5,2,,,,,,,RSSSF,rsssf:arg77:1560,,
 1977-nacional-0049,1977 Nacional,Primeira fase,A,13,1978-01-07,,Círculo Deportivo,Banfield,0,1,,,,,,,RSSSF,rsssf:arg77:1567,,
 1977-nacional-0050,1977 Nacional,Primeira fase,A,13,1978-01-07,,Newell's Old Boys,Gimnasia La Plata,5,0,,,,,,,RSSSF,rsssf:arg77:1569,,
 1977-nacional-0051,1977 Nacional,Primeira fase,A,13,1978-01-07,,Estudiantes de Buenos Aires,San Martín de Tucumán,1,1,,,,Estádio do Chacarita Juniors,,,RSSSF,rsssf:arg77:1571,,at Chacarita Juniors
@@ -24098,16 +24098,16 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0076,1977 Nacional,Primeira fase,B,5,1977-12-04,,Estudiantes,Quilmes,1,0,,,,,,,RSSSF,rsssf:arg77:1681,,
 1977-nacional-0077,1977 Nacional,Primeira fase,B,6,1977-12-08,,Cipolletti,Quilmes,2,0,,,,,,,RSSSF,rsssf:arg77:1687,,
 1977-nacional-0078,1977 Nacional,Primeira fase,B,6,1977-12-08,,Rosario Central,Estudiantes,2,1,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:1689,,at Newell's Old Boys
-1977-nacional-0079,1977 Nacional,Primeira fase,B,6,1977-12-08,,Chacarita Juniors,Central Norte,6,2,,,,,,,RSSSF,rsssf:arg77:1691,"C.Rodriguez, Pena, Salinas(3), Ischia Medina, Papalardo",
-1977-nacional-0080,1977 Nacional,Primeira fase,B,6,1977-12-08,,Boca Juniors,Los Andes,2,2,,,,,,,RSSSF,rsssf:arg77:1694,"C.Alvarez(2)                   [J.Soto, Vega",
+1977-nacional-0079,1977 Nacional,Primeira fase,B,6,1977-12-08,,Chacarita Juniors,Central Norte,6,2,,,,,,,RSSSF,rsssf:arg77:1691,,
+1977-nacional-0080,1977 Nacional,Primeira fase,B,6,1977-12-08,,Boca Juniors,Los Andes,2,2,,,,,,,RSSSF,rsssf:arg77:1694,,
 1977-nacional-0081,1977 Nacional,Primeira fase,B,7,1977-12-11,,Los Andes,Cipolletti,3,0,,,,,,,RSSSF,rsssf:arg77:1700,,
 1977-nacional-0082,1977 Nacional,Primeira fase,B,7,1977-12-11,,Central Norte,Boca Juniors,1,2,,,,,,,RSSSF,rsssf:arg77:1702,,
-1977-nacional-0083,1977 Nacional,Primeira fase,B,7,1977-12-11,,Estudiantes,Chacarita Juniors,6,3,,,,,,,RSSSF,rsssf:arg77:1704,"Letanú(2), Onnis, Gottardi, Milano, Herrera Candau, Salinas, Pena",
+1977-nacional-0083,1977 Nacional,Primeira fase,B,7,1977-12-11,,Estudiantes,Chacarita Juniors,6,3,,,,,,,RSSSF,rsssf:arg77:1704,,
 1977-nacional-0084,1977 Nacional,Primeira fase,B,7,1977-12-11,,Quilmes,Rosario Central,0,0,,,,,,,RSSSF,rsssf:arg77:1707,,
 1977-nacional-0085,1977 Nacional,Primeira fase,B,8,1977-12-14,,Cipolletti,Rosario Central,2,1,,,,,,,RSSSF,rsssf:arg77:1712,,
 1977-nacional-0086,1977 Nacional,Primeira fase,B,8,1977-12-14,,Quilmes,Chacarita Juniors,1,0,,,,,,,RSSSF,rsssf:arg77:1714,,
 1977-nacional-0087,1977 Nacional,Primeira fase,B,8,1977-12-14,,Estudiantes,Boca Juniors,0,1,,,,,,,RSSSF,rsssf:arg77:1716,,
-1977-nacional-0088,1977 Nacional,Primeira fase,B,8,1977-12-14,,Central Norte,Los Andes,5,1,,,,,,,RSSSF,rsssf:arg77:1718,"Armani(2), Cardozo, Tejeda, Medina Quiroga",
+1977-nacional-0088,1977 Nacional,Primeira fase,B,8,1977-12-14,,Central Norte,Los Andes,5,1,,,,,,,RSSSF,rsssf:arg77:1718,,
 1977-nacional-0089,1977 Nacional,Primeira fase,B,9,1977-12-17,,Central Norte,Cipolletti,0,0,,,,,,,RSSSF,rsssf:arg77:1725,,
 1977-nacional-0090,1977 Nacional,Primeira fase,B,9,1977-12-17,,Los Andes,Estudiantes,1,1,,,,,,,RSSSF,rsssf:arg77:1726,,
 1977-nacional-0091,1977 Nacional,Primeira fase,B,9,1977-12-17,,Boca Juniors,Quilmes,0,0,,,,,,,RSSSF,rsssf:arg77:1728,,
@@ -24115,12 +24115,12 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0093,1977 Nacional,Primeira fase,B,10,1977-12-21,,Cipolletti,Chacarita Juniors,1,0,,,,,,,RSSSF,rsssf:arg77:1735,,
 1977-nacional-0094,1977 Nacional,Primeira fase,B,10,1977-12-21,,Rosario Central,Boca Juniors,1,0,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:1737,,at Newell's Old Boys
 1977-nacional-0095,1977 Nacional,Primeira fase,B,10,1977-12-21,,Quilmes,Los Andes,1,0,,,,,,,RSSSF,rsssf:arg77:1739,,
-1977-nacional-0096,1977 Nacional,Primeira fase,B,10,1977-12-21,,Estudiantes,Central Norte,3,1,,,,,,,RSSSF,rsssf:arg77:1741,"Gottardi, Landaburo, Santecchia Cejas",
+1977-nacional-0096,1977 Nacional,Primeira fase,B,10,1977-12-21,,Estudiantes,Central Norte,3,1,,,,,,,RSSSF,rsssf:arg77:1741,,
 1977-nacional-0097,1977 Nacional,Primeira fase,B,11,1977-12-28,,Estudiantes,Cipolletti,3,1,,,,,,,RSSSF,rsssf:arg77:1748,,
 1977-nacional-0098,1977 Nacional,Primeira fase,B,11,1977-12-28,,Central Norte,Quilmes,0,1,,,,,,,RSSSF,rsssf:arg77:1750,,
 1977-nacional-0099,1977 Nacional,Primeira fase,B,11,1977-12-28,,Los Andes,Rosario Central,0,0,,,,,,,RSSSF,rsssf:arg77:1752,,
 1977-nacional-0100,1977 Nacional,Primeira fase,B,11,1977-12-28,,Boca Juniors,Chacarita Juniors,3,0,,,,,,,RSSSF,rsssf:arg77:1753,,
-1977-nacional-0101,1977 Nacional,Primeira fase,B,12,1978-01-04,,Cipolletti,Boca Juniors,4,2,,,,,,,RSSSF,rsssf:arg77:1759,"Flores, Veira, Eresuma, M.García A.Alves, Zanabria",
+1977-nacional-0101,1977 Nacional,Primeira fase,B,12,1978-01-04,,Cipolletti,Boca Juniors,4,2,,,,,,,RSSSF,rsssf:arg77:1759,,
 1977-nacional-0102,1977 Nacional,Primeira fase,B,12,1978-01-04,,Chacarita Juniors,Los Andes,1,1,,,,,,,RSSSF,rsssf:arg77:1762,,
 1977-nacional-0103,1977 Nacional,Primeira fase,B,12,1978-01-04,,Rosario Central,Central Norte,4,1,,,,Estádio do Newell's Old Boys,,,RSSSF,rsssf:arg77:1764,,at Newell's Old Boys
 1977-nacional-0104,1977 Nacional,Primeira fase,B,12,1978-01-04,,Quilmes,Estudiantes,1,1,,,,,,,RSSSF,rsssf:arg77:1766,,
@@ -24162,7 +24162,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0140,1977 Nacional,Primeira fase,C,7,1977-12-11,,River Plate,Gimnasia de Jujuy,6,0,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:1911,,at Huracán
 1977-nacional-0141,1977 Nacional,Primeira fase,C,8,1977-12-14,,River Plate,Racing Club,1,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg77:1917,,at Huracán
 1977-nacional-0142,1977 Nacional,Primeira fase,C,8,1977-12-14,,Sarmiento de Resistencia,Gimnasia de Jujuy,1,0,,,,,,,RSSSF,rsssf:arg77:1919,,
-1977-nacional-0143,1977 Nacional,Primeira fase,C,8,1977-12-14,,Talleres,Colón,5,1,,,,,,,RSSSF,rsssf:arg77:1921,"Bravo(2), Bocanelli(2), Alderete Aricó",
+1977-nacional-0143,1977 Nacional,Primeira fase,C,8,1977-12-14,,Talleres,Colón,5,1,,,,,,,RSSSF,rsssf:arg77:1921,,
 1977-nacional-0144,1977 Nacional,Primeira fase,C,8,1977-12-14,,Vélez Sarsfield,Platense,3,4,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:1924,,at Ferro Carril Oeste
 1977-nacional-0145,1977 Nacional,Primeira fase,C,9,1977-12-17,,Racing Club,Platense,2,2,,,,,,,RSSSF,rsssf:arg77:1930,,
 1977-nacional-0146,1977 Nacional,Primeira fase,C,9,1977-12-17,,Colón,Vélez Sarsfield,4,1,,,,,,,RSSSF,rsssf:arg77:1932,,
@@ -24185,7 +24185,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0163,1977 Nacional,Primeira fase,C,13,1978-01-07,,Sarmiento de Resistencia,Platense,1,1,,,,,,,RSSSF,rsssf:arg77:1981,,
 1977-nacional-0164,1977 Nacional,Primeira fase,C,13,1978-01-07,,Talleres,Vélez Sarsfield,2,2,,,,,,,RSSSF,rsssf:arg77:1983,,
 1977-nacional-0165,1977 Nacional,Primeira fase,C,14,1978-01-11,,Vélez Sarsfield,Racing Club,1,4,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg77:1989,,at Ferro Carril Oeste
-1977-nacional-0166,1977 Nacional,Primeira fase,C,14,1978-01-11,,Platense,Talleres,4,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg77:1991,"Arrieta o/g, Juárez, Amarillo, Viscovich Zenarola",at Atlanta
+1977-nacional-0166,1977 Nacional,Primeira fase,C,14,1978-01-11,,Platense,Talleres,4,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg77:1991,,at Atlanta
 1977-nacional-0167,1977 Nacional,Primeira fase,C,14,1978-01-11,,Colón,Sarmiento de Resistencia,1,4,,,,,,,RSSSF,rsssf:arg77:1994,,
 1977-nacional-0168,1977 Nacional,Primeira fase,C,14,1978-01-11,,Gimnasia de Jujuy,River Plate,0,4,,,,,,,RSSSF,rsssf:arg77:1996,,
 1977-nacional-0169,1977 Nacional,Primeira fase,D,1,1977-11-20,,Huracán,Independiente,2,4,,,,,,,RSSSF,rsssf:arg77:2041,,
@@ -24221,7 +24221,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0199,1977 Nacional,Primeira fase,D,8,1977-12-14,,Unión,Belgrano,2,2,,,,,,,RSSSF,rsssf:arg77:2126,,
 1977-nacional-0200,1977 Nacional,Primeira fase,D,8,1977-12-14,,Atlanta,Argentinos Juniors,1,0,,,,,,,RSSSF,rsssf:arg77:2128,,
 1977-nacional-0201,1977 Nacional,Primeira fase,D,9,1977-12-17,,Atlanta,Independiente,0,2,,,,,,,RSSSF,rsssf:arg77:2134,,
-1977-nacional-0202,1977 Nacional,Primeira fase,D,9,1977-12-17,,Argentinos Juniors,Unión,4,1,,,,,,,RSSSF,rsssf:arg77:2136,"Ovelar, Maradona, Di Donato, J.López Arroyo",
+1977-nacional-0202,1977 Nacional,Primeira fase,D,9,1977-12-17,,Argentinos Juniors,Unión,4,1,,,,,,,RSSSF,rsssf:arg77:2136,,
 1977-nacional-0203,1977 Nacional,Primeira fase,D,9,1977-12-17,,Belgrano,Atlético Ledesma,2,0,,,,,,,RSSSF,rsssf:arg77:2139,,
 1977-nacional-0204,1977 Nacional,Primeira fase,D,9,1977-12-17,,All Boys,Huracán,4,4,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg77:2141,,at San Lorenzo
 1977-nacional-0205,1977 Nacional,Primeira fase,D,10,1977-12-21,,Independiente,All Boys,3,0,,,,,,,RSSSF,rsssf:arg77:2147,,
@@ -24229,9 +24229,9 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1977-nacional-0207,1977 Nacional,Primeira fase,D,10,1977-12-21,,Atlético Ledesma,Argentinos Juniors,3,2,,,,,,,RSSSF,rsssf:arg77:2151,,
 1977-nacional-0208,1977 Nacional,Primeira fase,D,10,1977-12-21,,Unión,Atlanta,1,1,,,,,,,RSSSF,rsssf:arg77:2153,,
 1977-nacional-0209,1977 Nacional,Primeira fase,D,11,1977-12-28,,Unión,Independiente,2,3,,,,,,,RSSSF,rsssf:arg77:2159,,
-1977-nacional-0210,1977 Nacional,Primeira fase,D,11,1977-12-28,,Atlanta,Atlético Ledesma,5,2,,,,,,,RSSSF,rsssf:arg77:2161,"Carrió(3), F.Gutiérrez, Gallardo Farías, Chazarreta",
+1977-nacional-0210,1977 Nacional,Primeira fase,D,11,1977-12-28,,Atlanta,Atlético Ledesma,5,2,,,,,,,RSSSF,rsssf:arg77:2161,,
 1977-nacional-0211,1977 Nacional,Primeira fase,D,11,1977-12-28,,Argentinos Juniors,Huracán,0,2,,,,,,,RSSSF,rsssf:arg77:2164,,
-1977-nacional-0212,1977 Nacional,Primeira fase,D,11,1977-12-28,,Belgrano,All Boys,5,2,,,,,,,RSSSF,rsssf:arg77:2166,"Beccerica, García Sangenis, Bonet, Laciar, R.Rodríguez Zywica, Brandoni",
+1977-nacional-0212,1977 Nacional,Primeira fase,D,11,1977-12-28,,Belgrano,All Boys,5,2,,,,,,,RSSSF,rsssf:arg77:2166,,
 1977-nacional-0213,1977 Nacional,Primeira fase,D,12,1978-01-04,,Independiente,Belgrano,3,0,,,,,,,RSSSF,rsssf:arg77:2173,,
 1977-nacional-0214,1977 Nacional,Primeira fase,D,12,1978-01-04,,All Boys,Argentinos Juniors,0,1,,,,,,,RSSSF,rsssf:arg77:2175,,
 1977-nacional-0215,1977 Nacional,Primeira fase,D,12,1978-01-04,,Huracán,Atlanta,1,0,,,,,,,RSSSF,rsssf:arg77:2177,,
@@ -25106,7 +25106,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1979-metropolitano-0196,1979 Metropolitano,Semifinal,,18,1979-08-05,,Independiente,River Plate,1,2,,,,,,,RSSSF,rsssf:arg79:379,,
 1979-metropolitano-0197,1979 Metropolitano,Semifinal,,18,1979-08-05,,Vélez Sarsfield,Rosario Central,0,0,,,,,,,RSSSF,rsssf:arg79:380,,
 1979-metropolitano-0198,1979 Metropolitano,Final,,18,1979-08-12,,Vélez Sarsfield,River Plate,0,2,,,,,,,RSSSF,rsssf:arg79:385,,
-1979-metropolitano-0199,1979 Metropolitano,Final,,18,1979-08-19,,River Plate,Vélez Sarsfield,5,1,,,,,,,RSSSF,rsssf:arg79:388,"Alonso 13, Commisso 41, Luque 55, González 57, 89 / Jorge 87",
+1979-metropolitano-0199,1979 Metropolitano,Final,,18,1979-08-19,,River Plate,Vélez Sarsfield,5,1,,,,,,,RSSSF,rsssf:arg79:388,,
 1979-nacional-0001,1979 Nacional,Primeira fase,A,1,1979-09-02,,Alianza Juventud Pringles,San Martín de Tucumán,0,0,,,,Estudiantes (LUQ),,,RSSSF,rsssf:arg79:543,,at Estudiantes (LUQ)
 1979-nacional-0002,1979 Nacional,Primeira fase,A,1,1979-09-02,,Atlético Ledesma,Vélez Sarsfield,0,0,,,,,,,RSSSF,rsssf:arg79:544,,
 1979-nacional-0003,1979 Nacional,Primeira fase,A,1,1979-09-02,,Ferro Carril Oeste,Unión,0,1,,,,,,,RSSSF,rsssf:arg79:545,,
@@ -30083,7 +30083,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0050,1990/91,Apertura,,5,1990-09-16,,Deportivo Español,Vélez Sarsfield,1,1,,,,,,,RSSSF,rsssf:arg91:156 ogol:2844244,,
 1990-91-0051,1990/91,Apertura,,6,1990-09-23,,Deportivo Español,Estudiantes,1,2,,,,,,,RSSSF,rsssf:arg91:161 ogol:2844254,,
 1990-91-0052,1990/91,Apertura,,6,1990-09-23,,Vélez Sarsfield,Lanús,2,0,,,,,,,RSSSF,rsssf:arg91:163 ogol:2844262,,
-1990-91-0053,1990/91,Apertura,,6,1990-09-23,,Ferro Carril Oeste,Talleres,4,1,,,,,,,RSSSF,rsssf:arg91:165 ogol:2844255,"D.González(2), Bianchi, Agonil Kenig",
+1990-91-0053,1990/91,Apertura,,6,1990-09-23,,Ferro Carril Oeste,Talleres,4,1,,,,,,,RSSSF,rsssf:arg91:165 ogol:2844255,,
 1990-91-0054,1990/91,Apertura,,6,1990-09-23,,Gimnasia La Plata,Racing Club,1,1,,,,,,,RSSSF,rsssf:arg91:168 ogol:2844256,,
 1990-91-0055,1990/91,Apertura,,6,1990-09-23,,Rosario Central,Deportivo Mandiyú,1,1,,,,,,,RSSSF,rsssf:arg91:170 ogol:2844260,,
 1990-91-0056,1990/91,Apertura,,6,1990-09-23,,River Plate,Boca Juniors,2,0,,,,,,,RSSSF,rsssf:arg91:172 ogol:2844259,,
@@ -30194,7 +30194,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0161,1990/91,Apertura,,17,1990-12-07,,Estudiantes,Rosario Central,3,1,,,,,,,RSSSF,rsssf:arg91:425 ogol:2844365,,
 1990-91-0162,1990/91,Apertura,,17,1990-12-07,,River Plate,Gimnasia La Plata,1,0,,,,,,,RSSSF,rsssf:arg91:427 ogol:2844369,,
 1990-91-0163,1990/91,Apertura,,17,1990-12-07,,Chaco For Ever,Ferro Carril Oeste,1,1,,,,,,,RSSSF,rsssf:arg91:429 ogol:2844364,,
-1990-91-0164,1990/91,Apertura,,17,1990-12-07,,Independiente,Vélez Sarsfield,3,4,,,,,,,RSSSF,rsssf:arg91:431 ogol:2844366,"Alfaro Moreno, Lenguita, Ruiz Díaz Zalazar, Mancuso, Zárate, E.González",
+1990-91-0164,1990/91,Apertura,,17,1990-12-07,,Independiente,Vélez Sarsfield,3,4,,,,,,,RSSSF,rsssf:arg91:431 ogol:2844366,,
 1990-91-0165,1990/91,Apertura,,17,1990-12-07,,Unión,Deportivo Español,2,1,,,,,,,RSSSF,rsssf:arg91:434 ogol:2844371,,
 1990-91-0166,1990/91,Apertura,,17,1990-12-07,,Argentinos Juniors,Talleres,0,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg91:436 ogol:2844363,,at Atlanta
 1990-91-0167,1990/91,Apertura,,17,1990-12-07,,Platense,Racing Club,0,0,,,,,,,RSSSF,rsssf:arg91:438 ogol:2844368,,
@@ -30255,7 +30255,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0222,1990/91,Clausura,,4,1991-03-17,,Deportivo Español,Ferro Carril Oeste,1,1,,,,,,,RSSSF,rsssf:arg91:647 ogol:2844432,,
 1990-91-0223,1990/91,Clausura,,4,1991-03-17,,Lanús,Gimnasia La Plata,0,0,,,,Estádio do Banfield,,,RSSSF,rsssf:arg91:649 ogol:2844435,,at Banfield
 1990-91-0224,1990/91,Clausura,,4,1991-03-17,,Talleres,Rosario Central,1,0,,,,,,,RSSSF,rsssf:arg91:650 ogol:2844440,,
-1990-91-0225,1990/91,Clausura,,4,1991-03-17,,Racing Club,River Plate,5,2,,,,,,,RSSSF,rsssf:arg91:652 ogol:2844438,"Borelli, Carranza(2), C.García(2) Berti, Da Silva",
+1990-91-0225,1990/91,Clausura,,4,1991-03-17,,Racing Club,River Plate,5,2,,,,,,,RSSSF,rsssf:arg91:652 ogol:2844438,,
 1990-91-0226,1990/91,Clausura,,4,1991-03-17,,Deportivo Mandiyú,Chaco For Ever,2,0,,,,,,,RSSSF,rsssf:arg91:655 ogol:2844433,,
 1990-91-0227,1990/91,Clausura,,4,1991-03-17,,Boca Juniors,Independiente,0,0,,,,,,,RSSSF,rsssf:arg91:657 ogol:2844431,,
 1990-91-0228,1990/91,Clausura,,4,1991-03-17,,Newell's Old Boys,Unión,1,1,,,,,,,RSSSF,rsssf:arg91:658 ogol:2844436,,
@@ -30268,7 +30268,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0235,1990/91,Clausura,,5,1991-03-24,,Chaco For Ever,Boca Juniors,0,0,,,,,,,RSSSF,rsssf:arg91:676 ogol:2844442,,
 1990-91-0236,1990/91,Clausura,,5,1991-03-24,,River Plate,Deportivo Mandiyú,2,2,,,,,,,RSSSF,rsssf:arg91:677 ogol:2844447,,
 1990-91-0237,1990/91,Clausura,,5,1991-03-24,,Rosario Central,Racing Club,0,1,,,,,,,RSSSF,rsssf:arg91:679 ogol:2844448,,
-1990-91-0238,1990/91,Clausura,,5,1991-03-24,,Gimnasia La Plata,Talleres,4,3,,,,,,,RSSSF,rsssf:arg91:681 ogol:2844444,"Mannarino, Piaggio, Cordero, Amato Bonetto, E.Vázquez, Montenegro",
+1990-91-0238,1990/91,Clausura,,5,1991-03-24,,Gimnasia La Plata,Talleres,4,3,,,,,,,RSSSF,rsssf:arg91:681 ogol:2844444,,
 1990-91-0239,1990/91,Clausura,,5,1991-03-24,,Ferro Carril Oeste,Lanús,0,0,,,,,,,RSSSF,rsssf:arg91:684 ogol:2844443,,
 1990-91-0240,1990/91,Clausura,,5,1991-03-24,,Vélez Sarsfield,Deportivo Español,1,2,,,,,,,RSSSF,rsssf:arg91:685 ogol:2844450,,
 1990-91-0241,1990/91,Clausura,,6,1991-03-31,,Estudiantes,Deportivo Español,3,1,,,,,,,RSSSF,rsssf:arg91:691 ogol:2844454,,
@@ -30283,7 +30283,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0250,1990/91,Clausura,,6,1991-03-31,,Argentinos Juniors,Huracán,0,0,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg91:708 ogol:2844451,,at Atlanta
 1990-91-0251,1990/91,Clausura,,7,1991-04-04,,Huracán,Estudiantes,0,0,,,,,,,RSSSF,rsssf:arg91:713 ogol:2844465,,
 1990-91-0252,1990/91,Clausura,,7,1991-04-04,,Unión,Argentinos Juniors,3,1,,,,,,,RSSSF,rsssf:arg91:714 ogol:2844469,,
-1990-91-0253,1990/91,Clausura,,7,1991-04-04,,Independiente,Platense,5,1,,,,,,,RSSSF,rsssf:arg91:716 ogol:2844466,"Bianco(2), Ubaldi, Craviotto, Alfaro Moreno Nannini",
+1990-91-0253,1990/91,Clausura,,7,1991-04-04,,Independiente,Platense,5,1,,,,,,,RSSSF,rsssf:arg91:716 ogol:2844466,,
 1990-91-0254,1990/91,Clausura,,7,1991-04-04,,Chaco For Ever,San Lorenzo,0,0,,,,,,,RSSSF,rsssf:arg91:719 ogol:2844461,,
 1990-91-0255,1990/91,Clausura,,7,1991-04-04,,River Plate,Newell's Old Boys,1,1,,,,,,,RSSSF,rsssf:arg91:720 ogol:2844467,,
 1990-91-0256,1990/91,Clausura,,7,1991-04-04,,Rosario Central,Boca Juniors,1,1,,,,,,,RSSSF,rsssf:arg91:722 ogol:2844468,,
@@ -30319,7 +30319,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0286,1990/91,Clausura,,10,1991-04-28,,San Lorenzo,Gimnasia La Plata,2,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg91:790 ogol:2844499,,at Ferro Carril Oeste
 1990-91-0287,1990/91,Clausura,,10,1991-04-28,,Platense,Rosario Central,0,0,,,,,,,RSSSF,rsssf:arg91:792 ogol:2844497,,
 1990-91-0288,1990/91,Clausura,,10,1991-04-28,,Argentinos Juniors,River Plate,1,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg91:793 ogol:2844491,,at Atlanta
-1990-91-0289,1990/91,Clausura,,10,1991-04-28,,Huracán,Chaco For Ever,4,3,,,,,,,RSSSF,rsssf:arg91:795 ogol:2844495,"Borghi, Saturno(2), H.Morales Taffarel, Cruz, Tilico",
+1990-91-0289,1990/91,Clausura,,10,1991-04-28,,Huracán,Chaco For Ever,4,3,,,,,,,RSSSF,rsssf:arg91:795 ogol:2844495,,
 1990-91-0290,1990/91,Clausura,,10,1991-04-28,,Unión,Independiente,0,0,,,,,,,RSSSF,rsssf:arg91:798 ogol:2844500,,
 1990-91-0291,1990/91,Clausura,,11,1991-05-05,,Independiente,Estudiantes,1,1,,,,,,,RSSSF,rsssf:arg91:803 ogol:2844505,,
 1990-91-0292,1990/91,Clausura,,11,1991-05-05,,Chaco For Ever,Unión,2,2,,,,,,,RSSSF,rsssf:arg91:805 ogol:2844501,,
@@ -30335,9 +30335,9 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0302,1990/91,Clausura,,12,1991-05-11,,Deportivo Mandiyú,Talleres,2,1,,,,Estádio do Huracán de Corrientes,,,RSSSF,rsssf:arg91:826 ogol:2844513,,at Huracán Corrientes
 1990-91-0303,1990/91,Clausura,,12,1991-05-11,,Boca Juniors,Lanús,1,0,,,,,,,RSSSF,rsssf:arg91:828 ogol:2844512,,
 1990-91-0304,1990/91,Clausura,,12,1991-05-11,,Newell's Old Boys,Deportivo Español,0,0,,,,,,,RSSSF,rsssf:arg91:830 ogol:2844517,,
-1990-91-0305,1990/91,Clausura,,12,1991-05-11,,San Lorenzo,Vélez Sarsfield,4,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg91:831 ogol:2844519,"L.Rodríguez, R.O.García, Czornomaz, Zandoná Zalazar",at Ferro Carril Oeste
+1990-91-0305,1990/91,Clausura,,12,1991-05-11,,San Lorenzo,Vélez Sarsfield,4,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg91:831 ogol:2844519,,at Ferro Carril Oeste
 1990-91-0306,1990/91,Clausura,,12,1991-05-11,,Platense,Ferro Carril Oeste,0,0,,,,,,,RSSSF,rsssf:arg91:834 ogol:2844518,,
-1990-91-0307,1990/91,Clausura,,12,1991-05-11,,Argentinos Juniors,Gimnasia La Plata,3,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg91:835 ogol:2844511,"Mac Allister, P.Hernández, Cagna Galvagni",at Atlanta
+1990-91-0307,1990/91,Clausura,,12,1991-05-11,,Argentinos Juniors,Gimnasia La Plata,3,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg91:835 ogol:2844511,,at Atlanta
 1990-91-0308,1990/91,Clausura,,12,1991-05-11,,Huracán,Rosario Central,3,0,,,,,,,RSSSF,rsssf:arg91:838 ogol:2844515,,
 1990-91-0309,1990/91,Clausura,,12,1991-05-11,,Unión,River Plate,1,1,,,,,,,RSSSF,rsssf:arg91:840 ogol:2844520,,
 1990-91-0310,1990/91,Clausura,,12,1991-05-11,,Independiente,Chaco For Ever,1,1,,,,,,,RSSSF,rsssf:arg91:842 ogol:2844516,,
@@ -30352,7 +30352,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1990-91-0319,1990/91,Clausura,,13,1991-05-18,,Talleres,Boca Juniors,1,2,,,,,,,RSSSF,rsssf:arg91:862 ogol:2844529,,
 1990-91-0320,1990/91,Clausura,,13,1991-05-18,,Racing Club,Deportivo Mandiyú,2,0,,,,,,,RSSSF,rsssf:arg91:864 ogol:2844526,,
 1990-91-0321,1990/91,Clausura,,14,1991-06-02,,Estudiantes,Deportivo Mandiyú,0,1,,,,,,,RSSSF,rsssf:arg91:870 ogol:2844534,,
-1990-91-0322,1990/91,Clausura,,14,1991-06-02,,Boca Juniors,Racing Club,6,1,,,,,,,RSSSF,rsssf:arg91:872 ogol:2844532,"Batistuta(3), Latorre(2), Graciani Ortega Sánchez",
+1990-91-0322,1990/91,Clausura,,14,1991-06-02,,Boca Juniors,Racing Club,6,1,,,,,,,RSSSF,rsssf:arg91:872 ogol:2844532,,
 1990-91-0323,1990/91,Clausura,,14,1991-06-02,,Newell's Old Boys,Talleres,2,1,,,,,,,RSSSF,rsssf:arg91:875 ogol:2844537,,
 1990-91-0324,1990/91,Clausura,,14,1991-06-02,,San Lorenzo,Lanús,1,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg91:877 ogol:2844539,,at Ferro Carril Oeste}
 1990-91-0325,1990/91,Clausura,,14,1991-06-02,,Platense,Deportivo Español,1,0,,,,,,,RSSSF,rsssf:arg91:879 ogol:2844538,,
@@ -31933,7 +31933,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1994-95-clausura-0188,1994/95 Clausura,Fase única,,19,1995-06-25,,Gimnasia La Plata,Independiente,0,1,,,,,,,RSSSF,rsssf:arg95:793 ogol:1631656,,
 1994-95-clausura-0189,1994/95 Clausura,Fase única,,19,1995-06-25,,Argentinos Juniors,Ferro Carril Oeste,1,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg95:794 ogol:1631654,,at Atlanta
 1994-95-clausura-0190,1994/95 Clausura,Fase única,,19,1995-06-26,,Platense,Deportivo Mandiyú,4,2,,,,,,,RSSSF,rsssf:arg95:796 ogol:1631659,,
-1995-96-apertura-0001,1995/96 Apertura,Fase única,,1,1995-08-04,,Racing Club,Argentinos Juniors,2,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:16 ogol:729616,8' and 88' Carrario,played at Ferro Carril Oeste
+1995-96-apertura-0001,1995/96 Apertura,Fase única,,1,1995-08-04,,Racing Club,Argentinos Juniors,2,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:16 ogol:729616,,played at Ferro Carril Oeste
 1995-96-apertura-0002,1995/96 Apertura,Fase única,,1,1995-08-05,,Rosario Central,Belgrano,0,0,,,,,,,RSSSF,rsssf:arg96:19 ogol:729617,,
 1995-96-apertura-0003,1995/96 Apertura,Fase única,,1,1995-08-06,,Huracán,Newell's Old Boys,2,2,,,,,,,RSSSF,rsssf:arg96:21 ogol:729618,,
 1995-96-apertura-0004,1995/96 Apertura,Fase única,,1,1995-08-06,,Deportivo Español,Gimnasia La Plata,1,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:23 ogol:729619,,played at Atlanta
@@ -31944,7 +31944,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0009,1995/96 Apertura,Fase única,,1,1995-08-23,,Estudiantes,Colón,0,0,,,,,,,RSSSF,rsssf:arg96:35,,
 1995-96-apertura-0010,1995/96 Apertura,Fase única,,1,1995-10-18,,Gimnasia de Jujuy,Boca Juniors,1,2,,,,,,,RSSSF,rsssf:arg96:37,,
 1995-96-apertura-0011,1995/96 Apertura,Fase única,,2,1995-08-11,,Independiente,Banfield,1,1,,,,,,,RSSSF,rsssf:arg96:42 ogol:729626,,
-1995-96-apertura-0012,1995/96 Apertura,Fase única,,2,1995-08-12,,Belgrano,River Plate,0,2,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:45 ogol:729627,63' and 72' Crespo,played at Estadio Córdoba
+1995-96-apertura-0012,1995/96 Apertura,Fase única,,2,1995-08-12,,Belgrano,River Plate,0,2,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:45 ogol:729627,,played at Estadio Córdoba
 1995-96-apertura-0013,1995/96 Apertura,Fase única,,2,1995-08-13,,Newell's Old Boys,Platense,1,1,,,,,,,RSSSF,rsssf:arg96:48 ogol:729628,,
 1995-96-apertura-0014,1995/96 Apertura,Fase única,,2,1995-08-13,,Boca Juniors,Huracán,2,1,,,,,,,RSSSF,rsssf:arg96:50 ogol:729629,,
 1995-96-apertura-0015,1995/96 Apertura,Fase única,,2,1995-08-13,,San Lorenzo,Racing Club,1,0,,,,,,,RSSSF,rsssf:arg96:52 ogol:729630,,
@@ -31972,13 +31972,13 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0037,1995/96 Apertura,Fase única,,4,1995-08-27,,Vélez Sarsfield,Racing Club,3,2,,,,,,,RSSSF,rsssf:arg96:107 ogol:729652,,
 1995-96-apertura-0038,1995/96 Apertura,Fase única,,4,1995-08-27,,Banfield,River Plate,1,2,,,,,,,RSSSF,rsssf:arg96:109 ogol:729653,,
 1995-96-apertura-0039,1995/96 Apertura,Fase única,,4,1995-08-27,,Newell's Old Boys,Lanús,0,1,,,,,,,RSSSF,rsssf:arg96:111 ogol:729654,,
-1995-96-apertura-0040,1995/96 Apertura,Fase única,,4,1995-08-28,,Argentinos Juniors,Gimnasia de Jujuy,4,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:114,"11' Bennett, 67' V.H. Ferreyra, 76' and 78' (p) Gancedo",played at Ferro Carril Oeste
+1995-96-apertura-0040,1995/96 Apertura,Fase única,,4,1995-08-28,,Argentinos Juniors,Gimnasia de Jujuy,4,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:114,,played at Ferro Carril Oeste
 1995-96-apertura-0041,1995/96 Apertura,Fase única,,5,1995-09-01,,River Plate,Rosario Central,0,0,,,,,,,RSSSF,rsssf:arg96:119 ogol:729656,,
 1995-96-apertura-0042,1995/96 Apertura,Fase única,,5,1995-09-02,,Estudiantes,Vélez Sarsfield,0,1,,,,,,,RSSSF,rsssf:arg96:121 ogol:729657,,
 1995-96-apertura-0043,1995/96 Apertura,Fase única,,5,1995-09-03,,Lanús,Boca Juniors,1,1,,,,Estádio do Independiente,,,RSSSF,rsssf:arg96:124 ogol:729658,,played at Independiente
 1995-96-apertura-0044,1995/96 Apertura,Fase única,,5,1995-09-03,,Ferro Carril Oeste,Gimnasia La Plata,0,1,,,,,,,RSSSF,rsssf:arg96:126 ogol:729659,,
 1995-96-apertura-0045,1995/96 Apertura,Fase única,,5,1995-09-03,,Huracán,Argentinos Juniors,0,1,,,,,,,RSSSF,rsssf:arg96:128 ogol:729660,,
-1995-96-apertura-0046,1995/96 Apertura,Fase única,,5,1995-09-03,,Gimnasia de Jujuy,San Lorenzo,4,3,,,,,,,RSSSF,rsssf:arg96:130,"15' Trimarchi (p), 43' Piaggio, 70' Trimarchi, 83' Piaggio - 3' Biaggio, 29' and 88' (p) Netto",
+1995-96-apertura-0046,1995/96 Apertura,Fase única,,5,1995-09-03,,Gimnasia de Jujuy,San Lorenzo,4,3,,,,,,,RSSSF,rsssf:arg96:130,,
 1995-96-apertura-0047,1995/96 Apertura,Fase única,,5,1995-09-03,,Deportivo Español,Belgrano,0,0,,,,Estádio do Nueva Chicago,,,RSSSF,rsssf:arg96:132 ogol:729662,,played at Nueva Chicago
 1995-96-apertura-0048,1995/96 Apertura,Fase única,,5,1995-09-03,,Racing Club,Banfield,1,0,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:133 ogol:729663,,played at Vélez Sarsfield
 1995-96-apertura-0049,1995/96 Apertura,Fase única,,5,1995-09-04,,Platense,Colón,1,0,,,,,,,RSSSF,rsssf:arg96:136 ogol:729664,,
@@ -31986,13 +31986,13 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0051,1995/96 Apertura,Fase única,,6,1995-09-08,,Vélez Sarsfield,Deportivo Español,2,3,,,,,,,RSSSF,rsssf:arg96:144 ogol:729666,,
 1995-96-apertura-0052,1995/96 Apertura,Fase única,,6,1995-09-09,,Rosario Central,Racing Club,1,3,,,,,,,RSSSF,rsssf:arg96:147 ogol:729667,,
 1995-96-apertura-0053,1995/96 Apertura,Fase única,,6,1995-09-10,,Boca Juniors,Newell's Old Boys,1,1,,,,,,,RSSSF,rsssf:arg96:150 ogol:729668,,
-1995-96-apertura-0054,1995/96 Apertura,Fase única,,6,1995-09-10,,Belgrano,Gimnasia de Jujuy,0,3,,,,Estádio do Instituto,,,RSSSF,rsssf:arg96:152,"68' Cuffaro Russo, 80' and 88' Gorostidi",played at Instituto
+1995-96-apertura-0054,1995/96 Apertura,Fase única,,6,1995-09-10,,Belgrano,Gimnasia de Jujuy,0,3,,,,Estádio do Instituto,,,RSSSF,rsssf:arg96:152,,played at Instituto
 1995-96-apertura-0055,1995/96 Apertura,Fase única,,6,1995-09-10,,Independiente,River Plate,0,0,,,,,,,RSSSF,rsssf:arg96:154 ogol:729670,,
 1995-96-apertura-0056,1995/96 Apertura,Fase única,,6,1995-09-10,,Argentinos Juniors,Platense,2,3,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:155 ogol:729671,,played at Atlanta
 1995-96-apertura-0057,1995/96 Apertura,Fase única,,6,1995-09-10,,Banfield,Estudiantes,1,0,,,,,,,RSSSF,rsssf:arg96:157 ogol:729672,,
 1995-96-apertura-0058,1995/96 Apertura,Fase única,,6,1995-09-10,,Gimnasia La Plata,Lanús,1,0,,,,,,,RSSSF,rsssf:arg96:159 ogol:729673,,
-1995-96-apertura-0059,1995/96 Apertura,Fase única,,6,1995-09-10,,San Lorenzo,Huracán,5,0,,,,,,,RSSSF,rsssf:arg96:161 ogol:729674,"1' Biaggio, 5' and 27' E.F. González, 75' Silas, 89' Montserrat",
-1995-96-apertura-0060,1995/96 Apertura,Fase única,,6,1995-09-11,,Colón,Ferro Carril Oeste,0,2,,,,,,,RSSSF,rsssf:arg96:164 ogol:729675,44' and 60' Duré,
+1995-96-apertura-0059,1995/96 Apertura,Fase única,,6,1995-09-10,,San Lorenzo,Huracán,5,0,,,,,,,RSSSF,rsssf:arg96:161 ogol:729674,,
+1995-96-apertura-0060,1995/96 Apertura,Fase única,,6,1995-09-11,,Colón,Ferro Carril Oeste,0,2,,,,,,,RSSSF,rsssf:arg96:164 ogol:729675,,
 1995-96-apertura-0061,1995/96 Apertura,Fase única,,7,1995-09-22,,Platense,San Lorenzo,2,3,,,,,,,RSSSF,rsssf:arg96:169 ogol:729676,,
 1995-96-apertura-0062,1995/96 Apertura,Fase única,,7,1995-09-23,,Gimnasia de Jujuy,Vélez Sarsfield,1,0,,,,,,,RSSSF,rsssf:arg96:172,,
 1995-96-apertura-0063,1995/96 Apertura,Fase única,,7,1995-09-24,,Boca Juniors,Independiente,0,0,,,,,,,RSSSF,rsssf:arg96:175 ogol:729678,,
@@ -32022,8 +32022,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0087,1995/96 Apertura,Fase única,,9,1995-10-08,,Lanús,San Lorenzo,1,3,,,,,,,RSSSF,rsssf:arg96:233 ogol:729702,,
 1995-96-apertura-0088,1995/96 Apertura,Fase única,,9,1995-10-08,,Independiente,Gimnasia La Plata,0,0,,,,,,,RSSSF,rsssf:arg96:235 ogol:729703,,
 1995-96-apertura-0089,1995/96 Apertura,Fase única,,9,1995-10-09,,Huracán,Banfield,2,0,,,,,,,RSSSF,rsssf:arg96:237 ogol:729704,,
-1995-96-apertura-0090,1995/96 Apertura,Fase única,,9,1995-10-10,,Estudiantes,Racing Club,2,3,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:240 ogol:729705,"26' and 89' (p) J.L. Calderón - 48' Capria (p), 55' C.J. López, 64' Capria",played at Vélez Sarsfield
-1995-96-apertura-0091,1995/96 Apertura,Fase única,,10,1995-10-13,,San Lorenzo,Newell's Old Boys,5,2,,,,,,,RSSSF,rsssf:arg96:245 ogol:729706,"2' and 17' Biaggio, 35' E.F. González, 62' Biaggio, 88' Ortega Sánchez - 22' Escudero (o.g.), 76' Gabrich",
+1995-96-apertura-0090,1995/96 Apertura,Fase única,,9,1995-10-10,,Estudiantes,Racing Club,2,3,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:240 ogol:729705,,played at Vélez Sarsfield
+1995-96-apertura-0091,1995/96 Apertura,Fase única,,10,1995-10-13,,San Lorenzo,Newell's Old Boys,5,2,,,,,,,RSSSF,rsssf:arg96:245 ogol:729706,,
 1995-96-apertura-0092,1995/96 Apertura,Fase única,,10,1995-10-14,,Estudiantes,Independiente,1,2,,,,,,,RSSSF,rsssf:arg96:248 ogol:729707,,
 1995-96-apertura-0093,1995/96 Apertura,Fase única,,10,1995-10-15,,Argentinos Juniors,Boca Juniors,0,1,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:251 ogol:729708,,played at Vélez Sarsfield
 1995-96-apertura-0094,1995/96 Apertura,Fase única,,10,1995-10-15,,River Plate,Gimnasia de Jujuy,1,0,,,,,,,RSSSF,rsssf:arg96:253,,
@@ -32033,7 +32033,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0098,1995/96 Apertura,Fase única,,10,1995-10-16,,Banfield,Platense,0,1,,,,,,,RSSSF,rsssf:arg96:262 ogol:729713,,
 1995-96-apertura-0099,1995/96 Apertura,Fase única,,10,1995-10-16,,Rosario Central,Huracán,0,0,,,,,,,RSSSF,rsssf:arg96:264 ogol:729714,,
 1995-96-apertura-0100,1995/96 Apertura,Fase única,,10,1995-10-16,,Vélez Sarsfield,Ferro Carril Oeste,1,0,,,,,,,RSSSF,rsssf:arg96:265 ogol:729715,,
-1995-96-apertura-0101,1995/96 Apertura,Fase única,,11,1995-10-20,,Independiente,Colón,1,2,,,,,,,RSSSF,rsssf:arg96:270 ogol:729716,12' Arzeno - 35' and 69' Saralegui (p),
+1995-96-apertura-0101,1995/96 Apertura,Fase única,,11,1995-10-20,,Independiente,Colón,1,2,,,,,,,RSSSF,rsssf:arg96:270 ogol:729716,,
 1995-96-apertura-0102,1995/96 Apertura,Fase única,,11,1995-10-21,,Gimnasia de Jujuy,Racing Club,1,2,,,,,,,RSSSF,rsssf:arg96:273,,
 1995-96-apertura-0103,1995/96 Apertura,Fase única,,11,1995-10-22,,Boca Juniors,San Lorenzo,0,0,,,,,,,RSSSF,rsssf:arg96:276 ogol:729718,,
 1995-96-apertura-0104,1995/96 Apertura,Fase única,,11,1995-10-22,,Gimnasia La Plata,Argentinos Juniors,2,1,,,,,,,RSSSF,rsssf:arg96:277 ogol:729719,,
@@ -32041,14 +32041,14 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0106,1995/96 Apertura,Fase única,,11,1995-10-22,,Lanús,Vélez Sarsfield,0,0,,,,,,,RSSSF,rsssf:arg96:281 ogol:729721,,
 1995-96-apertura-0107,1995/96 Apertura,Fase única,,11,1995-10-22,,Newell's Old Boys,Belgrano,2,1,,,,,,,RSSSF,rsssf:arg96:282 ogol:729722,,
 1995-96-apertura-0108,1995/96 Apertura,Fase única,,11,1995-10-22,,Huracán,River Plate,2,0,,,,,,,RSSSF,rsssf:arg96:284 ogol:729723,,
-1995-96-apertura-0109,1995/96 Apertura,Fase única,,11,1995-10-22,,Ferro Carril Oeste,Banfield,3,3,,,,,,,RSSSF,rsssf:arg96:286 ogol:729724,"29' and 63' C.M. Vidal, 74' Mandrini - 38' Alvarenga (p), 43' and 72' Alegre",
+1995-96-apertura-0109,1995/96 Apertura,Fase única,,11,1995-10-22,,Ferro Carril Oeste,Banfield,3,3,,,,,,,RSSSF,rsssf:arg96:286 ogol:729724,,
 1995-96-apertura-0110,1995/96 Apertura,Fase única,,11,1995-10-23,,Deportivo Español,Estudiantes,1,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:289 ogol:729725,,played at Ferro Carril Oeste
 1995-96-apertura-0111,1995/96 Apertura,Fase única,,12,1995-10-27,,San Lorenzo,Gimnasia La Plata,0,2,,,,,,,RSSSF,rsssf:arg96:294 ogol:729726,,
 1995-96-apertura-0112,1995/96 Apertura,Fase única,,12,1995-10-28,,Belgrano,Boca Juniors,0,1,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:297 ogol:729727,,played at Estadio Córdoba
-1995-96-apertura-0113,1995/96 Apertura,Fase única,,12,1995-10-29,,Estudiantes,Gimnasia de Jujuy,4,1,,,,,,,RSSSF,rsssf:arg96:300,"22' J.L. Calderón (p), 44' and 53' Palermo, 75' J.L. Calderón - 88' Trimarchi",
+1995-96-apertura-0113,1995/96 Apertura,Fase única,,12,1995-10-29,,Estudiantes,Gimnasia de Jujuy,4,1,,,,,,,RSSSF,rsssf:arg96:300,,
 1995-96-apertura-0114,1995/96 Apertura,Fase única,,12,1995-10-29,,Racing Club,Huracán,1,1,,,,,,,RSSSF,rsssf:arg96:302 ogol:729729,,
 1995-96-apertura-0115,1995/96 Apertura,Fase única,,12,1995-10-29,,River Plate,Platense,1,1,,,,,,,RSSSF,rsssf:arg96:304 ogol:729730,,
-1995-96-apertura-0116,1995/96 Apertura,Fase única,,12,1995-10-29,,Banfield,Lanús,0,2,,,,,,,RSSSF,rsssf:arg96:306 ogol:729731,58' and 88' A.M. López,
+1995-96-apertura-0116,1995/96 Apertura,Fase única,,12,1995-10-29,,Banfield,Lanús,0,2,,,,,,,RSSSF,rsssf:arg96:306 ogol:729731,,
 1995-96-apertura-0117,1995/96 Apertura,Fase única,,12,1995-10-29,,Deportivo Español,Independiente,0,1,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:308 ogol:729732,,played at Ferro Carril Oeste
 1995-96-apertura-0118,1995/96 Apertura,Fase única,,12,1995-10-29,,Rosario Central,Ferro Carril Oeste,2,0,,,,,,,RSSSF,rsssf:arg96:310 ogol:729733,,
 1995-96-apertura-0119,1995/96 Apertura,Fase única,,12,1995-10-29,,Vélez Sarsfield,Newell's Old Boys,3,1,,,,,,,RSSSF,rsssf:arg96:312 ogol:729734,,
@@ -32095,22 +32095,22 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0160,1995/96 Apertura,Fase única,,16,1995-11-27,,Deportivo Español,Ferro Carril Oeste,0,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:415 ogol:729775,,played at Atlanta
 1995-96-apertura-0161,1995/96 Apertura,Fase única,,17,1995-12-01,,Independiente,Belgrano,1,0,,,,,,,RSSSF,rsssf:arg96:420 ogol:729776,,
 1995-96-apertura-0162,1995/96 Apertura,Fase única,,17,1995-12-02,,Gimnasia La Plata,River Plate,1,1,,,,,,,RSSSF,rsssf:arg96:423 ogol:729777,,
-1995-96-apertura-0163,1995/96 Apertura,Fase única,,17,1995-12-03,,Boca Juniors,Racing Club,4,6,,,,,,,RSSSF,rsssf:arg96:426 ogol:729778,"30' Mac Allister, 44' Maradona (p), 78' S.D. Martínez, 88' Scotto - 4' Capria, 11' M.A. Delgado, 12' C.J. López, 47' and 60' Capria, 86' C.J. López",
+1995-96-apertura-0163,1995/96 Apertura,Fase única,,17,1995-12-03,,Boca Juniors,Racing Club,4,6,,,,,,,RSSSF,rsssf:arg96:426 ogol:729778,,
 1995-96-apertura-0164,1995/96 Apertura,Fase única,,17,1995-12-03,,Colón,Rosario Central,2,0,,,,,,,RSSSF,rsssf:arg96:429 ogol:729779,,
 1995-96-apertura-0165,1995/96 Apertura,Fase única,,17,1995-12-03,,San Lorenzo,Vélez Sarsfield,0,2,,,,,,,RSSSF,rsssf:arg96:431 ogol:729780,,
-1995-96-apertura-0166,1995/96 Apertura,Fase única,,17,1995-12-03,,Lanús,Deportivo Español,3,2,,,,,,,RSSSF,rsssf:arg96:433 ogol:729781,"30' H.A. Morales, 81' A.M. López, 87' Coyette - 67' and 89' Odriozola (p)",
+1995-96-apertura-0166,1995/96 Apertura,Fase única,,17,1995-12-03,,Lanús,Deportivo Español,3,2,,,,,,,RSSSF,rsssf:arg96:433 ogol:729781,,
 1995-96-apertura-0167,1995/96 Apertura,Fase única,,17,1995-12-03,,Ferro Carril Oeste,Gimnasia de Jujuy,1,1,,,,,,,RSSSF,rsssf:arg96:435,,
 1995-96-apertura-0168,1995/96 Apertura,Fase única,,17,1995-12-03,,Platense,Huracán,1,2,,,,,,,RSSSF,rsssf:arg96:437 ogol:729783,,
 1995-96-apertura-0169,1995/96 Apertura,Fase única,,17,1995-12-03,,Newell's Old Boys,Estudiantes,1,2,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:439 ogol:729784,,played at Rosario Central
 1995-96-apertura-0170,1995/96 Apertura,Fase única,,17,1995-12-04,,Argentinos Juniors,Banfield,0,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:442 ogol:729785,,played at Atlanta
-1995-96-apertura-0171,1995/96 Apertura,Fase única,,18,1995-12-08,,River Plate,Colón,3,2,,,,,,,RSSSF,rsssf:arg96:447 ogol:729786,"22' Amato, 36' (p) and 66' Gallardo - 74' Gambier, 88' Risso",
+1995-96-apertura-0171,1995/96 Apertura,Fase única,,18,1995-12-08,,River Plate,Colón,3,2,,,,,,,RSSSF,rsssf:arg96:447 ogol:729786,,
 1995-96-apertura-0172,1995/96 Apertura,Fase única,,18,1995-12-09,,Estudiantes,Boca Juniors,2,1,,,,Estádio do Independiente,,,RSSSF,rsssf:arg96:450 ogol:729787,,played at Independiente
-1995-96-apertura-0173,1995/96 Apertura,Fase única,,18,1995-12-10,,Platense,Independiente,2,2,,,,,,,RSSSF,rsssf:arg96:453 ogol:729788,"19' Maisterra, 36' F.D. Rodríguez - 43' and 79' Cagna",
-1995-96-apertura-0174,1995/96 Apertura,Fase única,,18,1995-12-10,,Gimnasia de Jujuy,Lanús,0,2,,,,,,,RSSSF,rsssf:arg96:455,23' and 53' A.M. López,
+1995-96-apertura-0173,1995/96 Apertura,Fase única,,18,1995-12-10,,Platense,Independiente,2,2,,,,,,,RSSSF,rsssf:arg96:453 ogol:729788,,
+1995-96-apertura-0174,1995/96 Apertura,Fase única,,18,1995-12-10,,Gimnasia de Jujuy,Lanús,0,2,,,,,,,RSSSF,rsssf:arg96:455,,
 1995-96-apertura-0175,1995/96 Apertura,Fase única,,18,1995-12-10,,Racing Club,Gimnasia La Plata,2,0,,,,,,,RSSSF,rsssf:arg96:457 ogol:729790,,
-1995-96-apertura-0176,1995/96 Apertura,Fase única,,18,1995-12-10,,Banfield,San Lorenzo,2,5,,,,,,,RSSSF,rsssf:arg96:459 ogol:729791,"57' J.R. Arce, 71' Alvarenga - 17' and 24' Biaggio, 42' E.F. González, 54' Biaggio, 66' Netto (p)",
+1995-96-apertura-0176,1995/96 Apertura,Fase única,,18,1995-12-10,,Banfield,San Lorenzo,2,5,,,,,,,RSSSF,rsssf:arg96:459 ogol:729791,,
 1995-96-apertura-0177,1995/96 Apertura,Fase única,,18,1995-12-10,,Deportivo Español,Newell's Old Boys,3,3,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:461 ogol:729792,"25' Odriozola (p), 62' A. Benítez, 70' Odriozola (p) - 2', 11' and 47' Gabrich",played at Ferro Carril Oeste
-1995-96-apertura-0178,1995/96 Apertura,Fase única,,18,1995-12-10,,Vélez Sarsfield,Belgrano,2,0,,,,,,,RSSSF,rsssf:arg96:463 ogol:729793,48' and 89' J.O. Flores,
+1995-96-apertura-0178,1995/96 Apertura,Fase única,,18,1995-12-10,,Vélez Sarsfield,Belgrano,2,0,,,,,,,RSSSF,rsssf:arg96:463 ogol:729793,,
 1995-96-apertura-0179,1995/96 Apertura,Fase única,,18,1995-12-10,,Rosario Central,Argentinos Juniors,0,0,,,,,,,RSSSF,rsssf:arg96:465 ogol:729794,,
 1995-96-apertura-0180,1995/96 Apertura,Fase única,,18,1995-12-11,,Huracán,Ferro Carril Oeste,1,0,,,,,,,RSSSF,rsssf:arg96:467 ogol:729795,,
 1995-96-apertura-0181,1995/96 Apertura,Fase única,,19,1995-12-15,,San Lorenzo,Rosario Central,2,2,,,,,,,RSSSF,rsssf:arg96:472 ogol:729796,,
@@ -32122,7 +32122,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-apertura-0187,1995/96 Apertura,Fase única,,19,1995-12-17,,Gimnasia La Plata,Estudiantes,0,3,,,,,,,RSSSF,rsssf:arg96:485 ogol:729802,,
 1995-96-apertura-0188,1995/96 Apertura,Fase única,,19,1995-12-17,,Argentinos Juniors,River Plate,3,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:487 ogol:729803,,played at Atlanta
 1995-96-apertura-0189,1995/96 Apertura,Fase única,,19,1995-12-17,,Belgrano,Banfield,0,0,,,,Estádio do Instituto,,,RSSSF,rsssf:arg96:489 ogol:729804,,played at Instituto
-1995-96-apertura-0190,1995/96 Apertura,Fase única,,19,1995-12-18,,Ferro Carril Oeste,Platense,1,4,,,,,,,RSSSF,rsssf:arg96:491 ogol:729805,"69' V.M. López - 1' Fuertes, 35' Saraiba, 40' (p) and 47' Mena",
+1995-96-apertura-0190,1995/96 Apertura,Fase única,,19,1995-12-18,,Ferro Carril Oeste,Platense,1,4,,,,,,,RSSSF,rsssf:arg96:491 ogol:729805,,
 1995-96-clausura-0001,1995/96 Clausura,Fase única,,1,1996-03-08,,Boca Juniors,Gimnasia de Jujuy,4,0,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:557,,played at Vélez Sarsfield
 1995-96-clausura-0002,1995/96 Clausura,Fase única,,1,1996-03-09,,Newell's Old Boys,Huracán,1,1,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:560 ogol:729427,,played at Rosario Central
 1995-96-clausura-0003,1995/96 Clausura,Fase única,,1,1996-03-10,,Gimnasia La Plata,Deportivo Español,0,0,,,,,,,RSSSF,rsssf:arg96:563 ogol:729428,,
@@ -32138,22 +32138,22 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-clausura-0013,1995/96 Clausura,Fase única,,2,1996-03-17,,Huracán,Boca Juniors,1,1,,,,,,,RSSSF,rsssf:arg96:587 ogol:729438,,
 1995-96-clausura-0014,1995/96 Clausura,Fase única,,2,1996-03-17,,River Plate,Belgrano,3,0,,,,,,,RSSSF,rsssf:arg96:589 ogol:729439,"24', 27' (p) and 72 (p) Francescoli",
 1995-96-clausura-0015,1995/96 Clausura,Fase única,,2,1996-03-17,,Racing Club,San Lorenzo,1,0,,,,,,,RSSSF,rsssf:arg96:591 ogol:729440,,
-1995-96-clausura-0016,1995/96 Clausura,Fase única,,2,1996-03-17,,Platense,Newell's Old Boys,3,2,,,,,,,RSSSF,rsssf:arg96:593 ogol:729441,"52' Coria, 63' Mena, 78' Coria - 32' and 74' Gabrich",
+1995-96-clausura-0016,1995/96 Clausura,Fase única,,2,1996-03-17,,Platense,Newell's Old Boys,3,2,,,,,,,RSSSF,rsssf:arg96:593 ogol:729441,,
 1995-96-clausura-0017,1995/96 Clausura,Fase única,,2,1996-03-17,,Deportivo Español,Colón,1,0,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:595 ogol:729442,,played at Atlanta
 1995-96-clausura-0018,1995/96 Clausura,Fase única,,2,1996-03-17,,Estudiantes,Argentinos Juniors,2,0,,,,,,,RSSSF,rsssf:arg96:597 ogol:729443,,
-1995-96-clausura-0019,1995/96 Clausura,Fase única,,2,1996-03-17,,Gimnasia de Jujuy,Gimnasia La Plata,2,1,,,,,,,RSSSF,rsssf:arg96:599,32' and 39' H.M. Lobo - 80' Guglielmipietro,
+1995-96-clausura-0019,1995/96 Clausura,Fase única,,2,1996-03-17,,Gimnasia de Jujuy,Gimnasia La Plata,2,1,,,,,,,RSSSF,rsssf:arg96:599,,
 1995-96-clausura-0020,1995/96 Clausura,Fase única,,2,1996-03-18,,Ferro Carril Oeste,Lanús,1,1,,,,,,,RSSSF,rsssf:arg96:602 ogol:729445,,
 1995-96-clausura-0021,1995/96 Clausura,Fase única,,3,1996-03-22,,Vélez Sarsfield,River Plate,3,2,,,,,,,RSSSF,rsssf:arg96:607 ogol:729446,,
-1995-96-clausura-0022,1995/96 Clausura,Fase única,,3,1996-03-23,,Gimnasia La Plata,Huracán,2,0,,,,,,,RSSSF,rsssf:arg96:610 ogol:729447,31' and 76' (p) Márcico,
+1995-96-clausura-0022,1995/96 Clausura,Fase única,,3,1996-03-23,,Gimnasia La Plata,Huracán,2,0,,,,,,,RSSSF,rsssf:arg96:610 ogol:729447,,
 1995-96-clausura-0023,1995/96 Clausura,Fase única,,3,1996-03-24,,Boca Juniors,Platense,1,0,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:613 ogol:729448,,played at Vélez Sarsfield
 1995-96-clausura-0024,1995/96 Clausura,Fase única,,3,1996-03-24,,Colón,Gimnasia de Jujuy,0,2,,,,,,,RSSSF,rsssf:arg96:615,,
 1995-96-clausura-0025,1995/96 Clausura,Fase única,,3,1996-03-24,,Belgrano,Racing Club,2,2,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:617 ogol:729450,,played at Estadio Córdoba
-1995-96-clausura-0026,1995/96 Clausura,Fase única,,3,1996-03-24,,San Lorenzo,Estudiantes,0,2,,,,,,,RSSSF,rsssf:arg96:619 ogol:729451,2' and 88' S.S. Maciel,
+1995-96-clausura-0026,1995/96 Clausura,Fase única,,3,1996-03-24,,San Lorenzo,Estudiantes,0,2,,,,,,,RSSSF,rsssf:arg96:619 ogol:729451,,
 1995-96-clausura-0027,1995/96 Clausura,Fase única,,3,1996-03-24,,Newell's Old Boys,Ferro Carril Oeste,1,1,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:621 ogol:729452,,played at Rosario Central
 1995-96-clausura-0028,1995/96 Clausura,Fase única,,3,1996-03-24,,Independiente,Lanús,0,2,,,,,,,RSSSF,rsssf:arg96:623 ogol:729453,,
 1995-96-clausura-0029,1995/96 Clausura,Fase única,,3,1996-03-24,,Banfield,Rosario Central,2,1,,,,,,,RSSSF,rsssf:arg96:625 ogol:729454,,
-1995-96-clausura-0030,1995/96 Clausura,Fase única,,3,1996-03-25,,Argentinos Juniors,Deportivo Español,1,3,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:628 ogol:729455,"74' J.M. Fernández - 43' Grondona, 81' and 85' H.N. Castillo",played at Atlanta
-1995-96-clausura-0031,1995/96 Clausura,Fase única,,4,1996-03-29,,Deportivo Español,San Lorenzo,2,0,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:633 ogol:729456,58' and 82' H.N. Castillo,played at Atlanta
+1995-96-clausura-0030,1995/96 Clausura,Fase única,,3,1996-03-25,,Argentinos Juniors,Deportivo Español,1,3,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:628 ogol:729455,,played at Atlanta
+1995-96-clausura-0031,1995/96 Clausura,Fase única,,4,1996-03-29,,Deportivo Español,San Lorenzo,2,0,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:633 ogol:729456,,played at Atlanta
 1995-96-clausura-0032,1995/96 Clausura,Fase única,,4,1996-03-30,,Rosario Central,Independiente,3,1,,,,,,,RSSSF,rsssf:arg96:636 ogol:729457,,
 1995-96-clausura-0033,1995/96 Clausura,Fase única,,4,1996-03-31,,Ferro Carril Oeste,Boca Juniors,1,2,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:639 ogol:729458,,played at Vélez Sarsfield
 1995-96-clausura-0034,1995/96 Clausura,Fase única,,4,1996-03-31,,Platense,Gimnasia La Plata,2,3,,,,,,,RSSSF,rsssf:arg96:641 ogol:729459,"30' Coria, 36' G.O. Sanguinetti (o.g.) - 43' Albornoz, 64' and 73 (p) Márcico",
@@ -32164,8 +32164,8 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-clausura-0039,1995/96 Clausura,Fase única,,4,1996-03-31,,Lanús,Newell's Old Boys,4,1,,,,,,,RSSSF,rsssf:arg96:651 ogol:729464,,
 1995-96-clausura-0040,1995/96 Clausura,Fase única,,4,1996-04-01,,Estudiantes,Belgrano,2,1,,,,,,,RSSSF,rsssf:arg96:654 ogol:729465,,
 1995-96-clausura-0041,1995/96 Clausura,Fase única,,5,1996-04-05,,Vélez Sarsfield,Estudiantes,1,2,,,,,,,RSSSF,rsssf:arg96:659 ogol:729466,,
-1995-96-clausura-0042,1995/96 Clausura,Fase única,,5,1996-04-06,,Rosario Central,River Plate,2,1,,,,,,,RSSSF,rsssf:arg96:662 ogol:729467,63' and 71' Cardetti - 84' Ortega,
-1995-96-clausura-0043,1995/96 Clausura,Fase única,,5,1996-04-07,,Boca Juniors,Lanús,2,1,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:665 ogol:729468,20' and 70' Caniggia - 62' Ibazaga,played at Vélez Sarsfield
+1995-96-clausura-0042,1995/96 Clausura,Fase única,,5,1996-04-06,,Rosario Central,River Plate,2,1,,,,,,,RSSSF,rsssf:arg96:662 ogol:729467,,
+1995-96-clausura-0043,1995/96 Clausura,Fase única,,5,1996-04-07,,Boca Juniors,Lanús,2,1,,,,Estádio do Vélez Sarsfield,,,RSSSF,rsssf:arg96:665 ogol:729468,,played at Vélez Sarsfield
 1995-96-clausura-0044,1995/96 Clausura,Fase única,,5,1996-04-07,,Banfield,Racing Club,0,1,,,,,,,RSSSF,rsssf:arg96:667 ogol:729469,,
 1995-96-clausura-0045,1995/96 Clausura,Fase única,,5,1996-04-07,,San Lorenzo,Gimnasia de Jujuy,1,3,,,,,,,RSSSF,rsssf:arg96:669,,
 1995-96-clausura-0046,1995/96 Clausura,Fase única,,5,1996-04-07,,Gimnasia La Plata,Ferro Carril Oeste,1,0,,,,,,,RSSSF,rsssf:arg96:671 ogol:729471,,
@@ -32175,18 +32175,18 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-clausura-0050,1995/96 Clausura,Fase única,,5,1996-06-11,,Independiente,Newell's Old Boys,3,2,,,,,,,RSSSF,rsssf:arg96:682 ogol:729475,,
 1995-96-clausura-0051,1995/96 Clausura,Fase única,,6,1996-04-12,,Racing Club,Rosario Central,0,1,,,,,,,RSSSF,rsssf:arg96:687 ogol:729476,,
 1995-96-clausura-0052,1995/96 Clausura,Fase única,,6,1996-04-13,,Newell's Old Boys,Boca Juniors,1,0,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:690 ogol:729477,,played at Rosario Central
-1995-96-clausura-0053,1995/96 Clausura,Fase única,,6,1996-04-14,,River Plate,Independiente,1,4,,,,,,,RSSSF,rsssf:arg96:693 ogol:729478,"16' Cedres - 3' Burruchaga, 38' and 55' Alvez, 87' Dorta",
+1995-96-clausura-0053,1995/96 Clausura,Fase única,,6,1996-04-14,,River Plate,Independiente,1,4,,,,,,,RSSSF,rsssf:arg96:693 ogol:729478,,
 1995-96-clausura-0054,1995/96 Clausura,Fase única,,6,1996-04-14,,Huracán,San Lorenzo,1,1,,,,,,,RSSSF,rsssf:arg96:695 ogol:729479,,
 1995-96-clausura-0055,1995/96 Clausura,Fase única,,6,1996-04-14,,Deportivo Español,Vélez Sarsfield,1,2,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:697 ogol:729480,,played at Ferro Carril Oeste
 1995-96-clausura-0056,1995/96 Clausura,Fase única,,6,1996-04-14,,Platense,Argentinos Juniors,3,0,,,,,,,RSSSF,rsssf:arg96:699 ogol:729481,,"Suspended at 81' due to visibility problems with Platense leading 1-0, continued April 18"
 1995-96-clausura-0057,1995/96 Clausura,Fase única,,6,1996-04-14,,Lanús,Gimnasia La Plata,3,1,,,,,,,RSSSF,rsssf:arg96:702 ogol:729482,,
 1995-96-clausura-0058,1995/96 Clausura,Fase única,,6,1996-04-14,,Estudiantes,Banfield,2,2,,,,,,,RSSSF,rsssf:arg96:704 ogol:729483,,
-1995-96-clausura-0059,1995/96 Clausura,Fase única,,6,1996-04-14,,Gimnasia de Jujuy,Belgrano,0,2,,,,,,,RSSSF,rsssf:arg96:706,51' and 63' (p) Tosello,
+1995-96-clausura-0059,1995/96 Clausura,Fase única,,6,1996-04-14,,Gimnasia de Jujuy,Belgrano,0,2,,,,,,,RSSSF,rsssf:arg96:706,,
 1995-96-clausura-0060,1995/96 Clausura,Fase única,,6,1996-04-15,,Ferro Carril Oeste,Colón,0,0,,,,,,,RSSSF,rsssf:arg96:709 ogol:729485,,
 1995-96-clausura-0061,1995/96 Clausura,Fase única,,7,1996-04-26,,San Lorenzo,Platense,1,0,,,,,,,RSSSF,rsssf:arg96:713 ogol:729486,,
 1995-96-clausura-0062,1995/96 Clausura,Fase única,,7,1996-04-27,,Belgrano,Huracán,0,1,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:716 ogol:729487,,played at Estadio Córdoba
 1995-96-clausura-0063,1995/96 Clausura,Fase única,,7,1996-04-28,,Independiente,Boca Juniors,1,1,,,,,,,RSSSF,rsssf:arg96:719 ogol:729488,,
-1995-96-clausura-0064,1995/96 Clausura,Fase única,,7,1996-04-28,,River Plate,Racing Club,4,2,,,,,,,RSSSF,rsssf:arg96:721 ogol:729489,"37' and 42' Crespo, 55' Medina Bello, 84' Almeyda - 33' C.J. López, 65' Carrario",
+1995-96-clausura-0064,1995/96 Clausura,Fase única,,7,1996-04-28,,River Plate,Racing Club,4,2,,,,,,,RSSSF,rsssf:arg96:721 ogol:729489,,
 1995-96-clausura-0065,1995/96 Clausura,Fase única,,7,1996-04-28,,Vélez Sarsfield,Gimnasia de Jujuy,4,0,,,,,,,RSSSF,rsssf:arg96:723,,
 1995-96-clausura-0066,1995/96 Clausura,Fase única,,7,1996-04-28,,Colón,Lanús,1,1,,,,,,,RSSSF,rsssf:arg96:725 ogol:729491,,
 1995-96-clausura-0067,1995/96 Clausura,Fase única,,7,1996-04-28,,Argentinos Juniors,Ferro Carril Oeste,0,2,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:727 ogol:729492,,played at Atlanta
@@ -32195,34 +32195,34 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-clausura-0070,1995/96 Clausura,Fase única,,7,1996-04-29,,Banfield,Deportivo Español,0,0,,,,,,,RSSSF,rsssf:arg96:734 ogol:729495,,
 1995-96-clausura-0071,1995/96 Clausura,Fase única,,8,1996-05-03,,Huracán,Vélez Sarsfield,2,2,,,,,,,RSSSF,rsssf:arg96:738 ogol:729496,,
 1995-96-clausura-0072,1995/96 Clausura,Fase única,,8,1996-05-04,,Gimnasia de Jujuy,Banfield,0,3,,,,,,,RSSSF,rsssf:arg96:741,,
-1995-96-clausura-0073,1995/96 Clausura,Fase única,,8,1996-05-05,,Boca Juniors,Gimnasia La Plata,0,6,,,,,,,RSSSF,rsssf:arg96:744 ogol:729498,"2' and 13' Gmo. Barrios Schelotto, 40' Albornoz, 44' Gmo. Barrios Schelotto, 51' Márcico (p), 79' Saccone",
-1995-96-clausura-0074,1995/96 Clausura,Fase única,,8,1996-05-05,,Estudiantes,River Plate,3,1,,,,,,,RSSSF,rsssf:arg96:747 ogol:729499,"4' Palermo, 48' and 65' (p) S.S. Maciel - 28' Francescoli",
+1995-96-clausura-0073,1995/96 Clausura,Fase única,,8,1996-05-05,,Boca Juniors,Gimnasia La Plata,0,6,,,,,,,RSSSF,rsssf:arg96:744 ogol:729498,,
+1995-96-clausura-0074,1995/96 Clausura,Fase única,,8,1996-05-05,,Estudiantes,River Plate,3,1,,,,,,,RSSSF,rsssf:arg96:747 ogol:729499,,
 1995-96-clausura-0075,1995/96 Clausura,Fase única,,8,1996-05-05,,Racing Club,Independiente,1,1,,,,,,,RSSSF,rsssf:arg96:749 ogol:729500,,
 1995-96-clausura-0076,1995/96 Clausura,Fase única,,8,1996-05-05,,Ferro Carril Oeste,San Lorenzo,0,0,,,,,,,RSSSF,rsssf:arg96:751 ogol:729501,,
 1995-96-clausura-0077,1995/96 Clausura,Fase única,,8,1996-05-05,,Newell's Old Boys,Colón,1,1,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:752 ogol:729502,,played at Rosario Central
-1995-96-clausura-0078,1995/96 Clausura,Fase única,,8,1996-05-05,,Lanús,Argentinos Juniors,3,0,,,,,,,RSSSF,rsssf:arg96:754 ogol:729503,"2' and 30' A.M. López, 74' N.O. González",
+1995-96-clausura-0078,1995/96 Clausura,Fase única,,8,1996-05-05,,Lanús,Argentinos Juniors,3,0,,,,,,,RSSSF,rsssf:arg96:754 ogol:729503,,
 1995-96-clausura-0079,1995/96 Clausura,Fase única,,8,1996-05-05,,Platense,Belgrano,2,1,,,,,,,RSSSF,rsssf:arg96:756 ogol:729504,,
 1995-96-clausura-0080,1995/96 Clausura,Fase única,,8,1996-05-06,,Deportivo Español,Rosario Central,1,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:759 ogol:729505,,played at Atlanta
-1995-96-clausura-0081,1995/96 Clausura,Fase única,,9,1996-05-10,,Vélez Sarsfield,Platense,4,3,,,,,,,RSSSF,rsssf:arg96:764 ogol:729506,"2' Trotta (p), 7' Camps, 40' H.M. Herrera, 67' Trotta (p) - 3' and 59' Coria, 63' Fuertes",
+1995-96-clausura-0081,1995/96 Clausura,Fase única,,9,1996-05-10,,Vélez Sarsfield,Platense,4,3,,,,,,,RSSSF,rsssf:arg96:764 ogol:729506,,
 1995-96-clausura-0082,1995/96 Clausura,Fase única,,9,1996-05-11,,Colón,Boca Juniors,1,0,,,,,,,RSSSF,rsssf:arg96:767 ogol:729507,,
 1995-96-clausura-0083,1995/96 Clausura,Fase única,,9,1996-05-12,,River Plate,Deportivo Español,2,0,,,,,,,RSSSF,rsssf:arg96:770 ogol:729508,,
 1995-96-clausura-0084,1995/96 Clausura,Fase única,,9,1996-05-12,,Gimnasia La Plata,Independiente,3,2,,,,,,,RSSSF,rsssf:arg96:772 ogol:729509,,
 1995-96-clausura-0085,1995/96 Clausura,Fase única,,9,1996-05-12,,Racing Club,Estudiantes,1,1,,,,,,,RSSSF,rsssf:arg96:774 ogol:729510,60' Fleita - 88' Bossio Note: Bossio was Estudiantes' goalkeeper; his goal was a header off a corner kick,
-1995-96-clausura-0086,1995/96 Clausura,Fase única,,9,1996-05-12,,San Lorenzo,Lanús,2,3,,,,,,,RSSSF,rsssf:arg96:777 ogol:729511,"27' and 31' E.F. González - 16' H.A. Morales, 57' and 61' A.M. López",
+1995-96-clausura-0086,1995/96 Clausura,Fase única,,9,1996-05-12,,San Lorenzo,Lanús,2,3,,,,,,,RSSSF,rsssf:arg96:777 ogol:729511,,
 1995-96-clausura-0087,1995/96 Clausura,Fase única,,9,1996-05-12,,Banfield,Huracán,0,0,,,,,,,RSSSF,rsssf:arg96:779 ogol:729512,,
 1995-96-clausura-0088,1995/96 Clausura,Fase única,,9,1996-05-12,,Rosario Central,Gimnasia de Jujuy,1,1,,,,,,,RSSSF,rsssf:arg96:780,,
-1995-96-clausura-0089,1995/96 Clausura,Fase única,,9,1996-05-12,,Belgrano,Ferro Carril Oeste,3,1,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:782 ogol:729514,"16' Oste, 37' and 70' Tosello - 72' Nicotra",played at Estadio Córdoba
+1995-96-clausura-0089,1995/96 Clausura,Fase única,,9,1996-05-12,,Belgrano,Ferro Carril Oeste,3,1,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:782 ogol:729514,,played at Estadio Córdoba
 1995-96-clausura-0090,1995/96 Clausura,Fase única,,9,1996-05-13,,Argentinos Juniors,Newell's Old Boys,1,1,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:785 ogol:729515,,played at Atlanta
 1995-96-clausura-0091,1995/96 Clausura,Fase única,,10,1996-05-17,,Deportivo Español,Racing Club,1,2,,,,Estádio do Huracán,,,RSSSF,rsssf:arg96:790 ogol:729516,,played at Huracán (BA)
 1995-96-clausura-0092,1995/96 Clausura,Fase única,,10,1996-05-18,,Newell's Old Boys,San Lorenzo,1,1,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:793 ogol:729517,,played at Rosario Central
-1995-96-clausura-0093,1995/96 Clausura,Fase única,,10,1996-05-18,,Gimnasia de Jujuy,River Plate,1,4,,,,,,,RSSSF,rsssf:arg96:795,"70' Gorostidi - 7' Cedrés, 20' G.O. Amato, 52' and 60' Ortega",
+1995-96-clausura-0093,1995/96 Clausura,Fase única,,10,1996-05-18,,Gimnasia de Jujuy,River Plate,1,4,,,,,,,RSSSF,rsssf:arg96:795,,
 1995-96-clausura-0094,1995/96 Clausura,Fase única,,10,1996-05-19,,Boca Juniors,Argentinos Juniors,4,1,,,,,,,RSSSF,rsssf:arg96:798 ogol:729519,,
 1995-96-clausura-0095,1995/96 Clausura,Fase única,,10,1996-05-19,,Independiente,Estudiantes,0,0,,,,,,,RSSSF,rsssf:arg96:800 ogol:729520,,
 1995-96-clausura-0096,1995/96 Clausura,Fase única,,10,1996-05-19,,Huracán,Rosario Central,1,1,,,,,,,RSSSF,rsssf:arg96:801 ogol:729521,,
-1995-96-clausura-0097,1995/96 Clausura,Fase única,,10,1996-05-19,,Lanús,Belgrano,4,2,,,,,,,RSSSF,rsssf:arg96:803 ogol:729522,"3' Schurrer, 37' Enría, 48' and 89' A.M. López - 17 Tosello (p), 72' Spallina",
+1995-96-clausura-0097,1995/96 Clausura,Fase única,,10,1996-05-19,,Lanús,Belgrano,4,2,,,,,,,RSSSF,rsssf:arg96:803 ogol:729522,,
 1995-96-clausura-0098,1995/96 Clausura,Fase única,,10,1996-05-19,,Gimnasia La Plata,Colón,3,1,,,,,,,RSSSF,rsssf:arg96:805 ogol:729523,,
 1995-96-clausura-0099,1995/96 Clausura,Fase única,,10,1996-05-19,,Ferro Carril Oeste,Vélez Sarsfield,0,0,,,,,,,RSSSF,rsssf:arg96:807 ogol:729524,,
-1995-96-clausura-0100,1995/96 Clausura,Fase única,,10,1996-05-20,,Platense,Banfield,0,5,,,,,,,RSSSF,rsssf:arg96:809 ogol:729525,"65' and 69' J.R. Cruz, 71' F.L. Alegre, 82' Glaría, 87' Malvestitti",
+1995-96-clausura-0100,1995/96 Clausura,Fase única,,10,1996-05-20,,Platense,Banfield,0,5,,,,,,,RSSSF,rsssf:arg96:809 ogol:729525,,
 1995-96-clausura-0101,1995/96 Clausura,Fase única,,11,1996-05-24,,Racing Club,Gimnasia de Jujuy,4,1,,,,,,,RSSSF,rsssf:arg96:814,,
 1995-96-clausura-0102,1995/96 Clausura,Fase única,,11,1996-05-25,,Colón,Independiente,3,1,,,,,,,RSSSF,rsssf:arg96:817 ogol:729527,,
 1995-96-clausura-0103,1995/96 Clausura,Fase única,,11,1996-05-26,,San Lorenzo,Boca Juniors,1,2,,,,,,,RSSSF,rsssf:arg96:820 ogol:729528,,
@@ -32239,29 +32239,29 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-clausura-0114,1995/96 Clausura,Fase única,,12,1996-06-09,,Huracán,Racing Club,2,2,,,,,,,RSSSF,rsssf:arg96:847 ogol:729539,,
 1995-96-clausura-0115,1995/96 Clausura,Fase única,,12,1996-06-09,,Gimnasia de Jujuy,Estudiantes,1,0,,,,,,,RSSSF,rsssf:arg96:849,,
 1995-96-clausura-0116,1995/96 Clausura,Fase única,,12,1996-06-09,,Gimnasia La Plata,San Lorenzo,1,2,,,,,,,RSSSF,rsssf:arg96:851 ogol:729541,,
-1995-96-clausura-0117,1995/96 Clausura,Fase única,,12,1996-06-09,,Colón,Argentinos Juniors,1,2,,,,,,,RSSSF,rsssf:arg96:853 ogol:729542,56' C.O. García - 47' and 62' Vespa,
+1995-96-clausura-0117,1995/96 Clausura,Fase única,,12,1996-06-09,,Colón,Argentinos Juniors,1,2,,,,,,,RSSSF,rsssf:arg96:853 ogol:729542,,
 1995-96-clausura-0118,1995/96 Clausura,Fase única,,12,1996-06-09,,Boca Juniors,Belgrano,2,0,,,,,,,RSSSF,rsssf:arg96:855 ogol:729543,,
-1995-96-clausura-0119,1995/96 Clausura,Fase única,,12,1996-06-09,,Platense,River Plate,2,1,,,,,,,RSSSF,rsssf:arg96:857 ogol:729544,78' and 81' Fuertes - 83' Gallardo (p),
+1995-96-clausura-0119,1995/96 Clausura,Fase única,,12,1996-06-09,,Platense,River Plate,2,1,,,,,,,RSSSF,rsssf:arg96:857 ogol:729544,,
 1995-96-clausura-0120,1995/96 Clausura,Fase única,,12,1996-06-10,,Lanús,Banfield,4,0,,,,,,,RSSSF,rsssf:arg96:860 ogol:729545,,
 1995-96-clausura-0121,1995/96 Clausura,Fase única,,13,1996-06-14,,San Lorenzo,Colón,0,0,,,,,,,RSSSF,rsssf:arg96:865 ogol:729546,,
 1995-96-clausura-0122,1995/96 Clausura,Fase única,,13,1996-06-15,,Estudiantes,Huracán,5,2,,,,,,,RSSSF,rsssf:arg96:867 ogol:729547,,
 1995-96-clausura-0123,1995/96 Clausura,Fase única,,13,1996-06-16,,Belgrano,Gimnasia La Plata,2,1,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:871 ogol:729548,,played at Estadio Córdoba
 1995-96-clausura-0124,1995/96 Clausura,Fase única,,13,1996-06-16,,Argentinos Juniors,Independiente,0,0,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:873 ogol:729549,,played at Atlanta
-1995-96-clausura-0125,1995/96 Clausura,Fase única,,13,1996-06-16,,Vélez Sarsfield,Boca Juniors,5,1,,,,,,,RSSSF,rsssf:arg96:874 ogol:729550,"20' Camps, 40' and 43' (p) Chilavert, 79' Gamboa (o.g.), 87' J.O. Flores - 15' Caniggia",
+1995-96-clausura-0125,1995/96 Clausura,Fase única,,13,1996-06-16,,Vélez Sarsfield,Boca Juniors,5,1,,,,,,,RSSSF,rsssf:arg96:874 ogol:729550,,
 1995-96-clausura-0126,1995/96 Clausura,Fase única,,13,1996-06-16,,Banfield,Newell's Old Boys,1,1,,,,,,,RSSSF,rsssf:arg96:876 ogol:729551,,
-1995-96-clausura-0127,1995/96 Clausura,Fase única,,13,1996-06-16,,Rosario Central,Lanús,3,1,,,,,,,RSSSF,rsssf:arg96:878 ogol:729552,"57' Cardetti,70' and 89' Pobersnik - 54' Simionato",
+1995-96-clausura-0127,1995/96 Clausura,Fase única,,13,1996-06-16,,Rosario Central,Lanús,3,1,,,,,,,RSSSF,rsssf:arg96:878 ogol:729552,,
 1995-96-clausura-0128,1995/96 Clausura,Fase única,,13,1996-06-16,,River Plate,Ferro Carril Oeste,2,3,,,,,,,RSSSF,rsssf:arg96:880 ogol:729553,,
 1995-96-clausura-0129,1995/96 Clausura,Fase única,,13,1996-06-16,,Racing Club,Platense,1,0,,,,,,,RSSSF,rsssf:arg96:882 ogol:729554,,
 1995-96-clausura-0130,1995/96 Clausura,Fase única,,13,1996-06-17,,Deportivo Español,Gimnasia de Jujuy,2,2,,,,,,,RSSSF,rsssf:arg96:885,,
-1995-96-clausura-0131,1995/96 Clausura,Fase única,,14,1996-06-21,,Independiente,Gimnasia de Jujuy,3,2,,,,,,,RSSSF,rsssf:arg96:890,"34' Alvez, 64' and 85' Burruchaga (p) - 47' Trimarchi, 56' C.L. Morales",
+1995-96-clausura-0131,1995/96 Clausura,Fase única,,14,1996-06-21,,Independiente,Gimnasia de Jujuy,3,2,,,,,,,RSSSF,rsssf:arg96:890,,
 1995-96-clausura-0132,1995/96 Clausura,Fase única,,14,1996-06-22,,Argentinos Juniors,San Lorenzo,2,0,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:893 ogol:729557,,played at Atlanta
-1995-96-clausura-0133,1995/96 Clausura,Fase única,,14,1996-06-23,,Boca Juniors,Banfield,3,2,,,,,,,RSSSF,rsssf:arg96:896 ogol:729558,"55' Caniggia, 58' and 88' Tchami - 67' J.R. Cruz, 81' Baena",
+1995-96-clausura-0133,1995/96 Clausura,Fase única,,14,1996-06-23,,Boca Juniors,Banfield,3,2,,,,,,,RSSSF,rsssf:arg96:896 ogol:729558,,
 1995-96-clausura-0134,1995/96 Clausura,Fase única,,14,1996-06-23,,Ferro Carril Oeste,Racing Club,0,3,,,,,,,RSSSF,rsssf:arg96:898 ogol:729559,,
 1995-96-clausura-0135,1995/96 Clausura,Fase única,,14,1996-06-23,,Gimnasia La Plata,Vélez Sarsfield,1,1,,,,,,,RSSSF,rsssf:arg96:900 ogol:729560,,
 1995-96-clausura-0136,1995/96 Clausura,Fase única,,14,1996-06-23,,Colón,Belgrano,2,1,,,,,,,RSSSF,rsssf:arg96:902 ogol:729561,,
 1995-96-clausura-0137,1995/96 Clausura,Fase única,,14,1996-06-23,,Newell's Old Boys,Rosario Central,2,0,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:904 ogol:729562,,played at Rosario Central Suspended at 64' due to crowd trouble with a penalty awarded to Newell's Old Boys
 1995-96-clausura-0138,1995/96 Clausura,Fase única,,14,1996-06-23,,Huracán,Deportivo Español,2,0,,,,,,,RSSSF,rsssf:arg96:907 ogol:729563,,
-1995-96-clausura-0139,1995/96 Clausura,Fase única,,14,1996-06-24,,Platense,Estudiantes,2,2,,,,,,,RSSSF,rsssf:arg96:910 ogol:729564,"35' and 89' Coria - 1' Craviotto, 46' Palermo",
+1995-96-clausura-0139,1995/96 Clausura,Fase única,,14,1996-06-24,,Platense,Estudiantes,2,2,,,,,,,RSSSF,rsssf:arg96:910 ogol:729564,,
 1995-96-clausura-0140,1995/96 Clausura,Fase única,,14,1996-07-06,,Lanús,River Plate,2,2,,,,,,,RSSSF,rsssf:arg96:913,,
 1995-96-clausura-0141,1995/96 Clausura,Fase única,,15,1996-06-28,,San Lorenzo,Independiente,0,2,,,,,,,RSSSF,rsssf:arg96:918 ogol:729566,,
 1995-96-clausura-0142,1995/96 Clausura,Fase única,,15,1996-06-29,,Rosario Central,Boca Juniors,0,1,,,,,,,RSSSF,rsssf:arg96:921 ogol:729567,,
@@ -32276,7 +32276,7 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-clausura-0151,1995/96 Clausura,Fase única,,16,1996-07-12,,San Lorenzo,Belgrano,1,0,,,,,,,RSSSF,rsssf:arg96:942 ogol:729576,,
 1995-96-clausura-0152,1995/96 Clausura,Fase única,,16,1996-07-12,,Colón,Banfield,2,0,,,,,,,RSSSF,rsssf:arg96:944 ogol:729577,,
 1995-96-clausura-0153,1995/96 Clausura,Fase única,,16,1996-07-13,,Newell's Old Boys,Racing Club,1,0,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:947 ogol:729578,,played at Rosario Central
-1995-96-clausura-0154,1995/96 Clausura,Fase única,,16,1996-07-14,,Boca Juniors,River Plate,4,1,,,,,,,RSSSF,rsssf:arg96:950 ogol:729579,"43' Basualdo, 50', 66' and 75' Caniggia - 87' Amato",
+1995-96-clausura-0154,1995/96 Clausura,Fase única,,16,1996-07-14,,Boca Juniors,River Plate,4,1,,,,,,,RSSSF,rsssf:arg96:950 ogol:729579,,
 1995-96-clausura-0155,1995/96 Clausura,Fase única,,16,1996-07-14,,Independiente,Huracán,1,4,,,,,,,RSSSF,rsssf:arg96:952 ogol:729580,,
 1995-96-clausura-0156,1995/96 Clausura,Fase única,,16,1996-07-14,,Argentinos Juniors,Vélez Sarsfield,0,0,,,,Estádio do Ferro Carril Oeste,,,RSSSF,rsssf:arg96:954 ogol:729581,,played at Ferro Carril Oeste
 1995-96-clausura-0157,1995/96 Clausura,Fase única,,16,1996-07-14,,Lanús,Estudiantes,1,0,,,,,,,RSSSF,rsssf:arg96:955 ogol:729582,,
@@ -32287,24 +32287,24 @@ id,temporada,fase,grupo,rodada,data,hora,mandante,visitante,gols_mandante,gols_v
 1995-96-clausura-0162,1995/96 Clausura,Fase única,,17,1996-08-05,,Belgrano,Independiente,0,0,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:969 ogol:729587,,played at Estadio Córdoba
 1995-96-clausura-0163,1995/96 Clausura,Fase única,,17,1996-08-05,,Banfield,Argentinos Juniors,0,1,,,,,,,RSSSF,rsssf:arg96:970 ogol:729588,,
 1995-96-clausura-0164,1995/96 Clausura,Fase única,,17,1996-08-06,,Vélez Sarsfield,San Lorenzo,4,1,,,,,,,RSSSF,rsssf:arg96:973 ogol:729589,,
-1995-96-clausura-0165,1995/96 Clausura,Fase única,,17,1996-08-06,,Huracán,Platense,2,2,,,,,,,RSSSF,rsssf:arg96:975 ogol:729590,"11' N.A. Fernández, 35' Fabbro - 21' and 53' Mena",
+1995-96-clausura-0165,1995/96 Clausura,Fase única,,17,1996-08-06,,Huracán,Platense,2,2,,,,,,,RSSSF,rsssf:arg96:975 ogol:729590,,
 1995-96-clausura-0166,1995/96 Clausura,Fase única,,17,1996-08-06,,Deportivo Español,Lanús,1,0,,,,Estádio do San Lorenzo,,,RSSSF,rsssf:arg96:977 ogol:729591,,played at San Lorenzo
 1995-96-clausura-0167,1995/96 Clausura,Fase única,,17,1996-08-06,,Gimnasia de Jujuy,Ferro Carril Oeste,0,1,,,,,,,RSSSF,rsssf:arg96:979,,
 1995-96-clausura-0168,1995/96 Clausura,Fase única,,17,1996-08-07,,Racing Club,Boca Juniors,1,0,,,,,,,RSSSF,rsssf:arg96:982 ogol:729593,,
-1995-96-clausura-0169,1995/96 Clausura,Fase única,,17,1996-08-07,,Estudiantes,Newell's Old Boys,2,2,,,,,,,RSSSF,rsssf:arg96:984 ogol:729594,"27' and 72' Palermo - 44' Aquino, 63' Manso",
+1995-96-clausura-0169,1995/96 Clausura,Fase única,,17,1996-08-07,,Estudiantes,Newell's Old Boys,2,2,,,,,,,RSSSF,rsssf:arg96:984 ogol:729594,,
 1995-96-clausura-0170,1995/96 Clausura,Fase única,,17,1996-08-07,,Rosario Central,Colón,1,1,,,,,,,RSSSF,rsssf:arg96:986 ogol:729595,,
 1995-96-clausura-0171,1995/96 Clausura,Fase única,,18,1996-08-09,,Independiente,Platense,1,1,,,,,,,RSSSF,rsssf:arg96:991 ogol:729596,,
-1995-96-clausura-0172,1995/96 Clausura,Fase única,,18,1996-08-10,,Gimnasia La Plata,Racing Club,6,0,,,,,,,RSSSF,rsssf:arg96:994 ogol:729597,"14' R.C. Sosa, 22' J.F. Albornoz (p), 43' and 59' R.C. Sosa, 66' G.O. Sanguinetti, 70' Morant",
-1995-96-clausura-0173,1995/96 Clausura,Fase única,,18,1996-08-11,,Boca Juniors,Estudiantes,1,2,,,,,,,RSSSF,rsssf:arg96:998 ogol:729598,14' J.S. Verón - 22' and 72' Palermo,
+1995-96-clausura-0172,1995/96 Clausura,Fase única,,18,1996-08-10,,Gimnasia La Plata,Racing Club,6,0,,,,,,,RSSSF,rsssf:arg96:994 ogol:729597,,
+1995-96-clausura-0173,1995/96 Clausura,Fase única,,18,1996-08-11,,Boca Juniors,Estudiantes,1,2,,,,,,,RSSSF,rsssf:arg96:998 ogol:729598,,
 1995-96-clausura-0174,1995/96 Clausura,Fase única,,18,1996-08-11,,Colón,River Plate,1,0,,,,,,,RSSSF,rsssf:arg96:1000 ogol:729599,,
 1995-96-clausura-0175,1995/96 Clausura,Fase única,,18,1996-08-11,,Ferro Carril Oeste,Huracán,2,1,,,,,,,RSSSF,rsssf:arg96:1002 ogol:729600,,
-1995-96-clausura-0176,1995/96 Clausura,Fase única,,18,1996-08-11,,Argentinos Juniors,Rosario Central,1,6,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:1004 ogol:729601,"45' J.R. Quinteros - 47' Da Silva, 50' Pobersnik, 54' and 73' Bustos Montoya, 75' and 79' (p) Da Silva",played at Atlanta
+1995-96-clausura-0176,1995/96 Clausura,Fase única,,18,1996-08-11,,Argentinos Juniors,Rosario Central,1,6,,,,Estádio do Atlanta,,,RSSSF,rsssf:arg96:1004 ogol:729601,,played at Atlanta
 1995-96-clausura-0177,1995/96 Clausura,Fase única,,18,1996-08-11,,Belgrano,Vélez Sarsfield,1,2,,,,Estadio Córdoba,,,RSSSF,rsssf:arg96:1007 ogol:729602,,played at Estadio Córdoba
 1995-96-clausura-0178,1995/96 Clausura,Fase única,,18,1996-08-11,,Lanús,Gimnasia de Jujuy,1,1,,,,,,,RSSSF,rsssf:arg96:1009,,
 1995-96-clausura-0179,1995/96 Clausura,Fase única,,18,1996-08-11,,Newell's Old Boys,Deportivo Español,0,0,,,,Estádio do Rosario Central,,,RSSSF,rsssf:arg96:1011 ogol:729604,,played at Rosario Central
 1995-96-clausura-0180,1995/96 Clausura,Fase única,,18,1996-08-12,,San Lorenzo,Banfield,0,1,,,,,,,RSSSF,rsssf:arg96:1013 ogol:729605,,
 1995-96-clausura-0181,1995/96 Clausura,Fase única,,19,1996-08-16,,River Plate,Argentinos Juniors,0,0,,,,,,,RSSSF,rsssf:arg96:1018 ogol:729606,,
-1995-96-clausura-0182,1995/96 Clausura,Fase única,,19,1996-08-17,,Rosario Central,San Lorenzo,3,1,,,,,,,RSSSF,rsssf:arg96:1020 ogol:729607,"23' and 51' Carbonari, 80' Coudet - 11' Arbarello",
+1995-96-clausura-0182,1995/96 Clausura,Fase única,,19,1996-08-17,,Rosario Central,San Lorenzo,3,1,,,,,,,RSSSF,rsssf:arg96:1020 ogol:729607,,
 1995-96-clausura-0183,1995/96 Clausura,Fase única,,19,1996-08-18,,Deportivo Español,Boca Juniors,1,1,,,,,,,RSSSF,rsssf:arg96:1023 ogol:729608,,
 1995-96-clausura-0184,1995/96 Clausura,Fase única,,19,1996-08-18,,Vélez Sarsfield,Independiente,0,0,,,,,,,RSSSF,rsssf:arg96:1025 ogol:729609,,
 1995-96-clausura-0185,1995/96 Clausura,Fase única,,19,1996-08-18,,Racing Club,Colón,1,2,,,,,,,RSSSF,rsssf:arg96:1026 ogol:729610,,

@@ -106,12 +106,25 @@ def separar(texto: str, gm: int | None, gv: int | None) -> tuple[list[dict], lis
     if gm is None or gv is None or not texto or not eh_autores(texto):
         return None
     t = texto.strip()
+    # notas grudadas depois dos autores: "Villanueva 10 red cards: ...", "Montiel 72]   fielded 4 foreigners..."
+    t = re.split(r"\s+red cards?:|\s{3,}behind closed doors", t, flags=re.I)[0]
+    if "]" in t and not re.search(r"\]\s*\[", t):
+        t = t.split("]")[0]
+    if re.search(r"\d\s*[´'’]", t):   # páginas de 1998-1999: "Olcese 36´(pk) Mendoza 49´ 63´ / Aponte 84´", sem vírgulas
+        t = t.replace("´", "'").replace("’", "'")
+        t = re.sub(r"(?<=[A-Za-zÀ-ÿ.])\s*\((?:pk|p|pen)\)\s*(\d{1,3})'", r" \1'(pk)", t)   # "Pereda (pk) 90'" -> "Pereda 90'(pk)"
+        t = re.sub(r"(\d{1,3})'\s*\((?:pk|p|pen)\)", r"\1pen", t)
+        t = re.sub(r"(\d{1,3})'", r"\1", t)
+        t = re.sub(r"(\d{1,3}(?:pen|og)?)\s+(?=\d)", r"\1, ", t)              # "49 63" -> "49, 63"
+        t = re.sub(r"(\d{1,3}(?:pen|og)?)\s+(?=[A-Za-zÀ-ÿ(])", r"\1, ", t)   # "64 Baroni" -> "64, Baroni"
     if re.search(r"\]\s*\[", t):
         casa, fora = re.split(r"\]\s*\[", t, maxsplit=1)
     elif ";" in t:
         casa, fora = t.split(";", 1)
     elif re.search(r"\s[-–]\s", t):
         casa, fora = re.split(r"\s[-–]\s", t, maxsplit=1)
+    elif re.search(r"\s/\s|\d/\s", t):   # "Bello 60, Aranda 89 / ..." ou "Becerra 51/ Juárez 30" (mandante / visitante)
+        casa, fora = re.split(r"\s*/\s", t, maxsplit=1)
     elif gv == 0:
         casa, fora = t, ""
     elif gm == 0:
@@ -120,6 +133,14 @@ def separar(texto: str, gm: int | None, gv: int | None) -> tuple[list[dict], lis
         return None
     a = _lado(casa.strip(" []")) if casa.strip(" []-") else []
     b = _lado(fora.strip(" []")) if fora.strip(" []-") else []
-    if a is None or b is None or len(a) != gm or len(b) != gv:
+    if a is None or b is None:
         return None
-    return a, b
+    if len(a) == gm and len(b) == gv:
+        return a, b
+    # várias páginas peruanas (1980-1981, 2016-2018) põem o gol contra do lado do time do jogador que o fez
+    # ("Patricio Alvarez 45og; Neil Marcos 28" num 0-2): segunda leitura, com o gol contra do outro lado
+    a2 = [g for g in a if g["tipo"] != "contra"] + [g for g in b if g["tipo"] == "contra"]
+    b2 = [g for g in b if g["tipo"] != "contra"] + [g for g in a if g["tipo"] == "contra"]
+    if any(g["tipo"] == "contra" for g in a + b) and len(a2) == gm and len(b2) == gv:
+        return a2, b2
+    return None

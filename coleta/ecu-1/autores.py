@@ -110,8 +110,8 @@ def separar(texto: str, gm: int | None, gv: int | None) -> tuple[list[dict], lis
         casa, fora = re.split(r"\]\s*\[", t, maxsplit=1)
     elif ";" in t:
         casa, fora = t.split(";", 1)
-    elif re.search(r"\s[-–]\s", t):
-        casa, fora = re.split(r"\s[-–]\s", t, maxsplit=1)
+    elif re.search(r"\s[-–/]\s", t):   # "-" ou "/" entre os dois times
+        casa, fora = re.split(r"\s[-–/]\s", t, maxsplit=1)
     elif gv == 0:
         casa, fora = t, ""
     elif gm == 0:

@@ -42,6 +42,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0002,Alianza Lima,Arturo Vargas,,,normal,RSSSF
 1980-0002,Unión Huaral,Mariano Loo,,,normal,RSSSF
 1980-0002,Unión Huaral,Carlos Leturia,,,normal,RSSSF
+1980-0003,CNI,Nehemías Mera,,,normal,RSSSF
+1980-0003,CNI,Pedro Cajo,,,normal,RSSSF
+1980-0003,CNI,Walter Almonte,,,normal,RSSSF
+1980-0003,CNI,Walter Almonte,,,normal,RSSSF
+1980-0003,Deportivo Municipal,Hugo Sotíl,,,normal,RSSSF
+1980-0003,Deportivo Municipal,Rufino Bernales,,,contra,RSSSF
 1980-0004,Juan Aurich,Ever Negrete,,,normal,RSSSF
 1980-0004,Juventud La Palma,Leonardo Saavedra,,,normal,RSSSF
 1980-0005,Deportivo Junín,Máximo Falla,,,normal,RSSSF
@@ -61,6 +67,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0010,Sporting Cristal,Julio Uribe,,,normal,RSSSF
 1980-0011,Atlético Torino,José Zapata,,,normal,RSSSF
 1980-0011,Juan Aurich,Francisco Celli,,,normal,RSSSF
+1980-0012,Alfonso Ugarte,Mario Cisterna,,,normal,RSSSF
+1980-0012,Alfonso Ugarte,Jaime Herbozo,,,contra,RSSSF
 1980-0013,Coronel Bolognesi,César Martínez,,,normal,RSSSF
 1980-0013,Coronel Bolognesi,Oscar Vera,,,normal,RSSSF
 1980-0013,Coronel Bolognesi,Roberto Zevallos,,,normal,RSSSF
@@ -183,6 +191,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0065,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
 1980-0065,Sporting Cristal,Héctor Chumpitaz,,,normal,RSSSF
 1980-0065,Sporting Cristal,Percy Rojas,,,normal,RSSSF
+1980-0066,Universitario,José Cañamero,,,normal,RSSSF
+1980-0066,Universitario,Eduardo Rey Muñoz,,,normal,RSSSF
+1980-0066,Universitario,Hilario Bernaola,,,contra,RSSSF
 1980-0067,Deportivo Municipal,Franco Navarro,,,normal,RSSSF
 1980-0067,Deportivo Municipal,Julio Argote,,,normal,RSSSF
 1980-0068,CNI,Andrés Zegarra,,,normal,RSSSF
@@ -256,6 +267,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0096,Alianza Lima,William Huapaya,,,normal,RSSSF
 1980-0096,Universitario,César Echeandía,,,normal,RSSSF
 1980-0096,Universitario,David Zuluaga,,,normal,RSSSF
+1980-0097,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
+1980-0097,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
+1980-0097,Sporting Cristal,Julio Uribe,,,normal,RSSSF
+1980-0097,Sporting Cristal,Julio Uribe,,,normal,RSSSF
+1980-0097,Sporting Cristal,Percy Rojas,,,normal,RSSSF
+1980-0097,Juventud La Palma,Héctor Bailetti,,,normal,RSSSF
+1980-0097,Juventud La Palma,Héctor Bailetti,,,normal,RSSSF
+1980-0097,Juventud La Palma,Guillermo Quijandría,,,normal,RSSSF
+1980-0097,Juventud La Palma,José Navarro,,,contra,RSSSF
 1980-0098,Deportivo Municipal,Franco Navarro,,,normal,RSSSF
 1980-0098,Deportivo Municipal,Franco Navarro,,,normal,RSSSF
 1980-0098,Deportivo Municipal,Franco Navarro,,,normal,RSSSF
@@ -301,13 +321,27 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0111,Atlético Torino,Jorge Jaramillo,,,normal,RSSSF
 1980-0111,Atlético Torino,Jorge Jaramillo,,,normal,RSSSF
 1980-0111,Atlético Torino,Luis Vitonera,,,normal,RSSSF
+1980-0112,Alianza Lima,José Carranza,,,normal,RSSSF
+1980-0112,Alianza Lima,José Carranza,,,normal,RSSSF
+1980-0112,Alianza Lima,Víctor Gutiérrez,,,normal,RSSSF
+1980-0112,Sport Boys,Julio Antón,,,normal,RSSSF
+1980-0112,Sport Boys,Cesar Gonzáles,,,contra,RSSSF
 1980-0113,Atlético Chalaco,Enrique Camacho,,,normal,RSSSF
 1980-0113,Atlético Chalaco,Víctor Matías,,,normal,RSSSF
 1980-0113,Juan Aurich,Arnaldo Cadenillas,,,normal,RSSSF
 1980-0114,Sport Boys,Jorge Ramírez,,,normal,RSSSF
+1980-0117,CNI,Carlos Lazón,,,normal,RSSSF
+1980-0117,CNI,Víctor Espinoza,,,contra,RSSSF
+1980-0117,Juventud La Palma,Héctor Bailetti,,,normal,RSSSF
+1980-0117,Juventud La Palma,Juan Tardío,,,normal,RSSSF
 1980-0118,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
 1980-0118,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
 1980-0118,Sporting Cristal,Julio Uribe,,,normal,RSSSF
+1980-0119,Deportivo Municipal,Rodolfo Quijaite,,,normal,RSSSF
+1980-0119,Deportivo Municipal,Eduardo Malaxes,,,normal,RSSSF
+1980-0119,Deportivo Municipal,José Vásquez,,,normal,RSSSF
+1980-0119,Deportivo Junín,Juan Avalos,,,normal,RSSSF
+1980-0119,Deportivo Junín,Raúl Obando,,,contra,RSSSF
 1980-0120,Universitario,José Cañamero,,,normal,RSSSF
 1980-0120,Universitario,César Adriazola,,,normal,RSSSF
 1980-0121,Juan Aurich,Ever Negrete,,,normal,RSSSF
@@ -345,6 +379,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0132,Atlético Chalaco,Alberto Castillo,,,normal,RSSSF
 1980-0133,Unión Huaral,César Carrillo,,,normal,RSSSF
 1980-0133,Coronel Bolognesi,César Martínez,,,normal,RSSSF
+1980-0134,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
+1980-0134,Sporting Cristal,Pedro Cajo,,,contra,RSSSF
+1980-0134,CNI,Nehemías Mera,,,normal,RSSSF
+1980-0134,CNI,Nehemías Mera,,,normal,RSSSF
 1980-0135,Sport Boys,Atilio Escate,,,normal,RSSSF
 1980-0135,Universitario,Víctor Bustamante,,,normal,RSSSF
 1980-0136,Alianza Lima,José Carranza,,,normal,RSSSF
@@ -399,7 +437,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0160,Sporting Cristal,Julio Uribe,,,normal,RSSSF
 1980-0160,Atlético Chalaco,Aldo Dueñas,,,normal,RSSSF
 1980-0160,Atlético Chalaco,Oscar Arizaga,,,normal,RSSSF
+1980-0161,Atlético Chalaco,Celestino Avalos,,,normal,RSSSF
+1980-0161,Atlético Chalaco,Reynaldo Costa,,,contra,RSSSF
 1980-0162,Alianza Lima,José Carranza,,,normal,RSSSF
+1980-0163,Juan Aurich,Bernabé Navarro,,,normal,RSSSF
+1980-0163,Juan Aurich,Pedro Aycart,,,normal,RSSSF
+1980-0163,Juan Aurich,Eduardo Motta,,,contra,RSSSF
+1980-0163,Deportivo Junín,Carlos Oliva,,,normal,RSSSF
+1980-0163,Deportivo Junín,Carlos Oliva,,,normal,RSSSF
 1980-0165,Melgar,Miguel Canziani,,,normal,RSSSF
 1980-0165,ADT,Carlos Gavidia,,,normal,RSSSF
 1980-0165,ADT,César Arnáez,,,normal,RSSSF
@@ -469,6 +514,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0193,Juan Aurich,Ever Negrete,,,normal,RSSSF
 1980-0193,Juan Aurich,Ever Negrete,,,normal,RSSSF
 1980-0193,Juan Aurich,Pedro Aycart,,,normal,RSSSF
+1980-0194,Deportivo Municipal,Eduardo Malaxes,,,normal,RSSSF
+1980-0194,Unión Huaral,Pedro Ruíz,,,normal,RSSSF
+1980-0194,Unión Huaral,Marcos Salguero,,,normal,RSSSF
+1980-0194,Unión Huaral,Marcelo Apaza,,,contra,RSSSF
 1980-0195,Deportivo Junín,Orlando Sánchez,,,normal,RSSSF
 1980-0197,CNI,Nehemías Mera,,,normal,RSSSF
 1980-0198,ADT,Isaac Correa,,,normal,RSSSF
@@ -510,6 +559,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0212,CNI,Carlos Lazón,,,normal,RSSSF
 1980-0212,CNI,Nehemías Mera,,,normal,RSSSF
 1980-0212,CNI,Nehemías Mera,,,normal,RSSSF
+1980-0213,ADT,Marcos Echegaray,,,normal,RSSSF
+1980-0213,ADT,Marcos Echegaray,,,normal,RSSSF
+1980-0213,ADT,Angel Fuentes,,,normal,RSSSF
+1980-0213,ADT,Víctor Corbacho,,,contra,RSSSF
+1980-0213,Juventud La Palma,José Salazar,,,normal,RSSSF
+1980-0213,Juventud La Palma,Juan Tardío,,,normal,RSSSF
 1980-0214,Melgar,Genaro Neyra,,,normal,RSSSF
 1980-0214,Coronel Bolognesi,Carlos García,,,normal,RSSSF
 1980-0215,Deportivo Municipal,Rodolfo Quijaite,,,normal,RSSSF
@@ -543,6 +598,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0227,Universitario,César Adriazola,,,normal,RSSSF
 1980-0228,ADT,Marcos Echegaray,,,normal,RSSSF
 1980-0228,ADT,Andrés Peña,,,normal,RSSSF
+1980-0229,CNI,José Luis Rojas,,,normal,RSSSF
+1980-0229,CNI,José Luis Rojas,,,normal,RSSSF
+1980-0229,CNI,Carlos Lazón,,,normal,RSSSF
+1980-0229,CNI,Hugo Seminario,,,contra,RSSSF
+1980-0229,Juan Aurich,Ever Negrete,,,normal,RSSSF
 1980-0230,Deportivo Junín,Juan Avalos,,,normal,RSSSF
 1980-0231,Melgar,Rui Lopes,,,normal,RSSSF
 1980-0231,Unión Huaral,Carlos Leturia,,,normal,RSSSF
@@ -600,6 +660,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1980-0252,Melgar,Pablo Muchotrigo,,,normal,RSSSF
 1980-0253,Coronel Bolognesi,Américo Nieri,,,normal,RSSSF
 1980-0253,Coronel Bolognesi,Enrique Boné,,,normal,RSSSF
+1980-0254,Coronel Bolognesi,Victorino Vicente,52,,penalti,RSSSF
+1980-0254,Coronel Bolognesi,Roberto Zevallos,,,normal,RSSSF
+1980-0254,Coronel Bolognesi,Orlando Pérez,,,contra,RSSSF
 1980-0255,Alfonso Ugarte,Francisco Gonzáles,,,normal,RSSSF
 1980-0255,Alfonso Ugarte,Juan Rivero,,,normal,RSSSF
 1980-0255,Atlético Torino,José Zapata,,,normal,RSSSF
@@ -636,6 +699,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0002,Atlético Torino,José Zapata,,,normal,RSSSF
 1981-0002,CNI,Santiago Ramos,,,normal,RSSSF
 1981-0003,Juan Aurich,Santiago Samamé,,,normal,RSSSF
+1981-0004,CNI,José Luis Rojas,,,normal,RSSSF
+1981-0004,CNI,Ricardo Vicente,,,contra,RSSSF
+1981-0004,Atlético Torino,José Zapata,,,normal,RSSSF
 1981-0005,Juan Aurich,Santiago Samamé,,,normal,RSSSF
 1981-0005,Atlético Torino,Francisco Montero,,,normal,RSSSF
 1981-0007,Deportivo Junín,Jaramillo,,,normal,RSSSF
@@ -671,6 +737,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0017,Unión Huaral,Teodoro Wuchi,,,normal,RSSSF
 1981-0018,ADT,Jaime Elías,,,normal,RSSSF
 1981-0018,ADT,Carlos Chirinos,,,normal,RSSSF
+1981-0019,Melgar,Genaro Neyra,,,normal,RSSSF
+1981-0019,Melgar,Martín Gago,,,normal,RSSSF
+1981-0019,Melgar,Reynaldo Bernaola,,,contra,RSSSF
+1981-0019,Coronel Bolognesi,Victorino Vicente,,,normal,RSSSF
 1981-0020,Coronel Bolognesi,José Vásquez,,,normal,RSSSF
 1981-0020,Coronel Bolognesi,José Vásquez,,,normal,RSSSF
 1981-0021,Coronel Bolognesi,Alberto Román,,,normal,RSSSF
@@ -684,6 +754,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0024,Melgar,Martín Gago,,,normal,RSSSF
 1981-0024,Melgar,Ernesto Neyra,,,normal,RSSSF
 1981-0024,Alfonso Ugarte,Mario Cisterna,,,normal,RSSSF
+1981-0025,Melgar,Raúl Obando,,,normal,RSSSF
+1981-0025,Melgar,Percy Maldonado,,,contra,RSSSF
+1981-0025,Atlético Torino,Francisco Montero,,,normal,RSSSF
 1981-0026,ADT,Julio Zorrilla,,,normal,RSSSF
 1981-0026,Atlético Torino,José Zapata,,,normal,RSSSF
 1981-0027,Melgar,Genaro Neyra,,,normal,RSSSF
@@ -753,6 +826,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0053,Universitario,Germán Leguía,,,normal,RSSSF
 1981-0053,Sporting Cristal,Miguel Gutiérrez,,,normal,RSSSF
 1981-0054,Deportivo Municipal,Carlos Mendoza,,,normal,RSSSF
+1981-0055,Deportivo Municipal,Luis Carpio,,,normal,RSSSF
+1981-0055,Deportivo Municipal,Oscar Quintana,,,normal,RSSSF
+1981-0055,Deportivo Municipal,Luis Gardella,,,contra,RSSSF
+1981-0055,Sport Boys,Fidel Castro,,,normal,RSSSF
 1981-0057,Alianza Lima,José Carranza,,,normal,RSSSF
 1981-0058,Universitario,Carlos Palacios,,,normal,RSSSF
 1981-0058,Universitario,Leonardo Rumbo,,,normal,RSSSF
@@ -819,6 +896,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0084,Unión Huaral,Carlos Leturia,,,normal,RSSSF
 1981-0085,León de Huánuco,Félix Chueca,,,normal,RSSSF
 1981-0085,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
+1981-0086,Coronel Bolognesi,Enrique Boné,,,normal,RSSSF
+1981-0086,Coronel Bolognesi,Luis Gardella,,,contra,RSSSF
+1981-0086,Sport Boys,Víctor Hurtado,,,normal,RSSSF
 1981-0087,Juan Aurich,Jorge Arrelucea,,,contra,RSSSF
 1981-0088,Atlético Torino,Aurelio Vera,,,normal,RSSSF
 1981-0088,Atlético Torino,Aurelio Vera,,,normal,RSSSF
@@ -896,6 +976,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0126,Alfonso Ugarte,Mario Cisterna,,,normal,RSSSF
 1981-0126,Alfonso Ugarte,Walter Almonte,,,normal,RSSSF
 1981-0126,Alfonso Ugarte,Alberto Peña,,,normal,RSSSF
+1981-0128,CNI,José Luis Rojas,,,normal,RSSSF
+1981-0128,CNI,Nehemías Mera,,,normal,RSSSF
+1981-0128,CNI,Jorge Navas,,,normal,RSSSF
+1981-0128,CNI,Walter Díaz Jacinto,,,normal,RSSSF
+1981-0128,CNI,Juan Manuel Toyco,,,normal,RSSSF
+1981-0128,CNI,Felipe Uculmana,,,contra,RSSSF
+1981-0128,Deportivo Junín,Ricardo Sánchez,,,normal,RSSSF
 1981-0130,Atlético Chalaco,Luis Enrique Camacho,,,normal,RSSSF
 1981-0132,Universitario,José Cañamero,,,normal,RSSSF
 1981-0132,Universitario,Leonardo Rumbo,,,normal,RSSSF
@@ -943,6 +1030,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0149,Deportivo Municipal,Franco Navarro,,,normal,RSSSF
 1981-0150,Unión Huaral,Alejandro Luces,,,normal,RSSSF
 1981-0150,Sporting Cristal,Pablo Lobatón,,,normal,RSSSF
+1981-0151,CNI,Jorge Navas,,,normal,RSSSF
+1981-0151,CNI,Cesar Adriazola,,,contra,RSSSF
+1981-0151,León de Huánuco,Félix Chueca,,,normal,RSSSF
+1981-0151,León de Huánuco,Marcos Portilla,,,normal,RSSSF
 1981-0152,Sport Boys,Atilio Escate,,,normal,RSSSF
 1981-0152,Sport Boys,Atilio Escate,,,normal,RSSSF
 1981-0152,Sport Boys,Atilio Escate,,,normal,RSSSF
@@ -1023,6 +1114,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0182,Unión Huaral,Pedro Ruíz,,,normal,RSSSF
 1981-0182,Universitario,Leonardo Rojas,,,normal,RSSSF
 1981-0182,Universitario,Leonardo Rojas,,,normal,RSSSF
+1981-0183,Deportivo Municipal,Franco Navarro,,,normal,RSSSF
+1981-0183,Deportivo Municipal,Segundo Cruz,,,contra,RSSSF
+1981-0183,Atlético Torino,Luis Vitonera,,,normal,RSSSF
+1981-0183,Atlético Torino,Ray Miranda,,,normal,RSSSF
+1981-0183,Atlético Torino,Humberto Correa,,,normal,RSSSF
 1981-0184,Alianza Lima,Freddy Ravello,,,normal,RSSSF
 1981-0184,Alianza Lima,Freddy Ravello,,,normal,RSSSF
 1981-0184,Atlético Chalaco,Alberto Castillo,,,normal,RSSSF
@@ -1037,6 +1133,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0187,Alianza Lima,José Carranza,,,normal,RSSSF
 1981-0189,Unión Huaral,Mariano Loo,,,normal,RSSSF
 1981-0189,CNI,Julio Corcuera,,,normal,RSSSF
+1981-0191,ADT,Angel Fuentes,,,normal,RSSSF
+1981-0191,ADT,Carlos Chirinos,,,normal,RSSSF
+1981-0191,ADT,Segundo Cruz,,,contra,RSSSF
 1981-0193,ADT,Eduardo Zapata,,,normal,RSSSF
 1981-0194,Deportivo Junín,Pablo Muchotrigo,,,normal,RSSSF
 1981-0194,Universitario,Germán Leguía,,,normal,RSSSF
@@ -1057,6 +1156,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0201,Sport Boys,Víctor Hurtado,,,normal,RSSSF
 1981-0201,Sport Boys,Julio César Antón,,,normal,RSSSF
 1981-0201,Coronel Bolognesi,Jose Vásquez,,,normal,RSSSF
+1981-0202,Sporting Cristal,Julio César Uribe,,,normal,RSSSF
+1981-0202,Sporting Cristal,Raul Chumpitaz,,,contra,RSSSF
+1981-0202,León de Huánuco,Eduardo Saavedra,,,normal,RSSSF
+1981-0202,León de Huánuco,Freddy Cañamero,,,normal,RSSSF
 1981-0203,Alianza Lima,Simón Olea,,,normal,RSSSF
 1981-0203,Alianza Lima,Javier Lovera,,,normal,RSSSF
 1981-0203,Alianza Lima,Raúl Mejía,,,normal,RSSSF
@@ -1181,7 +1284,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0260,Melgar,Martín Gago,,,normal,RSSSF
 1981-0260,Melgar,Ernesto Neyra,,,normal,RSSSF
 1981-0260,Juan Aurich,Cabrera,,,normal,RSSSF
+1981-0261,CNI,Andrés Zegarra,,,normal,RSSSF
+1981-0261,CNI,Andrés Zegarra,,,normal,RSSSF
+1981-0261,Sporting Cristal,Eloy Ortíz,,,normal,RSSSF
+1981-0261,Sporting Cristal,Víctor Fernández,,,normal,RSSSF
+1981-0261,Sporting Cristal,Oswaldo Ramírez,,,normal,RSSSF
+1981-0261,Sporting Cristal,Ramírez Púa,,,contra,RSSSF
 1981-0262,León de Huánuco,Pío Rospigliosi,,,normal,RSSSF
+1981-0263,Deportivo Junín,Nicolás Miranda,,,normal,RSSSF
+1981-0263,ADT,Angel Fuentes,,,normal,RSSSF
+1981-0263,ADT,Jorge Arrelucea,,,contra,RSSSF
 1981-0264,Alianza Lima,José Carranza,,,normal,RSSSF
 1981-0264,Alianza Lima,Freddy Ravello,,,normal,RSSSF
 1981-0264,Unión Huaral,Carlos Leturia,,,normal,RSSSF
@@ -1253,6 +1365,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0293,Sport Boys,Víctor Hurtado,,,normal,RSSSF
 1981-0293,Sport Boys,Julio César Antón,,,normal,RSSSF
 1981-0294,Alfonso Ugarte,Mario Cisterna,,,normal,RSSSF
+1981-0295,Melgar,Ernesto Neyra,,,normal,RSSSF
+1981-0295,Melgar,Genaro Neyra,,,normal,RSSSF
+1981-0295,Melgar,Arturo Vargas,,,contra,RSSSF
+1981-0295,Alianza Lima,Freddy Ravello,,,normal,RSSSF
 1981-0296,León de Huánuco,David Zuluaga,,,normal,RSSSF
 1981-0296,León de Huánuco,Marcos Portilla,,,normal,RSSSF
 1981-0296,Atlético Torino,Luis Vitonera,,,normal,RSSSF
@@ -1286,14 +1402,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0307,Deportivo Municipal,Eduardo Malásquez,,,normal,RSSSF
 1981-0307,Universitario,Carlos Carbonell,,,normal,RSSSF
 1981-0307,Universitario,Germán Leguía,,,normal,RSSSF
-1995-0129,Alianza Lima,Marquinho 45 red card: Basombrio (A,45,,normal,RSSSF
+1995-0129,Alianza Lima,Marquinho,45,,normal,RSSSF
 1995-0130,Ciclista Lima,Lopez,83,,normal,RSSSF
 1995-0130,Deportivo San Agustín,Nalvarte,31,,normal,RSSSF
-1995-0131,Cienciano,Juarez,32,,normal,RSSSF
-1995-0131,Cienciano,Cominges,50,,penalti,RSSSF
-1995-0131,Aurich-Cañaña,? 84 red card: Mujica (AC,59,,normal,RSSSF
+1995-0134,Sporting Cristal,Maestri,45,,normal,RSSSF
 1995-0137,Alianza Atlético,Carrillo,34,,normal,RSSSF
-1995-0137,Universitario,Carlos Flores 82 red card: Castillo (A,85,,normal,RSSSF
+1995-0137,Universitario,Carlos Flores,82,,normal,RSSSF
 1995-0138,Alianza Lima,Chicoma,15,,contra,RSSSF
 1995-0138,Alianza Lima,Rosales,57,,normal,RSSSF
 1995-0138,Deportivo San Agustín,Chumpitaz,71,,normal,RSSSF
@@ -1309,24 +1423,27 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-0140,Sporting Cristal,Solano,26,,normal,RSSSF
 1995-0140,Sporting Cristal,Prado,89,,normal,RSSSF
 1995-0140,Sporting Cristal,Solano,90,,normal,RSSSF
+1995-0142,Deportivo Municipal,Agapito,85,,normal,RSSSF
 1995-0143,Deportivo Sipesa,Mejia,55,,contra,RSSSF
 1995-0143,Deportivo Sipesa,Peri,80,,normal,RSSSF
-1995-0144,Sport Boys,Cano 20 red card: Gonzalez (S,,,normal,RSSSF
+1995-0144,Sport Boys,Cano,20,,normal,RSSSF
 1995-0145,Alianza Lima,Rosales,44,,normal,RSSSF
 1995-0145,Alianza Lima,Marquinho,48,,normal,RSSSF
-1995-0145,Deportivo Sipesa,Valencia 7pen red card: Charun (S,,,normal,RSSSF
+1995-0145,Deportivo Sipesa,Valencia,7,,penalti,RSSSF
+1995-0146,Ciclista Lima,Farfan,55,,normal,RSSSF
 1995-0147,Aurich-Cañaña,Juarez,9,,normal,RSSSF
 1995-0147,Aurich-Cañaña,Muggione,23,,normal,RSSSF
 1995-0147,Deportivo Municipal,Paredes,38,,normal,RSSSF
-1995-0147,Deportivo Municipal,65 red card: Uribe (M,,,normal,RSSSF
+1995-0147,Deportivo Municipal,Paredes,65,,normal,RSSSF
 1995-0148,Sport Boys,Cordero,7,,penalti,RSSSF
-1995-0148,Sport Boys,Villanueva 42 red card: Martinez [(S,76,,normal,RSSSF
+1995-0148,Sport Boys,Villanueva,42,,normal,RSSSF
 1995-0149,Atlético Torino,Abad,21,,normal,RSSSF
 1995-0149,Deportivo San Agustín,Reyna,53,,normal,RSSSF
 1995-0149,Deportivo San Agustín,Nalvarte,78,,normal,RSSSF
 1995-0150,Unión Huaral,Pacora,32,,normal,RSSSF
 1995-0150,Unión Huaral,Aguirre,78,,normal,RSSSF
 1995-0150,Alianza Atlético,Pedraglio,48,,normal,RSSSF
+1995-0152,Universitario,Denis,21,,penalti,RSSSF
 1995-0153,Alianza Atlético,Ibarra,20,,normal,RSSSF
 1995-0153,Alianza Atlético,Mier,29,,normal,RSSSF
 1995-0153,Aurich-Cañaña,Hurtado,90,,normal,RSSSF
@@ -1334,24 +1451,37 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-0155,Melgar,Vera,20,,normal,RSSSF
 1995-0155,Melgar,Revilla,76,,normal,RSSSF
 1995-0155,Melgar,Sotomayor,90,,normal,RSSSF
-1995-0155,Unión Huaral,Redher 25 red card: L.Flores (M,,,normal,RSSSF
-1995-0158,Atlético Torino,Marchand 85 red card: Vega (S,43,,normal,RSSSF
+1995-0155,Unión Huaral,Redher,25,,normal,RSSSF
+1995-0156,Deportivo Municipal,Tamashiro,51,,normal,RSSSF
+1995-0156,Deportivo Municipal,Agapito,87,,normal,RSSSF
+1995-0156,Deportivo Municipal,Olaechea,88,,penalti,RSSSF
+1995-0156,Unión Minas,Guillen,66,,normal,RSSSF
+1995-0156,Unión Minas,Olaechea,90,,contra,RSSSF
+1995-0157,Deportivo San Agustín,Cumapa,36,,normal,RSSSF
+1995-0157,Deportivo San Agustín,Salazar,63,,normal,RSSSF
+1995-0158,Atlético Torino,Marchand,85,,normal,RSSSF
 1995-0159,Sporting Cristal,Maestri,19,,normal,RSSSF
 1995-0159,Sporting Cristal,Palacios,63,,normal,RSSSF
 1995-0159,Sporting Cristal,Torres,87,,normal,RSSSF
 1995-0159,Ciclista Lima,Farfan,40,,normal,RSSSF
-1995-0159,Ciclista Lima,Espinoza 48 red card: Mejia (Cic,58,,normal,RSSSF
+1995-0159,Ciclista Lima,Espinoza,48,,normal,RSSSF
+1995-0160,Universitario,Carty,30,,normal,RSSSF
+1995-0160,Universitario,Ferrari,67,,normal,RSSSF
+1995-0160,Sport Boys,Villanueva,10,,normal,RSSSF
 1995-0162,Aurich-Cañaña,Muggione,10,,normal,RSSSF
 1995-0162,Melgar,Vera,71,,normal,RSSSF
 1995-0163,León de Huánuco,Jose Hernandez,7,,normal,RSSSF
 1995-0163,Deportivo Sipesa,Pedro Varela,,,normal,RSSSF
+1995-0164,Sporting Cristal,Torres,49,,normal,RSSSF
 1995-0165,Cienciano,Cominges,8,,normal,RSSSF
 1995-0166,Sport Boys,Lara,14,,normal,RSSSF
-1995-0166,Sport Boys,Dall Orso 63 red card: Salinas (H,,,normal,RSSSF
+1995-0166,Sport Boys,Dall Orso,63,,normal,RSSSF
 1995-0167,Unión Minas,Cabanillas,30,,normal,RSSSF
 1995-0167,Unión Minas,Valencia,45,,normal,RSSSF
 1995-0167,Unión Minas,Valencia,58,,normal,RSSSF
 1995-0167,Unión Minas,Falcon,81,,normal,RSSSF
+1995-0168,Universitario,Carty,9,,normal,RSSSF
+1995-0168,Deportivo San Agustín,Torrealva,66,,contra,RSSSF
 1998-0002,Alianza Lima,P.Hinostroza,,,normal,RSSSF
 1998-0002,Alianza Lima,W.Saenz,,,normal,RSSSF
 1998-0003,Lawn Tennis,A.Moran,,,normal,RSSSF
@@ -1551,6 +1681,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1998-0073,Cienciano,W.Begazo,,,normal,RSSSF
 1998-0073,Cienciano,W.Begazo,,,normal,RSSSF
 1998-0073,Cienciano,C.Maldonado,,,normal,RSSSF
+1998-0074,Alianza Lima,D.Chevez,,,normal,RSSSF
+1998-0074,Alianza Lima,D.Chevez,,,normal,RSSSF
+1998-0074,Alianza Lima,M.Asprilla,,,normal,RSSSF
+1998-0074,Alianza Lima,A.Yánez,,,normal,RSSSF
+1998-0074,Alianza Lima,C.Pizarro,,,normal,RSSSF
+1998-0074,Alianza Lima,H.Gallardo,,,contra,RSSSF
 1998-0075,Juan Aurich,F.Manassero,,,normal,RSSSF
 1998-0075,Deportivo Municipal,J.Penalillo,,,normal,RSSSF
 1998-0075,Deportivo Municipal,F.Calcaterra,,,normal,RSSSF
@@ -1564,6 +1700,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1998-0079,Sporting Cristal,M.Rebosio,,,normal,RSSSF
 1998-0079,Juan Aurich,J.Mujica,,,normal,RSSSF
 1998-0079,Juan Aurich,F.Manassero,,,normal,RSSSF
+1998-0080,Sport Boys,S.Ibarra,,,normal,RSSSF
+1998-0080,Sport Boys,D.Reategui,,,normal,RSSSF
+1998-0080,Sport Boys,I.Chavez,,,contra,RSSSF
+1998-0080,Lawn Tennis,A.Lobaton,,,normal,RSSSF
+1998-0080,Lawn Tennis,M.Alva,,,normal,RSSSF
+1998-0080,Lawn Tennis,M.Alva,,,normal,RSSSF
 1998-0082,Melgar,Fabinho,,,normal,RSSSF
 1998-0083,Cienciano,W.Begazo,,,normal,RSSSF
 1998-0083,Cienciano,G.Muñoz,,,normal,RSSSF
@@ -1637,6 +1779,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1998-0112,Unión Minas,R.Miñan,,,normal,RSSSF
 1998-0112,Unión Minas,R.Miñan,,,normal,RSSSF
 1998-0112,Unión Minas,R.Miñan,,,normal,RSSSF
+1998-0113,Universitario,E.Esidio,,,normal,RSSSF
+1998-0113,Universitario,J.Bazalar,,,contra,RSSSF
+1998-0113,Alianza Lima,R.Silva,,,normal,RSSSF
 1998-0115,Alianza Atlético,V.Colchado,,,normal,RSSSF
 1998-0115,Lawn Tennis,R.Cano,,,normal,RSSSF
 1998-0116,Deportivo Pesquero,A.Gonzales,,,normal,RSSSF
@@ -1681,56 +1826,1096 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1998-0132,Melgar,P.Prado,,,normal,RSSSF
 1998-0132,Unión Minas,R.Miñan,,,normal,RSSSF
 1998-0132,Unión Minas,R.Quintana,,,normal,RSSSF
+1998-0133,Lawn Tennis,Salazar,36,,normal,RSSSF
+1998-0133,Lawn Tennis,Bauzá,48,,normal,RSSSF
+1998-0133,Lawn Tennis,Montenegro,73,,penalti,RSSSF
+1998-0133,Unión Minas,Bergonzi,71,,normal,RSSSF
+1998-0134,Deportivo Pesquero,Rodríguez,26,,penalti,RSSSF
+1998-0134,Deportivo Pesquero,Gonzáles,52,,normal,RSSSF
+1998-0134,Deportivo Municipal,Amoako,87,,normal,RSSSF
+1998-0135,Alianza Atlético,Abad,43,,normal,RSSSF
+1998-0135,Alianza Atlético,Abad,60,,normal,RSSSF
+1998-0135,Sporting Cristal,Mendoza,49,,normal,RSSSF
+1998-0135,Sporting Cristal,Nilson,61,,normal,RSSSF
+1998-0135,Sporting Cristal,Ferreyra,83,,normal,RSSSF
+1998-0136,Alianza Lima,Asprilla,25,,normal,RSSSF
+1998-0136,Alianza Lima,Asprilla,64,,normal,RSSSF
+1998-0136,Alianza Lima,Chévez,45,,normal,RSSSF
+1998-0136,Alianza Lima,Chévez,67,,normal,RSSSF
+1998-0136,Cienciano,Vásquez,85,,penalti,RSSSF
+1998-0137,Sport Boys,Pinillos,38,,penalti,RSSSF
+1998-0137,Sport Boys,Silvera,39,,normal,RSSSF
+1998-0137,Sport Boys,Bica,51,,normal,RSSSF
+1998-0137,Sport Boys,Cavero,72,,normal,RSSSF
+1998-0138,Universitario,Esidio,24,,normal,RSSSF
+1998-0138,Universitario,Portilla,59,,normal,RSSSF
+1998-0138,Melgar,Ramírez,5,,normal,RSSSF
+1998-0138,Melgar,Sotomayor,79,,normal,RSSSF
+1998-0139,Deportivo Municipal,Calcaterra,66,,normal,RSSSF
+1998-0139,Juan Aurich,Rachumick,29,,normal,RSSSF
+1998-0140,Sport Boys,Pinillos,11,,normal,RSSSF
+1998-0140,Universitario,Falaschi,52,,normal,RSSSF
 1998-0141,Deportivo Pesquero,Gonzáles,45,,normal,RSSSF
-1998-0147,Sport Boys,Bica 44´,,,normal,RSSSF
+1998-0142,Unión Minas,Gallardo,55,,normal,RSSSF
+1998-0142,Unión Minas,Baldovino,60,,normal,RSSSF
+1998-0142,Alianza Lima,Jayo,44,,normal,RSSSF
+1998-0143,Cienciano,Vásquez,30,,normal,RSSSF
+1998-0143,Cienciano,Capreta,51,,normal,RSSSF
+1998-0144,Melgar,Sotomayor,31,,normal,RSSSF
+1998-0144,Melgar,Sotomayor,90,,normal,RSSSF
+1998-0144,Melgar,Prado,73,,normal,RSSSF
+1998-0144,Lawn Tennis,Bauzá,40,,normal,RSSSF
+1998-0145,Alianza Lima,Saavedra,6,,normal,RSSSF
+1998-0145,Alianza Lima,Asprilla,17,,normal,RSSSF
+1998-0146,Alianza Atlético,Abad,79,,normal,RSSSF
+1998-0146,Alianza Atlético,Abad,85,,normal,RSSSF
+1998-0146,Alianza Atlético,Rickson,82,,normal,RSSSF
+1998-0147,Sport Boys,Bica,44,,normal,RSSSF
+1998-0149,Juan Aurich,Reyes,20,,normal,RSSSF
+1998-0149,Juan Aurich,Mujica,90,,normal,RSSSF
+1998-0149,Sporting Cristal,P.Zegarra,66,,normal,RSSSF
+1998-0150,Universitario,Esidio,36,,normal,RSSSF
+1998-0150,Universitario,Farfán,53,,normal,RSSSF
+1998-0150,Universitario,Pereda,90,,penalti,RSSSF
+1998-0150,Deportivo Municipal,Calcaterra,81,,normal,RSSSF
+1998-0151,Melgar,Ramírez,29,,normal,RSSSF
+1998-0151,Melgar,Reyes,61,,normal,RSSSF
+1998-0151,Alianza Atlético,Abad,90,,normal,RSSSF
 1998-0153,Cienciano,Márquez,10,,penalti,RSSSF
+1998-0154,Deportivo Municipal,Ciccia,55,,normal,RSSSF
+1998-0154,Lawn Tennis,Salazar,60,,normal,RSSSF
+1998-0154,Lawn Tennis,Del Castillo,71,,normal,RSSSF
+1998-0155,Unión Minas,Bergonzi,65,,normal,RSSSF
+1998-0155,Unión Minas,Baldovino,85,,normal,RSSSF
+1998-0155,Unión Minas,Baldovino,90,,normal,RSSSF
+1998-0156,Sporting Cristal,P.Zegarra,36,,normal,RSSSF
+1998-0156,Sporting Cristal,Jorge Soto,90,,normal,RSSSF
+1998-0157,Alianza Lima,Baylón,68,,normal,RSSSF
+1998-0157,Alianza Lima,Baylón,90,,normal,RSSSF
+1998-0157,Deportivo Municipal,Ciccia,75,,normal,RSSSF
+1998-0160,Lawn Tennis,Bauzá,12,,penalti,RSSSF
+1998-0160,Sporting Cristal,Nilson,71,,normal,RSSSF
+1998-0161,Universitario,Grondona,67,,normal,RSSSF
+1998-0161,Cienciano,Cumapa,87,,normal,RSSSF
+1998-0162,Juan Aurich,Reyes,10,,normal,RSSSF
+1998-0162,Juan Aurich,Reyes,77,,normal,RSSSF
+1998-0162,Unión Minas,Bergonzi,53,,normal,RSSSF
 1998-0163,Melgar,D.Ramírez,61,,normal,RSSSF
+1998-0164,Sport Boys,Becerra,55,,normal,RSSSF
+1998-0164,Sport Boys,Ibarra,69,,normal,RSSSF
+1998-0165,Cienciano,Chumpitaz,5,,normal,RSSSF
+1998-0165,Cienciano,Rossel,58,,normal,RSSSF
+1998-0165,Cienciano,Vásquez,63,,normal,RSSSF
+1998-0165,Cienciano,Cumapa,79,,normal,RSSSF
 1998-0166,Alianza Atlético,Soria,3,,normal,RSSSF
+1998-0167,Sporting Cristal,Julinho,1,,normal,RSSSF
+1998-0167,Alianza Lima,Asprilla,29,,normal,RSSSF
+1998-0168,Unión Minas,Miñán,17,,normal,RSSSF
+1998-0168,Unión Minas,Miñán,46,,normal,RSSSF
+1998-0168,Universitario,Carazas,9,,normal,RSSSF
+1998-0168,Universitario,Grondona,41,,normal,RSSSF
 1998-0169,Sporting Cristal,Asteggiano,48,,normal,RSSSF
 1998-0170,Melgar,Sotomayor,76,,normal,RSSSF
 1998-0173,Sport Boys,Ibarra,35,,normal,RSSSF
+1998-0174,Universitario,Falaschi,48,,normal,RSSSF
+1998-0174,Deportivo Pesquero,Gonzáles,1,,normal,RSSSF
 1998-0175,Lawn Tennis,Lobatón,83,,normal,RSSSF
+1998-0176,Deportivo Municipal,Calcaterra,6,,normal,RSSSF
+1998-0176,Deportivo Municipal,Maldonado,37,,normal,RSSSF
+1998-0176,Unión Minas,Quintana,60,,normal,RSSSF
+1998-0176,Unión Minas,D.Mendoza,81,,normal,RSSSF
+1998-0176,Unión Minas,Baldovino,89,,penalti,RSSSF
+1998-0177,Sport Boys,Valdiviezo,28,,normal,RSSSF
+1998-0177,Sport Boys,Cavero,84,,normal,RSSSF
+1998-0178,Juan Aurich,Reyes,22,,normal,RSSSF
+1998-0178,Juan Aurich,Reyes,42,,normal,RSSSF
 1998-0180,Alianza Lima,Gareca,77,,normal,RSSSF
 1998-0181,Unión Minas,Miñán,5,,normal,RSSSF
+1998-0182,Deportivo Municipal,Maldonado,39,,normal,RSSSF
+1998-0182,Cienciano,Rossel,5,,normal,RSSSF
+1998-0182,Cienciano,López,88,,normal,RSSSF
+1998-0183,Lawn Tennis,Salazar,33,,normal,RSSSF
+1998-0183,Lawn Tennis,Del Castillo,68,,normal,RSSSF
+1998-0184,Melgar,P.Prado,23,,normal,RSSSF
+1998-0184,Melgar,A.Ramírez,63,,normal,RSSSF
 1998-0185,Universitario,Cotito,90,,normal,RSSSF
+1998-0187,Sporting Cristal,Nilson,3,,normal,RSSSF
+1998-0187,Sporting Cristal,Nilson,34,,normal,RSSSF
+1998-0187,Sporting Cristal,Olcese,53,,normal,RSSSF
+1998-0188,Sport Boys,Ibarra,42,,penalti,RSSSF
+1998-0188,Sport Boys,Ibarra,61,,normal,RSSSF
+1998-0189,Alianza Atlético,Tavares,73,,normal,RSSSF
+1998-0189,Universitario,Farfán,31,,normal,RSSSF
 1998-0191,Juan Aurich,Reyes,70,,normal,RSSSF
+1998-0192,Alianza Lima,Baylón,76,,normal,RSSSF
+1998-0192,Lawn Tennis,Lobatón,88,,normal,RSSSF
+1998-0193,Deportivo Municipal,Amoako,5,,normal,RSSSF
+1998-0193,Deportivo Municipal,Amoako,78,,normal,RSSSF
+1998-0193,Sporting Cristal,Carty,56,,normal,RSSSF
+1998-0194,Sport Boys,Silvera,39,,normal,RSSSF
+1998-0194,Sport Boys,Canelo,90,,normal,RSSSF
+1998-0195,Deportivo Pesquero,Chacón,53,,normal,RSSSF
+1998-0195,Deportivo Pesquero,Cruz,80,,normal,RSSSF
+1998-0198,Universitario,Pajuelo,68,,normal,RSSSF
+1998-0198,Universitario,Esidio,84,,normal,RSSSF
+1998-0199,Universitario,Esidio,49,,normal,RSSSF
+1998-0199,Universitario,Esidio,64,,normal,RSSSF
+1998-0199,Universitario,Gallardo,69,,normal,RSSSF
+1998-0200,Deportivo Pesquero,Cipriano,50,,normal,RSSSF
+1998-0200,Deportivo Pesquero,Gonzáles,61,,normal,RSSSF
+1998-0200,Deportivo Pesquero,Cruz,86,,normal,RSSSF
 1998-0201,Sport Boys,Valdiviezo,70,,normal,RSSSF
+1998-0202,Sporting Cristal,Medina,14,,contra,RSSSF
+1998-0202,Sporting Cristal,Jorge Soto,38,,normal,RSSSF
+1998-0202,Sporting Cristal,Mendoza,83,,normal,RSSSF
+1998-0202,Alianza Atlético,Holsen,54,,normal,RSSSF
+1998-0202,Alianza Atlético,Holsen,57,,normal,RSSSF
+1998-0203,Unión Minas,López,3,,normal,RSSSF
+1998-0203,Unión Minas,Quintana,77,,normal,RSSSF
+1998-0205,Alianza Atlético,Holsen,16,,normal,RSSSF
+1998-0205,Alianza Atlético,Díaz,62,,penalti,RSSSF
+1998-0206,Deportivo Pesquero,Gonzáles,15,,normal,RSSSF
+1998-0206,Sporting Cristal,Mendoza,90,,normal,RSSSF
+1998-0207,Juan Aurich,Reyes,62,,normal,RSSSF
+1998-0207,Deportivo Municipal,Amoako,46,,normal,RSSSF
+1998-0208,Lawn Tennis,López,58,,normal,RSSSF
+1998-0208,Lawn Tennis,López,68,,normal,RSSSF
+1998-0208,Melgar,Reyes,6,,normal,RSSSF
+1998-0210,Universitario,Farfán,24,,normal,RSSSF
+1998-0210,Universitario,Farfán,53,,normal,RSSSF
+1998-0210,Universitario,Esidio,68,,normal,RSSSF
+1998-0211,Melgar,A.Ramírez,45,,penalti,RSSSF
+1998-0211,Alianza Lima,Machaca,12,,normal,RSSSF
+1998-0211,Alianza Lima,Jayo,37,,penalti,RSSSF
+1998-0212,Deportivo Municipal,Olivares,69,,normal,RSSSF
+1998-0212,Universitario,Gallardo,33,,normal,RSSSF
+1998-0213,Sporting Cristal,Nilson,45,,normal,RSSSF
+1998-0213,Sporting Cristal,Jorge Soto,68,,normal,RSSSF
+1998-0213,Sporting Cristal,Jorge Soto,90,,penalti,RSSSF
+1998-0213,Juan Aurich,Reyes,5,,normal,RSSSF
 1998-0215,Alianza Atlético,Colchado,26,,normal,RSSSF
+1998-0216,Cienciano,Rossel,10,,normal,RSSSF
+1998-0216,Cienciano,Márquez,49,,normal,RSSSF
+1998-0217,Deportivo Pesquero,Cipriano,10,,normal,RSSSF
+1998-0217,Deportivo Pesquero,Gonzales,60,,normal,RSSSF
+1998-0217,Deportivo Pesquero,Gonzales,79,,normal,RSSSF
+1998-0218,Alianza Atlético,Colchado,13,,normal,RSSSF
+1998-0218,Alianza Atlético,Ricardi,30,,normal,RSSSF
+1998-0218,Melgar,Sanjinez,23,,normal,RSSSF
+1998-0218,Melgar,A.Ramírez,35,,normal,RSSSF
+1998-0219,Juan Aurich,Mujica,46,,normal,RSSSF
+1998-0219,Juan Aurich,Gamarra,74,,normal,RSSSF
+1998-0219,Cienciano,Muñoz,61,,normal,RSSSF
+1998-0219,Cienciano,Muñoz,80,,normal,RSSSF
+1998-0220,Alianza Lima,Silva,31,,normal,RSSSF
+1998-0220,Alianza Lima,Silva,34,,normal,RSSSF
+1998-0220,Alianza Lima,Asprilla,69,,penalti,RSSSF
+1998-0220,Sport Boys,Ibarra,22,,normal,RSSSF
+1998-0221,Deportivo Municipal,Amoako,50,,normal,RSSSF
+1998-0221,Deportivo Municipal,Amoako,90,,normal,RSSSF
+1998-0222,Sporting Cristal,Carty,70,,normal,RSSSF
+1998-0222,Sporting Cristal,Carty,80,,normal,RSSSF
+1998-0224,Melgar,Cruvinel,4,,normal,RSSSF
+1998-0224,Melgar,Zeballos,45,,normal,RSSSF
+1998-0225,Sporting Cristal,Nilson,17,,normal,RSSSF
+1998-0225,Sporting Cristal,Nilson,42,,normal,RSSSF
+1998-0225,Lawn Tennis,Bauzá,39,,normal,RSSSF
+1998-0226,Deportivo Municipal,Amoako,64,,normal,RSSSF
+1998-0226,Alianza Lima,Ribeiro,22,,normal,RSSSF
 1998-0227,Sport Boys,Gil,84,,normal,RSSSF
+1998-0228,Unión Minas,Godoy,75,,normal,RSSSF
+1998-0228,Juan Aurich,Reyes,46,,normal,RSSSF
+1998-0229,Sporting Cristal,Nilson,28,,normal,RSSSF
+1998-0229,Sporting Cristal,Mendoza,55,,normal,RSSSF
+1998-0231,Alianza Atlético,Díaz,15,,normal,RSSSF
+1998-0231,Alianza Atlético,Abad,24,,normal,RSSSF
+1998-0232,Juan Aurich,Chiquinho,26,,normal,RSSSF
+1998-0232,Juan Aurich,Torres,34,,normal,RSSSF
+1998-0232,Juan Aurich,Torres,43,,normal,RSSSF
+1998-0232,Melgar,Reyes,45,,normal,RSSSF
+1998-0232,Melgar,Arteaga,58,,normal,RSSSF
+1998-0233,Lawn Tennis,L.Rivas,11,,normal,RSSSF
+1998-0233,Lawn Tennis,Del Castillo,61,,normal,RSSSF
 1998-0234,Universitario,Grondona,85,,normal,RSSSF
+1998-0235,Alianza Lima,Pizarro,17,,normal,RSSSF
+1998-0235,Alianza Lima,Pizarro,32,,normal,RSSSF
+1998-0235,Alianza Lima,Pizarro,42,,normal,RSSSF
+1998-0235,Alianza Lima,Silva,81,,normal,RSSSF
+1998-0235,Alianza Atlético,Díaz,9,,normal,RSSSF
+1998-0235,Alianza Atlético,Colchado,89,,normal,RSSSF
+1998-0236,Deportivo Municipal,Maldonado,13,,penalti,RSSSF
+1998-0236,Deportivo Municipal,Calcaterra,32,,normal,RSSSF
+1998-0236,Deportivo Municipal,Baroni,51,,normal,RSSSF
+1998-0236,Deportivo Municipal,Dulanto,77,,normal,RSSSF
+1998-0236,Deportivo Municipal,Joya,87,,normal,RSSSF
+1998-0236,Melgar,Lazo,7,,normal,RSSSF
+1998-0237,Deportivo Pesquero,Gonzales,50,,normal,RSSSF
+1998-0237,Deportivo Pesquero,Cipriano,74,,normal,RSSSF
+1998-0237,Universitario,Esidio,20,,normal,RSSSF
+1998-0237,Universitario,Grondona,35,,normal,RSSSF
+1998-0238,Sport Boys,Villanueva,6,,normal,RSSSF
+1998-0238,Sport Boys,Villanueva,57,,normal,RSSSF
+1998-0238,Unión Minas,Baldovino,32,,penalti,RSSSF
+1998-0239,Juan Aurich,Reyes,5,,normal,RSSSF
+1998-0239,Juan Aurich,Reyes,66,,normal,RSSSF
+1998-0239,Juan Aurich,Reyes,85,,penalti,RSSSF
+1998-0239,Juan Aurich,Chiquinho,39,,normal,RSSSF
+1998-0239,Lawn Tennis,Salazar,54,,normal,RSSSF
+1998-0240,Cienciano,Márquez,45,,normal,RSSSF
+1998-0240,Cienciano,Cumapa,61,,normal,RSSSF
+1998-0240,Sporting Cristal,Mendoza,37,,normal,RSSSF
+1998-0241,Unión Minas,Mori,20,,normal,RSSSF
+1998-0241,Unión Minas,Bergonzi,71,,normal,RSSSF
+1998-0241,Deportivo Municipal,Baroni,63,,normal,RSSSF
+1998-0242,Lawn Tennis,Bauzá,57,,normal,RSSSF
+1998-0242,Deportivo Pesquero,Portal,43,,normal,RSSSF
+1998-0242,Deportivo Pesquero,Portal,74,,normal,RSSSF
+1998-0243,Alianza Lima,Saavedra,34,,normal,RSSSF
+1998-0243,Alianza Lima,Silva,55,,normal,RSSSF
+1998-0243,Alianza Lima,Machaca,77,,normal,RSSSF
+1998-0244,Alianza Atlético,Abad,28,,normal,RSSSF
+1998-0244,Juan Aurich,Chiquinho,87,,normal,RSSSF
+1998-0245,Melgar,Lazo,18,,normal,RSSSF
+1998-0245,Melgar,Lazo,78,,normal,RSSSF
+1998-0245,Melgar,Sanjinez,61,,normal,RSSSF
+1998-0245,Cienciano,López,10,,normal,RSSSF
+1998-0245,Cienciano,Márquez,56,,normal,RSSSF
+1998-0246,Sporting Cristal,Mendoza,49,,normal,RSSSF
+1998-0246,Sporting Cristal,Nilson,63,,normal,RSSSF
+1998-0247,Alianza Lima,Saavedra,18,,normal,RSSSF
+1998-0247,Alianza Lima,Silva,55,,penalti,RSSSF
+1998-0247,Deportivo Pesquero,Cruz,64,,normal,RSSSF
+1998-0248,Sporting Cristal,Mendoza,31,,normal,RSSSF
+1998-0248,Sporting Cristal,Mendoza,43,,normal,RSSSF
+1998-0248,Sporting Cristal,Ferreira,47,,normal,RSSSF
+1998-0248,Sporting Cristal,Jorge Soto,50,,normal,RSSSF
+1998-0248,Unión Minas,D.Mendoza,23,,normal,RSSSF
+1998-0248,Unión Minas,Valerio,40,,normal,RSSSF
+1998-0249,Alianza Atlético,Holsen,62,,normal,RSSSF
+1998-0249,Alianza Atlético,Díaz,86,,penalti,RSSSF
+1998-0249,Lawn Tennis,Lobatón,88,,normal,RSSSF
+1998-0250,Sport Boys,Gil,15,,normal,RSSSF
+1998-0250,Sport Boys,Becerra,42,,normal,RSSSF
+1998-0250,Sport Boys,Villanueva,43,,normal,RSSSF
+1998-0251,Juan Aurich,Reyes,37,,normal,RSSSF
+1998-0251,Universitario,Cantoro,53,,penalti,RSSSF
+1998-0252,Cienciano,Takayama,26,,normal,RSSSF
+1998-0252,Cienciano,Zegarra,31,,normal,RSSSF
+1998-0252,Cienciano,Zúñiga,40,,normal,RSSSF
+1998-0252,Cienciano,Márquez,84,,normal,RSSSF
+1998-0252,Deportivo Municipal,Ciccia,82,,normal,RSSSF
+1998-0254,Deportivo Pesquero,Cipriano,16,,normal,RSSSF
+1998-0254,Deportivo Pesquero,Fuentes,22,,normal,RSSSF
+1998-0254,Juan Aurich,Torres,88,,normal,RSSSF
 1998-0255,Sporting Cristal,Rivera,75,,normal,RSSSF
 1998-0256,Sport Boys,Becerra,37,,normal,RSSSF
+1998-0257,Lawn Tennis,Portilla,7,,normal,RSSSF
+1998-0257,Alianza Lima,Saavedra,17,,normal,RSSSF
+1998-0257,Alianza Lima,Saavedra,85,,penalti,RSSSF
+1998-0257,Alianza Lima,Asprilla,49,,normal,RSSSF
+1998-0257,Alianza Lima,Asprilla,52,,normal,RSSSF
+1998-0257,Alianza Lima,Gareca,62,,normal,RSSSF
+1998-0258,Universitario,Grondona,22,,normal,RSSSF
+1998-0258,Universitario,Portilla,23,,normal,RSSSF
+1998-0258,Universitario,Cantoro,31,,normal,RSSSF
+1998-0258,Alianza Atlético,Soria,8,,normal,RSSSF
+1998-0259,Melgar,P.Prado,46,,normal,RSSSF
+1998-0259,Melgar,Valencia,80,,normal,RSSSF
+1998-0259,Melgar,A.Ramírez,85,,normal,RSSSF
+1998-0259,Unión Minas,D.Mendoza,74,,normal,RSSSF
+1998-0262,Sporting Cristal,Jorge Soto,6,,normal,RSSSF
+1998-0262,Sporting Cristal,Jorge Soto,25,,normal,RSSSF
+1998-0262,Sporting Cristal,Jorge Soto,50,,normal,RSSSF
+1998-0262,Sporting Cristal,Nilson,37,,normal,RSSSF
+1998-0262,Sporting Cristal,Ferreira,56,,penalti,RSSSF
+1998-0262,Sporting Cristal,Mendoza,60,,normal,RSSSF
+1998-0262,Sporting Cristal,Julinho,74,,normal,RSSSF
+1998-0262,Deportivo Municipal,Bustamante,76,,normal,RSSSF
+1998-0262,Deportivo Municipal,Olivares,78,,normal,RSSSF
+1998-0263,Alianza Lima,Pizarro,57,,normal,RSSSF
+1998-0263,Alianza Lima,Pizarro,73,,normal,RSSSF
+1998-0263,Juan Aurich,Reyes,65,,normal,RSSSF
+1998-0264,Universitario,Del Solar,42,,normal,RSSSF
+1998-0264,Universitario,Cotito,64,,normal,RSSSF
+1998-0264,Universitario,Barreto,77,,normal,RSSSF
+1998-0264,Universitario,Cordero,82,,normal,RSSSF
 1998-0265,Sporting Cristal,Mendoza,42,,normal,RSSSF
-1999-0023,Alianza Lima,Salazar 44´,,,normal,RSSSF
-1999-0032,Cienciano,Del Castillo 85´,,,normal,RSSSF
-1999-0045,IMI,Pardo 36´,,,normal,RSSSF
-1999-0047,Cienciano,Begazo 18´,,,normal,RSSSF
-1999-0069,Deportivo Municipal,Matamba 19´,,,normal,RSSSF
-1999-0087,Universitario,Farfán 18´,,,normal,RSSSF
-1999-0089,Alianza Lima,Salazar 75´,,,normal,RSSSF
-1999-0096,Unión Minas,Castillo 63´,,,normal,RSSSF
-1999-0097,Universitario,Esidio 58´,,,normal,RSSSF
-1999-0100,Juan Aurich,Sastoque 83´,,,normal,RSSSF
-1999-0110,Universitario,Bernales 32´,,,normal,RSSSF
-1999-0117,Cienciano,Ortega 73´,,,normal,RSSSF
-1999-0119,Unión Minas,Montenegro 57´,,,normal,RSSSF
-1999-0124,IMI,Racchumick 54´,,,normal,RSSSF
-1999-0130,Universitario,Maldonado 86',,,penalti,RSSSF
+1998-0266,Sporting Cristal,Nilson,30,,normal,RSSSF
+1998-0266,Sporting Cristal,Mendoza,40,,normal,RSSSF
+1998-0266,Universitario,Guadalupe,62,,normal,RSSSF
+1998-0267,Universitario,Farfán,40,,normal,RSSSF
+1998-0267,Universitario,Farfán,56,,normal,RSSSF
+1998-0267,Sporting Cristal,Mendoza,74,,normal,RSSSF
+1999-0001,Alianza Lima,Pizarro,48,,normal,RSSSF
+1999-0001,Alianza Lima,Rojas,49,,normal,RSSSF
+1999-0001,Alianza Lima,Moreno,54,,normal,RSSSF
+1999-0001,Alianza Lima,Chiquinho,69,,normal,RSSSF
+1999-0001,Alianza Lima,Sotomayor,90,,normal,RSSSF
+1999-0002,Alianza Atlético,Holsen,13,,normal,RSSSF
+1999-0002,Melgar,Reyes,3,,normal,RSSSF
+1999-0003,Juan Aurich,Colchado,47,,normal,RSSSF
+1999-0003,Sporting Cristal,Ferreira,2,,normal,RSSSF
+1999-0003,Sporting Cristal,Mendoza,88,,normal,RSSSF
+1999-0004,Cienciano,Lazo,45,,normal,RSSSF
+1999-0004,Cienciano,Miñán,70,,normal,RSSSF
+1999-0005,Deportivo Municipal,Bustamante,39,,normal,RSSSF
+1999-0005,Deportivo Pesquero,Fano,61,,normal,RSSSF
+1999-0005,Deportivo Pesquero,Cruz,79,,normal,RSSSF
+1999-0006,Universitario,Alva,14,,normal,RSSSF
+1999-0006,Universitario,Grondona,30,,normal,RSSSF
+1999-0006,Unión Minas,Castillo,87,,normal,RSSSF
+1999-0009,Sporting Cristal,Mendoza,72,,normal,RSSSF
+1999-0009,Cienciano,Cruzate,87,,normal,RSSSF
+1999-0011,Alianza Atlético,Abad,54,,normal,RSSSF
+1999-0011,Alianza Atlético,Salinas,60,,normal,RSSSF
+1999-0012,Unión Minas,Godoy,38,,normal,RSSSF
+1999-0012,Unión Minas,Godoy,70,,normal,RSSSF
+1999-0012,Unión Minas,Godoy,83,,normal,RSSSF
+1999-0013,Deportivo Municipal,Carmona,34,,normal,RSSSF
+1999-0013,Sport Boys,Bica,62,,normal,RSSSF
+1999-0014,Sporting Cristal,Mendoza,59,,normal,RSSSF
+1999-0014,Sporting Cristal,Julinho,71,,normal,RSSSF
+1999-0015,Alianza Atlético,Holsen,34,,normal,RSSSF
+1999-0015,Alianza Atlético,Bergonzi,76,,normal,RSSSF
+1999-0015,Deportivo Pesquero,Cipriano,5,,normal,RSSSF
+1999-0016,Juan Aurich,A.Torres,8,,normal,RSSSF
+1999-0016,IMI,Arteaga,15,,contra,RSSSF
+1999-0018,Unión Minas,Mori,4,,normal,RSSSF
+1999-0018,Alianza Lima,Sáenz,17,,normal,RSSSF
+1999-0018,Alianza Lima,Nazarith,85,,normal,RSSSF
+1999-0019,Unión Minas,Vásquez,50,,normal,RSSSF
+1999-0019,Unión Minas,Mori,55,,normal,RSSSF
+1999-0019,Unión Minas,Fuentes,65,,normal,RSSSF
+1999-0019,Unión Minas,Berrío,83,,normal,RSSSF
+1999-0020,Sporting Cristal,Mendoza,75,,normal,RSSSF
+1999-0020,Sporting Cristal,Mendoza,79,,normal,RSSSF
+1999-0021,Deportivo Pesquero,Fano,1,,normal,RSSSF
+1999-0021,Deportivo Pesquero,Cruz,43,,normal,RSSSF
+1999-0021,Juan Aurich,A.Torres,50,,normal,RSSSF
+1999-0021,Juan Aurich,J.La Rosa,90,,normal,RSSSF
+1999-0022,IMI,P.Peña,13,,normal,RSSSF
+1999-0022,IMI,Zapata,52,,normal,RSSSF
+1999-0022,IMI,Zapata,79,,normal,RSSSF
+1999-0022,IMI,Bello,71,,normal,RSSSF
+1999-0022,Cienciano,Varela,68,,normal,RSSSF
+1999-0023,Alianza Lima,Salazar,44,,normal,RSSSF
+1999-0024,Melgar,Y.Zúñiga,27,,normal,RSSSF
+1999-0024,Melgar,Y.Zúñiga,65,,normal,RSSSF
+1999-0024,Melgar,Cruvinel,78,,normal,RSSSF
+1999-0024,Universitario,Esidio,18,,penalti,RSSSF
+1999-0024,Universitario,Gómez,40,,normal,RSSSF
+1999-0025,Deportivo Municipal,Serrano,21,,normal,RSSSF
+1999-0025,Deportivo Municipal,Luque,61,,normal,RSSSF
+1999-0025,Deportivo Municipal,Carmona,76,,penalti,RSSSF
+1999-0025,Melgar,Cavero,9,,normal,RSSSF
+1999-0025,Melgar,Y.Zúñiga,17,,normal,RSSSF
+1999-0026,Sporting Cristal,Julinho,11,,normal,RSSSF
+1999-0026,Sporting Cristal,Mendoza,48,,normal,RSSSF
+1999-0026,Alianza Lima,Sáenz,37,,normal,RSSSF
+1999-0026,Alianza Lima,Chiquinho,80,,normal,RSSSF
+1999-0027,Alianza Atlético,Rodríguez,32,,normal,RSSSF
+1999-0027,Alianza Atlético,Holsen,68,,normal,RSSSF
+1999-0027,Sport Boys,Villanueva,5,,normal,RSSSF
+1999-0027,Sport Boys,Villanueva,45,,normal,RSSSF
+1999-0028,Juan Aurich,A.Torres,59,,normal,RSSSF
+1999-0028,Juan Aurich,Prado,78,,normal,RSSSF
+1999-0028,Unión Minas,Castillo,89,,normal,RSSSF
+1999-0028,Unión Minas,Castillo,90,,normal,RSSSF
+1999-0029,Cienciano,Rossel,18,,normal,RSSSF
+1999-0029,Cienciano,Rossel,45,,normal,RSSSF
+1999-0029,Cienciano,Zegarra,48,,normal,RSSSF
+1999-0030,Universitario,Guzmán,29,,normal,RSSSF
+1999-0030,Universitario,Grondona,44,,normal,RSSSF
+1999-0030,Universitario,Pajuelo,76,,normal,RSSSF
+1999-0031,Deportivo Pesquero,Ricardi,17,,penalti,RSSSF
+1999-0031,Universitario,Coria,45,,penalti,RSSSF
+1999-0032,Cienciano,Del Castillo,85,,normal,RSSSF
+1999-0033,Sport Boys,Gil,1,,normal,RSSSF
+1999-0033,Sport Boys,Marquinho,29,,normal,RSSSF
+1999-0033,Juan Aurich,Prado,51,,normal,RSSSF
+1999-0034,Sporting Cristal,Julinho,5,,normal,RSSSF
+1999-0034,Sporting Cristal,Julinho,25,,normal,RSSSF
+1999-0034,Sporting Cristal,Gonzales,19,,normal,RSSSF
+1999-0034,Sporting Cristal,Soto,22,,normal,RSSSF
+1999-0034,Alianza Atlético,Bergonzi,61,,normal,RSSSF
+1999-0035,IMI,Bello,21,,normal,RSSSF
+1999-0035,IMI,Bello,86,,normal,RSSSF
+1999-0036,Melgar,Cruvinel,74,,normal,RSSSF
+1999-0036,Alianza Lima,Pizarro,9,,normal,RSSSF
+1999-0036,Alianza Lima,Moreno,25,,normal,RSSSF
+1999-0037,Sporting Cristal,R.Salazar,24,,normal,RSSSF
+1999-0037,Sporting Cristal,Olcese,36,,penalti,RSSSF
+1999-0037,Sporting Cristal,Mendoza,49,,normal,RSSSF
+1999-0037,Sporting Cristal,Mendoza,63,,normal,RSSSF
+1999-0037,Sporting Cristal,Ferreira,54,,normal,RSSSF
+1999-0037,Sporting Cristal,Vassallo,78,,normal,RSSSF
+1999-0037,IMI,Aponte,84,,normal,RSSSF
+1999-0038,Universitario,Coria,46,,normal,RSSSF
+1999-0038,Universitario,Coria,84,,penalti,RSSSF
+1999-0038,Cienciano,Del Castillo,49,,normal,RSSSF
+1999-0039,Alianza Atlético,Soria,62,,normal,RSSSF
+1999-0039,Deportivo Municipal,Lozano,70,,normal,RSSSF
+1999-0040,Melgar,Cavero,64,,normal,RSSSF
+1999-0040,Melgar,Baroni,78,,normal,RSSSF
+1999-0040,Melgar,C.Zúñiga,85,,normal,RSSSF
+1999-0041,Unión Minas,Castillo,63,,normal,RSSSF
+1999-0041,Sport Boys,Villanueva,80,,normal,RSSSF
+1999-0042,Juan Aurich,A.Torres,75,,normal,RSSSF
+1999-0042,Alianza Lima,Baylón,89,,normal,RSSSF
+1999-0043,Deportivo Municipal,Carmona,25,,normal,RSSSF
+1999-0043,Deportivo Municipal,Carmona,63,,normal,RSSSF
+1999-0044,Sport Boys,Marquinho,3,,normal,RSSSF
+1999-0044,Sport Boys,Villanueva,50,,normal,RSSSF
+1999-0044,Sport Boys,Lobatón,73,,normal,RSSSF
+1999-0044,Melgar,Y.Zúñiga,82,,normal,RSSSF
+1999-0044,Melgar,Tempone,88,,normal,RSSSF
+1999-0045,IMI,Pardo,36,,normal,RSSSF
+1999-0046,Deportivo Pesquero,Fano,15,,normal,RSSSF
+1999-0046,Sporting Cristal,Olcese,13,,normal,RSSSF
+1999-0047,Cienciano,Begazo,18,,normal,RSSSF
+1999-0048,Universitario,Cornelio,24,,normal,RSSSF
+1999-0048,Universitario,Grondona,43,,normal,RSSSF
+1999-0048,Alianza Lima,Sáenz,40,,normal,RSSSF
+1999-0050,Melgar,Y.Zúñiga,22,,normal,RSSSF
+1999-0050,Melgar,Y.Zúñiga,38,,normal,RSSSF
+1999-0050,Melgar,Zeballos,33,,normal,RSSSF
+1999-0050,Melgar,Cavero,67,,normal,RSSSF
+1999-0051,Cienciano,Rossel,39,,normal,RSSSF
+1999-0051,Cienciano,Zegarra,85,,normal,RSSSF
+1999-0052,Sporting Cristal,Valencia,8,,normal,RSSSF
+1999-0052,Sporting Cristal,Julinho,63,,normal,RSSSF
+1999-0052,Sporting Cristal,Julinho,72,,normal,RSSSF
+1999-0052,Sporting Cristal,Mendoza,69,,normal,RSSSF
+1999-0052,Unión Minas,Berrío,41,,penalti,RSSSF
+1999-0053,Alianza Atlético,Holsen,47,,normal,RSSSF
+1999-0053,Alianza Atlético,Holsen,90,,normal,RSSSF
+1999-0053,Alianza Lima,Sáenz,38,,normal,RSSSF
+1999-0055,Sporting Cristal,Olcese,59,,penalti,RSSSF
+1999-0055,Sport Boys,Bica,90,,penalti,RSSSF
+1999-0056,Deportivo Municipal,Luque,34,,normal,RSSSF
+1999-0056,Alianza Lima,Pizarro,85,,normal,RSSSF
+1999-0057,IMI,Bello,83,,normal,RSSSF
+1999-0057,IMI,C.Valladares,83,,normal,RSSSF
+1999-0057,Deportivo Pesquero,Fano,26,,normal,RSSSF
+1999-0057,Deportivo Pesquero,Cipriano,75,,normal,RSSSF
+1999-0059,Juan Aurich,Colchado,53,,normal,RSSSF
+1999-0059,Juan Aurich,La Rosa,87,,normal,RSSSF
+1999-0059,Cienciano,Rossel,19,,normal,RSSSF
+1999-0060,Universitario,Guadalupe,9,,normal,RSSSF
+1999-0060,Universitario,Guadalupe,76,,normal,RSSSF
+1999-0060,Alianza Atlético,Holsen,40,,normal,RSSSF
+1999-0061,Sport Boys,Becerra,21,,normal,RSSSF
+1999-0061,Sport Boys,Villanueva,45,,normal,RSSSF
+1999-0061,Sport Boys,Villanueva,56,,normal,RSSSF
+1999-0061,Sport Boys,Gil,46,,normal,RSSSF
+1999-0062,Deportivo Municipal,Parihuana,47,,normal,RSSSF
+1999-0062,Deportivo Municipal,Carmona,63,,normal,RSSSF
+1999-0062,Universitario,Cornelio,31,,normal,RSSSF
+1999-0062,Universitario,Casas,44,,normal,RSSSF
+1999-0062,Universitario,Esidio,71,,penalti,RSSSF
+1999-0063,Alianza Atlético,García,16,,normal,RSSSF
+1999-0063,Alianza Atlético,García,59,,normal,RSSSF
+1999-0063,Alianza Atlético,Holsen,63,,normal,RSSSF
+1999-0063,Alianza Atlético,F.Medina,73,,normal,RSSSF
+1999-0063,Alianza Atlético,Agurto,83,,normal,RSSSF
+1999-0063,Juan Aurich,Sastoque,47,,normal,RSSSF
+1999-0064,Melgar,Baroni,48,,normal,RSSSF
+1999-0064,Sporting Cristal,Arnao,22,,normal,RSSSF
+1999-0064,Sporting Cristal,Valencia,29,,normal,RSSSF
+1999-0064,Sporting Cristal,Silva,73,,normal,RSSSF
+1999-0065,Cienciano,Begazo,20,,penalti,RSSSF
+1999-0065,Cienciano,Lara,58,,penalti,RSSSF
+1999-0065,Alianza Lima,Baylón,66,,normal,RSSSF
+1999-0066,Deportivo Pesquero,Fano,11,,normal,RSSSF
+1999-0066,Deportivo Pesquero,Seclén,81,,normal,RSSSF
+1999-0067,Sport Boys,Lobatón,25,,normal,RSSSF
+1999-0067,Sport Boys,Lobatón,40,,normal,RSSSF
+1999-0067,Cienciano,Miñán,37,,normal,RSSSF
+1999-0068,Sporting Cristal,Soto,70,,normal,RSSSF
+1999-0068,Sporting Cristal,Soto,76,,normal,RSSSF
+1999-0068,Sporting Cristal,Silva,78,,normal,RSSSF
+1999-0069,Deportivo Municipal,Matamba,19,,normal,RSSSF
+1999-0070,IMI,Duffoo,28,,penalti,RSSSF
+1999-0070,IMI,Sanjinez,69,,normal,RSSSF
+1999-0070,Alianza Lima,Sáenz,7,,penalti,RSSSF
+1999-0070,Alianza Lima,Moreno,9,,normal,RSSSF
+1999-0070,Alianza Lima,Mafla,23,,normal,RSSSF
+1999-0070,Alianza Lima,Pizarro,90,,normal,RSSSF
+1999-0071,Unión Minas,Machaca,28,,normal,RSSSF
+1999-0071,Universitario,Guzmán,32,,normal,RSSSF
+1999-0071,Universitario,Guzmán,44,,normal,RSSSF
+1999-0072,Melgar,Y.Zúñiga,58,,penalti,RSSSF
+1999-0072,Melgar,Y.Zúñiga,84,,normal,RSSSF
+1999-0072,Melgar,Y.Zúñiga,89,,normal,RSSSF
+1999-0072,Alianza Atlético,Holsen,70,,penalti,RSSSF
+1999-0073,Alianza Lima,Sáenz,14,,normal,RSSSF
+1999-0073,Alianza Lima,Sáenz,49,,normal,RSSSF
+1999-0073,Alianza Lima,Sáenz,72,,normal,RSSSF
+1999-0073,Alianza Lima,Baylón,52,,normal,RSSSF
+1999-0073,Alianza Lima,Moreno,61,,normal,RSSSF
+1999-0073,Alianza Lima,Moreno,65,,normal,RSSSF
+1999-0073,Alianza Lima,Quinteros,74,,normal,RSSSF
+1999-0074,Deportivo Municipal,Domínguez,84,,penalti,RSSSF
+1999-0074,Unión Minas,Castillo,4,,normal,RSSSF
+1999-0075,Alianza Atlético,Holsen,3,,normal,RSSSF
+1999-0075,Alianza Atlético,Holsen,88,,normal,RSSSF
+1999-0075,Alianza Atlético,Morán,12,,normal,RSSSF
+1999-0075,Alianza Atlético,Bergonzi,25,,normal,RSSSF
+1999-0075,Alianza Atlético,Habrahamshon,64,,normal,RSSSF
+1999-0075,Alianza Atlético,Habrahamshon,81,,normal,RSSSF
+1999-0076,Universitario,Gómez,45,,normal,RSSSF
+1999-0076,Universitario,Esidio,54,,normal,RSSSF
+1999-0076,Universitario,Esidio,79,,penalti,RSSSF
+1999-0076,Universitario,Cornelio,87,,normal,RSSSF
+1999-0077,Cienciano,Lara,87,,normal,RSSSF
+1999-0077,Cienciano,Miñán,90,,normal,RSSSF
+1999-0079,IMI,Zapata,58,,normal,RSSSF
+1999-0079,IMI,Bello,82,,penalti,RSSSF
+1999-0079,Juan Aurich,Gallardo,85,,normal,RSSSF
+1999-0080,Sport Boys,Marquinho,14,,penalti,RSSSF
+1999-0080,Sport Boys,Indio,84,,normal,RSSSF
+1999-0081,Deportivo Pesquero,Cipriano,21,,normal,RSSSF
+1999-0081,Deportivo Pesquero,Fano,25,,normal,RSSSF
+1999-0081,Alianza Atlético,Holsen,30,,normal,RSSSF
+1999-0081,Alianza Atlético,Holsen,90,,normal,RSSSF
+1999-0082,Alianza Lima,Pizarro,7,,normal,RSSSF
+1999-0082,Alianza Lima,Moreno,9,,normal,RSSSF
+1999-0082,Alianza Lima,Moreno,52,,normal,RSSSF
+1999-0082,Alianza Lima,Sáenz,31,,normal,RSSSF
+1999-0082,Unión Minas,Cortez,29,,normal,RSSSF
+1999-0083,Melgar,Y.Zúñiga,62,,penalti,RSSSF
+1999-0083,Melgar,Flores,83,,contra,RSSSF
+1999-0084,Sporting Cristal,Mendoza,43,,normal,RSSSF
+1999-0084,Universitario,Grondona,85,,normal,RSSSF
+1999-0085,Deportivo Municipal,Carmona,70,,penalti,RSSSF
+1999-0085,Sporting Cristal,Soto,6,,penalti,RSSSF
+1999-0085,Sporting Cristal,Soto,39,,normal,RSSSF
+1999-0085,Sporting Cristal,Mendoza,41,,normal,RSSSF
+1999-0085,Sporting Cristal,Silva,55,,normal,RSSSF
+1999-0086,Alianza Atlético,Holsen,52,,penalti,RSSSF
+1999-0086,Alianza Atlético,Abad,79,,normal,RSSSF
+1999-0086,Unión Minas,Castillo,33,,normal,RSSSF
+1999-0086,Unión Minas,Ramírez,62,,normal,RSSSF
+1999-0087,Universitario,Farfán,18,,normal,RSSSF
+1999-0088,Cienciano,Balbín,4,,normal,RSSSF
+1999-0088,Cienciano,Porras,48,,normal,RSSSF
+1999-0088,IMI,Sanjinez,11,,normal,RSSSF
+1999-0089,Alianza Lima,Salazar,75,,normal,RSSSF
+1999-0090,Juan Aurich,Colchado,2,,normal,RSSSF
+1999-0090,Juan Aurich,Sastoque,47,,normal,RSSSF
+1999-0090,Juan Aurich,Sastoque,77,,normal,RSSSF
+1999-0091,Sport Boys,Asteggiano,16,,normal,RSSSF
+1999-0091,Sport Boys,Marquinho,35,,normal,RSSSF
+1999-0091,Sport Boys,Marquinho,68,,penalti,RSSSF
+1999-0091,Sport Boys,Marquinho,87,,normal,RSSSF
+1999-0091,Alianza Atlético,Holsen,12,,normal,RSSSF
+1999-0091,Alianza Atlético,Holsen,40,,penalti,RSSSF
+1999-0092,Melgar,Y.Zúñiga,51,,normal,RSSSF
+1999-0092,Deportivo Municipal,Embé,19,,normal,RSSSF
+1999-0093,Deportivo Pesquero,Molina,43,,normal,RSSSF
+1999-0093,Deportivo Pesquero,Rosinaldo,70,,normal,RSSSF
+1999-0093,Deportivo Pesquero,Cruz,90,,normal,RSSSF
+1999-0093,Cienciano,Miñán,41,,penalti,RSSSF
+1999-0093,Cienciano,Cumapa,49,,normal,RSSSF
+1999-0093,Cienciano,Begazo,68,,penalti,RSSSF
+1999-0094,Alianza Lima,Chiquinho,4,,penalti,RSSSF
+1999-0094,Alianza Lima,Baylón,17,,normal,RSSSF
+1999-0094,Alianza Lima,Sáenz,67,,normal,RSSSF
+1999-0094,Sporting Cristal,Soto,58,,penalti,RSSSF
+1999-0094,Sporting Cristal,Mendoza,90,,normal,RSSSF
+1999-0095,Universitario,Esidio,42,,normal,RSSSF
+1999-0095,Universitario,Cornelio,57,,normal,RSSSF
+1999-0095,Universitario,Maldonado,75,,normal,RSSSF
+1999-0096,Unión Minas,Castillo,63,,normal,RSSSF
+1999-0097,Universitario,Esidio,58,,normal,RSSSF
+1999-0098,Deportivo Municipal,Matamba,7,,penalti,RSSSF
+1999-0098,Deportivo Municipal,Matamba,35,,normal,RSSSF
+1999-0098,Deportivo Municipal,Carmona,64,,normal,RSSSF
+1999-0098,IMI,Bello,60,,penalti,RSSSF
+1999-0098,IMI,Aranda,89,,normal,RSSSF
+1999-0100,Juan Aurich,Sastoque,83,,normal,RSSSF
+1999-0101,Cienciano,Cruzate,12,,normal,RSSSF
+1999-0101,Unión Minas,Berrío,67,,normal,RSSSF
+1999-0102,Alianza Lima,Pizarro,10,,normal,RSSSF
+1999-0102,Alianza Lima,Pizarro,80,,normal,RSSSF
+1999-0102,Alianza Lima,Sáenz,24,,normal,RSSSF
+1999-0102,Alianza Lima,Sáenz,42,,normal,RSSSF
+1999-0102,Alianza Lima,Sáenz,62,,normal,RSSSF
+1999-0103,Alianza Lima,Quinteros,22,,normal,RSSSF
+1999-0103,Alianza Lima,Pizarro,44,,normal,RSSSF
+1999-0103,Alianza Lima,Pizarro,54,,normal,RSSSF
+1999-0103,Juan Aurich,Mújica,90,,normal,RSSSF
+1999-0104,Sport Boys,Villanueva,86,,normal,RSSSF
+1999-0104,Unión Minas,Berrío,55,,normal,RSSSF
+1999-0105,Melgar,Y.Zúñiga,27,,normal,RSSSF
+1999-0105,Melgar,Y.Zúñiga,79,,normal,RSSSF
+1999-0106,IMI,C.Valladares,44,,normal,RSSSF
+1999-0106,Sporting Cristal,Soto,76,,penalti,RSSSF
+1999-0107,Deportivo Municipal,Matamba,54,,normal,RSSSF
+1999-0107,Alianza Atlético,Bergonzi,60,,normal,RSSSF
+1999-0109,Sporting Cristal,Julinho,38,,normal,RSSSF
+1999-0109,Sporting Cristal,Silva,47,,normal,RSSSF
+1999-0109,Sporting Cristal,Silva,49,,normal,RSSSF
+1999-0109,Sporting Cristal,Olcese,65,,normal,RSSSF
+1999-0109,Sporting Cristal,Olcese,68,,normal,RSSSF
+1999-0110,Universitario,Bernales,32,,normal,RSSSF
+1999-0111,Alianza Atlético,F.Medina,9,,normal,RSSSF
+1999-0111,Alianza Atlético,Ormeño,14,,normal,RSSSF
+1999-0111,Alianza Atlético,Salinas,23,,normal,RSSSF
+1999-0111,Alianza Atlético,Habrahamshon,78,,normal,RSSSF
+1999-0111,Cienciano,Del Castillo,3,,normal,RSSSF
+1999-0111,Cienciano,Lara,45,,normal,RSSSF
+1999-0112,Unión Minas,Castillo,27,,normal,RSSSF
+1999-0112,Unión Minas,Castillo,62,,normal,RSSSF
+1999-0112,Unión Minas,Mori,43,,normal,RSSSF
+1999-0112,Unión Minas,Mori,47,,normal,RSSSF
+1999-0113,Juan Aurich,Sastoque,84,,normal,RSSSF
+1999-0113,Deportivo Municipal,Matamba,51,,normal,RSSSF
+1999-0113,Deportivo Municipal,Matamba,87,,normal,RSSSF
+1999-0113,Deportivo Municipal,Carazas,53,,normal,RSSSF
+1999-0114,Melgar,Baroni,4,,normal,RSSSF
+1999-0114,Melgar,Baroni,12,,normal,RSSSF
+1999-0114,Melgar,C.Zúñiga,36,,normal,RSSSF
+1999-0114,Melgar,Y.Zúñiga,87,,normal,RSSSF
+1999-0115,Alianza Lima,Quinteros,55,,normal,RSSSF
+1999-0115,Alianza Lima,Salazar,80,,normal,RSSSF
+1999-0116,Universitario,Esidio,40,,normal,RSSSF
+1999-0116,Universitario,Bernales,88,,normal,RSSSF
+1999-0116,Juan Aurich,A.Torres,55,,normal,RSSSF
+1999-0117,Cienciano,Ortega,73,,normal,RSSSF
+1999-0118,IMI,Racchumick,47,,normal,RSSSF
+1999-0118,Melgar,Cruvinel,35,,normal,RSSSF
+1999-0119,Unión Minas,Montenegro,57,,normal,RSSSF
+1999-0120,Deportivo Pesquero,Muñoz,19,,normal,RSSSF
+1999-0120,Sport Boys,Marquinho,42,,penalti,RSSSF
+1999-0121,Sport Boys,Villanueva,23,,normal,RSSSF
+1999-0121,Sport Boys,Marquinho,36,,penalti,RSSSF
+1999-0121,Sport Boys,Marquinho,55,,normal,RSSSF
+1999-0121,Sporting Cristal,Julinho,26,,normal,RSSSF
+1999-0121,Sporting Cristal,Julinho,30,,normal,RSSSF
+1999-0121,Sporting Cristal,Mendoza,41,,normal,RSSSF
+1999-0122,Alianza Lima,Pizarro,14,,normal,RSSSF
+1999-0122,Alianza Lima,Pizarro,16,,normal,RSSSF
+1999-0122,Alianza Lima,Pizarro,90,,penalti,RSSSF
+1999-0123,Universitario,Maldonado,33,,normal,RSSSF
+1999-0123,Universitario,Cornelio,79,,normal,RSSSF
+1999-0124,IMI,Racchumick,54,,normal,RSSSF
+1999-0125,Melgar,Y.Zúñiga,8,,penalti,RSSSF
+1999-0125,Melgar,Reyes,87,,normal,RSSSF
+1999-0125,Unión Minas,Montenegro,69,,normal,RSSSF
+1999-0126,Cienciano,Begazo,9,,normal,RSSSF
+1999-0126,Cienciano,Begazo,83,,normal,RSSSF
+1999-0126,Cienciano,Cavero,21,,normal,RSSSF
+1999-0126,Cienciano,Rivera 65,,,contra,RSSSF
+1999-0127,Sporting Cristal,Alvarado,3,,normal,RSSSF
+1999-0127,Sporting Cristal,Vassallo,73,,normal,RSSSF
+1999-0127,Sporting Cristal,Olcese,75,,normal,RSSSF
+1999-0127,Melgar,Zeballos,38,,normal,RSSSF
+1999-0128,Alianza Lima,Penalillo,25,,normal,RSSSF
+1999-0128,Alianza Lima,Sotomayor,54,,normal,RSSSF
+1999-0128,Cienciano,Cruzate,34,,normal,RSSSF
+1999-0129,Unión Minas,Torres,49,,normal,RSSSF
+1999-0129,Unión Minas,Castillo,57,,normal,RSSSF
+1999-0129,Deportivo Pesquero,Fano,63,,normal,RSSSF
+1999-0130,Universitario,Maldonado,86,,penalti,RSSSF
+1999-0131,IMI,P.Peña,67,,normal,RSSSF
+1999-0131,Sport Boys,Lobatón,8,,normal,RSSSF
+1999-0131,Sport Boys,Lobatón,57,,normal,RSSSF
+1999-0132,Alianza Lima,J.Hinostroza,41,,normal,RSSSF
+1999-0132,Alianza Lima,Mafla,53,,normal,RSSSF
+1999-0132,Alianza Lima,Baylón,76,,normal,RSSSF
+1999-0132,Alianza Lima,Ascoy,82,,normal,RSSSF
+1999-0133,Universitario,J.Del Solar,2,,normal,RSSSF
+1999-0133,Universitario,Farfán,6,,normal,RSSSF
+1999-0134,Juan Aurich,Guido,60,,penalti,RSSSF
+1999-0134,Sporting Cristal,Olcese,49,,normal,RSSSF
+1999-0135,Cienciano,Begazo,47,,penalti,RSSSF
+1999-0135,Sport Boys,Tierradentro,36,,normal,RSSSF
+1999-0136,Deportivo Municipal,Matamba,51,,normal,RSSSF
+1999-0136,Deportivo Pesquero,Molina,32,,normal,RSSSF
 1999-0137,Alianza Atlético,Prado,57,,normal,RSSSF
+1999-0138,Unión Minas,Castillo,6,,penalti,RSSSF
+1999-0138,Unión Minas,Castillo,89,,normal,RSSSF
+1999-0138,Unión Minas,Berrío,15,,normal,RSSSF
+1999-0138,Unión Minas,Berrío,29,,normal,RSSSF
+1999-0138,Unión Minas,Mori,60,,normal,RSSSF
+1999-0138,Unión Minas,Lazo,78,,normal,RSSSF
+1999-0138,Unión Minas,Montenegro,85,,normal,RSSSF
+1999-0139,Sporting Cristal,Mendoza,52,,normal,RSSSF
+1999-0139,Cienciano,Rossel,77,,normal,RSSSF
+1999-0139,Cienciano,Zegarra,84,,normal,RSSSF
+1999-0139,Cienciano,Cruzate,89,,normal,RSSSF
+1999-0140,Alianza Atlético,Da Silva,71,,normal,RSSSF
+1999-0140,Alianza Atlético,Rivera,88,,normal,RSSSF
+1999-0141,Melgar,Baroni,8,,normal,RSSSF
+1999-0141,Melgar,Baroni,13,,normal,RSSSF
+1999-0141,Melgar,Baroni,64,,normal,RSSSF
+1999-0141,Melgar,Tempone,59,,normal,RSSSF
+1999-0142,Alianza Lima,Salazar,23,,normal,RSSSF
+1999-0142,Alianza Lima,Pizarro,31,,normal,RSSSF
+1999-0142,Alianza Lima,Penalillo,35,,normal,RSSSF
+1999-0142,Alianza Lima,Moreno,55,,normal,RSSSF
 1999-0143,Sport Boys,Lobatón,49,,normal,RSSSF
+1999-0144,Alianza Atlético,Rodríguez,43,,normal,RSSSF
+1999-0144,Alianza Atlético,Ramírez,59,,normal,RSSSF
+1999-0144,Alianza Atlético,Ramírez,70,,normal,RSSSF
+1999-0144,Alianza Atlético,Rivera,83,,normal,RSSSF
+1999-0145,Deportivo Municipal,Alfaro,26,,normal,RSSSF
+1999-0145,Sport Boys,Pinillos,20,,normal,RSSSF
+1999-0145,Sport Boys,Becerra,45,,normal,RSSSF
+1999-0146,Universitario,Cantoro,15,,normal,RSSSF
+1999-0146,Universitario,Farfán,83,,normal,RSSSF
+1999-0146,Sporting Cristal,Julinho,14,,normal,RSSSF
+1999-0147,Juan Aurich,A.Torres,31,,normal,RSSSF
+1999-0147,Juan Aurich,Vassallo,62,,normal,RSSSF
+1999-0147,Juan Aurich,Guido,83,,penalti,RSSSF
+1999-0147,IMI,Aranda,67,,normal,RSSSF
+1999-0148,Alianza Lima,Pizarro,16,,normal,RSSSF
+1999-0148,Alianza Lima,Pizarro,21,,normal,RSSSF
+1999-0148,Alianza Lima,Pizarro,39,,normal,RSSSF
+1999-0148,Alianza Lima,Pizarro,51,,penalti,RSSSF
+1999-0148,Alianza Lima,Pizarro,57,,normal,RSSSF
+1999-0148,Alianza Lima,Quinteros,34,,normal,RSSSF
+1999-0148,Alianza Lima,P.Hinostroza,86,,normal,RSSSF
+1999-0148,Unión Minas,Castillo,38,,penalti,RSSSF
+1999-0149,Cienciano,Rossel,20,,normal,RSSSF
+1999-0149,Cienciano,Varela,81,,normal,RSSSF
+1999-0149,Melgar,Y.Zúñiga,48,,penalti,RSSSF
+1999-0150,Melgar,Y.Zúñiga,12,,normal,RSSSF
+1999-0150,Melgar,Y.Zúñiga,61,,penalti,RSSSF
+1999-0151,Unión Minas,Berrío,25,,normal,RSSSF
+1999-0151,Unión Minas,Lazo,74,,normal,RSSSF
+1999-0151,Alianza Atlético,Soria,50,,normal,RSSSF
+1999-0151,Alianza Atlético,Díaz,73,,penalti,RSSSF
+1999-0152,Sporting Cristal,Olcese,15,,normal,RSSSF
+1999-0152,Sporting Cristal,Olcese,32,,normal,RSSSF
+1999-0152,Sporting Cristal,Silva,21,,normal,RSSSF
+1999-0152,Sporting Cristal,Sánchez,48,,normal,RSSSF
+1999-0152,Sporting Cristal,Zabárbulo,80,,normal,RSSSF
+1999-0152,Sporting Cristal,Prado,90,,normal,RSSSF
+1999-0154,Sport Boys,Pinillos,21,,normal,RSSSF
+1999-0154,Sport Boys,Marquinho,39,,penalti,RSSSF
+1999-0154,Alianza Lima,Pizarro,29,,normal,RSSSF
+1999-0155,Juan Aurich,Vassallo,23,,normal,RSSSF
+1999-0155,Juan Aurich,Vassallo,87,,normal,RSSSF
+1999-0156,Alianza Lima,Moreno,42,,normal,RSSSF
+1999-0156,Alianza Lima,Baylón,52,,normal,RSSSF
+1999-0156,Sporting Cristal,Olcese,45,,penalti,RSSSF
+1999-0157,Alianza Atlético,Salinas,78,,normal,RSSSF
+1999-0157,Sport Boys,Lobatón,72,,normal,RSSSF
+1999-0158,Deportivo Municipal,Vásquez,17,,normal,RSSSF
+1999-0158,Deportivo Municipal,Vásquez,74,,penalti,RSSSF
+1999-0158,Melgar,C.Zúñiga,11,,normal,RSSSF
+1999-0158,Melgar,C.Zúñiga,49,,normal,RSSSF
+1999-0158,Melgar,Cavero,19,,normal,RSSSF
+1999-0159,Juan Aurich,Sastoque,33,,normal,RSSSF
+1999-0159,Unión Minas,Lazo,39,,normal,RSSSF
+1999-0161,Universitario,Esidio,10,,normal,RSSSF
+1999-0161,Universitario,Cantoro,59,,penalti,RSSSF
+1999-0161,Universitario,Cantoro,73,,penalti,RSSSF
+1999-0161,Universitario,Coria,79,,normal,RSSSF
+1999-0161,Universitario,Coria,85,,normal,RSSSF
+1999-0161,Universitario,Maldonado,88,,normal,RSSSF
+1999-0161,IMI,Sandi,66,,normal,RSSSF
+1999-0162,Sporting Cristal,Sánchez,15,,normal,RSSSF
+1999-0162,Sporting Cristal,Sánchez,30,,normal,RSSSF
+1999-0162,Sporting Cristal,Sánchez,45,,normal,RSSSF
+1999-0162,Alianza Atlético,Rodríguez,52,,normal,RSSSF
+1999-0162,Alianza Atlético,Rodríguez,63,,penalti,RSSSF
+1999-0164,Sport Boys,Marquinho,23,,penalti,RSSSF
+1999-0164,Sport Boys,Lobatón,57,,normal,RSSSF
+1999-0165,Deportivo Pesquero,Cipriano,32,,normal,RSSSF
+1999-0165,Deportivo Pesquero,Cipriano,90,,normal,RSSSF
+1999-0165,Universitario,Cantoro,60,,penalti,RSSSF
+1999-0165,Universitario,Portilla,82,,normal,RSSSF
+1999-0166,Unión Minas,Lazo,26,,normal,RSSSF
+1999-0166,Cienciano,Flores,13,,normal,RSSSF
 1999-0167,Alianza Lima,Reyes,67,,normal,RSSSF
+1999-0168,Unión Minas,Berrío,23,,normal,RSSSF
+1999-0168,Unión Minas,Montenegro,32,,normal,RSSSF
+1999-0168,Unión Minas,Castillo,55,,normal,RSSSF
+1999-0169,Universitario,Esidio,27,,normal,RSSSF
+1999-0169,Universitario,Cantoro,67,,normal,RSSSF
+1999-0169,Cienciano,Rossel,45,,normal,RSSSF
+1999-0169,Cienciano,Cumapa,68,,normal,RSSSF
+1999-0170,Sporting Cristal,Ferrari,20,,normal,RSSSF
+1999-0170,Sporting Cristal,Sánchez,48,,normal,RSSSF
+1999-0170,Sporting Cristal,Julinho,75,,normal,RSSSF
+1999-0170,Sporting Cristal,Silva,77,,normal,RSSSF
+1999-0171,Alianza Atlético,Medina,6,,normal,RSSSF
+1999-0171,Alianza Atlético,Soria,8,,normal,RSSSF
+1999-0171,Alianza Atlético,Prado,20,,normal,RSSSF
+1999-0171,Alianza Atlético,Salinas,50,,normal,RSSSF
+1999-0171,Alianza Atlético,Morán,65,,normal,RSSSF
+1999-0172,Melgar,Y.Zúñiga,1,,normal,RSSSF
+1999-0172,Melgar,Uehara,58,,normal,RSSSF
+1999-0172,Melgar,Uehara,77,,normal,RSSSF
+1999-0172,Melgar,Alcíbar,65,,normal,RSSSF
+1999-0172,Melgar,Zeballos,76,,normal,RSSSF
+1999-0172,Deportivo Pesquero,Silvera,79,,penalti,RSSSF
+1999-0172,Deportivo Pesquero,Cipriano,84,,normal,RSSSF
 1999-0173,Alianza Lima,Quinteros,38,,normal,RSSSF
-1999-0174,Juan Aurich,Vassallo 24',,,penalti,RSSSF
+1999-0174,Juan Aurich,Vassallo,24,,penalti,RSSSF
+1999-0175,Sport Boys,Marquinho,65,,normal,RSSSF
+1999-0175,Sport Boys,Lobatón,85,,normal,RSSSF
+1999-0177,IMI,Rachumick,1,,normal,RSSSF
+1999-0177,IMI,Rachumick,76,,normal,RSSSF
+1999-0177,IMI,Zapata,22,,normal,RSSSF
+1999-0177,IMI,P.Peña,66,,normal,RSSSF
+1999-0177,Unión Minas,Castillo,24,,normal,RSSSF
+1999-0177,Unión Minas,Castillo,53,,normal,RSSSF
+1999-0177,Unión Minas,Castillo,58,,normal,RSSSF
+1999-0178,Deportivo Pesquero,Morote,90,,normal,RSSSF
+1999-0178,Sporting Cristal,Holsen,74,,normal,RSSSF
 1999-0180,Sport Boys,Gil,33,,normal,RSSSF
+1999-0181,Sporting Cristal,Julinho,33,,normal,RSSSF
+1999-0181,Sporting Cristal,Sánchez,57,,normal,RSSSF
+1999-0181,Sporting Cristal,Silva,59,,normal,RSSSF
+1999-0181,Sporting Cristal,Zabárbulo,67,,normal,RSSSF
+1999-0181,Sporting Cristal,Holsen,75,,normal,RSSSF
+1999-0181,Unión Minas,Castillo,41,,penalti,RSSSF
+1999-0182,Cienciano,Miñán,10,,normal,RSSSF
+1999-0182,Cienciano,Miñán,15,,normal,RSSSF
+1999-0183,Alianza Atlético,Díaz,34,,normal,RSSSF
+1999-0183,Alianza Lima,Moreno,8,,normal,RSSSF
+1999-0183,Alianza Lima,Moreno,43,,normal,RSSSF
 1999-0184,Universitario,Cantoro,66,,normal,RSSSF
+1999-0185,Melgar,Y.Zúñiga,47,,normal,RSSSF
+1999-0185,Melgar,Cavero,62,,normal,RSSSF
+1999-0186,Alianza Lima,Moreno,57,,normal,RSSSF
+1999-0186,Alianza Lima,Quinteros,63,,normal,RSSSF
+1999-0186,Alianza Lima,Cominges,70,,normal,RSSSF
+1999-0186,Alianza Lima,Sáenz,74,,normal,RSSSF
+1999-0187,IMI,Rachumick,46,,normal,RSSSF
+1999-0187,Deportivo Pesquero,Cipriano,20,,normal,RSSSF
+1999-0188,Sporting Cristal,Mendoza,33,,normal,RSSSF
+1999-0188,Sporting Cristal,Ferreira,82,,normal,RSSSF
+1999-0188,Sport Boys,Lobatón,6,,normal,RSSSF
+1999-0189,Unión Minas,Ramírez,46,,normal,RSSSF
+1999-0189,Melgar,Bermúdez,34,,normal,RSSSF
+1999-0190,Juan Aurich,Vassallo,9,,normal,RSSSF
+1999-0190,Juan Aurich,Vassallo,87,,normal,RSSSF
+1999-0190,Juan Aurich,Tamashiro,30,,normal,RSSSF
+1999-0191,Universitario,J.Del Solar,31,,normal,RSSSF
+1999-0191,Universitario,Farfán,38,,normal,RSSSF
 1999-0192,Deportivo Pesquero,Márquez,72,,normal,RSSSF
+1999-0193,Alianza Atlético,García,7,,normal,RSSSF
+1999-0193,Alianza Atlético,García,22,,normal,RSSSF
+1999-0194,Sport Boys,Reátegui,30,,normal,RSSSF
+1999-0194,Sport Boys,Lobatón,81,,normal,RSSSF
+1999-0195,Cienciano,Zapata,32,,normal,RSSSF
+1999-0195,Cienciano,Serrano,67,,normal,RSSSF
+1999-0195,Alianza Lima,Baylón,3,,normal,RSSSF
+1999-0196,Melgar,Y.Zúñiga,37,,normal,RSSSF
+1999-0196,Sporting Cristal,Olcese,7,,normal,RSSSF
 1999-0197,Universitario,J.Del Solar,22,,normal,RSSSF
+1999-0198,Melgar,Reyes,46,,normal,RSSSF
+1999-0198,Melgar,Uehara,79,,normal,RSSSF
+1999-0199,Sporting Cristal,Olcese,62,,normal,RSSSF
+1999-0199,Sporting Cristal,Silva,68,,normal,RSSSF
+1999-0199,Juan Aurich,Takayama,33,,normal,RSSSF
+1999-0200,Sport Boys,Marquinho,90,,penalti,RSSSF
+1999-0200,Sport Boys,Martínez,91,,normal,RSSSF
+1999-0200,Cienciano,Zapata,15,,normal,RSSSF
+1999-0201,IMI,Peña,35,,normal,RSSSF
+1999-0201,Alianza Lima,Quinteros,73,,normal,RSSSF
 1999-0202,Deportivo Municipal,Reyes,3,,normal,RSSSF
+1999-0203,Unión Minas,Ramírez,9,,normal,RSSSF
+1999-0203,Unión Minas,Lazo,38,,normal,RSSSF
+1999-0203,Unión Minas,Fuentes,87,,normal,RSSSF
+1999-0204,Alianza Atlético,Rodríguez,2,,normal,RSSSF
+1999-0204,Alianza Atlético,García,27,,normal,RSSSF
+1999-0204,Alianza Atlético,García,32,,normal,RSSSF
+1999-0204,Alianza Atlético,García,52,,normal,RSSSF
+1999-0204,Alianza Atlético,Prado,28,,normal,RSSSF
+1999-0204,Alianza Atlético,Prado,77,,normal,RSSSF
+1999-0204,Alianza Atlético,Soria,34,,normal,RSSSF
+1999-0205,Deportivo Municipal,Reyes,12,,normal,RSSSF
+1999-0205,Deportivo Municipal,Reyes,70,,normal,RSSSF
+1999-0205,Deportivo Municipal,Vásquez,55,,normal,RSSSF
+1999-0205,Unión Minas,Berrío,37,,normal,RSSSF
+1999-0205,Unión Minas,Berrío,46,,normal,RSSSF
+1999-0206,Universitario,Esidio,33,,normal,RSSSF
+1999-0206,Universitario,Farfán,53,,normal,RSSSF
+1999-0206,Universitario,Coria,85,,penalti,RSSSF
+1999-0206,Sport Boys,Pinillos,46,,normal,RSSSF
 1999-0207,Alianza Lima,Nazarith,82,,normal,RSSSF
+1999-0208,Juan Aurich,Vassallo,18,,normal,RSSSF
+1999-0208,Juan Aurich,Takayama,59,,normal,RSSSF
+1999-0208,Juan Aurich,Soto,65,,normal,RSSSF
+1999-0209,Cienciano,Varela,31,,normal,RSSSF
+1999-0209,Cienciano,Zapata,34,,normal,RSSSF
 1999-0210,Juan Aurich,Arteaga,83,,normal,RSSSF
+1999-0212,Sport Boys,Lobatón,39,,normal,RSSSF
+1999-0212,Sport Boys,Becerra,73,,normal,RSSSF
+1999-0212,Sport Boys,Ibarra,82,,normal,RSSSF
+1999-0212,Deportivo Municipal,Carmona,58,,normal,RSSSF
+1999-0214,Melgar,Y.Zúñiga,3,,penalti,RSSSF
+1999-0214,Melgar,Cruvinel,88,,normal,RSSSF
+1999-0215,Sporting Cristal,Ferreira,24,,normal,RSSSF
+1999-0215,Sporting Cristal,Ferreira,45,,normal,RSSSF
+1999-0215,Universitario,Portilla,64,,normal,RSSSF
+1999-0215,Universitario,Esidio,85,,penalti,RSSSF
+1999-0218,Alianza Atlético,Ramírez,28,,normal,RSSSF
+1999-0218,Unión Minas,Fuentes,82,,normal,RSSSF
 1999-0219,Deportivo Pesquero,Cipriano,30,,normal,RSSSF
+1999-0220,Cienciano,Zapata,29,,normal,RSSSF
+1999-0220,Cienciano,Zapata,45,,normal,RSSSF
+1999-0220,Cienciano,Cumapa,54,,normal,RSSSF
+1999-0221,Universitario,J.Del Solar,19,,normal,RSSSF
+1999-0221,Universitario,Pajuelo,41,,normal,RSSSF
+1999-0221,Universitario,Esidio,50,,normal,RSSSF
+1999-0221,Universitario,Cantoro,86,,penalti,RSSSF
+1999-0221,Melgar,Y.Zúñiga,29,,normal,RSSSF
+1999-0221,Melgar,Y.Zúñiga,48,,penalti,RSSSF
+1999-0223,Deportivo Pesquero,Márquez,52,,normal,RSSSF
+1999-0223,Cienciano,Miñán,85,,normal,RSSSF
+1999-0225,Sport Boys,Vegas,56,,normal,RSSSF
+1999-0225,Alianza Atlético,García,86,,penalti,RSSSF
+1999-0226,Unión Minas,Castillo,48,,normal,RSSSF
+1999-0226,Unión Minas,Castillo,85,,normal,RSSSF
+1999-0226,Unión Minas,Muñoz,80,,normal,RSSSF
+1999-0227,Melgar,Cruvinel,19,,normal,RSSSF
+1999-0227,Melgar,Y.Zúñiga,48,,normal,RSSSF
+1999-0227,Melgar,Y.Zúñiga,82,,normal,RSSSF
+1999-0227,Melgar,C.Zúñiga,78,,normal,RSSSF
+1999-0227,Deportivo Municipal,Torrejó,23,,normal,RSSSF
+1999-0227,Deportivo Municipal,Da Costa,32,,normal,RSSSF
+1999-0228,Sporting Cristal,Ferreira,40,,normal,RSSSF
+1999-0228,Sporting Cristal,Ferreira,68,,penalti,RSSSF
+1999-0228,Alianza Lima,Sáenz,11,,normal,RSSSF
+1999-0228,Alianza Lima,Flores,45,,penalti,RSSSF
+1999-0229,Deportivo Municipal,Reyes,3,,normal,RSSSF
+1999-0229,Deportivo Municipal,Céspedes,90,,normal,RSSSF
+1999-0230,Universitario,Grondona,2,,normal,RSSSF
+1999-0230,Universitario,Grondona,32,,normal,RSSSF
+1999-0230,Universitario,J.Del Solar,44,,normal,RSSSF
+1999-0230,Universitario,Coria,50,,normal,RSSSF
+1999-0230,Universitario,Cantoro,85,,normal,RSSSF
+1999-0231,Alianza Atlético,Prado,87,,normal,RSSSF
+1999-0231,Sporting Cristal,Sánchez,21,,normal,RSSSF
+1999-0231,Sporting Cristal,Holsen,26,,normal,RSSSF
+1999-0231,Sporting Cristal,Ferreira,84,,normal,RSSSF
+1999-0232,Melgar,Y.Zúñiga,25,,normal,RSSSF
+1999-0232,Melgar,Uehara,85,,normal,RSSSF
+1999-0232,Alianza Lima,Quinteros,82,,normal,RSSSF
+1999-0233,Cienciano,Begazo,38,,penalti,RSSSF
+1999-0233,Cienciano,Begazo,52,,penalti,RSSSF
+1999-0233,Unión Minas,Godoy,22,,normal,RSSSF
+1999-0233,Unión Minas,Godoy,39,,normal,RSSSF
+1999-0234,Juan Aurich,Tamashiro,22,,normal,RSSSF
+1999-0234,Juan Aurich,Tamashiro,48,,normal,RSSSF
+1999-0234,Juan Aurich,Flores,46,,normal,RSSSF
+1999-0234,Juan Aurich,Vassallo,68,,penalti,RSSSF
+1999-0234,Juan Aurich,Torres,76,,normal,RSSSF
+1999-0234,Sport Boys,Villanueva,24,,normal,RSSSF
+1999-0234,Sport Boys,Calcaterra,51,,normal,RSSSF
+1999-0235,Deportivo Pesquero,Ricardi,7,,penalti,RSSSF
+1999-0235,Deportivo Pesquero,Cruz,70,,normal,RSSSF
+1999-0236,Sporting Cristal,Sánchez,45,,normal,RSSSF
+1999-0236,Sporting Cristal,Holsen,61,,normal,RSSSF
+1999-0237,Sport Boys,Tierradentro,21,,normal,RSSSF
+1999-0237,Sport Boys,Villanueva,36,,normal,RSSSF
+1999-0237,Sport Boys,Calcaterra,39,,normal,RSSSF
+1999-0237,Sport Boys,Lobatón,54,,normal,RSSSF
+1999-0238,Deportivo Municipal,Spontón,68,,normal,RSSSF
+1999-0238,Deportivo Municipal,Carmona,85,,normal,RSSSF
+1999-0238,Alianza Atlético,Ramírez,32,,normal,RSSSF
+1999-0239,Alianza Lima,Mafla,32,,normal,RSSSF
+1999-0239,Alianza Lima,Moreno,50,,normal,RSSSF
+1999-0239,Juan Aurich,Vassallo,87,,normal,RSSSF
+1999-0240,Cienciano,Begazo,35,,normal,RSSSF
+1999-0240,Cienciano,Zapata,58,,normal,RSSSF
+1999-0240,Universitario,Bernales,14,,normal,RSSSF
+1999-0240,Universitario,Esidio,61,,normal,RSSSF
+1999-0241,Unión Minas,Berrío,8,,normal,RSSSF
+1999-0241,Unión Minas,Godoy,18,,normal,RSSSF
+1999-0241,Unión Minas,Castillo,33,,normal,RSSSF
+1999-0241,Unión Minas,F.Hernández,88,,normal,RSSSF
+1999-0242,Melgar,Y.Zúñiga,59,,normal,RSSSF
+1999-0242,Melgar,Uehara,71,,normal,RSSSF
+1999-0243,Sporting Cristal,Mendoza,37,,normal,RSSSF
+1999-0243,Sporting Cristal,Mendoza,64,,normal,RSSSF
+1999-0243,Deportivo Pesquero,Silvera,50,,normal,RSSSF
+1999-0244,Alianza Atlético,Rivera,37,,normal,RSSSF
+1999-0244,Alianza Atlético,Rivera,52,,normal,RSSSF
+1999-0245,Juan Aurich,Uribe,79,,normal,RSSSF
+1999-0245,Deportivo Municipal,Reyes,80,,normal,RSSSF
+1999-0246,Universitario,Farfán,2,,normal,RSSSF
+1999-0246,Universitario,Esidio,70,,normal,RSSSF
+1999-0246,Alianza Lima,Moreno,47,,normal,RSSSF
+1999-0246,Alianza Lima,Sáenz,68,,penalti,RSSSF
+1999-0246,Alianza Lima,Sáenz,86,,penalti,RSSSF
 1999-0247,Alianza Lima,Chacón,90,,normal,RSSSF
+1999-0248,Deportivo Pesquero,Silvera,81,,normal,RSSSF
+1999-0248,Sport Boys,Calcaterra,30,,normal,RSSSF
+1999-0249,Unión Minas,Castillo,50,,normal,RSSSF
+1999-0249,Unión Minas,Castillo,59,,normal,RSSSF
+1999-0249,Unión Minas,Lazo,53,,normal,RSSSF
+1999-0250,IMI,Peña,58,,normal,RSSSF
+1999-0250,IMI,Bello,64,,normal,RSSSF
+1999-0250,Melgar,Y.Zúñiga,35,,normal,RSSSF
+1999-0250,Melgar,Cavero,67,,normal,RSSSF
+1999-0251,Deportivo Municipal,Reyes,47,,normal,RSSSF
+1999-0251,Deportivo Municipal,Carmona,80,,normal,RSSSF
+1999-0251,Cienciano,Zapata,17,,normal,RSSSF
+1999-0252,Universitario,Grondona,26,,normal,RSSSF
+1999-0252,Universitario,Alva,33,,normal,RSSSF
+1999-0253,Deportivo Pesquero,Espinoza,37,,normal,RSSSF
+1999-0253,Deportivo Pesquero,Cruz,40,,normal,RSSSF
+1999-0253,Deportivo Pesquero,Ricardi,52,,normal,RSSSF
+1999-0253,IMI,Sanjinez,20,,normal,RSSSF
+1999-0253,IMI,Bello,64,,normal,RSSSF
+1999-0254,Sport Boys,Vegas,33,,penalti,RSSSF
+1999-0254,Sport Boys,Vegas,61,,penalti,RSSSF
+1999-0254,Sporting Cristal,Julinho,15,,normal,RSSSF
+1999-0255,Alianza Atlético,García,34,,penalti,RSSSF
+1999-0255,Alianza Atlético,Habrahamshon,75,,normal,RSSSF
+1999-0255,Universitario,Cantoro,5,,normal,RSSSF
+1999-0255,Universitario,Esidio,16,,normal,RSSSF
+1999-0255,Universitario,Bernales,29,,normal,RSSSF
+1999-0255,Universitario,Alva,62,,normal,RSSSF
+1999-0255,Universitario,Coria,77,,normal,RSSSF
+1999-0256,Deportivo Municipal,Domínguez,41,,normal,RSSSF
+1999-0256,Alianza Lima,Moreno,9,,normal,RSSSF
+1999-0256,Alianza Lima,Moreno,34,,normal,RSSSF
+1999-0256,Alianza Lima,Sáenz,58,,penalti,RSSSF
+1999-0256,Alianza Lima,Sáenz,68,,normal,RSSSF
+1999-0256,Alianza Lima,Sáenz,71,,normal,RSSSF
+1999-0256,Alianza Lima,Chévez,82,,normal,RSSSF
+1999-0257,Cienciano,Miñán,8,,normal,RSSSF
+1999-0257,Cienciano,Miñán,26,,normal,RSSSF
+1999-0257,Cienciano,Zapata,45,,normal,RSSSF
+1999-0258,Melgar,Y.Zúñiga,8,,normal,RSSSF
+1999-0258,Melgar,Y.Zúñiga,66,,normal,RSSSF
+1999-0258,Melgar,Cavero,20,,normal,RSSSF
+1999-0258,Melgar,Cavero,23,,normal,RSSSF
+1999-0258,Melgar,C.Zúñiga,64,,normal,RSSSF
+1999-0258,Unión Minas,Berrío,26,,normal,RSSSF
+1999-0259,Sporting Cristal,Olcese,65,,normal,RSSSF
+1999-0259,Sporting Cristal,Silva,73,,normal,RSSSF
+1999-0259,Sporting Cristal,R.Salazar,87,,normal,RSSSF
+1999-0259,Melgar,Y.Zúñiga,44,,normal,RSSSF
+1999-0259,Melgar,Cruvinel,90,,normal,RSSSF
+1999-0260,Juan Aurich,Tamashiro,28,,normal,RSSSF
+1999-0260,Juan Aurich,Tamashiro,58,,normal,RSSSF
+1999-0260,Juan Aurich,Tamashiro,80,,normal,RSSSF
+1999-0260,Alianza Atlético,Rivera,69,,normal,RSSSF
 1999-0261,Universitario,Coria,13,,normal,RSSSF
+1999-0262,Alianza Lima,Cominges,54,,normal,RSSSF
+1999-0262,Alianza Lima,Sáenz,58,,normal,RSSSF
+1999-0262,Cienciano,Begazo,55,,normal,RSSSF
+1999-0264,Unión Minas,Lazo,3,,normal,RSSSF
+1999-0264,Unión Minas,Lazo,60,,normal,RSSSF
+1999-0264,Unión Minas,Castillo,17,,normal,RSSSF
+1999-0264,Unión Minas,Godoy,21,,normal,RSSSF
+1999-0265,Deportivo Pesquero,Espinoza,60,,normal,RSSSF
+1999-0265,Deportivo Pesquero,Silvera,61,,normal,RSSSF
+1999-0265,América Cochahuayco,Carrión,45,,normal,RSSSF
+1999-0265,América Cochahuayco,Ibarra,72,,normal,RSSSF
+1999-0266,Universitario,Farfán,10,,normal,RSSSF
+1999-0266,Universitario,Esidio,49,,normal,RSSSF
+1999-0266,Universitario,J.Del Solar,73,,normal,RSSSF
 1999-0267,Alianza Lima,Mafla,45,,normal,RSSSF
 2000-0001,Cienciano,Luis Molina,77,,normal,RSSSF
 2000-0002,Sporting Cristal,Julinho,33,,normal,RSSSF
@@ -1851,6 +3036,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0049,Cienciano,Herly Alcazar,56,,normal,RSSSF
 2000-0049,Sporting Cristal,Roberto Holsen,7,,normal,RSSSF
 2000-0049,Sporting Cristal,Carlos Juárez,78,,normal,RSSSF
+2000-0050,Deportivo UPAO,Gabriel Rodríguez,81,,normal,RSSSF
+2000-0050,Alianza Lima,Aristides Rojas,12,,normal,RSSSF
 2000-0052,Juan Aurich,Luis Flores,78,,normal,RSSSF
 2000-0052,Deportivo Wanka,Daniel Porras,87,,normal,RSSSF
 2000-0053,Alianza Atlético,Julian Rivera,9,,normal,RSSSF
@@ -1905,6 +3092,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0069,Universitario,Eduardo Esidio,90,,normal,RSSSF
 2000-0069,Melgar,Aldo Cavero,52,,normal,RSSSF
 2000-0069,Melgar,Jorge Reyes,85,,normal,RSSSF
+2000-0070,Alianza Atlético,Alex Becerra,51,,normal,RSSSF
+2000-0070,Sporting Cristal,Carlos Juárez,30,,normal,RSSSF
 2000-0071,Cienciano,Juan Montenegro,4,,normal,RSSSF
 2000-0071,Cienciano,Mauricio Martínez,28,,normal,RSSSF
 2000-0071,Cienciano,Manuel López,52,,normal,RSSSF
@@ -1927,6 +3116,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0078,Melgar,Luis Bello,1,,normal,RSSSF
 2000-0078,Melgar,Luis Bello,43,,normal,RSSSF
 2000-0078,Melgar,Aldo Cavero,23,,normal,RSSSF
+2000-0079,Deportivo UPAO,Ricardo Ronceros,35,,normal,RSSSF
+2000-0079,Deportivo Wanka,Rodrigo Gauna,28,,normal,RSSSF
 2000-0080,Sporting Cristal,Santiago Salazar,25,,normal,RSSSF
 2000-0080,Sporting Cristal,Carlos Juarez,45,,normal,RSSSF
 2000-0080,Sporting Cristal,Aldo Olcese,60,,normal,RSSSF
@@ -6105,6 +7296,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-0229,Universidad San Martín,P.Garcia,85,,normal,RSSSF
 2005-0230,Melgar,A.Serrano,24,,normal,RSSSF
 2005-0230,Melgar,M.Huertas,91,,normal,RSSSF
+2005-0231,Universitario,G.Bernales,43,,normal,RSSSF
+2005-0231,Universitario,J.Corcuera,58,,contra,RSSSF
 2005-0232,Alianza Atlético,R.Jimenez,14,,normal,RSSSF
 2005-0232,Alianza Atlético,R.Jimenez,50,,normal,RSSSF
 2005-0232,Sport Áncash,N.Montalva,34,,normal,RSSSF
@@ -11395,6 +12588,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2012-0208,Alianza Lima,Jhonny Vidales,3,,normal,ESPN
 2012-0208,Sporting Cristal,Renzo Sheput,32,,normal,ESPN
 2012-0209,Unión Comercio,Joseph Obbina,58,,normal,ESPN
+2012-0210,León de Huánuco,Edwin Gomez,18,,normal,RSSSF
+2012-0210,León de Huánuco,Christian Ramos,67,,contra,RSSSF
+2012-0210,Universidad San Martín,Luis Perea,44,,penalti,RSSSF
+2012-0210,Universidad San Martín,Juan Gutierrez,92,,normal,RSSSF
 2012-0211,Universitario,Miguel Ximenez,72,,normal,ESPN
 2012-0211,César Vallejo,Saulo Aponte,80,,normal,ESPN
 2012-0212,Cusco FC,Andy Pando,65,,penalti,ESPN
@@ -12650,6 +13847,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0020,León de Huánuco,Carlos Preciado,93,,normal,RSSSF
 2014-0021,Universidad San Martín,Luis Perea,75,,penalti,RSSSF
 2014-0021,Alianza Lima,Gabriel Costa,52,,normal,RSSSF
+2014-0022,Cusco FC,Ramon Rodriguez,7,,normal,RSSSF
+2014-0022,Sport Huancayo,Kleyr Vieira,6,,normal,RSSSF
+2014-0022,Sport Huancayo,Gonzalo Maulella,81,,contra,RSSSF
 2014-0023,San Simón,Gustavo Stagnaro,52,,normal,RSSSF
 2014-0023,San Simón,Miguel Silva,67,,normal,RSSSF
 2014-0023,César Vallejo,Daniel Chavez,77,,normal,RSSSF
@@ -12667,6 +13867,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0028,Cienciano,Sebastian Capurro,58,,normal,RSSSF
 2014-0029,Melgar,Bernardo Cuesta,48,,normal,RSSSF
 2014-0029,Melgar,Minzum Quina,61,,normal,RSSSF
+2014-0030,Sport Huancayo,Kleyr Vieira,21,,normal,RSSSF
+2014-0030,Sport Huancayo,Victor Rossel,85,,normal,RSSSF
+2014-0030,Universidad San Martín,Carlos Fernandez,25,,normal,RSSSF
+2014-0030,Universidad San Martín,Luis Perea,53,,normal,RSSSF
+2014-0030,Universidad San Martín,Benjamin Ubierna,88,,normal,RSSSF
+2014-0030,Universidad San Martín,Cord Cleque,55,,contra,RSSSF
 2014-0032,Los Caimanes,Ricardo Ronceros,4,,normal,RSSSF
 2014-0032,Los Caimanes,Edson Aubert,66,,normal,RSSSF
 2014-0032,Universitario,Raul Ruidiaz,14,,penalti,RSSSF
@@ -12731,6 +13937,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0057,León de Huánuco,Ever Chavez,16,,normal,RSSSF
 2014-0058,UTC,Manuel Corrales,32,,normal,RSSSF
 2014-0059,Universitario,Raul Ruidiaz,8,,normal,RSSSF
+2014-0060,Cienciano,Gary Correa,79,,penalti,RSSSF
+2014-0060,Cienciano,Luis Guadalupe,59,,contra,RSSSF
 2014-0061,Sporting Cristal,Carlos Lobaton,29,,normal,RSSSF
 2014-0061,Sporting Cristal,Carlos Lobaton,51,,normal,RSSSF
 2014-0061,Sporting Cristal,Maximiliano Nuñez,45,,normal,RSSSF
@@ -12982,6 +14190,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0150,San Simón,Cesar Mayuri,54,,normal,RSSSF
 2014-0150,León de Huánuco,Carlos Preciado,45,1,normal,RSSSF
 2014-0150,León de Huánuco,Carlos Preciado,63,,normal,RSSSF
+2014-0151,Ayacucho,Jesus Arismendi,41,,normal,RSSSF
+2014-0151,Ayacucho,Horacio Benincasa,80,,normal,RSSSF
+2014-0151,Ayacucho,Adan Balbin,33,,contra,RSSSF
+2014-0151,Sporting Cristal,Alexis Cossio,12,,normal,RSSSF
+2014-0151,Sporting Cristal,Renzo Revoredo,59,,normal,RSSSF
+2014-0151,Sporting Cristal,Sergio Blanco,68,,normal,RSSSF
 2014-0152,Universitario,Raul Ruidiaz,68,,normal,RSSSF
 2014-0154,Unión Comercio,Cristian Bogado,74,,normal,RSSSF
 2014-0154,Unión Comercio,Jose Ayala,86,,normal,RSSSF
@@ -13049,6 +14263,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0181,Ayacucho,Mario Villasanti,32,,penalti,RSSSF
 2014-0181,Ayacucho,Carlos Orejuela,59,,normal,RSSSF
 2014-0182,León de Huánuco,Anderson Santamaria,51,,normal,RSSSF
+2014-0183,César Vallejo,Luis Cardoza,25,,normal,RSSSF
+2014-0183,César Vallejo,Donald Millan,45,1,normal,RSSSF
+2014-0183,César Vallejo,William Chiroque,46,,normal,RSSSF
+2014-0183,Cienciano,Miguel Ximenez,18,,normal,RSSSF
+2014-0183,Cienciano,Luis Guadalupe,39,,contra,RSSSF
 2014-0184,Alianza Lima,Victor Cedron,65,,normal,RSSSF
 2014-0185,Cienciano,Martin Icart,4,,normal,RSSSF
 2014-0185,Cienciano,Martin Icart,14,,normal,RSSSF
@@ -13199,6 +14418,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0238,Alianza Lima,Mauro Guevgeozian,67,,normal,RSSSF
 2014-0238,Alianza Lima,Mauro Guevgeozian,87,,normal,RSSSF
 2014-0238,Alianza Lima,Julio Landauri,69,,normal,RSSSF
+2014-0239,Universitario,Raul Ruidiaz,67,,penalti,RSSSF
+2014-0239,Universitario,Edinson Flores,72,,normal,RSSSF
+2014-0239,Universitario,Hector Salazar,75,,contra,RSSSF
+2014-0239,Juan Aurich,Hector Salazar,29,,normal,RSSSF
 2014-0240,Los Caimanes,Luis Ovelar,17,,normal,RSSSF
 2014-0240,Sporting Cristal,Horacio Calcaterra,16,,normal,RSSSF
 2014-0241,Sporting Cristal,Sergio Blanco,57,,normal,RSSSF
@@ -13230,6 +14453,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0007,Melgar,Lampros Kontogiannis,14,,normal,RSSSF
 2015-0007,Universidad San Martín,Aldo Corzo,72,,normal,RSSSF
 2015-0008,Juan Aurich,Rodrigo Cuba,63,,normal,RSSSF
+2015-0009,Cusco FC,Juan Lojas,2,,normal,RSSSF
+2015-0009,Cusco FC,Juan Lojas,86,,normal,RSSSF
+2015-0009,Cusco FC,Ramon Rodriguez,54,,normal,RSSSF
+2015-0009,Ayacucho,Fernando Oliveira,57,,normal,RSSSF
+2015-0009,Ayacucho,Jaime Huerta,89,,contra,RSSSF
 2015-0010,Sporting Cristal,Diego Manicero,92,,normal,RSSSF
 2015-0010,Unión Comercio,Lionard Pajoy,36,,normal,RSSSF
 2015-0011,Sport Loreto,Angelo Cruzado,23,,normal,RSSSF
@@ -13283,6 +14511,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0030,UTC,Victor Rossel,52,,penalti,RSSSF
 2015-0030,UTC,Henry Solis,63,,normal,RSSSF
 2015-0031,Sport Loreto,Angelo Cruzado,23,,normal,RSSSF
+2015-0032,Universitario,Carlos Grossmüller,35,,penalti,RSSSF
+2015-0032,Universitario,Erick Coavoy,5,,contra,RSSSF
 2015-0033,Juan Aurich,Cesar Valoyes,54,,normal,RSSSF
 2015-0034,Cienciano,Carlos Orejuela,31,,normal,RSSSF
 2015-0035,Deportivo Municipal,Armando Alfageme,4,,normal,RSSSF
@@ -13313,6 +14543,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0041,Juan Aurich,Luis Tejada,54,,normal,RSSSF
 2015-0042,Sport Huancayo,Antonio Meza_Cuadra,12,,normal,RSSSF
 2015-0042,César Vallejo,Luis Cardoza,52,,normal,RSSSF
+2015-0044,Alianza Atlético,Mario Soto,45,2,normal,RSSSF
+2015-0044,Alianza Atlético,Rolando Bogado,68,,contra,RSSSF
 2015-0045,Unión Comercio,Lionard Pajoy,81,,penalti,RSSSF
 2015-0045,Ayacucho,Cristofer Soto,46,,normal,RSSSF
 2015-0046,Sporting Cristal,Irven Avila,3,,normal,RSSSF
@@ -13663,6 +14895,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0186,Cusco FC,Brian Sarmiento,53,,normal,RSSSF
 2015-0186,Cusco FC,Juan Lojas,62,,normal,RSSSF
 2015-0186,Cusco FC,Felix Borja,90,,normal,RSSSF
+2015-0187,Unión Comercio,Evany Machahuay,14,,normal,RSSSF
+2015-0187,Unión Comercio,Alexander Sanchez,39,,normal,RSSSF
+2015-0187,Unión Comercio,Kerwin Peixoto,61,,contra,RSSSF
+2015-0187,Cienciano,Carlos Orejuela,85,,penalti,RSSSF
 2015-0188,Sport Loreto,Angelo Cruzado,91,,normal,RSSSF
 2015-0188,Deportivo Municipal,Mauricio Lopez,42,,normal,RSSSF
 2015-0188,Deportivo Municipal,Diego Benitez,93,,normal,RSSSF
@@ -13845,6 +15081,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0259,Sport Huancayo,Antonio Meza_Cuadra,57,,normal,RSSSF
 2015-0259,Sport Huancayo,Victor Peña,82,,normal,RSSSF
 2015-0259,Sport Huancayo,Luis Perea,84,,normal,RSSSF
+2015-0260,Sport Loreto,Diego Mayora,15,,normal,RSSSF
+2015-0260,Sport Loreto,Alberto Rodriguez,8,,contra,RSSSF
+2015-0260,Sporting Cristal,Diego Manicero,53,,normal,RSSSF
+2015-0260,Sporting Cristal,Carlos Lobaton,86,,normal,RSSSF
 2015-0261,César Vallejo,Emiliano Ciucci,83,,normal,RSSSF
 2015-0262,Cusco FC,Brian Sarmiento,10,,penalti,RSSSF
 2015-0262,Cusco FC,Cesar Ortiz,67,,normal,RSSSF
@@ -13895,6 +15135,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0277,Sporting Cristal,Renzo Revoredo,55,,normal,RSSSF
 2015-0277,Sporting Cristal,Luiz Da Silva,88,,normal,RSSSF
 2015-0277,César Vallejo,Daniel Chavez,24,,normal,RSSSF
+2015-0278,Melgar,Bernardo Cuesta,22,,normal,RSSSF
+2015-0278,Melgar,Bernardo Cuesta,74,,normal,RSSSF
+2015-0278,Melgar,Bernardo Cuesta,83,,normal,RSSSF
+2015-0278,Melgar,Walter Vilchez,7,,contra,RSSSF
 2015-0279,César Vallejo,Donald Millan,13,,normal,RSSSF
 2015-0279,César Vallejo,Donald Millan,79,,normal,RSSSF
 2015-0279,César Vallejo,Emiliano Ciucci,34,,normal,RSSSF
@@ -13902,6 +15146,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0279,Sporting Cristal,Luis Cardoza,31,,normal,RSSSF
 2015-0279,Sporting Cristal,Irven Avila,48,,normal,RSSSF
 2015-0279,Sporting Cristal,Luiz Da Silva,51,,normal,RSSSF
+2015-0280,Sporting Cristal,Renzo Sheput,52,,penalti,RSSSF
+2015-0280,Sporting Cristal,Mario Palomino,42,,contra,RSSSF
+2015-0280,Melgar,Eduardo Uribe,39,,normal,RSSSF
+2015-0280,Melgar,Minzum Quina,87,,normal,RSSSF
 2015-0281,Melgar,Ysrael Zuñiga,22,,normal,RSSSF
 2015-0281,Melgar,Omar Fernandez,44,,normal,RSSSF
 2015-0281,Melgar,Bernardo Cuesta,91,,normal,RSSSF
@@ -13912,6 +15160,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0001,Melgar,Omar Fernandez,20,,normal,RSSSF
 2016-0001,Melgar,Patricio Arce,88,,normal,RSSSF
 2016-0002,Deportivo Municipal,Maximiliano Velasco,60,,normal,RSSSF
+2016-0004,Juan Aurich,Victor Cedron,6,,normal,RSSSF
+2016-0004,Juan Aurich,Yefferson Romucho,66,,contra,RSSSF
+2016-0004,Defensor La Bocana,Roberto Jimenez,73,,normal,RSSSF
 2016-0005,César Vallejo,Luis Cardoza,29,,normal,RSSSF
 2016-0005,Comerciantes Unidos,Carlos Flores,60,,normal,RSSSF
 2016-0006,Unión Comercio,Evany Machahuay,18,,normal,RSSSF
@@ -14058,6 +15309,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0054,Ayacucho,César Valoyes,58,,normal,RSSSF
 2016-0056,UTC,Victor Guazá,71,,normal,RSSSF
 2016-0057,Cusco FC,Gianfranco Labarthe,69,,normal,RSSSF
+2016-0059,Deportivo Municipal,Masakatsu Sawa,90,,normal,RSSSF
+2016-0059,Deportivo Municipal,Felix Uculmana,79,,contra,RSSSF
 2016-0060,Universidad San Martín,Cristian Ortiz,64,,normal,RSSSF
 2016-0060,Universidad San Martín,Ramiro Caseres,78,,normal,RSSSF
 2016-0060,Melgar,Bernardo Cuesta,61,,normal,RSSSF
@@ -14116,6 +15369,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0077,Ayacucho,Jesus Chavez,72,,penalti,RSSSF
 2016-0079,Cusco FC,Carlos Orejuela,39,,normal,RSSSF
 2016-0079,Sport Huancayo,Antonio Meza_Cuadra,58,,normal,RSSSF
+2016-0080,Universidad San Martín,Joel Sanchez,12,,normal,RSSSF
+2016-0080,Universidad San Martín,Cristian Ortiz,58,,penalti,RSSSF
+2016-0080,UTC,Johan Fano,14,,normal,RSSSF
+2016-0080,UTC,Henry Solis,71,,normal,RSSSF
+2016-0080,UTC,Juan Vergara,94,,normal,RSSSF
+2016-0080,UTC,Marcos Rivadero,54,,contra,RSSSF
 2016-0081,Alianza Lima,Julio Landauri,46,,normal,RSSSF
 2016-0081,Universitario,Diego Guastavino,10,,normal,RSSSF
 2016-0081,Universitario,Raul Ruidiaz,88,,normal,RSSSF
@@ -14157,6 +15416,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0101,Sporting Cristal,Ray Sandoval,69,,normal,RSSSF
 2016-0101,Sporting Cristal,Renzo Revoredo,73,,normal,RSSSF
 2016-0102,Melgar,Patricio Arce,55,,normal,RSSSF
+2016-0103,Defensor La Bocana,Jean Tragodara,16,,normal,RSSSF
+2016-0103,Defensor La Bocana,Enzo Borges,50,,penalti,RSSSF
+2016-0103,Defensor La Bocana,Enzo Borges,61,,normal,RSSSF
+2016-0103,Defensor La Bocana,Wilmer Aguirre,63,,normal,RSSSF
+2016-0103,César Vallejo,Mauricio Montes,88,,normal,RSSSF
+2016-0103,César Vallejo,Lampros Kontogiannis,55,,contra,RSSSF
 2016-0104,Deportivo Municipal,Aldo Corzo,11,,normal,RSSSF
 2016-0104,Deportivo Municipal,Maximiliano Velasco,55,,normal,RSSSF
 2016-0104,Alianza Atlético,Janeiler Rivas,16,,normal,RSSSF
@@ -14179,6 +15444,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0112,César Vallejo,Rinaldo Cruzado,85,,normal,RSSSF
 2016-0112,Melgar,Omar Fernandez,47,,normal,RSSSF
 2016-0112,Melgar,Patricio Arce,57,,normal,RSSSF
+2016-0113,Universidad San Martín,Junior Ponce,8,,normal,RSSSF
+2016-0113,Universidad San Martín,Junior Ponce,11,,normal,RSSSF
+2016-0113,Universidad San Martín,Cristian Ortiz,82,,normal,RSSSF
+2016-0113,Universidad San Martín,Joel Sanchez,90,,penalti,RSSSF
+2016-0113,Defensor La Bocana,Saulo Aponte,53,,normal,RSSSF
+2016-0113,Defensor La Bocana,Jorge Bosmediano,45,,contra,RSSSF
 2016-0114,Sport Huancayo,Antonio Meza_Cuadra,4,,normal,RSSSF
 2016-0114,Sport Huancayo,Antonio Meza_Cuadra,14,,penalti,RSSSF
 2016-0114,Sport Huancayo,Antonio Meza_Cuadra,90,,normal,RSSSF
@@ -14340,6 +15611,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0181,Melgar,Jose Fernandez,59,,normal,RSSSF
 2016-0182,Ayacucho,César Valoyes,22,,normal,RSSSF
 2016-0182,Alianza Lima,Johnnier Montaño,11,,normal,RSSSF
+2016-0183,Universitario,Rodrigo Cuba,8,,normal,RSSSF
+2016-0183,Universitario,Hernan Rengifo,10,,normal,RSSSF
+2016-0183,Universitario,Edison Flores,59,,normal,RSSSF
+2016-0183,Universitario,Gilberto Cosme,36,,contra,RSSSF
+2016-0183,Cusco FC,Joao Villamarin,51,,normal,RSSSF
 2016-0184,Defensor La Bocana,Jahirsino Baylon,18,,normal,RSSSF
 2016-0184,Defensor La Bocana,Enzo Borges,66,,normal,RSSSF
 2016-0185,UTC,Victor Guazá,32,,normal,RSSSF
@@ -14567,6 +15843,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0272,Cusco FC,Carlos Neumann,25,,normal,RSSSF
 2016-0272,Melgar,Bernardo Cuesta,14,,normal,RSSSF
 2016-0272,Melgar,Nilson Loyola,57,,normal,RSSSF
+2016-0273,Comerciantes Unidos,Gary Correa,7,,normal,RSSSF
+2016-0273,Comerciantes Unidos,Robert Ardiles,32,,normal,RSSSF
+2016-0273,Comerciantes Unidos,Meggeber Aliaga,76,,contra,RSSSF
+2016-0273,Ayacucho,Giancarlo Carmona,23,,normal,RSSSF
 2016-0274,Universidad San Martín,Wilder Cartagena,41,,normal,RSSSF
 2016-0274,Comerciantes Unidos,Gary Correa,82,,normal,RSSSF
 2016-0275,Sport Huancayo,Manuel Corrales,79,,normal,RSSSF
@@ -14638,6 +15918,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0301,Universitario,Hernan Rengifo,13,,normal,RSSSF
 2016-0301,Universitario,Hernan Rengifo,55,,normal,RSSSF
 2016-0301,Universitario,Miguel Trauco,45,,normal,RSSSF
+2016-0302,César Vallejo,Ronald Quinteros,55,,normal,RSSSF
+2016-0302,César Vallejo,Edgar Villamarin,82,,contra,RSSSF
+2016-0302,Melgar,Jean Barrientos,24,,normal,RSSSF
+2016-0302,Melgar,Jean Barrientos,68,,normal,RSSSF
+2016-0302,Melgar,Bernardo Cuesta,94,,normal,RSSSF
 2016-0303,Comerciantes Unidos,Carlos Vera,30,,normal,RSSSF
 2016-0303,Comerciantes Unidos,Crifford Seminario,39,,normal,RSSSF
 2016-0303,Comerciantes Unidos,Carlos Flores,49,,normal,RSSSF
@@ -14741,6 +16026,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0341,César Vallejo,Kevin Principe,50,,normal,RSSSF
 2016-0341,Defensor La Bocana,Wilmer Aguirre,81,,penalti,RSSSF
 2016-0342,Universidad San Martín,Alexis Dominguez,26,,normal,RSSSF
+2016-0343,Deportivo Municipal,Pablo Lavandeira,9,,penalti,RSSSF
+2016-0343,Sporting Cristal,Carlos Lobaton,4,,penalti,RSSSF
+2016-0343,Sporting Cristal,Jorge Cazulo,61,,normal,RSSSF
+2016-0343,Sporting Cristal,Maximiliano Velasco,76,,contra,RSSSF
+2016-0344,Alianza Atlético,Robinson Aponza,41,,normal,RSSSF
+2016-0344,Alianza Atlético,Robinson Aponza,72,,normal,RSSSF
+2016-0344,Alianza Atlético,Robinson Aponza,76,,normal,RSSSF
+2016-0344,Alianza Atlético,Josue Vidales,41,,contra,RSSSF
+2016-0344,UTC,Juan Vergara,10,,normal,RSSSF
+2016-0344,UTC,Donny Neyra,89,,penalti,RSSSF
 2016-0345,Alianza Lima,Lionard Pajoy,9,,normal,RSSSF
 2016-0345,Alianza Lima,Lionard Pajoy,91,,normal,RSSSF
 2016-0345,Alianza Lima,Miguel Araujo,82,,normal,RSSSF
@@ -14757,6 +16052,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0348,Unión Comercio,Ronal Huaccha,8,,normal,RSSSF
 2016-0348,Unión Comercio,Ronal Huaccha,12,,normal,RSSSF
 2016-0348,Unión Comercio,Evany Machahuay,86,,normal,RSSSF
+2016-0349,Cusco FC,Sebastian Lojas,75,,normal,RSSSF
+2016-0349,Cusco FC,Julio Aliaga,70,,contra,RSSSF
+2016-0349,Deportivo Municipal,Victor Eugenio,52,,normal,RSSSF
 2016-0350,Comerciantes Unidos,Carlos Flores,15,,normal,RSSSF
 2016-0350,Comerciantes Unidos,Carlos Flores,20,,normal,RSSSF
 2016-0350,Comerciantes Unidos,Wilfredo Rivas,25,,normal,RSSSF
@@ -14795,6 +16093,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0007,Universitario,Juan Vargas,36,,normal,RSSSF
 2017-0007,Sport Huancayo,Victor Balta,72,,normal,RSSSF
 2017-0008,Alianza Lima,Luis Aguiar,43,,normal,RSSSF
+2017-0009,Deportivo Municipal,Rodrigo Cuba,21,,normal,RSSSF
+2017-0009,Deportivo Municipal,Jean Archimbaud,81,,contra,RSSSF
+2017-0009,Juan Aurich,Enzo Borges,94,,normal,RSSSF
 2017-0010,Ayacucho,Jesus Arismendi,58,,normal,RSSSF
 2017-0010,Melgar,Luis Garcia,66,,normal,RSSSF
 2017-0010,Melgar,Ysrael Zuñiga,70,,normal,RSSSF
@@ -14819,6 +16120,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0015,Sporting Cristal,Gabriel Costa,87,,normal,RSSSF
 2017-0016,Alianza Lima,German Pacheco,64,,normal,RSSSF
 2017-0016,Alianza Lima,Luis Aguiar,80,,normal,RSSSF
+2017-0017,Academia Cantolao,Jeferson Collazos,76,,normal,RSSSF
+2017-0017,Ayacucho,Willyan Mimbela,22,,normal,RSSSF
+2017-0017,Ayacucho,Carlos Orejuela,26,,normal,RSSSF
+2017-0017,Ayacucho,Paulo Albarracin,6,,contra,RSSSF
 2017-0018,Cusco FC,Carlos Neumann,13,,normal,RSSSF
 2017-0018,Cusco FC,Alfredo Ramua,72,,normal,RSSSF
 2017-0019,Juan Aurich,Aldair Perleche,45,2,normal,RSSSF
@@ -14885,6 +16190,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0041,Sport Huancayo,Manuel Corrales,66,,normal,RSSSF
 2017-0041,Comerciantes Unidos,Jefferson Viveros,29,,normal,RSSSF
 2017-0041,Comerciantes Unidos,Javier Zagaceta,34,,normal,RSSSF
+2017-0042,Universidad San Martín,Alexander Succar,51,,normal,RSSSF
+2017-0042,Universidad San Martín,Junior Ponce,66,,normal,RSSSF
+2017-0042,Universidad San Martín,Edy Renteria,29,,contra,RSSSF
 2017-0043,Alianza Atlético,Manuel Calderon,58,,normal,RSSSF
 2017-0043,Ayacucho,Israel Kahn,59,,normal,RSSSF
 2017-0044,Universitario,Jersson Vasquez,80,,normal,RSSSF
@@ -14939,6 +16247,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0061,Alianza Lima,Kevin Quevedo,82,,normal,RSSSF
 2017-0061,Juan Aurich,Renzo Sheput,27,,penalti,RSSSF
 2017-0061,Juan Aurich,Jean Archimbaud,34,,normal,RSSSF
+2017-0062,Comerciantes Unidos,Jefferson Viveros,16,,normal,RSSSF
+2017-0062,Comerciantes Unidos,William Palacio,18,,normal,RSSSF
+2017-0062,Comerciantes Unidos,Anthony Rossel,90,,normal,RSSSF
+2017-0062,Comerciantes Unidos,Josue Vidales,8,,contra,RSSSF
+2017-0062,UTC,Donald Millan,65,,penalti,RSSSF
+2017-0062,UTC,Jonathan Segura,70,,normal,RSSSF
 2017-0063,Academia Cantolao,Jose Manzaneda,71,,normal,RSSSF
 2017-0063,Melgar,Emanuel Herrera,51,,normal,RSSSF
 2017-0064,Alianza Atlético,Jorge Bazan,23,,normal,RSSSF
@@ -15015,6 +16329,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0094,Juan Aurich,Elsar Rodas,86,,normal,RSSSF
 2017-0095,Ayacucho,Luis Carranza,62,,normal,RSSSF
 2017-0095,Ayacucho,Carlos Orejuela,77,,normal,RSSSF
+2017-0096,Comerciantes Unidos,Exar Rosales,45,,penalti,RSSSF
+2017-0096,Comerciantes Unidos,Kike Rodriguez,63,,normal,RSSSF
+2017-0096,Comerciantes Unidos,Jankarlo Chirinos,65,,normal,RSSSF
+2017-0096,Deportivo Municipal,Rodrigo Cuba,2,,normal,RSSSF
+2017-0096,Deportivo Municipal,Kike Rodriguez,52,,contra,RSSSF
 2017-0097,Comerciantes Unidos,Luis Mayme,23,,normal,RSSSF
 2017-0097,Comerciantes Unidos,Jeremias Bogado,60,,normal,RSSSF
 2017-0097,Sport Huancayo,Carlos Preciado,38,,normal,RSSSF
@@ -15062,12 +16381,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0115,UTC,Benjamin Ubierna,17,,normal,RSSSF
 2017-0115,UTC,Donald Millan,26,,penalti,RSSSF
 2017-0115,UTC,Gino Guerrero,41,,normal,RSSSF
+2017-0116,Ayacucho,Willyam Mimbela,4,,normal,RSSSF
+2017-0116,Ayacucho,Sixto Ramirez,29,,normal,RSSSF
+2017-0116,Ayacucho,Carlos Orejuela,58,,normal,RSSSF
+2017-0116,Ayacucho,Mario Villasanti,70,,penalti,RSSSF
+2017-0116,Ayacucho,Kike Rodriguez,56,,contra,RSSSF
+2017-0116,Comerciantes Unidos,Exar Rosales,9,,penalti,RSSSF
+2017-0116,Comerciantes Unidos,Willy Rivas,13,,penalti,RSSSF
+2017-0116,Comerciantes Unidos,Jorge Neira,32,,normal,RSSSF
 2017-0117,Sporting Cristal,Cristian Ortiz,1,,normal,RSSSF
 2017-0117,Sporting Cristal,Rolando Blackburn,19,,normal,RSSSF
 2017-0118,Sport Rosario,Jesus Rabanal,88,,normal,RSSSF
 2017-0119,Academia Cantolao,Leandro Martin,49,,normal,RSSSF
 2017-0119,Academia Cantolao,Jeferson Collazos,97,,normal,RSSSF
 2017-0119,Alianza Atlético,Jonathan Palacios,53,,normal,RSSSF
+2017-0120,Melgar,Daniel Chavez,45,,normal,RSSSF
+2017-0120,Melgar,Emanuel Herrera,57,,normal,RSSSF
+2017-0120,Universidad San Martín,Alexander Succar,18,,normal,RSSSF
+2017-0120,Universidad San Martín,Ramiro Rios,71,,normal,RSSSF
+2017-0120,Universidad San Martín,Ysrael Zuñiga,66,,contra,RSSSF
 2017-0121,Unión Comercio,Jean Fuentes,57,,normal,RSSSF
 2017-0121,Universitario,Juan Vargas,20,,normal,RSSSF
 2017-0121,Universitario,Luis Tejada,70,,normal,RSSSF
@@ -15175,6 +16507,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0163,Cusco FC,Alfredo Ramúa,56,,normal,RSSSF
 2017-0163,Cusco FC,Carlos Neumann,58,,normal,RSSSF
 2017-0163,Cusco FC,Danilo Carando,80,,normal,RSSSF
+2017-0164,Unión Comercio,Jean Fuentes,50,,normal,RSSSF
+2017-0164,Unión Comercio,Reimond Manco,77,,normal,RSSSF
+2017-0164,Unión Comercio,Koichi Aparicio,75,,contra,RSSSF
+2017-0164,Universidad San Martín,Jairo Velez,56,,normal,RSSSF
 2017-0165,Juan Aurich,Jeickson Reyes,32,,normal,RSSSF
 2017-0165,Deportivo Municipal,Santiago Rebagliati,2,,normal,RSSSF
 2017-0166,Sport Rosario,Farih Jasaui,16,,normal,RSSSF
@@ -15216,6 +16552,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0180,Deportivo Municipal,Adrian Zela,35,,normal,RSSSF
 2017-0180,Deportivo Municipal,Eduardo Rabanal,53,,normal,RSSSF
 2017-0180,Sport Huancayo,Mauricio Montes,26,,penalti,RSSSF
+2017-0182,Juan Aurich,Enzo Borges,36,,normal,RSSSF
+2017-0182,Juan Aurich,Jean Archimbaud,74,,normal,RSSSF
+2017-0182,Comerciantes Unidos,Exar Rosales,31,,penalti,RSSSF
+2017-0182,Comerciantes Unidos,Mauricio Mazzetti,93,,contra,RSSSF
 2017-0183,Alianza Lima,Alejandro Hohberg,91,,normal,RSSSF
 2017-0184,Universitario,Alberto Quintero,11,,normal,RSSSF
 2017-0184,Universitario,John Galliquio,22,,normal,RSSSF
@@ -15313,6 +16653,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0227,Sport Rosario,Jose Cánova,12,,normal,RSSSF
 2017-0228,Sport Huancayo,Carlos Preciado,52,,penalti,RSSSF
 2017-0228,Sport Huancayo,Luis Trujillo,59,,normal,RSSSF
+2017-0229,Deportivo Municipal,Rodrigo Cuba,70,,normal,RSSSF
+2017-0229,Deportivo Municipal,Carlos Orejuela,35,,contra,RSSSF
 2017-0230,Unión Comercio,Cristian Bogado,50,,normal,RSSSF
 2017-0230,Unión Comercio,Cristian Bogado,92,,penalti,RSSSF
 2017-0230,Sporting Cristal,Cristopher Olivares,80,,normal,RSSSF
@@ -15332,6 +16674,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0238,Deportivo Municipal,Rodrigo Cuba,16,,normal,RSSSF
 2017-0238,Deportivo Municipal,Freddy Alvarez,25,,normal,RSSSF
 2017-0238,Deportivo Municipal,Italo Regalado,78,,normal,RSSSF
+2017-0239,Sport Huancayo,Luis Trujillo,,,normal,RSSSF
+2017-0239,Sport Huancayo,Maurico Viana,31,,contra,RSSSF
+2017-0239,Sporting Cristal,Jorge Cazulo,74,,normal,RSSSF
 2017-0240,Cusco FC,Joazinho Arroe,17,,normal,RSSSF
 2017-0240,Cusco FC,Marcio Valverde,34,,penalti,RSSSF
 2017-0240,Cusco FC,Danilo Carando,69,,normal,RSSSF
@@ -15439,6 +16784,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0277,Alianza Lima,German Pacheco,80,,normal,RSSSF
 2017-0278,Alianza Atlético,Edgar Villamarin,90,,normal,RSSSF
 2017-0278,Deportivo Municipal,Jose Fernandez,45,,normal,RSSSF
+2017-0279,UTC,Roberto Villamarin,37,,normal,RSSSF
+2017-0279,UTC,Cristian Davila,61,,contra,RSSSF
+2017-0279,Cusco FC,Alfredo Rojas,58,,normal,RSSSF
+2017-0279,Cusco FC,Cristian Davila,83,,normal,RSSSF
+2017-0279,Cusco FC,Alfredo Ramua,93,,normal,RSSSF
 2017-0280,Academia Cantolao,Jose Manzaneda,56,,normal,RSSSF
 2017-0280,Academia Cantolao,Jeferson Collazos,58,,normal,RSSSF
 2017-0280,Academia Cantolao,Diego Ramirez,59,,normal,RSSSF
@@ -15562,6 +16912,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0322,Comerciantes Unidos,Exar Rosales,31,,penalti,RSSSF
 2017-0322,Comerciantes Unidos,Carlos Perez,34,,normal,RSSSF
 2017-0322,Sport Huancayo,Mauricio Montes,62,,normal,RSSSF
+2017-0323,Sport Huancayo,Ronaldo Andia,40,,normal,RSSSF
+2017-0323,Sport Huancayo,Alvaro Ampuero,72,,contra,RSSSF
+2017-0323,Universidad San Martín,Alvaro Ampuero,4,,normal,RSSSF
+2017-0323,Universidad San Martín,Jairo Velez,64,,normal,RSSSF
+2017-0323,Universidad San Martín,Pietro Flores,94,,normal,RSSSF
 2017-0325,Academia Cantolao,Giancarlo Carmona,23,,normal,RSSSF
 2017-0325,Sport Rosario,Salomon Libman,93,,normal,RSSSF
 2017-0326,Unión Comercio,Cristian Bogado,31,,normal,RSSSF
@@ -15586,6 +16941,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0336,Sporting Cristal,Carlos Lobaton,44,,normal,RSSSF
 2017-0336,Sporting Cristal,Cristian Ortiz,72,,normal,RSSSF
 2017-0336,Sporting Cristal,Irven Avila,88,,penalti,RSSSF
+2017-0337,Ayacucho,Jesus Arismendi,34,,normal,RSSSF
+2017-0337,Ayacucho,Sixto Ramirez,45,,normal,RSSSF
+2017-0337,Ayacucho,Carlos Orejuela,61,,normal,RSSSF
+2017-0337,Universitario,Arquimedes Figuera,30,,normal,RSSSF
+2017-0337,Universitario,Luis Tejada,37,,normal,RSSSF
+2017-0337,Universitario,Marcos Ortiz,68,,contra,RSSSF
 2017-0338,Alianza Lima,Rinaldo Cruzado,70,,normal,RSSSF
 2017-0339,Unión Comercio,Cristian Bogado,68,,penalti,RSSSF
 2017-0339,Unión Comercio,Cristian Bogado,81,,penalti,RSSSF
@@ -15680,6 +17041,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0015,Sporting Cristal,Gabriel Costa,30,,normal,RSSSF
 2018-0015,Sporting Cristal,Carlos Lobaton,77,,normal,RSSSF
 2018-0015,Sport Rosario,Robinson Aponza,66,,normal,RSSSF
+2018-0016,Unión Comercio,David Diaz,39,,normal,RSSSF
+2018-0016,Binacional,Milton Benitez,13,,normal,RSSSF
+2018-0016,Binacional,Cesar Ruiz,67,,contra,RSSSF
 2018-0017,Universidad San Martín,Ake Loba,19,,normal,RSSSF
 2018-0017,Universitario,Juan Vargas,59,,normal,RSSSF
 2018-0018,Comerciantes Unidos,William Klingender,71,,penalti,RSSSF
@@ -15690,6 +17054,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0020,Sport Rosario,Tulio Etchemaite,77,,penalti,RSSSF
 2018-0020,Sport Rosario,Tulio Etchemaite,83,,normal,RSSSF
 2018-0021,Sport Boys,Luis Tejada,63,,penalti,RSSSF
+2018-0022,Deportivo Municipal,Alvaro Ampuero,40,,normal,RSSSF
+2018-0022,Deportivo Municipal,Pablo Lavandeira,52,,normal,RSSSF
+2018-0022,Deportivo Municipal,Herve Kambou,87,,contra,RSSSF
 2018-0023,Sporting Cristal,Emanuel Herrera,31,,penalti,RSSSF
 2018-0023,Sporting Cristal,Josepmir Ballon,67,,normal,RSSSF
 2018-0024,Binacional,Marco Rodriguez,17,,normal,RSSSF
@@ -15703,6 +17070,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0027,Unión Comercio,Reimond Manco,37,,normal,RSSSF
 2018-0027,Unión Comercio,Edy Renteria,55,,normal,RSSSF
 2018-0027,Deportivo Municipal,Adrian Zela,21,,normal,RSSSF
+2018-0028,Sport Huancayo,Carlos Neumann,47,,normal,RSSSF
+2018-0028,Sport Huancayo,Carlos Ambriz,79,,contra,RSSSF
 2018-0029,Melgar,Joao Villamarin,80,,normal,RSSSF
 2018-0029,Binacional,Victor Ferreira,11,,normal,RSSSF
 2018-0031,Sporting Cristal,Emanuel Herrera,15,,penalti,RSSSF
@@ -15719,6 +17088,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0034,Universidad San Martín,Amani Anoumou,90,,normal,RSSSF
 2018-0035,Universitario,Alberto Quintero,45,3,normal,RSSSF
 2018-0035,Universitario,Anthony Osorio,55,,normal,RSSSF
+2018-0036,Deportivo Municipal,Pablo Lavandeira,42,,normal,RSSSF
+2018-0036,Deportivo Municipal,Rodrigo Colombo,7,,contra,RSSSF
+2018-0036,Sport Huancayo,Carlos Neumann,14,,normal,RSSSF
+2018-0036,Sport Huancayo,Marcio Valverde,81,,normal,RSSSF
+2018-0036,Sport Huancayo,Marcos Lliuya,88,,normal,RSSSF
 2018-0038,Ayacucho,Tarek Carranza,6,,normal,RSSSF
 2018-0038,Ayacucho,Mauricio Montes,21,,normal,RSSSF
 2018-0038,Ayacucho,Mauricio Montes,29,,normal,RSSSF
@@ -15824,6 +17198,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0078,Sporting Cristal,Emanuel Herrera,28,,normal,RSSSF
 2018-0078,Sporting Cristal,Emanuel Herrera,67,,normal,RSSSF
 2018-0078,Sporting Cristal,Emanuel Herrera,84,,penalti,RSSSF
+2018-0079,Universitario,Aldo Corzo,27,,normal,RSSSF
+2018-0079,Universitario,Jersson Vasquez,75,,normal,RSSSF
+2018-0079,Universidad San Martín,Gary Correa,44,,normal,RSSSF
+2018-0079,Universidad San Martín,Horacio Benincasa,47,,contra,RSSSF
 2018-0080,Sport Huancayo,Alfredo Rojas,18,,normal,RSSSF
 2018-0080,Sport Huancayo,Carlos Neumann,45,2,normal,RSSSF
 2018-0080,Binacional,Hector Zeta,9,,normal,RSSSF
@@ -15885,6 +17263,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0098,Sport Huancayo,Carlos Neumann,4,,penalti,RSSSF
 2018-0098,Sport Huancayo,Carlos Neumann,36,,normal,RSSSF
 2018-0098,Sport Huancayo,Carlos Neumann,67,,normal,RSSSF
+2018-0099,Deportivo Municipal,Jose Manzaneda,9,,normal,RSSSF
+2018-0099,Deportivo Municipal,Ricardo Buitrago,43,,normal,RSSSF
+2018-0099,Deportivo Municipal,Rafael Guarderas,80,,normal,RSSSF
+2018-0099,Deportivo Municipal,Andy Polar,70,,contra,RSSSF
 2018-0100,Sporting Cristal,Renzo Revoredo,17,,normal,RSSSF
 2018-0100,Sporting Cristal,Christopher Olivares,23,,normal,RSSSF
 2018-0100,Sporting Cristal,Horacio Calcaterra,33,,normal,RSSSF
@@ -15995,6 +17377,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0145,Universidad San Martín,Ake Loba,62,,penalti,RSSSF
 2018-0145,Universitario,Jersson Vasquez,52,,penalti,RSSSF
 2018-0145,Universitario,Jersson Vasquez,78,,penalti,RSSSF
+2018-0146,Cusco FC,Lampros Kontogiannis,34,,normal,RSSSF
+2018-0146,Cusco FC,Ivan Santillan,42,,normal,RSSSF
+2018-0146,Cusco FC,Maximiliano Velasco,69,,contra,RSSSF
+2018-0146,Sport Boys,Maximiliano Velasco,52,,normal,RSSSF
+2018-0146,Sport Boys,Maximiliano Velasco,67,,normal,RSSSF
 2018-0147,Binacional,Edson Aubert,61,,penalti,RSSSF
 2018-0148,Alianza Lima,Tomas Costa,54,,normal,RSSSF
 2018-0148,Alianza Lima,Alejandro Hohberg,60,,normal,RSSSF
@@ -16338,6 +17725,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0277,Universitario,Alberto Quintero,90,,normal,RSSSF
 2018-0278,Sport Rosario,Allan Murialdo,24,,normal,RSSSF
 2018-0279,Sport Boys,Johnnier Montaño,63,,normal,RSSSF
+2018-0280,Comerciantes Unidos,Neil Marcos,28,,normal,RSSSF
+2018-0280,Comerciantes Unidos,Patricio Alvarez,45,,contra,RSSSF
 2018-0281,Unión Comercio,Willyan Mimbela,5,,penalti,RSSSF
 2018-0281,Unión Comercio,Jose Rivera,49,,normal,RSSSF
 2018-0281,Unión Comercio,Wilmer Aguirre,94,,normal,RSSSF
@@ -16363,6 +17752,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0288,Unión Comercio,Carlos Preciado,79,,normal,RSSSF
 2018-0288,Ayacucho,Mauricio Montes,17,,normal,RSSSF
 2018-0289,Comerciantes Unidos,Neil Marcos,75,,normal,RSSSF
+2018-0290,Academia Cantolao,Paulo Albarracin,70,,normal,RSSSF
+2018-0290,Academia Cantolao,Luis Llontop,94,,contra,RSSSF
 2018-0291,Universitario,German Denis,32,,normal,RSSSF
 2018-0292,Sport Huancayo,Ricardo Salcedo,23,,normal,RSSSF
 2018-0292,Sport Huancayo,Carlos Neumann,71,,normal,RSSSF
@@ -16400,6 +17791,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0306,Sporting Cristal,Emanuel Herrera,53,,normal,RSSSF
 2018-0307,Melgar,Joao Villamarín,62,,normal,RSSSF
 2018-0308,Universidad San Martín,Gary Correa,83,,normal,RSSSF
+2018-0309,Comerciantes Unidos,Carlos Perez,28,,normal,RSSSF
+2018-0309,Comerciantes Unidos,Miguel Curiel,63,,normal,RSSSF
+2018-0309,Unión Comercio,Matias Succar,17,,normal,RSSSF
+2018-0309,Unión Comercio,Pedro Diez_Canseco,93,,contra,RSSSF
 2018-0310,Sport Rosario,Gerald Tavara,41,,normal,RSSSF
 2018-0310,Sport Rosario,Juan Gutierrez,55,,normal,RSSSF
 2018-0310,Ayacucho,Tarek Carranza,13,,normal,RSSSF
@@ -16451,6 +17846,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0329,Sporting Cristal,Josepmir Ballon,54,,normal,RSSSF
 2018-0329,Sporting Cristal,Marcos Lopez,58,,normal,RSSSF
 2018-0329,Sporting Cristal,Christofer Olivares,88,,normal,RSSSF
+2018-0330,Binacional,Andy Polar,61,,normal,RSSSF
+2018-0330,Binacional,Luis Llontop,24,,contra,RSSSF
 2018-0331,Melgar,Emanuel Biancucchi,17,,normal,RSSSF
 2018-0332,Universidad San Martín,Cristian Ortiz,6,,normal,RSSSF
 2018-0332,Universidad San Martín,Cristian Ortiz,83,,normal,RSSSF
@@ -16683,6 +18080,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2019-0055,UTC,Rick Campodonico,87,,normal,RSSSF
 2019-0056,Carlos Mannucci,Joao Villamarin,45,1,normal,RSSSF
 2019-0056,Carlos Mannucci,Niger Vega,,,normal,RSSSF
+2019-0057,Binacional,Edson Aubert,15,,normal,RSSSF
+2019-0057,Binacional,Marco Rodríguez,29,,normal,RSSSF
+2019-0057,Binacional,Marco Rodríguez,59,,normal,RSSSF
+2019-0057,Binacional,Guillermo Rodríguez,8,,contra,RSSSF
+2019-0057,Universitario,Jersson Vásquez,42,,normal,RSSSF
+2019-0057,Universitario,Germán Denis,69,,penalti,RSSSF
 2019-0058,Cusco FC,Cristian Souza,14,,normal,RSSSF
 2019-0059,Melgar,Bernardo Cuesta,48,,normal,RSSSF
 2019-0059,Melgar,Bernardo Cuesta,72,,normal,RSSSF
@@ -16720,6 +18123,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2019-0074,Academia Cantolao,Carlos Cabello,61,,normal,RSSSF
 2019-0074,Academia Cantolao,Daniel Chávez,85,,normal,RSSSF
 2019-0076,Sport Huancayo,Carlos Neumann,28,,normal,RSSSF
+2019-0077,César Vallejo,Renzo Garcés,9,,normal,RSSSF
+2019-0077,César Vallejo,Elsar Rodas,91,,normal,RSSSF
+2019-0077,César Vallejo,Marcos Delgado,79,,contra,RSSSF
+2019-0077,Ayacucho,Ernest Nungaray,25,,normal,RSSSF
 2019-0078,Unión Comercio,Reiser Herrera,81,,normal,RSSSF
 2019-0078,Melgar,Jhonny Vidales,76,,normal,RSSSF
 2019-0079,Alianza Universidad,Jorginho Sernaqué,8,,normal,ESPN
@@ -16753,6 +18160,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2019-0087,Universidad San Martín,Oslimg Mora,93,,normal,RSSSF
 2019-0087,Sport Huancayo,Oshiro Takeuchi,21,,normal,RSSSF
 2019-0088,Deportivo Municipal,Jeremías Bogado,8,,penalti,RSSSF
+2019-0089,Universitario,Jersson Vásquez,54,,penalti,RSSSF
+2019-0089,Universitario,Alejandro Hohberg,77,,normal,RSSSF
+2019-0089,Universitario,Gary Correa,92,,normal,RSSSF
+2019-0089,Universitario,Manuel Tejada,23,,contra,RSSSF
 2019-0090,UTC,Sergio Almirón,8,,penalti,RSSSF
 2019-0090,UTC,Sergio Almirón,79,,normal,RSSSF
 2019-0090,UTC,Sergio Almirón,90,,normal,RSSSF
@@ -18145,6 +19556,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2021-0027,Ayacucho,Italo Regalado,63,,normal,ESPN
 2021-0027,Ayacucho,Janio Posito,82,,normal,ESPN
 2021-0028,Universitario,Hernán Novick,65,,penalti,ESPN
+2021-0029,Cusco FC,Alfredo Ramua,70,,normal,RSSSF
+2021-0029,Cusco FC,Jesus Chavez,57,,contra,RSSSF
+2021-0029,Sport Boys,Luis Ramirez,27,,normal,RSSSF
+2021-0029,Sport Boys,Sebastian Penco,45,,normal,RSSSF
 2021-0030,Binacional,Camilo Mancilla,51,,normal,ESPN
 2021-0030,Alianza Universidad,Deivy Carbajal,55,,normal,ESPN
 2021-0030,Binacional,Marlon de Jesús,64,,normal,ESPN

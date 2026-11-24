@@ -14,27 +14,27 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 
 | Temporada | Clubes | Jogos (esperados) | Gols | c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|
-| 1891 | 5 | 21 (21) | 106 | 0 | 2 / 0 | Saint Andrew's | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1891 | 5 | 21 (21) | 106 | 10 | 2 / 0 | Saint Andrew's | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1893 | 5 | 23 (20) | 67 | 0 | 1 / 0 | Lomas Athletic | RSSSF (arg1893) |
 | 1894 | 7 | 31 (31) | 92 | 0 | 0 / 0 | Lomas Athletic | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1895 | 6 | 24 (24) | 85 | 0 | 0 / 0 | Lomas Athletic | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1896 | 5 | 22 (20) | 73 | 0 | 0 / 1 | Lomas Academicals | RSSSF (arg1896) |
+| 1896 | 5 | 22 (20) | 73 | 4 | 0 / 1 | Lomas Academicals | RSSSF (arg1896) |
 | 1897 | 7 | 45 (45) | 215 | 1 | 1 / 0 | Lomas Athletic | RSSSF (arg1897) |
-| 1898 | 7 | 44 (44) | 126 | 0 | 1 / 0 | Lomas Athletic | RSSSF (arg1898) |
+| 1898 | 7 | 44 (44) | 126 | 3 | 1 / 0 | Lomas Athletic | RSSSF (arg1898) |
 | 1899 | 4 | 12 (12) | 17 | 0 | 1 / 0 | Belgrano Athletic | RSSSF (arg1899) |
 | 1900 | 4 | 12 (12) | 44 | 5 | 1 / 0 | Alumni | RSSSF (arg1900) |
 | 1901 | 4 | 12 (12) | 36 | 0 | 1 / 0 | Alumni | RSSSF (arg1901) |
 | 1902 | 5 | 20 (20) | 52 | 2 | 1 / 0 | Alumni | RSSSF (arg1902) |
 | 1903 | 6 | 30 (30) | 115 | 10 | 1 / 0 | Alumni | RSSSF (arg1903) |
 | 1904 | 6 | 30 (30) | 90 | 4 | 1 / 0 | Belgrano Athletic | RSSSF (arg1904) |
-| 1905 | 7 | 43 (42) | 182 | 0 | 1 / 0 | Alumni | RSSSF (arg1905) |
+| 1905 | 7 | 43 (42) | 182 | 2 | 1 / 0 | Alumni | RSSSF (arg1905) |
 | 1906 | 11 | 51 (52) | 218 | 4 | 3 / 0 | Alumni | RSSSF (arg1906) |
 | 1907 | 11 | 111 (110) | 411 | 5 | 1 / 0 | Alumni | RSSSF (arg1907) |
 | 1908 | 11 | 92 (92) | 363 | 0 | 0 / 1 | Belgrano Athletic | RSSSF (arg1908) |
 | 1909 | 10 | 90 (90) | 347 | 0 | 0 / 1 | Alumni | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1910 | 9 | 72 (72) | 279 | 0 | 0 / 1 | Alumni | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1911 | 9 | 73 (73) | 248 | 3 | 1 / 0 | Alumni | RSSSF (arg11) |
-| 1912 Asociación | 10 | 64 (64) | 149 | 0 | 1 / 0 | Quilmes | RSSSF (arg12) |
+| 1912 Asociación | 10 | 64 (64) | 149 | 3 | 1 / 0 | Quilmes | RSSSF (arg12) |
 | 1912 Federación | 8 | 58 (58) | 187 | 0 | 1 / 1 | Porteño | RSSSF (arg12) |
 | 1913 Asociación | 15 | 138 (139) | 478 | 0 | 3 / 2 | Racing Club | RSSSF (arg13) |
 | 1913 Federación | 10 | 90 (90) | 338 | 0 | 1 / 1 | Estudiantes | RSSSF (arg13) |
@@ -45,7 +45,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1917 | 21 | 211 (210) | 579 | 0 | 2 / 0 | Racing Club | RSSSF (arg17) |
 | 1918 | 20 | 191 (190) | 488 | 0 | 2 / 0 | Racing Club | RSSSF (arg18) |
 | 1919 Asociación | 6 | 18 (18) | 55 | 0 | 1 / 0 | Boca Juniors | RSSSF (arg19) |
-| 1919 Amateurs | 14 | 91 (91) | 276 | 0 | 0 / 1 | Racing Club | RSSSF (arg19) |
+| 1919 Amateurs | 14 | 91 (91) | 276 | 3 | 0 / 1 | Racing Club | RSSSF (arg19) |
 | 1920 Asociación | 13 | 153 (153) | 356 | 1 | 1 / 0 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1920 Amateurs | 19 | 306 (306) | 822 | 0 | 1 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1921 Asociación | 11 | 98 (98) | 225 | 114 | 1 / 0 | Huracán | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -65,27 +65,27 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1929 | 35 | 291 (291) | 760 | 3 | 3 / 2 | Gimnasia La Plata | calculada: tabelas publicadas da 1ª fase (com os W.O.) mais os jogos das outras fases |
 | 1930 | 36 | 633 (630) | 1990 | 636 | 0 / 2 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1931 Liga | 18 | 311 (306) | 1093 | 0 | 0 / 1 | Boca Juniors | RSSSF (arg31) |
-| 1931 Asociación | 17 | 128 (128) | 402 | 1 | 2 / 0 | Estudiantil Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1931 Asociación | 17 | 128 (128) | 402 | 5 | 2 / 0 | Estudiantil Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1932 Liga | 18 | 311 (307) | 1078 | 3 | 1 / 0 | River Plate | RSSSF (arg32) |
 | 1932 Asociación | 17 | 276 (275) | 864 | 793 | 0 / 1 | Sportivo Barracas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1933 Liga | 18 | 307 (306) | 1075 | 1 | 1 / 0 | San Lorenzo | RSSSF (arg33) |
 | 1933 Asociación | 20 | 190 (190) | 586 | 543 | 1 / 0 | Sportivo Dock Sud | RSSSF (arg33a) |
-| 1934 Liga | 15 | 276 (276) | 994 | 0 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1934 Liga | 15 | 276 (276) | 994 | 6 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1934 Asociación | 23 | 253 (253) | 812 | 809 | 0 / 1 | Estudiantil Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1935 | 18 | 306 (306) | 1108 | 0 | 1 / 0 | Boca Juniors | RSSSF (arghist-pro1930s) |
-| 1936 Copa de Honor | 18 | 153 (153) | 571 | 0 | 1 / 0 | San Lorenzo | RSSSF (arg-hon36) |
+| 1936 Copa de Honor | 18 | 153 (153) | 571 | 5 | 1 / 0 | San Lorenzo | RSSSF (arg-hon36) |
 | 1936 Campeonato | 18 | 153 (153) | 592 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1930s) |
 | 1936 Copa de Oro | 2 | 1 (1) | 6 | 6 | 0 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1937 | 18 | 307 (307) | 1293 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1930s) |
 | 1938 | 17 | 272 (272) | 1334 | 0 | 1 / 0 | Independiente | RSSSF (arghist-pro1930s) |
 | 1939 | 18 | 309 (308) | 1261 | 2 | 3 / 0 | Independiente | RSSSF (arg39) |
 | 1940 | 18 | 306 (306) | 1243 | 0 | 1 / 0 | Boca Juniors | RSSSF (arghist-pro1930s) |
-| 1941 | 16 | 241 (240) | 963 | 0 | 1 / 0 | River Plate | RSSSF (arg41) |
+| 1941 | 16 | 241 (240) | 963 | 4 | 1 / 0 | River Plate | RSSSF (arg41) |
 | 1942 | 16 | 240 (240) | 895 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1940s) |
 | 1943 | 16 | 240 (240) | 897 | 0 | 1 / 0 | Boca Juniors | RSSSF (arghist-pro1940s) |
 | 1944 | 16 | 240 (240) | 923 | 0 | 1 / 0 | Boca Juniors | RSSSF (arghist-pro1940s) |
 | 1945 | 16 | 240 (240) | 948 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1940s) |
-| 1946 | 16 | 240 (240) | 922 | 0 | 1 / 0 | San Lorenzo | RSSSF (arg46) |
+| 1946 | 16 | 240 (240) | 922 | 4 | 1 / 0 | San Lorenzo | RSSSF (arg46) |
 | 1947 | 16 | 240 (240) | 903 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1940s) |
 | 1948 | 16 | 240 (240) | 878 | 0 | 1 / 0 | Independiente | RSSSF (arg48) |
 | 1949 | 18 | 312 (312) | 1092 | 0 | 1 / 0 | Racing Club | RSSSF (arg49) |
@@ -94,17 +94,17 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1952 | 16 | 240 (240) | 848 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1950s) |
 | 1953 | 16 | 240 (240) | 731 | 0 | 1 / 0 | River Plate | RSSSF (arg53) |
 | 1954 | 16 | 240 (240) | 768 | 0 | 1 / 0 | Boca Juniors | RSSSF (arghist-pro1950s) |
-| 1955 | 16 | 243 (240) | 725 | 0 | 1 / 0 | River Plate | RSSSF (arg55) |
+| 1955 | 16 | 243 (240) | 725 | 3 | 1 / 0 | River Plate | RSSSF (arg55) |
 | 1956 | 16 | 240 (240) | 753 | 0 | 1 / 0 | River Plate | RSSSF (arg56) |
 | 1957 | 16 | 240 (240) | 729 | 0 | 2 / 0 | River Plate | RSSSF (arg57) |
 | 1958 | 16 | 242 (242) | 875 | 6 | 3 / 0 | Racing Club | RSSSF (arg58) |
 | 1959 | 16 | 240 (240) | 773 | 3 | 2 / 0 | San Lorenzo | RSSSF (arg59) |
 | 1960 | 16 | 240 (240) | 812 | 1 | 2 / 0 | Independiente | RSSSF (arg60) |
-| 1961 | 16 | 240 (240) | 757 | 0 | 2 / 0 | Racing Club | RSSSF (arg61) |
+| 1961 | 16 | 240 (240) | 757 | 5 | 2 / 0 | Racing Club | RSSSF (arg61) |
 | 1962 | 15 | 210 (210) | 606 | 4 | 2 / 0 | Boca Juniors | RSSSF (arg62) |
-| 1963 | 14 | 182 (182) | 507 | 0 | 2 / 0 | Independiente | RSSSF (arg63) |
+| 1963 | 14 | 182 (182) | 507 | 10 | 2 / 0 | Independiente | RSSSF (arg63) |
 | 1964 | 16 | 240 (240) | 583 | 2 | 2 / 0 | Boca Juniors | RSSSF (arg64) |
-| 1965 | 18 | 306 (305) | 696 | 632 | 0 / 2 | Boca Juniors | RSSSF (arghist-pro1960s) |
+| 1965 | 18 | 306 (305) | 696 | 676 | 0 / 2 | Boca Juniors | RSSSF (arghist-pro1960s) |
 | 1966 | 20 | 380 (380) | 888 | 0 | 2 / 0 | Racing Club | RSSSF (arg66) |
 | 1967 Metropolitano | 22 | 245 (245) | 606 | 3 | 5 / 0 | Estudiantes | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1967 Nacional | 16 | 120 (120) | 342 | 4 | 1 / 0 | Independiente | RSSSF (arg67) |
@@ -114,8 +114,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1969 Nacional | 18 | 155 (155) | 467 | 4 | 2 / 0 | Boca Juniors | RSSSF (arg69) |
 | 1970 Metropolitano | 21 | 210 (210) | 567 | 5 | 1 / 0 | Independiente | RSSSF (arg70) |
 | 1970 Nacional | 20 | 205 (205) | 635 | 3 | 3 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1971 Metropolitano | 19 | 342 (342) | 1004 | 914 | 1 / 0 | Independiente | RSSSF (arg71) |
-| 1971 Nacional | 28 | 199 (199) | 644 | 564 | 1 / 1 | Rosario Central | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1971 Metropolitano | 19 | 342 (342) | 1004 | 998 | 1 / 0 | Independiente | RSSSF (arg71) |
+| 1971 Nacional | 28 | 199 (199) | 644 | 636 | 1 / 1 | Rosario Central | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1972 Metropolitano | 18 | 306 (306) | 878 | 2 | 1 / 0 | San Lorenzo | RSSSF (arg72) |
 | 1972 Nacional | 26 | 173 (173) | 576 | 1 | 3 / 2 | San Lorenzo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1973 Metropolitano | 17 | 272 (272) | 783 | 0 | 1 / 0 | Huracán | RSSSF (arghist-pro1970s) |
@@ -123,14 +123,14 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1974 Metropolitano | 18 | 170 (170) | 543 | 0 | 2 / 2 | Newell's Old Boys | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1974 Nacional | 36 | 354 (354) | 1052 | 5 | 5 / 0 | San Lorenzo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1975 Metropolitano | 20 | 380 (380) | 1168 | 1 | 1 / 0 | River Plate | RSSSF (arg75) |
-| 1975 Nacional | 32 | 285 (285) | 917 | 0 | 5 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1976 Metropolitano | 22 | 355 (355) | 999 | 961 | 4 / 0 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1976 Nacional | 34 | 300 (300) | 818 | 776 | 4 / 0 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1977 Metropolitano | 23 | 513 (507) | 1349 | 1184 | 1 / 0 | River Plate | RSSSF (arg77) |
-| 1977 Nacional | 32 | 230 (230) | 674 | 578 | 4 / 0 | Independiente | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1975 Nacional | 32 | 285 (285) | 917 | 3 | 5 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1976 Metropolitano | 22 | 355 (355) | 999 | 996 | 4 / 0 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1976 Nacional | 34 | 300 (300) | 818 | 817 | 4 / 0 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1977 Metropolitano | 23 | 513 (507) | 1349 | 1297 | 1 / 0 | River Plate | RSSSF (arg77) |
+| 1977 Nacional | 32 | 230 (230) | 674 | 674 | 4 / 0 | Independiente | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1978 Metropolitano | 21 | 420 (420) | 1054 | 0 | 1 / 0 | Quilmes | RSSSF (arg78) |
 | 1978 Nacional | 32 | 238 (238) | 699 | 0 | 4 / 0 | Independiente | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1979 Metropolitano | 20 | 199 (199) | 548 | 0 | 8 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1979 Metropolitano | 20 | 199 (199) | 548 | 6 | 8 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1979 Nacional | 28 | 211 (211) | 593 | 0 | 11 / 0 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1980 Metropolitano | 19 | 342 (342) | 850 | 0 | 1 / 0 | River Plate | RSSSF (arghist-pro1970s) |
 | 1980 Nacional | 28 | 210 (210) | 615 | 0 | 1 / 0 | Rosario Central | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -148,7 +148,7 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1987/88 | 20 | 381 (381) | 870 | 0 | 1 / 0 | Newell's Old Boys | RSSSF (arg88) |
 | 1988/89 | 20 | 380 (380) | 888 | 0 | 0 / 1 | Independiente | RSSSF (arg89) |
 | 1989/90 | 20 | 381 (381) | 803 | 0 | 0 / 2 | River Plate | RSSSF (arg90) |
-| 1990/91 | 20 | 382 (382) | 806 | 749 | 0 / 5 | Newell's Old Boys | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1990/91 | 20 | 382 (382) | 806 | 804 | 0 / 5 | Newell's Old Boys | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991/92 Apertura | 20 | 190 (190) | 366 | 0 | 1 / 0 | River Plate | RSSSF (arg92) |
 | 1991/92 Clausura | 20 | 190 (190) | 371 | 0 | 1 / 0 | Newell's Old Boys | RSSSF (arg92) |
 | 1992/93 Apertura | 20 | 190 (190) | 398 | 0 | 1 / 0 | Boca Juniors | RSSSF (arg93) |
@@ -157,8 +157,8 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1993/94 Clausura | 20 | 190 (190) | 421 | 0 | 1 / 0 | Independiente | RSSSF (arg94) |
 | 1994/95 Apertura | 20 | 190 (190) | 443 | 0 | 1 / 0 | River Plate | RSSSF (arg95) |
 | 1994/95 Clausura | 20 | 190 (190) | 446 | 0 | 1 / 0 | San Lorenzo | RSSSF (arg95) |
-| 1995/96 Apertura | 20 | 190 (190) | 456 | 352 | 1 / 0 | Vélez Sarsfield | RSSSF (arghist-pro1990s) |
-| 1995/96 Clausura | 20 | 191 (190) | 518 | 357 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1995/96 Apertura | 20 | 190 (190) | 456 | 445 | 1 / 0 | Vélez Sarsfield | RSSSF (arghist-pro1990s) |
+| 1995/96 Clausura | 20 | 191 (190) | 518 | 502 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1996/97 Apertura | 20 | 190 (190) | 545 | 136 | 1 / 1 | River Plate | RSSSF (arg97) |
 | 1996/97 Clausura | 20 | 190 (190) | 515 | 0 | 0 / 2 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997/98 Apertura | 20 | 190 (190) | 574 | 0 | 0 / 1 | River Plate | RSSSF (arg98) |

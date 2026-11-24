@@ -45,11 +45,15 @@ def _partes(lado: str) -> list[str]:
     return [s.strip() for s in saida if s.strip()]
 
 
-def _lado(lado: str) -> list[dict] | None:
+def _lado(lado: str, contagem: bool = False) -> list[dict] | None:
+    """Gols de um lado. Com `contagem`, "G. Galindo 2" é a quantidade de gols, não o minuto (páginas de 1999-2002; só
+    número de um algarismo, e só como segunda leitura, quando a primeira não fecha com o placar)."""
     gols: list[dict] = []
     ultimo: dict | None = None
     for item in _partes(lado):
         item = item.strip(" .;")
+        if contagem and (mq := re.fullmatch(r"(.*[A-Za-zÀ-ÿ.])\s+([2-9])", item)):
+            item = f"{mq.group(1)} ({mq.group(2)})"
         # páginas uruguaias: pênalti e gol contra grudados no minuto ("Cabrera 77pen", "Álvez 31og", "Carboni 14pen, 73pen")
         suf = None
         if (ms := re.fullmatch(r"(\d{1,3}(?:\+\d)?)(pen|og)", item)) and ultimo:
@@ -106,6 +110,8 @@ def separar(texto: str, gm: int | None, gv: int | None) -> tuple[list[dict], lis
     if gm is None or gv is None or not texto or not eh_autores(texto):
         return None
     t = texto.strip()
+    # data e cidade grudadas no fim (página de 1971): "Melo; Jesús, Dedé (2) Dec 9, 1971, La Paz"
+    t = re.sub(r"\s+(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{1,2},\s*\d{4}\b.*$", "", t).strip()
     if re.search(r"\]\s*\[", t):
         casa, fora = re.split(r"\]\s*\[", t, maxsplit=1)
     elif ";" in t:
@@ -118,8 +124,14 @@ def separar(texto: str, gm: int | None, gv: int | None) -> tuple[list[dict], lis
         casa, fora = "", t
     else:
         return None
-    a = _lado(casa.strip(" []")) if casa.strip(" []-") else []
-    b = _lado(fora.strip(" []")) if fora.strip(" []-") else []
-    if a is None or b is None or len(a) != gm or len(b) != gv:
-        return None
-    return a, b
+    casa, fora = casa.strip(" []"), fora.strip(" []")
+    if casa.startswith("(") and casa.count("(") > casa.count(")"):   # "[(Marco David Paz 25, ..." (parêntese sem par)
+        casa = casa[1:]
+    if fora.endswith(")") and fora.count(")") > fora.count("("):
+        fora = fora[:-1]
+    for contagem in (False, True):
+        a = _lado(casa, contagem) if casa.strip(" -") else []
+        b = _lado(fora, contagem) if fora.strip(" -") else []
+        if a is not None and b is not None and len(a) == gm and len(b) == gv:
+            return a, b
+    return None

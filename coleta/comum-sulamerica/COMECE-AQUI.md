@@ -131,6 +131,12 @@ abaixo são o histórico; o que está em aberto é esta lista.
     ven 82. Correção: juntar as linhas de continuação no leitor comum (como o `_autores_inteiros` das copas) e reimportar
     as 9 ligas. Os outros 1.448 têm outros formatos (sem ";" entre os times, "53'", "og." etc.: arg 332, uru 76, chi 24,
     col 86, par 65, per 487, ecu 24, bol 335, ven 19).
+  - D2b. "Outros formatos" de autores FEITOS em parte (24/11): +3.767 gols com autor; restam 688 jogos sem separar
+    (arg 183, uru 125, per 105, col 88, bol 57, par 51, chi 34, ecu 25, ven 20), quase todos com nota ou duas colunas
+    emendadas no texto, autor "?" ou formato único. Mudanças nos `autores.py`: `bol-1` (2ª leitura "G. Galindo 2" =
+    quantidade; data grudada no fim; parêntese sem par), `per-1` (minuto "36´(pk)" sem vírgulas, "/" entre os times, gol
+    contra do lado do time do jogador, notas grudadas), `arg-1` ("76' and 78' (p) Gancedo", "/" entre os times, divisão
+    pelo placar quando as colunas vêm emendadas, `_pelo_placar`), `uru-1`, `par-1`, `ecu-1` ("/" entre os times).
   - D3. CONFERIDA (24/11): o formato "Alario 11m pen / Musto 26m" que o `coleta/arg-1/autores.py` não separa só aparece em
     3 jogos da liga (1906, 1961, 1963); entra junto com os "outros formatos" da D2.
   - D4. FEITA (24/11) no `bol-1` (27 linhas) e no `ven-1` (33 linhas): `classificacao()` põe no fim os clubes com jogos fora da tabela da fonte (mesma

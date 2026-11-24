@@ -1,5 +1,22 @@
 partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
+1891-0019,Saint Andrew's,Caldwell,,,normal,RSSSF
+1891-0019,Saint Andrew's,Caldwell,,,normal,RSSSF
+1891-0019,Saint Andrew's,Moffatt,,,normal,RSSSF
+1891-0019,Caledonians,White,,,normal,RSSSF
+1891-0019,Caledonians,Sutherland,,,normal,RSSSF
+1891-0019,Caledonians,Riggs,,,normal,RSSSF
+1891-0021,Saint Andrew's,Moffatt,,,normal,RSSSF
+1891-0021,Saint Andrew's,Moffatt,,,normal,RSSSF
+1891-0021,Saint Andrew's,Moffatt,,,normal,RSSSF
+1891-0021,Caledonians,Wilson,,,normal,RSSSF
+1896-0022,Belgrano Athletic,D. Gibson,,,contra,RSSSF
+1896-0022,Belgrano Athletic,H. Rugeroni,,,normal,RSSSF
+1896-0022,Lomas Athletic,N.N. (scrum,,,normal,RSSSF
+1896-0022,Lomas Athletic,C. Comber,,,normal,RSSSF
 1897-0045,Lomas Athletic,Stirling,,,normal,RSSSF
+1898-0044,Lomas Athletic,J. Anderson,,,normal,RSSSF
+1898-0044,Lomas Athletic,J. Anderson,,,normal,RSSSF
+1898-0044,Lobos Athletic,Jordan,,,normal,RSSSF
 1900-0009,Alumni,S. Leonard,,,normal,RSSSF
 1900-0009,Alumni,H. Jordan,,,normal,RSSSF
 1900-0009,Alumni,W. A. Jordan,,,normal,RSSSF
@@ -21,6 +38,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1904-0022,Belgrano Athletic,Forrester,9,,normal,RSSSF
 1904-0022,Belgrano Athletic,Forrester,85,,normal,RSSSF
 1904-0022,Belgrano Athletic,Ratcliff,32,,normal,RSSSF
+1905-0040,Alumni,Weiss,40,,normal,RSSSF
+1905-0040,Estudiantes de Buenos Aires,González,27,,normal,RSSSF
 1906-0051,Alumni,Lett,24,,normal,RSSSF
 1906-0051,Alumni,Eliseo Brown,35,,normal,RSSSF
 1906-0051,Alumni,Eliseo Brown,43,,normal,RSSSF
@@ -33,6 +52,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1911-0073,Alumni,A.Brown,28,,normal,RSSSF
 1911-0073,Alumni,V.Weiss,55,,normal,RSSSF
 1911-0073,Porteño,M.Genoud,84,,normal,RSSSF
+1912-asociacion-0061,Quilmes,Gabitas,78,,normal,RSSSF
+1912-asociacion-0061,Quilmes,Weiss,83,,normal,RSSSF
+1912-asociacion-0061,Estudiantes de Buenos Aires,Susán,27,,normal,RSSSF
 1914-asociacion-0005,River Plate,Martín,,,normal,RSSSF
 1914-asociacion-0005,River Plate,Lanata,,,normal,RSSSF
 1914-asociacion-0005,River Plate,Isola,,,normal,RSSSF
@@ -90,6 +112,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1915-0302,Racing Club,A.Marcovecchio,6,,normal,RSSSF
 1916-0126,San Lorenzo,Xarau,,,normal,RSSSF
 1916-0126,Estudiantes de Buenos Aires,Ochandio,,,normal,RSSSF
+1919-amateurs-0069,Racing Club,Marcovecchio,7,,normal,RSSSF
+1919-amateurs-0069,Racing Club,Marcovecchio,55,,normal,RSSSF
+1919-amateurs-0069,Tigre,Dattas,40,,normal,RSSSF
 1920-asociacion-0035,Colegiales,Unknown date,,,normal,RSSSF
 1921-asociacion-0004,Huracán,Brenna,,,normal,RSSSF
 1921-asociacion-0004,Huracán,Ginevra,,,normal,RSSSF
@@ -3326,6 +3351,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1930-0628,River Plate,Rival,,,normal,RSSSF
 1930-0628,River Plate,Ganduglia,,,normal,RSSSF
 1931-asociacion-0066,Estudiantil Porteño,Sep 2?,,,normal,RSSSF
+1931-asociacion-0128,Estudiantil Porteño,Francisco Martínez,25,,normal,RSSSF
+1931-asociacion-0128,Estudiantil Porteño,Francisco Martínez,84,,normal,RSSSF
+1931-asociacion-0128,Estudiantil Porteño,Bissio,70,,normal,RSSSF
+1931-asociacion-0128,Almagro,Fernández,42,,normal,RSSSF
 1932-liga-0311,River Plate,Ferreyra,11,,normal,RSSSF
 1932-liga-0311,River Plate,Peucelle,22,,normal,RSSSF
 1932-liga-0311,River Plate,Zatelli,38,,normal,RSSSF
@@ -4666,6 +4695,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1933-asociacion-0185,Nueva Chicago,I.Sanabria,,,normal,RSSSF
 1933-asociacion-0186,Colegiales,A.Paduano,,,normal,RSSSF
 1933-asociacion-0187,Sportivo Acassuso,A.Rolón,,,normal,RSSSF
+1934-liga-0263,Boca Juniors,Cherro,30,,normal,RSSSF
+1934-liga-0263,Boca Juniors,Varallo,47,,normal,RSSSF
+1934-liga-0263,Boca Juniors,Varallo,53,,normal,RSSSF
+1934-liga-0263,Boca Juniors,Varallo,73,,normal,RSSSF
+1934-liga-0263,Boca Juniors,Zatelli,60,,normal,RSSSF
+1934-liga-0263,Platense,Pérez,66,,normal,RSSSF
 1934-asociacion-0002,Barracas Central,Lorenzo,,,normal,RSSSF
 1934-asociacion-0002,Barracas Central,Lorenzo,,,normal,RSSSF
 1934-asociacion-0002,Sportivo Buenos Aires,Moyano,,,normal,RSSSF
@@ -5475,6 +5510,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1934-asociacion-0253,Estudiantes de Buenos Aires,García,,,normal,RSSSF
 1934-asociacion-0253,Barracas Central,Coccuci,,,normal,RSSSF
 1934-asociacion-0253,Barracas Central,González,,,normal,RSSSF
+1936-copa-de-honor-0137,Atlanta,Tornaroli,34,,normal,RSSSF
+1936-copa-de-honor-0137,Atlanta,Martino,53,,normal,RSSSF
+1936-copa-de-honor-0137,San Lorenzo,Naón,11,,normal,RSSSF
+1936-copa-de-honor-0137,San Lorenzo,García,63,,normal,RSSSF
+1936-copa-de-honor-0137,San Lorenzo,Naón,86,,normal,RSSSF
 1936-copa-de-oro-0001,River Plate,Renato Cesarini,39,,normal,RSSSF
 1936-copa-de-oro-0001,San Lorenzo,Miguel Pantó,55,,normal,RSSSF
 1936-copa-de-oro-0001,River Plate,Bernabé Ferreyra,73,,normal,RSSSF
@@ -5483,9 +5523,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1936-copa-de-oro-0001,River Plate,Renato Cesarini,86,,normal,RSSSF
 1939-0285,Independiente,Sastre,49,,normal,RSSSF
 1939-0285,Independiente,De la Mata,84,,normal,RSSSF
+1941-0237,Estudiantes,Laferrara,38,,normal,RSSSF
+1941-0237,River Plate,Moreno,16,,normal,RSSSF
+1941-0237,River Plate,Rodríguez,37,,contra,RSSSF
+1941-0237,River Plate,Muñoz,77,,normal,RSSSF
+1946-0233,Ferro Carril Oeste,Cacheiro,77,,normal,RSSSF
+1946-0233,San Lorenzo,Martino,21,,normal,RSSSF
+1946-0233,San Lorenzo,Pontoni,55,,normal,RSSSF
+1946-0233,San Lorenzo,Silva,88,,normal,RSSSF
 1950-0282,Banfield,Pizzuti,35,,normal,RSSSF
 1950-0282,Banfield,Pizzuti,56,,normal,RSSSF
 1950-0282,Banfield,Tolosa,78,,normal,RSSSF
+1955-0228,Boca Juniors,Etcheverry,3,,normal,RSSSF
+1955-0228,River Plate,Labruna,74,,normal,RSSSF
+1955-0228,River Plate,Zárate,75,,normal,RSSSF
 1958-0224,Lanús,Rojas,22,,normal,RSSSF
 1958-0224,Lanús,Rojas,32,,normal,RSSSF
 1958-0224,Lanús,Rojas,36,,normal,RSSSF
@@ -5496,10 +5547,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1959-0205,Ferro Carril Oeste,Lugo,66,,normal,RSSSF
 1959-0205,Ferro Carril Oeste,Berón,73,,normal,RSSSF
 1960-0240,Atlanta,Asprela,75,,normal,RSSSF
+1961-0216,Racing Club,Sosa,3,,normal,RSSSF
+1961-0216,Racing Club,Corbatta 15m pen,,,normal,RSSSF
+1961-0216,Racing Club,pen,75,,normal,RSSSF
+1961-0216,San Lorenzo,Sanfilippo 86m pen,,,normal,RSSSF
+1961-0216,San Lorenzo,Cabrera,89,,normal,RSSSF
 1962-0210,Boca Juniors,Valentim,9,,normal,RSSSF
 1962-0210,Boca Juniors,Menéndez,46,,normal,RSSSF
 1962-0210,Boca Juniors,Pueblas,68,,normal,RSSSF
 1962-0210,Boca Juniors,Valentim,78,,normal,RSSSF
+1963-0182,Independiente,Savoy,30,,normal,RSSSF
+1963-0182,Independiente,44 pen,,,normal,RSSSF
+1963-0182,Independiente,44 pen,74,,normal,RSSSF
+1963-0182,Independiente,44 pen,86,,normal,RSSSF
+1963-0182,Independiente,Bernao,64,,normal,RSSSF
+1963-0182,Independiente,Bernao,83,,normal,RSSSF
+1963-0182,Independiente,Vázquez,75,,normal,RSSSF
+1963-0182,Independiente,Rodríguez,80,,normal,RSSSF
+1963-0182,Independiente,Rossi 88m,,,contra,RSSSF
+1963-0182,San Lorenzo,Veira,20,,normal,RSSSF
 1964-0232,Boca Juniors,Menéndez,66,,normal,RSSSF
 1964-0232,River Plate,Artime,11,,normal,RSSSF
 1965-0001,Newell's Old Boys,Zucca,,,normal,RSSSF
@@ -5663,6 +5729,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1965-0068,Lanús,Acosta,,,normal,RSSSF
 1965-0069,Independiente,Avallay,,,normal,RSSSF
 1965-0069,Independiente,Avallay,,,normal,RSSSF
+1965-0070,Vélez Sarsfield,Recúpero,,,normal,RSSSF
+1965-0070,Vélez Sarsfield,Carone,,,normal,RSSSF
+1965-0070,Vélez Sarsfield,Carone,,,normal,RSSSF
+1965-0070,Vélez Sarsfield,A.González,,,normal,RSSSF
+1965-0070,Vélez Sarsfield,A.González,,,normal,RSSSF
+1965-0070,Gimnasia La Plata,Pardo,,,normal,RSSSF
 1965-0072,River Plate,Lallana,,,normal,RSSSF
 1965-0072,River Plate,Lallana,,,normal,RSSSF
 1965-0072,River Plate,Mas,,,normal,RSSSF
@@ -5771,6 +5843,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1965-0120,Newell's Old Boys,Cardoso,,,normal,RSSSF
 1965-0120,Newell's Old Boys,Zucca,,,normal,RSSSF
 1965-0121,Gimnasia La Plata,Guagliardi,,,normal,RSSSF
+1965-0122,Boca Juniors,Pianetti,,,normal,RSSSF
+1965-0122,Boca Juniors,A.C.Rojas,,,normal,RSSSF
+1965-0122,Boca Juniors,A.C.Rojas,,,normal,RSSSF
+1965-0122,Boca Juniors,A.Rojas,,,normal,RSSSF
+1965-0122,Boca Juniors,A.Rojas,,,normal,RSSSF
+1965-0122,Boca Juniors,Rattín,,,normal,RSSSF
+1965-0122,Boca Juniors,González,,,normal,RSSSF
+1965-0122,Chacarita Juniors,Nardiello,,,normal,RSSSF
+1965-0122,Chacarita Juniors,Roldán,,,normal,RSSSF
 1965-0123,Platense,Miranda,,,normal,RSSSF
 1965-0123,River Plate,Lallana,,,normal,RSSSF
 1965-0123,River Plate,Sarnari,,,normal,RSSSF
@@ -5803,8 +5884,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1965-0133,Gimnasia La Plata,Guagliardi,,,normal,RSSSF
 1965-0133,Argentinos Juniors,R.Pérez,,,normal,RSSSF
 1965-0135,Lanús,Iglesias,,,normal,RSSSF
+1965-0136,Banfield,Maidana,,,normal,RSSSF
+1965-0136,Banfield,Zárate,,,normal,RSSSF
+1965-0136,Banfield,Bayo,,,normal,RSSSF
+1965-0136,Banfield,San,,,normal,RSSSF
+1965-0136,Lanús,Lorenzo Acosta,,,normal,RSSSF
+1965-0136,Lanús,De Mario,,,normal,RSSSF
 1965-0137,River Plate,Mas,,,normal,RSSSF
 1965-0137,River Plate,Onega,,,normal,RSSSF
+1965-0139,Ferro Carril Oeste,Pastorini,,,normal,RSSSF
+1965-0139,Ferro Carril Oeste,Pastorini,,,normal,RSSSF
+1965-0139,Ferro Carril Oeste,Ribaudo,,,normal,RSSSF
+1965-0139,Ferro Carril Oeste,Ribaudo,,,normal,RSSSF
+1965-0139,Ferro Carril Oeste,Berón,,,normal,RSSSF
+1965-0139,Gimnasia La Plata,Ciaccia,,,normal,RSSSF
 1965-0140,Argentinos Juniors,Ramos,,,normal,RSSSF
 1965-0140,Argentinos Juniors,R.Pérez,,,normal,RSSSF
 1965-0140,Chacarita Juniors,Biaggio,,,normal,RSSSF
@@ -6054,6 +6147,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1965-0259,Rosario Central,Borgogno,,,normal,RSSSF
 1965-0260,San Lorenzo,Telch,,,normal,RSSSF
 1965-0260,San Lorenzo,Veira,,,normal,RSSSF
+1965-0261,Atlanta,Punturero,,,normal,RSSSF
+1965-0261,Atlanta,Griguol,,,normal,RSSSF
+1965-0261,Atlanta,Zarich,,,normal,RSSSF
+1965-0261,Atlanta,J.Fernández,,,normal,RSSSF
+1965-0261,Vélez Sarsfield,Willington,,,normal,RSSSF
 1965-0262,San Lorenzo,Albretch,,,normal,RSSSF
 1965-0263,Independiente,Suárez,,,normal,RSSSF
 1965-0263,Independiente,M.Rodríguez,,,normal,RSSSF
@@ -6113,6 +6211,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1965-0287,Ferro Carril Oeste,Garabal,,,normal,RSSSF
 1965-0287,Newell's Old Boys,Ferrero,,,normal,RSSSF
 1965-0287,Newell's Old Boys,Aguirre,,,normal,RSSSF
+1965-0288,Racing Club,J.J.Rodríguez,,,normal,RSSSF
+1965-0288,Racing Club,J.J.Rodríguez,,,normal,RSSSF
+1965-0288,Racing Club,Perfumo,,,normal,RSSSF
+1965-0288,Racing Club,Cárdenas,,,normal,RSSSF
+1965-0288,Lanús,De Mario,,,normal,RSSSF
+1965-0288,Lanús,Acosta,,,normal,RSSSF
 1965-0289,Platense,Garro,,,normal,RSSSF
 1965-0289,Platense,Marchesse,,,normal,RSSSF
 1965-0291,Lanús,Parenti,,,normal,RSSSF
@@ -6128,6 +6232,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1965-0295,San Lorenzo,Casa,,,normal,RSSSF
 1965-0295,Boca Juniors,A.Rojas,,,normal,RSSSF
 1965-0296,Estudiantes,Bilardo,,,normal,RSSSF
+1965-0297,Independiente,M.Rodríguez,,,normal,RSSSF
+1965-0297,Independiente,M.Rodríguez,,,normal,RSSSF
+1965-0297,Independiente,Avallay,,,normal,RSSSF
+1965-0297,Independiente,Suárez,,,normal,RSSSF
+1965-0297,Rosario Central,Giménez,,,normal,RSSSF
+1965-0297,Rosario Central,Sasía,,,normal,RSSSF
 1965-0298,Estudiantes,Cheves,,,normal,RSSSF
 1965-0298,Independiente,Savoy,,,normal,RSSSF
 1965-0299,Ferro Carril Oeste,R.Fernández,,,normal,RSSSF
@@ -6295,6 +6405,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0036,Newell's Old Boys,Obberti,,,normal,RSSSF
 1971-metropolitano-0036,Newell's Old Boys,Marcos,,,normal,RSSSF
 1971-metropolitano-0036,Newell's Old Boys,Bezerra,,,normal,RSSSF
+1971-metropolitano-0037,Estudiantes,E.Flores,,,normal,RSSSF
+1971-metropolitano-0037,Estudiantes,E.Flores,,,normal,RSSSF
+1971-metropolitano-0037,Estudiantes,Malbernat,,,normal,RSSSF
+1971-metropolitano-0037,Estudiantes,Aguilar,,,normal,RSSSF
+1971-metropolitano-0037,Vélez Sarsfield,Bentrón,,,normal,RSSSF
 1971-metropolitano-0038,Newell's Old Boys,Marcos,,,normal,RSSSF
 1971-metropolitano-0038,Newell's Old Boys,Zanabria,,,normal,RSSSF
 1971-metropolitano-0038,Newell's Old Boys,Zanabria,,,normal,RSSSF
@@ -6305,6 +6420,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0040,Independiente,Pastoriza,,,normal,RSSSF
 1971-metropolitano-0040,Huracán,Leone,,,normal,RSSSF
 1971-metropolitano-0040,Huracán,Giribet,,,normal,RSSSF
+1971-metropolitano-0041,San Lorenzo,Tojo,,,normal,RSSSF
+1971-metropolitano-0041,San Lorenzo,Veglio,,,normal,RSSSF
+1971-metropolitano-0041,San Lorenzo,Veglio,,,normal,RSSSF
+1971-metropolitano-0041,San Lorenzo,Rocchia,,,contra,RSSSF
+1971-metropolitano-0041,San Lorenzo,Fischer,,,normal,RSSSF
+1971-metropolitano-0041,San Lorenzo,Fischer,,,normal,RSSSF
+1971-metropolitano-0041,Racing Club,Lamelza,,,normal,RSSSF
+1971-metropolitano-0041,Racing Club,Wolff,,,normal,RSSSF
 1971-metropolitano-0042,Ferro Carril Oeste,Aimonetti,,,normal,RSSSF
 1971-metropolitano-0043,River Plate,Mas,,,normal,RSSSF
 1971-metropolitano-0043,River Plate,Marchetti,,,normal,RSSSF
@@ -6352,11 +6475,26 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0054,Vélez Sarsfield,Bianchi,,,normal,RSSSF
 1971-metropolitano-0054,Vélez Sarsfield,Bentrón,,,normal,RSSSF
 1971-metropolitano-0054,Newell's Old Boys,Silva,,,normal,RSSSF
+1971-metropolitano-0055,Chacarita Juniors,García Cambón,,,normal,RSSSF
+1971-metropolitano-0055,Chacarita Juniors,Frassoldati,,,normal,RSSSF
+1971-metropolitano-0055,Chacarita Juniors,Marcos,,,normal,RSSSF
+1971-metropolitano-0055,Chacarita Juniors,Marcos,,,normal,RSSSF
+1971-metropolitano-0055,Chacarita Juniors,Punturero,,,normal,RSSSF
+1971-metropolitano-0055,Vélez Sarsfield,Bianchi,,,normal,RSSSF
+1971-metropolitano-0055,Vélez Sarsfield,Bentrón,,,normal,RSSSF
 1971-metropolitano-0056,Newell's Old Boys,Bezerra,,,normal,RSSSF
 1971-metropolitano-0056,Newell's Old Boys,Bezerra,,,normal,RSSSF
 1971-metropolitano-0056,Newell's Old Boys,Obberti,,,normal,RSSSF
 1971-metropolitano-0056,Estudiantes,Bedogni,,,normal,RSSSF
 1971-metropolitano-0056,Estudiantes,Togneri,,,normal,RSSSF
+1971-metropolitano-0057,River Plate,Laraignée,,,normal,RSSSF
+1971-metropolitano-0057,River Plate,Mas,,,normal,RSSSF
+1971-metropolitano-0057,River Plate,J.J.López,,,normal,RSSSF
+1971-metropolitano-0057,River Plate,Pignani,,,normal,RSSSF
+1971-metropolitano-0057,River Plate,Pignani,,,normal,RSSSF
+1971-metropolitano-0057,Atlanta,Mastrángelo,,,normal,RSSSF
+1971-metropolitano-0057,Atlanta,Mastrángelo,,,normal,RSSSF
+1971-metropolitano-0057,Atlanta,Cano,,,normal,RSSSF
 1971-metropolitano-0058,Independiente,Adorno,,,normal,RSSSF
 1971-metropolitano-0058,Independiente,Balbuena,,,normal,RSSSF
 1971-metropolitano-0059,San Lorenzo,Heredia,,,normal,RSSSF
@@ -6403,6 +6541,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0071,Chacarita Juniors,García Cambón,,,normal,RSSSF
 1971-metropolitano-0072,Argentinos Juniors,Eugui,,,normal,RSSSF
 1971-metropolitano-0072,Argentinos Juniors,Moreno,,,normal,RSSSF
+1971-metropolitano-0074,River Plate,Mas,,,normal,RSSSF
+1971-metropolitano-0074,River Plate,Dominichi,,,normal,RSSSF
+1971-metropolitano-0074,River Plate,J.J.López,,,normal,RSSSF
+1971-metropolitano-0074,River Plate,Bulla,,,normal,RSSSF
+1971-metropolitano-0074,Estudiantes,Pachamé,,,normal,RSSSF
 1971-metropolitano-0075,San Lorenzo,Heredia,,,normal,RSSSF
 1971-metropolitano-0075,San Lorenzo,García Ameijenda,,,normal,RSSSF
 1971-metropolitano-0075,San Lorenzo,Gil,,,contra,RSSSF
@@ -6433,6 +6576,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0084,Rosario Central,Zavagno,,,normal,RSSSF
 1971-metropolitano-0085,Los Andes,Cominelli,,,normal,RSSSF
 1971-metropolitano-0085,Argentinos Juniors,Caputo,,,normal,RSSSF
+1971-metropolitano-0087,Atlanta,Cano,,,normal,RSSSF
+1971-metropolitano-0087,Atlanta,Gómez Voglino,,,normal,RSSSF
+1971-metropolitano-0087,Atlanta,Mastrángelo,,,normal,RSSSF
+1971-metropolitano-0087,Banfield,Amado,,,normal,RSSSF
 1971-metropolitano-0088,San Lorenzo,Ayala,,,normal,RSSSF
 1971-metropolitano-0089,Newell's Old Boys,Obberti,,,normal,RSSSF
 1971-metropolitano-0089,Newell's Old Boys,Obberti,,,normal,RSSSF
@@ -6447,6 +6594,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0092,Vélez Sarsfield,Reguera,,,normal,RSSSF
 1971-metropolitano-0093,Atlanta,Gómez Voglino,,,normal,RSSSF
 1971-metropolitano-0093,Atlanta,Cano,,,normal,RSSSF
+1971-metropolitano-0094,Argentinos Juniors,Cicarello,,,normal,RSSSF
+1971-metropolitano-0094,Argentinos Juniors,R.Alvarez,,,normal,RSSSF
+1971-metropolitano-0094,Argentinos Juniors,Ornad,,,normal,RSSSF
+1971-metropolitano-0094,Argentinos Juniors,Ribaudo,,,normal,RSSSF
+1971-metropolitano-0094,Argentinos Juniors,O.Sosa,,,normal,RSSSF
+1971-metropolitano-0094,Colón,Di Meola,,,normal,RSSSF
+1971-metropolitano-0094,Colón,Zibecchi,,,normal,RSSSF
+1971-metropolitano-0094,Colón,Trullet,,,normal,RSSSF
 1971-metropolitano-0095,Gimnasia La Plata,Onnis,,,normal,RSSSF
 1971-metropolitano-0095,Gimnasia La Plata,Onnis,,,normal,RSSSF
 1971-metropolitano-0095,Gimnasia La Plata,Zywica,,,normal,RSSSF
@@ -6511,6 +6666,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0117,Boca Juniors,Curioni,,,normal,RSSSF
 1971-metropolitano-0117,Boca Juniors,Coch,,,normal,RSSSF
 1971-metropolitano-0119,Los Andes,Cardacci,,,normal,RSSSF
+1971-metropolitano-0120,Colón,Di Meola,,,normal,RSSSF
+1971-metropolitano-0120,Colón,Di Meola,,,normal,RSSSF
+1971-metropolitano-0120,Colón,Di Meola,,,normal,RSSSF
+1971-metropolitano-0120,Colón,Bustos,,,normal,RSSSF
+1971-metropolitano-0120,Colón,Zucarelli,,,normal,RSSSF
+1971-metropolitano-0120,Platense,Cabral,,,normal,RSSSF
 1971-metropolitano-0121,Atlanta,Valencia,,,normal,RSSSF
 1971-metropolitano-0121,Atlanta,De la Iglesia,,,normal,RSSSF
 1971-metropolitano-0121,Rosario Central,Landucci,,,normal,RSSSF
@@ -6625,6 +6786,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0158,Chacarita Juniors,Marcos,,,normal,RSSSF
 1971-metropolitano-0158,Chacarita Juniors,Frassoldati,,,normal,RSSSF
 1971-metropolitano-0158,Rosario Central,Landucci,,,normal,RSSSF
+1971-metropolitano-0160,San Lorenzo,Fischer,,,normal,RSSSF
+1971-metropolitano-0160,San Lorenzo,Fischer,,,normal,RSSSF
+1971-metropolitano-0160,San Lorenzo,Fischer,,,normal,RSSSF
+1971-metropolitano-0160,San Lorenzo,Scotta,,,normal,RSSSF
+1971-metropolitano-0160,San Lorenzo,García,,,normal,RSSSF
+1971-metropolitano-0160,Ferro Carril Oeste,Ameijenda Micó,,,normal,RSSSF
+1971-metropolitano-0160,Ferro Carril Oeste,Domínguez,,,normal,RSSSF
 1971-metropolitano-0161,Independiente,Pastoriza,,,normal,RSSSF
 1971-metropolitano-0161,Argentinos Juniors,Moreno,,,normal,RSSSF
 1971-metropolitano-0162,Estudiantes,Flores,,,normal,RSSSF
@@ -6679,6 +6847,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0182,Banfield,Cáceres,,,normal,RSSSF
 1971-metropolitano-0182,Gimnasia La Plata,Montagnoli,,,normal,RSSSF
 1971-metropolitano-0182,Gimnasia La Plata,Onnis,,,normal,RSSSF
+1971-metropolitano-0183,San Lorenzo,García Ameijenda,,,normal,RSSSF
+1971-metropolitano-0183,San Lorenzo,Chazarreta,,,normal,RSSSF
+1971-metropolitano-0183,San Lorenzo,Heredia,,,normal,RSSSF
+1971-metropolitano-0183,San Lorenzo,Fischer,,,normal,RSSSF
+1971-metropolitano-0183,Rosario Central,Bóveda,,,normal,RSSSF
 1971-metropolitano-0185,River Plate,J.J.López,,,normal,RSSSF
 1971-metropolitano-0185,River Plate,Mas,,,normal,RSSSF
 1971-metropolitano-0185,River Plate,Onega,,,normal,RSSSF
@@ -6769,6 +6942,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0216,Rosario Central,Landucci,,,normal,RSSSF
 1971-metropolitano-0217,River Plate,Laraignée,,,normal,RSSSF
 1971-metropolitano-0217,River Plate,O.Pérez,,,normal,RSSSF
+1971-metropolitano-0218,Gimnasia La Plata,Gottfrit,,,normal,RSSSF
+1971-metropolitano-0218,Gimnasia La Plata,Montivero,,,normal,RSSSF
+1971-metropolitano-0218,Gimnasia La Plata,Pedraza,,,normal,RSSSF
+1971-metropolitano-0218,Gimnasia La Plata,Onnis,,,normal,RSSSF
+1971-metropolitano-0218,Rosario Central,Poy,,,normal,RSSSF
+1971-metropolitano-0218,Rosario Central,Poy,,,normal,RSSSF
+1971-metropolitano-0218,Rosario Central,Carrascosa,,,normal,RSSSF
+1971-metropolitano-0218,Rosario Central,Villagra,,,normal,RSSSF
+1971-metropolitano-0218,Rosario Central,Villagra,,,normal,RSSSF
 1971-metropolitano-0219,Argentinos Juniors,Pekerman,,,normal,RSSSF
 1971-metropolitano-0219,Argentinos Juniors,Eugui,,,normal,RSSSF
 1971-metropolitano-0219,Argentinos Juniors,O.Sosa,,,normal,RSSSF
@@ -6925,6 +7107,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0281,Chacarita Juniors,Poncio,,,normal,RSSSF
 1971-metropolitano-0281,San Lorenzo,Scotta,,,normal,RSSSF
 1971-metropolitano-0281,San Lorenzo,Scotta,,,normal,RSSSF
+1971-metropolitano-0282,Newell's Old Boys,Santamaría,,,normal,RSSSF
+1971-metropolitano-0282,Newell's Old Boys,Ledesma,,,normal,RSSSF
+1971-metropolitano-0282,Newell's Old Boys,Zanabria,,,normal,RSSSF
+1971-metropolitano-0282,Newell's Old Boys,Masalis,,,contra,RSSSF
+1971-metropolitano-0282,Newell's Old Boys,Obberti,,,normal,RSSSF
+1971-metropolitano-0282,Newell's Old Boys,Silva,,,normal,RSSSF
+1971-metropolitano-0282,Banfield,Cáceres,,,normal,RSSSF
 1971-metropolitano-0283,Estudiantes,Aguilar,,,normal,RSSSF
 1971-metropolitano-0284,Vélez Sarsfield,Bianchi,,,normal,RSSSF
 1971-metropolitano-0284,Vélez Sarsfield,Bianchi,,,normal,RSSSF
@@ -7056,6 +7245,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0332,Argentinos Juniors,Eugui,,,normal,RSSSF
 1971-metropolitano-0332,Argentinos Juniors,Pena,,,normal,RSSSF
 1971-metropolitano-0332,Independiente,Raimondo,,,normal,RSSSF
+1971-metropolitano-0333,Ferro Carril Oeste,J.Domínguez,,,normal,RSSSF
+1971-metropolitano-0333,Ferro Carril Oeste,R.Pérez,,,normal,RSSSF
+1971-metropolitano-0333,Ferro Carril Oeste,Salomone,,,normal,RSSSF
+1971-metropolitano-0333,San Lorenzo,Ayala,,,normal,RSSSF
+1971-metropolitano-0333,San Lorenzo,May,,,contra,RSSSF
 1971-metropolitano-0334,Rosario Central,Bóveda,,,normal,RSSSF
 1971-metropolitano-0335,Banfield,Cáceres,,,normal,RSSSF
 1971-metropolitano-0335,Ferro Carril Oeste,Moreno,,,normal,RSSSF
@@ -7082,6 +7276,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-metropolitano-0342,Atlanta,Cano,,,normal,RSSSF
 1971-metropolitano-0342,Atlanta,Pecoraro,,,normal,RSSSF
 1971-nacional-0001,Gimnasia La Plata,J.Martínez,,,normal,RSSSF
+1971-nacional-0002,Belgrano,Quiroga,,,normal,RSSSF
+1971-nacional-0002,Belgrano,Syeyyguil,,,normal,RSSSF
+1971-nacional-0002,Belgrano,Cos,,,normal,RSSSF
+1971-nacional-0002,Belgrano,Heredia,,,normal,RSSSF
+1971-nacional-0002,Belgrano,Reinaldi,,,normal,RSSSF
+1971-nacional-0002,Huracán de Comodoro Rivadavia,Toledo,,,normal,RSSSF
 1971-nacional-0003,Newell's Old Boys,Obberti,,,normal,RSSSF
 1971-nacional-0003,Newell's Old Boys,Obberti,,,normal,RSSSF
 1971-nacional-0004,Banfield,Buglione,,,contra,RSSSF
@@ -7119,6 +7319,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0013,San Martín de Mendoza,Tébez,,,normal,RSSSF
 1971-nacional-0014,River Plate,O.Pérez,,,normal,RSSSF
 1971-nacional-0014,River Plate,Mas,,,normal,RSSSF
+1971-nacional-0015,Gimnasia La Plata,Pedraza,,,normal,RSSSF
+1971-nacional-0015,Gimnasia La Plata,Santiago,,,normal,RSSSF
+1971-nacional-0015,Gimnasia La Plata,V.Sánchez,,,normal,RSSSF
+1971-nacional-0015,Gimnasia La Plata,V.Sánchez,,,normal,RSSSF
+1971-nacional-0015,Gimnasia La Plata,V.Sánchez,,,normal,RSSSF
+1971-nacional-0015,Huracán de Comodoro Rivadavia,Toledo,,,normal,RSSSF
 1971-nacional-0016,San Martín de Mendoza,Zuvialde,,,normal,RSSSF
 1971-nacional-0016,Newell's Old Boys,Silva,,,normal,RSSSF
 1971-nacional-0016,Newell's Old Boys,Obberti,,,normal,RSSSF
@@ -7335,6 +7541,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0079,Juventud Antoniana,Rico,,,normal,RSSSF
 1971-nacional-0079,San Martín de Mendoza,Márquez,,,normal,RSSSF
 1971-nacional-0079,San Martín de Mendoza,Barroso,,,normal,RSSSF
+1971-nacional-0080,Banfield,O.Hernández,,,contra,RSSSF
+1971-nacional-0080,Banfield,O.Hernández,,,contra,RSSSF
+1971-nacional-0080,Banfield,Benítez,,,normal,RSSSF
+1971-nacional-0080,Banfield,Benítez,,,normal,RSSSF
+1971-nacional-0080,Banfield,Tagliani,,,normal,RSSSF
+1971-nacional-0080,Banfield,Amado,,,normal,RSSSF
+1971-nacional-0080,Banfield,Cantero,,,normal,RSSSF
+1971-nacional-0080,Banfield,Barril,,,normal,RSSSF
+1971-nacional-0080,Huracán de Comodoro Rivadavia,Toledo,,,normal,RSSSF
 1971-nacional-0081,Newell's Old Boys,Zanabria,,,normal,RSSSF
 1971-nacional-0081,Newell's Old Boys,Santamaría,,,normal,RSSSF
 1971-nacional-0081,Newell's Old Boys,Obberti,,,normal,RSSSF
@@ -7346,6 +7561,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0083,Independiente,Pastoriza,,,normal,RSSSF
 1971-nacional-0083,Independiente,Magán,,,normal,RSSSF
 1971-nacional-0084,Don Orione,Duarte,,,normal,RSSSF
+1971-nacional-0085,Gimnasia La Plata,Castiglia,,,normal,RSSSF
+1971-nacional-0085,Gimnasia La Plata,Leonardi,,,normal,RSSSF
+1971-nacional-0085,Gimnasia La Plata,Montivero,,,normal,RSSSF
+1971-nacional-0085,Gimnasia La Plata,Santiago,,,normal,RSSSF
+1971-nacional-0085,Gimnasia La Plata,J.Martínez,,,normal,RSSSF
+1971-nacional-0085,Don Orione,Olivera,,,normal,RSSSF
 1971-nacional-0086,Ferro Carril Oeste,Arregui,,,normal,RSSSF
 1971-nacional-0086,River Plate,Morete,,,normal,RSSSF
 1971-nacional-0087,Independiente,Maglioni,,,normal,RSSSF
@@ -7362,6 +7583,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0094,Vélez Sarsfield,Lamberti,,,normal,RSSSF
 1971-nacional-0094,Atlanta,Pecoraro,,,normal,RSSSF
 1971-nacional-0095,San Lorenzo,Ayala,,,normal,RSSSF
+1971-nacional-0096,Rosario Central,Colman,,,normal,RSSSF
+1971-nacional-0096,Rosario Central,Gramajo,,,normal,RSSSF
+1971-nacional-0096,Rosario Central,Gramajo,,,normal,RSSSF
+1971-nacional-0096,Rosario Central,Poy,,,normal,RSSSF
+1971-nacional-0096,Rosario Central,J.González,,,normal,RSSSF
+1971-nacional-0096,San Martín de Tucumán,Calderón,,,normal,RSSSF
 1971-nacional-0097,Huracán de Bahía Blanca,J.Martínez,,,normal,RSSSF
 1971-nacional-0097,Huracán de Bahía Blanca,Carro,,,normal,RSSSF
 1971-nacional-0098,Gimnasia de Mendoza,Luna,,,normal,RSSSF
@@ -7382,6 +7609,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0104,Colón,Di Meola,,,normal,RSSSF
 1971-nacional-0105,Atlanta,Pecoraro,,,normal,RSSSF
 1971-nacional-0105,Boca Juniors,Suñé,,,normal,RSSSF
+1971-nacional-0106,Boca Juniors,Potente,,,normal,RSSSF
+1971-nacional-0106,Boca Juniors,Peña,,,normal,RSSSF
+1971-nacional-0106,Boca Juniors,Peña,,,normal,RSSSF
+1971-nacional-0106,Boca Juniors,Savoy,,,normal,RSSSF
+1971-nacional-0106,Boca Juniors,Savoy,,,normal,RSSSF
+1971-nacional-0106,Boca Juniors,Pianetti,,,normal,RSSSF
+1971-nacional-0106,Boca Juniors,Peracca,,,normal,RSSSF
+1971-nacional-0106,Colón,Ripke,,,normal,RSSSF
 1971-nacional-0107,Guaraní Antonio Franco,Caballero,,,normal,RSSSF
 1971-nacional-0107,Atlanta,Cano,,,normal,RSSSF
 1971-nacional-0108,Vélez Sarsfield,Bianchi,,,normal,RSSSF
@@ -7390,6 +7625,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0109,Racing Club,Lamelza,,,normal,RSSSF
 1971-nacional-0109,Racing Club,J.Benítez,,,normal,RSSSF
 1971-nacional-0109,San Martín de Tucumán,Sánchez,,,normal,RSSSF
+1971-nacional-0110,San Lorenzo,Ayala,,,normal,RSSSF
+1971-nacional-0110,San Lorenzo,Ayala,,,normal,RSSSF
+1971-nacional-0110,San Lorenzo,Ayala,,,normal,RSSSF
+1971-nacional-0110,San Lorenzo,E.Chazarreta,,,normal,RSSSF
+1971-nacional-0110,San Lorenzo,E.Chazarreta,,,normal,RSSSF
+1971-nacional-0110,San Lorenzo,García Ameijenda,,,normal,RSSSF
+1971-nacional-0110,San Lorenzo,Fischer,,,normal,RSSSF
+1971-nacional-0110,Central Córdoba de Santiago del Estero,Bucci,,,normal,RSSSF
 1971-nacional-0111,Rosario Central,Landucci,,,normal,RSSSF
 1971-nacional-0111,Rosario Central,Gramajo,,,normal,RSSSF
 1971-nacional-0113,Huracán de Bahía Blanca,Rosales,,,normal,RSSSF
@@ -7464,6 +7707,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0138,Gimnasia de Mendoza,Guzmán,,,normal,RSSSF
 1971-nacional-0139,Racing Club,Amarilla,,,normal,RSSSF
 1971-nacional-0139,Huracán de Bahía Blanca,Barú,,,normal,RSSSF
+1971-nacional-0140,San Lorenzo,Scotta,,,normal,RSSSF
+1971-nacional-0140,San Lorenzo,Scotta,,,normal,RSSSF
+1971-nacional-0140,San Lorenzo,Telch,,,normal,RSSSF
+1971-nacional-0140,San Lorenzo,Chazarreta,,,normal,RSSSF
+1971-nacional-0140,San Lorenzo,Glaria,,,normal,RSSSF
+1971-nacional-0140,Rosario Central,Villagra,,,normal,RSSSF
 1971-nacional-0141,San Lorenzo,Olguín,,,normal,RSSSF
 1971-nacional-0141,San Lorenzo,O.Rodriguez,,,normal,RSSSF
 1971-nacional-0141,Guaraní Antonio Franco,Olivera,,,normal,RSSSF
@@ -7519,6 +7768,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0155,Racing Club,Marilao,,,normal,RSSSF
 1971-nacional-0156,San Lorenzo,Promanzio,,,normal,RSSSF
 1971-nacional-0156,Vélez Sarsfield,Montenegro,,,normal,RSSSF
+1971-nacional-0157,Rosario Central,R.Rodríguez,,,normal,RSSSF
+1971-nacional-0157,Rosario Central,Zavagno,,,normal,RSSSF
+1971-nacional-0157,Rosario Central,Zavagno,,,normal,RSSSF
+1971-nacional-0157,Rosario Central,Astegiano,,,normal,RSSSF
+1971-nacional-0157,Rosario Central,Astegiano,,,normal,RSSSF
+1971-nacional-0157,Rosario Central,Aricó,,,normal,RSSSF
+1971-nacional-0157,Boca Juniors,Bongiovanni,,,normal,RSSSF
+1971-nacional-0157,Boca Juniors,Galletti,,,normal,RSSSF
 1971-nacional-0158,Atlanta,Onnis,,,normal,RSSSF
 1971-nacional-0158,Atlanta,Onnis,,,normal,RSSSF
 1971-nacional-0158,Atlanta,Onnis,,,normal,RSSSF
@@ -7571,6 +7828,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1971-nacional-0173,Chacarita Juniors,Poncio,,,normal,RSSSF
 1971-nacional-0173,Chacarita Juniors,Poncio,,,normal,RSSSF
 1971-nacional-0173,Chacarita Juniors,Frassoldati,,,normal,RSSSF
+1971-nacional-0174,Gimnasia de Mendoza,Burgos,,,normal,RSSSF
+1971-nacional-0174,Gimnasia de Mendoza,Luna,,,normal,RSSSF
+1971-nacional-0174,Gimnasia de Mendoza,Legrotaglie,,,normal,RSSSF
+1971-nacional-0174,Gimnasia de Mendoza,Guzmán,,,normal,RSSSF
+1971-nacional-0174,Gimnasia de Mendoza,Benítez,,,normal,RSSSF
+1971-nacional-0174,San Martín de Tucumán,Villalón,,,normal,RSSSF
+1971-nacional-0174,San Martín de Tucumán,Villalón,,,normal,RSSSF
+1971-nacional-0174,San Martín de Tucumán,Villalón,,,normal,RSSSF
+1971-nacional-0174,San Martín de Tucumán,E.Sosa,,,normal,RSSSF
 1971-nacional-0175,Central Córdoba de Santiago del Estero,Díaz,,,normal,RSSSF
 1971-nacional-0175,Central Córdoba de Santiago del Estero,Caseres,,,normal,RSSSF
 1971-nacional-0175,Estudiantes,Verón,,,normal,RSSSF
@@ -7654,6 +7920,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1974-nacional-0352,San Lorenzo,Cocco,61,,normal,RSSSF
 1974-nacional-0352,San Lorenzo,Ortiz,73,,normal,RSSSF
 1975-metropolitano-0362,River Plate,Bruno,69,,normal,RSSSF
+1975-nacional-0282,Rosario Central,Zavagno,32,,normal,RSSSF
+1975-nacional-0282,River Plate,Luque,17,,normal,RSSSF
+1975-nacional-0282,River Plate,Reinaldi,89,,normal,RSSSF
 1976-metropolitano-0001,Boca Juniors,Felman,,,normal,RSSSF
 1976-metropolitano-0001,Boca Juniors,García Cambón,,,normal,RSSSF
 1976-metropolitano-0002,Huracán,Larrosa,,,normal,RSSSF
@@ -7792,6 +8061,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-metropolitano-0050,Rosario Central,Vidal,,,normal,RSSSF
 1976-metropolitano-0050,San Telmo,Cloquel,,,normal,RSSSF
 1976-metropolitano-0051,Estudiantes,C.López,,,normal,RSSSF
+1976-metropolitano-0052,Ferro Carril Oeste,R.Domínguez,,,normal,RSSSF
+1976-metropolitano-0052,Ferro Carril Oeste,R.Domínguez,,,normal,RSSSF
+1976-metropolitano-0052,Ferro Carril Oeste,M.Gutiérrez,,,normal,RSSSF
+1976-metropolitano-0052,Ferro Carril Oeste,M.Gutiérrez,,,normal,RSSSF
+1976-metropolitano-0052,Ferro Carril Oeste,M.Gutiérrez,,,normal,RSSSF
+1976-metropolitano-0052,Ferro Carril Oeste,C.Arregui,,,normal,RSSSF
+1976-metropolitano-0052,Colón,E.Fernández,,,normal,RSSSF
+1976-metropolitano-0052,Colón,E.Alvarez,,,normal,RSSSF
+1976-metropolitano-0052,Colón,E.Alvarez,,,normal,RSSSF
 1976-metropolitano-0053,San Telmo,Cloquel,,,normal,RSSSF
 1976-metropolitano-0053,San Telmo,Cloquel,,,normal,RSSSF
 1976-metropolitano-0053,Estudiantes,Milano,,,normal,RSSSF
@@ -8086,6 +8364,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-metropolitano-0156,Argentinos Juniors,Fren,,,normal,RSSSF
 1976-metropolitano-0156,Chacarita Juniors,Bordón,,,normal,RSSSF
 1976-metropolitano-0156,Chacarita Juniors,Bordón,,,normal,RSSSF
+1976-metropolitano-0157,Racing Club,Fortunato,,,normal,RSSSF
+1976-metropolitano-0157,Racing Club,Fortunato,,,normal,RSSSF
+1976-metropolitano-0157,Racing Club,Glaria,,,normal,RSSSF
+1976-metropolitano-0157,Racing Club,Glaria,,,normal,RSSSF
+1976-metropolitano-0157,Racing Club,Correa,,,normal,RSSSF
+1976-metropolitano-0157,Racing Club,Gottardi,,,normal,RSSSF
+1976-metropolitano-0157,Argentinos Juniors,C.Alvarez,,,normal,RSSSF
+1976-metropolitano-0157,Argentinos Juniors,Carrizo,,,normal,RSSSF
+1976-metropolitano-0157,Argentinos Juniors,Hallar,,,normal,RSSSF
 1976-metropolitano-0158,Chacarita Juniors,Bordón,,,normal,RSSSF
 1976-metropolitano-0158,Chacarita Juniors,C.Rodríguez,,,normal,RSSSF
 1976-metropolitano-0158,River Plate,Alonso,,,normal,RSSSF
@@ -8186,6 +8473,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-metropolitano-0190,Racing Club,Correa,,,normal,RSSSF
 1976-metropolitano-0191,Quilmes,Milozzi,,,normal,RSSSF
 1976-metropolitano-0191,Quilmes,Manceda,,,normal,RSSSF
+1976-metropolitano-0192,Chacarita Juniors,Orellana,,,normal,RSSSF
+1976-metropolitano-0192,Chacarita Juniors,Ferrero,,,normal,RSSSF
+1976-metropolitano-0192,Chacarita Juniors,Ferrero,,,normal,RSSSF
+1976-metropolitano-0192,Chacarita Juniors,Bordón,,,normal,RSSSF
+1976-metropolitano-0192,Chacarita Juniors,C.Rodríguez,,,normal,RSSSF
+1976-metropolitano-0192,Temperley,Romero,,,normal,RSSSF
+1976-metropolitano-0192,Temperley,Romero,,,normal,RSSSF
+1976-metropolitano-0192,Temperley,O.Sánchez,,,normal,RSSSF
 1976-metropolitano-0193,Racing Club,N.Scotta,,,normal,RSSSF
 1976-metropolitano-0193,Racing Club,N.Scotta,,,normal,RSSSF
 1976-metropolitano-0194,Argentinos Juniors,Irigoyen,,,normal,RSSSF
@@ -8366,6 +8661,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-metropolitano-0261,Argentinos Juniors,Ovelar,,,normal,RSSSF
 1976-metropolitano-0262,Atlanta,Ramos,,,normal,RSSSF
 1976-metropolitano-0262,Atlanta,Soria,,,normal,RSSSF
+1976-metropolitano-0263,Banfield,Brizzola,,,normal,RSSSF
+1976-metropolitano-0263,Banfield,Cerqueiro,,,normal,RSSSF
+1976-metropolitano-0263,Banfield,Cerqueiro,,,normal,RSSSF
+1976-metropolitano-0263,Banfield,Ferlich,,,normal,RSSSF
+1976-metropolitano-0263,Banfield,Pitarch,,,normal,RSSSF
+1976-metropolitano-0263,Banfield,M.González,,,normal,RSSSF
+1976-metropolitano-0263,San Telmo,Pisapia,,,normal,RSSSF
+1976-metropolitano-0263,San Telmo,Pisapia,,,normal,RSSSF
+1976-metropolitano-0263,San Telmo,Rilo,,,normal,RSSSF
 1976-metropolitano-0264,Racing Club,Gottardi,,,normal,RSSSF
 1976-metropolitano-0264,Racing Club,R.Díaz,,,normal,RSSSF
 1976-metropolitano-0264,All Boys,Del Valle,,,normal,RSSSF
@@ -8756,6 +9060,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-nacional-0058,Racing Club,Roselli,,,normal,RSSSF
 1976-nacional-0060,Atlanta,Coletti,,,normal,RSSSF
 1976-nacional-0060,Atlanta,Contreras,,,normal,RSSSF
+1976-nacional-0061,River Plate,Passarella,,,normal,RSSSF
+1976-nacional-0061,River Plate,Beltrán,,,normal,RSSSF
+1976-nacional-0061,River Plate,Beltrán,,,normal,RSSSF
+1976-nacional-0061,River Plate,Luque,,,normal,RSSSF
+1976-nacional-0061,River Plate,Cocco,,,normal,RSSSF
+1976-nacional-0061,River Plate,Pintos,,,contra,RSSSF
+1976-nacional-0061,River Plate,P.González,,,normal,RSSSF
+1976-nacional-0061,San Telmo,Pisapia,,,normal,RSSSF
 1976-nacional-0062,San Martín de Tucumán,Rivadero,,,normal,RSSSF
 1976-nacional-0063,Racing Club,R.Díaz,,,normal,RSSSF
 1976-nacional-0064,Banfield,Cerqueiro,,,normal,RSSSF
@@ -9188,6 +9500,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-nacional-0219,Talleres,Valencia,,,normal,RSSSF
 1976-nacional-0219,Talleres,Cherini,,,normal,RSSSF
 1976-nacional-0219,Huracán de Comodoro Rivadavia,Alí,,,normal,RSSSF
+1976-nacional-0220,San Lorenzo,Olguín,,,normal,RSSSF
+1976-nacional-0220,San Lorenzo,Maletti,,,normal,RSSSF
+1976-nacional-0220,San Lorenzo,Laclau,,,normal,RSSSF
+1976-nacional-0220,San Lorenzo,Villarreal,,,normal,RSSSF
+1976-nacional-0220,San Lorenzo,Olivares,,,normal,RSSSF
+1976-nacional-0220,San Lorenzo de Mar del Plata,Eresuma,,,normal,RSSSF
+1976-nacional-0220,San Lorenzo de Mar del Plata,Eresuma,,,normal,RSSSF
 1976-nacional-0221,Colón,A.Sánchez,,,normal,RSSSF
 1976-nacional-0221,Colón,Vega,,,normal,RSSSF
 1976-nacional-0221,Central Norte,B.Rodríguez,,,normal,RSSSF
@@ -9271,6 +9590,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-nacional-0250,Argentinos Juniors,C.Alvarez,,,normal,RSSSF
 1976-nacional-0251,Colón,Mazo,,,normal,RSSSF
 1976-nacional-0251,Colón,Aricó,,,normal,RSSSF
+1976-nacional-0252,San Lorenzo,A.Rodríguez,,,normal,RSSSF
+1976-nacional-0252,San Lorenzo,Mendoza,,,normal,RSSSF
+1976-nacional-0252,San Lorenzo,Villar,,,normal,RSSSF
+1976-nacional-0252,San Lorenzo,Marangoni,,,normal,RSSSF
+1976-nacional-0252,San Lorenzo,Rizzi,,,normal,RSSSF
+1976-nacional-0252,Huracán de Comodoro Rivadavia,Giantomasi,,,normal,RSSSF
 1976-nacional-0253,Talleres,Ludueña,,,normal,RSSSF
 1976-nacional-0253,Talleres,Valencia,,,normal,RSSSF
 1976-nacional-0253,Talleres,Carlomagno,,,normal,RSSSF
@@ -9290,6 +9615,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-nacional-0260,Talleres,Alderete,,,normal,RSSSF
 1976-nacional-0260,Talleres,Bravo,,,normal,RSSSF
 1976-nacional-0260,Talleres,Bravo,,,normal,RSSSF
+1976-nacional-0261,Newell's Old Boys,Berta,,,normal,RSSSF
+1976-nacional-0261,Newell's Old Boys,Gallego,,,normal,RSSSF
+1976-nacional-0261,Newell's Old Boys,Moyano,,,normal,RSSSF
+1976-nacional-0261,Newell's Old Boys,Sperandío,,,normal,RSSSF
+1976-nacional-0261,Newell's Old Boys,Montes,,,normal,RSSSF
+1976-nacional-0261,Huracán de Comodoro Rivadavia,Britapaja,,,normal,RSSSF
+1976-nacional-0261,Huracán de Comodoro Rivadavia,Zucarelli,,,normal,RSSSF
 1976-nacional-0262,Ferro Carril Oeste,Vidal,,,normal,RSSSF
 1976-nacional-0262,Ferro Carril Oeste,Vidal,,,normal,RSSSF
 1976-nacional-0263,San Lorenzo de Mar del Plata,Eresuma,,,normal,RSSSF
@@ -9311,6 +9643,19 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-nacional-0268,Newell's Old Boys,Robles,,,normal,RSSSF
 1976-nacional-0268,Newell's Old Boys,Moyano,,,normal,RSSSF
 1976-nacional-0268,Central Norte,Luñiz,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,Rocchia,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,Rocchia,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,Franco,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,H.Arregui,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,H.Arregui,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,Eiras,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,Vidal,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,Vidal,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,Parisi,,,normal,RSSSF
+1976-nacional-0269,Ferro Carril Oeste,C.Arregui,,,normal,RSSSF
+1976-nacional-0269,San Lorenzo de Mar del Plata,Eresuma,,,normal,RSSSF
+1976-nacional-0269,San Lorenzo de Mar del Plata,Eresuma,,,normal,RSSSF
+1976-nacional-0269,San Lorenzo de Mar del Plata,Mascareño,,,normal,RSSSF
 1976-nacional-0270,San Lorenzo de Mar del Plata,Eresuma,,,normal,RSSSF
 1976-nacional-0270,Huracán de Comodoro Rivadavia,Britapaja,,,normal,RSSSF
 1976-nacional-0270,Huracán de Comodoro Rivadavia,Britapaja,,,normal,RSSSF
@@ -9393,6 +9738,19 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1976-nacional-0300,Boca Juniors,Suñé,,,normal,RSSSF
 1977-metropolitano-0001,Racing Club,Villa,,,normal,RSSSF
 1977-metropolitano-0002,Newell's Old Boys,Irigoyen,,,normal,RSSSF
+1977-metropolitano-0004,Unión,Trossero,,,normal,RSSSF
+1977-metropolitano-0004,Unión,Trossero,,,normal,RSSSF
+1977-metropolitano-0004,Unión,Marasco,,,normal,RSSSF
+1977-metropolitano-0004,Unión,J.Martínez,,,normal,RSSSF
+1977-metropolitano-0004,Gimnasia La Plata,Coronel,,,normal,RSSSF
+1977-metropolitano-0005,River Plate,Marchetti,,,normal,RSSSF
+1977-metropolitano-0005,River Plate,Marchetti,,,normal,RSSSF
+1977-metropolitano-0005,River Plate,Ortiz,,,normal,RSSSF
+1977-metropolitano-0005,River Plate,Passarella,,,normal,RSSSF
+1977-metropolitano-0005,River Plate,Passarella,,,normal,RSSSF
+1977-metropolitano-0005,River Plate,Pitarch,,,normal,RSSSF
+1977-metropolitano-0005,Temperley,Forlán,,,normal,RSSSF
+1977-metropolitano-0005,Temperley,Bello Meza,,,normal,RSSSF
 1977-metropolitano-0006,San Lorenzo,Fischer,,,normal,RSSSF
 1977-metropolitano-0006,San Lorenzo,M.Sánchez,,,normal,RSSSF
 1977-metropolitano-0006,Ferro Carril Oeste,Arregui,,,normal,RSSSF
@@ -9471,6 +9829,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0030,Chacarita Juniors,Delgado,,,normal,RSSSF
 1977-metropolitano-0031,Unión,Gianetti,,,contra,RSSSF
 1977-metropolitano-0031,Platense,Juárez,,,normal,RSSSF
+1977-metropolitano-0032,River Plate,P.González,,,normal,RSSSF
+1977-metropolitano-0032,River Plate,Marchetti,,,normal,RSSSF
+1977-metropolitano-0032,River Plate,Comelles,,,normal,RSSSF
+1977-metropolitano-0032,Quilmes,Salinas,,,normal,RSSSF
 1977-metropolitano-0034,Vélez Sarsfield,Roldán,,,normal,RSSSF
 1977-metropolitano-0034,Vélez Sarsfield,Meglio,,,normal,RSSSF
 1977-metropolitano-0034,Temperley,Pereyra,,,normal,RSSSF
@@ -9495,6 +9857,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0043,Estudiantes,Onnis,,,normal,RSSSF
 1977-metropolitano-0043,Estudiantes,Letanú,,,normal,RSSSF
 1977-metropolitano-0044,Banfield,Ruiz,,,normal,RSSSF
+1977-metropolitano-0045,Gimnasia La Plata,Taverna,,,normal,RSSSF
+1977-metropolitano-0045,Gimnasia La Plata,Taverna,,,normal,RSSSF
+1977-metropolitano-0045,Gimnasia La Plata,O.Pérez,,,normal,RSSSF
+1977-metropolitano-0045,Gimnasia La Plata,Lazbal,,,normal,RSSSF
+1977-metropolitano-0045,Gimnasia La Plata,Fornari,,,normal,RSSSF
+1977-metropolitano-0045,Vélez Sarsfield,Iervasi,,,normal,RSSSF
 1977-metropolitano-0047,Platense,Juárez,,,normal,RSSSF
 1977-metropolitano-0047,Platense,Juárez,,,normal,RSSSF
 1977-metropolitano-0047,River Plate,Comisso,,,normal,RSSSF
@@ -9517,6 +9885,19 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0052,Racing Club,Trama,,,normal,RSSSF
 1977-metropolitano-0054,Vélez Sarsfield,A.Rodríguez,,,normal,RSSSF
 1977-metropolitano-0054,Quilmes,Ovide,,,contra,RSSSF
+1977-metropolitano-0055,Banfield,P.Gómez,,,normal,RSSSF
+1977-metropolitano-0055,Banfield,Orte,,,normal,RSSSF
+1977-metropolitano-0055,Banfield,Crespo,,,normal,RSSSF
+1977-metropolitano-0055,Banfield,M.González,,,normal,RSSSF
+1977-metropolitano-0055,Banfield,Lo,,,normal,RSSSF
+1977-metropolitano-0055,Gimnasia La Plata,Gatto Di Bastiano,,,normal,RSSSF
+1977-metropolitano-0056,Estudiantes,Rocca,,,normal,RSSSF
+1977-metropolitano-0056,Estudiantes,Letanú,,,normal,RSSSF
+1977-metropolitano-0056,Estudiantes,Letanú,,,normal,RSSSF
+1977-metropolitano-0056,Estudiantes,Frassoldati,,,normal,RSSSF
+1977-metropolitano-0056,Estudiantes,Gottardi,,,normal,RSSSF
+1977-metropolitano-0056,Temperley,Freire,,,normal,RSSSF
+1977-metropolitano-0056,Temperley,Bello Meza,,,normal,RSSSF
 1977-metropolitano-0057,Lanús,Barú,,,normal,RSSSF
 1977-metropolitano-0057,Ferro Carril Oeste,Papandrea,,,normal,RSSSF
 1977-metropolitano-0058,Atlanta,Curini,,,normal,RSSSF
@@ -9579,6 +9960,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0077,Quilmes,Filardo,,,normal,RSSSF
 1977-metropolitano-0077,Quilmes,O.Gómez,,,normal,RSSSF
 1977-metropolitano-0078,Lanús,Nani,,,normal,RSSSF
+1977-metropolitano-0079,Atlanta,Contreras,,,normal,RSSSF
+1977-metropolitano-0079,Atlanta,Cocco,,,normal,RSSSF
+1977-metropolitano-0079,Atlanta,Ramos,,,normal,RSSSF
+1977-metropolitano-0079,Atlanta,Maletti,,,normal,RSSSF
+1977-metropolitano-0079,Atlanta,Carrió,,,normal,RSSSF
+1977-metropolitano-0079,Temperley,Biondi,,,normal,RSSSF
+1977-metropolitano-0079,Temperley,García Sangenis,,,normal,RSSSF
 1977-metropolitano-0080,Independiente,Larrosa,,,normal,RSSSF
 1977-metropolitano-0080,Independiente,Bertoni,,,normal,RSSSF
 1977-metropolitano-0080,Independiente,Bertoni,,,normal,RSSSF
@@ -9587,6 +9975,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0080,Ferro Carril Oeste,H.Arregui,,,normal,RSSSF
 1977-metropolitano-0081,Rosario Central,Aimar,,,normal,RSSSF
 1977-metropolitano-0082,All Boys,Zilli,,,normal,RSSSF
+1977-metropolitano-0083,Boca Juniors,Mouzo,,,normal,RSSSF
+1977-metropolitano-0083,Boca Juniors,Veglio,,,normal,RSSSF
+1977-metropolitano-0083,Boca Juniors,Sánchez,,,contra,RSSSF
+1977-metropolitano-0083,Boca Juniors,Mastrángelo,,,normal,RSSSF
+1977-metropolitano-0083,Boca Juniors,Lacava,,,normal,RSSSF
+1977-metropolitano-0083,All Boys,Schell Britapaja,,,normal,RSSSF
 1977-metropolitano-0084,Huracán,Sanabria,,,normal,RSSSF
 1977-metropolitano-0084,Colón,Luñiz,,,normal,RSSSF
 1977-metropolitano-0085,Ferro Carril Oeste,Rocchia,,,normal,RSSSF
@@ -9629,11 +10023,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0094,Independiente,Bertoni,,,normal,RSSSF
 1977-metropolitano-0094,Gimnasia La Plata,Fornari,,,normal,RSSSF
 1977-metropolitano-0094,Gimnasia La Plata,Fornari,,,normal,RSSSF
+1977-metropolitano-0095,River Plate,Passarella,,,normal,RSSSF
+1977-metropolitano-0095,River Plate,Passarella,,,normal,RSSSF
+1977-metropolitano-0095,River Plate,Luque,,,normal,RSSSF
+1977-metropolitano-0095,River Plate,Luque,,,normal,RSSSF
+1977-metropolitano-0095,River Plate,Marchetti,,,normal,RSSSF
+1977-metropolitano-0095,Unión,Trossero,,,normal,RSSSF
+1977-metropolitano-0095,Unión,Trossero,,,normal,RSSSF
+1977-metropolitano-0095,Unión,Moreno,,,normal,RSSSF
 1977-metropolitano-0096,San Lorenzo,Rizzi,,,normal,RSSSF
 1977-metropolitano-0096,San Lorenzo,Mainonis,,,normal,RSSSF
 1977-metropolitano-0096,Argentinos Juniors,C.Alvarez,,,normal,RSSSF
 1977-metropolitano-0097,Vélez Sarsfield,Roldán,,,normal,RSSSF
 1977-metropolitano-0097,Vélez Sarsfield,Santillán,,,normal,RSSSF
+1977-metropolitano-0099,Estudiantes,Pagnanini,,,normal,RSSSF
+1977-metropolitano-0099,Estudiantes,Letanú,,,normal,RSSSF
+1977-metropolitano-0099,Estudiantes,Solari,,,normal,RSSSF
+1977-metropolitano-0099,Estudiantes,Gottardi,,,normal,RSSSF
+1977-metropolitano-0099,Chacarita Juniors,Solari,,,contra,RSSSF
+1977-metropolitano-0099,Chacarita Juniors,H.Rodríguez,,,contra,RSSSF
 1977-metropolitano-0100,Platense,Petti,,,normal,RSSSF
 1977-metropolitano-0101,Quilmes,Raschia,,,normal,RSSSF
 1977-metropolitano-0101,Quilmes,Filardo,,,normal,RSSSF
@@ -9794,6 +10202,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0155,Newell's Old Boys,Robles,,,normal,RSSSF
 1977-metropolitano-0155,Independiente,Arrieta,,,normal,RSSSF
 1977-metropolitano-0155,Independiente,Outes,,,normal,RSSSF
+1977-metropolitano-0156,Argentinos Juniors,Maradona,,,normal,RSSSF
+1977-metropolitano-0156,Argentinos Juniors,Maradona,,,normal,RSSSF
+1977-metropolitano-0156,Argentinos Juniors,C.Alvarez,,,normal,RSSSF
+1977-metropolitano-0156,Argentinos Juniors,J.López,,,normal,RSSSF
+1977-metropolitano-0156,Argentinos Juniors,Carrizo,,,normal,RSSSF
+1977-metropolitano-0156,Atlanta,Curini,,,normal,RSSSF
+1977-metropolitano-0156,Atlanta,Candau,,,normal,RSSSF
 1977-metropolitano-0159,Banfield,M.González,,,normal,RSSSF
 1977-metropolitano-0159,Banfield,Sacconi,,,normal,RSSSF
 1977-metropolitano-0161,Estudiantes,Santecchia,,,normal,RSSSF
@@ -9810,6 +10225,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0166,Chacarita Juniors,Avallay,,,normal,RSSSF
 1977-metropolitano-0167,Huracán,Saldaño,,,normal,RSSSF
 1977-metropolitano-0167,Platense,Pinasco,,,normal,RSSSF
+1977-metropolitano-0168,Boca Juniors,Pavón,,,normal,RSSSF
+1977-metropolitano-0168,Boca Juniors,Zanabria,,,normal,RSSSF
+1977-metropolitano-0168,Boca Juniors,Benítez,,,normal,RSSSF
+1977-metropolitano-0168,Boca Juniors,Ribolzi,,,normal,RSSSF
+1977-metropolitano-0168,Quilmes,Calderón,,,normal,RSSSF
 1977-metropolitano-0169,Gimnasia La Plata,Beltrán,,,normal,RSSSF
 1977-metropolitano-0170,All Boys,O.Pérez,,,normal,RSSSF
 1977-metropolitano-0179,River Plate,Marchetti,,,normal,RSSSF
@@ -10119,6 +10539,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0315,All Boys,Britapaja,,,normal,RSSSF
 1977-metropolitano-0316,Rosario Central,Mancinelli,,,normal,RSSSF
 1977-metropolitano-0316,Huracán,Pelayes,,,normal,RSSSF
+1977-metropolitano-0318,Atlanta,Franceschini,,,normal,RSSSF
+1977-metropolitano-0318,Atlanta,Franceschini,,,normal,RSSSF
+1977-metropolitano-0318,Atlanta,Cocco,,,normal,RSSSF
+1977-metropolitano-0318,Atlanta,Contreras,,,normal,RSSSF
+1977-metropolitano-0318,Atlanta,Maletti,,,normal,RSSSF
+1977-metropolitano-0318,Ferro Carril Oeste,C.Arregui,,,normal,RSSSF
 1977-metropolitano-0319,Lanús,Clausi,,,normal,RSSSF
 1977-metropolitano-0319,Lanús,Barú,,,normal,RSSSF
 1977-metropolitano-0319,Lanús,Pachamé,,,normal,RSSSF
@@ -10126,6 +10552,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0319,Temperley,Biondi,,,normal,RSSSF
 1977-metropolitano-0320,Estudiantes,Russo,,,normal,RSSSF
 1977-metropolitano-0320,Gimnasia La Plata,Fornari,,,normal,RSSSF
+1977-metropolitano-0322,Vélez Sarsfield,Roldán,,,normal,RSSSF
+1977-metropolitano-0322,Vélez Sarsfield,Roldán,,,normal,RSSSF
+1977-metropolitano-0322,Vélez Sarsfield,Larraquy,,,normal,RSSSF
+1977-metropolitano-0322,Vélez Sarsfield,Iervasi,,,normal,RSSSF
+1977-metropolitano-0322,Vélez Sarsfield,Castro,,,normal,RSSSF
+1977-metropolitano-0322,Platense,Belloni,,,normal,RSSSF
 1977-metropolitano-0323,San Lorenzo,Fischer,,,normal,RSSSF
 1977-metropolitano-0323,Chacarita Juniors,Ferrero,,,normal,RSSSF
 1977-metropolitano-0323,Chacarita Juniors,Delgado,,,normal,RSSSF
@@ -10154,6 +10586,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0335,Rosario Central,Manzi,,,normal,RSSSF
 1977-metropolitano-0335,Rosario Central,Benito,,,normal,RSSSF
 1977-metropolitano-0336,Huracán,J.Díaz,,,normal,RSSSF
+1977-metropolitano-0337,Colón,Aricó,,,normal,RSSSF
+1977-metropolitano-0337,Colón,Aricó,,,normal,RSSSF
+1977-metropolitano-0337,Colón,Luñiz,,,normal,RSSSF
+1977-metropolitano-0337,Colón,Roldán,,,normal,RSSSF
+1977-metropolitano-0337,Colón,J.López,,,normal,RSSSF
+1977-metropolitano-0337,Colón,Vega,,,normal,RSSSF
+1977-metropolitano-0337,Huracán,Houseman,,,normal,RSSSF
+1977-metropolitano-0337,Huracán,Pelayes,,,normal,RSSSF
+1977-metropolitano-0337,Huracán,Ardiles,,,normal,RSSSF
 1977-metropolitano-0338,All Boys,Nieto,,,normal,RSSSF
 1977-metropolitano-0339,Rosario Central,Manzi,,,normal,RSSSF
 1977-metropolitano-0339,Ferro Carril Oeste,Sotelo,,,normal,RSSSF
@@ -10342,6 +10783,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0422,Huracán,Houseman,,,normal,RSSSF
 1977-metropolitano-0422,Huracán,J.Díaz,,,normal,RSSSF
 1977-metropolitano-0423,Quilmes,Paruzzo,,,normal,RSSSF
+1977-metropolitano-0424,Gimnasia La Plata,Beltrán,,,normal,RSSSF
+1977-metropolitano-0424,Gimnasia La Plata,Forgués,,,normal,RSSSF
+1977-metropolitano-0424,Gimnasia La Plata,Tutino,,,normal,RSSSF
+1977-metropolitano-0424,Gimnasia La Plata,Fornari,,,normal,RSSSF
+1977-metropolitano-0424,Ferro Carril Oeste,H.Arregui,,,normal,RSSSF
 1977-metropolitano-0425,Temperley,Donaires,,,normal,RSSSF
 1977-metropolitano-0425,Temperley,Verón,,,normal,RSSSF
 1977-metropolitano-0425,Gimnasia La Plata,Tutino,,,normal,RSSSF
@@ -10438,6 +10884,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0457,Lanús,Coria,,,normal,RSSSF
 1977-metropolitano-0457,Lanús,C.Gutiérrez,,,normal,RSSSF
 1977-metropolitano-0457,Banfield,Cerqueiro,,,normal,RSSSF
+1977-metropolitano-0458,Estudiantes,Gottardi,,,normal,RSSSF
+1977-metropolitano-0458,Estudiantes,Russo,,,normal,RSSSF
+1977-metropolitano-0458,Estudiantes,Pagnanini,,,normal,RSSSF
+1977-metropolitano-0458,Estudiantes,C.López,,,normal,RSSSF
+1977-metropolitano-0458,Lanús,Coria,,,normal,RSSSF
+1977-metropolitano-0458,Lanús,Ribeca,,,normal,RSSSF
 1977-metropolitano-0459,Atlanta,Candau,,,normal,RSSSF
 1977-metropolitano-0461,San Lorenzo,Fischer,,,normal,RSSSF
 1977-metropolitano-0461,San Lorenzo,Fischer,,,normal,RSSSF
@@ -10564,6 +11016,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-metropolitano-0505,Colón,Anconetani,,,normal,RSSSF
 1977-metropolitano-0507,Boca Juniors,Ortiz,,,normal,RSSSF
 1977-metropolitano-0507,Boca Juniors,Lacava Schell,,,normal,RSSSF
+1977-metropolitano-0508,River Plate,Marchetti,,,normal,RSSSF
+1977-metropolitano-0508,River Plate,Passarella,,,normal,RSSSF
+1977-metropolitano-0508,River Plate,P.González,,,normal,RSSSF
+1977-metropolitano-0508,River Plate,Ortiz,,,normal,RSSSF
+1977-metropolitano-0508,Ferro Carril Oeste,Vidal,,,normal,RSSSF
+1977-metropolitano-0508,Ferro Carril Oeste,Sotelo,,,normal,RSSSF
 1977-metropolitano-0509,Unión,Quinteros,,,normal,RSSSF
 1977-metropolitano-0509,Unión,D'Alessandro,,,normal,RSSSF
 1977-metropolitano-0509,Temperley,Donaires,,,normal,RSSSF
@@ -10601,6 +11059,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0011,Banfield,Cerqueiro,,,normal,RSSSF
 1977-nacional-0011,Independiente Rivadavia,Monárdez,,,normal,RSSSF
 1977-nacional-0011,Independiente Rivadavia,Zolorza,,,normal,RSSSF
+1977-nacional-0012,Gimnasia La Plata,Mamberto,,,normal,RSSSF
+1977-nacional-0012,Gimnasia La Plata,Fornari,,,normal,RSSSF
+1977-nacional-0012,Gimnasia La Plata,Beltrán,,,normal,RSSSF
+1977-nacional-0012,Gimnasia La Plata,O.Pérez,,,normal,RSSSF
+1977-nacional-0012,San Martín de Tucumán,J.Sánchez,,,normal,RSSSF
+1977-nacional-0012,San Martín de Tucumán,J.Sánchez,,,normal,RSSSF
+1977-nacional-0012,San Martín de Tucumán,Marangoni,,,normal,RSSSF
 1977-nacional-0014,San Martín de Tucumán,Salomone,,,normal,RSSSF
 1977-nacional-0014,San Martín de Tucumán,Marangoni,,,normal,RSSSF
 1977-nacional-0014,San Martín de Tucumán,Laguna,,,normal,RSSSF
@@ -10641,6 +11106,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0027,Estudiantes de Buenos Aires,De Cicco,,,normal,RSSSF
 1977-nacional-0027,Estudiantes de Buenos Aires,J.Domínguez,,,normal,RSSSF
 1977-nacional-0027,Gimnasia La Plata,Echauri,,,normal,RSSSF
+1977-nacional-0028,Newell's Old Boys,Alfaro,,,normal,RSSSF
+1977-nacional-0028,Newell's Old Boys,Alfaro,,,normal,RSSSF
+1977-nacional-0028,Newell's Old Boys,Montes,,,normal,RSSSF
+1977-nacional-0028,Newell's Old Boys,Montes,,,normal,RSSSF
+1977-nacional-0028,Newell's Old Boys,Yazalde,,,normal,RSSSF
+1977-nacional-0028,Newell's Old Boys,Yazalde,,,normal,RSSSF
+1977-nacional-0028,Banfield,Lo Gatto,,,normal,RSSSF
+1977-nacional-0028,Banfield,Orte,,,normal,RSSSF
 1977-nacional-0029,Newell's Old Boys,Alfaro,,,normal,RSSSF
 1977-nacional-0030,Estudiantes de Buenos Aires,Bravo,,,normal,RSSSF
 1977-nacional-0030,Banfield,Ferlich,,,normal,RSSSF
@@ -10654,6 +11127,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0035,Banfield,Orte,,,normal,RSSSF
 1977-nacional-0035,Banfield,Orte,,,normal,RSSSF
 1977-nacional-0035,San Lorenzo,Simaldone,,,normal,RSSSF
+1977-nacional-0036,Newell's Old Boys,Gallego,,,normal,RSSSF
+1977-nacional-0036,Newell's Old Boys,Alfaro,,,normal,RSSSF
+1977-nacional-0036,Newell's Old Boys,H.Sánchez,,,normal,RSSSF
+1977-nacional-0036,Newell's Old Boys,H.Sánchez,,,normal,RSSSF
+1977-nacional-0036,Newell's Old Boys,Berta,,,normal,RSSSF
+1977-nacional-0036,Estudiantes de Buenos Aires,Pafundi,,,normal,RSSSF
+1977-nacional-0036,Estudiantes de Buenos Aires,J.Guillermo,,,normal,RSSSF
 1977-nacional-0037,Estudiantes de Buenos Aires,J.Guillermo,,,normal,RSSSF
 1977-nacional-0038,San Lorenzo,Torres,,,normal,RSSSF
 1977-nacional-0038,Newell's Old Boys,Capurro,,,normal,RSSSF
@@ -10682,6 +11162,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0046,Estudiantes de Buenos Aires,Di Cicco,,,normal,RSSSF
 1977-nacional-0047,San Martín de Tucumán,Roldán,,,normal,RSSSF
 1977-nacional-0047,Newell's Old Boys,Gallego,,,normal,RSSSF
+1977-nacional-0048,Gimnasia La Plata,Lazbal,,,normal,RSSSF
+1977-nacional-0048,Gimnasia La Plata,Lazbal,,,normal,RSSSF
+1977-nacional-0048,Gimnasia La Plata,Villarreal,,,normal,RSSSF
+1977-nacional-0048,Gimnasia La Plata,Uzín,,,normal,RSSSF
+1977-nacional-0048,Gimnasia La Plata,Echauri,,,normal,RSSSF
+1977-nacional-0048,Banfield,Corvo,,,normal,RSSSF
+1977-nacional-0048,Banfield,D'Angelo,,,normal,RSSSF
 1977-nacional-0049,Banfield,Lo Gatto,,,normal,RSSSF
 1977-nacional-0050,Newell's Old Boys,Alfaro,,,normal,RSSSF
 1977-nacional-0050,Newell's Old Boys,Alfaro,,,normal,RSSSF
@@ -10754,17 +11241,44 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0078,Rosario Central,Palavecino,,,normal,RSSSF
 1977-nacional-0078,Rosario Central,J.González,,,normal,RSSSF
 1977-nacional-0078,Estudiantes,Letanú,,,normal,RSSSF
+1977-nacional-0079,Chacarita Juniors,C.Rodriguez,,,normal,RSSSF
+1977-nacional-0079,Chacarita Juniors,Pena,,,normal,RSSSF
+1977-nacional-0079,Chacarita Juniors,Salinas,,,normal,RSSSF
+1977-nacional-0079,Chacarita Juniors,Salinas,,,normal,RSSSF
+1977-nacional-0079,Chacarita Juniors,Salinas,,,normal,RSSSF
+1977-nacional-0079,Chacarita Juniors,Ischia,,,normal,RSSSF
+1977-nacional-0079,Central Norte,Medina,,,normal,RSSSF
+1977-nacional-0079,Central Norte,Papalardo,,,normal,RSSSF
+1977-nacional-0080,Boca Juniors,C.Alvarez,,,normal,RSSSF
+1977-nacional-0080,Boca Juniors,C.Alvarez,,,normal,RSSSF
+1977-nacional-0080,Los Andes,[J.Soto,,,normal,RSSSF
+1977-nacional-0080,Los Andes,Vega,,,normal,RSSSF
 1977-nacional-0081,Los Andes,Garro,,,normal,RSSSF
 1977-nacional-0081,Los Andes,J.Soto,,,normal,RSSSF
 1977-nacional-0081,Los Andes,J.Soto,,,normal,RSSSF
 1977-nacional-0082,Central Norte,Medina,,,normal,RSSSF
 1977-nacional-0082,Boca Juniors,Mastrángelo,,,normal,RSSSF
 1977-nacional-0082,Boca Juniors,Salas,,,normal,RSSSF
+1977-nacional-0083,Estudiantes,Letanú,,,normal,RSSSF
+1977-nacional-0083,Estudiantes,Letanú,,,normal,RSSSF
+1977-nacional-0083,Estudiantes,Onnis,,,normal,RSSSF
+1977-nacional-0083,Estudiantes,Gottardi,,,normal,RSSSF
+1977-nacional-0083,Estudiantes,Milano,,,normal,RSSSF
+1977-nacional-0083,Estudiantes,Herrera,,,normal,RSSSF
+1977-nacional-0083,Chacarita Juniors,Candau,,,normal,RSSSF
+1977-nacional-0083,Chacarita Juniors,Salinas,,,normal,RSSSF
+1977-nacional-0083,Chacarita Juniors,Pena,,,normal,RSSSF
 1977-nacional-0085,Cipolletti,Murillo,,,normal,RSSSF
 1977-nacional-0085,Cipolletti,Eresuma,,,normal,RSSSF
 1977-nacional-0085,Rosario Central,Agüero,,,normal,RSSSF
 1977-nacional-0086,Quilmes,Raschia,,,normal,RSSSF
 1977-nacional-0087,Boca Juniors,Salas,,,normal,RSSSF
+1977-nacional-0088,Central Norte,Armani,,,normal,RSSSF
+1977-nacional-0088,Central Norte,Armani,,,normal,RSSSF
+1977-nacional-0088,Central Norte,Cardozo,,,normal,RSSSF
+1977-nacional-0088,Central Norte,Tejeda,,,normal,RSSSF
+1977-nacional-0088,Central Norte,Medina,,,normal,RSSSF
+1977-nacional-0088,Los Andes,Quiroga,,,normal,RSSSF
 1977-nacional-0090,Los Andes,Quiroga,,,normal,RSSSF
 1977-nacional-0090,Estudiantes,Letanú,,,normal,RSSSF
 1977-nacional-0092,Chacarita Juniors,Astudillo,,,normal,RSSSF
@@ -10776,6 +11290,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0093,Cipolletti,Veira,,,normal,RSSSF
 1977-nacional-0094,Rosario Central,Palavecino,,,normal,RSSSF
 1977-nacional-0095,Quilmes,Pellerano,,,normal,RSSSF
+1977-nacional-0096,Estudiantes,Gottardi,,,normal,RSSSF
+1977-nacional-0096,Estudiantes,Landaburo,,,normal,RSSSF
+1977-nacional-0096,Estudiantes,Santecchia,,,normal,RSSSF
+1977-nacional-0096,Central Norte,Cejas,,,normal,RSSSF
 1977-nacional-0097,Estudiantes,Letanú,,,normal,RSSSF
 1977-nacional-0097,Estudiantes,Letanú,,,normal,RSSSF
 1977-nacional-0097,Estudiantes,Landaburo,,,normal,RSSSF
@@ -10784,6 +11302,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0100,Boca Juniors,C.Alvarez,,,normal,RSSSF
 1977-nacional-0100,Boca Juniors,Mastrángelo,,,normal,RSSSF
 1977-nacional-0100,Boca Juniors,J.López,,,normal,RSSSF
+1977-nacional-0101,Cipolletti,Flores,,,normal,RSSSF
+1977-nacional-0101,Cipolletti,Veira,,,normal,RSSSF
+1977-nacional-0101,Cipolletti,Eresuma,,,normal,RSSSF
+1977-nacional-0101,Cipolletti,M.García,,,normal,RSSSF
+1977-nacional-0101,Boca Juniors,A.Alves,,,normal,RSSSF
+1977-nacional-0101,Boca Juniors,Zanabria,,,normal,RSSSF
 1977-nacional-0102,Chacarita Juniors,Ferrero,,,normal,RSSSF
 1977-nacional-0102,Los Andes,Cortés,,,normal,RSSSF
 1977-nacional-0103,Rosario Central,Palavecino,,,normal,RSSSF
@@ -10918,6 +11442,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0141,Racing Club,Avallay,,,normal,RSSSF
 1977-nacional-0141,Racing Club,Avallay,,,normal,RSSSF
 1977-nacional-0142,Sarmiento de Resistencia,Caballero,,,normal,RSSSF
+1977-nacional-0143,Talleres,Bravo,,,normal,RSSSF
+1977-nacional-0143,Talleres,Bravo,,,normal,RSSSF
+1977-nacional-0143,Talleres,Bocanelli,,,normal,RSSSF
+1977-nacional-0143,Talleres,Bocanelli,,,normal,RSSSF
+1977-nacional-0143,Talleres,Alderete,,,normal,RSSSF
+1977-nacional-0143,Colón,Aricó,,,normal,RSSSF
 1977-nacional-0144,Vélez Sarsfield,Mehemed,,,normal,RSSSF
 1977-nacional-0144,Vélez Sarsfield,Baldi,,,normal,RSSSF
 1977-nacional-0144,Vélez Sarsfield,Geoffroy,,,normal,RSSSF
@@ -10984,6 +11514,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0165,Racing Club,Avallay,,,normal,RSSSF
 1977-nacional-0165,Racing Club,O.Gutiérrez,,,normal,RSSSF
 1977-nacional-0165,Racing Club,Herrera,,,normal,RSSSF
+1977-nacional-0166,Platense,Arrieta,,,contra,RSSSF
+1977-nacional-0166,Platense,Juárez,,,normal,RSSSF
+1977-nacional-0166,Platense,Amarillo,,,normal,RSSSF
+1977-nacional-0166,Platense,Viscovich,,,normal,RSSSF
+1977-nacional-0166,Talleres,Zenarola,,,normal,RSSSF
 1977-nacional-0167,Colón,Mántaras,,,normal,RSSSF
 1977-nacional-0167,Sarmiento de Resistencia,Barrientos,,,normal,RSSSF
 1977-nacional-0167,Sarmiento de Resistencia,Monzón,,,normal,RSSSF
@@ -11076,6 +11611,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0200,Atlanta,Franceschini,,,normal,RSSSF
 1977-nacional-0201,Independiente,Outes,,,normal,RSSSF
 1977-nacional-0201,Independiente,Larrosa,,,normal,RSSSF
+1977-nacional-0202,Argentinos Juniors,Ovelar,,,normal,RSSSF
+1977-nacional-0202,Argentinos Juniors,Maradona,,,normal,RSSSF
+1977-nacional-0202,Argentinos Juniors,Di Donato,,,normal,RSSSF
+1977-nacional-0202,Argentinos Juniors,J.López,,,normal,RSSSF
+1977-nacional-0202,Unión,Arroyo,,,normal,RSSSF
 1977-nacional-0203,Belgrano,Bonet,,,normal,RSSSF
 1977-nacional-0203,Belgrano,Bonet,,,normal,RSSSF
 1977-nacional-0204,All Boys,Brandoni,,,normal,RSSSF
@@ -11105,8 +11645,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0209,Independiente,Galván,,,normal,RSSSF
 1977-nacional-0209,Independiente,Magallanes,,,normal,RSSSF
 1977-nacional-0209,Independiente,Magallanes,,,normal,RSSSF
+1977-nacional-0210,Atlanta,Carrió,,,normal,RSSSF
+1977-nacional-0210,Atlanta,Carrió,,,normal,RSSSF
+1977-nacional-0210,Atlanta,Carrió,,,normal,RSSSF
+1977-nacional-0210,Atlanta,F.Gutiérrez,,,normal,RSSSF
+1977-nacional-0210,Atlanta,Gallardo,,,normal,RSSSF
+1977-nacional-0210,Atlético Ledesma,Farías,,,normal,RSSSF
+1977-nacional-0210,Atlético Ledesma,Chazarreta,,,normal,RSSSF
 1977-nacional-0211,Huracán,Sanabria,,,normal,RSSSF
 1977-nacional-0211,Huracán,Sanabria,,,normal,RSSSF
+1977-nacional-0212,Belgrano,Beccerica,,,normal,RSSSF
+1977-nacional-0212,Belgrano,García Sangenis,,,normal,RSSSF
+1977-nacional-0212,Belgrano,Bonet,,,normal,RSSSF
+1977-nacional-0212,Belgrano,Laciar,,,normal,RSSSF
+1977-nacional-0212,Belgrano,R.Rodríguez,,,normal,RSSSF
+1977-nacional-0212,All Boys,Zywica,,,normal,RSSSF
+1977-nacional-0212,All Boys,Brandoni,,,normal,RSSSF
 1977-nacional-0213,Independiente,Outes,,,normal,RSSSF
 1977-nacional-0213,Independiente,Outes,,,normal,RSSSF
 1977-nacional-0213,Independiente,Magallanes,,,normal,RSSSF
@@ -11153,6 +11707,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1977-nacional-0230,Talleres,Bocanelli,,,normal,RSSSF
 1977-nacional-0230,Independiente,Outes,,,normal,RSSSF
 1977-nacional-0230,Independiente,Bochini,,,normal,RSSSF
+1979-metropolitano-0199,River Plate,Alonso,13,,normal,RSSSF
+1979-metropolitano-0199,River Plate,Commisso,41,,normal,RSSSF
+1979-metropolitano-0199,River Plate,Luque,55,,normal,RSSSF
+1979-metropolitano-0199,River Plate,González,57,,normal,RSSSF
+1979-metropolitano-0199,River Plate,González,89,,normal,RSSSF
+1979-metropolitano-0199,Vélez Sarsfield,Jorge,87,,normal,RSSSF
 1981-metropolitano-0098,Vélez Sarsfield,15 & 22 Apr,,,normal,RSSSF
 1990-91-0001,Estudiantes,Trotta,,,normal,RSSSF
 1990-91-0001,San Lorenzo,Castro,,,normal,RSSSF
@@ -11256,6 +11816,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0051,Estudiantes,Capria,,,normal,RSSSF
 1990-91-0052,Vélez Sarsfield,Gareca,,,normal,RSSSF
 1990-91-0052,Vélez Sarsfield,Luca,,,normal,RSSSF
+1990-91-0053,Ferro Carril Oeste,D.González,,,normal,RSSSF
+1990-91-0053,Ferro Carril Oeste,D.González,,,normal,RSSSF
+1990-91-0053,Ferro Carril Oeste,Bianchi,,,normal,RSSSF
+1990-91-0053,Ferro Carril Oeste,Agonil,,,normal,RSSSF
+1990-91-0053,Talleres,Kenig,,,normal,RSSSF
 1990-91-0054,Gimnasia La Plata,Amato,,,normal,RSSSF
 1990-91-0054,Racing Club,Lanzidei,,,normal,RSSSF
 1990-91-0055,Rosario Central,Bisconti,,,normal,RSSSF
@@ -11500,6 +12065,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0162,River Plate,Silvani,,,normal,RSSSF
 1990-91-0163,Chaco For Ever,Cariaga,,,normal,RSSSF
 1990-91-0163,Ferro Carril Oeste,Acosta,,,normal,RSSSF
+1990-91-0164,Independiente,Alfaro Moreno,,,normal,RSSSF
+1990-91-0164,Independiente,Lenguita,,,normal,RSSSF
+1990-91-0164,Independiente,Ruiz,,,normal,RSSSF
+1990-91-0164,Vélez Sarsfield,Díaz Zalazar,,,normal,RSSSF
+1990-91-0164,Vélez Sarsfield,Mancuso,,,normal,RSSSF
+1990-91-0164,Vélez Sarsfield,Zárate,,,normal,RSSSF
+1990-91-0164,Vélez Sarsfield,E.González,,,normal,RSSSF
 1990-91-0165,Unión,Fernández,,,normal,RSSSF
 1990-91-0165,Unión,Mauri,,,normal,RSSSF
 1990-91-0165,Deportivo Español,Bevilaqua,,,normal,RSSSF
@@ -11624,6 +12196,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0222,Deportivo Español,Parodi,,,normal,RSSSF
 1990-91-0222,Ferro Carril Oeste,Cristofanelli,,,normal,RSSSF
 1990-91-0224,Talleres,E.Vázquez,,,normal,RSSSF
+1990-91-0225,Racing Club,Borelli,,,normal,RSSSF
+1990-91-0225,Racing Club,Carranza,,,normal,RSSSF
+1990-91-0225,Racing Club,Carranza,,,normal,RSSSF
+1990-91-0225,Racing Club,C.García,,,normal,RSSSF
+1990-91-0225,Racing Club,C.García,,,normal,RSSSF
+1990-91-0225,River Plate,Berti,,,normal,RSSSF
+1990-91-0225,River Plate,Da Silva,,,normal,RSSSF
 1990-91-0226,Deportivo Mandiyú,Ramos,,,normal,RSSSF
 1990-91-0226,Deportivo Mandiyú,Perdomo,,,normal,RSSSF
 1990-91-0228,Newell's Old Boys,Berizzo,,,normal,RSSSF
@@ -11645,6 +12224,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0236,Deportivo Mandiyú,Barrios,,,normal,RSSSF
 1990-91-0236,Deportivo Mandiyú,Barrios,,,normal,RSSSF
 1990-91-0237,Racing Club,Fleita,,,normal,RSSSF
+1990-91-0238,Gimnasia La Plata,Mannarino,,,normal,RSSSF
+1990-91-0238,Gimnasia La Plata,Piaggio,,,normal,RSSSF
+1990-91-0238,Gimnasia La Plata,Cordero,,,normal,RSSSF
+1990-91-0238,Gimnasia La Plata,Amato,,,normal,RSSSF
+1990-91-0238,Talleres,Bonetto,,,normal,RSSSF
+1990-91-0238,Talleres,E.Vázquez,,,normal,RSSSF
+1990-91-0238,Talleres,Montenegro,,,normal,RSSSF
 1990-91-0240,Vélez Sarsfield,E.González,,,normal,RSSSF
 1990-91-0240,Deportivo Español,Bevilacqua,,,normal,RSSSF
 1990-91-0240,Deportivo Español,Albornoz,,,normal,RSSSF
@@ -11668,6 +12254,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0252,Unión,Toresani,,,normal,RSSSF
 1990-91-0252,Unión,V.Ramos,,,normal,RSSSF
 1990-91-0252,Argentinos Juniors,Vidal González,,,normal,RSSSF
+1990-91-0253,Independiente,Bianco,,,normal,RSSSF
+1990-91-0253,Independiente,Bianco,,,normal,RSSSF
+1990-91-0253,Independiente,Ubaldi,,,normal,RSSSF
+1990-91-0253,Independiente,Craviotto,,,normal,RSSSF
+1990-91-0253,Independiente,Alfaro,,,normal,RSSSF
+1990-91-0253,Platense,Moreno Nannini,,,normal,RSSSF
 1990-91-0255,River Plate,H.Díaz,,,normal,RSSSF
 1990-91-0255,Newell's Old Boys,Berizzo,,,normal,RSSSF
 1990-91-0256,Rosario Central,Falaschi,,,normal,RSSSF
@@ -11737,6 +12329,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0286,Gimnasia La Plata,P.Fernández,,,normal,RSSSF
 1990-91-0288,Argentinos Juniors,P.Hernández,,,normal,RSSSF
 1990-91-0288,River Plate,Medina Bello,,,normal,RSSSF
+1990-91-0289,Huracán,Borghi,,,normal,RSSSF
+1990-91-0289,Huracán,Saturno,,,normal,RSSSF
+1990-91-0289,Huracán,Saturno,,,normal,RSSSF
+1990-91-0289,Huracán,H.Morales,,,normal,RSSSF
+1990-91-0289,Chaco For Ever,Taffarel,,,normal,RSSSF
+1990-91-0289,Chaco For Ever,Cruz,,,normal,RSSSF
+1990-91-0289,Chaco For Ever,Tilico,,,normal,RSSSF
 1990-91-0291,Independiente,Alfaro Moreno,,,normal,RSSSF
 1990-91-0291,Estudiantes,Mac Allister,,,normal,RSSSF
 1990-91-0292,Chaco For Ever,Chilavert,,,normal,RSSSF
@@ -11760,6 +12359,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0302,Deportivo Mandiyú,L.Ramos,,,normal,RSSSF
 1990-91-0302,Talleres,Ruiz Díaz,,,normal,RSSSF
 1990-91-0303,Boca Juniors,Pico,,,normal,RSSSF
+1990-91-0305,San Lorenzo,L.Rodríguez,,,normal,RSSSF
+1990-91-0305,San Lorenzo,R.O.García,,,normal,RSSSF
+1990-91-0305,San Lorenzo,Czornomaz,,,normal,RSSSF
+1990-91-0305,San Lorenzo,Zandoná,,,normal,RSSSF
+1990-91-0305,Vélez Sarsfield,Zalazar,,,normal,RSSSF
+1990-91-0307,Argentinos Juniors,Mac Allister,,,normal,RSSSF
+1990-91-0307,Argentinos Juniors,P.Hernández,,,normal,RSSSF
+1990-91-0307,Argentinos Juniors,Cagna,,,normal,RSSSF
+1990-91-0307,Gimnasia La Plata,Galvagni,,,normal,RSSSF
 1990-91-0308,Huracán,Mohamed,,,normal,RSSSF
 1990-91-0308,Huracán,Saturno,,,normal,RSSSF
 1990-91-0308,Huracán,H.Morales,,,normal,RSSSF
@@ -11785,6 +12393,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0320,Racing Club,R.Paz,,,normal,RSSSF
 1990-91-0320,Racing Club,C.García,,,normal,RSSSF
 1990-91-0321,Deportivo Mandiyú,Mendoza,,,normal,RSSSF
+1990-91-0322,Boca Juniors,Batistuta,,,normal,RSSSF
+1990-91-0322,Boca Juniors,Batistuta,,,normal,RSSSF
+1990-91-0322,Boca Juniors,Batistuta,,,normal,RSSSF
+1990-91-0322,Boca Juniors,Latorre,,,normal,RSSSF
+1990-91-0322,Boca Juniors,Latorre,,,normal,RSSSF
+1990-91-0322,Boca Juniors,Graciani,,,normal,RSSSF
+1990-91-0322,Racing Club,Ortega Sánchez,,,normal,RSSSF
 1990-91-0323,Newell's Old Boys,Cozzoni,,,normal,RSSSF
 1990-91-0323,Newell's Old Boys,Cozzoni,,,normal,RSSSF
 1990-91-0323,Talleres,Fornero,,,normal,RSSSF
@@ -11903,6 +12518,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1990-91-0379,Boca Juniors,Pico,,,normal,RSSSF
 1990-91-0380,Newell's Old Boys,Cozzoni,,,normal,RSSSF
 1990-91-0380,San Lorenzo,Czornomaz,,,normal,RSSSF
+1995-96-apertura-0001,Racing Club,Carrario,8,,normal,RSSSF
+1995-96-apertura-0001,Racing Club,Carrario,88,,normal,RSSSF
 1995-96-apertura-0003,Huracán,N.A. Fernández,4,,normal,RSSSF
 1995-96-apertura-0003,Huracán,Conti,39,,normal,RSSSF
 1995-96-apertura-0003,Newell's Old Boys,Raggio,44,,normal,RSSSF
@@ -11921,6 +12538,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0010,Boca Juniors,R.A. Peralta,65,,normal,RSSSF
 1995-96-apertura-0011,Independiente,Mazzoni,90,,normal,RSSSF
 1995-96-apertura-0011,Banfield,Jara,74,,contra,RSSSF
+1995-96-apertura-0012,River Plate,Crespo,63,,normal,RSSSF
+1995-96-apertura-0012,River Plate,Crespo,72,,normal,RSSSF
 1995-96-apertura-0013,Newell's Old Boys,Loyola,65,,contra,RSSSF
 1995-96-apertura-0013,Platense,Dalla Líbera,14,,penalti,RSSSF
 1995-96-apertura-0014,Boca Juniors,S.D. Martínez,27,,normal,RSSSF
@@ -11971,11 +12590,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0038,River Plate,Gallardo,46,,normal,RSSSF
 1995-96-apertura-0038,River Plate,Ortega,58,,normal,RSSSF
 1995-96-apertura-0039,Lanús,Simionato,50,,normal,RSSSF
+1995-96-apertura-0040,Argentinos Juniors,Bennett,11,,normal,RSSSF
+1995-96-apertura-0040,Argentinos Juniors,V.H. Ferreyra,67,,normal,RSSSF
+1995-96-apertura-0040,Argentinos Juniors,Gancedo,76,,normal,RSSSF
+1995-96-apertura-0040,Argentinos Juniors,Gancedo,78,,penalti,RSSSF
 1995-96-apertura-0042,Vélez Sarsfield,Zandoná,84,,normal,RSSSF
 1995-96-apertura-0043,Lanús,Gamboa,68,,contra,RSSSF
 1995-96-apertura-0043,Boca Juniors,Fabbri,59,,normal,RSSSF
 1995-96-apertura-0044,Gimnasia La Plata,Morant,88,,normal,RSSSF
 1995-96-apertura-0045,Argentinos Juniors,Mas,13,,normal,RSSSF
+1995-96-apertura-0046,Gimnasia de Jujuy,Trimarchi,15,,penalti,RSSSF
+1995-96-apertura-0046,Gimnasia de Jujuy,Piaggio,43,,normal,RSSSF
+1995-96-apertura-0046,Gimnasia de Jujuy,Trimarchi,70,,normal,RSSSF
+1995-96-apertura-0046,Gimnasia de Jujuy,Piaggio,83,,normal,RSSSF
+1995-96-apertura-0046,San Lorenzo,Biaggio,3,,normal,RSSSF
+1995-96-apertura-0046,San Lorenzo,Netto,29,,normal,RSSSF
+1995-96-apertura-0046,San Lorenzo,Netto,88,,penalti,RSSSF
 1995-96-apertura-0048,Racing Club,P.A. Paz,58,,contra,RSSSF
 1995-96-apertura-0049,Platense,Maisterra,87,,normal,RSSSF
 1995-96-apertura-0050,Newell's Old Boys,Fagiani,26,,normal,RSSSF
@@ -11990,6 +12620,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0052,Racing Club,M.A. Delgado,87,,normal,RSSSF
 1995-96-apertura-0053,Boca Juniors,Caniggia,24,,normal,RSSSF
 1995-96-apertura-0053,Newell's Old Boys,Gabrich,79,,normal,RSSSF
+1995-96-apertura-0054,Gimnasia de Jujuy,Cuffaro Russo,68,,normal,RSSSF
+1995-96-apertura-0054,Gimnasia de Jujuy,Gorostidi,80,,normal,RSSSF
+1995-96-apertura-0054,Gimnasia de Jujuy,Gorostidi,88,,normal,RSSSF
 1995-96-apertura-0056,Argentinos Juniors,Gancedo,27,,penalti,RSSSF
 1995-96-apertura-0056,Argentinos Juniors,F.A. Batista,64,,normal,RSSSF
 1995-96-apertura-0056,Platense,Fuertes,53,,normal,RSSSF
@@ -11997,6 +12630,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0056,Platense,Pena,89,,contra,RSSSF
 1995-96-apertura-0057,Banfield,J.R. Cruz,86,,normal,RSSSF
 1995-96-apertura-0058,Gimnasia La Plata,F.D. Fernández,83,,normal,RSSSF
+1995-96-apertura-0059,San Lorenzo,Biaggio,1,,normal,RSSSF
+1995-96-apertura-0059,San Lorenzo,E.F. González,5,,normal,RSSSF
+1995-96-apertura-0059,San Lorenzo,E.F. González,27,,normal,RSSSF
+1995-96-apertura-0059,San Lorenzo,Silas,75,,normal,RSSSF
+1995-96-apertura-0059,San Lorenzo,Montserrat,89,,normal,RSSSF
+1995-96-apertura-0060,Ferro Carril Oeste,Duré,44,,normal,RSSSF
+1995-96-apertura-0060,Ferro Carril Oeste,Duré,60,,normal,RSSSF
 1995-96-apertura-0061,Platense,Dalla Líbera,32,,normal,RSSSF
 1995-96-apertura-0061,Platense,Cangialosi,88,,normal,RSSSF
 1995-96-apertura-0061,San Lorenzo,Netto,18,,normal,RSSSF
@@ -12068,6 +12708,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0087,San Lorenzo,Arbarello,78,,normal,RSSSF
 1995-96-apertura-0089,Huracán,Guerra,11,,normal,RSSSF
 1995-96-apertura-0089,Huracán,Pineda,88,,normal,RSSSF
+1995-96-apertura-0090,Estudiantes,J.L. Calderón,26,,normal,RSSSF
+1995-96-apertura-0090,Estudiantes,J.L. Calderón,89,,penalti,RSSSF
+1995-96-apertura-0090,Racing Club,Capria,48,,penalti,RSSSF
+1995-96-apertura-0090,Racing Club,C.J. López,55,,normal,RSSSF
+1995-96-apertura-0090,Racing Club,Capria,64,,normal,RSSSF
+1995-96-apertura-0091,San Lorenzo,Biaggio,2,,normal,RSSSF
+1995-96-apertura-0091,San Lorenzo,Biaggio,17,,normal,RSSSF
+1995-96-apertura-0091,San Lorenzo,E.F. González,35,,normal,RSSSF
+1995-96-apertura-0091,San Lorenzo,Biaggio,62,,normal,RSSSF
+1995-96-apertura-0091,San Lorenzo,Ortega Sánchez,88,,normal,RSSSF
+1995-96-apertura-0091,Newell's Old Boys,Escudero,22,,contra,RSSSF
+1995-96-apertura-0091,Newell's Old Boys,Gabrich,76,,normal,RSSSF
 1995-96-apertura-0092,Estudiantes,Arzeno,66,,normal,RSSSF
 1995-96-apertura-0092,Independiente,Arzeno,14,,normal,RSSSF
 1995-96-apertura-0092,Independiente,J.C. Ramírez,31,,normal,RSSSF
@@ -12083,6 +12735,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0097,Gimnasia La Plata,G.O. Sanguinetti,87,,normal,RSSSF
 1995-96-apertura-0098,Platense,Fuertes,9,,normal,RSSSF
 1995-96-apertura-0100,Vélez Sarsfield,Asad,17,,normal,RSSSF
+1995-96-apertura-0101,Independiente,Arzeno,12,,normal,RSSSF
+1995-96-apertura-0101,Colón,Saralegui,35,,penalti,RSSSF
+1995-96-apertura-0101,Colón,Saralegui,69,,penalti,RSSSF
 1995-96-apertura-0102,Gimnasia de Jujuy,Piaggio,61,,normal,RSSSF
 1995-96-apertura-0102,Racing Club,C.J. López,24,,normal,RSSSF
 1995-96-apertura-0102,Racing Club,Pompei,34,,normal,RSSSF
@@ -12096,14 +12751,27 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0107,Belgrano,Tosello,25,,normal,RSSSF
 1995-96-apertura-0108,Huracán,C.J. Marini,11,,normal,RSSSF
 1995-96-apertura-0108,Huracán,P.D. Barrios,19,,penalti,RSSSF
+1995-96-apertura-0109,Ferro Carril Oeste,C.M. Vidal,29,,normal,RSSSF
+1995-96-apertura-0109,Ferro Carril Oeste,C.M. Vidal,63,,normal,RSSSF
+1995-96-apertura-0109,Ferro Carril Oeste,Mandrini,74,,normal,RSSSF
+1995-96-apertura-0109,Banfield,Alvarenga,38,,penalti,RSSSF
+1995-96-apertura-0109,Banfield,Alegre,43,,normal,RSSSF
+1995-96-apertura-0109,Banfield,Alegre,72,,normal,RSSSF
 1995-96-apertura-0110,Deportivo Español,Agoglia,82,,normal,RSSSF
 1995-96-apertura-0111,Gimnasia La Plata,Gmo. Barrios Schelotto,7,,normal,RSSSF
 1995-96-apertura-0111,Gimnasia La Plata,Saccone,88,,normal,RSSSF
 1995-96-apertura-0112,Boca Juniors,S.D. Martínez,32,,normal,RSSSF
+1995-96-apertura-0113,Estudiantes,J.L. Calderón,22,,penalti,RSSSF
+1995-96-apertura-0113,Estudiantes,Palermo,44,,normal,RSSSF
+1995-96-apertura-0113,Estudiantes,Palermo,53,,normal,RSSSF
+1995-96-apertura-0113,Estudiantes,J.L. Calderón,75,,normal,RSSSF
+1995-96-apertura-0113,Gimnasia de Jujuy,Trimarchi,88,,normal,RSSSF
 1995-96-apertura-0114,Racing Club,Pompei,7,,normal,RSSSF
 1995-96-apertura-0114,Huracán,Barijho,48,,normal,RSSSF
 1995-96-apertura-0115,River Plate,G.O. Amato,7,,normal,RSSSF
 1995-96-apertura-0115,Platense,Fuertes,46,,normal,RSSSF
+1995-96-apertura-0116,Lanús,A.M. López,58,,normal,RSSSF
+1995-96-apertura-0116,Lanús,A.M. López,88,,normal,RSSSF
 1995-96-apertura-0117,Independiente,Casartelli,46,,normal,RSSSF
 1995-96-apertura-0118,Rosario Central,Ordóñez,11,,normal,RSSSF
 1995-96-apertura-0118,Rosario Central,Carbonari,66,,normal,RSSSF
@@ -12211,10 +12879,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0161,Independiente,J.D. Martínez,60,,normal,RSSSF
 1995-96-apertura-0162,Gimnasia La Plata,G.O. Sanguinetti,22,,normal,RSSSF
 1995-96-apertura-0162,River Plate,G.D. Rivarola,14,,penalti,RSSSF
+1995-96-apertura-0163,Boca Juniors,Mac Allister,30,,normal,RSSSF
+1995-96-apertura-0163,Boca Juniors,Maradona,44,,penalti,RSSSF
+1995-96-apertura-0163,Boca Juniors,S.D. Martínez,78,,normal,RSSSF
+1995-96-apertura-0163,Boca Juniors,Scotto,88,,normal,RSSSF
+1995-96-apertura-0163,Racing Club,Capria,4,,normal,RSSSF
+1995-96-apertura-0163,Racing Club,M.A. Delgado,11,,normal,RSSSF
+1995-96-apertura-0163,Racing Club,C.J. López,12,,normal,RSSSF
+1995-96-apertura-0163,Racing Club,Capria,47,,normal,RSSSF
+1995-96-apertura-0163,Racing Club,Capria,60,,normal,RSSSF
+1995-96-apertura-0163,Racing Club,C.J. López,86,,normal,RSSSF
 1995-96-apertura-0164,Colón,Saralegui,23,,normal,RSSSF
 1995-96-apertura-0164,Colón,Muller,75,,normal,RSSSF
 1995-96-apertura-0165,Vélez Sarsfield,Pandolfi,24,,normal,RSSSF
 1995-96-apertura-0165,Vélez Sarsfield,Posse,87,,normal,RSSSF
+1995-96-apertura-0166,Lanús,H.A. Morales,30,,normal,RSSSF
+1995-96-apertura-0166,Lanús,A.M. López,81,,normal,RSSSF
+1995-96-apertura-0166,Lanús,Coyette,87,,normal,RSSSF
+1995-96-apertura-0166,Deportivo Español,Odriozola,67,,penalti,RSSSF
+1995-96-apertura-0166,Deportivo Español,Odriozola,89,,penalti,RSSSF
 1995-96-apertura-0167,Ferro Carril Oeste,Samso,75,,penalti,RSSSF
 1995-96-apertura-0167,Gimnasia de Jujuy,Barrella,26,,normal,RSSSF
 1995-96-apertura-0168,Platense,Dalla Líbera,39,,penalti,RSSSF
@@ -12224,11 +12907,31 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0169,Estudiantes,Palermo,23,,normal,RSSSF
 1995-96-apertura-0169,Estudiantes,Mazzucco,63,,normal,RSSSF
 1995-96-apertura-0170,Banfield,J.R. Cruz,41,,normal,RSSSF
+1995-96-apertura-0171,River Plate,Amato,22,,normal,RSSSF
+1995-96-apertura-0171,River Plate,Gallardo,36,,penalti,RSSSF
+1995-96-apertura-0171,River Plate,Gallardo,66,,normal,RSSSF
+1995-96-apertura-0171,Colón,Gambier,74,,normal,RSSSF
+1995-96-apertura-0171,Colón,Risso,88,,normal,RSSSF
 1995-96-apertura-0172,Estudiantes,Práttola,44,,normal,RSSSF
 1995-96-apertura-0172,Estudiantes,S.S. Maciel,88,,normal,RSSSF
 1995-96-apertura-0172,Boca Juniors,Fabbri,33,,normal,RSSSF
+1995-96-apertura-0173,Platense,Maisterra,19,,normal,RSSSF
+1995-96-apertura-0173,Platense,F.D. Rodríguez,36,,normal,RSSSF
+1995-96-apertura-0173,Independiente,Cagna,43,,normal,RSSSF
+1995-96-apertura-0173,Independiente,Cagna,79,,normal,RSSSF
+1995-96-apertura-0174,Lanús,A.M. López,23,,normal,RSSSF
+1995-96-apertura-0174,Lanús,A.M. López,53,,normal,RSSSF
 1995-96-apertura-0175,Racing Club,R.O. Capria,20,,normal,RSSSF
 1995-96-apertura-0175,Racing Club,De Vicente,30,,normal,RSSSF
+1995-96-apertura-0176,Banfield,J.R. Arce,57,,normal,RSSSF
+1995-96-apertura-0176,Banfield,Alvarenga,71,,normal,RSSSF
+1995-96-apertura-0176,San Lorenzo,Biaggio,17,,normal,RSSSF
+1995-96-apertura-0176,San Lorenzo,Biaggio,24,,normal,RSSSF
+1995-96-apertura-0176,San Lorenzo,E.F. González,42,,normal,RSSSF
+1995-96-apertura-0176,San Lorenzo,Biaggio,54,,normal,RSSSF
+1995-96-apertura-0176,San Lorenzo,Netto,66,,penalti,RSSSF
+1995-96-apertura-0178,Vélez Sarsfield,J.O. Flores,48,,normal,RSSSF
+1995-96-apertura-0178,Vélez Sarsfield,J.O. Flores,89,,normal,RSSSF
 1995-96-apertura-0180,Huracán,N.A. Fernández,88,,normal,RSSSF
 1995-96-apertura-0181,San Lorenzo,Biaggio,21,,normal,RSSSF
 1995-96-apertura-0181,San Lorenzo,Rivadero,51,,normal,RSSSF
@@ -12255,6 +12958,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-apertura-0188,Argentinos Juniors,R. Quinteros,38,,normal,RSSSF
 1995-96-apertura-0188,Argentinos Juniors,R.A. Bernuncio,49,,normal,RSSSF
 1995-96-apertura-0188,River Plate,Amato,88,,normal,RSSSF
+1995-96-apertura-0190,Ferro Carril Oeste,V.M. López,69,,normal,RSSSF
+1995-96-apertura-0190,Platense,Fuertes,1,,normal,RSSSF
+1995-96-apertura-0190,Platense,Saraiba,35,,normal,RSSSF
+1995-96-apertura-0190,Platense,Mena,40,,penalti,RSSSF
+1995-96-apertura-0190,Platense,Mena,47,,normal,RSSSF
 1995-96-clausura-0001,Boca Juniors,Maradona,3,,penalti,RSSSF
 1995-96-clausura-0001,Boca Juniors,R.A. Peralta,5,,normal,RSSSF
 1995-96-clausura-0001,Boca Juniors,S.D. Martínez,64,,normal,RSSSF
@@ -12286,9 +12994,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0013,Huracán,H.R. Guerra,89,,normal,RSSSF
 1995-96-clausura-0013,Boca Juniors,J.S. Verón,85,,normal,RSSSF
 1995-96-clausura-0015,Racing Club,Carrario,49,,normal,RSSSF
+1995-96-clausura-0016,Platense,Coria,52,,normal,RSSSF
+1995-96-clausura-0016,Platense,Mena,63,,normal,RSSSF
+1995-96-clausura-0016,Platense,Coria,78,,normal,RSSSF
+1995-96-clausura-0016,Newell's Old Boys,Gabrich,32,,normal,RSSSF
+1995-96-clausura-0016,Newell's Old Boys,Gabrich,74,,normal,RSSSF
 1995-96-clausura-0017,Deportivo Español,C.S. Galván,37,,normal,RSSSF
 1995-96-clausura-0018,Estudiantes,Craviotto,14,,normal,RSSSF
 1995-96-clausura-0018,Estudiantes,S.S. Maciel,53,,normal,RSSSF
+1995-96-clausura-0019,Gimnasia de Jujuy,H.M. Lobo,32,,normal,RSSSF
+1995-96-clausura-0019,Gimnasia de Jujuy,H.M. Lobo,39,,normal,RSSSF
+1995-96-clausura-0019,Gimnasia La Plata,Guglielmipietro,80,,normal,RSSSF
 1995-96-clausura-0020,Ferro Carril Oeste,M.A. Vargas,68,,normal,RSSSF
 1995-96-clausura-0020,Lanús,Cravero,73,,normal,RSSSF
 1995-96-clausura-0021,Vélez Sarsfield,Pandolfi,48,,normal,RSSSF
@@ -12296,6 +13012,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0021,Vélez Sarsfield,H.M. Herrera,90,,normal,RSSSF
 1995-96-clausura-0021,River Plate,J.A. Gómez,30,,normal,RSSSF
 1995-96-clausura-0021,River Plate,Crespo,86,,normal,RSSSF
+1995-96-clausura-0022,Gimnasia La Plata,Márcico,31,,normal,RSSSF
+1995-96-clausura-0022,Gimnasia La Plata,Márcico,76,,penalti,RSSSF
 1995-96-clausura-0023,Boca Juniors,Caniggia,16,,normal,RSSSF
 1995-96-clausura-0024,Gimnasia de Jujuy,Piaggio,50,,normal,RSSSF
 1995-96-clausura-0024,Gimnasia de Jujuy,M.H. Lobo,80,,normal,RSSSF
@@ -12303,6 +13021,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0025,Belgrano,Brusco,50,,normal,RSSSF
 1995-96-clausura-0025,Racing Club,C.J. López,23,,normal,RSSSF
 1995-96-clausura-0025,Racing Club,Delgado,90,,normal,RSSSF
+1995-96-clausura-0026,Estudiantes,S.S. Maciel,2,,normal,RSSSF
+1995-96-clausura-0026,Estudiantes,S.S. Maciel,88,,normal,RSSSF
 1995-96-clausura-0027,Newell's Old Boys,H.D.C. Franco,74,,normal,RSSSF
 1995-96-clausura-0027,Ferro Carril Oeste,Duré,71,,normal,RSSSF
 1995-96-clausura-0028,Lanús,Simionato,43,,penalti,RSSSF
@@ -12310,6 +13030,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0029,Banfield,F.L. Alegre,1,,penalti,RSSSF
 1995-96-clausura-0029,Banfield,J.R. Cruz,82,,normal,RSSSF
 1995-96-clausura-0029,Rosario Central,R.F. Da Silva,6,,normal,RSSSF
+1995-96-clausura-0030,Argentinos Juniors,J.M. Fernández,74,,normal,RSSSF
+1995-96-clausura-0030,Deportivo Español,Grondona,43,,normal,RSSSF
+1995-96-clausura-0030,Deportivo Español,H.N. Castillo,81,,normal,RSSSF
+1995-96-clausura-0030,Deportivo Español,H.N. Castillo,85,,normal,RSSSF
+1995-96-clausura-0031,Deportivo Español,H.N. Castillo,58,,normal,RSSSF
+1995-96-clausura-0031,Deportivo Español,H.N. Castillo,82,,normal,RSSSF
 1995-96-clausura-0032,Rosario Central,J.C. Ramírez,15,,contra,RSSSF
 1995-96-clausura-0032,Rosario Central,Cardetti,80,,normal,RSSSF
 1995-96-clausura-0032,Rosario Central,Bustos Montoya,85,,normal,RSSSF
@@ -12341,6 +13067,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0041,Vélez Sarsfield,Camps,63,,normal,RSSSF
 1995-96-clausura-0041,Estudiantes,Mazzucco,49,,normal,RSSSF
 1995-96-clausura-0041,Estudiantes,L.A. Ramos,90,,penalti,RSSSF
+1995-96-clausura-0042,Rosario Central,Cardetti,63,,normal,RSSSF
+1995-96-clausura-0042,Rosario Central,Cardetti,71,,normal,RSSSF
+1995-96-clausura-0042,River Plate,Ortega,84,,normal,RSSSF
+1995-96-clausura-0043,Boca Juniors,Caniggia,20,,normal,RSSSF
+1995-96-clausura-0043,Boca Juniors,Caniggia,70,,normal,RSSSF
+1995-96-clausura-0043,Lanús,Ibazaga,62,,normal,RSSSF
 1995-96-clausura-0044,Racing Club,R.O. Capria,35,,penalti,RSSSF
 1995-96-clausura-0045,San Lorenzo,Figueroa,27,,normal,RSSSF
 1995-96-clausura-0045,Gimnasia de Jujuy,Trimarchi,28,,normal,RSSSF
@@ -12360,6 +13092,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0050,Newell's Old Boys,Liendo,90,,normal,RSSSF
 1995-96-clausura-0051,Rosario Central,R.E. Gordillo,62,,normal,RSSSF
 1995-96-clausura-0052,Newell's Old Boys,H.D.C. Franco,24,,normal,RSSSF
+1995-96-clausura-0053,River Plate,Cedres,16,,normal,RSSSF
+1995-96-clausura-0053,Independiente,Burruchaga,3,,normal,RSSSF
+1995-96-clausura-0053,Independiente,Alvez,38,,normal,RSSSF
+1995-96-clausura-0053,Independiente,Alvez,55,,normal,RSSSF
+1995-96-clausura-0053,Independiente,Dorta,87,,normal,RSSSF
 1995-96-clausura-0054,Huracán,Guerra,79,,normal,RSSSF
 1995-96-clausura-0054,San Lorenzo,Carranza,61,,penalti,RSSSF
 1995-96-clausura-0055,Deportivo Español,Chilavert,1,,contra,RSSSF
@@ -12376,10 +13113,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0058,Estudiantes,S.S. Maciel,48,,normal,RSSSF
 1995-96-clausura-0058,Banfield,Glaría,56,,normal,RSSSF
 1995-96-clausura-0058,Banfield,F.L. Alegre,75,,penalti,RSSSF
+1995-96-clausura-0059,Belgrano,Tosello,51,,normal,RSSSF
+1995-96-clausura-0059,Belgrano,Tosello,63,,penalti,RSSSF
 1995-96-clausura-0061,San Lorenzo,Silas,11,,normal,RSSSF
 1995-96-clausura-0062,Huracán,Guerra,49,,normal,RSSSF
 1995-96-clausura-0063,Independiente,Facciutto,59,,normal,RSSSF
 1995-96-clausura-0063,Boca Juniors,J.L. Calderón,43,,normal,RSSSF
+1995-96-clausura-0064,River Plate,Crespo,37,,normal,RSSSF
+1995-96-clausura-0064,River Plate,Crespo,42,,normal,RSSSF
+1995-96-clausura-0064,River Plate,Medina Bello,55,,normal,RSSSF
+1995-96-clausura-0064,River Plate,Almeyda,84,,normal,RSSSF
+1995-96-clausura-0064,Racing Club,C.J. López,33,,normal,RSSSF
+1995-96-clausura-0064,Racing Club,Carrario,65,,normal,RSSSF
 1995-96-clausura-0065,Vélez Sarsfield,Camps,43,,normal,RSSSF
 1995-96-clausura-0065,Vélez Sarsfield,J.O. Flores,48,,normal,RSSSF
 1995-96-clausura-0065,Vélez Sarsfield,Camps,62,,normal,RSSSF
@@ -12401,15 +13146,35 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0072,Banfield,J.R. Cruz,16,,penalti,RSSSF
 1995-96-clausura-0072,Banfield,Malvestitti,22,,normal,RSSSF
 1995-96-clausura-0072,Banfield,Delfino,85,,normal,RSSSF
+1995-96-clausura-0073,Gimnasia La Plata,Gmo. Barrios Schelotto,2,,normal,RSSSF
+1995-96-clausura-0073,Gimnasia La Plata,Gmo. Barrios Schelotto,13,,normal,RSSSF
+1995-96-clausura-0073,Gimnasia La Plata,Albornoz,40,,normal,RSSSF
+1995-96-clausura-0073,Gimnasia La Plata,Gmo. Barrios Schelotto,44,,normal,RSSSF
+1995-96-clausura-0073,Gimnasia La Plata,Márcico,51,,penalti,RSSSF
+1995-96-clausura-0073,Gimnasia La Plata,Saccone,79,,normal,RSSSF
+1995-96-clausura-0074,Estudiantes,Palermo,4,,normal,RSSSF
+1995-96-clausura-0074,Estudiantes,S.S. Maciel,48,,normal,RSSSF
+1995-96-clausura-0074,Estudiantes,S.S. Maciel,65,,penalti,RSSSF
+1995-96-clausura-0074,River Plate,Francescoli,28,,normal,RSSSF
 1995-96-clausura-0075,Racing Club,Facciutto,59,,normal,RSSSF
 1995-96-clausura-0075,Independiente,Calderón,43,,normal,RSSSF
 1995-96-clausura-0077,Newell's Old Boys,Aquino,39,,normal,RSSSF
 1995-96-clausura-0077,Colón,Gambier,67,,normal,RSSSF
+1995-96-clausura-0078,Lanús,A.M. López,2,,normal,RSSSF
+1995-96-clausura-0078,Lanús,A.M. López,30,,normal,RSSSF
+1995-96-clausura-0078,Lanús,N.O. González,74,,normal,RSSSF
 1995-96-clausura-0079,Platense,Calcaterra,37,,normal,RSSSF
 1995-96-clausura-0079,Platense,Romagnoli,42,,normal,RSSSF
 1995-96-clausura-0079,Belgrano,Brusco,22,,normal,RSSSF
 1995-96-clausura-0080,Deportivo Español,W. Núñez,21,,normal,RSSSF
 1995-96-clausura-0080,Rosario Central,Coudet,13,,normal,RSSSF
+1995-96-clausura-0081,Vélez Sarsfield,Trotta,2,,penalti,RSSSF
+1995-96-clausura-0081,Vélez Sarsfield,Camps,7,,normal,RSSSF
+1995-96-clausura-0081,Vélez Sarsfield,H.M. Herrera,40,,normal,RSSSF
+1995-96-clausura-0081,Vélez Sarsfield,Trotta,67,,penalti,RSSSF
+1995-96-clausura-0081,Platense,Coria,3,,normal,RSSSF
+1995-96-clausura-0081,Platense,Coria,59,,normal,RSSSF
+1995-96-clausura-0081,Platense,Fuertes,63,,normal,RSSSF
 1995-96-clausura-0082,Colón,Saralegui,85,,normal,RSSSF
 1995-96-clausura-0083,River Plate,J.A. Gómez,62,,normal,RSSSF
 1995-96-clausura-0083,River Plate,J. Rossi,84,,normal,RSSSF
@@ -12418,8 +13183,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0084,Gimnasia La Plata,A.G. Pereyra,72,,normal,RSSSF
 1995-96-clausura-0084,Independiente,J.L. Calderón,4,,normal,RSSSF
 1995-96-clausura-0084,Independiente,Dorta,44,,normal,RSSSF
+1995-96-clausura-0086,San Lorenzo,E.F. González,27,,normal,RSSSF
+1995-96-clausura-0086,San Lorenzo,E.F. González,31,,normal,RSSSF
+1995-96-clausura-0086,Lanús,H.A. Morales,16,,normal,RSSSF
+1995-96-clausura-0086,Lanús,A.M. López,57,,normal,RSSSF
+1995-96-clausura-0086,Lanús,A.M. López,61,,normal,RSSSF
 1995-96-clausura-0088,Rosario Central,R.F. Da Silva,5,,normal,RSSSF
 1995-96-clausura-0088,Gimnasia de Jujuy,M.H. Lobo,27,,normal,RSSSF
+1995-96-clausura-0089,Belgrano,Oste,16,,normal,RSSSF
+1995-96-clausura-0089,Belgrano,Tosello,37,,normal,RSSSF
+1995-96-clausura-0089,Belgrano,Tosello,70,,normal,RSSSF
+1995-96-clausura-0089,Ferro Carril Oeste,Nicotra,72,,normal,RSSSF
 1995-96-clausura-0090,Argentinos Juniors,Cardinal,62,,penalti,RSSSF
 1995-96-clausura-0090,Newell's Old Boys,Gabrich,23,,normal,RSSSF
 1995-96-clausura-0091,Deportivo Español,Odriozola,64,,penalti,RSSSF
@@ -12427,6 +13201,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0091,Racing Club,Fleita,88,,normal,RSSSF
 1995-96-clausura-0092,Newell's Old Boys,Raggio,80,,penalti,RSSSF
 1995-96-clausura-0092,San Lorenzo,R.A. Bernuncio,12,,normal,RSSSF
+1995-96-clausura-0093,Gimnasia de Jujuy,Gorostidi,70,,normal,RSSSF
+1995-96-clausura-0093,River Plate,Cedrés,7,,normal,RSSSF
+1995-96-clausura-0093,River Plate,G.O. Amato,20,,normal,RSSSF
+1995-96-clausura-0093,River Plate,Ortega,52,,normal,RSSSF
+1995-96-clausura-0093,River Plate,Ortega,60,,normal,RSSSF
 1995-96-clausura-0094,Boca Juniors,Fabbri,22,,normal,RSSSF
 1995-96-clausura-0094,Boca Juniors,J.S. Verón,30,,normal,RSSSF
 1995-96-clausura-0094,Boca Juniors,Caniggia,60,,normal,RSSSF
@@ -12434,10 +13213,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0094,Argentinos Juniors,Cardinal,63,,penalti,RSSSF
 1995-96-clausura-0096,Huracán,L.A. Monzón,41,,normal,RSSSF
 1995-96-clausura-0096,Rosario Central,R.F. Da Silva,47,,normal,RSSSF
+1995-96-clausura-0097,Lanús,Schurrer,3,,normal,RSSSF
+1995-96-clausura-0097,Lanús,Enría,37,,normal,RSSSF
+1995-96-clausura-0097,Lanús,A.M. López,48,,normal,RSSSF
+1995-96-clausura-0097,Lanús,A.M. López,89,,normal,RSSSF
+1995-96-clausura-0097,Belgrano,17 Tosello,,,penalti,RSSSF
+1995-96-clausura-0097,Belgrano,Spallina,72,,normal,RSSSF
 1995-96-clausura-0098,Gimnasia La Plata,Albornoz,44,,normal,RSSSF
 1995-96-clausura-0098,Gimnasia La Plata,Saccone,77,,normal,RSSSF
 1995-96-clausura-0098,Gimnasia La Plata,Albornoz,88,,normal,RSSSF
 1995-96-clausura-0098,Colón,Gambier,53,,normal,RSSSF
+1995-96-clausura-0100,Banfield,J.R. Cruz,65,,normal,RSSSF
+1995-96-clausura-0100,Banfield,J.R. Cruz,69,,normal,RSSSF
+1995-96-clausura-0100,Banfield,F.L. Alegre,71,,normal,RSSSF
+1995-96-clausura-0100,Banfield,Glaría,82,,normal,RSSSF
+1995-96-clausura-0100,Banfield,Malvestitti,87,,normal,RSSSF
 1995-96-clausura-0101,Racing Club,M.L. Lobo,14,,contra,RSSSF
 1995-96-clausura-0101,Racing Club,Fleita,18,,normal,RSSSF
 1995-96-clausura-0101,Racing Club,R.O. Capria,44,,penalti,RSSSF
@@ -12491,8 +13281,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0116,Gimnasia La Plata,G.O. Sanguinetti,37,,normal,RSSSF
 1995-96-clausura-0116,San Lorenzo,Biaggio,7,,normal,RSSSF
 1995-96-clausura-0116,San Lorenzo,Ruggeri,48,,normal,RSSSF
+1995-96-clausura-0117,Colón,C.O. García,56,,normal,RSSSF
+1995-96-clausura-0117,Argentinos Juniors,Vespa,47,,normal,RSSSF
+1995-96-clausura-0117,Argentinos Juniors,Vespa,62,,normal,RSSSF
 1995-96-clausura-0118,Boca Juniors,S.D. Martínez,80,,normal,RSSSF
 1995-96-clausura-0118,Boca Juniors,Maradona,89,,normal,RSSSF
+1995-96-clausura-0119,Platense,Fuertes,78,,normal,RSSSF
+1995-96-clausura-0119,Platense,Fuertes,81,,normal,RSSSF
+1995-96-clausura-0119,River Plate,Gallardo,83,,penalti,RSSSF
 1995-96-clausura-0120,Lanús,H.A. Morales,13,,normal,RSSSF
 1995-96-clausura-0120,Lanús,Enría,45,,normal,RSSSF
 1995-96-clausura-0120,Lanús,H.A. Morales,56,,normal,RSSSF
@@ -12507,8 +13303,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0123,Belgrano,Spallina,25,,normal,RSSSF
 1995-96-clausura-0123,Belgrano,L.C. Torres,53,,normal,RSSSF
 1995-96-clausura-0123,Gimnasia La Plata,Márcico,72,,normal,RSSSF
+1995-96-clausura-0125,Vélez Sarsfield,Camps,20,,normal,RSSSF
+1995-96-clausura-0125,Vélez Sarsfield,Chilavert,40,,normal,RSSSF
+1995-96-clausura-0125,Vélez Sarsfield,Chilavert,43,,penalti,RSSSF
+1995-96-clausura-0125,Vélez Sarsfield,Gamboa,79,,contra,RSSSF
+1995-96-clausura-0125,Vélez Sarsfield,J.O. Flores,87,,normal,RSSSF
+1995-96-clausura-0125,Boca Juniors,Caniggia,15,,normal,RSSSF
 1995-96-clausura-0126,Banfield,J.R. Cruz,5,,normal,RSSSF
 1995-96-clausura-0126,Newell's Old Boys,Canobbio,64,,normal,RSSSF
+1995-96-clausura-0127,Rosario Central,Cardetti,57,,normal,RSSSF
+1995-96-clausura-0127,Rosario Central,Pobersnik,70,,normal,RSSSF
+1995-96-clausura-0127,Rosario Central,Pobersnik,89,,normal,RSSSF
+1995-96-clausura-0127,Lanús,Simionato,54,,normal,RSSSF
 1995-96-clausura-0128,River Plate,Gallardo,72,,penalti,RSSSF
 1995-96-clausura-0128,River Plate,S.H. Solari,78,,normal,RSSSF
 1995-96-clausura-0128,Ferro Carril Oeste,Duré,31,,penalti,RSSSF
@@ -12519,8 +13325,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0130,Deportivo Español,W. Núñez,71,,normal,RSSSF
 1995-96-clausura-0130,Gimnasia de Jujuy,Trimarchi,16,,normal,RSSSF
 1995-96-clausura-0130,Gimnasia de Jujuy,A.S. González,84,,normal,RSSSF
+1995-96-clausura-0131,Independiente,Alvez,34,,normal,RSSSF
+1995-96-clausura-0131,Independiente,Burruchaga,64,,penalti,RSSSF
+1995-96-clausura-0131,Independiente,Burruchaga,85,,penalti,RSSSF
+1995-96-clausura-0131,Gimnasia de Jujuy,Trimarchi,47,,normal,RSSSF
+1995-96-clausura-0131,Gimnasia de Jujuy,C.L. Morales,56,,normal,RSSSF
 1995-96-clausura-0132,Argentinos Juniors,Lauría Calvo,48,,normal,RSSSF
 1995-96-clausura-0132,Argentinos Juniors,J.R. Quinteros,82,,normal,RSSSF
+1995-96-clausura-0133,Boca Juniors,Caniggia,55,,normal,RSSSF
+1995-96-clausura-0133,Boca Juniors,Tchami,58,,normal,RSSSF
+1995-96-clausura-0133,Boca Juniors,Tchami,88,,normal,RSSSF
+1995-96-clausura-0133,Banfield,J.R. Cruz,67,,normal,RSSSF
+1995-96-clausura-0133,Banfield,Baena,81,,normal,RSSSF
 1995-96-clausura-0134,Racing Club,C.J. López,27,,normal,RSSSF
 1995-96-clausura-0134,Racing Club,Cocca,31,,contra,RSSSF
 1995-96-clausura-0134,Racing Club,C.J. López,54,,normal,RSSSF
@@ -12533,6 +13349,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0137,Newell's Old Boys,B. Jiménez,52,,normal,RSSSF
 1995-96-clausura-0138,Huracán,R.G. Flores,16,,normal,RSSSF
 1995-96-clausura-0138,Huracán,Barijho,61,,normal,RSSSF
+1995-96-clausura-0139,Platense,Coria,35,,normal,RSSSF
+1995-96-clausura-0139,Platense,Coria,89,,normal,RSSSF
+1995-96-clausura-0139,Estudiantes,Craviotto,1,,normal,RSSSF
+1995-96-clausura-0139,Estudiantes,Palermo,46,,normal,RSSSF
 1995-96-clausura-0140,Lanús,Simionato,68,,penalti,RSSSF
 1995-96-clausura-0140,Lanús,Di Carlo,72,,normal,RSSSF
 1995-96-clausura-0140,River Plate,Altamirano,29,,normal,RSSSF
@@ -12558,6 +13378,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0152,Colón,Kuzemka,38,,normal,RSSSF
 1995-96-clausura-0152,Colón,Agoglia,53,,normal,RSSSF
 1995-96-clausura-0153,Newell's Old Boys,B. Jiménez,13,,normal,RSSSF
+1995-96-clausura-0154,Boca Juniors,Basualdo,43,,normal,RSSSF
+1995-96-clausura-0154,Boca Juniors,Basualdo,50,,normal,RSSSF
+1995-96-clausura-0154,Boca Juniors,Caniggia,66,,normal,RSSSF
+1995-96-clausura-0154,Boca Juniors,Caniggia,75,,normal,RSSSF
+1995-96-clausura-0154,River Plate,Amato,87,,normal,RSSSF
 1995-96-clausura-0155,Independiente,Burruchaga,62,,normal,RSSSF
 1995-96-clausura-0155,Huracán,Barijho,49,,normal,RSSSF
 1995-96-clausura-0155,Huracán,P.D. Barrios,57,,penalti,RSSSF
@@ -12580,23 +13405,51 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1995-96-clausura-0164,Vélez Sarsfield,Almandoz,47,,contra,RSSSF
 1995-96-clausura-0164,Vélez Sarsfield,J.O. Flores,75,,normal,RSSSF
 1995-96-clausura-0164,San Lorenzo,Arbarello,58,,normal,RSSSF
+1995-96-clausura-0165,Huracán,N.A. Fernández,11,,normal,RSSSF
+1995-96-clausura-0165,Huracán,Fabbro,35,,normal,RSSSF
+1995-96-clausura-0165,Platense,Mena,21,,normal,RSSSF
+1995-96-clausura-0165,Platense,Mena,53,,normal,RSSSF
 1995-96-clausura-0166,Deportivo Español,Núñez,77,,normal,RSSSF
 1995-96-clausura-0167,Ferro Carril Oeste,D.D. Bustos,39,,normal,RSSSF
 1995-96-clausura-0168,Racing Club,C.J. López,82,,normal,RSSSF
+1995-96-clausura-0169,Estudiantes,Palermo,27,,normal,RSSSF
+1995-96-clausura-0169,Estudiantes,Palermo,72,,normal,RSSSF
+1995-96-clausura-0169,Newell's Old Boys,Aquino,44,,normal,RSSSF
+1995-96-clausura-0169,Newell's Old Boys,Manso,63,,normal,RSSSF
 1995-96-clausura-0170,Rosario Central,Bustos Montoya,80,,normal,RSSSF
 1995-96-clausura-0170,Colón,R.N. Díaz,56,,normal,RSSSF
 1995-96-clausura-0171,Independiente,J.D. Martínez,75,,normal,RSSSF
 1995-96-clausura-0171,Platense,Coria,60,,penalti,RSSSF
+1995-96-clausura-0172,Gimnasia La Plata,R.C. Sosa,14,,normal,RSSSF
+1995-96-clausura-0172,Gimnasia La Plata,J.F. Albornoz,22,,penalti,RSSSF
+1995-96-clausura-0172,Gimnasia La Plata,R.C. Sosa,43,,normal,RSSSF
+1995-96-clausura-0172,Gimnasia La Plata,R.C. Sosa,59,,normal,RSSSF
+1995-96-clausura-0172,Gimnasia La Plata,G.O. Sanguinetti,66,,normal,RSSSF
+1995-96-clausura-0172,Gimnasia La Plata,Morant,70,,normal,RSSSF
+1995-96-clausura-0173,Boca Juniors,J.S. Verón,14,,normal,RSSSF
+1995-96-clausura-0173,Estudiantes,Palermo,22,,normal,RSSSF
+1995-96-clausura-0173,Estudiantes,Palermo,72,,normal,RSSSF
 1995-96-clausura-0174,Colón,Muller,14,,normal,RSSSF
 1995-96-clausura-0175,Ferro Carril Oeste,Cordon,79,,normal,RSSSF
 1995-96-clausura-0175,Ferro Carril Oeste,D.D. Bustos,90,,normal,RSSSF
 1995-96-clausura-0175,Huracán,P.D. Barrios,18,,normal,RSSSF
+1995-96-clausura-0176,Argentinos Juniors,J.R. Quinteros,45,,normal,RSSSF
+1995-96-clausura-0176,Rosario Central,Da Silva,47,,normal,RSSSF
+1995-96-clausura-0176,Rosario Central,Pobersnik,50,,normal,RSSSF
+1995-96-clausura-0176,Rosario Central,Bustos Montoya,54,,normal,RSSSF
+1995-96-clausura-0176,Rosario Central,Bustos Montoya,73,,normal,RSSSF
+1995-96-clausura-0176,Rosario Central,Da Silva,75,,normal,RSSSF
+1995-96-clausura-0176,Rosario Central,Da Silva,79,,penalti,RSSSF
 1995-96-clausura-0177,Belgrano,Tosello,23,,normal,RSSSF
 1995-96-clausura-0177,Vélez Sarsfield,Posse,54,,normal,RSSSF
 1995-96-clausura-0177,Vélez Sarsfield,Camps,87,,normal,RSSSF
 1995-96-clausura-0178,Lanús,A.M. López,43,,normal,RSSSF
 1995-96-clausura-0178,Gimnasia de Jujuy,Morales Santos,1,,normal,RSSSF
 1995-96-clausura-0180,Banfield,Malvestitti,43,,normal,RSSSF
+1995-96-clausura-0182,Rosario Central,Carbonari,23,,normal,RSSSF
+1995-96-clausura-0182,Rosario Central,Carbonari,51,,normal,RSSSF
+1995-96-clausura-0182,Rosario Central,Coudet,80,,normal,RSSSF
+1995-96-clausura-0182,San Lorenzo,Arbarello,11,,normal,RSSSF
 1995-96-clausura-0183,Deportivo Español,Odriozola,88,,normal,RSSSF
 1995-96-clausura-0183,Boca Juniors,C.A. González,57,,normal,RSSSF
 1995-96-clausura-0185,Racing Club,Mandra,67,,normal,RSSSF

@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 109, de 1912 a 2025; 18 sem jogos.
-- **Jogos:** 17318 (17272 com placar); **gols:** 47454; **gols com autor:** 22158 (47%); **cartões:** 21067.
+- **Jogos:** 17318 (17272 com placar); **gols:** 47454; **gols com autor:** 23573 (50%); **cartões:** 21067.
 - **Clubes:** 167; **artilheiros:** 97 edições com artilheiro (101 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2552 linhas.
 - **No banco:** sim; **último commit do pacote:** a0222fa9.
@@ -67,10 +67,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1950s | 10 | 960 | 7% | 0% | 9% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 10 | 1266 | 25% | 0% | 32% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 10 | 687 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 10 | 3010 | 76% | 0% | 75% | 1% | 0% | 0% | 18% | 0.0 |
-| 1990s | 10 | 2127 | 76% | 0% | 99% | 0% | 0% | 0% | 8% | 0.0 |
+| 1980s | 10 | 3010 | 76% | 0% | 75% | 1% | 0% | 0% | 20% | 0.0 |
+| 1990s | 10 | 2127 | 76% | 0% | 99% | 0% | 0% | 0% | 26% | 0.0 |
 | 2000s | 10 | 2964 | 100% | 47% | 100% | 44% | 43% | 0% | 98% | 1.4 |
-| 2010s | 10 | 3217 | 100% | 99% | 100% | 99% | 91% | 1% | 95% | 2.2 |
+| 2010s | 10 | 3217 | 100% | 99% | 100% | 99% | 91% | 1% | 98% | 2.2 |
 | 2020s | 6 | 1849 | 100% | 100% | 100% | 100% | 100% | 0% | 99% | 5.3 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
@@ -233,7 +233,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1988: Regional (grupos, 4 grupos); Desempate do rebaixamento (mata_mata, jogo_unico); Final do Regional (mata_mata, jogo_unico); Primeira fase (grupos, 4 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
 - 1989: Regional (grupos, 2 grupos); Primeira fase (grupos, 3 grupos); Fase final (liga); Final (mata_mata, jogo_unico)
 - 1990: Regional (liga); Regional II (liga); Final do Regional II (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
-- 1991: Quartas de final do Regional II (mata_mata, ida_volta); Quartas de final do Regional (mata_mata, ida_volta); Regional (liga); Regional II (grupos, 2 grupos)
+- 1991: Quartas de final do Regional (mata_mata, ida_volta); Quartas de final do Regional II (mata_mata, ida_volta); Regional (liga); Regional II (grupos, 2 grupos)
 - 1994: Apertura (grupos, 2 grupos); Final do Apertura (mata_mata, jogo_unico); Primeira fase (grupos, 2 grupos)
 - 1995: Primeira fase (liga); Fase final (liga)
 - 1997: Apertura (liga); Clausura (liga)

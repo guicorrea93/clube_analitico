@@ -105,7 +105,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 | 1997 | 13 | 190 (190) | 528 | 7 | 0 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 12 | 170 (170) | 472 | 0 | 6 / 4 | Olimpia | RSSSF (para98) |
 | 1999 | 11 | 145 (145) | 398 | 12 | 6 / 3 | Olimpia | RSSSF (para99) |
-| 2000 | 10 | 163 (163) | 437 | 120 | 3 / 1 | Olimpia | RSSSF (para00) |
+| 2000 | 10 | 163 (163) | 437 | 218 | 3 / 1 | Olimpia | RSSSF (para00) |
 | 2001 | 10 | 104 (104) | 295 | 278 | 2 / 0 | Cerro Porteño | RSSSF (para01) |
 | 2002 | 10 | 151 (151) | 418 | 413 | 3 / 0 | Libertad | RSSSF (para02) |
 | 2003 | 10 | 153 (152) | 398 | 394 | 5 / 0 | Libertad | RSSSF (para03) |

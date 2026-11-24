@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 126, de 1900 a 2025; 45 sem jogos.
-- **Jogos:** 12456 (12359 com placar); **gols:** 35118; **gols com autor:** 19072 (54%); **cartões:** 9481.
+- **Jogos:** 12456 (12359 com placar); **gols:** 35118; **gols com autor:** 19085 (54%); **cartões:** 9481.
 - **Clubes:** 84; **artilheiros:** 123 edições com artilheiro (140 linhas, com empates).
 - **Classificação final:** 126 edições; **tabelas publicadas guardadas para conferência:** 2761 linhas.
 - **No banco:** sim; **último commit do pacote:** a0222fa9.
