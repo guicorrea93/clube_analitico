@@ -114,12 +114,12 @@ abaixo são o histórico; o que está em aberto é esta lista.
     `clubes_ven.py`: Unicol e Atlético Zulia viram "Atlético Zulia" (Maracaibo); título de 1997/98 e vice de 1996/97
     saem da Universidad de Los Andes. `ven-1` e `ven-copa` reimportados.
   - C2. RESOLVIDA (24/11): a Bolívia fica de 1950 em diante, como está.
-  - C3. ANALISADA (24/11), esperando o ok do Guilherme. Edições: 66; o anexo da Wikipédia e a lista da RSSSF contam as
+  - C3. RESOLVIDA (24/11, ok do Guilherme: fica como está, Galicia em 1970 e 66 edições; nota na observação da edição). Edições: 66; o anexo da Wikipédia e a lista da RSSSF contam as
     mesmas 66, e o "63" não aparece em nenhuma fonte. 1970: a RSSSF (jogos da final 2-0 e 1-1, tirados de três jornais de
     Caracas, e a lista de campeões) e a página do Deportivo Galicia na Wikipédia em inglês dão o Galicia; a Wikipédia em
     espanhol (lista, anexo, texto e palmarés do Galicia e do Deportivo Miranda) e a lista da Wikipédia em inglês dão o
-    Deportivo Italia, com os mesmos placares e sem citar jogo. Recomendação: ficar como está (Galicia, pelos jogos), com
-    a divergência registrada.
+    Deportivo Italia, com os mesmos placares e sem citar jogo. Decidido: fica como está (Galicia, pelos jogos), com a
+    divergência registrada.
 - **D. Trabalho do agente 4 (quando o Guilherme mandar):**
   - D1. Abertos que esperam 3ª fonte: QU-005 (datas do Boca), CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
     CO-004 (1966), CO-022 (números esperados e diagnóstico do relatório).

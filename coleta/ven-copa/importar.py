@@ -148,7 +148,10 @@ EDICOES += [
     ed("1968", 1968, 1969, [_secao("venez68", "Copa Venezuela 1968")], [(r"^Group Stage", GRU)] + KO,
        final_desempate=True, obs="a RSSSF chama de 1968/69 (final e dois desempates em janeiro de 1969, decidida no último)"),
     ed("1969", 1969, 1969, [_secao("venez69", "Copa Venezuela 1969")], [(r"^Group Stage", GRU)] + KO),
-    ed("1970", 1970, 1970, [_secao("venez70", "Copa Venezuela 1970")], [(r"^Group Stage", GRU)] + KO),
+    ed("1970", 1970, 1970, [_secao("venez70", "Copa Venezuela 1970")], [(r"^Group Stage", GRU)] + KO,
+       obs="campeão Deportivo Galicia pelos jogos da final da RSSSF (2-0 e 1-1, de jornais de Caracas) e pela lista de campeões "
+           "da RSSSF; a Wikipédia em espanhol dá o Deportivo Italia com os mesmos placares (decisão C3 do Guilherme, 24/11/2026: "
+           "fica o Galicia)"),
     ed("1971", 1971, 1971, [_secao("venez71", "Copa Venezuela 1971")], [(r"^First Stage", GRU), (r"^Cuadrangular Final", FFIN)] + KO,
        obs=_TABELA),
     ed("1972", 1972, 1972, [_secao("venez72", "Copa Valencia")], KO, fase_padrao=GRU, obs="Copa Valencia; " + _TABELA),

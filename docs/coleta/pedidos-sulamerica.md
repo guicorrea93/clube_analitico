@@ -1260,3 +1260,5 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
   106 edições, 13580 jogos, 1 clubes novos -> OK`; `ven-copa: 66 edições, 1397 jogos, 1 clubes novos -> OK` (o clube novo
   é o "Atlético Zulia").
 - **Bolívia (C2):** fica de 1950 em diante, como está.
+- **Copa Venezuela (C3, ok do Guilherme em 24/11):** ficam as 66 edições e o Deportivo Galicia campeão de 1970, com a
+  divergência na observação da edição (`edicoes.csv`). Só essa observação mudou na `ven-copa`.

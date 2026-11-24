@@ -93,6 +93,7 @@ Gerado por coleta/comum-sulamerica/copa_rsssf.py (configuração em coleta/ven-c
 - 1966: Copa Caracas; final com dois desempates, decidida no último (2-2, 3-2 nos pênaltis)
 - 1967: Copa Cuatricentenario; triangular final em pontos corridos
 - 1968: a RSSSF chama de 1968/69 (final e dois desempates em janeiro de 1969, decidida no último)
+- 1970: campeão Deportivo Galicia pelos jogos da final da RSSSF (2-0 e 1-1, de jornais de Caracas) e pela lista de campeões da RSSSF; a Wikipédia em espanhol dá o Deportivo Italia com os mesmos placares (decisão C3 do Guilherme, 24/11/2026: fica o Galicia)
 - 1971: a RSSSF só traz a tabela (pontos corridos); campeão e vice da Wikipédia
 - 1972: Copa Valencia; a RSSSF só traz a tabela (pontos corridos); campeão e vice da Wikipédia
 - 1975: a RSSSF só traz a tabela (pontos corridos); campeão e vice da Wikipédia
