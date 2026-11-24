@@ -95,6 +95,42 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
 
 ## 3. De onde continuar (pendências, em ordem)
 
+**Lista completa das pendências (levantada em 24/11 a pedido do Guilherme, para nada ficar para trás).** Os itens 1 a 6
+abaixo são o histórico; o que está em aberto é esta lista.
+
+- **A. Do agente 1 (banco e site):**
+  - A1. Recarregar 7 ligas que estão no banco numa versão anterior às correções de 23-24/11: `uru-1`, `chi-1`, `col-1`,
+    `par-1`, `per-1`, `ecu-1`, `ven-1` (jogos no banco x pacote em 24/11: uru 12.464 x 12.456, chi 22.601 x 22.586,
+    col 22.788 x 23.418, par 7.865 x 7.823, per 17.316 x 17.318, ecu 14.195 x 14.175, ven 13.582 x 13.580). `arg-1`,
+    `bol-1` e as 7 copas estão iguais. Pedido registrado em `docs/coleta/pedidos-sulamerica.md` (24/11).
+  - A2. Opcional: recarregar `par-copa`, `ecu-copa`, `col-copa` e `chi-copa` (só a coluna `nomes_fonte` do `clubes.csv`).
+- **B. Da revisão:**
+  - B1. `docs/revisao/achados.csv` ainda marca "aberto" cerca de 190 ids da América do Sul já corrigidos (recados com os
+    ids em `pedidos-sulamerica.md`). Reconferir depois da recarga (A1) e fechar. O arquivo é da revisão: não mexer.
+  - B2. Nunca revisados: `bol-1`, `ven-1` e as 7 copas.
+- **C. Decisões do Guilherme:**
+  - C1. Venezuela: o campeão de 1997/98 "Atlético Zulia" é a Universidad de Los Andes (venezchamp) ou o Unicol (página de
+    1996/97)?
+  - C2. Bolívia: manter de 1950 em diante (como a Wikipédia e os 93 campeonatos da RSSSF) ou começar em 1958?
+  - C3. Copa Venezuela: 66 edições (anexo da Wikipédia) ou 63 (pesquisa de 23/11)? E 1970: Deportivo Galicia (jogos e
+    lista da RSSSF, como está) ou Deportivo Italia (Wikipédia)?
+- **D. Trabalho do agente 4 (quando o Guilherme mandar):**
+  - D1. Abertos que esperam 3ª fonte: QU-005 (datas do Boca), CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
+    CO-004 (1966), CO-022 (números esperados e diagnóstico do relatório).
+  - D2. Conferir se as ligas perdem autores de gol quando o colchete continua na linha de baixo ("[A 9, B 68;" +
+    "   C 87]"); o importador das copas já junta (`_autores_inteiros` em `copa_rsssf.py`).
+  - D3. O `coleta/arg-1/autores.py` não separa o formato "Alario 11m pen, 40 m pen / Musto 26m" (testado em 24/11:
+    `eh_autores` aceita, `separar` devolve None). Conferir em que anos da liga ele aparece e quantos gols se perdem.
+  - D4. Pedido do agente 1 (22/11, "quando o Guilherme mandar revisar"): classificação final de `bol-1` com todos os
+    clubes com jogos em 1960, 1976, 1990, 1993 e 1994; talvez também nas edições incompletas do `ven-1`.
+  - D5. Lacunas das copas que outra fonte (Wikipédia de cada edição) poderia fechar: Copa Chile 1984-1986 (parciais),
+    2013/14, 2014/15 e 2015 (grupos só em tabela), 2022, 2023 e 2025 (página começa no mata-mata); Copa Ecuador 2024 e
+    2025 e Copa Venezuela 2024 (só das oitavas); Copa Venezuela com 12 edições sem jogos; datas e cidades vazias.
+  - D6. 2ªs divisões, na ordem do guia geral (seção 7), só quando o Guilherme pedir.
+- **Ordem sugerida (24/11):** o Guilherme responde C1-C3 e avisa o agente 1 (A1); depois D2 e D3 (conferências de
+  autores); depois D1, D4 e D5 conforme ele mandar; por último D6.
+
+
 1. **Correções da revisão: FEITAS em 23/11** (`docs/revisao/plano-coleta-sulamerica.md`; um commit por liga, ids no fim
    de `docs/coleta/pedidos-sulamerica.md`): Argentino `30f0b00`, Uruguaio `31c14b0`, Chileno `209641e` (atenção: o leitor
    do Chile tinha `\b` virado backspace em três regex; corrigido), Colombiano `b8d739d`, Paraguaio `4583f7e`, Peruano
@@ -125,7 +161,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
      `wikipedia_jogos.py`, `ANOS_LISTAS`/`ANOS_TEXTO` (formatos de lista só nesses anos). ATENÇÃO: a chave do CORRIGE para
      jogo da Wikipédia é "wiki-es_<ano>:<linha>" (com hífen); "wiki:es_" nunca casou (corrigido no col-1 e no uru-1).
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
-3. **Copas nacionais (EM ANDAMENTO desde 24/11; decisões do Guilherme em `copas-nacionais.md`):** as sete (ARG, URU, CHI,
+3. **Copas nacionais: FEITAS em 24/11 (decisões do Guilherme em `copas-nacionais.md`):** as sete (ARG, URU, CHI,
    COL, PAR, ECU, VEN), contagem da Wikipédia, das menores às maiores: Uruguai (FEITO, `uru-copa`), Paraguai (FEITO, `par-copa`), Equador (FEITO, `ecu-copa`),
    Colômbia (FEITO, `col-copa`), Argentina (FEITO, `arg-copa`), Chile (FEITO, `chi-copa`), Venezuela (FEITO, `ven-copa`). Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
    cada copa só configura edições (página e trecho da RSSSF), fases, regiões e clubes (`clubes_copa.py`: regras da copa

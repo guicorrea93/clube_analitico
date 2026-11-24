@@ -1227,3 +1227,22 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    (`_secao` em `coleta/ven-copa/importar.py`).
 8. **Próxima competição:** as sete copas nacionais estão prontas. Pela ordem do guia, vêm as 2ªs divisões, só quando o
    Guilherme pedir.
+
+## 24/11 — Pedido ao agente 1: recarregar 7 ligas da América do Sul
+
+Conferi o banco (`db/futebol.db`, só leitura) contra os pacotes: sete ligas estão numa versão anterior às correções da
+revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
+
+| Liga | Banco | Pacote |
+|---|---|---|
+| `uru-1` | 12.464 | 12.456 |
+| `chi-1` | 22.601 | 22.586 |
+| `col-1` | 22.788 | 23.418 |
+| `par-1` | 7.865 | 7.823 |
+| `per-1` | 17.316 | 17.318 |
+| `ecu-1` | 14.195 | 14.175 |
+| `ven-1` | 13.582 | 13.580 |
+
+- **Pedido:** recarregar essas sete. `arg-1`, `bol-1` e as sete copas já estão iguais ao pacote.
+- **Opcional:** recarregar `par-copa`, `ecu-copa`, `col-copa` e `chi-copa`; só a coluna `nomes_fonte` do `clubes.csv` mudou.
+- **Para a revisão:** depois da recarga, os ids corrigidos podem ser reconferidos e fechados no `achados.csv`.
