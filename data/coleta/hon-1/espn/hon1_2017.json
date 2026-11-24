@@ -1,0 +1,7610 @@
+[
+{
+"id": "471264",
+"data_hora": "2017-01-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471265",
+"data_hora": "2017-01-08T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471266",
+"data_hora": "2017-01-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471267",
+"data_hora": "2017-01-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471268",
+"data_hora": "2017-01-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471316",
+"data_hora": "2017-01-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "471317",
+"data_hora": "2017-01-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471318",
+"data_hora": "2017-01-15T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471319",
+"data_hora": "2017-01-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471320",
+"data_hora": "2017-01-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471738",
+"data_hora": "2017-01-28T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Mencia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elder Torres"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cardona"
+]
+}
+]
+},
+{
+"id": "471734",
+"data_hora": "2017-01-29T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471735",
+"data_hora": "2017-01-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471736",
+"data_hora": "2017-01-29T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "471737",
+"data_hora": "2017-01-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "472564",
+"data_hora": "2017-02-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samuel Cordoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Jose Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Jose Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Melgares"
+]
+}
+]
+},
+{
+"id": "472565",
+"data_hora": "2017-02-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+}
+]
+},
+{
+"id": "472567",
+"data_hora": "2017-02-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Oseguera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+}
+]
+},
+{
+"id": "472566",
+"data_hora": "2017-02-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michaell Chirinos"
+]
+}
+]
+},
+{
+"id": "472568",
+"data_hora": "2017-02-02T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maximilliano Osurak"
+]
+}
+]
+},
+{
+"id": "473233",
+"data_hora": "2017-02-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "472569",
+"data_hora": "2017-02-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473230",
+"data_hora": "2017-02-05T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Riascos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Rodriguez"
+]
+}
+]
+},
+{
+"id": "473231",
+"data_hora": "2017-02-05T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473232",
+"data_hora": "2017-02-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473276",
+"data_hora": "2017-02-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "7",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473275",
+"data_hora": "2017-02-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473277",
+"data_hora": "2017-02-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473278",
+"data_hora": "2017-02-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473279",
+"data_hora": "2017-02-09T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Davis Argueta"
+]
+}
+]
+},
+{
+"id": "473301",
+"data_hora": "2017-02-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ramirez"
+]
+}
+]
+},
+{
+"id": "473303",
+"data_hora": "2017-02-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473302",
+"data_hora": "2017-02-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473304",
+"data_hora": "2017-02-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473305",
+"data_hora": "2017-02-12T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Irvin Reyna"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+}
+]
+},
+{
+"id": "473847",
+"data_hora": "2017-02-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "473846",
+"data_hora": "2017-02-19T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473848",
+"data_hora": "2017-02-19T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473849",
+"data_hora": "2017-02-19T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "473850",
+"data_hora": "2017-02-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "474842",
+"data_hora": "2017-02-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "474843",
+"data_hora": "2017-02-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "474844",
+"data_hora": "2017-02-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roy Smith"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Rivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shannon Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+}
+]
+},
+{
+"id": "474845",
+"data_hora": "2017-02-26T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cardona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Benguche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Nieto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ariel Garcia"
+]
+}
+]
+},
+{
+"id": "474846",
+"data_hora": "2017-02-26T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+}
+]
+},
+{
+"id": "475009",
+"data_hora": "2017-03-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Isaac Paz"
+]
+}
+]
+},
+{
+"id": "475010",
+"data_hora": "2017-03-01T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Sanchez-Lopez"
+]
+}
+]
+},
+{
+"id": "475012",
+"data_hora": "2017-03-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castellanos"
+]
+}
+]
+},
+{
+"id": "475011",
+"data_hora": "2017-03-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Martinez Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Acosta"
+]
+}
+]
+},
+{
+"id": "475013",
+"data_hora": "2017-03-02T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredickson Elvir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de Groot Lopez"
+]
+}
+]
+},
+{
+"id": "475014",
+"data_hora": "2017-03-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "475015",
+"data_hora": "2017-03-05T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "475016",
+"data_hora": "2017-03-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hilder Colon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emere Robles"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Martinez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+}
+]
+},
+{
+"id": "475017",
+"data_hora": "2017-03-05T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Jose Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+}
+]
+},
+{
+"id": "475018",
+"data_hora": "2017-03-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Javier Hernandez Alvarez"
+]
+}
+]
+},
+{
+"id": "475475",
+"data_hora": "2017-03-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Arzu"
+]
+}
+]
+},
+{
+"id": "475476",
+"data_hora": "2017-03-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martinez Betanco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martinez Betanco"
+]
+}
+]
+},
+{
+"id": "475477",
+"data_hora": "2017-03-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Guillen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+}
+]
+},
+{
+"id": "475478",
+"data_hora": "2017-03-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "475479",
+"data_hora": "2017-03-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "475923",
+"data_hora": "2017-03-18T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "476323",
+"data_hora": "2017-03-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "476324",
+"data_hora": "2017-03-19T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Arzu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samuel Cordoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osnaldo Hernandez"
+]
+}
+]
+},
+{
+"id": "476325",
+"data_hora": "2017-03-19T21:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+}
+]
+},
+{
+"id": "476326",
+"data_hora": "2017-03-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de Groot Lopez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Ariel Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Estupinan"
+]
+}
+]
+},
+{
+"id": "476607",
+"data_hora": "2017-04-01T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "476608",
+"data_hora": "2017-04-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Oseguera"
+]
+}
+]
+},
+{
+"id": "476609",
+"data_hora": "2017-04-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Martinez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ramirez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Javier Reyes"
+]
+}
+]
+},
+{
+"id": "476610",
+"data_hora": "2017-04-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "476611",
+"data_hora": "2017-04-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "477844",
+"data_hora": "2017-04-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "477845",
+"data_hora": "2017-04-09T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "477846",
+"data_hora": "2017-04-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "477847",
+"data_hora": "2017-04-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "477848",
+"data_hora": "2017-04-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478305",
+"data_hora": "2017-04-12T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Barboza Angel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+}
+]
+},
+{
+"id": "478307",
+"data_hora": "2017-04-12T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michaell Chirinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+}
+]
+},
+{
+"id": "478306",
+"data_hora": "2017-04-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+}
+]
+},
+{
+"id": "478308",
+"data_hora": "2017-04-13T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Social Sol",
+"visitante_id": "18329",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pastor Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Delgado"
+]
+}
+]
+},
+{
+"id": "478309",
+"data_hora": "2017-04-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"K Arriaga"
+]
+}
+]
+},
+{
+"id": "478265",
+"data_hora": "2017-04-16T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478263",
+"data_hora": "2017-04-16T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478264",
+"data_hora": "2017-04-16T21:15Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478331",
+"data_hora": "2017-04-20T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Pereira"
+]
+}
+]
+},
+{
+"id": "478585",
+"data_hora": "2017-04-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank Arevalo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Mencia"
+]
+}
+]
+},
+{
+"id": "478586",
+"data_hora": "2017-04-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Javier Reyes"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Javier Reyes"
+]
+}
+]
+},
+{
+"id": "478587",
+"data_hora": "2017-04-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "3",
+"gols_visitante": "5",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de Groot Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ocampo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Óscar Salas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de Groot Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+}
+]
+},
+{
+"id": "478589",
+"data_hora": "2017-04-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Guillen"
+]
+}
+]
+},
+{
+"id": "478588",
+"data_hora": "2017-04-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Elvir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Solorzano"
+]
+}
+]
+},
+{
+"id": "478650",
+"data_hora": "2017-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478648",
+"data_hora": "2017-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "478649",
+"data_hora": "2017-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478647",
+"data_hora": "2017-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478651",
+"data_hora": "2017-04-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Social Sol",
+"mandante_id": "18329",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478832",
+"data_hora": "2017-05-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arzu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Martinez"
+]
+}
+]
+},
+{
+"id": "478833",
+"data_hora": "2017-05-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Vargas"
+]
+}
+]
+},
+{
+"id": "478903",
+"data_hora": "2017-05-07T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478904",
+"data_hora": "2017-05-07T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "479060",
+"data_hora": "2017-05-12T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "479061",
+"data_hora": "2017-05-12T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478963",
+"data_hora": "2017-05-14T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "478999",
+"data_hora": "2017-05-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "479120",
+"data_hora": "2017-05-21T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+}
+]
+},
+{
+"id": "479121",
+"data_hora": "2017-05-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491772",
+"data_hora": "2017-07-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491758",
+"data_hora": "2017-08-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491790",
+"data_hora": "2017-08-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491791",
+"data_hora": "2017-08-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491793",
+"data_hora": "2017-08-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491794",
+"data_hora": "2017-08-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491800",
+"data_hora": "2017-08-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+}
+]
+},
+{
+"id": "491801",
+"data_hora": "2017-08-12T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mayron Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Rochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darixon Vuelto"
+]
+}
+]
+},
+{
+"id": "491803",
+"data_hora": "2017-08-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Martín"
+]
+}
+]
+},
+{
+"id": "491802",
+"data_hora": "2017-08-13T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "491804",
+"data_hora": "2017-08-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "493751",
+"data_hora": "2017-08-19T01:15Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "493752",
+"data_hora": "2017-08-20T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "493753",
+"data_hora": "2017-08-20T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "493754",
+"data_hora": "2017-08-20T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "493755",
+"data_hora": "2017-08-20T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "493766",
+"data_hora": "2017-08-26T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "493768",
+"data_hora": "2017-08-27T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Martín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reiniery Mayorquin"
+]
+}
+]
+},
+{
+"id": "493767",
+"data_hora": "2017-08-27T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "493769",
+"data_hora": "2017-08-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brunet Hay"
+]
+}
+]
+},
+{
+"id": "496417",
+"data_hora": "2017-09-03T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+}
+]
+},
+{
+"id": "496419",
+"data_hora": "2017-09-03T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Johnson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Rochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roman Valencia"
+]
+}
+]
+},
+{
+"id": "496418",
+"data_hora": "2017-09-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Akeem Roach"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Melgares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rossel Cacho"
+]
+}
+]
+},
+{
+"id": "496354",
+"data_hora": "2017-09-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrick Palacios"
+]
+}
+]
+},
+{
+"id": "495687",
+"data_hora": "2017-09-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "495688",
+"data_hora": "2017-09-10T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+}
+]
+},
+{
+"id": "495689",
+"data_hora": "2017-09-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Diego Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Lopez"
+]
+}
+]
+},
+{
+"id": "495690",
+"data_hora": "2017-09-10T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Guity"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enuar Salgado"
+]
+}
+]
+},
+{
+"id": "495691",
+"data_hora": "2017-09-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "5",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "495692",
+"data_hora": "2017-09-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "495693",
+"data_hora": "2017-09-14T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "495694",
+"data_hora": "2017-09-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Diego Salazar"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Tejeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hilder Colon"
+]
+}
+]
+},
+{
+"id": "495695",
+"data_hora": "2017-09-14T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Jose Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cardona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Delgado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Banegas"
+]
+}
+]
+},
+{
+"id": "495696",
+"data_hora": "2017-09-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "495699",
+"data_hora": "2017-09-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Reyes"
+]
+}
+]
+},
+{
+"id": "495698",
+"data_hora": "2017-09-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ocampo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Guity"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+}
+]
+},
+{
+"id": "495700",
+"data_hora": "2017-09-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Costly"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bayron Edimar Mendez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"C Calix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+}
+]
+},
+{
+"id": "495701",
+"data_hora": "2017-09-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhow Benavidez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eddie Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+}
+]
+},
+{
+"id": "496773",
+"data_hora": "2017-09-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hilder Colon"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brunet Hay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Guity"
+]
+}
+]
+},
+{
+"id": "496844",
+"data_hora": "2017-09-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496595",
+"data_hora": "2017-09-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496596",
+"data_hora": "2017-09-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496597",
+"data_hora": "2017-09-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496598",
+"data_hora": "2017-09-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496599",
+"data_hora": "2017-09-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496856",
+"data_hora": "2017-09-27T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Leverón"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"C Calix"
+]
+}
+]
+},
+{
+"id": "496857",
+"data_hora": "2017-09-28T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Guity"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de Groot Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hilder Colon"
+]
+}
+]
+},
+{
+"id": "496860",
+"data_hora": "2017-09-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496858",
+"data_hora": "2017-09-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darixon Vuelto"
+]
+}
+]
+},
+{
+"id": "496859",
+"data_hora": "2017-09-28T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frelys Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin Morales"
+]
+}
+]
+},
+{
+"id": "496861",
+"data_hora": "2017-10-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "496862",
+"data_hora": "2017-10-01T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+}
+]
+},
+{
+"id": "496863",
+"data_hora": "2017-10-01T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "496864",
+"data_hora": "2017-10-01T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Rochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mayron Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mayron Flores"
+]
+}
+]
+},
+{
+"id": "496865",
+"data_hora": "2017-10-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Estupinan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+}
+]
+},
+{
+"id": "497453",
+"data_hora": "2017-10-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497672",
+"data_hora": "2017-10-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497332",
+"data_hora": "2017-10-14T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Melgares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alfredo Sanchez"
+]
+}
+]
+},
+{
+"id": "497333",
+"data_hora": "2017-10-15T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497334",
+"data_hora": "2017-10-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yaudel Lahera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Lacayo"
+]
+}
+]
+},
+{
+"id": "497336",
+"data_hora": "2017-10-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Elvir"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eddie Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Esdras Padilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Elvir"
+]
+}
+]
+},
+{
+"id": "497726",
+"data_hora": "2017-10-21T21:30Z",
+"situacao": "STATUS_FINAL",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "497673",
+"data_hora": "2017-10-21T22:00Z",
+"situacao": "STATUS_FINAL",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497728",
+"data_hora": "2017-10-22T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Moncada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Melgares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shannon Welcome"
+]
+}
+]
+},
+{
+"id": "497727",
+"data_hora": "2017-10-22T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castro Alcala Sito"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ovidio Lanza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brunet Hay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Roberto Ramirez Arauz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Danilo Guity Felix"
+]
+}
+]
+},
+{
+"id": "497729",
+"data_hora": "2017-10-22T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Benguche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+}
+]
+},
+{
+"id": "497730",
+"data_hora": "2017-10-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497732",
+"data_hora": "2017-10-26T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497731",
+"data_hora": "2017-10-26T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Tejeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Melgares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shannon Welcome"
+]
+}
+]
+},
+{
+"id": "497733",
+"data_hora": "2017-10-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Akeem Roach"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jamal Ray Charles"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Oseguera"
+]
+}
+]
+},
+{
+"id": "497734",
+"data_hora": "2017-10-27T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+}
+]
+},
+{
+"id": "498019",
+"data_hora": "2017-10-27T18:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497736",
+"data_hora": "2017-10-29T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Roberto Ramirez Arauz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Guity"
+]
+}
+]
+},
+{
+"id": "497737",
+"data_hora": "2017-10-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yaudel Lahera"
+]
+}
+]
+},
+{
+"id": "497738",
+"data_hora": "2017-10-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Aguilar"
+]
+}
+]
+},
+{
+"id": "497739",
+"data_hora": "2017-10-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497735",
+"data_hora": "2017-10-30T00:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Cardona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Rodriguez"
+]
+}
+]
+},
+{
+"id": "498116",
+"data_hora": "2017-11-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "498123",
+"data_hora": "2017-11-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+}
+]
+},
+{
+"id": "497941",
+"data_hora": "2017-11-04T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Romero"
+]
+}
+]
+},
+{
+"id": "497942",
+"data_hora": "2017-11-04T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "497943",
+"data_hora": "2017-11-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Altamirano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hilder Colon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darixon Vuelto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Francisco Delgado"
+]
+}
+]
+},
+{
+"id": "497944",
+"data_hora": "2017-11-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Moncada"
+]
+}
+]
+},
+{
+"id": "497945",
+"data_hora": "2017-11-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+}
+]
+},
+{
+"id": "498256",
+"data_hora": "2017-11-09T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "498257",
+"data_hora": "2017-11-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "C.D.Real Sociedad",
+"visitante_id": "13830",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "498258",
+"data_hora": "2017-11-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "498279",
+"data_hora": "2017-11-10T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "498280",
+"data_hora": "2017-11-10T01:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ocampo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerrel Britto"
+]
+}
+]
+},
+{
+"id": "498281",
+"data_hora": "2017-11-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Berrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yaudel Lahera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+}
+]
+},
+{
+"id": "498282",
+"data_hora": "2017-11-12T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Estupinan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Melgares"
+]
+}
+]
+},
+{
+"id": "498283",
+"data_hora": "2017-11-12T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Moncada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Guity"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Ocampo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+}
+]
+},
+{
+"id": "498284",
+"data_hora": "2017-11-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Honduras Progreso",
+"mandante_id": "17528",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Tejeda"
+]
+}
+]
+},
+{
+"id": "498285",
+"data_hora": "2017-11-12T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"W Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brunet Hay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+}
+]
+},
+{
+"id": "498660",
+"data_hora": "2017-11-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Altamirano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Delgado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darixon Vuelto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+}
+]
+},
+{
+"id": "498644",
+"data_hora": "2017-11-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+}
+]
+},
+{
+"id": "498753",
+"data_hora": "2017-11-20T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Honduras Progreso",
+"visitante_id": "17528",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "498648",
+"data_hora": "2017-11-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "C.D.Real Sociedad",
+"mandante_id": "13830",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shannon Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Reyes"
+]
+}
+]
+},
+{
+"id": "498645",
+"data_hora": "2017-11-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michaell Chirinos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Éver Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michaell Chirinos"
+]
+}
+]
+},
+{
+"id": "498647",
+"data_hora": "2017-11-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darixon Vuelto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+}
+]
+},
+{
+"id": "498649",
+"data_hora": "2017-11-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Elvir"
+]
+}
+]
+},
+{
+"id": "499137",
+"data_hora": "2017-12-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juticalpa FC",
+"mandante_id": "17939",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "499138",
+"data_hora": "2017-12-01T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "499144",
+"data_hora": "2017-12-03T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "499143",
+"data_hora": "2017-12-03T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "499402",
+"data_hora": "2017-12-06T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "UPNFM",
+"mandante_id": "18809",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mayron Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Estupinan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Montoya"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de Groot Lopez"
+]
+}
+]
+},
+{
+"id": "499403",
+"data_hora": "2017-12-07T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Juticalpa FC",
+"visitante_id": "17939",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Diego Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darixon Vuelto"
+]
+}
+]
+},
+{
+"id": "499404",
+"data_hora": "2017-12-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "UPNFM",
+"visitante_id": "18809",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Miller Rojas"
+]
+}
+]
+},
+{
+"id": "499825",
+"data_hora": "2017-12-14T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"César Oseguera"
+]
+}
+]
+},
+{
+"id": "499832",
+"data_hora": "2017-12-15T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "499831",
+"data_hora": "2017-12-16T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "500474",
+"data_hora": "2017-12-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro de Groot Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Estupinan"
+]
+}
+]
+},
+{
+"id": "500473",
+"data_hora": "2017-12-21T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "499575",
+"data_hora": "2017-12-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Yankel Rosenthal",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Lacayo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yustin Arboleda"
+]
+}
+]
+},
+{
+"id": "499576",
+"data_hora": "2017-12-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Moya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+}
+]
+},
+{
+"id": "501496",
+"data_hora": "2017-12-27T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "501499",
+"data_hora": "2017-12-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rubilio Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "108'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Tejeda"
+]
+}
+]
+}
+]

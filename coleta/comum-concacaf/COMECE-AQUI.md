@@ -45,7 +45,8 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 |---|---|---|---|---|---|
 | `mex-1` Mexicano | 158 (1902/03–2026 Clausura) | 26.606 | 92 | cb0355f (24/11, sem push) | não |
 | `usa-1` Norte-Americano | 63 (ASL 1921/22–1932/33, 1967, NASL 1968–1984, MLS 1996–2025) | 8.708 | 134 (13 do Canadá) | 5bace06 (24/11, sem push) | não |
-| `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | sem commit (espera o ok) | não |
+| `crc-1` Costarriquenho | 123 (1921–2026 Clausura) | 7.065 | 65 | 17766bf (24/11, sem push) | não |
+| `hon-1` Hondurenho | 89 (1965/66–2026 Clausura) | 5.391 | 55 | sem commit (espera o ok) | não |
 
 Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
@@ -55,8 +56,9 @@ Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha p
 2. **EUA (`usa-1`):** no git em 24/11 (`5bace06`, sem push); falta o agente 1 carregar no banco. Recado de fim de coleta no fim de
    `docs/coleta/pedidos-concacaf.md`. Quando a MLS 2026 acabar (final em 18/12/2026), acrescentar a edição 2026 (a página
    `tablesu/usa2026.html` e a ESPN; a janela da ESPN em `edicoes._ESPN` se a RSSSF só tiver as tabelas).
-3. **Costa Rica (`crc-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit.
-4. **Próxima: Honduras (`hon-1`)**, com o escopo antes. Depois, na ordem sugerida: `hon-1`, `gua-1`, `slv-1`, `pan-1`, `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
+3. **Costa Rica (`crc-1`):** no git em 24/11 (`17766bf`, sem push); falta o agente 1 carregar no banco.
+4. **Honduras (`hon-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit.
+5. **Próxima: Guatemala (`gua-1`)**, com o escopo antes. Depois, na ordem sugerida: `slv-1`, `pan-1`, `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
    outras 1ªs divisões da CONCACAF (Caribe, Guiana, Suriname, Guiana Francesa).
 4. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
 
@@ -98,6 +100,12 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   "Santos Laguna"; os outros "América" levam a cidade. Conferir sempre o banco e os `data/coleta/*/pacote/clubes.csv`.
 - As armadilhas da RSSSF, da ESPN e do ogol já vistas na América do Sul estão na seção 6 de
   `coleta/comum-sulamerica/COMECE-AQUI.md`.
+
+**Vistas em Honduras (24/11):**
+- **Nome com a cidade entre parênteses** ("Marathón (San Pedro Sula)", 2002 em diante): `clubes_hon._LIXO` tira.
+- **"Grupo A" depois de uma fase chamada "Fase final"** volta à fase regular no leitor comum: dar à fase um nome próprio
+  ("Triangulares").
+- **Tabelas de 1965/66 a 1994/95 numa página só** (`hondhist.html`): uma seção por temporada, lida como `Edicao.tabelas`.
 
 **Vistas na Costa Rica (24/11):**
 - **Apertura e Clausura como fases do ano** (1997/98 a 2006/07): `ler_rsssf.TORNEIOS` e `FECHA` (do `ven-1`); a fase da final do
@@ -167,3 +175,8 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
   cruzar o ano); 1954 e 1956 não tiveram campeonato (sem edição); 1961 com duas edições, uma por entidade (Asofútbol, campeão
   Herediano; Federación, campeão Carmelita, reconhecido pela UNAFUT em 2003); de 2007/08 em diante, Apertura e Clausura, uma
   edição cada ("2007 Apertura", "2008 Clausura"), até o Clausura 2026.
+- **Honduras (24/11, pesquisado a pedido do Guilherme: "pesquise a fundo e veja se vale pôr ou não"):** só a Liga Nacional,
+  de 1965/66 em diante. A Liga Amateur de Honduras (1947-1964, 17 títulos) fica fora: era um mata-mata entre os campeões
+  das ligas regionais, não uma liga; a RSSSF a lista à parte da Liga Nacional (`hondchamp.html`); a liga e a FENAFUTH não
+  reconhecem esses títulos (há só um pedido do Olimpia, sem decisão); e quase não há dados (vários anos sem vice, nenhuma
+  tabela). Se um dia entrar, como competição própria, não dentro do `hon-1`.

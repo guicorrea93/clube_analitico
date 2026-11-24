@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["mex-1", "usa-1", "crc-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
-PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["mex-1", "usa-1", "crc-1", "hon-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
+PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa", "crc-1": "crc", "hon-1": "hon"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -67,6 +67,15 @@ PENDENCIAS: dict[str, list[str]] = {
         "cartões. Fonte que resolveria: o site da UNAFUT ou o ogol.",
         "Erros de um resultado na própria página em 1998/99 e 2000/01; derrota para os dois clubes em 2002/03 (San Carlos x "
         "Herediano); um jogo faltando em 2003/04: explicados no relatório.",
+    ],
+    "hon-1": [
+        "1965/66 a 1995/96 só com as tabelas finais (hondhist.html): a RSSSF não tem os jogos. Fonte que resolveria: jornais "
+        "da época (La Prensa, El Heraldo) ou a Liga Nacional.",
+        "Apertura 2010 a Clausura 2012 só com as tabelas (a página da RSSSF não tem a fase regular).",
+        "Erros de um resultado na própria página em 1997 Apertura, 2002 Apertura, 2002 Clausura, 2005 Apertura e 2007 "
+        "Clausura: explicados no relatório.",
+        "Liga Amateur de Honduras (1947-1964) fora do hon-1 (decisão de 24/11); se o Guilherme quiser, entra como "
+        "competição própria.",
     ],
 }
 

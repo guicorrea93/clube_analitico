@@ -1,0 +1,7554 @@
+[
+{
+"id": "236868",
+"data_hora": "2008-02-14T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Atletico Olanchano",
+"visitante_id": "7262",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "236873",
+"data_hora": "2008-02-17T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "236874",
+"data_hora": "2008-02-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Cardoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abidan Solis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Weber"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+}
+]
+},
+{
+"id": "236884",
+"data_hora": "2008-02-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Marin"
+]
+}
+]
+},
+{
+"id": "236885",
+"data_hora": "2008-02-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eliu Membreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edilson Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Mosquera"
+]
+}
+]
+},
+{
+"id": "236887",
+"data_hora": "2008-02-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "237399",
+"data_hora": "2008-02-21T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Hernandez"
+]
+}
+]
+},
+{
+"id": "236937",
+"data_hora": "2008-02-24T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Atletico Olanchano",
+"visitante_id": "7262",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Gonzalez"
+]
+}
+]
+},
+{
+"id": "236938",
+"data_hora": "2008-02-24T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dickmar Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+}
+]
+},
+{
+"id": "236960",
+"data_hora": "2008-02-24T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "236936",
+"data_hora": "2008-02-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+}
+]
+},
+{
+"id": "236962",
+"data_hora": "2008-02-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahum Guity"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Mendoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Érick Andino"
+]
+}
+]
+},
+{
+"id": "237579",
+"data_hora": "2008-02-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ninrod Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+}
+]
+},
+{
+"id": "237545",
+"data_hora": "2008-03-02T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Vallecillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "237546",
+"data_hora": "2008-03-02T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "237570",
+"data_hora": "2008-03-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Bennett"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Padilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Willmer Ramos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Bennett"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Padilla"
+]
+}
+]
+},
+{
+"id": "237571",
+"data_hora": "2008-03-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+}
+]
+},
+{
+"id": "237572",
+"data_hora": "2008-03-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+}
+]
+},
+{
+"id": "238096",
+"data_hora": "2008-03-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "238092",
+"data_hora": "2008-03-09T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "238093",
+"data_hora": "2008-03-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Izaguirre"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+}
+]
+},
+{
+"id": "238094",
+"data_hora": "2008-03-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Meija"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Hurtado"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Julio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Cordova"
+]
+}
+]
+},
+{
+"id": "238095",
+"data_hora": "2008-03-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestar Silva"
+]
+}
+]
+},
+{
+"id": "238126",
+"data_hora": "2008-03-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orbin Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eberson Amaral"
+]
+}
+]
+},
+{
+"id": "238127",
+"data_hora": "2008-03-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+}
+]
+},
+{
+"id": "238124",
+"data_hora": "2008-03-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "238125",
+"data_hora": "2008-03-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Atletico Olanchano",
+"visitante_id": "7262",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Calderon"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Grant"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Calderon"
+]
+}
+]
+},
+{
+"id": "238341",
+"data_hora": "2008-03-16T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "238340",
+"data_hora": "2008-03-16T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Izaguirre"
+]
+}
+]
+},
+{
+"id": "238342",
+"data_hora": "2008-03-16T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Suarez"
+]
+}
+]
+},
+{
+"id": "238343",
+"data_hora": "2008-03-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Bernardes"
+]
+}
+]
+},
+{
+"id": "238336",
+"data_hora": "2008-03-17T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "238344",
+"data_hora": "2008-03-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+}
+]
+},
+{
+"id": "238763",
+"data_hora": "2008-03-30T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Calderon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Bonilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Berrios"
+]
+}
+]
+},
+{
+"id": "238762",
+"data_hora": "2008-03-30T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+}
+]
+},
+{
+"id": "238764",
+"data_hora": "2008-03-30T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Atletico Olanchano",
+"visitante_id": "7262",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "238761",
+"data_hora": "2008-03-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimenez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Meija"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Portillo"
+]
+}
+]
+},
+{
+"id": "238765",
+"data_hora": "2008-03-31T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Dos Santos"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boniek García"
+]
+}
+]
+},
+{
+"id": "238596",
+"data_hora": "2008-04-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Morales"
+]
+}
+]
+},
+{
+"id": "239184",
+"data_hora": "2008-04-06T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "239183",
+"data_hora": "2008-04-06T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "239185",
+"data_hora": "2008-04-06T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "239186",
+"data_hora": "2008-04-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "239187",
+"data_hora": "2008-04-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "239907",
+"data_hora": "2008-04-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "239908",
+"data_hora": "2008-04-13T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+}
+]
+},
+{
+"id": "239909",
+"data_hora": "2008-04-13T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abidan Solis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+}
+]
+},
+{
+"id": "239910",
+"data_hora": "2008-04-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Hernandez"
+]
+}
+]
+},
+{
+"id": "239911",
+"data_hora": "2008-04-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+}
+]
+},
+{
+"id": "240019",
+"data_hora": "2008-04-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+}
+]
+},
+{
+"id": "240056",
+"data_hora": "2008-04-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+}
+]
+},
+{
+"id": "240055",
+"data_hora": "2008-04-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Cardoza"
+]
+}
+]
+},
+{
+"id": "240057",
+"data_hora": "2008-04-20T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Suarez"
+]
+}
+]
+},
+{
+"id": "240058",
+"data_hora": "2008-04-20T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Atletico Olanchano",
+"visitante_id": "7262",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adan Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Meija"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+}
+]
+},
+{
+"id": "240570",
+"data_hora": "2008-04-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atletico Olanchano",
+"mandante_id": "7262",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Ruben Guifarro",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Diaz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Bennett"
+]
+}
+]
+},
+{
+"id": "240566",
+"data_hora": "2008-04-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Astor Henriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Ferreira"
+]
+}
+]
+},
+{
+"id": "240567",
+"data_hora": "2008-04-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Castillo"
+]
+}
+]
+},
+{
+"id": "240568",
+"data_hora": "2008-04-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+}
+]
+},
+{
+"id": "240569",
+"data_hora": "2008-04-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "240047",
+"data_hora": "2008-04-29T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "240048",
+"data_hora": "2008-04-29T21:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Atletico Olanchano",
+"visitante_id": "7262",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241167",
+"data_hora": "2008-05-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241170",
+"data_hora": "2008-05-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241168",
+"data_hora": "2008-05-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241169",
+"data_hora": "2008-05-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Atletico Olanchano",
+"visitante_id": "7262",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241166",
+"data_hora": "2008-05-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241225",
+"data_hora": "2008-05-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Washington Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Matamoros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hendry Thomas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tyson Nunez"
+]
+}
+]
+},
+{
+"id": "241226",
+"data_hora": "2008-05-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Astor Henriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cesar Guity"
+]
+}
+]
+},
+{
+"id": "241227",
+"data_hora": "2008-05-11T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cesar Guity"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elder Valladares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Ferreira"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Obelar"
+]
+}
+]
+},
+{
+"id": "241228",
+"data_hora": "2008-05-11T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+}
+]
+},
+{
+"id": "241431",
+"data_hora": "2008-05-18T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+}
+]
+},
+{
+"id": "241477",
+"data_hora": "2008-05-25T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+}
+]
+},
+{
+"id": "251921",
+"data_hora": "2008-07-27T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Correia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orvin Paz"
+]
+}
+]
+},
+{
+"id": "251922",
+"data_hora": "2008-07-27T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Rivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Angel Castillo"
+]
+}
+]
+},
+{
+"id": "251923",
+"data_hora": "2008-07-27T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Cardoza"
+]
+}
+]
+},
+{
+"id": "251925",
+"data_hora": "2008-07-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "251924",
+"data_hora": "2008-07-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lenin Suarez"
+]
+}
+]
+},
+{
+"id": "251926",
+"data_hora": "2008-07-31T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dickmar Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+}
+]
+},
+{
+"id": "251927",
+"data_hora": "2008-07-31T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+}
+]
+},
+{
+"id": "251928",
+"data_hora": "2008-07-31T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+}
+]
+},
+{
+"id": "251929",
+"data_hora": "2008-07-31T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olimpico",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+}
+]
+},
+{
+"id": "251930",
+"data_hora": "2008-07-31T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabecao"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Arzu"
+]
+}
+]
+},
+{
+"id": "248004",
+"data_hora": "2008-08-03T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+}
+]
+},
+{
+"id": "248003",
+"data_hora": "2008-08-03T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Copete"
+]
+}
+]
+},
+{
+"id": "248016",
+"data_hora": "2008-08-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Gomez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+}
+]
+},
+{
+"id": "248017",
+"data_hora": "2008-08-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Matamoros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+}
+]
+},
+{
+"id": "251769",
+"data_hora": "2008-08-03T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Hernandez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edilson Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evandro Ferreira"
+]
+}
+]
+},
+{
+"id": "248036",
+"data_hora": "2008-08-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248040",
+"data_hora": "2008-08-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Sabillon"
+]
+}
+]
+},
+{
+"id": "248039",
+"data_hora": "2008-08-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Rivera"
+]
+}
+]
+},
+{
+"id": "248037",
+"data_hora": "2008-08-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Galdamez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+}
+]
+},
+{
+"id": "248038",
+"data_hora": "2008-08-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+}
+]
+},
+{
+"id": "248075",
+"data_hora": "2008-08-09T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+}
+]
+},
+{
+"id": "248074",
+"data_hora": "2008-08-10T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Euceda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+}
+]
+},
+{
+"id": "248077",
+"data_hora": "2008-08-10T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+}
+]
+},
+{
+"id": "248078",
+"data_hora": "2008-08-10T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordova"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Navarro"
+]
+}
+]
+},
+{
+"id": "248076",
+"data_hora": "2008-08-10T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Vargas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nilberto Da Silva"
+]
+}
+]
+},
+{
+"id": "248132",
+"data_hora": "2008-08-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "5",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Dizcua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carcamo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Weber"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+}
+]
+},
+{
+"id": "248130",
+"data_hora": "2008-08-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Melendez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Gonzalez"
+]
+}
+]
+},
+{
+"id": "248131",
+"data_hora": "2008-08-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Diaz"
+]
+}
+]
+},
+{
+"id": "248150",
+"data_hora": "2008-08-17T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248149",
+"data_hora": "2008-08-17T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Euceda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+}
+]
+},
+{
+"id": "248197",
+"data_hora": "2008-08-24T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Norales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Sabillon"
+]
+}
+]
+},
+{
+"id": "248198",
+"data_hora": "2008-08-24T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Dizcua"
+]
+}
+]
+},
+{
+"id": "248219",
+"data_hora": "2008-08-24T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Fortin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Lozano"
+]
+}
+]
+},
+{
+"id": "248220",
+"data_hora": "2008-08-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+}
+]
+},
+{
+"id": "248221",
+"data_hora": "2008-08-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabecao"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Portillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Ferreira"
+]
+}
+]
+},
+{
+"id": "248267",
+"data_hora": "2008-08-30T20:00Z",
+"situacao": "STATUS_ABANDONED",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248268",
+"data_hora": "2008-08-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gabriel Casas"
+]
+}
+]
+},
+{
+"id": "248269",
+"data_hora": "2008-08-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248275",
+"data_hora": "2008-08-31T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Genovese"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+}
+]
+},
+{
+"id": "248276",
+"data_hora": "2008-08-31T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+}
+]
+},
+{
+"id": "248318",
+"data_hora": "2008-09-07T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248321",
+"data_hora": "2008-09-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248319",
+"data_hora": "2008-09-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "255615",
+"data_hora": "2008-09-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248320",
+"data_hora": "2008-09-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "256027",
+"data_hora": "2008-09-12T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248369",
+"data_hora": "2008-09-14T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+}
+]
+},
+{
+"id": "248370",
+"data_hora": "2008-09-14T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordova"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Águila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Cardoza"
+]
+}
+]
+},
+{
+"id": "248399",
+"data_hora": "2008-09-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+}
+]
+},
+{
+"id": "248398",
+"data_hora": "2008-09-14T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabecao"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hendry Thomas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+}
+]
+},
+{
+"id": "248397",
+"data_hora": "2008-09-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248457",
+"data_hora": "2008-09-21T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+}
+]
+},
+{
+"id": "248458",
+"data_hora": "2008-09-21T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adan Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+}
+]
+},
+{
+"id": "248491",
+"data_hora": "2008-09-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+}
+]
+},
+{
+"id": "248493",
+"data_hora": "2008-09-21T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+}
+]
+},
+{
+"id": "248492",
+"data_hora": "2008-09-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+}
+]
+},
+{
+"id": "256235",
+"data_hora": "2008-09-25T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+}
+]
+},
+{
+"id": "248544",
+"data_hora": "2008-09-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+}
+]
+},
+{
+"id": "248545",
+"data_hora": "2008-09-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roman Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Castillo"
+]
+}
+]
+},
+{
+"id": "248576",
+"data_hora": "2008-09-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Lozano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Altamirano"
+]
+}
+]
+},
+{
+"id": "248577",
+"data_hora": "2008-09-28T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Del Cid"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reynaldo Tilguath"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jocimar Nascimento"
+]
+}
+]
+},
+{
+"id": "248578",
+"data_hora": "2008-09-28T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adan Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+}
+]
+},
+{
+"id": "248663",
+"data_hora": "2008-10-04T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Cardett"
+]
+}
+]
+},
+{
+"id": "248623",
+"data_hora": "2008-10-05T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Medina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reynaldo Tilguath"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Medina"
+]
+}
+]
+},
+{
+"id": "248624",
+"data_hora": "2008-10-05T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Salinas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Sabillon"
+]
+}
+]
+},
+{
+"id": "248662",
+"data_hora": "2008-10-05T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Padilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Paez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Paez"
+]
+}
+]
+},
+{
+"id": "248661",
+"data_hora": "2008-10-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evandro Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Lozano"
+]
+}
+]
+},
+{
+"id": "248729",
+"data_hora": "2008-10-19T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Chávez"
+]
+}
+]
+},
+{
+"id": "248730",
+"data_hora": "2008-10-19T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ninrod Medina"
+]
+}
+]
+},
+{
+"id": "248755",
+"data_hora": "2008-10-19T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248756",
+"data_hora": "2008-10-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Padilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Padilla"
+]
+}
+]
+},
+{
+"id": "248757",
+"data_hora": "2008-10-19T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+}
+]
+},
+{
+"id": "256766",
+"data_hora": "2008-10-22T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248802",
+"data_hora": "2008-10-25T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "248804",
+"data_hora": "2008-10-26T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248839",
+"data_hora": "2008-10-26T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248840",
+"data_hora": "2008-10-26T22:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "257825",
+"data_hora": "2008-10-30T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "258390",
+"data_hora": "2008-11-02T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carcamo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Portillo"
+]
+}
+]
+},
+{
+"id": "258391",
+"data_hora": "2008-11-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Ferreira"
+]
+}
+]
+},
+{
+"id": "258393",
+"data_hora": "2008-11-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Bernardes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Wellcome"
+]
+}
+]
+},
+{
+"id": "258392",
+"data_hora": "2008-11-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Medina"
+]
+}
+]
+},
+{
+"id": "258394",
+"data_hora": "2008-11-02T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juliano Rangel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+}
+]
+},
+{
+"id": "258436",
+"data_hora": "2008-11-06T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Molina"
+]
+}
+]
+},
+{
+"id": "258475",
+"data_hora": "2008-11-09T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio De Souza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+}
+]
+},
+{
+"id": "248994",
+"data_hora": "2008-11-09T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ninrod Medina"
+]
+}
+]
+},
+{
+"id": "248995",
+"data_hora": "2008-11-09T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248998",
+"data_hora": "2008-11-09T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248997",
+"data_hora": "2008-11-09T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248996",
+"data_hora": "2008-11-09T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "258476",
+"data_hora": "2008-11-09T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Navarro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juliano Rangel"
+]
+}
+]
+},
+{
+"id": "258477",
+"data_hora": "2008-11-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abner Mendez"
+]
+}
+]
+},
+{
+"id": "258478",
+"data_hora": "2008-11-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Wellcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacof"
+]
+}
+]
+},
+{
+"id": "249025",
+"data_hora": "2008-11-14T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "249026",
+"data_hora": "2008-11-14T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "249028",
+"data_hora": "2008-11-14T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "249029",
+"data_hora": "2008-11-14T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "249027",
+"data_hora": "2008-11-14T02:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "258706",
+"data_hora": "2008-11-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard Perez"
+]
+}
+]
+},
+{
+"id": "258707",
+"data_hora": "2008-11-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Velasquez"
+]
+}
+]
+},
+{
+"id": "258710",
+"data_hora": "2008-11-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimenez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+}
+]
+},
+{
+"id": "258709",
+"data_hora": "2008-11-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Zepeda"
+]
+}
+]
+},
+{
+"id": "258708",
+"data_hora": "2008-11-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "258731",
+"data_hora": "2008-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Diduch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Jimenez"
+]
+}
+]
+},
+{
+"id": "258732",
+"data_hora": "2008-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+}
+]
+},
+{
+"id": "258730",
+"data_hora": "2008-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Zepeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Zepeda"
+]
+}
+]
+},
+{
+"id": "258733",
+"data_hora": "2008-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evandro Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Melendez"
+]
+}
+]
+},
+{
+"id": "258734",
+"data_hora": "2008-11-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Celestino Aarhus"
+]
+}
+]
+},
+{
+"id": "258883",
+"data_hora": "2008-11-27T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boniek García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+}
+]
+},
+{
+"id": "258884",
+"data_hora": "2008-11-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Castillo"
+]
+}
+]
+},
+{
+"id": "258917",
+"data_hora": "2008-12-03T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lalin"
+]
+}
+]
+},
+{
+"id": "258918",
+"data_hora": "2008-12-04T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Norales"
+]
+}
+]
+},
+{
+"id": "259076",
+"data_hora": "2008-12-07T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+}
+]
+},
+{
+"id": "259077",
+"data_hora": "2008-12-14T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Berrios"
+]
+}
+]
+}
+]

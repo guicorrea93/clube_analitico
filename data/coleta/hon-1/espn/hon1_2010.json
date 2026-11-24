@@ -1,0 +1,9187 @@
+[
+{
+"id": "287464",
+"data_hora": "2010-01-30T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "287466",
+"data_hora": "2010-01-31T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+}
+]
+},
+{
+"id": "287465",
+"data_hora": "2010-01-31T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+}
+]
+},
+{
+"id": "287697",
+"data_hora": "2010-01-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Arzu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Zelaya"
+]
+}
+]
+},
+{
+"id": "287468",
+"data_hora": "2010-01-31T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "287469",
+"data_hora": "2010-02-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Lopez"
+]
+}
+]
+},
+{
+"id": "287470",
+"data_hora": "2010-02-04T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Grant"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shanonne Wellcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+}
+]
+},
+{
+"id": "287472",
+"data_hora": "2010-02-04T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Martinez"
+]
+}
+]
+},
+{
+"id": "287471",
+"data_hora": "2010-02-04T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Martín"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Kuylen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Abaurre"
+]
+}
+]
+},
+{
+"id": "287473",
+"data_hora": "2010-02-04T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charlos Cordova"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredickson Elvir"
+]
+}
+]
+},
+{
+"id": "287474",
+"data_hora": "2010-02-07T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Genovese"
+]
+}
+]
+},
+{
+"id": "287475",
+"data_hora": "2010-02-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Norales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Aguiluz"
+]
+}
+]
+},
+{
+"id": "287476",
+"data_hora": "2010-02-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+}
+]
+},
+{
+"id": "287477",
+"data_hora": "2010-02-07T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yair Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Galdamez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randi Diamond"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castro Alcala Sito"
+]
+}
+]
+},
+{
+"id": "287478",
+"data_hora": "2010-02-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+}
+]
+},
+{
+"id": "287480",
+"data_hora": "2010-02-13T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "287479",
+"data_hora": "2010-02-14T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "287481",
+"data_hora": "2010-02-14T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Martinez"
+]
+}
+]
+},
+{
+"id": "287483",
+"data_hora": "2010-02-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Meza"
+]
+}
+]
+},
+{
+"id": "287482",
+"data_hora": "2010-02-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amado Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+}
+]
+},
+{
+"id": "287484",
+"data_hora": "2010-02-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Arzu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Olman Romero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Acosta"
+]
+}
+]
+},
+{
+"id": "287485",
+"data_hora": "2010-02-18T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Leverón"
+]
+}
+]
+},
+{
+"id": "287486",
+"data_hora": "2010-02-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+}
+]
+},
+{
+"id": "287487",
+"data_hora": "2010-02-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ian Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Moncada"
+]
+}
+]
+},
+{
+"id": "287488",
+"data_hora": "2010-02-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "287490",
+"data_hora": "2010-02-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "287492",
+"data_hora": "2010-02-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Zelaya"
+]
+}
+]
+},
+{
+"id": "287491",
+"data_hora": "2010-02-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Diduch"
+]
+}
+]
+},
+{
+"id": "287493",
+"data_hora": "2010-02-21T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anthony Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anthony Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anthony Lozano"
+]
+}
+]
+},
+{
+"id": "287489",
+"data_hora": "2010-02-21T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+}
+]
+},
+{
+"id": "287494",
+"data_hora": "2010-02-27T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+}
+]
+},
+{
+"id": "287495",
+"data_hora": "2010-02-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Copete"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "287497",
+"data_hora": "2010-02-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Crisanto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carcamo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Casildo"
+]
+}
+]
+},
+{
+"id": "287496",
+"data_hora": "2010-02-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "287498",
+"data_hora": "2010-02-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+}
+]
+},
+{
+"id": "287499",
+"data_hora": "2010-03-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derick Hulse"
+]
+}
+]
+},
+{
+"id": "287500",
+"data_hora": "2010-03-07T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rommel Quioto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahum Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castro Alcala Sito"
+]
+}
+]
+},
+{
+"id": "287501",
+"data_hora": "2010-03-07T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+}
+]
+},
+{
+"id": "287503",
+"data_hora": "2010-03-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+}
+]
+},
+{
+"id": "287502",
+"data_hora": "2010-03-07T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Kuylen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Diaz"
+]
+}
+]
+},
+{
+"id": "287504",
+"data_hora": "2010-03-10T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "287505",
+"data_hora": "2010-03-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dickmar Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmílson Junior"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "287507",
+"data_hora": "2010-03-11T01:30Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "287506",
+"data_hora": "2010-03-11T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Hill"
+]
+}
+]
+},
+{
+"id": "287508",
+"data_hora": "2010-03-12T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shanonne Wellcome"
+]
+}
+]
+},
+{
+"id": "290011",
+"data_hora": "2010-03-14T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Melvin Valladares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maynor Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Irvin Guerrero"
+]
+}
+]
+},
+{
+"id": "290012",
+"data_hora": "2010-03-14T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Genovese"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+}
+]
+},
+{
+"id": "290013",
+"data_hora": "2010-03-14T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+}
+]
+},
+{
+"id": "290014",
+"data_hora": "2010-03-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Palacios"
+]
+}
+]
+},
+{
+"id": "290015",
+"data_hora": "2010-03-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Diduch"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Diduch"
+]
+}
+]
+},
+{
+"id": "290027",
+"data_hora": "2010-03-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Weber"
+]
+}
+]
+},
+{
+"id": "290028",
+"data_hora": "2010-03-18T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordoba"
+]
+}
+]
+},
+{
+"id": "290031",
+"data_hora": "2010-03-18T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "290030",
+"data_hora": "2010-03-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Kuylen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Chávez"
+]
+}
+]
+},
+{
+"id": "290029",
+"data_hora": "2010-03-19T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "290033",
+"data_hora": "2010-03-21T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramon Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Melvin Valladares"
+]
+}
+]
+},
+{
+"id": "290034",
+"data_hora": "2010-03-21T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Cesar Guity"
+]
+}
+]
+},
+{
+"id": "290032",
+"data_hora": "2010-03-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+}
+]
+},
+{
+"id": "290035",
+"data_hora": "2010-03-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "290036",
+"data_hora": "2010-03-21T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+}
+]
+},
+{
+"id": "290421",
+"data_hora": "2010-03-26T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordoba"
+]
+}
+]
+},
+{
+"id": "290038",
+"data_hora": "2010-03-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Zelaya"
+]
+}
+]
+},
+{
+"id": "290037",
+"data_hora": "2010-03-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Raudales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordoba"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+}
+]
+},
+{
+"id": "290039",
+"data_hora": "2010-03-28T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "290040",
+"data_hora": "2010-03-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Diduch"
+]
+}
+]
+},
+{
+"id": "290041",
+"data_hora": "2010-03-29T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Berrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Acevedo"
+]
+}
+]
+},
+{
+"id": "290042",
+"data_hora": "2010-03-31T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacaff"
+]
+}
+]
+},
+{
+"id": "290044",
+"data_hora": "2010-04-01T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+}
+]
+},
+{
+"id": "290043",
+"data_hora": "2010-04-01T00:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+}
+]
+},
+{
+"id": "290045",
+"data_hora": "2010-04-01T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+}
+]
+},
+{
+"id": "290046",
+"data_hora": "2010-04-01T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Kuylen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edy Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+}
+]
+},
+{
+"id": "290119",
+"data_hora": "2010-04-04T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dani Pineda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacaff"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Santamaria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kart Carcamo"
+]
+}
+]
+},
+{
+"id": "290048",
+"data_hora": "2010-04-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carcamo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+}
+]
+},
+{
+"id": "290047",
+"data_hora": "2010-04-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boniek García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+}
+]
+},
+{
+"id": "290050",
+"data_hora": "2010-04-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kart Carcamo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francis Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Martinez"
+]
+}
+]
+},
+{
+"id": "290051",
+"data_hora": "2010-04-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amado Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Guerrero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "290049",
+"data_hora": "2010-04-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denovan Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denovan Morales"
+]
+}
+]
+},
+{
+"id": "290052",
+"data_hora": "2010-04-11T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Berrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "290053",
+"data_hora": "2010-04-11T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Baires"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+}
+]
+},
+{
+"id": "290055",
+"data_hora": "2010-04-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Crisanto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Crisanto"
+]
+}
+]
+},
+{
+"id": "290054",
+"data_hora": "2010-04-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "290056",
+"data_hora": "2010-04-11T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "290058",
+"data_hora": "2010-04-15T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Mendoza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronald Martinez"
+]
+}
+]
+},
+{
+"id": "290059",
+"data_hora": "2010-04-15T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonardo Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denovan Morales"
+]
+}
+]
+},
+{
+"id": "290060",
+"data_hora": "2010-04-15T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dion Macaulay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dion Macaulay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mejia"
+]
+}
+]
+},
+{
+"id": "290061",
+"data_hora": "2010-04-15T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real Juventud",
+"mandante_id": "9807",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Renan Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Arzu"
+]
+}
+]
+},
+{
+"id": "290057",
+"data_hora": "2010-04-15T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andrés Copete"
+]
+}
+]
+},
+{
+"id": "290065",
+"data_hora": "2010-04-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real Juventud",
+"visitante_id": "9807",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "290064",
+"data_hora": "2010-04-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "290062",
+"data_hora": "2010-04-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denovan Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michel Rivera"
+]
+}
+]
+},
+{
+"id": "290066",
+"data_hora": "2010-04-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Arzu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Martinez Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Reyes"
+]
+}
+]
+},
+{
+"id": "290063",
+"data_hora": "2010-04-18T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rommel Quioto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kart Carcamo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Norales"
+]
+}
+]
+},
+{
+"id": "289487",
+"data_hora": "2010-04-25T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "291128",
+"data_hora": "2010-04-25T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charlos Cordova"
+]
+}
+]
+},
+{
+"id": "291129",
+"data_hora": "2010-04-25T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amado Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+}
+]
+},
+{
+"id": "291121",
+"data_hora": "2010-04-28T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "291125",
+"data_hora": "2010-04-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahum Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+}
+]
+},
+{
+"id": "291122",
+"data_hora": "2010-04-29T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "291126",
+"data_hora": "2010-04-29T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "292078",
+"data_hora": "2010-05-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reynaldo Tilguath"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Cabrita"
+]
+}
+]
+},
+{
+"id": "292077",
+"data_hora": "2010-05-09T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+}
+]
+},
+{
+"id": "305950",
+"data_hora": "2010-08-08T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rommel Kioto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Martinez Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+}
+]
+},
+{
+"id": "305951",
+"data_hora": "2010-08-08T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jesús Navas"
+]
+}
+]
+},
+{
+"id": "305952",
+"data_hora": "2010-08-08T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo De Souza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo De Souza"
+]
+}
+]
+},
+{
+"id": "305953",
+"data_hora": "2010-08-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander López"
+]
+}
+]
+},
+{
+"id": "305954",
+"data_hora": "2010-08-11T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mejia"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Galdamez"
+]
+}
+]
+},
+{
+"id": "306249",
+"data_hora": "2010-08-15T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Arzu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Diaz"
+]
+}
+]
+},
+{
+"id": "306250",
+"data_hora": "2010-08-15T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Solorzano"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+}
+]
+},
+{
+"id": "306251",
+"data_hora": "2010-08-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orvin Paz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Meza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Amarilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carcamo"
+]
+}
+]
+},
+{
+"id": "306252",
+"data_hora": "2010-08-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Genovese"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pompilio Cacho"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Hill"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelinho"
+]
+}
+]
+},
+{
+"id": "306253",
+"data_hora": "2010-08-15T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodas"
+]
+}
+]
+},
+{
+"id": "306949",
+"data_hora": "2010-08-22T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Samir Arzu"
+]
+}
+]
+},
+{
+"id": "306948",
+"data_hora": "2010-08-22T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pompilio Cacho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kiarol Aarhus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carcamo"
+]
+}
+]
+},
+{
+"id": "306950",
+"data_hora": "2010-08-22T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Matamoros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Mejia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Matamoros"
+]
+}
+]
+},
+{
+"id": "306951",
+"data_hora": "2010-08-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Diamond"
+]
+}
+]
+},
+{
+"id": "306952",
+"data_hora": "2010-08-22T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Martinez Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+}
+]
+},
+{
+"id": "307569",
+"data_hora": "2010-08-29T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+}
+]
+},
+{
+"id": "307563",
+"data_hora": "2010-08-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "307571",
+"data_hora": "2010-08-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Charles Cordoba"
+]
+}
+]
+},
+{
+"id": "307570",
+"data_hora": "2010-08-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+}
+]
+},
+{
+"id": "307564",
+"data_hora": "2010-08-30T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Diamond"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Diamond"
+]
+}
+]
+},
+{
+"id": "307934",
+"data_hora": "2010-09-05T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Zelaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pompilio Cacho"
+]
+}
+]
+},
+{
+"id": "307935",
+"data_hora": "2010-09-05T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castro Alcala Sito"
+]
+}
+]
+},
+{
+"id": "307936",
+"data_hora": "2010-09-05T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michel Rivera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michel Rivera"
+]
+}
+]
+},
+{
+"id": "307937",
+"data_hora": "2010-09-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+}
+]
+},
+{
+"id": "307938",
+"data_hora": "2010-09-05T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yobani Avila"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Bica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Cardozo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+}
+]
+},
+{
+"id": "308106",
+"data_hora": "2010-09-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "308109",
+"data_hora": "2010-09-12T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shanonne Wellcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roger Mondragon"
+]
+}
+]
+},
+{
+"id": "308114",
+"data_hora": "2010-09-12T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Rapalo"
+]
+}
+]
+},
+{
+"id": "308116",
+"data_hora": "2010-09-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michel Rivera"
+]
+}
+]
+},
+{
+"id": "308115",
+"data_hora": "2010-09-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Mejía"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacaff"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alfredo Mejía"
+]
+}
+]
+},
+{
+"id": "308641",
+"data_hora": "2010-09-19T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brayan Beckeles"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Diaz"
+]
+}
+]
+},
+{
+"id": "308642",
+"data_hora": "2010-09-19T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+}
+]
+},
+{
+"id": "308647",
+"data_hora": "2010-09-19T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+}
+]
+},
+{
+"id": "308649",
+"data_hora": "2010-09-19T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "308650",
+"data_hora": "2010-09-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maynor Martinez"
+]
+}
+]
+},
+{
+"id": "308856",
+"data_hora": "2010-09-26T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "308858",
+"data_hora": "2010-09-26T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "308857",
+"data_hora": "2010-09-26T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "308866",
+"data_hora": "2010-09-26T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "308867",
+"data_hora": "2010-09-26T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "308934",
+"data_hora": "2010-09-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Kuylen"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+}
+]
+},
+{
+"id": "308935",
+"data_hora": "2010-09-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maynor Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kalimba Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edilson Pereira"
+]
+}
+]
+},
+{
+"id": "308936",
+"data_hora": "2010-09-30T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Mena"
+]
+}
+]
+},
+{
+"id": "309025",
+"data_hora": "2010-10-03T01:30Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309032",
+"data_hora": "2010-10-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Claros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ney Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Claros"
+]
+}
+]
+},
+{
+"id": "309034",
+"data_hora": "2010-10-03T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "309033",
+"data_hora": "2010-10-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+}
+]
+},
+{
+"id": "309035",
+"data_hora": "2010-10-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristiano Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edder Delgado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Bica"
+]
+}
+]
+},
+{
+"id": "308940",
+"data_hora": "2010-10-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orvin Paz"
+]
+}
+]
+},
+{
+"id": "309164",
+"data_hora": "2010-10-08T01:30Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309059",
+"data_hora": "2010-10-10T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+}
+]
+},
+{
+"id": "309060",
+"data_hora": "2010-10-10T20:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309062",
+"data_hora": "2010-10-10T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Diaz"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Mercado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander López"
+]
+}
+]
+},
+{
+"id": "309061",
+"data_hora": "2010-10-10T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "309063",
+"data_hora": "2010-10-10T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amado Guevara"
+]
+}
+]
+},
+{
+"id": "309172",
+"data_hora": "2010-10-12T22:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309229",
+"data_hora": "2010-10-16T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Saul Martinez"
+]
+}
+]
+},
+{
+"id": "309230",
+"data_hora": "2010-10-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Flores"
+]
+}
+]
+},
+{
+"id": "309231",
+"data_hora": "2010-10-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Duron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Martinez"
+]
+}
+]
+},
+{
+"id": "309232",
+"data_hora": "2010-10-17T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edilson Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+}
+]
+},
+{
+"id": "309233",
+"data_hora": "2010-10-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Flores"
+]
+}
+]
+},
+{
+"id": "309261",
+"data_hora": "2010-10-24T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristiano Pereira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michel Rivera"
+]
+}
+]
+},
+{
+"id": "309262",
+"data_hora": "2010-10-24T01:30Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309267",
+"data_hora": "2010-10-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabio Renan Ulloa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+}
+]
+},
+{
+"id": "309269",
+"data_hora": "2010-10-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amado Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amado Guevara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Guzman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Palacios"
+]
+}
+]
+},
+{
+"id": "309270",
+"data_hora": "2010-10-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boniek García"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yobani Avila"
+]
+}
+]
+},
+{
+"id": "309374",
+"data_hora": "2010-10-27T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Salvador"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodas"
+]
+}
+]
+},
+{
+"id": "309375",
+"data_hora": "2010-10-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "309377",
+"data_hora": "2010-10-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Brushi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dion Macaulay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Danilo Turcios"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elroy Smith"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bany Lozano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+}
+]
+},
+{
+"id": "309379",
+"data_hora": "2010-10-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristiano Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+}
+]
+},
+{
+"id": "309378",
+"data_hora": "2010-10-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Moran"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Crisanto"
+]
+}
+]
+},
+{
+"id": "309469",
+"data_hora": "2010-10-30T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309464",
+"data_hora": "2010-10-31T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lincoln McCaulay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edilson Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vicente Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Harrison Rochez"
+]
+}
+]
+},
+{
+"id": "309465",
+"data_hora": "2010-10-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "309467",
+"data_hora": "2010-10-31T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ali Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Róger Rojas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Diaz"
+]
+}
+]
+},
+{
+"id": "309468",
+"data_hora": "2010-10-31T23:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ruben Licona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Ruiz"
+]
+}
+]
+},
+{
+"id": "309644",
+"data_hora": "2010-11-03T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": []
+},
+{
+"id": "309648",
+"data_hora": "2010-11-04T01:30Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309645",
+"data_hora": "2010-11-04T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Boniek García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reynaldo Tilguath"
+]
+}
+]
+},
+{
+"id": "309646",
+"data_hora": "2010-11-05T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "309647",
+"data_hora": "2010-11-05T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yobani Avila"
+]
+}
+]
+},
+{
+"id": "309661",
+"data_hora": "2010-11-07T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309662",
+"data_hora": "2010-11-07T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Necaxa (HON)",
+"mandante_id": "11180",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Arzu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Zelaya"
+]
+}
+]
+},
+{
+"id": "309664",
+"data_hora": "2010-11-07T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Flores"
+]
+}
+]
+},
+{
+"id": "309665",
+"data_hora": "2010-11-07T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "FC Motagua",
+"visitante_id": "7242",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shanonne Wellcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+},
+{
+"id": "309666",
+"data_hora": "2010-11-07T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Aguilar"
+]
+}
+]
+},
+{
+"id": "309710",
+"data_hora": "2010-11-11T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Dias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Dias"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Amarilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rony Flores"
+]
+}
+]
+},
+{
+"id": "309769",
+"data_hora": "2010-11-11T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jerry Bengtson"
+]
+}
+]
+},
+{
+"id": "309765",
+"data_hora": "2010-11-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Hispano",
+"visitante_id": "7248",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Torlacaff"
+]
+}
+]
+},
+{
+"id": "309762",
+"data_hora": "2010-11-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Deportes Savio",
+"mandante_id": "7910",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "309764",
+"data_hora": "2010-11-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Alvarado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Georgie Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Guzman"
+]
+}
+]
+},
+{
+"id": "309763",
+"data_hora": "2010-11-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vida",
+"mandante_id": "7247",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Reynaldo Tilguath"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rommel Murillo"
+]
+}
+]
+},
+{
+"id": "309766",
+"data_hora": "2010-11-14T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Platense",
+"mandante_id": "7243",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Excelsior",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carcamo"
+]
+}
+]
+},
+{
+"id": "309883",
+"data_hora": "2010-11-20T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Motagua",
+"mandante_id": "7242",
+"visitante": "Deportes Savio",
+"visitante_id": "7910",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johnny Leverón"
+]
+}
+]
+},
+{
+"id": "309885",
+"data_hora": "2010-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Necaxa (HON)",
+"visitante_id": "11180",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Copete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dixon Velasquez"
+]
+}
+]
+},
+{
+"id": "309887",
+"data_hora": "2010-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Hispano",
+"mandante_id": "7248",
+"visitante": "Vida",
+"visitante_id": "7247",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Hill"
+]
+}
+]
+},
+{
+"id": "309884",
+"data_hora": "2010-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Platense",
+"visitante_id": "7243",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Martinez Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristiano Pereira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Lopez Lipatin"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nahun Solis"
+]
+}
+]
+},
+{
+"id": "309886",
+"data_hora": "2010-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Diamond"
+]
+}
+]
+},
+{
+"id": "309954",
+"data_hora": "2010-11-25T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Victoria",
+"visitante_id": "7241",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Guity"
+]
+}
+]
+},
+{
+"id": "309957",
+"data_hora": "2010-11-26T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Marathón",
+"visitante_id": "7249",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Bica"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Randy Diamond"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elder Valladares"
+]
+}
+]
+},
+{
+"id": "309958",
+"data_hora": "2010-11-28T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Victoria",
+"mandante_id": "7241",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nilmo Edwards",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Washington Bruschi"
+]
+}
+]
+},
+{
+"id": "309959",
+"data_hora": "2010-11-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Marathón",
+"mandante_id": "7249",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Olímpico Metropolitano",
+"cidade": "San Pedro Sula",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+}
+]
+},
+{
+"id": "310087",
+"data_hora": "2010-12-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Club Deportivo Olimpia",
+"mandante_id": "884",
+"visitante": "Real España",
+"visitante_id": "7245",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nacional Tiburcio Carias Andino",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Lobo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Carlos Dias"
+]
+}
+]
+},
+{
+"id": "310157",
+"data_hora": "2010-12-12T01:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Real España",
+"mandante_id": "7245",
+"visitante": "Club Deportivo Olimpia",
+"visitante_id": "884",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Francisco Morazan",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ramiro Washington Bruschi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Martinez Muñoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "111'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Douglas Caetano"
+]
+}
+]
+}
+]

@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 - **Jogos:** 7065 (7061 com placar); **gols:** 19008; **gols com autor:** 2813 (15%); **cartões:** 0.
 - **Clubes:** 65; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 123 edições; **tabelas publicadas guardadas para conferência:** 1263 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** 17766bf.
 - **Observação da competição:** 1ª divisão da Costa Rica de 1921 ao Clausura 2026, uma edição por título, como a contagem oficial da UNAFUT (lista da RSSSF): um campeão por ano até 2006/07 (1961 com duas entidades rivais; 1954 e 1956 sem campeonato), Apertura e Clausura de 2007/08 em diante. Até 1995/96 quase só tabelas.
 
 ## 2. Edições, fontes e regras

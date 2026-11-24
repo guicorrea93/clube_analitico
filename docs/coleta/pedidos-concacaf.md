@@ -120,7 +120,7 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    Federación), 1986/87 a 2006/07 (Apertura e Clausura como fases do ano a partir de 1997/98) e Apertura e Clausura de
    2007/08 até o Clausura 2026. 7.065 jogos (1996/97 em diante), 65 clubes, 19.008 gols (2.813 com autor), sem cartões.
    Fontes: RSSSF e ESPN (`crc.1`, só gols). Campeão e vice batem com a lista oficial em todas as edições.
-2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+2. **Commits:** `17766bf` (24/11). Sem push.
 3. **Teste de carga:** `crc-1: 123 edições, 7065 jogos, 65 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `data/coleta/crc-1/pacote/`;
@@ -146,3 +146,37 @@ ESPN) e a junção das conferências só usava as tabelas que fecham; agora, qua
 todas as tabelas da fase regular. DC United em 1º e Sporting Kansas City em 2º. A mesma conferência mostrou que em 1928/29,
 1931 e 1932/33 (ASL, dois turnos) faltavam os clubes de um turno só; entraram depois dos outros. Nas 63 edições, o 1º é o
 campeão e o 2º é o vice; teste de carga OK. É só recarregar o pacote.
+
+## 24/11/2026 — Honduras (hon-1): escopo
+
+Só a Liga Nacional (1965/66 em diante), como a liga conta. A Liga Amateur de Honduras (1947-1964) fica fora: era um
+mata-mata entre campeões regionais, a RSSSF a lista à parte, a FENAFUTH não reconhece os títulos e quase não há dados.
+
+## Recado de fim de coleta — hon-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que foi feito:** Campeonato Hondurenho (`hon-1`, Liga Nacional), 89 edições, uma por título, como a lista da RSSSF
+   (`hondchamp.html`): um campeão por temporada de 1965/66 a 1996/97, Apertura e Clausura de 1997/98 ao Clausura 2026 e o
+   torneio único de 1999; duas sem campeão (1972/73, abandonada, e Clausura 2020, pandemia). 5.391 jogos (1996/97 em
+   diante), 55 clubes, 13.983 gols (2.529 com autor), sem cartões. Fontes: RSSSF e ESPN (`hon.1`, para hora, estádio e
+   público). Campeão e vice batem com a lista em todas as edições; o 1º da classificação é sempre o campeão.
+2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+3. **Teste de carga:** `hon-1: 89 edições, 5391 jogos, 55 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `data/coleta/hon-1/pacote/`;
+   - **país novo: Honduras (`HON`)**, em `paises.csv`; já foi à Copa, conferir a bandeira;
+   - 35 edições só com a tabela (1965/66 a 1995/96 e Apertura 2010 a Clausura 2012), com campeão e vice;
+   - duas edições sem campeão (1972/73 e 2020 Clausura), com a tabela do momento.
+5. **Decisões:** escopo só com a Liga Nacional (24/11, depois de pesquisa a pedido do Guilherme: a Liga Amateur de
+   1947-1964 era um mata-mata entre campeões regionais, a RSSSF a lista à parte e a liga não a reconhece); La Salle = San
+   Pedro; Honduras = Honduras Progreso; Atlético Olanchano e Olancho FC separados; homônimos com a cidade ou o país (Olimpia
+   de Tegucigalpa, Necaxa de Tegucigalpa, Real Sociedad de Tocoa, Platense de Puerto Cortés, San Pedro de Honduras,
+   Atlántida de La Ceiba, Palestino de Honduras, Independiente de Honduras, Progreso de Honduras, Atlético Español de
+   Honduras); a ESPN de 2010/11 e 2011/12 não completa a fase regular (faltam de 5 a 11 jogos por torneio) e não foi usada
+   para isso.
+6. **O que não deu para coletar:** jogos de 1965/66 a 1995/96 (fonte: jornais da época ou a Liga Nacional); a fase regular de
+   2010/11 e 2011/12; autores dos gols e cartões na maior parte dos anos (a RSSSF quase não traz; a ESPN não traz lances).
+7. **Onde a revisão deve olhar primeiro:** 1997 Apertura, 2002 Apertura, 2002 Clausura, 2005 Apertura e 2007 Clausura (um
+   resultado diferente entre a página e a tabela dela); os jogos anulados e repetidos de 2002 Apertura e 2007 Clausura.
+8. **Próxima competição:** Guatemala (`gua-1`), com o escopo antes.

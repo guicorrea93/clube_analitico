@@ -7,8 +7,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 56671 | 42633 | 92 | 116 / 33 | não | cb0355f | 0 | [mex-1](mex-1.md) |
-| Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 21918 | 30061 | 134 | 25 / 1 | sim | 5bace06 | 0 | [usa-1](usa-1.md) |
-| Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2813 | 0 | 65 | 40 / 4 | não | — | 0 | [crc-1](crc-1.md) |
+| Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 21918 | 30061 | 134 | 25 / 1 | sim | bb8432b | 0 | [usa-1](usa-1.md) |
+| Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2813 | 0 | 65 | 40 / 4 | não | 17766bf | 0 | [crc-1](crc-1.md) |
+| Campeonato Hondurenho | 89 (1965/66–2026 Clausura) | 35 | 5391 | 2529 | 0 | 55 | 47 / 5 | não | — | 0 | [hon-1](hon-1.md) |
 
 ## Pendências de todas as competições
 
@@ -27,6 +28,10 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **crc-1:** Apertura 2010 a Clausura 2012: fase regular só com a tabela; a ESPN desses anos tem jogos adiados repetidos e jogos faltando.
 - **crc-1:** Autores dos gols e cartões: a RSSSF quase não traz autores e a ESPN (crc.1) só traz gols, e em poucos anos; não há cartões. Fonte que resolveria: o site da UNAFUT ou o ogol.
 - **crc-1:** Erros de um resultado na própria página em 1998/99 e 2000/01; derrota para os dois clubes em 2002/03 (San Carlos x Herediano); um jogo faltando em 2003/04: explicados no relatório.
+- **hon-1:** 1965/66 a 1995/96 só com as tabelas finais (hondhist.html): a RSSSF não tem os jogos. Fonte que resolveria: jornais da época (La Prensa, El Heraldo) ou a Liga Nacional.
+- **hon-1:** Apertura 2010 a Clausura 2012 só com as tabelas (a página da RSSSF não tem a fase regular).
+- **hon-1:** Erros de um resultado na própria página em 1997 Apertura, 2002 Apertura, 2002 Clausura, 2005 Apertura e 2007 Clausura: explicados no relatório.
+- **hon-1:** Liga Amateur de Honduras (1947-1964) fora do hon-1 (decisão de 24/11); se o Guilherme quiser, entra como competição própria.
 
 ## Próximas competições
 
