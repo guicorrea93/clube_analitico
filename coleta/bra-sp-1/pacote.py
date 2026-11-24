@@ -10,6 +10,7 @@ import sqlite3
 from collections import Counter, defaultdict
 
 import clubes_sp1
+import fpf_sp1
 from edicoes import NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RAIZ, RELATORIO, SLUG
 from importar import CAMPEOES_DIVIDIDOS, FONTE_RSSSF, OBS_EDICAO, ORDEM, nome, pontos_vitoria
 from rsssf_sp1 import rsssf
@@ -156,7 +157,8 @@ def gravar(edicoes: dict, log: list[str], rs_c: dict, wk_c: dict) -> None:
         if str(ano) in CAMPEOES_DIVIDIDOS:   # título dividido: o vice é o da decisão D-07, não o outro campeão
             vice = CAMPEOES_DIVIDIDOS[str(ano)][1]
         fontes = " + ".join(x for x, ok in (("RSSSF Brasil", bool(e["rs"])), ("ogol", bool(e["og"])),
-                                               ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"]))) if ok)
+                                               ("ESPN", any("espn:" in p.fonte_id for p in ps)), ("Wikipédia", bool(e["ajustes"])),
+                                               ("FPF", bool(fpf_sp1.jogos(ano)))) if ok)
         obs = list(OBS_EDICAO.get(str(ano), []))
         # título dividido (D-07): o outro campeão na coluna co_campeao (formato do agente 1, 23/11)
         co_campeao = " / ".join(n for n in CAMPEOES_DIVIDIDOS.get(str(ano), ([], ''))[0] if n != (nome(campeao) if campeao else ""))

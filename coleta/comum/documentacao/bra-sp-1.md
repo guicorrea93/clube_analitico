@@ -4,19 +4,19 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 1. O que temos
 
-- **Edições:** 134, de 1902 a 2025.
-- **Jogos:** 21775; **gols:** 64212; **gols com autor:** 6405 (10%); **cartões:** 0.
-- **Clubes:** 112; **artilheiros:** 13 temporadas com artilheiro (18 linhas, com empates).
-- **Classificação final:** 134 temporadas; **rodada a rodada:** 23 temporadas.
+- **Edições:** 135, de 1902 a 2026.
+- **Jogos:** 21847; **gols:** 64380; **gols com autor:** 6405 (10%); **cartões:** 0.
+- **Clubes:** 113; **artilheiros:** 13 temporadas com artilheiro (18 linhas, com empates).
+- **Classificação final:** 135 temporadas; **rodada a rodada:** 22 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2801 linhas.
-- **No banco (`db/futebol.db`):** sim (134 edições, 21791 jogos).
+- **No banco (`db/futebol.db`):** sim (134 edições, 21775 jogos).
 - **Observação da competição:** 1ª divisão paulista, de 1902 a 2025. Nos anos de ligas rivais (1913-1916, 1926-1929, 1935-1936) cada torneio reconhecido pela federação é uma edição ("1913 LPF", "1913 APEA").
 
 ## 2. Fontes e regras
 
-**Temporadas:** 134, de 1902 a 2025. Nos anos de duas ligas (1913-1916 e 1935-1936: LPF e APEA; 1926-1929: APEA e LAF) cada liga é uma temporada própria ("1913 LPF", "1913 APEA"), com o mesmo ano. Campeões conferidos na RSSSF Brasil (spcamp.htm) e na Wikipédia em português ("Campeonato Paulista de Futebol").
+**Temporadas:** 135, de 1902 a 2026 (2026 pelo ogol e pela FPF; a RSSSF ainda não tem a página). Nos anos de duas ligas (1913-1916 e 1935-1936: LPF e APEA; 1926-1929: APEA e LAF) cada liga é uma temporada própria ("1913 LPF", "1913 APEA"), com o mesmo ano. Campeões conferidos na RSSSF Brasil (spcamp.htm) e na Wikipédia em português ("Campeonato Paulista de Futebol").
 
-**Fontes:** RSSSF Brasil (`sp{ano}.htm`: jogos, fases, datas, autores e tabelas); ogol (calendário de cada edição e o código de cada clube; confere placares, traz a rodada e completa jogos); Wikipédia (lista de campeões).
+**Fontes:** RSSSF Brasil (`sp{ano}.htm`: jogos, fases, datas, autores e tabelas); ogol (calendário de cada edição e o código de cada clube; confere placares, traz a rodada e completa jogos); Wikipédia (lista de campeões); FPF (API do site, `coleta/bra-sp-1/baixar_fpf.py`: data oficial de cada jogo de 2007 em diante e fase e grupo de 2024 a 2026).
 
 **Regras:** placar diferente entre RSSSF e ogol fica com a versão que fecha com a tabela publicada pela RSSSF; sem tabela, fica a da RSSSF. Autores dos gols só entram quando a soma bate com o placar. Clube que já está no `futebol.db` ou nos pacotes das Séries C e D e da Copa do Brasil usa o mesmo nome (cadastro comum `data/coleta/comum/clubes_ogol.json`). Palestra Itália e Palmeiras são o mesmo clube (o ogol já os junta). Os homônimos antigos levam "-SP" quando o nome já é de um clube de outro estado ("Internacional-SP").
 
@@ -24,7 +24,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 - Cada temporada é comparada com as tabelas publicadas (RSSSF): 218 tabelas fecham com os jogos e 124 divergem (cada divergência é explicada no relatório, na temporada).
 - Temporadas com alguma tabela divergente: 1905, 1906, 1908, 1909, 1910, 1914 APEA, 1915 LPF, 1915 APEA, 1916 LPF, 1917, 1918, 1919, 1920, 1921, 1922, 1923, 1924, 1925, 1926 APEA, 1927 APEA, 1927 LAF, 1928 APEA, 1928 LAF, 1929 LAF, 1930, 1931, 1932, 1933, 1934, 1935 LPF, 1935 APEA, 1936 LPF, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1956, 1957, 1962, 1966, 1967, 1968, 1969, 1970, 1974, 1975, 1978, 1980, 1981, 1982, 1983, 1985, 1986, 1987, 1988, 1990, 1991, 1992, 1994, 1997, 1999, 2001, 2002, 2003, 2005, 2006, 2010, 2016, 2022, 2024.
-- Temporadas sem tabela para conferir: 1940, 1951, 1952, 1953, 1954, 1955, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1971, 1972, 1984, 2014, 2025.
+- Temporadas sem tabela para conferir: 1940, 1951, 1952, 1953, 1954, 1955, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1971, 1972, 1984, 2014, 2025, 2026.
 - Temporadas com menos jogos do que o ogol: 1913 LPF (20 de 24), 1914 LPF (19 de 32), 1916 APEA (41 de 43), 1927 LAF (45 de 73), 1935 APEA (56 de 58), 1938 (55 de 56), 2009 (196 de 202), 2010 (196 de 202), 2011 (198 de 202), 2012 (198 de 202), 2013 (198 de 202), 2017 (110 de 121), 2018 (110 de 121), 2019 (110 de 121), 2020 (104 de 110), 2021 (104 de 109), 2022 (104 de 109), 2023 (104 de 109).
 
 ## 4. Cobertura de cada campo, por década
@@ -45,9 +45,9 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1990s | 2898 | 100% | 9% | 19% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 1621 | 100% | 73% | 97% | 0% | 0% | 0% | 31% | 0.0 |
 | 2010s | 1594 | 100% | 100% | 93% | 0% | 0% | 0% | 95% | 0.0 |
-| 2020s | 624 | 100% | 100% | 85% | 0% | 0% | 0% | 61% | 0.0 |
+| 2020s | 696 | 100% | 100% | 76% | 0% | 0% | 0% | 54% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 21444; ogol: 314; Futebol Nacional: 17.
+**Fonte de cada jogo:** RSSSF Brasil: 21444; ogol: 386; Futebol Nacional: 17.
 
 ## 5. Formato ao longo do tempo
 
@@ -117,12 +117,12 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2003: 22 clubes
 - 2004: 21 clubes
 - 2005 a 2016: 20 clubes
-- 2017 a 2025: 16 clubes
+- 2017 a 2026: 16 clubes
 
 **Pontos por vitória:**
 
 - 1902 a 1994: 2
-- 1995 a 2025: 3
+- 1995 a 2026: 3
 
 **Nome oficial:**
 
@@ -150,7 +150,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1936 LPF: Campeonato Paulista (LPF)
 - 1936 APEA: Campeonato Paulista (APEA)
 - 1937 a 1993: Campeonato Paulista
-- 1994 a 2025: Campeonato Paulista Série A1
+- 1994 a 2026: Campeonato Paulista Série A1
 
 **Formato de cada edição** (fases na ordem; grupos; mata-mata):
 
@@ -190,10 +190,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2004: 2 grupos + mata-mata
 - 2005 a 2006: pontos corridos
 - 2007 a 2023: pontos corridos + mata-mata
-- 2024: pontos corridos + mata-mata + pontos corridos
-- 2025: pontos corridos
+- 2024 a 2025: 4 grupos + mata-mata
+- 2026: pontos corridos + mata-mata
 
-**Fases que aparecem** (número de temporadas): Fase única (69); Final (46); Primeira fase (34); Semifinal (31); 1º Turno (29); 2º Turno (27); Segunda fase (22); Quartas de final (8); Repescagem (4); Fase final (4); Torneio de rebaixamento (4); 1º Turno - Final (3); Desempate (2); 1º Turno - Semifinal (2); 2º Turno - Final (2); Terceira fase (2); Torneio de Classificação (1); Fase de Classificação (1); 2º Turno - 1ª fase (1); 2º Turno - 2ª fase (1); 2º Turno - Semifinal (1); 3º Turno (1); 1º Turno - Quartas de final (1); 1º Turno - Classificatória (1); 2º Turno - Classificatória (1).
+**Fases que aparecem** (número de temporadas): Fase única (68); Final (49); Primeira fase (36); Semifinal (33); 1º Turno (29); 2º Turno (27); Segunda fase (21); Quartas de final (11); Repescagem (4); Fase final (4); Torneio de rebaixamento (4); 1º Turno - Final (3); Desempate (2); 1º Turno - Semifinal (2); 2º Turno - Final (2); Terceira fase (2); Torneio de Classificação (1); Fase de Classificação (1); 2º Turno - 1ª fase (1); 2º Turno - 2ª fase (1); 2º Turno - Semifinal (1); 3º Turno (1); 1º Turno - Quartas de final (1); 1º Turno - Classificatória (1); 2º Turno - Classificatória (1).
 
 **Observações das edições:**
 
@@ -204,7 +204,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 **Títulos:**
 
 - Corinthians: 31
-- Palmeiras: 26
+- Palmeiras: 27
 - São Paulo: 22
 - Santos: 21
 - Paulistano-SP: 11
@@ -231,6 +231,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 ## 7. Correções e decisões (com o motivo)
 
 Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no relatório, na temporada.
+
+### Temporadas com o ogol como base dos jogos (`importar.BASE_OGOL`)
+
+- **2026:** a RSSSF ainda não tem a página de 2026 (SP-004, D-01): os jogos vêm do ogol, e a fase e o grupo da FPF
 
 ### Tabelas publicadas parciais (fora da conferência) (`importar.TABELAS_PARCIAIS`)
 
@@ -267,6 +271,13 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 ### Fases da página renomeadas (por temporada) (`importar.FASE_ANO`)
 
 - **1976 · 2º Turno:** [Fase final] o "2º turno" de 1976 é a fase final com os 12 melhores (achado SP-008)
+
+### Seções da Wikipédia -> fase e grupo (`fpf_sp1.FASE`)
+
+- **1:** Primeira fase
+- **2:** Quartas de final
+- **3:** Semifinal
+- **4:** Final
 
 ### Ocorrências explicadas, por temporada (`explicacoes.EXPLICACOES`)
 
@@ -480,18 +491,21 @@ Registradas nos módulos de `coleta/bra-sp-1/`; cada uma também aparece no rela
 
 | Arquivo | O que faz |
 |---|---|
+| `coleta/bra-sp-1/baixar_fpf.py` | Baixa da API pública do site da FPF (futebolpaulista.com.br) os jogos da Série A1 (IdCampeonato 73, categoria 39) de cada ano, rodada a rodada, e a artilharia oficial. Grava data/coleta/bra-sp-1/fpf/jogos_{ano}.json e ar |
 | `coleta/bra-sp-1/baixar_ogol.py` | Baixa o calendário de cada edição do Paulista (1ª divisão) no ogol para data/coleta/bra-sp-1/ogol/sp1_{temporada}.json e a ficha de cada clube para data/coleta/bra-sp-1/ogol/clubes.json. |
 | `coleta/bra-sp-1/clubes_sp1.py` | Identidade dos clubes da Copa do Brasil (mesmo método da Série C; clube já nomeado na Série C usa o mesmo nome). |
 | `coleta/bra-sp-1/edicoes.py` | Edições do Campeonato Paulista (1ª divisão, `bra-sp-1`): temporadas, anos e nomes oficiais. |
 | `coleta/bra-sp-1/explicacoes.py` | Textos do relatório do Paulista (1ª divisão) que não saem do código: introdução, explicações de cada temporada e o fim. |
+| `coleta/bra-sp-1/fpf_sp1.py` | Leitor dos jogos da FPF (data/coleta/bra-sp-1/fpf/jogos_{ano}.json, de baixar_fpf.py): casa cada jogo da FPF com o do pacote e traz a data oficial (de 2007 em diante; achado QS-008) e, nos anos de FASES_DA_FPF, a fase e  |
 | `coleta/bra-sp-1/importar.py` | Junta as fontes do Campeonato Paulista (1ª divisão) e grava o pacote em data/coleta/bra-sp-1/pacote/ e o relatório em docs/coleta/bra-sp-1.md. Mesmo método da Série C (docs/coleta/bra-serie-c.md). |
 | `coleta/bra-sp-1/pacote.py` | Grava o pacote do Campeonato Paulista (data/coleta/bra-sp-1/pacote/) e o relatório (docs/coleta/bra-sp-1.md), no formato de docs/agente-coleta-COMECE-AQUI.md, seção 4. Chamado por importar.py. |
 | `coleta/bra-sp-1/rsssf_sp1.py` | Leitura das páginas do Campeonato Paulista da RSSSF Brasil (data/coleta/bra-sp-1/rsssfbrasil/sp{ano}.htm). |
 
-- Fontes baixadas: `data/coleta/bra-sp-1/` (ogol, rsssfbrasil, wikipedia). Pacote: `data/coleta/bra-sp-1/pacote/`. Relatório: `docs/coleta/bra-sp-1.md`.
+- Fontes baixadas: `data/coleta/bra-sp-1/` (fpf, ogol, rsssfbrasil, wikipedia). Pacote: `data/coleta/bra-sp-1/pacote/`. Relatório: `docs/coleta/bra-sp-1.md`.
 - Código comum: `coleta/comum/` (`rsssf.py` leitor das páginas da RSSSF Brasil, `ogol.py` calendários e fichas, `gols.py` autores dos gols, `registro.py` cadastro comum de nomes `data/coleta/comum/clubes_ogol.json`, `baixar.py` download educado).
 - Refazer do zero (da raiz do `clube_analitico`, logs no scratchpad):
 
+  - `python coleta/bra-sp-1/baixar_fpf.py` (ver o docstring)
   - `python coleta/bra-sp-1/baixar_ogol.py` (ver o docstring)
   - `python coleta/bra-sp-1/importar.py` (grava o pacote e o relatório; `importar.py <ano>` só mostra, sem gravar)
   - `python coleta/comum/testar_carga.py bra-sp-1 <pasta temporária>` (deve terminar com `-> OK`)

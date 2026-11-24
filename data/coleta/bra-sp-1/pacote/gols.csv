@@ -1073,19 +1073,19 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0031,Oeste,Dias,54,,penalti,RSSSF
 2009-0032,Barueri,Pedrão,3,,penalti,RSSSF
 2009-0032,Barueri,Pedrão,59,,normal,RSSSF
-2009-0034,Noroeste,Léo Mineiro,41,,normal,RSSSF
-2009-0034,Portuguesa,Edno,8,,normal,RSSSF
-2009-0034,Portuguesa,Athirson,54,,normal,RSSSF
-2009-0035,Ponte Preta,André,10,,normal,RSSSF
-2009-0035,Ponte Preta,Leandrinho,47,,normal,RSSSF
-2009-0035,Palmeiras,Lenny,15,,normal,RSSSF
-2009-0035,Palmeiras,Lenny,46,,normal,RSSSF
-2009-0035,Palmeiras,Lenny,88,,normal,RSSSF
-2009-0036,Santo André,Osni,6,,normal,RSSSF
-2009-0036,Santo André,Júnior Dutra,53,,normal,RSSSF
-2009-0037,Ituano,Ricardo Xavier,28,,normal,RSSSF
-2009-0037,Ituano,Alex Afonso,45,1,normal,RSSSF
-2009-0038,São Caetano,Zé Eduardo,41,,normal,RSSSF
+2009-0034,São Caetano,Zé Eduardo,41,,normal,RSSSF
+2009-0035,Noroeste,Léo Mineiro,41,,normal,RSSSF
+2009-0035,Portuguesa,Edno,8,,normal,RSSSF
+2009-0035,Portuguesa,Athirson,54,,normal,RSSSF
+2009-0036,Ponte Preta,André,10,,normal,RSSSF
+2009-0036,Ponte Preta,Leandrinho,47,,normal,RSSSF
+2009-0036,Palmeiras,Lenny,15,,normal,RSSSF
+2009-0036,Palmeiras,Lenny,46,,normal,RSSSF
+2009-0036,Palmeiras,Lenny,88,,normal,RSSSF
+2009-0037,Santo André,Osni,6,,normal,RSSSF
+2009-0037,Santo André,Júnior Dutra,53,,normal,RSSSF
+2009-0038,Ituano,Ricardo Xavier,28,,normal,RSSSF
+2009-0038,Ituano,Alex Afonso,45,1,normal,RSSSF
 2009-0039,Bragantino,Somália,85,,normal,RSSSF
 2009-0039,Mirassol,Luciano Sorriso,52,,normal,RSSSF
 2009-0039,Mirassol,Luis Ricardo,32,,normal,RSSSF
@@ -2019,9 +2019,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0153,Ponte Preta,Fabiano Gadelha,53,,normal,RSSSF
 2010-0153,Rio Claro,Edu Salles,65,,normal,RSSSF
 2010-0153,Rio Claro,Mirandinha,70,,normal,RSSSF
-2010-0154,Paulista,Mazola,66,,normal,RSSSF
-2010-0155,Bragantino,Mauricio,81,,normal,RSSSF
-2010-0156,São Caetano,Eduardo,90,3,normal,RSSSF
+2010-0154,São Caetano,Eduardo,90,3,normal,RSSSF
+2010-0155,Paulista,Mazola,66,,normal,RSSSF
+2010-0156,Bragantino,Mauricio,81,,normal,RSSSF
 2010-0157,Barueri,Araújo,6,,normal,RSSSF
 2010-0157,Barueri,Araújo,39,,normal,RSSSF
 2010-0157,Barueri,Araújo,83,,normal,RSSSF
@@ -2037,17 +2037,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0160,Oeste,Ricardo Bueno,10,,normal,RSSSF
 2010-0160,Oeste,Ricardo Bueno,60,,penalti,RSSSF
 2010-0160,Sertãozinho,João Paulo,81,,normal,RSSSF
-2010-0161,Oeste,Ricardo Bueno,82,,normal,RSSSF
-2010-0161,Oeste,Kleber,90,4,normal,RSSSF
-2010-0162,Palmeiras,Robert,6,,normal,RSSSF
-2010-0162,Mirassol,Pablo Escobar,71,,normal,RSSSF
-2010-0163,Paulista,Eli Sabiá,14,,normal,RSSSF
-2010-0164,Rio Claro,Luiz Fernando,80,,normal,RSSSF
-2010-0164,Bragantino,Frontini,3,,normal,RSSSF
-2010-0164,Bragantino,Léo Jaime,58,,normal,RSSSF
-2010-0164,Bragantino,Léo Jaime,65,,normal,RSSSF
-2010-0165,São Caetano,Fernandes,10,,normal,RSSSF
-2010-0165,São Caetano,Eduardo,90,4,normal,RSSSF
+2010-0161,Palmeiras,Robert,6,,normal,RSSSF
+2010-0161,Mirassol,Pablo Escobar,71,,normal,RSSSF
+2010-0162,Paulista,Eli Sabiá,14,,normal,RSSSF
+2010-0163,Rio Claro,Luiz Fernando,80,,normal,RSSSF
+2010-0163,Bragantino,Frontini,3,,normal,RSSSF
+2010-0163,Bragantino,Léo Jaime,58,,normal,RSSSF
+2010-0163,Bragantino,Léo Jaime,65,,normal,RSSSF
+2010-0164,São Caetano,Fernandes,10,,normal,RSSSF
+2010-0164,São Caetano,Eduardo,90,4,normal,RSSSF
+2010-0165,Oeste,Ricardo Bueno,82,,normal,RSSSF
+2010-0165,Oeste,Kleber,90,4,normal,RSSSF
 2010-0166,Corinthians,Elias,17,,normal,RSSSF
 2010-0166,Corinthians,Danilo,34,,normal,RSSSF
 2010-0166,Corinthians,Roberto Carlos,52,,normal,RSSSF
@@ -2341,20 +2341,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2011-0064,Botafogo-SP,Anselmo,40,,normal,RSSSF
 2011-0064,Botafogo-SP,Andrezinho,73,,normal,RSSSF
 2011-0064,São Paulo,Marcelinho Paraiba,90,2,normal,RSSSF
-2011-0065,Barueri,Saldanha,6,,normal,RSSSF
-2011-0065,Barueri,Saldanha,26,,normal,RSSSF
-2011-0065,Barueri,Saldanha,86,,normal,RSSSF
-2011-0065,Portuguesa,Luis Ricardo,18,,normal,RSSSF
-2011-0065,Portuguesa,Kempes,76,,normal,RSSSF
-2011-0065,Portuguesa,Tata,79,,normal,RSSSF
-2011-0066,Bragantino,Luciano Sorriso,44,,normal,RSSSF
-2011-0066,Mirassol,Esley,37,,normal,RSSSF
-2011-0066,Mirassol,Xuxa,90,1,normal,RSSSF
-2011-0067,Ponte Preta,Renatinho,12,,normal,RSSSF
-2011-0067,Linense,Fausto,20,,normal,RSSSF
-2011-0068,São Caetano,Vandinho,36,,normal,RSSSF
-2011-0068,São Caetano,Vandinho,45,,normal,RSSSF
-2011-0068,Paulista,Fabio Gomes,46,,normal,RSSSF
+2011-0065,Bragantino,Luciano Sorriso,44,,normal,RSSSF
+2011-0065,Mirassol,Esley,37,,normal,RSSSF
+2011-0065,Mirassol,Xuxa,90,1,normal,RSSSF
+2011-0066,São Caetano,Vandinho,36,,normal,RSSSF
+2011-0066,São Caetano,Vandinho,45,,normal,RSSSF
+2011-0066,Paulista,Fabio Gomes,46,,normal,RSSSF
+2011-0067,Barueri,Saldanha,6,,normal,RSSSF
+2011-0067,Barueri,Saldanha,26,,normal,RSSSF
+2011-0067,Barueri,Saldanha,86,,normal,RSSSF
+2011-0067,Portuguesa,Luis Ricardo,18,,normal,RSSSF
+2011-0067,Portuguesa,Kempes,76,,normal,RSSSF
+2011-0067,Portuguesa,Tata,79,,normal,RSSSF
+2011-0068,Ponte Preta,Renatinho,12,,normal,RSSSF
+2011-0068,Linense,Fausto,20,,normal,RSSSF
 2011-0069,Corinthians,Ramirez,2,,normal,RSSSF
 2011-0069,Corinthians,Chicão,21,,normal,RSSSF
 2011-0069,Corinthians,Liédson,75,,normal,RSSSF
@@ -3493,18 +3493,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0079,São Paulo,Luís Fabiano,28,,normal,RSSSF
 2013-0079,São Paulo,Luís Fabiano,58,,normal,RSSSF
 2013-0079,São Paulo,Aloísio,90,2,normal,RSSSF
-2013-0080,São Paulo,Jadson,33,,normal,RSSSF
-2013-0080,São Paulo,Osvaldo,61,,normal,RSSSF
-2013-0080,São Paulo,Fabio Lima,78,,contra,RSSSF
-2013-0081,Mirassol,Marcelo,45,1,normal,RSSSF
-2013-0081,Mirassol,Eduardo Ratinho,60,,contra,RSSSF
-2013-0081,Mirassol,Bahia,90,1,normal,RSSSF
-2013-0082,Botafogo-SP,Cris,23,,normal,RSSSF
-2013-0083,Mogi Mirim,Carlos Alberto,66,,penalti,RSSSF
-2013-0084,Paulista,Cassiano Bodini,31,,normal,RSSSF
-2013-0084,Paulista,Marcelo Macedo,32,,normal,RSSSF
-2013-0084,Paulista,Rodolfo Testoni,38,,normal,RSSSF
-2013-0084,Atlético Sorocaba,Edson Sitta,50,,normal,RSSSF
+2013-0080,Mogi Mirim,Carlos Alberto,66,,penalti,RSSSF
+2013-0081,Paulista,Cassiano Bodini,31,,normal,RSSSF
+2013-0081,Paulista,Marcelo Macedo,32,,normal,RSSSF
+2013-0081,Paulista,Rodolfo Testoni,38,,normal,RSSSF
+2013-0081,Atlético Sorocaba,Edson Sitta,50,,normal,RSSSF
+2013-0082,São Paulo,Jadson,33,,normal,RSSSF
+2013-0082,São Paulo,Osvaldo,61,,normal,RSSSF
+2013-0082,São Paulo,Fabio Lima,78,,contra,RSSSF
+2013-0083,Mirassol,Marcelo,45,1,normal,RSSSF
+2013-0083,Mirassol,Eduardo Ratinho,60,,contra,RSSSF
+2013-0083,Mirassol,Bahia,90,1,normal,RSSSF
+2013-0084,Botafogo-SP,Cris,23,,normal,RSSSF
 2013-0085,Bragantino,Léo Jaime,2,,normal,RSSSF
 2013-0085,Bragantino,Lincom,54,,normal,RSSSF
 2013-0085,Corinthians,Alexandre Pato,45,,normal,RSSSF
@@ -3633,10 +3633,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0131,Botafogo-SP,Zé Antônio,14,,normal,RSSSF
 2013-0131,Botafogo-SP,Daniel Borges,55,,normal,RSSSF
 2013-0131,Botafogo-SP,Daniel Borges,90,1,normal,RSSSF
-2013-0133,Corinthians,Guerrero,5,,normal,RSSSF
-2013-0134,São Paulo,Preto,30,,contra,RSSSF
-2013-0134,São Paulo,Luís Fabiano,43,,normal,RSSSF
-2013-0135,XV de Piracicaba,Anderson Lessa,60,,normal,RSSSF
+2013-0132,São Paulo,Preto,30,,contra,RSSSF
+2013-0132,São Paulo,Luís Fabiano,43,,normal,RSSSF
+2013-0133,XV de Piracicaba,Anderson Lessa,60,,normal,RSSSF
+2013-0135,Corinthians,Guerrero,5,,normal,RSSSF
 2013-0136,Ponte Preta,William,62,,normal,RSSSF
 2013-0137,Mogi Mirim,Roni,44,,normal,RSSSF
 2013-0137,Mogi Mirim,Tiago Alves,49,,normal,RSSSF
@@ -3687,19 +3687,19 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0151,XV de Piracicaba,Marcelo Soares,72,,normal,RSSSF
 2013-0151,Ponte Preta,William,32,,normal,RSSSF
 2013-0151,Ponte Preta,William,49,,normal,RSSSF
-2013-0152,São Paulo,Jádson,4,,normal,RSSSF
-2013-0152,Corinthians,Danilo,41,,normal,RSSSF
-2013-0152,Corinthians,Alexandre Pato,80,,penalti,RSSSF
-2013-0153,Atlético Sorocaba,Édson Sitta,51,,normal,RSSSF
-2013-0153,Atlético Sorocaba,Bruninho,54,,normal,RSSSF
-2013-0153,Atlético Sorocaba,Fábio Sanches,68,,normal,RSSSF
-2013-0154,Palmeiras,Leandro,55,,normal,RSSSF
-2013-0154,Palmeiras,Marcelo Oliveira,90,,normal,RSSSF
-2013-0154,Linense,Gilsinho,60,,normal,RSSSF
-2013-0155,Penapolense,Magrão,72,,normal,RSSSF
-2013-0156,Ituano,Tiago Bezerra,52,,normal,RSSSF
-2013-0156,Botafogo-SP,Giovani,50,,normal,RSSSF
-2013-0156,Botafogo-SP,Dimba,90,,normal,RSSSF
+2013-0152,Palmeiras,Leandro,55,,normal,RSSSF
+2013-0152,Palmeiras,Marcelo Oliveira,90,,normal,RSSSF
+2013-0152,Linense,Gilsinho,60,,normal,RSSSF
+2013-0153,Penapolense,Magrão,72,,normal,RSSSF
+2013-0154,Ituano,Tiago Bezerra,52,,normal,RSSSF
+2013-0154,Botafogo-SP,Giovani,50,,normal,RSSSF
+2013-0154,Botafogo-SP,Dimba,90,,normal,RSSSF
+2013-0155,São Paulo,Jádson,4,,normal,RSSSF
+2013-0155,Corinthians,Danilo,41,,normal,RSSSF
+2013-0155,Corinthians,Alexandre Pato,80,,penalti,RSSSF
+2013-0156,Atlético Sorocaba,Édson Sitta,51,,normal,RSSSF
+2013-0156,Atlético Sorocaba,Bruninho,54,,normal,RSSSF
+2013-0156,Atlético Sorocaba,Fábio Sanches,68,,normal,RSSSF
 2013-0157,Oeste,Gilmar,85,,normal,RSSSF
 2013-0157,Santos,Neymar,66,,normal,RSSSF
 2013-0157,Santos,Cícero,87,,normal,RSSSF
@@ -4098,30 +4098,30 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0123,Ponte Preta,Alemão,,,normal,RSSSF
 2014-0123,Ponte Preta,César,,,normal,RSSSF
 2014-0123,Rio Claro,Thiago Cristian,,,normal,RSSSF
-2014-0124,Portuguesa,Caio,,,normal,RSSSF
-2014-0124,Portuguesa,Caio,,,normal,RSSSF
-2014-0124,Portuguesa,Wanderson,,,normal,RSSSF
-2014-0124,Bragantino,Robertinho,,,normal,RSSSF
-2014-0125,Corinthians,Antônio Carlos,,,normal,RSSSF
-2014-0125,Corinthians,Antônio Carlos,,,normal,RSSSF
-2014-0125,São Paulo,Rodrigo Caio,,,normal,RSSSF
-2014-0125,São Paulo,Ganso,,,normal,RSSSF
-2014-0125,São Paulo,Luís Fabiano,,,normal,RSSSF
-2014-0126,Paulista,David,,,normal,RSSSF
-2014-0126,Palmeiras,Miguel,,,normal,RSSSF
-2014-0126,Palmeiras,Patrick Vieira,,,normal,RSSSF
-2014-0126,Palmeiras,Willian Matheus,,,normal,RSSSF
-2014-0127,São Bernardo,Elionar Bombinha,,,normal,RSSSF
-2014-0127,Mogi Mirim,Edson Ratinho,,,normal,RSSSF
-2014-0128,Santos,Leandro Damião,,,normal,RSSSF
-2014-0128,Santos,Thiago Ribeiro,,,normal,RSSSF
-2014-0128,Santos,Thiago Ribeiro,,,normal,RSSSF
-2014-0128,Santos,Diego Cardoso,,,normal,RSSSF
-2014-0128,Oeste,Eric,,,normal,RSSSF
-2014-0129,Osasco Audax,Matheus,,,normal,RSSSF
-2014-0129,Osasco Audax,Denilson,,,normal,RSSSF
-2014-0130,XV de Piracicaba,Rodrigo,,,normal,RSSSF
-2014-0130,XV de Piracicaba,Leonardo Luiz,,,normal,RSSSF
+2014-0124,Corinthians,Antônio Carlos,,,normal,RSSSF
+2014-0124,Corinthians,Antônio Carlos,,,normal,RSSSF
+2014-0124,São Paulo,Rodrigo Caio,,,normal,RSSSF
+2014-0124,São Paulo,Ganso,,,normal,RSSSF
+2014-0124,São Paulo,Luís Fabiano,,,normal,RSSSF
+2014-0125,Paulista,David,,,normal,RSSSF
+2014-0125,Palmeiras,Miguel,,,normal,RSSSF
+2014-0125,Palmeiras,Patrick Vieira,,,normal,RSSSF
+2014-0125,Palmeiras,Willian Matheus,,,normal,RSSSF
+2014-0126,São Bernardo,Elionar Bombinha,,,normal,RSSSF
+2014-0126,Mogi Mirim,Edson Ratinho,,,normal,RSSSF
+2014-0127,Santos,Leandro Damião,,,normal,RSSSF
+2014-0127,Santos,Thiago Ribeiro,,,normal,RSSSF
+2014-0127,Santos,Thiago Ribeiro,,,normal,RSSSF
+2014-0127,Santos,Diego Cardoso,,,normal,RSSSF
+2014-0127,Oeste,Eric,,,normal,RSSSF
+2014-0128,Osasco Audax,Matheus,,,normal,RSSSF
+2014-0128,Osasco Audax,Denilson,,,normal,RSSSF
+2014-0129,XV de Piracicaba,Rodrigo,,,normal,RSSSF
+2014-0129,XV de Piracicaba,Leonardo Luiz,,,normal,RSSSF
+2014-0130,Portuguesa,Caio,,,normal,RSSSF
+2014-0130,Portuguesa,Caio,,,normal,RSSSF
+2014-0130,Portuguesa,Wanderson,,,normal,RSSSF
+2014-0130,Bragantino,Robertinho,,,normal,RSSSF
 2014-0131,Palmeiras,Mendieta,,,normal,RSSSF
 2014-0131,Palmeiras,Eguren,,,normal,RSSSF
 2014-0131,Palmeiras,Alan Kardec,,,normal,RSSSF
@@ -4954,14 +4954,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0153,São Paulo,Calleri,34,,normal,RSSSF
 2016-0154,Palmeiras,Alecsandro,35,,normal,RSSSF
 2016-0154,Palmeiras,Gabriel Jesus,86,,normal,RSSSF
-2016-0155,Santos,Gabriel,39,,normal,RSSSF
-2016-0155,Santos,Gabriel,74,,normal,RSSSF
-2016-0155,Palmeiras,Rafael Marques,87,,normal,RSSSF
-2016-0155,Palmeiras,Rafael Marques,88,,normal,RSSSF
-2016-0156,Corinthians,André,51,,normal,RSSSF
-2016-0156,Corinthians,André,78,,normal,RSSSF
-2016-0156,Osasco Audax,Bruno Paulo,25,,normal,RSSSF
-2016-0156,Osasco Audax,Tchê Tchê,70,,normal,RSSSF
+2016-0155,Corinthians,André,51,,normal,RSSSF
+2016-0155,Corinthians,André,78,,normal,RSSSF
+2016-0155,Osasco Audax,Bruno Paulo,25,,normal,RSSSF
+2016-0155,Osasco Audax,Tchê Tchê,70,,normal,RSSSF
+2016-0156,Santos,Gabriel,39,,normal,RSSSF
+2016-0156,Santos,Gabriel,74,,normal,RSSSF
+2016-0156,Palmeiras,Rafael Marques,87,,normal,RSSSF
+2016-0156,Palmeiras,Rafael Marques,88,,normal,RSSSF
 2016-0157,Osasco Audax,Mike,57,,normal,RSSSF
 2016-0157,Santos,Ronaldo Mendes,79,,normal,RSSSF
 2016-0158,Santos,Ricardo Oliveira,44,,normal,RSSSF
@@ -5285,9 +5285,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0062,Novorizontino,Juninho,12,,normal,RSSSF
 2018-0062,Novorizontino,Leandro Silva,17,,normal,RSSSF
 2018-0062,Novorizontino,Franci,44,,normal,RSSSF
-2018-0068,Santos,Gabriel Barbosa,29,,normal,RSSSF
-2018-0068,Santos,Eduardo Sasha,42,,normal,RSSSF
-2018-0069,Mirassol,André Luis,37,,normal,RSSSF
+2018-0069,Santos,Gabriel Barbosa,29,,normal,RSSSF
+2018-0069,Santos,Eduardo Sasha,42,,normal,RSSSF
+2018-0070,Mirassol,André Luis,37,,normal,RSSSF
 2018-0071,Ituano,José Antonio,30,,normal,RSSSF
 2018-0073,Ferroviária-SP,Zé Roberto,42,,normal,RSSSF
 2018-0073,Ferroviária-SP,Xuxa,54,,normal,RSSSF
@@ -6012,7 +6012,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2022-0012,Ferroviária-SP,Bruno Mezenga,60,,normal,RSSSF
 2022-0015,Corinthians,Fábio Santos,28,,normal,RSSSF
 2022-0017,Bragantino,Hyoran,77,,normal,RSSSF
-2022-0019,Palmeiras,Dudu,26,,normal,RSSSF
+2022-0018,Palmeiras,Dudu,26,,normal,RSSSF
 2022-0020,Santo André,Júnior Todinho,90,,normal,RSSSF
 2022-0021,Ponte Preta,Lucca,22,,normal,RSSSF
 2022-0021,Ponte Preta,Lucca,51,,normal,RSSSF
@@ -6070,8 +6070,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2022-0083,São Paulo,Rigoni,72,,normal,RSSSF
 2022-0083,São Paulo,Toró,79,,normal,RSSSF
 2022-0084,Palmeiras,Raphael Veiga,45,,normal,RSSSF
-2022-0086,Ituano,Gabriel Barros,74,,normal,RSSSF
-2022-0086,Ituano,Gabriel Barros,84,,normal,RSSSF
+2022-0085,Ituano,Gabriel Barros,74,,normal,RSSSF
+2022-0085,Ituano,Gabriel Barros,84,,normal,RSSSF
 2022-0089,Santo André,Tiaguinho,19,,normal,RSSSF
 2022-0089,Santo André,Todinho,30,,normal,RSSSF
 2022-0090,Ferroviária-SP,Vidal,22,,normal,RSSSF
@@ -6303,104 +6303,104 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2023-0104,Palmeiras,Gabriel Menino,27,,normal,RSSSF
 2023-0104,Palmeiras,Endrick,33,,normal,RSSSF
 2023-0104,Palmeiras,José López,72,,normal,RSSSF
-2024-0001,EC Água Santa,Júnior Todinho,55,,normal,RSSSF
-2024-0002,Santos,Otero,70,,normal,RSSSF
-2024-0006,São Bernardo,Lucas Tocantins,44,,normal,RSSSF
-2024-0006,São Bernardo,Kayke Moreno,83,,normal,RSSSF
-2024-0008,Corinthians,Romero,28,,normal,RSSSF
-2024-0010,Botafogo-SP,Leandro Maciel,85,,normal,RSSSF
-2024-0011,Ituano,Léo Duarte,89,,normal,RSSSF
-2024-0018,São Paulo,Luiz Gustavo,22,,normal,RSSSF
-2024-0019,Guarani,Reinaldo Satorno,41,,normal,RSSSF
-2024-0019,Guarani,Mayk Van Van,49,,normal,RSSSF
-2024-0019,Guarani,Reinaldo Satorno,69,,normal,RSSSF
-2024-0020,São Bernardo,Silvinho,26,,normal,RSSSF
-2024-0026,Ponte Preta,Jeh,44,,normal,RSSSF
-2024-0026,Ponte Preta,Dodô,89,,normal,RSSSF
-2024-0027,Palmeiras,Flaco López,88,,normal,RSSSF
-2024-0029,Santos,Joaquim,81,,normal,RSSSF
-2024-0030,Novorizontino,Waguininho,55,,normal,RSSSF
-2024-0030,Novorizontino,Geovane,71,,normal,RSSSF
-2024-0031,Inter de Limeira,Gustavo Bochecha,11,,normal,RSSSF
-2024-0031,Inter de Limeira,Juninho,14,,normal,RSSSF
-2024-0032,Botafogo-SP,Alex Sandro,37,,normal,RSSSF
-2024-0037,Santos,Guilherme,58,,normal,RSSSF
-2024-0037,Santos,Guilherme,82,,normal,RSSSF
-2024-0039,Ponte Preta,Iago Dias,3,,normal,RSSSF
-2024-0039,Ponte Preta,Jeh,41,,normal,RSSSF
-2024-0039,Ponte Preta,Dodô,80,,normal,RSSSF
-2024-0040,Santos,João Felipe Schmidt,23,,normal,RSSSF
-2024-0041,Bragantino,Juninho Capixaba,68,,normal,RSSSF
-2024-0041,Bragantino,Eduardo Sasha,90,6,normal,RSSSF
-2024-0042,São Bernardo,Matheus Régis,8,,normal,RSSSF
-2024-0043,São Paulo,Bobadilla,10,,normal,RSSSF
-2024-0043,São Paulo,Juan,77,,normal,RSSSF
-2024-0043,São Paulo,Alan Franco,87,,normal,RSSSF
-2024-0044,Mirassol,Dellatorre,14,,normal,RSSSF
-2024-0044,Mirassol,Rodrigo Ferreira,25,,normal,RSSSF
-2024-0044,Mirassol,Dellatorre,45,4,normal,RSSSF
-2024-0044,Mirassol,Negueba,58,,normal,RSSSF
-2024-0045,Palmeiras,Flaco López,36,,normal,RSSSF
-2024-0045,Palmeiras,Rony,86,,normal,RSSSF
-2024-0046,Inter de Limeira,Quirino,90,7,normal,RSSSF
-2024-0047,Ponte Preta,Gabriel Risso Patron,74,,normal,RSSSF
-2024-0047,Ponte Preta,Renato,90,1,normal,RSSSF
-2024-0049,Corinthians,Maycon,43,,normal,RSSSF
-2024-0049,Corinthians,Yuri Alberto,77,,normal,RSSSF
-2024-0050,Inter de Limeira,Lucas Buchecha,10,,normal,RSSSF
-2024-0050,Inter de Limeira,Gustavo Bochecha,36,,normal,RSSSF
-2024-0051,EC Água Santa,Wálber,59,,normal,RSSSF
-2024-0051,EC Água Santa,Ronald,82,,normal,RSSSF
-2024-0054,Novorizontino,Rodolfo,51,,normal,RSSSF
-2024-0054,Novorizontino,Rodolfo,61,,normal,RSSSF
-2024-0056,Santos,Morelos,66,,normal,RSSSF
-2024-0057,Bragantino,Eduardo Sasha,64,,normal,RSSSF
-2024-0061,Palmeiras,Flaco López,87,,normal,RSSSF
-2024-0067,Portuguesa,Giovanni Augusto,45,7,normal,RSSSF
-2024-0070,São Bernardo,Hélder,90,,normal,RSSSF
-2024-0071,Novorizontino,Danilo Barcelos,42,,normal,RSSSF
-2024-0072,Bragantino,Bruno Gonçalves,27,,normal,RSSSF
-2024-0078,Ponte Preta,Iago Dias,6,,normal,RSSSF
-2024-0079,Palmeiras,Flaco López,67,,normal,RSSSF
-2024-0079,Palmeiras,Gabriel Menino,90,3,normal,RSSSF
-2024-0080,São Paulo,Ferreirinha,45,3,normal,RSSSF
-2024-0080,São Paulo,Luciano,81,,normal,RSSSF
-2024-0080,São Paulo,James Rodríguez,90,5,normal,RSSSF
-2024-0082,Portuguesa,Éverton Maceió,4,,normal,RSSSF
-2024-0084,Inter de Limeira,Gustavo Bochecha,10,,normal,RSSSF
-2024-0084,Inter de Limeira,Albano,47,,normal,RSSSF
-2024-0085,São Bernardo,Kayke Moreno,63,,normal,RSSSF
-2024-0085,São Bernardo,Silvinho,87,,normal,RSSSF
-2024-0089,Palmeiras,Rony,68,,normal,RSSSF
-2024-0091,Guarani,Pablo Thomáz,9,,normal,RSSSF
-2024-0093,São Bernardo,Hélder,33,,normal,RSSSF
-2024-0093,São Bernardo,Matheus Régis,90,4,normal,RSSSF
-2024-0094,Novorizontino,Fabrício Daniel,9,,normal,RSSSF
-2024-0094,Novorizontino,Rômulo,52,,normal,RSSSF
-2024-0095,Santo André,Alexiel,71,,normal,RSSSF
+2024-0001,Ituano,Léo Duarte,89,,normal,RSSSF
+2024-0005,Guarani,Reinaldo Satorno,41,,normal,RSSSF
+2024-0005,Guarani,Mayk Van Van,49,,normal,RSSSF
+2024-0005,Guarani,Reinaldo Satorno,69,,normal,RSSSF
+2024-0007,Ponte Preta,Jeh,44,,normal,RSSSF
+2024-0007,Ponte Preta,Dodô,89,,normal,RSSSF
+2024-0010,Santos,Guilherme,58,,normal,RSSSF
+2024-0010,Santos,Guilherme,82,,normal,RSSSF
+2024-0011,Santos,João Felipe Schmidt,23,,normal,RSSSF
+2024-0016,Portuguesa,Giovanni Augusto,45,7,normal,RSSSF
+2024-0017,Bragantino,Bruno Gonçalves,27,,normal,RSSSF
+2024-0020,Palmeiras,Flaco López,67,,normal,RSSSF
+2024-0020,Palmeiras,Gabriel Menino,90,3,normal,RSSSF
+2024-0021,Portuguesa,Éverton Maceió,4,,normal,RSSSF
+2024-0024,Santo André,Alexiel,71,,normal,RSSSF
+2024-0026,Botafogo-SP,Leandro Maciel,85,,normal,RSSSF
+2024-0032,Santos,Joaquim,81,,normal,RSSSF
+2024-0035,Palmeiras,Flaco López,36,,normal,RSSSF
+2024-0035,Palmeiras,Rony,86,,normal,RSSSF
+2024-0036,Inter de Limeira,Quirino,90,7,normal,RSSSF
+2024-0037,Ponte Preta,Gabriel Risso Patron,74,,normal,RSSSF
+2024-0037,Ponte Preta,Renato,90,1,normal,RSSSF
+2024-0038,EC Água Santa,Wálber,59,,normal,RSSSF
+2024-0038,EC Água Santa,Ronald,82,,normal,RSSSF
+2024-0046,Palmeiras,Rony,68,,normal,RSSSF
+2024-0047,Guarani,Pablo Thomáz,9,,normal,RSSSF
+2024-0049,EC Água Santa,Júnior Todinho,55,,normal,RSSSF
+2024-0051,Corinthians,Romero,28,,normal,RSSSF
+2024-0056,Palmeiras,Flaco López,88,,normal,RSSSF
+2024-0057,Inter de Limeira,Gustavo Bochecha,11,,normal,RSSSF
+2024-0057,Inter de Limeira,Juninho,14,,normal,RSSSF
+2024-0059,Mirassol,Dellatorre,14,,normal,RSSSF
+2024-0059,Mirassol,Rodrigo Ferreira,25,,normal,RSSSF
+2024-0059,Mirassol,Dellatorre,45,4,normal,RSSSF
+2024-0059,Mirassol,Negueba,58,,normal,RSSSF
+2024-0061,Corinthians,Maycon,43,,normal,RSSSF
+2024-0061,Corinthians,Yuri Alberto,77,,normal,RSSSF
+2024-0062,Inter de Limeira,Lucas Buchecha,10,,normal,RSSSF
+2024-0062,Inter de Limeira,Gustavo Bochecha,36,,normal,RSSSF
+2024-0064,Bragantino,Eduardo Sasha,64,,normal,RSSSF
+2024-0067,Ponte Preta,Iago Dias,6,,normal,RSSSF
+2024-0068,São Paulo,Ferreirinha,45,3,normal,RSSSF
+2024-0068,São Paulo,Luciano,81,,normal,RSSSF
+2024-0068,São Paulo,James Rodríguez,90,5,normal,RSSSF
+2024-0070,Inter de Limeira,Gustavo Bochecha,10,,normal,RSSSF
+2024-0070,Inter de Limeira,Albano,47,,normal,RSSSF
+2024-0072,São Bernardo,Hélder,33,,normal,RSSSF
+2024-0072,São Bernardo,Matheus Régis,90,4,normal,RSSSF
+2024-0073,Santos,Otero,70,,normal,RSSSF
+2024-0076,São Bernardo,Lucas Tocantins,44,,normal,RSSSF
+2024-0076,São Bernardo,Kayke Moreno,83,,normal,RSSSF
+2024-0077,São Paulo,Luiz Gustavo,22,,normal,RSSSF
+2024-0078,São Bernardo,Silvinho,26,,normal,RSSSF
+2024-0079,Novorizontino,Waguininho,55,,normal,RSSSF
+2024-0079,Novorizontino,Geovane,71,,normal,RSSSF
+2024-0080,Botafogo-SP,Alex Sandro,37,,normal,RSSSF
+2024-0081,Ponte Preta,Iago Dias,3,,normal,RSSSF
+2024-0081,Ponte Preta,Jeh,41,,normal,RSSSF
+2024-0081,Ponte Preta,Dodô,80,,normal,RSSSF
+2024-0082,Bragantino,Juninho Capixaba,68,,normal,RSSSF
+2024-0082,Bragantino,Eduardo Sasha,90,6,normal,RSSSF
+2024-0083,São Bernardo,Matheus Régis,8,,normal,RSSSF
+2024-0084,São Paulo,Bobadilla,10,,normal,RSSSF
+2024-0084,São Paulo,Juan,77,,normal,RSSSF
+2024-0084,São Paulo,Alan Franco,87,,normal,RSSSF
+2024-0085,Novorizontino,Rodolfo,51,,normal,RSSSF
+2024-0085,Novorizontino,Rodolfo,61,,normal,RSSSF
+2024-0086,Santos,Morelos,66,,normal,RSSSF
+2024-0088,Palmeiras,Flaco López,87,,normal,RSSSF
+2024-0090,São Bernardo,Hélder,90,,normal,RSSSF
+2024-0091,Novorizontino,Danilo Barcelos,42,,normal,RSSSF
+2024-0094,São Bernardo,Kayke Moreno,63,,normal,RSSSF
+2024-0094,São Bernardo,Silvinho,87,,normal,RSSSF
+2024-0096,Novorizontino,Fabrício Daniel,9,,normal,RSSSF
+2024-0096,Novorizontino,Rômulo,52,,normal,RSSSF
 2024-0102,Palmeiras,Endrick,54,,normal,RSSSF
-2025-0001,Ponte Preta,Maguinho,61,,normal,RSSSF
-2025-0002,Noroeste,Pedro Felipe,35,,penalti,RSSSF
-2025-0002,Noroeste,Carlão,43,,normal,RSSSF
-2025-0003,Guarani,Edson,7,,contra,RSSSF
-2025-0003,Guarani,Giva Santos,62,,normal,RSSSF
-2025-0004,Palmeiras,Maurício,11,,normal,RSSSF
-2025-0004,Palmeiras,Maurício,69,,normal,RSSSF
-2025-0009,Mirassol,Gabriel,3,,normal,RSSSF
-2025-0009,Mirassol,Gabriel,7,,normal,RSSSF
-2025-0009,Mirassol,Negueba,43,,normal,RSSSF
-2025-0009,Mirassol,Chico Kim,45,2,normal,RSSSF
-2025-0009,Mirassol,Yuri Castilho,48,,normal,RSSSF
-2025-0009,Mirassol,Guilherme Pato,90,2,normal,RSSSF
-2025-0017,Bragantino,Lucas Evangelista,90,4,normal,RSSSF
-2025-0022,São Paulo,Luciano,3,,normal,RSSSF
-2025-0025,EC Água Santa,Luan Dias,32,,penalti,RSSSF
-2025-0025,EC Água Santa,Diogo Batista,42,,normal,RSSSF
-2025-0025,EC Água Santa,Ademilson,72,,normal,RSSSF
-2025-0029,São Bernardo,Rodrigo Ferreira,87,,normal,RSSSF
+2025-0002,Mirassol,Gabriel,3,,normal,RSSSF
+2025-0002,Mirassol,Gabriel,7,,normal,RSSSF
+2025-0002,Mirassol,Negueba,43,,normal,RSSSF
+2025-0002,Mirassol,Chico Kim,45,2,normal,RSSSF
+2025-0002,Mirassol,Yuri Castilho,48,,normal,RSSSF
+2025-0002,Mirassol,Guilherme Pato,90,2,normal,RSSSF
+2025-0008,São Bernardo,Rodrigo Ferreira,87,,normal,RSSSF
+2025-0025,Guarani,Edson,7,,contra,RSSSF
+2025-0025,Guarani,Giva Santos,62,,normal,RSSSF
+2025-0029,Bragantino,Lucas Evangelista,90,4,normal,RSSSF
 2025-0031,Guarani,Matheus Régis,49,,normal,RSSSF
 2025-0031,Guarani,João Marcelo,57,,normal,RSSSF
-2025-0037,Corinthians,Talles Magno,68,,normal,RSSSF
-2025-0045,Mirassol,Davó,55,,normal,RSSSF
-2025-0046,Ponte Preta,Danilo Barcelos,45,2,penalti,RSSSF
-2025-0048,Corinthians,Alex Santana,66,,normal,RSSSF
+2025-0049,Ponte Preta,Maguinho,61,,normal,RSSSF
+2025-0054,São Paulo,Luciano,3,,normal,RSSSF
+2025-0055,EC Água Santa,Luan Dias,32,,penalti,RSSSF
+2025-0055,EC Água Santa,Diogo Batista,42,,normal,RSSSF
+2025-0055,EC Água Santa,Ademilson,72,,normal,RSSSF
+2025-0059,Ponte Preta,Danilo Barcelos,45,2,penalti,RSSSF
+2025-0060,Corinthians,Alex Santana,66,,normal,RSSSF
+2025-0073,Noroeste,Pedro Felipe,35,,penalti,RSSSF
+2025-0073,Noroeste,Carlão,43,,normal,RSSSF
+2025-0074,Palmeiras,Maurício,11,,normal,RSSSF
+2025-0074,Palmeiras,Maurício,69,,normal,RSSSF
+2025-0083,Corinthians,Talles Magno,68,,normal,RSSSF
+2025-0084,Mirassol,Davó,55,,normal,RSSSF

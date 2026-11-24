@@ -1,6 +1,6 @@
 """Edições do Campeonato Paulista (1ª divisão, `bra-sp-1`): temporadas, anos e nomes oficiais.
 
-1902 a 2025. Nos anos de ligas rivais a federação reconhece os dois títulos, e cada torneio vira uma edição com
+1902 a 2026 (2026 pelo ogol e pela FPF, decisão D-01). Nos anos de ligas rivais a federação reconhece os dois títulos, e cada torneio vira uma edição com
 temporada própria ("1913 LPF", "1913 APEA"): 1913-1916 (LPF e APEA), 1926-1929 (APEA e LAF) e 1935-1936 (LPF e APEA).
 Fontes da lista: RSSSF Brasil (spcamp.htm) e ogol (edições "paulista-a1-1913-lpf" etc.).
 """
@@ -17,7 +17,7 @@ RELATORIO = RAIZ / "docs" / "coleta" / f"{SLUG}.md"
 LIGAS = {1913: ("LPF", "APEA"), 1914: ("LPF", "APEA"), 1915: ("LPF", "APEA"), 1916: ("LPF", "APEA"),
          1926: ("APEA", "LAF"), 1927: ("APEA", "LAF"), 1928: ("APEA", "LAF"), 1929: ("APEA", "LAF"),
          1935: ("LPF", "APEA"), 1936: ("LPF", "APEA")}
-TEMPORADAS = [f"{a} {l}" for a in range(1902, 2026) for l in LIGAS.get(a, ("",))]
+TEMPORADAS = [f"{a} {l}" for a in range(1902, 2027) for l in LIGAS.get(a, ("",))]
 TEMPORADAS = [t.strip() for t in TEMPORADAS]
 
 

@@ -3,12 +3,13 @@
 Gerado por `python coleta/bra-sp-1/importar.py`. Pacote em `data/coleta/bra-sp-1/pacote/`. Método e
 código iguais aos da Série C (`docs/coleta/bra-serie-c.md`).
 
-**Temporadas:** 134, de 1902 a 2025. Nos anos de duas ligas (1913-1916 e 1935-1936: LPF e APEA; 1926-1929: APEA e LAF)
+**Temporadas:** 135, de 1902 a 2026 (2026 pelo ogol e pela FPF; a RSSSF ainda não tem a página). Nos anos de duas ligas (1913-1916 e 1935-1936: LPF e APEA; 1926-1929: APEA e LAF)
 cada liga é uma temporada própria ("1913 LPF", "1913 APEA"), com o mesmo ano. Campeões conferidos na RSSSF Brasil
 (spcamp.htm) e na Wikipédia em português ("Campeonato Paulista de Futebol").
 
 **Fontes:** RSSSF Brasil (`sp{ano}.htm`: jogos, fases, datas, autores e tabelas); ogol (calendário de cada edição e o
-código de cada clube; confere placares, traz a rodada e completa jogos); Wikipédia (lista de campeões).
+código de cada clube; confere placares, traz a rodada e completa jogos); Wikipédia (lista de campeões); FPF (API do site,
+`coleta/bra-sp-1/baixar_fpf.py`: data oficial de cada jogo de 2007 em diante e fase e grupo de 2024 a 2026).
 
 **Regras:** placar diferente entre RSSSF e ogol fica com a versão que fecha com a tabela publicada pela RSSSF; sem tabela,
 fica a da RSSSF. Autores dos gols só entram quando a soma bate com o placar. Clube que já está no `futebol.db` ou nos pacotes
@@ -157,6 +158,7 @@ como na RSSSF.
 | 2023 | RSSSF + ogol | 16 | 104 (109) | 230 | 222 | 5 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2024 | RSSSF + ogol | 16 | 104 (104) | 230 | 76 | 8 / 3 | Palmeiras | RSSSF (classificação geral publicada) |
 | 2025 | RSSSF + ogol | 16 | 104 (104) | 252 | 25 | 0 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2026 | ogol | 16 | 72 (72) | 168 | 0 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 
 ## Conferência e correções, ano a ano
 
@@ -2056,11 +2058,14 @@ como na RSSSF.
 ### 2007
 
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Santos x América-SP, ogol 2007-02-14); fica a do ogol
+- data da FPF (oficial) em 3 jogos (QS-008): Rio Branco-SP x Ponte Preta 2007-02-07 -> 2007-02-08; Noroeste x Ponte Preta 2007-03-25 -> 2007-03-24; Santos x São Caetano 2007-05-05 -> 2007-05-06
+- 6 jogos da FPF sem par no pacote (ex.: Ponte Preta x Noroeste, 14/04/2007, fase 2)
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Santos
 
 ### 2008
 
-- sem ocorrências
+- data da FPF (oficial) em 2 jogos (QS-008): Guaratinguetá x Paulista 2008-02-01 -> 2008-01-31; Guaratinguetá x São Caetano 2008-02-21 -> 2008-02-20
+- 6 jogos da FPF sem par no pacote (ex.: Noroeste x Mirassol, 12/04/2008, fase 2)
 
 ### 2009
 
@@ -2072,6 +2077,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Mirassol 3-5 Barueri (2009-04-19)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ponte Preta 2-0 Barueri (2009-04-25)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Barueri 1-1 Ponte Preta (2009-05-02)
+- data da FPF (oficial) em 1 jogos (QS-008): Mogi Mirim x São Caetano 2009-02-01 -> 2009-01-31
+- 6 jogos da FPF sem par no pacote (ex.: Grêmio Barueri x Mirassol, 11/04/2009, fase 2)
 
 ### 2010
 
@@ -2085,6 +2092,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Botafogo-SP 2-2 Ponte Preta (2010-04-17)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: São Caetano 1-0 Botafogo-SP (2010-04-24)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Botafogo-SP 1-0 São Caetano (2010-05-01)
+- data da FPF (oficial) em 2 jogos (QS-008): Ituano x São Caetano 2010-03-25 -> 2010-03-24; Oeste x Ituano 2010-03-27 -> 2010-03-28
+- 6 jogos da FPF sem par no pacote (ex.: Ponte Preta x Botafogo, 10/04/2010, fase 2)
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Santos
 
 ### 2011
@@ -2097,6 +2106,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ponte Preta 0-0 São Caetano (2011-04-30)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ponte Preta 2-1 Oeste (2011-05-04)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Oeste 3-0 Ponte Preta (2011-05-07)
+- data da FPF (oficial) em 2 jogos (QS-008): Barueri x Portuguesa 2011-02-06 -> 2011-02-09; Ponte Preta x Linense 2011-02-06 -> 2011-02-09
+- 4 jogos da FPF sem par no pacote (ex.: Osasco Sporting x Mirassol, 29/04/2011, fase 3)
 
 ### 2012
 
@@ -2108,6 +2119,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Bragantino 2-4 Mogi Mirim (2012-05-05)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Mogi Mirim 4-2 Bragantino (2012-05-12)
 - jogo só no ogol, incluído em FINALS:: Santos 4-2 Guarani (2012-05-13)
+- data da FPF (oficial) em 10 jogos (QS-008): Comercial-RP x Ituano 2012-03-11 -> 2012-03-10; Linense x XV de Piracicaba 2012-03-11 -> 2012-03-10; Corinthians x Guarani 2012-03-11 -> 2012-03-10; Catanduvense x Oeste 2012-03-11 -> 2012-03-10; Mogi Mirim x Santos 2012-03-11 -> 2012-03-10; São Paulo x Portuguesa 2012-03-12 -> 2012-03-11; Botafogo-SP x Palmeiras 2012-03-12 -> 2012-03-11; São Caetano x Mirassol 2012-03-12 -> 2012-03-11; Guaratinguetá x Bragantino 2012-03-12 -> 2012-03-11; Ponte Preta x Paulista 2012-03-12 -> 2012-03-11
+- 4 jogos da FPF sem par no pacote (ex.: Mogi Mirim x Osasco Sporting, 28/04/2012, fase 3)
 
 ### 2013
 
@@ -2117,6 +2130,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ponte Preta 1-0 Linense (2013-05-05)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Penapolense 0-0 Ponte Preta (2013-05-12)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ponte Preta 4-2 Penapolense (2013-05-18)
+- data da FPF (oficial) em 13 jogos (QS-008): Mogi Mirim x Oeste 2013-02-23 -> 2013-02-22; Paulista x Atlético Sorocaba 2013-02-23 -> 2013-02-22; Palmeiras x Santos 2013-03-23 -> 2013-03-24; Guarani x Corinthians 2013-03-23 -> 2013-03-24; Paulista x Ponte Preta 2013-03-23 -> 2013-03-24; Mogi Mirim x Mirassol 2013-03-23 -> 2013-03-24; Ituano x Oeste 2013-03-23 -> 2013-03-24; União Barbarense x São Caetano 2013-03-23 -> 2013-03-24; São Paulo x Corinthians 2013-03-30 -> 2013-03-31; Guarani x Atlético Sorocaba 2013-03-30 -> 2013-03-31; Oeste x Santos 2013-03-30 -> 2013-03-31; São Caetano x Mogi Mirim 2013-03-30 -> 2013-03-31; União Barbarense x São Bernardo 2013-03-30 -> 2013-03-31
+- 4 jogos da FPF sem par no pacote (ex.: Botafogo x Penapolense, 04/05/2013, fase 3         )
 
 ### 2014
 
@@ -2126,6 +2141,7 @@ como na RSSSF.
 - jogo só no ogol, incluído em First Phase: Oeste 1-1 Comercial-RP (2014-01-29)
 - jogo só no ogol, incluído em First Phase: Portuguesa 4-0 Linense (2014-02-09)
 - placar corrigido — XV de Piracicaba 1-2 -> 1-3 São Paulo (2014-02-26): FN, ogol e FPF (jogo 103); os 3 autores do São Paulo já estão na página (QS-012)
+- data da FPF (oficial) em 5 jogos (QS-008): Paulista x Penapolense 2014-02-09 -> 2014-02-11; São Bernardo x Atlético Sorocaba 2014-02-09 -> 2014-02-11; Santos x Comercial-RP 2014-02-09 -> 2014-02-11; Osasco Audax x Penapolense 2014-03-09 -> 2014-03-11; Portuguesa x Bragantino 2014-03-09 -> 2014-03-12
 
 ### 2015
 
@@ -2137,6 +2153,7 @@ como na RSSSF.
 - tabela publicada x jogos — Fase final / -: Osasco Audax tabela [19, 9, 4, 6, 32, 26] jogos [19, 8, 5, 6, 32, 26] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase final / -: Corinthians tabela [17, 12, 2, 3, 32, 10] jogos [17, 12, 3, 2, 32, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Fase final / -: Palmeiras tabela [17, 8, 3, 6, 29, 19] jogos [17, 8, 4, 5, 29, 19] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- data da FPF (oficial) em 1 jogos (QS-008): Santos x Palmeiras 2016-04-23 -> 2016-04-24
 
 ### 2017
 
@@ -2151,6 +2168,7 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Mirassol 3-1 Red Bull Bragantino II (2017-04-15)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ituano 1-0 Santo André (2017-04-21)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Santo André 1-1 Ituano (2017-04-29)
+- 11 jogos da FPF sem par no pacote (ex.: Mirassol x Ituano SAF, 01/04/2017, fase FASE 02)
 
 ### 2018
 
@@ -2174,6 +2192,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: São Bento 3-1 Ponte Preta (2018-03-24)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Mirassol 1-1 Ponte Preta (2018-03-29)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ponte Preta 1-0 Mirassol (2018-04-03)
+- data da FPF (oficial) em 1 jogos (QS-008): São Caetano x São Bento 2018-02-25 -> 2018-02-24
+- 11 jogos da FPF sem par no pacote (ex.: Mirassol x Red Bull Bragantino II, 17/03/2018, fase QUARTAS DE FINAL)
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Corinthians
 
 ### 2019
@@ -2189,6 +2209,7 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ponte Preta 2-0 Oeste (2019-04-07)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Red Bull Bragantino II 3-1 Mirassol (2019-04-09)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Red Bull Bragantino II 0-0 Ponte Preta (2019-04-16)
+- 11 jogos da FPF sem par no pacote (ex.: Botafogo x Osasco Sporting, 23/03/2019, fase QUARTAS DE FINAL)
 
 ### 2020
 
@@ -2199,6 +2220,7 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Inter de Limeira 1-2 Guarani (2020-08-01)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Bragantino 1-1 Botafogo-SP (2020-08-02)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Bragantino 1-0 Guarani (2020-08-05)
+- 6 jogos da FPF sem par no pacote (ex.: Ferroviária x Inter Limeira, 29/07/2020, fase QUARTAS DE FINAL)
 
 ### 2021
 
@@ -2207,6 +2229,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Bragantino 1-1 Ponte Preta (2021-05-16)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Novorizontino 4-0 Ituano (2021-05-18)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Novorizontino 2-0 Ponte Preta (2021-05-20)
+- data da FPF (oficial) em 3 jogos (QS-008): Mirassol x Guarani 2021-05-13 -> 2021-05-12; São Paulo x Ferroviária-SP 2021-05-15 -> 2021-05-14; São Paulo x Mirassol 2021-05-17 -> 2021-05-16
+- 5 jogos da FPF sem par no pacote (ex.: Ituano SAF x Santo André, 12/05/2021, fase QUARTAS DE FINAL)
 
 ### 2022
 
@@ -2218,6 +2242,8 @@ como na RSSSF.
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Botafogo-SP 3-0 Inter de Limeira (2022-03-28)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Ituano 2-2 EC Água Santa (2022-03-28)
 - jogo do Troféu do Interior no ogol (torneio à parte), fica de fora: Botafogo-SP 0-3 Ituano (2022-03-31)
+- data da FPF (oficial) em 7 jogos (QS-008): Ferroviária-SP x Santos 2022-03-13 -> 2022-03-16; EC Água Santa x Santo André 2022-03-11 -> 2022-03-12; Guarani x Ferroviária-SP 2022-03-11 -> 2022-03-12; Corinthians x Ponte Preta 2022-03-11 -> 2022-03-12; Inter de Limeira x São Bernardo 2022-03-11 -> 2022-03-12; Palmeiras x Ituano 2022-03-24 -> 2022-03-23; São Paulo x Palmeiras 2022-03-31 -> 2022-03-30
+- 5 jogos da FPF sem par no pacote (ex.: Mirassol x Água Santa, 25/03/2022, fase Quartas de Final)
 
 ### 2023
 
@@ -2227,6 +2253,7 @@ como na RSSSF.
 - jogo da Taça Independência no ogol (torneio à parte), fica de fora: São Bernardo 1-0 Inter de Limeira (2023-03-16)
 - jogo da Taça Independência no ogol (torneio à parte), fica de fora: Mirassol 1-0 Guarani (2023-03-17)
 - jogo da Taça Independência no ogol (torneio à parte), fica de fora: São Bernardo 0-0 Mirassol (2023-03-26)
+- 5 jogos da FPF sem par no pacote (ex.: Guarani x Portuguesa SAF, 10/03/2023, fase QUARTAS DE FINAL)
 
 ### 2024
 
@@ -2235,6 +2262,7 @@ como na RSSSF.
 - tabela publicada x jogos — Final / -: Ituano tabela [12, 1, 3, 8, 5, 18] jogos [12, 1, 3, 8, 5, 19] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - jogo só no ogol, incluído em Third Phase - Fase Semifinal: Santos 1-0 Palmeiras (2024-03-31)
 - jogo só no ogol, incluído em Third Phase - Fase Semifinal: Palmeiras 2-0 Santos (2024-04-07)
+- data da FPF (oficial) em 6 jogos (QS-008): Santos x Novorizontino 2024-02-17 -> 2024-02-18; Palmeiras x Corinthians 2024-02-17 -> 2024-02-18; Portuguesa x Guarani 2024-02-17 -> 2024-02-18; EC Água Santa x Inter de Limeira 2024-02-17 -> 2024-02-18; Botafogo-SP x Guarani 2024-03-02 -> 2024-03-01; Palmeiras x Novorizontino 2024-03-29 -> 2024-03-28
 
 ### 2025
 
@@ -2295,6 +2323,12 @@ como na RSSSF.
 - jogo só no ogol, incluído em FIRST STAGE:: Palmeiras 1-0 São Paulo (2025-03-11)
 - jogo só no ogol, incluído em FIRST STAGE:: Palmeiras 0-1 Corinthians (2025-03-16)
 - jogo só no ogol, incluído em FIRST STAGE:: Corinthians 0-0 Palmeiras (2025-03-28)
+- data da FPF (oficial) em 12 jogos (QS-008): São Paulo x Inter de Limeira 2025-02-11 -> 2025-02-10; Mirassol x EC Água Santa 2025-01-18 -> 2025-01-19; São Bernardo x Bragantino 2025-01-18 -> 2025-01-19; Corinthians x Velo Clube 2025-01-18 -> 2025-01-19; Ponte Preta x Santos 2025-01-18 -> 2025-01-19; Noroeste x Botafogo-SP 2025-01-24 -> 2025-01-23; Santos x Botafogo-SP 2025-02-06 -> 2025-02-05; Corinthians x Santos 2025-02-13 -> 2025-02-12; São Paulo x Velo Clube 2025-02-14 -> 2025-02-13; Portuguesa x São Bernardo 2025-02-21 -> 2025-02-20; Palmeiras x São Paulo 2025-03-11 -> 2025-03-10; Corinthians x Palmeiras 2025-03-28 -> 2025-03-27
+
+### 2026
+
+- a RSSSF ainda não tem a página de 2026 (SP-004, D-01): os jogos vêm do ogol, e a fase e o grupo da FPF
+- data da FPF (oficial) em 6 jogos (QS-008): Capivariano x Portuguesa 2026-01-14 -> 2026-01-13; Ponte Preta x Velo Clube 2026-01-15 -> 2026-01-14; São Paulo x São Bernardo 2026-01-16 -> 2026-01-15; Ponte Preta x São Bernardo 2026-01-22 -> 2026-01-21; Velo Clube x Guarani 2026-01-23 -> 2026-01-22; Mirassol x Novorizontino 2026-02-02 -> 2026-02-01
 
 ## Identidade dos clubes
 

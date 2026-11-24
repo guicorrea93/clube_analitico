@@ -827,3 +827,24 @@ O Guilherme mandou seguir o resto do plano `docs/revisao/plano-coleta-brasil.md`
 3. **Pódio que muda:** 1928 APEA (vice Santos, 3º Palmeiras) e 1988 (3º São Paulo, 4º São José).
 4. **Pedido ao agente 1:** recarregar o `bra-sp-1`.
 5. **Próximo, parte 2:** leitor da API da FPF, para as datas de 2007 em diante (QS-008, SP-021), as fases de 2024-2025 (SP-008), a edição de 2026 (SP-004) e a artilharia.
+
+## Correções da revisão — bra-sp-1 — 24/11/2026 (parte 2: FPF e 2026)
+
+1. **Feito:**
+   - **Fonte nova:** a API do site da FPF, a fonte oficial. `coleta/bra-sp-1/baixar_fpf.py` grava em `data/coleta/bra-sp-1/fpf/` os jogos (2007-2026) e a artilharia de cada ano. `fpf_sp1.py` casa cada jogo da FPF com o do pacote pelo par de clubes, pela data (até 10 dias) e pelo placar.
+   - **QS-008:** de 2007 em diante vale a data da FPF. Mudam 68 jogos, os mesmos do achado (2007 3, 2008 2, 2009 1, 2010 2, 2011 2, 2012 10, 2013 13, 2014 5, 2016 1, 2018 1, 2021 3, 2022 7, 2024 6, 2025 12). A hora entra quando falta.
+   - **SP-008 (2024 e 2025):** fase e grupo pela FPF: Primeira fase com os grupos A a D, quartas, semifinal e final.
+     - 2024: a final sai da "Semifinal".
+     - 2025: quartas, semifinal e final saem da "Fase única"; 3º São Paulo e 4º Santos.
+   - **SP-004 (D-01):** entra a edição de 2026, com 72 jogos.
+     - Os jogos vêm do ogol, e a fase e a data da FPF. A RSSSF ainda não tem a página.
+     - Pódio: campeão Palmeiras, vice Novorizontino, 3º São Paulo, 4º Corinthians.
+     - O Primavera estreia na 1ª divisão, mas já estava no cadastro comum pela A2.
+   - **SP-021 (em parte):** clubes com dois jogos no mesmo dia caem de 70 (antes da parte 1) para 56. Saem 1988 e 2022. Os que sobram são de 1906 a 1983, onde a FPF não ajuda; ficam para conferir com o Futebol Nacional.
+   - **Fontes por edição:** a coluna `fontes` de `edicoes.csv` agora inclui "FPF" de 2007 em diante.
+2. **A2:** o Primavera, vice de 2025, passa a ter "acesso", porque jogou a 1ª divisão em 2026. É a mesma regra dos outros anos, e é a única linha que muda.
+3. **Números:**
+   - `bra-sp-1`: 135 edições e 21.847 jogos. Tabelas publicadas: 218 fecham e 124 divergem, sem mudança.
+   - testar_carga: `bra-sp-1: 135 edições, 21847 jogos, 0 clubes novos -> OK`; `bra-sp-2: 80 edições, 9223 jogos -> OK`.
+4. **Pedido ao agente 1:** recarregar o `bra-sp-1`, que ganha a edição de 2026, e o `bra-sp-2`. Se o seletor do site limita os anos, incluir 2026.
+5. **Próximo, parte 3** (`pacote.py`): rebaixados (SP-015), artilheiros pela `sptops.htm` e pela FPF (QS-010, SP-023, SP-024, QS-011) e observações em português (SP-022).

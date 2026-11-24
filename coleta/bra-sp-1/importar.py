@@ -25,6 +25,7 @@ AQUI = Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI.parent / "comum"))
 sys.path.insert(0, str(AQUI))
 import clubes_sp1  # noqa: E402
+import fpf_sp1  # noqa: E402
 import gols as gols_rsssf  # noqa: E402
 import rsssf_sp1  # noqa: E402
 import wiki  # noqa: E402
@@ -1074,7 +1075,12 @@ def campeoes() -> tuple[dict[str, str], dict[str, str]]:
 
 
 def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict) -> dict:
-    rs, tabelas = rsssf_sp1.ler(ano)
+    try:
+        rs, tabelas = rsssf_sp1.ler(ano)
+    except FileNotFoundError:
+        if str(ano) not in BASE_OGOL:
+            raise
+        rs, tabelas = [], []   # sem página da RSSSF: base no ogol
     for (a, n), motivo in RSSSF_FORA.items():
         if str(a) == str(ano):
             fora = [j for j in rs if n in (j.mandante, j.visitante)]
@@ -1137,6 +1143,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     for (de, para), n in sorted(mudou.items()):
         log.append(f"{ano}: {n} jogos da fase \"{de}\" passam para \"{para}\" (FASE_ANO/FASE_JOGO)")
     jogos_extra(ano, partidas, log)
+    fpf_sp1.aplicar(ano, partidas, nome, log)   # data oficial 2007+; fase e grupo de 2024-2026 (QS-008, SP-008)
     # autores: só quando fecham com o placar
     for p in partidas:
         if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv:
@@ -1188,7 +1195,9 @@ def campeao_oficial(ano: int, partidas: list[Partida], rs_c: dict, wk_c: dict) -
 
 
 # edições em que a RSSSF não serve de base (o ogol é a base dos jogos)
-BASE_OGOL: dict[int, str] = {}
+BASE_OGOL: dict[str, str] = {
+    "2026": "a RSSSF ainda não tem a página de 2026 (SP-004, D-01): os jogos vêm do ogol, e a fase e o grupo da FPF",
+}
 # edições em que as tabelas publicadas pela RSSSF são parciais (a página parou no meio): não servem de conferência
 TABELAS_PARCIAIS: dict[str, str] = {"2025": "a página da RSSSF parou na 6ª rodada da 1ª fase: as tabelas dela são parciais e não servem de conferência; os outros jogos vêm do ogol"}
 

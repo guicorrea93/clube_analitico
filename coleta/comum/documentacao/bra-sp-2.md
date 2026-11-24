@@ -271,7 +271,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - Monte Azul: 1
 - Velo Clube: 1
 
-**Acessos:** 72 no total; quem mais teve: Noroeste (4), São Bento (4), Ponte Preta (3), Juventus-SP (3), Botafogo-SP (3), Rio Claro (3), Oeste (3), EC Água Santa (3).
+**Acessos:** 73 no total; quem mais teve: Noroeste (4), São Bento (4), Ponte Preta (3), Juventus-SP (3), Botafogo-SP (3), Rio Claro (3), Oeste (3), EC Água Santa (3).
 
 **Rebaixamentos:** 93 no total; quem mais teve: Marília (3), Noroeste (3), Nacional-SP (3), Olímpia (3), Rio Preto (3), XV de Piracicaba (3), Comercial-RP (3), São Caetano (2).
 
