@@ -511,7 +511,7 @@ def relatorio(eds: list[dict]) -> None:
               "**Clubes:** nome pelo qual o clube é conhecido (Caracas FC, Deportivo Táchira, Estudiantes de Mérida, "
               "Mineros de Guayana). O mesmo clube com outro nome, como na lista de campeões da RSSSF: Unión Atlético "
               "Táchira (1985-1999) é o Deportivo Táchira; ItalChacao e Deportivo Petare são o Deportivo Italia; o Atlético "
-              "Zulia (1996/97 e 1997/98) é a Universidad de Los Andes (ULA); o Internacional de Lara (1998/99) é o "
+              "Zulia (1996/97 e 1997/98) é o Unicol de Lagunillas renomeado; o Internacional de Lara (1998/99) é o "
               "Trujillanos; UE Lara e UD Lara são a Unión Deportiva Lara; Internacional de Barinas é o Hermanos Colmenárez. "
               "Clubes diferentes com nome parecido ficam separados: Atlético Zamora (até 2005) e Zamora FC; Lara FC "
               "(1965-1985), Unión Deportiva Lara (1986-2002) e Deportivo Lara (2009 em diante); Anzoátegui FC (1967), "

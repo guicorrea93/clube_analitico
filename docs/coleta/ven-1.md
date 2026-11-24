@@ -12,7 +12,7 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 
 **Fontes:** RSSSF (uma página por temporada, `venezYY.html` / `venezAAAA.html`, em `data/coleta/ven-1/rsssf/`: base de jogos, com fases, grupos, rodadas, datas e autores dos gols; lista de campeões `venezchamp.html`; artilheiros `veneztops.html`, 1957-2007/08); ESPN (liga `ven.1`, 2005 em diante: hora, estádio, público, gols com minuto e cartões; jogos do Clausura 2011, de 2011/12 e de 2025, que a RSSSF tem só em parte ou só nas tabelas); Wikipédia em inglês (lista de campeões: segunda fonte do campeão e do vice e fonte dos artilheiros depois de 2007/08).
 
-**Clubes:** nome pelo qual o clube é conhecido (Caracas FC, Deportivo Táchira, Estudiantes de Mérida, Mineros de Guayana). O mesmo clube com outro nome, como na lista de campeões da RSSSF: Unión Atlético Táchira (1985-1999) é o Deportivo Táchira; ItalChacao e Deportivo Petare são o Deportivo Italia; o Atlético Zulia (1996/97 e 1997/98) é a Universidad de Los Andes (ULA); o Internacional de Lara (1998/99) é o Trujillanos; UE Lara e UD Lara são a Unión Deportiva Lara; Internacional de Barinas é o Hermanos Colmenárez. Clubes diferentes com nome parecido ficam separados: Atlético Zamora (até 2005) e Zamora FC; Lara FC (1965-1985), Unión Deportiva Lara (1986-2002) e Deportivo Lara (2009 em diante); Anzoátegui FC (1967), Atlético Anzoátegui (1986-1990), Deportivo Anzoátegui (2007 em diante) e o Anzoátegui FC de 2025; Atlético Monagas (2000) e Monagas SC; Estudiantes de Caracas (era amadora) e Estudiantes de Caracas SC (2015-2019). Homônimos de clubes de outros países levam a cidade ou o país (Deportivo Español de Caracas, Celta de Caracas, Danubio de Caracas, América de Caracas).
+**Clubes:** nome pelo qual o clube é conhecido (Caracas FC, Deportivo Táchira, Estudiantes de Mérida, Mineros de Guayana). O mesmo clube com outro nome, como na lista de campeões da RSSSF: Unión Atlético Táchira (1985-1999) é o Deportivo Táchira; ItalChacao e Deportivo Petare são o Deportivo Italia; o Atlético Zulia (1996/97 e 1997/98) é o Unicol de Lagunillas renomeado; o Internacional de Lara (1998/99) é o Trujillanos; UE Lara e UD Lara são a Unión Deportiva Lara; Internacional de Barinas é o Hermanos Colmenárez. Clubes diferentes com nome parecido ficam separados: Atlético Zamora (até 2005) e Zamora FC; Lara FC (1965-1985), Unión Deportiva Lara (1986-2002) e Deportivo Lara (2009 em diante); Anzoátegui FC (1967), Atlético Anzoátegui (1986-1990), Deportivo Anzoátegui (2007 em diante) e o Anzoátegui FC de 2025; Atlético Monagas (2000) e Monagas SC; Estudiantes de Caracas (era amadora) e Estudiantes de Caracas SC (2015-2019). Homônimos de clubes de outros países levam a cidade ou o país (Deportivo Español de Caracas, Celta de Caracas, Danubio de Caracas, América de Caracas).
 
 **Regras:** o placar é o da fonte de base (RSSSF; ESPN onde a RSSSF não tem). Jogo decidido no tribunal leva o placar dado (`awd`), com o de campo na observação; "bt" / "lt" (venceu / perdeu sem placar conhecido) viram W.O. (vitória sem gols, como a tabela conta); "drw" (empate sem placar, 1994/95) fica de fora. Ida e volta numa linha só ("A 1-0 0-4 B") vira dois jogos, com os gols de A primeiro e o mando da volta presumido. Pontos: 2 por vitória até 1994/95 e 3 a partir de 1995/96. Nas edições sem jogos, campeão e vice da lista ficam em 1º e 2º.
 
@@ -95,7 +95,7 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 | 1994/95 | 23 | 203 (203) | 548 | 0 | 0 / 0 | Caracas FC | RSSSF (venez95) |
 | 1995/96 | 18 | 236 (236) | 683 | 0 | 3 / 2 | Minervén | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1996/97 | 12 | 226 (226) | 548 | 9 | 1 / 1 | Caracas FC | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1997/98 | 12 | 266 (266) | 745 | 1 | 1 / 1 | Universidad de Los Andes | RSSSF (venez98) |
+| 1997/98 | 12 | 266 (266) | 745 | 1 | 1 / 1 | Atlético Zulia | RSSSF (venez98) |
 | 1998/99 | 13 | 224 (224) | 608 | 9 | 2 / 0 | Deportivo Italia | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1999/00 | 12 | 275 (275) | 746 | 0 | 2 / 2 | Deportivo Táchira | RSSSF (venez00) |
 | 2000/01 | 17 | 204 (204) | 528 | 7 | 3 / 0 | Caracas FC | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -496,13 +496,13 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 
 ### 1996/97
 
-- o Atlético Zulia (Maracaibo) entra como Universidad de Los Andes, como na lista de campeões da RSSSF ("ULA relocated and renamed Atlético Zulia during the 1996/97 and 1997/98 seasons"); a página da temporada 1996/97 diz que o Atlético Zulia era o Unicol (Lagunillas). Decisão a confirmar com o Guilherme
+- o Atlético Zulia (Maracaibo) é o Unicol (Lagunillas) renomeado, como dizem as páginas da RSSSF de 1995/96 e 1996/97, a Wikipédia em espanhol e a ForoVinotinto (decisão C1 do Guilherme, 24/11/2026); a nota da lista de campeões da RSSSF ("ULA relocated and renamed Atlético Zulia") não se sustenta: a ULA jogou o Torneo de Promoción de 1997
 - tabela publicada x jogos — venez97:18: Valencia FC tabela [22, 4, 6, 12, 15, 29] jogos [22, 4, 6, 12, 15, 30] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - decidido fora de campo — Mineros de Guayana El Vigía FC (1997-04-13): awarded 2-0, Vigia did not show up
 
 ### 1997/98
 
-- o Atlético Zulia (Maracaibo) entra como Universidad de Los Andes, como na lista de campeões da RSSSF ("ULA relocated and renamed Atlético Zulia during the 1996/97 and 1997/98 seasons"); a página da temporada 1996/97 diz que o Atlético Zulia era o Unicol (Lagunillas). Decisão a confirmar com o Guilherme; o título do Apertura e o do ano ficam com a Universidad de Los Andes
+- o Atlético Zulia (Maracaibo) é o Unicol (Lagunillas) renomeado, como dizem as páginas da RSSSF de 1995/96 e 1996/97, a Wikipédia em espanhol e a ForoVinotinto (decisão C1 do Guilherme, 24/11/2026); a nota da lista de campeões da RSSSF ("ULA relocated and renamed Atlético Zulia") não se sustenta: a ULA jogou o Torneo de Promoción de 1997; o título do Apertura e o do ano ficam com o Atlético Zulia
 - tabela publicada x jogos — venez98:18: Carabobo FC tabela [22, 8, 7, 7, 26, 25] jogos [22, 8, 8, 6, 27, 23] — a outra tabela publicada (venez98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — venez98:18: Nacional Táchira tabela [22, 9, 2, 11, 35, 35] jogos [22, 8, 3, 11, 33, 36] — a outra tabela publicada (venez98) fecha com os jogos: o erro é desta tabela
 - decidido fora de campo — Nacional Táchira 3-0 Carabobo FC (1997-08-31): awarded; originally 1-1

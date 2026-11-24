@@ -127,10 +127,10 @@ PENDENCIAS: dict[str, list[str]] = {
         "de 1992 (a tabela da RSSSF diz [Oruro]) = Litoral de La Paz.",
     ],
     "ven-1": [
-        "Ainda não carregado no banco (no GitHub desde o 35dc0a2).",
-        "Decisão do Guilherme: o Atlético Zulia (1996/97 e 1997/98, campeão de 1997/98) entrou como Universidad de Los Andes, "
-        "como na lista de campeões da RSSSF; a página de 1996/97 diz que era o Unicol. Se valer a página, o título vai para "
-        "o Unicol (ou para um 'Atlético Zulia' separado).",
+        "No banco numa versão anterior às correções de 23-24/11 e à decisão C1; recarga pedida ao agente 1 em 24/11.",
+        "Decisão C1 do Guilherme (24/11/2026), depois de pesquisa: o Atlético Zulia (1996/97 e 1997/98, campeão de 1997/98) "
+        "é o Unicol de Lagunillas renomeado (páginas da RSSSF de 1995/96 e 1996/97, Wikipédia em espanhol, ForoVinotinto); "
+        "a nota da lista de campeões da RSSSF que o dava como Universidad de Los Andes não se sustenta.",
         "Era amadora (1921-1956): só 1940, 1955 e 1956 têm todos os jogos; 7 anos sem página (1922, 1924, 1931, 1938, 1939, "
         "1949, 1950) e 26 com jogos parciais ou só a classificação. Fonte que resolveria: jornais de Caracas da época (El "
         "Universal, La Esfera) ou o livro de Eliézer Pérez, autor das páginas da RSSSF.",

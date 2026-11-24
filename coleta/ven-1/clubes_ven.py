@@ -4,9 +4,12 @@ Regras do guia internacional (docs/agentes-internacionais-COMECE-AQUI.md, seçã
 - nome pelo qual o clube é conhecido ("Caracas FC", "Deportivo Táchira", "Estudiantes de Mérida", "Zamora FC");
 - o mesmo clube com outro nome, como na lista de campeões da RSSSF (venezchamp.html): Unión Atlético Táchira (fusão de 1985
   com o Atlético San Cristóbal, até 1999) é o Deportivo Táchira; ItalChacao (fusão temporária com o Deportivo Chacao) e
-  Deportivo Petare (2010-2016) são o Deportivo Italia; o Atlético Zulia (1996/97 e 1997/98) é a Universidad de Los Andes
-  levada a Maracaibo e que voltou a Mérida como FCU-ULA (a página de 1996/97 diz que era o Unicol; fica a lista de campeões,
-  que conta o título de 1997/98 assim); o Internacional de Lara (1998/99) é o Trujillanos levado a Barquisimeto;
+  Deportivo Petare (2010-2016) são o Deportivo Italia; o Atlético Zulia (1996/97 e 1997/98) é o Unicol de Lagunillas levado
+  a Maracaibo e renomeado (decisão C1 do Guilherme, 24/11/2026, depois de pesquisa: páginas da RSSSF de 1995/96 e 1996/97,
+  Wikipédia em espanhol "Atlético Zulia Fútbol Club" e ForoVinotinto; a nota da lista de campeões da RSSSF, que diz ser a
+  Universidad de Los Andes, não se sustenta: a ULA jogou o Torneo de Promoción de 1997 enquanto o Atlético Zulia jogava a
+  1ª divisão); o nome de exibição é o último, "Atlético Zulia" (o clube acabou em 2000); o Internacional de Lara (1998/99)
+  é o Trujillanos levado a Barquisimeto;
 - renomeações na mesma cidade, como nas notas das páginas: UE Lara -> UD Lara (1986/87); Nacional -> Pampero (1948);
   Internacional El Vigía -> El Vigía FC (1999/00); Hermanos Colmenárez -> Internacional de Barinas (2024);
 - clubes diferentes, mesmo com licença comprada ou nome parecido: Nacional Táchira ("novo nome da UD Lara", 1996/97, mas em
@@ -68,7 +71,7 @@ CLUBES: dict[str, tuple[str, str]] = {
     "Atlético Falcón": ("Coro", "Falcón"), "Falcón FC": ("Coro", "Falcón"), "LALA FC": ("Guanare", "Portuguesa"),
     # Zulia
     "Zulia FC": ("Maracaibo", "Zulia"), "Unión Atlético Maracaibo": ("Maracaibo", "Zulia"), "Maracaibo FC": ("Maracaibo", "Zulia"),
-    "Petroleros del Zulia": ("Maracaibo", "Zulia"), "Unicol": ("Lagunillas", "Zulia"), "Zulianos": ("Maracaibo", "Zulia"),
+    "Petroleros del Zulia": ("Maracaibo", "Zulia"), "Atlético Zulia": ("Maracaibo", "Zulia"), "Zulianos": ("Maracaibo", "Zulia"),
     "Deportivo ItalMaracaibo": ("Maracaibo", "Zulia"), "Deportivo JBL Zulia": ("Maracaibo", "Zulia"),
     "Deportivo Rayo Zuliano": ("Maracaibo", "Zulia"),
     # oriente e Guayana
@@ -146,7 +149,7 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"(dep(ortivo)? )?universitario", "Deportivo Universitario", 1900, 1960),
     # Andes
     (r"estudiantes( de)? merida( fc)?|estudiantes merida|estudiantes( fc)?$", "Estudiantes de Mérida", 1960, 2100),
-    (r"(atletico )?zulia$", "Universidad de Los Andes", 1996, 1997),
+    (r"(atletico )?zulia$", "Atlético Zulia", 1996, 1997),   # C1, decisão de 24/11/2026: era o Unicol (ver o docstring)
     (r"(fcu )?ula( fc| merida)?|univ(ersidad)?( de)? los andes", "Universidad de Los Andes", 1970, 2100),
     (r"trujillanos( fc| valera)?|(cd |deportivo )trujillanos|inter(nacional)?( de)? lara", "Trujillanos", 1980, 2100),
     (r"el vigia( fc| el vigia)?$|el vigia fc|vigia$|inter(nacional)?( el vigia)?$", "El Vigía FC", 1990, 2002),
@@ -188,7 +191,7 @@ REGRAS: list[tuple[str, str, int, int]] = [
     (r"(union atletico|ua) maracaibo", "Unión Atlético Maracaibo", 2000, 2100),
     (r"maracaibo( fc)?", "Maracaibo FC", 1980, 2000),
     (r"petroleros de(l)? zulia", "Petroleros del Zulia", 1970, 2100),
-    (r"unicol( fc| lagunillas)?", "Unicol", 1980, 2100),
+    (r"unicol( fc| lagunillas)?", "Atlético Zulia", 1980, 2100),
     (r"zulianos( fc)?", "Zulianos", 1990, 2100),
     (r"(deportivo )?italmaracaibo", "Deportivo ItalMaracaibo", 2000, 2100),
     (r"(dep(ortivo)? )?jbl zulia", "Deportivo JBL Zulia", 2000, 2100),

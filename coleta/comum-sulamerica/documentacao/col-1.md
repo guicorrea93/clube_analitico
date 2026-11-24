@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 23418 (23406 com placar); **gols:** 62516; **gols com autor:** 22051 (35%); **cartões:** 40526.
 - **Clubes:** 42; **artilheiros:** 100 edições com artilheiro (123 linhas, com empates).
 - **Classificação final:** 101 edições; **tabelas publicadas guardadas para conferência:** 2334 linhas.
-- **No banco:** sim; **último commit do pacote:** 415911b.
+- **No banco:** sim; **último commit do pacote:** d6bec05e.
 - **Observação da competição:** 1ª divisão colombiana de 1948 a 2025: um campeão por ano até 2001 (1989 sem campeão; 1995/96 e 1996/97 no calendário europeu) e uma edição por torneio (Apertura e Finalización) de 2002 em diante. Jogos de 1948-1986, 1988-1990 e 1995/96 em diante; 1987 e 1991-1995 só com a tabela final e o campeão.
 
 ## 2. Edições, fontes e regras

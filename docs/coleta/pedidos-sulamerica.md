@@ -1246,3 +1246,17 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
 - **Pedido:** recarregar essas sete. `arg-1`, `bol-1` e as sete copas já estão iguais ao pacote.
 - **Opcional:** recarregar `par-copa`, `ecu-copa`, `col-copa` e `chi-copa`; só a coluna `nomes_fonte` do `clubes.csv` mudou.
 - **Para a revisão:** depois da recarga, os ids corrigidos podem ser reconferidos e fechados no `achados.csv`.
+
+## 24/11 — Decisão C1 do Guilherme: Atlético Zulia = Unicol (`ven-1` e `ven-copa`)
+
+- **O que mudou:** o Atlético Zulia (Maracaibo, 1996/97 e 1997/98) é o Unicol (Lagunillas) renomeado, e não a Universidad
+  de Los Andes. Os dois viram um clube só, "Atlético Zulia" (Maracaibo), com "Unicol" nos `nomes_fonte`.
+  - **Por quê:** é o que dizem as páginas da RSSSF de 1995/96 e 1996/97, a Wikipédia em espanhol ("Atlético Zulia Fútbol
+    Club") e a ForoVinotinto. Só a nota da lista de campeões da RSSSF dizia ULA, e ela não se sustenta: a ULA jogou o Torneo
+    de Promoción de 1997 enquanto o Atlético Zulia jogava a 1ª divisão.
+  - **Efeito:** o título de 1997/98 e o vice de 1996/97 passam da Universidad de Los Andes para o Atlético Zulia (136 jogos
+    do `ven-1` mudam de clube). Na `ven-copa`, os jogos do Unicol em 1994 e 1995.
+- **Pedido ao agente 1:** recarregar `ven-1` (já estava no pedido de recarga acima) e `ven-copa`. Teste de carga: `ven-1:
+  106 edições, 13580 jogos, 1 clubes novos -> OK`; `ven-copa: 66 edições, 1397 jogos, 1 clubes novos -> OK` (o clube novo
+  é o "Atlético Zulia").
+- **Bolívia (C2):** fica de 1950 em diante, como está.

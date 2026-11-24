@@ -109,11 +109,17 @@ abaixo são o histórico; o que está em aberto é esta lista.
     ids em `pedidos-sulamerica.md`). Reconferir depois da recarga (A1) e fechar. O arquivo é da revisão: não mexer.
   - B2. Nunca revisados: `bol-1`, `ven-1` e as 7 copas.
 - **C. Decisões do Guilherme:**
-  - C1. Venezuela: o campeão de 1997/98 "Atlético Zulia" é a Universidad de Los Andes (venezchamp) ou o Unicol (página de
-    1996/97)?
-  - C2. Bolívia: manter de 1950 em diante (como a Wikipédia e os 93 campeonatos da RSSSF) ou começar em 1958?
-  - C3. Copa Venezuela: 66 edições (anexo da Wikipédia) ou 63 (pesquisa de 23/11)? E 1970: Deportivo Galicia (jogos e
-    lista da RSSSF, como está) ou Deportivo Italia (Wikipédia)?
+  - C1. RESOLVIDA (24/11, "pesquise e veja o que acha"): o Atlético Zulia é o Unicol renomeado (páginas da RSSSF de
+    1995/96 e 1996/97, Wikipédia em espanhol, ForoVinotinto; a ULA jogou o Torneo de Promoción de 1997 ao mesmo tempo).
+    `clubes_ven.py`: Unicol e Atlético Zulia viram "Atlético Zulia" (Maracaibo); título de 1997/98 e vice de 1996/97
+    saem da Universidad de Los Andes. `ven-1` e `ven-copa` reimportados.
+  - C2. RESOLVIDA (24/11): a Bolívia fica de 1950 em diante, como está.
+  - C3. ANALISADA (24/11), esperando o ok do Guilherme. Edições: 66; o anexo da Wikipédia e a lista da RSSSF contam as
+    mesmas 66, e o "63" não aparece em nenhuma fonte. 1970: a RSSSF (jogos da final 2-0 e 1-1, tirados de três jornais de
+    Caracas, e a lista de campeões) e a página do Deportivo Galicia na Wikipédia em inglês dão o Galicia; a Wikipédia em
+    espanhol (lista, anexo, texto e palmarés do Galicia e do Deportivo Miranda) e a lista da Wikipédia em inglês dão o
+    Deportivo Italia, com os mesmos placares e sem citar jogo. Recomendação: ficar como está (Galicia, pelos jogos), com
+    a divergência registrada.
 - **D. Trabalho do agente 4 (quando o Guilherme mandar):**
   - D1. Abertos que esperam 3ª fonte: QU-005 (datas do Boca), CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
     CO-004 (1966), CO-022 (números esperados e diagnóstico do relatório).
@@ -195,7 +201,7 @@ abaixo são o histórico; o que está em aberto é esta lista.
    os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as
    edições incompletas do `ven-1`.
 5. **Decisões em aberto:**
-   - **Venezuela:** Atlético Zulia = Universidad de Los Andes (lista de campeões da RSSSF) ou Unicol (página de 1996/97)?
+   - **Venezuela:** Atlético Zulia = Unicol (RESOLVIDA em 24/11, item C1 da lista do topo da seção 3).
    - **Bolívia:** escopo de 1950 em diante (liga de La Paz semiprofissional, Integrado, Mixto), como a Wikipédia e a
      contagem de 93 campeonatos da RSSSF; a contagem "84 títulos desde 1958" da RSSSF deixaria de fora 1950-1957.
 6. **Ficar de olho em `docs/coleta/pedidos-sulamerica.md`:** respostas do agente 1 e pedidos novos da revisão.

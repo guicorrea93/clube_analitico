@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 8563 (8556 com placar); **gols:** 26434; **gols com autor:** 13666 (52%); **cartões:** 4996.
 - **Clubes:** 77; **artilheiros:** 81 edições com artilheiro (91 linhas, com empates).
 - **Classificação final:** 94 edições; **tabelas publicadas guardadas para conferência:** 1626 linhas.
-- **No banco:** sim; **último commit do pacote:** 415911b.
+- **No banco:** sim; **último commit do pacote:** 415911b2.
 - **Observação da competição:** 1ª divisão boliviana de 1950 a 2025, uma edição por título: liga de La Paz (1950-1953), Torneo Integrado (1954-1957), Certamen Mixto (1957/58), campeonato nacional (1958-1976, Copa Simón Bolívar a partir de 1960; sem campeonato em 1962) e liga profissional (1977 em diante; Apertura, Clausura e Adecuación dão título de 2003 a 2019 e em 2022). Jogos de 1950, 1953, 1971, 1977 e 1990 em diante (incompletos em 1990-1994); nos outros anos, campeão, vice e a tabela final da RSSSF.
 
 ## 2. Edições, fontes e regras
