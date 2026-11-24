@@ -161,7 +161,9 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
                        "ajuste": 0, "obs": "", "fonte": "calculada (fora das tabelas publicadas)" if p["tabelas"] else
                        "calculada com os jogos que a página traz (fase alcançada, pontos)"})
     # mata-mata decidido depois da liga (final, desempate do título): campeão e finalista em cima
+    # (só quando a final decide o título: a "final" do grupo do rebaixamento não sobe ninguém)
     finalistas = [c for c in clubes if nivel[c] >= 6]
+    finalistas = finalistas if campeao in finalistas else []
     for c in sorted(finalistas, key=lambda c: c != campeao):
         r = next((r for r in linhas if r["clube"] == c), None)
         if r:
@@ -379,6 +381,8 @@ def gravar(eds: list[dict]) -> None:
         sistema = f"pontos {pv}-{pe}-{pd} (vitória, empate, derrota)" if pd or pe != 1 else ""
         obs_ed = "; ".join(x for x in (e.cancelada, e.obs, sistema if e.ano_inicio >= 1933 else "") if x)
         L["edicoes"].append([e.temporada, e.ano_inicio, e.ano_fim, e.nome_oficial, len(final) or len(d["clubes"]), e.pontos_vitoria,
+                             # empate e derrota só quando não são 1 e 0 (vazias valem 1 e 0)
+                             *(e.pontos[1:] if e.pontos[1:] != (1, 0) else ("", "")),
                              formato_, d["campeao"] or "", vice,
                              "; ".join((["RSSSF"] if e.trechos or e.tabelas else []) + (["ogol"] if e.ogol is not None or og["ligado"] else [])
                                        + (["Wikipédia"] if d["wiki"] else [])), obs_ed])
@@ -397,7 +401,8 @@ def gravar(eds: list[dict]) -> None:
             partes.append(f"{nf}:{a[0]}" + (f"-{a[-1]}" if a[-1] != a[0] else ""))
         L["clubes"].append([c, prov or None, cid or None, "MAR", "|".join(partes)])
     _csv("clubes.csv", ["clube", "regiao", "cidade", "pais", "nomes_fonte"], L["clubes"])
-    _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "formato", "campeao", "vice",
+    _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "pontos_empate", "pontos_derrota",
+                         "formato", "campeao", "vice",
                          "fontes", "observacao"], L["edicoes"])
     _csv("fases.csv", ["temporada", "ordem", "fase", "tipo", "num_grupos", "formato_serie", "criterio"], L["fases"])
     _csv("partidas.csv", ["id", "temporada", "fase", "grupo", "rodada", "data", "hora", "mandante", "visitante", "gols_mandante",

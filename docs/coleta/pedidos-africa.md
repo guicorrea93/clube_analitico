@@ -66,7 +66,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    de 69 edições (Wikipédia). Fontes: RSSSF (páginas por temporada e tabelas de confrontos), ogol (2004/05 em diante),
    Wikipédia em inglês (lista de campeões com vice e artilheiro; tabela de cada temporada desde 2002/03). A ESPN não tem a
    liga marroquina.
-2. **Commits:** nenhum ainda (esperando o ok do Guilherme).
+2. **Commits:** 820bf5f (24/11; sem push).
 3. **Teste de carga:** `mar-1: 110 edições, 11736 jogos, 100 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `mar-1`; país novo **MAR (Marrocos, CAF)**, criado pelo `competicao.json` (o Marrocos foi a várias Copas:
@@ -103,3 +103,57 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    empate trocados com os mesmos gols); 1946/47 (campeão); 1959/60 (desempate e jogos anulados); 1999/00, 2003/04, 2008/09
    e 2010/11 (a Wikipédia confirma a tabela da RSSSF, e o relatório aponta o jogo provável); as fusões de clubes do item 5.
 8. **Próxima competição:** `tun-1` (Tunísia), depois da decisão do Guilherme sobre a era colonial.
+
+## Recado de fim de coleta — tun-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `tun-1` (Campeonato Tunisiano, hoje Ligue Professionnelle 1), 109 edições de 1907 a 2025/26;
+   8.092 jogos (7.852 da RSSSF, 240 do ogol; 39 decididos fora de campo com placar, 7 vitórias sem placar conhecido ou W.O.,
+   5 abandonados, 1 não jogado); 17.062 gols, 771 com autor (quase só 2004/05 e 2010/11); 0 cartões; 74 clubes, todos novos;
+   artilheiros de 71 edições (Wikipédia). Fontes: RSSSF (páginas por temporada, tabelas de confrontos e a lista de tabelas
+   finais `tunhist.html`), ogol (base de 2025/26; conferência, rodada e data desde 2005/06), Wikipédia em inglês (listas de
+   campeões e artilheiros, tabela e notas de cada temporada). A ESPN não tem a liga tunisiana.
+2. **Commits:** (preencher depois do "sim").
+3. **Teste de carga:** `tun-1: 109 edições, 8092 jogos, 74 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `tun-1`; país novo **TUN (Tunísia, CAF)**, criado pelo `competicao.json` (a Tunísia foi a várias Copas:
+     conferir se a bandeira já existe);
+   - **quatro sistemas de pontos:** 3-2-1 (vitória, empate, derrota) até 1985/86, 4-2-1 de 1986/87 a 1991/92, 2-1-0 de
+     1992/93 a 1994/95, 3-1-0 desde 1995/96, nas colunas `pontos_vitoria`, `pontos_empate` e `pontos_derrota` do
+     `edicoes.csv` (recado do agente 1 de 24/11; vazias = 1 e 0). O mesmo commit preenche o `mar-1` (3-2-1 até 1994/95;
+     só o `edicoes.csv` muda);
+   - **55 edições "sem jogos"**: só o campeão (28: era colonial sem página e anos sem jogos na RSSSF) ou só a tabela final
+     (27, de 1955/56 a 1995/96 fora os anos da tabela de confrontos);
+   - **9 edições com "jogos incompletos"** (era colonial: só a final ou o mata-mata; 1949/50, só os resultados conhecidos);
+   - jogos das tabelas de confrontos (1968/69, 1970/71, 1977/78, 1980/81, 1982/83, 1987/88 a 1995/96) **sem data e sem
+     rodada**;
+   - 1951/52 sem campeão (abandonado em janeiro de 1952; a tabela é a do abandono);
+   - anos com 1ª fase em dois grupos e fase final (1998/99, 2012/13, 2016/17, 2021/22 a 2023/24): a fase final dá as
+     primeiras posições; em 2012/13 e 2021/22 os jogos de classificação ("Seventh Place Match"...) dão a ordem do meio.
+5. **Decisões tomadas:**
+   - escopo: entra a era colonial, desde 1907 (USFSA até 1920/21, Liga da Tunísia de 1921/22 a 1954/55), porque a contagem
+     oficial usada na Tunísia inclui esses títulos (o "34º título" do Espérance em 2024/25 e o "14º" do Club Africain em
+     2025/26 só fecham com eles); o Guilherme autorizou decidir pela pesquisa (24/11). Fora os anos sem competição (1909/10,
+     guerras mundiais, 1942/43, 1943/44);
+   - 1909/10: a Wikipédia dá um título ao Racing Club de Tunis; a RSSSF diz que não houve campeonato: fica de fora;
+   - resultados dados fora de campo com o placar oficial e o de campo na observação: 2006/07 (CS Hammam-Lif 2-0 US
+     Monastir, jogador irregular) e três em 2025/26 (notas da Wikipédia; um deles, US Monastir x CS Sfaxien, o ogol traz sem
+     placar, "DA"); células "awd" das tabelas de confrontos (4 jogos) entram como W.O., pela nota da página;
+   - rebaixamentos fora da tabela: 2012/13 (ES Zarzis, jogo de 13º lugar), 2019/20 (CS Hammam-Lif nos "Barrages"; CS Chebba
+     excluído), 2021/22 (o CAS manteve o CS Chebba; caíram ES Zarzis e CS Hammam-Lif no desempate do 16º lugar), 2023/24 (AS
+     Marsa, desempate do rebaixamento);
+   - nomes: Railway Sports de Sfax (colonial) = Sfax Railways Sports; US Ferryville = USM Bourguiba; Olympique Tunis = US
+     Musulmane Olympique (mudou de nome em 1957); "ES" de 1949/50 = Espérance de Tunis.
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - jogos de 1955/56 a 1995/96 fora os anos da tabela de confrontos: a RSSSF só tem a tabela e o ogol só tem jogos de
+     2005/06 em diante;
+   - era colonial: só 9 anos com jogos (a final ou o mata-mata). Fonte que resolveria: jornais da época (La Dépêche
+     tunisienne, Le Petit Matin) na Gallica (BnF);
+   - autores dos gols e cartões (o ogol tem, jogo a jogo, de 2005/06 em diante).
+7. **Onde a revisão deve olhar primeiro:** as tabelas de confrontos que não fecham com a tabela final da página (um par de
+   jogos em 1968/69, 1977/78, 1980/81, 1982/83, 1987/88 a 1990/91 e 1993/94; 1994/95 em 13 dos 14 clubes, erro da própria
+   página); a ordem final de 2012/13 e 2021/22 (`ORDEM_FINAL`) e os rebaixamentos do item 5 (`SITUACAO_FIXA`); a ligação
+   das linhas das matrizes com nomes aos clubes.
+8. **Próxima competição:** `alg-1` (Argélia), depois da decisão do Guilherme sobre o escopo (era colonial).

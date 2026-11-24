@@ -7,7 +7,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Egípcio | 73 (1948/49–2025/26) | 13 | 11574 | 3068 | 0 | 74 | 42 / 12 | sim | 06635c8 | 0 | [egy-1](egy-1.md) |
-| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | não | — | 0 | [mar-1](mar-1.md) |
+| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | não | 820bf5f | 0 | [mar-1](mar-1.md) |
+| Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | não | — | 0 | [tun-1](tun-1.md) |
 
 ## Pendências de todas as competições
 
@@ -23,6 +24,13 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **mar-1:** Autores dos gols quase nenhum (a RSSSF do Marrocos não traz) e nenhum cartão. Fonte que resolveria: o ogol jogo a jogo (2004/05 em diante).
 - **mar-1:** Identidade a conferir: Racing Casablanca (colonial) = Racing AC = ADM Casablanca (como a RSSSF conta); AS Salé = SA Salé = Sporting Salé; JS Massira = Forces Auxiliaires (a página de 1994/95 diz que o clube mudou para El Ayoun); "ASM" (1957/58) sem nome completo; "US Casablanca" = USA Casablanca.
 - **mar-1:** 1946/47: campeão USA Casablanca (página da temporada e Wikipédia); a lista de campeões da RSSSF põe a US Marocaine (erro da lista; avisar a RSSSF?).
+- **tun-1:** Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
+- **tun-1:** Era colonial (1907 a 1954/55): só 9 anos têm jogos na RSSSF, e só a final ou o mata-mata (1949/50: os resultados conhecidos); os outros, só o campeão. 1951/52 (abandonado) tem só a tabela do abandono. Fonte que resolveria: os jornais da época (La Dépêche tunisienne, Le Petit Matin) na Gallica (BnF).
+- **tun-1:** 1955/56 a 1995/96: só a tabela final (lista de tabelas finais da RSSSF), fora os anos da tabela de confrontos (1968/69, 1970/71, 1977/78, 1980/81, 1982/83 e 1987/88 a 1995/96), que não têm data nem rodada. O ogol só tem jogos de 2005/06 em diante.
+- **tun-1:** Tabelas de confrontos que não fecham com a tabela final da página: um par de jogos em 1968/69, 1977/78, 1980/81, 1982/83, 1987/88 a 1990/91 e 1993/94; 1994/95 em 13 dos 14 clubes. Sem terceira fonte; nenhum placar mudado (jogo provável no relatório).
+- **tun-1:** Autores dos gols quase só em 2004/05 e 2010/11 (a RSSSF da Tunísia quase não traz) e nenhum cartão. Fonte que resolveria: o ogol jogo a jogo (2005/06 em diante).
+- **tun-1:** Identidade a conferir: Railway Sports de Sfax (colonial) = Sfax Railways Sports; US Ferryville = USM Bourguiba; Olympique Tunis = US Musulmane Olympique; "ES" de 1949/50 lido como Espérance de Tunis.
+- **tun-1:** 1909/10: a Wikipédia dá um título ao Racing Club de Tunis; a RSSSF diz que não houve campeonato (ficou de fora).
 
 ## Próximas competições
 

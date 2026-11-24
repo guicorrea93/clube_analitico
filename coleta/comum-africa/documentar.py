@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1", "mar-1"]
-PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar"}
+LIGAS: list[str] = ["egy-1", "mar-1", "tun-1"]
+PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar", "tun-1": "tun"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -63,6 +63,23 @@ PENDENCIAS: dict[str, list[str]] = {
         "\"ASM\" (1957/58) sem nome completo; \"US Casablanca\" = USA Casablanca.",
         "1946/47: campeão USA Casablanca (página da temporada e Wikipédia); a lista de campeões da RSSSF põe a US Marocaine "
         "(erro da lista; avisar a RSSSF?).",
+    ],
+    "tun-1": [
+        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
+        "Era colonial (1907 a 1954/55): só 9 anos têm jogos na RSSSF, e só a final ou o mata-mata (1949/50: os resultados "
+        "conhecidos); os outros, só o campeão. 1951/52 (abandonado) tem só a tabela do abandono. Fonte que resolveria: os "
+        "jornais da época (La Dépêche tunisienne, Le Petit Matin) na Gallica (BnF).",
+        "1955/56 a 1995/96: só a tabela final (lista de tabelas finais da RSSSF), fora os anos da tabela de confrontos "
+        "(1968/69, 1970/71, 1977/78, 1980/81, 1982/83 e 1987/88 a 1995/96), que não têm data nem rodada. O ogol só tem jogos "
+        "de 2005/06 em diante.",
+        "Tabelas de confrontos que não fecham com a tabela final da página: um par de jogos em 1968/69, 1977/78, 1980/81, "
+        "1982/83, 1987/88 a 1990/91 e 1993/94; 1994/95 em 13 dos 14 clubes. Sem terceira fonte; nenhum placar mudado (jogo "
+        "provável no relatório).",
+        "Autores dos gols quase só em 2004/05 e 2010/11 (a RSSSF da Tunísia quase não traz) e nenhum cartão. Fonte que "
+        "resolveria: o ogol jogo a jogo (2005/06 em diante).",
+        "Identidade a conferir: Railway Sports de Sfax (colonial) = Sfax Railways Sports; US Ferryville = USM Bourguiba; "
+        "Olympique Tunis = US Musulmane Olympique; \"ES\" de 1949/50 lido como Espérance de Tunis.",
+        "1909/10: a Wikipédia dá um título ao Racing Club de Tunis; a RSSSF diz que não houve campeonato (ficou de fora).",
     ],
 }
 

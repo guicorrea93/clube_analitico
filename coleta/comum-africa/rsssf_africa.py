@@ -157,7 +157,8 @@ def _linha_de_data(l: str) -> bool:
 
 
 _GRUPO = re.compile(r"^\s*(?:\d\.\d\.\s*)?(?:Table\s*[-–]?\s*)?(?:(?P<inter>Inter\s*-?\s*(?:group|zonal|zone)s?\b.*|Group [A-Z] vs\.? Group [A-Z].*|Interzonal.*)"
-                    r"|(?:Group|Grupo|Zona|Zone|Serie)\s+(?P<g>[A-Z0-9]{1,2}|Even|Odd|Par|Impar|Norte|Sur|North|South)\b[^:\[]{0,25}?)\s*:?\s*$", re.I)
+                    r"|(?:Group|Grupo|Zona|Zone|Serie)\s+(?P<g>[A-Z0-9]{1,2}|Even|Odd|Par|Impar|Norte|Sur|North|South)\b[^:\[]{0,25}?)"
+                    r"(?:\s*(?P<gdata>\[[^\]]*\]))?\s*:?\s*$", re.I)   # "Group B [Sep 18]": a data vale para os jogos de baixo (tun-1)
 _NOTA_FIM = re.compile(r"\s*(\[[^\]]*\]?|\((?!\s*\d+\s*-\s*\d+\s*pen)[^)]*\)\s*$)\s*$")
 
 
@@ -341,6 +342,8 @@ def ler(linhas: list[str], ano_ini: int, ano_fim: int | None = None, fases: list
         mg = _GRUPO.match(s)
         if mg:
             grupo = "Interzonal" if mg.group("inter") else mg.group("g").upper()
+            if mg.group("gdata") and (md := achar_data(mg.group("gdata"))):
+                data = fixa_data(md)
             if fase in _MATA_MATA or fase == "Fase final":
                 fase = ""   # "Group A" depois do resumo do mata-mata no topo da página: volta à fase de grupos
             continue

@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 11736 (11702 com placar); **gols:** 25105; **gols com autor:** 18 (0%); **cartões:** 0.
 - **Clubes:** 100; **artilheiros:** 69 edições com artilheiro (77 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 1161 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** 820bf5f.
 - **Observação da competição:** 1ª divisão marroquina (hoje Botola Pro) de 1915/16 a 2025/26, com a era colonial (campeonato da USFSA e, desde 1922/23, da Liga do Marrocos), que a federação marroquina conta no palmarès. Sem 1955/56 (sem competição) e sem a "Ligue libre" (1946-1956, liga paralela dos clubes marroquinos); 1942/43 (abandonado) entra sem campeão. Pontos 3-2-1 (vitória, empate, derrota) até 1994/95.
 
 ## 2. Edições, fontes e regras

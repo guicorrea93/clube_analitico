@@ -55,15 +55,20 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
 | `egy-1` Egípcio | 73 (1948/49–2025/26) | 11.574 | 74 | 06635c8 (23/11, no GitHub) | sim |
-| `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | esperando o ok do Guilherme (24/11) | não |
+| `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | 820bf5f (24/11; sem push) | não |
+| `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | sem commit (pronto 24/11; espera o "sim") | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
 **De onde continuar:**
-1. `mar-1`: commit com o ok do Guilherme; depois esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
-2. Próxima liga: `tun-1` (Tunísia). Antes, mandar ao Guilherme as decisões de escopo (era colonial, antes de 1956: como no
-   Marrocos, ver se a federação tunisiana conta os títulos).
-3. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+1. `mar-1`: commit 820bf5f; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
+2. `tun-1`: pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit só com o
+   "sim" do Guilherme (junto: `coleta/mar-1/importar.py`, finalistas só quando a final decide o título, sem mudança no
+   pacote; `rsssf_africa.py`, título de grupo com data, egy-1 e mar-1 reimportados sem mudança; e as colunas
+   `pontos_empate`/`pontos_derrota` no `edicoes.csv` do mar-1 e do tun-1).
+3. Próxima liga: `alg-1` (Argélia). Antes, mandar ao Guilherme o escopo (era colonial? o Guilherme autorizou decidir pela
+   pesquisa só na Tunísia).
+4. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -94,6 +99,10 @@ tem jogos, ogol onde ela só tem a tabela"). Módulos:
 | `outras_fontes.py` | casa os jogos da RSSSF com o ogol (rodada, data, nome do clube no ogol) |
 | `importar.py` | monta o pacote e o relatório; a classificação é a tabela publicada (ou as de `TABELAS_CLASS`, emendadas) |
 | `ver.py` | jogos entre dois clubes numa edição, com a linha da página |
+
+**Pontos por empate e por derrota** (recado do agente 1, 24/11): o `edicoes.csv` tem `pontos_empate` e `pontos_derrota`
+logo depois de `pontos_vitoria`; preencha só quando não são 1 e 0 (`Edicao.pontos` dá os três; o `importar.py` deixa
+vazio quando é 1-0). Egito: sempre 1 e 0; Marrocos 3-2-1 até 1994/95; Tunísia 3-2-1 até 1985/86 e 4-2-1 até 1991/92.
 
 Regra das divergências (Egito, 23/11): quando a tabela da RSSSF e a soma dos jogos não fecham, olhe a tabela do artigo da
 temporada na Wikipédia. Se ela fecha com os jogos, o erro é de digitação da RSSSF e a classificação usa os números dos jogos.
@@ -144,6 +153,28 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
 - 1946/47: a lista de campeões da RSSSF dá a US Marocaine, mas a página da temporada e a Wikipédia dão a USA Casablanca,
   que venceu o desempate do título (`campeao_rsssf` da edição).
 
+**Tunísia (`tun-1`):**
+- RSSSF: lista de campeões em `tablest/tunchamp.html` (de 1907; conta 29 títulos de 1921/22 a 1954/55 e 71 desde 1955/56).
+- **Escopo (pesquisa de 24/11; o Guilherme autorizou decidir pela pesquisa):** entra a era colonial, desde 1907 (campeonato
+  da USFSA até 1920/21 e da Liga da Tunísia de 1921/22 a 1954/55). Motivos:
+  - a contagem oficial usada na Tunísia inclui a era colonial: o "34º título" do Espérance em 2024/25 (La Presse de Tunisie,
+    Kapitalis, FIFA) só fecha com o título de 1941/42 (33 depois da independência), e o "14º" do Club Africain em 2025/26
+    só fecha com os de 1946/47 e 1947/48;
+  - a Wikipédia conta desde 1907 ("record of champions since 1907"; as primeiras temporadas, da USFSA); a RSSSF lista desde
+    1907 e conta desde 1921. Como no Marrocos (onde a era da USFSA entrou, porque a FRMF conta desde 1916), entra desde 1907.
+- Ficam de fora os anos sem competição (1909/10, 1914/15 a 1918/19, 1939/40, 1940/41, 1942/43, 1943/44); 1951/52
+  (abandonado) entra sem campeão.
+- RSSSF: páginas por temporada `tunAA` (ou `tunAAAA` nos anos 1900-1910 e desde 2009), pelo ano em que a temporada termina;
+  na era colonial só há página de 12 anos (`_PAGINAS_COLONIAIS` em `edicoes.py`), quase sempre só com a final. De 1955/56 a
+  2002/03, a lista de tabelas finais `tablest/tunhist.html` (seção "1955-56"; `ler_rsssf.secao_hist()`) é a tabela.
+- Tabela de confrontos (matriz) de 1968/69, 1970/71, 1977/78, 1980/81, 1982/83 e 1987/88 a 1995/96; em vários anos com o
+  nome do clube, não a sigla (`matriz_nomes()`).
+- Pontos: 3-2-1 até 1985/86, 4-2-1 de 1986/87 a 1991/92, 2-1-0 de 1992/93 a 1994/95, 3-1-0 desde 1995/96.
+- ogol: competição `liga-tunisina`, edições de 1955/56 a 2025/26, mas só com jogos de 2005/06 em diante. ESPN: não tem.
+- Wikipédia: artigos "AAAA–AA Tunisian Ligue Professionnelle 1" (ou "... National Championship"), baixados em lote; as
+  notas da tabela de confrontos ("match_X_Y_note") explicam resultados dados fora de campo (2025/26).
+- 1909/10: a Wikipédia dá um título ao Racing Club de Tunis; a RSSSF diz que não houve campeonato (fica de fora).
+
 ## 6. Armadilhas já encontradas
 
 **RSSSF (Egito):**
@@ -185,6 +216,27 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
 - **Copa no meio da página** com título "Morocco Cup ..." ou "XVIIIth edition of the Coupe du Trone": no `FIM_PADRAO`.
 - **Siglas e nomes curtos dos anos 1990** ("Fes", "KAC", "Ittihad") dependem do ano: `nomes` da edição.
 - **Nome grudado no número** na tabela ("Credit Agricole Rabat30"): `CONSERTA_TEXTO`.
+
+**RSSSF (Tunísia):**
+- **Células "awd" na tabela de confrontos** (1968/69, 1970/71, 1977/78, 1980/81): o leitor da matriz pula; quem venceu está
+  no "NB: X-Y was awarded a win to Z". Entram em `EXTRAS` como W.O. (a tabela conta a vitória sem gols).
+- **Nota do resultado dado antes do placar e quebrada** ("[2-0 awarded; originally 0-0; / ... ineligible player]",
+  2006/07): o leitor não pega o 2-0; `CORRIGE` com `"oficial": (2, 0)` (chave nova, em `conferir.preparar`).
+- **"Groupe A"** (francês) vira "Group" em `linhas()`; **título de grupo com data** ("Group A [Sep 12]"): o leitor comum
+  (`rsssf_africa._GRUPO`) passou a aceitar.
+- **Jogos da 1ª fase sem o grupo** (2021/22 a 2023/24): `GRUPO_PELA_TABELA` deixa o grupo em branco e a conferência o tira
+  das tabelas.
+- **"Final Table:" x "Final [data]"**: padrão de fase `^Final\b` pega o título da tabela e some com as tabelas (2021/22);
+  use `^(Semi)?[Ff]inal \[`.
+- **"Relegation Playoff"** é grupo na maioria dos anos e jogo único em 2023/24; **"Seventh Place Match"** etc. (2012/13,
+  2021/22) são jogos de classificação e a ordem final vem deles (`ORDEM_FINAL` no `importar.py`).
+- **Rebaixamento fora da tabela** ("NB: AS Marsa relegated", "Barrages" com a 2ª divisão, exclusão, decisão do CAS):
+  `SITUACAO_FIXA` no `importar.py`; "Not Relegated" não conta como rebaixado.
+- **Tabela partida por erro de digitação** (`tun06`, Club Africain "12 9 3"): `CONSERTA_TEXTO`.
+- **"ES" em 1949/50** é o Espérance (o Étoile é "ES Sahel"): `nomes` da edição.
+
+**ogol (Tunísia):** "DA" (decisão administrativa) vem sem placar e o jogo some: entra em `EXTRAS` com o resultado dado
+(2025/26, US Monastir x CS Sfaxien). Edições cortadas pelo limite de ritmo: veja os avisos do log e baixe de novo.
 
 **Python no Windows:** como no guia da América do Sul, editar por heredoc com `python - <<'EOF'` transforma `\b` em
 backspace; o `sed` com `\\b` também erra. Use o Edit e confira com `grep -c $'\x08'`.
