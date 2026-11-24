@@ -30,18 +30,21 @@ da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e d
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `nzl-1` Neozelandês | 55 (1970–2025) | 7.480 | 101 | ainda não (esperando o ok) | não |
+| `nzl-1` Neozelandês | 55 (1970–2025) | 7.480 | 101 | d7a6379 | não |
+| `tah-1` Taitiano | 79 (1948–2025/26; 31 com jogos) | 2.647 | 35 | ainda não (esperando o ok) | não |
 
 Números de gols, conferência e cobertura: `coleta/comum-oceania/documentacao/` (gerada por `documentar.py`). Detalhe edição a
 edição: `docs/coleta/nzl-1.md`.
 
 ## 3. De onde continuar
 
-1. **Nova Zelândia (`nzl-1`): pacote pronto em 23/11**, teste de carga OK; esperando o ok do Guilherme para o commit. Recado
+1. **Nova Zelândia (`nzl-1`): pacote pronto e commitado em 23/11 (`d7a6379`, sem push)**; falta o agente 1 carregar. Recado
    de fim de coleta no fim de `docs/coleta/pedidos-oceania.md`.
-2. **Próxima: Taiti (`tah-1`)**, só quando o Guilherme mandar. Antes, mandar a ele as decisões de escopo (desde 1948, pela lista
-   da RSSSF `tahitichamp.html`; muitos anos só com o campeão).
-3. Depois, na ordem: `ncl-1` (começar em 1950, aprovado em 23/11), `fij-1`, `png-1`, `sol-1`, `van-1`, `sam-1`, `tga-1`, `asa-1`,
+2. **Taiti (`tah-1`): pacote pronto em 24/11**, teste de carga OK; esperando o ok do Guilherme para o commit (junto com as
+   anotações do hash da NZ). Recado de fim de coleta no fim de `docs/coleta/pedidos-oceania.md`.
+3. **Próxima: Nova Caledônia (`ncl-1`)**, só quando o Guilherme mandar; antes, pesquisar a fundo (como no Taiti: o que entra, o
+   que é legal pôr, o que fica de fora) e mandar as decisões de escopo.
+4. Depois, na ordem: `ncl-1` (começar em 1950, aprovado em 23/11), `fij-1`, `png-1`, `sol-1`, `van-1`, `sam-1`, `tga-1`, `asa-1`,
    `cok-1`. Tuvalu e Kiribati ficam de fora por enquanto (aprovado em 23/11; entram no fim se ele quiser).
 
 ### Decisões do Guilherme (23/11)
@@ -49,6 +52,12 @@ edição: `docs/coleta/nzl-1.md`.
 - NZ: começa em 1970; campeão da lista oficial (desde 1993 o da final, com o 1º da fase de liga na observação); 2004 e 2021
   fora; ligas regionais como 1ª fase; "Wellington Phoenix Reserves" para o time reserva.
 - Nova Caledônia a partir de 1950; Tuvalu e Kiribati fora por enquanto.
+- Taiti (24/11): desde 1948 (a lista oficial); "2025/26" nas temporadas que cruzam o ano (a RSSSF dá o ano final: "1999" =
+  1998/99); até 2025/26 (a última terminada); nomes com "AS" ("AS Pirae", "AS Vénus", "AS Tefana", "AS Dragon", "Central
+  Sport"); em 1956, 1957 e 1961 vale a RSSSF (a Wikipédia diverge, mas copia uma versão antiga da própria RSSSF: pendência);
+  entram as fases do título e do rebaixamento (com o campeão de Mooréa no playoff, quando havia) e a seleção sub-20 ("Tahiti
+  U-20", 2008/09); ficam de fora copas, 2ª e 3ª divisões, ligas das outras ilhas, barragens com a 2ª divisão e o Tahiti United
+  (liga profissional da OFC).
 
 ### Como a NZ foi feita (modelo para as próximas)
 
@@ -105,5 +114,14 @@ módulos de cada competição está em `coleta/comum-sulamerica/COMECE-AQUI.md`,
   de resultados às vezes erradas ou incompletas (2023-2025): confira com a tabela da RSSSF antes de usar.
 - **ogol**: o calendário de uma edição pode juntar ligas regionais e fase nacional (NZ 2025): separe pelos clubes de cada
   grupo e pela data do primeiro jogo entre regiões.
+- **Taiti (24/11):**
+  - a RSSSF dá o ano em que a temporada termina ("1999" = 1998/99); as páginas de 2010 em diante têm um índice no topo
+    com os mesmos títulos das seções (o trecho começa no segundo "Division 1");
+  - "Faa'a" (apóstrofo no fim do nome do mandante) é lido como minuto: `ler.linhas` troca por "Faaa";
+  - jogo anulado e jogado de novo aparece duas vezes ("annulled", "replay"): o anulado não conta (`n/p` no pacote);
+  - "awarded 0-0 loss to both" = derrota para os dois (`derrota_ambos` em `conferir.soma`);
+  - tabelas do playoff que somam a fase regular (2001/02, 2002/03: `acumula`); tabela só com pontos (2004/05: `importar.MANUAL`);
+  - pontuação muda de ano para ano (4-2-1, 3-2-1, 3-1-0): confira pela conta da tabela; bônus e punições vão no ajuste;
+  - seleções de base do Taiti jogaram a liga (U-17, U-19, U-20).
 - Homônimos já no banco: "Central" (BRA), "Miramar" (URU), "Rangers" (SCO), "Hamilton Academical" (SCO): os da NZ levam
   o nome completo ou a cidade ("Central United", "Miramar Rangers").

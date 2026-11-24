@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-oceania/documentar.py` a partir do pacote `data/
 - **Jogos:** 7480 (7478 com placar); **gols:** 26352; **gols com autor:** 2888 (11%); **cartões:** 0.
 - **Clubes:** 101; **artilheiros:** 0 edições com artilheiro (0 linhas, com empates).
 - **Classificação final:** 55 edições; **tabelas publicadas guardadas para conferência:** 792 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** d7a6379.
 - **Observação da competição:** 1ª divisão da Nova Zelândia de 1970 a 2025, uma edição por título, como na lista de campeões nacionais da RSSSF: National Soccer League (1970-1992, pontos corridos), Superclub (1993-1995: ligas regionais, fase nacional e mata-mata), Summer Soccer League (1996-1997/98), North e South Island League com final (1999), National League (2000-2003), NZFC/Premiership (2004/05 a 2020/21, liga e mata-mata) e National League (2022-2025: ligas regionais, fase nacional e final). Desde 1993 o campeão é o da final; 2004 e 2021 não tiveram campeão. Sem jogos só a fase nacional de 1994.
 
 ## 2. Edições, fontes e regras

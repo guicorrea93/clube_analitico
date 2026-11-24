@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["nzl-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
-PAIS: dict[str, str] = {"nzl-1": "nzl"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["nzl-1", "tah-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
+PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -39,6 +39,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "a Central League 2025 tem 89 dos 90 jogos.",
         "Artilheiros: não coletados (a RSSSF lista só em algumas temporadas; a Wikipédia tem nas temporadas recentes).",
         "Datas: sem data em 1970-1995 (matrizes) e nas ligas regionais de 2022-2024 (matriz da Wikipédia).",
+    ],
+    "tah-1": [
+        "1948-1967 e 1972-1998 só com o campeão (e o vice em 8 anos): nenhuma fonte aberta tem jogos ou tabelas.",
+        "1956, 1957 e 1961: a Wikipédia dá outro campeão (copia uma versão antiga da RSSSF); vale a RSSSF (decisão do "
+        "Guilherme, 24/11/2026). Uma fonte da época (Journal de Tahiti) resolveria.",
+        "1998/99 a 2004/05 com parte dos jogos; 2010/11 (playoff) e 2011/12 só com as tabelas.",
+        "Autores dos gols só em poucas temporadas; artilheiros, cartões, estádio e público não coletados.",
     ],
 }
 

@@ -15,7 +15,7 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
    com autor (1993-2007/08), nenhum cartão. Fontes: RSSSF (base), Wikipédia em inglês (ligas regionais de 2022-2025, tabela de
    1992, 2ª fonte do campeão) e ogol (fase de liga de 2010/11 e 2011/12, ligas Central e Southern de 2025, datas). A ESPN não
    cobre a NZ. Campeão de toda edição confere com a lista da RSSSF e, onde há, com a Wikipédia.
-2. **Commits:** nenhum ainda (esperando o ok do Guilherme).
+2. **Commits:** `d7a6379` (pacote, código, documentação e este recado), com o ok do Guilherme em 23/11; sem push.
 3. **Teste de carga:** `nzl-1: 55 edições, 7480 jogos, 101 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `nzl-1`; país novo `NZL` (Nova Zelândia, confederação `OFC`, nova no banco). A NZ foi à Copa (1982, 2010):
@@ -54,3 +54,36 @@ Nenhum por enquanto (o da NZ está no recado abaixo).
 
 **Para o agente da Ásia (A-League):** os nomes da NZ que podem colidir com clubes australianos antigos (NSL): "Eastern Suburbs",
 "Western Suburbs", "Canterbury United", "Wellington Phoenix Reserves". Quem chega depois acrescenta a cidade.
+
+## Recado de fim de coleta — tah-1 — 24/11/2026
+
+1. **O que foi feito:** Campeonato Taitiano (`tah-1`), 79 edições (1948 a 2025/26), 31 com jogos; 2.647 jogos, 35 clubes,
+   11.748 gols, 113 com autor, nenhum cartão. Fontes: RSSSF (lista de campeões e páginas por temporada), Wikipédia em inglês
+   (2ª fonte do campeão) e ogol (datas e grafia para os escudos em 2012/13, 2013/14, 2021/22 e 2023/24). Campeão de toda edição
+   confere com a RSSSF; a Wikipédia diverge só em 1956, 1957 e 1961 (decidido: vale a RSSSF).
+2. **Commits:** nenhum ainda (esperando o ok do Guilherme).
+3. **Teste de carga:** `tah-1: 79 edições, 2647 jogos, 35 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `tah-1`; país novo `TAH` (Taiti, OFC). O Taiti nunca foi à Copa: **falta a bandeira**;
+   - **pontuação não é 3-1-0:** 4 por vitória, 2 por empate e 1 por derrota na maior parte dos anos (3-2-1 em 1969-1971 e
+     2007/08; 3-1-0 de 1998/99 a 2002/03). `pontos_vitoria` traz só a vitória; o resto está no `formato` de cada edição. A
+     classificação traz os pontos oficiais (com bônus e punições em `ajuste_pontos`): o painel não deve recalcular os pontos
+     pelos jogos;
+   - 48 edições só com campeão (e o vice em 8 delas), sem jogos nem tabela; `formato` = "só o campeão";
+   - "jogos incompletos" em 1968 e de 1998/99 a 2004/05 (muitos resultados só com "venceu"/"perdeu" ficaram de fora), 2010/11
+     (playoff só com tabela) e 2011/12 (só as tabelas);
+   - fases novas: "Fase regular", "Playoff do título", "Grupo do rebaixamento";
+   - jogos anulados e repetidos: o anulado entra com `resultado_especial` = `n/p`, sem placar (está na observação);
+     "derrota para os dois" (2021/22) entra como `awd` sem placar;
+   - clubes da ilha de Mooréa (região "Mooréa") e seleções de base do Taiti que jogaram a liga ("Tahiti U-17", "Tahiti U-19",
+     "Tahiti U-20");
+   - escudos: calendários do ogol em `data/cache/ogol-tah-1/`.
+5. **Decisões:** escopo aprovado pelo Guilherme em 24/11 (desde 1948, até 2025/26, "2025/26" nas temporadas que cruzam o ano,
+   nomes com "AS", RSSSF em 1956/1957/1961); identidade em `coleta/tah-1/clubes_tah.py` (Punaruu = AS Tamarii Punaruu, Temanava
+   = AS Tamarii Temanava, JS Arue = AS Arue, "Paea" de 1971 = AS Manu-Ura); correções com motivo em `coleta/tah-1/explicacoes.py`.
+   Nada esperando o Guilherme.
+6. **O que não deu para coletar:** jogos e tabelas de 1948-1967 e 1972-1998 (só o campeão), jogos de 1998/99 a 2004/05 em
+   parte, 2011/12; autores dos gols (quase nenhum), artilheiros, cartões, estádio e público.
+7. **Onde a revisão deve olhar primeiro:** campeões de 1956, 1957 e 1961 (RSSSF x Wikipédia); classificação de 2004/05 (lida à
+   mão de tabelas só com pontos); as edições parciais de 1998/99 a 2004/05; as identidades acima.
+8. **Próxima competição:** Nova Caledônia (`ncl-1`), quando o Guilherme mandar.
