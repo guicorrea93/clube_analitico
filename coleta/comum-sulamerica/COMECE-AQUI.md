@@ -73,7 +73,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 30f0b00 | sim (versão antes das correções) |
+| `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 30f0b00, e698941 | sim (versão antes das correções) |
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.456 | 84 | 0ead727; correções 31c14b0 | sim (versão antes das correções) |
 | `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e, b8b5a57 | sim (versão antes das correções) |
 | `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d | sim (versão antes das correções) |
@@ -109,7 +109,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Chile: feito (`b8b5a57`)** (CH-006, CH-014 de 1986, CH-017, CH-022, CH-023, CH-028). Novo no `importar.py`:
      `_pontos_ultima_fase` (ordem pela fase final de pontos; `PONTOS_ACUMULADOS` = 1946 e 1951) e `acerta_grupos`; no
      `outras_fontes.py`: `OGOL_FORA` e o casamento sem data com placar igual quando o par se repete.
-   - **Argentina: feito (commit no recado)** (AR-020, AR-021, QU-003; QU-005 aberto sem 3ª fonte). Novo:
+   - **Argentina: feito (`e698941`)** (AR-020, AR-021, QU-003; QU-005 aberto sem 3ª fonte). Novo:
      `coleta/arg-1/rebaixados_es.py` (anexo "Movilidad interdivisional" da es), `FASE_PELA_TABELA`, `FORA_DA_TABELA` e o
      3º passo da ESPN (jogo adiado, `adiado`) no `outras_fontes.py`.
    - **Colômbia:** CO-004, CO-006, CO-009, CO-012, CO-013, CO-015, CO-016, CO-017, CO-018 (só reimportar), CO-020, CO-022.

@@ -885,5 +885,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Ids das partidas:** não mudam.
 - **Teste de carga:** `arg-1: 197 edições, 43726 jogos, 0 clubes novos -> OK`.
 - **Pedido ao agente 1:** recarregar o `arg-1` (classificação, datas de 25 jogos, gols e cartões).
-- **Commit:** (abaixo).
+- **Commit:** `e698941`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
