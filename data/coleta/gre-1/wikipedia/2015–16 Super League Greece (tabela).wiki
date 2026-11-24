@@ -1,0 +1,85 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/14/52/ Super League Greece]
+
+<!--Update team positions here-->
+|team1=OLY |team2=PAO |team3=AEK |team4=PAOK |team5=PGSS |team6=PAS |team7=AST |team8=ATR |team9=PLA |team10=LEV |team11=PNE |team12=IRA |team13=XAN |team14=VER |team15=PNT |team16=KAL
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL3Q |result2=UEFA |result3=UEFA |result4=UEFA |result5=UEFA |result6=EL2Q |result15=REL |result16=REL 
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =17|draw_AEK =6 |loss_AEK =7 |gf_AEK =43 |ga_AEK =21 <!-- AEK Athens -->
+|win_AST =11|draw_AST =8 |loss_AST =11|gf_AST =31 |ga_AST =30 <!-- Asteras Tripolis -->
+|win_ATR =12|draw_ATR =6 |loss_ATR =12|gf_ATR =26 |ga_ATR =31 <!-- Atromitos -->
+|win_IRA =8 |draw_IRA =11|loss_IRA =11|gf_IRA =24 |ga_IRA =32 <!-- Iraklis-->
+|win_KAL =3 |draw_KAL =7 |loss_KAL =20|gf_KAL =19 |ga_KAL =53 <!-- AEL Kalloni -->
+|win_LEV =9 |draw_LEV =10|loss_LEV =11|gf_LEV =27 |ga_LEV =36 <!-- Levadiakos -->
+|win_OLY =28|draw_OLY =1 |loss_OLY =1 |gf_OLY =81 |ga_OLY =16 <!-- Olympiacos -->
+|win_PAO =18|draw_PAO =4 |loss_PAO =8 |gf_PAO =52 |ga_PAO =26 <!-- Panathinaikos -->
+|win_PNE =9 |draw_PNE =8 |loss_PNE =13|gf_PNE =30 |ga_PNE =46 <!-- Panetolikos -->
+|win_PGSS=12|draw_PGSS=8 |loss_PGSS=10|gf_PGSS=33 |ga_PGSS=27 <!-- Panionios -->
+|win_PNT =3 |draw_PNT =8 |loss_PNT =19|gf_PNT =18 |ga_PNT =58 <!-- Panthrakikos -->
+|win_PAOK=13|draw_PAOK=9 |loss_PAOK=8 |gf_PAOK=45 |ga_PAOK=32 <!-- PAOK -->
+|win_PAS =12|draw_PAS =6 |loss_PAS =12|gf_PAS =36 |ga_PAS =40 <!-- PAS Giannina -->
+|win_PLA =10|draw_PLA =9 |loss_PLA =11|gf_PLA =32 |ga_PLA =30 <!-- Platanias -->
+|win_XAN =6 |draw_XAN =15|loss_XAN =9 |gf_XAN =27 |ga_XAN =32 <!-- Skoda Xanthi -->
+|win_VER =5 |draw_VER =12|loss_VER =13|gf_VER =19 |ga_VER =33 <!-- Veria -->
+
+<!--Team status-->
+|status_OLY=C
+|status_PNT=R
+|status_KAL=R
+
+<!--Head-to-head-->
+|hth_ATR=Head-to-head points: Atromitos 4, Platanias 1.
+|hth_PLA=ATR
+|hth_PNE=Head-to-head points: Panetolikos 4, Iraklis 1.
+|hth_IRA=PNE
+
+<!--Team definitions (wikilinks in table)-->
+|name_AEK = [[AEK Athens F.C.|AEK Athens]]
+|name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+|name_ATR = [[Atromitos F.C.|Atromitos]]
+|name_IRA = [[Iraklis F.C. (Thessaloniki)|Iraklis]]
+|name_KAL = [[AEL Kalloni F.C.|AEL Kalloni]]
+|name_LEV = [[Levadiakos F.C.|Levadiakos]]
+|name_OLY = [[Olympiacos F.C.|Olympiacos]]
+|name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+|name_PNE = [[Panetolikos F.C.|Panetolikos]]
+|name_PGSS= [[Panionios F.C.|Panionios]]
+|name_PNT = [[Panthrakikos F.C.|Panthrakikos]]
+|name_PAOK= [[PAOK FC|PAOK]]
+|name_PAS = [[PAS Giannina F.C.|PAS Giannina]]
+|name_PLA = [[Platanias F.C.|Platanias]]
+|name_XAN = [[Xanthi F.C.|Skoda Xanthi]]
+|name_VER = [[Veria F.C.|Veria]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goals scored; 5) Goals against; 6) Play-offs (neutral ground); 7) Draw.<br />(Note: Criteria 6 is only used if needed to decide champion, teams for relegation or teams for UEFA competitions).<ref>{{cite web |url=http://www.epo.gr/media/files/KATASTATIKO_KANONISMOI/KAP_EPAGGELMATIKON_OMADON_2015.pdf |title=Professional league rules |work=[[Hellenic Football Federation]] |language=el |format=pdf |page=22-25 |date=June 2015|access-date=4 August 2015}}</ref>
+
+<!--Point deductions-->
+<!--Panathinaikos -->
+|startpoints_PAO=-3  |note_PAO=Panathinaikos were deducted 3 points due to extreme fan behavior against Olympiacos. The match was awarded as a 3–0 win for Olympiacos.<ref>{{cite news |title=Announcement |url=http://www.sport24.gr/football/omades/Panathinaikos/aporrifthhke-h-efesh-toy-panathhnaikou-gia-to-ntermpi.3841276.html |work=Super League Greece |date=31 December 2015 |access-date=31 December 2015}}</ref>
+<!--AEK Athens -->
+|startpoints_AEK=-3  |note_AEK=AEK were deducted 3 points due to extreme fan behavior against Atromitos.{{cn|date=April 2016}}
+<!--PAOK -->
+|startpoints_PAOK=-3  |note_PAOK=PAOK were deducted 3 points due to extreme fan behavior against Olympiacos in Greek Cup semifinal match.<ref>{{cite web |url=http://www.epo.gr/News.aspx?a_id=46476&NewsType=21 |title=Αποφάσεις Επιτροπής Εφέσεων 14/4/2016 |trans-title=Commission Decisions Appeals 04/14/2016 |work=[[Hellenic Football Federation]] |language=el |date=14 April 2016 |access-date=14 April 2016}}</ref>
+<!--Atromitos -->
+|startpoints_ATR=-3  |note_ATR=Atromitos were deducted 3 points due to extreme fan behavior against AEK.{{cn|date=April 2016}}
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CL3Q=green1  |text_CL3Q=Qualification for the [[2016–17 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_UEFA=yellow1 |text_UEFA=Qualification for the [[2015–16 Super League Greece#Play-offs|Play-offs]]
+|col_EL2Q=blue3  |text_EL2Q=Qualification for the [[2016–17 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL=red1     |text_REL=Relegation to the [[2016–17 Football League (Greece)|Football League]]
+
+|note_res_EL2Q= The fifth-placed team of the 2015–16 Super League Greece [[Panionios F.C.|Panionios]] would have qualified for the UEFA Europa League second qualifying round, but were excluded from participating in the 2016–17 European competitions by UEFA for financial reasons. As a result, the berth was given to the sixth-placed team [[PAS Giannina F.C.|PAS Giannina]].
+
+}}<noinclude>
+{{documentation}}
+[[Category:Greece football standings templates]]
+</noinclude>

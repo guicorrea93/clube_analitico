@@ -104,6 +104,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `bel-1` Belga | 123 (1895/96–2025/26) | 28.712 | 12.031 | 18.167 | 81 | f4a1701 |
 | `tur-1` Turco (era antiga até 1958; liga nacional) | 97 (1924–2025/26) | 20.971 | 13.891 | 23.395 | 168 | (ver git log) |
 | `gdr-1` Alemanha Oriental (zona soviética e DDR-Oberliga) | 44 (1948–1990/91) | 8.062 | 0 | 0 | 52 | (ver git log) |
+| `gre-1` Grego (fase nacional até 1958/59; Alpha Ethniki e Super League) | 90 (1927/28–2025/26) | 18.689 | 8.900 | 20.025 | 69 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -185,7 +186,7 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
 
    | # | Liga (rank UEFA) | # | Liga (rank UEFA) |
    |---|---|---|---|
-   | 1 | Grécia (10º) | 23 | Armênia (33º) |
+   | 1 | Grécia (10º): **pronta 24/11** (`gre-1`) | 23 | Armênia (33º) |
    | 2 | Tchéquia (11º), depois a Tchecoslováquia | 24 | Letônia (34º) |
    | 3 | Polônia (12º) | 25 | Bósnia (35º) |
    | 4 | Noruega (13º) | 26 | Kosovo (36º) |
@@ -207,6 +208,8 @@ Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tav
    | 20 | Rússia (30º), depois a URSS | 42 | Montenegro (53º) |
    | 21 | Islândia (31º) | 43 | País de Gales (54º) |
    | 22 | Irlanda (32º) | 44 | San Marino (55º) |
+
+   **Próxima: Tchéquia** (nº 2), depois a Tchecoslováquia como competição à parte. Pesquisar o escopo antes.
 
    Em 24/11 também ficaram prontos `bel-1`, `tur-1` (com a era antiga), IT-017 e `gdr-1` (D-05b), e a rodada de
    fechamento zerou as pendências. As eras antigas da Holanda (1888/89–1955/56) e da
@@ -419,6 +422,27 @@ em `adjust_points_X` (o leitor comum lê os dois).
 - Classificação de mata-mata: campeão oficial em 1º, vice em 2º, depois a fase alcançada; na mesma fase, a posição no
   grupo e a campanha.
 
+
+**Grécia, o que serve para outras ligas:**
+- **Ogol só com o campeão nas temporadas antigas:** a edição existe no ogol desde 1927/28, mas os jogos só desde 1993/94.
+  Testar a página de calendário de alguns anos antes de planejar a base.
+- **Matriz da RSSSF x matriz da Wikipédia:** quando discordam, fica o placar que deixa os clubes mais perto das duas
+  tabelas publicadas. A troca é testada jogo a jogo e em pares (placares trocados entre duas células), e, na era antiga,
+  também com a matriz inteira; fica o caminho que fecha melhor (`importar.py` e `antigo.py` do `gre-1`). Cada troca fica
+  anotada no jogo.
+- **Células com nota na matriz da RSSSF** ("(1)", "(*)", "{1}"): o placar vem da nota, à mão (`NOTAS_MATRIZ`); "*" ou "x"
+  no placar é W.O. A greve de 1986/87 tem "derrota para os dois" (0-0 `awd`).
+- **Desempates que só estão nas notas da tabela da Wikipédia** ("7th place play-off: PAOK–Aris 0–0"): entram na fase
+  "Desempate", sem data. Deduplicar só contra os outros desempates; a fase regular pode ter o mesmo par e o mesmo placar.
+- **Sistemas de pontos que mudam:** 3-2-1 até 1972/73, 2-1-0 até 1991/92, 3-1-0 depois. Na era antiga, o sistema sai da
+  tabela da RSSSF. A punição sai da tabela da Wikipédia quando ela fecha com os jogos; a diferença de pontos da RSSSF que a
+  Wikipédia contradiz é erro da RSSSF.
+- **"ANU" no ogol pode ter valido** (Niki Volos e OFI, 2014/15): tratar como "DA" e buscar o placar oficial.
+- **Fusão no meio da história** (Chalkidona em 2004/05, que o ogol põe no Atromitos): seguir a tabela da Wikipédia
+  (`OGOL_POR_ANO`).
+- **Campeões do Chipre na liga grega (1967/68-1973/74):** país CYP; não contam como rebaixados.
+- **`\b` em heredoc vira backspace (chr 8):** caiu de novo. Para código com regex, usar Write/Edit; conferir com
+  `chr(8) in texto`.
 ## 7. Decisões do Guilherme já tomadas
 
 - Inglês 2025/26 incluído (EN-001).

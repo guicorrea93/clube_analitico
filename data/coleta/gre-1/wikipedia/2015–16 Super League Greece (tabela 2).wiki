@@ -1,0 +1,62 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=Super League Greece: [https://www.slgr.gr/en/scoreboard/14/58/ Standings], [https://www.slgr.gr/en/schedule/14/ Schedule]
+|highest_pos=2
+
+<!--Update team positions here-->
+|team2=PAOK |team3=PAO |team4=AEK |team5=PGSS
+
+<!--Update team qualifications here (defined below)-->
+|result2=CL3Q |result3=EL3Q |result4=EL3Q <!--|result5=EL2Q-->
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =2|draw_AEK =1|loss_AEK =3|gf_AEK =5|ga_AEK =7
+|win_PAO =2|draw_PAO =3|loss_PAO =1|gf_PAO =8|ga_PAO =6
+|win_PGSS=1|draw_PGSS=1|loss_PGSS=4|gf_PGSS=2|ga_PGSS=7
+|win_PAOK=3|draw_PAOK=3|loss_PAOK=0|gf_PAOK=8|ga_PAOK=3
+
+<!--Point adjustments-->
+|adjust_points_AEK=2
+|adjust_points_PAO=2
+
+<!--Team definitions (wikilinks in table)-->
+|name_AEK = [[AEK Athens F.C.|AEK Athens]]
+|name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+|name_PGSS= [[Panionios F.C.|Panionios]]
+|name_PAOK= [[PAOK FC|PAOK]]
+
+<!--Table settings and rules-->
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goals scored; 5) Goals against; 6) Regular season position.<ref>{{cite web |url=http://08c0d41abab903a6a29e-5e91952c8074a6a4a4b1b4b8b070de43.r83.cf3.rackcdn.com/Rwnf0RZTjJqGg8GlK8H9FU8jHSMA1CKN.pdf |title=Super League play off 2015–2016 - Season rules |website=slgr.gr}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CL3Q=green1  |text_CL3Q=Qualification for the [[2016–17 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_EL3Q=blue1   |text_EL3Q=Qualification for the [[2016–17 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+
+|note_res_EL3Q=[[AEK Athens F.C.|AEK Athens]] qualified for the [[2016–17 UEFA Europa League#Third qualifying round|Europa League third qualifying round]] by winning the [[2015–16 Greek Football Cup|Greek Cup]].
+|note_PGSS=The fifth-placed team of the 2015–16 Super League Greece [[Panionios F.C.|Panionios]] would have qualified for the Europa League second qualifying round, but were excluded from participating in the 2016–17 European competitions by UEFA for financial reasons. As a result, the berth was given to the sixth-placed team [[PAS Giannina F.C.|PAS Giannina]].
+
+|show_matches=y
+|matches_style=FBR|solid_cell=grey
+
+|match_AEK_PAO=3–1
+|match_AEK_PGSS=1–0
+|match_AEK_PAOK=0–0
+
+|match_PAO_AEK=3–0
+|match_PAO_PGSS=1–0
+|match_PAO_PAOK=1–1
+
+|match_PGSS_AEK=1–0
+|match_PGSS_PAO=1–1
+|match_PGSS_PAOK=0–2
+
+|match_PAOK_AEK=2–1
+|match_PAOK_PAO=1–1
+|match_PAOK_PGSS=2–0
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Greece football standings templates]]
+</noinclude>

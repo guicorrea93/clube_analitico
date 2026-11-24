@@ -1,0 +1,62 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/20/103/ Super League Greece]
+
+<!--Update team positions here-->
+|team1=OLY |team2=PAOK |team3=AEK |team4=ARIS |team5=PAO |team6=PAS |team7=OFI |team8=AST |team9=PNE |team10=VOL |team11=ION |team12=ATR |team13=LAM |team14=APS
+
+<!--Update team qualifications here (defined below)-->
+|result1=CHR |result2=CHR |result3=CHR |result4=CHR |result5=CHR |result6=CHR
+|result7=RER |result8=RER |result9=RER |result10=RER |result11=RER |result12=RER |result13=RER |result14=RER
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =14|draw_AEK = 4|loss_AEK = 8|gf_AEK =42|ga_AEK =28 <!-- AEK Athens-->
+|win_APS = 2|draw_APS = 7|loss_APS =17|gf_APS = 9|ga_APS =47 <!-- Apollon Smyrnis-->
+|win_ARIS=13|draw_ARIS= 6|loss_ARIS= 7|gf_ARIS=28|ga_ARIS=21 <!-- Aris-->
+|win_AST =10|draw_AST = 5|loss_AST =11|gf_AST =27|ga_AST =29 <!-- Asteras Tripolis-->
+|win_ATR = 6|draw_ATR = 5|loss_ATR =15|gf_ATR =27|ga_ATR =47 <!-- Atromitos-->
+|win_ION = 6|draw_ION = 8|loss_ION =12|gf_ION =26|ga_ION =34 <!-- Ionikos-->
+|win_LAM = 4|draw_LAM = 6|loss_LAM =16|gf_LAM =19|ga_LAM =37 <!-- Lamia-->
+|win_OFI = 9|draw_OFI =10|loss_OFI = 7|gf_OFI =33|ga_OFI =32 <!-- OFI-->
+|win_OLY =20|draw_OLY = 5|loss_OLY = 1|gf_OLY =47|ga_OLY =14 <!-- Olympiacos-->
+|win_PAO =13|draw_PAO = 3|loss_PAO =10|gf_PAO =41|ga_PAO =21 <!-- Panathinaikos-->
+|win_PNE = 9|draw_PNE = 5|loss_PNE =12|gf_PNE =27|ga_PNE =39 <!-- Panetolikos-->
+|win_PAOK=16|draw_PAOK= 5|loss_PAOK= 5|gf_PAOK=50|ga_PAOK=24 <!-- PAOK-->
+|win_PAS =11|draw_PAS = 7|loss_PAS = 8|gf_PAS =28|ga_PAS =24 <!-- PAS Giannina-->
+|win_VOL = 8|draw_VOL = 6|loss_VOL =12|gf_VOL =35|ga_VOL =42 <!-- Volos-->
+
+<!--Team definitions (wikilinks in table)-->
+| name_AEK = [[AEK Athens F.C.|AEK Athens]]
+| name_APS = [[Apollon Smyrnis F.C.|Apollon Smyrnis]]
+| name_ARIS= [[Aris Thessaloniki F.C.|Aris]]
+| name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+| name_ATR = [[Atromitos F.C.|Atromitos]]
+| name_ION = [[Ionikos F.C.|Ionikos]]
+| name_LAM = [[PAS Lamia 1964|Lamia]]
+| name_OFI = [[OFI Crete F.C.|OFI]]
+| name_OLY = [[Olympiacos F.C.|Olympiacos]]
+| name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+| name_PNE = [[Panetolikos F.C.|Panetolikos]]
+| name_PAOK= [[PAOK FC|PAOK]]
+| name_PAS = [[PAS Giannina F.C.|PAS Giannina]]
+| name_VOL = [[Volos F.C.|Volos]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules=1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Play-offs (neutral ground).<br />(Note: Criteria 6 is only used if needed to decide champion, teams for relegation or teams for [[UEFA]] competitions).
+
+<!--Point deductions-->
+
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CHR=green1 |text_CHR=Qualification for the [[2021–22 Super League Greece#Play-off round|Play-off round]]
+|col_RER=red1   |text_RER=Qualification for the [[2021–22 Super League Greece#Play-out round|Play-out round]]
+
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2021–22 association football standings in Europe templates|Greece]]
+[[Category:Greece football standings templates]]
+</noinclude>

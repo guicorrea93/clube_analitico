@@ -1331,3 +1331,74 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - clubes da RDA (Chemie Leipzig e o título de 1952/53);
    - classificações e clubes da era antiga da Itália.
 8. **Próxima tarefa:** nenhuma pendência da coleta Europa. A próxima etapa (ligas novas) será combinada com o Guilherme.
+
+## Recado de fim de coleta — gre-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Campeonato Grego, a primeira liga da nova ordem (ranking da UEFA), de 1927/28 a 2025/26:
+   - 90 edições, 18.689 jogos, 69 clubes, 8.900 gols com autor e 20.025 cartões;
+   - títulos como a federação conta (90): Olympiacos 48, Panathinaikos 20, AEK Atenas 14, PAOK 4, Aris Salônica 3 e
+     Larissa 1;
+   - de fora, porque a federação não reconhece: o campeonato SEGAS (1906-1912) e as ligas regionais de antes de 1927.
+
+   Três eras:
+   - **1927/28 a 1958/59:** fase nacional entre os campeões regionais (23 edições, `coleta/gre-1/antigo.py`). A base é
+     a RSSSF, conferida com a Wikipédia;
+   - **1959/60 a 1992/93:** liga nacional, com a matriz de resultados da RSSSF, sem data nem rodada (nenhuma fonte tem);
+   - **1993/94 a 2025/26:** ogol, com data e rodada, mais football-data, engsoccerdata e ESPN.
+
+   Conferência: 163 tabelas fecham com os jogos e 32 divergem. Quase sempre só uma das duas tabelas diverge, e a outra
+   fecha; cada caso está explicado no relatório.
+2. **Commit:** no GitHub (ver git log).
+3. **Teste de carga:** "gre-1: 90 edições, 18689 jogos, 69 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `gre-1` e liberar no seletor;
+   - **países:** Grécia (`GRE`). Os campeões do Chipre jogaram a liga grega de 1967/68 a 1973/74 (Olympiakos Nicosia,
+     AEL Limassol, EPA Larnaca, Omonia Nicosia e APOEL), com país `CYP` (Chipre, em `paises.csv`);
+   - **pontos:** 3-2-1 (vitória, empate e derrota) até 1972/73, 2-1-0 de 1973/74 a 1991/92 e 3-1-0 depois. A coluna
+     `pontos_vitoria` traz só o da vitória; o sistema 3-2-1 está na observação da edição. A classificação final já
+     traz os pontos oficiais;
+   - **fases:**
+     - "Liga";
+     - "Fase regular" e "Play-off europeu" (2007/08 a 2016/17; fora da classificação);
+     - "Play-off do título" e "Play-out de rebaixamento" (desde 2019/20), mais "Play-off europeu" (desde 2024/25, com
+       metade dos pontos);
+     - "Desempate": 42 jogos de título e de posição, fora da tabela, muitos sem data;
+     - na era antiga, "Fase final" e "Final" (ida e volta em 1933/34, 1938/39 e 1939/40);
+   - **classificação desde 2019/20:** é a ordem dos grupos do play-off, com os números de todos os jogos do clube e o
+     ajuste (metade dos pontos, punições) em `ajuste_pontos`;
+   - **jogos sem data:** 1959/60 a 1992/93 e quase toda a era antiga. A Corrida só tem rodada desde 1993/94 (sem
+     rodada de 1994/95 a 1996/97);
+   - **`awd`:**
+     - W.O. da RSSSF;
+     - a greve de 1986/87, com "derrota para os dois" (0-0 e derrota dos dois lados, na observação);
+     - os jogos do Niki Volos e do OFI excluídos em 2014/15 (Niki Volos x OFI também foi derrota para os dois);
+     - Kifisia 3-0 Volos (2023/24, dado fora de campo).
+5. **Decisões tomadas, com o motivo:**
+   - (a) **identidade pela linhagem do clube** (o alvo do link da Wikipédia em cada temporada):
+     - mesmo clube: Apollon Athens e Apollon Smyrnis; Apollon Salonika e Apollon Kalamarias; Xanthi e Skoda Xanthi;
+       Pankorinthiakos e Korinthos; Megas Alexandros Katerini (1959/60) e Pierikos;
+     - clubes separados: Atromitos Piraeus e Atromitos; Rodos e AE Rodos; AO Kerkyra e PAE Kerkyra;
+   - (b) **2004/05 é do Chalkidona**, como na Wikipédia. Ele se fundiu com o Atromitos em 2005, e o ogol põe a temporada
+     no Atromitos;
+   - (c) **matrizes que discordam (até 1992/93):** quando a matriz da RSSSF e a da Wikipédia discordam, fica o placar
+     que deixa os clubes mais perto das duas tabelas publicadas. A troca é testada jogo a jogo e em pares e fica
+     anotada em cada jogo;
+   - (d) **desempates que só estão nas notas da tabela da Wikipédia** (1959/60 a 1966/67 e outros): entram, sem data;
+   - (e) **jogos de acesso contra clubes da 2ª divisão:** ficam de fora, como na Bélgica;
+   - (f) **4 placares do ogol corrigidos e 1 mando invertido** (1997/98, 1998/99, 2001/02, 2014/15, 2023/24), todos com
+     3 ou mais fontes concordando.
+6. **O que não deu para coletar:**
+   - datas e rodadas de 1959/60 a 1992/93;
+   - autores dos gols antes da ESPN (2006/07) e no buraco dela de 2011/12 a 2014/15;
+   - as ligas regionais da era antiga;
+   - 1954/55 e 1955/56: as tabelas não fecham com nenhuma matriz.
+
+   Fonte possível: jornais da época.
+7. **Onde a revisão deve olhar primeiro:**
+   - as trocas de placar entre as matrizes (relatório `docs/coleta/gre-1.md`, linhas "fica ... (matriz da Wikipédia)");
+   - a identidade de Chalkidona, Rodos e Kerkyra;
+   - os 8 casos em que nenhum critério de desempate reproduz a ordem oficial.
+8. **Próxima tarefa:** Tchéquia (nº 2 da ordem), depois a Tchecoslováquia como competição à parte. Pesquisar o escopo
+   antes.

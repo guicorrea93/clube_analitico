@@ -24,7 +24,7 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1"]
+LIGAS = ["eng-1", "esp-1", "ita-1", "ger-1", "fra-1", "por-1", "ned-1", "sco-1", "bel-1", "tur-1", "gdr-1", "gre-1"]
 
 # o que falta em cada liga (manter à mão; a ordem geral está em COMECE-AQUI.md). Rodada de 24/11/2026: nada em aberto na
 # coleta; o que sobrou ou é limite de fonte (LIMITES, fechado) ou está com o agente de revisão (REVISAO)
@@ -122,6 +122,21 @@ LIMITES: dict[str, list[str]] = {
         "Placares do ogol que só a matriz da Wikipédia contesta nas temporadas antigas (sem football-data nem engsoccerdata "
         "antes de 1994/95): ficam os do ogol, que fecham com as tabelas.",
     ],
+    "gre-1": [
+        "1959/60 a 1992/93: jogos sem data nem rodada (só a matriz da RSSSF e a da Wikipédia; o ogol não tem esses jogos). "
+        "Rodadas de 1994/95 a 1996/97: o ogol não traz.",
+        "Era antiga (1927/28-1958/59, em antigo.py): só a fase nacional entre os campeões regionais; as ligas regionais, a "
+        "fase semifinal de 1955/56 e as eliminatórias inter-regionais ficam de fora. Datas só nas finais e em 1929/30 e "
+        "1945/46.",
+        "Era antiga: em 1954/55 e 1955/56 as tabelas da RSSSF e da Wikipédia concordam entre si e não fecham com nenhuma "
+        "matriz (diferenças de 1 a 4 gols); só o jornal da época decidiria.",
+        "Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15; antes, só as "
+        "fichas dos jogos-desempate da Wikipédia.",
+        "Jogos de acesso e rebaixamento contra clubes da 2ª divisão ficam de fora (1959/60, 1967/68, 1968/69, 2000/01 a "
+        "2003/04, 2013/14, 2018/19 a 2021/22).",
+        "Play-off europeu de 2015/16: a tabela da Wikipédia dá 1 gol a menos a AEK (pró) e Panionios (contra) que os jogos "
+        "do ogol; sem terceira fonte (a ESPN e o football-data não têm os play-offs), fica o ogol.",
+    ],
 }
 
 # decisões que a coleta tomou e entregou ao agente de revisão para conferir (não é pendência da coleta)
@@ -141,6 +156,14 @@ REVISAO: dict[str, list[str]] = {
     "gdr-1": [
         "Identidade dos clubes (coleta/comum-europa/clubes_gdr.py), sobretudo Chemie Leipzig, e o título de 1952/53 (Dynamo "
         "Dresden, como a RSSSF); as 19 tabelas que diferem dos jogos.",
+    ],
+    "gre-1": [
+        "1959/60 a 1992/93: onde a matriz da RSSSF e a da Wikipédia discordam, ficou o placar que fecha com as duas tabelas "
+        "publicadas (a maioria é da Wikipédia; trocas jogo a jogo e em pares, anotadas no relatório e na observação do jogo).",
+        "Era antiga: o mesmo critério na fase nacional (1930/31, 1931/32, 1953/54, 1956/57, 1957/58, 1958/59 com trocas).",
+        "Identidade: Chalkidona em 2004/05 (o ogol põe no Atromitos, que absorveu o clube em 2005); Rodos x AE Rodos e AO "
+        "Kerkyra x PAE Kerkyra separados como na Wikipédia; Megas Alexandros (1959/60) como Pierikos.",
+        "Desempates de posição que só estão nas notas da Wikipédia (1959/60 a 1966/67, 1973/74, 1982/83, 1983/84), sem data.",
     ],
     "tur-1": [
         "Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o "
@@ -189,6 +212,8 @@ DICIONARIOS = {
     "ORDEM_RSSSF": "Temporadas com a ordem oficial da RSSSF",
     "ORDEM_ITWIKI": "Ordem entre empatados pela Wikipédia it (classifica avulsa)",
     "NOMES_ESPN": "Nomes de jogadores da ESPN acertados",
+    "NOTAS_MATRIZ": "Células da matriz da RSSSF com nota (placar dado na nota)",
+    "DERROTA_DOIS_OGOL": "Jogos que valeram derrota para os dois",
     "EXPLICACOES": "Divergências entre fontes já explicadas",
     "EXCLUIDOS": "Clubes excluídos no meio da temporada (jogos anulados)",
     "DESEMPATES": "Desempates pelo título fora da tabela",
@@ -463,7 +488,8 @@ def main() -> None:
     idx += [f"- **{slug}:** {p}" for slug in LIGAS for p in REVISAO.get(slug, [])]
     idx += ["", "## Próximas ligas", "",
             "- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela "
-            "está em `COMECE-AQUI.md`, seção 3. A primeira é a Grécia (`gre-1`). Uma por vez.", ""]
+            "está em `COMECE-AQUI.md`, seção 3. A Grécia (`gre-1`) está pronta (24/11/2026); a próxima é a Tchéquia, "
+            "seguida da Tchecoslováquia (competição à parte). Uma por vez.", ""]
     (SAIDA / "README.md").write_text("\n".join(idx), encoding="utf-8")
 
 

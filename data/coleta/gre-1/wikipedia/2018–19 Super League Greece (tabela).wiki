@@ -1,0 +1,91 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/17/ Super League Greece]
+
+<!--Update team positions here-->
+|team1=PAOK |team2=OLY |team3=AEK |team4=ATR |team5=ARIS |team6=PGSS |team7=LAM |team8=PAO |team9=PNE |team10=AEL |team11=AST |team12=XAN |team13=OFI |team14=PAS |team15=LEV |team16=APS  
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL3Q |result2=CL2Q |result3=EL3Q |result4=EL2Q |result5=EL2Q |result13=RPO |result14=REL |result15=REL |result16=REL  
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =18|draw_AEK =6 |loss_AEK =6 |gf_AEK =50|ga_AEK =19 <!-- AEK Athens-->
+|win_AEL =8 |draw_AEL =10|loss_AEL =12|gf_AEL =26|ga_AEL =34 <!-- AEL-->
+|win_ARIS=15|draw_ARIS=4 |loss_ARIS=11|gf_ARIS=46|ga_ARIS=33 <!-- Aris-->
+|win_APS =2 |draw_APS =4 |loss_APS =24|gf_APS =11|ga_APS =55 <!-- Apollon Smyrnis-->
+|win_AST =8 |draw_AST =9 |loss_AST =13|gf_AST =25|ga_AST =30 <!-- Asteras Tripolis-->
+|win_ATR =15|draw_ATR =7 |loss_ATR =8 |gf_ATR =41|ga_ATR =28 <!-- Atromitos-->
+|win_LAM =9 |draw_LAM =10|loss_LAM =11|gf_LAM =28|ga_LAM =37 <!-- Lamia-->
+|win_LEV =5 |draw_LEV =6 |loss_LEV =19|gf_LEV =15|ga_LEV =45 <!-- Levadiakos-->
+|win_OFI =7 |draw_OFI =11|loss_OFI =12|gf_OFI =30|ga_OFI =42 <!-- OFI-->
+|win_OLY =24|draw_OLY =3 |loss_OLY =3 |gf_OLY =71|ga_OLY =17 <!-- Olympiacos-->
+|win_PAO =13|draw_PAO =8 |loss_PAO =9 |gf_PAO =38|ga_PAO =30 <!-- Panathinaikos-->
+|win_PNE =10|draw_PNE =6 |loss_PNE =14|gf_PNE =34|ga_PNE =48 <!-- Panetolikos-->
+|win_PGSS=11|draw_PGSS=5 |loss_PGSS=14|gf_PGSS=27|ga_PGSS=45 <!-- Panionios-->
+|win_PAOK=26|draw_PAOK=4 |loss_PAOK=0 |gf_PAOK=66|ga_PAOK=14 <!-- PAOK-->
+|win_PAS =7 |draw_PAS =6 |loss_PAS =17|gf_PAS =19|ga_PAS =38 <!-- PAS Giannina-->
+|win_XAN =7 |draw_XAN =11|loss_XAN =12|gf_XAN =22|ga_XAN =34 <!-- Xanthi-->
+
+<!--Head-to-head-->
+|hth_PAO=Head-to-head points: Panathinaikos 6, Panetolikos 0.
+|hth_PNE=PAO
+
+<!--Head-to-head-->
+|hth_XAN=Head-to-head points: Xanthi 4, OFI 1.
+|hth_OFI=XAN
+
+<!--Team definitions (wikilinks in table)-->
+| name_AEK = [[AEK Athens F.C.|AEK Athens]]
+| name_AEL = [[Athlitiki Enosi Larissa F.C.|AEL]]
+| name_APS = [[Apollon Smyrnis F.C.|Apollon Smyrnis]]
+| name_ARIS= [[Aris Thessaloniki F.C.|Aris]]
+| name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+| name_ATR = [[Atromitos F.C.|Atromitos]]
+| name_LAM = [[PAS Lamia 1964|Lamia]]
+| name_LEV = [[Levadiakos F.C.|Levadiakos]]
+| name_OFI = [[OFI Crete F.C.|OFI]]
+| name_OLY = [[Olympiacos F.C.|Olympiacos]]
+| name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+| name_PNE = [[Panetolikos F.C.|Panetolikos]]
+| name_PGSS= [[Panionios F.C.|Panionios]]
+| name_PAOK= [[PAOK FC|PAOK]]
+| name_PAS = [[PAS Giannina F.C.|PAS Giannina]]
+| name_XAN = [[Xanthi F.C.|Xanthi]]
+
+<!--Team status-->
+|status_PAOK=C
+|status_OFI=O
+|status_PAS=R
+|status_LEV=R
+|status_APS=R
+|status_text_X=Assured of at least Europa League, but may still qualify for Champions League
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Goals against 7) Play-offs (neutral ground); 8) Draw.<br />(Note: Criteria 7 is only used if needed to decide champion, teams for relegation or teams for UEFA competitions).<ref>{{cite web|url=https://www.soccerway.com/greece/super-league-2018-2019/results/|title= Super League Greece 2018/2019|website=soccerway.com|date=7 February 2020}}</ref>
+
+<!--Point deductions-->
+<!--PAOK -->
+|startpoints_PAOK=-2  |note_PAOK=PAOK were deducted 2 points by court decision.<ref>{{cite web|url=https://www.protothema.gr/sports/article/781250/alert/|title=Αφαίρεση δύο βαθμών στο πρωτάθλημα της επόμενης σεζόν|website=protothema.gr|date=27 August 2018}}</ref>
+
+<!--Panathinaikos -->
+|startpoints_PAO =-11  |note_PAO =Panathinaikos were deducted 11 points. 6 points for financial reasons plus 5 points by court decision.<ref>{{cite web|url=http://www.sport-fm.gr/article/podosfairo/oristiko-periorismos-metagrafwn-kai-6-gia-ton-panathinaiko/3532145|title=Οριστικό: Περιορισμός μεταγραφών και -6 για τον Παναθηναϊκό|website=sport-fm.gr|date=27 August 2018}}</ref>
+
+<!--AEK -->
+|startpoints_AEK =-3  |note_AEK =AEK Athens were deducted 3 points by court decision.<ref>[https://www.sdna.gr/podosfairo/superleague/article/523365/afairesi-trion-vathmon-stin-aek sdna.gr Aφαίρεση τριών βαθμών στην ΑΕΚ!]</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CL3Q=green1  |text_CL3Q={{nowrap|Qualification for the [[2019–20 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]}}
+|col_CL2Q=green2 |text_CL2Q=Qualification for the [[2019–20 UEFA Champions League#Second qualifying round|Champions League second qualifying round]]
+|col_EL3Q=blue1  |text_EL3Q=Qualification for the [[2019–20 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue2  |text_EL2Q=Qualification for the [[2019–20 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_RPO=red2    |text_RPO=Qualification for the [[2018–19 Super League Greece#Relegation play-offs|relegation play-offs]]
+|col_REL=red1    |text_REL=Relegation to [[2019–20 Super League Greece 2|Super League 2]]
+}}<noinclude>
+
+{{Template reference list}}
+[[Category:2018–19 association football standings in Europe templates|Greece]]
+[[Category:Greece football standings templates]]
+</noinclude>

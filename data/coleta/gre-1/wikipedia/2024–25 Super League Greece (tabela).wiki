@@ -1,0 +1,63 @@
+<noinclude>{{main|2024–25 Super League Greece}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/23/146/ Super League Greece]
+<!-- "split 6" is unnecessary as we have created separate sections for the playoff and the playout matches. That would be used if we wanted to post the playoff and playout results in the main table, which is not customary. -->
+
+<!-- Update team positions here -->
+|team_order = OLY, AEK, PAO, PAOK, ARIS, OFI, ATR, AST, PNE, LEV, PNS, VOL, ATK, LAM
+
+<!--Tiebreakers-->
+
+<!-- Update team qualifications here (defined below) -->
+|result1=CHPO |result2=CHPO |result3=CHPO |result4=CHPO |result5=EUPO |result6=EUPO |result7=EUPO |result8=EUPO |result9=REPO |result10=REPO |result11=REPO |result12=REPO |result13=REPO |result14=REPO
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK=16| draw_AEK=5 | loss_AEK=5 | gf_AEK=44 | ga_AEK=16   <!-- AEK Athens -->
+|win_ARIS=12| draw_ARIS=6| loss_ARIS=8| gf_ARIS=31| ga_ARIS=28 <!-- Aris -->
+|win_AST=10| draw_AST=5 | loss_AST=11| gf_AST=27 | ga_AST=29  <!-- Asteras Tripolis -->
+|win_ATR=10| draw_ATR=5 | loss_ATR=11 | gf_ATR=32 | ga_ATR=32  <!-- Atromitos -->
+|win_ATK=4 | draw_ATK=9 | loss_ATK=13| gf_ATK=24 | ga_ATK=40  <!-- Athens Kallithea -->
+|win_LAM=3 | draw_LAM=6 | loss_LAM=17| gf_LAM=14 | ga_LAM=44  <!-- Lamia -->
+|win_LEV=6 | draw_LEV=10 | loss_LEV=10| gf_LEV=30 | ga_LEV=34  <!-- Levadiakos -->
+|win_OFI=10| draw_OFI=6 | loss_OFI=10 | gf_OFI=37 | ga_OFI=38  <!-- OFI -->
+|win_OLY=18| draw_OLY=6 | loss_OLY=2 | gf_OLY=45 | ga_OLY=16  <!-- Olympiacos -->
+|win_PAO=14| draw_PAO=8 | loss_PAO=4 | gf_PAO=31 | ga_PAO=22  <!-- Panathinaikos -->
+|win_PNE=9 | draw_PNE=6 | loss_PNE=11| gf_PNE=20 | ga_PNE=22  <!-- Panetolikos -->
+|win_PNS=8 | draw_PNS=4 | loss_PNS=14| gf_PNS=30 | ga_PNS=47  <!-- Panserraikos -->
+|win_PAOK=14|draw_PAOK=4| loss_PAOK=8| gf_PAOK=51| ga_PAOK=26 <!-- PAOK -->
+|win_VOL=6 | draw_VOL=4 | loss_VOL=16| gf_VOL=20 | ga_VOL=42  <!-- Volos -->
+
+<!--Team status-->
+
+
+<!--Team definitions (wikilinks in table)-->
+| name_AEK = [[AEK Athens F.C.|AEK Athens]]
+| name_ARIS= [[Aris Thessaloniki F.C.|Aris]]
+| name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+| name_ATR = [[Atromitos F.C.|Atromitos]]
+| name_ATK = [[Athens Kallithea F.C.|Athens Kallithea]]
+| name_LAM = [[PAS Lamia 1964|Lamia]]
+| name_LEV = [[Levadiakos F.C.|Levadiakos]]
+| name_OFI = [[OFI Crete F.C.|OFI]]
+| name_OLY = [[Olympiacos F.C.|Olympiacos]]
+| name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+| name_PNE = [[Panetolikos F.C.|Panetolikos]]
+| name_PNS = [[Panserraikos F.C.|Panserraikos]]
+| name_PAOK= [[PAOK FC|PAOK]]
+| name_VOL = [[Volos F.C.|Volos]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Play-offs (neutral ground).<br />(Note: Criterion 6 is only used if needed to decide champion, teams for relegation or teams for [[UEFA]] competitions).<ref>{{cite web|url=https://www.slgr.gr/el/scoreboard/21/|title=Super League Greece 2024/2025|website=slgr.gr|lang=el|access-date=26 October 2022}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CHPO=green1 |text_CHPO=Qualification for the [[2024–25 Super League Greece#Championship play-offs|Championship play-offs]]
+|col_EUPO=blue1  |text_EUPO=Qualification for the [[2024–25 Super League Greece#Europe play-offs|Europe play-offs]]
+|col_REPO=red1   |text_REPO=Qualification for the [[2024–25 Super League Greece#Relegation play-outs|Relegation play-outs]]
+}}<section end="Regular season" /><noinclude>
+{{Template reference list}}
+[[Category:2024–25 association football standings in Europe templates|Greece]]
+[[Category:Greece football standings templates]]</noinclude>

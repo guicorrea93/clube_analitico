@@ -1,0 +1,83 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/16/ Super League Greece]
+
+<!--Update team positions here-->
+|team1=AEK |team2=PAOK |team3=OLY |team4=ATR |team5=AST |team6=XAN |team7=PGSS |team8=PNE |team9=PAS |team10=LEV |team11=PAO |team12=AEL |team13=LAM |team14=APS |team15=KER |team16=PLA
+
+<!--Update team qualifications here (defined below)-->
+|result1=CL3Q |result2=CL2Q |result3=EL3Q |result4=EL2Q |result5=EL2Q |result15=REL |result16=REL 
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =21|draw_AEK =7 |loss_AEK =2 |gf_AEK =50|ga_AEK =12<!-- AEK Athens-->
+|win_APS =6 |draw_APS =11|loss_APS =13|gf_APS =23|ga_APS =36<!-- Apollon Smyrnis-->
+|win_AST =12|draw_AST =9 |loss_AST =9 |gf_AST =39|ga_AST =24<!-- Asteras Tripolis-->
+|win_ATR =15|draw_ATR =11|loss_ATR =4 |gf_ATR =43|ga_ATR =21<!-- Atromitos -->
+|win_KER =4 |draw_KER =10|loss_KER =16|gf_KER =19|ga_KER =51<!-- Kerkyra -->
+|win_LAM =6 |draw_LAM =12|loss_LAM =12|gf_LAM =20|ga_LAM =34<!-- Lamia -->
+|win_AEL =7 |draw_AEL =10|loss_AEL =13|gf_AEL =22|ga_AEL =41<!-- AEL -->
+|win_LEV =8 |draw_LEV =10|loss_LEV =12|gf_LEV =23|ga_LEV =34<!-- Levadiakos -->
+|win_OLY =18|draw_OLY =6 |loss_OLY =6 |gf_OLY =63|ga_OLY =28<!-- Olympiacos -->
+|win_PAO =10|draw_PAO =10|loss_PAO =10|gf_PAO =30|ga_PAO =30<!-- Panathinaikos -->
+|win_PNE =9 |draw_PNE =8 |loss_PNE =13|gf_PNE =31|ga_PNE =40<!-- Panetolikos -->
+|win_PGSS=10|draw_PGSS=10|loss_PGSS=10|gf_PGSS=32|ga_PGSS=31<!-- Panionios -->
+|win_PAOK=21|draw_PAOK=4 |loss_PAOK=5 |gf_PAOK=59|ga_PAOK=19<!-- PAOK -->
+|win_PAS =7 |draw_PAS =13|loss_PAS =10|gf_PAS =31|ga_PAS =34<!-- PAS Giannina -->
+|win_PLA =2 |draw_PLA =4 |loss_PLA =24|gf_PLA =14|ga_PLA =65<!-- Platanias -->
+|win_XAN =12|draw_XAN =9 |loss_XAN =9 |gf_XAN =31|ga_XAN =30<!-- Xanthi -->
+
+<!--Head-to-head-->
+
+<!--Team definitions (wikilinks in table)-->
+| name_AEK = [[AEK Athens F.C.|AEK Athens]]
+| name_AEL = [[Athlitiki Enosi Larissa F.C.|AEL]]
+| name_APS = [[Apollon Smyrnis F.C.|Apollon Smyrnis]]
+| name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+| name_ATR = [[Atromitos F.C.|Atromitos]]
+| name_KER = [[PAE Kerkyra|Kerkyra]]
+| name_LAM = [[PAS Lamia 1964|Lamia]]
+| name_LEV = [[Levadiakos F.C.|Levadiakos]]
+| name_OLY = [[Olympiacos F.C.|Olympiacos]]
+| name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+| name_PNE = [[Panetolikos F.C.|Panetolikos]]
+| name_PGSS= [[Panionios F.C.|Panionios]]
+| name_PAOK= [[PAOK FC|PAOK]]
+| name_PAS = [[PAS Giannina F.C.|PAS Giannina]]
+| name_PLA = [[Platanias F.C.|Platanias]] 
+| name_XAN = [[Xanthi F.C.|Xanthi]]
+
+<!--Team status-->
+|status_AEK=C
+|status_KER=R
+|status_PLA=R
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goals scored; 5) Goals against; 6) Play-offs (neutral ground); 7) Draw.<br />(Note: Criteria 6 is only used if needed to decide champion, teams for relegation or teams for UEFA competitions).<ref>{{cite web|url=http://www.scoresway.com/?sport=soccer&page=competition&id=107&view=rules|title= Superleague Greece 2017/2018 - Season rules|publisher=Scoresway|access-date=16 April 2018}}</ref>
+
+<!--Point deductions-->
+<!--Panathinaikos -->
+|startpoints_PAO =-8  |hth_PAO =Panathinaikos were deducted 2 points due to crowd behavior against PAOK in a play-off match during the 2016–17 season.<ref>{{cite news |title=Announcement |url=http://www.superleaguegreece.net/el/news/latest-news/show/apofasi-protobathmiou-monomelous-peitharxikou-organou-2i-agonistiki-playoffs |work=Super League Greece |date=29 May 2017 |access-date=29 May 2017}}</ref><br/>Panathinaikos were deducted 3 points for financial reasons on 11 April 2018. On 23 April 2018 another 3 points were deducted for the same occasion.<ref>{{cite web |url=http://www.superleaguegreece.net/el/news/latest-news/show/anakoinosi-833 |title= Ανακοίνωση |trans-title=Decision |work=Super League Greece |language=el |date=11 April 2018 |access-date=16 April 2018}}</ref><ref>{{cite web |url=http://www.superleaguegreece.net/el/news/latest-news/show/anakoinosi-834 |title= Ανακοίνωση |trans-title=Decision |work=Super League Greece |language=el |date=23 April 2018 |access-date=23 April 2018}}</ref>
+<!--Olympiacos -->
+|startpoints_OLY= -3  |hth_OLY =Olympiacos were deducted 3 points due to crowd behavior against AEK on 4 February 2018.<ref>{{cite news|url=https://www.reuters.com/article/soccer-greece-olympiakos/soccer-olympiakos-deducted-three-points-for-derby-violence-idINKBN1FW2AR|title=Soccer - Olympiakos deducted three points for derby violence|publisher=Reuters|date=12 February 2018|access-date=12 February 2018}}</ref>
+<!--PAOK -->
+|startpoints_PAOK=-3  |hth_PAOK=PAOK were deducted 3 points by court decision.<ref name="PAOK deduction">{{cite news|url=https://www.ekathimerini.com/sports/227200/long-overdue-decision-deducts-points-from-paok-slaps-three-year-ban-on-savvidis/|title=Long-overdue decision deducts points from PAOK, slaps three-year ban on Savvidis|publisher=Kathimerini|date=29 March 2018|access-date=29 March 2018}}</ref>
+
+|hth_AST = Head-to-head points: Asteras Tripolis 2, Xanthi 2.
+|hth_XAN = AST
+|hth_LEV = Head-to-head points: Levadiakos 2, PAS Giannina 2.
+|hth_PAS = LEV
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CL3Q=green1 |text_CL3Q=Qualification for the [[2018–19 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_CL2Q=green2 |text_CL2Q=Qualification for the [[2018–19 UEFA Champions League#Second qualifying round|Champions League second qualifying round]]
+|col_EL3Q=blue1  |text_EL3Q=Qualification for the [[2018–19 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue2  |text_EL2Q=Qualification for the [[2018–19 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+|col_REL=red1    |text_REL=Relegation to [[2018–19 Football League (Greece)|Football League]]
+
+}}<noinclude>
+{{Template reference list}}
+[[Category:Greece football standings templates]]
+</noinclude>

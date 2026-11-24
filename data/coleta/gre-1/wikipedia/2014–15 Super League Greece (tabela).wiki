@@ -1,0 +1,93 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' If teams change position, see the [[#Usage]] section for how to update this template. Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=[https://www.slgr.gr/en/scoreboard/13/42/ Super League Greece]
+
+<!--Update team positions here-->
+|team1=OLY  |team2=PAO  |team3=PAOK  |team4=AST  |team5=ATR  |team6=PAS  |team7=PNE  |team8=XAN  |team9=PLA 
+|team18=KER |team10=KAL |team11=PNT |team12=PGSS |team13=VER |team14=LEV |team15=ERG |team16=OFI |team17=NVL
+
+<!--Head-to-head-->
+
+<!--Update team qualifications here (defined below)-->
+|result1=CLGS |result2=EUPO |result3=EUPO |result4=EUPO |result5=EUPO |result15=REL |result16=REL2 |result17=REL2 |result18=REL
+
+<!--Update team results here and then (if needed positions above). Don't forget to update the date above (update parameter)-->
+|win_AST=17 |draw_AST=8  |loss_AST=9  |gf_AST=52 |ga_AST=37 <!-- Asteras -->
+|win_ATR=14 |draw_ATR=12 |loss_ATR=8  |gf_ATR=43 |ga_ATR=27 <!-- Atromitos -->
+|win_ERG=8  |draw_ERG=8  |loss_ERG=18 |gf_ERG=35 |ga_ERG=60 <!-- Ergotelis -->
+|win_KAL=11 |draw_KAL=11 |loss_KAL=12 |gf_KAL=34 |ga_KAL=39 <!-- AEL Kalloni -->
+|win_KER=12 |draw_KER=8  |loss_KER=14 |gf_KER=39 |ga_KER=38 <!-- Kerkyra -->
+|win_LEV=12 |draw_LEV=7  |loss_LEV=15 |gf_LEV=41 |ga_LEV=34 <!-- Levadiakos -->
+|win_NVL=2  |draw_NVL=1  |loss_NVL=31 |gf_NVL=7  |ga_NVL=84 <!-- Niki Volos -->
+|win_OFI=7  |draw_OFI=2  |loss_OFI=25 |gf_OFI=26 |ga_OFI=72 <!-- OFI -->
+|win_OLY=24 |draw_OLY=6  |loss_OLY=4  |gf_OLY=79 |ga_OLY=23 <!-- Olympiacos -->
+|win_PAO=21 |draw_PAO=6  |loss_PAO=7  |gf_PAO=59 |ga_PAO=31 <!-- Panathinaikos -->
+|win_PNE=14 |draw_PNE=10 |loss_PNE=10 |gf_PNE=41 |ga_PNE=28 <!-- Panetolikos -->
+|win_PGSS=11|draw_PGSS=10|loss_PGSS=13|gf_PGSS=43|ga_PGSS=42<!-- Panionios -->
+|win_PNT=11 |draw_PNT=10 |loss_PNT=13 |gf_PNT=35 |ga_PNT=44 <!-- Panthrakikos -->
+|win_PAOK=20|draw_PAOK=5 |loss_PAOK=9 |gf_PAOK=57|ga_PAOK=42<!-- PAOK -->
+|win_PAS=13 |draw_PAS=14 |loss_PAS=7  |gf_PAS=47 |ga_PAS=33 <!-- PAS Giannina -->
+|win_PLA=12 |draw_PLA=8  |loss_PLA=14 |gf_PLA=32 |ga_PLA=30 <!-- Platanias -->
+|win_XAN=12 |draw_XAN=11 |loss_XAN=11 |gf_XAN=44 |ga_XAN=41 <!-- Skoda Xanthi -->
+|win_VER=12 |draw_VER=7  |loss_VER=15 |gf_VER=45 |ga_VER=54 <!-- Veria -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+|name_ATR = [[Atromitos F.C.|Atromitos]]
+|name_ERG = [[Ergotelis F.C.|Ergotelis]]
+|name_KAL = [[AEL Kalloni F.C.|AEL Kalloni]]
+|name_KER = [[PAE Kerkyra|Kerkyra]]
+|name_LEV = [[Levadiakos F.C.|Levadiakos]]
+|name_NVL = [[Niki Volos F.C.|Niki Volos]]
+|name_OFI = [[OFI Crete F.C.|OFI]]
+|name_OLY = [[Olympiacos F.C.|Olympiacos]]
+|name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+|name_PNE = [[Panetolikos F.C.|Panetolikos]]
+|name_PGSS= [[Panionios F.C.|Panionios]]
+|name_PNT = [[Panthrakikos F.C.|Panthrakikos]]
+|name_PAOK= [[PAOK FC|PAOK]]
+|name_PAS = [[PAS Giannina F.C.|PAS Giannina]]
+|name_PLA = [[Platanias F.C.|Platanias]]
+|name_XAN = [[Xanthi F.C.|Skoda Xanthi]]
+|name_VER = [[Veria F.C.|Veria]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head goal difference; 3) Head-to-head points; 4) Goals scored; 5) Play-offs (neutral ground).<br />(Note: Criteria 5 is only used if needed to decide champion, teams for relegation or teams for [[UEFA]] competitions).<ref>{{cite web | url=http://www.epo.gr/kanonismoi/pdf/11_12/KAP_EPAGGELMATIKON_PROTA8LHMATON_IOYL_2011.pdf | title=Professional league rules |work=[[Hellenic Football Federation]]}}, chapter 20, paragraphs 5 {{In lang|el}}</ref><ref>{{cite web | url=http://www.epo.gr/kanonismoi/pdf/11_12/KAP_EPAGGELMATIKON_PROTA8LHMATON_IOYL_2011.pdf | title=Professional league rules |work=[[Hellenic Football Federation]]}}, chapter 20, paragraph 6 {{In lang|el}}</ref> In any other case, the final standings of tied teams are determined with a public draw.<ref>{{cite web | url=http://www.epo.gr/kanonismoi/pdf/11_12/KAP_EPAGGELMATIKON_PROTA8LHMATON_IOYL_2011.pdf | title=Professional league rules |work=[[Hellenic Football Federation]]}}, chapter 20, paragraph 16a {{In lang|el}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CLGS=green1 |text_CLGS=Qualification for the [[2015–16 UEFA Champions League#Group stage|Champions League group stage]]
+|col_EUPO=yellow1  |text_EUPO=Qualification for the [[2014–15 Super League Greece#Play-offs|Play-offs]]
+|col_REL=red1   |text_REL=Relegation to [[2015–16 Football League (Greece)|Football League]]
+|col_REL2=red1   |text_REL2=Relegation to [[2015–16 Gamma Ethniki|Gamma Ethniki]]
+
+<!--Point deductions-->
+<!--Niki Volos -->
+|startpoints_NVL=-13 |note_NVL=Niki Volos were deducted 13 points and have been disqualified from the League due to financial issues.<ref>{{cite news |first=Graham |last=Wood |title=Cash-strapped Niki Volou relegated from top Greek league |url=http://uk.reuters.com/article/2015/01/23/uk-soccer-greece-relegation-idUKKBN0KW0Y320150123 |agency=[[Reuters]] |date=23 January 2015 |access-date=23 January 2015}}</ref>
+<!--OFI -->
+|startpoints_OFI=-29 |note_OFI=OFI were deducted 29 points in total. From those, 10 points due to failure to pay over former players' wages.<ref>{{cite news |title=6 points deduction from OFI FC |url=http://www.superleaguegreece.net/en/news/latest-news/show/anakoinosi-756 |work=[[Super League Greece]] |date=16 January 2015 |access-date=16 January 2015}}</ref>
+<!--Panathinaikos -->
+|startpoints_PAO=-3  |note_PAO=Panathinaikos were deducted 3 points due to extreme fan behavior.<ref>{{cite news |title=Announcement |url=http://www.superleaguegreece.net/el/news/latest-news/show/apofaseis-peitharxikis-epitropis-25i-agonistiki-31 |work=Super League Greece |date=26 February 2015 |access-date=26 February 2015}}</ref>
+<!--Kerkyra -->
+|note_KER=Kerkyra relegated for illegal transfer of shares.<ref>{{cite news |title=Announcement |url=http://www.superleaguegreece.net/el/news/latest-news/show/apofasi-peitharxikis-epitropis-72|work=Super League Greece |date=7 August 2015 |access-date=7 August 2015}}</ref> Kerkyra was given the last position of the league table.<ref>{{cite news |title=Confirmation of the league table|url=http://www.sentragoal.gr/article.asp?catid=10485&subid=2&pubid=130134248|work=Super League Greece |date=12 August 2015 |access-date=12 August 2015}}</ref>
+<!--Statusletters-->
+|status_KER=R
+|status_NVL=R
+|status_OFI=R
+|status_OLY=C
+|status_ERG=R
+
+|hth_PLA = Head-to-head points: Platanias 4, Kalloni 1.
+|hth_KAL = PLA
+|hth_PNT = Head-to-head points: Panthrakikos 11, Panionios 10, Veria 8, Levadiakos 4.
+|hth_PGSS = PNT
+|hth_VER = PNT
+|hth_LEV = PNT
+|hth_OFI = Head-to-head points: OFI 3, Niki Volos 0.
+|hth_NVL = OFI <!-- Head-to-head is still mentioned as a criterion to determine 16th place, for completion reasons. -->
+
+}}<noinclude>
+{{documentation}}
+</noinclude>

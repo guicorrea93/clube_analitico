@@ -71,6 +71,17 @@ REGRAS: list[tuple[re.Pattern, callable]] = [
     # confronto direto só com códigos e placares ("SEV 1–3 ATM; ATM 1–0 SEV", "OSA: 10 pts; CEL: 7 pts")
     (re.compile(r"^[A-ZÁÉÍÓÚÇ]{2,4}\b[A-ZÁÉÍÓÚÇ0-9:;,.()\s\-–→=+*]*(?:pts?\.?)?[A-ZÁÉÍÓÚÇ0-9:;,.()\s\-–→=+*pts]*$"),
      lambda m: "confronto direto: " + re.sub(r"\s*\bpts?\b\.?", "", m.group(0).replace("–", "-")).strip().rstrip(".")),
+    # Grécia: "Head-to-head points (goal difference): Edessaikos 3 (+2), Athinaikos 3 (-2)"
+    (re.compile(r"^Head[- ]to[- ]head points \(goal difference\):\s*(.*?)\.?$", re.I),
+     lambda m: f"confronto direto (pontos e saldo): {m.group(1)}"),
+    # Grécia: desempate simples ("7th place play-off: PAOK–Aris 0–0", "Relegation play-out: Panionios–Makedonikos 3–2")
+    (re.compile(r"^(Championship play[-–]off|Relegation play-out|(\d+)(?:st|nd|rd|th)[- ]place play-off|"
+                r"(\d+)(?:st|nd|rd|th)[–-](\d+)(?:st|nd|rd|th) place play-off):\s*([^,;]+?\d+[–-]\d+(?:,\s*[^,;]+?\d+[–-]\d+)*)"
+                r"(?:\s*\(see below\))?\.?$", re.I),
+     lambda m: ("desempate pelo título" if m.group(1).lower().startswith("champ") else
+                "desempate contra o rebaixamento" if m.group(1).lower().startswith("releg") else
+                f"desempate pelo {m.group(2)}º lugar" if m.group(2) else f"desempate do {m.group(3)}º ao {m.group(4)}º lugar")
+               + f": {_placares(m.group(5)).replace('–', '-')}"),
     # punições
     (re.compile(r"^(.+?) (?:were|was|have been|had been) (?:docked|deducted) (\w+) points?\.?$", re.I),
      lambda m: f"{m.group(1)}: {_n(m.group(2))} pontos a menos"),
@@ -319,7 +330,113 @@ MANUAL: dict[str, str | None] = {
     "On 12 February 2023, Gaziantep and Hatayspor withdrew from the league following the 2023 Turkey–Syria earthquake and "
     "were not relegated at the end of the season": "Gaziantep FK e Hatayspor saíram da liga em 12/02/2023, depois do "
                                                    "terremoto na Turquia e na Síria, e não foram rebaixados",
+    # Grécia
+    "7th place play-off: PAOK–Aris 0–0, PAOK were placed ahead Aris due to the better goal average in regular season":
+        "desempate pelo 7º lugar: PAOK 0-0 Aris; o PAOK ficou à frente pela média de gols na fase regular",
+    "AEK Athens and Atromitos Piraeus were deducted 1 points each": "AEK Atenas e Atromitos Piraeus: 1 ponto a menos cada",
+    "Apollon Kalamarias and Panionios were deducted 1 point each": "Apollon Kalamarias e Panionios: 1 ponto a menos cada",
+    "PAOK and Egaleo were deducted 1 point each": "PAOK e Egaleo: 1 ponto a menos cada",
+    "11th place play-off: Niki Volos–Apollon Kalamarias 3–2, Apollon Kalamarias–Aris 4–2, Niki Volos–Aris 0–0,Niki Volos 5pts, "
+    "Apollon Kalamarias 4pts, Aris 3pts": "desempate pelo 11º lugar: Niki Volos 3-2 Apollon Kalamarias, Apollon Kalamarias 4-2 "
+                                          "Aris, Niki Volos 0-0 Aris (Niki Volos 5 pontos, Apollon Kalamarias 4, Aris 3)",
+    "Championship play-off: AEK Athens–Panathinaikos 3–3, AEK Athens become the champions due to the better total goal ratio. "
+    "(see below)": "desempate pelo título: AEK Atenas 3-3 Panathinaikos; o AEK foi campeão pela média de gols",
+    "Relegation play-out: Aris–Proodeftiki 3–1, Apollon Kalamarias–Panegialios 1–1, Panegialios–Aris 0–0, Apollon "
+    "Kalamarias–Proodeftiki 1–1, Panegialios–Proodeftiki 1–0, Apollon Kalamarias–Aris 3–1,Apollon Kalamarias 7pts, Panegialios "
+    "7pts, Aris 6pts, Proodeftiki 4pts":
+        "desempate contra o rebaixamento: Aris 3-1 Proodeftiki, Apollon Kalamarias 1-1 Panegialios, Panegialios 0-0 Aris, Apollon "
+        "Kalamarias 1-1 Proodeftiki, Panegialios 1-0 Proodeftiki, Apollon Kalamarias 3-1 Aris (Apollon Kalamarias 7 pontos, "
+        "Panegialios 7, Aris 6, Proodeftiki 4)",
+    "Relegation play-out: Niki Volos–Olympiacos Chalkida 1–1, Olympiacos Chalkida were relegated due to the worst total goal "
+    "ratio": "desempate contra o rebaixamento: Niki Volos 1-1 Olympiacos Chalkida; o Olympiacos Chalkida caiu pela média de gols",
+    "Relegation play-out: Niki Volos–Apollon Kalamarias 1–0, Panegialios–Apollon Kalamarias 2–1, Niki Volos–Panegialios "
+    "2–1,Niki Volos 6pts, Panegialios 4pts, Apollon Kalamarias 2pts":
+        "desempate contra o rebaixamento: Niki Volos 1-0 Apollon Kalamarias, Panegialios 2-1 Apollon Kalamarias, Niki Volos 2-1 "
+        "Panegialios (Niki Volos 6 pontos, Panegialios 4, Apollon Kalamarias 2)",
+    "Relegation play-out: Panserraikos–Panegialios 1–0, Panegialios–Proodeftiki 1–0, Proodeftiki–Panserraikos 2–1, Panegialios "
+    "were relegated due to the worst goal average":
+        "desempate contra o rebaixamento: Panserraikos 1-0 Panegialios, Panegialios 1-0 Proodeftiki, Proodeftiki 2-1 "
+        "Panserraikos; o Panegialios caiu pela média de gols",
+    "Panathinaikos were deducted 3 points and had 3 games penalty": "Panathinaikos: 3 pontos a menos e 3 jogos de punição",
+    "AEK Athens pronounced champions, because Olympiacos did not show up for the play-off match":
+        "AEK Atenas declarado campeão porque o Olympiacos não compareceu ao jogo-desempate",
+    "Levadiakos were deducted 4 points because of attempting to fix a game in the previous season":
+        "Levadiakos: 4 pontos a menos por tentar combinar um resultado na temporada anterior",
+    "PAS Giannina were deducted 90 points (3 points per match) for having debts of €900,000 to former players":
+        "PAS Giannina: 90 pontos a menos (3 por jogo) por dívidas de 900 mil euros com ex-jogadores",
+    "Olympiacos and Panionios originally had three points deducted for the incidents before their match in the round 16 but "
+    "these deductions were cancelled on appeal": "Olympiacos e Panionios perderam 3 pontos pelos incidentes antes do jogo da 16ª "
+                                                 "rodada, mas a punição foi anulada no recurso",
+    "Chalkidona were merged with Atromitos and therefore were replaced by them for the next season":
+        "o Chalkidona fundiu-se com o Atromitos, que ficou com a vaga na temporada seguinte",
+    "Aris had three points deducted for the incidents in the match against Iraklis in the matchday 29":
+        "Aris: 3 pontos a menos pelos incidentes no jogo contra o Iraklis (29ª rodada)",
+    "Ionikos had 2 points deducted for an attack by the club's chairman on the referee at matchday 6 and 3 points deducted for "
+    "incidents at matchday 14. The game against Iraklis suspended at the 92nd minute after a violent attack to the assistant "
+    "referee": "Ionikos: 2 pontos a menos pela agressão do presidente do clube ao árbitro (6ª rodada) e 3 pelos incidentes da 14ª "
+               "rodada; o jogo contra o Iraklis foi interrompido aos 92 minutos depois da agressão a um assistente",
+    "The match of Apollon Kalamarias against Olympiacos, originally ended 1–0 to the home side, but later was awarded to "
+    "Olympiacos 0–3 by the Greek sports court giving Olympiacos the three points, on the basis that the home side fielded an "
+    "ineligible player (Roman Wallner). Apollon were deducted by one point":
+        "Apollon Kalamarias x Olympiacos: 1-0 em campo; o tribunal deu 0-3 ao Olympiacos porque o Apollon escalou um jogador "
+        "irregular (Roman Wallner), e o Apollon perdeu também 1 ponto",
+    "Panathinaikos was docked three points following severe crowd violence during a match against Olympiacos and lost the game "
+    "0–3": "Panathinaikos: 3 pontos a menos pela violência da torcida no jogo contra o Olympiacos, e derrota por 0-3",
+    "Aris was docked three points following an object thrown into the field during a match against Asteras Tripolis and lost "
+    "the game 0–3": "Aris: 3 pontos a menos por um objeto atirado ao campo no jogo contra o Asteras Tripolis, e derrota por 0-3",
+    "Panathinaikos started the league season with minus 2 points because of severe crowd violence during their home match "
+    "against Olympiacos last year": "Panathinaikos começou com 2 pontos a menos pela violência da torcida no jogo contra o "
+                                    "Olympiacos na temporada anterior",
+    "AEK Athens were deducted 3 points because of severe crowd violence during their home match against Panthrakikos this year. "
+    "They were also voluntarily relegated to the third division in order to enter the liquidation process and remove a big "
+    "number of debts to the club": "AEK Atenas: 3 pontos a menos pela violência da torcida no jogo contra o Panthrakikos; o "
+                                   "clube desceu por vontade própria para a 3ª divisão, para entrar em liquidação e se livrar "
+                                   "das dívidas",
+    "Panathinaikos were deducted 3 points due to extreme fan behavior": "Panathinaikos: 3 pontos a menos pelo comportamento da "
+                                                                       "torcida",
+    "OFI were deducted 29 points in total. From those, 10 points due to failure to pay over former players' wages":
+        "OFI Creta: 29 pontos a menos no total, 10 deles por salários não pagos a ex-jogadores",
+    "Niki Volos were deducted 13 points and have been disqualified from the League due to financial issues":
+        "Niki Volos: 13 pontos a menos e excluído da liga por problemas financeiros",
+    "Kerkyra relegated for illegal transfer of shares. Kerkyra was given the last position of the league table":
+        "Kerkyra rebaixado pela transferência irregular de ações do clube e posto em último lugar",
+    "Panathinaikos were deducted 3 points due to extreme fan behavior against Olympiacos. The match was awarded as a 3–0 win "
+    "for Olympiacos": "Panathinaikos: 3 pontos a menos pelo comportamento da torcida contra o Olympiacos; o jogo valeu 3-0 "
+                      "para o Olympiacos",
+    "AEK were deducted 3 points due to extreme fan behavior against Atromitos":
+        "AEK Atenas: 3 pontos a menos pelo comportamento da torcida contra o Atromitos",
+    "PAOK were deducted 3 points due to extreme fan behavior against Olympiacos in Greek Cup semifinal match":
+        "PAOK: 3 pontos a menos pelo comportamento da torcida contra o Olympiacos na semifinal da Copa da Grécia",
+    "Atromitos were deducted 3 points due to extreme fan behavior against AEK":
+        "Atromitos: 3 pontos a menos pelo comportamento da torcida contra o AEK",
+    "PAOK were deducted three points as they did not show up to the second semi-final match against Olympiacos in last year's "
+    "Greek Cup": "PAOK: 3 pontos a menos por não comparecer ao 2º jogo da semifinal da Copa da Grécia contra o Olympiacos, na "
+                 "temporada anterior",
+    "Iraklis were initially relegated to Football League due to the financial problems. However, the team decided not to "
+    "participate in the second tier Football League, and play in the third tier Gamma Ethniki instead with the amateur team":
+        "Iraklis rebaixado para a 2ª divisão por problemas financeiros; o clube preferiu jogar a 3ª divisão com o time amador",
+    "PAOK were deducted 3 points by court decision": "PAOK: 3 pontos a menos por decisão da justiça desportiva",
+    "Olympiacos were deducted 3 points due to crowd behavior against AEK on 4 February 2018":
+        "Olympiacos: 3 pontos a menos pelo comportamento da torcida contra o AEK em 04/02/2018",
+    "Panathinaikos were deducted 2 points due to crowd behavior against PAOK in a play-off match during the 2016–17 "
+    "season.Panathinaikos were deducted 3 points for financial reasons on 11 April 2018. On 23 April 2018 another 3 points were "
+    "deducted for the same occasion": "Panathinaikos: 2 pontos a menos pelo comportamento da torcida contra o PAOK num jogo do "
+                                      "play-off de 2016/17, e 3 + 3 por razões financeiras (11/04 e 23/04/2018)",
+    "PAOK were deducted 2 points by court decision": "PAOK: 2 pontos a menos por decisão da justiça desportiva",
+    "AEK Athens were deducted 3 points by court decision": "AEK Atenas: 3 pontos a menos por decisão da justiça desportiva",
+    "Panathinaikos were deducted 11 points. 6 points for financial reasons plus 5 points by court decision":
+        "Panathinaikos: 11 pontos a menos (6 por razões financeiras e 5 por decisão da justiça desportiva)",
+    "Xanthi were deducted 12 points for joint ownership": "Xanthi: 12 pontos a menos por dono em comum com outro clube",
+    "Panionios were deducted 6 points for non-licensing": "Panionios: 6 pontos a menos por não obter a licença",
+    "Panathinaikos were deducted 3 points due to fan behavior against PAOK": "Panathinaikos: 3 pontos a menos pelo "
+                                                                             "comportamento da torcida contra o PAOK",
+    "PAOK were deducted 6 points due to fan behavior against AEK Athens in Greek Cup final":
+        "PAOK: 6 pontos a menos pelo comportamento da torcida contra o AEK na final da Copa da Grécia",
+    "Xanthi was punished with -7 points for the case of co-ownership and -5 points for not announcing the change in the "
+    "shareholder structure of football club by the Primary Single Member Disciplinary body of the organization":
+        "Xanthi: 7 pontos a menos por dono em comum com outro clube e 5 por não comunicar a mudança dos acionistas",
 }
+
 
 
 def traduzir(texto: str | None) -> str | None:

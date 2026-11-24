@@ -1,0 +1,70 @@
+<noinclude>{{main|2023–24 Super League Greece}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br>'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/22/126/ Super League Greece]
+<!-- "split 6" is unnecessary as we have created separate sections for the playoff and the playout matches. That would be used if we wanted to post the playoff and playout results in the main table, which is not customary. -->
+
+<!-- Update team positions here -->
+|team_order= PAOK, AEK, OLY, PAO, ARIS, LAM, AST, ATR, PNS, OFI, KIF, PNE, VOL, PAS
+
+<!-- Update team qualifications here (defined below) -->
+|result1=P1 |result2=P1 |result3=P1 |result4=P1 |result5=P1 |result6=P1 |result7=P2 |result8=P2 |result9=P2 |result10=P2 |result11=P2 |result12=P2 |result13=P2 |result14=P2 
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =17|draw_AEK =8 |loss_AEK =1 |gf_AEK =60|ga_AEK =25<!-- AEK Athens -->
+|win_PAO =17|draw_PAO =5 |loss_PAO =4 |gf_PAO =62|ga_PAO =21<!-- Panathinaikos -->
+|win_OLY =18|draw_OLY =3 |loss_OLY =5 |gf_OLY =58|ga_OLY =24<!-- Olympiacos -->
+|win_KIF =4 |draw_KIF =9 |loss_KIF =13|gf_KIF =31|ga_KIF =56<!-- A.E. Κifisia -->
+|win_ARIS=12|draw_ARIS=6 |loss_ARIS=8 |gf_ARIS=39|ga_ARIS=29<!-- Aris -->
+|win_AST =9 |draw_AST =4 |loss_AST =13|gf_AST =36|ga_AST =46<!-- Asteras Tripolis -->
+|win_ATR =6 |draw_ATR =10|loss_ATR =10|gf_ATR =29|ga_ATR =44<!-- Atromitos -->
+|win_LAM =9 |draw_LAM =7 |loss_LAM =10|gf_LAM =35|ga_LAM =44<!-- Lamia -->
+|win_OFI =5 |draw_OFI =10|loss_OFI =11|gf_OFI =26|ga_OFI =44<!-- OFI -->
+|win_PNE =4 |draw_PNE =8 |loss_PNE =14|gf_PNE =26|ga_PNE =46<!-- Panetolikos -->
+|win_PNS =6 |draw_PNS =9 |loss_PNS =11|gf_PNS =28|ga_PNS =45<!-- Panserraikos -->
+|win_PAOK=19|draw_PAOK=3 |loss_PAOK=4 |gf_PAOK=66|ga_PAOK=21<!-- PAOK -->
+|win_PAS =3 |draw_PAS =9 |loss_PAS =14|gf_PAS =25|ga_PAS =48<!-- PAS Giannina --> 
+|win_VOL =4 |draw_VOL =7 |loss_VOL =15|gf_VOL =24|ga_VOL =52<!-- Volos -->
+
+<!--Team definitions (wikilinks in table)-->
+| name_AEK = [[AEK Athens F.C.|AEK Athens]]
+| name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+| name_OLY = [[Olympiacos F.C.|Olympiacos]]
+| name_KIF = [[A.E. Kifisia F.C.|A.E. Kifisia]]
+| name_ARIS= [[Aris Thessaloniki F.C.|Aris]]
+| name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+| name_ATR = [[Atromitos F.C.|Atromitos]]
+| name_LAM = [[PAS Lamia 1964|Lamia]]
+| name_OFI = [[OFI Crete F.C.|OFI]]
+| name_PNE = [[Panetolikos F.C.|Panetolikos]]
+| name_PNS = [[Panserraikos F.C.|Panserraikos]]
+| name_PAOK= [[PAOK FC|PAOK]]
+| name_PAS = [[PAS Giannina F.C.|PAS Giannina]]
+| name_VOL = [[Volos F.C.|Volos]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Play-offs (neutral ground).<br>(Note: Criterion 6 is only used if needed to decide champion, teams for relegation or teams for [[UEFA]] competitions).<ref>{{cite web|url=https://www.slgr.gr/el/scoreboard/22/|title=Super League Greece 2023/2024|website=slgr.gr|lang=el}}</ref>
+
+<!--Qualification and relegation column definitions-->
+
+|res_col_header=QR
+|col_P1=green1 |text_P1=Qualification for the [[2023–24 Super League Greece#Play-off round|Play-off round]]
+|col_P2=red1|text_P2=Qualification for the [[2023–24 Super League Greece#Play-out round|Play-out round]]
+
+}}<noinclude>
+
+<!-- For play-offs and play-outs
+|res_col_header=QR
+|col_CL2Q=green1 |text_CL2Q=Qualification for the [[UEFA Champions League#Second qualifying round|Champions League second qualifying round]]
+|col_EL1Q=blue1  |text_EL1Q=Qualification for the [[UEFA Europa League#First qualifying round|Europa League first qualifying round]]
+|col_ECL2Q=yellow2 |text_ECL2Q=Qualification for the [[UEFA Conference League#Second qualifying round|Europa Conference League second qualifying round]]
+|col_REL=red1  |text_REL=Relegation to [[Super League Greece 2|Super League 2]]
+}}<noinclude>
+-->
+
+{{Template reference list}}
+[[Category:2023–24 association football standings in Europe templates|Greece]]
+[[Category:Greece football standings templates]]
+</noinclude>

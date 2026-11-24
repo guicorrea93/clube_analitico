@@ -17,6 +17,7 @@ Regras de trabalho, ordem das pendências e como fazer uma liga nova: `coleta/co
 | Campeonato Belga | 123 (1895/96–2025/26) | 28712 | 12031 | 18167 | 81 | 185 / 83 | 0 | [bel-1](bel-1.md) |
 | Campeonato Turco | 97 (1924 (Şampiyonası)–2025/26) | 20971 | 13891 | 23395 | 168 | 128 / 30 | 0 | [tur-1](tur-1.md) |
 | Campeonato da Alemanha Oriental | 44 (1948–1990/91) | 8062 | 0 | 0 | 52 | 65 / 19 | 0 | [gdr-1](gdr-1.md) |
+| Campeonato Grego | 90 (1927/28–2025/26) | 18689 | 8900 | 20025 | 69 | 163 / 32 | 0 | [gre-1](gre-1.md) |
 
 ## Pendências de todas as ligas
 
@@ -62,6 +63,12 @@ Nenhuma fonte em lote tem o dado; só volta com uma fonte nova.
 - **gdr-1:** Autores dos gols, público e estádio dos jogos da Oberliga: a RSSSF traz só o placar; fonte possível: as fichas do weltfussball.de ou o arquivo do jornal Neues Deutschland, jogo a jogo.
 - **gdr-1:** 1948 e 1949: só a fase final (mata-mata entre os campeões estaduais); os campeonatos estaduais ficam de fora.
 - **gdr-1:** Punições de pontos que só a tabela da RSSSF traz (1966/67, 1967/68, 1973/74, 1990/91): os pontos oficiais vão para a classificação e a diferença para ajuste_pontos; o motivo de cada uma não está nas fontes.
+- **gre-1:** 1959/60 a 1992/93: jogos sem data nem rodada (só a matriz da RSSSF e a da Wikipédia; o ogol não tem esses jogos). Rodadas de 1994/95 a 1996/97: o ogol não traz.
+- **gre-1:** Era antiga (1927/28-1958/59, em antigo.py): só a fase nacional entre os campeões regionais; as ligas regionais, a fase semifinal de 1955/56 e as eliminatórias inter-regionais ficam de fora. Datas só nas finais e em 1929/30 e 1945/46.
+- **gre-1:** Era antiga: em 1954/55 e 1955/56 as tabelas da RSSSF e da Wikipédia concordam entre si e não fecham com nenhuma matriz (diferenças de 1 a 4 gols); só o jornal da época decidiria.
+- **gre-1:** Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15; antes, só as fichas dos jogos-desempate da Wikipédia.
+- **gre-1:** Jogos de acesso e rebaixamento contra clubes da 2ª divisão ficam de fora (1959/60, 1967/68, 1968/69, 2000/01 a 2003/04, 2013/14, 2018/19 a 2021/22).
+- **gre-1:** Play-off europeu de 2015/16: a tabela da Wikipédia dá 1 gol a menos a AEK (pró) e Panionios (contra) que os jogos do ogol; sem terceira fonte (a ESPN e o football-data não têm os play-offs), fica o ogol.
 
 ## Com o agente de revisão
 
@@ -72,7 +79,11 @@ Decisões da coleta que a revisão confere.
 - **sco-1:** Temporadas em que as duas tabelas publicadas erram em clubes diferentes: o ogol fecha com uma delas em cada clube; conferir com uma terceira fonte (jornais da época, fitbastats.com, statto.com).
 - **tur-1:** Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.
 - **gdr-1:** Identidade dos clubes (coleta/comum-europa/clubes_gdr.py), sobretudo Chemie Leipzig, e o título de 1952/53 (Dynamo Dresden, como a RSSSF); as 19 tabelas que diferem dos jogos.
+- **gre-1:** 1959/60 a 1992/93: onde a matriz da RSSSF e a da Wikipédia discordam, ficou o placar que fecha com as duas tabelas publicadas (a maioria é da Wikipédia; trocas jogo a jogo e em pares, anotadas no relatório e na observação do jogo).
+- **gre-1:** Era antiga: o mesmo critério na fase nacional (1930/31, 1931/32, 1953/54, 1956/57, 1957/58, 1958/59 com trocas).
+- **gre-1:** Identidade: Chalkidona em 2004/05 (o ogol põe no Atromitos, que absorveu o clube em 2005); Rodos x AE Rodos e AO Kerkyra x PAE Kerkyra separados como na Wikipédia; Megas Alexandros (1959/60) como Pierikos.
+- **gre-1:** Desempates de posição que só estão nas notas da Wikipédia (1959/60 a 1966/67, 1973/74, 1982/83, 1983/84), sem data.
 
 ## Próximas ligas
 
-- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. A primeira é a Grécia (`gre-1`). Uma por vez.
+- Na ordem do ranking de coeficientes da UEFA (foto de 24/11/2026), da mais bem colocada à menos: a tabela está em `COMECE-AQUI.md`, seção 3. A Grécia (`gre-1`) está pronta (24/11/2026); a próxima é a Tchéquia, seguida da Tchecoslováquia (competição à parte). Uma por vez.

@@ -1,0 +1,69 @@
+<noinclude>{{main|2025–26 Super League Greece}}
+'''READ THIS BEFORE UPDATING:''' Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/24/ Super League Greece]
+<!-- "split 6" is unnecessary as we have created separate sections for the playoff and the playout matches. That would be used if we wanted to post the playoff and playout results in the main table, which is not customary. -->
+
+<!-- Update team positions here -->
+|team_order = AEK, OLY, PAOK, PAO, LEV, OFI, VOL, ARIS, ATR, KIF, PNE, AEL, PNS, AST
+
+<!--Head-to-head-->
+
+<!-- Update team qualifications here (defined below) -->
+|result1=CHPO |result2=CHPO |result3=CHPO |result4=CHPO |result5=EUPO |result6=EUPO |result7=EUPO |result8=EUPO |result9=REPO |result10=REPO |result11=REPO |result12=REPO |result13=REPO |result14=REPO
+
+|split4=yes
+|split8=yes
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK=18 | draw_AEK=6  | loss_AEK=2  | gf_AEK=49 | ga_AEK=17 |status_AEK=<!-- AEK Athens -->
+|win_KIF=6  | draw_KIF=9  | loss_KIF=11 | gf_KIF=32 | ga_KIF=42 |status_KIF=<!-- A.E. Kifisia -->
+|win_AEL=4  | draw_AEL=11 | loss_AEL=11 | gf_AEL=22 | ga_AEL=39 |status_AEL=<!-- AEL -->
+|win_ARIS=6 | draw_ARIS=12| loss_ARIS=8 | gf_ARIS=20| ga_ARIS=27|status_ARIS=<!-- Aris -->
+|win_AST=3  | draw_AST=8  | loss_AST=15 | gf_AST=22 | ga_AST=41 |status_AST=<!-- Asteras Tripolis -->
+|win_ATR=7  | draw_ATR=8  | loss_ATR=11 | gf_ATR=26 | ga_ATR=30 |status_ATR=<!-- Atromitos -->
+|win_LEV=12 | draw_LEV=6  | loss_LEV=8  | gf_LEV=51 | ga_LEV=37 |status_LEV=<!-- Levadiakos -->
+|win_OFI=10 | draw_OFI=2  | loss_OFI=14 | gf_OFI=34 | ga_OFI=45 |status_OFI=<!-- OFI -->
+|win_OLY=17 | draw_OLY=7  | loss_OLY=2  | gf_OLY=45 | ga_OLY=11 |status_OLY=<!-- Olympiacos -->
+|win_PAO=14 | draw_PAO=7  | loss_PAO=5  | gf_PAO=44 | ga_PAO=26 |status_PAO=<!-- Panathinaikos -->
+|win_PNE=7  | draw_PNE=5  | loss_PNE=14 | gf_PNE=24 | ga_PNE=38 |status_PNE=<!-- Panetolikos -->
+|win_PNS=4  | draw_PNS=5  | loss_PNS=17 | gf_PNS=16 | ga_PNS=55 |status_PNS=<!-- Panserraikos -->
+|win_PAOK=17| draw_PAOK=6 | loss_PAOK=3 | gf_PAOK=52| ga_PAOK=17|status_PAOK=<!-- PAOK -->
+|win_VOL=9  | draw_VOL=4  | loss_VOL=13 | gf_VOL=26 | ga_VOL=38 |status_VOL=<!-- Volos -->
+
+<!--Team status-->
+|status_text_W=
+|status_text_X=Assured of at least the [[2025–26 Super League Greece#Europe play-offs|Europe play-offs]]
+|status_text_Y=Cannot qualify for the [[2025–26 Super League Greece#Championship play-offs|Championship play-offs]], but may still qualify for the [[2025–26 Super League Greece#Europe play-offs|Europe play-offs]]
+|status_text_Z=
+
+<!--Team definitions (wikilinks in table)-->
+| name_AEK = [[AEK Athens F.C.|AEK Athens]]
+| name_KIF = [[A.E. Kifisia F.C.|A.E. Kifisia]]
+| name_AEL = [[Athlitiki Enosi Larissa F.C.|AEL]]
+| name_ARIS= [[Aris Thessaloniki F.C.|Aris]]
+| name_AST = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+| name_ATR = [[Atromitos F.C.|Atromitos]]
+| name_LEV = [[Levadiakos F.C.|Levadiakos]]
+| name_OFI = [[OFI Crete F.C.|OFI]]
+| name_OLY = [[Olympiacos F.C.|Olympiacos]]
+| name_PAO = [[Panathinaikos F.C.|Panathinaikos]]
+| name_PNE = [[Panetolikos F.C.|Panetolikos]]
+| name_PNS = [[Panserraikos F.C.|Panserraikos]]
+| name_PAOK= [[PAOK FC|PAOK]]
+| name_VOL = [[Volos F.C.|Volos]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Overall goal difference; 5) Goals scored; 6) Total wins; 7) Away goals scored; 8) Away wins.<ref>{{cite web|url=https://www.slgr.gr/el/scoreboard/24/|title=Βαθμολογία Ελληνικού πρωταθλήματος ποδοσφαίρου 2025-2026|trans-title=League Table season 2025-2026|website=slgr.gr|lang=el|access-date=1 March 2026}}</ref>
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=QR
+|col_CHPO=green1 |text_CHPO=Qualification for the [[2025–26 Super League Greece#Championship play-offs|Championship play-offs]]
+|col_EUPO=blue1  |text_EUPO=Qualification for the [[2025–26 Super League Greece#Europe play-offs|Europe play-offs]]
+|col_REPO=red1   |text_REPO=Qualification for the [[2025–26 Super League Greece#Relegation play-outs|Relegation play-outs]]
+}}<section end="Regular season" /><noinclude>
+{{Template reference list}}
+[[Category:2025–26 association football standings in Europe templates|Greece]]
+[[Category:Greece football standings templates]]</noinclude>

@@ -1,0 +1,70 @@
+{{#invoke:Sports table|main|style=WDL
+|source=[https://www.slgr.gr/en/scoreboard/18/88/ Super League Greece]
+
+<!--Update team positions here-->
+|team1=OLY |team2=PAOK |team3=AEK |team4=PAO |team5=OFI |team6=ARIS |team7=ATR |team8=AEL |team9=AST |team10=LAM |team11=VOL |team12=XAN |team13=PNE |team14=PGSS
+ 
+<!--Update team qualifications here (defined below)-->
+|result1=CHR |result2=CHR |result3=CHR |result4=CHR |result5=CHR |result6=CHR
+|result7=RER |result8=RER |result9=RER |result10=RER |result11=RER |result12=RER |result13=RER |result14=RER
+
+<!--Update team results here and then (if needed) positions above. Don't forget to update the date (update parameter)-->
+|update=complete
+|win_AEK =15|draw_AEK =6 |loss_AEK =5 |gf_AEK =42|ga_AEK =22<!-- AEK Athens-->
+|win_AEL =7 |draw_AEL =9 |loss_AEL =10|gf_AEL =28|ga_AEL =33<!-- AEL-->
+|win_ARIS=8 |draw_ARIS=10|loss_ARIS=8 |gf_ARIS=38|ga_ARIS=32<!-- Aris-->
+|win_AST =8 |draw_AST =6 |loss_AST =12|gf_AST =33|ga_AST =37<!-- Asteras Tripolis-->
+|win_ATR =9 |draw_ATR =5 |loss_ATR =12|gf_ATR =31|ga_ATR =36<!-- Atromitos-->
+|win_LAM =5 |draw_LAM =12|loss_LAM =9 |gf_LAM =19|ga_LAM =33<!-- Lamia-->
+|win_OFI =10|draw_OFI =4 |loss_OFI =12|gf_OFI =35|ga_OFI =35<!-- OFI-->
+|win_OLY =20|draw_OLY =6 |loss_OLY =0 |gf_OLY =53|ga_OLY =9 <!-- Olympiacos-->
+|win_PAO =12|draw_PAO =8 |loss_PAO =6 |gf_PAO =35|ga_PAO =23<!-- Panathinaikos-->
+|win_PNE =3 |draw_PNE =8 |loss_PNE =15|gf_PNE =20|ga_PNE =42<!-- Panetolikos-->
+|win_PGSS=4 |draw_PGSS=5 |loss_PGSS=17|gf_PGSS=16|ga_PGSS=45<!-- Panionios-->
+|win_PAOK=18|draw_PAOK=5 |loss_PAOK=3 |gf_PAOK=50|ga_PAOK=23<!-- PAOK-->
+|win_VOL =7 |draw_VOL =6 |loss_VOL =13|gf_VOL =23|ga_VOL =42<!-- Volos-->
+|win_XAN =8 |draw_XAN =6 |loss_XAN =12|gf_XAN =21|ga_XAN =32<!-- Xanthi-->
+
+<!--Team definitions (wikilinks in table)-->
+| name_AEK  = [[AEK Athens F.C.|AEK Athens]]
+| name_AEL  = [[Athlitiki Enosi Larissa F.C.|AEL]]
+| name_ARIS = [[Aris Thessaloniki F.C.|Aris]]
+| name_AST  = [[Asteras Tripolis F.C.|Asteras Tripolis]]
+| name_ATR  = [[Atromitos F.C.|Atromitos]]
+| name_LAM  = [[PAS Lamia 1964|Lamia]]
+| name_OFI  = [[OFI Crete F.C.|OFI]]
+| name_OLY  = [[Olympiacos F.C.|Olympiacos]]
+| name_PAO  = [[Panathinaikos F.C.|Panathinaikos]]
+| name_PNE  = [[Panetolikos F.C.|Panetolikos]]
+| name_PGSS = [[Panionios F.C.|Panionios]]
+| name_PAOK = [[PAOK FC|PAOK]]
+| name_VOL  = [[Volos F.C.|Volos]]
+| name_XAN  = [[Xanthi F.C.|Xanthi]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) Points; 2) Head-to-head points; 3) Head-to-head goal difference; 4) Goal difference; 5) Goals scored; 6) Play-offs (neutral ground).<br />(Note: Criteria 6 is only used if needed to decide champion, teams for relegation or teams for [[UEFA]] competitions).
+
+<!--Point deductions-->
+
+<!--Panionios -->
+|startpoints_PGSS=-6  |note_PGSS=[[Panionios]] were deducted 6 points for non-licensing.
+
+<!--Xanthi -->
+|startpoints_XAN=-12  |note_XAN=[[Xanthi]] were deducted 12 points for joint ownership.
+
+|hth_OFI = Head-to-head points: OFI 4, Aris 1.
+|hth_ARIS = OFI
+|hth_AST = Head-to-head points: AEL 4, Asteras Tripolis 1.
+|hth_AEL = AST
+|hth_VOL = Head-to-head points: Lamia 3, Volos 3.
+|hth_LAM = VOL
+
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CHR=green1 |text_CHR=Qualification for the [[2019–20 Super League Greece#Play-off round|Play-off round]]
+|col_RER=red1   |text_RER=Qualification for the [[2019–20 Super League Greece#Play-out round|Play-out round]]
+}}<noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, interwikis to Wikidata, not here -->
+</noinclude>

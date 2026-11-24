@@ -1,0 +1,59 @@
+<noinclude>'''READ THIS BEFORE UPDATING:''' If teams change position, see the [[#Usage]] section for how to update this template. Please do not forget to update the date ({{para|update}}).<br />'''AFTER UPDATING:''' Pages with the template might not be updated immediately so the page can be updated with a [[WP:NULL]] on the article in question.
+</noinclude>{{#invoke:Sports table|main|style=WDL
+|update=complete
+|source=Super League Greece: [https://www.slgr.gr/en/scoreboard/13/48/ Standings] and [https://www.slgr.gr/en/schedule/13/48/ Schedule]
+
+|highest_pos=2
+
+<!--Update team positions here-->
+|team2=PAO |team3=AST |team4=ATR |team5=PAOK
+
+<!--Head-to-head-->
+
+<!--Update team qualifications here (defined below)-->
+|result2=CL3Q |result3=ELGS |result4=EL3Q |result5=EL2Q
+
+<!--Update team results here and then (if needed positions above). Don't forget to update the date above (update parameter)-->
+|win_AST=2 |draw_AST=3 |loss_AST=1 |gf_AST=2 |ga_AST=4 |startpoints_AST=1 <!-- Asteras -->
+|win_ATR=2 |draw_ATR=2 |loss_ATR=2 |gf_ATR=4 |ga_ATR=4 |startpoints_ATR=0 <!-- Atromitos -->
+|win_PAO=4 |draw_PAO=1 |loss_PAO=1 |gf_PAO=9 |ga_PAO=2 |startpoints_PAO=2 <!-- Panathinaikos -->
+|win_PAOK=0|draw_PAOK=2|loss_PAOK=4|gf_PAOK=1|ga_PAOK=6|startpoints_PAOK=2<!-- PAOK -->
+
+<!--Team definitions (wikilinks in table)-->
+|name_AST=[[Asteras Tripolis F.C.|Asteras Tripolis]]
+|name_ATR=[[Atromitos F.C.|Atromitos]]
+|name_PAO=[[Panathinaikos F.C.|Panathinaikos]]
+|name_PAOK=[[PAOK FC|PAOK]]
+
+<!--Table settings and rules-->
+|show_limit=5
+|class_rules = 1) points; 2) head-to-head points; 3) head-to-head goal difference; 4) head-to-head away goals rule; 5) classification of regular season.{{cn|date=May 2015}}
+<!--Qualification and relegation column definitions-->
+|res_col_header=Q
+|col_CL3Q=green2 |text_CL3Q=Qualification for the [[2015–16 UEFA Champions League#Third qualifying round|Champions League third qualifying round]]
+|col_ELGS=blue1  |text_ELGS=Qualification for the [[2015–16 UEFA Europa League#Group stage|Europa League group stage]]
+|col_EL3Q=blue2  |text_EL3Q=Qualification for the [[2015–16 UEFA Europa League#Third qualifying round|Europa League third qualifying round]]
+|col_EL2Q=blue3  |text_EL2Q=Qualification for the [[2015–16 UEFA Europa League#Second qualifying round|Europa League second qualifying round]]
+
+|show_matches=y
+|matches_style=FBR|solid_cell=grey
+
+|match_AST_ATR=1–0
+|match_AST_PAO=0–4
+|match_AST_PAOK=1–0
+
+|match_ATR_AST=0–0
+|match_ATR_PAO=2–0
+|match_ATR_PAOK=1–1
+
+|match_PAO_AST=0–0
+|match_PAO_ATR=2–0
+|match_PAO_PAOK=2–0
+
+|match_PAOK_AST=0–0
+|match_PAOK_ATR=0–1
+|match_PAOK_PAO=0–1
+
+}}<noinclude>
+[[Category:Greece football standings templates]]
+</noinclude>
