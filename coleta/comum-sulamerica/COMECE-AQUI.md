@@ -75,7 +75,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 |---|---|---|---|---|---|
 | `arg-1` Argentino | 197 (1891–2026 Ap.) | 43.726 | 173 | ba21d2a, 665fe93; correções 30f0b00 | sim (versão antes das correções) |
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.456 | 84 | 0ead727; correções 31c14b0 | sim (versão antes das correções) |
-| `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e | sim (versão antes das correções) |
+| `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e, b8b5a57 | sim (versão antes das correções) |
 | `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d | sim (versão antes das correções) |
 | `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 4583f7e, a22c1ff | sim (versão antes das correções) |
 | `per-1` Peruano | 109 (1912–2025) | 17.318 | 167 | 9d1ca3b, 0b793ba; correções 55c7066, 70d8caf | sim (versão antes das correções) |
@@ -106,7 +106,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Paraguai: feito (`a22c1ff`)** (PY-008, PY-012, PY-018, PY-019, PY-031). Novo: `coleta/par-1/goleadores_es.py`
      (coluna "Goleador" da es, guardada em `data/coleta/par-1/wikipedia/es_principal.txt`) e `explicacoes.REBAIXADOS`.
      Torneios (Apertura e Clausura) ligados no leitor só de 1996 a 2007 (`ANOS_TORNEIOS`).
-   - **Chile: feito (commit no recado)** (CH-006, CH-014 de 1986, CH-017, CH-022, CH-023, CH-028). Novo no `importar.py`:
+   - **Chile: feito (`b8b5a57`)** (CH-006, CH-014 de 1986, CH-017, CH-022, CH-023, CH-028). Novo no `importar.py`:
      `_pontos_ultima_fase` (ordem pela fase final de pontos; `PONTOS_ACUMULADOS` = 1946 e 1951) e `acerta_grupos`; no
      `outras_fontes.py`: `OGOL_FORA` e o casamento sem data com placar igual quando o par se repete.
    - **Argentina:** AR-020, AR-021, QU-003, QU-005.

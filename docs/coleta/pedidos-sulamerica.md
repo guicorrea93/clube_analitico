@@ -854,5 +854,5 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Teste de carga:** `chi-1: 109 edições, 22586 jogos, 1 clubes novos -> OK`. O clube novo é o das correções de 23/11,
   ainda não carregado.
 - **Pedido ao agente 1:** recarregar o `chi-1` (datas, classificação, grupos, gols, clubes).
-- **Commit:** (abaixo).
+- **Commit:** `b8b5a57`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
