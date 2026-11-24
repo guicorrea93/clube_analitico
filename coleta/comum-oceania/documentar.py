@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["nzl-1", "tah-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
-PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["nzl-1", "tah-1", "ncl-1"]   # as competições da Oceania, na ordem da coleta (nzl-1, tah-1, ...)
+PAIS: dict[str, str] = {"nzl-1": "nzl", "tah-1": "tah", "ncl-1": "ncl"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -46,6 +46,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "Guilherme, 24/11/2026). Uma fonte da época (Journal de Tahiti) resolveria.",
         "1998/99 a 2004/05 com parte dos jogos; 2010/11 (playoff) e 2011/12 só com as tabelas.",
         "Autores dos gols só em poucas temporadas; artilheiros, cartões, estádio e público não coletados.",
+    ],
+    "ncl-1": [
+        "1950-1983 e 1986-1996 só com o campeão (a final em 1964, 1971, 1977 e 1978; vice e 3º em parte dos anos).",
+        "1963 e 1964: Club Sportif Militaire pela RSSSF atual; a versão antiga (USC, JS Vallée du Tir), copiada pela Wikipédia "
+        "e pelo ogol, fica registrada. Um jornal da época (La France Australe) resolveria de vez.",
+        "Identidades com evidência parcial: Entente Gélima, Wé-Luécilla, AS Auteuil x FC Auteuil (separados).",
+        "Jogos sem placar (\"bt\", \"drw\", \"lt\") em 2004/05, 2013 e 2015; ligas das províncias e torneio das ilhas fora.",
     ],
 }
 

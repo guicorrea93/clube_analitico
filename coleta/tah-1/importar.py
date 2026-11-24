@@ -311,7 +311,8 @@ def gravar(eds: list[dict]) -> None:
                              r["gc"], r["pts"], f"RSSSF ({t.pagina}, linha {t.linha})"])
         clubes_ed = {j.mandante for j in jogos} | {j.visitante for j in jogos} | {r["clube"] for r in cls}
         obs = [x for x in (e.obs, e.incompleta) if x]
-        ed_l.append([e.temporada, e.ano_inicio, e.ano_fim, e.nome_oficial, len(clubes_ed), e.pontos[0] if e.pontos else "", formato(d),
+        ed_l.append([e.temporada, e.ano_inicio, e.ano_fim, e.nome_oficial, len(clubes_ed), e.pontos[0] if e.pontos else "",
+                     *((e.pontos[1], e.pontos[2]) if e.pontos and e.pontos[1:] != (1, 0) else ("", "")), formato(d),
                      d["campeao"] or "", d["vice"] or "", "RSSSF" + (" + ogol" if any(getattr(j, "ogol_id", None) for j in jogos) else ""),
                      "; ".join(obs)])
         ndif = len({id(t) for t, *_ in d["difs"]})
@@ -325,7 +326,8 @@ def gravar(eds: list[dict]) -> None:
         if e.incompleta:
             ob.append(e.incompleta)
         co_l.append([e.temporada, len(jogos), esperados(d), len(d["usadas"]), ndif, n_gols, n_autor, "; ".join(ob)])
-    _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "formato", "campeao", "vice",
+    _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "pontos_empate",
+                         "pontos_derrota", "formato", "campeao", "vice",
                          "fontes", "observacao"], ed_l)
     _csv("fases.csv", ["temporada", "ordem", "fase", "tipo", "num_grupos", "formato_serie", "criterio"], fa_l)
     _csv("partidas.csv", ["id", "temporada", "fase", "grupo", "rodada", "data", "hora", "mandante", "visitante", "gols_mandante",

@@ -31,7 +31,8 @@ da casa na seção 10). Este arquivo diz o que já foi feito, como foi feito e d
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
 | `nzl-1` Neozelandês | 55 (1970–2025) | 7.480 | 101 | d7a6379 | não |
-| `tah-1` Taitiano | 79 (1948–2025/26; 31 com jogos) | 2.647 | 35 | ainda não (esperando o ok) | não |
+| `tah-1` Taitiano | 79 (1948–2025/26; 31 com jogos) | 2.647 | 35 | 82549d6 | não |
+| `ncl-1` Neocaledônio | 76 (1950–2026, sem 1955 e 2024; 36 com jogos) | 2.472 | 63 | ainda não (esperando o ok) | não |
 
 Números de gols, conferência e cobertura: `coleta/comum-oceania/documentacao/` (gerada por `documentar.py`). Detalhe edição a
 edição: `docs/coleta/nzl-1.md`.
@@ -40,11 +41,11 @@ edição: `docs/coleta/nzl-1.md`.
 
 1. **Nova Zelândia (`nzl-1`): pacote pronto e commitado em 23/11 (`d7a6379`, sem push)**; falta o agente 1 carregar. Recado
    de fim de coleta no fim de `docs/coleta/pedidos-oceania.md`.
-2. **Taiti (`tah-1`): pacote pronto em 24/11**, teste de carga OK; esperando o ok do Guilherme para o commit (junto com as
-   anotações do hash da NZ). Recado de fim de coleta no fim de `docs/coleta/pedidos-oceania.md`.
-3. **Próxima: Nova Caledônia (`ncl-1`)**, só quando o Guilherme mandar; antes, pesquisar a fundo (como no Taiti: o que entra, o
-   que é legal pôr, o que fica de fora) e mandar as decisões de escopo.
-4. Depois, na ordem: `ncl-1` (começar em 1950, aprovado em 23/11), `fij-1`, `png-1`, `sol-1`, `van-1`, `sam-1`, `tga-1`, `asa-1`,
+2. **Taiti (`tah-1`): commitado em 24/11 (`82549d6`, sem push)**; falta o agente 1 carregar.
+3. **Nova Caledônia (`ncl-1`): pacote pronto em 24/11**, teste de carga OK; esperando o ok do Guilherme para o commit. Recado no
+   fim de `docs/coleta/pedidos-oceania.md`. **Próxima: Fiji (`fij-1`)**, quando o Guilherme mandar; antes, pesquisa a fundo
+   (como no Taiti e na Nova Caledônia) e as decisões de escopo.
+4. Depois, na ordem: `png-1`, `sol-1`, `van-1`, `sam-1`, `tga-1`, `asa-1`,
    `cok-1`. Tuvalu e Kiribati ficam de fora por enquanto (aprovado em 23/11; entram no fim se ele quiser).
 
 ### Decisões do Guilherme (23/11)
@@ -58,6 +59,13 @@ edição: `docs/coleta/nzl-1.md`.
   entram as fases do título e do rebaixamento (com o campeão de Mooréa no playoff, quando havia) e a seleção sub-20 ("Tahiti
   U-20", 2008/09); ficam de fora copas, 2ª e 3ª divisões, ligas das outras ilhas, barragens com a 2ª divisão e o Tahiti United
   (liga profissional da OFC).
+- Nova Caledônia (24/11, depois de pesquisa a fundo): 2024 fora (abandonada, a federação não declarou campeão); 1963 e 1964 =
+  Club Sportif Militaire (RSSSF atual, corrigida no fim de 2025 por recorte de jornal da época; Wikipédia e ogol copiam a
+  versão antiga: USC e JS Vallée du Tir); AS Le Nickel = AS Magenta (mesmo clube com outro nome, Wikipédia fr/en e lista de
+  fundações da RSSSF); Gaïtcha FCN = Gaïtcha FC, mas ASC Gaïca (Lifou) separado; "Île des Pins" (1961) = AS Kunié; JS Baco =
+  "AS Baco"; Entente Gélima separada do US Gélima; nomes oficiais/de uso ("AS Tiga Sport", não "Tiga Sports"). Formato: até
+  2001 só a fase nacional (as ligas das províncias eram competições regionais à parte); 2002-2011 liga da Grande Terre como
+  1ª fase + playoff com o campeão das ilhas; 2012 em diante Super Ligue única.
 
 ### Como a NZ foi feita (modelo para as próximas)
 
@@ -114,6 +122,14 @@ módulos de cada competição está em `coleta/comum-sulamerica/COMECE-AQUI.md`,
   de resultados às vezes erradas ou incompletas (2023-2025): confira com a tabela da RSSSF antes de usar.
 - **ogol**: o calendário de uma edição pode juntar ligas regionais e fase nacional (NZ 2025): separe pelos clubes de cada
   grupo e pela data do primeiro jogo entre regiões.
+- **Nova Caledônia (24/11):**
+  - a lista de campeões da RSSSF muda de colunas no meio (final "X 2-1 Y" até 2005; "Champions / Runners-Up / Third" depois):
+    `ler.campeoes()` lê os dois;
+  - "2002" e "2002/03" são duas edições diferentes; o calendário volta ao ano civil em 2009;
+  - páginas antigas põem a ida e a volta na mesma linha ("AS Poum  0-1 3-1  Wé-Luecilla"); "Groupe A" (francês); "[Lifou]" no
+    meio da linha da tabela: `ler.linhas` acerta os três;
+  - em 2025 as rodadas misturam os dois grupos: o grupo sai da tabela de cada clube;
+  - vitória dada no tribunal em que a tabela conta os gols de campo (2007/08): `gols_contam` em `conferir.soma`.
 - **Taiti (24/11):**
   - a RSSSF dá o ano em que a temporada termina ("1999" = 1998/99); as páginas de 2010 em diante têm um índice no topo
     com os mesmos títulos das seções (o trecho começa no segundo "Division 1");

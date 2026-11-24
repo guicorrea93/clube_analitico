@@ -1,0 +1,423 @@
+"""Junta as fontes da 1ª divisão da Nova Caledônia e grava o pacote em data/coleta/ncl-1/pacote/ e o relatório em
+docs/coleta/ncl-1.md.
+
+Fontes:
+- RSSSF (ler.py): lista de campeões (newcalchamp.html: campeão de 1950 a 2026, vice e 3º em parte dos anos, a final de alguns
+  anos) e as páginas por temporada (jogos, fases, datas, rodadas, autores dos gols; tabelas para a conferência e a
+  classificação);
+- Wikipédia em inglês (data/coleta/ncl-1/wikipedia/liga.wiki): segunda fonte do campeão;
+- ogol (data/coleta/ncl-1/ogol/): data dos jogos da RSSSF sem data e a grafia dos clubes para os escudos.
+
+Uso: python coleta/ncl-1/importar.py
+"""
+from __future__ import annotations
+
+import csv
+import json
+import re
+import sys
+from collections import Counter, defaultdict
+from pathlib import Path
+
+AQUI = Path(__file__).resolve().parent
+sys.path.insert(0, str(AQUI.parent / "comum-oceania"))
+sys.path.insert(0, str(AQUI))
+import autores  # noqa: E402
+import conferir as conf  # noqa: E402
+from clubes_ncl import CLUBES, clube  # noqa: E402
+from edicoes import (EDICOES, ELIM, FINAL, GRUPOS, PACOTE, PASTA_DADOS, QUARTAS, REBAIX, REGIONAL, RELATORIO, SEMI, SLUG,  # noqa: E402
+                     TERCEIRO, TITULO, UNICA, Edicao)
+from explicacoes import EXPLICACOES  # noqa: E402
+from ler import campeoes  # noqa: E402
+
+FASES_LIGA = (UNICA, REGIONAL, REBAIX, GRUPOS, TITULO)
+NIVEL = {ELIM: 1, QUARTAS: 2, SEMI: 3, TERCEIRO: 3, FINAL: 4}
+CRITERIO = {
+    REGIONAL: "liga da Grande Terre (ilha principal); os primeiros vão à fase nacional",
+    REBAIX: "os últimos da liga da Grande Terre; a tabela soma a fase regular (2006/07) ou leva um bônus dela (2007/08)",
+    TITULO: "os primeiros da Grande Terre e o campeão das ilhas (2020: os 4 primeiros da Super Ligue); o 1º é o campeão",
+    GRUPOS: "dois grupos de 5", ELIM: "rodada antes das quartas", QUARTAS: "", SEMI: "", TERCEIRO: "", FINAL: "decide o título",
+}
+
+
+def tid(t: str) -> str:
+    return t.replace("/", "-")
+
+
+def wiki_campeoes() -> dict[str, str]:
+    """Lista de campeões da Wikipédia em inglês (página "New Caledonia Super Ligue"): temporada -> campeão."""
+    txt = (PASTA_DADOS / "wikipedia" / "liga.wiki").read_text(encoding="utf-8")
+    out = {}
+    for m in re.finditer(r"^[*|!]\s*'*\[?\[?(?:[^|\]]*\|)?(\d{4})(?:[–-](\d{2,4}))?\]?\]?'*\s*(?:[:|]|\|\|)\s*(.*)$", txt, re.M):
+        t = m.group(1) + (f"/{m.group(2)[-2:]}" if m.group(2) else "")
+        nome = re.sub(r"\[\[(?:[^|\]]*\|)?([^\]]*)\]\]", r"\1", m.group(3))
+        nome = re.split(r"\s+(?:bt|\d+[–-]\d+)\s+|\|\|", re.sub(r"\{\{.*?\}\}|<ref.*$|\s*\(.*$", "", nome))[0].strip(" '")
+        if nome and clube(nome, int(m.group(1))):
+            out.setdefault(t, clube(nome, int(m.group(1))))
+    return out
+
+
+def ogol_jogos(e: Edicao) -> dict[tuple[str, str], list[dict]]:
+    arq = PASTA_DADOS / "ogol" / f"{tid(e.temporada)}.json"
+    out: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    if arq.exists():
+        for x in json.loads(arq.read_text(encoding="utf-8")):
+            a, b = clube(x["mandante"], e.ano_inicio), clube(x["visitante"], e.ano_inicio)
+            if a and b:
+                out[(a, b)].append(x)
+    return out
+
+
+
+
+
+def montar(e: Edicao, cps: dict, wcp: dict) -> dict:
+    c, v, tr = cps[e.temporada]
+    d = {"e": e, "jogos": [], "usadas": [], "tabelas": [], "difs": [], "fases": [], "campeao": clube(c, e.ano_inicio),
+         "vice": clube(v, e.ano_inicio) if v else None, "terceiro": clube(tr, e.ano_inicio) if tr else None,
+         "rsssf_campeao": c, "wiki_campeao": wcp.get(e.temporada)}
+    jogos, usadas, difs, falta = conf.conferir(e)
+    assert not falta, f"{e.temporada}: nomes sem clube {falta}"
+    d.update(jogos=jogos, usadas=usadas, difs=difs, tabelas=conf.TODAS.get(e.temporada, []),
+             fases=list(dict.fromkeys([f for _, _, _, f, _ in e.trechos] + [j.fase for j in jogos])))
+    d["fases"] = [f for f in d["fases"] if any(j.fase == f for j in jogos) or any(t.fase == f for t in d["tabelas"])]
+    og = ogol_jogos(e)
+    for j in jogos:   # data do ogol para jogo sem data (mesmo mando e placar)
+        cand = [x for x in og.get((j.mandante, j.visitante), []) if (x["gols_mandante"], x["gols_visitante"]) == (j.gm, j.gv)]
+        if len(cand) == 1:
+            j.ogol_id = cand[0]["id"]
+            j.data = j.data or cand[0]["data"]
+    fin = [j for j in jogos if j.fase == FINAL]
+    if not d["vice"] and fin:
+        d["vice"] = fin[-1].visitante if fin[-1].mandante == d["campeao"] else fin[-1].mandante
+    if not d["vice"]:
+        for f in (TITULO, UNICA):
+            tabs = [t for t in d["tabelas"] if t.fase == f and len(t.linhas) > 1]
+            if tabs:
+                d["vice"] = next(r["clube"] for r in tabs[-1].linhas if r["clube"] != d["campeao"])
+                break
+    ter = [j for j in jogos if j.fase == TERCEIRO]
+    if not d["terceiro"] and ter and ter[-1].gm is not None:
+        j = ter[-1]
+        d["terceiro"] = j.mandante if (j.gm, j.pen_m or 0) > (j.gv, j.pen_v or 0) else j.visitante
+    return d
+
+
+def _junta(tabs: list) -> list:
+    """Tabela cortada em duas pela linha de rebaixamento: as partes seguidas da mesma fase viram uma."""
+    out = []
+    for t in tabs:
+        if out and out[-1].fase == t.fase and out[-1].pagina == t.pagina and t.linhas and t.linhas[0]["pos"] and \
+                out[-1].linhas[-1]["pos"] and t.linhas[0]["pos"] == out[-1].linhas[-1]["pos"] + 1:
+            out[-1].linhas = out[-1].linhas + t.linhas
+        else:
+            out.append(t)
+    return out
+
+
+def classificacao(d: dict) -> list[dict]:
+    """Campeão, vice e 3º; depois o playoff do título (ordem oficial), os eliminados do mata-mata (da fase mais alta para a
+    mais baixa) e as tabelas da fase única, de grupos ou da Grande Terre (com o grupo do rebaixamento à frente da fase
+    regular para quem jogou os dois). Edição só com o campeão: campeão (e vice e 3º, quando a lista dá)."""
+    e = d["e"]
+    linhas_c: list[dict] = []
+    vistos: set[str] = set()
+
+    def add(c, r=None, fonte="", obs=""):
+        if not c or c in vistos:
+            return
+        vistos.add(c)
+        linhas_c.append({"clube": c, "j": r["j"] if r else None, "v": r["v"] if r else None, "e": r["e"] if r else None,
+                         "d": r["d"] if r else None, "gp": r["gp"] if r else None, "gc": r["gc"] if r else None,
+                         "pts": r["pts"] if r else None, "obs": obs, "fonte": fonte or "lista de campeões da RSSSF"})
+
+    tabs = _junta([t for t in d["tabelas"] if t.linhas])
+    linha_de = {}
+    for f in (GRUPOS, REGIONAL, REBAIX, UNICA, TITULO):   # a última tabela que traz o clube dá a campanha
+        for t in [t for t in tabs if t.fase == f]:
+            for r in t.linhas:
+                linha_de[r["clube"]] = (r, f"RSSSF ({t.pagina}, linha {t.linha})", f"campanha na {f.lower()}" if f != UNICA else "")
+    for c in (d["campeao"], d["vice"], d["terceiro"]):
+        add(c, *linha_de.get(c, (None, "", "")))
+    for t in [t for t in tabs if t.fase == TITULO][-1:]:
+        for r in t.linhas:
+            add(r["clube"], *linha_de[r["clube"]])
+    mata = sorted({j.fase for j in d["jogos"] if j.fase in NIVEL}, key=lambda f: -NIVEL[f])
+    for f in mata:
+        for j in d["jogos"]:
+            if j.fase == f:
+                for c in (j.mandante, j.visitante):
+                    add(c, *linha_de.get(c, (None, "RSSSF (mata-mata)", f"eliminado: {f.lower()}")))
+    for f in (UNICA, REBAIX, REGIONAL, GRUPOS):
+        restantes = [(k, r) for t in tabs if t.fase == f for k, r in enumerate(t.linhas, 1)]
+        for k, r in sorted(restantes, key=lambda x: (x[0] if f == GRUPOS else 0)):
+            add(r["clube"], *linha_de[r["clube"]])
+    pts = e.pontos
+    for k, r in enumerate(linhas_c, 1):
+        r["pos"] = k
+        r["obs"] = re.sub(r"\s+", " ", re.sub(r"\[[\d\s\-:]+\]", "", r["obs"] or "")).strip(" ;")
+        r["ajuste"] = (r["pts"] - (pts[0] * r["v"] + pts[1] * r["e"] + pts[2] * r["d"])) if pts and None not in (
+            r["pts"], r["v"], r["e"], r["d"]) else None
+    return linhas_c
+
+
+def situacao(r: dict, d: dict) -> str:
+    if r["clube"] == d["campeao"]:
+        return "campeao"
+    if r["clube"] == d["vice"]:
+        return "vice"
+    if re.search(r"relegat|rebaixad", r.get("obs", ""), re.I):
+        return "rebaixado"
+    return ""
+
+
+def placar_oficial(j) -> tuple:
+    obs = []
+    gm, gv, esp = j.gm, j.gv, ""
+    if j.especial in ("wo_m", "wo_v"):
+        venc = j.mandante if j.especial == "wo_m" else j.visitante
+        obs.append(f"pontos para o {venc} (decisão fora de campo)" + (f"; placar em campo {j.gm}-{j.gv}" if j.gm is not None else ""))
+        gm = gv = None
+        esp = "awd" if j.gm is not None else "wo"
+    elif j.especial == "derrota_ambos":
+        obs.append(f"derrota para os dois clubes (decisão fora de campo); placar em campo {j.gm}-{j.gv}")
+        gm = gv = None
+        esp = "awd"
+    elif j.especial == "anulado":
+        obs.append(f"jogo anulado ({j.gm}-{j.gv}) e jogado de novo")
+        gm = gv = None
+        esp = "n/p"
+    elif j.gm_of is not None and (j.gm_of, j.gv_of) != (j.gm, j.gv):
+        obs.append(f"placar em campo {j.gm}-{j.gv}")
+        gm, gv, esp = j.gm_of, j.gv_of, "awd"
+    elif j.especial == "abd":
+        obs.append(f"abandonado{f' com {j.gm}-{j.gv}' if j.gm is not None else ''}; não vale na tabela")
+        gm = gv = None
+        esp = "abd"
+    elif j.especial == "awd":
+        esp = "awd"
+    return gm, gv, esp, obs
+
+
+def _csv(arquivo: str, cab: list[str], linhas_: list[list]) -> None:
+    with open(PACOTE / arquivo, "w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(cab)
+        w.writerows(linhas_)
+
+
+def esperados(d: dict) -> int:
+    n, com = 0, set()
+    for t in d["usadas"]:
+        if (t.fase, t.grupo) in com:
+            continue
+        com.add((t.fase, t.grupo))
+        if not (d["e"].acumula and t.fase == REBAIX):
+            n += sum(r["j"] for r in t.linhas) // 2
+        else:
+            n += sum(1 for j in d["jogos"] if j.fase == REBAIX)
+    n += sum(1 for j in d["jogos"] if (j.fase, j.grupo) not in com)
+    n += sum(1 for j in d["jogos"] if j.especial in ("anulado", "abd") and (j.fase, j.grupo) in com)
+    return n if d["usadas"] else len(d["jogos"])
+
+
+def formato(d: dict) -> str:
+    e = d["e"]
+    if not d["jogos"] and not d["tabelas"]:
+        return "só o campeão (sem jogos nem tabela)"
+    if not e.trechos:
+        return "só a final (da lista de campeões)"
+    desc = {UNICA: "pontos corridos", REGIONAL: "liga da Grande Terre", TITULO: "playoff do título",
+            REBAIX: "grupo do rebaixamento (Grande Terre)", GRUPOS: "fase de grupos", ELIM: "rodada preliminar",
+            QUARTAS: "quartas de final", SEMI: "semifinais", TERCEIRO: "disputa do 3º lugar", FINAL: "final"}
+    partes = []
+    for f in d["fases"]:
+        n = len({r["clube"] for t in d["tabelas"] if t.fase == f for r in t.linhas})
+        partes.append(desc[f] + (f" ({n} clubes)" if n and f in FASES_LIGA else ""))
+    txt = " + ".join(partes)
+    if e.pontos:
+        txt += f"; {e.pontos[0]} pontos por vitória, {e.pontos[1]} por empate e {e.pontos[2]} por derrota"
+    return f"jogos incompletos: {txt}" if e.incompleta else txt
+
+
+def gravar(eds: list[dict]) -> None:
+    PACOTE.mkdir(parents=True, exist_ok=True)
+    nomes_fonte: dict[str, dict[str, list[int]]] = defaultdict(lambda: defaultdict(list))
+    ed_l, fa_l, pa_l, go_l, cl_l, tp_l, co_l = [], [], [], [], [], [], []
+    for d in eds:
+        e = d["e"]
+        jogos = d["jogos"]
+        if d["campeao"]:
+            nomes_fonte[d["campeao"]][f"rsssf:{d['rsssf_campeao']}"].append(e.ano_inicio)
+        for j in jogos:
+            nomes_fonte[j.mandante][f"rsssf:{j.nome_m}"].append(e.ano_inicio)
+            nomes_fonte[j.visitante][f"rsssf:{j.nome_v}"].append(e.ano_inicio)
+        for t in d["tabelas"]:
+            for r in t.linhas:
+                nomes_fonte[r["clube"]][f"rsssf:{r['nome']}"].append(e.ano_inicio)
+        for (a, b), xs in ogol_jogos(e).items():
+            for x in xs:
+                nomes_fonte[a][f"ogol:{x['mandante']}"].append(e.ano_inicio)
+                nomes_fonte[b][f"ogol:{x['visitante']}"].append(e.ano_inicio)
+        n_gols = n_autor = 0
+        for n, j in enumerate(jogos, 1):
+            pid = f"{tid(e.temporada)}-{n:04d}"
+            gm, gv, esp, obs = placar_oficial(j)
+            if j.nota and not re.fullmatch(r"\s*(at |aet|\d)", j.nota) and not esp:
+                obs.append(j.nota)
+            if j.correcao:
+                obs.append(f"corrigido: {j.correcao}")
+            sep = autores.gols(j.gols_texto, j.gm, j.gv, j.pagina) if j.gols_texto and not esp else None
+            if gm is not None:
+                n_gols += gm + gv
+            if sep:
+                for lado, clube_gol in ((sep[0], j.mandante), (sep[1], j.visitante)):
+                    for jog, mi, ac, tipo in lado:
+                        go_l.append([pid, clube_gol, jog, mi if mi is not None else "", ac or "", tipo, "RSSSF"])
+                n_autor += gm + gv
+            fid = f"rsssf:{j.pagina}:{j.linha}" if j.origem != "lista" else "rsssf:newcalchamp" + (f"|ogol:{j.ogol_id}" if getattr(j, "ogol_id", None) else "")
+            pa_l.append([pid, e.temporada, j.fase, j.grupo, j.rodada or "", j.data or "", "", j.mandante, j.visitante,
+                         "" if gm is None else gm, "" if gv is None else gv, "" if j.pen_m is None else j.pen_m,
+                         "" if j.pen_v is None else j.pen_v, esp, j.local or "", "", "", "RSSSF", fid,
+                         j.gols_texto if j.gols_texto and not sep else "", "; ".join(obs)])
+        d["n_gols"], d["n_autor"] = n_gols, n_autor
+        for k, f in enumerate(d["fases"], 1):
+            js = [j for j in jogos if j.fase == f]
+            pares = Counter(frozenset((j.mandante, j.visitante)) for j in js)
+            tipo = "liga" if f in FASES_LIGA else "mata_mata"
+            serie = "pontos_corridos" if tipo == "liga" else ("ida_volta" if pares and max(pares.values()) > 1 else "jogo_unico")
+            fa_l.append([e.temporada, k, f, tipo, "", serie, CRITERIO.get(f, "")])
+        cls = classificacao(d)
+        d["cls"] = cls
+        for r in cls:
+            cl_l.append([e.temporada, r["pos"], r["clube"], "" if r["j"] is None else r["j"], "" if r["v"] is None else r["v"],
+                         "" if r["e"] is None else r["e"], "" if r["d"] is None else r["d"], "" if r["gp"] is None else r["gp"],
+                         "" if r["gc"] is None else r["gc"], "" if r["pts"] is None else r["pts"], r["ajuste"] or "",
+                         situacao(r, d), r["fonte"], r["obs"]])
+        for t in d["tabelas"]:
+            for k, r in enumerate(t.linhas, 1):
+                tp_l.append([e.temporada, t.fase, t.grupo, r["pos"] or k, r["nome"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"],
+                             r["gc"], r["pts"], f"RSSSF ({t.pagina}, linha {t.linha})"])
+        clubes_ed = {j.mandante for j in jogos} | {j.visitante for j in jogos} | {r["clube"] for r in cls}
+        obs = [x for x in (e.obs, e.incompleta) if x]
+        ed_l.append([e.temporada, e.ano_inicio, e.ano_fim, e.nome_oficial, len(clubes_ed), e.pontos[0] if e.pontos else "",
+                     *((e.pontos[1], e.pontos[2]) if e.pontos and e.pontos[1:] != (1, 0) else ("", "")), formato(d),
+                     d["campeao"] or "", d["vice"] or "", "RSSSF" + (" + ogol" if any(getattr(j, "ogol_id", None) for j in jogos) else ""),
+                     "; ".join(obs)])
+        ndif = len({id(t) for t, *_ in d["difs"]})
+        wc = d["wiki_campeao"]
+        ob = [f"campeão {d['campeao']} (RSSSF: {d['rsssf_campeao']}; Wikipédia: {wc or 'sem a informação'})"]
+        if wc and wc != d["campeao"]:
+            ob.append(f"a Wikipédia dá {wc} (copia uma versão antiga da lista da RSSSF; vale a RSSSF, decisão do "
+                      "Guilherme em 24/11/2026)")
+        if ndif:
+            ob.append(EXPLICACOES.get(e.temporada, "divergência sem explicação"))
+        if e.incompleta:
+            ob.append(e.incompleta)
+        co_l.append([e.temporada, len(jogos), esperados(d), len(d["usadas"]), ndif, n_gols, n_autor, "; ".join(ob)])
+    _csv("edicoes.csv", ["temporada", "ano_inicio", "ano_fim", "nome_oficial", "num_clubes", "pontos_vitoria", "pontos_empate",
+                         "pontos_derrota", "formato", "campeao", "vice",
+                         "fontes", "observacao"], ed_l)
+    _csv("fases.csv", ["temporada", "ordem", "fase", "tipo", "num_grupos", "formato_serie", "criterio"], fa_l)
+    _csv("partidas.csv", ["id", "temporada", "fase", "grupo", "rodada", "data", "hora", "mandante", "visitante", "gols_mandante",
+                          "gols_visitante", "penaltis_mandante", "penaltis_visitante", "resultado_especial", "estadio", "cidade", "publico",
+                          "fonte", "fonte_id", "gols_texto", "observacao"], pa_l)
+    _csv("gols.csv", ["partida_id", "clube", "jogador", "minuto", "acrescimo", "tipo", "fonte"], go_l)
+    _csv("cartoes.csv", ["partida_id", "clube", "jogador", "minuto", "acrescimo", "cor", "fonte"], [])
+    _csv("classificacao_final.csv", ["temporada", "posicao", "clube", "jogos", "vitorias", "empates", "derrotas", "gols_pro", "gols_contra",
+                                     "pontos", "ajuste_pontos", "situacao", "fonte", "observacao"], cl_l)
+    _csv("tabelas_publicadas.csv", ["temporada", "fase", "grupo", "posicao", "nome_fonte", "clube", "jogos", "vitorias", "empates",
+                                    "derrotas", "gols_pro", "gols_contra", "pontos", "fonte"], tp_l)
+    _csv("artilheiros.csv", ["temporada", "jogador", "clube", "gols", "fonte"], [])
+    _csv("conferencia.csv", ["temporada", "jogos", "jogos_esperados", "tabelas_conferidas", "tabelas_divergentes", "gols", "gols_com_autor",
+                             "observacao"], co_l)
+    usados = set(nomes_fonte) | {r[2] for r in cl_l}
+    clubes_l = []
+    for c in sorted(usados):
+        cidade, provincia = CLUBES[c]
+        nf = []
+        for k, anos in sorted(nomes_fonte[c].items()):
+            a = sorted(set(anos))
+            nf.append(f"{k}:{a[0]}" + (f"-{a[-1]}" if a[-1] != a[0] else ""))
+        clubes_l.append([c, provincia, cidade, "NCL", "|".join(nf)])
+    _csv("clubes.csv", ["clube", "regiao", "cidade", "pais", "nomes_fonte"], clubes_l)
+    comp = {"slug": SLUG, "nome": "Campeonato Neocaledônio", "nome_curto": "Neocaledônio", "tipo": "liga", "nivel": 1, "pais": "NCL",
+            "pais_nome": "Nova Caledônia", "regiao": None, "confederacao": "OFC", "rotulo_painel": "Neocaledônio",
+            "menu_painel": "Nova Caledônia · 1ª divisão", "do_painel": "do Campeonato Neocaledônio",
+            "o_painel": "o Campeonato Neocaledônio",
+            "observacao": "1ª divisão da Nova Caledônia de 1950 a 2026, uma edição por título, como na lista de campeões da "
+                          "RSSSF: campeonato territorial entre os campeões regionais (até 2001), liga da Grande Terre e playoff "
+                          "nacional com o campeão das ilhas (2002-2011) e Super Ligue (2012 em diante). Sem campeão em 1955 e 2024 "
+                          "(fora). Até 1996 quase só o campeão; jogos desde 1999 (e a final em parte dos anos antes). Pontuação de "
+                          "4 pontos por vitória, 2 por empate e 1 por derrota; a classificação traz os pontos oficiais."}
+    (PACOTE / "competicao.json").write_text(json.dumps(comp, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def relatorio(eds: list[dict]) -> None:
+    import explicacoes as ex
+    tot_j = sum(len(d["jogos"]) for d in eds)
+    out = [f"# Coleta: Campeonato Neocaledônio (`{SLUG}`)", "", "Gerado por `python coleta/ncl-1/importar.py`. Pacote em `data/coleta/ncl-1/pacote/`.",
+           "", "## Resumo", "",
+           f"- {len(eds)} edições (1950 a 2026; sem 1955 e 2024), {sum(1 for d in eds if d['jogos'])} com jogos; {tot_j} jogos, "
+           f"{sum(d['n_gols'] for d in eds)} gols, {sum(d['n_autor'] for d in eds)} com autor.",
+           "- Escopo aprovado pelo Guilherme em 24/11/2026, depois de pesquisa a fundo (docstring de `coleta/ncl-1/edicoes.py` e de "
+           "`coleta/ncl-1/clubes_ncl.py`):",
+           "  - 2024 fica de fora: a Super Ligue parou nos distúrbios de maio de 2024 e a federação encerrou as competições em 12/08 "
+           "sem declarar campeão (o AS Tiga Sport, líder, só foi indicado à Liga dos Campeões da OFC);",
+           "  - 1963 e 1964: Club Sportif Militaire, como a RSSSF atual (corrigida no fim de 2025 por recorte de jornal da época); "
+           "a versão antiga da RSSSF, copiada pela Wikipédia e pelo ogol, dava USC (1963) e JS Vallée du Tir (1964, que ganhou a "
+           "copa naquele ano);",
+           "  - AS Le Nickel = AS Magenta (mesmo clube com outro nome); Gaïtcha FCN = Gaïtcha FC; ASC Gaïca (Lifou) separado; "
+           "\"Île des Pins\" (1961) = AS Kunié;",
+           "  - até 2001 só a fase nacional; 2002-2011 a liga da Grande Terre como 1ª fase e o playoff nacional; 2012 em diante a "
+           "Super Ligue.",
+           "- Pontuação: 4 por vitória, 2 por empate e 1 por derrota; a classificação traz os pontos oficiais (`ajuste_pontos` = "
+           "bônus e punições).", "",
+           "## Fontes", "",
+           "- **RSSSF** (`data/coleta/ncl-1/rsssf/`, `baixar_rsssf.py`): lista de campeões e páginas por temporada (1984, 1985, "
+           "1997-2026).",
+           "- **Wikipédia em inglês** (`data/coleta/ncl-1/wikipedia/`, `baixar_wikipedia.py`): segunda fonte do campeão.",
+           "- **ogol** (`data/coleta/ncl-1/ogol/`, cache em `data/cache/ogol-ncl-1/`, `baixar_ogol.py`): datas e grafia dos "
+           "clubes nas temporadas em que tem os jogos.", "",
+           "## Correções e decisões", ""]
+    for k, (a, b, m) in ex.CONSERTA_TEXTO.items():
+        out.append(f"- `{k[0]}`, linha {k[1]}: \"{a}\" -> \"{b}\": {m}.")
+    for k, v in ex.CORRIGE.items():
+        if v is not None:
+            out.append(f"- `{' / '.join(str(x) for x in k)}`: {v[1]}.")
+    for k, v in ex.TABELAS_FORA.items():
+        out.append(f"- tabela `{k[0]}`, linha {k[1]}, fora da conferência: {v}.")
+    out += ["", "## Divergências que ficam (erro ou falta na própria página)", ""]
+    for t, v in ex.EXPLICACOES.items():
+        out.append(f"- **{t}:** {v}.")
+    out += ["", "## Edição a edição", "",
+            "| Temporada | Formato | Jogos | Esperados | Gols | Com autor | Campeão | Vice | Observação |", "|---|---|---|---|---|---|---|---|---|"]
+    for d in eds:
+        e = d["e"]
+        obs = [x for x in (e.obs, e.incompleta) if x]
+        if d["wiki_campeao"] and d["wiki_campeao"] != d["campeao"]:
+            obs.append(f"Wikipédia: {d['wiki_campeao']}")
+        out.append(f"| {e.temporada} | {formato(d)} | {len(d['jogos'])} | {esperados(d) if d['jogos'] else 0} | {d['n_gols']} | "
+                   f"{d['n_autor']} | {d['campeao']} | {d['vice'] or ''} | {'; '.join(obs)} |")
+    out += ["", "## O que não deu para coletar", "",
+            "- Jogos de 1950-1983 e 1986-1996 (só o campeão; a final em 1964, 1971, 1977 e 1978; vice e 3º em parte dos anos).",
+            "- 1997 e 1998 com parte do mata-mata; jogos sem placar (\"bt\", \"drw\", \"lt\") em 2004/05, 2013 e 2015.",
+            "- Ligas das províncias (até 2001) e torneio das ilhas: fora do escopo.",
+            "- Hora, estádio, público, cartões e artilheiros.", ""]
+    RELATORIO.write_text("\n".join(out), encoding="utf-8")
+
+
+def main() -> None:
+    sys.stdout.reconfigure(encoding="utf-8")
+    cps, wcp = campeoes(), wiki_campeoes()
+    eds = [montar(e, cps, wcp) for e in EDICOES]
+    gravar(eds)
+    relatorio(eds)
+    for d in eds:
+        aviso = f" ATENÇÃO Wikipédia: {d['wiki_campeao']}" if d["wiki_campeao"] and d["wiki_campeao"] != d["campeao"] else ""
+        print(f"{d['e'].temporada}: {len(d['jogos'])} jogos ({esperados(d)} esperados), {d['n_autor']}/{d['n_gols']} com autor, "
+              f"campeão {d['campeao']}, vice {d['vice']}, 1º {d['cls'][0]['clube'] if d['cls'] else '-'}{aviso}")
+
+
+if __name__ == "__main__":
+    main()
