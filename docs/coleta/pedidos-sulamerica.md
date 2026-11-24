@@ -958,7 +958,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Fonte:** RSSSF, seção "Copa AUF Uruguay" das páginas do ano, as mesmas do uru-1. O campeão foi conferido com a
      Wikipédia em espanhol, e os 4 batem (Defensor Sporting 2022-2024, Peñarol 2025).
    - **Sem** cartões, estádio e público: a RSSSF não traz.
-2. **Commits:** (abaixo).
+2. **Commits:** `1fe6d99`.
 3. **Teste de carga:** `uru-copa: 4 edições, 221 jogos, 61 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar a `uru-copa`;

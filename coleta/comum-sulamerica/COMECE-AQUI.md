@@ -82,7 +82,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.175 | 63 | 0b793ba; correções 4577457, cf612c6 | sim (versão antes das correções) |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
 | `ven-1` Venezuelano | 106 (1921–2025) | 13.580 | 108 | 35dc0a2; leitor comum 415911b; cf612c6 | sim (versão de 22/11) |
-| `uru-copa` Copa AUF Uruguay | 4 (2022–2025) | 221 | 100 | (commit no recado) | não |
+| `uru-copa` Copa AUF Uruguay | 4 (2022–2025) | 221 | 100 | 1fe6d99 | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
