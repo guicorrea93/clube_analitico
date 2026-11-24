@@ -79,6 +79,8 @@ Simón Bolívar (BOL, 2ª divisão desde 1989).
 - **Slugs:** `uru-copa`, `par-copa`, `ecu-copa`, `col-copa`, `arg-copa`, `chi-copa`, `ven-copa` (o guia geral não fixa slug
   de copa; o Brasil usa `bra-copa-do-brasil`; dito no recado ao agente 1).
 
+- **Copa Argentina (24/11):** só a fase final (dos 32-avos em diante); as preliminares regionais ficam fora.
+
 ## Decisões que estavam pendentes (texto original)
 
 1. Quais copas: recomendação = as sete que existem (ARG, URU, CHI, COL, PAR, ECU, VEN); Peru e Bolívia fora por enquanto.

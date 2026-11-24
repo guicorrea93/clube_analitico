@@ -130,9 +130,23 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    `docs/coleta/<slug>.md` sai do próprio importador. Ver também: o leitor comum perde a continuação do colchete dos
    autores ("[A 9, B 68;" + "   C 87]"); o importador das copas junta (`_autores_inteiros`); conferir se as ligas perdem
    autores por isso (pendência).
-   - **Próxima: Copa Argentina (`arg-copa`)**: 1969, 1970 (não terminou) e 2011/12 em diante, sem 2020/21 (pesquisa em
-     `copas-nacionais.md`). A Copa Colombia mostrou o caminho para fonte mista: `EdicaoCopa.extras` (jogos da Wikipédia, ver
-     `coleta/col-copa/wiki_copa.py`) e `EdicaoCopa.fases` (títulos que mudam de sentido conforme o ano).
+   - **Próxima: Copa Argentina (`arg-copa`). PARADO AQUI (24/11), diagnóstico feito, nada escrito.** Decisão do
+     Guilherme (24/11): **só a fase final** (dos 32-avos em diante; as preliminares regionais ficam fora, registradas).
+     - Páginas: as do arg-1 (`arg2012` ... `arg2025`, sem 2021) e `argcup69`/`argcup70` (já baixadas em
+       `data/coleta/arg-copa/rsssf/`; 1969 e 1970 inteiras: regiões e rodadas, poucos jogos).
+     - Trecho da fase final (linha inicial, final) no texto do `ler_rsssf.linhas` do arg-1: arg2012 (1017, 1130), arg2013
+       (1034, 1437; com "Preliminary round" e "1/24"), arg2014 (1224, 1387; "I Round" e "II Round" antes dos 16-avos; há
+       fragmentos lidos como clube: "over", "saved", "(CAH)"), arg2015 (1000, 1240), arg2016 (763, 983; começar no
+       "Round 3:", que é o dos 32-avos), arg2017 (980, 1146), arg2018 (804, 929), arg2019 (787, 1011), arg2020 (1206, 1425),
+       arg2022 (1112, 1228), arg2023 (1200, 1317), arg2024 (1162, 1285), arg2025 (1111, 1232).
+     - Contagem por fase conferida: 32 + 16 + 8 + 4 + 2 + 1 = 63 jogos na maioria dos anos.
+     - Maior trabalho: ~180 grafias (~100 clubes da Primera B Metro, Federal A e B Nacional) que o `clubes_arg.py` não
+       tem; nomes completos com a cidade na linha de baixo ("(Río Cuarto, X)"). Fazer um `coleta/arg-copa/clubes_copa.py`
+       como o das outras copas (nome inteiro, cidade, nome único no mundo).
+     - Campeões (Wikipédia): 1969 Boca; 2011/12 Boca, 2012/13 Arsenal, 2013/14 Huracán, 2014/15 Boca, 2015/16 River,
+       2016/17 River, 2017/18 Rosario Central, 2018/19 River, 2019/20 Boca (final em 2021); 2022 Patronato, 2023 Estudiantes,
+       2024 Central Córdoba (SdE), 2025 Independiente Rivadavia; 1970 não terminou (sem campeão).
+     - Depois: Chile e Venezuela.
 4. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7). Pedido do agente 1 para o
    `bol-1` (22/11, "quando o Guilherme mandar revisar"): a classificação final de 1960, 1976, 1990, 1993 e 1994 com todos
    os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as
