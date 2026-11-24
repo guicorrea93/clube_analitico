@@ -47,7 +47,7 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 51.
 - **Edições com alguma tabela divergente** (41; motivo no relatório, na edição): 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1957, 1958, 1959, 1960, 1962, 1963, 1964, 1965, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1988, 1990, 1995/96, 1999, 2003 Apertura, 2005 Finalización, 2006 Finalización, 2012 Finalización.
 - **Edições sem tabela para conferir** (9): 1966, 1987, 1989, 1991, 1992, 1993, 1994, 1995, 1998.
-- **Edições com menos jogos que o esperado:** 1952 (209 de 210), 1953 (131 de 132), 1963 (312 de 624), 1964 (311 de 312), 1969 (373 de 555), 1970 (376 de 558), 1971 (379 de 561), 1972 (376 de 558), 1974 (361 de 543), 1976 (361 de 543), 1977 (359 de 541), 1978 (365 de 547), 1979 (367 de 514), 1981 (329 de 511), 1982 (387 de 569), 1983 (336 de 518), 1984 (336 de 518), 1985 (336 de 518), 1990 (335 de 425), 1996/97 (380 de 636), 2005 Finalización (187 de 188).
+- **Edições com menos jogos que o esperado:** 1952 (209 de 210), 1953 (131 de 132), 1964 (311 de 312), 2005 Finalización (187 de 188).
 - **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 2006 Finalización (188 de 179), 2007 Finalización (189 de 188), 2009 Apertura (189 de 188), 2009 Finalización (189 de 188), 2010 Finalización (189 de 188).
 
 ## 4. Cobertura de cada campo, por década
@@ -517,6 +517,13 @@ Registradas em `coleta/col-1/explicacoes.py`; cada uma também aparece no relat�
 - **1999 · col99:678:** [fase = Final do Finalización] final do Clausura (Medellín x Nacional), não a do ano (CO-014)
 - **2008 Apertura · col08:328:** [descartado] jogo suspenso e completado depois: fica a linha do jogo completo (CO-021)
 - **2013 Finalización · col2013:795:** [descartado] jogo suspenso pela chuva e completado depois (CO-021)
+
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 4)
+
+- **1966:** 350 dos 364 jogos: nem a RSSSF nem a Wikipédia em espanhol (baixada de novo em 24/11/2026, igual) trazem os jogos que faltam, e a pesquisa por uma 3ª fonte não achou outra (CO-004)
+- **1986:** só 21 jogos do octogonal e 8 dos 14 clubes na classificação: nem a RSSSF nem a Wikipédia em espanhol (baixada de novo em 24/11/2026, igual) trazem os jogos que faltam, e a pesquisa por uma 3ª fonte não achou outra (CO-006)
+- **1988:** Finalización com 12 jogos por clube (de 28): nem a RSSSF nem a Wikipédia em espanhol (baixada de novo em 24/11/2026, igual) trazem os jogos que faltam, e a pesquisa por uma 3ª fonte não achou outra (CO-006)
+- **2001:** América de Cali 2-2 Once Caldas (1ª rodada dos quadrangulares, 18/11): a Wikipédia em espanhol dá 0-0; fica o 2-2 da RSSSF, confirmado por uma 3ª fonte (arquivo da FutbolRed: 2-2 no Pascual Guerrero, gols de David Ferreira e Julián Vásquez) (CO-015)
 
 ### Identidade dos clubes
 

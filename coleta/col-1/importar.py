@@ -491,7 +491,11 @@ def esperados(d: dict) -> int:
     for tb in p["tabelas"]:
         if tb.get("ok") is not None and not (tb.get("acumulada") or tb.get("parcial") or tb.get("desempate")) and                 {r["clube"] for r in tb["linhas"]} == set(d["clubes"]):
             fase = tb["t"].fase if tb["fonte"].startswith("col") else ""
-            return sum(r["j"] for r in tb["linhas"]) // 2 + sum(1 for j in p["jogos"] if j["fase"] != fase)
+            n_tab = sum(r["j"] for r in tb["linhas"]) // 2
+            n_fase = sum(1 for j in p["jogos"] if j["fase"] == fase)
+            if n_tab > n_fase + 10:   # CO-022: tabela do ano inteiro (acumula as fases): não soma as outras fases de novo
+                return max(n_tab, len(p["jogos"]))
+            return n_tab + sum(1 for j in p["jogos"] if j["fase"] != fase)
     return len(p["jogos"])
 
 
@@ -512,18 +516,20 @@ def diagnostico(d: dict) -> list[str]:
     """Uma linha por clube que não fecha com a tabela publicada, com o motivo quando as fontes deixam ver."""
     p = d["p"]
     saida = []
-    ok_por_clube = defaultdict(list)   # tabelas que fecham, por clube
+    ok_por_clube = defaultdict(list)   # tabelas que fecham, por clube: (fonte, jogos do clube nela)
     for tb in p["tabelas"]:
         if tb.get("ok"):
             for r in tb["linhas"]:
-                ok_por_clube[r["clube"]].append(tb["fonte"])
+                ok_por_clube[r["clube"]].append((tb["fonte"], r["j"]))
     og = d.get("ogol", {}).get("ligado", {})
     ligados = {id(p["jogos"][k]) for k in og}
     for fonte_l, clube_, pub, calc in d["difs"]:
         jogos_c = [j for j in p["jogos"] if clube_ in (j["m"], j["v"]) and j["j"]]
         txt = f"tabela publicada x jogos — {fonte_l}: {clube_} tabela {pub} jogos {calc}"
-        if ok_por_clube.get(clube_):
-            txt += f" — a outra tabela publicada ({ok_por_clube[clube_][0]}) fecha com os jogos: o erro é desta tabela"
+        # CO-022: só vale "o erro é desta tabela" quando a outra tabela que fecha cobre os mesmos jogos do clube (em 1988 a
+        # tabela col88:78 é a do Finalización, de outra fase)
+        if (outra := next((f for f, jj in ok_por_clube.get(clube_, []) if jj == pub[0]), None)):
+            txt += f" — a outra tabela publicada ({outra}) fecha com os jogos: o erro é desta tabela"
         elif jogos_c and all(id(j) in ligados and (og_g := next(g for k, g in og.items() if p["jogos"][k] is j)) and
                              (og_g["gols_mandante"], og_g["gols_visitante"]) == (j["j"].gm, j["j"].gv) for j in jogos_c):
             txt += " — o ogol traz os mesmos placares para todos os jogos do clube: o erro é da tabela publicada"

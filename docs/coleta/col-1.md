@@ -31,41 +31,41 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 1960 | 12 | 264 (264) | 815 | 0 | 0 / 1 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1961 | 12 | 264 (264) | 846 | 0 | 1 / 0 | Millonarios | RSSSF (col61) |
 | 1962 | 12 | 264 (264) | 893 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1963 | 13 | 312 (624) | 1062 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1963 | 13 | 312 (312) | 1062 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1964 | 13 | 311 (312) | 996 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1965 | 13 | 312 (312) | 992 | 0 | 0 / 1 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1966 | 14 | 350 (350) | 1147 | 0 | 0 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1967 | 14 | 364 (364) | 1105 | 0 | 1 / 0 | Deportivo Cali | RSSSF (col67) |
 | 1968 | 14 | 368 (368) | 1121 | 0 | 0 / 2 | Unión Magdalena | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1969 | 14 | 373 (555) | 1060 | 0 | 1 / 2 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1970 | 14 | 376 (558) | 995 | 0 | 1 / 2 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1971 | 14 | 379 (561) | 1025 | 0 | 1 / 2 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1972 | 14 | 376 (558) | 845 | 0 | 1 / 2 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1969 | 14 | 373 (373) | 1060 | 0 | 1 / 2 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1970 | 14 | 376 (376) | 995 | 0 | 1 / 2 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1971 | 14 | 379 (379) | 1025 | 0 | 1 / 2 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1972 | 14 | 376 (376) | 845 | 0 | 1 / 2 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1973 | 14 | 344 (344) | 840 | 0 | 0 / 3 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1974 | 14 | 361 (543) | 832 | 0 | 1 / 3 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1974 | 14 | 361 (361) | 832 | 0 | 1 / 3 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1975 | 14 | 358 (358) | 873 | 0 | 1 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1976 | 14 | 361 (543) | 933 | 0 | 4 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1977 | 14 | 359 (541) | 897 | 0 | 0 / 4 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1978 | 14 | 365 (547) | 974 | 0 | 4 / 3 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1979 | 14 | 367 (514) | 914 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1976 | 14 | 361 (361) | 933 | 0 | 4 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1977 | 14 | 359 (359) | 897 | 0 | 0 / 4 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1978 | 14 | 365 (365) | 974 | 0 | 4 / 3 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1979 | 14 | 367 (367) | 914 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1980 | 14 | 333 (333) | 833 | 0 | 0 / 7 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1981 | 14 | 329 (511) | 836 | 0 | 2 / 4 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1982 | 14 | 387 (569) | 1078 | 0 | 0 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1983 | 14 | 336 (518) | 833 | 0 | 0 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1984 | 14 | 336 (518) | 783 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1985 | 14 | 336 (518) | 873 | 0 | 0 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1981 | 14 | 329 (329) | 836 | 0 | 2 / 4 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1982 | 14 | 387 (387) | 1078 | 0 | 0 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1983 | 14 | 336 (336) | 833 | 0 | 0 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1984 | 14 | 336 (336) | 783 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1985 | 14 | 336 (336) | 873 | 0 | 0 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1986 | 8 | 21 (21) | 56 | 0 | 0 / 1 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1987 | 14 | 0 (0) | 0 | 0 | 0 / 0 | Millonarios | RSSSF (col87) |
 | 1988 | 15 | 146 (146) | 336 | 0 | 5 / 4 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1989 | 15 | 242 (242) | 544 | 0 | 0 / 0 | None | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1990 | 15 | 335 (425) | 752 | 0 | 1 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1990 | 15 | 335 (335) | 752 | 0 | 1 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991 | 15 | 0 (0) | 0 | 0 | 0 / 0 | Atlético Nacional | RSSSF (col91) |
 | 1992 | 16 | 0 (0) | 0 | 0 | 0 / 0 | América de Cali | RSSSF (col92) |
 | 1993 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Junior de Barranquilla | RSSSF (col93) |
 | 1994 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Atlético Nacional | RSSSF (col94) |
 | 1995 | 16 | 0 (0) | 0 | 0 | 0 / 0 | Junior de Barranquilla | RSSSF (col95) |
 | 1995/96 | 16 | 208 (208) | 541 | 0 | 5 / 4 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1996/97 | 16 | 380 (636) | 948 | 0 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1996/97 | 16 | 380 (380) | 948 | 0 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 16 | 426 (426) | 1159 | 80 | 0 / 0 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1999 | 16 | 380 (380) | 997 | 1 | 5 / 2 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2000 | 16 | 364 (364) | 972 | 972 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -370,7 +370,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1966
 
-- sem ocorrências
+- 350 dos 364 jogos: nem a RSSSF nem a Wikipédia em espanhol (baixada de novo em 24/11/2026, igual) trazem os jogos que faltam, e a pesquisa por uma 3ª fonte não achou outra (CO-004)
 
 ### 1967
 
@@ -387,13 +387,13 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1969
 
-- tabela publicada x jogos — col69:14: Deportivo Cali tabela [26, 14, 8, 4, 55, 32] jogos [26, 14, 8, 4, 55, 31] — a outra tabela publicada (col69) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col69:14: América de Cali tabela [26, 10, 13, 3, 36, 25] jogos [26, 10, 13, 3, 36, 26] — a outra tabela publicada (col69) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col69:14: Deportivo Cali tabela [26, 14, 8, 4, 55, 32] jogos [26, 14, 8, 4, 55, 31] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col69:14: América de Cali tabela [26, 10, 13, 3, 36, 25] jogos [26, 10, 13, 3, 36, 26] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col69:14: Cúcuta Deportivo tabela [26, 11, 4, 11, 46, 42] jogos [26, 11, 4, 11, 46, 43] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col69:14: Once Caldas tabela [26, 8, 9, 9, 37, 48] jogos [26, 7, 9, 10, 37, 50] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col69:14: Deportes Tolima tabela [26, 7, 6, 13, 38, 49] jogos [26, 7, 6, 13, 37, 49] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col69:14: Atlético Nacional tabela [26, 4, 9, 13, 30, 45] jogos [26, 5, 9, 12, 32, 45] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col69:34: América de Cali tabela [26, 12, 6, 8, 43, 26] jogos [26, 12, 6, 8, 43, 25] — a outra tabela publicada (col69) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col69:34: América de Cali tabela [26, 12, 6, 8, 43, 26] jogos [26, 12, 6, 8, 43, 25] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col69:34: Junior de Barranquilla tabela [26, 10, 9, 7, 47, 42] jogos [26, 10, 9, 7, 45, 42] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col69:34: Once Caldas tabela [26, 10, 7, 9, 36, 35] jogos [26, 10, 6, 10, 34, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col69:34: Cúcuta Deportivo tabela [26, 5, 4, 17, 27, 52] jogos [26, 5, 4, 17, 28, 51] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
@@ -403,18 +403,18 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col70:17: Unión Magdalena tabela [26, 7, 11, 8, 30, 36] jogos [26, 7, 11, 8, 31, 36] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col70:17: América de Cali tabela [26, 8, 8, 10, 30, 34] jogos [26, 8, 8, 10, 30, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col70:40: Unión Magdalena tabela [26, 12, 6, 8, 38, 32] jogos [26, 12, 6, 8, 37, 32] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col70:40: Independiente Santa Fe tabela [26, 9, 11, 6, 46, 31] jogos [26, 9, 12, 5, 46, 31] — a outra tabela publicada (col70) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col70:40: Independiente Santa Fe tabela [26, 9, 11, 6, 46, 31] jogos [26, 9, 12, 5, 46, 31] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col70:40: América de Cali tabela [26, 9, 11, 6, 36, 29] jogos [26, 9, 11, 6, 36, 28] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col70:40: Deportivo Pereira tabela [26, 8, 4, 14, 32, 48] jogos [26, 8, 4, 14, 32, 52] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1971
 
-- tabela publicada x jogos — col71:23: Independiente Santa Fe tabela [26, 12, 10, 4, 42, 27] jogos [27, 13, 10, 4, 44, 26] — a outra tabela publicada (col71) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col71:23: Independiente Santa Fe tabela [26, 12, 10, 4, 42, 27] jogos [27, 13, 10, 4, 44, 26] — sobram 1 jogo(s) do clube na página
 - tabela publicada x jogos — col71:23: América de Cali tabela [26, 9, 8, 9, 34, 33] jogos [25, 9, 8, 8, 34, 32] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — col71:23: Deportes Quindío tabela [26, 7, 11, 8, 31, 41] jogos [26, 6, 11, 9, 29, 43] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col71:23: Deportes Tolima tabela [26, 6, 10, 10, 33, 38] jogos [26, 6, 9, 11, 32, 38] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col71:23: Real Cartagena tabela [26, 4, 12, 10, 18, 32] jogos [26, 5, 11, 10, 18, 31] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col71:46: Independiente Santa Fe tabela [26, 16, 6, 4, 50, 21] jogos [26, 15, 6, 5, 48, 23] — a outra tabela publicada (col71) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col71:46: Independiente Santa Fe tabela [26, 16, 6, 4, 50, 21] jogos [26, 15, 6, 5, 48, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col71:46: Deportes Quindío tabela [26, 10, 8, 8, 39, 35] jogos [26, 11, 8, 7, 41, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1972
@@ -424,8 +424,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col72:15: Independiente Medellín tabela [26, 7, 11, 8, 25, 25] jogos [26, 6, 11, 9, 24, 26] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col72:15: Atlético Bucaramanga tabela [26, 7, 7, 12, 29, 31] jogos [26, 7, 7, 12, 27, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col72:15: América de Cali tabela [26, 4, 8, 14, 16, 40] jogos [26, 5, 8, 13, 17, 39] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col72:35: Deportivo Cali tabela [26, 16, 4, 6, 49, 27] jogos [30, 19, 4, 7, 56, 31] — a outra tabela publicada (col72) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col72:35: Millonarios tabela [26, 17, 2, 7, 39, 20] jogos [30, 19, 3, 8, 45, 24] — a outra tabela publicada (col72) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col72:35: Deportivo Cali tabela [26, 16, 4, 6, 49, 27] jogos [30, 19, 4, 7, 56, 31] — sobram 4 jogo(s) do clube na página
+- tabela publicada x jogos — col72:35: Millonarios tabela [26, 17, 2, 7, 39, 20] jogos [30, 19, 3, 8, 45, 24] — sobram 4 jogo(s) do clube na página
 - tabela publicada x jogos — col72:35: Atlético Nacional tabela [26, 14, 8, 4, 34, 20] jogos [30, 14, 9, 7, 35, 26] — sobram 4 jogo(s) do clube na página
 - tabela publicada x jogos — col72:35: América de Cali tabela [26, 9, 9, 8, 21, 22] jogos [26, 8, 9, 9, 20, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col72:35: Deportivo Pereira tabela [26, 5, 12, 9, 28, 39] jogos [26, 5, 12, 9, 32, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
@@ -446,13 +446,13 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1974
 
-- tabela publicada x jogos — col74:15: Millonarios tabela [26, 15, 3, 8, 38, 21] jogos [26, 15, 3, 8, 37, 20] — a outra tabela publicada (col74) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col74:15: Millonarios tabela [26, 15, 3, 8, 38, 21] jogos [26, 15, 3, 8, 37, 20] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col74:15: Independiente Medellín tabela [26, 11, 8, 7, 32, 22] jogos [26, 12, 7, 7, 32, 21] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col74:15: América de Cali tabela [26, 9, 11, 6, 27, 24] jogos [26, 9, 11, 6, 27, 23] — a outra tabela publicada (col74) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col74:15: América de Cali tabela [26, 9, 11, 6, 27, 24] jogos [26, 9, 11, 6, 27, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col74:15: Cúcuta Deportivo tabela [26, 6, 10, 10, 18, 26] jogos [26, 6, 10, 10, 19, 26] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col74:15: Once Caldas tabela [26, 8, 5, 13, 31, 41] jogos [26, 7, 6, 13, 29, 41] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col74:51: Millonarios tabela [21, 9, 8, 4, 26, 14] jogos [21, 10, 6, 5, 26, 14] — a outra tabela publicada (col74) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col74:61: Deportivo Pereira tabela [21, 10, 5, 6, 21, 16] jogos [21, 10, 5, 6, 21, 17] — a outra tabela publicada (col74) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col74:51: Millonarios tabela [21, 9, 8, 4, 26, 14] jogos [21, 10, 6, 5, 26, 14] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col74:61: Deportivo Pereira tabela [21, 10, 5, 6, 21, 16] jogos [21, 10, 5, 6, 21, 17] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col74:61: Deportes Quindío tabela [21, 9, 3, 9, 30, 27] jogos [21, 9, 3, 9, 34, 27] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col74:61: Unión Magdalena tabela [21, 2, 5, 14, 16, 40] jogos [21, 2, 5, 14, 16, 43] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - corrigido — Atlético Nacional x Deportivo Cali (1974-07-11): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
@@ -488,36 +488,36 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col78:15: Deportes Tolima tabela [26, 7, 7, 12, 30, 38] jogos [26, 7, 8, 11, 30, 37] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col78:15: Independiente Medellín tabela [26, 8, 2, 16, 29, 42] jogos [26, 7, 3, 16, 28, 42] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col78:15: Deportivo Pereira tabela [26, 2, 7, 17, 13, 42] jogos [26, 2, 7, 17, 12, 42] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col78:36: América de Cali tabela [21, 10, 7, 4, 30, 23] jogos [21, 9, 7, 5, 30, 25] — a outra tabela publicada (col78) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col78:36: Atlético Nacional tabela [21, 10, 3, 8, 25, 18] jogos [21, 10, 3, 8, 25, 19] — a outra tabela publicada (col78) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col78:36: Deportivo Cali tabela [21, 5, 6, 10, 27, 33] jogos [21, 6, 6, 9, 29, 33] — a outra tabela publicada (col78) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col78:36: América de Cali tabela [21, 10, 7, 4, 30, 23] jogos [21, 9, 7, 5, 30, 25] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col78:36: Atlético Nacional tabela [21, 10, 3, 8, 25, 18] jogos [21, 10, 3, 8, 25, 19] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col78:36: Deportivo Cali tabela [21, 5, 6, 10, 27, 33] jogos [21, 6, 6, 9, 29, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col78:36: Atlético Bucaramanga tabela [21, 4, 8, 9, 29, 30] jogos [21, 4, 8, 9, 26, 30] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col78:49: Independiente Medellín tabela [21, 2, 9, 10, 18, 34] jogos [21, 2, 9, 10, 19, 34] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1979
 
-- tabela publicada x jogos — col79:15: América de Cali tabela [26, 13, 8, 5, 29, 19] jogos [10, 3, 6, 1, 9, 6] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:15: América de Cali tabela [26, 13, 8, 5, 29, 19] jogos [10, 3, 6, 1, 9, 6] — faltam 16 jogo(s) do clube na página
 - tabela publicada x jogos — col79:15: Deportivo Cali tabela [26, 13, 8, 5, 37, 27] jogos [10, 5, 2, 3, 13, 11] — faltam 16 jogo(s) do clube na página
 - tabela publicada x jogos — col79:15: Once Caldas tabela [26, 13, 7, 6, 42, 24] jogos [12, 5, 4, 3, 20, 10] — faltam 14 jogo(s) do clube na página
-- tabela publicada x jogos — col79:15: Junior de Barranquilla tabela [26, 13, 6, 7, 36, 27] jogos [10, 2, 4, 4, 8, 11] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col79:15: Unión Magdalena tabela [26, 9, 10, 7, 27, 25] jogos [12, 4, 3, 5, 8, 14] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:15: Junior de Barranquilla tabela [26, 13, 6, 7, 36, 27] jogos [10, 2, 4, 4, 8, 11] — faltam 16 jogo(s) do clube na página
+- tabela publicada x jogos — col79:15: Unión Magdalena tabela [26, 9, 10, 7, 27, 25] jogos [12, 4, 3, 5, 8, 14] — faltam 14 jogo(s) do clube na página
 - tabela publicada x jogos — col79:15: Independiente Medellín tabela [26, 9, 9, 8, 34, 30] jogos [10, 1, 5, 4, 6, 12] — faltam 16 jogo(s) do clube na página
 - tabela publicada x jogos — col79:22: Millonarios tabela [26, 11, 4, 11, 42, 37] jogos [14, 11, 1, 2, 34, 12] — faltam 12 jogo(s) do clube na página
-- tabela publicada x jogos — col79:22: Atlético Nacional tabela [26, 8, 8, 10, 32, 38] jogos [12, 4, 3, 5, 16, 17] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:22: Atlético Nacional tabela [26, 8, 8, 10, 32, 38] jogos [12, 4, 3, 5, 16, 17] — faltam 14 jogo(s) do clube na página
 - tabela publicada x jogos — col79:22: Deportes Quindío tabela [26, 7, 10, 9, 27, 24] jogos [12, 4, 5, 3, 12, 10] — faltam 14 jogo(s) do clube na página
 - tabela publicada x jogos — col79:22: Atlético Bucaramanga tabela [26, 8, 7, 11, 34, 38] jogos [12, 5, 2, 5, 18, 19] — faltam 14 jogo(s) do clube na página
-- tabela publicada x jogos — col79:22: Deportivo Pereira tabela [26, 8, 7, 11, 34, 41] jogos [12, 5, 2, 5, 17, 15] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:22: Deportivo Pereira tabela [26, 8, 7, 11, 34, 41] jogos [12, 5, 2, 5, 17, 15] — faltam 14 jogo(s) do clube na página
 - tabela publicada x jogos — col79:22: Cúcuta Deportivo tabela [26, 6, 10, 10, 27, 40] jogos [14, 4, 4, 6, 14, 23] — faltam 12 jogo(s) do clube na página
 - tabela publicada x jogos — col79:22: Deportes Tolima tabela [26, 2, 6, 18, 22, 58] jogos [12, 1, 3, 8, 8, 23] — faltam 14 jogo(s) do clube na página
-- tabela publicada x jogos — col79:39: América de Cali tabela [21, 13, 5, 3, 33, 14] jogos [21, 13, 5, 3, 34, 14] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:39: América de Cali tabela [21, 13, 5, 3, 33, 14] jogos [21, 13, 5, 3, 34, 14] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col79:39: Deportivo Cali tabela [21, 11, 5, 5, 30, 21] jogos [21, 11, 5, 5, 31, 21] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col79:39: Deportivo Pereira tabela [21, 11, 4, 6, 41, 28] jogos [21, 11, 5, 5, 42, 33] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col79:39: Unión Magdalena tabela [21, 10, 4, 7, 24, 20] jogos [21, 10, 5, 6, 24, 20] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col79:39: Atlético Nacional tabela [21, 5, 13, 3, 26, 22] jogos [21, 5, 13, 3, 26, 23] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:39: Deportivo Pereira tabela [21, 11, 4, 6, 41, 28] jogos [21, 11, 5, 5, 42, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col79:39: Unión Magdalena tabela [21, 10, 4, 7, 24, 20] jogos [21, 10, 5, 6, 24, 20] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col79:39: Atlético Nacional tabela [21, 5, 13, 3, 26, 22] jogos [21, 5, 13, 3, 26, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col79:39: Deportes Quindío tabela [21, 7, 8, 6, 26, 21] jogos [21, 8, 7, 6, 27, 22] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col79:39: Junior de Barranquilla tabela [21, 7, 8, 6, 25, 24] jogos [21, 6, 8, 7, 25, 27] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:39: Junior de Barranquilla tabela [21, 7, 8, 6, 25, 24] jogos [21, 6, 8, 7, 25, 27] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col79:39: Millonarios tabela [21, 7, 7, 7, 36, 29] jogos [21, 8, 7, 6, 38, 26] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col79:39: Independiente Santa Fe tabela [21, 7, 7, 7, 35, 33] jogos [21, 7, 8, 6, 32, 28] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col79:39: Independiente Santa Fe tabela [21, 7, 7, 7, 35, 33] jogos [21, 7, 8, 6, 32, 28] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col79:39: Atlético Bucaramanga tabela [21, 7, 5, 9, 26, 36] jogos [21, 7, 5, 9, 27, 36] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col79:39: Once Caldas tabela [21, 7, 4, 10, 34, 28] jogos [21, 7, 4, 10, 34, 30] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col79:39: Deportes Tolima tabela [21, 3, 7, 11, 16, 37] jogos [21, 3, 6, 12, 17, 38] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
@@ -554,22 +554,22 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1981
 
-- tabela publicada x jogos — col81:15: Atlético Nacional tabela [26, 13, 7, 6, 41, 32] jogos [26, 14, 7, 5, 45, 33] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:15: Unión Magdalena tabela [26, 9, 9, 8, 23, 28] jogos [26, 8, 9, 9, 23, 28] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:15: Independiente Medellín tabela [26, 7, 8, 11, 26, 36] jogos [26, 6, 8, 12, 25, 37] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:15: Once Caldas tabela [26, 7, 6, 13, 32, 41] jogos [26, 7, 6, 13, 31, 41] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:63: América de Cali tabela [6, 4, 1, 1, 12, 1] jogos [6, 4, 1, 1, 8, 3] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:63: Junior de Barranquilla tabela [6, 4, 1, 1, 11, 9] jogos [6, 0, 3, 3, 2, 7] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:63: Millonarios tabela [6, 1, 1, 4, 5, 12] jogos [6, 4, 1, 1, 11, 6] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:63: Unión Magdalena tabela [6, 1, 1, 4, 3, 9] jogos [6, 1, 1, 4, 4, 9] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:70: Deportes Tolima tabela [6, 2, 4, 0, 6, 4] jogos [6, 1, 1, 4, 3, 7] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:70: Atlético Nacional tabela [6, 2, 3, 1, 8, 4] jogos [6, 3, 1, 2, 7, 6] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:70: Deportivo Cali tabela [6, 2, 2, 2, 10, 9] jogos [6, 4, 0, 2, 10, 4] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col81:15: Atlético Nacional tabela [26, 13, 7, 6, 41, 32] jogos [26, 14, 7, 5, 45, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:15: Unión Magdalena tabela [26, 9, 9, 8, 23, 28] jogos [26, 8, 9, 9, 23, 28] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:15: Independiente Medellín tabela [26, 7, 8, 11, 26, 36] jogos [26, 6, 8, 12, 25, 37] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:15: Once Caldas tabela [26, 7, 6, 13, 32, 41] jogos [26, 7, 6, 13, 31, 41] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:63: América de Cali tabela [6, 4, 1, 1, 12, 1] jogos [6, 4, 1, 1, 8, 3] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:63: Junior de Barranquilla tabela [6, 4, 1, 1, 11, 9] jogos [6, 0, 3, 3, 2, 7] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:63: Millonarios tabela [6, 1, 1, 4, 5, 12] jogos [6, 4, 1, 1, 11, 6] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:63: Unión Magdalena tabela [6, 1, 1, 4, 3, 9] jogos [6, 1, 1, 4, 4, 9] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:70: Deportes Tolima tabela [6, 2, 4, 0, 6, 4] jogos [6, 1, 1, 4, 3, 7] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:70: Atlético Nacional tabela [6, 2, 3, 1, 8, 4] jogos [6, 3, 1, 2, 7, 6] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:70: Deportivo Cali tabela [6, 2, 2, 2, 10, 9] jogos [6, 4, 0, 2, 10, 4] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col81:70: Deportes Quindío tabela [6, 0, 3, 3, 3, 10] jogos [6, 2, 2, 2, 3, 6] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col81:80: Atlético Nacional tabela [6, 3, 2, 1, 7, 6] jogos [6, 4, 1, 1, 9, 5] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:80: Deportes Tolima tabela [6, 2, 2, 2, 10, 9] jogos [6, 2, 1, 3, 4, 5] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:80: América de Cali tabela [6, 1, 3, 2, 6, 8] jogos [6, 3, 2, 1, 5, 2] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col81:80: Junior de Barranquilla tabela [6, 1, 3, 2, 10, 10] jogos [6, 0, 2, 4, 3, 9] — a outra tabela publicada (col81) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col81:80: Atlético Nacional tabela [6, 3, 2, 1, 7, 6] jogos [6, 4, 1, 1, 9, 5] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:80: Deportes Tolima tabela [6, 2, 2, 2, 10, 9] jogos [6, 2, 1, 3, 4, 5] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:80: América de Cali tabela [6, 1, 3, 2, 6, 8] jogos [6, 3, 2, 1, 5, 2] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col81:80: Junior de Barranquilla tabela [6, 1, 3, 2, 10, 10] jogos [6, 0, 2, 4, 3, 9] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1982
 
@@ -610,11 +610,11 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col84:16: Atlético Nacional tabela [14, 9, 2, 3, 19, 8] jogos [14, 10, 1, 3, 19, 7] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col84:16: Deportivo Pereira tabela [14, 4, 2, 8, 15, 19] jogos [14, 4, 1, 9, 14, 19] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col84:28: Millonarios tabela [14, 5, 6, 3, 23, 25] jogos [14, 5, 6, 3, 23, 15] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:36: América de Cali tabela [2, 2, 0, 0, 3, 0] jogos [2, 1, 0, 1, 4, 3] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:36: Junior de Barranquilla tabela [2, 0, 0, 2, 0, 3] jogos [2, 1, 0, 1, 4, 1] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:36: Atlético Nacional tabela [2, 1, 1, 0, 4, 3] jogos [2, 1, 0, 1, 1, 4] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:36: Deportes Tolima tabela [2, 0, 1, 1, 3, 4] jogos [2, 1, 0, 1, 3, 4] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col84:46: Independiente Medellín tabela [26, 10, 11, 5, 32, 18] jogos [26, 10, 11, 5, 34, 18] — a outra tabela publicada (col84) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col84:36: América de Cali tabela [2, 2, 0, 0, 3, 0] jogos [2, 1, 0, 1, 4, 3] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col84:36: Junior de Barranquilla tabela [2, 0, 0, 2, 0, 3] jogos [2, 1, 0, 1, 4, 1] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col84:36: Atlético Nacional tabela [2, 1, 1, 0, 4, 3] jogos [2, 1, 0, 1, 1, 4] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col84:36: Deportes Tolima tabela [2, 0, 1, 1, 3, 4] jogos [2, 1, 0, 1, 3, 4] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col84:46: Independiente Medellín tabela [26, 10, 11, 5, 32, 18] jogos [26, 10, 11, 5, 34, 18] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col84:46: Independiente Santa Fe tabela [26, 9, 8, 9, 36, 31] jogos [26, 9, 8, 9, 36, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1985
@@ -650,6 +650,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1986
 
+- só 21 jogos do octogonal e 8 dos 14 clubes na classificação: nem a RSSSF nem a Wikipédia em espanhol (baixada de novo em 24/11/2026, igual) trazem os jogos que faltam, e a pesquisa por uma 3ª fonte não achou outra (CO-006)
 - tabela publicada x jogos — col86:36: Junior de Barranquilla tabela [2, 0, 2, 0, 1, 1] jogos [0, 0, 0, 0, 0, 0] — faltam 2 jogo(s) do clube na página
 - tabela publicada x jogos — col86:36: Independiente Medellín tabela [2, 0, 2, 0, 1, 1] jogos [3, 0, 1, 2, 2, 6] — sobram 1 jogo(s) do clube na página
 - tabela publicada x jogos — col86:36: Millonarios tabela [2, 1, 0, 1, 3, 2] jogos [4, 1, 2, 1, 4, 2] — sobram 2 jogo(s) do clube na página
@@ -662,11 +663,12 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1988
 
+- Finalización com 12 jogos por clube (de 28): nem a RSSSF nem a Wikipédia em espanhol (baixada de novo em 24/11/2026, igual) trazem os jogos que faltam, e a pesquisa por uma 3ª fonte não achou outra (CO-006)
 - tabela publicada x jogos — col88:18: Deportes Tolima tabela [8, 1, 3, 4, 11, 22] jogos [8, 1, 3, 4, 11, 12] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col88:26: Deportes Quindío tabela [8, 1, 5, 2, 6, 9] jogos [8, 1, 5, 2, 7, 10] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col88:26: Deportes Quindío tabela [8, 1, 5, 2, 6, 9] jogos [8, 1, 5, 2, 7, 10] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col88:26: Once Caldas tabela [8, 1, 3, 4, 5, 7] jogos [8, 1, 3, 4, 6, 8] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col88:45: Atlético Nacional tabela [4, 2, 2, 0, 5, 2] jogos [4, 1, 3, 0, 3, 2] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col88:45: Deportivo Pereira tabela [4, 0, 2, 2, 1, 4] jogos [4, 0, 3, 1, 1, 2] — a outra tabela publicada (col88) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col88:45: Atlético Nacional tabela [4, 2, 2, 0, 5, 2] jogos [4, 1, 3, 0, 3, 2] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col88:45: Deportivo Pereira tabela [4, 0, 2, 2, 1, 4] jogos [4, 0, 3, 1, 1, 2] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col88:69: Once Caldas tabela [4, 0, 2, 2, 5, 9] jogos [4, 0, 1, 3, 5, 9] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1989
@@ -675,24 +677,24 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1990
 
-- tabela publicada x jogos — col90:17: Independiente Santa Fe tabela [12, 5, 6, 1, 19, 8] jogos [12, 4, 7, 1, 17, 7] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:17: Independiente Santa Fe tabela [12, 5, 6, 1, 19, 8] jogos [12, 4, 7, 1, 17, 7] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:17: Atlético Bucaramanga tabela [12, 5, 3, 4, 9, 9] jogos [12, 5, 3, 4, 9, 8] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:17: Deportivo Cali tabela [12, 3, 6, 3, 17, 13] jogos [12, 3, 6, 3, 14, 13] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:17: Deportes Tolima tabela [12, 2, 6, 4, 10, 14] jogos [12, 2, 7, 3, 9, 12] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col90:17: Once Caldas tabela [12, 4, 1, 7, 13, 24] jogos [12, 4, 1, 7, 13, 21] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:17: Once Caldas tabela [12, 4, 1, 7, 13, 24] jogos [12, 4, 1, 7, 13, 21] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:17: Deportivo Pereira tabela [12, 3, 3, 6, 8, 15] jogos [11, 2, 3, 6, 7, 15] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — col90:17: Cúcuta Deportivo tabela [12, 0, 6, 6, 6, 14] jogos [11, 0, 6, 5, 6, 13] — faltam 1 jogo(s) do clube na página
-- tabela publicada x jogos — col90:36: Independiente Medellín tabela [28, 14, 10, 4, 36, 22] jogos [28, 15, 9, 4, 38, 23] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:36: Independiente Medellín tabela [28, 14, 10, 4, 36, 22] jogos [28, 15, 9, 4, 38, 23] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:36: Deportivo Cali tabela [28, 11, 12, 5, 29, 29] jogos [28, 11, 12, 5, 30, 20] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col90:36: Atlético Nacional tabela [28, 11, 10, 7, 36, 26] jogos [28, 11, 9, 8, 36, 27] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col90:36: Independiente Santa Fe tabela [28, 10, 9, 9, 33, 38] jogos [28, 10, 9, 9, 34, 39] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:36: Atlético Nacional tabela [28, 11, 10, 7, 36, 26] jogos [28, 11, 9, 8, 36, 27] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col90:36: Independiente Santa Fe tabela [28, 10, 9, 9, 33, 38] jogos [28, 10, 9, 9, 34, 39] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:36: Deportes Tolima tabela [28, 8, 7, 13, 21, 34] jogos [28, 8, 7, 13, 22, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col90:55: Independiente Medellín tabela [40, 18, 14, 8, 50, 37] jogos [40, 19, 13, 8, 52, 38] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:55: Independiente Medellín tabela [40, 18, 14, 8, 50, 37] jogos [40, 19, 13, 8, 52, 38] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:55: Atlético Bucaramanga tabela [40, 20, 9, 11, 49, 36] jogos [40, 20, 9, 11, 49, 35] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col90:55: Atlético Nacional tabela [40, 16, 15, 9, 55, 41] jogos [40, 16, 14, 10, 55, 42] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:55: Atlético Nacional tabela [40, 16, 15, 9, 55, 41] jogos [40, 16, 14, 10, 55, 42] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:55: Deportivo Cali tabela [40, 14, 18, 8, 46, 42] jogos [40, 14, 18, 8, 44, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col90:55: Independiente Santa Fe tabela [40, 15, 15, 10, 52, 46] jogos [40, 14, 16, 10, 51, 46] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col90:55: Once Caldas tabela [40, 15, 13, 12, 44, 51] jogos [40, 15, 13, 12, 44, 48] — a outra tabela publicada (col90) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col90:55: Independiente Santa Fe tabela [40, 15, 15, 10, 52, 46] jogos [40, 14, 16, 10, 51, 46] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col90:55: Once Caldas tabela [40, 15, 13, 12, 44, 51] jogos [40, 15, 13, 12, 44, 48] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:55: Deportivo Pereira tabela [40, 13, 13, 14, 38, 45] jogos [39, 12, 13, 14, 37, 45] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — col90:55: Deportes Tolima tabela [40, 10, 13, 17, 31, 48] jogos [40, 10, 14, 16, 31, 47] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col90:55: Cúcuta Deportivo tabela [40, 6, 12, 22, 22, 59] jogos [39, 6, 12, 21, 22, 58] — faltam 1 jogo(s) do clube na página
@@ -725,21 +727,21 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 ### 1995/96
 
 - tabela publicada x jogos — col96:324: Deportivo Cali tabela [18, 11, 4, 3, 37, 20] jogos [14, 9, 3, 2, 32, 16] — faltam 4 jogo(s) do clube na página
-- tabela publicada x jogos — col96:324: Deportes Tolima tabela [18, 8, 5, 5, 22, 24] jogos [14, 6, 4, 4, 14, 18] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col96:324: Deportes Tolima tabela [18, 8, 5, 5, 22, 24] jogos [14, 6, 4, 4, 14, 18] — faltam 4 jogo(s) do clube na página
 - tabela publicada x jogos — col96:324: Unión Magdalena tabela [18, 8, 3, 7, 21, 20] jogos [14, 6, 2, 6, 17, 18] — faltam 4 jogo(s) do clube na página
 - tabela publicada x jogos — col96:324: Millonarios tabela [18, 7, 6, 5, 26, 18] jogos [14, 5, 5, 4, 18, 14] — faltam 4 jogo(s) do clube na página
-- tabela publicada x jogos — col96:324: Once Caldas tabela [18, 5, 8, 5, 23, 20] jogos [14, 5, 6, 3, 20, 13] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:324: Atlético Bucaramanga tabela [18, 6, 5, 7, 18, 20] jogos [14, 4, 3, 7, 14, 20] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:324: Deportes Quindío tabela [18, 6, 3, 9, 26, 32] jogos [14, 5, 2, 7, 21, 24] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:324: Independiente Medellín tabela [18, 2, 5, 11, 17, 32] jogos [14, 2, 3, 9, 14, 27] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:337: Atlético Nacional tabela [18, 9, 5, 4, 29, 23] jogos [14, 7, 4, 3, 23, 18] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:337: América de Cali tabela [18, 8, 6, 4, 39, 24] jogos [14, 6, 5, 3, 33, 19] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col96:324: Once Caldas tabela [18, 5, 8, 5, 23, 20] jogos [14, 5, 6, 3, 20, 13] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:324: Atlético Bucaramanga tabela [18, 6, 5, 7, 18, 20] jogos [14, 4, 3, 7, 14, 20] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:324: Deportes Quindío tabela [18, 6, 3, 9, 26, 32] jogos [14, 5, 2, 7, 21, 24] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:324: Independiente Medellín tabela [18, 2, 5, 11, 17, 32] jogos [14, 2, 3, 9, 14, 27] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:337: Atlético Nacional tabela [18, 9, 5, 4, 29, 23] jogos [14, 7, 4, 3, 23, 18] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:337: América de Cali tabela [18, 8, 6, 4, 39, 24] jogos [14, 6, 5, 3, 33, 19] — faltam 4 jogo(s) do clube na página
 - tabela publicada x jogos — col96:337: Junior de Barranquilla tabela [18, 7, 4, 7, 23, 26] jogos [14, 6, 3, 5, 21, 22] — faltam 4 jogo(s) do clube na página
-- tabela publicada x jogos — col96:337: Atlético Huila tabela [18, 6, 6, 6, 29, 35] jogos [14, 5, 6, 3, 26, 26] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:337: Independiente Santa Fe tabela [18, 6, 5, 7, 28, 27] jogos [14, 4, 4, 6, 19, 21] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:337: Envigado tabela [18, 5, 7, 6, 19, 19] jogos [14, 4, 5, 5, 16, 15] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:337: Deportivo Pereira tabela [18, 3, 9, 6, 19, 24] jogos [14, 2, 7, 5, 15, 21] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col96:337: Cortuluá tabela [18, 2, 9, 7, 17, 29] jogos [14, 2, 6, 6, 14, 25] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col96:337: Atlético Huila tabela [18, 6, 6, 6, 29, 35] jogos [14, 5, 6, 3, 26, 26] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:337: Independiente Santa Fe tabela [18, 6, 5, 7, 28, 27] jogos [14, 4, 4, 6, 19, 21] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:337: Envigado tabela [18, 5, 7, 6, 19, 19] jogos [14, 4, 5, 5, 16, 15] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:337: Deportivo Pereira tabela [18, 3, 9, 6, 19, 24] jogos [14, 2, 7, 5, 15, 21] — faltam 4 jogo(s) do clube na página
+- tabela publicada x jogos — col96:337: Cortuluá tabela [18, 2, 9, 7, 17, 29] jogos [14, 2, 6, 6, 14, 25] — faltam 4 jogo(s) do clube na página
 - tabela publicada x jogos — col96:931: Millonarios tabela [6, 4, 0, 2, 11, 6] jogos [0, 0, 0, 0, 0, 0] — faltam 6 jogo(s) do clube na página
 - tabela publicada x jogos — col96:931: Atlético Nacional tabela [6, 1, 2, 3, 6, 10] jogos [2, 1, 0, 1, 2, 4] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col96:931: América de Cali tabela [6, 1, 2, 3, 4, 9] jogos [2, 1, 0, 1, 4, 2] — a outra tabela publicada (col96) fecha com os jogos: o erro é desta tabela
@@ -758,9 +760,9 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1999
 
-- tabela publicada x jogos — col99:746: Atlético Nacional tabela [50, 23, 16, 11, 70, 53] jogos [0, 0, 0, 0, 0, 0] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col99:750: América de Cali tabela [44, 18, 15, 11, 70, 53] jogos [46, 18, 17, 11, 71, 54] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col99:750: Deportivo Pasto tabela [50, 14, 16, 20, 72, 76] jogos [50, 14, 16, 20, 72, 77] — a outra tabela publicada (col99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col99:746: Atlético Nacional tabela [50, 23, 16, 11, 70, 53] jogos [0, 0, 0, 0, 0, 0] — faltam 50 jogo(s) do clube na página
+- tabela publicada x jogos — col99:750: América de Cali tabela [44, 18, 15, 11, 70, 53] jogos [46, 18, 17, 11, 71, 54] — sobram 2 jogo(s) do clube na página
+- tabela publicada x jogos — col99:750: Deportivo Pasto tabela [50, 14, 16, 20, 72, 76] jogos [50, 14, 16, 20, 72, 77] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - corrigido — Independiente Medellín x Atlético Nacional (1999-12-08): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
 - corrigido — Atlético Nacional x Independiente Medellín (1999-12-12): final do Clausura (Medellín x Nacional), não a do ano (CO-014)
 - linha lida como jogo e descartada (clube não reconhecido): col99:736 «América: Oviedo x (failed), Pérez 2-0 (failed), Moreno 3-1»
@@ -773,7 +775,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2001
 
-- sem ocorrências
+- América de Cali 2-2 Once Caldas (1ª rodada dos quadrangulares, 18/11): a Wikipédia em espanhol dá 0-0; fica o 2-2 da RSSSF, confirmado por uma 3ª fonte (arquivo da FutbolRed: 2-2 no Pascual Guerrero, gols de David Ferreira e Julián Vásquez) (CO-015)
 
 ### 2002 Apertura
 
@@ -785,8 +787,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 2003 Apertura
 
-- tabela publicada x jogos — col03:17: Junior de Barranquilla tabela [18, 8, 4, 6, 19, 17] jogos [18, 8, 3, 7, 19, 18] — a outra tabela publicada (col03) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col03:17: Deportivo Pereira tabela [18, 7, 4, 7, 22, 26] jogos [18, 7, 5, 6, 22, 25] — a outra tabela publicada (col03) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col03:17: Junior de Barranquilla tabela [18, 8, 4, 6, 19, 17] jogos [18, 8, 3, 7, 19, 18] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col03:17: Deportivo Pereira tabela [18, 7, 4, 7, 22, 26] jogos [18, 7, 5, 6, 22, 25] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 2003 Finalización
 
@@ -807,7 +809,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 ### 2005 Finalización
 
 - ESPN: 186 jogos casados
-- tabela publicada x jogos — col05:583: Once Caldas tabela [18, 8, 5, 5, 25, 21] jogos [17, 8, 4, 5, 25, 21] — a outra tabela publicada (col05) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col05:583: Once Caldas tabela [18, 8, 5, 5, 25, 21] jogos [17, 8, 4, 5, 25, 21] — faltam 1 jogo(s) do clube na página
 - tabela publicada x jogos — col05:583: Atlético Bucaramanga tabela [18, 7, 6, 5, 24, 16] jogos [17, 7, 5, 5, 24, 16] — faltam 1 jogo(s) do clube na página
 
 ### 2006 Apertura
@@ -817,24 +819,24 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 ### 2006 Finalización
 
 - ESPN: 188 jogos casados
-- tabela publicada x jogos — col06:484: Boyacá Chicó tabela [17, 10, 2, 5, 22, 13] jogos [18, 10, 2, 6, 22, 15] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Deportes Tolima tabela [17, 9, 4, 4, 28, 18] jogos [18, 10, 4, 4, 31, 19] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Deportivo Pasto tabela [17, 9, 3, 5, 23, 13] jogos [18, 9, 3, 6, 23, 15] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Independiente Medellín tabela [17, 9, 2, 6, 26, 21] jogos [18, 10, 2, 6, 29, 22] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Atlético Huila tabela [17, 8, 4, 5, 23, 16] jogos [18, 9, 4, 5, 25, 17] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Cúcuta Deportivo tabela [17, 8, 4, 5, 21, 18] jogos [18, 9, 4, 5, 22, 18] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Atlético Nacional tabela [17, 8, 4, 5, 18, 15] jogos [18, 9, 4, 5, 20, 15] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Millonarios tabela [17, 8, 3, 6, 21, 16] jogos [18, 8, 3, 7, 23, 19] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Deportivo Cali tabela [17, 6, 7, 4, 22, 18] jogos [18, 6, 7, 5, 23, 21] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Independiente Santa Fe tabela [17, 6, 6, 5, 33, 28] jogos [18, 6, 6, 6, 34, 30] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Deportes Quindío tabela [17, 7, 3, 7, 23, 25] jogos [18, 8, 3, 7, 24, 25] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Real Cartagena tabela [17, 6, 4, 7, 15, 17] jogos [18, 7, 4, 7, 17, 17] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Deportivo Pereira tabela [17, 5, 4, 8, 20, 22] jogos [18, 6, 4, 8, 23, 24] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Once Caldas tabela [17, 5, 4, 8, 22, 28] jogos [18, 5, 4, 9, 23, 31] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Junior de Barranquilla tabela [17, 4, 5, 8, 17, 29] jogos [18, 5, 5, 8, 19, 29] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Atlético Bucaramanga tabela [17, 4, 4, 9, 22, 31] jogos [18, 4, 4, 10, 22, 32] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: América de Cali tabela [17, 3, 4, 10, 20, 31] jogos [18, 3, 4, 11, 20, 33] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col06:484: Envigado tabela [17, 3, 3, 11, 14, 31] jogos [18, 3, 3, 12, 14, 32] — a outra tabela publicada (col06) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col06:484: Boyacá Chicó tabela [17, 10, 2, 5, 22, 13] jogos [18, 10, 2, 6, 22, 15] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Deportes Tolima tabela [17, 9, 4, 4, 28, 18] jogos [18, 10, 4, 4, 31, 19] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Deportivo Pasto tabela [17, 9, 3, 5, 23, 13] jogos [18, 9, 3, 6, 23, 15] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Independiente Medellín tabela [17, 9, 2, 6, 26, 21] jogos [18, 10, 2, 6, 29, 22] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Atlético Huila tabela [17, 8, 4, 5, 23, 16] jogos [18, 9, 4, 5, 25, 17] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Cúcuta Deportivo tabela [17, 8, 4, 5, 21, 18] jogos [18, 9, 4, 5, 22, 18] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Atlético Nacional tabela [17, 8, 4, 5, 18, 15] jogos [18, 9, 4, 5, 20, 15] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Millonarios tabela [17, 8, 3, 6, 21, 16] jogos [18, 8, 3, 7, 23, 19] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Deportivo Cali tabela [17, 6, 7, 4, 22, 18] jogos [18, 6, 7, 5, 23, 21] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Independiente Santa Fe tabela [17, 6, 6, 5, 33, 28] jogos [18, 6, 6, 6, 34, 30] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Deportes Quindío tabela [17, 7, 3, 7, 23, 25] jogos [18, 8, 3, 7, 24, 25] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Real Cartagena tabela [17, 6, 4, 7, 15, 17] jogos [18, 7, 4, 7, 17, 17] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Deportivo Pereira tabela [17, 5, 4, 8, 20, 22] jogos [18, 6, 4, 8, 23, 24] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Once Caldas tabela [17, 5, 4, 8, 22, 28] jogos [18, 5, 4, 9, 23, 31] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Junior de Barranquilla tabela [17, 4, 5, 8, 17, 29] jogos [18, 5, 5, 8, 19, 29] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Atlético Bucaramanga tabela [17, 4, 4, 9, 22, 31] jogos [18, 4, 4, 10, 22, 32] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: América de Cali tabela [17, 3, 4, 10, 20, 31] jogos [18, 3, 4, 11, 20, 33] — sobram 1 jogo(s) do clube na página
+- tabela publicada x jogos — col06:484: Envigado tabela [17, 3, 3, 11, 14, 31] jogos [18, 3, 3, 12, 14, 32] — sobram 1 jogo(s) do clube na página
 
 ### 2007 Apertura
 
@@ -895,8 +897,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 - jogos da Wikipédia em espanhol: a página da RSSSF só traz os mata-matas
 - ESPN: 188 jogos casados
-- tabela publicada x jogos — col2012:86: Junior de Barranquilla tabela [18, 8, 8, 2, 27, 14] jogos [18, 8, 8, 2, 27, 15] — a outra tabela publicada (col2012) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col2012:86: Deportes Tolima tabela [18, 8, 5, 5, 27, 19] jogos [18, 8, 5, 5, 26, 20] — a outra tabela publicada (col2012) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — col2012:86: Junior de Barranquilla tabela [18, 8, 8, 2, 27, 14] jogos [18, 8, 8, 2, 27, 15] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col2012:86: Deportes Tolima tabela [18, 8, 5, 5, 27, 19] jogos [18, 8, 5, 5, 26, 20] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col2012:86: Real Cartagena tabela [18, 3, 3, 12, 13, 34] jogos [18, 3, 3, 12, 15, 33] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 2013 Apertura

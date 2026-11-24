@@ -1350,3 +1350,19 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
     nenhuma 3ª fonte independente; ficam as datas da RSSSF, com a divergência nas `EXPLICACOES` (no do Mandiyú, o ogol e o
     footballdatabase dão a mesma data da RSSSF, 18/03/1990).
 - **Efeito:** 1 jogo muda de data no `arg-1`. Pedido ao agente 1: já está na recarga das 9 ligas.
+
+## 24/11 — Abertos do Colombiano que esperavam 3ª fonte (CO-015, CO-004, CO-006, CO-022)
+
+- **CO-015:** América de Cali 2-2 Once Caldas (quadrangular de 2001, 1ª rodada): a Wikipédia dá 0-0. Uma 3ª fonte (arquivo
+  da FutbolRed) confirma o 2-2 da RSSSF no Pascual Guerrero, com os autores. Fica o 2-2. Os "6 jogos com a ESPN" da ficha
+  da revisão não têm lista, e o relatório atual não mostra placar diferente da ESPN. **Pedido à revisão:** se ainda
+  valerem, mandar a lista.
+- **CO-004 (1966) e CO-006 (1986, 1988):** sem fonte. Baixei de novo as páginas da Wikipédia (iguais às de 21/11) e não
+  achei outra fonte com esses jogos. Ficam registrados nas `EXPLICACOES` do `col-1`.
+- **CO-022:**
+  - `esperados()`: com a tabela do ano inteiro, os jogos das outras fases não são somados de novo. Antes, 1969 esperava
+    555 jogos com 373 lidos; agora 373 (o mesmo em 1963, 1970-1979 e outros).
+  - "o erro é desta tabela" só aparece quando a outra tabela que fecha cobre os mesmos jogos do clube (107 casos para 11;
+    em 1988 a outra tabela é a do Finalización).
+  - As `EXPLICACOES` do `col-1` deixaram de ser vazias.
+- **Efeito no pacote:** só a coluna `jogos_esperados` do `conferencia.csv` do `col-1`. Teste de carga OK.

@@ -41,4 +41,13 @@ CORRIGE: dict[tuple[str, str], dict] = {
     ("2013 Finalización", "col2013:795"): {"descartar": True, "motivo": "jogo suspenso pela chuva e completado depois (CO-021)"},
 }
 TABELAS_FORA: dict[tuple[str, str], str] = {}
-EXPLICACOES: dict[str, list[str]] = {}
+_SEM_FONTE = ("{o_que}: nem a RSSSF nem a Wikipédia em espanhol (baixada de novo em 24/11/2026, igual) trazem os jogos que "
+              "faltam, e a pesquisa por uma 3ª fonte não achou outra ({id})")
+EXPLICACOES: dict[str, list[str]] = {
+    "1966": [_SEM_FONTE.format(o_que="350 dos 364 jogos", id="CO-004")],
+    "1986": [_SEM_FONTE.format(o_que="só 21 jogos do octogonal e 8 dos 14 clubes na classificação", id="CO-006")],
+    "1988": [_SEM_FONTE.format(o_que="Finalización com 12 jogos por clube (de 28)", id="CO-006")],
+    "2001": ["América de Cali 2-2 Once Caldas (1ª rodada dos quadrangulares, 18/11): a Wikipédia em espanhol dá 0-0; fica o "
+             "2-2 da RSSSF, confirmado por uma 3ª fonte (arquivo da FutbolRed: 2-2 no Pascual Guerrero, gols de David Ferreira "
+             "e Julián Vásquez) (CO-015)"],
+}

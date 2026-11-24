@@ -121,9 +121,15 @@ abaixo são o histórico; o que está em aberto é esta lista.
     Deportivo Italia, com os mesmos placares e sem citar jogo. Decidido: fica como está (Galicia, pelos jogos), com a
     divergência registrada.
 - **D. Trabalho do agente 4 (quando o Guilherme mandar):**
-  - D1. Abertos que esperam 3ª fonte. QU-005 FEITO (24/11): só River 1-0 Boca de 1945 tinha 3ª fonte (vai para 29/07);
-    as outras 4 datas ficam e estão nas EXPLICACOES do arg-1. Faltam: CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
-    CO-004 (1966), CO-022 (números esperados e diagnóstico do relatório).
+  - D1. FEITO (24/11), pesquisa de 3ª fonte:
+    - QU-005: só River 1-0 Boca de 1945 tinha 3ª fonte (vai para 29/07); as outras 4 datas ficam e estão nas
+      EXPLICACOES do arg-1.
+    - CO-015: América 2-2 Once Caldas (2001) confirmado pela FutbolRed, fica; os "6 jogos com a ESPN" da revisão não têm
+      lista e o relatório não mostra placar diferente da ESPN (pedir a lista à revisão, se ainda valer).
+    - CO-004 (1966) e CO-006 (1986, 1988): sem fonte (Wikipédia baixada de novo, igual); nas EXPLICACOES do col-1.
+    - CO-022: `esperados()` não soma de novo as fases quando a tabela é a do ano inteiro (1963, 1969-1979, 1988...) e o
+      "o erro é desta tabela" só quando a outra tabela cobre os mesmos jogos (de 107 para 11); EXPLICACOES do col-1
+      deixou de ser vazia.
   - D2. FEITA (24/11, ok do Guilherme): `rsssf_sul._continuacao` junta as linhas dos autores até o "]" (no máximo 3;
     sem o "]" não junta). +19.060 gols com autor nas 9 ligas; restam os "outros formatos" abaixo. Conferência de antes: O `rsssf_sul.ler` só guarda a 1ª linha dos autores
     ("[A 9, B 68;" e perde "   C 87]"); a conta não fecha com o placar e o jogo fica sem nenhum autor (texto em
