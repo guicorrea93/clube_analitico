@@ -972,3 +972,35 @@ O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte 
    - testar_carga: `bra-sp-2: 80 edições, 9214 jogos, 1 clubes novos -> OK` (o Grêmio Catanduvense, ainda não carregado).
 4. **Pedido ao agente 1:** recarregar o `bra-sp-2`.
 5. **Plano da A2 concluído.** Próximo: Série C, D e Copa.
+
+## Correções da revisão — bra-serie-c — 24/11/2026 (plano da Série C)
+
+1. **Corrigidos:**
+   - **QC-002:** 95 datas pelo Bola n@ Área e pelo transfermarkt (2010, 2013, 2015 e 2019) e pelo transfermarkt e o Futebol Nacional (2026). O ogol grava o jogo noturno com o dia seguinte.
+     - A lista fica em `data/coleta/bra-serie-c/datas_corrigidas.csv`, com a fonte em cada linha.
+     - O aplicador é comum (`coleta/comum/datas_corrigidas.py`). Ele para com erro se uma linha não achar o jogo ou se o placar não bater.
+     - Já gerei os arquivos da Série D (QC-003) e da Copa (QC-004), mas eles só entram nos blocos delas.
+   - **QC-011:** 2007, ABC 4-0 Vera Cruz-PE (`PLACAR_MANUAL`). A tabela do grupo 6 na RSSSF diverge agora, porque foi calculada com o 3-0 da própria página.
+   - **SC-018 (D-02 A):** a posição no grupo só vale na última fase de liga (a que leva à final). Quem caiu antes se ordena pela fase alcançada e pelos pontos da campanha toda, como a "Classificação geral" da Wikipédia.
+     - Mudam posições do meio e do fim em 17 edições (por exemplo, 2008: Duque de Caxias 4º e Águia 5º; 2009: Rio Branco-AC 7º e Paysandu 8º).
+     - Nenhum pódio muda.
+     - 2010 continua pela classificação geral publicada pela RSSSF.
+   - **QC-009 (D-03):** o vice de 1981 passa a ser "Santo Amaro-PE", o nome com que ele jogou (RSSSF, ogol e Bola), e não o posterior "Manchete". Mudou no `MANUAL_NOVO` e no cadastro comum; só a Série C usa esse clube.
+   - **CL-028 (parte da C):**
+     - Cidades com "de/do/da" minúsculos (`registro.cidade_pt`, regra comum, também no cadastro): EC Limoeiro e Limoeiro passam a "Limoeiro do Norte".
+     - Guarani-MG passa a "Divinópolis".
+     - A parte da D (Botafogo-DF, AA Araguaia e outras grafias) e a da Copa (Alegrense) vão nos blocos delas.
+2. **Só anotado no relatório (`explicacoes.py`):**
+   - **SC-016 (D-13):** os 3 placares de 1992 e 1994 em que o Bola e a Wikipédia divergem da RSSSF e do ogol ficam como estão até um jornal da época. Os outros 9 do achado não são erro.
+   - **SC-021:**
+     - 1999: 226 jogos, contando os 2 jogos-desempate.
+     - 2001: 1.124 gols, a soma dos jogos; o 1.127 do resumo do Bola não fecha.
+     - 2002: 6 gols a mais que o Bola, dos placares em dúvida.
+   - **QC-012:** dos 17 placares em que o ogol e o Bola divergem da RSSSF, só o de 2007 (QC-011) tem 4ª fonte. Os outros 16 ficam com a RSSSF.
+3. **Números:**
+   - 36 edições e 8.123 jogos (sem mudança).
+   - testar_carga: `bra-serie-c: 36 edições, 8123 jogos, 1 clubes novos -> OK`. O "novo" é o Santo Amaro-PE, que no banco é o clube 686, "Manchete".
+4. **Pedidos ao agente 1:**
+   - recarregar o `bra-serie-c`;
+   - no banco, renomear o clube 686 ("Manchete") para "Santo Amaro-PE" em vez de criar outro (D-03; o `clube_nome` dele já tem "Santo Amaro-PE" em 1981).
+5. **Próximo:** Série D (QC-001, SD-011, QC-003 e a parte da D do CL-028), depois Copa do Brasil.

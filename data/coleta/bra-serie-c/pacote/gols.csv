@@ -3,7 +3,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0027,Dom Bosco-MT,Jaci,,,normal,RSSSF
 1981-0027,Dom Bosco-MT,Jaci,,,normal,RSSSF
 1981-0027,Dom Bosco-MT,Adílson,,,normal,RSSSF
-1981-0028,Manchete,Eliel,,,normal,RSSSF
+1981-0028,Santo Amaro-PE,Eliel,,,normal,RSSSF
 1981-0028,Baraúnas,Tom,,,normal,RSSSF
 1981-0029,Atlético-BA,Robério,,,normal,RSSSF
 1981-0029,Atlético-BA,Edson,,,normal,RSSSF
@@ -12,14 +12,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0030,Olaria,Leandro,,,normal,RSSSF
 1981-0031,Figueirense,Édison,,,normal,RSSSF
 1981-0032,Izabelense,Val,,,normal,RSSSF
-1981-0034,Manchete,Fabinho,85,,normal,RSSSF
+1981-0034,Santo Amaro-PE,Fabinho,85,,normal,RSSSF
 1981-0039,SE São Borja,Morça,,,normal,RSSSF
 1981-0039,SE São Borja,Müller,,,normal,RSSSF
 1981-0040,Olaria,Leandro,,,normal,RSSSF
 1981-0040,Olaria,Sérgio Luiz,,,normal,RSSSF
-1981-0046,Manchete,Fabinho,,,normal,RSSSF
+1981-0046,Santo Amaro-PE,Fabinho,,,normal,RSSSF
 1981-0049,Izabelense,Tuíca,,,normal,RSSSF
-1981-0049,Manchete,Fabinho,,,normal,RSSSF
+1981-0049,Santo Amaro-PE,Fabinho,,,normal,RSSSF
 1981-0050,Guarani-MG,Márcio,,,normal,RSSSF
 1981-0050,Guarani-MG,Márcio,,,normal,RSSSF
 1981-0050,Izabelense,Ivo,,,normal,RSSSF
@@ -27,7 +27,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 1981-0051,Olaria,Zé Ica,59,,normal,RSSSF
 1981-0051,Olaria,Leandro,68,,normal,RSSSF
 1981-0051,Olaria,Leandro,70,,normal,RSSSF
-1981-0052,Manchete,Derivaldo,80,,normal,RSSSF
+1981-0052,Santo Amaro-PE,Derivaldo,80,,normal,RSSSF
 1988-0031,Brusque,Tiziu,,,normal,RSSSF
 1988-0031,Brusque,Washington,,,normal,RSSSF
 1988-0033,Esportivo-RS,Paraná,,,normal,RSSSF
@@ -909,14 +909,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0093,América-MG,Evanílson,10,,normal,RSSSF
 2009-0093,América-MG,Fábio Bala,15,,normal,RSSSF
 2009-0093,América-MG,Bruno Mineiro,58,,normal,RSSSF
-2010-0002,Paysandu,Fabrício,10,,penalti,RSSSF
-2010-0002,Paysandu,Bruno Rangel,14,,normal,RSSSF
-2010-0002,Paysandu,Bruno Rangel,63,,normal,RSSSF
-2010-0002,Paysandu,Bruno Rangel,90,1,normal,RSSSF
-2010-0002,Paysandu,Marquinho,57,,normal,RSSSF
-2010-0002,Paysandu,Alexandre Carioca,79,,normal,RSSSF
-2010-0002,Rio Branco-AC,Valdir Papel,8,,penalti,RSSSF
-2010-0002,Rio Branco-AC,Valdir Papel,68,,normal,RSSSF
+2010-0001,Paysandu,Fabrício,10,,penalti,RSSSF
+2010-0001,Paysandu,Bruno Rangel,14,,normal,RSSSF
+2010-0001,Paysandu,Bruno Rangel,63,,normal,RSSSF
+2010-0001,Paysandu,Bruno Rangel,90,1,normal,RSSSF
+2010-0001,Paysandu,Marquinho,57,,normal,RSSSF
+2010-0001,Paysandu,Alexandre Carioca,79,,normal,RSSSF
+2010-0001,Rio Branco-AC,Valdir Papel,8,,penalti,RSSSF
+2010-0001,Rio Branco-AC,Valdir Papel,68,,normal,RSSSF
 2010-0003,Águia,Felipe Mamão,44,,normal,RSSSF
 2010-0003,São Raimundo-PA,Soares,51,,normal,RSSSF
 2010-0005,São Raimundo-PA,Soares,4,,normal,RSSSF
@@ -1306,10 +1306,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0089,Santa Cruz,Luciano Sorriso,90,2,normal,RSSSF
 2013-0091,Treze,Junior Barbosa,59,,normal,RSSSF
 2013-0091,Treze,Tiago,62,,normal,RSSSF
-2013-0092,Luverdense,Tozim,7,,normal,RSSSF
-2013-0092,Luverdense,Ze Roberto,59,,normal,RSSSF
-2013-0092,CRB,Reinaldo Alagoano,5,,normal,RSSSF
-2013-0092,CRB,Denilson,62,,normal,RSSSF
+2013-0093,Luverdense,Tozim,7,,normal,RSSSF
+2013-0093,Luverdense,Ze Roberto,59,,normal,RSSSF
+2013-0093,CRB,Reinaldo Alagoano,5,,normal,RSSSF
+2013-0093,CRB,Denilson,62,,normal,RSSSF
 2013-0094,Fortaleza,Assisinho,60,,normal,RSSSF
 2013-0094,Fortaleza,Eduardo,90,1,normal,RSSSF
 2013-0094,Luverdense,Tozim,36,,normal,RSSSF
@@ -2059,12 +2059,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0024,ASA,Max,70,,normal,RSSSF
 2015-0025,Fortaleza,Pio,19,,normal,RSSSF
 2015-0026,Salgueiro,Claudio,85,,normal,RSSSF
-2015-0027,Águia,Flamel,45,1,normal,RSSSF
-2015-0027,ASA,Didira,11,,normal,RSSSF
-2015-0027,ASA,Alex Henrique,42,,normal,RSSSF
-2015-0028,Botafogo-PB,Nata,5,,normal,RSSSF
-2015-0028,Botafogo-PB,ANDRÉ CASSACO,83,,normal,RSSSF
-2015-0029,Fortaleza,Lima,5,,normal,RSSSF
+2015-0027,Fortaleza,Lima,5,,normal,RSSSF
+2015-0028,Águia,Flamel,45,1,normal,RSSSF
+2015-0028,ASA,Didira,11,,normal,RSSSF
+2015-0028,ASA,Alex Henrique,42,,normal,RSSSF
+2015-0029,Botafogo-PB,Nata,5,,normal,RSSSF
+2015-0029,Botafogo-PB,ANDRÉ CASSACO,83,,normal,RSSSF
 2015-0031,Confiança,Almir Dias,13,,normal,RSSSF
 2015-0032,Icasa,Rodrigo Dantas,29,,normal,RSSSF
 2015-0032,Icasa,Gaucho,53,,normal,RSSSF

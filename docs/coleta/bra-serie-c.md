@@ -44,7 +44,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 | 2004 | RSSSF + ogol | 60 | 238 (238) | 603 | 57 | 17 / 0 | União Barbarense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2005 | RSSSF + ogol | 63 | 254 (254) | 696 | 81 | 16 / 1 | Remo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2006 | RSSSF + ogol | 63 | 386 (386) | 1059 | 37 | 27 / 2 | Criciúma | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2007 | RSSSF + ogol | 64 | 392 (392) | 1025 | 29 | 26 / 3 | Bragantino | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2007 | RSSSF + ogol | 64 | 392 (392) | 1026 | 29 | 25 / 4 | Bragantino | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2008 | RSSSF + ogol | 63 | 386 (386) | 1068 | 0 | 29 / 1 | Atlético-GO | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2009 | RSSSF + ogol | 20 | 94 (94) | 264 | 207 | 5 / 0 | América-MG | RSSSF (classificação geral publicada) |
 | 2010 | RSSSF + ogol | 20 | 94 (94) | 208 | 208 | 7 / 2 | ABC | RSSSF (classificação geral publicada) |
@@ -91,6 +91,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 ### 1992
 
+- Nacional-AM x Tuna Luso (2ª fase, 27/05) e Rio Branco-MG x Marília: a RSSSF e o ogol dão o placar do pacote; o Bola n@ Área e a Wikipédia (que cita o Bola), outro; fica o do pacote até um jornal da época (decisão D-13, revisão SC-016)
 - 5 placares da página trocados pelos do ogol e da Wikipédia (revisão SC-014); as tabelas publicadas pela RSSSF seguem os placares antigos da página e por isso não fecham nos grupos 1 e 6 e no grupo A da 2ª fase. Com os placares novos o 3º é o Nacional-AM, como na Wikipédia. Dois jogos do grupo B vêm na página depois do título da final e voltam para a 2ª fase
 - tabela publicada x jogos — Primeira fase / Grupo 1: Nacional-AM tabela [8, 3, 4, 1, 6, 3] jogos [8, 5, 2, 1, 8, 2] — há jogo do clube sem conferência no ogol
 - tabela publicada x jogos — Primeira fase / Grupo 1: Macapá tabela [8, 1, 7, 0, 7, 5] jogos [8, 1, 6, 1, 7, 7] — há jogo do clube sem conferência no ogol
@@ -124,6 +125,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 ### 1994
 
+- Caldas x Vila Nova-GO (2ª fase, 23/10): fontes divididas como em 1992; fica o placar do pacote (D-13, SC-016)
 - nas oitavas, o 'Vitória' sem estado da página é o Vitória-ES (o Vitória-PE caiu para o ABC na mesma fase); corrigido no texto da página
 - o ogol põe o Vitória-ES contra o ABC no jogo de volta das oitavas; a RSSSF e a classificação final mostram o Vitória-PE (fica a RSSSF)
 - tabela publicada x jogos — Primeira fase / Grupo 7: Taguatinga tabela [6, 3, 1, 2, 6, 5] jogos [6, 3, 1, 2, 7, 6] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
@@ -199,6 +201,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 ### 1999
 
 - a página traz, antes da Série C, as seletivas estaduais (RS, PR, MG, PB, PE, PI); esse trecho fica de fora
+- 226 jogos, 2 a mais que a Wikipédia e o Bola n@ Área (224): o pacote conta os 2 jogos-desempate, que existiram (revisão SC-021)
 - tabela publicada x jogos — Primeira fase / Grupo C: Náutico tabela [10, 8, 2, 0, 25, 7] jogos [10, 8, 2, 0, 25, 6] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo C: Fluminense-BA tabela [10, 1, 1, 8, 8, 25] jogos [10, 1, 1, 8, 7, 25] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo D: Villa Nova-MG tabela [10, 5, 3, 2, 13, 10] jogos [10, 5, 3, 2, 13, 7] — placar diverge entre RSSSF e ogol em Villa Nova-MG x Anapolina (1-0 x None-None) e nenhuma das versões fecha com a tabela; fica a RSSSF
@@ -210,10 +213,12 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 ### 2001
 
+- 1.124 gols, a soma dos 412 jogos (igual à soma dos jogos do Bola n@ Área); o 1.127 do resumo do Bola, copiado pela Wikipédia, não fecha com os jogos (revisão SC-021)
 - jogo só no ogol, incluído em First Phase / Grupo B: Guarany 2-1 Tocantinópolis (2001-09-19)
 
 ### 2002
 
+- 595 gols, 6 a mais que o Bola n@ Área (589): a diferença está nos placares em que a RSSSF e o Bola divergem, que ficam com a RSSSF até uma 4ª fonte (revisão QC-012 e SC-021)
 - dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; pode ser erro do ogol. Fica como está (decisão do agente principal, 20/11/2026)
 - tabela publicada x jogos — Primeira fase / Grupo 2: Tuna Luso tabela [6, 3, 2, 1, 8, 5] jogos [6, 3, 2, 1, 9, 6] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo 2: Águia tabela [6, 1, 1, 4, 6, 9] jogos [6, 1, 1, 4, 7, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
@@ -250,9 +255,11 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 ### 2007
 
 - tabela publicada x jogos — Primeira fase / Grupo 3: Ananindeua tabela [6, 2, 3, 1, 6, 5] jogos [6, 2, 3, 1, 6, 6] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Primeira fase / Grupo 6: ABC tabela [6, 4, 1, 1, 12, 6] jogos [6, 4, 1, 1, 13, 6] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- tabela publicada x jogos — Primeira fase / Grupo 6: Vera Cruz-PE tabela [6, 1, 1, 4, 3, 9] jogos [6, 1, 1, 4, 3, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo 16: Esportivo-RS tabela [6, 3, 1, 2, 6, 9] jogos [6, 3, 0, 3, 6, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Segunda fase / Grupo 21: Itumbiara tabela [6, 1, 1, 4, 4, 7] jogos [6, 1, 1, 4, 3, 8] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- placar diferente no ogol — ABC x Vera Cruz-PE (2007-07-14): RSSSF 3-0, ogol 4-0; fica o da RSSSF
+- placar da página corrigido — ABC 3-0 Vera Cruz (2007-07-14) vira ABC 4-0 Vera Cruz: ogol, Bola n@ Área, Futebol Nacional e a tabela do grupo 6 na Wikipédia pt: 4-0 (revisão QC-011)
 - placar diferente no ogol — Atlético-PB x Central (2007-07-29): RSSSF 2-0, ogol 3-0; fica o da RSSSF
 - placar diferente no ogol — Volta Redonda x América-RJ (2007-08-29): RSSSF 3-1, ogol 3-0; fica o da RSSSF
 - placar diferente no ogol — Rio Branco-AC x Sampaio Corrêa (2007-09-02): RSSSF 1-0, ogol 2-0; fica o da RSSSF
@@ -281,6 +288,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - tabela publicada x jogos — Primeira fase / Grupo B: CRB tabela [8, 3, 2, 3, 9, 11] jogos [8, 3, 2, 3, 8, 11] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo B: CRB tabela [8, 3, 2, 3, 9, 11] jogos [8, 3, 2, 3, 8, 11] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Marília x Gama, ogol 2010-08-15); fica a do ogol
+- 2 datas corrigidas (datas_corrigidas.csv; ex.: Paysandu x Rio Branco-AC 2010-07-20 -> 2010-07-17, Bola n@ Área e transfermarkt (QC-002))
 
 ### 2011
 
@@ -321,6 +329,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - jogo só no ogol, incluído em Primeira fase / Grupo A: Cuiabá 3-0 Rio Branco-AC (2013-09-26)
 - jogo só no ogol, incluído em Primeira fase / Grupo A: Rio Branco-AC 0-2 Santa Cruz (2013-10-03)
 - jogo só no ogol, incluído em Primeira fase / Grupo A: Sampaio Corrêa 2-1 Rio Branco-AC (2013-10-10)
+- 12 datas corrigidas (datas_corrigidas.csv; ex.: Rio Branco-AC x Fortaleza 2013-06-14 -> 2013-06-13, Bola n@ Área e transfermarkt (QC-002))
 
 ### 2014
 
@@ -330,6 +339,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 - a página da RSSSF trocou dia e mês em 37 datas ('06/jan/15' em vez de 02/06); vale a data do ogol
 - data com dia e mês trocados na RSSSF em 37 jogos (ex.: Cuiabá x Fortaleza); fica a data do ogol
+- 5 datas corrigidas (datas_corrigidas.csv; ex.: Cuiabá x Fortaleza 2015-06-02 -> 2015-06-01, Bola n@ Área e transfermarkt (QC-002))
 
 ### 2016
 
@@ -351,6 +361,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - a página da RSSSF parou na 1ª rodada (40 jogos): a base dos jogos é o ogol (194 jogos)
 - placar diferente na ESPN — ABC x Imperatriz (2019-06-08): aqui 2-4, ESPN 2-3; fica o daqui
 - 2 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
+- 39 datas corrigidas (datas_corrigidas.csv; ex.: Paysandu x Tombense 2019-05-07 -> 2019-05-06, Bola n@ Área e transfermarkt (QC-002))
 
 ### 2020
 
@@ -382,13 +393,15 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 - a RSSSF ainda não tem a página de 2026: os jogos, as fases e os grupos vêm do ogol, e o campeão, os acessos e os rebaixados da Wikipédia (revisão SC-001). Sem autores de gols
 - a RSSSF ainda não tem a página de 2026: a base dos jogos é o ogol (revisão SC-001)
+- 37 datas corrigidas (datas_corrigidas.csv; ex.: Santa Cruz x Itabaiana 2026-04-07 -> 2026-04-06, transfermarkt e Futebol Nacional, jogo noturno (QC-002))
 
 ## Identidade dos clubes
 
 - Cada clube é o código dele no ogol; nome, cidade e UF vêm da ficha do clube no ogol (`data/coleta/bra-serie-c/ogol/clubes.json`).
 - 168 clubes já estavam no `futebol.db` e usam o nome de lá; os outros seguem o nome curto do ogol, com "-UF" só quando outro
-  clube tem o mesmo nome. Clubes que mudaram de nome aparecem com o nome atual (Intercap = Paraíso; Santo Amaro = Manchete;
-  Ituiutaba = Boa Esporte); os nomes de cada fonte e ano estão em `clubes.csv` (`nomes_fonte`).
+  clube tem o mesmo nome. Clubes que mudaram de nome aparecem com o nome atual (Intercap = Paraíso;
+  Ituiutaba = Boa Esporte), menos o Santo Amaro-PE, vice de 1981, que só jogou com esse nome e fica com ele, e não com o
+  posterior "Manchete" (D-03); os nomes de cada fonte e ano estão em `clubes.csv` (`nomes_fonte`).
 - Decisões à mão (em `clubes_c.py` e `importar.py`, com o motivo): EC Corinthians de Presidente Prudente não é o Corinthians
   do banco (vira "Corinthians Prudente"); o Maringá FC de 2010 e o de 1995 não são o GE Maringá do banco; "JMalucelli" é o
   J.Malucelli do banco.

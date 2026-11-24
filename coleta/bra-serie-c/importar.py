@@ -29,6 +29,7 @@ AQUI = Path(__file__).resolve().parent
 sys.path.insert(0, str(AQUI.parent / "comum"))
 sys.path.insert(0, str(AQUI))
 import clubes_c  # noqa: E402
+import datas_corrigidas  # noqa: E402
 import gols as gols_rsssf  # noqa: E402
 from observacao import penaltis_da_nota  # noqa: E402
 import rsssf_c  # noqa: E402
@@ -204,6 +205,8 @@ JOGOS_FORA: dict[tuple, str] = {
 # placar corrigido na página da RSSSF (ogol e Wikipédia dizem o mesmo): (ano, mandante, visitante, data da página) ->
 # (mandante, visitante, gols, gols, resultado especial, motivo)
 PLACAR_MANUAL: dict[tuple, tuple] = {
+    (2007, "ABC", "Vera Cruz", "2007-07-14"): ("ABC", "Vera Cruz", 4, 0, "", "ogol, Bola n@ Área, Futebol Nacional e a tabela "
+                                                "do grupo 6 na Wikipédia pt: 4-0 (revisão QC-011)"),
     (1988, "Internacional", "Figueirense", "1988-11-03"): ("Internacional", "Figueirense", 2, 0, "", "ogol e Wikipédia: 2-0 (revisão SC-014)"),
     (1992, "Rio Branco-MG", "São Bento", "1992-03-29"): ("Rio Branco-MG", "São Bento", 2, 1, "", "ogol e Wikipédia: 2-1 (revisão SC-014)"),
     (1992, "Nacional-AM", "Ji-Paraná", "1992-04-01"): ("Nacional-AM", "Ji-Paraná", 1, 0, "", "ogol e Wikipédia: 1-0 (revisão SC-014)"),
@@ -750,6 +753,11 @@ def classificacao(ano: int, partidas: list[Partida], tabs: list[tuple], ajustes:
         for i, c in enumerate(sorted(cs, key=chave_g), 1):
             pos_grupo[c] = 0 if mata else i   # mata-mata: sem posição de grupo
             pts_fase[c] = pg.get(c, 0)
+    # a posição no grupo só vale na última fase de liga (a que leva à final); quem caiu antes se ordena pela fase alcançada
+    # e pelos pontos da campanha toda, como a "Classificação geral" da Wikipédia (decisão D-02 A; achado SC-018)
+    nivel_liga = [alcance[c] for c in camp if pos_grupo.get(c)]
+    ultima_liga = max(nivel_liga) if nivel_liga else None
+    pos_grupo = {c: v for c, v in pos_grupo.items() if alcance[c] == ultima_liga}
     def chave(c):
         x = camp[c]
         # mesma posição no grupo (os 2º dos grupos da 2ª fase): a campanha toda, como na Wikipédia (2023: Operário-PR 3º)
@@ -922,6 +930,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
     for p in partidas:
         if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv:
             p.gols = []
+    datas_corrigidas.aplicar(PASTA_DADOS, ano, partidas, nome, log)   # jogo noturno do ogol com o dia seguinte (QC-002)
     ids = {x for p in partidas for x in (p.mandante, p.visitante)}
     ajustes = ajustes_wiki(ano, ids) if ano >= 2003 else {}
     # campeão: vencedor da final; conferido com a RSSSF e a Wikipédia (final empatada sem pênaltis: vale a lista oficial)

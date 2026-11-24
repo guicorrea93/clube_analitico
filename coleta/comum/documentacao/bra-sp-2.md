@@ -9,7 +9,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Clubes:** 184; **artilheiros:** 62 temporadas com artilheiro (71 linhas, com empates).
 - **Classificação final:** 80 temporadas; **rodada a rodada:** 24 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2409 linhas.
-- **No banco (`db/futebol.db`):** sim (80 edições, 9223 jogos).
+- **No banco (`db/futebol.db`):** sim (80 edições, 9214 jogos).
 - **Observação da competição:** 2ª divisão paulista (Série A2 desde 1994; antes Segunda Divisão, Primeira Divisão, Divisão Intermediária, Divisão Especial, conforme a época), edições de 1947 a 2026. As edições sem os jogos em nenhuma fonte (1947-1966, 1992-1994) entram só com as tabelas, o campeão e o vice; 1989 e 1991 têm parte dos jogos. Fica de fora a fase amadora (1916-1946).
 
 ## 2. Fontes e regras

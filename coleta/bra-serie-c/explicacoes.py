@@ -37,20 +37,29 @@ EXPLICACOES: dict[int, list[str]] = {
     1988: ["a final (Esportivo-MG x União São João, 1-1 e 2-2) foi decidida pela campanha (número de vitórias): campeão pela lista oficial",
            "vitória valia 3 pontos e o empate ia para os pênaltis: 2 para quem vencia, 1 para quem perdia (revisão SC-007). "
            "No grupo 18 da 2ª fase o ogol põe a Desportiva Ferroviária no lugar da Ferroviária-SP; corrigido (revisão SC-008)"],
-    1994: ["nas oitavas, o 'Vitória' sem estado da página é o Vitória-ES (o Vitória-PE caiu para o ABC na mesma fase); corrigido no texto da página",
+    1994: ["Caldas x Vila Nova-GO (2ª fase, 23/10): fontes divididas como em 1992; fica o placar do pacote (D-13, SC-016)",
+           "nas oitavas, o 'Vitória' sem estado da página é o Vitória-ES (o Vitória-PE caiu para o ABC na mesma fase); corrigido no texto da página",
            "o ogol põe o Vitória-ES contra o ABC no jogo de volta das oitavas; a RSSSF e a classificação final mostram o Vitória-PE (fica a RSSSF)"],
     1995: ["página com 108 clubes e a 2ª e a 3ª fases em confrontos colados uns nos outros; o leitor separa cada jogo (rsssf_c.py, _1995)",
            "erros de digitação da página corrigidos no código: 'Coríntians 3x1 3x1 Santa Cruz-PB' (placar repetido) e 'Ypranga'"],
     1996: ["a página traz 'GAS 2-3 GAS' no grupo 2; é GAS 2-3 Baré (ogol e tabela do grupo); corrigido no texto da página"],
-    1999: ["a página traz, antes da Série C, as seletivas estaduais (RS, PR, MG, PB, PE, PI); esse trecho fica de fora"],
-    2002: ["dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; "
+    1999: ["a página traz, antes da Série C, as seletivas estaduais (RS, PR, MG, PB, PE, PI); esse trecho fica de fora",
+           "226 jogos, 2 a mais que a Wikipédia e o Bola n@ Área (224): o pacote conta os 2 jogos-desempate, que existiram "
+           "(revisão SC-021)"],
+    2001: ["1.124 gols, a soma dos 412 jogos (igual à soma dos jogos do Bola n@ Área); o 1.127 do resumo do Bola, copiado pela "
+           "Wikipédia, não fecha com os jogos (revisão SC-021)"],
+    2002: ["595 gols, 6 a mais que o Bola n@ Área (589): a diferença está nos placares em que a RSSSF e o Bola divergem, que "
+           "ficam com a RSSSF até uma 4ª fonte (revisão QC-012 e SC-021)",
+           "dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; "
            "pode ser erro do ogol. Fica como está (decisão do agente principal, 20/11/2026)"],
     2005: ["a página traz o público no fim da linha dos jogos das fases finais ('att: 18.865'); o leitor lê o público (12 jogos)"],
     2011: ["o Rio Branco-AC foi eliminado pelo STJD depois de recorrer à Justiça comum; a RSSSF mantém 3 jogos dele na 2ª fase, que o ogol não tem (ficam, com a fonte RSSSF)",
            "sem os 3 jogos do Rio Branco-AC na 2ª fase (eliminado pelo STJD; o grupo E recomeçou com o Luverdense), o 3º é o "
            "Ipatinga, como na Wikipédia (revisão SC-003, SC-013). A edição fica com 106 jogos; o infobox da Wikipédia diz 105 "
            "(diferença não achada, revisão SC-021)"],
-    1992: ["5 placares da página trocados pelos do ogol e da Wikipédia (revisão SC-014); as tabelas publicadas pela RSSSF "
+    1992: ["Nacional-AM x Tuna Luso (2ª fase, 27/05) e Rio Branco-MG x Marília: a RSSSF e o ogol dão o placar do pacote; o Bola n@ "
+           "Área e a Wikipédia (que cita o Bola), outro; fica o do pacote até um jornal da época (decisão D-13, revisão SC-016)",
+           "5 placares da página trocados pelos do ogol e da Wikipédia (revisão SC-014); as tabelas publicadas pela RSSSF "
            "seguem os placares antigos da página e por isso não fecham nos grupos 1 e 6 e no grupo A da 2ª fase. Com os placares "
            "novos o 3º é o Nacional-AM, como na Wikipédia. Dois jogos do grupo B vêm na página depois do título da final e voltam "
            "para a 2ª fase"],
@@ -66,8 +75,9 @@ FIM = [
     "",
     "- Cada clube é o código dele no ogol; nome, cidade e UF vêm da ficha do clube no ogol (`data/coleta/bra-serie-c/ogol/clubes.json`).",
     "- 168 clubes já estavam no `futebol.db` e usam o nome de lá; os outros seguem o nome curto do ogol, com \"-UF\" só quando outro",
-    "  clube tem o mesmo nome. Clubes que mudaram de nome aparecem com o nome atual (Intercap = Paraíso; Santo Amaro = Manchete;",
-    "  Ituiutaba = Boa Esporte); os nomes de cada fonte e ano estão em `clubes.csv` (`nomes_fonte`).",
+    "  clube tem o mesmo nome. Clubes que mudaram de nome aparecem com o nome atual (Intercap = Paraíso;",
+    "  Ituiutaba = Boa Esporte), menos o Santo Amaro-PE, vice de 1981, que só jogou com esse nome e fica com ele, e não com o",
+    "  posterior \"Manchete\" (D-03); os nomes de cada fonte e ano estão em `clubes.csv` (`nomes_fonte`).",
     "- Decisões à mão (em `clubes_c.py` e `importar.py`, com o motivo): EC Corinthians de Presidente Prudente não é o Corinthians",
     "  do banco (vira \"Corinthians Prudente\"); o Maringá FC de 2010 e o de 1995 não são o GE Maringá do banco; \"JMalucelli\" é o",
     "  J.Malucelli do banco.",

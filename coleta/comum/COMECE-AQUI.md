@@ -69,7 +69,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 
 | Competição | Temporadas | Jogos | Último commit | No banco | Teste de carga (22/11) |
 |---|---|---|---|---|---|
-| `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be | sim | OK |
+| `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be; plano da revisão neste commit (24/11) | sim; recarregar | OK (Santo Amaro-PE = Manchete do banco) |
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
 | `bra-sp-1` Paulista (1ª divisão) | 135 (1902–2026) | 21.849 | 046e6e4; Grêmio Catanduvense separado (A2-022) neste commit (24/11) | sim; recarregar | OK (1 clube novo) |
@@ -110,7 +110,10 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
      `docs/coleta/pedidos.md`.
    - Feito 24/11: A2 parte C (A2-015), por correções nas páginas da A2 (`rsssf_sp2.py`), sem mexer no leitor comum. O
      marcador "[unknown]" do leitor comum zera a data (serve para blocos sem data). Plano da A2 concluído.
-   - Próximo: Série C, D e Copa (seções do plano), depois "Todas as coletas Brasil" e a D-10 (Série C 1987 e 2000).
+   - Feito 24/11: Série C (QC-002, QC-009, QC-011, QC-012, SC-016, SC-018, SC-021, CL-028 na parte da C). Datas
+     corrigidas por jogo em `data/coleta/<slug>/datas_corrigidas.csv` (aplicador `coleta/comum/datas_corrigidas.py`; o
+     mesmo serve à D e à Copa, já com os arquivos gerados); cidade em português por `registro.cidade_pt`.
+   - Próximo: Série D e Copa (seções do plano), depois "Todas as coletas Brasil" e a D-10 (Série C 1987 e 2000).
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
      PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO, JOGO_CORRIGIDO, JOGOS_EXTRA): se um nome não casar, o importador para com erro
      (não passa calado). `RSSSF_FORA` e `JOGOS_ANULADOS` usam o nome como está na página e tiram o jogo antes do ogol.

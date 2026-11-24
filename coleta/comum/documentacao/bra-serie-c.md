@@ -5,7 +5,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 ## 1. O que temos
 
 - **Edições:** 36, de 1981 a 2026.
-- **Jogos:** 8123; **gols:** 19789; **gols com autor:** 6051 (31%); **cartões:** 0.
+- **Jogos:** 8123; **gols:** 19790; **gols com autor:** 6051 (31%); **cartões:** 0.
 - **Clubes:** 373; **artilheiros:** 34 temporadas com artilheiro (46 linhas, com empates).
 - **Classificação final:** 36 temporadas; **rodada a rodada:** 0 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2117 linhas.
@@ -20,7 +20,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF): 389 tabelas fecham com os jogos e 29 divergem (cada divergência é explicada no relatório, na temporada).
+- Cada temporada é comparada com as tabelas publicadas (RSSSF): 388 tabelas fecham com os jogos e 30 divergem (cada divergência é explicada no relatório, na temporada).
 - Temporadas com alguma tabela divergente: 1988, 1992, 1994, 1995, 1996, 1997, 1999, 2002, 2003, 2005, 2006, 2007, 2008, 2010, 2011.
 - Temporadas sem tabela para conferir: 2019, 2026.
 - Temporadas com menos jogos do que o ogol: nenhuma.
@@ -253,6 +253,7 @@ Registradas nos módulos de `coleta/bra-serie-c/`; cada uma também aparece no r
 
 ### Placares e jogos corrigidos à mão (`importar.PLACAR_MANUAL`)
 
+- **2007 · ABC · Vera Cruz · 2007-07-14:** [ABC, Vera Cruz, 4, 0, ] ogol, Bola n@ Área, Futebol Nacional e a tabela do grupo 6 na Wikipédia pt: 4-0 (revisão QC-011)
 - **1988 · Internacional · Figueirense · 1988-11-03:** [Internacional, Figueirense, 2, 0, ] ogol e Wikipédia: 2-0 (revisão SC-014)
 - **1992 · Rio Branco-MG · São Bento · 1992-03-29:** [Rio Branco-MG, São Bento, 2, 1, ] ogol e Wikipédia: 2-1 (revisão SC-014)
 - **1992 · Nacional-AM · Ji-Paraná · 1992-04-01:** [Nacional-AM, Ji-Paraná, 1, 0, ] ogol e Wikipédia: 1-0 (revisão SC-014)
@@ -275,14 +276,15 @@ Registradas nos módulos de `coleta/bra-serie-c/`; cada uma também aparece no r
 - **2026:** a RSSSF ainda não tem a página de 2026: os jogos, as fases e os grupos vêm do ogol, e o campeão, os acessos e os rebaixados da Wikipédia (revisão SC-001). Sem autores de gols
 - **1981:** o ogol liga o Matsubara (Cambará-PR) ao J. Malucelli, fundado em 1994; corrigido no código (CORRIGE_OGOL): fica a SE Matsubara, como na RSSSF
 - **1988:** a final (Esportivo-MG x União São João, 1-1 e 2-2) foi decidida pela campanha (número de vitórias): campeão pela lista oficial / vitória valia 3 pontos e o empate ia para os pênaltis: 2 para quem vencia, 1 para quem perdia (revisão SC-007). No grupo 18 da 2ª fase o ogol põe a Desportiva Ferroviária no lugar da Ferroviária-SP; corrigido (revisão SC-008)
-- **1994:** nas oitavas, o 'Vitória' sem estado da página é o Vitória-ES (o Vitória-PE caiu para o ABC na mesma fase); corrigido no texto da página / o ogol põe o Vitória-ES contra o ABC no jogo de volta das oitavas; a RSSSF e a classificação final mostram o Vitória-PE (fica a RSSSF)
+- **1994:** Caldas x Vila Nova-GO (2ª fase, 23/10): fontes divididas como em 1992; fica o placar do pacote (D-13, SC-016) / nas oitavas, o 'Vitória' sem estado da página é o Vitória-ES (o Vitória-PE caiu para o ABC na mesma fase); corrigido no texto da página / o ogol põe o Vitória-ES contra o ABC no jogo de volta das oitavas; a RSSSF e a classificação final mostram o Vitória-PE (fica a RSSSF)
 - **1995:** página com 108 clubes e a 2ª e a 3ª fases em confrontos colados uns nos outros; o leitor separa cada jogo (rsssf_c.py, _1995) / erros de digitação da página corrigidos no código: 'Coríntians 3x1 3x1 Santa Cruz-PB' (placar repetido) e 'Ypranga'
 - **1996:** a página traz 'GAS 2-3 GAS' no grupo 2; é GAS 2-3 Baré (ogol e tabela do grupo); corrigido no texto da página
-- **1999:** a página traz, antes da Série C, as seletivas estaduais (RS, PR, MG, PB, PE, PI); esse trecho fica de fora
-- **2002:** dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; pode ser erro do ogol. Fica como está (decisão do agente principal, 20/11/2026)
+- **1999:** a página traz, antes da Série C, as seletivas estaduais (RS, PR, MG, PB, PE, PI); esse trecho fica de fora / 226 jogos, 2 a mais que a Wikipédia e o Bola n@ Área (224): o pacote conta os 2 jogos-desempate, que existiram (revisão SC-021)
+- **2001:** 1.124 gols, a soma dos 412 jogos (igual à soma dos jogos do Bola n@ Área); o 1.127 do resumo do Bola, copiado pela Wikipédia, não fecha com os jogos (revisão SC-021)
+- **2002:** 595 gols, 6 a mais que o Bola n@ Área (589): a diferença está nos placares em que a RSSSF e o Bola divergem, que ficam com a RSSSF até uma 4ª fonte (revisão QC-012 e SC-021) / dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; pode ser erro do ogol. Fica como está (decisão do agente principal, 20/11/2026)
 - **2005:** a página traz o público no fim da linha dos jogos das fases finais ('att: 18.865'); o leitor lê o público (12 jogos)
 - **2011:** o Rio Branco-AC foi eliminado pelo STJD depois de recorrer à Justiça comum; a RSSSF mantém 3 jogos dele na 2ª fase, que o ogol não tem (ficam, com a fonte RSSSF) / sem os 3 jogos do Rio Branco-AC na 2ª fase (eliminado pelo STJD; o grupo E recomeçou com o Luverdense), o 3º é o Ipatinga, como na Wikipédia (revisão SC-003, SC-013). A edição fica com 106 jogos; o infobox da Wikipédia diz 105 (diferença não achada, revisão SC-021)
-- **1992:** 5 placares da página trocados pelos do ogol e da Wikipédia (revisão SC-014); as tabelas publicadas pela RSSSF seguem os placares antigos da página e por isso não fecham nos grupos 1 e 6 e no grupo A da 2ª fase. Com os placares novos o 3º é o Nacional-AM, como na Wikipédia. Dois jogos do grupo B vêm na página depois do título da final e voltam para a 2ª fase
+- **1992:** Nacional-AM x Tuna Luso (2ª fase, 27/05) e Rio Branco-MG x Marília: a RSSSF e o ogol dão o placar do pacote; o Bola n@ Área e a Wikipédia (que cita o Bola), outro; fica o do pacote até um jornal da época (decisão D-13, revisão SC-016) / 5 placares da página trocados pelos do ogol e da Wikipédia (revisão SC-014); as tabelas publicadas pela RSSSF seguem os placares antigos da página e por isso não fecham nos grupos 1 e 6 e no grupo A da 2ª fase. Com os placares novos o 3º é o Nacional-AM, como na Wikipédia. Dois jogos do grupo B vêm na página depois do título da final e voltam para a 2ª fase
 - **2013:** o Rio Branco-AC entrou na competição por decisão judicial; a página da RSSSF não traz os 20 jogos dele no grupo A, que entram pelo ogol (a tabela do grupo fecha)
 - **2015:** a página da RSSSF trocou dia e mês em 37 datas ('06/jan/15' em vez de 02/06); vale a data do ogol
 - **2017:** Mogi Mirim x Ypiranga-RS (grupo B) foi W.O. ('0-WO' na página): entra 0-3, como conta a tabela do grupo
@@ -296,6 +298,7 @@ Registradas nos módulos de `coleta/bra-serie-c/`; cada uma também aparece no r
 
 ### Nome de exibição de clube novo, dado à mão (`clubes_c.MANUAL_NOVO`)
 
+- **3422:** [Santo Amaro-PE] Santo Amaro de Recife, vice de 1981: só jogou a Série C com este nome (RSSSF, ogol e Bola n@ Área); "Manchete" é nome posterior. Nome da época no cadastro (decisão D-03, achado QC-009)
 - **238972:** [Joaçaba EC] Joaçaba Esporte Clube (1977): não é o Joaçaba AC de 1997 (revisão CL-012)
 - **241325:** [SE São Borja] Sociedade Esportiva São Borja (1977): não é o EC São Borja de 2009 (revisão CL-012)
 - **89206:** [Guarabira EC] Guarabira Esporte Clube (1936-2004): não é a AD Guarabira (revisão CL-012)

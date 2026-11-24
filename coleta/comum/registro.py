@@ -7,9 +7,23 @@ ao gravar o pacote, acrescenta os clubes novos.
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 ARQUIVO = Path(__file__).resolve().parent.parent.parent / "data" / "coleta" / "comum" / "clubes_ogol.json"
+
+
+# grafias de cidade da ficha do ogol que a regra de cidade_pt não resolve (achado CL-028)
+CIDADE_GRAFIA = {"Divinopolis": "Divinópolis", "Alegre - Espirito Santo": "Alegre"}
+
+
+def cidade_pt(cidade: str | None) -> str | None:
+    """Cidade como se escreve em português: "de/do/da/dos/das" minúsculos no meio do nome ("Limoeiro Do Norte" ->
+    "Limoeiro do Norte"; a ficha do ogol põe maiúscula) e as grafias de CIDADE_GRAFIA (achado CL-028)."""
+    if not cidade:
+        return cidade
+    cidade = re.sub(r"(?<=\s)(De|Do|Da|Dos|Das)(?=\s)", lambda m: m.group(1).lower(), cidade.strip())
+    return CIDADE_GRAFIA.get(cidade, cidade)
 
 
 def ler() -> dict[str, dict]:
@@ -21,6 +35,7 @@ def acrescentar(clubes: dict[str, dict], slug: str) -> None:
     reg = ler()
     for i, c in clubes.items():
         atual = reg.setdefault(i, {"clube": c["clube"], "uf": c.get("uf"), "cidade": c.get("cidade"), "competicoes": []})
+        atual["cidade"] = cidade_pt(atual.get("cidade"))
         if slug not in atual["competicoes"]:
             atual["competicoes"].append(slug)
     ARQUIVO.parent.mkdir(parents=True, exist_ok=True)

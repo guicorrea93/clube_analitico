@@ -35,6 +35,8 @@ MANUAL_DB: dict[str, tuple[str, str]] = {
 }
 # código do ogol -> nome de exibição de clube novo (quando o nome curto do ogol não serve ou confunde), com o motivo
 MANUAL_NOVO: dict[str, tuple[str, str]] = {
+    "3422": ("Santo Amaro-PE", "Santo Amaro de Recife, vice de 1981: só jogou a Série C com este nome (RSSSF, ogol e Bola n@ Área); "
+                               "\"Manchete\" é nome posterior. Nome da época no cadastro (decisão D-03, achado QC-009)"),
     "238972": ("Joaçaba EC", "Joaçaba Esporte Clube (1977): não é o Joaçaba AC de 1997 (revisão CL-012)"),
     "241325": ("SE São Borja", "Sociedade Esportiva São Borja (1977): não é o EC São Borja de 2009 (revisão CL-012)"),
     "89206": ("Guarabira EC", "Guarabira Esporte Clube (1936-2004): não é a AD Guarabira (revisão CL-012)"),
@@ -105,6 +107,7 @@ def fichas() -> dict[str, dict]:
     d = json.loads((PASTA_DADOS / "ogol" / "clubes.json").read_text(encoding="utf-8"))
     for f in d.values():
         f["curto"] = (f.get("titulo") or "").split(" - ")[0].strip() or (f["nomes_ogol"][0] if f["nomes_ogol"] else f["id"])
+        f["cidade"] = registro.cidade_pt(f.get("cidade"))   # "Limoeiro Do Norte", "Divinopolis" (achado CL-028)
     return d
 
 
