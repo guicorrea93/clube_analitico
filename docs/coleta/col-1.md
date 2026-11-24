@@ -68,19 +68,19 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 1996/97 | 16 | 380 (636) | 948 | 0 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 16 | 426 (426) | 1159 | 80 | 0 / 0 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1999 | 16 | 380 (380) | 997 | 1 | 5 / 2 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000 | 16 | 364 (364) | 972 | 951 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2001 | 16 | 378 (378) | 927 | 894 | 5 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 | 16 | 364 (364) | 972 | 972 | 4 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2001 | 16 | 378 (378) | 927 | 927 | 5 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2002 Apertura | 18 | 224 (224) | 504 | 502 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2002 Finalización | 18 | 224 (224) | 525 | 459 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 Apertura | 18 | 188 (188) | 449 | 295 | 2 / 1 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 Finalización | 18 | 188 (188) | 447 | 304 | 3 / 0 | Deportes Tolima | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2004 Apertura | 18 | 188 (188) | 465 | 301 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2004 Finalización | 18 | 188 (188) | 447 | 318 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 Apertura | 18 | 188 (188) | 456 | 299 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 Finalización | 18 | 187 (188) | 464 | 454 | 2 / 1 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 Finalización | 18 | 224 (224) | 525 | 521 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 Apertura | 18 | 188 (188) | 449 | 449 | 2 / 1 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 Finalización | 18 | 188 (188) | 447 | 425 | 3 / 0 | Deportes Tolima | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 Apertura | 18 | 188 (188) | 465 | 465 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 Finalización | 18 | 188 (188) | 447 | 442 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Apertura | 18 | 188 (188) | 456 | 454 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Finalización | 18 | 187 (188) | 464 | 464 | 2 / 1 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 Apertura | 18 | 188 (188) | 475 | 471 | 3 / 0 | Deportivo Pasto | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 Finalización | 18 | 188 (179) | 479 | 479 | 3 / 1 | Cúcuta Deportivo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2007 Apertura | 18 | 188 (188) | 482 | 472 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2007 Apertura | 18 | 188 (188) | 482 | 482 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2007 Finalización | 18 | 189 (188) | 446 | 404 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 Apertura | 18 | 188 (188) | 469 | 452 | 3 / 0 | Boyacá Chicó | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 Finalización | 18 | 188 (188) | 427 | 427 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |

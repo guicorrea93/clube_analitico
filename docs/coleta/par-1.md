@@ -104,52 +104,52 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 | 1996 | 13 | 182 (182) | 519 | 0 | 0 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997 | 13 | 190 (190) | 528 | 7 | 0 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 12 | 170 (170) | 472 | 0 | 6 / 4 | Olimpia | RSSSF (para98) |
-| 1999 | 11 | 145 (145) | 398 | 7 | 6 / 3 | Olimpia | RSSSF (para99) |
-| 2000 | 10 | 163 (163) | 437 | 114 | 3 / 1 | Olimpia | RSSSF (para00) |
-| 2001 | 10 | 104 (104) | 295 | 183 | 2 / 0 | Cerro Porteño | RSSSF (para01) |
-| 2002 | 10 | 151 (151) | 418 | 288 | 3 / 0 | Libertad | RSSSF (para02) |
-| 2003 | 10 | 153 (152) | 398 | 239 | 5 / 0 | Libertad | RSSSF (para03) |
-| 2004 | 10 | 180 (180) | 465 | 282 | 2 / 0 | Cerro Porteño | RSSSF (para04) |
-| 2005 | 10 | 181 (180) | 462 | 407 | 3 / 0 | Cerro Porteño | RSSSF (para05) |
-| 2006 | 11 | 222 (222) | 634 | 621 | 2 / 0 | Libertad | RSSSF (para06) |
-| 2007 | 12 | 267 (266) | 676 | 635 | 2 / 0 | Libertad | RSSSF (para07) |
+| 1999 | 11 | 145 (145) | 398 | 12 | 6 / 3 | Olimpia | RSSSF (para99) |
+| 2000 | 10 | 163 (163) | 437 | 120 | 3 / 1 | Olimpia | RSSSF (para00) |
+| 2001 | 10 | 104 (104) | 295 | 278 | 2 / 0 | Cerro Porteño | RSSSF (para01) |
+| 2002 | 10 | 151 (151) | 418 | 413 | 3 / 0 | Libertad | RSSSF (para02) |
+| 2003 | 10 | 153 (152) | 398 | 394 | 5 / 0 | Libertad | RSSSF (para03) |
+| 2004 | 10 | 180 (180) | 465 | 465 | 2 / 0 | Cerro Porteño | RSSSF (para04) |
+| 2005 | 10 | 181 (180) | 462 | 462 | 3 / 0 | Cerro Porteño | RSSSF (para05) |
+| 2006 | 11 | 222 (222) | 634 | 634 | 2 / 0 | Libertad | RSSSF (para06) |
+| 2007 | 12 | 267 (266) | 676 | 671 | 2 / 0 | Libertad | RSSSF (para07) |
 | 2008 Apertura | 12 | 132 (132) | 391 | 375 | 1 / 0 | Libertad | RSSSF (para08) |
-| 2008 Clausura | 12 | 133 (133) | 341 | 333 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 Clausura | 12 | 133 (133) | 341 | 341 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Apertura | 12 | 134 (134) | 326 | 326 | 0 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Clausura | 12 | 132 (132) | 314 | 314 | 1 / 0 | Nacional de Asunción | RSSSF (para09) |
-| 2010 Apertura | 12 | 132 (132) | 342 | 325 | 1 / 0 | Guaraní de Asunción | RSSSF (para2010) |
-| 2010 Clausura | 12 | 132 (132) | 325 | 318 | 1 / 0 | Libertad | RSSSF (para2010) |
+| 2010 Apertura | 12 | 132 (132) | 342 | 339 | 1 / 0 | Guaraní de Asunción | RSSSF (para2010) |
+| 2010 Clausura | 12 | 132 (132) | 325 | 325 | 1 / 0 | Libertad | RSSSF (para2010) |
 | 2011 Apertura | 12 | 132 (132) | 319 | 319 | 1 / 0 | Nacional de Asunción | RSSSF (para2011) |
 | 2011 Clausura | 12 | 132 (132) | 369 | 369 | 1 / 0 | Olimpia | RSSSF (para2011) |
 | 2012 Apertura | 12 | 132 (132) | 355 | 355 | 1 / 0 | Cerro Porteño | RSSSF (para2012) |
 | 2012 Clausura | 12 | 132 (132) | 339 | 339 | 1 / 0 | Libertad | RSSSF (para2012) |
 | 2013 Apertura | 12 | 132 (132) | 351 | 351 | 1 / 0 | Nacional de Asunción | RSSSF (para2013) |
 | 2013 Clausura | 12 | 132 (132) | 362 | 362 | 1 / 0 | Cerro Porteño | RSSSF (para2013) |
-| 2014 Apertura | 12 | 132 (132) | 385 | 219 | 1 / 0 | Libertad | RSSSF (para2014) |
-| 2014 Clausura | 12 | 132 (132) | 341 | 208 | 1 / 0 | Libertad | RSSSF (para2014) |
-| 2015 Apertura | 12 | 132 (132) | 372 | 206 | 1 / 0 | Cerro Porteño | RSSSF (para2015) |
-| 2015 Clausura | 12 | 133 (133) | 386 | 230 | 1 / 0 | Olimpia | RSSSF (para2015) |
-| 2016 Apertura | 12 | 132 (132) | 433 | 206 | 1 / 0 | Libertad | RSSSF (para2016) |
-| 2016 Clausura | 12 | 132 (132) | 354 | 226 | 1 / 0 | Guaraní de Asunción | RSSSF (para2016) |
-| 2017 Apertura | 12 | 133 (133) | 340 | 329 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2017 Clausura | 12 | 132 (132) | 329 | 222 | 1 / 0 | Cerro Porteño | RSSSF (para2017) |
+| 2014 Apertura | 12 | 132 (132) | 385 | 371 | 1 / 0 | Libertad | RSSSF (para2014) |
+| 2014 Clausura | 12 | 132 (132) | 341 | 334 | 1 / 0 | Libertad | RSSSF (para2014) |
+| 2015 Apertura | 12 | 132 (132) | 372 | 372 | 1 / 0 | Cerro Porteño | RSSSF (para2015) |
+| 2015 Clausura | 12 | 133 (133) | 386 | 386 | 1 / 0 | Olimpia | RSSSF (para2015) |
+| 2016 Apertura | 12 | 132 (132) | 433 | 423 | 1 / 0 | Libertad | RSSSF (para2016) |
+| 2016 Clausura | 12 | 132 (132) | 354 | 354 | 1 / 0 | Guaraní de Asunción | RSSSF (para2016) |
+| 2017 Apertura | 12 | 133 (133) | 340 | 340 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2017 Clausura | 12 | 132 (132) | 329 | 326 | 1 / 0 | Cerro Porteño | RSSSF (para2017) |
 | 2018 Apertura | 12 | 132 (132) | 381 | 378 | 1 / 0 | Olimpia | RSSSF (para2018) |
-| 2018 Clausura | 12 | 132 (132) | 355 | 224 | 1 / 0 | Olimpia | RSSSF (para2018) |
+| 2018 Clausura | 12 | 132 (132) | 355 | 349 | 1 / 0 | Olimpia | RSSSF (para2018) |
 | 2019 Apertura | 12 | 132 (132) | 381 | 378 | 1 / 0 | Olimpia | RSSSF (para2019) |
-| 2019 Clausura | 12 | 132 (132) | 339 | 213 | 1 / 0 | Olimpia | RSSSF (para2019) |
+| 2019 Clausura | 12 | 132 (132) | 339 | 337 | 1 / 0 | Olimpia | RSSSF (para2019) |
 | 2020 Apertura | 12 | 132 (132) | 347 | 344 | 1 / 0 | Cerro Porteño | RSSSF (para2020) |
-| 2020 Clausura | 12 | 73 (73) | 198 | 111 | 1 / 0 | Olimpia | RSSSF (para2020) |
+| 2020 Clausura | 12 | 73 (73) | 198 | 175 | 1 / 0 | Olimpia | RSSSF (para2020) |
 | 2021 Apertura | 10 | 90 (90) | 234 | 234 | 1 / 0 | Libertad | RSSSF (para2021) |
-| 2021 Clausura | 10 | 90 (90) | 222 | 143 | 1 / 0 | Cerro Porteño | RSSSF (para2021) |
+| 2021 Clausura | 10 | 90 (90) | 222 | 218 | 1 / 0 | Cerro Porteño | RSSSF (para2021) |
 | 2022 Apertura | 12 | 132 (132) | 336 | 336 | 1 / 0 | Libertad | RSSSF (para2022) |
 | 2022 Clausura | 12 | 133 (133) | 323 | 323 | 0 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2023 Apertura | 12 | 132 (132) | 317 | 317 | 1 / 0 | Libertad | RSSSF (para2023) |
 | 2023 Clausura | 12 | 133 (133) | 348 | 348 | 0 / 0 | Libertad | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2024 Apertura | 12 | 132 (132) | 339 | 336 | 1 / 0 | Libertad | RSSSF (para2024) |
-| 2024 Clausura | 12 | 132 (132) | 277 | 238 | 1 / 0 | Olimpia | RSSSF (para2024) |
-| 2025 Apertura | 12 | 132 (132) | 288 | 220 | 1 / 0 | Libertad | RSSSF (para2025) |
-| 2025 Clausura | 12 | 132 (132) | 341 | 192 | 1 / 0 | Cerro Porteño | RSSSF (para2025) |
-| 2026 Apertura | 12 | 132 (132) | 322 | 189 | 1 / 0 | Olimpia | RSSSF (para2026) |
+| 2024 Clausura | 12 | 132 (132) | 277 | 277 | 1 / 0 | Olimpia | RSSSF (para2024) |
+| 2025 Apertura | 12 | 132 (132) | 288 | 281 | 1 / 0 | Libertad | RSSSF (para2025) |
+| 2025 Clausura | 12 | 132 (132) | 341 | 334 | 1 / 0 | Cerro Porteño | RSSSF (para2025) |
+| 2026 Apertura | 12 | 132 (132) | 322 | 313 | 1 / 0 | Olimpia | RSSSF (para2026) |
 
 ## Conferência e correções, edição a edição
 

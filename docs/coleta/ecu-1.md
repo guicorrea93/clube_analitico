@@ -60,13 +60,13 @@ Gerado por `python coleta/ecu-1/importar.py`. Pacote em `data/coleta/ecu-1/pacot
 | 2000 | 10 | 210 (210) | 556 | 0 | 3 / 1 | Olmedo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2001 | 10 | 210 (210) | 543 | 0 | 4 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2002 | 10 | 210 (210) | 568 | 0 | 4 / 0 | Emelec | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 | 10 | 210 (210) | 631 | 380 | 2 / 2 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2004 | 10 | 210 (210) | 581 | 342 | 4 / 0 | Deportivo Cuenca | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 Apertura | 10 | 104 (104) | 335 | 171 | 1 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 | 10 | 210 (210) | 631 | 614 | 2 / 2 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 | 10 | 210 (210) | 581 | 556 | 4 / 0 | Deportivo Cuenca | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Apertura | 10 | 104 (104) | 335 | 335 | 1 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Clausura | 10 | 120 (120) | 342 | 342 | 2 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 | 11 | 210 (210) | 587 | 587 | 4 / 0 | El Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2007 | 10 | 210 (210) | 529 | 517 | 4 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2008 | 12 | 222 (222) | 520 | 508 | 5 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2007 | 10 | 210 (210) | 529 | 529 | 4 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 | 12 | 222 (222) | 520 | 520 | 5 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 | 12 | 232 (232) | 527 | 526 | 5 / 1 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2010 | 12 | 268 (268) | 644 | 638 | 3 / 0 | LDU de Quito | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2011 | 12 | 268 (268) | 679 | 679 | 3 / 0 | Deportivo Quito | calculada (fase alcançada, pontos, saldo, gols pró) |

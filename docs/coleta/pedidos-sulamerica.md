@@ -1262,3 +1262,35 @@ revisão de 23 e 24/11 (recados acima, com os ids). Jogos no banco x no pacote:
 - **Bolívia (C2):** fica de 1950 em diante, como está.
 - **Copa Venezuela (C3, ok do Guilherme em 24/11):** ficam as 66 edições e o Deportivo Galicia campeão de 1970, com a
   divergência na observação da edição (`edicoes.csv`). Só essa observação mudou na `ven-copa`.
+
+## 24/11 — Leitor comum: autores de gol em duas linhas (todas as ligas da América do Sul)
+
+- **O que era:** quando a RSSSF quebra a lista de autores em duas linhas ("[A 9, B 68;" e "   C 87]"), o
+  `rsssf_sul.ler` guardava só a primeira. A conta não fechava com o placar e o jogo ficava sem nenhum autor.
+- **O que mudou:** o leitor junta as linhas de continuação até o "]" (no máximo 3; sem o "]" não junta, para não pegar
+  escalação). Funções `_continuacao` e `ler` em `coleta/comum-sulamerica/rsssf_sul.py`.
+- **Efeito (jogos iguais, só autores):**
+
+| Liga | Gols com autor antes | Depois | Ganho |
+|---|---|---|---|
+| `arg-1` | 36.083 | 36.166 | +83 |
+| `uru-1` | 14.335 | 19.072 | +4.737 |
+| `chi-1` | 19.542 | 21.264 | +1.722 |
+| `col-1` | 22.051 | 22.905 | +854 |
+| `par-1` | 13.239 | 15.755 | +2.516 |
+| `per-1` | 20.238 | 22.158 | +1.920 |
+| `ecu-1` | 9.259 | 9.895 | +636 |
+| `bol-1` | 13.666 | 19.842 | +6.176 |
+| `ven-1` | 6.400 | 6.816 | +416 |
+| **Total** | | | **+19.060** |
+
+  - Jogos com autores não separados: de 5.214 para 1.578 (os que restam têm outros formatos).
+  - `artilheiros.csv` mudou no `uru-1` e no `bol-1` (contagem dos gols com autor).
+  - `per-1`: a ordem de duas fases de 1991 trocou, e 12 jogos de 1991 mudaram de id (mesmos jogos).
+  - `chi-1`: um jogo de 2002 ganhou o público (45.540).
+  - As copas não mudam: o importador delas já juntava as linhas.
+- **Teste de carga:** OK nas 9 ligas.
+- **Pedido ao agente 1:** recarregar as 9 ligas (`arg-1` e `bol-1` também, agora).
+- **Para os agentes da Ásia, CONCACAF e Oceania:** `rsssf_asia.py`, `rsssf_concacaf.py` e `rsssf_oce.py` são cópias do
+  `rsssf_sul.py` de 23/11 e devem ter o mesmo defeito. Conferir com a mesma busca: jogos com `gols_texto` terminando em
+  "," ";" ou "/".

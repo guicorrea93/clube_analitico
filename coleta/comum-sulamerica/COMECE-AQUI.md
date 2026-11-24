@@ -123,7 +123,8 @@ abaixo são o histórico; o que está em aberto é esta lista.
 - **D. Trabalho do agente 4 (quando o Guilherme mandar):**
   - D1. Abertos que esperam 3ª fonte: QU-005 (datas do Boca), CO-015 (placares 2001-2018), CO-006 (1986 e 1988),
     CO-004 (1966), CO-022 (números esperados e diagnóstico do relatório).
-  - D2. CONFERIDA (24/11), correção esperando o ok do Guilherme. O `rsssf_sul.ler` só guarda a 1ª linha dos autores
+  - D2. FEITA (24/11, ok do Guilherme): `rsssf_sul._continuacao` junta as linhas dos autores até o "]" (no máximo 3;
+    sem o "]" não junta). +19.060 gols com autor nas 9 ligas; restam os "outros formatos" abaixo. Conferência de antes: O `rsssf_sul.ler` só guarda a 1ª linha dos autores
     ("[A 9, B 68;" e perde "   C 87]"); a conta não fecha com o placar e o jogo fica sem nenhum autor (texto em
     `partidas.gols_texto`). Nos pacotes das 9 ligas: 5.214 jogos com autores não separados, dos quais 3.766 com a lista
     cortada (texto termina em "," ";" ou "/"): arg 19, uru 998, chi 322, col 169, par 505, per 361, ecu 123, bol 1.187,

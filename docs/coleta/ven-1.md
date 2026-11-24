@@ -100,14 +100,14 @@ Gerado por `python coleta/ven-1/importar.py`. Pacote em `data/coleta/ven-1/pacot
 | 1999/00 | 12 | 275 (275) | 746 | 0 | 2 / 2 | Deportivo Táchira | RSSSF (venez00) |
 | 2000/01 | 17 | 204 (204) | 528 | 7 | 3 / 0 | Caracas FC | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2001/02 | 10 | 182 (182) | 532 | 0 | 3 / 0 | Nacional Táchira | RSSSF (venez02) |
-| 2002/03 | 10 | 182 (182) | 403 | 312 | 3 / 0 | Caracas FC | RSSSF (venez03) |
-| 2003/04 | 10 | 180 (180) | 427 | 255 | 2 / 1 | Caracas FC | RSSSF (venez04) |
-| 2004/05 | 10 | 180 (180) | 460 | 320 | 3 / 0 | Unión Atlético Maracaibo | RSSSF (venez05) |
-| 2005/06 | 10 | 183 (182) | 465 | 456 | 3 / 0 | Caracas FC | RSSSF (venez06) |
+| 2002/03 | 10 | 182 (182) | 403 | 396 | 3 / 0 | Caracas FC | RSSSF (venez03) |
+| 2003/04 | 10 | 180 (180) | 427 | 366 | 2 / 1 | Caracas FC | RSSSF (venez04) |
+| 2004/05 | 10 | 180 (180) | 460 | 460 | 3 / 0 | Unión Atlético Maracaibo | RSSSF (venez05) |
+| 2005/06 | 10 | 183 (182) | 465 | 465 | 3 / 0 | Caracas FC | RSSSF (venez06) |
 | 2006/07 | 10 | 182 (182) | 438 | 438 | 3 / 0 | Caracas FC | RSSSF (venez07) |
-| 2007/08 | 18 | 308 (308) | 826 | 774 | 3 / 1 | Deportivo Táchira | RSSSF (venez08) |
-| 2008/09 | 18 | 310 (308) | 776 | 758 | 1 / 2 | Caracas FC | RSSSF (venez09) |
-| 2009/10 | 18 | 309 (308) | 823 | 716 | 3 / 0 | Caracas FC | RSSSF (venez2010) |
+| 2007/08 | 18 | 308 (308) | 826 | 823 | 3 / 1 | Deportivo Táchira | RSSSF (venez08) |
+| 2008/09 | 18 | 310 (308) | 776 | 776 | 1 / 2 | Caracas FC | RSSSF (venez09) |
+| 2009/10 | 18 | 309 (308) | 823 | 721 | 3 / 0 | Caracas FC | RSSSF (venez2010) |
 | 2010/11 | 18 | 307 (307) | 775 | 736 | 1 / 1 | Deportivo Táchira | RSSSF (venez2011) |
 | 2011/12 | 18 | 304 (306) | 699 | 627 | 0 / 2 | Deportivo Lara | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2012/13 | 18 | 308 (308) | 738 | 654 | 3 / 0 | Zamora FC | RSSSF (venez2013) |

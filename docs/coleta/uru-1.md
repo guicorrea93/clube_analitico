@@ -114,34 +114,34 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 | 1996 | 12 | 134 (134) | 310 | 0 | 3 / 2 | Peñarol | RSSSF (uruhist) |
 | 1997 | 13 | 137 (137) | 371 | 0 | 1 / 3 | Peñarol | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1998 | 12 | 132 (132) | 331 | 0 | 1 / 2 | Nacional | RSSSF (uru98) |
-| 1999 | 15 | 214 (214) | 617 | 287 | 3 / 0 | Peñarol | RSSSF (uru99) |
-| 2000 | 18 | 293 (292) | 926 | 624 | 1 / 2 | Nacional | RSSSF (uru00) |
-| 2001 | 18 | 245 (245) | 717 | 450 | 6 / 0 | Nacional | RSSSF (uru01) |
-| 2002 | 18 | 246 (246) | 788 | 532 | 6 / 1 | Nacional | RSSSF (uru02) |
-| 2003 | 18 | 307 (307) | 868 | 527 | 4 / 0 | Peñarol | RSSSF (uru03) |
-| 2004 | 18 | 252 (251) | 657 | 428 | 4 / 1 | Danubio | RSSSF (uru04) |
-| 2005 | 18 | 155 (155) | 445 | 237 | 1 / 0 | Nacional | RSSSF (uru05) |
-| 2005/06 | 20 | 293 (293) | 801 | 764 | 3 / 0 | Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006/07 | 16 | 245 (245) | 691 | 684 | 3 / 0 | Danubio | RSSSF (uru07) |
-| 2007/08 | 16 | 244 (243) | 726 | 697 | 3 / 0 | Defensor Sporting | RSSSF (uru08) |
-| 2008/09 | 16 | 233 (233) | 639 | 633 | 3 / 0 | Nacional | RSSSF (uru09) |
-| 2009/10 | 16 | 243 (243) | 711 | 690 | 3 / 0 | Peñarol | RSSSF (uru2010) |
-| 2010/11 | 16 | 241 (241) | 668 | 657 | 3 / 0 | Nacional | RSSSF (uru2011) |
-| 2011/12 | 16 | 243 (242) | 665 | 660 | 3 / 0 | Nacional | RSSSF (uru2012) |
+| 1999 | 15 | 214 (214) | 617 | 601 | 3 / 0 | Peñarol | RSSSF (uru99) |
+| 2000 | 18 | 293 (292) | 926 | 907 | 1 / 2 | Nacional | RSSSF (uru00) |
+| 2001 | 18 | 245 (245) | 717 | 678 | 6 / 0 | Nacional | RSSSF (uru01) |
+| 2002 | 18 | 246 (246) | 788 | 768 | 6 / 1 | Nacional | RSSSF (uru02) |
+| 2003 | 18 | 307 (307) | 868 | 867 | 4 / 0 | Peñarol | RSSSF (uru03) |
+| 2004 | 18 | 252 (251) | 657 | 650 | 4 / 1 | Danubio | RSSSF (uru04) |
+| 2005 | 18 | 155 (155) | 445 | 426 | 1 / 0 | Nacional | RSSSF (uru05) |
+| 2005/06 | 20 | 293 (293) | 801 | 790 | 3 / 0 | Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006/07 | 16 | 245 (245) | 691 | 689 | 3 / 0 | Danubio | RSSSF (uru07) |
+| 2007/08 | 16 | 244 (243) | 726 | 718 | 3 / 0 | Defensor Sporting | RSSSF (uru08) |
+| 2008/09 | 16 | 233 (233) | 639 | 637 | 3 / 0 | Nacional | RSSSF (uru09) |
+| 2009/10 | 16 | 243 (243) | 711 | 705 | 3 / 0 | Peñarol | RSSSF (uru2010) |
+| 2010/11 | 16 | 241 (241) | 668 | 663 | 3 / 0 | Nacional | RSSSF (uru2011) |
+| 2011/12 | 16 | 243 (242) | 665 | 665 | 3 / 0 | Nacional | RSSSF (uru2012) |
 | 2012/13 | 16 | 241 (241) | 633 | 633 | 3 / 0 | Peñarol | RSSSF (uru2013) |
-| 2013/14 | 16 | 246 (246) | 700 | 580 | 3 / 0 | Danubio | RSSSF (uru2014) |
-| 2014/15 | 16 | 241 (241) | 690 | 489 | 3 / 0 | Nacional | RSSSF (uru2015) |
-| 2015/16 | 16 | 241 (241) | 637 | 491 | 3 / 0 | Peñarol | RSSSF (uru2016) |
-| 2016 | 16 | 120 (120) | 289 | 228 | 1 / 0 | Nacional | RSSSF (uru2016a) |
-| 2017 | 16 | 304 (304) | 797 | 596 | 5 / 0 | Peñarol | RSSSF (uru2017) |
-| 2018 | 16 | 292 (292) | 705 | 463 | 6 / 0 | Peñarol | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2019 | 16 | 299 (299) | 802 | 501 | 5 / 0 | Nacional | RSSSF (uru2019) |
-| 2020 | 16 | 302 (301) | 774 | 419 | 5 / 0 | Nacional | RSSSF (uru2020) |
-| 2021 | 16 | 241 (241) | 608 | 356 | 3 / 0 | Peñarol | RSSSF (uru2021) |
-| 2022 | 16 | 300 (299) | 647 | 393 | 5 / 0 | Nacional | RSSSF (uru2022) |
-| 2023 | 16 | 301 (300) | 684 | 418 | 5 / 0 | Liverpool de Montevideo | RSSSF (uru2023) |
-| 2024 | 16 | 297 (297) | 723 | 404 | 5 / 0 | Peñarol | RSSSF (uru2024) |
-| 2025 | 16 | 300 (300) | 700 | 459 | 5 / 0 | Nacional | RSSSF (uru2025) |
+| 2013/14 | 16 | 246 (246) | 700 | 688 | 3 / 0 | Danubio | RSSSF (uru2014) |
+| 2014/15 | 16 | 241 (241) | 690 | 673 | 3 / 0 | Nacional | RSSSF (uru2015) |
+| 2015/16 | 16 | 241 (241) | 637 | 633 | 3 / 0 | Peñarol | RSSSF (uru2016) |
+| 2016 | 16 | 120 (120) | 289 | 286 | 1 / 0 | Nacional | RSSSF (uru2016a) |
+| 2017 | 16 | 304 (304) | 797 | 791 | 5 / 0 | Peñarol | RSSSF (uru2017) |
+| 2018 | 16 | 292 (292) | 705 | 697 | 6 / 0 | Peñarol | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2019 | 16 | 299 (299) | 802 | 795 | 5 / 0 | Nacional | RSSSF (uru2019) |
+| 2020 | 16 | 302 (301) | 774 | 763 | 5 / 0 | Nacional | RSSSF (uru2020) |
+| 2021 | 16 | 241 (241) | 608 | 605 | 3 / 0 | Peñarol | RSSSF (uru2021) |
+| 2022 | 16 | 300 (299) | 647 | 637 | 5 / 0 | Nacional | RSSSF (uru2022) |
+| 2023 | 16 | 301 (300) | 684 | 663 | 5 / 0 | Liverpool de Montevideo | RSSSF (uru2023) |
+| 2024 | 16 | 297 (297) | 723 | 718 | 5 / 0 | Peñarol | RSSSF (uru2024) |
+| 2025 | 16 | 300 (300) | 700 | 691 | 5 / 0 | Nacional | RSSSF (uru2025) |
 
 ## Conferência e correções, edição a edição
 

@@ -99,6 +99,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0007,Deportes Quindío,Oyie,,,normal,RSSSF
 2000-0007,Deportes Quindío,Hernández,,,normal,RSSSF
 2000-0007,Deportivo Pasto,Bolívar,,,normal,RSSSF
+2000-0008,Independiente Santa Fe,Cárdenas,62,,normal,RSSSF
+2000-0008,Independiente Santa Fe,Preciado,90,,normal,RSSSF
+2000-0008,Deportes Tolima,Charria,2,,normal,RSSSF
+2000-0008,Deportes Tolima,Becerra,54,,normal,RSSSF
+2000-0008,Deportes Tolima,Patiño,58,,normal,RSSSF
+2000-0008,Deportes Tolima,Martínez,79,,penalti,RSSSF
+2000-0008,Deportes Tolima,Caicedo,88,,normal,RSSSF
 2000-0009,Atlético Nacional,Aristizábal,17,,normal,RSSSF
 2000-0009,Atlético Nacional,Mackenzie,68,,normal,RSSSF
 2000-0009,Atlético Nacional,España,72,,normal,RSSSF
@@ -333,6 +340,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0102,Deportivo Pasto,Patiño,54,,normal,RSSSF
 2000-0103,Real Cartagena,Viáfara,45,,normal,RSSSF
 2000-0103,América de Cali,Pérez,58,,normal,RSSSF
+2000-0104,Independiente Medellín,Gutiérrez,8,,normal,RSSSF
+2000-0104,Independiente Medellín,Valenciano,68,,normal,RSSSF
+2000-0104,Independiente Medellín,Murillo,93,,normal,RSSSF
+2000-0104,Atlético Nacional,Aristizábal,23,,normal,RSSSF
+2000-0104,Atlético Nacional,A Palacios,29,,normal,RSSSF
+2000-0104,Atlético Nacional,Muñoz,57,,normal,RSSSF
+2000-0104,Atlético Nacional,Moreno,75,,normal,RSSSF
 2000-0105,Envigado,Cortés,9,,normal,RSSSF
 2000-0105,Envigado,Cortés,59,,normal,RSSSF
 2000-0105,Envigado,Vásquez,43,,normal,RSSSF
@@ -410,6 +424,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2000-0128,Deportivo Pasto,Moncayo,88,,normal,RSSSF
 2000-0128,Millonarios,Mosquera,22,,normal,RSSSF
 2000-0128,Millonarios,Fernández,80,,normal,RSSSF
+2000-0129,Deportivo Cali,Segura,35,,normal,RSSSF
+2000-0129,Deportivo Cali,Dudamel 40 pen,,,normal,RSSSF
+2000-0129,Deportivo Cali,Salazar,74,,normal,RSSSF
+2000-0129,Deportivo Cali,Hernández,76,,normal,RSSSF
+2000-0129,Deportivo Cali,Castillo,93,,normal,RSSSF
+2000-0129,Deportes Tolima,Arrieta,50,,normal,RSSSF
+2000-0129,Deportes Tolima,Becerra,91,,normal,RSSSF
 2000-0130,Real Cartagena,Higuita 70 pen,,,normal,RSSSF
 2000-0130,Real Cartagena,Murillo,80,,normal,RSSSF
 2000-0131,Atlético Huila,Redín,72,,normal,RSSSF
@@ -1200,6 +1221,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0072,Cortuluá,Sacramento,16,,normal,RSSSF
 2001-0072,Cortuluá,Barahona,67,,normal,RSSSF
 2001-0072,América de Cali,Roganovich,20,,normal,RSSSF
+2001-0073,Once Caldas,Valentierra,33,,penalti,RSSSF
+2001-0073,Once Caldas,Velásquez,79,,normal,RSSSF
+2001-0073,Cortuluá,Muñoz,23,,normal,RSSSF
+2001-0073,Cortuluá,Dos Santos,52,,normal,RSSSF
+2001-0073,Cortuluá,Sacramento,66,,normal,RSSSF
+2001-0073,Cortuluá,Ceballos,84,,normal,RSSSF
+2001-0074,América de Cali,Herrera,7,,normal,RSSSF
+2001-0074,América de Cali,Herrera,71,,normal,RSSSF
+2001-0074,América de Cali,Herrera,80,,normal,RSSSF
+2001-0074,América de Cali,Vásquez,47,,penalti,RSSSF
+2001-0074,América de Cali,Virviescas,67,,normal,RSSSF
+2001-0074,América de Cali,Enciso,89,,normal,RSSSF
+2001-0074,Deportes Tolima,Vidal,29,,normal,RSSSF
+2001-0074,Deportes Tolima,Vidal,83,,normal,RSSSF
+2001-0074,Deportes Tolima,Velásquez,35,,normal,RSSSF
+2001-0074,Deportes Tolima,Velásquez,49,,normal,RSSSF
 2001-0075,Independiente Santa Fe,Arroyo,4,,normal,RSSSF
 2001-0075,Independiente Santa Fe,Arboleda,46,,normal,RSSSF
 2001-0075,Independiente Santa Fe,Moreno,84,,normal,RSSSF
@@ -1802,6 +1839,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0312,Atlético Bucaramanga,Flavién,51,,normal,RSSSF
 2001-0313,Independiente Santa Fe,Preciado,19,,normal,RSSSF
 2001-0313,Independiente Santa Fe,Moreno Murillo,55,,normal,RSSSF
+2001-0314,Envigado,Giraldo,40,,normal,RSSSF
+2001-0314,Envigado,Rivera,66,,contra,RSSSF
+2001-0314,Envigado,Agustinho,80,,normal,RSSSF
+2001-0314,Envigado,Leal,83,,penalti,RSSSF
+2001-0314,Envigado,Gomez,89,,normal,RSSSF
+2001-0314,Envigado,Mosquera,92,,normal,RSSSF
+2001-0314,Millonarios,Pérez,33,,normal,RSSSF
+2001-0314,Millonarios,Castro,75,,normal,RSSSF
+2001-0314,Millonarios,Orrego,79,,normal,RSSSF
 2001-0315,Deportes Tolima,Cardona,13,,penalti,RSSSF
 2001-0315,Deportes Tolima,Cardona,20,,penalti,RSSSF
 2001-0315,Deportivo Cali,Mina Polo,33,,normal,RSSSF
@@ -1850,6 +1896,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2001-0342,Real Cartagena,R.Ramos,88,,normal,RSSSF
 2001-0342,Independiente Santa Fe,Jaramillo,70,,normal,RSSSF
 2001-0342,Independiente Santa Fe,Moreno,78,,normal,RSSSF
+2001-0343,Atlético Huila,Copete,26,,normal,RSSSF
+2001-0343,Atlético Huila,García,28,,penalti,RSSSF
+2001-0343,Atlético Huila,Bolívar,32,,normal,RSSSF
+2001-0343,Atlético Bucaramanga,Ambuila,10,,normal,RSSSF
+2001-0343,Atlético Bucaramanga,Yepes,20,,normal,RSSSF
+2001-0343,Atlético Bucaramanga,Flavién,36,,normal,RSSSF
+2001-0343,Atlético Bucaramanga,Vásquez,78,,normal,RSSSF
+2001-0343,Atlético Bucaramanga,Rojas,88,,normal,RSSSF
 2001-0345,Atlético Nacional,Hurtado,1,,normal,RSSSF
 2001-0345,Atlético Nacional,Velásquez,20,,normal,RSSSF
 2001-0346,Deportivo Pasto,Betancurt,64,,normal,RSSSF
@@ -2428,6 +2482,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-apertura-0223,Atlético Nacional,Iván Velásquez,43,,normal,RSSSF
 2002-apertura-0224,América de Cali,Jairo Castillo,71,,normal,RSSSF
 2002-finalizacion-0001,Deportivo Pereira,Rodríguez,59,,normal,RSSSF
+2002-finalizacion-0002,Millonarios,Viafara,9,,normal,RSSSF
+2002-finalizacion-0002,Millonarios,Quintana,15,,normal,RSSSF
+2002-finalizacion-0002,Millonarios,Toro,28,,normal,RSSSF
+2002-finalizacion-0002,Millonarios,Toro,45,,normal,RSSSF
+2002-finalizacion-0002,Atlético Bucaramanga,Ballesteros,27,,normal,RSSSF
+2002-finalizacion-0002,Atlético Bucaramanga,Carpintero,51,,normal,RSSSF
 2002-finalizacion-0003,Once Caldas,Díaz,69,,normal,RSSSF
 2002-finalizacion-0004,Deportes Quindío,Daguerre,44,,penalti,RSSSF
 2002-finalizacion-0005,Independiente Medellín,Vásquez,84,,normal,RSSSF
@@ -2458,6 +2518,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0021,Atlético Huila,Da Silva,52,,normal,RSSSF
 2002-finalizacion-0021,Independiente Santa Fe,Serrano,1,,normal,RSSSF
 2002-finalizacion-0021,Independiente Santa Fe,Jaramillo,42,,normal,RSSSF
+2002-finalizacion-0024,Deportivo Pasto,Salazar,4,,normal,RSSSF
+2002-finalizacion-0024,Deportivo Pasto,Escobar,18,,normal,RSSSF
+2002-finalizacion-0024,Deportivo Pasto,Valencia,44,,normal,RSSSF
+2002-finalizacion-0024,Deportivo Pasto,Tovar,63,,normal,RSSSF
+2002-finalizacion-0024,Atlético Bucaramanga,Ballesteros,42,,penalti,RSSSF
+2002-finalizacion-0024,Atlético Bucaramanga,Hernández,64,,normal,RSSSF
+2002-finalizacion-0024,Atlético Bucaramanga,Hernández,89,,normal,RSSSF
 2002-finalizacion-0025,América de Cali,González,89,,penalti,RSSSF
 2002-finalizacion-0026,Junior de Barranquilla,Arzuaga,34,,normal,RSSSF
 2002-finalizacion-0026,Real Cartagena,Urbano,73,,normal,RSSSF
@@ -2474,6 +2541,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0030,América de Cali,Téllez,46,,normal,RSSSF
 2002-finalizacion-0030,Deportivo Cali,Preciado,31,,normal,RSSSF
 2002-finalizacion-0030,Deportivo Cali,Córdoba,50,,normal,RSSSF
+2002-finalizacion-0031,Deportivo Pereira,Córdoba,27,,normal,RSSSF
+2002-finalizacion-0031,Deportivo Pereira,Echeverry,46,,normal,RSSSF
+2002-finalizacion-0031,Deportivo Pereira,Mosquera,77,,normal,RSSSF
+2002-finalizacion-0031,Cortuluá,Martínez,23,,normal,RSSSF
+2002-finalizacion-0031,Cortuluá,Martínez,64,,normal,RSSSF
+2002-finalizacion-0031,Cortuluá,Trespalacios,34,,normal,RSSSF
+2002-finalizacion-0031,Cortuluá,Londoño,46,,normal,RSSSF
 2002-finalizacion-0032,Deportes Quindío,Viáfara,65,,contra,RSSSF
 2002-finalizacion-0032,Once Caldas,Galván,70,,normal,RSSSF
 2002-finalizacion-0033,Junior de Barranquilla,Ortíz,19,,penalti,RSSSF
@@ -2570,6 +2644,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0072,Deportivo Pereira,Rodríguez,15,,normal,RSSSF
 2002-finalizacion-0073,Envigado,Álvarez,63,,normal,RSSSF
 2002-finalizacion-0073,Once Caldas,Viáfara,87,,normal,RSSSF
+2002-finalizacion-0074,Deportes Quindío,Lara,59,,penalti,RSSSF
+2002-finalizacion-0074,Atlético Bucaramanga,Sarmiento,47,,normal,RSSSF
+2002-finalizacion-0074,Atlético Bucaramanga,Ballesteros,71,,normal,RSSSF
+2002-finalizacion-0074,Atlético Bucaramanga,Carpintero,83,,normal,RSSSF
 2002-finalizacion-0075,Deportivo Pereira,Rodríguez,11,,normal,RSSSF
 2002-finalizacion-0075,Deportivo Pereira,Rodríguez,63,,normal,RSSSF
 2002-finalizacion-0075,Deportivo Pereira,Acosta,28,,normal,RSSSF
@@ -2655,6 +2733,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0112,Deportivo Pereira,Rodríguez,65,,normal,RSSSF
 2002-finalizacion-0112,Deportes Tolima,Ciciliano,55,,normal,RSSSF
 2002-finalizacion-0112,Deportes Tolima,Ciciliano,79,,normal,RSSSF
+2002-finalizacion-0113,Deportivo Pasto,Rojas,13,,normal,RSSSF
+2002-finalizacion-0113,Deportivo Pasto,Escobar,63,,normal,RSSSF
+2002-finalizacion-0113,Deportivo Pasto,Vidal,77,,normal,RSSSF
+2002-finalizacion-0113,Deportivo Pasto,Jaramillo,82,,normal,RSSSF
+2002-finalizacion-0113,Independiente Santa Fe,Herrera,25,,normal,RSSSF
 2002-finalizacion-0114,Millonarios,Guerra,35,,normal,RSSSF
 2002-finalizacion-0114,Once Caldas,Galván,18,,normal,RSSSF
 2002-finalizacion-0115,Cortuluá,Hernández,1,,normal,RSSSF
@@ -2692,10 +2775,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0131,Deportes Tolima,Alcázar,71,,normal,RSSSF
 2002-finalizacion-0132,Unión Magdalena,Mendoza,55,,normal,RSSSF
 2002-finalizacion-0133,Atlético Huila,Romaña,44,,normal,RSSSF
+2002-finalizacion-0134,Real Cartagena,Urbano,14,,normal,RSSSF
+2002-finalizacion-0134,Atlético Nacional,Grisales,32,,normal,RSSSF
+2002-finalizacion-0134,Atlético Nacional,Grisales,57,,normal,RSSSF
+2002-finalizacion-0134,Atlético Nacional,Ricaurte,35,,normal,RSSSF
+2002-finalizacion-0134,Atlético Nacional,Ricaurte,45,,normal,RSSSF
+2002-finalizacion-0134,Atlético Nacional,Echavarría,49,,normal,RSSSF
 2002-finalizacion-0135,Independiente Medellín,Montoya,5,,normal,RSSSF
 2002-finalizacion-0135,Independiente Medellín,Molina,44,,normal,RSSSF
 2002-finalizacion-0135,Independiente Medellín,Molina,47,,normal,RSSSF
 2002-finalizacion-0135,Junior de Barranquilla,Rolong,38,,normal,RSSSF
+2002-finalizacion-0136,Atlético Bucaramanga,Ballesteros,7,,normal,RSSSF
+2002-finalizacion-0136,Atlético Bucaramanga,Cuadros,11,,normal,RSSSF
+2002-finalizacion-0136,Atlético Bucaramanga,Carpintero,46,,normal,RSSSF
+2002-finalizacion-0136,Independiente Medellín,Reyes,24,,contra,RSSSF
 2002-finalizacion-0137,Junior de Barranquilla,Arzúaga,72,,normal,RSSSF
 2002-finalizacion-0137,Junior de Barranquilla,Rojano,76,,normal,RSSSF
 2002-finalizacion-0137,Atlético Huila,Buelvas,5,,normal,RSSSF
@@ -2718,6 +2811,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0147,Deportivo Cali,Preciado,17,,normal,RSSSF
 2002-finalizacion-0147,Deportivo Cali,Murillo,74,,normal,RSSSF
 2002-finalizacion-0147,Deportivo Cali,Hernández,92,,normal,RSSSF
+2002-finalizacion-0148,Real Cartagena,Valenciano,23,,normal,RSSSF
+2002-finalizacion-0148,Real Cartagena,Valenciano,52,,normal,RSSSF
+2002-finalizacion-0148,Independiente Santa Fe,Herrera,30,,normal,RSSSF
+2002-finalizacion-0148,Independiente Santa Fe,Maturana,40,,normal,RSSSF
+2002-finalizacion-0148,Independiente Santa Fe,Maturana,89,,normal,RSSSF
+2002-finalizacion-0148,Independiente Santa Fe,Ramírez,43,,normal,RSSSF
 2002-finalizacion-0150,Junior de Barranquilla,Ortíz,52,,normal,RSSSF
 2002-finalizacion-0150,Junior de Barranquilla,Rojano,59,,normal,RSSSF
 2002-finalizacion-0151,Deportivo Pasto,Rendón,25,,normal,RSSSF
@@ -2732,6 +2831,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0154,Atlético Bucaramanga,Carpintero,84,,normal,RSSSF
 2002-finalizacion-0155,Independiente Medellín,Cortés,45,,normal,RSSSF
 2002-finalizacion-0155,Independiente Medellín,Agostinho,66,,normal,RSSSF
+2002-finalizacion-0156,Junior de Barranquilla,Rojano,18,,normal,RSSSF
+2002-finalizacion-0156,Junior de Barranquilla,Arzuaga,42,,normal,RSSSF
+2002-finalizacion-0156,Junior de Barranquilla,Ortíz,90,,penalti,RSSSF
+2002-finalizacion-0156,Deportivo Pasto,Patiño,26,,normal,RSSSF
+2002-finalizacion-0156,Deportivo Pasto,Jaramillo,36,,normal,RSSSF
+2002-finalizacion-0156,Deportivo Pasto,Díaz,46,,normal,RSSSF
+2002-finalizacion-0156,Deportivo Pasto,Díaz,62,,normal,RSSSF
 2002-finalizacion-0157,Envigado,Sánchez,11,,normal,RSSSF
 2002-finalizacion-0157,Deportivo Pereira,Cortés,17,,normal,RSSSF
 2002-finalizacion-0157,Deportivo Pereira,Palacios,44,,normal,RSSSF
@@ -2740,6 +2846,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0159,Once Caldas,Galván,18,,normal,RSSSF
 2002-finalizacion-0159,Once Caldas,Galván,62,,normal,RSSSF
 2002-finalizacion-0159,Once Caldas,Viáfara,89,,normal,RSSSF
+2002-finalizacion-0160,Independiente Santa Fe,Serrano,28,,normal,RSSSF
+2002-finalizacion-0160,Independiente Santa Fe,Jaramillo,48,,normal,RSSSF
+2002-finalizacion-0160,Independiente Santa Fe,Ramos,72,,normal,RSSSF
+2002-finalizacion-0160,Unión Magdalena,Vilarete,35,,normal,RSSSF
+2002-finalizacion-0160,Unión Magdalena,Vilarete,63,,normal,RSSSF
+2002-finalizacion-0160,Unión Magdalena,Carrillo,40,,normal,RSSSF
 2002-finalizacion-0161,Deportes Tolima,Peña,32,,normal,RSSSF
 2002-finalizacion-0161,Deportes Tolima,Ciciliano,51,,penalti,RSSSF
 2002-finalizacion-0161,Atlético Nacional,Mosquera,25,,normal,RSSSF
@@ -2869,6 +2981,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0214,Unión Magdalena,Ancízar Valencia 47+,,,normal,RSSSF
 2002-finalizacion-0215,Deportivo Cali,Leider Preciado,20,,normal,RSSSF
 2002-finalizacion-0216,Independiente Medellín,David Montoya,75,,normal,RSSSF
+2002-finalizacion-0217,Unión Magdalena,Andrés Buelvas,23,,normal,RSSSF
+2002-finalizacion-0217,Unión Magdalena,Víctor Pacheco,57,,normal,RSSSF
+2002-finalizacion-0217,Unión Magdalena,José Herrera,89,,normal,RSSSF
+2002-finalizacion-0217,América de Cali,Erwin Maturana,74,,contra,RSSSF
 2002-finalizacion-0218,Deportivo Pasto,Pablo Jaramillo,72,,normal,RSSSF
 2002-finalizacion-0219,Atlético Bucaramanga,Ballesteros,46,,normal,RSSSF
 2002-finalizacion-0219,Deportivo Cali,Castillo,2,,normal,RSSSF
@@ -2887,6 +3003,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2002-finalizacion-0224,Deportivo Pasto,Walter Escobar,57,,normal,RSSSF
 2002-finalizacion-0224,Independiente Medellín,Mauricio Molina,28,,normal,RSSSF
 2003-apertura-0001,Independiente Santa Fe,Milton Rodríguez,48,,normal,RSSSF
+2003-apertura-0003,Atlético Bucaramanga,Wbeymar Olivares,56,,penalti,RSSSF
+2003-apertura-0003,Atlético Bucaramanga,Wilson Carpintero,71,,normal,RSSSF
+2003-apertura-0003,Atlético Nacional,Cristian Marrugo,34,,normal,RSSSF
 2003-apertura-0004,Deportivo Cali,Jairo Patiño,50,,normal,RSSSF
 2003-apertura-0004,Deportivo Cali,Jairo Patiño,91,,normal,RSSSF
 2003-apertura-0004,Atlético Huila,Henry Vásquez,11,,normal,RSSSF
@@ -2903,6 +3022,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0008,Once Caldas,Sergio Galván,38,,normal,RSSSF
 2003-apertura-0009,Deportes Tolima,Arley Dinas,63,,normal,RSSSF
 2003-apertura-0009,Deportes Tolima,Elson Becerra,75,,normal,RSSSF
+2003-apertura-0010,Millonarios,Belmer Aguilar,30,,normal,RSSSF
+2003-apertura-0010,Millonarios,Johan Viáfara,62,,normal,RSSSF
+2003-apertura-0010,Independiente Santa Fe,Jorge Herrera,7,,normal,RSSSF
+2003-apertura-0010,Independiente Santa Fe,Julián González,87,,normal,RSSSF
+2003-apertura-0011,Once Caldas,Arnulfo Valentierra,43,,penalti,RSSSF
+2003-apertura-0011,Once Caldas,Sergio Galván,69,,normal,RSSSF
+2003-apertura-0011,Unión Magdalena,Angelo Labastidas,82,,normal,RSSSF
 2003-apertura-0012,América de Cali,Julián Vásquez,27,,normal,RSSSF
 2003-apertura-0012,América de Cali,Julián Vásquez,64,,normal,RSSSF
 2003-apertura-0012,América de Cali,Julián Vásquez,71,,normal,RSSSF
@@ -2911,6 +3037,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0014,Atlético Nacional,Héctor Hurtado,80,,normal,RSSSF
 2003-apertura-0015,Cortuluá,Oscar Londoño,43,,normal,RSSSF
 2003-apertura-0015,Atlético Bucaramanga,Wilson Carpintero,67,,normal,RSSSF
+2003-apertura-0016,Junior de Barranquilla,Martín Arzuaga,19,,normal,RSSSF
+2003-apertura-0016,Junior de Barranquilla,Eudalio Arriaga,83,,penalti,RSSSF
+2003-apertura-0016,Deportivo Pereira,Víctor Cortés,58,,normal,RSSSF
 2003-apertura-0017,Envigado,Alexander Orrego,29,,normal,RSSSF
 2003-apertura-0018,Centauros Villavicencio,Nestor Salazar,9,,normal,RSSSF
 2003-apertura-0018,Centauros Villavicencio,Herly Alcázar,24,,normal,RSSSF
@@ -2922,21 +3051,51 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0021,Deportivo Cali,Carlos Castillo,56,,normal,RSSSF
 2003-apertura-0021,Deportivo Cali,Carlos Castillo,79,,normal,RSSSF
 2003-apertura-0022,Deportivo Pasto,Carlos Salazar,1,,normal,RSSSF
+2003-apertura-0023,Deportes Tolima,John Charria,13,,normal,RSSSF
+2003-apertura-0023,Deportes Tolima,John Charria,64,,normal,RSSSF
+2003-apertura-0023,Deportes Tolima,Elson Becerra,75,,normal,RSSSF
+2003-apertura-0023,Atlético Huila,Harold Rivera,80,,penalti,RSSSF
 2003-apertura-0024,Independiente Medellín,Diego Alvarez,78,,normal,RSSSF
 2003-apertura-0024,Centauros Villavicencio,Oswaldo Mackenzie,56,,normal,RSSSF
+2003-apertura-0025,Deportes Quindío,Nelson Gómez,19,,normal,RSSSF
+2003-apertura-0025,Deportes Quindío,Wilson Segura,55,,normal,RSSSF
+2003-apertura-0025,América de Cali,Julián Vásquez,8,,normal,RSSSF
+2003-apertura-0025,América de Cali,Julián Vásquez,54,,normal,RSSSF
+2003-apertura-0025,América de Cali,Fabián Vargas,27,,normal,RSSSF
+2003-apertura-0025,América de Cali,Leonardo Fabio Moreno,88,,normal,RSSSF
 2003-apertura-0026,Unión Magdalena,Orlando Fuentes,10,,normal,RSSSF
 2003-apertura-0026,Unión Magdalena,Orlando Fuentes,51,,normal,RSSSF
 2003-apertura-0028,Independiente Santa Fe,Luis Zuleta,7,,normal,RSSSF
+2003-apertura-0029,América de Cali,Julián Vásquez,47,,normal,RSSSF
+2003-apertura-0029,América de Cali,James López,54,,normal,RSSSF
+2003-apertura-0029,América de Cali,Leonardo Moreno,62,,normal,RSSSF
+2003-apertura-0029,América de Cali,Fabián Vargas,72,,normal,RSSSF
+2003-apertura-0029,América de Cali,Iván López,76,,normal,RSSSF
+2003-apertura-0029,América de Cali,David Ferreira,82,,normal,RSSSF
+2003-apertura-0029,Unión Magdalena,José Herrera,74,,normal,RSSSF
+2003-apertura-0029,Unión Magdalena,Víctor Danilo Pacheco,89,,penalti,RSSSF
 2003-apertura-0030,Atlético Nacional,Rafael Castillo,6,,normal,RSSSF
 2003-apertura-0031,Cortuluá,Oscar Londoño,47,,normal,RSSSF
 2003-apertura-0031,Cortuluá,Javier Arizala,84,,normal,RSSSF
 2003-apertura-0032,Centauros Villavicencio,Herly Alcázar,56,,normal,RSSSF
 2003-apertura-0032,Centauros Villavicencio,Rubiel Quintana,61,,normal,RSSSF
+2003-apertura-0033,Deportivo Pereira,Víctor Cortés,25,,normal,RSSSF
+2003-apertura-0033,Deportivo Pereira,Pablo Jaramillo,45,,normal,RSSSF
+2003-apertura-0033,Deportivo Pereira,Hugo Sánchez,89,,normal,RSSSF
+2003-apertura-0033,Atlético Bucaramanga,Andrés Sarmiento,33,,normal,RSSSF
+2003-apertura-0033,Atlético Bucaramanga,Wilson Carpintero,42,,normal,RSSSF
+2003-apertura-0033,Atlético Bucaramanga,Jorge Parra,47,,normal,RSSSF
 2003-apertura-0034,Envigado,Hugo Arias,45,,normal,RSSSF
 2003-apertura-0034,Envigado,Alexander Orrego,83,,normal,RSSSF
 2003-apertura-0035,Junior de Barranquilla,Orlando Ballesteros,7,,normal,RSSSF
 2003-apertura-0035,Junior de Barranquilla,Orlando Ballesteros,48,,normal,RSSSF
 2003-apertura-0036,Atlético Huila,Julián Mosquera,65,,normal,RSSSF
+2003-apertura-0037,Deportivo Cali,Jorge Díaz,24,,normal,RSSSF
+2003-apertura-0037,Deportivo Cali,Guillermo Rivera,40,,normal,RSSSF
+2003-apertura-0037,Deportivo Cali,Leider Preciado,76,,normal,RSSSF
+2003-apertura-0037,Deportivo Pereira,Edison Fonseca,7,,normal,RSSSF
+2003-apertura-0037,Deportivo Pereira,Víctor Cortés,59,,normal,RSSSF
+2003-apertura-0037,Deportivo Pereira,Jair Benítez,95,,normal,RSSSF
 2003-apertura-0038,Atlético Bucaramanga,Diego Chacón,6,,normal,RSSSF
 2003-apertura-0038,Independiente Santa Fe,Luis Zuleta,56,,normal,RSSSF
 2003-apertura-0039,Junior de Barranquilla,Martín Arzuaga,88,,normal,RSSSF
@@ -2954,6 +3113,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0046,Once Caldas,Arnulfo Valentierra,91,,normal,RSSSF
 2003-apertura-0048,Centauros Villavicencio,Oswaldo Mackenzie,48,,penalti,RSSSF
 2003-apertura-0048,Millonarios,Julián Téllez,11,,normal,RSSSF
+2003-apertura-0049,Atlético Huila,Henry Vásquez,21,,normal,RSSSF
+2003-apertura-0049,Atlético Huila,Alvaro Domínguez,42,,normal,RSSSF
+2003-apertura-0049,Unión Magdalena,Fernando Pérez,66,,normal,RSSSF
+2003-apertura-0049,Unión Magdalena,Elkin Amador,85,,normal,RSSSF
 2003-apertura-0050,Atlético Nacional,Néider Morantes 23pn,,,normal,RSSSF
 2003-apertura-0050,Atlético Nacional,Aquivaldo Mosquera,35,,normal,RSSSF
 2003-apertura-0050,Atlético Nacional,Jair Rambal,87,,normal,RSSSF
@@ -2968,6 +3131,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0053,Deportivo Pasto,Jorge Vidal,74,,normal,RSSSF
 2003-apertura-0054,Atlético Bucaramanga,Nestor Cuadros,46,,normal,RSSSF
 2003-apertura-0054,Deportivo Cali,José Mera,30,,normal,RSSSF
+2003-apertura-0055,Deportivo Cali,Jairo Patiño,12,,normal,RSSSF
+2003-apertura-0055,Deportivo Cali,Elkin Murillo,50,,normal,RSSSF
+2003-apertura-0055,Deportivo Cali,Giovanny Hernández,62,,normal,RSSSF
+2003-apertura-0055,Deportivo Cali,Carlos Castillo,76,,normal,RSSSF
+2003-apertura-0055,Independiente Santa Fe,Milton Rodríguez,40,,normal,RSSSF
+2003-apertura-0055,Independiente Santa Fe,Milton Rodríguez,56,,normal,RSSSF
 2003-apertura-0057,Deportes Tolima,John Charria,26,,normal,RSSSF
 2003-apertura-0057,Deportes Tolima,Elson Becerra,43,,normal,RSSSF
 2003-apertura-0058,Deportes Quindío,Nelson Gómez,60,,normal,RSSSF
@@ -2975,18 +3144,36 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0061,Once Caldas,Elkin Soto,4,,normal,RSSSF
 2003-apertura-0061,Once Caldas,Jefrey Díaz,58,,normal,RSSSF
 2003-apertura-0061,Once Caldas,Arnulfo Valentierra 68 corner,,,normal,RSSSF
+2003-apertura-0062,Envigado,Martín Echeverría,59,,normal,RSSSF
+2003-apertura-0062,Envigado,Hugo Arias,84,,normal,RSSSF
+2003-apertura-0062,América de Cali,Rubén Bustos,31,,normal,RSSSF
+2003-apertura-0062,América de Cali,Julián Vásquez,52,,normal,RSSSF
+2003-apertura-0062,América de Cali,Julián Vásquez,80,,normal,RSSSF
 2003-apertura-0063,Independiente Medellín,Roberto Peñalosa,10,,contra,RSSSF
 2003-apertura-0063,Independiente Medellín,Jorge Horacio Serna,18,,normal,RSSSF
 2003-apertura-0063,Independiente Medellín,Diego Alvarez,26,,normal,RSSSF
 2003-apertura-0064,Junior de Barranquilla,Martín Arzuaga,81,,normal,RSSSF
 2003-apertura-0065,Centauros Villavicencio,Johny Burbano,18,,normal,RSSSF
 2003-apertura-0065,Envigado,Martín Echeverría,16,,normal,RSSSF
+2003-apertura-0066,Deportivo Cali,Leider Preciado,17,,normal,RSSSF
+2003-apertura-0066,Deportivo Cali,Giovanny Hernández,40,,normal,RSSSF
+2003-apertura-0066,Deportivo Cali,Carlos Castillo,55,,normal,RSSSF
+2003-apertura-0066,Deportivo Pasto,Oscar Echeverry,69,,normal,RSSSF
 2003-apertura-0067,Atlético Bucaramanga,Andrés Sarmiento,39,,normal,RSSSF
 2003-apertura-0067,Atlético Bucaramanga,Henry Hernández,77,,normal,RSSSF
 2003-apertura-0067,Atlético Bucaramanga,Henry Hernández,85,,normal,RSSSF
 2003-apertura-0069,Deportivo Pereira,Ricardo Alvarez,49,,normal,RSSSF
 2003-apertura-0069,Deportivo Pereira,Pablo Jaramillo,88,,normal,RSSSF
 2003-apertura-0069,Independiente Medellín,Mauricio Molina,62,,normal,RSSSF
+2003-apertura-0070,Cortuluá,Marcio Cruz,14,,normal,RSSSF
+2003-apertura-0070,Cortuluá,Julián Barahona,43,,normal,RSSSF
+2003-apertura-0070,Unión Magdalena,José Herrera,18,,normal,RSSSF
+2003-apertura-0070,Unión Magdalena,Andrés Buelvas,74,,normal,RSSSF
+2003-apertura-0070,Unión Magdalena,Iván René Valenciano,80,,normal,RSSSF
+2003-apertura-0071,Atlético Huila,Julián Mosquera,47,,normal,RSSSF
+2003-apertura-0071,Once Caldas,Rubén Darío Velásquez,18,,normal,RSSSF
+2003-apertura-0071,Once Caldas,Sergio Galván,25,,normal,RSSSF
+2003-apertura-0071,Once Caldas,Arnulfo Valentierra,76,,normal,RSSSF
 2003-apertura-0072,América de Cali,Rubén Bustos,58,,normal,RSSSF
 2003-apertura-0073,Once Caldas,Rubén Darío Velásquez,15,,normal,RSSSF
 2003-apertura-0073,Once Caldas,Sergio Galván,43,,normal,RSSSF
@@ -3010,9 +3197,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0082,Deportivo Pasto,Carlos Hidalgo,11,,normal,RSSSF
 2003-apertura-0083,Deportivo Cali,Jorge Díaz,45,,normal,RSSSF
 2003-apertura-0083,Deportivo Cali,Néstor Alvarez,64,,normal,RSSSF
+2003-apertura-0084,Independiente Medellín,Tressor Moreno,44,,normal,RSSSF
+2003-apertura-0084,Independiente Medellín,Carlos Alvarez,46,,normal,RSSSF
+2003-apertura-0084,Independiente Medellín,Diego Alvarez,71,,normal,RSSSF
+2003-apertura-0084,Independiente Medellín,Mauricio Molina,92,,normal,RSSSF
 2003-apertura-0085,Deportes Quindío,Nelson Gómez,84,,normal,RSSSF
 2003-apertura-0086,Unión Magdalena,Iván René Valenciano,57,,penalti,RSSSF
 2003-apertura-0086,Junior de Barranquilla,Martín Arzuaga,69,,normal,RSSSF
+2003-apertura-0088,Envigado,Alexander Orrego,14,,normal,RSSSF
+2003-apertura-0088,Envigado,Blas Pérez,90,,normal,RSSSF
+2003-apertura-0088,Atlético Huila,Henry Vásquez,61,,normal,RSSSF
+2003-apertura-0088,Atlético Huila,Wilder Medina,91,,normal,RSSSF
 2003-apertura-0090,América de Cali,Carlos Preciado,20,,normal,RSSSF
 2003-apertura-0090,Centauros Villavicencio,Martín García,63,,normal,RSSSF
 2003-apertura-0091,Independiente Santa Fe,Jorge Herrera,85,,normal,RSSSF
@@ -3025,6 +3220,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0096,Deportivo Pereira,Johny Acosta,16,,normal,RSSSF
 2003-apertura-0097,Atlético Bucaramanga,Andrés Sarmiento,51,,normal,RSSSF
 2003-apertura-0097,Deportes Quindío,Nelson Gómez,7,,normal,RSSSF
+2003-apertura-0098,Deportivo Cali,Jairo Patiño,12,,normal,RSSSF
+2003-apertura-0098,Deportivo Cali,Leider Preciado,69,,normal,RSSSF
+2003-apertura-0098,Independiente Medellín,David Montoya,54,,normal,RSSSF
+2003-apertura-0098,Independiente Medellín,Mauricio Molina,65,,normal,RSSSF
 2003-apertura-0099,Deportes Tolima,Ricardo Ciciliano,53,,normal,RSSSF
 2003-apertura-0100,Deportes Tolima,Alex Comas,46,,normal,RSSSF
 2003-apertura-0100,Independiente Santa Fe,Lucas Jaramillo,52,,normal,RSSSF
@@ -3033,12 +3232,32 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0101,Deportivo Pasto,Walter Escobar,65,,normal,RSSSF
 2003-apertura-0102,Deportivo Cali,Jorge Díaz,64,,normal,RSSSF
 2003-apertura-0102,Deportivo Cali,Jorge Díaz,74,,normal,RSSSF
+2003-apertura-0104,Millonarios,Omar Guerra,26,,normal,RSSSF
+2003-apertura-0104,Millonarios,Julián Téllez,81,,normal,RSSSF
+2003-apertura-0104,Millonarios,Julián Téllez,89,,normal,RSSSF
+2003-apertura-0104,Millonarios,Jorge López,85,,normal,RSSSF
+2003-apertura-0104,Deportivo Pereira,Hugo Sánchez,50,,normal,RSSSF
 2003-apertura-0105,Once Caldas,Elkin Soto,41,,normal,RSSSF
 2003-apertura-0105,Once Caldas,Arnulfo Valentierra,88,,normal,RSSSF
 2003-apertura-0105,Junior de Barranquilla,Roberto Peñaloza,89,,normal,RSSSF
+2003-apertura-0106,Envigado,Jonathan Estrada,13,,normal,RSSSF
+2003-apertura-0106,Envigado,Robinson Muñoz,53,,normal,RSSSF
+2003-apertura-0106,Envigado,Edison Aguilar,91,,normal,RSSSF
+2003-apertura-0106,Cortuluá,Alex Sinisterra,61,,normal,RSSSF
+2003-apertura-0106,Cortuluá,Marcio Cruz,73,,normal,RSSSF
+2003-apertura-0107,América de Cali,Julián Vásquez,4,,normal,RSSSF
+2003-apertura-0107,América de Cali,Leonardo Fabio Moreno,16,,normal,RSSSF
+2003-apertura-0107,América de Cali,Leonardo Fabio Moreno,63,,normal,RSSSF
+2003-apertura-0107,Atlético Nacional,Rafael Castillo,5,,normal,RSSSF
+2003-apertura-0107,Atlético Nacional,Fredy Grisales,41,,normal,RSSSF
 2003-apertura-0109,Independiente Santa Fe,Milton Rodríguez,76,,penalti,RSSSF
 2003-apertura-0109,Atlético Huila,Wilmer Medina,25,,normal,RSSSF
 2003-apertura-0109,Atlético Huila,Alvaro Domínguez,58,,normal,RSSSF
+2003-apertura-0110,Atlético Nacional,Fredy Grisales,13,,normal,RSSSF
+2003-apertura-0110,Atlético Nacional,Jair Rambal,69,,normal,RSSSF
+2003-apertura-0110,Centauros Villavicencio,Oswaldo Mackenzie,28,,normal,RSSSF
+2003-apertura-0110,Centauros Villavicencio,Herly Alcázar,36,,normal,RSSSF
+2003-apertura-0110,Centauros Villavicencio,Néstor Salazar,67,,normal,RSSSF
 2003-apertura-0112,Junior de Barranquilla,Eudalio Arriaga,2,,normal,RSSSF
 2003-apertura-0112,Junior de Barranquilla,Carlos Lara,32,,normal,RSSSF
 2003-apertura-0113,Deportivo Pereira,Arley Betancourt,81,,normal,RSSSF
@@ -3057,6 +3276,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0117,Deportes Tolima,John Charria,30,,normal,RSSSF
 2003-apertura-0118,Independiente Medellín,Jorge Horacio Serna,36,,normal,RSSSF
 2003-apertura-0118,Independiente Medellín,John Javier Restrepo,66,,penalti,RSSSF
+2003-apertura-0119,Deportes Quindío,Wilson Segura,45,,normal,RSSSF
+2003-apertura-0119,Deportes Quindío,Edison Mafla,49,,normal,RSSSF
+2003-apertura-0119,Deportes Tolima,Elson Becerra,12,,normal,RSSSF
+2003-apertura-0119,Deportes Tolima,John Charria,30,,normal,RSSSF
 2003-apertura-0120,Unión Magdalena,Andrés Vuelvas,84,,normal,RSSSF
 2003-apertura-0121,Millonarios,Mayer Candelo,20,,normal,RSSSF
 2003-apertura-0121,Millonarios,Julián Téllez,57,,normal,RSSSF
@@ -3065,9 +3288,22 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0123,Envigado,Robinson Muñoz,78,,normal,RSSSF
 2003-apertura-0123,Deportivo Pereira,Leiner Orejuela,67,,contra,RSSSF
 2003-apertura-0123,Deportivo Pereira,John William Suárez,73,,normal,RSSSF
+2003-apertura-0124,América de Cali,Oscar Villareal,37,,normal,RSSSF
+2003-apertura-0124,América de Cali,Jairo Castillo,75,,normal,RSSSF
+2003-apertura-0124,Junior de Barranquilla,Milton Patiño,57,,normal,RSSSF
+2003-apertura-0124,Junior de Barranquilla,Jamerson Rentería,85,,normal,RSSSF
+2003-apertura-0125,Centauros Villavicencio,Herly Alcázar,30,,normal,RSSSF
+2003-apertura-0125,Centauros Villavicencio,Herly Alcázar,65,,normal,RSSSF
+2003-apertura-0125,Centauros Villavicencio,Jersson González,54,,normal,RSSSF
+2003-apertura-0125,Cortuluá,Oscar Londoño,44,,normal,RSSSF
+2003-apertura-0125,Cortuluá,Julián Hurtado,59,,normal,RSSSF
 2003-apertura-0126,Atlético Huila,Alvaro Domínguez,55,,normal,RSSSF
 2003-apertura-0126,Atlético Huila,Henry Vásquez,64,,normal,RSSSF
 2003-apertura-0126,Atlético Nacional,Edixon Perea,67,,normal,RSSSF
+2003-apertura-0127,Cortuluá,Alex Sinisterra,54,,normal,RSSSF
+2003-apertura-0127,Cortuluá,Javier Arizala,73,,normal,RSSSF
+2003-apertura-0127,Atlético Huila,Fernando Uribe,11,,normal,RSSSF
+2003-apertura-0127,Atlético Huila,Henry Vásquez,67,,normal,RSSSF
 2003-apertura-0128,Junior de Barranquilla,Marcos Cardozo,11,,normal,RSSSF
 2003-apertura-0128,Centauros Villavicencio,Oswaldo Mackenzie,41,,penalti,RSSSF
 2003-apertura-0128,Centauros Villavicencio,Néstor Salazar,85,,normal,RSSSF
@@ -3089,6 +3325,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0136,Independiente Santa Fe,Carlos Vilarete,29,,normal,RSSSF
 2003-apertura-0137,Unión Magdalena,Andrés Buelvas,9,,normal,RSSSF
 2003-apertura-0137,Unión Magdalena,Carlos Mendoza,44,,normal,RSSSF
+2003-apertura-0138,Millonarios,Hermes Martínez,5,,normal,RSSSF
+2003-apertura-0138,Millonarios,Mayer Candelo,59,,penalti,RSSSF
+2003-apertura-0138,Millonarios,Arley Dinas,84,,contra,RSSSF
+2003-apertura-0138,Deportes Tolima,Arley Dinas,61,,normal,RSSSF
 2003-apertura-0139,Once Caldas,Sergio Galván,53,,normal,RSSSF
 2003-apertura-0139,Once Caldas,Rubén Darío Velásquez,90,,normal,RSSSF
 2003-apertura-0139,Deportivo Pasto,Luis Valencia,18,,normal,RSSSF
@@ -3096,6 +3336,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0141,América de Cali,Edier Londoño,50,,normal,RSSSF
 2003-apertura-0141,América de Cali,Leonardo Fabio Moreno,64,,normal,RSSSF
 2003-apertura-0141,Atlético Bucaramanga,Wilson Carpintero,1,,normal,RSSSF
+2003-apertura-0142,Centauros Villavicencio,Osvaldo Mackenzie,30,,normal,RSSSF
+2003-apertura-0142,Centauros Villavicencio,Herly Alcázar,59,,normal,RSSSF
+2003-apertura-0142,Centauros Villavicencio,Néstor Salazar,80,,normal,RSSSF
+2003-apertura-0142,Deportivo Pereira,Johny Acosta,19,,normal,RSSSF
+2003-apertura-0142,Deportivo Pereira,Jair Benítez,72,,normal,RSSSF
+2003-apertura-0142,Deportivo Pereira,Harnold Palacios,90,,normal,RSSSF
 2003-apertura-0143,Atlético Huila,Henry Vásquez,87,,normal,RSSSF
 2003-apertura-0144,Atlético Nacional,Rafael Castillo,87,,normal,RSSSF
 2003-apertura-0144,Cortuluá,Oscar Londoño,74,,normal,RSSSF
@@ -3111,6 +3357,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0150,Deportivo Pasto,Diego Seoane,27,,normal,RSSSF
 2003-apertura-0150,Envigado,Johny Ramírez,13,,penalti,RSSSF
 2003-apertura-0150,Envigado,Oscar Rodríguez,16,,normal,RSSSF
+2003-apertura-0151,Deportes Tolima,Alex Comas,1,,normal,RSSSF
+2003-apertura-0151,Deportes Tolima,Alex Comas,50,,normal,RSSSF
+2003-apertura-0151,Deportes Tolima,Justiniano Peña,9,,normal,RSSSF
+2003-apertura-0151,Once Caldas,Arnulfo Valentierra,61,,normal,RSSSF
+2003-apertura-0151,Once Caldas,John Viáfara,91,,normal,RSSSF
 2003-apertura-0152,Independiente Medellín,Tressor Moreno,28,,normal,RSSSF
 2003-apertura-0152,Independiente Medellín,Carlos Alvarez 46+,,,normal,RSSSF
 2003-apertura-0153,Deportes Quindío,Nélson Gómez,47,,normal,RSSSF
@@ -3118,6 +3369,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0153,Unión Magdalena,Iván René Valenciano,74,,normal,RSSSF
 2003-apertura-0154,Unión Magdalena,Anibal Pérez,36,,normal,RSSSF
 2003-apertura-0155,Millonarios,Emner González,48,,normal,RSSSF
+2003-apertura-0156,Once Caldas,John Viáfara,43,,normal,RSSSF
+2003-apertura-0156,Once Caldas,Luis Eduardo Lara,48,,normal,RSSSF
+2003-apertura-0156,Once Caldas,Jefrey Díaz,72,,normal,RSSSF
+2003-apertura-0156,Independiente Medellín,Tressor Moreno,7,,normal,RSSSF
+2003-apertura-0156,Independiente Medellín,John Restrepo,23,,normal,RSSSF
+2003-apertura-0156,Independiente Medellín,Mauricio Molina,76,,penalti,RSSSF
 2003-apertura-0157,Envigado,Robinson Muñoz,17,,penalti,RSSSF
 2003-apertura-0157,Envigado,Robinson Muñoz,43,,normal,RSSSF
 2003-apertura-0157,Deportes Tolima,Alexander Fernández,10,,normal,RSSSF
@@ -3132,6 +3389,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0162,Deportivo Pereira,Harnold Palacios,84,,normal,RSSSF
 2003-apertura-0163,Unión Magdalena,Iván René Valenciano,13,,normal,RSSSF
 2003-apertura-0163,Deportivo Cali,Julián Barragán,65,,normal,RSSSF
+2003-apertura-0164,América de Cali,Julián Vásquez,47,,normal,RSSSF
+2003-apertura-0164,Once Caldas,Elkin Soto,27,,normal,RSSSF
+2003-apertura-0164,Once Caldas,Rubén Darío Velásquez,37,,normal,RSSSF
+2003-apertura-0164,Once Caldas,Sergio Galván,49,,normal,RSSSF
 2003-apertura-0165,Deportivo Pereira,Víctor Cortés,2,,normal,RSSSF
 2003-apertura-0165,Deportivo Pereira,Víctor Cortés,79,,normal,RSSSF
 2003-apertura-0165,Deportivo Pereira,Hugo Sánchez,73,,normal,RSSSF
@@ -3155,6 +3416,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0172,América de Cali,Leonardo Fabio Moreno,13,,normal,RSSSF
 2003-apertura-0173,Deportivo Pereira,Nelson Flórez,61,,normal,RSSSF
 2003-apertura-0174,Centauros Villavicencio,Juan Carlos Palacios,12,,normal,RSSSF
+2003-apertura-0175,América de Cali,Leonardo Fabio Moreno,5,,normal,RSSSF
+2003-apertura-0175,América de Cali,Leonardo Fabio Moreno,73,,penalti,RSSSF
+2003-apertura-0175,América de Cali,John Cano,28,,normal,RSSSF
+2003-apertura-0175,América de Cali,Oscar Villarreal,85,,normal,RSSSF
+2003-apertura-0175,Unión Magdalena,José Herrera,45,,normal,RSSSF
 2003-apertura-0176,Millonarios,Julián Téllez,9,,normal,RSSSF
 2003-apertura-0176,Millonarios,Carlos Eduardo Ortíz,53,,normal,RSSSF
 2003-apertura-0176,Deportivo Pereira,Arley Betancourt,43,,normal,RSSSF
@@ -3170,6 +3436,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-apertura-0181,Junior de Barranquilla,Martín Arzuaga,44,,normal,RSSSF
 2003-apertura-0181,Junior de Barranquilla,Martín Arzuaga,82,,normal,RSSSF
 2003-apertura-0181,Deportivo Pereira,Víctor Cortés,61,,normal,RSSSF
+2003-apertura-0182,Centauros Villavicencio,Herly Alcázar,28,,normal,RSSSF
+2003-apertura-0182,Centauros Villavicencio,Néstor Salazar,58,,normal,RSSSF
+2003-apertura-0182,Centauros Villavicencio,Juan Carlos Palacios,78,,normal,RSSSF
+2003-apertura-0182,Millonarios,Julián Téllez,32,,normal,RSSSF
 2003-apertura-0183,Once Caldas,Sergio Galván,45,,normal,RSSSF
 2003-apertura-0183,Once Caldas,Jeffrey Díaz,66,,normal,RSSSF
 2003-apertura-0184,Deportivo Cali,Leider Preciado,12,,penalti,RSSSF
@@ -3213,6 +3483,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0017,Atlético Bucaramanga,Wilson Carpintero,75,,normal,RSSSF
 2003-finalizacion-0018,Deportivo Cali,Carlos Castillo,27,,normal,RSSSF
 2003-finalizacion-0019,Independiente Santa Fe,Carlos Ortíz,49,,normal,RSSSF
+2003-finalizacion-0020,Junior de Barranquilla,Martín Arzuaga,6,,normal,RSSSF
+2003-finalizacion-0020,Junior de Barranquilla,Haider Palacio,69,,normal,RSSSF
+2003-finalizacion-0020,Atlético Bucaramanga,Rafael Castillo,21,,normal,RSSSF
+2003-finalizacion-0020,Atlético Bucaramanga,Felipe Rivas,41,,normal,RSSSF
+2003-finalizacion-0020,Atlético Bucaramanga,Felipe Rivas,43,,normal,RSSSF
+2003-finalizacion-0020,Atlético Bucaramanga,Juan Carlos Quintero,88,,normal,RSSSF
 2003-finalizacion-0021,Deportivo Cali,Jimmy Asprilla,20,,normal,RSSSF
 2003-finalizacion-0021,Deportivo Cali,Léider Preciado,34,,normal,RSSSF
 2003-finalizacion-0021,Deportivo Cali,Mayer Candelo,43,,penalti,RSSSF
@@ -3249,9 +3525,19 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0036,Independiente Medellín,Diego Alvarez,10,,normal,RSSSF
 2003-finalizacion-0036,Independiente Medellín,Diego Alvarez,12,,normal,RSSSF
 2003-finalizacion-0036,Independiente Medellín,David Montoya,49,,normal,RSSSF
+2003-finalizacion-0037,Deportivo Pereira,César Martínez,19,,normal,RSSSF
+2003-finalizacion-0037,Deportivo Pereira,Hugo Sánchez,49,,normal,RSSSF
+2003-finalizacion-0037,Deportivo Pereira,Hugo Sánchez,72,,normal,RSSSF
+2003-finalizacion-0037,Deportivo Cali,Léider Preciado,22,,normal,RSSSF
+2003-finalizacion-0037,Deportivo Cali,Mayer Candelo,62,,normal,RSSSF
 2003-finalizacion-0038,Millonarios,Jorge López,49,,normal,RSSSF
 2003-finalizacion-0038,Millonarios,Jorge López,81,,normal,RSSSF
 2003-finalizacion-0038,Millonarios,Leonardo Rojano,90,,normal,RSSSF
+2003-finalizacion-0039,Independiente Santa Fe,Francisco Delgado,13,,normal,RSSSF
+2003-finalizacion-0039,Independiente Santa Fe,Lucas Jaramillo,55,,normal,RSSSF
+2003-finalizacion-0039,Independiente Santa Fe,Carlos Ortíz,59,,normal,RSSSF
+2003-finalizacion-0039,Atlético Bucaramanga,Néider Morantes,51,,normal,RSSSF
+2003-finalizacion-0039,Atlético Bucaramanga,Wilson Carpintero,88,,normal,RSSSF
 2003-finalizacion-0040,Atlético Nacional,Camilo Giraldo,60,,normal,RSSSF
 2003-finalizacion-0040,Atlético Nacional,Carmelo Valencia,87,,normal,RSSSF
 2003-finalizacion-0040,Independiente Medellín,David Montoya,70,,normal,RSSSF
@@ -3268,6 +3554,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0046,Independiente Santa Fe,Aldo Leao Ramírez,42,,normal,RSSSF
 2003-finalizacion-0047,Millonarios,Jorge López,47,,normal,RSSSF
 2003-finalizacion-0047,Millonarios,Andrés Pérez,65,,normal,RSSSF
+2003-finalizacion-0048,Deportivo Cali,Léider Preciado,49,,normal,RSSSF
+2003-finalizacion-0048,Deportivo Cali,Gerardo Bedoya,64,,normal,RSSSF
+2003-finalizacion-0048,Deportivo Cali,Luis Rojas,85,,normal,RSSSF
+2003-finalizacion-0048,Atlético Bucaramanga,Rafael Castillo,32,,normal,RSSSF
+2003-finalizacion-0048,Atlético Bucaramanga,Wilson Carpintero,91,,normal,RSSSF
 2003-finalizacion-0049,Once Caldas,Arnulfo Valentierra,58,,penalti,RSSSF
 2003-finalizacion-0051,Deportes Tolima,Jorge Artigas,14,,normal,RSSSF
 2003-finalizacion-0051,Deportes Tolima,Rogeiro Pereira,66,,normal,RSSSF
@@ -3275,6 +3566,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0052,Independiente Medellín,David Montoya,31,,normal,RSSSF
 2003-finalizacion-0052,Cortuluá,Eliécer Díaz,18,,normal,RSSSF
 2003-finalizacion-0052,Cortuluá,Hever Hinestroza,80,,normal,RSSSF
+2003-finalizacion-0053,Unión Magdalena,Erwin Carrillo,3,,normal,RSSSF
+2003-finalizacion-0053,Unión Magdalena,Carlos Vilarete,45,,normal,RSSSF
+2003-finalizacion-0053,Unión Magdalena,Andrés Buelvas,71,,normal,RSSSF
+2003-finalizacion-0053,Atlético Huila,Ramiro Madrid,66,,normal,RSSSF
 2003-finalizacion-0054,Deportes Quindío,Jaques Carvalho,84,,normal,RSSSF
 2003-finalizacion-0055,América de Cali,Jersson González,84,,normal,RSSSF
 2003-finalizacion-0055,Envigado,Johnny Ramírez,35,,normal,RSSSF
@@ -3287,6 +3582,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0061,Cortuluá,Marcio Cruz,35,,normal,RSSSF
 2003-finalizacion-0062,Atlético Bucaramanga,Rafael Castillo,72,,normal,RSSSF
 2003-finalizacion-0063,Junior de Barranquilla,Lin Carlos Henry,37,,normal,RSSSF
+2003-finalizacion-0065,Envigado,Julio Valencia,15,,normal,RSSSF
+2003-finalizacion-0065,Envigado,Victor Cortés,56,,normal,RSSSF
+2003-finalizacion-0065,Envigado,Juan Camilo Mejía,79,,normal,RSSSF
+2003-finalizacion-0065,Centauros Villavicencio,Wilson Segura,42,,normal,RSSSF
+2003-finalizacion-0066,Once Caldas,Sergio Galván,1,,normal,RSSSF
+2003-finalizacion-0066,Once Caldas,Rubén Velásquez,18,,normal,RSSSF
+2003-finalizacion-0066,Once Caldas,Rubén Velásquez,38,,normal,RSSSF
+2003-finalizacion-0066,Atlético Huila,Luis Guillermo Berrío,25,,normal,RSSSF
+2003-finalizacion-0066,Atlético Huila,Germán Casas,33,,penalti,RSSSF
+2003-finalizacion-0066,Atlético Huila,Luis Pérez,35,,normal,RSSSF
 2003-finalizacion-0068,Unión Magdalena,Carlos Vilarete,40,,normal,RSSSF
 2003-finalizacion-0068,Unión Magdalena,Fernando Pérez,80,,normal,RSSSF
 2003-finalizacion-0068,Unión Magdalena,Fernando Pérez,84,,normal,RSSSF
@@ -3313,6 +3618,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0078,Independiente Medellín,Jorge Horacio Serna,43,,normal,RSSSF
 2003-finalizacion-0078,Atlético Nacional,Jorge Agudelo,1,,normal,RSSSF
 2003-finalizacion-0078,Atlético Nacional,Juan Ricaurte,81,,normal,RSSSF
+2003-finalizacion-0079,Deportes Quindío,Henry Vásquez,9,,normal,RSSSF
+2003-finalizacion-0079,Deportes Quindío,Jaques Carvalho,48,,normal,RSSSF
+2003-finalizacion-0079,Cortuluá,Eliecer Díaz,66,,normal,RSSSF
+2003-finalizacion-0079,Cortuluá,Faustino Asprilla,85,,normal,RSSSF
+2003-finalizacion-0080,Unión Magdalena,Erwin Carrillo,21,,normal,RSSSF
+2003-finalizacion-0080,Unión Magdalena,Fernando Pérez,62,,normal,RSSSF
+2003-finalizacion-0080,Unión Magdalena,Carlos Vilarete,66,,normal,RSSSF
+2003-finalizacion-0080,Junior de Barranquilla,Haider Palacio,78,,penalti,RSSSF
 2003-finalizacion-0081,Millonarios,Jorge López,43,,normal,RSSSF
 2003-finalizacion-0081,Millonarios,Luis Eduardo Zapata,58,,normal,RSSSF
 2003-finalizacion-0081,Independiente Santa Fe,Jader Rojas,76,,normal,RSSSF
@@ -3334,17 +3647,32 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0088,Once Caldas,Arnulfo Valentierra,87,,normal,RSSSF
 2003-finalizacion-0089,Atlético Huila,Ramiro Madrid,36,,normal,RSSSF
 2003-finalizacion-0089,Atlético Huila,Ramiro Madrid,82,,normal,RSSSF
+2003-finalizacion-0090,Centauros Villavicencio,Néstor Salazar,67,,normal,RSSSF
+2003-finalizacion-0090,América de Cali,Jairo Castillo,,,normal,RSSSF
+2003-finalizacion-0090,América de Cali,Gabriel Antero,39,,normal,RSSSF
+2003-finalizacion-0090,América de Cali,David Ferreira,57,,normal,RSSSF
 2003-finalizacion-0091,Centauros Villavicencio,Néstor Salazar,16,,normal,RSSSF
 2003-finalizacion-0092,América de Cali,Jersson González,28,,normal,RSSSF
 2003-finalizacion-0092,Atlético Huila,Ramiro Madrid,32,,normal,RSSSF
 2003-finalizacion-0093,Envigado,Francisco Primera,20,,normal,RSSSF
 2003-finalizacion-0093,Atlético Nacional,Iván Velásquez,61,,normal,RSSSF
 2003-finalizacion-0093,Atlético Nacional,Iván Velásquez,74,,normal,RSSSF
+2003-finalizacion-0094,Once Caldas,Jefrey Díaz,1,,normal,RSSSF
+2003-finalizacion-0094,Once Caldas,Arnulfo Valentierra,22,,normal,RSSSF
+2003-finalizacion-0094,Cortuluá,Marcio Cruz,43,,normal,RSSSF
+2003-finalizacion-0094,Cortuluá,Víctor Bonilla,46,,normal,RSSSF
+2003-finalizacion-0094,Cortuluá,Víctor Bonilla,66,,normal,RSSSF
+2003-finalizacion-0094,Cortuluá,Víctor Bonilla,67,,normal,RSSSF
 2003-finalizacion-0095,Millonarios,Andrés Pérez,35,,normal,RSSSF
 2003-finalizacion-0095,Millonarios,Belmer Aguilar,58,,normal,RSSSF
 2003-finalizacion-0096,Unión Magdalena,Carlos Vilarete,4,,normal,RSSSF
 2003-finalizacion-0096,Unión Magdalena,Luis Zuleta,88,,normal,RSSSF
 2003-finalizacion-0096,Deportivo Pereira,Hernán Darío Cardona,63,,normal,RSSSF
+2003-finalizacion-0097,Deportes Quindío,Jaques Carvalho,23,,normal,RSSSF
+2003-finalizacion-0097,Deportes Quindío,Nelson Gómez,52,,normal,RSSSF
+2003-finalizacion-0097,Deportes Quindío,Ferley Villamil,68,,normal,RSSSF
+2003-finalizacion-0097,Atlético Bucaramanga,Felipe Benalcázar,5,,normal,RSSSF
+2003-finalizacion-0097,Atlético Bucaramanga,Wilson Carpintero,66,,normal,RSSSF
 2003-finalizacion-0098,Independiente Medellín,William Vásquez,7,,normal,RSSSF
 2003-finalizacion-0098,Independiente Medellín,Jorge Horacio Serna,83,,normal,RSSSF
 2003-finalizacion-0099,Deportivo Pasto,Diego Cortés,24,,normal,RSSSF
@@ -3356,6 +3684,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0103,Deportivo Cali,Leider Preciado,74,,penalti,RSSSF
 2003-finalizacion-0104,Deportivo Pereira,Carlos Castro,12,,penalti,RSSSF
 2003-finalizacion-0104,Deportivo Pereira,Carlos Castro,73,,normal,RSSSF
+2003-finalizacion-0105,Junior de Barranquilla,Orlando Ballesteros,16,,normal,RSSSF
+2003-finalizacion-0105,Junior de Barranquilla,Orlando Ballesteros,63,,normal,RSSSF
+2003-finalizacion-0105,Junior de Barranquilla,Orlando Ballesteros,91,,normal,RSSSF
+2003-finalizacion-0105,Junior de Barranquilla,Martín Arzuaga,39,,normal,RSSSF
+2003-finalizacion-0105,Once Caldas,Sergio Galván,7,,normal,RSSSF
+2003-finalizacion-0105,Once Caldas,Jefrey Díaz,10,,normal,RSSSF
 2003-finalizacion-0107,Atlético Nacional,Freddy Grisales,34,,normal,RSSSF
 2003-finalizacion-0107,Atlético Nacional,Freddy Grisales,64,,normal,RSSSF
 2003-finalizacion-0108,Atlético Huila,Vicente Preciado,6,,normal,RSSSF
@@ -3390,6 +3724,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0121,Deportivo Cali,Gerardo Bedoya,6,,normal,RSSSF
 2003-finalizacion-0121,Deportivo Cali,Carlos Castillo,44,,normal,RSSSF
 2003-finalizacion-0121,Deportivo Cali,Mayer Candelo,85,,penalti,RSSSF
+2003-finalizacion-0122,Atlético Bucaramanga,Neider Morantes,49,,normal,RSSSF
+2003-finalizacion-0122,Atlético Bucaramanga,Carlos Sandoval,26,,normal,RSSSF
+2003-finalizacion-0122,Atlético Bucaramanga,Carlos Sandoval,54,,normal,RSSSF
+2003-finalizacion-0122,Once Caldas,Edgar Cataño,22,,normal,RSSSF
+2003-finalizacion-0122,Once Caldas,Julián Díaz,84,,normal,RSSSF
 2003-finalizacion-0123,Deportivo Pereira,Carlos Castro,31,,normal,RSSSF
 2003-finalizacion-0123,Envigado,Edison Aguilar,26,,normal,RSSSF
 2003-finalizacion-0124,Junior de Barranquilla,Martín Arzuaga,73,,normal,RSSSF
@@ -3400,11 +3739,28 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0126,Atlético Huila,Ramiro Madrid,35,,normal,RSSSF
 2003-finalizacion-0127,Atlético Nacional,Freddy Grisales,13,,normal,RSSSF
 2003-finalizacion-0127,Independiente Santa Fe,Francisco Delgado,59,,normal,RSSSF
+2003-finalizacion-0128,Atlético Huila,Guillermo Berrío,36,,normal,RSSSF
+2003-finalizacion-0128,Atlético Huila,Edú Aponzá,58,,normal,RSSSF
+2003-finalizacion-0128,Atlético Huila,Ramiro Madrid,71,,normal,RSSSF
+2003-finalizacion-0128,Cortuluá,Víctor Bonilla,27,,normal,RSSSF
+2003-finalizacion-0128,Cortuluá,Víctor Bonilla,34,,normal,RSSSF
 2003-finalizacion-0129,Centauros Villavicencio,Wilson Segura,12,,normal,RSSSF
 2003-finalizacion-0129,Junior de Barranquilla,Lin Carlos Henry,48,,normal,RSSSF
 2003-finalizacion-0129,Junior de Barranquilla,Roberto Peñaloza,71,,normal,RSSSF
+2003-finalizacion-0130,América de Cali,Nondier Romero,11,,normal,RSSSF
+2003-finalizacion-0130,América de Cali,Jean Ferrari,28,,normal,RSSSF
+2003-finalizacion-0130,América de Cali,Jairo Castillo,30,,normal,RSSSF
+2003-finalizacion-0130,América de Cali,David Ferreira,55,,normal,RSSSF
+2003-finalizacion-0130,Deportivo Pereira,Carlos Castro,23,,normal,RSSSF
+2003-finalizacion-0130,Deportivo Pereira,Carlos Castro,77,,normal,RSSSF
+2003-finalizacion-0130,Deportivo Pereira,Carlos Córdoba,72,,normal,RSSSF
 2003-finalizacion-0131,Envigado,Edison Aguilar,77,,normal,RSSSF
 2003-finalizacion-0131,Atlético Bucaramanga,Rafael Castillo,12,,normal,RSSSF
+2003-finalizacion-0132,Once Caldas,Sergio Galván,16,,normal,RSSSF
+2003-finalizacion-0132,Once Caldas,Elkin Soto,47,,normal,RSSSF
+2003-finalizacion-0132,Deportivo Cali,Leider Preciado,65,,normal,RSSSF
+2003-finalizacion-0132,Deportivo Cali,Leider Preciado,70,,normal,RSSSF
+2003-finalizacion-0132,Deportivo Cali,Jorge Díaz,83,,normal,RSSSF
 2003-finalizacion-0133,Deportivo Pasto,Leonardo Enciso,17,,normal,RSSSF
 2003-finalizacion-0134,Unión Magdalena,Fernando Pérez,52,,normal,RSSSF
 2003-finalizacion-0134,Unión Magdalena,Elkin Amador,93,,normal,RSSSF
@@ -3428,15 +3784,30 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0145,Centauros Villavicencio,Wilson Segura,36,,normal,RSSSF
 2003-finalizacion-0145,Atlético Bucaramanga,Farid Díaz,75,,normal,RSSSF
 2003-finalizacion-0146,Once Caldas,Arnulfo Valentierra,68,,penalti,RSSSF
+2003-finalizacion-0147,Atlético Nacional,Héctor Hurtado,10,,normal,RSSSF
+2003-finalizacion-0147,Atlético Nacional,Aquivaldo Mosquera,20,,normal,RSSSF
+2003-finalizacion-0147,Atlético Nacional,Róbinson Muñoz,45,,penalti,RSSSF
+2003-finalizacion-0147,Atlético Nacional,Iván Velásquez,86,,normal,RSSSF
+2003-finalizacion-0147,Junior de Barranquilla,Luis Cassiani,11,,normal,RSSSF
+2003-finalizacion-0147,Junior de Barranquilla,Lin Carlos Henry,26,,normal,RSSSF
 2003-finalizacion-0148,Deportes Quindío,James López,35,,normal,RSSSF
 2003-finalizacion-0148,Deportes Quindío,Iván Valenciano,45,,normal,RSSSF
 2003-finalizacion-0149,Millonarios,Julián Téllez,56,,normal,RSSSF
 2003-finalizacion-0149,Millonarios,Julián Téllez,74,,normal,RSSSF
 2003-finalizacion-0149,Millonarios,Julián Téllez,88,,normal,RSSSF
 2003-finalizacion-0149,Independiente Medellín,William Vásquez,76,,normal,RSSSF
+2003-finalizacion-0150,América de Cali,Jean Ferrari,84,,normal,RSSSF
+2003-finalizacion-0150,Deportivo Cali,Jorge Díaz,49,,normal,RSSSF
+2003-finalizacion-0150,Deportivo Cali,Mayer Candelo,81,,normal,RSSSF
+2003-finalizacion-0150,Deportivo Cali,Léider Preciado,90,,normal,RSSSF
 2003-finalizacion-0151,Atlético Huila,Ramiro Madrid,51,,normal,RSSSF
 2003-finalizacion-0151,Atlético Huila,Edú Aponzá,53,,normal,RSSSF
 2003-finalizacion-0151,Deportivo Pereira,Hernán Darío Cardona,46,,normal,RSSSF
+2003-finalizacion-0152,Envigado,Camilo Mejía,59,,normal,RSSSF
+2003-finalizacion-0152,Envigado,Duván Hernández,73,,normal,RSSSF
+2003-finalizacion-0152,Deportivo Pasto,Leonardo Enciso,11,,normal,RSSSF
+2003-finalizacion-0152,Deportivo Pasto,Leonardo Enciso,85,,normal,RSSSF
+2003-finalizacion-0152,Deportivo Pasto,Jorge Zapata,79,,normal,RSSSF
 2003-finalizacion-0153,Cortuluá,Alex Fernández,72,,normal,RSSSF
 2003-finalizacion-0153,Independiente Santa Fe,Mario González,6,,normal,RSSSF
 2003-finalizacion-0154,Deportes Quindío,Iván Valenciano,5,,normal,RSSSF
@@ -3460,6 +3831,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0162,Independiente Medellín,William Vásquez,40,,normal,RSSSF
 2003-finalizacion-0163,Millonarios,Carlos Ortíz,33,,normal,RSSSF
 2003-finalizacion-0164,Deportivo Cali,Léider Preciado,26,,normal,RSSSF
+2003-finalizacion-0165,Junior de Barranquilla,Léiner Rolong,2,,normal,RSSSF
+2003-finalizacion-0165,Junior de Barranquilla,Lin Carlos Henry,26,,penalti,RSSSF
+2003-finalizacion-0165,Junior de Barranquilla,José Amaya,83,,normal,RSSSF
+2003-finalizacion-0165,Independiente Medellín,Jorge Horacio Serna,22,,normal,RSSSF
+2003-finalizacion-0165,Independiente Medellín,Jorge Horacio Serna,55,,normal,RSSSF
 2003-finalizacion-0166,Atlético Nacional,Edixon Perea,6,,normal,RSSSF
 2003-finalizacion-0166,Deportes Tolima,Arley Dinas,24,,normal,RSSSF
 2003-finalizacion-0166,Deportes Tolima,Rogeiro Pereira,93,,normal,RSSSF
@@ -3477,6 +3853,21 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2003-finalizacion-0178,Millonarios,Martín Perezlindo,9,,normal,RSSSF
 2003-finalizacion-0178,Millonarios,Martín Perezlindo,47,,normal,RSSSF
 2003-finalizacion-0178,Millonarios,Luis Zapata,76,,normal,RSSSF
+2003-finalizacion-0179,Junior de Barranquilla,Orlando Ballesteros,67,,normal,RSSSF
+2003-finalizacion-0179,Junior de Barranquilla,Orlando Ballesteros,88,,normal,RSSSF
+2003-finalizacion-0179,Junior de Barranquilla,Marcos Cardozo,94,,penalti,RSSSF
+2003-finalizacion-0179,Deportes Tolima,Henry Zambrano,77,,normal,RSSSF
+2003-finalizacion-0179,Deportes Tolima,Henry Zambrano,84,,normal,RSSSF
+2003-finalizacion-0180,Atlético Nacional,Martín Echeverría,15,,normal,RSSSF
+2003-finalizacion-0180,Atlético Nacional,Iván Velásquez,57,,normal,RSSSF
+2003-finalizacion-0180,Atlético Nacional,Aquivaldo Mosquera,69,,normal,RSSSF
+2003-finalizacion-0180,Atlético Nacional,Juan Ricaurte,84,,normal,RSSSF
+2003-finalizacion-0180,Independiente Medellín,Jorge Horacio Serna,51,,normal,RSSSF
+2003-finalizacion-0180,Independiente Medellín,Diego Alvarez,75,,normal,RSSSF
+2003-finalizacion-0183,Deportivo Cali,Léider Preciado,39,,penalti,RSSSF
+2003-finalizacion-0183,Deportivo Cali,Elkin Murillo,59,,normal,RSSSF
+2003-finalizacion-0183,Deportivo Cali,Alvaro Domínguez,83,,normal,RSSSF
+2003-finalizacion-0183,Deportivo Pasto,Omar Luis Valencia,50,,normal,RSSSF
 2003-finalizacion-0184,Unión Magdalena,José Herrera,30,,normal,RSSSF
 2003-finalizacion-0184,Unión Magdalena,Carlos Vilarete,52,,normal,RSSSF
 2003-finalizacion-0184,Millonarios,Julián Téllez,62,,normal,RSSSF
@@ -3505,8 +3896,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0010,Independiente Santa Fe,Carlos Vilarete,87,,normal,RSSSF
 2004-apertura-0010,Atlético Nacional,Harold Viáfara,3,,normal,RSSSF
 2004-apertura-0011,Independiente Medellín,Jorge Horacio Serna,87,,normal,RSSSF
+2004-apertura-0012,Deportivo Cali,Carlos Castillo,13,,normal,RSSSF
+2004-apertura-0012,Deportivo Cali,Alvaro Domínguez,24,,penalti,RSSSF
+2004-apertura-0012,Deportivo Cali,Mayer Candelo,70,,normal,RSSSF
+2004-apertura-0012,América de Cali,Sergio Herrera,19,,normal,RSSSF
+2004-apertura-0013,Atlético Bucaramanga,Rodrigo Ruiz,45,,penalti,RSSSF
+2004-apertura-0013,Atlético Bucaramanga,John Felipe Rivas,53,,normal,RSSSF
+2004-apertura-0013,Envigado,Víctor Cortés,62,,normal,RSSSF
+2004-apertura-0013,Envigado,Néstor Alvarez,81,,normal,RSSSF
 2004-apertura-0014,Once Caldas,Germán Casas,41,,normal,RSSSF
 2004-apertura-0015,Deportivo Pereira,Milton Rodríguez,2,,normal,RSSSF
+2004-apertura-0016,Cortuluá,Leonardo Mina Polo,10,,normal,RSSSF
+2004-apertura-0016,Cortuluá,Robinson Hernán Muñoz,38,,normal,RSSSF
+2004-apertura-0016,Cortuluá,Carlos Salazar,61,,normal,RSSSF
+2004-apertura-0016,Unión Magdalena,Luis Zuleta,52,,penalti,RSSSF
 2004-apertura-0017,Deportes Quindío,Hernán Cardona,56,,normal,RSSSF
 2004-apertura-0017,Boyacá Chicó,Luis Yanes,58,,normal,RSSSF
 2004-apertura-0017,Boyacá Chicó,Adelmo Vallecilla,76,,normal,RSSSF
@@ -3526,6 +3929,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0024,Deportivo Pereira,Milton Rodríguez,27,,normal,RSSSF
 2004-apertura-0024,Deportivo Pereira,Milton Rodríguez,81,,penalti,RSSSF
 2004-apertura-0024,Independiente Santa Fe,Francisco Delgado,8,,normal,RSSSF
+2004-apertura-0025,Envigado,Víctor Cortés,2,,normal,RSSSF
+2004-apertura-0025,Envigado,Róbinson Alexander Muñoz,23,,penalti,RSSSF
+2004-apertura-0025,Envigado,Néstor Alvarez,67,,normal,RSSSF
+2004-apertura-0025,Envigado,Tomás Villa,83,,normal,RSSSF
+2004-apertura-0025,Cortuluá,Fernando Pajoy,12,,normal,RSSSF
+2004-apertura-0025,Cortuluá,William Vásquez,33,,penalti,RSSSF
+2004-apertura-0025,Cortuluá,Leonardo Mina Polo,51,,normal,RSSSF
 2004-apertura-0026,Once Caldas,John Viáfara,89,,normal,RSSSF
 2004-apertura-0027,Atlético Nacional,Cristian Marrugo,25,,normal,RSSSF
 2004-apertura-0027,Atlético Nacional,Edixon Perea,59,,normal,RSSSF
@@ -3533,6 +3943,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0028,América de Cali,Sergio Herrera,57,,normal,RSSSF
 2004-apertura-0028,América de Cali,Nordier Romero,84,,normal,RSSSF
 2004-apertura-0028,Atlético Bucaramanga,John Felipe Rivas,57,,normal,RSSSF
+2004-apertura-0029,Independiente Medellín,Carlos Córdoba,49,,normal,RSSSF
+2004-apertura-0029,Independiente Medellín,Jorge Horacio Serna,81,,normal,RSSSF
+2004-apertura-0029,Envigado,Róbinson Muñoz,12,,penalti,RSSSF
+2004-apertura-0029,Envigado,Alexánder Orrego,58,,normal,RSSSF
 2004-apertura-0030,Atlético Huila,Wilson Cano,11,,normal,RSSSF
 2004-apertura-0030,Atlético Huila,Wilson Cano,16,,normal,RSSSF
 2004-apertura-0030,Atlético Huila,Alexánder Padilla,76,,penalti,RSSSF
@@ -3546,6 +3960,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0034,Deportes Tolima,Arley Dinas,89,,normal,RSSSF
 2004-apertura-0035,Once Caldas,Dayro Moreno,16,,normal,RSSSF
 2004-apertura-0035,Once Caldas,Herly Alcázar,28,,normal,RSSSF
+2004-apertura-0037,Deportivo Cali,William Zapata,26,,normal,RSSSF
+2004-apertura-0037,Deportivo Cali,Ricardo Calle,51,,contra,RSSSF
+2004-apertura-0037,Deportivo Cali,Julián Téllez,91,,normal,RSSSF
+2004-apertura-0037,Independiente Medellín,Jorge Horacio Serna,90,,normal,RSSSF
 2004-apertura-0038,Millonarios,Carlos Adonay Acevedo,24,,normal,RSSSF
 2004-apertura-0038,Independiente Santa Fe,Paulo Cesar Diniz,77,,normal,RSSSF
 2004-apertura-0039,Deportivo Pasto,Marcio Cruz,33,,normal,RSSSF
@@ -3556,9 +3974,20 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0042,Unión Magdalena,Andrés Buelvas,50,,normal,RSSSF
 2004-apertura-0042,Atlético Huila,Wilson Cano,81,,normal,RSSSF
 2004-apertura-0043,Once Caldas,Jorge Agudelo,30,,normal,RSSSF
+2004-apertura-0044,Atlético Bucaramanga,Pedro Cabrales,10,,normal,RSSSF
+2004-apertura-0044,Atlético Bucaramanga,Felipe Rivas,26,,normal,RSSSF
+2004-apertura-0044,Atlético Bucaramanga,Felipe Rivas,32,,normal,RSSSF
+2004-apertura-0044,Cortuluá,Carlos Salazar,16,,normal,RSSSF
+2004-apertura-0044,Cortuluá,Rubiel Quintana,22,,normal,RSSSF
+2004-apertura-0044,Cortuluá,Leonardo Mina Polo,87,,normal,RSSSF
 2004-apertura-0045,Atlético Nacional,Freddy Grisales,52,,normal,RSSSF
 2004-apertura-0045,Atlético Nacional,Néstor Salazar,83,,normal,RSSSF
 2004-apertura-0045,Boyacá Chicó,Wilmides Cotes,80,,normal,RSSSF
+2004-apertura-0046,América de Cali,Sergio Herrera,33,,normal,RSSSF
+2004-apertura-0046,América de Cali,David Ferreira,55,,normal,RSSSF
+2004-apertura-0046,América de Cali,Mauricio Romero,61,,normal,RSSSF
+2004-apertura-0046,Cortuluá,Carlos Eduardo Salazar,19,,normal,RSSSF
+2004-apertura-0046,Cortuluá,Rubiel Quintana,41,,normal,RSSSF
 2004-apertura-0047,Independiente Medellín,Jorge Horacio Serna,70,,penalti,RSSSF
 2004-apertura-0047,Atlético Bucaramanga,César Vásquez,78,,normal,RSSSF
 2004-apertura-0048,Atlético Huila,Alexander Padilla,81,,normal,RSSSF
@@ -3590,6 +4019,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0061,Independiente Medellín,Rafael Castillo,1,,normal,RSSSF
 2004-apertura-0062,Once Caldas,Johnnatan Fabro,4,,normal,RSSSF
 2004-apertura-0062,Once Caldas,Dayro Moreno,56,,normal,RSSSF
+2004-apertura-0065,Boyacá Chicó,Wilmides Cotes,61,,normal,RSSSF
+2004-apertura-0065,Boyacá Chicó,Claudio Hernández,63,,normal,RSSSF
+2004-apertura-0065,Millonarios,John Flórez,25,,normal,RSSSF
+2004-apertura-0065,Millonarios,Hugo Sánchez,47,,normal,RSSSF
+2004-apertura-0065,Millonarios,Andrés Sarmiento,49,,normal,RSSSF
+2004-apertura-0065,Millonarios,Víctor Hugo Montaño,86,,normal,RSSSF
 2004-apertura-0066,Atlético Huila,Guillermo Berrío,58,,normal,RSSSF
 2004-apertura-0066,Atlético Huila,Wilson Cano,78,,normal,RSSSF
 2004-apertura-0066,Atlético Huila,Wilson Cano,85,,penalti,RSSSF
@@ -3604,6 +4039,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0072,Once Caldas,César Hernández,61,,normal,RSSSF
 2004-apertura-0072,Once Caldas,Sergio Galván,94,,normal,RSSSF
 2004-apertura-0072,Cortuluá,Oscar Caicedo,47,,normal,RSSSF
+2004-apertura-0073,América de Cali,Nondier Romero,5,,normal,RSSSF
+2004-apertura-0073,América de Cali,Sergio Herrera,21,,normal,RSSSF
+2004-apertura-0073,América de Cali,Jersson González,55,,normal,RSSSF
+2004-apertura-0073,Deportivo Cali,Carlos Castillo,14,,normal,RSSSF
 2004-apertura-0074,Atlético Nacional,Carlos Álvarez,46,,normal,RSSSF
 2004-apertura-0074,Atlético Nacional,Edixon Perea,93,,normal,RSSSF
 2004-apertura-0075,Independiente Santa Fe,Leider Preciado,72,,penalti,RSSSF
@@ -3627,6 +4066,27 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0083,Independiente Medellín,Yaír Benítez,40,,normal,RSSSF
 2004-apertura-0084,Cortuluá,Carlos Salazar,25,,normal,RSSSF
 2004-apertura-0084,Atlético Huila,Alexander Padilla,72,,normal,RSSSF
+2004-apertura-0085,Atlético Bucaramanga,Wilson Carpintero,49,,normal,RSSSF
+2004-apertura-0085,Atlético Bucaramanga,Juan Carlos Quintero,50,,normal,RSSSF
+2004-apertura-0085,Atlético Bucaramanga,Luis Omar Valencia,81,,normal,RSSSF
+2004-apertura-0085,Atlético Bucaramanga,Felipe Rivas,92,,normal,RSSSF
+2004-apertura-0086,Unión Magdalena,Eyner Viveros,55,,normal,RSSSF
+2004-apertura-0086,Unión Magdalena,Fernando Pérez,86,,normal,RSSSF
+2004-apertura-0086,Boyacá Chicó,Luis Yanes,30,,normal,RSSSF
+2004-apertura-0086,Boyacá Chicó,Sebastián Alderete,81,,contra,RSSSF
+2004-apertura-0086,Boyacá Chicó,Nilson Cortés,92,,normal,RSSSF
+2004-apertura-0087,Deportes Tolima,Iván Velásquez,48,,normal,RSSSF
+2004-apertura-0087,Deportes Tolima,Henry Zambrano,73,,normal,RSSSF
+2004-apertura-0087,Atlético Nacional,Justiniano Peña,35,,contra,RSSSF
+2004-apertura-0087,Atlético Nacional,Néstor Salazar,87,,normal,RSSSF
+2004-apertura-0089,Millonarios,Martín Perezlindo,10,,normal,RSSSF
+2004-apertura-0089,Millonarios,Hugo Sánchez,31,,normal,RSSSF
+2004-apertura-0089,Millonarios,Hugo Sánchez,75,,normal,RSSSF
+2004-apertura-0089,Millonarios,Andrés Pérez,66,,normal,RSSSF
+2004-apertura-0089,Millonarios,Victor Hugo Montaño,84,,normal,RSSSF
+2004-apertura-0089,Deportivo Pasto,Luis Eduardo Lora,33,,normal,RSSSF
+2004-apertura-0089,Deportivo Pasto,Carlos Rendón,63,,normal,RSSSF
+2004-apertura-0089,Deportivo Pasto,Carlos Rendón,79,,normal,RSSSF
 2004-apertura-0090,Envigado,Néstor Alvarez,76,,normal,RSSSF
 2004-apertura-0090,Deportes Quindío,Milton Patiño,19,,normal,RSSSF
 2004-apertura-0090,Deportes Quindío,Róbinson Rojas,69,,penalti,RSSSF
@@ -3634,6 +4094,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0091,Cortuluá,Carlos Salazar,62,,penalti,RSSSF
 2004-apertura-0092,Atlético Nacional,Néstor Salazar,83,,normal,RSSSF
 2004-apertura-0092,Millonarios,Jorge López Caballero,88,,normal,RSSSF
+2004-apertura-0093,Deportivo Pereira,Jaime Sierra,13,,normal,RSSSF
+2004-apertura-0093,Deportivo Pereira,Milton Rodríguez,83,,normal,RSSSF
+2004-apertura-0093,Deportes Tolima,Ricardo Ciciliano,7,,normal,RSSSF
+2004-apertura-0093,Deportes Tolima,Henry Zambrano,17,,normal,RSSSF
 2004-apertura-0094,América de Cali,Pablo Armero,91,,normal,RSSSF
 2004-apertura-0095,Independiente Medellín,Jair Benítez,69,,normal,RSSSF
 2004-apertura-0096,Junior de Barranquilla,Leonardo Rojano,54,,normal,RSSSF
@@ -3646,6 +4110,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0100,Millonarios,Carlos Acevedo,13,,normal,RSSSF
 2004-apertura-0100,Millonarios,Hugo Sánchez,50,,normal,RSSSF
 2004-apertura-0100,Deportivo Pereira,Edison Fonseca,92,,normal,RSSSF
+2004-apertura-0101,Unión Magdalena,Fernando Pérez,64,,normal,RSSSF
+2004-apertura-0101,Unión Magdalena,Erwin Carrillo,75,,normal,RSSSF
+2004-apertura-0101,Atlético Nacional,Néstor Salazar,44,,normal,RSSSF
+2004-apertura-0101,Atlético Nacional,Héctor Hurtado,48,,normal,RSSSF
+2004-apertura-0101,Atlético Nacional,Héctor Hurtado,68,,normal,RSSSF
+2004-apertura-0103,Deportivo Cali,Julián Téllez,5,,normal,RSSSF
+2004-apertura-0103,Deportivo Cali,Carlos Castillo,7,,normal,RSSSF
+2004-apertura-0103,Deportivo Cali,Jorge Díaz,77,,normal,RSSSF
+2004-apertura-0103,Deportivo Cali,Jorge Díaz,83,,normal,RSSSF
+2004-apertura-0103,Boyacá Chicó,Anuar Guerrero,55,,normal,RSSSF
+2004-apertura-0103,Boyacá Chicó,Luis Yánez,80,,penalti,RSSSF
 2004-apertura-0104,Atlético Bucaramanga,Wilson Carpintero,60,,normal,RSSSF
 2004-apertura-0105,Cortuluá,Carlos Salazar,52,,normal,RSSSF
 2004-apertura-0105,Junior de Barranquilla,Haider Palacio,54,,penalti,RSSSF
@@ -3660,9 +4135,18 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0108,Deportes Tolima,Ricardo Ciciliano,1,,normal,RSSSF
 2004-apertura-0108,Deportes Tolima,Oscar Briceño,40,,normal,RSSSF
 2004-apertura-0108,América de Cali,Mauricio Romero,92,,normal,RSSSF
+2004-apertura-0109,Independiente Santa Fe,Raúl Alejandro Naif,22,,normal,RSSSF
+2004-apertura-0109,Independiente Santa Fe,Aldo Ramírez,72,,normal,RSSSF
+2004-apertura-0109,Once Caldas,Elkin Soto,11,,normal,RSSSF
+2004-apertura-0109,Once Caldas,Arnulfo Valentierra,59,,normal,RSSSF
 2004-apertura-0110,América de Cali,David Ferreira,85,,normal,RSSSF
 2004-apertura-0110,América de Cali,Luis Asprilla,92,,normal,RSSSF
 2004-apertura-0110,Atlético Huila,Jarol Herrera,50,,normal,RSSSF
+2004-apertura-0111,Deportivo Pereira,Milton Rodríguez,28,,normal,RSSSF
+2004-apertura-0111,Deportivo Pereira,Milton Rodríguez,45,,normal,RSSSF
+2004-apertura-0111,Deportivo Pereira,Arley Betancurt,31,,normal,RSSSF
+2004-apertura-0111,Deportivo Pereira,Felipe Benalcázar,41,,normal,RSSSF
+2004-apertura-0111,Unión Magdalena,Erwin Carrillo,7,,normal,RSSSF
 2004-apertura-0112,Deportivo Cali,Iván Trujillo,89,,normal,RSSSF
 2004-apertura-0113,Deportes Tolima,Iván Velásquez,32,,normal,RSSSF
 2004-apertura-0113,Deportes Tolima,Ricardo Ciciliano,34,,normal,RSSSF
@@ -3694,6 +4178,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0123,Independiente Santa Fe,Iván López,64,,normal,RSSSF
 2004-apertura-0123,Independiente Santa Fe,Aldo Ramírez,68,,normal,RSSSF
 2004-apertura-0123,Independiente Santa Fe,Aldo Ramírez,83,,normal,RSSSF
+2004-apertura-0124,Envigado,Gustavo Rúa,36,,normal,RSSSF
+2004-apertura-0124,Envigado,Róbinson Muñoz,62,,normal,RSSSF
+2004-apertura-0124,Envigado,Jonathan Estrada,71,,normal,RSSSF
+2004-apertura-0124,Deportivo Pereira,Milton Rodríguez,39,,normal,RSSSF
 2004-apertura-0125,Deportivo Cali,Nelson Rivas,31,,normal,RSSSF
 2004-apertura-0125,Deportivo Cali,Julián Téllez,82,,normal,RSSSF
 2004-apertura-0126,América de Cali,Rubén Darío Bustos,55,,normal,RSSSF
@@ -3703,14 +4191,32 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0128,Atlético Nacional,Edixon Perea,84,,normal,RSSSF
 2004-apertura-0128,Atlético Bucaramanga,Felipe Rivas,63,,normal,RSSSF
 2004-apertura-0129,América de Cali,Sergio Herrera,89,,normal,RSSSF
+2004-apertura-0130,Junior de Barranquilla,Orlando Ballesteros,47,,normal,RSSSF
+2004-apertura-0130,Junior de Barranquilla,Orlando Ballesteros,52,,normal,RSSSF
+2004-apertura-0130,Junior de Barranquilla,Emerson Acuña,72,,normal,RSSSF
+2004-apertura-0130,Atlético Huila,Carlos Naranjo,6,,normal,RSSSF
 2004-apertura-0133,Deportivo Pasto,Marcio Cruz,32,,normal,RSSSF
 2004-apertura-0133,Cortuluá,Jackson Ibargüen,42,,normal,RSSSF
 2004-apertura-0134,Deportes Tolima,Iván Velásquez,47,,normal,RSSSF
 2004-apertura-0134,Deportes Tolima,César Rivas,90,,normal,RSSSF
 2004-apertura-0134,Envigado,Jonathan Estrada,80,,normal,RSSSF
 2004-apertura-0135,Millonarios,Martín Perezlindo,7,,normal,RSSSF
+2004-apertura-0136,Unión Magdalena,Erwin Carrillo,19,,normal,RSSSF
+2004-apertura-0136,Unión Magdalena,Orlando Fuentes,68,,normal,RSSSF
+2004-apertura-0136,Unión Magdalena,Fabián Muñoz,92,,normal,RSSSF
+2004-apertura-0136,América de Cali,Sergio Herrera,11,,normal,RSSSF
+2004-apertura-0136,América de Cali,Róbinson Zapata,61,,normal,RSSSF
+2004-apertura-0137,Cortuluá,Germán Caicedo,15,,normal,RSSSF
+2004-apertura-0137,Cortuluá,Héctor Ramírez,58,,normal,RSSSF
+2004-apertura-0137,Cortuluá,Héctor Ramírez,70,,normal,RSSSF
+2004-apertura-0137,Atlético Nacional,Christian Marrugo,52,,normal,RSSSF
+2004-apertura-0137,Atlético Nacional,Edwin Ortíz,86,,contra,RSSSF
 2004-apertura-0138,Deportivo Cali,Iván Trujillo,86,,normal,RSSSF
 2004-apertura-0139,Independiente Santa Fe,Edgar Zapata,16,,contra,RSSSF
+2004-apertura-0140,Independiente Medellín,Jean Carlos López,39,,normal,RSSSF
+2004-apertura-0140,Independiente Medellín,Jaime Castrillón,41,,normal,RSSSF
+2004-apertura-0140,Independiente Medellín,Jorge Horacio Serna,49,,normal,RSSSF
+2004-apertura-0140,Deportivo Pasto,Jorge Vidal,9,,normal,RSSSF
 2004-apertura-0141,Atlético Bucaramanga,Wilson Carpintero,62,,normal,RSSSF
 2004-apertura-0142,Envigado,Néstor Alvarez,3,,normal,RSSSF
 2004-apertura-0142,Millonarios,Víctor Hugo Montaño,57,,normal,RSSSF
@@ -3732,6 +4238,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0150,Cortuluá,Héctor Ramírez,66,,normal,RSSSF
 2004-apertura-0151,Deportes Tolima,Henry Zambrano,8,,normal,RSSSF
 2004-apertura-0151,Atlético Bucaramanga,Felipe Rivas,91,,normal,RSSSF
+2004-apertura-0152,América de Cali,Jersson González,13,,normal,RSSSF
+2004-apertura-0152,América de Cali,Adrián Ramos,15,,normal,RSSSF
+2004-apertura-0152,América de Cali,Sergio Herrera,51,,normal,RSSSF
+2004-apertura-0152,América de Cali,Sergio Herrera,81,,normal,RSSSF
+2004-apertura-0152,Junior de Barranquilla,Lin Carlos Henry,50,,penalti,RSSSF
 2004-apertura-0153,Unión Magdalena,Erwin Carrillo,15,,normal,RSSSF
 2004-apertura-0153,Unión Magdalena,Edwin Maturana,38,,normal,RSSSF
 2004-apertura-0154,América de Cali,Leonardo Fabio Moreno,49,,normal,RSSSF
@@ -3739,8 +4250,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0156,Atlético Bucaramanga,Carlos Ortíz,72,,contra,RSSSF
 2004-apertura-0156,Millonarios,Martín Pérezlindo,51,,normal,RSSSF
 2004-apertura-0156,Millonarios,Bonner Mosquera,78,,normal,RSSSF
+2004-apertura-0157,Cortuluá,John Jairo Castillo,54,,normal,RSSSF
+2004-apertura-0157,Deportes Tolima,Ricardo Ciciliano,16,,normal,RSSSF
+2004-apertura-0157,Deportes Tolima,Gerardo Vallejo,36,,normal,RSSSF
+2004-apertura-0157,Deportes Tolima,Iván Velásquez,72,,normal,RSSSF
 2004-apertura-0158,Independiente Medellín,Jimmy Velasco,58,,normal,RSSSF
 2004-apertura-0159,Deportivo Pasto,Marcio Cruz,15,,normal,RSSSF
+2004-apertura-0160,Once Caldas,Javier Araújo,67,,normal,RSSSF
+2004-apertura-0160,Once Caldas,Rubén Velásquez,81,,normal,RSSSF
+2004-apertura-0160,Atlético Nacional,Carlos Álvarez,31,,normal,RSSSF
+2004-apertura-0160,Atlético Nacional,Édixon Perea,46,,normal,RSSSF
+2004-apertura-0160,Atlético Nacional,Héctor Hurtado,52,,normal,RSSSF
 2004-apertura-0161,Independiente Santa Fe,Fabián Diaz,37,,normal,RSSSF
 2004-apertura-0161,Boyacá Chicó,Luis Yanes,45,,normal,RSSSF
 2004-apertura-0161,Boyacá Chicó,Anuar Guerrero,83,,normal,RSSSF
@@ -3751,17 +4271,36 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0164,Deportivo Pasto,Wilmer Díaz,56,,normal,RSSSF
 2004-apertura-0164,Deportivo Pasto,Rogeiro Da Silva,73,,normal,RSSSF
 2004-apertura-0164,Atlético Nacional,Carlos Alvarez,17,,normal,RSSSF
+2004-apertura-0165,Independiente Medellín,Jorge Horacio Serna,13,,normal,RSSSF
+2004-apertura-0165,Independiente Medellín,Néider Morantes,31,,normal,RSSSF
+2004-apertura-0165,Independiente Medellín,Jaime Castrillón,47,,normal,RSSSF
+2004-apertura-0165,Independiente Medellín,Jamel Ramos,67,,normal,RSSSF
 2004-apertura-0166,Deportivo Cali,Jorge Díaz,38,,normal,RSSSF
 2004-apertura-0167,Junior de Barranquilla,Orlando Ballesteros,39,,normal,RSSSF
 2004-apertura-0167,Deportivo Pasto,Jorge Vidal,80,,normal,RSSSF
+2004-apertura-0168,Atlético Nacional,Juan Mosquera,14,,normal,RSSSF
+2004-apertura-0168,Atlético Nacional,Edixon Perea,16,,normal,RSSSF
+2004-apertura-0168,Atlético Nacional,Carlos Álvarez,36,,normal,RSSSF
+2004-apertura-0168,Atlético Nacional,Carlos Álvarez,80,,normal,RSSSF
+2004-apertura-0168,América de Cali,Mauricio Romero,7,,normal,RSSSF
+2004-apertura-0168,América de Cali,Mauricio Romero,40,,normal,RSSSF
+2004-apertura-0168,América de Cali,Leonardo Fabio Moreno,69,,normal,RSSSF
 2004-apertura-0169,Independiente Medellín,Jaime Castrillón,4,,normal,RSSSF
 2004-apertura-0169,Independiente Medellín,Jorge Serna,12,,normal,RSSSF
 2004-apertura-0169,Independiente Medellín,Camilo Giraldo,40,,normal,RSSSF
 2004-apertura-0170,Once Caldas,Dayro Moreno,14,,normal,RSSSF
+2004-apertura-0171,Deportivo Cali,Nelson Rivas,1,,normal,RSSSF
+2004-apertura-0171,Deportivo Cali,Fredy Hurtado,35,,penalti,RSSSF
+2004-apertura-0171,Deportivo Cali,Iván Trujillo,77,,normal,RSSSF
+2004-apertura-0171,Once Caldas,Javier Araujo,3,,normal,RSSSF
 2004-apertura-0172,Deportivo Pasto,René Rosero,5,,normal,RSSSF
 2004-apertura-0172,Deportivo Pasto,John Cano,44,,normal,RSSSF
 2004-apertura-0172,Deportivo Pasto,Marcio Cruz,78,,normal,RSSSF
 2004-apertura-0172,Deportivo Pasto,Oscar Martínez,89,,normal,RSSSF
+2004-apertura-0173,Atlético Nacional,Edixon Perea,39,,normal,RSSSF
+2004-apertura-0173,Atlético Nacional,Oswaldo Mackenzie,52,,normal,RSSSF
+2004-apertura-0173,Atlético Nacional,Cristian Marrugo,61,,normal,RSSSF
+2004-apertura-0173,Atlético Nacional,Héctor Hurtado,70,,normal,RSSSF
 2004-apertura-0174,Independiente Medellín,Neider Morantes,51,,normal,RSSSF
 2004-apertura-0174,Boyacá Chicó,Luis Yánes,34,,normal,RSSSF
 2004-apertura-0174,Boyacá Chicó,Luis Yánes,56,,normal,RSSSF
@@ -3771,6 +4310,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0176,Junior de Barranquilla,Orlando Ballesteros,25,,normal,RSSSF
 2004-apertura-0177,América de Cali,Sergio Herrera,5,,normal,RSSSF
 2004-apertura-0177,América de Cali,Sergio Herrera,28,,normal,RSSSF
+2004-apertura-0178,Boyacá Chicó,Luis Yanes,28,,normal,RSSSF
+2004-apertura-0178,Boyacá Chicó,Claudio Hernández,48,,normal,RSSSF
+2004-apertura-0178,Boyacá Chicó,Anuar Guerrero,91,,normal,RSSSF
+2004-apertura-0178,Independiente Medellín,Heriberto Velandia,73,,normal,RSSSF
+2004-apertura-0178,Independiente Medellín,Jorge Horacio Sena,79,,normal,RSSSF
 2004-apertura-0179,Atlético Nacional,Juan Carlos Mosquera,71,,normal,RSSSF
 2004-apertura-0179,Deportivo Pasto,Jorge Vidal,45,,normal,RSSSF
 2004-apertura-0179,Deportivo Pasto,Jorge Vidal,53,,normal,RSSSF
@@ -3782,10 +4326,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-apertura-0182,Boyacá Chicó,Anuar Guerrero,47,,normal,RSSSF
 2004-apertura-0182,Boyacá Chicó,Luis Yanes,89,,normal,RSSSF
 2004-apertura-0183,Atlético Nacional,Edixon Perea,32,,normal,RSSSF
+2004-apertura-0184,Independiente Medellín,Néider Morantes,52,,normal,RSSSF
+2004-apertura-0184,Independiente Medellín,Néider Morantes,68,,normal,RSSSF
+2004-apertura-0184,Independiente Medellín,César Valoyes,93,,normal,RSSSF
+2004-apertura-0184,Deportivo Cali,Álvaro Domínguez,22,,normal,RSSSF
+2004-apertura-0184,Deportivo Cali,Jimmy Asprilla,56,,normal,RSSSF
+2004-apertura-0184,Deportivo Cali,Tressor Moreno,75,,normal,RSSSF
 2004-apertura-0185,Junior de Barranquilla,Leonardo Rojano,37,,normal,RSSSF
+2004-apertura-0186,Boyacá Chicó,Diego Salazar,32,,normal,RSSSF
+2004-apertura-0186,Boyacá Chicó,Claudio Hernández,81,,normal,RSSSF
+2004-apertura-0186,Once Caldas,Dairo Moreno,20,,normal,RSSSF
+2004-apertura-0186,Once Caldas,Dairo Moreno,72,,normal,RSSSF
+2004-apertura-0186,Once Caldas,Jefrey Díaz,42,,normal,RSSSF
 2004-apertura-0187,Independiente Medellín,Jorge Horacio Serna,57,,normal,RSSSF
 2004-apertura-0187,Independiente Medellín,Rafael Castillo,88,,normal,RSSSF
 2004-apertura-0187,Atlético Nacional,Edixon Perea,72,,normal,RSSSF
+2004-finalizacion-0001,Junior de Barranquilla,Wilson Carpintero,31,,normal,RSSSF
+2004-finalizacion-0001,Junior de Barranquilla,Leiner Rolong,42,,normal,RSSSF
+2004-finalizacion-0001,Junior de Barranquilla,Juan Carlos Quintero,84,,normal,RSSSF
+2004-finalizacion-0001,Junior de Barranquilla,Martín Arzuaga,87,,normal,RSSSF
 2004-finalizacion-0002,América de Cali,Leonardo Fabio Moreno,16,,normal,RSSSF
 2004-finalizacion-0002,América de Cali,Leonardo Fabio Moreno,21,,normal,RSSSF
 2004-finalizacion-0003,Independiente Santa Fe,Léider Preciado,23,,normal,RSSSF
@@ -3811,6 +4370,14 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0016,Independiente Santa Fe,Aldo Ramírez,66,,normal,RSSSF
 2004-finalizacion-0017,Deportivo Pasto,Martín Perezlindo,47,,normal,RSSSF
 2004-finalizacion-0017,Junior de Barranquilla,José Amaya,45,,normal,RSSSF
+2004-finalizacion-0018,Boyacá Chicó,Watson Rentería,8,,normal,RSSSF
+2004-finalizacion-0018,Boyacá Chicó,Adelmo Vallecilla,49,,normal,RSSSF
+2004-finalizacion-0018,Deportes Quindío,Hugo Rodallega,15,,normal,RSSSF
+2004-finalizacion-0018,Deportes Quindío,Mauricio Molina,85,,normal,RSSSF
+2004-finalizacion-0019,Once Caldas,Samuel Vanegas,14,,normal,RSSSF
+2004-finalizacion-0019,Once Caldas,Luis Ómar Valencia,31,,normal,RSSSF
+2004-finalizacion-0019,Once Caldas,Jefrey Díaz,39,,normal,RSSSF
+2004-finalizacion-0019,Once Caldas,Herly Alcázar,66,,normal,RSSSF
 2004-finalizacion-0020,Envigado,Oscar Restrepo,21,,normal,RSSSF
 2004-finalizacion-0020,Envigado,Oscar Restrepo,25,,normal,RSSSF
 2004-finalizacion-0020,Envigado,Néstor Álvarez,70,,normal,RSSSF
@@ -3820,6 +4387,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0023,Atlético Bucaramanga,Henry Hernández,52,,normal,RSSSF
 2004-finalizacion-0023,Atlético Bucaramanga,Alexánder Orrego,82,,normal,RSSSF
 2004-finalizacion-0023,Deportivo Cali,Tressor Moreno,64,,normal,RSSSF
+2004-finalizacion-0024,Independiente Medellín,Néider Morantes,1,,normal,RSSSF
+2004-finalizacion-0024,Independiente Medellín,Diego Álvarez,3,,normal,RSSSF
+2004-finalizacion-0024,Independiente Medellín,Diego Álvarez,47,,normal,RSSSF
+2004-finalizacion-0024,Independiente Medellín,Ricardo Calle,56,,penalti,RSSSF
+2004-finalizacion-0024,Independiente Medellín,César Baloyes,75,,normal,RSSSF
+2004-finalizacion-0024,Unión Magdalena,Roberto Polo,5,,normal,RSSSF
+2004-finalizacion-0025,Atlético Huila,Germán Casas,31,,penalti,RSSSF
+2004-finalizacion-0025,Deportes Tolima,Ricardo Ciciliano,45,,normal,RSSSF
+2004-finalizacion-0025,Deportes Tolima,Iván Velásquez,53,,normal,RSSSF
+2004-finalizacion-0025,Deportes Tolima,Iván Velásquez,69,,normal,RSSSF
+2004-finalizacion-0025,Deportes Tolima,John Charria,85,,normal,RSSSF
 2004-finalizacion-0026,Independiente Santa Fe,Léider Preciado,40,,normal,RSSSF
 2004-finalizacion-0026,Independiente Santa Fe,William Vásquez,89,,normal,RSSSF
 2004-finalizacion-0027,América de Cali,Carlos Molina,33,,normal,RSSSF
@@ -3888,6 +4466,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0056,Junior de Barranquilla,Martín Arzuaga,33,,normal,RSSSF
 2004-finalizacion-0056,Junior de Barranquilla,Wilson Carpintero,75,,normal,RSSSF
 2004-finalizacion-0056,Junior de Barranquilla,Leonardo Rojano,80,,normal,RSSSF
+2004-finalizacion-0057,América de Cali,Aquivaldo Mosquera,24,,contra,RSSSF
+2004-finalizacion-0057,América de Cali,Andrés González,40,,normal,RSSSF
+2004-finalizacion-0057,América de Cali,Leo Moreno,79,,normal,RSSSF
+2004-finalizacion-0057,América de Cali,Pablo Armero,88,,normal,RSSSF
+2004-finalizacion-0057,Atlético Nacional,Carlos Díaz,23,,normal,RSSSF
 2004-finalizacion-0058,Deportivo Pasto,Henry Vásquez,51,,normal,RSSSF
 2004-finalizacion-0059,Boyacá Chicó,Francisco Serrano,14,,normal,RSSSF
 2004-finalizacion-0059,Deportes Tolima,Iván Velásquez,81,,normal,RSSSF
@@ -3898,6 +4481,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0061,Atlético Huila,César González,58,,normal,RSSSF
 2004-finalizacion-0061,Deportivo Cali,Milton Rodríguez,21,,normal,RSSSF
 2004-finalizacion-0061,Deportivo Cali,Milton Rodríguez,53,,normal,RSSSF
+2004-finalizacion-0062,Once Caldas,Rubén Velásquez,17,,normal,RSSSF
+2004-finalizacion-0062,Once Caldas,Jonathan Fabbro,52,,normal,RSSSF
+2004-finalizacion-0062,Once Caldas,Herly Alcázar,91,,normal,RSSSF
+2004-finalizacion-0062,Atlético Bucaramanga,Eddier Londoño,19,,normal,RSSSF
 2004-finalizacion-0063,Independiente Medellín,Néider Morantes,44,,normal,RSSSF
 2004-finalizacion-0063,Independiente Medellín,Diego Álvarez,65,,normal,RSSSF
 2004-finalizacion-0063,Independiente Medellín,Jaime Castrillón,81,,normal,RSSSF
@@ -3915,6 +4502,15 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0068,Junior de Barranquilla,Orlando Ballesteros,60,,normal,RSSSF
 2004-finalizacion-0069,Unión Magdalena,Alberto Godoy,34,,normal,RSSSF
 2004-finalizacion-0069,Unión Magdalena,Alexander Valoy,55,,normal,RSSSF
+2004-finalizacion-0070,Millonarios,Carlos Adonay Acevedo,6,,normal,RSSSF
+2004-finalizacion-0070,Millonarios,José Moreno,71,,penalti,RSSSF
+2004-finalizacion-0070,Boyacá Chicó,Anuar Guerrero,25,,normal,RSSSF
+2004-finalizacion-0070,Boyacá Chicó,Silvino Caicedo,92,,normal,RSSSF
+2004-finalizacion-0072,Deportivo Pereira,Guillermo Berrío,37,,normal,RSSSF
+2004-finalizacion-0072,Atlético Nacional,Héctor Hurtado,20,,normal,RSSSF
+2004-finalizacion-0072,Atlético Nacional,Cristian Marrugo,62,,normal,RSSSF
+2004-finalizacion-0072,Atlético Nacional,Edixon Perea,62,,normal,RSSSF
+2004-finalizacion-0072,Atlético Nacional,Hugo Morales,78,,normal,RSSSF
 2004-finalizacion-0073,Atlético Bucaramanga,Henry Hernández,65,,normal,RSSSF
 2004-finalizacion-0073,Atlético Bucaramanga,Henry Hernández,93,,normal,RSSSF
 2004-finalizacion-0074,Deportivo Pasto,Wilmer Díaz,83,,normal,RSSSF
@@ -3923,6 +4519,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0075,Independiente Medellín,Camilo Giraldo,67,,normal,RSSSF
 2004-finalizacion-0076,Once Caldas,Dairo Moreno,67,,normal,RSSSF
 2004-finalizacion-0076,Once Caldas,Elkin Soto,87,,normal,RSSSF
+2004-finalizacion-0077,Deportes Tolima,Iván Velásquez,31,,normal,RSSSF
+2004-finalizacion-0077,Deportes Tolima,Iván Velásquez,39,,normal,RSSSF
+2004-finalizacion-0077,Deportes Tolima,Ricardo Ciciliano,45,,normal,RSSSF
+2004-finalizacion-0077,Atlético Huila,César González,34,,normal,RSSSF
+2004-finalizacion-0077,Atlético Huila,Luis Andrade,51,,normal,RSSSF
 2004-finalizacion-0078,Millonarios,José Moreno,91,,normal,RSSSF
 2004-finalizacion-0078,Independiente Santa Fe,Léider Preciado,51,,normal,RSSSF
 2004-finalizacion-0079,Unión Magdalena,Pablo Quandt,8,,normal,RSSSF
@@ -3961,6 +4562,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0096,Envigado,Néstor Alvarez,60,,normal,RSSSF
 2004-finalizacion-0097,Unión Magdalena,Alberto Godoy,40,,normal,RSSSF
 2004-finalizacion-0099,Deportivo Pereira,Hernando Cardona,66,,normal,RSSSF
+2004-finalizacion-0100,América de Cali,Edwin Valencia,51,,normal,RSSSF
+2004-finalizacion-0100,América de Cali,Andrés Felipe González,71,,normal,RSSSF
+2004-finalizacion-0100,América de Cali,Leonardo Moreno,86,,normal,RSSSF
+2004-finalizacion-0100,Deportes Tolima,John Charria,10,,normal,RSSSF
+2004-finalizacion-0100,Deportes Tolima,John Charria,24,,normal,RSSSF
+2004-finalizacion-0100,Deportes Tolima,Iván Velásquez,73,,normal,RSSSF
 2004-finalizacion-0101,Millonarios,Leonardo Santamaría,8,,normal,RSSSF
 2004-finalizacion-0101,Millonarios,Omar Guerra,52,,normal,RSSSF
 2004-finalizacion-0103,Deportivo Pasto,Estéban González,41,,normal,RSSSF
@@ -3981,6 +4588,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0109,América de Cali,Leonardo Fabio Moreno,79,,normal,RSSSF
 2004-finalizacion-0110,Once Caldas,Herly Alcázar,88,,normal,RSSSF
 2004-finalizacion-0110,Independiente Santa Fe,Leider Preciado,46,,normal,RSSSF
+2004-finalizacion-0111,Independiente Medellín,Néider Morantes,23,,normal,RSSSF
+2004-finalizacion-0111,Independiente Medellín,Diego Álvarez,87,,normal,RSSSF
+2004-finalizacion-0111,Junior de Barranquilla,Macnelly Torres,12,,normal,RSSSF
+2004-finalizacion-0111,Junior de Barranquilla,Walter Ribonetto,78,,normal,RSSSF
 2004-finalizacion-0112,Cortuluá,Marcio Cruz,67,,normal,RSSSF
 2004-finalizacion-0114,Deportivo Cali,Milton Rodríguez,82,,normal,RSSSF
 2004-finalizacion-0114,Deportivo Cali,Roberto Carlos Cortés,87,,normal,RSSSF
@@ -3999,6 +4610,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0121,Independiente Santa Fe,Leider Preciado,36,,normal,RSSSF
 2004-finalizacion-0121,Independiente Santa Fe,Leider Preciado,69,,penalti,RSSSF
 2004-finalizacion-0121,Atlético Huila,Santiago Silvera,57,,normal,RSSSF
+2004-finalizacion-0122,Atlético Nacional,Oscar Echeverri,9,,normal,RSSSF
+2004-finalizacion-0122,Atlético Nacional,Carlos Alvarez,52,,normal,RSSSF
+2004-finalizacion-0122,Atlético Nacional,Héctor Hurtado,91,,normal,RSSSF
+2004-finalizacion-0122,Deportivo Cali,Milton Rodríguez,15,,normal,RSSSF
 2004-finalizacion-0123,Deportivo Pereira,Hernán Darío Cardona,47,,normal,RSSSF
 2004-finalizacion-0124,Deportes Quindío,Hugo Rodallega,75,,normal,RSSSF
 2004-finalizacion-0125,Junior de Barranquilla,Cristian Racero,13,,normal,RSSSF
@@ -4012,6 +4627,13 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0127,América de Cali,Leonardo Moreno,78,,normal,RSSSF
 2004-finalizacion-0128,Atlético Huila,Pedro Pino,18,,normal,RSSSF
 2004-finalizacion-0128,Junior de Barranquilla,Wilson Carpintero,73,,normal,RSSSF
+2004-finalizacion-0129,Once Caldas,Herly Alcázar,6,,normal,RSSSF
+2004-finalizacion-0129,Once Caldas,Herly Alcázar,59,,normal,RSSSF
+2004-finalizacion-0129,Once Caldas,Elkin Soto,42,,normal,RSSSF
+2004-finalizacion-0129,Once Caldas,Javier Araújo,76,,normal,RSSSF
+2004-finalizacion-0129,Once Caldas,Diego Cortés,85,,contra,RSSSF
+2004-finalizacion-0129,Once Caldas,Róller Cambindo,88,,normal,RSSSF
+2004-finalizacion-0129,Deportes Quindío,Hugo Rodallega,20,,normal,RSSSF
 2004-finalizacion-0130,Independiente Medellín,Diego Alvarez,25,,normal,RSSSF
 2004-finalizacion-0132,Atlético Bucaramanga,Edier Londoño,18,,normal,RSSSF
 2004-finalizacion-0133,Deportivo Cali,Milton Rodríguez,56,,normal,RSSSF
@@ -4042,13 +4664,30 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0143,Deportes Quindío,Hugo Rodallega,73,,normal,RSSSF
 2004-finalizacion-0144,Junior de Barranquilla,Orlando Ballesteros,13,,normal,RSSSF
 2004-finalizacion-0144,Junior de Barranquilla,Omar Pérez,50,,normal,RSSSF
+2004-finalizacion-0145,Junior de Barranquilla,Walter Ribonetto,88,,normal,RSSSF
+2004-finalizacion-0145,Junior de Barranquilla,Juan Carlos Quintero,93,,normal,RSSSF
+2004-finalizacion-0145,América de Cali,Leonardo Moreno,10,,normal,RSSSF
+2004-finalizacion-0145,América de Cali,Edwin Valencia,75,,normal,RSSSF
+2004-finalizacion-0146,Independiente Santa Fe,Rider O'Neil,17,,normal,RSSSF
+2004-finalizacion-0146,Independiente Santa Fe,Carlos Ortíz,36,,normal,RSSSF
+2004-finalizacion-0146,Deportes Quindío,Diego Cortés,21,,normal,RSSSF
+2004-finalizacion-0146,Deportes Quindío,Edú Aponzá,45,,normal,RSSSF
+2004-finalizacion-0146,Deportes Quindío,Mauricio Molina,85,,normal,RSSSF
 2004-finalizacion-0147,Boyacá Chicó,Wason Rentería,53,,normal,RSSSF
 2004-finalizacion-0148,Once Caldas,Jonathan Fabbro,52,,penalti,RSSSF
 2004-finalizacion-0149,Atlético Nacional,Héctor Hurtado,67,,normal,RSSSF
 2004-finalizacion-0150,Cortuluá,Emir González,77,,normal,RSSSF
 2004-finalizacion-0150,Deportivo Pereira,Guillermo Berrío,75,,normal,RSSSF
+2004-finalizacion-0151,Atlético Bucaramanga,Edier Londoño,33,,normal,RSSSF
+2004-finalizacion-0151,Atlético Bucaramanga,Iván Garrido,48,,normal,RSSSF
+2004-finalizacion-0151,Atlético Bucaramanga,Marcos Cardoso,50,,normal,RSSSF
+2004-finalizacion-0151,Deportes Tolima,Ricardo Ciciliano,90,,normal,RSSSF
 2004-finalizacion-0152,Deportivo Cali,Milton Rodríguez,13,,normal,RSSSF
 2004-finalizacion-0152,Deportivo Cali,Carlos Pavón,27,,normal,RSSSF
+2004-finalizacion-0153,Envigado,César Hernández,6,,normal,RSSSF
+2004-finalizacion-0153,Envigado,Óscar Restrepo,49,,normal,RSSSF
+2004-finalizacion-0153,Envigado,Andrés Casañas,66,,normal,RSSSF
+2004-finalizacion-0153,Envigado,Freddy Guarín,76,,normal,RSSSF
 2004-finalizacion-0154,América de Cali,Leonardo Moreno,30,,normal,RSSSF
 2004-finalizacion-0154,América de Cali,Víctor Bonilla,66,,normal,RSSSF
 2004-finalizacion-0154,Envigado,Andrés Casañas,17,,normal,RSSSF
@@ -4060,6 +4699,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0157,Cortuluá,Julián Anchico,56,,normal,RSSSF
 2004-finalizacion-0158,Deportivo Pereira,Hernán Darío Cardona,25,,normal,RSSSF
 2004-finalizacion-0158,Independiente Medellín,Jackson Martínez,71,,normal,RSSSF
+2004-finalizacion-0159,Deportivo Pasto,Óscar Darío Martínez,15,,normal,RSSSF
+2004-finalizacion-0159,Deportivo Pasto,Óscar Darío Martínez,24,,normal,RSSSF
+2004-finalizacion-0159,Deportivo Pasto,Diego Toro,71,,normal,RSSSF
+2004-finalizacion-0159,Atlético Huila,Dídier Montealegre,54,,normal,RSSSF
+2004-finalizacion-0159,Atlético Huila,Armando Carrillo,84,,normal,RSSSF
 2004-finalizacion-0160,Atlético Nacional,Edgar Cataño,17,,contra,RSSSF
 2004-finalizacion-0160,Atlético Nacional,Carlos Alvarez,21,,normal,RSSSF
 2004-finalizacion-0161,Boyacá Chicó,Wason Rentería,68,,normal,RSSSF
@@ -4068,20 +4712,40 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0161,Independiente Santa Fe,Léider Preciado,79,,normal,RSSSF
 2004-finalizacion-0162,Deportes Quindío,Carlos González,85,,normal,RSSSF
 2004-finalizacion-0162,Junior de Barranquilla,Omar Pérez,15,,normal,RSSSF
+2004-finalizacion-0164,América de Cali,David Ferreira,6,,normal,RSSSF
+2004-finalizacion-0164,América de Cali,Nestor Salazar,18,,normal,RSSSF
+2004-finalizacion-0164,Deportes Tolima,Camilo Ramírez,10,,normal,RSSSF
+2004-finalizacion-0164,Deportes Tolima,Iván Velásquez,58,,normal,RSSSF
+2004-finalizacion-0164,Deportes Tolima,Ricardo Siciliano,89,,normal,RSSSF
 2004-finalizacion-0165,Junior de Barranquilla,Macnelly Torres,26,,normal,RSSSF
 2004-finalizacion-0165,Junior de Barranquilla,Haider Palacio,47,,penalti,RSSSF
 2004-finalizacion-0165,Junior de Barranquilla,Orlando Ballesteros,70,,normal,RSSSF
+2004-finalizacion-0167,Once Caldas,Antonio De Nigris,26,,normal,RSSSF
+2004-finalizacion-0167,América de Cali,Víctor Bonilla 48+,,,normal,RSSSF
+2004-finalizacion-0167,América de Cali,Víctor Bonilla 48+,62,,normal,RSSSF
+2004-finalizacion-0167,América de Cali,Néstor Salazar,47,,normal,RSSSF
+2004-finalizacion-0167,América de Cali,Leonardo Moreno,92,,normal,RSSSF
 2004-finalizacion-0168,Deportes Tolima,Iván Velásquez,53,,normal,RSSSF
 2004-finalizacion-0168,Atlético Nacional,Héctor Hurtado,90,,normal,RSSSF
 2004-finalizacion-0168,Atlético Nacional,Humberto Mendoza,65,,normal,RSSSF
 2004-finalizacion-0169,Deportivo Cali,Roberto Palacios,9,,normal,RSSSF
 2004-finalizacion-0169,Deportivo Cali,Milton Rodríguez,79,,normal,RSSSF
+2004-finalizacion-0170,Independiente Medellín,Ricardo Calle,48,,penalti,RSSSF
+2004-finalizacion-0170,Independiente Medellín,Neider Morantes,57,,normal,RSSSF
+2004-finalizacion-0170,Independiente Medellín,Jackson Martínez,70,,normal,RSSSF
+2004-finalizacion-0170,Junior de Barranquilla,Martín Arzuaga,65,,normal,RSSSF
+2004-finalizacion-0170,Junior de Barranquilla,Heriberto Velandia,62,,contra,RSSSF
 2004-finalizacion-0171,Once Caldas,Dairo Moreno,77,,normal,RSSSF
 2004-finalizacion-0173,Deportivo Cali,Hernando Patiño,14,,normal,RSSSF
 2004-finalizacion-0173,Independiente Medellín,Jaime Castrillón,28,,normal,RSSSF
 2004-finalizacion-0174,Junior de Barranquilla,Orlando Ballesteros,67,,normal,RSSSF
 2004-finalizacion-0174,Junior de Barranquilla,Emerson Acuña,86,,normal,RSSSF
 2004-finalizacion-0174,Atlético Bucaramanga,Marcos Cardozo,42,,normal,RSSSF
+2004-finalizacion-0175,Deportes Tolima,Oscar Briceño,8,,normal,RSSSF
+2004-finalizacion-0175,Deportes Tolima,Oscar Briceño,11,,normal,RSSSF
+2004-finalizacion-0175,Deportes Tolima,Dumar Rueda,44,,normal,RSSSF
+2004-finalizacion-0175,Deportes Tolima,John Harold Viáfara,60,,normal,RSSSF
+2004-finalizacion-0175,Once Caldas,Jonathan Fabbro,32,,normal,RSSSF
 2004-finalizacion-0176,América de Cali,Andrés González,46,,normal,RSSSF
 2004-finalizacion-0176,América de Cali,Leonardo Moreno,63,,normal,RSSSF
 2004-finalizacion-0176,Atlético Nacional,Carlos Alvarez,82,,penalti,RSSSF
@@ -4101,9 +4765,29 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-finalizacion-0184,América de Cali,Leonardo Fabio Moreno,67,,normal,RSSSF
 2004-finalizacion-0185,Deportivo Cali,Alvaro Domínguez,84,,normal,RSSSF
 2004-finalizacion-0185,Junior de Barranquilla,Leiner Rolong,89,,normal,RSSSF
+2004-finalizacion-0186,Independiente Medellín,Jaír Benítez,15,,normal,RSSSF
+2004-finalizacion-0186,Independiente Medellín,Jackson Martínez,34,,normal,RSSSF
+2004-finalizacion-0186,Independiente Medellín,Jackson Martínez,43,,normal,RSSSF
+2004-finalizacion-0186,Independiente Medellín,Diego Álvarez,52,,normal,RSSSF
+2004-finalizacion-0186,Independiente Medellín,Lewis Ochoa,75,,normal,RSSSF
+2004-finalizacion-0186,Atlético Bucaramanga,Jamell Ramos,37,,contra,RSSSF
+2004-finalizacion-0186,Atlético Bucaramanga,Jhann Carlos López,65,,contra,RSSSF
+2004-finalizacion-0186,Atlético Bucaramanga,Emerson Chamorro,80,,normal,RSSSF
 2004-finalizacion-0187,Junior de Barranquilla,Leonardo Rojano,17,,normal,RSSSF
 2004-finalizacion-0187,Junior de Barranquilla,Hayder Palacio,74,,normal,RSSSF
 2004-finalizacion-0187,Junior de Barranquilla,Roberto Peñaloza,80,,normal,RSSSF
+2004-finalizacion-0188,Atlético Nacional,Edixon Perea,19,,normal,RSSSF
+2004-finalizacion-0188,Atlético Nacional,Aquivaldo Mosquera,24,,normal,RSSSF
+2004-finalizacion-0188,Atlético Nacional,Aquivaldo Mosquera,59,,normal,RSSSF
+2004-finalizacion-0188,Atlético Nacional,Carlos Díaz,63,,normal,RSSSF
+2004-finalizacion-0188,Atlético Nacional,Héctor Hurtado,68,,normal,RSSSF
+2004-finalizacion-0188,Junior de Barranquilla,Martín Arzuaga,39,,normal,RSSSF
+2004-finalizacion-0188,Junior de Barranquilla,Walter Ribonetto,88,,normal,RSSSF
+2005-apertura-0001,Envigado,Óscar Restrepo,9,,normal,RSSSF
+2005-apertura-0001,Envigado,Luis Tejada,34,,normal,RSSSF
+2005-apertura-0001,Envigado,Orlando Ballesteros,66,,normal,RSSSF
+2005-apertura-0001,Envigado,Hermes Orejuela,81,,normal,RSSSF
+2005-apertura-0001,Millonarios,Gabriel Fernández,1,,normal,RSSSF
 2005-apertura-0002,Independiente Medellín,César Valoyes,80,,normal,RSSSF
 2005-apertura-0003,Atlético Nacional,Hugo Morales,22,,normal,RSSSF
 2005-apertura-0003,Atlético Nacional,Víctor Aristizábal,55,,normal,RSSSF
@@ -4118,6 +4802,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0007,Boyacá Chicó,Nilson Pérez,91,,normal,RSSSF
 2005-apertura-0008,Deportivo Pereira,Carlos Castillo,62,,normal,RSSSF
 2005-apertura-0009,Unión Magdalena,Carlos Vilarete,59,,normal,RSSSF
+2005-apertura-0011,Millonarios,Ómar Andrés Rodríguez,40,,normal,RSSSF
+2005-apertura-0011,Millonarios,Gabriel Fernández,51,,normal,RSSSF
+2005-apertura-0011,Boyacá Chicó,Nilson Pérez,6,,normal,RSSSF
+2005-apertura-0011,Boyacá Chicó,Watson Rentería,82,,normal,RSSSF
 2005-apertura-0012,Deportivo Pereira,Belmer Aguilar,81,,normal,RSSSF
 2005-apertura-0012,Envigado,Freddy Guarín,46,,normal,RSSSF
 2005-apertura-0013,Atlético Bucaramanga,Oscar Londoño,56,,normal,RSSSF
@@ -4128,6 +4816,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0015,Once Caldas,Jefrey Díaz,19,,normal,RSSSF
 2005-apertura-0016,Deportivo Pasto,Oscar Martínez,83,,normal,RSSSF
 2005-apertura-0016,Independiente Santa Fe,Léider Preciado,77,,normal,RSSSF
+2005-apertura-0017,Junior de Barranquilla,Martín Arzuaga,9,,normal,RSSSF
+2005-apertura-0017,Junior de Barranquilla,Martín Arzuaga,85,,normal,RSSSF
+2005-apertura-0017,Junior de Barranquilla,Háider Palacios,75,,normal,RSSSF
+2005-apertura-0017,Deportivo Cali,Milton Rodríguez,13,,normal,RSSSF
+2005-apertura-0017,Deportivo Cali,Milton Rodríguez,15,,normal,RSSSF
+2005-apertura-0017,Deportivo Cali,Jaminson Olave,29,,normal,RSSSF
 2005-apertura-0018,América de Cali,Jorge Banguero,29,,normal,RSSSF
 2005-apertura-0018,América de Cali,Edinson Chará,84,,normal,RSSSF
 2005-apertura-0018,Unión Magdalena,Carlos Vilarete,48,,normal,RSSSF
@@ -4139,6 +4833,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0021,Real Cartagena,Carlos Preciado,75,,normal,RSSSF
 2005-apertura-0022,Junior de Barranquilla,Juan Carlos Quintero,16,,penalti,RSSSF
 2005-apertura-0022,Junior de Barranquilla,Lin Carlos Henry,67,,penalti,RSSSF
+2005-apertura-0023,Envigado,Orlando Ballesteros,49,,normal,RSSSF
+2005-apertura-0023,Envigado,Orlando Ballesteros,68,,normal,RSSSF
+2005-apertura-0023,Envigado,Óscar Restrepo,60,,normal,RSSSF
+2005-apertura-0023,Independiente Medellín,Diego Álvarez,21,,normal,RSSSF
+2005-apertura-0023,Independiente Medellín,César Valoyes,65,,normal,RSSSF
+2005-apertura-0023,Independiente Medellín,David Montoya,79,,normal,RSSSF
 2005-apertura-0024,Boyacá Chicó,Nilson Pérez,40,,normal,RSSSF
 2005-apertura-0024,Boyacá Chicó,Anuar Guerrero,70,,normal,RSSSF
 2005-apertura-0024,Deportivo Pereira,Diego Cortés,74,,normal,RSSSF
@@ -4147,6 +4847,17 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0026,Once Caldas,Elkin Soto,70,,normal,RSSSF
 2005-apertura-0026,Deportivo Pasto,Santiago Silvera,66,,normal,RSSSF
 2005-apertura-0028,Independiente Santa Fe,Léider Preciado,83,,normal,RSSSF
+2005-apertura-0029,Deportes Tolima,Jáider Arboleda,55,,normal,RSSSF
+2005-apertura-0029,Deportes Tolima,Víctor Bonilla,70,,normal,RSSSF
+2005-apertura-0029,Deportes Tolima,Víctor Bonilla,79,,normal,RSSSF
+2005-apertura-0029,Millonarios,Alejandro Benítez,60,,normal,RSSSF
+2005-apertura-0029,Millonarios,Ómar Guerra,77,,normal,RSSSF
+2005-apertura-0029,Millonarios,José Moreno,81,,normal,RSSSF
+2005-apertura-0031,Junior de Barranquilla,Leonardo Rojano,41,,normal,RSSSF
+2005-apertura-0031,Junior de Barranquilla,Édgar Zapata,48,,normal,RSSSF
+2005-apertura-0031,Junior de Barranquilla,Juan Carlos Quintero,49,,normal,RSSSF
+2005-apertura-0031,Envigado,Orlando Ballesteros,27,,normal,RSSSF
+2005-apertura-0031,Envigado,Luis Tejada,64,,normal,RSSSF
 2005-apertura-0032,América de Cali,Rubén Bustos,93,,normal,RSSSF
 2005-apertura-0032,Atlético Bucaramanga,Carlos Salazar,50,,normal,RSSSF
 2005-apertura-0032,Atlético Bucaramanga,Luis Pérez,62,,penalti,RSSSF
@@ -4167,6 +4878,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0041,Envigado,Oscar Restrepo,71,,normal,RSSSF
 2005-apertura-0041,América de Cali,Claudio Elias,80,,normal,RSSSF
 2005-apertura-0042,Atlético Huila,Iván Trujillo,57,,penalti,RSSSF
+2005-apertura-0043,Millonarios,Iván René Valenciano,18,,normal,RSSSF
+2005-apertura-0043,Millonarios,Luis Zapata,51,,normal,RSSSF
+2005-apertura-0043,Millonarios,José Moreno,83,,normal,RSSSF
+2005-apertura-0043,Deportivo Pereira,Ricardo Páez,62,,normal,RSSSF
+2005-apertura-0043,Deportivo Pereira,Jorge Agudelo,64,,normal,RSSSF
 2005-apertura-0044,Once Caldas,Dairo Moreno,59,,normal,RSSSF
 2005-apertura-0044,Deportes Tolima,Víctor Bonilla,8,,normal,RSSSF
 2005-apertura-0044,Deportes Tolima,Emir González,89,,normal,RSSSF
@@ -4190,6 +4906,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0054,Atlético Nacional,Hugo Morales,56,,normal,RSSSF
 2005-apertura-0055,Deportivo Cali,Milton Rodríguez,43,,penalti,RSSSF
 2005-apertura-0055,Independiente Santa Fe,Juan Carlos Ramírez,83,,normal,RSSSF
+2005-apertura-0056,Atlético Nacional,Camilo Zúñiga,87,,normal,RSSSF
+2005-apertura-0056,Deportes Tolima,Víctor Bonilla,7,,normal,RSSSF
+2005-apertura-0056,Deportes Tolima,Yulián Anchico,84,,normal,RSSSF
+2005-apertura-0056,Deportes Tolima,Oscar Passo,93,,normal,RSSSF
 2005-apertura-0057,Unión Magdalena,Orlando Fuentes,47,,normal,RSSSF
 2005-apertura-0057,Once Caldas,Alexis Henriquez,93,,normal,RSSSF
 2005-apertura-0058,Atlético Bucaramanga,Armando Carrillo,61,,normal,RSSSF
@@ -4235,15 +4955,33 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0077,Deportivo Cali,Ricardo Ciciliano,18,,normal,RSSSF
 2005-apertura-0077,Deportivo Cali,Milton Rodríguez,64,,normal,RSSSF
 2005-apertura-0078,Real Cartagena,Manuel Galarcio,39,,normal,RSSSF
+2005-apertura-0079,Deportes Quindío,Iván Vélez,34,,normal,RSSSF
+2005-apertura-0079,Envigado,Orlando Ballesteros,31,,normal,RSSSF
+2005-apertura-0079,Envigado,Luis Tejada,41,,normal,RSSSF
+2005-apertura-0079,Envigado,Oscar Restrepo,67,,normal,RSSSF
+2005-apertura-0079,Envigado,Hermes Orejuela,87,,normal,RSSSF
 2005-apertura-0080,Deportivo Pasto,Santiago Silvera,36,,normal,RSSSF
 2005-apertura-0081,Deportes Tolima,Célimo Polo,53,,normal,RSSSF
 2005-apertura-0081,Atlético Huila,Hilario Cuenú,24,,contra,RSSSF
 2005-apertura-0081,Atlético Huila,Fabián Cuellar,52,,normal,RSSSF
+2005-apertura-0082,Deportivo Cali,Milton Rodríguez,27,,normal,RSSSF
+2005-apertura-0082,Deportivo Cali,Milton Rodríguez,48,,penalti,RSSSF
+2005-apertura-0082,Deportivo Cali,Alvaro Domínguez,36,,normal,RSSSF
+2005-apertura-0082,Atlético Nacional,Edixon Perea,34,,normal,RSSSF
+2005-apertura-0082,Atlético Nacional,Edixon Perea,59,,normal,RSSSF
+2005-apertura-0082,Atlético Nacional,Edixon Perea,65,,normal,RSSSF
 2005-apertura-0083,Envigado,Orlando Ballesteros,29,,normal,RSSSF
 2005-apertura-0083,Envigado,Oscar Restrepo,55,,penalti,RSSSF
 2005-apertura-0083,Independiente Santa Fe,Víctor Cortés,51,,normal,RSSSF
 2005-apertura-0085,Atlético Bucaramanga,Oscar Londoño,34,,normal,RSSSF
 2005-apertura-0085,Once Caldas,Julián Díaz,63,,normal,RSSSF
+2005-apertura-0086,Boyacá Chicó,Anuar Guerrero,20,,normal,RSSSF
+2005-apertura-0086,Boyacá Chicó,Watson Rentería,16,,normal,RSSSF
+2005-apertura-0086,Boyacá Chicó,Watson Rentería,34,,normal,RSSSF
+2005-apertura-0086,Deportivo Pasto,Santiago Silvera,16,,normal,RSSSF
+2005-apertura-0086,Deportivo Pasto,Santiago Silvera,65,,normal,RSSSF
+2005-apertura-0086,Deportivo Pasto,Diego Valdés,61,,normal,RSSSF
+2005-apertura-0086,Deportivo Pasto,Oscar Martínez,64,,normal,RSSSF
 2005-apertura-0088,Millonarios,José Moreno,17,,penalti,RSSSF
 2005-apertura-0088,Millonarios,Gabriel Fernández,29,,normal,RSSSF
 2005-apertura-0088,Real Cartagena,Nicolás Tagliani,10,,normal,RSSSF
@@ -4253,6 +4991,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0090,Independiente Medellín,Diego Alvarez,67,,normal,RSSSF
 2005-apertura-0091,Deportes Tolima,Víctor Bonilla,41,,normal,RSSSF
 2005-apertura-0091,Junior de Barranquilla,Emerson Acuña,64,,normal,RSSSF
+2005-apertura-0092,Deportes Quindío,Hugo Rodallega,16,,normal,RSSSF
+2005-apertura-0092,Deportes Quindío,Hugo Rodallega,36,,penalti,RSSSF
+2005-apertura-0092,Deportes Quindío,Hugo Rodallega,85,,normal,RSSSF
+2005-apertura-0092,Millonarios,José Moreno,29,,normal,RSSSF
+2005-apertura-0092,Millonarios,José Moreno,42,,penalti,RSSSF
+2005-apertura-0092,Millonarios,Facundo Argüello,91,,normal,RSSSF
 2005-apertura-0093,Deportivo Pasto,Luis Eduardo Lora,4,,normal,RSSSF
 2005-apertura-0093,Deportivo Pasto,Diego Valdés,7,,penalti,RSSSF
 2005-apertura-0093,Deportivo Pasto,Diego Valdés,58,,normal,RSSSF
@@ -4262,18 +5006,46 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0095,Once Caldas,Tressor Moreno,83,,normal,RSSSF
 2005-apertura-0095,Envigado,Luis Tejada,37,,normal,RSSSF
 2005-apertura-0095,Envigado,Luis Tejada,63,,normal,RSSSF
+2005-apertura-0096,Atlético Nacional,Víctor Hugo Aristizábal,44,,normal,RSSSF
+2005-apertura-0096,Atlético Nacional,Víctor Hugo Aristizábal,47,,penalti,RSSSF
+2005-apertura-0096,Atlético Nacional,Víctor Hugo Aristizábal,72,,normal,RSSSF
+2005-apertura-0096,Atlético Bucaramanga,Armando Carrillo,12,,normal,RSSSF
+2005-apertura-0096,Atlético Bucaramanga,Wbeimar Olivares,63,,normal,RSSSF
 2005-apertura-0097,Unión Magdalena,Luis Zuleta,61,,normal,RSSSF
 2005-apertura-0097,Unión Magdalena,Carlos Vilarete,82,,normal,RSSSF
+2005-apertura-0098,América de Cali,Jorge Banguero,2,,normal,RSSSF
+2005-apertura-0098,América de Cali,Jorge Banguero,82,,normal,RSSSF
+2005-apertura-0098,América de Cali,Leonardo Mina Polo,34,,normal,RSSSF
+2005-apertura-0098,Independiente Medellín,Diego Alvarez,32,,normal,RSSSF
+2005-apertura-0098,Independiente Medellín,Jackson Martínez,49,,normal,RSSSF
 2005-apertura-0099,Real Cartagena,Manuel Galarcio,92,,normal,RSSSF
 2005-apertura-0099,Deportivo Pereira,César Martínez,20,,normal,RSSSF
+2005-apertura-0100,Envigado,Óscar Restrepo,34,,normal,RSSSF
+2005-apertura-0100,Envigado,Luis Tejada,66,,normal,RSSSF
+2005-apertura-0100,Atlético Nacional,Edixon Perea,18,,normal,RSSSF
+2005-apertura-0100,Atlético Nacional,Edixon Perea,57,,normal,RSSSF
+2005-apertura-0100,Atlético Nacional,Víctor Aristizábal,31,,normal,RSSSF
+2005-apertura-0100,Atlético Nacional,Víctor Aristizábal,40,,normal,RSSSF
 2005-apertura-0101,Deportivo Cali,Blas Pérez,1,,normal,RSSSF
 2005-apertura-0101,Deportes Tolima,Oscar Briceño,47,,normal,RSSSF
 2005-apertura-0101,Deportes Tolima,Jaider Arboleda,91,,normal,RSSSF
 2005-apertura-0102,Atlético Bucaramanga,Henry Hernández,34,,normal,RSSSF
 2005-apertura-0102,Atlético Bucaramanga,Alex Orrego,55,,normal,RSSSF
 2005-apertura-0102,Unión Magdalena,Pablo Quandt,36,,normal,RSSSF
+2005-apertura-0103,Junior de Barranquilla,Háider Palacio,10,,normal,RSSSF
+2005-apertura-0103,Junior de Barranquilla,Juan Carlos Quintero,32,,normal,RSSSF
+2005-apertura-0103,Junior de Barranquilla,Rodrigo Teixeira,58,,normal,RSSSF
+2005-apertura-0103,Junior de Barranquilla,Rodrigo Teixeira,70,,normal,RSSSF
+2005-apertura-0103,Junior de Barranquilla,Martín Arzuaga,80,,normal,RSSSF
+2005-apertura-0103,América de Cali,Giovanni Arrechea,8,,normal,RSSSF
+2005-apertura-0103,América de Cali,Giovanni Arrechea,36,,normal,RSSSF
+2005-apertura-0103,América de Cali,Edigson Chará,14,,normal,RSSSF
 2005-apertura-0104,Boyacá Chicó,Diego Salazar,85,,normal,RSSSF
 2005-apertura-0104,Once Caldas,Javier Araújo,76,,normal,RSSSF
+2005-apertura-0106,Millonarios,José Moreno,4,,normal,RSSSF
+2005-apertura-0106,Millonarios,Facundo Argüello,77,,normal,RSSSF
+2005-apertura-0106,Deportivo Pasto,Santiago Silvera,18,,normal,RSSSF
+2005-apertura-0106,Deportivo Pasto,Sergio Novoa,50,,normal,RSSSF
 2005-apertura-0107,Deportivo Pereira,Jorge Agudelo,32,,normal,RSSSF
 2005-apertura-0107,Deportes Quindío,Hugo Rodallega,84,,normal,RSSSF
 2005-apertura-0108,Independiente Medellín,Diego Alvarez,21,,normal,RSSSF
@@ -4281,8 +5053,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0108,Real Cartagena,Carmelo Valencia,83,,normal,RSSSF
 2005-apertura-0109,Atlético Nacional,Hugo morales,60,,normal,RSSSF
 2005-apertura-0109,Atlético Nacional,Víctor Aristizábal,7,,normal,RSSSF
+2005-apertura-0111,Real Cartagena,Manuel Galarcio,3,,normal,RSSSF
+2005-apertura-0111,Real Cartagena,Leonardo Enciso,30,,normal,RSSSF
+2005-apertura-0111,Real Cartagena,Carlos Preciado,92,,normal,RSSSF
+2005-apertura-0111,Junior de Barranquilla,Evert Salas,14,,normal,RSSSF
 2005-apertura-0113,Millonarios,Gabriel Fernández,31,,normal,RSSSF
 2005-apertura-0114,Once Caldas,Elkin Soto,43,,normal,RSSSF
+2005-apertura-0116,Unión Magdalena,Carlos Vilarete,32,,normal,RSSSF
+2005-apertura-0116,Envigado,Johnatan Estrada,25,,normal,RSSSF
+2005-apertura-0116,Envigado,Orlando Ballesteros,40,,normal,RSSSF
+2005-apertura-0116,Envigado,Andrés Casañas,89,,normal,RSSSF
 2005-apertura-0117,Deportivo Cali,Jámison Olave,4,,normal,RSSSF
 2005-apertura-0117,Deportivo Cali,César González,25,,normal,RSSSF
 2005-apertura-0118,Once Caldas,Tressor Moreno,23,,normal,RSSSF
@@ -4334,11 +5114,28 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0145,Deportes Tolima,Víctor Bonilla,67,,normal,RSSSF
 2005-apertura-0146,Deportivo Pasto,Santiago Silvera,61,,normal,RSSSF
 2005-apertura-0146,Real Cartagena,Carmelo Valencia,32,,normal,RSSSF
+2005-apertura-0147,Independiente Santa Fe,Mario Gómez,5,,normal,RSSSF
+2005-apertura-0147,Independiente Santa Fe,Mario González,51,,normal,RSSSF
+2005-apertura-0147,América de Cali,Juan Quiñónez,4,,normal,RSSSF
+2005-apertura-0147,América de Cali,Julián Viáfara,32,,penalti,RSSSF
+2005-apertura-0147,América de Cali,Yovany Arrechea,43,,normal,RSSSF
+2005-apertura-0147,América de Cali,Yovany Arrechea,58,,penalti,RSSSF
+2005-apertura-0147,América de Cali,Néstor Salazar,52,,normal,RSSSF
 2005-apertura-0148,Once Caldas,Dairo Moreno,15,,normal,RSSSF
 2005-apertura-0148,Once Caldas,Dairo Moreno,68,,normal,RSSSF
 2005-apertura-0148,Junior de Barranquilla,Martín Arzuaga,78,,normal,RSSSF
+2005-apertura-0149,Atlético Nacional,Hugo Morales,4,,normal,RSSSF
+2005-apertura-0149,Atlético Nacional,Edixon Perea,6,,normal,RSSSF
+2005-apertura-0149,Atlético Nacional,Víctor Aristizábal,60,,normal,RSSSF
+2005-apertura-0149,Independiente Medellín,Carlos Rivera,45,,normal,RSSSF
 2005-apertura-0150,Unión Magdalena,Carlos Vilarete,40,,penalti,RSSSF
 2005-apertura-0150,Deportivo Pereira,Orlando Rodríguez,7,,normal,RSSSF
+2005-apertura-0151,Deportivo Cali,Blas Pérez,8,,normal,RSSSF
+2005-apertura-0151,Deportivo Cali,Milton Rodríguez,73,,normal,RSSSF
+2005-apertura-0151,Deportivo Cali,Milton Rodríguez,91,,normal,RSSSF
+2005-apertura-0151,Deportivo Cali,Freddy Hurtado,92,,normal,RSSSF
+2005-apertura-0151,Millonarios,Gabriel Fernández,13,,normal,RSSSF
+2005-apertura-0151,Millonarios,Gabriel Fernández,43,,normal,RSSSF
 2005-apertura-0152,Atlético Bucaramanga,Hernán Sarmiento,50,,normal,RSSSF
 2005-apertura-0152,Atlético Bucaramanga,Oscar Londoño,61,,normal,RSSSF
 2005-apertura-0153,Envigado,Jonathan Estrada,41,,normal,RSSSF
@@ -4351,6 +5148,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0156,Atlético Bucaramanga,Henry Hernández,79,,normal,RSSSF
 2005-apertura-0157,Deportivo Cali,Milton Rodríguez,83,,penalti,RSSSF
 2005-apertura-0157,Deportivo Cali,Milton Rodríguez,85,,normal,RSSSF
+2005-apertura-0158,Independiente Medellín,Jackson Martínez,9,,normal,RSSSF
+2005-apertura-0158,Independiente Medellín,Camilo Giraldo,43,,normal,RSSSF
+2005-apertura-0158,Independiente Medellín,Jorge Serna,46,,normal,RSSSF
+2005-apertura-0158,Independiente Medellín,Mauricio Molina,64,,normal,RSSSF
+2005-apertura-0158,Independiente Medellín,Jaime Castrillón,67,,normal,RSSSF
 2005-apertura-0159,América de Cali,Jerson González,40,,normal,RSSSF
 2005-apertura-0159,Once Caldas,Tressor Moreno,42,,normal,RSSSF
 2005-apertura-0160,Junior de Barranquilla,Rodrigo Teixeira,76,,normal,RSSSF
@@ -4363,6 +5165,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0164,Deportes Tolima,Víctor Bonilla,71,,penalti,RSSSF
 2005-apertura-0164,Deportes Tolima,John Charria,52,,normal,RSSSF
 2005-apertura-0164,Independiente Medellín,Ricardo Steer,85,,normal,RSSSF
+2005-apertura-0165,Independiente Santa Fe,Leider Preciado,10,,normal,RSSSF
+2005-apertura-0165,Independiente Santa Fe,Leider Preciado,50,,normal,RSSSF
+2005-apertura-0165,Independiente Santa Fe,Carlos Ortiz,45,,normal,RSSSF
+2005-apertura-0165,Independiente Santa Fe,Nelson Flórez,85,,normal,RSSSF
+2005-apertura-0165,Atlético Huila,Iván Trujillo,26,,normal,RSSSF
+2005-apertura-0165,Atlético Huila,Marcio Cruz,58,,normal,RSSSF
 2005-apertura-0166,Envigado,Orlando Ballesteros,52,,normal,RSSSF
 2005-apertura-0166,Envigado,Oscar Restrepo,87,,normal,RSSSF
 2005-apertura-0166,Once Caldas,Jáminson Hurtado,71,,normal,RSSSF
@@ -4370,6 +5178,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0168,Independiente Medellín,Jackson Martínez,31,,normal,RSSSF
 2005-apertura-0168,Atlético Nacional,Víctor Aristizábal,38,,penalti,RSSSF
 2005-apertura-0168,Atlético Nacional,Edixon Perea,93,,normal,RSSSF
+2005-apertura-0169,Atlético Huila,Cristian Rodríguez,60,,normal,RSSSF
+2005-apertura-0169,Atlético Huila,Lionard Pajoy,71,,normal,RSSSF
+2005-apertura-0169,Envigado,Oscar Restrepo,33,,normal,RSSSF
+2005-apertura-0169,Envigado,Luis Tejada,87,,normal,RSSSF
 2005-apertura-0170,Independiente Santa Fe,Léider Preciado,4,,normal,RSSSF
 2005-apertura-0171,Deportivo Cali,Giovanni García,63,,normal,RSSSF
 2005-apertura-0171,Independiente Medellín,Mauricio Molina,38,,normal,RSSSF
@@ -4380,9 +5192,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0172,Once Caldas,Herly Alcázar,65,,normal,RSSSF
 2005-apertura-0173,Envigado,Orlando Ballesteros,70,,normal,RSSSF
 2005-apertura-0173,Envigado,Orlando Ballesteros,79,,normal,RSSSF
+2005-apertura-0174,Atlético Nacional,Víctor Aristizábal,48,,normal,RSSSF
+2005-apertura-0174,Atlético Nacional,Hugo Morales,52,,normal,RSSSF
+2005-apertura-0174,Atlético Nacional,Humberto Mendoza,61,,normal,RSSSF
+2005-apertura-0174,Atlético Nacional,Edixon Perea,87,,normal,RSSSF
+2005-apertura-0174,Deportes Tolima,Juan Carlos Escobar,24,,normal,RSSSF
 2005-apertura-0175,Independiente Santa Fe,Luis Yáñez,85,,normal,RSSSF
+2005-apertura-0176,Independiente Medellín,Diego Álvarez,38,,normal,RSSSF
+2005-apertura-0176,Independiente Medellín,César Baloyes,46,,normal,RSSSF
+2005-apertura-0176,Independiente Medellín,Mauricio Molina,70,,normal,RSSSF
+2005-apertura-0176,Independiente Medellín,Mauricio Molina,84,,penalti,RSSSF
+2005-apertura-0176,Deportivo Cali,Milton Rodríguez,5,,normal,RSSSF
+2005-apertura-0176,Deportivo Cali,Ricardo Ciciliano,58,,normal,RSSSF
+2005-apertura-0176,Deportivo Cali,Edwin Carrillo,65,,normal,RSSSF
 2005-apertura-0177,Deportes Tolima,Víctor Bonilla,77,,normal,RSSSF
 2005-apertura-0177,Atlético Nacional,Edixon Perea,24,,normal,RSSSF
+2005-apertura-0178,Once Caldas,Duván Hernández,28,,contra,RSSSF
+2005-apertura-0178,Once Caldas,Herly Alcázar,82,,normal,RSSSF
+2005-apertura-0178,Atlético Huila,Cristian González,52,,normal,RSSSF
+2005-apertura-0178,Atlético Huila,Leonard Pajoy,63,,normal,RSSSF
 2005-apertura-0179,Deportes Tolima,Oscar Briceño,13,,normal,RSSSF
 2005-apertura-0179,Deportes Tolima,Oscar Briceño,69,,normal,RSSSF
 2005-apertura-0179,Deportes Tolima,Víctor Bonilla,65,,normal,RSSSF
@@ -4398,6 +5226,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-apertura-0183,Deportivo Cali,Ricardo Siciliano,11,,normal,RSSSF
 2005-apertura-0183,Atlético Nacional,Oscar Echeverri,33,,normal,RSSSF
 2005-apertura-0183,Atlético Nacional,Oscar Echeverri,82,,normal,RSSSF
+2005-apertura-0184,Independiente Medellín,Diego Alvarez,24,,normal,RSSSF
+2005-apertura-0184,Independiente Medellín,Diego Alvarez,56,,normal,RSSSF
+2005-apertura-0184,Deportes Tolima,Víctor Bonilla,2,,normal,RSSSF
+2005-apertura-0184,Deportes Tolima,Víctor Bonilla,59,,normal,RSSSF
+2005-apertura-0184,Deportes Tolima,Oscar Passo,67,,normal,RSSSF
+2005-apertura-0184,Deportes Tolima,Jaider Arboleda,73,,normal,RSSSF
 2005-apertura-0185,Atlético Huila,Nélson Gómez,68,,normal,RSSSF
 2005-apertura-0186,Once Caldas,Julián Díaz,69,,normal,RSSSF
 2005-apertura-0186,Envigado,Sergio Guzmán,91,,normal,RSSSF
@@ -4587,6 +5421,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-finalizacion-0074,Once Caldas,Mauricio Casierra,82,,normal,ESPN
 2005-finalizacion-0074,Deportivo Pereira,Hugo Sánchez,90,,normal,ESPN
 2005-finalizacion-0075,Independiente Santa Fe,Francisco Nájera,33,,normal,ESPN
+2005-finalizacion-0076,Atlético Nacional,Gerardo Bedoya,38,,normal,RSSSF
+2005-finalizacion-0076,Atlético Nacional,Víctor Aristizábal,66,,normal,RSSSF
+2005-finalizacion-0076,Atlético Nacional,Luciano Vera,70,,normal,RSSSF
+2005-finalizacion-0076,Independiente Medellín,Roberto Carlos Cortés,45,,normal,RSSSF
+2005-finalizacion-0076,Independiente Medellín,John Valencia,90,,normal,RSSSF
 2005-finalizacion-0077,Junior de Barranquilla,Hayder Guillermo Palacio,35,,normal,ESPN
 2005-finalizacion-0077,Unión Magdalena,Jefrey José Díaz,39,,normal,ESPN
 2005-finalizacion-0077,Junior de Barranquilla,Martín Enrique Arzuaga,46,,normal,ESPN
@@ -4819,6 +5658,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2005-finalizacion-0174,Deportivo Cali,Alvaro Domínguez,66,,normal,ESPN
 2005-finalizacion-0174,Junior de Barranquilla,Nelson Rivas,71,,contra,ESPN
 2005-finalizacion-0174,Deportivo Cali,Ronald De la Cruz,86,,normal,ESPN
+2005-finalizacion-0175,América de Cali,Jorge Bermúdez,17,,normal,RSSSF
+2005-finalizacion-0175,América de Cali,Adrián Ramos,62,,normal,RSSSF
+2005-finalizacion-0175,América de Cali,Giovanni Arrechea,70,,normal,RSSSF
+2005-finalizacion-0175,Once Caldas,Diego Arango,48,,normal,RSSSF
+2005-finalizacion-0175,Once Caldas,Dayro Moreno,90,,normal,RSSSF
 2005-finalizacion-0176,Real Cartagena,Jamerson Rentería,6,,normal,ESPN
 2005-finalizacion-0176,Deportivo Pereira,Harnol Palacio,25,,normal,ESPN
 2005-finalizacion-0176,Deportivo Pereira,Ervin González,42,,normal,ESPN
@@ -6147,6 +6991,12 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-apertura-0133,Once Caldas,Dario Gigena,51,,normal,ESPN
 2007-apertura-0133,Atlético Huila,Fredy Montero,83,,normal,ESPN
 2007-apertura-0134,Real Cartagena,Ayron del Valle,71,,normal,ESPN
+2007-apertura-0135,Independiente Medellín,Eduardo Domínguez,3,,normal,RSSSF
+2007-apertura-0135,Independiente Medellín,Diego Alvarez,22,,normal,RSSSF
+2007-apertura-0135,Independiente Medellín,César Valoyes,28,,normal,RSSSF
+2007-apertura-0135,Deportivo Cali,Sergio Herrera,48,,normal,RSSSF
+2007-apertura-0135,Deportivo Cali,Paolo Frangipane,54,,normal,RSSSF
+2007-apertura-0135,Deportivo Cali,Martín Cardetti,73,,normal,RSSSF
 2007-apertura-0136,Deportivo Cali,Armando Carrillo,16,,normal,ESPN
 2007-apertura-0136,Deportivo Pereira,Leiner Gómez,50,,normal,ESPN
 2007-apertura-0136,Deportivo Cali,Armando Carrillo,70,,normal,ESPN
@@ -6187,6 +7037,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2007-apertura-0153,Cúcuta Deportivo,David Córdoba,39,,normal,ESPN
 2007-apertura-0153,Deportivo Cali,Járol Herrera,86,,normal,ESPN
 2007-apertura-0154,Cúcuta Deportivo,Lionard Pajoy,65,,normal,ESPN
+2007-apertura-0155,Once Caldas,Darío Gigena,5,,normal,RSSSF
+2007-apertura-0155,Once Caldas,Silvio Arango,12,,normal,RSSSF
+2007-apertura-0155,Deportivo Cali,Alex Viveros,58,,normal,RSSSF
+2007-apertura-0155,Deportivo Cali,Rubén Darío Velásquez,83,,normal,RSSSF
 2007-apertura-0156,Independiente Medellín,Jaime Castrillón,42,,normal,ESPN
 2007-apertura-0156,Independiente Medellín,Jackson Martínez,43,,normal,ESPN
 2007-apertura-0156,Independiente Medellín,Jhon Enrique Córdoba,81,,normal,ESPN

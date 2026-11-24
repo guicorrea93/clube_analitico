@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 197, de 1891 a 2026 Apertura; 1 sem jogos.
-- **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 36083 (30%); **cartões:** 41343.
+- **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 36166 (30%); **cartões:** 41343.
 - **Clubes:** 173; **artilheiros:** 194 edições com artilheiro (233 linhas, com empates).
 - **Classificação final:** 197 edições; **tabelas publicadas guardadas para conferência:** 4453 linhas.
 - **No banco:** sim; **último commit do pacote:** d6bec05e.

@@ -5,10 +5,10 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 106, de 1921 a 2025; 25 sem jogos.
-- **Jogos:** 13580 (13528 com placar); **gols:** 34189; **gols com autor:** 6400 (19%); **cartões:** 6744.
+- **Jogos:** 13580 (13528 com placar); **gols:** 34189; **gols com autor:** 6816 (20%); **cartões:** 6744.
 - **Clubes:** 108; **artilheiros:** 69 edições com artilheiro (74 linhas, com empates).
 - **Classificação final:** 106 edições; **tabelas publicadas guardadas para conferência:** 1733 linhas.
-- **No banco:** sim; **último commit do pacote:** cf612c67.
+- **No banco:** sim; **último commit do pacote:** 80d2ba2a.
 - **Observação da competição:** 1ª divisão venezuelana de 1921 (temporada 1920/21) a 2025, uma edição por título, como na lista de campeões da RSSSF: era amadora (1921-1956; jogos só em parte), profissional em ano fechado (1957-1986), calendário europeu (1986/87 a 2014/15; Apertura e Clausura são fases), Torneo de Adecuación 2015 e Liga FUTVE (2016 em diante). Jogos completos de 1957 em diante, salvo 1993/94 e 1994/95 (fases só com tabelas); sem jogos em 1922, 1924, 1931, 1938, 1939, 1949 e 1950.
 
 ## 2. Edições, fontes e regras
@@ -69,7 +69,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1970s | 10 | 1397 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 11 | 1869 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 10 | 2382 | 72% | 0% | 62% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 10 | 2220 | 100% | 57% | 100% | 57% | 52% | 0% | 71% | 1.5 |
+| 2000s | 10 | 2220 | 100% | 57% | 100% | 57% | 52% | 0% | 78% | 1.5 |
 | 2010s | 10 | 3213 | 100% | 99% | 88% | 99% | 92% | 0% | 30% | 1.0 |
 | 2020s | 6 | 1431 | 100% | 99% | 84% | 99% | 99% | 0% | 0% | 0.0 |
 

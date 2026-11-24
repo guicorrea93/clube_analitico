@@ -82,25 +82,25 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 | 1997 Clausura | 16 | 120 (120) | 338 | 0 | 1 / 0 | Colo Colo | RSSSF (chile97) |
 | 1998 | 16 | 240 (240) | 695 | 0 | 1 / 0 | Colo Colo | RSSSF (chile98) |
 | 1999 | 16 | 352 (352) | 1127 | 0 | 1 / 2 | Universidad de Chile | RSSSF (chile99) |
-| 2000 | 16 | 240 (240) | 715 | 576 | 1 / 0 | Universidad de Chile | RSSSF (chile00) |
-| 2001 | 16 | 240 (240) | 719 | 694 | 0 / 1 | Santiago Wanderers | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2002 Apertura | 16 | 147 (147) | 480 | 300 | 4 / 0 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2002 Clausura | 16 | 146 (146) | 407 | 269 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 Apertura | 16 | 147 (147) | 489 | 260 | 4 / 0 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2003 Clausura | 16 | 147 (147) | 509 | 257 | 4 / 0 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2004 Apertura | 18 | 182 (182) | 606 | 283 | 4 / 0 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2004 Clausura | 18 | 180 (180) | 563 | 325 | 3 / 1 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 Apertura | 20 | 207 (207) | 591 | 362 | 4 / 0 | Unión Española | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2005 Clausura | 20 | 205 (205) | 558 | 530 | 4 / 0 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2000 | 16 | 240 (240) | 715 | 617 | 1 / 0 | Universidad de Chile | RSSSF (chile00) |
+| 2001 | 16 | 240 (240) | 719 | 710 | 0 / 1 | Santiago Wanderers | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 Apertura | 16 | 147 (147) | 480 | 474 | 4 / 0 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2002 Clausura | 16 | 146 (146) | 407 | 398 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 Apertura | 16 | 147 (147) | 489 | 485 | 4 / 0 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2003 Clausura | 16 | 147 (147) | 509 | 493 | 4 / 0 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 Apertura | 18 | 182 (182) | 606 | 592 | 4 / 0 | Universidad de Chile | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004 Clausura | 18 | 180 (180) | 563 | 553 | 3 / 1 | Cobreloa | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Apertura | 20 | 207 (207) | 591 | 575 | 4 / 0 | Unión Española | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2005 Clausura | 20 | 205 (205) | 558 | 555 | 4 / 0 | Universidad Católica | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 Apertura | 19 | 188 (188) | 571 | 570 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006 Clausura | 19 | 186 (186) | 548 | 537 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2007 Apertura | 21 | 210 (210) | 617 | 590 | 1 / 0 | Colo Colo | RSSSF (chile07) |
-| 2007 Clausura | 21 | 225 (225) | 656 | 624 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2008 Apertura | 20 | 205 (205) | 613 | 606 | 4 / 0 | Everton de Viña del Mar | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2008 Clausura | 20 | 188 (188) | 605 | 582 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006 Clausura | 19 | 186 (186) | 548 | 548 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2007 Apertura | 21 | 210 (210) | 617 | 617 | 1 / 0 | Colo Colo | RSSSF (chile07) |
+| 2007 Clausura | 21 | 225 (225) | 656 | 656 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 Apertura | 20 | 205 (205) | 613 | 610 | 4 / 0 | Everton de Viña del Mar | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 Clausura | 20 | 188 (188) | 605 | 605 | 4 / 0 | Colo Colo | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Apertura | 18 | 155 (155) | 466 | 466 | 1 / 0 | Universidad de Chile | RSSSF (chile09) |
 | 2009 Clausura | 18 | 168 (167) | 467 | 461 | 1 / 0 | Colo Colo | RSSSF (chile09) |
-| 2010 | 18 | 307 (306) | 901 | 872 | 1 / 0 | Universidad Católica | RSSSF (chile2010) |
+| 2010 | 18 | 307 (306) | 901 | 901 | 1 / 0 | Universidad Católica | RSSSF (chile2010) |
 | 2011 Apertura | 18 | 167 (167) | 492 | 489 | 1 / 0 | Universidad de Chile | RSSSF (chile2011:34) |
 | 2011 Clausura | 18 | 167 (167) | 499 | 499 | 1 / 0 | Universidad de Chile | RSSSF (chile2011) |
 | 2012 Apertura | 18 | 167 (167) | 475 | 464 | 1 / 0 | Universidad de Chile | RSSSF (chile2012) |
@@ -843,7 +843,7 @@ Gerado por `python coleta/chi-1/importar.py`. Pacote em `data/coleta/chi-1/pacot
 ### 2008 Apertura
 
 - ESPN: 205 jogos casados
-- decidido fora de campo — Deportes Concepción Santiago Morning (2008-02-02): awarded 0-3; originally 2-1,
+- decidido fora de campo — Deportes Concepción Santiago Morning (2008-02-02): awarded 0-3; originally 2-1, Feb 3]                                      deducted
 
 ### 2008 Clausura
 

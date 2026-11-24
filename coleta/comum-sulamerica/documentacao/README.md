@@ -6,15 +6,15 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36083 | 41343 | 173 | 142 / 51 | sim | d6bec05e | 41 | [arg-1](arg-1.md) |
-| Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 14335 | 9481 | 84 | 59 / 22 | sim | d6bec05e | 21 | [uru-1](uru-1.md) |
-| Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 19542 | 26607 | 53 | 76 / 32 | sim | b8b5a576 | 26 | [chi-1](chi-1.md) |
-| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 23418 | 22051 | 40526 | 42 | 51 / 41 | sim | d6bec05e | 22 | [col-1](col-1.md) |
-| Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 13239 | 14271 | 50 | 45 / 5 | sim | a22c1ff5 | 24 | [par-1](par-1.md) |
-| Campeonato Peruano | 109 (1912–2025) | 18 | 17318 | 20238 | 21067 | 167 | 52 / 38 | sim | 70d8caf8 | 22 | [per-1](per-1.md) |
-| Campeonato Equatoriano | 68 (1957–2025) | 0 | 14175 | 9259 | 15883 | 63 | 48 / 20 | sim | cf612c67 | 18 | [ecu-1](ecu-1.md) |
-| Campeonato Boliviano | 94 (1950–2025) | 22 | 8563 | 13666 | 4996 | 77 | 42 / 10 | sim | 415911b2 | 0 | [bol-1](bol-1.md) |
-| Campeonato Venezuelano | 106 (1921–2025) | 25 | 13580 | 6400 | 6744 | 108 | 48 / 23 | sim | cf612c67 | 0 | [ven-1](ven-1.md) |
+| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36166 | 41343 | 173 | 142 / 51 | sim | d6bec05e | 41 | [arg-1](arg-1.md) |
+| Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 19072 | 9481 | 84 | 59 / 22 | sim | d6bec05e | 21 | [uru-1](uru-1.md) |
+| Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 21264 | 26607 | 53 | 76 / 32 | sim | b8b5a576 | 26 | [chi-1](chi-1.md) |
+| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 23418 | 22905 | 40526 | 42 | 51 / 41 | sim | d6bec05e | 22 | [col-1](col-1.md) |
+| Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 15755 | 14271 | 50 | 45 / 5 | sim | a22c1ff5 | 24 | [par-1](par-1.md) |
+| Campeonato Peruano | 109 (1912–2025) | 18 | 17318 | 22158 | 21067 | 167 | 52 / 38 | sim | 70d8caf8 | 22 | [per-1](per-1.md) |
+| Campeonato Equatoriano | 68 (1957–2025) | 0 | 14175 | 9895 | 15883 | 63 | 48 / 20 | sim | cf612c67 | 18 | [ecu-1](ecu-1.md) |
+| Campeonato Boliviano | 94 (1950–2025) | 22 | 8563 | 19842 | 4996 | 77 | 42 / 10 | sim | 415911b2 | 0 | [bol-1](bol-1.md) |
+| Campeonato Venezuelano | 106 (1921–2025) | 25 | 13580 | 6816 | 6744 | 108 | 48 / 23 | sim | 80d2ba2a | 0 | [ven-1](ven-1.md) |
 
 ## Pendências de todas as competições
 

@@ -157,9 +157,9 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1993/94 Clausura | 20 | 190 (190) | 421 | 0 | 1 / 0 | Independiente | RSSSF (arg94) |
 | 1994/95 Apertura | 20 | 190 (190) | 443 | 0 | 1 / 0 | River Plate | RSSSF (arg95) |
 | 1994/95 Clausura | 20 | 190 (190) | 446 | 0 | 1 / 0 | San Lorenzo | RSSSF (arg95) |
-| 1995/96 Apertura | 20 | 190 (190) | 456 | 345 | 1 / 0 | Vélez Sarsfield | RSSSF (arghist-pro1990s) |
-| 1995/96 Clausura | 20 | 191 (190) | 518 | 350 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1996/97 Apertura | 20 | 190 (190) | 545 | 128 | 1 / 1 | River Plate | RSSSF (arg97) |
+| 1995/96 Apertura | 20 | 190 (190) | 456 | 352 | 1 / 0 | Vélez Sarsfield | RSSSF (arghist-pro1990s) |
+| 1995/96 Clausura | 20 | 191 (190) | 518 | 357 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1996/97 Apertura | 20 | 190 (190) | 545 | 136 | 1 / 1 | River Plate | RSSSF (arg97) |
 | 1996/97 Clausura | 20 | 190 (190) | 515 | 0 | 0 / 2 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997/98 Apertura | 20 | 190 (190) | 574 | 0 | 0 / 1 | River Plate | RSSSF (arg98) |
 | 1997/98 Clausura | 20 | 190 (190) | 541 | 0 | 2 / 0 | Vélez Sarsfield | RSSSF (arg98) |
@@ -168,15 +168,15 @@ Gerado por `python coleta/arg-1/importar.py`. Pacote em `data/coleta/arg-1/pacot
 | 1999/00 Apertura | 20 | 190 (190) | 540 | 534 | 0 / 1 | River Plate | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1999/00 Clausura | 20 | 191 (190) | 547 | 527 | 1 / 0 | River Plate | RSSSF (arg00) |
 | 2000/01 Apertura | 20 | 194 (190) | 504 | 497 | 0 / 1 | Boca Juniors | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2000/01 Clausura | 20 | 190 (190) | 529 | 514 | 1 / 0 | San Lorenzo | RSSSF (arg01) |
+| 2000/01 Clausura | 20 | 190 (190) | 529 | 521 | 1 / 0 | San Lorenzo | RSSSF (arg01) |
 | 2001/02 Apertura | 20 | 191 (190) | 528 | 526 | 0 / 1 | Racing Club | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2001/02 Clausura | 20 | 191 (190) | 462 | 460 | 1 / 0 | River Plate | RSSSF (arg02) |
-| 2002/03 Apertura | 20 | 192 (190) | 514 | 501 | 1 / 0 | Independiente | RSSSF (arg03) |
+| 2002/03 Apertura | 20 | 192 (190) | 514 | 508 | 1 / 0 | Independiente | RSSSF (arg03) |
 | 2002/03 Clausura | 20 | 191 (190) | 469 | 455 | 1 / 0 | River Plate | RSSSF (arg03) |
 | 2003/04 Apertura | 20 | 191 (190) | 431 | 429 | 1 / 0 | Boca Juniors | RSSSF (arg04) |
 | 2003/04 Clausura | 20 | 190 (190) | 480 | 480 | 1 / 0 | River Plate | RSSSF (arg04) |
-| 2004/05 Apertura | 20 | 190 (190) | 417 | 395 | 1 / 0 | Newell's Old Boys | RSSSF (arg05) |
-| 2004/05 Clausura | 20 | 191 (190) | 517 | 483 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2004/05 Apertura | 20 | 190 (190) | 417 | 413 | 1 / 0 | Newell's Old Boys | RSSSF (arg05) |
+| 2004/05 Clausura | 20 | 191 (190) | 517 | 512 | 0 / 1 | Vélez Sarsfield | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005/06 Apertura | 20 | 190 (190) | 495 | 495 | 1 / 0 | Boca Juniors | RSSSF (arg06) |
 | 2005/06 Clausura | 20 | 191 (190) | 449 | 440 | 1 / 0 | Boca Juniors | RSSSF (arg06) |
 | 2006/07 Apertura | 20 | 194 (191) | 506 | 505 | 1 / 0 | Estudiantes | RSSSF (arg07) |

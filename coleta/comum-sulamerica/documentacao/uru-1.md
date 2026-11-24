@@ -5,8 +5,8 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 126, de 1900 a 2025; 45 sem jogos.
-- **Jogos:** 12456 (12359 com placar); **gols:** 35118; **gols com autor:** 14335 (41%); **cartões:** 9481.
-- **Clubes:** 84; **artilheiros:** 122 edições com artilheiro (138 linhas, com empates).
+- **Jogos:** 12456 (12359 com placar); **gols:** 35118; **gols com autor:** 19072 (54%); **cartões:** 9481.
+- **Clubes:** 84; **artilheiros:** 123 edições com artilheiro (140 linhas, com empates).
 - **Classificação final:** 126 edições; **tabelas publicadas guardadas para conferência:** 2761 linhas.
 - **No banco:** sim; **último commit do pacote:** d6bec05e.
 - **Observação da competição:** 1ª divisão uruguaia de 1900 a 2025: uma edição por título (AUF e FUF em 1923 e 1924; Torneo del Consejo Provisorio em 1926; temporadas no calendário europeu de 2005/06 a 2015/16). Apertura, Intermedio e Clausura são fases da edição. Jogos de 1900, 1901, 1905, 1908, 1916, 1932-1974 e 1994 em diante; nos outros anos, só a tabela final e o campeão (nenhuma fonte pública tem os jogos).
@@ -72,10 +72,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1960s | 10 | 938 | 0% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 10 | 693 | 0% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 10 | 0 | — | — | — | — | — | — | — | — |
-| 1990s | 10 | 937 | 54% | 0% | 100% | 0% | 0% | 0% | 13% | 0.0 |
-| 2000s | 11 | 2756 | 100% | 45% | 100% | 45% | 45% | 0% | 79% | 1.6 |
-| 2010s | 10 | 2468 | 100% | 98% | 100% | 98% | 96% | 0% | 80% | 2.0 |
-| 2020s | 6 | 1741 | 100% | 99% | 100% | 96% | 95% | 0% | 59% | 0.0 |
+| 1990s | 10 | 937 | 54% | 0% | 100% | 0% | 0% | 0% | 26% | 0.0 |
+| 2000s | 11 | 2756 | 100% | 45% | 100% | 45% | 45% | 0% | 98% | 1.6 |
+| 2010s | 10 | 2468 | 100% | 98% | 100% | 98% | 96% | 0% | 99% | 2.0 |
+| 2020s | 6 | 1741 | 100% | 99% | 100% | 96% | 95% | 0% | 99% | 0.0 |
 
 Árbitro e estatísticas (chutes, faltas, escanteios) não são coletados na América do Sul: nenhuma fonte em lote tem.
 
