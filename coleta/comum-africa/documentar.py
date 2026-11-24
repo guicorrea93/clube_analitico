@@ -26,14 +26,13 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["egy-1"]
-PAIS: dict[str, str] = {"egy-1": "egy"}
+LIGAS: list[str] = ["egy-1", "mar-1"]
+PAIS: dict[str, str] = {"egy-1": "egy", "mar-1": "mar"}
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
 PENDENCIAS: dict[str, list[str]] = {
     "egy-1": [
-        "Ainda não carregado no banco (pacote pronto em 23/11/2026; teste de carga OK).",
         "1948/49 a 1963/64 sem jogos (nenhuma fonte pública tem): só a tabela final, e a final ou o desempate do título quando "
         "a página da RSSSF traz (1948/49, 1957/58, 1962/63, 1963/64, 1975/76). As listas \"Results Ahly\" (só os jogos do "
         "Al-Ahly, sem data nem mando) ficaram de fora. Fonte que resolveria: o site do Dr. Tarek Said (drtareksaid.net, "
@@ -46,6 +45,24 @@ PENDENCIAS: dict[str, list[str]] = {
         "relatório; nenhum placar foi mudado.",
         "Identidade a conferir: o \"Sohag Railways\" de 2000/01 e o \"Sohag\" de 2001/02 entraram como um clube só; o "
         "Al-Shourta de 1975/76 entrou como Ittihad El-Shorta; o \"Suez Club\" do ogol é o Ittihad Suez só em 1965/66.",
+    ],
+    "mar-1": [
+        "Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).",
+        "Era colonial (1915/16 a 1954/55): 9 anos sem página da RSSSF (só o campeão); nos outros, jogos incompletos (ligas "
+        "regionais com os resultados conhecidos e o mata-mata nacional) ou só a classificação (1949/50 a 1953/54, a maioria "
+        "dos clubes só com os pontos). Fonte que resolveria: os jornais da época (Le Petit Marocain, La Vigie Marocaine) na "
+        "Gallica (BnF).",
+        "1968/69 a 1994/95 (fora 1980/81, 1989/90 e 1990/91): só a tabela final; o ogol só tem os jogos de 2004/05 em diante. "
+        "1970/71, 1973/74 e 1981/82 sem página da RSSSF: só o campeão e o vice.",
+        "Tabelas de confrontos (1956/57 a 1967/68, 1980/81, 1989/90): os jogos não têm data nem rodada, e vários resultados "
+        "não batem com a tabela final da página (vitórias e empates trocados com os mesmos gols); sem terceira fonte.",
+        "Autores dos gols quase nenhum (a RSSSF do Marrocos não traz) e nenhum cartão. Fonte que resolveria: o ogol jogo a jogo "
+        "(2004/05 em diante).",
+        "Identidade a conferir: Racing Casablanca (colonial) = Racing AC = ADM Casablanca (como a RSSSF conta); AS Salé = SA "
+        "Salé = Sporting Salé; JS Massira = Forces Auxiliaires (a página de 1994/95 diz que o clube mudou para El Ayoun); "
+        "\"ASM\" (1957/58) sem nome completo; \"US Casablanca\" = USA Casablanca.",
+        "1946/47: campeão USA Casablanca (página da temporada e Wikipédia); a lista de campeões da RSSSF põe a US Marocaine "
+        "(erro da lista; avisar a RSSSF?).",
     ],
 }
 

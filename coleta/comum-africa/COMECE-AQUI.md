@@ -54,15 +54,16 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `egy-1` Egípcio | 73 (1948/49–2025/26) | 11.574 | 74 | esperando o ok do Guilherme (23/11) | não |
+| `egy-1` Egípcio | 73 (1948/49–2025/26) | 11.574 | 74 | 06635c8 (23/11, no GitHub) | sim |
+| `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | esperando o ok do Guilherme (24/11) | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
 **De onde continuar:**
-1. `egy-1`: commit (com o ok do Guilherme) e esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
-2. Próxima liga: `mar-1` (Marrocos). Antes, mandar ao Guilherme as decisões de escopo: era colonial (antes de 1956) entra ou
-   não?
-3. Pendências do `egy-1`: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+1. `mar-1`: commit com o ok do Guilherme; depois esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
+2. Próxima liga: `tun-1` (Tunísia). Antes, mandar ao Guilherme as decisões de escopo (era colonial, antes de 1956: como no
+   Marrocos, ver se a federação tunisiana conta os títulos).
+3. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -121,6 +122,28 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   Said (um dos autores da RSSSF), em versão mais nova; faltam 1979/80 a 1982/83, 1984/85 a 1986/87, 1988/89, 1989/90 e
   1999/00.
 
+**Marrocos (`mar-1`):**
+- RSSSF: lista de campeões em `tablesm/marochamp.html` (39 títulos de 1915/16 a 1954/55 e 70 desde 1956/57).
+- **Escopo (pesquisa de 24/11):** entra a era colonial, de 1915/16 a 1954/55 (campeonato do Marrocos da USFSA e, desde 1922,
+  da Liga do Marrocos, LMFA). Motivos:
+  - a federação marroquina conta esses títulos: em 2015, o site da FRMF anunciou o "18º título do WAC desde 1948" (5 antes
+    de 1956 e 13 depois), e o porta-voz disse que o palmarès é contado desde 1916 (TelQuel, 20/05/2015);
+  - RSSSF ("Number of Titles: 109, overall, since 1915"), Wikipédia en e fr e o próprio Wydad (22 títulos) contam os
+    títulos de antes da independência;
+  - era o campeonato do Marrocos inteiro, não uma liga regional (diferente da Liga do Cairo do Egito).
+- Ficam de fora: a "Ligue libre" (1946-1956, liga paralela dos clubes marroquinos, que ninguém conta no palmarès) e
+  1955/56 (sem competição). 1942/43 (abandonado; a US Marocaine ganhou a Coupe de la Guerre) entra como edição sem campeão.
+- Páginas por temporada: `maroAA` (ou `maroAAAA` nos anos 1910 e desde 2010), `maro3944` com 1938/39 a 1944/45. Sem página:
+  1917/18 a 1921/22, 1923/24, 1925/26 a 1927/28, 1970/71, 1973/74, 1981/82.
+- Tabela de confrontos (matriz) de 1956/57 a 1967/68, 1980/81, 1989/90 e 1990/91: `ler_rsssf.matriz()`.
+- Sistema de pontos 3-2-1 (vitória, empate, derrota) até 1994/95; 3-1-0 desde 1995/96 (`Edicao.pontos`).
+- ogol: competição `liga-marroquina`; só tem jogos de 2004/05 em diante (antes, vazio). ESPN: não tem (`mar.1` dá 400).
+- Wikipédia: artigos "AAAA–AA Botola" de 1956/57 em diante, mas só os de 2002/03 em diante têm tabela (os antigos são
+  esboços); "1972–73 Botola" e "1989–90 Botola" redirecionam para o artigo da liga (tabela de todos os tempos: não use).
+  Baixe em lote (`baixar_wikipedia.lote`, 50 títulos por pedido): um por um, o limite de ritmo deixa o download em horas.
+- 1946/47: a lista de campeões da RSSSF dá a US Marocaine, mas a página da temporada e a Wikipédia dão a USA Casablanca,
+  que venceu o desempate do título (`campeao_rsssf` da edição).
+
 ## 6. Armadilhas já encontradas
 
 **RSSSF (Egito):**
@@ -150,6 +173,18 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   abandono.
 - **Rodadas recomeçam** na fase final (2025/26: "R1" de novo): a fase sai do segundo encontro do par (`DIVIDE_DEPOIS`).
 - Faltam jogos isolados (1990/91 e 1993/94: um Al-Ahly x Ismaily cada).
+
+**RSSSF (Marrocos):**
+- **Tabela de confrontos com siglas repetidas** ("KAC" é o Kawkab de Marrakech e o Kénitra na mesma página) e sigla longa
+  ("LARACHE"): cada linha da matriz é ligada ao clube da tabela pela campanha mais parecida, e a ordem desempata. Tire da
+  conta a linha do clube que desistiu (vários "n/p"), senão a ligação troca clubes de mesma campanha (1959/60).
+- **"A bt B" / "A lt B"** (venceu / perdeu sem placar): viram vitória sem placar, com a nota; "drw" (empate sem placar) fica
+  de fora. Placar no fim da linha ("COD Meknes  - SA Sale   5-2", anos 1990) volta ao formato comum em `linhas()`.
+- **Notas de outra fonte com placares** ("OC Khouribga   38-21 instead of 40-22"): eram lidas como jogos; saem em `_limpa()`.
+- **Classificação só com pontos** ("2.USD Meknes  22   59"): `ler_rsssf.parcial()`; o nome acaba no primeiro número.
+- **Copa no meio da página** com título "Morocco Cup ..." ou "XVIIIth edition of the Coupe du Trone": no `FIM_PADRAO`.
+- **Siglas e nomes curtos dos anos 1990** ("Fes", "KAC", "Ittihad") dependem do ano: `nomes` da edição.
+- **Nome grudado no número** na tabela ("Credit Agricole Rabat30"): `CONSERTA_TEXTO`.
 
 **Python no Windows:** como no guia da América do Sul, editar por heredoc com `python - <<'EOF'` transforma `\b` em
 backspace; o `sed` com `\\b` também erra. Use o Edit e confira com `grep -c $'\x08'`.
