@@ -5,7 +5,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 109, de 1933 a 2025; 0 sem jogos.
-- **Jogos:** 22586 (22565 com placar); **gols:** 69170; **gols com autor:** 19548 (28%); **cartões:** 26607.
+- **Jogos:** 22586 (22565 com placar); **gols:** 69170; **gols com autor:** 19542 (28%); **cartões:** 26607.
 - **Clubes:** 53; **artilheiros:** 105 edições com artilheiro (128 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2038 linhas.
 - **No banco:** sim; **último commit do pacote:** 415911b.
@@ -56,12 +56,12 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Edições | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1930s | 7 | 348 | 29% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 1940s | 10 | 1260 | 87% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
+| 1930s | 7 | 348 | 56% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
+| 1940s | 10 | 1260 | 91% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 1950s | 10 | 1858 | 16% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 1960s | 10 | 2851 | 63% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 10 | 3098 | 78% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 10 | 2974 | 99% | 0% | 89% | 0% | 0% | 0% | 0% | 0.0 |
+| 1960s | 10 | 2851 | 77% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
+| 1970s | 10 | 3098 | 88% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
+| 1980s | 10 | 2974 | 100% | 0% | 89% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 11 | 2514 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 18 | 3366 | 100% | 48% | 100% | 51% | 49% | 0% | 81% | 1.2 |
 | 2010s | 17 | 2776 | 100% | 97% | 82% | 99% | 95% | 42% | 94% | 5.2 |
@@ -154,7 +154,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1960: pontos corridos
 - 1961: pontos corridos + desempate
 - 1962 a 1967: pontos corridos
-- 1968: pontos corridos + desempate + pontos corridos
+- 1968: pontos corridos + desempate + pontos corridos + desempate + pontos corridos
 - 1969 a 1970: pontos corridos + desempate + 2 grupos + pontos corridos
 - 1971: pontos corridos + desempate
 - 1972 a 1974: pontos corridos
@@ -189,7 +189,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1957: Primeira fase (liga); Grupo do rebaixamento (liga)
 - 1959: Primeira fase (liga); Desempate do título (mata_mata, jogo_unico)
 - 1961: Primeira fase (liga); Desempate do título (mata_mata, ida_volta)
-- 1968: Metropolitano (liga); Desempate do 5º lugar (mata_mata, jogo_unico); Provincial (liga); Primeira fase (liga); Promocional (liga); Promocional – Série A (liga); Promocional – Série B (liga); Nacional (liga)
+- 1968: Metropolitano (liga); Desempate do 5º lugar (mata_mata, jogo_unico); Provincial (liga); Desempate do 5º lugar do Provincial (mata_mata, jogo_unico); Promocional (liga); Promocional – Série A (liga); Promocional – Série B (liga); Nacional (liga)
 - 1969: Metropolitano (liga); Provincial (liga); Desempate do rebaixamento (mata_mata, ida_volta); Nacional (grupos, 2 grupos); Fase final (liga)
 - 1970: Metropolitano (liga); Provincial (liga); Desempate do rebaixamento (mata_mata, ida_volta); Nacional (grupos, 2 grupos); Fase final (liga)
 - 1971: Primeira fase (liga); Desempate do rebaixamento (mata_mata, jogo_unico)
@@ -445,8 +445,16 @@ Registradas em `coleta/chi-1/explicacoes.py`; cada uma também aparece no relat�
 - **chiletops · 16:** «Costa Rica Audax» → «Costa Rica  Audax»: um espaço só entre o país e o clube: a linha não era lida (CH-018)
 - **chiletops · 17:** «Costa Rica Audax» → «Costa Rica  Audax»: um espaço só entre o país e o clube (CH-018)
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 9)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 17)
 
+- **1986 · ogol:5324357:** [m = Cobreloa, v = San Luis de Quillota] Cobreloa 1-1 San Luis: adversários trocados no ogol na última rodada de 1986 (25/01/1987); com os jogos dos rounds 5/22 e 7/24, os que faltam são o returno do round 17 (Cobreloa x San Luis e Rangers x Cobresal), e a tabela da chilehist decide o placar (Cobreloa 53-28 e Cobresal 53-35 só fecham assim) (CH-014)
+- **1986 · ogol:5324358:** [v = Cobresal] Rangers 0-0 Cobresal: adversários trocados no ogol na última rodada de 1986 (25/01/1987); com os jogos dos rounds 5/22 e 7/24, os que faltam são o returno do round 17 (Cobreloa x San Luis e Rangers x Cobresal), e a tabela da chilehist decide o placar (Cobreloa 53-28 e Cobresal 53-35 só fecham assim) (CH-014)
+- **1968 · chile68:294:** [fase = Desempate do 5º lugar do Provincial, grupo = ] quadrangular do 5º lugar do Provincial ("Fifth Place Playoff:"), não a 1ª fase (CH-022)
+- **1968 · chile68:295:** [fase = Desempate do 5º lugar do Provincial, grupo = ] quadrangular do 5º lugar do Provincial ("Fifth Place Playoff:"), não a 1ª fase (CH-022)
+- **1968 · chile68:298:** [fase = Desempate do 5º lugar do Provincial, grupo = ] quadrangular do 5º lugar do Provincial ("Fifth Place Playoff:"), não a 1ª fase (CH-022)
+- **1968 · chile68:299:** [fase = Desempate do 5º lugar do Provincial, grupo = ] quadrangular do 5º lugar do Provincial ("Fifth Place Playoff:"), não a 1ª fase (CH-022)
+- **1968 · chile68:302:** [fase = Desempate do 5º lugar do Provincial, grupo = ] quadrangular do 5º lugar do Provincial ("Fifth Place Playoff:"), não a 1ª fase (CH-022)
+- **1968 · chile68:303:** [fase = Desempate do 5º lugar do Provincial, grupo = ] quadrangular do 5º lugar do Provincial ("Fifth Place Playoff:"), não a 1ª fase (CH-022)
 - **1990 · ogol:5257815:** [gm = 2, gv = 1] Universidad Católica 2-1 Everton: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
 - **1990 · ogol:5257902:** [gm = 1, gv = 1] Unión Española 1-1 La Serena: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
 - **1990 · ogol:5257949:** [gm = 0, gv = 0] Huachipato 0-0 Palestino: o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)
@@ -457,8 +465,9 @@ Registradas em `coleta/chi-1/explicacoes.py`; cada uma também aparece no relat�
 - **1988 · ogol:5293713:** [m = Naval de Talcahuano, v = O'Higgins, gm = 1, gv = 1] o ogol repete O'Higgins 0-2 Naval; o jogo que falta é Naval 1-1 O'Higgins (CH-014)
 - **2011 Apertura · chile2011:67:** [vale o placar de campo, gm = 2, gv = 0] Ñublense 2-0 Wanderers: a decisão do tribunal foi revogada ("award revoked") (CH-015)
 
-### Divergências entre fontes já explicadas (`EXPLICACOES`, 2)
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 3)
 
+- **1986:** Everton e Rangers: a tabela da chilehist dá ao Everton 2 gols a mais contra o Rangers (33-38 e 33-42); só cabe no Everton 1-0 Rangers de 09/11/1986 (3-0 não muda vitórias, empates e derrotas), mas sem 3ª fonte fica o placar do ogol
 - **1984:** duas zonas (Norte e Sul) de 13 clubes e um quadrangular final. As tabelas das zonas (chilehist.html) dão 26 jogos por clube: os 24 da zona e 2 interzonais. O calendário do ogol, a base deste ano, não tem os 26 jogos interzonais; nenhuma outra fonte que baixamos os traz. A classificação é calculada com os jogos que há
 - **1999:** o octogonal final ("Championship Playoff") somou aos clubes um quarto dos pontos e todos os gols da 1ª fase: a tabela publicada mostra esses gols acumulados. Vitórias, empates e derrotas fecham com os jogos
 
@@ -495,7 +504,8 @@ regra. REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, �
 ## 9. Pendências e próximos passos
 
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): coluna de bônus das tabelas de 1979-1983, 1988 e 1989, vice pela lista oficial, tabela publicada como classificação em 14 edições, desempates, liguillas pré-Libertadores fora, 2020 no ano certo, placares de 1990-1995, clubes (D-25 a e b) e artilheiros.
-- Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo o calendário do ogol de 1964, 1971, 1977 e 1982) e a 2ª parte do CH-014 (1986, adversários trocados: 3ª fonte).
+- Abertos fechados em 24/11: CH-006 (1984, 1969 e 1970: a ordem da fase final de pontos vem antes da soma do ano, D-02 A; 1946 e 1951 ficam com a tabela acumulada, como a chilehist), CH-014 (1986: adversários da última rodada), CH-017 (gol da ESPN sem lado; 'Gabriel 2Vargas'), CH-022 (grupos herdados; 5º lugar do Provincial de 1968), CH-023 (1969: datas do ogol da fase final fora dos outros jogos; par repetido sem data só casa com placar igual) e CH-028 (calendário do ogol de 1964, 1971, 1977 e 1982 completo: 918 jogos ganharam data).
+- Sem fonte: o ogol não tem jogos de 1952 a 1957 (calendários vazios na origem); 1986, Everton x Rangers com 2 gols a menos que a tabela da chilehist (explicado no relatório).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/chi-1.md`):
 

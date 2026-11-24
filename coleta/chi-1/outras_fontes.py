@@ -8,6 +8,7 @@ setembro a março, aproximado pelo mês), estádio, cidade, público, gols com m
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -80,16 +81,27 @@ def casar(e: Edicao, jogos: list[dict], fonte: list[dict], nome_m: str, nome_v: 
         d = dia_fonte(g)
         if not m or not v:
             continue
+        gm, gv = gols_fonte(g)
+        # CH-023: par de clubes que se repete na edição (várias fases): jogo da RSSSF sem data só casa com placar igual
+        # (1969: o calendário do ogol da fase final casava com jogos do Metropolitano e do Provincial)
+        repete = sum(1 for j in jogos if j["m"] == m and j["v"] == v) > 1
         cands = [k for k, j in enumerate(jogos) if k not in usado and j["m"] == m and j["v"] == v and j["j"]
-                 and (d is None or _dia(j["j"].data) is None or abs(_dia(j["j"].data) - d) <= 10)]
+                 and (d is None or _dia(j["j"].data) is None or abs(_dia(j["j"].data) - d) <= 10)
+                 and (not repete or _dia(j["j"].data) is not None or gm is None or j["j"].gm is None
+                      or (j["j"].gm, j["j"].gv) == (gm, gv))]
         if len(cands) == 1:
             ligado[cands[0]] = g
             usado.add(cands[0])
     return ligado, codigo
 
 
+# CH-023: jogos do ogol de 1969 (calendário da fase final, dez/1969-jan/1970) que casavam pelo par de clubes com jogos do
+# Metropolitano, do Provincial e do Nacional: ficam de fora
+OGOL_FORA = {"8308588", "8308590", "8308595", "8308598"}
+
+
 def ogol(e: Edicao, jogos: list[dict]) -> dict:
-    fonte = [g for g in ogol_por_ano().get(e.ano_inicio, [])]
+    fonte = [g for g in ogol_por_ano().get(e.ano_inicio, []) if str(g["id"]) not in OGOL_FORA]
     if not fonte:
         return {"ligado": {}, "codigo": {}, "n": 0}
     ligado, codigo = casar(e, jogos, fonte, "mandante", "visitante", "mandante_id", "visitante_id",
@@ -136,6 +148,8 @@ def lances_espn(g: dict) -> tuple[list[dict], list[dict]]:
             mi = int(p[0]) if p[0].isdigit() else None
             ac = int(p[1]) if len(p) > 1 and p[1].isdigit() else None
         jog = (l["jogadores"] or [None])[0]
+        if jog:   # CH-017: "Gabriel 2Vargas" (ESPN, 2005-2007): dígito grudado no começo de um nome sai
+            jog = re.sub(r"\b\d+(?=[^\W\d_])", "", jog)
         if l["gol"] and l["lado"] not in ("home", "away"):   # CH-017: gol sem lado não entra (o lado viraria palpite)
             continue
         if l["gol"]:

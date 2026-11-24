@@ -821,3 +821,38 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Commit:** `a22c1ff`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.** O `documentar.py` passou a listar à parte as edições com mais jogos que o
   esperado; as fichas das outras ligas só ganham essa linha.
+
+## 24/11 — Abertos da revisão: Chileno (chi-1)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - CH-006 (classificação, D-02 A):
+    - Entre clubes que chegaram à mesma fase, os pontos, o saldo e os gols da fase final de pontos (quadrangular,
+      liguilla) vêm antes da soma do ano.
+    - 1984: 3º Unión Española e 4º Cobreloa, como o "Final Playoff" da chilehist.
+    - 1969 e 1970: a ordem passa a ser a da "Final Phase" da chilehist.
+    - 1946 e 1951 continuam com a tabela acumulada, que é a oficial (`PONTOS_ACUMULADOS`).
+  - CH-014 (1986): os dois jogos da última rodada (25/01/1987) estavam com os adversários trocados no ogol. Agora são
+    Cobreloa 1-1 San Luis e Rangers 0-0 Cobresal. Os jogos dos outros turnos e a tabela da chilehist só fecham assim.
+    - Sobra Everton x Rangers, com 2 gols de diferença para a tabela, explicado no relatório e sem 3ª fonte.
+    - De quebra, saíram do `clubes.csv` as grafias erradas que as trocas de 1986 e de 1988 deixavam ("ogol:Cobresal" no
+      Cobreloa etc.).
+  - CH-017: saem os 6 gols a mais (gol da ESPN sem lado, regra de `cf612c6`) e o nome "Gabriel 2Vargas" (12 gols).
+  - CH-022 (grupos):
+    - A fase com um grupo só fica sem grupo: 1ª fase de 2002-2008 e as séries do Promocional de 1968.
+    - Os jogos Interseries do Nacional de 1969 e 1970 (18 por ano) ficam sem grupo.
+    - O quadrangular do 5º lugar do Provincial de 1968 virou "Desempate do 5º lugar do Provincial".
+  - CH-023 (1969): as 4 datas que o calendário do ogol da fase final dava a jogos do Metropolitano, do Provincial e do
+    Nacional saíram (`OGOL_FORA`). Junto, mudou a regra de casamento: par de clubes que se repete na edição, sem data na
+    RSSSF, só casa com placar igual.
+  - CH-028: o calendário do ogol de 1964, 1971, 1977 e 1982 foi baixado de novo e está completo.
+    - Com isso e com a regra do CH-023, 918 jogos ganharam data (1964 256, 1968 159, 1977 157, 1971 146, 1939 91, 1946
+      48, 1982 40…). Nenhum outro perdeu.
+    - O ogol não tem jogos de 1952 a 1957: as páginas de calendário vêm vazias na origem.
+- **Ids das partidas:** não mudam. Placares, fases e clubes também não, fora os jogos corrigidos acima.
+- **Teste de carga:** `chi-1: 109 edições, 22586 jogos, 1 clubes novos -> OK`. O clube novo é o das correções de 23/11,
+  ainda não carregado.
+- **Pedido ao agente 1:** recarregar o `chi-1` (datas, classificação, grupos, gols, clubes).
+- **Commit:** (abaixo).
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

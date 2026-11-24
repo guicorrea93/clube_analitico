@@ -87,6 +87,30 @@ def _dia(y: int, mo: int, di: int):
         return None
 
 
+# a tabela oficial desses anos é a acumulada (1ª fase + fase final), como na chilehist: vale a soma do ano
+PONTOS_ACUMULADOS = {"1946", "1951"}
+
+
+def _pontos_ultima_fase(p: dict, nivel: dict, pv: int) -> dict[str, tuple[int, int, int, int]]:
+    """CH-006 (D-02 A): (0, -pontos, -saldo, -gols pró) de cada clube nos jogos da fase de pontos mais alta (quadrangular,
+    hexagonal, liguilla); entre clubes que chegaram à mesma fase, vêm antes dos números do ano (1984: o quadrangular final dá
+    o 3º e o 4º; 1969 e 1970, como a chilehist)."""
+    fases = {j["fase"] for j in p["jogos"] if j["fase"] and not eh_mata(j["fase"]) and NIVEL_FASE.get(j["fase"], 0) > 0}
+    if not fases:
+        return {}
+    ultimo = {j["fase"]: k for k, j in enumerate(p["jogos"])}   # empate de nível ("Nacional" x "Fase final", 1969): a de depois
+    topo = max(fases, key=lambda f: (NIVEL_FASE.get(f, 0), ultimo[f]))
+    n: dict[str, list[int]] = defaultdict(lambda: [0, 0, 0])
+    for j in p["jogos"]:
+        if j["fase"] == topo and j["gm"] is not None and j["esp"] in ("", "awd"):
+            gm, gv = (j["gm_of"], j["gv_of"]) if j.get("gm_of") is not None else (j["gm"], j["gv"])
+            for c, a, b in ((j["m"], gm, gv), (j["v"], gv, gm)):
+                n[c][0] += pv if a > b else 1 if a == b else 0
+                n[c][1] += a - b
+                n[c][2] += a
+    return {c: (0, -x[0], -x[1], -x[2]) for c, x in n.items()}   # quem não jogou a fase vem depois: (1, ...)
+
+
 VICES: dict[str, str] = {}
 TERCEIROS: dict[str, str] = {}
 
@@ -110,6 +134,30 @@ def podio_oficial(e: Edicao, final: list[dict], campeao: str | None, log: list[s
         r["pos"] = k
 
 
+def acerta_grupos(jogos: list[dict]) -> None:
+    """CH-022 (depois da conferência, que usa os grupos das tabelas):
+    - fase com um grupo só em todos os jogos (2002-2008: "D" ou "4", herdado da tabela de classificação) fica sem grupo;
+    - jogo entre clubes de grupos diferentes da mesma fase (1969 e 1970, "Interseries" do Nacional) fica sem grupo."""
+    por_fase: dict[str, list[dict]] = defaultdict(list)
+    for j in jogos:
+        por_fase[j["fase"]].append(j)
+    for js in por_fase.values():
+        grupos = {j["grupo"] for j in js}
+        if len(grupos) == 1:
+            for j in js:
+                j["grupo"] = ""
+            continue
+        do_clube: dict[str, Counter] = defaultdict(Counter)
+        for j in js:
+            if j["grupo"] and j["grupo"] != "Interzonal":
+                do_clube[j["m"]][j["grupo"]] += 1
+                do_clube[j["v"]][j["grupo"]] += 1
+        casa = {c: n.most_common(1)[0][0] for c, n in do_clube.items()}
+        for j in js:
+            if j["grupo"] and casa.get(j["m"]) and casa.get(j["v"]) and casa[j["m"]] != casa[j["v"]]:
+                j["grupo"] = ""
+
+
 def montar(e: Edicao, cps: dict[str, str]) -> dict:
     p = preparar(e)
     acerta_ano(e, p["jogos"])
@@ -121,6 +169,7 @@ def montar(e: Edicao, cps: dict[str, str]) -> dict:
         log.append(f"linha lida como jogo e descartada (clube não reconhecido): {j['j'].texto} «{j['j'].mandante} x {j['j'].visitante}»")
         p["jogos"].remove(j)
     difs = conferir_tabelas(p)
+    acerta_grupos(p["jogos"])
     jogos = p["jogos"]
     fases = {j["fase"] for j in jogos}
     # campanha de cada clube (resultado oficial; W.O. vale vitória) e fase mais longe
@@ -200,7 +249,9 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
             x = calc.get(c, [0] * 6)
             linhas.append({"clube": c, "j": x[0], "v": x[1], "e": x[2], "d": x[3], "gp": x[4], "gc": x[5], "pts": x[1] * pv + x[2],
                            "ajuste": 0, "obs": "", "fonte": "calculada (fase alcançada, pontos, saldo, gols pró)"})
-        linhas.sort(key=lambda r: (-nivel[r["clube"]], -r["pts"], -(r["gp"] - r["gc"]), -r["gp"], r["clube"]))
+        ultima = {} if e.temporada in PONTOS_ACUMULADOS else _pontos_ultima_fase(p, nivel, pv)
+        linhas.sort(key=lambda r: (-nivel[r["clube"]], ultima.get(r["clube"], (1, 0, 0, 0)), -r["pts"], -(r["gp"] - r["gc"]), -r["gp"],
+                                   r["clube"]))
     if campeao and linhas and linhas[0]["clube"] != campeao and any(r["clube"] == campeao for r in linhas):
         c = next(r for r in linhas if r["clube"] == campeao)
         linhas.remove(c)
@@ -285,8 +336,10 @@ def gravar(eds: list[dict]) -> None:
         idx = {id(j): k for k, j in enumerate(p["jogos"])}
         for k, g in og["ligado"].items():
             j = p["jogos"][k]
+            troca = CORRIGE.get((e.temporada, j["j"].texto), {})   # CH-014: clube trocado à mão não vira grafia do ogol
             for lado, nm in (("m", "mandante"), ("v", "visitante")):
-                nomes_fonte[j[lado]][f"ogol:{g[nm]}"].append(e.ano_inicio)
+                if lado not in troca:
+                    nomes_fonte[j[lado]][f"ogol:{g[nm]}"].append(e.ano_inicio)
             x = j["j"]
             if (g["gols_mandante"], g["gols_visitante"]) != (x.gm, x.gv) and x.gm is not None and g["gols_mandante"] is not None:
                 d["log"].append(f"placar diferente no ogol — {j['m']} x {j['v']} ({x.data}): RSSSF {x.gm}-{x.gv}, ogol "
@@ -307,8 +360,11 @@ def gravar(eds: list[dict]) -> None:
             usados |= {j["m"], j["v"]}
             if x:
                 pref = x.texto.split(":")[0] if x.texto.startswith(("ogol:", "espn:")) else "rsssf"
-                nomes_fonte[j["m"]][f"{pref}:{x.mandante}"].append(e.ano_inicio)
-                nomes_fonte[j["v"]][f"{pref}:{x.visitante}"].append(e.ano_inicio)
+                troca = CORRIGE.get((e.temporada, x.texto), {})   # CH-014: clube trocado à mão não vira grafia da fonte
+                if "m" not in troca:
+                    nomes_fonte[j["m"]][f"{pref}:{x.mandante}"].append(e.ano_inicio)
+                if "v" not in troca:
+                    nomes_fonte[j["v"]][f"{pref}:{x.visitante}"].append(e.ano_inicio)
             gm, gv = j["gm"], j["gv"]
             esp = especial(j["esp"])
             obs = []

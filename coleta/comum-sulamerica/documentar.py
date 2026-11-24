@@ -50,9 +50,13 @@ PENDENCIAS: dict[str, list[str]] = {
         "Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): coluna de bônus das tabelas de "
         "1979-1983, 1988 e 1989, vice pela lista oficial, tabela publicada como classificação em 14 edições, desempates, "
         "liguillas pré-Libertadores fora, 2020 no ano certo, placares de 1990-1995, clubes (D-25 a e b) e artilheiros.",
-        "Ainda abertos: CH-006 (1984: 3º e 4º pelo quadrangular), "
-        "CH-022 (grupos herdados), CH-023 (7 datas do ogol de 1969), CH-028 (baixar de novo "
-        "o calendário do ogol de 1964, 1971, 1977 e 1982) e a 2ª parte do CH-014 (1986, adversários trocados: 3ª fonte).",
+        "Abertos fechados em 24/11: CH-006 (1984, 1969 e 1970: a ordem da fase final de pontos vem antes da soma do ano, "
+        "D-02 A; 1946 e 1951 ficam com a tabela acumulada, como a chilehist), CH-014 (1986: adversários da última rodada), "
+        "CH-017 (gol da ESPN sem lado; 'Gabriel 2Vargas'), CH-022 (grupos herdados; 5º lugar do Provincial de 1968), CH-023 "
+        "(1969: datas do ogol da fase final fora dos outros jogos; par repetido sem data só casa com placar igual) e CH-028 "
+        "(calendário do ogol de 1964, 1971, 1977 e 1982 completo: 918 jogos ganharam data).",
+        "Sem fonte: o ogol não tem jogos de 1952 a 1957 (calendários vazios na origem); 1986, Everton x Rangers com 2 gols a "
+        "menos que a tabela da chilehist (explicado no relatório).",
     ],
     "col-1": [
         "1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).",

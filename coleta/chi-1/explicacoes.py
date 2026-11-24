@@ -19,7 +19,15 @@ CONSERTA_TEXTO: dict[tuple[str, int], tuple[str, str, str]] = {
     ("chiletops", 17): ("Costa Rica Audax", "Costa Rica  Audax", "um espaço só entre o país e o clube (CH-018)"),
 }
 _TM = "o ogol erra; Transfermarkt e a tabela da RSSSF concordam (CH-013)"
+_CH014 = ("adversários trocados no ogol na última rodada de 1986 (25/01/1987); com os jogos dos rounds 5/22 e 7/24, os que "
+          "faltam são o returno do round 17 (Cobreloa x San Luis e Rangers x Cobresal), e a tabela da chilehist decide o "
+          "placar (Cobreloa 53-28 e Cobresal 53-35 só fecham assim) (CH-014)")
 CORRIGE: dict[tuple[str, str], dict] = {
+    ("1986", "ogol:5324357"): {"m": "Cobreloa", "v": "San Luis de Quillota", "motivo": "Cobreloa 1-1 San Luis: " + _CH014},
+    ("1986", "ogol:5324358"): {"v": "Cobresal", "motivo": "Rangers 0-0 Cobresal: " + _CH014},
+    **{("1968", f"chile68:{n}"): {"fase": "Desempate do 5º lugar do Provincial", "grupo": "",
+                                  "motivo": "quadrangular do 5º lugar do Provincial (\"Fifth Place Playoff:\"), não a 1ª fase "
+                                            "(CH-022)"} for n in (294, 295, 298, 299, 302, 303)},
     ("1990", "ogol:5257815"): {"gm": 2, "gv": 1, "motivo": "Universidad Católica 2-1 Everton: " + _TM},
     ("1990", "ogol:5257902"): {"gm": 1, "gv": 1, "motivo": "Unión Española 1-1 La Serena: " + _TM},
     ("1990", "ogol:5257949"): {"gm": 0, "gv": 0, "motivo": "Huachipato 0-0 Palestino: " + _TM},
@@ -34,6 +42,9 @@ CORRIGE: dict[tuple[str, str], dict] = {
 }
 TABELAS_FORA: dict[tuple[str, str], str] = {}
 EXPLICACOES: dict[str, list[str]] = {
+    "1986": ["Everton e Rangers: a tabela da chilehist dá ao Everton 2 gols a mais contra o Rangers (33-38 e 33-42); só cabe "
+             "no Everton 1-0 Rangers de 09/11/1986 (3-0 não muda vitórias, empates e derrotas), mas sem 3ª fonte fica o "
+             "placar do ogol"],
     "1984": ["duas zonas (Norte e Sul) de 13 clubes e um quadrangular final. As tabelas das zonas (chilehist.html) dão 26 jogos "
              "por clube: os 24 da zona e 2 interzonais. O calendário do ogol, a base deste ano, não tem os 26 jogos "
              "interzonais; nenhuma outra fonte que baixamos os traz. A classificação é calculada com os jogos que há"],
