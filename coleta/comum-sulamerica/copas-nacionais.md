@@ -70,7 +70,16 @@ regionais. Copa de la División Profesional (2023) só 1ª divisão.
 Liga AUF (URU); Copa de la Liga ANFP 2026 (CHI); supercopas de todos os países; Torneo República (PAR, 1990–95); Copa
 Simón Bolívar (BOL, 2ª divisão desde 1989).
 
-## Decisões que esperam o Guilherme (antes de começar as copas)
+## Decisões do Guilherme (24/11/2026): as três recomendações
+
+- **Quais:** as sete (ARG, URU, CHI, COL, PAR, ECU, VEN); Peru e Bolívia fora.
+- **Edições antigas:** contagem da Wikipédia (ARG 1969 e 1970; ECU 1970; VEN as 63); COL antigas como edições à parte, com
+  aviso.
+- **Ordem:** Uruguai, Paraguai, Equador, Colômbia, Argentina, Chile, Venezuela.
+- **Slugs:** `uru-copa`, `par-copa`, `ecu-copa`, `col-copa`, `arg-copa`, `chi-copa`, `ven-copa` (o guia geral não fixa slug
+  de copa; o Brasil usa `bra-copa-do-brasil`; dito no recado ao agente 1).
+
+## Decisões que estavam pendentes (texto original)
 
 1. Quais copas: recomendação = as sete que existem (ARG, URU, CHI, COL, PAR, ECU, VEN); Peru e Bolívia fora por enquanto.
 2. Edições antigas/contestadas: recomendação = contagem da Wikipédia (ARG 1969 e 1970; ECU 1970; VEN as 63); COL

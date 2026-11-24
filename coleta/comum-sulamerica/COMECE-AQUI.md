@@ -82,6 +82,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.175 | 63 | 0b793ba; correções 4577457, cf612c6 | sim (versão antes das correções) |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
 | `ven-1` Venezuelano | 106 (1921–2025) | 13.580 | 108 | 35dc0a2; leitor comum 415911b; cf612c6 | sim (versão de 22/11) |
+| `uru-copa` Copa AUF Uruguay | 4 (2022–2025) | 221 | 100 | (commit no recado) | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
@@ -118,9 +119,14 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
      `wikipedia_jogos.py`, `ANOS_LISTAS`/`ANOS_TEXTO` (formatos de lista só nesses anos). ATENÇÃO: a chave do CORRIGE para
      jogo da Wikipédia é "wiki-es_<ano>:<linha>" (com hífen); "wiki:es_" nunca casou (corrigido no col-1 e no uru-1).
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
-3. **Depois: copas nacionais** (pedido do Guilherme, 23/11, antes das 2ªs divisões). Pesquisa pronta em
-   `copas-nacionais.md` (nesta pasta): sete países têm copa (ARG, URU, CHI, COL, PAR, ECU, VEN); faltam as decisões dele
-   sobre quais, edições antigas e ordem.
+3. **Copas nacionais (EM ANDAMENTO desde 24/11; decisões do Guilherme em `copas-nacionais.md`):** as sete (ARG, URU, CHI,
+   COL, PAR, ECU, VEN), contagem da Wikipédia, das menores às maiores: Uruguai (FEITO, `uru-copa`), Paraguai, Equador,
+   Colômbia, Argentina, Chile, Venezuela. Slug `<país>-copa`. Importador comum: `coleta/comum-sulamerica/copa_rsssf.py`;
+   cada copa só configura edições (página e trecho da RSSSF), fases, regiões e clubes (`clubes_copa.py`: regras da copa
+   antes das da liga, nome inteiro, interior com a cidade). Não entra no `documentar.py` (que é de liga): o relatório
+   `docs/coleta/<slug>.md` sai do próprio importador. Ver também: o leitor comum perde a continuação do colchete dos
+   autores ("[A 9, B 68;" + "   C 87]"); o importador das copas junta (`_autores_inteiros`); conferir se as ligas perdem
+   autores por isso (pendência).
 4. **Por último: 2ªs divisões**, na ordem do guia geral, só quando o Guilherme pedir (seção 7). Pedido do agente 1 para o
    `bol-1` (22/11, "quando o Guilherme mandar revisar"): a classificação final de 1960, 1976, 1990, 1993 e 1994 com todos
    os clubes com jogos (eliminados com a posição da fase em que caíram), como no `bra-sp-2`; o mesmo pode valer para as

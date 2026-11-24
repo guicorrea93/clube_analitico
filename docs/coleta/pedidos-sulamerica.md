@@ -944,3 +944,40 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
   fora os que esperam 3ª fonte.
 - **Commit:** `d6bec05`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## Recado de fim de coleta — uru-copa — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** a Copa AUF Uruguay (`uru-copa`, `tipo` "copa"), a primeira das sete copas nacionais.
+   - **Decisões do Guilherme (24/11):** as sete copas, contagem da Wikipédia, das menores às maiores
+     (`coleta/comum-sulamerica/copas-nacionais.md`).
+   - **Números:** 4 edições (2022, 2023, 2024 e 2025; a 2026 está em andamento), 221 jogos e 100 clubes, dos quais 61
+     só jogam a copa.
+   - **Gols com autor:** 539 de 545.
+   - **Fonte:** RSSSF, seção "Copa AUF Uruguay" das páginas do ano, as mesmas do uru-1. O campeão foi conferido com a
+     Wikipédia em espanhol, e os 4 batem (Defensor Sporting 2022-2024, Peñarol 2025).
+   - **Sem** cartões, estádio e público: a RSSSF não traz.
+2. **Commits:** (abaixo).
+3. **Teste de carga:** `uru-copa: 4 edições, 221 jogos, 61 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar a `uru-copa`;
+   - o slug de copa segue `<país>-copa` (o guia geral não fixa; o Brasil usa `bra-copa-do-brasil`). Se preferir outro,
+     me diga antes das próximas seis.
+5. **Decisões:**
+   - 2022: as quatro fases regionais têm o grupo com o nome da região ("Norte", "Centro-Litoral", "Este",
+     "Sur-Metropolitano").
+   - 2023 é a temporada "2023", com `ano_fim` 2024 (a final foi em maio de 2024; a RSSSF a chama de 2023/24).
+   - W.O. ("awarded 3-0, X forfeited") ficou com o placar dado, `resultado_especial` "wo" e a observação "W.O.: X não
+     compareceu".
+   - Nomes de clube do interior levam a cidade (`Wanderers de Durazno`, `Huracán de Rivera`). Os que já estavam no uru-1
+     ficam com o nome de lá (Paysandú Bella Vista, Colón de Montevideo, Lito).
+6. **O que não deu:**
+   - Algumas cidades ficaram vazias, por falta de fonte: Estudiantes del Plata e Rincón de Carrasco.
+   - Artilheiros só pela contagem dos gols com autor: a RSSSF não dá lista de artilheiros da copa.
+7. **Onde a revisão deve olhar primeiro:**
+   - **Grafias que caíam em clubes de Montevidéu por prefixo** (ex.: "Wanderers Durazno" virava Montevideo Wanderers).
+     Agora há regras próprias da copa, com o nome inteiro, em `coleta/uru-copa/clubes_copa.py`.
+   - **Autores em várias linhas:** o leitor comum perde a continuação do colchete. O importador das copas junta as
+     linhas; nas ligas pode haver perda (pendência minha).
+8. **Próxima competição:** Copa Paraguay (`par-copa`).
