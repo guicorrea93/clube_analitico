@@ -54,7 +54,8 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 59.
 - **Edições com alguma tabela divergente** (22; motivo no relatório, na edição): 1900, 1901, 1905, 1908, 1916, 1932, 1933, 1934, 1951, 1960, 1961, 1962, 1965, 1967, 1994, 1995, 1996, 1997, 1998, 2000, 2002, 2004.
 - **Edições sem tabela para conferir** (45): 1902, 1903, 1906, 1907, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1917, 1918, 1919, 1920, 1921, 1922, 1923 AUF, 1923 FUF, 1924 AUF, 1924 FUF, 1926, 1927, 1928, 1929, 1931, 1975, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993.
-- **Edições com menos jogos que o esperado:** 2000 (293 de 292), 2004 (252 de 251), 2007/08 (244 de 243), 2011/12 (243 de 242), 2020 (302 de 301), 2022 (300 de 299), 2023 (301 de 300).
+- **Edições com menos jogos que o esperado:** nenhuma.
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 2000 (293 de 292), 2004 (252 de 251), 2007/08 (244 de 243), 2011/12 (243 de 242), 2020 (302 de 301), 2022 (300 de 299), 2023 (301 de 300).
 
 ## 4. Cobertura de cada campo, por década
 

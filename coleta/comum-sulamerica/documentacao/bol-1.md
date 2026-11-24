@@ -55,7 +55,8 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 42.
 - **Edições com alguma tabela divergente** (10; motivo no relatório, na edição): 1950, 1953, 1977, 1995, 1996, 1997, 1998, 1999, 2001, 2002.
 - **Edições sem tabela para conferir** (42): 1951, 1952, 1954, 1955, 1956, 1957, 1957 Mixto, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994.
-- **Edições com menos jogos que o esperado:** 2019 Clausura (182 de 181).
+- **Edições com menos jogos que o esperado:** nenhuma.
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 2019 Clausura (182 de 181).
 
 ## 4. Cobertura de cada campo, por década
 

@@ -82,7 +82,10 @@ _ANUAL = {1996: (12, 402), 1997: (12, 487), 1998: (12, 461), 1999: (12, 424), 20
           2003: (12, 580), 2004: (12, 637), 2005: (12, 662), 2006: (12, 816), 2007: (12, 748)}
 _TRECHOS_ANUAL = {2000: [("para00", 0, 496)], 2004: [("para04", 12, 308), ("para04", 345, 637)],
                   2005: [("para05", 12, 315), ("para05", 330, 628), ("para05", 644, 662)]}
-_FASES_AC = [(r"(?i)^(Torneo |First Stage \()?Apertura", "Apertura"), (r"(?i)^(Torneo |Second Stage \()?Clausura(?! Championship)", "Clausura")]
+# PY-008: a 2ª fase de grupos e a final de cada torneio (o ler_rsssf põe o nome do torneio: "Final do Clausura")
+_FASES_AC = [(r"(?i)^(Apertura|Clausura) Playoffs$", "Segunda fase"), (r"(?i)^(Apertura|Clausura) (Championship )?Final\b", "Final"),
+             (r"(?i)^(Torneo |First Stage \()?Apertura(?! Playoffs| Final| Championship)", "Apertura"),
+             (r"(?i)^(Torneo |Second Stage \()?Clausura(?! Playoffs| Final| Championship)", "Clausura")]
 _FASES_AC.append((r"(?i)^Liguilla$", "Liguilla"))   # liguilla que fecha o Apertura/Clausura (1998...)
 for _a, (_i, _f) in _ANUAL.items():
     # PY-007: fora o que não é do campeonato: 2000, desempate do 2º lugar e quadrangular da Libertadores; 2004, torneio de

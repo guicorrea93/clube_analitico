@@ -6,7 +6,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 
 - **Edições:** 134, de 1906 a 2026 Apertura; 76 sem jogos.
 - **Jogos:** 7823 (7807 com placar); **gols:** 20900; **gols com autor:** 13239 (63%); **cartões:** 14271.
-- **Clubes:** 50; **artilheiros:** 95 edições com artilheiro (112 linhas, com empates).
+- **Clubes:** 50; **artilheiros:** 110 edições com artilheiro (140 linhas, com empates).
 - **Classificação final:** 134 edições; **tabelas publicadas guardadas para conferência:** 1483 linhas.
 - **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão paraguaia de 1906 a 2025: um campeão por ano até 2007 e uma edição por torneio (Apertura e Clausura) de 2008 em diante. Jogos de 1960-1967, 1981 e 1996 em diante; nos outros anos, só o campeão, o vice e a tabela parcial quando há (nenhuma fonte pública tem os jogos).
@@ -43,10 +43,11 @@ Fontes dos jogos por edição:
 
 Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
 
-- **Edições em que todas as tabelas fecham com os jogos:** 43.
-- **Edições com alguma tabela divergente** (7; motivo no relatório, na edição): 1965, 1967, 1981, 1998, 1999, 2000, 2003.
+- **Edições em que todas as tabelas fecham com os jogos:** 45.
+- **Edições com alguma tabela divergente** (5; motivo no relatório, na edição): 1965, 1967, 1998, 1999, 2000.
 - **Edições sem tabela para conferir** (84): 1906, 1907, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1923, 1924, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995, 1996, 1997, 2008 Clausura, 2009 Apertura, 2017 Apertura, 2022 Clausura, 2023 Clausura.
-- **Edições com menos jogos que o esperado:** 1963 (114 de 113), 1965 (76 de 75), 1981 (141 de 134), 2003 (153 de 152), 2005 (181 de 180), 2007 (267 de 266).
+- **Edições com menos jogos que o esperado:** nenhuma.
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 1963 (114 de 113), 1965 (76 de 75), 1981 (141 de 140), 2003 (153 de 152), 2005 (181 de 180), 2007 (267 de 266).
 
 ## 4. Cobertura de cada campo, por década
 
@@ -191,16 +192,16 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1966: pontos corridos
 - 1967: pontos corridos + desempate
 - 1968 a 1980: sem jogos (só a tabela final)
-- 1981: 2 grupos + pontos corridos + mata-mata + desempate
+- 1981: 2 grupos + mata-mata + pontos corridos + mata-mata + desempate
 - 1982 a 1995: sem jogos (só a tabela final)
-- 1996: 2 grupos + mata-mata
-- 1997: pontos corridos + 2 grupos + mata-mata
-- 1998: pontos corridos + mata-mata + desempate
-- 1999: pontos corridos + mata-mata
+- 1996: pontos corridos + 2 grupos + mata-mata + pontos corridos + 2 grupos + mata-mata
+- 1997: pontos corridos + 2 grupos + mata-mata + pontos corridos + mata-mata + desempate
+- 1998: pontos corridos + mata-mata + pontos corridos + mata-mata + desempate
+- 1999: pontos corridos + mata-mata + pontos corridos + mata-mata + desempate + mata-mata
 - 2000: 2 grupos + pontos corridos + mata-mata
-- 2001: pontos corridos + mata-mata
-- 2002: pontos corridos + mata-mata + desempate
-- 2003: pontos corridos + desempate + mata-mata
+- 2001: pontos corridos + mata-mata + pontos corridos
+- 2002: pontos corridos + mata-mata + pontos corridos + desempate
+- 2003: pontos corridos + mata-mata + pontos corridos + mata-mata + pontos corridos + desempate
 - 2004 a 2005: pontos corridos
 - 2006: pontos corridos + desempate
 - 2007: pontos corridos + mata-mata
@@ -216,15 +217,15 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1963: Primeira fase (liga); Desempate do rebaixamento (mata_mata, ida_volta)
 - 1965: Primeira fase (liga); Desempate do título (mata_mata, ida_volta)
 - 1967: Primeira fase (liga); Desempate do 2º lugar (mata_mata, ida_volta)
-- 1981: Primeira fase (grupos, 2 grupos); Segunda fase (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico); Desempate do título (mata_mata, jogo_unico)
-- 1996: Apertura (grupos, 2 grupos); Clausura (grupos, 2 grupos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
-- 1997: Apertura (liga); Clausura (liga); Segunda fase (grupos, 2 grupos); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
-- 1998: Apertura (liga); Liguilla (liga); Clausura (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
-- 1999: Apertura (liga); Liguilla (liga); Clausura (liga); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
+- 1981: Primeira fase (grupos, 2 grupos); Semifinal do 1º turno (mata_mata, jogo_unico); Final do 1º turno (mata_mata, jogo_unico); Segunda fase (liga); Triangular de desempate (mata_mata, ida_volta); Final (mata_mata, ida_volta); Desempate do título (mata_mata, jogo_unico)
+- 1996: Apertura (liga); Segunda fase do Apertura (grupos, 2 grupos); Semifinal do Apertura (mata_mata, jogo_unico); Final do Apertura (mata_mata, jogo_unico); Clausura (liga); Segunda fase do Clausura (grupos, 2 grupos); Semifinal do Clausura (mata_mata, jogo_unico); Final do Clausura (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
+- 1997: Apertura (liga); Segunda fase do Apertura (grupos, 2 grupos); Semifinal do Apertura (mata_mata, jogo_unico); Final do Apertura (mata_mata, jogo_unico); Clausura (liga); Segunda fase do Clausura (liga); Semifinal do Clausura (mata_mata, jogo_unico); Final do Clausura (mata_mata, jogo_unico); Desempate do título (mata_mata, ida_volta)
+- 1998: Apertura (liga); Liguilla do Apertura (liga); Semifinal do Apertura (mata_mata, ida_volta); Final do Apertura (mata_mata, ida_volta); Clausura (liga); Liguilla do Clausura (liga); Semifinal do Clausura (mata_mata, ida_volta); Final do Clausura (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
+- 1999: Apertura (liga); Liguilla do Apertura (liga); Semifinal do Apertura (mata_mata, jogo_unico); Final do Apertura (mata_mata, ida_volta); Clausura (liga); Liguilla do Clausura (liga); Semifinal do Clausura (mata_mata, jogo_unico); Final do Clausura (mata_mata, ida_volta); Desempate do 3º lugar (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
 - 2000: Primeira fase (grupos, 2 grupos); Clausura (liga); Quadrangulares semifinais (mata_mata, ida_volta); Semifinal (mata_mata, jogo_unico); Final (mata_mata, ida_volta)
-- 2001: Apertura (liga); Clausura (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2002: Apertura (liga); Clausura (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta); Desempate do título (mata_mata, ida_volta)
-- 2003: Apertura (liga); Clausura (liga); Desempate do 2º lugar (mata_mata, ida_volta); Quadrangulares semifinais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 2001: Apertura (liga); Quartas de final do Apertura (mata_mata, ida_volta); Semifinal do Apertura (mata_mata, ida_volta); Final do Apertura (mata_mata, ida_volta); Clausura (liga)
+- 2002: Apertura (liga); Quartas de final do Apertura (mata_mata, ida_volta); Semifinal do Apertura (mata_mata, ida_volta); Final do Apertura (mata_mata, ida_volta); Clausura (liga); Desempate do título (mata_mata, ida_volta)
+- 2003: Apertura (liga); Quadrangulares semifinais do Apertura (mata_mata, jogo_unico); Final do Apertura (mata_mata, ida_volta); Clausura (liga); Final do Clausura (mata_mata, jogo_unico); Liguilla pré-Libertadores (liga); Desempate do 2º lugar (mata_mata, ida_volta)
 - 2004: Apertura (liga); Clausura (liga)
 - 2005: Apertura (liga); Clausura (liga)
 - 2006: Apertura (liga); Clausura (liga); Desempate do título (mata_mata, ida_volta)
@@ -469,7 +470,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 2025 Clausura | Cerro Porteño | Guaraní de Asunción |
 | 2026 Apertura | Olimpia | Nacional de Asunción |
 
-**Rebaixados marcados na classificação:** 3 em 2 edições (só onde a tabela publicada marca a queda); quem mais caiu: Sol de América (1), River Plate de Asunción (1), Sportivo Trinidense (1).
+**Rebaixados marcados na classificação:** 58 em 31 edições (só onde a tabela publicada marca a queda); quem mais caiu: Sol de América (4), 12 de Octubre (4), Sportivo Trinidense (4), Resistencia (3), River Plate de Asunción (3).
 
 **Ajustes de pontos** (pontos publicados menos os da conta V/E/D: punições, bônus de fase anterior, pontos de pênaltis):
 
@@ -485,9 +486,21 @@ Registradas em `coleta/par-1/explicacoes.py`; cada uma também aparece no relat�
 - **para05 · 573:** «]      2-1, Gral. Caballero» → «]»: nota quebrada em três linhas (o fim dela ia para o jogo seguinte e o placar de campo para os autores) (PY-029)
 - **para05 · 574:** «used suspended player]» → «»: nota quebrada em três linhas (o fim dela ia para o jogo seguinte e o placar de campo para os autores) (PY-029)
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 1)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 4)
 
+- **1981 · para81:118:** [fase = Semifinal do 1º turno] decisão do 1º turno (dava vaga na final do ano), não a final do campeonato (PY-008)
+- **1981 · para81:119:** [fase = Semifinal do 1º turno] decisão do 1º turno (dava vaga na final do ano), não a final do campeonato (PY-008)
+- **1981 · para81:122:** [fase = Final do 1º turno] decisão do 1º turno (dava vaga na final do ano), não a final do campeonato (PY-008)
 - **2005 · para05:572:** [wo_v, gm = 2, gv = 1] General Caballero 2-1 em campo; pontos para o Libertad (jogador suspenso); a tabela conta os gols de campo (PY-029)
+
+### Divergências entre fontes já explicadas (`EXPLICACOES`, 6)
+
+- **1935:** artilheiro pela lista da RSSSF (paratops); Pedro Osorio (Cerro Porteño) com 18 gols; a Wikipédia em espanhol dá 17. Sem 3ª fonte: fica a RSSSF (PY-019)
+- **1962:** artilheiro pela lista da RSSSF (paratops); Cecilio Martínez (Nacional) com 19 gols; a página do ano na RSSSF dá 18 e a Wikipédia em espanhol, 17 pelo Libertad (ela troca clube e gols com 1963). Três números diferentes: fica a lista da RSSSF (PY-019)
+- **1963:** artilheiro pela lista da RSSSF (paratops); Juan Cabañas (Libertad) com 17 gols; a Wikipédia em espanhol dá 19 pelo Nacional (troca clube e gols com 1962). Fica a RSSSF (PY-019)
+- **1967:** artilheiro pela lista da RSSSF (paratops); Sebastián Fleitas (Libertad) com 18 gols, como a Wikipédia em espanhol; a página do ano na RSSSF dá 16 (PY-019)
+- **1970:** artilheiro pela lista da RSSSF (paratops); Saturnino Arrúa (Cerro Porteño) com 19 gols; a Wikipédia em espanhol dá 11. Fica a RSSSF (PY-019)
+- **2003:** artilheiro pela lista da RSSSF (paratops); Erwin Ávalos (Cerro Porteño) com 17 gols; a Wikipédia em espanhol dá 16. Sem 3ª fonte: fica a RSSSF (PY-019)
 
 ### Identidade dos clubes
 
@@ -510,7 +523,7 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 ## 8. O que não deu para coletar
 
-- **Edições sem jogos (76):** 1906-1959, 1968-1980 e 1982-1995. Pesquisamos RSSSF, ogol, Wikipédias em espanhol, inglês e guarani, Transfermarkt, worldfootball, sites e livros paraguaios: nenhuma fonte pública traz os jogos completos desses anos (a RSSSF tem só alguns resultados soltos, "Known Results"). Decisão do Guilherme (21/11/2026): essas edições entram só com o campeão, o vice e a tabela da RSSSF quando há: completa em 1943, 1945, 1955 e 1990-1995; parcial (posição e pontos, às vezes parte da campanha) nos outros anos; sem tabela, a classificação tem só o campeão e o vice. Os jogos soltos ficam de fora.
+- **Edições sem jogos (76):** 1906-1959, 1968-1980 e 1982-1995. Pesquisamos RSSSF, ogol, Wikipédias em espanhol, inglês e guarani, Transfermarkt, worldfootball, sites e livros paraguaios: nenhuma fonte pública traz os jogos completos desses anos (a RSSSF tem só alguns resultados soltos, "Known Results"). Decisão do Guilherme (21/11/2026): essas edições entram só com o campeão, o vice e a tabela da RSSSF quando há: completa em 1909, 1943, 1945, 1946, 1955, 1986 e 1994 (PY-031); parcial (posição e pontos, às vezes parte da campanha) nos outros anos; sem tabela, a classificação tem só o campeão e o vice. Os jogos soltos ficam de fora.
 - **Fora do pacote:** a Copa Paraguay, a Copa República, a Intermedia (2ª divisão), as liguillas e os jogos de promoção.
 - **Edições sem jogos** (76): 1906, 1907, 1909, 1910, 1911, 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1923, 1924, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1935, 1936, 1937, 1938, 1939, 1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1975, 1976, 1977, 1978, 1979, 1980, 1982, 1983, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1995.
 - **Décadas com menos da metade dos gols com autor:** 1960s, 1980s, 1990s.
@@ -521,7 +534,8 @@ REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, último 
 
 - 76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e vice da lista sempre em 1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador '2', estádio sem patrocinador) e o Apertura 2026 (D-01).
-- Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).
+- Abertos fechados em 24/11: PY-008 (1996-2007: fases do Apertura e do Clausura com o nome do torneio, 'Final do Apertura'; 1981: 1º turno, triangular de desempate e final do ano), PY-012 (rebaixados pelas notas das páginas da RSSSF, explicacoes.REBAIXADOS: 55 marcas novas), PY-018 (artilheiros de 2011 em diante pela Wikipédia em espanhol, goleadores_es.py), PY-019 (números da paratops mantidos, divergências explicadas) e PY-031 (textos da ficha).
+- Rebaixados sem fonte: 2008 (a página não traz a tabela de promedios) e os anos antes de 1981.
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/par-1.md`):
 
@@ -564,6 +578,7 @@ Código em `coleta/par-1/`:
 | `conferir.py` | Conferência de cada edição: nomes reconhecidos e soma dos jogos x tabelas publicadas pela RSSSF. |
 | `edicoes.py` | Edições da 1ª divisão paraguaia (par-1): uma por torneio que deu título de campeão paraguaio. |
 | `explicacoes.py` | Correções e explicações da coleta da 1ª divisão paraguaia, edição a edição (entram no relatório). |
+| `goleadores_es.py` | Artilheiros pela coluna "Goleador" da tabela "Títulos de Liga por año" da Wikipédia em espanhol (página "Primera División |
 | `importar.py` | Junta as fontes da 1ª divisão paraguaia e grava o pacote em data/coleta/par-1/pacote/ e o relatório em docs/coleta/par-1.md. |
 | `ler_rsssf.py` | Lê os jogos de cada edição nas páginas da RSSSF (data/coleta/par-1/rsssf/) com o leitor comum (rsssf_sul). Nos anos sem |
 | `outras_fontes.py` | Casa os jogos da RSSSF com o ogol e com a ESPN. |

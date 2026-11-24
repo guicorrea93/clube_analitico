@@ -47,7 +47,8 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 76.
 - **Edições com alguma tabela divergente** (32; motivo no relatório, na edição): 1937, 1941, 1946, 1947, 1948, 1951, 1953, 1961, 1962, 1963, 1964, 1965, 1968, 1969, 1970, 1973, 1976, 1977, 1979, 1982, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1993, 1999, 2001, 2004 Clausura, 2012 Clausura.
 - **Edições sem tabela para conferir** (1): 1984.
-- **Edições com menos jogos que o esperado:** 1939 (109 de 173), 1941 (90 de 88), 2009 Clausura (168 de 167), 2010 (307 de 306), 2019 (195 de 194), 2020 (308 de 307), 2023 (241 de 240), 2024 (240 de 239).
+- **Edições com menos jogos que o esperado:** 1939 (109 de 173).
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 1941 (90 de 88), 2009 Clausura (168 de 167), 2010 (307 de 306), 2019 (195 de 194), 2020 (308 de 307), 2023 (241 de 240), 2024 (240 de 239).
 
 ## 4. Cobertura de cada campo, por década
 

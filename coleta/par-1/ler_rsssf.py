@@ -33,6 +33,8 @@ FASES = [
     # campeonatos em duas fases: grupo do título e grupo do rebaixamento depois da fase de todos contra todos
     (r"^(Relegation (Group|Round|Liguilla)|Liguilla (de |del |por el )?Descenso|Grupo de Descenso)", "Grupo do rebaixamento"),
     (r"^Playoff against 11th Place", "Desempate do rebaixamento"),   # PY-006 (1961, 1963)
+    (r"^Triangular de Desempate", "Triangular de desempate"),   # PY-008 (1981): quem vai à final do ano contra o campeão do 1º turno
+    (r"^Overall Final", "Final"),   # PY-008 (1981): a final do ano
     (r"^(Second Stage|Second Phase)\b", "Segunda fase"),
     (r"^(Third Stage|Third Phase)\b", "Terceira fase"),
     (r"^(Championship (Group|Round|Liguilla)|Liguilla (Final|del Campe[oó]n|de Campeonato|por el T[ií]tulo)|"
@@ -44,7 +46,9 @@ FASES = [
     (r"^(Semi[- ]?finals?|Championship Semifinals?)\b", "Semifinal"),
     (r"^(Final(?!\s*(Table|Tournament|Group|Standing|phase|stage|de la Liga))|Championship Final|Final de la Liga|Third and Final Match)",
      "Final"),
-    (r"^((Apertura|Intermedio|Clausura) Playoff|Championship Playoff|Playoff:?\s*$|Playoff \[|First Playoff|Desempate)",
+    (r"^Liguilla Pre-Libertadores", "Liguilla pré-Libertadores"),   # PY-008 (2003): vaga na Libertadores, não título
+    (r"^Playoff for Third", "Desempate do 3º lugar"),   # PY-008 (1999): 3ª vaga na Libertadores
+    (r"^((Apertura|Intermedio|Clausura) Playoff|(\d{4} )?Championship Playoff|Playoff:?\s*$|Playoff \[|First Playoff|Desempate)",
      "Desempate do título"),
     (r"^(Second place playoffs?|Second Place Playoff)", "Desempate do 2º lugar"),
     (r"^(Relegation playoff|Relegation Play-?off)", "Desempate do rebaixamento"),
@@ -55,9 +59,15 @@ FASES = [
 # título que abre o campeonato numa página que começa por outra competição (Copa Chile, Copa Apertura)
 INICIO = r"^NUNCA$"   # as páginas colombianas abrem pelo campeonato
 
-# Apertura e Clausura são edições no Chile: sem torneio do ano dentro da edição
-TORNEIOS: list[tuple[str, str]] = []
-FECHA = r"^\b$"   # nunca casa
+# PY-008: de 1996 a 2007 o Apertura e o Clausura são torneios dentro da edição anual; as fases de dentro levam o nome do
+# torneio ("Final do Apertura") e a final do ano volta ao campeonato. De 2008 em diante cada torneio é uma edição (sem isso).
+TORNEIOS: list[tuple[str, str]] = [
+    (r"^(Torneo |First Stage \()?Apertura( \d{4})?\)?$", "Apertura"),
+    (r"^(Torneo |Second Stage \()?Clausura( \d{4})?\)?$", "Clausura"),
+]
+FECHA = (r"^(Final Apertura v Clausura|(\d{4} )?Championship (Playoff|Final)|Aggregate Table|Overall Table|Cuadrangulares$|"
+         r"Second Place Playoff|Liguilla Pre-Libertadores|Playoff for Third)")
+ANOS_TORNEIOS = range(1996, 2008)
 
 
 # páginas de colunas fixas: (início da coluna do visitante, início da coluna do placar)
@@ -95,7 +105,7 @@ def fim_padrao(ls: tuple[str, ...], ini: int) -> int:
     return len(ls)
 
 
-def _torneios(ls: tuple[str, ...], ini: int, fim: int) -> tuple[dict[int, str], dict[int, str]]:
+def _torneios(ls: tuple[str, ...], ini: int, fim: int, fases: list | None = None) -> tuple[dict[int, str], dict[int, str]]:
     """Por linha: o torneio em vigor ("" = campeonato) e o grupo marcado em "Grupo A [May 27]"."""
     """Por linha: o torneio em vigor ("" = campeonato), o grupo marcado em "Grupo A [May 27]" e se a fase de mata-mata
     lida antes (uma "Final" do Intermedio) ficou velha: título de fase anterior ao começo do torneio em vigor."""
@@ -111,7 +121,7 @@ def _torneios(ls: tuple[str, ...], ini: int, fim: int) -> tuple[dict[int, str], 
                 if re.match(rx, s, re.I):
                     torneio, grupo, ini_t = nome, "", i
                     break
-        if any(re.search(rx, s, re.I) for rx, _ in FASES):
+        if any(re.search(rx, s, re.I) for rx, _ in (fases or FASES)):   # as fases da edição também ("Liguilla", 1998)
             ult_fase = i
         if m := re.match(r"^(?:Grupo|Group|Serie)\s+([A-Z])\b(?!\s*\()", s):
             grupo = m.group(1)
@@ -149,13 +159,11 @@ def _vitoria_dada(x: rsssf_sul.Jogo) -> None:
 def _fase(base: str, torneio: str) -> str:
     if not torneio:
         return base
-    if base in ("", "Fase final"):
+    if base in ("", "Fase final", torneio):
         return torneio
     if base in ("Final", "Desempate do título"):
         return f"Final do {torneio}"
-    if base == "Semifinal":
-        return f"Semifinal do {torneio}"
-    return base
+    return f"{base} do {torneio}"   # "Semifinal do Apertura", "Liguilla do Clausura", "Segunda fase do Apertura"
 
 
 def ler(e: Edicao) -> tuple[list[rsssf_sul.Jogo], list[rsssf_sul.Tabela]]:
@@ -168,11 +176,16 @@ def ler(e: Edicao) -> tuple[list[rsssf_sul.Jogo], list[rsssf_sul.Tabela]]:
         fim = fim if fim is not None else fim_padrao(ls, ini)
         trecho = [""] * ini + list(ls[ini:fim])   # mantém o número da linha da página
         j, t = rsssf_sul.ler(trecho, e.ano_inicio, e.ano_fim, fases=e.fases + FASES)
-        tor, gru, velha = _torneios(ls, ini, fim)
+        tor, gru, velha = _torneios(ls, ini, fim, e.fases + FASES)
+        if e.ano_inicio not in ANOS_TORNEIOS:
+            tor = {}
         for x in j:
             x.texto = f"{pagina}:{x.linha}"
             _vitoria_dada(x)
-            x.fase = _fase("" if velha.get(x.linha) else x.fase, tor.get(x.linha, ""))
+            base = "" if velha.get(x.linha) else x.fase
+            if e.ano_inicio >= 2002 and x.grupo and not base:   # grupo sem fase é dos quadrangulares (abaixo), também no torneio
+                base = "Quadrangulares semifinais"
+            x.fase = _fase(base, tor.get(x.linha, ""))
             if not x.grupo and gru.get(x.linha) and x.fase in ("Intermedio", "Clasificatorio", ""):
                 x.grupo = gru[x.linha]
         for x in t:

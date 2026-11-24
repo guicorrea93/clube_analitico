@@ -10,8 +10,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 14335 | 9481 | 84 | 59 / 22 | sim | 415911b | 21 | [uru-1](uru-1.md) |
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 19548 | 26607 | 53 | 76 / 32 | sim | 415911b | 26 | [chi-1](chi-1.md) |
 | Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22512 | 22041 | 40519 | 42 | 48 / 38 | sim | 415911b | 22 | [col-1](col-1.md) |
-| Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 13239 | 14271 | 50 | 43 / 7 | sim | 415911b | 24 | [par-1](par-1.md) |
-| Campeonato Peruano | 109 (1912–2025) | 18 | 17318 | 20238 | 21067 | 167 | 52 / 38 | sim | 415911b | 22 | [per-1](per-1.md) |
+| Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 13239 | 14271 | 50 | 45 / 5 | sim | 415911b | 24 | [par-1](par-1.md) |
+| Campeonato Peruano | 109 (1912–2025) | 18 | 17318 | 20238 | 21067 | 167 | 52 / 38 | sim | 70d8caf | 22 | [per-1](per-1.md) |
 | Campeonato Equatoriano | 68 (1957–2025) | 0 | 14175 | 9259 | 15883 | 63 | 48 / 20 | sim | cf612c6 | 18 | [ecu-1](ecu-1.md) |
 | Campeonato Boliviano | 94 (1950–2025) | 22 | 8563 | 13666 | 4996 | 77 | 42 / 10 | sim | 415911b | 0 | [bol-1](bol-1.md) |
 | Campeonato Venezuelano | 106 (1921–2025) | 25 | 13580 | 6400 | 6744 | 108 | 48 / 23 | sim | cf612c6 | 0 | [ven-1](ven-1.md) |
@@ -29,7 +29,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **col-1:** Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, 1989), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante pela es), CO-020, CO-022.
 - **par-1:** 76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.
 - **par-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e vice da lista sempre em 1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador '2', estádio sem patrocinador) e o Apertura 2026 (D-01).
-- **par-1:** Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).
+- **par-1:** Abertos fechados em 24/11: PY-008 (1996-2007: fases do Apertura e do Clausura com o nome do torneio, 'Final do Apertura'; 1981: 1º turno, triangular de desempate e final do ano), PY-012 (rebaixados pelas notas das páginas da RSSSF, explicacoes.REBAIXADOS: 55 marcas novas), PY-018 (artilheiros de 2011 em diante pela Wikipédia em espanhol, goleadores_es.py), PY-019 (números da paratops mantidos, divergências explicadas) e PY-031 (textos da ficha).
+- **par-1:** Rebaixados sem fonte: 2008 (a página não traz a tabela de promedios) e os anos antes de 1981.
 - **per-1:** 1912-1921 (Liga Peruana): pela D-06 (A), as edições ficam com a ordem e os participantes das páginas peru1912-1921 (sem jogos, salvo os poucos de 1912 que não entram).
 - **per-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): tabela do ano inteiro como classificação (1970-1979, 1998, 2000, 2009, 2012, 2020 pós-TAS, 2021 com o TAS; soma em 2001, 2004, 2005), final de 2021, Jorge Chávez N°1 x do Callao, rebaixado só com 'Relegated', finais do Torneo de Verano, datas de 1990.
 - **per-1:** Abertos fechados em 23/11: PE-010 (final nacional de 1990 como 'Final', em 3/2/1991; a do Regional II à parte), PE-012 (1988: liguilla final como 'Fase final' e o jogo do título como 'Final'), PE-014 (rebaixados pela Wikipédia em espanhol, rebaixados_es.py: 100 clubes em 48 edições), PE-015 (1996: Sáenz e Czornomaz com 20), PE-017 (placares: fica a RSSSF, explicado ano a ano; Cienciano 1-1 Universitario de 2004 contado), PE-022 (Deportivo Bancos em Pucallpa).

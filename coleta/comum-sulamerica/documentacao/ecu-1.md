@@ -49,6 +49,7 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições com alguma tabela divergente** (20; motivo no relatório, na edição): 1965, 1968, 1970, 1971, 1973, 1977, 1981, 1982, 1986, 1989, 1990, 1991, 1993, 1994, 1995, 1996, 1998, 2000, 2003, 2009.
 - **Edições sem tabela para conferir** (0): nenhuma.
 - **Edições com menos jogos que o esperado:** nenhuma.
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): nenhuma.
 
 ## 4. Cobertura de cada campo, por década
 

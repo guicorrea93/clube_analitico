@@ -47,7 +47,8 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 48.
 - **Edições com alguma tabela divergente** (38; motivo no relatório, na edição): 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1957, 1962, 1964, 1965, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1988, 1990, 1995/96, 1999, 2003 Apertura, 2005 Finalización, 2006 Finalización, 2012 Finalización.
 - **Edições sem tabela para conferir** (15): 1955, 1958, 1959, 1960, 1961, 1963, 1966, 1987, 1989, 1991, 1992, 1993, 1994, 1995, 1998.
-- **Edições com menos jogos que o esperado:** 1952 (209 de 210), 1953 (131 de 132), 1964 (311 de 312), 1969 (373 de 555), 1970 (376 de 558), 1971 (379 de 561), 1972 (376 de 558), 1974 (361 de 543), 1976 (351 de 533), 1977 (359 de 541), 1978 (365 de 547), 1979 (367 de 514), 1981 (329 de 511), 1982 (387 de 569), 1983 (336 de 518), 1984 (336 de 518), 1985 (336 de 518), 1990 (335 de 425), 1996/97 (380 de 636), 2005 Finalización (187 de 188), 2006 Finalización (188 de 179), 2007 Finalización (189 de 188), 2009 Apertura (189 de 188), 2009 Finalización (189 de 188), 2010 Finalización (189 de 188).
+- **Edições com menos jogos que o esperado:** 1952 (209 de 210), 1953 (131 de 132), 1964 (311 de 312), 1969 (373 de 555), 1970 (376 de 558), 1971 (379 de 561), 1972 (376 de 558), 1974 (361 de 543), 1976 (351 de 533), 1977 (359 de 541), 1978 (365 de 547), 1979 (367 de 514), 1981 (329 de 511), 1982 (387 de 569), 1983 (336 de 518), 1984 (336 de 518), 1985 (336 de 518), 1990 (335 de 425), 1996/97 (380 de 636), 2005 Finalización (187 de 188).
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 2006 Finalización (188 de 179), 2007 Finalización (189 de 188), 2009 Apertura (189 de 188), 2009 Finalización (189 de 188), 2010 Finalización (189 de 188).
 
 ## 4. Cobertura de cada campo, por década
 

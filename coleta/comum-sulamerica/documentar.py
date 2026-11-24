@@ -70,7 +70,11 @@ PENDENCIAS: dict[str, list[str]] = {
         "1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, "
         "pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador "
         "'2', estádio sem patrocinador) e o Apertura 2026 (D-01).",
-        "Ainda abertos: PY-008 (fases do Apertura e do Clausura de 1996-2007), PY-012 (rebaixados por ano), PY-018 (artilheiros de 2014 em diante), PY-019, PY-031 (textos da ficha).",
+        "Abertos fechados em 24/11: PY-008 (1996-2007: fases do Apertura e do Clausura com o nome do torneio, 'Final do "
+        "Apertura'; 1981: 1º turno, triangular de desempate e final do ano), PY-012 (rebaixados pelas notas das páginas da "
+        "RSSSF, explicacoes.REBAIXADOS: 55 marcas novas), PY-018 (artilheiros de 2011 em diante pela Wikipédia em espanhol, "
+        "goleadores_es.py), PY-019 (números da paratops mantidos, divergências explicadas) e PY-031 (textos da ficha).",
+        "Rebaixados sem fonte: 2008 (a página não traz a tabela de promedios) e os anos antes de 1981.",
     ],
     "per-1": [
         "1912-1921 (Liga Peruana): pela D-06 (A), as edições ficam com a ordem e os participantes das páginas peru1912-1921 "
@@ -270,15 +274,20 @@ def ficha(slug: str, no_banco: set[str], commits: dict[str, str]) -> tuple[str, 
     ok = [c["temporada"] for c in conf if num(c["tabelas_conferidas"]) > 0 and num(c["tabelas_divergentes"]) == 0]
     div = [c["temporada"] for c in conf if num(c["tabelas_divergentes"]) > 0]
     sem_conf = [c["temporada"] for c in conf if c["temporada"] not in ok and c["temporada"] not in div]
+    # PY-031: "menos" e "mais" à parte (1965 do par-1 tinha mais jogos que o esperado e aparecia como "menos")
     incompletas = [f"{c['temporada']} ({c['jogos']} de {c['jogos_esperados']})" for c in conf
-                   if num(c["jogos"]) and c["jogos_esperados"] and c["jogos"] != c["jogos_esperados"]]
+                   if num(c["jogos"]) and c["jogos_esperados"] and num(c["jogos"]) < num(c["jogos_esperados"])]
+    a_mais = [f"{c['temporada']} ({c['jogos']} de {c['jogos_esperados']})" for c in conf
+              if num(c["jogos"]) and c["jogos_esperados"] and num(c["jogos"]) > num(c["jogos_esperados"])]
     out += ["## 3. Conferência", "",
             "Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a "
             "lista de campeões da Wikipédia.", "",
             f"- **Edições em que todas as tabelas fecham com os jogos:** {len(ok)}.",
             f"- **Edições com alguma tabela divergente** ({len(div)}; motivo no relatório, na edição): {', '.join(div) or 'nenhuma'}.",
             f"- **Edições sem tabela para conferir** ({len(sem_conf)}): {', '.join(sem_conf) or 'nenhuma'}.",
-            f"- **Edições com menos jogos que o esperado:** {', '.join(incompletas) or 'nenhuma'}.", ""]
+            f"- **Edições com menos jogos que o esperado:** {', '.join(incompletas) or 'nenhuma'}.",
+            f"- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): "
+            f"{', '.join(a_mais) or 'nenhuma'}.", ""]
 
     # ---- 4. cobertura por década
     por_dec = defaultdict(list)

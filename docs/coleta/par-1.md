@@ -4,7 +4,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 **Edições:** 134, uma por título de campeão paraguaio da 1ª divisão, de 1906 a 2025, como na lista de campeões da RSSSF (`parachamp.html`) e na Wikipédia em inglês. Até 2007 um campeão por ano (sem campeonato em 1908, 1922 e 1932-1934); de 1996 a 2007 o Apertura e o Clausura são fases da edição anual, com a final entre os vencedores. De 2008 em diante, Apertura e Clausura dão título cada um: uma edição por torneio.
 
-**Edições sem jogos (76):** 1906-1959, 1968-1980 e 1982-1995. Pesquisamos RSSSF, ogol, Wikipédias em espanhol, inglês e guarani, Transfermarkt, worldfootball, sites e livros paraguaios: nenhuma fonte pública traz os jogos completos desses anos (a RSSSF tem só alguns resultados soltos, "Known Results"). Decisão do Guilherme (21/11/2026): essas edições entram só com o campeão, o vice e a tabela da RSSSF quando há: completa em 1943, 1945, 1955 e 1990-1995; parcial (posição e pontos, às vezes parte da campanha) nos outros anos; sem tabela, a classificação tem só o campeão e o vice. Os jogos soltos ficam de fora.
+**Edições sem jogos (76):** 1906-1959, 1968-1980 e 1982-1995. Pesquisamos RSSSF, ogol, Wikipédias em espanhol, inglês e guarani, Transfermarkt, worldfootball, sites e livros paraguaios: nenhuma fonte pública traz os jogos completos desses anos (a RSSSF tem só alguns resultados soltos, "Known Results"). Decisão do Guilherme (21/11/2026): essas edições entram só com o campeão, o vice e a tabela da RSSSF quando há: completa em 1909, 1943, 1945, 1946, 1955, 1986 e 1994 (PY-031); parcial (posição e pontos, às vezes parte da campanha) nos outros anos; sem tabela, a classificação tem só o campeão e o vice. Os jogos soltos ficam de fora.
 
 **Fora do pacote:** a Copa Paraguay, a Copa República, a Intermedia (2ª divisão), as liguillas e os jogos de promoção.
 
@@ -86,7 +86,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 | 1978 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | lista de campeões e vices da RSSSF (parachamp.html) |
 | 1979 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | lista de campeões e vices da RSSSF (parachamp.html) |
 | 1980 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | lista de campeões e vices da RSSSF (parachamp.html) |
-| 1981 | 10 | 141 (134) | 280 | 0 | 2 / 2 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1981 | 10 | 141 (140) | 280 | 0 | 4 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1982 | 2 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | lista de campeões e vices da RSSSF (parachamp.html) |
 | 1983 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | lista de campeões e vices da RSSSF (parachamp.html) |
 | 1984 | 0 | 0 (0) | 0 | 0 | 0 / 0 | Guaraní de Asunción | lista de campeões e vices da RSSSF (parachamp.html) |
@@ -103,12 +103,12 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 | 1995 | 13 | 0 (0) | 0 | 0 | 0 / 0 | Olimpia | lista de campeões e vices da RSSSF (parachamp.html) |
 | 1996 | 13 | 182 (182) | 519 | 0 | 0 / 0 | Cerro Porteño | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1997 | 13 | 190 (190) | 528 | 7 | 0 / 0 | Olimpia | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1998 | 12 | 170 (170) | 472 | 0 | 3 / 7 | Olimpia | RSSSF (para98) |
-| 1999 | 11 | 145 (145) | 398 | 7 | 2 / 7 | Olimpia | RSSSF (para99) |
+| 1998 | 12 | 170 (170) | 472 | 0 | 6 / 4 | Olimpia | RSSSF (para98) |
+| 1999 | 11 | 145 (145) | 398 | 7 | 6 / 3 | Olimpia | RSSSF (para99) |
 | 2000 | 10 | 163 (163) | 437 | 114 | 3 / 1 | Olimpia | RSSSF (para00) |
 | 2001 | 10 | 104 (104) | 295 | 183 | 2 / 0 | Cerro Porteño | RSSSF (para01) |
 | 2002 | 10 | 151 (151) | 418 | 288 | 3 / 0 | Libertad | RSSSF (para02) |
-| 2003 | 10 | 153 (152) | 398 | 239 | 2 / 3 | Libertad | RSSSF (para03) |
+| 2003 | 10 | 153 (152) | 398 | 239 | 5 / 0 | Libertad | RSSSF (para03) |
 | 2004 | 10 | 180 (180) | 465 | 282 | 2 / 0 | Cerro Porteño | RSSSF (para04) |
 | 2005 | 10 | 181 (180) | 462 | 407 | 3 / 0 | Cerro Porteño | RSSSF (para05) |
 | 2006 | 11 | 222 (222) | 634 | 621 | 2 / 0 | Libertad | RSSSF (para06) |
@@ -251,6 +251,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 1935
 
+- artilheiro pela lista da RSSSF (paratops); Pedro Osorio (Cerro Porteño) com 18 gols; a Wikipédia em espanhol dá 17. Sem 3ª fonte: fica a RSSSF (PY-019)
 - sem jogos: nenhuma fonte pública traz os jogos deste ano (só o campeão e, quando há, a tabela parcial)
 
 ### 1936
@@ -360,10 +361,11 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 1962
 
-- sem ocorrências
+- artilheiro pela lista da RSSSF (paratops); Cecilio Martínez (Nacional) com 19 gols; a página do ano na RSSSF dá 18 e a Wikipédia em espanhol, 17 pelo Libertad (ela troca clube e gols com 1963). Três números diferentes: fica a lista da RSSSF (PY-019)
 
 ### 1963
 
+- artilheiro pela lista da RSSSF (paratops); Juan Cabañas (Libertad) com 17 gols; a Wikipédia em espanhol dá 19 pelo Nacional (troca clube e gols com 1962). Fica a RSSSF (PY-019)
 - abandonado/suspenso, sem valer — River Plate de Asunción Sol de América (1963-07-14): abandoned at 0-0 in 56'
 
 ### 1964
@@ -382,6 +384,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 1967
 
+- artilheiro pela lista da RSSSF (paratops); Sebastián Fleitas (Libertad) com 18 gols, como a Wikipédia em espanhol; a página do ano na RSSSF dá 16 (PY-019)
 - tabela publicada x jogos — para67:103: Guaraní de Asunción tabela [8, 6, 2, 0, 15, 2] jogos [24, 15, 8, 1, 34, 4] — a outra tabela publicada (para67) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para67:103: Olimpia tabela [8, 5, 2, 1, 15, 8] jogos [24, 12, 9, 3, 35, 20] — a outra tabela publicada (para67) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para67:103: Libertad tabela [8, 5, 1, 2, 19, 14] jogos [24, 15, 3, 6, 50, 31] — a outra tabela publicada (para67) fecha com os jogos: o erro é desta tabela
@@ -411,6 +414,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 1970
 
+- artilheiro pela lista da RSSSF (paratops); Saturnino Arrúa (Cerro Porteño) com 19 gols; a Wikipédia em espanhol dá 11. Fica a RSSSF (PY-019)
 - sem jogos: nenhuma fonte pública traz os jogos deste ano (só o campeão e, quando há, a tabela parcial)
 
 ### 1971
@@ -455,12 +459,9 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 1981
 
-- tabela publicada x jogos — para81:274: Libertad tabela [18, 8, 8, 2, 25, 14] jogos [20, 9, 8, 3, 28, 16] — a outra tabela publicada (para81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para81:274: Sol de América tabela [18, 11, 2, 5, 24, 14] jogos [22, 14, 2, 6, 29, 17] — a outra tabela publicada (para81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para81:274: Olimpia tabela [18, 8, 8, 2, 22, 13] jogos [22, 9, 8, 5, 24, 18] — a outra tabela publicada (para81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para81:302: Sol de América tabela [2, 2, 0, 0, 3, 1] jogos [8, 6, 0, 2, 12, 7] — a outra tabela publicada (para81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para81:302: Libertad tabela [2, 1, 0, 1, 3, 2] jogos [6, 1, 2, 3, 3, 6] — a outra tabela publicada (para81) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para81:302: Olimpia tabela [2, 0, 0, 2, 0, 3] jogos [8, 2, 2, 4, 6, 8] — a outra tabela publicada (para81) fecha com os jogos: o erro é desta tabela
+- corrigido — Cerro Porteño x Guaraní de Asunción (1981-06-28): decisão do 1º turno (dava vaga na final do ano), não a final do campeonato (PY-008)
+- corrigido — Olimpia x Resistencia (1981-06-28): decisão do 1º turno (dava vaga na final do ano), não a final do campeonato (PY-008)
+- corrigido — Olimpia x Cerro Porteño (1981-07-03): decisão do 1º turno (dava vaga na final do ano), não a final do campeonato (PY-008)
 - abandonado/suspenso, sem valer — Resistencia Nacional de Asunción (1981-09-13): abandoned at 1-1 in 66' due to incidents
 - abandonado/suspenso, sem valer — Sol de América Olimpia (1981-11-29): abandoned at half-time due to heavy rain
 
@@ -530,22 +531,15 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 1998
 
-- tabela publicada x jogos — para98:139: Olimpia tabela [2, 1, 0, 1, 5, 2] jogos [4, 3, 0, 1, 9, 3] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:139: Guaraní de Asunción tabela [2, 1, 1, 0, 5, 4] jogos [4, 1, 1, 2, 6, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:139: Olimpia tabela [2, 1, 0, 1, 5, 2] jogos [3, 2, 0, 1, 7, 2] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:139: Guaraní de Asunción tabela [2, 1, 1, 0, 5, 4] jogos [3, 1, 1, 1, 5, 6] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:139: Sportivo Luqueño tabela [2, 0, 1, 1, 2, 6] jogos [3, 0, 1, 2, 3, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:139: Sol de América tabela [2, 1, 0, 1, 4, 4] jogos [3, 2, 0, 1, 6, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:146: Cerro Porteño tabela [2, 2, 0, 0, 6, 2] jogos [3, 3, 0, 0, 10, 2] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:146: 12 de Octubre tabela [2, 1, 1, 0, 4, 2] jogos [4, 1, 1, 2, 5, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:146: 12 de Octubre tabela [2, 1, 1, 0, 4, 2] jogos [3, 1, 1, 1, 4, 6] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:146: Presidente Hayes tabela [2, 0, 0, 2, 2, 6] jogos [3, 0, 0, 3, 2, 7] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:146: Cerro Corá tabela [2, 0, 1, 1, 2, 4] jogos [4, 2, 1, 1, 5, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:173: Olimpia tabela [3, 2, 0, 1, 7, 2] jogos [4, 3, 0, 1, 9, 3] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:173: Guaraní de Asunción tabela [3, 1, 1, 1, 5, 6] jogos [4, 1, 1, 2, 6, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:180: 12 de Octubre tabela [3, 1, 1, 1, 4, 6] jogos [4, 1, 1, 2, 5, 8] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:180: Cerro Corá tabela [3, 1, 1, 1, 3, 4] jogos [4, 2, 1, 1, 5, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para98:146: Cerro Corá tabela [2, 0, 1, 1, 2, 4] jogos [3, 1, 1, 1, 3, 4] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:211: Nacional de Asunción tabela [11, 3, 6, 2, 17, 22] jogos [11, 2, 7, 2, 17, 23] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:342: Olimpia tabela [3, 2, 1, 0, 7, 4] jogos [3, 1, 0, 2, 1, 2] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:342: Cerro Corá tabela [3, 1, 2, 0, 6, 5] jogos [3, 2, 0, 1, 6, 5] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para98:342: 12 de Octubre tabela [3, 0, 0, 3, 2, 6] jogos [3, 1, 1, 1, 4, 4] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:419: Cerro Porteño tabela [22, 16, 3, 3, 52, 19] jogos [28, 22, 3, 3, 70, 25] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:419: Guaraní de Asunción tabela [22, 10, 6, 6, 31, 28] jogos [28, 12, 8, 8, 40, 38] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para98:419: Olimpia tabela [22, 9, 5, 8, 28, 19] jogos [28, 13, 6, 9, 42, 25] — a outra tabela publicada (para98) fecha com os jogos: o erro é desta tabela
@@ -560,34 +554,23 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 1999
 
-- tabela publicada x jogos — para99:158: Olimpia tabela [3, 2, 1, 0, 9, 5] jogos [4, 3, 1, 0, 10, 5] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:158: 12 de Octubre tabela [3, 2, 0, 1, 5, 3] jogos [4, 2, 0, 2, 5, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:165: Atlético Colegiales tabela [3, 3, 0, 0, 9, 1] jogos [4, 4, 0, 0, 11, 2] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:165: Cerro Porteño tabela [3, 2, 0, 1, 4, 5] jogos [4, 3, 0, 1, 5, 5] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:165: Guaraní de Asunción tabela [3, 1, 0, 2, 3, 5] jogos [4, 1, 0, 3, 3, 6] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:165: Sportivo Luqueño tabela [3, 0, 0, 3, 0, 5] jogos [4, 0, 0, 4, 1, 7] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:189: Cerro Porteño tabela [10, 7, 1, 2, 25, 8] jogos [12, 9, 1, 2, 30, 9] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:189: Atlético Colegiales tabela [10, 2, 3, 5, 9, 12] jogos [11, 3, 3, 5, 11, 13] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:189: Cerro Corá tabela [10, 2, 3, 5, 10, 16] jogos [13, 2, 3, 8, 12, 23] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:321: Cerro Porteño tabela [2, 1, 1, 0, 5, 2] jogos [4, 3, 1, 0, 8, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:321: Cerro Porteño tabela [2, 1, 1, 0, 5, 2] jogos [3, 2, 1, 0, 6, 2] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:321: Sportivo San Lorenzo tabela [2, 1, 0, 1, 3, 5] jogos [3, 1, 0, 2, 4, 7] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:321: Cerro Corá tabela [2, 1, 1, 0, 4, 2] jogos [3, 2, 1, 0, 6, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:321: Guaraní de Asunción tabela [2, 0, 0, 2, 2, 5] jogos [4, 0, 0, 4, 3, 8] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:328: Sportivo Luqueño tabela [2, 1, 1, 0, 4, 2] jogos [4, 1, 1, 2, 5, 6] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:328: Olimpia tabela [2, 1, 0, 1, 4, 3] jogos [4, 3, 0, 1, 7, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:328: 12 de Octubre tabela [2, 1, 1, 0, 2, 1] jogos [4, 1, 1, 2, 3, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:328: Atlético Colegiales tabela [2, 0, 0, 2, 0, 4] jogos [4, 2, 0, 2, 4, 5] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:359: Cerro Porteño tabela [3, 2, 1, 0, 6, 2] jogos [4, 3, 1, 0, 8, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:359: Guaraní de Asunción tabela [3, 0, 0, 3, 2, 6] jogos [4, 0, 0, 4, 3, 8] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:321: Guaraní de Asunción tabela [2, 0, 0, 2, 2, 5] jogos [3, 0, 0, 3, 2, 6] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: Sportivo Luqueño tabela [2, 1, 1, 0, 4, 2] jogos [3, 1, 1, 1, 5, 4] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: Olimpia tabela [2, 1, 0, 1, 4, 3] jogos [3, 2, 0, 1, 5, 3] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: 12 de Octubre tabela [2, 1, 1, 0, 2, 1] jogos [3, 1, 1, 1, 2, 2] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:328: Atlético Colegiales tabela [2, 0, 0, 2, 0, 4] jogos [3, 1, 0, 2, 2, 5] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:408: Olimpia tabela [20, 12, 7, 1, 39, 17] jogos [26, 16, 8, 2, 53, 25] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Cerro Porteño tabela [20, 12, 5, 3, 46, 20] jogos [28, 18, 6, 4, 61, 28] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Cerro Porteño tabela [20, 12, 5, 3, 46, 20] jogos [26, 16, 6, 4, 56, 27] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:408: Sportivo Luqueño tabela [20, 11, 6, 3, 44, 27] jogos [26, 12, 7, 7, 49, 36] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:408: Sportivo San Lorenzo tabela [20, 6, 11, 3, 26, 22] jogos [26, 7, 12, 7, 33, 35] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:408: Guaraní de Asunción tabela [20, 6, 10, 4, 29, 27] jogos [26, 7, 10, 9, 34, 38] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:408: 12 de Octubre tabela [20, 5, 12, 3, 27, 22] jogos [26, 8, 13, 5, 34, 27] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Atlético Colegiales tabela [20, 6, 4, 10, 25, 31] jogos [27, 11, 4, 12, 38, 38] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Atlético Colegiales tabela [20, 6, 4, 10, 25, 31] jogos [26, 10, 4, 12, 36, 37] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — para99:408: Sol de América tabela [20, 5, 6, 9, 18, 22] jogos [23, 6, 6, 11, 22, 29] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para99:408: Cerro Corá tabela [20, 4, 6, 10, 27, 39] jogos [26, 6, 7, 13, 35, 49] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
+- tabela publicada x jogos — para99:408: Cerro Corá tabela [20, 4, 6, 10, 27, 39] jogos [23, 6, 7, 10, 33, 42] — a outra tabela publicada (para99) fecha com os jogos: o erro é desta tabela
 
 ### 2000
 
@@ -603,12 +586,7 @@ Gerado por `python coleta/par-1/importar.py`. Pacote em `data/coleta/par-1/pacot
 
 ### 2003
 
-- tabela publicada x jogos — para03:193: Sol de América tabela [2, 1, 0, 1, 4, 3] jogos [3, 1, 0, 2, 6, 6] — a outra tabela publicada (para03) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para03:193: Cerro Porteño tabela [2, 0, 0, 2, 3, 6] jogos [3, 1, 0, 2, 6, 8] — a outra tabela publicada (para03) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para03:245: Libertad tabela [18, 9, 6, 3, 32, 20] jogos [19, 9, 7, 3, 32, 20] — a outra tabela publicada (para03) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para03:245: Olimpia tabela [18, 9, 6, 3, 30, 18] jogos [19, 9, 7, 3, 30, 18] — a outra tabela publicada (para03) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para03:571: Cerro Porteño tabela [3, 1, 0, 2, 4, 7] jogos [4, 1, 0, 3, 6, 11] — a outra tabela publicada (para03) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — para03:571: Sol de América tabela [3, 0, 1, 2, 5, 9] jogos [4, 1, 1, 2, 9, 11] — a outra tabela publicada (para03) fecha com os jogos: o erro é desta tabela
+- artilheiro pela lista da RSSSF (paratops); Erwin Ávalos (Cerro Porteño) com 17 gols; a Wikipédia em espanhol dá 16. Sem 3ª fonte: fica a RSSSF (PY-019)
 - abandonado/suspenso, sem valer — Sportivo San Lorenzo Cerro Porteño (2003-03-01): abandoned at 0-3 in 70' due to light
 
 ### 2004

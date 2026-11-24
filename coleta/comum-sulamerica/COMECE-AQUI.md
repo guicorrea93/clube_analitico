@@ -102,8 +102,10 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Peru: feito (`70d8caf`)** (PE-010, PE-012, PE-014, PE-015, PE-017, PE-022). Novo: `coleta/per-1/rebaixados_es.py`
      (seção "Ascensos y descensos" das páginas da es; `baixar_wikipedia.py` agora baixa todos os anos, "Liga1 <ano> (Perú)"
      de 2019 em diante).
-   - **PARADO AQUI em 23/11 (o Guilherme encerrou o dia).** Retomar pelo Paraguai.
-   - **Paraguai:** PY-008, PY-012, PY-018, PY-019, PY-031.
+   - **Próximo: Chile.**
+   - **Paraguai: feito (commit no recado)** (PY-008, PY-012, PY-018, PY-019, PY-031). Novo: `coleta/par-1/goleadores_es.py`
+     (coluna "Goleador" da es, guardada em `data/coleta/par-1/wikipedia/es_principal.txt`) e `explicacoes.REBAIXADOS`.
+     Torneios (Apertura e Clausura) ligados no leitor só de 1996 a 2007 (`ANOS_TORNEIOS`).
    - **Chile:** CH-006, CH-014 (1986), CH-017 (só reimportar), CH-022, CH-023, CH-028.
    - **Argentina:** AR-020, AR-021, QU-003, QU-005.
    - **Colômbia:** CO-004, CO-006, CO-009, CO-012, CO-013, CO-015, CO-016, CO-017, CO-018 (só reimportar), CO-020, CO-022.

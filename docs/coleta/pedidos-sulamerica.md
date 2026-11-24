@@ -785,3 +785,39 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `per-1`.
 - **Commit:** `70d8caf`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 24/11 — Abertos da revisão: Paraguaio (par-1)
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos:**
+  - PY-008 (fases):
+    - De 1996 a 2007, as fases de dentro do Apertura e do Clausura levam o nome do torneio ("Semifinal do Apertura",
+      "Final do Clausura", "Liguilla do Apertura"). A final do ano ficou como "Final" ou "Desempate do título".
+    - Em 2003, a liguilla pré-Libertadores virou fase própria: antes era "Quadrangulares semifinais".
+    - Em 1999, o desempate pela 3ª vaga na Libertadores virou "Desempate do 3º lugar".
+    - Em 1981, a semifinal e a final do 1º turno viraram "Semifinal do 1º turno" e "Final do 1º turno". O triangular
+      virou "Triangular de desempate", e o "Overall Final" virou "Final".
+    - A classificação de 1981, 1996 e 1997 mudou de ordem (D-02 A): as fases dos torneios não contam como fase final.
+  - PY-012 (rebaixados): vêm agora das notas das páginas da RSSSF (`explicacoes.REBAIXADOS`), com 55 marcas novas de 1981
+    a 2025.
+    - Só conta quem jogou o ano e não está na 1ª divisão do ano seguinte. Por isso o Independiente fica fora em 2017:
+      ganhou o desempate.
+    - 2008 fica sem marca: a página não traz a tabela de promedios.
+  - PY-018 (artilheiros): de 2011 em diante, a fonte é a coluna "Goleador" da Wikipédia em espanhol (novo
+    `goleadores_es.py`).
+    - Entram 14 edições que estavam sem artilheiro.
+    - Nas outras, as contagens são iguais às dos gols com autor.
+  - PY-019 (artilheiros de 1935, 1962, 1963, 1967, 1970 e 2003): ficam os números da lista da RSSSF. As divergências com a
+    Wikipédia em espanhol e com as páginas do ano estão explicadas no relatório.
+  - PY-031 (documentação):
+    - O texto "tabela completa em ..." foi corrigido para 1909, 1943, 1945, 1946, 1955, 1986 e 1994.
+    - A ficha separa as edições com menos jogos que o esperado das que têm mais.
+- **Ids das partidas:** os jogos são os mesmos (7.823). Mas os ids de 8 edições foram renumerados, porque a ordem das
+  fases mudou: 1981, 1996, 1997, 1998, 1999, 2001, 2002 e 2003. A ligação estável é o `fonte_id`.
+- **Teste de carga:** `par-1: 134 edições, 7823 jogos, 9 clubes novos -> OK`. Os 9 são os cadastrados nas correções de
+  23/11, ainda não carregados; o `clubes.csv` não mudou.
+- **Pedido ao agente 1:** recarregar o `par-1` inteiro (fases, ids, classificação, artilheiros).
+- **Commit:** (abaixo).
+- **O leitor comum (`rsssf_sul.py`) não mudou.** O `documentar.py` passou a listar à parte as edições com mais jogos que o
+  esperado; as fichas das outras ligas só ganham essa linha.

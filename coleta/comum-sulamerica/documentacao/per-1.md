@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 17318 (17272 com placar); **gols:** 47454; **gols com autor:** 20238 (43%); **cartões:** 21067.
 - **Clubes:** 167; **artilheiros:** 97 edições com artilheiro (101 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 2552 linhas.
-- **No banco:** sim; **último commit do pacote:** 415911b.
+- **No banco:** sim; **último commit do pacote:** 70d8caf.
 - **Observação da competição:** 1ª divisão peruana de 1912 a 2025, um campeão por ano (sem campeonato em 1922-1925 e 1936). 1912-1921: Liga Peruana de Football, só com campeão e vice. Sem jogos em 1970-1974, 1976, 1977 e 1979 (só a tabela final); jogos incompletos em 1926, 1982, 1984, 1986, 1988-1991 e 2003.
 
 ## 2. Edições, fontes e regras
@@ -51,7 +51,8 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 52.
 - **Edições com alguma tabela divergente** (38; motivo no relatório, na edição): 1927, 1928, 1929, 1931, 1933, 1934, 1948, 1949, 1950, 1951, 1958, 1959, 1960, 1961, 1963, 1964, 1965, 1966, 1967, 1975, 1978, 1982, 1984, 1985, 1986, 1987, 1988, 1989, 1990, 1991, 1992, 1993, 1994, 1996, 1999, 2000, 2013, 2021.
 - **Edições sem tabela para conferir** (19): 1912, 1913, 1914, 1915, 1916, 1917, 1918, 1919, 1920, 1921, 1926, 1970, 1971, 1972, 1973, 1974, 1976, 1977, 1979.
-- **Edições com menos jogos que o esperado:** 1935 (9 de 6), 1950 (89 de 90), 1957 (110 de 130), 1958 (110 de 130), 1959 (110 de 130), 1964 (110 de 130), 1965 (110 de 130), 1975 (323 de 322), 2000 (266 de 265), 2004 (366 de 365), 2016 (360 de 359).
+- **Edições com menos jogos que o esperado:** 1950 (89 de 90), 1957 (110 de 130), 1958 (110 de 130), 1959 (110 de 130), 1964 (110 de 130), 1965 (110 de 130).
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 1935 (9 de 6), 1975 (323 de 322), 2000 (266 de 265), 2004 (366 de 365), 2016 (360 de 359).
 
 ## 4. Cobertura de cada campo, por década
 

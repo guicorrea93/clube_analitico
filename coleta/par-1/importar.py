@@ -33,12 +33,13 @@ from rsssf_sul import chave  # noqa: E402
 # de cada um ficam no nível 0: decidem vaga nas finais do campeonato, não o título
 NIVEL_FASE = {"": 0, "Grupo do rebaixamento": 0, "Desempate do rebaixamento": 0, "Desempate do 2º lugar": 1, "Segunda fase": 1,
               "Quadrangulares semifinais": 4, "Pentagonais": 3, "Triangulares": 4, "Hexagonal final": 5, "Octogonal final": 5,
-              "Quadrangular final": 6, "Finalísima": 6,
+              "Quadrangular final": 6, "Finalísima": 6, "Triangular de desempate": 5, "Desempate do 3º lugar": 1,
               "Terceira fase": 1, "Nacional": 2, "Oitavas de final": 3, "Quartas de final": 4,
               "Desempate da tabela anual": 1, "Fase final": 2, "Semifinal": 5, "Final": 6, "Desempate do título": 6}
 WIKI: dict[str, str] = {}
 VICES: dict[str, str] = {}
 TOPS: dict[str, list] = {}
+TOPS_ES: dict[str, list] = {}   # PY-018: coluna "Goleador" da Wikipédia em espanhol, onde a paratops não chega (2012 em diante)
 
 
 def nome_fase(f: str, fases: set[str]) -> str:
@@ -125,6 +126,8 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     pv = e.pontos_vitoria
     pub = next((tb for tb in p["tabelas"] if not tb.get("acumulada") and tb.get("ok") and
                 {r["clube"] for r in tb["linhas"]} == set(clubes)), None)
+    if pub and pub["t"].fase in ("Segunda fase", "Terceira fase") and any(nivel.values()):
+        pub = None   # D-02 (A): tabela de uma fase do meio com fase final depois (1981): a classificação é calculada
     if e.sem_jogos:   # sem jogos: a tabela final da RSSSF é a classificação
         pub = next((tb for tb in p["tabelas"] if tb.get("sem_conferencia")), None)
         if 1982 <= e.ano_inicio <= 1995:
@@ -179,11 +182,17 @@ TABELA_ANO = {"1986": 58, "1994": 72}
 VICE_ES = {"1926": "River Plate", "1927": "Libertad", "1952": "Libertad", "1953": "Libertad", "1964": "Nacional"}
 
 
-def situacao(r: dict, campeao: str | None, k: int) -> str:
+# PY-012: rebaixados por ano (explicacoes.REBAIXADOS), só os que jogaram o ano e não jogam a 1ª divisão do ano seguinte
+REBAIXADOS_OK: dict[str, set[str]] = {}
+
+
+def situacao(r: dict, campeao: str | None, k: int, temporada: str = "") -> str:
     if r["clube"] == campeao:
         return "campeao"
     if k == 2 and campeao:
         return "vice"
+    if temporada in REBAIXADOS_OK:
+        return "rebaixado" if r["clube"] in REBAIXADOS_OK[temporada] else ""
     if re.search(r"\brelegated\b|descend|rebaix", r.get("obs", ""), re.I):   # PY-011: "Relegation Playoff" não é queda
         return "rebaixado"
     return ""
@@ -344,7 +353,7 @@ def gravar(eds: list[dict]) -> None:
         # classificação final
         for r in d["final"]:
             L["classificacao_final"].append([e.temporada, r["pos"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"], r["gc"],
-                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"]), r["fonte"],
+                                             r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"], e.temporada), r["fonte"],
                                              "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
         # tabelas publicadas (as que entraram na conferência)
         vistas = set()
@@ -360,11 +369,14 @@ def gravar(eds: list[dict]) -> None:
                 L["tabelas_publicadas"].append([e.temporada, nome_fase(tb["t"].fase, fases) if tb["fonte"].startswith("para") else "classificação final",
                                                 tb["t"].grupo, r["pos"], r["nome"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"],
                                                 r["gc"], r["pts"], f"RSSSF ({tb['fonte']}, linha {tb['t'].linha})"])
-        # artilheiros: lista da RSSSF; sem ela, a contagem dos gols com autor (quando quase todos os gols têm autor)
-        tops = TOPS.get(e.temporada)
+        # artilheiros: lista da RSSSF; sem ela, a da Wikipédia em espanhol (PY-018); sem as duas, a contagem dos gols com autor
+        # (quando quase todos os gols têm autor)
+        tops, fonte_tops = TOPS.get(e.temporada), "RSSSF (paratops.html)"
+        if not tops and TOPS_ES.get(e.temporada):
+            tops, fonte_tops = TOPS_ES[e.temporada], "Wikipédia em espanhol (Primera División de Paraguay, coluna Goleador)"
         if tops:
             for jog, ctxt, ng in tops:
-                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, "RSSSF (paratops.html)"])
+                L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, fonte_tops])
                 if (ca := clube(ctxt, e.ano_inicio)) in CLUBES:   # clube só da lista de artilheiros também entra no clubes.csv
                     so_tabela[ca][f"rsssf:{ctxt}"].append(e.ano_inicio)
         elif gols_ed and autor_ed >= 0.95 * gols_ed:
@@ -485,8 +497,8 @@ def relatorio(eds: list[dict]) -> None:
               f"**Edições sem jogos ({n_sem}):** 1906-1959, 1968-1980 e 1982-1995. Pesquisamos RSSSF, ogol, Wikipédias em "
               "espanhol, inglês e guarani, Transfermarkt, worldfootball, sites e livros paraguaios: nenhuma fonte pública traz os "
               "jogos completos desses anos (a RSSSF tem só alguns resultados soltos, \"Known Results\"). Decisão do Guilherme "
-              "(21/11/2026): essas edições entram só com o campeão, o vice e a tabela da RSSSF quando há: completa em 1943, 1945, "
-              "1955 e 1990-1995; parcial (posição e pontos, às vezes parte da campanha) nos outros anos; sem tabela, a "
+              "(21/11/2026): essas edições entram só com o campeão, o vice e a tabela da RSSSF quando há: completa em 1909, "
+              "1943, 1945, 1946, 1955, 1986 e 1994 (PY-031); parcial (posição e pontos, às vezes parte da campanha) nos outros anos; sem tabela, a "
               "classificação tem só o campeão e o vice. Os jogos soltos ficam de fora.", "",
               "**Fora do pacote:** a Copa Paraguay, a Copa República, a Intermedia (2ª divisão), as liguillas e os jogos de "
               "promoção.", "",
@@ -546,11 +558,24 @@ if __name__ == "__main__":
     from campeoes_wiki import campeoes as campeoes_wiki
     WIKI.update(campeoes_wiki())
     TOPS.update(artilheiros_rsssf())
+    from goleadores_es import goleadores
+    TOPS_ES.update(goleadores())
     eds = []
     for e in EDICOES:
         d = montar(e, cps)
         eds.append(d)
         print(f"{e.temporada:20s} {len(d['p']['jogos']):4d} jogos  campeão {d['campeao']}  divergências {len(d['difs'])}", flush=True)
+    from explicacoes import REBAIXADOS
+    jogou: dict[int, set[str]] = defaultdict(set)   # clubes de cada ano (todas as edições do ano)
+    ultima: dict[int, str] = {}
+    for d in eds:
+        jogou[d["e"].ano_inicio] |= set(d["clubes"]) | {r["clube"] for r in d["final"]}
+        ultima[d["e"].ano_inicio] = d["e"].temporada
+    for ano, (ns, _fonte) in REBAIXADOS.items():
+        prox = min((a for a in jogou if a > ano), default=None)
+        REBAIXADOS_OK[ultima[ano]] = {n for n in ns if n in jogou[ano] and (prox is None or n not in jogou[prox])}
+        for n in sorted(set(ns) - REBAIXADOS_OK[ultima[ano]]):
+            print(f"rebaixado {ano} não marcado: {n} ({'não jogou o ano' if n not in jogou[ano] else 'joga o ano seguinte'})")
     gravar(eds)
     relatorio(eds)
     print("pacote gravado em", PACOTE, "e relatório em", RELATORIO)

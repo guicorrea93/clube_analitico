@@ -52,7 +52,8 @@ Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, 
 - **Edições em que todas as tabelas fecham com os jogos:** 48.
 - **Edições com alguma tabela divergente** (23; motivo no relatório, na edição): 1960, 1964, 1973, 1977, 1980, 1982, 1984, 1985, 1986, 1987/88, 1988/89, 1990/91, 1991/92, 1992/93, 1995/96, 1996/97, 1997/98, 1999/00, 2003/04, 2007/08, 2008/09, 2010/11, 2011/12.
 - **Edições sem tabela para conferir** (35): 1921, 1922, 1923, 1924, 1925, 1926, 1927, 1928, 1929, 1930, 1931, 1932, 1933, 1934, 1935, 1936, 1937, 1938, 1939, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1993/94, 1994/95.
-- **Edições com menos jogos que o esperado:** 1955 (30 de 28), 1961 (40 de 39), 1962 (62 de 55), 1973 (145 de 144), 1975 (124 de 123), 1983 (90 de 89), 1992/93 (241 de 242), 2005/06 (183 de 182), 2008/09 (310 de 308), 2009/10 (309 de 308), 2011/12 (304 de 306).
+- **Edições com menos jogos que o esperado:** 1992/93 (241 de 242), 2011/12 (304 de 306).
+- **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 1955 (30 de 28), 1961 (40 de 39), 1962 (62 de 55), 1973 (145 de 144), 1975 (124 de 123), 1983 (90 de 89), 2005/06 (183 de 182), 2008/09 (310 de 308), 2009/10 (309 de 308).
 
 ## 4. Cobertura de cada campo, por década
 
