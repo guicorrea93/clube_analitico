@@ -1254,3 +1254,12 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - as 19 tabelas que diferem.
 8. **Próxima tarefa:** EN-016 (12 jogos do Inglês sem autor dos gols). Depois, conversar com o Guilherme sobre as próximas
    ligas.
+
+## 24/11/2026 — coleta Europa: EN-016 já estava resolvido
+
+- Os 12 jogos do Inglês sem autor dos gols (EN-016) foram corrigidos em 23/11 (db95ab2), com os autores pela ficha do
+  BDFutbol (37 gols).
+- Conferido hoje no pacote: nenhum jogo do Inglês com gols ficou sem autor desde 2002/03.
+- O guia da coleta Europa ainda o dava como aberto; está corrigido.
+- **Nenhum achado da revisão segue aberto para a coleta Europa.**
+- **Não há o que recarregar por isso.**

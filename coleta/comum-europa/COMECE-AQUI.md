@@ -149,11 +149,11 @@ Ferramentas novas no código comum, para as próximas ligas:
 
 Correções em lote ficam em `data/coleta/<slug>/correcoes/` (datas, jogos a tavolino), com a fonte de cada linha.
 
-1. **EN-016 (revisão, baixa):** 12 jogos do Inglês (2002/03 a 2016/17) sem nenhum gol com autor; a ESPN não fecha nesses
-   jogos. Precisa de outra fonte jogo a jogo (ficha do ogol, 11v11). É o único achado da revisão ainda aberto para a coleta
-   Europa. Os outros estão corrigidos ou foram marcados `nao-e-erro` (`docs/revisao/achados.csv`, `quem_corrige` =
-   `coleta-europa`).
-2. **Próxima:** perguntar ao Guilherme (a fila está vazia: `bel-1`, `tur-1` e IT-017 prontos em 24/11; ideias: era antiga turca, DDR-Oberliga como `gdr-1`, decisão D-05b). As eras antigas da Holanda (1888/89–1955/56) e da
+1. **EN-016 (revisão, baixa): resolvido** nas correções do Inglês de 23/11 (db95ab2): os 12 jogos têm os autores pela
+   ficha do BDFutbol (`GOLS_MANUAIS` em `coleta/eng-1/importar.py`, 37 gols); conferido em 24/11: nenhum jogo do Inglês
+   com gols ficou sem autor desde 2002/03. Nenhum achado da revisão segue aberto para a coleta Europa.
+2. **Próxima:** perguntar ao Guilherme. Em 24/11 ficaram prontos `bel-1`, `tur-1` (com a era antiga), IT-017 e `gdr-1`
+   (D-05b); a fila pedida por ele acabou. As eras antigas da Holanda (1888/89–1955/56) e da
    Alemanha (1902/03–1962/63) estão prontas (22/11), cada uma no `antigo.py` do seu slug (leitura da RSSSF em
    `rsssf_antigo.py`), chamado pelo `importar.py` antes do cadastro de clubes. O que ficou de fora está nas pendências de
    cada liga (`documentacao/ned-1.md` e `documentacao/ger-1.md`).
