@@ -438,7 +438,8 @@ def separar(b: sqlite3.Connection) -> None:
         pts = f"SELECT partida_id FROM partida WHERE edicao_id IN ({eds})"
         for t, col, onde in [("partida", "mandante_id", eds), ("partida", "visitante_id", eds), ("gol", "clube_id", pts), ("cartao", "clube_id", pts),
                              ("estatistica_partida", "clube_id", pts), ("classificacao_final", "clube_id", eds), ("classificacao_rodada", "clube_id", eds),
-                             ("tabela_publicada", "clube_id", eds), ("artilheiro", "clube_id", eds), ("edicao", "campeao_id", eds), ("edicao", "vice_id", eds)]:
+                             ("tabela_publicada", "clube_id", eds), ("artilheiro", "clube_id", eds), ("edicao", "campeao_id", eds), ("edicao", "vice_id", eds),
+                             ("edicao", "co_campeao_id", eds)]:
             chave_t = "partida_id" if onde is pts else "edicao_id"
             b.execute(f"UPDATE {t} SET {col} = ? WHERE {col} = ? AND {chave_t} IN ({onde})", (novo, cid))
         b.execute("UPDATE clube_nome SET clube_id = ? WHERE clube_id = ? AND ano_fim <= ?", (novo, cid, ate))

@@ -60,9 +60,12 @@ CREATE TABLE edicao (
     chave          TEXT,                      -- identificador da edição na fonte de origem ("1967_robertao")
     num_clubes     INTEGER,
     pontos_vitoria INTEGER,
+    pontos_empate  INTEGER,                   -- vazio = 1 (Marrocos e Taiti davam 2 pelo empate)
+    pontos_derrota INTEGER,                   -- vazio = 0 (Marrocos e Taiti davam 1 pela derrota)
     formato        TEXT,                      -- descrição curta: "pontos corridos, turno e returno"
     campeao_id     INTEGER REFERENCES clube(clube_id),
     vice_id        INTEGER REFERENCES clube(clube_id),
+    co_campeao_id  INTEGER REFERENCES clube(clube_id),   -- título dividido: o outro campeão (Paulista 1973, Carioca 1907; D-07)
     fontes         TEXT,
     observacao     TEXT,
     UNIQUE (competicao_id, temporada, chave)

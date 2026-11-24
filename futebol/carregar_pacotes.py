@@ -68,6 +68,11 @@ def apagar(b: sqlite3.Connection, cid: int) -> None:
 def carregar(b: sqlite3.Connection, slug: str) -> None:
     pasta = COLETA / slug / "pacote"
     comp = json.loads((pasta / "competicao.json").read_text(encoding="utf-8"))
+    if "co_campeao_id" not in {c[1] for c in b.execute("PRAGMA table_info(edicao)")}:   # banco anterior à D-07
+        b.execute("ALTER TABLE edicao ADD COLUMN co_campeao_id INTEGER REFERENCES clube(clube_id)")
+    for col in ("pontos_empate", "pontos_derrota"):   # banco anterior a 24/11 (pontuação 3-2-1, 4-2-1)
+        if col not in {c[1] for c in b.execute("PRAGMA table_info(edicao)")}:
+            b.execute(f"ALTER TABLE edicao ADD COLUMN {col} INTEGER")
     velho = b.execute("SELECT competicao_id FROM competicao WHERE slug = ?", (slug,)).fetchone()
     if velho:
         apagar(b, velho[0])
@@ -140,11 +145,12 @@ def carregar(b: sqlite3.Connection, slug: str) -> None:
     for r in ler(pasta, "edicoes.csv"):
         nome_of = r.get("nome_oficial") or None
         ed[r["temporada"]] = b.execute(
-            """INSERT INTO edicao (competicao_id, temporada, ano_inicio, ano_fim, nome_oficial, chave, num_clubes, pontos_vitoria, formato,
-                                   campeao_id, vice_id, fontes, observacao) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+            """INSERT INTO edicao (competicao_id, temporada, ano_inicio, ano_fim, nome_oficial, chave, num_clubes, pontos_vitoria, pontos_empate,
+                                   pontos_derrota, formato, campeao_id, vice_id, co_campeao_id, fontes, observacao)
+               VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
             (cid, r["temporada"], num(r["ano_inicio"]), num(r.get("ano_fim")), None if nome_of == comp["nome"] else nome_of, r["temporada"],
-             num(r.get("num_clubes")), num(r.get("pontos_vitoria")), r.get("formato") or None, cl(r.get("campeao")), cl(r.get("vice")),
-             r.get("fontes") or None, r.get("observacao") or None)).lastrowid
+             num(r.get("num_clubes")), num(r.get("pontos_vitoria")), num(r.get("pontos_empate")), num(r.get("pontos_derrota")), r.get("formato") or None, cl(r.get("campeao")), cl(r.get("vice")),
+             cl(r.get("co_campeao")), r.get("fontes") or None, r.get("observacao") or None)).lastrowid
     fase: dict[tuple, int] = {}
     for r in ler(pasta, "fases.csv"):
         fase[(r["temporada"], r["fase"])] = b.execute(

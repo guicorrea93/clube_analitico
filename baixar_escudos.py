@@ -163,7 +163,7 @@ OUTRAS_FONTES = {
     "Inter de Santa Maria": "https://cdn-img.staticzz.com/img/logos/equipas/3292_imgbank.png",                 # ogol: Inter SM
     "Perdigão": "https://images.seeklogo.com/logo-png/12/1/sociedade-esportiva-perdigao-de-videira-sc-logo-png_seeklogo-128734.png",  # SE Perdigão, Videira-SC
     "CEUB": "https://upload.wikimedia.org/wikipedia/commons/6/6d/CEUB.png",                                   # Commons: CEUB Esporte Clube
-    "Oeste": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Oeste_FC_Badge.svg/250px-Oeste_FC_Badge.svg.png",   # Commons: escudo do Oeste (a página virou Osasco Sporting)
+    "Oeste": "https://commons.wikimedia.org/wiki/Special:FilePath/Oeste_FC_Badge.svg?width=250",   # Commons: escudo do Oeste (a página e o ogol viraram Osasco Sporting); upload.wikimedia.org dava 429
     # Série B (20/11/2026): ogol, escudo do calendário da edição
     "Atlético-BA": "https://cdn-img.staticzz.com/img/logos/equipas/3128_imgbank_1683641721.png",
     "Estudantes": "https://cdn-img.staticzz.com/img/logos/equipas/16/18916_logo_estudantes.jpg",

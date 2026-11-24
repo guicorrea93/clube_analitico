@@ -79,7 +79,7 @@ COMPETICOES = {
 # bandeiras (data/worldcup_wikipedia/flags/<iso>.png, da parte da Copa do Mundo): código FIFA -> arquivo
 BANDEIRA = {"BRA": "br", "ARG": "ar", "URU": "uy", "CHI": "cl", "COL": "co", "PAR": "py", "PER": "pe", "ECU": "ec", "BOL": "bo", "VEN": "ve",
             "ENG": "gb-eng", "SCO": "gb-sct", "WAL": "gb-wls", "NIR": "gb-nir", "ESP": "es", "ITA": "it", "GER": "de", "FRA": "fr",
-            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us"}
+            "POR": "pt", "NED": "nl", "BEL": "be", "TUR": "tr", "MEX": "mx", "USA": "us", "EGY": "eg", "NZL": "nz", "JPN": "jp"}
 CONTINENTE = {"CONMEBOL": "América do Sul", "UEFA": "Europa", "CONCACAF": "América do Norte e Central", "CAF": "África",
               "AFC": "Ásia", "OFC": "Oceania"}
 GRUPO = {"liga": "Ligas", "copa": "Copas", "estadual": "Estaduais"}
@@ -115,7 +115,7 @@ def catalogo(dados: dict) -> list[dict]:
 
 
 # pacotes que o Guilherme liberou para o painel (pacote em andamento fica no banco, mas não aparece no seletor)
-LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1"}
+LIBERADAS = {"bra-serie-c", "bra-serie-d", "bra-copa-do-brasil", "bra-sp-1", "arg-1", "eng-1", "esp-1", "uru-1", "ita-1", "chi-1", "col-1", "ger-1", "par-1", "per-1", "ecu-1", "bra-sp-2", "bol-1", "por-1", "ned-1", "ven-1", "fra-1", "sco-1", "bra-rj-1", "egy-1", "nzl-1", "bel-1", "tur-1"}
 
 
 def competicoes_dos_pacotes() -> None:
@@ -215,12 +215,16 @@ def abrir(slug: str) -> sqlite3.Connection:
                       WHEN instr(e.temporada, ' ') > 0 THEN substr(e.temporada, instr(e.temporada, ' ') + 1)
                       ELSE (SELECT padrao FROM rotulo) END AS competicao_nome,
                  CASE WHEN e.formato = 'mata-mata' THEN 'mata' ELSE '' END AS tipo,
-                 e.pontos_vitoria, e.ano_inicio AS temporada_id, e.temporada, e.campeao_id IS NOT NULL AS tem_campeao, e.observacao, e.nome_oficial,
-                 coalesce(e.formato, '') LIKE 'jogos incompletos%' AS incompleta,   -- só parte dos jogos (ex.: Paulista A2 antiga)
-                 -- pontos corridos: tabela rodada a rodada, fase única e todo jogo com rodada (senão fica por fase)
+                 e.pontos_vitoria, coalesce(e.pontos_empate, 1) AS pontos_empate, coalesce(e.pontos_derrota, 0) AS pontos_derrota,
+                 e.ano_inicio AS temporada_id, e.temporada, e.campeao_id IS NOT NULL AS tem_campeao, e.observacao, e.nome_oficial,
+                 coalesce(e.formato, '') LIKE 'jogos incompletos%' AS incompleta,
+                 (SELECT nome FROM f.clube WHERE clube_id = e.co_campeao_id) AS co_campeao,   -- título dividido (D-07): o outro campeão   -- só parte dos jogos (ex.: Paulista A2 antiga)
+                 -- pontos corridos: tabela rodada a rodada, fase única e todo jogo com rodada (senão fica por fase);
+                 -- jogos-desempate (fase "Desempate...") ficam fora da tabela e não contam aqui (IT-018)
                  EXISTS (SELECT 1 FROM f.classificacao_rodada r WHERE r.edicao_id = e.edicao_id)
-                 AND (SELECT count(*) FROM f.fase x WHERE x.edicao_id = e.edicao_id) = 1
-                 AND NOT EXISTS (SELECT 1 FROM f.partida x WHERE x.edicao_id = e.edicao_id AND x.rodada IS NULL) AS moderna
+                 AND (SELECT count(*) FROM f.fase x WHERE x.edicao_id = e.edicao_id AND x.nome NOT LIKE 'Desempate%') = 1
+                 AND NOT EXISTS (SELECT 1 FROM f.partida x JOIN f.fase y ON y.fase_id = x.fase_id
+                                 WHERE x.edicao_id = e.edicao_id AND x.rodada IS NULL AND y.nome NOT LIKE 'Desempate%') AS moderna
           FROM f.edicao e WHERE e.competicao_id = {cid}
             -- edição vazia (ano sem campeonato, ou sem tabela e sem jogos na fonte) fica fora do painel
             AND (EXISTS (SELECT 1 FROM f.classificacao_final x WHERE x.edicao_id = e.edicao_id)
@@ -229,15 +233,16 @@ def abrir(slug: str) -> sqlite3.Connection:
         CREATE TABLE dim_fase_nacional_historica AS
           SELECT x.fase_id AS fase_nacional_id, x.edicao_id AS edicao_nacional_id, x.ordem AS fase_ordem, x.nome AS fase_nome,
                  x.tipo AS fase_tipo, x.num_grupos, x.formato_serie
-          FROM f.fase x JOIN dim_edicao_nacional d ON d.edicao_nacional_id = x.edicao_id WHERE NOT d.moderna;
+          FROM f.fase x JOIN dim_edicao_nacional d ON d.edicao_nacional_id = x.edicao_id WHERE NOT d.moderna OR x.nome LIKE 'Desempate%';
         CREATE TABLE fato_partida_nacional_historica AS
           SELECT p.fase_id AS fase_nacional_id, p.edicao_id AS edicao_nacional_id, d.temporada_id, p.mandante_id, p.visitante_id,
                  p.gols_mandante, p.gols_visitante, p.grupo, p.data, p.partida_id AS jogo, p.penaltis_mandante, p.penaltis_visitante
-          FROM f.partida p JOIN dim_edicao_nacional d ON d.edicao_nacional_id = p.edicao_id
-          WHERE NOT d.moderna AND p.gols_mandante IS NOT NULL;
+          FROM f.partida p JOIN dim_edicao_nacional d ON d.edicao_nacional_id = p.edicao_id JOIN f.fase y ON y.fase_id = p.fase_id
+          WHERE (NOT d.moderna OR y.nome LIKE 'Desempate%') AND p.gols_mandante IS NOT NULL;
         CREATE TABLE fato_partida AS
           SELECT d.temporada_id, p.rodada, p.mandante_id, p.visitante_id, p.gols_mandante, p.gols_visitante, p.data
-          FROM f.partida p JOIN dim_edicao_nacional d ON d.edicao_nacional_id = p.edicao_id WHERE d.moderna;
+          FROM f.partida p JOIN dim_edicao_nacional d ON d.edicao_nacional_id = p.edicao_id JOIN f.fase y ON y.fase_id = p.fase_id
+          WHERE d.moderna AND y.nome NOT LIKE 'Desempate%';
         CREATE TABLE fato_classificacao_final_nacional AS
           SELECT c.edicao_id AS edicao_nacional_id, c.clube_id, c.posicao,
                  c.jogos, c.vitorias, c.empates, c.derrotas, c.gols_pro, c.gols_contra, c.ajuste_pontos, c.situacao, c.pontos
@@ -338,11 +343,12 @@ def escudos(clubes: set[str]) -> dict[str, str]:
 
 def participacoes(con: sqlite3.Connection) -> tuple[list[dict], dict[str, list[list[int]]]]:
     """Edições em ordem (ano, competição, nº de clubes, se foi de pontos corridos) e, por clube, [índice da edição, posição final]."""
-    eds = con.execute("SELECT edicao_nacional_id, temporada_id, competicao_nome, moderna, temporada, pontos_vitoria FROM dim_edicao_nacional "
-                      "ORDER BY temporada_id, edicao_id").fetchall()
+    eds = con.execute("SELECT edicao_nacional_id, temporada_id, competicao_nome, moderna, temporada, pontos_vitoria, pontos_empate, pontos_derrota "
+                      "FROM dim_edicao_nacional ORDER BY temporada_id, edicao_id").fetchall()
     idx = {eid: i for i, (eid, *_) in enumerate(eds)}
     lista = [{"ano": ano, "comp": rotulo_ed(con, comp), "n": 0, "pc": bool(pc), "t": temporada_texto(t), "pv": pv or 3}
-             for _, ano, comp, pc, t, pv in eds]
+             | ({"pe": pe} if pe != 1 else {}) | ({"pd": pd} if pd else {})
+             for _, ano, comp, pc, t, pv, pe, pd in eds]
     part: dict[str, list[list[int]]] = {}
     for eid, clube, pos in con.execute(
         "SELECT f.edicao_nacional_id, cl.nome, f.posicao FROM fato_classificacao_final_nacional f JOIN dim_clube cl USING (clube_id)"
@@ -386,7 +392,9 @@ def corridas_jv(con: sqlite3.Connection) -> dict:
     nomes = {cid: nome(nm) for cid, nm in con.execute("SELECT clube_id, nome FROM dim_clube")}
     # nas edições modernas (pontos corridos) as partidas vêm por temporada
     ed_do_ano = {ano: eid for eid, ano in con.execute("SELECT edicao_nacional_id, temporada_id FROM dim_edicao_nacional WHERE moderna")}
-    partidas = list(con.execute("SELECT edicao_nacional_id, mandante_id, visitante_id, gols_mandante, gols_visitante FROM fato_partida_nacional_historica"))
+    partidas = list(con.execute("""SELECT h.edicao_nacional_id, h.mandante_id, h.visitante_id, h.gols_mandante, h.gols_visitante
+                                   FROM fato_partida_nacional_historica h JOIN dim_fase_nacional_historica x USING (fase_nacional_id)
+                                   WHERE x.fase_nome NOT LIKE 'Desempate%'"""))   # desempate fica fora da campanha da edição (IT-018)
     partidas += [(ed_do_ano[t], m, v, gm, gv) for t, m, v, gm, gv in con.execute(
         "SELECT temporada_id, mandante_id, visitante_id, gols_mandante, gols_visitante FROM fato_partida WHERE gols_mandante IS NOT NULL")]
     jogos = {c: [0] * len(eds) for c in nomes.values()}
@@ -456,18 +464,22 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     # ---- clubes (campanhas de 20+ jogos numa edição)
     j, v, e_, gp, gc = cjv["j"], cjv["v"], cjv["e"], cjv["gp"], cjv["gc"]
 
+    def pontos(i: int, jj: int, vv: int, ee: int) -> int:   # pontos da época (empate e derrota valem 1 e 0, salvo pe/pd)
+        x = edp[i]
+        return x["pv"] * vv + x.get("pe", 1) * ee + x.get("pd", 0) * (jj - vv - ee)
+
     def campanha(c: str, i: int) -> dict:
         jj, vv, ee = j[c][i], v[c][i], e_[c][i]
         return {"c": c, "ano": edp[i]["ano"], "t": edp[i]["t"], "j": jj, "v": vv, "e": ee, "d": jj - vv - ee, "gp": gp[c][i], "gc": gc[c][i],
-                "pts": edp[i]["pv"] * vv + ee, "ap": (edp[i]["pv"] * vv + ee) / (edp[i]["pv"] * jj)}   # pontos da época
+                "pts": pontos(i, jj, vv, ee), "ap": pontos(i, jj, vv, ee) / (edp[i]["pv"] * jj)}
 
     maior = max(max(xs) for xs in j.values())   # mais jogos de um clube numa edição (na Série D, menos de 30)
     min_camp, min_def = min(20, maior // 2), min(30, maior)
     camps = [campanha(c, i) for c in j for i in range(len(edp)) if j[c][i] >= min_camp]
     anos_tit = defaultdict(list)
     for x in ed:
-        if x["campeao"]:
-            anos_tit[x["campeao"]].append(x["ano"])
+        for c in filter(None, (x["campeao"], x.get("co"))):   # título dividido (D-07) conta para os dois
+            anos_tit[c].append(x["ano"])
     seguidas = (0, "", 0, 0)   # temporadas seguidas: anos em que a competição houve, sem faltar a nenhum
     anos_comp = sorted({x["ano"] for x in edp})
     k_ano = {a: k for k, a in enumerate(anos_comp)}
@@ -515,7 +527,7 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     for i, x in enumerate(ed):
         if edp[i]["pc"] and x["campeao"] and x.get("vice") and x["campeao"] in j and j[x["campeao"]][i]:   # edição sem jogos fica de fora
             k, vc = campanha(x["campeao"], i), x["vice"]
-            pc.append({**k, "vice": vc, "vant": k["pts"] - (edp[i]["pv"] * v[vc][i] + e_[vc][i]), "n": edp[i]["n"]})
+            pc.append({**k, "vice": vc, "vant": k["pts"] - pontos(i, j[vc][i], v[vc][i], e_[vc][i]), "n": edp[i]["n"]})
     menor_vant = min((x["vant"] for x in pc), default=0)
     pc20 = [x for x in pc if x["n"] == 20]
     vices = Counter(x["vice"] for x in ed if x.get("vice"))
@@ -523,10 +535,10 @@ def curiosidades(con: sqlite3.Connection, ed: list[dict], edp: list[dict], part:
     por_uf: dict[str, Counter] = defaultdict(Counter)
     decadas: dict[int, set] = defaultdict(set)
     for x in ed:
-        if x["campeao"]:
-            if uf.get(x["campeao"]):   # clube sem estado (liga estrangeira) fica de fora (ES-010, EN-012)
-                por_uf[uf[x["campeao"]]][x["campeao"]] += 1
-            decadas[x["ano"] // 10 * 10].add(x["campeao"])
+        for c in filter(None, (x["campeao"], x.get("co"))):   # título dividido (D-07) conta para os dois
+            if uf.get(c):   # clube sem estado (liga estrangeira) fica de fora (ES-010, EN-012)
+                por_uf[uf[c]][c] += 1
+            decadas[x["ano"] // 10 * 10].add(c)
     campeoes = {
         "seq": quatro(seq),
         "jejum": quatro(max((b - a, c, a, b) for c, xs in anos_tit.items() for a, b in zip(xs, xs[1:]))),
@@ -576,7 +588,15 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
             "SELECT fase_nacional_id, edicao_nacional_id, fase_ordem, fase_nome, fase_tipo, num_grupos, formato_serie FROM dim_fase_nacional_historica"):
         fases[idx[eid]].append((ordem, fn, ft, fs, ng, fid))
     jogos = defaultdict(list)   # edição -> [(chave de ordem, grupo, m, v, gm, gv, subgrupo)]
-    ordem_fase = {f[5]: (i, k) for i, fs in fases.items() for k, f in enumerate(sorted(fs))}
+    # edição de pontos corridos: os desempates vêm depois das rodadas (grupo = nº de rodadas + ordem da fase)
+    ult_rod = dict(con.execute("SELECT temporada_id, max(rodada) FROM fato_classificacao_rodada GROUP BY 1"))
+    desloc = {idx[eid]: ult_rod.get(ano, 0) for eid, _, _, _, _, ano, moderna in eds if moderna}
+    ordem_fase = {f[5]: (i, k + desloc.get(i, 0)) for i, fs in fases.items() for k, f in enumerate(sorted(fs))}
+    extra = defaultdict(set)   # edição -> grupos que são desempate (fora da tabela, da corrida e das contas da edição)
+    for i, fs in fases.items():
+        for k, f in enumerate(sorted(fs)):
+            if f[1].startswith("Desempate"):
+                extra[i].add(k + desloc.get(i, 0))
     pen: dict[tuple, str] = {}   # (edição, ordem, m, v, gm, gv, grupo) -> "4-3" (pênaltis, do ponto de vista do mandante)
     for fid, m, v, gm, gv, grupo, data, jogo, pm, pv_ in con.execute(
             """SELECT fase_nacional_id, mandante_id, visitante_id, gols_mandante, gols_visitante, grupo, data, jogo,
@@ -631,6 +651,9 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
         "SELECT edicao_nacional_id, tem_campeao, observacao FROM dim_edicao_nacional") if not tem}
     # edição com só parte dos jogos: a tabela é a da fonte (como nas edições sem jogos), não a soma dos jogos que temos
     incompletas = {idx[eid] for eid, inc in con.execute("SELECT edicao_nacional_id, incompleta FROM dim_edicao_nacional") if inc}
+    fechados = Counter()   # linhas em que o ajuste foi refeito para dar os pontos oficiais
+    comp_slug = "pontos oficiais"
+    co_ed = {idx[eid]: nome(c) for eid, c in con.execute("SELECT edicao_nacional_id, co_campeao FROM dim_edicao_nacional WHERE co_campeao IS NOT NULL")}   # D-07
     saida = []
     for i, (_, chave, comp, tipo, pv, ano, _) in enumerate(eds):
         do_i = [c for c, ps in part.items() for k, _ in ps if k == i]
@@ -652,11 +675,22 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
                          key=lambda r: r[1])
         for r in tab:
             r.append(ajuste.get((i, r[0]), 0))   # r[8]: pontos ganhos ou perdidos no tribunal
+        pe, pd = edp[i].get("pe", 1), edp[i].get("pd", 0)
+        if da_fonte and pv:   # tabela da fonte com pontos oficiais (ponto por gol, shootout, 3-2-1): o ajuste fecha a conta
+            for r in tab:
+                pp = pontos_pub.get((i, r[0]))
+                if pp is not None and (publicada.get((i, r[0])) or [None])[0] is not None:
+                    conta = pv * r[3] + pe * r[4] + pd * r[5]
+                    if conta + r[8] != pp:
+                        r[8] = pp - conta
+                        fechados[comp_slug] += 1
         if da_fonte:   # tabela parcial da fonte (só posição e pontos, ou só campeão e vice): r[9] pontos publicados, r[10] = 1
             for r in tab:
                 if (publicada.get((i, r[0])) or [None])[0] is None:
                     r += [pontos_pub.get((i, r[0])), 1]
         ci = {r[0]: k for k, r in enumerate(tab)}
+        xj = sorted(x for x in jogos[i] if x[1] in extra[i])   # desempates: só na aba Jogos
+        jogos[i] = [x for x in jogos[i] if x[1] not in extra[i]]
         fora = sorted({x for _, _, m, vv, *_ in jogos[i] for x in (m, vv)} - ci.keys())
         if fora:   # jogou e não está na classificação final do pacote: entra no fim, sem posição nem números
             print(f"  aviso: {chave}: clubes com jogos e fora da classificação final: {', '.join(fora)}")
@@ -666,8 +700,11 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
         js = sorted(jogos[i])
         if i in rodadas:
             n_rod = max(max(rs) for rs in rodadas[i].values())
-            grupos = [f"Rodada {r}" for r in range(1, n_rod + 1)]
+            grupos = [f"Rodada {r}" for r in range(1, n_rod + 1)] + [f[1] for f in sorted(fases[i])]   # + desempates
             disputa = [["Pontos corridos", "liga", "pontos_corridos", 1, len(js), len(tab)]]
+            for k, (_, fn, ft, fsr, ng, _) in enumerate(sorted(fases[i])):
+                jk = [x for x in xj if x[1] == n_rod + k]
+                disputa.append([fn, ft, fsr, ng or 1, len(jk), len({x[2] for x in jk} | {x[3] for x in jk})])
             cl = sorted(rodadas[i], key=lambda c: ci[c])
             zf = zona_final[i]
             faixas = []   # posições seguidas na mesma zona (o meio da tabela fica sem faixa)
@@ -686,17 +723,21 @@ def edicoes_detalhe(con: sqlite3.Connection, edp: list[dict], part: dict, cjv: d
             grupos = [f[1] for f in fs]
             disputa = []
             for k, (_, fn, ft, fsr, ng, _) in enumerate(fs):
-                jk = [x for x in js if x[1] == k]
+                jk = [x for x in js + xj if x[1] == k]
                 disputa.append([fn, ft, fsr, ng or 1, len(jk), len({x[2] for x in jk} | {x[3] for x in jk})])
             corrida = None
         nof = nome_of.get(eds[i][0])   # nome oficial da época ("Premier League", "First Division"), quando não tem o ano no meio (EN-015)
         saida.append({"id": chave, "ano": edp[i]["ano"], "t": edp[i]["t"], "nome": nof if nof and not any(ch.isdigit() for ch in nof) else comp, "mata": tipo == "mata" or tipo_comp == "copa",
-                      "pv": pv, "nota": notas(con).get(chave, "") or ("" if sem_tit.get(i) is None else "Sem campeão: " + sem_tit[i] + "."), "est": estreia.get(i, 0), "j": len(js),
-                      "g": sum(x[4] + x[5] for x in js), "gol": goleada.get(i, (None, None))[1], "tab": tab,
+                      "pv": pv, "nota": notas(con).get(chave, "") or ("" if sem_tit.get(i) is None else "Sem campeão: " + sem_tit[i] + "."), "est": estreia.get(i, 0), "j": len(js) + len(xj),
+                      "g": sum(x[4] + x[5] for x in js + xj), "gol": goleada.get(i, (None, None))[1], "tab": tab,
                       "grupos": grupos, "disputa": disputa, "jogos": [[g, ci[m], ci[vv], a, b, sg] + ([pen[(i, o)]] if (i, o) in pen else []) for o, g, m, vv, a, b, sg in js],
                       "cor": corrida, "art": sorted(artilheiros[i], key=lambda x: (-x[2], x[0]))[:10], "artof": oficiais[i][:10], "ac": sorted(subiu[i]) if tem_acesso else None,
                       "cob": round(sum(x[2] for x in artilheiros[i]) / max(1, sum(x[4] + x[5] for x in js)), 2)}
-                     | ({"inc": 1} if i in incompletas else {}))
+                     | ({"inc": 1} if i in incompletas else {}) | ({"co": co_ed[i]} if i in co_ed else {})
+                     | ({"pe": pe} if pe != 1 else {}) | ({"pd": pd} if pd else {})
+                     | ({"xj": [[g, m, vv, a, b, sg] + ([pen[(i, o)]] if (i, o) in pen else []) for o, g, m, vv, a, b, sg in xj]} if xj else {}))
+    if fechados:
+        print(f"  pontos oficiais da fonte no lugar da conta: {fechados[comp_slug]} linhas")
     return saida
 
 
@@ -729,7 +770,7 @@ def cartoes(eds: list[dict], edp: list[dict], part: dict, jogos: int, total_gols
     com_jogos = com_jogos or len(eds)
     itens = [
         (milhar(len(eds)), "Edições", f"de {eds[0].get('t') or eds[0]['ano']} a {eds[-1].get('t') or eds[-1]['ano']}"),
-        (dif("campeao"), "Campeões", "clubes diferentes"),
+        (len({c for e in eds for c in (e.get("campeao"), e.get("co")) if c}), "Campeões", "clubes diferentes"),
         (dif("vice"), "Vices", "clubes diferentes"),
         (dif("terceiro"), "Terceiros", "clubes diferentes"),
         (milhar(len(part)), "Participantes", "clubes diferentes"),
@@ -824,19 +865,28 @@ def campeoes(con: sqlite3.Connection) -> list[dict]:
     """Uma linha por edição: ano, competição, campeão, vice e 3º colocado."""
     linhas = con.execute(
         """
-        SELECT e.temporada_id, e.edicao_id, e.competicao_nome, f.posicao, cl.nome, e.temporada, e.tem_campeao, e.observacao
+        SELECT e.temporada_id, e.edicao_id, e.competicao_nome, f.posicao, cl.nome, e.temporada, e.tem_campeao, e.observacao, e.co_campeao
         FROM fato_classificacao_final_nacional f
         JOIN dim_edicao_nacional e USING (edicao_nacional_id)
         JOIN dim_clube cl USING (clube_id)
-        WHERE f.posicao <= 3
+        WHERE f.posicao <= 4
         ORDER BY e.temporada_id, e.edicao_id, f.posicao
         """
     ).fetchall()
     edicoes: dict[str, dict] = {}
-    for ano, edicao, comp, pos, clube, temporada, tem_campeao, obs in linhas:
+    for ano, edicao, comp, pos, clube, temporada, tem_campeao, obs, co in linhas:
         e = edicoes.setdefault(edicao, {"ano": ano, "t": temporada_texto(temporada), "comp": rotulo_ed(con, comp),
                                         "nota": notas(con).get(edicao, "") or ("" if tem_campeao else "Sem campeão: " + (obs or "título não atribuído") + ".")})
-        e[{1: "campeao", 2: "vice", 3: "terceiro"}[pos]] = nome(clube) if pos > 1 or tem_campeao else None   # título tirado ou não disputado
+        if co:   # título dividido (D-07): o outro campeão não é vice; quem vem depois dele sobe uma posição
+            e["co"] = nome(co)
+            if clube == co:
+                e["_pula"] = 1
+                continue
+            pos -= e.get("_pula", 0)
+        if pos <= 3:
+            e[{1: "campeao", 2: "vice", 3: "terceiro"}[pos]] = nome(clube) if pos > 1 or tem_campeao else None   # título tirado ou não disputado
+    for e in edicoes.values():
+        e.pop("_pula", None)
     return list(edicoes.values())
 
 
@@ -1063,6 +1113,7 @@ svg.foco .cr-linha.ativo{stroke-width:4.5}
 .cp-nota{margin:10px 0 0;font-size:13px;color:var(--muted)}
 .podio{display:flex;align-items:flex-end;justify-content:center;gap:16px;margin-top:18px}
 .pd{display:flex;flex-direction:column;align-items:center;gap:6px;width:200px;min-width:0;text-align:center}
+.podio.dividido .pd{width:170px}
 .pd .cp-esc{width:72px;height:72px;padding:10px}
 .pd1 .cp-esc{width:100px;height:100px;padding:14px}
 .pd b{font-size:16px;font-weight:900;color:var(--text);max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -1100,7 +1151,8 @@ span.cp-esc{display:inline-block}
 .mv.novo,.mv.vet{display:inline-block;margin-left:6px;padding:1px 7px;border-radius:999px;font-size:11px;font-weight:900;letter-spacing:.03em}
 .mv.novo{color:#0b2616;background:#32d57f}.mv.vet{color:#2a1d00;background:#f5c518}
 .cp-tab tbody tr:hover td{background:color-mix(in srgb,var(--accent) 8%,transparent)}
-@media (max-width:640px){.pd{width:110px}.pd .cp-esc{width:52px;height:52px;padding:7px}.pd1 .cp-esc{width:66px;height:66px;padding:9px}.pd b{font-size:13px}.pd1 b{font-size:14px}}
+@media (max-width:640px){.pd{width:110px}.pd .cp-esc{width:52px;height:52px;padding:7px}.pd1 .cp-esc{width:66px;height:66px;padding:9px}.pd b{font-size:13px}.pd1 b{font-size:14px}
+  .podio.dividido{gap:6px}.podio.dividido .pd{width:84px}.podio.dividido .pd1 .cp-esc{width:56px;height:56px;padding:8px}.podio.dividido .pd b{font-size:12px}}
 .cr-faixa{opacity:.10}
 .cr-faixa.titulo{fill:#f5c518;opacity:.16}.cr-faixa.libertadores{fill:var(--accent)}.cr-faixa.sula{fill:#4aa3df}.cr-faixa.rebaixamento{fill:#ef4444;opacity:.12}.cr-faixa.acesso{fill:var(--accent)}
 .cp-legenda-faixa i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
@@ -1326,7 +1378,7 @@ const cor = n => CORES[n] || ['#1ecb74', '#0b2616'];
 // texto legível sobre a cor do clube
 const luz = h => { const n = parseInt(h.slice(1), 16); return ((n >> 16) * 299 + ((n >> 8) & 255) * 587 + (n & 255) * 114) / 1000; };
 const MEDALHA = { ouro: 'campeão', prata: 'vice', bronze: '3º lugar' };
-const medalha = (i, c) => !ED[i] ? '' : ED[i].campeao === c ? 'ouro' : ED[i].vice === c ? 'prata' : ED[i].terceiro === c ? 'bronze' : '';
+const medalha = (i, c) => !ED[i] ? '' : ED[i].campeao === c || ED[i].co === c ? 'ouro' : ED[i].vice === c ? 'prata' : ED[i].terceiro === c ? 'bronze' : '';
 const claro = h => luz(h) > 150, escuro = h => luz(h) < 40;
 // 'São Paulo' -> 'sao-paulo' (vai no endereço da aba Por clube)
 // ⫽ no eixo onde a competição ficou 3 anos ou mais sem edição (a Série A pula de 1937 para 1959)
@@ -1339,18 +1391,21 @@ const seguir = (svg, x) => { const r = svg.parentElement, vb = svg.viewBox && sv
 const anoT = x => x.t || x.ano;
 // sem coluna de pontos: mata-mata e edição de várias fases (a soma de todos os jogos não é a pontuação oficial; decisão de 20/11/2026)
 const semPts = e => e.mata || e.disputa.length > 1;
+const ptsE = (e, v, em, d) => e.pv * v + (e.pe ?? 1) * em + (e.pd ?? 0) * d;   // empate e derrota valem 1 e 0, salvo pe/pd (Marrocos 3-2-1, Taiti 4-2-1)
 const slugClube = c => c.normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');   // contorno do vice: cor quase preta some no fundo escuro, usa a segunda cor
 function desenhar() {
   // t = títulos, v = vices, r = 3º lugares
   const por = new Map(), ver = c => { if (!por.has(c)) por.set(c, { t: [], v: [], r: [] }); return por.get(c); };
-  for (const e of ED) { if (e.campeao) ver(e.campeao).t.push(e); if (e.vice) ver(e.vice).v.push(e); if (e.terceiro) ver(e.terceiro).r.push(e); }
+  for (const e of ED) { if (e.campeao) ver(e.campeao).t.push(e); if (e.co) ver(e.co).t.push(e); if (e.vice) ver(e.vice).v.push(e); if (e.terceiro) ver(e.terceiro).r.push(e); }
   // mais títulos; empate: mais vices; depois mais 3º; depois quem subiu ao pódio primeiro
   const primeiro = x => Math.min(...x.t.map(e => e.ano), ...x.v.map(e => e.ano), ...x.r.map(e => e.ano));
   const clubes = [...por].sort((a, b) => b[1].t.length - a[1].t.length || b[1].v.length - a[1].v.length || b[1].r.length - a[1].r.length
     || primeiro(a[1]) - primeiro(b[1]) || a[0].localeCompare(b[0], 'pt-BR'));
   let k = 0;
-  const QUEM = { t: (c, e) => c + ' campeão; vice: ' + (e.vice || '—'), v: (c, e) => c + ' vice; campeão: ' + e.campeao,
-                 r: (c, e) => c + ' 3º lugar; campeão: ' + e.campeao + ', vice: ' + (e.vice || '—') };
+  const camps = e => e.campeao + (e.co ? ' e ' + e.co : '');   // título dividido (D-07)
+  const QUEM = { t: (c, e) => c + ' campeão' + (e.co ? ' (dividido com ' + (c === e.co ? e.campeao : e.co) + ')' : '') + '; vice: ' + (e.vice || '—'),
+                 v: (c, e) => c + ' vice; campeão: ' + camps(e),
+                 r: (c, e) => c + ' 3º lugar; campeão: ' + camps(e) + ', vice: ' + (e.vice || '—') };
   const bloco = (c, e, tipo) => { const [c1, c2] = cor(c), borda = claro(c1) || !escuro(c1) ? c1 : c2;
     return '<span class="bloco' + (tipo === 'v' ? ' vice' : tipo === 'r' ? ' terc' : '') + (e.comp ? ' antigo' : '') + '" style="--c1:' + c1 + ';--c2:' + c2 + ';--borda:' + borda + ';--fg:' + (claro(c1) ? '#111' : '#fff') +
       ';--risca:' + (claro(c1) ? 'rgba(0,0,0,.22)' : 'rgba(255,255,255,.22)') + ';animation-delay:' + Math.min(k++ * 3, 600) + 'ms"' +
@@ -1392,14 +1447,15 @@ document.addEventListener('click', ev => {
   let clubes = [], val = {}, pos = {}, inicio = {}, el = {}, anoG = null, fixo = null, chaveAtual = 'campeao';
   function montar(chave) {
     chaveAtual = chave;
-    clubes = [...new Set(ED.map(e => e[chave]).filter(Boolean))];
+    const quem = e => chave === 'campeao' ? [e.campeao, e.co].filter(Boolean) : e[chave] ? [e[chave]] : [];   // título dividido conta para os dois
+    clubes = [...new Set(ED.flatMap(quem))];
     const R = clubes.length, H = MT + MB + (R - 1) * PASSO;
     // val[c][i]: quantos até anos[i]; pos[c][i]: posição no ranking (só quem já tem algum).
     // Empate: fica na frente quem chegou primeiro àquele número.
     const cont = {}, quando = {}; val = {}; pos = {};
     for (const c of clubes) { val[c] = []; pos[c] = []; cont[c] = 0; }
     anos.forEach((a, i) => {
-      for (const e of ED) if (e.ano === a && e[chave]) { cont[e[chave]]++; quando[e[chave]] = i; }
+      for (const e of ED) if (e.ano === a) for (const c of quem(e)) { cont[c]++; quando[c] = i; }
       for (const c of clubes) val[c][i] = cont[c];
       clubes.filter(c => cont[c] > 0).sort((x, y) => cont[y] - cont[x] || quando[x] - quando[y] || x.localeCompare(y, 'pt-BR'))
         .forEach((c, k) => { pos[c][i] = k + 1; });
@@ -1847,7 +1903,7 @@ function corridaPosicoes(id, medalhas) {
       bloco('Placares mais comuns · mandante × visitante', '<div class="cu-placar">' + placar + '</div>') + '</div>';
   }
   function parteClubes() {
-    const x = CL, lt = x.lanterna, ltTit = lt.c.filter(c => ED.some(e => e.campeao === c));
+    const x = CL, lt = x.lanterna, ltTit = lt.c.filter(c => ED.some(e => e.campeao === c || e.co === c));
     return cartoes([
       cartao('Mais temporadas seguidas', um(x.seguidas.c, x.seguidas.n, 'temporadas sem faltar'), B(x.seguidas.c) + ' · de ' + x.seguidas.de + ' a ' + x.seguidas.ate),
       cartao('Mais edições sem título', um(x.sem_titulo.c, x.sem_titulo.n, 'edições sem ser campeão'), B(x.sem_titulo.c)),
@@ -1858,7 +1914,7 @@ function corridaPosicoes(id, medalhas) {
       cartao('Mais derrotas numa edição', um(x.der.c, x.der.d, 'derrotas em ' + x.der.j + ' jogos'), B(x.der.c) + ' · ' + x.der.ano),
       cartao('Pior campanha', um(x.pior.c, pct(x.pior.ap), 'de aproveitamento'), B(x.pior.c) + ' · ' + x.pior.ano + ' · ' + campanha(x.pior)),
       cartao('Mais vezes em último', varios(lt.c, lt.n, 'vezes lanterna'),
-        lt.c.map(c => B(c) + (ltTit.includes(c) ? ' · e também já foi campeão (' + ED.filter(e => e.campeao === c).map(e => e.ano).join(', ') + ')' : '')).join('<br>')),
+        lt.c.map(c => B(c) + (ltTit.includes(c) ? ' · e também já foi campeão (' + ED.filter(e => e.campeao === c || e.co === c).map(e => e.ano).join(', ') + ')' : '')).join('<br>')),
       cartao('Maior tempo fora', um(x.volta.c, x.volta.n, 'anos sem jogar'), B(x.volta.c) + ' · jogou em ' + x.volta.de + ' e só voltou em ' + x.volta.ate),
       cartao('Uma vez e nunca mais', um(null, x.uma_vez, 'clubes jogaram uma só edição'), 'de ' + Object.keys(PART).length + ' clubes que já disputaram ' + CONF.o),
     ]);
@@ -1940,7 +1996,7 @@ function corridaPosicoes(id, medalhas) {
   function mostrar(id) {
     if (id !== atual) { todos = false; grupoJ = EDS[IDX[id]].grupos.length - 1; }
     atual = id; sel.value = id; if (sel.sincronizar) sel.sincronizar();
-    const i = IDX[id], e = EDS[i], g = e.gol, t = e.tab, tp = t.filter(r => r[1] != null), pts = r => r[10] ? (r[9] ?? '—') : e.pv * r[3] + r[4] + (r[8] || 0);   // r[8]: punição/bônus; r[10]: linha parcial da fonte; tp: sem quem jogou e ficou fora da classificação
+    const i = IDX[id], e = EDS[i], g = e.gol, t = e.tab, tp = t.filter(r => r[1] != null), pts = r => r[10] ? (r[9] ?? '—') : ptsE(e, r[3], r[4], r[5]) + (r[8] || 0);   // r[8]: punição/bônus; r[10]: linha parcial da fonte; tp: sem quem jogou e ficou fora da classificação
     document.getElementById('cp-ant').disabled = i === 0; document.getElementById('cp-prox').disabled = i === EDS.length - 1;
     document.getElementById('cp-titulo').textContent = anoT(e) + ' · ' + e.nome;
     document.getElementById('cp-cartoes').innerHTML = [
@@ -1950,15 +2006,19 @@ function corridaPosicoes(id, medalhas) {
       kpi(e.j ? fmtN(e.g) : '—', 'Gols', e.inc ? 'nos jogos registrados' : 'marcados na edição'),
       kpi(e.j ? dec(e.g / e.j) : '—', 'Gols por jogo', 'média da história: ' + dec(MEDIA)),
       g ? kpi(g.gm + ' × ' + g.gv, 'Maior goleada', esc(g.m) + ' × ' + esc(g.v)) : kpi('—', 'Maior goleada', 'sem jogos nesta edição'),
-      e.mata ? kpi(e.disputa.length, e.disputa.length === 1 ? 'Fase' : 'Fases', 'na edição') : kpi(e.pv, 'Pontos por vitória', 'empate vale 1'),
+      e.mata ? kpi(e.disputa.length, e.disputa.length === 1 ? 'Fase' : 'Fases', 'na edição') : kpi(e.pv, 'Pontos por vitória', 'empate vale ' + (e.pe ?? 1) + (e.pd ? ', derrota ' + e.pd : '')),
     ].join('');
     const nota = document.getElementById('cp-nota'); nota.textContent = e.nota; nota.hidden = !e.nota;
     // pódio: 2º, 1º, 3º
     const cl = (r, k) => r ? '<div class="pd pd' + k + '">' + escudo(r[0]) + '<b>' + esc(r[0]) + '</b><small>' + (r[10] ? (r[9] != null ? r[9] + ' pontos' : '') : r[3] + ' V · ' + r[4] + ' E · ' + r[5] + ' D') + '</small><div class="degrau">' + k + 'º</div></div>' : '';
-    document.getElementById('cp-podio').innerHTML = '<div class="podio">' + cl(tp[1], 2) + cl(tp[0], 1) + cl(tp[2], 3) + '</div>';
+    // título dividido (D-07): os dois campeões no degrau do meio; quem vem depois sobe uma posição
+    const co = e.co ? tp.find(r => r[0] === e.co) : null, resto = tp.filter(r => r !== co), med = new Map(resto.slice(0, 3).map((r, k) => [r[0], k + 1]));
+    if (co) med.set(co[0], 1);
+    document.getElementById('cp-podio').innerHTML = co ? '<div class="podio dividido">' + cl(resto[1], 2) + cl(resto[0], 1) + cl(co, 1) + cl(resto[2], 3) + '</div>'
+      : '<div class="podio">' + cl(tp[1], 2) + cl(tp[0], 1) + cl(tp[2], 3) + '</div>';
     // classificação final
     const linhas = (todos ? t : t.slice(0, TOP)).map(r => { const [c, pos] = r, [J, V, E, D, GP, GC] = r[10] ? Array(6).fill('—') : r.slice(2, 8), sg = r[10] ? NaN : GP - GC;
-      return '<tr class="' + (pos != null && pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + (pos == null ? '—' : pos + 'º') + '</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
+      return '<tr class="' + (co ? (med.has(c) ? 'p' + med.get(c) : '') : pos != null && pos <= 3 ? 'p' + pos : '') + '"><td class="pos">' + (pos == null ? '—' : pos + 'º') + '</td><td class="clube"><a class="cl-link" href="#clube/resumo/' + slugClube(c) + '">' + escudo(c) + esc(c) + '</a></td>' +
         (semPts(e) ? '' : '<td class="pts">' + pts(r) + '</td>') + '<td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
         '<td class="' + (sg < 0 ? 'neg' : '') + '">' + (isNaN(sg) ? '—' : sinal(sg)) + '</td></tr>'; }).join('');
     document.getElementById('cp-tabela').innerHTML = '<div class="cp-rolar"><table class="cp-tab"><thead><tr><th></th><th>Clube</th>' + (semPts(e) ? '' : '<th title="vitória = ' + e.pv + ' pontos">Pts</th>') +
@@ -2026,13 +2086,13 @@ function corridaPosicoes(id, medalhas) {
     const vit = melhor(t, r => r[3]), emp = melhor(t, r => r[4]), lant = t[t.length - 1];
     const mais = J.length ? J.reduce((a, x) => x[3] + x[4] > a[3] + a[4] ? x : a, J[0]) : null;   // edição sem jogos: tabela anual
     const m = J.filter(x => x[3] > x[4]).length / J.length, em = J.filter(x => x[3] === x[4]).length / J.length;
-    const pts = r => e.pv * r[3] + r[4] + (r[8] || 0), art = (e.artof && e.artof[0]) || (e.cob >= 0.9 ? e.art[0] : null);   // oficial; senão, só se quase todos os gols têm autor
+    const pts = r => ptsE(e, r[3], r[4], r[5]) + (r[8] || 0), art = (e.artof && e.artof[0]) || (e.cob >= 0.9 ? e.art[0] : null);   // oficial; senão, só se quase todos os gols têm autor
     // melhor mandante e melhor visitante: maior aproveitamento jogando em casa / fora
     // (só quem fez pelo menos metade dos jogos do que mais jogou ali; empate, mais pontos)
     const lado = qual => { const c = t.map(() => [0, 0, 0]);   // jogos, vitórias, empates
       for (const [, mi, vi, gm, gv] of J) { const k = qual === 'm' ? mi : vi, a = qual === 'm' ? gm : gv, b = qual === 'm' ? gv : gm;
         c[k][0]++; if (a > b) c[k][1]++; else if (a === b) c[k][2]++; }
-      const mx = Math.max(...c.map(x => x[0])), pt = x => e.pv * x[1] + x[2];
+      const mx = Math.max(...c.map(x => x[0])), pt = x => ptsE(e, x[1], x[2], x[0] - x[1] - x[2]);
       let k = -1; c.forEach((x, i) => { if (x[0] < mx / 2) return;
         if (k < 0 || pt(x) / x[0] > pt(c[k]) / c[k][0] || (pt(x) / x[0] === pt(c[k]) / c[k][0] && pt(x) > pt(c[k]))) k = i; });
       const x = c[k]; return { c: t[k][0], j: x[0], v: x[1], e: x[2], d: x[0] - x[1] - x[2], pts: pt(x), ap: pt(x) / (e.pv * x[0]) }; };
@@ -2067,11 +2127,12 @@ function corridaPosicoes(id, medalhas) {
     jsel.value = grupoJ; document.getElementById('cpj-ant').disabled = grupoJ === 0; document.getElementById('cpj-prox').disabled = grupoJ === e.grupos.length - 1;
     const t = e.tab, lado = (c, cls) => '<span class="' + cls + '">' + (cls === 'm' ? esc(c) + escP(c, true) : escP(c, true) + esc(c)) + '</span>';
     let sub = null, html = '';
-    for (const [g, mi, vi, gm, gv, sg, pen] of e.jogos) { if (g !== grupoJ) continue;
+    const lista = e.jogos.map(([g, mi, vi, ...r]) => [g, t[mi][0], t[vi][0], ...r]).concat(e.xj || []);   // xj: desempates, fora da tabela
+    for (const [g, cm, cv, gm, gv, sg, pen] of lista) { if (g !== grupoJ) continue;
       if (sg !== sub) { if (sub !== null) html += '</div>'; html += (sg ? '<h3 class="cp-subgrupo">' + (/^grupo\b/i.test(sg) ? '' : 'Grupo ') + esc(sg) + '</h3>' : '') + '<div class="cp-jogos">'; sub = sg; }
       const [pm, pv] = pen ? pen.split('-').map(Number) : [0, 0], ganha = gm !== gv ? gm > gv : pm > pv;   // empate decidido nos pênaltis
-      html += '<div class="cp-jogo' + (gm === gv && !pen ? '' : ganha ? ' vm' : ' vv') + '">' + lado(t[mi][0], 'm') + '<b>' + gm + ' × ' + gv +
-        (pen ? '<small class="pen">pên. ' + pm + ' × ' + pv + '</small>' : '') + '</b>' + lado(t[vi][0], 'v') + '</div>'; }
+      html += '<div class="cp-jogo' + (gm === gv && !pen ? '' : ganha ? ' vm' : ' vv') + '">' + lado(cm, 'm') + '<b>' + gm + ' × ' + gv +
+        (pen ? '<small class="pen">pên. ' + pm + ' × ' + pv + '</small>' : '') + '</b>' + lado(cv, 'v') + '</div>'; }
     document.getElementById('cpj-lista').innerHTML = (html || '<p class="cp-nota">Sem jogos registrados.</p>') + (sub !== null ? '</div>' : '');
   }
   jsel.addEventListener('change', () => { grupoJ = +jsel.value; jogos(EDS[IDX[atual]]); });
@@ -2094,7 +2155,7 @@ function corridaPosicoes(id, medalhas) {
       for (const [g, mi, vi, gm, gv, sg, pen] of e.jogos) {
         if (gm == null || (mi !== eu && vi !== eu)) continue;
         const casa = mi === eu, adv = casa ? vi : mi, meus = casa ? gm : gv, deles = casa ? gv : gm;
-        pts[adv] = (pts[adv] || 0) + (meus > deles ? e.pv : meus === deles ? 1 : 0);
+        pts[adv] = (pts[adv] || 0) + (meus > deles ? e.pv : meus === deles ? (e.pe ?? 1) : (e.pd ?? 0));
         (js[adv] = js[adv] || []).push(meus + ' × ' + deles + (casa ? ' em casa' : ' fora') + (pen ? ' (pênaltis)' : '') + ' · ' + e.grupos[g]);
       }
       return [pts, js]; };
@@ -2190,7 +2251,7 @@ function corridaPosicoes(id, medalhas) {
   const MED = { ouro: 'campeão', prata: 'vice', bronze: '3º lugar' };
 
   function cabecalho(c, cs) {
-    const x = VITc[c], tit = ED.map((e, i) => [e, i]).filter(([e]) => e.campeao === c), vic = ED.filter(e => e.vice === c), ter = ED.filter(e => e.terceiro === c);
+    const x = VITc[c], tit = ED.map((e, i) => [e, i]).filter(([e]) => e.campeao === c || e.co === c), vic = ED.filter(e => e.vice === c), ter = ED.filter(e => e.terceiro === c);
     document.getElementById('cl-escudo').innerHTML = escP(c);
     document.getElementById('cl-titulo').textContent = c;
     document.getElementById('cl-cartoes').innerHTML = [
@@ -2260,8 +2321,8 @@ function corridaPosicoes(id, medalhas) {
   function tabela(c, cs) {
     const linhas = cs.slice().reverse().map(([i, q, J, V, E, D, GP, GC, AJ]) => { const e = EDS[i], m = medalha(i, c), sg = GP - GC;
       return '<tr class="cl-camp ' + (m ? 'p' + { ouro: 1, prata: 2, bronze: 3 }[m] : '') + '" data-ed="' + e.id + '" title="Ver a edição"><td class="pos">' + q + 'º</td><td class="clube">' + anoT(e) + '</td><td class="comp">' + esc(EDP[i].comp || CONF.curto) + '</td>' +
-        '<td class="pts">' + (semPts(e) ? '–' : e.pv * V + E + AJ) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
-        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td><td>' + pct((e.pv * V + E) / (e.pv * J)) + '</td></tr>'; }).join('');
+        '<td class="pts">' + (semPts(e) ? '–' : ptsE(e, V, E, D) + AJ) + '</td><td>' + J + '</td><td>' + V + '</td><td>' + E + '</td><td>' + D + '</td><td class="gpgc">' + GP + '</td><td class="gpgc">' + GC + '</td>' +
+        '<td class="' + (sg < 0 ? 'neg' : '') + '">' + sinal(sg) + '</td><td>' + pct(ptsE(e, V, E, D) / (e.pv * J)) + '</td></tr>'; }).join('');
     document.getElementById('cl-campanhas').innerHTML = '<div class="cp-rolar"><table class="cp-tab cl-tab"><thead><tr><th>Pos</th><th>Ano</th><th class="comp">Competição</th><th>Pts</th><th>J</th><th>V</th><th>E</th><th>D</th>' +
       '<th class="gpgc">GP</th><th class="gpgc">GC</th><th>SG</th><th title="vitória 3, empate 1">Aprov.</th></tr></thead><tbody>' + linhas + '</tbody></table></div>';
   }

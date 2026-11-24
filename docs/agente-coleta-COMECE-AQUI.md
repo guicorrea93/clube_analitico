@@ -95,6 +95,12 @@ lê esses campos sozinho.
 **`edicoes.csv`**: `temporada,ano_inicio,ano_fim,nome_oficial,num_clubes,pontos_vitoria,formato,campeao,vice,fontes,observacao`
 - `temporada`: "2019" ou "2019/20".
 - `formato`: texto curto; use `mata-mata` quando a edição inteira for eliminatória.
+- Colunas opcionais (o pacote que não as tem continua valendo):
+  - `co_campeao`, logo depois de `vice`: o outro campeão de um título dividido (D-07; Paulista 1973, Carioca 1907);
+  - `pontos_empate` e `pontos_derrota`, logo depois de `pontos_vitoria`: vazias valem 1 e 0. Preencha quando a liga
+    pontuava de outro jeito (Marrocos 3-2-1 de 1933/34 a 1994/95; Taiti 4-2-1). O painel usa as três na Corrida, nos
+    duelos e nas campanhas. Ponto por gol, shootout e bônus não cabem aqui: vão no `ajuste_pontos`, ou, se a
+    classificação traz os pontos oficiais, o painel usa esses pontos na tabela da edição (24/11/2026).
 
 **`fases.csv`**: `temporada,ordem,fase,tipo,num_grupos,formato_serie,criterio`
 - `tipo`: `liga`, `grupos` ou `mata_mata`.
