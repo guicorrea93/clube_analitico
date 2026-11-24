@@ -818,6 +818,6 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Teste de carga:** `par-1: 134 edições, 7823 jogos, 9 clubes novos -> OK`. Os 9 são os cadastrados nas correções de
   23/11, ainda não carregados; o `clubes.csv` não mudou.
 - **Pedido ao agente 1:** recarregar o `par-1` inteiro (fases, ids, classificação, artilheiros).
-- **Commit:** (abaixo).
+- **Commit:** `a22c1ff`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.** O `documentar.py` passou a listar à parte as edições com mais jogos que o
   esperado; as fichas das outras ligas só ganham essa linha.

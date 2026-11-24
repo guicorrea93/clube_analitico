@@ -77,7 +77,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `uru-1` Uruguaio | 126 (1900–2025) | 12.456 | 84 | 0ead727; correções 31c14b0 | sim (versão antes das correções) |
 | `chi-1` Chileno | 109 (1933–2025) | 22.586 | 53 | 36e0690; correções 209641e | sim (versão antes das correções) |
 | `col-1` Colombiano | 101 (1948–2025) | 22.512 | 42 | 3f5c1d0; correções b8d739d | sim (versão antes das correções) |
-| `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 4583f7e | sim (versão antes das correções) |
+| `par-1` Paraguaio | 134 (1906–2026 Ap.) | 7.823 | 50 | dc2b360, 9d1ca3b, 0b793ba; correções 4583f7e, a22c1ff | sim (versão antes das correções) |
 | `per-1` Peruano | 109 (1912–2025) | 17.318 | 167 | 9d1ca3b, 0b793ba; correções 55c7066, 70d8caf | sim (versão antes das correções) |
 | `ecu-1` Equatoriano | 68 (1957–2025) | 14.175 | 63 | 0b793ba; correções 4577457, cf612c6 | sim (versão antes das correções) |
 | `bol-1` Boliviano | 94 (1950–2025) | 8.563 | 77 | 9ed3dcd | sim |
@@ -103,7 +103,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
      (seção "Ascensos y descensos" das páginas da es; `baixar_wikipedia.py` agora baixa todos os anos, "Liga1 <ano> (Perú)"
      de 2019 em diante).
    - **Próximo: Chile.**
-   - **Paraguai: feito (commit no recado)** (PY-008, PY-012, PY-018, PY-019, PY-031). Novo: `coleta/par-1/goleadores_es.py`
+   - **Paraguai: feito (`a22c1ff`)** (PY-008, PY-012, PY-018, PY-019, PY-031). Novo: `coleta/par-1/goleadores_es.py`
      (coluna "Goleador" da es, guardada em `data/coleta/par-1/wikipedia/es_principal.txt`) e `explicacoes.REBAIXADOS`.
      Torneios (Apertura e Clausura) ligados no leitor só de 1996 a 2007 (`ANOS_TORNEIOS`).
    - **Chile:** CH-006, CH-014 (1986), CH-017 (só reimportar), CH-022, CH-023, CH-028.
