@@ -28,7 +28,7 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    campeões `mexchamp.html`, artilheiros `mextops.html`), ESPN (`mex.1`, Apertura 2002 em diante: hora, estádio, público,
    gols com minuto, cartões; fase regular do Apertura 2025 e do Clausura 2026) e Wikipédia em inglês (2ª fonte do campeão e
    do vice). Campeão e vice batem com as duas listas em todas as edições.
-2. **Commits:** o deste recado (24/11; o hash vai na seção seguinte). Sem push.
+2. **Commits:** `cb0355f` (24/11). Sem push.
 3. **Teste de carga:** `mex-1: 158 edições, 26606 jogos, 92 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `data/coleta/mex-1/pacote/`;
@@ -62,3 +62,45 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    dados aos adversários do Asturias); 1995/96 (jogo que falta); as 33 edições com tabela divergente no `conferencia.csv`.
 8. **Próxima competição:** EUA (`usa-1`), depois de o Guilherme responder as decisões de escopo (MLS só ou também NASL e ASL;
    campeão da MLS Cup com a Supporters' Shield na observação).
+
+## 24/11/2026 — EUA (usa-1): escopo
+
+Pesquisado e decidido em 24/11 (o Guilherme pediu "pesquise a fundo e veja o que é mais pertinente"). A 1ª divisão é a
+"Division I" da lista da RSSSF (`usachamp.html`): ASL I (1921/22-1932/33, só tabelas), 1967 com duas edições (United Soccer
+Association e NPSL), NASL 1968-1984 (tabelas e playoffs; campeão = playoffs) e MLS 1996-2025 (campeão = MLS Cup; Supporters'
+Shield na observação). Sem edição de 1985 a 1995. MLS 2026 depois da final de 18/12/2026. Clubes canadenses com país `CAN`
+(país novo: Canadá). Detalhes em `coleta/comum-concacaf/COMECE-AQUI.md`, seção 6.
+
+## Recado de fim de coleta — usa-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que foi feito:** Campeonato Norte-Americano (`usa-1`, 1ª divisão dos EUA), 63 edições, uma por título, como a lista
+   "Division I" da RSSSF: ASL I (14 edições, 1921/22-1932/33), as duas ligas de 1967 (United Soccer Association e NPSL),
+   NASL (17, 1968-1984) e MLS (30, 1996-2025). 8.708 jogos (todos da MLS), 134 clubes (13 do Canadá), 24.858 gols (21.918
+   com autor, 88%), 30.061 cartões. Fontes: RSSSF (`usachamp.html`, `asli.html`, `nasl.html`, páginas da MLS) e ESPN
+   (`usa.1`, 2002 em diante). Campeão e vice batem com a lista da RSSSF em todas as edições.
+2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+3. **Teste de carga:** `usa-1: 63 edições, 8708 jogos, 134 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `data/coleta/usa-1/pacote/`;
+   - **países novos: Estados Unidos (`USA`) e Canadá (`CAN`)**, em `paises.csv`; os dois já foram à Copa, mas conferir as
+     bandeiras no painel;
+   - 35 edições sem jogos (ASL, 1967, NASL, MLS 1997 e 1998): só a tabela, com campeão e vice; nas edições com divisões ou
+     conferências, a classificação junta as tabelas e ordena por pontos;
+   - pontuação fora do padrão na NPSL (1967), na NASL e na MLS de 1996-1999 (ponto por gol, shootout): a classificação é a
+     tabela publicada, com `ajuste_pontos` vazio; a observação da edição explica;
+   - duas edições em 1967 ("1967 USA" e "1967 NPSL"); de 1985 a 1995 não há edição (o país não teve 1ª divisão).
+5. **Decisões** (24/11, depois de pesquisa, a pedido do Guilherme): o escopo acima; campeão da MLS = MLS Cup, com a
+   Supporters' Shield como a melhor campanha na classificação; renomeação na mesma cidade é o mesmo clube (MetroStars = New
+   York Red Bulls, Kansas City Wizards = Sporting KC, Dallas Burn = FC Dallas, San Jose Clash = Earthquakes, Montreal Impact =
+   CF Montréal); mudança de cidade é outro clube; os clubes da NASL com nome de clube da MLS levam "(NASL)" (Seattle
+   Sounders, Portland Timbers, Vancouver Whitecaps, San Jose Earthquakes); Philadelphia Field Club de 1921/22 = Bethlehem
+   Steel (a RSSSF diz que o nome mudou); os dois New York Giants da ASL ficam com o último nome de cada um ("New York Soccer
+   Club" e "New York Giants").
+6. **O que não deu para coletar:** jogos da ASL I, de 1967 e da NASL (fonte: os livros de Colin Jose ou jornais da época); da
+   MLS de 1997 e 1998 (fonte: arquivos da MLS); um DC United x New York Red Bulls de 2004. A MLS 2026 entra depois da final
+   (18/12/2026).
+7. **Onde a revisão deve olhar primeiro:** as identidades do item 5; a classificação das edições só com tabelas (divisões
+   juntas por pontos; anos de dois turnos da ASL ficam com o turno de mais jogos); 2020 (pandemia e torneio MLS is Back).
+8. **Próxima competição:** Costa Rica (`crc-1`), com as decisões de escopo ao Guilherme antes.

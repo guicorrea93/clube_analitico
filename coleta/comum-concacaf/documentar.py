@@ -26,8 +26,8 @@ from pathlib import Path
 AQUI = Path(__file__).resolve().parent
 RAIZ = AQUI.parent.parent
 SAIDA = AQUI / "documentacao"
-LIGAS: list[str] = ["mex-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
-PAIS: dict[str, str] = {"mex-1": "mex"}   # slug -> sufixo do clubes_<pais>.py
+LIGAS: list[str] = ["mex-1", "usa-1"]   # slugs prontos, na ordem da coleta (mex-1, usa-1, ...)
+PAIS: dict[str, str] = {"mex-1": "mex", "usa-1": "usa"}   # slug -> sufixo do clubes_<pais>.py
 
 # o que falta em cada competição (manter à mão; os achados abertos da revisão entram sozinhos; a ordem geral está em
 # COMECE-AQUI.md)
@@ -46,6 +46,17 @@ PENDENCIAS: dict[str, list[str]] = {
         "Jalisco, Guadalajara\", acima do jogo) ainda não são lidas.",
         "Divergências de um gol ou de um resultado entre a página e a tabela dela em cerca de 30 edições: ficam como erro da "
         "página (o relatório diz qual clube e qual tabela).",
+    ],
+    "usa-1": [
+        "ASL I (1921/22-1932/33), 1967 e NASL (1968-1984) só com as tabelas: a RSSSF não tem os jogos (os playoffs só em "
+        "texto). Fonte que resolveria: os livros de Colin Jose (\"NASL: A Complete Record\", \"The American Soccer League "
+        "1921-1931\") ou jornais da época.",
+        "MLS 1997 e 1998 só com as tabelas: a RSSSF não tem os jogos e a ESPN começa em 2002. Fonte que resolveria: os "
+        "arquivos de jogos da MLS (mlssoccer.com) ou a Wikipédia de cada temporada.",
+        "2004: falta um DC United x New York Red Bulls (a ESPN não tem; a RSSSF só tem as tabelas).",
+        "Temporada 2026 da MLS: entra depois da final (18/12/2026).",
+        "Identidades a conferir pela revisão: Philadelphia Field Club de 1921/22 = Bethlehem Steel; os dois New York Giants da "
+        "ASL (New York Soccer Club e New York Giants); os clubes da NASL separados dos da MLS com o mesmo nome.",
     ],
 }
 

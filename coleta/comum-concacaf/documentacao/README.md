@@ -6,7 +6,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 56671 | 42633 | 92 | 116 / 33 | não | — | 0 | [mex-1](mex-1.md) |
+| Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 56671 | 42633 | 92 | 116 / 33 | não | cb0355f | 0 | [mex-1](mex-1.md) |
+| Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 21918 | 30061 | 134 | 25 / 1 | não | — | 0 | [usa-1](usa-1.md) |
 
 ## Pendências de todas as competições
 
@@ -16,6 +17,11 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **mex-1:** 1995/96: falta o Guadalajara x Pumas do 1º turno (não está na página); pela tabela, o Guadalajara venceu por 3-0.
 - **mex-1:** Estádio só de 2002 em diante (ESPN) e nos jogos com "at X": as linhas de estádio das páginas da RSSSF ("Estadio Jalisco, Guadalajara", acima do jogo) ainda não são lidas.
 - **mex-1:** Divergências de um gol ou de um resultado entre a página e a tabela dela em cerca de 30 edições: ficam como erro da página (o relatório diz qual clube e qual tabela).
+- **usa-1:** ASL I (1921/22-1932/33), 1967 e NASL (1968-1984) só com as tabelas: a RSSSF não tem os jogos (os playoffs só em texto). Fonte que resolveria: os livros de Colin Jose ("NASL: A Complete Record", "The American Soccer League 1921-1931") ou jornais da época.
+- **usa-1:** MLS 1997 e 1998 só com as tabelas: a RSSSF não tem os jogos e a ESPN começa em 2002. Fonte que resolveria: os arquivos de jogos da MLS (mlssoccer.com) ou a Wikipédia de cada temporada.
+- **usa-1:** 2004: falta um DC United x New York Red Bulls (a ESPN não tem; a RSSSF só tem as tabelas).
+- **usa-1:** Temporada 2026 da MLS: entra depois da final (18/12/2026).
+- **usa-1:** Identidades a conferir pela revisão: Philadelphia Field Club de 1921/22 = Bethlehem Steel; os dois New York Giants da ASL (New York Soccer Club e New York Giants); os clubes da NASL separados dos da MLS com o mesmo nome.
 
 ## Próximas competições
 

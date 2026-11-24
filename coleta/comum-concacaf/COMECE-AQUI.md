@@ -43,17 +43,18 @@ a partir dos pacotes, do código e dos relatórios). Rode depois de toda importa
 
 | Competição | Edições | Jogos | Clubes | Commit do pacote | No banco |
 |---|---|---|---|---|---|
-| `mex-1` Mexicano | 158 (1902/03–2026 Clausura) | 26.606 | 92 | sem commit (espera o ok) | não |
+| `mex-1` Mexicano | 158 (1902/03–2026 Clausura) | 26.606 | 92 | cb0355f (24/11, sem push) | não |
+| `usa-1` Norte-Americano | 63 (ASL 1921/22–1932/33, 1967, NASL 1968–1984, MLS 1996–2025) | 8.708 | 134 (13 do Canadá) | sem commit (espera o ok) | não |
 
-Gols, cartões, conferência e cobertura: `documentacao/README.md` e `documentacao/mex-1.md`.
+Gols, cartões, conferência e cobertura: `documentacao/README.md` e uma ficha por competição.
 
 ## 3. De onde continuar
 
-1. **México (`mex-1`):** pacote pronto em 23/11 (teste de carga OK); espera o ok do commit e as decisões da seção 6 marcadas
-   "decididas em 24/11". Recado de fim de coleta no fim de `docs/coleta/pedidos-concacaf.md`.
-2. **Próxima: EUA (`usa-1`).** Antes, mandar ao Guilherme as decisões de escopo (MLS só, ou também NASL 1968-1984 e a ASL
-   antiga? Campeão da MLS Cup, com a Supporters' Shield na observação?). Os clubes canadenses da MLS entram com país `CAN`.
-3. Depois, na ordem sugerida: `crc-1`, `hon-1`, `gua-1`, `slv-1`, `pan-1`, `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
+1. **México (`mex-1`):** no git em 24/11 (`cb0355f`, sem push); falta o agente 1 carregar no banco. Recado de fim de coleta no fim de `docs/coleta/pedidos-concacaf.md`.
+2. **EUA (`usa-1`):** pacote pronto em 24/11 (teste de carga OK); espera o ok do commit. Recado de fim de coleta no fim de
+   `docs/coleta/pedidos-concacaf.md`. Quando a MLS 2026 acabar (final em 18/12/2026), acrescentar a edição 2026 (a página
+   `tablesu/usa2026.html` e a ESPN; a janela da ESPN em `edicoes._ESPN` se a RSSSF só tiver as tabelas).
+3. **Próxima: Costa Rica (`crc-1`)**, com as decisões de escopo antes. Depois, na ordem sugerida: `hon-1`, `gua-1`, `slv-1`, `pan-1`, `jam-1`, `tri-1`, `can-1`, `hai-1`; depois as
    outras 1ªs divisões da CONCACAF (Caribe, Guiana, Suriname, Guiana Francesa).
 4. Ficar de olho em `docs/coleta/pedidos-concacaf.md`: respostas do agente 1 e pedidos da revisão.
 
@@ -96,6 +97,17 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
 - As armadilhas da RSSSF, da ESPN e do ogol já vistas na América do Sul estão na seção 6 de
   `coleta/comum-sulamerica/COMECE-AQUI.md`.
 
+**Vistas nos EUA (24/11):**
+- **Ligas antigas só com tabelas** (ASL I, NASL): `edicoes.tabelas` e o leitor de tabelas próprio `ler_rsssf.tabelas_texto`, guiado
+  pelo cabeçalho de cada tabela ("GP W WS LS L GF GA Pts", "G W L GF GA PTS % Att."), com nome colado no número ("Philadelphia
+  Field Club24") e linha sem gols. Vale copiar para ligas com tabelas fora do padrão.
+- **Shootout** (MLS 1996-1999, NASL 1975-1984): o jogo é empate com pênaltis; na tabela, WS e LS somam aos empates; a pontuação
+  fora do padrão vai em `Edicao.pontos_fora` (sem "ajuste de pontos" na classificação).
+- **Conferências e divisões:** a classificação junta as tabelas de clubes diferentes e ordena por pontos (`importar.classificacao`).
+- **Páginas da MLS com outras competições** (US Open Cup, USL, MLS is Back 2020, jogos de exibição na ESPN): `FIM_PADRAO` e
+  `clubes_usa._NAO_CLUBE`.
+- **"Round 1" depois do título dos playoffs** é fase, não rodada (`linhas()` troca por "Playoff First Round").
+
 **Vistas no México (23/11):**
 - **Fim de linha `\r` sozinho** (1956/57, 1958/59, 1959/60, 1976/77, 1983/84): a página inteira virava poucas linhas e o leitor
   perdia jogos. Corrigido no leitor comum.
@@ -127,3 +139,16 @@ Mudanças no leitor comum (`rsssf_concacaf.py`) em 23/11, antes de qualquer liga
     de hoje (o clube conta a história desde 1892; paradas em 1922-1950 e 1952-1960, refundado em 1960 com o mesmo nome);
     Atlético Español (1971-1982) = Necaxa (vendido e renomeado; a Televisa devolveu nome e cores em 1982; todas as fontes
     tratam como o mesmo clube); 1930/31 sem campeão (a federação declarou o campeonato deserto).
+- **EUA (24/11; o Guilherme pediu "pesquise a fundo e veja o que é mais pertinente"):** a 1ª divisão é a que a RSSSF conta
+  como "Division I" (`usachamp.html`):
+  - ASL I (1921/22 a 1932/33, 14 títulos, com as meias-temporadas 1929, 1930 e 1932): edições só com a tabela (a RSSSF não
+    tem os jogos);
+  - 1967: duas edições, United Soccer Association (a liga da FIFA) e NPSL (a liga "pirata"), como a RSSSF e a Wikipédia;
+  - NASL 1968-1984: tabelas e playoffs (a RSSSF não tem os jogos da fase regular); campeão = vencedor dos playoffs (Soccer
+    Bowl), o 1º da fase regular na observação; pontos do jeito da NASL (6 por vitória + 1 por gol até 3): a classificação é a
+    tabela publicada;
+  - 1985-1995 sem edição (não houve liga de 1ª divisão);
+  - MLS 1996-2025: campeão = MLS Cup (é o título da liga); a Supporters' Shield (melhor campanha) na observação; shootout de
+    1996-1999 pela tabela publicada. A temporada 2026 fica para depois da final de 18/12/2026;
+  - fora: ASL II (1933-1983, liga regional e depois de 2º nível), International Soccer League (torneio de verão com clubes
+    estrangeiros), APSL / A-League (1985-1995, 2º nível) e as temporadas indoor da NASL.

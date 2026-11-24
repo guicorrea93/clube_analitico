@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 - **Jogos:** 26606 (26540 com placar); **gols:** 76536; **gols com autor:** 56671 (74%); **cartões:** 42633.
 - **Clubes:** 92; **artilheiros:** 152 edições com artilheiro (185 linhas, com empates).
 - **Classificação final:** 158 edições; **tabelas publicadas guardadas para conferência:** 3340 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** cb0355f.
 - **Observação da competição:** 1ª divisão mexicana de 1902/03 ao Clausura 2026, uma edição por título: era amadora (Primera Fuerza e Liga Mayor do Distrito Federal, 1902/03-1942/43; 1920/21 e 1921/22 com duas ligas), profissional (1943/44-1995/96, com os torneios curtos México 70, Prode 85 e México 86), Invierno e Verano (1996-2002) e Apertura e Clausura (2002 em diante). O Clausura 2020 (pandemia) e a temporada 1930/31 (cancelada) não têm campeão.
 
 ## 2. Edições, fontes e regras
