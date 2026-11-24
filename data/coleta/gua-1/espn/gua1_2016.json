@@ -1,0 +1,10959 @@
+[
+{
+"id": "442144",
+"data_hora": "2016-01-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Omar Zalazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ladogana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joel Benitez"
+]
+}
+]
+},
+{
+"id": "442145",
+"data_hora": "2016-01-23T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Negrete"
+]
+}
+]
+},
+{
+"id": "442146",
+"data_hora": "2016-01-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Fuentes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manfred Icute"
+]
+}
+]
+},
+{
+"id": "442147",
+"data_hora": "2016-01-24T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexander Robinson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Diaz"
+]
+}
+]
+},
+{
+"id": "442148",
+"data_hora": "2016-01-24T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+}
+]
+},
+{
+"id": "442149",
+"data_hora": "2016-01-24T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442150",
+"data_hora": "2016-01-27T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lagos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Janderson Pereira"
+]
+}
+]
+},
+{
+"id": "442151",
+"data_hora": "2016-01-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442152",
+"data_hora": "2016-01-27T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442153",
+"data_hora": "2016-01-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442155",
+"data_hora": "2016-01-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442154",
+"data_hora": "2016-01-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martinez Oscar Quesada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elder Fuentes"
+]
+}
+]
+},
+{
+"id": "442156",
+"data_hora": "2016-01-31T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maynor De León"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maynor De León"
+]
+}
+]
+},
+{
+"id": "442157",
+"data_hora": "2016-01-31T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ashlin Rodas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Gracias"
+]
+}
+]
+},
+{
+"id": "442158",
+"data_hora": "2016-01-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Janderson Pereira"
+]
+}
+]
+},
+{
+"id": "442159",
+"data_hora": "2016-01-31T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "442160",
+"data_hora": "2016-01-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442161",
+"data_hora": "2016-01-31T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "442837",
+"data_hora": "2016-02-06T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "442832",
+"data_hora": "2016-02-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443211",
+"data_hora": "2016-02-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443212",
+"data_hora": "2016-02-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Sarachu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Negrete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo De Leon"
+]
+}
+]
+},
+{
+"id": "443213",
+"data_hora": "2016-02-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kendel Herrarte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+}
+]
+},
+{
+"id": "443214",
+"data_hora": "2016-02-07T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443215",
+"data_hora": "2016-02-10T18:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443216",
+"data_hora": "2016-02-10T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443217",
+"data_hora": "2016-02-10T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443218",
+"data_hora": "2016-02-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443219",
+"data_hora": "2016-02-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+}
+]
+},
+{
+"id": "443220",
+"data_hora": "2016-02-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443354",
+"data_hora": "2016-02-13T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "443350",
+"data_hora": "2016-02-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443447",
+"data_hora": "2016-02-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443448",
+"data_hora": "2016-02-14T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Pineda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Norales"
+]
+}
+]
+},
+{
+"id": "443449",
+"data_hora": "2016-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443450",
+"data_hora": "2016-02-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443838",
+"data_hora": "2016-02-17T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "443471",
+"data_hora": "2016-02-20T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Chavasco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "444285",
+"data_hora": "2016-02-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444287",
+"data_hora": "2016-02-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo Aguirre"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Sanderson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Pineda"
+]
+}
+]
+},
+{
+"id": "444286",
+"data_hora": "2016-02-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "8",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marbel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Perez Aracil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Segio Escobar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Rivas"
+]
+}
+]
+},
+{
+"id": "444288",
+"data_hora": "2016-02-21T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Aparicio"
+]
+}
+]
+},
+{
+"id": "444289",
+"data_hora": "2016-02-21T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+}
+]
+},
+{
+"id": "444290",
+"data_hora": "2016-02-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edi Guerra"
+]
+}
+]
+},
+{
+"id": "444291",
+"data_hora": "2016-02-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "444292",
+"data_hora": "2016-02-25T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444293",
+"data_hora": "2016-02-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444294",
+"data_hora": "2016-02-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444295",
+"data_hora": "2016-02-26T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+}
+]
+},
+{
+"id": "443872",
+"data_hora": "2016-02-27T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444941",
+"data_hora": "2016-02-27T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "444296",
+"data_hora": "2016-02-28T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "444297",
+"data_hora": "2016-02-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Billy Torres"
+]
+}
+]
+},
+{
+"id": "444298",
+"data_hora": "2016-02-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Lopez"
+]
+}
+]
+},
+{
+"id": "444300",
+"data_hora": "2016-02-28T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Estuardo Alvarez Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Aroche"
+]
+}
+]
+},
+{
+"id": "444879",
+"data_hora": "2016-03-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Top"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+}
+]
+},
+{
+"id": "444905",
+"data_hora": "2016-03-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Noriega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Aroche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+}
+]
+},
+{
+"id": "444906",
+"data_hora": "2016-03-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Castellanos"
+]
+}
+]
+},
+{
+"id": "444919",
+"data_hora": "2016-03-06T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edi Guerra"
+]
+}
+]
+},
+{
+"id": "444920",
+"data_hora": "2016-03-06T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Omar Zalazar"
+]
+}
+]
+},
+{
+"id": "444921",
+"data_hora": "2016-03-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lagos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juliano Rangel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kristian Guzman"
+]
+}
+]
+},
+{
+"id": "445264",
+"data_hora": "2016-03-09T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Solorzano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Aroche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+}
+]
+},
+{
+"id": "445265",
+"data_hora": "2016-03-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Garcia Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Orellana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nery Oliva"
+]
+}
+]
+},
+{
+"id": "445266",
+"data_hora": "2016-03-09T21:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Jiménez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+}
+]
+},
+{
+"id": "445267",
+"data_hora": "2016-03-09T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "445268",
+"data_hora": "2016-03-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Perez Aracil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+}
+]
+},
+{
+"id": "445269",
+"data_hora": "2016-03-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445638",
+"data_hora": "2016-03-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445634",
+"data_hora": "2016-03-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445635",
+"data_hora": "2016-03-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445636",
+"data_hora": "2016-03-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Camilo Aguirre"
+]
+}
+]
+},
+{
+"id": "445637",
+"data_hora": "2016-03-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445639",
+"data_hora": "2016-03-13T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "445650",
+"data_hora": "2016-03-19T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio San Martin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Chinchilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Felipe Bautista"
+]
+}
+]
+},
+{
+"id": "445651",
+"data_hora": "2016-03-19T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445686",
+"data_hora": "2016-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Albert Barrientos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Oritz"
+]
+}
+]
+},
+{
+"id": "445698",
+"data_hora": "2016-03-20T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+}
+]
+},
+{
+"id": "445699",
+"data_hora": "2016-03-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "445700",
+"data_hora": "2016-03-20T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Omar Zalazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Omar Zalazar"
+]
+}
+]
+},
+{
+"id": "446573",
+"data_hora": "2016-04-02T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Samayoa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Nunez"
+]
+}
+]
+},
+{
+"id": "446568",
+"data_hora": "2016-04-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Barrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Barrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+}
+]
+},
+{
+"id": "446743",
+"data_hora": "2016-04-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marbel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Jucup"
+]
+}
+]
+},
+{
+"id": "446744",
+"data_hora": "2016-04-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jarol Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Alfredo Moreno Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Sarachu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Cliff Negrete"
+]
+}
+]
+},
+{
+"id": "446745",
+"data_hora": "2016-04-03T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Aroche"
+]
+}
+]
+},
+{
+"id": "446746",
+"data_hora": "2016-04-03T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Kissner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edi Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Kissner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Mora Mena"
+]
+}
+]
+},
+{
+"id": "446747",
+"data_hora": "2016-04-06T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Billy Torres"
+]
+}
+]
+},
+{
+"id": "446748",
+"data_hora": "2016-04-06T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Jairo Palacios"
+]
+}
+]
+},
+{
+"id": "446749",
+"data_hora": "2016-04-07T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Pineyro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Mendez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ignacio Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manfred Icute"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manfred Icute"
+]
+}
+]
+},
+{
+"id": "446751",
+"data_hora": "2016-04-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Maynor De León"
+]
+}
+]
+},
+{
+"id": "446752",
+"data_hora": "2016-04-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Pineda"
+]
+}
+]
+},
+{
+"id": "446750",
+"data_hora": "2016-04-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Burgos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gonzalo Miranda"
+]
+}
+]
+},
+{
+"id": "446757",
+"data_hora": "2016-04-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+}
+]
+},
+{
+"id": "446797",
+"data_hora": "2016-04-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Riaz"
+]
+}
+]
+},
+{
+"id": "446778",
+"data_hora": "2016-04-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edy Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kristian Guzman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo De Leon"
+]
+}
+]
+},
+{
+"id": "446795",
+"data_hora": "2016-04-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+}
+]
+},
+{
+"id": "446796",
+"data_hora": "2016-04-10T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edi Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osman Garcia Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nixon Flores"
+]
+}
+]
+},
+{
+"id": "446798",
+"data_hora": "2016-04-10T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Salazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lagos"
+]
+}
+]
+},
+{
+"id": "446825",
+"data_hora": "2016-04-13T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Kissner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edi Guerra"
+]
+}
+]
+},
+{
+"id": "447211",
+"data_hora": "2016-04-16T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "446927",
+"data_hora": "2016-04-16T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447116",
+"data_hora": "2016-04-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lagos"
+]
+}
+]
+},
+{
+"id": "446925",
+"data_hora": "2016-04-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Negrete"
+]
+}
+]
+},
+{
+"id": "446926",
+"data_hora": "2016-04-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Lalin"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+}
+]
+},
+{
+"id": "447118",
+"data_hora": "2016-04-17T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+}
+]
+},
+{
+"id": "447214",
+"data_hora": "2016-04-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Kissner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yordany Alvarez Oropeza"
+]
+}
+]
+},
+{
+"id": "447215",
+"data_hora": "2016-04-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+}
+]
+},
+{
+"id": "447216",
+"data_hora": "2016-04-21T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Nunez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Burgos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Pineyro"
+]
+}
+]
+},
+{
+"id": "447217",
+"data_hora": "2016-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodriguez Jerez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lagos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Lagos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+}
+]
+},
+{
+"id": "447218",
+"data_hora": "2016-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447219",
+"data_hora": "2016-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Germi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ladogana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Cardona"
+]
+}
+]
+},
+{
+"id": "447284",
+"data_hora": "2016-04-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Andrade"
+]
+}
+]
+},
+{
+"id": "447285",
+"data_hora": "2016-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "447286",
+"data_hora": "2016-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Altan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Omar Zalazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Omar Zalazar"
+]
+}
+]
+},
+{
+"id": "447288",
+"data_hora": "2016-04-24T17:05Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Samayoa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+}
+]
+},
+{
+"id": "447287",
+"data_hora": "2016-04-24T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manfred Russell"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Mendez"
+]
+}
+]
+},
+{
+"id": "447289",
+"data_hora": "2016-04-24T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Jairo Palacios"
+]
+}
+]
+},
+{
+"id": "447417",
+"data_hora": "2016-04-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+}
+]
+},
+{
+"id": "447424",
+"data_hora": "2016-05-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhon Córdoba"
+]
+}
+]
+},
+{
+"id": "447425",
+"data_hora": "2016-05-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marbel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Perez Aracil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'+5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Moreira"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Burgos"
+]
+}
+]
+},
+{
+"id": "447431",
+"data_hora": "2016-05-01T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Estrada"
+]
+}
+]
+},
+{
+"id": "447432",
+"data_hora": "2016-05-01T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nicolas Kissner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yordany Alvarez Oropeza"
+]
+}
+]
+},
+{
+"id": "447433",
+"data_hora": "2016-05-01T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+}
+]
+},
+{
+"id": "448354",
+"data_hora": "2016-05-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kendel Herrarte"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "448356",
+"data_hora": "2016-05-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Sanderson"
+]
+}
+]
+},
+{
+"id": "448355",
+"data_hora": "2016-05-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "9",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Matul"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Leal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Estrada"
+]
+}
+]
+},
+{
+"id": "448357",
+"data_hora": "2016-05-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Ruiz"
+]
+}
+]
+},
+{
+"id": "448358",
+"data_hora": "2016-05-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "6",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Burgos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Domingo Omar Zalazar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Orozco"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Kamiani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Armas"
+]
+}
+]
+},
+{
+"id": "448359",
+"data_hora": "2016-05-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castellanos Fernando Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castellanos Fernando Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Mendez"
+]
+}
+]
+},
+{
+"id": "448605",
+"data_hora": "2016-05-12T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kevin Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+}
+]
+},
+{
+"id": "448606",
+"data_hora": "2016-05-12T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Matta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "448638",
+"data_hora": "2016-05-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+}
+]
+},
+{
+"id": "448609",
+"data_hora": "2016-05-15T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"M Angel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+}
+]
+},
+{
+"id": "448758",
+"data_hora": "2016-05-18T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448759",
+"data_hora": "2016-05-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+}
+]
+},
+{
+"id": "448771",
+"data_hora": "2016-05-22T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "448772",
+"data_hora": "2016-05-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Blackburn"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gallardo"
+]
+}
+]
+},
+{
+"id": "448830",
+"data_hora": "2016-05-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "448831",
+"data_hora": "2016-05-29T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ladogana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Omar Salazar"
+]
+}
+]
+},
+{
+"id": "456049",
+"data_hora": "2016-07-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Lemus"
+]
+}
+]
+},
+{
+"id": "456047",
+"data_hora": "2016-07-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Lalinde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+}
+]
+},
+{
+"id": "456046",
+"data_hora": "2016-07-17T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atadeo Quinonez"
+]
+}
+]
+},
+{
+"id": "456050",
+"data_hora": "2016-07-17T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Castañeda"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+}
+]
+},
+{
+"id": "456048",
+"data_hora": "2016-07-17T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+}
+]
+},
+{
+"id": "456051",
+"data_hora": "2016-07-20T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "460585",
+"data_hora": "2016-07-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castrillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Giammalva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+}
+]
+},
+{
+"id": "456053",
+"data_hora": "2016-07-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+}
+]
+},
+{
+"id": "456055",
+"data_hora": "2016-07-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquin Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+}
+]
+},
+{
+"id": "456057",
+"data_hora": "2016-07-24T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Reyes"
+]
+}
+]
+},
+{
+"id": "456052",
+"data_hora": "2016-07-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Albizures"
+]
+}
+]
+},
+{
+"id": "460031",
+"data_hora": "2016-07-25T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Waldemar Acosta"
+]
+}
+]
+},
+{
+"id": "456059",
+"data_hora": "2016-07-27T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Brandon Saldana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Moises Barros Rodrigues Bezerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "456058",
+"data_hora": "2016-07-27T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Jiménez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Gracias"
+]
+}
+]
+},
+{
+"id": "456063",
+"data_hora": "2016-07-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Wasinger"
+]
+}
+]
+},
+{
+"id": "456061",
+"data_hora": "2016-07-27T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amaury Escoto"
+]
+}
+]
+},
+{
+"id": "460032",
+"data_hora": "2016-07-28T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Azurdia"
+]
+}
+]
+},
+{
+"id": "460033",
+"data_hora": "2016-07-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "461428",
+"data_hora": "2016-07-30T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+}
+]
+},
+{
+"id": "456064",
+"data_hora": "2016-07-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456069",
+"data_hora": "2016-07-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456065",
+"data_hora": "2016-07-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456067",
+"data_hora": "2016-07-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "456066",
+"data_hora": "2016-07-31T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456073",
+"data_hora": "2016-08-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456072",
+"data_hora": "2016-08-07T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456070",
+"data_hora": "2016-08-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456075",
+"data_hora": "2016-08-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Lalinde"
+]
+}
+]
+},
+{
+"id": "456071",
+"data_hora": "2016-08-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Moreno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denis Rosales"
+]
+}
+]
+},
+{
+"id": "462983",
+"data_hora": "2016-08-08T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462252",
+"data_hora": "2016-08-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462253",
+"data_hora": "2016-08-10T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "462254",
+"data_hora": "2016-08-10T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462255",
+"data_hora": "2016-08-11T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462257",
+"data_hora": "2016-08-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "462256",
+"data_hora": "2016-08-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "463771",
+"data_hora": "2016-08-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463772",
+"data_hora": "2016-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Solalinde"
+]
+}
+]
+},
+{
+"id": "463773",
+"data_hora": "2016-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "463774",
+"data_hora": "2016-08-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"J Leroyer"
+]
+}
+]
+},
+{
+"id": "456079",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "463775",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456081",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456077",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456078",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456080",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456076",
+"data_hora": "2016-08-14T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "463776",
+"data_hora": "2016-08-15T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "463807",
+"data_hora": "2016-08-17T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456091",
+"data_hora": "2016-08-20T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauro Portillo"
+]
+}
+]
+},
+{
+"id": "463973",
+"data_hora": "2016-08-20T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "456092",
+"data_hora": "2016-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"C Rodriguez"
+]
+}
+]
+},
+{
+"id": "456088",
+"data_hora": "2016-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Targua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amaury Escoto"
+]
+}
+]
+},
+{
+"id": "456093",
+"data_hora": "2016-08-21T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Longo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bol Mendez"
+]
+}
+]
+},
+{
+"id": "456089",
+"data_hora": "2016-08-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robin Betancourth"
+]
+}
+]
+},
+{
+"id": "465047",
+"data_hora": "2016-08-28T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466687",
+"data_hora": "2016-09-11T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466688",
+"data_hora": "2016-09-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466690",
+"data_hora": "2016-09-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466689",
+"data_hora": "2016-09-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466692",
+"data_hora": "2016-09-11T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466691",
+"data_hora": "2016-09-11T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466708",
+"data_hora": "2016-09-14T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466822",
+"data_hora": "2016-09-17T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "466852",
+"data_hora": "2016-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robin Betancourth"
+]
+}
+]
+},
+{
+"id": "466848",
+"data_hora": "2016-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Osorio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rimi Dimas"
+]
+}
+]
+},
+{
+"id": "466849",
+"data_hora": "2016-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Negrete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amaury Escoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"German Esquivel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Germi"
+]
+}
+]
+},
+{
+"id": "466850",
+"data_hora": "2016-09-18T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Rocha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Thompson"
+]
+}
+]
+},
+{
+"id": "466851",
+"data_hora": "2016-09-18T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"José Castañeda"
+]
+}
+]
+},
+{
+"id": "467025",
+"data_hora": "2016-09-21T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amaury Escoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Mora Mena"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amaury Escoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+}
+]
+},
+{
+"id": "467026",
+"data_hora": "2016-09-21T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Aguas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alpuche Abraham"
+]
+}
+]
+},
+{
+"id": "467027",
+"data_hora": "2016-09-22T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467028",
+"data_hora": "2016-09-22T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467029",
+"data_hora": "2016-09-22T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467030",
+"data_hora": "2016-09-22T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467060",
+"data_hora": "2016-09-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467051",
+"data_hora": "2016-09-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467052",
+"data_hora": "2016-09-25T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Jiménez"
+]
+}
+]
+},
+{
+"id": "467059",
+"data_hora": "2016-09-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Targua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+}
+]
+},
+{
+"id": "467058",
+"data_hora": "2016-09-25T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+}
+]
+},
+{
+"id": "467061",
+"data_hora": "2016-09-25T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Ascensio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+}
+]
+},
+{
+"id": "467103",
+"data_hora": "2016-09-28T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467195",
+"data_hora": "2016-10-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Palma"
+]
+}
+]
+},
+{
+"id": "467196",
+"data_hora": "2016-10-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Janderson"
+]
+}
+]
+},
+{
+"id": "467198",
+"data_hora": "2016-10-02T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Galinso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+}
+]
+},
+{
+"id": "467199",
+"data_hora": "2016-10-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilmer Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"H Eliezer"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Javier Cantero"
+]
+}
+]
+},
+{
+"id": "467197",
+"data_hora": "2016-10-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Lalinde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Amaury Escoto"
+]
+}
+]
+},
+{
+"id": "467202",
+"data_hora": "2016-10-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467650",
+"data_hora": "2016-10-12T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "467515",
+"data_hora": "2016-10-16T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juliano Rangel"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Priego"
+]
+}
+]
+},
+{
+"id": "467516",
+"data_hora": "2016-10-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robin Betancourth"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"G Pinzon"
+]
+}
+]
+},
+{
+"id": "467517",
+"data_hora": "2016-10-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+}
+]
+},
+{
+"id": "467520",
+"data_hora": "2016-10-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467521",
+"data_hora": "2016-10-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+}
+]
+},
+{
+"id": "467828",
+"data_hora": "2016-10-22T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467629",
+"data_hora": "2016-10-22T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Miranda"
+]
+}
+]
+},
+{
+"id": "467632",
+"data_hora": "2016-10-23T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Casasola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Albizures"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castellanos Fernando Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castellanos Fernando Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Waldemar Acosta"
+]
+}
+]
+},
+{
+"id": "467636",
+"data_hora": "2016-10-23T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Valenzuela"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Alvarado Arriola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"L Mora"
+]
+}
+]
+},
+{
+"id": "467639",
+"data_hora": "2016-10-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"V Guay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Solalinde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"V Guay"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jeffry Oliva"
+]
+}
+]
+},
+{
+"id": "467640",
+"data_hora": "2016-10-23T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Negrete"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marbel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+}
+]
+},
+{
+"id": "467988",
+"data_hora": "2016-10-26T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dario Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+}
+]
+},
+{
+"id": "467829",
+"data_hora": "2016-10-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Antonio Elias Aguilar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Aguas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Benedicto Aldana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Christian Albizures"
+]
+}
+]
+},
+{
+"id": "467830",
+"data_hora": "2016-10-26T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Robin Betancourth"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+}
+]
+},
+{
+"id": "467851",
+"data_hora": "2016-10-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Waldemar Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castellanos Fernando Martinez"
+]
+}
+]
+},
+{
+"id": "467850",
+"data_hora": "2016-10-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Gledson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+}
+]
+},
+{
+"id": "467849",
+"data_hora": "2016-10-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"P Mingorance"
+]
+}
+]
+},
+{
+"id": "467852",
+"data_hora": "2016-10-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nixon Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Aman Campos"
+]
+}
+]
+},
+{
+"id": "467854",
+"data_hora": "2016-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Lopez Galindo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franklin William Vicente"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Lalinde"
+]
+}
+]
+},
+{
+"id": "467853",
+"data_hora": "2016-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "467855",
+"data_hora": "2016-10-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Moreno"
+]
+}
+]
+},
+{
+"id": "467856",
+"data_hora": "2016-10-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Frank De Leon"
+]
+}
+]
+},
+{
+"id": "467857",
+"data_hora": "2016-10-30T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Priego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marbel Aragon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+}
+]
+},
+{
+"id": "467990",
+"data_hora": "2016-11-02T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sixto Bentancourt"
+]
+}
+]
+},
+{
+"id": "467991",
+"data_hora": "2016-11-02T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+}
+]
+},
+{
+"id": "467992",
+"data_hora": "2016-11-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+}
+]
+},
+{
+"id": "467993",
+"data_hora": "2016-11-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Noriega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Guillermo Rodas Juarez"
+]
+}
+]
+},
+{
+"id": "467994",
+"data_hora": "2016-11-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "467998",
+"data_hora": "2016-11-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Andrade Ze Luis"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Negrete"
+]
+}
+]
+},
+{
+"id": "467999",
+"data_hora": "2016-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468000",
+"data_hora": "2016-11-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilber Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "468001",
+"data_hora": "2016-11-06T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Eduardo Mora Mena"
+]
+}
+]
+},
+{
+"id": "468002",
+"data_hora": "2016-11-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Benedicto Aldana"
+]
+}
+]
+},
+{
+"id": "468075",
+"data_hora": "2016-11-07T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castellanos Fernando Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenwi Velasquez"
+]
+}
+]
+},
+{
+"id": "468235",
+"data_hora": "2016-11-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Ascensio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Ascensio"
+]
+}
+]
+},
+{
+"id": "468188",
+"data_hora": "2016-11-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468272",
+"data_hora": "2016-11-19T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Chinchilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+}
+]
+},
+{
+"id": "468277",
+"data_hora": "2016-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468278",
+"data_hora": "2016-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "468279",
+"data_hora": "2016-11-20T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "468280",
+"data_hora": "2016-11-20T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468281",
+"data_hora": "2016-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Ladogana"
+]
+}
+]
+},
+{
+"id": "468356",
+"data_hora": "2016-11-23T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Carcha",
+"mandante_id": "18302",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Chinchilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Estrada"
+]
+}
+]
+},
+{
+"id": "468355",
+"data_hora": "2016-11-23T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+}
+]
+},
+{
+"id": "468406",
+"data_hora": "2016-11-24T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468357",
+"data_hora": "2016-11-24T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Castellanos Fernando Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Waldemar Acosta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Morales"
+]
+}
+]
+},
+{
+"id": "468407",
+"data_hora": "2016-11-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Sanchez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"C Ortiz"
+]
+}
+]
+},
+{
+"id": "468410",
+"data_hora": "2016-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Carcha",
+"visitante_id": "18302",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alejandro Galinso"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nelson Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alpuche Abraham"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alpuche Abraham"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabián Castillo"
+]
+}
+]
+},
+{
+"id": "468408",
+"data_hora": "2016-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Lima"
+]
+}
+]
+},
+{
+"id": "468413",
+"data_hora": "2016-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Victor Solalinde"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emerson García"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuri Morandi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Negrete"
+]
+}
+]
+},
+{
+"id": "468412",
+"data_hora": "2016-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "468409",
+"data_hora": "2016-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rima de Oliveira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Oritz"
+]
+}
+]
+},
+{
+"id": "468411",
+"data_hora": "2016-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Herbert Grajeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Maltez"
+]
+}
+]
+},
+{
+"id": "468702",
+"data_hora": "2016-12-01T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cobán Imperial",
+"mandante_id": "7254",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Verapaz",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Chinchilla"
+]
+}
+]
+},
+{
+"id": "468703",
+"data_hora": "2016-12-01T21:45Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Guastatoya",
+"mandante_id": "17516",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468684",
+"data_hora": "2016-12-04T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Cobán Imperial",
+"visitante_id": "7254",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Tinoco"
+]
+}
+]
+},
+{
+"id": "468685",
+"data_hora": "2016-12-04T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "CD Guastatoya",
+"visitante_id": "17516",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "468853",
+"data_hora": "2016-12-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Santeliz"
+]
+}
+]
+},
+{
+"id": "468854",
+"data_hora": "2016-12-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Emiliano Lopez"
+]
+}
+]
+},
+{
+"id": "468855",
+"data_hora": "2016-12-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"E Guerra"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pereira Janderson"
+]
+}
+]
+},
+{
+"id": "468856",
+"data_hora": "2016-12-11T17:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Agustin Herrera"
+]
+}
+]
+},
+{
+"id": "469389",
+"data_hora": "2016-12-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Antigua GFC",
+"mandante_id": "7253",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Pensativo",
+"cidade": "Antigua Guatemala",
+"publico": 0,
+"lances": []
+},
+{
+"id": "469390",
+"data_hora": "2016-12-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Antigua GFC",
+"visitante_id": "7253",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Puerari"
+]
+}
+]
+}
+]

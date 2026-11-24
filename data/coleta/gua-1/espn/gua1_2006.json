@@ -1,0 +1,4725 @@
+[
+{
+"id": "211331",
+"data_hora": "2006-07-30T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lester Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Godoy"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Godoy"
+]
+}
+]
+},
+{
+"id": "211332",
+"data_hora": "2006-07-30T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+}
+]
+},
+{
+"id": "211333",
+"data_hora": "2006-07-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Rosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+}
+]
+},
+{
+"id": "211334",
+"data_hora": "2006-07-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+}
+]
+},
+{
+"id": "211335",
+"data_hora": "2006-07-30T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edu Barros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Alvarado"
+]
+}
+]
+},
+{
+"id": "211336",
+"data_hora": "2006-08-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Giron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+}
+]
+},
+{
+"id": "211337",
+"data_hora": "2006-08-06T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Turcious"
+]
+}
+]
+},
+{
+"id": "211338",
+"data_hora": "2006-08-06T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Ponciano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Porfirio Garcia"
+]
+}
+]
+},
+{
+"id": "211339",
+"data_hora": "2006-08-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denilson Costa"
+]
+}
+]
+},
+{
+"id": "211340",
+"data_hora": "2006-08-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Roman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairon Ruano"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Trujillo"
+]
+}
+]
+},
+{
+"id": "211341",
+"data_hora": "2006-08-13T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Algeria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Pedroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Godoy"
+]
+}
+]
+},
+{
+"id": "211342",
+"data_hora": "2006-08-13T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Eduard Streltsov Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+}
+]
+},
+{
+"id": "211343",
+"data_hora": "2006-08-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Roman"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wendell Alarcon"
+]
+}
+]
+},
+{
+"id": "211344",
+"data_hora": "2006-08-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Calleta"
+]
+}
+]
+},
+{
+"id": "211345",
+"data_hora": "2006-08-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Ponciano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+}
+]
+},
+{
+"id": "211346",
+"data_hora": "2006-08-20T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derick Hulse"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Calleta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Águila"
+]
+}
+]
+},
+{
+"id": "211347",
+"data_hora": "2006-08-20T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Algeria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+}
+]
+},
+{
+"id": "211348",
+"data_hora": "2006-08-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+}
+]
+},
+{
+"id": "211349",
+"data_hora": "2006-08-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paez"
+]
+}
+]
+},
+{
+"id": "211350",
+"data_hora": "2006-08-20T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Richard"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Catalan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+}
+]
+},
+{
+"id": "211351",
+"data_hora": "2006-08-27T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Dos Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+}
+]
+},
+{
+"id": "211352",
+"data_hora": "2006-08-27T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Flores"
+]
+}
+]
+},
+{
+"id": "211353",
+"data_hora": "2006-08-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211354",
+"data_hora": "2006-08-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+}
+]
+},
+{
+"id": "211355",
+"data_hora": "2006-08-27T20:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Het Zuiderpark",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+}
+]
+},
+{
+"id": "211356",
+"data_hora": "2006-09-03T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+}
+]
+},
+{
+"id": "211358",
+"data_hora": "2006-09-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "211357",
+"data_hora": "2006-09-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Chavarria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan De Leon"
+]
+}
+]
+},
+{
+"id": "211359",
+"data_hora": "2006-09-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Ortiz"
+]
+}
+]
+},
+{
+"id": "211360",
+"data_hora": "2006-09-03T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elmer Ponciano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tr?ito Montepe"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+}
+]
+},
+{
+"id": "211361",
+"data_hora": "2006-09-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211362",
+"data_hora": "2006-09-10T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Het Zuiderpark",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+}
+]
+},
+{
+"id": "211363",
+"data_hora": "2006-09-10T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gregory Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Hurtarte"
+]
+}
+]
+},
+{
+"id": "211364",
+"data_hora": "2006-09-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Florencio Martinez"
+]
+}
+]
+},
+{
+"id": "211365",
+"data_hora": "2006-09-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paez"
+]
+}
+]
+},
+{
+"id": "211366",
+"data_hora": "2006-09-17T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Dos Santos"
+]
+}
+]
+},
+{
+"id": "211367",
+"data_hora": "2006-09-17T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211368",
+"data_hora": "2006-09-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolman Sandoval"
+]
+}
+]
+},
+{
+"id": "211369",
+"data_hora": "2006-09-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "211370",
+"data_hora": "2006-09-17T20:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Gutierrez"
+]
+}
+]
+},
+{
+"id": "211371",
+"data_hora": "2006-09-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Bol"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Sanabria"
+]
+}
+]
+},
+{
+"id": "211372",
+"data_hora": "2006-09-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "211373",
+"data_hora": "2006-09-24T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "6",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquin Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Derick Hulse"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Águila"
+]
+}
+]
+},
+{
+"id": "211374",
+"data_hora": "2006-09-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Giron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+}
+]
+},
+{
+"id": "211375",
+"data_hora": "2006-09-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Bauza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Godoy"
+]
+}
+]
+},
+{
+"id": "211376",
+"data_hora": "2006-09-28T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "211377",
+"data_hora": "2006-10-01T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+}
+]
+},
+{
+"id": "211378",
+"data_hora": "2006-10-01T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Barrios"
+]
+}
+]
+},
+{
+"id": "211379",
+"data_hora": "2006-10-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Alfredo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denilson Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Alfredo Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Gonzalez"
+]
+}
+]
+},
+{
+"id": "211380",
+"data_hora": "2006-10-01T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "211382",
+"data_hora": "2006-10-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211383",
+"data_hora": "2006-10-08T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denilson Costa"
+]
+}
+]
+},
+{
+"id": "211381",
+"data_hora": "2006-10-09T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alan Villeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+}
+]
+},
+{
+"id": "211384",
+"data_hora": "2006-10-15T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+}
+]
+},
+{
+"id": "211385",
+"data_hora": "2006-10-15T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Xavier Espana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Richard"
+]
+}
+]
+},
+{
+"id": "211386",
+"data_hora": "2006-10-15T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jarol Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ervin Alvarado"
+]
+}
+]
+},
+{
+"id": "211387",
+"data_hora": "2006-10-15T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mauricio Solis"
+]
+}
+]
+},
+{
+"id": "211388",
+"data_hora": "2006-10-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+}
+]
+},
+{
+"id": "211389",
+"data_hora": "2006-10-22T16:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Lopez"
+]
+}
+]
+},
+{
+"id": "211392",
+"data_hora": "2006-10-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Cotto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+}
+]
+},
+{
+"id": "211390",
+"data_hora": "2006-10-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+}
+]
+},
+{
+"id": "211391",
+"data_hora": "2006-10-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Ozaeta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Enrique Mejicanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Pedroza"
+]
+}
+]
+},
+{
+"id": "211393",
+"data_hora": "2006-10-22T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfred Velasquez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Patterson"
+]
+}
+]
+},
+{
+"id": "211394",
+"data_hora": "2006-10-29T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211395",
+"data_hora": "2006-10-29T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denilson Costa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Viera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Bonilla"
+]
+}
+]
+},
+{
+"id": "211396",
+"data_hora": "2006-10-29T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "211397",
+"data_hora": "2006-10-29T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Prudencio Alvarez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Fernando Mosquera Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Meda"
+]
+}
+]
+},
+{
+"id": "211398",
+"data_hora": "2006-10-29T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Thompson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+}
+]
+},
+{
+"id": "211399",
+"data_hora": "2006-11-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211400",
+"data_hora": "2006-11-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gallardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Ozaeta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Enriquez"
+]
+}
+]
+},
+{
+"id": "211401",
+"data_hora": "2006-11-05T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211402",
+"data_hora": "2006-11-05T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin villatoro"
+]
+}
+]
+},
+{
+"id": "211403",
+"data_hora": "2006-11-05T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+}
+]
+},
+{
+"id": "211404",
+"data_hora": "2006-11-09T03:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211405",
+"data_hora": "2006-11-12T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patricio Armenak"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairon Ruano"
+]
+}
+]
+},
+{
+"id": "211406",
+"data_hora": "2006-11-12T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Jesus Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+}
+]
+},
+{
+"id": "211407",
+"data_hora": "2006-11-12T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Arriaza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sebastain Viera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+}
+]
+},
+{
+"id": "211408",
+"data_hora": "2006-11-12T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Fern?ez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "211409",
+"data_hora": "2006-11-12T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Meda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"William Castillo"
+]
+}
+]
+},
+{
+"id": "211412",
+"data_hora": "2006-11-18T18:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211410",
+"data_hora": "2006-11-18T22:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211411",
+"data_hora": "2006-11-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Donis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jimmy Grajeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Meono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marlon Aceituno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Gutierrez"
+]
+}
+]
+},
+{
+"id": "211413",
+"data_hora": "2006-11-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "211476",
+"data_hora": "2006-11-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+}
+]
+},
+{
+"id": "211477",
+"data_hora": "2006-11-22T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tr?ito Montepe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Porfirio Garcia"
+]
+}
+]
+},
+{
+"id": "211479",
+"data_hora": "2006-11-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211478",
+"data_hora": "2006-11-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sando Zamboni"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Florencio Martinez"
+]
+}
+]
+},
+{
+"id": "211480",
+"data_hora": "2006-11-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+}
+]
+},
+{
+"id": "211481",
+"data_hora": "2006-11-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+}
+]
+},
+{
+"id": "211482",
+"data_hora": "2006-11-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+}
+]
+},
+{
+"id": "211699",
+"data_hora": "2006-11-30T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211700",
+"data_hora": "2006-12-01T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Pedroza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lucas Meono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jean Márquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+}
+]
+},
+{
+"id": "211800",
+"data_hora": "2006-12-07T02:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211801",
+"data_hora": "2006-12-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211819",
+"data_hora": "2006-12-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211825",
+"data_hora": "2006-12-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211826",
+"data_hora": "2006-12-10T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "212487",
+"data_hora": "2006-12-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "211976",
+"data_hora": "2006-12-17T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+}
+]

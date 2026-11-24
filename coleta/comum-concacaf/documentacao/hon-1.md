@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-concacaf/documentar.py` a partir do pacote `data
 - **Jogos:** 5391 (5385 com placar); **gols:** 13983; **gols com autor:** 2529 (18%); **cartões:** 0.
 - **Clubes:** 55; **artilheiros:** 1 edições com artilheiro (1 linhas, com empates).
 - **Classificação final:** 89 edições; **tabelas publicadas guardadas para conferência:** 992 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** sim; **último commit do pacote:** 6e59e93.
 - **Observação da competição:** Liga Nacional de Honduras de 1965/66 ao Clausura 2026, uma edição por título, como a lista de campeões da RSSSF: um campeão por temporada até 1996/97 (1972/73 abandonada, sem campeão), Apertura e Clausura de 1997/98 em diante (1999, torneio único; Clausura 2020 sem campeão). Até 1995/96 só as tabelas. A Liga Amateur de 1947-1964 fica fora (não é reconhecida pela liga).
 
 ## 2. Edições, fontes e regras

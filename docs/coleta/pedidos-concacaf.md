@@ -161,7 +161,7 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
    torneio único de 1999; duas sem campeão (1972/73, abandonada, e Clausura 2020, pandemia). 5.391 jogos (1996/97 em
    diante), 55 clubes, 13.983 gols (2.529 com autor), sem cartões. Fontes: RSSSF e ESPN (`hon.1`, para hora, estádio e
    público). Campeão e vice batem com a lista em todas as edições; o 1º da classificação é sempre o campeão.
-2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+2. **Commits:** `6e59e93` (24/11). Sem push.
 3. **Teste de carga:** `hon-1: 89 edições, 5391 jogos, 55 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `data/coleta/hon-1/pacote/`;
@@ -180,3 +180,34 @@ Para o agente 1 (banco e painel) e para o agente de revisão.
 7. **Onde a revisão deve olhar primeiro:** 1997 Apertura, 2002 Apertura, 2002 Clausura, 2005 Apertura e 2007 Clausura (um
    resultado diferente entre a página e a tabela dela); os jogos anulados e repetidos de 2002 Apertura e 2007 Clausura.
 8. **Próxima competição:** Guatemala (`gua-1`), com o escopo antes.
+
+## 24/11/2026 — Guatemala (gua-1): escopo
+
+Só o Campeonato de Liga (Liga Nacional), de 1942/43 em diante, como a contagem oficial. A Liga Capitalina / Liga Mayor
+(1919-1941, liga da capital) fica fora; a RSSSF a lista à parte.
+
+## Recado de fim de coleta — gua-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e para o agente de revisão.
+
+1. **O que foi feito:** Campeonato Guatemalteco (`gua-1`, Liga Nacional), 101 edições, uma por título, como a lista da
+   RSSSF (`guatchamp.html`, 100 títulos desde 1942) e a contagem oficial: um campeão por temporada de 1942/43 a 1998/99 e
+   Apertura e Clausura de 1999/00 ao Clausura 2026 (2001: Reordenamiento; Clausura 2020 sem campeão). 6.836 jogos
+   (1996/97 em diante), 73 clubes, 17.562 gols (2.954 com autor), sem cartões. Fontes: RSSSF e ESPN (`gua.1`, para hora,
+   estádio e público). O campeão bate com a lista em todas as edições e é sempre o 1º da classificação.
+2. **Commits:** nenhum ainda (espera o ok do Guilherme).
+3. **Teste de carga:** `gua-1: 101 edições, 6836 jogos, 73 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar `data/coleta/gua-1/pacote/`;
+   - **país novo: Guatemala (`GUA`)**, em `paises.csv`; nunca foi à Copa do Mundo: **baixar a bandeira**;
+   - 48 edições só com a tabela (1942/43 a 1995/96 e Apertura 2010 a Clausura 2012);
+   - a lista de campeões não traz o vice: o `vice` de `edicoes.csv` é o 2º da classificação.
+5. **Decisões** (24/11): escopo só com a Liga Nacional, de 1942/43 em diante (a Liga Capitalina, 1919-1941, era a liga da
+   capital e fica fora, como a contagem oficial); Halcones La Mesilla = Peñarol La Mesilla (a ESPN segue chamando de
+   "Penarol"); Universidad / USAC; homônimos com o país (Aurora, Hércules, Racing, España, América e Eureka "de
+   Guatemala"); pontos por vitória (2 ou 3) tirados da tabela publicada de cada temporada.
+6. **O que não deu para coletar:** jogos de 1942/43 a 1995/96 (fonte: jornais da época ou a Liga Nacional); a fase regular de
+   2010/11 e 2011/12; o vice na lista oficial; autores dos gols e cartões na maior parte dos anos.
+7. **Onde a revisão deve olhar primeiro:** 1996/97, 1999 Apertura e 2000 Apertura (um jogo faltando ou um gol diferente na
+   página); 1998/99 (grupo do rebaixamento sem placar); o vice das edições só com tabela.
+8. **Próxima competição:** El Salvador (`slv-1`), com o escopo antes.

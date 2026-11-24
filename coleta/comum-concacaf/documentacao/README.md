@@ -6,10 +6,11 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 56671 | 42633 | 92 | 116 / 33 | não | cb0355f | 0 | [mex-1](mex-1.md) |
+| Campeonato Mexicano | 158 (1902/03–2026 Clausura) | 2 | 26606 | 56671 | 42633 | 92 | 116 / 33 | sim | cb0355f | 0 | [mex-1](mex-1.md) |
 | Campeonato Norte-Americano | 63 (1921/22–2025) | 35 | 8708 | 21918 | 30061 | 134 | 25 / 1 | sim | bb8432b | 0 | [usa-1](usa-1.md) |
-| Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2813 | 0 | 65 | 40 / 4 | não | 17766bf | 0 | [crc-1](crc-1.md) |
-| Campeonato Hondurenho | 89 (1965/66–2026 Clausura) | 35 | 5391 | 2529 | 0 | 55 | 47 / 5 | não | — | 0 | [hon-1](hon-1.md) |
+| Campeonato Costarriquenho | 123 (1921–2026 Clausura) | 74 | 7065 | 2813 | 0 | 65 | 40 / 4 | sim | 17766bf | 0 | [crc-1](crc-1.md) |
+| Campeonato Hondurenho | 89 (1965/66–2026 Clausura) | 35 | 5391 | 2529 | 0 | 55 | 47 / 5 | sim | 6e59e93 | 0 | [hon-1](hon-1.md) |
+| Campeonato Guatemalteco | 101 (1942/43–2026 Clausura) | 48 | 6836 | 2954 | 0 | 73 | 48 / 3 | não | — | 0 | [gua-1](gua-1.md) |
 
 ## Pendências de todas as competições
 
@@ -32,6 +33,10 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **hon-1:** Apertura 2010 a Clausura 2012 só com as tabelas (a página da RSSSF não tem a fase regular).
 - **hon-1:** Erros de um resultado na própria página em 1997 Apertura, 2002 Apertura, 2002 Clausura, 2005 Apertura e 2007 Clausura: explicados no relatório.
 - **hon-1:** Liga Amateur de Honduras (1947-1964) fora do hon-1 (decisão de 24/11); se o Guilherme quiser, entra como competição própria.
+- **gua-1:** 1942/43 a 1995/96 só com as tabelas (a RSSSF quase não tem os jogos). Fonte que resolveria: jornais da época (Prensa Libre, El Imparcial) ou a Liga Nacional.
+- **gua-1:** Apertura 2010 a Clausura 2012 só com as tabelas (a página da RSSSF não tem a fase regular).
+- **gua-1:** A lista de campeões não traz o vice: o vice é o 2º da classificação (conferir com outra fonte).
+- **gua-1:** 1998/99: parte dos jogos do grupo do rebaixamento só com o resultado (sem placar).
 
 ## Próximas competições
 

@@ -1,0 +1,8940 @@
+[
+{
+"id": "312032",
+"data_hora": "2011-01-15T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Dos Santos"
+]
+}
+]
+},
+{
+"id": "312036",
+"data_hora": "2011-01-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evandro Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Grajeda"
+]
+}
+]
+},
+{
+"id": "312033",
+"data_hora": "2011-01-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Patterson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Jucup"
+]
+}
+]
+},
+{
+"id": "312034",
+"data_hora": "2011-01-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bengua"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "312035",
+"data_hora": "2011-01-16T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "312037",
+"data_hora": "2011-01-16T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "312187",
+"data_hora": "2011-01-22T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+}
+]
+},
+{
+"id": "312188",
+"data_hora": "2011-01-22T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bengua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lemus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+}
+]
+},
+{
+"id": "312189",
+"data_hora": "2011-01-23T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Estacuy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Sosa"
+]
+}
+]
+},
+{
+"id": "312190",
+"data_hora": "2011-01-23T17:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "312191",
+"data_hora": "2011-01-23T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Arturo Chacon"
+]
+}
+]
+},
+{
+"id": "312192",
+"data_hora": "2011-01-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "312263",
+"data_hora": "2011-01-26T19:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "312264",
+"data_hora": "2011-01-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+}
+]
+},
+{
+"id": "312265",
+"data_hora": "2011-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+}
+]
+},
+{
+"id": "312266",
+"data_hora": "2011-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evandro Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Isamel"
+]
+}
+]
+},
+{
+"id": "312267",
+"data_hora": "2011-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+}
+]
+},
+{
+"id": "312268",
+"data_hora": "2011-01-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+}
+]
+},
+{
+"id": "313070",
+"data_hora": "2011-01-29T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+}
+]
+},
+{
+"id": "313071",
+"data_hora": "2011-01-29T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adulfo Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dwight Pezzarossi"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+}
+]
+},
+{
+"id": "313073",
+"data_hora": "2011-01-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Chinchilla"
+]
+}
+]
+},
+{
+"id": "313072",
+"data_hora": "2011-01-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Igor"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gregory Ruiz"
+]
+}
+]
+},
+{
+"id": "313074",
+"data_hora": "2011-01-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Lopez"
+]
+}
+]
+},
+{
+"id": "313075",
+"data_hora": "2011-01-30T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "313589",
+"data_hora": "2011-02-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "313588",
+"data_hora": "2011-02-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin González"
+]
+}
+]
+},
+{
+"id": "313590",
+"data_hora": "2011-02-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+}
+]
+},
+{
+"id": "313591",
+"data_hora": "2011-02-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Porras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Porras"
+]
+}
+]
+},
+{
+"id": "313592",
+"data_hora": "2011-02-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Leal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Enriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+}
+]
+},
+{
+"id": "313593",
+"data_hora": "2011-02-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jacinto Mendez"
+]
+}
+]
+},
+{
+"id": "313594",
+"data_hora": "2011-02-05T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquin Alvarez"
+]
+}
+]
+},
+{
+"id": "313595",
+"data_hora": "2011-02-05T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+}
+]
+},
+{
+"id": "313596",
+"data_hora": "2011-02-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfred Velasquez"
+]
+}
+]
+},
+{
+"id": "313597",
+"data_hora": "2011-02-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Zuniga"
+]
+}
+]
+},
+{
+"id": "313598",
+"data_hora": "2011-02-06T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Orvelio Mazariegos"
+]
+}
+]
+},
+{
+"id": "313599",
+"data_hora": "2011-02-06T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Claudio Albizuris"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Angel Padilla"
+]
+}
+]
+},
+{
+"id": "313104",
+"data_hora": "2011-02-09T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Delmar Cobon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Igor"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+}
+]
+},
+{
+"id": "314083",
+"data_hora": "2011-02-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomas De Souza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "314078",
+"data_hora": "2011-02-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ciani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Leal"
+]
+}
+]
+},
+{
+"id": "314079",
+"data_hora": "2011-02-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonidas Palacios"
+]
+}
+]
+},
+{
+"id": "314080",
+"data_hora": "2011-02-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Betancur"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Perez Aracil"
+]
+}
+]
+},
+{
+"id": "314081",
+"data_hora": "2011-02-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "314082",
+"data_hora": "2011-02-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhonny Leonardo"
+]
+}
+]
+},
+{
+"id": "314414",
+"data_hora": "2011-02-16T19:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Motta"
+]
+}
+]
+},
+{
+"id": "314415",
+"data_hora": "2011-02-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+}
+]
+},
+{
+"id": "314416",
+"data_hora": "2011-02-16T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Ortiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Perez Aracil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Arturo Chacon"
+]
+}
+]
+},
+{
+"id": "314417",
+"data_hora": "2011-02-17T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paes"
+]
+}
+]
+},
+{
+"id": "314418",
+"data_hora": "2011-02-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bengua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cobon"
+]
+}
+]
+},
+{
+"id": "314419",
+"data_hora": "2011-02-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evandro Ferreira"
+]
+}
+]
+},
+{
+"id": "314457",
+"data_hora": "2011-02-19T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ordez"
+]
+}
+]
+},
+{
+"id": "314458",
+"data_hora": "2011-02-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Crossa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Crossa"
+]
+}
+]
+},
+{
+"id": "314459",
+"data_hora": "2011-02-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jacinto Mendez"
+]
+}
+]
+},
+{
+"id": "314460",
+"data_hora": "2011-02-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Passos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Betancur"
+]
+}
+]
+},
+{
+"id": "314461",
+"data_hora": "2011-02-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314462",
+"data_hora": "2011-02-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Jucup"
+]
+}
+]
+},
+{
+"id": "314495",
+"data_hora": "2011-02-23T19:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+}
+]
+},
+{
+"id": "314496",
+"data_hora": "2011-02-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Bernal"
+]
+}
+]
+},
+{
+"id": "314497",
+"data_hora": "2011-02-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronael Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+}
+]
+},
+{
+"id": "314498",
+"data_hora": "2011-02-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Ascensio"
+]
+}
+]
+},
+{
+"id": "314499",
+"data_hora": "2011-02-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franco Sosa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+}
+]
+},
+{
+"id": "314500",
+"data_hora": "2011-02-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hamilton Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Giovani Cardona"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonidas Palacios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "314501",
+"data_hora": "2011-02-26T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Pineyro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Saul De Mata"
+]
+}
+]
+},
+{
+"id": "314502",
+"data_hora": "2011-02-27T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Martin Crossa"
+]
+}
+]
+},
+{
+"id": "314503",
+"data_hora": "2011-02-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Villatoro"
+]
+}
+]
+},
+{
+"id": "314504",
+"data_hora": "2011-02-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Villa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+}
+]
+},
+{
+"id": "314505",
+"data_hora": "2011-02-27T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Perez Aracil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Herron"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edy Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+}
+]
+},
+{
+"id": "314506",
+"data_hora": "2011-02-27T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dwight Pezzarossi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Dos Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Gomez"
+]
+}
+]
+},
+{
+"id": "314670",
+"data_hora": "2011-03-05T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Águila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Águila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquin Alvarez"
+]
+}
+]
+},
+{
+"id": "314671",
+"data_hora": "2011-03-06T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Swisher"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+}
+]
+},
+{
+"id": "314672",
+"data_hora": "2011-03-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alison Batista"
+]
+}
+]
+},
+{
+"id": "314673",
+"data_hora": "2011-03-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Chacon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Igor"
+]
+}
+]
+},
+{
+"id": "314674",
+"data_hora": "2011-03-06T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Diego Aroche"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Garcia"
+]
+}
+]
+},
+{
+"id": "314675",
+"data_hora": "2011-03-06T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "314816",
+"data_hora": "2011-03-09T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314817",
+"data_hora": "2011-03-09T19:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314818",
+"data_hora": "2011-03-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314819",
+"data_hora": "2011-03-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Pineyro"
+]
+}
+]
+},
+{
+"id": "314820",
+"data_hora": "2011-03-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "314821",
+"data_hora": "2011-03-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314842",
+"data_hora": "2011-03-12T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Ruiz"
+]
+}
+]
+},
+{
+"id": "314843",
+"data_hora": "2011-03-13T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+}
+]
+},
+{
+"id": "314845",
+"data_hora": "2011-03-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314844",
+"data_hora": "2011-03-13T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Samayoa"
+]
+}
+]
+},
+{
+"id": "314846",
+"data_hora": "2011-03-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edy Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Guimaraes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dhannon Wellcomen"
+]
+}
+]
+},
+{
+"id": "314847",
+"data_hora": "2011-03-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Salguero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Cotto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+}
+]
+},
+{
+"id": "315176",
+"data_hora": "2011-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "315177",
+"data_hora": "2011-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Igor"
+]
+}
+]
+},
+{
+"id": "315178",
+"data_hora": "2011-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "315179",
+"data_hora": "2011-03-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomas De Souza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Vides"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+}
+]
+},
+{
+"id": "315180",
+"data_hora": "2011-03-20T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dhannon Wellcomen"
+]
+}
+]
+},
+{
+"id": "315181",
+"data_hora": "2011-03-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Rodríguez"
+]
+}
+]
+},
+{
+"id": "315241",
+"data_hora": "2011-03-23T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hamilton Lopez"
+]
+}
+]
+},
+{
+"id": "315242",
+"data_hora": "2011-03-23T19:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Lopez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Kamiani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Moreira"
+]
+}
+]
+},
+{
+"id": "315243",
+"data_hora": "2011-03-24T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Thompson"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alison Batista"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+}
+]
+},
+{
+"id": "315245",
+"data_hora": "2011-03-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lemus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lemus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+}
+]
+},
+{
+"id": "315244",
+"data_hora": "2011-03-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Águila"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osmar Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osmar Lopez"
+]
+}
+]
+},
+{
+"id": "315246",
+"data_hora": "2011-03-24T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Everaldo Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Lopez"
+]
+}
+]
+},
+{
+"id": "315336",
+"data_hora": "2011-04-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osmar Lopez"
+]
+}
+]
+},
+{
+"id": "315337",
+"data_hora": "2011-04-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "315338",
+"data_hora": "2011-04-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lester Ruiz"
+]
+}
+]
+},
+{
+"id": "315339",
+"data_hora": "2011-04-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ordez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+}
+]
+},
+{
+"id": "315340",
+"data_hora": "2011-04-03T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Bengua"
+]
+}
+]
+},
+{
+"id": "315341",
+"data_hora": "2011-04-03T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hamilton Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel Campos"
+]
+}
+]
+},
+{
+"id": "315384",
+"data_hora": "2011-04-09T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Águila"
+]
+}
+]
+},
+{
+"id": "315385",
+"data_hora": "2011-04-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+}
+]
+},
+{
+"id": "315386",
+"data_hora": "2011-04-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "315387",
+"data_hora": "2011-04-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Curcio"
+]
+}
+]
+},
+{
+"id": "315388",
+"data_hora": "2011-04-10T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Arturo Chacon"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+}
+]
+},
+{
+"id": "315389",
+"data_hora": "2011-04-10T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+}
+]
+},
+{
+"id": "315467",
+"data_hora": "2011-04-13T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Vega"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abner Trigueros"
+]
+}
+]
+},
+{
+"id": "315468",
+"data_hora": "2011-04-13T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Allan Lemus"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Rodríguez"
+]
+}
+]
+},
+{
+"id": "315469",
+"data_hora": "2011-04-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hamilton Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Santos"
+]
+}
+]
+},
+{
+"id": "315470",
+"data_hora": "2011-04-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guilherme de Paulo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Perez Aracil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edy Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Martinez Saut"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Vanegas"
+]
+}
+]
+},
+{
+"id": "315471",
+"data_hora": "2011-04-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Osmar Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "315472",
+"data_hora": "2011-04-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Azurdia"
+]
+}
+]
+},
+{
+"id": "316081",
+"data_hora": "2011-04-16T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomas De Souza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jhony Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+}
+]
+},
+{
+"id": "316082",
+"data_hora": "2011-04-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Evandro Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+}
+]
+},
+{
+"id": "316083",
+"data_hora": "2011-04-17T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316084",
+"data_hora": "2011-04-17T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+}
+]
+},
+{
+"id": "316085",
+"data_hora": "2011-04-17T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Santos"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin Mosquera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Casar Vega"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Lopez"
+]
+}
+]
+},
+{
+"id": "316086",
+"data_hora": "2011-04-17T21:35Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gregory Ruiz"
+]
+}
+]
+},
+{
+"id": "316136",
+"data_hora": "2011-04-19T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316137",
+"data_hora": "2011-04-19T21:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316132",
+"data_hora": "2011-04-20T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raul Gonzalez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Curcio"
+]
+}
+]
+},
+{
+"id": "316133",
+"data_hora": "2011-04-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcelo Santos"
+]
+}
+]
+},
+{
+"id": "316134",
+"data_hora": "2011-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Universidad",
+"visitante_id": "10500",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Ruiz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Ruiz"
+]
+}
+]
+},
+{
+"id": "316135",
+"data_hora": "2011-04-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manuel Soto"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+}
+]
+},
+{
+"id": "316193",
+"data_hora": "2011-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Curcio"
+]
+}
+]
+},
+{
+"id": "316191",
+"data_hora": "2011-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+}
+]
+},
+{
+"id": "316192",
+"data_hora": "2011-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shannon Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shannon Welcome"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Bernal"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adulfo Contreras"
+]
+}
+]
+},
+{
+"id": "316194",
+"data_hora": "2011-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Roberto Porras"
+]
+}
+]
+},
+{
+"id": "316195",
+"data_hora": "2011-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Universidad",
+"mandante_id": "10500",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Motta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elkin González"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Felix"
+]
+}
+]
+},
+{
+"id": "316196",
+"data_hora": "2011-04-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andoni Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian Caballero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Darwin Oliva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian Caballero"
+]
+}
+]
+},
+{
+"id": "316306",
+"data_hora": "2011-04-28T18:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316409",
+"data_hora": "2011-04-28T18:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316307",
+"data_hora": "2011-04-29T02:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316403",
+"data_hora": "2011-04-29T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Rodríguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Curcio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Chinchilla"
+]
+}
+]
+},
+{
+"id": "316308",
+"data_hora": "2011-05-01T00:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316410",
+"data_hora": "2011-05-01T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "7",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dwight Pezzarossi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Discua"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+}
+]
+},
+{
+"id": "316309",
+"data_hora": "2011-05-01T18:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316411",
+"data_hora": "2011-05-01T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hamilton Lopez"
+]
+}
+]
+},
+{
+"id": "316511",
+"data_hora": "2011-05-05T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316512",
+"data_hora": "2011-05-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Gomez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+}
+]
+},
+{
+"id": "316537",
+"data_hora": "2011-05-08T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pedro Samayoa"
+]
+}
+]
+},
+{
+"id": "316538",
+"data_hora": "2011-05-08T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bryan Ordez"
+]
+}
+]
+},
+{
+"id": "316634",
+"data_hora": "2011-05-13T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dwight Pezzarossi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abner Trigueros"
+]
+}
+]
+},
+{
+"id": "316691",
+"data_hora": "2011-05-15T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Transito Montepeque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael Morales"
+]
+}
+]
+},
+{
+"id": "330261",
+"data_hora": "2011-07-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330262",
+"data_hora": "2011-07-10T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330263",
+"data_hora": "2011-07-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330264",
+"data_hora": "2011-07-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "330265",
+"data_hora": "2011-07-10T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330266",
+"data_hora": "2011-07-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330255",
+"data_hora": "2011-07-16T19:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330256",
+"data_hora": "2011-07-16T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330257",
+"data_hora": "2011-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330258",
+"data_hora": "2011-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330259",
+"data_hora": "2011-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330260",
+"data_hora": "2011-07-17T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330267",
+"data_hora": "2011-07-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+}
+]
+},
+{
+"id": "330269",
+"data_hora": "2011-07-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330268",
+"data_hora": "2011-07-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330270",
+"data_hora": "2011-07-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330271",
+"data_hora": "2011-07-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "330272",
+"data_hora": "2011-07-24T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330274",
+"data_hora": "2011-07-30T19:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330273",
+"data_hora": "2011-07-30T19:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330275",
+"data_hora": "2011-07-31T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330276",
+"data_hora": "2011-07-31T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330277",
+"data_hora": "2011-07-31T19:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330278",
+"data_hora": "2011-07-31T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328947",
+"data_hora": "2011-08-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328948",
+"data_hora": "2011-08-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "328949",
+"data_hora": "2011-08-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328951",
+"data_hora": "2011-08-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328950",
+"data_hora": "2011-08-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "328952",
+"data_hora": "2011-08-07T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330088",
+"data_hora": "2011-08-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330091",
+"data_hora": "2011-08-14T01:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330092",
+"data_hora": "2011-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330093",
+"data_hora": "2011-08-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "330094",
+"data_hora": "2011-08-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "330095",
+"data_hora": "2011-08-14T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331089",
+"data_hora": "2011-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331084",
+"data_hora": "2011-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331085",
+"data_hora": "2011-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331086",
+"data_hora": "2011-08-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331087",
+"data_hora": "2011-08-21T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "6",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331088",
+"data_hora": "2011-08-21T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331443",
+"data_hora": "2011-08-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331442",
+"data_hora": "2011-08-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331444",
+"data_hora": "2011-08-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331445",
+"data_hora": "2011-08-28T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331446",
+"data_hora": "2011-08-28T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331447",
+"data_hora": "2011-08-28T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331898",
+"data_hora": "2011-08-31T18:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331899",
+"data_hora": "2011-08-31T18:15Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331900",
+"data_hora": "2011-08-31T19:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331901",
+"data_hora": "2011-09-01T01:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331902",
+"data_hora": "2011-09-01T02:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331903",
+"data_hora": "2011-09-01T02:00Z",
+"situacao": "STATUS_SCHEDULED",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331991",
+"data_hora": "2011-09-08T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331992",
+"data_hora": "2011-09-09T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331993",
+"data_hora": "2011-09-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331994",
+"data_hora": "2011-09-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331996",
+"data_hora": "2011-09-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331995",
+"data_hora": "2011-09-10T16:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332449",
+"data_hora": "2011-09-17T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332450",
+"data_hora": "2011-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332451",
+"data_hora": "2011-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332452",
+"data_hora": "2011-09-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332453",
+"data_hora": "2011-09-18T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332454",
+"data_hora": "2011-09-18T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332629",
+"data_hora": "2011-09-24T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332630",
+"data_hora": "2011-09-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332631",
+"data_hora": "2011-09-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332632",
+"data_hora": "2011-09-25T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332633",
+"data_hora": "2011-09-25T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332634",
+"data_hora": "2011-09-25T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332713",
+"data_hora": "2011-10-02T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332714",
+"data_hora": "2011-10-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332715",
+"data_hora": "2011-10-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332716",
+"data_hora": "2011-10-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332717",
+"data_hora": "2011-10-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332718",
+"data_hora": "2011-10-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lester Ruiz"
+]
+}
+]
+},
+{
+"id": "332902",
+"data_hora": "2011-10-05T18:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332903",
+"data_hora": "2011-10-05T18:15Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332904",
+"data_hora": "2011-10-05T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332907",
+"data_hora": "2011-10-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332908",
+"data_hora": "2011-10-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332909",
+"data_hora": "2011-10-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332941",
+"data_hora": "2011-10-09T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332942",
+"data_hora": "2011-10-09T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332943",
+"data_hora": "2011-10-09T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333343",
+"data_hora": "2011-10-22T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333348",
+"data_hora": "2011-10-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333346",
+"data_hora": "2011-10-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333347",
+"data_hora": "2011-10-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333349",
+"data_hora": "2011-10-23T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333352",
+"data_hora": "2011-10-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333387",
+"data_hora": "2011-10-26T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333388",
+"data_hora": "2011-10-26T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333389",
+"data_hora": "2011-10-26T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333390",
+"data_hora": "2011-10-26T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333391",
+"data_hora": "2011-10-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333392",
+"data_hora": "2011-10-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333586",
+"data_hora": "2011-10-29T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333588",
+"data_hora": "2011-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333587",
+"data_hora": "2011-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333589",
+"data_hora": "2011-10-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333590",
+"data_hora": "2011-10-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333591",
+"data_hora": "2011-10-30T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333622",
+"data_hora": "2011-11-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hector Alejandro Inarejo Suazo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ivan Trujillo"
+]
+}
+]
+},
+{
+"id": "333623",
+"data_hora": "2011-11-02T18:15Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Passos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Villanueva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilder Galicia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Henry Hernández"
+]
+}
+]
+},
+{
+"id": "333624",
+"data_hora": "2011-11-02T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Bentancur"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andy Furtado"
+]
+}
+]
+},
+{
+"id": "333626",
+"data_hora": "2011-11-03T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333631",
+"data_hora": "2011-11-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alexis Matta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lester Ruiz"
+]
+}
+]
+},
+{
+"id": "333632",
+"data_hora": "2011-11-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333761",
+"data_hora": "2011-11-09T21:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333762",
+"data_hora": "2011-11-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333763",
+"data_hora": "2011-11-10T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333764",
+"data_hora": "2011-11-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333765",
+"data_hora": "2011-11-10T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333760",
+"data_hora": "2011-11-10T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333825",
+"data_hora": "2011-11-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334063",
+"data_hora": "2011-11-19T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334064",
+"data_hora": "2011-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Juventud Retalteca",
+"mandante_id": "10499",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334065",
+"data_hora": "2011-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334066",
+"data_hora": "2011-11-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334067",
+"data_hora": "2011-11-20T19:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Penarol",
+"visitante_id": "8407",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334068",
+"data_hora": "2011-11-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334148",
+"data_hora": "2011-11-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Canchan"
+]
+}
+]
+},
+{
+"id": "334149",
+"data_hora": "2011-11-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334150",
+"data_hora": "2011-11-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334152",
+"data_hora": "2011-11-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334153",
+"data_hora": "2011-11-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Atlético Mictlán",
+"visitante_id": "7260",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "334154",
+"data_hora": "2011-11-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334228",
+"data_hora": "2011-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Atlético Mictlán",
+"mandante_id": "7260",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334226",
+"data_hora": "2011-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334227",
+"data_hora": "2011-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334229",
+"data_hora": "2011-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Penarol",
+"mandante_id": "8407",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334230",
+"data_hora": "2011-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Juventud Retalteca",
+"visitante_id": "10499",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "334231",
+"data_hora": "2011-11-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334469",
+"data_hora": "2011-12-08T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334470",
+"data_hora": "2011-12-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334499",
+"data_hora": "2011-12-11T02:00Z",
+"situacao": "STATUS_ABANDONED",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334500",
+"data_hora": "2011-12-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "334579",
+"data_hora": "2011-12-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334581",
+"data_hora": "2011-12-18T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": []
+}
+]

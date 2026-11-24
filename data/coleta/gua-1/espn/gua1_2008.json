@@ -1,0 +1,8341 @@
+[
+{
+"id": "236871",
+"data_hora": "2008-02-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+}
+]
+},
+{
+"id": "236877",
+"data_hora": "2008-02-17T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+}
+]
+},
+{
+"id": "236878",
+"data_hora": "2008-02-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Engelver Herrera"
+]
+}
+]
+},
+{
+"id": "236872",
+"data_hora": "2008-02-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edin Lopez"
+]
+}
+]
+},
+{
+"id": "236879",
+"data_hora": "2008-02-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adulfo Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Swisher"
+]
+}
+]
+},
+{
+"id": "236890",
+"data_hora": "2008-02-20T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Meda"
+]
+}
+]
+},
+{
+"id": "236888",
+"data_hora": "2008-02-20T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Vanegas"
+]
+}
+]
+},
+{
+"id": "236892",
+"data_hora": "2008-02-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jarol Miranda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Cotto"
+]
+}
+]
+},
+{
+"id": "236893",
+"data_hora": "2008-02-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+}
+]
+},
+{
+"id": "236891",
+"data_hora": "2008-02-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "236961",
+"data_hora": "2008-02-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Morales"
+]
+}
+]
+},
+{
+"id": "236935",
+"data_hora": "2008-02-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+}
+]
+},
+{
+"id": "236939",
+"data_hora": "2008-02-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "236959",
+"data_hora": "2008-02-24T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+}
+]
+},
+{
+"id": "236934",
+"data_hora": "2008-02-24T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Ponciano"
+]
+}
+]
+},
+{
+"id": "237549",
+"data_hora": "2008-03-01T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+}
+]
+},
+{
+"id": "237547",
+"data_hora": "2008-03-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Gil"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hernan Sandoval"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodriguez"
+]
+}
+]
+},
+{
+"id": "237548",
+"data_hora": "2008-03-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+}
+]
+},
+{
+"id": "237568",
+"data_hora": "2008-03-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonny Brown"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "237569",
+"data_hora": "2008-03-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Motta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Motta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joao Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Xavier Espana"
+]
+}
+]
+},
+{
+"id": "237695",
+"data_hora": "2008-03-07T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "237697",
+"data_hora": "2008-03-08T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "237696",
+"data_hora": "2008-03-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Dos Santos"
+]
+}
+]
+},
+{
+"id": "237720",
+"data_hora": "2008-03-09T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "237721",
+"data_hora": "2008-03-09T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Cotto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Rosales"
+]
+}
+]
+},
+{
+"id": "238041",
+"data_hora": "2008-03-15T21:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+}
+]
+},
+{
+"id": "238053",
+"data_hora": "2008-03-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Meda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Meda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eddy Ortiz"
+]
+}
+]
+},
+{
+"id": "238052",
+"data_hora": "2008-03-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "5",
+"gols_visitante": "4",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Norton Griffiths"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+}
+]
+},
+{
+"id": "238054",
+"data_hora": "2008-03-16T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Antonio"
+]
+}
+]
+},
+{
+"id": "238068",
+"data_hora": "2008-03-16T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Gonzalez"
+]
+}
+]
+},
+{
+"id": "238098",
+"data_hora": "2008-03-19T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "238097",
+"data_hora": "2008-03-19T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Vanegas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ciani"
+]
+}
+]
+},
+{
+"id": "238105",
+"data_hora": "2008-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erwin Godoy"
+]
+}
+]
+},
+{
+"id": "238106",
+"data_hora": "2008-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Asprilla"
+]
+}
+]
+},
+{
+"id": "238099",
+"data_hora": "2008-03-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Barrios"
+]
+}
+]
+},
+{
+"id": "238460",
+"data_hora": "2008-03-29T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+}
+]
+},
+{
+"id": "238477",
+"data_hora": "2008-03-30T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ricardo Gutierrez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+}
+]
+},
+{
+"id": "238478",
+"data_hora": "2008-03-30T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Hernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+}
+]
+},
+{
+"id": "238505",
+"data_hora": "2008-03-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Jesus Figueroa"
+]
+}
+]
+},
+{
+"id": "238506",
+"data_hora": "2008-03-30T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonny Brown"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Motta"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+}
+]
+},
+{
+"id": "238693",
+"data_hora": "2008-04-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Dos Santos"
+]
+}
+]
+},
+{
+"id": "238694",
+"data_hora": "2008-04-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julio Ariz"
+]
+}
+]
+},
+{
+"id": "238692",
+"data_hora": "2008-04-06T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "238719",
+"data_hora": "2008-04-06T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Franki Goncalves"
+]
+}
+]
+},
+{
+"id": "238691",
+"data_hora": "2008-04-06T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+}
+]
+},
+{
+"id": "238885",
+"data_hora": "2008-04-12T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+}
+]
+},
+{
+"id": "239098",
+"data_hora": "2008-04-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Fern?ez"
+]
+}
+]
+},
+{
+"id": "239097",
+"data_hora": "2008-04-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonny Brown"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+}
+]
+},
+{
+"id": "239099",
+"data_hora": "2008-04-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Xavier Espana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arana Allan"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Chaparro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Garcia"
+]
+}
+]
+},
+{
+"id": "238884",
+"data_hora": "2008-04-13T23:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Contreras"
+]
+}
+]
+},
+{
+"id": "239132",
+"data_hora": "2008-04-17T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Garcia"
+]
+}
+]
+},
+{
+"id": "239759",
+"data_hora": "2008-04-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elton Brown"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonny Brown"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+}
+]
+},
+{
+"id": "239760",
+"data_hora": "2008-04-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edgar Meda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Engelver Herrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Vicente Cespedes Rocela"
+]
+}
+]
+},
+{
+"id": "239761",
+"data_hora": "2008-04-20T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dwight Pezzarossi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "239758",
+"data_hora": "2008-04-20T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "239757",
+"data_hora": "2008-04-20T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fredy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Soria"
+]
+}
+]
+},
+{
+"id": "240565",
+"data_hora": "2008-04-26T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "240023",
+"data_hora": "2008-04-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Julian Chacon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Barrios"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Estuardo Rivas"
+]
+}
+]
+},
+{
+"id": "240022",
+"data_hora": "2008-04-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "CD Malacateco",
+"visitante_id": "7870",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Cabrera"
+]
+}
+]
+},
+{
+"id": "240045",
+"data_hora": "2008-04-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Ponciano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+}
+]
+},
+{
+"id": "240046",
+"data_hora": "2008-04-27T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Pineiro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arana Allan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Reyes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Motta"
+]
+}
+]
+},
+{
+"id": "240725",
+"data_hora": "2008-05-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "CD Malacateco",
+"mandante_id": "7870",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joao Ferreira"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Motta"
+]
+}
+]
+},
+{
+"id": "240722",
+"data_hora": "2008-05-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+}
+]
+},
+{
+"id": "240723",
+"data_hora": "2008-05-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paez"
+]
+}
+]
+},
+{
+"id": "240724",
+"data_hora": "2008-05-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Norton Griffiths"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Patrick Howell"
+]
+}
+]
+},
+{
+"id": "240726",
+"data_hora": "2008-05-04T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241239",
+"data_hora": "2008-05-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241240",
+"data_hora": "2008-05-08T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Norton Griffiths"
+]
+}
+]
+},
+{
+"id": "241287",
+"data_hora": "2008-05-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "241288",
+"data_hora": "2008-05-11T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+}
+]
+},
+{
+"id": "241322",
+"data_hora": "2008-05-15T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Morales"
+]
+}
+]
+},
+{
+"id": "241323",
+"data_hora": "2008-05-15T18:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rigoberto Gomez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dwight Pezzarossi"
+]
+}
+]
+},
+{
+"id": "241324",
+"data_hora": "2008-05-18T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Passos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+}
+]
+},
+{
+"id": "241325",
+"data_hora": "2008-05-18T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+}
+]
+},
+{
+"id": "241476",
+"data_hora": "2008-05-23T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abner Trigueros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+}
+]
+},
+{
+"id": "241478",
+"data_hora": "2008-05-25T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abner Trigueros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+}
+]
+},
+{
+"id": "251911",
+"data_hora": "2008-07-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jose Antonio"
+]
+}
+]
+},
+{
+"id": "251912",
+"data_hora": "2008-07-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Rivera"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilfred Velasquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Norton Griffiths"
+]
+}
+]
+},
+{
+"id": "251913",
+"data_hora": "2008-07-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+}
+]
+},
+{
+"id": "251915",
+"data_hora": "2008-07-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Pérez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Peralta"
+]
+}
+]
+},
+{
+"id": "251914",
+"data_hora": "2008-07-27T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "251916",
+"data_hora": "2008-07-30T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jairo Arreola"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+}
+]
+},
+{
+"id": "251917",
+"data_hora": "2008-07-30T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Peralta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Peralta"
+]
+}
+]
+},
+{
+"id": "251918",
+"data_hora": "2008-07-30T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "251919",
+"data_hora": "2008-07-30T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": []
+},
+{
+"id": "251920",
+"data_hora": "2008-07-30T12:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "247993",
+"data_hora": "2008-08-03T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248002",
+"data_hora": "2008-08-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+}
+]
+},
+{
+"id": "247992",
+"data_hora": "2008-08-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Peralta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+}
+]
+},
+{
+"id": "248001",
+"data_hora": "2008-08-03T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Trujillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milton Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Trujillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "248000",
+"data_hora": "2008-08-03T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hessler Archila"
+]
+}
+]
+},
+{
+"id": "248061",
+"data_hora": "2008-08-09T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Riqui Murga"
+]
+}
+]
+},
+{
+"id": "248073",
+"data_hora": "2008-08-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "0'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Silva Matos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ronaldo Loaiza"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernandez"
+]
+}
+]
+},
+{
+"id": "251973",
+"data_hora": "2008-08-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gileno Carvalho"
+]
+}
+]
+},
+{
+"id": "248072",
+"data_hora": "2008-08-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edin Lopez"
+]
+}
+]
+},
+{
+"id": "248071",
+"data_hora": "2008-08-10T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Villatoro"
+]
+}
+]
+},
+{
+"id": "252042",
+"data_hora": "2008-08-17T12:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248187",
+"data_hora": "2008-08-23T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristian Noreiga"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+}
+]
+},
+{
+"id": "248186",
+"data_hora": "2008-08-23T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Peralta"
+]
+}
+]
+},
+{
+"id": "253353",
+"data_hora": "2008-08-24T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Figueroa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodriguez"
+]
+}
+]
+},
+{
+"id": "248196",
+"data_hora": "2008-08-24T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paez"
+]
+}
+]
+},
+{
+"id": "248195",
+"data_hora": "2008-08-24T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gileno Carvalho"
+]
+}
+]
+},
+{
+"id": "248273",
+"data_hora": "2008-08-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marvin Avila"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Rodriguez"
+]
+}
+]
+},
+{
+"id": "248270",
+"data_hora": "2008-08-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+}
+]
+},
+{
+"id": "248271",
+"data_hora": "2008-08-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+}
+]
+},
+{
+"id": "248274",
+"data_hora": "2008-08-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248272",
+"data_hora": "2008-08-31T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "254659",
+"data_hora": "2008-09-07T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Hernandez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilmar Perez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arana Allan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "248354",
+"data_hora": "2008-09-13T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joaquin Alvarez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo De Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonel Noriega"
+]
+}
+]
+},
+{
+"id": "248352",
+"data_hora": "2008-09-13T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Denis Chen"
+]
+}
+]
+},
+{
+"id": "248355",
+"data_hora": "2008-09-14T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "85'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+}
+]
+},
+{
+"id": "248353",
+"data_hora": "2008-09-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+}
+]
+},
+{
+"id": "256014",
+"data_hora": "2008-09-14T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Xavier Espana"
+]
+}
+]
+},
+{
+"id": "248444",
+"data_hora": "2008-09-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eddy Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Dos Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Dos Santos"
+]
+}
+]
+},
+{
+"id": "248446",
+"data_hora": "2008-09-21T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Navas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abidan Solis"
+]
+}
+]
+},
+{
+"id": "248456",
+"data_hora": "2008-09-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Molina"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "248445",
+"data_hora": "2008-09-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernando Gallo"
+]
+}
+]
+},
+{
+"id": "248455",
+"data_hora": "2008-09-21T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rene Arandi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernandez"
+]
+}
+]
+},
+{
+"id": "248531",
+"data_hora": "2008-09-27T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fransisco Melgar"
+]
+}
+]
+},
+{
+"id": "256315",
+"data_hora": "2008-09-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "5",
+"gols_visitante": "4",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jaime Vides"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Oscar Isaula"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eddy Cabrera"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Leguizamon"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Swisher"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerson Lima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Pineyro"
+]
+}
+]
+},
+{
+"id": "256314",
+"data_hora": "2008-09-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248543",
+"data_hora": "2008-09-28T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gerardo Molina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Andres Rivera"
+]
+}
+]
+},
+{
+"id": "248542",
+"data_hora": "2008-09-28T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+}
+]
+},
+{
+"id": "248611",
+"data_hora": "2008-10-04T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "3",
+"gols_visitante": "4",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cesar Alegria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Soria"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abidan Solis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+}
+]
+},
+{
+"id": "248609",
+"data_hora": "2008-10-05T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+}
+]
+},
+{
+"id": "248610",
+"data_hora": "2008-10-05T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+}
+]
+},
+{
+"id": "248622",
+"data_hora": "2008-10-05T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "248621",
+"data_hora": "2008-10-05T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Godoy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Arriaza"
+]
+}
+]
+},
+{
+"id": "248716",
+"data_hora": "2008-10-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wilson Lalin"
+]
+}
+]
+},
+{
+"id": "248714",
+"data_hora": "2008-10-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alvaro Hurtarte"
+]
+}
+]
+},
+{
+"id": "248715",
+"data_hora": "2008-10-19T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+}
+]
+},
+{
+"id": "248727",
+"data_hora": "2008-10-19T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abner Trigueros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Apellaniz"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonny Brown"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Castellanos"
+]
+}
+]
+},
+{
+"id": "248728",
+"data_hora": "2008-10-19T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Betancourt"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Richard de Leon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+}
+]
+},
+{
+"id": "248789",
+"data_hora": "2008-10-25T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Nestor Martinez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Xavier Espana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Riqui Murga"
+]
+}
+]
+},
+{
+"id": "248790",
+"data_hora": "2008-10-26T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Gallardo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+}
+]
+},
+{
+"id": "248788",
+"data_hora": "2008-10-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabricio Benitez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+}
+]
+},
+{
+"id": "248803",
+"data_hora": "2008-10-26T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eric García"
+]
+}
+]
+},
+{
+"id": "248787",
+"data_hora": "2008-10-26T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Freddy Garcia"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Carlos Plata"
+]
+}
+]
+},
+{
+"id": "248891",
+"data_hora": "2008-11-02T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Pablo Melgar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+}
+]
+},
+{
+"id": "248900",
+"data_hora": "2008-11-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marco Ciani"
+]
+}
+]
+},
+{
+"id": "248901",
+"data_hora": "2008-11-02T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Lisandro Moyano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+}
+]
+},
+{
+"id": "248899",
+"data_hora": "2008-11-02T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gileno Carvalho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Leguizamon"
+]
+}
+]
+},
+{
+"id": "248890",
+"data_hora": "2008-11-02T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kelvin Franco"
+]
+}
+]
+},
+{
+"id": "248946",
+"data_hora": "2008-11-06T01:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodriguez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Figueroa"
+]
+}
+]
+},
+{
+"id": "248944",
+"data_hora": "2008-11-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248948",
+"data_hora": "2008-11-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+}
+]
+},
+{
+"id": "248947",
+"data_hora": "2008-11-06T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fabian David Hurtado Munoz"
+]
+}
+]
+},
+{
+"id": "248945",
+"data_hora": "2008-11-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Chacon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodas"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Sergio Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+}
+]
+},
+{
+"id": "248982",
+"data_hora": "2008-11-08T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Flores"
+]
+}
+]
+},
+{
+"id": "248983",
+"data_hora": "2008-11-09T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Silvio Fernandez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "56'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Figueroa"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Erick Priego"
+]
+}
+]
+},
+{
+"id": "248993",
+"data_hora": "2008-11-09T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gileno Carvalho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Xavier Espana"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodas"
+]
+}
+]
+},
+{
+"id": "248981",
+"data_hora": "2008-11-09T22:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "248980",
+"data_hora": "2008-11-10T00:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rudy Chacon"
+]
+}
+]
+},
+{
+"id": "249124",
+"data_hora": "2008-11-23T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Dos Santos"
+]
+}
+]
+},
+{
+"id": "249139",
+"data_hora": "2008-11-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+}
+]
+},
+{
+"id": "249123",
+"data_hora": "2008-11-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Anderson Passos"
+]
+}
+]
+},
+{
+"id": "249137",
+"data_hora": "2008-11-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edu Barros"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Walter Estrada"
+]
+}
+]
+},
+{
+"id": "249138",
+"data_hora": "2008-11-23T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Rosales"
+]
+}
+]
+},
+{
+"id": "249168",
+"data_hora": "2008-11-26T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Jalapa",
+"visitante_id": "7250",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Riqui Murga"
+]
+}
+]
+},
+{
+"id": "249171",
+"data_hora": "2008-11-26T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Heredia",
+"mandante_id": "7255",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Estadio Del Monte",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gaston Garcia Linares"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gileno Carvalho"
+]
+}
+]
+},
+{
+"id": "249169",
+"data_hora": "2008-11-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Suchitepequez",
+"visitante_id": "7251",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Villatoro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Paulo Motta"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+}
+]
+},
+{
+"id": "249170",
+"data_hora": "2008-11-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Petapa",
+"mandante_id": "7256",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Municipal de San Miguel Petapa",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Navas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eduardo Barrios"
+]
+}
+]
+},
+{
+"id": "249172",
+"data_hora": "2008-11-27T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Arana Allan"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Marquez"
+]
+}
+]
+},
+{
+"id": "249210",
+"data_hora": "2008-11-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Petapa",
+"visitante_id": "7256",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edwin Enriquez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Navas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Abner Trigueros"
+]
+}
+]
+},
+{
+"id": "249211",
+"data_hora": "2008-11-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jalapa",
+"mandante_id": "7250",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Edilberto Bonilla",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "249214",
+"data_hora": "2008-11-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Suchitepequez",
+"mandante_id": "7251",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Carlos Salazar Hijo",
+"cidade": "Suchitepéquez",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Luis Rodas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Castillo"
+]
+}
+]
+},
+{
+"id": "249213",
+"data_hora": "2008-11-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Heredia",
+"visitante_id": "7255",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Lopez"
+]
+}
+]
+},
+{
+"id": "249212",
+"data_hora": "2008-11-30T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Gonzelez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Flores"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Betancourt"
+]
+}
+]
+},
+{
+"id": "259039",
+"data_hora": "2008-12-03T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Marquense",
+"mandante_id": "7252",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Estadio Marquense de la Ensenada",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "16'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Morales"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Lopez"
+]
+}
+]
+},
+{
+"id": "259040",
+"data_hora": "2008-12-04T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Zacapa",
+"visitante_id": "7261",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "79'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gustavo Betancourt"
+]
+}
+]
+},
+{
+"id": "259074",
+"data_hora": "2008-12-07T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Marquense",
+"visitante_id": "7252",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Mario Camposeco",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Francisco Pavon"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Israel Donis"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jorge Estrada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jonathan Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Fern?ez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Miguel Fern?ez"
+]
+}
+]
+},
+{
+"id": "259075",
+"data_hora": "2008-12-07T18:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Zacapa",
+"mandante_id": "7261",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leonidas Palacios"
+]
+}
+]
+},
+{
+"id": "259126",
+"data_hora": "2008-12-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xelajú MC",
+"mandante_id": "7259",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Lopez"
+]
+}
+]
+},
+{
+"id": "259125",
+"data_hora": "2008-12-11T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Xinabajul",
+"mandante_id": "9806",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Juan Leguizamon"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gregory Ruiz"
+]
+}
+]
+},
+{
+"id": "259128",
+"data_hora": "2008-12-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Xelajú MC",
+"visitante_id": "7259",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mynor Lopez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Johny Cubero"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dwight Pezzarossi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+}
+]
+},
+{
+"id": "259127",
+"data_hora": "2008-12-14T17:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Xinabajul",
+"visitante_id": "9806",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Mateo Flores",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Gonzelez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mario Acevedo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matias Gonzelez"
+]
+}
+]
+},
+{
+"id": "259208",
+"data_hora": "2008-12-18T02:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Municipal",
+"mandante_id": "7258",
+"visitante": "Comunicaciones",
+"visitante_id": "7257",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Iverton Paez"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Guillermo Ramirez"
+]
+}
+]
+},
+{
+"id": "259209",
+"data_hora": "2008-12-21T21:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Comunicaciones",
+"mandante_id": "7257",
+"visitante": "Municipal",
+"visitante_id": "7258",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Cementos Progreso",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Selvin Ponciano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rolando Fonseca"
+]
+}
+]
+}
+]
