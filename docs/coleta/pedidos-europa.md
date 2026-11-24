@@ -1006,3 +1006,120 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    - a classificação final montada das edições com Norte e Centro-Sul.
 8. **Próxima tarefa:** a fila da coleta Europa está vazia. Opções para o Guilherme: era antiga turca (antes de 1959),
    DDR-Oberliga como `gdr-1` (D-05b) e EN-016.
+
+## 24/11/2026 — coleta Europa: recado completo ao agente 1 (estado das 10 ligas)
+
+Para o agente 1 (banco e painel). Resume o que mudou desde a última carga (22/11) e o que falta fazer. Os detalhes de cada
+liga estão nos recados de fim de coleta acima e em `coleta/comum-europa/documentacao/<slug>.md`.
+
+### 1. O que fazer
+
+- **Carregar e liberar no seletor (Europa) duas ligas novas:**
+  - `bel-1`: país novo, Bélgica (`BEL`);
+  - `tur-1`: país novo, Turquia (`TUR`).
+- **Recarregar as outras 8,** que mudaram em 23 e 24/11:
+  - `eng-1`, `esp-1`, `ita-1`, `ger-1`, `fra-1`, `por-1`: correções da revisão profunda;
+  - `ned-1`, `sco-1`: observações em português e nomes de jogadores da ESPN acertados;
+  - `ita-1` também ganhou a era antiga (1898 a 1928/29, IT-017).
+- Todas as 10 estão no GitHub (último commit da coleta Europa: ebbdfc0). Todas vão até 2025/26 e passaram no
+  `testar_carga.py`.
+
+### 2. As 10 ligas hoje
+
+| Liga | Edições | Período | Jogos | Clubes | Mais títulos |
+|---|---|---|---|---|---|
+| `eng-1` Inglês | 127 | 1888/89–2025/26 | 51.330 | 65 | Liverpool 20, Manchester United 20, Arsenal 14 |
+| `esp-1` Espanhol | 95 | 1928/29–2025/26 | 27.716 | 63 | Real Madrid 36, Barcelona 29, Atlético 11 |
+| `ita-1` Italiano | 124 | 1898–2025/26 | 34.729 | 191 | Juventus 36, Inter 21, Milan 19 |
+| `ger-1` Alemão | 124 | 1902/03–2025/26 | 20.303 | 194 | Bayern 35, Nuremberg 9, Dortmund 8 |
+| `fra-1` Francês | 88 | 1932/33–2025/26 | 30.466 | 77 | PSG 14, Saint-Étienne 10, Olympique de Marseille 9 |
+| `por-1` Português | 92 | 1934/35–2025/26 | 20.978 | 73 | Benfica 38, Porto 31, Sporting 21 |
+| `ned-1` Holandês | 138 | 1888/89–2025/26 | 21.878 | 93 | Ajax 36, PSV 27, Feyenoord 16 |
+| `sco-1` Escocês | 129 | 1890/91–2025/26 | 33.076 | 46 | Celtic 56, Rangers 54 (+1 dividido em 1890/91) |
+| `bel-1` Belga | 123 | 1895/96–2025/26 | 28.712 | 81 | Anderlecht 34, Club Brugge 20, Union SG 12 |
+| `tur-1` Turco | 68 | 1959–2025/26 | 20.068 | 76 | Galatasaray 26, Fenerbahçe 19, Beşiktaş 14 |
+
+Contagem de títulos:
+- igual à oficial em todas as ligas. Exceção: o título dividido do Escocês em 1890/91, explicado no recado da `sco-1`;
+- no Turco, a contagem começa em 1959, como a federação (ver o item 5).
+
+### 3. O que o painel precisa aceitar (resumo de todos os recados)
+
+**Rótulos de temporada fora do padrão "AAAA/AA":**
+- `ita-1`: "1898" a "1909" (ano único);
+- `ita-1`: em 1921/22, duas edições, "1921/22 (FIGC)" e "1921/22 (CCI)";
+- `tur-1`: "1959".
+
+**Edições sem campeão:** `campeao` vazio e motivo na `observacao`.
+- `ita-1`: 1926/27 (revogado do Torino) e 2004/05 (revogado da Juventus);
+- `ger-1`: 1903/04 e 1921/22.
+
+**Classificação final montada, com números somados de todas as fases.** Use a `posicao`, não os pontos:
+- `bel-1` 1898/99–1903/04;
+- `tur-1` 1959 e 1962/63 (em 1962/63 o Beşiktaş soma mais pontos que o campeão Galatasaray);
+- as eras antigas de `ita-1`, `ned-1` e `ger-1`.
+
+**Pontos oficiais diferentes da soma dos jogos** (`ajuste_pontos`), com o play-off do título começando com a metade dos
+pontos da fase regular:
+- `bel-1` 2009/10+;
+- `tur-1` 2011/12.
+
+O painel não deve recalcular os pontos pela soma dos jogos nesses anos.
+
+**Jogos sem data ou sem rodada:** sem Corrida nesses jogos.
+- `bel-1`: 9.337 sem data e 10.254 sem rodada (antes de 1960/61);
+- `ita-1`: 713 sem data (era antiga, só na matriz da Wikipédia);
+- `tur-1`: 490 sem rodada;
+- `eng-1` e `sco-1`: rodada vazia nas temporadas sem rodadas fixas.
+
+**Fases novas com grupo:**
+- `ita-1` antigo: 88 combinações de fase e grupo ("Liga Norte · Grupo A", "Torneio do Centro-Sul · Seção toscana");
+- `bel-1`: "Fase regular", "Play-off do título", "Play-off europeu", "Play-off de rebaixamento";
+- `tur-1`: "Grupos", "Grupo final", "Play-off do título", "Play-off europeu".
+
+**Jogos `awd` (decididos fora de campo, com o placar oficial):**
+- `bel-1`: 25;
+- `tur-1`: 91 (acidente do Samsunspor em 1989, Ankaraspor em 2009/10, terremoto de 2023);
+- `ita-1` antigo: 153 ("a tavolino").
+
+**Clube de outra divisão nos jogos:** no `bel-1`, os clubes da 2ª divisão no play-off europeu (2016/17+) entram nos jogos,
+mas não na classificação final.
+
+**Clubes excluídos no meio da temporada:** `bel-1` Lommel 2002/03 e Mouscron 2009/10, no fim da classificação, zerados,
+como "rebaixado".
+
+**Clube de outro país:**
+- `ita-1`: Chiasso (`SUI`, 1914/15), que precisa do país Suíça no banco;
+- o país vem no `clubes.csv` (o `paises.csv` do Italiano está vazio).
+
+**Escudos:** os calendários do ogol estão em `data/cache/ogol-<slug>/`. Os clubes antigos do Italiano não estão no ogol; o
+modelo `{{Calcio X}}` da Wikipédia em italiano leva ao artigo de cada um.
+
+### 4. Nomes de clube
+
+- Todos os nomes novos foram conferidos no banco e nos outros pacotes; nenhum se repete:
+  - Bélgica: 81 clubes;
+  - Turquia: 76 clubes;
+  - Itália antiga: 113 clubes.
+- Clubes de nome comum com sufixo, para não colidir:
+  - "Hellas Verona (1907)": o Hellas de 1907-1918, outro clube;
+  - "Piemonte FC";
+  - "Messina FC" e "Messina SC".
+
+### 5. Decisão que espera o Guilherme (não trava a carga)
+
+- **Turquia antes de 1959:**
+  - o Türkiye Futbol Şampiyonası (1924-1951), a Millî Küme (1937-1950) e a Federasyon Kupası (1956/57 e 1957/58)
+    ficaram fora;
+  - o Beşiktaş conta 16 títulos (com as duas Federasyon Kupası); a federação, 14;
+  - a coleta vai montar essas edições como era antiga, seguindo a regra D-09 (a da federação): campeão de cada edição
+    na classificação e na observação, mas `campeao` vazio, para não mudar a contagem oficial. Se o Guilherme decidir
+    contar, basta preencher o `campeao`.
+
+### 6. Próximos passos da coleta Europa
+
+- Na ordem pedida pelo Guilherme em 24/11:
+  1. a era antiga turca;
+  2. a DDR-Oberliga como `gdr-1` (D-05b);
+  3. o EN-016 (12 jogos do Inglês sem autor dos gols).
+- Depois, as próximas ligas, a combinar com o Guilherme.
