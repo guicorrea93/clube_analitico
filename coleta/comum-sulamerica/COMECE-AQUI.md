@@ -84,7 +84,7 @@ Rode depois de toda importação ou correção e mantenha à mão só a lista `P
 | `ven-1` Venezuelano | 106 (1921–2025) | 13.580 | 108 | 35dc0a2; leitor comum 415911b; cf612c6 | sim (versão de 22/11) |
 | `uru-copa` Copa AUF Uruguay | 4 (2022–2025) | 221 | 100 | 1fe6d99 | não |
 | `par-copa` Copa Paraguay | 7 (2018–2025, sem 2020) | 296 | 110 | e31a932 | não |
-| `ecu-copa` Copa Ecuador | 5 (1970, 2018/19–2025) | 208 | 80 | (commit no recado) | não |
+| `ecu-copa` Copa Ecuador | 5 (1970, 2018/19–2025) | 208 | 80 | e216792 | não |
 
 Os números de gols, cartões, conferência e cobertura estão no `README.md` da documentação. Com isso, as 1ªs divisões
 da América do Sul estão todas coletadas (a do Brasil é de outros agentes).

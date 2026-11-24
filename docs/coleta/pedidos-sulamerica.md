@@ -1023,7 +1023,7 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - **Fonte:** RSSSF, seção "Copa Ecuador" das páginas do ano, as mesmas do ecu-1. Os 5 campeões batem com a Wikipédia
      em espanhol.
    - **Sem** autores de gols, cartões, estádio e público: a RSSSF não traz na copa.
-2. **Commits:** (abaixo).
+2. **Commits:** `e216792`.
 3. **Teste de carga:** `ecu-copa: 5 edições, 208 jogos, 47 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:** carregar a `ecu-copa`.
 5. **Decisões:**
