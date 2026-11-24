@@ -45,6 +45,9 @@ class EdicaoCopa:
     regioes: list[tuple[str, str]] = field(default_factory=list)   # (regex do título, grupo): "Regional Norte" -> "Norte"
     fim_regiao: str = r"^NUNCA$"         # título que encerra as regiões (volta ao grupo vazio)
     obs: str = ""
+    fase_padrao: str = ""                # fase dos jogos sem título de fase (vazio: a 1ª da lista da copa)
+    pontos: bool = False                 # edição de pontos corridos (Copa Ecuador 1970): campeão e vice pela classificação
+    datas: bool = True                   # False: a página só dá o mês ("Jan 1970"), a data lida não vale
 
 
 @dataclass
@@ -123,7 +126,8 @@ def ler_edicao(copa: Copa, ed: EdicaoCopa) -> tuple[list[rsssf_sul.Jogo], list[r
 
 
 def _vencedor(js: list[dict]) -> tuple[str | None, str | None]:
-    """(vencedor, perdedor) de um confronto de 1 ou 2 jogos: placar agregado, depois pênaltis do último jogo."""
+    """(vencedor, perdedor) de um confronto de 1 ou 2 jogos: placar agregado, depois pênaltis do último jogo e, sem eles,
+    o gol fora (Copa Ecuador 2018/19: "LDU de Quito winners on away goals rule")."""
     if not js:
         return None, None
     a, b = js[0]["m"], js[0]["v"]
@@ -135,6 +139,11 @@ def _vencedor(js: list[dict]) -> tuple[str | None, str | None]:
     if ult["pm"] is not None and ult["pv"] is not None and ult["pm"] != ult["pv"]:
         venc = ult["m"] if ult["pm"] > ult["pv"] else ult["v"]
         return venc, (b if venc == a else a)
+    if len(js) == 2:   # gol fora
+        fora_a = sum((j["gv"] or 0) for j in js if j["v"] == a)
+        fora_b = sum((j["gv"] or 0) for j in js if j["v"] == b)
+        if fora_a != fora_b:
+            return (a, b) if fora_a > fora_b else (b, a)
     return None, None
 
 
@@ -163,7 +172,9 @@ def importar(copa: Copa, relatorio: Path) -> None:
             gm, gv = (wo[0], wo[1]) if wo else (x.gm, x.gv)
             jogos.append({"x": x, "m": m, "v": v, "gm": gm, "gv": gv, "pm": x.pen_m, "pv": x.pen_v,
                           "esp": "wo" if wo else ("" if x.gm is not None else (x.especial or "n/p")),
-                          "obs": wo[2] if wo else "", "fase": x.fase or copa.fases[0][1], "grupo": x.grupo or ""})
+                          "obs": wo[2] if wo else "", "fase": x.fase or ed.fase_padrao or copa.fases[0][1], "grupo": x.grupo or ""})
+            if not ed.datas:
+                x.data = None
         fase_tab = {t.fase or copa.fases[0][1] for t in tabs}
         # fases dos jogos e das tabelas (a 1ª fase de 2022 da Copa Paraguay só tem as tabelas das zonas)
         fases = sorted({j["fase"] for j in jogos} | fase_tab, key=lambda f: (ordem_fase.get(f, 0), min(
@@ -172,7 +183,7 @@ def importar(copa: Copa, relatorio: Path) -> None:
             js = [j for j in jogos if j["fase"] == f]
             grupos = sorted({j["grupo"] for j in js if j["grupo"]} | {t.grupo for t in tabs if (t.fase or copa.fases[0][1]) == f and t.grupo})
             pares = Counter(frozenset((j["m"], j["v"])) for j in js) or Counter({frozenset(): 1})
-            liga = f in fase_tab   # fase com tabela publicada é de pontos (grupos); sem tabela, mata-mata
+            liga = f in fase_tab or ed.pontos   # fase com tabela publicada é de pontos (grupos); sem tabela, mata-mata
             tipo = ("grupos" if len(grupos) >= 2 else "liga") if liga else "mata_mata"
             serie = "pontos_corridos" if liga else ("ida_volta" if max(pares.values()) > 1 else "jogo_unico")
             L["fases"].append([ed.temporada, k, f, tipo, len(grupos) if tipo == "grupos" else None, serie, ""])
@@ -217,6 +228,8 @@ def importar(copa: Copa, relatorio: Path) -> None:
                 r[6] += 3 if a > b else 1 if a == b else 0
         clubes = sorted(alcance)
         linhas = sorted(clubes, key=lambda c: (-alcance[c], -camp[c][6], -camp[c][1], -(camp[c][4] - camp[c][5]), -camp[c][4], c))
+        if ed.pontos and not final:   # edição de pontos corridos: campeão e vice pela classificação
+            campeao, vice = (linhas + [None, None])[:2]
         for c in (vice, campeao):
             if c in linhas:
                 linhas.remove(c)

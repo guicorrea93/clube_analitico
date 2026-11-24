@@ -1012,3 +1012,37 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
    - As grafias que casavam por prefixo com clubes da Primera (estão em `coleta/par-copa/clubes_copa.py`).
    - O conserto de texto de 2019 ("Independiente  (Nanawa)", no `explicacoes.py` do par-1; a linha fica fora da liga).
 8. **Próxima competição:** Copa Ecuador (`ecu-copa`).
+
+## Recado de fim de coleta — ecu-copa — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** a Copa Ecuador (`ecu-copa`, `tipo` "copa"), a terceira das sete copas.
+   - **Números:** 5 edições, 208 jogos e 80 clubes, dos quais 47 só jogam a copa. As edições são 1970, 2018/19, 2022,
+     2024 e 2025: 2020 e 2021 foram canceladas, e 2023 não foi disputada.
+   - **Fonte:** RSSSF, seção "Copa Ecuador" das páginas do ano, as mesmas do ecu-1. Os 5 campeões batem com a Wikipédia
+     em espanhol.
+   - **Sem** autores de gols, cartões, estádio e público: a RSSSF não traz na copa.
+2. **Commits:** (abaixo).
+3. **Teste de carga:** `ecu-copa: 5 edições, 208 jogos, 47 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:** carregar a `ecu-copa`.
+5. **Decisões:**
+   - **1970** conta como edição, pela contagem da Wikipédia (decisão do Guilherme).
+     - É um triangular de pontos ("Fase única"): El Nacional campeão e Barcelona vice. Barcelona x Everest não foi
+       disputado.
+     - A data fica vazia: a página só diz "Jan 1970".
+   - **2018/19:** o campeão saiu pelo gol fora (2-0 e 1-3; nota da página). O importador comum aplica o gol fora quando o
+     agregado empata e não há pênaltis.
+   - **Nomes:** pela Wikipédia em espanhol de 2022, "Portoviejo" é o Portoviejo FC (não a LDU) e "Quito" é o Quito FC.
+     Clubes com nome de clube de outro país levam o país: "Peñarol (Equador)", "Danubio Sporting Club" e outros.
+   - **O importador comum (`copa_rsssf.py`)** ganhou três opções por edição:
+     - edição de pontos (campeão e vice pela classificação);
+     - fase padrão;
+     - descartar a data quando a página só dá o mês.
+
+     Uruguai e Paraguai não mudaram.
+6. **O que não deu:**
+   - 2024 e 2025 só das oitavas em diante: a RSSSF não traz o resto.
+   - Muitas cidades ficaram vazias.
+7. **Onde a revisão deve olhar primeiro:** as identidades dos clubes das divisões de acesso (`coleta/ecu-copa/clubes_copa.py`).
+8. **Próxima competição:** Copa Colombia (`col-copa`).
