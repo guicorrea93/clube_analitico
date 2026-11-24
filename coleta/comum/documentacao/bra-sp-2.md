@@ -7,7 +7,7 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 - **Edições:** 80, de 1947 a 2026; sem nenhum jogo: 1947, 1972, 1973, 1974, 1993, 1994; com parte dos jogos: 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959, 1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969, 1970, 1971, 1975, 1976, 1977, 1978, 1980, 1981, 1982, 1983, 1984, 1989, 1990, 1991, 1992.
 - **Jogos:** 9214; **gols:** 22213; **gols com autor:** 4526 (20%); **cartões:** 0.
 - **Clubes:** 184; **artilheiros:** 62 temporadas com artilheiro (71 linhas, com empates).
-- **Classificação final:** 80 temporadas; **rodada a rodada:** 23 temporadas.
+- **Classificação final:** 80 temporadas; **rodada a rodada:** 24 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 2409 linhas.
 - **No banco (`db/futebol.db`):** sim (80 edições, 9223 jogos).
 - **Observação da competição:** 2ª divisão paulista (Série A2 desde 1994; antes Segunda Divisão, Primeira Divisão, Divisão Intermediária, Divisão Especial, conforme a época), edições de 1947 a 2026. As edições sem os jogos em nenhuma fonte (1947-1966, 1992-1994) entram só com as tabelas, o campeão e o vice; 1989 e 1991 têm parte dos jogos. Fica de fora a fase amadora (1916-1946).
@@ -37,13 +37,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 | 1950s | 125 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1960s | 44 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 275 | 100% | 0% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 2685 | 98% | 0% | 55% | 0% | 0% | 0% | 0% | 0.0 |
+| 1980s | 2685 | 97% | 0% | 55% | 0% | 0% | 0% | 0% | 0.0 |
 | 1990s | 1343 | 100% | 0% | 63% | 0% | 0% | 0% | 0% | 0.0 |
 | 2000s | 1878 | 100% | 22% | 98% | 0% | 0% | 0% | 0% | 0.0 |
 | 2010s | 1888 | 100% | 98% | 96% | 0% | 0% | 0% | 57% | 0.0 |
 | 2020s | 954 | 100% | 100% | 79% | 0% | 0% | 0% | 81% | 0.0 |
 
-**Fonte de cada jogo:** RSSSF Brasil: 8690; Wikipédia (pt): 318; ogol: 206.
+**Fonte de cada jogo:** RSSSF Brasil: 8696; Wikipédia (pt): 318; ogol: 200.
 
 ## 5. Formato ao longo do tempo
 
@@ -492,6 +492,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 
 - **1986:** datas que vêm assim da própria página e não têm 2ª fonte: a Esportiva com dois jogos em 17/08 e a 6ª rodada da 2ª fase no mesmo dia (07/12) do 1º jogo do mata-mata; ficam como estão (achado A2-027)
 - **1988:** 69 jogos vêm na página só com o resultado ("venceu", "empatou", "perdeu" ou "-"), sem placar, e ficam fora do pacote; por isso as tabelas da 1ª fase não fecham. O ogol e a Wikipédia não têm esses jogos
+- **1987:** os blocos do 2º turno vêm sem data na página e ficam sem data (antes repetiam a última data lida; A2-015) / a página põe no grupo F clubes do grupo C (Ituano em 10/05; Velo Clube e Independente em 17/05) e dá ao União Mogi e ao Bragantino dois jogos em 20/05, no grupo A; ficam como estão, sem 2ª fonte (como o A2-027)
 - **1985:** Nacional x São Bernardo (31/08): a vitória foi dada ao São Bernardo no tribunal, sem placar (o jogo terminou 0 a 0 e o Nacional escalou jogador irregular); Barretos x Sãocarlense (18/08): vitória dada ao Barretos (1 a 1 em campo) / o Palmeiras de São João da Boa Vista tem dois jogos em 08/09, como na página (sem 2ª fonte; achado A2-027)
 - **1948:** a Internacional da Série Branca é a de Bebedouro (Wikipédia); a página da RSSSF repete "(Limeira)"
 - **1954:** 2ª fase: a página traz uma tabela calculada dos jogos (Taubaté 16, Comercial 11) e a classificação oficial (Taubaté 14, Comercial 13); vale a oficial. Os 30 jogos da Wikipédia fecham com a calculada
@@ -612,7 +613,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **sp1984l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp1985l2.htm:** letras trocadas por "�" na página; placar com travessão; duas linhas da lista de participantes coladas; o título da rodada 18, na coluna da direita, entra no meio da nota do jogo Barretos x Sãocarlense; a nota do jogo Nacional x São Bernardo, em coluna, se espalha por três linhas e cola no nome do Aparecida
 - **sp1986l2.htm:** letras trocadas por "�" na página; placar com travessão; duas linhas da lista de participantes coladas
-- **sp1987l2.htm:** letras trocadas por "�" na página; placar com travessão; data sem o ano na frente do jogo ("09/May"); turnos dentro do grupo
+- **sp1987l2.htm:** letras trocadas por "�" na página; placar com travessão; data sem o ano na frente do jogo ("09/May"); turnos dentro do grupo; blocos de jogos sem data
 - **sp1988l2.htm:** letras trocadas por "�" na página; placar com travessão; data sem o ano na frente do jogo ("13/03"); turnos dentro da fase
 - **sp1989l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp1990l2.htm:** letras trocadas por "�" na página; placar com travessão
@@ -623,8 +624,8 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **sp1995l2.htm:** letras trocadas por "�" na página; placar com travessão; data sem o ano na frente do jogo ("29/Jan"); o "X" do XV de Jaú virou "-" na página
 - **sp1996l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp1997l2.htm:** letras trocadas por "�" na página; placar com travessão; a 1ª fase vai até o returno dentro dos grupos ("SECOND STAGE"): as tabelas dos grupos somam as 22 rodadas; Ferroviária 1x1 Noroeste (23/02): jogo inacabado; a FPF deu a vitória à Ferroviária (a tabela conta 1-0); jogos e tabelas em quadros de duas colunas; o returno dentro dos grupos ("Second Phase") segue na 1ª fase; nome do Paraguaçuense com uma letra a menos (1ª rodada); o quadrangular final é a fase final
-- **sp1998l2.htm:** letras trocadas por "�" na página; placar com travessão; rodadas em duas colunas; "Final Table:" é a tabela do quadrangular, não outra fase; o XV de Piracicaba aparece na tabela com o nome sem a cidade
-- **sp1999l2.htm:** letras trocadas por "�" na página; placar com travessão; rodadas em duas colunas
+- **sp1998l2.htm:** letras trocadas por "�" na página; placar com travessão; rodadas em duas colunas; "Final Table:" é a tabela do quadrangular, não outra fase; o XV de Piracicaba aparece na tabela com o nome sem a cidade; a nota "[*] Apr 1" do jogo do Mirassol tirava a data da rodada 14 (25/03), logo abaixo
+- **sp1999l2.htm:** letras trocadas por "�" na página; placar com travessão; rodadas em duas colunas; "Rounf 2": a rodada 2 do torneio do rebaixamento (23/06) ficava com a data da 1
 - **sp2000l2.htm:** letras trocadas por "�" na página; placar com travessão; a 1ª fase tem semifinal e final próprias (o vencedor sobe para a 1ª divisão na 2ª fase)
 - **sp2001l2.htm:** letras trocadas por "�" na página; placar com travessão; tabela com os empates abertos pela regra dos pênaltis; Nacional 0-1 Ituano (03/03/2001), como o ogol: só esse placar fecha com a tabela publicada (achado A2-017)
 - **sp2002l2.htm:** letras trocadas por "�" na página; placar com travessão
@@ -635,8 +636,8 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **sp2007l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2008l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2009l2.htm:** letras trocadas por "�" na página; placar com travessão
-- **sp2010l2.htm:** letras trocadas por "�" na página; placar com travessão
-- **sp2011l2.htm:** letras trocadas por "�" na página; placar com travessão
+- **sp2010l2.htm:** letras trocadas por "�" na página; placar com travessão; data com o colchete fechado por ")"
+- **sp2011l2.htm:** letras trocadas por "�" na página; placar com travessão; data com o colchete fechado por "}"
 - **sp2012l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2013l2.htm:** letras trocadas por "�" na página; placar com travessão
 - **sp2014l2.htm:** letras trocadas por "�" na página; placar com travessão; nome do Rio Branco quebrado, com a nota na mesma linha; nomes de clube quebrados em duas linhas
@@ -650,7 +651,7 @@ Registradas nos módulos de `coleta/bra-sp-2/`; cada uma também aparece no rela
 - **sp2022l2.htm:** letras trocadas por "�" na página; placar com travessão; nome do São Bento quebrado, com os pênaltis na mesma linha; nomes de clube quebrados em duas linhas
 - **sp2023l2.htm:** letras trocadas por "�" na página; placar com travessão; nomes de clube quebrados em duas linhas
 - **sp2024l2.htm:** letras trocadas por "�" na página; placar com travessão; nomes de clube quebrados em duas linhas
-- **sp2025l2.htm:** letras trocadas por "�" na página; placar com travessão
+- **sp2025l2.htm:** letras trocadas por "�" na página; placar com travessão; rodada 8 em 08 e 09/02 (FPF)
 
 ## 8. O que não deu para coletar
 

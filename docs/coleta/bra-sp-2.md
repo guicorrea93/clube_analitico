@@ -463,6 +463,8 @@ O Oeste aparece com a cidade de hoje (Osasco); até 2016 o clube era de Itápoli
 
 ### 1987
 
+- os blocos do 2º turno vêm sem data na página e ficam sem data (antes repetiam a última data lida; A2-015)
+- a página põe no grupo F clubes do grupo C (Ituano em 10/05; Velo Clube e Independente em 17/05) e dá ao União Mogi e ao Bragantino dois jogos em 20/05, no grupo A; ficam como estão, sem 2ª fonte (como o A2-027)
 - Aparecida — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Aparecida)
 - Araçatuba — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Araçatuba)
 - Barretos — sem calendário no ogol nesta temporada; é o clube do mesmo nome em outras temporadas (Barretos)
@@ -801,18 +803,13 @@ O Oeste aparece com a cidade de hoje (Osasco); até 2016 o clube era de Itápoli
 
 ### 2010
 
-- jogo só no ogol, incluído em FIRST STAGE:: São Bernardo 3-0 Flamengo-SP (2010-02-20)
-- jogo só no ogol, incluído em FIRST STAGE:: Rio Preto 1-0 São José-SP (2010-02-20)
-- jogo só no ogol, incluído em FIRST STAGE:: Grêmio Catanduvense 3-2 Grêmio Osasco (2010-02-20)
+- sem ocorrências
 
 ### 2011
 
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Guarani x Palmeiras (B), ogol 2011-03-01); fica a do ogol
 - jogo só no ogol, incluído em FIRST STAGE: / Group 1: América-SP 3-2 Marília (2011-02-19)
 - jogo só no ogol, incluído em FIRST STAGE: / Group 1: União São João 2-3 Ferroviária-SP (2011-02-19)
-- jogo só no ogol, incluído em FIRST STAGE: / Group 2: Palmeiras (B) 2-3 Rio Branco-SP (2011-02-26)
-- jogo só no ogol, incluído em FIRST STAGE: / Group 2: Osasco Audax 6-0 União Barbarense (2011-02-26)
-- jogo só no ogol, incluído em FIRST STAGE: / Group 2: Guarani 1-1 Atlético Sorocaba (2011-02-26)
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, XV de Piracicaba
 
 ### 2012

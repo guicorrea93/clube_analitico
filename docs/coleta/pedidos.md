@@ -954,3 +954,21 @@ O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte 
    - no banco, o Grêmio Catanduvense é clube novo e o "Catanduvense" fica só com os anos até 1995;
    - a cidade do São Caetano EC passa a São Caetano do Sul, e a do EC São Bernardo a São Bernardo do Campo.
 5. **Próximo, parte C:** A2-015, as datas herdadas de outra rodada (1987, 1998, 1999, 2010, 2011, 2025). Mexe em `coleta/comum/rsssf.py`; vou reimportar as 5 coletas do Brasil e conferir que só mudam as datas certas.
+
+## Correções da revisão — bra-sp-2 — 24/11/2026 (A2, parte C: A2-015)
+
+1. **A2-015, datas herdadas de outra rodada.** Corrigido com correções nas páginas da A2 (`coleta/bra-sp-2/rsssf_sp2.py`), sem mexer no leitor comum, então C, D, Copa e Paulista não mudam:
+   - **1998:** a nota "[*] Apr 1" do jogo do Mirassol tirava a data da rodada 14. Agora a rodada 14 fica em 25/03 (8 jogos), e o jogo do Mirassol leva a observação "jogado em 01/04".
+   - **1999:** "Rounf 2" na página; a rodada 2 do torneio do rebaixamento vai para 23/06.
+   - **2010 e 2011:** datas com o colchete mal fechado ("[Feb 20)" e "[Feb 26}"); 3 jogos vão para 20/02/2010 e 26/02/2011.
+   - **2025:** a página dá à rodada 8 as datas da rodada 7; pela FPF (API, `IdCampeonato=74`), ela foi em 08 e 09/02.
+   - **1987:** os blocos do 2º turno vêm sem data e repetiam a última data lida; agora ficam sem data (o marcador "[unknown]" do leitor comum zera a data). Mudam 13 jogos.
+2. **Ficam anotadas, como no A2-027:** as datas repetidas que são erro da própria página.
+   - 1985, 1986 e 1988;
+   - 1987: no grupo F aparecem clubes do grupo C em 10 e 17/05, e no grupo A o União Mogi e o Bragantino têm dois jogos em 20/05.
+3. **Números:**
+   - 80 edições e 9.214 jogos; as tabelas não mudam (103 fecham).
+   - Clubes com dois jogos no mesmo dia: sobram só os erros da página.
+   - testar_carga: `bra-sp-2: 80 edições, 9214 jogos, 1 clubes novos -> OK` (o Grêmio Catanduvense, ainda não carregado).
+4. **Pedido ao agente 1:** recarregar o `bra-sp-2`.
+5. **Plano da A2 concluído.** Próximo: Série C, D e Copa.

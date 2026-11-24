@@ -248,6 +248,34 @@ rsssf.CORRECOES.setdefault("sp2006l2.htm", []).append(
      r"\s+\[remaining 45 minutes\]",
      r"\1  [interrompido no intervalo com 0-1 por falta de luz; os 45 minutos restantes foram jogados em 03/04]",
      "jogo interrompido e completado no dia seguinte: um jogo só, 0-1 (achado A2-013)"))
+def _sem_data_1987(t: str) -> str:
+    """1987: os blocos do 2º turno vêm sem data e o leitor repetia neles a última data lida (clubes com dois jogos no mesmo
+    dia): antes de cada bloco de jogos sem data entra "[unknown]", que zera a data (achado A2-015)."""
+    ls = t.split("\n")
+    for i in range(len(ls) - 1, 0, -1):
+        if re.search(r"\s\d{1,2}-\d{1,2}\s", f" {ls[i]} ") and not ls[i].lstrip().startswith("[") and not ls[i - 1].strip():
+            ls.insert(i, "[unknown]")
+    return "\n".join(ls)
+
+
+def _rodada8_2025(t: str) -> str:
+    """2025: a página dá a rodada 8 em 05 e 06/02, as datas da rodada 7; pela FPF ela foi em 08 e 09/02 (achado A2-015)."""
+    i, j = t.find("Round 8\n"), t.find("Round 9\n")
+    if i < 0 or j < i:
+        raise ValueError("sp2025l2.htm: rodada 8 não achada")
+    return t[:i] + t[i:j].replace("[Feb 5]", "[Feb 8]").replace("[Feb 6]", "[Feb 9]") + t[j:]
+
+
+# datas herdadas de outra rodada (achado A2-015): a página quebra a leitura da data
+rsssf.CORRECOES.setdefault("sp1987l2.htm", []).append((_sem_data_1987, None, "blocos de jogos sem data"))
+rsssf.CORRECOES.setdefault("sp1998l2.htm", []).append(
+    (r"(?m)^(Mirassol)\s+\[\*\]\s+(6-1\s+Novorizontino)[ \t]*\n\[\*\] Apr 1[ \t]*\n", r"\1  \2  [jogado em 01/04]\n",
+     "a nota \"[*] Apr 1\" do jogo do Mirassol tirava a data da rodada 14 (25/03), logo abaixo"))
+rsssf.CORRECOES.setdefault("sp1999l2.htm", []).append((r"(?m)^Rounf 2", "Round 2", "\"Rounf 2\": a rodada 2 do torneio do "
+                                                                                   "rebaixamento (23/06) ficava com a data da 1"))
+rsssf.CORRECOES.setdefault("sp2010l2.htm", []).append((r"\[Feb 20\)", "[Feb 20]", "data com o colchete fechado por \")\""))
+rsssf.CORRECOES.setdefault("sp2011l2.htm", []).append((r"\[Feb 26\}", "[Feb 26]", "data com o colchete fechado por \"}\""))
+rsssf.CORRECOES.setdefault("sp2025l2.htm", []).append((_rodada8_2025, None, "rodada 8 em 08 e 09/02 (FPF)"))
 rsssf.CORRECOES.setdefault("sp2021l2.htm", []).append(
     (r"(?m)^(Round 7\n)\[Apr 26\]", r"\1[Apr 24]", "a rodada 7 foi em 24/04 (FPF); a página repete a data da rodada 8 (achado A2-016)"))
 

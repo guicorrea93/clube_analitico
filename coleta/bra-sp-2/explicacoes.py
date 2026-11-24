@@ -58,6 +58,9 @@ EXPLICACOES: dict[str, list[str]] = {
     "1986": ["datas que vêm assim da própria página e não têm 2ª fonte: a Esportiva com dois jogos em 17/08 e a 6ª rodada da "
              "2ª fase no mesmo dia (07/12) do 1º jogo do mata-mata; ficam como estão (achado A2-027)"],
     "1988": ["o EC Lemense tem dois jogos em 29/05, como na página (sem 2ª fonte; achado A2-027)"],
+    "1987": ["os blocos do 2º turno vêm sem data na página e ficam sem data (antes repetiam a última data lida; A2-015)",
+             "a página põe no grupo F clubes do grupo C (Ituano em 10/05; Velo Clube e Independente em 17/05) e dá ao União "
+             "Mogi e ao Bragantino dois jogos em 20/05, no grupo A; ficam como estão, sem 2ª fonte (como o A2-027)"],
     "1985": ["Nacional x São Bernardo (31/08): a vitória foi dada ao São Bernardo no tribunal, sem placar (o jogo terminou 0 a 0 "
              "e o Nacional escalou jogador irregular); Barretos x Sãocarlense (18/08): vitória dada ao Barretos (1 a 1 em campo)",
              "o Palmeiras de São João da Boa Vista tem dois jogos em 08/09, como na página (sem 2ª fonte; achado A2-027)"],
