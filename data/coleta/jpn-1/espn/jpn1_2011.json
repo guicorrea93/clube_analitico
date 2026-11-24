@@ -1,0 +1,11311 @@
+[
+{
+"id": "314727",
+"data_hora": "2011-03-05T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Seiya Fujita"
+]
+}
+]
+},
+{
+"id": "314728",
+"data_hora": "2011-03-05T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shu Kurata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasuhito Endo"
+]
+}
+]
+},
+{
+"id": "314729",
+"data_hora": "2011-03-05T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mizuho Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Hyodo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Kennedy"
+]
+}
+]
+},
+{
+"id": "314730",
+"data_hora": "2011-03-05T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314731",
+"data_hora": "2011-03-05T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Vantforet Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosuke Yamamoto"
+]
+}
+]
+},
+{
+"id": "314732",
+"data_hora": "2011-03-05T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuro Yajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kyohei Noborizato"
+]
+}
+]
+},
+{
+"id": "314733",
+"data_hora": "2011-03-05T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conceicao Jorge Wagner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Dong Hyuk Park"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Barbosa"
+]
+}
+]
+},
+{
+"id": "314734",
+"data_hora": "2011-03-06T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hideo Tanaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "12'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Keita Suzuki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nobuhisa Yamada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takayuki Yoshida"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryosuke Matsuoka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Keita Suzuki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fereira Popo"
+]
+}
+]
+},
+{
+"id": "314735",
+"data_hora": "2011-03-06T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Chun-soo Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masahiko Inoha"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kota Ueda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Arata Sugiyama"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daiki Iwamasa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Chun-soo Lee"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shusuke Tsubouchi"
+]
+}
+]
+},
+{
+"id": "314736",
+"data_hora": "2011-03-12T04:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314737",
+"data_hora": "2011-03-12T05:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Niigata Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314738",
+"data_hora": "2011-03-12T06:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Yanmar Stadium Nagai",
+"cidade": "Nagai",
+"publico": 0,
+"lances": []
+},
+{
+"id": "314739",
+"data_hora": "2011-03-12T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "314740",
+"data_hora": "2011-03-12T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314741",
+"data_hora": "2011-03-12T10:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "314742",
+"data_hora": "2011-03-13T06:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "314743",
+"data_hora": "2011-03-13T06:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "314744",
+"data_hora": "2011-03-13T07:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316117",
+"data_hora": "2011-04-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shohei Ogura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Koji Nakata"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kurihara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kurihara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kenji Koyano"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daiki Iwamasa"
+]
+}
+]
+},
+{
+"id": "316118",
+"data_hora": "2011-04-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yusuke Tanaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Makoto Kakuda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshiaki Ota"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "76'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Junichi Inamoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jiro Kamata"
+]
+}
+]
+},
+{
+"id": "316120",
+"data_hora": "2011-04-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Naoya Kondo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Young Gwon Kim"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Barbosa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuki Otsu"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuki Fukaya"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Barbosa"
+]
+}
+]
+},
+{
+"id": "316121",
+"data_hora": "2011-04-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Genki Omae"
+]
+}
+]
+},
+{
+"id": "316119",
+"data_hora": "2011-04-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Vantforet Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Katsuya Ishihara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hiroyuki Komoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daniel"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fereira Popo"
+]
+}
+]
+},
+{
+"id": "316124",
+"data_hora": "2011-04-24T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Niigata Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "5'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yoshiaki Fujita"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Young Cheol Cho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gilsinho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joo-ho Park"
+]
+}
+]
+},
+{
+"id": "316123",
+"data_hora": "2011-04-24T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Miyamoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fujimoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takashi Inui"
+]
+}
+]
+},
+{
+"id": "316122",
+"data_hora": "2011-04-24T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tadanari Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Morisaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Seung-Yong Kim"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mihael Mikic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shota Kawanishi"
+]
+}
+]
+},
+{
+"id": "316125",
+"data_hora": "2011-04-24T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "12'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcio Richardes"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mu Kanazaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcio Richardes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tatsuya Tanaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "35'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ogawa Yoshizumi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Nobuhisa Yamada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenki Haraguchi"
+]
+}
+]
+},
+{
+"id": "316152",
+"data_hora": "2011-04-29T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kazuki Yamaguchi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosuke Nakamachi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuya Osako"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daiki Iwamasa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryuichi Kamiyama"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gaku Shibasaki"
+]
+}
+]
+},
+{
+"id": "316154",
+"data_hora": "2011-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Masakatsu Sawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Masaru Matsuhashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junya Tanaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideaki Kitajima"
+]
+}
+]
+},
+{
+"id": "316153",
+"data_hora": "2011-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshiaki Ota"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "52'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kenki Haraguchi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yoshiki Takahashi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hiroyuki Takasaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Makoto Kakuda"
+]
+}
+]
+},
+{
+"id": "316156",
+"data_hora": "2011-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Chun-soo Lee"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kazuhiro Murakami"
+]
+}
+]
+},
+{
+"id": "316155",
+"data_hora": "2011-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shohei Ogura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Genki Omae"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "86'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kaito Yamamoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Hyodo"
+]
+}
+]
+},
+{
+"id": "316157",
+"data_hora": "2011-04-29T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yanmar Stadium Nagai",
+"cidade": "Nagai",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "3'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takashi Inui"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yusuke Maruhashi"
+]
+}
+]
+},
+{
+"id": "316158",
+"data_hora": "2011-04-29T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kentaro Sato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuya Miyamoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keun-Ho Lee"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shun Ito"
+]
+}
+]
+},
+{
+"id": "316159",
+"data_hora": "2011-04-29T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kazuyuki Morisaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tadanari Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tadanari Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+}
+]
+},
+{
+"id": "316160",
+"data_hora": "2011-04-29T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Mizuho Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jungo Fujimoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takanobu Komiyama"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "82'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+}
+]
+},
+{
+"id": "316323",
+"data_hora": "2011-05-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Niigata Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hiroto Mogi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fereira Popo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuta Mikado"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jae Min Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "74'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Bruno Da Silva"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "81'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Jae Min Lee"
+]
+}
+]
+},
+{
+"id": "316320",
+"data_hora": "2011-05-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "15'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shuto Yamamoto"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "30'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Shuto Yamamoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryohei Yamazaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kobayashi"
+]
+}
+]
+},
+{
+"id": "316322",
+"data_hora": "2011-05-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Leandro Domingues"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidenori Ishii"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideaki Kitajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yu Hasegawa"
+]
+}
+]
+},
+{
+"id": "316325",
+"data_hora": "2011-05-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kazuma Watanabe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masashi Oguro"
+]
+}
+]
+},
+{
+"id": "316324",
+"data_hora": "2011-05-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+}
+]
+},
+{
+"id": "316321",
+"data_hora": "2011-05-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Vantforet Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keigo Higashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshiro Abe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Genki Nagasato"
+]
+}
+]
+},
+{
+"id": "316326",
+"data_hora": "2011-05-03T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Mujiri"
+]
+}
+]
+},
+{
+"id": "316327",
+"data_hora": "2011-05-07T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Satoru Yamagishi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomoya Uchida"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryota Moriwaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Koji Morisaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mihael Mikic"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kazunari Hosaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hideomi Yamamoto"
+]
+}
+]
+},
+{
+"id": "316328",
+"data_hora": "2011-05-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "2'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryohei Yamazaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroki Yamada"
+]
+}
+]
+},
+{
+"id": "316329",
+"data_hora": "2011-05-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Park Kang Jo"
+]
+}
+]
+},
+{
+"id": "316330",
+"data_hora": "2011-05-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisashi Jogo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisashi Jogo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "46'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kazuma Watanabe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuji Ono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuji Ono"
+]
+}
+]
+},
+{
+"id": "316331",
+"data_hora": "2011-05-07T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Mizuho Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex Brosque"
+]
+}
+]
+},
+{
+"id": "316332",
+"data_hora": "2011-05-07T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316333",
+"data_hora": "2011-05-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideaki Kitajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conceicao Jorge Wagner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideaki Kitajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenki Haraguchi"
+]
+}
+]
+},
+{
+"id": "316334",
+"data_hora": "2011-05-07T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yanmar Stadium Nagai",
+"cidade": "Nagai",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rui Komatsu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshiaki Ota"
+]
+}
+]
+},
+{
+"id": "316484",
+"data_hora": "2011-05-14T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keigo Higashi"
+]
+}
+]
+},
+{
+"id": "316485",
+"data_hora": "2011-05-14T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naoki Sugai"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroki Yamada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryohei Yamazaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Naoki Sugai"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hiroki Yamada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Makoto Kakuda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+}
+]
+},
+{
+"id": "316486",
+"data_hora": "2011-05-14T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Niigata Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "21'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yoshiyuki Kobayashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Conceicao Jorge Wagner"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naoya Kondo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masato Kudo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Michael"
+]
+}
+]
+},
+{
+"id": "316487",
+"data_hora": "2011-05-14T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "5",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eddy Bosnar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Alex Brosque"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ken Tokura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ken Tokura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naohiro Takahara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Raphael Sena Botti"
+]
+}
+]
+},
+{
+"id": "316488",
+"data_hora": "2011-05-14T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "11'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kurihara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tadanari Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tadanari Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuji Nakazawa"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ryota Moriwaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"David Mujiri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shunsuke Nakamura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yojiro Takahagi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tadanari Lee"
+]
+}
+]
+},
+{
+"id": "316489",
+"data_hora": "2011-05-15T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Vantforet Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshiro Abe"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Genki Nagasato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jungo Fujimoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kazunari Hosaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masaru Matsuhashi"
+]
+}
+]
+},
+{
+"id": "316490",
+"data_hora": "2011-05-15T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Toshiya Sueyoshi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "29'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryuichi Kamiyama"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "30'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takahiro Futagawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takashi Usami"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Matsuura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takahiro Futagawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideya Okamoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "68'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Seung-Yong Kim"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomokazu Myojin"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kim Min-Jae"
+]
+}
+]
+},
+{
+"id": "316491",
+"data_hora": "2011-05-15T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenki Haraguchi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroshi Kiyotake"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "43'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Matthew Spiranovic"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "56'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pimpao"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kenki Haraguchi"
+]
+}
+]
+},
+{
+"id": "316492",
+"data_hora": "2011-05-15T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Carvalho dos Anjos Junior Juninho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takeshi Aoki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Yamase"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "41'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Masahiko Inoha"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kosei Shibasaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasushi Endo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kobayashi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takashi Aizawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlao"
+]
+}
+]
+},
+{
+"id": "316493",
+"data_hora": "2011-05-20T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "8'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pimpao"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Yamase"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuro Yajima"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takashi Inui"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroshi Kiyotake"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pimpao"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Taikai Uemoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kobayashi"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yusuke Tanaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Masaki Chugo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daisuke Takahashi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Martínez"
+]
+}
+]
+},
+{
+"id": "316494",
+"data_hora": "2011-05-21T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "5'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryohei Yamazaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "32'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosuke Yamamoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideya Okamoto"
+]
+}
+]
+},
+{
+"id": "316495",
+"data_hora": "2011-05-21T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "11'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroyuki Taniguchi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kazuma Watanabe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masashi Oguro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masashi Oguro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "53'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hiroyuki Taniguchi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+}
+]
+},
+{
+"id": "316496",
+"data_hora": "2011-05-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hayuma Tanaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "40'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ogawa Yoshizumi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Marcus Tulio Tanaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Danilson Cordoba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "67'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuki Otsu"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Masato Kudo"
+]
+}
+]
+},
+{
+"id": "316497",
+"data_hora": "2011-05-21T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daigo Nishi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Nozawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Chikashi Masuda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroyuki Takasaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mazzolla"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "69'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Chikashi Masuda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mazzolla"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Mazzolla"
+]
+}
+]
+},
+{
+"id": "316498",
+"data_hora": "2011-05-21T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Akira Kaji"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kazuhiko Chiba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Sota Nakazawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kengo Kawamata"
+]
+}
+]
+},
+{
+"id": "316499",
+"data_hora": "2011-05-21T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "4'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideo Tanaka"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hideo Tanaka"
+]
+}
+]
+},
+{
+"id": "316500",
+"data_hora": "2011-05-22T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naoki Sugai"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuki Nakashima"
+]
+}
+]
+},
+{
+"id": "316501",
+"data_hora": "2011-05-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naohiro Takahara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naohiro Takahara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinji Tsujio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Rafael Marques"
+]
+}
+]
+},
+{
+"id": "316502",
+"data_hora": "2011-05-28T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroyuki Taniguchi"
+]
+}
+]
+},
+{
+"id": "316503",
+"data_hora": "2011-05-28T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junya Tanaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junya Tanaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Domingues"
+]
+}
+]
+},
+{
+"id": "316504",
+"data_hora": "2011-05-28T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316505",
+"data_hora": "2011-05-28T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "22'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmilson Dos Santos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daisuke Suzuki"
+]
+}
+]
+},
+{
+"id": "316506",
+"data_hora": "2011-05-28T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shun Ito"
+]
+}
+]
+},
+{
+"id": "316507",
+"data_hora": "2011-05-29T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Rafael Marques"
+]
+}
+]
+},
+{
+"id": "316508",
+"data_hora": "2011-05-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "61'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kengo Nakamura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kengo Nakamura"
+]
+}
+]
+},
+{
+"id": "316509",
+"data_hora": "2011-05-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "23'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Kennedy"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideya Okamoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takahiro Masukawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Danilson Cordoba"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"K Shigematsu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jungo Fujimoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Igor Burzanovic"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Igor Burzanovic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+}
+]
+},
+{
+"id": "316510",
+"data_hora": "2011-05-29T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Morisaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "18'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinzo Koroki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Mujiri"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "66'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mihael Mikic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Morisaki"
+]
+}
+]
+},
+{
+"id": "317157",
+"data_hora": "2011-06-11T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"David Mujiri"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tsubasa Yokotake"
+]
+}
+]
+},
+{
+"id": "317160",
+"data_hora": "2011-06-11T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pimpao"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jun Suzuki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Makoto Tanaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shu Kurata"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daisuke Takahashi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "57'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tatsunori Yamagata"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kim Min-Jae"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Teruyuki Moniwa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroshi Kiyotake"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "84'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Toshiya Sueyoshi"
+]
+}
+]
+},
+{
+"id": "317159",
+"data_hora": "2011-06-11T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jungo Fujimoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "47'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joo-ho Park"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuki Kobayashi"
+]
+}
+]
+},
+{
+"id": "317158",
+"data_hora": "2011-06-11T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junya Tanaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideaki Kitajima"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yasuhiro Hato"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kurihara"
+]
+}
+]
+},
+{
+"id": "317161",
+"data_hora": "2011-06-11T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinzo Koroki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daiki Iwamasa"
+]
+}
+]
+},
+{
+"id": "317162",
+"data_hora": "2011-06-11T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yusuke Igawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kobayashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshiro Abe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Yamase"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "88'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Carlos Alberto Carvalho dos Anjos Junior Juninho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jumpei Kusukami"
+]
+}
+]
+},
+{
+"id": "317163",
+"data_hora": "2011-06-11T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "21'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroto Mogi"
+]
+}
+]
+},
+{
+"id": "317165",
+"data_hora": "2011-06-11T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosuke Ota"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Genki Omae"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takashi Usami"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Naohiro Takahara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eddy Bosnar"
+]
+}
+]
+},
+{
+"id": "317164",
+"data_hora": "2011-06-11T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mariano Rafael Marques"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Fukaya"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmilson Dos Santos"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Young Gwon Kim"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kenki Haraguchi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Chun-soo Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenki Haraguchi"
+]
+}
+]
+},
+{
+"id": "317254",
+"data_hora": "2011-06-15T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "22'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naoki Sugai"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Byung-Kuk Cho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Adrian Mar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yasuhito Endo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "80'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tatsuya Uchida"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "82'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Jiro Kamata"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shingo Tomita"
+]
+}
+]
+},
+{
+"id": "317260",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kun Hoan Kim"
+]
+}
+]
+},
+{
+"id": "317255",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "14'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shinzo Koroki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "25'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Toru Araiba"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yasushi Endo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mike Havenaar"
+]
+}
+]
+},
+{
+"id": "317257",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "62'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Gilsinho"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "64'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Naoya Kondo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "73'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Joo-ho Park"
+]
+}
+]
+},
+{
+"id": "317259",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Kennedy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Kennedy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hayuma Tanaka"
+]
+}
+]
+},
+{
+"id": "317256",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yusuke Tasaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yusuke Igawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mariano Rafael Marques"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kobayashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuro Yajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Yamase"
+]
+}
+]
+},
+{
+"id": "317262",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "317258",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "0'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tetsuyo Okubo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "26'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Keisuke Iwashita"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shogo Nishikawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naohiro Takahara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tetsuyo Okubo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomi Shimomura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex"
+]
+}
+]
+},
+{
+"id": "317261",
+"data_hora": "2011-06-15T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "317568",
+"data_hora": "2011-06-18T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasuhito Endo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Satoshi Yamaguchi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "55'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takahiro Futagawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "70'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Takei"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kun Hoan Kim"
+]
+}
+]
+},
+{
+"id": "317567",
+"data_hora": "2011-06-18T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "24'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eddy Bosnar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "36'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Naohiro Takahara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naohiro Takahara"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tsukasa Umesaki"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "85'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yosuke Kashiwagi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Eddy Bosnar"
+]
+}
+]
+},
+{
+"id": "317569",
+"data_hora": "2011-06-18T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Masaki Chugo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rui Komatsu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryuji Bando"
+]
+}
+]
+},
+{
+"id": "317573",
+"data_hora": "2011-06-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuta Mikado"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naoki Sugai"
+]
+}
+]
+},
+{
+"id": "317575",
+"data_hora": "2011-06-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junya Tanaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Akihiro Hyodo"
+]
+}
+]
+},
+{
+"id": "317571",
+"data_hora": "2011-06-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinzo Koroki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Tashiro"
+]
+}
+]
+},
+{
+"id": "317572",
+"data_hora": "2011-06-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuro Yajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosuke Kikuchi"
+]
+}
+]
+},
+{
+"id": "317570",
+"data_hora": "2011-06-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tetsuyo Okubo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shun Ito"
+]
+}
+]
+},
+{
+"id": "317574",
+"data_hora": "2011-06-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryota Isomura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Kennedy"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuya Aoki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuya Aoki"
+]
+}
+]
+},
+{
+"id": "317595",
+"data_hora": "2011-06-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "16'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yong Gi Ryang"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kodai Watanabe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Akamine"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Nakashima"
+]
+}
+]
+},
+{
+"id": "317596",
+"data_hora": "2011-06-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "14'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryota Isomura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Luis Martínez"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kim Bo-Kyung"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "24'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Danilson"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryota Isomura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rodrigo Pimpao"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keiji Tamada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "71'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fujimoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Joshua Kennedy"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "77'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shohei Abe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takashi Inui"
+]
+}
+]
+},
+{
+"id": "317598",
+"data_hora": "2011-06-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kazuhiro Murakami"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "19'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kota Ueda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shin Kanazawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Chikara Fujimoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jun Kanakubo"
+]
+}
+]
+},
+{
+"id": "317599",
+"data_hora": "2011-06-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "2",
+"gols_visitante": "4",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "10'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junya Tanaka"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasuhito Endo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "30'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Akimi Barada"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "42'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yusuke Murakami"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shoki Hirai"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hideaki Kitajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keun-Ho Lee"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "67'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Leandro Domingues"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takumi Shimohira"
+]
+}
+]
+},
+{
+"id": "317597",
+"data_hora": "2011-06-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "32'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Mihael Mikic"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tetsuyo Okubo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "43'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tadanari Lee"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shogo Nishikawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "63'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryota Moriwaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tetsuro Ota"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Shogo Nishikawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Miyamoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Morisaki"
+]
+}
+]
+},
+{
+"id": "317601",
+"data_hora": "2011-06-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junichi Inamoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "13'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Koji Yamase"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Alex"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinji Ono"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "45'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yusuke Igawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yusuke Tanaka"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "54'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Yusuke Igawa"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Eddy Bosnar"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shinji Tsujio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kobayashi"
+]
+}
+]
+},
+{
+"id": "317602",
+"data_hora": "2011-06-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Matsuura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuji Rokutan"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keita Suzuki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "73'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcio Richardes"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Edmilson Dos Santos"
+]
+}
+]
+},
+{
+"id": "317600",
+"data_hora": "2011-06-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuzo Tashiro"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "65'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hiroyuki Komoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "87'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "89'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Masashi Motoyama"
+]
+}
+]
+},
+{
+"id": "317603",
+"data_hora": "2011-06-22T10:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "9'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuzo Kurihara"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Isao Homma"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shingo Hyodo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Fumiya Kogure"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "48'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Seiya Fujita"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "49'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shohei Ogura"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kazuhiko Chiba"
+]
+}
+]
+},
+{
+"id": "317604",
+"data_hora": "2011-06-25T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "317608",
+"data_hora": "2011-06-25T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "317605",
+"data_hora": "2011-06-25T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "317607",
+"data_hora": "2011-06-25T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "317606",
+"data_hora": "2011-06-25T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "317609",
+"data_hora": "2011-06-26T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "5",
+"gols_visitante": "3",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasuhito Endo"
+]
+}
+]
+},
+{
+"id": "317610",
+"data_hora": "2011-06-26T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "317611",
+"data_hora": "2011-06-26T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "317612",
+"data_hora": "2011-06-26T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321929",
+"data_hora": "2011-07-02T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321930",
+"data_hora": "2011-07-02T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "45'+1'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yutaka Yoshida"
+]
+}
+]
+},
+{
+"id": "321931",
+"data_hora": "2011-07-02T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "321932",
+"data_hora": "2011-07-02T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321934",
+"data_hora": "2011-07-02T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321933",
+"data_hora": "2011-07-02T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": [
+{
+"tipo": "Red Card",
+"minuto": "28'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Leandro Domingues"
+]
+}
+]
+},
+{
+"id": "321935",
+"data_hora": "2011-07-03T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "321936",
+"data_hora": "2011-07-03T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "321937",
+"data_hora": "2011-07-03T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321939",
+"data_hora": "2011-07-06T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321938",
+"data_hora": "2011-07-06T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321940",
+"data_hora": "2011-07-09T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321941",
+"data_hora": "2011-07-09T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "321942",
+"data_hora": "2011-07-09T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321943",
+"data_hora": "2011-07-09T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321944",
+"data_hora": "2011-07-09T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "321945",
+"data_hora": "2011-07-10T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "321947",
+"data_hora": "2011-07-10T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "321946",
+"data_hora": "2011-07-10T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322500",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322499",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322498",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322140",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322497",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322139",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322138",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322141",
+"data_hora": "2011-07-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322502",
+"data_hora": "2011-07-16T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322501",
+"data_hora": "2011-07-16T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "4",
+"gols_visitante": "3",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322503",
+"data_hora": "2011-07-16T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322504",
+"data_hora": "2011-07-16T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322505",
+"data_hora": "2011-07-17T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322506",
+"data_hora": "2011-07-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322507",
+"data_hora": "2011-07-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322508",
+"data_hora": "2011-07-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322509",
+"data_hora": "2011-07-18T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322510",
+"data_hora": "2011-07-23T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322514",
+"data_hora": "2011-07-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322517",
+"data_hora": "2011-07-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322516",
+"data_hora": "2011-07-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322512",
+"data_hora": "2011-07-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322515",
+"data_hora": "2011-07-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322511",
+"data_hora": "2011-07-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322513",
+"data_hora": "2011-07-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322518",
+"data_hora": "2011-07-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316406",
+"data_hora": "2011-07-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "7'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuya Takei"
+]
+}
+]
+},
+{
+"id": "322522",
+"data_hora": "2011-07-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322520",
+"data_hora": "2011-07-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322519",
+"data_hora": "2011-07-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322524",
+"data_hora": "2011-07-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322523",
+"data_hora": "2011-07-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322521",
+"data_hora": "2011-07-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322525",
+"data_hora": "2011-07-31T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "322526",
+"data_hora": "2011-07-31T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Avispa Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "322527",
+"data_hora": "2011-07-31T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326400",
+"data_hora": "2011-08-06T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326401",
+"data_hora": "2011-08-06T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326404",
+"data_hora": "2011-08-06T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326402",
+"data_hora": "2011-08-06T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326403",
+"data_hora": "2011-08-06T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326405",
+"data_hora": "2011-08-06T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takayuki Yoshida"
+]
+}
+]
+},
+{
+"id": "326406",
+"data_hora": "2011-08-07T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tatsunori Yamagata"
+]
+}
+]
+},
+{
+"id": "326407",
+"data_hora": "2011-08-07T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326408",
+"data_hora": "2011-08-07T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326611",
+"data_hora": "2011-08-13T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326612",
+"data_hora": "2011-08-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326615",
+"data_hora": "2011-08-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326613",
+"data_hora": "2011-08-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326616",
+"data_hora": "2011-08-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326614",
+"data_hora": "2011-08-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326617",
+"data_hora": "2011-08-14T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326618",
+"data_hora": "2011-08-14T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Higashihirao Koen Level-5 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326619",
+"data_hora": "2011-08-14T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "316408",
+"data_hora": "2011-08-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "316407",
+"data_hora": "2011-08-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326797",
+"data_hora": "2011-08-20T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "6",
+"gols_visitante": "3",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326798",
+"data_hora": "2011-08-20T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326799",
+"data_hora": "2011-08-20T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326800",
+"data_hora": "2011-08-20T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326801",
+"data_hora": "2011-08-20T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326803",
+"data_hora": "2011-08-20T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326804",
+"data_hora": "2011-08-20T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326802",
+"data_hora": "2011-08-20T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326805",
+"data_hora": "2011-08-20T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326812",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326806",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Higashihirao Koen Level-5 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326807",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326808",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326809",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326811",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "55'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keisuke Iwashita"
+]
+}
+]
+},
+{
+"id": "326813",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326810",
+"data_hora": "2011-08-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326814",
+"data_hora": "2011-08-24T10:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326816",
+"data_hora": "2011-08-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326815",
+"data_hora": "2011-08-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326818",
+"data_hora": "2011-08-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326817",
+"data_hora": "2011-08-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326819",
+"data_hora": "2011-08-28T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326820",
+"data_hora": "2011-08-28T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "326821",
+"data_hora": "2011-08-28T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326822",
+"data_hora": "2011-08-28T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "326823",
+"data_hora": "2011-08-28T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331147",
+"data_hora": "2011-09-10T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Higashihirao Koen Level-5 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331146",
+"data_hora": "2011-09-10T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "5",
+"gols_visitante": "4",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331149",
+"data_hora": "2011-09-10T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331151",
+"data_hora": "2011-09-10T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331150",
+"data_hora": "2011-09-10T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331148",
+"data_hora": "2011-09-10T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331153",
+"data_hora": "2011-09-11T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331154",
+"data_hora": "2011-09-11T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331152",
+"data_hora": "2011-09-11T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331474",
+"data_hora": "2011-09-17T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331475",
+"data_hora": "2011-09-17T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331477",
+"data_hora": "2011-09-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331479",
+"data_hora": "2011-09-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331476",
+"data_hora": "2011-09-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "331478",
+"data_hora": "2011-09-17T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331480",
+"data_hora": "2011-09-18T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331481",
+"data_hora": "2011-09-18T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "331482",
+"data_hora": "2011-09-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332364",
+"data_hora": "2011-09-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332365",
+"data_hora": "2011-09-23T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "6",
+"gols_visitante": "0",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332366",
+"data_hora": "2011-09-24T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332367",
+"data_hora": "2011-09-24T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332368",
+"data_hora": "2011-09-24T09:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332370",
+"data_hora": "2011-09-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332369",
+"data_hora": "2011-09-24T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332371",
+"data_hora": "2011-09-25T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332372",
+"data_hora": "2011-09-25T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Higashihirao Koen Level-5 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332618",
+"data_hora": "2011-10-01T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332619",
+"data_hora": "2011-10-01T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Toshihiko Uchiyama"
+]
+}
+]
+},
+{
+"id": "332620",
+"data_hora": "2011-10-01T04:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332621",
+"data_hora": "2011-10-01T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332622",
+"data_hora": "2011-10-01T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332623",
+"data_hora": "2011-10-02T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332625",
+"data_hora": "2011-10-02T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332624",
+"data_hora": "2011-10-02T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332626",
+"data_hora": "2011-10-02T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332790",
+"data_hora": "2011-10-15T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332791",
+"data_hora": "2011-10-15T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332792",
+"data_hora": "2011-10-15T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332796",
+"data_hora": "2011-10-15T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Higashihirao Koen Level-5 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332794",
+"data_hora": "2011-10-15T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332793",
+"data_hora": "2011-10-15T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332795",
+"data_hora": "2011-10-15T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332797",
+"data_hora": "2011-10-16T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332798",
+"data_hora": "2011-10-16T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332833",
+"data_hora": "2011-10-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332834",
+"data_hora": "2011-10-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332836",
+"data_hora": "2011-10-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332832",
+"data_hora": "2011-10-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332835",
+"data_hora": "2011-10-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332837",
+"data_hora": "2011-10-22T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "332838",
+"data_hora": "2011-10-23T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332839",
+"data_hora": "2011-10-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "332840",
+"data_hora": "2011-10-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "0",
+"gols_visitante": "4",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333073",
+"data_hora": "2011-11-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333069",
+"data_hora": "2011-11-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333070",
+"data_hora": "2011-11-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333072",
+"data_hora": "2011-11-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333071",
+"data_hora": "2011-11-03T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333077",
+"data_hora": "2011-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Higashihirao Koen Level-5 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333075",
+"data_hora": "2011-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333074",
+"data_hora": "2011-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333076",
+"data_hora": "2011-11-03T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333365",
+"data_hora": "2011-11-19T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333366",
+"data_hora": "2011-11-19T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333367",
+"data_hora": "2011-11-19T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333363",
+"data_hora": "2011-11-19T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333364",
+"data_hora": "2011-11-19T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333368",
+"data_hora": "2011-11-19T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "0",
+"gols_visitante": "5",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333369",
+"data_hora": "2011-11-19T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333370",
+"data_hora": "2011-11-20T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333371",
+"data_hora": "2011-11-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": []
+},
+{
+"id": "333707",
+"data_hora": "2011-11-26T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333703",
+"data_hora": "2011-11-26T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "38'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yasuhiro Hiraoka"
+]
+}
+]
+},
+{
+"id": "333704",
+"data_hora": "2011-11-26T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Cerezo Osaka",
+"visitante_id": "7109",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333705",
+"data_hora": "2011-11-26T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333706",
+"data_hora": "2011-11-26T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333709",
+"data_hora": "2011-11-26T08:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Avispa Fukuoka",
+"mandante_id": "7107",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Higashihirao Koen Level-5 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333708",
+"data_hora": "2011-11-26T08:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Omiya Ardija",
+"visitante_id": "7110",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333710",
+"data_hora": "2011-11-27T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "333711",
+"data_hora": "2011-11-27T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Jubilo Iwata",
+"visitante_id": "7106",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "334242",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334245",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Cerezo Osaka",
+"mandante_id": "7109",
+"visitante": "Avispa Fukuoka",
+"visitante_id": "7107",
+"gols_mandante": "7",
+"gols_visitante": "1",
+"estadio": "Yodoko Sakura Stadium",
+"cidade": "Osaka",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kim Min-Jae"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'+1'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shu Kurata"
+]
+}
+]
+},
+{
+"id": "334244",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Jubilo Iwata",
+"mandante_id": "7106",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Yamaha Stadium",
+"cidade": "Iwata",
+"publico": 0,
+"lances": []
+},
+{
+"id": "334075",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334077",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Omiya Ardija",
+"mandante_id": "7110",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Omiya Park Soccer Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334243",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334076",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "334074",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "334241",
+"data_hora": "2011-12-03T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+}
+]

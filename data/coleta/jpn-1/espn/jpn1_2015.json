@@ -1,0 +1,4323 @@
+[
+{
+"id": "416925",
+"data_hora": "2015-03-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416927",
+"data_hora": "2015-03-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416929",
+"data_hora": "2015-03-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416926",
+"data_hora": "2015-03-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416928",
+"data_hora": "2015-03-07T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416930",
+"data_hora": "2015-03-07T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416931",
+"data_hora": "2015-03-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416932",
+"data_hora": "2015-03-07T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416933",
+"data_hora": "2015-03-08T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "58'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomoya Inukai"
+]
+}
+]
+},
+{
+"id": "416934",
+"data_hora": "2015-03-13T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hirofumi Watanabe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "89'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daisuke Suzuki"
+]
+}
+]
+},
+{
+"id": "416935",
+"data_hora": "2015-03-14T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416936",
+"data_hora": "2015-03-14T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416937",
+"data_hora": "2015-03-14T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "33'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kaoru Takayama"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "54'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Wataru Endo"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "90'+3'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Alison"
+]
+}
+]
+},
+{
+"id": "416938",
+"data_hora": "2015-03-14T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416939",
+"data_hora": "2015-03-14T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416940",
+"data_hora": "2015-03-14T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416941",
+"data_hora": "2015-03-14T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416942",
+"data_hora": "2015-03-14T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416945",
+"data_hora": "2015-03-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416943",
+"data_hora": "2015-03-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416946",
+"data_hora": "2015-03-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416944",
+"data_hora": "2015-03-22T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416947",
+"data_hora": "2015-03-22T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416948",
+"data_hora": "2015-03-22T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416950",
+"data_hora": "2015-03-22T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416949",
+"data_hora": "2015-03-22T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416951",
+"data_hora": "2015-03-22T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "418714",
+"data_hora": "2015-04-03T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416980",
+"data_hora": "2015-04-03T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416983",
+"data_hora": "2015-04-04T04:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416984",
+"data_hora": "2015-04-04T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416986",
+"data_hora": "2015-04-04T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416985",
+"data_hora": "2015-04-04T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "74'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Naoki Maeda"
+]
+}
+]
+},
+{
+"id": "416987",
+"data_hora": "2015-04-04T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "15'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naohiro Ishikawa"
+]
+}
+]
+},
+{
+"id": "416988",
+"data_hora": "2015-04-04T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416981",
+"data_hora": "2015-04-04T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416989",
+"data_hora": "2015-04-12T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416991",
+"data_hora": "2015-04-12T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416990",
+"data_hora": "2015-04-12T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416992",
+"data_hora": "2015-04-12T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416995",
+"data_hora": "2015-04-12T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416993",
+"data_hora": "2015-04-12T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416994",
+"data_hora": "2015-04-12T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416996",
+"data_hora": "2015-04-12T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416997",
+"data_hora": "2015-04-12T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "416998",
+"data_hora": "2015-04-16T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Naomichi Ueda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Atsutaka Nakamura"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Carlos Eduardo da Silva Dudu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernandes Lucas Caio"
+]
+}
+]
+},
+{
+"id": "417003",
+"data_hora": "2015-04-18T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Own Goal",
+"minuto": "15'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Michael James"
+]
+}
+]
+},
+{
+"id": "417000",
+"data_hora": "2015-04-18T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "416999",
+"data_hora": "2015-04-18T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417001",
+"data_hora": "2015-04-18T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417004",
+"data_hora": "2015-04-18T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417005",
+"data_hora": "2015-04-18T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417006",
+"data_hora": "2015-04-18T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417002",
+"data_hora": "2015-04-18T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417007",
+"data_hora": "2015-04-25T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417008",
+"data_hora": "2015-04-25T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417009",
+"data_hora": "2015-04-25T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417011",
+"data_hora": "2015-04-25T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417010",
+"data_hora": "2015-04-25T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417012",
+"data_hora": "2015-04-25T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417013",
+"data_hora": "2015-04-25T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "419820",
+"data_hora": "2015-04-25T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417015",
+"data_hora": "2015-04-26T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417019",
+"data_hora": "2015-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417018",
+"data_hora": "2015-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "4",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417020",
+"data_hora": "2015-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417017",
+"data_hora": "2015-04-29T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417022",
+"data_hora": "2015-04-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417021",
+"data_hora": "2015-04-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417023",
+"data_hora": "2015-04-29T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417016",
+"data_hora": "2015-04-29T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417024",
+"data_hora": "2015-04-29T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417025",
+"data_hora": "2015-05-02T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417026",
+"data_hora": "2015-05-02T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417028",
+"data_hora": "2015-05-02T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "20'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Anderson Aguiar Oliveira Patrick"
+]
+}
+]
+},
+{
+"id": "417029",
+"data_hora": "2015-05-02T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Red Card",
+"minuto": "90'+6'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Sho Inagaki"
+]
+}
+]
+},
+{
+"id": "417031",
+"data_hora": "2015-05-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417030",
+"data_hora": "2015-05-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417032",
+"data_hora": "2015-05-02T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417033",
+"data_hora": "2015-05-02T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417027",
+"data_hora": "2015-05-02T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417036",
+"data_hora": "2015-05-06T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417035",
+"data_hora": "2015-05-06T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417037",
+"data_hora": "2015-05-06T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417038",
+"data_hora": "2015-05-06T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417039",
+"data_hora": "2015-05-06T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417040",
+"data_hora": "2015-05-06T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417034",
+"data_hora": "2015-05-06T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417041",
+"data_hora": "2015-05-10T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "59'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Makoto Kakuda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "60'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yusuke Muta"
+]
+}
+]
+},
+{
+"id": "417042",
+"data_hora": "2015-05-10T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "3",
+"gols_visitante": "0",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417044",
+"data_hora": "2015-05-10T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417043",
+"data_hora": "2015-05-10T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417046",
+"data_hora": "2015-05-10T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417045",
+"data_hora": "2015-05-10T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "4",
+"gols_visitante": "4",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuki Muto"
+]
+}
+]
+},
+{
+"id": "417047",
+"data_hora": "2015-05-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417048",
+"data_hora": "2015-05-10T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "37'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Dejan Janković"
+]
+}
+]
+},
+{
+"id": "417049",
+"data_hora": "2015-05-10T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "31'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yasuhito Endo"
+]
+}
+]
+},
+{
+"id": "417050",
+"data_hora": "2015-05-14T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417053",
+"data_hora": "2015-05-16T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417052",
+"data_hora": "2015-05-16T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417051",
+"data_hora": "2015-05-16T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417054",
+"data_hora": "2015-05-16T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417055",
+"data_hora": "2015-05-16T06:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417056",
+"data_hora": "2015-05-16T06:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "4",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417057",
+"data_hora": "2015-05-16T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417058",
+"data_hora": "2015-05-16T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417059",
+"data_hora": "2015-05-23T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417060",
+"data_hora": "2015-05-23T08:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "4",
+"gols_visitante": "0",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417061",
+"data_hora": "2015-05-23T09:30Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "6'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Min Tae KIM"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jader Volnei Spindler Bare Spindler"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "78'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Nozawa"
+]
+}
+]
+},
+{
+"id": "417064",
+"data_hora": "2015-05-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "39'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuhei Tokunaga"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "73'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masato Morishige"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryota Isomura"
+]
+},
+{
+"tipo": "Red Card",
+"minuto": "84'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": true,
+"jogadores": [
+"Ryota Isomura"
+]
+}
+]
+},
+{
+"id": "417063",
+"data_hora": "2015-05-23T10:00Z",
+"situacao": "STATUS_POSTPONED",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417065",
+"data_hora": "2015-05-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "20'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenyu Sugimoto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "23'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Kenyu Sugimoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "36'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yohei Toyoda"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "72'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daichi Kamada"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yusuke Igawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kenyu Sugimoto"
+]
+}
+]
+},
+{
+"id": "417066",
+"data_hora": "2015-05-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jungo Fujimoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Junior Braga Bispo Ademilson"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "17'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Manoel Obina"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "31'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosuke Nakamachi"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Junior Braga Bispo Ademilson"
+]
+}
+]
+},
+{
+"id": "417067",
+"data_hora": "2015-05-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "4",
+"gols_visitante": "2",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryohei Yamazaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "19'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tsukasa Shiotani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "37'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matos Douglas"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "51'",
+"lado": "away",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takanori Maeno"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "61'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Takuya Marutani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "70'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuma Asano"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "80'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tsukasa Shiotani"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tatsuya Tanaka"
+]
+}
+]
+},
+{
+"id": "417062",
+"data_hora": "2015-05-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "44'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Tomoya Ugajin"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "67'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryota Moriwaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Muto"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "75'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Daisuke Nasu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takahiro Sekine"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "90'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Yuki Muto"
+]
+}
+]
+},
+{
+"id": "417068",
+"data_hora": "2015-05-30T04:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 23197,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "71'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hokuto Shimoda"
+]
+}
+]
+},
+{
+"id": "417069",
+"data_hora": "2015-05-30T05:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417070",
+"data_hora": "2015-05-30T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "0",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Yellow Card",
+"minuto": "27'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Shunki Takahashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+},
+{
+"tipo": "Yellow Card",
+"minuto": "79'",
+"lado": "home",
+"gol": false,
+"penalti": false,
+"contra": false,
+"amarelo": true,
+"vermelho": false,
+"jogadores": [
+"Ryota Morioka"
+]
+}
+]
+},
+{
+"id": "417072",
+"data_hora": "2015-05-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417071",
+"data_hora": "2015-05-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "3",
+"gols_visitante": "1",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417076",
+"data_hora": "2015-05-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "6",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417075",
+"data_hora": "2015-05-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417074",
+"data_hora": "2015-05-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417073",
+"data_hora": "2015-05-30T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": []
+},
+{
+"id": "417078",
+"data_hora": "2015-06-03T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasuyuki Konno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasuhito Endo"
+]
+}
+]
+},
+{
+"id": "417077",
+"data_hora": "2015-06-03T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "3",
+"gols_visitante": "3",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Muto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "1'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tsukasa Umesaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "6'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masato Kudo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Montera Leandro"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tomoaki Makino"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "78'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Montera Leandro"
+]
+}
+]
+},
+{
+"id": "417086",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Albirex Niigata",
+"mandante_id": "7113",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Tohoku Denryoku Big Swan Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kensuke Nagai"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "42'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryohei Yamazaki"
+]
+}
+]
+},
+{
+"id": "417087",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Vissel Kobe",
+"visitante_id": "7477",
+"gols_mandante": "0",
+"gols_visitante": "0",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417082",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristiano Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "49'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matos Douglas"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "86'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidekazu Otani"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daisuke Suzuki"
+]
+}
+]
+},
+{
+"id": "417083",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "2",
+"gols_visitante": "1",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elson Ferreira De Souza Elsinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "4'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kaoru Takayama"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+}
+]
+},
+{
+"id": "417085",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshinori Muto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "27'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kento Hashimoto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Okubo"
+]
+}
+]
+},
+{
+"id": "417080",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasushi Endo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gama Diego"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "58'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shogo Nishikawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernandes Lucas Caio"
+]
+}
+]
+},
+{
+"id": "417081",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "52'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinzo Koroki"
+]
+}
+]
+},
+{
+"id": "417079",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Sagan Tosu",
+"visitante_id": "6911",
+"gols_mandante": "5",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "48'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yong Gi Ryang"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "51'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "68'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hidetaka Kanazono"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuya Nozawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "77'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Min Tae KIM"
+]
+}
+]
+},
+{
+"id": "417084",
+"data_hora": "2015-06-07T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manabu Saito"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuma Abe"
+]
+}
+]
+},
+{
+"id": "417093",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Gamba Osaka",
+"mandante_id": "7102",
+"visitante": "Vegalta Sendai",
+"visitante_id": "6918",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Expo '70 Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yasuyuki Konno"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroaki Okuna"
+]
+}
+]
+},
+{
+"id": "417088",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kawasaki Frontale",
+"mandante_id": "7112",
+"visitante": "Matsumoto Yamaga FC",
+"visitante_id": "17744",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Kawasaki Todoroki Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "45'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Calixto Ribeiro Renato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "64'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elson Ferreira De Souza Elsinho"
+]
+}
+]
+},
+{
+"id": "417092",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Nagoya Grampus",
+"mandante_id": "7108",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Toyota Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Milivoje Novakovic"
+]
+}
+]
+},
+{
+"id": "417096",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "FC Tokyo",
+"visitante_id": "3384",
+"gols_mandante": "1",
+"gols_visitante": "2",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "17'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kim Min-Woo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shoya Nakajima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masato Morishige"
+]
+}
+]
+},
+{
+"id": "417095",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sanfrecce Hiroshima",
+"mandante_id": "7114",
+"visitante": "Montedio Yamagata",
+"visitante_id": "6915",
+"gols_mandante": "5",
+"gols_visitante": "1",
+"estadio": "Big Arch",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "26'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "29'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hisato Sato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosei Shibasaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Nakashima"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'+3'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mihael Mikic"
+]
+}
+]
+},
+{
+"id": "417091",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shimizu S-Pulse",
+"mandante_id": "7104",
+"visitante": "Ventforet Kofu",
+"visitante_id": "7103",
+"gols_mandante": "0",
+"gols_visitante": "2",
+"estadio": "Nihondaira Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417090",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Shonan Bellmare",
+"mandante_id": "6902",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Shonan BMW Stadium Hiratsuka",
+"cidade": "Shonan",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "33'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuto Misao"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "65'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Masaru Kato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "85'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kosuke Yamamoto"
+]
+}
+]
+},
+{
+"id": "417094",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Urawa Red Diamonds",
+"visitante_id": "3385",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "28'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Tsukasa Umesaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Kazuma Watanabe"
+]
+}
+]
+},
+{
+"id": "417089",
+"data_hora": "2015-06-20T07:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Yokohama F. Marinos",
+"mandante_id": "7116",
+"visitante": "Kashima Antlers",
+"visitante_id": "7115",
+"gols_mandante": "0",
+"gols_visitante": "3",
+"estadio": "Nissan Stadium, Nashville",
+"cidade": "Nashville, Tennessee",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "9'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Fernandes Lucas Caio"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "41'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shoma Doi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shuhei Akasaki"
+]
+}
+]
+},
+{
+"id": "426666",
+"data_hora": "2015-06-23T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashiwa Reysol",
+"mandante_id": "7476",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "0",
+"estadio": "Hitachi Stadium",
+"cidade": null,
+"publico": 0,
+"lances": []
+},
+{
+"id": "417101",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "FC Tokyo",
+"mandante_id": "3384",
+"visitante": "Shimizu S-Pulse",
+"visitante_id": "7104",
+"gols_mandante": "3",
+"gols_visitante": "2",
+"estadio": "Anjinimoto Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "38'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Keigo Higashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Genki Omae"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "66'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Ryoichi Maeda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "83'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hideki Ishige"
+]
+}
+]
+},
+{
+"id": "417099",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Kashima Antlers",
+"mandante_id": "7115",
+"visitante": "Kawasaki Frontale",
+"visitante_id": "7112",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": "Kashima Soccer Stadium",
+"cidade": "Kashima",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Elson Ferreira De Souza Elsinho"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "34'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Calixto Ribeiro Renato"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "44'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Mu Kanazaki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "47'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshito Okubo"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shuhei Akasaki"
+]
+}
+]
+},
+{
+"id": "417103",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Matsumoto Yamaga FC",
+"mandante_id": "17744",
+"visitante": "Shonan Bellmare",
+"visitante_id": "6902",
+"gols_mandante": "2",
+"gols_visitante": "3",
+"estadio": null,
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "53'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Manoel Obina"
+]
+},
+{
+"tipo": "Own Goal",
+"minuto": "56'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": true,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yudai Iwama"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "72'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shota Kobayashi"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "87'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yoshiro Abe"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "88'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Seiya Fujita"
+]
+}
+]
+},
+{
+"id": "417098",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Montedio Yamagata",
+"mandante_id": "6915",
+"visitante": "Gamba Osaka",
+"visitante_id": "7102",
+"gols_mandante": "1",
+"gols_visitante": "3",
+"estadio": "Yamagata Park Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takashi Usami"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "59'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takashi Usami"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "62'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takashi Usami"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "75'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Gama Diego"
+]
+}
+]
+},
+{
+"id": "417105",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Sagan Tosu",
+"mandante_id": "6911",
+"visitante": "Sanfrecce Hiroshima",
+"visitante_id": "7114",
+"gols_mandante": "2",
+"gols_visitante": "2",
+"estadio": "Tosu Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "25'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yohei Toyoda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "90'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yohei Toyoda"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "60'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Toshihiro Aoyama"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "78'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Matos Douglas"
+]
+}
+]
+},
+{
+"id": "417100",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Urawa Red Diamonds",
+"mandante_id": "3385",
+"visitante": "Albirex Niigata",
+"visitante_id": "7113",
+"gols_mandante": "5",
+"gols_visitante": "2",
+"estadio": "Saitama Stadium",
+"cidade": "Saitama",
+"publico": 0,
+"lances": [
+{
+"tipo": "Penalty - Scored",
+"minuto": "21'",
+"lado": "home",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinzo Koroki"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "35'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Muto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "50'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Yuki Muto"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "57'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Shinzo Koroki"
+]
+},
+{
+"tipo": "Penalty - Scored",
+"minuto": "68'",
+"lado": "away",
+"gol": true,
+"penalti": true,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Rafael"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "76'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Daisuke Nasu"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "81'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroshi Ibusuki"
+]
+}
+]
+},
+{
+"id": "417097",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vegalta Sendai",
+"mandante_id": "6918",
+"visitante": "Nagoya Grampus",
+"visitante_id": "7108",
+"gols_mandante": "2",
+"gols_visitante": "0",
+"estadio": "Sendai Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "39'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuya Nozawa"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "69'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Hiroaki Okuna"
+]
+}
+]
+},
+{
+"id": "417102",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Ventforet Kofu",
+"mandante_id": "7103",
+"visitante": "Kashiwa Reysol",
+"visitante_id": "7476",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kose Sports Stadium",
+"cidade": null,
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "63'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Cristiano Da Silva"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "84'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Takuma Abe"
+]
+}
+]
+},
+{
+"id": "417104",
+"data_hora": "2015-06-27T10:00Z",
+"situacao": "STATUS_FULL_TIME",
+"mandante": "Vissel Kobe",
+"mandante_id": "7477",
+"visitante": "Yokohama F. Marinos",
+"visitante_id": "7116",
+"gols_mandante": "1",
+"gols_visitante": "1",
+"estadio": "Kobe Wing Stadium",
+"cidade": "Kobe",
+"publico": 0,
+"lances": [
+{
+"tipo": "Goal",
+"minuto": "8'",
+"lado": "home",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Marcos Gomes De Araujo Marquinhos"
+]
+},
+{
+"tipo": "Goal",
+"minuto": "40'",
+"lado": "away",
+"gol": true,
+"penalti": false,
+"contra": false,
+"amarelo": false,
+"vermelho": false,
+"jogadores": [
+"Jungo Fujimoto"
+]
+}
+]
+}
+]
