@@ -100,6 +100,10 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
     if e.sem_jogos or e.incompleta:   # sem jogos: as tabelas publicadas são a classificação
         ts = [tb for tb in p["tabelas"] if tb.get("sem_conferencia")]
         pub = None
+    if pub is None and not {r["clube"] for tb in ts for r in tb["linhas"]} >= set(clubes):
+        # as tabelas que fecham com os jogos não cobrem todos os clubes (uma conferência diverge, como em 2004): entram todas
+        # as tabelas publicadas da fase regular
+        ts = [tb for tb in p["tabelas"] if not (tb.get("acumulada") or tb.get("parcial") or tb.get("desempate"))]
     if pub is None and ts:
         # conferências / divisões: junta as tabelas de clubes diferentes, a maior primeiro (no ano com dois turnos, fica o
         # turno de mais jogos), e ordena por pontos, saldo e gols pró
@@ -111,6 +115,12 @@ def classificacao(e: Edicao, p: dict, calc: dict, nivel: dict, campeao: str | No
                 vistos |= cs
         ls_ = [r for tb in juntas for r in tb["linhas"]]
         ls_.sort(key=lambda r: (-(r["pts"] or 0), -((r["gp"] or 0) - (r["gc"] or 0)), -(r["gp"] or 0)))
+        # clube que só aparece no outro turno (ASL: saiu ou entrou no meio do ano) entra depois, com a campanha desse turno
+        for tb in ts:
+            for r in tb["linhas"]:
+                if r["clube"] not in vistos and tb["t"].fase == "":
+                    ls_.append(r)
+                    vistos.add(r["clube"])
         if juntas:
             pub = {**juntas[0], "linhas": ls_, "fonte": " + ".join(dict.fromkeys(tb["fonte"] for tb in juntas))}
     linhas = []
