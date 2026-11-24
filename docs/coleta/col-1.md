@@ -17,21 +17,21 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | Temporada | Clubes | Jogos (esperados) | Gols | c/ autor | Tabelas ok / div. | Campeão | Classificação |
 |---|---|---|---|---|---|---|---|
 | 1948 | 10 | 90 (90) | 409 | 0 | 0 / 1 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1949 | 14 | 184 (184) | 811 | 0 | 0 / 2 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1949 | 14 | 184 (184) | 820 | 0 | 1 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1950 | 16 | 240 (240) | 991 | 0 | 0 / 1 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1951 | 18 | 306 (306) | 1250 | 0 | 0 / 2 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1952 | 15 | 209 (210) | 767 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1953 | 12 | 131 (132) | 534 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1954 | 10 | 86 (86) | 349 | 0 | 0 / 1 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1955 | 10 | 90 (90) | 347 | 0 | 0 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1955 | 10 | 135 (135) | 507 | 0 | 1 / 0 | Independiente Medellín | RSSSF (col55) |
 | 1956 | 13 | 156 (156) | 625 | 0 | 0 / 1 | Deportes Quindío | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1957 | 12 | 211 (211) | 727 | 0 | 0 / 1 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1958 | 10 | 90 (90) | 312 | 0 | 0 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1959 | 12 | 130 (130) | 484 | 0 | 0 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1960 | 12 | 132 (132) | 429 | 0 | 0 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1961 | 12 | 132 (132) | 446 | 0 | 0 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1957 | 12 | 211 (211) | 695 | 0 | 0 / 1 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1958 | 10 | 180 (180) | 644 | 0 | 0 / 1 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1959 | 12 | 261 (261) | 916 | 0 | 1 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1960 | 12 | 264 (264) | 815 | 0 | 0 / 1 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1961 | 12 | 264 (264) | 846 | 0 | 1 / 0 | Millonarios | RSSSF (col61) |
 | 1962 | 12 | 264 (264) | 893 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1963 | 13 | 156 (156) | 555 | 0 | 0 / 0 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1963 | 13 | 312 (624) | 1062 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1964 | 13 | 311 (312) | 996 | 0 | 0 / 1 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1965 | 13 | 312 (312) | 992 | 0 | 0 / 1 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1966 | 14 | 350 (350) | 1147 | 0 | 0 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -44,7 +44,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 1973 | 14 | 344 (344) | 840 | 0 | 0 / 3 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1974 | 14 | 361 (543) | 832 | 0 | 1 / 3 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1975 | 14 | 358 (358) | 873 | 0 | 1 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1976 | 14 | 351 (533) | 911 | 0 | 3 / 1 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1976 | 14 | 361 (543) | 933 | 0 | 4 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1977 | 14 | 359 (541) | 897 | 0 | 0 / 4 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1978 | 14 | 365 (547) | 974 | 0 | 4 / 3 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1979 | 14 | 367 (514) | 914 | 0 | 2 / 4 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -57,7 +57,7 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 1986 | 8 | 21 (21) | 56 | 0 | 0 / 1 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1987 | 14 | 0 (0) | 0 | 0 | 0 / 0 | Millonarios | RSSSF (col87) |
 | 1988 | 15 | 146 (146) | 336 | 0 | 5 / 4 | Millonarios | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 1989 | 8 | 32 (32) | 99 | 0 | 0 / 0 | None | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 1989 | 15 | 242 (242) | 544 | 0 | 0 / 0 | None | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1990 | 15 | 335 (425) | 752 | 0 | 1 / 5 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 1991 | 15 | 0 (0) | 0 | 0 | 0 / 0 | Atlético Nacional | RSSSF (col91) |
 | 1992 | 16 | 0 (0) | 0 | 0 | 0 / 0 | América de Cali | RSSSF (col92) |
@@ -79,14 +79,14 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 2005 Apertura | 18 | 188 (188) | 456 | 299 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2005 Finalización | 18 | 187 (188) | 464 | 454 | 2 / 1 | Deportivo Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2006 Apertura | 18 | 188 (188) | 475 | 471 | 3 / 0 | Deportivo Pasto | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2006 Finalización | 18 | 188 (179) | 479 | 473 | 3 / 1 | Cúcuta Deportivo | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2007 Apertura | 18 | 188 (188) | 482 | 474 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2006 Finalización | 18 | 188 (179) | 479 | 479 | 3 / 1 | Cúcuta Deportivo | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2007 Apertura | 18 | 188 (188) | 482 | 472 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2007 Finalización | 18 | 189 (188) | 446 | 404 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2008 Apertura | 18 | 188 (188) | 469 | 452 | 3 / 0 | Boyacá Chicó | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2008 Finalización | 18 | 188 (188) | 427 | 428 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2008 Finalización | 18 | 188 (188) | 427 | 427 | 3 / 0 | América de Cali | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Apertura | 18 | 189 (188) | 439 | 411 | 3 / 0 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2009 Finalización | 18 | 189 (188) | 530 | 524 | 3 / 0 | Independiente Medellín | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2010 Apertura | 18 | 168 (168) | 457 | 440 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2010 Apertura | 18 | 168 (168) | 457 | 443 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2010 Finalización | 18 | 189 (188) | 498 | 496 | 3 / 0 | Once Caldas | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2011 Apertura | 18 | 176 (176) | 475 | 456 | 1 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2011 Finalización | 18 | 176 (176) | 429 | 417 | 1 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
@@ -116,33 +116,23 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 | 2024 Apertura | 20 | 216 (216) | 467 | 459 | 3 / 0 | Atlético Bucaramanga | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2024 Finalización | 20 | 216 (216) | 473 | 467 | 3 / 0 | Atlético Nacional | calculada (fase alcançada, pontos, saldo, gols pró) |
 | 2025 Apertura | 20 | 226 (226) | 489 | 486 | 3 / 0 | Independiente Santa Fe | calculada (fase alcançada, pontos, saldo, gols pró) |
-| 2025 Finalización | 20 | 226 (226) | 547 | 540 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
+| 2025 Finalización | 20 | 226 (226) | 547 | 544 | 3 / 0 | Junior de Barranquilla | calculada (fase alcançada, pontos, saldo, gols pró) |
 
 ## Conferência e correções, edição a edição
 
 ### 1948
 
-- ogol: 72 jogos casados (edição 24306 do ogol, 90 jogos)
+- ogol: 42 jogos casados (edição 24306 do ogol, 90 jogos)
 - tabela publicada x jogos — col48:17: Once Deportivo tabela [18, 5, 5, 8, 32, 50] jogos [18, 5, 4, 9, 32, 50] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- placar diferente no ogol — Once Caldas x Independiente Santa Fe (1948-08-15): RSSSF 1-1, ogol 2-2; fica o da RSSSF
+- placar diferente no ogol — Once Caldas x Independiente Santa Fe (None): RSSSF 1-1, ogol 2-2; fica o da RSSSF
 
 ### 1949
 
-- ogol: 178 jogos casados (edição 24846 do ogol, 184 jogos)
-- tabela publicada x jogos — col49:14: Deportivo Cali tabela [26, 20, 4, 2, 89, 41] jogos [26, 20, 4, 2, 84, 40] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col49:18: Universidad Nacional de Bogotá tabela [26, 9, 9, 8, 46, 42] jogos [26, 9, 9, 8, 46, 40] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col49:18: Boca Juniors de Cali tabela [26, 9, 5, 12, 45, 58] jogos [26, 8, 5, 13, 42, 58] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col49:18: América de Cali tabela [26, 7, 4, 15, 53, 67] jogos [26, 8, 4, 14, 52, 61] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- placar diferente no ogol — América de Cali x Boca Juniors de Cali (None): RSSSF 3-1, ogol 3-4; fica o da RSSSF
-- data diferente no ogol — Huracán de Medellín x Deportivo Cali: RSSSF 1949-05-25, ogol 1949-05-29; fica a da RSSSF
-- placar diferente no ogol — Boca Juniors de Cali x Once Caldas (1949-07-02): RSSSF 3-1, ogol 3-4; fica o da RSSSF
-- data diferente no ogol — Independiente Santa Fe x Atlético Bucaramanga: RSSSF 1949-07-03, ogol 1949-06-29; fica a da RSSSF
-- data diferente no ogol — América de Cali x Millonarios: RSSSF 1949-07-03, ogol 1949-06-29; fica a da RSSSF
-- data diferente no ogol — Deportivo Barranquilla x Universidad Nacional de Bogotá: RSSSF 1949-07-03, ogol 1949-06-29; fica a da RSSSF
-- data diferente no ogol — Independiente Medellín x Atlético Nacional: RSSSF 1949-07-03, ogol 1949-06-29; fica a da RSSSF
-- data diferente no ogol — Once Deportivo x Deportivo Cali: RSSSF 1949-07-03, ogol 1949-06-29; fica a da RSSSF
+- ogol: 134 jogos casados (edição 24846 do ogol, 184 jogos)
+- tabela publicada x jogos — col49:18: Deportivo Barranquilla tabela [26, 5, 5, 16, 34, 49] jogos [26, 6, 5, 15, 35, 48] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- placar diferente no ogol — Boca Juniors de Cali x Once Caldas (None): RSSSF 3-1, ogol 3-4; fica o da RSSSF
 - placar diferente no ogol — Millonarios x Boca Juniors de Cali (None): RSSSF 2-0, ogol 1-0; fica o da RSSSF
-- placar diferente no ogol — Deportivo Cali x Universidad Nacional de Bogotá (None): RSSSF 1-0, ogol 3-0; fica o da RSSSF
+- placar diferente no ogol — Deportivo Barranquilla x Once Caldas (None): RSSSF 1-0, ogol 0-1; fica o da RSSSF
 - placar diferente no ogol — Deportivo Barranquilla x Once Deportivo (None): RSSSF 0-1, ogol 3-3; fica o da RSSSF
 - data diferente no ogol — Millonarios x Deportivo Cali: RSSSF 1949-12-04, ogol 1949-11-27; fica a da RSSSF
 
@@ -240,22 +230,111 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 ### 1957
 
 - tabela publicada x jogos — col57:16: Boca Juniors de Cali tabela [22, 12, 5, 5, 43, 16] jogos [22, 12, 5, 5, 43, 26] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col57:16: Deportes Quindío tabela [22, 10, 4, 8, 34, 32] jogos [22, 10, 4, 8, 34, 30] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
-- tabela publicada x jogos — col57:16: Deportivo Pereira tabela [22, 9, 6, 7, 41, 51] jogos [22, 9, 6, 7, 42, 51] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col57:16: Deportes Quindío tabela [22, 10, 4, 8, 34, 32] jogos [22, 10, 4, 8, 34, 30] — a diferença vem de Deportivo Pereira x Deportes Quindío (1957-09-14), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — col57:16: Deportivo Pereira tabela [22, 9, 6, 7, 41, 51] jogos [22, 9, 6, 7, 42, 51] — a diferença vem de Deportivo Pereira x Deportes Quindío (1957-09-14), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — col57:16: América de Cali tabela [22, 8, 3, 11, 39, 45] jogos [22, 8, 3, 11, 39, 46] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col57:16: Millonarios tabela [22, 4, 8, 10, 25, 40] jogos [22, 4, 7, 11, 25, 42] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- corrigido — Independiente Medellín x Cúcuta Deportivo (1957-09-14): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Deportivo Pereira x Deportes Quindío (1957-09-14): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Independiente Santa Fe x Independiente Medellín (1957-09-21): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Unión Magdalena x Boca Juniors de Cali (1957-09-21): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Deportes Quindío x Deportes Tolima (1957-09-21): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Cúcuta Deportivo x Deportivo Pereira (1957-09-21): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Independiente Santa Fe x Unión Magdalena (1957-09-28): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Independiente Medellín x Deportivo Pereira (1957-09-28): octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- corrigido — Unión Magdalena x Independiente Medellín (1957-10-06): hexagonal do grupo A (CO-013)
+- corrigido — Atlético Nacional x Deportes Quindío (1957-10-06): hexagonal do grupo A (CO-013)
+- corrigido — Deportivo Pereira x Deportes Tolima (1957-10-06): hexagonal do grupo A (CO-013)
+- corrigido — Independiente Medellín x Atlético Nacional (1957-10-13): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Tolima x Unión Magdalena (1957-10-13): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Quindío x Deportivo Pereira (1957-10-13): hexagonal do grupo A (CO-013)
+- corrigido — Unión Magdalena x Deportes Quindío (1957-10-20): hexagonal do grupo A (CO-013)
+- corrigido — Independiente Medellín x Deportes Tolima (1957-10-20): hexagonal do grupo A (CO-013)
+- corrigido — Deportivo Pereira x Atlético Nacional (1957-10-20): hexagonal do grupo A (CO-013)
+- corrigido — Atlético Nacional x Unión Magdalena (1957-10-27): hexagonal do grupo A (CO-013)
+- corrigido — Deportivo Pereira x Independiente Medellín (1957-10-27): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Tolima x Deportes Quindío (1957-10-27): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Quindío x Independiente Medellín (1957-11-01): hexagonal do grupo A (CO-013)
+- corrigido — Unión Magdalena x Deportivo Pereira (1957-11-01): hexagonal do grupo A (CO-013)
+- corrigido — Atlético Nacional x Deportes Tolima (1957-11-01): hexagonal do grupo A (CO-013)
+- corrigido — Independiente Medellín x Unión Magdalena (1957-11-03): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Quindío x Atlético Nacional (1957-11-03): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Tolima x Deportivo Pereira (1957-11-03): hexagonal do grupo A (CO-013)
+- corrigido — Atlético Nacional x Independiente Medellín (1957-11-10): hexagonal do grupo A (CO-013)
+- corrigido — Unión Magdalena x Deportes Tolima (1957-11-10): hexagonal do grupo A (CO-013)
+- corrigido — Deportivo Pereira x Deportes Quindío (1957-11-10): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Quindío x Unión Magdalena (1957-11-17): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Tolima x Independiente Medellín (1957-11-17): hexagonal do grupo A (CO-013)
+- corrigido — Atlético Nacional x Deportivo Pereira (1957-11-17): hexagonal do grupo A (CO-013)
+- corrigido — Unión Magdalena x Atlético Nacional (1957-11-24): hexagonal do grupo A (CO-013)
+- corrigido — Independiente Medellín x Deportivo Pereira (1957-11-24): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Quindío x Deportes Tolima (1957-11-24): hexagonal do grupo A (CO-013)
+- corrigido — Independiente Medellín x Deportes Quindío (1957-11-30): hexagonal do grupo A (CO-013)
+- corrigido — Deportivo Pereira x Unión Magdalena (1957-11-30): hexagonal do grupo A (CO-013)
+- corrigido — Deportes Tolima x Atlético Nacional (1957-11-30): hexagonal do grupo A (CO-013)
+- corrigido — Independiente Medellín x Deportivo Pereira (None): desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- corrigido — Independiente Medellín x Deportes Tolima (None): desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- corrigido — Deportivo Pereira x Independiente Medellín (None): desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- corrigido — Deportivo Pereira x Deportes Tolima (None): desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- corrigido — Deportes Tolima x Independiente Medellín (None): desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- corrigido — Deportes Tolima x Deportivo Pereira (None): desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- corrigido — Cúcuta Deportivo x América de Cali (1957-10-06): hexagonal do grupo B (CO-013)
+- corrigido — Millonarios x Atlético Bucaramanga (1957-10-06): hexagonal do grupo B (CO-013)
+- corrigido — Boca Juniors de Cali x Independiente Santa Fe (1957-10-06): hexagonal do grupo B (CO-013)
+- corrigido — América de Cali x Millonarios (1957-10-13): hexagonal do grupo B (CO-013)
+- corrigido — Independiente Santa Fe x Cúcuta Deportivo (1957-10-13): hexagonal do grupo B (CO-013)
+- corrigido — Atlético Bucaramanga x Boca Juniors de Cali (1957-10-13): hexagonal do grupo B (CO-013)
+- corrigido — Cúcuta Deportivo x Atlético Bucaramanga (1957-10-20): hexagonal do grupo B (CO-013)
+- corrigido — América de Cali x Independiente Santa Fe (1957-10-20): hexagonal do grupo B (CO-013)
+- corrigido — Millonarios x Boca Juniors de Cali (1957-10-20): hexagonal do grupo B (CO-013)
+- corrigido — Atlético Bucaramanga x América de Cali (1957-10-27): hexagonal do grupo B (CO-013)
+- corrigido — Boca Juniors de Cali x Cúcuta Deportivo (1957-10-27): hexagonal do grupo B (CO-013)
+- corrigido — Millonarios x Independiente Santa Fe (1957-10-27): hexagonal do grupo B (CO-013)
+- corrigido — América de Cali x Boca Juniors de Cali (1957-11-01): hexagonal do grupo B (CO-013)
+- corrigido — Cúcuta Deportivo x Millonarios (1957-11-01): hexagonal do grupo B (CO-013)
+- corrigido — Independiente Santa Fe x Atlético Bucaramanga (1957-11-01): hexagonal do grupo B (CO-013)
+- corrigido — América de Cali x Cúcuta Deportivo (1957-11-03): hexagonal do grupo B (CO-013)
+- corrigido — Atlético Bucaramanga x Millonarios (1957-11-03): hexagonal do grupo B (CO-013)
+- corrigido — Independiente Santa Fe x Boca Juniors de Cali (1957-11-03): hexagonal do grupo B (CO-013)
+- corrigido — Millonarios x América de Cali (1957-11-10): hexagonal do grupo B (CO-013)
+- corrigido — Cúcuta Deportivo x Independiente Santa Fe (1957-11-10): hexagonal do grupo B (CO-013)
+- corrigido — Boca Juniors de Cali x Atlético Bucaramanga (1957-11-10): hexagonal do grupo B (CO-013)
+- corrigido — Atlético Bucaramanga x Cúcuta Deportivo (1957-11-17): hexagonal do grupo B (CO-013)
+- corrigido — Independiente Santa Fe x América de Cali (1957-11-17): hexagonal do grupo B (CO-013)
+- corrigido — Boca Juniors de Cali x Millonarios (1957-11-17): hexagonal do grupo B (CO-013)
+- corrigido — América de Cali x Atlético Bucaramanga (1957-11-24): hexagonal do grupo B (CO-013)
+- corrigido — Cúcuta Deportivo x Boca Juniors de Cali (1957-11-24): hexagonal do grupo B (CO-013)
+- corrigido — Independiente Santa Fe x Millonarios (1957-11-24): hexagonal do grupo B (CO-013)
+- corrigido — Boca Juniors de Cali x América de Cali (1957-11-30): hexagonal do grupo B (CO-013)
+- corrigido — Millonarios x Cúcuta Deportivo (1957-11-30): hexagonal do grupo B (CO-013)
+- corrigido — Atlético Bucaramanga x Independiente Santa Fe (1957-11-30): hexagonal do grupo B (CO-013)
+- corrigido — Cúcuta Deportivo x Deportes Tolima (1957-02-16): final entre os vencedores dos hexagonais (Cúcuta x Tolima) (CO-013)
+- corrigido — Deportes Tolima x Cúcuta Deportivo (1957-02-23): final entre os vencedores dos hexagonais (Cúcuta x Tolima) (CO-013)
+- corrigido — Cúcuta Deportivo x Deportes Tolima (1957-03-15): final entre os vencedores dos hexagonais (Cúcuta x Tolima) (CO-013)
+- anulado — Independiente Medellín 7-1 Cúcuta Deportivo (1957-09-14)
+- anulado — Deportivo Pereira 1-2 Deportes Quindío (1957-09-14)
+- anulado — Independiente Santa Fe 2-3 Independiente Medellín (1957-09-21)
+- anulado — Unión Magdalena 2-0 Boca Juniors de Cali (1957-09-21)
+- anulado — Deportes Quindío 1-0 Deportes Tolima (1957-09-21)
+- anulado — Cúcuta Deportivo 1-4 Deportivo Pereira (1957-09-21)
+- anulado — Independiente Santa Fe 2-2 Unión Magdalena (1957-09-28)
+- anulado — Independiente Medellín 3-1 Deportivo Pereira (1957-09-28)
 
 ### 1958
 
-- sem ocorrências
+- tabela publicada x jogos — col58:14: Cúcuta Deportivo tabela [36, 11, 11, 14, 63, 66] jogos [36, 11, 11, 14, 62, 66] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col58:14: América de Cali tabela [36, 4, 4, 28, 44, 99] jogos [36, 4, 4, 28, 44, 98] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1959
 
-- sem ocorrências
+- tabela publicada x jogos — col59:20: Deportes Quindío tabela [44, 13, 14, 17, 60, 70] jogos [43, 12, 14, 17, 59, 70] — faltam 1 jogo(s) do clube na página
+- tabela publicada x jogos — col59:20: Atlético Bucaramanga tabela [44, 14, 11, 19, 67, 78] jogos [44, 15, 11, 18, 69, 76] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col59:20: Deportes Tolima tabela [44, 12, 14, 18, 78, 95] jogos [43, 12, 14, 17, 78, 94] — faltam 1 jogo(s) do clube na página
 
 ### 1960
 
-- sem ocorrências
+- tabela publicada x jogos — col60:14: Deportes Quindío tabela [44, 14, 15, 15, 64, 71] jogos [44, 15, 15, 14, 65, 70] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col60:14: Unión Magdalena tabela [44, 10, 12, 22, 57, 83] jogos [44, 9, 12, 23, 56, 84] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1961
 
@@ -268,7 +347,14 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1963
 
-- sem ocorrências
+- tabela publicada x jogos — col63:14: Millonarios tabela [48, 27, 9, 12, 102, 60] jogos [48, 27, 9, 12, 102, 61] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col63:14: Independiente Santa Fe tabela [48, 24, 13, 11, 112, 61] jogos [48, 24, 13, 11, 112, 81] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col63:14: Cúcuta Deportivo tabela [48, 21, 14, 13, 96, 67] jogos [48, 21, 13, 14, 95, 68] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col63:14: Deportivo Pereira tabela [48, 18, 12, 18, 96, 77] jogos [48, 19, 12, 17, 96, 77] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col63:14: América de Cali tabela [48, 13, 21, 14, 73, 67] jogos [48, 14, 20, 14, 73, 68] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col63:14: Atlético Nacional tabela [48, 16, 9, 23, 79, 101] jogos [48, 15, 10, 23, 79, 101] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col63:14: Atlético Bucaramanga tabela [48, 14, 13, 21, 66, 80] jogos [48, 14, 13, 21, 68, 80] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- tabela publicada x jogos — col63:14: Deportes Tolima tabela [48, 8, 12, 28, 59, 109] jogos [48, 8, 12, 28, 61, 109] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 
 ### 1964
 
@@ -369,6 +455,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col74:61: Deportivo Pereira tabela [21, 10, 5, 6, 21, 16] jogos [21, 10, 5, 6, 21, 17] — a outra tabela publicada (col74) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col74:61: Deportes Quindío tabela [21, 9, 3, 9, 30, 27] jogos [21, 9, 3, 9, 34, 27] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col74:61: Unión Magdalena tabela [21, 2, 5, 14, 16, 40] jogos [21, 2, 5, 14, 16, 43] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- corrigido — Atlético Nacional x Deportivo Cali (1974-07-11): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- corrigido — Deportivo Cali x Atlético Nacional (1974-07-14): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
 
 ### 1975
 
@@ -376,22 +464,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 
 ### 1976
 
-- tabela publicada x jogos — col76:128: Atlético Nacional tabela [10, 6, 2, 2, 20, 7] jogos [10, 4, 0, 6, 10, 12] — a outra tabela publicada (col76) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col76:128: Deportivo Cali tabela [10, 5, 2, 3, 23, 15] jogos [10, 3, 4, 3, 12, 13] — a outra tabela publicada (col76) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col76:128: Millonarios tabela [10, 5, 2, 3, 15, 11] jogos [10, 3, 4, 3, 8, 8] — a outra tabela publicada (col76) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col76:128: Junior de Barranquilla tabela [10, 5, 1, 4, 15, 15] jogos [10, 7, 2, 1, 12, 4] — a outra tabela publicada (col76) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col76:128: Once Caldas tabela [10, 3, 1, 6, 14, 21] jogos [10, 4, 2, 4, 13, 14] — a outra tabela publicada (col76) fecha com os jogos: o erro é desta tabela
-- tabela publicada x jogos — col76:128: Deportes Quindío tabela [10, 1, 2, 7, 7, 25] jogos [10, 1, 4, 5, 12, 16] — a outra tabela publicada (col76) fecha com os jogos: o erro é desta tabela
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:892 « x Deportivo Cali»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:892 « x Junior de Barranquilla»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:892 « x Millonarios Fútbol Club»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:892 « x Once Caldas»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:892 « x Deportes Quindío»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:910 « x Deportivo Cali»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:910 « x Junior de Barranquilla»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:910 « x Millonarios Fútbol Club»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:910 « x Atlético Nacional»
-- linha lida como jogo e descartada (clube não reconhecido): wiki-es_1976:910 « x Once Caldas»
+- corrigido — Junior de Barranquilla x Millonarios (1976-07-18): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- corrigido — Millonarios x Junior de Barranquilla (1976-07-20): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
 
 ### 1977
 
@@ -449,6 +523,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col79:39: Deportes Tolima tabela [21, 3, 7, 11, 16, 37] jogos [21, 3, 6, 12, 17, 38] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col79:103: Unión Magdalena tabela [6, 2, 3, 1, 5, 2] jogos [6, 2, 3, 1, 6, 3] — a outra tabela publicada (col79) fecha com os jogos: o erro é desta tabela
 - tabela publicada x jogos — col79:103: Deportivo Cali tabela [6, 1, 4, 1, 5, 4] jogos [6, 1, 4, 1, 6, 5] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- corrigido — América de Cali x Deportivo Cali (1979-06-28): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- corrigido — Deportivo Cali x América de Cali (1979-07-01): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
 
 ### 1980
 
@@ -473,6 +549,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col80:90: Deportivo Cali tabela [6, 2, 3, 1, 11, 10] jogos [6, 2, 3, 1, 10, 7] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col80:90: América de Cali tabela [6, 1, 2, 3, 5, 7] jogos [6, 1, 2, 3, 8, 11] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col80:90: Atlético Nacional tabela [6, 0, 4, 2, 9, 11] jogos [6, 1, 3, 2, 9, 12] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- corrigido — Junior de Barranquilla x Deportivo Cali (1980-07-16): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- corrigido — Deportivo Cali x Junior de Barranquilla (1980-07-20): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
 
 ### 1981
 
@@ -503,6 +581,8 @@ Gerado por `python coleta/col-1/importar.py`. Pacote em `data/coleta/col-1/pacot
 - tabela publicada x jogos — col82:49: Atlético Bucaramanga tabela [21, 7, 1, 13, 26, 42] jogos [21, 7, 1, 13, 26, 44] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col82:62: Millonarios tabela [14, 6, 3, 5, 17, 15] jogos [14, 5, 3, 6, 15, 18] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
 - tabela publicada x jogos — col82:62: Independiente Medellín tabela [14, 4, 3, 7, 13, 18] jogos [14, 5, 3, 6, 16, 16] — mesmo número de jogos; placar diferente em algum jogo do clube (a página não diz qual)
+- corrigido — Deportivo Cali x América de Cali (1982-07-18): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- corrigido — América de Cali x Deportivo Cali (1982-07-20): final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
 
 ### 1983
 

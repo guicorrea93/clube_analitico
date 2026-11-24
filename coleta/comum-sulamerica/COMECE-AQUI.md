@@ -102,7 +102,7 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Peru: feito (`70d8caf`)** (PE-010, PE-012, PE-014, PE-015, PE-017, PE-022). Novo: `coleta/per-1/rebaixados_es.py`
      (seção "Ascensos y descensos" das páginas da es; `baixar_wikipedia.py` agora baixa todos os anos, "Liga1 <ano> (Perú)"
      de 2019 em diante).
-   - **Próximo: Colômbia.**
+   - **Abertos da revisão: FEITOS (24/11)**, fora os que esperam 3ª fonte (lista no fim de `pedidos-sulamerica.md`).
    - **Paraguai: feito (`a22c1ff`)** (PY-008, PY-012, PY-018, PY-019, PY-031). Novo: `coleta/par-1/goleadores_es.py`
      (coluna "Goleador" da es, guardada em `data/coleta/par-1/wikipedia/es_principal.txt`) e `explicacoes.REBAIXADOS`.
      Torneios (Apertura e Clausura) ligados no leitor só de 1996 a 2007 (`ANOS_TORNEIOS`).
@@ -112,7 +112,11 @@ da América do Sul estão todas coletadas (a do Brasil é de outros agentes).
    - **Argentina: feito (`e698941`)** (AR-020, AR-021, QU-003; QU-005 aberto sem 3ª fonte). Novo:
      `coleta/arg-1/rebaixados_es.py` (anexo "Movilidad interdivisional" da es), `FASE_PELA_TABELA`, `FORA_DA_TABELA` e o
      3º passo da ESPN (jogo adiado, `adiado`) no `outras_fontes.py`.
-   - **Colômbia:** CO-004, CO-006, CO-009, CO-012, CO-013, CO-015, CO-016, CO-017, CO-018 (só reimportar), CO-020, CO-022.
+   - **Colômbia: feito (commit no recado)**: CO-004, CO-006 (1976, 1989), CO-009, CO-012, CO-013, CO-015 (1948-1949),
+     CO-016, CO-017, CO-018, CO-020. Abertos: CO-006 (1986, 1988), CO-004 (1966), CO-015 (2001-2018), CO-022. Novo:
+     `goleadores_es.py`, `bonus_fase_final()`, `acerta_grupos()`, `ler_rsssf.cruzada()` (tabela de confrontos) e, no
+     `wikipedia_jogos.py`, `ANOS_LISTAS`/`ANOS_TEXTO` (formatos de lista só nesses anos). ATENÇÃO: a chave do CORRIGE para
+     jogo da Wikipédia é "wiki-es_<ano>:<linha>" (com hífen); "wiki:es_" nunca casou (corrigido no col-1 e no uru-1).
    - O detalhe de cada id está em `docs/revisao/achados.csv`; o que não tiver fonte fica registrado em `explicacoes.py`.
 3. **Depois: copas nacionais** (pedido do Guilherme, 23/11, antes das 2ªs divisões). Pesquisa pronta em
    `copas-nacionais.md` (nesta pasta): sete países têm copa (ARG, URU, CHI, COL, PAR, ECU, VEN); faltam as decisões dele

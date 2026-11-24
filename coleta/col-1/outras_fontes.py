@@ -8,6 +8,7 @@ minuto e cartões.
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -80,8 +81,13 @@ def casar(e: Edicao, jogos: list[dict], fonte: list[dict], nome_m: str, nome_v: 
         d = dia_fonte(g)
         if not m or not v:
             continue
+        gm, gv = gols_fonte(g)
+        # CO-009 (como o CH-023): par de clubes que se repete na edição, sem data na fonte de base, só casa com placar igual
+        repete = sum(1 for j in jogos if j["m"] == m and j["v"] == v) > 1
         cands = [k for k, j in enumerate(jogos) if k not in usado and j["m"] == m and j["v"] == v and j["j"]
-                 and (d is None or _dia(j["j"].data) is None or abs(_dia(j["j"].data) - d) <= 10)]
+                 and (d is None or _dia(j["j"].data) is None or abs(_dia(j["j"].data) - d) <= 10)
+                 and (not repete or _dia(j["j"].data) is not None or gm is None or j["j"].gm is None
+                      or (j["j"].gm, j["j"].gv) == (gm, gv))]
         if len(cands) == 1:
             ligado[cands[0]] = g
             usado.add(cands[0])
@@ -135,6 +141,8 @@ def lances_espn(g: dict) -> tuple[list[dict], list[dict]]:
             mi = int(p[0]) if p[0].isdigit() else None
             ac = int(p[1]) if len(p) > 1 and p[1].isdigit() else None
         jog = (l["jogadores"] or [None])[0]
+        if jog:   # como no CH-017: "Gastón 2Fernández" (ESPN): dígito grudado no começo de um nome sai
+            jog = re.sub(r"\b\d+(?=[^\W\d_])", "", jog)
         if l["gol"] and l["lado"] not in ("home", "away"):   # CO-018: gol sem lado não entra (o lado viraria palpite)
             continue
         if l["gol"]:

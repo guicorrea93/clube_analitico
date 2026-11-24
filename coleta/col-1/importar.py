@@ -14,6 +14,7 @@ from __future__ import annotations
 import csv
 import json
 import re
+import unicodedata
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -36,9 +37,51 @@ NIVEL_FASE = {"": 0, "Grupo do rebaixamento": 0, "Desempate do rebaixamento": 0,
               "Quadrangulares semifinais": 4, "Pentagonais": 3, "Triangulares": 4, "Hexagonal final": 5, "Octogonal final": 5,
               "Quadrangular final": 6, "Finalísima": 6,
               "Terceira fase": 1, "Nacional": 2, "Oitavas de final": 3, "Quartas de final": 4,
-              "Desempate da tabela anual": 1, "Fase final": 2, "Semifinal": 5, "Final": 6, "Desempate do título": 6}
+              "Desempate da tabela anual": 1, "Fase final": 2, "Semifinal": 5, "Final": 6, "Desempate do título": 6,
+              "Desempate do grupo": 5, "Final dos hexagonais": 5}   # CO-013 (1957)
 WIKI: dict[str, str] = {}
 TOPS: dict[str, list] = {}
+TOPS_ES: dict[str, tuple[list[str], int]] = {}
+BONUS: dict[str, dict[str, str]] = {}   # CO-016: temporada -> clube -> observação do bônus da fase final
+
+
+def bonus_fase_final() -> dict[str, dict[str, str]]:
+    """CO-016: bônus da fase final (frações de ponto) pelas páginas da RSSSF: "Bonus Table" (1983-1988, 1993, 1994), o texto
+    de 1992 e o "[BP: x]" de 1998. Ficam na observação da classificação: os pontos são inteiros no banco (1990 e 1991 já vêm
+    com o bônus somado nas tabelas da fase final)."""
+    from ler_rsssf import linhas
+    saida: dict[str, dict[str, str]] = defaultdict(dict)
+    texto = lambda b, fonte: f"bônus de {b.replace('.', ',')} ponto(s) para a fase final (RSSSF, {fonte}), fora dos pontos"
+    for ano in (1983, 1984, 1985, 1986, 1987, 1988, 1993, 1994):
+        ls = linhas(f"col{ano % 100:02d}")
+        i = next((k for k, l in enumerate(ls) if l.strip() == "Bonus Table"), None)
+        for l in ls[i + 1:i + 14] if i is not None else []:
+            if m := re.match(r"^\s*\d+\.\s+(.+?)\s{2,}.*?([\d.]+)\s*$", l):
+                if (c := clube(m.group(1).strip(), ano)) and float(m.group(2)) > 0:
+                    saida[str(ano)][c] = texto(m.group(2), "Bonus Table")
+    for l in linhas("col92"):
+        if l.startswith("Cali 1, "):   # "Bonus points won for final rounds: Cali 1, Indep. Santa Fe 0.75, ..."
+            for nome, b in re.findall(r"([A-Z][\w. ]+?)\s+([\d.]+)(?:,|\.$)", l):
+                if c := clube(nome.strip(), 1992):
+                    saida["1992"][c] = texto(b, "texto da página")
+    for l in linhas("col98")[:900]:   # só a 1ª divisão (a 2ª vem depois)
+        if m := re.match(r"^\s*\d+\.(.+?)\s{2,}.*\[BP:\s*([\d.]+)\s*\]", l):
+            if c := clube(m.group(1).strip(), 1998):
+                saida["1998"][c] = texto(m.group(2), "[BP]")
+    return saida
+
+
+def _clube_do_autor(jog: str, autores: Counter) -> str:
+    """Clube de um goleador da Wikipédia pelos gols com autor da edição: o autor com o mesmo sobrenome (e o mesmo prenome,
+    se houver mais de um) que mais marcou. Sem ninguém, fica vazio."""
+    sem = lambda s: "".join(ch for ch in unicodedata.normalize("NFKD", s.lower()) if not unicodedata.combining(ch)).split()
+    alvo = sem(jog)
+    if not alvo:
+        return ""
+    cands = [(n, c, x) for (n, c), x in autores.items() if alvo[-1] in sem(n)]
+    if len({c for _, c, _ in cands}) > 1:
+        cands = [k for k in cands if sem(k[0])[:1] == alvo[:1]] or cands
+    return max(cands, key=lambda k: k[2])[1] if cands else ""
 
 
 def nome_fase(f: str, fases: set[str]) -> str:
@@ -56,12 +99,33 @@ def especial(esp: str) -> str:
 
 
 def virada_do_ano(e: Edicao, jogos: list[dict]) -> None:
-    """CO-010: na Wikipédia a data vem sem ano e o leitor põe o ano do campeonato. A final de 1957 foi em março de 1958 e o
-    desempate do título de 1971, em janeiro e fevereiro de 1972 (só esses jogos têm data nessas edições)."""
-    fase = {"1957": "Final", "1971": "Desempate do título"}.get(e.temporada)
+    """CO-010: na Wikipédia a data vem sem ano e o leitor põe o ano do campeonato. A final de 1957 e a final dos hexagonais
+    (CO-013) foram em fevereiro e março de 1958; o desempate do título de 1971, em janeiro e fevereiro de 1972."""
+    fases = {"1957": {"Final", "Final dos hexagonais"}, "1971": {"Desempate do título"}}.get(e.temporada, set())
     for j in jogos:
-        if fase and j["fase"] == fase and j["j"] and j["j"].data and j["j"].data[:4] == str(e.ano_inicio):
+        if j["fase"] in fases and j["j"] and j["j"].data and j["j"].data[:4] == str(e.ano_inicio):
             j["j"].data = f"{e.ano_inicio + 1}{j['j'].data[4:]}"
+
+
+def acerta_grupos(e: Edicao, p: dict) -> None:
+    """CO-012 (1999 em diante, depois da conferência): nos quadrangulares semifinais, o grupo de cada jogo sai das tabelas
+    publicadas da fase (cada tabela com clubes que as outras não têm é um grupo; sem rótulo, A, B na ordem); a 1ª fase sem
+    tabelas de grupo fica sem grupo (é uma tabela só; os jogos herdavam o grupo dos quadrangulares). As outras fases ficam
+    como estão (a Copa Mustang de 1995-1997 tem tabelas parciais que enganariam a regra)."""
+    if e.ano_inicio < 1999:
+        return
+    tabs: dict[str, list[tuple[str, frozenset]]] = defaultdict(list)
+    for tb in p["tabelas"]:
+        cs = frozenset(r["clube"] for r in tb["linhas"] if r["clube"])
+        if cs and all(cs != x for _, x in tabs[tb["t"].fase]):
+            tabs[tb["t"].fase].append((tb["t"].grupo, cs))
+    for fase in {j["fase"] for j in p["jogos"]} & {"", "Quadrangulares semifinais"}:
+        ts = tabs.get(fase, [])
+        disjuntas = len(ts) >= 2 and all(not (a & b) for k, (_, a) in enumerate(ts) for _, b in ts[k + 1:])
+        nome = {c: (g or "ABCDEFGH"[k]) for k, (g, cs) in enumerate(ts) for c in cs} if disjuntas else {}
+        for j in p["jogos"]:
+            if j["fase"] == fase:
+                j["grupo"] = nome[j["m"]] if nome.get(j["m"]) and nome.get(j["m"]) == nome.get(j["v"]) else ""
 
 
 def montar(e: Edicao, cps: dict[str, str]) -> dict:
@@ -75,6 +139,7 @@ def montar(e: Edicao, cps: dict[str, str]) -> dict:
         log.append(f"linha lida como jogo e descartada (clube não reconhecido): {j['j'].texto} «{j['j'].mandante} x {j['j'].visitante}»")
         p["jogos"].remove(j)
     difs = conferir_tabelas(p)
+    acerta_grupos(e, p)
     jogos = p["jogos"]
     fases = {j["fase"] for j in jogos}
     # campanha de cada clube (resultado oficial; W.O. vale vitória) e fase mais longe
@@ -340,7 +405,8 @@ def gravar(eds: list[dict]) -> None:
         for r in d["final"]:
             L["classificacao_final"].append([e.temporada, r["pos"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"], r["gc"],
                                              r["pts"], r["ajuste"], situacao(r, d["campeao"], r["pos"], e.temporada), r["fonte"],
-                                             "punição/bônus de pontos (tabela publicada)" if r["ajuste"] else ""])
+                                             "; ".join(x for x in ("punição/bônus de pontos (tabela publicada)" if r["ajuste"] else "",
+                                                                   BONUS.get(e.temporada, {}).get(r["clube"], "")) if x)])
         # tabelas publicadas (as que entraram na conferência)
         vistas = set()
         for tb in p["tabelas"]:
@@ -355,11 +421,18 @@ def gravar(eds: list[dict]) -> None:
                 L["tabelas_publicadas"].append([e.temporada, nome_fase(tb["t"].fase, fases) if tb["fonte"].startswith("col") else "classificação final",
                                                 tb["t"].grupo, r["pos"], r["nome"], r["clube"], r["j"], r["v"], r["e"], r["d"], r["gp"],
                                                 r["gc"], r["pts"], f"RSSSF ({tb['fonte']}, linha {tb['t'].linha})"])
-        # artilheiros: lista da RSSSF; sem ela, a contagem dos gols com autor (quando quase todos os gols têm autor)
+        # artilheiros: lista da RSSSF (até 2007); sem ela, a da Wikipédia em espanhol (CO-017, 2008 em diante, com o clube
+        # tirado dos gols com autor); sem as duas, a contagem dos gols com autor (quando quase todos os gols têm autor)
         tops = TOPS.get(e.temporada)
         if tops:
             for jog, ctxt, ng in tops:
                 L["artilheiros"].append([e.temporada, jog, clube(ctxt, e.ano_inicio) or ctxt, ng, "RSSSF (coltops.html)"])
+        elif e.temporada in TOPS_ES:
+            nomes, ng = TOPS_ES[e.temporada]
+            autores_ed = Counter((r[2], r[1]) for r in L["gols"] if r[0].startswith(eid + "-") and r[5] != "contra")
+            for jog in nomes:
+                L["artilheiros"].append([e.temporada, jog, _clube_do_autor(jog, autores_ed), ng,
+                                         "Wikipédia em espanhol (Categoría Primera A, Títulos por temporada)"])
         elif gols_ed and autor_ed >= 0.95 * gols_ed:
             cont = Counter((r[2], r[1]) for r in L["gols"] if r[0].startswith(eid + "-") and r[5] != "contra")
             if cont:
@@ -544,6 +617,9 @@ if __name__ == "__main__":
         if t_ in _ano:
             REBAIXADOS[t_] = {clube(n, _ano[t_]) for n in ns} - {None}
     TOPS.update(artilheiros_rsssf())
+    from goleadores_es import goleadores
+    TOPS_ES.update(goleadores())
+    BONUS.update(bonus_fase_final())
     eds = []
     for e in EDICOES:
         d = montar(e, cps)

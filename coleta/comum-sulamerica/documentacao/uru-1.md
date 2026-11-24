@@ -459,7 +459,7 @@ Registradas em `coleta/uru-1/explicacoes.py`; cada uma também aparece no relat�
 - **2023 · uru2023:1102:** [descartado] Supercopa 2024 (31/01/2024) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - **2024 · uru2024:1039:** [descartado] Supercopa 2025 (26/01/2025) entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
 - **2025 · uru2025:1041:** [descartado] Supercopa 2026 entre o campeão e o vencedor da tabela anual: outra competição, não a final do campeonato (UY-013)
-- **1908 · wiki:es_1908:842:** [wo_v] o Intrépido não compareceu: W.O. para o Bristol (UY-010)
+- **1908 · wiki-es_1908:842:** [wo_v] o Intrépido não compareceu: W.O. para o Bristol (UY-010)
 - **1939 · uru39:127:** [wo_v, gm = 6, gv = 1] Nacional 6-1 Racing em campo; pontos dados ao Racing (jogador irregular do Nacional); a tabela conta os gols de campo
 - **1947 · uru47:171:** [fase = Desempate do 2º lugar] jogo do triangular pelo 2º lugar (a página abre rodadas dentro do desempate)
 - **1947 · uru47:175:** [fase = Desempate do 2º lugar] jogo do triangular pelo 2º lugar

@@ -156,9 +156,37 @@ def _fase(base: str, torneio: str) -> str:
     return base
 
 
+# CO-015: em 1948 e 1949 os jogos vêm da tabela de confrontos da RSSSF ("Cross-Table"), fonte independente da Wikipédia que
+# fecha com a tabela publicada (a Wikipédia tinha mandos trocados e placares diferentes)
+CRUZADA = {"1948": "col48", "1949": "col49"}
+
+
+def cruzada(pagina: str) -> list[rsssf_sul.Jogo]:
+    """Jogos da tabela de confrontos: a linha é o mandante, a coluna (na mesma ordem das linhas) o visitante."""
+    ls = linhas(pagina)
+    k = next(i for i, l in enumerate(ls) if l.strip().startswith("Cross-Table")) + 1
+    while not ls[k].strip():
+        k += 1
+    k += 1   # siglas das colunas
+    filas = []
+    while k < len(ls) and ls[k].strip():
+        if m := re.match(r"^(.*?\S)\s+((?:(?:===|\d{1,2}-\d{1,2}|-)\s*)+)$", ls[k]):   # "Dep. B/quilla 1-1": um espaço só
+            filas.append((k, m.group(1).strip(), re.findall(r"===|\d{1,2}-\d{1,2}|-", m.group(2))))
+        k += 1
+    jogos = []
+    for k, nome, cel in filas:
+        for c, (_, adv, _) in enumerate(filas):
+            if c < len(cel) and (ms := re.fullmatch(r"(\d{1,2})-(\d{1,2})", cel[c])):
+                jogos.append(rsssf_sul.Jogo(linha=k, mandante=nome, visitante=adv, gm=int(ms.group(1)), gv=int(ms.group(2)),
+                                            texto=f"{pagina}:{k}"))
+    return jogos
+
+
 def ler(e: Edicao) -> tuple[list[rsssf_sul.Jogo], list[rsssf_sul.Tabela]]:
     jogos, tabelas = [], []
-    if e.wiki is not None:
+    if e.temporada in CRUZADA:   # da Wikipédia, só os jogos de outras fases (a final de 1949)
+        jogos += cruzada(CRUZADA[e.temporada]) + [j for j in wikipedia_jogos.jogos(e.wiki) if j.fase]
+    elif e.wiki is not None:
         jogos += wikipedia_jogos.jogos(e.wiki)
     externos = espn_jogos(*e.espn) if e.espn is not None else []
     for pagina, ini, fim in e.trechos:

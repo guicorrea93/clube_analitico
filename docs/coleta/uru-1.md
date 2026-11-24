@@ -189,9 +189,10 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 ### 1908
 
 - tabela publicada x jogos — uruhist:138: Nacional tabela [17, 11, 2, 4, 34, 16] jogos [17, 11, 2, 4, 33, 14] — a diferença vem de Albion de Montevideo x Nacional (1908-10-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — uruhist:138: Bristol tabela [18, 8, 1, 9, 33, 25] jogos [18, 7, 1, 10, 34, 25] — a diferença vem de Intrépido x Bristol (1908-08-24), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — uruhist:138: Bristol tabela [18, 8, 1, 9, 33, 25] jogos [18, 8, 1, 9, 34, 25] — a diferença vem de Intrépido x Bristol (1908-08-24), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
 - tabela publicada x jogos — uruhist:138: Albion de Montevideo tabela [18, 7, 3, 8, 18, 36] jogos [18, 7, 3, 8, 16, 35] — a diferença vem de Albion de Montevideo x Nacional (1908-10-18), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
-- tabela publicada x jogos — uruhist:138: Intrépido tabela [18, 0, 0, 18, 5, 42] jogos [18, 1, 0, 17, 5, 43] — a diferença vem de Intrépido x Bristol (1908-08-24), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- tabela publicada x jogos — uruhist:138: Intrépido tabela [18, 0, 0, 18, 5, 42] jogos [18, 0, 0, 18, 5, 43] — a diferença vem de Intrépido x Bristol (1908-08-24), decidido fora de campo ou abandonado: a tabela conta esse jogo de outro jeito (gols do campo, sem gols ou sem o jogo)
+- corrigido — Intrépido x Bristol (1908-08-24): o Intrépido não compareceu: W.O. para o Bristol (UY-010)
 - W.O./pontos para o mandante — Peñarol Intrépido (1908-04-19): Intrépido no se presentó
 - W.O./pontos para o mandante — Montevideo Wanderers Nacional (1908-11-15): Postergado originalmente, para el 15 de noviembre Nacional se había retirado.
 - W.O./pontos para o mandante — Montevideo FC Peñarol (1908-10-18): Postergado originalmente, para el 18 de octubre C.U.R.C.C. se había retirado
@@ -201,7 +202,7 @@ Gerado por `python coleta/uru-1/importar.py`. Pacote em `data/coleta/uru-1/pacot
 - W.O./pontos para o visitante — Peñarol Bristol (1908-07-26): C.U.R.C.C. debía jugar un desempate con Albion por Copa Competencia, luego al desafiliarse el 16 de septiembre se le daría por perdido este encuentro
 - W.O./pontos para o visitante — Peñarol Montevideo Wanderers (1908-09-06): C.U.R.C.C. debía jugar un desempate con Dublín por Copa de Honor, no se presentó y posteriormente se desafiliaría
 - W.O./pontos para o mandante — Montevideo FC Nacional (1908-10-25): Encuentro postergado originalmente, para el 25 de octubre se había retirado
-- W.O./pontos para o mandante — Intrépido Bristol (1908-08-24): Intrépido no se presentó
+- W.O./pontos para o visitante — Intrépido Bristol (1908-08-24): Intrépido no se presentó
 - W.O./pontos para o visitante — Intrépido Albion de Montevideo (s/d): Intrépido no se presentó
 - W.O./pontos para o mandante — Dublin Peñarol (1908-10-04): C.U.R.C.C. estaba desafiliado
 - W.O./pontos para o visitante — Intrépido Nacional (1908-10-04): Intrépido no se presentó. Al poco tiempo se retira Nacional

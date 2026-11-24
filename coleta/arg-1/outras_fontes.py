@@ -11,6 +11,7 @@ clube na fonte é aprendido desses jogos. 2º passo, com os códigos aprendidos,
 from __future__ import annotations
 
 import json
+import re
 from collections import Counter, defaultdict
 from datetime import date, datetime, timedelta
 from pathlib import Path
@@ -160,6 +161,8 @@ def lances_espn(g: dict) -> tuple[list[dict], list[dict]]:
             mi = int(p[0]) if p[0].isdigit() else None
             ac = int(p[1]) if len(p) > 1 and p[1].isdigit() else None
         jog = (l["jogadores"] or [None])[0]
+        if jog:   # como no CH-017: "Gastón 2Fernández" (ESPN): dígito grudado no começo de um nome sai
+            jog = re.sub(r"\b\d+(?=[^\W\d_])", "", jog)
         if l["gol"]:
             # gol contra: a ESPN marca o time que ganhou o gol
             gols.append({"lado": l["lado"], "jogador": jog, "minuto": mi, "acrescimo": ac,

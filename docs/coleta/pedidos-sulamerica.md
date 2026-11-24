@@ -887,3 +887,60 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - **Pedido ao agente 1:** recarregar o `arg-1` (classificação, datas de 25 jogos, gols e cartões).
 - **Commit:** `e698941`.
 - **O leitor comum (`rsssf_sul.py`) não mudou.**
+
+## 24/11 — Abertos da revisão: Colombiano (col-1), e junto Argentino e Uruguaio
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+- **Corrigidos no Colombiano:**
+  - **CO-004:** a 3ª e a 4ª volta de 1955-1963 estão na Wikipédia em listas que o leitor não lia, agora lidas (`ANOS_LISTAS`):
+    - 1955 tem 135 jogos (eram 90);
+    - 1958, 180 (eram 90);
+    - 1959, 261 (eram 130);
+    - 1960, 264 (eram 132);
+    - 1961, 264 (eram 132);
+    - 1963, 312 (eram 156; o cabeçalho "Res." não era reconhecido).
+  - **CO-006:**
+    - 1989 tem as listas "Fecha N (data)" em texto solto: 242 jogos (eram 32), com data. A temporada foi suspensa, então é
+      tudo o que se jogou.
+    - 1976: o hexagonal ficou completo (30 jogos; 10 caíam por um link sem "|").
+  - **CO-009:** a final do Finalización 2025 está em 12/12 e 16/12/2025 (`{{fecha|...}}`), com a ESPN certa (762528 e
+    762529). Também: par de clubes repetido, sem data, só casa com a ESPN com placar igual.
+  - **CO-012:**
+    - O grupo dos quadrangulares sai das tabelas da fase: 420 jogos A e 420 B (antes, quase todos "B").
+    - A 1ª fase de 2002 em diante ficou sem grupo (425 jogos).
+  - **CO-013 (1957):** o octogonal cancelado virou anulado. Os hexagonais têm grupos A e B. Entraram o "Desempate do grupo"
+    A e a "Final dos hexagonais" (Cúcuta x Tolima, fev-mar de 1958).
+  - **CO-015:** 1948 e 1949 vêm agora da tabela de confrontos da RSSSF, mais a final de 1949 da Wikipédia. Sobra 1
+    linha divergente em cada ano.
+  - **CO-016:** o bônus da fase final de 1983-1988, 1992-1994 e 1998 está na observação da classificação.
+    - Os pontos não mudam: são frações (0,25, 0,75) e o esquema do banco é inteiro.
+    - **Pedido ao agente 1:** se quiser o bônus nos pontos, `ajuste_pontos` precisa aceitar fração.
+  - **CO-017:** os artilheiros de 2008 em diante vêm da Wikipédia em espanhol (novo `goleadores_es.py`). O clube vem dos
+    gols com autor da edição, e fica vazio quando não há.
+  - **CO-018:** gol da ESPN sem lado não entra (regra de `cf612c6`).
+  - **Nome da ESPN:** "Hilario 2Cuenú" fica sem o dígito, como no CH-017.
+  - **CO-020:** a data do título da rodada ("(febrero 16/1975)", "Fecha 1 septiembre 14") agora é lida. 976 jogos ganharam
+    data (1957, 1975, 1979, 1982, 1990), e nenhum mudou.
+  - **Chaves do CORRIGE:** as de jogos da Wikipédia estavam como "wiki:es_…", mas o leitor usa "wiki-es_…". Por isso as
+    finais do Apertura de 1974-1982 (correção de 23/11) nunca tinham valido. Agora valem.
+- **Ainda abertos no Colombiano:**
+  - CO-006: 1986 e 1988, porque a Wikipédia não tem os jogos que faltam.
+  - CO-004: 1966, com 350 de 364.
+  - CO-015: placares de 2001-2018, que só uma 3ª fonte decide.
+  - CO-022: os números esperados e o diagnóstico automático do relatório.
+- **Junto:**
+  - **Argentino:** "Gastón 2Fernández" (ESPN) fica sem o dígito, em 15 gols e cartões. Só nomes mudam.
+  - **Uruguaio:** o W.O. de 1908 (Intrépido x Bristol, UY-010) tinha a mesma chave errada e nunca valeu. Agora a vitória
+    é do Bristol, e a classificação de 1908 muda.
+- **Ids das partidas:**
+  - Colombiano: mudam nas edições com jogos novos (1955, 1958-1961, 1963, 1976, 1989) e em 1948-1949 (outra fonte).
+  - Argentino e Uruguaio: não mudam.
+- **Teste de carga:**
+  - `col-1: 101 edições, 23418 jogos, 0 clubes novos -> OK` (eram 22.512);
+  - `arg-1: 197 edições, 43726 jogos, 0 clubes novos -> OK`;
+  - `uru-1: 126 edições, 12456 jogos, 3 clubes novos -> OK`.
+- **Pedido ao agente 1:** recarregar `col-1`, `arg-1` e `uru-1`. Com isso, os abertos da revisão da América do Sul acabam,
+  fora os que esperam 3ª fonte.
+- **Commit:** (abaixo).
+- **O leitor comum (`rsssf_sul.py`) não mudou.**

@@ -5,9 +5,9 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 ## 1. O que temos
 
 - **Edições:** 101, de 1948 a 2025 Finalización; 6 sem jogos.
-- **Jogos:** 22512 (22508 com placar); **gols:** 59855; **gols com autor:** 22041 (37%); **cartões:** 40519.
-- **Clubes:** 42; **artilheiros:** 90 edições com artilheiro (108 linhas, com empates).
-- **Classificação final:** 101 edições; **tabelas publicadas guardadas para conferência:** 2268 linhas.
+- **Jogos:** 23418 (23406 com placar); **gols:** 62516; **gols com autor:** 22051 (35%); **cartões:** 40526.
+- **Clubes:** 42; **artilheiros:** 100 edições com artilheiro (123 linhas, com empates).
+- **Classificação final:** 101 edições; **tabelas publicadas guardadas para conferência:** 2334 linhas.
 - **No banco:** sim; **último commit do pacote:** 415911b.
 - **Observação da competição:** 1ª divisão colombiana de 1948 a 2025: um campeão por ano até 2001 (1989 sem campeão; 1995/96 e 1996/97 no calendário europeu) e uma edição por torneio (Apertura e Finalización) de 2002 em diante. Jogos de 1948-1986, 1988-1990 e 1995/96 em diante; 1987 e 1991-1995 só com a tabela final e o campeão.
 
@@ -44,10 +44,10 @@ Fontes dos jogos por edição:
 
 Cada edição é comparada com as tabelas publicadas da RSSSF (e da Wikipédia, quando há); campeão e vice, com a lista de campeões da Wikipédia.
 
-- **Edições em que todas as tabelas fecham com os jogos:** 48.
-- **Edições com alguma tabela divergente** (38; motivo no relatório, na edição): 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1957, 1962, 1964, 1965, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1976, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1988, 1990, 1995/96, 1999, 2003 Apertura, 2005 Finalización, 2006 Finalización, 2012 Finalización.
-- **Edições sem tabela para conferir** (15): 1955, 1958, 1959, 1960, 1961, 1963, 1966, 1987, 1989, 1991, 1992, 1993, 1994, 1995, 1998.
-- **Edições com menos jogos que o esperado:** 1952 (209 de 210), 1953 (131 de 132), 1964 (311 de 312), 1969 (373 de 555), 1970 (376 de 558), 1971 (379 de 561), 1972 (376 de 558), 1974 (361 de 543), 1976 (351 de 533), 1977 (359 de 541), 1978 (365 de 547), 1979 (367 de 514), 1981 (329 de 511), 1982 (387 de 569), 1983 (336 de 518), 1984 (336 de 518), 1985 (336 de 518), 1990 (335 de 425), 1996/97 (380 de 636), 2005 Finalización (187 de 188).
+- **Edições em que todas as tabelas fecham com os jogos:** 51.
+- **Edições com alguma tabela divergente** (41; motivo no relatório, na edição): 1948, 1949, 1950, 1951, 1952, 1953, 1954, 1956, 1957, 1958, 1959, 1960, 1962, 1963, 1964, 1965, 1968, 1969, 1970, 1971, 1972, 1973, 1974, 1977, 1978, 1979, 1980, 1981, 1982, 1983, 1984, 1985, 1986, 1988, 1990, 1995/96, 1999, 2003 Apertura, 2005 Finalización, 2006 Finalización, 2012 Finalización.
+- **Edições sem tabela para conferir** (9): 1966, 1987, 1989, 1991, 1992, 1993, 1994, 1995, 1998.
+- **Edições com menos jogos que o esperado:** 1952 (209 de 210), 1953 (131 de 132), 1963 (312 de 624), 1964 (311 de 312), 1969 (373 de 555), 1970 (376 de 558), 1971 (379 de 561), 1972 (376 de 558), 1974 (361 de 543), 1976 (361 de 543), 1977 (359 de 541), 1978 (365 de 547), 1979 (367 de 514), 1981 (329 de 511), 1982 (387 de 569), 1983 (336 de 518), 1984 (336 de 518), 1985 (336 de 518), 1990 (335 de 425), 1996/97 (380 de 636), 2005 Finalización (187 de 188).
 - **Edições com mais jogos que o esperado** (desempates e jogos fora da tabela publicada): 2006 Finalización (188 de 179), 2007 Finalización (189 de 188), 2009 Apertura (189 de 188), 2009 Finalización (189 de 188), 2010 Finalización (189 de 188).
 
 ## 4. Cobertura de cada campo, por década
@@ -56,13 +56,13 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Edições | Jogos | data | hora | rodada | estádio | cidade | público | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1940s | 2 | 274 | 100% | 0% | 97% | 0% | 0% | 0% | 0% | 0.0 |
-| 1950s | 10 | 1649 | 37% | 0% | 47% | 0% | 0% | 0% | 0% | 0.0 |
-| 1960s | 10 | 2762 | 57% | 0% | 58% | 0% | 0% | 0% | 0% | 0.0 |
-| 1970s | 10 | 3636 | 3% | 0% | 41% | 0% | 0% | 0% | 0% | 0.0 |
-| 1980s | 10 | 2256 | 6% | 0% | 71% | 0% | 0% | 0% | 0% | 0.0 |
-| 1990s | 10 | 1729 | 90% | 0% | 97% | 0% | 0% | 0% | 2% | 0.0 |
-| 2000s | 18 | 3824 | 100% | 44% | 100% | 44% | 44% | 0% | 89% | 1.2 |
+| 1940s | 2 | 274 | 64% | 0% | 64% | 0% | 0% | 0% | 0% | 0.0 |
+| 1950s | 10 | 1915 | 35% | 0% | 40% | 0% | 0% | 0% | 0% | 0.0 |
+| 1960s | 10 | 3182 | 66% | 0% | 77% | 0% | 0% | 0% | 0% | 0.0 |
+| 1970s | 10 | 3646 | 22% | 0% | 41% | 0% | 0% | 0% | 0% | 0.0 |
+| 1980s | 10 | 2466 | 21% | 0% | 73% | 0% | 0% | 0% | 0% | 0.0 |
+| 1990s | 10 | 1729 | 92% | 0% | 97% | 0% | 0% | 0% | 2% | 0.0 |
+| 2000s | 18 | 3824 | 100% | 44% | 100% | 44% | 44% | 0% | 90% | 1.2 |
 | 2010s | 20 | 3969 | 100% | 97% | 98% | 97% | 97% | 50% | 87% | 5.6 |
 | 2020s | 11 | 2413 | 100% | 100% | 98% | 100% | 100% | 70% | 99% | 5.7 |
 
@@ -87,9 +87,7 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1966 a 1985: 14 clubes
 - 1986: 8 clubes
 - 1987: 14 clubes
-- 1988: 15 clubes
-- 1989: 8 clubes
-- 1990 a 1991: 15 clubes
+- 1988 a 1991: 15 clubes
 - 1992 a 2001: 16 clubes
 - 2002 Apertura a 2014 Finalización: 18 clubes
 - 2015 Apertura a 2020 Apertura: 20 clubes
@@ -158,22 +156,22 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1948: pontos corridos
 - 1949: pontos corridos + mata-mata
 - 1950 a 1956: pontos corridos
-- 1957: pontos corridos + desempate + mata-mata
+- 1957: pontos corridos + 2 grupos + desempate + mata-mata
 - 1958 a 1967: pontos corridos
 - 1968: pontos corridos + mata-mata
 - 1969: pontos corridos + desempate
 - 1970: pontos corridos
 - 1971: pontos corridos + desempate
 - 1972 a 1973: pontos corridos
-- 1974: pontos corridos + desempate
+- 1974: pontos corridos + mata-mata + pontos corridos
 - 1975: pontos corridos
-- 1976: pontos corridos + desempate
+- 1976: pontos corridos + mata-mata + pontos corridos
 - 1977: pontos corridos
 - 1978: pontos corridos + 2 grupos + pontos corridos
-- 1979: pontos corridos + 2 grupos + desempate + pontos corridos
-- 1980: pontos corridos + desempate
+- 1979: pontos corridos + mata-mata + pontos corridos + 2 grupos + pontos corridos
+- 1980: pontos corridos + mata-mata + pontos corridos + desempate
 - 1981: pontos corridos
-- 1982: pontos corridos + desempate
+- 1982: pontos corridos + mata-mata + pontos corridos
 - 1983 a 1986: pontos corridos
 - 1987: sem jogos (só a tabela final)
 - 1988 a 1989: pontos corridos
@@ -182,77 +180,77 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 1995/96: pontos corridos
 - 1996/97: pontos corridos + 2 grupos + pontos corridos
 - 1998: pontos corridos + 2 grupos + mata-mata
-- 1999: pontos corridos + mata-mata + pontos corridos + mata-mata
-- 2000 a 2001: pontos corridos + mata-mata
-- 2002 Apertura a 2009 Finalización: 2 grupos + pontos corridos + mata-mata
+- 1999: pontos corridos + mata-mata + 2 grupos + mata-mata
+- 2000: pontos corridos + mata-mata
+- 2001 a 2009 Finalización: pontos corridos + 2 grupos + mata-mata
 - 2010 Apertura: pontos corridos + mata-mata
-- 2010 Finalización: 2 grupos + pontos corridos + mata-mata
+- 2010 Finalización: pontos corridos + 2 grupos + mata-mata
 - 2011 Apertura a 2011 Finalización: pontos corridos + mata-mata
-- 2012 Apertura a 2013 Finalización: 2 grupos + mata-mata
+- 2012 Apertura a 2013 Finalización: pontos corridos + 2 grupos + mata-mata
 - 2014 Apertura: pontos corridos + mata-mata
-- 2014 Finalización: 2 grupos + mata-mata
+- 2014 Finalización: pontos corridos + 2 grupos + mata-mata
 - 2015 Apertura a 2018 Finalización: pontos corridos + mata-mata
-- 2019 Apertura a 2019 Finalización: 2 grupos + pontos corridos + mata-mata
+- 2019 Apertura a 2019 Finalización: pontos corridos + 2 grupos + mata-mata
 - 2020 Apertura a 2021 Apertura: pontos corridos + mata-mata
-- 2021 Finalización a 2024 Finalización: 2 grupos + pontos corridos + mata-mata
-- 2025 Apertura a 2025 Finalización: 2 grupos + mata-mata
+- 2021 Finalización a 2025 Finalización: pontos corridos + 2 grupos + mata-mata
 
 **Fases e grupos de cada edição com mais de uma fase:**
 
 - 1949: Primeira fase (liga); Final (mata_mata, ida_volta)
-- 1957: Primeira fase (liga); Octogonal final (liga); Hexagonal final (liga); Desempate do título (mata_mata, ida_volta); Final (mata_mata, ida_volta)
+- 1957: Primeira fase (liga); Octogonal (cancelado) (liga); Hexagonal final (grupos, 2 grupos); Desempate do grupo (mata_mata, ida_volta); Final dos hexagonais (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 1968: Primeira fase (liga); Finalización (liga); Tercer lugar (liga); Final (mata_mata, ida_volta)
 - 1969: Apertura (liga); Finalización (liga); Triangulares (liga); Desempate do título (mata_mata, ida_volta)
 - 1970: Apertura (liga); Finalización (liga); Quadrangular final (liga)
 - 1971: Apertura (liga); Finalización (liga); Quadrangular final (liga); Desempate do título (mata_mata, ida_volta)
 - 1972: Apertura (liga); Finalización (liga); Triangulares (liga)
 - 1973: Apertura (liga); Finalización (liga); Triangulares (liga)
-- 1974: Apertura (liga); Finalización (liga); Hexagonal final (liga); Desempate do título (mata_mata, ida_volta)
+- 1974: Apertura (liga); Final do Apertura (mata_mata, ida_volta); Finalización (liga); Hexagonal final (liga)
 - 1975: Apertura (liga); Finalización (liga); Hexagonal final (liga)
-- 1976: Apertura (liga); Finalización (liga); Hexagonal final (liga); Desempate do título (mata_mata, ida_volta)
+- 1976: Apertura (liga); Final do Apertura (mata_mata, ida_volta); Finalización (liga); Hexagonal final (liga)
 - 1977: Apertura (liga); Finalización (liga); Hexagonal final (liga)
 - 1978: Apertura (liga); Finalización (liga); Quadrangulares semifinais (grupos, 2 grupos); Quadrangular final (liga)
-- 1979: Apertura (liga); Finalización (liga); Quadrangulares semifinais (grupos, 2 grupos); Desempate do título (mata_mata, ida_volta); Quadrangular final (liga)
-- 1980: Apertura (liga); Finalización (liga); Desempate do título (mata_mata, ida_volta)
+- 1979: Apertura (liga); Final do Apertura (mata_mata, ida_volta); Finalización (liga); Quadrangulares semifinais (grupos, 2 grupos); Quadrangular final (liga)
+- 1980: Apertura (liga); Final do Apertura (mata_mata, ida_volta); Finalización (liga); Desempate do título (mata_mata, ida_volta)
 - 1981: Apertura (liga); Finalización (liga)
-- 1982: Apertura (liga); Finalización (liga); Octogonal final (liga); Desempate do título (mata_mata, ida_volta)
+- 1982: Apertura (liga); Final do Apertura (mata_mata, ida_volta); Finalización (liga); Octogonal final (liga)
 - 1983: Copa de la Paz (liga); Torneo Nacional (liga); Octogonal final (liga)
 - 1984: Copa de la Paz (liga); Torneo Nacional (liga); Octogonal final (liga)
 - 1985: Copa de la Paz (liga); Torneo Nacional (liga); Octogonal final (liga)
 - 1988: Apertura (liga); Octogonal final (liga)
+- 1989: Apertura (liga); Finalización (liga); Quadrangulares semifinais (liga)
 - 1990: Apertura (liga); Finalización (liga); Quadrangulares semifinais (grupos, 2 grupos); Quadrangular final (liga)
 - 1995/96: Copa Mustang I (liga); Quadrangulares semifinais (liga)
 - 1996/97: Copa Mustang I (liga); Copa Mustang II (grupos, 2 grupos); Quadrangular final (liga)
 - 1998: Primeira fase (liga); Segunda fase (grupos, 2 grupos); Octogonal final (grupos, 2 grupos); Final (mata_mata, ida_volta)
-- 1999: Apertura (liga); Finalización (liga); Final do Finalización (mata_mata, ida_volta); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
+- 1999: Apertura (liga); Finalización (liga); Final do Finalización (mata_mata, ida_volta); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
 - 2000: Torneo Mustang I (liga); Torneo Mustang II (liga); Finalísima (mata_mata, ida_volta)
-- 2001: Torneo Mustang I (liga); Torneo Mustang II (liga); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2002 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2002 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2003 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2003 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2004 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2004 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2005 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2005 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2006 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2006 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2007 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2007 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2008 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2008 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2009 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2009 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
+- 2001: Torneo Mustang I (liga); Torneo Mustang II (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2002 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2002 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2003 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2003 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2004 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2004 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2005 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2005 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2006 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2006 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2007 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2007 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2008 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2008 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2009 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2009 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
 - 2010 Apertura: Primeira fase (liga); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2010 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
+- 2010 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
 - 2011 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2011 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2012 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
-- 2012 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
-- 2013 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
-- 2013 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2012 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2012 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2013 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2013 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
 - 2014 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2014 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2014 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
 - 2015 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2015 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2016 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
@@ -261,24 +259,24 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2017 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2018 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2018 Finalización: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2019 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2019 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
+- 2019 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2019 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
 - 2020 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
 - 2021 Apertura: Primeira fase (liga); Quartas de final (mata_mata, ida_volta); Semifinal (mata_mata, ida_volta); Final (mata_mata, ida_volta)
-- 2021 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2022 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2022 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2023 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2023 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2024 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2024 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (liga); Final (mata_mata, ida_volta)
-- 2025 Apertura: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
-- 2025 Finalización: Primeira fase (grupos, 2 grupos); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2021 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2022 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2022 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2023 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2023 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2024 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2024 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2025 Apertura: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
+- 2025 Finalización: Primeira fase (liga); Quadrangulares semifinais (grupos, 2 grupos); Final (mata_mata, ida_volta)
 
 **Critério de desempate:** a classificação final é a tabela publicada (ordem oficial) quando ela traz todos os clubes e fecha com os jogos; senão é calculada por fase alcançada, pontos, saldo e gols pró (coluna `fonte` do classificacao_final.csv). O campeão e o vice da lista oficial ficam em 1º e 2º.
 
-- calculada: 94 edições
-- RSSSF: 7 edições
+- calculada: 92 edições
+- RSSSF: 9 edições
 
 **Observações das edições:**
 
@@ -429,18 +427,92 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 Registradas em `coleta/col-1/explicacoes.py`; cada uma também aparece no relatório, na edição.
 
-### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 14)
+### Jogos lidos e corrigidos (placar dado, descartados, anulados, não jogados) (`CORRIGE`, 88)
 
-- **1974 · wiki:es_1974:935:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1974 · wiki:es_1974:941:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1976 · wiki:es_1976:409:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1976 · wiki:es_1976:415:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1979 · wiki:es_1979:1375:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1979 · wiki:es_1979:1381:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1980 · wiki:es_1980:400:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1980 · wiki:es_1980:406:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1982 · wiki:es_1982:1375:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
-- **1982 · wiki:es_1982:1381:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1957 · wiki-es_1957:1090:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1094:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1114:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1118:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1122:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1126:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1140:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1144:** [anulado, fase = Octogonal (cancelado)] octogonal cancelado depois de 3 rodadas ("Octogonal (Cancelado)") (CO-013)
+- **1957 · wiki-es_1957:1312:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1316:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1320:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1332:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1336:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1340:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1354:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1358:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1362:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1374:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1378:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1382:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1396:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1400:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1404:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1416:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1420:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1424:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1438:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1442:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1446:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1458:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1462:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1466:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1480:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1484:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1488:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1500:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1504:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1508:** [grupo = A] hexagonal do grupo A (CO-013)
+- **1957 · wiki-es_1957:1713:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1717:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1721:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1733:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1737:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1741:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1755:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1759:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1763:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1775:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1779:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1783:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1797:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1801:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1805:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1817:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1821:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1825:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1839:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1843:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1847:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1859:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1863:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1867:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1881:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1885:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1889:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1901:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1905:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1909:** [grupo = B] hexagonal do grupo B (CO-013)
+- **1957 · wiki-es_1957:1650:** [fase = Desempate do grupo, grupo = A] desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- **1957 · wiki-es_1957:1655:** [fase = Desempate do grupo, grupo = A] desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- **1957 · wiki-es_1957:1660:** [fase = Desempate do grupo, grupo = A] desempate do grupo A (Medellín, Pereira e Tolima), não do título (CO-013)
+- **1957 · wiki-es_1957:1992:** [fase = Final dos hexagonais, grupo = ] final entre os vencedores dos hexagonais (Cúcuta x Tolima) (CO-013)
+- **1957 · wiki-es_1957:1998:** [fase = Final dos hexagonais, grupo = ] final entre os vencedores dos hexagonais (Cúcuta x Tolima) (CO-013)
+- **1957 · wiki-es_1957:2004:** [fase = Final dos hexagonais, grupo = ] final entre os vencedores dos hexagonais (Cúcuta x Tolima) (CO-013)
+- **1974 · wiki-es_1974:935:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1974 · wiki-es_1974:941:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1976 · wiki-es_1976:409:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1976 · wiki-es_1976:415:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1979 · wiki-es_1979:1375:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1979 · wiki-es_1979:1381:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1980 · wiki-es_1980:400:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1980 · wiki-es_1980:406:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1982 · wiki-es_1982:1375:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
+- **1982 · wiki-es_1982:1381:** [fase = Final do Apertura] final do Apertura (julho), não decide o título do ano: nível 0 (CO-014)
 - **1999 · col99:675:** [fase = Final do Finalización] final do Clausura (Medellín x Nacional), não a do ano (CO-014)
 - **1999 · col99:678:** [fase = Final do Finalización] final do Clausura (Medellín x Nacional), não a do ano (CO-014)
 - **2008 Apertura · col08:328:** [descartado] jogo suspenso e completado depois: fica a linha do jogo completo (CO-021)
@@ -481,7 +553,8 @@ regra. REGRAS: (regex sobre a chave do nome, nome de exibição, primeiro ano, �
 
 - 1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).
 - Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): vice pela colchamp, ordem por fase alcançada (D-02 A), tabelas finais de 1987 e 1991-1995 só com a Primera A, rebaixados pela es, 1964 sem jogos repetidos, Finalización e quadrangulares como fase de pontos, finais do Apertura em nível 0, datas de 1957 e 1971, artilheiros de 1971, 1977 e 1978.
-- Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, 1989), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante pela es), CO-020, CO-022.
+- Abertos fechados em 24/11: CO-004 (3ª e 4ª voltas de 1955-1963 pela Wikipédia: 1955, 1958, 1960, 1961 e 1963 completos; 1959 com 261 de 264), CO-006 (1989 com as listas 'Fecha N', 242 jogos; hexagonal de 1976 completo), CO-009 (final de 2025 com {{fecha}} e a ESPN certa), CO-012 (grupos dos quadrangulares pelas tabelas; 1ª fase sem grupo), CO-013 (1957: octogonal cancelado, hexagonais A e B, desempate do grupo A, final dos hexagonais), CO-015 (1948 e 1949 pela tabela de confrontos da RSSSF), CO-016 (bônus da fase final na observação), CO-017 (artilheiros de 2008 em diante pela Wikipédia em espanhol), CO-018, CO-020 (data no título da rodada: 976 jogos) e as chaves 'wiki:' do CORRIGE, que nunca valeram (finais do Apertura de 1974-1982).
+- Ainda abertos: CO-006 (1986 e 1988: a Wikipédia não tem os jogos que faltam), CO-004 (1966: 350 de 364), CO-015 (placares de 2001-2018 que só uma 3ª fonte decide) e CO-022 (esperados() e diagnóstico do relatório).
 
 **Achados da revisão em aberto** (`docs/revisao/achados.csv`, provas em `docs/revisao/col-1.md`):
 
@@ -524,6 +597,7 @@ Código em `coleta/col-1/`:
 | `conferir.py` | Conferência de cada edição: nomes reconhecidos e soma dos jogos x tabelas publicadas pela RSSSF. |
 | `edicoes.py` | Edições da 1ª divisão colombiana (col-1): uma por torneio que deu título de campeão colombiano. |
 | `explicacoes.py` | Correções e explicações da coleta da 1ª divisão colombiana, edição a edição (entram no relatório). |
+| `goleadores_es.py` | Artilheiros pela tabela "Títulos por temporada" da Wikipédia em espanhol (página "Categoría Primera A", guardada em |
 | `importar.py` | Junta as fontes da 1ª divisão colombiana e grava o pacote em data/coleta/col-1/pacote/ e o relatório em docs/coleta/col-1.md. |
 | `ler_rsssf.py` | Lê os jogos de cada edição: trechos das páginas da RSSSF (data/coleta/col-1/rsssf/) com o leitor comum (rsssf_sul) e, |
 | `outras_fontes.py` | Casa os jogos da RSSSF com o ogol e com a ESPN. |

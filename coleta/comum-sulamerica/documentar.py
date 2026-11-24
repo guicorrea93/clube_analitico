@@ -68,9 +68,15 @@ PENDENCIAS: dict[str, list[str]] = {
         "alcançada (D-02 A), tabelas finais de 1987 e 1991-1995 só com a Primera A, rebaixados pela es, 1964 sem jogos "
         "repetidos, Finalización e quadrangulares como fase de pontos, finais do Apertura em nível 0, datas de 1957 e 1971, "
         "artilheiros de 1971, 1977 e 1978.",
-        "Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, "
-        "1989), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 "
-        "em diante pela es), CO-020, CO-022.",
+        "Abertos fechados em 24/11: CO-004 (3ª e 4ª voltas de 1955-1963 pela Wikipédia: 1955, 1958, 1960, 1961 e 1963 "
+        "completos; 1959 com 261 de 264), CO-006 (1989 com as listas 'Fecha N', 242 jogos; hexagonal de 1976 completo), "
+        "CO-009 (final de 2025 com {{fecha}} e a ESPN certa), CO-012 (grupos dos quadrangulares pelas tabelas; 1ª fase sem "
+        "grupo), CO-013 (1957: octogonal cancelado, hexagonais A e B, desempate do grupo A, final dos hexagonais), CO-015 "
+        "(1948 e 1949 pela tabela de confrontos da RSSSF), CO-016 (bônus da fase final na observação), CO-017 (artilheiros "
+        "de 2008 em diante pela Wikipédia em espanhol), CO-018, CO-020 (data no título da rodada: 976 jogos) e as chaves "
+        "'wiki:' do CORRIGE, que nunca valeram (finais do Apertura de 1974-1982).",
+        "Ainda abertos: CO-006 (1986 e 1988: a Wikipédia não tem os jogos que faltam), CO-004 (1966: 350 de 364), CO-015 "
+        "(placares de 2001-2018 que só uma 3ª fonte decide) e CO-022 (esperados() e diagnóstico do relatório).",
     ],
     "par-1": [
         "76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.",

@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-sulamerica/documentar.py` a partir do pacote `da
 - **Jogos:** 43726 (43017 com placar); **gols:** 121835; **gols com autor:** 36083 (30%); **cartões:** 41343.
 - **Clubes:** 173; **artilheiros:** 194 edições com artilheiro (233 linhas, com empates).
 - **Classificação final:** 197 edições; **tabelas publicadas guardadas para conferência:** 4453 linhas.
-- **No banco:** sim; **último commit do pacote:** 415911b.
+- **No banco:** sim; **último commit do pacote:** e698941.
 - **Observação da competição:** 1ª divisão argentina de 1891 a 2025: uma edição por torneio que deu título de campeão (ligas rivais de 1912-1914, 1919-1926 e 1931-1934; Copa de Honor, Campeonato e Copa de Oro em 1936; Metropolitano e Nacional de 1967 a 1985; Apertura e Clausura de 1991/92 a 2013/14 e em 2025). Sem as copas da liga (2019-2024), a Copa Campeonato 2013/14, os torneios de reclassificação e as liguillas, que não davam o título.
 
 ## 2. Edições, fontes e regras

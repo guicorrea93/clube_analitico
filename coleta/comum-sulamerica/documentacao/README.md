@@ -6,10 +6,10 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36083 | 41343 | 173 | 142 / 51 | sim | 415911b | 41 | [arg-1](arg-1.md) |
+| Campeonato Argentino | 197 (1891–2026 Apertura) | 1 | 43726 | 36083 | 41343 | 173 | 142 / 51 | sim | e698941 | 41 | [arg-1](arg-1.md) |
 | Campeonato Uruguaio | 126 (1900–2025) | 45 | 12456 | 14335 | 9481 | 84 | 59 / 22 | sim | 415911b | 21 | [uru-1](uru-1.md) |
 | Campeonato Chileno | 109 (1933–2025) | 0 | 22586 | 19542 | 26607 | 53 | 76 / 32 | sim | b8b5a57 | 26 | [chi-1](chi-1.md) |
-| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 22512 | 22041 | 40519 | 42 | 48 / 38 | sim | 415911b | 22 | [col-1](col-1.md) |
+| Campeonato Colombiano | 101 (1948–2025 Finalización) | 6 | 23418 | 22051 | 40526 | 42 | 51 / 41 | sim | 415911b | 22 | [col-1](col-1.md) |
 | Campeonato Paraguaio | 134 (1906–2026 Apertura) | 76 | 7823 | 13239 | 14271 | 50 | 45 / 5 | sim | a22c1ff | 24 | [par-1](par-1.md) |
 | Campeonato Peruano | 109 (1912–2025) | 18 | 17318 | 20238 | 21067 | 167 | 52 / 38 | sim | 70d8caf | 22 | [per-1](per-1.md) |
 | Campeonato Equatoriano | 68 (1957–2025) | 0 | 14175 | 9259 | 15883 | 63 | 48 / 20 | sim | cf612c6 | 18 | [ecu-1](ecu-1.md) |
@@ -28,7 +28,8 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **chi-1:** Sem fonte: o ogol não tem jogos de 1952 a 1957 (calendários vazios na origem); 1986, Everton x Rangers com 2 gols a menos que a tabela da chilehist (explicado no relatório).
 - **col-1:** 1987 e 1991-1995 sem jogos: nenhuma fonte pública tem (só tabela final e campeão).
 - **col-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): vice pela colchamp, ordem por fase alcançada (D-02 A), tabelas finais de 1987 e 1991-1995 só com a Primera A, rebaixados pela es, 1964 sem jogos repetidos, Finalización e quadrangulares como fase de pontos, finais do Apertura em nível 0, datas de 1957 e 1971, artilheiros de 1971, 1977 e 1978.
-- **col-1:** Ainda abertos: CO-004 e CO-006 (ler as 4 voltas e as listas 'Fecha N' da Wikipédia: 1955-1966, 1976, 1986, 1988, 1989), CO-009, CO-012, CO-013, CO-015, CO-016, CO-017 (2008 em diante pela es), CO-020, CO-022.
+- **col-1:** Abertos fechados em 24/11: CO-004 (3ª e 4ª voltas de 1955-1963 pela Wikipédia: 1955, 1958, 1960, 1961 e 1963 completos; 1959 com 261 de 264), CO-006 (1989 com as listas 'Fecha N', 242 jogos; hexagonal de 1976 completo), CO-009 (final de 2025 com {{fecha}} e a ESPN certa), CO-012 (grupos dos quadrangulares pelas tabelas; 1ª fase sem grupo), CO-013 (1957: octogonal cancelado, hexagonais A e B, desempate do grupo A, final dos hexagonais), CO-015 (1948 e 1949 pela tabela de confrontos da RSSSF), CO-016 (bônus da fase final na observação), CO-017 (artilheiros de 2008 em diante pela Wikipédia em espanhol), CO-018, CO-020 (data no título da rodada: 976 jogos) e as chaves 'wiki:' do CORRIGE, que nunca valeram (finais do Apertura de 1974-1982).
+- **col-1:** Ainda abertos: CO-006 (1986 e 1988: a Wikipédia não tem os jogos que faltam), CO-004 (1966: 350 de 364), CO-015 (placares de 2001-2018 que só uma 3ª fonte decide) e CO-022 (esperados() e diagnóstico do relatório).
 - **par-1:** 76 edições sem jogos (1906-1959, 1968-1980, 1982-1995 sem fonte pública): campeão, vice e tabela parcial quando há.
 - **par-1:** Correções da revisão feitas em 23/11 (ids em docs/coleta/pedidos-sulamerica.md): campeão e vice da lista sempre em 1º e 2º (vice da es nos anos de vice duplo, D-22 a), tabelas parciais inteiras, 1982-1995 sem tabela de uma fase só, pré-temporada de 1962-1966 e copas de 2000, 2004 e 2005 fora, clubes (D-25 c e d), ESPN (gol sem lado, jogador '2', estádio sem patrocinador) e o Apertura 2026 (D-01).
 - **par-1:** Abertos fechados em 24/11: PY-008 (1996-2007: fases do Apertura e do Clausura com o nome do torneio, 'Final do Apertura'; 1981: 1º turno, triangular de desempate e final do ano), PY-012 (rebaixados pelas notas das páginas da RSSSF, explicacoes.REBAIXADOS: 55 marcas novas), PY-018 (artilheiros de 2011 em diante pela Wikipédia em espanhol, goleadores_es.py), PY-019 (números da paratops mantidos, divergências explicadas) e PY-031 (textos da ficha).

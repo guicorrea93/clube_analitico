@@ -66,10 +66,17 @@ def _alvo(c: str) -> str | None:
 
 
 def _data(txt: str, ano: int) -> str | None:
+    if m := re.search(r"\{\{fecha\|(\d{1,2})\|(\d{1,2})\|(\d{4})", txt, re.I):   # CO-009: "{{fecha|12|12|2025}}"
+        return f"{m.group(3)}-{int(m.group(2)):02d}-{int(m.group(1)):02d}"
     if m := re.search(r"(\d{1,2}) de (\w+)(?: de (\d{4}))?", txt):
         mes = MESES.get(m.group(2).lower())
         if mes:
             return f"{int(m.group(3) or ano)}-{mes:02d}-{int(m.group(1)):02d}"
+    # CO-020: título da rodada com o mês antes do dia ("Fecha 1 septiembre 14", "Fecha 1 (Marzo 5)", "(febrero 16/1975)")
+    for m in re.finditer(r"\b([a-záéíóú]{4,10})\.?\s+(\d{1,2})\b(?:\s*/\s*(\d{4})|,?\s*(?:de\s+)?(\d{4}))?", txt, re.I):
+        mes = MESES.get(m.group(1).lower())
+        if mes and 1 <= int(m.group(2)) <= 31:
+            return f"{int(m.group(3) or m.group(4) or ano)}-{mes:02d}-{int(m.group(2)):02d}"
     return None
 
 
@@ -79,10 +86,16 @@ def _celulas(linha: str) -> list[str]:
     return [c for c in s[1:].split(sep)]
 
 
+# CO-004: anos com a 3ª e a 4ª volta em listas sem cabeçalho (4 células: "América | 1 | 0 | Medellín"; 3 células: "Quindío ||
+# 2–1 || América") ou com o cabeçalho "Res." (1963)
+ANOS_LISTAS = {1955, 1958, 1959, 1960, 1961, 1963}
+ANOS_TEXTO = {1989}   # CO-006: jogos em texto solto sob os títulos das rodadas
+
 def jogos(chave: str) -> list[Jogo]:
     arq = PASTA / f"es_{chave.replace(' ', '_')}.txt"
     ls = arq.read_text(encoding="utf-8").splitlines()
     ano = int(chave[:4])
+    listas = ano in ANOS_LISTAS   # CO-004: formatos de lista só destes anos (nos outros, a leitura de antes já fecha)
     saida: list[tuple[str, str, Jogo]] = []   # (seção, tipo, jogo)
     tit: dict[int, str] = {}
     rodada = data = None
@@ -152,7 +165,8 @@ def jogos(chave: str) -> list[Jogo]:
                     continue
             if "local" in junto and "visitante" in junto:
                 cab = [("local" if "local" in t.lower() else "visitante" if "visitante" in t.lower() else
-                        "res" if re.search(r"resultado|marcador|score", t, re.I) else t.lower()) for t in txt]
+                        "res" if re.search(r"resultado|marcador|score", t, re.I) or (listas and re.fullmatch(r"res\.?", t.strip(), re.I))
+                        else t.lower()) for t in txt]
                 continue
             if cab:
                 d = {cab[n]: (txt[n], cel[n]) for n in range(min(len(cab), len(txt)))}
@@ -171,6 +185,21 @@ def jogos(chave: str) -> list[Jogo]:
                         j.gm_of, j.gv_of = gmo
                     saida.append((secao, "lista", j))
                 continue
+            # CO-004: lista sem cabeçalho, uma linha por jogo em 4 células ("América | 1 | 0 | Medellín"), com a rodada e a data
+            # no título em negrito antes da tabela ("'''Fecha 23 (agosto 07/1960)'''"): 3ª e 4ª voltas de 1955-1966
+            if (listas and not cab and len(txt) == 4 and txt[0] and txt[3] and not txt[0][:1].isdigit()
+                    and re.fullmatch(r"\d{1,2}", txt[1]) and re.fullmatch(r"\d{1,2}", txt[2])):
+                saida.append((secao, "lista", Jogo(linha=i, mandante=txt[0], visitante=txt[3], gm=int(txt[1]), gv=int(txt[2]),
+                                                   rodada=rodada, data=data, fase=fase, grupo=grupo,
+                                                   texto=f"wiki-es_{chave.replace(' ', '_')}:{i}")))
+                continue
+            # CO-004: lista sem cabeçalho em 3 células ("Quindío || 2–1 || América", 1961), rodada e data no título da tabela
+            if (listas and not cab and len(txt) == 3 and txt[0] and txt[2] and not txt[0][:1].isdigit() and not txt[2][:1].isdigit()
+                    and (ms := re.fullmatch(r"\s*(\d{1,2})\s*[-–:]\s*(\d{1,2})\s*", txt[1]))):
+                saida.append((secao, "lista", Jogo(linha=i, mandante=txt[0], visitante=txt[2], gm=int(ms.group(1)),
+                                                   gv=int(ms.group(2)), rodada=rodada, data=data, fase=fase, grupo=grupo,
+                                                   texto=f"wiki-es_{chave.replace(' ', '_')}:{i}")))
+                continue
             # matriz: cabeçalho com siglas que linkam para os clubes
             alvos = [_alvo(c) for c in cel]
             if sum(1 for a in alvos if a) >= 3 and not any(_SCORE.search(t) for t in txt):
@@ -179,7 +208,8 @@ def jogos(chave: str) -> list[Jogo]:
                 siglas = siglas[desloc:] if desloc else siglas
                 continue
             if siglas and len(txt) >= 3:
-                mand = _alvo(cel[0]) or txt[0]
+                # CO-006 (1976): "{{nowrap|[[Atlético Nacional]]}}", link sem "|", também vale como mandante
+                mand = _alvo(cel[0]) or txt[0] or ((ml := re.search(r"\[\[([^\]|]+)\]\]", cel[0])) and ml.group(1).strip()) or ""
                 for n, t in enumerate(txt[1:]):
                     if n >= len(siglas) or not siglas[n]:
                         continue
@@ -221,6 +251,17 @@ def jogos(chave: str) -> list[Jogo]:
             elif not re.search(r"resultado|vuelta|partidos", texto, re.I) or n == 2:
                 tit[n] = texto
                 rodada = data = None
+            continue
+        # CO-006 (1989): jogos em texto solto sob o título "==== Fecha 1 (Marzo 5) ====" ("Quindío 1–5 Nacional")
+        if (ano in ANOS_TEXTO and not nivel_tab and rodada is not None
+                and (mj := re.match(r"^([^\d|{!=*'\[][^\d]*?)\s+(\d{1,2})\s*[–-]\s*(\d{1,2})\s+(\D.*?)\s*$", s))):
+            fase, grupo, secao = contexto()
+            saida.append((secao, "lista", Jogo(linha=i, mandante=mj.group(1).strip(), visitante=mj.group(4).strip(),
+                                               gm=int(mj.group(2)), gv=int(mj.group(3)), rodada=rodada, data=data, fase=fase,
+                                               grupo=grupo, texto=f"wiki-es_{chave.replace(' ', '_')}:{i}")))
+            continue
+        if listas and not nivel_tab and (mf := re.match(r"^'''\s*Fecha\s+(\d+)(.*)$", s, re.I)):   # CO-004: rodada fora da tabela
+            rodada, data = int(mf.group(1)), _data(_limpa(mf.group(2)), ano)
             continue
         if s.startswith("{|"):
             nivel_tab += 1
