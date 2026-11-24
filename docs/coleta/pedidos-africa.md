@@ -114,7 +114,7 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    artilheiros de 71 edições (Wikipédia). Fontes: RSSSF (páginas por temporada, tabelas de confrontos e a lista de tabelas
    finais `tunhist.html`), ogol (base de 2025/26; conferência, rodada e data desde 2005/06), Wikipédia em inglês (listas de
    campeões e artilheiros, tabela e notas de cada temporada). A ESPN não tem a liga tunisiana.
-2. **Commits:** (preencher depois do "sim").
+2. **Commits:** 786998d (24/11; sem push; junto, o `edicoes.csv` do `mar-1` com os pontos por empate e derrota).
 3. **Teste de carga:** `tun-1: 109 edições, 8092 jogos, 74 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar o `tun-1`; país novo **TUN (Tunísia, CAF)**, criado pelo `competicao.json` (a Tunísia foi a várias Copas:
@@ -157,3 +157,48 @@ Para o agente 1 (banco e painel) e o agente de revisão.
    página); a ordem final de 2012/13 e 2021/22 (`ORDEM_FINAL`) e os rebaixamentos do item 5 (`SITUACAO_FIXA`); a ligação
    das linhas das matrizes com nomes aos clubes.
 8. **Próxima competição:** `alg-1` (Argélia), depois da decisão do Guilherme sobre o escopo (era colonial).
+
+## Recado de fim de coleta — alg-1 — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito:** `alg-1` (Campeonato Argelino, hoje Ligue Professionnelle 1), 64 edições de 1962/63 a 2025/26;
+   15.210 jogos, todos da RSSSF (110 decididos fora de campo, 7 não jogados, 5 abandonados); 33.855 gols, 3.829 com autor
+   (quase só de 1997/98 a 2005/06); 0 cartões; 81 clubes, todos novos; artilheiros de 58 edições (Wikipédia). Fontes:
+   RSSSF (página de cada temporada), ogol (1985/86 em diante: data, rodada e conferência; repete os placares da RSSSF),
+   Wikipédia em inglês (lista de campeões com vice e artilheiro; tabela de toda temporada). A ESPN não tem a liga argelina.
+2. **Commits:** (preencher depois do "sim").
+3. **Teste de carga:** `alg-1: 64 edições, 15210 jogos, 81 clubes novos -> OK`.
+4. **Pedidos ao banco e ao painel:**
+   - carregar o `alg-1`; país novo **ALG (Argélia, CAF)**, criado pelo `competicao.json` (a Argélia foi a várias Copas:
+     conferir se a bandeira já existe);
+   - **três sistemas de pontos**, nas colunas `pontos_vitoria`, `pontos_empate` e `pontos_derrota` do `edicoes.csv`:
+     3-2-1 (vitória, empate, derrota) até 1985/86, 2-1-0 de 1986/87 a 1994/95, 3-1-0 desde 1995/96;
+   - **1962/63 e 1963/64 com "jogos incompletos"** (ligas regionais de Argel, Orã e Constantine e a fase final); os quatro
+     primeiros vêm da fase final;
+   - **2019/20 "temporada interrompida (Covid-19)"**: campeão CR Belouizdad (declarado pela federação), sem rebaixamento;
+   - 1997/98 e 1998/99: dois grupos e final (o campeão e o vice em cima, os outros pela posição no grupo).
+5. **Decisões tomadas:**
+   - escopo: só desde a independência (1962/63), como a RSSSF ("64 títulos; desde a independência"), a Wikipédia e a
+     contagem dos clubes; a era colonial fica de fora (só ligas regionais; o Guilherme aprovou em 24/11);
+   - nomes: o nome atual com a sigla francesa; os da reforma esportiva de 1977 a 1989 e os antigos são o mesmo clube (MP
+     Alger = MC Alger; JE Tizi Ouzou e JS Kawkabi = JS Kabylie; EP Sétif e WR Sétif = ES Sétif; CM Belcourt = CR Belouizdad;
+     NAR Alger e RS Kouba = RC Kouba; ASTO El Asnam, DNC Asnam, Chlef SO e AS Orléansville = ASO Chlef...); o USM Annaba
+     até 1979 é o Hamra Annaba (o atual USM Annaba é de 1983); DNC Alger = OC Alger = JH Djazaïr;
+   - placar só muda com outra fonte: dois jogos de 2025/26 pelo ogol (as tabelas da RSSSF e da Wikipédia só fecham com
+     eles); cópias de rodada descartadas (1972/73) ou com os jogos verdadeiros faltando (1974/75 rodada 4, 1975/76
+     rodada 18); "US Constantine" de 1996/97 = US Chaouia (erro de digitação);
+   - 1997/98: ninguém caiu (a liga passou a dois grupos de 14), apesar dos desempates de rebaixamento.
+   - Nada espera o Guilherme nesta liga.
+6. **O que não deu para coletar:**
+   - placares certos dos jogos que não fecham com a tabela de 1964/65 a 1998/99 (a lista de jogos da RSSSF erra em vários
+     clubes por ano; o ogol copia a RSSSF). Fonte que resolveria: jornais argelinos da época (El Moudjahid) ou o arquivo
+     da federação;
+   - os jogos verdadeiros das rodadas copiadas (1974/75, 1975/76) e a 1ª fase regional de 1962/63;
+   - autores dos gols fora de 1997/98 a 2005/06, e cartões.
+7. **Onde a revisão deve olhar primeiro:** as divergências jogo x tabela de 1964/65 a 1998/99 (jogo provável no
+   relatório `docs/coleta/alg-1.md`); os pares com o mando provavelmente trocado (o mesmo mandante x visitante duas vezes
+   na temporada); a identidade dos clubes da reforma de 1977 (DNC Alger, WKF Collo, USM Aïn Beïda/ISM); 2009/10 (CA Bordj
+   Bou Arréridj x MC Alger, "derrota para os dois", sem placar).
+8. **Próxima competição:** `rsa-1` (África do Sul), depois da decisão do Guilherme sobre o escopo (NFL, NPSL, NSL, PSL e
+   as ligas paralelas do apartheid).

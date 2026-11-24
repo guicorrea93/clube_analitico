@@ -56,19 +56,20 @@ Ordem sugerida: `egy-1`, `mar-1`, `tun-1`, `alg-1`, `rsa-1`, `nga-1`, `gha-1`, `
 |---|---|---|---|---|---|
 | `egy-1` Egípcio | 73 (1948/49–2025/26) | 11.574 | 74 | 06635c8 (23/11, no GitHub) | sim |
 | `mar-1` Marroquino | 110 (1915/16–2025/26) | 11.736 | 100 | 820bf5f (24/11; sem push) | não |
-| `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | sem commit (pronto 24/11; espera o "sim") | não |
+| `tun-1` Tunisiano | 109 (1907–2025/26) | 8.092 | 74 | 786998d (24/11; sem push) | não |
+| `alg-1` Argelino | 64 (1962/63–2025/26) | 15.210 | 81 | sem commit (pronto 24/11; espera o "sim") | não |
 
 Os números de gols, conferência e cobertura estão em `documentacao/README.md`.
 
 **De onde continuar:**
 1. `mar-1`: commit 820bf5f; push só quando o Guilherme pedir; esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
-2. `tun-1`: pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit só com o
-   "sim" do Guilherme (junto: `coleta/mar-1/importar.py`, finalistas só quando a final decide o título, sem mudança no
-   pacote; `rsssf_africa.py`, título de grupo com data, egy-1 e mar-1 reimportados sem mudança; e as colunas
-   `pontos_empate`/`pontos_derrota` no `edicoes.csv` do mar-1 e do tun-1).
-3. Próxima liga: `alg-1` (Argélia). Antes, mandar ao Guilherme o escopo (era colonial? o Guilherme autorizou decidir pela
-   pesquisa só na Tunísia).
-4. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
+2. `tun-1`: commit 786998d (com o `edicoes.csv` do mar-1: pontos por empate e derrota); push só quando o Guilherme
+   pedir; esperar o agente 1 carregar (recado no fim de `docs/coleta/pedidos-africa.md`).
+3. `alg-1` (Argélia): pacote pronto (24/11), teste de carga OK, recado no fim de `docs/coleta/pedidos-africa.md`; commit
+   só com o "sim" do Guilherme.
+4. Próxima liga: `rsa-1` (África do Sul). Antes, mandar ao Guilherme o escopo (NFL/NPSL/NSL/PSL e as ligas paralelas do
+   apartheid: perguntar).
+5. Pendências de cada liga: na lista `PENDENCIAS` do `documentar.py` (e no `documentacao/README.md`).
 
 ## 4. Código comum (`coleta/comum-africa/`)
 
@@ -175,6 +176,23 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   notas da tabela de confrontos ("match_X_Y_note") explicam resultados dados fora de campo (2025/26).
 - 1909/10: a Wikipédia dá um título ao Racing Club de Tunis; a RSSSF diz que não houve campeonato (fica de fora).
 
+**Argélia (`alg-1`):**
+- **Escopo (pesquisa de 24/11; o Guilherme aprovou em 24/11):** só o campeonato nacional, de 1962/63 em diante (64
+  edições). A RSSSF ("64 títulos; desde a independência") e a Wikipédia (en e fr) contam desde 1962/63, e a contagem dos
+  clubes também (o "10º título" do MC Alger em 2026 só fecha sem a era colonial). A era colonial fica de fora: não havia
+  campeonato único (ligas regionais de Argel, Orã e Constantine, cujos campeões iam ao Campeonato do Norte da África), e o
+  "campeonato da Argélia" de 1957/58 a 1960/61 era do futebol colonial francês, que ninguém conta.
+- 2019/20: parado em março de 2020 (Covid); a federação declarou o CR Belouizdad campeão, sem rebaixamento: entra com
+  campeão (título oficial), com os jogos até a parada e a observação.
+- Nomes: siglas francesas, como os clubes são conhecidos (MC Alger, USM Alger). JS Kabylie = JE Tizi Ouzou = JS Kawkabi;
+  CR Belouizdad = CR Belcourt; MC Alger = MP Alger; ES Sétif = EP Sétif; MC Oran = MP Oran. O USM Annaba campeão de
+  1963/64 não é o atual (fundado em 1984).
+- RSSSF: lista de campeões em `tablesa/algchamp.html`; páginas `alg63` (1962/63) ... `alg99`, `alg00` ... `alg09`,
+  `alg2010` ... `alg2026`, pelo ano em que a temporada termina (as `alg1905`, `alg17`, `alg18`, `alg21` a `alg59` são da
+  era colonial e não são baixadas).
+- ogol: competição `liga-argelina`, edições de 1962/63 a 2026/27. Wikipédia: artigo de toda temporada ("1993–94 Algerian
+  Championnat National"; desde 2010/11, "Algerian Ligue Professionnelle 1"); a lista de campeões traz vice, 3º e artilheiro.
+
 ## 6. Armadilhas já encontradas
 
 **RSSSF (Egito):**
@@ -234,6 +252,28 @@ numa fonte entra à mão (`EXTRAS`) só quando há outra prova do placar (lista 
   `SITUACAO_FIXA` no `importar.py`; "Not Relegated" não conta como rebaixado.
 - **Tabela partida por erro de digitação** (`tun06`, Club Africain "12 9 3"): `CONSERTA_TEXTO`.
 - **"ES" em 1949/50** é o Espérance (o Étoile é "ES Sahel"): `nomes` da edição.
+
+**RSSSF (Argélia):**
+- **Índice no topo** de toda página ("Ligue 1", "Coupe Nationale", "Ligue 2"...): a 1ª divisão é a primeira seção depois
+  dele; o fim é a seção seguinte do índice ou o padrão de fim, o que vier primeiro (`ler_rsssf.secao()`; o título da copa
+  no corpo nem sempre é o do índice). 1999/00 a 2001/02: a 1ª divisão é a "Super Division" (a "Division 1" é a 2ª).
+- **Tabela com o nome atual e o da época entre colchetes** ("JS Kabylie ... [as Jamiat Sari' Kawkabi]"); os jogos usam o
+  nome da época (JS Kawkabi, MP Alger, NAR Alger...): as regras de `clubes_alg.py` saíram desses colchetes.
+- **Listas de jogos que não fecham com a tabela da própria página** (quase todo ano de 1964/65 a 1998/99): o ogol copia a
+  RSSSF (mesmos placares) e a Wikipédia confirma a tabela; nada a corrigir sem outra fonte.
+- **Rodada copiada** (1974/75, 1975/76) ou repetida (1972/73): o mesmo mandante x visitante duas vezes; procure com um
+  contador de pares por temporada.
+- **Datas com o ano errado:** jogo adiado listado depois de janeiro faz o leitor comum avançar o ano de novo
+  (`ano < ano_fim + 1` em `rsssf_africa.ler`); a Argélia acerta o ano pelo mês (`ler_rsssf._acerta_anos`).
+- **"[0-3 awarded; abd at 1-2]"**: o placar vem antes de "awarded"; `linhas()` inverte para "[awarded 0-3; ...]".
+  "temporarily awarded ... later revoked" (2002/03) foi tirado com `CONSERTA_TEXTO`.
+- **Nome partido por espaços** ("NA Hussein          Dey 1-2", "MO  Constantine") e cidade repetida ("ASPTT Alger
+  Alger"): `linhas()`.
+- **Tabela "acumulada":** a conferência herdada pula tabela com mais jogos que a soma; na Argélia não há tabela acumulada
+  e isso escondia os anos com jogos faltando (desligado em `conferir.py`).
+
+**ogol (Argélia):** só tem jogos de 1985/86 em diante, com os mesmos placares da RSSSF (copiados): serve para data e
+rodada, não como segunda fonte de placar. Nomes curtos ("CS Constantinois", "Ol. Medea", "Tadjenanet", "MCE Bayadh").
 
 **ogol (Tunísia):** "DA" (decisão administrativa) vem sem placar e o jogo some: entra em `EXTRAS` com o resultado dado
 (2025/26, US Monastir x CS Sfaxien). Edições cortadas pelo limite de ritmo: veja os avisos do log e baixe de novo.

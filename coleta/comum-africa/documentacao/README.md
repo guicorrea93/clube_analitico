@@ -7,8 +7,9 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 | Competição | Edições | Sem jogos | Jogos | Gols c/ autor | Cartões | Clubes | Edições ok / div. | No banco | Commit | Achados abertos | Ficha |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | Campeonato Egípcio | 73 (1948/49–2025/26) | 13 | 11574 | 3068 | 0 | 74 | 42 / 12 | sim | 06635c8 | 0 | [egy-1](egy-1.md) |
-| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | não | 820bf5f | 0 | [mar-1](mar-1.md) |
-| Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | não | — | 0 | [tun-1](tun-1.md) |
+| Campeonato Marroquino | 110 (1915/16–2025/26) | 41 | 11736 | 18 | 0 | 100 | 35 / 20 | não | 786998d | 0 | [mar-1](mar-1.md) |
+| Campeonato Tunisiano | 109 (1907–2025/26) | 56 | 8092 | 771 | 0 | 74 | 34 / 10 | não | 786998d | 0 | [tun-1](tun-1.md) |
+| Campeonato Argelino | 64 (1962/63–2025/26) | 0 | 15210 | 3829 | 0 | 81 | 22 / 39 | não | — | 0 | [alg-1](alg-1.md) |
 
 ## Pendências de todas as competições
 
@@ -31,6 +32,13 @@ Regras de trabalho, ordem das pendências e como fazer uma competição nova: `c
 - **tun-1:** Autores dos gols quase só em 2004/05 e 2010/11 (a RSSSF da Tunísia quase não traz) e nenhum cartão. Fonte que resolveria: o ogol jogo a jogo (2005/06 em diante).
 - **tun-1:** Identidade a conferir: Railway Sports de Sfax (colonial) = Sfax Railways Sports; US Ferryville = USM Bourguiba; Olympique Tunis = US Musulmane Olympique; "ES" de 1949/50 lido como Espérance de Tunis.
 - **tun-1:** 1909/10: a Wikipédia dá um título ao Racing Club de Tunis; a RSSSF diz que não houve campeonato (ficou de fora).
+- **alg-1:** Ainda não carregado no banco (pacote pronto em 24/11/2026; teste de carga OK).
+- **alg-1:** 1964/65 a 1998/99: a lista de jogos da RSSSF não fecha com a tabela da mesma página em vários clubes por ano (placar ou resultado trocado, jogo repetido ou faltando); o ogol (desde 1985/86) repete os placares da RSSSF e a Wikipédia quase sempre confirma a tabela. Nenhum placar mudado; jogo provável no relatório. Fonte que resolveria: jornais argelinos da época (El Moudjahid) ou o arquivo da federação.
+- **alg-1:** 1974/75 e 1975/76: uma rodada inteira copiada na página (os jogos verdadeiros das rodadas 4 e 18 faltam); 1972/73: rodada 10 repetida (cópia descartada).
+- **alg-1:** Mando provavelmente trocado: o mesmo mandante x visitante duas vezes na temporada, com placares diferentes (1964/65, 1966/67, 1973/74, 1976/77, 1979/80, 1980/81, 1983/84, 1986/87, 1988/89...): ficou como na página.
+- **alg-1:** 1962/63 e 1963/64: ligas regionais incompletas (1962/63 sem a 1ª fase; 1963/64 só os resultados conhecidos, grupo Leste de Constantine sem números).
+- **alg-1:** 2009/10: CA Bordj Bou Arréridj x MC Alger com "derrota para os dois" (o formato do pacote não representa; jogo sem placar).
+- **alg-1:** Identidade a conferir: DNC Alger = OC Alger = CS DNC Alger = JH Djazaïr (nome de exibição "DNC Alger"); WKF Collo = Entente Collo; o USM Annaba até 1979 é o Hamra Annaba; "US Constantine" de 1996/97 = US Chaouia; MB Rouissat = Olympique Rouissat (2025/26).
 
 ## Próximas competições
 

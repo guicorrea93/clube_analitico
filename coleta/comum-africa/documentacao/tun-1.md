@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-africa/documentar.py` a partir do pacote `data/c
 - **Jogos:** 8092 (8079 com placar); **gols:** 17062; **gols com autor:** 771 (5%); **cartões:** 0.
 - **Clubes:** 74; **artilheiros:** 71 edições com artilheiro (82 linhas, com empates).
 - **Classificação final:** 109 edições; **tabelas publicadas guardadas para conferência:** 1118 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** 786998d.
 - **Observação da competição:** 1ª divisão tunisiana (hoje Ligue Professionnelle 1) de 1907 a 2025/26, com a era colonial (campeonato da USFSA até 1920/21 e da Liga da Tunísia de 1921/22 a 1954/55), que a contagem oficial inclui. Sem as temporadas sem competição; 1951/52 (abandonado) entra sem campeão. Pontos 3-2-1 até 1985/86, 4-2-1 de 1986/87 a 1991/92, 2-1-0 de 1992/93 a 1994/95 e 3-1-0 desde 1995/96.
 
 ## 2. Edições, fontes e regras
