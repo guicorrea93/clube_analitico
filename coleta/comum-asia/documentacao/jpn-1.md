@@ -8,7 +8,7 @@ Gerado por `python coleta/comum-asia/documentar.py` a partir do pacote `data/col
 - **Jogos:** 12190 (12190 com placar); **gols:** 34082; **gols com autor:** 27554 (81%); **cartões:** 31272.
 - **Clubes:** 40; **artilheiros:** 60 edições com artilheiro (69 linhas, com empates).
 - **Classificação final:** 60 edições; **tabelas publicadas guardadas para conferência:** 1038 linhas.
-- **No banco:** ainda não; **último commit do pacote:** nenhum (pacote ainda não commitado).
+- **No banco:** ainda não; **último commit do pacote:** 71d5006.
 - **Observação da competição:** Japan Soccer League (JSL, amadora, 1965 a 1991/92) e J.League/J1 (1993 em diante); 1992 sem liga
 
 ## 2. Edições, fontes e regras

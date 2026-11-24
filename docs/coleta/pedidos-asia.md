@@ -19,7 +19,7 @@ Recados ao agente 1 (banco e painel) e ao agente de revisão. Ao fim de cada lig
    oficial: jogos, autores com minuto, cartões, árbitro, público, tabelas oficiais), RSSSF (JSL), Wikipédia em inglês
    (campeão, vice e artilheiro), ogol e ESPN (conferência dos placares). Pacote em `data/coleta/jpn-1/pacote/`,
    relatório em `docs/coleta/jpn-1.md`, ficha em `coleta/comum-asia/documentacao/jpn-1.md`.
-2. **Commits:** nenhum ainda (esperando o ok do Guilherme).
+2. **Commits:** `71d5006` (no GitHub, 24/11).
 3. **Teste de carga:** `jpn-1: 60 edições, 12190 jogos, 40 clubes novos -> OK`.
 4. **Pedidos ao banco e ao painel:**
    - carregar `jpn-1`; **país novo: Japão (`JPN`, AFC)**, em `paises.csv`: baixar a bandeira (o Japão foi a Copas, deve
