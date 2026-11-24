@@ -1,4 +1,5 @@
-"""Leitor da página de tabelas finais da RSSSF para a Turquia (tablest/turkhist.html), de 1959 a 1996/97.
+"""Leitor da página de tabelas finais da RSSSF para a Turquia (tablest/turkhist.html), de 1924 a 1996/97 (antes de
+1959: Millî Küme, grupos finais do Şampiyonası e Federasyon Kupası).
 
 Cada temporada começa numa linha só com o ano ("1959", "1959-60") e traz uma ou mais tabelas (Red Group, White Group,
 Play-off Group, Classification Group), cada uma com a linha de cabeçalho "G W D L F A P" (e "3P" de 1987/88 em diante:
@@ -31,9 +32,7 @@ def ler(arq: Path) -> dict[int, list[dict]]:
         m = ANO.match(l)
         if m:
             a = int(m.group(1))
-            ano = 1958 if (a == 1959 and not m.group(2)) else a if m.group(2) else None
-            if ano is not None and ano < 1958:
-                ano = None
+            ano = 1958 if (a == 1959 and not m.group(2)) else a   # 1959 = chave 1958; anos antigos ("1937") também
             atual = None
             if ano is not None:
                 res.setdefault(ano, [])

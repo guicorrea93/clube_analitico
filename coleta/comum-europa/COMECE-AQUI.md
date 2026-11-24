@@ -102,7 +102,7 @@ Todos os pacotes abaixo estão no GitHub, passaram no teste de carga e têm rela
 | `ned-1` Holandês (fase final até 1955/56; Eredivisie) | 138 (1888/89–2025/26) | 21.878 | 23.019 | 24.431 | 93 | (ver git log) |
 | `sco-1` Escocês | 129 (1890/91–2025/26) | 33.076 | 14.565 | 19.812 | 46 | 2fef629 |
 | `bel-1` Belga | 123 (1895/96–2025/26) | 28.712 | 12.031 | 18.167 | 81 | f4a1701 |
-| `tur-1` Turco | 68 (1959–2025/26) | 20.068 | 13.811 | 23.395 | 76 | (ver git log) |
+| `tur-1` Turco (era antiga até 1958; liga nacional) | 97 (1924–2025/26) | 20.971 | 13.811 | 23.395 | 92 | (ver git log) |
 
 Todas as ligas vão até 2025/26, a última temporada terminada. O agente 1 já carregou e publicou Inglês, Espanhol, Italiano
 e Alemão até 2024/25 (`docs/coleta/pedidos-europa.md`, respostas dele). Os recados para recarregar Espanhol, Italiano,
@@ -301,6 +301,10 @@ Deve terminar com `<slug>: N edições, N jogos, N clubes novos -> OK`.
   temporada em texto.
 
 **Turquia, o que serve para outras ligas:**
+- **Era antiga (antes de 1959):** três competições no mesmo slug, com rótulos "1940 (Millî Küme)", "1940 (Şampiyonası)",
+  "1956/57 (Federasyon Kupası)". Só as reconhecidas pela federação têm `campeao` (regra D-09); o sistema de pontos muda
+  por edição (3-2-1 ou 2-1-0, `PONTOS_2_1_0` em `coleta/tur-1/antigo.py`). O alvo do link da Wikipédia resolve os nomes
+  forçados dos anos 1930 (Alsancak = Altay, Ateşspor = İzmirspor).
 - **Escopo pela federação:** a liga nacional começa em 1959; os campeonatos anteriores ficam de fora (ver as pendências da
   liga). A temporada de 1959 (fevereiro a junho) tem a chave 1958 e o rótulo "1959" (`edicoes.temporada`); o
   `documentar.py` agora usa o `temporada()` de cada importador.

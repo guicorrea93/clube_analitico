@@ -4,11 +4,11 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 1. O que temos
 
-- **Edições:** 68, de 1959 a 2025/26.
-- **Jogos:** 20068; **gols:** 50571; **gols com autor:** 13811 (27%); **cartões:** 23395; **jogos com estatísticas** (chutes, faltas, escanteios): 3057.
-- **Clubes:** 76; **artilheiros:** 68 temporadas com artilheiro (72 linhas, com empates).
-- **Classificação final:** 68 temporadas; **rodada a rodada:** 66 temporadas.
-- **Tabelas publicadas guardadas para conferência:** 1923 linhas, de 107 tabelas.
+- **Edições:** 97, de 1959 a 1957/58 (Federasyon Kupası).
+- **Jogos:** 20971; **gols:** 54296; **gols com autor:** 13891 (26%); **cartões:** 23395; **jogos com estatísticas** (chutes, faltas, escanteios): 3057.
+- **Clubes:** 168; **artilheiros:** 68 temporadas com artilheiro (72 linhas, com empates).
+- **Classificação final:** 97 temporadas; **rodada a rodada:** 66 temporadas.
+- **Tabelas publicadas guardadas para conferência:** 2185 linhas, de 148 tabelas.
 - **Observação da competição:** 1ª divisão turca desde a criação da liga nacional (1959): Millî Lig, 1. Lig (1963/64) e Süper Lig (2001/02). Em 1959, dois grupos e final; em 1962/63, dois grupos, grupo final e grupo de classificação; em 2011/12, fase regular e play-offs. Os campeonatos anteriores (Türkiye Futbol Şampiyonası, 1924-1951, e Millî Küme, 1937-1950) não são contados pela federação e ficam de fora.
 
 ## 2. Fontes e regras
@@ -27,9 +27,9 @@ Gerado por `python coleta/comum-europa/documentar.py` a partir do pacote `data/c
 
 ## 3. Conferência
 
-- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 98 tabelas fecham com os jogos e 17 divergem (divergência sempre explicada no relatório).
-- Temporadas em que nenhuma tabela publicada fecha: 1959/60, 1960/61, 1965/66, 1977/78, 2002/03, 2016/17.
-- Temporadas com alguma tabela divergente: 1959, 1959/60, 1960/61, 1962/63, 1965/66, 1977/78, 1988/89, 2002/03, 2011/12, 2016/17.
+- Cada temporada é comparada com as tabelas publicadas (RSSSF, Wikipédia): 128 tabelas fecham com os jogos e 30 divergem (divergência sempre explicada no relatório).
+- Temporadas em que nenhuma tabela publicada fecha: 1959/60, 1960/61, 1965/66, 1977/78, 2002/03, 2016/17, 1924 (Şampiyonası), 1927 (Şampiyonası), 1932 (Şampiyonası), 1933 (Şampiyonası), 1934 (Şampiyonası), 1935 (Şampiyonası), 1938 (Millî Küme), 1939 (Millî Küme), 1940 (Şampiyonası), 1941 (Şampiyonası), 1946 (Şampiyonası), 1956/57 (Federasyon Kupası).
+- Temporadas com alguma tabela divergente: 1959, 1959/60, 1960/61, 1962/63, 1965/66, 1977/78, 1988/89, 2002/03, 2011/12, 2016/17, 1938 (Millî Küme), 1939 (Millî Küme), 1940 (Millî Küme), 1945 (Millî Küme), 1946 (Millî Küme), 1946 (Şampiyonası), 1947 (Millî Küme), 1956/57 (Federasyon Kupası).
 - Temporadas com número de jogos diferente do turno e returno completo: 2011/12 (330 de 306).
 
 ## 4. Cobertura de cada campo, por década
@@ -38,7 +38,10 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 | Década | Jogos | data | hora | rodada | estádio | público | árbitro | estatísticas | gols c/ autor | cartões/jogo |
 |---|---|---|---|---|---|---|---|---|---|---|
-| 1950s | 494 | 100% | 0% | 77% | 0% | 0% | 0% | 0% | 0% | 0.0 |
+| 1920s | 35 | 100% | 0% | 0% | 100% | 0% | 11% | 0% | 0% | 0.0 |
+| 1930s | 245 | 31% | 0% | 0% | 22% | 0% | 22% | 0% | 3% | 0.0 |
+| 1940s | 447 | 11% | 0% | 0% | 10% | 0% | 4% | 0% | 3% | 0.0 |
+| 1950s | 670 | 77% | 0% | 57% | 3% | 0% | 2% | 0% | 0% | 0.0 |
 | 1960s | 2922 | 100% | 0% | 88% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1970s | 2400 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
 | 1980s | 3142 | 100% | 0% | 100% | 0% | 0% | 0% | 0% | 0% | 0.0 |
@@ -72,34 +75,110 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2023/24: 20 clubes
 - 2024/25: 19 clubes
 - 2025/26: 18 clubes
+- 1924 (Şampiyonası): 14 clubes
+- 1927 (Şampiyonası): 17 clubes
+- 1932 (Şampiyonası): 20 clubes
+- 1933 (Şampiyonası): 18 clubes
+- 1934 (Şampiyonası): 20 clubes
+- 1935 (Şampiyonası): 22 clubes
+- 1937 (Millî Küme) a 1940 (Millî Küme): 8 clubes
+- 1940 (Şampiyonası): 2 clubes
+- 1941 (Millî Küme): 10 clubes
+- 1941 (Şampiyonası): 7 clubes
+- 1942 (Şampiyonası): 4 clubes
+- 1943 (Millî Küme) a 1944 (Millî Küme): 8 clubes
+- 1944 (Şampiyonası): 4 clubes
+- 1945 (Millî Küme): 8 clubes
+- 1945 (Şampiyonası): 7 clubes
+- 1946 (Millî Küme): 8 clubes
+- 1946 (Şampiyonası): 4 clubes
+- 1947 (Millî Küme): 8 clubes
+- 1947 (Şampiyonası): 3 clubes
+- 1949 (Şampiyonası): 6 clubes
+- 1950 (Millî Küme): 8 clubes
+- 1950 (Şampiyonası): 4 clubes
+- 1951 (Şampiyonası): 9 clubes
+- 1956/57 (Federasyon Kupası): 27 clubes
+- 1957/58 (Federasyon Kupası): 38 clubes
 
 **Pontos por vitória:**
 
 - 1959 a 1986/87: 2
-- 1987/88 a 2025/26: 3
+- 1987/88 a 1942 (Şampiyonası): 3
+- 1943 (Millî Küme) a 1944 (Şampiyonası): 2
+- 1945 (Millî Küme) a 1947 (Millî Küme): 3
+- 1947 (Şampiyonası): 2
+- 1949 (Şampiyonası) a 1951 (Şampiyonası): 3
+- 1956/57 (Federasyon Kupası) a 1957/58 (Federasyon Kupası): 2
 
 **Nome oficial:**
 
 - 1959 a 1962/63: Millî Lig
 - 1963/64 a 2000/01: 1. Lig
 - 2001/02 a 2025/26: Süper Lig
+- 1924 (Şampiyonası) a 1935 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1937 (Millî Küme) a 1940 (Millî Küme): Millî Küme
+- 1940 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1941 (Millî Küme): Millî Küme
+- 1941 (Şampiyonası) a 1942 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1943 (Millî Küme) a 1944 (Millî Küme): Millî Küme
+- 1944 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1945 (Millî Küme): Millî Küme
+- 1945 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1946 (Millî Küme): Millî Küme
+- 1946 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1947 (Millî Küme): Millî Küme
+- 1947 (Şampiyonası) a 1949 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1950 (Millî Küme): Millî Küme
+- 1950 (Şampiyonası) a 1951 (Şampiyonası): Türkiye Futbol Şampiyonası
+- 1956/57 (Federasyon Kupası) a 1957/58 (Federasyon Kupası): Federasyon Kupası
 
 **Temporadas com mais de uma fase ou fora dos pontos corridos:**
 
 - 1959: Grupos (grupos, pontos_corridos); Final (mata_mata, ida_volta)
 - 1962/63: Grupos (grupos, pontos_corridos); Grupo final (grupos, pontos_corridos); Grupo de classificação (grupos, pontos_corridos)
 - 2011/12: Fase regular (liga, pontos_corridos); Play-off do título (grupos, pontos_corridos); Play-off europeu (grupos, pontos_corridos)
+- 1924 (Şampiyonası): First round (mata_mata, jogo_unico); First round · Resumed matches (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1927 (Şampiyonası): Eliminatória prévia (mata_mata, jogo_unico); First round (mata_mata, jogo_unico); First round · Resumed match (mata_mata, jogo_unico); Quartas de final (mata_mata, jogo_unico); Quartas de final · Desempate (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Disputa de 3º lugar (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1932 (Şampiyonası): Fase de grupos · 1ª eliminatória (grupos, jogo_unico); Fase de grupos · Final do grupo (grupos, jogo_unico); Fase de grupos · Semifinal (grupos, jogo_unico); Fase final · 1ª eliminatória (mata_mata, jogo_unico); Fase final · Semifinal (mata_mata, jogo_unico); Fase final · Final (mata_mata, jogo_unico)
+- 1933 (Şampiyonası): Fase de grupos · 1ª eliminatória (grupos, jogo_unico); Fase de grupos · Final do grupo (grupos, jogo_unico); Fase final · 1ª eliminatória (mata_mata, jogo_unico); Fase final · Semifinal (mata_mata, jogo_unico); Fase final · Final (mata_mata, jogo_unico)
+- 1934 (Şampiyonası): Fase de grupos · 1ª eliminatória (grupos, jogo_unico); Fase de grupos · Final do grupo (grupos, jogo_unico); Fase de grupos · Semifinal (grupos, jogo_unico); Fase final · 1ª eliminatória (mata_mata, jogo_unico); Fase final · Semifinal (mata_mata, jogo_unico); Fase final · Final (mata_mata, jogo_unico)
+- 1935 (Şampiyonası): Fase de grupos · 1ª eliminatória (grupos, jogo_unico); Fase de grupos · Final do grupo (grupos, jogo_unico); Fase de grupos · Semifinal (grupos, jogo_unico); Fase final · 1ª eliminatória (mata_mata, jogo_unico); Fase final · Semifinal (mata_mata, jogo_unico); Fase final · Final (mata_mata, jogo_unico)
+- 1937 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1938 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1939 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1940 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1940 (Şampiyonası): Final (mata_mata, jogo_unico)
+- 1941 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1941 (Şampiyonası): 1ª eliminatória (mata_mata, jogo_unico); Semifinal (mata_mata, jogo_unico); Final (mata_mata, jogo_unico)
+- 1942 (Şampiyonası): Grupo final (grupos, pontos_corridos)
+- 1943 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1944 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1944 (Şampiyonası): Grupo final (grupos, pontos_corridos)
+- 1945 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1945 (Şampiyonası): Qualification play-off · 1ª eliminatória (mata_mata, jogo_unico); Qualification play-off · Final (mata_mata, jogo_unico); Grupo final (grupos, pontos_corridos)
+- 1946 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1946 (Şampiyonası): Grupo final (grupos, pontos_corridos)
+- 1947 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1947 (Şampiyonası): Grupo final (grupos, pontos_corridos)
+- 1949 (Şampiyonası): Qualification play-off · First round (mata_mata, jogo_unico); Qualification play-off · Play-off final (mata_mata, jogo_unico); Grupo final (grupos, pontos_corridos)
+- 1950 (Millî Küme): Liga (grupos, pontos_corridos)
+- 1950 (Şampiyonası): Grupo final (grupos, pontos_corridos)
+- 1951 (Şampiyonası): Qualification play-off · First round (mata_mata, jogo_unico); Qualification play-off · Semifinal (mata_mata, jogo_unico); Qualification play-off · Final (mata_mata, jogo_unico); Grupo final (grupos, pontos_corridos)
+- 1956/57 (Federasyon Kupası): 1ª eliminatória (grupos, jogo_unico); 2ª eliminatória (grupos, jogo_unico); 3ª eliminatória (grupos, jogo_unico); Grupo final (grupos, pontos_corridos)
+- 1957/58 (Federasyon Kupası): First round (grupos, jogo_unico); Second round (grupos, jogo_unico); Fase de grupos (grupos, jogo_unico)
 
 **Critério de desempate** (o que reproduz a ordem oficial em cada temporada):
 
+- resultado: 54 temporadas
 - pontos, confronto direto, saldo de gols, gols pró: 34 temporadas
 - pontos, saldo de gols, gols pró: 28 temporadas
+- pontos: 21 temporadas
 - pontos, média de gols: 4 temporadas
 - pontos, média de gols (goal average): 3 temporadas
 - pontos, saldo: 1 temporadas
 - pontos, vitórias, saldo de gols, gols pró: 1 temporadas
 - pontos, com a metade dos pontos da fase regular de partida: 1 temporadas
-- pontos: 1 temporadas
 
 **Observações das edições** (formato, punições, casos especiais):
 
@@ -109,6 +188,35 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2022/23: punições: Kayserispor -3 pontos
 - 2023/24: punições: Kayserispor -3 pontos; İstanbulspor -3 pontos
 - 2024/25: punições: Adana Demirspor -12 pontos
+- 1924 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Harp Okulu; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1927 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Muhafızgücü; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1932 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor İstanbulspor; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1933 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1934 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Beşiktaş; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1935 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1937 (Millî Küme): Millî Küme: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1938 (Millî Küme): Millî Küme: vencedor Güneş; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1939 (Millî Küme): Millî Küme: vencedor Galatasaray; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1940 (Millî Küme): Millî Küme: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1940 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Eskişehir Demirspor; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1941 (Millî Küme): Millî Küme: vencedor Beşiktaş; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1941 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Gençlerbirliği; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1942 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Harp Okulu; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1943 (Millî Küme): Millî Küme: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1944 (Millî Küme): Millî Küme: vencedor Beşiktaş; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1944 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1945 (Millî Küme): Millî Küme: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1945 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Harp Okulu; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1946 (Millî Küme): Millî Küme: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1946 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Gençlerbirliği; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1947 (Millî Küme): Millî Küme: vencedor Beşiktaş; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1947 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Ankara Demirspor; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1949 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Ankaragücü; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1950 (Millî Küme): Millî Küme: vencedor Fenerbahçe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1950 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Göztepe; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1951 (Şampiyonası): Türkiye Futbol Şampiyonası: vencedor Beşiktaş; título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- 1956/57 (Federasyon Kupası): Federasyon Kupası: título reconhecido pela federação desde 2002
+- 1957/58 (Federasyon Kupası): Federasyon Kupası: título reconhecido pela federação desde 2002
 
 ## 6. Campeões, rebaixados e punições
 
@@ -116,10 +224,11 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 
 - Galatasaray: 26
 - Fenerbahçe: 19
-- Beşiktaş: 14
+- Beşiktaş: 16
 - Trabzonspor: 7
 - Bursaspor: 1
 - İstanbul Başakşehir: 1
+- Sem campeão: 1924 (Şampiyonası), 1927 (Şampiyonası), 1932 (Şampiyonası), 1933 (Şampiyonası), 1934 (Şampiyonası), 1935 (Şampiyonası), 1937 (Millî Küme), 1938 (Millî Küme), 1939 (Millî Küme), 1940 (Millî Küme), 1940 (Şampiyonası), 1941 (Millî Küme), 1941 (Şampiyonası), 1942 (Şampiyonası), 1943 (Millî Küme), 1944 (Millî Küme), 1944 (Şampiyonası), 1945 (Millî Küme), 1945 (Şampiyonası), 1946 (Millî Küme), 1946 (Şampiyonası), 1947 (Millî Küme), 1947 (Şampiyonası), 1949 (Şampiyonası), 1950 (Millî Küme), 1950 (Şampiyonası), 1951 (Şampiyonası)
 
 **Rebaixamentos:** 181 no total; quem mais caiu: Samsunspor (7), Kayseri Erciyesspor (7), Adana Demirspor (6), Karşıyaka (6), Ankaragücü (6).
 
@@ -137,6 +246,11 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 - 2023/24: Kayserispor -3
 - 2023/24: İstanbulspor -3
 - 2024/25: Adana Demirspor -12
+- 1938 (Millî Küme): Altay -1
+- 1938 (Millî Küme): Fenerbahçe -10
+- 1939 (Millî Küme): Galatasaray -1
+- 1946 (Millî Küme): Vefa 11
+- 1946 (Millî Küme): Galatasaray 8
 
 ## 7. Correções e decisões (com o motivo)
 
@@ -177,7 +291,7 @@ Registradas em `coleta/tur-1/importar.py`; cada uma também aparece no relatóri
 
 ## 9. Pendências e próximos passos
 
-- Escopo: a liga nacional, de 1959 em diante (a federação conta os títulos a partir daí). Fora: o Türkiye Futbol Şampiyonası (1924-1951), a Millî Küme (1937-1950) e a Federasyon Kupası (1956/57 e 1957/58), que o Beşiktaş conta nos seus 16 títulos. Se o Guilherme quiser, podem entrar como era antiga, como na Holanda e na Alemanha.
+- Era antiga (antes de 1959, em antigo.py): Türkiye Futbol Şampiyonası (16 edições), Millî Küme (11) e Federasyon Kupası (2), pela Wikipédia (en) e conferidas com a RSSSF. Só as Federasyon Kupası têm campeão (a federação as reconhece desde 2002); Şampiyonası e Millî Küme ficam com o vencedor na observação (regra D-09). Os jogos do Şampiyonası de 1924 a 1935 e as matrizes da Millî Küme não têm data (só as fichas trazem).
 - 1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia; entra a tabela.
 - Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15 nem dos play-offs de 2011/12; antes e nesses anos, jogo a jogo (ficha do ogol).
 - Kayseri: o Kayserispor de 1966 a 2004 está como Kayseri Erciyesspor (troca de nomes de 2004, como na Wikipédia); vale a revisão conferir, porque o ogol e boa parte da imprensa contam a história no Kayserispor de hoje.

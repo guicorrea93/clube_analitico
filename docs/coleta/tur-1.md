@@ -2,9 +2,9 @@
 
 Gerado por `python coleta/tur-1/importar.py`. Pacote em `data/coleta/tur-1/pacote/`.
 
-**Edições:** 68, de 1959 a 2025/26 (a liga nacional; os campeonatos anteriores a 1959 não são contados pela federação e ficam de fora).
+**Edições:** 97, de 1959 a 2025/26 (a liga nacional; os campeonatos anteriores a 1959 não são contados pela federação e ficam de fora).
 
-**Total:** 20068 jogos, 50571 gols, 13811 gols com autor (ESPN), 23395 cartões, 76 clubes.
+**Total:** 20971 jogos, 54296 gols, 13891 gols com autor (ESPN), 23395 cartões, 168 clubes.
 
 **Fontes:**
 - ogol (zerozero): base dos jogos, com data e rodada; o clube pelo código do ogol (os nomes do calendário não são confiáveis nas temporadas antigas); calendários em `data/cache/ogol-tur-1/` para os escudos;
@@ -19,6 +19,35 @@ Gerado por `python coleta/tur-1/importar.py`. Pacote em `data/coleta/tur-1/pacot
 
 | Temporada | Fontes | Clubes | Jogos | Gols | Gols c/ autor | Tabelas ok / div. | Campeão | Punições |
 |---|---|---|---|---|---|---|---|---|
+| 1924 (Şampiyonası) | Wikipédia (en) | 14 | 16 | 52 | 0 | 0 / 0 | — (Harp Okulu, não reconhecido) | — |
+| 1927 (Şampiyonası) | Wikipédia (en) | 17 | 19 | 136 | 0 | 0 / 0 | — (Muhafızgücü, não reconhecido) | — |
+| 1932 (Şampiyonası) | Wikipédia (en) | 20 | 21 | 114 | 3 | 0 / 0 | — (İstanbulspor, não reconhecido) | — |
+| 1933 (Şampiyonası) | Wikipédia (en) | 18 | 16 | 98 | 23 | 0 / 0 | — (Fenerbahçe, não reconhecido) | — |
+| 1934 (Şampiyonası) | Wikipédia (en) | 20 | 19 | 105 | 4 | 0 / 0 | — (Beşiktaş, não reconhecido) | — |
+| 1935 (Şampiyonası) | Wikipédia (en) | 22 | 21 | 112 | 4 | 0 / 0 | — (Fenerbahçe, não reconhecido) | — |
+| 1937 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 237 | 0 | 2 / 0 | — (Fenerbahçe, não reconhecido) | — |
+| 1938 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 217 | 0 | 0 / 2 | — (Güneş, não reconhecido) | — |
+| 1939 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 230 | 0 | 0 / 2 | — (Galatasaray, não reconhecido) | — |
+| 1940 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 264 | 0 | 1 / 1 | — (Fenerbahçe, não reconhecido) | — |
+| 1940 (Şampiyonası) | Wikipédia (en) | 2 | 2 | 4 | 4 | 0 / 0 | — (Eskişehir Demirspor, não reconhecido) | — |
+| 1941 (Millî Küme) | Wikipédia (en) + RSSSF | 10 | 90 | 361 | 0 | 2 / 0 | — (Beşiktaş, não reconhecido) | — |
+| 1941 (Şampiyonası) | Wikipédia (en) | 7 | 6 | 28 | 5 | 0 / 0 | — (Gençlerbirliği, não reconhecido) | — |
+| 1942 (Şampiyonası) | Wikipédia (en) + RSSSF | 4 | 6 | 34 | 0 | 2 / 0 | — (Harp Okulu, não reconhecido) | — |
+| 1943 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 212 | 0 | 2 / 0 | — (Fenerbahçe, não reconhecido) | — |
+| 1944 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 191 | 0 | 2 / 0 | — (Beşiktaş, não reconhecido) | — |
+| 1944 (Şampiyonası) | Wikipédia (en) + RSSSF | 4 | 6 | 35 | 6 | 2 / 0 | — (Fenerbahçe, não reconhecido) | — |
+| 1945 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 205 | 0 | 1 / 1 | — (Fenerbahçe, não reconhecido) | — |
+| 1945 (Şampiyonası) | Wikipédia (en) + RSSSF | 7 | 9 | 43 | 0 | 2 / 0 | — (Harp Okulu, não reconhecido) | — |
+| 1946 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 30 | 139 | 0 | 1 / 2 | — (Fenerbahçe, não reconhecido) | — |
+| 1946 (Şampiyonası) | Wikipédia (en) + RSSSF | 4 | 6 | 36 | 15 | 0 / 2 | — (Gençlerbirliği, não reconhecido) | — |
+| 1947 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 223 | 0 | 1 / 1 | — (Beşiktaş, não reconhecido) | — |
+| 1947 (Şampiyonası) | Wikipédia (en) + RSSSF | 3 | 3 | 15 | 9 | 2 / 0 | — (Ankara Demirspor, não reconhecido) | — |
+| 1949 (Şampiyonası) | Wikipédia (en) + RSSSF | 6 | 9 | 28 | 7 | 2 / 0 | — (Ankaragücü, não reconhecido) | — |
+| 1950 (Millî Küme) | Wikipédia (en) + RSSSF | 8 | 56 | 187 | 0 | 2 / 0 | — (Fenerbahçe, não reconhecido) | — |
+| 1950 (Şampiyonası) | Wikipédia (en) + RSSSF | 4 | 12 | 36 | 0 | 2 / 0 | — (Göztepe, não reconhecido) | — |
+| 1951 (Şampiyonası) | Wikipédia (en) + RSSSF | 9 | 11 | 48 | 0 | 2 / 0 | — (Beşiktaş, não reconhecido) | — |
+| 1956/57 (Federasyon Kupası) | Wikipédia (en) + RSSSF | 27 | 51 | 180 | 0 | 0 / 2 | Beşiktaş | — |
+| 1957/58 (Federasyon Kupası) | Wikipédia (en) | 38 | 46 | 155 | 0 | 2 / 0 | Beşiktaş | — |
 | 1959 | ogol + RSSSF + Wikipédia | 16 | 114 | 264 | 0 | 3 / 1 | Fenerbahçe | — |
 | 1959/60 | ogol + RSSSF + Wikipédia | 20 | 380 | 929 | 0 | 0 / 2 | Beşiktaş | — |
 | 1960/61 | ogol + RSSSF + Wikipédia | 20 | 380 | 850 | 0 | 0 / 2 | Fenerbahçe | — |
@@ -90,6 +119,157 @@ Gerado por `python coleta/tur-1/importar.py`. Pacote em `data/coleta/tur-1/pacot
 
 ## Conferência e ocorrências, temporada a temporada
 
+### 1924 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Harp Okulu, vice Bahriye — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1927 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Muhafızgücü, vice Altınordu — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1932 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor İstanbulspor, vice Altınordu — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1933 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Fenerbahçe, vice İzmirspor — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1934 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Beşiktaş, vice Altay — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1935 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Fenerbahçe, vice Altınordu — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1937 (Millî Küme)
+
+- Millî Küme: vencedor Fenerbahçe, vice Galatasaray — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1938 (Millî Küme)
+
+- o Fenerbahçe abandonou a liga depois da 4ª rodada; os jogos que faltavam valeram 3-0 e os pontos para os adversários (sem ponto para o Fenerbahçe), e as tabelas contam os gols de outro jeito
+- Millî Küme: vencedor Güneş, vice Beşiktaş — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- tabela (Wikipédia) x jogos — Altay tabela [14, 4, 0, 10, 19, 37] jogos [14, 4, 0, 10, 19, 40]
+- tabela (Wikipédia) x jogos — Fenerbahçe tabela [14, 1, 2, 11, 12, 7] jogos [14, 1, 2, 11, 12, 37]
+- tabela (RSSSF) x jogos — Altay tabela [14, 4, 0, 10, 19, 37] jogos [14, 4, 0, 10, 19, 40]
+- tabela (RSSSF) x jogos — Fenerbahçe tabela [14, 1, 2, 11, 12, 7] jogos [14, 1, 2, 11, 12, 37]
+
+### 1939 (Millî Küme)
+
+- Galatasaray com 35 pontos na RSSSF (36 pela conta 3-2-1): derrota por W.O. não dava ponto
+- Millî Küme: vencedor Galatasaray, vice Ankara Demirspor — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- tabela (Wikipédia) x jogos — Galatasaray tabela [14, 11, 0, 3, 43, 19] jogos [14, 11, 0, 3, 43, 22]
+- tabela (RSSSF) x jogos — Galatasaray tabela [14, 11, 0, 3, 43, 19] jogos [14, 11, 0, 3, 43, 22]
+
+### 1940 (Millî Küme)
+
+- Millî Küme: vencedor Fenerbahçe, vice Galatasaray — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- tabela (RSSSF) x jogos — Galatasaray tabela [14, 9, 2, 3, 35, 16] jogos [14, 9, 2, 3, 45, 19]
+
+### 1940 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Eskişehir Demirspor, vice Fenerbahçe — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1941 (Millî Küme)
+
+- Millî Küme: vencedor Beşiktaş, vice Galatasaray — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1941 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Gençlerbirliği, vice Beşiktaş — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1942 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Harp Okulu, vice Göztepe — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1943 (Millî Küme)
+
+- Millî Küme: vencedor Fenerbahçe, vice Galatasaray — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1944 (Millî Küme)
+
+- Millî Küme: vencedor Beşiktaş, vice Fenerbahçe — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1944 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Fenerbahçe, vice Harp Okulu — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1945 (Millî Küme)
+
+- Millî Küme: vencedor Fenerbahçe, vice Beşiktaş — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- tabela (Wikipédia) x jogos — Fenerbahçe tabela [14, 10, 3, 1, 42, 17] jogos [14, 10, 3, 1, 43, 17]
+- tabela (Wikipédia) x jogos — Beşiktaş tabela [14, 8, 4, 2, 39, 19] jogos [14, 8, 4, 2, 39, 20]
+- tabela (Wikipédia) x jogos — Uçaksavar tabela [14, 5, 5, 4, 24, 30] jogos [14, 5, 2, 7, 24, 30]
+- tabela (Wikipédia) x jogos — Altınordu tabela [14, 3, 1, 10, 16, 28] jogos [14, 3, 1, 10, 14, 33]
+- tabela (Wikipédia) x jogos — Karşıyaka tabela [14, 1, 4, 9, 14, 33] jogos [14, 1, 4, 9, 13, 41]
+
+### 1945 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Harp Okulu, vice İzmit Harp Filosu — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1946 (Millî Küme)
+
+- duas fases (liga e grupo final de 4); a tabela do grupo final na Wikipédia não traz os gols
+- Millî Küme: vencedor Fenerbahçe, vice Beşiktaş — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- tabela (Wikipédia) x jogos — Beşiktaş tabela [6, 4, 1, 1, None, None] jogos [2, 1, 0, 1, 3, 4]
+- tabela (Wikipédia) x jogos — Fenerbahçe tabela [6, 3, 2, 1, None, None] jogos [2, 1, 0, 1, 4, 3]
+- tabela (Wikipédia) x jogos — Beşiktaş tabela [10, 7, 2, 1, 32, 15] jogos [10, 7, 1, 2, 32, 15]
+- tabela (Wikipédia) x jogos — Kayagücü tabela [10, 3, 2, 5, 19, 28] jogos [10, 4, 1, 5, 19, 28]
+- tabela (Wikipédia) x jogos — Muhafızgücü tabela [10, 3, 0, 7, 24, 31] jogos [10, 3, 0, 7, 25, 31]
+- tabela (Wikipédia) x jogos — Göztepe tabela [10, 2, 2, 6, 18, 27] jogos [10, 2, 2, 6, 18, 28]
+
+### 1946 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Gençlerbirliği, vice Beşiktaş — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- tabela (Wikipédia) x jogos — Beşiktaş tabela [3, 2, 0, 1, 6, 5] jogos [3, 1, 0, 2, 6, 15]
+- tabela (Wikipédia) x jogos — Altay tabela [3, 0, 0, 3, 2, 10] jogos [3, 1, 0, 2, 12, 10]
+- tabela (RSSSF) x jogos — Beşiktaş tabela [3, 2, 0, 1, 6, 5] jogos [3, 1, 0, 2, 6, 15]
+- tabela (RSSSF) x jogos — Altay tabela [3, 0, 0, 3, 2, 10] jogos [3, 1, 0, 2, 12, 10]
+
+### 1947 (Millî Küme)
+
+- Millî Küme: vencedor Beşiktaş, vice Fenerbahçe — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+- tabela (Wikipédia) x jogos — Vefa tabela [14, 6, 4, 4, 29, 23] jogos [14, 6, 4, 4, 29, 22]
+- tabela (Wikipédia) x jogos — Altınordu tabela [14, 2, 2, 10, 18, 38] jogos [14, 2, 2, 10, 17, 38]
+
+### 1947 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Ankara Demirspor, vice Fenerbahçe — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1949 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Ankaragücü, vice Galatasaray — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1950 (Millî Küme)
+
+- Millî Küme: vencedor Fenerbahçe, vice Galatasaray — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1950 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Göztepe, vice Gençlerbirliği — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1951 (Şampiyonası)
+
+- Türkiye Futbol Şampiyonası: vencedor Beşiktaş, vice Altay — título não reconhecido pela federação turca (a federação só conta o campeonato desde 1959 e as Federasyon Kupası)
+
+### 1956/57 (Federasyon Kupası)
+
+- Federasyon Kupası: vencedor Beşiktaş, vice Galatasaray
+- tabela (Wikipédia) x jogos — Altay tabela [10, 5, 2, 3, 18, 14] jogos [10, 5, 2, 3, 19, 17]
+- tabela (Wikipédia) x jogos — Gençlerbirliği tabela [10, 4, 1, 5, 15, 12] jogos [10, 3, 2, 5, 15, 13]
+- tabela (Wikipédia) x jogos — Kültürspor tabela [10, 3, 1, 6, 10, 25] jogos [10, 3, 1, 6, 13, 26]
+- tabela (Wikipédia) x jogos — Adana Millî Mensucat tabela [10, 0, 1, 9, 5, 28] jogos [10, 0, 2, 8, 6, 28]
+- tabela (RSSSF) x jogos — Altay tabela [10, 5, 2, 3, 18, 14] jogos [10, 5, 2, 3, 19, 17]
+- tabela (RSSSF) x jogos — Gençlerbirliği tabela [10, 4, 1, 5, 15, 12] jogos [10, 3, 2, 5, 15, 13]
+- tabela (RSSSF) x jogos — Kültürspor tabela [10, 3, 1, 6, 10, 25] jogos [10, 3, 1, 6, 13, 26]
+- tabela (RSSSF) x jogos — Adana Millî Mensucat tabela [10, 0, 1, 9, 5, 28] jogos [10, 0, 2, 8, 6, 28]
+
+### 1957/58 (Federasyon Kupası)
+
+- Federasyon Kupası: vencedor Beşiktaş, vice Galatasaray
+
 ### 1959
 
 - a matriz de resultados da Wikipédia de 1959 difere do ogol em 16 pares (parece ter mandos trocados); o ogol fecha com as tabelas dos grupos, menos 1 gol do Beşiktaş e 1 do Hacettepe na RSSSF
@@ -159,15 +339,22 @@ Gerado por `python coleta/tur-1/importar.py`. Pacote em `data/coleta/tur-1/pacot
 
 ### 1961/62
 
-- placar diferente na matriz da Wikipédia — Altınordu x İzmirspor: ogol 0-0; Wikipédia 1-1
+- placar diferente na matriz da Wikipédia — Altay x İzmir Demirspor: ogol —; Wikipédia 1-0
+- placar diferente na matriz da Wikipédia — Altınordu x İzmir Demirspor: ogol —; Wikipédia 1-1
+- placar diferente na matriz da Wikipédia — Ankara Demirspor x İzmir Demirspor: ogol —; Wikipédia 1-1
 - placar diferente na matriz da Wikipédia — Ankaragücü x Fenerbahçe: ogol 0-3; Wikipédia 0-1
+- placar diferente na matriz da Wikipédia — Ankaragücü x İzmir Demirspor: ogol —; Wikipédia 4-1
+- placar diferente na matriz da Wikipédia — Beşiktaş x İzmir Demirspor: ogol —; Wikipédia 4-0
+- placar diferente na matriz da Wikipédia — Beykoz x İzmir Demirspor: ogol —; Wikipédia 3-2
 - placar diferente na matriz da Wikipédia — Fenerbahçe x Ankaragücü: ogol 1-0; Wikipédia 3-0
+- placar diferente na matriz da Wikipédia — Fenerbahçe x İzmir Demirspor: ogol —; Wikipédia 2-2
 - placar diferente na matriz da Wikipédia — Fenerbahçe x Karagümrük: ogol 1-0; Wikipédia 2-1
-- placar diferente na matriz da Wikipédia — Göztepe x İzmirspor: ogol 2-1; Wikipédia 0-1
+- placar diferente na matriz da Wikipédia — Feriköy x İzmir Demirspor: ogol —; Wikipédia 2-0
+- placar diferente na matriz da Wikipédia — Galatasaray x İzmir Demirspor: ogol —; Wikipédia 1-0
+- placar diferente na matriz da Wikipédia — Gençlerbirliği x İzmir Demirspor: ogol —; Wikipédia 1-0
+- placar diferente na matriz da Wikipédia — Göztepe x İzmir Demirspor: ogol —; Wikipédia 0-1
 - placar diferente na matriz da Wikipédia — Göztepe x Kasımpaşa: ogol 0-0; Wikipédia 1-3
-- placar diferente na matriz da Wikipédia — İzmirspor x Altınordu: ogol 1-1; Wikipédia 0-0
-- placar diferente na matriz da Wikipédia — İzmirspor x Göztepe: ogol 1-0; Wikipédia 1-2
-- placar diferente na matriz da Wikipédia — Karagümrük x Fenerbahçe: ogol 1-2; Wikipédia 0-1
+- ... e mais 28 pares com placar diferente na matriz da Wikipédia
 
 ### 1962/63
 

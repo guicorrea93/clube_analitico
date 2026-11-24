@@ -140,6 +140,27 @@ def espn() -> None:
         print(f"espn {temporada(a)}: {len(js)} jogos, {sum(1 for j in js if j['lances'])} com lances", flush=True)
 
 
+def antigo() -> None:
+    """Era antiga (antes de 1959): artigos da Wikipédia (en) do Türkiye Futbol Şampiyonası ("1935 Turkish Football
+    Championship"), da Millî Küme ("1937 Turkish National Division", com a matriz de resultados) e da Federasyon Kupası
+    ("1956–57 Federation Cup"), em data/coleta/tur-1/wikipedia-antigo/. A RSSSF (turkhist.html) já vem no rsssf()."""
+    from wikipedia import wikitexto
+    pasta = DADOS / "wikipedia-antigo"
+    pasta.mkdir(parents=True, exist_ok=True)
+    titulos = [f"{a} Turkish Football Championship" for a in (1924, 1927, 1932, 1933, 1934, 1935, 1940, 1941, 1942, 1944,
+                                                               1945, 1946, 1947, 1949, 1950, 1951)]
+    titulos += [f"{a} Turkish National Division" for a in range(1937, 1951)]
+    titulos += ["1956–57 Federation Cup", "1957–58 Federation Cup"]
+    for t in titulos:
+        arq = pasta / f"{t}.wiki"
+        if arq.exists():
+            continue
+        txt = wikitexto("en", t, espera=1.5)
+        if txt:
+            arq.write_text(txt, encoding="utf-8")
+        print(f"wiki {t}: {len(txt or '')}", flush=True)
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     for nome in sys.argv[1:]:   # "ogol=1958-1990" passa a faixa de temporadas

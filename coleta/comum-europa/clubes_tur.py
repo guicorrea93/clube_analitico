@@ -85,6 +85,59 @@ OGOL_POR_ANO: dict[str, list[tuple[int, int, str]]] = {
     "81504": [(1958, 1963, "Beykoz"), (1964, 1964, "İzmirspor"), (1965, 9999, "Beykoz")],
 }
 
+# Era antiga (antes de 1959: Türkiye Futbol Şampiyonası, Millî Küme e Federasyon Kupası): clubes que só aparecem nela.
+# Os nomes de cidade sozinhos ("Edirne", "Trabzon") são como a Wikipédia e a RSSSF chamam o representante da cidade no
+# campeonato de 1924 a 1935; ficam como clubes à parte, sem juntar com os clubes de nome parecido.
+CLUBES.update({
+    "Harp Okulu": ("Ancara", "TUR"), "Güneş": ("Istambul", "TUR"), "Muhafızgücü": ("Ancara", "TUR"),
+    "Doğanspor": ("Esmirna", "TUR"), "Üçok": ("Esmirna", "TUR"),
+    "Eskişehir Demirspor": ("Eskişehir", "TUR"), "Maskespor": ("Ancara", "TUR"), "Kayagücü": ("Ancara", "TUR"),
+    "Uçaksavar": ("Ancara", "TUR"), "Hilal SK": ("Ancara", "TUR"), "Güneşspor": ("Ancara", "TUR"),
+    "Kültürspor": ("Esmirna", "TUR"), "Egespor": ("Esmirna", "TUR"), "Ülküspor": ("Esmirna", "TUR"),
+    "İzmir Demirspor": ("Esmirna", "TUR"), "Adana Millî Mensucat": ("Adana", "TUR"), "Yün Pamuk Mensucat": (None, "TUR"),
+    "Emniyet SK": ("Istambul", "TUR"), "Yolspor": ("Ancara", "TUR"), "Anadolu Üsküdar": ("Istambul", "TUR"),
+    "Beylerbeyi": ("Istambul", "TUR"), "Davutpaşa": ("Istambul", "TUR"), "Galata SK": ("Istambul", "TUR"),
+    "Süleymaniye": ("Istambul", "TUR"), "Taksim SK": ("Istambul", "TUR"), "Otoyıldırım": ("Istambul", "TUR"),
+    "Bahriye": ("Istambul", "TUR"), "Adana Torosspor": ("Adana", "TUR"), "Adana Türk Ocağı": ("Adana", "TUR"),
+    "Seyhanspor": ("Adana", "TUR"), "Adapazarı Gençlik": ("Adapazarı", "TUR"),
+    "Adapazarı İdman Yurdu": ("Adapazarı", "TUR"), "Afyon SK": ("Afyonkarahisar", "TUR"),
+    "Afyon Spor": ("Afyonkarahisar", "TUR"), "Amasya Albayrak İdman Yurdu": ("Amasya", "TUR"),
+    "Antalya İlk Işık": ("Antália", "TUR"), "Aydın Gençlik": ("Aydın", "TUR"), "Aydın SK": ("Aydın", "TUR"),
+    "Söke": ("Söke", "TUR"), "Balıkesir": ("Balıkesir", "TUR"), "Balıkesir Spor Yurdu": ("Balıkesir", "TUR"),
+    "Balıkesir İdman Birliği": ("Balıkesir", "TUR"), "Balıkesir İdman Yurdu": ("Balıkesir", "TUR"),
+    "Bandırma İdman Yurdu": ("Bandırma", "TUR"), "Bozüyük İdman Yurdu": ("Bozüyük", "TUR"),
+    "Bursa Akınspor": ("Bursa", "TUR"), "Bursa Işıklar Mektebi": ("Bursa", "TUR"), "Bursa San'atkâran": ("Bursa", "TUR"),
+    "Denizli": ("Denizli", "TUR"), "Denizli İdman Yurdu": ("Denizli", "TUR"), "Çivril": ("Çivril", "TUR"),
+    "Diyarbakır Ayspor": ("Diyarbakır", "TUR"), "Diyarbakır Yıldız": ("Diyarbakır", "TUR"), "Edirne": ("Edirne", "TUR"),
+    "Edirne Meriç İdman Yurdu": ("Edirne", "TUR"), "Edirne Türk Ocağı": ("Edirne", "TUR"),
+    "Eskişehir Tayyare İdman Yurdu": ("Eskişehir", "TUR"), "Eskişehir İdman Yurdu": ("Eskişehir", "TUR"),
+    "Giresun": ("Giresun", "TUR"), "Giresun Hilalspor": ("Giresun", "TUR"), "Giresun SK": ("Giresun", "TUR"),
+    "Gölcük İdman Yurdu": ("Gölcük", "TUR"), "Gönen İdman Yurdu": ("Gönen", "TUR"), "Isparta SK": ("Isparta", "TUR"),
+    "Kayseri Sümerspor": ("Kayseri", "TUR"), "Kolordu İdman Yurdu": (None, "TUR"), "Konya İdman Yurdu": ("Kônia", "TUR"),
+    "Kütahya Gençlerbirliği": ("Kütahya", "TUR"), "Kütahya Türkspor": ("Kütahya", "TUR"),
+    "Malatya Sümerspor": ("Malatya", "TUR"), "Manisa Sakarya": ("Manisa", "TUR"), "Manisa İdman Yurdu": ("Manisa", "TUR"),
+    "Muğla Yaylaspor": ("Muğla", "TUR"), "Samsun Fenerspor": ("Samsun", "TUR"), "Samsun Halkspor": ("Samsun", "TUR"),
+    "Samsun SK": ("Samsun", "TUR"), "Samsun İdman Yurdu": ("Samsun", "TUR"), "Tavşanlı Linyitspor": ("Tavşanlı", "TUR"),
+    "Trabzon": ("Trabzon", "TUR"), "Trabzon Lisesi": ("Trabzon", "TUR"), "Trabzon İdman Gücü": ("Trabzon", "TUR"),
+    "Trabzon İdman Ocağı": ("Trabzon", "TUR"), "Uşak Ergenekon İdman Yurdu": ("Uşak", "TUR"),
+    "Uşak Gençlerbirliği": ("Uşak", "TUR"), "Uşak Turan İdman Yurdu": ("Uşak", "TUR"), "Uşak İdman Yurdu": ("Uşak", "TUR"),
+    "Zonguldak Kömürspor": ("Zonguldak", "TUR"), "Çanakkale Türkgücü": ("Çanakkale", "TUR"), "Çankaya": ("Ancara", "TUR"),
+    "İzmit Harp Filosu": ("İzmit", "TUR"), "İzmit Kağıtspor": ("İzmit", "TUR"), "İzmit İttihadspor": ("İzmit", "TUR"),
+})
+# grafias da era antiga -> chave (o alvo do link da Wikipédia decide os casos de nome de época)
+ALIASES_ANTIGOS = {
+    "Beşiktaş J.K.": "Beşiktaş", "Galatasaray SK": "Galatasaray", "Vefa SK": "Vefa", "UDV Göztepe": "Göztepe",
+    "Göztepe S.K.": "Göztepe", "Gençlerbirliği Ankara": "Gençlerbirliği", "Gençlerbirliği S.K.": "Gençlerbirliği",
+    "AS-FA Ankaragücü": "Ankaragücü", "AS-FA Gücü": "Ankaragücü", "Beykoz 1908": "Beykoz", "Beykoz S.K.D.": "Beykoz",
+    "Alsancak": "Altay", "Altay S.K.": "Altay", "Ateşspor": "İzmirspor", "Harbiye": "Harp Okulu", "Harp Okulu S.K.": "Harp Okulu",
+    "Güneş S.K.": "Güneş", "Hilal": "Hilal SK", "Galata": "Galata SK", "Galata S.K.": "Galata SK", "Taksim": "Taksim SK",
+    "Taksim S.K.": "Taksim SK", "Küçükçekmece S.K.": "Süleymaniye", "Üsküdar Anadolu S.K.": "Anadolu Üsküdar",
+    "Beylerbeyi S.K.": "Beylerbeyi", "Adana Milli Mensucat": "Adana Millî Mensucat", "Söke (Aydın)": "Söke",
+    "Çivril (Denizli)": "Çivril", "Eskişehir Tayyare Yurdu": "Eskişehir Tayyare İdman Yurdu",
+    "Giresun Hilâl Spor": "Giresun Hilalspor", "Isparta": "Isparta SK", "Trabzon İdmanocağı": "Trabzon İdman Ocağı",
+    "TKİ Tavşanlı Linyitspor": "Tavşanlı Linyitspor",
+}
+
 ALIASES: dict[str, str] = {
     # RSSSF (nome + cidade)
     "Galatasaray Istanbul": "Galatasaray", "Fenerbahçe Istanbul": "Fenerbahçe", "Beşiktaş Istanbul": "Beşiktaş",
@@ -122,6 +175,8 @@ ALIASES: dict[str, str] = {
     "Istanbul Basaksehir": "İstanbul Başakşehir", "Caykur Rizespor": "Çaykur Rizespor", "Goztepe": "Göztepe",
     "Istanbulspor AS": "İstanbulspor", "Kasimpasa SK": "Kasımpaşa", "Fatih Karagumruk": "Karagümrük",
 }
+
+ALIASES.update(ALIASES_ANTIGOS)
 
 # nomes que dependem da época: [(ano inicial, ano final, chave)]
 POR_ANO: dict[str, list[tuple[int, int, str]]] = {

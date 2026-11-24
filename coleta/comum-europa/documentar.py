@@ -114,9 +114,10 @@ PENDENCIAS: dict[str, list[str]] = {
         "Artilheiros só desde 1945/46 (lista da RSSSF).",
     ],
     "tur-1": [
-        "Escopo: a liga nacional, de 1959 em diante (a federação conta os títulos a partir daí). Fora: o Türkiye Futbol "
-        "Şampiyonası (1924-1951), a Millî Küme (1937-1950) e a Federasyon Kupası (1956/57 e 1957/58), que o Beşiktaş conta "
-        "nos seus 16 títulos. Se o Guilherme quiser, podem entrar como era antiga, como na Holanda e na Alemanha.",
+        "Era antiga (antes de 1959, em antigo.py): Türkiye Futbol Şampiyonası (16 edições), Millî Küme (11) e Federasyon "
+        "Kupası (2), pela Wikipédia (en) e conferidas com a RSSSF. Só as Federasyon Kupası têm campeão (a federação as "
+        "reconhece desde 2002); Şampiyonası e Millî Küme ficam com o vencedor na observação (regra D-09). Os jogos do "
+        "Şampiyonası de 1924 a 1935 e as matrizes da Millî Küme não têm data (só as fichas trazem).",
         "1962/63: os jogos do grupo de classificação (7º a 9º de cada grupo) não estão no ogol nem na Wikipédia; entra a "
         "tabela.",
         "Autores dos gols e cartões: só com a ESPN (2006/07+), que quase não tem lances de 2011/12 a 2014/15 nem dos "

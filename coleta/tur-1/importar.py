@@ -798,6 +798,10 @@ def main() -> None:
               f"gols {gols_ano} ({autor_ano} c/ autor), critério {criterio}{'' if criterios[a][1] else ' (aprox.)'}, "
               f"campeão {clubes.exibicao(campeao)}", flush=True)
 
+    # era antiga (antes de 1959): Türkiye Futbol Şampiyonası, Millî Küme e Federasyon Kupası (coleta/tur-1/antigo.py)
+    import antigo
+    linhas_rel = antigo.montar(tab, nomes, ocorr) + linhas_rel
+
     # ---- clubes
     for c, (cidade, pais) in sorted(clubes.CLUBES.items()):
         if c not in nomes:
@@ -937,7 +941,7 @@ def relatorio(linhas, ocorr, tab, mapa_espn, criterios) -> None:
         a = 1958 if T == "1959" else int(T[:4])
         out.append(f"### {T}")
         out.append("")
-        for o in ocorr.get(a, []) or ["sem ocorrências"]:
+        for o in ocorr.get(T, []) or ocorr.get(a, []) or ["sem ocorrências"]:
             out.append(f"- {o}")
         out.append("")
     out += [

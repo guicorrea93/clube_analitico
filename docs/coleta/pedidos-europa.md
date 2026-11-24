@@ -1123,3 +1123,70 @@ modelo `{{Calcio X}}` da Wikipédia em italiano leva ao artigo de cada um.
   2. a DDR-Oberliga como `gdr-1` (D-05b);
   3. o EN-016 (12 jogos do Inglês sem autor dos gols).
 - Depois, as próximas ligas, a combinar com o Guilherme.
+
+## Recado de fim de coleta — tur-1 (era antiga) — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão.
+
+1. **O que foi feito.** Os campeonatos turcos de antes da liga nacional, no mesmo slug `tur-1` (pedido do Guilherme em
+   24/11):
+   - Türkiye Futbol Şampiyonası (1924–1951, 16 edições);
+   - Millî Küme (1937–1950, 11 edições);
+   - Federasyon Kupası (1956/57 e 1957/58);
+   - nessa era: 29 edições, 903 jogos, 120 clubes (93 novos no cadastro), 80 gols com autor;
+   - o pacote `tur-1` fica com 97 edições, 20.971 jogos e 92 clubes.
+
+   **Correção do que eu disse no recado completo de hoje:**
+   - a federação **reconhece as duas Federasyon Kupası** como campeonato desde 2002;
+   - o Beşiktaş tem 16 títulos oficiais, não 14;
+   - agora o pacote dá Galatasaray 26, Fenerbahçe 19, Beşiktaş 16, Trabzonspor 7, a contagem oficial.
+
+   Fontes:
+   - **Wikipédia (en), artigo de cada edição:**
+     - fichas de jogo, com data, local e árbitro;
+     - matriz de resultados da Millî Küme;
+     - eliminatórias e grupo final da Federasyon Kupası;
+   - **RSSSF (`turkhist.html`):** tabelas, para conferência e pontos oficiais.
+
+   Conferência: 30 tabelas fecham com os jogos e 13 diferem (1 a 3 gols, W.O. contados de outro jeito); estão explicadas
+   no relatório.
+2. **Commit:** no GitHub (ver git log).
+3. **Teste de carga:** "97 edições, 20971 jogos, 92 clubes novos -> OK".
+4. **Pedidos ao banco e ao painel:**
+   - recarregar o `tur-1`;
+   - **rótulos de temporada:**
+     - "1924 (Şampiyonası)" … "1951 (Şampiyonası)";
+     - "1937 (Millî Küme)" … "1950 (Millî Küme)";
+     - "1956/57 (Federasyon Kupası)" e "1957/58 (Federasyon Kupası)";
+     - em 1940, 1941 e 1944 a 1947 há duas edições no mesmo ano;
+   - **campeão:**
+     - só nas duas Federasyon Kupası;
+     - no Şampiyonası e na Millî Küme, `campeao` vazio, com o vencedor na `observacao` da edição e da 1ª linha da
+       classificação ("título não reconhecido pela federação"). Regra D-09: seguir a federação;
+   - **sistema de pontos:**
+     - 3-2-1 (vitória, empate, derrota) na maior parte;
+     - 2-1-0 na Millî Küme de 1943 e 1944, nos grupos finais de 1944 e 1947 e na Federasyon Kupası;
+     - na Millî Küme os pontos são os da RSSSF (há W.O. sem ponto), e a diferença para a soma dos jogos fica em
+       `ajuste_pontos`;
+     - `pontos_vitoria` da edição diz o sistema;
+   - **classificação final do Şampiyonası e da Federasyon Kupası:** montada (vencedor, vice, grupo final e fase alcançada),
+     com números somados de todas as fases;
+   - **sem data em 721 dos 903 jogos** (matrizes e eliminatórias) e **sem rodada em todos:** sem Corrida nessa era.
+5. **Decisões tomadas, com o motivo:**
+   - (a) **títulos pela federação (D-09):** a federação reconhece a Federasyon Kupası, mas não o Şampiyonası nem a Millî
+     Küme;
+   - (b) **identidade pelo alvo do link da Wikipédia,** nos nomes forçados dos anos 1930: Alsancak = Altay, Ateşspor =
+     İzmirspor, AS-FA Gücü = Ankaragücü, Harbiye = Harp Okulu;
+   - (c) **nomes só de cidade** ("Edirne", "Trabzon"), como a Wikipédia chama o representante da cidade em 1924–1935:
+     clubes à parte.
+6. **O que não deu para coletar:**
+   - data dos jogos das matrizes e das eliminatórias;
+   - autores dos gols fora das fichas.
+7. **Onde a revisão deve olhar primeiro:**
+   - as 13 tabelas que diferem;
+   - a decisão de não contar o Şampiyonası e a Millî Küme (Fenerbahçe e Galatasaray reivindicam esses títulos; a
+     federação tem uma comissão sobre isso desde 2023);
+   - os nomes só de cidade de 1924–1935.
+8. **Próxima tarefa:**
+   - DDR-Oberliga como `gdr-1` (D-05b);
+   - depois o EN-016.
