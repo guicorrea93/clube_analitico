@@ -138,9 +138,17 @@ OGOL_IGNORAR: dict[str, str] = {
                "existe; o Futebol Nacional dá 133 jogos sem ele; achado SP-011)",
 }
 # jogos da RSSSF que ficam de fora: (ano, nome do clube) -> motivo
-RSSSF_FORA: dict[tuple[int, str], str] = {}
+RSSSF_FORA: dict[tuple[int, str], str] = {
+    (1988, "Ponte Preta"): "perdeu a vaga na 1ª divisão e todos os jogos dela foram cancelados (nota da página; FN \"Cancelado\"; "
+                           "o ogol não os tem; achado SP-014)",
+    (1988, "Bandeirante"): "perdeu a vaga na 1ª divisão e todos os jogos dele foram cancelados (nota da página; FN \"Cancelado\"; "
+                           "o ogol não os tem; achado SP-014)",
+}
 # jogos da RSSSF anulados: (ano, mandante, visitante, gols, gols) como na página -> motivo
-JOGOS_ANULADOS: dict[tuple, str] = {}
+JOGOS_ANULADOS: dict[tuple, str] = {
+    (1956, "Taubaté", "Corinthians", 2, 2): "21/11/1956: a tabela da própria página dá 18 jogos ao Taubaté e ao Corinthians, o "
+                                            "que só fecha sem ele; o ogol e o FN só têm o 0-2 de 23/12 (achado QS-013)",
+}
 
 # Correções da revisão de 22/11 (docs/revisao/plano-coleta-brasil.md), aplicadas depois de juntar RSSSF e ogol, com os
 # clubes pelo nome de exibição. Fonte: Futebol Nacional (FN), edição de cada ano:
@@ -171,6 +179,9 @@ JOGOS_FORA: dict[tuple[str, str, str, str], str] = {
         "3º jogo do par, fora da tabela publicada (RSSSF e FN; QS-006)",
     ("1916 APEA", "1916-12-03", "AA das Palmeiras", "Palmeiras"):
         "3º jogo do par, fora da tabela publicada (RSSSF e FN; QS-006)",
+    ("1928 APEA", "1928-07-29", "Palmeiras", "Portuguesa"):
+        "3º jogo Palestra x Portuguesa na página; o ogol não o tem e, sem ele, as campanhas dos dois fecham com a tabela "
+        "da RSSSF (8 vitórias e 45 gols pró do Palestra); vice: Santos (pódio da Wikipédia; SP-003)",
 }
 # pontos dados fora de campo: (temporada, data, mandante, visitante) -> (quem ganhou os pontos, motivo). O jogo conta
 # como vitória sem gols (decisão D-15); o placar de campo vai na observação (achados QS-015 e SP-013)
@@ -214,6 +225,36 @@ VICE_OFICIAL: dict[str, tuple[str, str]] = {
     "1906": ("SC Internacional-SP", "a AA das Palmeiras, com mais pontos, foi eliminada pela LPF em 22/10/1906 (irregularidades "
              "na venda de ingressos); vice pela RSSSF, pelo FN e pela Wikipédia (QS-005)"),
 }
+# jogo com placar ou data errados no pacote: (temporada, data gravada ou "", mandante, visitante) -> (campos novos, motivo).
+# Placar: 2 fontes contra 1 (FN e ogol, o mesmo jogo pelo código; achado QS-012)
+JOGO_CORRIGIDO: dict[tuple[str, str, str, str], tuple[dict, str]] = {
+    ("1952", "1953-01-25", "Radium", "Palmeiras"): ({"placar": (3, 2)}, "FN e ogol (QS-012)"),
+    ("1952", "1953-02-01", "Ypiranga-SP", "Nacional-SP"): ({"placar": (3, 1)}, "FN e ogol (QS-012)"),
+    ("1981", "1981-06-18", "XV de Jaú", "São Paulo"): ({"placar": (1, 1)}, "FN e ogol (QS-012)"),
+    ("1995", "1995-03-20", "Santos", "Ponte Preta"): ({"placar": (4, 1)}, "FN e ogol (QS-012)"),
+    ("1999", "1999-01-31", "Rio Branco-SP", "São José-SP"): ({"placar": (2, 1)}, "FN e ogol (QS-012)"),
+    ("2014", "2014-02-26", "XV de Piracicaba", "São Paulo"):
+        ({"placar": (1, 3)}, "FN, ogol e FPF (jogo 103); os 3 autores do São Paulo já estão na página (QS-012)"),
+    # 1998: o 2-4 do torneio do descenso (22/03) casou com o jogo de 11/02 do ogol (2-1 da 1ª fase, que na página vem sem
+    # data); cada um volta ao seu dia (FN e ogol; QS-012)
+    ("1998", "1998-02-11", "Portuguesa Santista", "Juventus-SP"):
+        ({"data": "1998-03-22", "fonte_id": ""}, "jogo do torneio do descenso, rodada 2 [Mar 22] na página e no FN (QS-012)"),
+    ("1998", "", "Portuguesa Santista", "Juventus-SP"):
+        ({"data": "1998-02-11", "fonte_id": "ogol:2535435"}, "jogo da 1ª fase, rodada 7 [Feb 11,12]; dia pelo FN e o ogol (QS-012)"),
+}
+# jogos que faltam, com a fase já em português: (temporada, data, mandante, visitante, placar "g-g" ou "wo-m"/"wo-v", fase,
+# grupo, motivo). Fonte: Futebol Nacional (achados QS-007 e SP-018)
+JOGOS_EXTRA: list[tuple[str, str, str, str, str, str, str, str]] = [
+    *[("1916 LPF", d, m, "Ruggerone", "wo-m", "Fase única", "", "W.O. do Ruggerone (\"WO-0\" no FN)") for d, m in (
+        ("1916-07-30", "Vicentino"), ("1916-08-14", "Corinthians"), ("1916-10-15", "Minas Gerais FC"), ("1916-11-19", "Paysandu-SP"))],
+    ("1920", "1920-08-08", "Santos", "Minas Gerais FC", "wo-v", "Fase única", "", "o Santos não compareceu (FN)"),
+    ("1920", "1920-08-15", "Santos", "Portuguesa", "wo-v", "Fase única", "",
+     "o Santos abandonou a competição (FN; a página escreve \"Santos WO x 0 Mack-Port\")"),
+    ("1929 LAF", "1929-04-28", "AA das Palmeiras", "Atlético Santista", "3-2", "Fase única", "", "FN (SP-018)"),
+    ("1957", "1957-10-19", "São Bento de SCS", "Linense", "1-0", "Fase de Classificação", "Série Branca",
+     "1ª rodada do torneio do rebaixamento (FN)"),
+    ("1966", "1966-12-22", "Guarani", "Noroeste", "3-1", "Desempate", "", "desempate do rebaixamento; o Noroeste caiu (FN)"),
+]
 
 
 def correcoes_revisao(ano, partidas: list[Partida], log: list[str]) -> list[Partida]:
@@ -232,6 +273,25 @@ def correcoes_revisao(ano, partidas: list[Partida], log: list[str]) -> list[Part
                 usados.add(("clube", c))
                 tirados[c] += 1
             continue
+        if abandonado(p) and p.gm is not None:
+            log.append(f"{t}: jogo abandonado sem valor fica sem placar: {nome(p.mandante)} {p.gm}-{p.gv} {nome(p.visitante)} ({p.data})")
+            p.gm = p.gv = None
+            p.gols = []
+        k = (t, p.data or "", nome(p.mandante), nome(p.visitante))
+        if k in JOGO_CORRIGIDO:
+            campos, motivo = JOGO_CORRIGIDO[k]
+            usados.add(k)
+            if "placar" in campos:
+                velho = f"{p.gm}-{p.gv}"
+                p.gm, p.gv = campos["placar"]
+                p.obs = "; ".join(x for x in (p.obs, f"placar {velho} da RSSSF trocado por {p.gm}-{p.gv}: {motivo}") if x)
+                log.append(f"{t}: placar corrigido — {nome(p.mandante)} {velho} -> {p.gm}-{p.gv} {nome(p.visitante)} ({p.data}): {motivo}")
+            if "data" in campos:
+                log.append(f"{t}: data corrigida — {nome(p.mandante)} {p.gm}-{p.gv} {nome(p.visitante)}: {p.data or 'sem data'} -> "
+                           f"{campos['data']}: {motivo}")
+                p.data = campos["data"]
+            if "fonte_id" in campos:
+                p.fonte_id = campos["fonte_id"]
         if chave(p) in JOGOS_FORA:
             usados.add(chave(p))
             log.append(f"{t}: jogo cancelado fica de fora: {nome(p.mandante)} {p.gm}-{p.gv} {nome(p.visitante)} — {JOGOS_FORA[chave(p)]}")
@@ -266,11 +326,34 @@ def correcoes_revisao(ano, partidas: list[Partida], log: list[str]) -> list[Part
                              fonte="Futebol Nacional", fonte_id="fn", obs=f"pontos dados ao {w} fora de campo: {motivo}"))
         usados.add((tt, d, m, v))
         log.append(f"{t}: jogo que faltava, sem placar: {m} x {v} ({d}), pontos para o {w} — {motivo}")
-    faltou = [k for k in [*JOGOS_FORA, *PONTOS_FORA_DE_CAMPO] if k[0] == t and k not in usados] + \
+    faltou = [k for k in [*JOGOS_FORA, *PONTOS_FORA_DE_CAMPO, *JOGO_CORRIGIDO] if k[0] == t and k not in usados] + \
              [c for (tt, c) in CLUBES_FORA if tt == t and ("clube", c) not in usados]
     if faltou:
         raise ValueError(f"{t}: correção da revisão sem jogo correspondente: {faltou}")
     return saida
+
+
+def jogos_extra(ano, partidas: list[Partida], log: list[str]) -> None:
+    """Acrescenta os JOGOS_EXTRA da temporada (depois das fases em português)."""
+    t = str(ano)
+    por_nome = {nome(x): x for p in partidas for x in (p.mandante, p.visitante)}
+    for tt, d, m, v, placar, fase, grupo, motivo in JOGOS_EXTRA:
+        if tt != t:
+            continue
+        if m not in por_nome or v not in por_nome:
+            raise ValueError(f"{t}: clube do jogo extra não está na edição: {m} x {v}")
+        if any(p.data == d and {nome(p.mandante), nome(p.visitante)} == {m, v} for p in partidas):
+            raise ValueError(f"{t}: o jogo extra já está no pacote: {m} x {v} ({d})")
+        if placar.startswith("wo"):
+            gm = gv = None
+            w = m if placar == "wo-m" else v
+            obs, especial = f"pontos dados ao {w} fora de campo: {motivo}", placar
+        else:
+            gm, gv = map(int, placar.split("-"))
+            obs, especial = f"jogo que falta na RSSSF e no ogol: {motivo}", None
+        partidas.append(Partida(ano, fase, grupo, None, d, por_nome[m], por_nome[v], gm, gv, especial=especial,
+                                fonte="Futebol Nacional", fonte_id="fn", obs=obs))
+        log.append(f"{t}: jogo que faltava: {m} {placar} {v} ({d}, {fase}{' / ' + grupo if grupo else ''}) — {motivo}")
 
 
 def mapear_nomes(ano: int, rs: list, og: list[dict], log: list[str]) -> dict:
@@ -392,9 +475,16 @@ def ler_rsssf(ano: int, mapa: dict[str, str], rs: list) -> list[Partida]:
     return saida
 
 
+def abandonado(p: Partida) -> bool:
+    """Jogo abandonado que não vale (sem "result stands" na nota): fica sem placar e fora da campanha (achado QS-009)."""
+    return p.especial == "abd" and "result stands" not in (p.obs or "").lower()
+
+
 def campanha(partidas: list[Partida], so: set | None = None) -> dict[str, list[int]]:
     c: dict[str, list[int]] = defaultdict(lambda: [0] * 6)
     for p in partidas:
+        if abandonado(p):
+            continue
         if p.gm is None and p.especial in ("wo-m", "wo-v"):   # pontos dados fora de campo: vitória sem gols (D-15, SP-016)
             venc, perd = (p.mandante, p.visitante) if p.especial == "wo-m" else (p.visitante, p.mandante)
             c[venc][0] += 1; c[venc][1] += 1
@@ -498,7 +588,7 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
         p.hora = p.hora or o.get("hora")
         p.rodada = p.rodada or o.get("rodada")
     for p in sorted(partidas, key=lambda p: (p.data is None, p.data or "")):
-        if p.fonte_id:
+        if p.fonte_id or abandonado(p):   # o jogo abandonado não pega o placar do jogo refeito (QS-009)
             continue
         cands = [o for o in por_par.get((p.mandante, p.visitante), []) if o["id"] not in usados]
         if not cands:
@@ -548,7 +638,9 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
                    f"{nome(p.visitante)}, ogol {d}); fica a do ogol")
     # o que sobrou nas duas fontes e é o mesmo jogo: mando invertido (placar espelhado) ou um dos clubes diferente
     # no mesmo dia e com o mesmo placar. Fica o da RSSSF (base), e a diferença vai para o relatório.
-    sobra = [p for p in partidas if not p.fonte_id]
+    sobra = [p for p in partidas if not p.fonte_id and not abandonado(p)]
+    ano_ed = int(str(ano)[:4])
+    no_ano = lambda d: bool(d) and ano_ed <= int(d[:4]) <= ano_ed + 1   # edições que acabam no ano seguinte (1952, 1978)
     for o in og:
         if o["id"] in usados or o["gols_mandante"] is None:
             continue
@@ -564,9 +656,12 @@ def juntar_ogol(ano: int, partidas: list[Partida], og: list[dict], tabs: list[tu
         if len(ano_errado) == 1:
             p = ano_errado[0]
             usados.add(o["id"]); sobra.remove(p)
-            log.append(f"{ano}: ano errado na data da RSSSF — {nome(m)} {gm}-{gv} {nome(v)}: RSSSF {p.data}, ogol {o['data']}; "
-                       f"fica a do ogol")
-            p.data, p.fonte_id, p.ogol_fase = o["data"], f"ogol:{o['id']}", o["fase"]
+            # fica a data cujo ano é o da edição (o ogol às vezes copia o erro da página: 1929 LAF, 1979; QS-002, QS-003)
+            fica = "da RSSSF" if no_ano(p.data) and not no_ano(o["data"]) else "do ogol"
+            log.append(f"{ano}: ano errado numa das datas — {nome(m)} {gm}-{gv} {nome(v)}: RSSSF {p.data}, ogol {o['data']}; "
+                       f"fica a {fica}")
+            p.data = p.data if fica == "da RSSSF" else o["data"]
+            p.fonte_id, p.ogol_fase = f"ogol:{o['id']}", o["fase"]
             p.hora = p.hora or o.get("hora")
             continue
         for lista, texto in ((inv, "mando invertido"), (inv_placar, "mando invertido e placar diferente"),
@@ -906,6 +1001,8 @@ FASE_JOGO: list[tuple[str, str, str, str, str, str]] = [
     ("1981", "Final", "1981-08-01", "1981-08-31", "2º Turno - Final", "decisão do 2º turno (SP-008)"),
     ("1998", "Final", "1998-02-01", "1998-04-30", "Torneio de rebaixamento", "quadrangular do rebaixamento (SP-007)"),
     ("2003", "Final", "2003-03-01", "2003-03-31", "Torneio de rebaixamento", "torneio da morte (SP-007)"),
+    ("2002", "Fase única", "2002-06-01", "2002-06-10", "Repescagem",
+     "Francana x Portuguesa Santista, playoff contra a A2 (SP-019; são os 2 únicos jogos de junho de 2002)"),
 ]
 FASE_JOGO_FORA = {("2003", frozenset({"Corinthians", "São Paulo"}))}
 
@@ -979,12 +1076,12 @@ def campeoes() -> tuple[dict[str, str], dict[str, str]]:
 def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict) -> dict:
     rs, tabelas = rsssf_sp1.ler(ano)
     for (a, n), motivo in RSSSF_FORA.items():
-        if a == ano:
+        if str(a) == str(ano):
             fora = [j for j in rs if n in (j.mandante, j.visitante)]
             rs = [j for j in rs if j not in fora]
             log.append(f"{ano}: {len(fora)} jogos do {n} ficam de fora: {motivo}")
     for (a, m, v, gm, gv), motivo in JOGOS_ANULADOS.items():
-        if a == ano:
+        if str(a) == str(ano):
             fora = [j for j in rs if (j.mandante, j.visitante, j.gm, j.gv) == (m, v, gm, gv)]
             rs = [j for j in rs if j not in fora]
             log.append(f"{ano}: jogo anulado fica de fora ({len(fora)}): {m} {gm}-{gv} {v} — {motivo}")
@@ -1039,6 +1136,7 @@ def montar_edicao(ano: int, log: list[str], rs_campeoes: dict, wk_campeoes: dict
         tb.fase = FASE_ANO.get((str(ano), tb.fase), (tb.fase,))[0]
     for (de, para), n in sorted(mudou.items()):
         log.append(f"{ano}: {n} jogos da fase \"{de}\" passam para \"{para}\" (FASE_ANO/FASE_JOGO)")
+    jogos_extra(ano, partidas, log)
     # autores: só quando fecham com o placar
     for p in partidas:
         if p.gols and p.gm is not None and len(p.gols) != p.gm + p.gv:

@@ -172,6 +172,13 @@ rsssf.CORRECOES.setdefault("sp1942.htm", []).append(
      "o jogo vem sem os gols do Palmeiras; 3-1 pelo Futebol Nacional (achado SP-012)"))
 for _a in (1979, 1980):
     rsssf.CORRECOES.setdefault(f"sp{_a}.htm", []).append((_dois_pontos, None, "jogo em 'A - B 2:1' e data em 'dd.mm.aa'"))
+rsssf.CORRECOES.setdefault("sp1929.htm", []).append(
+    (r"09/06/1959 AA das Palmeiras", "09/06/1929 AA das Palmeiras", "ano errado na data (FN: 09/06/1929; achado QS-002)"))
+rsssf.CORRECOES["sp1979.htm"].insert(0, (r"(?m)^19\.08\.78\b", "19.08.79",
+                                         "ano errado na data da 15ª rodada (FN: 19/08/1979; achado QS-003)"))
+rsssf.CORRECOES.setdefault("sp1969.htm", []).insert(0, (
+    r"(?m)^08/Jun(\s+)Corinthians 1-3 Santos", r"25/May\1Corinthians 1-1 Santos",
+    "no 2º turno a página repete o 1-3 do turno final (08/jun); o jogo do 2º turno foi 25/05 1-1 (FN e ogol; achado QS-004)"))
 
 # letras que a própria página da RSSSF já traz trocadas por "�" (1913-1936, 1953-1972, 1984, 2008): a grafia certa
 LETRAS = {"S�o": "São", "s�o": "são", "Jundia�": "Jundiaí", "It�lia": "Itália", "Guaratinguet�": "Guaratinguetá",

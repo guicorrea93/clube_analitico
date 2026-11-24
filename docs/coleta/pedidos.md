@@ -792,3 +792,38 @@ O Guilherme mandou corrigir pelo plano `docs/revisao/plano-coleta-brasil.md`. Es
    - Identidade a conferir pela revisão: Vasco da Gama (1969) e Americana (1976), os dois de Americana; e o Presidente Prudente FC (1974).
 6. **Com isso termina o "ERRADO NO AR" do plano.** O resto segue quando o Guilherme mandar.
 
+
+## Correções da revisão — bra-sp-1 — 24/11/2026 (parte 1: jogos)
+
+O Guilherme mandou seguir o resto do plano `docs/revisao/plano-coleta-brasil.md`, competição a competição. O Paulista vai em 4 partes: jogos, leitor da API da FPF, `pacote.py` e pódio. Esta é a parte 1.
+
+1. **Corrigidos** (em `coleta/bra-sp-1/importar.py` e `rsssf_sp1.py`, com o motivo e a fonte ao lado de cada linha):
+   - **SP-014:** 1988 sem a Ponte Preta e o Bandeirante (`RSSSF_FORA`). A página lista os jogos cancelados dos dois, e o leitor punha a Ponte Preta no lugar do Juventus. Ficam 20 clubes e 216 jogos, os mesmos do ogol.
+   - **QS-013:** 1956, fora o Taubaté 2-2 Corinthians de 21/11 (`JOGOS_ANULADOS`). A tabela da página só fecha sem ele; fica o 0-2 de 23/12.
+   - **QS-009:** jogo abandonado sem "result stands" fica sem placar e fora da campanha, e não pega mais o placar do jogo refeito. 2000: Matonense x Portuguesa de 26/01. 2004: Juventus x Ponte Preta de 31/01; o 0-3 é o de 11/02.
+   - **QS-004:** 1969, o jogo do 2º turno é Corinthians 1-1 Santos (25/05). A página repetia ali o 1-3 do turno final (08/06), que fica na Final.
+   - **QS-002 e QS-003:** datas de 1929 LAF (09/06/1929) e de 1979 (sete jogos em 19/08/1979), corrigidas na página. Quando o ano da RSSSF e o do ogol diferem, fica o que cai no ano da edição.
+   - **QS-007 e SP-018** (`JOGOS_EXTRA`, pelo Futebol Nacional):
+     - 1916 LPF: 4 W.O. contra o Ruggerone;
+     - 1920: 2 W.O. do Santos (o "Mack-Port" da página é a Portuguesa);
+     - 1929 LAF: AA das Palmeiras 3-2 Atlético Santista (28/04);
+     - 1957: São Bento de SCS 1-0 Linense (19/10, Série Branca);
+     - 1966: o desempate do rebaixamento Guarani 3-1 Noroeste (22/12, fase "Desempate", nível 0).
+   - **QS-012** (`JOGO_CORRIGIDO`): placares pelo FN e pelo ogol:
+     - 1952: Radium 3-2 Palmeiras e Ypiranga 3-1 Nacional;
+     - 1981: XV de Jaú 1-1 São Paulo;
+     - 1995: Santos 4-1 Ponte Preta;
+     - 1999: Rio Branco 2-1 São José;
+     - 2014: XV de Piracicaba 1-3 São Paulo, também pela FPF.
+
+     Em 1998, o 2-4 do torneio do descenso volta para 22/03, e o 2-1 da 1ª fase fica com 11/02.
+   - **SP-019:** em 2002, Francana x Portuguesa Santista (02 e 05/06) passa para "Repescagem", nível 0. Os outros totais por edição saem dos itens acima.
+   - **Vice de 1928 APEA** (do SP-003): sai o 3º jogo Palestra x Portuguesa (29/07, 6-3), que o ogol não tem; sem ele as campanhas fecham com a tabela da RSSSF. Vice: Santos.
+2. **Números:**
+   - 134 edições e 21.775 jogos (eram 21.791).
+   - Tabelas publicadas: 218 fecham e 124 divergem (eram 213 e 129).
+   - A A2 foi rodada de novo e não muda, porque o acesso lê os jogos do Paulista.
+   - testar_carga: `bra-sp-1: 134 edições, 21775 jogos, 0 clubes novos -> OK`.
+3. **Pódio que muda:** 1928 APEA (vice Santos, 3º Palmeiras) e 1988 (3º São Paulo, 4º São José).
+4. **Pedido ao agente 1:** recarregar o `bra-sp-1`.
+5. **Próximo, parte 2:** leitor da API da FPF, para as datas de 2007 em diante (QS-008, SP-021), as fases de 2024-2025 (SP-008), a edição de 2026 (SP-004) e a artilharia.

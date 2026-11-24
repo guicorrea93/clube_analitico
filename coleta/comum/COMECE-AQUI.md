@@ -72,7 +72,7 @@ script. Os relatórios `docs/coleta/<slug>.md` continuam com o detalhe temporada
 | `bra-serie-c` Série C | 36 (1981–2026) | 8.123 | c4f83be | sim | OK |
 | `bra-serie-d` Série D | 18 (2009–2026) | 6.032 | ecafa9e | sim | OK |
 | `bra-copa-do-brasil` Copa do Brasil | 37 (1989–2025) | 4.009 | c4f83be | sim | OK |
-| `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.791 | ecafa9e; "errado no ar" corrigido neste commit (23/11) | sim; recarregar | OK |
+| `bra-sp-1` Paulista (1ª divisão) | 134 (1902–2025) | 21.775 | 999df95; jogos da revisão (parte 1) neste commit (24/11) | sim; recarregar | OK |
 | `bra-sp-2` Paulista Série A2 | 80 (1947–1984, 1985–2026) | 9.223 | 566809e; A2-001 (1967-1984) neste commit (23/11) | sim; recarregar | OK (16 clubes novos) |
 | `bra-rj-1` Carioca | 129 (1906–2026; ligas rivais em 1912, 1924, 1933-1937; 1979 e 1979 Especial) | 14.144 | 08d5587, e6e343d; `co_campeao` neste commit (23/11) | sim (agente 1, 23/11) | OK (o banco já tem os clubes) |
 | `bra-serie-a-artilheiros` | 70 edições da Série A (1937–2025) | — | a65c201 | sim (o agente 1 carregou) | — |
@@ -96,10 +96,18 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
    - Feito em 23/11: A2-002 a A2-011 e A2-017 (seção "Correções da revisão — bra-sp-2 — 23/11/2026" de
      `docs/coleta/pedidos.md`).
    - Feito em 23/11: A2-001 (as 17 edições de 1967-1978 e 1980-1984). "ERRADO NO AR" do plano concluído.
-   - Próximo: o resto do plano (`docs/revisao/plano-coleta-brasil.md`), competição a competição, quando o Guilherme
-     mandar.
+   - 24/11: o Guilherme mandou seguir o resto do plano, competição a competição. Paulista em 4 partes:
+     1. jogos (feita 24/11: SP-014, QS-013, QS-009, QS-004, QS-007, SP-018, QS-002, QS-003, QS-012, SP-019 e o vice de
+        1928 APEA; seção "Correções da revisão — bra-sp-1 — 24/11/2026 (parte 1: jogos)" de `docs/coleta/pedidos.md`);
+     2. leitor da API da FPF: datas 2007+ (QS-008, SP-021), fases de 2024-2025 (SP-008), 2026 (SP-004), artilharia;
+     3. `pacote.py`: rebaixados (SP-015), artilheiros pela `sptops.htm` (QS-010, SP-023, SP-024, QS-011), observações em
+        português (SP-022);
+     4. pódio: 3º lugares que sobram (SP-003, SP-017) e identidades (SP-026, SP-027, D-23); depois A2, C, D e Copa.
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
-     PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO): se um nome não casar, o importador para com erro (não passa calado).
+     PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO, JOGO_CORRIGIDO, JOGOS_EXTRA): se um nome não casar, o importador para com erro
+     (não passa calado). `RSSSF_FORA` e `JOGOS_ANULADOS` usam o nome como está na página e tiram o jogo antes do ogol.
+   - Os jogos do Futebol Nacional que a revisão baixou estão em `revisao/QS/fn_jogos.json` (só leitura): 3ª opinião
+     de placar e data sem baixar de novo.
    - Ao corrigir, cite os ids em `docs/coleta/pedidos.md`; a revisão confere de novo.
 3. **Séries C e D e Copa:** os achados SC, SD, CB e CL foram tratados (seções "revisão ... parte 1 a 4" de
    `docs/coleta/pedidos.md`), mas `docs/revisao/achados.csv` ainda marca "aberto". Quem atualiza é a revisão; se ela
