@@ -50,6 +50,13 @@ class EdicaoCopa:
     datas: bool = True                   # False: a página só dá o mês ("Jan 1970"), a data lida não vale
     fases: list | None = None            # (regex, fase) desta edição, quando os títulos mudam de sentido (Copa Colombia: "Round 1")
     extras: object = None                # função() -> [Jogo] de outra fonte (Wikipédia), com texto "wiki-..."; somam-se à RSSSF
+    trocas: list = field(default_factory=list)   # (regex, troca ou função) só desta edição, depois das da copa
+    grupos_clubes: dict = field(default_factory=dict)   # {fase: {clube: grupo}} quando os jogos vêm sem o título do grupo
+    # (Copa Chile 1991-1995: só traços entre os grupos; o grupo sai das tabelas finais da página)
+    campeao_fonte: str = ""              # vencedor da final empatada quando a fonte não dá o placar dos pênaltis
+    # ("(Colo Colo on pen)", Copa Chile 1958): nome como na fonte, passa pelo clube()
+    campeao_tabela: bool = False         # a última fase é de pontos (quadrangular final, Copa Chile 1982): campeão e vice
+    # pela classificação, sem tornar as outras fases de pontos (o que `pontos` faz)
     anos_leitura: tuple[int, int] | None = None   # (ano_ini, ano_fim) para datar os jogos, quando diferem da edição
     # (Copa Argentina 2019/20: começa em fev/2020 e vira para 2021 pelo "Dec -> Jan"; com ano_fim 2021 o fev iria para 2021)
 
@@ -67,6 +74,7 @@ class Copa:
     campeoes_wiki: dict[str, str]        # temporada -> campeão pela Wikipédia (conferência)
     fonte_pagina: str = "https://www.rsssf.org/tablesu/{pagina}.html"
     ignorar: list[str] = field(default_factory=list)   # regex de linhas que não são jogo
+    fases_pontos: list[str] = field(default_factory=list)   # fases sempre de pontos, mesmo sem tabela legível na página
     trocas: list[tuple[str, str]] = field(default_factory=list)   # (regex, troca) nas linhas antes de ler: "[Mar 18 We]" -> "[Mar 18]"
 
 
@@ -126,15 +134,17 @@ def _ida_e_volta(x: rsssf_sul.Jogo) -> list[rsssf_sul.Jogo]:
 
 def ler_edicao(copa: Copa, ed: EdicaoCopa) -> tuple[list[rsssf_sul.Jogo], list[rsssf_sul.Tabela]]:
     jogos, tabelas = [], []
-    for pagina, ini, fim in ed.trechos:
+    for tr in ed.trechos:
+        pagina, ini, fim = tr[:3]
+        fases = tr[3] if len(tr) > 3 else (ed.fases or copa.fases)   # fases do trecho (títulos repetidos na página)
         ls = list(copa.linhas(pagina))
         fim = len(ls) if fim is None else fim
         # "Cúcuta  o/w Tolima  [awarded 0-3]" (Copa Colombia 2020): o leitor comum só conhece "w/o"; vira "awd"
         trecho = [re.sub(r"(?<=\S)\s+o/w\s+(?=\S)", "  awd ", l) for l in ls[ini:fim]]
-        for rx, troca in copa.trocas:
+        for rx, troca in copa.trocas + ed.trocas:
             trecho = [re.sub(rx, troca, l) for l in trecho]
         a0, a1 = ed.anos_leitura or (ed.ano_inicio, ed.ano_fim)
-        j, t = rsssf_sul.ler([""] * ini + trecho, a0, a1, fases=ed.fases or copa.fases, ignorar=copa.ignorar)
+        j, t = rsssf_sul.ler([""] * ini + trecho, a0, a1, fases=fases, ignorar=copa.ignorar)
         regiao, por_linha = "", {}
         for i in range(ini, fim):
             s = ls[i].strip()
@@ -213,6 +223,9 @@ def importar(copa: Copa, relatorio: Path) -> None:
                           "obs": wo[2] if wo else "", "fase": x.fase or padrao, "grupo": x.grupo or ""})
             if not ed.datas:
                 x.data = None
+            gc = ed.grupos_clubes.get(jogos[-1]["fase"], {})
+            if gc.get(m) and gc.get(m) == gc.get(v):   # vale mais que o grupo herdado de um título anterior
+                jogos[-1]["grupo"] = gc[m]
         fase_tab = {t.fase or padrao for t in tabs}
         fases_pontos: set[str] = set()   # a rodada só vale nelas (no mata-mata, o "Round 3" herdado não é rodada)
         # fases dos jogos e das tabelas (a 1ª fase de 2022 da Copa Paraguay só tem as tabelas das zonas)
@@ -222,7 +235,8 @@ def importar(copa: Copa, relatorio: Path) -> None:
             js = [j for j in jogos if j["fase"] == f]
             grupos = sorted({j["grupo"] for j in js if j["grupo"]} | {t.grupo for t in tabs if (t.fase or padrao) == f and t.grupo})
             pares = Counter(frozenset((j["m"], j["v"])) for j in js) or Counter({frozenset(): 1})
-            liga = f in fase_tab or ed.pontos   # fase com tabela publicada é de pontos (grupos); sem tabela, mata-mata
+            # fase com tabela publicada é de pontos (grupos); sem tabela, mata-mata, salvo as declaradas na copa
+            liga = f in fase_tab or ed.pontos or f in copa.fases_pontos
             tipo = ("grupos" if len(grupos) >= 2 else "liga") if liga else "mata_mata"
             serie = "pontos_corridos" if liga else ("ida_volta" if max(pares.values()) > 1 else "jogo_unico")
             L["fases"].append([ed.temporada, k, f, tipo, len(grupos) if tipo == "grupos" else None, serie, ""])
@@ -231,6 +245,9 @@ def importar(copa: Copa, relatorio: Path) -> None:
         # campeão e vice: a final
         final = [j for j in jogos if j["fase"] == "Final"]
         campeao, vice = _vencedor(final) if final else (None, None)
+        if campeao is None and final and ed.campeao_fonte:
+            campeao = copa.clube(ed.campeao_fonte, ed.ano_inicio)
+            vice = next((c for c in (final[0]["m"], final[0]["v"]) if c != campeao), None)
         # partidas e gols
         gols_ed = autor_ed = 0
         eid = re.sub(r"[^0-9a-z]+", "-", rsssf_sul.chave(ed.temporada))
@@ -269,7 +286,7 @@ def importar(copa: Copa, relatorio: Path) -> None:
                 r[6] += 3 if a > b else 1 if a == b else 0
         clubes = sorted(alcance)
         linhas = sorted(clubes, key=lambda c: (-alcance[c], -camp[c][6], -camp[c][1], -(camp[c][4] - camp[c][5]), -camp[c][4], c))
-        if ed.pontos and not final:   # edição de pontos corridos: campeão e vice pela classificação
+        if (ed.pontos or ed.campeao_tabela) and not final:   # pontos corridos ou quadrangular final: pela classificação
             campeao, vice = (linhas + [None, None])[:2]
         for c in (vice, campeao):
             if c in linhas:

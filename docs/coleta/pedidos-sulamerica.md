@@ -1139,3 +1139,47 @@ Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do S
 - Conferi os 174 clubes da arg-copa contra os `clubes.csv` de todos os pacotes em `data/coleta/`: esse era o único nome
   repetido em outro país.
 - Mesmos números: 15 edições, 952 jogos. Teste de carga OK. Pode recarregar a `arg-copa`.
+
+## Recado de fim de coleta — chi-copa — 24/11/2026
+
+Para o agente 1 (banco e painel) e o agente de revisão. Agente 4 (América do Sul).
+
+1. **O que foi feito:** a Copa Chile (`chi-copa`, `tipo` "copa"), a sexta das sete copas.
+   - **Números:** 45 edições, 3.497 jogos e 174 clubes, dos quais 126 só jogam a copa (Tercera División, amadores e
+     seleções de cidade). 3.827 gols com autor, quase todos de 1990-1996 e de 2008 em diante.
+   - **Edições:** 1958-1962, 1974, 1975, 1977/78, 1979-1996, 1998, 2000, 2008/09 e 2009-2025 (sem 2020), pela contagem
+     da Wikipédia em espanhol. Entra tudo o que a RSSSF traz de cada uma.
+   - **Campeões:** os 45 batem com a lista de finais da RSSSF e com a Wikipédia.
+2. **Commits:** `(hash no próximo commit)`.
+3. **Teste de carga:** `chi-copa: 45 edições, 3497 jogos, 129 clubes novos -> OK`. Cruzei os 174 nomes com os
+   `clubes.csv` de todos os pacotes em `data/coleta/`: nenhum repetido em outro país.
+4. **Pedidos ao banco e ao painel:** carregar a `chi-copa`. As outras copas não mudam (rodei de novo: mesmos números).
+5. **Fontes e decisões:**
+   - **RSSSF:** a seção da copa nas páginas do chi-1 (chile58 a chile2025, chilecup84 a 86) e `chilecup08.html`
+     (2008/09, em `data/coleta/chi-copa/rsssf/`).
+   - **Épocas:**
+     - Em 1979-1982 a copa é o "Campeonato de Apertura" (Copa Polla-Gol), só da 1ª divisão.
+     - Em 1983 é a "Copa República".
+     - Em 1982 o campeão sai do quadrangular final (tabela).
+   - **1990-1996:** os jogos vêm com siglas ("NAV-UC 2-1"). Troquei pelos nomes antes de ler (tabela de siglas em
+     `clubes_copa.py`). O grupo dos jogos de 1991-1995 sai das tabelas finais da página. Os clássicos entre grupos
+     diferentes (1992-1993) ficam sem grupo.
+   - **1958:** a final ficou 2-2 e a RSSSF diz "Colo Colo on pen", sem o placar. Colo Colo campeão, pênaltis vazios.
+   - **Rótulos:** "1977/78" (a Wikipédia diz 1977) e "2019/20" (a Wikipédia diz 2019), como na RSSSF.
+   - **Identidades** (`coleta/chi-copa/clubes_copa.py`):
+     - "Colo Colo Chico" (Aysén, 2024) fica separado; a regra do chi-1 o juntava ao Colo Colo.
+     - "Lister Rossel" é o Deportes Linares, e "Deportes Osorno" o Provincial Osorno.
+     - O Thomas Bata (1959) é o Soinca Bata, e "AGC-Cabildo" é o "AGC Provincial" (nota da página).
+     - "SC" (1992-1994) é o Unión Santa Cruz, como na tabela da página. O Deportes Santa Cruz de 2008 em diante fica
+       separado.
+     - Nomes com o país: "Barcelona (Chile)", "Central Norte (Chile)" e "San Fernando (Chile)".
+6. **O que não deu:**
+   - 1984-1986 são parciais. 1984 e 1985 só têm o mata-mata. 1986 só tem um jogo da final: a lista de finais dá 0-1,
+     2-0 e 3-0, sem o mando.
+   - Na 2013/14, 2014/15 e 2015 os grupos só têm a tabela. Na 2022 a página começa nas quartas, na 2023 nas finais
+     zonais e na 2025 nas oitavas.
+   - As edições de 1958 a 1986 não têm datas na página.
+   - 20 clubes amadores ficaram sem cidade.
+7. **Onde a revisão deve olhar primeiro:** a tabela de siglas de 1990-1996 e os fins de trecho de cada página
+   (`_secao` e `_moderna` em `coleta/chi-copa/importar.py`).
+8. **Próxima competição:** Copa Venezuela (`ven-copa`).
