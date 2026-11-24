@@ -52,11 +52,12 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 - tabela publicada x jogos — Segunda fase / -: Genus tabela [6, 2, 1, 3, 7, 8] jogos [6, 2, 1, 3, 8, 8] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Segunda fase / -: Atlético Roraima tabela [4, 1, 0, 3, 3, 6] jogos [4, 1, 0, 3, 3, 7] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, São Raimundo-PA
+- 4 datas corrigidas (datas_corrigidas.csv; ex.: Atlético Roraima x Nacional-AM 2009-08-01 -> 2009-08-02, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2010
 
 - tabela publicada x jogos — Segunda fase / -: Metropolitano tabela [8, 3, 3, 2, 11, 8] jogos [8, 3, 2, 3, 11, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
-- 13 datas corrigidas (datas_corrigidas.csv; ex.: São José-RS x Operário-PR 2010-07-18 -> 2010-07-17, Bola n@ Área e transfermarkt (QC-003))
+- 14 datas corrigidas (datas_corrigidas.csv; ex.: São José-RS x Operário-PR 2010-07-18 -> 2010-07-17, Bola n@ Área e transfermarkt (QC-003); ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2011
 
@@ -66,6 +67,7 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 - jogo corrigido à mão — Oeste x Cianorte: pênaltis 4-3 (Bola n@ Área e transfermarkt; revisão QC-001)
 - jogo corrigido à mão — Mirassol x Oeste: pênaltis 3-4 (Bola n@ Área e transfermarkt; revisão QC-001)
 - fases e grupos pelo ogol em 18 jogos: Segunda fase/- → Oitavas de final/- (16); Semifinal/- → Final/- (2)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Plácido de Castro x Penarol-AM 2011-08-28 -> 2011-08-27, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2012
 
@@ -90,6 +92,7 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 ### 2015
 
 - fases e grupos pelo ogol em 30 jogos: Segunda fase/Grupo B1 → Oitavas de final/- (2); Segunda fase/Grupo B2 → Oitavas de final/- (2); Segunda fase/Grupo B3 → Oitavas de final/- (2); Segunda fase/Grupo B4 → Oitavas de final/- (2); Segunda fase/Grupo B5 → Oitavas de final/- (2); Segunda fase/Grupo B6 → Oitavas de final/- (2); Segunda fase/Grupo B7 → Oitavas de final/- (2); Segunda fase/Grupo B8 → Oitavas de final/- (2) ...
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Gama x Villa Nova-MG 2015-08-15 -> 2015-08-16, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2016
 
@@ -166,6 +169,7 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 - jogo corrigido à mão — Fast-AM x Globo FC: pênaltis 6-5 (Bola n@ Área e transfermarkt; revisão QC-001)
 - jogo corrigido à mão — Altos x Salgueiro: pênaltis 4-2 (Bola n@ Área e transfermarkt; revisão QC-001)
 - fases e grupos pelo ogol em 486 jogos: Primeira fase/Grupo A → Primeira fase/Grupo A6 (56); Primeira fase/Grupo A → Primeira fase/Grupo A5 (56); Primeira fase/Grupo A → Primeira fase/Grupo A8 (56); Primeira fase/Grupo A → Primeira fase/Grupo A1 (56); Primeira fase/Grupo A → Primeira fase/Grupo A3 (56); Primeira fase/Grupo A → Primeira fase/Grupo A7 (56); Primeira fase/Grupo A → Primeira fase/Grupo A2 (56); Primeira fase/Grupo A → Primeira fase/Grupo A4 (56) ...
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Bragantino-PA x Rio Branco-AC 2020-10-19 -> 2020-10-20, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2021
 
@@ -600,6 +604,7 @@ posição no grupo dela e a campanha toda. A ordem geral da RSSSF, quando existe
 ### 2022
 
 - fases e grupos pelo ogol em 510 jogos: Primeira fase/Grupo A → Primeira fase/Grupo A7 (56); Primeira fase/Grupo A → Primeira fase/Grupo A8 (56); Primeira fase/Grupo A → Primeira fase/Grupo A6 (56); Primeira fase/Grupo A → Primeira fase/Grupo A5 (56); Primeira fase/Grupo A → Primeira fase/Grupo A4 (56); Primeira fase/Grupo A → Primeira fase/Grupo A3 (56); Primeira fase/Grupo A → Primeira fase/Grupo A2 (56); Primeira fase/Grupo A → Primeira fase/Grupo A1 (56) ...
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Trem x Amazonas 2022-05-02 -> 2022-05-03, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2023
 

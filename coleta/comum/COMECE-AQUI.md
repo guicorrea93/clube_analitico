@@ -116,8 +116,9 @@ Ao fim de cada campeonato, a seção "Recado de fim de coleta — <slug> — <da
    - Feito 24/11: Série D (QC-001, SD-011, QC-003, CL-028 na parte da D; D-03 no Espírito Santo FC). Correção de ficha
      comum a todas as coletas em `registro.FICHA_COMUM` / `registro.corrigir_ficha` (Botafogo-DF, AA Araguaia).
    - Feito 24/11: Copa do Brasil (QC-005, QC-004, CB-007 e QC-008 pela D-14 C, CB-005 anotado pela D-13, CL-028).
-   - Próximo: "Todas as coletas Brasil" (QC-006: 100 datas em que ogol e Bola concordam contra a RSSSF; QC-007:
-     observações em inglês e notas no gols_texto) e a D-10 (SC-029: Série C 1987 e 2000 como edições não oficiais).
+   - Feito 24/11: "Todas as coletas Brasil" (QC-006: as 100 datas entram nos `datas_corrigidas.csv` da C, D e Copa;
+     QC-007: `observacao.TRADUCOES` e `observacao.limpar_gols_texto`, também na A2).
+   - Próximo: a D-10 (SC-029: Série C de 1987 e 2000 como edições não oficiais). É o último bloco do plano do Brasil.
    - Em `coleta/bra-sp-1/importar.py`, as correções por jogo usam o nome de exibição do clube (CLUBES_FORA, JOGOS_FORA,
      PONTOS_FORA_DE_CAMPO, JOGOS_EXTRA_WO, JOGO_CORRIGIDO, JOGOS_EXTRA): se um nome não casar, o importador para com erro
      (não passa calado). `RSSSF_FORA` e `JOGOS_ANULADOS` usam o nome como está na página e tiram o jogo antes do ogol.

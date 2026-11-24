@@ -1049,3 +1049,22 @@ O resto do plano da A2, menos o A2-015, que mexe no leitor comum e vai na parte 
    - testar_carga: `bra-copa-do-brasil: 37 edições, 4010 jogos, 0 clubes novos -> OK`.
 5. **Pedido ao agente 1:** recarregar o `bra-copa-do-brasil`.
 6. **Próximo:** "Todas as coletas Brasil" (QC-006 e QC-007) e a D-10 (SC-029: Séries C de 1987 e 2000 como edições não oficiais).
+
+## Correções da revisão — todas as coletas Brasil — 24/11/2026 (QC-006 e QC-007)
+
+1. **QC-006:** os 100 jogos em que o ogol e o Bola n@ Área concordam numa data diferente da da página da RSSSF passam à data deles.
+   - A lista entra no gerador comum (`coleta/comum/datas_corrigidas.py`), que agora lê também `revisao/QC/saida_datas_ogol_bola.txt`. Quando o mesmo jogo está em duas listas e a data bate, as fontes se juntam; se a data divergisse, o gerador pararia.
+   - Mudam 45 jogos na Série C, 9 na D e 29 na Copa. Os outros 17 já tinham sido corrigidos pelo QC-002, QC-003 e QC-004, com a mesma data.
+   - Nenhuma classificação muda.
+2. **QC-007:**
+   - **Observações em inglês:** a lista `TRADUCOES` em `coleta/comum/observacao.py` traduz as notas que sobravam, na C (1988 a 2006), na Copa (1998) e na A2 (1986 a 2003), que usa o mesmo tradutor.
+     - Exemplos: "W.O. (resultado 0-1)", "resultado 1-0 dado no tribunal (o jogo terminou 0-3; o Serra escalou jogador irregular, Édson Garcia)", "encerrado aos 61 min (Goytacaz com menos de 7 jogadores), com o Americano vencendo por 1-0".
+     - Não sobra nenhuma observação em inglês nas quatro coletas.
+   - **Notas de rodapé no texto dos gols:** `limpar_gols_texto` corta o que a página cola depois dos autores ("[c] 2nd match played in Porto Alegre", "(*) ALL Baré players...", "- The 6 bye clubs..."). Entra na leitura da C, da D e da Copa.
+     - Eram notas em 40 jogos da Copa.
+     - Com o texto limpo, a Copa ganha 46 gols com autor (5.718 para 5.764).
+3. **Números (sem mudança de jogos):**
+   - C: 8.123; D: 6.032; Copa: 4.010; A2: 9.214.
+   - testar_carga OK nas quatro, com 0 clubes novos (o banco já tem o Santo Amaro-PE e o Espírito Santo FC).
+4. **Pedido ao agente 1:** recarregar o `bra-serie-c`, o `bra-serie-d`, o `bra-copa-do-brasil` e o `bra-sp-2`.
+5. **Próximo:** a D-10 (SC-029), as Séries C de 1987 e 2000 como edições não oficiais. É o último bloco do plano do Brasil.

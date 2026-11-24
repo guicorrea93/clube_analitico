@@ -5,11 +5,11 @@ Gerado por `python coleta/comum/documentar.py` a partir do pacote `data/coleta/b
 ## 1. O que temos
 
 - **Edições:** 37, de 1989 a 2025.
-- **Jogos:** 4010; **gols:** 10639; **gols com autor:** 5718 (54%); **cartões:** 0.
+- **Jogos:** 4010; **gols:** 10639; **gols com autor:** 5764 (54%); **cartões:** 0.
 - **Clubes:** 399; **artilheiros:** 37 temporadas com artilheiro (62 linhas, com empates).
 - **Classificação final:** 37 temporadas; **rodada a rodada:** 0 temporadas.
 - **Tabelas publicadas guardadas para conferência:** 122 linhas.
-- **No banco (`db/futebol.db`):** sim (37 edições, 4009 jogos).
+- **No banco (`db/futebol.db`):** sim (37 edições, 4010 jogos).
 - **Observação da competição:** Copa nacional disputada desde 1989. A Taça Brasil (1959-1968) já está no banco como parte da Série A.
 
 ## 2. Fontes e regras
@@ -33,8 +33,8 @@ Porcentagem dos jogos com o campo preenchido (gols com autor: porcentagem dos go
 |---|---|---|---|---|---|---|---|---|---|
 | 1980s | 61 | 100% | 100% | 0% | 0% | 0% | 0% | 5% | 0.0 |
 | 1990s | 719 | 100% | 53% | 0% | 0% | 0% | 0% | 0% | 0.0 |
-| 2000s | 1164 | 100% | 53% | 0% | 0% | 0% | 0% | 46% | 0.0 |
-| 2010s | 1336 | 100% | 100% | 0% | 0% | 0% | 0% | 72% | 0.0 |
+| 2000s | 1164 | 100% | 53% | 0% | 0% | 0% | 0% | 47% | 0.0 |
+| 2010s | 1336 | 100% | 100% | 0% | 0% | 0% | 0% | 73% | 0.0 |
 | 2020s | 730 | 100% | 100% | 0% | 72% | 72% | 0% | 98% | 0.0 |
 
 **Fonte de cada jogo:** RSSSF Brasil: 3907; ogol: 102; Futebol Nacional: 1.

@@ -70,6 +70,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 ### 1981
 
 - o ogol liga o Matsubara (Cambará-PR) ao J. Malucelli, fundado em 1994; corrigido no código (CORRIGE_OGOL): fica a SE Matsubara, como na RSSSF
+- 4 datas corrigidas (datas_corrigidas.csv; ex.: Guarani-MG x Atlético-BA 1981-03-26 -> 1981-03-28, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1988
 
@@ -82,6 +83,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - placar diferente no ogol — Iguaçu x Guarany-RS (1988-11-06): RSSSF 2-2, ogol 2-0; fica o da RSSSF
 - placar diferente no ogol — ABC x Botafogo-PB (1988-11-27): RSSSF 1-1, ogol 0-0; fica o da RSSSF
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 2 jogos (ex.: Paulistano-PE x Botafogo-PB, ogol 1988-11-06); fica a do ogol
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Brusque x Esportivo-RS 1988-11-02 -> 1988-11-03, ogol e Bola n@ Área contra a RSSSF (QC-006))
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, União São João
 
 ### 1990
@@ -121,6 +123,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - mando invertido no ogol — RSSSF Nacional-AM 1-0 Ji-Paraná, ogol Ji-Paraná 0-1 Nacional-AM (1992-04-23); fica a RSSSF
 - mando invertido no ogol — RSSSF Rio Negro-AM 0-0 Macapá, ogol Macapá 0-0 Rio Negro-AM (1992-04-23); fica a RSSSF
 - 2 jogos do Grupo B da Segunda fase vêm na página depois do título da Final; voltam para a Segunda fase
+- 7 datas corrigidas (datas_corrigidas.csv; ex.: CRB x Ferroviário-CE 1992-03-28 -> 1992-03-29, ogol e Bola n@ Área contra a RSSSF (QC-006))
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Tuna Luso
 
 ### 1994
@@ -138,6 +141,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - ida e volta de Sousa x CSA vinham com a mesma data (1994-10-27); ficam 1994-10-28, 1994-10-30 (do ogol)
 - ida e volta de Valeriodoce x Juventus-SP vinham com a mesma data (1994-11-06); ficam 1994-11-06, 1994-11-09 (do ogol)
 - ida e volta de Vitória-PE x ABC vinham com a mesma data (1994-11-06); ficam 1994-11-06, 1994-11-10 (do ogol)
+- 2 datas corrigidas (datas_corrigidas.csv; ex.: Blumenau x Joinville 1994-09-17 -> 1994-09-18, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1995
 
@@ -222,6 +226,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - dúvida em aberto: o ogol liga o 'SER São Gabriel' da RSSSF ao 'EC São Gabriel', que a ficha do ogol diz fundado em 2013; pode ser erro do ogol. Fica como está (decisão do agente principal, 20/11/2026)
 - tabela publicada x jogos — Primeira fase / Grupo 2: Tuna Luso tabela [6, 3, 2, 1, 8, 5] jogos [6, 3, 2, 1, 9, 6] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo 2: Águia tabela [6, 1, 1, 4, 6, 9] jogos [6, 1, 1, 4, 7, 10] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- 2 datas corrigidas (datas_corrigidas.csv; ex.: Colo Colo-BA x Fluminense-BA 2002-09-29 -> 2002-09-28, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2003
 
@@ -234,12 +239,14 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - placar diferente no ogol — Rio Branco-AC x Atlético Roraima (2003-10-12): RSSSF 1-0, ogol 2-1; fica o da RSSSF
 - mando invertido no ogol — RSSSF Ituano 0-0 Santo André, ogol Santo André 0-0 Ituano (2003-11-30); fica a RSSSF
 - ida e volta de Goytacaz x Americano-RJ vinham com a mesma data (2003-10-12); ficam 2003-10-12, 2003-10-15 (do ogol)
+- 4 datas corrigidas (datas_corrigidas.csv; ex.: Portuguesa-RJ x Rio Branco-RJ 2003-09-28 -> 2003-09-27, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2004
 
 - placar diferente no ogol — Porto-PE x Coruripe (2004-08-15): RSSSF 0-1, ogol 1-1; fica o da RSSSF
 - placar diferente no ogol — Hermann Aichinger x Cianorte (2004-08-15): RSSSF 1-1, ogol 0-0; fica o da RSSSF
 - placar diferente no ogol — Gama x Cuiabá (2004-09-19): RSSSF 2-1, ogol 1-2; fica o da RSSSF
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Catuense x Confiança 2004-08-21 -> 2004-08-22, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2005
 
@@ -251,6 +258,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 
 - tabela publicada x jogos — Primeira fase / Grupo 11: Vitória-ES tabela [6, 1, 2, 3, 5, 9] jogos [6, 1, 1, 4, 5, 9] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Terceira fase / Grupo 25: Rio Negro-AM tabela [6, 0, 0, 6, 2, 15] jogos [6, 0, 0, 6, 2, 16] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
+- 8 datas corrigidas (datas_corrigidas.csv; ex.: Rio Branco-SP x Cabofriense 2006-07-30 -> 2006-07-29, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2007
 
@@ -263,6 +271,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - placar diferente no ogol — Atlético-PB x Central (2007-07-29): RSSSF 2-0, ogol 3-0; fica o da RSSSF
 - placar diferente no ogol — Volta Redonda x América-RJ (2007-08-29): RSSSF 3-1, ogol 3-0; fica o da RSSSF
 - placar diferente no ogol — Rio Branco-AC x Sampaio Corrêa (2007-09-02): RSSSF 1-0, ogol 2-0; fica o da RSSSF
+- 11 datas corrigidas (datas_corrigidas.csv; ex.: Atlético-GO x CRAC 2007-07-15 -> 2007-07-14, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2008
 
@@ -282,13 +291,14 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - a fase "Quarta fase" é mata-mata com 1 confronto(s): vira "Final"
 - a fase "Terceira fase" é mata-mata com 2 confronto(s): vira "Semifinal"
 - a fase "Segunda fase" é mata-mata com 4 confronto(s): vira "Quartas de final"
+- 2 datas corrigidas (datas_corrigidas.csv; ex.: Rio Branco-AC x Luverdense 2009-05-30 -> 2009-05-31, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2010
 
 - tabela publicada x jogos — Primeira fase / Grupo B: CRB tabela [8, 3, 2, 3, 9, 11] jogos [8, 3, 2, 3, 8, 11] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - tabela publicada x jogos — Primeira fase / Grupo B: CRB tabela [8, 3, 2, 3, 9, 11] jogos [8, 3, 2, 3, 8, 11] — RSSSF e ogol trazem os mesmos placares para todos os jogos do clube: o erro é da tabela publicada
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Marília x Gama, ogol 2010-08-15); fica a do ogol
-- 2 datas corrigidas (datas_corrigidas.csv; ex.: Paysandu x Rio Branco-AC 2010-07-20 -> 2010-07-17, Bola n@ Área e transfermarkt (QC-002))
+- 2 datas corrigidas (datas_corrigidas.csv; ex.: Paysandu x Rio Branco-AC 2010-07-20 -> 2010-07-17, Bola n@ Área e transfermarkt (QC-002); ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2011
 
@@ -301,10 +311,11 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 - jogo da página que fica de fora (1): CRB 0-0 Rio Branco — Rio Branco-AC eliminado pelo STJD: os jogos da 2ª fase não contam (revisão SC-013)
 - jogo da página que fica de fora (1): Rio Branco 1-2 Paysandu — Rio Branco-AC eliminado pelo STJD: os jogos da 2ª fase não contam (revisão SC-013)
 - jogo da página que fica de fora (1): América 3-0 Rio Branco — Rio Branco-AC eliminado pelo STJD: os jogos da 2ª fase não contam (revisão SC-013)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Araguaína x Águia 2011-07-31 -> 2011-08-01, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2012
 
-- sem ocorrências
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Chapecoense x Santo André 2012-09-01 -> 2012-09-02, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2013
 
@@ -384,6 +395,7 @@ Guaratinguetá em 2016 e Luverdense em 2019, que não jogaram a D).
 ### 2024
 
 - a página da RSSSF traz os autores dos gols sem dizer de que time é cada um ('18' (25-Pedro Henrique)'): ficam só no texto (gols_texto)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: ABC x CSA 2024-07-07 -> 2024-07-06, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2025
 

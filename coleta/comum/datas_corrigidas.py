@@ -63,7 +63,20 @@ def gerar(raiz: Path) -> None:
         if m and m[1] in PLANO:
             saida[m[1]].append([m[2], m[3], m[4], m[7], f"{m[5]}-{m[6]}", m[8],
                                 f"transfermarkt e Futebol Nacional, jogo noturno ({ACHADO[m[1]]})"])
-    for slug, linhas in saida.items():
+    # data da página da RSSSF contra o ogol e o Bola n@ Área juntos, todos os anos da lista (achado QC-006)
+    ob = re.compile(r"^(\S+) (\d{4}) \| pacote (\d{4}-\d\d-\d\d) (.+?) (\d+)-(\d+) (.+?) \([^)]*\) \| ogol e bola: (\d{4}-\d\d-\d\d)")
+    for l in open(raiz / "revisao" / "QC" / "saida_datas_ogol_bola.txt", encoding="utf-8"):
+        m = ob.match(l)
+        if m and m[1] in PLANO:
+            saida[m[1]].append([m[2], m[3], m[4], m[7], f"{m[5]}-{m[6]}", m[8], "ogol e Bola n@ Área contra a RSSSF (QC-006)"])
+    for slug, linhas in list(saida.items()):
+        juntas: dict[tuple, list] = {}
+        for x in linhas:   # o mesmo jogo em duas listas: junta as fontes se a data bate; senão, para
+            k = tuple(x[:4])
+            if k in juntas and juntas[k][5] != x[5]:
+                raise ValueError(f"{slug}: listas com datas diferentes para o mesmo jogo: {k}")
+            juntas[k] = juntas[k][:6] + [f"{juntas[k][6]}; {x[6]}"] if k in juntas else x
+        saida[slug] = linhas = list(juntas.values())
         f = raiz / "data" / "coleta" / slug / "datas_corrigidas.csv"
         with open(f, "w", encoding="utf-8", newline="") as arq:
             w = csv.writer(arq)

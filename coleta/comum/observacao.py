@@ -34,6 +34,49 @@ def penaltis_da_nota(nota: str, mandante: str, visitante: str) -> tuple[int, int
     return None
 
 
+# notas da RSSSF que seguiam em inglês (achado QC-007): regex do pedaço inteiro -> português
+TRADUCOES: list[tuple[str, str]] = [
+    (r"2nd match in (.+)", r"2º jogo em \1"),
+    (r"walkover awarded (\d+-\d+)", r"W.O. (resultado \1)"),
+    (r"awarded (\d+-\d+)", r"resultado \1 dado no tribunal"),
+    (r"originally (\d+-\d+), awarded (\d+-\d+)\s*\(ineligible (.+?) player (.+)\)",
+     r"resultado \2 dado no tribunal (o jogo terminou \1; o \3 escalou jogador irregular, \4)"),
+    (r"originally (\d+-\d+), awarded (\d+-\d+)", r"resultado \2 dado no tribunal (o jogo terminou \1)"),
+    # a nota vem quebrada entre duas colunas da página: "... after River's had 2 players sent off and 3 alleging injuries"
+    (r"abandoned at 73' after River's had 2", "encerrado aos 73 min: o River ficou com 2 expulsos e 3 alegando contusão"),
+    (r"abandoned after 5 players\s+from (.+) were sent off", r"encerrado depois de 5 expulsões do \1"),
+    (r"1st leg abandoned at (\d+)', result stood", r"jogo de ida encerrado aos \1 min; resultado mantido"),
+    (r"(.+) forfeited, awarded (\d+-\d+)", r"W.O. do \1 (resultado \2)"),
+    (r"abandoned at (\d+)' \((.+) with less than 7 players\), (.+) winning (\d+-\d+)",
+     r"encerrado aos \1 min (\2 com menos de 7 jogadores), com o \3 vencendo por \4"),
+    (r"abandoned at (\d+), (\d+-\d+) result stood", r"encerrado aos \1 min; resultado \2 mantido"),
+    (r"2nd leg abd at (\d+-\d+) to (.+) in (\d+)'", r"jogo de volta encerrado aos \3 min com \1 para o \2"),
+    # Paulista A2 (o mesmo tradutor)
+    (r"abandoned at (\d+-\d+) due to pitch invasion, awarded (\d+-\d+)",
+     r"encerrado com \1 por invasão de campo; resultado \2 dado no tribunal"),
+    (r"awarded (\d+-\d+), originally (\d+-\d+)", r"resultado \1 dado no tribunal (o jogo terminou \2)"),
+    (r"points awarded to (.+)", r"pontos dados ao \1"),
+    (r"match interrupted at (\d+) minutes", r"jogo interrompido aos \1 min"),
+    (r"match suspended", "jogo suspenso"),
+    (r"suspended at (\d+)'", r"suspenso aos \1 min"),
+    (r"result apparently stood", "resultado aparentemente mantido"),
+]
+
+
+def limpar_gols_texto(texto: str) -> str:
+    """Autores dos gols sem as notas de rodapé que a página cola no último jogo do bloco ("[c] 2nd match played in Porto
+    Alegre", "(*) ALL Baré players...", "- The 6 bye clubs..."; achado QC-007): fica só o colchete dos autores."""
+    t = (texto or "").strip()
+    if re.match(r"^\[[a-z*]\]", t):   # só a nota, sem autores
+        return ""
+    m = re.search(r"\s(?:\[[a-z*]\]|\(\*\)|- [A-Z])", t)
+    if m:
+        t = t[:m.start()].strip()
+        if t.startswith("[") and t.count("[") > t.count("]"):
+            t += "]"
+    return t
+
+
 def obs_pt(texto: str) -> str:
     """Nota crua da RSSSF -> observação em português. Os pênaltis saem (estão nos campos próprios); números soltos saem."""
     partes = []
@@ -64,6 +107,10 @@ def obs_pt(texto: str) -> str:
         m = re.match(r"^Concluded on (\w+) (\d{1,2}), (\d{4})$", p, re.I)
         if m and m[1].lower() in MESES_EN:
             p = f"concluído em {int(m[2]):02d}/{MESES_EN[m[1].lower()]:02d}/{m[3]}"
+        for padrao, troca in TRADUCOES:
+            if re.fullmatch(padrao, p, re.I):
+                p = re.sub(padrao, troca, p, flags=re.I)
+                break
         if p not in partes:
             partes.append(p)
     return "; ".join(partes)

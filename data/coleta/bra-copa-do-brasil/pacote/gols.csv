@@ -441,6 +441,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2004-0108,Santo André,Baiano,,,normal,RSSSF
 2004-0108,Santo André,Vágner Love,,,normal,RSSSF
 2004-0110,Flamengo,Fabiano Eller,,,normal,RSSSF
+2004-0112,Flamengo,Ibson,,,normal,RSSSF
+2004-0112,Flamengo,Nenê,,,contra,RSSSF
 2004-0113,Santo André,Osmar,,,normal,RSSSF
 2004-0113,Santo André,Ramalho,,,normal,RSSSF
 2004-0113,Flamengo,Roger,,,normal,RSSSF
@@ -687,44 +689,44 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0003,Mineiros,Castor,29,,normal,RSSSF
 2006-0003,Mineiros,Marcinho,8,,normal,RSSSF
 2006-0003,Americano-RJ,Pirão,84,,normal,RSSSF
-2006-0004,Operário-MS,Reinaldo,73,,normal,RSSSF
-2006-0004,Botafogo,Dodô,35,,normal,RSSSF
-2006-0004,Botafogo,Dodô,69,,normal,RSSSF
-2006-0005,URT,Carabina,3,,normal,RSSSF
-2006-0005,URT,Thiago Vieira,17,,normal,RSSSF
-2006-0005,URT,Thiago Vieira,48,,normal,RSSSF
-2006-0005,Londrina,Eduardo,44,,normal,RSSSF
-2006-0005,Londrina,Rogério,72,,normal,RSSSF
-2006-0006,Canoas,Alê Menezes,11,,normal,RSSSF
-2006-0006,Canoas,Valdison,90,4,normal,RSSSF
-2006-0006,Iraty,André,13,,normal,RSSSF
-2006-0006,Iraty,Luís Paulo,25,,normal,RSSSF
-2006-0006,Iraty,Russo,61,,normal,RSSSF
-2006-0006,Iraty,Mateus,74,,normal,RSSSF
-2006-0007,Cabofriense,Sorato,22,,normal,RSSSF
-2006-0007,São Caetano,Marcel,27,,normal,RSSSF
-2006-0008,Novo Hamburgo,Washington,25,,normal,RSSSF
-2006-0008,Novo Hamburgo,Dudu,69,,normal,RSSSF
-2006-0008,Criciúma,Fernandinho,46,,normal,RSSSF
-2006-0008,Criciúma,Fernandinho,62,,normal,RSSSF
-2006-0010,Paysandu,Sílvio,35,,normal,RSSSF
-2006-0010,Paysandu,San,46,,normal,RSSSF
-2006-0011,Grêmio Coariense,Zedivan,43,,normal,RSSSF
-2006-0011,Grêmio Coariense,Jair,59,,normal,RSSSF
-2006-0011,Vila Nova-GO,Adrianinho,2,,normal,RSSSF
-2006-0011,Vila Nova-GO,Adrianinho,9,,normal,RSSSF
-2006-0011,Vila Nova-GO,Donizete,21,,contra,RSSSF
-2006-0011,Vila Nova-GO,Marques,82,,normal,RSSSF
-2006-0011,Vila Nova-GO,Danilo Santos,90,,normal,RSSSF
-2006-0012,Atlético-MG,Renato,46,,contra,RSSSF
-2006-0012,Atlético-MG,Ramón,63,,normal,RSSSF
-2006-0012,Atlético-MG,Zé Antônio,72,,normal,RSSSF
-2006-0014,Botafogo-PB,Neto,57,,normal,RSSSF
-2006-0014,Vasco,Morais,13,,normal,RSSSF
-2006-0015,Moto Club,Válger,83,,normal,RSSSF
-2006-0015,Athletico-PR,Dagoberto,5,,normal,RSSSF
-2006-0015,Athletico-PR,Paulo André,7,,normal,RSSSF
-2006-0015,Athletico-PR,Ferreira,30,,normal,RSSSF
+2006-0004,URT,Carabina,3,,normal,RSSSF
+2006-0004,URT,Thiago Vieira,17,,normal,RSSSF
+2006-0004,URT,Thiago Vieira,48,,normal,RSSSF
+2006-0004,Londrina,Eduardo,44,,normal,RSSSF
+2006-0004,Londrina,Rogério,72,,normal,RSSSF
+2006-0005,Canoas,Alê Menezes,11,,normal,RSSSF
+2006-0005,Canoas,Valdison,90,4,normal,RSSSF
+2006-0005,Iraty,André,13,,normal,RSSSF
+2006-0005,Iraty,Luís Paulo,25,,normal,RSSSF
+2006-0005,Iraty,Russo,61,,normal,RSSSF
+2006-0005,Iraty,Mateus,74,,normal,RSSSF
+2006-0006,Cabofriense,Sorato,22,,normal,RSSSF
+2006-0006,São Caetano,Marcel,27,,normal,RSSSF
+2006-0007,Novo Hamburgo,Washington,25,,normal,RSSSF
+2006-0007,Novo Hamburgo,Dudu,69,,normal,RSSSF
+2006-0007,Criciúma,Fernandinho,46,,normal,RSSSF
+2006-0007,Criciúma,Fernandinho,62,,normal,RSSSF
+2006-0009,Paysandu,Sílvio,35,,normal,RSSSF
+2006-0009,Paysandu,San,46,,normal,RSSSF
+2006-0010,Grêmio Coariense,Zedivan,43,,normal,RSSSF
+2006-0010,Grêmio Coariense,Jair,59,,normal,RSSSF
+2006-0010,Vila Nova-GO,Adrianinho,2,,normal,RSSSF
+2006-0010,Vila Nova-GO,Adrianinho,9,,normal,RSSSF
+2006-0010,Vila Nova-GO,Donizete,21,,contra,RSSSF
+2006-0010,Vila Nova-GO,Marques,82,,normal,RSSSF
+2006-0010,Vila Nova-GO,Danilo Santos,90,,normal,RSSSF
+2006-0011,Atlético-MG,Renato,46,,contra,RSSSF
+2006-0011,Atlético-MG,Ramón,63,,normal,RSSSF
+2006-0011,Atlético-MG,Zé Antônio,72,,normal,RSSSF
+2006-0013,Botafogo-PB,Neto,57,,normal,RSSSF
+2006-0013,Vasco,Morais,13,,normal,RSSSF
+2006-0014,Moto Club,Válger,83,,normal,RSSSF
+2006-0014,Athletico-PR,Dagoberto,5,,normal,RSSSF
+2006-0014,Athletico-PR,Paulo André,7,,normal,RSSSF
+2006-0014,Athletico-PR,Ferreira,30,,normal,RSSSF
+2006-0016,Operário-MS,Reinaldo,73,,normal,RSSSF
+2006-0016,Botafogo,Dodô,35,,normal,RSSSF
+2006-0016,Botafogo,Dodô,69,,normal,RSSSF
 2006-0018,Náutico,Flávio,68,,normal,RSSSF
 2006-0021,Potiguar,Erivélton,41,,normal,RSSSF
 2006-0021,Potiguar,Erivélton,90,,normal,RSSSF
@@ -898,9 +900,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2006-0105,Ipatinga,Kléber,22,,normal,RSSSF
 2006-0105,Santos,Henrique,41,,normal,RSSSF
 2006-0106,Fluminense,Marcelo,77,,normal,RSSSF
-2006-0108,Vasco,Edílson,76,,normal,RSSSF
-2006-0109,Ipatinga,Camanducaia,90,1,normal,RSSSF
-2006-0109,Flamengo,Obina,37,,normal,RSSSF
+2006-0108,Ipatinga,Camanducaia,90,1,normal,RSSSF
+2006-0108,Flamengo,Obina,37,,normal,RSSSF
+2006-0109,Vasco,Edílson,76,,normal,RSSSF
 2006-0110,Vasco,Petkovic,47,,normal,RSSSF
 2006-0110,Fluminense,Valdiram,32,,normal,RSSSF
 2006-0112,Flamengo,Obina,60,,normal,RSSSF
@@ -1327,6 +1329,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2008-0068,Sport,Dutra,33,,normal,RSSSF
 2008-0068,Sport,Romerito,77,,normal,RSSSF
 2008-0069,Corinthians-AL,Fábio Neves,57,,normal,RSSSF
+2008-0070,Juventude,Mendes,78,,penalti,RSSSF
+2008-0070,Juventude,Mendes,88,,normal,RSSSF
+2008-0070,Juventude,Maicon,81,,normal,RSSSF
 2008-0072,Icasa,Toni,36,,normal,RSSSF
 2008-0072,Criciúma,Wecsley,1,,normal,RSSSF
 2008-0072,Criciúma,Jael,51,,normal,RSSSF
@@ -1465,6 +1470,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0032,Fortaleza,Marcelo Nicácio,23,,normal,RSSSF
 2009-0032,Fortaleza,Marcelo Nicácio,48,,penalti,RSSSF
 2009-0032,Fortaleza,Marcelo Nicácio,72,,normal,RSSSF
+2009-0033,Criciúma,Zulu,21,,normal,RSSSF
+2009-0033,Criciúma,Kempes,50,,normal,RSSSF
+2009-0033,Criciúma,Kempes,86,,normal,RSSSF
 2009-0035,ASA,Augusto,69,,penalti,RSSSF
 2009-0035,Vitória,Gláucio,31,,normal,RSSSF
 2009-0036,Corinthians,Chicão,44,,penalti,RSSSF
@@ -1543,16 +1551,16 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0076,Águia,Aleílson,1,,normal,RSSSF
 2009-0076,Águia,Sinésio,35,,penalti,RSSSF
 2009-0076,Fluminense,Fred,85,,normal,RSSSF
-2009-0080,Fluminense,Maicon,57,,normal,RSSSF
-2009-0080,Fluminense,Maicon,67,,normal,RSSSF
-2009-0080,Fluminense,Eduardo Ratinho,77,,normal,RSSSF
-2009-0082,Paraná,Bambam,77,,normal,RSSSF
-2009-0082,Fortaleza,Agenor,44,,normal,RSSSF
-2009-0083,Internacional,Índio,7,,normal,RSSSF
-2009-0083,Internacional,Alecsandro,16,,normal,RSSSF
-2009-0083,Internacional,Alecsandro,52,,normal,RSSSF
-2009-0083,Internacional,Taison,32,,normal,RSSSF
-2009-0083,Internacional,Bolívar,74,,normal,RSSSF
+2009-0081,Paraná,Bambam,77,,normal,RSSSF
+2009-0081,Fortaleza,Agenor,44,,normal,RSSSF
+2009-0082,Internacional,Índio,7,,normal,RSSSF
+2009-0082,Internacional,Alecsandro,16,,normal,RSSSF
+2009-0082,Internacional,Alecsandro,52,,normal,RSSSF
+2009-0082,Internacional,Taison,32,,normal,RSSSF
+2009-0082,Internacional,Bolívar,74,,normal,RSSSF
+2009-0085,Fluminense,Maicon,57,,normal,RSSSF
+2009-0085,Fluminense,Maicon,67,,normal,RSSSF
+2009-0085,Fluminense,Eduardo Ratinho,77,,normal,RSSSF
 2009-0087,Coritiba,Marcelinho Paraíba,39,,penalti,RSSSF
 2009-0087,Coritiba,Marcelinho Paraíba,61,,normal,RSSSF
 2009-0087,Coritiba,Márcio Gabriel,55,,normal,RSSSF
@@ -1579,6 +1587,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2009-0096,Atlético-MG,Alessandro,85,,normal,RSSSF
 2009-0097,Corinthians,Ronaldo,55,,normal,RSSSF
 2009-0097,Corinthians,Ronaldo,68,,penalti,RSSSF
+2009-0100,Internacional,Taison,1,,normal,RSSSF
+2009-0100,Internacional,D'Alessandro,7,,normal,RSSSF
 2009-0101,Fluminense,Jael,76,,normal,RSSSF
 2009-0101,Goiás,Thiago Neves,52,,normal,RSSSF
 2009-0102,Ponte Preta,William,54,,normal,RSSSF
@@ -1775,6 +1785,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2010-0081,Avaí,Caio,68,,normal,RSSSF
 2010-0082,Guarani,Fabinho Almeida,34,,normal,RSSSF
 2010-0082,Guarani,Marcinho,68,,normal,RSSSF
+2010-0083,Sport,Dirley,39,,normal,RSSSF
 2010-0084,Grêmio,Jonas,14,,normal,RSSSF
 2010-0084,Grêmio,Maylson,18,,normal,RSSSF
 2010-0084,Grêmio,Rodrigo,68,,normal,RSSSF
@@ -1937,6 +1948,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2011-0030,Avaí,William,64,,normal,RSSSF
 2011-0030,Avaí,William,77,,normal,RSSSF
 2011-0031,Ipatinga,Léo Medeiro,21,,normal,RSSSF
+2011-0032,Ponte Preta,João Paulo,20,,normal,RSSSF
 2011-0033,IAPE,Vanvan,14,,normal,RSSSF
 2011-0033,IAPE,Vanvan,38,,normal,RSSSF
 2011-0033,Atlético-MG,Renan Oliveira,6,,normal,RSSSF
@@ -2015,6 +2027,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2011-0066,Horizonte,Márcio Guerreiro,42,,normal,RSSSF
 2011-0066,Horizonte,Dairo,90,1,normal,RSSSF
 2011-0072,Santa Cruz,Rodrigo Souto,34,,contra,RSSSF
+2011-0073,Goiás,Guto,10,,normal,RSSSF
+2011-0073,Goiás,Guto,31,,normal,RSSSF
+2011-0073,Goiás,Felipe Amorim,47,,normal,RSSSF
 2011-0074,Barueri,Eraldo,10,,normal,RSSSF
 2011-0074,Barueri,Juan,36,,normal,RSSSF
 2011-0074,Atlético-MG,Magno Alves,34,,normal,RSSSF
@@ -2047,6 +2062,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2011-0094,Flamengo,Rafael Galhardo,8,,normal,RSSSF
 2011-0094,Flamengo,Deivid,48,,normal,RSSSF
 2011-0094,Flamengo,Willians,80,,normal,RSSSF
+2011-0096,São Paulo,Dagoberto,19,,normal,RSSSF
 2011-0097,Coritiba,Emerson,72,,normal,RSSSF
 2011-0098,Athletico-PR,Guerron,51,,normal,RSSSF
 2011-0098,Athletico-PR,Paulo Baier,87,,penalti,RSSSF
@@ -2096,6 +2112,11 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2012-0011,Paysandu,Kariri,67,,normal,RSSSF
 2012-0012,Brasiliense,Bachin,26,,normal,RSSSF
 2012-0012,Brasiliense,Luan,76,,normal,RSSSF
+2012-0013,ABC,Raul,32,,normal,RSSSF
+2012-0013,ABC,Elielton,45,2,normal,RSSSF
+2012-0013,ABC,Murilo,56,,normal,RSSSF
+2012-0013,ABC,Murilo,90,,normal,RSSSF
+2012-0013,ABC,Edson,79,,normal,RSSSF
 2012-0014,Cruzeiro,Wallysson,6,,normal,RSSSF
 2012-0014,Cruzeiro,Wallysson,49,,normal,RSSSF
 2012-0014,Cruzeiro,Wallysson,82,,normal,RSSSF
@@ -2280,6 +2301,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2012-0107,Palmeiras,Mazinho,86,,normal,RSSSF
 2012-0107,Palmeiras,Barcos,90,1,normal,RSSSF
 2012-0108,São Paulo,Lucas,88,,normal,RSSSF
+2012-0109,Coritiba,Emerson,28,,normal,RSSSF
+2012-0109,Coritiba,Everton Ribeiro,61,,normal,RSSSF
 2012-0110,Palmeiras,Fernando,66,,normal,RSSSF
 2012-0110,Grêmio,Valdivia,72,,normal,RSSSF
 2012-0111,Palmeiras,Valdívia,45,2,penalti,RSSSF
@@ -2470,6 +2493,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0105,Cruzeiro,Borges,48,,normal,RSSSF
 2013-0105,Cruzeiro,Lucca,88,,normal,RSSSF
 2013-0107,Coritiba,Geraldo,29,,normal,RSSSF
+2013-0108,Fortaleza,Assisinho,1,,normal,RSSSF
+2013-0108,Fortaleza,Assisinho,73,,normal,RSSSF
+2013-0108,Fortaleza,Marinho Donizete,23,,normal,RSSSF
+2013-0108,Fortaleza,Fabrício,85,,normal,RSSSF
 2013-0110,Goiás,Amaral,37,,normal,RSSSF
 2013-0110,Goiás,Renan Oliveira,46,,normal,RSSSF
 2013-0110,Goiás,Walter,84,,penalti,RSSSF
@@ -2524,6 +2551,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0141,Athletico-PR,Émerson,33,,normal,RSSSF
 2013-0141,Athletico-PR,Paulo Baier,67,,normal,RSSSF
 2013-0141,Athletico-PR,Éderson,77,,normal,RSSSF
+2013-0142,Flamengo,Elias,88,,normal,RSSSF
 2013-0143,Salgueiro,Jorge Henrique,13,,normal,RSSSF
 2013-0143,Salgueiro,Alex,63,,normal,RSSSF
 2013-0143,Internacional,Ranieri,56,,normal,RSSSF
@@ -2533,6 +2561,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2013-0147,Vasco,Edmilson,2,,normal,RSSSF
 2013-0148,Botafogo,Edilson,57,,normal,RSSSF
 2013-0148,Flamengo,André Santos,12,,normal,RSSSF
+2013-0151,Flamengo,Hernane,20,,normal,RSSSF
+2013-0151,Flamengo,Hernane,33,,normal,RSSSF
+2013-0151,Flamengo,Hernane,58,,normal,RSSSF
+2013-0151,Flamengo,Léo Moura,71,,normal,RSSSF
 2013-0153,Athletico-PR,Dellatorre,36,,normal,RSSSF
 2013-0154,Goiás,Vítor,38,,normal,RSSSF
 2013-0154,Flamengo,Paulinho,25,,normal,RSSSF
@@ -2625,6 +2657,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0038,Avaí,Marquinhos,28,,normal,RSSSF
 2014-0038,Avaí,Diego Jardel,75,,normal,RSSSF
 2014-0038,Avaí,Hélder,90,,normal,RSSSF
+2014-0039,Chapecoense,Roni,47,,normal,RSSSF
+2014-0039,Chapecoense,Rafael Lima,75,,normal,RSSSF
 2014-0041,Novo Hamburgo,Douglas,71,,penalti,RSSSF
 2014-0042,Náutico,Marcelinho,79,,normal,RSSSF
 2014-0045,Atlético-GO,Júnior Viçosa,61,,normal,RSSSF
@@ -2719,9 +2753,9 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2014-0102,Palmeiras,Felipe Menezes,90,1,normal,RSSSF
 2014-0103,Botafogo-PB,Lenílson,21,,normal,RSSSF
 2014-0103,Santa Cruz,Pingo,15,,normal,RSSSF
-2014-0105,Paysandu,Yago Pikachu,50,,normal,RSSSF
-2014-0105,Paysandu,Marcos Paraná,73,,normal,RSSSF
-2014-0105,Sport,Felipe Azevedo,54,,normal,RSSSF
+2014-0104,Paysandu,Yago Pikachu,50,,normal,RSSSF
+2014-0104,Paysandu,Marcos Paraná,73,,normal,RSSSF
+2014-0104,Sport,Felipe Azevedo,54,,normal,RSSSF
 2014-0108,Ceará,Leandro,45,,normal,RSSSF
 2014-0108,Chapecoense,Eduardo,34,,normal,RSSSF
 2014-0111,ABC,Rodrigo Silva,90,4,penalti,RSSSF
@@ -2890,10 +2924,10 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0053,Athletico-PR,Felipe,47,,penalti,RSSSF
 2015-0055,Vitória,Rogério,79,,normal,RSSSF
 2015-0055,Anapolina,Pedro Oldoni,33,,normal,RSSSF
-2015-0056,Madureira,Rodrigo Pinho,6,,normal,RSSSF
-2015-0056,Madureira,João Carlos,12,,normal,RSSSF
-2015-0056,Madureira,Ryan,20,,normal,RSSSF
-2015-0056,Maringá,Edmar,82,,normal,RSSSF
+2015-0057,Madureira,Rodrigo Pinho,6,,normal,RSSSF
+2015-0057,Madureira,João Carlos,12,,normal,RSSSF
+2015-0057,Madureira,Ryan,20,,normal,RSSSF
+2015-0057,Maringá,Edmar,82,,normal,RSSSF
 2015-0058,Santos,Elano,49,,normal,RSSSF
 2015-0059,Joinville,Tiago Luís,32,,normal,RSSSF
 2015-0060,Boa Esporte,Pedro Augusto,26,,normal,RSSSF
@@ -3008,6 +3042,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2015-0122,Paysandu,Fahel,71,,normal,RSSSF
 2015-0122,Paysandu,Yago Pikachu,84,,penalti,RSSSF
 2015-0123,Grêmio,Pedro Rocha,67,,normal,RSSSF
+2015-0125,Bahia,Souza,76,,penalti,RSSSF
+2015-0125,Bahia,Kieza,86,,normal,RSSSF
 2015-0126,Santos,Gabriel,1,,normal,RSSSF
 2015-0126,Santos,Gabriel,35,,normal,RSSSF
 2015-0126,Santos,Geuvânio,57,,normal,RSSSF
@@ -3138,6 +3174,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0041,Red Bull Bragantino II,Bryan,25,,normal,RSSSF
 2016-0041,América-MG,Edmilson,41,,penalti,RSSSF
 2016-0042,Internacional-SC,André Gava,18,,normal,RSSSF
+2016-0043,Bragantino,Alemão,53,,normal,RSSSF
+2016-0043,Bragantino,Erick,79,,normal,RSSSF
 2016-0044,ABC,Echeverria,59,,normal,RSSSF
 2016-0044,ABC,Echeverria,75,,normal,RSSSF
 2016-0044,ABC,Jones,73,,normal,RSSSF
@@ -3289,6 +3327,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2016-0124,Cruzeiro,Bruno Ramires,22,,normal,RSSSF
 2016-0124,Cruzeiro,Ábila,46,,normal,RSSSF
 2016-0124,Vitória,Marinho,71,,normal,RSSSF
+2016-0128,Botafogo,Vinícius Tanque,80,,normal,RSSSF
 2016-0130,Fluminense,Cícero,72,,normal,RSSSF
 2016-0130,Fluminense,Magno Alves,81,,normal,RSSSF
 2016-0132,Fortaleza,Lima,13,,normal,RSSSF
@@ -3354,6 +3393,7 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0007,PSTC,Lucas Trindade,40,,normal,RSSSF
 2017-0007,PSTC,Carlos Henrique,84,,normal,RSSSF
 2017-0007,Ypiranga-RS,Michel,73,,normal,RSSSF
+2017-0008,Osasco Audax,Rafinha,84,,normal,RSSSF
 2017-0009,7 de Setembro-MS,Juan,45,,normal,RSSSF
 2017-0010,Gurupi,Patrick,3,,normal,RSSSF
 2017-0010,Gurupi,Alan,24,,normal,RSSSF
@@ -3383,44 +3423,44 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0021,Boavista-RJ,Marcelo Nicácio,90,6,penalti,RSSSF
 2017-0022,Ceilândia,Elivelto,64,,penalti,RSSSF
 2017-0022,ABC,Erivélton,27,,normal,RSSSF
-2017-0023,Brusque,Jonatas Belusso,24,,normal,RSSSF
-2017-0023,Brusque,Ricardo Lobo,57,,normal,RSSSF
-2017-0023,Remo,Zé Antônio Potiguar,33,,normal,RSSSF
-2017-0024,Desportiva-ES,Rael Cruel,72,,penalti,RSSSF
-2017-0024,Avaí,Diego Jardel,26,,normal,RSSSF
-2017-0024,Avaí,Rômulo,60,,normal,RSSSF
-2017-0025,Oeste,Mazinho,69,,normal,RSSSF
-2017-0026,URT,Allan Dias,65,,normal,RSSSF
-2017-0026,Luverdense,Macena,32,,normal,RSSSF
-2017-0026,Luverdense,Ricardo,90,,normal,RSSSF
-2017-0028,Joinville,Aldair,52,,normal,RSSSF
-2017-0029,Atlético Cearense,Edson Cariús,63,,penalti,RSSSF
-2017-0029,Portuguesa,Bruno Xavier,57,,normal,RSSSF
-2017-0029,Portuguesa,Brunão,84,,normal,RSSSF
-2017-0030,São Raimundo-PA,Tiago,34,,normal,RSSSF
-2017-0030,São Raimundo-PA,Tiago,73,,normal,RSSSF
-2017-0030,Fortaleza,Heitor,24,,normal,RSSSF
-2017-0031,Itabaiana,Diego Neves,60,,penalti,RSSSF
-2017-0031,Itabaiana,Paulinho Macaíba,79,,normal,RSSSF
-2017-0031,Goiás,Léo Gamalho,6,,normal,RSSSF
-2017-0031,Goiás,Léo Gamalho,14,,normal,RSSSF
-2017-0031,Goiás,Carlos Eduardo,39,,normal,RSSSF
-2017-0031,Goiás,Pedro Bambu,55,,normal,RSSSF
-2017-0032,Volta Redonda,Higor Leite,67,,normal,RSSSF
-2017-0032,Cruzeiro,Alisson,14,,normal,RSSSF
-2017-0032,Cruzeiro,Robinho,60,,normal,RSSSF
-2017-0033,Globo FC,Dênis,41,,normal,RSSSF
-2017-0033,Globo FC,Gláucio,73,,normal,RSSSF
-2017-0033,Fluminense,Lucas,5,,normal,RSSSF
-2017-0033,Fluminense,Henrique Ceifador,22,,normal,RSSSF
-2017-0033,Fluminense,Henrique Ceifador,32,,normal,RSSSF
-2017-0033,Fluminense,Wellington,49,,normal,RSSSF
-2017-0033,Fluminense,Gustavo Scarpa,63,,normal,RSSSF
-2017-0034,Internacional,Valdívia,60,,normal,RSSSF
-2017-0034,Internacional,Brenner,80,,normal,RSSSF
-2017-0035,Guarani de Juazeiro,Ítalo,53,,normal,RSSSF
-2017-0036,Rio Branco-AC,Leó Fernandes,81,,normal,RSSSF
-2017-0037,Criciúma,Alex Maranhão,84,,normal,RSSSF
+2017-0023,Desportiva-ES,Rael Cruel,72,,penalti,RSSSF
+2017-0023,Avaí,Diego Jardel,26,,normal,RSSSF
+2017-0023,Avaí,Rômulo,60,,normal,RSSSF
+2017-0024,Oeste,Mazinho,69,,normal,RSSSF
+2017-0025,URT,Allan Dias,65,,normal,RSSSF
+2017-0025,Luverdense,Macena,32,,normal,RSSSF
+2017-0025,Luverdense,Ricardo,90,,normal,RSSSF
+2017-0027,Joinville,Aldair,52,,normal,RSSSF
+2017-0028,Atlético Cearense,Edson Cariús,63,,penalti,RSSSF
+2017-0028,Portuguesa,Bruno Xavier,57,,normal,RSSSF
+2017-0028,Portuguesa,Brunão,84,,normal,RSSSF
+2017-0029,São Raimundo-PA,Tiago,34,,normal,RSSSF
+2017-0029,São Raimundo-PA,Tiago,73,,normal,RSSSF
+2017-0029,Fortaleza,Heitor,24,,normal,RSSSF
+2017-0030,Itabaiana,Diego Neves,60,,penalti,RSSSF
+2017-0030,Itabaiana,Paulinho Macaíba,79,,normal,RSSSF
+2017-0030,Goiás,Léo Gamalho,6,,normal,RSSSF
+2017-0030,Goiás,Léo Gamalho,14,,normal,RSSSF
+2017-0030,Goiás,Carlos Eduardo,39,,normal,RSSSF
+2017-0030,Goiás,Pedro Bambu,55,,normal,RSSSF
+2017-0031,Volta Redonda,Higor Leite,67,,normal,RSSSF
+2017-0031,Cruzeiro,Alisson,14,,normal,RSSSF
+2017-0031,Cruzeiro,Robinho,60,,normal,RSSSF
+2017-0032,Globo FC,Dênis,41,,normal,RSSSF
+2017-0032,Globo FC,Gláucio,73,,normal,RSSSF
+2017-0032,Fluminense,Lucas,5,,normal,RSSSF
+2017-0032,Fluminense,Henrique Ceifador,22,,normal,RSSSF
+2017-0032,Fluminense,Henrique Ceifador,32,,normal,RSSSF
+2017-0032,Fluminense,Wellington,49,,normal,RSSSF
+2017-0032,Fluminense,Gustavo Scarpa,63,,normal,RSSSF
+2017-0033,Internacional,Valdívia,60,,normal,RSSSF
+2017-0033,Internacional,Brenner,80,,normal,RSSSF
+2017-0034,Guarani de Juazeiro,Ítalo,53,,normal,RSSSF
+2017-0035,Rio Branco-AC,Leó Fernandes,81,,normal,RSSSF
+2017-0036,Criciúma,Alex Maranhão,84,,normal,RSSSF
+2017-0037,Brusque,Jonatas Belusso,24,,normal,RSSSF
+2017-0037,Brusque,Ricardo Lobo,57,,normal,RSSSF
+2017-0037,Remo,Zé Antônio Potiguar,33,,normal,RSSSF
 2017-0038,Sinop,Jorge Prea,83,,normal,RSSSF
 2017-0039,Bahia,Régis,53,,normal,RSSSF
 2017-0039,Bahia,Diego Rosa,68,,normal,RSSSF
@@ -3450,23 +3490,25 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0047,Oeste,Tiago Adan,49,,normal,RSSSF
 2017-0048,ASA,Eron,45,,normal,RSSSF
 2017-0048,ASA,Leandro Kivel,90,3,normal,RSSSF
-2017-0049,Sampaio Corrêa,Giovani,49,,normal,RSSSF
-2017-0049,Sampaio Corrêa,Breno,66,,normal,RSSSF
-2017-0050,Joinville,Aldair,24,,penalti,RSSSF
-2017-0051,Sinop,Alex,17,,normal,RSSSF
-2017-0051,Fluminense,Sornoza,52,,normal,RSSSF
-2017-0051,Fluminense,Sornoza,81,,normal,RSSSF
-2017-0051,Fluminense,Henrique Dourado,72,,penalti,RSSSF
-2017-0052,Avaí,Júnior Dutra,65,,normal,RSSSF
-2017-0052,Luverdense,Diogo Sodré,13,,normal,RSSSF
-2017-0053,PSTC,Lucão,14,,normal,RSSSF
-2017-0053,PSTC,Carlos Henrique,44,,normal,RSSSF
-2017-0053,São Paulo,Cícero,13,,normal,RSSSF
-2017-0053,São Paulo,Cícero,35,,normal,RSSSF
-2017-0053,São Paulo,Cícero,71,,normal,RSSSF
-2017-0053,São Paulo,Cueva,42,,penalti,RSSSF
-2017-0055,Gurupi,Ederson,66,,normal,RSSSF
-2017-0055,Gurupi,Ederson,89,,normal,RSSSF
+2017-0049,Joinville,Aldair,24,,penalti,RSSSF
+2017-0050,Sinop,Alex,17,,normal,RSSSF
+2017-0050,Fluminense,Sornoza,52,,normal,RSSSF
+2017-0050,Fluminense,Sornoza,81,,normal,RSSSF
+2017-0050,Fluminense,Henrique Dourado,72,,penalti,RSSSF
+2017-0051,Avaí,Júnior Dutra,65,,normal,RSSSF
+2017-0051,Luverdense,Diogo Sodré,13,,normal,RSSSF
+2017-0052,PSTC,Lucão,14,,normal,RSSSF
+2017-0052,PSTC,Carlos Henrique,44,,normal,RSSSF
+2017-0052,São Paulo,Cícero,13,,normal,RSSSF
+2017-0052,São Paulo,Cícero,35,,normal,RSSSF
+2017-0052,São Paulo,Cícero,71,,normal,RSSSF
+2017-0052,São Paulo,Cueva,42,,penalti,RSSSF
+2017-0053,ABC,Caio Mancha,85,,normal,RSSSF
+2017-0053,Osasco Audax,Léo Arthur,79,,normal,RSSSF
+2017-0054,Gurupi,Ederson,66,,normal,RSSSF
+2017-0054,Gurupi,Ederson,89,,normal,RSSSF
+2017-0055,Sampaio Corrêa,Giovani,49,,normal,RSSSF
+2017-0055,Sampaio Corrêa,Breno,66,,normal,RSSSF
 2017-0058,Vila Nova-GO,Wallyson,31,,penalti,RSSSF
 2017-0058,Vasco,Thalles,16,,normal,RSSSF
 2017-0058,Vasco,Wagner,84,,normal,RSSSF
@@ -3496,6 +3538,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2017-0068,Vitória,Patric,78,,penalti,RSSSF
 2017-0069,Corinthians,Rodriguinho,20,,normal,RSSSF
 2017-0069,Corinthians,Gabriel,24,,normal,RSSSF
+2017-0071,ABC,Cueva,37,,normal,RSSSF
+2017-0071,São Paulo,Márcio Passos,1,,normal,RSSSF
 2017-0072,Gurupi,Ederson,57,,normal,RSSSF
 2017-0073,Sport,Diego Souza,31,,normal,RSSSF
 2017-0074,Cruzeiro,Claudio,30,,contra,RSSSF
@@ -3588,6 +3632,8 @@ partida_id,clube,jogador,minuto,acrescimo,tipo,fonte
 2018-0013,Figueirense,André Luís,20,,normal,RSSSF
 2018-0013,Figueirense,João Lucas,66,,normal,RSSSF
 2018-0014,Joinville,Elias,79,,normal,RSSSF
+2018-0015,Cordino,Ulisses,30,,penalti,RSSSF
+2018-0015,Náutico,Camutanga,82,,normal,RSSSF
 2018-0016,São Paulo,Brenner,16,,normal,RSSSF
 2018-0017,Londrina,Germano,27,,normal,RSSSF
 2018-0018,Fluminense-BA,Maranhão,40,,normal,RSSSF

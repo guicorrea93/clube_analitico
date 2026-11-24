@@ -31,7 +31,7 @@ sys.path.insert(0, str(AQUI))
 import clubes_c  # noqa: E402
 import datas_corrigidas  # noqa: E402
 import gols as gols_rsssf  # noqa: E402
-from observacao import penaltis_da_nota  # noqa: E402
+from observacao import limpar_gols_texto, penaltis_da_nota  # noqa: E402
 import rsssf_c  # noqa: E402
 import wiki  # noqa: E402
 from edicoes import ANOS, NOME_OFICIAL, NOME_PADRAO, PACOTE, PASTA_DADOS, RELATORIO, SLUG  # noqa: E402
@@ -338,7 +338,7 @@ def ler_rsssf(ano: int, mapa: dict[str, str], rs: list) -> list[Partida]:
         p = Partida(ano, j.fase, j.grupo, j.rodada, j.data, m, v, j.gm, j.gv, hora=j.hora or None, especial=j.especial,
                     estadio=j.estadio or None, publico=j.publico, fonte=FONTE_RSSSF.format(ano=ano), gols_texto=j.gols, obs=j.nota, linha=j.linha)
         p.pen_m, p.pen_v = penaltis(f"{j.nota} {j.gols}")
-        txt = re.sub(r"\[pen \d+-\d+\]", "", j.gols or "").strip()   # pênaltis que vieram junto dos autores (2015)
+        txt = limpar_gols_texto(re.sub(r"\[pen \d+-\d+\]", "", j.gols or ""))   # pênaltis junto dos autores (2015); notas (QC-007)
         p.gols_texto = txt
         if txt:
             lidos = gols_rsssf.ler_planilha(txt, j.gm, j.gv) if j.hora or j.estadio else None

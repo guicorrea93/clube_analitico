@@ -38,21 +38,21 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 | 2001 | RSSSF + ogol | 64 | 117 (126) | 371 | 0 | 0 / 0 | Grêmio | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2002 | RSSSF + ogol | 64 | 117 (126) | 369 | 0 | 0 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2003 | RSSSF + ogol | 64 | 117 (126) | 350 | 230 | 0 / 0 | Cruzeiro | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2004 | RSSSF + ogol | 64 | 114 (126) | 325 | 209 | 0 / 0 | Santo André | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2004 | RSSSF + ogol | 64 | 114 (126) | 325 | 211 | 0 / 0 | Santo André | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2005 | RSSSF + ogol | 64 | 117 (126) | 331 | 235 | 0 / 0 | Paulista | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2006 | RSSSF + ogol | 64 | 113 (126) | 350 | 226 | 0 / 0 | Flamengo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2007 | RSSSF + ogol | 64 | 115 (126) | 327 | 252 | 0 / 0 | Fluminense | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2008 | RSSSF + ogol | 64 | 110 (126) | 342 | 225 | 0 / 0 | Sport | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2009 | RSSSF + ogol | 64 | 115 (126) | 315 | 227 | 0 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2010 | RSSSF + ogol | 64 | 116 (126) | 340 | 238 | 0 / 0 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2011 | RSSSF + ogol | 64 | 111 (126) | 315 | 223 | 0 / 0 | Vasco | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2012 | RSSSF + ogol | 64 | 112 (126) | 319 | 213 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2013 | RSSSF + ogol | 87 | 158 (172) | 364 | 257 | 0 / 0 | Flamengo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2014 | RSSSF + ogol | 87 | 159 (172) | 435 | 262 | 0 / 0 | Atlético-MG | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2015 | RSSSF + ogol | 87 | 158 (172) | 417 | 278 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2016 | RSSSF + ogol | 86 | 162 (170) | 370 | 256 | 0 / 0 | Grêmio | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2017 | RSSSF + ogol | 91 | 120 (120) | 282 | 228 | 0 / 0 | Cruzeiro | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
-| 2018 | RSSSF + ogol | 91 | 120 (120) | 253 | 220 | 0 / 0 | Cruzeiro | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2008 | RSSSF + ogol | 64 | 110 (126) | 342 | 228 | 0 / 0 | Sport | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2009 | RSSSF + ogol | 64 | 115 (126) | 315 | 232 | 0 / 0 | Corinthians | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2010 | RSSSF + ogol | 64 | 116 (126) | 340 | 239 | 0 / 0 | Santos | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2011 | RSSSF + ogol | 64 | 111 (126) | 315 | 228 | 0 / 0 | Vasco | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2012 | RSSSF + ogol | 64 | 112 (126) | 319 | 220 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2013 | RSSSF + ogol | 87 | 158 (172) | 364 | 266 | 0 / 0 | Flamengo | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2014 | RSSSF + ogol | 87 | 159 (172) | 435 | 264 | 0 / 0 | Atlético-MG | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2015 | RSSSF + ogol | 87 | 158 (172) | 417 | 280 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2016 | RSSSF + ogol | 86 | 162 (170) | 370 | 259 | 0 / 0 | Grêmio | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2017 | RSSSF + ogol | 91 | 120 (120) | 282 | 233 | 0 / 0 | Cruzeiro | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
+| 2018 | RSSSF + ogol | 91 | 120 (120) | 253 | 222 | 0 / 0 | Cruzeiro | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2019 | RSSSF + ogol | 91 | 120 (120) | 270 | 258 | 30 / 0 | Athletico-PR | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2020 | RSSSF + ogol | 91 | 120 (120) | 265 | 265 | 0 / 0 | Palmeiras | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
 | 2021 | RSSSF + ogol | 92 | 122 (122) | 299 | 299 | 0 / 0 | Atlético-MG | calculada (fase alcançada, pontos, vitórias, saldo, gols pró) |
@@ -87,6 +87,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - 3 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - jogo corrigido à mão — Goiás x Flamengo: o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
 - fases pela chave do mata-mata (Primeira fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Primeira fase (32); Segunda fase → Oitavas de final (14); First Round → Oitavas de final (2); Semifinal → Final (2)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Flamengo x Náutico 1990-09-12 -> 1990-09-13, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1991
 
@@ -102,6 +103,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - 1 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Primeira fase (32); Segunda fase → Oitavas de final (14); First Round → Oitavas de final (2); Semifinal → Final (2)
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Criciúma
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Paysandu x Coritiba 1991-03-19 -> 1991-03-21, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1992
 
@@ -145,6 +147,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo só no ogol, incluído em Semi-Finals: Grêmio 1-0 Ceará (1994-08-10)
 - 2 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Primeira fase (28); Segunda fase → Oitavas de final (14); First Round → Oitavas de final (2); Segunda fase → Quartas de final (2); Semifinal → Final (2)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Grêmio x Vitória 1994-06-05 -> 1994-06-04, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1995
 
@@ -171,6 +174,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - 2 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - jogo corrigido à mão — Nacional-AM x Cristal: RSSSF, Bola n@ Área e Wikipédias pt e en: 1-0 (o ogol dá 2-0; revisão QC-005)
 - fases pela chave do mata-mata (Fase preliminar 4 / Primeira fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Primeira fase (17); Segunda fase → Oitavas de final (16); Preliminary Round → Fase preliminar (6); Primeira fase → Fase preliminar (2); Semifinal → Final (2)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Vasco x Corinthians 1995-05-23 -> 1995-05-24, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1996
 
@@ -179,6 +183,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo só no ogol, incluído em First Round (1/16 Finals): Cruzeiro 1-1 Vasco (1996-04-17)
 - 1 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 8 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: Final → Segunda fase (27); Preliminary Round → Primeira fase (14); Final → Oitavas de final (2)
+- 3 datas corrigidas (datas_corrigidas.csv; ex.: Bahia x Coritiba 1996-03-06 -> 1996-03-07, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1997
 
@@ -186,6 +191,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - 2 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 12 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: Final → Segunda fase (29); Preliminary Round → Primeira fase (19); Segunda fase → Oitavas de final (16)
 - final sem vencedor nos placares (decidida por campanha ou fora de campo): campeão pela lista oficial, Grêmio
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Corinthians x Grêmio 1997-05-06 -> 1997-05-08, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1998
 
@@ -196,6 +202,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - 1 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - jogo corrigido à mão — Bahia x Botafogo-PB: RSSSF, Bola n@ Área e Wikipédias pt e en: 1-2; o Bahia passou pelo gol fora (4-4) (o ogol dá 2-1; revisão QC-005)
 - fases pela chave do mata-mata (Primeira fase 10 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Segunda fase (26); Preliminary Round → Primeira fase (19); Segunda fase → Oitavas de final (16)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: São Paulo x Sampaio Corrêa 1998-02-07 -> 1998-02-06, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 1999
 
@@ -238,6 +245,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - ida e volta de Castanhal x Ponte Preta vinham com a mesma data (2001-03-14); ficam 2001-03-14, 2001-03-21 (da página)
 - 2 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 32 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Primeira fase (58); Third Round → Oitavas de final (16)
+- 11 datas corrigidas (datas_corrigidas.csv; ex.: América-MG x Goiânia 2001-03-21 -> 2001-03-14, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2002
 
@@ -290,6 +298,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo só no ogol, incluído em Oitavas de final: 15 de Novembro 2-1 Volta Redonda (2006-04-19)
 - 3 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 32 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Primeira fase (53); First Round → Segunda fase (26); Third Round → Oitavas de final (14)
+- 2 datas corrigidas (datas_corrigidas.csv; ex.: Operário-MS x Botafogo 2006-02-15 -> 2006-02-16, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2007
 
@@ -316,6 +325,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 
 - 6 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 32 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round (18/02 to 19/03) → Primeira fase (56); First Round (18/02 to 19/03) → Segunda fase (29); First Round (18/02 to 19/03) → Oitavas de final (16); First Round (18/02 to 19/03) → Quartas de final (8)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Fluminense x Águia 2009-04-22 -> 2009-04-23, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2010
 
@@ -334,6 +344,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo só no ogol, incluído em Primeira fase: 4 de Julho 0-2 Sport (2012-03-15)
 - 3 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 32 / Segunda fase 16 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round (07/03 to 22/03) → Primeira fase (52); First Round (07/03 to 22/03) → Segunda fase (29); First Round (07/03 to 22/03) → Oitavas de final (16); First Round (07/03 to 22/03) → Quartas de final (8); First Round (07/03 to 22/03) → Semifinal (4); First Round (07/03 to 22/03) → Final (2)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Grêmio x Fortaleza 2012-05-09 -> 2012-05-10, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2013
 
@@ -354,7 +365,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo corrigido à mão — Atlético-MG x Cruzeiro: o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
 - jogo corrigido à mão — Cruzeiro x Atlético-MG: o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
 - fases pela chave do mata-mata (Fase preliminar 1 / Primeira fase 40 / Segunda fase 20 / Terceira fase 10 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round (03/04 to 25/04) → Primeira fase (69); First Round (03/04 to 25/04) → Segunda fase (37); Third Round → Terceira fase (20); Third Round → Oitavas de final (15); Third Round → Quartas de final (8); Third Round → Semifinal (4); Preliminary Phase → Fase preliminar (2); Third Round → Final (2)
-- 5 datas corrigidas (datas_corrigidas.csv; ex.: Naviraiense x Avaí 2014-04-02 -> 2014-04-03, Bola n@ Área e transfermarkt (QC-004))
+- 6 datas corrigidas (datas_corrigidas.csv; ex.: Naviraiense x Avaí 2014-04-02 -> 2014-04-03, Bola n@ Área e transfermarkt (QC-004))
 
 ### 2015
 
@@ -382,7 +393,7 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo corrigido à mão — Santos x Palmeiras: o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
 - jogo corrigido à mão — Palmeiras x Santos: o ogol dá o dia seguinte (jogo à noite no Brasil); data da Wikipédia pt e en (revisão CB-010)
 - fases pela chave do mata-mata (Fase preliminar 1 / Primeira fase 40 / Segunda fase 20 / Terceira fase 10 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round → Primeira fase (68); First Round → Segunda fase (36); Third Round → Terceira fase (20); Third Round → Oitavas de final (16); Quartas de final → Semifinal (4); Preliminary Phase → Fase preliminar (2)
-- 12 datas corrigidas (datas_corrigidas.csv; ex.: Princesa x Figueirense 2015-03-19 -> 2015-03-18, Bola n@ Área e transfermarkt (QC-004))
+- 13 datas corrigidas (datas_corrigidas.csv; ex.: Princesa x Figueirense 2015-03-19 -> 2015-03-18, Bola n@ Área e transfermarkt (QC-004))
 
 ### 2016
 
@@ -394,12 +405,14 @@ até 10 dias de diferença), vale o ogol: a RSSSF escreve o confronto do ponto d
 - jogo só no ogol, incluído em Primeira fase: Chapecoense 2-0 Princesa (2016-04-15)
 - 6 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 40 / Segunda fase 20 / Terceira fase 10 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round (16/03 to 25/05) → Primeira fase (73); First Round (16/03 to 25/05) → Segunda fase (37); Third Round (06 to 27/07) → Terceira fase (20); Third Round (06 to 27/07) → Oitavas de final (16); Third Round (06 to 27/07) → Quartas de final (8)
+- 1 datas corrigidas (datas_corrigidas.csv; ex.: Ceará x Botafogo-PB 2016-07-19 -> 2016-07-20, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2017
 
 - data diferente entre RSSSF e ogol (mais de 3 dias) em 1 jogos (ex.: Sinop x Fluminense, ogol 2017-03-01); fica a do ogol
 - 12 disputas de pênaltis tiradas do placar do ogol ou da nota da página (revisão CB-008)
 - fases pela chave do mata-mata (Primeira fase 40 / Segunda fase 20 / Terceira fase 10 / Quarta fase 5 / Oitavas de final 8 / Quartas de final 4 / Semifinal 2 / Final 1 confrontos); mudaram: First Round (08 to 15/02) → Primeira fase (40); First Round (08 to 15/02) → Segunda fase (20); First Round (08 to 15/02) → Terceira fase (20); First Round (08 to 15/02) → Quarta fase (10)
+- 2 datas corrigidas (datas_corrigidas.csv; ex.: Brusque x Remo 2017-02-15 -> 2017-02-16, ogol e Bola n@ Área contra a RSSSF (QC-006))
 
 ### 2018
 
