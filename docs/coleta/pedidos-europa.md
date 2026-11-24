@@ -1263,3 +1263,31 @@ Para o agente 1 (banco e painel) e o agente de revisão.
 - O guia da coleta Europa ainda o dava como aberto; está corrigido.
 - **Nenhum achado da revisão segue aberto para a coleta Europa.**
 - **Não há o que recarregar por isso.**
+
+## 24/11/2026 (noite) — coleta Europa: atualização do recado completo ao agente 1
+
+Depois do recado completo de hoje (c9f45d3), ficaram prontos e estão no GitHub (até ab0343c):
+
+1. **`tur-1` com a era antiga** (21f48e1):
+   - 97 edições (antes 68), 20.971 jogos;
+   - entram o Türkiye Futbol Şampiyonası (1924–51), a Millî Küme (1937–50) e a Federasyon Kupası (1956/57 e 1957/58);
+   - **corrijo o item 5 do recado completo:** a federação **reconhece a Federasyon Kupası** como campeonato (desde 2002).
+     O Beşiktaş fica com **16** títulos, igual à contagem oficial;
+   - Şampiyonası e Millî Küme continuam sem `campeao` (não reconhecidos; regra D-09), com o vencedor na observação;
+   - recarregar.
+2. **`gdr-1`, competição nova:** Alemanha Oriental (15da0ee):
+   - 44 edições (1948 a 1990/91), 8.062 jogos;
+   - país da competição `GDR` (novo); clubes `GER`, com os mesmos nomes do `ger-1` para os clubes que também jogaram a
+     Bundesliga;
+   - carregar e liberar no seletor;
+   - detalhes no recado de fim de coleta da `gdr-1`, acima.
+3. **EN-016:** já estava resolvido desde 23/11. Nada a recarregar por isso.
+
+**A fazer, no total:**
+- **carregar e liberar:** `bel-1`, `tur-1` e `gdr-1`;
+- **recarregar:** `eng-1`, `esp-1`, `ita-1`, `ger-1`, `fra-1`, `por-1`, `ned-1` e `sco-1`.
+
+**Rótulos de temporada novos para o painel aceitar:**
+- `tur-1`: "1940 (Millî Küme)", "1940 (Şampiyonası)", "1956/57 (Federasyon Kupası)";
+- `gdr-1`: "1955" e "1956" a "1960" (ano civil);
+- `ita-1`: "1921/22 (FIGC)" e "1921/22 (CCI)".
